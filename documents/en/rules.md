@@ -1375,7 +1375,12 @@ General fighting expertise.
 
 | Level | Name                 | AP | **Ob**  | Effect(s)          | Condition(s) |
 | ----- | -------------------- | -- | ------- | ------------------ | ------------ |
+| 1     | Protect Ally         | 3  | /       | When a designated ally next to is attacked, **you** defend against it, instead. | Adjacent to an ally. |
+| 2     | Shove                | 3  | Opposed | Push an enemy away from you 3'/1m. | Enemy is within melee reach. |
+| 2     | Opportunity Attacks  | 3  | Opposed | Whenever an enemy within your reach moves in any way, you get to strike them with a melee attack. They can defend themselves with a **+1D** bonus. |  |
 | 3     | Wrestle and Disarm   | 3  | Opposed | Perform a single target attack against a designated enemy. If you win, you disarm them and could wrestle them to the ground, if you so choose. | Disarm only if enemy is using weapon. |
+| 3     | Swap-out             | 3  | (Opposed) | Swap positions with an adjacent ally, if they let you. If they resist, you must succeed an opposed [strength](#strength-str) test, to swap with them against their will. | Adjacent to ally. |
+| 3     | Barge in             | 3  | Opposed | Push back an enemy within melee reach and take their position. You must succeed an opposed **fighting** test. | Enemy is within melee reach. | 
 
 #### Ranged Defence (Agi)
 Skill at evading projectiles. 
@@ -1428,8 +1433,7 @@ If an equipped shield is used to defend with, this skill is used instead of [mel
 | ----- | -------------------- | -- | ------- | ------------------ | ------------ |
 | 1     | Shield Wall          | 3  | /       | For any ally next to you, who's also using a shield, you both gain **+1D** on your defence tests until the start of your next turn. | Using shield; Adjacent to ally using shield. |
 | 2     | Shield Slam          | 2  | Opposed | Perform a single-target melee attack to knock your opponent down with your shield. | Using shield. |
-| 3     | Shield Ally          | 3  | /       | When a designated ally next to is attacked, **you** defend against it, instead. | Using shield; Adjacent to an ally. |
-| 5     | Unyielding           | 3  | /       | Until your next turn, you gain **+2D** to your **shield tests**. | Using shield; Once per combat. |
+| 4     | Unyielding           | 3  | /       | Until your next turn, you gain **+2D** to your **shield tests**. | Using shield; Once per combat. |
 
 #### Weapon < [weapon type](#weapon-types) > (Str)
 Expertise at handling a weapon of a specific [weapon type](#weapon-types). 
