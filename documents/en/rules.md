@@ -14,6 +14,7 @@
       - [Opposed Test](#opposed-test)
     - [Providing Assistance](#providing-assistance)
       - [Helpers Learn](#helpers-learn)
+      - [Tests Bring about Learning](#tests-bring-about-learning)
     - [Time](#time)
 - [Character](#character)
   - [Attributes](#attributes)
@@ -378,9 +379,18 @@ If a **PC** is helping another, their player must describe *how* they're using t
 Ultimately, whether a skill is appropriate to help with is determined by the **GM**. 
 
 #### Helpers Learn
-A character helping in a test, also gains [progress](#advancing-skills) towards the [skill](#skills) they've helped with. The outcome of the test for the character they helped, is their own outcome. 
+A character helping in a test, also gains [progress](#advancing-skills) towards the [skill](#skills) and [attribute](#attributes) they've helped with. The outcome of the test for the character they've helped, is their own outcome. 
 
 > If the character who was helped succeeded their test, the helper also gains a successful test to mark on their skill. 
+
+#### Tests Bring about Learning
+Whenever a [skill](#skills) or [attribute](#attributes) is tested, its outcome must be noted. 
+
+When a [skill](#skills) is tested, both it **and** its associated [attribute](#attributes) is progressed. See also:
+* [advancing skills](#advancing-skills)
+* [advancing attributes](#advancing-attributes)
+
+This excludes **Ob** 0 (= automatic success) tests. 
 
 ### Time
 Not all tests are created equal - some actions require more time than others. 
@@ -459,7 +469,7 @@ Governs a character's ability to convincingly speak with and before others. Also
 Governs a character's ability to withstand persuasion, intimidation, charm or terror. 
 
 ### Advancing Attributes
-Whenever a **PC** uses an attribute in a [test](#tests), the outcome must be noted. 
+Whenever a **PC** uses an attribute in a [test](#tests), the outcome must be noted. This includes skill tests that incorporate the attribute. This effectively means that a skill test also advances the skill's associated attribute. See also: [Tests Bring about Learning](#tests-bring-about-learning)
 
 Advancing an **attribute** requires:
 * (N + 1) * (N + 1) * 3 **complete successess**.
@@ -547,7 +557,7 @@ The outcome of a test gets noted on the skill it was made for, not the attribute
 It **is** possible to receive help or [tutoring](#teaching) on a learning skill. 
 
 ### Advancing Skills
-Whenever a **PC** uses a **skill** in a [test](#tests), the outcome must be noted. 
+Whenever a **PC** uses a **skill** in a [test](#tests), the outcome must be noted, both on the skill **and** its associated [attribute](#attributes). See also: [Tests Bring about Learning](#tests-bring-about-learning)
 
 Advancing a **skill** requires:
 * (N + 1) * N * 2 **complete successess**.
