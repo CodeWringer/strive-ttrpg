@@ -111,8 +111,6 @@
 - [Magic](#magic)
   - [Magic Stamina](#magic-stamina)
     - [Recovery](#recovery)
-  - [Spell Intensity](#spell-intensity)
-    - [Maximum Spell Intensity](#maximum-spell-intensity)
   - [Spell-Backfire](#spell-backfire)
   - [Magic Things](#magic-things)
     - [Abyssalite](#abyssalite)
@@ -1259,14 +1257,6 @@ Once spent, **magic stamina** can only be regained through **active rest or medi
 
 This implies not engaging in any physical or mental strains. 
 
-## Spell Intensity
-Any magic can be cast at different **intensities**. A greater **spell intensity** results in a greater effect, at a proportionally greater [magic stamina](#magic-stamina) cost. 
-
-### Maximum Spell Intensity
-A mage can only cast spells at an intensity up to a certain limit, called their **maximum spell intensity**. This number directly correlates to their skill in the type of [magic school](#magic-schools) they wish to use. 
-
-This means, for every [school of magic](#magic-schools) the mage knows, they may have a different **maximum spell intensity**. 
-
 ## Spell-Backfire
 A spell-backfire causes a spell to affect the caster, instead of their intended target. 
 
@@ -1288,7 +1278,7 @@ Its surface is unnaturally smooth and covered in a fine, iridescent shine. Under
 
 **Abyssalite** is a hard and brittle mineral, prone to shattering if too much force is applied. This makes it difficult to shape. It is also fairly heavy, which makes it difficult to carry long. 
 
-A fist-sized **Abyssalite** chunk has a [bulk](#carrying-capacity) of 2 and grants one greater [spell intensity](#spell-intensity), but without costing any [exhaustion](#exhaustion). In order to use the **Abyssalite**, the caster must be touching it. 
+A fist-sized **Abyssalite** chunk has a [bulk](#carrying-capacity) of 2 and grants one greater level in the respective school of magic, without costing any [exhaustion](#exhaustion). In order to use the **Abyssalite**, the caster must be touching it. 
 
 ### Amberite
 As magic is amplified by [Abyssalite](#abyssalite), its antithesis is called **Amberite**, a metal which dulls the effects of magic and slows any magic flow nearby it. The material is also known to affect magic creatures and can cause great pain in magic-users. 
@@ -1317,7 +1307,7 @@ What's more, it takes great skill to carve the right runes, as each rune's shape
 
 In order to craft a **rune**:
 * A **rune** can only be made to cast one type of magic. So the carver has to pick one of the [magic schools](#magic-schools). 
-* The maximum **level** at which a **rune** can be created, depends on the carver's skill. The **level** of the **rune** dictates the [spell intensity](#spell-intensity) it will cast its spell at. 
+* The maximum **level** at which a **rune** can be created, depends on the carver's skill. The **level** of the **rune** dictates the level of the respective magic it will cast at. 
 * The carver has to succeed a [rune carving](#rune-carving-arc) skill test. 
   * If they fail, the carving is botched and the [Abyssalite chunk](#abyssalite) cannot be used for another carving attempt. There is no room for mistakes. 
 
@@ -1605,17 +1595,15 @@ The ability to shape stone to craft predominantly stone-based things.
 #### Rune Carving (Arc)
 The ability to carve [magic runes](#runes).
 
-The level of this skill dictates the maximum [spell intensity](#spell-intensity) the carved rune can hold. 
+The level of this skill dictates the maximum level of respective magic the carved rune can hold. 
 
 #### Weapon smithing (Str)
 The ability to make weapons from metal. 
 
 ## List of Magic Schools
-Noted for each spell intensity, are the effects of the spell and the maximum distance, from the caster, at which the spell can be cast or the distance up to which it can have an effect. 
+The capabilities of the various magic schools are described by the **skill abilities** associated with each of them. The concrete effects are kept vague on purpose, to allow a certain freedom when choosing how the magic is expressed. But the intensity or strength of a casting is tied to the level of the magic skill. 
 
-If applicable, damage inflicted, exhaustion inflicted and other such effects, will also be noted. 
-
-The "Type"-field denotes the [attack target type](#attack-targeting-types) of the spell. This determines how many targets can be hit with a spell. **ST** stands for [single-target attack](#single-target-attack), **MST** stands for *multiple* [single-target attacks](#single-target-attack) and **AOE** stands for [area of effect attack](#area-of-effect-attack).
+The **skill abilities** noted here work a bit differently from those on regular (= non-magic) skills. Instead of allowing for potentially very different and unique effects, all the **skill abilities** of a magic school are kept in line with what the magic school is about. 
 
 ### Pyromancy [Arc]
 The summoning and control of fire. The flame being a destructive force, pyromancers enjoy little utility from their magic, beyond the ability to create light. 
@@ -1652,7 +1640,7 @@ The mending of injuries and treatment of diseases.
 | 1     | Patching Touch       | 2  | 0        | ST   | 0      | A creature of the mage's choosing, in hand's reach, is magically healed. Removes [bleeding](#bleeding). One [injury](#injury) of choice is now **patched up**. Restores missing HP. |
 | 3     | Better Patching Touch| 2  | 0        | ST   | 0      | Up to two creatures of the mage's choosing, in hand's reach, are magically healed. Removes [bleeding](#bleeding) and [poisoned](#poisoned). Up to two [injuries](#injury) of choice are now **patched up**. |
 | 4     | Healing Touch        | 2  | 0        | ST   | 0      | A creature of the mage's choosing, in hand's reach, is magically healed. A single **Inj.** of choice becomes **treated**. Removes [bleeding](#bleeding) and [poisoned](#poisoned). |
-| 5+    | Life Leech           | 3  | 0        | ST   | 0      | Resist: **Ob 4**, Effect: Draw the life from a touched creature of choice. Deals **2DN** points of damage to that creature, where *N* is the chosen [spell intensity](#spell-intensity), while healing another touched creature for the same amount. Transfers 1 point of **bleeding** and/or **poisoned** from the healed creature to the damaged one. |
+| 5+    | Life Leech           | 3  | 0        | ST   | 0      | Resist: **Ob 4**, Effect: Draw the life from a touched creature of choice. Deals **2DN** points of damage to that creature, where *N* is the chosen level, while healing another touched creature for the same amount. Transfers 1 point of **bleeding** and/or **poisoned** from the healed creature to the damaged one. |
 | 5     | Expel Illness        | 3  | 0        | ST   | 0      | Removes one [illness](#illness) of choice from a creature of choice, in hand's reach. |
 | 5     | Revert Mutation      | 4  | 0        | ST   | 0      | Resist: **Ob 4**, Effect: Removes one [mutation](#list-of-mutations) of choice from a creature of choice, in hand's reach. |
 
