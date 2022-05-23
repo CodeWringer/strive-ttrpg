@@ -95,10 +95,11 @@
   - [Hand of Fate](#hand-of-fate)
 - [Combat](#combat)
   - [Who Acts When](#who-acts-when)
-  - [Combat Actions](#combat-actions)
+  - [Action Points (AP)](#action-points-ap)
+    - [Action Point Saving](#action-point-saving)
     - [Combat Movement](#combat-movement)
   - [How to Attack](#how-to-attack)
-    - [Attack-Targeting](#attack-targeting)
+    - [Attack-Targeting-Types](#attack-targeting-types)
       - [Single-Target Attack](#single-target-attack)
       - [Area of Effect Attack](#area-of-effect-attack)
     - [Special Types of Attack](#special-types-of-attack)
@@ -303,11 +304,11 @@ How many **positives** are needed to succeed a test, is determined by the **GM**
 
 To resolve an **attribute test**, the number of **D6** indicated by the *attribute level* (the number next to the attribute) must be rolled. 
 
-To resolve a **skill test**, the number of **D6** indicated by the **skill level** (the number next to the skill), plus half of the related **attribute** (rounded up) as additional dice must be rolled. 
+To resolve a **skill test**, the number of **D6** indicated by the **skill level** (the number next to the skill), plus the related **attribute** as additional dice must be rolled. 
 
-> A **PC** has an [agility](#agility-agi) of 3 and an [acrobatics](#acrobatics-agi) skill at level 2. The player is asked to roll a test for [acrobatics](#acrobatics-agi) at **Ob** 2. They get to roll 2 + 2 = 4 **D6**, if they don't have any other skills to [fork](#skill-forking) into the test. 
+> A **PC** has an [agility](#agility-agi) of 3 and an [acrobatics](#acrobatics-agi) skill at level 2. The player is asked to roll a test for [acrobatics](#acrobatics-agi) at **Ob** 2. They get to roll 3 + 2 = 5 **D6**, if they don't have any other skills to [fork](#skill-forking) into the test. 
 
-A [skill being learned](#learning-skills) is tested with *only* half of the related **attribute** (rounded up). 
+A [skill being learned](#learning-skills) is tested with *only* the related **attribute**. 
 
 For every test, one of three outcomes is possible: 
 * **Complete Success**: There are enough or even more than required **positives**.
@@ -413,7 +414,9 @@ Determines how nimble, fast and flexible a character is. Any action that require
 #### Endurance [End]
 Governs how long a character can endure physical strains. 
 
-For every point in endurance, a character raises their [Exhaustion Threshold](#exhaustion) by two. 
+For every point in endurance, a character raises their [Exhaustion Threshold](#exhaustion) by 3. 
+
+Endurance also governs how long a character can hold their breath. Every point in endurance grants around 10 minutes. 
 
 #### Perception [Perc]
 Governs a character's ability to passively quickly pick up on fine and fleeting details in their environment or on objects and other characters. 
@@ -421,16 +424,14 @@ Governs a character's ability to passively quickly pick up on fine and fleeting 
 Also governs the ability to perceive under difficult conditions such as dim light and fog, or noisy and smelly environments. 
 
 #### Strength [Str]
-Governs a character's strength - the ability to lift, throw and break heavy and sturdy things. Such as skulls. Also governs the [carrying capacity](#carrying-capacity) of a character. 
+Governs a character's strength - the ability to lift, throw and break heavy and sturdy things. Such as skulls. 
 
-Each point in strength raises the [carrying capacity](#carrying-capacity) of the character by 3. 
+Also governs the [carrying capacity](#carrying-capacity) of a character. Each point in strength raises the [carrying capacity](#carrying-capacity) of the character by 6. 
 
 #### Toughness [Tough]
 Governs the [injury threshold](#injury) of a character. 
 
-For every point in [toughness](#toughness-tough), a character gains **+2 maximum HP**. 
-
-For every two points in [toughness](#toughness-tough), a character raises their **Inj.** limit by 1. 
+For every point in [toughness](#toughness-tough), a character gains **+4 maximum HP** and raises their **Inj.** limit by 1. 
 
 ### Mental Attributes
 These numbers represent a character's basic mental abilities. 
@@ -462,13 +463,13 @@ Governs a character's ability to withstand persuasion, intimidation, charm or te
 Whenever a **PC** uses an attribute in a [test](#tests), the outcome must be noted. 
 
 Advancing an **attribute** requires:
-* (N + 1) * (N + 1) * 3 **complete successess**.
-* (N + 1) * (N + 1) * 4 **partial successess** or **complete failures**.
+* (N + 1) * (N + 1) * 4 **complete successess**.
+* (N + 1) * (N + 1) * 5 **partial successess** or **complete failures**.
 * Where *N* is the current level of the **attribute**. 
 
 > A character has a [strength](#strength-str) **attribute** at level 3. 
 > 
-> To advance their **attribute** to level 4, they would need (3 + 1) * (3 + 1) * 3 = 48 **complete successes** and (3 + 1) * (3 + 1) * 4 = 64 **partial successess** or **complete failures**
+> To advance their **attribute** to level 4, they would need (3 + 1) * (3 + 1) * 4 = 64 **complete successes** and (3 + 1) * (3 + 1) * 5 = 80 **partial successess** or **complete failures**
 
 For your convenience, the following table contains the precalculated requirements to advance an **attribute** level. 
 * In the table, 'Level' is the character's *current level* in the **attribute**. 
@@ -476,16 +477,16 @@ For your convenience, the following table contains the precalculated requirement
 
 | Level | Successes | Failures |
 | --- | --- | --- |
-| 1   | 12  | 16  |
-| 2   | 27  | 36  |
-| 3   | 48  | 64  |
-| 4   | 75  | 100 |
-| 5   | 108 | 144 |
-| 6   | 147 | 196 |
-| 7   | 192 | 256 |
-| 8   | 243 | 324 |
-| 9   | 300 | 400 |
-| 10  | 363 | 484 |
+| 1   | 16  | 20  |
+| 2   | 36  | 45  |
+| 3   | 64  | 80  |
+| 4   | 100 | 125 |
+| 5   | 144 | 180 |
+| 6   | 196 | 245 |
+| 7   | 256 | 320 |
+| 8   | 324 | 405 |
+| 9   | 400 | 500 |
+| 10  | 484 | 605 |
 
 Whenever an attribute advances, its associated successes and failures must each be reset to 0. 
 
@@ -984,40 +985,39 @@ Lastly, you need three [instincts](#instincts) for your character. Ideally, at l
 ### Choosing Attributes
 There are two methods for determining your character's attributes: manual and semi-random. 
 
-Also, you'll have to decide on whether your character will be a mage or not. Mages start with lower attributes, so this decision can affect your character's initial competence. 
+You'll have to decide on whether your character will be a mage or not. Mages start with lower attributes, so this decision can affect your character's initial competence. 
 
 Please keep in mind the values here are representative for an ordinary human about to enter an adventuring life. Other species may have modifiers on their attributes, making them better or worse in some of them. But that depends on the world your **GM** is running. 
 
 #### Manual Attribute Assignment
-* As a mage
-  * You can spend 15 points on your attributes. 
-  * All attributes start at level 2. 
-  * **Arcana** starts at level 1. 
-  * Your attribute-total cannot be greater than **36**.
-* As a non-mage
-  * You can spend 18 points on your attributes. 
-  * All attributes *except arcana* start at level 2. Arcana is 0 and remains 0. 
-  * Your attribute-total cannot be greater than **38**.
-* No attribute may have a level less than 2 nor higher than 6.
-* Only two attributes may have a level of 6. 
+* As a **mage**
+  * You can spend **12 points** on your attributes. 
+  * **All** attributes start at level 1. 
+  * Your attribute-total cannot be greater than **23**.
+* As a **non-mage**
+  * You can spend **16 points** on your attributes. 
+  * All attributes **except arcana** start at level 1. Arcana is at 0 and remains at 0. 
+  * Your attribute-total cannot be greater than **26**.
+* No attribute may have a level less than 1 nor higher than 4.
+* Only two attributes may have a level of 4. 
 
 #### Semi-Random Attribute Assignment
-1. For a mage
-   1. Roll 11 **D6**
-2. For a non-mage
-   1. Roll 10 **D6**
-3. Row up your dice to form a line, then read them from one end to the other and note each value. The order in which they are written down, is the order in which they'll be applied to the attributes. 
-4. If there are more than 2 6s, start lowering their value by one, starting from the left or the right, until there are only 2 6s left. 
-5. Count up the total of your values. 
-   1. For a mage subtract your total from **36**. <br>
-   For a non-mage subtract your total from **38**.
-   2. If the number is negative, that's the number of levels you'll have to go down. <br>
+1. For a **mage**
+   1. Roll 11 **D4**
+1. For a **non-mage**
+   1. Roll 10 **D4**
+1. Row up your dice to form a line, then read them from one end to the other and note each value. The order in which they are written down, is the order in which they'll be applied to the attributes. 
+1. If there are more than 2 4s, start lowering their value by one, starting from the left or the right, until there are only 2 4s left. 
+1. Count up the total of your values. 
+   1. For a mage subtract your total from **26**. <br>
+   For a non-mage subtract your total from **23**.
+   1. If the number is negative, that's the number of levels you'll have to go down. <br>
    If the number is positive, that's the number of levels you'll have to go up. 
-6. Starting from the left or right, start adjusting each value.
-   1. If your levels have to go down, subtract one from each value. **But** don't adjust 6s, 2s or 1s. 
-   2. If your levels have to go up, add one to each value. **But** don't adjust 6s. If there are less than 2 6s, up to two 5s may be raised to a 6, otherwise, don't adjust 5s. 
-7. Any remaining 1s have to be turned into 2s, then repeat from step 5. 
-8. Lastly, apply the adjusted values to your attributes. 
+1. Starting from the left or right, start adjusting each value.
+   1. If your levels have to go down, subtract one from each value. **But** skip 1s. 
+   1. If your levels have to go up, add one to each value. **But** don't skip 4s. 
+1. Repeat from the step of counting up your total and adjusting as necessary, until no more adjustments are necessary. 
+1. Lastly, apply the adjusted values to your attributes. 
 
 #### Determine Attribute Advancing Thresholds
 Once attribute values have been set, you can determine the required number of successes and failures each attribute requires, in order to advance. 
@@ -1026,10 +1026,9 @@ For this, see the rules on [attribute advancing](#advancing-attributes).
 
 ### Choosing Skills
 You can spend **8** points to *learn* skills and raise their level, with the following limitations:
-* No skill can be at level 4 or higher.
-* You can have at most 5 skills. 
+* No skill can be higher level than 3. 
+* You can have at most 7 skills. 
 * No skills can be set to *learning*.
-* Skills *should* relate to your character's life path, but don't *have to*. 
 
 Once you've chosen skills, you can determine the required number of successes and failures each skill requires, in order to advance. 
 
@@ -1127,16 +1126,17 @@ If one party is surprised, the ambushing party gets to act for a full turn, with
 
 > As an example: this does not count for opponents standing right in front of each other in conversation, when one of them suddenly draws a dagger and attacks. The attacker can be clearly seen by the defender and thus they must both roll for initiative, to determine whether the defender can react in time. 
 
-## Combat Actions
+## Action Points (AP)
 Every turn, every character gets 3 **Action Points (AP)** to spend on actions during their turn. 
 
-Any basic action, so any action not requiring a test, costs 1 **AP**. Any action requiring a test, costs 2 **AP**. Skill abilities cost the amount of **AP** as noted on them. 
+Any basic action, so any action not requiring a test, costs 1 **AP**. Any action requiring a test, costs 2 **AP**. Skill abilities can cost varying amounts of **AP**. 
 
 Speaking or shouting a short phrase is free. If you want to have a proper conversation, that will have to take multiple rounds. 
 
+### Action Point Saving
 If the turn is ended with any **AP** unspent, they can either be saved up, or spent on improving the character's [melee defence](#melee-defence-agi) and [ranged defence](#ranged-defence-agi), as **+1D6** per **AP**. 
 
-Only up to 5 AP may be saved up this way. It may be possible to go past this limit via some skill abilities. 
+Only up to 5 **AP** may be saved up this way. It may be possible to go past this limit via some skill abilities. 
 
 ### Combat Movement
 A character can move up to **18'/6m** per **AP** spent. In **difficult terrain**, the distance moved per **AP** is half that, at **9'/3m**. 
@@ -1153,14 +1153,11 @@ If the attacker wins the [opposed test](#opposed-test) or if they used an **aoe*
 
 [Unarmed combat](#unarmed) is handled like a weapon skill. 
 
-### Attack-Targeting
-There are two types of attack targeting methods: **Single-target** and **area of effect** (**aoe**).
-
-The different **attack-types** can be abbreviated as follows:
-
-* **ST** stands for [single-target attack](#single-target-attack)
-* **MST** stands for *multiple* [single-target attacks](#single-target-attack)
-* **AOE** stands for [area of effect attack](#area-of-effect-attack)
+### Attack-Targeting-Types
+There are the following types of **attack-targeting-types**:
+* **Single-target** (**ST**)
+* **multiple single-target** (**MST**)
+* **area of effect** (**AOE**)
 
 #### Single-Target Attack
 Any **single-target** attack can be dodged or defended against. To do so, an [opposed test](#opposed-test) is made. If the defender wins no damage is dealt. 
@@ -1618,7 +1615,7 @@ Noted for each spell intensity, are the effects of the spell and the maximum dis
 
 If applicable, damage inflicted, exhaustion inflicted and other such effects, will also be noted. 
 
-The "Type"-field denotes the [attack target type](#attack-targeting) of the spell. This determines how many targets can be hit with a spell. **ST** stands for [single-target attack](#single-target-attack), **MST** stands for *multiple* [single-target attacks](#single-target-attack) and **AOE** stands for [area of effect attack](#area-of-effect-attack).
+The "Type"-field denotes the [attack target type](#attack-targeting-types) of the spell. This determines how many targets can be hit with a spell. **ST** stands for [single-target attack](#single-target-attack), **MST** stands for *multiple* [single-target attacks](#single-target-attack) and **AOE** stands for [area of effect attack](#area-of-effect-attack).
 
 ### Pyromancy [Arc]
 The summoning and control of fire. The flame being a destructive force, pyromancers enjoy little utility from their magic, beyond the ability to create light. 
