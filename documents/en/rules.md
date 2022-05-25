@@ -691,7 +691,7 @@ An **Inj.** can be properly **treated** via [surgery](#surgery-int):
 * If the attempt is a complete failure, the **Inj.** becomes **permanent**. It cannot be **treated** via [surgery](#surgery-int) anymore. 
 * Only one [surgery](#surgery-int) attempt can be made every 24 hours. 
 
-All currently **treated**  Inj.** can be removed/recovered from, by spending **4D4** weeks in uninterrupted, active recovery. Active recovery implies spending the vast majority of the day in bed or at least avoiding physical and mental strains. 
+All currently **treated**  **Inj.** can be removed/recovered from, by spending **4D4** weeks in uninterrupted, active recovery. Active recovery implies spending the vast majority of the day in bed or at least avoiding physical and mental strains. 
 
 #### Injury Exhaustion Threshold
 Once a character is brought to at least half their maximum number of **Inj.** (rounded up), every time past that point that they suffer further damage and/or injury they must succeed a [toughness](#toughness-tough) test with twice their number of injuries as the **Ob**, or else suffer +1 [exhaustion](#exhaustion). This point in time is called the **injury exhaustion threshold**. 
