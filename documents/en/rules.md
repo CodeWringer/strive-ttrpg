@@ -1245,7 +1245,7 @@ Any character with [arcana](#arcana-arc), can cast magic. What kind of magic, de
 
 While not all magic can be used offensively, that which can, will inflict [damage](#health--exhaustion), proportional to the [spell's intensity](#spell-intensity) and may cause other effects on those affected by it. 
 
-The effects magic do not affect the mage casting, unless if they suffer a [spell-backfire](#spell-backfire) or if it is an [aoe](#area-of-effect-attack) spell. 
+The effects magic do not affect the mage casting, unless if they suffer a [spell-backfire](#spell-backfire) or if it is an [aoe](#area-of-effect-attack) spell or if the spell defines that it can. 
 
 ## Magic Stamina
 Magic takes a toll on the caster's body. It takes great mental effort to properly cast magic. **Magic stamina** represents a mage's capacity for casting magic without risk to themselves. 
@@ -1274,7 +1274,11 @@ In case of an [aoe](#area-of-effect-attack) attack spell, anything nearby the ma
 
 The mage suffers the full damage and/or effect of the spell. If anything or anyone nearby is affected, they also suffer the full damage and/or effect of the spell. 
 
-A **spell-backfire** can occur, if a mage is casting a spell that costs more [magic stamina](#magic-stamina) than they have left, or if they **completely fail** their test to cast the spell. 
+A **spell-backfire** can occur, if a mage is casting a spell that costs more [magic stamina](#magic-stamina) than they have left, or if they **completely fail** their test to cast the spell. For every point of **magic stamina** that the spell costs beyond the threshold of available points, requires one **D6** to be rolled. If the up-face is a **1** or a **2**, it causes a **spell-backfire**. 
+
+> A mage has 1 point of **magic stamina** left and wants to cast [pyromancy](#pyromancy-arc) at level 3. This means the spell costs 3 **magic stamina**, which is 2 more that the mage has available. 
+> 
+> They roll **2D6** resulting in a 5 and a 2. The 2 causes the spell to **back-fire**. 
 
 ## Magic Things
 **Ambersteel** takes its name from the in-game material of the same name. As it is a strictly anti-magic material, it should enjoy great attention in any fantasy world, where magic is a real and recognizable force. Where usually, magic is the centerpiece, in **Ambersteel** that isn't quite the case. Magic is powerful and fearsome and thus, if not under control, can threaten to cause great pain and destruction. **Ambersteel** dampens that power and puts shackles on it. 
