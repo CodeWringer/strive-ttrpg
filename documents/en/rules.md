@@ -225,7 +225,7 @@
   - [List of Illnesses](#list-of-illnesses)
   - [List of Mutations](#list-of-mutations)
 
-Version 2
+Version 3
 
 A role-playing game by Nicolas Haase
 
@@ -691,7 +691,7 @@ An **Inj.** can be properly **treated** via [surgery](#surgery-int):
 * If the attempt is a complete failure, the **Inj.** becomes **permanent**. It cannot be **treated** via [surgery](#surgery-int) anymore. 
 * Only one [surgery](#surgery-int) attempt can be made every 24 hours. 
 
-All currently **treated**  Inj.** can be removed/recovered from, by spending **4D4** weeks in uninterrupted, active recovery. Active recovery implies spending the vast majority of the day in bed or at least avoiding physical and mental strains. 
+All currently **treated**  **Inj.** can be removed/recovered from, by spending **4D4** weeks in uninterrupted, active recovery. Active recovery implies spending the vast majority of the day in bed or at least avoiding physical and mental strains. 
 
 #### Injury Exhaustion Threshold
 Once a character is brought to at least half their maximum number of **Inj.** (rounded up), every time past that point that they suffer further damage and/or injury they must succeed a [toughness](#toughness-tough) test with twice their number of injuries as the **Ob**, or else suffer +1 [exhaustion](#exhaustion). This point in time is called the **injury exhaustion threshold**. 
@@ -1245,7 +1245,7 @@ Any character with [arcana](#arcana-arc), can cast magic. What kind of magic, de
 
 While not all magic can be used offensively, that which can, will inflict [damage](#health--exhaustion), proportional to the [spell's intensity](#spell-intensity) and may cause other effects on those affected by it. 
 
-The effects magic do not affect the mage casting, unless if they suffer a [spell-backfire](#spell-backfire) or if it is an [aoe](#area-of-effect-attack) spell. 
+The effects magic do not affect the mage casting, unless if they suffer a [spell-backfire](#spell-backfire) or if it is an [aoe](#area-of-effect-attack) spell or if the spell defines that it can. 
 
 ## Magic Stamina
 Magic takes a toll on the caster's body. It takes great mental effort to properly cast magic. **Magic stamina** represents a mage's capacity for casting magic without risk to themselves. 
@@ -1274,7 +1274,11 @@ In case of an [aoe](#area-of-effect-attack) attack spell, anything nearby the ma
 
 The mage suffers the full damage and/or effect of the spell. If anything or anyone nearby is affected, they also suffer the full damage and/or effect of the spell. 
 
-A **spell-backfire** can occur, if a mage is casting a spell that costs more [magic stamina](#magic-stamina) than they have left, or if they **completely fail** their test to cast the spell. 
+A **spell-backfire** can occur, if a mage is casting a spell that costs more [magic stamina](#magic-stamina) than they have left, or if they **completely fail** their test to cast the spell. For every point of **magic stamina** that the spell costs beyond the threshold of available points, requires one **D6** to be rolled. If the up-face is a **1** or a **2**, it causes a **spell-backfire**. 
+
+> A mage has 1 point of **magic stamina** left and wants to cast [pyromancy](#pyromancy-arc) at level 3. This means the spell costs 3 **magic stamina**, which is 2 more that the mage has available. 
+> 
+> They roll **2D6** resulting in a 5 and a 2. The 2 causes the spell to **back-fire**. 
 
 ## Magic Things
 **Ambersteel** takes its name from the in-game material of the same name. As it is a strictly anti-magic material, it should enjoy great attention in any fantasy world, where magic is a real and recognizable force. Where usually, magic is the centerpiece, in **Ambersteel** that isn't quite the case. Magic is powerful and fearsome and thus, if not under control, can threaten to cause great pain and destruction. **Ambersteel** dampens that power and puts shackles on it. 
@@ -1284,11 +1288,11 @@ But there are also other materials and important things related to magic, as des
 ### Abyssalite
 **Abyssalite** is a hard and brittle mineral, that has the ability to *amplify the flow of magic*. It can only be acquired from the depths of the earth and is fairly rare. 
 
-Its surface is unnaturally smooth and covered in a fine, iridescent shine. Underneath the smooth surface, one searches for depth and color in vain. It is as though the void itself is being contained by that iridescent shell. 
+Its surface is unnaturally smooth and covered in a fine, iridescent shine. Underneath the smooth surface, one searches for depth and color in vain. It is as though the void itself is being contained by that iridescent shell. However, the more magic flows through it, the stronger its shell shines. This means that when any magically gifted creature touches **Abyssalite**, it shines stronger. 
 
 **Abyssalite** is a hard and brittle mineral, prone to shattering if too much force is applied. This makes it difficult to shape. It is also fairly heavy, which makes it difficult to carry long. 
 
-A fist-sized **Abyssalite** chunk has a [bulk](#carrying-capacity) of 2 and grants one greater level in the respective school of magic, without costing any [exhaustion](#exhaustion). In order to use the **Abyssalite**, the caster must be touching it. 
+A fist-sized **Abyssalite** chunk has a [bulk](#carrying-capacity) of 2 and grants one greater level in the respective school of magic, without costing any extra [magic stamina](#magic-stamina). In order to use the **Abyssalite**, the caster **must** be touching it. 
 
 ### Amberite
 As magic is amplified by [Abyssalite](#abyssalite), its antithesis is called **Amberite**, a metal which dulls the effects of magic and slows any magic flow nearby it. The material is also known to affect magic creatures and can cause great pain in magic-users. 
@@ -1373,7 +1377,7 @@ General fighting expertise.
 | Level | Name                 | AP | **Ob**  | Effect(s)          | Condition(s) |
 | ----- | -------------------- | -- | ------- | ------------------ | ------------ |
 | 1     | Protect Ally         | 3  | /       | When a designated ally next to is attacked, **you** defend against it, instead. | Adjacent to an ally. |
-| 2     | Shove                | 3  | Opposed | Push an enemy away from you 3'/1m. | Enemy is within melee reach. |
+| 2     | Shove                | 3  | Opposed | Push an enemy away from you for 3'/1m. | Enemy is within melee reach. |
 | 2     | Opportunity Attacks  | 3  | Opposed | Whenever an enemy within your reach moves in any way, you get to strike them with a melee attack. They can defend themselves with a **+1D** bonus. |  |
 | 3     | Wrestle and Disarm   | 3  | Opposed | Perform a single target attack against a designated enemy. If you win, you disarm them and could wrestle them to the ground, if you so choose. | Disarm only if enemy is using weapon. |
 | 3     | Swap-out             | 3  | (Opposed) | Swap positions with an adjacent ally, if they let you. If they resist, you must succeed an opposed [strength](#strength-str) test, to swap with them against their will. | Adjacent to ally. |
@@ -1673,9 +1677,9 @@ The mage can always choose to **either** create an image **or** a sound **or** a
 | Level | Name                 | AP | Distance | Type | Damage | Effect(s)                      |
 | ----- | -------------------- | -- | -------- | ---- | ------ | ------------------------------ |
 | 1     | Weak Illusion        | 2  | 36'/12m   | MST  | 0      | Resist: **Ob 1**, Duration: 3 turns / 15 seconds, Effect: a hand-sized image / a quiet, but audible sound, a weak odor |
-| 2     | Significant Illusion | 2  | 36'/12m  | MST  | 0      | Resist: **Ob 2**, Duration: 6 turns / 30 seconds, Effect: a person-sized image / a significant sound a noticeable odor |
+| 2     | Significant Illusion | 2  | 36'/12m   | MST  | 0      | Resist: **Ob 2**, Duration: 6 turns / 30 seconds, Effect: a person-sized image / a significant sound a noticeable odor |
 | 3     | Strong Illusion      | 2  | 36'/12m   | MST  | 0      | Resist: **Ob 3**, Duration: entire combat / 1 minute, Effect: up to 9'³/3m³ sized image / a very loud sound / a strong odor; A resist test can be made again every 30 seconds / 6 turns of combat. |
-| 4     | Overwhelming Illusion| 3  | 48'/16m  | MST  | 0      | Resist: **Ob 4**, Duration: entire combat / 10 minutes, Effect: up to 18'³/6m³ sized image / a deafening sound / an overwhelming odor; A resist test can be made again every 3 minutes |
+| 4     | Overwhelming Illusion| 3  | 48'/16m  | MST  | 0      | Resist: **Ob 4**, Duration: entire combat / 10 minutes, Effect: up to 18'³/6m³ sized image / a deafening sound / an overwhelming odor; A resist test can be made again every 3 minutes  |
 | 5     | Bewitching Illusion  | 4  | 96'/32m  | MST  | 0      | Resist: **Ob 5**, Duration: entire combat / 1 hour, Effect: up to 36'³/12m³ sized image / a deafening sound / an overwhelming odor; A resist test can be made again every 10 minutes |
 | 7     | Living a Dream       | 4  | 192'/64m | MST  | 0      | Resist: **Ob 7**, Duration: however long the mage desires, Effect: however large the mage desires image / a deafening sound / an overwhelming odor; A resist test can be made again every hour |
 
