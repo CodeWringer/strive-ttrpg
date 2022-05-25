@@ -225,7 +225,7 @@
   - [List of Illnesses](#list-of-illnesses)
   - [List of Mutations](#list-of-mutations)
 
-Version 2
+Version 3
 
 A role-playing game by Nicolas Haase
 
