@@ -225,7 +225,7 @@
   - [List of Illnesses](#list-of-illnesses)
   - [List of Mutations](#list-of-mutations)
 
-Version 3
+Version 4
 
 A role-playing game by Nicolas Haase
 
@@ -1270,15 +1270,23 @@ This implies not engaging in any physical or mental strains.
 ## Spell-Backfire
 A spell-backfire causes a spell to affect the caster, instead of their intended target. 
 
-In case of an [aoe](#area-of-effect-attack) attack spell, anything nearby the mage, in range, also receives the damage, unless if it can [counter-magic](#counter-magic) it.
+In case of an [aoe](#area-of-effect-attack) attack spell, anything nearby the mage, in range, also receives the damage, unless if it can [counter-magic](#counter-magic) it. The mage suffers the full damage and/or effect of the spell. If anything or anyone nearby is affected, they also suffer the full damage and/or effect of the spell. 
 
-The mage suffers the full damage and/or effect of the spell. If anything or anyone nearby is affected, they also suffer the full damage and/or effect of the spell. 
+A test for a **spell-backfire** must be made in the following two cases: 
+1. The mage is using more **magic stamina**, than they have available. 
+2. The test in the given magic school is **not** a **complete success**. A **partial succes/failure** counts as a **complete failure**. 
 
-A **spell-backfire** can occur, if a mage is casting a spell that costs more [magic stamina](#magic-stamina) than they have left, or if they **completely fail** their test to cast the spell. For every point of **magic stamina** that the spell costs beyond the threshold of available points, requires one **D6** to be rolled. If the up-face is a **1** or a **2**, it causes a **spell-backfire**. 
+In the first case, the mage must **immediately** roll as many **D6**, as they're going beyond their limit. If a **spell-backfire** is caused by this, the skill test is skipped and an automatic failure must be noted on the skill. 
 
-> A mage has 1 point of **magic stamina** left and wants to cast [pyromancy](#pyromancy-arc) at level 3. This means the spell costs 3 **magic stamina**, which is 2 more that the mage has available. 
+In the second case, the mage must roll as many **D6**, as the amount of **magic stamina** they spent on the spell **and** had available. 
+
+> A mage has 2 points of **magic stamina** left and wants to cast [pyromancy](#pyromancy-arc) at level 3. This means the spell costs 3 **magic stamina**, which is 1 more that the mage has available. 
 > 
-> They roll **2D6** resulting in a 5 and a 2. The 2 causes the spell to **back-fire**. 
+> They must immediately roll **1D6**, to test for a **spell-backfire**. This occurs even before the actual skill test for **pyromancy** is made. They roll a 4, which does not cause a **spell-backfire**. They got lucky and get to roll for their skill test. 
+> 
+> With an arcana at level 2 and pyromancy skill at level 3, they get to roll a total of **5D6** and achieve two **positives**. But two is not enough and thus results in a **complete failure** of the skill test. Now, the mage must roll **2D6** (the magic stamina they had left, excluding the one they didn't have left, but also needed). 
+> 
+> They achieve a 5 and a 1. The 1 causes the spell to backfire, thus dealing the full damage to the mage, instead of their intended target. 
 
 ## Magic Things
 **Ambersteel** takes its name from the in-game material of the same name. As it is a strictly anti-magic material, it should enjoy great attention in any fantasy world, where magic is a real and recognizable force. Where usually, magic is the centerpiece, in **Ambersteel** that isn't quite the case. Magic is powerful and fearsome and thus, if not under control, can threaten to cause great pain and destruction. **Ambersteel** dampens that power and puts shackles on it. 
