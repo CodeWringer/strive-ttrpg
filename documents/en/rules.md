@@ -62,6 +62,7 @@
       - [Berserk](#berserk)
       - [Pacified](#pacified)
       - [Jealous](#jealous)
+      - [Prone](#prone)
     - [Illness](#illness)
     - [Damage Types](#damage-types)
     - [Damage Over Time](#damage-over-time)
@@ -99,7 +100,7 @@
   - [Action Points (AP)](#action-points-ap)
     - [Action Point Saving](#action-point-saving)
     - [Combat Movement](#combat-movement)
-  - [How to Attack](#how-to-attack)
+  - [Attacking](#attacking)
     - [Attack-Targeting-Types](#attack-targeting-types)
       - [Single-Target Attack](#single-target-attack)
       - [Area of Effect Attack](#area-of-effect-attack)
@@ -108,7 +109,8 @@
       - [Difficult Attack](#difficult-attack)
       - [Easy Attack](#easy-attack)
       - [Execution Attack](#execution-attack)
-  - [Dealing Damage](#dealing-damage)
+    - [Dealing Damage](#dealing-damage)
+  - [Defending](#defending)
 - [Magic](#magic)
   - [Magic Stamina](#magic-stamina)
     - [Recovery](#recovery)
@@ -125,7 +127,6 @@
       - [Berserking (End)](#berserking-end)
       - [Instrument-Playing < instrument > (Agi)](#instrument-playing--instrument--agi)
       - [Melee Defence (Agi)](#melee-defence-agi)
-      - [Fighting (Str)](#fighting-str)
       - [Ranged Defence (Agi)](#ranged-defence-agi)
       - [Stealth (Agi)](#stealth-agi)
       - [Swimming (End)](#swimming-end)
@@ -135,6 +136,7 @@
       - [Rune-Using (Agi)](#rune-using-agi)
       - [Sailing (Str)](#sailing-str)
       - [Shield (End)](#shield-end)
+      - [Tactics (Str)](#tactics-str)
       - [Weapon < weapon type > (Str)](#weapon--weapon-type--str)
       - [Weapon-Throwing < weapon type > (Agi)](#weapon-throwing--weapon-type--agi)
     - [Social Skills](#social-skills)
@@ -422,7 +424,7 @@ Determines how nimble, fast and flexible a character is. Any action that require
 #### Endurance [End]
 Governs how long a character can endure physical strains. 
 
-For every point in endurance, a character raises their [Exhaustion Threshold](#exhaustion) by 3. 
+For every point in endurance, a character raises their [exhaustion threshold](#exhaustion) by 1. All characters have a base [exhaustion threshold](#exhaustion) of 1. 
 
 Endurance also governs how long a character can hold their breath. Every point in endurance grants around 10 minutes. 
 
@@ -600,7 +602,7 @@ A **PC** can only actively practice one **category of skills**. For every **cycl
 | Craftsmanship  | 1 Month  |
 | Knowledge      | 2 Months |
 
-> A **PC** spends seven weeks practicing their [fighting](#fighting-str), while waiting for their comrade to recover from their [injuries](#injury). [Fighting](#fighting-str) being a physical skill, the cycle for tests is 3 weeks. In this case, 2 tests can be made and their outcomes noted. 
+> A **PC** spends seven weeks practicing their [tactics](#tactics-str), while waiting for their comrade to recover from their [injuries](#injury). [Tactics](#tactics-str) being a physical skill, the cycle for tests is 3 weeks. In this case, 2 tests can be made and their outcomes noted. 
 
 #### Teaching
 Much like it is possible for a character to [practice](#practice) on their own, they can also be taught by another, who knows more than them. 
@@ -661,9 +663,11 @@ Ideally, an **instinct** should be (ab-)usable by the **GM**, to get the **PC** 
 ## Health & Exhaustion
 Every character has **Hit Points (HP)** and a maximum number of **Injuries (Inj.)** they can endure, before they die. 
 
-Whenever a character is hurt, the **damage** that has been inflicted upon them is deducted from their **HP**. Whenever their **HP** reach zero, they suffer an **Inj.** and their **maximum HP** is reduced by **N\*2**, where *N* is the number of **Inj.** they currently have. So, in other words, for every **Inj.**, a character loses 2 maximum **HP**. Any **HP** past zero overflow, so the damage dealt isn't lost. 
+Whenever a character is hurt, the **damage** that has been inflicted upon them is deducted from their **HP**. Whenever their **HP** reach zero, they suffer an **Inj.** and their **maximum HP** is reduced by **2**. So, in other words, for every **Inj.**, a character loses 2 maximum **HP**. 
 
-When [Toughness](#toughness-tough) is reduced, still only 2 maximum **HP** are deducted. 
+Any **HP** damage past zero overflows. The additional damage dealt isn't lost. 
+
+Even when [Toughness](#toughness-tough) is reduced by an injury, still only 2 maximum **HP** are deducted. 
 
 Outside of combat, a successful [medicine](#medicine-int) test can restore all currently missing **HP** of a character. 
 
@@ -671,6 +675,8 @@ Outside of combat, a successful [medicine](#medicine-int) test can restore all c
 An **injury (Inj.)** is a serious health impediment of a character. Every character has a maximum number of **Inj.** they can endure. If they reach their maximum number of **Inj.**, the character dies. **PC**s are an exception, who instead arrive at [death's door](#deaths-door). 
 
 Whenever a character suffers an **Inj.**, a **D100** must be rolled and the corresponding result from the [list of injuries](#list-of-injuries) added to the character. Depending on the type of damage and the situation in question, a different injury table may be rolled on, instead. Such as the [burn injuries](#list-of-burn-injuries). 
+
+For every injury incurred, a character's maximum **HP** is reduced by 2. 
 
 An **Inj.** can reduce [attributes](#attributes) and impose other restrictions. An [attribute](#attributes) cannot be brought down to less than 1, by **Inj.**
 
@@ -717,6 +723,10 @@ Characters can have one or more **status effect(s)** affecting them. A **status 
 #### Dazed
 A **dazed** character begins their turn with -2 **AP** and can run at most only half the distance they normally could. In addition, they suffer a penalty of **-1D** to all tests. The number of dice for a test cannot be reduced to less than 1 by this penalty. 
 
+Additionally, a **dazed** mage can no longer attempt to cast any magic. 
+
+A **dazed** state can be recovered from either by succeeding a [toughness](#toughness-tough) test with **Ob** at half **toughness**, rounded up or by resting at least half an hour. 
+
 #### Unconscious
 An **unconscious** character is unable to act and is unaware of their surroundings. 
 
@@ -748,9 +758,9 @@ This status effect can stack! That means, it can be incurred multiple times!
 
 For every point of **frostbite**, 1 point of **freezing** damage is incurred every combat round. 
 
-Also for every point of **frostbite**, a -1 **AP** penalty is incurred, up to a maximum of -3. 
+Also for every point of **frostbite**, a -1 **AP** recovery penalty is incurred, up to a maximum of -3. 
 
-At the end of every round of combat, one point of **frostbite** is removed, until the status effect is removed completely. 
+At the end of every of the **frostbitten** character's turns during combat, one point of **frostbite** is removed, until the status effect is removed completely. 
 
 #### Rooted
 A **rooted** character can no longer move their legs. They cannot move from the spot, but can still move their upper body freely. 
@@ -778,6 +788,15 @@ This status effect lasts until it is successfully [resisted](#resist-will) or th
 A character who has been made unnaturally **jealous**, will do anything in their power to take, whatever it may be, from whoever might have *it*. 
 
 This status effect lasts until it is successfully [resisted](#resist-will) or the character is made [unconscious](#unconscious). 
+
+#### Prone
+A character who is prone, is harder to hit with ranged attacks, but easier to hit with melee attacks, as they'll have a harder time defending. 
+
+* -1D to [melee defence](#melee-defence-agi) tests. 
+* -1D to any attack tests. 
+* +1D to [ranged defence](#ranged-defence-agi) tests. 
+
+It costs 1 [AP](#action-points-ap) to stand up. 
 
 ### Illness
 An illness can affect a character over a perod of time and cause various negative effects. 
@@ -1149,15 +1168,8 @@ Only up to 5 **AP** may be saved up this way. It may be possible to go past this
 ### Combat Movement
 A character can move up to **18'/6m** per **AP** spent. In **difficult terrain**, the distance moved per **AP** is half that, at **9'/3m**. 
 
-## How to Attack
+## Attacking
 Attacks are made using a [weapon skill](#weapon--weapon-type--str), [magic-school skill](#magic-school--school---attribute-) or a **skill-ability**. 
-
-Defending against [single-target attacks](#single-target-attack) is an automatic reaction. An [opposed test](#opposed-test) must be made. 
-
-Defending against [area of effect attacks](#area-of-effect-attack) is either impossible or an active choice, as a reaction. <br>
-It is possible to defend against a magical **aoe** attack, by using the [counter-magic](#counter-magic) skill. If successful, the attack is negated entirely. 
-
-If the attacker wins the [opposed test](#opposed-test) or if they used an **aoe** attack that couldn't/wasn't countered or dodged, they get to roll for damage. If the defender wins, no damage is dealt. 
 
 [Unarmed combat](#unarmed) is handled like a weapon skill. 
 
@@ -1233,12 +1245,22 @@ Such an attack can be carried out against any character who is unable to resist 
 
 This kind of attack is only possible at the **GM**'s discretion. 
 
-## Dealing Damage
-Damage dealt to an opponent reduces their **HP**. When their **HP** reaches 0, they suffer an [injury](#injury). 
+### Dealing Damage
+Damage dealt to an opponent reduces their **HP**. When their **HP** reaches 0, they suffer an [injury](#injury) and their HP is reset to their new maximum. To determine the new maximum, see the [injury](#injury) section. 
 
 If more damage is dealt, than the difference to 0, that damage is also dealt. Damage isn't lost - it overflows into the next **HP** *segment*. 
 
 What type of [injury](#injury) is dealt, also depends on the [damage type](#damage-types). 
+
+## Defending
+Defending against [single-target attacks](#single-target-attack) costs 1 [AP](#action-points-ap). If not enough [AP](#action-points-ap) are available, defense is impossible. Some attacks may cost more than 1 [AP](#action-points-ap). That would be stated on the attack in question. 
+
+An [opposed test](#opposed-test) must be made. If successful, the attack is negated, entirely. Depending on the type of defense, the [degree of success](#graduated-test) may allow additional effects to occur. 
+
+Defending against [area of effect attacks](#area-of-effect-attack) is either impossible or an active choice, as a reaction. <br>
+It is possible to defend against a magical **aoe** attack, by using the [counter-magic](#counter-magic) skill. If successful, the attack is negated entirely. 
+
+If the attacker wins the [opposed test](#opposed-test) or if they used an **aoe** attack that couldn't/wasn't countered or dodged, they get to roll for damage. If the defender wins, no damage is dealt. 
 
 # Magic
 Any character with [arcana](#arcana-arc), can cast magic. What kind of magic, depends on the [magic schools](#magic-schools) the character knows. 
@@ -1377,22 +1399,25 @@ Playing an instrument of choice.
 The instrument in question must be noted. 
 
 #### Melee Defence (Agi)
-Skill at defending oneself in close-combat. 
+Skill at defending oneself in close-combat. If a test of this skill is successful, the attacker's attack is negated entirely (unless the attack in question states otherwise).
 
-#### Fighting (Str)
-General fighting expertise. 
+Every attempt to defend oneself costs 1 [AP](#action-points-ap). 
 
-| Level | Name                 | AP | **Ob**  | Effect(s)          | Condition(s) |
-| ----- | -------------------- | -- | ------- | ------------------ | ------------ |
-| 1     | Protect Ally         | 3  | /       | When a designated ally next to is attacked, **you** defend against it, instead. | Adjacent to an ally. |
-| 2     | Shove                | 3  | Opposed | Push an enemy away from you for 3'/1m. | Enemy is within melee reach. |
-| 2     | Opportunity Attacks  | 3  | Opposed | Whenever an enemy within your reach moves in any way, you get to strike them with a melee attack. They can defend themselves with a **+1D** bonus. |  |
-| 3     | Wrestle and Disarm   | 3  | Opposed | Perform a single target attack against a designated enemy. If you win, you disarm them and could wrestle them to the ground, if you so choose. | Disarm only if enemy is using weapon. |
-| 3     | Swap-out             | 3  | (Opposed) | Swap positions with an adjacent ally, if they let you. If they resist, you must succeed an opposed [strength](#strength-str) test, to swap with them against their will. | Adjacent to ally. |
-| 3     | Barge in             | 3  | Opposed | Push back an enemy within melee reach and take their position. You must succeed an opposed **fighting** test. | Enemy is within melee reach. | 
+If successful, for every **positive** that you achieve over the attacker, you can choose one of the following effects to happen:
+* Disarm your opponent (if they have a detachable weapon). 
+* Displace your opponent. They are forced to stumble backwards by 1m/3' in a direction of your choosing. 
+* Throw your opponent to the ground, making them [proned](#prone). 
+* Launch a counter-attack, for half your weapon's regular damage. You'll have to roll a regular attack, which your opponent can choose to defend against. 
 
 #### Ranged Defence (Agi)
-Skill at evading projectiles. 
+Skill at evading projectiles. If a test of this skill is successful, the attacker's attack is negated entirely (unless the attack in question states otherwise).
+
+Every attempt to defend oneself costs 1 [AP](#action-points-ap). 
+
+If successful, for every **positive** that you achieve over the attacker, you can choose one of the following effects to happen:
+* Displace yourself. You move 1m/3' in a direction of your choosing. 
+* You catch the projectile (if such a feat could be "reasonably" done). 
+* If the location of the shooter was unknown, you now have a good idea on where they are. 
 
 #### Stealth (Agi)
 Moving silently and performing actions undetected. 
@@ -1444,6 +1469,17 @@ If an equipped shield is used to defend with, this skill is used instead of [mel
 | 2     | Shield Slam          | 2  | Opposed | Perform a single-target melee attack to knock your opponent down with your shield. | Using shield. |
 | 4     | Unyielding           | 3  | /       | Until your next turn, you gain **+2D** to your **shield tests**. | Using shield; Once per combat. |
 
+#### Tactics (Str)
+The ability to understand and influence local combat movements, right there, in the moment. 
+
+| Level | Name                 | AP | **Ob**  | Effect(s)          | Condition(s) |
+| ----- | -------------------- | -- | ------- | ------------------ | ------------ |
+| 1     | Protect Ally         | 3  | /       | When a designated ally next to is attacked, **you** defend against it, instead. | Adjacent to an ally. |
+| 2     | Shove                | 3  | Opposed | Push an enemy away from you for 3'/1m. | Enemy is within melee reach. |
+| 2     | Opportunity Attacks  | 3  | Opposed | Whenever an enemy within your reach moves in any way, you get to strike them with a melee attack. They can defend themselves with a **+1D** bonus. |  |
+| 3     | Swap-out             | 3  | (Opposed) | Swap positions with an adjacent ally, if they let you. If they resist, you must succeed an opposed [strength](#strength-str) test, to swap with them against their will. | Adjacent to ally. |
+| 3     | Barge in             | 3  | Opposed | Push back an enemy within melee reach and take their position. You must succeed an opposed [strength](#strength-str) test. | Enemy is within melee reach. | 
+
 #### Weapon < [weapon type](#weapon-types) > (Str)
 Expertise at handling a weapon of a specific [weapon type](#weapon-types). 
 
@@ -1472,10 +1508,12 @@ Speaking commands others will respect and follow to the letter.
 | 5     | Unquestionable Command | 2 | 3 | An ally of choice, gains **+2D** on their next test. | Ally can hear the command. |
 | 6     | Spur                   | 2 | 4 | An ally of choice, is [hastened](#hasted) for one turn of combat, or five seconds out of combat. | Ally can hear the command. |
 
+Not to be confused with [tactics](#tactics-str). 
+
 #### Deception (Ora)
 Telling lies, acting in a way so as to deceive another character into believing something untruthful. 
 
-Is opposed by [resist](#resist-will). 
+Is opposed by [observation](#observation-perc). Liars are often given away by subtle gestures and mimicry, or a change in tone and demeanor. Observant characters can pick up on that. 
 
 #### Intimidation (Will)
 Intimidating another character into doing something. 
@@ -1495,6 +1533,11 @@ Is opposed by [resist](#resist-will).
 Persuading another character to think differently about something. 
 
 Is opposed by [resist](#resist-will). 
+
+| Level | Name                 | AP | **Ob**  | Effect(s)          | Condition(s) |
+| ----- | -------------------- | -- | ------- | ------------------ | ------------ |
+| 1     | Inspire  | 1  | 1 | Grant another character +1D for their next test. |  |
+| 3     | Pep Talk | 2  | 3 | Remove another character's [dazed](#dazed) or [terrified](#terrified) state. | Once per combat. |
 
 #### Resist (Will)
 Resisting [commanding](#commanding-will), [deception](#deception-ora), [intimidation](#intimidation-will) and [persuasion](#persuasion-emp), as well as some magic schools. 
@@ -1570,7 +1613,9 @@ The ability to invasively treat ailments without making things worse for the pat
 Taking the hide off a creature undamaged. 
 
 #### Warfare (Wis)
-The ability to understand and direct large-scale combat movements, as well as understanding what makes defences effective and how to circumvent them. Also governs knowledge about sieges and siege equipment. 
+The ability to understand and direct large-scale combat movements, the logistics and psychology of war. 
+
+This governs the understanding of what makes defensive structures effective and how to circumvent them. This entails a functional understanding of siege engines, but not their construction. 
 
 #### Woodcrafting (Agi)
 General working with wood, where particular knowledge isn't required. 
@@ -1766,6 +1811,7 @@ Note that it is not possible to reduce [magic stamina](#magic-stamina) cost to l
 ## Weapon Properties
 Weapons can have the following **properties**:
 * **Long Reach**: Allows attacking a target two squares (6'/2m) away. 
+* **Very long Reach**: Allows attacking a target three squares (9'/3m) away. 
 * **Range Only**: Implies a weapon cannot be used against any targets adjacent to self. 
 * **Prefer Range**: +2 **Ob** to using the weapon against an adjacent target. 
 * **Amberite-Lined**: **+1D4** damage to magical creatures and mages. 
@@ -1787,8 +1833,9 @@ Sometimes, your own body is your greatest weapon. Fists and feet can cause a sur
 
 | Skill | **Ob**  | Attack                  | AP | Damage                | Effect |
 | ----- | ------- | ----------------------- | -- | --------------------- | ------ |
-| 0     | Opposed by **Melee Defence** | Punch, kick, headbutt   | 2  | N + 2 **Bludgeoning**, where N = [strength](#strength-str) | / |
-| 1     | Opposed by **Melee Defence** | Grapple                 | 2  | /                     | Requires a successful opposed [strength](#strength-str) test. If **completely successful**, the target is unable to move and suffers -1 [melee defence](#melee-defence-agi) while grappled. Someone grappled can attempt to break free with an opposed [strength](#strength-str) test, on their turn. |
+| 0     | Opposed by **Unarmed** | Punch, kick, headbutt   | 2  | **Str** + 2 **Bludgeoning** | / |
+| 1     | Opposed by **Unarmed** | Grapple | 2  | / | Requires a successful opposed [strength](#strength-str) test. If **completely successful**, the target is unable to move and suffers -1 to their defense tests, for as long as they're grappled. Someone grappled can attempt to break free with an opposed **unarmed** test, on their turn. |
+| 2     | Opposed by **Unarmed** | Wrestle and Disarm |  | Perform a single target attack against a designated enemy. If you win, you disarm them and could wrestle them to the ground, making them [prone](#prone), if you so choose. | Disarm only if enemy is using detachable weapon. |
 
 ### Short Blade
 Any short, one-handed blade. Examples: shiv, dagger, Shortsword
@@ -1801,7 +1848,7 @@ Any short, one-handed blade. Examples: shiv, dagger, Shortsword
 | ----- | ------- | ----------------------- | -- | --------------------- | ------ |
 | 0     | Opposed by **Melee Defence** | Slash                   | 2  | **2D2** **Slashing** | / |
 | 0     | Opposed by **Melee Defence** | Stab                    | 2  | **1D2** **Piercing** | / |
-| 0     | Opposed by **Melee Defence**+2 | Target weak-spot      | 3  | **3D2** **Piercing** | / |
+| 0     | Opposed by **Melee Defence**+2 | Target weak-spot      | 3  | **Agi** + **3D2** **Piercing** | / |
 | 2     | Opposed by **Melee Defence**+2 | Artery cut            | 3  | **2D2** **Slashing** | +1 **bleeding** to the target (if it can bleed). |
 
 ### Long Blade
@@ -1813,10 +1860,10 @@ Any long blade, including long one-handed blades. Examples: arming sword, bastar
 
 | Skill | **Ob**    | Attack                  | AP | Damage                | Effect |
 | ----- | --------- | ----------------------- | -- | --------------------- | ------ |
-| 0     | Opposed   | Slash                   | 2  | **2D4** **Slashing**  | / |
-| 0     | Opposed   | Stab                    | 2  | **1D6** **Piercing**  | / |
+| 0     | Opposed   | Slash                   | 2  | **2D6** **Slashing**  | / |
+| 0     | Opposed   | Stab                    | 2  | **1D6 + 1** **Piercing**  | / |
 | 3     | Opposed+2 | Mordhau-Strike          | 2  | **1D4** **Crushing**  | / |
-| 4     | /         | Fencer-Stance           | 3  | / | Enter a defensive fencing stance. Gain +2 [melee defence](#melee-defence-agi) and can **counter-attack** with a **slash**. |
+| 4     | /         | Fencer-Stance           | 3  | / | Enter a defensive fencing stance. Gain +1 [melee defence](#melee-defence-agi) and can **counter-attack** **every** attack.|
 
 ### Great Blade
 Any very long, two-handed blade. Examples: sword of war, greatsword, Zweihänder
@@ -1828,10 +1875,10 @@ Any very long, two-handed blade. Examples: sword of war, greatsword, Zweihänder
 
 | Skill | **Ob**    | Attack                  | AP | Damage                | Effect |
 | ----- | --------- | ----------------------- | -- | --------------------- | ------ |
-| 0     | Opposed   | Slash                   | 2  | **2D6** **Slashing**  | / |
-| 0     | Opposed   | Stab                    | 2  | **1D6 + 1** **Piercing** | / |
+| 0     | Opposed   | Slash                   | 2  | **3D6** **Slashing**  | / |
+| 0     | Opposed   | Stab                    | 2  | **1D6 + 2** **Piercing** | / |
 | 3     | Opposed+2 | Mordhau-Strike          | 3  | **1D6** **Crushing**  | / |
-| 4     | Opposed+1 | Heavy Blow              | 3  | **1D6** **Slashing** and **1D4** **Crushing** | +1 [exhaustion](#exhaustion) to self. |
+| 4     | Opposed+1 | Heavy Blow              | 3  | **2D6** **Slashing** and **1D6** **Crushing** | Defending against this attack costs 2 [AP](#action-points-ap). +1 [exhaustion](#exhaustion) to self. |
 
 ### Axe
 One-handed axes. Examples: hatchet, dane axe, woodcutter's axe
@@ -1843,6 +1890,7 @@ One-handed axes. Examples: hatchet, dane axe, woodcutter's axe
 | Skill | **Ob**    | Attack                  | AP | Damage                | Effect |
 | ----- | --------- | ----------------------- | -- | --------------------- | ------ |
 | 0     | Opposed   | Hack                    | 2  | **2D6** **Slashing** and **1D3** **Crushing**  | / |
+| 2     | Opposed+1 | Savage Slash            | 2  | **1D8** **Slashing**  | +1 **bleeding**  to the target (if it can bleed). |
 
 ### Great Axe
 Two-handed axes. Examples: bearded axe, double-sided axe
@@ -1855,6 +1903,7 @@ Two-handed axes. Examples: bearded axe, double-sided axe
 | ----- | --------- | ----------------------- | -- | --------------------- | ------ |
 | 0     | Opposed   | Hack                    | 2  | **3D6** **Slashing** and **2D3** **Crushing** | / |
 | 3     | Opposed+2 | Savage Slash            | 2  | **2D6** **Slashing**  | +2 **bleeding**  to the target (if it can bleed). |
+| 4     | Opposed+1 | Heavy Blow              | 3  | **2D6** **Slashing** and **1D6** **Crushing** | Defending against this attack costs 2 [AP](#action-points-ap). +1 [exhaustion](#exhaustion) to self. |
 
 ### Spear
 Any one or two-handed short piercing polearms. Examples: short-spear, boar-spear
@@ -1866,8 +1915,8 @@ Any one or two-handed short piercing polearms. Examples: short-spear, boar-spear
 
 | Skill | **Ob**    | Attack                  | AP | Damage                | Effect |
 | ----- | --------- | ----------------------- | -- | --------------------- | ------ |
-| 0     | Opposed   | Stab                    | 2  | **1D8** **Piercing**  | / |
-| 2     | /         | Spear wall              | 3  | /                     | Whenever any character moves into a square adjacent to self, can attack that character with a **stab**. |
+| 0     | Opposed   | Stab                    | 2  | **2D8** **Piercing**  | / |
+| 2     | /         | Spear wall              | 3  | /                     | Whenever any character moves **into** a spot adjacent to self, can attack that character with a **stab**. |
 
 ### Lance
 Any one or two-handed long piercing polearms. Examples: pike, lance
@@ -1880,7 +1929,7 @@ Any one or two-handed long piercing polearms. Examples: pike, lance
 
 | Skill | **Ob**    | Attack                  | AP | Damage                | Effect |
 | ----- | --------- | ----------------------- | -- | --------------------- | ------ |
-| 0     | Opposed   | Stab                    | 2  | **1D6** **Piercing**  | / |
+| 0     | Opposed   | Stab                    | 2  | **2D6** **Piercing**  | / |
 | 3     | Opposed   | Couched Lancing         | 3  | **3D10** **Piercing** | Requires self to be mounted on horse-back (or similar creature). Self must move at least 15'/5m in a straight line, past the target. |
 
 ### Polearm
@@ -1894,8 +1943,8 @@ Flexible polearms with a focus on slashing. Examples: halberd, bardiche, poleaxe
 
 | Skill | **Ob**    | Attack                  | AP | Damage                | Effect |
 | ----- | --------- | ----------------------- | -- | --------------------- | ------ |
-| 0     | Opposed   | Slash                   | 2  | **3D4** **Slashing**  | / |
-| 0     | Opposed   | Stab                    | 2  | **1D8** **Piercing**  | / |
+| 0     | Opposed   | Slash                   | 2  | **3D6** **Slashing**  | / |
+| 0     | Opposed   | Stab                    | 2  | **2D8** **Piercing**  | / |
 | 4     | Opposed+2 | Cleave                  | 3  | **1D10** **Slashing** | Deals damage to up to two targets adjacent to each other and self. |
 
 ### Club
@@ -1907,8 +1956,8 @@ Simple, improvised bludgeoning weapons. Examples: wooden club, staff, stick
 
 | Skill | **Ob**    | Attack                  | AP | Damage                       | Effect |
 | ----- | --------- | ----------------------- | -- | ---------------------------- | ------ |
-| 0     | Opposed   | Clobber                 | 2  | **2D4** **Bludgeoning**      | / |
-| 3     | Opposed+2 | Knockout Blow           | 3  | **2D6 + 2** **Bludgeoning**  | / |
+| 0     | Opposed   | Clobber                 | 2  | **Str** + **2D4** **Bludgeoning**      | / |
+| 3     | Opposed+2 | Knockout Blow           | 3  | **Str** + **2D6 + 2** **Bludgeoning**  | +1 [exhaustion](#exhaustion) to self. |
 
 ### Small Crusher
 One-handed, heavy crushing weapons. Examples: flanged mace, warhammer, flail, morning star
@@ -1919,7 +1968,7 @@ One-handed, heavy crushing weapons. Examples: flanged mace, warhammer, flail, mo
 
 | Skill | **Ob**   | Attack                  | AP | Damage                | Effect |
 | ----- | -------- | ----------------------- | -- | --------------------- | ------ |
-| 0     | Opposed  | Smash                   | 2  | **1D6** **Crushing**  | / |
+| 0     | Opposed  | Smash                   | 2  | **Str** + **1D6** **Crushing**  | / |
 
 ### Large Crusher
 Two-handed crushing weapons with a dedicated *impact zone* on the weapon head which directs more force into the target. Examples: grand-mace, polehammer, two-handed flail
@@ -1930,8 +1979,8 @@ Two-handed crushing weapons with a dedicated *impact zone* on the weapon head wh
 
 | Skill | **Ob**    | Attack                  | AP | Damage                     | Effect |
 | ----- | --------- | ----------------------- | -- | -------------------------- | ------ |
-| 0     | Opposed   | Smash                   | 2  | **1D8** **Crushing**       | / |
-| 3     | Opposed+2 | Mighty Smash            | 3  | **1D10 + 2** **Crushing**  | +1 [exhaustion](#exhaustion) to self. +2 [exhaustion](#exhaustion) to target (if it can be winded). |
+| 0     | Opposed   | Smash        | 2  | **Str** + **1D8** **Crushing**       | / |
+| 3     | Opposed+2 | Mighty Smash | 3  | **Str** + **1D10 + 2** **Crushing**  | +1 [exhaustion](#exhaustion) to self. +2 [exhaustion](#exhaustion) to target (if it can be winded). |
 
 ### Short-Bow
 A short distance ranged weapon, shooting arrows.
@@ -1943,9 +1992,9 @@ A short distance ranged weapon, shooting arrows.
 
 | Skill | **Ob**    | Attack                  | AP | Distance | Damage                | Effect |
 | ----- | --------- | ----------------------- | -- | -------- | --------------------- | ------ |
-| 0     | Opposed   | Loose                   | 2  | 30'/10m  | **3D3** **Piercing**  | / |
-| 0     | Opposed+2 | Loose                   | 2  | 60'/20m  | **2D3** **Piercing**  | / |
-| 0     | Opposed+4 | Loose                   | 2  | 90'/30m  | **1D3** **Piercing**  | / |
+| 0     | Opposed   | Loose                   | 2  | 30'/10m  | **4D3** **Piercing**  | / |
+| 0     | Opposed+2 | Loose                   | 2  | 60'/20m  | **3D3** **Piercing**  | / |
+| 0     | Opposed+4 | Loose                   | 2  | 90'/30m  | **2D3** **Piercing**  | / |
 | 4     | Opposed   | Double shot             | 3  | 30'/10m  | **3D3** **Piercing**  | Can attack twice and thus deal its damage to two different targets, or the same target twice. |
 | 4     | Opposed+2 | Double shot             | 3  | 60'/20m  | **2D3** **Piercing**  | Can attack twice and thus deal its damage to two different targets, or the same target twice. |
 | 4     | Opposed+4 | Double shot             | 3  | 90'/30m  | **1D3** **Piercing**  | Can attack twice and thus deal its damage to two different targets, or the same target twice. |
@@ -1960,9 +2009,9 @@ A long distance ranged weapon, shooting arrows.
 
 | Skill | **Ob**    | Attack                  | AP | Distance | Damage                | Effect |
 | ----- | --------- | ----------------------- | -- | -------- | --------------------- | ------ |
-| 0     | Opposed   | Loose                   | 2  | 30'/10m  | **3D4** **Piercing**  | / |
-| 0     | Opposed+1 | Loose                   | 2  | 60'/20m  | **2D4** **Piercing**  | / |
-| 0     | Opposed+3 | Loose                   | 2  | 90'/30m  | **1D4** **Piercing**  | / |
+| 0     | Opposed   | Loose                   | 2  | 30'/10m  | **4D4** **Piercing**  | / |
+| 0     | Opposed+1 | Loose                   | 2  | 60'/20m  | **3D4** **Piercing**  | / |
+| 0     | Opposed+3 | Loose                   | 2  | 90'/30m  | **2D4** **Piercing**  | / |
 
 ### War-Bow
 A very deadly long distance ranged weapon, shooting arrows.
@@ -1974,9 +2023,9 @@ A very deadly long distance ranged weapon, shooting arrows.
 
 | Skill | **Ob**    | Attack                  | AP | Distance | Damage                 | Effect |
 | ----- | --------- | ----------------------- | -- | -------- | ---------------------- | ------ |
-| 0     | Opposed   | Loose                   | 3  | 30'/10m  | **3D6** **Piercing**   | +1 [exhaustion](#exhaustion) to self. |
-| 0     | Opposed+1 | Loose                   | 3  | 60'/20m  | **2D6** **Piercing**   | +1 [exhaustion](#exhaustion) to self. |
-| 0     | Opposed+2 | Loose                   | 3  | 90'/30m  | **1D6** **Piercing**   | +1 [exhaustion](#exhaustion) to self. |
+| 0     | Opposed   | Loose                   | 3  | 30'/10m  | **3D8** **Piercing**   | +1 [exhaustion](#exhaustion) to self. |
+| 0     | Opposed+1 | Loose                   | 3  | 60'/20m  | **2D8** **Piercing**   | +1 [exhaustion](#exhaustion) to self. |
+| 0     | Opposed+2 | Loose                   | 3  | 90'/30m  | **1D8** **Piercing**   | +1 [exhaustion](#exhaustion) to self. |
 
 ### Crossbow
 A deadly medium distance ranged weapon, shooting quarrels.
@@ -1988,9 +2037,9 @@ A deadly medium distance ranged weapon, shooting quarrels.
 
 | Skill | **Ob**    | Attack                  | AP | Distance | Damage                | Effect |
 | ----- | --------- | ----------------------- | -- | -------- | --------------------- | ------ |
-| 0     | Opposed   | Loose                   | 3  | 30'/10m  | **3D6** **Piercing**  | / |
-| 0     | Opposed+1 | Loose                   | 3  | 60'/20m  | **2D6** **Piercing**  | / |
-| 0     | Opposed+3 | Loose                   | 3  | 90'/30m  | **2D4** **Piercing**  | / |
+| 0     | Opposed   | Loose                   | 3  | 30'/10m  | **3D6 + 2** **Piercing**  | / |
+| 0     | Opposed+1 | Loose                   | 3  | 60'/20m  | **3D6 + 2** **Piercing**  | / |
+| 0     | Opposed+3 | Loose                   | 3  | 90'/30m  | **3D4 + 2** **Piercing**  | / |
 
 ### Firearm
 A very deadly short to medium distance ranged weapon, shooting musket balls that can even penetrate armor.
@@ -2022,23 +2071,24 @@ A set of light armor that doesn't impede the wearer by much. Commonly represents
 
 * Bulk: 2
 
-| Reduce Damage     | 
+| Reduce Damage     |
 | ----------------- |
-| 4 **Slashing**    |
-| 3 **Bludgeoning** |
-| 2 **Crushing**    |
+| 3 + 1D3 **Slashing**    |
+| 2 + 1D3 **Bludgeoning** |
+| 1 + 1D3 **Piercing**    |
+| 1 + 1D3 **Crushing**    |
 
 ### Medium Armor
 A set of medium armor with a good balance of protection and weight. Commonly represents a gambeson underneath a mail hauberk. Optional mail mittens. Common headgear: arming cap, mail coif or any non-full helmet. 
 
 * Bulk: 3
 
-| Reduce Damage     | 
+| Reduce Damage     |
 | ----------------- |
-| 7 **Slashing**    |
-| 4 **Bludgeoning** |
-| 3 **Piercing**    |
-| 2 **Crushing**    |
+| 4 + 1D4 **Slashing**    |
+| 3 + 1D4 **Bludgeoning** |
+| 2 + 1D4 **Piercing**    |
+| 1 + 1D4 **Crushing**    |
 
 ### Heavy Armor
 A set of heavy armor with excellent protection, at the cost of encumbering the wearer greatly. Commonly represents a full suit of plate armor.  
@@ -2047,10 +2097,10 @@ A set of heavy armor with excellent protection, at the cost of encumbering the w
 
 | Reduce Damage     | 
 | ----------------- |
-| 10 **Slashing**   |
-| 5 **Bludgeoning** |
-| 4 **Piercing**    |
-| 3 **Crushing**    |
+| 5 + 1D5 **Slashing**    |
+| 4 + 1D5 **Bludgeoning** |
+| 3 + 1D5 **Piercing**    |
+| 2 + 1D5 **Crushing**    |
 
 ## Shield Types
 Shields are items that provide passive bonuses to [melee defence](#melee-defence-agi) and [ranged defence](#ranged-defence-agi) and require one free hand to use. This implies they cannot be used at the same time as a two-handed weapon. 
@@ -2065,8 +2115,6 @@ A small, round shield commonly held as far from the body as possible, to deflect
 | +1 [melee defence](#melee-defence-agi).  |
 | +3 [melee defence](#melee-defence-agi) against **stabbing** attacks. |
 
-If lined with [Ambersteel](#ambersteel), also grants **+1** defence against magic. 
-
 ### Round Shield
 A medium-sized, round shield made from tough wood and leather, which offers decent protection against most attacks, while not encumbering the wielder too much. 
 
@@ -2076,8 +2124,6 @@ A medium-sized, round shield made from tough wood and leather, which offers dece
 | --------------- |
 | +2 [melee defence](#melee-defence-agi).  |
 | +2 [ranged defence](#melee-defence-agi). |
-
-If lined with [Ambersteel](#ambersteel), also grants **+1** defence against magic. 
 
 ### Heater Shield
 A tough and heavy metal shield, which offers great protection, while still being somewhat manageable to wield. 
@@ -2089,8 +2135,6 @@ A tough and heavy metal shield, which offers great protection, while still being
 | +3 [melee defence](#melee-defence-agi).  |
 | +3 [ranged defence](#melee-defence-agi). |
 
-If lined with [Ambersteel](#ambersteel), also grants **+2** defence against magic. 
-
 ### Kite Shield
 A large, kite-shaped shield, which can protect every part of the fighter, from the shoulder down to the feet. Its weight makes it difficult to react to attacks quickly, hoever. 
 
@@ -2101,8 +2145,6 @@ A large, kite-shaped shield, which can protect every part of the fighter, from t
 | --------------- |
 | +4 [melee defence](#melee-defence-agi).  |
 | +4 [ranged defence](#melee-defence-agi). |
-
-If lined with [Ambersteel](#ambersteel), also grants **+3** defence against magic. 
 
 ## List of Injuries
 How many times an **injury** can be suffered, can be limited. In the table below, the *max* is the maximum number of times the **injury** can be suffered by the same character. If there is a slash (/), there is no limit. If a roll would result in an already maxed out **injury**, pick the next **injury** below it, instead. 
