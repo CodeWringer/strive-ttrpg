@@ -683,7 +683,7 @@ An **Inj.** can reduce [attributes](#attributes) and impose other restrictions. 
 #### Injury States
 There are four possible states of an **Inj.**: **active**, **patched up**, **treated** or **permanent**. 
 
-Only an **active** **Inj.** imposes negative effects. 
+Only an **active** **Inj.** imposes negative effects, but injuries will always be counted toward the injury limit. 
 
 An **Inj.** can be **patched up** via [medicine](#medicine-int):
 * If the attempt is a complete success, the **Inj.** is **patched up**.
@@ -700,11 +700,11 @@ An **Inj.** can be properly **treated** via [surgery](#surgery-int):
 All currently **treated**  **Inj.** can be removed/recovered from, by spending **4D4** weeks in uninterrupted, active recovery. Active recovery implies spending the vast majority of the day in bed or at least avoiding physical and mental strains. 
 
 #### Injury Exhaustion Threshold
-Once a character is brought to at least half their maximum number of **Inj.** (rounded up), every time past that point that they suffer further damage and/or injury they must succeed a [toughness](#toughness-tough) test with twice their number of injuries as the **Ob**, or else suffer +1 [exhaustion](#exhaustion). This point in time is called the **injury exhaustion threshold**. 
+Once a character is brought to at least half their maximum number of **Inj.** (rounded down), every time past that point that they suffer further damage and/or injury they must succeed a [toughness](#toughness-tough) test with their number of injuries as the **Ob**, or else suffer +1 [exhaustion](#exhaustion). This point in time is called the **injury exhaustion threshold**. 
 
 > A character is injured in combat. They have an **injury** threshold of 3 and already suffered an injury earlier. Even though the earlier injury may have been **patched up** by now, the character's new injury brings them up to a total of 2 injuries. 
 > 
-> This means that they've reached their **injury exhaustion threshold**. Now, when they're wounded again in combat, they must succeed a [toughness](#toughness-tough) test at **Ob** 4, or else suffer +1 [exhaustion](#exhaustion). 
+> This means that they've gone past their **injury exhaustion threshold**. Now, they must succeed a [toughness](#toughness-tough) test at **Ob** 2, or else suffer +1 [exhaustion](#exhaustion). 
 
 ### Exhaustion
 Exhaustion is the measure of a character's maximum physical and mental strain they can endure. 
@@ -1537,10 +1537,10 @@ Is opposed by [resist](#resist-will).
 | Level | Name                 | AP | **Ob**  | Effect(s)          | Condition(s) |
 | ----- | -------------------- | -- | ------- | ------------------ | ------------ |
 | 1     | Inspire  | 1  | 1 | Grant another character +1D for their next test. |  |
-| 3     | Pep Talk | 2  | 3 | Remove another character's [dazed](#dazed) or [terrified](#terrified) state. | Once per combat. |
+| 3     | Pep Talk | 2  | 3 | Remove another character's [dazed](#dazed) or [terrified](#terrified) state. |  |
 
 #### Resist (Will)
-Resisting [commanding](#commanding-will), [deception](#deception-ora), [intimidation](#intimidation-will) and [persuasion](#persuasion-emp), as well as some magic schools. 
+Used to resist influences on the mind, as well as some magic schools. 
 
 #### Riding (Emp)
 Riding and controling a mount.
@@ -1833,8 +1833,8 @@ Sometimes, your own body is your greatest weapon. Fists and feet can cause a sur
 
 | Skill | **Ob**  | Attack                  | AP | Damage                | Effect |
 | ----- | ------- | ----------------------- | -- | --------------------- | ------ |
-| 0     | Opposed by **Unarmed** | Punch, kick, headbutt   | 2  | **Str** + 2 **Bludgeoning** | / |
-| 1     | Opposed by **Unarmed** | Grapple | 2  | / | Requires a successful opposed [strength](#strength-str) test. If **completely successful**, the target is unable to move and suffers -1 to their defense tests, for as long as they're grappled. Someone grappled can attempt to break free with an opposed **unarmed** test, on their turn. |
+| 0     | Opposed by **Melee Defence** | Punch, kick, headbutt   | 2  | **Str** + 2 **Bludgeoning** | / |
+| 1     | Opposed by **Unarmed** | Grapple | 2  | / | Requires a successful opposed **unarmed** test. If **completely successful**, the target is unable to move and suffers -1D to their defense tests, for as long as they're grappled. Someone grappled can attempt to break free with an opposed **unarmed** test, on their turn. |
 | 2     | Opposed by **Unarmed** | Wrestle and Disarm |  | Perform a single target attack against a designated enemy. If you win, you disarm them and could wrestle them to the ground, making them [prone](#prone), if you so choose. | Disarm only if enemy is using detachable weapon. |
 
 ### Short Blade
@@ -1863,7 +1863,7 @@ Any long blade, including long one-handed blades. Examples: arming sword, bastar
 | 0     | Opposed   | Slash                   | 2  | **2D6** **Slashing**  | / |
 | 0     | Opposed   | Stab                    | 2  | **1D6 + 1** **Piercing**  | / |
 | 3     | Opposed+2 | Mordhau-Strike          | 2  | **1D4** **Crushing**  | / |
-| 4     | /         | Fencer-Stance           | 3  | / | Enter a defensive fencing stance. Gain +1 [melee defence](#melee-defence-agi) and can **counter-attack** **every** attack.|
+| 4     | /         | Fencer-Stance           | 3  | / | Enter a defensive fencing stance. Gain +1D for [melee defence](#melee-defence-agi) and can **counter-attack** **every** attack.|
 
 ### Great Blade
 Any very long, two-handed blade. Examples: sword of war, greatsword, Zweihänder
