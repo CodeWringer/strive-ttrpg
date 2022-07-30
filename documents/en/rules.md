@@ -1131,8 +1131,9 @@ There are no limits to how many of a given card a player can own, but they may o
 
 | Cost    | Name               | Effect             |
 | ------- | ------------------ | ------------------ |
-| 3 MiFP  | Single Re-Roll     | Re-Roll a single **negative** die. |
+| 3 MiFP  | Single Re-Roll     | Repeat a single test you just made. |
 | 6 MiFP  | Clotter            | One **active Inj.** of choice is now **patched up**. |
+| 1 MaFP  | Cascading Re-Roll  | Repeat a single test you just made. With this card, you keep any **positives** you achieved from the previously made test and add them to the **positives** rolled when you repeat the test. |
 | 1 MaFP  | Fact Check         | Change a minor plot point in a way your prefer. Work with your **GM** to make sure it fits the narrative, but they should respect your wish. This could be something like avoiding an **NPC** death or changing a fact about the plot. |
 | 1 MaFP  | Just a Flesh Wound | Remove or avoid one non-permanent **Inj.** of choice. |
 | 1 MaFP  | Hastened           | +1 **AP** during your turns for the entirety of a [combat](#combat) encounter. |
