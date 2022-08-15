@@ -1728,14 +1728,16 @@ Creation of non-physical influences on the senses. That includes images, sounds 
 
 The mage can always choose to **either** create an image **or** a sound **or** an odor. How long these illusions last, is determined by the [spell's intensity](#spell-intensity). All of these illusions only apply to those individuals, who are within the given *distance* to the mage and who **fail** a [resist](#resist-will) test, at the given **Ob**. 
 
+The [exhaustion](#exhaustion) caused by the illusions must be based on the illusion causing great stress for the victim, for example by creating a deeply unsettling or terrifying image and/or sound. Starting at spell intensity 4, a victim reaching their [exhaustion threshold](#exhaustion) by effect of this magic, they must succeed an [endurance](#endurance-end) test, or else suffer a heart-attack and **die** outright. The **Ob** is a third of their [endurance](#endurance-end), rounded up. 
+
 | Level | Name                 | AP | Distance | Type | Damage | Effect(s)                      |
 | ----- | -------------------- | -- | -------- | ---- | ------ | ------------------------------ |
 | 1     | Weak Illusion        | 2  | 36'/12m   | MST  | 0      | Resist: **Ob 1**, Duration: 3 turns / 15 seconds, Effect: a hand-sized image / a quiet, but audible sound, a weak odor |
-| 2     | Significant Illusion | 2  | 36'/12m   | MST  | 0      | Resist: **Ob 2**, Duration: 6 turns / 30 seconds, Effect: a person-sized image / a significant sound a noticeable odor |
-| 3     | Strong Illusion      | 2  | 36'/12m   | MST  | 0      | Resist: **Ob 3**, Duration: entire combat / 1 minute, Effect: up to 9'³/3m³ sized image / a very loud sound / a strong odor; A resist test can be made again every 30 seconds / 6 turns of combat. |
-| 4     | Overwhelming Illusion| 3  | 48'/16m  | MST  | 0      | Resist: **Ob 4**, Duration: entire combat / 10 minutes, Effect: up to 18'³/6m³ sized image / a deafening sound / an overwhelming odor; A resist test can be made again every 3 minutes  |
-| 5     | Bewitching Illusion  | 4  | 96'/32m  | MST  | 0      | Resist: **Ob 5**, Duration: entire combat / 1 hour, Effect: up to 36'³/12m³ sized image / a deafening sound / an overwhelming odor; A resist test can be made again every 10 minutes |
-| 7     | Living a Dream       | 4  | 192'/64m | MST  | 0      | Resist: **Ob 7**, Duration: however long the mage desires, Effect: however large the mage desires image / a deafening sound / an overwhelming odor; A resist test can be made again every hour |
+| 2     | Significant Illusion | 2  | 48'/16m   | MST  | 0      | Resist: **Ob 2**, Duration: 6 turns / 30 seconds, Effect: a person-sized image / a significant sound a noticeable odor |
+| 3     | Strong Illusion      | 2  | 60'/20m   | MST  | 0      | Resist: **Ob 3**, Duration: entire combat / 1 minute, Effect: up to 9'³/3m³ sized image / a very loud sound / a strong odor; A resist test can be made again every 30 seconds / 6 turns of combat. If the mage desires, can cause +1 [exhaustion](#exhaustion) in victims. |
+| 4     | Overwhelming Illusion| 3  | 72'/24m  | MST  | 0      | Resist: **Ob 4**, Duration: entire combat / 10 minutes, Effect: up to 18'³/6m³ sized image / a deafening sound / an overwhelming odor; A resist test can be made again every 3 minutes. If the mage desires, can cause +2 [exhaustion](#exhaustion) in victims. |
+| 5     | Bewitching Illusion  | 4  | 96'/32m  | MST  | 0      | Resist: **Ob 5**, Duration: entire combat / 1 hour, Effect: up to 36'³/12m³ sized image / a deafening sound / an overwhelming odor; A resist test can be made again every 10 minutes. If the mage desires, can cause +3 [exhaustion](#exhaustion) in victims. |
+| 7     | Living a Dream       | 4  | 192'/64m | MST  | 0      | Resist: **Ob 7**, Duration: however long the mage desires, Effect: however large the mage desires image / a deafening sound / an overwhelming odor; A resist test can be made again every hour. If the mage desires, can cause +4 [exhaustion](#exhaustion) in victims. |
 
 ### Soul-Binding [Int]
 Also referred to as **necromancy**, this is the art and skill of calling souls from the **plane of the dead** and binding them, to reanimate corpses or animate an otherwise unliving body. 
