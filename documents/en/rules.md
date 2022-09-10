@@ -553,42 +553,55 @@ A skill in learning must be tested at **double the** **Ob** than if it were a kn
 
 The outcome of a test gets noted on the skill it was made for, not the attribute actually used for the test. 
 
-**Forking** learning skills is not allowed. **Forking** into learning skills isn't allowed, either. 
+[Forking](#skill-forking) learning skills into tests is not allowed. **Forking** into tests of learning skills isn't allowed, either. 
 
 It **is** possible to receive help or [tutoring](#teaching) on a learning skill. 
 
 ### Advancing Skills
 Whenever a **PC** uses a **skill** in a [test](#tests), the outcome must be noted, both on the skill **and** its associated [attribute](#attributes). See also: [Tests Bring about Learning](#tests-bring-about-learning)
 
-Advancing a **skill** requires:
-* (N + 1) * N * 2 **complete successess**.
-* (N + 1) * N * 3 **partial successess** or **complete failures**.
-* Where *N* is the current level of the attribute. 
+Skill levels and advancement are divided into three tiers: **Dabbling**, **Apprentice** and **Master**. 
+* Skills at **dabbling level** are any skills at level 0, which means any [learning skill](#learning-skills). They are hard to learn without help. 
+* Skills at **apprentice level** are easier to improve and range from the levels 1 to and including 4. 
+* Skills at **master level** are very hard to improve and start at, including, 5. Mastery is open-ended, which means it doesn't, technically, stop. 
+
+Advancing a **dabbling skill** (level 0) requires: 
+* 6 **complete successes**. 
+* 9 **partial successes** or **complete failures**. 
+
+Advancing an **apprentice skill** (level 1-4) requires:
+* (N + 1) * 2 **complete successess**.
+* (N + 1) * 3 **partial successess** or **complete failures**.
+* Where *N* is the *current* level of the akill. 
+
+Advancing a **master skill** (level 5+) requires:
+* N * N **complete successess**.
+* (N + 1) * (N + 1) **partial successess** or **complete failures**.
+* Where *N* is the *current* level of the akill. 
 
 > A character has a [nature](#nature-int) **skill** at level 2. 
 > 
-> To advance their **skill** to level 3, they would need (3 + 1) * 3 * 2 = 24 **complete successes** and (3 + 1) * 3 * 3 = 36 **partial successess** or **complete failures**
+> To advance their **skill** to level 3, they would need (2 + 1) * 2 = 6 **complete successes** and (2 + 1) * 3 = 9 **partial successess** or **complete failures**.
 
 For your convenience, the following table contains the precalculated requirements to advance a **skill** level. 
 * In the table, 'Level' is the character's *current level* in the **skill**. 
-* Note it is possible to go past level 10, but you shouldn't hope for it. 
-* Note that level 0 requirements do not follow the formula above, instead being 10/14 (S/F). 
+* Note it is possible to go past level 10, but you shouldn't hope for it any time soon. 
 
 | Level | Successes | Failures |
 | --- | --- | --- |
-| 0   | 10  | 14  |
+| 0   | 6   | 9   |
 | 1   | 4   | 6   |
-| 2   | 12  | 18  |
-| 3   | 24  | 36  |
-| 4   | 40  | 60  |
-| 5   | 60  | 90  |
-| 6   | 84  | 126 |
-| 7   | 112 | 168 |
-| 8   | 144 | 216 |
-| 9   | 180 | 270 |
-| 10  | 220 | 330 |
+| 2   | 6   | 9   |
+| 3   | 8   | 12  |
+| 4   | 10  | 15  |
+| 5   | 25  | 36  |
+| 6   | 36  | 49  |
+| 7   | 49  | 64  |
+| 8   | 64  | 81  |
+| 9   | 81  | 100 |
+| 10  | 100 | 121 |
 
-Whenever a skill advances, its associated successes and failures must each be reset to 0. 
+Whenever a skill advances, its associated successes and failures must each be reset to 0. Successes and failures accumulated past the threshold do not carry over. They're "lost". 
 
 #### Practice
 It is possible to advance skills *passively*. Whenever a large period of time is spent outside of active adventure, **PC**'s can practice a skill of choice. 
