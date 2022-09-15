@@ -43,7 +43,7 @@
       - [Teaching](#teaching)
   - [Ambitions, Beliefs & Instincts](#ambitions-beliefs--instincts)
     - [Ambition](#ambition)
-    - [Beliefs](#beliefs)
+    - [Beliefs & Goals](#beliefs--goals)
     - [Instincts](#instincts)
   - [Health & Exhaustion](#health--exhaustion)
     - [Injury](#injury)
@@ -619,31 +619,39 @@ Both teacher and pupil must actively spend time together, furthering the pupil's
 If the teacher's skill is at least one level higher than that of their student, the student can use an extra **+1D6** to resolve their tests of the skill they're being taught. 
 
 ## Ambitions, Beliefs & Instincts
+**Ambitions** and **beliefs** define a PC's long-term and short-term goals, as well as what the PC's *convictions* and *wants* are. **Instincts** define semi-automatic reactions of a PC, either to their benefit, or detriment. 
+
 While all characters are expected to have *ambitions*, *beliefs* and *instincts*, **PC**s are special, because for them, these concepts are cemented through rules and mechanics. 
 
 **Ambitions**, **beliefs** and **instincts** can not change during a game session. They can only be changed in-between. 
 
 Whenever a player plays to their **ambitions**, **beliefs** and **instincts** in certain ways, they earn [fate points](#fate-points). 
 
-It is the **GM**'s role, to create interesting situations, which can *challenge* the **beliefs** and **instincts**, or even **ambitions** of the **PC**s. However the players and **PC**s react, can earn them [fate points](#fate-points) and will drive the story forward. 
+It is the **GM**'s role, to create interesting situations, which can *challenge* the **beliefs** and **instincts**, or even **ambitions** of the **PC**s. How the players and their **PC**s react, can earn them [fate points](#fate-points) and will drive the story forward. 
 
 ### Ambition
 Every **PC** must have one **ambition** - a life-fulfilling long-term goal to pursue. This can be anything from "found a family" to "become king of the world!". No matter how unrealistic, an **ambition** is a primary driver for a character, to guide them onward. The important part is to think *big*. Something easily achievable would make for a dull **ambition** and defeat the point of it. 
 
 An **ambition** is not expected to change often. An ideal **ambition** would accompany a character a long time. 
 
-### Beliefs
-A player also has to decide on three **beliefs** for their character, which represent short-term goals and expectations of the character and their player. A belief should not be a triviality, but instead a goal that requires some considerable effort on both the character's and player's part to achieve. 
+### Beliefs & Goals
+A **belief** defines a character's conviction - what they *believe* in. Such a belief, while substantial for a character, can - and should - change when recent events or introspection support it. 
 
-A belief must be based on the events and circumstances affecting the character in game. 
+A player has to decide on three **beliefs** for their character. A belief should be based on the events and circumstances affecting the character in game. 
 
-> For example, a **PC** learns of a conspiracy against their lord during the session. After the session, they decide they'll change one of their **beliefs** to "I will uncover the plot against my lord!"
+In addition to that, for every belief, at least one goal must be defined, with which to pursue it. Such a goal should not be a triviality and require some effort to achieve. These goals define the immediate and short-term actions a PC is going to undertake. 
+
+> For example, a **PC** learns of a conspiracy against their lord during the session. After the session, they decide they'll change one of their **beliefs** to "My lord's safety is paramount!" and their associated goal to "I will uncover the plot against my lord!"
+> 
+> With that they set the stage for their character when the next session arrives. The GM thus has a better idea of what story elements to prepare for and the other players know why the one player's character suddenly acts more suspiciously and inquisitively. 
 
 **Beliefs** can also target other **PC**s. You can either set a belief to help or even change your fellow **PC**. Be mindful though, your belief should not be *too* drastic.
 
-> For example, a **PC** learns their ally is a member of a secretive and dangerous cult. After the session, the player determines the new belief "I will get my ally to leave that dangerous cult!" Whether successful or not, this belief, in play, will create an **interesting conflict** between the two **PC**s. 
+> For example, a **PC** learns their ally is a member of a secretive and dangerous cult. After the session, the player determines the new belief "I look out for my allies!" and goal "I will get my ally to leave that dangerous cult!" 
+> 
+> Whether successful or not, this belief, in play, will create an **interesting conflict** between the two **PC**s. 
 
-**Beliefs** are expected to change frequently, commonly from session to session. But not so frequent as to make achieving them impossible. 
+**Beliefs** are expected to change frequently, commonly every other session. But not so frequent as to make pursuing them impossible. 
 
 ### Instincts
 Much like [beliefs](#beliefs), a player must determine three **instincts** for their character. 
@@ -1000,7 +1008,7 @@ Keep in mind the **ambition** you can randomly determine here is kept most basic
 #### Choosing Beliefs
 Now, the time to determine your three [beliefs](#beliefs) has come. Yet again, your **GM** is integral in finding them. However, the other **PC**s are also of interest now. You can have **beliefs** whose subject is one of the other **PC**s. You could have the game begin with two or more of the **PC**s knowing each other. 
 
-A good **belief** has a *subject* and a well-defined *goal*. It doesn't necessarily matter if the goal is attainable, though. Unlike an **ambition**, a **belief** doesn't have to be long-term, at all. If it comes up during play, you could achieve your **belief** within the first session. On the other hand, some **beliefs** never come to fruition. 
+Along with the belief, you can now define goals which will let you pursue those beliefs. If none come to mind, that is fine, too. There is no rush to determine immediate goals right away and it should be safe to assume goals will come to you naturally during play, anyways. 
 
 > Two **PC**s begin the game knowing each other. One starts with a background as a criminal, the other as a former monk. The former monk has a **belief** stating "Stealing isn't right! I will help my friend pick up honest work!" The thief, on the other hand has the **belief** "My friend has my back, but they really need to start looking after themselves! I will teach them to be more like me." 
 > 
