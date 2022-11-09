@@ -1676,7 +1676,7 @@ The ability to shape stone to craft predominantly stone-based things.
 #### Rune Carving (Arc)
 The ability to carve [magic runes](#runes).
 
-The level of this skill dictates the maximum intensity level of the respective magic the carved rune can hold. The number of **positives** achieved in a test then set the actual level the rune will hold, but limited by the maximum. 
+The level of this skill dictates the maximum intensity level of the respective magic the carved rune can hold. The number of **positives** achieved in a test then sets the actual level the rune will hold, but limited by the maximum. 
 
 #### Weapon smithing (Str)
 The ability to make weapons from metal. 
