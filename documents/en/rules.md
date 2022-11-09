@@ -696,7 +696,7 @@ An **Inj.** can reduce [attributes](#attributes) and impose other restrictions. 
 #### Injury States
 There are four possible states of an **Inj.**: **active**, **patched up**, **treated** or **permanent**. 
 
-Only an **active** **Inj.** imposes negative effects. 
+Only an **active** **Inj.** imposes negative effects, but injuries will always be counted toward the injury limit. 
 
 An **Inj.** can be **patched up** via [medicine](#medicine-int):
 * If the attempt is a complete success, the **Inj.** is **patched up**.
@@ -713,11 +713,11 @@ An **Inj.** can be properly **treated** via [surgery](#surgery-int):
 All currently **treated**  **Inj.** can be removed/recovered from, by spending **4D4** weeks in uninterrupted, active recovery. Active recovery implies spending the vast majority of the day in bed or at least avoiding physical and mental strains. 
 
 #### Injury Exhaustion Threshold
-Once a character is brought to at least half their maximum number of **Inj.** (rounded up), every time past that point that they suffer further damage and/or injury they must succeed a [toughness](#toughness-tough) test with twice their number of injuries as the **Ob**, or else suffer +1 [exhaustion](#exhaustion). This point in time is called the **injury exhaustion threshold**. 
+Once a character is brought to at least half their maximum number of **Inj.** (rounded down), every time past that point that they suffer further damage and/or injury they must succeed a [toughness](#toughness-tough) test with their number of injuries as the **Ob**, or else suffer +1 [exhaustion](#exhaustion). This point in time is called the **injury exhaustion threshold**. 
 
 > A character is injured in combat. They have an **injury** threshold of 3 and already suffered an injury earlier. Even though the earlier injury may have been **patched up** by now, the character's new injury brings them up to a total of 2 injuries. 
 > 
-> This means that they've reached their **injury exhaustion threshold**. Now, when they're wounded again in combat, they must succeed a [toughness](#toughness-tough) test at **Ob** 4, or else suffer +1 [exhaustion](#exhaustion). 
+> This means that they've gone past their **injury exhaustion threshold**. Now, they must succeed a [toughness](#toughness-tough) test at **Ob** 2, or else suffer +1 [exhaustion](#exhaustion). 
 
 ### Exhaustion
 Exhaustion is the measure of a character's maximum physical and mental strain they can endure. 
@@ -1144,8 +1144,9 @@ There are no limits to how many of a given card a player can own, but they may o
 
 | Cost    | Name               | Effect             |
 | ------- | ------------------ | ------------------ |
-| 3 MiFP  | Single Re-Roll     | Re-Roll a single **negative** die. |
+| 3 MiFP  | Single Re-Roll     | Repeat a single test you just made. |
 | 6 MiFP  | Clotter            | One **active Inj.** of choice is now **patched up**. |
+| 1 MaFP  | Cascading Re-Roll  | Repeat a single test you just made. With this card, you keep any **positives** you achieved from the previously made test and add them to the **positives** rolled when you repeat the test. |
 | 1 MaFP  | Fact Check         | Change a minor plot point in a way your prefer. Work with your **GM** to make sure it fits the narrative, but they should respect your wish. This could be something like avoiding an **NPC** death or changing a fact about the plot. |
 | 1 MaFP  | Just a Flesh Wound | Remove or avoid one non-permanent **Inj.** of choice. |
 | 1 MaFP  | Hastened           | +1 **AP** during your turns for the entirety of a [combat](#combat) encounter. |
@@ -1550,10 +1551,10 @@ Is opposed by [resist](#resist-will).
 | Level | Name                 | AP | **Ob**  | Effect(s)          | Condition(s) |
 | ----- | -------------------- | -- | ------- | ------------------ | ------------ |
 | 1     | Inspire  | 1  | 1 | Grant another character +1D for their next test. |  |
-| 3     | Pep Talk | 2  | 3 | Remove another character's [dazed](#dazed) or [terrified](#terrified) state. | Once per combat. |
+| 3     | Pep Talk | 2  | 3 | Remove another character's [dazed](#dazed) or [terrified](#terrified) state. |  |
 
 #### Resist (Will)
-Resisting [commanding](#commanding-will), [deception](#deception-ora), [intimidation](#intimidation-will) and [persuasion](#persuasion-emp), as well as some magic schools. 
+Used to resist influences on the mind, as well as some magic schools. 
 
 #### Riding (Emp)
 Riding and controling a mount.
@@ -1740,14 +1741,16 @@ Creation of non-physical influences on the senses. That includes images, sounds 
 
 The mage can always choose to **either** create an image **or** a sound **or** an odor. How long these illusions last, is determined by the [spell's intensity](#spell-intensity). All of these illusions only apply to those individuals, who are within the given *distance* to the mage and who **fail** a [resist](#resist-will) test, at the given **Ob**. 
 
+The [exhaustion](#exhaustion) caused by the illusions must be based on the illusion causing great stress for the victim, for example by creating a deeply unsettling or terrifying image and/or sound. Starting at spell intensity 4, a victim reaching their [exhaustion threshold](#exhaustion) by effect of this magic, they must succeed an [endurance](#endurance-end) test, or else suffer a heart-attack and **die** outright. The **Ob** is a third of their [endurance](#endurance-end), rounded up. 
+
 | Level | Name                 | AP | Distance | Type | Damage | Effect(s)                      |
 | ----- | -------------------- | -- | -------- | ---- | ------ | ------------------------------ |
 | 1     | Weak Illusion        | 2  | 36'/12m   | MST  | 0      | Resist: **Ob 1**, Duration: 3 turns / 15 seconds, Effect: a hand-sized image / a quiet, but audible sound, a weak odor |
-| 2     | Significant Illusion | 2  | 36'/12m   | MST  | 0      | Resist: **Ob 2**, Duration: 6 turns / 30 seconds, Effect: a person-sized image / a significant sound a noticeable odor |
-| 3     | Strong Illusion      | 2  | 36'/12m   | MST  | 0      | Resist: **Ob 3**, Duration: entire combat / 1 minute, Effect: up to 9'³/3m³ sized image / a very loud sound / a strong odor; A resist test can be made again every 30 seconds / 6 turns of combat. |
-| 4     | Overwhelming Illusion| 3  | 48'/16m  | MST  | 0      | Resist: **Ob 4**, Duration: entire combat / 10 minutes, Effect: up to 18'³/6m³ sized image / a deafening sound / an overwhelming odor; A resist test can be made again every 3 minutes  |
-| 5     | Bewitching Illusion  | 4  | 96'/32m  | MST  | 0      | Resist: **Ob 5**, Duration: entire combat / 1 hour, Effect: up to 36'³/12m³ sized image / a deafening sound / an overwhelming odor; A resist test can be made again every 10 minutes |
-| 7     | Living a Dream       | 4  | 192'/64m | MST  | 0      | Resist: **Ob 7**, Duration: however long the mage desires, Effect: however large the mage desires image / a deafening sound / an overwhelming odor; A resist test can be made again every hour |
+| 2     | Significant Illusion | 2  | 48'/16m   | MST  | 0      | Resist: **Ob 2**, Duration: 6 turns / 30 seconds, Effect: a person-sized image / a significant sound a noticeable odor |
+| 3     | Strong Illusion      | 2  | 60'/20m   | MST  | 0      | Resist: **Ob 3**, Duration: entire combat / 1 minute, Effect: up to 9'³/3m³ sized image / a very loud sound / a strong odor; A resist test can be made again every 30 seconds / 6 turns of combat. If the mage desires, can cause +1 [exhaustion](#exhaustion) in victims. |
+| 4     | Overwhelming Illusion| 3  | 72'/24m  | MST  | 0      | Resist: **Ob 4**, Duration: entire combat / 10 minutes, Effect: up to 18'³/6m³ sized image / a deafening sound / an overwhelming odor; A resist test can be made again every 3 minutes. If the mage desires, can cause +2 [exhaustion](#exhaustion) in victims. |
+| 5     | Bewitching Illusion  | 4  | 96'/32m  | MST  | 0      | Resist: **Ob 5**, Duration: entire combat / 1 hour, Effect: up to 36'³/12m³ sized image / a deafening sound / an overwhelming odor; A resist test can be made again every 10 minutes. If the mage desires, can cause +3 [exhaustion](#exhaustion) in victims. |
+| 7     | Living a Dream       | 4  | 192'/64m | MST  | 0      | Resist: **Ob 7**, Duration: however long the mage desires, Effect: however large the mage desires image / a deafening sound / an overwhelming odor; A resist test can be made again every hour. If the mage desires, can cause +4 [exhaustion](#exhaustion) in victims. |
 
 ### Soul-Binding [Int]
 Also referred to as **necromancy**, this is the art and skill of calling souls from the **plane of the dead** and binding them, to reanimate corpses or animate an otherwise unliving body. 
@@ -1846,8 +1849,8 @@ Sometimes, your own body is your greatest weapon. Fists and feet can cause a sur
 
 | Skill | **Ob**  | Attack                  | AP | Damage                | Effect |
 | ----- | ------- | ----------------------- | -- | --------------------- | ------ |
-| 0     | Opposed by **Unarmed** | Punch, kick, headbutt   | 2  | **Str** + 2 **Bludgeoning** | / |
-| 1     | Opposed by **Unarmed** | Grapple | 2  | / | Requires a successful opposed [strength](#strength-str) test. If **completely successful**, the target is unable to move and suffers -1 to their defense tests, for as long as they're grappled. Someone grappled can attempt to break free with an opposed **unarmed** test, on their turn. |
+| 0     | Opposed by **Melee Defence** | Punch, kick, headbutt   | 2  | **Str** + 2 **Bludgeoning** | / |
+| 1     | Opposed by **Unarmed** | Grapple | 2  | / | Requires a successful opposed **unarmed** test. If **completely successful**, the target is unable to move and suffers -1D to their defense tests, for as long as they're grappled. Someone grappled can attempt to break free with an opposed **unarmed** test, on their turn. |
 | 2     | Opposed by **Unarmed** | Wrestle and Disarm |  | Perform a single target attack against a designated enemy. If you win, you disarm them and could wrestle them to the ground, making them [prone](#prone), if you so choose. | Disarm only if enemy is using detachable weapon. |
 
 ### Short Blade
@@ -1876,7 +1879,7 @@ Any long blade, including long one-handed blades. Examples: arming sword, bastar
 | 0     | Opposed   | Slash                   | 2  | **2D6** **Slashing**  | / |
 | 0     | Opposed   | Stab                    | 2  | **1D6 + 1** **Piercing**  | / |
 | 3     | Opposed+2 | Mordhau-Strike          | 2  | **1D4** **Crushing**  | / |
-| 4     | /         | Fencer-Stance           | 3  | / | Enter a defensive fencing stance. Gain +1 [melee defence](#melee-defence-agi) and can **counter-attack** **every** attack.|
+| 4     | /         | Fencer-Stance           | 3  | / | Enter a defensive fencing stance. Gain +1D for [melee defence](#melee-defence-agi) and can **counter-attack** **every** attack.|
 
 ### Great Blade
 Any very long, two-handed blade. Examples: sword of war, greatsword, Zweihänder
