@@ -112,9 +112,9 @@
     - [Dealing Damage](#dealing-damage)
   - [Defending](#defending)
 - [Magic](#magic)
-  - [Magic Stamina](#magic-stamina)
-    - [Recovery](#recovery)
-  - [Spell-Backfire](#spell-backfire)
+  - [Testing Magic](#testing-magic)
+    - [Magic Stamina](#magic-stamina)
+    - [Spell-Backfire](#spell-backfire)
   - [Magic Things](#magic-things)
     - [Abyssalite](#abyssalite)
     - [Amberite](#amberite)
@@ -1039,7 +1039,7 @@ Please keep in mind the values here are representative for an ordinary human abo
   * You can spend **16 points** on your attributes. 
   * All attributes **except arcana** start at level 1. Arcana is at 0 and remains at 0. 
   * Your attribute-total cannot be greater than **26**.
-* No attribute may have a level less than 1 nor higher than 4.
+* No attribute may have a level less than 1 (exception: **arcana**) nor higher than 4.
 * Only two attributes may have a level of 4. 
 
 #### Semi-Random Attribute Assignment
@@ -1056,7 +1056,7 @@ Please keep in mind the values here are representative for an ordinary human abo
    If the number is positive, that's the number of levels you'll have to go up. 
 1. Starting from the left or right, start adjusting each value.
    1. If your levels have to go down, subtract one from each value. **But** skip 1s. 
-   1. If your levels have to go up, add one to each value. **But** don't skip 4s. 
+   1. If your levels have to go up, add one to each value. But **don't** skip 4s. 
 1. Repeat from the step of counting up your total and adjusting as necessary, until no more adjustments are necessary. 
 1. Lastly, apply the adjusted values to your attributes. 
 
@@ -1278,52 +1278,49 @@ It is possible to defend against a magical **aoe** attack, by using the [counter
 If the attacker wins the [opposed test](#opposed-test) or if they used an **aoe** attack that couldn't/wasn't countered or dodged, they get to roll for damage. If the defender wins, no damage is dealt. 
 
 # Magic
-Any character with [arcana](#arcana-arc), can cast magic. What kind of magic, depends on the [magic schools](#magic-schools) the character knows. 
+Any character with [arcana](#arcana-arc), can cast magic. What kind of magic, depends on the [magic schools](#list-of-magic-schools) the character knows. 
 
 While not all magic can be used offensively, that which can, will inflict [damage](#health--exhaustion), proportional to the [spell's intensity](#spell-intensity) and may cause other effects on those affected by it. 
 
-The effects magic do not affect the mage casting, unless if they suffer a [spell-backfire](#spell-backfire) or if it is an [aoe](#area-of-effect-attack) spell or if the spell defines that it can. 
+The effects of a magic spell do not affect the mage casting it, unless if they suffer a [spell-backfire](#spell-backfire) or if it is an [aoe](#area-of-effect-attack) spell and they're standing in the **aoe** or if the description of the spell defines that it can. 
 
-## Magic Stamina
-Magic takes a toll on the caster's body. It takes great mental effort to properly cast magic. **Magic stamina** represents a mage's capacity for casting magic without risk to themselves. 
+A *magic spell* is the intended effect of using a [magic school skill](#magic-school--school---attribute-). This is also referred to as *casting magic*, *casting a spell* or other similar wordings. 
 
-Note that it is possible for a mage to cast magic that costs more **magic stamina** than they have available. Any magic cast that costs more **magic stamina** than is available, can cause a [spell-backfire](#spell-backfire). 
+## Testing Magic
+Testing a [magic school skill](#magic-school--school---attribute-), in order to cast a *magic spell*, works as follows:
+1. The mage determines the spell intensity level they're going to use. Their level in the corresponding magic school skill determines the maximum spell intensity level they can pick. 
+2. The chosen spell intensity level determines the test's **Ob**. 
+3. The mage determines how many dice they will roll for the test. They must roll at least as many as the **Ob** threshold dictates and can roll at most up to their level in the skill. 
+4. The dice are rolled. 
+  1. If the test is a **complete success**, the spell is cast as intended. Otherwise, the spell [back-fires](#spell-backfire).
+  2. The number of **negatives** rolled, determine the [magic stamina](#magic-stamina) cost of the spell. 
+  3. If the spell uses up more magic stamina than the mage has left available, the spell also [back-fires](#spell-backfire). Additionally, the mage suffers one point of [exhaustion](#exhaustion). 
 
-**Magic stamina** is reduced every time magic is cast. The threshold is reduced by the [intensity](#spell-intensity) at which the spell was cast. Success or failure doesn't matter - even just the attempt to cast the spell incurs the **magic stamina** cost. 
-
-Mechanically speaking, every mage has two values to track: their **maximum magic stamina** and their **current magic stamina**. The *threshold* is considered the maximum, while the current magic stamina must be tracked, separately. 
-
-For every point past the current threshold that the magic casting costs, one **D6** must be rolled. If a 1 or a 2 is rolled, the spell [spell-backfires](#spell-backfire), dealing its full damage to the caster, instead. 
-
-How much **magic stamina** a mage has available to them, is derived from their [arcana](#arcana-arc) attribute + the total level of all their known [magic school](#magic-school--school---attribute-) skill levels, divided by two and rounded up. 
-
-> If a mage has an **arcana** of 3 and has the **magic school skills** **pyromancy** at level 3, **cryomancy** at level 2 and **counter-magic** at level 5, that means they have (3 + 3 + 2 + 5) / 2 = 7 **magic stamina**. 
-
-### Recovery
-Once spent, **magic stamina** can only be regained through **active rest or meditation**. For every 10 minutes spent in *active rest or meditation*, a mage regains 1 **magic stamina**. 
-
-This implies not engaging in any physical or mental strains. 
-
-## Spell-Backfire
-A spell-backfire causes a spell to affect the caster, instead of their intended target. 
-
-In case of an [aoe](#area-of-effect-attack) attack spell, anything nearby the mage, in range, also receives the damage, unless if it can [counter-magic](#counter-magic) it. The mage suffers the full damage and/or effect of the spell. If anything or anyone nearby is affected, they also suffer the full damage and/or effect of the spell. 
-
-A test for a **spell-backfire** must be made in the following two cases: 
-1. The mage is using more **magic stamina**, than they have available. 
-2. The test in the given magic school is **not** a **complete success**. A **partial succes/failure** counts as a **complete failure**. 
-
-In the first case, the mage must **immediately** roll as many **D6**, as they're going beyond their limit. If a **spell-backfire** is caused by this, the skill test is skipped and an automatic failure must be noted on the skill. 
-
-In the second case, the mage must roll as many **D6**, as the amount of **magic stamina** they spent on the spell **and** had available. 
-
-> A mage has 2 points of **magic stamina** left and wants to cast [pyromancy](#pyromancy-arc) at level 3. This means the spell costs 3 **magic stamina**, which is 1 more that the mage has available. 
+> A mage wants to cast an [illusion](#illusion-emp) spell, at intensity level 2. Their level in the corresponding magic school skill is 4. They have 2 magic stamina left. 
 > 
-> They must immediately roll **1D6**, to test for a **spell-backfire**. This occurs even before the actual skill test for **pyromancy** is made. They roll a 4, which does not cause a **spell-backfire**. They got lucky and get to roll for their skill test. 
+> Thus, their **Ob** for this test is 2 and they have 4 dice available for the test. They choose to roll all 4 dice. 
 > 
-> With an arcana at level 2 and pyromancy skill at level 3, they get to roll a total of **5D6** and achieve two **positives**. But two is not enough and thus results in a **complete failure** of the skill test. Now, the mage must roll **2D6** (the magic stamina they had left, excluding the one they didn't have left, but also needed). 
-> 
-> They achieve a 5 and a 1. The 1 causes the spell to backfire, thus dealing the full damage to the mage, instead of their intended target. 
+> They achieve 2 **positives** and 2 **negatives**. Thus, the test is a **complete success** and they incur a **magic stamina** cost of 2. Unfortunately for them, this exhausts their supply of **magic stamina** and thus, their spell **back-fires**, affecting only themselves, instead of their intended target. Additionally, they incur a point of **exhaustion**.
+
+### Magic Stamina
+Magic takes a toll on the caster's body. It takes great mental effort to properly cast magic. **Magic stamina** represents a mage's capacity for casting magic without risk to themselves. It is a replenishable resource that is used up faster, the more a mage concentrates on succeeding their [magic school skill tests](#testing-magic). 
+
+Mechanically speaking, every mage has two values to track: their **maximum magic stamina** and their **current magic stamina**. 
+
+The **maximum magic stamina** of a mage is derived from the sum of their [arcana](#arcana-arc) attribute and the levels of all their known [magic school skills](#magic-school--school---attribute-), divided by two and rounded up. 
+
+> If a mage has an **arcana** of 3 and has the **magic school skills** **pyromancy** at level 3, **cryomancy** at level 2 and **counter-magic** at level 5, that means they have (3 + 3 + 2 + 5) / 2 = 7 **maximum magic stamina**. 
+
+The **current magic stamina** can not be less than 0 or more than their **maximum magic stamina**. Every time a mage casts a spell, there is a chance they will incur a **magic stamina** cost. For every **negative** they roll, they lose 1 point of **magic stamina**. 
+
+Once spent, **magic stamina** can only be regained through **active rest or meditation**. For every **half hour** spent in *active rest or meditation*, a mage regains 1 **magic stamina**. Active rest or meditation implies not engaging in any physical or mental strains. If in doubt - if you have to do a test for it, it's probably a strain. 
+
+### Spell-Backfire
+A **spell-backfire** causes a spell to affect the caster, instead of their intended target. The mage suffers the full effect of the spell. In case of an [aoe](#area-of-effect-attack) attack spell, anyone or anything nearby the mage, in range, is also affected, unless if they successfully [counter-magic](#counter-magic) it. 
+
+A **spell-backfire** occurs in the following two cases: 
+1. The [magic school skill test](#testing-magic) is **not** a **complete success**. 
+2. The spell costs more [magic stamina](#magic-stamina), than the mage has available. 
 
 ## Magic Things
 **Ambersteel** takes its name from the in-game material of the same name. As it is a strictly anti-magic material, it should enjoy great attention in any fantasy world, where magic is a real and recognizable force. Where usually, magic is the centerpiece, in **Ambersteel** that isn't quite the case. Magic is powerful and fearsome and thus, if not under control, can threaten to cause great pain and destruction. **Ambersteel** dampens that power and puts shackles on it. 
@@ -1599,6 +1596,8 @@ The ability to understand laws and politics, as well as the ability to direct po
 #### Magic School < School > (< Attribute >)
 Knowledge and experience in a specific [magic school](#list-of-magic-schools). 
 
+See also [testing magic](#testing-magic). 
+
 #### Mathematics (Int)
 The ability to work with numbers. Useful for anyone handling large sums of money, but also for engineers and architects. 
 
@@ -1677,15 +1676,17 @@ The ability to shape stone to craft predominantly stone-based things.
 #### Rune Carving (Arc)
 The ability to carve [magic runes](#runes).
 
-The level of this skill dictates the maximum level of respective magic the carved rune can hold. 
+The level of this skill dictates the maximum intensity level of the respective magic the carved rune can hold. The number of **positives** achieved in a test then set the actual level the rune will hold, but limited by the maximum. 
 
 #### Weapon smithing (Str)
 The ability to make weapons from metal. 
 
 ## List of Magic Schools
-The capabilities of the various magic schools are described by the **skill abilities** associated with each of them. The concrete effects are kept vague on purpose, to allow a certain freedom when choosing how the magic is expressed. But the intensity or strength of a casting is tied to the level of the magic skill. 
+The capabilities of the various magic schools are described by the **skill abilities** associated with each of them. The concrete effects are kept vague on purpose, to allow a certain freedom when choosing how the magic is expressed. But the intensity or strength of a casting is tied to the level of the [magic school skill](#magic-school--school---attribute-). 
 
-The **skill abilities** noted here work a bit differently from those on regular (= non-magic) skills. Instead of allowing for potentially very different and unique effects, all the **skill abilities** of a magic school are kept in line with what the magic school is about. 
+The levels noted for each magic school represent the effects a mage can achieve, when casting that particular type of magic. Stronger effects generally require a higher level. 
+
+See also [testing magic](#testing-magic). 
 
 ### Electromancy [Arc]
 The summoning and control of lightning. Electricity is fairly versatile - it can injure or stun and power or trigger electrical and electronic devices. 
