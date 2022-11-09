@@ -1842,6 +1842,7 @@ In the following, replace *N* with the appropriate level.
 | 3+    | Change a Mind          | 2  | N * 12'/4m | ST   | /      | Resist: **Ob N**, Effect: Alter a creature's current state of mind and emotion. |
 | 4     | Pressing Thought       | 3  | 36'/18m    | ST   | /      | Effect: [Hasten](#hasted) a creature of choice for two turns of combat or 10 seconds out of combat. |
 | 6     | Quiet Command          | 3  | N * 12'/4m | ST   | /      | Resist: **Ob N-2**, Effect: Issue a command to another creature, which they feel strongly compelled to follow. |
+| 7     | Confer Knowledge       | 4  | N * 12'/4m | ST   | /      | Resist: **Ob N-2**, Effect: Confer a level of a known **skill** to another creature. |
 
 ### Counter-Magic [End]
 The redirection and dissolution of magic flow. This is the skill to use to defend against magic attacks. 
