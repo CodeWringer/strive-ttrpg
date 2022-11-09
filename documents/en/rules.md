@@ -67,9 +67,11 @@
     - [Damage Types](#damage-types)
     - [Damage Over Time](#damage-over-time)
     - [Damage Resistances](#damage-resistances)
-  - [Possessions & Equipment](#possessions--equipment)
-    - [Money](#money)
-    - [Carrying Capacity](#carrying-capacity)
+  - [Assets](#assets)
+    - [Worn & Equipped](#worn--equipped)
+    - [Luggage](#luggage)
+      - [Carrying Capacity](#carrying-capacity)
+    - [Possessions](#possessions)
   - [Character Creation](#character-creation)
     - [Determine Life Path](#determine-life-path)
       - [Origin](#origin)
@@ -86,7 +88,7 @@
       - [Semi-Random Attribute Assignment](#semi-random-attribute-assignment)
       - [Determine Attribute Advancing Thresholds](#determine-attribute-advancing-thresholds)
     - [Choosing Skills](#choosing-skills)
-    - [Carrying Capactity & Possessions](#carrying-capactity--possessions)
+    - [Determine Assets](#determine-assets)
     - [Determine Max HP & Max Inj](#determine-max-hp--max-inj)
     - [Determine Exhaustion Threshold](#determine-exhaustion-threshold)
     - [Determine Magic Stamina](#determine-magic-stamina)
@@ -238,7 +240,7 @@ A role-playing game by Nicolas Haase
 On the spectrum of *narrative-driven*, *game-y* and *simulationist*, **Ambersteel** aims for the region between *game-y* and *narrative-driven*, while leaning heavily towards *game-y*:
 * Combat is a risky affair and requires tactical and strategic thinking, or the readiness to retreat, when things go awry. When a character suffers **injuries**, they are in *serious trouble*. 
 * Magic is a risky affair, with a chance for a spell to fail and back-fire. The chance of failure is manageable, however. 
-* Players are expected to manage resources, such as their character's health and possessions. Character's are neither *damage sponges*, nor *item vacuums*. 
+* Players are expected to manage resources, such as their character's health and assets. Character's are neither *damage sponges*, nor *item vacuums*. 
 * **PC** change and roleplaying are embedded into the rules. There are no classes or other arbitrary restrictions on what a character can do. **Attributes** and **skills** improve as they are used, incentivising experimentation. Characters have long-term and short-term goals and beliefs, which drive them onward and which change over time. 
 * Characters can help each other in game mechanical ways, encouraging co-operative play. 
 * Generalist characters benefit from their varied knowledge, while specialists enjoy unique abilities. 
@@ -405,7 +407,7 @@ While the **GM** decides on how much time a given test will need, the following 
 * A matter of days and months: Complex crafts and artistry, researching a complex or obscure subject. 
 
 # Character
-A character is a representation of a sentient creature in the game world. They're an amalgam of [attributes](#attributes), [skills](#skills), [ambitions, beliefs & instincts](#ambitions-beliefs--instincts) and of course their [possessions](#possessions--equipment). 
+A character is a representation of a sentient creature in the game world. They're an amalgam of [attributes](#attributes), [skills](#skills), [ambitions, beliefs & instincts](#ambitions-beliefs--instincts) and of course their [assets](#assets). 
 
 ## Attributes
 **Attributes** describe a character's basic, inherent abilities. 
@@ -435,9 +437,9 @@ Governs a character's ability to passively quickly pick up on fine and fleeting 
 Also governs the ability to perceive under difficult conditions such as dim light and fog, or noisy and smelly environments. 
 
 #### Strength [Str]
-Governs a character's strength - the ability to lift, throw and break heavy and sturdy things. Such as skulls. 
+Governs a character's **strength** - the ability to lift, throw and break heavy and sturdy things. Such as skulls. 
 
-Also governs the [carrying capacity](#carrying-capacity) of a character. Each point in strength raises the [carrying capacity](#carrying-capacity) of the character by 6. 
+Also governs the [carrying capacity](#carrying-capacity) of a character. Each point in **strength** raises the [carrying capacity](#carrying-capacity) of the character by 3. 
 
 #### Toughness [Tough]
 Governs the [injury threshold](#injury) of a character. 
@@ -858,36 +860,54 @@ Some creatures can resist certain [types of damage](#damage-types) naturally, wh
 
 How much **damage** is resisted, depends on the specifics of the creature or character and their [equipment](#possessions--equipment). 
 
-## Possessions & Equipment
-A character may have things on their persion, such as worn equipment, as well as the things they *own*. 
+## Assets
+A character may have things on their person, such as worn equipment and luggage, as well as the things they *own*, but don't have on person. 
 
-### Money
-Money is generalized as **crowns**, with no regard for regional currencies. The following table gives a brief overview of the value of **crowns**. 
+Collectively, these things are referred to as their **assets**. 
 
-Keep in mind most of the really expensive things are usually paid for not in **crowns**, but rather in favors, fealty or rare items. 
+### Worn & Equipped
+Every character can have **assets** they wear or carry on person. These things do not factor into their used [carrying capacity](#carrying-capacity) and are listed on their character sheet in separate slots. 
 
-| Cost Range | Goods                      | Services                   |
-| ---------- | -------------------------- | -------------------------- |
-| 1-10       | Unprocessed foods; Very common things | Simple Lodgings; Sending a message a short distance with a messenger; Peasant's and hireling pay |
-| 10-50      | Low to medium quality alcoholic drinks; A proper, warm meal; Simple tools and items; Simple weapons, like a dagger or woodcutter's axe; Plain clothes or cloth; Farm animals; Somewhat common things | Lodgings in a private room; Private services; Simple equipment repairs; Travel by carriage or stagecoach; A simple guard's pay |
-| 50-100     | Light armor; Decorated clothes; Weapons; Shields; Fine drinks; Lordly meals; Decorative silver things; Low-quality gems; Horses; Books and Scriptures; Uncommon things | Medical services; An elite guard's pay |
-| 100-500    | Medium to heavy armor; Well-made weapons; Decorative gold things; High-quality gems; Carefully bred war-steeds; Small building in a large city; Rare things |  |
-| 500-1000   | Decorated armor; Decorated well-made weapons; Large building in a large city; [Magic runes](#runes); Very rare things |  |
+Every humanoid character has the following slots for worn & equipped assets available:
+* One slot for clothing. 
+* One slot for armor.
+* A slot for every hand. Two-handed weapons would occupy two slots. 
+  * This would allow creatures with more than two appendages to potentially hold a lot more things. 
+* One slot for a back-strapped thing. 
+  * A backpack or similar thing need not be listed, as it is implied by the ability to have [luggage](#luggage) on person. 
+* Slots for any number of worn jewelry or other ornaments.
+  * This only considers *light* jewelry and ornaments. Things that wouldn't encumber their wearer noticeably. Such things as rings, bracelets, a circlet or similar. 
 
-### Carrying Capacity
-Characters have **item slots** that determine how much they can carry. How many **item slots** they have, is determined by their [strength](#strength-str). The number of **item slots** a character has is referred to as the **carrying capacity**. 
+### Luggage
+In addition to the things a character can *wear* on their person, they can also carry around things in a backpack, in pouches, slung over the shoulder or using whatever on person storage solution needed. These things are considered a character's **luggage**. 
 
-Most things will take up one **slot**, which equals something around 5lb/2kg, but some particularly large and/or heavy items can take up more **slots**. How many **slots** an item takes up, is referred to as **bulk**. 
+Things such as money, valuables, camping equipment, tools, provisions, ammunition and so on, all count as **luggage**. 
 
-> An item with **bulk** 2 takes up 2 **item slots**. 
+How much **luggage** a character can have on them, is determined by their [carrying capacity](#carrying-capacity). For every point of it, a character gets one *slot* for a piece of **luggage**. 
 
-So, while most items, such as tools, a day's rations, or books have only 1 **bulk**, armor and weapons typically have more. 
+#### Carrying Capacity
+How much [luggage](#luggage) a character can have on them, is determined by their **carrying capacity**. For every point of it, a character gets one *slot* for a piece of **luggage**. 
 
-Up to 100 [crowns](#money) can fit into one **slot**. 
+A character's **carrying capacity** is determined by their [strength](#strength-str). For each point in [strength](#strength-str), a character receives 3 *slots* for [luggage](#luggage). 
 
-> A **PC** has 56 **crowns**, those all go into 1 **slot**. Their ally is significantly wealthier, with 314 **crowns**, which take up 4 **item slots**.
+Most things will take up one *slot*, which equals something around **5 lb/2 kg**, but some particularly large and/or heavy items can take up more *slots*. How many *slots* an item takes up, is referred to as **bulk**. 
+
+> An item with **bulk** 2 takes up 2 *slots*. 
+
+Up to 100 units of money can fit into one *slot*. 
+
+> In a given world, where the unified currency is called *crowns*:
+> 
+> A **PC** has 56 *crowns*, that money fits into 1 *slot* of **luggage**. Their ally is significantly wealthier, with 314 *crowns*, which take up 4 *slots* of **luggage**.
 
 It is up to the **GM** to decide on when something is *too heavy* to carry for the character in question. 
+
+### Possessions
+Often times, characters will also own things that don't currently have on their person, or which they couldn't reasonably carry on person. 
+
+Things such as an owned plot of land, a house, money in the bank, equipment and tools left at home and so on, all count as **possessions**. Technically, it wouldn't be incorrect to consider things a character has on person as *possessions*, as well, but it would bloat up a character sheet unnecessarily to list those things twice. 
+
+There is no limit for how many **possessions** a character can have. Except, perhaps, how many things they can keep safe from greedy hands. 
 
 ## Character Creation
 Imagine for the longest time of their life, your character has led an ordinary existence, until one day, something life-changing happened. Perhaps something terrible, perhaps something wonderful, but something significant that has forced them out of their comfort zone into a world full of adventure. 
@@ -1075,16 +1095,14 @@ Once you've chosen skills, you can determine the required number of successes an
 
 For this, see the rules on [skill advancing](#advancing-skills).
 
-### Carrying Capactity & Possessions
-First, determine your character's maximum [carrying capacity](#carrying-capacity). Refer to the [strength](#strength-str) attribute to do so. 
+### Determine Assets
+In most cases, your character will have left home with their everyday clothes and some of their **possessions**. 
 
-You can add things your character starts the game with. It is best to start with weapon(s), armor, shield and necessities, like food rations and torches. 
+First, determine your character's [worn & equipped assets](#worn--equipped). Every slot may be filled, but keep in mind your character's background. Someone with the background of a peasant is unlikely to wear a crown, for example. 
 
-However, there some limitations:
-* Max 20 **bulk** total.
-* Only one armor.
-* Only one weapon of **bulk** 3+ OR two weapons of **bulk** 1 or **bulk** 2.
-* Only one shield.
+Then, determine your character's [carrying capacity](#carrying-capacity). Refer to the [strength](#strength-str) attribute to do so. Once you have this number, you know how much [luggage](#luggage) your character can carry around. Again, your character's background should dictate what kinds of things and how many they should have. 
+
+Always make sure to talk to your **GM** and fellow players and have them agree to the **assets** you want your character to start with. 
 
 ### Determine Max HP & Max Inj
 Determine your character's **max HP** and **injury limit**, by referring to the [toughness](#toughness-tough) attribute. 
