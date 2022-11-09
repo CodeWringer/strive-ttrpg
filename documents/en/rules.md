@@ -1199,7 +1199,7 @@ If the turn is ended with any **AP** unspent, they can either be saved up, or sp
 Only up to 5 **AP** may be saved up this way. It may be possible to go past this limit via some skill abilities. 
 
 ### Combat Movement
-A character can move up to **18'/6m** per **AP** spent. In **difficult terrain**, the distance moved per **AP** is half that, at **9'/3m**. 
+A character can move up to **12'/4m** per **AP** spent. In **difficult terrain**, the distance moved per **AP** is half that, at **6'/2m**. 
 
 ## Attacking
 Attacks are made using a [weapon skill](#weapon--weapon-type--str), [magic-school skill](#magic-school--school---attribute-) or a **skill-ability**. 
