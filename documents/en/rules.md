@@ -761,11 +761,11 @@ Out of combat, the character enjoys greater speed of movement.
 #### Death's Door
 **Death's door** is a state only a **PC** can enter and represents their final battle with death. 
 
-A **PC** at **death's door** must succeed at least one [toughness](#toughness-tough) test out of a possible of three. If they never succeed, they perish, irrevocably*. 
+A **PC** at **death's door** must succeed at least one [toughness](#toughness-tough) test out of a possible of three. If they never succeed, they perish, irrevocably*. The **Ob** is determined by the number of **active** **Inj.** the character has, at the time they make the test. 
 * If the character is at **death's door** during [combat](#combat), they must make a [toughness](#toughness-tough) test at the end of every round. 
 * If the character is at **death's door** out of [combat](#combat), they must make a test every minute. 
 
-A character can be helped out of **death's door**, if all of their **active** **Inj.** are **patched up** or **treated**. For every **active** **Inj.** that is **patched up** or **treated**, the character gains one more attempt to succeed a [toughness](#toughness-tough) test. 
+A character can be helped out of the **death's door** state, if all of their **active** **Inj.** are **patched up** or **treated**. 
 
 \* A **very** powerful mage could bring them back using [soul-binding](#soul-binding-int). 
 
