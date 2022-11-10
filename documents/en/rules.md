@@ -41,10 +41,10 @@
     - [Advancing Skills](#advancing-skills)
       - [Practice](#practice)
       - [Teaching](#teaching)
-  - [Ambitions, Beliefs & Instincts](#ambitions-beliefs--instincts)
+  - [Ambitions, Beliefs & Reactions](#ambitions-beliefs--reactions)
     - [Ambition](#ambition)
     - [Beliefs](#beliefs)
-    - [Instincts](#instincts)
+    - [Reactions](#reactions)
   - [Health & Exhaustion](#health--exhaustion)
     - [Injury](#injury)
       - [Injury States](#injury-states)
@@ -79,10 +79,10 @@
       - [The Last Few Years](#the-last-few-years)
     - [Determine Name & Personality](#determine-name--personality)
     - [Species, Sex & Appearance](#species-sex--appearance)
-    - [Choosing Ambition, Beliefs & Instincts](#choosing-ambition-beliefs--instincts)
+    - [Choosing Ambition, Beliefs & Reactions](#choosing-ambition-beliefs--reactions)
       - [Choosing an Ambition](#choosing-an-ambition)
       - [Choosing Beliefs](#choosing-beliefs)
-      - [Choosing Instincts](#choosing-instincts)
+      - [Choosing Reactions](#choosing-reactions)
     - [Choosing Attributes](#choosing-attributes)
       - [Manual Attribute Assignment](#manual-attribute-assignment)
       - [Semi-Random Attribute Assignment](#semi-random-attribute-assignment)
@@ -289,7 +289,7 @@ This is the time, when the magic happens. The players and **GM** have come toget
 ### After the Session
 After a playing session is done, the players and **GM** should stick around to discuss which players earned [fate points](#fate-points). This is where players are nominated for [fate points](#fate-points), by each other and by the **GM**. If everyone agrees, the [fate points](#fate-points) are awarded. Players can and should lobby for their [fate points](#fate-points), but shouldn't beg. If most everyone else says no, then that decision stands. That doesn't mean there is no point in discussing the matter further, but such a discussion shoulnd't be forced. 
 
-Also after the session, players and the **GM** discuss whether a **PC** should lose an [instinct](#instincts), because they have acted against it or haven't gotten to play it out at all. 
+Also after the session, players and the **GM** discuss whether a **PC** should lose a [reaction](#reactions), because they have acted against it or haven't gotten to play it out at all. 
 
 Any time in between sessions, players can spend [fate points](#fate-points) to buy cards (boons) from the [hand of fate](#hand-of-fate).
 
@@ -407,7 +407,7 @@ While the **GM** decides on how much time a given test will need, the following 
 * A matter of days and months: Complex crafts and artistry, researching a complex or obscure subject. 
 
 # Character
-A character is a representation of a sentient creature in the game world. They're an amalgam of [attributes](#attributes), [skills](#skills), [ambitions, beliefs & instincts](#ambitions-beliefs--instincts) and of course their [assets](#assets). 
+A character is a representation of a sentient creature in the game world. They're an amalgam of [attributes](#attributes), [skills](#skills), [ambitions, beliefs & reactions](#ambitions-beliefs--reactions) and of course their [assets](#assets). 
 
 ## Attributes
 **Attributes** describe a character's basic, inherent abilities. 
@@ -634,14 +634,14 @@ Both teacher and pupil must actively spend time together, furthering the pupil's
 
 If the teacher's skill is at least one level higher than that of their student, the student can use an extra **+1D6** to resolve their tests of the skill they're being taught. 
 
-## Ambitions, Beliefs & Instincts
-While all characters are expected to have *ambitions*, *beliefs* and *instincts*, **PC**s are special, because for them, these concepts are cemented through rules and mechanics. 
+## Ambitions, Beliefs & Reactions
+While all characters are expected to have *ambitions*, *beliefs* and *reactions*, **PC**s are special, because for them, these concepts are cemented through rules and mechanics. 
 
-**Ambitions**, **beliefs** and **instincts** can not change during a game session. They can only be changed in-between. 
+**Ambitions**, **beliefs** and **reactions** can not change during a game session. They can only be changed in-between. 
 
-Whenever a player plays to their **ambitions**, **beliefs** and **instincts** in certain ways, they earn [fate points](#fate-points). 
+Whenever a player plays to their **ambitions**, **beliefs** and **reactions** in certain ways, they earn [fate points](#fate-points). 
 
-It is the **GM**'s role, to create interesting situations, which can *challenge* the **beliefs** and **instincts**, or even **ambitions** of the **PC**s. However the players and **PC**s react, can earn them [fate points](#fate-points) and will drive the story forward. 
+It is the **GM**'s role, to create interesting situations, which can *challenge* the **beliefs** and **reactions**, or even **ambitions** of the **PC**s. However the players and **PC**s react, can earn them [fate points](#fate-points) and will drive the story forward. 
 
 ### Ambition
 Every **PC** must have one **ambition** - a life-fulfilling long-term goal to pursue. This can be anything from "found a family" to "become king of the world!". No matter how unrealistic, an **ambition** is a primary driver for a character, to guide them onward. The important part is to think *big*. Something easily achievable would make for a dull **ambition** and defeat the point of it. 
@@ -661,20 +661,24 @@ A belief must be based on the events and circumstances affecting the character i
 
 **Beliefs** are expected to change frequently, commonly from session to session. But not so frequent as to make achieving them impossible. 
 
-### Instincts
-Much like [beliefs](#beliefs), a player must determine three **instincts** for their character. 
+### Reactions
+Much like [beliefs](#beliefs), a player must determine three **reactions** for their character. A **reaction** is an automatic behavior - something the character is *expected* to do *automatically* and without question, when a situation triggers it. But *expected* doesn't mean *have to*. A character can choose to act against a **reaction**, but that may cause them to lose it. 
 
-An **instinct** represents an automatic reaction from the character, given a situation that triggers it. They can be seen as "if/then" and "always/never" statements. These can either be beneficial or detrimental to the character. 
-* A detrimental **instinct** acts as a *troublemaker* and allows earning [fate points](#fate-points). 
-* A beneficial **instinct** acts as *insurance*, but doesn't allow earning [fate points](#fate-points). 
+A **reaction** is an "if/then" and "always/never" statement, which can be be beneficial or detrimental to the character. 
 
-> For example: "Whenever someone praises the state religion, I start ranting against it." - This is a detrimental **instinct**, as the **GM** can use that to cause the **PC** trouble. 
+There are two types of **reactions**:
+* **Troublemaker**: A detrimental **reaction**, that will get the character in trouble.
+  * A **troublemaker** allows earning [fate points](#fate-points). 
+  * *Trouble* is defined as any situation in which a mild conflict arises, from the **PC**'s **reaction**. This conflict does not have to be violent, mind you. It is entirely possible for a social conflict to arise, that is entirely non-violent. In fact, non-violent situations are preferred. But things can always escalate, of course.
+* **Assurance**: A beneficial **reaction** that acts as *insurance*, that the character won't be caught by surprise. 
+  * An **assurance** does not allow earning [fate points](#fate-points). 
+  * *Insurance* is defined as a behavior that allows entering a given situation under more favorable circumstances. An *insurance* can also help prevent or resolve a conflict. 
 
-> Another example: "Whenever a lethal fight breaks out, I have my weapons in hand!" - This is insurance, that even when the **PC** narratively might not have their weapons at the ready, they will, in fact, have them at the ready. 
+> For example: "Whenever someone praises the state religion, I start ranting against it." - This is a **troublemaker**, as the **GM** can use it to cause the **PC** trouble, by presenting them with non player characters that praise the state religion while around the **PC**. 
 
-Ideally, an **instinct** should be (ab-)usable by the **GM**, to get the **PC** into *trouble* easier. This is to be taken with a wink, though. A **GM** is expected to craft an *interesting* story and thus create *interesting* conundrums for the players and their characters, with a realistic chance for the players and their characters to maneuver themselves back out of trouble. 
+> Another example: "Whenever a violent fight breaks out, I have my weapons in hand!" - This is insurance, that even when the **PC** narratively might not have their weapons at the ready, they will, in fact, have them at the ready. 
 
-**Instincts** are expected to change whenever a character (decides) to act against them. A **PC** cannot keep an instinct they keep contradicting. 
+**Reactions** are expected to change whenever a character (decides) to act against them. A **PC** cannot keep a **reaction** they keep contradicting. Players and the **GM** are expected to discuss at the end or beginning of a session, whether anyone should give up one of their **reactions**. 
 
 ## Health & Exhaustion
 Every character has **Hit Points (HP)** and a maximum number of **Injuries (Inj.)** they can endure, before they die. 
@@ -920,7 +924,7 @@ The procedure of creating a character consists of the following steps:
 1. [Determine life path](#determine-life-path). 
 2. [Determine name & personality](#determine-name--personality).
 3. [Determine species, sex & appearance](#species-sex--appearance).
-4. [Determine **ambition**, **beliefs** & **instincts**](#choosing-ambition-beliefs--instincts). 
+4. [Determine **ambition**, **beliefs** & **reactions**](#choosing-ambition-beliefs--reactions). 
 5. [Determine **attributes**](#choosing-attributes).
 6. [Determine **skills**](#choosing-skills).
 7. [Determine **carrying capacity** and **possessions**](#carrying-capactity--possessions).
@@ -931,7 +935,7 @@ The procedure of creating a character consists of the following steps:
 ### Determine Life Path
 Where and when does the story of your character begin? Under what circumstances are they born and how were they raised? Until adulthood, did they lead a life of carelessness or did they have to fight for every scrap of food? How did they lead their life up until the point they picked up adventuring? 
 
-Answering these questions will help you figure out what your character could be like, as a person and what kinds of **ambitions**, **beliefs** and **instincts** they might develop. 
+Answering these questions will help you figure out what your character could be like, as a person and what kinds of **ambitions**, **beliefs** and **reactions** they might develop. 
 
 If you need inspiration, the following tables might help a spark along:
 #### Origin
@@ -1006,8 +1010,8 @@ Gender is personal preference, but could also be decided by a coin flip.
 | 9         | Short       | Narrow     | Pale       | Wavy     |
 | 10        | Scrawny     | Broken     | Pierced    | Greased  |
 
-### Choosing Ambition, Beliefs & Instincts
-As described in the [section with the same name](#ambitions-beliefs--instincts), what your character believes in and what drives them onward, is key in playing them. Don't worry too much about your first **beliefs** and **instincts**, they're expected to change frequently, anyway. 
+### Choosing Ambition, Beliefs & Reactions
+As described in the [section with the same name](#ambitions-beliefs--reactions), what your character believes in and what drives them onward, is key in playing them. Don't worry too much about your first **beliefs** and **reactions**, they're expected to change frequently, anyway. 
 
 Only your **ambition** will require some thought beforehand, but even so, you don't have to plan your character's future, at all. That is the **GM**'s job, after all. But keep in mind your character's **ambition** tells your **GM**, what kind of stories you'd like to explore and what's more, how your character will fit into them. 
 
@@ -1040,8 +1044,8 @@ A good **belief** has a *subject* and a well-defined *goal*. It doesn't necessar
 > 
 > These two **beliefs** allow these characters to come into conflict, despite their good intentions. How it will play out, no one can say. And that makes for an interesting conflict!
 
-#### Choosing Instincts
-Lastly, you need three [instincts](#instincts) for your character. Ideally, at least one of them should allow your **GM** getting your **PC** into *trouble*. 
+#### Choosing Reactions
+Lastly, you need three [reactions](#reactions) for your character. Ideally, at least one of them should allow your **GM** getting your **PC** into *trouble*. 
 
 ### Choosing Attributes
 There are two methods for determining your character's attributes: manual and semi-random. 
@@ -1122,14 +1126,14 @@ Fate points (**FP**) represent a meta-currency that *players* can earn and use t
 
 There are three types of **FP**: [Minor](#minor-fate-points), [major](#major-fate-points) and [ambition](#ambition-fate-points). 
 
-**FP** are earned, by playing to one's [ambitions, beliefs and instincts](#ambitions-beliefs--instincts). Most **FP** are earned by a single player, but some may also be earned as a group. 
+**FP** are earned, by playing to one's [ambitions, beliefs and reactions](#ambitions-beliefs--reactions). Most **FP** are earned by a single player, but some may also be earned as a group. 
 
 ## Minor Fate Points
 **Minor Fate Points (MiFP)** are the lowest valued and most common type of **FP**, most commonly earned by playing the mechanics of the game. 
 
 **MiFP** can be earned in the following ways: 
 * **Beliefs**: Playing to one's **beliefs**. This only counts *working towards* a goal set by a belief. 
-* **Trouble**: Playing to one's **instincts** - if they get their character, or their allies, into trouble. 
+* **Trouble**: Playing to one's **reactions** - if they get their character, or their allies, into trouble. 
 * **Humor**: Stopping the table with a good bit of humor at the right time. But don't overdo it - your **GM** can only weave you a dramatic and gripping story, if you let them. 
 * **Specialist**: Driving the story forward, when no one else could - having the right skill to employ at the right time. 
 * **Helper**: Helping an ally out at a critical time - during or out of [combat](#combat). 
