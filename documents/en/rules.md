@@ -67,9 +67,11 @@
     - [Damage Types](#damage-types)
     - [Damage Over Time](#damage-over-time)
     - [Damage Resistances](#damage-resistances)
-  - [Possessions & Equipment](#possessions--equipment)
-    - [Money](#money)
-    - [Carrying Capacity](#carrying-capacity)
+  - [Assets](#assets)
+    - [Worn & Equipped](#worn--equipped)
+    - [Luggage](#luggage)
+      - [Carrying Capacity](#carrying-capacity)
+    - [Possessions](#possessions)
   - [Character Creation](#character-creation)
     - [Determine Life Path](#determine-life-path)
       - [Origin](#origin)
@@ -86,7 +88,7 @@
       - [Semi-Random Attribute Assignment](#semi-random-attribute-assignment)
       - [Determine Attribute Advancing Thresholds](#determine-attribute-advancing-thresholds)
     - [Choosing Skills](#choosing-skills)
-    - [Carrying Capactity & Possessions](#carrying-capactity--possessions)
+    - [Determine Assets](#determine-assets)
     - [Determine Max HP & Max Inj](#determine-max-hp--max-inj)
     - [Determine Exhaustion Threshold](#determine-exhaustion-threshold)
     - [Determine Magic Stamina](#determine-magic-stamina)
@@ -112,9 +114,9 @@
     - [Dealing Damage](#dealing-damage)
   - [Defending](#defending)
 - [Magic](#magic)
-  - [Magic Stamina](#magic-stamina)
-    - [Recovery](#recovery)
-  - [Spell-Backfire](#spell-backfire)
+  - [Testing Magic](#testing-magic)
+    - [Magic Stamina](#magic-stamina)
+    - [Spell-Backfire](#spell-backfire)
   - [Magic Things](#magic-things)
     - [Abyssalite](#abyssalite)
     - [Amberite](#amberite)
@@ -184,6 +186,7 @@
       - [Rune Carving (Arc)](#rune-carving-arc)
       - [Weapon smithing (Str)](#weapon-smithing-str)
   - [List of Magic Schools](#list-of-magic-schools)
+    - [Electromancy [Arc]](#electromancy-arc)
     - [Pyromancy [Arc]](#pyromancy-arc)
     - [Cryomancy [Arc]](#cryomancy-arc)
     - [Restoration [Emp]](#restoration-emp)
@@ -237,7 +240,7 @@ A role-playing game by Nicolas Haase
 On the spectrum of *narrative-driven*, *game-y* and *simulationist*, **Ambersteel** aims for the region between *game-y* and *narrative-driven*, while leaning heavily towards *game-y*:
 * Combat is a risky affair and requires tactical and strategic thinking, or the readiness to retreat, when things go awry. When a character suffers **injuries**, they are in *serious trouble*. 
 * Magic is a risky affair, with a chance for a spell to fail and back-fire. The chance of failure is manageable, however. 
-* Players are expected to manage resources, such as their character's health and possessions. Character's are neither *damage sponges*, nor *item vacuums*. 
+* Players are expected to manage resources, such as their character's health and assets. Character's are neither *damage sponges*, nor *item vacuums*. 
 * **PC** change and roleplaying are embedded into the rules. There are no classes or other arbitrary restrictions on what a character can do. **Attributes** and **skills** improve as they are used, incentivising experimentation. Characters have long-term and short-term goals and beliefs, which drive them onward and which change over time. 
 * Characters can help each other in game mechanical ways, encouraging co-operative play. 
 * Generalist characters benefit from their varied knowledge, while specialists enjoy unique abilities. 
@@ -404,7 +407,7 @@ While the **GM** decides on how much time a given test will need, the following 
 * A matter of days and months: Complex crafts and artistry, researching a complex or obscure subject. 
 
 # Character
-A character is a representation of a sentient creature in the game world. They're an amalgam of [attributes](#attributes), [skills](#skills), [ambitions, beliefs & instincts](#ambitions-beliefs--instincts) and of course their [possessions](#possessions--equipment). 
+A character is a representation of a sentient creature in the game world. They're an amalgam of [attributes](#attributes), [skills](#skills), [ambitions, beliefs & instincts](#ambitions-beliefs--instincts) and of course their [assets](#assets). 
 
 ## Attributes
 **Attributes** describe a character's basic, inherent abilities. 
@@ -434,9 +437,9 @@ Governs a character's ability to passively quickly pick up on fine and fleeting 
 Also governs the ability to perceive under difficult conditions such as dim light and fog, or noisy and smelly environments. 
 
 #### Strength [Str]
-Governs a character's strength - the ability to lift, throw and break heavy and sturdy things. Such as skulls. 
+Governs a character's **strength** - the ability to lift, throw and break heavy and sturdy things. Such as skulls. 
 
-Also governs the [carrying capacity](#carrying-capacity) of a character. Each point in strength raises the [carrying capacity](#carrying-capacity) of the character by 6. 
+Also governs the [carrying capacity](#carrying-capacity) of a character. Each point in **strength** raises the [carrying capacity](#carrying-capacity) of the character by 3. 
 
 #### Toughness [Tough]
 Governs the [injury threshold](#injury) of a character. 
@@ -553,42 +556,55 @@ A skill in learning must be tested at **double the** **Ob** than if it were a kn
 
 The outcome of a test gets noted on the skill it was made for, not the attribute actually used for the test. 
 
-**Forking** learning skills is not allowed. **Forking** into learning skills isn't allowed, either. 
+[Forking](#skill-forking) learning skills into tests is not allowed. **Forking** into tests of learning skills isn't allowed, either. 
 
 It **is** possible to receive help or [tutoring](#teaching) on a learning skill. 
 
 ### Advancing Skills
 Whenever a **PC** uses a **skill** in a [test](#tests), the outcome must be noted, both on the skill **and** its associated [attribute](#attributes). See also: [Tests Bring about Learning](#tests-bring-about-learning)
 
-Advancing a **skill** requires:
-* (N + 1) * N * 2 **complete successess**.
-* (N + 1) * N * 3 **partial successess** or **complete failures**.
-* Where *N* is the current level of the attribute. 
+Skill levels and advancement are divided into three tiers: **Dabbling**, **Apprentice** and **Master**. 
+* Skills at **dabbling level** are any skills at level 0, which means any [learning skill](#learning-skills). They are hard to learn without help. 
+* Skills at **apprentice level** are easier to improve and range from the levels 1 to and including 4. 
+* Skills at **master level** are very hard to improve and start at, including, 5. Mastery is open-ended, which means it doesn't, technically, stop. 
+
+Advancing a **dabbling skill** (level 0) requires: 
+* 6 **complete successes**. 
+* 9 **partial successes** or **complete failures**. 
+
+Advancing an **apprentice skill** (level 1-4) requires:
+* (N + 1) * 2 **complete successess**.
+* (N + 1) * 3 **partial successess** or **complete failures**.
+* Where *N* is the *current* level of the akill. 
+
+Advancing a **master skill** (level 5+) requires:
+* N * N **complete successess**.
+* (N + 1) * (N + 1) **partial successess** or **complete failures**.
+* Where *N* is the *current* level of the akill. 
 
 > A character has a [nature](#nature-int) **skill** at level 2. 
 > 
-> To advance their **skill** to level 3, they would need (3 + 1) * 3 * 2 = 24 **complete successes** and (3 + 1) * 3 * 3 = 36 **partial successess** or **complete failures**
+> To advance their **skill** to level 3, they would need (2 + 1) * 2 = 6 **complete successes** and (2 + 1) * 3 = 9 **partial successess** or **complete failures**.
 
 For your convenience, the following table contains the precalculated requirements to advance a **skill** level. 
 * In the table, 'Level' is the character's *current level* in the **skill**. 
-* Note it is possible to go past level 10, but you shouldn't hope for it. 
-* Note that level 0 requirements do not follow the formula above, instead being 10/14 (S/F). 
+* Note it is possible to go past level 10, but you shouldn't hope for it any time soon. 
 
 | Level | Successes | Failures |
 | --- | --- | --- |
-| 0   | 10  | 14  |
+| 0   | 6   | 9   |
 | 1   | 4   | 6   |
-| 2   | 12  | 18  |
-| 3   | 24  | 36  |
-| 4   | 40  | 60  |
-| 5   | 60  | 90  |
-| 6   | 84  | 126 |
-| 7   | 112 | 168 |
-| 8   | 144 | 216 |
-| 9   | 180 | 270 |
-| 10  | 220 | 330 |
+| 2   | 6   | 9   |
+| 3   | 8   | 12  |
+| 4   | 10  | 15  |
+| 5   | 25  | 36  |
+| 6   | 36  | 49  |
+| 7   | 49  | 64  |
+| 8   | 64  | 81  |
+| 9   | 81  | 100 |
+| 10  | 100 | 121 |
 
-Whenever a skill advances, its associated successes and failures must each be reset to 0. 
+Whenever a skill advances, its associated successes and failures must each be reset to 0. Successes and failures accumulated past the threshold do not carry over. They're "lost". 
 
 #### Practice
 It is possible to advance skills *passively*. Whenever a large period of time is spent outside of active adventure, **PC**'s can practice a skill of choice. 
@@ -753,11 +769,11 @@ Out of combat, the character enjoys greater speed of movement.
 #### Death's Door
 **Death's door** is a state only a **PC** can enter and represents their final battle with death. 
 
-A **PC** at **death's door** must succeed at least one [toughness](#toughness-tough) test out of a possible of three. If they never succeed, they perish, irrevocably*. 
+A **PC** at **death's door** must succeed at least one [toughness](#toughness-tough) test out of a possible of three. If they never succeed, they perish, irrevocably*. The **Ob** is determined as half of the character's [toughness](#toughness-tough), rounded up. 
 * If the character is at **death's door** during [combat](#combat), they must make a [toughness](#toughness-tough) test at the end of every round. 
 * If the character is at **death's door** out of [combat](#combat), they must make a test every minute. 
 
-A character can be helped out of **death's door**, if all of their **active** **Inj.** are **patched up** or **treated**. For every **active** **Inj.** that is **patched up** or **treated**, the character gains one more attempt to succeed a [toughness](#toughness-tough) test. 
+A character can be helped out of the **death's door** state, if all of their **active** **Inj.** are **patched up** or **treated**. 
 
 \* A **very** powerful mage could bring them back using [soul-binding](#soul-binding-int). 
 
@@ -852,36 +868,54 @@ Some creatures can resist certain [types of damage](#damage-types) naturally, wh
 
 How much **damage** is resisted, depends on the specifics of the creature or character and their [equipment](#possessions--equipment). 
 
-## Possessions & Equipment
-A character may have things on their persion, such as worn equipment, as well as the things they *own*. 
+## Assets
+A character may have things on their person, such as worn equipment and luggage, as well as the things they *own*, but don't have on person. 
 
-### Money
-Money is generalized as **crowns**, with no regard for regional currencies. The following table gives a brief overview of the value of **crowns**. 
+Collectively, these things are referred to as their **assets**. 
 
-Keep in mind most of the really expensive things are usually paid for not in **crowns**, but rather in favors, fealty or rare items. 
+### Worn & Equipped
+Every character can have **assets** they wear or carry on person. These things do not factor into their used [carrying capacity](#carrying-capacity) and are listed on their character sheet in separate slots. 
 
-| Cost Range | Goods                      | Services                   |
-| ---------- | -------------------------- | -------------------------- |
-| 1-10       | Unprocessed foods; Very common things | Simple Lodgings; Sending a message a short distance with a messenger; Peasant's and hireling pay |
-| 10-50      | Low to medium quality alcoholic drinks; A proper, warm meal; Simple tools and items; Simple weapons, like a dagger or woodcutter's axe; Plain clothes or cloth; Farm animals; Somewhat common things | Lodgings in a private room; Private services; Simple equipment repairs; Travel by carriage or stagecoach; A simple guard's pay |
-| 50-100     | Light armor; Decorated clothes; Weapons; Shields; Fine drinks; Lordly meals; Decorative silver things; Low-quality gems; Horses; Books and Scriptures; Uncommon things | Medical services; An elite guard's pay |
-| 100-500    | Medium to heavy armor; Well-made weapons; Decorative gold things; High-quality gems; Carefully bred war-steeds; Small building in a large city; Rare things |  |
-| 500-1000   | Decorated armor; Decorated well-made weapons; Large building in a large city; [Magic runes](#runes); Very rare things |  |
+Every humanoid character has the following slots for worn & equipped assets available:
+* One slot for clothing. 
+* One slot for armor.
+* A slot for every hand. Two-handed weapons would occupy two slots. 
+  * This would allow creatures with more than two appendages to potentially hold a lot more things. 
+* One slot for a back-strapped thing. 
+  * A backpack or similar thing need not be listed, as it is implied by the ability to have [luggage](#luggage) on person. 
+* Slots for any number of worn jewelry or other ornaments.
+  * This only considers *light* jewelry and ornaments. Things that wouldn't encumber their wearer noticeably. Such things as rings, bracelets, a circlet or similar. 
 
-### Carrying Capacity
-Characters have **item slots** that determine how much they can carry. How many **item slots** they have, is determined by their [strength](#strength-str). The number of **item slots** a character has is referred to as the **carrying capacity**. 
+### Luggage
+In addition to the things a character can *wear* on their person, they can also carry around things in a backpack, in pouches, slung over the shoulder or using whatever on person storage solution needed. These things are considered a character's **luggage**. 
 
-Most things will take up one **slot**, which equals something around 5lb/2kg, but some particularly large and/or heavy items can take up more **slots**. How many **slots** an item takes up, is referred to as **bulk**. 
+Things such as money, valuables, camping equipment, tools, provisions, ammunition and so on, all count as **luggage**. 
 
-> An item with **bulk** 2 takes up 2 **item slots**. 
+How much **luggage** a character can have on them, is determined by their [carrying capacity](#carrying-capacity). For every point of it, a character gets one *slot* for a piece of **luggage**. 
 
-So, while most items, such as tools, a day's rations, or books have only 1 **bulk**, armor and weapons typically have more. 
+#### Carrying Capacity
+How much [luggage](#luggage) a character can have on them, is determined by their **carrying capacity**. For every point of it, a character gets one *slot* for a piece of **luggage**. 
 
-Up to 100 [crowns](#money) can fit into one **slot**. 
+A character's **carrying capacity** is determined by their [strength](#strength-str). For each point in [strength](#strength-str), a character receives 3 *slots* for [luggage](#luggage). 
 
-> A **PC** has 56 **crowns**, those all go into 1 **slot**. Their ally is significantly wealthier, with 314 **crowns**, which take up 4 **item slots**.
+Most things will take up one *slot*, which equals something around **5 lb/2 kg**, but some particularly large and/or heavy items can take up more *slots*. How many *slots* an item takes up, is referred to as **bulk**. 
+
+> An item with **bulk** 2 takes up 2 *slots*. 
+
+Up to 100 units of money can fit into one *slot*. 
+
+> In a given world, where the unified currency is called *crowns*:
+> 
+> A **PC** has 56 *crowns*, that money fits into 1 *slot* of **luggage**. Their ally is significantly wealthier, with 314 *crowns*, which take up 4 *slots* of **luggage**.
 
 It is up to the **GM** to decide on when something is *too heavy* to carry for the character in question. 
+
+### Possessions
+Often times, characters will also own things that don't currently have on their person, or which they couldn't reasonably carry on person. 
+
+Things such as an owned plot of land, a house, money in the bank, equipment and tools left at home and so on, all count as **possessions**. Technically, it wouldn't be incorrect to consider things a character has on person as *possessions*, as well, but it would bloat up a character sheet unnecessarily to list those things twice. 
+
+There is no limit for how many **possessions** a character can have. Except, perhaps, how many things they can keep safe from greedy hands. 
 
 ## Character Creation
 Imagine for the longest time of their life, your character has led an ordinary existence, until one day, something life-changing happened. Perhaps something terrible, perhaps something wonderful, but something significant that has forced them out of their comfort zone into a world full of adventure. 
@@ -1033,7 +1067,7 @@ Please keep in mind the values here are representative for an ordinary human abo
   * You can spend **16 points** on your attributes. 
   * All attributes **except arcana** start at level 1. Arcana is at 0 and remains at 0. 
   * Your attribute-total cannot be greater than **26**.
-* No attribute may have a level less than 1 nor higher than 4.
+* No attribute may have a level less than 1 (exception: **arcana**) nor higher than 4.
 * Only two attributes may have a level of 4. 
 
 #### Semi-Random Attribute Assignment
@@ -1050,7 +1084,7 @@ Please keep in mind the values here are representative for an ordinary human abo
    If the number is positive, that's the number of levels you'll have to go up. 
 1. Starting from the left or right, start adjusting each value.
    1. If your levels have to go down, subtract one from each value. **But** skip 1s. 
-   1. If your levels have to go up, add one to each value. **But** don't skip 4s. 
+   1. If your levels have to go up, add one to each value. But **don't** skip 4s. 
 1. Repeat from the step of counting up your total and adjusting as necessary, until no more adjustments are necessary. 
 1. Lastly, apply the adjusted values to your attributes. 
 
@@ -1069,16 +1103,14 @@ Once you've chosen skills, you can determine the required number of successes an
 
 For this, see the rules on [skill advancing](#advancing-skills).
 
-### Carrying Capactity & Possessions
-First, determine your character's maximum [carrying capacity](#carrying-capacity). Refer to the [strength](#strength-str) attribute to do so. 
+### Determine Assets
+In most cases, your character will have left home with their everyday clothes and some of their **possessions**. 
 
-You can add things your character starts the game with. It is best to start with weapon(s), armor, shield and necessities, like food rations and torches. 
+First, determine your character's [worn & equipped assets](#worn--equipped). Every slot may be filled, but keep in mind your character's background. Someone with the background of a peasant is unlikely to wear a crown, for example. 
 
-However, there some limitations:
-* Max 20 **bulk** total.
-* Only one armor.
-* Only one weapon of **bulk** 3+ OR two weapons of **bulk** 1 or **bulk** 2.
-* Only one shield.
+Then, determine your character's [carrying capacity](#carrying-capacity). Refer to the [strength](#strength-str) attribute to do so. Once you have this number, you know how much [luggage](#luggage) your character can carry around. Again, your character's background should dictate what kinds of things and how many they should have. 
+
+Always make sure to talk to your **GM** and fellow players and have them agree to the **assets** you want your character to start with. 
 
 ### Determine Max HP & Max Inj
 Determine your character's **max HP** and **injury limit**, by referring to the [toughness](#toughness-tough) attribute. 
@@ -1175,7 +1207,7 @@ If the turn is ended with any **AP** unspent, they can either be saved up, or sp
 Only up to 5 **AP** may be saved up this way. It may be possible to go past this limit via some skill abilities. 
 
 ### Combat Movement
-A character can move up to **18'/6m** per **AP** spent. In **difficult terrain**, the distance moved per **AP** is half that, at **9'/3m**. 
+A character can move up to **12'/4m** per **AP** spent. In **difficult terrain**, the distance moved per **AP** is half that, at **6'/2m**. 
 
 ## Attacking
 Attacks are made using a [weapon skill](#weapon--weapon-type--str), [magic-school skill](#magic-school--school---attribute-) or a **skill-ability**. 
@@ -1272,52 +1304,49 @@ It is possible to defend against a magical **aoe** attack, by using the [counter
 If the attacker wins the [opposed test](#opposed-test) or if they used an **aoe** attack that couldn't/wasn't countered or dodged, they get to roll for damage. If the defender wins, no damage is dealt. 
 
 # Magic
-Any character with [arcana](#arcana-arc), can cast magic. What kind of magic, depends on the [magic schools](#magic-schools) the character knows. 
+Any character with [arcana](#arcana-arc), can cast magic. What kind of magic, depends on the [magic schools](#list-of-magic-schools) the character knows. 
 
 While not all magic can be used offensively, that which can, will inflict [damage](#health--exhaustion), proportional to the [spell's intensity](#spell-intensity) and may cause other effects on those affected by it. 
 
-The effects magic do not affect the mage casting, unless if they suffer a [spell-backfire](#spell-backfire) or if it is an [aoe](#area-of-effect-attack) spell or if the spell defines that it can. 
+The effects of a magic spell do not affect the mage casting it, unless if they suffer a [spell-backfire](#spell-backfire) or if it is an [aoe](#area-of-effect-attack) spell and they're standing in the **aoe** or if the description of the spell defines that it can. 
 
-## Magic Stamina
-Magic takes a toll on the caster's body. It takes great mental effort to properly cast magic. **Magic stamina** represents a mage's capacity for casting magic without risk to themselves. 
+A *magic spell* is the intended effect of using a [magic school skill](#magic-school--school---attribute-). This is also referred to as *casting magic*, *casting a spell* or other similar wordings. 
 
-Note that it is possible for a mage to cast magic that costs more **magic stamina** than they have available. Any magic cast that costs more **magic stamina** than is available, can cause a [spell-backfire](#spell-backfire). 
+## Testing Magic
+Testing a [magic school skill](#magic-school--school---attribute-), in order to cast a *magic spell*, works as follows:
+1. The mage determines the spell intensity level they're going to use. Their level in the corresponding magic school skill determines the maximum spell intensity level they can pick. 
+2. The chosen spell intensity level determines the test's **Ob**. 
+3. The mage determines how many dice they will roll for the test. They must roll at least as many as the **Ob** threshold dictates and can roll at most up to their level in the skill. 
+4. The dice are rolled. 
+  1. If the test is a **complete success**, the spell is cast as intended. Otherwise, the spell [back-fires](#spell-backfire).
+  2. The number of **negatives** rolled, determine the [magic stamina](#magic-stamina) cost of the spell. 
+  3. If the spell uses up more magic stamina than the mage has left available, the spell also [back-fires](#spell-backfire). Additionally, the mage suffers one point of [exhaustion](#exhaustion). 
 
-**Magic stamina** is reduced every time magic is cast. The threshold is reduced by the [intensity](#spell-intensity) at which the spell was cast. Success or failure doesn't matter - even just the attempt to cast the spell incurs the **magic stamina** cost. 
-
-Mechanically speaking, every mage has two values to track: their **maximum magic stamina** and their **current magic stamina**. The *threshold* is considered the maximum, while the current magic stamina must be tracked, separately. 
-
-For every point past the current threshold that the magic casting costs, one **D6** must be rolled. If a 1 or a 2 is rolled, the spell [spell-backfires](#spell-backfire), dealing its full damage to the caster, instead. 
-
-How much **magic stamina** a mage has available to them, is derived from their [arcana](#arcana-arc) attribute + the total level of all their known [magic school](#magic-school--school---attribute-) skill levels, divided by two and rounded up. 
-
-> If a mage has an **arcana** of 3 and has the **magic school skills** **pyromancy** at level 3, **cryomancy** at level 2 and **counter-magic** at level 5, that means they have (3 + 3 + 2 + 5) / 2 = 7 **magic stamina**. 
-
-### Recovery
-Once spent, **magic stamina** can only be regained through **active rest or meditation**. For every 10 minutes spent in *active rest or meditation*, a mage regains 1 **magic stamina**. 
-
-This implies not engaging in any physical or mental strains. 
-
-## Spell-Backfire
-A spell-backfire causes a spell to affect the caster, instead of their intended target. 
-
-In case of an [aoe](#area-of-effect-attack) attack spell, anything nearby the mage, in range, also receives the damage, unless if it can [counter-magic](#counter-magic) it. The mage suffers the full damage and/or effect of the spell. If anything or anyone nearby is affected, they also suffer the full damage and/or effect of the spell. 
-
-A test for a **spell-backfire** must be made in the following two cases: 
-1. The mage is using more **magic stamina**, than they have available. 
-2. The test in the given magic school is **not** a **complete success**. A **partial succes/failure** counts as a **complete failure**. 
-
-In the first case, the mage must **immediately** roll as many **D6**, as they're going beyond their limit. If a **spell-backfire** is caused by this, the skill test is skipped and an automatic failure must be noted on the skill. 
-
-In the second case, the mage must roll as many **D6**, as the amount of **magic stamina** they spent on the spell **and** had available. 
-
-> A mage has 2 points of **magic stamina** left and wants to cast [pyromancy](#pyromancy-arc) at level 3. This means the spell costs 3 **magic stamina**, which is 1 more that the mage has available. 
+> A mage wants to cast an [illusion](#illusion-emp) spell, at intensity level 2. Their level in the corresponding magic school skill is 4. They have 2 magic stamina left. 
 > 
-> They must immediately roll **1D6**, to test for a **spell-backfire**. This occurs even before the actual skill test for **pyromancy** is made. They roll a 4, which does not cause a **spell-backfire**. They got lucky and get to roll for their skill test. 
+> Thus, their **Ob** for this test is 2 and they have 4 dice available for the test. They choose to roll all 4 dice. 
 > 
-> With an arcana at level 2 and pyromancy skill at level 3, they get to roll a total of **5D6** and achieve two **positives**. But two is not enough and thus results in a **complete failure** of the skill test. Now, the mage must roll **2D6** (the magic stamina they had left, excluding the one they didn't have left, but also needed). 
-> 
-> They achieve a 5 and a 1. The 1 causes the spell to backfire, thus dealing the full damage to the mage, instead of their intended target. 
+> They achieve 2 **positives** and 2 **negatives**. Thus, the test is a **complete success** and they incur a **magic stamina** cost of 2. Unfortunately for them, this exhausts their supply of **magic stamina** and thus, their spell **back-fires**, affecting only themselves, instead of their intended target. Additionally, they incur a point of **exhaustion**.
+
+### Magic Stamina
+Magic takes a toll on the caster's body. It takes great mental effort to properly cast magic. **Magic stamina** represents a mage's capacity for casting magic without risk to themselves. It is a replenishable resource that is used up faster, the more a mage concentrates on succeeding their [magic school skill tests](#testing-magic). 
+
+Mechanically speaking, every mage has two values to track: their **maximum magic stamina** and their **current magic stamina**. 
+
+The **maximum magic stamina** of a mage is derived from the sum of their [arcana](#arcana-arc) attribute and the levels of all their known [magic school skills](#magic-school--school---attribute-), divided by two and rounded up. 
+
+> If a mage has an **arcana** of 3 and has the **magic school skills** **pyromancy** at level 3, **cryomancy** at level 2 and **counter-magic** at level 5, that means they have (3 + 3 + 2 + 5) / 2 = 7 **maximum magic stamina**. 
+
+The **current magic stamina** can not be less than 0 or more than their **maximum magic stamina**. Every time a mage casts a spell, there is a chance they will incur a **magic stamina** cost. For every **negative** they roll, they lose 1 point of **magic stamina**. 
+
+Once spent, **magic stamina** can only be regained through **active rest or meditation**. For every **half hour** spent in *active rest or meditation*, a mage regains 1 **magic stamina**. Active rest or meditation implies not engaging in any physical or mental strains. If in doubt - if you have to do a test for it, it's probably a strain. 
+
+### Spell-Backfire
+A **spell-backfire** causes a spell to affect the caster, instead of their intended target. The mage suffers the full effect of the spell. In case of an [aoe](#area-of-effect-attack) attack spell, anyone or anything nearby the mage, in range, is also affected, unless if they successfully [counter-magic](#counter-magic) it. 
+
+A **spell-backfire** occurs in the following two cases: 
+1. The [magic school skill test](#testing-magic) is **not** a **complete success**. 
+2. The spell costs more [magic stamina](#magic-stamina), than the mage has available. 
 
 ## Magic Things
 **Ambersteel** takes its name from the in-game material of the same name. As it is a strictly anti-magic material, it should enjoy great attention in any fantasy world, where magic is a real and recognizable force. Where usually, magic is the centerpiece, in **Ambersteel** that isn't quite the case. Magic is powerful and fearsome and thus, if not under control, can threaten to cause great pain and destruction. **Ambersteel** dampens that power and puts shackles on it. 
@@ -1593,6 +1622,8 @@ The ability to understand laws and politics, as well as the ability to direct po
 #### Magic School < School > (< Attribute >)
 Knowledge and experience in a specific [magic school](#list-of-magic-schools). 
 
+See also [testing magic](#testing-magic). 
+
 #### Mathematics (Int)
 The ability to work with numbers. Useful for anyone handling large sums of money, but also for engineers and architects. 
 
@@ -1671,15 +1702,31 @@ The ability to shape stone to craft predominantly stone-based things.
 #### Rune Carving (Arc)
 The ability to carve [magic runes](#runes).
 
-The level of this skill dictates the maximum level of respective magic the carved rune can hold. 
+The level of this skill dictates the maximum intensity level of the respective magic the carved rune can hold. The number of **positives** achieved in a test then sets the actual level the rune will hold, but limited by the maximum. 
 
 #### Weapon smithing (Str)
 The ability to make weapons from metal. 
 
 ## List of Magic Schools
-The capabilities of the various magic schools are described by the **skill abilities** associated with each of them. The concrete effects are kept vague on purpose, to allow a certain freedom when choosing how the magic is expressed. But the intensity or strength of a casting is tied to the level of the magic skill. 
+The capabilities of the various magic schools are described by the **skill abilities** associated with each of them. The concrete effects are kept vague on purpose, to allow a certain freedom when choosing how the magic is expressed. But the intensity or strength of a casting is tied to the level of the [magic school skill](#magic-school--school---attribute-). 
 
-The **skill abilities** noted here work a bit differently from those on regular (= non-magic) skills. Instead of allowing for potentially very different and unique effects, all the **skill abilities** of a magic school are kept in line with what the magic school is about. 
+The levels noted for each magic school represent the effects a mage can achieve, when casting that particular type of magic. Stronger effects generally require a higher level. 
+
+See also [testing magic](#testing-magic). 
+
+### Electromancy [Arc]
+The summoning and control of lightning. Electricity is fairly versatile - it can injure or stun and power or trigger electrical and electronic devices. 
+
+| Level | Name                 | AP | Distance | Type | Damage | Effect(s)                      |
+| ----- | -------------------- | -- | -------- | ---- | ------ | ------------------------------ |
+| 1     | Weak Shock           | 1  | 0        | ST   | **1 Burning**   | A small area, about the size of the mage's hand is burned on touch by a weak electrical shock. |
+| 2     | Shock                | 2  | 3'/1m    | ST   | **1D3 Burning** | A small arc of lightning strikes the vulnerable internals of a target. Alternatively, a device could be powered for a short time. A reference point would be powering a flashlight for a few minutes. |
+| 3     | Stunning Shock       | 2  | 15'/5m   | ST  |  | An aimed arc of lightning strikes a single target and causes it to seize up for a moment. Lasts until the start of the target's next turn in combat or several seconds outside of combat. |
+| 5     | Strong Shock          | 2  | 24'/8m  | ST  | **2D4 Burning** | A large arc of lightning strikes the vulnerable internals of a target. Alternatively, a device could be powered for a time. A reference point would be powering a flashlight for several hours. |
+| 5     | Strong Stunning Shock | 2  | 24'/8m  | ST  |  | An aimed arc of lightning strikes a single target and causes it to seize up for a moment. Lasts 2 of the target's turns in combat or 10 seconds outside of combat. |
+| 7     | Cone of Lightning    | 3  | 30'/10m  | MST  | **2D6 Burning** | A cone of lightning spews forth from the mage's finger tips. Up to 3 targets can be hit with the shock. Alternatively, a device could be powered for an extended period of time, depending on its hunger for power. A reference point would be powering up an industrial floodlight for a whole week. |
+| 9     | UNLIMITED POWER      | 3  | 45'/15m  | MST  | **3D6 Burning** | A cone of lightning spews forth from the mage's finger tips. Up to 10 targets can be hit with the shock. Alternatively, a device could be powered for a very long time, depending on its hunger for power. A reference point would be powering up an industrial floodlight for a whole month. |
+| 9     | Mass Stunning Shock  | 3  | 45'/15m  | MST  |  | Several arcs of aimed lightning spew forth from the mage's finger tips, causing up to 10 targets struck to cease up for 3 turns of combat or several minutes outside of combat. |
 
 ### Pyromancy [Arc]
 The summoning and control of fire. The flame being a destructive force, pyromancers enjoy little utility from their magic, beyond the ability to create light. 
@@ -1803,6 +1850,7 @@ In the following, replace *N* with the appropriate level.
 | 3+    | Change a Mind          | 2  | N * 12'/4m | ST   | /      | Resist: **Ob N**, Effect: Alter a creature's current state of mind and emotion. |
 | 4     | Pressing Thought       | 3  | 36'/18m    | ST   | /      | Effect: [Hasten](#hasted) a creature of choice for two turns of combat or 10 seconds out of combat. |
 | 6     | Quiet Command          | 3  | N * 12'/4m | ST   | /      | Resist: **Ob N-2**, Effect: Issue a command to another creature, which they feel strongly compelled to follow. |
+| 7     | Confer Knowledge       | 4  | N * 12'/4m | ST   | /      | Resist: **Ob N-2**, Effect: Confer a level of a known **skill** to another creature. |
 
 ### Counter-Magic [End]
 The redirection and dissolution of magic flow. This is the skill to use to defend against magic attacks. 
