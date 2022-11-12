@@ -50,18 +50,18 @@
       - [Injury States](#injury-states)
       - [Injury Exhaustion Threshold](#injury-exhaustion-threshold)
     - [Exhaustion](#exhaustion)
-    - [Status Effects](#status-effects)
+    - [State](#state)
+      - [Berserk](#berserk)
       - [Dazed](#dazed)
-      - [Unconscious](#unconscious)
+      - [Death's Door](#deaths-door)
       - [Grappled](#grappled)
       - [Hasted](#hasted)
-      - [Death's Door](#deaths-door)
+      - [Jealous](#jealous)
+      - [Pacified](#pacified)
+      - [Prone](#prone)
       - [Rooted](#rooted)
       - [Terrified](#terrified)
-      - [Berserk](#berserk)
-      - [Pacified](#pacified)
-      - [Jealous](#jealous)
-      - [Prone](#prone)
+      - [Unconscious](#unconscious)
     - [Illness](#illness)
     - [Scars](#scars)
     - [Damage Types](#damage-types)
@@ -743,20 +743,31 @@ Exhaustion gained from **exhausting actions** can be reduced by resting. A full 
 
 Exhaustion gained from **exhausting equipment**, can be reduced, by dropping the equipment in question and resting for a short while, at the **GM**'s discretion. A character trying to carry more than they can endure, should not immediately fall unconscious, mind you. Apply common sense - the character in question would probably try to carry the extra equipment, only find out right away it is simply too much for them. 
 
-### Status Effects
-Characters can have one or more **status effect(s)** affecting them. A **status effect** can have positive or negative effects on the character. 
+### State
+A **state** can have positive or negative effects on them and they can have any number of **states** applying to them. 
+
+#### Berserk
+A character who is in **berserk**, **must** attack the creature nearest to them. 
+
+This **state** lasts until it is successfully [resisted](#resist-will) or the character is made [unconscious](#unconscious). 
 
 #### Dazed
 A **dazed** character begins their turn with -2 **AP** and can run at most only half the distance they normally could. In addition, they suffer a penalty of **-1D** to all tests. The number of dice for a test cannot be reduced to less than 1 by this penalty. 
 
 Additionally, a **dazed** mage can no longer attempt to cast any magic. 
 
-A **dazed** state can be recovered from either by succeeding a [toughness](#toughness-tough) test with **Ob** at half **toughness**, rounded up or by resting at least half an hour. 
+A **dazed** **state** can be recovered from either by succeeding a [toughness](#toughness-tough) test with **Ob** at half **toughness**, rounded up or by resting at least half an hour. 
 
-#### Unconscious
-An **unconscious** character is unable to act and is unaware of their surroundings. 
+#### Death's Door
+**Death's door** is a **state** only a **PC** can enter and represents their final battle with death. 
 
-Someone *knocked* **unconscious** can't awaken due to external stimuli and have to recover, first. For how long, depends on the circumstances. But several hours hould be a good baseline. 
+A **PC** at **death's door** must succeed at least one [toughness](#toughness-tough) test out of a possible of three. If they never succeed, they perish, irrevocably*. The **Ob** is determined as half of the character's [toughness](#toughness-tough), rounded up. 
+* If the character is at **death's door** during [combat](#combat), they must make a [toughness](#toughness-tough) test at the end of every round. 
+* If the character is at **death's door** out of [combat](#combat), they must make a test every minute. 
+
+A character can be helped out of the **death's door** state, if all of their **active** **Inj.** are **patched up** or **treated**. 
+
+\* A **very** powerful mage could bring them back using [soul-binding](#soul-binding-int). 
 
 #### Grappled
 A **grappled** character is unable to move and suffers -1 [melee defence](#melee-defence-agi), for as long as they are **grappled**. A **grappled** character can break free, by **completely succeeding** a [strength](#strength-str) test against the other character grappling them. 
@@ -768,43 +779,17 @@ During combat, the character has an additional **AP** to spend and an additional
 
 Out of combat, the character enjoys greater speed of movement. 
 
-#### Death's Door
-**Death's door** is a state only a **PC** can enter and represents their final battle with death. 
+#### Jealous
+A character who has been made unnaturally **jealous**, will do anything in their power to take, whatever it may be, from whoever might have *it*. 
 
-A **PC** at **death's door** must succeed at least one [toughness](#toughness-tough) test out of a possible of three. If they never succeed, they perish, irrevocably*. The **Ob** is determined as half of the character's [toughness](#toughness-tough), rounded up. 
-* If the character is at **death's door** during [combat](#combat), they must make a [toughness](#toughness-tough) test at the end of every round. 
-* If the character is at **death's door** out of [combat](#combat), they must make a test every minute. 
-
-A character can be helped out of the **death's door** state, if all of their **active** **Inj.** are **patched up** or **treated**. 
-
-\* A **very** powerful mage could bring them back using [soul-binding](#soul-binding-int). 
-
-#### Rooted
-A **rooted** character can no longer move their legs. They cannot move from the spot, but can still move their upper body freely. 
-
-This status-effect is usually tied to some condition, before it is removed. 
-
-#### Terrified
-A **terrified** character suffers **-2D** to both their melee and ranged defence and **has to** run away from whatever it is that terrified them, until they break line of sight to it and can no longer hear it. 
-
-This status effect lasts until either the source of terror is removed or until it is successfully [resisted](#resist-will). 
-
-#### Berserk
-A character who is in **berserk**, **must** attack the creature nearest to them. 
-
-This status effect lasts until it is successfully [resisted](#resist-will) or the character is made [unconscious](#unconscious). 
+This **state** lasts until it is successfully [resisted](#resist-will) or the character is made [unconscious](#unconscious). 
 
 #### Pacified
 A character who is **pacified**, is unable to *willingly* take any action that would directly or indirectly harm any other creature. 
 
 Note, the character is not physically unable to cause harm, but they **really** don't want to. 
 
-This status effect lasts until it is successfully [resisted](#resist-will) or the character is made [unconscious](#unconscious). 
-
-#### Jealous
-A character who has been made unnaturally **jealous**, will do anything in their power to take, whatever it may be, from whoever might have *it*. 
-
-This status effect lasts until it is successfully [resisted](#resist-will) or the character is made [unconscious](#unconscious). 
+This **state** lasts until it is successfully [resisted](#resist-will) or the character is made [unconscious](#unconscious). 
 
 #### Prone
 A character who is prone, is harder to hit with ranged attacks, but easier to hit with melee attacks, as they'll have a harder time defending. 
@@ -814,6 +799,21 @@ A character who is prone, is harder to hit with ranged attacks, but easier to hi
 * +1D to [ranged defence](#ranged-defence-agi) tests. 
 
 It costs 1 [AP](#action-points-ap) to stand up. 
+
+#### Rooted
+A **rooted** character can no longer move their legs. They cannot move from the spot, but can still move their upper body freely. 
+
+This **state** is usually tied to some condition, before it is removed. 
+
+#### Terrified
+A **terrified** character suffers **-2D** to both their melee and ranged defence and **has to** run away from whatever it is that terrified them, until they break line of sight to it and can no longer hear it. 
+
+This **state** lasts until either the source of terror is removed or until it is successfully [resisted](#resist-will). 
+
+#### Unconscious
+An **unconscious** character is unable to act and is unaware of their surroundings. 
+
+Someone *knocked* **unconscious** can't awaken due to external stimuli and have to recover, first. For how long, depends on the circumstances. But several hours hould be a good baseline. 
 
 ### Illness
 An illness can affect a character over a perod of time and cause various negative effects. 
@@ -860,7 +860,7 @@ Some creatures can resist certain [types of damage](#damage-types) naturally, wh
 How much **damage** is resisted, depends on the specifics of the creature or character and their [equipment](#possessions--equipment). 
 
 ### Boons & Penalties
-Boons and penalties to the level of an [attribute](#attributes) or [skill](#skills) can be incurred from several different sources, such as [injuries](#injury), [illnesses](#illness), [mutations](#list-of-mutations), [scars](#scars) and [status effects](#status-effects). Boons and penalties may be temporary or permanent, depending on their source. 
+Boons and penalties to the level of an [attribute](#attributes) or [skill](#skills) can be incurred from several different sources, such as [injuries](#injury), [illnesses](#illness), [mutations](#list-of-mutations), [scars](#scars) and [states](#state). Boons and penalties may be temporary or permanent, depending on their source. 
 
 A boon to an [attribute](#attributes) or [skill](#skills) usually comes in the form of increasing its level. If a boon awards an [attribute](#attributes) or [skill](#skills) that the character does not yet have, they gain it automatically. 
 
