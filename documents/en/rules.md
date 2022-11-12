@@ -413,11 +413,12 @@ A character is a representation of a sentient creature in the game world. They'r
 ## Attributes
 **Attributes** describe a character's basic, inherent abilities. 
 
-The value of an attribute indicates the number of **D6** to roll for a test of that attribute. Attribute values typically range from 2 to 6 for ordinary human characters. 
+The *modified* level of an **attribute** dictates the base number of **D6** to roll for a [test](#tests) of that **attribute**. 
+* Two values must be tracked for every **attribute**: The *unmodified* and *modified* level. See [boons and penalties](#boons--penalties). 
+* Unlike [skills](#skills), it is **not** possible to [fork](#skill-forking) **attributes**. 
+* Attribute values typically range from 2 to 5 for ordinary human characters. 
 
 **Attributes** [advance](#advancing-attributes), as they're tested. It is also possible to [practice](#practicing-attributes) **attributes**. It is **not** possible to teach **attributes**, however. 
-
-Unlike [skills](#skills), it is not possible to [fork](#skill-forking) **attributes**. 
 
 ### Physical Attributes
 These numbers represent a character's basic physical abilities. 
@@ -518,7 +519,9 @@ A **cycle** is 2 Months, regardless of attribute being practiced.
 ## Skills
 A **skill** is any acquired knowledge and experience regarding a specific subject. 
 
-All of a character's **skills** have a value attached to them, which indicates the number of **D6** to use when testing that **skill**. Skill values typically range from 1 to 3 for most skills. 4 and 5 is very good, 6 is excellence and 7 and above is mastery. 
+The *modified* level of a **skill** dictates the base number of **D6** to roll for a [test](#tests) of that **skill**. 
+* Two values must be tracked for every **skill**: The *unmodified* and *modified* level. See [boons and penalties](#boons--penalties). 
+* **Skill** values typically range from 1 to 3 for basic knowledge. 4 and 5 represent a firm understanding, 6 and 7 represent excellence and 8 and above represents mastery. 
 
 When [testing a skill](#tests), add half of the related [attribute](#attributes)'s value (rounded down) as number of additional dice for the test. 
 
