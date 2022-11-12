@@ -4,6 +4,7 @@
     - [Dice](#dice)
     - [Before the Game](#before-the-game)
     - [The Session](#the-session)
+      - [Intent & Action](#intent--action)
     - [After the Session](#after-the-session)
   - [Tests](#tests)
     - [Types of Test](#types-of-test)
@@ -36,7 +37,6 @@
       - [Practicing Attributes](#practicing-attributes)
   - [Skills](#skills)
     - [Skill Forking](#skill-forking)
-    - [Intent & Action](#intent--action)
     - [Learning Skills](#learning-skills)
     - [Advancing Skills](#advancing-skills)
       - [Practice](#practice)
@@ -50,23 +50,29 @@
       - [Injury States](#injury-states)
       - [Injury Exhaustion Threshold](#injury-exhaustion-threshold)
     - [Exhaustion](#exhaustion)
-    - [Status Effects](#status-effects)
+    - [State](#state)
+      - [Berserk](#berserk)
+      - [Burning](#burning)
+      - [Bleeding](#bleeding)
       - [Dazed](#dazed)
-      - [Unconscious](#unconscious)
+      - [Death's Door](#deaths-door)
+      - [Dissolving](#dissolving)
+      - [Electrified](#electrified)
+      - [Frostbitten](#frostbitten)
       - [Grappled](#grappled)
       - [Hasted](#hasted)
-      - [Death's Door](#deaths-door)
-      - [Frostbite](#frostbite)
+      - [Jealous](#jealous)
+      - [Pacified](#pacified)
+      - [Poisoned](#poisoned)
+      - [Prone](#prone)
       - [Rooted](#rooted)
       - [Terrified](#terrified)
-      - [Berserk](#berserk)
-      - [Pacified](#pacified)
-      - [Jealous](#jealous)
-      - [Prone](#prone)
+      - [Unconscious](#unconscious)
     - [Illness](#illness)
+    - [Scars](#scars)
     - [Damage Types](#damage-types)
-    - [Damage Over Time](#damage-over-time)
     - [Damage Resistances](#damage-resistances)
+    - [Boons & Penalties](#boons--penalties)
   - [Assets](#assets)
     - [Worn & Equipped](#worn--equipped)
     - [Luggage](#luggage)
@@ -89,7 +95,7 @@
       - [Determine Attribute Advancing Thresholds](#determine-attribute-advancing-thresholds)
     - [Choosing Skills](#choosing-skills)
     - [Determine Assets](#determine-assets)
-    - [Determine Max HP & Max Inj](#determine-max-hp--max-inj)
+    - [Determine Max HP & Injury Maximum](#determine-max-hp--injury-maximum)
     - [Determine Exhaustion Threshold](#determine-exhaustion-threshold)
     - [Determine Magic Stamina](#determine-magic-stamina)
 - [Fate Points](#fate-points)
@@ -226,9 +232,10 @@
     - [Heater Shield](#heater-shield)
     - [Kite Shield](#kite-shield)
   - [List of Injuries](#list-of-injuries)
-    - [List of Burn Injuries](#list-of-burn-injuries)
+    - [Type Specific Injuries](#type-specific-injuries)
   - [List of Illnesses](#list-of-illnesses)
   - [List of Mutations](#list-of-mutations)
+  - [List of Scars](#list-of-scars)
 
 Version 4
 
@@ -285,6 +292,15 @@ Before anyone can start to play, the players have to [create their characters](#
 This is the time, when the magic happens. The players and **GM** have come together and begin or continue the story. 
 
 [Fate points](#fate-points) cannot be awarded during play and neither can cards be bought from the [hand of fate](#hand-of-fate). However, players and the **GM** should take note of every situation they believe a **PC** (their own included) could have earned a [fate point](#fate-points).
+
+#### Intent & Action
+The players drive the story and the action. They decide what their character will try to do and the **GM** will help them figure out if things will go as planned. 
+
+As a player, when deciding on what to do, make sure you state the **intent** of your action, like "I will make that person work for us!". 
+
+Then, the **GM** will need to know *how* you aim to follow up on your intent. Describe the **action** you will take. The clearer, the better. "I will tell them of our exploits and how well we get paid!", is a good response and allows the **GM** to conclude you're trying to [persuade](#persuasion-emp) the other character. Even better would be something like "I will *persuade* them by telling them of our exploits and how well we get paid!" That leaves no room for doubt *how* you wish to achieve your goal, which makes the **GM**'s job easier and the game flow better. 
+
+Of course, how appropriate a certain [attribute](#attributes) or [skill](#skills) is for the resolution of a given situation, is ultimately up to the **GM** and the specifics of the situation itself. 
 
 ### After the Session
 After a playing session is done, the players and **GM** should stick around to discuss which players earned [fate points](#fate-points). This is where players are nominated for [fate points](#fate-points), by each other and by the **GM**. If everyone agrees, the [fate points](#fate-points) are awarded. Players can and should lobby for their [fate points](#fate-points), but shouldn't beg. If most everyone else says no, then that decision stands. That doesn't mean there is no point in discussing the matter further, but such a discussion shoulnd't be forced. 
@@ -412,11 +428,12 @@ A character is a representation of a sentient creature in the game world. They'r
 ## Attributes
 **Attributes** describe a character's basic, inherent abilities. 
 
-The value of an attribute indicates the number of **D6** to roll for a test of that attribute. Attribute values typically range from 2 to 6 for ordinary human characters. 
+The *modified* level of an **attribute** dictates the base number of **D6** to roll for a [test](#tests) of that **attribute**. 
+* Two values must be tracked for every **attribute**: The *unmodified* and *modified* level. See [boons and penalties](#boons--penalties). 
+* Unlike [skills](#skills), it is **not** possible to [fork](#skill-forking) **attributes**. 
+* Attribute values typically range from 2 to 5 for ordinary human characters. 
 
-**Attributes** [advance](#advancing-attributes), as they're tested. It is also possible to [practice](#practicing-attributes) **attributes**. It is **not** possible to teach **attributes**, however. 
-
-Unlike [skills](#skills), it is not possible to [fork](#skill-forking) **attributes**. 
+**Attributes** [advance](#advancing-attributes), as they're [tested](#tests). It is also possible to [practice](#practicing-attributes) **attributes**. It is **not** possible to teach **attributes**, however. 
 
 ### Physical Attributes
 These numbers represent a character's basic physical abilities. 
@@ -444,7 +461,7 @@ Also governs the [carrying capacity](#carrying-capacity) of a character. Each po
 #### Toughness [Tough]
 Governs the [injury threshold](#injury) of a character. 
 
-For every point in [toughness](#toughness-tough), a character gains **+4 maximum HP** and raises their **Inj.** limit by 1. 
+For every point in [toughness](#toughness-tough), a character gains **+4 maximum HP** and raises their [injury](#injury) limit by 1. 
 
 ### Mental Attributes
 These numbers represent a character's basic mental abilities. 
@@ -517,31 +534,24 @@ A **cycle** is 2 Months, regardless of attribute being practiced.
 ## Skills
 A **skill** is any acquired knowledge and experience regarding a specific subject. 
 
-All of a character's **skills** have a value attached to them, which indicates the number of **D6** to use when testing that **skill**. Skill values typically range from 1 to 3 for most skills. 4 and 5 is very good, 6 is excellence and 7 and above is mastery. 
+The *modified* level of a **skill** dictates the base number of **D6** to roll for a [test](#tests) of that **skill**. 
+* Two values must be tracked for every **skill**: The *unmodified* and *modified* level. See [boons and penalties](#boons--penalties). 
+* **Skill** values typically range from 1 to 3 for basic knowledge. 4 and 5 represent a firm understanding, 6 and 7 represent excellence and 8 and above represents mastery. 
 
-When [testing a skill](#tests), add half of the related [attribute](#attributes)'s value (rounded down) as number of additional dice for the test. 
+When [testing](#tests) a **skill**, add half of the related [attribute](#attributes)'s value (rounded down) as an additional number of dice for the test. It is also possible to [fork](#skill-forking) **skills**, allowing even more dice to be used the test. 
 
 **Skills** [advance](#advancing-skills), as they're tested. It is also possible to [practice](#practice) and [teach](#teaching) **skills**. 
 
-It is also possible to [fork](#skill-forking) **skills**, granting more dice to roll in a test. 
-
 ### Skill Forking
-For every **skill** a character knows (= is not currently still learning), and they are currently testing a **skill** that is thematically related, they can **fork** that **skill** into their test, granting them **+1D6** for their test. 
+For every **skill** a character knows (= is not currently still learning), and they are currently testing a **skill** that is thematically related, they can **fork** that **skill** into their test, granting them **+1D6** for their [test](#tests). 
 
-> Imagine a large forked rivermouth. One of the forks feeding into it is also a large river, which represents the **skill** primarily being tested. The other, smaller forks of the river represent the supporting **skills**. They all combine together at the rivermouth. A primary and supporting **skills** flow together into the test! 
+> Imagine a large forked rivermouth. One of the forks feeding into it is also a large river, which represents the **skill** primarily being tested. The other, smaller forks of the river represent the supporting **skills**. They all combine together at the rivermouth. A primary and its supporting **skills** flow together into the test! 
 
-> For example, if a character is testing their [thievery](#thievery-dex--perc--spd) **skill** at level three and they also know [stealth](#stealth-dex--spd--int), they can **fork** their stealth **skill** into their thievery test. Any number of **skills** can be **forked** into a test, but each **fork** only grants **+1D6**. For the thievery test above, it doesn't matter if the character is at stealth level one or five or nine-thousand. They only get a **+1D6** to their thievery test. So in this case, if the **GM** agrees, the player gets to roll **4D6** for their test. 
+> For example, if a character is testing their [thievery](#thievery-dex--perc--spd) **skill** at level 3 and they also know [stealth](#stealth-dex--spd--int), they can **fork** their stealth **skill** into their thievery test. Any number of **skills** can be **forked** into a test, but each **fork** only grants **+1D6**. For the thievery test above, it doesn't matter if the character is at stealth level one or five or nine-thousand. They only get a **+1D6** to their thievery test. So in this case, if the **GM** agrees, the player gets to roll **4D6** for their test. 
 
 Which **skills** can be **forked** into a particular test is up to the **GM**. If a player is performing a test, they can lobby for the use of the **skills** they want to **fork** into their particular test, but ultimately, if the **GM** says no, that decision is final. 
 
 > Back to the thievery example. Let's assume a **PC** is trying to quickly unlock a door using their [thievery](#thievery-dex--perc--spd), because they're being chased by guards and desperately need to get away. They could argue to fork their [stealth](#stealth-dex--spd--int) **skill** into the test, but ultimately, what use is stealth when you've already been detected? Unless you can make yourself *unseen* somehow, the **GM** should rule that stealth cannot apply in that situation. 
-
-### Intent & Action
-The players drive the story and the action. When deciding on what to do, make sure you state the **intent** of your action, like "I will make that person work for us!". 
-
-Then, the **GM** will need to know how you aim to follow up on your intent. Describe the **action** you will take. The clearer, the better. "I will tell them of our exploits and how well we get paid!", is a good response and allows the **GM** to conclude you're trying to [persuade](#persuasion-emp) the other character. Even better would be something like "I will *persuade* them by telling them of our exploits and how well we get paid!" That leaves no room for doubt *how* you wish to achieve your goal. 
-
-Of course, how appropriate a certain **skill** is for the resolution of a given situation, is ultimately up to the **GM** and the specifics of the situation itself. 
 
 ### Learning Skills
 Whenever asked to test a skill a **PC** does not yet know, it will be added or progressed in the *currently learning* section of the character sheet. 
@@ -689,48 +699,50 @@ There are two types of **reactions**:
 **Reactions** are expected to change whenever a character (decides) to act against them. A **PC** cannot keep a **reaction** they keep contradicting. Players and the **GM** are expected to discuss at the end or beginning of a session, whether anyone should give up one of their **reactions**. 
 
 ## Health & Exhaustion
-Every character has **Hit Points (HP)** and a maximum number of **Injuries (Inj.)** they can endure, before they die. 
+Every character has **Hit Points (HP)** and a maximum number of **injuries** they can endure, before they die. 
 
-Whenever a character is hurt, the **damage** that has been inflicted upon them is deducted from their **HP**. Whenever their **HP** reach zero, they suffer an **Inj.** and their **maximum HP** is reduced by **2**. So, in other words, for every **Inj.**, a character loses 2 maximum **HP**. 
+Whenever a character is hurt, the **damage** that has been inflicted upon them is deducted from their **HP**. Whenever their **HP** reach zero, they suffer an [injury](#injury) and their **maximum HP** is reduced by **2**. So, in other words, for every [injury](#injury), a character loses 2 maximum **HP**. 
 
 Any **HP** damage past zero overflows. The additional damage dealt isn't lost. 
 
-Even when [Toughness](#toughness-tough) is reduced by an injury, still only 2 maximum **HP** are deducted. 
+Even when [Toughness](#toughness-tough) is reduced by an [injury](#injury), still only 2 maximum **HP** are deducted. 
 
 Outside of combat, a successful [medicine](#medicine-int) test can restore all currently missing **HP** of a character. 
 
 ### Injury
-An **injury (Inj.)** is a serious health impediment of a character. Every character has a maximum number of **Inj.** they can endure. If they reach their maximum number of **Inj.**, the character dies. **PC**s are an exception, who instead arrive at [death's door](#deaths-door). 
+An **injury** is a serious health impediment of a character. Every character has a maximum number of [injuries](#injury) they can endure. If they reach their maximum number of [injuries](#injury), the character dies. **PC**s are an exception, who instead arrive at [death's door](#deaths-door). 
 
-Whenever a character suffers an **Inj.**, a **D100** must be rolled and the corresponding result from the [list of injuries](#list-of-injuries) added to the character. Depending on the type of damage and the situation in question, a different injury table may be rolled on, instead. Such as the [burn injuries](#list-of-burn-injuries). 
+Whenever a character suffers an [injury](#injury), a **D100** must be rolled and the corresponding result from the [list of injuries](#list-of-injuries) added to the character. Depending on the type of damage and the situation in question, a different injury table may be rolled on, instead. Such as the [burn injuries](#list-of-burn-injuries). 
 
-For every injury incurred, a character's maximum **HP** is reduced by 2. 
+For every **injury** incurred, a character's maximum **HP** is reduced by 2. 
 
-An **Inj.** can reduce [attributes](#attributes) and impose other restrictions. An [attribute](#attributes) cannot be brought down to less than 1, by **Inj.**
+An [injury](#injury) can reduce [attributes](#attributes) and impose other restrictions. See also [boons & penalties](#boons--penalties). 
+
+When an **injury** is fully healed and removed, it may leave behind a [scar](#scars). 
 
 #### Injury States
-There are four possible states of an **Inj.**: **active**, **patched up**, **treated** or **permanent**. 
+There are four possible states of an [injury](#injury): **active**, **patched up**, **treated** or **permanent**. 
 
-Only an **active** **Inj.** imposes negative effects, but injuries will always be counted toward the injury limit. 
+Only an **active** [injury](#injury) imposes negative effects, but **injuries** will always be counted toward the injury limit. 
 
-An **Inj.** can be **patched up** via [medicine](#medicine-int):
-* If the attempt is a complete success, the **Inj.** is **patched up**.
-* If the attempt is a partial success or a complete failure, the **Inj.** remains **active**. 
+An [injury](#injury) can be **patched up** via [medicine](#medicine-int):
+* If the attempt is a complete success, the [injury](#injury) is **patched up**.
+* If the attempt is a partial success or a complete failure, the [injury](#injury) remains **active**. 
 
-A **patched up** **Inj.** still reduces a character's **maximum HP** and must be counted when checking whether they must perform their [toughness](#toughness-tough) test when suffering more injuries. 
+A **patched up** [injury](#injury) still reduces a character's **maximum HP** and must be counted when checking whether they must perform their [toughness](#toughness-tough) test when suffering more **injuries**. 
 
-An **Inj.** can be properly **treated** via [surgery](#surgery-int): 
-* If the attempt is a complete success, the **Inj.** is **treated**. 
-* If the attempt is a partial success, the **Inj.** is not **treated**, but another attempt can be made. 
-* If the attempt is a complete failure, the **Inj.** becomes **permanent**. It cannot be **treated** via [surgery](#surgery-int) anymore. 
+An [injury](#injury) can be properly **treated** via [surgery](#surgery-int): 
+* If the attempt is a complete success, the [injury](#injury) is **treated**. 
+* If the attempt is a partial success, the [injury](#injury) is not **treated**, but another attempt can be made. 
+* If the attempt is a complete failure, the [injury](#injury) becomes **permanent**. It cannot be **treated** via [surgery](#surgery-int) anymore. 
 * Only one [surgery](#surgery-int) attempt can be made every 24 hours. 
 
-All currently **treated**  **Inj.** can be removed/recovered from, by spending **4D4** weeks in uninterrupted, active recovery. Active recovery implies spending the vast majority of the day in bed or at least avoiding physical and mental strains. 
+All currently **treated** [injuries](#injury) can be removed/recovered from, by spending **4D4** weeks in uninterrupted, active recovery. Active recovery implies spending the vast majority of the day in bed or at least avoiding physical and mental strains. 
 
 #### Injury Exhaustion Threshold
-Once a character is brought to at least half their maximum number of **Inj.** (rounded down), every time past that point that they suffer further damage and/or injury they must succeed a [toughness](#toughness-tough) test with their number of injuries as the **Ob**, or else suffer +1 [exhaustion](#exhaustion). This point in time is called the **injury exhaustion threshold**. 
+Once a character is brought to at least half their maximum number of [injuries](#injury) (rounded down), every time past that point that they suffer further damage and/or injury they must succeed a [toughness](#toughness-tough) test with their number of **injuries** as the **Ob**, or else suffer +1 [exhaustion](#exhaustion). This point in time is called the **injury exhaustion threshold**. 
 
-> A character is injured in combat. They have an **injury** threshold of 3 and already suffered an injury earlier. Even though the earlier injury may have been **patched up** by now, the character's new injury brings them up to a total of 2 injuries. 
+> A character is injured in combat. They have an **injury** threshold of 3 and already suffered an injury earlier. Even though the earlier injury may have been **patched up** by now, the character's new injury brings them up to a total of 2 **injuries**. 
 > 
 > This means that they've gone past their **injury exhaustion threshold**. Now, they must succeed a [toughness](#toughness-tough) test at **Ob** 2, or else suffer +1 [exhaustion](#exhaustion). 
 
@@ -745,20 +757,56 @@ Exhaustion gained from **exhausting actions** can be reduced by resting. A full 
 
 Exhaustion gained from **exhausting equipment**, can be reduced, by dropping the equipment in question and resting for a short while, at the **GM**'s discretion. A character trying to carry more than they can endure, should not immediately fall unconscious, mind you. Apply common sense - the character in question would probably try to carry the extra equipment, only find out right away it is simply too much for them. 
 
-### Status Effects
-Characters can have one or more **status effect(s)** affecting them. A **status effect** can have positive or negative effects on the character. 
+### State
+A **state** can have positive or negative effects on them and they can have any number of **states** applying to them. 
+
+#### Berserk
+A character who is in **berserk**, **must** attack the creature nearest to them. 
+
+This **state** lasts until it is successfully [resisted](#resist-will) or the character is made [unconscious](#unconscious). 
+
+#### Burning
+A **burning** character suffers 1 point of [HP](#health--exhaustion) damage at the end their every turn in combat or every 2 seconds outside of combat. 
+
+This **state** can be incurred multiple times. While a character has this **state**, at every end of their turn during combat or every 2 seconds outside of combat, they automatically incur another point of **burning**! They must actively work to get rid of it, for example by dropping to the floor and rolling on the flames, dousing themselves in water and so forth. The point of **burning** is incurred *after* the damage from the previous points of **burning** is applied. 
+
+#### Bleeding
+A **bleeding** character suffers 1 point of [HP](#health--exhaustion) damage at the end their every turn in combat or every 2 seconds outside of combat. 
+
+This **state** can be incurred multiple times. A point of **bleeding** can be removed with [medicine](#medicine-int). [Restoration](#restoration-emp) magic can also remove one or more points of **bleeding** at a time. 
 
 #### Dazed
 A **dazed** character begins their turn with -2 **AP** and can run at most only half the distance they normally could. In addition, they suffer a penalty of **-1D** to all tests. The number of dice for a test cannot be reduced to less than 1 by this penalty. 
 
 Additionally, a **dazed** mage can no longer attempt to cast any magic. 
 
-A **dazed** state can be recovered from either by succeeding a [toughness](#toughness-tough) test with **Ob** at half **toughness**, rounded up or by resting at least half an hour. 
+A **dazed** **state** can be recovered from either by succeeding a [toughness](#toughness-tough) test with **Ob** at half **toughness**, rounded up or by resting at least half an hour. 
 
-#### Unconscious
-An **unconscious** character is unable to act and is unaware of their surroundings. 
+#### Death's Door
+**Death's door** is a **state** only a **PC** can enter and represents their final battle with death. 
 
-Someone *knocked* **unconscious** can't awaken due to external stimuli and have to recover, first. For how long, depends on the circumstances. But several hours hould be a good baseline. 
+A **PC** at **death's door** must succeed at least one [toughness](#toughness-tough) test out of a possible of three. If they never succeed, they perish, irrevocably*. The **Ob** is determined as half of the character's [toughness](#toughness-tough), rounded up. 
+* If the character is at **death's door** during [combat](#combat), they must make a [toughness](#toughness-tough) test at the end of every round. 
+* If the character is at **death's door** out of [combat](#combat), they must make a test every minute. 
+
+A character can be helped out of the **death's door** **state**, if all of their **active** [injuries](#injury) are **patched up** or **treated**. 
+
+\* A **very** powerful mage could bring them back using [soul-binding](#soul-binding-int). 
+
+#### Dissolving
+A **dissolving** character suffers **1D5** points of [HP](#health--exhaustion) damage at the end their every turn in combat or every 2 seconds outside of combat. 
+
+This **state** is removed automatically, if the character is freed of the acidic substance. 
+
+#### Electrified
+An **electrified** character suffers **-1D** for their every [test](#tests) requiring [agility](#agility-agi). That means [attributes](#attributes) and [skills](#skills). 
+
+This **state** is removed automatically, at the end of the character's next turn in combat or after 4 seconds outside of combat. 
+
+#### Frostbitten
+A **frostbitten** character suffers -1 [AP](#action-points-ap) during combat. 
+
+This state can be incurred up to 2 times. At the end of every turn during combat, one point of **frostbitten** is removed, automatically, unless if the character is in a cold environment. In cold environments, the **frostbitten** stays, until actively removed, for example by heating up around a fire, drinking a hot beverage and so on. 
 
 #### Grappled
 A **grappled** character is unable to move and suffers -1 [melee defence](#melee-defence-agi), for as long as they are **grappled**. A **grappled** character can break free, by **completely succeeding** a [strength](#strength-str) test against the other character grappling them. 
@@ -770,52 +818,22 @@ During combat, the character has an additional **AP** to spend and an additional
 
 Out of combat, the character enjoys greater speed of movement. 
 
-#### Death's Door
-**Death's door** is a state only a **PC** can enter and represents their final battle with death. 
+#### Jealous
+A character who has been made unnaturally **jealous**, will do anything in their power to take, whatever it may be, from whoever might have *it*. 
 
-A **PC** at **death's door** must succeed at least one [toughness](#toughness-tough) test out of a possible of three. If they never succeed, they perish, irrevocably*. The **Ob** is determined as half of the character's [toughness](#toughness-tough), rounded up. 
-* If the character is at **death's door** during [combat](#combat), they must make a [toughness](#toughness-tough) test at the end of every round. 
-* If the character is at **death's door** out of [combat](#combat), they must make a test every minute. 
-
-A character can be helped out of the **death's door** state, if all of their **active** **Inj.** are **patched up** or **treated**. 
-
-\* A **very** powerful mage could bring them back using [soul-binding](#soul-binding-int). 
-
-#### Frostbite
-This status effect can stack! That means, it can be incurred multiple times! 
-
-For every point of **frostbite**, 1 point of **freezing** damage is incurred every combat round. 
-
-Also for every point of **frostbite**, a -1 **AP** recovery penalty is incurred, up to a maximum of -3. 
-
-At the end of every of the **frostbitten** character's turns during combat, one point of **frostbite** is removed, until the status effect is removed completely. 
-
-#### Rooted
-A **rooted** character can no longer move their legs. They cannot move from the spot, but can still move their upper body freely. 
-
-This status-effect is usually tied to some condition, before it is removed. 
-
-#### Terrified
-A **terrified** character suffers -2D to both their melee and ranged defence and **has to** run away from whatever it is that terrified them. 
-
-This status effect lasts until either the source of terror is removed or until it is successfully [resisted](#resist-will). 
-
-#### Berserk
-A character who is in **berserk**, **must** attack the creature nearest to them. 
-
-This status effect lasts until it is successfully [resisted](#resist-will) or the character is made [unconscious](#unconscious). 
+This **state** lasts until it is successfully [resisted](#resist-will) or the character is made [unconscious](#unconscious). 
 
 #### Pacified
 A character who is **pacified**, is unable to *willingly* take any action that would directly or indirectly harm any other creature. 
 
 Note, the character is not physically unable to cause harm, but they **really** don't want to. 
 
-This status effect lasts until it is successfully [resisted](#resist-will) or the character is made [unconscious](#unconscious). 
+This **state** lasts until it is successfully [resisted](#resist-will) or the character is made [unconscious](#unconscious). 
 
-#### Jealous
-A character who has been made unnaturally **jealous**, will do anything in their power to take, whatever it may be, from whoever might have *it*. 
+#### Poisoned
+A **poisoned** character suffers 1 points of [HP](#health--exhaustion) damage at the end their every turn in combat or every 2 seconds outside of combat. 
 
-This status effect lasts until it is successfully [resisted](#resist-will) or the character is made [unconscious](#unconscious). 
+This state can be incurred multiple times and can be removed with an antidote or with [restoration](#restoration-emp) magic.
 
 #### Prone
 A character who is prone, is harder to hit with ranged attacks, but easier to hit with melee attacks, as they'll have a harder time defending. 
@@ -825,6 +843,21 @@ A character who is prone, is harder to hit with ranged attacks, but easier to hi
 * +1D to [ranged defence](#ranged-defence-agi) tests. 
 
 It costs 1 [AP](#action-points-ap) to stand up. 
+
+#### Rooted
+A **rooted** character can no longer move their legs. They cannot move from the spot, but can still move their upper body freely. 
+
+This **state** is usually tied to some condition, before it is removed. 
+
+#### Terrified
+A **terrified** character suffers **-2D** to both their melee and ranged defence and **has to** run away from whatever it is that terrified them, until they break line of sight to it and can no longer hear it. 
+
+This **state** lasts until either the source of terror is removed or until it is successfully [resisted](#resist-will). 
+
+#### Unconscious
+An **unconscious** character is unable to act and is unaware of their surroundings. 
+
+Someone *knocked* **unconscious** can't awaken due to external stimuli and have to recover, first. For how long, depends on the circumstances. But several hours hould be a good baseline. 
 
 ### Illness
 An illness can affect a character over a perod of time and cause various negative effects. 
@@ -843,6 +876,13 @@ Treatment of an illness is possible through [medicine](#medicine-int) or [surger
 
 Any illness, that when treated has its duration reduced, can only have its duration reduced once. If a treatment would also suspend any ill-effects, that would still be applicable. That way, treating an illness which already had its duration reduced can still be useful. 
 
+### Scars
+Some [injuries](#injury), once fully healed and removed, may leave a **scar** behind. If they do, this information will be specified on the [injuries](#injury) in question. See also the [list of scars](#list-of-scars). 
+
+Often times, a **scar** is little more than a reminder of past misfortunes, but some **scars** may infer [boons and/or penalties](#boons--penalties). 
+
+Scars may be removed through successful application of [alteration](#alteration-int) magic or may be removable by [surgery](#surgery-int), at the **GM**'s discretion. 
+
 ### Damage Types
 All damage inflicted, is inflicted with a certain type of damage. 
 
@@ -852,25 +892,27 @@ All damage inflicted, is inflicted with a certain type of damage.
 | Piercing    | Usually inflicted by any sort of stabbing weapon, like a spear, or an animal's stinger. |
 | Bludgeoning | Inflicted by light blunt weapons and unarmed attacks. **Bludgeoning** causes non-lethal damage. It inflicts [exhaustion](#exhaustion) instead of [injuries](#injury). A [dazed](#dazed) character hit with **bludgeoning** damage has to succeed an [endurance](#endurance-end) test, or else fall [unconscious](#unconscious). |
 | Crushing    | Usually inflicted by any sort of heavy blunt weapon, like a hammer, or an animal's tusks. |
-| Burning     | Inflicted by extreme heat. For [injuries](#injury), roll on the [burn injuries](#list-of-burn-injuries) table. |
+| Burning     | Inflicted by extreme heat. |
 | Freezing    | Inflicted by extreme cold. |
-| Poison      | Usually represents a [damage over time effect](#damage-over-time). |
+| Poison      | Inflicted over time, by imbibed or injected substances. |
 | Acid        | Dissolves anything it touches, or perhaps just organic matter. |
-
-### Damage Over Time
-Also known as *damage over time* or *status effect*, these are [damage types](#damage-types), which inflict injuries over a set period of time. 
-
-Every **damage over time** has an **intensity level**. The intensity governs how many injuries a afflicted character/creature suffers and at which intervals. 
-
-| Damage Type | Description |
-| ----------- | ----------- |
-| Bleeding    | One point of **damage** per intensity level, per round of **combat**, or every minute. |
-| Poisoned    | One point of **damage** per intensity level, per round of **combat**, or every minute. |
+| Electrical  | Destroyer and giver of life. Mind maker and unmaker. Whip of light and sound. There aren't many sources for electricity, besides mages and nature herself. |
 
 ### Damage Resistances
 Some creatures can resist certain [types of damage](#damage-types) naturally, while others may cover themselves in armor to the same effect. 
 
 How much **damage** is resisted, depends on the specifics of the creature or character and their [equipment](#possessions--equipment). 
+
+### Boons & Penalties
+Boons and penalties to the level of an [attribute](#attributes) or [skill](#skills) can be incurred from several different sources, such as [injuries](#injury), [illnesses](#illness), [mutations](#list-of-mutations), [scars](#scars) and [states](#state). Boons and penalties may be temporary or permanent, depending on their source. 
+
+A boon to an [attribute](#attributes) or [skill](#skills) usually comes in the form of increasing its level. If a boon awards an [attribute](#attributes) or [skill](#skills) that the character does not yet have, they gain it automatically. 
+
+A penalty to an [attribute](#attributes) or [skill](#skills) usually comes in the form of decreasing its level. A penalty **cannot** reduce an [attribute](#attributes) or [skill](#skills) to 0. The minimum reduction is to 1. An exception to this rule is, when the character's only reason for having the [attribute](#attributes) or [skill](#skills) is a boon. In that case, the penalty **can** reduce the level to 0, effectively removing the [attribute](#attributes) or [skill](#skills). 
+
+Therefore, an [attribute's](#attributes) or [skill's](#skills) *unmodified* level must be tracked separately from its *modified* level. 
+
+Whenever a boon or penalty alters the level of an [attribute](#attributes) or [skill](#skills), it does **not** affect the **successes** and **failures** required to advance. 
 
 ## Assets
 A character may have things on their person, such as worn equipment and luggage, as well as the things they *own*, but don't have on person. 
@@ -936,7 +978,7 @@ The procedure of creating a character consists of the following steps:
 5. [Determine **attributes**](#choosing-attributes).
 6. [Determine **skills**](#choosing-skills).
 7. [Determine **carrying capacity** and **possessions**](#carrying-capactity--possessions).
-8. [Determine **Max HP** and **Max Inj.**](#determine-max-hp--max-inj)
+8. [Determine **Max HP** and **Injury Maximum**](#determine-max-hp--injury-maximum)
 9. [Determine exhaustion threshold](#determine-exhaustion-threshold).
 10. [Determine magic stamina](#determine-magic-stamina).
 
@@ -1007,7 +1049,7 @@ Gender is personal preference, but could also be decided by a coin flip.
 
 | Range D10 | Physique    | Face       | Skin       | Hair     |
 | --------- | ----------- | ---------- | ---------- | -------- |
-| 1         | Athletic    | Bloated    | Scar       | Bald     |
+| 1         | Athletic    | Bloated    | Rough      | Bald     |
 | 2         | Brawny      | Blunt      | Birthmark  | Braided  |
 | 3         | Corpulent   | Bony       | Makeup     | Curly    |
 | 4         | Delicate    | Chiseled   | Tattooed   | Cropped  |
@@ -1116,7 +1158,7 @@ Then, determine your character's [carrying capacity](#carrying-capacity). Refer 
 
 Always make sure to talk to your **GM** and fellow players and have them agree to the **assets** you want your character to start with. 
 
-### Determine Max HP & Max Inj
+### Determine Max HP & Injury Maximum
 Determine your character's **max HP** and **injury limit**, by referring to the [toughness](#toughness-tough) attribute. 
 
 All characters start with an **injury limit** of 1. 
@@ -1176,14 +1218,14 @@ There are no limits to how many of a given card a player can own, but they may o
 | Cost    | Name               | Effect             |
 | ------- | ------------------ | ------------------ |
 | 3 MiFP  | Single Re-Roll     | Repeat a single test you just made. |
-| 6 MiFP  | Clotter            | One **active Inj.** of choice is now **patched up**. |
+| 6 MiFP  | Clotter            | One **active** [injury](#injury) of choice is now **patched up**. |
 | 1 MaFP  | Cascading Re-Roll  | Repeat a single test you just made. With this card, you keep any **positives** you achieved from the previously made test and add them to the **positives** rolled when you repeat the test. |
 | 1 MaFP  | Fact Check         | Change a minor plot point in a way your prefer. Work with your **GM** to make sure it fits the narrative, but they should respect your wish. This could be something like avoiding an **NPC** death or changing a fact about the plot. |
-| 1 MaFP  | Just a Flesh Wound | Remove or avoid one non-permanent **Inj.** of choice. |
+| 1 MaFP  | Just a Flesh Wound | Remove or avoid one non-permanent [injury](#injury) of choice. |
 | 1 MaFP  | Hastened           | +1 **AP** during your turns for the entirety of a [combat](#combat) encounter. |
 | 5 MaFP  | Double the Fun     | Double the number of dice to roll on your next/current test. |
-| 10 MaFP | Wrong Diagnosis    | Remove or avoid one permanent **Inj.** of choice. |
-| 1 AFP   | Defy Death         | Leap from [death's door](#deaths-door), remove 1 **active Inj.** of choice and be at 1 **HP**; Alternatively, avoid a narratively-driven death. The **GM** will decide the character's alternative fate. They could be captured, very badly injured or become indebted to someone or something. |
+| 10 MaFP | Wrong Diagnosis    | Remove or avoid one permanent [injury](#injury) of choice. |
+| 1 AFP   | Defy Death         | Leap from [death's door](#deaths-door), remove 1 **active** [injury](#injury) of choice and be at 1 **HP**; Alternatively, avoid a narratively-driven death. The **GM** will decide the character's alternative fate. They could be captured, very badly injured or become indebted to someone or something. |
 | 1 AFP   | Yes, my liege      | Work with your **GM** to create a follower/hireling who will now be at your command/employ. |
 
 # Combat
@@ -1641,7 +1683,7 @@ The ability to tell flora and fauna apart and to know of their attributes, such 
 Knowledge about religions, legends and myths. May be used to recall knowledge about mythical creatures, artifacts and locations, as well as understand the local religion more easily. 
 
 #### Medicine (Int)
-Diagnosing and treating injuries and non-magical afflictions. 
+Diagnosing and treating [injuries](#injury) and non-magical afflictions. 
 
 Implies an understanding of anatomy, whereas past experiences with the creatures treated should be noted. 
 
@@ -1723,13 +1765,13 @@ The summoning and control of lightning. Electricity is fairly versatile - it can
 
 | Level | Name                 | AP | Distance | Type | Damage | Effect(s)                      |
 | ----- | -------------------- | -- | -------- | ---- | ------ | ------------------------------ |
-| 1     | Weak Shock           | 1  | 0        | ST   | **1 Burning**   | A small area, about the size of the mage's hand is burned on touch by a weak electrical shock. |
-| 2     | Shock                | 2  | 3'/1m    | ST   | **1D3 Burning** | A small arc of lightning strikes the vulnerable internals of a target. Alternatively, a device could be powered for a short time. A reference point would be powering a flashlight for a few minutes. |
+| 1     | Weak Shock           | 1  | 0        | ST   | **1 Electrical**   | A small area, about the size of the mage's hand is burned on touch by a weak electrical shock. |
+| 2     | Shock                | 2  | 3'/1m    | ST   | **1D3 Electrical** | A small arc of lightning strikes the vulnerable internals of a target. Alternatively, a device could be powered for a short time. A reference point would be powering a flashlight for a few minutes. |
 | 3     | Stunning Shock       | 2  | 15'/5m   | ST  |  | An aimed arc of lightning strikes a single target and causes it to seize up for a moment. Lasts until the start of the target's next turn in combat or several seconds outside of combat. |
-| 5     | Strong Shock          | 2  | 24'/8m  | ST  | **2D4 Burning** | A large arc of lightning strikes the vulnerable internals of a target. Alternatively, a device could be powered for a time. A reference point would be powering a flashlight for several hours. |
+| 5     | Strong Shock          | 2  | 24'/8m  | ST  | **2D4 Electrical** | A large arc of lightning strikes the vulnerable internals of a target. Alternatively, a device could be powered for a time. A reference point would be powering a flashlight for several hours. |
 | 5     | Strong Stunning Shock | 2  | 24'/8m  | ST  |  | An aimed arc of lightning strikes a single target and causes it to seize up for a moment. Lasts 2 of the target's turns in combat or 10 seconds outside of combat. |
-| 7     | Cone of Lightning    | 3  | 30'/10m  | MST  | **2D6 Burning** | A cone of lightning spews forth from the mage's finger tips. Up to 3 targets can be hit with the shock. Alternatively, a device could be powered for an extended period of time, depending on its hunger for power. A reference point would be powering up an industrial floodlight for a whole week. |
-| 9     | UNLIMITED POWER      | 3  | 45'/15m  | MST  | **3D6 Burning** | A cone of lightning spews forth from the mage's finger tips. Up to 10 targets can be hit with the shock. Alternatively, a device could be powered for a very long time, depending on its hunger for power. A reference point would be powering up an industrial floodlight for a whole month. |
+| 7     | Cone of Lightning    | 3  | 30'/10m  | MST  | **2D6 Electrical** | A cone of lightning spews forth from the mage's finger tips. Up to 3 targets can be hit with the shock. Alternatively, a device could be powered for an extended period of time, depending on its hunger for power. A reference point would be powering up an industrial floodlight for a whole week. |
+| 9     | UNLIMITED POWER      | 3  | 45'/15m  | MST  | **3D6 Electrical** | A cone of lightning spews forth from the mage's finger tips. Up to 10 targets can be hit with the shock. Alternatively, a device could be powered for a very long time, depending on its hunger for power. A reference point would be powering up an industrial floodlight for a whole month. |
 | 9     | Mass Stunning Shock  | 3  | 45'/15m  | MST  |  | Several arcs of aimed lightning spew forth from the mage's finger tips, causing up to 10 targets struck to cease up for 3 turns of combat or several minutes outside of combat. |
 
 ### Pyromancy [Arc]
@@ -1747,27 +1789,27 @@ The summoning and control of fire. The flame being a destructive force, pyromanc
 | 10    | Rain of Fire         | 4  | 60'/20m  | AOE 24'/8m radius | **6D6 Burning** | The mage makes fire rain from the sky. This spell lasts two turns in combat or 10 seconds out of combat. |
 
 ### Cryomancy [Arc]
-The summoning and control of ice. Cryomancer's can inflict [frostbite](#frostbite) on opponents. They can also freeze things, so they're harder to break. 
+The summoning and control of ice. Cryomancer's can freeze things, so they're heavier and harder to break. 
 
 | Level | Name                 | AP | Distance | Type | Damage | Effect(s)                      |
 | ----- | -------------------- | -- | -------- | ---- | ------ | ------------------------------ |
 | 1     | Freezing Touch       | 2  | 0 | ST | **1 Freezing** | A fist-sized spot on whatever the mage's hand touches, freezes over. This is only a surface-level freeze! It does not run deep. |
-| 3     | Cold Finger Gun      | 2  | 15'/5m | ST | **1D4 Freezing** | The mage shoots a finger-sized ice spike from their hand. Anyone hit, will incur 1 point of [frostbite](#frostbite). |
-| 4     | Deep Freeze          | 3  | 0 | ST | **1D10 Freezing** | A man-sized area of whatever the mage's hand is touching freezes over. The frost even penetrates and runs deep. Anyone hit, will incur 2 points of [frostbite](#frostbite). |
-| 5     | Ice Spike            | 3  | 15'/5m | ST | **2D4 Freezing** | The mage shoots a fist-sized ice spike from their hand. Anyone hit, will incur 2 points of [frostbite](#frostbite). |
+| 3     | Cold Finger Gun      | 2  | 15'/5m | ST | **1D4 Freezing** | The mage shoots a finger-sized ice spike from their hand. |
+| 4     | Deep Freeze          | 3  | 0 | ST | **1D10 Freezing** | A man-sized area of whatever the mage's hand is touching freezes over. The frost even penetrates and runs deep. |
+| 5     | Ice Spike            | 3  | 15'/5m | ST | **2D4 Freezing** | The mage shoots a fist-sized ice spike from their hand. |
 | 7     | Rooting Freeze       | 3  | 15'/5m | AOE 6'/2m radius | **4D4 Freezing** | A spot of the mage's choosing freezes over. Anyone caught within the radius, will be frozen to the spot and thus [rooted](#rooted). They can break free via a successful [strength](#strength-str) test against **Ob 3**. Or wait, until the ice thaws... |
 
 ### Restoration [Emp]
-The mending of injuries and treatment of diseases. 
+The mending of [injuries](#injury) and treatment of diseases. 
 
 **Life leech** can be opposed by [resist](#resist-will). 
 
 | Level | Name                 | AP | Distance | Type | Damage | Effect(s)                      |
 | ----- | -------------------- | -- | -------- | ---- | ------ | ------------------------------ |
-| 1     | Patching Touch       | 2  | 0        | ST   | 0      | A creature of the mage's choosing, in hand's reach, is magically healed. Removes [bleeding](#bleeding). One [injury](#injury) of choice is now **patched up**. Restores missing HP. |
-| 3     | Better Patching Touch| 2  | 0        | ST   | 0      | Up to two creatures of the mage's choosing, in hand's reach, are magically healed. Removes [bleeding](#bleeding) and [poisoned](#poisoned). Up to two [injuries](#injury) of choice are now **patched up**. |
-| 4     | Healing Touch        | 2  | 0        | ST   | 0      | A creature of the mage's choosing, in hand's reach, is magically healed. A single **Inj.** of choice becomes **treated**. Removes [bleeding](#bleeding) and [poisoned](#poisoned). |
-| 5+    | Life Leech           | 3  | 0        | ST   | 0      | Resist: **Ob 4**, Effect: Draw the life from a touched creature of choice. Deals **2DN** points of damage to that creature, where *N* is the chosen level, while healing another touched creature for the same amount. Transfers 1 point of **bleeding** and/or **poisoned** from the healed creature to the damaged one. |
+| 1     | Patching Touch       | 2  | 0        | ST   | 0      | A creature of the mage's choosing, in hand's reach, is magically healed. Removes one point of [bleeding](#bleeding). One [injury](#injury) of choice is now **patched up**. Restores missing HP. |
+| 3     | Better Patching Touch| 2  | 0        | ST   | 0      | Up to two creatures of the mage's choosing, in hand's reach, are magically healed. Removes all [bleeding](#bleeding) and [poisoned](#poisoned). Up to two [injuries](#injury) of choice are now **patched up**. |
+| 4     | Healing Touch        | 2  | 0        | ST   | 0      | A creature of the mage's choosing, in hand's reach, is magically healed. A single [injury](#injury) of choice becomes **treated**. Removes all [bleeding](#bleeding) and [poisoned](#poisoned). |
+| 5+    | Life Leech           | 3  | 0        | ST   | 0      | Resist: **Ob 4**, Effect: Draw the life from a touched creature of choice. Deals **2DN** points of damage to that creature, where *N* is the chosen level, while healing another touched creature for the same amount. Transfers 1 point of [bleeding](#bleeding) and/or [poisoned](#poisoned) from the healed creature to the damaged one. |
 | 5     | Expel Illness        | 3  | 0        | ST   | 0      | Removes one [illness](#illness) of choice from a creature of choice, in hand's reach. |
 | 5     | Revert Mutation      | 4  | 0        | ST   | 0      | Resist: **Ob 4**, Effect: Removes one [mutation](#list-of-mutations) of choice from a creature of choice, in hand's reach. |
 
@@ -1780,7 +1822,7 @@ Creatures can [resist](#resist-will) the change. Inanimate objects don't resist.
 
 | Level | Name                 | AP | Distance | Type | Damage | Effect(s)                      |
 | ----- | -------------------- | -- | -------- | ---- | ------ | ------------------------------ |
-| 0+    | Alter Shape          | 3  | 18'/6m   | ST   | 0      | Resist: **Ob N**, Effect: The object or creature is altered as the mage desires. |
+| 1+    | Alter Shape          | 3  | 18'/6m   | ST   | 0      | Resist: **Ob N**, Effect: The object or creature is altered as the mage desires. The complexity and size of the re-shaping depends on the **intensity** level. Levels 1-3 are for simple and small, 4-6 for tricky and medium, 7-8 for complex and large and 9+ for very complex and very large alterations. |
 
 ### Illusion [Emp]
 Creation of non-physical influences on the senses. That includes images, sounds and odors. The illusions cannot cause direct harm, although they can drive an individual to acts that may put them in danger. 
@@ -1912,7 +1954,7 @@ Any short, one-handed blade. Examples: shiv, dagger, Shortsword
 | 0     | Opposed by **Melee Defence** | Slash                   | 2  | **2D2** **Slashing** | / |
 | 0     | Opposed by **Melee Defence** | Stab                    | 2  | **1D2** **Piercing** | / |
 | 0     | Opposed by **Melee Defence**+2 | Target weak-spot      | 3  | **Agi** + **3D2** **Piercing** | / |
-| 2     | Opposed by **Melee Defence**+2 | Artery cut            | 3  | **2D2** **Slashing** | +1 **bleeding** to the target (if it can bleed). |
+| 2     | Opposed by **Melee Defence**+2 | Artery cut            | 3  | **2D2** **Slashing** | +1 [bleeding](#bleeding) to the target (if it can bleed). |
 
 ### Long Blade
 Any long blade, including long one-handed blades. Examples: arming sword, bastard sword, Longsword
@@ -1953,7 +1995,7 @@ One-handed axes. Examples: hatchet, dane axe, woodcutter's axe
 | Skill | **Ob**    | Attack                  | AP | Damage                | Effect |
 | ----- | --------- | ----------------------- | -- | --------------------- | ------ |
 | 0     | Opposed   | Hack                    | 2  | **2D6** **Slashing** and **1D3** **Crushing**  | / |
-| 2     | Opposed+1 | Savage Slash            | 2  | **1D8** **Slashing**  | +1 **bleeding**  to the target (if it can bleed). |
+| 2     | Opposed+1 | Savage Slash            | 2  | **1D8** **Slashing**  | +1 [bleeding](#bleeding)  to the target (if it can bleed). |
 
 ### Great Axe
 Two-handed axes. Examples: bearded axe, double-sided axe
@@ -1965,7 +2007,7 @@ Two-handed axes. Examples: bearded axe, double-sided axe
 | Skill | **Ob**    | Attack                  | AP | Damage                | Effect |
 | ----- | --------- | ----------------------- | -- | --------------------- | ------ |
 | 0     | Opposed   | Hack                    | 2  | **3D6** **Slashing** and **2D3** **Crushing** | / |
-| 3     | Opposed+2 | Savage Slash            | 2  | **2D6** **Slashing**  | +2 **bleeding**  to the target (if it can bleed). |
+| 3     | Opposed+2 | Savage Slash            | 2  | **2D6** **Slashing**  | +2 [bleeding](#bleeding)  to the target (if it can bleed). |
 | 4     | Opposed+1 | Heavy Blow              | 3  | **2D6** **Slashing** and **1D6** **Crushing** | Defending against this attack costs 2 [AP](#action-points-ap). +1 [exhaustion](#exhaustion) to self. |
 
 ### Spear
@@ -2220,26 +2262,34 @@ How many times an **injury** can be suffered, can be limited. In the table below
 | 16 - 19    | Skull Fracture      | 1   | -1 [Intelligence](#intelligence-int); -1 [Wisdom](#wisdom-wis) |
 | 20 - 24    | Concussion          | /   | -1 [Intelligence](#intelligence-int); -1 [Perception](#perception-perc) |
 | 25 - 30    | Punctured Lung      | /   | -1 [Endurance](#endurance-end) |
-| 31 - 36    | Infection           | 1   | -1 [Toughness](#toughness-tough); Within a day, the character will contract an [illness](#illness). This will happen, even if the **Inj.** is treated. |
+| 31 - 36    | Infection           | 1   | -1 [Toughness](#toughness-tough); Within a day, the character will contract an [illness](#illness). This will happen, even if the [injury](#injury) is treated. |
 | 37 - 42    | Fractured Rib       | /   | -1 [Toughness](#toughness-tough) | 
 | 43 - 48    | Nasty Wound         | /   | +1 [Bleeding](#bleeding) |
-| 49 - 54    | Broken Nose         | 1   | -1 [Perception](#perception-perc); Cannot smell |
-| 55 - 60    | Maimed Ear          | /   | -1 [Perception](#perception-perc); Cannot hear | 
+| 49 - 54    | Broken Nose         | 1   | -1 [Perception](#perception-perc); Cannot smell. Once removed, leaves the [disfigured nose](#list-of-scars) [scar](#scars). |
+| 55 - 60    | Maimed Ear          | /   | -1 [Perception](#perception-perc); If incurred twice, cannot hear (really depends on how many ears the creature has). | 
 | 61 - 66    | Knocked Senseless   | /   | -1 [Perception](#perception-perc) |
 | 67 - 72    | Torn Tendon         | /   | -1 [Strength](#strength-str) | 
 | 73 - 79    | Mental Trauma       | /   | -1 [Will](#will-will) | 
 | 80 - 94    | Tremors             | /   | -1 [Arcana](#arcana-arc); -1 [Agility](#agility-agi) | 
-| 95 - 100   | Cosmic Misfortune   | 1   | **-1D** on all tests. | 
+| 95 - 100   | Cosmic Misfortune   | 1   | **-1D** on all [tests](#tests). | 
 
-### List of Burn Injuries
-| Range D100 | Injury              | Max | Description                      |
-| ---------  | ------------------- | --- | -------------------------------- |
-| 0 - 25     | Burned Face         | /   | -1 [Oratory](#oratory-ora) and -1 [Willpower](#willpower-will). |
-| 26 - 50    | Burned Chest        | /   | -1 [Endurance](#endurance-end). |
-| 51 - 75    | Burned Arm          | /   | -1 [Strength](#strength-str) and -1 [Agility](#agility-agi). |
-| 76 - 100   | Burned Leg          | /   | -1 [Agility](#agility-agi). |
+### Type Specific Injuries
+There is no list of several different injuries per specific [damage type](#damage-types). Instead there is one "flat" injury for some of these types. 
+
+* **Burning**: Hell is claiming its prize. Flames greedily take what they can. 
+  * -1 [toughness](#toughness-tough). 
+  * When healed and removed, leaves a [Burned Skin](#list-of-scars) [scar](#scars). 
+* **Freezing**: The cold bites into flesh, seizing up muscles. 
+  * -1 [agility](#agility-agi). 
+* **Poison**: Pain courses through the veins. Every beat of the heart a stinging and burning reminder a substance doesn't belong. 
+  * -1 [endurance](#endurance-end). 
+* **Acid**: Acid steadily eats away, layer by layer, making skin and flesh come unwound. 
+  * -1 [toughness](#toughness-tough). 
+* **Electrical**: The muscles spasm uncontrollably, like a puppet out of control. 
+  * -1 [agility](#agility-agi). 
 
 ## List of Illnesses
+An [illness](#illness) can only be suffered once, at a time. It may be suffered again later, of course, but you could also expect that a certain level of immunity within the body has built up, after the previous time it was suffered through. 
 
 | Range D100 | Name         | Duration      | Effect      | Treatment |
 | ---------- | ------------ | ------------- | ----------- | --------- |
@@ -2249,13 +2299,13 @@ How many times an **injury** can be suffered, can be limited. In the table below
 | 24 - 31 | Jazz-Hands | **1D10 + 3** Days | The victim can't stop the tremors in their arms. Any action requiring precise movements is impossible. **-1D3** [agility](#agility-agi); **-1D4** [arcana](#arcana-arc). | [medicine](#medicine-int); The ill-effects are suspended for 24 hours. |
 | 32 - 39 | Brain Rot | **2D10** Days | The victim's mind dulls. They find it difficult to form coherent thoughts. **-1D3** [intelligence](#intelligence-int); **-1D3** [wisdom](#wisdom-wis). | [medicine](#medicine-int); The ill-effects are suspended for 24 hours. |
 | 40 - 47 | Feeble Tounge | **1D10 + 3** Days | The tounge flops and waggles around uncontrollably. Speech is impaired. **-1D3** [oratory](#oratory-ora). | [medicine](#medicine-int); Reduces the duration by **2D4** days. |
-| 48 - 55 | Wound Fever | Until cured | [Injuries](#injury) of the victim refuse any treatment. Any **Inj.** of the victim can be **patched up**, but not **treated**. | [medicine](#medicine-int); Sets the duration to **1D10** days. |
+| 48 - 55 | Wound Fever | Until cured | [Injuries](#injury) of the victim refuse any treatment. Any [injury](#injury) of the victim can be **patched up**, but not **treated**. | [medicine](#medicine-int); Sets the duration to **1D10** days. |
 | 56 - 63 | Filth Fever | **1D10 + 1** Days | The victim coughs uncontrollably and violently, with awful-smelling breath. **-1D3** [oratory](#oratory-ora); **-1D3** [endurance](#endurance-end). | [medicine](#medicine-int); Removes the illness on the next day. |
 | 64 - 71 | Amber Curse | **2D10** Days | The victim finds it difficult to feel the flow of magic through their body. **-1D4** [arcana](#arcana-arc); **-1D3** to any magic skills and [rune-using](#rune-using-agi). | Conventional methods cannot treat this illness. |
 | 72 - 79 | Coldness of Heart | **1D10 + 1** Days | The victim feels distant, as if they were only spectators in their own body. **-1D4** [empathy](#empathy-emp); **-1D3** [will](#will-will). | [medicine](#medicine-int); Reduces the duration by **2D4** days. |
 | 80 - 87 | Rot Plague | **4D10** Days | The skin starts developing a nasty rash, before flaking off. Not only unsightly, the bare flesh underneath smells like it's rotting. **-1D3** [endurance](#endurance-end); **-(1D3 + 1)** [toughness](#toughness-tough). | [surgery](#surgery-int); The ill-effects are suspended for 24 hours. |
 | 88 - 94 | Organ Mold | Until cured | Causes an [injury](#injury) every day it is active. | [surgery](#surgery-int); The illness is removed within a day. |
-| 95 - 100 | Red Death | Until cured | The victim starts bleeding from all of their orifices, with no end in sight. Causes 1 **bleeding** every day it is active. | [surgery](#surgery-int); The illness is removed within a day. |
+| 95 - 100 | Red Death | Until cured | The victim starts bleeding from all of their orifices, with no end in sight. Causes 3 points of [bleeding](#bleeding) every day it is active. | [surgery](#surgery-int); The illness is removed within a day. |
 
 ## List of Mutations
 One should always keep in mind that despite the game mechanical effects of a mutation, the appearance of an affected individual will also be severly altered. Other characters and creatures may react with disgust, fear, disdain, pity, and so on. 
@@ -2263,17 +2313,27 @@ One should always keep in mind that despite the game mechanical effects of a mut
 | Range D100 | Name                   | Effect                            |
 | ---------- | ---------------------- | --------------------------------- |
 | 0 - 2      | Cosmic Fortune         | Suffer no mutation! |
-| 3 - 9      | Deformed Arm           | The arm deforms and bends in ways it was never meant to. -1 [Agility](#agility-agi) -1 [Strength](#strength-str) |
+| 3 - 9      | Deformed Arm           | The arm deforms and bends in ways it was never meant to. -1 [Agility](#agility-agi), -1 [Strength](#strength-str). |
 | 10 - 16    | Grotesque Claws        | The entire lower arm morphs into three large claws. Unable to hold *anything* with that arm, but able to perform claw attacks that deal **3D6** **slashing** damage. |
-| 17 - 23    | Deformed Leg           | The leg deforms and bends in ways it was never meant to. -1 [Agility](#agility-agi) -1 [Endurance](#endurance-end) |
-| 24 - 30    | Deformed Face          | A morphed visage, forever stuck in agony, horror and anger. -2 [Oratory](#oratory-ora) |
+| 17 - 23    | Deformed Leg           | The leg deforms and bends in ways it was never meant to. -1 [Agility](#agility-agi). |
+| 24 - 30    | Deformed Face          | A morphed visage, forever stuck in agony, horror and anger. -1 [persuasion](#persuasion-emp), +1 [intimidation](#intimidation-will). |
 | 31 - 37    | Internal Changes       | Something deep within isn't quite right. -1 [Endurance](#endurance-end) -1 [Toughness](#toughness-tough) |
 | 38 - 44    | Bulbous Head           | Part of the cranium grows tumurously. The brain is weighed down and slowed down. -1 [Intelligence](#intelligence-int) -1 [Wisdom](#wisdom-wis) |
 | 45 - 51    | Animal Ears            | The ears morph into something resembling animal ears (or another animal's ears). Despite the obvious reason for ridicule, there are no penalties. +1 [Perception](#perception-perc) (hearing). |
-| 52 - 58    | Animal Tail            | A tail sprouts where there was perhaps never meant to be one. Or an additional tail sprouts. Despite the obvious reason for ridicule, there are no penalties. +1 [Agility](#agility-agi) (when balancing one's weight) |
+| 52 - 58    | Animal Tail            | A tail sprouts where there was perhaps never meant to be one. Or an additional tail sprouts. Despite the obvious reason for ridicule, there are no penalties. +1 [acrobatics](#acrobatics-agi). |
 | 59 - 65    | Atrophy                | The muscles deflate and unnatural weakness takes hold. -2 [Strength](#strength-str) |
 | 66 - 72    | Blackened Nails        | Every finger and toe nail turns a sickly black. That's it. |
 | 73 - 79    | Hairless               | Every single hair falls from the body. A terminal case of baldness ensues. |
 | 80 - 86    | Special Needs Eyes     | The eyes turn a deep red and go cross-eyed. -1 [Perception](#perception-perc) (seeing) |
-| 87 - 93    | Fetid Stench           | Whether from the mouth, or in general, a fetid stench emanates from the body, even assaulting the victim's own nose. -2 [Oratory](#oratory-ora) |
+| 87 - 93    | Fetid Stench           | Whether from the mouth, or in general, a fetid stench emanates from the body, even assaulting the victim's own nose. -1 [Oratory](#oratory-ora), -1 [stealth](#stealth-agi) (when smell is concerned). |
 | 94 - 100   | Living Cadaver         | The body withers and pales. It is as if it had just risen from the grave. -2 [Oratory](#oratory-ora). |
+
+## List of Scars
+An [injury](#injury) may heal, but its [scars](#scars) remain. 
+
+Most [scars](#scars) can only be incurred once, but some may be incurred multiple times, which will be indicated by a slash (/). 
+
+| Name                    | Max | Description                       | Effect                            |
+| ----------------------  | --- | --------------------------------- | --------------------------------- |
+| Burned Skin             | 1   | Fire has melted the skin. A powerful reminder of insufferable pain, which cannot be overlooked. | +1 [intimidation](#intimidation-will), -1 [persuasion](#persuasion-emp). |
+| Disfigured Nose         | 1   | An unnaturally crooked nose makes breathing slightly more difficult and noisy and is sure to be memorable. | / |
