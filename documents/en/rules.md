@@ -1801,7 +1801,7 @@ The mending of [injuries](#injury) and treatment of diseases.
 | 1     | Patching Touch       | 2  | 0        | ST   | 0      | A creature of the mage's choosing, in hand's reach, is magically healed. Removes one point of [bleeding](#bleeding). One [injury](#injury) of choice is now **patched up**. Restores missing HP. |
 | 3     | Better Patching Touch| 2  | 0        | ST   | 0      | Up to two creatures of the mage's choosing, in hand's reach, are magically healed. Removes all [bleeding](#bleeding) and [poisoned](#poisoned). Up to two [injuries](#injury) of choice are now **patched up**. |
 | 4     | Healing Touch        | 2  | 0        | ST   | 0      | A creature of the mage's choosing, in hand's reach, is magically healed. A single **Inj.** of choice becomes **treated**. Removes all [bleeding](#bleeding) and [poisoned](#poisoned). |
-| 5+    | Life Leech           | 3  | 0        | ST   | 0      | Resist: **Ob 4**, Effect: Draw the life from a touched creature of choice. Deals **2DN** points of damage to that creature, where *N* is the chosen level, while healing another touched creature for the same amount. Transfers 1 point of **bleeding** and/or **poisoned** from the healed creature to the damaged one. |
+| 5+    | Life Leech           | 3  | 0        | ST   | 0      | Resist: **Ob 4**, Effect: Draw the life from a touched creature of choice. Deals **2DN** points of damage to that creature, where *N* is the chosen level, while healing another touched creature for the same amount. Transfers 1 point of [bleeding](#bleeding) and/or [poisoned](#poisoned) from the healed creature to the damaged one. |
 | 5     | Expel Illness        | 3  | 0        | ST   | 0      | Removes one [illness](#illness) of choice from a creature of choice, in hand's reach. |
 | 5     | Revert Mutation      | 4  | 0        | ST   | 0      | Resist: **Ob 4**, Effect: Removes one [mutation](#list-of-mutations) of choice from a creature of choice, in hand's reach. |
 
@@ -1946,7 +1946,7 @@ Any short, one-handed blade. Examples: shiv, dagger, Shortsword
 | 0     | Opposed by **Melee Defence** | Slash                   | 2  | **2D2** **Slashing** | / |
 | 0     | Opposed by **Melee Defence** | Stab                    | 2  | **1D2** **Piercing** | / |
 | 0     | Opposed by **Melee Defence**+2 | Target weak-spot      | 3  | **Agi** + **3D2** **Piercing** | / |
-| 2     | Opposed by **Melee Defence**+2 | Artery cut            | 3  | **2D2** **Slashing** | +1 **bleeding** to the target (if it can bleed). |
+| 2     | Opposed by **Melee Defence**+2 | Artery cut            | 3  | **2D2** **Slashing** | +1 [bleeding](#bleeding) to the target (if it can bleed). |
 
 ### Long Blade
 Any long blade, including long one-handed blades. Examples: arming sword, bastard sword, Longsword
@@ -1987,7 +1987,7 @@ One-handed axes. Examples: hatchet, dane axe, woodcutter's axe
 | Skill | **Ob**    | Attack                  | AP | Damage                | Effect |
 | ----- | --------- | ----------------------- | -- | --------------------- | ------ |
 | 0     | Opposed   | Hack                    | 2  | **2D6** **Slashing** and **1D3** **Crushing**  | / |
-| 2     | Opposed+1 | Savage Slash            | 2  | **1D8** **Slashing**  | +1 **bleeding**  to the target (if it can bleed). |
+| 2     | Opposed+1 | Savage Slash            | 2  | **1D8** **Slashing**  | +1 [bleeding](#bleeding)  to the target (if it can bleed). |
 
 ### Great Axe
 Two-handed axes. Examples: bearded axe, double-sided axe
@@ -1999,7 +1999,7 @@ Two-handed axes. Examples: bearded axe, double-sided axe
 | Skill | **Ob**    | Attack                  | AP | Damage                | Effect |
 | ----- | --------- | ----------------------- | -- | --------------------- | ------ |
 | 0     | Opposed   | Hack                    | 2  | **3D6** **Slashing** and **2D3** **Crushing** | / |
-| 3     | Opposed+2 | Savage Slash            | 2  | **2D6** **Slashing**  | +2 **bleeding**  to the target (if it can bleed). |
+| 3     | Opposed+2 | Savage Slash            | 2  | **2D6** **Slashing**  | +2 [bleeding](#bleeding)  to the target (if it can bleed). |
 | 4     | Opposed+1 | Heavy Blow              | 3  | **2D6** **Slashing** and **1D6** **Crushing** | Defending against this attack costs 2 [AP](#action-points-ap). +1 [exhaustion](#exhaustion) to self. |
 
 ### Spear
@@ -2297,7 +2297,7 @@ An [illness](#illness) can only be suffered once, at a time. It may be suffered 
 | 72 - 79 | Coldness of Heart | **1D10 + 1** Days | The victim feels distant, as if they were only spectators in their own body. **-1D4** [empathy](#empathy-emp); **-1D3** [will](#will-will). | [medicine](#medicine-int); Reduces the duration by **2D4** days. |
 | 80 - 87 | Rot Plague | **4D10** Days | The skin starts developing a nasty rash, before flaking off. Not only unsightly, the bare flesh underneath smells like it's rotting. **-1D3** [endurance](#endurance-end); **-(1D3 + 1)** [toughness](#toughness-tough). | [surgery](#surgery-int); The ill-effects are suspended for 24 hours. |
 | 88 - 94 | Organ Mold | Until cured | Causes an [injury](#injury) every day it is active. | [surgery](#surgery-int); The illness is removed within a day. |
-| 95 - 100 | Red Death | Until cured | The victim starts bleeding from all of their orifices, with no end in sight. Causes 1 **bleeding** every day it is active. | [surgery](#surgery-int); The illness is removed within a day. |
+| 95 - 100 | Red Death | Until cured | The victim starts bleeding from all of their orifices, with no end in sight. Causes 3 points of [bleeding](#bleeding) every day it is active. | [surgery](#surgery-int); The illness is removed within a day. |
 
 ## List of Mutations
 One should always keep in mind that despite the game mechanical effects of a mutation, the appearance of an affected individual will also be severly altered. Other characters and creatures may react with disgust, fear, disdain, pity, and so on. 
