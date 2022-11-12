@@ -95,7 +95,7 @@
       - [Determine Attribute Advancing Thresholds](#determine-attribute-advancing-thresholds)
     - [Choosing Skills](#choosing-skills)
     - [Determine Assets](#determine-assets)
-    - [Determine Max HP & Max Inj](#determine-max-hp--max-inj)
+    - [Determine Max HP & Injury Maximum](#determine-max-hp--injury-maximum)
     - [Determine Exhaustion Threshold](#determine-exhaustion-threshold)
     - [Determine Magic Stamina](#determine-magic-stamina)
 - [Fate Points](#fate-points)
@@ -452,7 +452,7 @@ Also governs the [carrying capacity](#carrying-capacity) of a character. Each po
 #### Toughness [Tough]
 Governs the [injury threshold](#injury) of a character. 
 
-For every point in [toughness](#toughness-tough), a character gains **+4 maximum HP** and raises their **Inj.** limit by 1. 
+For every point in [toughness](#toughness-tough), a character gains **+4 maximum HP** and raises their [injury](#injury) limit by 1. 
 
 ### Mental Attributes
 These numbers represent a character's basic mental abilities. 
@@ -693,46 +693,46 @@ There are two types of **reactions**:
 ## Health & Exhaustion
 Every character has **Hit Points (HP)** and a maximum number of **injuries** they can endure, before they die. 
 
-Whenever a character is hurt, the **damage** that has been inflicted upon them is deducted from their **HP**. Whenever their **HP** reach zero, they suffer an **Inj.** and their **maximum HP** is reduced by **2**. So, in other words, for every **Inj.**, a character loses 2 maximum **HP**. 
+Whenever a character is hurt, the **damage** that has been inflicted upon them is deducted from their **HP**. Whenever their **HP** reach zero, they suffer an [injury](#injury) and their **maximum HP** is reduced by **2**. So, in other words, for every [injury](#injury), a character loses 2 maximum **HP**. 
 
 Any **HP** damage past zero overflows. The additional damage dealt isn't lost. 
 
-Even when [Toughness](#toughness-tough) is reduced by an injury, still only 2 maximum **HP** are deducted. 
+Even when [Toughness](#toughness-tough) is reduced by an [injury](#injury), still only 2 maximum **HP** are deducted. 
 
 Outside of combat, a successful [medicine](#medicine-int) test can restore all currently missing **HP** of a character. 
 
 ### Injury
-An **injury** is a serious health impediment of a character. Every character has a maximum number of **Inj.** they can endure. If they reach their maximum number of **Inj.**, the character dies. **PC**s are an exception, who instead arrive at [death's door](#deaths-door). 
+An **injury** is a serious health impediment of a character. Every character has a maximum number of [injuries](#injury) they can endure. If they reach their maximum number of [injuries](#injury), the character dies. **PC**s are an exception, who instead arrive at [death's door](#deaths-door). 
 
-Whenever a character suffers an **Inj.**, a **D100** must be rolled and the corresponding result from the [list of injuries](#list-of-injuries) added to the character. Depending on the type of damage and the situation in question, a different injury table may be rolled on, instead. Such as the [burn injuries](#list-of-burn-injuries). 
+Whenever a character suffers an [injury](#injury), a **D100** must be rolled and the corresponding result from the [list of injuries](#list-of-injuries) added to the character. Depending on the type of damage and the situation in question, a different injury table may be rolled on, instead. Such as the [burn injuries](#list-of-burn-injuries). 
 
 For every **injury** incurred, a character's maximum **HP** is reduced by 2. 
 
-An **Inj.** can reduce [attributes](#attributes) and impose other restrictions. An [attribute](#attributes) cannot be brought down to less than 1, by **Inj.**
+An [injury](#injury) can reduce [attributes](#attributes) and impose other restrictions. See also [boons & penalties](#boons--penalties). 
 
 When an **injury** is fully healed and removed, it may leave behind a [scar](#scars). 
 
 #### Injury States
-There are four possible states of an **Inj.**: **active**, **patched up**, **treated** or **permanent**. 
+There are four possible states of an [injury](#injury): **active**, **patched up**, **treated** or **permanent**. 
 
-Only an **active** **Inj.** imposes negative effects, but **injuries** will always be counted toward the injury limit. 
+Only an **active** [injury](#injury) imposes negative effects, but **injuries** will always be counted toward the injury limit. 
 
-An **Inj.** can be **patched up** via [medicine](#medicine-int):
-* If the attempt is a complete success, the **Inj.** is **patched up**.
-* If the attempt is a partial success or a complete failure, the **Inj.** remains **active**. 
+An [injury](#injury) can be **patched up** via [medicine](#medicine-int):
+* If the attempt is a complete success, the [injury](#injury) is **patched up**.
+* If the attempt is a partial success or a complete failure, the [injury](#injury) remains **active**. 
 
-A **patched up** **Inj.** still reduces a character's **maximum HP** and must be counted when checking whether they must perform their [toughness](#toughness-tough) test when suffering more **injuries**. 
+A **patched up** [injury](#injury) still reduces a character's **maximum HP** and must be counted when checking whether they must perform their [toughness](#toughness-tough) test when suffering more **injuries**. 
 
-An **Inj.** can be properly **treated** via [surgery](#surgery-int): 
-* If the attempt is a complete success, the **Inj.** is **treated**. 
-* If the attempt is a partial success, the **Inj.** is not **treated**, but another attempt can be made. 
-* If the attempt is a complete failure, the **Inj.** becomes **permanent**. It cannot be **treated** via [surgery](#surgery-int) anymore. 
+An [injury](#injury) can be properly **treated** via [surgery](#surgery-int): 
+* If the attempt is a complete success, the [injury](#injury) is **treated**. 
+* If the attempt is a partial success, the [injury](#injury) is not **treated**, but another attempt can be made. 
+* If the attempt is a complete failure, the [injury](#injury) becomes **permanent**. It cannot be **treated** via [surgery](#surgery-int) anymore. 
 * Only one [surgery](#surgery-int) attempt can be made every 24 hours. 
 
-All currently **treated**  **Inj.** can be removed/recovered from, by spending **4D4** weeks in uninterrupted, active recovery. Active recovery implies spending the vast majority of the day in bed or at least avoiding physical and mental strains. 
+All currently **treated** [injuries](#injury) can be removed/recovered from, by spending **4D4** weeks in uninterrupted, active recovery. Active recovery implies spending the vast majority of the day in bed or at least avoiding physical and mental strains. 
 
 #### Injury Exhaustion Threshold
-Once a character is brought to at least half their maximum number of **Inj.** (rounded down), every time past that point that they suffer further damage and/or injury they must succeed a [toughness](#toughness-tough) test with their number of **injuries** as the **Ob**, or else suffer +1 [exhaustion](#exhaustion). This point in time is called the **injury exhaustion threshold**. 
+Once a character is brought to at least half their maximum number of [injuries](#injury) (rounded down), every time past that point that they suffer further damage and/or injury they must succeed a [toughness](#toughness-tough) test with their number of **injuries** as the **Ob**, or else suffer +1 [exhaustion](#exhaustion). This point in time is called the **injury exhaustion threshold**. 
 
 > A character is injured in combat. They have an **injury** threshold of 3 and already suffered an injury earlier. Even though the earlier injury may have been **patched up** by now, the character's new injury brings them up to a total of 2 **injuries**. 
 > 
@@ -781,7 +781,7 @@ A **PC** at **death's door** must succeed at least one [toughness](#toughness-to
 * If the character is at **death's door** during [combat](#combat), they must make a [toughness](#toughness-tough) test at the end of every round. 
 * If the character is at **death's door** out of [combat](#combat), they must make a test every minute. 
 
-A character can be helped out of the **death's door** **state**, if all of their **active** **Inj.** are **patched up** or **treated**. 
+A character can be helped out of the **death's door** **state**, if all of their **active** [injuries](#injury) are **patched up** or **treated**. 
 
 \* A **very** powerful mage could bring them back using [soul-binding](#soul-binding-int). 
 
@@ -970,7 +970,7 @@ The procedure of creating a character consists of the following steps:
 5. [Determine **attributes**](#choosing-attributes).
 6. [Determine **skills**](#choosing-skills).
 7. [Determine **carrying capacity** and **possessions**](#carrying-capactity--possessions).
-8. [Determine **Max HP** and **Max Inj.**](#determine-max-hp--max-inj)
+8. [Determine **Max HP** and **Injury Maximum**](#determine-max-hp--injury-maximum)
 9. [Determine exhaustion threshold](#determine-exhaustion-threshold).
 10. [Determine magic stamina](#determine-magic-stamina).
 
@@ -1150,7 +1150,7 @@ Then, determine your character's [carrying capacity](#carrying-capacity). Refer 
 
 Always make sure to talk to your **GM** and fellow players and have them agree to the **assets** you want your character to start with. 
 
-### Determine Max HP & Max Inj
+### Determine Max HP & Injury Maximum
 Determine your character's **max HP** and **injury limit**, by referring to the [toughness](#toughness-tough) attribute. 
 
 All characters start with an **injury limit** of 1. 
@@ -1210,14 +1210,14 @@ There are no limits to how many of a given card a player can own, but they may o
 | Cost    | Name               | Effect             |
 | ------- | ------------------ | ------------------ |
 | 3 MiFP  | Single Re-Roll     | Repeat a single test you just made. |
-| 6 MiFP  | Clotter            | One **active Inj.** of choice is now **patched up**. |
+| 6 MiFP  | Clotter            | One **active** [injury](#injury) of choice is now **patched up**. |
 | 1 MaFP  | Cascading Re-Roll  | Repeat a single test you just made. With this card, you keep any **positives** you achieved from the previously made test and add them to the **positives** rolled when you repeat the test. |
 | 1 MaFP  | Fact Check         | Change a minor plot point in a way your prefer. Work with your **GM** to make sure it fits the narrative, but they should respect your wish. This could be something like avoiding an **NPC** death or changing a fact about the plot. |
-| 1 MaFP  | Just a Flesh Wound | Remove or avoid one non-permanent **Inj.** of choice. |
+| 1 MaFP  | Just a Flesh Wound | Remove or avoid one non-permanent [injury](#injury) of choice. |
 | 1 MaFP  | Hastened           | +1 **AP** during your turns for the entirety of a [combat](#combat) encounter. |
 | 5 MaFP  | Double the Fun     | Double the number of dice to roll on your next/current test. |
-| 10 MaFP | Wrong Diagnosis    | Remove or avoid one permanent **Inj.** of choice. |
-| 1 AFP   | Defy Death         | Leap from [death's door](#deaths-door), remove 1 **active Inj.** of choice and be at 1 **HP**; Alternatively, avoid a narratively-driven death. The **GM** will decide the character's alternative fate. They could be captured, very badly injured or become indebted to someone or something. |
+| 10 MaFP | Wrong Diagnosis    | Remove or avoid one permanent [injury](#injury) of choice. |
+| 1 AFP   | Defy Death         | Leap from [death's door](#deaths-door), remove 1 **active** [injury](#injury) of choice and be at 1 **HP**; Alternatively, avoid a narratively-driven death. The **GM** will decide the character's alternative fate. They could be captured, very badly injured or become indebted to someone or something. |
 | 1 AFP   | Yes, my liege      | Work with your **GM** to create a follower/hireling who will now be at your command/employ. |
 
 # Combat
@@ -1800,7 +1800,7 @@ The mending of [injuries](#injury) and treatment of diseases.
 | ----- | -------------------- | -- | -------- | ---- | ------ | ------------------------------ |
 | 1     | Patching Touch       | 2  | 0        | ST   | 0      | A creature of the mage's choosing, in hand's reach, is magically healed. Removes one point of [bleeding](#bleeding). One [injury](#injury) of choice is now **patched up**. Restores missing HP. |
 | 3     | Better Patching Touch| 2  | 0        | ST   | 0      | Up to two creatures of the mage's choosing, in hand's reach, are magically healed. Removes all [bleeding](#bleeding) and [poisoned](#poisoned). Up to two [injuries](#injury) of choice are now **patched up**. |
-| 4     | Healing Touch        | 2  | 0        | ST   | 0      | A creature of the mage's choosing, in hand's reach, is magically healed. A single **Inj.** of choice becomes **treated**. Removes all [bleeding](#bleeding) and [poisoned](#poisoned). |
+| 4     | Healing Touch        | 2  | 0        | ST   | 0      | A creature of the mage's choosing, in hand's reach, is magically healed. A single [injury](#injury) of choice becomes **treated**. Removes all [bleeding](#bleeding) and [poisoned](#poisoned). |
 | 5+    | Life Leech           | 3  | 0        | ST   | 0      | Resist: **Ob 4**, Effect: Draw the life from a touched creature of choice. Deals **2DN** points of damage to that creature, where *N* is the chosen level, while healing another touched creature for the same amount. Transfers 1 point of [bleeding](#bleeding) and/or [poisoned](#poisoned) from the healed creature to the damaged one. |
 | 5     | Expel Illness        | 3  | 0        | ST   | 0      | Removes one [illness](#illness) of choice from a creature of choice, in hand's reach. |
 | 5     | Revert Mutation      | 4  | 0        | ST   | 0      | Resist: **Ob 4**, Effect: Removes one [mutation](#list-of-mutations) of choice from a creature of choice, in hand's reach. |
@@ -2254,7 +2254,7 @@ How many times an **injury** can be suffered, can be limited. In the table below
 | 16 - 19    | Skull Fracture      | 1   | -1 [Intelligence](#intelligence-int); -1 [Wisdom](#wisdom-wis) |
 | 20 - 24    | Concussion          | /   | -1 [Intelligence](#intelligence-int); -1 [Perception](#perception-perc) |
 | 25 - 30    | Punctured Lung      | /   | -1 [Endurance](#endurance-end) |
-| 31 - 36    | Infection           | 1   | -1 [Toughness](#toughness-tough); Within a day, the character will contract an [illness](#illness). This will happen, even if the **Inj.** is treated. |
+| 31 - 36    | Infection           | 1   | -1 [Toughness](#toughness-tough); Within a day, the character will contract an [illness](#illness). This will happen, even if the [injury](#injury) is treated. |
 | 37 - 42    | Fractured Rib       | /   | -1 [Toughness](#toughness-tough) | 
 | 43 - 48    | Nasty Wound         | /   | +1 [Bleeding](#bleeding) |
 | 49 - 54    | Broken Nose         | 1   | -1 [Perception](#perception-perc); Cannot smell. Once removed, leaves the [disfigured nose](#list-of-scars) [scar](#scars). |
@@ -2291,7 +2291,7 @@ An [illness](#illness) can only be suffered once, at a time. It may be suffered 
 | 24 - 31 | Jazz-Hands | **1D10 + 3** Days | The victim can't stop the tremors in their arms. Any action requiring precise movements is impossible. **-1D3** [agility](#agility-agi); **-1D4** [arcana](#arcana-arc). | [medicine](#medicine-int); The ill-effects are suspended for 24 hours. |
 | 32 - 39 | Brain Rot | **2D10** Days | The victim's mind dulls. They find it difficult to form coherent thoughts. **-1D3** [intelligence](#intelligence-int); **-1D3** [wisdom](#wisdom-wis). | [medicine](#medicine-int); The ill-effects are suspended for 24 hours. |
 | 40 - 47 | Feeble Tounge | **1D10 + 3** Days | The tounge flops and waggles around uncontrollably. Speech is impaired. **-1D3** [oratory](#oratory-ora). | [medicine](#medicine-int); Reduces the duration by **2D4** days. |
-| 48 - 55 | Wound Fever | Until cured | [Injuries](#injury) of the victim refuse any treatment. Any **Inj.** of the victim can be **patched up**, but not **treated**. | [medicine](#medicine-int); Sets the duration to **1D10** days. |
+| 48 - 55 | Wound Fever | Until cured | [Injuries](#injury) of the victim refuse any treatment. Any [injury](#injury) of the victim can be **patched up**, but not **treated**. | [medicine](#medicine-int); Sets the duration to **1D10** days. |
 | 56 - 63 | Filth Fever | **1D10 + 1** Days | The victim coughs uncontrollably and violently, with awful-smelling breath. **-1D3** [oratory](#oratory-ora); **-1D3** [endurance](#endurance-end). | [medicine](#medicine-int); Removes the illness on the next day. |
 | 64 - 71 | Amber Curse | **2D10** Days | The victim finds it difficult to feel the flow of magic through their body. **-1D4** [arcana](#arcana-arc); **-1D3** to any magic skills and [rune-using](#rune-using-agi). | Conventional methods cannot treat this illness. |
 | 72 - 79 | Coldness of Heart | **1D10 + 1** Days | The victim feels distant, as if they were only spectators in their own body. **-1D4** [empathy](#empathy-emp); **-1D3** [will](#will-will). | [medicine](#medicine-int); Reduces the duration by **2D4** days. |
