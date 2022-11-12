@@ -4,6 +4,7 @@
     - [Dice](#dice)
     - [Before the Game](#before-the-game)
     - [The Session](#the-session)
+      - [Intent & Action](#intent--action)
     - [After the Session](#after-the-session)
   - [Tests](#tests)
     - [Types of Test](#types-of-test)
@@ -36,7 +37,6 @@
       - [Practicing Attributes](#practicing-attributes)
   - [Skills](#skills)
     - [Skill Forking](#skill-forking)
-    - [Intent & Action](#intent--action)
     - [Learning Skills](#learning-skills)
     - [Advancing Skills](#advancing-skills)
       - [Practice](#practice)
@@ -285,6 +285,15 @@ Before anyone can start to play, the players have to [create their characters](#
 This is the time, when the magic happens. The players and **GM** have come together and begin or continue the story. 
 
 [Fate points](#fate-points) cannot be awarded during play and neither can cards be bought from the [hand of fate](#hand-of-fate). However, players and the **GM** should take note of every situation they believe a **PC** (their own included) could have earned a [fate point](#fate-points).
+
+#### Intent & Action
+The players drive the story and the action. They decide what their character will try to do and the **GM** will help them figure out if things will go as planned. 
+
+As a player, when deciding on what to do, make sure you state the **intent** of your action, like "I will make that person work for us!". 
+
+Then, the **GM** will need to know *how* you aim to follow up on your intent. Describe the **action** you will take. The clearer, the better. "I will tell them of our exploits and how well we get paid!", is a good response and allows the **GM** to conclude you're trying to [persuade](#persuasion-emp) the other character. Even better would be something like "I will *persuade* them by telling them of our exploits and how well we get paid!" That leaves no room for doubt *how* you wish to achieve your goal, which makes the **GM**'s job easier and the game flow better. 
+
+Of course, how appropriate a certain [attribute](#attributes) or [skill](#skills) is for the resolution of a given situation, is ultimately up to the **GM** and the specifics of the situation itself. 
 
 ### After the Session
 After a playing session is done, the players and **GM** should stick around to discuss which players earned [fate points](#fate-points). This is where players are nominated for [fate points](#fate-points), by each other and by the **GM**. If everyone agrees, the [fate points](#fate-points) are awarded. Players can and should lobby for their [fate points](#fate-points), but shouldn't beg. If most everyone else says no, then that decision stands. That doesn't mean there is no point in discussing the matter further, but such a discussion shoulnd't be forced. 
@@ -535,13 +544,6 @@ For every **skill** a character knows (= is not currently still learning), and t
 Which **skills** can be **forked** into a particular test is up to the **GM**. If a player is performing a test, they can lobby for the use of the **skills** they want to **fork** into their particular test, but ultimately, if the **GM** says no, that decision is final. 
 
 > Back to the thievery example. Let's assume a **PC** is trying to quickly unlock a door using their [thievery](#thievery-dex--perc--spd), because they're being chased by guards and desperately need to get away. They could argue to fork their [stealth](#stealth-dex--spd--int) **skill** into the test, but ultimately, what use is stealth when you've already been detected? Unless you can make yourself *unseen* somehow, the **GM** should rule that stealth cannot apply in that situation. 
-
-### Intent & Action
-The players drive the story and the action. When deciding on what to do, make sure you state the **intent** of your action, like "I will make that person work for us!". 
-
-Then, the **GM** will need to know how you aim to follow up on your intent. Describe the **action** you will take. The clearer, the better. "I will tell them of our exploits and how well we get paid!", is a good response and allows the **GM** to conclude you're trying to [persuade](#persuasion-emp) the other character. Even better would be something like "I will *persuade* them by telling them of our exploits and how well we get paid!" That leaves no room for doubt *how* you wish to achieve your goal. 
-
-Of course, how appropriate a certain **skill** is for the resolution of a given situation, is ultimately up to the **GM** and the specifics of the situation itself. 
 
 ### Learning Skills
 Whenever asked to test a skill a **PC** does not yet know, it will be added or progressed in the *currently learning* section of the character sheet. 
