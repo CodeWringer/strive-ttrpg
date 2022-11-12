@@ -423,7 +423,7 @@ A character is a representation of a sentient creature in the game world. They'r
 
 The value of an attribute indicates the number of **D6** to roll for a test of that attribute. Attribute values typically range from 2 to 6 for ordinary human characters. 
 
-**Attributes** [advance](#advancing-attributes), as they're tested. It is also possible to [practice](#practicing-attributes) **attributes**. It is **not** possible to teach **attributes**, however. 
+**Attributes** [advance](#advancing-attributes), as they're [tested](#tests). It is also possible to [practice](#practicing-attributes) **attributes**. It is **not** possible to teach **attributes**, however. 
 
 Unlike [skills](#skills), it is not possible to [fork](#skill-forking) **attributes**. 
 
@@ -528,18 +528,16 @@ A **skill** is any acquired knowledge and experience regarding a specific subjec
 
 All of a character's **skills** have a value attached to them, which indicates the number of **D6** to use when testing that **skill**. Skill values typically range from 1 to 3 for most skills. 4 and 5 is very good, 6 is excellence and 7 and above is mastery. 
 
-When [testing a skill](#tests), add half of the related [attribute](#attributes)'s value (rounded down) as number of additional dice for the test. 
+When [testing](#tests) a **skill**, add half of the related [attribute](#attributes)'s value (rounded down) as an additional number of dice for the test. It is also possible to [fork](#skill-forking) **skills**, allowing even more dice to be used the test. 
 
 **Skills** [advance](#advancing-skills), as they're tested. It is also possible to [practice](#practice) and [teach](#teaching) **skills**. 
 
-It is also possible to [fork](#skill-forking) **skills**, granting more dice to roll in a test. 
-
 ### Skill Forking
-For every **skill** a character knows (= is not currently still learning), and they are currently testing a **skill** that is thematically related, they can **fork** that **skill** into their test, granting them **+1D6** for their test. 
+For every **skill** a character knows (= is not currently still learning), and they are currently testing a **skill** that is thematically related, they can **fork** that **skill** into their test, granting them **+1D6** for their [test](#tests). 
 
-> Imagine a large forked rivermouth. One of the forks feeding into it is also a large river, which represents the **skill** primarily being tested. The other, smaller forks of the river represent the supporting **skills**. They all combine together at the rivermouth. A primary and supporting **skills** flow together into the test! 
+> Imagine a large forked rivermouth. One of the forks feeding into it is also a large river, which represents the **skill** primarily being tested. The other, smaller forks of the river represent the supporting **skills**. They all combine together at the rivermouth. A primary and its supporting **skills** flow together into the test! 
 
-> For example, if a character is testing their [thievery](#thievery-dex--perc--spd) **skill** at level three and they also know [stealth](#stealth-dex--spd--int), they can **fork** their stealth **skill** into their thievery test. Any number of **skills** can be **forked** into a test, but each **fork** only grants **+1D6**. For the thievery test above, it doesn't matter if the character is at stealth level one or five or nine-thousand. They only get a **+1D6** to their thievery test. So in this case, if the **GM** agrees, the player gets to roll **4D6** for their test. 
+> For example, if a character is testing their [thievery](#thievery-dex--perc--spd) **skill** at level 3 and they also know [stealth](#stealth-dex--spd--int), they can **fork** their stealth **skill** into their thievery test. Any number of **skills** can be **forked** into a test, but each **fork** only grants **+1D6**. For the thievery test above, it doesn't matter if the character is at stealth level one or five or nine-thousand. They only get a **+1D6** to their thievery test. So in this case, if the **GM** agrees, the player gets to roll **4D6** for their test. 
 
 Which **skills** can be **forked** into a particular test is up to the **GM**. If a player is performing a test, they can lobby for the use of the **skills** they want to **fork** into their particular test, but ultimately, if the **GM** says no, that decision is final. 
 
