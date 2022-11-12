@@ -52,12 +52,18 @@
     - [Exhaustion](#exhaustion)
     - [State](#state)
       - [Berserk](#berserk)
+      - [Burning](#burning)
+      - [Bleeding](#bleeding)
       - [Dazed](#dazed)
       - [Death's Door](#deaths-door)
+      - [Dissolving](#dissolving)
+      - [Electrified](#electrified)
+      - [Frostbitten](#frostbitten)
       - [Grappled](#grappled)
       - [Hasted](#hasted)
       - [Jealous](#jealous)
       - [Pacified](#pacified)
+      - [Poisoned](#poisoned)
       - [Prone](#prone)
       - [Rooted](#rooted)
       - [Terrified](#terrified)
@@ -751,6 +757,16 @@ A character who is in **berserk**, **must** attack the creature nearest to them.
 
 This **state** lasts until it is successfully [resisted](#resist-will) or the character is made [unconscious](#unconscious). 
 
+#### Burning
+A **burning** character suffers 1 point of [HP](#health--exhaustion) damage at the end their every turn in combat or every 2 seconds outside of combat. 
+
+This **state** can be incurred multiple times. While a character has this **state**, at every end of their turn during combat or every 2 seconds outside of combat, they automatically incur another point of **burning**! They must actively work to get rid of it, for example by dropping to the floor and rolling on the flames, dousing themselves in water and so forth. The point of **burning** is incurred *after* the damage from the previous points of **burning** is applied. 
+
+#### Bleeding
+A **bleeding** character suffers 1 point of [HP](#health--exhaustion) damage at the end their every turn in combat or every 2 seconds outside of combat. 
+
+This **state** can be incurred multiple times. A point of **bleeding** can be removed with [medicine](#medicine-int). [Restoration](#restoration-emp) magic can also remove one or more points of **bleeding** at a time. 
+
 #### Dazed
 A **dazed** character begins their turn with -2 **AP** and can run at most only half the distance they normally could. In addition, they suffer a penalty of **-1D** to all tests. The number of dice for a test cannot be reduced to less than 1 by this penalty. 
 
@@ -765,9 +781,24 @@ A **PC** at **death's door** must succeed at least one [toughness](#toughness-to
 * If the character is at **death's door** during [combat](#combat), they must make a [toughness](#toughness-tough) test at the end of every round. 
 * If the character is at **death's door** out of [combat](#combat), they must make a test every minute. 
 
-A character can be helped out of the **death's door** state, if all of their **active** **Inj.** are **patched up** or **treated**. 
+A character can be helped out of the **death's door** **state**, if all of their **active** **Inj.** are **patched up** or **treated**. 
 
 \* A **very** powerful mage could bring them back using [soul-binding](#soul-binding-int). 
+
+#### Dissolving
+A **dissolving** character suffers **1D5** points of [HP](#health--exhaustion) damage at the end their every turn in combat or every 2 seconds outside of combat. 
+
+This **state** is removed automatically, if the character is freed of the acidic substance. 
+
+#### Electrified
+An **electrified** character suffers **-1D** for their every [test](#tests) requiring [agility](#agility-agi). That means [attributes](#attributes) and [skills](#skills). 
+
+This **state** is removed automatically, at the end of the character's next turn in combat or after 4 seconds outside of combat. 
+
+#### Frostbitten
+A **frostbitten** character suffers -1 [AP](#action-points-ap) during combat. 
+
+This state can be incurred up to 2 times. At the end of every turn during combat, one point of **frostbitten** is removed, automatically, unless if the character is in a cold environment. In cold environments, the **frostbitten** stays, until actively removed, for example by heating up around a fire, drinking a hot beverage and so on. 
 
 #### Grappled
 A **grappled** character is unable to move and suffers -1 [melee defence](#melee-defence-agi), for as long as they are **grappled**. A **grappled** character can break free, by **completely succeeding** a [strength](#strength-str) test against the other character grappling them. 
@@ -790,6 +821,11 @@ A character who is **pacified**, is unable to *willingly* take any action that w
 Note, the character is not physically unable to cause harm, but they **really** don't want to. 
 
 This **state** lasts until it is successfully [resisted](#resist-will) or the character is made [unconscious](#unconscious). 
+
+#### Poisoned
+A **poisoned** character suffers 1 points of [HP](#health--exhaustion) damage at the end their every turn in combat or every 2 seconds outside of combat. 
+
+This state can be incurred multiple times and can be removed with an antidote or with [restoration](#restoration-emp) magic.
 
 #### Prone
 A character who is prone, is harder to hit with ranged attacks, but easier to hit with melee attacks, as they'll have a harder time defending. 
@@ -1762,9 +1798,9 @@ The mending of [injuries](#injury) and treatment of diseases.
 
 | Level | Name                 | AP | Distance | Type | Damage | Effect(s)                      |
 | ----- | -------------------- | -- | -------- | ---- | ------ | ------------------------------ |
-| 1     | Patching Touch       | 2  | 0        | ST   | 0      | A creature of the mage's choosing, in hand's reach, is magically healed. Removes [bleeding](#bleeding). One [injury](#injury) of choice is now **patched up**. Restores missing HP. |
-| 3     | Better Patching Touch| 2  | 0        | ST   | 0      | Up to two creatures of the mage's choosing, in hand's reach, are magically healed. Removes [bleeding](#bleeding) and [poisoned](#poisoned). Up to two [injuries](#injury) of choice are now **patched up**. |
-| 4     | Healing Touch        | 2  | 0        | ST   | 0      | A creature of the mage's choosing, in hand's reach, is magically healed. A single **Inj.** of choice becomes **treated**. Removes [bleeding](#bleeding) and [poisoned](#poisoned). |
+| 1     | Patching Touch       | 2  | 0        | ST   | 0      | A creature of the mage's choosing, in hand's reach, is magically healed. Removes one point of [bleeding](#bleeding). One [injury](#injury) of choice is now **patched up**. Restores missing HP. |
+| 3     | Better Patching Touch| 2  | 0        | ST   | 0      | Up to two creatures of the mage's choosing, in hand's reach, are magically healed. Removes all [bleeding](#bleeding) and [poisoned](#poisoned). Up to two [injuries](#injury) of choice are now **patched up**. |
+| 4     | Healing Touch        | 2  | 0        | ST   | 0      | A creature of the mage's choosing, in hand's reach, is magically healed. A single **Inj.** of choice becomes **treated**. Removes all [bleeding](#bleeding) and [poisoned](#poisoned). |
 | 5+    | Life Leech           | 3  | 0        | ST   | 0      | Resist: **Ob 4**, Effect: Draw the life from a touched creature of choice. Deals **2DN** points of damage to that creature, where *N* is the chosen level, while healing another touched creature for the same amount. Transfers 1 point of **bleeding** and/or **poisoned** from the healed creature to the damaged one. |
 | 5     | Expel Illness        | 3  | 0        | ST   | 0      | Removes one [illness](#illness) of choice from a creature of choice, in hand's reach. |
 | 5     | Revert Mutation      | 4  | 0        | ST   | 0      | Resist: **Ob 4**, Effect: Removes one [mutation](#list-of-mutations) of choice from a creature of choice, in hand's reach. |
@@ -2230,22 +2266,19 @@ How many times an **injury** can be suffered, can be limited. In the table below
 | 95 - 100   | Cosmic Misfortune   | 1   | **-1D** on all [tests](#tests). | 
 
 ### Type Specific Injuries
-There is no list of several different injuries per specific [damage type](#damage-types). Instead there is one "flat" injury for each of these types. 
+There is no list of several different injuries per specific [damage type](#damage-types). Instead there is one "flat" injury for some of these types. 
 
 * **Burning**: Hell is claiming its prize. Flames greedily take what they can. 
-  * While **active**, inflicts 2 [HP](#health--exhaustion) damage at the end of every turn, or every 2 seconds outside of combat. 
   * -1 [toughness](#toughness-tough). 
   * When healed and removed, leaves a [Burned Skin](#list-of-scars) [scar](#scars). 
 * **Freezing**: The cold bites into flesh, seizing up muscles. 
-  * While **active**, reduces [AP](#action-points-ap) by 1. 
   * -1 [agility](#agility-agi). 
 * **Poison**: Pain courses through the veins. Every beat of the heart a stinging and burning reminder a substance doesn't belong. 
-  * While **active**, inflicts 2 [HP](#health--exhaustion) damage at the end of every turn, or every 2 seconds outside of combat. 
   * -1 [endurance](#endurance-end). 
 * **Acid**: Acid steadily eats away, layer by layer, making skin and flesh come unwound. 
-  * While **active**, inflicts 3 [HP](#health--exhaustion) damage at the end of every turn, or every 2 seconds outside of combat. 
+  * -1 [toughness](#toughness-tough). 
 * **Electrical**: The muscles spasm uncontrollably, like a puppet out of control. 
-  * While **active**, suffer **-1D** for every [test](#tests). 
+  * -1 [agility](#agility-agi). 
 
 ## List of Illnesses
 An [illness](#illness) can only be suffered once, at a time. It may be suffered again later, of course, but you could also expect that a certain level of immunity within the body has built up, after the previous time it was suffered through. 
