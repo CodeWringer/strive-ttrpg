@@ -1774,7 +1774,7 @@ Creatures can [resist](#resist-will) the change. Inanimate objects don't resist.
 
 | Level | Name                 | AP | Distance | Type | Damage | Effect(s)                      |
 | ----- | -------------------- | -- | -------- | ---- | ------ | ------------------------------ |
-| 0+    | Alter Shape          | 3  | 18'/6m   | ST   | 0      | Resist: **Ob N**, Effect: The object or creature is altered as the mage desires. |
+| 1+    | Alter Shape          | 3  | 18'/6m   | ST   | 0      | Resist: **Ob N**, Effect: The object or creature is altered as the mage desires. The complexity and size of the re-shaping depends on the **intensity** level. Levels 1-3 are for simple and small, 4-6 for tricky and medium, 7-8 for complex and large and 9+ for very complex and very large alterations. |
 
 ### Illusion [Emp]
 Creation of non-physical influences on the senses. That includes images, sounds and odors. The illusions cannot cause direct harm, although they can drive an individual to acts that may put them in danger. 
