@@ -41,7 +41,7 @@
     - [Advancing Skills](#advancing-skills)
       - [Practice](#practice)
       - [Teaching](#teaching)
-  - [Ambitions, Beliefs & Reactions](#ambitions-beliefs--reactions)
+  - [Ambition, Beliefs & Reactions](#ambition-beliefs--reactions)
     - [Ambition](#ambition)
     - [Beliefs & Goals](#beliefs--goals)
     - [Reactions](#reactions)
@@ -423,7 +423,7 @@ While the **GM** decides on how much time a given test will need, the following 
 * A matter of days and months: Complex crafts and artistry, researching a complex or obscure subject. 
 
 # Character
-A character is a representation of a sentient creature in the game world. They're an amalgam of [attributes](#attributes), [skills](#skills), [ambitions, beliefs & reactions](#ambitions-beliefs--reactions) and of course their [assets](#assets). 
+A character is a representation of a sentient creature in the game world. They're an amalgam of [attributes](#attributes), [skills](#skills), [ambition, beliefs & reactions](#ambition-beliefs--reactions) and of course their [assets](#assets). 
 
 ## Attributes
 **Attributes** describe a character's basic, inherent abilities. 
@@ -644,14 +644,14 @@ Both teacher and pupil must actively spend time together, furthering the pupil's
 
 If the teacher's skill is at least one level higher than that of their student, the student can use an extra **+1D6** to resolve their tests of the skill they're being taught. 
 
-## Ambitions, Beliefs & Reactions
-**Ambitions** and **beliefs** inform a **PC**'s player of their character's *convictions* and *wants*. 
+## Ambition, Beliefs & Reactions
+The **ambition** and **beliefs** inform a **PC**'s player of their character's *convictions* and *wants*. 
 
-While all characters are expected to have **ambitions**, **beliefs** and **reactions**, **PC**s are special, because for them, these concepts are cemented through rules and mechanics. 
+While all characters are expected to have an **ambition**, **beliefs** and **reactions**, **PC**s are special, because for them, these concepts are cemented through rules and mechanics. 
+
+Whenever a player plays to their **ambition**, **beliefs** and **reactions** in certain ways, they earn [fate points](#fate-points). 
 
 **Ambitions**, **beliefs** and **reactions** can not change during a game session. They can only be changed in-between. 
-
-Whenever a player plays to their **ambitions**, **beliefs** and **reactions** in certain ways, they earn [fate points](#fate-points). 
 
 It is the **GM**'s role, to create interesting situations, which can *challenge* the **beliefs** and **reactions**, or even **ambitions** of the **PC**s. How the players and their **PC**s react, can earn them [fate points](#fate-points) and will drive the story forward. 
 
@@ -1061,7 +1061,7 @@ Gender is personal preference, but could also be decided by a coin flip.
 | 10        | Scrawny     | Broken     | Pierced    | Greased  |
 
 ### Choosing Ambition, Beliefs & Reactions
-As described in the [section with the same name](#ambitions-beliefs--reactions), what your character believes in and what drives them onward, is key in playing them. Don't worry too much about your first **beliefs** and **reactions**, they're expected to change frequently, anyway. 
+As described in the [section with the same name](#ambition-beliefs--reactions), what your character believes in and what drives them onward, is key in playing them. Don't worry too much about your first **beliefs** and **reactions**, they're expected to change frequently, anyway. 
 
 Only your **ambition** will require some thought beforehand, but even so, you don't have to plan your character's future, at all. That is the **GM**'s job, after all. But keep in mind your character's **ambition** tells your **GM**, what kind of stories you'd like to explore and what's more, how your character will fit into them. 
 
@@ -1176,7 +1176,7 @@ Fate points (**FP**) represent a meta-currency that *players* can earn and use t
 
 There are three types of **FP**: [Minor](#minor-fate-points), [major](#major-fate-points) and [ambition](#ambition-fate-points). 
 
-**FP** are earned, by playing to one's [ambitions, beliefs and reactions](#ambitions-beliefs--reactions). Most **FP** are earned by a single player, but some may also be earned as a group. 
+**FP** are earned, by playing to one's [ambition, beliefs and reactions](#ambition-beliefs--reactions). Most **FP** are earned by a single player, but some may also be earned as a group. 
 
 ## Minor Fate Points
 **Minor Fate Points (MiFP)** are the lowest valued and most common type of **FP**, most commonly earned by playing the mechanics of the game. 
