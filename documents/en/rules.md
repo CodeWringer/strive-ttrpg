@@ -661,11 +661,11 @@ Every **PC** must have one **ambition** - a life-fulfilling long-term goal to pu
 An **ambition** is not expected to change often. An ideal **ambition** would accompany a character a long time. 
 
 ### Beliefs & Goals
-A **belief** defines a character's conviction - what they *believe* in. Such a belief, while substantial for a character, can - and should - change when recent events or introspection support it. 
+A **belief** defines a character's conviction - how they perceive the world and the people around them. Such a belief, while substantial for a character, can - and should - change when recent events or introspection support it. 
 
 A player has to decide on three **beliefs** for their character. A belief should be based on the events and circumstances affecting the character in game. 
 
-In addition to that, for every belief, at least one goal must be defined, with which to pursue it. Such a goal should not be a triviality and require some effort to achieve. These goals define the immediate and short-term actions a PC is going to undertake. 
+In addition to that, for every belief, one goal must be defined, with which to pursue it. Such a goal should not be a triviality and require some effort to achieve. These goals define the immediate and short-term actions a PC is going to undertake. 
 
 > For example, a **PC** learns of a conspiracy against their lord during the session. After the session, they decide they'll change one of their **beliefs** to "My lord's safety is paramount!" and their associated goal to "I will uncover the plot against my lord!"
 > 
