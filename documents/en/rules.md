@@ -103,6 +103,13 @@
   - [Major Fate Points](#major-fate-points)
   - [Ambition Fate Points](#ambition-fate-points)
   - [Hand of Fate](#hand-of-fate)
+- [Spending Time](#spending-time)
+  - [Travel](#travel)
+  - [Crafting](#crafting)
+  - [Trade](#trade)
+  - [Recovery](#recovery)
+  - [Training](#training)
+  - [Holdings Management](#holdings-management)
 - [Combat](#combat)
   - [Who Acts When](#who-acts-when)
   - [Action Points (AP)](#action-points-ap)
@@ -152,14 +159,13 @@
       - [Commanding (Will)](#commanding-will)
       - [Deception (Ora)](#deception-ora)
       - [Intimidation (Will)](#intimidation-will)
+      - [Mercantilism (Ora)](#mercantilism-ora)
       - [Persuasion (Emp)](#persuasion-emp)
       - [Resist (Will)](#resist-will)
       - [Riding (Emp)](#riding-emp)
     - [Knowledge](#knowledge)
       - [Architecture (Int)](#architecture-int)
-      - [Alchemy (Arc)](#alchemy-arc)
       - [Appraisal (Int)](#appraisal-int)
-      - [Brewing (Wis)](#brewing-wis)
       - [Geography (Int)](#geography-int)
       - [Heraldry (Int)](#heraldry-int)
       - [History < subject > (Wis)](#history--subject--wis)
@@ -173,12 +179,12 @@
       - [Medicine (Int)](#medicine-int)
       - [Reading and Writing < language > (Int)](#reading-and-writing--language--int)
       - [Surgery (Int)](#surgery-int)
-      - [Tanning/Skinning (Agi)](#tanningskinning-agi)
       - [Warfare (Wis)](#warfare-wis)
-      - [Woodcrafting (Agi)](#woodcrafting-agi)
     - [Craftsmanship](#craftsmanship)
       - [Armor smithing (Str)](#armor-smithing-str)
       - [Artistry (Emp)](#artistry-emp)
+      - [Alchemy (Arc)](#alchemy-arc)
+      - [Brewing (Wis)](#brewing-wis)
       - [Blacksmithing (Str)](#blacksmithing-str)
       - [Bow-Making (Agi)](#bow-making-agi)
       - [Carpentry (Agi)](#carpentry-agi)
@@ -190,7 +196,9 @@
       - [Leatherworking (Agi)](#leatherworking-agi)
       - [Masonry (Str)](#masonry-str)
       - [Rune Carving (Arc)](#rune-carving-arc)
+      - [Tanning/Skinning (Agi)](#tanningskinning-agi)
       - [Weapon smithing (Str)](#weapon-smithing-str)
+      - [Woodcarving (Agi)](#woodcarving-agi)
   - [List of Magic Schools](#list-of-magic-schools)
     - [Electromancy [Arc]](#electromancy-arc)
     - [Pyromancy [Arc]](#pyromancy-arc)
@@ -355,12 +363,18 @@ The outcome of the test is graduated. That means, the number of **positives** ro
 
 > For example, when crafting a work of art, the number of **positives** achieved may result in a more impressive piece, which can then be sold at a higher price or which could make for a more impressive gift. 
 
-On the other hand, failure doesn't have to be absolute. The degree of failure can allow for a "failing forward" - a success, but with complications, whose severity depends on the number of failures. 
+A **graduated test** can occur in two forms. The first is without an **Ob** threshold for failure and the second is *with* such a threshold. When a graduated test has an **Ob**, then at least that number of **positives** must be rolled, in order to succeed the test, at all. Any **positives** rolled past the **Ob**, determine the **degree of success**. However, not achieving at least **Ob** number of **positives** results in the test being counted as a **complete failure**. 
+
+On the other hand, even a **complete failure** doesn't have to be *absolute*. The number of **positives** *missing* to reach the **Ob** threshold determine the **degree of failure**. Therefore, there might be a chance to "fail forward" - a success, but with complications, whose severity depends on the **degree of failure**. 
+
+> For a test, a **PC** has to do a **graduated test** of one of their **craftsmanship** **skills**, at **Ob** 3. They only achieve only 2 **positives**, which results in a **degree of failure** of 1. 
+> 
+> Seeing such a low **degree of failure**, the **GM** rules that the PC *does* succeed their test, but also loses more materials in the process than a **complete success** would have cost them. 
 
 #### Creative Test
-Also known as a **skill challenge**, this type of test asks the player(s) to pick and justify the skill(s) or attribute to use in a given situation. Players are encouraged to think creatively, come up with and describe their solutions. 
+Also known as a **skill challenge**, this type of test asks the player(s) to pick and justify the [skill(s)](#skills) or [attribute](#attributes) to use in a given situation. Players are encouraged to think creatively, come up with and describe their solutions. 
 
-Whether the attribute or skill(s) in question can apply to resolve the situation at hand, lies at the **GM**'s discretion. 
+Whether the [attribute](#attributes) or [skill(s)](#skills) in question can apply to resolve the situation at hand, lies at the **GM**'s discretion. 
 
 #### Opposed Test
 Also known as a *versus test*, this type of test occurs, when two characters come into opposition. Who wins, and by how much, is determined by comparing the number of **positives** of each character. The one with the most **positives** is the winner. 
@@ -1220,6 +1234,51 @@ There are no limits to how many of a given card a player can own, but they may o
 | 1 AFP   | Defy Death         | Leap from [death's door](#deaths-door), remove 1 **active** [injury](#injury) of choice and be at 1 **HP**; Alternatively, avoid a narratively-driven death. The **GM** will decide the character's alternative fate. They could be captured, very badly injured or become indebted to someone or something. |
 | 1 AFP   | Yes, my liege      | Work with your **GM** to create a follower/hireling who will now be at your command/employ. |
 
+# Spending Time
+When not currently dealing with events on a detailed level - there and in the moment - **PC**'s can spend their time on a more abstract level. This applies especially to activities that take greater amounts of time, such as recovering from injuries, travel, engaging in their trade, honing their [skill](#skills) and so on. 
+
+## Travel
+People travel around the world all the time, for the most diverse reasons. Be they a trade caravan on the move between cities, a pilgrim on the way to a holy site, a craftsman going to town to sell their crafts, a roaming mercenary or a mother visiting their children - everyone has to spend time, travelling. 
+
+How much time it takes, exactly, to get from *A* to *B*, depends heavily on the *distance* to and the *means* of travel. If horses are the fastest means of transportation, expect to be travelling across countries for days if not weeks. But if teleportation magic makes travel a trivial issue, then you might not even need to consider it, at all. These details are strongly tied to your **GM**'s world, so they'll ultimately be the one to determine your travel times. 
+
+If there is a world map, the **GM** could overlay it with tiles of squares or hexagons, which may help with determining distance. If your group desires, you could even play it so that your characters only travel from tile to tile. Moving from one tile to another may then always take a set time, unless faster means of travel are available. That way, travel would be simplified and abstract. But discuss with your group, whether you want to play it this way. Travel may also provide interesting opportunities for role-playing and *conflicts*. The abstract level draws attention away from these opportunities. 
+
+## Crafting
+All [craftsmanship skills](#craftsmanship) require a time investment proportional to the *quality* and *complexity* of the desired product, as well as the innate *effort* required to create it. 
+
+Making use of a [craftsmanship skill](#craftsmanship) to create something requires a [graduated test](#graduated-test) be made. The number of dice in play dictate both the time required and the maximum achievable quality. Each [skill](#skills) in question notes how much time one die "costs". It is possible to roll with fewer dice, than would be available for the [graduated test](#graduated-test). [Forked skills](#skill-forking) can also provide a die each, but note that *every* die, including those from [forked skills](#skill-forking), increase the time required. The number of **positives** and **negatives** achieved has no effect on the time taken. Merely the *number* of dice that were rolled matters. 
+
+Also keep in mind that to craft anything, you must have the materials required. The [craftsmanship skill](#craftsmanship) in question will provide an overview of the kinds of products you can make and what they require. Depending on how difficult to acquire the materials are, you may act on a more abstract level and "go shopping", simply spending the time and money required up front, without turning it into a scene that must be played out. Of course, the more difficult to acquire materials may require you to *actually* go and find them. 
+
+TODO: Update skills
+
+## Trade
+Selling and buying things can take a surprising amount of time. If prices are too high and demand or reputation too low, chances are, you won't be able to sell your goods. But even when people do show interest in your wares, you still have to *sell it* to them. An uncharismatic merchant will have a difficult time making a pretty profit, regardless of the quality of their goods. On the other hand, buying things may prove equally difficult, when what you're looking for isn't really available. 
+
+For trade, there is really only one [skill](#skills) - the [mercantilism](#mercantilism-ora) skill. Using this [skill](#skills) requires a [graduated test](#graduated-test) with and **Ob** threshold to be made. The **degree of success** factors into getting a better price.
+
+The number of dice in play for a [graduated test](#graduated-test) of this skill determine both the chance to successfully trade something and the time it takes to trade it. It is the **GM**'s duty to determine demand and supply of the thing being sold on the market, as well as how well known the **PC** is as a reputable trader. A low demand, coupled with a low reputation as a trader, should result in a high **Ob** for the test (such as a 4 or even 5). On the other hand, if demand is high, reputation might not matter much and result in a much lower **Ob**. 
+
+It is possible to roll with fewer dice, than would be available for the [graduated test](#graduated-test). [Forked skills](#skill-forking) can also provide a die each, but note that *every* die, including those from [forked skills](#skill-forking), increase the time required. The number of **positives** and **negatives** achieved has no effect on the time taken. Merely the *number* of dice that were rolled matters. 
+
+The following matrix provides an overview of how long it may take to trade. Note that the **GM** has the final say on how long it will actually take. 
+| Supply > <br> Demand v | Very High | High | Moderate | Low | 
+| ------------- | --------- | --------- | --------- | --------- |
+| **Low**       | 4 Days | 3 Days | 2 Days | 1 Day | 
+| **Moderate**  | 1 Day  | 20 Hours | 16 Hours | 14 Hours | 
+| **High**      | 12 Hours | 10 Hours | 8 Hours | 6 Hours | 
+| **Very High** | 4 Hours | 2 Hours | 1 Hour | 30 Minutes | 
+
+## Recovery
+TODO
+
+## Training
+TODO
+
+## Holdings Management
+TODO
+
 # Combat
 When diplomacy fails, hostilities ensue. 
 
@@ -1605,6 +1664,11 @@ Is opposed by [resist](#resist-will).
 | 3     | Vicious Mockery      | 1  | Opposed | Lower a designated creature's defence by **-3D** for 3 turns. | Once per combat. |
 | 4     | War Cry              | 1  | Opposed | Lower the defence of all creatures within 18'/6m distance by **-2D**, for 4 turns. | Once per combat. |
 
+#### Mercantilism (Ora)
+Skill at bartering for goods and services and negotiating prices. Also useful to determine the availability of goods and materials and what their current demands and supply are. 
+
+See [trade](#trade) on how to use this skill on a more abstract level. 
+
 #### Persuasion (Emp)
 Persuading another character to think differently about something. 
 
@@ -1631,14 +1695,8 @@ These skills have a dominant mental aspect and are strongly related to a charact
 #### Architecture (Int)
 Analysing and planning buildings. Discerning weak points in a structure. 
 
-#### Alchemy (Arc)
-The ability to brew alchemical potions, create powders, mixtures and other substances, as well as the ability to tell these things apart. 
-
 #### Appraisal (Int)
 The ability to quickly and approximately guage the value of goods and services, the weight or quantity of goods, without having to actually count or weigh. 
-
-#### Brewing (Wis)
-The brewing of alcoholic beverages. 
 
 #### Geography (Int)
 Knowledge about the geography of the world. Used to recall the location of places in relation to each other. 
@@ -1687,16 +1745,10 @@ The language in question must be noted in addition to this skill.
 #### Surgery (Int)
 The ability to invasively treat ailments without making things worse for the patient. 
 
-#### Tanning/Skinning (Agi)
-Taking the hide off a creature undamaged. 
-
 #### Warfare (Wis)
 The ability to understand and direct large-scale combat movements, the logistics and psychology of war. 
 
 This governs the understanding of what makes defensive structures effective and how to circumvent them. This entails a functional understanding of siege engines, but not their construction. 
-
-#### Woodcrafting (Agi)
-General working with wood, where particular knowledge isn't required. 
 
 ### Craftsmanship
 All craftsmanship requires a mix of physical and mental attributes, for the purpose of creating a wide variety of things.
@@ -1706,6 +1758,12 @@ The ability to make armor from metal.
 
 #### Artistry (Emp)
 The ability to paint and draw well, as well as a general sense of aesthetics. 
+
+#### Alchemy (Arc)
+The ability to brew alchemical potions, create powders, mixtures and other substances, as well as the ability to tell these things apart. 
+
+#### Brewing (Wis)
+The brewing of alcoholic beverages. 
 
 #### Blacksmithing (Str)
 The ability to create every-day items from metal. 
@@ -1742,8 +1800,14 @@ The ability to carve [magic runes](#runes).
 
 The level of this skill dictates the maximum intensity level of the respective magic the carved rune can hold. The number of **positives** achieved in a test then sets the actual level the rune will hold, but limited by the maximum. 
 
+#### Tanning/Skinning (Agi)
+Taking the hide off a creature undamaged. 
+
 #### Weapon smithing (Str)
 The ability to make weapons from metal. 
+
+#### Woodcarving (Agi)
+Creating small things from carved wood. 
 
 ## List of Magic Schools
 The capabilities of the various magic schools are described by the **skill abilities** associated with each of them. The concrete effects are kept vague on purpose, to allow a certain freedom when choosing how the magic is expressed. But the intensity or strength of a casting is tied to the level of the [magic school skill](#magic-school--school---attribute-). 
