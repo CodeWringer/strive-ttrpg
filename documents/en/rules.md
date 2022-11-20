@@ -109,7 +109,6 @@
   - [Trade](#trade)
   - [Recovery](#recovery)
   - [Training](#training)
-  - [Holdings Management](#holdings-management)
 - [Combat](#combat)
   - [Who Acts When](#who-acts-when)
   - [Action Points (AP)](#action-points-ap)
@@ -181,8 +180,9 @@
       - [Surgery (Int)](#surgery-int)
       - [Warfare (Wis)](#warfare-wis)
     - [Craftsmanship](#craftsmanship)
-      - [Armor smithing (Str)](#armor-smithing-str)
       - [Artistry (Emp)](#artistry-emp)
+      - [Armor smithing (Str)](#armor-smithing-str)
+      - [Ambersmithing (Agi)](#ambersmithing-agi)
       - [Alchemy (Arc)](#alchemy-arc)
       - [Brewing (Wis)](#brewing-wis)
       - [Blacksmithing (Str)](#blacksmithing-str)
@@ -1271,13 +1271,10 @@ The following matrix provides an overview of how long it may take to trade. Note
 | **Very High** | 4 Hours | 2 Hours | 1 Hour | 30 Minutes | 
 
 ## Recovery
-TODO
+When [injured](#injury), a character should prepare to spend away from adventure for a while. Since the process of healing up can take several weeks, this time is best handled abstractly and the other **PC**s can spend the same time, going about their business during some time-off from adventure. 
 
 ## Training
-TODO
-
-## Holdings Management
-TODO
+When not busy with work and adventure, **PC**s may train, either passively improving their [attributes](#practicing-attributes) or [skills](#practicing-skills). This time is best handled abstractly, not playing out the details of the training. 
 
 # Combat
 When diplomacy fails, hostilities ensue. 
@@ -1753,23 +1750,60 @@ This governs the understanding of what makes defensive structures effective and 
 ### Craftsmanship
 All craftsmanship requires a mix of physical and mental attributes, for the purpose of creating a wide variety of things.
 
-#### Armor smithing (Str)
-The ability to make armor from metal. 
-
 #### Artistry (Emp)
 The ability to paint and draw well, as well as a general sense of aesthetics. 
+
+| Product                              | Time per die | Materials                              | Positives Bonus |
+| ------------------------------------ | ------------ | -------------------------------------- | --------------- | 
+| 1 painting or sculpture. | 1 day | Any paintable or shapeable object, such as a canvas or chunk of marble. | / |
+
+#### Armor smithing (Str)
+The ability to make armor from conventional materials, such as metal and leather. 
+
+| Product                              | Time per die | Materials                              | Positives Bonus |
+| ------------------------------------ | ------------ | -------------------------------------- | --------------- | 
+| 1 [light armor](#light-armor) | 2 weeks | Any shapeable sturdy and flexible material, such as iron, steel, leather or chitin. | Every **positive**: +1 **Slashing**; Every 2 **positives**: +1 **Bludgeoning**; Every 3 **positives**: +1 **Crushing**, +1 **Piercing** |
+| 1 [medium armor](#medium-armor) | 3 weeks | Any shapeable sturdy and flexible material, such as iron, steel, leather or chitin. | Every **positive**: +1 **Slashing**; Every 2 **positives**: +1 **Bludgeoning**; Every 3 **positives**: +1 **Crushing**, +1 **Piercing** |
+| 1 [heavy armor](#heavy-armor) | 4 weeks | Any shapeable sturdy and flexible material, such as iron, steel, leather or chitin. | Every **positive**: +1 **Slashing**; Every 2 **positives**: +1 **Bludgeoning**; Every 3 **positives**: +1 **Crushing**, +1 **Piercing** |
+
+#### Ambersmithing (Agi)
+The ability to make armor from [amberite](#amberite). 
+
+| Product                              | Time per die | Materials                              | Positives Bonus |
+| ------------------------------------ | ------------ | -------------------------------------- | --------------- | 
+| Amberite-infused or lined object | 1 week | [Amberite](#amberite) | Every **positive**: +1 efficacy against magic. |
 
 #### Alchemy (Arc)
 The ability to brew alchemical potions, create powders, mixtures and other substances, as well as the ability to tell these things apart. 
 
+| Product                              | Time per die | Materials                              | Positives Bonus |
+| ------------------------------------ | ------------ | -------------------------------------- | --------------- | 
+| 1 alchemical concoction, such as a potion or useable powder. | 1 day | Vials, minerals, metals, herbs and water. | / |
+
 #### Brewing (Wis)
 The brewing of alcoholic beverages. 
+
+| Product                              | Time per die | Materials                              | Positives Bonus |
+| ------------------------------------ | ------------ | -------------------------------------- | --------------- | 
+| 1 small keg worth of alcohol         | 3 days       | Any closeable container; Any fermentable fruit or distillable plant matter. | / |
 
 #### Blacksmithing (Str)
 The ability to create every-day items from metal. 
 
+[Crafting](#crafting)
+| Product                              | Time per die | Materials                              | Positives Bonus |
+| ------------------------------------ | ------------ | -------------------------------------- | --------------- | 
+| 1 large item, such as a handheld tool | 2 days      | Any shapeable metal; (Wood). | / |
+| 5 smaller items, such as nails or arrow-heads | 1 day | Any shapeable metal. | / |
+
 #### Bow-Making (Agi)
 The ability to craft bows and crossbows. 
+
+[Crafting](#crafting)
+| Product                              | Time per die | Materials                              | Positives Bonus |
+| ------------------------------------ | ------------ | -------------------------------------- | --------------- | 
+| Bow                                  | 2 days       | A piece of sturdy and flexible wood; A piece of string or sinew. | Every 3 **positives**: +1 **Piercing** |
+| Crossbow                             | 1 week       | Sturdy pieces of wood; Metal arms; a piece of string or sinew. | Every 3 **positives**: +1 **Piercing** |
 
 #### Carpentry (Agi)
 The ability to shape wood to craft predominantly wooden things. 
