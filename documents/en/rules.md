@@ -39,8 +39,8 @@
     - [Skill Forking](#skill-forking)
     - [Learning Skills](#learning-skills)
     - [Advancing Skills](#advancing-skills)
-      - [Practice](#practice)
-      - [Teaching](#teaching)
+      - [Practicing Skills](#practicing-skills)
+      - [Teaching Skills](#teaching-skills)
   - [Ambitions, Beliefs & Reactions](#ambitions-beliefs--reactions)
     - [Ambition](#ambition)
     - [Beliefs](#beliefs)
@@ -554,7 +554,7 @@ The *modified* level of a **skill** dictates the base number of **D6** to roll f
 
 When [testing](#tests) a **skill**, add half of the related [attribute](#attributes)'s value (rounded down) as an additional number of dice for the test. It is also possible to [fork](#skill-forking) **skills**, allowing even more dice to be used the test. 
 
-**Skills** [advance](#advancing-skills), as they're tested. It is also possible to [practice](#practice) and [teach](#teaching) **skills**. 
+**Skills** [advance](#advancing-skills), as they're tested. It is also possible to [practice](#practicing-skills) and [teach](#teaching-skills) **skills**. 
 
 ### Skill Forking
 For every **skill** a character knows (= is not currently still learning), and they are currently testing a **skill** that is thematically related, they can **fork** that **skill** into their test, granting them **+1D6** for their [test](#tests). 
@@ -582,7 +582,7 @@ The outcome of a test gets noted on the skill it was made for, not the attribute
 
 [Forking](#skill-forking) learning skills into tests is not allowed. **Forking** into tests of learning skills isn't allowed, either. 
 
-It **is** possible to receive help or [tutoring](#teaching) on a learning skill. 
+It **is** possible to receive help or [tutoring](#teaching-skills) on a learning skill. 
 
 ### Advancing Skills
 Whenever a **PC** uses a **skill** in a [test](#tests), the outcome must be noted, both on the skill **and** its associated [attribute](#attributes). See also: [Tests Bring about Learning](#tests-bring-about-learning)
@@ -630,8 +630,8 @@ For your convenience, the following table contains the precalculated requirement
 
 Whenever a skill advances, its associated successes and failures must each be reset to 0. Successes and failures accumulated past the threshold do not carry over. They're "lost". 
 
-#### Practice
-It is possible to advance skills *passively*. Whenever a large period of time is spent outside of active adventure, **PC**'s can practice a skill of choice. 
+#### Practicing Skills
+It is possible to advance **skills** *passively*. Whenever a large period of time is spent outside of active adventure, **PC**'s can practice a skill of choice. 
 
 A **PC** can only actively practice one **category of skills**. For every **cycle** that passes of active practice, the **PC** can roll a [test](#tests) of a skill of the corresponding category. Furthermore, a **PC** can not both be actively practicing a **skill** *and* an **attribute**. They must choose - either practice a **skill** *or* an **attribute**. 
 
@@ -644,10 +644,10 @@ A **PC** can only actively practice one **category of skills**. For every **cycl
 
 > A **PC** spends seven weeks practicing their [tactics](#tactics-str), while waiting for their comrade to recover from their [injuries](#injury). [Tactics](#tactics-str) being a physical skill, the cycle for tests is 3 weeks. In this case, 2 tests can be made and their outcomes noted. 
 
-#### Teaching
-Much like it is possible for a character to [practice](#practice) on their own, they can also be taught by another, who knows more than them. 
+#### Teaching Skills
+Much like it is possible for a character to [practice](#practicing-skills) on their own, they can also be taught by another, who knows more than them. 
 
-Both teacher and pupil must actively spend time together, furthering the pupil's skill. The rules for cycle and test are the same as with [practice](#practice). The cycles noted in the table below are used instead. 
+Both teacher and pupil must actively spend time together, furthering the pupil's skill. The rules for cycle and test are the same as with [practice](#practicing-skills). The cycles noted in the table below are used instead. 
 
 | Skill Category | Cycle    |
 | -------------- | -------- |
