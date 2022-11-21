@@ -39,8 +39,8 @@
     - [Skill Forking](#skill-forking)
     - [Learning Skills](#learning-skills)
     - [Advancing Skills](#advancing-skills)
-      - [Practice](#practice)
-      - [Teaching](#teaching)
+      - [Practicing Skills](#practicing-skills)
+      - [Teaching Skills](#teaching-skills)
   - [Ambitions, Beliefs & Reactions](#ambitions-beliefs--reactions)
     - [Ambition](#ambition)
     - [Beliefs](#beliefs)
@@ -103,6 +103,12 @@
   - [Major Fate Points](#major-fate-points)
   - [Ambition Fate Points](#ambition-fate-points)
   - [Hand of Fate](#hand-of-fate)
+- [Spending Time](#spending-time)
+  - [Travel](#travel)
+  - [Crafting](#crafting)
+  - [Trade](#trade)
+  - [Recovery](#recovery)
+  - [Training](#training)
 - [Combat](#combat)
   - [Who Acts When](#who-acts-when)
   - [Action Points (AP)](#action-points-ap)
@@ -133,6 +139,7 @@
     - [Physical skills](#physical-skills)
       - [Acrobatics (Agi)](#acrobatics-agi)
       - [Berserking (End)](#berserking-end)
+      - [Fishing (End)](#fishing-end)
       - [Instrument-Playing < instrument > (Agi)](#instrument-playing--instrument--agi)
       - [Melee Defence (Agi)](#melee-defence-agi)
       - [Ranged Defence (Agi)](#ranged-defence-agi)
@@ -152,14 +159,13 @@
       - [Commanding (Will)](#commanding-will)
       - [Deception (Ora)](#deception-ora)
       - [Intimidation (Will)](#intimidation-will)
+      - [Mercantilism (Ora)](#mercantilism-ora)
       - [Persuasion (Emp)](#persuasion-emp)
       - [Resist (Will)](#resist-will)
       - [Riding (Emp)](#riding-emp)
     - [Knowledge](#knowledge)
       - [Architecture (Int)](#architecture-int)
-      - [Alchemy (Arc)](#alchemy-arc)
       - [Appraisal (Int)](#appraisal-int)
-      - [Brewing (Wis)](#brewing-wis)
       - [Geography (Int)](#geography-int)
       - [Heraldry (Int)](#heraldry-int)
       - [History < subject > (Wis)](#history--subject--wis)
@@ -173,24 +179,28 @@
       - [Medicine (Int)](#medicine-int)
       - [Reading and Writing < language > (Int)](#reading-and-writing--language--int)
       - [Surgery (Int)](#surgery-int)
-      - [Tanning/Skinning (Agi)](#tanningskinning-agi)
       - [Warfare (Wis)](#warfare-wis)
-      - [Woodcrafting (Agi)](#woodcrafting-agi)
     - [Craftsmanship](#craftsmanship)
-      - [Armor smithing (Str)](#armor-smithing-str)
       - [Artistry (Emp)](#artistry-emp)
+      - [Armor smithing (Str)](#armor-smithing-str)
+      - [Ambersmithing (Agi)](#ambersmithing-agi)
+      - [Alchemy (Arc)](#alchemy-arc)
+      - [Brewing (Wis)](#brewing-wis)
       - [Blacksmithing (Str)](#blacksmithing-str)
       - [Bow-Making (Agi)](#bow-making-agi)
       - [Carpentry (Agi)](#carpentry-agi)
       - [Clothesmaking (Agi)](#clothesmaking-agi)
       - [Cooking (Emp)](#cooking-emp)
       - [Engineering (Int)](#engineering-int)
-      - [Fishing (End)](#fishing-end)
       - [Fletching (Agi)](#fletching-agi)
+      - [Glass-blowing (Agi)](#glass-blowing-agi)
+      - [Goldsmithing (Agi)](#goldsmithing-agi)
       - [Leatherworking (Agi)](#leatherworking-agi)
       - [Masonry (Str)](#masonry-str)
       - [Rune Carving (Arc)](#rune-carving-arc)
+      - [Tanning/Skinning (Agi)](#tanningskinning-agi)
       - [Weapon smithing (Str)](#weapon-smithing-str)
+      - [Woodcarving (Agi)](#woodcarving-agi)
   - [List of Magic Schools](#list-of-magic-schools)
     - [Electromancy [Arc]](#electromancy-arc)
     - [Pyromancy [Arc]](#pyromancy-arc)
@@ -355,12 +365,18 @@ The outcome of the test is graduated. That means, the number of **positives** ro
 
 > For example, when crafting a work of art, the number of **positives** achieved may result in a more impressive piece, which can then be sold at a higher price or which could make for a more impressive gift. 
 
-On the other hand, failure doesn't have to be absolute. The degree of failure can allow for a "failing forward" - a success, but with complications, whose severity depends on the number of failures. 
+A **graduated test** can occur in two forms. The first is without an **Ob** threshold for failure and the second is *with* such a threshold. When a graduated test has an **Ob**, then at least that number of **positives** must be rolled, in order to succeed the test, at all. Any **positives** rolled past the **Ob**, determine the **degree of success**. However, not achieving at least **Ob** number of **positives** results in the test being counted as a **complete failure**. 
+
+On the other hand, even a **complete failure** doesn't have to be *absolute*. The number of **positives** *missing* to reach the **Ob** threshold determine the **degree of failure**. Therefore, there might be a chance to "fail forward" - a success, but with complications, whose severity depends on the **degree of failure**. 
+
+> For a test, a **PC** has to do a **graduated test** of one of their **craftsmanship** **skills**, at **Ob** 3. They only achieve only 2 **positives**, which results in a **degree of failure** of 1. 
+> 
+> Seeing such a low **degree of failure**, the **GM** rules that the PC *does* succeed their test, but also loses more materials in the process than a **complete success** would have cost them. 
 
 #### Creative Test
-Also known as a **skill challenge**, this type of test asks the player(s) to pick and justify the skill(s) or attribute to use in a given situation. Players are encouraged to think creatively, come up with and describe their solutions. 
+Also known as a **skill challenge**, this type of test asks the player(s) to pick and justify the [skill(s)](#skills) or [attribute](#attributes) to use in a given situation. Players are encouraged to think creatively, come up with and describe their solutions. 
 
-Whether the attribute or skill(s) in question can apply to resolve the situation at hand, lies at the **GM**'s discretion. 
+Whether the [attribute](#attributes) or [skill(s)](#skills) in question can apply to resolve the situation at hand, lies at the **GM**'s discretion. 
 
 #### Opposed Test
 Also known as a *versus test*, this type of test occurs, when two characters come into opposition. Who wins, and by how much, is determined by comparing the number of **positives** of each character. The one with the most **positives** is the winner. 
@@ -540,7 +556,7 @@ The *modified* level of a **skill** dictates the base number of **D6** to roll f
 
 When [testing](#tests) a **skill**, add half of the related [attribute](#attributes)'s value (rounded down) as an additional number of dice for the test. It is also possible to [fork](#skill-forking) **skills**, allowing even more dice to be used the test. 
 
-**Skills** [advance](#advancing-skills), as they're tested. It is also possible to [practice](#practice) and [teach](#teaching) **skills**. 
+**Skills** [advance](#advancing-skills), as they're tested. It is also possible to [practice](#practicing-skills) and [teach](#teaching-skills) **skills**. 
 
 ### Skill Forking
 For every **skill** a character knows (= is not currently still learning), and they are currently testing a **skill** that is thematically related, they can **fork** that **skill** into their test, granting them **+1D6** for their [test](#tests). 
@@ -568,7 +584,7 @@ The outcome of a test gets noted on the skill it was made for, not the attribute
 
 [Forking](#skill-forking) learning skills into tests is not allowed. **Forking** into tests of learning skills isn't allowed, either. 
 
-It **is** possible to receive help or [tutoring](#teaching) on a learning skill. 
+It **is** possible to receive help or [tutoring](#teaching-skills) on a learning skill. 
 
 ### Advancing Skills
 Whenever a **PC** uses a **skill** in a [test](#tests), the outcome must be noted, both on the skill **and** its associated [attribute](#attributes). See also: [Tests Bring about Learning](#tests-bring-about-learning)
@@ -616,8 +632,8 @@ For your convenience, the following table contains the precalculated requirement
 
 Whenever a skill advances, its associated successes and failures must each be reset to 0. Successes and failures accumulated past the threshold do not carry over. They're "lost". 
 
-#### Practice
-It is possible to advance skills *passively*. Whenever a large period of time is spent outside of active adventure, **PC**'s can practice a skill of choice. 
+#### Practicing Skills
+It is possible to advance **skills** *passively*. Whenever a large period of time is spent outside of active adventure, **PC**'s can practice a skill of choice. 
 
 A **PC** can only actively practice one **category of skills**. For every **cycle** that passes of active practice, the **PC** can roll a [test](#tests) of a skill of the corresponding category. Furthermore, a **PC** can not both be actively practicing a **skill** *and* an **attribute**. They must choose - either practice a **skill** *or* an **attribute**. 
 
@@ -630,10 +646,10 @@ A **PC** can only actively practice one **category of skills**. For every **cycl
 
 > A **PC** spends seven weeks practicing their [tactics](#tactics-str), while waiting for their comrade to recover from their [injuries](#injury). [Tactics](#tactics-str) being a physical skill, the cycle for tests is 3 weeks. In this case, 2 tests can be made and their outcomes noted. 
 
-#### Teaching
-Much like it is possible for a character to [practice](#practice) on their own, they can also be taught by another, who knows more than them. 
+#### Teaching Skills
+Much like it is possible for a character to [practice](#practicing-skills) on their own, they can also be taught by another, who knows more than them. 
 
-Both teacher and pupil must actively spend time together, furthering the pupil's skill. The rules for cycle and test are the same as with [practice](#practice). The cycles noted in the table below are used instead. 
+Both teacher and pupil must actively spend time together, furthering the pupil's skill. The rules for cycle and test are the same as with [practice](#practicing-skills). The cycles noted in the table below are used instead. 
 
 | Skill Category | Cycle    |
 | -------------- | -------- |
@@ -1220,6 +1236,54 @@ There are no limits to how many of a given card a player can own, but they may o
 | 1 AFP   | Defy Death         | Leap from [death's door](#deaths-door), remove 1 **active** [injury](#injury) of choice and be at 1 **HP**; Alternatively, avoid a narratively-driven death. The **GM** will decide the character's alternative fate. They could be captured, very badly injured or become indebted to someone or something. |
 | 1 AFP   | Yes, my liege      | Work with your **GM** to create a follower/hireling who will now be at your command/employ. |
 
+# Spending Time
+When not currently dealing with events on a detailed level - there and in the moment - **PC**'s can spend their time on a more abstract level. This applies especially to activities that take greater amounts of time, such as recovering from injuries, travel, engaging in their trade, honing their [skill](#skills) and so on. 
+
+## Travel
+People travel around the world all the time, for the most diverse reasons. Be they a trade caravan on the move between cities, a pilgrim on the way to a holy site, a craftsman going to town to sell their crafts, a roaming mercenary or a mother visiting their children - everyone has to spend time, travelling. 
+
+How much time it takes, exactly, to get from *A* to *B*, depends heavily on the *distance* to and the *means* of travel. If horses are the fastest means of transportation, expect to be travelling across countries for days if not weeks. But if teleportation magic makes travel a trivial issue, then you might not even need to consider it, at all. These details are strongly tied to your **GM**'s world, so they'll ultimately be the one to determine your travel times. 
+
+If there is a world map, the **GM** could overlay it with tiles of squares or hexagons, which may help with determining distance. If your group desires, you could even play it so that your characters only travel from tile to tile. Moving from one tile to another may then always take a set time, unless faster means of travel are available. That way, travel would be simplified and abstract. But discuss with your group, whether you want to play it this way. Travel may also provide interesting opportunities for role-playing and *conflicts*. The abstract level draws attention away from these opportunities. 
+
+## Crafting
+All [craftsmanship skills](#craftsmanship) require a time investment proportional to the *quality* and *complexity* of the desired product, as well as the innate *effort* required to create it. 
+
+Making use of a [craftsmanship skill](#craftsmanship) to create something requires a [graduated test](#graduated-test) be made. The number of dice in play dictate both the time required and the maximum achievable quality. Each [skill](#skills) in question notes how much time one die "costs". It is possible to roll with fewer dice, than would be available for the [graduated test](#graduated-test). [Forked skills](#skill-forking) can also provide a die each, but note that *every* die, including those from [forked skills](#skill-forking), increase the time required. The number of **positives** and **negatives** achieved has no effect on the time taken. Merely the *number* of dice that were rolled matters. 
+
+Most **skills** do not allow for failure and the outcome of the test simply denotes the achieved quality of the product. But there are some **skills**, which can be failed, entirely. In such a case, an **Ob** threshold will be noted. Failing to achieve more **positives** than the **Ob**, will result in a **complete failure** of the test - there is no resulting product and the materials used are wasted. 
+
+The number of **positives** achieved denote the quality that has been achieved. Note this number on the product. 1-2 **positives** result in a **poor**, 3-4 in an **average**, 5 in a **good**, 6 in an **excellent** and 7+ in a **masterwork** product.
+
+Also keep in mind that to craft anything, you must have the materials required. The [craftsmanship skill](#craftsmanship) in question will provide an overview of the kinds of products you can make and what they require. Note, however, that things are kept vague on purpose. No encyclopedic listing of all possible products and required materials can be found, because such lists could never completely encompass the full spectrum of creativity available. The things listed on the skills are only meant to provide guidance. So, be creative and have your **GM** help you figure out what you need to make your product. 
+
+Depending on how easy to acquire the materials are, you may act on a more abstract level and "go shopping", simply spending the time and money required up front, without turning it into a scene or adventure of its own, that must be played out. Of course, the more difficult to acquire materials may require you to *actually* go and find them. 
+
+> For example, a **PC** might have decided they want to create an elaborately decorated piece of furniture, with bands of gold and colored glass inlays. Even though the [carpentry](#carpentry-agi) skill does not list gold as a material for its product, the **PC** should have to procure the gold, if they are to finish their piece of furniture. 
+
+## Trade
+Selling and buying things can take a surprising amount of time. If prices are too high and demand or reputation too low, chances are, you won't be able to sell your goods. But even when people do show interest in your wares, you still have to *sell it* to them. An uncharismatic merchant will have a difficult time making a pretty profit, regardless of the quality of their goods. On the other hand, buying things may prove equally difficult, when what you're looking for isn't really available. 
+
+For trade, there is really only one [skill](#skills) - the [mercantilism](#mercantilism-ora) skill. Using this [skill](#skills) requires a [graduated test](#graduated-test) with and **Ob** threshold to be made. The **degree of success** factors into getting a better price.
+
+The number of dice in play for a [graduated test](#graduated-test) of this skill determine both the chance to successfully trade something and the time it takes to trade it. It is the **GM**'s duty to determine demand and supply of the thing being sold on the market, as well as how well known the **PC** is as a reputable trader. A low demand, coupled with a low reputation as a trader, should result in a high **Ob** for the test (such as a 4 or even 5). On the other hand, if demand is high, reputation might not matter much and result in a much lower **Ob**. 
+
+It is possible to roll with fewer dice, than would be available for the [graduated test](#graduated-test). [Forked skills](#skill-forking) can also provide a die each, but note that *every* die, including those from [forked skills](#skill-forking), increase the time required. The number of **positives** and **negatives** achieved has no effect on the time taken. Merely the *number* of dice that were rolled matters. 
+
+The following matrix provides an overview of how long it may take to trade. Note that the **GM** has the final say on how long it will actually take. 
+| Supply > <br> Demand v | Very High | High | Moderate | Low | 
+| ------------- | --------- | --------- | --------- | --------- |
+| **Low**       | 4 Days | 3 Days | 2 Days | 1 Day | 
+| **Moderate**  | 1 Day  | 20 Hours | 16 Hours | 14 Hours | 
+| **High**      | 12 Hours | 10 Hours | 8 Hours | 6 Hours | 
+| **Very High** | 4 Hours | 2 Hours | 1 Hour | 30 Minutes | 
+
+## Recovery
+When [injured](#injury), a character should prepare to spend away from adventure for a while. Since the process of healing up can take several weeks, this time is best handled abstractly and the other **PC**s can spend the same time, going about their business during some time-off from adventure. 
+
+## Training
+When not busy with work and adventure, **PC**s may train, either passively improving their [attributes](#practicing-attributes) or [skills](#practicing-skills). This time is best handled abstractly, not playing out the details of the training. 
+
 # Combat
 When diplomacy fails, hostilities ensue. 
 
@@ -1350,6 +1414,8 @@ The effects of a magic spell do not affect the mage casting it, unless if they s
 
 A *magic spell* is the intended effect of using a [magic school skill](#magic-school--school---attribute-). This is also referred to as *casting magic*, *casting a spell* or other similar wordings. 
 
+*Spell intensity* is the level at which magic is being cast. 
+
 ## Testing Magic
 Testing a [magic school skill](#magic-school--school---attribute-), in order to cast a *magic spell*, works as follows:
 1. The mage determines the spell intensity level they're going to use. Their level in the corresponding magic school skill determines the maximum spell intensity level they can pick. 
@@ -1468,6 +1534,9 @@ However, the price for this strength is steep. The chance of death is greatly in
 | 1     | Reckless Assault     | 2  | /       | Deal an extra **D** of damage on your next successful attack during this turn, according to your weapon's damage. Suffer a **-2D** penalty on all defence tests until the start of your next turn. Cannot convert left-over AP into [melee defence](#melee-defence-agi) or [ranged defence](#ranged-defence-agi).  |  |
 | 2     | Grit Your Teeth      | 0  | /       | Ignore the negative effects of one [injury](#injury) of choice for the rest of the combat encounter. It will still count towards the injury limit, however! | Once per combat. |
 | 3     | Pain is Strength     | 3  | Opposed | Perform a single-target melee attack against an opponent of choice. For every active [injury](#injury) you currently have, deal one extra **D** of damage. You suffer one point of [exhaustion](#exhaustion). | Once per day. |
+
+#### Fishing (End)
+The ability to efficiently catch fish. 
 
 #### Instrument-Playing < instrument > (Agi)
 Playing an instrument of choice. 
@@ -1605,6 +1674,11 @@ Is opposed by [resist](#resist-will).
 | 3     | Vicious Mockery      | 1  | Opposed | Lower a designated creature's defence by **-3D** for 3 turns. | Once per combat. |
 | 4     | War Cry              | 1  | Opposed | Lower the defence of all creatures within 18'/6m distance by **-2D**, for 4 turns. | Once per combat. |
 
+#### Mercantilism (Ora)
+Skill at bartering for goods and services and negotiating prices. Also useful to determine the availability of goods and materials and what their current demands and supply are. 
+
+See [trade](#trade) on how to use this skill on a more abstract level. 
+
 #### Persuasion (Emp)
 Persuading another character to think differently about something. 
 
@@ -1631,14 +1705,8 @@ These skills have a dominant mental aspect and are strongly related to a charact
 #### Architecture (Int)
 Analysing and planning buildings. Discerning weak points in a structure. 
 
-#### Alchemy (Arc)
-The ability to brew alchemical potions, create powders, mixtures and other substances, as well as the ability to tell these things apart. 
-
 #### Appraisal (Int)
 The ability to quickly and approximately guage the value of goods and services, the weight or quantity of goods, without having to actually count or weigh. 
-
-#### Brewing (Wis)
-The brewing of alcoholic beverages. 
 
 #### Geography (Int)
 Knowledge about the geography of the world. Used to recall the location of places in relation to each other. 
@@ -1687,63 +1755,230 @@ The language in question must be noted in addition to this skill.
 #### Surgery (Int)
 The ability to invasively treat ailments without making things worse for the patient. 
 
-#### Tanning/Skinning (Agi)
-Taking the hide off a creature undamaged. 
-
 #### Warfare (Wis)
 The ability to understand and direct large-scale combat movements, the logistics and psychology of war. 
 
 This governs the understanding of what makes defensive structures effective and how to circumvent them. This entails a functional understanding of siege engines, but not their construction. 
 
-#### Woodcrafting (Agi)
-General working with wood, where particular knowledge isn't required. 
-
 ### Craftsmanship
 All craftsmanship requires a mix of physical and mental attributes, for the purpose of creating a wide variety of things.
-
-#### Armor smithing (Str)
-The ability to make armor from metal. 
 
 #### Artistry (Emp)
 The ability to paint and draw well, as well as a general sense of aesthetics. 
 
+| Product                              | Time per die | Materials                              | Quality Bonus   |
+| ------------------------------------ | ------------ | -------------------------------------- | --------------- | 
+| 1 painting or sculpture. | 1 day | Any paintable or shapeable object, such as a canvas or chunk of marble. | / |
+
+#### Armor smithing (Str)
+The ability to make armor from conventional materials, such as metal and leather. 
+
+| Product                              | Time per die | Materials                              | Quality Bonus   |
+| ------------------------------------ | ------------ | -------------------------------------- | --------------- | 
+| 1 [light armor](#light-armor) | 2 weeks | Any shapeable sturdy and flexible material, such as iron, steel, leather or chitin. | Every **positive**: +1 **Slashing**; Every 2 **positives**: +1 **Bludgeoning**; Every 3 **positives**: +1 **Crushing**, +1 **Piercing** |
+| 1 [medium armor](#medium-armor) | 3 weeks | Any shapeable sturdy and flexible material, such as iron, steel, leather or chitin. | Every **positive**: +1 **Slashing**; Every 2 **positives**: +1 **Bludgeoning**; Every 3 **positives**: +1 **Crushing**, +1 **Piercing** |
+| 1 [heavy armor](#heavy-armor) | 4 weeks | Any shapeable sturdy and flexible material, such as iron, steel, leather or chitin. | Every **positive**: +1 **Slashing**; Every 2 **positives**: +1 **Bludgeoning**; Every 3 **positives**: +1 **Crushing**, +1 **Piercing** |
+
+#### Ambersmithing (Agi)
+The ability to make armor from [amberite](#amberite). 
+
+Lining or plating an existing object with [ambersteel](#amberite) acts as an improvement, whereas an [ambersteel](#amberite)-forged object is an entirely new object, completely made out of [ambersteel](#amberite). 
+
+The product effects do not stack, but they can be overridden. This means that the same object cannot be lined with [ambersteel](#amberite) twice, for cumulative effects. But it can be upgraded to [ambersteel](#amberite)-plated. 
+
+[Crafting](#crafting)
+| Product                              | Time per die | **Ob** | Materials                              | Quality Bonus   |
+| ------------------------------------ | ------------ | ------ | -------------------------------------- | --------------- | 
+| Ambersteel-lined weapon              | 3 weeks      | 2      | [Amberite](#amberite); A weapon        | Bonus damage against mages and magical creatures: **+1** for every quality level. **+1D4** for every two **quality levels**, starting at level 1. |
+| Ambersteel-plated weapon             | 4 weeks      | 3      | [Amberite](#amberite); A weapon        | Bonus damage against mages and magical creatures: **+1** for every quality level. **+1D6** for every two **quality levels**, starting at level 1. |
+| Ambersteel-forged weapon             | 5 weeks      | 5      | [Amberite](#amberite)                  | Bonus damage against mages and magical creatures: **+2** for every quality level. **+1D8** for every two **quality levels**, starting at level 1. |
+| Ambersteel-lined armor               | 5 weeks      | 2      | [Amberite](#amberite); A set of armor  | Bonus protection from magic: **+1** for every quality level. **+1D4** for every two **quality levels**, starting at level 1. |
+| Ambersteel-plated armor              | 6 weeks      | 3      | [Amberite](#amberite); A set of armor  | Bonus protection from magic: **+1** for every quality level. **+1D6** for every two **quality levels**, starting at level 1. |
+| Ambersteel-forged armor              | 8 weeks      | 5      | [Amberite](#amberite)                  | Bonus protection from magic: **+2** for every quality level. **+1D8** for every two **quality levels**, starting at level 1. |
+
+> An ambersteel-lined weapon at quality level 3 would have +(3 + 2D4) damage against mages and magical creatures. 
+
+> An ambersteel-lined armor at quality level 3 would have +(3 + 2D4) protection from magic. 
+
+#### Alchemy (Arc)
+The ability to brew alchemical potions, create powders, mixtures and other substances, as well as the ability to tell these things apart. 
+
+Tools: a distillery, mortar and pestle, a fire place
+
+[Crafting](#crafting)
+| Product                              | Time per die | Materials                              | Quality Bonus   |
+| ------------------------------------ | ------------ | -------------------------------------- | --------------- | 
+| A simple alchemical concoction (potion or powder) | 1 Day | Small containers, minerals, metals, herbs and water. | / |
+| A complex alchemical concoction (potion or powder) | 3 Days | Small containers, minerals, metals, herbs and water. | / |
+
+#### Brewing (Wis)
+The brewing of alcoholic beverages. 
+
+Tools: a fire place, a distillery
+
+[Crafting](#crafting)
+| Product                              | Time per die | Materials                              | Quality Bonus   |
+| ------------------------------------ | ------------ | -------------------------------------- | --------------- | 
+| A small keg worth of alcohol         | 3 days       | Any closeable container; Any fermentable fruit or distillable plant matter. | / |
+
 #### Blacksmithing (Str)
 The ability to create every-day items from metal. 
+
+Tools: a hammer, an anvil or other resilient surface, tongs, a forge
+
+[Crafting](#crafting)
+| Product                              | Time per die | Materials                              | Quality Bonus   |
+| ------------------------------------ | ------------ | -------------------------------------- | --------------- | 
+| A large item, such as a handheld tool               | 3 days | Any shapeable metal; (Wood). | / |
+| Several smaller items, such as nails or arrow-heads | 1 day  | Any shapeable metal. | / |
 
 #### Bow-Making (Agi)
 The ability to craft bows and crossbows. 
 
+Tools: a carving knife
+
+[Crafting](#crafting)
+| Product                              | Time per die | Materials                              | Quality Bonus   |
+| ------------------------------------ | ------------ | -------------------------------------- | --------------- | 
+| Bow                                  | 2 days       | A piece of sturdy and flexible wood; A piece of string or sinew. | Every 3 **positives**: +1 **Piercing** |
+| Crossbow                             | 1 week       | Sturdy pieces of wood; Metal arms; a piece of string or sinew. | Every 3 **positives**: +1 **Piercing** |
+
 #### Carpentry (Agi)
 The ability to shape wood to craft predominantly wooden things. 
+
+Tools: an axe, a wood plane, a hand drill, a workbench
+
+[Crafting](#crafting)
+| Product                              | Time per die | Materials                              | Quality Bonus   |
+| ------------------------------------ | ------------ | -------------------------------------- | --------------- | 
+| A small piece of furniture           | 3 days       | Wood                                   | / |
+| A large piece of furniture           | 6 days       | Wood                                   | / |
 
 #### Clothesmaking (Agi)
 The ability to make comfortable, well-fitting and decorated clothes. 
 
+Tools: scissors, needles, yarn, thread
+
+[Crafting](#crafting)
+| Product                              | Time per die | Materials                              | Quality Bonus   |
+| ------------------------------------ | ------------ | -------------------------------------- | --------------- | 
+| A piece of clothing                  | 2 days       | Cloth                                  | / |
+
 #### Cooking (Emp)
 The ability to cook well. Poor cooks are prone to losing ingredients due to burning them or overcooking them to the point of inedibility. 
+
+Tools: cooking utensils, a pot or pan, a fire place
+
+[Crafting](#crafting)
+| Product                              | Time per die | Materials                              | Quality Bonus   |
+| ------------------------------------ | ------------ | -------------------------------------- | --------------- | 
+| A meal for a few people              | 5 minutes    | Foodstuffs                             | / |
+| A meal for many people               | 15 minutes   | Plenty of foodstuffs                   | / |
 
 #### Engineering (Int)
 The ability to plan and construct complex mechanisms and devices. 
 
-#### Fishing (End)
-The ability to efficiently catch fish. 
+[Crafting](#crafting)
+| Product                              | Time per die | Materials                              | Quality Bonus   |
+| ------------------------------------ | ------------ | -------------------------------------- | --------------- | 
+| A simple mechanism                   | 3 days       | Any suitable material                  | / |
+| A complex mechanism                  | 6 days       | Any suitable material                  | / |
 
 #### Fletching (Agi)
 The ability to efficiently craft arrows, bolts and javelins. 
 
+Tools: a carving knife, a brush
+
+[Crafting](#crafting)
+| Product                              | Time per die | Materials                              | Quality Bonus   |
+| ------------------------------------ | ------------ | -------------------------------------- | --------------- | 
+| 5 Arrow shafts                       | 15 Minutes   | Wood; feathers; glue                   | / | 
+
+#### Glass-blowing (Agi)
+The ability to make objects from glass. 
+
+Tools: a fire place, a glass-blower, various shaping tools
+
+[Crafting](#crafting)
+| Product                              | Time per die | Materials                              | Quality Bonus   |
+| ------------------------------------ | ------------ | -------------------------------------- | --------------- | 
+| A small glass object                 | 20 Minutes   | Quartz; sand                           | / | 
+
+#### Goldsmithing (Agi)
+The ability to make jewelry from precious metals and stones. 
+
+Tools: hammers, tweezer, chisels, a workbench, magnifying glasses
+
+[Crafting](#crafting)
+| Product                              | Time per die | Materials                              | Quality Bonus   |
+| ------------------------------------ | ------------ | -------------------------------------- | --------------- | 
+| A small glass object                 | 20 Minutes   | Quartz; sand                           | / | 
+
 #### Leatherworking (Agi)
 The ability to create leather objects. 
 
+Tools: scissors, needles, hole punchers and a hammer
+
+[Crafting](#crafting)
+| Product                              | Time per die | Materials                              | Quality Bonus   |
+| ------------------------------------ | ------------ | -------------------------------------- | --------------- | 
+| 5 Small leather objects              | 15 Minutes   | A tanned hide                          | / | 
+| A large leather object               | 1 Hour       | A tanned hide                          | / | 
+
 #### Masonry (Str)
 The ability to shape stone to craft predominantly stone-based things. 
+
+Tools: a hammer and chisels of varying sizes
+
+[Crafting](#crafting)
+| Product                              | Time per die | Materials                              | Quality Bonus   |
+| ------------------------------------ | ------------ | -------------------------------------- | --------------- | 
+| A small stone-hewn object            | 1 Hour       | Stone                                  | / |
+| A large stone-hewn object            | 1 Day        | Stone                                  | / |
 
 #### Rune Carving (Arc)
 The ability to carve [magic runes](#runes).
 
 The level of this skill dictates the maximum intensity level of the respective magic the carved rune can hold. The number of **positives** achieved in a test then sets the actual level the rune will hold, but limited by the maximum. 
 
+Tools: a hammer and chisels of varying sizes, tongs, tweezer, a fine brush
+
+[Crafting](#crafting)
+| Product                              | Time per die | Materials                              | Quality Bonus   |
+| ------------------------------------ | ------------ | -------------------------------------- | --------------- | 
+| A magic rune                         | 10 Hours     | A blank rune; thin-leaf metal          | +1 [spell intensity level](#magic) |
+
+#### Tanning/Skinning (Agi)
+Taking the hide off a creature undamaged. 
+
+Tools: a knife, a scraping blade
+
+[Crafting](#crafting)
+| Product                              | Time per die | Materials                              | Quality Bonus   |
+| ------------------------------------ | ------------ | -------------------------------------- | --------------- | 
+| A small skin                         | 5 Minutes    | A skinnable creature                   | / |
+| A large skin                         | 15 Minutes   | A skinnable creature                   | / |
+| A tanned hide                        | 1 week       | A tannable skin                        | / |
+
 #### Weapon smithing (Str)
 The ability to make weapons from metal. 
+
+Tools: a hammer, an anvil or other resilient surface, tongs, a forge
+
+[Crafting](#crafting)
+| Product                              | Time per die | Materials                              | Quality Bonus   |
+| ------------------------------------ | ------------ | -------------------------------------- | --------------- | 
+| A weapon                             | 3 Days       | Any suitable metal, wood and/or similar material | / |
+
+#### Woodcarving (Agi)
+Creating small things from carved wood. 
+
+Tools: a carving knife
+
+[Crafting](#crafting)
+| Product                              | Time per die | Materials                              | Quality Bonus   |
+| ------------------------------------ | ------------ | -------------------------------------- | --------------- | 
+| A small wood-carved object           | 15 Minutes   | Wood                                   | / |
 
 ## List of Magic Schools
 The capabilities of the various magic schools are described by the **skill abilities** associated with each of them. The concrete effects are kept vague on purpose, to allow a certain freedom when choosing how the magic is expressed. But the intensity or strength of a casting is tied to the level of the [magic school skill](#magic-school--school---attribute-). 
@@ -1910,12 +2145,12 @@ Weapons can have the following **properties**:
 * **Long Reach**: Allows attacking a target two squares (6'/2m) away. 
 * **Very long Reach**: Allows attacking a target three squares (9'/3m) away. 
 * **Range Only**: Implies a weapon cannot be used against any targets adjacent to self. 
-* **Prefer Range**: +2 **Ob** to using the weapon against an adjacent target. 
-* **Amberite-Lined**: **+1D4** damage to magical creatures and mages. 
-* **Amberite-Plated**: **+2D4** damage to magical creatures and mages. 
-* **Ambersteel-Lined**: **+1D8** damage to magical creatures and mages. 
-* **Ambersteel-Plated**: **+2D8** damage to magical creatures and mages. 
-* **Ambersteel-Forged**: **+3D8** damage to magical creatures and mages. 
+* **Prefer Range**: +2 **Ob** to using the weapon against an adjacent target.
+* **Ambersteel-Lined**: Bonus damage against mages and magical creatures: **+1** for every quality level. **+1D4** for every two **quality levels**, starting at level 1.
+* **Ambersteel-Plated**: Bonus damage against mages and magical creatures: **+1** for every quality level. **+1D6** for every two **quality levels**, starting at level 1.
+* **Ambersteel-Forged**: Bonus damage against mages and magical creatures: **+2** for every quality level. **+1D8** for every two **quality levels**, starting at level 1.
+
+> An ambersteel-lined weapon at quality level 3 would have +(3 + 2D4) damage against mages and magical creatures. 
 
 ## Weapon Types
 Weapons can have the following **effects**:
@@ -2154,11 +2389,11 @@ A very deadly short to medium distance ranged weapon, shooting musket balls that
 
 ## Armor Properties
 Armor can have the following **properties**:
-* **Amberite-Lined**: **+1D4** reduction of magical efficacy when used against the wearer/bearer. 
-* **Amberite-Plated**: **+2D4** reduction of magical efficacy when used against the wearer/bearer. 
-* **Ambersteel-Lined**: **+1D8** reduction of magical efficacy when used against the wearer/bearer. 
-* **Ambersteel-Plated**: **+3D8** reduction of magical efficacy when used against the wearer/bearer. 
-* **Ambersteel-Forged**: **+6D8** reduction of magical efficacy when used against the wearer/bearer. 
+* **Ambersteel-Lined**: Bonus protection from magic: **+1** for every quality level. **+1D4** for every two **quality levels**, starting at level 1.
+* **Ambersteel-Plated**: Bonus protection from magic: **+1** for every quality level. **+1D6** for every two **quality levels**, starting at level 1.
+* **Ambersteel-Forged**: Bonus protection from magic: **+2** for every quality level. **+1D8** for every two **quality levels**, starting at level 1.
+
+> An ambersteel-lined armor at quality level 3 would have +(3 + 2D4) protection from magic. 
 
 ## Armor Types
 Armor reduces damage to its wearer by a flat amount. By how much, is specific to each armor type. Some armors can have special protections or effects. 
