@@ -106,6 +106,7 @@
 - [Spending Time](#spending-time)
   - [Travel](#travel)
   - [Crafting](#crafting)
+    - [Crafting Time Chart](#crafting-time-chart)
   - [Trade](#trade)
     - [Seller's Chart](#sellers-chart)
     - [Buyer's Chart](#buyers-chart)
@@ -1262,6 +1263,16 @@ Also keep in mind that to craft anything, you must have the materials required. 
 Depending on how easy to acquire the materials are, you may act on a more abstract level and "go shopping", simply spending the time and money required up front, without turning it into a scene or adventure of its own, that must be played out. Of course, the more difficult to acquire materials may require you to *actually* go and find them. 
 
 > For example, a **PC** might have decided they want to create an elaborately decorated piece of furniture, with bands of gold and colored glass inlays. Even though the [carpentry](#carpentry-agi) skill does not list gold as a material for its product, the **PC** should have to procure the gold, if they are to finish their piece of furniture. 
+
+### Crafting Time Chart
+The following matrix denotes the time that work will take, based on its inherent complexity and workload. 
+
+| **Complexity >** <br> **Workload v** | **Low** | **Moderate** | **High** | **Very High** | 
+| ------------- | ---------- | ---------- | ---------- | ---------- | 
+| **Low**       | 5 Minutes  | 15 Minutes | 1 Hour     | 1 Week     | 
+| **Moderate**  | 10 Minutes | 1 Hour     | 1 Day      | 2 Weeks    | 
+| **High**      | 30 Minutes | 12 Hours   | 3 Days     | 3 Weeks    | 
+| **Very High** | 1 Hour     | 1 Day      | 1 Week     | 1 Month    | 
 
 ## Trade
 Selling and buying things can take a surprising amount of time. If prices are too high and demand or reputation too low, chances are, you won't be able to sell your goods. But even when people do show interest in your wares, you still have to *sell it* to them. An uncharismatic merchant will have a difficult time making a pretty profit, regardless of the quality of their goods. On the other hand, buying things may prove equally difficult, when what you're looking for isn't really available. 
