@@ -107,6 +107,8 @@
   - [Travel](#travel)
   - [Crafting](#crafting)
   - [Trade](#trade)
+    - [Seller's Chart](#sellers-chart)
+    - [Buyer's Chart](#buyers-chart)
   - [Recovery](#recovery)
   - [Training](#training)
 - [Combat](#combat)
@@ -1270,13 +1272,31 @@ The number of dice in play for a [graduated test](#graduated-test) of this skill
 
 It is possible to roll with fewer dice, than would be available for the [graduated test](#graduated-test). [Forked skills](#skill-forking) can also provide a die each, but note that *every* die, including those from [forked skills](#skill-forking), increase the time required. The number of **positives** and **negatives** achieved has no effect on the time taken. Merely the *number* of dice that were rolled matters. 
 
-The following matrix provides an overview of how long it may take to trade. Note that the **GM** has the final say on how long it will actually take. 
-| Supply > <br> Demand v | Very High | High | Moderate | Low | 
+### Seller's Chart
+The following matrix provides an overview of how long it may take to sell things on the market. Note that the **GM** has the final say on how long it will actually take and on how difficult it will be. 
+
+Denoted are both the time it takes to get a chance at a [mercantilism](#mercantilism-ora) [test](#tests), what the **Ob** threshold is and what margins can be expected. The margins are relative to the goods' *listing price* or *normal* value. 200% means the goods can be sold at twice what they're worth. 
+
+| **Supply >** <br> **Demand v** | **Very High** | **High** | **Moderate** | **Low** | 
 | ------------- | --------- | --------- | --------- | --------- |
-| **Low**       | 4 Days | 3 Days | 2 Days | 1 Day | 
-| **Moderate**  | 1 Day  | 20 Hours | 16 Hours | 14 Hours | 
-| **High**      | 12 Hours | 10 Hours | 8 Hours | 6 Hours | 
-| **Very High** | 4 Hours | 2 Hours | 1 Hour | 30 Minutes | 
+| **Low**       | 4 Days <br> Ob 6 <br>  50%   | 3 Days <br> Ob 5 <br>  60%   | 2 Days <br> Ob 4 <br>  70%   | 1 Day <br> Ob 3 <br>  80%      | 
+| **Moderate**  | 1 Day <br> Ob 5 <br>  80%    | 20 Hours <br> Ob 4 <br>  90% | 16 Hours <br> Ob 3 <br> 100% | 14 Hours <br> Ob 2 <br> 110%   | 
+| **High**      | 12 Hours <br> Ob 4 <br> 110% | 10 Hours <br> Ob 3 <br> 120% | 8 Hours <br> Ob 2 <br> 130%  | 6 Hours <br> Ob 1 <br> 140%    | 
+| **Very High** | 4 Hours <br> Ob 3 <br> 140%  | 2 Hours <br> Ob 2 <br> 160%  | 1 Hour <br> Ob 1 <br> 180%   | 30 Minutes <br> Ob 0 <br> 200% | 
+
+### Buyer's Chart
+The following matrix provides an overview of how long it may take to buy things on the market. Note that the **GM** has the final say on how long it will actually take and on how difficult it will be. 
+
+Denoted are both the time it takes to get a chance at a [mercantilism](#mercantilism-ora) [test](#tests), what the **Ob** threshold is and what price inflation can be expected. The prices are relative to the goods' *listing price* or *normal* value. 200% means the goods must be bought at twice what they're worth. 
+
+The supply is assumed to be relative to the demand. The more something is in demand, the more likely it is to be kept in stock and by more merchants, which makes it easier to find, even if there are more other buyers to compete with. 
+
+| **Supply >** <br> **Demand v** | **Very High** | **High** | **Moderate** | **Low** | 
+| ------------- | --------- | --------- | --------- | --------- |
+| **Low**       | 1 Day <br> Ob 0 <br>  50%      | 2 Days <br> Ob 1 <br>  60%   | 3 Days <br> Ob 2 <br>  70%    | 4 Days <br> Ob 3 <br>  80%   | 
+| **Moderate**  | 14 Hours <br> Ob 1 <br>  80%   | 16 Hours <br> Ob 2 <br>  90% | 20 Hours <br> Ob 3 <br> 100%  | 1 Day <br> Ob 4 <br> 110%    | 
+| **High**      | 6 Days <br> Ob 2 <br> 110%     | 8 Hours <br> Ob 3 <br> 120%  | 10 Hours <br> Ob 4 <br> 130%  | 12 Hours <br> Ob 5 <br> 140% | 
+| **Very High** | 30 Minutes <br> Ob 3 <br> 140% | 1 Hour  <br> Ob 4 <br> 160%  | 2 Hours <br> Ob 5 <br> 180%   | 4 Hours <br> Ob 6 <br> 200%  | 
 
 ## Recovery
 When [injured](#injury), a character should prepare to spend away from adventure for a while. Since the process of healing up can take several weeks, this time is best handled abstractly and the other **PC**s can spend the same time, going about their business during some time-off from adventure. 
