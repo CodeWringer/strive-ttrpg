@@ -1265,7 +1265,7 @@ Depending on how easy to acquire the materials are, you may act on a more abstra
 > For example, a **PC** might have decided they want to create an elaborately decorated piece of furniture, with bands of gold and colored glass inlays. Even though the [carpentry](#carpentry-agi) skill does not list gold as a material for its product, the **PC** should have to procure the gold, if they are to finish their piece of furniture. 
 
 ### Crafting Time Chart
-The following matrix denotes the time that work will take, based on its inherent complexity and workload. 
+The following matrix denotes the time that work will take, based on its inherent *complexity* and *workload*. 
 
 | **Complexity >** <br> **Workload v** | **Low** | **Moderate** | **High** | **Very High** | 
 | ------------- | ---------- | ---------- | ---------- | ---------- | 
@@ -1273,6 +1273,10 @@ The following matrix denotes the time that work will take, based on its inherent
 | **Moderate**  | 10 Minutes | 1 Hour     | 1 Day      | 2 Weeks    | 
 | **High**      | 30 Minutes | 12 Hours   | 3 Days     | 3 Weeks    | 
 | **Very High** | 1 Hour     | 1 Day      | 1 Week     | 1 Month    | 
+
+A **very high** complexity requires the work to be done in a highly specialized environment, with equally specialized tools. The other end of the spectrum is a **low** complexity, which describes work that can be done practically anywhere - even on the road - and with any tool at least somewhat fit for the job. 
+
+Workload is the result of processes that naturally take a long time, the difficulty in processing materials and the amount of work that has to be done. A **very high** workload will take months to complete, while a **low** workload may be finished in a matter of minutes. 
 
 ## Trade
 Selling and buying things can take a surprising amount of time. If prices are too high and demand or reputation too low, chances are, you won't be able to sell your goods. But even when people do show interest in your wares, you still have to *sell it* to them. An uncharismatic merchant will have a difficult time making a pretty profit, regardless of the quality of their goods. On the other hand, buying things may prove equally difficult, when what you're looking for isn't really available. 
@@ -1797,18 +1801,18 @@ All craftsmanship requires a mix of physical and mental attributes, for the purp
 #### Artistry (Emp)
 The ability to paint and draw well, as well as a general sense of aesthetics. 
 
-| Product                              | Time per die | Materials                              | Quality Bonus   |
-| ------------------------------------ | ------------ | -------------------------------------- | --------------- | 
-| 1 painting or sculpture. | 1 day | Any paintable or shapeable object, such as a canvas or chunk of marble. | / |
+| Product                              | Complexity | Workload  | Materials                              | Quality Bonus   |
+| ------------------------------------ | ---------- | --------- | -------------------------------------- | --------------- | 
+| 1 painting or sculpture.             | Moderate   | Moderate  | Any paintable or shapeable object, such as a canvas or chunk of marble. | / |
 
 #### Armor smithing (Str)
 The ability to make armor from conventional materials, such as metal and leather. 
 
-| Product                              | Time per die | Materials                              | Quality Bonus   |
-| ------------------------------------ | ------------ | -------------------------------------- | --------------- | 
-| 1 [light armor](#light-armor) | 2 weeks | Any shapeable sturdy and flexible material, such as iron, steel, leather or chitin. | Every **positive**: +1 **Slashing**; Every 2 **positives**: +1 **Bludgeoning**; Every 3 **positives**: +1 **Crushing**, +1 **Piercing** |
-| 1 [medium armor](#medium-armor) | 3 weeks | Any shapeable sturdy and flexible material, such as iron, steel, leather or chitin. | Every **positive**: +1 **Slashing**; Every 2 **positives**: +1 **Bludgeoning**; Every 3 **positives**: +1 **Crushing**, +1 **Piercing** |
-| 1 [heavy armor](#heavy-armor) | 4 weeks | Any shapeable sturdy and flexible material, such as iron, steel, leather or chitin. | Every **positive**: +1 **Slashing**; Every 2 **positives**: +1 **Bludgeoning**; Every 3 **positives**: +1 **Crushing**, +1 **Piercing** |
+| Product                              | Complexity | Workload  | Materials                              | Quality Bonus   |
+| ------------------------------------ | ---------- | --------- | -------------------------------------- | --------------- | 
+| 1 [light armor](#light-armor)        | High       | High      | Any shapeable sturdy and flexible material, such as iron, steel, leather or chitin. | Every **positive**: +1 **Slashing**; Every 2 **positives**: +1 **Bludgeoning**; Every 3 **positives**: +1 **Crushing**, +1 **Piercing** |
+| 1 [medium armor](#medium-armor)      | High       | Very High | Any shapeable sturdy and flexible material, such as iron, steel, leather or chitin. | Every **positive**: +1 **Slashing**; Every 2 **positives**: +1 **Bludgeoning**; Every 3 **positives**: +1 **Crushing**, +1 **Piercing** |
+| 1 [heavy armor](#heavy-armor)        | High       | Very High | Any shapeable sturdy and flexible material, such as iron, steel, leather or chitin. | Every **positive**: +1 **Slashing**; Every 2 **positives**: +1 **Bludgeoning**; Every 3 **positives**: +1 **Crushing**, +1 **Piercing** |
 
 #### Ambersmithing (Agi)
 The ability to make armor from [amberite](#amberite). 
@@ -1818,14 +1822,14 @@ Lining or plating an existing object with [ambersteel](#amberite) acts as an imp
 The product effects do not stack, but they can be overridden. This means that the same object cannot be lined with [ambersteel](#amberite) twice, for cumulative effects. But it can be upgraded to [ambersteel](#amberite)-plated. 
 
 [Crafting](#crafting)
-| Product                              | Time per die | **Ob** | Materials                              | Quality Bonus   |
-| ------------------------------------ | ------------ | ------ | -------------------------------------- | --------------- | 
-| Ambersteel-lined weapon              | 3 weeks      | 2      | [Amberite](#amberite); A weapon        | Bonus damage against mages and magical creatures: **+1** for every quality level. **+1D4** for every two **quality levels**, starting at level 1. |
-| Ambersteel-plated weapon             | 4 weeks      | 3      | [Amberite](#amberite); A weapon        | Bonus damage against mages and magical creatures: **+1** for every quality level. **+1D6** for every two **quality levels**, starting at level 1. |
-| Ambersteel-forged weapon             | 5 weeks      | 5      | [Amberite](#amberite)                  | Bonus damage against mages and magical creatures: **+2** for every quality level. **+1D8** for every two **quality levels**, starting at level 1. |
-| Ambersteel-lined armor               | 5 weeks      | 2      | [Amberite](#amberite); A set of armor  | Bonus protection from magic: **+1** for every quality level. **+1D4** for every two **quality levels**, starting at level 1. |
-| Ambersteel-plated armor              | 6 weeks      | 3      | [Amberite](#amberite); A set of armor  | Bonus protection from magic: **+1** for every quality level. **+1D6** for every two **quality levels**, starting at level 1. |
-| Ambersteel-forged armor              | 8 weeks      | 5      | [Amberite](#amberite)                  | Bonus protection from magic: **+2** for every quality level. **+1D8** for every two **quality levels**, starting at level 1. |
+| Product                              | Complexity | Workload  | **Ob** | Materials                              | Quality Bonus   |
+| ------------------------------------ | ---------- | --------- | ------ | -------------------------------------- | --------------- | 
+| Ambersteel-lined weapon              | High       | High      | [Amberite](#amberite); A weapon        | Bonus damage against mages and magical creatures: **+1** for every quality level. **+1D4** for every two **quality levels**, starting at level 1. |
+| Ambersteel-plated weapon             | High       | High      | [Amberite](#amberite); A weapon        | Bonus damage against mages and magical creatures: **+1** for every quality level. **+1D6** for every two **quality levels**, starting at level 1. |
+| Ambersteel-forged weapon             | Very High  | Very High | [Amberite](#amberite)                  | Bonus damage against mages and magical creatures: **+2** for every quality level. **+1D8** for every two **quality levels**, starting at level 1. |
+| Ambersteel-lined armor               | High       | High      | [Amberite](#amberite); A set of armor  | Bonus protection from magic: **+1** for every quality level. **+1D4** for every two **quality levels**, starting at level 1. |
+| Ambersteel-plated armor              | High       | High      | [Amberite](#amberite); A set of armor  | Bonus protection from magic: **+1** for every quality level. **+1D6** for every two **quality levels**, starting at level 1. |
+| Ambersteel-forged armor              | Very High  | Very High | [Amberite](#amberite)                  | Bonus protection from magic: **+2** for every quality level. **+1D8** for every two **quality levels**, starting at level 1. |
 
 > An ambersteel-lined weapon at quality level 3 would have +(3 + 2D4) damage against mages and magical creatures. 
 
@@ -1837,10 +1841,10 @@ The ability to brew alchemical potions, create powders, mixtures and other subst
 Tools: a distillery, mortar and pestle, a fire place
 
 [Crafting](#crafting)
-| Product                              | Time per die | Materials                              | Quality Bonus   |
-| ------------------------------------ | ------------ | -------------------------------------- | --------------- | 
-| A simple alchemical concoction (potion or powder) | 1 Day | Small containers, minerals, metals, herbs and water. | / |
-| A complex alchemical concoction (potion or powder) | 3 Days | Small containers, minerals, metals, herbs and water. | / |
+| Product                              | Complexity | Workload  | Materials                              | Quality Bonus   |
+| ------------------------------------ | ---------- | --------- | -------------------------------------- | --------------- | 
+| A simple alchemical concoction (potion or powder)  | Moderate  | Moderate | Small containers, minerals, metals, herbs and water. | / |
+| A complex alchemical concoction (potion or powder) | Very High | High     | Small containers, minerals, metals, herbs and water. | / |
 
 #### Brewing (Wis)
 The brewing of alcoholic beverages. 
@@ -1848,9 +1852,9 @@ The brewing of alcoholic beverages.
 Tools: a fire place, a distillery
 
 [Crafting](#crafting)
-| Product                              | Time per die | Materials                              | Quality Bonus   |
-| ------------------------------------ | ------------ | -------------------------------------- | --------------- | 
-| A small keg worth of alcohol         | 3 days       | Any closeable container; Any fermentable fruit or distillable plant matter. | / |
+| Product                              | Complexity | Workload  | Materials                              | Quality Bonus   |
+| ------------------------------------ | ---------- | --------- | -------------------------------------- | --------------- | 
+| A small keg worth of alcohol         | Moderate   | Very High | Any closeable container; Any fermentable fruit or distillable plant matter. | / |
 
 #### Blacksmithing (Str)
 The ability to create every-day items from metal. 
@@ -1858,10 +1862,10 @@ The ability to create every-day items from metal.
 Tools: a hammer, an anvil or other resilient surface, tongs, a forge
 
 [Crafting](#crafting)
-| Product                              | Time per die | Materials                              | Quality Bonus   |
-| ------------------------------------ | ------------ | -------------------------------------- | --------------- | 
-| A large item, such as a handheld tool               | 3 days | Any shapeable metal; (Wood). | / |
-| Several smaller items, such as nails or arrow-heads | 1 day  | Any shapeable metal. | / |
+| Product                              | Complexity | Workload  | Materials                              | Quality Bonus   |
+| ------------------------------------ | ---------- | --------- | -------------------------------------- | --------------- | 
+| A large item, such as a handheld tool               | Moderate | High     | Any shapeable metal; (Wood). | / |
+| Several smaller items, such as nails or arrow-heads | Moderate | Moderate | Any shapeable metal. | / |
 
 #### Bow-Making (Agi)
 The ability to craft bows and crossbows. 
@@ -1869,10 +1873,10 @@ The ability to craft bows and crossbows.
 Tools: a carving knife
 
 [Crafting](#crafting)
-| Product                              | Time per die | Materials                              | Quality Bonus   |
-| ------------------------------------ | ------------ | -------------------------------------- | --------------- | 
-| Bow                                  | 2 days       | A piece of sturdy and flexible wood; A piece of string or sinew. | Every 3 **positives**: +1 **Piercing** |
-| Crossbow                             | 1 week       | Sturdy pieces of wood; Metal arms; a piece of string or sinew. | Every 3 **positives**: +1 **Piercing** |
+| Product                              | Complexity | Workload  | Materials                              | Quality Bonus   |
+| ------------------------------------ | ---------- | --------- | -------------------------------------- | --------------- | 
+| Bow                                  | Low        | Moderate  | A piece of sturdy and flexible wood; A piece of string or sinew. | Every 3 **positives**: +1 **Piercing** |
+| Crossbow                             | High       | High      | Sturdy pieces of wood; Metal arms; a piece of string or sinew. | Every 3 **positives**: +1 **Piercing** |
 
 #### Carpentry (Agi)
 The ability to shape wood to craft predominantly wooden things. 
@@ -1880,10 +1884,10 @@ The ability to shape wood to craft predominantly wooden things.
 Tools: an axe, a wood plane, a hand drill, a workbench
 
 [Crafting](#crafting)
-| Product                              | Time per die | Materials                              | Quality Bonus   |
-| ------------------------------------ | ------------ | -------------------------------------- | --------------- | 
-| A small piece of furniture           | 3 days       | Wood                                   | / |
-| A large piece of furniture           | 6 days       | Wood                                   | / |
+| Product                              | Complexity | Workload  | Materials                              | Quality Bonus   |
+| ------------------------------------ | ---------- | --------- | -------------------------------------- | --------------- | 
+| A small piece of furniture           | Moderate   | Moderate  | Wood                                   | / |
+| A large piece of furniture           | Moderate   | High      | Wood                                   | / |
 
 #### Clothesmaking (Agi)
 The ability to make comfortable, well-fitting and decorated clothes. 
@@ -1891,9 +1895,9 @@ The ability to make comfortable, well-fitting and decorated clothes.
 Tools: scissors, needles, yarn, thread
 
 [Crafting](#crafting)
-| Product                              | Time per die | Materials                              | Quality Bonus   |
-| ------------------------------------ | ------------ | -------------------------------------- | --------------- | 
-| A piece of clothing                  | 2 days       | Cloth                                  | / |
+| Product                              | Complexity | Workload  | Materials                              | Quality Bonus   |
+| ------------------------------------ | ---------- | --------- | -------------------------------------- | --------------- | 
+| A piece of clothing                  | Moderate   | Moderate  | Cloth                                  | / |
 
 #### Cooking (Emp)
 The ability to cook well. Poor cooks are prone to losing ingredients due to burning them or overcooking them to the point of inedibility. 
@@ -1901,19 +1905,19 @@ The ability to cook well. Poor cooks are prone to losing ingredients due to burn
 Tools: cooking utensils, a pot or pan, a fire place
 
 [Crafting](#crafting)
-| Product                              | Time per die | Materials                              | Quality Bonus   |
-| ------------------------------------ | ------------ | -------------------------------------- | --------------- | 
-| A meal for a few people              | 5 minutes    | Foodstuffs                             | / |
-| A meal for many people               | 15 minutes   | Plenty of foodstuffs                   | / |
+| Product                              | Complexity | Workload  | Materials                              | Quality Bonus   |
+| ------------------------------------ | ---------- | --------- | -------------------------------------- | --------------- | 
+| A meal for a few people              | Low        | Low       | Foodstuffs                             | / |
+| A meal for many people               | Moderate   | Moderate  | Plenty of foodstuffs                   | / |
 
 #### Engineering (Int)
 The ability to plan and construct complex mechanisms and devices. 
 
 [Crafting](#crafting)
-| Product                              | Time per die | Materials                              | Quality Bonus   |
-| ------------------------------------ | ------------ | -------------------------------------- | --------------- | 
-| A simple mechanism                   | 3 days       | Any suitable material                  | / |
-| A complex mechanism                  | 6 days       | Any suitable material                  | / |
+| Product                              | Complexity | Workload  | Materials                              | Quality Bonus   |
+| ------------------------------------ | ---------- | --------- | -------------------------------------- | --------------- | 
+| A simple mechanism                   | High       | Low       | Any suitable material                  | / |
+| A complex mechanism                  | High       | Moderate  | Any suitable material                  | / |
 
 #### Fletching (Agi)
 The ability to efficiently craft arrows, bolts and javelins. 
@@ -1921,9 +1925,9 @@ The ability to efficiently craft arrows, bolts and javelins.
 Tools: a carving knife, a brush
 
 [Crafting](#crafting)
-| Product                              | Time per die | Materials                              | Quality Bonus   |
-| ------------------------------------ | ------------ | -------------------------------------- | --------------- | 
-| 5 Arrow shafts                       | 15 Minutes   | Wood; feathers; glue                   | / | 
+| Product                              | Complexity | Workload  | Materials                              | Quality Bonus   |
+| ------------------------------------ | ---------- | --------- | -------------------------------------- | --------------- | 
+| 5 Arrow shafts                       | Low        | Moderate  | Wood; feathers; glue                   | / | 
 
 #### Glass-blowing (Agi)
 The ability to make objects from glass. 
@@ -1931,9 +1935,9 @@ The ability to make objects from glass.
 Tools: a fire place, a glass-blower, various shaping tools
 
 [Crafting](#crafting)
-| Product                              | Time per die | Materials                              | Quality Bonus   |
-| ------------------------------------ | ------------ | -------------------------------------- | --------------- | 
-| A small glass object                 | 20 Minutes   | Quartz; sand                           | / | 
+| Product                              | Complexity | Workload  | Materials                              | Quality Bonus   |
+| ------------------------------------ | ---------- | --------- | -------------------------------------- | --------------- | 
+| A small glass object                 | High       | Moderate  | Quartz; sand                           | / | 
 
 #### Goldsmithing (Agi)
 The ability to make jewelry from precious metals and stones. 
@@ -1941,9 +1945,9 @@ The ability to make jewelry from precious metals and stones.
 Tools: hammers, tweezer, chisels, a workbench, magnifying glasses
 
 [Crafting](#crafting)
-| Product                              | Time per die | Materials                              | Quality Bonus   |
-| ------------------------------------ | ------------ | -------------------------------------- | --------------- | 
-| A small glass object                 | 20 Minutes   | Quartz; sand                           | / | 
+| Product                              | Complexity | Workload  | Materials                              | Quality Bonus   |
+| ------------------------------------ | ---------- | --------- | -------------------------------------- | --------------- | 
+| A small piece of jewelry             | High       | High      | Quartz; sand                           | / | 
 
 #### Leatherworking (Agi)
 The ability to create leather objects. 
@@ -1951,10 +1955,10 @@ The ability to create leather objects.
 Tools: scissors, needles, hole punchers and a hammer
 
 [Crafting](#crafting)
-| Product                              | Time per die | Materials                              | Quality Bonus   |
-| ------------------------------------ | ------------ | -------------------------------------- | --------------- | 
-| 5 Small leather objects              | 15 Minutes   | A tanned hide                          | / | 
-| A large leather object               | 1 Hour       | A tanned hide                          | / | 
+| Product                              | Complexity | Workload  | Materials                              | Quality Bonus   |
+| ------------------------------------ | ---------- | --------- | -------------------------------------- | --------------- | 
+| 5 Small leather objects              | Low        | Moderate  | A tanned hide                          | / | 
+| A large leather object               | Low        | Moderate  | A tanned hide                          | / | 
 
 #### Masonry (Str)
 The ability to shape stone to craft predominantly stone-based things. 
@@ -1962,10 +1966,10 @@ The ability to shape stone to craft predominantly stone-based things.
 Tools: a hammer and chisels of varying sizes
 
 [Crafting](#crafting)
-| Product                              | Time per die | Materials                              | Quality Bonus   |
-| ------------------------------------ | ------------ | -------------------------------------- | --------------- | 
-| A small stone-hewn object            | 1 Hour       | Stone                                  | / |
-| A large stone-hewn object            | 1 Day        | Stone                                  | / |
+| Product                              | Complexity | Workload  | Materials                              | Quality Bonus   |
+| ------------------------------------ | ---------- | --------- | -------------------------------------- | --------------- | 
+| A small stone-hewn object            | Low        | Very High | Stone                                  | / |
+| A large stone-hewn object            | Low        | Very High | Stone                                  | / |
 
 #### Rune Carving (Arc)
 The ability to carve [magic runes](#runes).
@@ -1975,9 +1979,10 @@ The level of this skill dictates the maximum intensity level of the respective m
 Tools: a hammer and chisels of varying sizes, tongs, tweezer, a fine brush
 
 [Crafting](#crafting)
-| Product                              | Time per die | Materials                              | Quality Bonus   |
-| ------------------------------------ | ------------ | -------------------------------------- | --------------- | 
-| A magic rune                         | 10 Hours     | A blank rune; thin-leaf metal          | +1 [spell intensity level](#magic) |
+| Product                              | Complexity | Workload  | Ob | Materials                              | Quality Bonus   |
+| ------------------------------------ | ---------- | --------- | -- | -------------------------------------- | --------------- | 
+| A blank rune                         | High       | Moderate  | /  | [Abyssalite](#abyssalite)              | / |
+| A magic rune                         | Very High  | High      | 2  | A blank rune; thin-leaf metal          | +1 [spell intensity level](#magic) |
 
 #### Tanning/Skinning (Agi)
 Taking the hide off a creature undamaged. 
@@ -1985,11 +1990,11 @@ Taking the hide off a creature undamaged.
 Tools: a knife, a scraping blade
 
 [Crafting](#crafting)
-| Product                              | Time per die | Materials                              | Quality Bonus   |
-| ------------------------------------ | ------------ | -------------------------------------- | --------------- | 
-| A small skin                         | 5 Minutes    | A skinnable creature                   | / |
-| A large skin                         | 15 Minutes   | A skinnable creature                   | / |
-| A tanned hide                        | 1 week       | A tannable skin                        | / |
+| Product                              | Complexity | Workload  | Materials                              | Quality Bonus   |
+| ------------------------------------ | ---------- | --------- | -------------------------------------- | --------------- | 
+| A small skin                         | Low        | Low       | A skinnable creature                   | / |
+| A large skin                         | Moderate   | Moderate  | A skinnable creature                   | / |
+| A tanned hide                        | Moderate   | High      | A tannable skin                        | / |
 
 #### Weapon smithing (Str)
 The ability to make weapons from metal. 
@@ -1997,9 +2002,9 @@ The ability to make weapons from metal.
 Tools: a hammer, an anvil or other resilient surface, tongs, a forge
 
 [Crafting](#crafting)
-| Product                              | Time per die | Materials                              | Quality Bonus   |
-| ------------------------------------ | ------------ | -------------------------------------- | --------------- | 
-| A weapon                             | 3 Days       | Any suitable metal, wood and/or similar material | / |
+| Product                              | Complexity | Workload  | Materials                              | Quality Bonus   |
+| ------------------------------------ | ---------- | --------- | -------------------------------------- | --------------- | 
+| A weapon                             | High       | High      | Any suitable metal, wood and/or similar material | / |
 
 #### Woodcarving (Agi)
 Creating small things from carved wood. 
@@ -2007,9 +2012,10 @@ Creating small things from carved wood.
 Tools: a carving knife
 
 [Crafting](#crafting)
-| Product                              | Time per die | Materials                              | Quality Bonus   |
-| ------------------------------------ | ------------ | -------------------------------------- | --------------- | 
-| A small wood-carved object           | 15 Minutes   | Wood                                   | / |
+| Product                              | Complexity | Workload  | Materials                              | Quality Bonus   |
+| ------------------------------------ | ---------- | --------- | -------------------------------------- | --------------- | 
+| A small wood-carved object           | Low        | Moderate  | Wood                                   | / |
+| A large wood-carved object           | Low        | High      | Wood                                   | / |
 
 ## List of Magic Schools
 The capabilities of the various magic schools are described by the **skill abilities** associated with each of them. The concrete effects are kept vague on purpose, to allow a certain freedom when choosing how the magic is expressed. But the intensity or strength of a casting is tied to the level of the [magic school skill](#magic-school--school---attribute-). 
