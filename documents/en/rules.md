@@ -560,9 +560,7 @@ A **cycle** is 2 Months, regardless of attribute being practiced.
 ## Skills
 A **skill** is any acquired knowledge and experience regarding a specific subject. 
 
-The *modified* level of a **skill** dictates the base number of **D6** to roll for a [test](#tests) of that **skill**. 
-* Two values must be tracked for every **skill**: The *unmodified* and *modified* level. See [boons and penalties](#boons--penalties). 
-* **Skill** values typically range from 1 to 3 for basic knowledge. 4 and 5 represent a firm understanding, 6 and 7 represent excellence and 8 and above represents mastery. 
+Two values must be tracked for every **skill**: The *unmodified* and *modified* level. See [boons and penalties](#boons--penalties). The *modified* level of a **skill** dictates the base number of **D6** to roll for a [test](#tests) of that **skill**.
 
 When [testing](#tests) a **skill**, add half of the related [attribute](#attributes)'s value (rounded down) as an additional number of dice for the test. It is also possible to [fork](#skill-forking) **skills**, allowing even more dice to be used the test. 
 
