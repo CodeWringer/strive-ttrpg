@@ -35,6 +35,7 @@
     - [Advancing Attributes](#advancing-attributes)
       - [Practicing Attributes](#practicing-attributes)
   - [Skills](#skills)
+    - [Skill Abilities](#skill-abilities)
     - [Skill Forking](#skill-forking)
     - [Learning Skills](#learning-skills)
     - [Advancing Skills](#advancing-skills)
@@ -559,6 +560,13 @@ The *modified* level of a **skill** dictates the base number of **D6** to roll f
 When [testing](#tests) a **skill**, add half of the related [attribute](#attributes)'s value (rounded down) as an additional number of dice for the test. It is also possible to [fork](#skill-forking) **skills**, allowing even more dice to be used the test. 
 
 **Skills** [advance](#advancing-skills), as they're tested. It is also possible to [practice](#practicing-skills) and [teach](#teaching-skills) **skills**. 
+
+### Skill Abilities
+Some skills have a list of **skill abilities** that a character unlocks, if they reach a certain level in that **skill**. A **skill ability** has one or more effects and one or more conditions that restrict when they're applicable. As such, **skill abilities** are only available to characters with a certain degree of *specialization*. 
+
+A **skill ability** can be a *passive* [boon](#boons--penalties) or an *active* choice, like a special type of attack or tool for use in social conflict resolution. 
+
+Using a **skill ability** counts as an **action**. 
 
 ### Skill Forking
 For every **skill** a character knows (= is not currently still learning), and they are currently testing a **skill** that is thematically related, they can **fork** that **skill** into their test, granting them **+1D6** for their [test](#tests). 
