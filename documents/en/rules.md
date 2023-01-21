@@ -698,14 +698,15 @@ A **reaction** is an "if/then" and "always/never" statement, which can be be ben
 There are two types of **reactions**:
 * **Troublemaker**: A detrimental **reaction**, that will get the character in trouble.
   * A **troublemaker** allows earning [fate points](#fate-points). 
-  * *Trouble* is defined as any situation in which a mild conflict arises, from the **PC**'s **reaction**. This conflict does not have to be violent, mind you. It is entirely possible for a social conflict to arise, that is entirely non-violent. In fact, non-violent situations are preferred. But things can always escalate, of course.
+  * *Trouble* is defined as any situation in which a mild conflict arises, from the **PC**'s **reaction**. This conflict does not have to be violent, mind you. It should be preferable for a social conflict to arise, that is entirely non-violent. Things could always escalate, of course.
 * **Assurance**: A beneficial **reaction** that acts as *insurance*, that the character won't be caught by surprise. 
   * An **assurance** does not allow earning [fate points](#fate-points). 
-  * *Insurance* is defined as a behavior that allows entering a given situation under more favorable circumstances. An *insurance* can also help prevent or resolve a conflict. 
+  * *Insurance* is defined as a *behavior* that allows entering a given situation under more favorable circumstances. An *insurance* can also help prevent or resolve a conflict. 
+  * An **assurance** cannot alter the facts of the narrative. It **only** serves to give a **PC** an advantage in a situation that triggers this **reaction**. 
 
-> For example: "Whenever someone praises the state religion, I start ranting against it." - This is a **troublemaker**, as the **GM** can use it to cause the **PC** trouble, by presenting them with non player characters that praise the state religion while around the **PC**. 
+> For example: "Whenever someone praises the state religion, I start ranting against it." - This is a **troublemaker**, as the **GM** can use it to cause the **PC** trouble, by presenting them with non-player characters that praise the state religion while around the **PC**. 
 
-> Another example: "Whenever a violent fight breaks out, I have my weapons in hand!" - This is insurance, that even when the **PC** narratively might not have their weapons at the ready, they will, in fact, have them at the ready. 
+> Another example: "Whenever a violent fight breaks out, I have my weapons in hand!" - This is insurance, that even when the **PC** narratively might not have their weapons at the ready (for example, when sleeping), they will, in fact, have them at the ready. 
 
 **Reactions** are expected to change whenever a character (decides) to act against them. A **PC** cannot keep a **reaction** they keep contradicting. Players and the **GM** are expected to discuss at the end or beginning of a session, whether anyone should give up one of their **reactions**. 
 
