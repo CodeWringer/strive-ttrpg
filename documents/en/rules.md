@@ -760,7 +760,7 @@ Outside of combat, a successful [medicine](#medicine-int) test, requiring medica
 ### Injury
 An **injury** is a serious health impediment of a character. Every character has a maximum number of [injuries](#injury) they can endure. If they reach their maximum number of [injuries](#injury), the character dies. **PC**s are an exception, who instead arrive at [death's door](#deaths-door). 
 
-Whenever a character suffers an [injury](#injury), a **D100** must be rolled and the corresponding result from the [list of injuries](#list-of-injuries) added to the character. Depending on the type of damage and the situation in question, a different injury table may be rolled on, instead. Such as the [burn injuries](#list-of-burn-injuries). 
+Whenever a character suffers an [injury](#injury), a **D100** must be rolled and the corresponding result from the [list of injuries](#list-of-injuries) added to the character. Depending on the type of damage and the situation in question, a different injury table may be rolled on or a "flat" injury may be applied, instead. See also the [list of type specific injuries](#type-specific-injuries).
 
 For every **injury** incurred, a character's maximum **HP** is reduced by 2. 
 
