@@ -58,6 +58,7 @@
       - [Dazed](#dazed)
       - [Death's Door](#deaths-door)
       - [Dissolving](#dissolving)
+      - [Drug-Addicted](#drug-addicted)
       - [Electrified](#electrified)
       - [Frostbitten](#frostbitten)
       - [Grappled](#grappled)
@@ -151,6 +152,7 @@
         - [Round Shield](#round-shield)
         - [Heater Shield](#heater-shield)
         - [Kite Shield](#kite-shield)
+    - [List of Stuff \& Things](#list-of-stuff--things)
     - [Weapon Properties](#weapon-properties)
     - [Weapon Types](#weapon-types)
       - [Unarmed](#unarmed)
@@ -826,6 +828,13 @@ A character can be helped out of the **death's door** **state**, if all of their
 A **dissolving** character suffers **1D5** points of [HP](#health--exhaustion) damage at the end their every turn in combat or every 2 seconds outside of combat. 
 
 This **state** is removed automatically, if the character is freed of the acidic substance. 
+
+#### Drug-Addicted
+A **drug-addicted** character must take their drug once every 24 hours, or else enter **withdrawal**. 
+
+For every 24 hours that a character is in **withdrawal**, they suffer -1D to **all** tests. For every 12 hours that they are in **withdrawal** they have to pass a [willpower](#willpower-will) test at **Ob** 2, or else be forced to dedicate their every whole strength into acquiring and taking a new dose of the drug. 
+
+After 72 consecutive hours (= 3 full days) of having being in **withdrawal**, the character breaks free from their addiction, removing this **health state**.
 
 #### Electrified
 An **electrified** character suffers **-1D** for their every [test](#tests) requiring [agility](#agility-agi). That means [attributes](#attributes) and [skills](#skills). 
@@ -1656,6 +1665,17 @@ A large, kite-shaped shield, which can protect every part of the fighter, from t
 | --------------- |
 | +4 [melee defence](#melee-defence-agi).  |
 | +4 [ranged defence](#melee-defence-agi). |
+
+### List of Stuff & Things
+The following is a list of general assets. Of course, the following list is non-exhaustive. Invent more at your own need. 
+
+| Name                   | Max. Stack Size | Description                                                              |
+| ---------------------- | --------------- | ------------------------------------------------------------------------ |
+| Antidote               | 1    | This unassuming liquid can make the difference between life and death. When imbibed, removes all current points of [poison](#poisoned). |
+| Herbal Remedy Potion   | 1    | The sickly green tint and strong odor of the liquid within might not seem enticing, but its efficacy is well worth it. Upon imbibing, restores all currently missing [HP](#hit-points-hp) of a character. |
+| Laudanum Potion        | 1    | This wonderous substance can quell pain and calm nerves within seconds. Also effective against diarrhea. Upon imbibing, sets one **active** [injury](#injury) to **patched up**. After 24 hours, the [injury](#injury) is set back to **active**, even if it was **treated** in the meantime. Also, must succeed a [willpower](#willpower-will) test at **Ob** 2, or else become [addicted](#drug-addicted) to the stuff. |
+| Medical Supplies       | 2    | A small satchel of clean bandages, thread and needle for suturing, a clean and sharp knife, a splint and straps of leather. |
+| Calming Tea            | 1    | This herbal tea has the ability to calm nerves. Removes [berserk](#berserk), [jealous](#jealous) and [terrified](#terrified). Best enjoyed steaming hot, but not necessarily. |
 
 ### Weapon Properties
 Weapons can have the following **properties**:
