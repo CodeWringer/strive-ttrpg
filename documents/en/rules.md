@@ -45,6 +45,7 @@
     - [Beliefs](#beliefs)
     - [Reactions](#reactions)
   - [Health \& Exhaustion](#health--exhaustion)
+    - [Hit Points (HP)](#hit-points-hp)
     - [Injury](#injury)
       - [Injury States](#injury-states)
       - [Injury Exhaustion Threshold](#injury-exhaustion-threshold)
@@ -477,7 +478,7 @@ Governs a character's **strength** - the ability to lift, throw and break heavy 
 Also governs the [carrying capacity](#carrying-capacity) of a character. Each point in **strength** raises the [carrying capacity](#carrying-capacity) of the character by 3. 
 
 #### Toughness [Tough]
-Governs the [injury threshold](#injury) of a character. 
+Governs the [injury threshold](#injury) and chance to shrug off [bleeding](#bleeding) and [poison](#poisoned). 
 
 For every point in [toughness](#toughness-tough), a character gains **+4 maximum HP** and raises their [injury](#injury) limit by 1. 
 
@@ -709,15 +710,16 @@ There are two types of **reactions**:
 **Reactions** are expected to change whenever a character (decides) to act against them. A **PC** cannot keep a **reaction** they keep contradicting. Players and the **GM** are expected to discuss at the end or beginning of a session, whether anyone should give up one of their **reactions**. 
 
 ## Health & Exhaustion
-Every character has **Hit Points (HP)** and a maximum number of **injuries** they can endure, before they die. 
+Every character has **Hit Points (HP)** and a maximum number of **injuries** they can endure (= their **injury threshold**), before they die. 
 
-Whenever a character is hurt, the **damage** that has been inflicted upon them is deducted from their **HP**. Whenever their **HP** reach zero, they suffer an [injury](#injury) and their **maximum HP** is reduced by **2**. So, in other words, for every [injury](#injury), a character loses 2 maximum **HP**. 
+### Hit Points (HP)
+Whenever a character is hurt, the **damage** that has been inflicted upon them is deducted from their **HP**. Whenever their **HP** reach zero, they suffer an [injury](#injury) and their **maximum HP** is reduced by **2**. 
+
+So, in other words, for every [injury](#injury), a character loses 2 maximum **HP**. But even when [Toughness](#toughness-tough) is reduced by an [injury](#injury), still only 2 maximum **HP** are deducted. 
 
 Any **HP** damage past zero overflows. The additional damage dealt isn't lost. 
 
-Even when [Toughness](#toughness-tough) is reduced by an [injury](#injury), still only 2 maximum **HP** are deducted. 
-
-Outside of combat, a successful [medicine](#medicine-int) test can restore all currently missing **HP** of a character. 
+Outside of combat, a successful [medicine](#medicine-int) test, requiring medical supplies, can restore all currently missing **HP** of a character. Alternatively, [restoration magic](#restoration-emp) can achieve the same, without the need for medical supplies. 
 
 ### Injury
 An **injury** is a serious health impediment of a character. Every character has a maximum number of [injuries](#injury) they can endure. If they reach their maximum number of [injuries](#injury), the character dies. **PC**s are an exception, who instead arrive at [death's door](#deaths-door). 
@@ -750,9 +752,9 @@ An [injury](#injury) can be properly **treated** via [surgery](#surgery-int):
 All currently **treated** [injuries](#injury) can be removed/recovered from, by spending **4D4** weeks in uninterrupted, active recovery. Active recovery implies spending the vast majority of the day in bed or at least avoiding physical and mental strains. 
 
 #### Injury Exhaustion Threshold
-Once a character is brought to at least half their maximum number of [injuries](#injury) (rounded down), every time past that point that they suffer further damage and/or injury they must succeed a [toughness](#toughness-tough) test with their number of **injuries** as the **Ob**, or else suffer +1 [exhaustion](#exhaustion). This point in time is called the **injury exhaustion threshold**. 
+Once a character is brought to at least half their maximum number of [injuries](#injury) (rounded down), every time past that point that they suffer further damage and/or an **injury** they must succeed a [toughness](#toughness-tough) test with their number of **injuries** as the **Ob**, or else suffer +1 [exhaustion](#exhaustion). This point in time is called the **injury exhaustion threshold**. 
 
-> A character is injured in combat. They have an **injury** threshold of 3 and already suffered an injury earlier. Even though the earlier injury may have been **patched up** by now, the character's new injury brings them up to a total of 2 **injuries**. 
+> A character is injured in combat. They have an **injury threshold** of 3 and already suffered an **injury** earlier. Even though the earlier **injury** may have been **patched up** by now, the character's new **injury** brings them up to a total of 2 **injuries**. 
 > 
 > This means that they've gone past their **injury exhaustion threshold**. Now, they must succeed a [toughness](#toughness-tough) test at **Ob** 2, or else suffer +1 [exhaustion](#exhaustion). 
 
@@ -781,9 +783,15 @@ A **burning** character suffers 1 point of [HP](#health--exhaustion) damage at t
 This **state** can be incurred multiple times. While a character has this **state**, at every end of their turn during combat or every 2 seconds outside of combat, they automatically incur another point of **burning**! They must actively work to get rid of it, for example by dropping to the floor and rolling on the flames, dousing themselves in water and so forth. The point of **burning** is incurred *after* the damage from the previous points of **burning** is applied. 
 
 #### Bleeding
-A **bleeding** character suffers 1 point of [HP](#health--exhaustion) damage at the end their every turn in combat or every 2 seconds outside of combat. 
+A **bleeding** character suffers 1 point of [HP](#health--exhaustion) damage at the end their every turn in combat or every 5 seconds outside of combat. 
 
-This **state** can be incurred multiple times. A point of **bleeding** can be removed with [medicine](#medicine-int). [Restoration](#restoration-emp) magic can also remove one or more points of **bleeding** at a time. 
+This **state** can be incurred multiple times. 
+
+A point of **bleeding** can be removed with a successful [medicine](#medicine-int) test, requiring a bandage. [Restoration magic](#restoration-emp) can also remove one or more points of **bleeding** at a time. 
+
+At the end of every combat round of every 5 seconds outside of combat, a character can attempt to shrug off 1 point of **bleeding**, by succeeding a [toughness](#toughness-tough) [test](#tests), the **Ob** of which is their number of points of **bleeding**, times 2. 
+
+> A character with 2 points of **bleeding** must succeed a test at **Ob** 4, to shrug off 1 point of **bleeding**. 
 
 #### Dazed
 A **dazed** character begins their turn with -2 **AP** and can run at most only half the distance they normally could. In addition, they suffer a penalty of **-1D** to all tests. The number of dice for a test cannot be reduced to less than 1 by this penalty. 
@@ -811,7 +819,7 @@ This **state** is removed automatically, if the character is freed of the acidic
 #### Electrified
 An **electrified** character suffers **-1D** for their every [test](#tests) requiring [agility](#agility-agi). That means [attributes](#attributes) and [skills](#skills). 
 
-This **state** is removed automatically, at the end of the character's next turn in combat or after 4 seconds outside of combat. 
+This **state** is removed automatically, at the end of the character's next turn in combat or after 5 seconds outside of combat. 
 
 #### Frostbitten
 A **frostbitten** character suffers -1 [AP](#action-points-ap) during combat. 
@@ -841,9 +849,13 @@ Note, the character is not physically unable to cause harm, but they **really** 
 This **state** lasts until it is successfully [resisted](#resist-will) or the character is made [unconscious](#unconscious). 
 
 #### Poisoned
-A **poisoned** character suffers 1 points of [HP](#health--exhaustion) damage at the end their every turn in combat or every 2 seconds outside of combat. 
+A **poisoned** character suffers 1 points of [HP](#health--exhaustion) damage at the end their every turn in combat or every 5 seconds outside of combat. 
 
-This state can be incurred multiple times and can be removed with an antidote or with [restoration](#restoration-emp) magic.
+This state can be incurred multiple times and can be removed with an *antidote* or with [restoration magic](#restoration-emp).
+
+At the end of every combat round of every 5 seconds outside of combat, a character can attempt to shrug off 1 point of **poisoned**, by succeeding a [toughness](#toughness-tough) [test](#tests), the **Ob** of which is their number of points of **poisoned**, times 2. 
+
+> A character with 2 points of **poisoned** must succeed a test at **Ob** 4, to shrug off 1 point of **poisoned**. 
 
 #### Prone
 A character who is prone, is harder to hit with ranged attacks, but easier to hit with melee attacks, as they'll have a harder time defending. 
