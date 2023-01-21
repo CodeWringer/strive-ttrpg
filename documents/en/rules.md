@@ -1325,11 +1325,13 @@ Workload is the result of processes that naturally take a long time, the difficu
 ## Trade
 Selling and buying things can take a surprising amount of time. If prices are too high and demand or reputation too low, chances are, you won't be able to sell your goods. But even when people do show interest in your wares, you still have to *sell it* to them. An uncharismatic merchant will have a difficult time making a pretty profit, regardless of the quality of their goods. On the other hand, buying things may prove equally difficult, when what you're looking for isn't really available. 
 
-For trade, there is really only one [skill](#skills) - the [mercantilism](#mercantilism-ora) skill. Using this [skill](#skills) requires a [graduated test](#graduated-test) with and **Ob** threshold to be made. The **degree of success** factors into getting a better price.
+For trade, there is really only one [skill](#skills) - the [mercantilism](#mercantilism-ora) skill. Using this [skill](#skills) requires a [graduated test](#graduated-test) with an **Ob** threshold to be made. The **degree of success** factors into getting a better price.
 
 The number of dice in play for a [graduated test](#graduated-test) of this skill determine both the chance to successfully trade something and the time it takes to trade it. It is the **GM**'s duty to determine demand and supply of the thing being sold on the market, as well as how well known the **PC** is as a reputable trader. A low demand, coupled with a low reputation as a trader, should result in a high **Ob** for the test (such as a 4 or even 5). On the other hand, if demand is high, reputation might not matter much and result in a much lower **Ob**. 
 
 It is possible to roll with fewer dice, than would be available for the [graduated test](#graduated-test). [Forked skills](#skill-forking) can also provide a die each, but note that *every* die, including those from [forked skills](#skill-forking), increase the time required. The number of **positives** and **negatives** achieved has no effect on the time taken. Merely the *number* of dice that were rolled matters. 
+
+To get an ear on the ground and figure out what the local market is like, a character can spend 8 hours to walk around, talk to people, ask for prices of common goods and get a feel for the wealth of the local populace. 
 
 ### Seller's Chart
 The following matrix provides an overview of how long it may take to sell things on the market. Note that the **GM** has the final say on how long it will actually take and on how difficult it will be. 
