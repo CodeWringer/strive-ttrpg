@@ -1,10 +1,10 @@
 - [Introduction](#introduction)
 - [How to Play](#how-to-play)
-    - [Dice](#dice)
-    - [Before the Game](#before-the-game)
-    - [The Session](#the-session)
-      - [Intent \& Action](#intent--action)
-    - [After the Session](#after-the-session)
+  - [Dice](#dice)
+  - [Before the Game](#before-the-game)
+  - [The Session](#the-session)
+    - [Intent \& Action](#intent--action)
+  - [After the Session](#after-the-session)
   - [Tests](#tests)
     - [Types of Test](#types-of-test)
       - [Binary Test](#binary-test)
@@ -165,7 +165,7 @@
       - [Persuasion (Emp)](#persuasion-emp)
       - [Resist (Will)](#resist-will)
       - [Riding (Emp)](#riding-emp)
-    - [Knowledge](#knowledge)
+    - [Knowledge Skills](#knowledge-skills)
       - [Architecture (Int)](#architecture-int)
       - [Appraisal (Int)](#appraisal-int)
       - [Geography (Int)](#geography-int)
@@ -182,7 +182,7 @@
       - [Reading and Writing \< language \> (Int)](#reading-and-writing--language--int)
       - [Surgery (Int)](#surgery-int)
       - [Warfare (Wis)](#warfare-wis)
-    - [Craftsmanship](#craftsmanship)
+    - [Craftsmanship Skills](#craftsmanship-skills)
       - [Artistry (Emp)](#artistry-emp)
       - [Armor smithing (Str)](#armor-smithing-str)
       - [Ambersmithing (Agi)](#ambersmithing-agi)
@@ -280,7 +280,7 @@ As **Ambersteel** is a **roleplaying game**, there are certain rules and expecta
 
 In some places, where distances are concerned, both feet and meters are noted as units. What attentive readers will notice, is that the conversion between the numbers won't always be correct. This is a deliberate decision to make the math easier, whenever a grid (or *battlemap*) is used in play. One square on the grid should represent either a three foot, or one meter square. Furthermore, a single, ordinary human, should occupy an entire such square. 
 
-### Dice
+## Dice
 **Ambersteel** uses a **dice pool** system of **six-sided dice** (henceforth referred to as **D6**) to resolve [tests](#tests). *Dice pool* means a variable number of dice will be rolled, based on a character's [attributes](#attributes), [skills](#skills), boons and circumstance of the situation they're in. 
 
 The following types of dice come into play:
@@ -289,15 +289,15 @@ The following types of dice come into play:
 * **D6** - six-sided dice
 * **D10** (**D100**) - two ten-sided dice
 
-### Before the Game
+## Before the Game
 Before anyone can start to play, the players have to [create their characters](#character-creation). Ideally, this process should be done in cooperation with the **GM** and each other, to make sure the character concepts fit into the world and planned narrative. Also, it is advisable to design characters that will work well together, as a group. 
 
-### The Session
+## The Session
 This is the time, when the magic happens. The players and **GM** have come together and begin or continue the story. 
 
 [Fate points](#fate-points) cannot be awarded during play and neither can cards be bought from the [hand of fate](#hand-of-fate). However, players and the **GM** should take note of every situation they believe a **PC** (their own included) could have earned a [fate point](#fate-points).
 
-#### Intent & Action
+### Intent & Action
 The players drive the story and the action. They decide what their character will try to do and the **GM** will help them figure out if things will go as planned. 
 
 As a player, when deciding on what to do, make sure you state the **intent** of your action, like "I will make that person work for us!". 
@@ -306,7 +306,7 @@ Then, the **GM** will need to know *how* you aim to follow up on your intent. De
 
 Of course, how appropriate a certain [attribute](#attributes) or [skill](#skills) is for the resolution of a given situation, is ultimately up to the **GM** and the specifics of the situation itself. 
 
-### After the Session
+## After the Session
 After a playing session is done, the players and **GM** should stick around to discuss which players earned [fate points](#fate-points). This is where players are nominated for [fate points](#fate-points), by each other and by the **GM**. If everyone agrees, the [fate points](#fate-points) are awarded. Players can and should lobby for their [fate points](#fate-points), but shouldn't beg. If most everyone else says no, then that decision stands. That doesn't mean there is no point in discussing the matter further, but such a discussion shoulnd't be forced. 
 
 Also after the session, players and the **GM** discuss whether a **PC** should lose a [reaction](#reactions), because they have acted against it or haven't gotten to play it out at all. 
@@ -1725,7 +1725,7 @@ Riding and controling a mount.
 | ----- | -------------------- | -- | ------ | ------------------ | ------------ |
 | 3     | Mounted Charge       | 3  | 3      | Perform a mounted charge attack, dealing **2D3** extra damage of whatever weapon type you are using. | Mounted on a fast and strong animal; Must have enough distance to target to gain enough speed - refer to **GM**'s judgement. |
 
-### Knowledge
+### Knowledge Skills
 These skills have a dominant mental aspect and are strongly related to a character's *mental attributes*. 
 
 #### Architecture (Int)
@@ -1786,7 +1786,7 @@ The ability to understand and direct large-scale combat movements, the logistics
 
 This governs the understanding of what makes defensive structures effective and how to circumvent them. This entails a functional understanding of siege engines, but not their construction. 
 
-### Craftsmanship
+### Craftsmanship Skills
 All craftsmanship requires a mix of physical and mental attributes, for the purpose of creating a wide variety of things.
 
 #### Artistry (Emp)
