@@ -481,7 +481,7 @@ Governs a character's **strength** - the ability to lift, throw and break heavy 
 Also governs the [carrying capacity](#carrying-capacity) of a character. Each point in **strength** raises the [carrying capacity](#carrying-capacity) of the character by 3. 
 
 #### Toughness [Tough]
-Governs the [injury threshold](#injury) and chance to shrug off [bleeding](#bleeding) and [poison](#poisoned). 
+Governs the [injury limit](#injury) and chance to shrug off [bleeding](#bleeding) and [poison](#poisoned). 
 
 For every point in [toughness](#toughness-tough), a character gains **+4 maximum HP** and raises their [injury](#injury) limit by 1. 
 
@@ -721,7 +721,7 @@ There are two types of **reactions**:
 **Reactions** are expected to change whenever a character (decides) to act against them. A **PC** cannot keep a **reaction** they keep contradicting. Players and the **GM** are expected to discuss at the end or beginning of a session, whether anyone should give up one of their **reactions**. 
 
 ## Health & Exhaustion
-Every character has **Hit Points (HP)** and a maximum number of **injuries** they can endure (= their **injury threshold**), before they die. 
+Every character has **Hit Points (HP)** and a maximum number of **injuries** they can endure (= their **injury limit**), before they die. 
 
 ### Hit Points (HP)
 Whenever a character is hurt, the **damage** that has been inflicted upon them is deducted from their **HP**. Whenever their **HP** reach zero, they suffer an [injury](#injury) and their **maximum HP** is reduced by **2**. 
@@ -765,7 +765,7 @@ All currently **treated** [injuries](#injury) can be removed/recovered from, by 
 #### Injury Exhaustion Threshold
 Once a character is brought to at least half their maximum number of [injuries](#injury) (rounded down), every time past that point that they suffer further damage and/or an **injury** they must succeed a [toughness](#toughness-tough) test with their number of **injuries** as the **Ob**, or else suffer +1 [exhaustion](#exhaustion). This point in time is called the **injury exhaustion threshold**. 
 
-> A character is injured in combat. They have an **injury threshold** of 3 and already suffered an **injury** earlier. Even though the earlier **injury** may have been **patched up** by now, the character's new **injury** brings them up to a total of 2 **injuries**. 
+> A character is injured in combat. They have an **injury limit** of 3 and already suffered an **injury** earlier. Even though the earlier **injury** may have been **patched up** by now, the character's new **injury** brings them up to a total of 2 **injuries**. 
 > 
 > This means that they've gone past their **injury exhaustion threshold**. Now, they must succeed a [toughness](#toughness-tough) test at **Ob** 2, or else suffer +1 [exhaustion](#exhaustion). 
 
