@@ -80,7 +80,7 @@
     - [Worn \& Equipped](#worn--equipped)
     - [Luggage](#luggage)
       - [Carrying Capacity](#carrying-capacity)
-    - [Possessions](#possessions)
+    - [Property](#property)
   - [Character Creation](#character-creation)
     - [Determine Life Path](#determine-life-path)
       - [Origin](#origin)
@@ -968,7 +968,7 @@ All damage inflicted, is inflicted with a certain type of damage.
 ### Damage Resistances
 Some creatures can resist certain [types of damage](#damage-types) naturally, while others may cover themselves in armor to the same effect. 
 
-How much **damage** is resisted, depends on the specifics of the creature or character and their [equipment](#possessions--equipment). 
+How much **damage** is resisted, depends on the specifics of the creature or character and their [equipment](#worn--equipped). 
 
 ### Boons & Penalties
 Boons and penalties to the level of an [attribute](#attributes) or [skill](#skills) can be incurred from several different sources, such as [injuries](#injury), [illnesses](#illness), [mutations](#list-of-mutations), [scars](#scars) and [states](#state). Boons and penalties may be temporary or permanent, depending on their source. 
@@ -1023,12 +1023,12 @@ Up to 100 units of money can fit into one *slot*.
 
 It is up to the **GM** to decide on when something is *too heavy* to carry for the character in question. 
 
-### Possessions
+### Property
 Often times, characters will also own things that don't currently have on their person, or which they couldn't reasonably carry on person. 
 
-Things such as an owned plot of land, a house, money in the bank, equipment and tools left at home and so on, all count as **possessions**. Technically, it wouldn't be incorrect to consider things a character has on person as *possessions*, as well, but it would bloat up a character sheet unnecessarily to list those things twice. 
+Things such as an owned plot of land, a house, money in the bank, equipment and tools left at home and so on, all count as **property**. Technically, it wouldn't be incorrect to consider things a character has on person as **property**, as well, but it would bloat up a character sheet unnecessarily to list those things twice. 
 
-There is no limit for how many **possessions** a character can have. Except, perhaps, how many things they can keep safe from greedy hands. 
+There is no limit for how much **property** a character can have. Except, perhaps, how much they can keep safe from greedy hands. 
 
 ## Character Creation
 Imagine for the longest time of their life, your character has led an ordinary existence, until one day, something life-changing happened. Perhaps something terrible, perhaps something wonderful, but something significant that has forced them out of their comfort zone into a world full of adventure. 
@@ -1044,7 +1044,7 @@ The procedure of creating a character consists of the following steps:
 4. [Determine **ambition**, **beliefs** & **reactions**](#choosing-ambition-beliefs--reactions). 
 5. [Determine **attributes**](#choosing-attributes).
 6. [Determine **skills**](#choosing-skills).
-7. [Determine **carrying capacity** and **possessions**](#carrying-capactity--possessions).
+7. [Determine **carrying capacity** and **assets**](#determine-assets).
 8. [Determine **Max HP** and **Injury Maximum**](#determine-max-hp--injury-maximum)
 9. [Determine exhaustion threshold](#determine-exhaustion-threshold).
 10. [Determine magic stamina](#determine-magic-stamina).
@@ -1207,7 +1207,7 @@ Once you've chosen skills, you can determine the required number of successes an
 For this, see the rules on [skill advancing](#advancing-skills).
 
 ### Determine Assets
-In most cases, your character will have left home with their everyday clothes and some of their **possessions**. 
+In most cases, your character will have left home with their everyday clothes and some of their **property**. 
 
 First, determine your character's [worn & equipped assets](#worn--equipped). Every slot may be filled, but keep in mind your character's background. Someone with the background of a peasant is unlikely to wear a crown, for example. 
 
