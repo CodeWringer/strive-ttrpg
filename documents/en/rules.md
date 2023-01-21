@@ -45,6 +45,7 @@
     - [Ambition](#ambition)
     - [Beliefs](#beliefs)
     - [Reactions](#reactions)
+  - [Personality Traits](#personality-traits)
   - [Health \& Exhaustion](#health--exhaustion)
     - [Hit Points (HP)](#hit-points-hp)
     - [Injury](#injury)
@@ -85,7 +86,8 @@
       - [Origin](#origin)
       - [Youth](#youth)
       - [The Last Few Years](#the-last-few-years)
-    - [Determine Name \& Personality](#determine-name--personality)
+    - [Determine Name](#determine-name)
+    - [Determine Personality](#determine-personality)
     - [Species, Sex \& Appearance](#species-sex--appearance)
     - [Choosing Ambition, Beliefs \& Reactions](#choosing-ambition-beliefs--reactions)
       - [Choosing an Ambition](#choosing-an-ambition)
@@ -722,6 +724,29 @@ There are two types of **reactions**:
 
 **Reactions** are expected to change whenever a character (decides) to act against them. A **PC** cannot keep a **reaction** they keep contradicting. Players and the **GM** are expected to discuss at the end or beginning of a session, whether anyone should give up one of their **reactions**. 
 
+## Personality Traits
+Every **PC** has several values that help inform their player what their character is like - how they act. 
+
+This personality is codified by the following matrix. Each row is a scale, with two opposing traits. Whenever A trait reaches the "signature" column, a **PC** is known for that trait! In fact, they can hardly *not* act that way! In order for behaviour to deviate from a signature trait, a D6 has to be rolled. Only if it is a **positive**, can the player choose to deviate from the signature trait's dictated behavior. 
+
+Whenever **PC**s very strongly act in a certain way, their value in a **personality trait** may change. Take note during play, how the characters have acted. After the session, discuss whether any of the **PC**s have shown a very strong drift towards either side of the scale. And if everyone agrees, a personality change is in order!
+
+| Trait       | Signature | Very | A little | Undecided | A little | Very | Signature | │ Trait      |
+| ----------- | --------- | ---- | -------- | --------- | -------- | ---- | --------- | ------------ |
+| Arrogant    |│          |│     |│         |│          |│         |│     |│          | │ Humble     |
+| Cowardly    |│          |│     |│         |│          |│         |│     |│          | │ Courageous |
+| Cruel       |│          |│     |│         |│          |│         |│     |│          | │ Merciful   |
+| Deceitful   |│          |│     |│         |│          |│         |│     |│          | │ Honest     |
+| Lazy        |│          |│     |│         |│          |│         |│     |│          | │ Energetic  |
+| Paranoid    |│          |│     |│         |│          |│         |│     |│          | │ Naive      |
+| Reckless    |│          |│     |│         |│          |│         |│     |│          | │ Prudent    |
+| Selfish     |│          |│     |│         |│          |│         |│     |│          | │ Considerate|
+| Vengeful    |│          |│     |│         |│          |│         |│     |│          | │ Forgiving  |
+
+These values can even have an impact on your [tests](#tests)! For example, a character who is known to be merciful may find it easier to convince their enemies to surrender to them. On the other hand, if that same **PC** tries intimidation, they will find it harder to succeed. 
+
+Keep your character's **personality traits** in mind and remember to ask your **GM** for a bonus die to roll in [tests](#tests), where your "very" strong or "signature" traits might aid you!
+
 ## Health & Exhaustion
 Every character has **Hit Points (HP)** and a maximum number of **injuries** they can endure (= their **injury limit**), before they die. 
 
@@ -1064,25 +1089,15 @@ If you need inspiration, the following tables might help a spark along:
 | 5 | You swore an oath and intend to keep it. You swore to rescue someone, or bring honor to your clan, or perhaps to bring justice to a known criminal. |
 | 6 | You lost someone or something you held dear. Now, you're on a quest to get it back, or your revenge. |
 
-### Determine Name & Personality
+### Determine Name
 Any interesting character should have an interesting name. Whether you set a name or personality first, is entirely up to you. Although, you might prefer to delay this step until much later, once you've determined the other aspects of your character. Whichever you find easier is fine. 
 
 If you can't come up with a name, you can ask your **GM** for inspiration, since they'll likely know the world and the culture(s) your character can stem from and what kinds of names are common there. 
 
-Perhaps more important than the name, is the personality that it represents. Think about what you want your character to be like - are they very sociable? Or perhaps a taciturn brute who'd rather let their actions speak? What ideals do they have? A virtue and perhaps a vice? How do they speak? Do they stutter? 
+### Determine Personality
+Perhaps more important than a name, is the personality that it represents. Think about what you want your character to be like - are they very sociable? Or perhaps a taciturn brute who'd rather let their actions speak? A cruel man of science? A socialite with friends everywhere? The options are plentiful!
 
-| Range D10 | Virtue      | Vice       | Speech     |
-| --------- | ----------- | ---------- | ---------- |
-| 1         | Courageous  | Cowardly   | Blunt      |
-| 2         | Courteous   | Cruel      | Boisterous |
-| 3         | Disciplined | Greedy     | Formal     |
-| 4         | Honest      | Irascible  | Gravelly   |
-| 5         | Honorable   | Prejudiced | Mumbling   |
-| 6         | Humble      | Reckless   | Precise    |
-| 7         | Righteous   | Wasteful   | Rambling   |
-| 8         | Loyal       | Vengeful   | Dialect    |
-| 9         | Just        | Arrogant   | Stuttering |
-| 10        | Merciful    | Vain       | Rapid-fire |
+Refer to the table in the [personality traits](#personality-traits) section. You can choose freely, where to place your "x", for every row. You can even leave every trait at "undecided" and find out through play, what your character is like. If you prefer, you can even let chance decide for you! For that, roll a D6 for every row. A 0 results in a "signature" trait on the left side of the scale, while a 6 results in a "signature" trait on the right side of the scale. Using this method, you will **not** have *any* "undecided" traits in the end. 
 
 ### Species, Sex & Appearance
 Species is a bit difficult to provide a randomization table for, because the world your **GM** is running, might have different species available, than could be anticipated here. For simplicity's sake, it is assumed you are generating a human here. 
