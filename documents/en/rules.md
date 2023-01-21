@@ -805,10 +805,10 @@ Exhaustion is gained through performing **exhausting actions**, carrying **exhau
 
 Exhaustion gained from **exhausting actions** can be reduced by resting. A full rest of at least **six uninterrupted hours** will fully clear any exhaustion gained from **exhausting actions**. 
 
-Exhaustion gained from **exhausting equipment**, can be reduced, by dropping the equipment in question and resting for a short while, at the **GM**'s discretion. A character trying to carry more than they can endure, should not immediately fall unconscious, mind you. Apply common sense - the character in question would probably try to carry the extra equipment, only find out right away it is simply too much for them. 
+Exhaustion gained from **exhausting equipment**, can be reduced, by dropping the equipment in question and resting for a short while, at the **GM**'s discretion. A character trying to carry more than they can endure, should not immediately fall [unconscious](#unconscious), mind you. Apply common sense - the character in question would probably try to carry the extra equipment, only find out right away it is simply too much for them. 
 
 ### State
-A **state** can have positive or negative effects on them and they can have any number of **states** applying to them. 
+A **character** can have positive or negative effects on them, represented by **states**. They can have any number of **states** applying to them. 
 
 #### Berserk
 A character who is in **berserk**, **must** attack the creature nearest to them. 
@@ -1465,7 +1465,7 @@ The extreme version of an easy attack, the **execution attack** allows outright 
 
 Such an attack can be carried out against any character who is unable to resist (with the exception of player characters, see [death's door](#deaths-door)). 
 
-> An unconscious character, or one chained to the wall couldn't possibly resist and can be instantaneously killed with an **execution attack**. 
+> An **unconscious** character, or one chained to the wall couldn't possibly resist and can be instantaneously killed with an **execution attack**. 
 
 This kind of attack is only possible at the **GM**'s discretion. 
 
