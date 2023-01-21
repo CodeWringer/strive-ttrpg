@@ -258,9 +258,7 @@ A role-playing game by Nicolas Haase
 
 At its core, **Ambersteel** is about exploring ever-evolving characters through play, by confronting them with challenges to their very beliefs. The system is best suited for long-term games, running over several real-world sessions. One-shots are possible but may not provide the best experience, as several of the system's mechanics require breaks in play. 
 
-Extensibility and adaptability form a core foundation of the system. While in its current form it best supports medieval fantasy themes, it should be fairly well adaptable to any theme and setting and even encourages you to do so. The bulk of the word would lie in coming up with skills that fit your setting's era and perhaps finding a "scientific" explanation for what the system refers to as magic.
-
-On the spectrum of *narrative-driven*, *game-y* and *simulationist*, **Ambersteel** aims for the region between *game-y* and *narrative-driven*, while leaning heavily towards *game-y*.
+On the spectrum of *narrative-driven*, *game-y* and *simulationist*, **Ambersteel** aims for the region between *game-y* and *narrative-driven*, while leaning heavily towards *game-y*. The rules are designed to be as intuitive and simple as possible, while complex enough to allow players to make meaningful choices. 
 
 More details about the system:
 * Combat is a risky affair and requires tactical and strategic thinking, or the readiness to retreat, when things go awry. 
@@ -277,18 +275,18 @@ More details about the system:
   * A meta-currency, called **fate points** is earned by *players*, based on what they and their character do in a session. 
   * Characters can help each other in game mechanical ways, encouraging co-operative play. 
 
-The rules are designed to be as intuitive and simple as possible, while complex enough to allow players to make meaningful choices. 
+Extensibility and adaptability form a core foundation of the system. While in its current form it best supports medieval fantasy themes, it should be fairly well adaptable to any theme and setting and even encourages you to do so. The bulk of the work would lie in designing skills that fit your setting's era and perhaps finding a "scientific" explanation for what the system refers to as *magic*.
 
 Most rules will have a certain degree of vagueness to them. This is at least partially deliberate. The situations that can come up during play are simply too varied and numerous to be possible to completely cover with rules, without requiring epic tomes filled to the brim with highly specific rulings for highly specific situations. Instead, the game relies on the **GM** to arbitrate in every situation. The descriptions in the rules here should serve as a point of orientation for the **GM**. How they interpret the rules, is how they're to be understood. 
-
-Despite the focus on tactical and deadly combat, this is not an *adversarial* game. The **GM** and the players work ***together*** to create a unique experience and weave a story of glorious triumph, tragic defeat or anything in-between. Ultimately, the **GM**'s job is to provide interesting conundrums to the players and their job is to provide interesting answers, in-line with what their characters believe. What's important to remember is that the **GM** is a *player*, too. They're here to have fun and enjoy their time at the table, too. That is why it's important to work ***together***. 
 
 # How to Play
 As **Ambersteel** is a **roleplaying game**, there are certain rules and expectations of both players and **GM**. 
 
-Each player only directly controls a single character, the **GM** is in control of every single non-player character (**NPC**), the world and the story. A player character is abbreviated as **PC**. 
+Despite the focus on tactical and deadly combat, this is not an *adversarial* game. The **GM** and the players work ***together*** to create a unique experience and weave a story of glorious triumph, tragic defeat or anything in-between. Ultimately, the **GM**'s job is to provide interesting conundrums to the players and their job is to provide interesting answers, in-line with what their characters believe. What's important to remember is that the **GM** is a *player*, too. They're here to have fun and enjoy their time at the table, as well. 
 
-In some places, where distances are concerned, both feet and meters are noted as units. What attentive readers will notice, is that the conversion between the numbers won't always be correct. This is a deliberate decision to make the math easier, whenever a grid (or *battlemap*) is used in play. One square on the grid should represent either a three foot, or one meter square. Furthermore, a single, ordinary human, should occupy an entire such square. 
+Each player only directly controls a single character. The **GM** is in control of every single non-player character (**NPC**), the world and the story. A player character is abbreviated as **PC**. 
+
+In some places, where distances are concerned, both feet and meters are noted as units. What attentive readers will notice, is that the conversion between the numbers won't always be correct. This is a deliberate decision to make the math easier, whenever distances are concerned. If a battlemap is used, one square on the grid should represent either a three foot, or one meter square. Furthermore, a single, ordinary human, should occupy an entire such square. 
 
 ## Dice
 **Ambersteel** uses a **dice pool** system of **six-sided dice** (henceforth referred to as **D6**) to resolve [tests](#tests). *Dice pool* means a variable number of dice will be rolled, based on a character's [attributes](#attributes), [skills](#skills), boons and circumstance of the situation they're in. 
