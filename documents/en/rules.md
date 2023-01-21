@@ -1341,14 +1341,14 @@ If one party is surprised, the ambushing party gets to act for a full turn, with
 ## Action Points (AP)
 Every turn, every character gets 3 **Action Points (AP)** to spend on actions during their turn. 
 
-Any basic action, so any action not requiring a test, costs 1 **AP**. Any action requiring a test, costs 2 **AP**. Skill abilities can cost varying amounts of **AP**. 
+Any basic action, so any action not requiring a test, costs 1 **AP**. Any action requiring a test, costs 2 **AP**. [Skill abilities](#skill-abilities) can cost varying amounts of **AP**. 
 
 Speaking or shouting a short phrase is free. If you want to have a proper conversation, that will have to take multiple rounds. 
 
 ### Action Point Saving
 If the turn is ended with any **AP** unspent, they can either be saved up, or spent on improving the character's [melee defence](#melee-defence-agi) and [ranged defence](#ranged-defence-agi), as **+1D6** per **AP**. 
 
-Only up to 5 **AP** may be saved up this way. It may be possible to go past this limit via some skill abilities. 
+Only up to 5 **AP** may be saved up this way. It may be possible to go past this limit via some [skill abilities](#skill-abilities). 
 
 ### Combat Movement
 A character can move up to **12'/4m** per **AP** spent. In **difficult terrain**, the distance moved per **AP** is half that, at **6'/2m**. 
@@ -2025,7 +2025,7 @@ Tools: a carving knife
 | A large wood-carved object           | Low        | High      | Wood                                   | / |
 
 ## List of Magic Schools
-The capabilities of the various magic schools are described by the **skill abilities** associated with each of them. The concrete effects are kept vague on purpose, to allow a certain freedom when choosing how the magic is expressed. But the intensity or strength of a casting is tied to the level of the [magic school skill](#magic-school--school---attribute-). 
+The capabilities of the various magic schools are described by the [skill abilities](#skill-abilities) associated with each of them. The concrete effects are kept vague on purpose, to allow a certain freedom when choosing how the magic is expressed. But the intensity or strength of a casting is tied to the level of the [magic school skill](#magic-school--school---attribute-). 
 
 The levels noted for each magic school represent the effects a mage can achieve, when casting that particular type of magic. Stronger effects generally require a higher level. 
 
