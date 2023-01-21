@@ -1203,7 +1203,7 @@ Always make sure to talk to your **GM** and fellow players and have them agree t
 ### Determine Max HP & Injury Maximum
 Determine your character's **max HP** and **injury limit**, by referring to the [toughness](#toughness-tough) attribute. 
 
-All characters start with an **injury limit** of 1. 
+All characters start with an **injury limit** of 2. 
 
 ### Determine Exhaustion Threshold
 Determine your character's [exhaustion threshold](#exhaustion), by referring to the [endurance](#endurance-end) attribute. 
