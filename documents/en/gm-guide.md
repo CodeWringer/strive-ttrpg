@@ -1,45 +1,45 @@
-Version 0.9
+## Table of Contents <!-- omit in toc -->
+- [Introduction](#introduction)
+- [The Role Of A Game Master](#the-role-of-a-game-master)
+  - [Your World](#your-world)
+    - [Bring NPCs To Life](#bring-npcs-to-life)
+    - [Use The Senses](#use-the-senses)
+  - [Your Game](#your-game)
+    - [To Rule or Not To Rule](#to-rule-or-not-to-rule)
+  - [Your Players](#your-players)
+- [How To Master Your Game](#how-to-master-your-game)
+  - [Starting Your Session](#starting-your-session)
+    - [Recap The Last Session](#recap-the-last-session)
+    - [Read Out Ambitions, Beliefs & Instincts](#read-out-ambitions-beliefs--instincts)
+    - [Read Out Fate Point Purchases](#read-out-fate-point-purchases)
+  - [Your Session](#your-session)
+    - [Choosing **Ob**](#choosing-ob)
+    - [Challenging Your Players](#challenging-your-players)
+      - [**Challenge your PCs' abilities during combat**](#challenge-your-pcs-abilities-during-combat)
+      - [**Challenge your PCs' abilities out of combat**](#challenge-your-pcs-abilities-out-of-combat)
+      - [**Fewer Tests Are Better**](#fewer-tests-are-better)
+      - [**Limit Resources**](#limit-resources)
+      - [**Challenge Your PCs' Beliefs**](#challenge-your-pcs-beliefs)
+      - [**Anchor Your PCs Down**](#anchor-your-pcs-down)
+      - [**Threaten Your PCs**](#threaten-your-pcs)
+      - [**Allow World-Change**](#allow-world-change)
+    - [Keep Them Engaged](#keep-them-engaged)
+      - [Keep That Spotlight On a Swivel](#keep-that-spotlight-on-a-swivel)
+      - [Player Agency](#player-agency)
+      - [Rewards!](#rewards)
+      - [Fair Warning](#fair-warning)
+  - [Ending Your Session](#ending-your-session)
+    - [Hand Out Fate Points](#hand-out-fate-points)
+    - [Gather Feedback](#gather-feedback)
+
+Version 4
 
 A role-playing game by Nicolas Haase
 
-# GM's Guide
-This document is directed at (and somewhat reserved for) the Game Master (**GM**) - the one person at the table who everyone agrees has the **authority** and **burden** to run the game. 
+# Introduction
+This document is directed at (and somewhat reserved for) the Game Master (**GM**) - the one person at the table who everyone agrees has the **authority** and **burden** to run the game. It will outline all the must-knows and present ideas on how to run the game. While most of the information is hopefully useful, not all of it has to be read and internalized, right away. 
 
-## Table of Contents <!-- omit in toc -->
-- [GM's Guide](#gms-guide)
-  - [The Role Of A Game Master](#the-role-of-a-game-master)
-    - [Your World](#your-world)
-      - [Bring NPCs To Life](#bring-npcs-to-life)
-      - [Use The Senses](#use-the-senses)
-    - [Your Game](#your-game)
-      - [To Rule or Not To Rule](#to-rule-or-not-to-rule)
-    - [Your Players](#your-players)
-  - [How To Master Your Game](#how-to-master-your-game)
-    - [Starting Your Session](#starting-your-session)
-      - [Recap The Last Session](#recap-the-last-session)
-      - [Read Out Ambitions, Beliefs & Instincts](#read-out-ambitions-beliefs--instincts)
-      - [Read Out Fate Point Purchases](#read-out-fate-point-purchases)
-    - [Your Session](#your-session)
-      - [Choosing **Ob**](#choosing-ob)
-      - [Challenging Your Players](#challenging-your-players)
-        - [**Challenge your PCs' abilities during combat**](#challenge-your-pcs-abilities-during-combat)
-        - [**Challenge your PCs' abilities out of combat**](#challenge-your-pcs-abilities-out-of-combat)
-        - [**Fewer Tests Are Better**](#fewer-tests-are-better)
-        - [**Limit Resources**](#limit-resources)
-        - [**Challenge Your PCs' Beliefs**](#challenge-your-pcs-beliefs)
-        - [**Anchor Your PCs Down**](#anchor-your-pcs-down)
-        - [**Threaten Your PCs**](#threaten-your-pcs)
-        - [**Allow World-Change**](#allow-world-change)
-      - [Keep Them Engaged](#keep-them-engaged)
-        - [Keep That Spotlight On a Swivel](#keep-that-spotlight-on-a-swivel)
-        - [Player Agency](#player-agency)
-        - [Rewards!](#rewards)
-        - [Fair Warning](#fair-warning)
-    - [Ending Your Session](#ending-your-session)
-      - [Hand Out Fate Points](#hand-out-fate-points)
-      - [Gather Feedback](#gather-feedback)
-
-## The Role Of A Game Master
+# The Role Of A Game Master
 As the **GM**, you are the one person at the table playing a different game than the others. Instead of controlling a single character in a given world, you are in control of the world itself and determine what the characters within it get to do. 
 
 You're the one who decides on the tone of the world. Is it grimdark? Or perhaps heroic, instead? You should be clear about this, before you even interview your first player. 
@@ -54,14 +54,14 @@ How will you run the game? Will it be a single play session (= one-shot) or a pe
 
 It is *your world* and *your game*. The other people at the table are *your players*. Find the right players for your world and your game and make your game and world right for your players. 
 
-### Your World
+## Your World
 While **Ambersteel** is best suited to a medieval-fantasy world, it doesn't dictate the type of world you have to employ. 
 
 You are encouraged to craft your own world to play in. You decide what species (like humans) exist, what nations and cultures vow for supremacy and what fantastical landscapes exist. Is magic prevalent? What types of magic exist? You decide. This world, is yours. 
 
 Your players can aid in crafting the world. Usually during play, rather than outside of it. If you allow them to change your world through their actions, it becomes a much more dynamic and almost life-like beast. 
 
-#### Bring NPCs To Life
+### Bring NPCs To Life
 Non-player characters (**NPC**s) are all the people of your world, that aren't the player characters (**PC**s). **NPC**s are one of your most important tools to bring your world to life and make it interesting and engaging to your players. More often than not, the most interesting sessions involve heavy or mindful use of **NPC**s. See them as you do real people. There are no rules or mechanics dictating how they should behave. 
 
 Much like the **PC**s, or in fact real people, **NPC**s lead their own lives, with their own ambitions, beliefs, instincts, strengths and weaknesses. Keeping track of all of the numbers that implies, can become quite the challenge. But you won't have to come up with all those numbers right away or track them all the time.
@@ -82,7 +82,7 @@ More often than not, you'll have **NPC**s be the source of quests and adventures
 
 You also get to use **NPC**s as a tool to feed players information (or false rumors) about the world they're in. Be careful how you approach this, though. Players have a tendency to assume everything the **GM** says is true. So when an **NPC** feeds them false information, they tend not to question it. Before you can effectively use false information as a tool, you'll have to establish that **NPC**s will not always speak the truth. Perhaps by introducing an **NPC** very early on, who will tell the most outrageous lies. Maybe even about the **PC**s. That would certainly make your players sceptical. But the specifics of this are entirely up to you and your specific game. 
 
-#### Use The Senses
+### Use The Senses
 When you describe scenes, not just what one can see is of relevance. What are the **PC**s' other senses picking up? What about hearing? Smell? Do the mages sense the flow of magic? What's the temperature like? Is the air damp or dry? Is the ground trembling from a giant's heavy footfalls?
 
 Try to pick only the most significant and most symbolic influences on the senses for your scene. There is little point in describing the gentle rustle of the wind in the leaves, whenever the **PC**s enter a forest. But if there is a strong stench of decay in the air, then that's probably noteworthy. 
@@ -91,7 +91,7 @@ More often than not, players would be on the look-out for anything out of the or
 
 Of course, sometimes, describing a peaceful and soothing scene can be a welcome and effective change. After a harrowing fight, the **PC**s might enter a safe area, where you describe it as a peaceful meadow or serene village or anything along those lines. 
 
-### Your Game
+## Your Game
 There is an *unspoken social contract* between you, the **GM** and your players. Everyone at the table agrees that you *get to call the shots*. You present every scenario and its challenges, you arbitrate and moderate. You narrate and you listen. 
 
 It is not, however, your job to think of possible solutions to the challenges you invent. *That*, is the *players' job*. It is also not your job to come up with PC reactions, emotions, thoughts, etc. That is also the players' job. 
@@ -106,7 +106,7 @@ Even if all of these and the following points may sound very dogmatic, see them 
 
 Of course, the specifics of the *unspoken social contract* can be different for you and your group. But perhaps the social contract doesn't *have* to remain unspoken. It might be a good idea to ensure everyone is on the same page, in regards to what is expected of **GM** and players.
 
-#### To Rule or Not To Rule
+### To Rule or Not To Rule
 The rules serve to facilitate the resolution of uncertain outcomes, to add tension and drama and introduce challenges for the players to deal with. 
 
 Obviously, as the **GM**, you have to know the rules well, in order to keep the game paced well. Keep in mind, however, that the rules can also get in the way of *your game's* pacing. 
@@ -115,7 +115,7 @@ Rules discussions and looking up rules is best kept for later. Keep the game flo
 
 When a player tries to argue a ruling, they're violating the unspoken social contract. Tell them it's time to move on and address their questions and concerns after the session. 
 
-### Your Players
+## Your Players
 The game can only happen, because of your players - the people willing to be at your table and engage with your game. Treat them with the same respect you expect from them. 
 
 You're primarily running this game for your players - without them, you might as well write a book, instead. Therefore it should be your top priority to keep them entertained and focused on the game, or else you risk losing them. 
@@ -130,18 +130,18 @@ Besides the mediator, you're also the moderator. Make sure your players are resp
 
 This, and all the tips in the *your game* section serve as tools to keep the game paced well and filled with interesting and engaging content. A well-paced game is one that keeps the players' interest. 
 
-## How To Master Your Game
+# How To Master Your Game
 While the previous section gives a broad overview of the expectations of a **GM**, this sections aims to help you fulfill those expectations. 
 
-### Starting Your Session
-#### Recap The Last Session
+## Starting Your Session
+### Recap The Last Session
 A good start for every session is asking one of your players (volunteers first) to outline what their characters did and experienced in the last session. This refreshes everyone's memory on what they did and should be doing. It also encourages them to take notes during play. 
 
 It is important you only correct them on crucial plot points, which they really should get right. Keep in mind that players tend to see the **GM**'s word as **absolute truth**. This is why, when you re-tell the events and those differ from what the players remember, it might alienate them from the world and the story. They thought they understood what was going on, but then you correct them and prove they were wrong all along - that is frustrating and harmful. 
 
 In fact, you may even correct some of the details of how events *actually* played out, based on what your players re-tell. Do so silently, though. The last thing you want, is to encourage *meta-gaming*, where your players intentionally recap the last session incorrectly, in a way to make you change details in their characters' favor. 
 
-#### Read Out Ambitions, Beliefs & Instincts
+### Read Out Ambitions, Beliefs & Instincts
 Once the last session has been refreshed, move on to have every player, one by one, read out aloud to all, their character's ambition (keep this one brief), current **beliefs** and current **instincts**. 
 
 There are two reasons to do this:
@@ -154,17 +154,17 @@ Be mindful that players knowing the **beliefs** of their fellow **PC**s should n
 
 > If a **PC** has a belief to the detriment of their fellow **PC** and this is a fresh belief, the targeted **PC** shouldn't suddenly become more suspicious towards their ally. At least not without sufficient reason. Of course, a **PC** can figure out another's intentions, but not by virtue of their owning player knowing. 
 
-#### Read Out Fate Point Purchases
+### Read Out Fate Point Purchases
 Once **ambitions**, **beliefs** and **instincts** are handled, move on to what meta-powers players purchased with their [fate points](#fate-points). 
 
 Everyone should be clear on what everyone else can do, especially since these are strictly meta-game powers. 
 
-### Your Session
+## Your Session
 While running the session, you'll have the most work and the toughest job. Listen to your players attentively, react and improvise as needed. 
 
 You'll have to keep a lot of rules in mind. This section aims to provide a set of reminders. 
 
-#### Choosing **Ob**
+### Choosing **Ob**
 Choosing the right **Ob** for a test is a difficult task, for which clear rules cannot be easily written. More times than not, your gut-feeling will have to tell you which number is *right* for the given test. 
 
 * T - Trivial
@@ -204,7 +204,7 @@ Level | **Ob** 1 | **Ob** 2 | **Ob** 3 | **Ob** 4 | **Ob** 5 | **Ob** 6 | **Ob**
 When to test either an **attribute**, or a **skill**, also requires a certain gut-feeling. **Attribute**s are typically the raw, innate abilities of a character. 
 **Skills** on the other hand are learned abilities. 
 
-#### Challenging Your Players
+### Challenging Your Players
 You have two means of challenging your players: *mechanical challenges* and *narrative challenges*. To *challenge* your players means to *engage* them! 
 
 **Mechanical challenges** are your *game-y* tools to engage your players. You engage them, by challenging their characters. You put tests or limitations before them, which have to be overcome mechanically. Dice are usually involved. 
@@ -223,7 +223,7 @@ And the most powerful narrative challenge - the world! Encourage your players to
 > 
 > The world reacts to this heinous act, even if the players may never stated their intent for it. 
 
-##### **Challenge your PCs' abilities during combat**
+#### **Challenge your PCs' abilities during combat**
 More interesting scenarios come from challenging your **PC**s' abilities. Present the close-quarters warrior with an opponent who's out of reach. Have the blood-letting fanatic deal with a foe that can't bleed. Present the mage with an opponent clad in [Amberite](#amberite). But always keep in mind one thing - the foes your players engage should have weaknesses and they should not be unbeatable, unless you make it **very** clear to the players their characters couldn't win a straight fight. 
 
 Also try to occasionally have foes that target the **PC** they counter, but also make sure one of the other **PC**s can counter them, in turn. 
@@ -238,7 +238,7 @@ Even more interesting fights can occur, if you involve the environment, as well.
 * A burning house, with the **PC**s and their opponents in the thick of it. At the start of every turn, a burning piece of debris falls from the ceiling and you randomly determine where it lands. Could be on a **PC**, could be on one of their opponents. Or it could be in front of and barring their only exit - an open window leading to safety. 
 * A rickety, old bridge, which could collapse if too much force was applied to its support beams. The **PC**s could exploit this to collapse the bridge on purpose. Or their opponents could attempt the same, to put time-pressure on the players. 
 
-##### **Challenge your PCs' abilities out of combat**
+#### **Challenge your PCs' abilities out of combat**
 Outside of combat, you can challenge your **PC**s' skills. Present opportunities for the **PC**s to [learn new things](#advancing-skills). Present them with tests for skills they don't have. But do so sparingly. It is frustrated for a player to never get to play to their character's strengths. Give players that satisfaction of having *the right skill at the right time*. 
 
 When it comes to skill tests, it is prudent to be wary of *test band-wagon'ing*. When you ask a specific player (or rather, their character) to do a test in a certain skill or attribute and if they fail, another player jumps in and asks, if they can try, consider well how you answer. 
@@ -257,7 +257,7 @@ On the other hand, you should only have such specifically targeted tests, if fai
 > 
 > Had the **PC** failed their test, the **GM** would have told them to move on. Perhaps even given them a different piece of information, like hearing noises outside the room they're in, but without a clear direction. The player might not think much of it, and decide to stay. That's when the guards walk in and surprise the **PC**. They can still make their get-away, albeit involving more running in blind panic, than sneaking calmly. 
 
-##### **Fewer Tests Are Better**
+#### **Fewer Tests Are Better**
 Only have a player make one test per scene/situation, as long as the scene/situation doesn't change significantly. 
 
 > For example, a **PC** is trying to sneak past two guards huddled around a campfire. If they succeed their [stealth](#stealth-agi) test, the **GM** lets them sneak all around the camp, without making them do multiple tests, as long as the situation doesn't change significantly. One of the guards getting up to take a pee behind a tree somewhere shouldn't be such a change, even if that happens to be the tree the **PC** is hiding behind. On the other hand, if the guards pick up torches and start actively looking for intruders, for whatever reason, then the situation changes significantly. Another [stealth](#stealth-agi) test would be warranted. 
@@ -266,14 +266,14 @@ Only have a player make one test per scene/situation, as long as the scene/situa
 
 Of course, how many tests are appropriate in a given situation is entirely at your discretion. 
 
-##### **Limit Resources**
+#### **Limit Resources**
 Also keep in mind that the [item slots](#carrying-capacity) system exists to create mechanical challenges. Limit the **PC**'s access to the resources they tend to hoard. 
 
 Although your players could also be clever and find narrative solutions to their lack of *item vaccuuming*. If they can afford one or two carriages with the horses and drivers, perhaps even guards, they should be allowed to transport a lot more stuff around. Within the confines of their solution, of course. Those wagons full of ammunition, medical supplies and spare daggers will have to stay outside the cave/dungeon/ruin/etc. - unless your players can find a solution for that, too. 
 
 Possessions in the form of coin and steel are not the only type of resource you can give your **PC**s. Keep in mind that servants, hirelings, close friends and family are *also a resource*. **PC**s can refer to them, when they have need of information, coin or political support. 
 
-##### **Challenge Your PCs' Beliefs**
+#### **Challenge Your PCs' Beliefs**
 And that brings us to narrative challenges. These are the challenges you present your players, moreso than their characters. 
 
 Still bordering on *game-y*, the [ambitions, beliefs and instincts](#ambitions-beliefs--instincts) and [fate points](#fate-points) systems reward players for role-playing well and for playing to their character's beliefs. 
@@ -292,12 +292,12 @@ More interesting and less immediately rewarding, is the **ambition** of a **PC**
 > 
 > And so it goes on, with continually more escalating scenarios, which all culminate into the final confrontation, many real-world sessions into the future, when the **PC** gets to put the final nail in that **ambition**'s coffin - and earn their [AFP](#ambition-fate-points).
 
-##### **Anchor Your PCs Down**
+#### **Anchor Your PCs Down**
 Another resource, is a base of operations. This is a very meaningful and powerful tool, to anchor your **PC**s to a particular domain. Expect them to want to return to their base of operations regularly. While this *may* narrow the radius of exploration your players are willingly to go, it doesn't necessarily have to. What it is guaranteed to do, however, is make your players care about *that space* in the world, in particular. 
 
 Be mindful *where* in the world you give them such a resource, because that is where the players will want to spend a lot of time at. Make sure it is a location where quests can easily come to them. Damsels in distress, kings in need and wealthy merchants all need a reachable door to knock at. A very remote location might not see a lot of *action* or *visitors*. 
 
-##### **Threaten Your PCs**
+#### **Threaten Your PCs**
 Any resource you let a **PC** have, can be *threatened*. This is a powerful tool to raise tension among your players. Threaten their possessions, family or holdings - all the things they hold dear. 
 
 This is a powerful tool to make the players care about protecting their assets. If you have given them a small castle in a sparsely populated area, make sure to have someone threaten to take away that castle at least (or at most) **once**. By the time that happens, the players should have grown accustomed to having that safe space to return and haul loot to. Suddenly, their top-priority will be protecting that place. 
@@ -306,7 +306,7 @@ Once they've fended off the attackers, they'll really start caring about everyth
 
 In order to avoid frustrating your players, you shouldn't threaten their more valuable resources often. Used sparingly, this tool can cause great tension and players scrambling to find a creative solution. But used too frequently, your players might start getting frustrated, because you harm their sense of progression. If they never truly gain anything, why *should* they care if it is threatened? 
 
-##### **Allow World-Change**
+#### **Allow World-Change**
 Have your players change your world. No matter what they do, the **PC**s' actions are going to leave ripples running through the world. 
 
 If they ruthlessly slaughter a tribe of non-humans, they might inadvertently cause an increased radicalization among the other tribes of those same non-humans. Likewise, if the **PC**s go around protecting villages against raids, those villages might prosper and the villagers might offer gifts (like a warm meal and bed) to the **PC**s. 
@@ -315,12 +315,12 @@ On the other hand, if the players are actively trying to change a major aspect o
 
 This is the most powerful way to narratively challenge players. It helps them see your fictional world as *real* and they start thinking about the consequences of their actions more often. This encourages peaceful and creative solutions, where before they might have preferred blunt violence. 
 
-#### Keep Them Engaged
+### Keep Them Engaged
 There is nothing worse than getting your players to "clock out" and stop paying attention to your game! This means they're not having fun and may even start wondering why they're even spending time at your table. If that keeps up, they'll inevitably leave. 
 
 To avoid such a fate for your game, you must keep your players *hooked*! Keep them thinking that at any moment, they might get a chance to jump in and contribute just the right question, defuse a conflict or otherwise play out their character's strengths. 
 
-##### Keep That Spotlight On a Swivel
+#### Keep That Spotlight On a Swivel
 It is only natural that some of your players may speak up before others. Whether they've simply got a dominant voice or immediately start talking, by doing so they'll probably discourage the others from speaking. 
 
 Once you've identified which of your players tend to remain quiet, make sure **you give them the spotlight** every once in a while. 
@@ -335,7 +335,7 @@ Some players may not really be interested in talking too much. But if they're si
 
 If you have any of those, you can still keep them engaged, by providing them other opportunities to shine. A skill test that only their character can even attempt, for example. 
 
-##### Player Agency
+#### Player Agency
 A very important thing to remember is that **all decisions** are made **by your players**, not *you*. This is understood as "player-agency" - a player's ability to make a meaningful decision, which impacts your world and the story plot, even when in collision with your own expectations or plans. 
 
 And that implies that asking your players, whenever there is a choice to be made, what their decision will be. After all, you're not writing a book, where you can and even have to decide on what the protagonists will do. Your players will have to tell you what they'll do. 
@@ -346,7 +346,7 @@ Of course, there is an exception to every rule. You *can* take player-agency awa
 
 For example, there may be times, when for storytelling purposes you may want to narrate something. Perhaps an event far away from the player characters. The term "cut-scene" is applicable. It's a moment when you take over as the narrator and narrate something that happens, that the players couldn't possibly have agency over. Whenever doing so is appropriate, depends strongly on the story and your style of game. If done well, this can serve as a tool for world-building (investing your players in your world) and/or tension-building (drama!)
 
-##### Rewards!
+#### Rewards!
 Nothing motivates players (and humans in general) more, than the promise of reward!
 
 The important thing to keep in mind here, is to **reward behaviors** you wish to **encourage**. 
@@ -357,7 +357,7 @@ Exactly how you present the promise of reward is up to you. Whether you hand out
 
 Another important note is to avoid overloading your players with promises of reward. That could lead to analysis paralysis - the inability to prioritise goals and then committing to one. This problem is exacerbated by timed rewards - rewards that will expire after a certain amount of time. If too many of those timed rewards exist, your players will find it very difficult to pick one, for fear of losing out on the other ones. 
 
-##### Fair Warning
+#### Fair Warning
 Another tool in your bag, is the ability to give a player *fair warning* of something that will come up during the next session. 
 
 This means telling a player well ahead of time that during the next session a situation may crop up in which they'll have to react. 
@@ -368,13 +368,13 @@ When giving such a *heads-up*, try to omit any details. Only give your player a 
 
 > For example, a NPC will do something that contradicts their character's beliefs. A prompt for that player could look like the following: "During the next session, an NPC will do something that contradicts your beliefs. There will be no way you wouldn't notice." Don't tell them which NPC that will be or what exactly that NPC will actually do. 
 
-### Ending Your Session
-#### Hand Out Fate Points
+## Ending Your Session
+### Hand Out Fate Points
 You end every session by nominating players for [fate points](#fate-points) they earned during play. Players should also nominate and vote for each other. Whether someone gets their **FP** is based on majority vote. 
 
 If you're short on time and have to end the session without voting for [fate points](#fate-points), make sure to do so at the start of the next session!
 
-#### Gather Feedback
+### Gather Feedback
 While entirely up to you, it is always a good idea to gather feedback from your players. 
 
 You could ask them the following:

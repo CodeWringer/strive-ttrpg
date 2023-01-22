@@ -1,11 +1,10 @@
 - [Introduction](#introduction)
-- [Credits](#credits)
 - [How to Play](#how-to-play)
-    - [Dice](#dice)
-    - [Before the Game](#before-the-game)
-    - [The Session](#the-session)
-      - [Intent & Action](#intent--action)
-    - [After the Session](#after-the-session)
+  - [Dice](#dice)
+  - [Before the Game](#before-the-game)
+  - [The Session](#the-session)
+    - [Intent \& Action](#intent--action)
+  - [After the Session](#after-the-session)
   - [Tests](#tests)
     - [Types of Test](#types-of-test)
       - [Binary Test](#binary-test)
@@ -20,32 +19,35 @@
 - [Character](#character)
   - [Attributes](#attributes)
     - [Physical Attributes](#physical-attributes)
-      - [Agility [Agi]](#agility-agi)
-      - [Endurance [End]](#endurance-end)
-      - [Perception [Perc]](#perception-perc)
-      - [Strength [Str]](#strength-str)
-      - [Toughness [Tough]](#toughness-tough)
+      - [Agility \[Agi\]](#agility-agi)
+      - [Endurance \[End\]](#endurance-end)
+      - [Perception \[Perc\]](#perception-perc)
+      - [Strength \[Str\]](#strength-str)
+      - [Toughness \[Tough\]](#toughness-tough)
     - [Mental Attributes](#mental-attributes)
-      - [Intelligence [Int]](#intelligence-int)
-      - [Wisdom [Wis]](#wisdom-wis)
-      - [Arcana [Arc]](#arcana-arc)
+      - [Intelligence \[Int\]](#intelligence-int)
+      - [Wisdom \[Wis\]](#wisdom-wis)
+      - [Arcana \[Arc\]](#arcana-arc)
     - [Social Attributes](#social-attributes)
-      - [Empathy [Emp]](#empathy-emp)
-      - [Oratory [Ora]](#oratory-ora)
-      - [Willpower [Will]](#willpower-will)
+      - [Empathy \[Emp\]](#empathy-emp)
+      - [Oratory \[Ora\]](#oratory-ora)
+      - [Willpower \[Will\]](#willpower-will)
     - [Advancing Attributes](#advancing-attributes)
       - [Practicing Attributes](#practicing-attributes)
   - [Skills](#skills)
+    - [Skill Abilities](#skill-abilities)
     - [Skill Forking](#skill-forking)
     - [Learning Skills](#learning-skills)
     - [Advancing Skills](#advancing-skills)
-      - [Practice](#practice)
-      - [Teaching](#teaching)
-  - [Ambition, Beliefs & Reactions](#ambition-beliefs--reactions)
+      - [Practicing Skills](#practicing-skills)
+      - [Teaching Skills](#teaching-skills)
+  - [Ambition, Beliefs \& Reactions](#ambition-beliefs--reactions)
     - [Ambition](#ambition)
-    - [Beliefs & Goals](#beliefs--goals)
+    - [Beliefs \& Goals](#beliefs--goals)
     - [Reactions](#reactions)
-  - [Health & Exhaustion](#health--exhaustion)
+  - [Personality Traits](#personality-traits)
+  - [Health \& Exhaustion](#health--exhaustion)
+    - [Hit Points (HP)](#hit-points-hp)
     - [Injury](#injury)
       - [Injury States](#injury-states)
       - [Injury Exhaustion Threshold](#injury-exhaustion-threshold)
@@ -57,6 +59,7 @@
       - [Dazed](#dazed)
       - [Death's Door](#deaths-door)
       - [Dissolving](#dissolving)
+      - [Drug-Addicted](#drug-addicted)
       - [Electrified](#electrified)
       - [Frostbitten](#frostbitten)
       - [Grappled](#grappled)
@@ -72,20 +75,21 @@
     - [Scars](#scars)
     - [Damage Types](#damage-types)
     - [Damage Resistances](#damage-resistances)
-    - [Boons & Penalties](#boons--penalties)
+    - [Boons \& Penalties](#boons--penalties)
   - [Assets](#assets)
-    - [Worn & Equipped](#worn--equipped)
+    - [Worn \& Equipped](#worn--equipped)
     - [Luggage](#luggage)
       - [Carrying Capacity](#carrying-capacity)
-    - [Possessions](#possessions)
+    - [Property](#property)
   - [Character Creation](#character-creation)
     - [Determine Life Path](#determine-life-path)
       - [Origin](#origin)
       - [Youth](#youth)
       - [The Last Few Years](#the-last-few-years)
-    - [Determine Name & Personality](#determine-name--personality)
-    - [Species, Sex & Appearance](#species-sex--appearance)
-    - [Choosing Ambition, Beliefs & Reactions](#choosing-ambition-beliefs--reactions)
+    - [Determine Name](#determine-name)
+    - [Determine Personality](#determine-personality)
+    - [Species, Sex \& Appearance](#species-sex--appearance)
+    - [Choosing Ambition, Beliefs \& Reactions](#choosing-ambition-beliefs--reactions)
       - [Choosing an Ambition](#choosing-an-ambition)
       - [Choosing Beliefs](#choosing-beliefs)
       - [Choosing Reactions](#choosing-reactions)
@@ -95,7 +99,7 @@
       - [Determine Attribute Advancing Thresholds](#determine-attribute-advancing-thresholds)
     - [Choosing Skills](#choosing-skills)
     - [Determine Assets](#determine-assets)
-    - [Determine Max HP & Injury Maximum](#determine-max-hp--injury-maximum)
+    - [Determine Max HP \& Injury Maximum](#determine-max-hp--injury-maximum)
     - [Determine Exhaustion Threshold](#determine-exhaustion-threshold)
     - [Determine Magic Stamina](#determine-magic-stamina)
 - [Fate Points](#fate-points)
@@ -103,6 +107,15 @@
   - [Major Fate Points](#major-fate-points)
   - [Ambition Fate Points](#ambition-fate-points)
   - [Hand of Fate](#hand-of-fate)
+- [Spending Time](#spending-time)
+  - [Travel](#travel)
+  - [Crafting](#crafting)
+    - [Crafting Time Chart](#crafting-time-chart)
+  - [Trade](#trade)
+    - [Seller's Chart](#sellers-chart)
+    - [Buyer's Chart](#buyers-chart)
+  - [Recovery](#recovery)
+  - [Training](#training)
 - [Combat](#combat)
   - [Who Acts When](#who-acts-when)
   - [Action Points (AP)](#action-points-ap)
@@ -129,11 +142,44 @@
     - [Ambersteel](#ambersteel)
     - [Runes](#runes)
 - [Appendix](#appendix)
-  - [Skill List](#skill-list)
-    - [Physical skills](#physical-skills)
+  - [List of Assets](#list-of-assets)
+    - [Armor](#armor)
+      - [Armor Properties](#armor-properties)
+      - [Armor Types](#armor-types)
+        - [Light Armor](#light-armor)
+        - [Medium Armor](#medium-armor)
+        - [Heavy Armor](#heavy-armor)
+    - [Shield Types](#shield-types)
+        - [Buckler](#buckler)
+        - [Round Shield](#round-shield)
+        - [Heater Shield](#heater-shield)
+        - [Kite Shield](#kite-shield)
+    - [List of Stuff \& Things](#list-of-stuff--things)
+    - [Weapon Properties](#weapon-properties)
+    - [Weapon Types](#weapon-types)
+      - [Unarmed](#unarmed)
+      - [Short Blade](#short-blade)
+      - [Long Blade](#long-blade)
+      - [Great Blade](#great-blade)
+      - [Axe](#axe)
+      - [Great Axe](#great-axe)
+      - [Spear](#spear)
+      - [Lance](#lance)
+      - [Polearm](#polearm)
+      - [Club](#club)
+      - [Small Crusher](#small-crusher)
+      - [Large Crusher](#large-crusher)
+      - [Short-Bow](#short-bow)
+      - [Longbow](#longbow)
+      - [War-Bow](#war-bow)
+      - [Crossbow](#crossbow)
+      - [Firearm](#firearm)
+  - [Lists of Skills](#lists-of-skills)
+    - [Physical Skills](#physical-skills)
       - [Acrobatics (Agi)](#acrobatics-agi)
       - [Berserking (End)](#berserking-end)
-      - [Instrument-Playing < instrument > (Agi)](#instrument-playing--instrument--agi)
+      - [Fishing (End)](#fishing-end)
+      - [Instrument-Playing \< instrument \> (Agi)](#instrument-playing--instrument--agi)
       - [Melee Defence (Agi)](#melee-defence-agi)
       - [Ranged Defence (Agi)](#ranged-defence-agi)
       - [Stealth (Agi)](#stealth-agi)
@@ -145,92 +191,66 @@
       - [Sailing (Str)](#sailing-str)
       - [Shield (End)](#shield-end)
       - [Tactics (Str)](#tactics-str)
-      - [Weapon < weapon type > (Str)](#weapon--weapon-type--str)
-      - [Weapon-Throwing < weapon type > (Agi)](#weapon-throwing--weapon-type--agi)
+      - [Weapon \< weapon type \> (Str)](#weapon--weapon-type--str)
+      - [Weapon-Throwing \< weapon type \> (Agi)](#weapon-throwing--weapon-type--agi)
     - [Social Skills](#social-skills)
       - [Animal Handling (Emp)](#animal-handling-emp)
       - [Commanding (Will)](#commanding-will)
       - [Deception (Ora)](#deception-ora)
       - [Intimidation (Will)](#intimidation-will)
+      - [Mercantilism (Ora)](#mercantilism-ora)
       - [Persuasion (Emp)](#persuasion-emp)
       - [Resist (Will)](#resist-will)
       - [Riding (Emp)](#riding-emp)
-    - [Knowledge](#knowledge)
+    - [Knowledge Skills](#knowledge-skills)
       - [Architecture (Int)](#architecture-int)
-      - [Alchemy (Arc)](#alchemy-arc)
       - [Appraisal (Int)](#appraisal-int)
-      - [Brewing (Wis)](#brewing-wis)
       - [Geography (Int)](#geography-int)
       - [Heraldry (Int)](#heraldry-int)
-      - [History < subject > (Wis)](#history--subject--wis)
-      - [Language < language > (Int)](#language--language--int)
+      - [History \< subject \> (Wis)](#history--subject--wis)
+      - [Language \< language \> (Int)](#language--language--int)
       - [Law and politics (Int)](#law-and-politics-int)
-      - [Magic School < School > (< Attribute >)](#magic-school--school---attribute-)
+      - [Magic School \< School \> (\< Attribute \>)](#magic-school--school---attribute-)
       - [Mathematics (Int)](#mathematics-int)
       - [Mechanics (Int)](#mechanics-int)
       - [Nature (Int)](#nature-int)
       - [Mysticism and Religion (Wis)](#mysticism-and-religion-wis)
       - [Medicine (Int)](#medicine-int)
-      - [Reading and Writing < language > (Int)](#reading-and-writing--language--int)
+      - [Reading and Writing \< language \> (Int)](#reading-and-writing--language--int)
       - [Surgery (Int)](#surgery-int)
-      - [Tanning/Skinning (Agi)](#tanningskinning-agi)
       - [Warfare (Wis)](#warfare-wis)
-      - [Woodcrafting (Agi)](#woodcrafting-agi)
-    - [Craftsmanship](#craftsmanship)
-      - [Armor smithing (Str)](#armor-smithing-str)
+    - [Craftsmanship Skills](#craftsmanship-skills)
       - [Artistry (Emp)](#artistry-emp)
+      - [Armor smithing (Str)](#armor-smithing-str)
+      - [Ambersmithing (Agi)](#ambersmithing-agi)
+      - [Alchemy (Arc)](#alchemy-arc)
+      - [Brewing (Wis)](#brewing-wis)
       - [Blacksmithing (Str)](#blacksmithing-str)
       - [Bow-Making (Agi)](#bow-making-agi)
       - [Carpentry (Agi)](#carpentry-agi)
       - [Clothesmaking (Agi)](#clothesmaking-agi)
       - [Cooking (Emp)](#cooking-emp)
       - [Engineering (Int)](#engineering-int)
-      - [Fishing (End)](#fishing-end)
       - [Fletching (Agi)](#fletching-agi)
+      - [Glass-blowing (Agi)](#glass-blowing-agi)
+      - [Goldsmithing (Agi)](#goldsmithing-agi)
       - [Leatherworking (Agi)](#leatherworking-agi)
       - [Masonry (Str)](#masonry-str)
       - [Rune Carving (Arc)](#rune-carving-arc)
+      - [Tanning/Skinning (Agi)](#tanningskinning-agi)
       - [Weapon smithing (Str)](#weapon-smithing-str)
+      - [Woodcarving (Agi)](#woodcarving-agi)
   - [List of Magic Schools](#list-of-magic-schools)
-    - [Electromancy [Arc]](#electromancy-arc)
-    - [Pyromancy [Arc]](#pyromancy-arc)
-    - [Cryomancy [Arc]](#cryomancy-arc)
-    - [Restoration [Emp]](#restoration-emp)
-    - [Alteration [Int]](#alteration-int)
-    - [Illusion [Emp]](#illusion-emp)
-    - [Soul-Binding [Int]](#soul-binding-int)
-    - [Telekinesis [Int]](#telekinesis-int)
-    - [Telepathy [Ora]](#telepathy-ora)
-    - [Counter-Magic [End]](#counter-magic-end)
-  - [Weapon Properties](#weapon-properties)
-  - [Weapon Types](#weapon-types)
-    - [Unarmed](#unarmed)
-    - [Short Blade](#short-blade)
-    - [Long Blade](#long-blade)
-    - [Great Blade](#great-blade)
-    - [Axe](#axe)
-    - [Great Axe](#great-axe)
-    - [Spear](#spear)
-    - [Lance](#lance)
-    - [Polearm](#polearm)
-    - [Club](#club)
-    - [Small Crusher](#small-crusher)
-    - [Large Crusher](#large-crusher)
-    - [Short-Bow](#short-bow)
-    - [Longbow](#longbow)
-    - [War-Bow](#war-bow)
-    - [Crossbow](#crossbow)
-    - [Firearm](#firearm)
-  - [Armor Properties](#armor-properties)
-  - [Armor Types](#armor-types)
-    - [Light Armor](#light-armor)
-    - [Medium Armor](#medium-armor)
-    - [Heavy Armor](#heavy-armor)
-  - [Shield Types](#shield-types)
-    - [Buckler](#buckler)
-    - [Round Shield](#round-shield)
-    - [Heater Shield](#heater-shield)
-    - [Kite Shield](#kite-shield)
+    - [Electromancy \[Arc\]](#electromancy-arc)
+    - [Pyromancy \[Arc\]](#pyromancy-arc)
+    - [Cryomancy \[Arc\]](#cryomancy-arc)
+    - [Restoration \[Emp\]](#restoration-emp)
+    - [Alteration \[Int\]](#alteration-int)
+    - [Illusion \[Emp\]](#illusion-emp)
+    - [Soul-Binding \[Int\]](#soul-binding-int)
+    - [Telekinesis \[Int\]](#telekinesis-int)
+    - [Telepathy \[Ora\]](#telepathy-ora)
+    - [Counter-Magic \[End\]](#counter-magic-end)
   - [List of Injuries](#list-of-injuries)
     - [Type Specific Injuries](#type-specific-injuries)
   - [List of Illnesses](#list-of-illnesses)
@@ -244,39 +264,39 @@ A role-playing game by Nicolas Haase
 # Introduction
 **Ambersteel** is a table-top role-playing game (**TTRPG**), requiring a **game master** (**GM**) and at least one **player** to play. 
 
-On the spectrum of *narrative-driven*, *game-y* and *simulationist*, **Ambersteel** aims for the region between *game-y* and *narrative-driven*, while leaning heavily towards *game-y*:
-* Combat is a risky affair and requires tactical and strategic thinking, or the readiness to retreat, when things go awry. When a character suffers **injuries**, they are in *serious trouble*. 
-* Magic is a risky affair, with a chance for a spell to fail and back-fire. The chance of failure is manageable, however. 
+At its core, **Ambersteel** is about exploring ever-evolving characters through play, by confronting them with challenges to their very beliefs. The system is best suited for long-term games, running over several real-world sessions. One-shots are possible but may not provide the best experience, as several of the system's mechanics require breaks in play. 
+
+On the spectrum of *narrative-driven*, *game-y* and *simulationist*, **Ambersteel** aims for the region between *game-y* and *narrative-driven*, while leaning heavily towards *game-y*. The rules are designed to be as intuitive and simple as possible, while complex enough to allow players to make meaningful choices. 
+
+More details about the system:
+* Combat is a risky affair and requires tactical and strategic thinking, or the readiness to retreat, when things go awry. 
+  * When a character suffers **injuries**, they are in *serious trouble*. 
+  * Recovery from injuries is expected to take several in-game weeks. 
+* Magic is **powerful**, but comes with great risk, with a chance for a spell to fail and back-fire. The chance of failure is manageable, however. 
 * Players are expected to manage resources, such as their character's health and assets. Character's are neither *damage sponges*, nor *item vacuums*. 
-* **PC** change and roleplaying are embedded into the rules. There are no classes or other arbitrary restrictions on what a character can do. **Attributes** and **skills** improve as they are used, incentivising experimentation. Characters have long-term and short-term goals and beliefs, which drive them onward and which change over time. 
-* Characters can help each other in game mechanical ways, encouraging co-operative play. 
-* Generalist characters benefit from their varied knowledge, while specialists enjoy unique abilities. 
-* **PC**s aren't expected to start powerful and skilled. But they're expected to become powerful and skilled over the course of a long campaign. 
+* Player character evolution is baked into the rules. 
+  * Characters have long-term and short-term goals, which drive them onward and which change over time. 
+  * There are no classes or other arbitrary restrictions on what a character can do. 
+    * **Attributes** and **skills** improve as they are used. 
+    * Generalist characters benefit from varied knowledge, while specialists enjoy unique abilities. 
+* Role-playing is encouraged by game mechanics. 
+  * A meta-currency, called **fate points** is earned by *players*, based on what they and their character do in a session. 
+  * Characters can help each other in game mechanical ways, encouraging co-operative play. 
 
-While each player only controls a single character, the **GM** is in control of every single non-player character (**NPC**), the world and the story. A player character is abbreviated as **PC**. 
-
-The system is designed to fit a low to medium fantasy medieval setting. 
-
-The rules are designed to be as intuitive and simple as possible, while complex enough to allow players to make meaningful choices. 
+Extensibility and adaptability form a core foundation of the system. While in its current form it best supports medieval fantasy themes, it should be fairly well adaptable to any theme and setting and even encourages you to do so. The bulk of the work would lie in designing skills that fit your setting's era and perhaps finding a "scientific" explanation for what the system refers to as *magic*.
 
 Most rules will have a certain degree of vagueness to them. This is at least partially deliberate. The situations that can come up during play are simply too varied and numerous to be possible to completely cover with rules, without requiring epic tomes filled to the brim with highly specific rulings for highly specific situations. Instead, the game relies on the **GM** to arbitrate in every situation. The descriptions in the rules here should serve as a point of orientation for the **GM**. How they interpret the rules, is how they're to be understood. 
-
-Despite the focus on tactical and deadly combat, this is not an *adversarial* game. The **GM** and the players work ***together*** to create a unique experience and weave a story of glorious triumph, tragic defeat or anything in-between. Ultimately, the **GM**'s job is to provide interesting conundrums to the players and their job is to provide interesting answers, in-line with what their characters believe. What's important to remember is that the **GM** is a *player*, too. They're here to have fun and enjoy their time at the table, too. That is why it's important to work ***together***. 
-
-# Credits
-**Ambersteel** is not a revolution of the RPG genre and it was never meant to be. It is an amalgam and consolidation of rules I found to my liking, topped off with minor inventions of my own, in hopes of crafting a deep, yet intuitive system. 
-
-As such, I took inspiration from other systems I have read, played and enjoyed in the past:
-* **The Burning Wheel**, by Luke Crane and Dan Abram
-* **Zweihänder**, by Daniel D. Fox
-* **Knave**, by Ben Milton
 
 # How to Play
 As **Ambersteel** is a **roleplaying game**, there are certain rules and expectations of both players and **GM**. 
 
-In some places, where distances are concerned, both feet and meters are noted as units. What attentive readers will notice, is that the conversion between the numbers won't always be correct. This is a deliberate decision to make the math easier, whenever a grid (or *battlemap*) is used in play. One square on the grid should represent either a three foot, or one meter square. Furthermore, a single, ordinary human, should occupy an entire such square. 
+Despite the focus on tactical and deadly combat, this is not an *adversarial* game. The **GM** and the players work ***together*** to create a unique experience and weave a story of glorious triumph, tragic defeat or anything in-between. Ultimately, the **GM**'s job is to provide interesting conundrums to the players and their job is to provide interesting answers, in-line with what their characters believe. What's important to remember is that the **GM** is a *player*, too. They're here to have fun and enjoy their time at the table, as well. 
 
-### Dice
+Each player only directly controls a single character. The **GM** is in control of every single non-player character (**NPC**), the world and the story. A player character is abbreviated as **PC**. 
+
+In some places, where distances are concerned, both feet and meters are noted as units. What attentive readers will notice, is that the conversion between the numbers won't always be correct. This is a deliberate decision to make the math easier, whenever distances are concerned. If a battlemap is used, one square on the grid should represent either a three foot, or one meter square. Furthermore, a single, ordinary human, should occupy an entire such square. 
+
+## Dice
 **Ambersteel** uses a **dice pool** system of **six-sided dice** (henceforth referred to as **D6**) to resolve [tests](#tests). *Dice pool* means a variable number of dice will be rolled, based on a character's [attributes](#attributes), [skills](#skills), boons and circumstance of the situation they're in. 
 
 The following types of dice come into play:
@@ -285,15 +305,15 @@ The following types of dice come into play:
 * **D6** - six-sided dice
 * **D10** (**D100**) - two ten-sided dice
 
-### Before the Game
+## Before the Game
 Before anyone can start to play, the players have to [create their characters](#character-creation). Ideally, this process should be done in cooperation with the **GM** and each other, to make sure the character concepts fit into the world and planned narrative. Also, it is advisable to design characters that will work well together, as a group. 
 
-### The Session
+## The Session
 This is the time, when the magic happens. The players and **GM** have come together and begin or continue the story. 
 
 [Fate points](#fate-points) cannot be awarded during play and neither can cards be bought from the [hand of fate](#hand-of-fate). However, players and the **GM** should take note of every situation they believe a **PC** (their own included) could have earned a [fate point](#fate-points).
 
-#### Intent & Action
+### Intent & Action
 The players drive the story and the action. They decide what their character will try to do and the **GM** will help them figure out if things will go as planned. 
 
 As a player, when deciding on what to do, make sure you state the **intent** of your action, like "I will make that person work for us!". 
@@ -302,7 +322,7 @@ Then, the **GM** will need to know *how* you aim to follow up on your intent. De
 
 Of course, how appropriate a certain [attribute](#attributes) or [skill](#skills) is for the resolution of a given situation, is ultimately up to the **GM** and the specifics of the situation itself. 
 
-### After the Session
+## After the Session
 After a playing session is done, the players and **GM** should stick around to discuss which players earned [fate points](#fate-points). This is where players are nominated for [fate points](#fate-points), by each other and by the **GM**. If everyone agrees, the [fate points](#fate-points) are awarded. Players can and should lobby for their [fate points](#fate-points), but shouldn't beg. If most everyone else says no, then that decision stands. That doesn't mean there is no point in discussing the matter further, but such a discussion shoulnd't be forced. 
 
 Also after the session, players and the **GM** discuss whether a **PC** should lose a [reaction](#reactions), because they have acted against it or haven't gotten to play it out at all. 
@@ -355,12 +375,18 @@ The outcome of the test is graduated. That means, the number of **positives** ro
 
 > For example, when crafting a work of art, the number of **positives** achieved may result in a more impressive piece, which can then be sold at a higher price or which could make for a more impressive gift. 
 
-On the other hand, failure doesn't have to be absolute. The degree of failure can allow for a "failing forward" - a success, but with complications, whose severity depends on the number of failures. 
+A **graduated test** can occur in two forms. The first is without an **Ob** threshold for failure and the second is *with* such a threshold. When a graduated test has an **Ob**, then at least that number of **positives** must be rolled, in order to succeed the test, at all. Any **positives** rolled past the **Ob**, determine the **degree of success**. However, not achieving at least **Ob** number of **positives** results in the test being counted as a **complete failure**. 
+
+On the other hand, even a **complete failure** doesn't have to be *absolute*. The number of **positives** *missing* to reach the **Ob** threshold determine the **degree of failure**. Therefore, there might be a chance to "fail forward" - a success, but with complications, whose severity depends on the **degree of failure**. 
+
+> For a test, a **PC** has to do a **graduated test** of one of their **craftsmanship** **skills**, at **Ob** 3. They only achieve only 2 **positives**, which results in a **degree of failure** of 1. 
+> 
+> Seeing such a low **degree of failure**, the **GM** rules that the PC *does* succeed their test, but also loses more materials in the process than a **complete success** would have cost them. 
 
 #### Creative Test
-Also known as a **skill challenge**, this type of test asks the player(s) to pick and justify the skill(s) or attribute to use in a given situation. Players are encouraged to think creatively, come up with and describe their solutions. 
+Also known as a **skill challenge**, this type of test asks the player(s) to pick and justify the [skill(s)](#skills) or [attribute](#attributes) to use in a given situation. Players are encouraged to think creatively, come up with and describe their solutions. 
 
-Whether the attribute or skill(s) in question can apply to resolve the situation at hand, lies at the **GM**'s discretion. 
+Whether the [attribute](#attributes) or [skill(s)](#skills) in question can apply to resolve the situation at hand, lies at the **GM**'s discretion. 
 
 #### Opposed Test
 Also known as a *versus test*, this type of test occurs, when two characters come into opposition. Who wins, and by how much, is determined by comparing the number of **positives** of each character. The one with the most **positives** is the winner. 
@@ -458,8 +484,14 @@ Governs a character's **strength** - the ability to lift, throw and break heavy 
 
 Also governs the [carrying capacity](#carrying-capacity) of a character. Each point in **strength** raises the [carrying capacity](#carrying-capacity) of the character by 3. 
 
+For every 3 points in **strength**, past the initial level, every [asset slot](#worn--equipped) of a character can hold **assets** of one bulk higher. 
+
+> At level 3 in **strength**, a character can still only hold **assets** of bulk 2 in each hand. 
+> 
+> Starting at level 4 in **strength**, a character can hold **assets** of bulk 3 in each hand. Then, the next increase is at level 7, then level 10 and so on.
+
 #### Toughness [Tough]
-Governs the [injury threshold](#injury) of a character. 
+Governs the [injury limit](#injury) and chance to shrug off [bleeding](#bleeding) and [poison](#poisoned). 
 
 For every point in [toughness](#toughness-tough), a character gains **+4 maximum HP** and raises their [injury](#injury) limit by 1. 
 
@@ -534,13 +566,18 @@ A **cycle** is 2 Months, regardless of attribute being practiced.
 ## Skills
 A **skill** is any acquired knowledge and experience regarding a specific subject. 
 
-The *modified* level of a **skill** dictates the base number of **D6** to roll for a [test](#tests) of that **skill**. 
-* Two values must be tracked for every **skill**: The *unmodified* and *modified* level. See [boons and penalties](#boons--penalties). 
-* **Skill** values typically range from 1 to 3 for basic knowledge. 4 and 5 represent a firm understanding, 6 and 7 represent excellence and 8 and above represents mastery. 
+Two values must be tracked for every **skill**: The *unmodified* and *modified* level. See [boons and penalties](#boons--penalties). The *modified* level of a **skill** dictates the base number of **D6** to roll for a [test](#tests) of that **skill**.
 
 When [testing](#tests) a **skill**, add half of the related [attribute](#attributes)'s value (rounded down) as an additional number of dice for the test. It is also possible to [fork](#skill-forking) **skills**, allowing even more dice to be used the test. 
 
-**Skills** [advance](#advancing-skills), as they're tested. It is also possible to [practice](#practice) and [teach](#teaching) **skills**. 
+**Skills** [advance](#advancing-skills), as they're tested. It is also possible to [practice](#practicing-skills) and [teach](#teaching-skills) **skills**. 
+
+### Skill Abilities
+Some skills have a list of **skill abilities** that a character unlocks, if they reach a certain level in that **skill**. A **skill ability** has one or more effects and one or more conditions that restrict when they're applicable. As such, **skill abilities** are only available to characters with a certain degree of *specialization*. 
+
+A **skill ability** can be a *passive* [boon](#boons--penalties) or an *active* choice, like a special type of attack or tool for use in social conflict resolution. 
+
+Using a **skill ability** counts as an **action**. 
 
 ### Skill Forking
 For every **skill** a character knows (= is not currently still learning), and they are currently testing a **skill** that is thematically related, they can **fork** that **skill** into their test, granting them **+1D6** for their [test](#tests). 
@@ -568,7 +605,7 @@ The outcome of a test gets noted on the skill it was made for, not the attribute
 
 [Forking](#skill-forking) learning skills into tests is not allowed. **Forking** into tests of learning skills isn't allowed, either. 
 
-It **is** possible to receive help or [tutoring](#teaching) on a learning skill. 
+It **is** possible to receive help or [tutoring](#teaching-skills) on a learning skill. 
 
 ### Advancing Skills
 Whenever a **PC** uses a **skill** in a [test](#tests), the outcome must be noted, both on the skill **and** its associated [attribute](#attributes). See also: [Tests Bring about Learning](#tests-bring-about-learning)
@@ -616,8 +653,8 @@ For your convenience, the following table contains the precalculated requirement
 
 Whenever a skill advances, its associated successes and failures must each be reset to 0. Successes and failures accumulated past the threshold do not carry over. They're "lost". 
 
-#### Practice
-It is possible to advance skills *passively*. Whenever a large period of time is spent outside of active adventure, **PC**'s can practice a skill of choice. 
+#### Practicing Skills
+It is possible to advance **skills** *passively*. Whenever a large period of time is spent outside of active adventure, **PC**'s can practice a skill of choice. 
 
 A **PC** can only actively practice one **category of skills**. For every **cycle** that passes of active practice, the **PC** can roll a [test](#tests) of a skill of the corresponding category. Furthermore, a **PC** can not both be actively practicing a **skill** *and* an **attribute**. They must choose - either practice a **skill** *or* an **attribute**. 
 
@@ -630,10 +667,10 @@ A **PC** can only actively practice one **category of skills**. For every **cycl
 
 > A **PC** spends seven weeks practicing their [tactics](#tactics-str), while waiting for their comrade to recover from their [injuries](#injury). [Tactics](#tactics-str) being a physical skill, the cycle for tests is 3 weeks. In this case, 2 tests can be made and their outcomes noted. 
 
-#### Teaching
-Much like it is possible for a character to [practice](#practice) on their own, they can also be taught by another, who knows more than them. 
+#### Teaching Skills
+Much like it is possible for a character to [practice](#practicing-skills) on their own, they can also be taught by another, who knows more than them. 
 
-Both teacher and pupil must actively spend time together, furthering the pupil's skill. The rules for cycle and test are the same as with [practice](#practice). The cycles noted in the table below are used instead. 
+Both teacher and pupil must actively spend time together, furthering the pupil's skill. The rules for cycle and test are the same as with [practice](#practicing-skills). The cycles noted in the table below are used instead. 
 
 | Skill Category | Cycle    |
 | -------------- | -------- |
@@ -687,32 +724,57 @@ A **reaction** is an "if/then" and "always/never" statement, which can be be ben
 There are two types of **reactions**:
 * **Troublemaker**: A detrimental **reaction**, that will get the character in trouble.
   * A **troublemaker** allows earning [fate points](#fate-points). 
-  * *Trouble* is defined as any situation in which a mild conflict arises, from the **PC**'s **reaction**. This conflict does not have to be violent, mind you. It is entirely possible for a social conflict to arise, that is entirely non-violent. In fact, non-violent situations are preferred. But things can always escalate, of course.
+  * *Trouble* is defined as any situation in which a mild conflict arises, from the **PC**'s **reaction**. This conflict does not have to be violent, mind you. It should be preferable for a social conflict to arise, that is entirely non-violent. Things could always escalate, of course.
 * **Assurance**: A beneficial **reaction** that acts as *insurance*, that the character won't be caught by surprise. 
   * An **assurance** does not allow earning [fate points](#fate-points). 
-  * *Insurance* is defined as a behavior that allows entering a given situation under more favorable circumstances. An *insurance* can also help prevent or resolve a conflict. 
+  * *Insurance* is defined as a *behavior* that allows entering a given situation under more favorable circumstances. An *insurance* can also help prevent or resolve a conflict. 
+  * An **assurance** cannot alter the facts of the narrative. It **only** serves to give a **PC** an advantage in a situation that triggers this **reaction**. 
 
-> For example: "Whenever someone praises the state religion, I start ranting against it." - This is a **troublemaker**, as the **GM** can use it to cause the **PC** trouble, by presenting them with non player characters that praise the state religion while around the **PC**. 
+> For example: "Whenever someone praises the state religion, I start ranting against it." - This is a **troublemaker**, as the **GM** can use it to cause the **PC** trouble, by presenting them with non-player characters that praise the state religion while around the **PC**. 
 
-> Another example: "Whenever a violent fight breaks out, I have my weapons in hand!" - This is insurance, that even when the **PC** narratively might not have their weapons at the ready, they will, in fact, have them at the ready. 
+> Another example: "Whenever a violent fight breaks out, I have my weapons in hand!" - This is insurance, that even when the **PC** narratively might not have their weapons at the ready (for example, when sleeping), they will, in fact, have them at the ready. 
 
 **Reactions** are expected to change whenever a character (decides) to act against them. A **PC** cannot keep a **reaction** they keep contradicting. Players and the **GM** are expected to discuss at the end or beginning of a session, whether anyone should give up one of their **reactions**. 
 
-## Health & Exhaustion
-Every character has **Hit Points (HP)** and a maximum number of **injuries** they can endure, before they die. 
+## Personality Traits
+Every **PC** has several values that help inform their player what their character is like - how they act. 
 
-Whenever a character is hurt, the **damage** that has been inflicted upon them is deducted from their **HP**. Whenever their **HP** reach zero, they suffer an [injury](#injury) and their **maximum HP** is reduced by **2**. So, in other words, for every [injury](#injury), a character loses 2 maximum **HP**. 
+This personality is codified by the following matrix. Each row is a scale, with two opposing traits. Whenever A trait reaches the "signature" column, a **PC** is known for that trait! In fact, they can hardly *not* act that way! In order for behaviour to deviate from a signature trait, a D6 has to be rolled. Only if it is a **positive**, can the player choose to deviate from the signature trait's dictated behavior. 
+
+Whenever **PC**s very strongly act in a certain way, their value in a **personality trait** may change. Take note during play, how the characters have acted. After the session, discuss whether any of the **PC**s have shown a very strong drift towards either side of the scale. And if everyone agrees, a personality change is in order!
+
+| Trait       | Signature | Very | A little | Undecided | A little | Very | Signature | │ Trait      |
+| ----------- | --------- | ---- | -------- | --------- | -------- | ---- | --------- | ------------ |
+| Arrogant    |│          |│     |│         |│          |│         |│     |│          | │ Humble     |
+| Cowardly    |│          |│     |│         |│          |│         |│     |│          | │ Courageous |
+| Cruel       |│          |│     |│         |│          |│         |│     |│          | │ Merciful   |
+| Deceitful   |│          |│     |│         |│          |│         |│     |│          | │ Honest     |
+| Lazy        |│          |│     |│         |│          |│         |│     |│          | │ Energetic  |
+| Paranoid    |│          |│     |│         |│          |│         |│     |│          | │ Naive      |
+| Reckless    |│          |│     |│         |│          |│         |│     |│          | │ Prudent    |
+| Selfish     |│          |│     |│         |│          |│         |│     |│          | │ Considerate|
+| Vengeful    |│          |│     |│         |│          |│         |│     |│          | │ Forgiving  |
+
+These values can even have an impact on your [tests](#tests)! For example, a character who is known to be merciful may find it easier to convince their enemies to surrender to them. On the other hand, if that same **PC** tries intimidation, they will find it harder to succeed. 
+
+Keep your character's **personality traits** in mind and remember to ask your **GM** for a bonus die to roll in [tests](#tests), where your "very" strong or "signature" traits might aid you!
+
+## Health & Exhaustion
+Every character has **Hit Points (HP)** and a maximum number of **injuries** they can endure (= their **injury limit**), before they die. 
+
+### Hit Points (HP)
+Whenever a character is hurt, the **damage** that has been inflicted upon them is deducted from their **HP**. Whenever their **HP** reach zero, they suffer an [injury](#injury) and their **maximum HP** is reduced by **2**. 
+
+So, in other words, for every [injury](#injury), a character loses 2 maximum **HP**. But even when [Toughness](#toughness-tough) is reduced by an [injury](#injury), still only 2 maximum **HP** are deducted. 
 
 Any **HP** damage past zero overflows. The additional damage dealt isn't lost. 
 
-Even when [Toughness](#toughness-tough) is reduced by an [injury](#injury), still only 2 maximum **HP** are deducted. 
-
-Outside of combat, a successful [medicine](#medicine-int) test can restore all currently missing **HP** of a character. 
+Outside of combat, a successful [medicine](#medicine-int) test, requiring medical supplies, can restore all currently missing **HP** of a character. Alternatively, [restoration magic](#restoration-emp) can achieve the same, without the need for medical supplies. 
 
 ### Injury
 An **injury** is a serious health impediment of a character. Every character has a maximum number of [injuries](#injury) they can endure. If they reach their maximum number of [injuries](#injury), the character dies. **PC**s are an exception, who instead arrive at [death's door](#deaths-door). 
 
-Whenever a character suffers an [injury](#injury), a **D100** must be rolled and the corresponding result from the [list of injuries](#list-of-injuries) added to the character. Depending on the type of damage and the situation in question, a different injury table may be rolled on, instead. Such as the [burn injuries](#list-of-burn-injuries). 
+Whenever a character suffers an [injury](#injury), a **D100** must be rolled and the corresponding result from the [list of injuries](#list-of-injuries) added to the character. Depending on the type of damage and the situation in question, a different injury table may be rolled on or a "flat" injury may be applied, instead. See also the [list of type specific injuries](#type-specific-injuries).
 
 For every **injury** incurred, a character's maximum **HP** is reduced by 2. 
 
@@ -740,9 +802,9 @@ An [injury](#injury) can be properly **treated** via [surgery](#surgery-int):
 All currently **treated** [injuries](#injury) can be removed/recovered from, by spending **4D4** weeks in uninterrupted, active recovery. Active recovery implies spending the vast majority of the day in bed or at least avoiding physical and mental strains. 
 
 #### Injury Exhaustion Threshold
-Once a character is brought to at least half their maximum number of [injuries](#injury) (rounded down), every time past that point that they suffer further damage and/or injury they must succeed a [toughness](#toughness-tough) test with their number of **injuries** as the **Ob**, or else suffer +1 [exhaustion](#exhaustion). This point in time is called the **injury exhaustion threshold**. 
+Once a character is brought to at least half their maximum number of [injuries](#injury) (rounded down), every time past that point that they suffer further damage and/or an **injury** they must succeed a [toughness](#toughness-tough) test with their number of **injuries** as the **Ob**, or else suffer +1 [exhaustion](#exhaustion). This point in time is called the **injury exhaustion threshold**. 
 
-> A character is injured in combat. They have an **injury** threshold of 3 and already suffered an injury earlier. Even though the earlier injury may have been **patched up** by now, the character's new injury brings them up to a total of 2 **injuries**. 
+> A character is injured in combat. They have an **injury limit** of 3 and already suffered an **injury** earlier. Even though the earlier **injury** may have been **patched up** by now, the character's new **injury** brings them up to a total of 2 **injuries**. 
 > 
 > This means that they've gone past their **injury exhaustion threshold**. Now, they must succeed a [toughness](#toughness-tough) test at **Ob** 2, or else suffer +1 [exhaustion](#exhaustion). 
 
@@ -755,10 +817,10 @@ Exhaustion is gained through performing **exhausting actions**, carrying **exhau
 
 Exhaustion gained from **exhausting actions** can be reduced by resting. A full rest of at least **six uninterrupted hours** will fully clear any exhaustion gained from **exhausting actions**. 
 
-Exhaustion gained from **exhausting equipment**, can be reduced, by dropping the equipment in question and resting for a short while, at the **GM**'s discretion. A character trying to carry more than they can endure, should not immediately fall unconscious, mind you. Apply common sense - the character in question would probably try to carry the extra equipment, only find out right away it is simply too much for them. 
+Exhaustion gained from **exhausting equipment**, can be reduced, by dropping the equipment in question and resting for a short while, at the **GM**'s discretion. A character trying to carry more than they can endure, should not immediately fall [unconscious](#unconscious), mind you. Apply common sense - the character in question would probably try to carry the extra equipment, only find out right away it is simply too much for them. 
 
 ### State
-A **state** can have positive or negative effects on them and they can have any number of **states** applying to them. 
+A **character** can have positive or negative effects on them, represented by **states**. They can have any number of **states** applying to them. 
 
 #### Berserk
 A character who is in **berserk**, **must** attack the creature nearest to them. 
@@ -771,9 +833,15 @@ A **burning** character suffers 1 point of [HP](#health--exhaustion) damage at t
 This **state** can be incurred multiple times. While a character has this **state**, at every end of their turn during combat or every 2 seconds outside of combat, they automatically incur another point of **burning**! They must actively work to get rid of it, for example by dropping to the floor and rolling on the flames, dousing themselves in water and so forth. The point of **burning** is incurred *after* the damage from the previous points of **burning** is applied. 
 
 #### Bleeding
-A **bleeding** character suffers 1 point of [HP](#health--exhaustion) damage at the end their every turn in combat or every 2 seconds outside of combat. 
+A **bleeding** character suffers 1 point of [HP](#health--exhaustion) damage at the end their every turn in combat or every 5 seconds outside of combat. 
 
-This **state** can be incurred multiple times. A point of **bleeding** can be removed with [medicine](#medicine-int). [Restoration](#restoration-emp) magic can also remove one or more points of **bleeding** at a time. 
+This **state** can be incurred multiple times. 
+
+A point of **bleeding** can be removed with a successful [medicine](#medicine-int) test, requiring a bandage. [Restoration magic](#restoration-emp) can also remove one or more points of **bleeding** at a time. 
+
+At the end of every combat round of every 5 seconds outside of combat, a character can attempt to shrug off 1 point of **bleeding**, by succeeding a [toughness](#toughness-tough) [test](#tests), the **Ob** of which is their number of points of **bleeding**, times 2. 
+
+> A character with 2 points of **bleeding** must succeed a test at **Ob** 4, to shrug off 1 point of **bleeding**. 
 
 #### Dazed
 A **dazed** character begins their turn with -2 **AP** and can run at most only half the distance they normally could. In addition, they suffer a penalty of **-1D** to all tests. The number of dice for a test cannot be reduced to less than 1 by this penalty. 
@@ -798,10 +866,17 @@ A **dissolving** character suffers **1D5** points of [HP](#health--exhaustion) d
 
 This **state** is removed automatically, if the character is freed of the acidic substance. 
 
+#### Drug-Addicted
+A **drug-addicted** character must take their drug once every 24 hours, or else enter **withdrawal**. 
+
+For every 24 hours that a character is in **withdrawal**, they suffer -1D to **all** tests. For every 12 hours that they are in **withdrawal** they have to pass a [willpower](#willpower-will) test at **Ob** 2, or else be forced to dedicate their every whole strength into acquiring and taking a new dose of the drug. 
+
+After 72 consecutive hours (= 3 full days) of having being in **withdrawal**, the character breaks free from their addiction, removing this **health state**.
+
 #### Electrified
 An **electrified** character suffers **-1D** for their every [test](#tests) requiring [agility](#agility-agi). That means [attributes](#attributes) and [skills](#skills). 
 
-This **state** is removed automatically, at the end of the character's next turn in combat or after 4 seconds outside of combat. 
+This **state** is removed automatically, at the end of the character's next turn in combat or after 5 seconds outside of combat. 
 
 #### Frostbitten
 A **frostbitten** character suffers -1 [AP](#action-points-ap) during combat. 
@@ -831,9 +906,13 @@ Note, the character is not physically unable to cause harm, but they **really** 
 This **state** lasts until it is successfully [resisted](#resist-will) or the character is made [unconscious](#unconscious). 
 
 #### Poisoned
-A **poisoned** character suffers 1 points of [HP](#health--exhaustion) damage at the end their every turn in combat or every 2 seconds outside of combat. 
+A **poisoned** character suffers 1 points of [HP](#health--exhaustion) damage at the end their every turn in combat or every 5 seconds outside of combat. 
 
-This state can be incurred multiple times and can be removed with an antidote or with [restoration](#restoration-emp) magic.
+This state can be incurred multiple times and can be removed with an *antidote* or with [restoration magic](#restoration-emp).
+
+At the end of every combat round of every 5 seconds outside of combat, a character can attempt to shrug off 1 point of **poisoned**, by succeeding a [toughness](#toughness-tough) [test](#tests), the **Ob** of which is their number of points of **poisoned**, times 2. 
+
+> A character with 2 points of **poisoned** must succeed a test at **Ob** 4, to shrug off 1 point of **poisoned**. 
 
 #### Prone
 A character who is prone, is harder to hit with ranged attacks, but easier to hit with melee attacks, as they'll have a harder time defending. 
@@ -901,7 +980,7 @@ All damage inflicted, is inflicted with a certain type of damage.
 ### Damage Resistances
 Some creatures can resist certain [types of damage](#damage-types) naturally, while others may cover themselves in armor to the same effect. 
 
-How much **damage** is resisted, depends on the specifics of the creature or character and their [equipment](#possessions--equipment). 
+How much **damage** is resisted, depends on the specifics of the creature or character and their [equipment](#worn--equipped). 
 
 ### Boons & Penalties
 Boons and penalties to the level of an [attribute](#attributes) or [skill](#skills) can be incurred from several different sources, such as [injuries](#injury), [illnesses](#illness), [mutations](#list-of-mutations), [scars](#scars) and [states](#state). Boons and penalties may be temporary or permanent, depending on their source. 
@@ -920,48 +999,38 @@ A character may have things on their person, such as worn equipment and luggage,
 Collectively, these things are referred to as their **assets**. 
 
 ### Worn & Equipped
-Every character can have **assets** they wear or carry on person. These things do not factor into their used [carrying capacity](#carrying-capacity) and are listed on their character sheet in separate slots. 
+Every character can have **assets** they wear or carry on person. These things do not factor into their used [carrying capacity](#carrying-capacity) and are listed on their character sheet in a separate section. Every asset on person has to be placed in a so called **asset slot**. 
 
-Every humanoid character has the following slots for worn & equipped assets available:
-* One slot for clothing. 
-* One slot for armor.
-* A slot for every hand. Two-handed weapons would occupy two slots. 
+Every **asset slot** has a maximum bulk it can hold. Two or more **slots** of the **same type** can be combined to hold a single asset that is too bulky for just one slot. The amount of bulk each slot can hold can be increased with greater [strength](#strength-str). 
+
+Every humanoid character has the following **slots** for worn & equipped **assets** available:
+* One slot for clothing of up to 3 bulk. 
+* One slot for armor of up to 3 bulk. 
+* A slot for every hand of up to 2 bulk. 
   * This would allow creatures with more than two appendages to potentially hold a lot more things. 
-* One slot for a back-strapped thing. 
+* One slot for a back-strapped thing of up to 3 bulk. 
   * A backpack or similar thing need not be listed, as it is implied by the ability to have [luggage](#luggage) on person. 
 * Slots for any number of worn jewelry or other ornaments.
   * This only considers *light* jewelry and ornaments. Things that wouldn't encumber their wearer noticeably. Such things as rings, bracelets, a circlet or similar. 
 
 ### Luggage
-In addition to the things a character can *wear* on their person, they can also carry around things in a backpack, in pouches, slung over the shoulder or using whatever on person storage solution needed. These things are considered a character's **luggage**. 
+In addition to the things a character can *wear* on their person, they can also carry around things in a backpack, in pouches, slung over the shoulder or using whatever on person storage solution available. These things are considered a character's **luggage**. 
 
 Things such as money, valuables, camping equipment, tools, provisions, ammunition and so on, all count as **luggage**. 
 
 How much **luggage** a character can have on them, is determined by their [carrying capacity](#carrying-capacity). For every point of it, a character gets one *slot* for a piece of **luggage**. 
 
 #### Carrying Capacity
-How much [luggage](#luggage) a character can have on them, is determined by their **carrying capacity**. For every point of it, a character gets one *slot* for a piece of **luggage**. 
+How much [luggage](#luggage) a character can have on them, is determined by their **carrying capacity**, which is a **bulk** limit of **assets** that a person can be carrying around on their person. [Worn & equipped](#worn--equipped) **assets** are *excluded* and don't count towards this limit. 
 
-A character's **carrying capacity** is determined by their [strength](#strength-str). For each point in [strength](#strength-str), a character receives 3 *slots* for [luggage](#luggage). 
+A character's **carrying capacity** is determined by their [strength](#strength-str). For each point in [strength](#strength-str), a character raises their **carrying capacity** by 3. 
 
-Most things will take up one *slot*, which equals something around **5 lb/2 kg**, but some particularly large and/or heavy items can take up more *slots*. How many *slots* an item takes up, is referred to as **bulk**. 
+### Property
+Often times, characters will also own things they don't currently have on their person, or which they couldn't reasonably carry on person. 
 
-> An item with **bulk** 2 takes up 2 *slots*. 
+Things such as an owned plot of land, a house, money in the bank, equipment and tools left at home and so on, all count as **property**. Technically, it wouldn't be incorrect to consider things a character has on person as **property**, as well, but it would bloat up a character sheet unnecessarily to list those things twice. 
 
-Up to 100 units of money can fit into one *slot*. 
-
-> In a given world, where the unified currency is called *crowns*:
-> 
-> A **PC** has 56 *crowns*, that money fits into 1 *slot* of **luggage**. Their ally is significantly wealthier, with 314 *crowns*, which take up 4 *slots* of **luggage**.
-
-It is up to the **GM** to decide on when something is *too heavy* to carry for the character in question. 
-
-### Possessions
-Often times, characters will also own things that don't currently have on their person, or which they couldn't reasonably carry on person. 
-
-Things such as an owned plot of land, a house, money in the bank, equipment and tools left at home and so on, all count as **possessions**. Technically, it wouldn't be incorrect to consider things a character has on person as *possessions*, as well, but it would bloat up a character sheet unnecessarily to list those things twice. 
-
-There is no limit for how many **possessions** a character can have. Except, perhaps, how many things they can keep safe from greedy hands. 
+There is no limit for how much **property** a character can have. Except, perhaps, how much they can keep safe from greedy hands. 
 
 ## Character Creation
 Imagine for the longest time of their life, your character has led an ordinary existence, until one day, something life-changing happened. Perhaps something terrible, perhaps something wonderful, but something significant that has forced them out of their comfort zone into a world full of adventure. 
@@ -977,7 +1046,7 @@ The procedure of creating a character consists of the following steps:
 4. [Determine **ambition**, **beliefs** & **reactions**](#choosing-ambition-beliefs--reactions). 
 5. [Determine **attributes**](#choosing-attributes).
 6. [Determine **skills**](#choosing-skills).
-7. [Determine **carrying capacity** and **possessions**](#carrying-capactity--possessions).
+7. [Determine **carrying capacity** and **assets**](#determine-assets).
 8. [Determine **Max HP** and **Injury Maximum**](#determine-max-hp--injury-maximum)
 9. [Determine exhaustion threshold](#determine-exhaustion-threshold).
 10. [Determine magic stamina](#determine-magic-stamina).
@@ -1022,25 +1091,15 @@ If you need inspiration, the following tables might help a spark along:
 | 5 | You swore an oath and intend to keep it. You swore to rescue someone, or bring honor to your clan, or perhaps to bring justice to a known criminal. |
 | 6 | You lost someone or something you held dear. Now, you're on a quest to get it back, or your revenge. |
 
-### Determine Name & Personality
+### Determine Name
 Any interesting character should have an interesting name. Whether you set a name or personality first, is entirely up to you. Although, you might prefer to delay this step until much later, once you've determined the other aspects of your character. Whichever you find easier is fine. 
 
 If you can't come up with a name, you can ask your **GM** for inspiration, since they'll likely know the world and the culture(s) your character can stem from and what kinds of names are common there. 
 
-Perhaps more important than the name, is the personality that it represents. Think about what you want your character to be like - are they very sociable? Or perhaps a taciturn brute who'd rather let their actions speak? What ideals do they have? A virtue and perhaps a vice? How do they speak? Do they stutter? 
+### Determine Personality
+Perhaps more important than a name, is the personality that it represents. Think about what you want your character to be like - are they very sociable? Or perhaps a taciturn brute who'd rather let their actions speak? A cruel man of science? A socialite with friends everywhere? The options are plentiful!
 
-| Range D10 | Virtue      | Vice       | Speech     |
-| --------- | ----------- | ---------- | ---------- |
-| 1         | Courageous  | Cowardly   | Blunt      |
-| 2         | Courteous   | Cruel      | Boisterous |
-| 3         | Disciplined | Greedy     | Formal     |
-| 4         | Honest      | Irascible  | Gravelly   |
-| 5         | Honorable   | Prejudiced | Mumbling   |
-| 6         | Humble      | Reckless   | Precise    |
-| 7         | Righteous   | Wasteful   | Rambling   |
-| 8         | Loyal       | Vengeful   | Dialect    |
-| 9         | Just        | Arrogant   | Stuttering |
-| 10        | Merciful    | Vain       | Rapid-fire |
+Refer to the table in the [personality traits](#personality-traits) section. You can choose freely, where to place your "x", for every row. You can even leave every trait at "undecided" and find out through play, what your character is like. If you prefer, you can even let chance decide for you! For that, roll a D6 for every row. A 0 results in a "signature" trait on the left side of the scale, while a 6 results in a "signature" trait on the right side of the scale. Using this method, you will **not** have *any* "undecided" traits in the end. 
 
 ### Species, Sex & Appearance
 Species is a bit difficult to provide a randomization table for, because the world your **GM** is running, might have different species available, than could be anticipated here. For simplicity's sake, it is assumed you are generating a human here. 
@@ -1150,7 +1209,7 @@ Once you've chosen skills, you can determine the required number of successes an
 For this, see the rules on [skill advancing](#advancing-skills).
 
 ### Determine Assets
-In most cases, your character will have left home with their everyday clothes and some of their **possessions**. 
+In most cases, your character will have left home with their everyday clothes and some of their **property**. 
 
 First, determine your character's [worn & equipped assets](#worn--equipped). Every slot may be filled, but keep in mind your character's background. Someone with the background of a peasant is unlikely to wear a crown, for example. 
 
@@ -1161,7 +1220,7 @@ Always make sure to talk to your **GM** and fellow players and have them agree t
 ### Determine Max HP & Injury Maximum
 Determine your character's **max HP** and **injury limit**, by referring to the [toughness](#toughness-tough) attribute. 
 
-All characters start with an **injury limit** of 1. 
+All characters start with an **injury limit** of 2. 
 
 ### Determine Exhaustion Threshold
 Determine your character's [exhaustion threshold](#exhaustion), by referring to the [endurance](#endurance-end) attribute. 
@@ -1228,6 +1287,88 @@ There are no limits to how many of a given card a player can own, but they may o
 | 1 AFP   | Defy Death         | Leap from [death's door](#deaths-door), remove 1 **active** [injury](#injury) of choice and be at 1 **HP**; Alternatively, avoid a narratively-driven death. The **GM** will decide the character's alternative fate. They could be captured, very badly injured or become indebted to someone or something. |
 | 1 AFP   | Yes, my liege      | Work with your **GM** to create a follower/hireling who will now be at your command/employ. |
 
+# Spending Time
+When not currently dealing with events on a detailed level - there and in the moment - **PC**'s can spend their time on a more abstract level. This applies especially to activities that take greater amounts of time, such as recovering from injuries, travel, engaging in their trade, honing their [skill](#skills) and so on. 
+
+## Travel
+People travel around the world all the time, for the most diverse reasons. Be they a trade caravan on the move between cities, a pilgrim on the way to a holy site, a craftsman going to town to sell their crafts, a roaming mercenary or a mother visiting their children - everyone has to spend time, travelling. 
+
+How much time it takes, exactly, to get from *A* to *B*, depends heavily on the *distance* to and the *means* of travel. If horses are the fastest means of transportation, expect to be travelling across countries for days if not weeks. But if teleportation magic makes travel a trivial issue, then you might not even need to consider it, at all. These details are strongly tied to your **GM**'s world, so they'll ultimately be the one to determine your travel times. 
+
+If there is a world map, the **GM** could overlay it with tiles of squares or hexagons, which may help with determining distance. If your group desires, you could even play it so that your characters only travel from tile to tile. Moving from one tile to another may then always take a set time, unless faster means of travel are available. That way, travel would be simplified and abstract. But discuss with your group, whether you want to play it this way. Travel may also provide interesting opportunities for role-playing and *conflicts*. The abstract level draws attention away from these opportunities. 
+
+## Crafting
+All [craftsmanship skills](#craftsmanship) require a time investment proportional to the *quality* and *complexity* of the desired product, as well as the innate *effort* required to create it. 
+
+Making use of a [craftsmanship skill](#craftsmanship) to create something requires a [graduated test](#graduated-test) be made. The number of dice in play dictate both the time required and the maximum achievable quality. Each [skill](#skills) in question notes how much time one die "costs". It is possible to roll with fewer dice, than would be available for the [graduated test](#graduated-test). [Forked skills](#skill-forking) can also provide a die each, but note that *every* die, including those from [forked skills](#skill-forking), increase the time required. The number of **positives** and **negatives** achieved has no effect on the time taken. Merely the *number* of dice that were rolled matters. 
+
+Most **skills** do not allow for failure and the outcome of the test simply denotes the achieved quality of the product. But there are some **skills**, which can be failed, entirely. In such a case, an **Ob** threshold will be noted. Failing to achieve more **positives** than the **Ob**, will result in a **complete failure** of the test - there is no resulting product and the materials used are wasted. 
+
+The number of **positives** achieved denote the quality that has been achieved. Note this number on the product. 1-2 **positives** result in a **poor**, 3-4 in an **average**, 5 in a **good**, 6 in an **excellent** and 7+ in a **masterwork** product.
+
+Also keep in mind that to craft anything, you must have the materials required. The [craftsmanship skill](#craftsmanship) in question will provide an overview of the kinds of products you can make and what they require. Note, however, that things are kept vague on purpose. No encyclopedic listing of all possible products and required materials can be found, because such lists could never completely encompass the full spectrum of creativity available. The things listed on the skills are only meant to provide guidance. So, be creative and have your **GM** help you figure out what you need to make your product. 
+
+Depending on how easy to acquire the materials are, you may act on a more abstract level and "go shopping", simply spending the time and money required up front, without turning it into a scene or adventure of its own, that must be played out. Of course, the more difficult to acquire materials may require you to *actually* go and find them. 
+
+> For example, a **PC** might have decided they want to create an elaborately decorated piece of furniture, with bands of gold and colored glass inlays. Even though the [carpentry](#carpentry-agi) skill does not list gold as a material for its product, the **PC** should have to procure the gold, if they are to finish their piece of furniture. 
+
+### Crafting Time Chart
+The following matrix denotes the time that work will take, based on its inherent *complexity* and *workload*. 
+
+| **Complexity >** <br> **Workload v** | **Low** | **Moderate** | **High** | **Very High** | 
+| ------------- | ---------- | ---------- | ---------- | ---------- | 
+| **Low**       | 5 Minutes  | 15 Minutes | 1 Hour     | 1 Week     | 
+| **Moderate**  | 10 Minutes | 1 Hour     | 1 Day      | 2 Weeks    | 
+| **High**      | 30 Minutes | 12 Hours   | 3 Days     | 3 Weeks    | 
+| **Very High** | 1 Hour     | 1 Day      | 1 Week     | 1 Month    | 
+
+A **very high** complexity requires the work to be done in a highly specialized environment, with equally specialized tools. The other end of the spectrum is a **low** complexity, which describes work that can be done practically anywhere - even on the road - and with any tool at least somewhat fit for the job. 
+
+Workload is the result of processes that naturally take a long time, the difficulty in processing materials and the amount of work that has to be done. A **very high** workload will take months to complete, while a **low** workload may be finished in a matter of minutes. 
+
+## Trade
+Selling and buying things can take a surprising amount of time. If prices are too high and demand or reputation too low, chances are, you won't be able to sell your goods. But even when people do show interest in your wares, you still have to *sell it* to them. An uncharismatic merchant will have a difficult time making a pretty profit, regardless of the quality of their goods. On the other hand, buying things may prove equally difficult, when what you're looking for isn't really available. 
+
+For trade, there is really only one [skill](#skills) - the [mercantilism](#mercantilism-ora) skill. Using this [skill](#skills) requires a [graduated test](#graduated-test) with an **Ob** threshold to be made. The **degree of success** factors into getting a better price.
+
+The number of dice in play for a [graduated test](#graduated-test) of this skill determine both the chance to successfully trade something and the time it takes to trade it. It is the **GM**'s duty to determine demand and supply of the thing being sold on the market, as well as how well known the **PC** is as a reputable trader. A low demand, coupled with a low reputation as a trader, should result in a high **Ob** for the test (such as a 4 or even 5). On the other hand, if demand is high, reputation might not matter much and result in a much lower **Ob**. 
+
+It is possible to roll with fewer dice, than would be available for the [graduated test](#graduated-test). [Forked skills](#skill-forking) can also provide a die each, but note that *every* die, including those from [forked skills](#skill-forking), increase the time required. The number of **positives** and **negatives** achieved has no effect on the time taken. Merely the *number* of dice that were rolled matters. 
+
+To get an ear on the ground and figure out what the local market is like, a character can spend 8 hours to walk around, talk to people, ask for prices of common goods and get a feel for the wealth of the local populace. 
+
+### Seller's Chart
+The following matrix provides an overview of how long it may take to sell things on the market. Note that the **GM** has the final say on how long it will actually take and on how difficult it will be. 
+
+Denoted are both the time it takes to get a chance at a [mercantilism](#mercantilism-ora) [test](#tests), what the **Ob** threshold is and what margins can be expected. The margins are relative to the goods' *listing price* or *normal* value. 200% means the goods can be sold at twice what they're worth. 
+
+| **Supply >** <br> **Demand v** | **Very High** | **High** | **Moderate** | **Low** | 
+| ------------- | --------- | --------- | --------- | --------- |
+| **Low**       | 4 Days <br> Ob 6 <br>  50%   | 3 Days <br> Ob 5 <br>  60%   | 2 Days <br> Ob 4 <br>  70%   | 1 Day <br> Ob 3 <br>  80%      | 
+| **Moderate**  | 1 Day <br> Ob 5 <br>  80%    | 20 Hours <br> Ob 4 <br>  90% | 16 Hours <br> Ob 3 <br> 100% | 14 Hours <br> Ob 2 <br> 110%   | 
+| **High**      | 12 Hours <br> Ob 4 <br> 110% | 10 Hours <br> Ob 3 <br> 120% | 8 Hours <br> Ob 2 <br> 130%  | 6 Hours <br> Ob 1 <br> 140%    | 
+| **Very High** | 4 Hours <br> Ob 3 <br> 140%  | 2 Hours <br> Ob 2 <br> 160%  | 1 Hour <br> Ob 1 <br> 180%   | 30 Minutes <br> Ob 0 <br> 200% | 
+
+### Buyer's Chart
+The following matrix provides an overview of how long it may take to buy things on the market. Note that the **GM** has the final say on how long it will actually take and on how difficult it will be. 
+
+Denoted are both the time it takes to get a chance at a [mercantilism](#mercantilism-ora) [test](#tests), what the **Ob** threshold is and what price inflation can be expected. The prices are relative to the goods' *listing price* or *normal* value. 200% means the goods must be bought at twice what they're worth. 
+
+The supply is assumed to be relative to the demand. The more something is in demand, the more likely it is to be kept in stock and by more merchants, which makes it easier to find, even if there are more other buyers to compete with. 
+
+| **Supply >** <br> **Demand v** | **Very High** | **High** | **Moderate** | **Low** | 
+| ------------- | --------- | --------- | --------- | --------- |
+| **Low**       | 1 Day <br> Ob 0 <br>  50%      | 2 Days <br> Ob 1 <br>  60%   | 3 Days <br> Ob 2 <br>  70%    | 4 Days <br> Ob 3 <br>  80%   | 
+| **Moderate**  | 14 Hours <br> Ob 1 <br>  80%   | 16 Hours <br> Ob 2 <br>  90% | 20 Hours <br> Ob 3 <br> 100%  | 1 Day <br> Ob 4 <br> 110%    | 
+| **High**      | 6 Days <br> Ob 2 <br> 110%     | 8 Hours <br> Ob 3 <br> 120%  | 10 Hours <br> Ob 4 <br> 130%  | 12 Hours <br> Ob 5 <br> 140% | 
+| **Very High** | 30 Minutes <br> Ob 3 <br> 140% | 1 Hour  <br> Ob 4 <br> 160%  | 2 Hours <br> Ob 5 <br> 180%   | 4 Hours <br> Ob 6 <br> 200%  | 
+
+## Recovery
+When [injured](#injury), a character should prepare to spend away from adventure for a while. Since the process of healing up can take several weeks, this time is best handled abstractly and the other **PC**s can spend the same time, going about their business during some time-off from adventure. 
+
+## Training
+When not busy with work and adventure, **PC**s may train, either passively improving their [attributes](#practicing-attributes) or [skills](#practicing-skills). This time is best handled abstractly, not playing out the details of the training. 
+
 # Combat
 When diplomacy fails, hostilities ensue. 
 
@@ -1243,14 +1384,14 @@ If one party is surprised, the ambushing party gets to act for a full turn, with
 ## Action Points (AP)
 Every turn, every character gets 3 **Action Points (AP)** to spend on actions during their turn. 
 
-Any basic action, so any action not requiring a test, costs 1 **AP**. Any action requiring a test, costs 2 **AP**. Skill abilities can cost varying amounts of **AP**. 
+Any basic action, so any action not requiring a test, costs 1 **AP**. Any action requiring a test, costs 2 **AP**. [Skill abilities](#skill-abilities) can cost varying amounts of **AP**. 
 
 Speaking or shouting a short phrase is free. If you want to have a proper conversation, that will have to take multiple rounds. 
 
 ### Action Point Saving
 If the turn is ended with any **AP** unspent, they can either be saved up, or spent on improving the character's [melee defence](#melee-defence-agi) and [ranged defence](#ranged-defence-agi), as **+1D6** per **AP**. 
 
-Only up to 5 **AP** may be saved up this way. It may be possible to go past this limit via some skill abilities. 
+Only up to 5 **AP** may be saved up this way. It may be possible to go past this limit via some [skill abilities](#skill-abilities). 
 
 ### Combat Movement
 A character can move up to **12'/4m** per **AP** spent. In **difficult terrain**, the distance moved per **AP** is half that, at **6'/2m**. 
@@ -1328,7 +1469,7 @@ The extreme version of an easy attack, the **execution attack** allows outright 
 
 Such an attack can be carried out against any character who is unable to resist (with the exception of player characters, see [death's door](#deaths-door)). 
 
-> An unconscious character, or one chained to the wall couldn't possibly resist and can be instantaneously killed with an **execution attack**. 
+> An **unconscious** character, or one chained to the wall couldn't possibly resist and can be instantaneously killed with an **execution attack**. 
 
 This kind of attack is only possible at the **GM**'s discretion. 
 
@@ -1357,6 +1498,8 @@ While not all magic can be used offensively, that which can, will inflict [damag
 The effects of a magic spell do not affect the mage casting it, unless if they suffer a [spell-backfire](#spell-backfire) or if it is an [aoe](#area-of-effect-attack) spell and they're standing in the **aoe** or if the description of the spell defines that it can. 
 
 A *magic spell* is the intended effect of using a [magic school skill](#magic-school--school---attribute-). This is also referred to as *casting magic*, *casting a spell* or other similar wordings. 
+
+*Spell intensity* is the level at which magic is being cast. 
 
 ## Testing Magic
 Testing a [magic school skill](#magic-school--school---attribute-), in order to cast a *magic spell*, works as follows:
@@ -1446,16 +1589,364 @@ In order to invoke a **rune**:
 # Appendix
 The appendix contains important and less important lists, for reference only when needed. 
 
-## Skill List
+## List of Assets
+The following list does not and cannot aim to be a complete listing of all possible assets in game. Adding new assets as necessary will have to be done by the **GM**. 
+
+### Armor
+
+#### Armor Properties
+Armor can have the following **properties**:
+* **Ambersteel-Lined**: Bonus protection from magic: **+1** for every quality level. **+1D4** for every two **quality levels**, starting at level 1.
+* **Ambersteel-Plated**: Bonus protection from magic: **+1** for every quality level. **+1D6** for every two **quality levels**, starting at level 1.
+* **Ambersteel-Forged**: Bonus protection from magic: **+2** for every quality level. **+1D8** for every two **quality levels**, starting at level 1.
+
+> An ambersteel-lined armor at quality level 3 would have +(3 + 2D4) protection from magic. 
+
+#### Armor Types
+Armor reduces damage to its wearer by a flat amount. By how much, is specific to each armor type. Some armors can have special protections or effects. 
+
+##### Light Armor
+A set of light armor that doesn't impede the wearer by much. Commonly represents a gambeson or thick cloth vest. 
+
+* Bulk: 2
+
+| Reduce Damage     |
+| ----------------- |
+| 3 + 1D3 **Slashing**    |
+| 2 + 1D3 **Bludgeoning** |
+| 1 + 1D3 **Piercing**    |
+| 1 + 1D3 **Crushing**    |
+
+##### Medium Armor
+A set of medium armor with a good balance of protection and weight. Commonly represents a gambeson underneath a mail hauberk. Optional mail mittens. Common headgear: arming cap, mail coif or any non-full helmet. 
+
+* Bulk: 3
+
+| Reduce Damage     |
+| ----------------- |
+| 4 + 1D4 **Slashing**    |
+| 3 + 1D4 **Bludgeoning** |
+| 2 + 1D4 **Piercing**    |
+| 1 + 1D4 **Crushing**    |
+
+##### Heavy Armor
+A set of heavy armor with excellent protection, at the cost of encumbering the wearer greatly. Commonly represents a full suit of plate armor.  
+
+* Bulk: 4
+
+| Reduce Damage     | 
+| ----------------- |
+| 5 + 1D5 **Slashing**    |
+| 4 + 1D5 **Bludgeoning** |
+| 3 + 1D5 **Piercing**    |
+| 2 + 1D5 **Crushing**    |
+
+### Shield Types
+Shields are items that provide passive bonuses to [melee defence](#melee-defence-agi) and [ranged defence](#ranged-defence-agi) and require one free hand to use. This implies they cannot be used at the same time as a two-handed weapon. 
+
+##### Buckler
+A small, round shield commonly held as far from the body as possible, to deflect small or stabbing weapons with ease. Helps only little against heavy blows, however. And don't expect to deflect arrows with this, either. 
+
+* Bulk: 1
+
+| Defensive Bonus |
+| --------------- |
+| +1 [melee defence](#melee-defence-agi).  |
+| +3 [melee defence](#melee-defence-agi) against **stabbing** attacks. |
+
+##### Round Shield
+A medium-sized, round shield made from tough wood and leather, which offers decent protection against most attacks, while not encumbering the wielder too much. 
+
+* Bulk: 2
+
+| Defensive Bonus |
+| --------------- |
+| +2 [melee defence](#melee-defence-agi).  |
+| +2 [ranged defence](#melee-defence-agi). |
+
+##### Heater Shield
+A tough and heavy metal shield, which offers great protection, while still being somewhat manageable to wield. 
+
+* Bulk: 3
+
+| Defensive Bonus |
+| --------------- |
+| +3 [melee defence](#melee-defence-agi).  |
+| +3 [ranged defence](#melee-defence-agi). |
+
+##### Kite Shield
+A large, kite-shaped shield, which can protect every part of the fighter, from the shoulder down to the feet. Its weight makes it difficult to react to attacks quickly, hoever. 
+
+* Bulk: 4
+* +1 [exhaustion](#exhaustion) while wielded
+
+| Defensive Bonus |
+| --------------- |
+| +4 [melee defence](#melee-defence-agi).  |
+| +4 [ranged defence](#melee-defence-agi). |
+
+### List of Stuff & Things
+The following is a list of general assets. Of course, the following list is non-exhaustive. Invent more at your own need. 
+
+| Name                   | Max. Stack Size | Description                                                              |
+| ---------------------- | --------------- | ------------------------------------------------------------------------ |
+| Antidote               | 1    | This unassuming liquid can make the difference between life and death. When imbibed, removes all current points of [poison](#poisoned). |
+| Herbal Remedy Potion   | 1    | The sickly green tint and strong odor of the liquid within might not seem enticing, but its efficacy is well worth it. Upon imbibing, restores all currently missing [HP](#hit-points-hp) of a character. |
+| Laudanum Potion        | 1    | This wonderous substance can quell pain and calm nerves within seconds. Also effective against diarrhea. Upon imbibing, sets one **active** [injury](#injury) to **patched up**. After 24 hours, the [injury](#injury) is set back to **active**, even if it was **treated** in the meantime. Also, must succeed a [willpower](#willpower-will) test at **Ob** 2, or else become [addicted](#drug-addicted) to the stuff. |
+| Medical Supplies       | 2    | A small satchel of clean bandages, thread and needle for suturing, a clean and sharp knife, a splint and straps of leather. |
+| Calming Tea            | 1    | This herbal tea has the ability to calm nerves. Removes [berserk](#berserk), [jealous](#jealous) and [terrified](#terrified). Best enjoyed steaming hot, but not necessarily. |
+
+### Weapon Properties
+Weapons can have the following **properties**:
+* **Long Reach**: Allows attacking a target two squares (6'/2m) away. 
+* **Very long Reach**: Allows attacking a target three squares (9'/3m) away. 
+* **Range Only**: Implies a weapon cannot be used against any targets adjacent to self. 
+* **Prefer Range**: +2 **Ob** to using the weapon against an adjacent target.
+* **Ambersteel-Lined**: Bonus damage against mages and magical creatures: **+1** for every quality level. **+1D4** for every two **quality levels**, starting at level 1.
+* **Ambersteel-Plated**: Bonus damage against mages and magical creatures: **+1** for every quality level. **+1D6** for every two **quality levels**, starting at level 1.
+* **Ambersteel-Forged**: Bonus damage against mages and magical creatures: **+2** for every quality level. **+1D8** for every two **quality levels**, starting at level 1.
+
+> An ambersteel-lined weapon at quality level 3 would have +(3 + 2D4) damage against mages and magical creatures. 
+
+### Weapon Types
+Weapons can have the following **effects**:
+* A **counter-attack** is a reaction that allows a fighter being attacked to attack their attacker. 
+
+In the following, the **Ob** is to be considered a *modifier*. By default, **all** weapon attacks (weapon skills) are opposed by [melee defence](#melee-defence-agi) or [ranged defence](#ranged-defence-agi). Which defence is appropriate, is determined by the weapon type property **melee** or **ranged**. 
+
+#### Unarmed
+Sometimes, your own body is your greatest weapon. Fists and feet can cause a surprising amount of damage.
+
+* Melee
+
+| Skill | **Ob**  | Attack                  | AP | Damage                | Effect |
+| ----- | ------- | ----------------------- | -- | --------------------- | ------ |
+| 0     | Opposed by **Melee Defence** | Punch, kick, headbutt   | 2  | **Str** + 2 **Bludgeoning** | / |
+| 1     | Opposed by **Unarmed** | Grapple | 2  | / | Requires a successful opposed **unarmed** test. If **completely successful**, the target is unable to move and suffers -1D to their defense tests, for as long as they're grappled. Someone grappled can attempt to break free with an opposed **unarmed** test, on their turn. |
+| 2     | Opposed by **Unarmed** | Wrestle and Disarm |  | Perform a single target attack against a designated enemy. If you win, you disarm them and could wrestle them to the ground, making them [prone](#prone), if you so choose. | Disarm only if enemy is using detachable weapon. |
+
+#### Short Blade
+Any short, one-handed blade. Examples: shiv, dagger, Shortsword
+
+* One-handed
+* Melee
+* Bulk: 1
+
+| Skill | **Ob**  | Attack                  | AP | Damage                | Effect |
+| ----- | ------- | ----------------------- | -- | --------------------- | ------ |
+| 0     | Opposed by **Melee Defence** | Slash                   | 2  | **2D2** **Slashing** | / |
+| 0     | Opposed by **Melee Defence** | Stab                    | 2  | **1D2** **Piercing** | / |
+| 0     | Opposed by **Melee Defence**+2 | Target weak-spot      | 3  | **Agi** + **3D2** **Piercing** | / |
+| 2     | Opposed by **Melee Defence**+2 | Artery cut            | 3  | **2D2** **Slashing** | +1 [bleeding](#bleeding) to the target (if it can bleed). |
+
+#### Long Blade
+Any long blade, including long one-handed blades. Examples: arming sword, bastard sword, Longsword
+
+* One-handed or two-handed
+* Melee
+* Bulk: 2
+
+| Skill | **Ob**    | Attack                  | AP | Damage                | Effect |
+| ----- | --------- | ----------------------- | -- | --------------------- | ------ |
+| 0     | Opposed   | Slash                   | 2  | **2D6** **Slashing**  | / |
+| 0     | Opposed   | Stab                    | 2  | **1D6 + 1** **Piercing**  | / |
+| 3     | Opposed+2 | Mordhau-Strike          | 2  | **1D4** **Crushing**  | / |
+| 4     | /         | Fencer-Stance           | 3  | / | Enter a defensive fencing stance. Gain +1D for [melee defence](#melee-defence-agi) and can **counter-attack** **every** attack.|
+
+#### Great Blade
+Any very long, two-handed blade. Examples: sword of war, greatsword, Zweihänder
+
+* Two-handed
+* Melee
+* Long Reach
+* Bulk: 3
+
+| Skill | **Ob**    | Attack                  | AP | Damage                | Effect |
+| ----- | --------- | ----------------------- | -- | --------------------- | ------ |
+| 0     | Opposed   | Slash                   | 2  | **3D6** **Slashing**  | / |
+| 0     | Opposed   | Stab                    | 2  | **1D6 + 2** **Piercing** | / |
+| 3     | Opposed+2 | Mordhau-Strike          | 3  | **1D6** **Crushing**  | / |
+| 4     | Opposed+1 | Heavy Blow              | 3  | **2D6** **Slashing** and **1D6** **Crushing** | Defending against this attack costs 2 [AP](#action-points-ap). +1 [exhaustion](#exhaustion) to self. |
+
+#### Axe
+One-handed axes. Examples: hatchet, dane axe, woodcutter's axe
+
+* One-handed
+* Melee
+* Bulk: 2
+
+| Skill | **Ob**    | Attack                  | AP | Damage                | Effect |
+| ----- | --------- | ----------------------- | -- | --------------------- | ------ |
+| 0     | Opposed   | Hack                    | 2  | **2D6** **Slashing** and **1D3** **Crushing**  | / |
+| 2     | Opposed+1 | Savage Slash            | 2  | **1D8** **Slashing**  | +1 [bleeding](#bleeding)  to the target (if it can bleed). |
+
+#### Great Axe
+Two-handed axes. Examples: bearded axe, double-sided axe
+
+* Two-handed
+* Melee
+* Bulk: 3
+
+| Skill | **Ob**    | Attack                  | AP | Damage                | Effect |
+| ----- | --------- | ----------------------- | -- | --------------------- | ------ |
+| 0     | Opposed   | Hack                    | 2  | **3D6** **Slashing** and **2D3** **Crushing** | / |
+| 3     | Opposed+2 | Savage Slash            | 2  | **2D6** **Slashing**  | +2 [bleeding](#bleeding)  to the target (if it can bleed). |
+| 4     | Opposed+1 | Heavy Blow              | 3  | **2D6** **Slashing** and **1D6** **Crushing** | Defending against this attack costs 2 [AP](#action-points-ap). +1 [exhaustion](#exhaustion) to self. |
+
+#### Spear
+Any one or two-handed short piercing polearms. Examples: short-spear, boar-spear
+
+* One-handed or two-handed
+* Melee
+* Bulk: 2
+* Prefer Range
+
+| Skill | **Ob**    | Attack                  | AP | Damage                | Effect |
+| ----- | --------- | ----------------------- | -- | --------------------- | ------ |
+| 0     | Opposed   | Stab                    | 2  | **2D8** **Piercing**  | / |
+| 2     | /         | Spear wall              | 3  | /                     | Whenever any character moves **into** a spot adjacent to self, can attack that character with a **stab**. |
+
+#### Lance
+Any one or two-handed long piercing polearms. Examples: pike, lance
+
+* Two-handed
+* Melee
+* Bulk: 4
+* Long Reach
+* Prefer Range
+
+| Skill | **Ob**    | Attack                  | AP | Damage                | Effect |
+| ----- | --------- | ----------------------- | -- | --------------------- | ------ |
+| 0     | Opposed   | Stab                    | 2  | **2D6** **Piercing**  | / |
+| 3     | Opposed   | Couched Lancing         | 3  | **3D10** **Piercing** | Requires self to be mounted on horse-back (or similar creature). Self must move at least 15'/5m in a straight line, past the target. |
+
+#### Polearm
+Flexible polearms with a focus on slashing. Examples: halberd, bardiche, poleaxe
+
+* Two-handed
+* Melee
+* Bulk: 4
+* Long Reach
+* Prefer Range
+
+| Skill | **Ob**    | Attack                  | AP | Damage                | Effect |
+| ----- | --------- | ----------------------- | -- | --------------------- | ------ |
+| 0     | Opposed   | Slash                   | 2  | **3D6** **Slashing**  | / |
+| 0     | Opposed   | Stab                    | 2  | **2D8** **Piercing**  | / |
+| 4     | Opposed+2 | Cleave                  | 3  | **1D10** **Slashing** | Deals damage to up to two targets adjacent to each other and self. |
+
+#### Club
+Simple, improvised bludgeoning weapons. Examples: wooden club, staff, stick
+
+* One-handed
+* Melee
+* Bulk: 2
+
+| Skill | **Ob**    | Attack                  | AP | Damage                       | Effect |
+| ----- | --------- | ----------------------- | -- | ---------------------------- | ------ |
+| 0     | Opposed   | Clobber                 | 2  | **Str** + **2D4** **Bludgeoning**      | / |
+| 3     | Opposed+2 | Knockout Blow           | 3  | **Str** + **2D6 + 2** **Bludgeoning**  | +1 [exhaustion](#exhaustion) to self. |
+
+#### Small Crusher
+One-handed, heavy crushing weapons. Examples: flanged mace, warhammer, flail, morning star
+
+* One-handed
+* Melee
+* Bulk: 2
+
+| Skill | **Ob**   | Attack                  | AP | Damage                | Effect |
+| ----- | -------- | ----------------------- | -- | --------------------- | ------ |
+| 0     | Opposed  | Smash                   | 2  | **Str** + **1D6** **Crushing**  | / |
+
+#### Large Crusher
+Two-handed crushing weapons with a dedicated *impact zone* on the weapon head which directs more force into the target. Examples: grand-mace, polehammer, two-handed flail
+
+* Two-handed
+* Melee
+* Bulk: 3
+
+| Skill | **Ob**    | Attack                  | AP | Damage                     | Effect |
+| ----- | --------- | ----------------------- | -- | -------------------------- | ------ |
+| 0     | Opposed   | Smash        | 2  | **Str** + **1D8** **Crushing**       | / |
+| 3     | Opposed+2 | Mighty Smash | 3  | **Str** + **1D10 + 2** **Crushing**  | +1 [exhaustion](#exhaustion) to self. +2 [exhaustion](#exhaustion) to target (if it can be winded). |
+
+#### Short-Bow
+A short distance ranged weapon, shooting arrows.
+
+* Two-handed
+* Ranged
+* Bulk: 1
+* **Range Only**
+
+| Skill | **Ob**    | Attack                  | AP | Distance | Damage                | Effect |
+| ----- | --------- | ----------------------- | -- | -------- | --------------------- | ------ |
+| 0     | Opposed   | Loose                   | 2  | 30'/10m  | **4D3** **Piercing**  | / |
+| 0     | Opposed+2 | Loose                   | 2  | 60'/20m  | **3D3** **Piercing**  | / |
+| 0     | Opposed+4 | Loose                   | 2  | 90'/30m  | **2D3** **Piercing**  | / |
+| 4     | Opposed   | Double shot             | 3  | 30'/10m  | **3D3** **Piercing**  | Can attack twice and thus deal its damage to two different targets, or the same target twice. |
+| 4     | Opposed+2 | Double shot             | 3  | 60'/20m  | **2D3** **Piercing**  | Can attack twice and thus deal its damage to two different targets, or the same target twice. |
+| 4     | Opposed+4 | Double shot             | 3  | 90'/30m  | **1D3** **Piercing**  | Can attack twice and thus deal its damage to two different targets, or the same target twice. |
+
+#### Longbow
+A long distance ranged weapon, shooting arrows.
+
+* Two-handed
+* Ranged
+* Bulk: 2
+* **Range Only**
+
+| Skill | **Ob**    | Attack                  | AP | Distance | Damage                | Effect |
+| ----- | --------- | ----------------------- | -- | -------- | --------------------- | ------ |
+| 0     | Opposed   | Loose                   | 2  | 30'/10m  | **4D4** **Piercing**  | / |
+| 0     | Opposed+1 | Loose                   | 2  | 60'/20m  | **3D4** **Piercing**  | / |
+| 0     | Opposed+3 | Loose                   | 2  | 90'/30m  | **2D4** **Piercing**  | / |
+
+#### War-Bow
+A very deadly long distance ranged weapon, shooting arrows.
+
+* Two-handed
+* Ranged
+* Bulk: 2
+* **Range Only**
+
+| Skill | **Ob**    | Attack                  | AP | Distance | Damage                 | Effect |
+| ----- | --------- | ----------------------- | -- | -------- | ---------------------- | ------ |
+| 0     | Opposed   | Loose                   | 3  | 30'/10m  | **3D8** **Piercing**   | +1 [exhaustion](#exhaustion) to self. |
+| 0     | Opposed+1 | Loose                   | 3  | 60'/20m  | **2D8** **Piercing**   | +1 [exhaustion](#exhaustion) to self. |
+| 0     | Opposed+2 | Loose                   | 3  | 90'/30m  | **1D8** **Piercing**   | +1 [exhaustion](#exhaustion) to self. |
+
+#### Crossbow
+A deadly medium distance ranged weapon, shooting quarrels.
+
+* Two-handed
+* Ranged
+* Bulk: 2
+* **Prefer Range**
+
+| Skill | **Ob**    | Attack                  | AP | Distance | Damage                | Effect |
+| ----- | --------- | ----------------------- | -- | -------- | --------------------- | ------ |
+| 0     | Opposed   | Loose                   | 3  | 30'/10m  | **3D6 + 2** **Piercing**  | / |
+| 0     | Opposed+1 | Loose                   | 3  | 60'/20m  | **3D6 + 2** **Piercing**  | / |
+| 0     | Opposed+3 | Loose                   | 3  | 90'/30m  | **3D4 + 2** **Piercing**  | / |
+
+#### Firearm
+A very deadly short to medium distance ranged weapon, shooting musket balls that can even penetrate armor.
+
+* Two-handed
+* Ranged
+* Bulk: 2
+* **Prefer Range**
+
+| Skill | **Ob**    | Attack                  | AP | Distance | Damage                    | Effect |
+| ----- | --------- | ----------------------- | -- | -------- | ------------------------- | ------ |
+| 0     | Opposed   | Fire                    | 3  | 30'/10m  | **3D6 + 4** **Piercing**  | / |
+| 0     | Opposed+3 | Fire                    | 3  | 60'/20m  | **2D6 + 3** **Piercing**  | / |
+| 0     | Opposed+5 | Fire                    | 3  | 90'/30m  | **2D6 + 2** **Piercing**  | / |
+
+## Lists of Skills
 The following list does not and cannot aim to be a complete listing of all possible skills in game. Adding new skills as necessary will have to be done by the **GM**. 
 
-Some skills have a list of **skill abilities** that a character unlocks, if they reach a certain level in that skill. A **skill ability** has one or more effects and one or more conditions that restrict when they're applicable. 
-
-Using a **skill ability** counts as an **action**. 
-
-For a human, a skill at level 10 represents absolute mastery. It is possible to go higher than that, but only with great effort. The average level a human could reasonably have in a skill they've been practicing for months, should be around 3 or 4. Only years of experience allow for a 5 or higher. Anything higher than 5 should be considered excellence. 
-
-### Physical skills
+### Physical Skills
 These skills have a dominant physical aspect and are directly tied to a character's *physical attributes*. 
 
 #### Acrobatics (Agi)
@@ -1476,6 +1967,9 @@ However, the price for this strength is steep. The chance of death is greatly in
 | 1     | Reckless Assault     | 2  | /       | Deal an extra **D** of damage on your next successful attack during this turn, according to your weapon's damage. Suffer a **-2D** penalty on all defence tests until the start of your next turn. Cannot convert left-over AP into [melee defence](#melee-defence-agi) or [ranged defence](#ranged-defence-agi).  |  |
 | 2     | Grit Your Teeth      | 0  | /       | Ignore the negative effects of one [injury](#injury) of choice for the rest of the combat encounter. It will still count towards the injury limit, however! | Once per combat. |
 | 3     | Pain is Strength     | 3  | Opposed | Perform a single-target melee attack against an opponent of choice. For every active [injury](#injury) you currently have, deal one extra **D** of damage. You suffer one point of [exhaustion](#exhaustion). | Once per day. |
+
+#### Fishing (End)
+The ability to efficiently catch fish. 
 
 #### Instrument-Playing < instrument > (Agi)
 Playing an instrument of choice. 
@@ -1613,6 +2107,11 @@ Is opposed by [resist](#resist-will).
 | 3     | Vicious Mockery      | 1  | Opposed | Lower a designated creature's defence by **-3D** for 3 turns. | Once per combat. |
 | 4     | War Cry              | 1  | Opposed | Lower the defence of all creatures within 18'/6m distance by **-2D**, for 4 turns. | Once per combat. |
 
+#### Mercantilism (Ora)
+Skill at bartering for goods and services and negotiating prices. Also useful to determine the availability of goods and materials and what their current demands and supply are. 
+
+See [trade](#trade) on how to use this skill on a more abstract level. 
+
 #### Persuasion (Emp)
 Persuading another character to think differently about something. 
 
@@ -1633,20 +2132,14 @@ Riding and controling a mount.
 | ----- | -------------------- | -- | ------ | ------------------ | ------------ |
 | 3     | Mounted Charge       | 3  | 3      | Perform a mounted charge attack, dealing **2D3** extra damage of whatever weapon type you are using. | Mounted on a fast and strong animal; Must have enough distance to target to gain enough speed - refer to **GM**'s judgement. |
 
-### Knowledge
+### Knowledge Skills
 These skills have a dominant mental aspect and are strongly related to a character's *mental attributes*. 
 
 #### Architecture (Int)
 Analysing and planning buildings. Discerning weak points in a structure. 
 
-#### Alchemy (Arc)
-The ability to brew alchemical potions, create powders, mixtures and other substances, as well as the ability to tell these things apart. 
-
 #### Appraisal (Int)
 The ability to quickly and approximately guage the value of goods and services, the weight or quantity of goods, without having to actually count or weigh. 
-
-#### Brewing (Wis)
-The brewing of alcoholic beverages. 
 
 #### Geography (Int)
 Knowledge about the geography of the world. Used to recall the location of places in relation to each other. 
@@ -1695,66 +2188,235 @@ The language in question must be noted in addition to this skill.
 #### Surgery (Int)
 The ability to invasively treat ailments without making things worse for the patient. 
 
-#### Tanning/Skinning (Agi)
-Taking the hide off a creature undamaged. 
-
 #### Warfare (Wis)
 The ability to understand and direct large-scale combat movements, the logistics and psychology of war. 
 
 This governs the understanding of what makes defensive structures effective and how to circumvent them. This entails a functional understanding of siege engines, but not their construction. 
 
-#### Woodcrafting (Agi)
-General working with wood, where particular knowledge isn't required. 
-
-### Craftsmanship
+### Craftsmanship Skills
 All craftsmanship requires a mix of physical and mental attributes, for the purpose of creating a wide variety of things.
-
-#### Armor smithing (Str)
-The ability to make armor from metal. 
 
 #### Artistry (Emp)
 The ability to paint and draw well, as well as a general sense of aesthetics. 
 
+| Product                              | Complexity | Workload  | Materials                              | Quality Bonus   |
+| ------------------------------------ | ---------- | --------- | -------------------------------------- | --------------- | 
+| 1 painting or sculpture.             | Moderate   | Moderate  | Any paintable or shapeable object, such as a canvas or chunk of marble. | / |
+
+#### Armor smithing (Str)
+The ability to make armor from conventional materials, such as metal and leather. 
+
+| Product                              | Complexity | Workload  | Materials                              | Quality Bonus   |
+| ------------------------------------ | ---------- | --------- | -------------------------------------- | --------------- | 
+| 1 [light armor](#light-armor)        | High       | High      | Any shapeable sturdy and flexible material, such as iron, steel, leather or chitin. | Every **positive**: +1 **Slashing**; Every 2 **positives**: +1 **Bludgeoning**; Every 3 **positives**: +1 **Crushing**, +1 **Piercing** |
+| 1 [medium armor](#medium-armor)      | High       | Very High | Any shapeable sturdy and flexible material, such as iron, steel, leather or chitin. | Every **positive**: +1 **Slashing**; Every 2 **positives**: +1 **Bludgeoning**; Every 3 **positives**: +1 **Crushing**, +1 **Piercing** |
+| 1 [heavy armor](#heavy-armor)        | High       | Very High | Any shapeable sturdy and flexible material, such as iron, steel, leather or chitin. | Every **positive**: +1 **Slashing**; Every 2 **positives**: +1 **Bludgeoning**; Every 3 **positives**: +1 **Crushing**, +1 **Piercing** |
+
+#### Ambersmithing (Agi)
+The ability to make armor from [amberite](#amberite). 
+
+Lining or plating an existing object with [ambersteel](#amberite) acts as an improvement, whereas an [ambersteel](#amberite)-forged object is an entirely new object, completely made out of [ambersteel](#amberite). 
+
+The product effects do not stack, but they can be overridden. This means that the same object cannot be lined with [ambersteel](#amberite) twice, for cumulative effects. But it can be upgraded to [ambersteel](#amberite)-plated. 
+
+[Crafting](#crafting)
+| Product                              | Complexity | Workload  | **Ob** | Materials                              | Quality Bonus   |
+| ------------------------------------ | ---------- | --------- | ------ | -------------------------------------- | --------------- | 
+| Ambersteel-lined weapon              | High       | High      | [Amberite](#amberite); A weapon        | Bonus damage against mages and magical creatures: **+1** for every quality level. **+1D4** for every two **quality levels**, starting at level 1. |
+| Ambersteel-plated weapon             | High       | High      | [Amberite](#amberite); A weapon        | Bonus damage against mages and magical creatures: **+1** for every quality level. **+1D6** for every two **quality levels**, starting at level 1. |
+| Ambersteel-forged weapon             | Very High  | Very High | [Amberite](#amberite)                  | Bonus damage against mages and magical creatures: **+2** for every quality level. **+1D8** for every two **quality levels**, starting at level 1. |
+| Ambersteel-lined armor               | High       | High      | [Amberite](#amberite); A set of armor  | Bonus protection from magic: **+1** for every quality level. **+1D4** for every two **quality levels**, starting at level 1. |
+| Ambersteel-plated armor              | High       | High      | [Amberite](#amberite); A set of armor  | Bonus protection from magic: **+1** for every quality level. **+1D6** for every two **quality levels**, starting at level 1. |
+| Ambersteel-forged armor              | Very High  | Very High | [Amberite](#amberite)                  | Bonus protection from magic: **+2** for every quality level. **+1D8** for every two **quality levels**, starting at level 1. |
+
+> An ambersteel-lined weapon at quality level 3 would have +(3 + 2D4) damage against mages and magical creatures. 
+
+> An ambersteel-lined armor at quality level 3 would have +(3 + 2D4) protection from magic. 
+
+#### Alchemy (Arc)
+The ability to brew alchemical potions, create powders, mixtures and other substances, as well as the ability to tell these things apart. 
+
+Tools: a distillery, mortar and pestle, a fire place
+
+[Crafting](#crafting)
+| Product                              | Complexity | Workload  | Materials                              | Quality Bonus   |
+| ------------------------------------ | ---------- | --------- | -------------------------------------- | --------------- | 
+| A simple alchemical concoction (potion or powder)  | Moderate  | Moderate | Small containers, minerals, metals, herbs and water. | / |
+| A complex alchemical concoction (potion or powder) | Very High | High     | Small containers, minerals, metals, herbs and water. | / |
+
+#### Brewing (Wis)
+The brewing of alcoholic beverages. 
+
+Tools: a fire place, a distillery
+
+[Crafting](#crafting)
+| Product                              | Complexity | Workload  | Materials                              | Quality Bonus   |
+| ------------------------------------ | ---------- | --------- | -------------------------------------- | --------------- | 
+| A small keg worth of alcohol         | Moderate   | Very High | Any closeable container; Any fermentable fruit or distillable plant matter. | / |
+
 #### Blacksmithing (Str)
 The ability to create every-day items from metal. 
+
+Tools: a hammer, an anvil or other resilient surface, tongs, a forge
+
+[Crafting](#crafting)
+| Product                              | Complexity | Workload  | Materials                              | Quality Bonus   |
+| ------------------------------------ | ---------- | --------- | -------------------------------------- | --------------- | 
+| A large item, such as a handheld tool               | Moderate | High     | Any shapeable metal; (Wood). | / |
+| Several smaller items, such as nails or arrow-heads | Moderate | Moderate | Any shapeable metal. | / |
 
 #### Bow-Making (Agi)
 The ability to craft bows and crossbows. 
 
+Tools: a carving knife
+
+[Crafting](#crafting)
+| Product                              | Complexity | Workload  | Materials                              | Quality Bonus   |
+| ------------------------------------ | ---------- | --------- | -------------------------------------- | --------------- | 
+| Bow                                  | Low        | Moderate  | A piece of sturdy and flexible wood; A piece of string or sinew. | Every 3 **positives**: +1 **Piercing** |
+| Crossbow                             | High       | High      | Sturdy pieces of wood; Metal arms; a piece of string or sinew. | Every 3 **positives**: +1 **Piercing** |
+
 #### Carpentry (Agi)
 The ability to shape wood to craft predominantly wooden things. 
+
+Tools: an axe, a wood plane, a hand drill, a workbench
+
+[Crafting](#crafting)
+| Product                              | Complexity | Workload  | Materials                              | Quality Bonus   |
+| ------------------------------------ | ---------- | --------- | -------------------------------------- | --------------- | 
+| A small piece of furniture           | Moderate   | Moderate  | Wood                                   | / |
+| A large piece of furniture           | Moderate   | High      | Wood                                   | / |
 
 #### Clothesmaking (Agi)
 The ability to make comfortable, well-fitting and decorated clothes. 
 
+Tools: scissors, needles, yarn, thread
+
+[Crafting](#crafting)
+| Product                              | Complexity | Workload  | Materials                              | Quality Bonus   |
+| ------------------------------------ | ---------- | --------- | -------------------------------------- | --------------- | 
+| A piece of clothing                  | Moderate   | Moderate  | Cloth                                  | / |
+
 #### Cooking (Emp)
 The ability to cook well. Poor cooks are prone to losing ingredients due to burning them or overcooking them to the point of inedibility. 
+
+Tools: cooking utensils, a pot or pan, a fire place
+
+[Crafting](#crafting)
+| Product                              | Complexity | Workload  | Materials                              | Quality Bonus   |
+| ------------------------------------ | ---------- | --------- | -------------------------------------- | --------------- | 
+| A meal for a few people              | Low        | Low       | Foodstuffs                             | / |
+| A meal for many people               | Moderate   | Moderate  | Plenty of foodstuffs                   | / |
 
 #### Engineering (Int)
 The ability to plan and construct complex mechanisms and devices. 
 
-#### Fishing (End)
-The ability to efficiently catch fish. 
+[Crafting](#crafting)
+| Product                              | Complexity | Workload  | Materials                              | Quality Bonus   |
+| ------------------------------------ | ---------- | --------- | -------------------------------------- | --------------- | 
+| A simple mechanism                   | High       | Low       | Any suitable material                  | / |
+| A complex mechanism                  | High       | Moderate  | Any suitable material                  | / |
 
 #### Fletching (Agi)
 The ability to efficiently craft arrows, bolts and javelins. 
 
+Tools: a carving knife, a brush
+
+[Crafting](#crafting)
+| Product                              | Complexity | Workload  | Materials                              | Quality Bonus   |
+| ------------------------------------ | ---------- | --------- | -------------------------------------- | --------------- | 
+| 5 Arrow shafts                       | Low        | Moderate  | Wood; feathers; glue                   | / | 
+
+#### Glass-blowing (Agi)
+The ability to make objects from glass. 
+
+Tools: a fire place, a glass-blower, various shaping tools
+
+[Crafting](#crafting)
+| Product                              | Complexity | Workload  | Materials                              | Quality Bonus   |
+| ------------------------------------ | ---------- | --------- | -------------------------------------- | --------------- | 
+| A small glass object                 | High       | Moderate  | Quartz; sand                           | / | 
+
+#### Goldsmithing (Agi)
+The ability to make jewelry from precious metals and stones. 
+
+Tools: hammers, tweezer, chisels, a workbench, magnifying glasses
+
+[Crafting](#crafting)
+| Product                              | Complexity | Workload  | Materials                              | Quality Bonus   |
+| ------------------------------------ | ---------- | --------- | -------------------------------------- | --------------- | 
+| A small piece of jewelry             | High       | High      | Quartz; sand                           | / | 
+
 #### Leatherworking (Agi)
 The ability to create leather objects. 
 
+Tools: scissors, needles, hole punchers and a hammer
+
+[Crafting](#crafting)
+| Product                              | Complexity | Workload  | Materials                              | Quality Bonus   |
+| ------------------------------------ | ---------- | --------- | -------------------------------------- | --------------- | 
+| 5 Small leather objects              | Low        | Moderate  | A tanned hide                          | / | 
+| A large leather object               | Low        | Moderate  | A tanned hide                          | / | 
+
 #### Masonry (Str)
 The ability to shape stone to craft predominantly stone-based things. 
+
+Tools: a hammer and chisels of varying sizes
+
+[Crafting](#crafting)
+| Product                              | Complexity | Workload  | Materials                              | Quality Bonus   |
+| ------------------------------------ | ---------- | --------- | -------------------------------------- | --------------- | 
+| A small stone-hewn object            | Low        | Very High | Stone                                  | / |
+| A large stone-hewn object            | Low        | Very High | Stone                                  | / |
 
 #### Rune Carving (Arc)
 The ability to carve [magic runes](#runes).
 
 The level of this skill dictates the maximum intensity level of the respective magic the carved rune can hold. The number of **positives** achieved in a test then sets the actual level the rune will hold, but limited by the maximum. 
 
+Tools: a hammer and chisels of varying sizes, tongs, tweezer, a fine brush
+
+[Crafting](#crafting)
+| Product                              | Complexity | Workload  | Ob | Materials                              | Quality Bonus   |
+| ------------------------------------ | ---------- | --------- | -- | -------------------------------------- | --------------- | 
+| A blank rune                         | High       | Moderate  | /  | [Abyssalite](#abyssalite)              | / |
+| A magic rune                         | Very High  | High      | 2  | A blank rune; thin-leaf metal          | +1 [spell intensity level](#magic) |
+
+#### Tanning/Skinning (Agi)
+Taking the hide off a creature undamaged. 
+
+Tools: a knife, a scraping blade
+
+[Crafting](#crafting)
+| Product                              | Complexity | Workload  | Materials                              | Quality Bonus   |
+| ------------------------------------ | ---------- | --------- | -------------------------------------- | --------------- | 
+| A small skin                         | Low        | Low       | A skinnable creature                   | / |
+| A large skin                         | Moderate   | Moderate  | A skinnable creature                   | / |
+| A tanned hide                        | Moderate   | High      | A tannable skin                        | / |
+
 #### Weapon smithing (Str)
 The ability to make weapons from metal. 
 
+Tools: a hammer, an anvil or other resilient surface, tongs, a forge
+
+[Crafting](#crafting)
+| Product                              | Complexity | Workload  | Materials                              | Quality Bonus   |
+| ------------------------------------ | ---------- | --------- | -------------------------------------- | --------------- | 
+| A weapon                             | High       | High      | Any suitable metal, wood and/or similar material | / |
+
+#### Woodcarving (Agi)
+Creating small things from carved wood. 
+
+Tools: a carving knife
+
+[Crafting](#crafting)
+| Product                              | Complexity | Workload  | Materials                              | Quality Bonus   |
+| ------------------------------------ | ---------- | --------- | -------------------------------------- | --------------- | 
+| A small wood-carved object           | Low        | Moderate  | Wood                                   | / |
+| A large wood-carved object           | Low        | High      | Wood                                   | / |
+
 ## List of Magic Schools
-The capabilities of the various magic schools are described by the **skill abilities** associated with each of them. The concrete effects are kept vague on purpose, to allow a certain freedom when choosing how the magic is expressed. But the intensity or strength of a casting is tied to the level of the [magic school skill](#magic-school--school---attribute-). 
+The capabilities of the various magic schools are described by the [skill abilities](#skill-abilities) associated with each of them. The concrete effects are kept vague on purpose, to allow a certain freedom when choosing how the magic is expressed. But the intensity or strength of a casting is tied to the level of the [magic school skill](#magic-school--school---attribute-). 
 
 The levels noted for each magic school represent the effects a mage can achieve, when casting that particular type of magic. Stronger effects generally require a higher level. 
 
@@ -1912,344 +2574,6 @@ For every three levels in **counter-magic**, **1D3 - 1** can be rolled, to deter
 > At **counter-magic** level 6, you may roll **2D3 - 2**. At best, you can reduce the incoming **magic stamina** cost by 4, at worst, you can't reduce it, at all. 
 
 Note that it is not possible to reduce [magic stamina](#magic-stamina) cost to less than 1. 
-
-## Weapon Properties
-Weapons can have the following **properties**:
-* **Long Reach**: Allows attacking a target two squares (6'/2m) away. 
-* **Very long Reach**: Allows attacking a target three squares (9'/3m) away. 
-* **Range Only**: Implies a weapon cannot be used against any targets adjacent to self. 
-* **Prefer Range**: +2 **Ob** to using the weapon against an adjacent target. 
-* **Amberite-Lined**: **+1D4** damage to magical creatures and mages. 
-* **Amberite-Plated**: **+2D4** damage to magical creatures and mages. 
-* **Ambersteel-Lined**: **+1D8** damage to magical creatures and mages. 
-* **Ambersteel-Plated**: **+2D8** damage to magical creatures and mages. 
-* **Ambersteel-Forged**: **+3D8** damage to magical creatures and mages. 
-
-## Weapon Types
-Weapons can have the following **effects**:
-* A **counter-attack** is a reaction that allows a fighter being attacked to attack their attacker. 
-
-In the following, the **Ob** is to be considered a *modifier*. By default, **all** weapon attacks (weapon skills) are opposed by [melee defence](#melee-defence-agi) or [ranged defence](#ranged-defence-agi). Which defence is appropriate, is determined by the weapon type property **melee** or **ranged**. 
-
-### Unarmed
-Sometimes, your own body is your greatest weapon. Fists and feet can cause a surprising amount of damage.
-
-* Melee
-
-| Skill | **Ob**  | Attack                  | AP | Damage                | Effect |
-| ----- | ------- | ----------------------- | -- | --------------------- | ------ |
-| 0     | Opposed by **Melee Defence** | Punch, kick, headbutt   | 2  | **Str** + 2 **Bludgeoning** | / |
-| 1     | Opposed by **Unarmed** | Grapple | 2  | / | Requires a successful opposed **unarmed** test. If **completely successful**, the target is unable to move and suffers -1D to their defense tests, for as long as they're grappled. Someone grappled can attempt to break free with an opposed **unarmed** test, on their turn. |
-| 2     | Opposed by **Unarmed** | Wrestle and Disarm |  | Perform a single target attack against a designated enemy. If you win, you disarm them and could wrestle them to the ground, making them [prone](#prone), if you so choose. | Disarm only if enemy is using detachable weapon. |
-
-### Short Blade
-Any short, one-handed blade. Examples: shiv, dagger, Shortsword
-
-* One-handed
-* Melee
-* Bulk: 1
-
-| Skill | **Ob**  | Attack                  | AP | Damage                | Effect |
-| ----- | ------- | ----------------------- | -- | --------------------- | ------ |
-| 0     | Opposed by **Melee Defence** | Slash                   | 2  | **2D2** **Slashing** | / |
-| 0     | Opposed by **Melee Defence** | Stab                    | 2  | **1D2** **Piercing** | / |
-| 0     | Opposed by **Melee Defence**+2 | Target weak-spot      | 3  | **Agi** + **3D2** **Piercing** | / |
-| 2     | Opposed by **Melee Defence**+2 | Artery cut            | 3  | **2D2** **Slashing** | +1 [bleeding](#bleeding) to the target (if it can bleed). |
-
-### Long Blade
-Any long blade, including long one-handed blades. Examples: arming sword, bastard sword, Longsword
-
-* One-handed or two-handed
-* Melee
-* Bulk: 2
-
-| Skill | **Ob**    | Attack                  | AP | Damage                | Effect |
-| ----- | --------- | ----------------------- | -- | --------------------- | ------ |
-| 0     | Opposed   | Slash                   | 2  | **2D6** **Slashing**  | / |
-| 0     | Opposed   | Stab                    | 2  | **1D6 + 1** **Piercing**  | / |
-| 3     | Opposed+2 | Mordhau-Strike          | 2  | **1D4** **Crushing**  | / |
-| 4     | /         | Fencer-Stance           | 3  | / | Enter a defensive fencing stance. Gain +1D for [melee defence](#melee-defence-agi) and can **counter-attack** **every** attack.|
-
-### Great Blade
-Any very long, two-handed blade. Examples: sword of war, greatsword, Zweihänder
-
-* Two-handed
-* Melee
-* Long Reach
-* Bulk: 3
-
-| Skill | **Ob**    | Attack                  | AP | Damage                | Effect |
-| ----- | --------- | ----------------------- | -- | --------------------- | ------ |
-| 0     | Opposed   | Slash                   | 2  | **3D6** **Slashing**  | / |
-| 0     | Opposed   | Stab                    | 2  | **1D6 + 2** **Piercing** | / |
-| 3     | Opposed+2 | Mordhau-Strike          | 3  | **1D6** **Crushing**  | / |
-| 4     | Opposed+1 | Heavy Blow              | 3  | **2D6** **Slashing** and **1D6** **Crushing** | Defending against this attack costs 2 [AP](#action-points-ap). +1 [exhaustion](#exhaustion) to self. |
-
-### Axe
-One-handed axes. Examples: hatchet, dane axe, woodcutter's axe
-
-* One-handed
-* Melee
-* Bulk: 2
-
-| Skill | **Ob**    | Attack                  | AP | Damage                | Effect |
-| ----- | --------- | ----------------------- | -- | --------------------- | ------ |
-| 0     | Opposed   | Hack                    | 2  | **2D6** **Slashing** and **1D3** **Crushing**  | / |
-| 2     | Opposed+1 | Savage Slash            | 2  | **1D8** **Slashing**  | +1 [bleeding](#bleeding)  to the target (if it can bleed). |
-
-### Great Axe
-Two-handed axes. Examples: bearded axe, double-sided axe
-
-* Two-handed
-* Melee
-* Bulk: 3
-
-| Skill | **Ob**    | Attack                  | AP | Damage                | Effect |
-| ----- | --------- | ----------------------- | -- | --------------------- | ------ |
-| 0     | Opposed   | Hack                    | 2  | **3D6** **Slashing** and **2D3** **Crushing** | / |
-| 3     | Opposed+2 | Savage Slash            | 2  | **2D6** **Slashing**  | +2 [bleeding](#bleeding)  to the target (if it can bleed). |
-| 4     | Opposed+1 | Heavy Blow              | 3  | **2D6** **Slashing** and **1D6** **Crushing** | Defending against this attack costs 2 [AP](#action-points-ap). +1 [exhaustion](#exhaustion) to self. |
-
-### Spear
-Any one or two-handed short piercing polearms. Examples: short-spear, boar-spear
-
-* One-handed or two-handed
-* Melee
-* Bulk: 2
-* Prefer Range
-
-| Skill | **Ob**    | Attack                  | AP | Damage                | Effect |
-| ----- | --------- | ----------------------- | -- | --------------------- | ------ |
-| 0     | Opposed   | Stab                    | 2  | **2D8** **Piercing**  | / |
-| 2     | /         | Spear wall              | 3  | /                     | Whenever any character moves **into** a spot adjacent to self, can attack that character with a **stab**. |
-
-### Lance
-Any one or two-handed long piercing polearms. Examples: pike, lance
-
-* Two-handed
-* Melee
-* Bulk: 4
-* Long Reach
-* Prefer Range
-
-| Skill | **Ob**    | Attack                  | AP | Damage                | Effect |
-| ----- | --------- | ----------------------- | -- | --------------------- | ------ |
-| 0     | Opposed   | Stab                    | 2  | **2D6** **Piercing**  | / |
-| 3     | Opposed   | Couched Lancing         | 3  | **3D10** **Piercing** | Requires self to be mounted on horse-back (or similar creature). Self must move at least 15'/5m in a straight line, past the target. |
-
-### Polearm
-Flexible polearms with a focus on slashing. Examples: halberd, bardiche, poleaxe
-
-* Two-handed
-* Melee
-* Bulk: 4
-* Long Reach
-* Prefer Range
-
-| Skill | **Ob**    | Attack                  | AP | Damage                | Effect |
-| ----- | --------- | ----------------------- | -- | --------------------- | ------ |
-| 0     | Opposed   | Slash                   | 2  | **3D6** **Slashing**  | / |
-| 0     | Opposed   | Stab                    | 2  | **2D8** **Piercing**  | / |
-| 4     | Opposed+2 | Cleave                  | 3  | **1D10** **Slashing** | Deals damage to up to two targets adjacent to each other and self. |
-
-### Club
-Simple, improvised bludgeoning weapons. Examples: wooden club, staff, stick
-
-* One-handed
-* Melee
-* Bulk: 2
-
-| Skill | **Ob**    | Attack                  | AP | Damage                       | Effect |
-| ----- | --------- | ----------------------- | -- | ---------------------------- | ------ |
-| 0     | Opposed   | Clobber                 | 2  | **Str** + **2D4** **Bludgeoning**      | / |
-| 3     | Opposed+2 | Knockout Blow           | 3  | **Str** + **2D6 + 2** **Bludgeoning**  | +1 [exhaustion](#exhaustion) to self. |
-
-### Small Crusher
-One-handed, heavy crushing weapons. Examples: flanged mace, warhammer, flail, morning star
-
-* One-handed
-* Melee
-* Bulk: 2
-
-| Skill | **Ob**   | Attack                  | AP | Damage                | Effect |
-| ----- | -------- | ----------------------- | -- | --------------------- | ------ |
-| 0     | Opposed  | Smash                   | 2  | **Str** + **1D6** **Crushing**  | / |
-
-### Large Crusher
-Two-handed crushing weapons with a dedicated *impact zone* on the weapon head which directs more force into the target. Examples: grand-mace, polehammer, two-handed flail
-
-* Two-handed
-* Melee
-* Bulk: 3
-
-| Skill | **Ob**    | Attack                  | AP | Damage                     | Effect |
-| ----- | --------- | ----------------------- | -- | -------------------------- | ------ |
-| 0     | Opposed   | Smash        | 2  | **Str** + **1D8** **Crushing**       | / |
-| 3     | Opposed+2 | Mighty Smash | 3  | **Str** + **1D10 + 2** **Crushing**  | +1 [exhaustion](#exhaustion) to self. +2 [exhaustion](#exhaustion) to target (if it can be winded). |
-
-### Short-Bow
-A short distance ranged weapon, shooting arrows.
-
-* Two-handed
-* Ranged
-* Bulk: 1
-* **Range Only**
-
-| Skill | **Ob**    | Attack                  | AP | Distance | Damage                | Effect |
-| ----- | --------- | ----------------------- | -- | -------- | --------------------- | ------ |
-| 0     | Opposed   | Loose                   | 2  | 30'/10m  | **4D3** **Piercing**  | / |
-| 0     | Opposed+2 | Loose                   | 2  | 60'/20m  | **3D3** **Piercing**  | / |
-| 0     | Opposed+4 | Loose                   | 2  | 90'/30m  | **2D3** **Piercing**  | / |
-| 4     | Opposed   | Double shot             | 3  | 30'/10m  | **3D3** **Piercing**  | Can attack twice and thus deal its damage to two different targets, or the same target twice. |
-| 4     | Opposed+2 | Double shot             | 3  | 60'/20m  | **2D3** **Piercing**  | Can attack twice and thus deal its damage to two different targets, or the same target twice. |
-| 4     | Opposed+4 | Double shot             | 3  | 90'/30m  | **1D3** **Piercing**  | Can attack twice and thus deal its damage to two different targets, or the same target twice. |
-
-### Longbow
-A long distance ranged weapon, shooting arrows.
-
-* Two-handed
-* Ranged
-* Bulk: 2
-* **Range Only**
-
-| Skill | **Ob**    | Attack                  | AP | Distance | Damage                | Effect |
-| ----- | --------- | ----------------------- | -- | -------- | --------------------- | ------ |
-| 0     | Opposed   | Loose                   | 2  | 30'/10m  | **4D4** **Piercing**  | / |
-| 0     | Opposed+1 | Loose                   | 2  | 60'/20m  | **3D4** **Piercing**  | / |
-| 0     | Opposed+3 | Loose                   | 2  | 90'/30m  | **2D4** **Piercing**  | / |
-
-### War-Bow
-A very deadly long distance ranged weapon, shooting arrows.
-
-* Two-handed
-* Ranged
-* Bulk: 2
-* **Range Only**
-
-| Skill | **Ob**    | Attack                  | AP | Distance | Damage                 | Effect |
-| ----- | --------- | ----------------------- | -- | -------- | ---------------------- | ------ |
-| 0     | Opposed   | Loose                   | 3  | 30'/10m  | **3D8** **Piercing**   | +1 [exhaustion](#exhaustion) to self. |
-| 0     | Opposed+1 | Loose                   | 3  | 60'/20m  | **2D8** **Piercing**   | +1 [exhaustion](#exhaustion) to self. |
-| 0     | Opposed+2 | Loose                   | 3  | 90'/30m  | **1D8** **Piercing**   | +1 [exhaustion](#exhaustion) to self. |
-
-### Crossbow
-A deadly medium distance ranged weapon, shooting quarrels.
-
-* Two-handed
-* Ranged
-* Bulk: 2
-* **Prefer Range**
-
-| Skill | **Ob**    | Attack                  | AP | Distance | Damage                | Effect |
-| ----- | --------- | ----------------------- | -- | -------- | --------------------- | ------ |
-| 0     | Opposed   | Loose                   | 3  | 30'/10m  | **3D6 + 2** **Piercing**  | / |
-| 0     | Opposed+1 | Loose                   | 3  | 60'/20m  | **3D6 + 2** **Piercing**  | / |
-| 0     | Opposed+3 | Loose                   | 3  | 90'/30m  | **3D4 + 2** **Piercing**  | / |
-
-### Firearm
-A very deadly short to medium distance ranged weapon, shooting musket balls that can even penetrate armor.
-
-* Two-handed
-* Ranged
-* Bulk: 2
-* **Prefer Range**
-
-| Skill | **Ob**    | Attack                  | AP | Distance | Damage                    | Effect |
-| ----- | --------- | ----------------------- | -- | -------- | ------------------------- | ------ |
-| 0     | Opposed   | Fire                    | 3  | 30'/10m  | **3D6 + 4** **Piercing**  | / |
-| 0     | Opposed+3 | Fire                    | 3  | 60'/20m  | **2D6 + 3** **Piercing**  | / |
-| 0     | Opposed+5 | Fire                    | 3  | 90'/30m  | **2D6 + 2** **Piercing**  | / |
-
-## Armor Properties
-Armor can have the following **properties**:
-* **Amberite-Lined**: **+1D4** reduction of magical efficacy when used against the wearer/bearer. 
-* **Amberite-Plated**: **+2D4** reduction of magical efficacy when used against the wearer/bearer. 
-* **Ambersteel-Lined**: **+1D8** reduction of magical efficacy when used against the wearer/bearer. 
-* **Ambersteel-Plated**: **+3D8** reduction of magical efficacy when used against the wearer/bearer. 
-* **Ambersteel-Forged**: **+6D8** reduction of magical efficacy when used against the wearer/bearer. 
-
-## Armor Types
-Armor reduces damage to its wearer by a flat amount. By how much, is specific to each armor type. Some armors can have special protections or effects. 
-
-### Light Armor
-A set of light armor that doesn't impede the wearer by much. Commonly represents a gambeson or thick cloth vest. 
-
-* Bulk: 2
-
-| Reduce Damage     |
-| ----------------- |
-| 3 + 1D3 **Slashing**    |
-| 2 + 1D3 **Bludgeoning** |
-| 1 + 1D3 **Piercing**    |
-| 1 + 1D3 **Crushing**    |
-
-### Medium Armor
-A set of medium armor with a good balance of protection and weight. Commonly represents a gambeson underneath a mail hauberk. Optional mail mittens. Common headgear: arming cap, mail coif or any non-full helmet. 
-
-* Bulk: 3
-
-| Reduce Damage     |
-| ----------------- |
-| 4 + 1D4 **Slashing**    |
-| 3 + 1D4 **Bludgeoning** |
-| 2 + 1D4 **Piercing**    |
-| 1 + 1D4 **Crushing**    |
-
-### Heavy Armor
-A set of heavy armor with excellent protection, at the cost of encumbering the wearer greatly. Commonly represents a full suit of plate armor.  
-
-* Bulk: 4
-
-| Reduce Damage     | 
-| ----------------- |
-| 5 + 1D5 **Slashing**    |
-| 4 + 1D5 **Bludgeoning** |
-| 3 + 1D5 **Piercing**    |
-| 2 + 1D5 **Crushing**    |
-
-## Shield Types
-Shields are items that provide passive bonuses to [melee defence](#melee-defence-agi) and [ranged defence](#ranged-defence-agi) and require one free hand to use. This implies they cannot be used at the same time as a two-handed weapon. 
-
-### Buckler
-A small, round shield commonly held as far from the body as possible, to deflect small or stabbing weapons with ease. Helps only little against heavy blows, however. And don't expect to deflect arrows with this, either. 
-
-* Bulk: 1
-
-| Defensive Bonus |
-| --------------- |
-| +1 [melee defence](#melee-defence-agi).  |
-| +3 [melee defence](#melee-defence-agi) against **stabbing** attacks. |
-
-### Round Shield
-A medium-sized, round shield made from tough wood and leather, which offers decent protection against most attacks, while not encumbering the wielder too much. 
-
-* Bulk: 2
-
-| Defensive Bonus |
-| --------------- |
-| +2 [melee defence](#melee-defence-agi).  |
-| +2 [ranged defence](#melee-defence-agi). |
-
-### Heater Shield
-A tough and heavy metal shield, which offers great protection, while still being somewhat manageable to wield. 
-
-* Bulk: 3
-
-| Defensive Bonus |
-| --------------- |
-| +3 [melee defence](#melee-defence-agi).  |
-| +3 [ranged defence](#melee-defence-agi). |
-
-### Kite Shield
-A large, kite-shaped shield, which can protect every part of the fighter, from the shoulder down to the feet. Its weight makes it difficult to react to attacks quickly, hoever. 
-
-* Bulk: 4
-* +1 [exhaustion](#exhaustion) while wielded
-
-| Defensive Bonus |
-| --------------- |
-| +4 [melee defence](#melee-defence-agi).  |
-| +4 [ranged defence](#melee-defence-agi). |
 
 ## List of Injuries
 How many times an **injury** can be suffered, can be limited. In the table below, the *max* is the maximum number of times the **injury** can be suffered by the same character. If there is a slash (/), there is no limit. If a roll would result in an already maxed out **injury**, pick the next **injury** below it, instead. 
