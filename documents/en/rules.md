@@ -45,7 +45,7 @@
   - [Personality](#personality)
     - [Ambition](#ambition)
     - [Aspiration](#aspiration)
-    - [Reactions](#reactions)
+    - [Reaction](#reaction)
     - [Personality Traits](#personality-traits)
   - [Health \& Exhaustion](#health--exhaustion)
     - [Hit Points (HP)](#hit-points-hp)
@@ -327,7 +327,7 @@ Of course, how appropriate a certain [attribute](#attributes) or [skill](#skills
 ## After the Session
 After a playing session is done, the players and **GM** should stick around to discuss which players earned [fate points](#fate-points). This is where players are nominated for [fate points](#fate-points), by each other and by the **GM**. If everyone agrees, the [fate points](#fate-points) are awarded. Players can and should lobby for their [fate points](#fate-points), but shouldn't beg. If most everyone else says no, then that decision stands. That doesn't mean there is no point in discussing the matter further, but such a discussion shoulnd't be forced. 
 
-Also after the session, players and the **GM** discuss whether a **PC** should lose a [reaction](#reactions), because they have acted against it or haven't gotten to play it out at all. 
+Also after the session, players and the **GM** discuss whether a **PC** should lose a [reaction](#reaction), because they have acted against it or haven't gotten to play it out at all. 
 
 Any time in between sessions, players can spend [fate points](#fate-points) to buy cards (boons) from the [hand of fate](#hand-of-fate).
 
@@ -691,7 +691,7 @@ Both teacher and pupil must actively spend time together, furthering the pupil's
 If the teacher's skill is at least one level higher than that of their student, the student can use an extra **+1D6** to resolve their tests of the skill they're being taught. 
 
 ## Personality
-All **PC**s have a **personality**, which is an expression of their [personality traits](#personality-traits), [ambition](#ambition), [aspirations](#aspiration) and [reactions](#reactions). 
+All **PC**s have a **personality**, which is an expression of their [personality traits](#personality-traits), [ambition](#ambition), [aspirations](#aspiration) and [reactions](#reaction). 
 
 All aspects of a **PC**s **personality** may change, as the game is played. Through their actions and the situations they're confronted with, a character's personality may be affected. 
 
@@ -727,7 +727,7 @@ Every **PC** must have three **aspirations** - immediate goals to pursue in the 
 
 Whenever a **PC** acts in accordance with their **aspirations**, their player earns [fate points](#fate-points). 
 
-### Reactions
+### Reaction
 A player must determine three **reactions** for their character. A **reaction** is an automatic behavior - something the character is *expected* to do *automatically* and without question, when a given situation triggers it. But *expected* doesn't mean *have to*. A player can *choose* to have their character act against a **reaction** - and that may cause them to lose it. 
 
 A **reaction** is an "if/then" and "always/never" statement, which can be be beneficial or detrimental to the character. 
@@ -1167,7 +1167,7 @@ Now, the time to determine your three [aspirations](#aspiration) has come. Yet a
 > These two **aspirations** allow these characters to come into conflict, despite their good intentions. How it will play out, no one can say. And that makes for an interesting conflict!
 
 ##### Choosing Reactions
-Lastly, you need three [reactions](#reactions) for your character. Ideally, at least one of them should allow your **GM** getting your **PC** into *trouble*. 
+Lastly, you need three [reactions](#reaction) for your character. Ideally, at least one of them should allow your **GM** getting your **PC** into *trouble*. 
 
 For reactions, you're fairly free to pick and choose, so long as you keep in mind that **reactions** cannot alter facts of the narrative. **Reactions** can only allow you to *enter* a situation with an advantage - or to get your character in trouble in a situation that triggers it. 
 
