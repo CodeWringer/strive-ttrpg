@@ -484,6 +484,12 @@ Governs a character's **strength** - the ability to lift, throw and break heavy 
 
 Also governs the [carrying capacity](#carrying-capacity) of a character. Each point in **strength** raises the [carrying capacity](#carrying-capacity) of the character by 3. 
 
+For every 3 points in **strength**, past the initial level, every [asset slot](#worn--equipped) of a character can hold **assets** of one bulk higher. 
+
+> At level 3 in **strength**, a character can still only hold **assets** of bulk 2 in each hand. 
+> 
+> Starting at level 4 in **strength**, a character can hold **assets** of bulk 3 in each hand. Then, the next increase is at level 7, then level 10 and so on.
+
 #### Toughness [Tough]
 Governs the [injury limit](#injury) and chance to shrug off [bleeding](#bleeding) and [poison](#poisoned). 
 
@@ -985,44 +991,34 @@ A character may have things on their person, such as worn equipment and luggage,
 Collectively, these things are referred to as their **assets**. 
 
 ### Worn & Equipped
-Every character can have **assets** they wear or carry on person. These things do not factor into their used [carrying capacity](#carrying-capacity) and are listed on their character sheet in separate slots. 
+Every character can have **assets** they wear or carry on person. These things do not factor into their used [carrying capacity](#carrying-capacity) and are listed on their character sheet in a separate section. Every asset on person has to be placed in a so called **asset slot**. 
 
-Every humanoid character has the following slots for worn & equipped assets available:
-* One slot for clothing. 
-* One slot for armor.
-* A slot for every hand. Two-handed weapons would occupy two slots. 
+Every **asset slot** has a maximum bulk it can hold. Two or more **slots** of the **same type** can be combined to hold a single asset that is too bulky for just one slot. The amount of bulk each slot can hold can be increased with greater [strength](#strength-str). 
+
+Every humanoid character has the following **slots** for worn & equipped **assets** available:
+* One slot for clothing of up to 3 bulk. 
+* One slot for armor of up to 3 bulk. 
+* A slot for every hand of up to 2 bulk. 
   * This would allow creatures with more than two appendages to potentially hold a lot more things. 
-* One slot for a back-strapped thing. 
+* One slot for a back-strapped thing of up to 3 bulk. 
   * A backpack or similar thing need not be listed, as it is implied by the ability to have [luggage](#luggage) on person. 
 * Slots for any number of worn jewelry or other ornaments.
   * This only considers *light* jewelry and ornaments. Things that wouldn't encumber their wearer noticeably. Such things as rings, bracelets, a circlet or similar. 
 
 ### Luggage
-In addition to the things a character can *wear* on their person, they can also carry around things in a backpack, in pouches, slung over the shoulder or using whatever on person storage solution needed. These things are considered a character's **luggage**. 
+In addition to the things a character can *wear* on their person, they can also carry around things in a backpack, in pouches, slung over the shoulder or using whatever on person storage solution available. These things are considered a character's **luggage**. 
 
 Things such as money, valuables, camping equipment, tools, provisions, ammunition and so on, all count as **luggage**. 
 
 How much **luggage** a character can have on them, is determined by their [carrying capacity](#carrying-capacity). For every point of it, a character gets one *slot* for a piece of **luggage**. 
 
 #### Carrying Capacity
-How much [luggage](#luggage) a character can have on them, is determined by their **carrying capacity**. For every point of it, a character gets one *slot* for a piece of **luggage**. 
+How much [luggage](#luggage) a character can have on them, is determined by their **carrying capacity**, which is a **bulk** limit of **assets** that a person can be carrying around on their person. [Worn & equipped](#worn--equipped) **assets** are *excluded* and don't count towards this limit. 
 
-A character's **carrying capacity** is determined by their [strength](#strength-str). For each point in [strength](#strength-str), a character receives 3 *slots* for [luggage](#luggage). 
-
-Most things will take up one *slot*, which equals something around **5 lb/2 kg**, but some particularly large and/or heavy items can take up more *slots*. How many *slots* an item takes up, is referred to as **bulk**. 
-
-> An item with **bulk** 2 takes up 2 *slots*. 
-
-Up to 100 units of money can fit into one *slot*. 
-
-> In a given world, where the unified currency is called *crowns*:
-> 
-> A **PC** has 56 *crowns*, that money fits into 1 *slot* of **luggage**. Their ally is significantly wealthier, with 314 *crowns*, which take up 4 *slots* of **luggage**.
-
-It is up to the **GM** to decide on when something is *too heavy* to carry for the character in question. 
+A character's **carrying capacity** is determined by their [strength](#strength-str). For each point in [strength](#strength-str), a character raises their **carrying capacity** by 3. 
 
 ### Property
-Often times, characters will also own things that don't currently have on their person, or which they couldn't reasonably carry on person. 
+Often times, characters will also own things they don't currently have on their person, or which they couldn't reasonably carry on person. 
 
 Things such as an owned plot of land, a house, money in the bank, equipment and tools left at home and so on, all count as **property**. Technically, it wouldn't be incorrect to consider things a character has on person as **property**, as well, but it would bloat up a character sheet unnecessarily to list those things twice. 
 
