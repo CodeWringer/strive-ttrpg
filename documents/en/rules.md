@@ -17,35 +17,36 @@
       - [Tests Bring about Learning](#tests-bring-about-learning)
     - [Time](#time)
 - [Character](#character)
-  - [Attributes](#attributes)
-    - [Physical Attributes](#physical-attributes)
-      - [Agility \[Agi\]](#agility-agi)
-      - [Endurance \[End\]](#endurance-end)
-      - [Perception \[Perc\]](#perception-perc)
-      - [Strength \[Str\]](#strength-str)
-      - [Toughness \[Tough\]](#toughness-tough)
-    - [Mental Attributes](#mental-attributes)
-      - [Intelligence \[Int\]](#intelligence-int)
-      - [Wisdom \[Wis\]](#wisdom-wis)
-      - [Arcana \[Arc\]](#arcana-arc)
-    - [Social Attributes](#social-attributes)
-      - [Empathy \[Emp\]](#empathy-emp)
-      - [Oratory \[Ora\]](#oratory-ora)
-      - [Willpower \[Will\]](#willpower-will)
-    - [Advancing Attributes](#advancing-attributes)
-      - [Practicing Attributes](#practicing-attributes)
-  - [Skills](#skills)
-    - [Skill Abilities](#skill-abilities)
-    - [Skill Forking](#skill-forking)
-    - [Learning Skills](#learning-skills)
-    - [Advancing Skills](#advancing-skills)
-      - [Practicing Skills](#practicing-skills)
-      - [Teaching Skills](#teaching-skills)
-  - [Ambitions, Beliefs \& Reactions](#ambitions-beliefs--reactions)
+  - [Abilities](#abilities)
+    - [Attributes](#attributes)
+      - [Physical Attributes](#physical-attributes)
+        - [Agility \[Agi\]](#agility-agi)
+        - [Endurance \[End\]](#endurance-end)
+        - [Perception \[Perc\]](#perception-perc)
+        - [Strength \[Str\]](#strength-str)
+        - [Toughness \[Tough\]](#toughness-tough)
+      - [Mental Attributes](#mental-attributes)
+        - [Intelligence \[Int\]](#intelligence-int)
+        - [Wisdom \[Wis\]](#wisdom-wis)
+        - [Arcana \[Arc\]](#arcana-arc)
+      - [Social Attributes](#social-attributes)
+        - [Empathy \[Emp\]](#empathy-emp)
+        - [Oratory \[Ora\]](#oratory-ora)
+        - [Willpower \[Will\]](#willpower-will)
+      - [Advancing Attributes](#advancing-attributes)
+        - [Practicing Attributes](#practicing-attributes)
+    - [Skills](#skills)
+      - [Skill Abilities](#skill-abilities)
+      - [Skill Forking](#skill-forking)
+      - [Learning Skills](#learning-skills)
+      - [Advancing Skills](#advancing-skills)
+        - [Practicing Skills](#practicing-skills)
+        - [Teaching Skills](#teaching-skills)
+  - [Personality](#personality)
     - [Ambition](#ambition)
-    - [Beliefs](#beliefs)
-    - [Reactions](#reactions)
-  - [Personality Traits](#personality-traits)
+    - [Aspiration](#aspiration)
+    - [Reaction](#reaction)
+    - [Personality Traits](#personality-traits)
   - [Health \& Exhaustion](#health--exhaustion)
     - [Hit Points (HP)](#hit-points-hp)
     - [Injury](#injury)
@@ -87,17 +88,18 @@
       - [Youth](#youth)
       - [The Last Few Years](#the-last-few-years)
     - [Determine Name](#determine-name)
-    - [Determine Personality](#determine-personality)
     - [Species, Sex \& Appearance](#species-sex--appearance)
-    - [Choosing Ambition, Beliefs \& Reactions](#choosing-ambition-beliefs--reactions)
-      - [Choosing an Ambition](#choosing-an-ambition)
-      - [Choosing Beliefs](#choosing-beliefs)
-      - [Choosing Reactions](#choosing-reactions)
-    - [Choosing Attributes](#choosing-attributes)
-      - [Manual Attribute Assignment](#manual-attribute-assignment)
-      - [Semi-Random Attribute Assignment](#semi-random-attribute-assignment)
-      - [Determine Attribute Advancing Thresholds](#determine-attribute-advancing-thresholds)
-    - [Choosing Skills](#choosing-skills)
+    - [Determine Personality](#determine-personality)
+      - [Determine Ambition, Aspirations \& Reactions](#determine-ambition-aspirations--reactions)
+        - [Choosing an Ambition](#choosing-an-ambition)
+        - [Choosing Aspirations](#choosing-aspirations)
+        - [Choosing Reactions](#choosing-reactions)
+    - [Determine Abilities](#determine-abilities)
+      - [Choosing Attributes](#choosing-attributes)
+        - [Manual Attribute Assignment](#manual-attribute-assignment)
+        - [Semi-Random Attribute Assignment](#semi-random-attribute-assignment)
+        - [Determine Attribute Advancing Thresholds](#determine-attribute-advancing-thresholds)
+      - [Choosing Skills](#choosing-skills)
     - [Determine Assets](#determine-assets)
     - [Determine Max HP \& Injury Maximum](#determine-max-hp--injury-maximum)
     - [Determine Exhaustion Threshold](#determine-exhaustion-threshold)
@@ -266,7 +268,7 @@ A role-playing game by Nicolas Haase
 
 At its core, **Ambersteel** is about exploring ever-evolving characters through play, by confronting them with challenges to their very beliefs. The system is best suited for long-term games, running over several real-world sessions. One-shots are possible but may not provide the best experience, as several of the system's mechanics require breaks in play. 
 
-On the spectrum of *narrative-driven*, *game-y* and *simulationist*, **Ambersteel** aims for the region between *game-y* and *narrative-driven*, while leaning heavily towards *game-y*. The rules are designed to be as intuitive and simple as possible, while complex enough to allow players to make meaningful choices. 
+On the spectrum of *narrative-driven*, *game-y* and *simulationist*, **Ambersteel** aims for the region between *game-y* and *narrative-driven*, while leaning heavily towards *game-y*. The rules are designed to be as intuitive and simple as possible, while complex enough to enable players making meaningful choices. 
 
 More details about the system:
 * Combat is a risky affair and requires tactical and strategic thinking, or the readiness to retreat, when things go awry. 
@@ -325,11 +327,11 @@ Of course, how appropriate a certain [attribute](#attributes) or [skill](#skills
 ## After the Session
 After a playing session is done, the players and **GM** should stick around to discuss which players earned [fate points](#fate-points). This is where players are nominated for [fate points](#fate-points), by each other and by the **GM**. If everyone agrees, the [fate points](#fate-points) are awarded. Players can and should lobby for their [fate points](#fate-points), but shouldn't beg. If most everyone else says no, then that decision stands. That doesn't mean there is no point in discussing the matter further, but such a discussion shoulnd't be forced. 
 
-Also after the session, players and the **GM** discuss whether a **PC** should lose a [reaction](#reactions), because they have acted against it or haven't gotten to play it out at all. 
+Also after the session, players and the **GM** discuss whether a **PC** should lose a [reaction](#reaction), because they have acted against it or haven't gotten to play it out at all. 
 
 Any time in between sessions, players can spend [fate points](#fate-points) to buy cards (boons) from the [hand of fate](#hand-of-fate).
 
-Also any time in between sessions, players should re-evaluate their character's [beliefs](#beliefs) and change them, as they see fit. 
+Also any time in between sessions, players should re-evaluate aspects of their character's [personality](#personality) and change them, as they see fit. 
 
 ## Tests
 Whenever the outcome of an action or situation is uncertain, a **test** may be called for by the **GM**, in order to resolve it. 
@@ -449,9 +451,16 @@ While the **GM** decides on how much time a given test will need, the following 
 * A matter of days and months: Complex crafts and artistry, researching a complex or obscure subject. 
 
 # Character
-A character is a representation of a sentient creature in the game world. They're an amalgam of [attributes](#attributes), [skills](#skills), [ambitions, beliefs & reactions](#ambitions-beliefs--reactions) and of course their [assets](#assets). 
+A character is a representation of a sentient creature in the game world. They're an amalgam of their [abilities](#abilities), [personality](#personality), [health](#health--exhaustion) and [assets](#assets). 
 
-## Attributes
+All **PC**s utilize all of these rules. **NPC**s are an exception, in that they don't *need* the [personality](#personality) section and **cannot** earn [fate points](#fate-points). 
+
+## Abilities
+All characters have innate and learned abilities. These are described as [attributes](#attributes) and [skills](#skills). 
+
+These abilities determine the chance a character will succeed at the tasks they perform and improve as they're used. 
+
+### Attributes
 **Attributes** describe a character's basic, inherent abilities. 
 
 The *modified* level of an **attribute** dictates the base number of **D6** to roll for a [test](#tests) of that **attribute**. 
@@ -461,25 +470,25 @@ The *modified* level of an **attribute** dictates the base number of **D6** to r
 
 **Attributes** [advance](#advancing-attributes), as they're [tested](#tests). It is also possible to [practice](#practicing-attributes) **attributes**. It is **not** possible to teach **attributes**, however. 
 
-### Physical Attributes
+#### Physical Attributes
 These numbers represent a character's basic physical abilities. 
 
-#### Agility [Agi]
+##### Agility [Agi]
 Determines how nimble, fast and flexible a character is. Any action that requires a character to move very precisely, will require agility. 
 
-#### Endurance [End]
+##### Endurance [End]
 Governs how long a character can endure physical strains. 
 
 For every point in endurance, a character raises their [exhaustion threshold](#exhaustion) by 1. All characters have a base [exhaustion threshold](#exhaustion) of 1. 
 
 Endurance also governs how long a character can hold their breath. Every point in endurance grants around 10 minutes. 
 
-#### Perception [Perc]
+##### Perception [Perc]
 Governs a character's ability to passively quickly pick up on fine and fleeting details in their environment or on objects and other characters. 
 
 Also governs the ability to perceive under difficult conditions such as dim light and fog, or noisy and smelly environments. 
 
-#### Strength [Str]
+##### Strength [Str]
 Governs a character's **strength** - the ability to lift, throw and break heavy and sturdy things. Such as skulls. 
 
 Also governs the [carrying capacity](#carrying-capacity) of a character. Each point in **strength** raises the [carrying capacity](#carrying-capacity) of the character by 3. 
@@ -490,38 +499,38 @@ For every 3 points in **strength**, past the initial level, every [asset slot](#
 > 
 > Starting at level 4 in **strength**, a character can hold **assets** of bulk 3 in each hand. Then, the next increase is at level 7, then level 10 and so on.
 
-#### Toughness [Tough]
+##### Toughness [Tough]
 Governs the [injury limit](#injury) and chance to shrug off [bleeding](#bleeding) and [poison](#poisoned). 
 
 For every point in [toughness](#toughness-tough), a character gains **+4 maximum HP** and raises their [injury](#injury) limit by 1. 
 
-### Mental Attributes
+#### Mental Attributes
 These numbers represent a character's basic mental abilities. 
 
-#### Intelligence [Int]
+##### Intelligence [Int]
 Governs a character's ability to reason and analyze. 
 
-#### Wisdom [Wis]
+##### Wisdom [Wis]
 Governs a character's understanding of and ability to recall knowledge. 
 
-#### Arcana [Arc]
+##### Arcana [Arc]
 Governs a character's ability to control and sense magic flow, thus casting magic spells or detecting lingering magic. 
 
 This is the only attribute that can have a level of 0. Magical ability is innate and cannot be learned. If a character doesn't have a level of at least 1 in this attribute, they will be unable to advance it, at all. A non-mage will remain a non-mage (usually). 
 
-### Social Attributes
+#### Social Attributes
 These numbers represent a character's basic social abilities. 
 
-#### Empathy [Emp]
+##### Empathy [Emp]
 Governs a character's ability to read and understand another's emotions and intentions. 
 
-#### Oratory [Ora]
+##### Oratory [Ora]
 Governs a character's ability to convincingly speak with and before others. Also used to manipulate others. 
 
-#### Willpower [Will]
+##### Willpower [Will]
 Governs a character's ability to withstand persuasion, intimidation, charm or terror. 
 
-### Advancing Attributes
+#### Advancing Attributes
 Whenever a **PC** uses an attribute in a [test](#tests), the outcome must be noted. This includes skill tests that incorporate the attribute. This effectively means that a skill test also advances the skill's associated attribute. See also: [Tests Bring about Learning](#tests-bring-about-learning)
 
 Advancing an **attribute** requires:
@@ -552,7 +561,7 @@ For your convenience, the following table contains the precalculated requirement
 
 Whenever an attribute advances, its associated successes and failures must each be reset to 0. 
 
-#### Practicing Attributes
+##### Practicing Attributes
 It is possible to advance attributes *passively*. Whenever a large period of time is spent outside of active adventure, **PC**'s can practice an attribute of choice. 
 
 A **PC** can only actively practice one **attribute**. Furthermore, a **PC** can not both be actively practicing an **attribute** *and* a **skill**. They must choose - either practice an **attribute** *or* a **skill**. 
@@ -563,7 +572,7 @@ A **cycle** is 2 Months, regardless of attribute being practiced.
 
 > A **PC** spends a year practicing their [arcana](#arcana-arc), while the **GM** prepares the next story arc. In this case, 5 tests can be made and their outcomes noted. 
 
-## Skills
+### Skills
 A **skill** is any acquired knowledge and experience regarding a specific subject. 
 
 Two values must be tracked for every **skill**: The *unmodified* and *modified* level. See [boons and penalties](#boons--penalties). The *modified* level of a **skill** dictates the base number of **D6** to roll for a [test](#tests) of that **skill**.
@@ -572,14 +581,14 @@ When [testing](#tests) a **skill**, add half of the related [attribute](#attribu
 
 **Skills** [advance](#advancing-skills), as they're tested. It is also possible to [practice](#practicing-skills) and [teach](#teaching-skills) **skills**. 
 
-### Skill Abilities
+#### Skill Abilities
 Some skills have a list of **skill abilities** that a character unlocks, if they reach a certain level in that **skill**. A **skill ability** has one or more effects and one or more conditions that restrict when they're applicable. As such, **skill abilities** are only available to characters with a certain degree of *specialization*. 
 
 A **skill ability** can be a *passive* [boon](#boons--penalties) or an *active* choice, like a special type of attack or tool for use in social conflict resolution. 
 
 Using a **skill ability** counts as an **action**. 
 
-### Skill Forking
+#### Skill Forking
 For every **skill** a character knows (= is not currently still learning), and they are currently testing a **skill** that is thematically related, they can **fork** that **skill** into their test, granting them **+1D6** for their [test](#tests). 
 
 > Imagine a large forked rivermouth. One of the forks feeding into it is also a large river, which represents the **skill** primarily being tested. The other, smaller forks of the river represent the supporting **skills**. They all combine together at the rivermouth. A primary and its supporting **skills** flow together into the test! 
@@ -590,7 +599,7 @@ Which **skills** can be **forked** into a particular test is up to the **GM**. I
 
 > Back to the thievery example. Let's assume a **PC** is trying to quickly unlock a door using their [thievery](#thievery-dex--perc--spd), because they're being chased by guards and desperately need to get away. They could argue to fork their [stealth](#stealth-dex--spd--int) **skill** into the test, but ultimately, what use is stealth when you've already been detected? Unless you can make yourself *unseen* somehow, the **GM** should rule that stealth cannot apply in that situation. 
 
-### Learning Skills
+#### Learning Skills
 Whenever asked to test a skill a **PC** does not yet know, it will be added or progressed in the *currently learning* section of the character sheet. 
 
 A skill in learning can only be tested with their related [attribute](#attributes). If multiple attributes are listed for a skill, you can choose which one to test with. 
@@ -607,7 +616,7 @@ The outcome of a test gets noted on the skill it was made for, not the attribute
 
 It **is** possible to receive help or [tutoring](#teaching-skills) on a learning skill. 
 
-### Advancing Skills
+#### Advancing Skills
 Whenever a **PC** uses a **skill** in a [test](#tests), the outcome must be noted, both on the skill **and** its associated [attribute](#attributes). See also: [Tests Bring about Learning](#tests-bring-about-learning)
 
 Skill levels and advancement are divided into three tiers: **Dabbling**, **Apprentice** and **Master**. 
@@ -653,7 +662,7 @@ For your convenience, the following table contains the precalculated requirement
 
 Whenever a skill advances, its associated successes and failures must each be reset to 0. Successes and failures accumulated past the threshold do not carry over. They're "lost". 
 
-#### Practicing Skills
+##### Practicing Skills
 It is possible to advance **skills** *passively*. Whenever a large period of time is spent outside of active adventure, **PC**'s can practice a skill of choice. 
 
 A **PC** can only actively practice one **category of skills**. For every **cycle** that passes of active practice, the **PC** can roll a [test](#tests) of a skill of the corresponding category. Furthermore, a **PC** can not both be actively practicing a **skill** *and* an **attribute**. They must choose - either practice a **skill** *or* an **attribute**. 
@@ -667,7 +676,7 @@ A **PC** can only actively practice one **category of skills**. For every **cycl
 
 > A **PC** spends seven weeks practicing their [tactics](#tactics-str), while waiting for their comrade to recover from their [injuries](#injury). [Tactics](#tactics-str) being a physical skill, the cycle for tests is 3 weeks. In this case, 2 tests can be made and their outcomes noted. 
 
-#### Teaching Skills
+##### Teaching Skills
 Much like it is possible for a character to [practice](#practicing-skills) on their own, they can also be taught by another, who knows more than them. 
 
 Both teacher and pupil must actively spend time together, furthering the pupil's skill. The rules for cycle and test are the same as with [practice](#practicing-skills). The cycles noted in the table below are used instead. 
@@ -681,40 +690,50 @@ Both teacher and pupil must actively spend time together, furthering the pupil's
 
 If the teacher's skill is at least one level higher than that of their student, the student can use an extra **+1D6** to resolve their tests of the skill they're being taught. 
 
-## Ambitions, Beliefs & Reactions
-While all characters are expected to have *ambitions*, *beliefs* and *reactions*, **PC**s are special, because for them, these concepts are cemented through rules and mechanics. 
+## Personality
+All **PC**s have a **personality**, which is an expression of their [personality traits](#personality-traits), [ambition](#ambition), [aspirations](#aspiration) and [reactions](#reaction). 
 
-**Ambitions**, **beliefs** and **reactions** can not change during a game session. They can only be changed in-between. 
+All aspects of a **PC**s **personality** may change, as the game is played. Through their actions and the situations they're confronted with, a character's personality may be affected. 
 
-Whenever a player plays to their **ambitions**, **beliefs** and **reactions** in certain ways, they earn [fate points](#fate-points). 
+It is from this fluidity, that a character becomes so interesting to explore, because even as their player, you might not know how the world and events they experience may affect your character. They're a book you start writing from the beginning - not the ending.
 
-It is the **GM**'s role, to create interesting situations, which can *challenge* the **beliefs** and **reactions**, or even **ambitions** of the **PC**s. However the players and **PC**s react, can earn them [fate points](#fate-points) and will drive the story forward. 
+In addition to that, players can earn a meta-currency called [fate points](#fate-points), by playing their character either in accordance with their **personality**, or by dramatically breaking with it. It is the **GM**'s job to present the **PC**s with conflicts that will challenge their **personality** and it is the player's job to provide answers. 
+
+Of course, even **NPC**s have a **personality**, but unlike **PC**s, this is not cemented through rules and they **cannot** earn [fate points](#fate-points). 
 
 ### Ambition
 Every **PC** must have one **ambition** - a life-fulfilling long-term goal to pursue. This can be anything from "found a family" to "become king of the world!". No matter how unrealistic, an **ambition** is a primary driver for a character, to guide them onward. The important part is to think *big*. Something easily achievable would make for a dull **ambition** and defeat the point of it. 
 
-An **ambition** is not expected to change often. An ideal **ambition** would accompany a character a long time. 
+An **ambition** is not *expected* to change often. An ideal **ambition** would accompany a character a long time. 
 
-### Beliefs
-A player also has to decide on three **beliefs** for their character, which represent short-term goals and expectations of the character and their player. A belief should not be a triviality, but instead a goal that requires some considerable effort on both the character's and player's part to achieve. 
+Whenever a **PC** acts in accordance with their **ambition**, their player earns [fate points](#fate-points). 
 
-A belief must be based on the events and circumstances affecting the character in game. 
+### Aspiration
+Every **PC** must have three **aspirations** - immediate goals to pursue in the current game session. They're usually born from circumstance and are expected to change frequently. 
 
-> For example, a **PC** learns of a conspiracy against their lord during the session. After the session, they decide they'll change one of their **beliefs** to "I will uncover the plot against my lord!"
+**Aspirations** should be a *conviction*, followed by an *actionable* goal to pursue. Any **aspiration** that includes the words "I will ..." is usually *actionable* - the character wants to **do** something, which will possibly achieve their goal. A *conviction* is a statement of *why* the character has set this goal. 
 
-**Beliefs** can also target other **PC**s. You can either set a belief to help or even change your fellow **PC**. Be mindful though, your belief should not be *too* drastic.
+> For example, a **PC** learns of a conspiracy against their lord during the session. After the session, they decide they'll change one of their **aspirations** to "My lord's safety is paramount! I will uncover the plot against my lord!"
+>
+> The first part is the *conviction* - the *why* - and the second part the action they want to take - that which makes the **aspiration** *actionable*. 
+> 
+> With that they set the stage for their character when the next session arrives. The **GM** thus has an idea of what story elements to prepare for and the other players know why the one **PC** suddenly acts more suspiciously and inquisitively. 
 
-> For example, a **PC** learns their ally is a member of a secretive and dangerous cult. After the session, the player determines the new belief "I will get my ally to leave that dangerous cult!" Whether successful or not, this belief, in play, will create an **interesting conflict** between the two **PC**s. 
+**Aspirations** can be directed towards anyone - including the world itself, **NPC**s and even other **PC**s. 
 
-**Beliefs** are expected to change frequently, commonly from session to session. But not so frequent as to make achieving them impossible. 
+> For example, a **PC** learns their ally is a member of a secretive and potentially dangerous cult. After the session, the player determines the new **aspiration** "I look out for my allies! I will get my ally to leave that dangerous cult!" 
+> 
+> Whether successful or not, this **aspiration**, in play, will create an **interesting conflict** between the two **PC**s. But always keep in mind not to do anything *too* drastic or antagonistic towards fellow **PC**s. After all, why should people who actually hate each other's guts stick together as a group? Perhaps you can find a good reason, but this should be a deliberate decision that the entire player group agrees on. 
 
-### Reactions
-Much like [beliefs](#beliefs), a player must determine three **reactions** for their character. A **reaction** is an automatic behavior - something the character is *expected* to do *automatically* and without question, when a situation triggers it. But *expected* doesn't mean *have to*. A character can choose to act against a **reaction**, but that may cause them to lose it. 
+Whenever a **PC** acts in accordance with their **aspirations**, their player earns [fate points](#fate-points). 
+
+### Reaction
+A player must determine three **reactions** for their character. A **reaction** is an automatic behavior - something the character is *expected* to do *automatically* and without question, when a given situation triggers it. But *expected* doesn't mean *have to*. A player can *choose* to have their character act against a **reaction** - and that may cause them to lose it. 
 
 A **reaction** is an "if/then" and "always/never" statement, which can be be beneficial or detrimental to the character. 
 
-There are two types of **reactions**:
-* **Troublemaker**: A detrimental **reaction**, that will get the character in trouble.
+As such, there are two types of **reactions**:
+* **Troublemaker**: A detrimental **reaction**, that will get the character in *trouble*.
   * A **troublemaker** allows earning [fate points](#fate-points). 
   * *Trouble* is defined as any situation in which a mild conflict arises, from the **PC**'s **reaction**. This conflict does not have to be violent, mind you. It should be preferable for a social conflict to arise, that is entirely non-violent. Things could always escalate, of course.
 * **Assurance**: A beneficial **reaction** that acts as *insurance*, that the character won't be caught by surprise. 
@@ -728,7 +747,7 @@ There are two types of **reactions**:
 
 **Reactions** are expected to change whenever a character (decides) to act against them. A **PC** cannot keep a **reaction** they keep contradicting. Players and the **GM** are expected to discuss at the end or beginning of a session, whether anyone should give up one of their **reactions**. 
 
-## Personality Traits
+### Personality Traits
 Every **PC** has several values that help inform their player what their character is like - how they act. 
 
 This personality is codified by the following matrix. Each row is a scale, with two opposing traits. Whenever A trait reaches the "signature" column, a **PC** is known for that trait! In fact, they can hardly *not* act that way! In order for behaviour to deviate from a signature trait, a D6 has to be rolled. Only if it is a **positive**, can the player choose to deviate from the signature trait's dictated behavior. 
@@ -750,6 +769,8 @@ Whenever **PC**s very strongly act in a certain way, their value in a **personal
 These values can even have an impact on your [tests](#tests)! For example, a character who is known to be merciful may find it easier to convince their enemies to surrender to them. On the other hand, if that same **PC** tries intimidation, they will find it harder to succeed. 
 
 Keep your character's **personality traits** in mind and remember to ask your **GM** for a bonus die to roll in [tests](#tests), where your "very" strong or "signature" traits might aid you!
+
+Additionally, playing to or even against their character's **personality traits** allows earning a player [fate points](#fate-points). 
 
 ## Health & Exhaustion
 Every character has **Hit Points (HP)** and a maximum number of **injuries** they can endure (= their **injury limit**), before they die. 
@@ -1033,20 +1054,18 @@ If you don't feel inspired, the following sections can provide tips and randomiz
 
 The procedure of creating a character consists of the following steps:
 1. [Determine life path](#determine-life-path). 
-2. [Determine name & personality](#determine-name--personality).
-3. [Determine species, sex & appearance](#species-sex--appearance).
-4. [Determine **ambition**, **beliefs** & **reactions**](#choosing-ambition-beliefs--reactions). 
-5. [Determine **attributes**](#choosing-attributes).
-6. [Determine **skills**](#choosing-skills).
-7. [Determine **carrying capacity** and **assets**](#determine-assets).
-8. [Determine **Max HP** and **Injury Maximum**](#determine-max-hp--injury-maximum)
-9. [Determine exhaustion threshold](#determine-exhaustion-threshold).
-10. [Determine magic stamina](#determine-magic-stamina).
+2. [Determine species, sex & appearance](#species-sex--appearance).
+3. [Determine name](#determine-name).
+4. [Determine abilities](#determine-abilities).
+6. [Determine **carrying capacity** and **assets**](#determine-assets).
+7. [Determine **Max HP** and **Injury Maximum**](#determine-max-hp--injury-maximum)
+8. [Determine exhaustion threshold](#determine-exhaustion-threshold).
+9.  [Determine magic stamina](#determine-magic-stamina).
 
 ### Determine Life Path
 Where and when does the story of your character begin? Under what circumstances are they born and how were they raised? Until adulthood, did they lead a life of carelessness or did they have to fight for every scrap of food? How did they lead their life up until the point they picked up adventuring? 
 
-Answering these questions will help you figure out what your character could be like, as a person and what kinds of **ambitions**, **beliefs** and **reactions** they might develop. 
+Answering these questions will help you figure out what your character could be like, as a person and what kinds of **ambitions**, **aspirations** and **reactions** they might develop. 
 
 If you need inspiration, the following tables might help a spark along:
 #### Origin
@@ -1088,15 +1107,12 @@ Any interesting character should have an interesting name. Whether you set a nam
 
 If you can't come up with a name, you can ask your **GM** for inspiration, since they'll likely know the world and the culture(s) your character can stem from and what kinds of names are common there. 
 
-### Determine Personality
-Perhaps more important than a name, is the personality that it represents. Think about what you want your character to be like - are they very sociable? Or perhaps a taciturn brute who'd rather let their actions speak? A cruel man of science? A socialite with friends everywhere? The options are plentiful!
-
-Refer to the table in the [personality traits](#personality-traits) section. You can choose freely, where to place your "x", for every row. You can even leave every trait at "undecided" and find out through play, what your character is like. If you prefer, you can even let chance decide for you! For that, roll a D6 for every row. A 0 results in a "signature" trait on the left side of the scale, while a 6 results in a "signature" trait on the right side of the scale. Using this method, you will **not** have *any* "undecided" traits in the end. 
-
 ### Species, Sex & Appearance
-Species is a bit difficult to provide a randomization table for, because the world your **GM** is running, might have different species available, than could be anticipated here. For simplicity's sake, it is assumed you are generating a human here. 
+Species is a bit difficult to provide a randomization table for, because the world your **GM** is running, might have different species available, that could not be anticipated here. For simplicity's sake, it is assumed you are generating a human. 
 
-Gender is personal preference, but could also be decided by a coin flip. 
+Gender is personal preference, but could also be decided by a die. 
+
+The following table provides appearance traits for you to pick via the roll of a D10. 
 
 | Range D10 | Physique    | Face       | Skin       | Hair     |
 | --------- | ----------- | ---------- | ---------- | -------- |
@@ -1111,51 +1127,65 @@ Gender is personal preference, but could also be decided by a coin flip.
 | 9         | Short       | Narrow     | Pale       | Wavy     |
 | 10        | Scrawny     | Broken     | Pierced    | Greased  |
 
-### Choosing Ambition, Beliefs & Reactions
-As described in the [section with the same name](#ambitions-beliefs--reactions), what your character believes in and what drives them onward, is key in playing them. Don't worry too much about your first **beliefs** and **reactions**, they're expected to change frequently, anyway. 
+### Determine Personality
+Perhaps more important than a name, is the personality that it represents. Think about what you want your character to be like - are they very sociable? Or perhaps a taciturn brute who'd rather let their actions speak? A cruel man of science? A socialite with friends everywhere? The options are plentiful!
 
-Only your **ambition** will require some thought beforehand, but even so, you don't have to plan your character's future, at all. That is the **GM**'s job, after all. But keep in mind your character's **ambition** tells your **GM**, what kind of stories you'd like to explore and what's more, how your character will fit into them. 
+Refer to the table in the [personality traits](#personality-traits) section. You can choose freely, where to place your "x", for every row. You can even leave every trait at "undecided" and find out through play what your character is like. If you prefer, you can even let chance decide for you! For that, roll a D6 for every row. A 0 results in a "signature" trait on the left side of the scale, while a 6 results in a "signature" trait on the right side of the scale. Using this method, you will **not** have *any* "undecided" traits in the end. 
 
-#### Choosing an Ambition
+#### Determine Ambition, Aspirations & Reactions
+This is where things may get a little difficult. Work together with your **GM**, as they know their world and what kinds of agendas the people in it might have. 
+
+Don't worry too much about your first **aspirations** and **reactions**, as they're expected to change frequently and through the events your character has yet to experience. 
+
+Only your **ambition** will require some thought beforehand, but even so, you don't have to plan your character's entire future, at all. But keep in mind that your character's **ambition** tells your **GM**, what kind of stories you'd like to explore and what's more, how your character will fit into them. Again, working with your **GM** to determine a fitting **ambition** is paramount. 
+
+##### Choosing an Ambition
 At the core of every character stands their [ambition](#ambition), which is the primary force driving them. A good **ambition** should last you a long time and give the **GM** a hint what kind of story you want to explore with your character. 
 
 Talk to your **GM** about the **ambition** you want your character to have. On the one hand, it allows them to determine the kind of story you want to explore and on the other hand they can guage whether the **ambition** is a suitable long-term goal. 
 
 Keep in mind the **ambition** you can randomly determine here is kept most basic and generic. Work with your **GM** to fill in the details. 
 
-| Range D10 | Ambition           | 
-| --------- | ------------------ | 
-| 1         | Revenge            | 
-| 2         | Pilgrimage         | 
-| 3         | Wealth             | 
-| 4         | Power              | 
-| 5         | Fame/Glory         | 
-| 6         | Knowledge          | 
-| 7         | Family & Belonging | 
-| 8         | Atonement          | 
-| 9         | World Betterment   | 
-| 10        | Fire               | 
+| Range D10 | Ambition           |
+| --------- | ------------------ |
+| 1         | Revenge            |
+| 2         | Pilgrimage         |
+| 3         | Wealth             |
+| 4         | Power              |
+| 5         | Fame/Glory         |
+| 6         | Knowledge          |
+| 7         | Family & Belonging |
+| 8         | Atonement          |
+| 9         | Altruism           |
+| 10        | Fire               |
 
-#### Choosing Beliefs
-Now, the time to determine your three [beliefs](#beliefs) has come. Yet again, your **GM** is integral in finding them. However, the other **PC**s are also of interest now. You can have **beliefs** whose subject is one of the other **PC**s. You could have the game begin with two or more of the **PC**s knowing each other. 
+##### Choosing Aspirations
+Now, the time to determine your three [aspirations](#aspiration) has come. Yet again, your **GM** is integral in finding them. However, the other **PC**s are also of interest now. You can have **aspirations** whose subject is one of the other **PC**s. You could even have the game begin with two or more of the **PC**s knowing each other, this way. 
 
-A good **belief** has a *subject* and a well-defined *goal*. It doesn't necessarily matter if the goal is attainable, though. Unlike an **ambition**, a **belief** doesn't have to be long-term, at all. If it comes up during play, you could achieve your **belief** within the first session. On the other hand, some **beliefs** never come to fruition. 
-
-> Two **PC**s begin the game knowing each other. One starts with a background as a criminal, the other as a former monk. The former monk has a **belief** stating "Stealing isn't right! I will help my friend pick up honest work!" The thief, on the other hand has the **belief** "My friend has my back, but they really need to start looking after themselves! I will teach them to be more like me." 
+> Two **PC**s begin the game knowing each other. One starts with a background as a criminal, the other as a former monk. The former monk has an **aspiration** stating "Stealing isn't right! I will help my friend pick up honest work!" The thief, on the other hand has the **aspiration** "My friend has my back, but they really need to start looking after themselves! I will teach them to be more like me." 
 > 
-> These two **beliefs** allow these characters to come into conflict, despite their good intentions. How it will play out, no one can say. And that makes for an interesting conflict!
+> These two **aspirations** allow these characters to come into conflict, despite their good intentions. How it will play out, no one can say. And that makes for an interesting conflict!
 
-#### Choosing Reactions
-Lastly, you need three [reactions](#reactions) for your character. Ideally, at least one of them should allow your **GM** getting your **PC** into *trouble*. 
+##### Choosing Reactions
+Lastly, you need three [reactions](#reaction) for your character. Ideally, at least one of them should allow your **GM** getting your **PC** into *trouble*. 
 
-### Choosing Attributes
+For reactions, you're fairly free to pick and choose, so long as you keep in mind that **reactions** cannot alter facts of the narrative. **Reactions** can only allow you to *enter* a situation with an advantage - or to get your character in trouble in a situation that triggers it. 
+
+> A reaction like "Allies around me don't die" is a bad **reaction**, as it tries to alter facts, but isn't allowed to. The **GM** can't do much with this kind of reaction. 
+>
+> An improved version would be "Whenever an ally near me is in trouble, I come to their aid". 
+
+### Determine Abilities
+Next up, you can reinforce your character's [personality](#personality) with the abilities they have. Or even prepare a conflict of what your character *can* do and what they *think* they can do. 
+
+#### Choosing Attributes
 There are two methods for determining your character's attributes: manual and semi-random. 
 
 You'll have to decide on whether your character will be a mage or not. Mages start with lower attributes, so this decision can affect your character's initial competence. 
 
 Please keep in mind the values here are representative for an ordinary human about to enter an adventuring life. Other species may have modifiers on their attributes, making them better or worse in some of them. But that depends on the world your **GM** is running. 
 
-#### Manual Attribute Assignment
+##### Manual Attribute Assignment
 * As a **mage**
   * You can spend **12 points** on your attributes. 
   * **All** attributes start at level 1. 
@@ -1167,7 +1197,7 @@ Please keep in mind the values here are representative for an ordinary human abo
 * No attribute may have a level less than 1 (exception: **arcana**) nor higher than 4.
 * Only two attributes may have a level of 4. 
 
-#### Semi-Random Attribute Assignment
+##### Semi-Random Attribute Assignment
 1. For a **mage**
    1. Roll 11 **D4**
 1. For a **non-mage**
@@ -1185,12 +1215,12 @@ Please keep in mind the values here are representative for an ordinary human abo
 1. Repeat from the step of counting up your total and adjusting as necessary, until no more adjustments are necessary. 
 1. Lastly, apply the adjusted values to your attributes. 
 
-#### Determine Attribute Advancing Thresholds
+##### Determine Attribute Advancing Thresholds
 Once attribute values have been set, you can determine the required number of successes and failures each attribute requires, in order to advance. 
 
 For this, see the rules on [attribute advancing](#advancing-attributes).
 
-### Choosing Skills
+#### Choosing Skills
 You can spend **8** points to *learn* skills and raise their level, with the following limitations:
 * No skill can be higher level than 3. 
 * You can have at most 7 skills. 
@@ -1227,27 +1257,28 @@ Fate points (**FP**) represent a meta-currency that *players* can earn and use t
 
 There are three types of **FP**: [Minor](#minor-fate-points), [major](#major-fate-points) and [ambition](#ambition-fate-points). 
 
-**FP** are earned, by playing to one's [ambitions, beliefs and reactions](#ambitions-beliefs--reactions). Most **FP** are earned by a single player, but some may also be earned as a group. 
+**FP** are earned, by playing to the character's [personality](#personality). Most **FP** are earned by a single player, but some may also be earned by the players as a group. 
 
 ## Minor Fate Points
 **Minor Fate Points (MiFP)** are the lowest valued and most common type of **FP**, most commonly earned by playing the mechanics of the game. 
 
 **MiFP** can be earned in the following ways: 
-* **Beliefs**: Playing to one's **beliefs**. This only counts *working towards* a goal set by a belief. 
+* **Personality**: Playing in accordance to one's **personality traits**. 
+* **Aspiration**: Playing to one's **aspirations**. This only counts *working towards* an **aspiration**. 
 * **Trouble**: Playing to one's **reactions** - if they get their character, or their allies, into trouble. 
 * **Humor**: Stopping the table with a good bit of humor at the right time. But don't overdo it - your **GM** can only weave you a dramatic and gripping story, if you let them. 
 * **Specialist**: Driving the story forward, when no one else could - having the right skill to employ at the right time. 
-* **Helper**: Helping an ally out at a critical time - during or out of [combat](#combat). 
+* **Helper**: Helping an ally out at a *critical* time - during or out of [combat](#combat). 
 
 ## Major Fate Points
 **Major Fate Points (MaFP)** take more effort from the *player* to earn, only being earned through convincing roleplaying, creative efforts and accomplishing long-term goals. 
 
 **MaFP** can be earned in the following ways: 
-* **Beliefs**: Accomplishing a goal set by a belief. 
+* **Aspiration**: Accomplishing an **aspiration**, achieving its goal. 
 * **Achievements**: Whenever a major plot point or story arc is concluded - a great journey, uncovering a plot of assassination, fulfilling a contract to clear out a bandit camp or discovering an ancient artifact, all count as *achievements*, which earn this award **for all the players, as a group**. 
 * **Embodiment**: Capturing their character and personifying them, in the moment. For example, by giving a great speech, acting scared or enjoying a bitter revenge with glee, as if they were actually there and doing it! 
-* **Inner Turmoil**: Convincingly acting out an inner conflict that may come up when a decision that conflicts with a **belief** comes up. If the others can *feel* the gut-wrenching decision being made, this award is earned!
-* **Creative Solutions**: Coming up with a very creative way to solve a problem. This may be a diplomatic solution, where the **GM** thought one impossible. Or, perhaps an unexpected use of the environment during **combat**, which earned the **PC**s a distinct advantage on the battlefield, in a way the **GM** couldn't foresee. 
+* **Inner Turmoil**: Convincingly acting out an inner conflict that may come up when a decision conflicts with an **aspiration** or **personality trait**. If the others can *feel* the gut-wrenching decision being made, this award is **earned**!
+* **Creative Solutions**: Coming up with a very creative way to solve a problem. This may be a diplomatic solution, where the **GM** thought one impossible. Or, perhaps an unexpected use of the environment during **combat**, which yielded the **PC**s a distinct advantage on the battlefield, in a way the **GM** didn't foresee. 
 * **Collaboration**: Working with the **GM** to further the world and the story in creative ways and helping the **GM** out when possible. Secret plots that only one of the players is involved in, which causes gasps and applause from the other players, when the plot is finally revealed, for example. 
 * **The Gears**: Being *the gears*, without which nothing would move. Doing the laborious work during session, nobody wants to do, but which has to happen to keep the story moving. Always making sure to pitch the tents in the right spot, watching out for traps or doing the boring question-asking all earn this award!
 
