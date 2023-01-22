@@ -259,7 +259,7 @@
   - [List of Mutations](#list-of-mutations)
   - [List of Scars](#list-of-scars)
 
-Version 4
+Version 8
 
 A role-playing game by Nicolas Haase
 
