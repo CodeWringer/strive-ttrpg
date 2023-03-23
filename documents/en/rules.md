@@ -750,7 +750,7 @@ As such, there are two types of **reactions**:
 ### Personality Traits
 Every **PC** has several values that help inform their player what their character is like - how they act. 
 
-This personality is codified by the following matrix. Each row is a scale, with two opposing traits. Whenever A trait reaches the "signature" column, a **PC** is known for that trait! In fact, they can hardly *not* act that way! In order for behaviour to deviate from a signature trait, a D6 has to be rolled. Only if it is a **positive**, can the player choose to deviate from the signature trait's dictated behavior. 
+This personality is codified by the following matrix. Each row is a scale, with two opposing traits. Whenever A trait reaches the "signature" column, a **PC** is known for that trait! In fact, they can hardly *not* act that way! In order for behaviour to deviate from a signature trait, a **D6** has to be rolled. Only if it is a **positive**, can the player choose to deviate from the signature trait's dictated behavior. 
 
 Whenever **PC**s very strongly act in a certain way, their value in a **personality trait** may change. Take note during play, how the characters have acted. After the session, discuss whether any of the **PC**s have shown a very strong drift towards either side of the scale. And if everyone agrees, a personality change is in order!
 
@@ -882,7 +882,7 @@ This **state** is removed automatically, if the character is freed of the acidic
 #### Drug-Addicted
 A **drug-addicted** character must take their drug once every 24 hours, or else enter **withdrawal**. 
 
-For every 24 hours that a character is in **withdrawal**, they suffer -1D to **all** tests. For every 12 hours that they are in **withdrawal** they have to pass a [willpower](#willpower-will) test at **Ob** 2, or else be forced to dedicate their every whole strength into acquiring and taking a new dose of the drug. 
+For every 24 hours that a character is in **withdrawal**, they suffer **-1D** to **all** tests. For every 12 hours that they are in **withdrawal** they have to pass a [willpower](#willpower-will) test at **Ob** 2, or else be forced to dedicate their every whole strength into acquiring and taking a new dose of the drug. 
 
 After 72 consecutive hours (= 3 full days) of having being in **withdrawal**, the character breaks free from their addiction, removing this **health state**.
 
@@ -930,9 +930,9 @@ At the end of every combat round of every 5 seconds outside of combat, a charact
 #### Prone
 A character who is prone, is harder to hit with ranged attacks, but easier to hit with melee attacks, as they'll have a harder time defending. 
 
-* -1D to [melee defence](#melee-defence-agi) tests. 
-* -1D to any attack tests. 
-* +1D to [ranged defence](#ranged-defence-agi) tests. 
+* **-1D** to [melee defence](#melee-defence-agi) tests. 
+* **-1D** to any attack tests. 
+* **+1D** to [ranged defence](#ranged-defence-agi) tests. 
 
 It costs 1 [AP](#action-points-ap) to stand up. 
 
@@ -1069,7 +1069,7 @@ Answering these questions will help you figure out what your character could be 
 
 If you need inspiration, the following tables might help a spark along:
 #### Origin
-| Range D6 | Origin | 
+| Range **D6** | Origin | 
 | -------- | ------ |
 | 1 | You were born into the life of a noble. |
 | 2 | You were born as the only child of a merchant. |
@@ -1079,7 +1079,7 @@ If you need inspiration, the following tables might help a spark along:
 | 6 | You were born to a craftsman. |
 
 #### Youth
-| Range D10 | Youth | 
+| Range **D10** | Youth | 
 | --------- | --------- |
 | 1 | You developed a passion for a craft and found a master willing to teach you his art. |
 | 2 | You never quite found your place in the world and never found a passion for honest work. Instead, you took to a life of lowly crime, pickpocketing and extorting what you could. |
@@ -1093,7 +1093,7 @@ If you need inspiration, the following tables might help a spark along:
 | 10 | You were taught by a wealthy and successful merchant (perhaps your parent) and helped with running their business for a few years. |
 
 #### The Last Few Years
-| Range D6 | The Last Few Years | 
+| Range **D6** | The Last Few Years | 
 | -------- | --------- |
 | 1 | You made an enemy you couldn't beat and were thus forced to leave town. Since then, you've been on the run. |
 | 2 | You've been given an important task to carry out in secret. A piece of parchment holds your orders, but the task is simply too great for you to complete on your own. |
@@ -1112,9 +1112,9 @@ Species is a bit difficult to provide a randomization table for, because the wor
 
 Gender is personal preference, but could also be decided by a die. 
 
-The following table provides appearance traits for you to pick via the roll of a D10. 
+The following table provides appearance traits for you to pick via the roll of a **D10**. 
 
-| Range D10 | Physique    | Face       | Skin       | Hair     |
+| Range **D10** | Physique    | Face       | Skin       | Hair     |
 | --------- | ----------- | ---------- | ---------- | -------- |
 | 1         | Athletic    | Bloated    | Rough      | Bald     |
 | 2         | Brawny      | Blunt      | Birthmark  | Braided  |
@@ -1130,7 +1130,7 @@ The following table provides appearance traits for you to pick via the roll of a
 ### Determine Personality
 Perhaps more important than a name, is the personality that it represents. Think about what you want your character to be like - are they very sociable? Or perhaps a taciturn brute who'd rather let their actions speak? A cruel man of science? A socialite with friends everywhere? The options are plentiful!
 
-Refer to the table in the [personality traits](#personality-traits) section. You can choose freely, where to place your "x", for every row. You can even leave every trait at "undecided" and find out through play what your character is like. If you prefer, you can even let chance decide for you! For that, roll a D6 for every row. A 0 results in a "signature" trait on the left side of the scale, while a 6 results in a "signature" trait on the right side of the scale. Using this method, you will **not** have *any* "undecided" traits in the end. 
+Refer to the table in the [personality traits](#personality-traits) section. You can choose freely, where to place your "x", for every row. You can even leave every trait at "undecided" and find out through play what your character is like. If you prefer, you can even let chance decide for you! For that, roll a **D6** for every row. A 0 results in a "signature" trait on the left side of the scale, while a 6 results in a "signature" trait on the right side of the scale. Using this method, you will **not** have *any* "undecided" traits in the end. 
 
 #### Determine Ambition, Aspirations & Reactions
 This is where things may get a little difficult. Work together with your **GM**, as they know their world and what kinds of agendas the people in it might have. 
@@ -1146,7 +1146,7 @@ Talk to your **GM** about the **ambition** you want your character to have. On t
 
 Keep in mind the **ambition** you can randomly determine here is kept most basic and generic. Work with your **GM** to fill in the details. 
 
-| Range D10 | Ambition           |
+| Range **D10** | Ambition           |
 | --------- | ------------------ |
 | 1         | Revenge            |
 | 2         | Pilgrimage         |
@@ -1623,7 +1623,7 @@ Armor can have the following **properties**:
 * **Ambersteel-Plated**: Bonus protection from magic: **+1** for every quality level. **+1D6** for every two **quality levels**, starting at level 1.
 * **Ambersteel-Forged**: Bonus protection from magic: **+2** for every quality level. **+1D8** for every two **quality levels**, starting at level 1.
 
-> An ambersteel-lined armor at quality level 3 would have +(3 + 2D4) protection from magic. 
+> An ambersteel-lined armor at quality level 3 would have +(3 + **2D4**) protection from magic. 
 
 #### Armor Types
 Armor reduces damage to its wearer by a flat amount. By how much, is specific to each armor type. Some armors can have special protections or effects. 
@@ -1635,10 +1635,10 @@ A set of light armor that doesn't impede the wearer by much. Commonly represents
 
 | Reduce Damage     |
 | ----------------- |
-| 3 + 1D3 **Slashing**    |
-| 2 + 1D3 **Bludgeoning** |
-| 1 + 1D3 **Piercing**    |
-| 1 + 1D3 **Crushing**    |
+| 3 + **1D3** **Slashing**    |
+| 2 + **1D3** **Bludgeoning** |
+| 1 + **1D3** **Piercing**    |
+| 1 + **1D3** **Crushing**    |
 
 ##### Medium Armor
 A set of medium armor with a good balance of protection and weight. Commonly represents a gambeson underneath a mail hauberk. Optional mail mittens. Common headgear: arming cap, mail coif or any non-full helmet. 
@@ -1647,10 +1647,10 @@ A set of medium armor with a good balance of protection and weight. Commonly rep
 
 | Reduce Damage     |
 | ----------------- |
-| 4 + 1D4 **Slashing**    |
-| 3 + 1D4 **Bludgeoning** |
-| 2 + 1D4 **Piercing**    |
-| 1 + 1D4 **Crushing**    |
+| 4 + **1D4** **Slashing**    |
+| 3 + **1D4** **Bludgeoning** |
+| 2 + **1D4** **Piercing**    |
+| 1 + **1D4** **Crushing**    |
 
 ##### Heavy Armor
 A set of heavy armor with excellent protection, at the cost of encumbering the wearer greatly. Commonly represents a full suit of plate armor.  
@@ -1659,10 +1659,10 @@ A set of heavy armor with excellent protection, at the cost of encumbering the w
 
 | Reduce Damage     | 
 | ----------------- |
-| 5 + 1D5 **Slashing**    |
-| 4 + 1D5 **Bludgeoning** |
-| 3 + 1D5 **Piercing**    |
-| 2 + 1D5 **Crushing**    |
+| 5 + **1D5** **Slashing**    |
+| 4 + **1D5** **Bludgeoning** |
+| 3 + **1D5** **Piercing**    |
+| 2 + **1D5** **Crushing**    |
 
 ### Shield Types
 Shields are items that provide passive bonuses to [melee defence](#melee-defence-agi) and [ranged defence](#ranged-defence-agi) and require one free hand to use. This implies they cannot be used at the same time as a two-handed weapon. 
@@ -1729,7 +1729,7 @@ Weapons can have the following **properties**:
 * **Ambersteel-Plated**: Bonus damage against mages and magical creatures: **+1** for every quality level. **+1D6** for every two **quality levels**, starting at level 1.
 * **Ambersteel-Forged**: Bonus damage against mages and magical creatures: **+2** for every quality level. **+1D8** for every two **quality levels**, starting at level 1.
 
-> An ambersteel-lined weapon at quality level 3 would have +(3 + 2D4) damage against mages and magical creatures. 
+> An ambersteel-lined weapon at quality level 3 would have +(3 + **2D4**) damage against mages and magical creatures. 
 
 ### Weapon Types
 Weapons can have the following **effects**:
@@ -1745,7 +1745,7 @@ Sometimes, your own body is your greatest weapon. Fists and feet can cause a sur
 | Skill | **Ob**  | Attack                  | AP | Damage                | Effect |
 | ----- | ------- | ----------------------- | -- | --------------------- | ------ |
 | 0     | Opposed by **Melee Defence** | Punch, kick, headbutt   | 2  | **Str** + 2 **Bludgeoning** | / |
-| 1     | Opposed by **Unarmed** | Grapple | 2  | / | Requires a successful opposed **unarmed** test. If **completely successful**, the target is unable to move and suffers -1D to their defense tests, for as long as they're grappled. Someone grappled can attempt to break free with an opposed **unarmed** test, on their turn. |
+| 1     | Opposed by **Unarmed** | Grapple | 2  | / | Requires a successful opposed **unarmed** test. If **completely successful**, the target is unable to move and suffers **-1D** to their defense tests, for as long as they're grappled. Someone grappled can attempt to break free with an opposed **unarmed** test, on their turn. |
 | 2     | Opposed by **Unarmed** | Wrestle and Disarm |  | Perform a single target attack against a designated enemy. If you win, you disarm them and could wrestle them to the ground, making them [prone](#prone), if you so choose. | Disarm only if enemy is using detachable weapon. |
 
 #### Short Blade
@@ -1774,7 +1774,7 @@ Any long blade, including long one-handed blades. Examples: arming sword, bastar
 | 0     | Opposed   | Slash                   | 2  | **2D6** **Slashing**  | / |
 | 0     | Opposed   | Stab                    | 2  | **1D6 + 1** **Piercing**  | / |
 | 3     | Opposed+2 | Mordhau-Strike          | 2  | **1D4** **Crushing**  | / |
-| 4     | /         | Fencer-Stance           | 3  | / | Enter a defensive fencing stance. Gain +1D for [melee defence](#melee-defence-agi) and can **counter-attack** **every** attack.|
+| 4     | /         | Fencer-Stance           | 3  | / | Enter a defensive fencing stance. Gain **+1D** for [melee defence](#melee-defence-agi) and can **counter-attack** **every** attack.|
 
 #### Great Blade
 Any very long, two-handed blade. Examples: sword of war, greatsword, Zweihänder
@@ -2142,7 +2142,7 @@ Is opposed by [resist](#resist-will).
 
 | Level | Name                 | AP | **Ob**  | Effect(s)          | Condition(s) |
 | ----- | -------------------- | -- | ------- | ------------------ | ------------ |
-| 1     | Inspire  | 1  | 1 | Grant another character +1D for their next test. |  |
+| 1     | Inspire  | 1  | 1 | Grant another character **+1D** for their next test. |  |
 | 3     | Pep Talk | 2  | 3 | Remove another character's [dazed](#dazed) or [terrified](#terrified) state. |  |
 
 #### Resist (Will)
@@ -2252,9 +2252,9 @@ The product effects do not stack, but they can be overridden. This means that th
 | Ambersteel-plated armor              | High       | High      | [Amberite](#amberite); A set of armor  | Bonus protection from magic: **+1** for every quality level. **+1D6** for every two **quality levels**, starting at level 1. |
 | Ambersteel-forged armor              | Very High  | Very High | [Amberite](#amberite)                  | Bonus protection from magic: **+2** for every quality level. **+1D8** for every two **quality levels**, starting at level 1. |
 
-> An ambersteel-lined weapon at quality level 3 would have +(3 + 2D4) damage against mages and magical creatures. 
+> An ambersteel-lined weapon at quality level 3 would have +(3 + **2D4**) damage against mages and magical creatures. 
 
-> An ambersteel-lined armor at quality level 3 would have +(3 + 2D4) protection from magic. 
+> An ambersteel-lined armor at quality level 3 would have +(3 + **2D4**) protection from magic. 
 
 #### Alchemy (Arc)
 The ability to brew alchemical potions, create powders, mixtures and other substances, as well as the ability to tell these things apart. 
@@ -2601,7 +2601,7 @@ Note that it is not possible to reduce [magic stamina](#magic-stamina) cost to l
 ## List of Injuries
 How many times an **injury** can be suffered, can be limited. In the table below, the *max* is the maximum number of times the **injury** can be suffered by the same character. If there is a slash (/), there is no limit. If a roll would result in an already maxed out **injury**, pick the next **injury** below it, instead. 
 
-| Range D100 | Injury              | Max | Description                      |
+| Range **D100** | Injury              | Max | Description                      |
 | ---------  | ------------------- | --- | -------------------------------- |
 | 0 - 5      | Cosmic Fortune      | /   | Luck is with you! You suffer no **injury**! |
 | 6 - 10     | Butchered Arm       | 2   | -1 [Agility](#agility-agi); Actions and equipment requiring two hands cannot be used. If incurred twice, any actions requiring arm movement is impossible. |
@@ -2638,7 +2638,7 @@ There is no list of several different injuries per specific [damage type](#damag
 ## List of Illnesses
 An [illness](#illness) can only be suffered once, at a time. It may be suffered again later, of course, but you could also expect that a certain level of immunity within the body has built up, after the previous time it was suffered through. 
 
-| Range D100 | Name         | Duration      | Effect      | Treatment |
+| Range **D100** | Name         | Duration      | Effect      | Treatment |
 | ---------- | ------------ | ------------- | ----------- | --------- |
 | 0 - 7 | Strength Sap | **1D10 + 3** Days | The muscles atrophy, despite any physical exercise. If not treated quickly, the victim will quickly find themselves unable to move, at all. **-1D3** [strength](#strength-str); **-1D3** [agility](#agility-agi); Max 6'/2m movement distance. | [medicine](#medicine-int); Reduces the duration by **2D4** days. |
 | 8 - 15 | Lung Fever | **1D10 + 1** Days | The victim finds themselves easily winded, even by simple acts, such as walking to the privy at night. **-(1D3 + 1)** [endurance](#endurance-end). | [medicine](#medicine-int); The ill-effects are suspended for 24 hours. |
@@ -2657,7 +2657,7 @@ An [illness](#illness) can only be suffered once, at a time. It may be suffered 
 ## List of Mutations
 One should always keep in mind that despite the game mechanical effects of a mutation, the appearance of an affected individual will also be severly altered. Other characters and creatures may react with disgust, fear, disdain, pity, and so on. 
 
-| Range D100 | Name                   | Effect                            |
+| Range **D100** | Name                   | Effect                            |
 | ---------- | ---------------------- | --------------------------------- |
 | 0 - 2      | Cosmic Fortune         | Suffer no mutation! |
 | 3 - 9      | Deformed Arm           | The arm deforms and bends in ways it was never meant to. -1 [Agility](#agility-agi), -1 [Strength](#strength-str). |
