@@ -127,12 +127,12 @@
   - [Combat](#combat)
     - [Action Points (AP)](#action-points-ap)
       - [Action Point Saving](#action-point-saving)
-      - [Combat Movement](#combat-movement)
+    - [Combat Movement](#combat-movement)
+    - [Targeting-Types](#targeting-types)
+      - [Single Target](#single-target)
+      - [Multiple Single Target](#multiple-single-target)
+      - [Area of Effect](#area-of-effect)
     - [Attacking](#attacking)
-      - [Attack-Targeting-Types](#attack-targeting-types)
-        - [Single-Target Attack](#single-target-attack)
-        - [Multiple Single-Target Attack](#multiple-single-target-attack)
-        - [Area of Effect Attack](#area-of-effect-attack)
       - [Special Types of Attack](#special-types-of-attack)
         - [Aimed Attack](#aimed-attack)
         - [Difficult Attack](#difficult-attack)
@@ -1457,42 +1457,41 @@ If one party is surprised, for example during an ambush, then the ambushing part
 When diplomacy fails, hostilities ensue. [Initiative](#initiative) determines in what order the combatants act. 
 
 ### Action Points (AP)
-Every turn, every character gets 3 **Action Points (AP)** to spend on actions during their turn. 
+Every turn, every character gets 3 **Action Points (AP)** to spend on actions during their turn. Some [skills](#skills), [boons and penalties](#boons--penalties) can alter this number. 
 
-Any basic action, so any action not requiring a test, costs 1 **AP**. Any action requiring a test, costs 2 **AP**. [Skill abilities](#skill-abilities) can cost varying amounts of **AP**. 
-
-Speaking or shouting a short phrase is free. If you want to have a proper conversation, that will have to take multiple rounds. 
+* Any basic action, so any action not requiring a [test](#tests), costs 1 **AP**. 
+  * Speaking or shouting a short phrase is free. If you want to have a proper conversation, that will cost you one or more **AP**, depending on how much you have to say. 
+  * [Basic movement](#combat-movement) counts as a basic action. 
+* Any action requiring a [test](#tests), costs 2 **AP**. 
+* [Skill abilities](#skill-abilities) can cost varying amounts of **AP**. The exact number will be noted on the [skill ability](#skill-abilities) in question. 
 
 #### Action Point Saving
 If the turn is ended with any **AP** unspent, they can either be saved up, or spent on improving the character's [melee defence](#melee-defence-agi) and [ranged defence](#ranged-defence-agi), as **+1D6** per **AP**. 
 
 Only up to 5 **AP** may be saved up this way. It may be possible to go past this limit via some [skill abilities](#skill-abilities) or [boons](#boons--penalties). 
 
-#### Combat Movement
+### Combat Movement
 A character can move up to **12'/4m** (= 4 fields on a grid) per **AP** spent. In **difficult terrain**, the distance moved per **AP** is half that, at **6'/2m** (= 2 fields on a grid). 
 
-### Attacking
-Attacks are made using a [weapon skill](#weapon--weapon-type--str), [magic-school skill](#magic-school--school---attribute-) or a **skill-ability**. 
+**Difficult terrain** is any space that slows movement, but does not prevent it outright. Examples would be waist-high water, a surface of glue or a slowing force field. 
 
-[Unarmed combat](#unarmed) is handled like a weapon skill. 
-
-#### Attack-Targeting-Types
+### Targeting-Types
 There are the following types of **attack-targeting-types**:
 * **Single-target** (**ST**)
 * **multiple single-target** (**MST**)
 * **area of effect** (**AOE**)
 
-##### Single-Target Attack
+#### Single Target
 Any **single-target** attack can be dodged or defended against. To do so, an [opposed test](#opposed-test) is made. If the defender wins no damage is dealt. 
 
 Against melee attacks, the defender must [test](#tests) their [melee defence](#melee-defence-agi). 
 
 Against ranged attacks, the defender must [test](#tests) their [ranged defence](#ranged-defence-agi).
 
-##### Multiple Single-Target Attack
-A **multiple single-target attack** behaves just like a [single-target attack](#single-target-attack), with the difference that multiple targets may be affected with the same action. 
+#### Multiple Single Target
+A **multiple single-target attack** behaves just like a [single-target](#single-target) attack, with the difference that multiple targets may be affected with the same action. 
 
-##### Area of Effect Attack
+#### Area of Effect
 **Area of Effect** (**aoe**) attacks can only be dodged or defended against under certain conditions. 
 
 If the **aoe** attack is magical and would affect a mage, that defending mage can choose to use their skill [counter-magic](#counter-magic), to try and counter the attack. If they choose to counter the spell, an [opposed test](#opposed-test) must be made. If the defender wins no damage is dealt. 
@@ -1516,6 +1515,11 @@ If the **aoe** attack is of a non-magical nature, it may only be possible to dod
 > A thrown bomb may perhaps be caught and thrown back at the attacker. But a cannon shot cannot be warded off. 
 
 If there is no way to reasonably dodge or defend against the **aoe** attack, its damage is rolled right away. 
+
+### Attacking
+Attacks are made using a [weapon skill](#weapon--weapon-type--str), [magic-school skill](#magic-school--school---attribute-) or a **skill-ability**. 
+
+[Unarmed combat](#unarmed) is handled like a weapon skill. 
 
 #### Special Types of Attack
 Sometimes, simply *hitting it* isn't enough. Sometimes, more control is needed. These rules outline how a character can do more specific attacks. 
@@ -1559,11 +1563,11 @@ If more damage is dealt, than the difference to 0, that damage is also dealt. Da
 What type of [injury](#injury) is dealt, also depends on the [damage type](#damage-types). 
 
 ### Defending
-Defending against [single-target attacks](#single-target-attack) costs 1 [AP](#action-points-ap). If not enough [AP](#action-points-ap) are available, defense is impossible. Some attacks may cost more than 1 [AP](#action-points-ap) to defend against. If so, this should be stated on the attack in question. 
+Defending against an attack costs 1 [AP](#action-points-ap). If not enough [AP](#action-points-ap) are available, defense is impossible. Some attacks may cost more than 1 [AP](#action-points-ap) to defend against. If so, this should be stated on the attack in question. 
 
 An [opposed test](#opposed-test) must be made. If successful, the attack is negated, entirely. Depending on the type of defense, the [degree of success](#graduated-test) may allow additional effects to occur. See [melee defence](#melee-defence-agi) and [ranged defence](#ranged-defence-agi). If the attacker wins, they get to roll for and apply damage. 
 
-Defending against [area of effect attacks](#area-of-effect-attack) is either impossible or an active choice, as a reaction. <br>
+Defending against [area of effect](#area-of-effect) attacks is either impossible or an active choice, as a reaction. <br>
 It is possible to defend against a magical **aoe** attack, by using the [counter-magic](#counter-magic) skill. If successful, the attack is negated entirely. 
 
 # Magic
@@ -1571,7 +1575,7 @@ Any character with [arcana](#arcana-arc), can cast magic. What kind of magic, de
 
 While not all magic can be used offensively, that which can, will inflict [damage](#health--exhaustion), proportional to the [spell's intensity](#spell-intensity) and may cause other effects on those affected by it. 
 
-The effects of a magic spell do not affect the mage casting it, unless if they suffer a [spell-backfire](#spell-backfire) or if it is an [aoe](#area-of-effect-attack) spell and they're standing in the **aoe** or if the description of the spell defines that it can. 
+The effects of a magic spell do not affect the mage casting it, unless if they suffer a [spell-backfire](#spell-backfire) or if it is an [aoe](#area-of-effect) spell and they're standing in the **aoe** or if the description of the spell defines that it can. 
 
 A *magic spell* is the intended effect of using a [magic school skill](#magic-school--school---attribute-). This is also referred to as *casting magic*, *casting a spell* or other similar wordings. 
 
@@ -1607,7 +1611,7 @@ The **current magic stamina** can not be less than 0 or more than their **maximu
 Once spent, **magic stamina** can only be regained through **active rest or meditation**. For every **half hour** spent in *active rest or meditation*, a mage regains 1 **magic stamina**. Active rest or meditation implies not engaging in any physical or mental strains. If in doubt - if you have to do a test for it, it's probably a strain. 
 
 ### Spell-Backfire
-A **spell-backfire** causes a spell to affect the caster, instead of their intended target. The mage suffers the full effect of the spell. In case of an [aoe](#area-of-effect-attack) attack spell, anyone or anything nearby the mage, in range, is also affected, unless if they successfully [counter-magic](#counter-magic) it. 
+A **spell-backfire** causes a spell to affect the caster, instead of their intended target. The mage suffers the full effect of the spell. In case of an [aoe](#area-of-effect) attack spell, anyone or anything nearby the mage, in range, is also affected, unless if they successfully [counter-magic](#counter-magic) it. 
 
 A **spell-backfire** occurs in the following two cases: 
 1. The [magic school skill test](#testing-magic) is **not** a **complete success**. 
@@ -2030,8 +2034,8 @@ Performing acrobatic feats, such as jumping and climbing, without injuring onese
 
 | Level | Name                 | AP | **Ob**  | Effect(s)          | Condition(s) |
 | ----- | -------------------- | -- | ------- | ------------------ | ------------ |
-| 3     | Wind Out Of It       | 0  | /       | When hit by a single-target attack, wind out of the hit and suffer only half the damage. | Once per combat. |
-| 4     | Bob, Weave, Jab      | 0  | Opposed | When succeeding a [melee defence](#melee-defence-agi) test, follow up with a single-target attack against the enemy who attacked you. | Succeded a [melee defence](#melee-defence-agi) test. |
+| 3     | Wind Out Of It       | 0  | /       | When hit by a [single-target](#single-target) attack, wind out of the hit and suffer only half the damage. | Once per combat. |
+| 4     | Bob, Weave, Jab      | 0  | Opposed | When succeeding a [melee defence](#melee-defence-agi) test, follow up with a [single-target](#single-target) attack against the enemy who attacked you. | Succeded a [melee defence](#melee-defence-agi) test. |
 
 #### Berserking (End)
 Whether as a well-honed skill and way of life, or through a disappointing childhood of misery and pain, berserking is a talent for fighting angrily and recklessly. It allows a fighter to keep fighting at surprising strength, even when wounded. 
@@ -2042,7 +2046,7 @@ However, the price for this strength is steep. The chance of death is greatly in
 | ----- | -------------------- | -- | ------- | ------------------ | ------------ |
 | 1     | Reckless Assault     | 2  | /       | Deal an extra **D** of damage on your next successful attack during this turn, according to your weapon's damage. Suffer a **-2D** penalty on all defence tests until the start of your next turn. Cannot convert left-over AP into [melee defence](#melee-defence-agi) or [ranged defence](#ranged-defence-agi).  |  |
 | 2     | Grit Your Teeth      | 0  | /       | Ignore the negative effects of one [injury](#injury) of choice for the rest of the combat encounter. It will still count towards the injury limit, however! | Once per combat. |
-| 3     | Pain is Strength     | 3  | Opposed | Perform a single-target melee attack against an opponent of choice. For every active [injury](#injury) you currently have, deal one extra **D** of damage. You suffer one point of [exhaustion](#exhaustion). | Once per day. |
+| 3     | Pain is Strength     | 3  | Opposed | Perform a [single-target](#single-target) melee attack against an opponent of choice. For every active [injury](#injury) you currently have, deal one extra **D** of damage. You suffer one point of [exhaustion](#exhaustion). | Once per day. |
 
 #### Fishing (End)
 The ability to efficiently catch fish. 
@@ -2120,7 +2124,7 @@ If an equipped shield is used to defend with, this skill is used instead of [mel
 | Level | Name                 | AP | **Ob**  | Effect(s)          | Condition(s) |
 | ----- | -------------------- | -- | ------- | ------------------ | ------------ |
 | 1     | Shield Wall          | 3  | /       | For any ally next to you, who's also using a shield, you both gain **+1D** on your defence tests until the start of your next turn. | Using shield; Adjacent to ally using shield. |
-| 2     | Shield Slam          | 2  | Opposed | Perform a single-target melee attack to knock your opponent down with your shield. | Using shield. |
+| 2     | Shield Slam          | 2  | Opposed | Perform a [single-target](#single-target) melee attack to knock your opponent down with your shield. | Using shield. |
 | 4     | Unyielding           | 3  | /       | Until your next turn, you gain **+2D** to your **shield tests**. | Using shield; Once per combat. |
 
 #### Tactics (Str)
