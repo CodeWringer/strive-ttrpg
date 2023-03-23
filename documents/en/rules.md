@@ -133,6 +133,10 @@
       - [Multiple Single Target](#multiple-single-target)
       - [Area of Effect](#area-of-effect)
     - [Attacking](#attacking)
+      - [Melee Attack](#melee-attack)
+      - [Ranged Attack](#ranged-attack)
+        - [Throwing](#throwing)
+        - [Shooting](#shooting)
       - [Special Types of Attack](#special-types-of-attack)
         - [Aimed Attack](#aimed-attack)
         - [Difficult Attack](#difficult-attack)
@@ -1519,7 +1523,37 @@ If there is no way to reasonably dodge or defend against the **aoe** attack, its
 ### Attacking
 Attacks are made using a [weapon skill](#weapon--weapon-type--str), [magic-school skill](#magic-school--school---attribute-) or a **skill-ability**. 
 
-[Unarmed combat](#unarmed) is handled like a weapon skill. 
+[Unarmed combat](#unarmed) is handled like a melee weapon skill. 
+
+An attack is always handled as an [opposed test](#opposed-test), which the attacker can only win by exceeding the number of **positives** rolled by their target. 
+
+#### Melee Attack
+A melee attack is one made with a hand-to-hand weapon (skill). 
+
+#### Ranged Attack
+A ranged attack is one made with a ranged weapon (skill). 
+
+##### Throwing
+The maximum distance something can be thrown is determined by the object's [bulk](#bulk) and the character's [strength](#strength-str). 
+* For every point in [strength](#strength-str), an object can be thrown an additional 15'/5m. 
+* For every point in bulk past 1, the additional distance is reduced by 3'/1m. 
+
+> A character with [strength](#strength-str) 1 can throw an object of [bulk](#bulk) 1 up to 15'/5m. 
+> 
+> A character with [strength](#strength-str) 5 can throw an object of [bulk](#bulk) 1 up to 75'/25m and an object of [bulk](#bulk) 3 up to 45'/15m. 
+
+How likely the object is to impact where intended is determined by the object's [bulk](#bulk), the distance to throw and the character's [agility](#agility-agi).
+* For every 12'/4m interval, the **Ob** increases by 1. 
+  * That means up to 12'/4m is **Ob** 1. Starting at 15'/5m, up to and including 24'/8m it's **Ob** 2. Starting at 27'/9m, it's **Ob** 3, and so on.
+  * So, to determine the base **Ob**, take the distance to throw, divide it by 12'/4m and round up.
+* For every point in [agility](#agility-agi) past 1, the **Ob** is decreased by 1, down to a minimum of 1. 
+
+> A character with [agility](#agility-agi) 1 must succeed a test at **Ob** 1 for a distance of 12'/4m. They must succeed a test at **Ob** 2 for a distance of 15'/5m and a test at **Ob** 3 for a distance of 33'/11m. 
+> 
+> A character with [agility](#agility-agi) 5 must succeed a test at **Ob** 1 for a distance up to 60'/20 and a test at **Ob** 2 for a distance of 63'/21m. 
+
+##### Shooting
+TODO
 
 #### Special Types of Attack
 Sometimes, simply *hitting it* isn't enough. Sometimes, more control is needed. These rules outline how a character can do more specific attacks. 
@@ -2141,8 +2175,12 @@ The ability to understand and influence local combat movements, right there, in 
 #### Weapon < [weapon type](#weapon-types) > (Str)
 Expertise at handling a weapon of a specific [weapon type](#weapon-types). 
 
+See [melee](#melee-attack) and [shooting](#shooting). 
+
 #### Weapon-Throwing < [weapon type](#weapon-types) > (Agi)
 Expertise at throwing weapons of a specific [weapon type](#weapon-types). 
+
+See [throwing](#throwing). 
 
 ### Social Skills
 These skills have a dominant social aspect and are strongly related to a character's *social attributes*. 
