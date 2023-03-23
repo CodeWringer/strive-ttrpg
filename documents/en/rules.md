@@ -3,7 +3,10 @@
   - [Dice](#dice)
   - [Before the Game](#before-the-game)
   - [The Session](#the-session)
+    - [Retell the Previous Session](#retell-the-previous-session)
+    - [The Scenario](#the-scenario)
     - [Intent \& Action](#intent--action)
+    - [Spending Time](#spending-time)
   - [After the Session](#after-the-session)
   - [Tests](#tests)
     - [Types of Test](#types-of-test)
@@ -35,6 +38,7 @@
         - [Willpower \[Will\]](#willpower-will)
       - [Advancing Attributes](#advancing-attributes)
         - [Practicing Attributes](#practicing-attributes)
+      - [Base Initiative](#base-initiative)
     - [Skills](#skills)
       - [Skill Abilities](#skill-abilities)
       - [Skill Forking](#skill-forking)
@@ -109,7 +113,7 @@
   - [Major Fate Points](#major-fate-points)
   - [Ambition Fate Points](#ambition-fate-points)
   - [Hand of Fate](#hand-of-fate)
-- [Spending Time](#spending-time)
+- [Down-Time](#down-time)
   - [Travel](#travel)
   - [Crafting](#crafting)
     - [Crafting Time Chart](#crafting-time-chart)
@@ -118,22 +122,24 @@
     - [Buyer's Chart](#buyers-chart)
   - [Recovery](#recovery)
   - [Training](#training)
-- [Combat](#combat)
-  - [Who Acts When](#who-acts-when)
-  - [Action Points (AP)](#action-points-ap)
-    - [Action Point Saving](#action-point-saving)
-    - [Combat Movement](#combat-movement)
-  - [Attacking](#attacking)
-    - [Attack-Targeting-Types](#attack-targeting-types)
-      - [Single-Target Attack](#single-target-attack)
-      - [Area of Effect Attack](#area-of-effect-attack)
-    - [Special Types of Attack](#special-types-of-attack)
-      - [Aimed Attack](#aimed-attack)
-      - [Difficult Attack](#difficult-attack)
-      - [Easy Attack](#easy-attack)
-      - [Execution Attack](#execution-attack)
-    - [Dealing Damage](#dealing-damage)
-  - [Defending](#defending)
+- [Scenario-Time](#scenario-time)
+  - [Initiative](#initiative)
+  - [Combat](#combat)
+    - [Action Points (AP)](#action-points-ap)
+      - [Action Point Saving](#action-point-saving)
+      - [Combat Movement](#combat-movement)
+    - [Attacking](#attacking)
+      - [Attack-Targeting-Types](#attack-targeting-types)
+        - [Single-Target Attack](#single-target-attack)
+        - [Multiple Single-Target Attack](#multiple-single-target-attack)
+        - [Area of Effect Attack](#area-of-effect-attack)
+      - [Special Types of Attack](#special-types-of-attack)
+        - [Aimed Attack](#aimed-attack)
+        - [Difficult Attack](#difficult-attack)
+        - [Easy Attack](#easy-attack)
+        - [Execution Attack](#execution-attack)
+      - [Dealing Damage](#dealing-damage)
+    - [Defending](#defending)
 - [Magic](#magic)
   - [Testing Magic](#testing-magic)
     - [Magic Stamina](#magic-stamina)
@@ -311,12 +317,26 @@ The following types of dice come into play:
 * **D10** (**D100**) - two ten-sided dice
 
 ## Before the Game
-Before anyone can start to play, the players have to [create their characters](#character-creation). Ideally, this process should be done in cooperation with the **GM** and each other, to make sure the character concepts fit into the world and planned narrative. Also, it is advisable to design characters that will work well together, as a group. 
+The very first step of preparing for play, is to decide on a theme, world and setting of the game. Ideally, the players and **GM** decide together, but ultimately, the **GM**'s preferences should a greater weight. When a **GM** isn't really interested in the theme, world and setting, the game will quickly start feeling like work to them. They will lose steam and eventually the will to continue the game. 
+
+Then, still before anyone can start to play, the players have to [create their characters](#character-creation). Ideally, this process should be done in cooperation with the **GM** and each other, to make sure the character concepts fit into the world and planned narrative. Also, it is advisable to design characters that will work well together, as a group. Or, you could plan for a discordant group of PCs, but make sure the characters find concrete reasons to stick together or else you may find the **GM** eventually running several solo-games that all just *happen* to be played at the same time. 
 
 ## The Session
 This is the time, when the magic happens. The players and **GM** have come together and begin or continue the story. 
 
 [Fate points](#fate-points) cannot be awarded during play and neither can cards be bought from the [hand of fate](#hand-of-fate). However, players and the **GM** should take note of every situation they believe a **PC** (their own included) could have earned a [fate point](#fate-points).
+
+### Retell the Previous Session
+At the start of a session, one of the players, or perhaps the **GM**, should recall and retell the events of the previous session. This lets everyone refamiliarize themselves with the story so far. It also provides the staging ground for events and actions to come. 
+
+### The Scenario
+It is up to the **GM** to get the ball rolling. They first frame the local area of the world the PCs find themselves in. They describe the scenario at hand - where the PCs are, what they can see, hear, smell and feel - and then ask "who does what?"
+
+Then, the players must keep the ball rolling. In a given scenario, every PC should have something they wish to do. You could take turns or rely on first-come-first-serve, as long as everyone gets to state their character's [intent and action](#intent--action). Every action taken is then resolved, either formally through a [test](#tests) or informally with a direct description of what happens. 
+
+> For example, stating your character will leave the room shouldn't warrant a [test](#tests), if there is no obstacle to overcome. Opening an unlocked door in a calm situation should be a "risk-free" thing to do. 
+>
+> However, when the same situation takes place during a time-critical phase, for example in a burning house and the door being locked, then a [test](#tests) to quickly force the lock or break down the door would be warranted. 
 
 ### Intent & Action
 The players drive the story and the action. They decide what their character will try to do and the **GM** will help them figure out if things will go as planned. 
@@ -326,6 +346,17 @@ As a player, when deciding on what to do, make sure you state the **intent** of 
 Then, the **GM** will need to know *how* you aim to follow up on your intent. Describe the **action** you will take. The clearer, the better. "I will tell them of our exploits and how well we get paid!", is a good response and allows the **GM** to conclude you're trying to [persuade](#persuasion-emp) the other character. Even better would be something like "I will *persuade* them by telling them of our exploits and how well we get paid!" That leaves no room for doubt *how* you wish to achieve your goal, which makes the **GM**'s job easier and the game flow better. 
 
 Of course, how appropriate a certain [attribute](#attributes) or [skill](#skills) is for the resolution of a given situation, is ultimately up to the **GM** and the specifics of the situation itself. 
+
+When deciding on what to do, keep in mind your character's [personality](#personality) as that should inform you of the kinds of actions they might take. 
+
+### Spending Time
+Everything the PCs do takes time. How much time, exactly, is variable and depends on the point in the narrative the PCs are in. There are two levels of time-management. 
+
+On the more abstract level, PCs commit to very abstract long-term actions. They might pursue their profession or recover from an injury, the process of which is only described very roughly. This level is called [down-time](#down-time). 
+
+In contrast, on the more concrete level, PCs only commit to fine-grained short-term actions. This is when detailled descriptions and fine time slices come into play. Every action is as small as deciding to open a door that is right in front, on deciding to talk to someone they can see and such. This is considered the **scenario** or **encounter** level. 
+
+Typically in RPGs, a fight is considered a **[combat](#combat) encounter**. Non-bloody interaction that involves speaking to NPCs or the PCs amongst themselves is considered a **social encounter**. There are also scenarios of exploration, investigation and survival. 
 
 ## After the Session
 After a playing session is done, the players and **GM** should stick around to discuss which players earned [fate points](#fate-points). This is where players are nominated for [fate points](#fate-points), by each other and by the **GM**. If everyone agrees, the [fate points](#fate-points) are awarded. Players can and should lobby for their [fate points](#fate-points), but shouldn't beg. If most everyone else says no, then that decision stands. That doesn't mean there is no point in discussing the matter further, but such a discussion shoulnd't be forced. 
@@ -574,6 +605,13 @@ For every **cycle** that passes of active practice, the **PC** can roll a [test]
 A **cycle** is 2 Months, regardless of attribute being practiced. 
 
 > A **PC** spends a year practicing their [arcana](#arcana-arc), while the **GM** prepares the next story arc. In this case, 5 tests can be made and their outcomes noted. 
+
+#### Base Initiative
+Whenever the order in which characters act matters, their **base initiative** comes into play. It, together with a dice roll, determine how early a character gets to take action in a given scenario. 
+
+The **base initiative** of a character is **not an attribute** in the pure sense. It *cannot* be improved directly and is instead derived from the sum of the character's [perception](#perception-perc), [intelligence](#intelligence-int) and [empathy](#empathy-emp). 
+
+> A character with a **perception** of 3, **intelligence** of 4 and **empathy** of 5, has a **base initiative** of 12. 
 
 ### Skills
 A **skill** is any acquired knowledge and experience regarding a specific subject. 
@@ -1313,7 +1351,7 @@ There are no limits to how many of a given card a player can own, but they may o
 | 1 AFP   | Defy Death         | Leap from [death's door](#deaths-door), remove 1 **active** [injury](#injury) of choice and be at 1 **HP**; Alternatively, avoid a narratively-driven death. The **GM** will decide the character's alternative fate. They could be captured, very badly injured or become indebted to someone or something. |
 | 1 AFP   | Yes, my liege      | Work with your **GM** to create a follower/hireling who will now be at your command/employ. |
 
-# Spending Time
+# Down-Time
 When not currently dealing with events on a detailed level - there and in the moment - **PC**'s can spend their time on a more abstract level. This applies especially to activities that take greater amounts of time, such as recovering from injuries, travel, engaging in their trade, honing their [skill](#skills) and so on. 
 
 ## Travel
@@ -1395,52 +1433,66 @@ When [injured](#injury), a character should prepare to spend away from adventure
 ## Training
 When not busy with work and adventure, **PC**s may train, either passively improving their [attributes](#practicing-attributes) or [skills](#practicing-skills). This time is best handled abstractly, not playing out the details of the training. 
 
-# Combat
-When diplomacy fails, hostilities ensue. 
+# Scenario-Time
+In contrast to [down-time], scenario-time describes the point in the narrative when the PCs are dealing with a specific situation on a fine-grained level, where the amount of time that is spent matters. 
 
-## Who Acts When
-At the beginning of every combat encounter, the involved parties (= groups) must roll for initiative. In order to determine which party gets to act first, each party rolls a **D100**. The party rolling the higher number, goes first. If there is a tie, roll another **D100**. 
+This is especially the case in scenarios of [combat](#combat), tense negotiation, risky exploration, survival and the like, where each individual step on the path matters as much as the path itself. 
 
-The involved parties act one after another. After all involved parties have had their **turn** to act, a **combat round** has passed. All members of a party act at the same time, during the party's turn. 
+There is also the distinction to be made whether the order in which characters act in matters. If it does, then the rules for [initiative](#initiative) must be used. [Combat](#combat) is the most prominent example of such a case. 
 
-If one party is surprised, the ambushing party gets to act for a full turn, without initiative being rolled. This is called a *surprise round*. After the surprise round, initiative is rolled and combat begins as explained above. A party is considered surprised if they were unaware of their opponents when the first attack roll happens. 
+## Initiative
+When the order that characters act in matters, rolls for **initiative** is needed. **Initiative** is the number that determines when a character should get a chance to act. 
 
-> As an example: this does not count for opponents standing right in front of each other in conversation, when one of them suddenly draws a dagger and attacks. The attacker can be clearly seen by the defender and thus they must both roll for initiative, to determine whether the defender can react in time. 
+* Every character who rolls for **initiative**, must do so with a **D10**. 
+* They add their [base initiative](#base-initiative) to the number they rolled. 
+* If two characters achieve the same number, they must each roll a **D10** again, until one of the numbers is higher. The character with the higher number gets to act before the other. 
+* The result, is their **initiative** for the entire scenario.
+* A higher **initiative** results in an earlier turn while lower **initiative** results in a later turn. 
 
-## Action Points (AP)
+If one party is surprised, for example during an ambush, then the ambushing party gets to act for a full turn, without **initiative** being rolled. This is called a *surprise round*. After the surprise round, **initiative** is rolled as normal. 
+
+> As an example: this does not count for opponents standing right in front of each other in conversation, when one of them suddenly draws a dagger and attacks. The attacker can be clearly seen by the defender and thus does not result in a surprise round, unless of course, if the **GM** rules otherwise. 
+
+## Combat
+When diplomacy fails, hostilities ensue. [Initiative](#initiative) determines in what order the combatants act. 
+
+### Action Points (AP)
 Every turn, every character gets 3 **Action Points (AP)** to spend on actions during their turn. 
 
 Any basic action, so any action not requiring a test, costs 1 **AP**. Any action requiring a test, costs 2 **AP**. [Skill abilities](#skill-abilities) can cost varying amounts of **AP**. 
 
 Speaking or shouting a short phrase is free. If you want to have a proper conversation, that will have to take multiple rounds. 
 
-### Action Point Saving
+#### Action Point Saving
 If the turn is ended with any **AP** unspent, they can either be saved up, or spent on improving the character's [melee defence](#melee-defence-agi) and [ranged defence](#ranged-defence-agi), as **+1D6** per **AP**. 
 
-Only up to 5 **AP** may be saved up this way. It may be possible to go past this limit via some [skill abilities](#skill-abilities). 
+Only up to 5 **AP** may be saved up this way. It may be possible to go past this limit via some [skill abilities](#skill-abilities) or [boons](#boons--penalties). 
 
-### Combat Movement
-A character can move up to **12'/4m** per **AP** spent. In **difficult terrain**, the distance moved per **AP** is half that, at **6'/2m**. 
+#### Combat Movement
+A character can move up to **12'/4m** (= 4 fields on a grid) per **AP** spent. In **difficult terrain**, the distance moved per **AP** is half that, at **6'/2m** (= 2 fields on a grid). 
 
-## Attacking
+### Attacking
 Attacks are made using a [weapon skill](#weapon--weapon-type--str), [magic-school skill](#magic-school--school---attribute-) or a **skill-ability**. 
 
 [Unarmed combat](#unarmed) is handled like a weapon skill. 
 
-### Attack-Targeting-Types
+#### Attack-Targeting-Types
 There are the following types of **attack-targeting-types**:
 * **Single-target** (**ST**)
 * **multiple single-target** (**MST**)
 * **area of effect** (**AOE**)
 
-#### Single-Target Attack
+##### Single-Target Attack
 Any **single-target** attack can be dodged or defended against. To do so, an [opposed test](#opposed-test) is made. If the defender wins no damage is dealt. 
 
-Against melee attacks, the defender must test their [melee defence](#melee-defence-agi). 
+Against melee attacks, the defender must [test](#tests) their [melee defence](#melee-defence-agi). 
 
-Against ranged attacks, the defender must test their [ranged defence](#ranged-defence-agi).
+Against ranged attacks, the defender must [test](#tests) their [ranged defence](#ranged-defence-agi).
 
-#### Area of Effect Attack
+##### Multiple Single-Target Attack
+A **multiple single-target attack** behaves just like a [single-target attack](#single-target-attack), with the difference that multiple targets may be affected with the same action. 
+
+##### Area of Effect Attack
 **Area of Effect** (**aoe**) attacks can only be dodged or defended against under certain conditions. 
 
 If the **aoe** attack is magical and would affect a mage, that defending mage can choose to use their skill [counter-magic](#counter-magic), to try and counter the attack. If they choose to counter the spell, an [opposed test](#opposed-test) must be made. If the defender wins no damage is dealt. 
@@ -1465,24 +1517,24 @@ If the **aoe** attack is of a non-magical nature, it may only be possible to dod
 
 If there is no way to reasonably dodge or defend against the **aoe** attack, its damage is rolled right away. 
 
-### Special Types of Attack
+#### Special Types of Attack
 Sometimes, simply *hitting it* isn't enough. Sometimes, more control is needed. These rules outline how a character can do more specific attacks. 
 
-#### Aimed Attack
+##### Aimed Attack
 An attack generally targets the center of mass (torso) of the targeted opponent. 
 
 It is, however, possible to call out wanting to attack a specific part of an opponent's body. Generally, this means that the attack must be rolled at greater **Ob**. However, the **GM** can also decide the part being targeted is fairly easy to hit, either generally or due to current circumstance, so no disadvantage is incurred. 
 
 A player may call out what effect the aimed attack is supposed to have, such as limiting their opponent's ability to stand, move, attack or whatever else the body part may be useful for. If they don't, the **GM** decides the effect. 
 
-#### Difficult Attack
+##### Difficult Attack
 There may be attacks that are more difficult to perform, due to current circumstance. Such attack rolls are penalized with a higher **Ob**. 
 
 An example for a *difficult attack* would be targeting an opponent with a ranged weapon when the opponent is behind cover. 
 
 Another example would be attacking backwards, at an invisible target or with a broken arm, and so on.
 
-#### Easy Attack
+##### Easy Attack
 Some attacks may be easier to perform. An **easy attack** has a lower **Ob**.
 
 The following are generally considered easy attacks (but at the **GM**'s discretion):
@@ -1490,7 +1542,7 @@ The following are generally considered easy attacks (but at the **GM**'s discret
 * Against prone opponents
 * Against restrained opponents
 
-#### Execution Attack
+##### Execution Attack
 The extreme version of an easy attack, the **execution attack** allows outright killing or maiming an opponent, without having to roll for an attack or for damage. 
 
 Such an attack can be carried out against any character who is unable to resist (with the exception of player characters, see [death's door](#deaths-door)). 
@@ -1499,22 +1551,20 @@ Such an attack can be carried out against any character who is unable to resist 
 
 This kind of attack is only possible at the **GM**'s discretion. 
 
-### Dealing Damage
+#### Dealing Damage
 Damage dealt to an opponent reduces their **HP**. When their **HP** reaches 0, they suffer an [injury](#injury) and their HP is reset to their new maximum. To determine the new maximum, see the [injury](#injury) section. 
 
 If more damage is dealt, than the difference to 0, that damage is also dealt. Damage isn't lost - it overflows into the next **HP** *segment*. 
 
 What type of [injury](#injury) is dealt, also depends on the [damage type](#damage-types). 
 
-## Defending
-Defending against [single-target attacks](#single-target-attack) costs 1 [AP](#action-points-ap). If not enough [AP](#action-points-ap) are available, defense is impossible. Some attacks may cost more than 1 [AP](#action-points-ap). That would be stated on the attack in question. 
+### Defending
+Defending against [single-target attacks](#single-target-attack) costs 1 [AP](#action-points-ap). If not enough [AP](#action-points-ap) are available, defense is impossible. Some attacks may cost more than 1 [AP](#action-points-ap) to defend against. If so, this should be stated on the attack in question. 
 
-An [opposed test](#opposed-test) must be made. If successful, the attack is negated, entirely. Depending on the type of defense, the [degree of success](#graduated-test) may allow additional effects to occur. 
+An [opposed test](#opposed-test) must be made. If successful, the attack is negated, entirely. Depending on the type of defense, the [degree of success](#graduated-test) may allow additional effects to occur. See [melee defence](#melee-defence-agi) and [ranged defence](#ranged-defence-agi). If the attacker wins, they get to roll for and apply damage. 
 
 Defending against [area of effect attacks](#area-of-effect-attack) is either impossible or an active choice, as a reaction. <br>
 It is possible to defend against a magical **aoe** attack, by using the [counter-magic](#counter-magic) skill. If successful, the attack is negated entirely. 
-
-If the attacker wins the [opposed test](#opposed-test) or if they used an **aoe** attack that couldn't/wasn't countered or dodged, they get to roll for damage. If the defender wins, no damage is dealt. 
 
 # Magic
 Any character with [arcana](#arcana-arc), can cast magic. What kind of magic, depends on the [magic schools](#list-of-magic-schools) the character knows. 
