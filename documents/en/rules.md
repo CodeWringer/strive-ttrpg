@@ -302,9 +302,12 @@ In some places, where distances are concerned, both feet and meters are noted as
 **Ambersteel** uses a **dice pool** system of **six-sided dice** (henceforth referred to as **D6**) to resolve [tests](#tests). *Dice pool* means a variable number of dice will be rolled, based on a character's [attributes](#attributes), [skills](#skills), boons and circumstance of the situation they're in. 
 
 The following types of dice come into play:
+* **D2** - a coin
 * **D3** - three-sided dice
 * **D4** - four-sided dice
+* **D5** - five-sided dice
 * **D6** - six-sided dice
+* **D8** - eight-sided dice
 * **D10** (**D100**) - two ten-sided dice
 
 ## Before the Game
