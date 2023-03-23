@@ -1443,7 +1443,11 @@ There is also the distinction to be made whether the order in which characters a
 ## Initiative
 When the order that characters act in matters, rolls for **initiative** is needed. **Initiative** is the number that determines when a character should get a chance to act. 
 
-Every character who rolls for **initiative**, must do so with a **D10**. Then they add their [base initiative](#base-initiative) to the number they rolled. The result, is their **initiative** for the entire scenario.
+* Every character who rolls for **initiative**, must do so with a **D10**. 
+* They add their [base initiative](#base-initiative) to the number they rolled. 
+* If two characters achieve the same number, they must each roll a **D10** again, until one of the numbers is higher. The character with the higher number gets to act before the other. 
+* The result, is their **initiative** for the entire scenario.
+* A higher **initiative** results in an earlier turn while lower **initiative** results in a later turn. 
 
 If one party is surprised, for example during an ambush, then the ambushing party gets to act for a full turn, without **initiative** being rolled. This is called a *surprise round*. After the surprise round, **initiative** is rolled as normal. 
 
