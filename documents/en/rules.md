@@ -82,6 +82,7 @@
     - [Damage Resistances](#damage-resistances)
     - [Boons \& Penalties](#boons--penalties)
   - [Assets](#assets)
+    - [Bulk](#bulk)
     - [Worn \& Equipped](#worn--equipped)
     - [Luggage](#luggage)
       - [Carrying Capacity](#carrying-capacity)
@@ -1055,6 +1056,11 @@ Whenever a boon or penalty alters the level of an [attribute](#attributes) or [s
 A character may have things on their person, such as worn equipment and luggage, as well as the things they *own*, but don't have on person. 
 
 Collectively, these things are referred to as their **assets**. 
+
+### Bulk
+Every non-static asset (= any object that can reasonably be picked up) has a **bulk** associated with it. This value determines how easy to handle the asset is.
+
+A lower bulk means an easier to handle asset. 
 
 ### Worn & Equipped
 Every character can have **assets** they wear or carry on person. These things do not factor into their used [carrying capacity](#carrying-capacity) and are listed on their character sheet in a separate section. Every asset on person has to be placed in a so called **asset slot**. 
