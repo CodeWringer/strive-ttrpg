@@ -1541,12 +1541,12 @@ A ranged attack is one made with a ranged weapon (skill).
 
 ##### Throwing
 The maximum distance something can be thrown is determined by the object's [bulk](#bulk) and the character's [strength](#strength-str). 
-* For every point in [strength](#strength-str), an object can be thrown an additional 15'/5m. 
-* For every point in bulk past 1, the additional distance is reduced by 3'/1m. 
+* For every point in [strength](#strength-str), an object can be thrown an additional 12'/4m. 
+* For every point in bulk past 1, the [strength](#strength-str) value for throwing is reduced by 1. 
 
-> A character with [strength](#strength-str) 1 can throw an object of [bulk](#bulk) 1 up to 15'/5m. 
+> A character with [strength](#strength-str) 1 can throw an object of [bulk](#bulk) 1 up to 12'/4m and cannot throw an object of bulk 2 or higher at all. 
 > 
-> A character with [strength](#strength-str) 5 can throw an object of [bulk](#bulk) 1 up to 75'/25m and an object of [bulk](#bulk) 3 up to 45'/15m. 
+> A character with [strength](#strength-str) 5 can throw an object of [bulk](#bulk) 1 up to 60'/20m and an object of [bulk](#bulk) 3 up to 36'/12m. 
 
 How likely the object is to impact where intended is determined by the object's [bulk](#bulk), the distance to throw and the character's [agility](#agility-agi).
 * For every 12'/4m interval, the **Ob** increases by 1. 
@@ -1556,7 +1556,7 @@ How likely the object is to impact where intended is determined by the object's 
 
 > A character with [agility](#agility-agi) 1 must succeed a test at **Ob** 1 for a distance of 12'/4m. They must succeed a test at **Ob** 2 for a distance of 15'/5m and a test at **Ob** 3 for a distance of 33'/11m. 
 > 
-> A character with [agility](#agility-agi) 5 must succeed a test at **Ob** 1 for a distance up to 60'/20 and a test at **Ob** 2 for a distance of 63'/21m. 
+> A character with [agility](#agility-agi) 5 must succeed a test at **Ob** 1 for a distance up to 60'/20m and a test at **Ob** 2 for a distance of 63'/21m. 
 
 ##### Shooting
 TODO
