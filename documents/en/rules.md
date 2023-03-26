@@ -65,11 +65,11 @@
       - [Berserk](#berserk)
       - [Burning](#burning)
       - [Bleeding](#bleeding)
-      - [Dazed](#dazed)
       - [Death's Door](#deaths-door)
       - [Dissolving](#dissolving)
       - [Drug-Addicted](#drug-addicted)
       - [Electrified](#electrified)
+      - [Exhausted](#exhausted)
       - [Frostbitten](#frostbitten)
       - [Grappled](#grappled)
       - [Hasted](#hasted)
@@ -905,7 +905,9 @@ Once a character is brought to at least half their maximum number of [injuries](
 ### Exhaustion
 Exhaustion is the measure of a character's maximum physical and mental strain they can endure. 
 
-If a character's exhaustion reaches their threshold, they become [dazed](#dazed) from over-exertion. 
+For every point in [endurance](#endurance-end), a character raises their [exhaustion threshold](#exhaustion) by 1. All characters have a base [exhaustion threshold](#exhaustion) of 1. 
+
+If a character's exhaustion reaches their threshold, they become [exhausted](#exhausted) from over-exertion. 
 
 Exhaustion is gained through performing **exhausting actions**, carrying **exhausting equipment** or suffering [injuries](#injury). 
 
@@ -937,13 +939,6 @@ At the end of every combat round of every 5 seconds outside of combat, a charact
 
 > A character with 2 points of **bleeding** must succeed a test at **Ob** 4, to shrug off 1 point of **bleeding**. 
 
-#### Dazed
-A **dazed** character begins their turn with -2 **AP** and can run at most only half the distance they normally could. In addition, they suffer a penalty of **-1D** to all tests. The number of dice for a test cannot be reduced to less than 1 by this penalty. 
-
-Additionally, a **dazed** mage can no longer attempt to cast any magic. 
-
-A **dazed** **state** can be recovered from either by succeeding a [toughness](#toughness-tough) test with **Ob** at half **toughness**, rounded up or by resting at least half an hour. 
-
 #### Death's Door
 **Death's door** is a **state** only a **PC** can enter and represents their final battle with death. 
 
@@ -971,6 +966,13 @@ After 72 consecutive hours (= 3 full days) of having being in **withdrawal**, th
 An **electrified** character suffers **-1D** for their every [test](#tests) requiring [agility](#agility-agi). That means [attributes](#attributes) and [skills](#skills). 
 
 This **state** is removed automatically, at the end of the character's next turn in combat or after 5 seconds outside of combat. 
+
+#### Exhausted
+An **exhausted** character begins their turn with -2 **AP** and can run at most only half the distance they normally could. [Sprinting](#combat-movement) is impossible. In addition, they suffer a penalty of **-1D** to all tests. The number of dice for a test cannot be reduced to less than 1 by this penalty. 
+
+An **exhausted** mage can no longer attempt to cast any magic. 
+
+This **state** can be recovered from either by succeeding a [toughness](#toughness-tough) test with **Ob** at half **toughness**, rounded up or by **actively resting** at least half an hour. 
 
 #### Frostbitten
 A **frostbitten** character suffers -1 [AP](#action-points-ap) during combat. 
@@ -1063,7 +1065,7 @@ All damage inflicted, is inflicted with a certain type of damage.
 | ----------- | ----------- |
 | Slashing    | Usually inflicted by any sort of cutting/slashing weapon, like a sword, or a talon. |
 | Piercing    | Usually inflicted by any sort of stabbing weapon, like a spear, or an animal's stinger. |
-| Bludgeoning | Inflicted by light blunt weapons and unarmed attacks. **Bludgeoning** causes non-lethal damage. It inflicts [exhaustion](#exhaustion) instead of [injuries](#injury). A [dazed](#dazed) character hit with **bludgeoning** damage has to succeed an [endurance](#endurance-end) test, or else fall [unconscious](#unconscious). |
+| Bludgeoning | Inflicted by light blunt weapons and unarmed attacks. **Bludgeoning** causes non-lethal damage. It inflicts [exhaustion](#exhaustion) instead of [injuries](#injury). An [exhausted](#exhausted) character hit with **bludgeoning** damage has to succeed an [endurance](#endurance-end) test, or else fall [unconscious](#unconscious). |
 | Crushing    | Usually inflicted by any sort of heavy blunt weapon, like a hammer, or an animal's tusks. |
 | Burning     | Inflicted by extreme heat. |
 | Freezing    | Inflicted by extreme cold. |
@@ -1572,6 +1574,8 @@ It may be possible to go past this limit via some [skill abilities](#skill-abili
 A character can move up to **12'/4m** (= 4 fields on a grid) per **AP** spent. In **difficult terrain**, the distance moved per **AP** is half that, at **6'/2m** (= 2 fields on a grid). 
 
 **Difficult terrain** is any space that slows movement, but does not prevent it outright. Examples would be waist-high water, a surface of glue or a slowing force field. 
+
+It is also possible to **sprint**, doubling the distance one can move per **AP**, but at the cost of 1 point of [exhaustion](#exhaustion) for every **AP** spent **sprinting**. 
 
 ## Attacking
 Attacks are made using a [skill ability](#skill-abilities) of a [weapon](#weapon--weapon-type--str), [magic-school](#magic-school--school---attribute-), the [unarmed](#unarmed) or [throwing](#throwing-agi) [skill](#skills). 
@@ -2308,7 +2312,7 @@ Is opposed by [resist](#resist-will).
 | Level | Name                 | AP | **Ob**  | Effect(s)          | Condition(s) |
 | ----- | -------------------- | -- | ------- | ------------------ | ------------ |
 | 1     | Inspire  | 1  | 1 | Grant another character **+1D** for their next test. |  |
-| 3     | Pep Talk | 2  | 3 | Remove another character's [dazed](#dazed) or [terrified](#terrified) state. |  |
+| 3     | Pep Talk | 2  | 3 | Remove another character's [exhausted](#exhausted) or [terrified](#terrified) state. |  |
 
 #### Resist (Will)
 Used to resist influences on the mind, as well as some magic schools. 
@@ -2792,7 +2796,7 @@ An [illness](#illness) can only be suffered once, at a time. It may be suffered 
 | ---------- | ------------ | ------------- | ----------- | --------- |
 | 0 - 7 | Strength Sap | **1D10 + 3** Days | The muscles atrophy, despite any physical exercise. If not treated quickly, the victim will quickly find themselves unable to move, at all. **-1D3** [strength](#strength-str); **-1D3** [agility](#agility-agi); Max 6'/2m movement distance. | [medicine](#medicine-int); Reduces the duration by **2D4** days. |
 | 8 - 15 | Lung Fever | **1D10 + 1** Days | The victim finds themselves easily winded, even by simple acts, such as walking to the privy at night. **-(1D3 + 1)** [endurance](#endurance-end). | [medicine](#medicine-int); The ill-effects are suspended for 24 hours. |
-| 16 - 23 | Water's Curse | **1D10 + 1** Days | The victim sweats uncontrollably and has watery stools, thus dehydrating rapidly and losing consciousness frequently. **-1D4** [toughness](#toughness-tough); [dazed](#dazed). | [medicine](#medicine-int); Reduces the duration by **1D10** days and suspends the ill-effects for 24 hours. |
+| 16 - 23 | Water's Curse | **1D10 + 1** Days | The victim sweats uncontrollably and has watery stools, thus dehydrating rapidly and losing consciousness frequently. **-1D4** [toughness](#toughness-tough); [exhausted](#exhausted). | [medicine](#medicine-int); Reduces the duration by **1D10** days and suspends the ill-effects for 24 hours. |
 | 24 - 31 | Jazz-Hands | **1D10 + 3** Days | The victim can't stop the tremors in their arms. Any action requiring precise movements is impossible. **-1D3** [agility](#agility-agi); **-1D4** [arcana](#arcana-arc). | [medicine](#medicine-int); The ill-effects are suspended for 24 hours. |
 | 32 - 39 | Brain Rot | **2D10** Days | The victim's mind dulls. They find it difficult to form coherent thoughts. **-1D3** [intelligence](#intelligence-int); **-1D3** [wisdom](#wisdom-wis). | [medicine](#medicine-int); The ill-effects are suspended for 24 hours. |
 | 40 - 47 | Feeble Tounge | **1D10 + 3** Days | The tounge flops and waggles around uncontrollably. Speech is impaired. **-1D3** [oratory](#oratory-ora). | [medicine](#medicine-int); Reduces the duration by **2D4** days. |
