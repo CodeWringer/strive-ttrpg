@@ -264,7 +264,6 @@
     - [Soul-Binding \[Int\]](#soul-binding-int)
     - [Telekinesis \[Int\]](#telekinesis-int)
     - [Telepathy \[Ora\]](#telepathy-ora)
-    - [Counter-Magic \[End\]](#counter-magic-end)
   - [List of Injuries](#list-of-injuries)
     - [Type Specific Injuries](#type-specific-injuries)
   - [List of Illnesses](#list-of-illnesses)
@@ -661,35 +660,13 @@ Using a **skill ability** counts as an **action**.
 The number of targets that a [skill ability](#skill-abilities) can apply to, with a single use, is defined through the **targeting-types**. 
 
 ###### Single Target (ST)
-Any **single-target** (**ST**) action can be dodged or defended against. To do so, an [opposed test](#opposed-test) is made. If the defender wins no damage is dealt. 
+A **single-target** (**ST**) action affects only a single target. 
 
 ###### Multiple Single Target (MST)
-A **multiple single-target** (**MST**) action behaves just like a [single-target](#single-target-st), with the difference that multiple targets may be affected with the same action. 
+A **single-target** (**ST**) action affects up to a maximum number of targets. 
 
 ###### Area of Effect (AoE)
-**Area of Effect** (**aoe**) actions can only be dodged or defended against under certain conditions. 
-
-If the **aoe** action is magical and would affect a mage, that defending mage can choose to use their skill [counter-magic](#counter-magic), to try and counter the action. If they choose to counter the spell, an [opposed test](#opposed-test) must be made. If the defender wins no damage is dealt. 
-
-The defending mage incurs the same stamina cost as the attacker, when they cast the spell. However, every degree of success of the defender reduces their [magic stamina](#magic-stamina) cost by one. 
-
-> A mage casts [pyromancy](#pyromancy) at another, at intensity level 6. That incurs the attacker a [magic stamina](#magic-stamina) cost of 6. 
-> 
-> The defender chooses to use their [counter-magic](#counter-magic). Now, an opposed test must be made. 
-> 
-> The attacker has an [arcana](#arcana-arc) of 5 and [pyromancy](#pyromancy) skill level of 6. They get to roll **8D6**. 
-> 
-> The defender has an [arcana](#arcana-arc) of 4 and [counter-magic](#counter-magic) skill of 5. They get to roll **7D6**. 
-> 
-> The defender achieves 4 **positives**, whereas the attacker only achieves 3 **positives**. That means, that the attack spell fails. The degree of success is 1, which reduces the [magic stamina](#magic-stamina) cost of the defender by 1. Thus, they incur a [magic stamina](#magic-stamina) cost of 5.  
-
-It is only possible to use [counter-magic](#counter-magic), if the defender has at least one [magic stamina](#magic-stamina) left. 
-
-If the **aoe** attack is of a non-magical nature, it may only be possible to dodge or defend against, if the **GM** allows for it. 
-
-> A thrown bomb may perhaps be caught and thrown back at the attacker. But a cannon shot cannot be warded off. 
-
-If there is no way to reasonably dodge or defend against the **aoe** attack, its damage is rolled right away. 
+**Area of Effect** (**aoe**) actions affect *every* target that is in the area of effect. 
 
 #### Skill Forking
 For every **skill** a character knows (= is not currently still learning), and they are currently testing a **skill** that is thematically related, they can **fork** that **skill** into their test, granting them **+1D6** for their [test](#tests). 
@@ -1620,7 +1597,7 @@ The following are generally considered easy attacks (but at the **GM**'s discret
 * Against restrained opponents
 
 #### Execution Attack
-The extreme version of an easy attack, the **execution attack** allows outright killing or maiming an opponent, without having to roll for an attack or for damage. 
+The extreme version of an easy attack, the **execution attack** allows outright killing or maiming an opponent, without having to roll for an attack or for [damage](#damage). 
 
 Such an attack can be carried out against any character who is unable to resist (with the exception of player characters, see [death's door](#deaths-door)). 
 
@@ -1629,12 +1606,19 @@ Such an attack can be carried out against any character who is unable to resist 
 This kind of attack is only possible at the **GM**'s discretion. 
 
 ## Defending
-Defending against an attack costs 1 [AP](#action-points-ap). If not enough [AP](#action-points-ap) are available, defense is impossible. Some attacks may cost more than 1 [AP](#action-points-ap) to defend against. If so, this should be stated on the attack in question. 
+There are two types of defense:
+* **Active defense**: Costs 1 [AP](#action-points-ap) and uses all available dice for the [test](#tests).
+* **Passive defense**: Does not cost any [AP](#action-points-ap), but uses only half (rounded down) of the available dice for the [test](#tests).
 
-An [opposed test](#opposed-test) must be made. If successful, the attack is negated, entirely. Depending on the type of defense, the [degree of success](#graduated-test) may allow additional effects to occur. See [melee defence](#melee-defence-agi) and [ranged defence](#ranged-defence-agi). If the attacker wins, they get to roll for and apply damage. 
+Some attacks may cost more than 1 [AP](#action-points-ap) to defend against. If so, this should be stated on the attack in question and defending against such an attack would *only* be possible with an **active defense**. 
 
-Defending against [area of effect](#area-of-effect) attacks is either impossible or an active choice, as a reaction. <br>
-It is possible to defend against a magical **aoe** attack, by using the [counter-magic](#counter-magic) skill. If successful, the attack is negated entirely. 
+An [opposed test](#opposed-test) must be made. If successful, the attack is negated, entirely. Depending on the defense skill in question ([melee defense](#melee-defence-agi) or [ranged defence](#ranged-defence-agi)), the [degree of success](#graduated-test) may allow additional effects to occur. But if the attacker wins, they get to roll for and apply [damage](#damage) to the defender. 
+
+Defending against [area of effect](#area-of-effect) attacks is *only* possible as a **passive defense** and can not negate the attack. It can only halve its [damage](#damage). 
+
+It is possible to negate a magical attack entirely, by using the same school of magic skill and achieving more positives, than the attacker. The defender has to perform a [test](#testing-magic) as usual, at an **intensity** of choice. The difference is that the defender does not get to use a [skill ability](#skill-abilities) of the magic school in question. This is a purely defensive action, which benefits everyone who might be hit with the spell of the attacker, as no one will be hit, if the defense is successful. 
+
+If the defense fails, the full [damage](#damage) is applied. If the defense attempt causes a [spell-backfire](#spell-backfire) on the defender, they suffer the attacker's spell at one greater intensity level. 
 
 ### Cover
 It is possible for characters to hide behind stationary things to make it harder to hit them. This mostly applies to ranged combat, but may also find use in melee, depending on circumstance. 
@@ -1679,14 +1663,16 @@ Mechanically speaking, every mage has two values to track: their **maximum magic
 
 The **maximum magic stamina** of a mage is derived from the sum of their [arcana](#arcana-arc) attribute and the levels of all their known [magic school skills](#magic-school--school---attribute-), divided by two and rounded up. 
 
-> If a mage has an **arcana** of 3 and has the **magic school skills** **pyromancy** at level 3, **cryomancy** at level 2 and **counter-magic** at level 5, that means they have (3 + 3 + 2 + 5) / 2 = 7 **maximum magic stamina**. 
+> If a mage has an **arcana** of 3 and has the **magic school skills** **pyromancy** at level 3, **cryomancy** at level 2 and **illusion** at level 5, that means they have (3 + 3 + 2 + 5) / 2 = 7 **maximum magic stamina**. 
 
 The **current magic stamina** can not be less than 0 or more than their **maximum magic stamina**. Every time a mage casts a spell, there is a chance they will incur a **magic stamina** cost. For every **negative** they roll, they lose 1 point of **magic stamina**. 
 
 Once spent, **magic stamina** can only be regained through **active rest or meditation**. For every **half hour** spent in *active rest or meditation*, a mage regains 1 **magic stamina**. Active rest or meditation implies not engaging in any physical or mental strains. If in doubt - if you have to do a test for it, it's probably a strain. 
 
 ### Spell-Backfire
-A **spell-backfire** causes a spell to affect the caster, instead of their intended target. The mage suffers the full effect of the spell. In case of an [aoe](#area-of-effect-aoe) attack spell, anyone or anything nearby the mage, in range, is also affected, unless if they successfully [counter-magic](#counter-magic) it. 
+A **spell-backfire** causes a spell to affect the caster, instead of their intended target. The mage suffers the full effect of the spell. In case of an [aoe](#area-of-effect-aoe) attack spell, anyone or anything nearby the mage, in range, is also affected. 
+
+It is possible for another nearby mage to prevent the **spell-backfire**, if they [defend](#defending) against it. This also applies even if the spell effect wouldn't affect them. 
 
 A **spell-backfire** occurs in the following two cases: 
 1. The [magic school skill test](#testing-magic) is **not** a **complete success**. 
@@ -2740,21 +2726,6 @@ In the following, replace *N* with the appropriate level.
 | 4     | Pressing Thought       | 3  | 36'/18m    | ST   | /      | Effect: [Hasten](#hasted) a creature of choice for two turns of combat or 10 seconds out of combat. |
 | 6     | Quiet Command          | 3  | N * 12'/4m | ST   | /      | Resist: **Ob N-2**, Effect: Issue a command to another creature, which they feel strongly compelled to follow. |
 | 7     | Confer Knowledge       | 4  | N * 12'/4m | ST   | /      | Resist: **Ob N-2**, Effect: Confer a level of a known **skill** to another creature. |
-
-### Counter-Magic [End]
-The redirection and dissolution of magic flow. This is the skill to use to defend against magic attacks. 
-
-Being a purely defensive skill, **counter-magic** only provides the benefit of easier defense at the higher levels. 
-
-This skill can only be used, if the mage has at least one point of [magic stamina](#magic-stamina) left. 
-
-However, knowing **counter-magic** at higher levels allows reducing incoming [magic stamina](#magic-stamina) costs. 
-
-For every three levels in **counter-magic**, **1D3 - 1** can be rolled, to determine by how much the **magic stamina** cost is reduced. 
-
-> At **counter-magic** level 6, you may roll **2D3 - 2**. At best, you can reduce the incoming **magic stamina** cost by 4, at worst, you can't reduce it, at all. 
-
-Note that it is not possible to reduce [magic stamina](#magic-stamina) cost to less than 1. 
 
 ## List of Injuries
 How many times an **injury** can be suffered, can be limited. In the table below, the *max* is the maximum number of times the **injury** can be suffered by the same character. If there is a slash (/), there is no limit. If a roll would result in an already maxed out **injury**, pick the next **injury** below it, instead. 
