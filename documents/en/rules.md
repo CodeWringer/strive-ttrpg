@@ -143,6 +143,10 @@
       - [Execution Attack](#execution-attack)
   - [Defending](#defending)
     - [Cover](#cover)
+  - [Throwing](#throwing)
+    - [Throwing-Distance](#throwing-distance)
+    - [Throwing-Accuracy](#throwing-accuracy)
+    - [Throwing-Damage](#throwing-damage)
 - [Magic](#magic)
   - [Testing Magic](#testing-magic)
     - [Magic Stamina](#magic-stamina)
@@ -203,9 +207,6 @@
       - [Shield (End)](#shield-end)
       - [Tactics (Str)](#tactics-str)
       - [Throwing (Agi)](#throwing-agi)
-        - [Throwing-Distance](#throwing-distance)
-        - [Throwing-Accuracy](#throwing-accuracy)
-        - [Throwing-Damage](#throwing-damage)
       - [Weapon \< weapon type \> (Str)](#weapon--weapon-type--str)
     - [Social Skills](#social-skills)
       - [Animal Handling (Emp)](#animal-handling-emp)
@@ -1565,11 +1566,11 @@ A character can move up to **12'/4m** (= 4 fields on a grid) per **AP** spent. I
 **Difficult terrain** is any space that slows movement, but does not prevent it outright. Examples would be waist-high water, a surface of glue or a slowing force field. 
 
 ## Attacking
-Attacks are made using a corresponding [skill ability](#skill-abilities) of a [weapon](#weapon--weapon-type--str) or [magic-school](#magic-school--school---attribute-) skill. 
+Attacks are made using a [skill ability](#skill-abilities) of a [weapon](#weapon--weapon-type--str), [magic-school](#magic-school--school---attribute-), the [unarmed](#unarmed) or [throwing](#throwing-agi) [skill](#skills). 
 
-An attack generally requires an [opposed test](#opposed-test) to be made, which the attacker can only win by exceeding the number of **positives** rolled by their target. 
+An attack generally requires an [opposed test](#opposed-test) to be made. If the attacker wins, the full [damage](#damage) is applied to the defender. 
 
-If successful, the attacker gets to apply [damage](#damage) to their target. If unsuccessful, no [damage](#damage) is applied. 
+In case of an [aoe](#area-of-effect-aoe) attack, a defender may be able to halve the [damage](#damage) (rounded up), if they win the [opposed test](#opposed-test). 
 
 ### Damage
 Damage dealt to an opponent reduces their **HP**. When their **HP** reaches 0, they suffer an [injury](#injury) and their HP is reset to their new maximum. To determine the new maximum, see the [injury](#injury) section. 
@@ -1607,14 +1608,17 @@ This kind of attack is only possible at the **GM**'s discretion.
 
 ## Defending
 There are two types of defense:
-* **Active defense**: Costs 1 [AP](#action-points-ap) and uses all available dice for the [test](#tests).
+* **Active defense**: Costs 1 [AP](#action-points-ap) and uses all available dice for the [test](#tests). 
+  * This defense can only happen as a *reaction* and a deliberate choice, during another character's turn. 
+  * **Stunts** are possible. 
 * **Passive defense**: Does not cost any [AP](#action-points-ap), but uses only half (rounded down) of the available dice for the [test](#tests).
+  * This defense happens automatically, if no **active defense** is attempted. 
+  * This defense can *not* be used against attacks that cost more than 1 [AP](#action-points-ap) to defend against. 
+  * **Stunts** are *not* possible. 
 
-Some attacks may cost more than 1 [AP](#action-points-ap) to defend against. If so, this should be stated on the attack in question and defending against such an attack would *only* be possible with an **active defense**. 
+To defend, an [opposed test](#opposed-test) must be made. If successful, the attack is negated, entirely. Depending on the defense skill in question ([melee defense](#melee-defence-agi) or [ranged defence](#ranged-defence-agi)), the [degree of success](#graduated-test) may allow additional effects (called **stunts**) to happen. But if the attacker wins, they get to roll for and apply [damage](#damage) to the defender. 
 
-An [opposed test](#opposed-test) must be made. If successful, the attack is negated, entirely. Depending on the defense skill in question ([melee defense](#melee-defence-agi) or [ranged defence](#ranged-defence-agi)), the [degree of success](#graduated-test) may allow additional effects to occur. But if the attacker wins, they get to roll for and apply [damage](#damage) to the defender. 
-
-Defending against [area of effect](#area-of-effect) attacks is *only* possible as a **passive defense** and can not negate the attack. It can only halve its [damage](#damage). 
+Defending against [area of effect](#area-of-effect) attacks is *only* possible as a **passive defense** and can *not* negate the attack. It can only halve (rounded up) its [damage](#damage). 
 
 It is possible to negate a magical attack entirely, by using the same school of magic skill and achieving more positives, than the attacker. The defender has to perform a [test](#testing-magic) as usual, at an **intensity** of choice. The difference is that the defender does not get to use a [skill ability](#skill-abilities) of the magic school in question. This is a purely defensive action, which benefits everyone who might be hit with the spell of the attacker, as no one will be hit, if the defense is successful. 
 
@@ -1628,6 +1632,50 @@ There are two categories of cover:
   * Low cover is any static object to hide behind that doesn't fully cover the body, like a tree stump or low wall. 
 * **High cover**: +2 **Ob** against a target that is behind high cover. 
   * High cover is any static object to hide behind that fully covers the body, like a tall wall or large boulder. 
+
+## Throwing
+Throwing things is a special type of action, that follows the rules outlined below. 
+
+### Throwing-Distance
+**The maximum distance** something can be thrown is determined by the object's [bulk](#bulk) and the character's [strength](#strength-str):
+* For every point in [strength](#strength-str), an object can be thrown an additional **15'/5m**. 
+* For every point in bulk past 1, the [strength](#strength-str) value for throwing is reduced by 1. 
+
+The steps to determine **distance** to throw are as follows:
+1. Reduce the object's [bulk](#bulk) by 1. 
+2. Reduce [strength](#strength-str) by the remaining [bulk](#bulk). 
+3. Multiply by 15'/5m. 
+
+> A character with [strength](#strength-str) 1 can throw an object of [bulk](#bulk) 1 up to 15'/5m and cannot throw an object of bulk 2 or higher, at all. 
+> 
+> A character with [strength](#strength-str) 5 can throw an object of [bulk](#bulk) 1 up to 75'/25m and an object of [bulk](#bulk) 3 up to 45'/15m. 
+
+### Throwing-Accuracy
+How likely the object is to impact where intended is determined by the object's [bulk](#bulk), the distance to throw and the character's skill in the [throwing](#throwing-agi) skill.
+* For every **15'/5m** interval, the **Ob** increases by 1. 
+  * That means up to 15'/5m is **Ob** 1. Starting at 18'/6m, up to and including 30'/10m it's **Ob** 2. Starting at 33'/11m, it's **Ob** 3, and so on.
+
+The steps to determine **Ob** to throw are as follows:
+1. Divide distance to throw by 15'/5m.
+2. Round up.
+
+> A character with [agility](#agility-agi) 1 must succeed a test at **Ob** 1 for a distance of 15'/5m. They must succeed a test at **Ob** 2 for a distance of 18'/6m and a test at **Ob** 3 for a distance of 33'/11m. 
+
+In case of an unsuccessful throw, the object lands only near the intended spot, instead of on it. In order to determine where a missed throw lands, roll a **D8**. A 1 designates the object landed north-west of the intended spot. Then, going clock-wise, a 2 would designate north, 3 north-east and so on. 
+
+Note, that in case a spot determined this way would be farther than the character can throw, you must correct the distance by moving it closer towards the character that threw the object, until it is within their allowed distance. 
+
+For your convenience, you can refer to the following chart: 
+<img src="../../img/miss-chart.png" width="384px" height="384px"></img>
+
+### Throwing-Damage
+If throwing a weapon that isn't specifically made or especially suitable to throwing, then the damage that is dealt on successful hit is halved (rounded down). 
+
+When throwing non-weapons, the damage dealt is calculated the following way: [strength](#strength-str) * [bulk](#bulk)
+
+The [damage type](#damage-types) to use, depends on the type of object and how it hits the target. For most non-weapons, **bludgeoning** will be appropriate. 
+
+> A character with [strength](#strength-str) 5, throwing a [bulk](#bulk) 3 object, can deal 5 * 3 = 15 points of damage. 
 
 # Magic
 Any character with [arcana](#arcana-arc), can cast magic. What kind of magic, depends on the [magic schools](#list-of-magic-schools) the character knows. 
@@ -2112,9 +2160,7 @@ The instrument in question must be noted.
 #### Melee Defence (Agi)
 Skill at defending oneself in close-combat. If a test of this skill is successful, the attacker's attack is negated entirely (unless the attack in question states otherwise).
 
-Every attempt to defend oneself costs 1 [AP](#action-points-ap). 
-
-If successful, for every **positive** that you achieve over the attacker, you can choose one of the following effects to happen:
+If you succeed an [active defense](#defending) using this **skill**, then for every **positive** that you achieve over the attacker, you can choose one of the following **stunts**:
 * Disarm your opponent (if they have a detachable weapon). 
 * Displace your opponent. They are forced to stumble backwards by 1m/3' in a direction of your choosing. 
 * Throw your opponent to the ground, making them [proned](#prone). 
@@ -2123,10 +2169,8 @@ If successful, for every **positive** that you achieve over the attacker, you ca
 #### Ranged Defence (Agi)
 Skill at evading projectiles. If a test of this skill is successful, the attacker's attack is negated entirely (unless the attack in question states otherwise).
 
-Every attempt to defend oneself costs 1 [AP](#action-points-ap). 
-
-If successful, for every **positive** that you achieve over the attacker, you can choose one of the following effects to happen:
-* Displace yourself. You move 1m/3' in a direction of your choosing. 
+If you succeed an [active defense](#defending) using this **skill**, then for every **positive** that you achieve over the attacker, you can choose one of the following **stunts**:
+* Displace yourself. You move 3'/1m in a direction of your choosing. 
 * You catch the projectile (if such a feat could be "reasonably" done). 
 * If the location of the shooter was unknown, you now have a good idea on where they are. 
 
@@ -2194,39 +2238,7 @@ The ability to understand and influence local combat movements, right there, in 
 #### Throwing (Agi)
 General expertise at throwing things. This includes weapons as well as non-weapon objects. 
 
-##### Throwing-Distance
-**The maximum distance** something can be thrown is determined by the object's [bulk](#bulk) and the character's [strength](#strength-str):
-* For every point in [strength](#strength-str), an object can be thrown an additional **15'/5m**. 
-* For every point in bulk past 1, the [strength](#strength-str) value for throwing is reduced by 1. 
-
-The steps to determine **distance** to throw are as follows:
-1. Reduce the object's [bulk](#bulk) by 1. 
-2. Reduce [strength](#strength-str) by the remaining [bulk](#bulk). 
-3. Multiply by 15'/5m. 
-
-> A character with [strength](#strength-str) 1 can throw an object of [bulk](#bulk) 1 up to 15'/5m and cannot throw an object of bulk 2 or higher, at all. 
-> 
-> A character with [strength](#strength-str) 5 can throw an object of [bulk](#bulk) 1 up to 75'/25m and an object of [bulk](#bulk) 3 up to 45'/15m. 
-
-##### Throwing-Accuracy
-How likely the object is to impact where intended is determined by the object's [bulk](#bulk), the distance to throw and the character's skill in the [throwing](#throwing-agi) skill.
-* For every **15'/5m** interval, the **Ob** increases by 1. 
-  * That means up to 15'/5m is **Ob** 1. Starting at 18'/6m, up to and including 30'/10m it's **Ob** 2. Starting at 33'/11m, it's **Ob** 3, and so on.
-
-The steps to determine **Ob** to throw are as follows:
-1. Divide distance to throw by 15'/5m.
-2. Round up.
-
-> A character with [agility](#agility-agi) 1 must succeed a test at **Ob** 1 for a distance of 15'/5m. They must succeed a test at **Ob** 2 for a distance of 18'/6m and a test at **Ob** 3 for a distance of 33'/11m. 
-
-##### Throwing-Damage
-If throwing a weapon that isn't specifically made or especially suitable to throwing, then the damage that is dealt on successful hit is halved (rounded down). 
-
-When throwing non-weapons, the damage dealt is calculated the following way: [strength](#strength-str) * [bulk](#bulk)
-
-The [damage type](#damage-types) to use, depends on the type of object and how it hits the target. For most non-weapons, **bludgeoning** will be appropriate. 
-
-> A character with [strength](#strength-str) 5, throwing a [bulk](#bulk) 3 object, can deal 5 * 3 = 15 points of damage. 
+See [throwing](#throwing). 
 
 #### Weapon < [weapon type](#weapon-types) > (Str)
 Expertise at handling a close-quarters or ranged weapon of a specific [weapon type](#weapon-types). 
