@@ -42,9 +42,9 @@
     - [Skills](#skills)
       - [Skill Abilities](#skill-abilities)
         - [Targeting-Types](#targeting-types)
-          - [Single Target](#single-target)
-          - [Multiple Single Target](#multiple-single-target)
-          - [Area of Effect](#area-of-effect)
+          - [Single Target (ST)](#single-target-st)
+          - [Multiple Single Target (MST)](#multiple-single-target-mst)
+          - [Area of Effect (AoE)](#area-of-effect-aoe)
       - [Skill Forking](#skill-forking)
       - [Learning Skills](#learning-skills)
       - [Advancing Skills](#advancing-skills)
@@ -118,22 +118,23 @@
   - [Major Fate Points](#major-fate-points)
   - [Ambition Fate Points](#ambition-fate-points)
   - [Hand of Fate](#hand-of-fate)
-- [Down-Time](#down-time)
-  - [Travel](#travel)
-  - [Crafting](#crafting)
-    - [Crafting Time Chart](#crafting-time-chart)
-  - [Trade](#trade)
-    - [Seller's Chart](#sellers-chart)
+- [Time-Management](#time-management)
+  - [Initiative](#initiative)
+  - [Down-Time](#down-time)
+    - [Travel](#travel)
+    - [Crafting](#crafting)
+      - [Crafting Time Chart](#crafting-time-chart)
+    - [Trade](#trade)
+      - [Seller's Chart](#sellers-chart)
     - [Buyer's Chart](#buyers-chart)
-  - [Recovery](#recovery)
-  - [Training](#training)
-- [Initiative](#initiative)
-  - [Surprise Round](#surprise-round)
-- [Scenario-Time](#scenario-time)
-  - [Combat](#combat)
-    - [Action Points (AP)](#action-points-ap)
-      - [Action Point Saving](#action-point-saving)
-    - [Combat Movement](#combat-movement)
+    - [Recovery](#recovery)
+    - [Training](#training)
+    - [Surprise Round](#surprise-round)
+  - [Scenario-Time](#scenario-time)
+- [Combat](#combat)
+  - [Action Points (AP)](#action-points-ap)
+    - [Action Point Saving](#action-point-saving)
+  - [Combat Movement](#combat-movement)
 - [Magic](#magic)
   - [Testing Magic](#testing-magic)
     - [Magic Stamina](#magic-stamina)
@@ -648,25 +649,18 @@ Using a **skill ability** counts as an **action**.
 [Weapon skills](#weapon--weapon-type--str) use **skill abilities** to denote the ways one can attack with them. 
 
 ##### Targeting-Types
-There are the following types of **attack-targeting-types**:
-* **Single-target** (**ST**)
-* **multiple single-target** (**MST**)
-* **area of effect** (**AOE**)
+The number of targets that a [skill ability](#skill-abilities) can apply to, with a single use, is defined through the **targeting-types**. 
 
-###### Single Target
-Any **single-target** attack can be dodged or defended against. To do so, an [opposed test](#opposed-test) is made. If the defender wins no damage is dealt. 
+###### Single Target (ST)
+Any **single-target** (**ST**) action can be dodged or defended against. To do so, an [opposed test](#opposed-test) is made. If the defender wins no damage is dealt. 
 
-Against melee attacks, the defender must [test](#tests) their [melee defence](#melee-defence-agi). 
+###### Multiple Single Target (MST)
+A **multiple single-target** (**MST**) action behaves just like a [single-target](#single-target-st), with the difference that multiple targets may be affected with the same action. 
 
-Against ranged attacks, the defender must [test](#tests) their [ranged defence](#ranged-defence-agi).
+###### Area of Effect (AoE)
+**Area of Effect** (**aoe**) actions can only be dodged or defended against under certain conditions. 
 
-###### Multiple Single Target
-A **multiple single-target attack** behaves just like a [single-target](#single-target) attack, with the difference that multiple targets may be affected with the same action. 
-
-###### Area of Effect
-**Area of Effect** (**aoe**) attacks can only be dodged or defended against under certain conditions. 
-
-If the **aoe** attack is magical and would affect a mage, that defending mage can choose to use their skill [counter-magic](#counter-magic), to try and counter the attack. If they choose to counter the spell, an [opposed test](#opposed-test) must be made. If the defender wins no damage is dealt. 
+If the **aoe** action is magical and would affect a mage, that defending mage can choose to use their skill [counter-magic](#counter-magic), to try and counter the action. If they choose to counter the spell, an [opposed test](#opposed-test) must be made. If the defender wins no damage is dealt. 
 
 The defending mage incurs the same stamina cost as the attacker, when they cast the spell. However, every degree of success of the defender reduces their [magic stamina](#magic-stamina) cost by one. 
 
@@ -1415,17 +1409,44 @@ There are no limits to how many of a given card a player can own, but they may o
 | 1 AFP   | Defy Death         | Leap from [death's door](#deaths-door), remove 1 **active** [injury](#injury) of choice and be at 1 **HP**; Alternatively, avoid a narratively-driven death. The **GM** will decide the character's alternative fate. They could be captured, very badly injured or become indebted to someone or something. |
 | 1 AFP   | Yes, my liege      | Work with your **GM** to create a follower/hireling who will now be at your command/employ. |
 
-# Down-Time
+# Time-Management
+The speed at which time flows, in-game, is variable and depends on the current circumstances of the narrative. 
+
+There are two broad disctinctions of time-flow made: 
+* [Down-time](#down-time) has time flowing very rapidly, as events unfold on a fairly abstract level. 
+* [scenario-time](#scenario-time) has time flowing very slowly, sometimes even on a second-by-second basis, as the way events unfold must be carefully considered. 
+
+There will be times when the order in which characters act matters. For this, see the [initiative](#initiative) section. Most often, though, **PC**s will act at irregular times, depending on circumstance. 
+
+## Initiative
+When the order in which characters act matters, rolls for **initiative** are needed. **Initiative** is the number that determines when a character should get a chance to act. 
+
+The **initiative** of all involved parties is collected and sorted, which forms the so called **initiative order**. The first character in the **initiative order** gets to act first, then the character after them gets to act and so on. Higher **initiative** allows for an earlier turn. 
+
+The steps to determine the **initiatve order** are as follows: 
+1. Every character who rolls for **initiative**, must do so with a **D10**. 
+2. They add their [base initiative](#base-initiative) to the number they rolled. 
+3. If two characters achieve the same number, they must each roll a **D10** again, until one of the numbers is higher. The character with the higher number gets to act before the other. 
+4. The result, is their place in the **initiative order**.
+5. A higher **initiative** results in an earlier **turn** while lower **initiative** results in a later **turn**. 
+
+The point in time when a character gets to act (or abstain from their action) is called their **turn**. When all characters have had their **turn**, a **round** is concluded. After that, the first person in the **initiative order** gets to act again and a new **round** is begun. This cycle continues, until **initiative order** is no longer needed. 
+
+A character can abstain from their action willingly. They get a final chance to act at the end of the **round**. They can abstain from that action, too, which ends the **round** for them. Then, in the next **round**, their time to act is back to what the **initiative order** dictates. If multiple characters abstain from their action, they'll get another chance at the end of a **round**, in the same order they normally would have. In other words, the last character to abstain from their action is the last person to get another chance at the end of a **round**. 
+
+Most prominently, **initiative order** is used during [combat](#combat). But it could also find application during other times, such as a chase-sequence, negotiations, or during [down-time](#down-time). **Initiative** could even be used on a more abstract level, to determine in what order characters get to try out their political schemes. The concrete instances when **initiative** is to be used, will be up to the **GM** to decide. 
+
+## Down-Time
 When not currently dealing with events on a detailed level - there and in the moment - **PC**'s can spend their time on a more abstract level. This applies especially to activities that take greater amounts of time, such as recovering from injuries, travel, engaging in their trade, honing their [skill](#skills) and so on. 
 
-## Travel
+### Travel
 People travel around the world all the time, for the most diverse reasons. Be they a trade caravan on the move between cities, a pilgrim on the way to a holy site, a craftsman going to town to sell their crafts, a roaming mercenary or a mother visiting their children - everyone has to spend time, travelling. 
 
 How much time it takes, exactly, to get from *A* to *B*, depends heavily on the *distance* to and the *means* of travel. If horses are the fastest means of transportation, expect to be travelling across countries for days if not weeks. But if teleportation magic makes travel a trivial issue, then you might not even need to consider it, at all. These details are strongly tied to your **GM**'s world, so they'll ultimately be the one to determine your travel times. 
 
 If there is a world map, the **GM** could overlay it with tiles of squares or hexagons, which may help with determining distance. If your group desires, you could even play it so that your characters only travel from tile to tile. Moving from one tile to another may then always take a set time, unless faster means of travel are available. That way, travel would be simplified and abstract. But discuss with your group, whether you want to play it this way. Travel may also provide interesting opportunities for role-playing and *conflicts*. The abstract level draws attention away from these opportunities. 
 
-## Crafting
+### Crafting
 All [craftsmanship skills](#craftsmanship) require a time investment proportional to the *quality* and *complexity* of the desired product, as well as the innate *effort* required to create it. 
 
 Making use of a [craftsmanship skill](#craftsmanship) to create something requires a [graduated test](#graduated-test) be made. The number of dice in play dictate both the time required and the maximum achievable quality. Each [skill](#skills) in question notes how much time one die "costs". It is possible to roll with fewer dice, than would be available for the [graduated test](#graduated-test). [Forked skills](#skill-forking) can also provide a die each, but note that *every* die, including those from [forked skills](#skill-forking), increase the time required. The number of **positives** and **negatives** achieved has no effect on the time taken. Merely the *number* of dice that were rolled matters. 
@@ -1440,7 +1461,7 @@ Depending on how easy to acquire the materials are, you may act on a more abstra
 
 > For example, a **PC** might have decided they want to create an elaborately decorated piece of furniture, with bands of gold and colored glass inlays. Even though the [carpentry](#carpentry-agi) skill does not list gold as a material for its product, the **PC** should have to procure the gold, if they are to finish their piece of furniture. 
 
-### Crafting Time Chart
+#### Crafting Time Chart
 The following matrix denotes the time that work will take, based on its inherent *complexity* and *workload*. 
 
 | **Complexity >** <br> **Workload v** | **Low** | **Moderate** | **High** | **Very High** | 
@@ -1454,7 +1475,7 @@ A **very high** complexity requires the work to be done in a highly specialized 
 
 Workload is the result of processes that naturally take a long time, the difficulty in processing materials and the amount of work that has to be done. A **very high** workload will take months to complete, while a **low** workload may be finished in a matter of minutes. 
 
-## Trade
+### Trade
 Selling and buying things can take a surprising amount of time. If prices are too high and demand or reputation too low, chances are, you won't be able to sell your goods. But even when people do show interest in your wares, you still have to *sell it* to them. An uncharismatic merchant will have a difficult time making a pretty profit, regardless of the quality of their goods. On the other hand, buying things may prove equally difficult, when what you're looking for isn't really available. 
 
 For trade, there is really only one [skill](#skills) - the [mercantilism](#mercantilism-ora) skill. Using this [skill](#skills) requires a [graduated test](#graduated-test) with an **Ob** threshold to be made. The **degree of success** factors into getting a better price.
@@ -1465,7 +1486,7 @@ It is possible to roll with fewer dice, than would be available for the [graduat
 
 To get an ear on the ground and figure out what the local market is like, a character can spend 8 hours to walk around, talk to people, ask for prices of common goods and get a feel for the wealth of the local populace. 
 
-### Seller's Chart
+#### Seller's Chart
 The following matrix provides an overview of how long it may take to sell things on the market. Note that the **GM** has the final say on how long it will actually take and on how difficult it will be. 
 
 Denoted are both the time it takes to get a chance at a [mercantilism](#mercantilism-ora) [test](#tests), what the **Ob** threshold is and what margins can be expected. The margins are relative to the goods' *listing price* or *normal* value. 200% means the goods can be sold at twice what they're worth. 
@@ -1491,31 +1512,13 @@ The supply is assumed to be relative to the demand. The more something is in dem
 | **High**      | 6 Days <br> Ob 2 <br> 110%     | 8 Hours <br> Ob 3 <br> 120%  | 10 Hours <br> Ob 4 <br> 130%  | 12 Hours <br> Ob 5 <br> 140% | 
 | **Very High** | 30 Minutes <br> Ob 3 <br> 140% | 1 Hour  <br> Ob 4 <br> 160%  | 2 Hours <br> Ob 5 <br> 180%   | 4 Hours <br> Ob 6 <br> 200%  | 
 
-## Recovery
+### Recovery
 When [injured](#injury), a character should prepare to spend time away from adventure for a while. Since the process of healing up can take several weeks, this time is best handled abstractly with the other **PC**s going about their business during the same time. 
 
-## Training
+### Training
 When not busy with work and adventure, **PC**s may train, in order to passively improve their [attributes](#practicing-attributes) or [skills](#practicing-skills). This time is usually best handled abstractly, by not playing out the details of the training. 
 
-# Initiative
-When the order in which characters act matters, rolls for **initiative** are needed. **Initiative** is the number that determines when a character should get a chance to act. 
-
-The **initiative** of all involved parties is collected and sorted, which forms the so called **initiative order**. The first character in the **initiative order** gets to act first, then the character after them gets to act and so on. Higher **initiative** allows for an earlier turn. 
-
-The steps to determine the **initiatve order** are as follows: 
-1. Every character who rolls for **initiative**, must do so with a **D10**. 
-2. They add their [base initiative](#base-initiative) to the number they rolled. 
-3. If two characters achieve the same number, they must each roll a **D10** again, until one of the numbers is higher. The character with the higher number gets to act before the other. 
-4. The result, is their place in the **initiative order**.
-5. A higher **initiative** results in an earlier **turn** while lower **initiative** results in a later **turn**. 
-
-The point in time when a character gets to act (or abstain from their action) is called their **turn**. When all characters have had their **turn**, a **round** is concluded. After that, the first person in the **initiative order** gets to act again and a new **round** is begun. This cycle continues, until **initiative order** is no longer needed. 
-
-A character can abstain from their action willingly. They get a final chance to act at the end of the **round**. They can abstain from that action, too, which ends the **round** for them. Then, in the next **round**, their time to act is back to what the **initiative order** dictates. If multiple characters abstain from their action, they'll get another chance at the end of a **round**, in the same order they normally would have. In other words, the last character to abstain from their action is the last person to get another chance at the end of a **round**. 
-
-Most prominently, **initiative order** is used during [combat](#combat). But it could also find application during other times, such as a chase-sequence, negotiations, or during [down-time](#down-time). **Initiative** could even be used on a more abstract level, to determine in what order characters get to try out their political schemes. The concrete instances when **initiative** is to be used, will be up to the **GM** to decide. 
-
-## Surprise Round
+### Surprise Round
 If one party is surprised, for example during an ambush, then the ambushing party gets to act for a full **round**, without the ambushed party getting a chance to act. This is called a **surprise round**. After the **surprise round** **initiative** is handled as normal. 
 
 To determine whether a **round** is a **surprise round**, proceed with the following steps:
@@ -1525,14 +1528,14 @@ To determine whether a **round** is a **surprise round**, proceed with the follo
 
 > **Surprise round** does not apply to opponents standing right in front of each other in conversation, when one of them suddenly draws a dagger and attacks. The attacker can be clearly seen by the defender (assuming they can see) and thus does not result in a **surprise round**. Of course, the specifics are always up to the scenario at hand and to the **GM**'s ruling. 
 
-# Scenario-Time
+## Scenario-Time
 In contrast to [down-time], scenario-time describes the point in the narrative when the PCs are dealing with a specific situation on a fine-grained level, where the amount of time that is spent matters. 
 
 This is especially the case in scenarios of [combat](#combat), tense negotiation, risky exploration, survival and the like, where each individual step on the path matters as much as the path itself. 
 
 There is also the distinction to be made whether the order in which characters act in matters. If it does, then the rules for [initiative](#initiative) must be used. [Combat](#combat) is the most prominent example of such a case. 
 
-## Combat
+# Combat
 When diplomacy fails, hostilities ensue. This is when the game enters into a state that is handled very carefully. How time is *sliced* and when characters get to act, is crucial. 
 
 The steps to prepare for combat are as follows:
@@ -1546,7 +1549,7 @@ The steps to prepare for combat are as follows:
    1. Before any action during a combat scenario can be taken, [Initiative order](#initiative) must first be determined. 
    2. This includes *everyone*, not just the active combatants. This way, should anyone join the fight, they're easier to work into the [initiative order](#initiative). Or, if they stay out of the fight, it's easier to determine when they get to act out-of-combat. 
 
-### Action Points (AP)
+## Action Points (AP)
 Every **turn**, every character gets 3 **Action Points (AP)** to spend on actions during their **turn**. Some [skills](#skills), [boons and penalties](#boons--penalties) can alter this number. 
 
 * Any basic action, so any action not requiring a [test](#tests), costs 1 **AP**. 
@@ -1556,12 +1559,12 @@ Every **turn**, every character gets 3 **Action Points (AP)** to spend on action
 * Any action requiring a [test](#tests), costs 2 **AP**. 
 * [Skill abilities](#skill-abilities) can cost varying amounts of **AP**. The exact number will be noted on the [skill ability](#skill-abilities) in question. 
 
-#### Action Point Saving
+### Action Point Saving
 If the **turn** is ended with any **AP** unspent, they can either be saved up, or spent on improving the character's [melee defence](#melee-defence-agi) and [ranged defence](#ranged-defence-agi), as **+1D** per **AP**. 
 
 Only up to 2 **AP** may be saved up this way. It may be possible to go past this limit via some [skill abilities](#skill-abilities) or [boons](#boons--penalties). So, normally, a character can only begin their **turn** with a maximum of 5 **AP** to work with. 
 
-### Combat Movement
+## Combat Movement
 A character can move up to **12'/4m** (= 4 fields on a grid) per **AP** spent. In **difficult terrain**, the distance moved per **AP** is half that, at **6'/2m** (= 2 fields on a grid). 
 
 **Difficult terrain** is any space that slows movement, but does not prevent it outright. Examples would be waist-high water, a surface of glue or a slowing force field. 
@@ -1571,7 +1574,7 @@ Any character with [arcana](#arcana-arc), can cast magic. What kind of magic, de
 
 While not all magic can be used offensively, that which can, will inflict [damage](#health--exhaustion), proportional to the [spell's intensity](#spell-intensity) and may cause other effects on those affected by it. 
 
-The effects of a magic spell do not affect the mage casting it, unless if they suffer a [spell-backfire](#spell-backfire) or if it is an [aoe](#area-of-effect) spell and they're standing in the **aoe** or if the description of the spell defines that it can. 
+The effects of a magic spell do not affect the mage casting it, unless if they suffer a [spell-backfire](#spell-backfire) or if it is an [aoe](#area-of-effect-aoe) spell and they're standing in the **aoe** or if the description of the spell defines that it can. 
 
 A *magic spell* is the intended effect of using a [magic school skill](#magic-school--school---attribute-). This is also referred to as *casting magic*, *casting a spell* or other similar wordings. 
 
@@ -1607,7 +1610,7 @@ The **current magic stamina** can not be less than 0 or more than their **maximu
 Once spent, **magic stamina** can only be regained through **active rest or meditation**. For every **half hour** spent in *active rest or meditation*, a mage regains 1 **magic stamina**. Active rest or meditation implies not engaging in any physical or mental strains. If in doubt - if you have to do a test for it, it's probably a strain. 
 
 ### Spell-Backfire
-A **spell-backfire** causes a spell to affect the caster, instead of their intended target. The mage suffers the full effect of the spell. In case of an [aoe](#area-of-effect) attack spell, anyone or anything nearby the mage, in range, is also affected, unless if they successfully [counter-magic](#counter-magic) it. 
+A **spell-backfire** causes a spell to affect the caster, instead of their intended target. The mage suffers the full effect of the spell. In case of an [aoe](#area-of-effect-aoe) attack spell, anyone or anything nearby the mage, in range, is also affected, unless if they successfully [counter-magic](#counter-magic) it. 
 
 A **spell-backfire** occurs in the following two cases: 
 1. The [magic school skill test](#testing-magic) is **not** a **complete success**. 
@@ -2030,8 +2033,8 @@ Performing acrobatic feats, such as jumping and climbing, without injuring onese
 
 | Level | Name                 | AP | **Ob**  | Effect(s)          | Condition(s) |
 | ----- | -------------------- | -- | ------- | ------------------ | ------------ |
-| 3     | Wind Out Of It       | 0  | /       | When hit by a [single-target](#single-target) attack, wind out of the hit and suffer only half the damage. | Once per combat. |
-| 4     | Bob, Weave, Jab      | 0  | Opposed | When succeeding a [melee defence](#melee-defence-agi) test, follow up with a [single-target](#single-target) attack against the enemy who attacked you. | Succeded a [melee defence](#melee-defence-agi) test. |
+| 3     | Wind Out Of It       | 0  | /       | When hit by a [single-target](#single-target-st) attack, wind out of the hit and suffer only half the damage. | Once per combat. |
+| 4     | Bob, Weave, Jab      | 0  | Opposed | When succeeding a [melee defence](#melee-defence-agi) test, follow up with a [single-target](#single-target-st) attack against the enemy who attacked you. | Succeded a [melee defence](#melee-defence-agi) test. |
 
 #### Berserking (End)
 Whether as a well-honed skill and way of life, or through a disappointing childhood of misery and pain, berserking is a talent for fighting angrily and recklessly. It allows a fighter to keep fighting at surprising strength, even when wounded. 
@@ -2042,7 +2045,7 @@ However, the price for this strength is steep. The chance of death is greatly in
 | ----- | -------------------- | -- | ------- | ------------------ | ------------ |
 | 1     | Reckless Assault     | 2  | /       | Deal an extra **D** of damage on your next successful attack during this turn, according to your weapon's damage. Suffer a **-2D** penalty on all defence tests until the start of your next turn. Cannot convert left-over AP into [melee defence](#melee-defence-agi) or [ranged defence](#ranged-defence-agi).  |  |
 | 2     | Grit Your Teeth      | 0  | /       | Ignore the negative effects of one [injury](#injury) of choice for the rest of the combat encounter. It will still count towards the injury limit, however! | Once per combat. |
-| 3     | Pain is Strength     | 3  | Opposed | Perform a [single-target](#single-target) melee attack against an opponent of choice. For every active [injury](#injury) you currently have, deal one extra **D** of damage. You suffer one point of [exhaustion](#exhaustion). | Once per day. |
+| 3     | Pain is Strength     | 3  | Opposed | Perform a [single-target](#single-target-st) melee attack against an opponent of choice. For every active [injury](#injury) you currently have, deal one extra **D** of damage. You suffer one point of [exhaustion](#exhaustion). | Once per day. |
 
 #### Fishing (End)
 The ability to efficiently catch fish. 
@@ -2120,7 +2123,7 @@ If an equipped shield is used to defend with, this skill is used instead of [mel
 | Level | Name                 | AP | **Ob**  | Effect(s)          | Condition(s) |
 | ----- | -------------------- | -- | ------- | ------------------ | ------------ |
 | 1     | Shield Wall          | 3  | /       | For any ally next to you, who's also using a shield, you both gain **+1D** on your defence tests until the start of your next turn. | Using shield; Adjacent to ally using shield. |
-| 2     | Shield Slam          | 2  | Opposed | Perform a [single-target](#single-target) melee attack to knock your opponent down with your shield. | Using shield. |
+| 2     | Shield Slam          | 2  | Opposed | Perform a [single-target](#single-target-st) melee attack to knock your opponent down with your shield. | Using shield. |
 | 4     | Unyielding           | 3  | /       | Until your next turn, you gain **+2D** to your **shield tests**. | Using shield; Once per combat. |
 
 #### Tactics (Str)
