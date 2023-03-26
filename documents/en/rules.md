@@ -1666,6 +1666,7 @@ In case of an unsuccessful throw, the object lands only near the intended spot, 
 Note, that in case a spot determined this way would be farther than the character can throw, you must correct the distance by moving it closer towards the character that threw the object, until it is within their allowed distance. 
 
 For your convenience, you can refer to the following chart: 
+
 <img src="../../img/miss-chart.png" width="384px" height="384px"></img>
 
 ### Throwing-Damage
