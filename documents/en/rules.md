@@ -120,6 +120,7 @@
   - [Hand of Fate](#hand-of-fate)
 - [Time-Management](#time-management)
   - [Initiative](#initiative)
+    - [Surprise Round](#surprise-round)
   - [Down-Time](#down-time)
     - [Travel](#travel)
     - [Crafting](#crafting)
@@ -129,7 +130,6 @@
     - [Buyer's Chart](#buyers-chart)
     - [Recovery](#recovery)
     - [Training](#training)
-    - [Surprise Round](#surprise-round)
   - [Scenario-Time](#scenario-time)
 - [Combat](#combat)
   - [Action Points (AP)](#action-points-ap)
@@ -1423,6 +1423,16 @@ A character can abstain from their action willingly. They get a final chance to 
 
 Most prominently, **initiative order** is used during [combat](#combat). But it could also find application during other times, such as a chase-sequence, negotiations, or during [down-time](#down-time). **Initiative** could even be used on a more abstract level, to determine in what order characters get to try out their political schemes. The concrete instances when **initiative** is to be used, will be up to the **GM** to decide. 
 
+### Surprise Round
+If one party is surprised, for example during an ambush, then the ambushing party gets to act for a full **round**, without the ambushed party getting a chance to act. This is called a **surprise round**. After the **surprise round** **initiative** is handled as normal. 
+
+To determine whether a **round** is a **surprise round**, proceed with the following steps:
+1. Determine **awareness** with [perception](#perception-perc) rolls. 
+   1. The **Ob** to use is up to circumstance. When choosing the **Ob**, keep in mind that pure [attribute](#attributes) rolls cannot be forked! Even just **Ob** 3 would be a difficult to succeed [test](#tests). 
+2. If no one in the surprised party could clearly see, hear or perhaps even smell the fight coming and none of them succeeded their **awareness** test, they are considered **surprised**.
+
+> **Surprise round** does not apply to opponents standing right in front of each other in conversation, when one of them suddenly draws a dagger and attacks. The attacker can be clearly seen by the defender (assuming they can see) and thus does not result in a **surprise round**. Of course, the specifics are always up to the scenario at hand and to the **GM**'s ruling. 
+
 ## Down-Time
 When not currently dealing with events on a detailed level - there and in the moment - **PC**'s can spend their time on a more abstract level. This applies especially to activities that take greater amounts of time, such as recovering from injuries, travel, engaging in their trade, honing their [skill](#skills) and so on. 
 
@@ -1504,16 +1514,6 @@ When [injured](#injury), a character should prepare to spend time away from adve
 
 ### Training
 When not busy with work and adventure, **PC**s may train, in order to passively improve their [attributes](#practicing-attributes) or [skills](#practicing-skills). This time is usually best handled abstractly, by not playing out the details of the training. 
-
-### Surprise Round
-If one party is surprised, for example during an ambush, then the ambushing party gets to act for a full **round**, without the ambushed party getting a chance to act. This is called a **surprise round**. After the **surprise round** **initiative** is handled as normal. 
-
-To determine whether a **round** is a **surprise round**, proceed with the following steps:
-1. Determine **awareness** with [perception](#perception-perc) rolls. 
-   1. The **Ob** to use is up to circumstance. When choosing the **Ob**, keep in mind that pure [attribute](#attributes) rolls cannot be forked! Even just **Ob** 3 would be a difficult to succeed [test](#tests). 
-2. If no one in the surprised party could clearly see, hear or perhaps even smell the fight coming and none of them succeeded their **awareness** test, they are considered **surprised**.
-
-> **Surprise round** does not apply to opponents standing right in front of each other in conversation, when one of them suddenly draws a dagger and attacks. The attacker can be clearly seen by the defender (assuming they can see) and thus does not result in a **surprise round**. Of course, the specifics are always up to the scenario at hand and to the **GM**'s ruling. 
 
 ## Scenario-Time
 In contrast to [down-time], scenario-time describes the point in the narrative when the PCs are dealing with a specific situation on a fine-grained level, where the amount of time that is spent matters. 
