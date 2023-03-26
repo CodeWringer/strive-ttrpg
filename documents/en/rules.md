@@ -1729,7 +1729,7 @@ Once spent, **magic stamina** can only be regained through **active rest or medi
 ### Spell-Backfire
 A **spell-backfire** causes a spell to affect the caster, instead of their intended target. The mage suffers the full effect of the spell. In case of an [aoe](#area-of-effect-aoe) attack spell, anyone or anything nearby the mage, in range, is also affected. 
 
-It is possible for another nearby mage to prevent the **spell-backfire**, if they [defend](#defending) against it. This also applies even if the spell effect wouldn't affect them. 
+It is possible for another nearby mage to prevent the **spell-backfire**, if they [defend](#defending) against it. This also applies even if the spell effect wouldn't affect them. If the other mage's attempt to negate the spell *also* **backfires**, then both of the mages suffer the effect and the other mage suffers it at one greater intensity level. 
 
 A **spell-backfire** occurs in the following two cases: 
 1. The [magic school skill test](#testing-magic) is **not** a **complete success**. 
