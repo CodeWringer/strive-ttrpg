@@ -1628,7 +1628,7 @@ To defend, an [opposed test](#opposed-test) must be made. If successful, the att
 
 Defending against [area of effect](#area-of-effect) attacks is *only* possible as a **passive defense** and can *not* negate the attack. It can only halve (rounded up) its [damage](#damage). 
 
-It is possible to negate a magical attack entirely, by using the same school of magic skill and achieving more positives, than the attacker. The defender has to perform a [test](#testing-magic) as usual, at an **intensity** of choice. The difference is that the defender does not get to use a [skill ability](#skill-abilities) of the magic school in question. This is a purely defensive action, which benefits everyone who might be hit with the spell of the attacker, as no one will be hit, if the defense is successful. 
+It is possible to negate a magical attack entirely, by using the same school of magic skill and achieving more positives, than the attacker. The defender has to perform a [test](#testing-magic) of the same magic school, at the **Ob** equal to the number of **positives** the attacker achieved. The defender does not get to use a [skill ability](#skill-abilities) of the magic school in question. This is a purely defensive action, which benefits everyone who might be hit with the spell of the attacker, as no one will be hit, if the defense is successful. 
 
 If the defense fails, the full [damage](#damage) is applied. If the defense attempt causes a [spell-backfire](#spell-backfire) on the defender, they suffer the attacker's spell at one greater intensity level. 
 
