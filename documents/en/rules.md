@@ -508,7 +508,7 @@ The *modified* level of an **attribute** dictates the base number of **D6** to r
 * Unlike [skills](#skills), it is **not** possible to [fork](#skill-forking) **attributes**. 
 * Attribute values typically range from 2 to 5 for ordinary human characters. 
 
-**Attributes** [advance](#advancing-attributes), as they're [tested](#tests). It is also possible to [practice](#practicing-attributes) **attributes**. It is **not** possible to teach **attributes**, however. 
+**Attributes** [advance](#advancing-attributes), as they or [skills](#skills) that depend on them are [tested](#tests). It is also possible to [practice](#practicing-attributes) **attributes**. It is **not** possible to teach **attributes**, however. 
 
 #### Physical Attributes
 These numbers represent a character's basic physical abilities. 
@@ -571,35 +571,43 @@ Governs a character's ability to convincingly speak with and before others. Also
 Governs a character's ability to withstand persuasion, intimidation, charm or terror. 
 
 #### Advancing Attributes
-Whenever a **PC** uses an attribute in a [test](#tests), the outcome must be noted. This includes skill tests that incorporate the attribute. This effectively means that a skill test also advances the skill's associated attribute. See also: [Tests Bring about Learning](#tests-bring-about-learning)
+Whenever a **PC** [tests](#tests) an [attribute](#attributes) or a [skill](#skills) that depends on it, progress towards advancing the [attribute](#attributes) must be noted. 
 
-Advancing an **attribute** requires:
-* (N + 1) * (N + 1) * 4 **complete successess**.
-* (N + 1) * (N + 1) * 5 **partial successess** or **complete failures**.
+**Attribute** levels and advancement are divided into three tiers: **Underdeveloped**, **Average** and **Exceptional**. 
+* Attributes are considered **underdeveloped** up to and including level 2. 
+* Attributes are considered **average** starting from level 3, up to and including level 5. 
+* Attributes are considered **exceptional** starting from level 6. 
+
+Advancing an **underdeveloped attribute** requires:
+* 15 + (N * 4) [tests](#tests). 
 * Where *N* is the current level of the **attribute**. 
 
-> A character has a [strength](#strength-str) **attribute** at level 3. 
-> 
-> To advance their **attribute** to level 4, they would need (3 + 1) * (3 + 1) * 4 = 64 **complete successes** and (3 + 1) * (3 + 1) * 5 = 80 **partial successess** or **complete failures**
+Advancing an **average attribute** requires:
+* (N + 3) * (N + 2) [tests](#tests). 
+* Where *N* is the current level of the **attribute**. 
+
+Advancing an **exceptional attribute** requires:
+* (N + 4) * (N + 3) [tests](#tests). 
+* Where *N* is the current level of the **attribute**. 
 
 For your convenience, the following table contains the precalculated requirements to advance an **attribute** level. 
 * In the table, 'Level' is the character's *current level* in the **attribute**. 
 * Note it is possible to go past level 10, but you shouldn't hope for it. 
 
-| Level | Successes | Failures |
-| --- | --- | --- |
-| 1   | 16  | 20  |
-| 2   | 36  | 45  |
-| 3   | 64  | 80  |
-| 4   | 100 | 125 |
-| 5   | 144 | 180 |
-| 6   | 196 | 245 |
-| 7   | 256 | 320 |
-| 8   | 324 | 405 |
-| 9   | 400 | 500 |
-| 10  | 484 | 605 |
+| Level | Tests |
+| ----- | ----- |
+| 1     | 19    |
+| 2     | 23    |
+| 3     | 30    |
+| 4     | 42    |
+| 5     | 56    |
+| 6     | 90    |
+| 7     | 110   |
+| 8     | 132   |
+| 9     | 156   |
+| 10    | 182   |
 
-Whenever an attribute advances, its associated successes and failures must each be reset to 0. 
+Whenever an attribute advances (= its level increases), advancement progress must be reset to 0. 
 
 ##### Practicing Attributes
 It is possible to advance attributes *passively*. Whenever a large period of time is spent outside of active adventure, **PC**'s can practice an attribute of choice. 
