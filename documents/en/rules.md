@@ -41,6 +41,10 @@
       - [Base Initiative](#base-initiative)
     - [Skills](#skills)
       - [Skill Abilities](#skill-abilities)
+        - [Targeting-Types](#targeting-types)
+          - [Single Target (ST)](#single-target-st)
+          - [Multiple Single Target (MST)](#multiple-single-target-mst)
+          - [Area of Effect (AoE)](#area-of-effect-aoe)
       - [Skill Forking](#skill-forking)
       - [Learning Skills](#learning-skills)
       - [Advancing Skills](#advancing-skills)
@@ -82,6 +86,7 @@
     - [Damage Resistances](#damage-resistances)
     - [Boons \& Penalties](#boons--penalties)
   - [Assets](#assets)
+    - [Bulk](#bulk)
     - [Worn \& Equipped](#worn--equipped)
     - [Luggage](#luggage)
       - [Carrying Capacity](#carrying-capacity)
@@ -113,33 +118,35 @@
   - [Major Fate Points](#major-fate-points)
   - [Ambition Fate Points](#ambition-fate-points)
   - [Hand of Fate](#hand-of-fate)
-- [Down-Time](#down-time)
-  - [Travel](#travel)
-  - [Crafting](#crafting)
-    - [Crafting Time Chart](#crafting-time-chart)
-  - [Trade](#trade)
-    - [Seller's Chart](#sellers-chart)
-    - [Buyer's Chart](#buyers-chart)
-  - [Recovery](#recovery)
-  - [Training](#training)
-- [Scenario-Time](#scenario-time)
+- [Time-Management](#time-management)
   - [Initiative](#initiative)
-  - [Combat](#combat)
-    - [Action Points (AP)](#action-points-ap)
-      - [Action Point Saving](#action-point-saving)
-      - [Combat Movement](#combat-movement)
-    - [Attacking](#attacking)
-      - [Attack-Targeting-Types](#attack-targeting-types)
-        - [Single-Target Attack](#single-target-attack)
-        - [Multiple Single-Target Attack](#multiple-single-target-attack)
-        - [Area of Effect Attack](#area-of-effect-attack)
-      - [Special Types of Attack](#special-types-of-attack)
-        - [Aimed Attack](#aimed-attack)
-        - [Difficult Attack](#difficult-attack)
-        - [Easy Attack](#easy-attack)
-        - [Execution Attack](#execution-attack)
-      - [Dealing Damage](#dealing-damage)
-    - [Defending](#defending)
+    - [Surprise Round](#surprise-round)
+  - [Down-Time](#down-time)
+    - [Travel](#travel)
+    - [Crafting](#crafting)
+      - [Crafting Time Chart](#crafting-time-chart)
+    - [Trade](#trade)
+      - [Seller's Chart](#sellers-chart)
+    - [Buyer's Chart](#buyers-chart)
+    - [Recovery](#recovery)
+    - [Training](#training)
+  - [Scenario-Time](#scenario-time)
+- [Combat](#combat)
+  - [Action Points (AP)](#action-points-ap)
+    - [Action Point Saving](#action-point-saving)
+  - [Combat Movement](#combat-movement)
+  - [Attacking](#attacking)
+    - [Damage](#damage)
+    - [Attack Modifiers](#attack-modifiers)
+      - [Aimed Attack](#aimed-attack)
+      - [Easy Attack](#easy-attack)
+      - [Execution Attack](#execution-attack)
+  - [Defending](#defending)
+    - [Cover](#cover)
+  - [Throwing](#throwing)
+    - [Throwing-Distance](#throwing-distance)
+    - [Throwing-Accuracy](#throwing-accuracy)
+    - [Throwing-Damage](#throwing-damage)
 - [Magic](#magic)
   - [Testing Magic](#testing-magic)
     - [Magic Stamina](#magic-stamina)
@@ -199,8 +206,8 @@
       - [Sailing (Str)](#sailing-str)
       - [Shield (End)](#shield-end)
       - [Tactics (Str)](#tactics-str)
+      - [Throwing (Agi)](#throwing-agi)
       - [Weapon \< weapon type \> (Str)](#weapon--weapon-type--str)
-      - [Weapon-Throwing \< weapon type \> (Agi)](#weapon-throwing--weapon-type--agi)
     - [Social Skills](#social-skills)
       - [Animal Handling (Emp)](#animal-handling-emp)
       - [Commanding (Will)](#commanding-will)
@@ -258,7 +265,6 @@
     - [Soul-Binding \[Int\]](#soul-binding-int)
     - [Telekinesis \[Int\]](#telekinesis-int)
     - [Telepathy \[Ora\]](#telepathy-ora)
-    - [Counter-Magic \[End\]](#counter-magic-end)
   - [List of Injuries](#list-of-injuries)
     - [Type Specific Injuries](#type-specific-injuries)
   - [List of Illnesses](#list-of-illnesses)
@@ -613,6 +619,8 @@ The **base initiative** of a character is **not an attribute** in the pure sense
 
 > A character with a **perception** of 3, **intelligence** of 4 and **empathy** of 5, has a **base initiative** of 12. 
 
+See also [initiative](#initiative). 
+
 ### Skills
 A **skill** is any acquired knowledge and experience regarding a specific subject. 
 
@@ -623,11 +631,43 @@ When [testing](#tests) a **skill**, add half of the related [attribute](#attribu
 **Skills** [advance](#advancing-skills), as they're tested. It is also possible to [practice](#practicing-skills) and [teach](#teaching-skills) **skills**. 
 
 #### Skill Abilities
-Some skills have a list of **skill abilities** that a character unlocks, if they reach a certain level in that **skill**. A **skill ability** has one or more effects and one or more conditions that restrict when they're applicable. As such, **skill abilities** are only available to characters with a certain degree of *specialization*. 
+Skills can be the *owner* of **skill abilities** associated with them. A **skill ability** is either a *passive* [boon](#boons--penalties) or an *active* **action**, with effects that apply when used.  
 
-A **skill ability** can be a *passive* [boon](#boons--penalties) or an *active* choice, like a special type of attack or tool for use in social conflict resolution. 
+Every **skill ability** can have the following properties:
+* A **required level** at which they unlock. This is the level of their *owning* **skill**. 
+  * A **skill ability** may only be used, if the character has the *owning* **skill** with at least this level. 
+  * A **skill ability** noting level 0 or no level at all, can be used right away, even without any levels in the *owning* **skill**. 
+* An [AP](#action-points-ap) cost. 
+  * During [combat](#combat) how often **skill abilities** may be used is restricted by how much a character can do in a single **turn**. 
+  * A cost of 0 implies the use of the **skill ability** is free and can potentially be repeated multiple times in a single **turn**. 
+* A **condition** which restricts when and how often they can be used. 
+  * Some **skill abilities** can only be used as a *reaction* to another character's **action**. 
+  * Some **skill abilities** can only be used once per scenario, once per day or only when other specific circumstances align. 
+* An **Ob**. 
+  * When an **Ob** is noted, the *owning* skill must be [tested](#tests) at this **Ob**. It is also possible that instead of a fixed **Ob**, a dynamic number is used. For example, whenever an [opposed test](#opposed-test) is required. In case of an [opposed test](#opposed-test), the opposing **skill** will also be noted. The opposing character must use that **skill** to oppose the use of this **skill ability**. In some cases, the opposing character may abstain from resisting. 
+  * A **skill ability** without a noted **Ob** does *not* require a [test](#tests) to be made. 
+* A [targeting-type](#targeting-types). 
+  * This restricts how many targets may be affected at once by a **skill ability**'s use. 
+* A **maximum distance** at which it may apply to targets. 
+* One or more **damage** values of a specified [type](#damage-types). 
+  * When successfully used, damage can be applied to the [HP](#hit-points-hp) of one or more targets. 
+  * Damage can be noted either as a *flat* value, or a formula, which may involve dice rolls for variable damage. E. g. "3D3 + 5". 
 
 Using a **skill ability** counts as an **action**. 
+
+[Weapon skills](#weapon--weapon-type--str) use **skill abilities** to denote the ways one can attack with them. 
+
+##### Targeting-Types
+The number of targets that a [skill ability](#skill-abilities) can apply to, with a single use, is defined through the **targeting-types**. 
+
+###### Single Target (ST)
+A **single-target** (**ST**) action affects only a single target. 
+
+###### Multiple Single Target (MST)
+A **single-target** (**ST**) action affects up to a maximum number of targets. 
+
+###### Area of Effect (AoE)
+**Area of Effect** (**aoe**) actions affect *every* target that is in the area of effect. 
 
 #### Skill Forking
 For every **skill** a character knows (= is not currently still learning), and they are currently testing a **skill** that is thematically related, they can **fork** that **skill** into their test, granting them **+1D6** for their [test](#tests). 
@@ -1052,6 +1092,11 @@ A character may have things on their person, such as worn equipment and luggage,
 
 Collectively, these things are referred to as their **assets**. 
 
+### Bulk
+Every non-static asset (= any object that can reasonably be picked up) has a **bulk** associated with it. This value determines how easy to handle the asset is.
+
+A lower bulk means an easier to handle asset. 
+
 ### Worn & Equipped
 Every character can have **assets** they wear or carry on person. These things do not factor into their used [carrying capacity](#carrying-capacity) and are listed on their character sheet in a separate section. Every asset on person has to be placed in a so called **asset slot**. 
 
@@ -1351,17 +1396,54 @@ There are no limits to how many of a given card a player can own, but they may o
 | 1 AFP   | Defy Death         | Leap from [death's door](#deaths-door), remove 1 **active** [injury](#injury) of choice and be at 1 **HP**; Alternatively, avoid a narratively-driven death. The **GM** will decide the character's alternative fate. They could be captured, very badly injured or become indebted to someone or something. |
 | 1 AFP   | Yes, my liege      | Work with your **GM** to create a follower/hireling who will now be at your command/employ. |
 
-# Down-Time
+# Time-Management
+The speed at which time flows, in-game, is variable and depends on the current circumstances of the narrative. 
+
+There are two broad disctinctions of time-flow made: 
+* [Down-time](#down-time) has time flowing very rapidly, as events unfold on a fairly abstract level. 
+* [scenario-time](#scenario-time) has time flowing very slowly, sometimes even on a second-by-second basis, as the way events unfold must be carefully considered. 
+
+There will be times when the order in which characters act matters. For this, see the [initiative](#initiative) section. Most often, though, **PC**s will act at irregular times, depending on circumstance. 
+
+## Initiative
+When the order in which characters act matters, rolls for **initiative** are needed. **Initiative** is the number that determines when a character should get a chance to act. 
+
+The **initiative** of all involved parties is collected and sorted, which forms the so called **initiative order**. The first character in the **initiative order** gets to act first, then the character after them gets to act and so on. Higher **initiative** allows for an earlier turn. 
+
+The steps to determine the **initiatve order** are as follows: 
+1. Every character who rolls for **initiative**, must do so with a **D10**. 
+2. They add their [base initiative](#base-initiative) to the number they rolled. 
+3. If two characters achieve the same number, they must each roll a **D10** again, until one of the numbers is higher. The character with the higher number gets to act before the other. 
+4. The result, is their place in the **initiative order**.
+5. A higher **initiative** results in an earlier **turn** while lower **initiative** results in a later **turn**. 
+
+The point in time when a character gets to act (or abstain from their action) is called their **turn**. When all characters have had their **turn**, a **round** is concluded. After that, the first person in the **initiative order** gets to act again and a new **round** is begun. This cycle continues, until **initiative order** is no longer needed. 
+
+A character can abstain from their action willingly. They get a final chance to act at the end of the **round**. They can abstain from that action, too, which ends the **round** for them. Then, in the next **round**, their time to act is back to what the **initiative order** dictates. If multiple characters abstain from their action, they'll get another chance at the end of a **round**, in the same order they normally would have. In other words, the last character to abstain from their action is the last person to get another chance at the end of a **round**. 
+
+Most prominently, **initiative order** is used during [combat](#combat). But it could also find application during other times, such as a chase-sequence, negotiations, or during [down-time](#down-time). **Initiative** could even be used on a more abstract level, to determine in what order characters get to try out their political schemes. The concrete instances when **initiative** is to be used, will be up to the **GM** to decide. 
+
+### Surprise Round
+If one party is surprised, for example during an ambush, then the ambushing party gets to act for a full **round**, without the ambushed party getting a chance to act. This is called a **surprise round**. After the **surprise round** **initiative** is handled as normal. 
+
+To determine whether a **round** is a **surprise round**, proceed with the following steps:
+1. Determine **awareness** with [perception](#perception-perc) rolls. 
+   1. The **Ob** to use is up to circumstance. When choosing the **Ob**, keep in mind that pure [attribute](#attributes) rolls cannot be forked! Even just **Ob** 3 would be a difficult to succeed [test](#tests). 
+2. If no one in the surprised party could clearly see, hear or perhaps even smell the fight coming and none of them succeeded their **awareness** test, they are considered **surprised**.
+
+> **Surprise round** does not apply to opponents standing right in front of each other in conversation, when one of them suddenly draws a dagger and attacks. The attacker can be clearly seen by the defender (assuming they can see) and thus does not result in a **surprise round**. Of course, the specifics are always up to the scenario at hand and to the **GM**'s ruling. 
+
+## Down-Time
 When not currently dealing with events on a detailed level - there and in the moment - **PC**'s can spend their time on a more abstract level. This applies especially to activities that take greater amounts of time, such as recovering from injuries, travel, engaging in their trade, honing their [skill](#skills) and so on. 
 
-## Travel
+### Travel
 People travel around the world all the time, for the most diverse reasons. Be they a trade caravan on the move between cities, a pilgrim on the way to a holy site, a craftsman going to town to sell their crafts, a roaming mercenary or a mother visiting their children - everyone has to spend time, travelling. 
 
 How much time it takes, exactly, to get from *A* to *B*, depends heavily on the *distance* to and the *means* of travel. If horses are the fastest means of transportation, expect to be travelling across countries for days if not weeks. But if teleportation magic makes travel a trivial issue, then you might not even need to consider it, at all. These details are strongly tied to your **GM**'s world, so they'll ultimately be the one to determine your travel times. 
 
 If there is a world map, the **GM** could overlay it with tiles of squares or hexagons, which may help with determining distance. If your group desires, you could even play it so that your characters only travel from tile to tile. Moving from one tile to another may then always take a set time, unless faster means of travel are available. That way, travel would be simplified and abstract. But discuss with your group, whether you want to play it this way. Travel may also provide interesting opportunities for role-playing and *conflicts*. The abstract level draws attention away from these opportunities. 
 
-## Crafting
+### Crafting
 All [craftsmanship skills](#craftsmanship) require a time investment proportional to the *quality* and *complexity* of the desired product, as well as the innate *effort* required to create it. 
 
 Making use of a [craftsmanship skill](#craftsmanship) to create something requires a [graduated test](#graduated-test) be made. The number of dice in play dictate both the time required and the maximum achievable quality. Each [skill](#skills) in question notes how much time one die "costs". It is possible to roll with fewer dice, than would be available for the [graduated test](#graduated-test). [Forked skills](#skill-forking) can also provide a die each, but note that *every* die, including those from [forked skills](#skill-forking), increase the time required. The number of **positives** and **negatives** achieved has no effect on the time taken. Merely the *number* of dice that were rolled matters. 
@@ -1376,7 +1458,7 @@ Depending on how easy to acquire the materials are, you may act on a more abstra
 
 > For example, a **PC** might have decided they want to create an elaborately decorated piece of furniture, with bands of gold and colored glass inlays. Even though the [carpentry](#carpentry-agi) skill does not list gold as a material for its product, the **PC** should have to procure the gold, if they are to finish their piece of furniture. 
 
-### Crafting Time Chart
+#### Crafting Time Chart
 The following matrix denotes the time that work will take, based on its inherent *complexity* and *workload*. 
 
 | **Complexity >** <br> **Workload v** | **Low** | **Moderate** | **High** | **Very High** | 
@@ -1390,7 +1472,7 @@ A **very high** complexity requires the work to be done in a highly specialized 
 
 Workload is the result of processes that naturally take a long time, the difficulty in processing materials and the amount of work that has to be done. A **very high** workload will take months to complete, while a **low** workload may be finished in a matter of minutes. 
 
-## Trade
+### Trade
 Selling and buying things can take a surprising amount of time. If prices are too high and demand or reputation too low, chances are, you won't be able to sell your goods. But even when people do show interest in your wares, you still have to *sell it* to them. An uncharismatic merchant will have a difficult time making a pretty profit, regardless of the quality of their goods. On the other hand, buying things may prove equally difficult, when what you're looking for isn't really available. 
 
 For trade, there is really only one [skill](#skills) - the [mercantilism](#mercantilism-ora) skill. Using this [skill](#skills) requires a [graduated test](#graduated-test) with an **Ob** threshold to be made. The **degree of success** factors into getting a better price.
@@ -1401,7 +1483,7 @@ It is possible to roll with fewer dice, than would be available for the [graduat
 
 To get an ear on the ground and figure out what the local market is like, a character can spend 8 hours to walk around, talk to people, ask for prices of common goods and get a feel for the wealth of the local populace. 
 
-### Seller's Chart
+#### Seller's Chart
 The following matrix provides an overview of how long it may take to sell things on the market. Note that the **GM** has the final say on how long it will actually take and on how difficult it will be. 
 
 Denoted are both the time it takes to get a chance at a [mercantilism](#mercantilism-ora) [test](#tests), what the **Ob** threshold is and what margins can be expected. The margins are relative to the goods' *listing price* or *normal* value. 200% means the goods can be sold at twice what they're worth. 
@@ -1427,114 +1509,95 @@ The supply is assumed to be relative to the demand. The more something is in dem
 | **High**      | 6 Days <br> Ob 2 <br> 110%     | 8 Hours <br> Ob 3 <br> 120%  | 10 Hours <br> Ob 4 <br> 130%  | 12 Hours <br> Ob 5 <br> 140% | 
 | **Very High** | 30 Minutes <br> Ob 3 <br> 140% | 1 Hour  <br> Ob 4 <br> 160%  | 2 Hours <br> Ob 5 <br> 180%   | 4 Hours <br> Ob 6 <br> 200%  | 
 
-## Recovery
-When [injured](#injury), a character should prepare to spend away from adventure for a while. Since the process of healing up can take several weeks, this time is best handled abstractly and the other **PC**s can spend the same time, going about their business during some time-off from adventure. 
+### Recovery
+When [injured](#injury), a character should prepare to spend time away from adventure for a while. Since the process of healing up can take several weeks, this time is best handled abstractly with the other **PC**s going about their business during the same time. 
 
-## Training
-When not busy with work and adventure, **PC**s may train, either passively improving their [attributes](#practicing-attributes) or [skills](#practicing-skills). This time is best handled abstractly, not playing out the details of the training. 
+### Training
+When not busy with work and adventure, **PC**s may train, in order to passively improve their [attributes](#practicing-attributes) or [skills](#practicing-skills). This time is usually best handled abstractly, by not playing out the details of the training. 
 
-# Scenario-Time
+## Scenario-Time
 In contrast to [down-time], scenario-time describes the point in the narrative when the PCs are dealing with a specific situation on a fine-grained level, where the amount of time that is spent matters. 
 
 This is especially the case in scenarios of [combat](#combat), tense negotiation, risky exploration, survival and the like, where each individual step on the path matters as much as the path itself. 
 
 There is also the distinction to be made whether the order in which characters act in matters. If it does, then the rules for [initiative](#initiative) must be used. [Combat](#combat) is the most prominent example of such a case. 
 
-## Initiative
-When the order that characters act in matters, rolls for **initiative** is needed. **Initiative** is the number that determines when a character should get a chance to act. 
+# Combat
+When diplomacy fails, hostilities ensue. This is when the game enters into a state that is handled very carefully. How time is *sliced* and when characters get to act, is crucial. 
 
-* Every character who rolls for **initiative**, must do so with a **D10**. 
-* They add their [base initiative](#base-initiative) to the number they rolled. 
-* If two characters achieve the same number, they must each roll a **D10** again, until one of the numbers is higher. The character with the higher number gets to act before the other. 
-* The result, is their **initiative** for the entire scenario.
-* A higher **initiative** results in an earlier turn while lower **initiative** results in a later turn. 
+The steps to *prepare* for combat are as follows:
+1. Determine **awareness** with [perception](#perception-perc) rolls. 
+   1. Sometimes, not everyone may be immediately aware of a fight breaking out. This is usually the case when characters cannot clearly see, hear or perhaps even smell a fight breaking out. 
+   2. The **Ob** to use is up to circumstance. When choosing the **Ob**, keep in mind that pure [attribute](#attributes) rolls cannot be [forked](#skill-forking)! Even at just **Ob** 3, a [test](#tests) would be difficult to succeed. 
+2. Determine if there is a [surprise round](#surprise-round). 
+   1. If no one in the party could clearly see, hear or perhaps even smell the fight coming and none of them succeeded their [perception](#perception-perc) [test](#tests), they are considered **surprised**.
+   2. Only the first **round** of combat can be a [surprise round](#surprise-round). 
+3. Determine [Initiative order](#initiative). 
+   1. Before any action during a combat scenario can be taken, [Initiative order](#initiative) must first be determined. 
+   2. This includes *everyone*, not just the active combatants. This way, should anyone join the fight, they're easier to work into the [initiative order](#initiative). Or, if they stay out of the fight, it's easier to determine when they get to act out-of-combat. 
 
-If one party is surprised, for example during an ambush, then the ambushing party gets to act for a full turn, without **initiative** being rolled. This is called a *surprise round*. After the surprise round, **initiative** is rolled as normal. 
+During combat, when a character gets their **turn**, they can choose to perform an action. How many actions they get to perform, depends on the [action points](#action-points-ap) they have available for that turn. Actions are:
+* Attacking
+* Casting magic
+* Moving
+* Speaking
+* Waiting (= abstaining from an action)
 
-> As an example: this does not count for opponents standing right in front of each other in conversation, when one of them suddenly draws a dagger and attacks. The attacker can be clearly seen by the defender and thus does not result in a surprise round, unless of course, if the **GM** rules otherwise. 
+Combat ends, when neither side has the ability or will left to fight. At this point, **initiative order** will oftentimes no longer be needed. 
 
-## Combat
-When diplomacy fails, hostilities ensue. [Initiative](#initiative) determines in what order the combatants act. 
+## Action Points (AP)
+Every **turn**, every character gets 3 **Action Points (AP)** to spend on actions during their **turn**. Some [skills](#skills), [boons and penalties](#boons--penalties) can alter this number. 
 
-### Action Points (AP)
-Every turn, every character gets 3 **Action Points (AP)** to spend on actions during their turn. 
+* Any basic action, that is, any action not requiring a [test](#tests), costs 1 **AP**. 
+  * Speaking or shouting a short phrase is free. If you want to have a proper conversation, that will cost you one or more **AP**, depending on how much you have to say. 
+  * [Basic movement](#combat-movement) counts as a basic action. 
+  * Handing an object over to a character adjacent to you, is a basic action (assuming you don't have to force it on them). 
+* Any action requiring a [test](#tests), costs 2 **AP**. 
+* [Skill abilities](#skill-abilities) can cost varying amounts of **AP**. The exact number will be noted on the [skill ability](#skill-abilities) in question. 
 
-Any basic action, so any action not requiring a test, costs 1 **AP**. Any action requiring a test, costs 2 **AP**. [Skill abilities](#skill-abilities) can cost varying amounts of **AP**. 
+### Action Point Saving
+If a character ends their **turn** with any **AP** unspent, those **AP** will be saved up and be available as additional **AP** at the start of their next **turn**. 
 
-Speaking or shouting a short phrase is free. If you want to have a proper conversation, that will have to take multiple rounds. 
+Until the start of their next **turn**, they can keep up to 5 **AP**, which they can use for [active defense](#defending) during other character turns. 
 
-#### Action Point Saving
-If the turn is ended with any **AP** unspent, they can either be saved up, or spent on improving the character's [melee defence](#melee-defence-agi) and [ranged defence](#ranged-defence-agi), as **+1D6** per **AP**. 
+At the start of their next **turn**, only up to 2 of the saved **AP** transfer to this next **turn**. This means a character can normally start their next **turn** with at most 5 **AP**. 
 
-Only up to 5 **AP** may be saved up this way. It may be possible to go past this limit via some [skill abilities](#skill-abilities) or [boons](#boons--penalties). 
+It may be possible to go past this limit via some [skill abilities](#skill-abilities) or [boons](#boons--penalties). 
 
-#### Combat Movement
+> Assuming a character has 4 unspent **AP** at the end of their **turn**, and they are attacked, they can use one of those **AP** to actively defend themselves. This costs them 1 **AP**, meaning they still have 3 unspent **AP**. 
+>
+> At the start of their next **turn**, they get to keep 2 of those unspent **AP** and are forced to discard the other 1 **AP**. Thus, they begin their turn with 5 **AP** available to them. 
+
+## Combat Movement
 A character can move up to **12'/4m** (= 4 fields on a grid) per **AP** spent. In **difficult terrain**, the distance moved per **AP** is half that, at **6'/2m** (= 2 fields on a grid). 
 
-### Attacking
-Attacks are made using a [weapon skill](#weapon--weapon-type--str), [magic-school skill](#magic-school--school---attribute-) or a **skill-ability**. 
+**Difficult terrain** is any space that slows movement, but does not prevent it outright. Examples would be waist-high water, a surface of glue or a slowing force field. 
 
-[Unarmed combat](#unarmed) is handled like a weapon skill. 
+## Attacking
+Attacks are made using a [skill ability](#skill-abilities) of a [weapon](#weapon--weapon-type--str), [magic-school](#magic-school--school---attribute-), the [unarmed](#unarmed) or [throwing](#throwing-agi) [skill](#skills). 
 
-#### Attack-Targeting-Types
-There are the following types of **attack-targeting-types**:
-* **Single-target** (**ST**)
-* **multiple single-target** (**MST**)
-* **area of effect** (**AOE**)
+An attack generally requires an [opposed test](#opposed-test) to be made. If the attacker wins, the full [damage](#damage) is applied to the defender. 
 
-##### Single-Target Attack
-Any **single-target** attack can be dodged or defended against. To do so, an [opposed test](#opposed-test) is made. If the defender wins no damage is dealt. 
+In case of an [aoe](#area-of-effect-aoe) attack, a defender may be able to halve the [damage](#damage) (rounded up), if they win the [opposed test](#opposed-test). 
 
-Against melee attacks, the defender must [test](#tests) their [melee defence](#melee-defence-agi). 
+### Damage
+Damage dealt to an opponent reduces their **HP**. When their **HP** reaches 0, they suffer an [injury](#injury) and their HP is reset to their new maximum. To determine the new maximum, see the [injury](#injury) section. 
 
-Against ranged attacks, the defender must [test](#tests) their [ranged defence](#ranged-defence-agi).
+If more damage is dealt, than the difference to 0, that damage is also dealt. Damage isn't lost - it overflows into the next **HP** *segment*. 
 
-##### Multiple Single-Target Attack
-A **multiple single-target attack** behaves just like a [single-target attack](#single-target-attack), with the difference that multiple targets may be affected with the same action. 
+What type of [injury](#injury) is dealt, also depends on the [damage type](#damage-types). 
 
-##### Area of Effect Attack
-**Area of Effect** (**aoe**) attacks can only be dodged or defended against under certain conditions. 
+### Attack Modifiers
+Sometimes, special circumstances apply, which make certain attacks easier or harder to land. 
 
-If the **aoe** attack is magical and would affect a mage, that defending mage can choose to use their skill [counter-magic](#counter-magic), to try and counter the attack. If they choose to counter the spell, an [opposed test](#opposed-test) must be made. If the defender wins no damage is dealt. 
-
-The defending mage incurs the same stamina cost as the attacker, when they cast the spell. However, every degree of success of the defender reduces their [magic stamina](#magic-stamina) cost by one. 
-
-> A mage casts [pyromancy](#pyromancy) at another, at intensity level 6. That incurs the attacker a [magic stamina](#magic-stamina) cost of 6. 
-> 
-> The defender chooses to use their [counter-magic](#counter-magic). Now, an opposed test must be made. 
-> 
-> The attacker has an [arcana](#arcana-arc) of 5 and [pyromancy](#pyromancy) skill level of 6. They get to roll **8D6**. 
-> 
-> The defender has an [arcana](#arcana-arc) of 4 and [counter-magic](#counter-magic) skill of 5. They get to roll **7D6**. 
-> 
-> The defender achieves 4 **positives**, whereas the attacker only achieves 3 **positives**. That means, that the attack spell fails. The degree of success is 1, which reduces the [magic stamina](#magic-stamina) cost of the defender by 1. Thus, they incur a [magic stamina](#magic-stamina) cost of 5.  
-
-It is only possible to use [counter-magic](#counter-magic), if the defender has at least one [magic stamina](#magic-stamina) left. 
-
-If the **aoe** attack is of a non-magical nature, it may only be possible to dodge or defend against, if the **GM** allows for it. 
-
-> A thrown bomb may perhaps be caught and thrown back at the attacker. But a cannon shot cannot be warded off. 
-
-If there is no way to reasonably dodge or defend against the **aoe** attack, its damage is rolled right away. 
-
-#### Special Types of Attack
-Sometimes, simply *hitting it* isn't enough. Sometimes, more control is needed. These rules outline how a character can do more specific attacks. 
-
-##### Aimed Attack
+#### Aimed Attack
 An attack generally targets the center of mass (torso) of the targeted opponent. 
 
 It is, however, possible to call out wanting to attack a specific part of an opponent's body. Generally, this means that the attack must be rolled at greater **Ob**. However, the **GM** can also decide the part being targeted is fairly easy to hit, either generally or due to current circumstance, so no disadvantage is incurred. 
 
 A player may call out what effect the aimed attack is supposed to have, such as limiting their opponent's ability to stand, move, attack or whatever else the body part may be useful for. If they don't, the **GM** decides the effect. 
 
-##### Difficult Attack
-There may be attacks that are more difficult to perform, due to current circumstance. Such attack rolls are penalized with a higher **Ob**. 
-
-An example for a *difficult attack* would be targeting an opponent with a ranged weapon when the opponent is behind cover. 
-
-Another example would be attacking backwards, at an invisible target or with a broken arm, and so on.
-
-##### Easy Attack
+#### Easy Attack
 Some attacks may be easier to perform. An **easy attack** has a lower **Ob**.
 
 The following are generally considered easy attacks (but at the **GM**'s discretion):
@@ -1542,8 +1605,8 @@ The following are generally considered easy attacks (but at the **GM**'s discret
 * Against prone opponents
 * Against restrained opponents
 
-##### Execution Attack
-The extreme version of an easy attack, the **execution attack** allows outright killing or maiming an opponent, without having to roll for an attack or for damage. 
+#### Execution Attack
+The extreme version of an easy attack, the **execution attack** allows outright killing or maiming an opponent, without having to roll for an attack or for [damage](#damage). 
 
 Such an attack can be carried out against any character who is unable to resist (with the exception of player characters, see [death's door](#deaths-door)). 
 
@@ -1551,27 +1614,84 @@ Such an attack can be carried out against any character who is unable to resist 
 
 This kind of attack is only possible at the **GM**'s discretion. 
 
-#### Dealing Damage
-Damage dealt to an opponent reduces their **HP**. When their **HP** reaches 0, they suffer an [injury](#injury) and their HP is reset to their new maximum. To determine the new maximum, see the [injury](#injury) section. 
+## Defending
+There are two types of defense:
+* **Active defense**: Costs 1 [AP](#action-points-ap) and uses all available dice for the [test](#tests). 
+  * This defense can only happen as a *reaction* and a deliberate choice, during another character's turn. 
+  * **Stunts** are possible. 
+* **Passive defense**: Does not cost any [AP](#action-points-ap), but uses only half (rounded down) of the available dice for the [test](#tests).
+  * This defense happens automatically, if no **active defense** is attempted. 
+  * This defense can *not* be used against attacks that cost more than 1 [AP](#action-points-ap) to defend against. 
+  * **Stunts** are *not* possible. 
 
-If more damage is dealt, than the difference to 0, that damage is also dealt. Damage isn't lost - it overflows into the next **HP** *segment*. 
+To defend, an [opposed test](#opposed-test) must be made. If successful, the attack is negated, entirely. Depending on the defense skill in question ([melee defense](#melee-defence-agi) or [ranged defence](#ranged-defence-agi)), the [degree of success](#graduated-test) may allow additional effects (called **stunts**) to happen. But if the attacker wins, they get to roll for and apply [damage](#damage) to the defender. 
 
-What type of [injury](#injury) is dealt, also depends on the [damage type](#damage-types). 
+Defending against [area of effect](#area-of-effect) attacks is *only* possible as a **passive defense** and can *not* negate the attack. It can only halve (rounded up) its [damage](#damage). 
 
-### Defending
-Defending against [single-target attacks](#single-target-attack) costs 1 [AP](#action-points-ap). If not enough [AP](#action-points-ap) are available, defense is impossible. Some attacks may cost more than 1 [AP](#action-points-ap) to defend against. If so, this should be stated on the attack in question. 
+It is possible to negate a magical attack entirely, by using the same school of magic skill and achieving more positives, than the attacker. The defender has to perform a [test](#testing-magic) as usual, at an **intensity** of choice. The difference is that the defender does not get to use a [skill ability](#skill-abilities) of the magic school in question. This is a purely defensive action, which benefits everyone who might be hit with the spell of the attacker, as no one will be hit, if the defense is successful. 
 
-An [opposed test](#opposed-test) must be made. If successful, the attack is negated, entirely. Depending on the type of defense, the [degree of success](#graduated-test) may allow additional effects to occur. See [melee defence](#melee-defence-agi) and [ranged defence](#ranged-defence-agi). If the attacker wins, they get to roll for and apply damage. 
+If the defense fails, the full [damage](#damage) is applied. If the defense attempt causes a [spell-backfire](#spell-backfire) on the defender, they suffer the attacker's spell at one greater intensity level. 
 
-Defending against [area of effect attacks](#area-of-effect-attack) is either impossible or an active choice, as a reaction. <br>
-It is possible to defend against a magical **aoe** attack, by using the [counter-magic](#counter-magic) skill. If successful, the attack is negated entirely. 
+### Cover
+It is possible for characters to hide behind stationary things to make it harder to hit them. This mostly applies to ranged combat, but may also find use in melee, depending on circumstance. 
+
+There are two categories of cover: 
+* **Low cover**: +1 **Ob** against a target that is behind low cover. 
+  * Low cover is any static object to hide behind that doesn't fully cover the body, like a tree stump or low wall. 
+* **High cover**: +2 **Ob** against a target that is behind high cover. 
+  * High cover is any static object to hide behind that fully covers the body, like a tall wall or large boulder. 
+
+## Throwing
+Throwing things is a special type of action, that follows the rules outlined below. 
+
+### Throwing-Distance
+**The maximum distance** something can be thrown is determined by the object's [bulk](#bulk) and the character's [strength](#strength-str):
+* For every point in [strength](#strength-str), an object can be thrown an additional **15'/5m**. 
+* For every point in bulk past 1, the [strength](#strength-str) value for throwing is reduced by 1. 
+
+The steps to determine **distance** to throw are as follows:
+1. Reduce the object's [bulk](#bulk) by 1. 
+2. Reduce [strength](#strength-str) by the remaining [bulk](#bulk). 
+3. Multiply by 15'/5m. 
+
+> A character with [strength](#strength-str) 1 can throw an object of [bulk](#bulk) 1 up to 15'/5m and cannot throw an object of bulk 2 or higher, at all. 
+> 
+> A character with [strength](#strength-str) 5 can throw an object of [bulk](#bulk) 1 up to 75'/25m and an object of [bulk](#bulk) 3 up to 45'/15m. 
+
+### Throwing-Accuracy
+How likely the object is to impact where intended is determined by the object's [bulk](#bulk), the distance to throw and the character's skill in the [throwing](#throwing-agi) skill.
+* For every **15'/5m** interval, the **Ob** increases by 1. 
+  * That means up to 15'/5m is **Ob** 1. Starting at 18'/6m, up to and including 30'/10m it's **Ob** 2. Starting at 33'/11m, it's **Ob** 3, and so on.
+
+The steps to determine **Ob** to throw are as follows:
+1. Divide distance to throw by 15'/5m.
+2. Round up.
+
+> A character with [agility](#agility-agi) 1 must succeed a test at **Ob** 1 for a distance of 15'/5m. They must succeed a test at **Ob** 2 for a distance of 18'/6m and a test at **Ob** 3 for a distance of 33'/11m. 
+
+In case of an unsuccessful throw, the object lands only near the intended spot, instead of on it. In order to determine where a missed throw lands, roll a **D8**. A 1 designates the object landed north-west of the intended spot. Then, going clock-wise, a 2 would designate north, 3 north-east and so on. 
+
+Note, that in case a spot determined this way would be farther than the character can throw, you must correct the distance by moving it closer towards the character that threw the object, until it is within their allowed distance. 
+
+For your convenience, you can refer to the following chart: 
+
+<img src="../../img/miss-chart.png" width="384px" height="384px"></img>
+
+### Throwing-Damage
+If throwing a weapon that isn't specifically made or especially suitable to throwing, then the damage that is dealt on successful hit is halved (rounded down). 
+
+When throwing non-weapons, the damage dealt is calculated the following way: [strength](#strength-str) * [bulk](#bulk)
+
+The [damage type](#damage-types) to use, depends on the type of object and how it hits the target. For most non-weapons, **bludgeoning** will be appropriate. 
+
+> A character with [strength](#strength-str) 5, throwing a [bulk](#bulk) 3 object, can deal 5 * 3 = 15 points of damage. 
 
 # Magic
 Any character with [arcana](#arcana-arc), can cast magic. What kind of magic, depends on the [magic schools](#list-of-magic-schools) the character knows. 
 
 While not all magic can be used offensively, that which can, will inflict [damage](#health--exhaustion), proportional to the [spell's intensity](#spell-intensity) and may cause other effects on those affected by it. 
 
-The effects of a magic spell do not affect the mage casting it, unless if they suffer a [spell-backfire](#spell-backfire) or if it is an [aoe](#area-of-effect-attack) spell and they're standing in the **aoe** or if the description of the spell defines that it can. 
+The effects of a magic spell do not affect the mage casting it, unless if they suffer a [spell-backfire](#spell-backfire) or if it is an [aoe](#area-of-effect-aoe) spell and they're standing in the **aoe** or if the description of the spell defines that it can. 
 
 A *magic spell* is the intended effect of using a [magic school skill](#magic-school--school---attribute-). This is also referred to as *casting magic*, *casting a spell* or other similar wordings. 
 
@@ -1600,14 +1720,16 @@ Mechanically speaking, every mage has two values to track: their **maximum magic
 
 The **maximum magic stamina** of a mage is derived from the sum of their [arcana](#arcana-arc) attribute and the levels of all their known [magic school skills](#magic-school--school---attribute-), divided by two and rounded up. 
 
-> If a mage has an **arcana** of 3 and has the **magic school skills** **pyromancy** at level 3, **cryomancy** at level 2 and **counter-magic** at level 5, that means they have (3 + 3 + 2 + 5) / 2 = 7 **maximum magic stamina**. 
+> If a mage has an **arcana** of 3 and has the **magic school skills** **pyromancy** at level 3, **cryomancy** at level 2 and **illusion** at level 5, that means they have (3 + 3 + 2 + 5) / 2 = 7 **maximum magic stamina**. 
 
 The **current magic stamina** can not be less than 0 or more than their **maximum magic stamina**. Every time a mage casts a spell, there is a chance they will incur a **magic stamina** cost. For every **negative** they roll, they lose 1 point of **magic stamina**. 
 
 Once spent, **magic stamina** can only be regained through **active rest or meditation**. For every **half hour** spent in *active rest or meditation*, a mage regains 1 **magic stamina**. Active rest or meditation implies not engaging in any physical or mental strains. If in doubt - if you have to do a test for it, it's probably a strain. 
 
 ### Spell-Backfire
-A **spell-backfire** causes a spell to affect the caster, instead of their intended target. The mage suffers the full effect of the spell. In case of an [aoe](#area-of-effect-attack) attack spell, anyone or anything nearby the mage, in range, is also affected, unless if they successfully [counter-magic](#counter-magic) it. 
+A **spell-backfire** causes a spell to affect the caster, instead of their intended target. The mage suffers the full effect of the spell. In case of an [aoe](#area-of-effect-aoe) attack spell, anyone or anything nearby the mage, in range, is also affected. 
+
+It is possible for another nearby mage to prevent the **spell-backfire**, if they [defend](#defending) against it. This also applies even if the spell effect wouldn't affect them. If the other mage's attempt to negate the spell *also* **backfires**, then both of the mages suffer the effect and the other mage suffers it at one greater intensity level. 
 
 A **spell-backfire** occurs in the following two cases: 
 1. The [magic school skill test](#testing-magic) is **not** a **complete success**. 
@@ -1781,6 +1903,9 @@ Weapons can have the following **properties**:
 * **Ambersteel-Lined**: Bonus damage against mages and magical creatures: **+1** for every quality level. **+1D4** for every two **quality levels**, starting at level 1.
 * **Ambersteel-Plated**: Bonus damage against mages and magical creatures: **+1** for every quality level. **+1D6** for every two **quality levels**, starting at level 1.
 * **Ambersteel-Forged**: Bonus damage against mages and magical creatures: **+2** for every quality level. **+1D8** for every two **quality levels**, starting at level 1.
+* **Slow Reload**: Reloading the weapon costs 1 [AP](#action-points-ap).
+* **Very Slow Reload**: Reloading the weapon costs 2 [AP](#action-points-ap).
+* **Ranged (throwable: < attack name >)**: No damage penalty is incurred when throwing this type of weapon. The damage formula for the given attack is to be used on hit. 
 
 > An ambersteel-lined weapon at quality level 3 would have +(3 + **2D4**) damage against mages and magical creatures. 
 
@@ -1799,13 +1924,13 @@ Sometimes, your own body is your greatest weapon. Fists and feet can cause a sur
 | ----- | ------- | ----------------------- | -- | --------------------- | ------ |
 | 0     | Opposed by **Melee Defence** | Punch, kick, headbutt   | 2  | **Str** + 2 **Bludgeoning** | / |
 | 1     | Opposed by **Unarmed** | Grapple | 2  | / | Requires a successful opposed **unarmed** test. If **completely successful**, the target is unable to move and suffers **-1D** to their defense tests, for as long as they're grappled. Someone grappled can attempt to break free with an opposed **unarmed** test, on their turn. |
-| 2     | Opposed by **Unarmed** | Wrestle and Disarm |  | Perform a single target attack against a designated enemy. If you win, you disarm them and could wrestle them to the ground, making them [prone](#prone), if you so choose. | Disarm only if enemy is using detachable weapon. |
+| 2     | Opposed by **Unarmed** | Wrestle and Disarm |  | Perform a [single target](#single) attack against a designated enemy. If you win, you disarm them and could wrestle them to the ground, making them [prone](#prone), if you so choose. | Disarm only if enemy is using detachable weapon. |
 
 #### Short Blade
 Any short, one-handed blade. Examples: shiv, dagger, Shortsword
 
-* One-handed
 * Melee
+* Ranged (throwable: stab)
 * Bulk: 1
 
 | Skill | **Ob**  | Attack                  | AP | Damage                | Effect |
@@ -1818,7 +1943,6 @@ Any short, one-handed blade. Examples: shiv, dagger, Shortsword
 #### Long Blade
 Any long blade, including long one-handed blades. Examples: arming sword, bastard sword, Longsword
 
-* One-handed or two-handed
 * Melee
 * Bulk: 2
 
@@ -1832,7 +1956,6 @@ Any long blade, including long one-handed blades. Examples: arming sword, bastar
 #### Great Blade
 Any very long, two-handed blade. Examples: sword of war, greatsword, Zweihänder
 
-* Two-handed
 * Melee
 * Long Reach
 * Bulk: 3
@@ -1847,8 +1970,8 @@ Any very long, two-handed blade. Examples: sword of war, greatsword, Zweihänder
 #### Axe
 One-handed axes. Examples: hatchet, dane axe, woodcutter's axe
 
-* One-handed
 * Melee
+* Ranged (throwable: hack)
 * Bulk: 2
 
 | Skill | **Ob**    | Attack                  | AP | Damage                | Effect |
@@ -1859,7 +1982,6 @@ One-handed axes. Examples: hatchet, dane axe, woodcutter's axe
 #### Great Axe
 Two-handed axes. Examples: bearded axe, double-sided axe
 
-* Two-handed
 * Melee
 * Bulk: 3
 
@@ -1872,8 +1994,8 @@ Two-handed axes. Examples: bearded axe, double-sided axe
 #### Spear
 Any one or two-handed short piercing polearms. Examples: short-spear, boar-spear
 
-* One-handed or two-handed
 * Melee
+* Ranged (throwable: stab)
 * Bulk: 2
 * Prefer Range
 
@@ -1885,7 +2007,6 @@ Any one or two-handed short piercing polearms. Examples: short-spear, boar-spear
 #### Lance
 Any one or two-handed long piercing polearms. Examples: pike, lance
 
-* Two-handed
 * Melee
 * Bulk: 4
 * Long Reach
@@ -1899,7 +2020,6 @@ Any one or two-handed long piercing polearms. Examples: pike, lance
 #### Polearm
 Flexible polearms with a focus on slashing. Examples: halberd, bardiche, poleaxe
 
-* Two-handed
 * Melee
 * Bulk: 4
 * Long Reach
@@ -1914,7 +2034,6 @@ Flexible polearms with a focus on slashing. Examples: halberd, bardiche, poleaxe
 #### Club
 Simple, improvised bludgeoning weapons. Examples: wooden club, staff, stick
 
-* One-handed
 * Melee
 * Bulk: 2
 
@@ -1926,7 +2045,6 @@ Simple, improvised bludgeoning weapons. Examples: wooden club, staff, stick
 #### Small Crusher
 One-handed, heavy crushing weapons. Examples: flanged mace, warhammer, flail, morning star
 
-* One-handed
 * Melee
 * Bulk: 2
 
@@ -1937,7 +2055,6 @@ One-handed, heavy crushing weapons. Examples: flanged mace, warhammer, flail, mo
 #### Large Crusher
 Two-handed crushing weapons with a dedicated *impact zone* on the weapon head which directs more force into the target. Examples: grand-mace, polehammer, two-handed flail
 
-* Two-handed
 * Melee
 * Bulk: 3
 
@@ -1949,10 +2066,9 @@ Two-handed crushing weapons with a dedicated *impact zone* on the weapon head wh
 #### Short-Bow
 A short distance ranged weapon, shooting arrows.
 
-* Two-handed
 * Ranged
 * Bulk: 1
-* **Range Only**
+* Range Only
 
 | Skill | **Ob**    | Attack                  | AP | Distance | Damage                | Effect |
 | ----- | --------- | ----------------------- | -- | -------- | --------------------- | ------ |
@@ -1966,10 +2082,9 @@ A short distance ranged weapon, shooting arrows.
 #### Longbow
 A long distance ranged weapon, shooting arrows.
 
-* Two-handed
 * Ranged
 * Bulk: 2
-* **Range Only**
+* Range Only
 
 | Skill | **Ob**    | Attack                  | AP | Distance | Damage                | Effect |
 | ----- | --------- | ----------------------- | -- | -------- | --------------------- | ------ |
@@ -1980,10 +2095,9 @@ A long distance ranged weapon, shooting arrows.
 #### War-Bow
 A very deadly long distance ranged weapon, shooting arrows.
 
-* Two-handed
 * Ranged
 * Bulk: 2
-* **Range Only**
+* Range Only
 
 | Skill | **Ob**    | Attack                  | AP | Distance | Damage                 | Effect |
 | ----- | --------- | ----------------------- | -- | -------- | ---------------------- | ------ |
@@ -1994,10 +2108,10 @@ A very deadly long distance ranged weapon, shooting arrows.
 #### Crossbow
 A deadly medium distance ranged weapon, shooting quarrels.
 
-* Two-handed
 * Ranged
 * Bulk: 2
-* **Prefer Range**
+* Prefer Range
+* Slow Reload
 
 | Skill | **Ob**    | Attack                  | AP | Distance | Damage                | Effect |
 | ----- | --------- | ----------------------- | -- | -------- | --------------------- | ------ |
@@ -2008,16 +2122,16 @@ A deadly medium distance ranged weapon, shooting quarrels.
 #### Firearm
 A very deadly short to medium distance ranged weapon, shooting musket balls that can even penetrate armor.
 
-* Two-handed
 * Ranged
 * Bulk: 2
-* **Prefer Range**
+* Prefer Range
+* Very Slow Reload
 
 | Skill | **Ob**    | Attack                  | AP | Distance | Damage                    | Effect |
 | ----- | --------- | ----------------------- | -- | -------- | ------------------------- | ------ |
 | 0     | Opposed   | Fire                    | 3  | 30'/10m  | **3D6 + 4** **Piercing**  | / |
-| 0     | Opposed+3 | Fire                    | 3  | 60'/20m  | **2D6 + 3** **Piercing**  | / |
-| 0     | Opposed+5 | Fire                    | 3  | 90'/30m  | **2D6 + 2** **Piercing**  | / |
+| 0     | Opposed+1 | Fire                    | 3  | 60'/20m  | **2D6 + 3** **Piercing**  | / |
+| 0     | Opposed+3 | Fire                    | 3  | 90'/30m  | **2D6 + 2** **Piercing**  | / |
 
 ## Lists of Skills
 The following list does not and cannot aim to be a complete listing of all possible skills in game. Adding new skills as necessary will have to be done by the **GM**. 
@@ -2030,8 +2144,8 @@ Performing acrobatic feats, such as jumping and climbing, without injuring onese
 
 | Level | Name                 | AP | **Ob**  | Effect(s)          | Condition(s) |
 | ----- | -------------------- | -- | ------- | ------------------ | ------------ |
-| 3     | Wind Out Of It       | 0  | /       | When hit by a single-target attack, wind out of the hit and suffer only half the damage. | Once per combat. |
-| 4     | Bob, Weave, Jab      | 0  | Opposed | When succeeding a [melee defence](#melee-defence-agi) test, follow up with a single-target attack against the enemy who attacked you. | Succeded a [melee defence](#melee-defence-agi) test. |
+| 3     | Wind Out Of It       | 0  | /       | When hit by a [single-target](#single-target-st) attack, wind out of the hit and suffer only half the damage. | Once per combat. |
+| 4     | Bob, Weave, Jab      | 0  | Opposed | When succeeding a [melee defence](#melee-defence-agi) test, follow up with a [single-target](#single-target-st) attack against the enemy who attacked you. | Succeded a [melee defence](#melee-defence-agi) test. |
 
 #### Berserking (End)
 Whether as a well-honed skill and way of life, or through a disappointing childhood of misery and pain, berserking is a talent for fighting angrily and recklessly. It allows a fighter to keep fighting at surprising strength, even when wounded. 
@@ -2042,7 +2156,7 @@ However, the price for this strength is steep. The chance of death is greatly in
 | ----- | -------------------- | -- | ------- | ------------------ | ------------ |
 | 1     | Reckless Assault     | 2  | /       | Deal an extra **D** of damage on your next successful attack during this turn, according to your weapon's damage. Suffer a **-2D** penalty on all defence tests until the start of your next turn. Cannot convert left-over AP into [melee defence](#melee-defence-agi) or [ranged defence](#ranged-defence-agi).  |  |
 | 2     | Grit Your Teeth      | 0  | /       | Ignore the negative effects of one [injury](#injury) of choice for the rest of the combat encounter. It will still count towards the injury limit, however! | Once per combat. |
-| 3     | Pain is Strength     | 3  | Opposed | Perform a single-target melee attack against an opponent of choice. For every active [injury](#injury) you currently have, deal one extra **D** of damage. You suffer one point of [exhaustion](#exhaustion). | Once per day. |
+| 3     | Pain is Strength     | 3  | Opposed | Perform a [single-target](#single-target-st) melee attack against an opponent of choice. For every active [injury](#injury) you currently have, deal one extra **D** of damage. You suffer one point of [exhaustion](#exhaustion). | Once per day. |
 
 #### Fishing (End)
 The ability to efficiently catch fish. 
@@ -2055,9 +2169,7 @@ The instrument in question must be noted.
 #### Melee Defence (Agi)
 Skill at defending oneself in close-combat. If a test of this skill is successful, the attacker's attack is negated entirely (unless the attack in question states otherwise).
 
-Every attempt to defend oneself costs 1 [AP](#action-points-ap). 
-
-If successful, for every **positive** that you achieve over the attacker, you can choose one of the following effects to happen:
+If you succeed an [active defense](#defending) using this **skill**, then for every **positive** that you achieve over the attacker, you can choose one of the following **stunts**:
 * Disarm your opponent (if they have a detachable weapon). 
 * Displace your opponent. They are forced to stumble backwards by 1m/3' in a direction of your choosing. 
 * Throw your opponent to the ground, making them [proned](#prone). 
@@ -2066,10 +2178,8 @@ If successful, for every **positive** that you achieve over the attacker, you ca
 #### Ranged Defence (Agi)
 Skill at evading projectiles. If a test of this skill is successful, the attacker's attack is negated entirely (unless the attack in question states otherwise).
 
-Every attempt to defend oneself costs 1 [AP](#action-points-ap). 
-
-If successful, for every **positive** that you achieve over the attacker, you can choose one of the following effects to happen:
-* Displace yourself. You move 1m/3' in a direction of your choosing. 
+If you succeed an [active defense](#defending) using this **skill**, then for every **positive** that you achieve over the attacker, you can choose one of the following **stunts**:
+* Displace yourself. You move 3'/1m in a direction of your choosing. 
 * You catch the projectile (if such a feat could be "reasonably" done). 
 * If the location of the shooter was unknown, you now have a good idea on where they are. 
 
@@ -2120,7 +2230,7 @@ If an equipped shield is used to defend with, this skill is used instead of [mel
 | Level | Name                 | AP | **Ob**  | Effect(s)          | Condition(s) |
 | ----- | -------------------- | -- | ------- | ------------------ | ------------ |
 | 1     | Shield Wall          | 3  | /       | For any ally next to you, who's also using a shield, you both gain **+1D** on your defence tests until the start of your next turn. | Using shield; Adjacent to ally using shield. |
-| 2     | Shield Slam          | 2  | Opposed | Perform a single-target melee attack to knock your opponent down with your shield. | Using shield. |
+| 2     | Shield Slam          | 2  | Opposed | Perform a [single-target](#single-target-st) melee attack to knock your opponent down with your shield. | Using shield. |
 | 4     | Unyielding           | 3  | /       | Until your next turn, you gain **+2D** to your **shield tests**. | Using shield; Once per combat. |
 
 #### Tactics (Str)
@@ -2134,11 +2244,13 @@ The ability to understand and influence local combat movements, right there, in 
 | 3     | Swap-out             | 3  | (Opposed) | Swap positions with an adjacent ally, if they let you. If they resist, you must succeed an opposed [strength](#strength-str) test, to swap with them against their will. | Adjacent to ally. |
 | 3     | Barge in             | 3  | Opposed | Push back an enemy within melee reach and take their position. You must succeed an opposed [strength](#strength-str) test. | Enemy is within melee reach. | 
 
-#### Weapon < [weapon type](#weapon-types) > (Str)
-Expertise at handling a weapon of a specific [weapon type](#weapon-types). 
+#### Throwing (Agi)
+General expertise at throwing things. This includes weapons as well as non-weapon objects. 
 
-#### Weapon-Throwing < [weapon type](#weapon-types) > (Agi)
-Expertise at throwing weapons of a specific [weapon type](#weapon-types). 
+See [throwing](#throwing). 
+
+#### Weapon < [weapon type](#weapon-types) > (Str)
+Expertise at handling a close-quarters or ranged weapon of a specific [weapon type](#weapon-types). 
 
 ### Social Skills
 These skills have a dominant social aspect and are strongly related to a character's *social attributes*. 
@@ -2635,21 +2747,6 @@ In the following, replace *N* with the appropriate level.
 | 4     | Pressing Thought       | 3  | 36'/18m    | ST   | /      | Effect: [Hasten](#hasted) a creature of choice for two turns of combat or 10 seconds out of combat. |
 | 6     | Quiet Command          | 3  | N * 12'/4m | ST   | /      | Resist: **Ob N-2**, Effect: Issue a command to another creature, which they feel strongly compelled to follow. |
 | 7     | Confer Knowledge       | 4  | N * 12'/4m | ST   | /      | Resist: **Ob N-2**, Effect: Confer a level of a known **skill** to another creature. |
-
-### Counter-Magic [End]
-The redirection and dissolution of magic flow. This is the skill to use to defend against magic attacks. 
-
-Being a purely defensive skill, **counter-magic** only provides the benefit of easier defense at the higher levels. 
-
-This skill can only be used, if the mage has at least one point of [magic stamina](#magic-stamina) left. 
-
-However, knowing **counter-magic** at higher levels allows reducing incoming [magic stamina](#magic-stamina) costs. 
-
-For every three levels in **counter-magic**, **1D3 - 1** can be rolled, to determine by how much the **magic stamina** cost is reduced. 
-
-> At **counter-magic** level 6, you may roll **2D3 - 2**. At best, you can reduce the incoming **magic stamina** cost by 4, at worst, you can't reduce it, at all. 
-
-Note that it is not possible to reduce [magic stamina](#magic-stamina) cost to less than 1. 
 
 ## List of Injuries
 How many times an **injury** can be suffered, can be limited. In the table below, the *max* is the maximum number of times the **injury** can be suffered by the same character. If there is a slash (/), there is no limit. If a roll would result in an already maxed out **injury**, pick the next **injury** below it, instead. 
