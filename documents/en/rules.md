@@ -1732,7 +1732,7 @@ A **spell-backfire** causes a spell to affect the caster, instead of their inten
 It is possible for another nearby mage to prevent the **spell-backfire**, if they [defend](#defending) against it. This also applies even if the spell effect wouldn't affect them. If the other mage's attempt to negate the spell *also* **backfires**, then both of the mages suffer the effect and the other mage suffers it at one greater intensity level. 
 
 A **spell-backfire** occurs in the following two cases: 
-1. The [magic school skill test](#testing-magic) is **not** a **complete success**. 
+1. The [magic school skill test](#testing-magic) is a **complete failure**. 
 2. The spell costs more [magic stamina](#magic-stamina), than the mage has available. 
 
 ## Magic Things
