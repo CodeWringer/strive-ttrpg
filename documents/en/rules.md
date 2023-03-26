@@ -654,6 +654,47 @@ Using a **skill ability** counts as an **action**.
 
 [Weapon skills](#weapon--weapon-type--str) use **skill abilities** to denote the ways one can attack with them. 
 
+##### Targeting-Types
+There are the following types of **attack-targeting-types**:
+* **Single-target** (**ST**)
+* **multiple single-target** (**MST**)
+* **area of effect** (**AOE**)
+
+###### Single Target
+Any **single-target** attack can be dodged or defended against. To do so, an [opposed test](#opposed-test) is made. If the defender wins no damage is dealt. 
+
+Against melee attacks, the defender must [test](#tests) their [melee defence](#melee-defence-agi). 
+
+Against ranged attacks, the defender must [test](#tests) their [ranged defence](#ranged-defence-agi).
+
+###### Multiple Single Target
+A **multiple single-target attack** behaves just like a [single-target](#single-target) attack, with the difference that multiple targets may be affected with the same action. 
+
+###### Area of Effect
+**Area of Effect** (**aoe**) attacks can only be dodged or defended against under certain conditions. 
+
+If the **aoe** attack is magical and would affect a mage, that defending mage can choose to use their skill [counter-magic](#counter-magic), to try and counter the attack. If they choose to counter the spell, an [opposed test](#opposed-test) must be made. If the defender wins no damage is dealt. 
+
+The defending mage incurs the same stamina cost as the attacker, when they cast the spell. However, every degree of success of the defender reduces their [magic stamina](#magic-stamina) cost by one. 
+
+> A mage casts [pyromancy](#pyromancy) at another, at intensity level 6. That incurs the attacker a [magic stamina](#magic-stamina) cost of 6. 
+> 
+> The defender chooses to use their [counter-magic](#counter-magic). Now, an opposed test must be made. 
+> 
+> The attacker has an [arcana](#arcana-arc) of 5 and [pyromancy](#pyromancy) skill level of 6. They get to roll **8D6**. 
+> 
+> The defender has an [arcana](#arcana-arc) of 4 and [counter-magic](#counter-magic) skill of 5. They get to roll **7D6**. 
+> 
+> The defender achieves 4 **positives**, whereas the attacker only achieves 3 **positives**. That means, that the attack spell fails. The degree of success is 1, which reduces the [magic stamina](#magic-stamina) cost of the defender by 1. Thus, they incur a [magic stamina](#magic-stamina) cost of 5.  
+
+It is only possible to use [counter-magic](#counter-magic), if the defender has at least one [magic stamina](#magic-stamina) left. 
+
+If the **aoe** attack is of a non-magical nature, it may only be possible to dodge or defend against, if the **GM** allows for it. 
+
+> A thrown bomb may perhaps be caught and thrown back at the attacker. But a cannon shot cannot be warded off. 
+
+If there is no way to reasonably dodge or defend against the **aoe** attack, its damage is rolled right away. 
+
 #### Skill Forking
 For every **skill** a character knows (= is not currently still learning), and they are currently testing a **skill** that is thematically related, they can **fork** that **skill** into their test, granting them **+1D6** for their [test](#tests). 
 
