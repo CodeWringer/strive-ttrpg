@@ -135,6 +135,14 @@
   - [Action Points (AP)](#action-points-ap)
     - [Action Point Saving](#action-point-saving)
   - [Combat Movement](#combat-movement)
+  - [Attacking](#attacking)
+    - [Damage](#damage)
+    - [Attack Modifiers](#attack-modifiers)
+      - [Aimed Attack](#aimed-attack)
+      - [Easy Attack](#easy-attack)
+      - [Execution Attack](#execution-attack)
+  - [Defending](#defending)
+    - [Cover](#cover)
 - [Magic](#magic)
   - [Testing Magic](#testing-magic)
     - [Magic Stamina](#magic-stamina)
@@ -197,6 +205,7 @@
       - [Throwing (Agi)](#throwing-agi)
         - [Throwing-Distance](#throwing-distance)
         - [Throwing-Accuracy](#throwing-accuracy)
+        - [Throwing-Damage](#throwing-damage)
       - [Weapon \< weapon type \> (Str)](#weapon--weapon-type--str)
     - [Social Skills](#social-skills)
       - [Animal Handling (Emp)](#animal-handling-emp)
@@ -1538,16 +1547,25 @@ There is also the distinction to be made whether the order in which characters a
 # Combat
 When diplomacy fails, hostilities ensue. This is when the game enters into a state that is handled very carefully. How time is *sliced* and when characters get to act, is crucial. 
 
-The steps to prepare for combat are as follows:
+The steps to *prepare* for combat are as follows:
 1. Determine **awareness** with [perception](#perception-perc) rolls. 
    1. Sometimes, not everyone may be immediately aware of a fight breaking out. This is usually the case when characters cannot clearly see, hear or perhaps even smell a fight breaking out. 
    2. The **Ob** to use is up to circumstance. When choosing the **Ob**, keep in mind that pure [attribute](#attributes) rolls cannot be forked! Even just **Ob** 3 would be a difficult to succeed [test](#tests). 
 2. Determine if there is a **surprise round**. 
-   1. If no one in the surprised party could clearly see, hear or perhaps even smell the fight coming and none of them succeeded their **awareness** test, they are considered **surprised**.
+   1. If no one in the party could clearly see, hear or perhaps even smell the fight coming and none of them succeeded their [perception](#perception-perc) [test](#tests), they are considered **surprised**.
    2. Only the first **round** of combat can be a **surprise round**. 
-3. [Initiative order](#initiative) must be employed. 
+3. Determine [Initiative order](#initiative). 
    1. Before any action during a combat scenario can be taken, [Initiative order](#initiative) must first be determined. 
    2. This includes *everyone*, not just the active combatants. This way, should anyone join the fight, they're easier to work into the [initiative order](#initiative). Or, if they stay out of the fight, it's easier to determine when they get to act out-of-combat. 
+
+During combat, when a character gets their **turn**, they can choose to perform an action. How many actions they get to perform, depends on the [action points](#action-points-ap) they have available for that turn. Actions are:
+* Attacking
+* Casting magic
+* Moving
+* Speaking
+* Waiting (= abstaining from an action)
+
+Combat ends, when neither side has the ability or will left to fight. At this point, **initiative order** will oftentimes no longer be needed. 
 
 ## Action Points (AP)
 Every **turn**, every character gets 3 **Action Points (AP)** to spend on actions during their **turn**. Some [skills](#skills), [boons and penalties](#boons--penalties) can alter this number. 
@@ -1560,14 +1578,72 @@ Every **turn**, every character gets 3 **Action Points (AP)** to spend on action
 * [Skill abilities](#skill-abilities) can cost varying amounts of **AP**. The exact number will be noted on the [skill ability](#skill-abilities) in question. 
 
 ### Action Point Saving
-If the **turn** is ended with any **AP** unspent, they can either be saved up, or spent on improving the character's [melee defence](#melee-defence-agi) and [ranged defence](#ranged-defence-agi), as **+1D** per **AP**. 
+If a character ends their **turn** with any **AP** unspent, those **AP** will be saved up and be available as additional **AP** at the start of their next **turn**. 
 
-Only up to 2 **AP** may be saved up this way. It may be possible to go past this limit via some [skill abilities](#skill-abilities) or [boons](#boons--penalties). So, normally, a character can only begin their **turn** with a maximum of 5 **AP** to work with. 
+Only up to 2 **AP** may be saved up this way. It may be possible to go past this limit via some [skill abilities](#skill-abilities) or [boons](#boons--penalties). So, normally, a character can only begin their **turn** with a maximum of 5 **AP** to spend. 
 
 ## Combat Movement
 A character can move up to **12'/4m** (= 4 fields on a grid) per **AP** spent. In **difficult terrain**, the distance moved per **AP** is half that, at **6'/2m** (= 2 fields on a grid). 
 
 **Difficult terrain** is any space that slows movement, but does not prevent it outright. Examples would be waist-high water, a surface of glue or a slowing force field. 
+
+## Attacking
+Attacks are made using a corresponding [skill ability](#skill-abilities) of a [weapon](#weapon--weapon-type--str) or [magic-school](#magic-school--school---attribute-) skill. 
+
+An attack generally requires an [opposed test](#opposed-test) to be made, which the attacker can only win by exceeding the number of **positives** rolled by their target. 
+
+If successful, the attacker gets to apply [damage](#damage) to their target. If unsuccessful, no [damage](#damage) is applied. 
+
+### Damage
+Damage dealt to an opponent reduces their **HP**. When their **HP** reaches 0, they suffer an [injury](#injury) and their HP is reset to their new maximum. To determine the new maximum, see the [injury](#injury) section. 
+
+If more damage is dealt, than the difference to 0, that damage is also dealt. Damage isn't lost - it overflows into the next **HP** *segment*. 
+
+What type of [injury](#injury) is dealt, also depends on the [damage type](#damage-types). 
+
+### Attack Modifiers
+Sometimes, special circumstances apply, which make certain attacks easier or harder to land. 
+
+#### Aimed Attack
+An attack generally targets the center of mass (torso) of the targeted opponent. 
+
+It is, however, possible to call out wanting to attack a specific part of an opponent's body. Generally, this means that the attack must be rolled at greater **Ob**. However, the **GM** can also decide the part being targeted is fairly easy to hit, either generally or due to current circumstance, so no disadvantage is incurred. 
+
+A player may call out what effect the aimed attack is supposed to have, such as limiting their opponent's ability to stand, move, attack or whatever else the body part may be useful for. If they don't, the **GM** decides the effect. 
+
+#### Easy Attack
+Some attacks may be easier to perform. An **easy attack** has a lower **Ob**.
+
+The following are generally considered easy attacks (but at the **GM**'s discretion):
+* From behind
+* Against prone opponents
+* Against restrained opponents
+
+#### Execution Attack
+The extreme version of an easy attack, the **execution attack** allows outright killing or maiming an opponent, without having to roll for an attack or for damage. 
+
+Such an attack can be carried out against any character who is unable to resist (with the exception of player characters, see [death's door](#deaths-door)). 
+
+> An **unconscious** character, or one chained to the wall couldn't possibly resist and can be instantaneously killed with an **execution attack**. 
+
+This kind of attack is only possible at the **GM**'s discretion. 
+
+## Defending
+Defending against an attack costs 1 [AP](#action-points-ap). If not enough [AP](#action-points-ap) are available, defense is impossible. Some attacks may cost more than 1 [AP](#action-points-ap) to defend against. If so, this should be stated on the attack in question. 
+
+An [opposed test](#opposed-test) must be made. If successful, the attack is negated, entirely. Depending on the type of defense, the [degree of success](#graduated-test) may allow additional effects to occur. See [melee defence](#melee-defence-agi) and [ranged defence](#ranged-defence-agi). If the attacker wins, they get to roll for and apply damage. 
+
+Defending against [area of effect](#area-of-effect) attacks is either impossible or an active choice, as a reaction. <br>
+It is possible to defend against a magical **aoe** attack, by using the [counter-magic](#counter-magic) skill. If successful, the attack is negated entirely. 
+
+### Cover
+It is possible for characters to hide behind stationary things to make it harder to hit them. This mostly applies to ranged combat, but may also find use in melee, depending on circumstance. 
+
+There are two categories of cover: 
+* **Low cover**: +1 **Ob** against a target that is behind low cover. 
+  * Low cover is any static object to hide behind that doesn't fully cover the body, like a tree stump or low wall. 
+* **High cover**: +2 **Ob** against a target that is behind high cover. 
+  * High cover is any static object to hide behind that fully covers the body, like a tall wall or large boulder. 
 
 # Magic
 Any character with [arcana](#arcana-arc), can cast magic. What kind of magic, depends on the [magic schools](#list-of-magic-schools) the character knows. 
@@ -1784,6 +1860,9 @@ Weapons can have the following **properties**:
 * **Ambersteel-Lined**: Bonus damage against mages and magical creatures: **+1** for every quality level. **+1D4** for every two **quality levels**, starting at level 1.
 * **Ambersteel-Plated**: Bonus damage against mages and magical creatures: **+1** for every quality level. **+1D6** for every two **quality levels**, starting at level 1.
 * **Ambersteel-Forged**: Bonus damage against mages and magical creatures: **+2** for every quality level. **+1D8** for every two **quality levels**, starting at level 1.
+* **Slow Reload**: Reloading the weapon costs 1 [AP](#action-points-ap).
+* **Very Slow Reload**: Reloading the weapon costs 2 [AP](#action-points-ap).
+* **Ranged (throwable: < attack name >)**: No damage penalty is incurred when throwing this type of weapon. The damage formula for the given attack is to be used on hit. 
 
 > An ambersteel-lined weapon at quality level 3 would have +(3 + **2D4**) damage against mages and magical creatures. 
 
@@ -1807,8 +1886,8 @@ Sometimes, your own body is your greatest weapon. Fists and feet can cause a sur
 #### Short Blade
 Any short, one-handed blade. Examples: shiv, dagger, Shortsword
 
-* One-handed
 * Melee
+* Ranged (throwable: stab)
 * Bulk: 1
 
 | Skill | **Ob**  | Attack                  | AP | Damage                | Effect |
@@ -1821,7 +1900,6 @@ Any short, one-handed blade. Examples: shiv, dagger, Shortsword
 #### Long Blade
 Any long blade, including long one-handed blades. Examples: arming sword, bastard sword, Longsword
 
-* One-handed or two-handed
 * Melee
 * Bulk: 2
 
@@ -1835,7 +1913,6 @@ Any long blade, including long one-handed blades. Examples: arming sword, bastar
 #### Great Blade
 Any very long, two-handed blade. Examples: sword of war, greatsword, Zweihänder
 
-* Two-handed
 * Melee
 * Long Reach
 * Bulk: 3
@@ -1850,8 +1927,8 @@ Any very long, two-handed blade. Examples: sword of war, greatsword, Zweihänder
 #### Axe
 One-handed axes. Examples: hatchet, dane axe, woodcutter's axe
 
-* One-handed
 * Melee
+* Ranged (throwable: hack)
 * Bulk: 2
 
 | Skill | **Ob**    | Attack                  | AP | Damage                | Effect |
@@ -1862,7 +1939,6 @@ One-handed axes. Examples: hatchet, dane axe, woodcutter's axe
 #### Great Axe
 Two-handed axes. Examples: bearded axe, double-sided axe
 
-* Two-handed
 * Melee
 * Bulk: 3
 
@@ -1875,8 +1951,8 @@ Two-handed axes. Examples: bearded axe, double-sided axe
 #### Spear
 Any one or two-handed short piercing polearms. Examples: short-spear, boar-spear
 
-* One-handed or two-handed
 * Melee
+* Ranged (throwable: stab)
 * Bulk: 2
 * Prefer Range
 
@@ -1888,7 +1964,6 @@ Any one or two-handed short piercing polearms. Examples: short-spear, boar-spear
 #### Lance
 Any one or two-handed long piercing polearms. Examples: pike, lance
 
-* Two-handed
 * Melee
 * Bulk: 4
 * Long Reach
@@ -1902,7 +1977,6 @@ Any one or two-handed long piercing polearms. Examples: pike, lance
 #### Polearm
 Flexible polearms with a focus on slashing. Examples: halberd, bardiche, poleaxe
 
-* Two-handed
 * Melee
 * Bulk: 4
 * Long Reach
@@ -1917,7 +1991,6 @@ Flexible polearms with a focus on slashing. Examples: halberd, bardiche, poleaxe
 #### Club
 Simple, improvised bludgeoning weapons. Examples: wooden club, staff, stick
 
-* One-handed
 * Melee
 * Bulk: 2
 
@@ -1929,7 +2002,6 @@ Simple, improvised bludgeoning weapons. Examples: wooden club, staff, stick
 #### Small Crusher
 One-handed, heavy crushing weapons. Examples: flanged mace, warhammer, flail, morning star
 
-* One-handed
 * Melee
 * Bulk: 2
 
@@ -1940,7 +2012,6 @@ One-handed, heavy crushing weapons. Examples: flanged mace, warhammer, flail, mo
 #### Large Crusher
 Two-handed crushing weapons with a dedicated *impact zone* on the weapon head which directs more force into the target. Examples: grand-mace, polehammer, two-handed flail
 
-* Two-handed
 * Melee
 * Bulk: 3
 
@@ -1952,10 +2023,9 @@ Two-handed crushing weapons with a dedicated *impact zone* on the weapon head wh
 #### Short-Bow
 A short distance ranged weapon, shooting arrows.
 
-* Two-handed
 * Ranged
 * Bulk: 1
-* **Range Only**
+* Range Only
 
 | Skill | **Ob**    | Attack                  | AP | Distance | Damage                | Effect |
 | ----- | --------- | ----------------------- | -- | -------- | --------------------- | ------ |
@@ -1969,10 +2039,9 @@ A short distance ranged weapon, shooting arrows.
 #### Longbow
 A long distance ranged weapon, shooting arrows.
 
-* Two-handed
 * Ranged
 * Bulk: 2
-* **Range Only**
+* Range Only
 
 | Skill | **Ob**    | Attack                  | AP | Distance | Damage                | Effect |
 | ----- | --------- | ----------------------- | -- | -------- | --------------------- | ------ |
@@ -1983,10 +2052,9 @@ A long distance ranged weapon, shooting arrows.
 #### War-Bow
 A very deadly long distance ranged weapon, shooting arrows.
 
-* Two-handed
 * Ranged
 * Bulk: 2
-* **Range Only**
+* Range Only
 
 | Skill | **Ob**    | Attack                  | AP | Distance | Damage                 | Effect |
 | ----- | --------- | ----------------------- | -- | -------- | ---------------------- | ------ |
@@ -1997,10 +2065,10 @@ A very deadly long distance ranged weapon, shooting arrows.
 #### Crossbow
 A deadly medium distance ranged weapon, shooting quarrels.
 
-* Two-handed
 * Ranged
 * Bulk: 2
-* **Prefer Range**
+* Prefer Range
+* Slow Reload
 
 | Skill | **Ob**    | Attack                  | AP | Distance | Damage                | Effect |
 | ----- | --------- | ----------------------- | -- | -------- | --------------------- | ------ |
@@ -2011,16 +2079,16 @@ A deadly medium distance ranged weapon, shooting quarrels.
 #### Firearm
 A very deadly short to medium distance ranged weapon, shooting musket balls that can even penetrate armor.
 
-* Two-handed
 * Ranged
 * Bulk: 2
-* **Prefer Range**
+* Prefer Range
+* Very Slow Reload
 
 | Skill | **Ob**    | Attack                  | AP | Distance | Damage                    | Effect |
 | ----- | --------- | ----------------------- | -- | -------- | ------------------------- | ------ |
 | 0     | Opposed   | Fire                    | 3  | 30'/10m  | **3D6 + 4** **Piercing**  | / |
-| 0     | Opposed+3 | Fire                    | 3  | 60'/20m  | **2D6 + 3** **Piercing**  | / |
-| 0     | Opposed+5 | Fire                    | 3  | 90'/30m  | **2D6 + 2** **Piercing**  | / |
+| 0     | Opposed+1 | Fire                    | 3  | 60'/20m  | **2D6 + 3** **Piercing**  | / |
+| 0     | Opposed+3 | Fire                    | 3  | 90'/30m  | **2D6 + 2** **Piercing**  | / |
 
 ## Lists of Skills
 The following list does not and cannot aim to be a complete listing of all possible skills in game. Adding new skills as necessary will have to be done by the **GM**. 
@@ -2165,10 +2233,17 @@ The steps to determine **Ob** to throw are as follows:
 
 > A character with [agility](#agility-agi) 1 must succeed a test at **Ob** 1 for a distance of 15'/5m. They must succeed a test at **Ob** 2 for a distance of 18'/6m and a test at **Ob** 3 for a distance of 33'/11m. 
 
+##### Throwing-Damage
+If throwing a weapon that isn't specifically made or especially suitable to throwing, then the damage that is dealt on successful hit is halved (rounded down). 
+
+When throwing non-weapons, the damage dealt is calculated the following way: [strength](#strength-str) * [bulk](#bulk)
+
+The [damage type](#damage-types) to use, depends on the type of object and how it hits the target. For most non-weapons, **bludgeoning** will be appropriate. 
+
+> A character with [strength](#strength-str) 5, throwing a [bulk](#bulk) 3 object, can deal 5 * 3 = 15 points of damage. 
+
 #### Weapon < [weapon type](#weapon-types) > (Str)
 Expertise at handling a close-quarters or ranged weapon of a specific [weapon type](#weapon-types). 
-
-See [melee](#melee-attack) and [shooting](#shooting). Throwing weapons (like throwing knives or grenades) is handled via the [throwing](#throwing-agi) skill.
 
 ### Social Skills
 These skills have a dominant social aspect and are strongly related to a character's *social attributes*. 
