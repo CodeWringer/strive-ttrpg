@@ -283,11 +283,6 @@ At its core, **Ambersteel** is about exploring ever-evolving characters through 
 On the spectrum of *narrative-driven*, *game-y* and *simulationist*, **Ambersteel** aims for the region between *game-y* and *narrative-driven*, while leaning heavily towards *game-y*. The rules are designed to be as intuitive and simple as possible, while complex enough to enable players making meaningful choices. 
 
 More details about the system:
-* Combat is a risky affair and requires tactical and strategic thinking, or the readiness to retreat, when things go awry. 
-  * When a character suffers **injuries**, they are in *serious trouble*. 
-  * Recovery from injuries is expected to take several in-game weeks. 
-* Magic is **powerful**, but comes with great risk, with a chance for a spell to fail and back-fire. The chance of failure is manageable, however. 
-* Players are expected to manage resources, such as their character's health and assets. Character's are neither *damage sponges*, nor *item vacuums*. 
 * Player character evolution is baked into the rules. 
   * Characters have long-term and short-term goals, which drive them onward and which change over time. 
   * There are no classes or other arbitrary restrictions on what a character can do. 
@@ -296,6 +291,11 @@ More details about the system:
 * Role-playing is encouraged by game mechanics. 
   * A meta-currency, called **fate points** is earned by *players*, based on what they and their character do in a session. 
   * Characters can help each other in game mechanical ways, encouraging co-operative play. 
+* Combat is a risky affair and requires tactical and strategic thinking, or the readiness to retreat, when things go awry. 
+  * When a character suffers **injuries**, they are in *serious trouble*. 
+  * Recovery from injuries is expected to take several in-game weeks. 
+* Magic is **powerful**, but comes with great risk, with a chance for a spell to fail and back-fire. The chance of failure is manageable, however. 
+* Players are expected to manage resources, such as their character's health and assets. Character's are neither *damage sponges*, nor *item vacuums*. 
 
 Extensibility and adaptability form a core foundation of the system. While in its current form it best supports medieval fantasy themes, it should be fairly well adaptable to any theme and setting and even encourages you to do so. The bulk of the work would lie in designing skills that fit your setting's era and perhaps finding a "scientific" explanation for what the system refers to as *magic*.
 
