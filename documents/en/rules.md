@@ -774,13 +774,15 @@ If the teacher's skill is at least one level higher than that of their student, 
 ## Personality
 All **PC**s have a **personality**, which is an expression of their [personality traits](#personality-traits), [ambition](#ambition), [aspirations](#aspiration) and [reactions](#reaction). 
 
-All aspects of a **PC**s **personality** may change, as the game is played. Through their actions and the situations they're confronted with, a character's personality may be affected. 
+All aspects of a **PC**s **personality** may change, as the game is played. Through their actions and the situations they're confronted with, a character's **personality** may be affected. 
 
-It is from this fluidity, that a character becomes so interesting to explore, because even as their player, you might not know how the world and events they experience may affect your character. They're a book you start writing from the beginning - not the ending.
+It is from this fluidity, that a character becomes so interesting to explore, because even as their player, you might not know how the world and events they experience may affect them. They're a book you start writing from the beginning - not the ending.
 
 In addition to that, players can earn a meta-currency called [fate points](#fate-points), by playing their character either in accordance with their **personality**, or by dramatically breaking with it. It is the **GM**'s job to present the **PC**s with conflicts that will challenge their **personality** and it is the player's job to provide answers. 
 
 Of course, even **NPC**s have a **personality**, but unlike **PC**s, this is not cemented through rules and they **cannot** earn [fate points](#fate-points). 
+
+The [ambition](#ambition), [aspirations](#aspiration) and [reactions](#reaction) are grouped together and referred to as the character's **drivers** or **driver system**. This **driver system** prevents inaction and thus stagnation of the character's development, as they'll always have some goal to work towards. 
 
 ### Ambition
 Every **PC** must have one **ambition** - a life-fulfilling long-term goal to pursue. This can be anything from "found a family" to "become king of the world!". No matter how unrealistic, an **ambition** is a primary driver for a character, to guide them onward. The important part is to think *big*. Something easily achievable would make for a dull **ambition** and defeat the point of it. 
