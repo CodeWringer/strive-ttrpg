@@ -628,11 +628,31 @@ When [testing](#tests) a **skill**, add half of the related [attribute](#attribu
 **Skills** [advance](#advancing-skills), as they're tested. It is also possible to [practice](#practicing-skills) and [teach](#teaching-skills) **skills**. 
 
 #### Skill Abilities
-Some skills have a list of **skill abilities** that a character unlocks, if they reach a certain level in that **skill**. A **skill ability** has one or more effects and one or more conditions that restrict when they're applicable. As such, **skill abilities** are only available to characters with a certain degree of *specialization*. 
+Skills can be the *owner* of **skill abilities** associated with them. A **skill ability** is either a *passive* [boon](#boons--penalties) or an *active* **action**, with effects that apply when used.  
 
-A **skill ability** can be a *passive* [boon](#boons--penalties) or an *active* choice, like a special type of attack or tool for use in social conflict resolution. 
+Every **skill ability** can have the following properties:
+* A **required level** at which they unlock. This is the level of their *owning* **skill**. 
+  * A **skill ability** may only be used, if the character has the *owning* **skill** with at least this level. 
+  * A **skill ability** noting level 0 or no level at all, can be used right away, even without any levels in the *owning* **skill**. 
+* An [AP](#action-points-ap) cost. 
+  * During [combat](#combat) how often **skill abilities** may be used is restricted by how much a character can do in a single **turn**. 
+  * A cost of 0 implies the use of the **skill ability** is free and can potentially be repeated multiple times in a single **turn**. 
+* A **condition** which restricts when and how often they can be used. 
+  * Some **skill abilities** can only be used as a *reaction* to another character's **action**. 
+  * Some **skill abilities** can only be used once per scenario, once per day or only when other specific circumstances align. 
+* An **Ob**. 
+  * When an **Ob** is noted, the *owning* skill must be [tested](#tests) at this **Ob**. It is also possible that instead of a fixed **Ob**, a dynamic number is used. For example, whenever an [opposed test](#opposed-test) is required. In case of an [opposed test](#opposed-test), the opposing **skill** will also be noted. The opposing character must use that **skill** to oppose the use of this **skill ability**. In some cases, the opposing character may abstain from resisting. 
+  * A **skill ability** without a noted **Ob** does *not* require a [test](#tests) to be made. 
+* A [targeting-type](#targeting-types). 
+  * This restricts how many targets may be affected at once by a **skill ability**'s use. 
+* A **maximum distance** at which it may apply to targets. 
+* One or more **damage** values of a specified [type](#damage-types). 
+  * When successfully used, damage can be applied to the [HP](#hit-points-hp) of one or more targets. 
+  * Damage can be noted either as a *flat* value, or a formula, which may involve dice rolls for variable damage. E. g. "3D3 + 5". 
 
 Using a **skill ability** counts as an **action**. 
+
+[Weapon skills](#weapon--weapon-type--str) use **skill abilities** to denote the ways one can attack with them. 
 
 #### Skill Forking
 For every **skill** a character knows (= is not currently still learning), and they are currently testing a **skill** that is thematically related, they can **fork** that **skill** into their test, granting them **+1D6** for their [test](#tests). 
