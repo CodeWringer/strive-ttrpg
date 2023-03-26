@@ -283,11 +283,6 @@ At its core, **Ambersteel** is about exploring ever-evolving characters through 
 On the spectrum of *narrative-driven*, *game-y* and *simulationist*, **Ambersteel** aims for the region between *game-y* and *narrative-driven*, while leaning heavily towards *game-y*. The rules are designed to be as intuitive and simple as possible, while complex enough to enable players making meaningful choices. 
 
 More details about the system:
-* Combat is a risky affair and requires tactical and strategic thinking, or the readiness to retreat, when things go awry. 
-  * When a character suffers **injuries**, they are in *serious trouble*. 
-  * Recovery from injuries is expected to take several in-game weeks. 
-* Magic is **powerful**, but comes with great risk, with a chance for a spell to fail and back-fire. The chance of failure is manageable, however. 
-* Players are expected to manage resources, such as their character's health and assets. Character's are neither *damage sponges*, nor *item vacuums*. 
 * Player character evolution is baked into the rules. 
   * Characters have long-term and short-term goals, which drive them onward and which change over time. 
   * There are no classes or other arbitrary restrictions on what a character can do. 
@@ -296,6 +291,11 @@ More details about the system:
 * Role-playing is encouraged by game mechanics. 
   * A meta-currency, called **fate points** is earned by *players*, based on what they and their character do in a session. 
   * Characters can help each other in game mechanical ways, encouraging co-operative play. 
+* Combat is a risky affair and requires tactical and strategic thinking, or the readiness to retreat, when things go awry. 
+  * When a character suffers **injuries**, they are in *serious trouble*. 
+  * Recovery from injuries is expected to take several in-game weeks. 
+* Magic is **powerful**, but comes with great risk, with a chance for a spell to fail and back-fire. The chance of failure is manageable, however. 
+* Players are expected to manage resources, such as their character's health and assets. Character's are neither *damage sponges*, nor *item vacuums*. 
 
 Extensibility and adaptability form a core foundation of the system. While in its current form it best supports medieval fantasy themes, it should be fairly well adaptable to any theme and setting and even encourages you to do so. The bulk of the work would lie in designing skills that fit your setting's era and perhaps finding a "scientific" explanation for what the system refers to as *magic*.
 
@@ -774,13 +774,15 @@ If the teacher's skill is at least one level higher than that of their student, 
 ## Personality
 All **PC**s have a **personality**, which is an expression of their [personality traits](#personality-traits), [ambition](#ambition), [aspirations](#aspiration) and [reactions](#reaction). 
 
-All aspects of a **PC**s **personality** may change, as the game is played. Through their actions and the situations they're confronted with, a character's personality may be affected. 
+All aspects of a **PC**s **personality** may change, as the game is played. Through their actions and the situations they're confronted with, a character's **personality** may be affected. 
 
-It is from this fluidity, that a character becomes so interesting to explore, because even as their player, you might not know how the world and events they experience may affect your character. They're a book you start writing from the beginning - not the ending.
+It is from this fluidity, that a character becomes so interesting to explore, because even as their player, you might not know how the world and events they experience may affect them. They're a book you start writing from the beginning - not the ending.
 
 In addition to that, players can earn a meta-currency called [fate points](#fate-points), by playing their character either in accordance with their **personality**, or by dramatically breaking with it. It is the **GM**'s job to present the **PC**s with conflicts that will challenge their **personality** and it is the player's job to provide answers. 
 
 Of course, even **NPC**s have a **personality**, but unlike **PC**s, this is not cemented through rules and they **cannot** earn [fate points](#fate-points). 
+
+The [ambition](#ambition), [aspirations](#aspiration) and [reactions](#reaction) are grouped together and referred to as the character's **drivers** or **driver system**. This **driver system** prevents inaction and thus stagnation of the character's development, as they'll always have some goal to work towards. 
 
 ### Ambition
 Every **PC** must have one **ambition** - a life-fulfilling long-term goal to pursue. This can be anything from "found a family" to "become king of the world!". No matter how unrealistic, an **ambition** is a primary driver for a character, to guide them onward. The important part is to think *big*. Something easily achievable would make for a dull **ambition** and defeat the point of it. 
