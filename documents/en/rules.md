@@ -1548,7 +1548,7 @@ Combat ends, when neither side has the ability or will left to fight. At this po
 ## Action Points (AP)
 Every **turn**, every character gets 3 **Action Points (AP)** to spend on actions during their **turn**. Some [skills](#skills), [boons and penalties](#boons--penalties) can alter this number. 
 
-* Any basic action, so any action not requiring a [test](#tests), costs 1 **AP**. 
+* Any basic action, that is, any action not requiring a [test](#tests), costs 1 **AP**. 
   * Speaking or shouting a short phrase is free. If you want to have a proper conversation, that will cost you one or more **AP**, depending on how much you have to say. 
   * [Basic movement](#combat-movement) counts as a basic action. 
   * Handing an object over to a character adjacent to you, is a basic action (assuming you don't have to force it on them). 
@@ -1558,7 +1558,15 @@ Every **turn**, every character gets 3 **Action Points (AP)** to spend on action
 ### Action Point Saving
 If a character ends their **turn** with any **AP** unspent, those **AP** will be saved up and be available as additional **AP** at the start of their next **turn**. 
 
-Only up to 2 **AP** may be saved up this way. It may be possible to go past this limit via some [skill abilities](#skill-abilities) or [boons](#boons--penalties). So, normally, a character can only begin their **turn** with a maximum of 5 **AP** to spend. 
+Until the start of their next **turn**, they can keep up to 5 **AP**, which they can use for [active defense](#defending) during other character turns. 
+
+At the start of their next **turn**, only up to 2 of the saved **AP** transfer to this next **turn**. This means a character can normally start their next **turn** with at most 5 **AP**. 
+
+It may be possible to go past this limit via some [skill abilities](#skill-abilities) or [boons](#boons--penalties). 
+
+> Assuming a character has 4 unspent **AP** at the end of their **turn**, and they are attacked, they can use one of those **AP** to actively defend themselves. This costs them 1 **AP**, meaning they still have 3 unspent **AP**. 
+>
+> At the start of their next **turn**, they get to keep 2 of those unspent **AP** and are forced to discard the other 1 **AP**. Thus, they begin their turn with 5 **AP** available to them. 
 
 ## Combat Movement
 A character can move up to **12'/4m** (= 4 fields on a grid) per **AP** spent. In **difficult terrain**, the distance moved per **AP** is half that, at **6'/2m** (= 2 fields on a grid). 
