@@ -1528,10 +1528,10 @@ When diplomacy fails, hostilities ensue. This is when the game enters into a sta
 The steps to *prepare* for combat are as follows:
 1. Determine **awareness** with [perception](#perception-perc) rolls. 
    1. Sometimes, not everyone may be immediately aware of a fight breaking out. This is usually the case when characters cannot clearly see, hear or perhaps even smell a fight breaking out. 
-   2. The **Ob** to use is up to circumstance. When choosing the **Ob**, keep in mind that pure [attribute](#attributes) rolls cannot be forked! Even just **Ob** 3 would be a difficult to succeed [test](#tests). 
-2. Determine if there is a **surprise round**. 
+   2. The **Ob** to use is up to circumstance. When choosing the **Ob**, keep in mind that pure [attribute](#attributes) rolls cannot be [forked](#skill-forking)! Even at just **Ob** 3, a [test](#tests) would be difficult to succeed. 
+2. Determine if there is a [surprise round](#surprise-round). 
    1. If no one in the party could clearly see, hear or perhaps even smell the fight coming and none of them succeeded their [perception](#perception-perc) [test](#tests), they are considered **surprised**.
-   2. Only the first **round** of combat can be a **surprise round**. 
+   2. Only the first **round** of combat can be a [surprise round](#surprise-round). 
 3. Determine [Initiative order](#initiative). 
    1. Before any action during a combat scenario can be taken, [Initiative order](#initiative) must first be determined. 
    2. This includes *everyone*, not just the active combatants. This way, should anyone join the fight, they're easier to work into the [initiative order](#initiative). Or, if they stay out of the fight, it's easier to determine when they get to act out-of-combat. 
