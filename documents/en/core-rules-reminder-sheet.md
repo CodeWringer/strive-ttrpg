@@ -1,4 +1,4 @@
-# Core Rules Reminder Sheet
+# Ambersteel - Core Rules Reminder Sheet
 
 ## Tests
 * **Attributes** and **skills** can be tested. 
