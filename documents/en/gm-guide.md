@@ -32,7 +32,7 @@
     - [Hand Out Fate Points](#hand-out-fate-points)
     - [Gather Feedback](#gather-feedback)
 
-Version 4
+Version 5
 
 A role-playing game by Nicolas Haase
 
