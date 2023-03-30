@@ -10,7 +10,7 @@
 - [How To Master Your Game](#how-to-master-your-game)
   - [Starting Your Session](#starting-your-session)
     - [Recap The Last Session](#recap-the-last-session)
-    - [Read Out Ambitions, Beliefs & Instincts](#read-out-ambitions-beliefs--instincts)
+    - [Read Out Ambitions, Aspirations \& Reactions](#read-out-ambitions-aspirations--reactions)
     - [Read Out Fate Point Purchases](#read-out-fate-point-purchases)
   - [Your Session](#your-session)
     - [Choosing **Ob**](#choosing-ob)
@@ -19,7 +19,7 @@
       - [**Challenge your PCs' abilities out of combat**](#challenge-your-pcs-abilities-out-of-combat)
       - [**Fewer Tests Are Better**](#fewer-tests-are-better)
       - [**Limit Resources**](#limit-resources)
-      - [**Challenge Your PCs' Beliefs**](#challenge-your-pcs-beliefs)
+      - [**Challenge Your PCs' Personality**](#challenge-your-pcs-personality)
       - [**Anchor Your PCs Down**](#anchor-your-pcs-down)
       - [**Threaten Your PCs**](#threaten-your-pcs)
       - [**Allow World-Change**](#allow-world-change)
@@ -64,7 +64,7 @@ Your players can aid in crafting the world. Usually during play, rather than out
 ### Bring NPCs To Life
 Non-player characters (**NPC**s) are all the people of your world, that aren't the player characters (**PC**s). **NPC**s are one of your most important tools to bring your world to life and make it interesting and engaging to your players. More often than not, the most interesting sessions involve heavy or mindful use of **NPC**s. See them as you do real people. There are no rules or mechanics dictating how they should behave. 
 
-Much like the **PC**s, or in fact real people, **NPC**s lead their own lives, with their own ambitions, beliefs, instincts, strengths and weaknesses. Keeping track of all of the numbers that implies, can become quite the challenge. But you won't have to come up with all those numbers right away or track them all the time.
+Much like the **PC**s, or in fact real people, **NPC**s lead their own lives, with their own ambitions, aspirations, reactions, strengths and weaknesses. Keeping track of all of the numbers that implies, can become quite the challenge. But you won't have to come up with all those numbers right away or track them all the time.
 
 Whenever the **PC**s encounter someone new, all you really need, is a rough idea of *who* that **NPC** *is*. You don't have to know all their history right away, nor all of their strengths, weaknesses or even their agenda. Invent those as needed and just keep notes on that. 
 
@@ -141,21 +141,21 @@ It is important you only correct them on crucial plot points, which they really 
 
 In fact, you may even correct some of the details of how events *actually* played out, based on what your players re-tell. Do so silently, though. The last thing you want, is to encourage *meta-gaming*, where your players intentionally recap the last session incorrectly, in a way to make you change details in their characters' favor. 
 
-### Read Out Ambitions, Beliefs & Instincts
-Once the last session has been refreshed, move on to have every player, one by one, read out aloud to all, their character's ambition (keep this one brief), current **beliefs** and current **instincts**. 
+### Read Out Ambitions, Aspirations & Reactions
+Once the last session has been refreshed, move on to have every player, one by one, read out aloud to all, their character's ambition (keep this one brief), current **aspirations** and current **reactions**. 
 
 There are two reasons to do this:
-1. The other players can know, if a belief targets their character. So if a **PC** (player) starts acting odd towards another player (their **PC**), that player knows it's part of the role-play and not directed towards them as a person. <br>
-It also allows the player whose character is targeted by the belief to form ideas on how to react to it. 
-2. It lets you know the **ambitions**, **beliefs** and **instincts** of your **PC**s. And you have to know those, to be able to *challenge* them. <br> 
-You certainly don't *have to* make your players read their **beliefs** out aloud, to know them, but this keeps the busiwork on your part down. And you have enough work to do, as it is. 
+1. The other players can know, if an aspiration targets their character. So if a **PC** (player) starts acting odd towards another player (their **PC**), that player knows it's part of the role-play and not directed towards them as a person. <br>
+It also allows the player whose character is targeted by the aspiration to form ideas on how to react to it. 
+2. It lets you know the **ambitions**, **aspirations** and **reactions** of your **PC**s. And you have to know those, to be able to *challenge* them. <br> 
+You certainly don't *have to* make your players read their **aspirations** out aloud, to know them, but this keeps the busiwork on your part down. And you have enough work to do, as it is. 
 
-Be mindful that players knowing the **beliefs** of their fellow **PC**s should not be allowed to meta-game. 
+Be mindful that players knowing the **aspirations** of their fellow **PC**s should not be allowed to meta-game. 
 
-> If a **PC** has a belief to the detriment of their fellow **PC** and this is a fresh belief, the targeted **PC** shouldn't suddenly become more suspicious towards their ally. At least not without sufficient reason. Of course, a **PC** can figure out another's intentions, but not by virtue of their owning player knowing. 
+> If a **PC** has an aspiration to the detriment of their fellow **PC** and this is a fresh aspiration, the targeted **PC** shouldn't suddenly become more suspicious towards their ally. At least not without sufficient reason. Of course, a **PC** can figure out another's intentions, but not by virtue of their owning player knowing. 
 
 ### Read Out Fate Point Purchases
-Once **ambitions**, **beliefs** and **instincts** are handled, move on to what meta-powers players purchased with their [fate points](#fate-points). 
+Once **ambitions**, **aspirations** and **reactionss** are handled, move on to what meta-powers players purchased with their [fate points](#fate-points). 
 
 Everyone should be clear on what everyone else can do, especially since these are strictly meta-game powers. 
 
@@ -202,7 +202,8 @@ Level | **Ob** 1 | **Ob** 2 | **Ob** 3 | **Ob** 4 | **Ob** 5 | **Ob** 6 | **Ob**
 | 10 | T | T | T | T | E | E | D | D | D | D | 
 
 When to test either an **attribute**, or a **skill**, also requires a certain gut-feeling. **Attribute**s are typically the raw, innate abilities of a character. 
-**Skills** on the other hand are learned abilities. 
+
+**Skills** on the other hand are learned abilities and tend to have a lot more dice available for a test.
 
 ### Challenging Your Players
 You have two means of challenging your players: *mechanical challenges* and *narrative challenges*. To *challenge* your players means to *engage* them! 
@@ -213,9 +214,9 @@ You should be intimately familiar with the [tests](#tests) section. When to use 
 
 [Injuries](#injury) and [illnesses](#illness) involve mechanical hurdles for the **PC**s to overcome. The solution is presented in the rules. If you're injured or ill, seek medical aid and spend time resting. While some of the player party may be incapacitated, the other half can roll some dice to have their character [practice their skills](#practice) or [practice their attributes](#practicing-attributes). Of course, this results in not very interesting mechanical challenges, because they leave little room for interpretation. 
 
-**Narrative challenges** are your *role-playing* tools to engage your players. The engagement and challenge comes from making your players think about what their character's belief and how they act. 
+**Narrative challenges** are your *role-playing* tools to engage your players. The engagement and challenge comes from making your players think about their character's aspirations and how they act them out. 
 
-You challenge a player narratively, by putting their characters in situations where they'll have to think like their character. Challenge their beliefs, challenge their morals. 
+You challenge a player narratively, by putting their characters in situations where they'll have to think like their character. Challenge their aspirations, challenge their morals. 
 
 And the most powerful narrative challenge - the world! Encourage your players to set goals. Goals, which will impact the world around their characters. But also provide a world which will react to the player characters' actions, even when no goal has been explicitly stated. 
 
@@ -267,20 +268,20 @@ Only have a player make one test per scene/situation, as long as the scene/situa
 Of course, how many tests are appropriate in a given situation is entirely at your discretion. 
 
 #### **Limit Resources**
-Also keep in mind that the [item slots](#carrying-capacity) system exists to create mechanical challenges. Limit the **PC**'s access to the resources they tend to hoard. 
+Also keep in mind that the assets exist to create mechanical challenges. Limit the **PC**'s access to the resources they tend to hoard. 
 
 Although your players could also be clever and find narrative solutions to their lack of *item vaccuuming*. If they can afford one or two carriages with the horses and drivers, perhaps even guards, they should be allowed to transport a lot more stuff around. Within the confines of their solution, of course. Those wagons full of ammunition, medical supplies and spare daggers will have to stay outside the cave/dungeon/ruin/etc. - unless your players can find a solution for that, too. 
 
 Possessions in the form of coin and steel are not the only type of resource you can give your **PC**s. Keep in mind that servants, hirelings, close friends and family are *also a resource*. **PC**s can refer to them, when they have need of information, coin or political support. 
 
-#### **Challenge Your PCs' Beliefs**
+#### **Challenge Your PCs' Personality**
 And that brings us to narrative challenges. These are the challenges you present your players, moreso than their characters. 
 
-Still bordering on *game-y*, the [ambitions, beliefs and instincts](#ambitions-beliefs--instincts) and [fate points](#fate-points) systems reward players for role-playing well and for playing to their character's beliefs. 
+Still bordering on *game-y*, the personality and fate points systems reward players for role-playing well and for playing to their character's personality. 
 
-Make sure to regularly challenge **each** **PC**'s **beliefs** and **instincts**. You do so, by confronting them with a situation in which, if they act in accordance with their belief, it gets them or their allies *in trouble*. 
+Make sure to regularly challenge **each** **PC**'s **aspirations** and **reactions**. You do so, by confronting them with a situation in which, if they act in accordance with their aspiration, it gets them or their allies *in trouble*. 
 
-This keeps the players on their toes and puts pressure on them when they have to make a difficult call. Will they play to their character's belief - and get them in trouble - or do they refuse and thus violate the belief? This is also where a large part of the *easy role-playing* comes from, because it is mechanically supported. 
+This keeps the players on their toes and puts pressure on them when they have to make a difficult call. Will they play to their character's aspiration - and get them in trouble - or do they refuse and thus violate the aspiration? This is also where a large part of the *easy role-playing* comes from, because it is mechanically supported. 
 
 More interesting and less immediately rewarding, is the **ambition** of a **PC**. These long-term goals guide their character along the way. Make sure to throw them a small plot to advance their own agenda, every once in a while. 
 
@@ -293,14 +294,14 @@ More interesting and less immediately rewarding, is the **ambition** of a **PC**
 > And so it goes on, with continually more escalating scenarios, which all culminate into the final confrontation, many real-world sessions into the future, when the **PC** gets to put the final nail in that **ambition**'s coffin - and earn their [AFP](#ambition-fate-points).
 
 #### **Anchor Your PCs Down**
-Another resource, is a base of operations. This is a very meaningful and powerful tool, to anchor your **PC**s to a particular domain. Expect them to want to return to their base of operations regularly. While this *may* narrow the radius of exploration your players are willingly to go, it doesn't necessarily have to. What it is guaranteed to do, however, is make your players care about *that space* in the world, in particular. 
+Another resource, is a base of operations. This is a very meaningful and powerful tool, to anchor your **PC**s to a particular domain. Expect them to want to return to their base of operations regularly. While this *may* narrow the radius of exploration your players are willing to go, it doesn't necessarily have to. What it is guaranteed to do, however, is make your players care about *that space* in the world, in particular. 
 
-Be mindful *where* in the world you give them such a resource, because that is where the players will want to spend a lot of time at. Make sure it is a location where quests can easily come to them. Damsels in distress, kings in need and wealthy merchants all need a reachable door to knock at. A very remote location might not see a lot of *action* or *visitors*. 
+Be mindful *where* in the world you give them such a resource, because that is where the players will want to spend a lot of time at. Make sure it is a location where quests can easily come to them. Damsels in distress, kings in need and robbed merchants all require a reachable door to knock at. A very remote location might not see a lot of *action* or *visitors*. 
 
 #### **Threaten Your PCs**
 Any resource you let a **PC** have, can be *threatened*. This is a powerful tool to raise tension among your players. Threaten their possessions, family or holdings - all the things they hold dear. 
 
-This is a powerful tool to make the players care about protecting their assets. If you have given them a small castle in a sparsely populated area, make sure to have someone threaten to take away that castle at least (or at most) **once**. By the time that happens, the players should have grown accustomed to having that safe space to return and haul loot to. Suddenly, their top-priority will be protecting that place. 
+If you have given them a small castle in a sparsely populated area, make sure to have someone threaten to take away that castle at least (or at most) **once**. By the time that happens, the players should have grown accustomed to having that safe space to return and haul loot to. Suddenly, their top-priority will be protecting that place. 
 
 Once they've fended off the attackers, they'll really start caring about everything that's happening on or near their home turf. This is when wars and rumors become of much greater relevance to your players, as they don't want their assets (which they before took for granted) threatened *again*. 
 
@@ -366,7 +367,9 @@ This is especially effective at allowing those players who're uncomfortable with
 
 When giving such a *heads-up*, try to omit any details. Only give your player a basic prompt to work with. However, just how much information the prompt should contain, will be up to you. 
 
-> For example, a NPC will do something that contradicts their character's beliefs. A prompt for that player could look like the following: "During the next session, an NPC will do something that contradicts your beliefs. There will be no way you wouldn't notice." Don't tell them which NPC that will be or what exactly that NPC will actually do. 
+> A prompt for a player could look like the following: "During the next session, an NPC will offer you a position of responsibility. Your character may decline, but their family may suffer as a consequence."
+> 
+> Omit details about who that NPC is and what the position of responsibility will be. Even the consequences may be omitted. Note, that this may challenge that PC's morality and thus be a difficult decision for the player to make.
 
 ## Ending Your Session
 ### Hand Out Fate Points
