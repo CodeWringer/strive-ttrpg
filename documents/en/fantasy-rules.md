@@ -161,14 +161,14 @@ The new procedure of creating a character consists of the following steps:
 ### Determine Abilities
 Next up, you can reinforce your character's [personality](#personality) with the abilities they have. Or even prepare a conflict of what your character *can* do and what they *think* they can do. 
 
-This section replaces the section of the same name from the core rules. 
-
 #### Choosing Attributes
 There are two methods for determining your character's attributes: manual and semi-random. 
 
 You'll have to decide on whether your character will be a mage or not. Mages start with lower attributes, so this decision can affect your character's initial competence. 
 
 Please keep in mind the values here are representative for an ordinary human about to enter an adventuring life. Other species may have modifiers on their attributes, making them better or worse in some of them. But that depends on the world your **GM** is running. 
+
+This section replaces the section of the same name from the core rules. 
 
 ##### Manual Attribute Assignment
 * As a **mage**
