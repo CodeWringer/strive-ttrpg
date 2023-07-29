@@ -134,18 +134,23 @@
   - [Action Points (AP)](#action-points-ap)
     - [Action Point Saving](#action-point-saving)
   - [Combat Movement](#combat-movement)
+    - [Swap-Out](#swap-out)
+    - [Disengage](#disengage)
   - [Attacking](#attacking)
     - [Damage](#damage)
     - [Attack Modifiers](#attack-modifiers)
       - [Aimed Attack](#aimed-attack)
       - [Easy Attack](#easy-attack)
       - [Execution Attack](#execution-attack)
+    - [Attacks of Opportunity](#attacks-of-opportunity)
   - [Defending](#defending)
     - [Cover](#cover)
+    - [Defending an Ally](#defending-an-ally)
   - [Throwing](#throwing)
     - [Throwing-Distance](#throwing-distance)
     - [Throwing-Accuracy](#throwing-accuracy)
     - [Throwing-Damage](#throwing-damage)
+  - [Unarmed Combat (Str)](#unarmed-combat-str)
 - [Appendix](#appendix)
   - [Lists of Skills](#lists-of-skills)
     - [Physical Skills](#physical-skills)
@@ -160,7 +165,6 @@
       - [Thievery (Agi)](#thievery-agi)
       - [Observation (Perc)](#observation-perc)
       - [Path-finding (Perc)](#path-finding-perc)
-      - [Tactics (Str)](#tactics-str)
       - [Throwing (Agi)](#throwing-agi)
       - [Weapon \< weapon type \> (Str)](#weapon--weapon-type--str)
     - [Social Skills](#social-skills)
@@ -682,7 +686,7 @@ A **PC** can only actively practice one **category of skills**. For every **cycl
 | Craftsmanship  | 1 Month  |
 | Knowledge      | 2 Months |
 
-> A **PC** spends seven weeks practicing their [tactics](#tactics-str), while waiting for their comrade to recover from their [injuries](#injury). [Tactics](#tactics-str) being a physical skill, the cycle for tests is 3 weeks. In this case, 2 tests can be made and their outcomes noted. 
+> A **PC** spends seven weeks practicing their [fishing](#fishing-end), while waiting for their comrade to recover from their [injuries](#injury). [fishing](#fishing-end) being a physical skill, the cycle for tests is 3 weeks. In this case, 2 tests can be made and their outcomes noted. 
 
 ##### Teaching Skills
 Much like it is possible for a character to [practice](#practicing-skills) on their own, they can also be taught by another, who knows more than them. 
@@ -992,7 +996,7 @@ All damage inflicted, is inflicted with a certain type of damage.
 | ----------- | ----------- |
 | Slashing    | Usually inflicted by any sort of cutting/slashing weapon, like a sword, or a talon. |
 | Piercing    | Usually inflicted by any sort of stabbing weapon, like a spear, or an animal's stinger. |
-| Bludgeoning | Inflicted by light blunt weapons and unarmed attacks. **Bludgeoning** causes non-lethal damage. It inflicts [exhaustion](#exhaustion) instead of [injuries](#injury). An [exhausted](#exhausted) character hit with **bludgeoning** damage has to succeed an [endurance](#endurance-end) test, or else fall [unconscious](#unconscious). |
+| Bludgeoning | Inflicted by light blunt weapons and [unarmed](#unarmed-combat-str) attacks. **Bludgeoning** causes non-lethal damage. It inflicts [exhaustion](#exhaustion) instead of [injuries](#injury). An [exhausted](#exhausted) character hit with **bludgeoning** damage has to succeed an [endurance](#endurance-end) test, or else fall [unconscious](#unconscious). |
 | Crushing    | Usually inflicted by any sort of heavy blunt weapon, like a hammer, or an animal's tusks. |
 | Burning     | Inflicted by extreme heat. |
 | Freezing    | Inflicted by extreme cold. |
@@ -1459,21 +1463,35 @@ The steps to *prepare* for combat are as follows:
    1. Before any action during a combat scenario can be taken, [Initiative order](#initiative) must first be determined. 
    2. This includes *everyone*, not just the active combatants. This way, should anyone join the fight, they're easier to work into the [initiative order](#initiative). Or, if they stay out of the fight, it's easier to determine when they get to act out-of-combat. 
 
-During combat, when a character gets their **turn**, they can choose to perform an action. How many actions they get to perform, depends on the [action points](#action-points-ap) they have available for that turn. Actions are:
-* Attacking
-* Moving
+During combat, when a character gets their **turn**, they can choose to perform an action. How many actions they get to perform, depends on the [action points](#action-points-ap) they have available for that turn. 
+
+Active actions during combat are:
+* [Attacking](#attacking)
+  * [Throwing](#throwing)
+  * [Unarmed combat](#unarmed-combat-str)
+* [Moving](#combat-movement)
+  * [Disengaging](#disengage)
+  * [Swapping out](#swap-out)
 * Speaking
 * Waiting (= abstaining from an action)
+
+Reactions during combat are:
+* [Attacks of Opportunity](#attacks-of-opportunity)
+* [Defending](#defending)
+  * [Defending an ally](#defending-an-ally)
 
 Combat ends, when neither side has the ability or will left to fight. At this point, **initiative order** will oftentimes no longer be needed. 
 
 ## Action Points (AP)
 Every **turn**, every character gets 3 **Action Points (AP)** to spend on actions during their **turn**. Some [skills](#skills), [boons and penalties](#boons--penalties) can alter this number. 
 
+At the start of a combat encounter, **all characters** start with 3 **AP**. After that, **AP** are only regained per-character, upon the start of their turn. 
+
 * Any basic action, that is, any action not requiring a [test](#tests), costs 1 **AP**. 
   * Speaking or shouting a short phrase is free. If you want to have a proper conversation, that will cost you one or more **AP**, depending on how much you have to say. 
   * [Basic movement](#combat-movement) counts as a basic action. 
   * Handing an object over to a character adjacent to you, is a basic action (assuming you don't have to force it on them). 
+  * Pulling something from your bag or getting a weapon ready (from your back, scabbard or wherever you keep it) also counts as a movement action and costs 1 **AP**. 
 * Any action requiring a [test](#tests), costs 2 **AP**. 
 * [Skill abilities](#skill-abilities) can cost varying amounts of **AP**. The exact number will be noted on the [skill ability](#skill-abilities) in question. 
 
@@ -1497,8 +1515,20 @@ A character can move up to **12'/4m** (= 4 fields on a grid) per **AP** spent. I
 
 It is also possible to **sprint**, doubling the distance one can move per **AP**, but at the cost of 1 point of [exhaustion](#exhaustion) for every **AP** spent **sprinting**. 
 
+### Swap-Out
+It is possible to swap positions with an adjacent ally, without provoking an [attack of opportunity](#attacks-of-opportunity) for either character. 
+
+This **action** costs 3 [AP](#action-points-ap). 
+
+The ally in question can **oppose** this action with [strength](#strength-str). 
+
+### Disengage
+It is possible to move out of or through an enemy's **range of opportunity** without provoking an [attack of opportunity](#attacks-of-opportunity). This action costs 2 [AP](#action-points-ap). 
+
+When disengaging from or pushing through more than one **range of opportunity** in the same action, every additional **range of opportunity** past the first adds 1 [AP](#action-points-ap) cost. 
+
 ## Attacking
-Attacks are made using a [skill ability](#skill-abilities) of a [weapon](#weapon--weapon-type--str), the [unarmed](#unarmed) or [throwing](#throwing-agi) [skill](#skills). 
+Attacks are made using a [skill ability](#skill-abilities) of a [weapon](#weapon--weapon-type--str), the [unarmed](#unarmed-combat-str) or [throwing](#throwing-agi) [skill](#skills). 
 
 An attack generally requires an [opposed test](#opposed-test) to be made. If the attacker wins, the full [damage](#damage) is applied to the defender. 
 
@@ -1538,6 +1568,13 @@ Such an attack can be carried out against any character who is unable to resist 
 
 This kind of attack is only possible at the **GM**'s discretion. 
 
+### Attacks of Opportunity
+When a character is within weapon's reach of another hostile character, they're considered within the other's **range of opportunity**. Whenever a character in an enemy's **range of opportunity** moves away from or more than 2m/6' around that enemy, that enemy can **choose to perform an attack of opportunity**. It is possible to avoid an **attack of opportunity** with a [disengage](#disengage) combat action. 
+
+Performing an **attack of opportunity** costs 1 [AP](#action-points-ap) at a **-1D** penalty and will **halt** the enemy in question and prevent their movement, regardless of whether the attack lands. The attacked party can still choose to push past, thus still getting to move, but if they do, the **attack of opportunity** is **guaranteed** to land successfully, without any attack [test](#tests) necessary. 
+
+An **attack of opportunity** is a **combat action** and a **reaction**. 
+
 ## Defending
 There are two types of defense:
 * **Active defense**: Costs 1 [AP](#action-points-ap) and uses all available dice for the [test](#tests). 
@@ -1560,6 +1597,11 @@ There are two categories of cover:
   * Low cover is any static object to hide behind that doesn't fully cover the body, like a tree stump or low wall. 
 * **High cover**: +2 **Ob** against a target that is behind high cover. 
   * High cover is any static object to hide behind that fully covers the body, like a tall wall or large boulder. 
+
+### Defending an Ally
+It is possible for a character to defend an adjacent ally when they're being attacked. This costs 2 [AP](#action-points-ap) and results in the ally taking over the defense being forced to roll the defence test, instead of the originally attacked character. 
+
+Defending an ally is a **combat action** and a **reaction**. 
 
 ## Throwing
 Throwing things is a special type of action, that follows the rules outlined below. 
@@ -1605,6 +1647,20 @@ When throwing non-weapons, the damage dealt is calculated the following way: [st
 The [damage type](#damage-types) to use, depends on the type of object and how it hits the target. For most non-weapons, **bludgeoning** will be appropriate. 
 
 > A character with [strength](#strength-str) 5, throwing a [bulk](#bulk) 3 object, can deal 5 * 3 = 15 points of damage. 
+
+## Unarmed Combat (Str)
+Sometimes, your own body is your greatest weapon. Fists and feet can cause a surprising amount of damage. 
+
+* Melee
+* This is a skill
+
+| Skill | **Ob**  | Attack                  | AP | Damage                | Effect |
+| ----- | ------- | ----------------------- | -- | --------------------- | ------ |
+| 0     | Opposed by [Melee Defence](#melee-defence-agi) | Punch, kick, headbutt   | 2  | **Str** + 2 **Bludgeoning** | / |
+| 0     | Opposed by [Melee Defence](#melee-defence-agi) | Shove                   | 2  | Push an enemy away from you for 3'/1m. | Enemy is within melee reach. | / |
+| 1     | Opposed by **Unarmed Combat**                  | Grapple                 | 2  | If **completely successful**, the target is unable to move and suffers **-1D** to their defense tests, for as long as they're grappled. Someone grappled can attempt to break free with an opposed **Unarmed Combat** test, on their turn. The grappler can not use at least one of their hands for as long as they're grappling. |
+| 2     | Opposed by **Unarmed Combat**                  | Wrestle and Disarm      | 2  | Perform a [single target](#single) attack against a designated enemy. If you win, you disarm them and could wrestle them to the ground, making them [prone](#prone), if you so choose. | Disarm only if enemy is using detachable weapon. |
+| 3     | Opposed by [strength](#strength-str)           | Barge in                | 3  | Push back an enemy within melee reach and take their position. | Enemy is within melee reach. | 
 
 # Appendix
 The appendix contains important and less important lists, for reference only when needed. 
@@ -1688,17 +1744,6 @@ Orienting oneself in the world and finding and following tracks.
 | ----- | -------------------- | -- | ------ | ------------------ | ------------ |
 | 3     | Find your Bearings   | 1  | 2      | Figure out your current heading and time of day, even when in complete darkness or in a place without landmarks. | Once per rest. |
 
-#### Tactics (Str)
-The ability to understand and influence local combat movements, right there, in the moment. 
-
-| Level | Name                 | AP | **Ob**  | Effect(s)          | Condition(s) |
-| ----- | -------------------- | -- | ------- | ------------------ | ------------ |
-| 1     | Protect Ally         | 3  | /       | When a designated ally next to is attacked, **you** defend against it, instead. | Adjacent to an ally. |
-| 2     | Shove                | 3  | Opposed | Push an enemy away from you for 3'/1m. | Enemy is within melee reach. |
-| 2     | Opportunity Attacks  | 3  | Opposed | Whenever an enemy within your reach moves in any way, you get to strike them with a melee attack. They can defend themselves with a **+1D** bonus. |  |
-| 3     | Swap-out             | 3  | (Opposed) | Swap positions with an adjacent ally, if they let you. If they resist, you must succeed an opposed [strength](#strength-str) test, to swap with them against their will. | Adjacent to ally. |
-| 3     | Barge in             | 3  | Opposed | Push back an enemy within melee reach and take their position. You must succeed an opposed [strength](#strength-str) test. | Enemy is within melee reach. | 
-
 #### Throwing (Agi)
 General expertise at throwing things. This includes weapons as well as non-weapon objects. 
 
@@ -1728,8 +1773,6 @@ Speaking commands others will respect and follow to the letter.
 | 3     | War Cry                | 1 | 2 | All allies who can hear it, gain **+1D** on their next attack test. | Ally can hear the command. |
 | 5     | Unquestionable Command | 2 | 3 | An ally of choice, gains **+2D** on their next test. | Ally can hear the command. |
 | 6     | Spur                   | 2 | 4 | An ally of choice, is [hastened](#hasted) for one turn of combat, or five seconds out of combat. | Ally can hear the command. |
-
-Not to be confused with [tactics](#tactics-str). 
 
 #### Deception (Ora)
 Telling lies, acting in a way so as to deceive another character into believing something untruthful. 
