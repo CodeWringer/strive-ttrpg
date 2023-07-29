@@ -1786,10 +1786,11 @@ Is opposed by [resist](#resist-will).
  
 | Level | Name                 | AP | **Ob**  | Effect(s)          | Condition(s) |
 | ----- | -------------------- | -- | ------- | ------------------ | ------------ |
-| 1     | Draw Attention       | 1  | Opposed | Force all creatures within 18'/6m distance to focus on you, instead. After they've attacked or otherwise had their attention on you, they may divert their attention, again. | Once per combat. |
-| 2     | Taunt                | 1  | Opposed | Lower a designated creature's defence by **-1D** for 1 turn. | Once per creature; Creature can hear. |
-| 3     | Vicious Mockery      | 1  | Opposed | Lower a designated creature's defence by **-3D** for 3 turns. | Once per combat. |
-| 4     | War Cry              | 1  | Opposed | Lower the defence of all creatures within 18'/6m distance by **-2D**, for 4 turns. | Once per combat. |
+| 0     | Draw Attention       | 1  | Opposed | Force one designated creature within 18'/6m distance to focus on you, instead. After they've attacked or otherwise had their attention on you, they may divert their attention, again. | / |
+| 1     | Draw More Attention  | 1  | Opposed | Force N designated creatures within 36'/12m distance to focus on you, instead, where *N* is equal to your level in this skill. After they've attacked or otherwise had their attention on you, they may divert their attention, again. | Once per combat. |
+| 1     | Taunt                | 1  | Opposed | Lower a designated creature's defence by **-1D** for 1 turn. | Once per creature; Creature can hear. |
+| 2     | Vicious Mockery      | 1  | Opposed | Lower a designated creature's defence by **-3D** for 3 turns. | Once per combat. |
+| 3     | War Cry              | 1  | Opposed | Lower the defence of all creatures within 18'/6m distance by **-2D**, for 4 turns. | Once per combat. |
 
 #### Mercantilism (Ora)
 Skill at bartering for goods and services and negotiating prices. Also useful to determine the availability of goods and materials and what their current demands and supply are. 
