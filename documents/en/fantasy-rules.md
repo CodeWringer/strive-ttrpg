@@ -44,7 +44,6 @@
         - [Kite Shield](#kite-shield)
     - [List of Stuff \& Things](#list-of-stuff--things)
     - [Weapon Types](#weapon-types)
-      - [Unarmed](#unarmed)
       - [Short Blade](#short-blade)
       - [Long Blade](#long-blade)
       - [Great Blade](#great-blade)
@@ -438,17 +437,6 @@ The following is a list of general assets. Of course, the following list is non-
 Weapons can have the following **effects**:
 
 In the following, the **Ob** is to be considered a *modifier*. By default, **all** weapon attacks (weapon skills) are opposed by [melee defence](#melee-defence-agi) or [ranged defence](#ranged-defence-agi). Which defence is appropriate, is determined by the weapon type property **melee** or **ranged**. 
-
-#### Unarmed
-Sometimes, your own body is your greatest weapon. Fists and feet can cause a surprising amount of damage.
-
-* Melee
-
-| Skill | **Ob**  | Attack                  | AP | Damage                | Effect |
-| ----- | ------- | ----------------------- | -- | --------------------- | ------ |
-| 0     | Opposed by **Melee Defence** | Punch, kick, headbutt   | 2  | **Str** + 2 **Bludgeoning** | / |
-| 1     | Opposed by **Unarmed** | Grapple | 2  | / | Requires a successful opposed **unarmed** test. If **completely successful**, the target is unable to move and suffers **-1D** to their defense tests, for as long as they're grappled. Someone grappled can attempt to break free with an opposed **unarmed** test, on their turn. |
-| 2     | Opposed by **Unarmed** | Wrestle and Disarm |  | Perform a [single target](#single) attack against a designated enemy. If you win, you disarm them and could wrestle them to the ground, making them [prone](#prone), if you so choose. | Disarm only if enemy is using detachable weapon. |
 
 #### Short Blade
 Any short, one-handed blade. Examples: shiv, dagger, Shortsword
