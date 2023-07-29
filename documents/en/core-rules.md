@@ -314,7 +314,7 @@ How many **positives** are needed to succeed a test, is determined by the **GM**
 
 To resolve an **attribute test**, the number of **D6** indicated by the *attribute level* (the number next to the attribute) must be rolled. 
 
-To resolve a **skill test**, the number of **D6** indicated by the **skill level** (the number next to the skill), plus the related **attribute** as additional dice must be rolled. 
+To resolve a **skill test**, the number of **D6** indicated by the **skill level** (the number next to the skill), plus **half** of the related **attribute** (rounded down) as additional dice must be rolled. 
 
 > A **PC** has an [agility](#agility-agi) of 3 and an [acrobatics](#acrobatics-agi) skill at level 2. The player is asked to roll a test for [acrobatics](#acrobatics-agi) at **Ob** 2. They get to roll 3 + 2 = 5 **D6**, if they don't have any other skills to [fork](#skill-forking) into the test. 
 
@@ -557,7 +557,7 @@ A **skill** is any acquired knowledge and experience regarding a specific subjec
 
 Two values must be tracked for every **skill**: The *unmodified* and *modified* level. See [boons and penalties](#boons--penalties). The *modified* level of a **skill** dictates the base number of **D6** to roll for a [test](#tests) of that **skill**.
 
-When [testing](#tests) a **skill**, add half of the related [attribute](#attributes)'s value (rounded down) as an additional number of dice for the test. It is also possible to [fork](#skill-forking) **skills**, allowing even more dice to be used the test. 
+When [testing](#tests) a **skill**, add **half** of the related [attribute](#attributes)'s value (rounded down) as an additional number of dice for the test. It is also possible to [fork](#skill-forking) **skills**, allowing even more dice to be used the test. 
 
 **Skills** [advance](#advancing-skills), as they're tested. It is also possible to [practice](#practicing-skills) and [teach](#teaching-skills) **skills**. 
 
