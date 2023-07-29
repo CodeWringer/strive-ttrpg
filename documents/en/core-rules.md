@@ -432,7 +432,7 @@ These abilities determine the chance a character will succeed at the tasks they 
 **Attributes** describe a character's basic, inherent abilities. 
 
 The *modified* level of an **attribute** dictates the base number of **D6** to roll for a [test](#tests) of that **attribute**. 
-* Two values must be tracked for every **attribute**: The *unmodified* and *modified* level. See [boons and penalties](#boons--penalties). 
+* Two values must be tracked for every **attribute**: Its level and its modifiers. See also [boons and penalties](#boons--penalties). The result of adding or subtracting the modifiers to the level of an **attribute** results in the number of **D6** to roll for a [test](#tests) of that **attribute**. This also factors into the related **attribute** level to also factor into [skill](#skills) [tests](#tests). 
 * Unlike [skills](#skills), it is **not** possible to [fork](#skill-forking) **attributes**. 
 * Attribute values typically range from 2 to 5 for ordinary human characters. 
 
@@ -555,7 +555,7 @@ See also [initiative](#initiative).
 ### Skills
 A **skill** is any acquired knowledge and experience regarding a specific subject. 
 
-Two values must be tracked for every **skill**: The *unmodified* and *modified* level. See [boons and penalties](#boons--penalties). The *modified* level of a **skill** dictates the base number of **D6** to roll for a [test](#tests) of that **skill**.
+Two values must be tracked for every **skill**: Its level and its modifiers. See also [boons and penalties](#boons--penalties). The result of adding or subtracting the modifiers to the level of a **skill** results in the number of **D6** to roll for a [test](#tests) of that **skill**.
 
 When [testing](#tests) a **skill**, add **half** of the related [attribute](#attributes)'s value (rounded down) as an additional number of dice for the test. It is also possible to [fork](#skill-forking) **skills**, allowing even more dice to be used the test. 
 
@@ -1016,7 +1016,7 @@ A boon to an [attribute](#attributes) or [skill](#skills) usually comes in the f
 
 A penalty to an [attribute](#attributes) or [skill](#skills) usually comes in the form of decreasing its level. A penalty **cannot** reduce an [attribute](#attributes) or [skill](#skills) to 0. The minimum reduction is to 1. An exception to this rule is, when the character's only reason for having the [attribute](#attributes) or [skill](#skills) is a boon. In that case, the penalty **can** reduce the level to 0, effectively removing the [attribute](#attributes) or [skill](#skills). 
 
-Therefore, an [attribute's](#attributes) or [skill's](#skills) *unmodified* level must be tracked separately from its *modified* level. 
+Therefore, an [attribute's](#attributes) or [skill's](#skills) level and its modifiers must be tracked. The modifier value is added or subtracted from the level to yield an effective level. 
 
 Whenever a boon or penalty alters the level of an [attribute](#attributes) or [skill](#skills), it does **not** affect the **successes** and **failures** required to advance. 
 
