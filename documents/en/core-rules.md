@@ -595,7 +595,7 @@ The number of targets that a [skill ability](#skill-abilities) can apply to, wit
 A **single-target** (**ST**) action affects only a single target. 
 
 ###### Multiple Single Target (MST)
-A **single-target** (**ST**) action affects up to a maximum number of targets. 
+A **multiple-single-target** (**MST**) action affects at least one and up to a maximum number of targets. 
 
 ###### Area of Effect (AoE)
 **Area of Effect** (**aoe**) actions affect *every* target that is in the area of effect. 
