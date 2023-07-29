@@ -109,6 +109,7 @@
         - [Semi-Random Attribute Assignment](#semi-random-attribute-assignment)
         - [Determine Attribute Advancing Thresholds](#determine-attribute-advancing-thresholds)
       - [Choosing Skills](#choosing-skills)
+      - [Determine Boons from Heritage](#determine-boons-from-heritage)
     - [Determine Assets](#determine-assets)
     - [Determine Max HP \& Injury Maximum](#determine-max-hp--injury-maximum)
     - [Determine Exhaustion Threshold](#determine-exhaustion-threshold)
@@ -1247,6 +1248,9 @@ You can spend **8** points to *learn* skills and raise their level, with the fol
 Once you've chosen skills, you can determine the required number of successes and failures each skill requires, in order to advance. 
 
 For this, see the rules on [skill advancing](#advancing-skills).
+
+#### Determine Boons from Heritage
+It is possible for a character to receive permanent boons or penalties during character creation, based upon their cultural heritage. This is entirely at the **GM**'s discretion and subject to their world. When choosing heritage-based skill boons, keep the number down. One or two boons at most. These are narratively based and fairly unique starting conditions for a character. 
 
 ### Determine Assets
 In most cases, your character will have left home with their everyday clothes and some of their **property**. 
