@@ -539,9 +539,9 @@ A **PC** can only actively practice one **attribute**. Furthermore, a **PC** can
 
 For every **cycle** that passes of active practice, the **PC** can roll a [test](#tests) for the chosen **attribute**. 
 
-A **cycle** is 2 Months, regardless of attribute being practiced. 
+A **cycle** is 1 month, regardless of attribute being practiced. 
 
-> A **PC** spends a year practicing their [wisdom](#wisdom-wis), while the **GM** prepares the next story arc. In this case, 5 tests can be made and progress noted. 
+> A **PC** spends 3 months practicing their [wisdom](#wisdom-wis). In this case, 3 tests can be made and the progress noted. 
 
 #### Base Initiative
 Whenever the order in which characters act matters, their **base initiative** comes into play. It, together with a dice roll, determine how early a character gets to take action in a given scenario. 
