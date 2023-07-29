@@ -959,7 +959,9 @@ This **state** lasts until either the source of terror is removed or until it is
 #### Unconscious
 An **unconscious** character is unable to act and is unaware of their surroundings. 
 
-Someone *knocked* **unconscious** can't awaken due to external stimuli and have to recover, first. For how long, depends on the circumstances. But several hours hould be a good baseline. 
+Someone *knocked* **unconscious** can't awaken due to external stimuli and have to recover, first. For how long, depends on the circumstances. But several hours hould be a good baseline. A character can be *knocked* **unconscious**, if they're at their exhaustion threshold and suffer any [bludgeoning](#damage-types) damage and fail an [endurance](#endurance-end) [test](#tests). The **Ob** is 2 + 1 per level of exhaustion past the threshold.
+
+> A character is brought to an exhaustion level of 4 with bludgeoning damage, which is 1 point past their exhaustion threshold of 3. They must succeed an **endurance** test at **Ob** 3, or else be knocked unconscious. 
 
 ### Illness
 An illness can affect a character over a perod of time and cause various negative effects. 
@@ -994,7 +996,7 @@ All damage inflicted, is inflicted with a certain type of damage.
 | ----------- | ----------- |
 | Slashing    | Usually inflicted by any sort of cutting/slashing weapon, like a sword, or a talon. |
 | Piercing    | Usually inflicted by any sort of stabbing weapon, like a spear, or an animal's stinger. |
-| Bludgeoning | Inflicted by light blunt weapons and [unarmed](#unarmed-combat-str) attacks. **Bludgeoning** causes non-lethal damage. It inflicts [exhaustion](#exhaustion) instead of [injuries](#injury). An [exhausted](#exhausted) character hit with **bludgeoning** damage has to succeed an [endurance](#endurance-end) test, or else fall [unconscious](#unconscious). |
+| Bludgeoning | Inflicted by light blunt weapons and [unarmed](#unarmed-combat-str) attacks. **Bludgeoning** causes non-lethal damage. It inflicts [exhaustion](#exhaustion) instead of [injuries](#injury). An [exhausted](#exhausted) character hit with **bludgeoning** damage has to succeed an [endurance](#endurance-end) [test](#tests), or else fall [unconscious](#unconscious). The **Ob** is 2 + 1 per level of exhaustion past the threshold. |
 | Crushing    | Usually inflicted by any sort of heavy blunt weapon, like a hammer, or an animal's tusks. |
 | Burning     | Inflicted by extreme heat. |
 | Freezing    | Inflicted by extreme cold. |
