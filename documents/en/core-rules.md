@@ -614,9 +614,7 @@ Which **skills** can be **forked** into a particular test is up to the **GM**. I
 #### Learning Skills
 Whenever asked to test a skill a **PC** does not yet know, it will be added or progressed in the *currently learning* section of the character sheet. 
 
-A skill in learning can only be tested with their related [attribute](#attributes). If multiple attributes are listed for a skill, you can choose which one to test with. 
-
-A skill in learning must be tested at **double the** **Ob** than if it were a known skill. 
+A skill in learning can only be tested with half their related [attribute](#attributes) (rounded down). If multiple attributes are listed for the skill, you can choose which one to test with. 
 
 > A player is asked to test their character's [Leatherworking](#leatherworking-agi) at **Ob** 2. Their character lacks that skill and thus adds it to the *currently learning* section on their character sheet. Assuming their character has an agility of 3, they get to roll **3D6**. But since this is a skill being learned, the **Ob** must be doubled. 
 > 
