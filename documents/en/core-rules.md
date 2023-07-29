@@ -1224,7 +1224,7 @@ Please keep in mind the values here are representative for an ordinary human abo
 1. Row up your dice to form a line, then read them from one end to the other and note each value. The order in which they are written down, is the order in which they'll be applied to the attributes. 
 2. If there are more than 2 4s, start lowering their value by one, starting from the left or the right, until there are only 2 4s left. 
 3. Count up the total of your values. 
-   1. Subtract your total from **23**.
+   1. Subtract your total from **26**.
    2. If the number is negative, that's the number of levels you'll have to go down. <br>
    If the number is positive, that's the number of levels you'll have to go up. 
 4. Starting from the left or right, start adjusting each value.
