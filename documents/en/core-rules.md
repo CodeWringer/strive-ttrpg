@@ -1447,7 +1447,7 @@ When [injured](#injury), a character should prepare to spend time away from adve
 When not busy with work and adventure, **PC**s may train, in order to passively improve their [attributes](#practicing-attributes) or [skills](#practicing-skills). This time is usually best handled abstractly, by not playing out the details of the training. 
 
 ## Scenario-Time
-In contrast to [down-time], scenario-time describes the point in the narrative when the PCs are dealing with a specific situation on a fine-grained level, where the amount of time that is spent matters. 
+In contrast to [down-time](#down-time), scenario-time describes the point in the narrative when the PCs are dealing with a specific situation on a fine-grained level, where the amount of time that is spent matters. 
 
 This is especially the case in scenarios of [combat](#combat), tense negotiation, risky exploration, survival and the like, where each individual step on the path matters as much as the path itself. 
 
