@@ -109,6 +109,7 @@
         - [Semi-Random Attribute Assignment](#semi-random-attribute-assignment)
         - [Determine Attribute Advancing Thresholds](#determine-attribute-advancing-thresholds)
       - [Choosing Skills](#choosing-skills)
+      - [Determine Boons from Heritage](#determine-boons-from-heritage)
     - [Determine Assets](#determine-assets)
     - [Determine Max HP \& Injury Maximum](#determine-max-hp--injury-maximum)
     - [Determine Exhaustion Threshold](#determine-exhaustion-threshold)
@@ -134,18 +135,23 @@
   - [Action Points (AP)](#action-points-ap)
     - [Action Point Saving](#action-point-saving)
   - [Combat Movement](#combat-movement)
+    - [Swap-Out](#swap-out)
+    - [Disengage](#disengage)
   - [Attacking](#attacking)
     - [Damage](#damage)
     - [Attack Modifiers](#attack-modifiers)
       - [Aimed Attack](#aimed-attack)
       - [Easy Attack](#easy-attack)
       - [Execution Attack](#execution-attack)
+    - [Attacks of Opportunity](#attacks-of-opportunity)
   - [Defending](#defending)
     - [Cover](#cover)
+    - [Defending an Ally](#defending-an-ally)
   - [Throwing](#throwing)
     - [Throwing-Distance](#throwing-distance)
     - [Throwing-Accuracy](#throwing-accuracy)
     - [Throwing-Damage](#throwing-damage)
+  - [Unarmed Combat (Str)](#unarmed-combat-str)
 - [Appendix](#appendix)
   - [Lists of Skills](#lists-of-skills)
     - [Physical Skills](#physical-skills)
@@ -160,7 +166,6 @@
       - [Thievery (Agi)](#thievery-agi)
       - [Observation (Perc)](#observation-perc)
       - [Path-finding (Perc)](#path-finding-perc)
-      - [Tactics (Str)](#tactics-str)
       - [Throwing (Agi)](#throwing-agi)
       - [Weapon \< weapon type \> (Str)](#weapon--weapon-type--str)
     - [Social Skills](#social-skills)
@@ -310,7 +315,7 @@ How many **positives** are needed to succeed a test, is determined by the **GM**
 
 To resolve an **attribute test**, the number of **D6** indicated by the *attribute level* (the number next to the attribute) must be rolled. 
 
-To resolve a **skill test**, the number of **D6** indicated by the **skill level** (the number next to the skill), plus the related **attribute** as additional dice must be rolled. 
+To resolve a **skill test**, the number of **D6** indicated by the **skill level** (the number next to the skill), plus **half** of the related **attribute** (rounded down) as additional dice must be rolled. 
 
 > A **PC** has an [agility](#agility-agi) of 3 and an [acrobatics](#acrobatics-agi) skill at level 2. The player is asked to roll a test for [acrobatics](#acrobatics-agi) at **Ob** 2. They get to roll 3 + 2 = 5 **D6**, if they don't have any other skills to [fork](#skill-forking) into the test. 
 
@@ -428,7 +433,7 @@ These abilities determine the chance a character will succeed at the tasks they 
 **Attributes** describe a character's basic, inherent abilities. 
 
 The *modified* level of an **attribute** dictates the base number of **D6** to roll for a [test](#tests) of that **attribute**. 
-* Two values must be tracked for every **attribute**: The *unmodified* and *modified* level. See [boons and penalties](#boons--penalties). 
+* Two values must be tracked for every **attribute**: Its level and its modifiers. See also [boons and penalties](#boons--penalties). The result of adding or subtracting the modifiers to the level of an **attribute** results in the number of **D6** to roll for a [test](#tests) of that **attribute**. This also factors into the related **attribute** level to also factor into [skill](#skills) [tests](#tests). 
 * Unlike [skills](#skills), it is **not** possible to [fork](#skill-forking) **attributes**. 
 * Attribute values typically range from 2 to 5 for ordinary human characters. 
 
@@ -535,9 +540,9 @@ A **PC** can only actively practice one **attribute**. Furthermore, a **PC** can
 
 For every **cycle** that passes of active practice, the **PC** can roll a [test](#tests) for the chosen **attribute**. 
 
-A **cycle** is 2 Months, regardless of attribute being practiced. 
+A **cycle** is 1 month, regardless of attribute being practiced. 
 
-> A **PC** spends a year practicing their [wisdom](#wisdom-wis), while the **GM** prepares the next story arc. In this case, 5 tests can be made and progress noted. 
+> A **PC** spends 3 months practicing their [wisdom](#wisdom-wis). In this case, 3 tests can be made and the progress noted. 
 
 #### Base Initiative
 Whenever the order in which characters act matters, their **base initiative** comes into play. It, together with a dice roll, determine how early a character gets to take action in a given scenario. 
@@ -551,9 +556,9 @@ See also [initiative](#initiative).
 ### Skills
 A **skill** is any acquired knowledge and experience regarding a specific subject. 
 
-Two values must be tracked for every **skill**: The *unmodified* and *modified* level. See [boons and penalties](#boons--penalties). The *modified* level of a **skill** dictates the base number of **D6** to roll for a [test](#tests) of that **skill**.
+Two values must be tracked for every **skill**: Its level and its modifiers. See also [boons and penalties](#boons--penalties). The result of adding or subtracting the modifiers to the level of a **skill** results in the number of **D6** to roll for a [test](#tests) of that **skill**.
 
-When [testing](#tests) a **skill**, add half of the related [attribute](#attributes)'s value (rounded down) as an additional number of dice for the test. It is also possible to [fork](#skill-forking) **skills**, allowing even more dice to be used the test. 
+When [testing](#tests) a **skill**, add **half** of the related [attribute](#attributes)'s value (rounded down) as an additional number of dice for the test. It is also possible to [fork](#skill-forking) **skills**, allowing even more dice to be used the test. 
 
 **Skills** [advance](#advancing-skills), as they're tested. It is also possible to [practice](#practicing-skills) and [teach](#teaching-skills) **skills**. 
 
@@ -591,7 +596,7 @@ The number of targets that a [skill ability](#skill-abilities) can apply to, wit
 A **single-target** (**ST**) action affects only a single target. 
 
 ###### Multiple Single Target (MST)
-A **single-target** (**ST**) action affects up to a maximum number of targets. 
+A **multiple-single-target** (**MST**) action affects at least one and up to a maximum number of targets. 
 
 ###### Area of Effect (AoE)
 **Area of Effect** (**aoe**) actions affect *every* target that is in the area of effect. 
@@ -610,9 +615,7 @@ Which **skills** can be **forked** into a particular test is up to the **GM**. I
 #### Learning Skills
 Whenever asked to test a skill a **PC** does not yet know, it will be added or progressed in the *currently learning* section of the character sheet. 
 
-A skill in learning can only be tested with their related [attribute](#attributes). If multiple attributes are listed for a skill, you can choose which one to test with. 
-
-A skill in learning must be tested at **double the** **Ob** than if it were a known skill. 
+A skill in learning can only be tested with half their related [attribute](#attributes) (rounded down). If multiple attributes are listed for the skill, you can choose which one to test with. 
 
 > A player is asked to test their character's [Leatherworking](#leatherworking-agi) at **Ob** 2. Their character lacks that skill and thus adds it to the *currently learning* section on their character sheet. Assuming their character has an agility of 3, they get to roll **3D6**. But since this is a skill being learned, the **Ob** must be doubled. 
 > 
@@ -682,7 +685,7 @@ A **PC** can only actively practice one **category of skills**. For every **cycl
 | Craftsmanship  | 1 Month  |
 | Knowledge      | 2 Months |
 
-> A **PC** spends seven weeks practicing their [tactics](#tactics-str), while waiting for their comrade to recover from their [injuries](#injury). [Tactics](#tactics-str) being a physical skill, the cycle for tests is 3 weeks. In this case, 2 tests can be made and their outcomes noted. 
+> A **PC** spends seven weeks practicing their [fishing](#fishing-end), while waiting for their comrade to recover from their [injuries](#injury). [fishing](#fishing-end) being a physical skill, the cycle for tests is 3 weeks. In this case, 2 tests can be made and their outcomes noted. 
 
 ##### Teaching Skills
 Much like it is possible for a character to [practice](#practicing-skills) on their own, they can also be taught by another, who knows more than them. 
@@ -957,7 +960,9 @@ This **state** lasts until either the source of terror is removed or until it is
 #### Unconscious
 An **unconscious** character is unable to act and is unaware of their surroundings. 
 
-Someone *knocked* **unconscious** can't awaken due to external stimuli and have to recover, first. For how long, depends on the circumstances. But several hours hould be a good baseline. 
+Someone *knocked* **unconscious** can't awaken due to external stimuli and have to recover, first. For how long, depends on the circumstances. But several hours hould be a good baseline. A character can be *knocked* **unconscious**, if they're at their exhaustion threshold and suffer any [bludgeoning](#damage-types) damage and fail an [endurance](#endurance-end) [test](#tests). The **Ob** is 2 + 1 per level of exhaustion past the threshold.
+
+> A character is brought to an exhaustion level of 4 with bludgeoning damage, which is 1 point past their exhaustion threshold of 3. They must succeed an **endurance** test at **Ob** 3, or else be knocked unconscious. 
 
 ### Illness
 An illness can affect a character over a perod of time and cause various negative effects. 
@@ -992,7 +997,7 @@ All damage inflicted, is inflicted with a certain type of damage.
 | ----------- | ----------- |
 | Slashing    | Usually inflicted by any sort of cutting/slashing weapon, like a sword, or a talon. |
 | Piercing    | Usually inflicted by any sort of stabbing weapon, like a spear, or an animal's stinger. |
-| Bludgeoning | Inflicted by light blunt weapons and unarmed attacks. **Bludgeoning** causes non-lethal damage. It inflicts [exhaustion](#exhaustion) instead of [injuries](#injury). An [exhausted](#exhausted) character hit with **bludgeoning** damage has to succeed an [endurance](#endurance-end) test, or else fall [unconscious](#unconscious). |
+| Bludgeoning | Inflicted by light blunt weapons and [unarmed](#unarmed-combat-str) attacks. **Bludgeoning** causes non-lethal damage. It inflicts [exhaustion](#exhaustion) instead of [injuries](#injury). An [exhausted](#exhausted) character hit with **bludgeoning** damage has to succeed an [endurance](#endurance-end) [test](#tests), or else fall [unconscious](#unconscious). The **Ob** is 2 + 1 per level of exhaustion past the threshold. |
 | Crushing    | Usually inflicted by any sort of heavy blunt weapon, like a hammer, or an animal's tusks. |
 | Burning     | Inflicted by extreme heat. |
 | Freezing    | Inflicted by extreme cold. |
@@ -1012,7 +1017,7 @@ A boon to an [attribute](#attributes) or [skill](#skills) usually comes in the f
 
 A penalty to an [attribute](#attributes) or [skill](#skills) usually comes in the form of decreasing its level. A penalty **cannot** reduce an [attribute](#attributes) or [skill](#skills) to 0. The minimum reduction is to 1. An exception to this rule is, when the character's only reason for having the [attribute](#attributes) or [skill](#skills) is a boon. In that case, the penalty **can** reduce the level to 0, effectively removing the [attribute](#attributes) or [skill](#skills). 
 
-Therefore, an [attribute's](#attributes) or [skill's](#skills) *unmodified* level must be tracked separately from its *modified* level. 
+Therefore, an [attribute's](#attributes) or [skill's](#skills) level and its modifiers must be tracked. The modifier value is added or subtracted from the level to yield an effective level. 
 
 Whenever a boon or penalty alters the level of an [attribute](#attributes) or [skill](#skills), it does **not** affect the **successes** and **failures** required to advance. 
 
@@ -1220,7 +1225,7 @@ Please keep in mind the values here are representative for an ordinary human abo
 1. Row up your dice to form a line, then read them from one end to the other and note each value. The order in which they are written down, is the order in which they'll be applied to the attributes. 
 2. If there are more than 2 4s, start lowering their value by one, starting from the left or the right, until there are only 2 4s left. 
 3. Count up the total of your values. 
-   1. Subtract your total from **23**.
+   1. Subtract your total from **26**.
    2. If the number is negative, that's the number of levels you'll have to go down. <br>
    If the number is positive, that's the number of levels you'll have to go up. 
 4. Starting from the left or right, start adjusting each value.
@@ -1243,6 +1248,9 @@ You can spend **8** points to *learn* skills and raise their level, with the fol
 Once you've chosen skills, you can determine the required number of successes and failures each skill requires, in order to advance. 
 
 For this, see the rules on [skill advancing](#advancing-skills).
+
+#### Determine Boons from Heritage
+It is possible for a character to receive permanent boons or penalties during character creation, based upon their cultural heritage. This is entirely at the **GM**'s discretion and subject to their world. When choosing heritage-based skill boons, keep the number down. One or two boons at most. These are narratively based and fairly unique starting conditions for a character. 
 
 ### Determine Assets
 In most cases, your character will have left home with their everyday clothes and some of their **property**. 
@@ -1439,7 +1447,7 @@ When [injured](#injury), a character should prepare to spend time away from adve
 When not busy with work and adventure, **PC**s may train, in order to passively improve their [attributes](#practicing-attributes) or [skills](#practicing-skills). This time is usually best handled abstractly, by not playing out the details of the training. 
 
 ## Scenario-Time
-In contrast to [down-time], scenario-time describes the point in the narrative when the PCs are dealing with a specific situation on a fine-grained level, where the amount of time that is spent matters. 
+In contrast to [down-time](#down-time), scenario-time describes the point in the narrative when the PCs are dealing with a specific situation on a fine-grained level, where the amount of time that is spent matters. 
 
 This is especially the case in scenarios of [combat](#combat), tense negotiation, risky exploration, survival and the like, where each individual step on the path matters as much as the path itself. 
 
@@ -1459,21 +1467,35 @@ The steps to *prepare* for combat are as follows:
    1. Before any action during a combat scenario can be taken, [Initiative order](#initiative) must first be determined. 
    2. This includes *everyone*, not just the active combatants. This way, should anyone join the fight, they're easier to work into the [initiative order](#initiative). Or, if they stay out of the fight, it's easier to determine when they get to act out-of-combat. 
 
-During combat, when a character gets their **turn**, they can choose to perform an action. How many actions they get to perform, depends on the [action points](#action-points-ap) they have available for that turn. Actions are:
-* Attacking
-* Moving
+During combat, when a character gets their **turn**, they can choose to perform an action. How many actions they get to perform, depends on the [action points](#action-points-ap) they have available for that turn. 
+
+Active actions during combat are:
+* [Attacking](#attacking)
+  * [Throwing](#throwing)
+  * [Unarmed combat](#unarmed-combat-str)
+* [Moving](#combat-movement)
+  * [Disengaging](#disengage)
+  * [Swapping out](#swap-out)
 * Speaking
 * Waiting (= abstaining from an action)
+
+Reactions during combat are:
+* [Attacks of Opportunity](#attacks-of-opportunity)
+* [Defending](#defending)
+  * [Defending an ally](#defending-an-ally)
 
 Combat ends, when neither side has the ability or will left to fight. At this point, **initiative order** will oftentimes no longer be needed. 
 
 ## Action Points (AP)
 Every **turn**, every character gets 3 **Action Points (AP)** to spend on actions during their **turn**. Some [skills](#skills), [boons and penalties](#boons--penalties) can alter this number. 
 
+At the start of a combat encounter, **all characters** start with 3 **AP**. After that, **AP** are only regained per-character, upon the start of their turn. 
+
 * Any basic action, that is, any action not requiring a [test](#tests), costs 1 **AP**. 
   * Speaking or shouting a short phrase is free. If you want to have a proper conversation, that will cost you one or more **AP**, depending on how much you have to say. 
   * [Basic movement](#combat-movement) counts as a basic action. 
   * Handing an object over to a character adjacent to you, is a basic action (assuming you don't have to force it on them). 
+  * Pulling something from your bag or getting a weapon ready (from your back, scabbard or wherever you keep it) also counts as a movement action and costs 1 **AP**. 
 * Any action requiring a [test](#tests), costs 2 **AP**. 
 * [Skill abilities](#skill-abilities) can cost varying amounts of **AP**. The exact number will be noted on the [skill ability](#skill-abilities) in question. 
 
@@ -1497,8 +1519,20 @@ A character can move up to **12'/4m** (= 4 fields on a grid) per **AP** spent. I
 
 It is also possible to **sprint**, doubling the distance one can move per **AP**, but at the cost of 1 point of [exhaustion](#exhaustion) for every **AP** spent **sprinting**. 
 
+### Swap-Out
+It is possible to swap positions with an adjacent ally, without provoking an [attack of opportunity](#attacks-of-opportunity) for either character. 
+
+This **action** costs 3 [AP](#action-points-ap). 
+
+The ally in question can **oppose** this action with [strength](#strength-str). 
+
+### Disengage
+It is possible to move out of or through an enemy's **range of opportunity** without provoking an [attack of opportunity](#attacks-of-opportunity). This action costs 2 [AP](#action-points-ap). 
+
+When disengaging from or pushing through more than one **range of opportunity** in the same action, every additional **range of opportunity** past the first adds 1 [AP](#action-points-ap) cost. 
+
 ## Attacking
-Attacks are made using a [skill ability](#skill-abilities) of a [weapon](#weapon--weapon-type--str), the [unarmed](#unarmed) or [throwing](#throwing-agi) [skill](#skills). 
+Attacks are made using a [skill ability](#skill-abilities) of a [weapon](#weapon--weapon-type--str), the [unarmed](#unarmed-combat-str) or [throwing](#throwing-agi) [skill](#skills). 
 
 An attack generally requires an [opposed test](#opposed-test) to be made. If the attacker wins, the full [damage](#damage) is applied to the defender. 
 
@@ -1538,6 +1572,13 @@ Such an attack can be carried out against any character who is unable to resist 
 
 This kind of attack is only possible at the **GM**'s discretion. 
 
+### Attacks of Opportunity
+When a character is within weapon's reach of another hostile character, they're considered within the other's **range of opportunity**. Whenever a character in an enemy's **range of opportunity** moves away from or more than 2m/6' around that enemy, that enemy can **choose to perform an attack of opportunity**. It is possible to avoid an **attack of opportunity** with a [disengage](#disengage) combat action. 
+
+Performing an **attack of opportunity** costs 1 [AP](#action-points-ap) at a **-1D** penalty and will **halt** the enemy in question and prevent their movement, regardless of whether the attack lands. The attacked party can still choose to push past, thus still getting to move, but if they do, the **attack of opportunity** is **guaranteed** to land successfully, without any attack [test](#tests) necessary. 
+
+An **attack of opportunity** is a **combat action** and a **reaction**. 
+
 ## Defending
 There are two types of defense:
 * **Active defense**: Costs 1 [AP](#action-points-ap) and uses all available dice for the [test](#tests). 
@@ -1560,6 +1601,11 @@ There are two categories of cover:
   * Low cover is any static object to hide behind that doesn't fully cover the body, like a tree stump or low wall. 
 * **High cover**: +2 **Ob** against a target that is behind high cover. 
   * High cover is any static object to hide behind that fully covers the body, like a tall wall or large boulder. 
+
+### Defending an Ally
+It is possible for a character to defend an adjacent ally when they're being attacked. This costs 2 [AP](#action-points-ap) and results in the ally taking over the defense being forced to roll the defence test, instead of the originally attacked character. 
+
+Defending an ally is a **combat action** and a **reaction**. 
 
 ## Throwing
 Throwing things is a special type of action, that follows the rules outlined below. 
@@ -1605,6 +1651,20 @@ When throwing non-weapons, the damage dealt is calculated the following way: [st
 The [damage type](#damage-types) to use, depends on the type of object and how it hits the target. For most non-weapons, **bludgeoning** will be appropriate. 
 
 > A character with [strength](#strength-str) 5, throwing a [bulk](#bulk) 3 object, can deal 5 * 3 = 15 points of damage. 
+
+## Unarmed Combat (Str)
+Sometimes, your own body is your greatest weapon. Fists and feet can cause a surprising amount of damage. 
+
+* Melee
+* This is a skill
+
+| Skill | **Ob**  | Attack                  | AP | Damage/Effect         | Condition |
+| ----- | ------- | ----------------------- | -- | --------------------- | --------- |
+| 0     | Opposed by [Melee Defence](#melee-defence-agi) | Punch, kick, headbutt   | 2  | **Str** + 2 **Bludgeoning** | Enemy is within melee reach of 3'/1m. |
+| 0     | Opposed by [Melee Defence](#melee-defence-agi) | Shove                   | 2  | Push an enemy away from you for 3'/1m. | Enemy is within melee reach. |
+| 1     | Opposed by **Unarmed Combat**                  | Grapple                 | 2  | If **completely successful**, the target is unable to move and suffers **-1D** to their defense tests, for as long as they're grappled. Someone grappled can attempt to break free with an opposed **Unarmed Combat** test, on their turn. The grappler can not use at least one of their hands for as long as they're grappling. | Enemy is within melee reach. |
+| 2     | Opposed by **Unarmed Combat**                  | Wrestle and Disarm      | 2  | Perform a [single target](#single) attack against a designated enemy. If you win, you disarm them and could wrestle them to the ground, making them [prone](#prone), if you so choose. | Disarm only if enemy is using detachable weapon. |
+| 3     | Opposed by [strength](#strength-str)           | Barge in                | 3  | Push back an enemy within melee reach and take their position. | Enemy is within melee reach. | 
 
 # Appendix
 The appendix contains important and less important lists, for reference only when needed. 
@@ -1688,17 +1748,6 @@ Orienting oneself in the world and finding and following tracks.
 | ----- | -------------------- | -- | ------ | ------------------ | ------------ |
 | 3     | Find your Bearings   | 1  | 2      | Figure out your current heading and time of day, even when in complete darkness or in a place without landmarks. | Once per rest. |
 
-#### Tactics (Str)
-The ability to understand and influence local combat movements, right there, in the moment. 
-
-| Level | Name                 | AP | **Ob**  | Effect(s)          | Condition(s) |
-| ----- | -------------------- | -- | ------- | ------------------ | ------------ |
-| 1     | Protect Ally         | 3  | /       | When a designated ally next to is attacked, **you** defend against it, instead. | Adjacent to an ally. |
-| 2     | Shove                | 3  | Opposed | Push an enemy away from you for 3'/1m. | Enemy is within melee reach. |
-| 2     | Opportunity Attacks  | 3  | Opposed | Whenever an enemy within your reach moves in any way, you get to strike them with a melee attack. They can defend themselves with a **+1D** bonus. |  |
-| 3     | Swap-out             | 3  | (Opposed) | Swap positions with an adjacent ally, if they let you. If they resist, you must succeed an opposed [strength](#strength-str) test, to swap with them against their will. | Adjacent to ally. |
-| 3     | Barge in             | 3  | Opposed | Push back an enemy within melee reach and take their position. You must succeed an opposed [strength](#strength-str) test. | Enemy is within melee reach. | 
-
 #### Throwing (Agi)
 General expertise at throwing things. This includes weapons as well as non-weapon objects. 
 
@@ -1729,8 +1778,6 @@ Speaking commands others will respect and follow to the letter.
 | 5     | Unquestionable Command | 2 | 3 | An ally of choice, gains **+2D** on their next test. | Ally can hear the command. |
 | 6     | Spur                   | 2 | 4 | An ally of choice, is [hastened](#hasted) for one turn of combat, or five seconds out of combat. | Ally can hear the command. |
 
-Not to be confused with [tactics](#tactics-str). 
-
 #### Deception (Ora)
 Telling lies, acting in a way so as to deceive another character into believing something untruthful. 
 
@@ -1745,10 +1792,11 @@ Is opposed by [resist](#resist-will).
  
 | Level | Name                 | AP | **Ob**  | Effect(s)          | Condition(s) |
 | ----- | -------------------- | -- | ------- | ------------------ | ------------ |
-| 1     | Draw Attention       | 1  | Opposed | Force all creatures within 18'/6m distance to focus on you, instead. After they've attacked or otherwise had their attention on you, they may divert their attention, again. | Once per combat. |
-| 2     | Taunt                | 1  | Opposed | Lower a designated creature's defence by **-1D** for 1 turn. | Once per creature; Creature can hear. |
-| 3     | Vicious Mockery      | 1  | Opposed | Lower a designated creature's defence by **-3D** for 3 turns. | Once per combat. |
-| 4     | War Cry              | 1  | Opposed | Lower the defence of all creatures within 18'/6m distance by **-2D**, for 4 turns. | Once per combat. |
+| 0     | Draw Attention       | 1  | Opposed | Force one designated creature within 18'/6m distance to focus on you, instead. After they've attacked or otherwise had their attention on you, they may divert their attention, again. | / |
+| 1     | Draw More Attention  | 1  | Opposed | Force N designated creatures within 36'/12m distance to focus on you, instead, where *N* is equal to your level in this skill. After they've attacked or otherwise had their attention on you, they may divert their attention, again. | Once per combat. |
+| 1     | Taunt                | 1  | Opposed | Lower a designated creature's defence by **-1D** for 1 turn. | Once per creature; Creature can hear. |
+| 2     | Vicious Mockery      | 1  | Opposed | Lower a designated creature's defence by **-3D** for 3 turns. | Once per combat. |
+| 3     | War Cry              | 1  | Opposed | Lower the defence of all creatures within 18'/6m distance by **-2D**, for 4 turns. | Once per combat. |
 
 #### Mercantilism (Ora)
 Skill at bartering for goods and services and negotiating prices. Also useful to determine the availability of goods and materials and what their current demands and supply are. 
