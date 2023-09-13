@@ -1,13 +1,13 @@
 # Ambersteel - Core Rules Reminder Sheet
 
 ## Tests
-* **Attributes** and **skills** can be tested. 
+* **Attributes** and **skills** can be tested with their **modified level**. 
 * **Ob** - "Obstacle": The number of **positives** that must be rolled to succeed a test. 
 * Skills can be **forked**: **+1D** for a test for every other skill a character knows that is arguably related to what they're trying to achieve. 
 * Skills and attributes **improve with use**. 
   * Skills require set numbers of **successes** and **failures**.
   * Attributes require only a set number of tests. 
-  * Progress is only counted towards and based on the unmodified level. 
+  * Progress is only counted towards and based on the *raw level*. 
 * **Characters can help** each other in tests: Like skill **forking**, but from a different character. 
   * **Helpers learn**: the outcome of the helped character is also their own.  
   * Skills can be **taught**
