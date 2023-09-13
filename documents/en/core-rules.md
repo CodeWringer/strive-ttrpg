@@ -9,6 +9,8 @@
     - [Spending Time](#spending-time)
   - [After the Session](#after-the-session)
   - [Tests](#tests)
+    - [Testing an Attribute](#testing-an-attribute)
+    - [Testing a Skill](#testing-a-skill)
     - [Types of Test](#types-of-test)
       - [Binary Test](#binary-test)
       - [Stepped Test](#stepped-test)
@@ -305,26 +307,58 @@ Also any time in between sessions, players should re-evaluate aspects of their c
 ## Tests
 Whenever the outcome of an action or situation is uncertain, a **test** may be called for by the **GM**, in order to resolve it. 
 
-As a basis for a test, either an [attribute](#attributes) or [skill](#skills) is used. 
+As a basis for a test, either an [attribute](#attributes) or [skill](#skills) is used. More specifically, their **modified level** determines the number of **D6** available for tests regarding them. The **modified level** is the result of adding and subtracting [boons and penalties](#boons--penalties) (the sum of which is referred to as **modifier**) to or from the **raw level**. Note that while no [boons or penalties](#boons--penalties) are present on the character, their **modified level** is equal to their **raw level**. 
 
 Either a **six** or a **five** rolled on a single die counts as a **positive**. Other values are considered **negatives**. **Positives** are required in order to succeed a test. 
 
-How many **positives** are needed to succeed a test, is determined by the **GM**, via a mechanism called **obstacle** (henceforth referred to as **Ob**). The test can only succeed, if at least as many **positives** are rolled, as the **Ob** named by the **GM**. 
+How many **positives** are needed to succeed a test, is determined by the **GM** or by other characters, via a mechanism called **obstacle** (henceforth referred to as **Ob**). The test can only succeed, if at least as many **positives** are rolled, as the given **Ob**. 
 
 > For example, to succeed a test at **Ob 3**, at least three **positives** must be rolled to succeed the test. Any less, and the test outcome is a failure. 
 
-To resolve an **attribute test**, the number of **D6** indicated by the *attribute level* (the number next to the attribute) must be rolled. 
-
-To resolve a **skill test**, the number of **D6** indicated by the **skill level** (the number next to the skill), plus **half** of the related **attribute** (rounded down) as additional dice must be rolled. 
-
-> A **PC** has an [agility](#agility-agi) of 3 and an [acrobatics](#acrobatics-agi) skill at level 2. The player is asked to roll a test for [acrobatics](#acrobatics-agi) at **Ob** 2. They get to roll 3 + 2 = 5 **D6**, if they don't have any other skills to [fork](#skill-forking) into the test. 
-
-A [skill being learned](#learning-skills) is tested with *only* the related **attribute**. 
+The **Ob** isn't always determined directly by the **GM**. Whenever an [opposed test](#opposed-test) must be made, the **Ob** is determined by another character. 
 
 For every test, one of three outcomes is possible: 
 * **Complete Success**: There are enough or even more than required **positives**.
 * **Partial Success/failure**: There are not enough **positives**, but more than none. 
 * **Complete Failure**: There are no **positives**, only **negatives**. 
+
+### Testing an Attribute
+To resolve an **attribute test**, the number of **D6** determined by the **attribute's modified level** must be rolled. 
+
+> A **PC** has an [agility](#agility-agi) of 3 and an [injury](#injury) that imposes a [penalty](#boons--penalties) of -1 to their **agility**. 
+>
+> When asked to test their **agility**, their player takes their **raw level** (3), subtracts the **penalty** (1) and thus knows their **modified level** to be 2. 
+>
+> This means they get to roll 2 **D6** for their **test**. 
+
+Unlike with [skills](#skills), it is **not** possible to [fork](#skill-forking) **attributes**. 
+
+### Testing a Skill
+To resolve a **skill test**, the number of **D6** indicated by the **skill's modified level**, plus the related **attribute's modified level** as additional **D6** must be rolled. 
+
+> A **PC** has an [agility](#agility-agi) at **modified level** 3 and an [acrobatics](#acrobatics-agi) skill at **modified level** 2. 
+> 
+> They are asked to roll a test for [acrobatics](#acrobatics-agi) at **Ob** 2. They get to roll 3 + 2 = 5 **D6**, if they don't have any other skills to [fork](#skill-forking) into the test. 
+
+> A **PC** has an [agility](#agility-agi) at **raw level** 3, with a [penalty](#boons--penalties) of -1 and an [acrobatics](#acrobatics-agi) skill at **raw level** 1, with a [boon](#boons--penalties) of +1. 
+> 
+> They are asked to roll a test for [acrobatics](#acrobatics-agi) at **Ob** 2. They get to roll (3 - 1) + (1 + 1) = 4 **D6**, if they don't have any other skills to [fork](#skill-forking) into the test. 
+
+It possible to [fork](#skill-forking) **skills**, allowing even more dice to be used in a  test. **Do not forget to fork your skills in tests!**
+
+> A **PC** has an [agility](#agility-agi) at **modified level** 2, [stealth](#stealth-agi) at **modified level** 2 and [thievery](#thievery-agi) at **modified level** 1. 
+>
+> They are asked to roll a test for their **thievery** at **Ob** 4. With their **agility** and **thievery** combined, they can only roll 3 **D6** for the test, which means the **Ob** 4 test would be impossible to succeed. 
+>
+> But since they also know **stealth**, they can petition the **GM** to allow them to [fork](#skill-forking) their **stealth** into their **thievery** test. The **GM** agrees and thus allows an additional **D6** to be added to the roll. 
+>
+> Thus, the **PC** gets to roll 4 **D6** for their test. While still difficult to succeed, the test _can_ now be succeeded, where before such a feat was entirely impossible. 
+
+A [skill being learned](#learning-skills) is tested with *only* the related **attribute's level**, which also means a *skill being learned* cannot benefit from [forking](#skill-forking). 
+
+> A **PC** has an [agility](#agility-agi) at **modified level** 3. 
+> 
+> They are asked to roll a test for [acrobatics](#acrobatics-agi) at **Ob** 2. They don't yet know that skill and thus get to roll only the 3 **D6** from their **agility** for their test. 
 
 ### Types of Test
 There are the following types of tests. The **GM** decides when each type of test is appropriate. 
@@ -407,7 +441,7 @@ When a [skill](#skills) is tested, both it **and** its associated [attribute](#a
 * [advancing skills](#advancing-skills)
 * [advancing attributes](#advancing-attributes)
 
-This excludes **Ob** 0 (= automatic success) tests. 
+**Ob** 0 tests only count towards progression, if they are made in an [opposed test](#opposed-test). 
 
 ### Time
 Not all tests are created equal - some actions require more time than others. 
@@ -432,10 +466,9 @@ These abilities determine the chance a character will succeed at the tasks they 
 ### Attributes
 **Attributes** describe a character's basic, inherent abilities. 
 
-The *modified* level of an **attribute** dictates the base number of **D6** to roll for a [test](#tests) of that **attribute**. 
-* Two values must be tracked for every **attribute**: Its level and its modifiers. See also [boons and penalties](#boons--penalties). The result of adding or subtracting the modifiers to the level of an **attribute** results in the number of **D6** to roll for a [test](#tests) of that **attribute**. This also factors into the related **attribute** level to also factor into [skill](#skills) [tests](#tests). 
-* Unlike [skills](#skills), it is **not** possible to [fork](#skill-forking) **attributes**. 
-* Attribute values typically range from 2 to 5 for ordinary human characters. 
+Two values must be tracked for every **attribute**: Its **raw level** and its current **modifier**, which results from the sum of [boons and penalties](#boons--penalties) affecting it. The result of adding or subtracting the modifier to/from the **raw level** yields the **modified level**, which is used in [tests](#tests).
+
+For [testing](#tests) an **attributes**, see the [Testing an attribute](#testing-an-attribute) section. 
 
 **Attributes** [advance](#advancing-attributes), as they or [skills](#skills) that depend on them are [tested](#tests). It is also possible to [practice](#practicing-attributes) **attributes**. It is **not** possible to teach **attributes**, however. 
 
@@ -462,11 +495,11 @@ Governs a character's **strength** - the ability to lift, throw and break heavy 
 
 Also governs the [carrying capacity](#carrying-capacity) of a character. Each point in **strength** raises the [carrying capacity](#carrying-capacity) of the character by 3. 
 
-For every 3 points in **strength**, past the initial level, every [asset slot](#worn--equipped) of a character can hold **assets** of one bulk higher. 
+For every 3 points in **strength**, past the initial **modified level**, every [asset slot](#worn--equipped) of a character can hold **assets** of one bulk higher. 
 
-> At level 3 in **strength**, a character can still only hold **assets** of bulk 2 in each hand. 
+> At **modified level** 3 in **strength**, a character can still only hold **assets** of bulk 2 in each hand. 
 > 
-> Starting at level 4 in **strength**, a character can hold **assets** of bulk 3 in each hand. Then, the next increase is at level 7, then level 10 and so on.
+> Starting at **modified level** 4 in **strength**, a character can hold **assets** of bulk 3 in each hand. Then, the next increase is at level 7, then level 10 and so on.
 
 ##### Toughness [Tough]
 Governs the [injury limit](#injury) and chance to shrug off [bleeding](#bleeding) and [poison](#poisoned). 
@@ -495,7 +528,9 @@ Governs a character's ability to convincingly speak with and before others. Also
 Governs a character's ability to withstand persuasion, intimidation, charm or terror. 
 
 #### Advancing Attributes
-Whenever a **PC** [tests](#tests) an [attribute](#attributes) or a [skill](#skills) that depends on it, progress towards advancing the [attribute](#attributes) must be noted. 
+Whenever a **PC** [tests](#tests) an [attribute](#attributes) or a [skill](#skills) that depends on it, progress towards advancing the [attribute](#attributes) must be noted. See also: [Tests Bring about Learning](#tests-bring-about-learning)
+
+Note that *level* in this section refers to the **raw level** of an **attribute**. That is, the level as it is **before** [boons and penalties](#boons--penalties) are applied to it. 
 
 **Attribute** levels and advancement are divided into three tiers: **Underdeveloped**, **Average** and **Exceptional**. 
 * Attributes are considered **underdeveloped** up to and including level 2. 
@@ -556,17 +591,19 @@ See also [initiative](#initiative).
 ### Skills
 A **skill** is any acquired knowledge and experience regarding a specific subject. 
 
-Two values must be tracked for every **skill**: Its level and its modifiers. See also [boons and penalties](#boons--penalties). The result of adding or subtracting the modifiers to the level of a **skill** results in the number of **D6** to roll for a [test](#tests) of that **skill**.
+Two values must be tracked for every **skill**: Its **raw level** and its current **modifier**, which results from the sum of [boons and penalties](#boons--penalties) affecting it. The result of adding or subtracting the modifier to/from the **raw level** yields the **modified level**, which is used in [tests](#tests).
 
-When [testing](#tests) a **skill**, add **half** of the related [attribute](#attributes)'s value (rounded down) as an additional number of dice for the test. It is also possible to [fork](#skill-forking) **skills**, allowing even more dice to be used the test. 
+For [testing](#tests) a **skill**, see the [Testing a Skill](#testing-a-skill) section. 
 
 **Skills** [advance](#advancing-skills), as they're tested. It is also possible to [practice](#practicing-skills) and [teach](#teaching-skills) **skills**. 
 
 #### Skill Abilities
-Skills can be the *owner* of **skill abilities** associated with them. A **skill ability** is either a *passive* [boon](#boons--penalties) or an *active* **action**, with effects that apply when used.  
+**Skills** can offer **skill abilities**, which further define what the **skill** may be used for. A **skill ability** is either a *passive* [boon](#boons--penalties) or an *active* **action**, with effects that apply when used.  
+
+**Skill abilities** further incentivize specialization, by granting unique powers at higher **skill** levels. 
 
 Every **skill ability** can have the following properties:
-* A **required level** at which they unlock. This is the level of their *owning* **skill**. 
+* A **required level** at which they unlock. This is the **modified level** of their *owning* **skill**. 
   * A **skill ability** may only be used, if the character has the *owning* **skill** with at least this level. 
   * A **skill ability** noting level 0 or no level at all, can be used right away, even without any levels in the *owning* **skill**. 
 * An [AP](#action-points-ap) cost. 
@@ -606,7 +643,7 @@ For every **skill** a character knows (= is not currently still learning), and t
 
 > Imagine a large forked rivermouth. One of the forks feeding into it is also a large river, which represents the **skill** primarily being tested. The other, smaller forks of the river represent the supporting **skills**. They all combine together at the rivermouth. A primary and its supporting **skills** flow together into the test! 
 
-> For example, if a character is testing their [thievery](#thievery-dex--perc--spd) **skill** at level 3 and they also know [stealth](#stealth-dex--spd--int), they can **fork** their stealth **skill** into their thievery test. Any number of **skills** can be **forked** into a test, but each **fork** only grants **+1D6**. For the thievery test above, it doesn't matter if the character is at stealth level one or five or nine-thousand. They only get a **+1D6** to their thievery test. So in this case, if the **GM** agrees, the player gets to roll **4D6** for their test. 
+> For example, if a character is testing their [thievery](#thievery-dex--perc--spd) **skill** at **modified level** 3 and they also know [stealth](#stealth-dex--spd--int), they can **fork** their stealth **skill** into their thievery test. Any number of **skills** can be **forked** into a test, but each **fork** only grants **+1D6**. For the thievery test above, it doesn't matter if the character is at stealth level one or five or nine-thousand. They only get **+1D6** to their thievery test. So in this case, if the **GM** agrees, the player gets to roll **4D6** for their test. 
 
 Which **skills** can be **forked** into a particular test is up to the **GM**. If a player is performing a test, they can lobby for the use of the **skills** they want to **fork** into their particular test, but ultimately, if the **GM** says no, that decision is final. 
 
@@ -629,6 +666,8 @@ It **is** possible to receive help or [tutoring](#teaching-skills) on a learning
 
 #### Advancing Skills
 Whenever a **PC** uses a **skill** in a [test](#tests), the outcome must be noted, both on the skill **and** its associated [attribute](#attributes). See also: [Tests Bring about Learning](#tests-bring-about-learning)
+
+Note that *level* in this section refers to the *raw level* of a **skill**. That is, the level as it is **before** [boons and penalties](#boons--penalties) are applied to it. 
 
 Skill levels and advancement are divided into three tiers: **Dabbling**, **Apprentice** and **Master**. 
 * Skills at **dabbling level** are any skills at level 0, which means any [learning skill](#learning-skills). They are hard to learn without help. 
@@ -699,7 +738,7 @@ Both teacher and pupil must actively spend time together, furthering the pupil's
 | Craftsmanship  | 3 Weeks  |
 | Knowledge      | 1 Month  |
 
-If the teacher's skill is at least one level higher than that of their student, the student can use an extra **+1D6** to resolve their tests of the skill they're being taught. 
+If the teacher's skill is at least one **raw level** higher than that of their student, the student can use an extra **+1D6** to resolve their tests of the skill they're being taught. 
 
 ## Personality
 All **PC**s have a **personality**, which is an expression of their [personality traits](#personality-traits), [ambition](#ambition), [aspirations](#aspiration) and [reactions](#reaction). 
@@ -1013,13 +1052,11 @@ How much **damage** is resisted, depends on the specifics of the creature or cha
 ### Boons & Penalties
 Boons and penalties to the level of an [attribute](#attributes) or [skill](#skills) can be incurred from several different sources, such as [injuries](#injury), [illnesses](#illness), [mutations](#list-of-mutations), [scars](#scars) and [states](#state). Boons and penalties may be temporary or permanent, depending on their source. 
 
-A boon to an [attribute](#attributes) or [skill](#skills) usually comes in the form of increasing its level. If a boon awards an [attribute](#attributes) or [skill](#skills) that the character does not yet have, they gain it automatically. 
+A boon to an [attribute](#attributes) or [skill](#skills) usually comes in the form of increasing its **modified level**. If a boon awards an [attribute](#attributes) or [skill](#skills) that the character does not yet have, they gain it automatically. 
 
-A penalty to an [attribute](#attributes) or [skill](#skills) usually comes in the form of decreasing its level. A penalty **cannot** reduce an [attribute](#attributes) or [skill](#skills) to 0. The minimum reduction is to 1. An exception to this rule is, when the character's only reason for having the [attribute](#attributes) or [skill](#skills) is a boon. In that case, the penalty **can** reduce the level to 0, effectively removing the [attribute](#attributes) or [skill](#skills). 
+A penalty to an [attribute](#attributes) or [skill](#skills) usually comes in the form of decreasing its **modified level**. A penalty **cannot** reduce an [attribute](#attributes) or [skill](#skills) to 0. The minimum reduction is to 1. An exception to this rule is, when the character's only reason for having the [attribute](#attributes) or [skill](#skills) is a boon. In that case, the penalty **can** reduce the **modified level** to 0, effectively removing the [attribute](#attributes) or [skill](#skills). 
 
-Therefore, an [attribute's](#attributes) or [skill's](#skills) level and its modifiers must be tracked. The modifier value is added or subtracted from the level to yield an effective level. 
-
-Whenever a boon or penalty alters the level of an [attribute](#attributes) or [skill](#skills), it does **not** affect the **successes** and **failures** required to advance. 
+Whenever a boon or penalty alters the **modified level** of an [attribute](#attributes) or [skill](#skills), it does **not** affect the **successes** and **failures** required to advance. 
 
 ## Assets
 A character may have things on their person, such as worn equipment and luggage, as well as the things they *own*, but don't have on person. 
@@ -1207,6 +1244,8 @@ For reactions, you're fairly free to pick and choose, so long as you keep in min
 
 ### Determine Abilities
 Next up, you can reinforce your character's [personality](#personality) with the abilities they have. Or even prepare a conflict of what your character *can* do and what they *think* they can do. 
+
+Note this section implies **raw level** of [attributes](#attributes) and [skills](#skills). 
 
 #### Choosing Attributes
 There are two methods for determining your character's attributes: manual and semi-random. 
