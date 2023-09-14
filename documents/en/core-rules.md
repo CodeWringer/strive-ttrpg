@@ -1359,8 +1359,8 @@ There are no limits to how many of a given card a player can own, but they may o
 | 6 MiFP  | Clotter            | One **active** [injury](#injury) of choice is now **patched up**. |
 | 1 MaFP  | Cascading Re-Roll  | Repeat a single test you just made. With this card, you keep any **positives** you achieved from the previously made test and add them to the **positives** rolled when you repeat the test. |
 | 1 MaFP  | Fact Check         | Change a minor plot point in a way your prefer. Work with your **GM** to make sure it fits the narrative, but they should respect your wish. This could be something like avoiding an **NPC** death or changing a fact about the plot. |
-| 1 MaFP  | Just a Flesh Wound | Remove or avoid one non-permanent [injury](#injury) of choice. |
 | 1 MaFP  | Hastened           | +1 **AP** during your turns for the entirety of a [combat](#combat) encounter. |
+| 3 MaFP  | Just a Flesh Wound | Remove or avoid one non-permanent [injury](#injury) of choice. |
 | 5 MaFP  | Double the Fun     | Double the number of dice to roll on your next/current test. |
 | 10 MaFP | Wrong Diagnosis    | Remove or avoid one permanent [injury](#injury) of choice. |
 | 1 AFP   | Defy Death         | Leap from [death's door](#deaths-door), remove 1 **active** [injury](#injury) of choice and be at 1 **HP**; Alternatively, avoid a narratively-driven death. The **GM** will decide the character's alternative fate. They could be captured, very badly injured or become indebted to someone or something. |
