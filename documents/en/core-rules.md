@@ -1552,7 +1552,7 @@ It may be possible to go past this limit via some [skill abilities](#skill-abili
 > At the start of their next **turn**, they get to keep 2 of those unspent **AP** and are forced to discard the other 1 **AP**. Thus, they begin their turn with 5 **AP** available to them. 
 
 ## Combat Movement
-A character can move up to **12'/4m** (= 4 fields on a grid) per **AP** spent. In **difficult terrain**, the distance moved per **AP** is half that, at **6'/2m** (= 2 fields on a grid). 
+Under normal circumstances, a character can move up to **12'/4m** (= 4 fields on a grid) per **AP** spent. In **difficult terrain**, the distance moved per **AP** is half that, at **6'/2m** (= 2 fields on a grid). It may be possible to increase the distance moved per **AP**, by **sprinting** (see below) or [riding](#riding-emp). 
 
 **Difficult terrain** is any space that slows movement, but does not prevent it outright. Examples would be waist-high water, a surface of glue or a slowing force field. 
 
@@ -1858,8 +1858,11 @@ Used to resist influences on the mind.
 #### Riding (Emp)
 Riding and controling a mount.
 
+In and outside of [combat](#combat), a rider will inherit the [speed](#combat-movement) of the mount they're on. 
+
 | Level | Name                 | AP | **Ob** | Effect(s)          | Condition(s) |
 | ----- | -------------------- | -- | ------ | ------------------ | ------------ |
+| 1     | Spur | 1  | 2 | Gain an additional 3 **AP** worth of movement from your mount. The mount suffers +1 exhaustion. |  |
 | 3     | Mounted Charge       | 3  | 3      | Perform a mounted charge attack, dealing **2D3** extra damage of whatever weapon type you are using. | Mounted on a fast and strong animal; Must have enough distance to target to gain enough speed - refer to **GM**'s judgement. |
 
 ### Knowledge Skills
