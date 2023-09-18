@@ -969,7 +969,7 @@ Note, the character is not physically unable to cause harm, but they **really** 
 This **state** lasts until it is successfully [resisted](#resist-will) or the character is made [unconscious](#unconscious). 
 
 #### Poisoned
-A **poisoned** character suffers 1 points of [HP](#health--exhaustion) damage at the end their every turn in combat or every 5 seconds outside of combat. 
+A **poisoned** character suffers **1D3** points of [HP](#health--exhaustion) damage at the end their every turn in combat or every 5 seconds outside of combat. 
 
 This state can be incurred multiple times and can be removed with an *antidote*. 
 
