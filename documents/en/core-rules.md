@@ -1862,7 +1862,7 @@ In and outside of [combat](#combat), a rider will inherit the [speed](#combat-mo
 
 | Level | Name                 | AP | **Ob** | Effect(s)          | Condition(s) |
 | ----- | -------------------- | -- | ------ | ------------------ | ------------ |
-| 1     | Spur | 1  | 2 | Gain an additional 3 **AP** worth of movement from your mount. The mount suffers +1 exhaustion. |  |
+| 1     | Spur | 1  | 2 | Gain an additional 3 **AP** worth of movement from your mount. The mount suffers +1 exhaustion. | At most once per turn. |
 | 3     | Mounted Charge       | 3  | 3      | Perform a mounted charge attack, dealing **2D3** extra damage of whatever weapon type you are using. | Mounted on a fast and strong animal; Must have enough distance to target to gain enough speed - refer to **GM**'s judgement. |
 
 ### Knowledge Skills
