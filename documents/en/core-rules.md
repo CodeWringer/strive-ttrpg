@@ -1899,8 +1899,8 @@ The ability to tell flora and fauna apart and to know of their attributes, such 
 
 | Level | Name                 | AP | **Ob** | Effect(s)          | Condition(s) |
 | ----- | -------------------- | -- | ------ | ------------------ | ------------ |
-| 2 | Dirty Weapon | 2  | 2 | Grab some dirt or filth and rub it on a melee weapon. When an attack with that weapon inflicts an **injury**, the victim suffers 2 points of **poisoned** and the injury is always an **infection**. | Dirt or filth nearby. |
-| 2 | Dirty Ammo | 2  | 2 | Grab some dirt or filth and rub it on a select amount of kinetic ammunition (such as arrows or bullets). When an attack with that ammunition inflicts an **injury**, the victim suffers 1 point of **poisoned** and the injury is always an **infection**. | Dirt or filth nearby; Ammunition easily accessible during combat. |
+| 2 | Dirty Weapon | 2  | 2 | Grab some dirt or filth and rub it on a melee weapon. When an [attack](#attacking) with that weapon inflicts an [injury](#injury), the victim suffers 2 points of [poisoned](#poisoned) and the **injury** is always an [infection](#list-of-injuries). | Dirt or filth nearby. |
+| 2 | Dirty Ammo | 2  | 2 | Grab some dirt or filth and rub it on a select amount of kinetic ammunition (such as arrows or bullets). When an [attack](#attacking) with that ammunition inflicts an **injury**, the victim suffers 1 point of [poisoned](#poisoned) and the [injury](#injury) is always an [infection](#list-of-injuries). | Dirt or filth nearby; Ammunition easily accessible during combat. |
 
 #### Mysticism and Religion (Wis)
 Knowledge about religions, legends and myths. May be used to recall knowledge about mythical creatures, artifacts and locations, as well as understand the local religion more easily. 
