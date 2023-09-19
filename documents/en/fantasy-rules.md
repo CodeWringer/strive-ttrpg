@@ -19,6 +19,7 @@
   - [Attacking](#attacking)
   - [Defending](#defending)
 - [Magic](#magic)
+  - [Concentration Spells](#concentration-spells)
   - [Testing Magic](#testing-magic)
     - [Magic Stamina](#magic-stamina)
     - [Spell-Backfire](#spell-backfire)
@@ -227,6 +228,13 @@ The effects of a magic spell do not affect the mage casting it, unless if they s
 A *magic spell* is the intended effect of using a [magic school skill](#magic-school--school---attribute-). This is also referred to as *casting magic*, *casting a spell* or other similar wordings. 
 
 *Spell intensity* is the level at which magic is being cast. 
+
+## Concentration Spells
+Some magic can be upheld for as long as the casting mage *concentrates* on their spell. Such spells will be marked with **"Concentration"**. The effects of a concentration spell lasts for as long as the mage *chooses* or *manages* to keep their concentration. 
+
+A mage can only upkeep one concentration spell at a time. 
+
+Concentration can be broken! Concentration is automatically broken, if the mage is incapacitated, for example by having been knocked unconscious. Otherwise, whenever the mage is *forced* to roll a [test](./core-rules.md#tests) (for example [melee defence](./core-rules.md#melee-defence-agi)), they must **also** succeed another test of their concentration spell's magic school, at the same **Ob** as the test they were just before made to roll. 
 
 ## Testing Magic
 Testing a [magic school skill](#magic-school--school---attribute-), in order to cast a *magic spell*, works as follows:
