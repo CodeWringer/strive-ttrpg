@@ -1022,42 +1022,35 @@ Another important note about targeting a specific soul. It is easier to recall t
 | 5+    | Call back a Soul     | 3  | 0         | ST   | 0      | Difficulty: **Ob 12-N** Target a specific soul and recall them into their prior body. This isn't, strictly speaking, the same as binding a soul. |
 
 ### Telekinesis [Int]
-The ability to affect things and even creatures from afar, using magic winds instead of muscles or tools. 
-
-The mage can only affect things within and up to the given *distance*. 
+The ability to affect things and even creatures from afar, using magic instead of muscles or tools. 
 
 When using objects as projectiles, choose the [damage type](#damage-types) as appropriate. For example, a crossbow bolt might cause **piercing** damage, while a rock might cause **crushing** damage.
 
-Note, that moving creatures (even undead ones or actually dead ones) is not the same as moving soulless objects. It takes great skill to affect creatures directly. Starting from level 7, creatures can be affected directly, by the mage. The mage can only affect those creatures that either don't resist, or which **fail** a [resist](#resist-will) test, at the given **Ob**. 
-
 The mage can only ever perform *one* movement with a spell cast. So, for example, it is not possible to violently shake things or creatures around, without casting **telekinesis** multiple times, to do so. During combat, every movement takes one turn. Out of combat, about five seconds. A single movement is a displacement from one point to another, in a straight and uninterrupted line. 
 
-In the following, replace *N* with the chosen level above 10. 
+Only targets within and up to the given *distance* can be moved and only within and up to that *distance* from the mage. 
 
-| Level | Name                   | AP | Distance     | Type | Damage   | Effect(s)                      |
-| ----- | ---------------------- | -- | ------------ | ---- | -------- | ------------------------------ |
-| 1     | Telekinesis 1          | 2  | N * 9'/3m    | ST   | /        | Move a light object. It can only be moved slowly, not allowing its use as a projectile. |
-| 2+    | Telekinesis 2          | 2  | N * 12'/4m   | ST   | **(N-1)D4** **Bludgeoning** | Move a light object at great velocity, which allows it to deal damage upon impact.  |
-| 3     | Heavy Telekinesis 1    | 3  | N * 18'/6m   | ST   | /        | Move a heavy object. It can only be moved slowly, not allowing its use as a projectile. |
-| 4+    | Heavy Telekinesis 2    | 3  | N * 24'/8m   | ST   | **(N-2)D6** **Bludgeoning** | Move a heavy object at great velocity, which allows it to deal damage upon impact.  |
-| 7     | Creature Telekinesis 1 | 4  | 24'/8m       | ST   | /        | Resist: **Ob 3**, Effect: Move a single creature that is about man-sized, or smaller. |
-| 8     | Creature Telekinesis 2 | 4  | 30'/10m      | ST   | /        | Resist: **Ob 5**, Effect: Move a single creature that is about twice the size of a man, or smaller. |
-| 10+   | Creature Telekinesis 3 | 4  | N * 3'/1m    | ST   | /        | Resist: **Ob N-3**, Effect: Move a single large creature, or smaller. |
+In the following, replace *N* with the chosen **spell intensity**. 
+
+| Level | Name                   | AP | Distance     | Type | Opposed by        | Damage                   | Effect(s)                      |
+| ----- | ---------------------- | -- | ------------ | ---- | ----------------- | ------------------------ | ------------------------------ |
+| 1     | Telekinesis            | 2  | N * 15'/5m   | ST   | Ranged Defence **Ob opposed** | **ND4** **Variant** | Move an inanimate object at great velocity (if desired), which allows it to deal damage upon impact. Can target yourself. |
+| 3     | Creature Telekinesis   | 3  | N * 15'/5m   | ST   | Ranged Defence **Ob opposed** | /             | Move a single large, or smaller, creature. |
 
 ### Telepathy (Ora)
 The ability to communicate wordlessly, to alter emotions and even issue compelling commands against another's will. 
 
 The mage can only affect those creatures that either don't resist, or which **fail** a [resist](#resist-will) test, at the given **Ob**. 
 
-In the following, replace *N* with the appropriate level. 
+In the following, replace *N* with the chosen **spell intensity**. 
 
-| Level | Name                   | AP | Distance   | Type | Damage | Effect(s)                      |
-| ----- | ---------------------- | -- | ---------- | ---- | ------ | ------------------------------ |
-| 1+    | Wordless Communication | 2  | N * 12'/4m | MST  | /      | Resist: **Ob N**, Effect: Communicate wordlessly with *N* number of creatures. |
-| 3+    | Change a Mind          | 2  | N * 12'/4m | ST   | /      | Resist: **Ob N**, Effect: Alter a creature's current state of mind and emotion. |
-| 4     | Pressing Thought       | 3  | 36'/18m    | ST   | /      | Effect: [Hasten](#hasted) a creature of choice for two turns of combat or 10 seconds out of combat. |
-| 6     | Quiet Command          | 3  | N * 12'/4m | ST   | /      | Resist: **Ob N-2**, Effect: Issue a command to another creature, which they feel strongly compelled to follow. |
-| 7     | Confer Knowledge       | 4  | N * 12'/4m | ST   | /      | Resist: **Ob N-2**, Effect: Confer a level of a known **skill** to another creature. |
+| Level | Name                   | AP | Distance   | Type | Opposed by        | Damage | Effect(s)                      |
+| ----- | ---------------------- | -- | ---------- | ---- | ----------------- | ------ | ------------------------------ |
+| 1     | Wordless Communication | 2  | N * 12'/4m | MST  | Resist **Ob N**   | /      | Communicate wordlessly with *N* number of creatures. |
+| 3     | Change a Mind          | 2  | N * 12'/4m | ST   | Resist **Ob N-2** | /      | Alter a creature's current state of mind and emotion. |
+| 4     | Pressing Thought       | 3  | 36'/18m    | ST   | /                 | /      | [Hasten](./core-rules.md#hasted) 1 creature of choice for 2 turns of combat or 10 seconds out of combat. |
+| 6     | Quiet Command          | 3  | N * 12'/4m | ST   | Resist **Ob N-4** | /      | Issue a command to another creature, which they feel **strongly** compelled to follow. |
+| 7     | Confer Knowledge       | 4  | N * 12'/4m | ST   | Resist **Ob N-2** | /      | Confer +1 level of a **known skill** to another creature. |
 
 ## List of Injuries
 * New description of "Tremors": -1 [Arcana](#arcana-arc); -1 [Agility](#agility-agi)
