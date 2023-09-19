@@ -97,7 +97,7 @@
     - [Pyromancy (Arc)](#pyromancy-arc)
     - [Restoration (Emp)](#restoration-emp)
     - [Soul-Binding (Int)](#soul-binding-int)
-    - [Telekinesis \[Int\]](#telekinesis-int)
+    - [Telekinesis (Int)](#telekinesis-int)
     - [Telepathy (Ora)](#telepathy-ora)
   - [List of Injuries](#list-of-injuries)
   - [List of Illnesses](#list-of-illnesses)
@@ -1021,7 +1021,7 @@ Another important note about targeting a specific soul. It is easier to recall t
 | 1+    | Break Binding        | 3  | 0         | ST   | 0      | Resist: *strength of the binding*, Effect: Break a **soul-binding** and send the soul back to the **plane of the dead**, leaving its former body inanimate and soulless. |
 | 5+    | Call back a Soul     | 3  | 0         | ST   | 0      | Difficulty: **Ob 12-N** Target a specific soul and recall them into their prior body. This isn't, strictly speaking, the same as binding a soul. |
 
-### Telekinesis [Int]
+### Telekinesis (Int)
 The ability to affect things and even creatures from afar, using magic instead of muscles or tools. 
 
 When using objects as projectiles, choose the [damage type](#damage-types) as appropriate. For example, a crossbow bolt might cause **piercing** damage, while a rock might cause **crushing** damage.
