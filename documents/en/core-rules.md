@@ -41,6 +41,7 @@
         - [Practicing Attributes](#practicing-attributes)
       - [Base Initiative](#base-initiative)
     - [Skills](#skills)
+    - [Specialization Skills](#specialization-skills)
       - [Skill Abilities](#skill-abilities)
         - [Targeting-Types](#targeting-types)
           - [Single Target (ST)](#single-target-st)
@@ -597,7 +598,16 @@ For [testing](#tests) a **skill**, see the [Testing a Skill](#testing-a-skill) s
 
 **Skills** [advance](#advancing-skills), as they're tested. It is also possible to [practice](#practicing-skills) and [teach](#teaching-skills) **skills**. 
 
-Some **Skills** can only be learned, if other *prerequisite* **skills** are known. Such **skills** represent a further direction of specialization, which can in some circumstances replace usage of one of the prerequisite **skills**, or provide a new set of [skill abilities](#skill-abilities) to extend what the prerequisites were capable of. Furthermore, the prerequisites may be required to be known at *at least* a certain given level. Unless if a prerequisite **skill** is *known* at that level, the specialized **skill** **cannot** be learned. 
+### Specialization Skills
+Some **Skills** can only be learned, if other *prerequisite* **skills** are known. Such **skills** represent a further direction of *specialization*, which can in some circumstances replace usage of one of the prerequisite **skills**, or provide a new set of [skill abilities](#skill-abilities) to extend what the prerequisites were capable of. Furthermore, the prerequisites may be required to be known at *at least* a certain given level. Unless if a prerequisite **skills** are *known* at that level, the specialized **skill** **cannot** be learned. 
+
+A **specialization skill** [advance](#advancing-skills) as any other skill. Their prerequisite **skills** do **not** [advance](#advancing-skills) along with the **specialization skill**! 
+
+For a [test](#tests), any prerequisite **skills** are *always automatically* [forked](#skill-forking) into the [test](#tests). 
+
+> A character knows skill A and skill B. These are prerequisite skills for skill C, which the character has just begun learning and has at level 0. 
+>
+> For a test of skill C, they get to roll **+2D6** from their prerequisite skills, even though normally, **learning skills** cannot benefit from **skill forking**!
 
 #### Skill Abilities
 **Skills** can offer **skill abilities**, which further define what the **skill** may be used for. A **skill ability** is either a *passive* [boon](#boons--penalties) or an *active* **action**, with effects that apply when used.  
@@ -651,6 +661,8 @@ Which **skills** can be **forked** into a particular test is up to the **GM**. I
 
 > Back to the thievery example. Let's assume a **PC** is trying to quickly unlock a door using their [thievery](#thievery-dex--perc--spd), because they're being chased by guards and desperately need to get away. They could argue to fork their [stealth](#stealth-dex--spd--int) **skill** into the test, but ultimately, what use is stealth when you've already been detected? Unless you can make yourself *unseen* somehow, the **GM** should rule that stealth cannot apply in that situation. 
 
+[Forking](#skill-forking) **learning skills** into tests is **not** allowed. **Forking** into tests of **learning skills** isn't allowed, either. Note an exception to this rule are [specialization skills](#specialization-skills), which *always* receive **forking** from their **prerequisite skills**, even if they are currently in the **learning skill** stage!
+
 #### Learning Skills
 Whenever asked to test a skill a **PC** does not yet know, it will be added or progressed in the *currently learning* section of the character sheet. 
 
@@ -662,7 +674,7 @@ A skill in learning can only be tested with half their related [attribute](#attr
 
 The outcome of a test gets noted on the skill it was made for, not the attribute actually used for the test. 
 
-[Forking](#skill-forking) learning skills into tests is not allowed. **Forking** into tests of learning skills isn't allowed, either. 
+[Forking](#skill-forking) **learning skills** into tests is **not** allowed. **Forking** into tests of **learning skills** isn't allowed, either. Note an exception to this rule are [specialization skills](#specialization-skills), which *always* receive **forking** from their **prerequisite skills**, even if they are currently in the **learning skill** stage!
 
 It **is** possible to receive help or [tutoring](#teaching-skills) on a learning skill. 
 
