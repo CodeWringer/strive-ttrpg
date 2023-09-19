@@ -253,7 +253,7 @@ Testing a [magic school skill](#magic-school--school---attribute-), in order to 
 > They achieve 2 **positives** and 2 **negatives**. Thus, the test is a **complete success** and they incur a **magic stamina** cost of 2. Unfortunately for them, this exhausts their supply of **magic stamina** and thus, their spell **back-fires**, affecting only themselves, instead of their intended target. Additionally, they incur a point of **exhaustion**.
 
 ### Magic Stamina
-Magic takes a toll on the caster's body. It takes great mental effort to properly cast magic. **Magic stamina** represents a mage's capacity for casting magic without risk to themselves. It is a replenishable resource that is used up faster, the more a mage concentrates on succeeding their [magic school skill tests](#testing-magic). 
+Magic takes a toll on the caster's body. It takes great mental effort to properly cast magic. **Magic stamina** represents a mage's capacity for casting magic without risk to themselves. It is a replenishable resource that is used up faster, the more effort a mage puts into succeeding their [magic school skill tests](#testing-magic). 
 
 Mechanically speaking, every mage has two values to track: their **maximum magic stamina** and their **current magic stamina**. 
 
