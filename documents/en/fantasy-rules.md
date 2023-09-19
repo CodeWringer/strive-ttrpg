@@ -93,6 +93,7 @@
     - [Cryomancy (Arc)](#cryomancy-arc)
     - [Electromancy (Arc)](#electromancy-arc)
     - [Illusion (Emp)](#illusion-emp)
+    - [Psionics (Ora/Int)](#psionics-oraint)
     - [Pyromancy (Arc)](#pyromancy-arc)
     - [Restoration (Emp)](#restoration-emp)
     - [Soul-Binding (Int)](#soul-binding-int)
@@ -953,6 +954,24 @@ The [exhaustion](#exhaustion) caused by the illusions must be based on the illus
 | 4     | Overwhelming Illusion| 3  | 72'/24m  | MST  | 0      | Resist: **Ob 4**, Duration: entire combat / 10 minutes, Effect: up to 18'³/6m³ sized image / a deafening sound / an overwhelming odor; A resist test can be made again every 3 minutes. If the mage desires, can cause +2 [exhaustion](#exhaustion) in victims. |
 | 5     | Bewitching Illusion  | 4  | 96'/32m  | MST  | 0      | Resist: **Ob 5**, Duration: entire combat / 1 hour, Effect: up to 36'³/12m³ sized image / a deafening sound / an overwhelming odor; A resist test can be made again every 10 minutes. If the mage desires, can cause +3 [exhaustion](#exhaustion) in victims. |
 | 7     | Living a Dream       | 4  | 192'/64m | MST  | 0      | Resist: **Ob 7**, Duration: however long the mage desires, Effect: however large the mage desires image / a deafening sound / an overwhelming odor; A resist test can be made again every hour. If the mage desires, can cause +4 [exhaustion](#exhaustion) in victims. |
+
+### Psionics (Ora/Int)
+Mind over matter! Psionics grants powerful abilities to manipulate objects, influence others and even wield magic as a weapon or shield. 
+
+* Obvious: A purple flame lights within the mage's eyes, when they use their psionic abilities.
+* [Prerequisites](./core-rules.md#specialization-skills): [Telepathy](#telepathy-ora) (3), [telekinesis](#telekinesis-int) (3)
+
+Only targets within and up to the given *distance* can be moved and only within and up to that *distance* from the mage. 
+
+In the following, replace *N* with the chosen **spell intensity**. 
+
+| Level | Name                 | AP | Distance    | Type | Opposed by        | Damage              | Effect(s)                      |
+| ----- | -------------------- | -- | ----------- | ---- | ----------------- | ------------------- | ------------------------------ |
+| 0     | Psionic Telekinesis  | 3  | (N+1) * 30'/10m | ST   | Ranged Defence **Ob opposed** | **ND6** **Variant** | Move an object or creature at great velocity (if desired), which allows it to deal damage upon impact. Alternatively, **crush** or restrain the object or creature. Can target yourself. |
+| 0     | Psionic Missile      | 2  | (N+1) * 30'/10m | ST   | Ranged Defence **Ob opposed** | **2D10** **Bludgeoning** | Using psionics, extend the force of a punch, to hurl a focused shockwave towards a target. |
+| 1     | Psionic Shield       | 2  | N * 9'/3m   | ST   | / | / | As a **reaction** to you or an ally being hit with an attack, cast a shield of purple energy to erupt around yourself or an ally within distance, which absorbs up to **N * 10 points** of damage. |
+| 1     | Pressing Thoughts    | 2  | N * 36'/18m | MST  | / | / | **Concentration**: [Hasten](./core-rules.md#hasted) up to 3 creatures of choice. |
+| 1     | Levitate             | 1  | N * 9'/3m   | ST   | Ranged Defence **Ob opposed** | / | **Concentration**: Cause yourself or one other creature of choice, within *distance* to levitate a short distance above the ground. |
 
 ### Pyromancy (Arc)
 The summoning and control of fire. The flame being a destructive force, pyromancers enjoy little utility from their magic, beyond the ability to create light. 
