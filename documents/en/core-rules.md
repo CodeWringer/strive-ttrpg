@@ -597,6 +597,8 @@ For [testing](#tests) a **skill**, see the [Testing a Skill](#testing-a-skill) s
 
 **Skills** [advance](#advancing-skills), as they're tested. It is also possible to [practice](#practicing-skills) and [teach](#teaching-skills) **skills**. 
 
+Some **Skills** can only be learned, if other *prerequisite* **skills** are known. Such **skills** represent a further direction of specialization, which can in some circumstances replace usage of one of the prerequisite **skills**, or provide a new set of [skill abilities](#skill-abilities) to extend what the prerequisites were capable of. Furthermore, the prerequisites may be required to be known at *at least* a certain given level. Unless if a prerequisite **skill** is *known* at that level, the specialized **skill** **cannot** be learned. 
+
 #### Skill Abilities
 **Skills** can offer **skill abilities**, which further define what the **skill** may be used for. A **skill ability** is either a *passive* [boon](#boons--penalties) or an *active* **action**, with effects that apply when used.  
 
