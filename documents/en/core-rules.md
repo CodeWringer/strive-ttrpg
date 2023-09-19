@@ -1699,11 +1699,11 @@ Sometimes, your own body is your greatest weapon. Fists and feet can cause a sur
 
 | Skill | **Ob**  | Attack                  | AP | Damage/Effect         | Condition |
 | ----- | ------- | ----------------------- | -- | --------------------- | --------- |
-| 0     | Opposed by [Melee Defence](#melee-defence-agi) | Punch, kick, headbutt   | 2  | **Str** + 2 **Bludgeoning** | Enemy is within melee reach of 3'/1m. |
-| 0     | Opposed by [Melee Defence](#melee-defence-agi) | Shove                   | 2  | Push an enemy away from you for 3'/1m. | Enemy is within melee reach. |
-| 1     | Opposed by **Unarmed Combat**                  | Grapple                 | 2  | If **completely successful**, the target is unable to move and suffers **-1D** to their defense tests, for as long as they're grappled. Someone grappled can attempt to break free with an opposed **Unarmed Combat** test, on their turn. The grappler can not use at least one of their hands for as long as they're grappling. | Enemy is within melee reach. |
+| 0     | Opposed by [Melee Defence](#melee-defence-agi) | Punch, kick, headbutt   | 2  | **Str** + 2 **Bludgeoning** |  |
+| 0     | Opposed by [strength](#strength-str)           | Shove                   | 2  | Push an enemy away from you for 3'/1m * *N*, where *N* is every point of your strength past their strength. |  |
+| 1     | Opposed by **Unarmed Combat**                  | Grapple                 | 2  | If **completely successful**, the target is unable to move and suffers **-1D** to their defense tests, for as long as they're grappled. Someone grappled can attempt to break free with an opposed **Unarmed Combat** test, on their turn. The grappler can not use at least one of their hands for as long as they're grappling. |  |
 | 2     | Opposed by **Unarmed Combat**                  | Wrestle and Disarm      | 2  | Perform a [single target](#single) attack against a designated enemy. If you win, you disarm them and could wrestle them to the ground, making them [prone](#prone), if you so choose. | Disarm only if enemy is using detachable weapon. |
-| 3     | Opposed by [strength](#strength-str)           | Barge in                | 3  | Push back an enemy within melee reach and take their position. | Enemy is within melee reach. | 
+| 3     | Opposed by [strength](#strength-str)           | Barge in                | 3  | Push an enemy away from you for 3'/1m * *N*, where *N* is every point of your strength past their strength and take their position. |  | 
 
 # Appendix
 The appendix contains important and less important lists, for reference only when needed. 
