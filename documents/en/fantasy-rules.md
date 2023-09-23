@@ -952,9 +952,9 @@ Creation of non-physical influences on the senses. That includes images, sounds 
 
 A victim reaching their [exhaustion threshold](#exhaustion) by effect of this magic, while [terrified](./core-rules.md#terrified), must succeed an [endurance](#endurance-end) test, or else suffer a heart-attack and **die** outright. The **Ob** is a third of their [endurance](#endurance-end), rounded up. 
 
-| Level | Name                 | AP | Distance        | Type | Ob                   | Damage | Effect(s)                      |
-| ----- | -------------------- | -- | --------------- | ---- | -------------------- | ------ | ------------------------------ |
-| 0     | Illusion             | 2  | N * 30'/10m     | ST   | Opposed: Resist      | /      | **Concentration**; The affected creature *sees*, *hears* or *smells* an illusory image/sound/odor. *Can* be used to inflict [terror](./core-rules.md#terrified) or intense [jealousy](./core-rules.md#jealous). The victim always suffers +1 [exhaustion](./core-rules.md#exhaustion). |
+| Level | Name                 | AP | Distance     | Ob                           | Effect(s)                      | Backfire Effect(s) |
+| ----- | -------------------- | -- | ------------ | ---------------------------- | ------------------------------ | ------------------ |
+| 0     | Illusion             | 2  | SI * 30'/10m | Opposed: Resist              | **Concentration**; The affected **ST** *sees*, *hears* or *smells* an illusory image/sound/odor. The intensity of the illusion is determined by the **SI**. 1-3 for a weak and small, 3-5 for a moderate and 6+ for a large and intense illusion. *Can* be used to inflict [terror](./core-rules.md#terrified) or intense [jealousy](./core-rules.md#jealous). The victim suffers +1 [exhaustion](./core-rules.md#exhaustion). | The caster suffers +1 [exhaustion](./core-rules.md#exhaustion). |
 
 ### Psionics (Ora/Int)
 Mind over matter! Psionics grants powerful abilities to manipulate objects, influence others and even wield magic as a weapon or shield. 
