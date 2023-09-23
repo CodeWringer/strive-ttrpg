@@ -964,14 +964,14 @@ Mind over matter! Psionics grants powerful abilities to manipulate objects, infl
 
 Only targets within and up to the given *distance* can be moved and only within and up to that *distance* from the mage. 
 
-| Level | Name                 | AP | Distance    | Type | Ob                      | Damage                   | Effect(s)                      |
-| ----- | -------------------- | -- | ----------- | ---- | ----------------------- | ------------------------ | ------------------------------ |
-| 0     | Psionic Telekinesis  | 3  | N * 30'/10m | ST   | Opposed: Ranged Defence | **ND6** **Variant**      | Move an object or creature at great velocity (if desired), which allows it to deal damage upon impact. Alternatively, **crush** or restrain the object or creature. Can target yourself. |
-| 0     | Psionic Missile      | 2  | N * 30'/10m | ST   | Opposed: Ranged Defence | **2D10** **Bludgeoning** | Using psionics, extend the force of a punch, to hurl a focused shockwave towards a target. |
-| 1     | Psionic Shield       | 2  | N * 9'/3m   | ST   | Spell intensity         | /                        | As a **reaction** to you or an ally being hit with an attack, cast a shield of purple energy to erupt around yourself or an ally within distance, which absorbs up to **N * 10 points** of damage. |
-| 1     | Pressing Thoughts    | 2  | N * 36'/18m | MST  | Spell intensity         | /                        | **Concentration**: [Hasten](./core-rules.md#hasted) up to 3 creatures of choice. |
-| 1     | Levitate             | 1  | N * 9'/3m   | ST   | Opposed: Ranged Defence | /                        | **Concentration**: Cause yourself or one other creature of choice, within *distance* to levitate a short distance above the ground. |
-| 3     | Dimensional Shift    | 3  | N * 30'/10m | ST   | Opposed: Ranged Defence | /                        | Cause a dimensional rift to open and swallow a single creature of choice, which another rift releases at a location of your choosing, a moment later. |
+| Level | Name                 | AP | Distance     | Ob                           | Effect(s)                      | Backfire Effect(s) |
+| ----- | -------------------- | -- | ------------ | ---------------------------- | ------------------------------ | ------------------ |
+| 0     | Psionic Telekinesis  | 3  | SI * 30'/10m | Opposed: Ranged Defence      | Move a **ST** at great velocity (if desired), which allows it to deal **SI D6** **variant** (depends on the type of object, if it is an object) damage upon impact. Alternatively, **crush** or restrain the object or creature. Can target yourself. | The caster is affected, instead. |
+| 0     | Psionic Missile      | 2  | SI * 15'/5m  | Opposed: Ranged Defence      | Using psionics, extend the force of a punch, to hurl a focused psionic shockwave towards a **ST**, dealing **SI D8** **bludgeoning** damage. | The caster is affected, instead. |
+| 1     | Psionic Shield       | 2  | SI * 9'/3m   | SI                           | As a **reaction** to you or an ally being hit with an attack, cast a shield of psionic energy to erupt around yourself or an ally within distance, which absorbs up to **SI * 10** points of damage. | Instead of absorbing damage, the target instead suffers an additional **SI * 2** points of **bludgeoning** damage. |
+| 1     | Psionic Hasten       | 2  | SI * 36'/18m | 3 + SI                       | **Concentration**: [Hasten](./core-rules.md#hasted) up to **SI** creatures of choice. | The caster suffers +1 [exhaustion](./core-rules.md#exhaustion). |
+| 1     | Levitate             | 1  | SI * 9'/3m   | Opposed: Ranged Defence      | **Concentration**: Cause yourself or one other **ST** of choice, within *distance* to levitate a short distance above the ground. | The caster suffers +1 [exhaustion](./core-rules.md#exhaustion). |
+| 3     | Dimensional Shift    | 3  | SI * 30'/10m | Opposed: Ranged Defence      | Cause a dimensional rift to open and swallow a **ST** of choice, which another rift releases at a location of your choosing, a moment later. | The caster is instead swallowed by a rift, immediately tossed back out in the same spot and suffers **1D10** points of **crushing** damage. |
 
 ### Pyromancy (Arc)
 The summoning and control of fire. The flame being a destructive force, pyromancers enjoy little utility from their magic, beyond the ability to create light and heat. 
