@@ -207,9 +207,9 @@ Determine your character's **maximum magic stamina**, by referring to the [magic
 You'll need to track **current magic stamina** separately. To start with, set your current to your maximum **magic stamina**. 
 
 # Magic
-Only a character with [arcana](#arcana-arc) can cast magic. What kind of magic, depends on the [magic schools](#list-of-magic-schools) the character knows. There are, offensive, defensive and manipulative [schools of magic](#list-of-magic-schools). 
+Only a character with [arcana](#arcana-arc) can cast magic. What kind of magic, depends on the [magic schools](#list-of-magic-schools) the character knows. There are offensive, defensive and manipulative [schools of magic](#list-of-magic-schools). 
 
-A *magic spell* is the intended effect of using a [magic school skill](#magic-school--school---attribute-). This is also referred to as *casting magic*, *casting a spell* or other similar wordings. In mechanical terms, every [skill ability](./core-rules.md#skill-abilities) noted on a [school of magic](#list-of-magic-schools) is a *magic spell*.
+A *magic spell* is the intended effect of using a [magic school's](#magic-school--school---attribute-) [skill ability](./core-rules.md#skill-abilities). This is also referred to as *casting magic*, *casting a spell* or other similar wordings. In mechanical terms, every [skill ability](./core-rules.md#skill-abilities) noted on a [school of magic](#list-of-magic-schools) is a *magic spell*.
 
 A mage can fail their [test](./core-rules.md#tests) and thus suffer a [spell-backfire](#spell-backfire), which usually results in negative effects for the caster, instead of their intended target. 
 
@@ -223,7 +223,7 @@ For every point of a spell's chosen **spell intensity**, **1 D3** must be rolled
 > For a spell at a chosen SI of 3, **3 D3** must be rolled. The sum of these rolls, which is at least 3 and at most could be 9, is the **magic stamina** to deduct after the spell's **test** is made. 
 
 ## Magic Stamina
-Magic takes a toll on the caster's body. It takes great mental effort to properly cast magic. **Magic stamina** represents a mage's capacity for casting magic without risk to themselves. It is a replenishable resource that is used up faster with [stronger spells](#spell-intensity-si). 
+Magic takes a toll on the caster's body, as it takes great mental effort to properly cast magic. **Magic stamina** represents a mage's capacity for casting magic without risk to themselves. It is a replenishable resource that is used up faster with [stronger spells](#spell-intensity-si). 
 
 Mechanically speaking, every mage has two values to track: their **maximum magic stamina** and their **current magic stamina**. 
 * The **maximum magic stamina** of a mage is derived from the **sum** of their [arcana](#arcana-arc) attribute and the **raw levels** of all their known [magic school skills](#magic-school--school---attribute-). 
