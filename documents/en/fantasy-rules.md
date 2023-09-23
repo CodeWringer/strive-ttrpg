@@ -15,14 +15,13 @@
         - [Manual Attribute Assignment](#manual-attribute-assignment)
         - [Semi-Random Attribute Assignment](#semi-random-attribute-assignment)
     - [Determine Magic Stamina](#determine-magic-stamina)
-- [Combat](#combat)
-  - [Attacking](#attacking)
-  - [Defending](#defending)
 - [Magic](#magic)
+  - [Spell Intensity (SI)](#spell-intensity-si)
+  - [Magic Stamina](#magic-stamina)
+  - [Spell-Backfire](#spell-backfire)
   - [Concentration Spells](#concentration-spells)
+  - [Magic Negation](#magic-negation)
   - [Testing Magic](#testing-magic)
-    - [Magic Stamina](#magic-stamina)
-    - [Spell-Backfire](#spell-backfire)
   - [Magic Things](#magic-things)
     - [Abyssalite](#abyssalite)
     - [Amberite](#amberite)
@@ -207,80 +206,84 @@ Determine your character's **maximum magic stamina**, by referring to the [magic
 
 You'll need to track **current magic stamina** separately. To start with, set your current to your maximum **magic stamina**. 
 
-# Combat
-As an additional action in combat, a character can *cast magic* during their **turn**. 
-
-## Attacking
-Attacks can also be made using [magic-school](#magic-school--school---attribute-) **skills**. 
-
-## Defending
-It is possible to negate a magical attack entirely, by using the same **school of magic** **skill** and achieving more positives, than the attacker. The defender has to perform a [test](#testing-magic) of the same magic school, at the **Ob** equal to the number of **positives** the attacker achieved. The defender does not get to use a [skill ability](#skill-abilities) of the magic school in question. This is a purely defensive action, which benefits everyone who might be hit with the spell of the attacker, as no one will be hit, if the defense is successful. 
-
-If the defense fails, the full [damage](#damage) is applied. If the defense attempt causes a [spell-backfire](#spell-backfire) on the defender, they suffer the attacker's spell at one greater intensity level. 
-
-
 # Magic
-Any character with [arcana](#arcana-arc), can cast magic. What kind of magic, depends on the [magic schools](#list-of-magic-schools) the character knows. 
+Only a character with [arcana](#arcana-arc) can cast magic. What kind of magic, depends on the [magic schools](#list-of-magic-schools) the character knows. There are, offensive, defensive and manipulative [schools of magic](#list-of-magic-schools). 
 
-While not all magic can be used offensively, that which can, will inflict [damage](#health--exhaustion), proportional to the [spell's intensity](#spell-intensity) and may cause other effects on those affected by it. 
+A *magic spell* is the intended effect of using a [magic school skill](#magic-school--school---attribute-). This is also referred to as *casting magic*, *casting a spell* or other similar wordings. In mechanical terms, every [skill ability](./core-rules.md#skill-abilities) noted on a [school of magic](#list-of-magic-schools) is a *magic spell*.
 
-The effects of a magic spell do not affect the mage casting it, unless if they suffer a [spell-backfire](#spell-backfire) or if it is an [aoe](#area-of-effect-aoe) spell and they're standing in the **aoe** or if the description of the spell defines that it can. 
+A mage can fail their [test](./core-rules.md#tests) and thus suffer a [spell-backfire](#spell-backfire), which usually results in negative effects for the caster, instead of their intended target. 
 
-A *magic spell* is the intended effect of using a [magic school skill](#magic-school--school---attribute-). This is also referred to as *casting magic*, *casting a spell* or other similar wordings. 
+[Spell intensity](#spell-intensity-si) adjusts the strength of a magic spell, as well as its cost in [magic stamina](#magic-stamina). 
 
-**Spell intensity** is the strength at which a magic spell is being cast. A higher number makes success more likely and usually causes stronger and further reaching effects, at potentially much greater [magic stamina](#magic-stamina) cost.
+## Spell Intensity (SI)
+**Spell intensity** (shorthand **SI**) is the strength at which a magic spell is being cast. A higher number causes stronger and further reaching effects, at greater [magic stamina](#magic-stamina) cost.
 
-## Concentration Spells
-Some magic can be upheld for as long as the casting mage *concentrates* on their spell. Such spells will be marked with **"Concentration"**. The effects of a concentration spell lasts for as long as the mage *chooses* or *manages* to keep their concentration. 
+For every point of a spell's chosen **spell intensity**, **1 D3** must be rolled. The sum of these rolls is the resulting [magic stamina](#magic-stamina) cost.
 
-A mage can only upkeep one concentration spell at a time. 
+> For a spell at a chosen SI of 3, **3 D3** must be rolled. The sum of these rolls, which is at least 3 and at most could be 9, is the **magic stamina** to deduct after the spell's **test** is made. 
 
-Concentration can be broken! Concentration is automatically broken, if the mage is incapacitated, for example by having been knocked unconscious. Otherwise, whenever the mage is *forced* to roll a [test](./core-rules.md#tests) (for example [melee defence](./core-rules.md#melee-defence-agi)), they must **also** succeed another test of their concentration spell's magic school, at the same **Ob** as the test they were just before made to roll. 
-
-## Testing Magic
-Testing a [magic school skill](#magic-school--school---attribute-), in order to cast a *magic spell*, works as follows:
-1. The mage determines the **spell intensity** they're going to use. Their level in the corresponding magic school skill determines the maximum **spell intensity** they can pick. 
-2. The chosen **spell intensity** determines the test's **Ob**. 
-3. The mage determines how many dice they will roll for the test. They must roll at least as many as the **Ob** threshold dictates and can roll at most up to their level in the skill. 
-4. The dice are rolled. 
-  1. If the test is a **complete success**, the spell is cast as intended. Otherwise, the spell [back-fires](#spell-backfire).
-  2. The number of **negatives** rolled, determine the [magic stamina](#magic-stamina) cost of the spell. 
-  3. If the spell uses up more magic stamina than the mage has left available, the spell also [back-fires](#spell-backfire). Additionally, the mage suffers one point of [exhaustion](#exhaustion). 
-
-> A mage wants to cast an [illusion](#illusion-emp) spell, at intensity level 2. Their level in the corresponding magic school skill is 4. They have 2 magic stamina left. 
-> 
-> Thus, their **Ob** for this test is 2 and they have 4 dice available for the test. They choose to roll all 4 dice. 
-> 
-> They achieve 2 **positives** and 2 **negatives**. Thus, the test is a **complete success** and they incur a **magic stamina** cost of 2. Unfortunately for them, this exhausts their supply of **magic stamina** and thus, their spell **back-fires**, affecting only themselves, instead of their intended target. Additionally, they incur a point of **exhaustion**.
-
-Note that any spell **must** be cast with a **spell intensity** of at least 1. 
-
-### Magic Stamina
-Magic takes a toll on the caster's body. It takes great mental effort to properly cast magic. **Magic stamina** represents a mage's capacity for casting magic without risk to themselves. It is a replenishable resource that is used up faster, the more effort a mage puts into succeeding their [magic school skill tests](#testing-magic). 
+## Magic Stamina
+Magic takes a toll on the caster's body. It takes great mental effort to properly cast magic. **Magic stamina** represents a mage's capacity for casting magic without risk to themselves. It is a replenishable resource that is used up faster with [stronger spells](#spell-intensity-si). 
 
 Mechanically speaking, every mage has two values to track: their **maximum magic stamina** and their **current magic stamina**. 
+* The **maximum magic stamina** of a mage is derived from the **sum** of their [arcana](#arcana-arc) attribute and the **raw levels** of all their known [magic school skills](#magic-school--school---attribute-). 
+* The **current magic stamina** can not be less than 0 or more than their **maximum magic stamina**. Every time a mage casts a spell, they incur a **magic stamina** cost, based on the chosen [spell intensity](#spell-intensity-si), which is deducted from this number. 
 
-The **maximum magic stamina** of a mage is derived from the sum of their [arcana](#arcana-arc) attribute and the levels of all their known [magic school skills](#magic-school--school---attribute-), divided by two and rounded up. 
+> If a mage has an **arcana** of 3 and has the **magic school skills** **pyromancy** at level 3, **cryomancy** at level 2 and **illusion** at level 5, that means they have (3 + 3 + 2 + 5) = 13 **maximum magic stamina**. 
 
-> If a mage has an **arcana** of 3 and has the **magic school skills** **pyromancy** at level 3, **cryomancy** at level 2 and **illusion** at level 5, that means they have (3 + 3 + 2 + 5) / 2 = 7 **maximum magic stamina**. 
+Once spent, **magic stamina** can only be regained through **active rest or meditation**. For every **half hour** spent in *active rest or meditation*, a mage regains **1 D3** **magic stamina**. Active rest or meditation implies not engaging in any physical or mental strains. If in doubt - if you have to do a test for it, it's probably a strain. 
 
-The **current magic stamina** can not be less than 0 or more than their **maximum magic stamina**. Every time a mage casts a spell, there is a chance they will incur a **magic stamina** cost. For every **negative** they roll, they lose 1 point of **magic stamina**. 
+Running out of **magic stamina** while casting a spell, results in an automatic [spell-backfire](#spell-backfire)! 
 
-Once spent, **magic stamina** can only be regained through **active rest or meditation**. For every **half hour** spent in *active rest or meditation*, a mage regains 1 **magic stamina**. Active rest or meditation implies not engaging in any physical or mental strains. If in doubt - if you have to do a test for it, it's probably a strain. 
+## Spell-Backfire
+A **spell-backfire** causes a spell to affect the caster, instead of their intended target. The mage suffers the negative effects of the spell. In case of an [aoe](./core-rules.md#area-of-effect-aoe) attack spell, anyone or anything nearby the mage, in range, is also affected. Additionally, the mage suffers one point of [exhaustion](./core-rules.md#exhaustion). 
 
-### Spell-Backfire
-A **spell-backfire** causes a spell to affect the caster, instead of their intended target. The mage suffers the full effect of the spell. In case of an [aoe](#area-of-effect-aoe) attack spell, anyone or anything nearby the mage, in range, is also affected. 
-
-It is possible for another nearby mage to prevent the **spell-backfire**, if they [defend](#defending) against it. This also applies even if the spell effect wouldn't affect them. If the other mage's attempt to negate the spell *also* **backfires**, then both of the mages suffer the effect and the other mage suffers it at one greater intensity level. 
+It is possible for another nearby mage to prevent the **spell-backfire**, if they [negate the spell](#magic-negation) as a **reaction**. This also applies even if the spell wouldn't affect them. If the other mage's attempt to negate the spell *also* **backfires**, then both of the mages suffer the effect at one greater [intensity](#spell-intensity-si) level. 
 
 A **spell-backfire** occurs in the following two cases: 
 1. The [magic school skill test](#testing-magic) is a **complete failure**. 
 2. The spell costs more [magic stamina](#magic-stamina), than the mage has available. 
 
-## Magic Things
-**Ambersteel** takes its name from the in-game material of the same name. As it is a strictly anti-magic material, it should enjoy great attention in any fantasy world, where magic is a real and recognizable force. Where usually, magic is the centerpiece, in **Ambersteel** that isn't quite the case. Magic is powerful and fearsome and thus, if not under control, can threaten to cause great pain and destruction. **Ambersteel** dampens that power and puts shackles on it. 
+## Concentration Spells
+Some magic can be upheld for as long as the casting mage *concentrates* on their spell. Such spells will be marked with **"Concentration"**. The effects of a concentration spell last for as long as the mage *chooses* or *manages* to keep their concentration. They need only test for the spell only *once*, when they first cast it. 
 
-But there are also other materials and important things related to magic, as described in this section. 
+A mage can only upkeep **one** concentration spell at a time. 
+
+Concentration can be broken! Concentration is automatically broken, if the mage is incapacitated, for example by having been knocked unconscious. Otherwise, whenever the mage is *forced* to roll a [test](./core-rules.md#tests) (for example [melee defence](./core-rules.md#melee-defence-agi)), they must **also** succeed another test of their concentration spell's magic school, at the same **Ob** as the test they were just forced to roll. 
+
+## Magic Negation
+It is possible to negate a magical attack entirely, by using the same **school of magic** **skill** and achieving more positives, than the attacker. The defender has to perform a [test](#testing-magic) of the same magic school, at the **Ob** equal to the number of **positives + 1** the attacker achieved. The defender does not get to use a [skill ability](#skill-abilities) of the magic school in question. This is a purely defensive action, which benefits everyone who might be hit with the spell of the attacker, as no one will be hit, if the defense is successful. 
+
+If the defense fails, the full effect is applied. If the defense attempt causes a [spell-backfire](#spell-backfire) on the defender, they suffer the attacker's spell at one greater [intensity](#spell-intensity-si) level. 
+
+**Magic negation** can also be used to prevent another mage's [spell-backfire](#spell-backfire).
+
+## Testing Magic
+[Testing](./core-rules.md#tests) a [magic school skill](#magic-school--school---attribute-), in order to cast a *magic spell*, works as follows:
+1. The mage determines the [spell intensity](#spell-intensity-si) they're going to use. Their level in the corresponding [magic school skill](#magic-school--school---attribute-) determines the maximum [spell intensity](#spell-intensity-si) they can pick. 
+  1. Note that any spell **must** be cast with a [spell intensity](#spell-intensity-si) of *at least* 1. This includes **learning skills**. 
+2. The [magic stamina](#magic-stamina) cost is determined. Roll **1 D3** for every point of the chosen [spell intensity](#spell-intensity-si). 
+  1. If more magic stamina is used up, than the mage has left available, they suffer a [spell-backfire](#spell-backfire).
+  2. The [magic stamina](#magic-stamina) is reduced by the rolled sum. This happens regardless of a [spell-backfire](#spell-backfire).
+3. Proceed only if there was no [spell-backfire](#spell-backfire).
+4. Determine the test's **Ob**. Some spells require an [opposed test](./core-rules.md#opposed-test), while others impose a fixed **Ob** and yet others have a dynamic **Ob**, based on some formula. 
+5. The dice for the test are rolled. 
+  1. If the test is a **complete success**, the spell is cast as intended. 
+  2. If the test is a **partial success/failure**, the spell fizzles and nothing happens.
+  3. If the test is a **complete failure**, the spell [back-fires](#spell-backfire). 
+
+> A mage wants to cast an [illusion](#illusion-emp) spell, at SI 2. Their level in the corresponding magic school skill is 4. They have 4 magic stamina left. 
+>
+> They roll **2 D3**, yielding them a 3 and a 2. The sum (5) is one point more magic stamina, than the mage had left. They suffer a spell-backfire and their intended target is left unaffected!
+
+> A mage wants to cast an [illusion](#illusion-emp) spell, at SI 2. Their level in the corresponding magic school skill is 4. They have 4 magic stamina left. 
+>
+> They roll **2 D3**, yielding them a 1 and a 2. The sum (3) is within their available magic stamina (which is now reduced to 1). 
+>
+> Now, they determine their **Ob** to be 2. They roll their 4 available D6, but achieve only 1 **positive**. Their spell fizzles and fails without any effect! 
+
+## Magic Things
+No fantasy world would be complete without materials with uses for the supernatural or artifacts of immense power. This section introduces the basics of these things. 
 
 ### Abyssalite
 **Abyssalite** is a hard and brittle mineral, that has the ability to *amplify the flow of magic*. It can only be acquired from the depths of the earth and is fairly rare. 
@@ -303,6 +306,8 @@ It only occurs naturally in a few select places in the world, where the ground o
 Prolonged exposure to **Amberite** can cause severe ill-effects with nausea and migranes being common symptoms. 
 
 ### Ambersteel
+**Ambersteel** is a strictly anti-magic material, it should enjoy great attention in any fantasy world, where magic is a real and recognizable force. Where usually, magic is the centerpiece, in **Ambersteel** that isn't quite the case. Magic is powerful and fearsome and thus, if not under control, can threaten to cause great pain and destruction. **Ambersteel** dampens that power and puts shackles on it. 
+
 [Amberite](#amberite) can be processed into **Ambersteel**, which makes it a hard and flexible metal. The raw material heats slowly and must be heated over the course of several days and nights, without interruption. When it finally reaches the right temperature, it will glow white, with a purple sheen. At that point, it can be hammered into shape. Constant re-heating ensures it stays at the right temperature and a final quenching in vegetable oil ensures it retains its flexibility. 
 
 If processed outside the optimal temperature, the material quickly grows brittle and will shatter if any stress is put on it.
