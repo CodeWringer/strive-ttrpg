@@ -928,13 +928,12 @@ Creatures can [resist](#resist-will) the change. Inanimate objects don't resist.
 ### Cryomancy (Arc)
 The summoning and control of ice. Cryomancer's can freeze things, so they're heavier and harder to break. 
 
-| Level | Name                 | AP | Distance | Type | Damage | Effect(s)                      |
-| ----- | -------------------- | -- | -------- | ---- | ------ | ------------------------------ |
-| 0     | Freezing Touch       | 2  | 0 | ST | **1 Freezing** | A fist-sized spot on whatever the mage's hand touches, freezes over. This is only a surface-level freeze! It does not run deep. |
-| 1     | Cold Finger Gun      | 2  | 15'/5m | ST | **1D4 Freezing** | The mage shoots a finger-sized ice spike from their hand. |
-| 3     | Deep Freeze          | 3  | 0 | ST | **1D10 Freezing** | A man-sized area of whatever the mage's hand is touching freezes over. The frost even penetrates and runs deep. |
-| 4     | Ice Spike            | 3  | 15'/5m | ST | **2D4 Freezing** | The mage shoots a fist-sized ice spike from their hand. |
-| 5     | Rooting Freeze       | 3  | 15'/5m | AOE 6'/2m radius | **4D4 Freezing** | A spot of the mage's choosing freezes over. Anyone caught within the radius, will be frozen to the spot and thus [rooted](#rooted). They can break free via a successful [strength](#strength-str) test against **Ob 3**. Or wait, until the ice thaws... |
+| Level | Name                 | AP | Distance    | Ob                           | Effect(s)                      | Backfire Effect(s) |
+| ----- | -------------------- | -- | ----------- | ---------------------------- | ------------------------------ | ------------------ |
+| 0     | Freezing Touch       | 2  | 3'/1m       | Opposed: Melee Defence - SI  | A fist-sized spot on a **ST**, that the mage's hand touches, freezes over and deals **SI freezing** damage. | The caster is affected, instead. |
+| 1     | Cold Finger Gun      | 2  | SI * 15'/5m | Opposed: Ranged Defence      | The mage shoots an ice spike at a **ST** from their hand, dealing **SI D4 freezing** damage. Causes +1 [frostbitten](./core-rules.md#frostbitten). | The caster is affected, instead. |
+| 3     | Deep Freeze          | 3  | 3'/1m       | Opposed: Melee Defence       | A man-sized area of whatever the mage's hand is touching freezes over. The frost even penetrates and runs deep in a **ST**, dealing **1D10 freezing** damage. Causes +1 [frostbitten](./core-rules.md#frostbitten). | The caster is affected, instead. |
+| 5     | Rooting Freeze       | 3  | SI * 15'/5m | 5                            | A spot of the mage's choosing freezes over. Anyone caught within the **AOE** 9'/3m radius, will be frozen to the spot and thus [rooted](#rooted) and also suffer  **SI D4 Freezing** damage. They can break free via a successful [strength](#strength-str) test at **Ob 3**. Or wait, until the ice thaws... | The spot beneath the caster is affected, instead. |
 
 ### Electromancy (Arc)
 The summoning and control of lightning. Electricity is fairly versatile - it can injure or stun and power or trigger electrical and electronic devices. 
