@@ -938,16 +938,14 @@ The summoning and control of ice. Cryomancer's can freeze things, so they're hea
 ### Electromancy (Arc)
 The summoning and control of lightning. Electricity is fairly versatile - it can injure or stun and power or trigger electrical and electronic devices. 
 
-| Level | Name                  | AP | Distance | Type | Damage | Effect(s)                      |
-| ----- | --------------------- | -- | -------- | ---- | ------ | ------------------------------ |
-| 0     | Weak Shock            | 1  | 0        | ST   | **1 Electrical**   | A small area, about the size of the mage's hand is burned on touch by a weak electrical shock. |
-| 1     | Shock                 | 2  | 3'/1m    | ST   | **1D3 Electrical** | A small arc of lightning strikes the vulnerable internals of a target. Alternatively, a device could be powered for a short time. A reference point would be powering a flashlight for a few minutes. |
-| 2     | Stunning Shock        | 2  | 15'/5m   | ST   | / | An aimed arc of lightning strikes a single target and causes it to seize up for a moment. Lasts until the start of the target's next turn in combat or several seconds outside of combat. |
-| 4     | Strong Shock          | 2  | 24'/8m   | ST   | **2D4 Electrical** | A large arc of lightning strikes the vulnerable internals of a target. Alternatively, a device could be powered for a time. A reference point would be powering a flashlight for several hours. |
-| 4     | Strong Stunning Shock | 2  | 24'/8m   | ST   | / | An aimed arc of lightning strikes a single target and causes it to seize up for a moment. Lasts 2 of the target's turns in combat or 10 seconds outside of combat. |
-| 7     | Cone of Lightning     | 3  | 30'/10m  | MST  | **2D6 Electrical** | A cone of lightning spews forth from the mage's finger tips. Up to 3 targets can be hit with the shock. Alternatively, a device could be powered for an extended period of time, depending on its hunger for power. A reference point would be powering up an industrial floodlight for a whole week. |
-| 9     | UNLIMITED POWER       | 3  | 45'/15m  | MST  | **3D6 Electrical** | A cone of lightning spews forth from the mage's finger tips. Up to 10 targets can be hit with the shock. Alternatively, a device could be powered for a very long time, depending on its hunger for power. A reference point would be powering up an industrial floodlight for a whole month. |
-| 9     | Mass Stunning Shock   | 3  | 45'/15m  | MST  | / | Several arcs of aimed lightning spew forth from the mage's finger tips, causing up to 10 targets struck to cease up for 3 turns of combat or several minutes outside of combat. |
+| Level | Name                  | AP | Distance     | Ob                           | Effect(s)                      | Backfire Effect(s) |
+| ----- | --------------------- | -- | ------------ | ---------------------------- | ------------------------------ | ------------------ |
+| 0     | Shocking Touch        | 2  | 3'/1m        | Opposed: Melee Defence - SI  | A small area, about the size of the mage's hand is burned on touch by an electrical shock, dealing **SI electrical** damage to a **ST**. | The caster is affected, instead. |
+| 1     | Shock                 | 2  | SI * 9'/3m   | Opposed: Melee Defence       | An arc of lightning strikes the vulnerable internals of a **ST**, dealing **SI D3 electrical** damage. | The caster is affected, instead. |
+| 1     | Power-Up              | 2  | SI * 3'/1m   | SI                           | An electrical device is powered up for 5 * **SI** minutes. | The device breaks or otherwise seizes up and becomes unusable. |
+| 2     | Stunning Shock        | 2  | SI * 15'/5m  | Opposed: Ranged Defence - SI | An aimed arc of lightning strikes a **ST** and adds one stack of [stunned](./core-rules.md#stunned). | The caster is affected, instead. |
+| 5     | UNLIMITED POWER       | 3  | SI * 30'/10m | Opposed: Ranged Defence      | A cone of lightning spews forth from the mage's finger tips. Up to **SI + 1** **MST** can be hit with the shock, dealing **SI D6 electrical** damage. | The caster and anyone next to them is affected, instead. |
+| 5     | Mass Stunning Shock   | 3  | SI * 30'/10m | Opposed: Ranged Defence      | Several arcs of aimed lightning spew forth from the mage's finger tips, striking up to **SI + 1** **MST** and adding 3 stacks of [stunned](./core-rules.md#stunned). | The caster and anyone next to them is affected, instead. |
 
 ### Illusion (Emp)
 Creation of non-physical influences on the senses. That includes images, sounds and odors. The illusions cannot cause direct harm, although they can drive an individual to acts that may put them in danger. 
