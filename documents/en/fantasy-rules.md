@@ -976,15 +976,13 @@ Only targets within and up to the given *distance* can be moved and only within 
 ### Pyromancy (Arc)
 The summoning and control of fire. The flame being a destructive force, pyromancers enjoy little utility from their magic, beyond the ability to create light and heat. 
 
-| Level | Name                 | AP | Distance  | Type              | Damage          | Effect(s)                      |
-| ----- | -------------------- | -- | --------- | ----------------- | --------------- | ------------------------------ |
-| 0     | Candle Flame         | 1  | 3'/1m     | ST                | **2 Burning**   | A small, controlled flame erupts and stays in the mage's hand, inflicting mild burn damage on touch. Alternatively, a small flame (like a candle flame) in immediate proximity of the mage is extinguished. |
-| 0     | Burning Hand         | 2  | 3'/1m     | ST                | **1D6 Burning** | The mage's hand is surrounded by fire, inflicting serious burns on touch. |
-| 1     | Cone of Fire         | 3  | 15'/5m    | MST               | **3D4 Burning** | The mage shoots a burst of fire in a short cone in front of them, hitting up to two adjacent targets. |
-| 3     | Fire Ball            | 2  | 45'/15m   | AOE 6'/2m radius  | **3D6 Burning** | The mage forms a large ball of flame between their hands, ready to be flung at a target location. |
-| 5     | Column of Flame      | 3  | 45'/15m   | AOE 6'/2m radius  | **3D6+2 Burning** | The mage lets a column of flame erupt from the ground at a target location. |
-| 7     | Flame Jet            | 3  | 90'/30m   | AOE line          | **4D6 Burning** | A steady stream of flame shoots from the mages hands, burning anything caught by it, in a straight line. |
-| 10    | Rain of Fire         | 4  | 600'/100m | AOE 24'/8m radius | **6D6 Burning** | The mage makes fire rain from the sky. This spell lasts two turns in combat or 10 seconds out of combat. |
+| Level | Name                 | AP | Distance     | Ob                           | Effect(s)                      | Backfire Effect(s) |
+| ----- | -------------------- | -- | ------------ | ---------------------------- | ------------------------------ | ------------------ |
+| 0     | Burning Touch        | 2  | 3'/1m        | Opposed: Melee Defence - SI  | A controlled flame erupts and stays in the mage's hand, inflicting **SI burning** damage on touch to a **ST**. | The caster is affected, instead. |
+| 1     | Cone of Fire         | 3  | SI * 6'/2m   | Opposed: Ranged Defence      | The mage shoots a burst of fire in a short cone in front of them, hitting up to two adjacent **MST**, dealing **SI D4 burning** damage. | The caster and anyone next to them is affected, instead. |
+| 3     | Fire Ball            | 2  | SI * 45'/15m | SI                           | The mage forms a large ball of flame between their hands, ready to be flung at a target location, dealing **SI D6 burning** damage in a **AOE** 6'/2m radius. | The caster and anyone next to them is affected, instead. |
+| 7     | Flame Jet            | 3  | SI * 30'/10m | SI + 1                       | A steady stream of flame shoots from the mage's hands, dealing **SI D6 burning** damage to anything caught by it, in a straight **AOE** line.  | The line of fire erupts backwards, through the mage. They and anyone behind them, in the line's range is affected. |
+| 9     | Rain of Fire         | 4  | SI * 60'/20m | SI + 3                       | The mage makes fire rain from the sky. A ball of fire falls from the sky for every **SI**, dealing **6 D6 + SI burning** damage in a **AOE** 24'/8m radius, at a location of choice. | No fire falls from the sky, instead the SI number of fire balls erupt in the mage's hands. They and anyone in the radius suffers the damage. |
 
 ### Restoration (Emp)
 The mending of [injuries](./core-rules.md#injury) and treatment of [diseases](./core-rules.md#illness). 
