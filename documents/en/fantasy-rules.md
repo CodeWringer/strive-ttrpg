@@ -1026,10 +1026,10 @@ Only targets within and up to the given *distance* can be moved and only within 
 
 In the following, replace *N* with the chosen **spell intensity**. 
 
-| Level | Name                   | AP | Distance     | Type | Ob                      | Damage                   | Effect(s)                      |
-| ----- | ---------------------- | -- | ------------ | ---- | ----------------------- | ------------------------ | ------------------------------ |
-| 0     | Telekinesis            | 2  | N * 15'/5m   | ST   | Opposed: Ranged Defence | **ND4** **Variant** | Move an inanimate object at great velocity (if desired), which allows it to deal damage upon impact. Can target yourself. |
-| 3     | Creature Telekinesis   | 3  | N * 15'/5m   | ST   | Opposed: Ranged Defence | /             | Move a single large, or smaller, creature. |
+| Level | Name                   | AP | Distance     | Ob                           | Effect(s)                      | Backfire Effect(s) |
+| ----- | ---------------------- | -- | ------------ | ---------------------------- | ------------------------------ | ------------------ |
+| 0     | Telekinesis            | 2  | SI * 15'/5m  | SI                           | Move an inanimate **ST** object at great velocity (if desired), which allows it to deal **SI D4** **variant** (depending on the type of object) damage upon impact. | The caster suffers +1 [exhaustion](./core-rules.md#exhaustion). |
+| 3     | Creature Telekinesis   | 3  | SI * 15'/5m  | Opposed: Ranged Defence      | Move a **ST** large, or smaller, creature. | The caster is knocked back **SI** * 9'/3m and suffers **SI bludgeoning** damage. |
 
 ### Telepathy (Ora)
 The ability to communicate wordlessly, to alter emotions and even issue compelling commands against another's will. 
