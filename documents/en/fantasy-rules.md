@@ -15,14 +15,13 @@
         - [Manual Attribute Assignment](#manual-attribute-assignment)
         - [Semi-Random Attribute Assignment](#semi-random-attribute-assignment)
     - [Determine Magic Stamina](#determine-magic-stamina)
-- [Combat](#combat)
-  - [Attacking](#attacking)
-  - [Defending](#defending)
 - [Magic](#magic)
+  - [Spell Intensity (SI)](#spell-intensity-si)
+  - [Magic Stamina](#magic-stamina)
+  - [Spell-Backfire](#spell-backfire)
   - [Concentration Spells](#concentration-spells)
+  - [Magic Negation](#magic-negation)
   - [Testing Magic](#testing-magic)
-    - [Magic Stamina](#magic-stamina)
-    - [Spell-Backfire](#spell-backfire)
   - [Magic Things](#magic-things)
     - [Abyssalite](#abyssalite)
     - [Amberite](#amberite)
@@ -207,80 +206,84 @@ Determine your character's **maximum magic stamina**, by referring to the [magic
 
 You'll need to track **current magic stamina** separately. To start with, set your current to your maximum **magic stamina**. 
 
-# Combat
-As an additional action in combat, a character can *cast magic* during their **turn**. 
-
-## Attacking
-Attacks can also be made using [magic-school](#magic-school--school---attribute-) **skills**. 
-
-## Defending
-It is possible to negate a magical attack entirely, by using the same **school of magic** **skill** and achieving more positives, than the attacker. The defender has to perform a [test](#testing-magic) of the same magic school, at the **Ob** equal to the number of **positives** the attacker achieved. The defender does not get to use a [skill ability](#skill-abilities) of the magic school in question. This is a purely defensive action, which benefits everyone who might be hit with the spell of the attacker, as no one will be hit, if the defense is successful. 
-
-If the defense fails, the full [damage](#damage) is applied. If the defense attempt causes a [spell-backfire](#spell-backfire) on the defender, they suffer the attacker's spell at one greater intensity level. 
-
-
 # Magic
-Any character with [arcana](#arcana-arc), can cast magic. What kind of magic, depends on the [magic schools](#list-of-magic-schools) the character knows. 
+Only a character with [arcana](#arcana-arc) can cast magic. What kind of magic, depends on the [magic schools](#list-of-magic-schools) the character knows. There are offensive, defensive and manipulative [schools of magic](#list-of-magic-schools). 
 
-While not all magic can be used offensively, that which can, will inflict [damage](#health--exhaustion), proportional to the [spell's intensity](#spell-intensity) and may cause other effects on those affected by it. 
+A *magic spell* is the intended effect of using a [magic school's](#magic-school--school---attribute-) [skill ability](./core-rules.md#skill-abilities). This is also referred to as *casting magic*, *casting a spell* or other similar wordings. In mechanical terms, every [skill ability](./core-rules.md#skill-abilities) noted on a [school of magic](#list-of-magic-schools) is a *magic spell*.
 
-The effects of a magic spell do not affect the mage casting it, unless if they suffer a [spell-backfire](#spell-backfire) or if it is an [aoe](#area-of-effect-aoe) spell and they're standing in the **aoe** or if the description of the spell defines that it can. 
+A mage can fail their [test](./core-rules.md#tests) and thus suffer a [spell-backfire](#spell-backfire), which usually results in negative effects for the caster, instead of their intended target. 
 
-A *magic spell* is the intended effect of using a [magic school skill](#magic-school--school---attribute-). This is also referred to as *casting magic*, *casting a spell* or other similar wordings. 
+[Spell intensity](#spell-intensity-si) adjusts the strength of a magic spell, as well as its cost in [magic stamina](#magic-stamina). 
 
-**Spell intensity** is the strength at which a magic spell is being cast. A higher number makes success more likely and usually causes stronger and further reaching effects, at potentially much greater [magic stamina](#magic-stamina) cost.
+## Spell Intensity (SI)
+**Spell intensity** (shorthand **SI**) is the strength at which a magic spell is being cast. A higher number causes stronger and further reaching effects, at greater [magic stamina](#magic-stamina) cost.
 
-## Concentration Spells
-Some magic can be upheld for as long as the casting mage *concentrates* on their spell. Such spells will be marked with **"Concentration"**. The effects of a concentration spell lasts for as long as the mage *chooses* or *manages* to keep their concentration. 
+For every point of a spell's chosen **spell intensity**, **1 D3** must be rolled. The sum of these rolls is the resulting [magic stamina](#magic-stamina) cost.
 
-A mage can only upkeep one concentration spell at a time. 
+> For a spell at a chosen SI of 3, **3 D3** must be rolled. The sum of these rolls, which is at least 3 and at most could be 9, is the **magic stamina** to deduct after the spell's **test** is made. 
 
-Concentration can be broken! Concentration is automatically broken, if the mage is incapacitated, for example by having been knocked unconscious. Otherwise, whenever the mage is *forced* to roll a [test](./core-rules.md#tests) (for example [melee defence](./core-rules.md#melee-defence-agi)), they must **also** succeed another test of their concentration spell's magic school, at the same **Ob** as the test they were just before made to roll. 
-
-## Testing Magic
-Testing a [magic school skill](#magic-school--school---attribute-), in order to cast a *magic spell*, works as follows:
-1. The mage determines the **spell intensity** they're going to use. Their level in the corresponding magic school skill determines the maximum **spell intensity** they can pick. 
-2. The chosen **spell intensity** determines the test's **Ob**. 
-3. The mage determines how many dice they will roll for the test. They must roll at least as many as the **Ob** threshold dictates and can roll at most up to their level in the skill. 
-4. The dice are rolled. 
-  1. If the test is a **complete success**, the spell is cast as intended. Otherwise, the spell [back-fires](#spell-backfire).
-  2. The number of **negatives** rolled, determine the [magic stamina](#magic-stamina) cost of the spell. 
-  3. If the spell uses up more magic stamina than the mage has left available, the spell also [back-fires](#spell-backfire). Additionally, the mage suffers one point of [exhaustion](#exhaustion). 
-
-> A mage wants to cast an [illusion](#illusion-emp) spell, at intensity level 2. Their level in the corresponding magic school skill is 4. They have 2 magic stamina left. 
-> 
-> Thus, their **Ob** for this test is 2 and they have 4 dice available for the test. They choose to roll all 4 dice. 
-> 
-> They achieve 2 **positives** and 2 **negatives**. Thus, the test is a **complete success** and they incur a **magic stamina** cost of 2. Unfortunately for them, this exhausts their supply of **magic stamina** and thus, their spell **back-fires**, affecting only themselves, instead of their intended target. Additionally, they incur a point of **exhaustion**.
-
-Note that any spell **must** be cast with a **spell intensity** of at least 1. 
-
-### Magic Stamina
-Magic takes a toll on the caster's body. It takes great mental effort to properly cast magic. **Magic stamina** represents a mage's capacity for casting magic without risk to themselves. It is a replenishable resource that is used up faster, the more effort a mage puts into succeeding their [magic school skill tests](#testing-magic). 
+## Magic Stamina
+Magic takes a toll on the caster's body, as it takes great mental effort to properly cast magic. **Magic stamina** represents a mage's capacity for casting magic without risk to themselves. It is a replenishable resource that is used up faster with [stronger spells](#spell-intensity-si). 
 
 Mechanically speaking, every mage has two values to track: their **maximum magic stamina** and their **current magic stamina**. 
+* The **maximum magic stamina** of a mage is derived from the **sum** of their [arcana](#arcana-arc) attribute and the **raw levels** of all their known [magic school skills](#magic-school--school---attribute-). 
+* The **current magic stamina** can not be less than 0 or more than their **maximum magic stamina**. Every time a mage casts a spell, they incur a **magic stamina** cost, based on the chosen [spell intensity](#spell-intensity-si), which is deducted from this number. 
 
-The **maximum magic stamina** of a mage is derived from the sum of their [arcana](#arcana-arc) attribute and the levels of all their known [magic school skills](#magic-school--school---attribute-), divided by two and rounded up. 
+> If a mage has an **arcana** of 3 and has the **magic school skills** **pyromancy** at level 3, **cryomancy** at level 2 and **illusion** at level 5, that means they have (3 + 3 + 2 + 5) = 13 **maximum magic stamina**. 
 
-> If a mage has an **arcana** of 3 and has the **magic school skills** **pyromancy** at level 3, **cryomancy** at level 2 and **illusion** at level 5, that means they have (3 + 3 + 2 + 5) / 2 = 7 **maximum magic stamina**. 
+Once spent, **magic stamina** can only be regained through **active rest or meditation**. For every **half hour** spent in *active rest or meditation*, a mage regains **1 D3** **magic stamina**. Active rest or meditation implies not engaging in any physical or mental strains. If in doubt - if you have to do a test for it, it's probably a strain. 
 
-The **current magic stamina** can not be less than 0 or more than their **maximum magic stamina**. Every time a mage casts a spell, there is a chance they will incur a **magic stamina** cost. For every **negative** they roll, they lose 1 point of **magic stamina**. 
+Running out of **magic stamina** while casting a spell, results in an automatic [spell-backfire](#spell-backfire)! 
 
-Once spent, **magic stamina** can only be regained through **active rest or meditation**. For every **half hour** spent in *active rest or meditation*, a mage regains 1 **magic stamina**. Active rest or meditation implies not engaging in any physical or mental strains. If in doubt - if you have to do a test for it, it's probably a strain. 
+## Spell-Backfire
+A **spell-backfire** causes a spell to affect the caster, instead of their intended target. The mage suffers the negative effects of the spell. In case of an [aoe](./core-rules.md#area-of-effect-aoe) attack spell, anyone or anything nearby the mage, in range, is also affected. Additionally, the mage suffers one point of [exhaustion](./core-rules.md#exhaustion). 
 
-### Spell-Backfire
-A **spell-backfire** causes a spell to affect the caster, instead of their intended target. The mage suffers the full effect of the spell. In case of an [aoe](#area-of-effect-aoe) attack spell, anyone or anything nearby the mage, in range, is also affected. 
-
-It is possible for another nearby mage to prevent the **spell-backfire**, if they [defend](#defending) against it. This also applies even if the spell effect wouldn't affect them. If the other mage's attempt to negate the spell *also* **backfires**, then both of the mages suffer the effect and the other mage suffers it at one greater intensity level. 
+It is possible for another nearby mage to prevent the **spell-backfire**, if they [negate the spell](#magic-negation) as a **reaction**. This also applies even if the spell wouldn't affect them. If the other mage's attempt to negate the spell *also* **backfires**, then both of the mages suffer the effect at one greater [intensity](#spell-intensity-si) level. 
 
 A **spell-backfire** occurs in the following two cases: 
 1. The [magic school skill test](#testing-magic) is a **complete failure**. 
 2. The spell costs more [magic stamina](#magic-stamina), than the mage has available. 
 
-## Magic Things
-**Ambersteel** takes its name from the in-game material of the same name. As it is a strictly anti-magic material, it should enjoy great attention in any fantasy world, where magic is a real and recognizable force. Where usually, magic is the centerpiece, in **Ambersteel** that isn't quite the case. Magic is powerful and fearsome and thus, if not under control, can threaten to cause great pain and destruction. **Ambersteel** dampens that power and puts shackles on it. 
+## Concentration Spells
+Some magic can be upheld for as long as the casting mage *concentrates* on their spell. Such spells will be marked with **"Concentration"**. The effects of a concentration spell last for as long as the mage *chooses* or *manages* to keep their concentration. They need only test for the spell only *once*, when they first cast it. 
 
-But there are also other materials and important things related to magic, as described in this section. 
+A mage can only upkeep **one** concentration spell at a time. 
+
+Concentration can be broken! Concentration is automatically broken, if the mage is incapacitated, for example by having been knocked unconscious. Otherwise, whenever the mage is *forced* to roll a [test](./core-rules.md#tests) (for example [melee defence](./core-rules.md#melee-defence-agi)), they must **also** succeed another test of their concentration spell's magic school, at the same **Ob** as the test they were just forced to roll. 
+
+## Magic Negation
+It is possible to negate a magical attack entirely, by using the same **school of magic** **skill** and achieving more positives, than the attacker. The defender has to perform a [test](#testing-magic) of the same magic school, at the **Ob** equal to the number of **positives + 1** the attacker achieved. The defender does not get to use a [skill ability](#skill-abilities) of the magic school in question. This is a purely defensive action, which benefits everyone who might be hit with the spell of the attacker, as no one will be hit, if the defense is successful. 
+
+If the defense fails, the full effect is applied. If the defense attempt causes a [spell-backfire](#spell-backfire) on the defender, they suffer the attacker's spell at one greater [intensity](#spell-intensity-si) level. 
+
+**Magic negation** can also be used to prevent another mage's [spell-backfire](#spell-backfire).
+
+## Testing Magic
+[Testing](./core-rules.md#tests) a [magic school skill](#magic-school--school---attribute-), in order to cast a *magic spell*, works as follows:
+1. The mage determines the [spell intensity](#spell-intensity-si) they're going to use. Their level in the corresponding [magic school skill](#magic-school--school---attribute-) determines the maximum [spell intensity](#spell-intensity-si) they can pick. 
+  1. Note that any spell **must** be cast with a [spell intensity](#spell-intensity-si) of *at least* 1. This includes **learning skills**. 
+2. The [magic stamina](#magic-stamina) cost is determined. Roll **1 D3** for every point of the chosen [spell intensity](#spell-intensity-si). 
+  1. If more magic stamina is used up, than the mage has left available, they suffer a [spell-backfire](#spell-backfire).
+  2. The [magic stamina](#magic-stamina) is reduced by the rolled sum. This happens regardless of a [spell-backfire](#spell-backfire).
+3. Proceed only if there was no [spell-backfire](#spell-backfire).
+4. Determine the test's **Ob**. Some spells require an [opposed test](./core-rules.md#opposed-test), while others impose a fixed **Ob** and yet others have a dynamic **Ob**, based on some formula. 
+5. The dice for the test are rolled. 
+  1. If the test is a **complete success**, the spell is cast as intended. 
+  2. If the test is a **partial success/failure**, the spell fizzles and nothing happens.
+  3. If the test is a **complete failure**, the spell [back-fires](#spell-backfire). 
+
+> A mage wants to cast an [illusion](#illusion-emp) spell, at SI 2. Their level in the corresponding magic school skill is 4. They have 4 magic stamina left. 
+>
+> They roll **2 D3**, yielding them a 3 and a 2. The sum (5) is one point more magic stamina, than the mage had left. They suffer a spell-backfire and their intended target is left unaffected!
+
+> A mage wants to cast an [illusion](#illusion-emp) spell, at SI 2. Their level in the corresponding magic school skill is 4. They have 4 magic stamina left. 
+>
+> They roll **2 D3**, yielding them a 1 and a 2. The sum (3) is within their available magic stamina (which is now reduced to 1). 
+>
+> Now, they determine their **Ob** to be 2. They roll their 4 available D6, but achieve only 1 **positive**. Their spell fizzles and fails without any effect! 
+
+## Magic Things
+No fantasy world would be complete without materials with uses for the supernatural or artifacts of immense power. This section introduces the basics of these things. 
 
 ### Abyssalite
 **Abyssalite** is a hard and brittle mineral, that has the ability to *amplify the flow of magic*. It can only be acquired from the depths of the earth and is fairly rare. 
@@ -303,6 +306,8 @@ It only occurs naturally in a few select places in the world, where the ground o
 Prolonged exposure to **Amberite** can cause severe ill-effects with nausea and migranes being common symptoms. 
 
 ### Ambersteel
+**Ambersteel** is a strictly anti-magic material, it should enjoy great attention in any fantasy world, where magic is a real and recognizable force. Where usually, magic is the centerpiece, in **Ambersteel** that isn't quite the case. Magic is powerful and fearsome and thus, if not under control, can threaten to cause great pain and destruction. **Ambersteel** dampens that power and puts shackles on it. 
+
 [Amberite](#amberite) can be processed into **Ambersteel**, which makes it a hard and flexible metal. The raw material heats slowly and must be heated over the course of several days and nights, without interruption. When it finally reaches the right temperature, it will glow white, with a purple sheen. At that point, it can be hammered into shape. Constant re-heating ensures it stays at the right temperature and a final quenching in vegetable oil ensures it retains its flexibility. 
 
 If processed outside the optimal temperature, the material quickly grows brittle and will shatter if any stress is put on it.
@@ -916,43 +921,40 @@ Note that altering the shape of creatures poses a particular challenge. Unless i
 
 Creatures can [resist](#resist-will) the change. Inanimate objects don't resist. 
 
-| Level | Name                 | AP | Distance | Type | Ob                   | Damage | Effect(s)                      |
-| ----- | -------------------- | -- | -------- | ---- | -------------------- | ------ | ------------------------------ |
-| 0     | Alter Shape          | 3  | 18'/6m   | ST   | Opposed: Resist      | /      | The object or creature is altered as the mage desires. The complexity and size of the re-shaping depends on the **intensity** level. Levels 1-3 are for simple and small, 4-6 for tricky and medium, 7-8 for complex and large and 9+ for very complex and very large alterations. |
+| Level | Name                 | AP | Distance | Ob                           | Effect(s)                      | Backfire Effect(s) |
+| ----- | -------------------- | -- | -------- | ---------------------------- | ------------------------------ | ------------------ |
+| 0     | Alter Shape          | 3  | 3'/1m    | Opposed: Resist              | A **ST** (object or creature) is altered as the mage desires. The complexity and size of the re-shaping depends on the **SI**. 1-3 are for simple and small, 4-6 for tricky and medium, 7-8 for complex and large and 9+ for very complex and very large alterations. Consult your **GM**! | The intended alteration occurs only on the caster. |
 
 ### Cryomancy (Arc)
 The summoning and control of ice. Cryomancer's can freeze things, so they're heavier and harder to break. 
 
-| Level | Name                 | AP | Distance | Type | Damage | Effect(s)                      |
-| ----- | -------------------- | -- | -------- | ---- | ------ | ------------------------------ |
-| 0     | Freezing Touch       | 2  | 0 | ST | **1 Freezing** | A fist-sized spot on whatever the mage's hand touches, freezes over. This is only a surface-level freeze! It does not run deep. |
-| 1     | Cold Finger Gun      | 2  | 15'/5m | ST | **1D4 Freezing** | The mage shoots a finger-sized ice spike from their hand. |
-| 3     | Deep Freeze          | 3  | 0 | ST | **1D10 Freezing** | A man-sized area of whatever the mage's hand is touching freezes over. The frost even penetrates and runs deep. |
-| 4     | Ice Spike            | 3  | 15'/5m | ST | **2D4 Freezing** | The mage shoots a fist-sized ice spike from their hand. |
-| 5     | Rooting Freeze       | 3  | 15'/5m | AOE 6'/2m radius | **4D4 Freezing** | A spot of the mage's choosing freezes over. Anyone caught within the radius, will be frozen to the spot and thus [rooted](#rooted). They can break free via a successful [strength](#strength-str) test against **Ob 3**. Or wait, until the ice thaws... |
+| Level | Name                 | AP | Distance    | Ob                           | Effect(s)                      | Backfire Effect(s) |
+| ----- | -------------------- | -- | ----------- | ---------------------------- | ------------------------------ | ------------------ |
+| 0     | Freezing Touch       | 2  | 3'/1m       | Opposed: Melee Defence - SI  | A fist-sized spot on a **ST**, that the mage's hand touches, freezes over and deals **SI freezing** damage. | The caster is affected, instead. |
+| 1     | Cold Finger Gun      | 2  | SI * 15'/5m | Opposed: Ranged Defence      | The mage shoots an ice spike at a **ST** from their hand, dealing **SI D4 freezing** damage. Causes +1 [frostbitten](./core-rules.md#frostbitten). | The caster is affected, instead. |
+| 3     | Deep Freeze          | 3  | 3'/1m       | Opposed: Melee Defence       | A man-sized area of whatever the mage's hand is touching freezes over. The frost even penetrates and runs deep in a **ST**, dealing **1D10 freezing** damage. Causes +1 [frostbitten](./core-rules.md#frostbitten). | The caster is affected, instead. |
+| 5     | Rooting Freeze       | 3  | SI * 15'/5m | 5                            | A spot of the mage's choosing freezes over. Anyone caught within the **AOE** 9'/3m radius, will be frozen to the spot and thus [rooted](#rooted) and also suffer  **SI D4 Freezing** damage. They can break free via a successful [strength](#strength-str) test at **Ob 3**. Or wait, until the ice thaws... | The spot beneath the caster is affected, instead. |
 
 ### Electromancy (Arc)
 The summoning and control of lightning. Electricity is fairly versatile - it can injure or stun and power or trigger electrical and electronic devices. 
 
-| Level | Name                  | AP | Distance | Type | Damage | Effect(s)                      |
-| ----- | --------------------- | -- | -------- | ---- | ------ | ------------------------------ |
-| 0     | Weak Shock            | 1  | 0        | ST   | **1 Electrical**   | A small area, about the size of the mage's hand is burned on touch by a weak electrical shock. |
-| 1     | Shock                 | 2  | 3'/1m    | ST   | **1D3 Electrical** | A small arc of lightning strikes the vulnerable internals of a target. Alternatively, a device could be powered for a short time. A reference point would be powering a flashlight for a few minutes. |
-| 2     | Stunning Shock        | 2  | 15'/5m   | ST   | / | An aimed arc of lightning strikes a single target and causes it to seize up for a moment. Lasts until the start of the target's next turn in combat or several seconds outside of combat. |
-| 4     | Strong Shock          | 2  | 24'/8m   | ST   | **2D4 Electrical** | A large arc of lightning strikes the vulnerable internals of a target. Alternatively, a device could be powered for a time. A reference point would be powering a flashlight for several hours. |
-| 4     | Strong Stunning Shock | 2  | 24'/8m   | ST   | / | An aimed arc of lightning strikes a single target and causes it to seize up for a moment. Lasts 2 of the target's turns in combat or 10 seconds outside of combat. |
-| 7     | Cone of Lightning     | 3  | 30'/10m  | MST  | **2D6 Electrical** | A cone of lightning spews forth from the mage's finger tips. Up to 3 targets can be hit with the shock. Alternatively, a device could be powered for an extended period of time, depending on its hunger for power. A reference point would be powering up an industrial floodlight for a whole week. |
-| 9     | UNLIMITED POWER       | 3  | 45'/15m  | MST  | **3D6 Electrical** | A cone of lightning spews forth from the mage's finger tips. Up to 10 targets can be hit with the shock. Alternatively, a device could be powered for a very long time, depending on its hunger for power. A reference point would be powering up an industrial floodlight for a whole month. |
-| 9     | Mass Stunning Shock   | 3  | 45'/15m  | MST  | / | Several arcs of aimed lightning spew forth from the mage's finger tips, causing up to 10 targets struck to cease up for 3 turns of combat or several minutes outside of combat. |
+| Level | Name                  | AP | Distance     | Ob                           | Effect(s)                      | Backfire Effect(s) |
+| ----- | --------------------- | -- | ------------ | ---------------------------- | ------------------------------ | ------------------ |
+| 0     | Shocking Touch        | 2  | 3'/1m        | Opposed: Melee Defence - SI  | A small area, about the size of the mage's hand is burned on touch by an electrical shock, dealing **SI electrical** damage to a **ST**. | The caster is affected, instead. |
+| 1     | Shock                 | 2  | SI * 9'/3m   | Opposed: Melee Defence       | An arc of lightning strikes the vulnerable internals of a **ST**, dealing **SI D3 electrical** damage. | The caster is affected, instead. |
+| 1     | Power-Up              | 2  | SI * 3'/1m   | SI                           | An electrical device is powered up for 5 * **SI** minutes. | The device breaks or otherwise seizes up and becomes unusable. |
+| 2     | Stunning Shock        | 2  | SI * 15'/5m  | Opposed: Ranged Defence - SI | An aimed arc of lightning strikes a **ST** and adds one stack of [stunned](./core-rules.md#stunned). | The caster is affected, instead. |
+| 5     | UNLIMITED POWER       | 3  | SI * 30'/10m | Opposed: Ranged Defence      | A cone of lightning spews forth from the mage's finger tips. Up to **SI + 1** **MST** can be hit with the shock, dealing **SI D6 electrical** damage. | The caster and anyone next to them is affected, instead. |
+| 5     | Mass Stunning Shock   | 3  | SI * 30'/10m | Opposed: Ranged Defence      | Several arcs of aimed lightning spew forth from the mage's finger tips, striking up to **SI + 1** **MST** and adding 3 stacks of [stunned](./core-rules.md#stunned). | The caster and anyone next to them is affected, instead. |
 
 ### Illusion (Emp)
 Creation of non-physical influences on the senses. That includes images, sounds and odors. The illusions cannot cause direct harm, although they can drive an individual to acts that may put them in danger. 
 
 A victim reaching their [exhaustion threshold](#exhaustion) by effect of this magic, while [terrified](./core-rules.md#terrified), must succeed an [endurance](#endurance-end) test, or else suffer a heart-attack and **die** outright. The **Ob** is a third of their [endurance](#endurance-end), rounded up. 
 
-| Level | Name                 | AP | Distance        | Type | Ob                   | Damage | Effect(s)                      |
-| ----- | -------------------- | -- | --------------- | ---- | -------------------- | ------ | ------------------------------ |
-| 0     | Illusion             | 2  | N * 30'/10m     | ST   | Opposed: Resist      | /      | **Concentration**; The affected creature *sees*, *hears* or *smells* an illusory image/sound/odor. *Can* be used to inflict [terror](./core-rules.md#terrified) or intense [jealousy](./core-rules.md#jealous). The victim always suffers +1 [exhaustion](./core-rules.md#exhaustion). |
+| Level | Name                 | AP | Distance     | Ob                           | Effect(s)                      | Backfire Effect(s) |
+| ----- | -------------------- | -- | ------------ | ---------------------------- | ------------------------------ | ------------------ |
+| 0     | Illusion             | 2  | SI * 30'/10m | Opposed: Resist              | **Concentration**; The affected **ST** *sees*, *hears* or *smells* an illusory image/sound/odor. The intensity of the illusion is determined by the **SI**. 1-3 for a weak and small, 3-5 for a moderate and 6+ for a large and intense illusion. *Can* be used to inflict [terror](./core-rules.md#terrified) or intense [jealousy](./core-rules.md#jealous). The victim suffers +1 [exhaustion](./core-rules.md#exhaustion). | The caster suffers +1 [exhaustion](./core-rules.md#exhaustion). |
 
 ### Psionics (Ora/Int)
 Mind over matter! Psionics grants powerful abilities to manipulate objects, influence others and even wield magic as a weapon or shield. 
@@ -962,39 +964,36 @@ Mind over matter! Psionics grants powerful abilities to manipulate objects, infl
 
 Only targets within and up to the given *distance* can be moved and only within and up to that *distance* from the mage. 
 
-| Level | Name                 | AP | Distance    | Type | Ob                      | Damage                   | Effect(s)                      |
-| ----- | -------------------- | -- | ----------- | ---- | ----------------------- | ------------------------ | ------------------------------ |
-| 0     | Psionic Telekinesis  | 3  | N * 30'/10m | ST   | Opposed: Ranged Defence | **ND6** **Variant**      | Move an object or creature at great velocity (if desired), which allows it to deal damage upon impact. Alternatively, **crush** or restrain the object or creature. Can target yourself. |
-| 0     | Psionic Missile      | 2  | N * 30'/10m | ST   | Opposed: Ranged Defence | **2D10** **Bludgeoning** | Using psionics, extend the force of a punch, to hurl a focused shockwave towards a target. |
-| 1     | Psionic Shield       | 2  | N * 9'/3m   | ST   | Spell intensity         | /                        | As a **reaction** to you or an ally being hit with an attack, cast a shield of purple energy to erupt around yourself or an ally within distance, which absorbs up to **N * 10 points** of damage. |
-| 1     | Pressing Thoughts    | 2  | N * 36'/18m | MST  | Spell intensity         | /                        | **Concentration**: [Hasten](./core-rules.md#hasted) up to 3 creatures of choice. |
-| 1     | Levitate             | 1  | N * 9'/3m   | ST   | Opposed: Ranged Defence | /                        | **Concentration**: Cause yourself or one other creature of choice, within *distance* to levitate a short distance above the ground. |
-| 3     | Dimensional Shift    | 3  | N * 30'/10m | ST   | Opposed: Ranged Defence | /                        | Cause a dimensional rift to open and swallow a single creature of choice, which another rift releases at a location of your choosing, a moment later. |
+| Level | Name                 | AP | Distance     | Ob                           | Effect(s)                      | Backfire Effect(s) |
+| ----- | -------------------- | -- | ------------ | ---------------------------- | ------------------------------ | ------------------ |
+| 0     | Psionic Telekinesis  | 3  | SI * 30'/10m | Opposed: Ranged Defence      | Move a **ST** at great velocity (if desired), which allows it to deal **SI D6** **variant** (depends on the type of object, if it is an object) damage upon impact. Alternatively, **crush** or restrain the object or creature. Can target yourself. | The caster is affected, instead. |
+| 0     | Psionic Missile      | 2  | SI * 15'/5m  | Opposed: Ranged Defence      | Using psionics, extend the force of a punch, to hurl a focused psionic shockwave towards a **ST**, dealing **SI D8** **bludgeoning** damage. | The caster is affected, instead. |
+| 1     | Psionic Shield       | 2  | SI * 9'/3m   | SI                           | As a **reaction** to you or an ally being hit with an attack, cast a shield of psionic energy to erupt around yourself or an ally within distance, which absorbs up to **SI * 10** points of damage. | Instead of absorbing damage, the target instead suffers an additional **SI * 2** points of **bludgeoning** damage. |
+| 1     | Psionic Hasten       | 2  | SI * 36'/18m | 3 + SI                       | **Concentration**: [Hasten](./core-rules.md#hasted) up to **SI** creatures of choice. | The caster suffers +1 [exhaustion](./core-rules.md#exhaustion). |
+| 1     | Levitate             | 1  | SI * 9'/3m   | Opposed: Ranged Defence      | **Concentration**: Cause yourself or one other **ST** of choice, within *distance* to levitate a short distance above the ground. | The caster suffers +1 [exhaustion](./core-rules.md#exhaustion). |
+| 3     | Dimensional Shift    | 3  | SI * 30'/10m | Opposed: Ranged Defence      | Cause a dimensional rift to open and swallow a **ST** of choice, which another rift releases at a location of your choosing, a moment later. | The caster is instead swallowed by a rift, immediately tossed back out in the same spot and suffers **1D10** points of **crushing** damage. |
 
 ### Pyromancy (Arc)
 The summoning and control of fire. The flame being a destructive force, pyromancers enjoy little utility from their magic, beyond the ability to create light and heat. 
 
-| Level | Name                 | AP | Distance  | Type              | Damage          | Effect(s)                      |
-| ----- | -------------------- | -- | --------- | ----------------- | --------------- | ------------------------------ |
-| 0     | Candle Flame         | 1  | 3'/1m     | ST                | **2 Burning**   | A small, controlled flame erupts and stays in the mage's hand, inflicting mild burn damage on touch. Alternatively, a small flame (like a candle flame) in immediate proximity of the mage is extinguished. |
-| 0     | Burning Hand         | 2  | 3'/1m     | ST                | **1D6 Burning** | The mage's hand is surrounded by fire, inflicting serious burns on touch. |
-| 1     | Cone of Fire         | 3  | 15'/5m    | MST               | **3D4 Burning** | The mage shoots a burst of fire in a short cone in front of them, hitting up to two adjacent targets. |
-| 3     | Fire Ball            | 2  | 45'/15m   | AOE 6'/2m radius  | **3D6 Burning** | The mage forms a large ball of flame between their hands, ready to be flung at a target location. |
-| 5     | Column of Flame      | 3  | 45'/15m   | AOE 6'/2m radius  | **3D6+2 Burning** | The mage lets a column of flame erupt from the ground at a target location. |
-| 7     | Flame Jet            | 3  | 90'/30m   | AOE line          | **4D6 Burning** | A steady stream of flame shoots from the mages hands, burning anything caught by it, in a straight line. |
-| 10    | Rain of Fire         | 4  | 600'/100m | AOE 24'/8m radius | **6D6 Burning** | The mage makes fire rain from the sky. This spell lasts two turns in combat or 10 seconds out of combat. |
+| Level | Name                 | AP | Distance     | Ob                           | Effect(s)                      | Backfire Effect(s) |
+| ----- | -------------------- | -- | ------------ | ---------------------------- | ------------------------------ | ------------------ |
+| 0     | Burning Touch        | 2  | 3'/1m        | Opposed: Melee Defence - SI  | A controlled flame erupts and stays in the mage's hand, inflicting **SI burning** damage on touch to a **ST**. | The caster is affected, instead. |
+| 1     | Cone of Fire         | 3  | SI * 6'/2m   | Opposed: Ranged Defence      | The mage shoots a burst of fire in a short cone in front of them, hitting up to two adjacent **MST**, dealing **SI D4 burning** damage. | The caster and anyone next to them is affected, instead. |
+| 3     | Fire Ball            | 2  | SI * 45'/15m | SI                           | The mage forms a large ball of flame between their hands, ready to be flung at a target location, dealing **SI D6 burning** damage in a **AOE** 6'/2m radius. | The caster and anyone next to them is affected, instead. |
+| 7     | Flame Jet            | 3  | SI * 30'/10m | SI + 1                       | A steady stream of flame shoots from the mage's hands, dealing **SI D6 burning** damage to anything caught by it, in a straight **AOE** line.  | The line of fire erupts backwards, through the mage. They and anyone behind them, in the line's range is affected. |
+| 9     | Rain of Fire         | 4  | SI * 60'/20m | SI + 3                       | The mage makes fire rain from the sky. A ball of fire falls from the sky for every **SI**, dealing **6 D6 + SI burning** damage in a **AOE** 24'/8m radius, at a location of choice. | No fire falls from the sky, instead the SI number of fire balls erupt in the mage's hands. They and anyone in the radius suffers the damage. |
 
 ### Restoration (Emp)
 The mending of [injuries](./core-rules.md#injury) and treatment of [diseases](./core-rules.md#illness). 
 
-| Level | Name                 | AP | Distance | Type | Ob                | Damage | Effect(s)                      |
-| ----- | -------------------- | -- | -------- | ---- | ----------------- | ------ | ------------------------------ |
-| 0     | Patching Touch       | 2  | 3'/1m    | ST   | 1                 | /      | A creature of the mage's choosing, in hand's reach, is magically healed. Removes one point of [bleeding](#bleeding). One [injury](#injury) of choice is now **patched up**. Restores missing HP. |
-| 1     | Better Patching Touch| 2  | 3'/1m    | ST   | 2                 | /      | Up to two creatures of the mage's choosing, in hand's reach, are magically healed. Removes all [bleeding](#bleeding) and [poisoned](#poisoned). Up to two [injuries](#injury) of choice are now **patched up**. |
-| 2     | Healing Touch        | 2  | 3'/1m    | ST   | 3                 | /      | A creature of the mage's choosing, in hand's reach, is magically healed. A single [injury](#injury) of choice becomes **treated**. Removes all [bleeding](#bleeding) and [poisoned](#poisoned). |
-| 4     | Life Leech           | 3  | 3'/1m    | ST   | Opposed: Resist   | /      | Draw the life from a touched creature of choice. Deals **2DN** points of damage to that creature, where *N* is the chosen level, while healing another touched creature for the same amount. Transfers 1 point of [bleeding](#bleeding) and/or [poisoned](#poisoned) from the healed creature to the damaged one. |
-| 5     | Expel Illness        | 3  | 3'/1m    | ST   | 4                 | /      | Removes one [illness](#illness) of choice from a creature of choice, in hand's reach. |
-| 6     | Revert Mutation      | 4  | 3'/1m    | ST   | 6                 | /      | Removes one [mutation](#list-of-mutations) of choice from a creature of choice, in hand's reach. |
+| Level | Name                 | AP | Distance | Ob                           | Effect(s)                      | Backfire Effect(s) |
+| ----- | -------------------- | -- | -------- | ---------------------------- | ------------------------------ | ------------------ |
+| 0     | Patching Touch       | 2  | 3'/1m    | 1                            | A **ST** of the mage's choosing, in hand's reach, is magically healed. Removes **SI** points of [bleeding](#bleeding) and **SI** points of [poisoned](#poisoned). One [injury](#injury) of choice is now **patched up**. Restores **SI** missing [HP](./core-rules.md#hit-points-hp). | The caster receives +1 point of [bleeding](./core-rules.md#bleeding). |
+| 1     | Treating Touch       | 2  | 3'/1m    | 2                            | A **ST** of the mage's choosing, in hand's reach, is magically healed. Up to **SI** [injuries](#injury) of choice are now **treated up** and their time to heal is reduced by **SI D4** days. Restores all missing [HP](./core-rules.md#hit-points-hp). | The caster receives **SI** random [injuries](#injury). |
+| 4     | Life Leech           | 3  | 3'/1m    | Opposed: Resist              | Draw the life from a **ST** creature of choice. Deals **SI D3** points of damage while healing another touched creature's or one's own [HP](./core-rules.md#hit-points-hp) for the same amount. Transfers 1 point of [bleeding](#bleeding) and/or [poisoned](#poisoned) from the healed creature to the damaged one. | The effect triggers in reverse, drawing **SI** [HP](./core-rules.md#hit-points-hp) from the caster and sending them to their victim. Transfers **SI** points of [bleeding](#bleeding) and/or [poisoned](#poisoned) from the target to the caster. |
+| 5     | Expel Illness        | 3  | 3'/1m    | 4                            | Removes **SI** number of [illnesses](#illness) of choice from a **ST** of choice, in hand's reach. | The caster contracts **SI** random [illnesses](#illness). | 
+| 6     | Revert Mutation      | 4  | 3'/1m    | 6                            | Removes **SI** number of [mutations](#list-of-mutations) of choice from a **ST** of choice, in hand's reach. | The caster receives **SI** random [mutations](#list-of-mutations). |
 
 ### Soul-Binding (Int)
 Also referred to as **necromancy**, this is the art and skill of calling souls from the **plane of the dead** and binding them, to reanimate corpses or animate an otherwise unliving body. 
@@ -1009,12 +1008,12 @@ An important note about **completely failing** a **soul-binding** attempt - a **
 
 Another important note about targeting a specific soul. It is easier to recall the soul that previously inhabited a body, the shorter the time of death has been. However, targeting a specific soul is an immensely difficult undertaking and shouldn't be taken lightly. For every day past the original time of death, the difficulty of recalling the soul increases by **1 Ob**. 
 
-| Level | Name                 | AP | Distance  | Type | Ob                                 | Damage | Effect(s)                      |
-| ----- | -------------------- | -- | --------- | ---- | ---------------------------------- | ------ | ------------------------------ |
-| 0     | Call and Bind a Soul | 3  | /         | ST   | Spell intensity                    | /      | Create a **soul-binding** at the strength of the chosen level. The larger, heavier and more complex a body is, the harder it is to create a binding. Anything larger than, heavier or more complex than a human will make the **soul-binding** harder. Requires a **soul-seal**. Replacing an existing binding is possible, but the test must exceed the original soul-seals strength.  |
-| 1     | Command Bound Soul   | 1  | N * 6'/3m | ST   | Opposed: Resist at 6-N             | /      | Issue a single command that the bound soul **must** follow. |
-| 1     | Break Binding        | 3  | /         | ST   | Spell intensity of the seal        | /      | Break a **soul-binding** and send the soul back to the **plane of the dead**, leaving its former body inanimate and soulless. |
-| 5     | Call back a Soul     | 3  | /         | ST   | Spell intensity + days since death | /      | Target a specific soul and recall them into their prior body. This isn't, strictly speaking, the same as binding a soul. |
+| Level | Name                 | AP | Distance   | Ob                           | Effect(s)                      | Backfire Effect(s) |
+| ----- | -------------------- | -- | ---------- | ---------------------------- | ------------------------------ | ------------------ |
+| 0     | Call and Bind a Soul | 3  | 3'/1m      | SI                           | Create a **soul-binding** at the strength of the chosen level. The larger, heavier and more complex a body is, the harder it is to create a binding. Anything larger than, heavier or more complex than a human will make the **soul-binding** harder. 1-3 for a small and simple, 4-5 for a moderate and 6+ for a large and complex binding. Consult your **GM**. Requires a **soul-seal**. Replacing an existing binding is possible, but the test must exceed the original soul-seals strength. | The caster's soul is evicted from their body and another soul takes place. The caster's character is effectively removed from the world. |
+| 1     | Command Bound Soul   | 1  | SI * 6'/3m | Opposed: Resist at 6 - SI    | Issue a single command that the bound soul **must** follow. | +1 [exhaustion](./core-rules.md#exhaustion) to the caster. |
+| 1     | Break Binding        | 3  | 3'/1m      | SI of the seal               | Break a **soul-binding** and send the soul back to the **plane of the dead**, leaving its former body inanimate and soulless. | The caster's soul is evicted from their body and another soul takes place. The caster's character is effectively removed from the world. |
+| 5     | Call back a Soul     | 3  | 3'/1m      | SI + days since death        | Target a specific soul and recall them into their prior body. This isn't, strictly speaking, the same as binding a soul. | The caster's soul is evicted from their body and another soul takes place. The caster's character is effectively removed from the world. |
 
 ### Telekinesis (Int)
 The ability to affect things and even creatures from afar, using magic instead of muscles or tools. 
@@ -1027,10 +1026,10 @@ Only targets within and up to the given *distance* can be moved and only within 
 
 In the following, replace *N* with the chosen **spell intensity**. 
 
-| Level | Name                   | AP | Distance     | Type | Ob                      | Damage                   | Effect(s)                      |
-| ----- | ---------------------- | -- | ------------ | ---- | ----------------------- | ------------------------ | ------------------------------ |
-| 0     | Telekinesis            | 2  | N * 15'/5m   | ST   | Opposed: Ranged Defence | **ND4** **Variant** | Move an inanimate object at great velocity (if desired), which allows it to deal damage upon impact. Can target yourself. |
-| 3     | Creature Telekinesis   | 3  | N * 15'/5m   | ST   | Opposed: Ranged Defence | /             | Move a single large, or smaller, creature. |
+| Level | Name                   | AP | Distance     | Ob                           | Effect(s)                      | Backfire Effect(s) |
+| ----- | ---------------------- | -- | ------------ | ---------------------------- | ------------------------------ | ------------------ |
+| 0     | Telekinesis            | 2  | SI * 15'/5m  | SI                           | Move an inanimate **ST** object at great velocity (if desired), which allows it to deal **SI D4** **variant** (depending on the type of object) damage upon impact. | The caster suffers +1 [exhaustion](./core-rules.md#exhaustion). |
+| 3     | Creature Telekinesis   | 3  | SI * 15'/5m  | Opposed: Ranged Defence      | Move a **ST** large, or smaller, creature. | The caster is knocked back **SI** * 9'/3m and suffers **SI bludgeoning** damage. |
 
 ### Telepathy (Ora)
 The ability to communicate wordlessly, to alter emotions and even issue compelling commands against another's will. 
@@ -1039,13 +1038,13 @@ The mage can only affect those creatures that either don't resist, or which **fa
 
 In the following, replace *N* with the chosen **spell intensity**. 
 
-| Level | Name                   | AP | Distance   | Type | Ob                   | Damage | Effect(s)                      |
-| ----- | ---------------------- | -- | ---------- | ---- | -------------------- | ------ | ------------------------------ |
-| 0     | Wordless Communication | 2  | N * 12'/4m | MST  | Spell intensity      | /      | **Concentration**: Communicate wordlessly with *N* number of creatures. |
-| 3     | Change a Mind          | 2  | N * 12'/4m | ST   | Opposed: Resist      | /      | Alter a creature's current state of mind and emotion. |
-| 4     | Pressing Thought       | 3  | 36'/18m    | ST   | /                    | /      | [Hasten](./core-rules.md#hasted) 1 creature of choice for 2 turns of combat or 10 seconds out of combat. |
-| 6     | Quiet Command          | 3  | N * 12'/4m | ST   | Opposed: Resist      | /      | Issue a command to another creature, which they feel **strongly** compelled to follow. |
-| 7     | Confer Knowledge       | 4  | N * 12'/4m | ST   | Resist at **Ob 7-N** | /      | Confer +1 level of a **known skill** to another creature. |
+| Level | Name                   | AP | Distance     | Ob                           | Effect(s)                      | Backfire Effect(s) |
+| ----- | ---------------------- | -- | ------------ | ---------------------------- | ------------------------------ | ------------------ |
+| 0     | Wordless Communication | 2  | SI * 12'/4m  | SI                           | **Concentration**: Communicate wordlessly with **SI** **MST**. | The caster suffers +1 [exhaustion](./core-rules.md#exhaustion). |
+| 3     | Change a Mind          | 2  | SI * 12'/4m  | Opposed: Resist - SI         | Alter a creature's current state of mind and emotion. | The caster is affected, instead. |
+| 4     | Pressing Thought       | 3  | SI * 30'/10m | SI + 2                       | [Hasten](./core-rules.md#hasted) up to **SI** **MST** of choice for **SI** turns of combat or **SI** * 5 seconds out of combat. | The caster suffers +1 [exhaustion](./core-rules.md#exhaustion). |
+| 6     | Quiet Command          | 3  | SI * 30'/10m | Opposed: Resist - SI         | Issue a command to another creature, which they feel **strongly** compelled to follow. | The caster is affected, instead. |
+| 7     | Confer Knowledge       | 4  | 3'/1m        | 7 - SI                       | Confer +1 level of a **known skill** to another creature. | The caster loses 1 level in the chosen skill. |
 
 ## List of Injuries
 * New description of "Tremors": -1 [Arcana](#arcana-arc); -1 [Agility](#agility-agi)
