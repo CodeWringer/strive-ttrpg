@@ -1038,13 +1038,13 @@ The mage can only affect those creatures that either don't resist, or which **fa
 
 In the following, replace *N* with the chosen **spell intensity**. 
 
-| Level | Name                   | AP | Distance   | Type | Ob                   | Damage | Effect(s)                      |
-| ----- | ---------------------- | -- | ---------- | ---- | -------------------- | ------ | ------------------------------ |
-| 0     | Wordless Communication | 2  | N * 12'/4m | MST  | Spell intensity      | /      | **Concentration**: Communicate wordlessly with *N* number of creatures. |
-| 3     | Change a Mind          | 2  | N * 12'/4m | ST   | Opposed: Resist      | /      | Alter a creature's current state of mind and emotion. |
-| 4     | Pressing Thought       | 3  | 36'/18m    | ST   | /                    | /      | [Hasten](./core-rules.md#hasted) 1 creature of choice for 2 turns of combat or 10 seconds out of combat. |
-| 6     | Quiet Command          | 3  | N * 12'/4m | ST   | Opposed: Resist      | /      | Issue a command to another creature, which they feel **strongly** compelled to follow. |
-| 7     | Confer Knowledge       | 4  | N * 12'/4m | ST   | Resist at **Ob 7-N** | /      | Confer +1 level of a **known skill** to another creature. |
+| Level | Name                   | AP | Distance     | Ob                           | Effect(s)                      | Backfire Effect(s) |
+| ----- | ---------------------- | -- | ------------ | ---------------------------- | ------------------------------ | ------------------ |
+| 0     | Wordless Communication | 2  | SI * 12'/4m  | SI                           | **Concentration**: Communicate wordlessly with **SI** **MST**. | The caster suffers +1 [exhaustion](./core-rules.md#exhaustion). |
+| 3     | Change a Mind          | 2  | SI * 12'/4m  | Opposed: Resist - SI         | Alter a creature's current state of mind and emotion. | The caster is affected, instead. |
+| 4     | Pressing Thought       | 3  | SI * 30'/10m | SI + 2                       | [Hasten](./core-rules.md#hasted) up to **SI** **MST** of choice for **SI** turns of combat or **SI** * 5 seconds out of combat. | The caster suffers +1 [exhaustion](./core-rules.md#exhaustion). |
+| 6     | Quiet Command          | 3  | SI * 30'/10m | Opposed: Resist - SI         | Issue a command to another creature, which they feel **strongly** compelled to follow. | The caster is affected, instead. |
+| 7     | Confer Knowledge       | 4  | 3'/1m        | 7 - SI                       | Confer +1 level of a **known skill** to another creature. | The caster loses 1 level in the chosen skill. |
 
 ## List of Injuries
 * New description of "Tremors": -1 [Arcana](#arcana-arc); -1 [Agility](#agility-agi)
