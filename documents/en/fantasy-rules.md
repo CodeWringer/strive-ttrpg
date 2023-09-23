@@ -921,9 +921,9 @@ Note that altering the shape of creatures poses a particular challenge. Unless i
 
 Creatures can [resist](#resist-will) the change. Inanimate objects don't resist. 
 
-| Level | Name                 | AP | Distance | Type | Ob                   | Damage | Effect(s)                      |
-| ----- | -------------------- | -- | -------- | ---- | -------------------- | ------ | ------------------------------ |
-| 0     | Alter Shape          | 3  | 18'/6m   | ST   | Opposed: Resist      | /      | The object or creature is altered as the mage desires. The complexity and size of the re-shaping depends on the **intensity** level. Levels 1-3 are for simple and small, 4-6 for tricky and medium, 7-8 for complex and large and 9+ for very complex and very large alterations. |
+| Level | Name                 | AP | Distance | Ob                           | Effect(s)                      | Backfire Effect(s) |
+| ----- | -------------------- | -- | -------- | ---------------------------- | ------------------------------ | ------------------ |
+| 0     | Alter Shape          | 3  | 3'/1m    | Opposed: Resist              | A **ST** (object or creature) is altered as the mage desires. The complexity and size of the re-shaping depends on the **SI**. 1-3 are for simple and small, 4-6 for tricky and medium, 7-8 for complex and large and 9+ for very complex and very large alterations. Consult your **GM**! | The intended alteration occurs only on the caster. |
 
 ### Cryomancy (Arc)
 The summoning and control of ice. Cryomancer's can freeze things, so they're heavier and harder to break. 
