@@ -884,7 +884,7 @@ A successful [medicine](#medicine-int) test, requiring medical supplies, can res
 ### Injury
 An **injury** is a serious health impediment of a character. Every character has a maximum number of **injury** they can endure. If they reach their maximum number of **injuries** and then lose all their remaining **HP**, the character **dies**. **PC**s are an exception, who instead arrive at [death's door](#deaths-door). 
 
-Whenever a character suffers an **injury**, a **D100** must be rolled and the corresponding result from the [list of injuries](#list-of-injuries) added to the character. 
+Whenever a character suffers an **injury**, a **D100** must be rolled and the corresponding result from the [damage type](#damage-types) specific [list of injuries](#list-of-injuries) added to the character. 
 
 For every **injury** incurred, a character's maximum **HP** is reduced by 2. 
 
