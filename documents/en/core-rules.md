@@ -141,8 +141,10 @@
   - [Action Points (AP)](#action-points-ap)
     - [Action Point Saving](#action-point-saving)
   - [Combat Movement](#combat-movement)
-    - [Swap-Out](#swap-out)
     - [Disengage](#disengage)
+    - [Flee Combat](#flee-combat)
+    - [Push Through](#push-through)
+    - [Swap-Out](#swap-out)
   - [Attacking](#attacking)
     - [Damage](#damage)
     - [Attack Modifiers](#attack-modifiers)
@@ -1561,6 +1563,8 @@ Active actions during combat are:
   * [Unarmed combat](#unarmed-combat-str)
 * [Moving](#combat-movement)
   * [Disengaging](#disengage)
+  * [Fleeing](#flee-combat)
+  * [Pushing Through](#push-through)
   * [Swapping out](#swap-out)
 * Speaking
 * Waiting (= abstaining from an action)
@@ -1599,11 +1603,28 @@ It may be possible to go past this limit via some [skill abilities](#skill-abili
 > At the start of their next **turn**, they get to keep 2 of those unspent **AP** and are forced to discard the other 1 **AP**. Thus, they begin their turn with 5 **AP** available to them. 
 
 ## Combat Movement
-Under normal circumstances, a character can move up to **12'/4m** (= 4 fields on a grid) per **AP** spent. In **difficult terrain**, the distance moved per **AP** is half that, at **6'/2m** (= 2 fields on a grid). It may be possible to increase the distance moved per **AP**, by **sprinting** (see below) or [riding](#riding-emp). 
+Under normal circumstances, a character (an average human) can move up to **12'/4m** (= 4 fields on a grid) per **AP** spent. In **difficult terrain**, the distance moved per **AP** is half that, at **6'/2m** (= 2 fields on a grid). It may be possible to increase the distance moved per **AP**, by **sprinting** (see below) or through the use of [skills](#skills). 
 
 **Difficult terrain** is any space that slows movement, but does not prevent it outright. Examples would be waist-high water, a surface of glue or a slowing force field. 
 
 It is also possible to **sprint**, doubling the distance one can move per **AP**, but at the cost of 1 point of [exhaustion](#exhaustion) for every **AP** spent **sprinting**. 
+
+### Disengage
+It is possible to move out of an enemy's [range of opportunity](#attacks-of-opportunity) without provoking an [attack of opportunity](#attacks-of-opportunity). This action costs 2 [AP](#action-points-ap) and the disengaging character **must** move 3'/1m in a direction that will get them out of the [range of opportunity](#attacks-of-opportunity) the fastest and safest. 
+
+> Just because jumping off a cliff would be the fastest way out of a **range of opportunity**, doesn't mean this is the best direction to go. A character trying to disengage is trying to move safely, after all. If that means having to go through the **range of opportunity** then so be it, but only if that *is* the best option. 
+
+When disengaging from more than one [range of opportunity](#attacks-of-opportunity) in the same action, every additional [range of opportunity](#attacks-of-opportunity) past the first adds 1 [AP](#action-points-ap) cost. 
+
+### Flee Combat
+When [combat](#combat) is a decidedly bad idea, one can try to flee from it. A fleeing character can no longer perform any *hostile actions*. That means, they can no longer attack or hinder any other characters until the end of [combat](#combat). 
+
+In turn for giving up their offensive capacity, they gain +50% of movement (for an average human on foot, that is +6'/2m) per [AP](#action-points-ap) spent. Rules for [difficult terrain](#combat-movement) still apply. 
+
+Additionally, they can [disengage](#disengage) at a cost of only 1 [AP](#action-points-ap). 
+
+### Push Through
+It is possible to **push through** a [range of opportunity](#attacks-of-opportunity), without spending any [AP](#action-points-ap), but in doing so, the [attack of opportunity](#attacks-of-opportunity) is **guaranteed** to land successfully, without any attack [test](#tests) necessary (this counts as an automatic success for the attacker). 
 
 ### Swap-Out
 It is possible to swap positions with an adjacent ally, without provoking an [attack of opportunity](#attacks-of-opportunity) for either character. 
@@ -1611,11 +1632,6 @@ It is possible to swap positions with an adjacent ally, without provoking an [at
 This **action** costs 3 [AP](#action-points-ap). 
 
 The ally in question can **oppose** this action with [strength](#strength-str). 
-
-### Disengage
-It is possible to move out of or through an enemy's **range of opportunity** without provoking an [attack of opportunity](#attacks-of-opportunity). This action costs 2 [AP](#action-points-ap). 
-
-When disengaging from or pushing through more than one **range of opportunity** in the same action, every additional **range of opportunity** past the first adds 1 [AP](#action-points-ap) cost. 
 
 ## Attacking
 Attacks are made using a [skill ability](#skill-abilities) of a [weapon](#weapon--weapon-type--str), the [unarmed](#unarmed-combat-str) or [throwing](#throwing-agi) [skill](#skills). 
@@ -1659,9 +1675,9 @@ Such an attack can be carried out against any character who is unable to resist 
 This kind of attack is only possible at the **GM**'s discretion. 
 
 ### Attacks of Opportunity
-When a character is within weapon's reach of another hostile character, they're considered within the other's **range of opportunity**. Whenever a character in an enemy's **range of opportunity** moves away from or more than 2m/6' around that enemy, that enemy can **choose to perform an attack of opportunity**. It is possible to avoid an **attack of opportunity** with a [disengage](#disengage) combat action. 
+When a character is within weapon's reach of another hostile character, they're considered within the other's **range of opportunity**. Whenever a character in an enemy's **range of opportunity** moves away from or more than 6'/2m *around* that enemy, that enemy can *choose* to perform an **attack of opportunity**. It is possible to avoid an **attack of opportunity** with a [disengage](#disengage) combat action. 
 
-Performing an **attack of opportunity** costs 1 [AP](#action-points-ap) at a **-1D** penalty and will **halt** the enemy in question and prevent their movement, regardless of whether the attack lands. The attacked party can still choose to push past, thus still getting to move, but if they do, the **attack of opportunity** is **guaranteed** to land successfully, without any attack [test](#tests) necessary. 
+Performing an **attack of opportunity** costs 1 [AP](#action-points-ap) at a **-1D** penalty and will **halt** the enemy in question and prevent their movement, regardless of whether the attack lands. The attacked party can still choose to [push through](#push-through), thus still getting to move, but if they do, the **attack of opportunity** is **guaranteed** to land successfully, without any attack [test](#tests) necessary (this counts as an automatic success for the attacker). 
 
 An **attack of opportunity** is a **combat action** and a **reaction**. 
 
