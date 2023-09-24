@@ -205,7 +205,14 @@
       - [Artistry (Emp)](#artistry-emp)
       - [Cooking (Emp)](#cooking-emp)
   - [List of Injuries](#list-of-injuries)
-    - [Type Specific Injuries](#type-specific-injuries)
+    - [List of Slashing Injuries](#list-of-slashing-injuries)
+    - [List of Piercing Injuries](#list-of-piercing-injuries)
+    - [List of Crushing Injuries](#list-of-crushing-injuries)
+    - [List of Burning Injuries](#list-of-burning-injuries)
+    - [List of Freezing Injuries](#list-of-freezing-injuries)
+    - [List of Poison Injuries](#list-of-poison-injuries)
+    - [List of Acid Injuries](#list-of-acid-injuries)
+    - [List of Electrical Injuries](#list-of-electrical-injuries)
   - [List of Illnesses](#list-of-illnesses)
   - [List of Mutations](#list-of-mutations)
   - [List of Scars](#list-of-scars)
@@ -877,7 +884,7 @@ A successful [medicine](#medicine-int) test, requiring medical supplies, can res
 ### Injury
 An **injury** is a serious health impediment of a character. Every character has a maximum number of **injury** they can endure. If they reach their maximum number of **injuries** and then lose all their remaining **HP**, the character **dies**. **PC**s are an exception, who instead arrive at [death's door](#deaths-door). 
 
-Whenever a character suffers an **injury**, a **D100** must be rolled and the corresponding result from the [list of injuries](#list-of-injuries) added to the character. Depending on the type of damage and the situation in question, a different injury table may be rolled on or a "flat" **injury** may be applied, instead. See also the [list of type specific injuries](#type-specific-injuries).
+Whenever a character suffers an **injury**, a **D100** must be rolled and the corresponding result from the [damage type](#damage-types) specific [list of injuries](#list-of-injuries) added to the character. 
 
 For every **injury** incurred, a character's maximum **HP** is reduced by 2. 
 
@@ -2020,41 +2027,107 @@ Tools: cooking utensils, a pot or pan, a fire place
 | A meal for many people               | Moderate   | Moderate  | Plenty of foodstuffs                   | / |
 
 ## List of Injuries
-How many times an **injury** can be suffered, can be limited. In the table below, the *max* is the maximum number of times the **injury** can be suffered by the same character. If there is a slash (/), there is no limit. If a roll would result in an already maxed out **injury**, pick the next **injury** below it, instead. 
+How many times an **injury** can be suffered, can be limited. In the table below, the *limit* is the maximum number of times the **injury** can be suffered by the same character. If there is a slash (/), there is no limit. If a roll would result in an already maxed out **injury**, pick the next **injury** below it, instead, or roll again. 
 
-| Range **D100** | Injury              | Max | Description                      |
-| ---------  | ------------------- | --- | -------------------------------- |
-| 0 - 5      | Cosmic Fortune      | /   | Luck is with you! You suffer no **injury**! |
-| 6 - 10     | Butchered Arm       | 2   | -1 [Agility](#agility-agi); Actions and equipment requiring two hands cannot be used. If incurred twice, any actions requiring arm movement is impossible. |
-| 11 - 15    | Broken Leg          | 2   | -1 [Agility](#agility-agi); Max movement of 3'/1m; If incurred twice, actions involving movement are impossible. |
-| 16 - 19    | Skull Fracture      | 1   | -1 [Intelligence](#intelligence-int); -1 [Wisdom](#wisdom-wis) |
-| 20 - 24    | Concussion          | /   | -1 [Intelligence](#intelligence-int); -1 [Perception](#perception-perc) |
-| 25 - 30    | Punctured Lung      | /   | -1 [Endurance](#endurance-end) |
-| 31 - 36    | Infection           | 1   | -1 [Toughness](#toughness-tough); Within a day, the character will contract an [illness](#illness). This will happen, even if the [injury](#injury) is treated. |
-| 37 - 42    | Fractured Rib       | /   | -1 [Toughness](#toughness-tough) | 
-| 43 - 48    | Nasty Wound         | /   | +1 [Bleeding](#bleeding) |
-| 49 - 54    | Broken Nose         | 1   | -1 [Perception](#perception-perc); Cannot smell. Once removed, leaves the [disfigured nose](#list-of-scars) [scar](#scars). |
-| 55 - 60    | Maimed Ear          | /   | -1 [Perception](#perception-perc); If incurred twice, cannot hear (really depends on how many ears the creature has). | 
-| 61 - 66    | Knocked Senseless   | /   | -1 [Perception](#perception-perc) |
-| 67 - 72    | Torn Tendon         | /   | -1 [Strength](#strength-str) | 
-| 73 - 79    | Mental Trauma       | /   | -1 [Will](#will-will) | 
-| 80 - 94    | Tremors             | /   | -1 [Agility](#agility-agi) | 
-| 95 - 100   | Cosmic Misfortune   | 1   | **-1D** on all [tests](#tests). | 
+### List of Slashing Injuries
+| Range D100 | Injury              | Limit     | Description                      | Scar                |
+| ---------  | ------------------- | --------- | -------------------------------- | ------------------- |
+| 0 - 5      | Cosmic Fortune      | /         | Luck is with you! You suffer no **injury**! | / |
+| 6 - 14     | Butchered Arm       | Arm Count | -1 [Agility](#agility-agi); Actions and equipment requiring two hands cannot be used. If incurred *limit* times, any actions requiring arm movement is impossible. | Scarred arm |
+| 15 - 23    | Butchered Leg       | Leg Count | -6'/2m of [movement](#combat-movement). If incurred *limit* times, any actions requiring leg movement is impossible. | Scarred leg |
+| 24 - 32    | Butchered Body      | /         | -1 [Toughness](#toughness-tough); +1 [Bleeding](#bleeding). | Scarred body |
+| 33 - 41    | Maimed Ear          | Ear Count | -1 [Perception](#perception-perc); If incurred *limit* times, cannot hear. | Disfigured ear |
+| 42 - 50    | Maimed Nose         | 1         | -1 [Perception](#perception-perc); Cannot smell. | Disfigured nose |
+| 51 - 59    | Slashed Eye         | Eye Count | -1 [Perception](#perception-perc); If incurred *limit* times, cannot see. A surface-level cut has grazed your eye, forcing you to keep it shut from pain. | Scarred eye |
+| 60 - 68    | Torn Tendon         | /         | -1 [Strength](#strength-str). A tendon has abandoned its duty to you. The limb it once controlled loses strength. | Creaky limb |
+| 69 - 77    | Deep Cut            | /         | +1 [Bleeding](#bleeding). The blood is everywhere. | Scarred body |
+| 78 - 86    | Infection           | /         | Within a day, the character will contract an [illness](#illness). This will always happen, even if the [injury](#injury) is treated. | / |
+| 87 - 95    | Emotional Damage    | /         | -1 [Empathy](#empathy-emp). Feeling empathy is difficult, when faced with a world that would do such horrible things to you. | / |
+| 96 - 100   | Cosmic Misfortune   | /         | The cosmos has it out for you! Suffer one additional **injury**! | / |
 
-### Type Specific Injuries
-There is no list of several different injuries per specific [damage type](#damage-types). Instead there is one "flat" injury for some of these types. 
+### List of Piercing Injuries
+| Range D100 | Injury              | Limit     | Description                      | Scar                |
+| ---------  | ------------------- | --------- | -------------------------------- | ------------------- |
+| 0 - 5      | Cosmic Fortune      | /         | Luck is with you! You suffer no **injury**! | / |
+| 6 - 16     | Pierced Limb        | /         | -1 [Agility](#agility-agi). Pain causes difficulty moving. | Scarred limb |
+| 17 - 28    | Pierced Body        | /         | -1 [Toughness](#toughness-tough). An invader has injured something within. You feel weaker. | Scarred body |
+| 29 - 39    | Punctured Lung      | /         | -1 [Endurance](#endurance-end); Whenever [exhaustion](#exhaustion) is suffered, it is added +1 times. Breathing has become difficult. | Heavy breathing |
+| 40 - 50    | Bone Fracture       | /         | -1 [Strength](#strength-str). A bone has been cracked, causing it to buckle under the weight of the flesh it once carried. | Crooked limb |
+| 51 - 61    | Torn Artery         | /         | +1 [Bleeding](#bleeding). The blood is everywhere. | Scarred body |
+| 62 - 73    | Infection           | /         | Within a day, the character will contract an [illness](#illness). This will always happen, even if the [injury](#injury) is treated. | / |
+| 74 - 84    | Pierced Eye         | Eye Count | -1 [Perception](#perception-perc); If incurred *limit* times, cannot see. | Blind eye |
+| 85 - 95    | Emotional Damage    | /         | -1 [Empathy](#empathy-emp). Feeling empathy is difficult, when faced with a world that would do such horrible things to you. | / |
+| 96 - 100   | Cosmic Misfortune   | /         | The cosmos has it out for you! Suffer one additional **injury**! | / |
 
-* **Burning**: Hell is claiming its prize. Flames greedily take what they can. 
-  * -1 [toughness](#toughness-tough). 
-  * When healed and removed, leaves a [Burned Skin](#list-of-scars) [scar](#scars). 
-* **Freezing**: The cold bites into flesh, seizing up muscles. 
-  * -1 [agility](#agility-agi). 
-* **Poison**: Pain courses through the veins. Every beat of the heart a stinging and burning reminder a substance doesn't belong. 
-  * -1 [endurance](#endurance-end). 
-* **Acid**: Acid steadily eats away, layer by layer, making skin and flesh come unwound. 
-  * -1 [toughness](#toughness-tough). 
-* **Electrical**: The muscles spasm uncontrollably, like a puppet out of control. 
-  * -1 [agility](#agility-agi). 
+### List of Crushing Injuries
+| Range D100 | Injury              | Limit     | Description                      | Scar                |
+| ---------  | ------------------- | --------- | -------------------------------- | ------------------- |
+| 0 - 5      | Cosmic Fortune      | /         | Luck is with you! You suffer no **injury**! | / |
+| 6 - 16     | Concussion          | /         | -1 [Wisdom](#wisdom-wis). Thoughts come to you slower than before. | / |
+| 17 - 28    | Skull Fracture      | /         | -1 [Intelligence](#intelligence-int). The pain shoots through your mind, displacing any other thought. | Crooked skull |
+| 29 - 39    | Fractured Rib       | /         | -1 [Toughness](#toughness-tough). A rib has cracked and is now pointing the wrong way. | Crooked rib cage |
+| 40 - 50    | Broken Nose         | 1         | -1 [Perception](#perception-perc); Cannot smell. | Disfigured nose |
+| 51 - 61    | Knocked Senseless   | /         | -1 [Perception](#perception-perc). The pain and the impact disorient you. | / |
+| 62 - 73    | Mental Trauma       | /         | -1 [Willpower](#willpower-will). The sheer force of impact sends terror tremors through your body. | / |
+| 74 - 84    | Smashed Jaw         | /         | -1 [Oratory](#oratory-ora). Your jaw no longer hinges the way it should and speech is impaired. | Crooked jaw |
+| 85 - 95    | Emotional Damage    | /         | -1 [Empathy](#empathy-emp). Feeling empathy is difficult, when faced with a world that would do such horrible things to you. | / |
+| 96 - 100   | Cosmic Misfortune   | /         | The cosmos has it out for you! Suffer one additional **injury**! | / |
+
+### List of Burning Injuries
+| Range D100 | Injury              | Limit     | Description                      | Scar                |
+| ---------  | ------------------- | --------- | -------------------------------- | ------------------- |
+| 0 - 5      | Cosmic Fortune      | /         | Luck is with you! You suffer no **injury**! | / |
+| 6 - 28     | Molten Skin         | /         | -1 [Toughness](#toughness-tough); -1 [Oratory](#oratory-ora). Flame's greed has laid part of you bare. | Burned skin |
+| 29 - 50    | Ash Lung            | /         | -1 [Endurance](#endurance-end). The heat and stench of your own self burning cause difficulty breathing. | / |
+| 51 - 73    | Burned Face         | /         | -1 [Perception](#perception-perc); -1 [Oratory](#oratory-ora). Involuntarily, you close your eyes in hopes of protecting them from the fire. In vain. Speech is impaired from your pain contorted face. | Burned face |
+| 74 - 95    | Emotional Damage    | /         | -1 [Empathy](#empathy-emp). Feeling empathy is difficult, when faced with a world that would do such horrible things to you. | / |
+| 95 - 100   | Cosmic Misfortune   | /         | The cosmos has it out for you! Suffer one additional **injury**! | / |
+
+### List of Freezing Injuries
+| Range D100 | Injury              | Limit     | Description                      | Scar                |
+| ---------  | ------------------- | --------- | -------------------------------- | ------------------- |
+| 0 - 5      | Cosmic Fortune      | /         | Luck is with you! You suffer no **injury**! | / |
+| 6 - 28     | Frostbitten Skin    | /         | -1 [Toughness](#toughness-tough). The cold bites. The pain is unbearable. | Discolored skin |
+| 29 - 50    | Deep Freeze         | /         | -1 [Endurance](#endurance-end). Chilled to the bone! Every movement hurts and causes difficulty breathing. | / |
+| 51 - 73    | Arresting Cold      | /         | -1 [Agility](#agility-agi). Your limbs have to fight for every movement, as the cold causes them to seize up. | / |
+| 74 - 95    | Emotional Damage    | /         | -1 [Empathy](#empathy-emp). Feeling empathy is difficult, when faced with a world that would do such horrible things to you. | / |
+| 95 - 100   | Cosmic Misfortune   | /         | The cosmos has it out for you! Suffer one additional **injury**! | / |
+
+### List of Poison Injuries
+| Range D100 | Injury              | Limit     | Description                      | Scar                |
+| ---------  | ------------------- | --------- | -------------------------------- | ------------------- |
+| 0 - 5      | Cosmic Fortune      | /         | Luck is with you! You suffer no **injury**! | / |
+| 6 - 18     | Sickly Color        | /         | -1 [Toughness](#toughness-tough). Your skin turns a sickly green. | Discolored skin |
+| 19 - 31    | Vomiting            | /         | -1 [Endurance](#endurance-end). Your body convulses, as you involuntarily bend over and vomit. | / |
+| 32 - 44    | Poisoned Thoughts   | /         | -1 [Intelligence](#intelligence-int). Your mind dulls and thoughts are difficult to grasp. | / |
+| 45 - 56    | Distracted          | /         | -1 [Perception](#perception-perc). It has become difficult to focus on what is happening around you. | / |
+| 57 - 69    | Panic               | /         | Become [terrified](#terrified). The inevitability of what is to come has dawned upon you. But you cannot let it end like this! | / |
+| 70 - 82    | Frenzy              | /         | Become [berserked](#berserk). To some, this may be a fun afternoon, but to you, the pain of the fire in your veins is unbearable, causing unquenchable rage to broil within you. | / |
+| 83 - 95    | Emotional Damage    | /         | -1 [Empathy](#empathy-emp). Feeling empathy is difficult, when faced with a world that would do such horrible things to you. | / |
+| 95 - 100   | Cosmic Misfortune   | /         | The cosmos has it out for you! Suffer one additional **injury**! | / |
+
+### List of Acid Injuries
+| Range D100 | Injury              | Limit     | Description                      | Scar                |
+| ---------  | ------------------- | --------- | -------------------------------- | ------------------- |
+| 0 - 5      | Cosmic Fortune      | /         | Luck is with you! You suffer no **injury**! | / |
+| 6 - 28     | Molten Skin         | /         | -1 [Toughness](#toughness-tough); -1 [Oratory](#oratory-ora). Acid's greed has laid part of you bare. | Burned skin |
+| 29 - 50    | Dissolved Arm       | Arm Count | -1 [Agility](#agility-agi); Actions and equipment requiring two hands cannot be used. If incurred *limit* times, any actions requiring arm movement is impossible. | Scarred arm |
+| 51 - 73    | Dissolved Leg       | Leg Count | -6'/2m of [movement](#combat-movement). If incurred *limit* times, any actions requiring leg movement is impossible. | Scarred leg |
+| 74 - 95    | Emotional Damage    | /         | -1 [Empathy](#empathy-emp). Feeling empathy is difficult, when faced with a world that would do such horrible things to you. | / |
+| 95 - 100   | Cosmic Misfortune   | /         | The cosmos has it out for you! Suffer one additional **injury**! | / |
+
+### List of Electrical Injuries
+| Range D100 | Injury              | Limit     | Description                      | Scar                |
+| ---------  | ------------------- | --------- | -------------------------------- | ------------------- |
+| 0 - 5      | Cosmic Fortune      | /         | Luck is with you! You suffer no **injury**! | / |
+| 6 - 18     | Burned Skin         | /         | -1 [Toughness](#toughness-tough); -1 [Oratory](#oratory-ora). Electrical flames have laid part of you bare. | Burned skin |
+| 19 - 31    | Short-Circuited     | /         | -1 [Intelligence](#intelligence-int). Your mind dulls and thoughts are difficult to grasp. | / |
+| 32 - 44    | Dulled Memory       | /         | -1 [Wisdom](#wisdom-wis). Recalling thoughts has become difficult. | / |
+| 45 - 56    | Tremors             | /         | -1 [Agility](#agility-agi) | / |
+| 57 - 69    | Spasms              | /         | Move 3'/1m in a random direction. To determine where, you may use the [throwing accuracy](#throwing-accuracy) rules for misses. This movement can trigger [attacks of opportunity](#attacks-of-opportunity). | / |
+| 70 - 82    | Emotional Damage    | /         | -1 [Empathy](#empathy-emp). Feeling empathy is difficult, when faced with a world that would do such horrible things to you. | / |
+| 83 - 95    | Distracted          | /         | -1 [Perception](#perception-perc). It has become difficult to focus on what is happening around you. | / |
+| 95 - 100   | Cosmic Misfortune   | /         | The cosmos has it out for you! Suffer one additional **injury**! | / |
 
 ## List of Illnesses
 | Range **D100** | Name         | Duration      | Effect      | Treatment |
@@ -2098,7 +2171,22 @@ An [injury](#injury) may heal, but its [scars](#scars) remain.
 
 Most [scars](#scars) can only be incurred once, but some may be incurred multiple times, which will be indicated by a slash (/). 
 
-| Name                    | Max | Description                       | Effect                            |
-| ----------------------  | --- | --------------------------------- | --------------------------------- |
-| Burned Skin             | 1   | Fire has melted the skin. A powerful reminder of insufferable pain, which cannot be overlooked. | +1 [intimidation](#intimidation-will), -1 [persuasion](#persuasion-emp). |
-| Disfigured Nose         | 1   | An unnaturally crooked nose makes breathing slightly more difficult and noisy and is sure to be memorable. | / |
+| Name                    | Limit     | Description                       |
+| ----------------------  | --------- | --------------------------------- |
+| Burned skin             | /         | Something has melted parts of the skin. Those areas are irritable and itchy. |
+| Burned face             | /         | Something has melted parts of the face. A powerful reminder of insufferable pain, which cannot be overlooked. +1 [intimidation](#intimidation-will), -1 [persuasion](#persuasion-emp). |
+| Creaky limb             | /         | Every movement is painful, even if ever so slightly and causes you to halt your movement every once in a while. |
+| Crooked jaw             | 1         | The jaw hangs a little looser than before, causing your speech to sound a little odd. Some may take you for some kind of dullard, because of it. +1 [deception](#deception-ora), -1 [persuasion](#persuasion-emp). |
+| Crooked limb            | /         | It may have healed, but will never be quite as before. Your limb moves in slightly odd ways. |
+| Crooked rib cage        | 1         | There is a dent in your rib cage where there shouldn't be one. It looks and feels a little odd. |
+| Crooked skull           | 1         | There is a dent in your skull where there shouldn't be one. It looks and feels a little odd. Some may take you for some kind of dullard, because of it. +1 [deception](#deception-ora), -1 [persuasion](#persuasion-emp). |
+| Discolored skin         | /         | Spots on your skin have permanently discolored. It may be a dark, sickly green or a darkened blue or black color. |
+| Disfigured ear          | Ear Count | The ear is unrecognizable. It may look bad, but the ear still does its job. Mostly. |
+| Disfigured nose         | 1         | An unnaturally crooked nose makes breathing slightly more difficult and is sure to be memorable. |
+| Blind eye               | /         | The eye has glazed over white and is impossible to see through. -1 [perception](#perception-perc); cannot see through that eye. |
+| Heavy breathing         | 1         | Your lung doesn't work quite right anymore. The wheezing and occasional coughing is quite distinguishing. -1 [stealth](#stealth-agi). |
+| Scarred arm             | Arm Count | A reminder of a past injury to your arm. |
+| Scarred body            | /         | A reminder of a past injury. |
+| Scarred eye             | /         | A rather dashing scar stretching from above to below the eye tells a story of adventure. Or of a really unfortunate accident. +1 [intimidation](#intimidation-will). |
+| Scarred leg             | /         | A reminder of a past injury to your leg. |
+| Scarred limb            | /         | A reminder of a past injury to a limb. |
