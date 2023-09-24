@@ -40,8 +40,8 @@
       - [Advancing Attributes](#advancing-attributes)
         - [Practicing Attributes](#practicing-attributes)
       - [Base Initiative](#base-initiative)
+    - [Attribute Degradation](#attribute-degradation)
     - [Skills](#skills)
-    - [Specialization Skills](#specialization-skills)
       - [Skill Abilities](#skill-abilities)
         - [Targeting-Types](#targeting-types)
           - [Single Target (ST)](#single-target-st)
@@ -52,6 +52,8 @@
       - [Advancing Skills](#advancing-skills)
         - [Practicing Skills](#practicing-skills)
         - [Teaching Skills](#teaching-skills)
+    - [Skill Degradation](#skill-degradation)
+    - [Specialization Skills](#specialization-skills)
   - [Personality](#personality)
     - [Ambition](#ambition)
     - [Aspiration](#aspiration)
@@ -590,6 +592,15 @@ The **base initiative** of a character is **not an attribute** in the pure sense
 
 See also [initiative](#initiative). 
 
+### Attribute Degradation
+Whenever an **attribute** is tested, it is to be noted as *exercised* in the session. Perhaps with a little check mark next to it.
+
+At the end of the session, any **attribute** without such a mark has its progress **degrade**. For **attribute degradation**, reduce progress by 1. Should its progress reach 0, then the **attribute** drops a level! Its progress is then set to full, minus 1. 
+
+> A character hasn't practiced their strength for the entire session. The attribute is at level 2, with progress at 0. 
+> 
+> Thus, their attribute degrades and its level is reduced by 1. The new progress is set to 22. 
+
 ### Skills
 A **skill** is any acquired knowledge and experience regarding a specific subject. 
 
@@ -598,17 +609,6 @@ Two values must be tracked for every **skill**: Its **raw level** and its curren
 For [testing](#tests) a **skill**, see the [Testing a Skill](#testing-a-skill) section. 
 
 **Skills** [advance](#advancing-skills), as they're tested. It is also possible to [practice](#practicing-skills) and [teach](#teaching-skills) **skills**. 
-
-### Specialization Skills
-Some **Skills** can only be learned, if other *prerequisite* **skills** are known. Such **skills** represent a further direction of *specialization*, which can in some circumstances replace usage of one of the prerequisite **skills**, or provide a new set of [skill abilities](#skill-abilities) to extend what the prerequisites were capable of. Furthermore, the prerequisites may be required to be known at *at least* a certain given level. Unless if a prerequisite **skills** are *known* at that level, the specialized **skill** **cannot** be learned. 
-
-A **specialization skill** [advance](#advancing-skills) as any other skill. Their prerequisite **skills** do **not** [advance](#advancing-skills) along with the **specialization skill**! 
-
-For a [test](#tests), any prerequisite **skills** are *always automatically* [forked](#skill-forking) into the [test](#tests). 
-
-> A character knows skill A and skill B. These are prerequisite skills for skill C, which the character has just begun learning and has at level 0. 
->
-> For a test of skill C, they get to roll **+2D6** from their prerequisite skills, even though normally, **learning skills** cannot benefit from **skill forking**!
 
 #### Skill Abilities
 **Skills** can offer **skill abilities**, which further define what the **skill** may be used for. A **skill ability** is either a *passive* [boon](#boons--penalties) or an *active* **action**, with effects that apply when used.  
@@ -754,6 +754,26 @@ Both teacher and pupil must actively spend time together, furthering the pupil's
 | Knowledge      | 1 Month  |
 
 If the teacher's skill is at least one **raw level** higher than that of their student, the student can use an extra **+1D6** to resolve their tests of the skill they're being taught. 
+
+### Skill Degradation
+Whenever a skill is tested, it is to be noted as *exercised* in the session. Perhaps with a little check mark next to it.
+
+At the end of the session, any skill without such a mark has its progress **degrade**. For **skill degradation**, reduce its failures progress by 1. If failures progress is already at 0, reduce success progress, instead. Should both numbers be 0, then the skill drops a level! Its progress is then set to full successes and full failures, minus 1. 
+
+> A character hasn't practiced their stealth skill for the entire session. Their skill is at level 2, with successes at 0 and failures at 0. 
+> 
+> Thus, their skill degrades and its level is reduced by 1. The new progress is set to 4 successes and 5 failures. 
+
+### Specialization Skills
+Some **Skills** can only be learned, if other *prerequisite* **skills** are known. Such **skills** represent a further direction of *specialization*, which can in some circumstances replace usage of one of the prerequisite **skills**, or provide a new set of [skill abilities](#skill-abilities) to extend what the prerequisites were capable of. Furthermore, the prerequisites may be required to be known at *at least* a certain given level. Unless if a prerequisite **skills** are *known* at that level, the specialized **skill** **cannot** be learned. 
+
+A **specialization skill** [advance](#advancing-skills) as any other skill. Their prerequisite **skills** do **not** [advance](#advancing-skills) along with the **specialization skill**! 
+
+For a [test](#tests), any prerequisite **skills** are *always automatically* [forked](#skill-forking) into the [test](#tests). 
+
+> A character knows skill A and skill B. These are prerequisite skills for skill C, which the character has just begun learning and has at level 0. 
+>
+> For a test of skill C, they get to roll **+2D6** from their prerequisite skills, even though normally, **learning skills** cannot benefit from **skill forking**!
 
 ## Personality
 All **PC**s have a **personality**, which is an expression of their [personality traits](#personality-traits), [ambition](#ambition), [aspirations](#aspiration) and [reactions](#reaction). 
