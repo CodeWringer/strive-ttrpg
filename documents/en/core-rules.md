@@ -909,12 +909,14 @@ A character who is in **berserk**, **must** attack the creature nearest to them.
 This **state** lasts until it is successfully [resisted](#resist-will) or the character is made [unconscious](#unconscious). 
 
 #### Burning
-A **burning** character suffers 1 point of [HP](#health--exhaustion) damage at the end their every turn in combat or every 2 seconds outside of combat. 
+A **burning** character suffers **1 D3** points of [HP](#health--exhaustion) damage at the end their every turn in combat or every 5 seconds outside of combat. 
 
-This **state** can be incurred multiple times. While a character has this **state**, at every end of their turn during combat or every 2 seconds outside of combat, they automatically incur another point of **burning**! They must actively work to get rid of it, for example by dropping to the floor and rolling on the flames, dousing themselves in water and so forth. The point of **burning** is incurred *after* the damage from the previous points of **burning** is applied. 
+This **state** can be incurred multiple times. While a character has this **state**, at the end of their turn during combat or every 5 seconds outside of combat, they automatically incur another point of **burning**! The point of **burning** is incurred *after* the damage from the previous points of **burning** is applied. 
+
+They must actively work to get rid of it, for example by dropping to the floor and rolling on the flames, dousing themselves in water and so forth. 
 
 #### Bleeding
-A **bleeding** character suffers 1 point of [HP](#health--exhaustion) damage at the end their every turn in combat or every 5 seconds outside of combat. 
+A **bleeding** character suffers **1 D3** points of [HP](#health--exhaustion) damage at the end their every turn in combat or every 5 seconds outside of combat. 
 
 This **state** can be incurred multiple times. 
 
@@ -934,7 +936,7 @@ A **PC** at **death's door** must succeed at least one [toughness](#toughness-to
 A character can be helped out of the **death's door** **state**, if all of their **active** [injuries](#injury) are **patched up** or **treated**. 
 
 #### Dissolving
-A **dissolving** character suffers **1D5** points of [HP](#health--exhaustion) damage at the end their every turn in combat or every 2 seconds outside of combat. 
+A **dissolving** character suffers **1 D6** points of [HP](#health--exhaustion) damage at the end their every turn in combat or every 5 seconds outside of combat. 
 
 This **state** is removed automatically, if the character is freed of the acidic substance. 
 
@@ -983,7 +985,7 @@ Note, the character is not physically unable to cause harm, but they **really** 
 This **state** lasts until it is successfully [resisted](#resist-will) or the character is made [unconscious](#unconscious). 
 
 #### Poisoned
-A **poisoned** character suffers **1D3** points of [HP](#health--exhaustion) damage at the end their every turn in combat or every 5 seconds outside of combat. 
+A **poisoned** character suffers **1 D3** points of [HP](#health--exhaustion) damage at the end their every turn in combat or every 5 seconds outside of combat. 
 
 This state can be incurred multiple times and can be removed with an *antidote*. 
 
