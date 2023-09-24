@@ -1720,15 +1720,18 @@ The steps to determine **distance** to throw are as follows:
 > A character with [strength](#strength-str) 5 can throw an object of [bulk](#bulk) 1 up to 75'/25m and an object of [bulk](#bulk) 3 up to 45'/15m. 
 
 ### Throwing-Accuracy
-How likely the object is to impact where intended is determined by the object's [bulk](#bulk), the distance to throw and the character's skill in the [throwing](#throwing-agi) skill.
+How likely the object is to impact where intended is determined by the object's [bulk](#bulk), the distance to throw and the character's skill in the [throwing](#throwing-agi) skill. If throwing  _at_ another character, then their [ranged defence](#ranged-defence-agi) also factors into the chance to hit. 
 * For every **15'/5m** interval, the **Ob** increases by 1. 
   * That means up to 15'/5m is **Ob** 1. Starting at 18'/6m, up to and including 30'/10m it's **Ob** 2. Starting at 33'/11m, it's **Ob** 3, and so on.
 
 The steps to determine **Ob** to throw are as follows:
 1. Divide distance to throw by 15'/5m.
-2. Round up.
+  1. Round up.
+2. If throwing _at_ another character, add the **positives** of the defender's [ranged defence](#ranged-defence-agi) [test](#ranged-defence-agi).
 
-> A character with [agility](#agility-agi) 1 must succeed a test at **Ob** 1 for a distance of 15'/5m. They must succeed a test at **Ob** 2 for a distance of 18'/6m and a test at **Ob** 3 for a distance of 33'/11m. 
+> A character must succeed a test at **Ob** 1 for a distance of 15'/5m. They must succeed a test at **Ob** 2 for a distance of 18'/6m and a test at **Ob** 3 for a distance of 33'/11m. 
+
+> A character is throwing their weapon at an enemy standing 24'/8m away. The distance sets the base **Ob** to 2. Additionally, the defender gets to roll their **ranged defence** test and achieves 1 **positive**. This raises the **Ob** to hit to 3. 
 
 In case of an unsuccessful throw, the object lands only near the intended spot, instead of on it. In order to determine where a missed throw lands, roll a **D8**. A 1 designates the object landed north-west of the intended spot. Then, going clock-wise, a 2 would designate north, 3 north-east and so on. 
 
