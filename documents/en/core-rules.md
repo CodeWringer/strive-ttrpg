@@ -1439,7 +1439,7 @@ A character can abstain from their action willingly. They get a final chance to 
 Most prominently, **initiative order** is used during [combat](#combat). But it could also find application during other times, such as a chase-sequence, negotiations, or during [down-time](#down-time). **Initiative** could even be used on a more abstract level, to determine in what order characters get to try out their political schemes. The concrete instances when **initiative** is to be used, will be up to the **GM** to decide. 
 
 ### Surprise Round
-If one party is surprised, for example during an ambush, then the ambushing party gets to act for a full **round**, without the ambushed party getting a chance to act. This is called a **surprise round**. After the **surprise round** **initiative** is handled as normal. 
+If one party is surprised, for example during an ambush, then the ambushing party gets to act for a full **round**, without the ambushed party getting a chance to act. This is called a **surprise round**. After the **surprise round** **initiative** is handled as normal. Additionally, any surprised characters **do not** get their starting [AP](#action-points-ap), until the end of the surprise round! 
 
 To determine whether a **round** is a **surprise round**, proceed with the following steps:
 1. Determine **awareness** with [perception](#perception-perc) rolls. 
@@ -1547,9 +1547,11 @@ The steps to *prepare* for combat are as follows:
 2. Determine if there is a [surprise round](#surprise-round). 
    1. If no one in the party could clearly see, hear or perhaps even smell the fight coming and none of them succeeded their [perception](#perception-perc) [test](#tests), they are considered **surprised**.
    2. Only the first **round** of combat can be a [surprise round](#surprise-round). 
+   3. In a [surprise round](#surprise-round), any surprised characters **do not** get their starting [AP](#action-points-ap), until the end of the [surprise round](#surprise-round). 
 3. Determine [Initiative order](#initiative). 
    1. Before any action during a combat scenario can be taken, [Initiative order](#initiative) must first be determined. 
    2. This includes *everyone*, not just the active combatants. This way, should anyone join the fight, they're easier to work into the [initiative order](#initiative). Or, if they stay out of the fight, it's easier to determine when they get to act out-of-combat. 
+4. Any not surprised characters start with their initial amount of [AP](#action-points-ap). 
 
 During combat, when a character gets their **turn**, they can choose to perform an action. How many actions they get to perform, depends on the [action points](#action-points-ap) they have available for that turn. 
 
