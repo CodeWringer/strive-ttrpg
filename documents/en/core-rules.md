@@ -141,9 +141,9 @@
   - [Action Points (AP)](#action-points-ap)
     - [Action Point Saving](#action-point-saving)
   - [Combat Movement](#combat-movement)
-    - [Swap-Out](#swap-out)
     - [Disengage](#disengage)
     - [Flee Combat](#flee-combat)
+    - [Swap-Out](#swap-out)
   - [Attacking](#attacking)
     - [Damage](#damage)
     - [Attack Modifiers](#attack-modifiers)
@@ -1607,13 +1607,6 @@ Under normal circumstances, a character (an average human) can move up to **12'/
 
 It is also possible to **sprint**, doubling the distance one can move per **AP**, but at the cost of 1 point of [exhaustion](#exhaustion) for every **AP** spent **sprinting**. 
 
-### Swap-Out
-It is possible to swap positions with an adjacent ally, without provoking an [attack of opportunity](#attacks-of-opportunity) for either character. 
-
-This **action** costs 3 [AP](#action-points-ap). 
-
-The ally in question can **oppose** this action with [strength](#strength-str). 
-
 ### Disengage
 It is possible to move out of an enemy's [range of opportunity](#attacks-of-opportunity) without provoking an [attack of opportunity](#attacks-of-opportunity). This action costs 2 [AP](#action-points-ap) and the disengaging character **must** move 3'/1m in a direction that will get them out of the [range of opportunity](#attacks-of-opportunity) the fastest and safest. 
 
@@ -1627,6 +1620,13 @@ When [combat](#combat) is a decidedly bad idea, one can try to flee from it. A f
 In turn for giving up their offensive capacity, they gain +50% of movement (for an average human on foot, that is +6'/2m) per [AP](#action-points-ap) spent. Rules for [difficult terrain](#combat-movement) still apply. 
 
 Additionally, they can [disengage](#disengage) at a cost of only 1 [AP](#action-points-ap). 
+
+### Swap-Out
+It is possible to swap positions with an adjacent ally, without provoking an [attack of opportunity](#attacks-of-opportunity) for either character. 
+
+This **action** costs 3 [AP](#action-points-ap). 
+
+The ally in question can **oppose** this action with [strength](#strength-str). 
 
 ## Attacking
 Attacks are made using a [skill ability](#skill-abilities) of a [weapon](#weapon--weapon-type--str), the [unarmed](#unarmed-combat-str) or [throwing](#throwing-agi) [skill](#skills). 
