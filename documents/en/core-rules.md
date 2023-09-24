@@ -1005,6 +1005,13 @@ A **rooted** character can no longer move their legs. They cannot move from the 
 
 This **state** is usually tied to some condition, before it is removed. 
 
+#### Stunned
+A **stunned** character is unable to act, at all.
+
+Multiple stacks of this state can be suffered, increasing the duration by 1 turn / 5 seconds each. 
+
+At the end of a stunned character's turn, one stack of this state is removed, automatically. 
+
 #### Terrified
 A **terrified** character suffers **-2D** to both their melee and ranged defence and **has to** run away from whatever it is that terrified them, until they break line of sight to it and can no longer hear it. 
 
