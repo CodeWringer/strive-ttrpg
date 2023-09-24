@@ -217,7 +217,7 @@
   - [List of Mutations](#list-of-mutations)
   - [List of Scars](#list-of-scars)
 
-Version 10
+Version 11
 
 A role-playing game by Nicolas Haase
 

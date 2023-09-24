@@ -101,7 +101,7 @@
   - [List of Injuries](#list-of-injuries)
   - [List of Illnesses](#list-of-illnesses)
 
-Version 1
+Version 2
 
 A role-playing game by Nicolas Haase
 
