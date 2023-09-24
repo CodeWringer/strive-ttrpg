@@ -80,6 +80,7 @@
       - [Poisoned](#poisoned)
       - [Prone](#prone)
       - [Rooted](#rooted)
+      - [Stunned](#stunned)
       - [Terrified](#terrified)
       - [Unconscious](#unconscious)
     - [Illness](#illness)
@@ -904,9 +905,9 @@ Exhaustion gained from **exhausting equipment**, can be reduced, by dropping the
 A **character** can have positive or negative effects on them, represented by **states**. They can have any number of **states** applying to them. 
 
 #### Berserk
-A character who is in **berserk**, **must** attack the creature nearest to them. 
+A character who is in **berserk**, **must** attack the creature nearest to them, regardless of whether it is friend or foe. 
 
-This **state** lasts until it is successfully [resisted](#resist-will) or the character is made [unconscious](#unconscious). 
+This **state** lasts until it is successfully [resisted](#resist-will) or the character is made [unconscious](#unconscious). At the end of their turn, a character in this **state** gets to roll a [resist](#resist-will) test at **Ob** 3. 
 
 #### Burning
 A **burning** character suffers **1 D3** points of [HP](#health--exhaustion) damage at the end their every turn in combat or every 5 seconds outside of combat. 
@@ -1065,7 +1066,7 @@ All damage inflicted, is inflicted with a certain type of damage.
 | Freezing    | Inflicted by extreme cold. |
 | Poison      | Inflicted over time, by imbibed or injected substances. |
 | Acid        | Dissolves anything it touches, or perhaps just organic matter. |
-| Electrical  | Destroyer and giver of life. Mind maker and unmaker. Whip of light and sound. There aren't many sources for electricity, besides nature herself. |
+| Electrical  | Destroyer and giver of life. Mind maker and unmaker. Whip of light and sound. |
 
 ### Damage Resistances
 Some creatures can resist certain [types of damage](#damage-types) naturally, while others may cover themselves in armor to the same effect. 
