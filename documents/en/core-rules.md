@@ -864,7 +864,7 @@ Additionally, playing to or even against their character's **personality traits*
 Every character has **Hit Points (HP)** and a maximum number of **injuries** they can endure (= their **injury limit**), before they die. 
 
 ### Hit Points (HP)
-Whenever a character is hurt, the **damage** that has been inflicted upon them is deducted from their **HP**. Whenever their **HP** reach zero, they suffer an [injury](#injury) and their **maximum HP** is reduced by **2**. 
+Whenever a character is hurt, the **damage** that has been inflicted upon them is deducted from their **HP**. Whenever their **HP** reach zero, they suffer an [injury](#injury) and their **maximum HP** is reduced by **2**. When their **HP** rach 0, after they have suffered their maximum of [injuries](#injury), they **die**. 
 
 So, in other words, for every [injury](#injury), a character loses 2 maximum **HP**. But even when [Toughness](#toughness-tough) is reduced by an [injury](#injury), still only 2 maximum **HP** are deducted. 
 
@@ -873,13 +873,13 @@ Any **HP** damage past zero overflows. The additional damage dealt isn't lost.
 A successful [medicine](#medicine-int) test, requiring medical supplies, can restore all currently missing **HP** of a character. **HP** also replenish on their own, albeit much slower. For every hour outside of combat, **1 D3** **HP** are regained, but only up to the current maximum. 
 
 ### Injury
-An **injury** is a serious health impediment of a character. Every character has a maximum number of [injuries](#injury) they can endure. If they reach their maximum number of [injuries](#injury), the character dies. **PC**s are an exception, who instead arrive at [death's door](#deaths-door). 
+An **injury** is a serious health impediment of a character. Every character has a maximum number of **injury** they can endure. If they reach their maximum number of **injuries** and then lose all their remaining **HP**, the character **dies**. **PC**s are an exception, who instead arrive at [death's door](#deaths-door). 
 
-Whenever a character suffers an [injury](#injury), a **D100** must be rolled and the corresponding result from the [list of injuries](#list-of-injuries) added to the character. Depending on the type of damage and the situation in question, a different injury table may be rolled on or a "flat" injury may be applied, instead. See also the [list of type specific injuries](#type-specific-injuries).
+Whenever a character suffers an **injury**, a **D100** must be rolled and the corresponding result from the [list of injuries](#list-of-injuries) added to the character. Depending on the type of damage and the situation in question, a different injury table may be rolled on or a "flat" **injury** may be applied, instead. See also the [list of type specific injuries](#type-specific-injuries).
 
 For every **injury** incurred, a character's maximum **HP** is reduced by 2. 
 
-An [injury](#injury) can reduce [attributes](#attributes) and impose other restrictions. See also [boons & penalties](#boons--penalties). 
+An **injury** can reduce [attributes](#attributes) and impose other restrictions. See also [boons & penalties](#boons--penalties). A penalty to [toughness](#toughness-tough) **does not** further reduce the current maximum **HP**! The reduction from the **injury** is enough penalty. 
 
 When an **injury** is fully healed and removed, it may leave behind a [scar](#scars). 
 
