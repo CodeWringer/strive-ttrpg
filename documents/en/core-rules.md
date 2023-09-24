@@ -870,7 +870,7 @@ So, in other words, for every [injury](#injury), a character loses 2 maximum **H
 
 Any **HP** damage past zero overflows. The additional damage dealt isn't lost. 
 
-Outside of combat, a successful [medicine](#medicine-int) test, requiring medical supplies, can restore all currently missing **HP** of a character. 
+A successful [medicine](#medicine-int) test, requiring medical supplies, can restore all currently missing **HP** of a character. **HP** also replenish on their own, albeit much slower. For every hour outside of combat, **1 D3** **HP** are regained, but only up to the current maximum. 
 
 ### Injury
 An **injury** is a serious health impediment of a character. Every character has a maximum number of [injuries](#injury) they can endure. If they reach their maximum number of [injuries](#injury), the character dies. **PC**s are an exception, who instead arrive at [death's door](#deaths-door). 
