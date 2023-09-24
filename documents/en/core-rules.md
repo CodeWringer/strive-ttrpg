@@ -152,6 +152,7 @@
     - [Attacks of Opportunity](#attacks-of-opportunity)
   - [Defending](#defending)
     - [Cover](#cover)
+    - [Speed is Armor](#speed-is-armor)
     - [Defending an Ally](#defending-an-ally)
   - [Throwing](#throwing)
     - [Throwing-Distance](#throwing-distance)
@@ -1684,6 +1685,15 @@ There are two categories of cover:
   * Low cover is any static object to hide behind that doesn't fully cover the body, like a tree stump or low wall. 
 * **High cover**: +2 **Ob** against a target that is behind high cover. 
   * High cover is any static object to hide behind that fully covers the body, like a tall wall or large boulder. 
+
+### Speed is Armor
+It is possible for a victim of an attack to be moving too fast for the attacker's ability to keep tracking them effectively. 
+
+What speed exactly that is, depends heavily on circumstance. As always, the **GM**'s estimate determines whether a bonus can apply to a defence [test](#tests). A fast moving target may increase the attacker's **Ob** by 1, up to 3, depending on _how many degrees of too fast_ they are moving. 
+
+> In a sci-fi setting, an automated turret may have a tracking system that can easily keep up with targets moving at high speeds, which will only fail if the target performs some extreme maneuvers. 
+> 
+> In a medieval fantasy setting, even just someone in a full sprint may be fast enough to throw off an archer's aim. Someone on horse back, riding at speed may be very hard to hit with an arrow or melee weapon, should they ride past. 
 
 ### Defending an Ally
 It is possible for a character to defend an adjacent ally when they're being attacked. This costs 2 [AP](#action-points-ap) and results in the ally taking over the defense being forced to roll the defence test, instead of the originally attacked character. 
