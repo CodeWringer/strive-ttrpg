@@ -911,7 +911,7 @@ The levels noted for each magic school represent the effects a mage can achieve,
 See also [testing magic](#testing-magic). 
 
 In all the following tables, note the following:
-* Replace *N* with the chosen **spell intensity**. 
+* Replace *SI* with the chosen [spell intensity](#spell-intensity-si). 
 * *Level* is the prerequisite level of the **magic school skill**, at which a given spell becomes available for use. 
 
 ### Alteration (Int)
@@ -1024,8 +1024,6 @@ The mage can only ever perform *one* movement with a spell cast. So, for example
 
 Only targets within and up to the given *distance* can be moved and only within and up to that *distance* from the mage. 
 
-In the following, replace *N* with the chosen **spell intensity**. 
-
 | Level | Name                   | AP | Distance     | Ob                           | Effect(s)                      | Backfire Effect(s) |
 | ----- | ---------------------- | -- | ------------ | ---------------------------- | ------------------------------ | ------------------ |
 | 0     | Telekinesis            | 2  | SI * 15'/5m  | SI                           | Move an inanimate **ST** object at great velocity (if desired), which allows it to deal **SI D4** **variant** (depending on the type of object) damage upon impact. | The caster suffers +1 [exhaustion](./core-rules.md#exhaustion). |
@@ -1035,8 +1033,6 @@ In the following, replace *N* with the chosen **spell intensity**.
 The ability to communicate wordlessly, to alter emotions and even issue compelling commands against another's will. 
 
 The mage can only affect those creatures that either don't resist, or which **fail** a [resist](#resist-will) test, at the given **Ob**. 
-
-In the following, replace *N* with the chosen **spell intensity**. 
 
 | Level | Name                   | AP | Distance     | Ob                           | Effect(s)                      | Backfire Effect(s) |
 | ----- | ---------------------- | -- | ------------ | ---------------------------- | ------------------------------ | ------------------ |
