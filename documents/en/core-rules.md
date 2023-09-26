@@ -2032,7 +2032,7 @@ How many times an **injury** can be suffered, can be limited. In the table below
 ### List of Acid Injuries
 | Range D100 | Injury              | Limit     | Description                      | Scar                |
 | ---------  | ------------------- | --------- | -------------------------------- | ------------------- |
-| 0 - 5      | Cosmic Fortune      | /         | Luck is with you! You suffer no **injury**! | / |
+| 1 - 5      | Cosmic Fortune      | /         | Luck is with you! You suffer no **injury**! | / |
 | 6 - 28     | Molten Skin         | /         | -1 [Toughness](#toughness-tough); -1 [Oratory](#oratory-ora). Acid's greed has laid part of you bare. | Burned skin |
 | 29 - 50    | Dissolved Arm       | Arm Count | -1 [Agility](#agility-agi); Actions and equipment requiring two hands cannot be used. If incurred *limit* times, any actions requiring arm movement is impossible. | Scarred arm |
 | 51 - 73    | Dissolved Leg       | Leg Count | -6'/2m of [movement](#combat-movement). If incurred *limit* times, any actions requiring leg movement is impossible. | Scarred leg |
@@ -2042,7 +2042,7 @@ How many times an **injury** can be suffered, can be limited. In the table below
 ### List of Burning Injuries
 | Range D100 | Injury              | Limit     | Description                      | Scar                |
 | ---------  | ------------------- | --------- | -------------------------------- | ------------------- |
-| 0 - 5      | Cosmic Fortune      | /         | Luck is with you! You suffer no **injury**! | / |
+| 1 - 5      | Cosmic Fortune      | /         | Luck is with you! You suffer no **injury**! | / |
 | 6 - 28     | Molten Skin         | /         | -1 [Toughness](#toughness-tough); -1 [Oratory](#oratory-ora). Flame's greed has laid part of you bare. | Burned skin |
 | 29 - 50    | Ash Lung            | /         | -1 [Endurance](#endurance-end). The heat and stench of your own self burning cause difficulty breathing. | / |
 | 51 - 73    | Burned Face         | /         | -1 [Perception](#perception-perc); -1 [Oratory](#oratory-ora). Involuntarily, you close your eyes in hopes of protecting them from the fire. In vain. Speech is impaired from your pain contorted face. | Burned face |
@@ -2052,7 +2052,7 @@ How many times an **injury** can be suffered, can be limited. In the table below
 ### List of Crushing Injuries
 | Range D100 | Injury              | Limit     | Description                      | Scar                |
 | ---------  | ------------------- | --------- | -------------------------------- | ------------------- |
-| 0 - 5      | Cosmic Fortune      | /         | Luck is with you! You suffer no **injury**! | / |
+| 1 - 5      | Cosmic Fortune      | /         | Luck is with you! You suffer no **injury**! | / |
 | 6 - 16     | Concussion          | /         | -1 [Wisdom](#wisdom-wis). Thoughts come to you slower than before. | / |
 | 17 - 28    | Skull Fracture      | /         | -1 [Intelligence](#intelligence-int). The pain shoots through your mind, displacing any other thought. | Crooked skull |
 | 29 - 39    | Fractured Rib       | /         | -1 [Toughness](#toughness-tough). A rib has cracked and is now pointing the wrong way. | Crooked rib cage |
@@ -2066,7 +2066,7 @@ How many times an **injury** can be suffered, can be limited. In the table below
 ### List of Electrical Injuries
 | Range D100 | Injury              | Limit     | Description                      | Scar                |
 | ---------  | ------------------- | --------- | -------------------------------- | ------------------- |
-| 0 - 5      | Cosmic Fortune      | /         | Luck is with you! You suffer no **injury**! | / |
+| 1 - 5      | Cosmic Fortune      | /         | Luck is with you! You suffer no **injury**! | / |
 | 6 - 18     | Burned Skin         | /         | -1 [Toughness](#toughness-tough); -1 [Oratory](#oratory-ora). Electrical flames have laid part of you bare. | Burned skin |
 | 19 - 31    | Short-Circuited     | /         | -1 [Intelligence](#intelligence-int). Your mind dulls and thoughts are difficult to grasp. | / |
 | 32 - 44    | Dulled Memory       | /         | -1 [Wisdom](#wisdom-wis). Recalling thoughts has become difficult. | / |
@@ -2079,7 +2079,7 @@ How many times an **injury** can be suffered, can be limited. In the table below
 ### List of Freezing Injuries
 | Range D100 | Injury              | Limit     | Description                      | Scar                |
 | ---------  | ------------------- | --------- | -------------------------------- | ------------------- |
-| 0 - 5      | Cosmic Fortune      | /         | Luck is with you! You suffer no **injury**! | / |
+| 1 - 5      | Cosmic Fortune      | /         | Luck is with you! You suffer no **injury**! | / |
 | 6 - 28     | Frostbitten Skin    | /         | -1 [Toughness](#toughness-tough). The cold bites. The pain is unbearable. | Discolored skin |
 | 29 - 50    | Deep Freeze         | /         | -1 [Endurance](#endurance-end). Chilled to the bone! Every movement hurts and causes difficulty breathing. | / |
 | 51 - 73    | Arresting Cold      | /         | -1 [Agility](#agility-agi). Your limbs have to fight for every movement, as the cold causes them to seize up. | / |
@@ -2089,7 +2089,7 @@ How many times an **injury** can be suffered, can be limited. In the table below
 ### List of Piercing Injuries
 | Range D100 | Injury              | Limit     | Description                      | Scar                |
 | ---------  | ------------------- | --------- | -------------------------------- | ------------------- |
-| 0 - 5      | Cosmic Fortune      | /         | Luck is with you! You suffer no **injury**! | / |
+| 1 - 5      | Cosmic Fortune      | /         | Luck is with you! You suffer no **injury**! | / |
 | 6 - 16     | Pierced Limb        | /         | -1 [Agility](#agility-agi). Pain causes difficulty moving. | Scarred limb |
 | 17 - 28    | Pierced Body        | /         | -1 [Toughness](#toughness-tough). An invader has injured something within. You feel weaker. | Scarred body |
 | 29 - 39    | Punctured Lung      | /         | -1 [Endurance](#endurance-end); Whenever [exhaustion](#exhaustion) is suffered, it is added +1 times. Breathing has become difficult. | Heavy breathing |
@@ -2103,7 +2103,7 @@ How many times an **injury** can be suffered, can be limited. In the table below
 ### List of Poison Injuries
 | Range D100 | Injury              | Limit     | Description                      | Scar                |
 | ---------  | ------------------- | --------- | -------------------------------- | ------------------- |
-| 0 - 5      | Cosmic Fortune      | /         | Luck is with you! You suffer no **injury**! | / |
+| 1 - 5      | Cosmic Fortune      | /         | Luck is with you! You suffer no **injury**! | / |
 | 6 - 18     | Sickly Color        | /         | -1 [Toughness](#toughness-tough). Your skin turns a sickly green. | Discolored skin |
 | 19 - 31    | Vomiting            | /         | -1 [Endurance](#endurance-end). Your body convulses, as you involuntarily bend over and vomit. | / |
 | 32 - 44    | Poisoned Thoughts   | /         | -1 [Intelligence](#intelligence-int). Your mind dulls and thoughts are difficult to grasp. | / |
@@ -2116,7 +2116,7 @@ How many times an **injury** can be suffered, can be limited. In the table below
 ### List of Slashing Injuries
 | Range D100 | Injury              | Limit     | Description                      | Scar                |
 | ---------  | ------------------- | --------- | -------------------------------- | ------------------- |
-| 0 - 5      | Cosmic Fortune      | /         | Luck is with you! You suffer no **injury**! | / |
+| 1 - 5      | Cosmic Fortune      | /         | Luck is with you! You suffer no **injury**! | / |
 | 6 - 14     | Butchered Arm       | Arm Count | -1 [Agility](#agility-agi); Actions and equipment requiring two hands cannot be used. If incurred *limit* times, any actions requiring arm movement is impossible. | Scarred arm |
 | 15 - 23    | Butchered Leg       | Leg Count | -6'/2m of [movement](#combat-movement). If incurred *limit* times, any actions requiring leg movement is impossible. | Scarred leg |
 | 24 - 32    | Butchered Body      | /         | -1 [Toughness](#toughness-tough); +1 [Bleeding](#bleeding). | Scarred body |
