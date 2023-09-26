@@ -2150,19 +2150,19 @@ One should always keep in mind that despite the game mechanical effects of a mut
 
 | Range **D100** | Name                   | Effect                            |
 | ---------- | ---------------------- | --------------------------------- |
-| 0 - 2      | Cosmic Fortune         | Suffer no mutation! |
-| 3 - 9      | Deformed Arm           | The arm deforms and bends in ways it was never meant to. -1 [Agility](#agility-agi), -1 [Strength](#strength-str). |
-| 10 - 16    | Grotesque Claws        | The entire lower arm morphs into three large claws. Unable to hold *anything* with that arm, but able to perform claw attacks that deal **3D6** **slashing** damage. |
-| 17 - 23    | Deformed Leg           | The leg deforms and bends in ways it was never meant to. -1 [Agility](#agility-agi). |
-| 24 - 30    | Deformed Face          | A morphed visage, forever stuck in agony, horror and anger. -1 [persuasion](#persuasion-emp), +1 [intimidation](#intimidation-will). |
-| 31 - 37    | Internal Changes       | Something deep within isn't quite right. -1 [Endurance](#endurance-end) -1 [Toughness](#toughness-tough) |
-| 38 - 44    | Bulbous Head           | Part of the cranium grows tumurously. The brain is weighed down and slowed down. -1 [Intelligence](#intelligence-int) -1 [Wisdom](#wisdom-wis) |
-| 45 - 51    | Animal Ears            | The ears morph into something resembling animal ears (or another animal's ears). Despite the obvious reason for ridicule, there are no penalties. +1 [Perception](#perception-perc) (hearing). |
-| 52 - 58    | Animal Tail            | A tail sprouts where there was perhaps never meant to be one. Or an additional tail sprouts. Despite the obvious reason for ridicule, there are no penalties. +1 [acrobatics](#acrobatics-agi). |
-| 59 - 65    | Atrophy                | The muscles deflate and unnatural weakness takes hold. -2 [Strength](#strength-str) |
-| 66 - 72    | Blackened Nails        | Every finger and toe nail turns a sickly black. That's it. |
-| 73 - 79    | Hairless               | Every single hair falls from the body. A terminal case of baldness ensues. |
-| 80 - 86    | Special Needs Eyes     | The eyes turn a deep red and go cross-eyed. -1 [Perception](#perception-perc) (seeing) |
+| 1 - 5      | Cosmic Fortune         | Suffer no mutation! |
+| 6 - 12     | Deformed Arm           | The arm deforms and bends in ways it was never meant to. -1 [Agility](#agility-agi), -1 [Strength](#strength-str). |
+| 13 - 19    | Grotesque Claws        | The entire lower arm morphs into three large claws. Unable to hold *anything* with that arm, but able to perform claw attacks that deal **3D6** **slashing** damage. |
+| 20 - 25    | Deformed Leg           | The leg deforms and bends in ways it was never meant to. -1 [Agility](#agility-agi). |
+| 26 - 32    | Deformed Face          | A morphed visage, forever stuck in agony, horror and anger. -1 [persuasion](#persuasion-emp), +1 [intimidation](#intimidation-will). |
+| 33 - 39    | Internal Changes       | Something deep within isn't quite right. -1 [Endurance](#endurance-end) -1 [Toughness](#toughness-tough) |
+| 40 - 46    | Bulbous Head           | Part of the cranium grows tumurously. The brain is weighed down and slowed down. -1 [Intelligence](#intelligence-int) -1 [Wisdom](#wisdom-wis) |
+| 47 - 53    | Animal Ears            | The ears morph into something resembling animal ears (or another animal's ears). Despite the obvious reason for ridicule, there are no penalties. +1 [Perception](#perception-perc) (hearing). |
+| 54 - 59    | Animal Tail            | A tail sprouts where there was perhaps never meant to be one. Or an additional tail sprouts. Despite the obvious reason for ridicule, there are no penalties. +1 [acrobatics](#acrobatics-agi). |
+| 60 - 66    | Atrophy                | The muscles deflate and unnatural weakness takes hold. -2 [Strength](#strength-str) |
+| 67 - 73    | Blackened Nails        | Every finger and toe nail turns a sickly black. That's it. |
+| 74 - 80    | Hairless               | Every single hair falls from the body. A terminal case of baldness ensues. |
+| 81 - 86    | Special Needs Eyes     | The eyes turn a deep red and go cross-eyed. -1 [Perception](#perception-perc) (seeing) |
 | 87 - 93    | Fetid Stench           | Whether from the mouth, or in general, a fetid stench emanates from the body, even assaulting the victim's own nose. -1 [Oratory](#oratory-ora), -1 [stealth](#stealth-agi) (when smell is concerned). |
 | 94 - 100   | Living Cadaver         | The body withers and pales. It is as if it had just risen from the grave. -2 [Oratory](#oratory-ora). |
 
