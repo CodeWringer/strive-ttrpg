@@ -2037,7 +2037,7 @@ How many times an **injury** can be suffered, can be limited. In the table below
 | 29 - 50    | Dissolved Arm       | Arm Count | -1 [Agility](#agility-agi); Actions and equipment requiring two hands cannot be used. If incurred *limit* times, any actions requiring arm movement is impossible. | Scarred arm |
 | 51 - 73    | Dissolved Leg       | Leg Count | -6'/2m of [movement](#combat-movement). If incurred *limit* times, any actions requiring leg movement is impossible. | Scarred leg |
 | 74 - 95    | Emotional Damage    | /         | -1 [Empathy](#empathy-emp). Feeling empathy is difficult, when faced with a world that would do such horrible things to you. | / |
-| 95 - 100   | Cosmic Misfortune   | /         | The cosmos has it out for you! Suffer one additional **injury**! | / |
+| 96 - 100   | Cosmic Misfortune   | /         | The cosmos has it out for you! Suffer one additional **injury**! | / |
 
 ### List of Burning Injuries
 | Range D100 | Injury              | Limit     | Description                      | Scar                |
@@ -2047,7 +2047,7 @@ How many times an **injury** can be suffered, can be limited. In the table below
 | 29 - 50    | Ash Lung            | /         | -1 [Endurance](#endurance-end). The heat and stench of your own self burning cause difficulty breathing. | / |
 | 51 - 73    | Burned Face         | /         | -1 [Perception](#perception-perc); -1 [Oratory](#oratory-ora). Involuntarily, you close your eyes in hopes of protecting them from the fire. In vain. Speech is impaired from your pain contorted face. | Burned face |
 | 74 - 95    | Emotional Damage    | /         | -1 [Empathy](#empathy-emp). Feeling empathy is difficult, when faced with a world that would do such horrible things to you. | / |
-| 95 - 100   | Cosmic Misfortune   | /         | The cosmos has it out for you! Suffer one additional **injury**! | / |
+| 96 - 100   | Cosmic Misfortune   | /         | The cosmos has it out for you! Suffer one additional **injury**! | / |
 
 ### List of Crushing Injuries
 | Range D100 | Injury              | Limit     | Description                      | Scar                |
@@ -2074,7 +2074,7 @@ How many times an **injury** can be suffered, can be limited. In the table below
 | 57 - 69    | Spasms              | /         | Move 3'/1m in a random direction. To determine where, you may use the [throwing accuracy](#throwing-accuracy) rules for misses. This movement can trigger [attacks of opportunity](#attacks-of-opportunity). | / |
 | 70 - 82    | Emotional Damage    | /         | -1 [Empathy](#empathy-emp). Feeling empathy is difficult, when faced with a world that would do such horrible things to you. | / |
 | 83 - 95    | Distracted          | /         | -1 [Perception](#perception-perc). It has become difficult to focus on what is happening around you. | / |
-| 95 - 100   | Cosmic Misfortune   | /         | The cosmos has it out for you! Suffer one additional **injury**! | / |
+| 96 - 100   | Cosmic Misfortune   | /         | The cosmos has it out for you! Suffer one additional **injury**! | / |
 
 ### List of Freezing Injuries
 | Range D100 | Injury              | Limit     | Description                      | Scar                |
@@ -2084,7 +2084,7 @@ How many times an **injury** can be suffered, can be limited. In the table below
 | 29 - 50    | Deep Freeze         | /         | -1 [Endurance](#endurance-end). Chilled to the bone! Every movement hurts and causes difficulty breathing. | / |
 | 51 - 73    | Arresting Cold      | /         | -1 [Agility](#agility-agi). Your limbs have to fight for every movement, as the cold causes them to seize up. | / |
 | 74 - 95    | Emotional Damage    | /         | -1 [Empathy](#empathy-emp). Feeling empathy is difficult, when faced with a world that would do such horrible things to you. | / |
-| 95 - 100   | Cosmic Misfortune   | /         | The cosmos has it out for you! Suffer one additional **injury**! | / |
+| 96 - 100   | Cosmic Misfortune   | /         | The cosmos has it out for you! Suffer one additional **injury**! | / |
 
 ### List of Piercing Injuries
 | Range D100 | Injury              | Limit     | Description                      | Scar                |
@@ -2111,7 +2111,7 @@ How many times an **injury** can be suffered, can be limited. In the table below
 | 57 - 69    | Panic               | /         | Become [terrified](#terrified). The inevitability of what is to come has dawned upon you. But you cannot let it end like this! | / |
 | 70 - 82    | Frenzy              | /         | Become [berserked](#berserk). To some, this may be a fun afternoon, but to you, the pain of the fire in your veins is unbearable, causing unquenchable rage to broil within you. | / |
 | 83 - 95    | Emotional Damage    | /         | -1 [Empathy](#empathy-emp). Feeling empathy is difficult, when faced with a world that would do such horrible things to you. | / |
-| 95 - 100   | Cosmic Misfortune   | /         | The cosmos has it out for you! Suffer one additional **injury**! | / |
+| 96 - 100   | Cosmic Misfortune   | /         | The cosmos has it out for you! Suffer one additional **injury**! | / |
 
 ### List of Slashing Injuries
 | Range D100 | Injury              | Limit     | Description                      | Scar                |
