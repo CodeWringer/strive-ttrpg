@@ -244,9 +244,9 @@ A **spell-backfire** occurs in the following two cases:
 1. The [magic school skill test](#testing-magic) is a **complete failure**. 
 2. The spell costs more [magic stamina](#magic-stamina), than the mage has available. 
 
-> A mage has 3 **magic stamina** left, casts a spell at **SI** 1 and roll a cost of 3 **magic stamina**. They reach 0 **magic stamina**, but do **not** suffer a **spell-backfire**. 
+> A mage has 3 **magic stamina** left, casts a spell at **SI** 1 and rolls a cost of 3 **magic stamina**. They reach 0 **magic stamina**, but do **not** suffer a **spell-backfire**. 
 
-> Another example. This time, the mage has only 2 **magic stamina** left and roll a cost of 3. This would result in them reaching negative **magic stamina** (= -1) and thus **does** cause a **spell-backfire**! 
+> Another example. This time, the mage has only 2 **magic stamina** left and rolls a cost of 3. This would result in them reaching negative **magic stamina** (= -1) and thus **does** cause a **spell-backfire**! Note, that the current magic stamina cannot be negative and instead is simply set to "0". 
 
 ## Concentration Spells
 Some magic can be upheld for as long as the casting mage *concentrates* on their spell. Such spells will be marked with **"Concentration"**. The effects of a concentration spell last for as long as the mage *chooses* or *manages* to keep their concentration. They need only test for the spell only *once*, when they first cast it. 
