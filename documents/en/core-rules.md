@@ -1140,14 +1140,14 @@ There is no limit for how much **property** a character can have. Except, perhap
 
 ### Weapon Properties
 Weapon type assets can have the following **properties**:
-* **Long Reach**: Allows attacking a target two squares (6'/2m) away. 
-* **Very long Reach**: Allows attacking a target three squares (9'/3m) away. 
+* **Long Reach**: Allows attacking a target two fields (6'/2m) away. 
+* **Very long Reach**: Allows attacking a target three fields (9'/3m) away. 
 * **Range Only**: Implies a weapon cannot be used against any targets adjacent to self. 
 * **Prefer Range**: +2 **Ob** to using the weapon against an adjacent target.
-* **Slow Reload**: Reloading the weapon costs 1 [AP](#action-points-ap).
-* **Very Slow Reload**: Reloading the weapon costs 2 [AP](#action-points-ap).
+* **Slow Reload**: Reloading the weapon costs 2 [AP](#action-points-ap).
+* **Very Slow Reload**: Reloading the weapon costs 3 [AP](#action-points-ap).
 * **Ranged (throwable: < attack name >)**: No damage penalty is incurred when throwing this type of weapon. The damage formula for the given attack is to be used on hit. 
-* A **counter-attack** is a *reaction* that allows a fighter being attacked to attack their attacker. 
+* A **counter-attack** is a *reaction* that allows a fighter being attacked to attack their attacker, at the cost of 1 [AP](#action-points-ap). 
 
 ## Character Creation
 Imagine for the longest time of their life, your character has led an ordinary existence, until one day, something life-changing happened. Perhaps something terrible, perhaps something wonderful, but something significant that has forced them out of their comfort zone into a world full of adventure. 
