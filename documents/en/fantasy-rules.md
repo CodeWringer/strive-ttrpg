@@ -584,8 +584,8 @@ Flexible polearms with a focus on slashing. Examples: halberd, bardiche, poleaxe
 | ----- | -------------------- | -- | -------------------------------- | -------------------------------- | ------ |
 | 0     | Slash                | 2  | Opposed by **Melee Defence**     | **3D6** **Slashing**             | / |
 | 0     | Stab                 | 2  | Opposed by **Melee Defence**     | **2D8** **Piercing**             | / |
-| 2     | Blade Barrier        | 2  | Opposed by **Melee Defence**     | /                                | Whenever any character moves **into** a spot within reach, can attack that character with a **stab** at **Ob** + 1 and force them back 3'/1m. |
-| 3     | Cleave               | 2  | Opposed by **Melee Defence** + 2 | **1D10** **Slashing**            | Deals damage to up to two targets adjacent to each other and within reach. |
+| 1     | Blade Barrier        | 2  | Opposed by **Melee Defence**     | /                                | Whenever any character moves **into** a spot within reach, can attack that character with a **stab** at **Ob** + 1 and force them back 3'/1m. |
+| 2     | Cleave               | 2  | Opposed by **Melee Defence** + 2 | **3D6** **Slashing**             | Deals damage to up to two targets adjacent to each other and within reach. |
 
 #### Club
 Simple, improvised bludgeoning weapons. Examples: wooden club, staff, stick
