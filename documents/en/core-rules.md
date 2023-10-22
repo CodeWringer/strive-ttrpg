@@ -40,7 +40,6 @@
       - [Advancing Attributes](#advancing-attributes)
         - [Practicing Attributes](#practicing-attributes)
       - [Base Initiative](#base-initiative)
-    - [Attribute Degradation](#attribute-degradation)
     - [Skills](#skills)
       - [Skill Abilities](#skill-abilities)
         - [Targeting-Types](#targeting-types)
@@ -52,7 +51,6 @@
       - [Advancing Skills](#advancing-skills)
         - [Practicing Skills](#practicing-skills)
         - [Teaching Skills](#teaching-skills)
-    - [Skill Degradation](#skill-degradation)
     - [Specialization Skills](#specialization-skills)
   - [Personality](#personality)
     - [Ambition](#ambition)
@@ -602,15 +600,6 @@ The **base initiative** of a character is **not an attribute** in the pure sense
 
 See also [initiative](#initiative). 
 
-### Attribute Degradation
-Whenever an **attribute** is tested, it is to be noted as *exercised* in the session. Perhaps with a little check mark next to it.
-
-At the end of the session, any **attribute** without such a mark has its progress **degrade**. For **attribute degradation**, reduce progress by 1. Should its progress reach 0, then the **attribute** drops a level! Its progress is then set to full, minus 1. 
-
-> A character hasn't practiced their strength for the entire session. The attribute is at level 2, with progress at 0. 
-> 
-> Thus, their attribute degrades and its level is reduced by 1. The new progress is set to 22. 
-
 ### Skills
 A **skill** is any acquired knowledge and experience regarding a specific subject. 
 
@@ -764,15 +753,6 @@ Both teacher and pupil must actively spend time together, furthering the pupil's
 | Knowledge      | 1 Month  |
 
 If the teacher's skill is at least one **raw level** higher than that of their student, the student can use an extra **+1D6** to resolve their tests of the skill they're being taught. 
-
-### Skill Degradation
-Whenever a skill is tested, it is to be noted as *exercised* in the session. Perhaps with a little check mark next to it.
-
-At the end of the session, any skill without such a mark has its progress **degrade**. For **skill degradation**, reduce its failures progress by 1. If failures progress is already at 0, reduce success progress, instead. Should both numbers be 0, then the skill drops a level! Its progress is then set to full successes and full failures, minus 1. 
-
-> A character hasn't practiced their stealth skill for the entire session. Their skill is at level 2, with successes at 0 and failures at 0. 
-> 
-> Thus, their skill degrades and its level is reduced by 1. The new progress is set to 4 successes and 5 failures. 
 
 ### Specialization Skills
 Some **Skills** can only be learned, if other *prerequisite* **skills** are known. Such **skills** represent a further direction of *specialization*, which can in some circumstances replace usage of one of the prerequisite **skills**, or provide a new set of [skill abilities](#skill-abilities) to extend what the prerequisites were capable of. Furthermore, the prerequisites may be required to be known at *at least* a certain given level. Unless if a prerequisite **skills** are *known* at that level, the specialized **skill** **cannot** be learned. 
