@@ -216,7 +216,7 @@ A mage can fail their [test](./core-rules.md#tests) and thus suffer a [spell-bac
 [Spell intensity](#spell-intensity-si) adjusts the strength of a magic spell, as well as its cost in [magic stamina](#magic-stamina). 
 
 ## Spell Intensity (SI)
-**Spell intensity** (shorthand **SI**) is the strength at which a magic spell is being cast. A higher number causes stronger and further reaching effects, at greater [magic stamina](#magic-stamina) cost.
+**Spell intensity** (shorthand **SI**) is the strength at which a magic spell is being cast. A higher number causes stronger and further reaching effects, at greater [magic stamina](#magic-stamina) cost. A spell's maximum intensity is dictated by the level in the corresponding [magic school skill](#magic-school--school---attribute).
 
 For every point of a spell's chosen **spell intensity**, **1 D3** must be rolled. The sum of these rolls is the resulting [magic stamina](#magic-stamina) cost.
 
@@ -233,7 +233,7 @@ Mechanically speaking, every mage has two values to track: their **maximum magic
 
 Once spent, **magic stamina** can only be regained through **active rest or meditation**. For every **half hour** spent in *active rest or meditation*, a mage regains **1 D3** **magic stamina**. Active rest or meditation implies not engaging in any physical or mental strains. If in doubt - if you have to do a test for it, it's probably a strain. 
 
-Running out of **magic stamina** while casting a spell, results in an automatic [spell-backfire](#spell-backfire)! 
+Reaching negative **magic stamina** while casting a spell, results in an automatic [spell-backfire](#spell-backfire)! 
 
 ## Spell-Backfire
 A **spell-backfire** causes a spell to affect the caster, instead of their intended target. The mage suffers the negative effects of the spell. In case of an [aoe](./core-rules.md#area-of-effect-aoe) attack spell, anyone or anything nearby the mage, in range, is also affected. Additionally, the mage suffers one point of [exhaustion](./core-rules.md#exhaustion). 
@@ -243,6 +243,10 @@ It is possible for another nearby mage to prevent the **spell-backfire**, if the
 A **spell-backfire** occurs in the following two cases: 
 1. The [magic school skill test](#testing-magic) is a **complete failure**. 
 2. The spell costs more [magic stamina](#magic-stamina), than the mage has available. 
+
+> A mage has 3 **magic stamina** left, casts a spell at **SI** 1 and roll a cost of 3 **magic stamina**. They reach 0 **magic stamina**, but do **not** suffer a **spell-backfire**. 
+
+> Another example. This time, the mage has only 2 **magic stamina** left and roll a cost of 3. This would result in them reaching negative **magic stamina** (= -1) and thus **does** cause a **spell-backfire**! 
 
 ## Concentration Spells
 Some magic can be upheld for as long as the casting mage *concentrates* on their spell. Such spells will be marked with **"Concentration"**. The effects of a concentration spell last for as long as the mage *chooses* or *manages* to keep their concentration. They need only test for the spell only *once*, when they first cast it. 
