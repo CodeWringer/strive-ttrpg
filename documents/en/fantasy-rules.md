@@ -44,7 +44,8 @@
         - [Kite Shield](#kite-shield)
     - [List of Stuff \& Things](#list-of-stuff--things)
     - [Weapon Types](#weapon-types)
-      - [Short Blade](#short-blade)
+      - [Dagger](#dagger)
+      - [Light Blade](#light-blade)
       - [Long Blade](#long-blade)
       - [Great Blade](#great-blade)
       - [Axe](#axe)
@@ -451,216 +452,240 @@ The following is a list of general assets. Of course, the following list is non-
 | Calming Tea            | 1    | This herbal tea has the ability to calm nerves. Removes [berserk](./core-rules.md#berserk), [jealous](./core-rules.md#jealous) and [terrified](./core-rules.md#terrified). Best enjoyed steaming hot, but not necessarily. |
 
 ### Weapon Types
-Weapons can have the following **effects**:
+Following are fantasy-themed weapon types. 
 
-In the following, the **Ob** is to be considered a *modifier*. By default, **all** weapon attacks (weapon skills) are opposed by [melee defence](#melee-defence-agi) or [ranged defence](#ranged-defence-agi). Which defence is appropriate, is determined by the weapon type property **melee** or **ranged**. 
+For ranged weapons there is note made of a value called the "distance increment". This describes the distance within which the weapon can be used optimally, for no penalty to **Ob** and damage. As soon as a shooter wants to hit a target past their initial (= optimal) distance increment, they incur a penalty as noted on the attack in question. This penalty is multiplied by every increment past the initial. 
 
-#### Short Blade
-Any short, one-handed blade. Examples: shiv, dagger, Shortsword
+> For example, when a distance increment of 30'/10m has been noted, then shooting anything within and up to that distance incurs no penalties. But as soon as the shooter wants to hit something at 33'/11m distance, they incur their first penalty. The next penalty is incurred at 63'/21m and so on. 
+
+#### Dagger
+Any very short, one-handed blade. Examples: shiv, dagger, rondel-dagger
 
 * Melee
+* [Agility](./core-rules.md#agility-agi)
 * Ranged (throwable: stab)
 * Bulk: 1
 
-| Skill | **Ob**  | Attack                  | AP | Damage                | Effect |
-| ----- | ------- | ----------------------- | -- | --------------------- | ------ |
-| 0     | Opposed by **Melee Defence** | Slash                   | 2  | **2D2** **Slashing** | / |
-| 0     | Opposed by **Melee Defence** | Stab                    | 2  | **1D2** **Piercing** | / |
-| 0     | Opposed by **Melee Defence**+2 | Target weak-spot      | 3  | **Agi** + **3D2** **Piercing** | / |
-| 2     | Opposed by **Melee Defence**+2 | Artery cut            | 3  | **2D2** **Slashing** | +1 [bleeding](#bleeding) to the target (if it can bleed). |
+| Level | Name                 | AP | **Ob**                           | Damage                           | Notes  |
+| ----- | -------------------- | -- | -------------------------------- | -------------------------------- | ------ |
+| 0     | Slash                | 2  | Opposed by **Melee Defence**     | **2D2** **Slashing**             | -1 **Ob** and +**2D** damage against [proned](./core-rules.md#prone) and [grappled](./core-rules.md#grappled) targets. |
+| 0     | Stab                 | 2  | Opposed by **Melee Defence**     | **1D3** **Piercing**             | -1 **Ob** and +**2D** damage against [proned](./core-rules.md#prone) and [grappled](./core-rules.md#grappled) targets. |
+| 0     | Artery cut           | 2  | Opposed by **Melee Defence** + 2 | **2D3** **Slashing**             | +1 [bleeding](#bleeding) to the target (if it can bleed). -1 **Ob** and +**Agi\*D** damage against [proned](./core-rules.md#prone) and [grappled](./core-rules.md#grappled) targets. |
+| 0     | Target weak-spot     | 2  | Opposed by **Melee Defence** + 2 | **2D3** **Piercing**             | -1 **Ob** and +**Agi\*D** damage against [proned](./core-rules.md#prone) and [grappled](./core-rules.md#grappled) targets. |
+
+#### Light Blade
+Any light blade. Most commonly (but not restricted to) one-handed weapons. Examples: Short-sword, Langes Messer, arming sword, falchion
+
+* Melee
+* [Agility](./core-rules.md#agility-agi)
+* Ranged (throwable: stab)
+* Bulk: 1
+
+| Level | Name                 | AP | **Ob**                           | Damage                           | Notes  |
+| ----- | -------------------- | -- | -------------------------------- | -------------------------------- | ------ |
+| 0     | Slash                | 2  | Opposed by **Melee Defence**     | **1D8 + 2** **Slashing**         | / |
+| 0     | Stab                 | 2  | Opposed by **Melee Defence**     | **1D8 + 1** **Piercing**         | / |
+| 0     | Grappling Feint      | 2  | Opposed by **Melee Defence** - 1 | /                                | Attack with a feint, immediately close the distance and [grapple](./core-rules.md#grappled) your opponent. |
 
 #### Long Blade
-Any long blade, including long one-handed blades. Examples: arming sword, bastard sword, Longsword
+Any long and heavier blade, including heavy one-handed blades. Examples: Longsword, saber, side-sword, rapier
 
 * Melee
+* [Strength](./core-rules.md#strength-str)
 * Bulk: 2
 
-| Skill | **Ob**    | Attack                  | AP | Damage                | Effect |
-| ----- | --------- | ----------------------- | -- | --------------------- | ------ |
-| 0     | Opposed   | Slash                   | 2  | **2D6** **Slashing**  | / |
-| 0     | Opposed   | Stab                    | 2  | **1D6 + 1** **Piercing**  | / |
-| 3     | Opposed+2 | Mordhau-Strike          | 2  | **1D4** **Crushing**  | / |
-| 4     | /         | Fencer-Stance           | 3  | / | Enter a defensive fencing stance. Gain **+1D** for [melee defence](#melee-defence-agi) and can **counter-attack** **every** attack.|
+| Level | Name                 | AP | **Ob**                           | Damage                           | Notes  |
+| ----- | -------------------- | -- | -------------------------------- | -------------------------------- | ------ |
+| 0     | Slash                | 2  | Opposed by **Melee Defence**     | **2D8** **Slashing**             | / |
+| 0     | Stab                 | 2  | Opposed by **Melee Defence**     | **2D8** **Piercing**             | / |
+| 2     | Mord-Strike          | 2  | Opposed by **Melee Defence** + 2 | **1D6 + 1** **Crushing**         | / |
+| 3     | Fencer-Stance        | 2  | /                                | /                                | Enter a defensive fencing stance. Gain **+1D** for [melee defence](#melee-defence-agi) and can **counter-attack** **every** attack. |
 
 #### Great Blade
-Any very long, two-handed blade. Examples: sword of war, greatsword, Zweihänder
+Any very long and heavy two-handed blade. Examples: sword of war, great-sword, Zweihänder, Kriegsmesser
 
 * Melee
+* [Strength](./core-rules.md#strength-str)
 * Long Reach
 * Bulk: 3
 
-| Skill | **Ob**    | Attack                  | AP | Damage                | Effect |
-| ----- | --------- | ----------------------- | -- | --------------------- | ------ |
-| 0     | Opposed   | Slash                   | 2  | **3D6** **Slashing**  | / |
-| 0     | Opposed   | Stab                    | 2  | **1D6 + 2** **Piercing** | / |
-| 3     | Opposed+2 | Mordhau-Strike          | 3  | **1D6** **Crushing**  | / |
-| 4     | Opposed+1 | Heavy Blow              | 3  | **2D6** **Slashing** and **1D6** **Crushing** | Defending against this attack costs 2 [AP](#action-points-ap). +1 [exhaustion](#exhaustion) to self. |
+| Level | Name                 | AP | **Ob**                           | Damage                           | Notes  |
+| ----- | -------------------- | -- | -------------------------------- | -------------------------------- | ------ |
+| 0     | Slash                | 2  | Opposed by **Melee Defence**     | **3D8** **Slashing**             | / |
+| 0     | Stab                 | 2  | Opposed by **Melee Defence**     | **2D8 + 2** **Piercing**         | / |
+| 2     | Blade Barrier        | 2  | Opposed by **Melee Defence**     | /                                | Whenever any character moves **into** a spot within reach, can attack that character with a **slash** at **Ob** + 1 and force them back 3'/1m. |
+| 3     | Heavy Blow           | 3  | Opposed by **Melee Defence** + 1 | **2D8** **Slashing** and **1D8** **Crushing** | Defending against this attack costs 2 [AP](#action-points-ap). +1 [exhaustion](#exhaustion) to self. |
 
 #### Axe
-One-handed axes. Examples: hatchet, dane axe, woodcutter's axe
+Small and light axes. Examples: hatchet, dane axe, woodcutter's axe
 
 * Melee
+* [Strength](./core-rules.md#strength-str)
 * Ranged (throwable: hack)
-* Bulk: 2
+* Bulk: 1
 
-| Skill | **Ob**    | Attack                  | AP | Damage                | Effect |
-| ----- | --------- | ----------------------- | -- | --------------------- | ------ |
-| 0     | Opposed   | Hack                    | 2  | **2D6** **Slashing** and **1D3** **Crushing**  | / |
-| 2     | Opposed+1 | Savage Slash            | 2  | **1D8** **Slashing**  | +1 [bleeding](#bleeding)  to the target (if it can bleed). |
+| Level | Name                 | AP | **Ob**                           | Damage                           | Notes  |
+| ----- | -------------------- | -- | -------------------------------- | -------------------------------- | ------ |
+| 0     | Hack                 | 2  | Opposed by **Melee Defence**     |  **1D6 + 2** **Slashing** and **1D4** **Crushing**  | / |
+| 1     | Savage Slash         | 2  | Opposed by **Melee Defence** + 1 |  **1D6 + 2** **Slashing**            | +1 [bleeding](#bleeding)  to the target (if it can bleed). |
 
 #### Great Axe
-Two-handed axes. Examples: bearded axe, double-sided axe
+Large and heavy axes. Examples: bearded axe, double-sided axe
 
 * Melee
+* [Strength](./core-rules.md#strength-str)
 * Bulk: 3
 
-| Skill | **Ob**    | Attack                  | AP | Damage                | Effect |
-| ----- | --------- | ----------------------- | -- | --------------------- | ------ |
-| 0     | Opposed   | Hack                    | 2  | **3D6** **Slashing** and **2D3** **Crushing** | / |
-| 3     | Opposed+2 | Savage Slash            | 2  | **2D6** **Slashing**  | +2 [bleeding](#bleeding)  to the target (if it can bleed). |
-| 4     | Opposed+1 | Heavy Blow              | 3  | **2D6** **Slashing** and **1D6** **Crushing** | Defending against this attack costs 2 [AP](#action-points-ap). +1 [exhaustion](#exhaustion) to self. |
+| Level | Name                 | AP | **Ob**                           | Damage                           | Notes  |
+| ----- | -------------------- | -- | -------------------------------- | -------------------------------- | ------ |
+| 0     | Hack                 | 2  | Opposed by **Melee Defence**     | **1D8** **Slashing** and **2D4** **Crushing** | / |
+| 2     | Savage Slash         | 2  | Opposed by **Melee Defence** + 2 | **2D8** **Slashing**             | +2 [bleeding](#bleeding)  to the target (if it can bleed). |
+| 3     | Heavy Blow           | 3  | Opposed by **Melee Defence** + 1 | **1D8** **Slashing** and **1D6 + 2** **Crushing** | Defending against this attack costs 2 [AP](#action-points-ap). +1 [exhaustion](#exhaustion) to self. |
 
 #### Spear
 Any one or two-handed short piercing polearms. Examples: short-spear, boar-spear
 
 * Melee
+* [Strength](./core-rules.md#strength-str)
 * Ranged (throwable: stab)
 * Bulk: 2
+* Long Reach
 * Prefer Range
 
-| Skill | **Ob**    | Attack                  | AP | Damage                | Effect |
-| ----- | --------- | ----------------------- | -- | --------------------- | ------ |
-| 0     | Opposed   | Stab                    | 2  | **2D8** **Piercing**  | / |
-| 2     | /         | Spear wall              | 3  | /                     | Whenever any character moves **into** a spot adjacent to self, can attack that character with a **stab**. |
+| Level | Name                 | AP | **Ob**                           | Damage                           | Notes  |
+| ----- | -------------------- | -- | -------------------------------- | -------------------------------- | ------ |
+| 0     | Stab                 | 2  | Opposed by **Melee Defence**     | **2D8** **Piercing**  | / |
+| 0     | Spear wall           | 2  | /                                | Whenever any character moves **into** a spot within reach, can attack that character with a **stab** and force them back 3'/1m. | / |
 
 #### Lance
 Any one or two-handed long piercing polearms. Examples: pike, lance
 
 * Melee
+* [Strength](./core-rules.md#strength-str)
 * Bulk: 4
 * Long Reach
 * Prefer Range
 
-| Skill | **Ob**    | Attack                  | AP | Damage                | Effect |
-| ----- | --------- | ----------------------- | -- | --------------------- | ------ |
-| 0     | Opposed   | Stab                    | 2  | **2D6** **Piercing**  | / |
-| 3     | Opposed   | Couched Lancing         | 3  | **3D10** **Piercing** | Requires self to be mounted on horse-back (or similar creature). Self must move at least 15'/5m in a straight line, past the target. |
+| Level | Name                 | AP | **Ob**                           | Damage                           | Notes  |
+| ----- | -------------------- | -- | -------------------------------- | -------------------------------- | ------ |
+| 0     | Stab                 | 2  | Opposed by **Melee Defence**     | **2D6** **Piercing**             | / |
+| 0     | Couched Lancing      | 2  | Opposed by **Melee Defence**     | **3D10** **Piercing**            | Requires self to be mounted on horse-back (or similar creature). Self must move at least 15'/5m in a straight line, past the target. |
 
 #### Polearm
 Flexible polearms with a focus on slashing. Examples: halberd, bardiche, poleaxe
 
 * Melee
+* [Strength](./core-rules.md#strength-str)
 * Bulk: 4
 * Long Reach
 * Prefer Range
 
-| Skill | **Ob**    | Attack                  | AP | Damage                | Effect |
-| ----- | --------- | ----------------------- | -- | --------------------- | ------ |
-| 0     | Opposed   | Slash                   | 2  | **3D6** **Slashing**  | / |
-| 0     | Opposed   | Stab                    | 2  | **2D8** **Piercing**  | / |
-| 4     | Opposed+2 | Cleave                  | 3  | **1D10** **Slashing** | Deals damage to up to two targets adjacent to each other and self. |
+| Level | Name                 | AP | **Ob**                           | Damage                           | Notes  |
+| ----- | -------------------- | -- | -------------------------------- | -------------------------------- | ------ |
+| 0     | Slash                | 2  | Opposed by **Melee Defence**     | **3D6** **Slashing**             | / |
+| 0     | Stab                 | 2  | Opposed by **Melee Defence**     | **2D8** **Piercing**             | / |
+| 2     | Blade Barrier        | 2  | Opposed by **Melee Defence**     | /                                | Whenever any character moves **into** a spot within reach, can attack that character with a **stab** at **Ob** + 1 and force them back 3'/1m. |
+| 3     | Cleave               | 2  | Opposed by **Melee Defence** + 2 | **1D10** **Slashing**            | Deals damage to up to two targets adjacent to each other and within reach. |
 
 #### Club
 Simple, improvised bludgeoning weapons. Examples: wooden club, staff, stick
 
 * Melee
+* [Strength](./core-rules.md#strength-str)
 * Bulk: 2
 
-| Skill | **Ob**    | Attack                  | AP | Damage                       | Effect |
-| ----- | --------- | ----------------------- | -- | ---------------------------- | ------ |
-| 0     | Opposed   | Clobber                 | 2  | **Str** + **2D4** **Bludgeoning**      | / |
-| 3     | Opposed+2 | Knockout Blow           | 3  | **Str** + **2D6 + 2** **Bludgeoning**  | +1 [exhaustion](#exhaustion) to self. |
+| Level | Name                 | AP | **Ob**                           | Damage                           | Notes  |
+| ----- | -------------------- | -- | -------------------------------- | -------------------------------- | ------ |
+| 0     | Clobber              | 2  | Opposed by **Melee Defence**     | **Str** + **2D4** **Bludgeoning**      | / |
+| 0     | Knockout Blow        | 2  | Opposed by **Melee Defence** + 2 | **Str** + **2D6 + 2** **Bludgeoning**  | +2 [exhaustion](#exhaustion) to target. +1 [exhaustion](#exhaustion) to self. |
 
 #### Small Crusher
-One-handed, heavy crushing weapons. Examples: flanged mace, warhammer, flail, morning star
+Small, heavy crushing weapons with a dedicated *impact zone* on the weapon head which directs more force into the target. Examples: flanged mace, warhammer, flail, morning star
 
 * Melee
+* [Strength](./core-rules.md#strength-str)
 * Bulk: 2
 
-| Skill | **Ob**   | Attack                  | AP | Damage                | Effect |
-| ----- | -------- | ----------------------- | -- | --------------------- | ------ |
-| 0     | Opposed  | Smash                   | 2  | **Str** + **1D6** **Crushing**  | / |
+| Level | Name                 | AP | **Ob**                           | Damage                           | Notes  |
+| ----- | -------------------- | -- | -------------------------------- | -------------------------------- | ------ |
+| 0     | Smash                | 2  | Opposed by **Melee Defence**     | **Str** + **1D6** **Crushing**   | / |
 
 #### Large Crusher
-Two-handed crushing weapons with a dedicated *impact zone* on the weapon head which directs more force into the target. Examples: grand-mace, polehammer, two-handed flail
+Large, heavy crushing weapons with a dedicated *impact zone* on the weapon head which directs more force into the target. Examples: grand-mace, polehammer, two-handed flail
 
 * Melee
+* [Strength](./core-rules.md#strength-str)
 * Bulk: 3
 
-| Skill | **Ob**    | Attack                  | AP | Damage                     | Effect |
-| ----- | --------- | ----------------------- | -- | -------------------------- | ------ |
-| 0     | Opposed   | Smash        | 2  | **Str** + **1D8** **Crushing**       | / |
-| 3     | Opposed+2 | Mighty Smash | 3  | **Str** + **1D10 + 2** **Crushing**  | +1 [exhaustion](#exhaustion) to self. +2 [exhaustion](#exhaustion) to target (if it can be winded). |
+| Level | Name                 | AP | **Ob**                           | Damage                           | Notes  |
+| ----- | -------------------- | -- | -------------------------------- | -------------------------------- | ------ |
+| 0     | Smash                | 2  | Opposed by **Melee Defence**     | **Str** + **1D8** **Crushing**   | / |
+| 1     | Mighty Smash         | 2  | Opposed by **Melee Defence** + 2 | **Str** + **2D8** **Crushing**   | +1 [exhaustion](#exhaustion) to self. +2 [exhaustion](#exhaustion) to target (if it can be winded). |
 
 #### Short-Bow
 A short distance ranged weapon, shooting arrows.
 
 * Ranged
+* [Strength](./core-rules.md#strength-str)
 * Bulk: 1
 * Range Only
 
-| Skill | **Ob**    | Attack                  | AP | Distance | Damage                | Effect |
-| ----- | --------- | ----------------------- | -- | -------- | --------------------- | ------ |
-| 0     | Opposed   | Loose                   | 2  | 30'/10m  | **4D3** **Piercing**  | / |
-| 0     | Opposed+2 | Loose                   | 2  | 60'/20m  | **3D3** **Piercing**  | / |
-| 0     | Opposed+4 | Loose                   | 2  | 90'/30m  | **2D3** **Piercing**  | / |
-| 4     | Opposed   | Double shot             | 3  | 30'/10m  | **3D3** **Piercing**  | Can attack twice and thus deal its damage to two different targets, or the same target twice. |
-| 4     | Opposed+2 | Double shot             | 3  | 60'/20m  | **2D3** **Piercing**  | Can attack twice and thus deal its damage to two different targets, or the same target twice. |
-| 4     | Opposed+4 | Double shot             | 3  | 90'/30m  | **1D3** **Piercing**  | Can attack twice and thus deal its damage to two different targets, or the same target twice. |
+| Level | Name                 | AP | **Ob**                            | Distance increments | Damage                     | Notes  |
+| ----- | -------------------- | -- | --------------------------------- | ------------------- | -------------------------- | ------ |
+| 0     | Loose                | 2  | Opposed by **Ranged Defence**     | 30'/10m             | **4D3** **Piercing**       | +1 **Ob** and **-1D** damage for every distance increment past the initial. |
+| 1     | Heavy Shot           | 3  | Opposed by **Ranged Defence** + 1 | 30'/10m             | **4D3 + Str** **Piercing** | +1 **Ob** and **-1D** damage for every distance increment past the initial. |
+| 2     | Double shot          | 3  | Opposed by **Ranged Defence**     | 30'/10m             | **3D3** **Piercing**       | Can attack twice and thus deal its damage to two different targets, or the same target twice. +1 **Ob** and **-1D** damage for every distance increment past the initial. |
 
 #### Longbow
 A long distance ranged weapon, shooting arrows.
 
 * Ranged
+* [Strength](./core-rules.md#strength-str)
 * Bulk: 2
 * Range Only
 
-| Skill | **Ob**    | Attack                  | AP | Distance | Damage                | Effect |
-| ----- | --------- | ----------------------- | -- | -------- | --------------------- | ------ |
-| 0     | Opposed   | Loose                   | 2  | 30'/10m  | **4D4** **Piercing**  | / |
-| 0     | Opposed+1 | Loose                   | 2  | 60'/20m  | **3D4** **Piercing**  | / |
-| 0     | Opposed+3 | Loose                   | 2  | 90'/30m  | **2D4** **Piercing**  | / |
+| Level | Name                 | AP | **Ob**                            | Distance increments | Damage                     | Notes  |
+| ----- | -------------------- | -- | --------------------------------- | ------------------- | -------------------------- | ------ |
+| 0     | Loose                | 2  | Opposed by **Ranged Defence**     | 45'/15m             | **4D4** **Piercing**       | +1 **Ob** and **-1D** damage for every distance increment past the initial. |
+| 1     | Heavy Shot           | 3  | Opposed by **Ranged Defence** + 1 | 45'/15m             | **4D4 + Str** **Piercing** | +1 **Ob** and **-1D** damage for every distance increment past the initial. +1 [exhaustion](#exhaustion) to self. |
 
 #### War-Bow
-A very deadly long distance ranged weapon, shooting arrows.
+A very deadly long distance ranged weapon, shooting arrows. Beware its exhausting strength of draw. 
 
 * Ranged
+* [Strength](./core-rules.md#strength-str)
 * Bulk: 2
 * Range Only
 
-| Skill | **Ob**    | Attack                  | AP | Distance | Damage                 | Effect |
-| ----- | --------- | ----------------------- | -- | -------- | ---------------------- | ------ |
-| 0     | Opposed   | Loose                   | 3  | 30'/10m  | **3D8** **Piercing**   | +1 [exhaustion](#exhaustion) to self. |
-| 0     | Opposed+1 | Loose                   | 3  | 60'/20m  | **2D8** **Piercing**   | +1 [exhaustion](#exhaustion) to self. |
-| 0     | Opposed+2 | Loose                   | 3  | 90'/30m  | **1D8** **Piercing**   | +1 [exhaustion](#exhaustion) to self. |
+| Level | Name                 | AP | **Ob**                            | Distance increments | Damage                     | Notes  |
+| ----- | -------------------- | -- | --------------------------------- | ------------------- | -------------------------- | ------ |
+| 0     | Loose                | 2  | Opposed by **Ranged Defence**     | 60'/20m             | **3D8** **Piercing**       | +1 [exhaustion](#exhaustion) to self. +1 **Ob** and **-1D** damage for every distance increment past the initial. |
 
 #### Crossbow
-A deadly medium distance ranged weapon, shooting quarrels.
+A deadly medium distance ranged weapon, shooting quarrels. Beware its slow reload. 
 
 * Ranged
+* [Perception](./core-rules.md#perception-perc)
 * Bulk: 2
 * Prefer Range
 * Slow Reload
 
-| Skill | **Ob**    | Attack                  | AP | Distance | Damage                | Effect |
-| ----- | --------- | ----------------------- | -- | -------- | --------------------- | ------ |
-| 0     | Opposed   | Loose                   | 3  | 30'/10m  | **3D6 + 2** **Piercing**  | / |
-| 0     | Opposed+1 | Loose                   | 3  | 60'/20m  | **3D6 + 2** **Piercing**  | / |
-| 0     | Opposed+3 | Loose                   | 3  | 90'/30m  | **3D4 + 2** **Piercing**  | / |
+| Level | Name                 | AP | **Ob**                            | Distance increments | Damage                     | Notes  |
+| ----- | -------------------- | -- | --------------------------------- | ------------------- | -------------------------- | ------ |
+| 0     | Loose                | 2  | Opposed by **Ranged Defence**     | 60'/20m             | **3D8** **Piercing**       | +1 **Ob** and **-1D** damage for every distance increment past the initial. |
 
 #### Firearm
-A very deadly short to medium distance ranged weapon, shooting musket balls that can even penetrate armor.
+A very deadly short to medium distance ranged weapon, shooting musket balls that are likely to penetrate armor. Beware its slow reload. 
 
 * Ranged
+* [Perception](./core-rules.md#perception-perc)
 * Bulk: 2
 * Prefer Range
 * Very Slow Reload
 
-| Skill | **Ob**    | Attack                  | AP | Distance | Damage                    | Effect |
-| ----- | --------- | ----------------------- | -- | -------- | ------------------------- | ------ |
-| 0     | Opposed   | Fire                    | 3  | 30'/10m  | **3D6 + 4** **Piercing**  | / |
-| 0     | Opposed+1 | Fire                    | 3  | 60'/20m  | **2D6 + 3** **Piercing**  | / |
-| 0     | Opposed+3 | Fire                    | 3  | 90'/30m  | **2D6 + 2** **Piercing**  | / |
+| Level | Name                 | AP | **Ob**                            | Distance increments | Damage                     | Notes  |
+| ----- | -------------------- | -- | --------------------------------- | ------------------- | -------------------------- | ------ |
+| 0     | Fire                 | 2  | Opposed by **Ranged Defence**     | 30'/10m             | **3D8 + 5** **Piercing**   | +2 **Ob** for every distance increment past the initial. |
 
 ## Lists of Skills
 The following list does not and cannot aim to be a complete listing of all possible skills in game. Adding new skills as necessary will have to be done by the **GM**. 
