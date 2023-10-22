@@ -60,10 +60,10 @@
   - [Health \& Exhaustion](#health--exhaustion)
     - [Hit Points (HP)](#hit-points-hp)
     - [Injury](#injury)
-      - [Injury States](#injury-states)
+      - [Injury States \& Treatment](#injury-states--treatment)
       - [Injury Exhaustion Threshold](#injury-exhaustion-threshold)
     - [Exhaustion](#exhaustion)
-    - [State](#state)
+    - [Health State](#health-state)
       - [Berserk](#berserk)
       - [Burning](#burning)
       - [Bleeding](#bleeding)
@@ -160,6 +160,8 @@
     - [Throwing-Damage](#throwing-damage)
   - [Unarmed Combat (Str)](#unarmed-combat-str)
 - [Appendix](#appendix)
+  - [List of Assets](#list-of-assets)
+    - [List of Stuff \& Things](#list-of-stuff--things)
   - [Lists of Skills](#lists-of-skills)
     - [Physical Skills](#physical-skills)
       - [Acrobatics (Agi)](#acrobatics-agi)
@@ -203,14 +205,15 @@
       - [Artistry (Emp)](#artistry-emp)
       - [Cooking (Emp)](#cooking-emp)
   - [List of Injuries](#list-of-injuries)
-    - [List of Acid Injuries](#list-of-acid-injuries)
-    - [List of Burning Injuries](#list-of-burning-injuries)
-    - [List of Crushing Injuries](#list-of-crushing-injuries)
-    - [List of Electrical Injuries](#list-of-electrical-injuries)
-    - [List of Freezing Injuries](#list-of-freezing-injuries)
-    - [List of Piercing Injuries](#list-of-piercing-injuries)
-    - [List of Poison Injuries](#list-of-poison-injuries)
-    - [List of Slashing Injuries](#list-of-slashing-injuries)
+    - [Acid Injuries](#acid-injuries)
+    - [Bleeding Injuries](#bleeding-injuries)
+    - [Burning Injuries](#burning-injuries)
+    - [Crushing Injuries](#crushing-injuries)
+    - [Electrical Injuries](#electrical-injuries)
+    - [Freezing Injuries](#freezing-injuries)
+    - [Piercing Injuries](#piercing-injuries)
+    - [Poison Injuries](#poison-injuries)
+    - [Slashing Injuries](#slashing-injuries)
   - [List of Illnesses](#list-of-illnesses)
   - [List of Mutations](#list-of-mutations)
   - [List of Scars](#list-of-scars)
@@ -866,30 +869,26 @@ An **injury** is a serious health impediment of a character. Every character has
 
 Whenever a character suffers an **injury**, a **D100** must be rolled and the corresponding result from the [damage type](#damage-types) specific [list of injuries](#list-of-injuries) added to the character. 
 
-For every **injury** incurred, a character's maximum **HP** is reduced by 2. 
+For every **injury** incurred, a character's maximum **HP** is reduced by 2. An **injury** can also reduce [attributes](#attributes) and impose other restrictions. See also [boons & penalties](#boons--penalties). A penalty to [toughness](#toughness-tough) **does not** further reduce the current maximum **HP**! The reduction from the **injury** is enough penalty. 
 
-An **injury** can reduce [attributes](#attributes) and impose other restrictions. See also [boons & penalties](#boons--penalties). A penalty to [toughness](#toughness-tough) **does not** further reduce the current maximum **HP**! The reduction from the **injury** is enough penalty. 
+An **injury** must be [treated](#injury-states--treatment) to reduce its negative effects and begin the healing process. [Treatment](#injury-states--treatment) is made with a [skill](#skills) noted on the **injury**. The difficulty of [treatment](#injury-states--treatment) is determined by the type of **injury**, that is to say, by the [type of damage](#damage-types) that inflicted it. The time to heal depends on its type. When an **injury** is fully healed and removed, it may leave behind a [scar](#scars), which can also impose [boons & penalties](#boons--penalties). 
 
-When an **injury** is fully healed and removed, it may leave behind a [scar](#scars). 
+**Injuries** apply their penalties only once, upon being suffered. That means that if an **injury** applies a penalty of +1 [bleeding](#bleeding), the [bleeding](#bleeding) [health state](#injury-states--treatment) can be removed separately from the **injury**, after it has been suffered. Treating such an injury would only remove the 1 point of [bleeding](#bleeding) it inflicted. [Bleeding](#bleeding) suffered from other sources would remain. 
 
-#### Injury States
-There are four possible states of an [injury](#injury): **active**, **patched up**, **treated** or **permanent**. 
+#### Injury States & Treatment
+There are three possible states of an [injury](#injury): **active**, **patched up** or **treated**. Note that regardless of current state, **all** [injuries](#injury) **always** count towards the [injury](#injury) limit and reduce the **maximum HP**! 
 
-Only an **active** [injury](#injury) imposes negative effects, but **injuries** will always be counted toward the injury limit. 
+The type of [injury](#injury) dictates various aspects of treatment:
+* The [skill](#skills) to use.
+* The [required supplies](#list-of-stuff--things) for a treatment attempt. Both patching up and properly treating require this. 
+* The **Ob** for the treatment [test](#tests). Noted as (patch-up **Ob** | treatment **Ob**). Note that the minimum **Ob** is always 1. 
+* The time to heal and the reduction in time to heal when properly treated. Noted as (time to heal | reduction when properly treated). The reduction is subtracted from the time to heal, but cannot be reduced to less than one time increment. E. g. a time to heal of 2 weeks, reduced by 3 weeks, results in 1 week of actual time to heal. 
 
-An [injury](#injury) can be **patched up** via [medicine](#medicine-int):
-* If the attempt is a complete success, the [injury](#injury) is **patched up**.
-* If the attempt is a partial success or a complete failure, the [injury](#injury) remains **active**. 
+Only an **active** [injury](#injury) imposes negative effects *in addition* to the reduction of **maximum HP**. This is the initial state for any newly added [injury](#injury). Some [injuries](#injury) may **patch up** on their own, with a successful [test](#tests) of a specific [attribute](#attributes) or [skill](#skills), made with a specific interval and with a specific **Ob**.
 
-A **patched up** [injury](#injury) still reduces a character's **maximum HP** and must be counted when checking whether they must perform their [toughness](#toughness-tough) test when suffering more **injuries**. 
+An [injury](#injury) can be **patched up** via a successful [test](#tests) of the required treatment skill with a reduced **Ob** (minimum 1). A **patched up** [injury](#injury) no longer imposes *additional* penalties and will begin healing, albeit much slower than if it were properly **treated**. 
 
-An [injury](#injury) can be properly **treated** via [surgery](#surgery-int): 
-* If the attempt is a complete success, the [injury](#injury) is **treated**. 
-* If the attempt is a partial success, the [injury](#injury) is not **treated**, but another attempt can be made. 
-* If the attempt is a complete failure, the [injury](#injury) becomes **permanent**. It cannot be **treated** via [surgery](#surgery-int) anymore. 
-* Only one [surgery](#surgery-int) attempt can be made every 24 hours. 
-
-All currently **treated** [injuries](#injury) can be removed/recovered from, by spending **4D4** weeks in uninterrupted, active recovery. Active recovery implies spending the vast majority of the day in bed or at least avoiding physical and mental strains. 
+An [injury](#injury) can be properly **treated** via a successful [test](#tests) of the required treatment skill at full **Ob**. A **treated** [injury](#injury)'s time to heal is reduced significantly (minimum 1 time increment). Only one **treatment** attempt can be made every 24 hours on a per-character basis. 
 
 #### Injury Exhaustion Threshold
 Once a character is brought to at least half their maximum number of [injuries](#injury) (rounded down), every time past that point that they suffer further damage and/or an **injury** they must succeed a [toughness](#toughness-tough) test with their number of **injuries** as the **Ob**, or else suffer +1 [exhaustion](#exhaustion). This point in time is called the **injury exhaustion threshold**. 
@@ -911,7 +910,7 @@ Exhaustion gained from **exhausting actions** can be reduced by resting. A full 
 
 Exhaustion gained from **exhausting equipment**, can be reduced, by dropping the equipment in question and resting for a short while, at the **GM**'s discretion. A character trying to carry more than they can endure, should not immediately fall [unconscious](#unconscious), mind you. Apply common sense - the character in question would probably try to carry the extra equipment, only find out right away it is simply too much for them. 
 
-### State
+### Health State
 A **character** can have positive or negative effects on them, represented by **states**. They can have any number of **states** applying to them. 
 
 #### Berserk
@@ -920,22 +919,20 @@ A character who is in **berserk**, **must** attack the creature nearest to them,
 This **state** lasts until it is successfully [resisted](#resist-will) or the character is made [unconscious](#unconscious). At the end of their turn, a character in this **state** gets to roll a [resist](#resist-will) test at **Ob** 3. 
 
 #### Burning
-A **burning** character suffers **1 D3** points of [HP](#health--exhaustion) damage at the end their every turn in combat or every 5 seconds outside of combat. 
+For every point in **burning**, a character suffers **1 D3** points of [burning](#damage-types) damage at the end their every turn in combat or every 5 seconds outside of combat. 
 
 This **state** can be incurred multiple times. While a character has this **state**, at the end of their turn during combat or every 5 seconds outside of combat, they automatically incur another point of **burning**! The point of **burning** is incurred *after* the damage from the previous points of **burning** is applied. 
 
-They must actively work to get rid of it, for example by dropping to the floor and rolling on the flames, dousing themselves in water and so forth. 
+They must actively work to get rid of it, for example by dropping to the floor and rolling on the flames, dousing themselves in water and so forth. When dropping to the floor and rolling, every [AP](#action-points-ap) spent results in the reduction of this state by 1. Adjacent allies can also pat out the flames, by spending an [AP](#action-points-ap) for every point reduction of **burning**. 
 
 #### Bleeding
-A **bleeding** character suffers **1 D3** points of [HP](#health--exhaustion) damage at the end their every turn in combat or every 5 seconds outside of combat. 
+For every point in **bleeding**, a character suffers **1 D3** points of [bleeding](#damage-types) damage at the end their every turn in combat or every 5 seconds outside of combat. 
 
-This **state** can be incurred multiple times. 
+This **state** can be incurred multiple times.  
 
-A point of **bleeding** can be removed with a successful [medicine](#medicine-int) test, requiring a bandage. 
+At the end of every turn or every minute outside of combat, a character can attempt to shrug off 1 point of **bleeding**, by succeeding a [toughness](#toughness-tough) [test](#tests), the **Ob** of which is their number of points of **bleeding**. 
 
-At the end of every combat round of every 5 seconds outside of combat, a character can attempt to shrug off 1 point of **bleeding**, by succeeding a [toughness](#toughness-tough) [test](#tests), the **Ob** of which is their number of points of **bleeding**, times 2. 
-
-> A character with 2 points of **bleeding** must succeed a test at **Ob** 4, to shrug off 1 point of **bleeding**. 
+Can be removed entirely, with a successful [medicine](#medicine-int) [test](#tests), requiring 1 [medical supplies](#list-of-stuff--things) with **Ob** at the current level of **bleeding**. 
 
 #### Death's Door
 **Death's door** is a **state** only a **PC** can enter and represents their final battle with death. 
@@ -947,9 +944,13 @@ A **PC** at **death's door** must succeed at least one [toughness](#toughness-to
 A character can be helped out of the **death's door** **state**, if all of their **active** [injuries](#injury) are **patched up** or **treated**. 
 
 #### Dissolving
-A **dissolving** character suffers **1 D6** points of [HP](#health--exhaustion) damage at the end their every turn in combat or every 5 seconds outside of combat. 
+For every point in **dissolving**, a character suffers **1 D4** points of [acid](#damage-types) damage at the end their every turn in combat or every minute outside of combat. 
 
-This **state** is removed automatically, if the character is freed of the acidic substance. 
+This **state** can be incurred multiple times.  
+
+At the end of every turn or every minute outside of combat, 1 point of **dissolving** is automatically removed. 
+
+Can be removed entirely, with a successful [medicine](#medicine-int) [test](#tests), requiring 1 [medical supplies](#list-of-stuff--things) with **Ob** at the current level of **dissolving**. 
 
 #### Drug-Addicted
 A **drug-addicted** character must take their drug once every 24 hours, or else enter **withdrawal**. 
@@ -996,13 +997,13 @@ Note, the character is not physically unable to cause harm, but they **really** 
 This **state** lasts until it is successfully [resisted](#resist-will) or the character is made [unconscious](#unconscious). 
 
 #### Poisoned
-A **poisoned** character suffers **1 D3** points of [HP](#health--exhaustion) damage at the end their every turn in combat or every 5 seconds outside of combat. 
+A **poisoned** character suffers **1 D3** points of [poison](#damage-types) damage at the end their every turn in combat or every 5 seconds outside of combat. 
 
-This state can be incurred multiple times and can be removed with an *antidote*. 
+This state can be incurred multiple times and can only be removed with proper [treatment](#list-of-poison-injuries). 
 
-At the end of every combat round of every 5 seconds outside of combat, a character can attempt to shrug off 1 point of **poisoned**, by succeeding a [toughness](#toughness-tough) [test](#tests), the **Ob** of which is their number of points of **poisoned**, times 2. 
+At the end of every combat round of every minute outside of combat, a character can attempt to shrug off 1 point of **poisoned**, by succeeding a [toughness](#toughness-tough) [test](#tests), the **Ob** of which is their number of points of **poisoned**. 
 
-> A character with 2 points of **poisoned** must succeed a test at **Ob** 4, to shrug off 1 point of **poisoned**. 
+Can be removed entirely, with 1 [antidote](#list-of-stuff--things). 
 
 #### Prone
 A character who is prone, is harder to hit with ranged attacks, but easier to hit with melee attacks, as they'll have a harder time defending. 
@@ -1064,19 +1065,20 @@ Often times, a **scar** is little more than a reminder of past misfortunes, but 
 Scars may be removed by [surgery](#surgery-int), at the **GM**'s discretion. 
 
 ### Damage Types
-All damage inflicted, is inflicted with a certain type of damage. 
+All damage inflicted, is inflicted with one of these types, which dictate the type of [injury](#injury) suffered when brought to below 0 [HP](#hit-points-hp). 
 
 | Damage Type | Description |
 | ----------- | ----------- |
-| Slashing    | Usually inflicted by any sort of cutting/slashing weapon, like a sword, or a talon. |
-| Piercing    | Usually inflicted by any sort of stabbing weapon, like a spear, or an animal's stinger. |
+| Acid        | Dissolves anything it touches, depending on circumstance. |
+| Bleeding    | Inflicted by [bleeding](#bleeding). The result of open wounds. |
 | Bludgeoning | Inflicted by light blunt weapons and [unarmed](#unarmed-combat-str) attacks. **Bludgeoning** causes non-lethal damage. It inflicts [exhaustion](#exhaustion) instead of [injuries](#injury). An [exhausted](#exhausted) character hit with **bludgeoning** damage has to succeed an [endurance](#endurance-end) [test](#tests), or else fall [unconscious](#unconscious). The **Ob** is 2 + 1 per level of exhaustion past the threshold. |
-| Crushing    | Usually inflicted by any sort of heavy blunt weapon, like a hammer, or an animal's tusks. |
 | Burning     | Inflicted by extreme heat. |
-| Freezing    | Inflicted by extreme cold. |
-| Poison      | Inflicted over time, by imbibed or injected substances. |
-| Acid        | Dissolves anything it touches, or perhaps just organic matter. |
+| Crushing    | Usually inflicted by any sort of heavy blunt weapon, like a hammer, or an animal's tusks. |
 | Electrical  | Destroyer and giver of life. Mind maker and unmaker. Whip of light and sound. |
+| Freezing    | Inflicted by extreme cold. |
+| Piercing    | Usually inflicted by any sort of stabbing weapon, like a spear, or an animal's stinger. |
+| Poison      | Inflicted over time, by imbibed or injected substances. |
+| Slashing    | Usually inflicted by any sort of cutting/slashing weapon, like a blade, or a talon. |
 
 ### Damage Resistances
 Some creatures can resist certain [types of damage](#damage-types) naturally, while others may cover themselves in armor to the same effect. 
@@ -1084,7 +1086,7 @@ Some creatures can resist certain [types of damage](#damage-types) naturally, wh
 How much **damage** is resisted, depends on the specifics of the creature or character and their [equipment](#worn--equipped). 
 
 ### Boons & Penalties
-Boons and penalties to the level of an [attribute](#attributes) or [skill](#skills) can be incurred from several different sources, such as [injuries](#injury), [illnesses](#illness), [mutations](#list-of-mutations), [scars](#scars) and [states](#state). Boons and penalties may be temporary or permanent, depending on their source. 
+Boons and penalties to the level of an [attribute](#attributes) or [skill](#skills) can be incurred from several different sources, such as [injuries](#injury), [illnesses](#illness), [mutations](#list-of-mutations), [scars](#scars) and [states](#health-state). Boons and penalties may be temporary or permanent, depending on their source. 
 
 A boon to an [attribute](#attributes) or [skill](#skills) usually comes in the form of increasing its **modified level**. If a boon awards an [attribute](#attributes) or [skill](#skills) that the character does not yet have, they gain it automatically. 
 
@@ -1770,6 +1772,18 @@ Sometimes, your own body is your greatest weapon. Fists and feet can cause a sur
 # Appendix
 The appendix contains important and less important lists, for reference only when needed. 
 
+## List of Assets
+The following list does not and cannot aim to be a complete listing of all possible assets in game. Adding new assets as necessary will have to be done by the **GM**. 
+
+### List of Stuff & Things
+The following is a list of general assets. Of course, the following list is non-exhaustive. Invent more at your own need. 
+
+| Name                   | Max. Stack Size | Description                                                              |
+| ---------------------- | --------------- | ------------------------------------------------------------------------ |
+| Antidote               | 1    | This unassuming liquid can make the difference between life and death. Is used in the [treatment of poison](#list-of-poison-injuries). |
+| Herbal Remedy Potion   | 1    | The sickly green tint and strong odor of the liquid within might not seem enticing, but its efficacy is well worth it. Upon imbibing, restores all currently missing [HP](#hit-points-hp) of a character. |
+| Medical Supplies       | 2    | A small satchel of clean bandages, thread and needle for suturing, a clean and sharp knife, a splint and straps for binding. Is used in the [treatment](#injury-states--treatment) of various [injuries](#injury). |
+
 ## Lists of Skills
 The following list does not and cannot aim to be a complete listing of all possible skills in game. Adding new skills as necessary will have to be done by the **GM**. 
 
@@ -2009,7 +2023,15 @@ Tools: cooking utensils, a pot or pan, a fire place
 ## List of Injuries
 How many times an **injury** can be suffered, can be limited. In the table below, the *limit* is the maximum number of times the **injury** can be suffered by the same character. If there is a slash (/), there is no limit. If a roll would result in an already maxed out **injury**, pick the next **injury** below it, instead, or roll again. 
 
-### List of Acid Injuries
+Also noted below are the [treatment skill](#injury-states--treatment), the treatment **Ob**, the time to heal and reduction in time to heal when [treated](#injury-states--treatment). 
+
+### Acid Injuries
+Self patch-up: [Toughness](#toughness-tough) at **Ob** 3 every day. 
+Treatment skill: [medicine](#medicine-int)
+Required supplies: 1 [medical supplies](#list-of-stuff--things)
+**Ob**: 1D6 - 2 | 1D6
+Time to heal: 4D4 weeks | 3D4 weeks
+
 | Range D100 | Injury              | Limit     | Description                      | Scar                |
 | ---------  | ------------------- | --------- | -------------------------------- | ------------------- |
 | 1 - 5      | Cosmic Fortune      | /         | Luck is with you! You suffer no **injury**! | / |
@@ -2019,7 +2041,28 @@ How many times an **injury** can be suffered, can be limited. In the table below
 | 74 - 95    | Emotional Damage    | /         | -1 [Empathy](#empathy-emp). Feeling empathy is difficult, when faced with a world that would do such horrible things to you. | / |
 | 96 - 100   | Cosmic Misfortune   | /         | The cosmos has it out for you! Suffer one additional **injury**! | / |
 
-### List of Burning Injuries
+### Bleeding Injuries
+Self patch-up: [Toughness](#toughness-tough) with **Ob** at level of [bleeding](#bleeding) at end of every turn / every minute. 
+Treatment skill: [medicine](#medicine-int)
+Required supplies: 1 [medical supplies](#list-of-stuff--things)
+**Ob**: 1D3 - 1 | 1D3
+Time to heal: 1D4 days | 1D4 days
+
+| Range D100 | Injury              | Limit     | Description                      | Scar                |
+| ---------  | ------------------- | --------- | -------------------------------- | ------------------- |
+| 1 - 5      | Cosmic Fortune      | /         | Luck is with you! You suffer no **injury**! | / |
+| 6 - 35     | Infection           | /         | Within a day, the character will contract an [illness](#illness). This will always happen, even if the [injury](#injury) is treated. | / |
+| 36 - 65    | Dizzy               | /         | -1 [perception](#perception-perc); -1 [wisdom](#wisdom-wis). You feel dizzy. Focusing is difficult. | / |
+| 66 - 95    | Weakened            | /         | -1 [toughness](#toughness-tough); -1 [strength](#strength-str). You feel weak. | / |
+| 96 - 100   | Cosmic Misfortune   | /         | The cosmos has it out for you! Suffer one additional **injury**! | / |
+
+### Burning Injuries
+Self patch-up: [Toughness](#toughness-tough) at **Ob** 3 every day. 
+Treatment skill: [medicine](#medicine-int)
+Required supplies: 1 [medical supplies](#list-of-stuff--things)
+**Ob**: 1D6 - 2 | 1D6
+Time to heal: 4D4 weeks | 3D4 weeks
+
 | Range D100 | Injury              | Limit     | Description                      | Scar                |
 | ---------  | ------------------- | --------- | -------------------------------- | ------------------- |
 | 1 - 5      | Cosmic Fortune      | /         | Luck is with you! You suffer no **injury**! | / |
@@ -2029,7 +2072,13 @@ How many times an **injury** can be suffered, can be limited. In the table below
 | 74 - 95    | Emotional Damage    | /         | -1 [Empathy](#empathy-emp). Feeling empathy is difficult, when faced with a world that would do such horrible things to you. | / |
 | 96 - 100   | Cosmic Misfortune   | /         | The cosmos has it out for you! Suffer one additional **injury**! | / |
 
-### List of Crushing Injuries
+### Crushing Injuries
+Self patch-up: Impossible
+Treatment skill: [surgery](#surgery-int)
+Required supplies: 1 [medical supplies](#list-of-stuff--things)
+**Ob**: 1D4 - 1 | 1D4 + 1
+Time to heal: 4D6 weeks | 3D6 weeks
+
 | Range D100 | Injury              | Limit     | Description                      | Scar                |
 | ---------  | ------------------- | --------- | -------------------------------- | ------------------- |
 | 1 - 5      | Cosmic Fortune      | /         | Luck is with you! You suffer no **injury**! | / |
@@ -2043,7 +2092,13 @@ How many times an **injury** can be suffered, can be limited. In the table below
 | 85 - 95    | Emotional Damage    | /         | -1 [Empathy](#empathy-emp). Feeling empathy is difficult, when faced with a world that would do such horrible things to you. | / |
 | 96 - 100   | Cosmic Misfortune   | /         | The cosmos has it out for you! Suffer one additional **injury**! | / |
 
-### List of Electrical Injuries
+### Electrical Injuries
+Self patch-up: [Toughness](#toughness-tough) at **Ob** 3 every day. 
+Treatment skill: [medicine](#medicine-int)
+Required supplies: 1 [medical supplies](#list-of-stuff--things)
+**Ob**: 1D6 - 2 | 1D6
+Time to heal: 4D4 weeks | 3D4 weeks
+
 | Range D100 | Injury              | Limit     | Description                      | Scar                |
 | ---------  | ------------------- | --------- | -------------------------------- | ------------------- |
 | 1 - 5      | Cosmic Fortune      | /         | Luck is with you! You suffer no **injury**! | / |
@@ -2056,7 +2111,13 @@ How many times an **injury** can be suffered, can be limited. In the table below
 | 83 - 95    | Distracted          | /         | -1 [Perception](#perception-perc). It has become difficult to focus on what is happening around you. | / |
 | 96 - 100   | Cosmic Misfortune   | /         | The cosmos has it out for you! Suffer one additional **injury**! | / |
 
-### List of Freezing Injuries
+### Freezing Injuries
+Self patch-up: [Toughness](#toughness-tough) at **Ob** 1 every day. 
+Treatment skill: [medicine](#medicine-int)
+Required supplies: 1 [medical supplies](#list-of-stuff--things)
+**Ob**: 1D3 - 1 | 1D3
+Time to heal: 2D4 weeks | 2D4 weeks
+
 | Range D100 | Injury              | Limit     | Description                      | Scar                |
 | ---------  | ------------------- | --------- | -------------------------------- | ------------------- |
 | 1 - 5      | Cosmic Fortune      | /         | Luck is with you! You suffer no **injury**! | / |
@@ -2066,7 +2127,13 @@ How many times an **injury** can be suffered, can be limited. In the table below
 | 74 - 95    | Emotional Damage    | /         | -1 [Empathy](#empathy-emp). Feeling empathy is difficult, when faced with a world that would do such horrible things to you. | / |
 | 96 - 100   | Cosmic Misfortune   | /         | The cosmos has it out for you! Suffer one additional **injury**! | / |
 
-### List of Piercing Injuries
+### Piercing Injuries
+Self patch-up: [Toughness](#toughness-tough) at **Ob** 3 every day. 
+Treatment skill: [surgery](#surgery-int)
+Required supplies: 1 [medical supplies](#list-of-stuff--things)
+**Ob**: 1D4 - 1 | 1D4
+Time to heal: 4D3 weeks | 3D3 weeks
+
 | Range D100 | Injury              | Limit     | Description                      | Scar                |
 | ---------  | ------------------- | --------- | -------------------------------- | ------------------- |
 | 1 - 5      | Cosmic Fortune      | /         | Luck is with you! You suffer no **injury**! | / |
@@ -2080,50 +2147,62 @@ How many times an **injury** can be suffered, can be limited. In the table below
 | 85 - 95    | Emotional Damage    | /         | -1 [Empathy](#empathy-emp). Feeling empathy is difficult, when faced with a world that would do such horrible things to you. | / |
 | 96 - 100   | Cosmic Misfortune   | /         | The cosmos has it out for you! Suffer one additional **injury**! | / |
 
-### List of Poison Injuries
-| Range D100 | Injury              | Limit     | Description                      | Scar                |
-| ---------  | ------------------- | --------- | -------------------------------- | ------------------- |
-| 1 - 5      | Cosmic Fortune      | /         | Luck is with you! You suffer no **injury**! | / |
-| 6 - 18     | Sickly Color        | /         | -1 [Toughness](#toughness-tough). Your skin turns a sickly green. | Discolored skin |
-| 19 - 31    | Vomiting            | /         | -1 [Endurance](#endurance-end). Your body convulses, as you involuntarily bend over and vomit. | / |
-| 32 - 44    | Poisoned Thoughts   | /         | -1 [Intelligence](#intelligence-int). Your mind dulls and thoughts are difficult to grasp. | / |
-| 45 - 56    | Distracted          | /         | -1 [Perception](#perception-perc). It has become difficult to focus on what is happening around you. | / |
-| 57 - 69    | Panic               | /         | Become [terrified](#terrified). The inevitability of what is to come has dawned upon you. But you cannot let it end like this! | / |
-| 70 - 82    | Frenzy              | /         | Become [berserked](#berserk). To some, this may be a fun afternoon, but to you, the pain of the fire in your veins is unbearable, causing unquenchable rage to broil within you. | / |
-| 83 - 95    | Emotional Damage    | /         | -1 [Empathy](#empathy-emp). Feeling empathy is difficult, when faced with a world that would do such horrible things to you. | / |
-| 96 - 100   | Cosmic Misfortune   | /         | The cosmos has it out for you! Suffer one additional **injury**! | / |
+### Poison Injuries
+Self patch-up: [Toughness](#toughness-tough) with **Ob** at level of [poisoned](#poisoned) at end of every turn / every minute. 
+Treatment skill: [medicine](#medicine-int)
+Required supplies: 1 [antidote](#list-of-stuff--things)
+**Ob**: 1D4 - 1 | 1D4
+Time to heal: 2D4 days | 1D4 + 1 days
 
-### List of Slashing Injuries
 | Range D100 | Injury              | Limit     | Description                      | Scar                |
 | ---------  | ------------------- | --------- | -------------------------------- | ------------------- |
 | 1 - 5      | Cosmic Fortune      | /         | Luck is with you! You suffer no **injury**! | / |
-| 6 - 14     | Butchered Arm       | Arm Count | -1 [Agility](#agility-agi); Actions and equipment requiring two hands cannot be used. If incurred *limit* times, any actions requiring arm movement is impossible. | Scarred arm |
-| 15 - 23    | Butchered Leg       | Leg Count | -6'/2m of [movement](#combat-movement). If incurred *limit* times, any actions requiring leg movement is impossible. | Scarred leg |
-| 24 - 32    | Butchered Body      | /         | -1 [Toughness](#toughness-tough); +1 [Bleeding](#bleeding). | Scarred body |
-| 33 - 41    | Maimed Ear          | Ear Count | -1 [Perception](#perception-perc); If incurred *limit* times, cannot hear. | Disfigured ear |
-| 42 - 50    | Maimed Nose         | 1         | -1 [Perception](#perception-perc); Cannot smell. | Disfigured nose |
-| 51 - 59    | Slashed Eye         | Eye Count | -1 [Perception](#perception-perc); If incurred *limit* times, cannot see. A surface-level cut has grazed your eye, forcing you to keep it shut from pain. | Scarred eye |
-| 60 - 68    | Torn Tendon         | /         | -1 [Strength](#strength-str). A tendon has abandoned its duty to you. The limb it once controlled loses strength. | Creaky limb |
-| 69 - 77    | Deep Cut            | /         | +1 [Bleeding](#bleeding). The blood is everywhere. | Scarred body |
-| 78 - 86    | Infection           | /         | Within a day, the character will contract an [illness](#illness). This will always happen, even if the [injury](#injury) is treated. | / |
-| 87 - 95    | Emotional Damage    | /         | -1 [Empathy](#empathy-emp). Feeling empathy is difficult, when faced with a world that would do such horrible things to you. | / |
+| 6 - 18     | Sickly Color        | /         | +1 [poisoned](#poisoned). -1 [Toughness](#toughness-tough). Your skin turns a sickly green. | Discolored skin |
+| 19 - 31    | Vomiting            | /         | +1 [poisoned](#poisoned). -1 [Endurance](#endurance-end). Your body convulses, as you involuntarily bend over and vomit. | / |
+| 32 - 44    | Poisoned Thoughts   | /         | +1 [poisoned](#poisoned). -1 [Intelligence](#intelligence-int). Your mind dulls and thoughts are difficult to grasp. | / |
+| 45 - 56    | Distracted          | /         | +1 [poisoned](#poisoned). -1 [Perception](#perception-perc). It has become difficult to focus on what is happening around you. | / |
+| 57 - 69    | Panic               | /         | +1 [poisoned](#poisoned). Become [terrified](#terrified). The inevitability of what is to come has dawned upon you. But you cannot let it end like this! | / |
+| 70 - 82    | Frenzy              | /         | +1 [poisoned](#poisoned). Become [berserked](#berserk). To some, this may be a fun afternoon, but to you, the pain of the fire in your veins is unbearable, causing unquenchable rage to broil within you. | / |
+| 83 - 95    | Emotional Damage    | /         | +1 [poisoned](#poisoned). -1 [Empathy](#empathy-emp). Feeling empathy is difficult, when faced with a world that would do such horrible things to you. | / |
+| 96 - 100   | Cosmic Misfortune   | /         | +1 [poisoned](#poisoned). The cosmos has it out for you! Suffer one additional point of [poison](#poisoned)! | / |
+
+### Slashing Injuries
+Self patch-up: [Toughness](#toughness-tough) at **Ob** 1 at end of every turn / every minute. 
+Treatment skill: [surgery](#surgery-int)
+Required supplies: 1 [medical supplies](#list-of-stuff--things)
+**Ob**: 1D3 - 1 | 1D3
+Time to heal: 2D3 weeks | 1D3 + 1 weeks
+
+| Range D100 | Injury              | Limit     | Description                      | Scar                |
+| ---------  | ------------------- | --------- | -------------------------------- | ------------------- |
+| 1 - 5      | Cosmic Fortune      | /         | Luck is with you! You suffer no **injury**! | / |
+| 6 - 14     | Butchered Arm       | Arm Count | +1 [Bleeding](#bleeding). -1 [Agility](#agility-agi); Actions and equipment requiring two hands cannot be used. If incurred *limit* times, any actions requiring arm movement is impossible. | Scarred arm |
+| 15 - 23    | Butchered Leg       | Leg Count | +1 [Bleeding](#bleeding). -6'/2m of [movement](#combat-movement). If incurred *limit* times, any actions requiring leg movement is impossible. | Scarred leg |
+| 24 - 32    | Butchered Body      | /         | +1 [Bleeding](#bleeding). -1 [Toughness](#toughness-tough); | Scarred body |
+| 33 - 41    | Maimed Ear          | Ear Count | +1 [Bleeding](#bleeding). -1 [Perception](#perception-perc); If incurred *limit* times, cannot hear. | Disfigured ear |
+| 42 - 50    | Maimed Nose         | 1         | +1 [Bleeding](#bleeding). -1 [Perception](#perception-perc); Cannot smell. | Disfigured nose |
+| 51 - 59    | Slashed Eye         | Eye Count | +1 [Bleeding](#bleeding). -1 [Perception](#perception-perc); If incurred *limit* times, cannot see. A surface-level cut has grazed your eye, forcing you to keep it shut from pain. | Scarred eye |
+| 60 - 68    | Torn Tendon         | /         | +1 [Bleeding](#bleeding). -1 [Strength](#strength-str). A tendon has abandoned its duty to you. The limb it once controlled loses strength. | Creaky limb |
+| 69 - 77    | Deep Cut            | /         | +2 [Bleeding](#bleeding). The blood is everywhere. | Scarred body |
+| 78 - 86    | Infection           | /         | +1 [Bleeding](#bleeding). Within a day, the character will contract an [illness](#illness). This will always happen, even if the [injury](#injury) is treated. | / |
+| 87 - 95    | Emotional Damage    | /         | +1 [Bleeding](#bleeding). -1 [Empathy](#empathy-emp). Feeling empathy is difficult, when faced with a world that would do such horrible things to you. | / |
 | 96 - 100   | Cosmic Misfortune   | /         | The cosmos has it out for you! Suffer one additional **injury**! | / |
 
 ## List of Illnesses
 | Range D100 | Name              | Duration          | Effect      | Treatment |
 | ---------- | ----------------- | ----------------- | ----------- | --------- |
-| 1 - 8      | Strength Sap      | **1D10 + 3** Days | The muscles atrophy, despite any physical exercise. If not treated quickly, the victim will quickly find themselves unable to move, at all. **-1D3** [strength](#strength-str); **-1D3** [agility](#agility-agi); Max 6'/2m movement distance. | [medicine](#medicine-int); Reduces the duration by **2D4** days. |
-| 9 - 16     | Lung Fever        | **1D10 + 1** Days | The victim finds themselves easily winded, even by simple acts, such as walking to the privy at night. **-(1D3 + 1)** [endurance](#endurance-end). | [medicine](#medicine-int); The ill-effects are suspended for 24 hours. |
-| 17 - 24    | Water's Curse     | **1D10 + 1** Days | The victim sweats uncontrollably and has watery stools, thus dehydrating rapidly and losing consciousness frequently. **-1D4** [toughness](#toughness-tough); [exhausted](#exhausted). | [medicine](#medicine-int); Reduces the duration by **1D10** days and suspends the ill-effects for 24 hours. |
-| 25 - 32    | Jazz-Hands        | **1D10 + 3** Days | The victim can't stop the tremors in their arms. Any action requiring precise movements is impossible. **-1D3** [agility](#agility-agi). | [medicine](#medicine-int); The ill-effects are suspended for 24 hours. |
-| 33 - 40    | Brain Rot         | **2D10** Days     | The victim's mind dulls. They find it difficult to form coherent thoughts. **-1D3** [intelligence](#intelligence-int); **-1D3** [wisdom](#wisdom-wis). | [medicine](#medicine-int); The ill-effects are suspended for 24 hours. |
-| 41 - 48    | Feeble Tounge     | **1D10 + 3** Days | The tounge flops and waggles around uncontrollably. Speech is impaired. **-1D3** [oratory](#oratory-ora). | [medicine](#medicine-int); Reduces the duration by **2D4** days. |
-| 49 - 56    | Wound Fever       | Until cured       | [Injuries](#injury) of the victim refuse any treatment. Any [injury](#injury) of the victim can be **patched up**, but not **treated**. | [medicine](#medicine-int); Sets the duration to **1D10** days. |
-| 57 - 64    | Filth Fever       | **1D10 + 1** Days | The victim coughs uncontrollably and violently, with awful-smelling breath. **-1D3** [oratory](#oratory-ora); **-1D3** [endurance](#endurance-end). | [medicine](#medicine-int); Removes the illness on the next day. |
-| 65 - 80    | Coldness of Heart | **1D10 + 1** Days | The victim feels distant, as if they were only spectators in their own body. **-1D4** [empathy](#empathy-emp); **-1D3** [will](#will-will). | [medicine](#medicine-int); Reduces the duration by **2D4** days. |
-| 81 - 88    | Rot Plague        | **4D10** Days     | The skin starts developing a nasty rash, before flaking off. Not only unsightly, the bare flesh underneath smells like it's rotting. **-1D3** [endurance](#endurance-end); **-(1D3 + 1)** [toughness](#toughness-tough). | [surgery](#surgery-int); The ill-effects are suspended for 24 hours. |
-| 89 - 95    | Organ Mold        | Until cured       | Causes an [injury](#injury) every day it is active. | [surgery](#surgery-int); The illness is removed within a day. |
-| 96 - 100   | Red Death         | Until cured       | The victim starts bleeding from all of their orifices, with no end in sight. Causes 3 points of [bleeding](#bleeding) every day it is active. | [surgery](#surgery-int); The illness is removed within a day. |
+| 1 - 8      | Strength Sap      | **1D10 + 3** Days | The muscles atrophy, despite any physical exercise. If not treated quickly, the victim will quickly find themselves unable to move, at all. **-1D3** [strength](#strength-str); **-1D3** [agility](#agility-agi); Max 6'/2m movement distance. | [medicine](#medicine-int) **Ob** 1D3; Reduces the duration by **2D4** days. |
+| 9 - 16     | Lung Fever        | **1D10 + 1** Days | The victim finds themselves easily winded, even by simple acts, such as walking to the privy at night. **-(1D3 + 1)** [endurance](#endurance-end). | [medicine](#medicine-int) **Ob** 1; The ill-effects are suspended for 24 hours. |
+| 17 - 24    | Water's Curse     | **1D10 + 1** Days | The victim sweats uncontrollably and has watery stools, thus dehydrating rapidly and losing consciousness frequently. **-1D4** [toughness](#toughness-tough); [exhausted](#exhausted). | [medicine](#medicine-int) **Ob** 1D3; Reduces the duration by **1D10** days and suspends the ill-effects for 24 hours. |
+| 25 - 32    | Jazz-Hands        | **1D10 + 3** Days | The victim can't stop the tremors in their arms. Any action requiring precise movements is impossible. **-1D3** [agility](#agility-agi). | [medicine](#medicine-int) **Ob** 1; The ill-effects are suspended for 24 hours. |
+| 33 - 40    | Brain Rot         | **2D10** Days     | The victim's mind dulls. They find it difficult to form coherent thoughts. **-1D3** [intelligence](#intelligence-int); **-1D3** [wisdom](#wisdom-wis). | [medicine](#medicine-int) **Ob** 1; The ill-effects are suspended for 24 hours. |
+| 41 - 48    | Feeble Tounge     | **1D10 + 3** Days | The tounge flops and waggles around uncontrollably. Speech is impaired. **-1D3** [oratory](#oratory-ora). | [medicine](#medicine-int) **Ob** 1D3; Reduces the duration by **2D4** days. |
+| 49 - 56    | Wound Fever       | Until cured       | [Injuries](#injury) of the victim refuse any treatment. Any [injury](#injury) of the victim can be **patched up**, but not **treated**. | [medicine](#medicine-int) **Ob** 2; Sets the duration to **1D10** days. |
+| 57 - 64    | Filth Fever       | **1D10 + 1** Days | The victim coughs uncontrollably and violently, with awful-smelling breath. **-1D3** [oratory](#oratory-ora); **-1D3** [endurance](#endurance-end). | [medicine](#medicine-int) **Ob** 1D3 + 1; Removes the illness on the next day. |
+| 65 - 80    | Coldness of Heart | **1D10 + 1** Days | The victim feels distant, as if they were only spectators in their own body. **-1D4** [empathy](#empathy-emp); **-1D3** [will](#will-will). | [medicine](#medicine-int) **Ob** 1D3; Reduces the duration by **2D4** days. |
+| 81 - 88    | Rot Plague        | **4D10** Days     | The skin starts developing a nasty rash, before flaking off. Not only unsightly, the bare flesh underneath smells like it's rotting. **-1D3** [endurance](#endurance-end); **-(1D3 + 1)** [toughness](#toughness-tough). | [surgery](#surgery-int) **Ob** 2; The ill-effects are suspended for 24 hours. |
+| 89 - 95    | Organ Mold        | Until cured       | Causes an [injury](#injury) every day it is active. | [surgery](#surgery-int) **Ob** 1D3 + 1; The illness is removed within a day. |
+| 96 - 100   | Red Death         | Until cured       | The victim starts bleeding from all of their orifices, with no end in sight. Causes 3 points of [bleeding](#bleeding) every day it is active. | [surgery](#surgery-int) **Ob** 2; The illness is removed within a day. |
 
 ## List of Mutations
 One should always keep in mind that despite the game mechanical effects of a mutation, the appearance of an affected individual will also be severly altered. Other characters and creatures may react with disgust, fear, disdain, pity, and so on. 
