@@ -63,7 +63,7 @@
       - [Injury States \& Treatment](#injury-states--treatment)
       - [Injury Exhaustion Threshold](#injury-exhaustion-threshold)
     - [Exhaustion](#exhaustion)
-    - [State](#state)
+    - [Health State](#health-state)
       - [Berserk](#berserk)
       - [Burning](#burning)
       - [Bleeding](#bleeding)
@@ -910,7 +910,7 @@ Exhaustion gained from **exhausting actions** can be reduced by resting. A full 
 
 Exhaustion gained from **exhausting equipment**, can be reduced, by dropping the equipment in question and resting for a short while, at the **GM**'s discretion. A character trying to carry more than they can endure, should not immediately fall [unconscious](#unconscious), mind you. Apply common sense - the character in question would probably try to carry the extra equipment, only find out right away it is simply too much for them. 
 
-### State
+### Health State
 A **character** can have positive or negative effects on them, represented by **states**. They can have any number of **states** applying to them. 
 
 #### Berserk
@@ -1086,7 +1086,7 @@ Some creatures can resist certain [types of damage](#damage-types) naturally, wh
 How much **damage** is resisted, depends on the specifics of the creature or character and their [equipment](#worn--equipped). 
 
 ### Boons & Penalties
-Boons and penalties to the level of an [attribute](#attributes) or [skill](#skills) can be incurred from several different sources, such as [injuries](#injury), [illnesses](#illness), [mutations](#list-of-mutations), [scars](#scars) and [states](#state). Boons and penalties may be temporary or permanent, depending on their source. 
+Boons and penalties to the level of an [attribute](#attributes) or [skill](#skills) can be incurred from several different sources, such as [injuries](#injury), [illnesses](#illness), [mutations](#list-of-mutations), [scars](#scars) and [states](#health-state). Boons and penalties may be temporary or permanent, depending on their source. 
 
 A boon to an [attribute](#attributes) or [skill](#skills) usually comes in the form of increasing its **modified level**. If a boon awards an [attribute](#attributes) or [skill](#skills) that the character does not yet have, they gain it automatically. 
 
