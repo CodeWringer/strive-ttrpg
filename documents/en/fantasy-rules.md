@@ -447,11 +447,8 @@ The following is a list of general assets. Of course, the following list is non-
 
 | Name                   | Max. Stack Size | Description                                                              |
 | ---------------------- | --------------- | ------------------------------------------------------------------------ |
-| Antidote               | 1    | This unassuming liquid can make the difference between life and death. When imbibed, removes all current points of [poison](#poisoned). |
-| Herbal Remedy Potion   | 1    | The sickly green tint and strong odor of the liquid within might not seem enticing, but its efficacy is well worth it. Upon imbibing, restores all currently missing [HP](#hit-points-hp) of a character. |
-| Laudanum Potion        | 1    | This wonderous substance can quell pain and calm nerves within seconds. Also effective against diarrhea. Upon imbibing, sets one **active** [injury](#injury) to **patched up**. After 24 hours, the [injury](#injury) is set back to **active**, even if it was **treated** in the meantime. Also, must succeed a [willpower](#willpower-will) test at **Ob** 2, or else become [addicted](#drug-addicted) to the stuff. |
-| Medical Supplies       | 2    | A small satchel of clean bandages, thread and needle for suturing, a clean and sharp knife, a splint and straps of leather. |
-| Calming Tea            | 1    | This herbal tea has the ability to calm nerves. Removes [berserk](#berserk), [jealous](#jealous) and [terrified](#terrified). Best enjoyed steaming hot, but not necessarily. |
+| Laudanum Potion        | 1    | This wonderous substance can quell pain and calm nerves within seconds. Also effective against diarrhea. Upon imbibing, sets one **active** [injury](./core-rules.md#injury) to **patched up**. After 24 hours, the [injury](./core-rules.md#injury) is set back to **active**, even if it was **treated** in the meantime. Also, must succeed a [willpower](./core-rules.md#willpower-will) test at **Ob** 2, or else become [addicted](./core-rules.md#drug-addicted) to the stuff. |
+| Calming Tea            | 1    | This herbal tea has the ability to calm nerves. Removes [berserk](./core-rules.md#berserk), [jealous](./core-rules.md#jealous) and [terrified](./core-rules.md#terrified). Best enjoyed steaming hot, but not necessarily. |
 
 ### Weapon Types
 Weapons can have the following **effects**:
