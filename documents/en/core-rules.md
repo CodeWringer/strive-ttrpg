@@ -2076,7 +2076,7 @@ Required supplies: 1 [medical supplies](#list-of-stuff--things)
 **Ob**: 1 | 2
 Time to heal: 1D4 days | 1D4 days
 
-Note that whenever a bludgeoning [injury](#injury) is suffered, a [toughness](#toughness-tough) [test](#tests) must be succeeded at **Ob** equal to the current level of [exhaustion](#exhaustion). If failed, the character falls [unconscious](#unconscious), immediately. 
+Note that whenever a bludgeoning [injury](#injury) is suffered, an [endurance](#endurance-end) [test](#tests) must be succeeded at **Ob** equal to the current level of [exhaustion](#exhaustion). If failed, the character falls [unconscious](#unconscious), immediately. 
 
 | Range D100 | Injury              | Limit     | Description                      | Scar                |
 | ---------  | ------------------- | --------- | -------------------------------- | ------------------- |
