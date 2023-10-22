@@ -59,6 +59,7 @@
     - [Personality Traits](#personality-traits)
   - [Health \& Exhaustion](#health--exhaustion)
     - [Hit Points (HP)](#hit-points-hp)
+      - [Bludgeoned to 0 HP](#bludgeoned-to-0-hp)
     - [Injury](#injury)
       - [Injury States \& Treatment](#injury-states--treatment)
       - [Injury Exhaustion Threshold](#injury-exhaustion-threshold)
@@ -207,6 +208,7 @@
   - [List of Injuries](#list-of-injuries)
     - [Acid Injuries](#acid-injuries)
     - [Bleeding Injuries](#bleeding-injuries)
+    - [Bludgeoning Injuries](#bludgeoning-injuries)
     - [Burning Injuries](#burning-injuries)
     - [Crushing Injuries](#crushing-injuries)
     - [Electrical Injuries](#electrical-injuries)
@@ -519,7 +521,7 @@ For every 3 points in **strength**, past the initial **modified level**, every [
 ##### Toughness [Tough]
 Governs the [injury limit](#injury) and chance to shrug off [bleeding](#bleeding) and [poison](#poisoned). 
 
-For every point in [toughness](#toughness-tough), a character gains **+4 maximum HP** and raises their [injury](#injury) limit by 1. 
+For every point in [toughness](#toughness-tough), a character gains **+4 maximum [HP](#hit-points-hp)** and raises their [injury](#injury) limit by 1. 
 
 #### Mental Attributes
 These numbers represent a character's basic mental abilities. 
@@ -856,13 +858,24 @@ Additionally, playing to or even against their character's **personality traits*
 Every character has **Hit Points (HP)** and a maximum number of **injuries** they can endure (= their **injury limit**), before they die. 
 
 ### Hit Points (HP)
-Whenever a character is hurt, the **damage** that has been inflicted upon them is deducted from their **HP**. Whenever their **HP** reach zero, they suffer an [injury](#injury) and their **maximum HP** is reduced by **2**. When their **HP** rach 0, after they have suffered their maximum of [injuries](#injury), they **die**. 
+Whenever a character is hurt, the **damage** that has been inflicted upon them is deducted from their **HP**. Whenever their **HP** reach zero, they suffer an [injury](#injury) and their **maximum HP** is reduced by **2**. The type of [injury](#injury) depends on the [type of damage](#damage-types) that caused it.
 
-So, in other words, for every [injury](#injury), a character loses 2 maximum **HP**. But even when [Toughness](#toughness-tough) is reduced by an [injury](#injury), still only 2 maximum **HP** are deducted. 
+When their **HP** reach 0, after they have suffered their maximum number of [injuries](#injury), they **die**. An exception to this rule applies when the [damage type](#damage-types) that brought them to 0 **HP** was [bludgeoning](#damage-types). For that, see [bludgeoned to 0 HP](#bludgeoned-to-0-hp). 
+
+For every point in [toughness](#toughness-tough), a character gains **+4 maximum HP**. 
+
+For every [injury](#injury), a character loses 2 maximum **HP**. A [penalty](#boons--penalties) to [Toughness](#toughness-tough) does **not** cause a *further* maximum **HP** reduction. 
 
 Any **HP** damage past zero overflows. The additional damage dealt isn't lost. 
 
-A successful [medicine](#medicine-int) test, requiring medical supplies, can restore all currently missing **HP** of a character. **HP** also replenish on their own, albeit much slower. For every hour outside of combat, **1 D3** **HP** are regained, but only up to the current maximum. 
+A successful [medicine](#medicine-int) test at **Ob** equal to the treated character's [toughness](#toughness-tough) subtracted by their current number of injuries can restore all currently missing **HP** of a character. This requires [medical supplies](#list-of-stuff--things). **HP** also replenish on their own, albeit much slower. For every hour outside of combat, **1 D3** **HP** are regained, up to the current maximum. 
+
+> A character with a toughness of 4 and 2 injuries could have all their currently missing **HP** restored with a **medicine** test at **Ob** (4 - 2 =) 2. 
+
+#### Bludgeoned to 0 HP
+When a character was **bludgeoned** to 0 **HP** after they reached their [injury](#injury) limit, they might survive and fall [unconscious](#unconscious), instead of dying. For that, they must succeed a [toughness](#toughness-tough) [test](#tests) at **Ob** equal to 6 subtracted by their [toughness](#toughness-tough) (minimum **Ob** 1). If they succeed, they immediately fall [unconscious](#unconscious). If they fail, they die anyway.
+
+> A character with toughness 3, brought to 0 HP with their injury limit reached, must succeed a toughness test at Ob (6 - 3 =) 3, to fall unconscious, or die, if they fail. 
 
 ### Injury
 An **injury** is a serious health impediment of a character. Every character has a maximum number of **injury** they can endure. If they reach their maximum number of **injuries** and then lose all their remaining **HP**, the character **dies**. **PC**s are an exception, who instead arrive at [death's door](#deaths-door). 
@@ -1069,16 +1082,16 @@ All damage inflicted, is inflicted with one of these types, which dictate the ty
 
 | Damage Type | Description |
 | ----------- | ----------- |
-| Acid        | Dissolves anything it touches, depending on circumstance. |
-| Bleeding    | Inflicted by [bleeding](#bleeding). The result of open wounds. |
-| Bludgeoning | Inflicted by light blunt weapons and [unarmed](#unarmed-combat-str) attacks. **Bludgeoning** causes non-lethal damage. It inflicts [exhaustion](#exhaustion) instead of [injuries](#injury). An [exhausted](#exhausted) character hit with **bludgeoning** damage has to succeed an [endurance](#endurance-end) [test](#tests), or else fall [unconscious](#unconscious). The **Ob** is 2 + 1 per level of exhaustion past the threshold. |
-| Burning     | Inflicted by extreme heat. |
-| Crushing    | Usually inflicted by any sort of heavy blunt weapon, like a hammer, or an animal's tusks. |
-| Electrical  | Destroyer and giver of life. Mind maker and unmaker. Whip of light and sound. |
-| Freezing    | Inflicted by extreme cold. |
-| Piercing    | Usually inflicted by any sort of stabbing weapon, like a spear, or an animal's stinger. |
-| Poison      | Inflicted over time, by imbibed or injected substances. |
-| Slashing    | Usually inflicted by any sort of cutting/slashing weapon, like a blade, or a talon. |
+| Acid        | Dissolves anything it touches, depending on circumstance. Causes [acid injuries](#acid-injuries). |
+| Bleeding    | Inflicted by [bleeding](#bleeding). The result of open wounds. Causes [bleeding injuries](#bleeding-injuries). |
+| Bludgeoning | Inflicted by blunt weapons and [unarmed](#unarmed-combat-str) attacks. **Bludgeoning** causes (mostly) non-lethal damage. Causes [bludgeoning injuries](#bludgeoning-injuries). Can cause a character to fall [unconscious](#unconscious). For that, see [bludgeoned to 0 HP](#bludgeoned-to-0-hp). |
+| Burning     | Inflicted by extreme heat. Causes [burning injuries](#burning-injuries). |
+| Crushing    | Usually inflicted by any sort of heavy blunt weapon, like a hammer, or an animal's tusks. Causes [crushing injuries](#crushing-injuries). |
+| Electrical  | Destroyer and giver of life. Mind maker and unmaker. Whip of light and sound. Causes [electrical injuries](#electrical-injuries). |
+| Freezing    | Inflicted by extreme cold. Causes [freezing injuries](#freezing-injuries). |
+| Piercing    | Usually inflicted by any sort of stabbing weapon, like a spear, or an animal's stinger. Causes [piercing injuries](#piercing-injuries). |
+| Poison      | Inflicted over time, by imbibed or injected substances. Causes [poison injuries](#poison-injuries). Beware, poison quickly grows more potent. |
+| Slashing    | Usually inflicted by any sort of cutting/slashing weapon, like a blade, or a talon. Causes [slashing injuries](#slashing-injuries). |
 
 ### Damage Resistances
 Some creatures can resist certain [types of damage](#damage-types) naturally, while others may cover themselves in armor to the same effect. 
@@ -2055,6 +2068,21 @@ Time to heal: 1D4 days | 1D4 days
 | 36 - 65    | Dizzy               | /         | -1 [perception](#perception-perc); -1 [wisdom](#wisdom-wis). You feel dizzy. Focusing is difficult. | / |
 | 66 - 95    | Weakened            | /         | -1 [toughness](#toughness-tough); -1 [strength](#strength-str). You feel weak. | / |
 | 96 - 100   | Cosmic Misfortune   | /         | The cosmos has it out for you! Suffer one additional **injury**! | / |
+
+### Bludgeoning Injuries
+Self patch-up: [Toughness](#toughness-tough) at **Ob** 1. 
+Treatment skill: [medicine](#medicine-int)
+Required supplies: 1 [medical supplies](#list-of-stuff--things)
+**Ob**: 1 | 2
+Time to heal: 1D4 days | 1D4 days
+
+Note that whenever a bludgeoning [injury](#injury) is suffered, an [endurance](#endurance-end) [test](#tests) must be succeeded at **Ob** equal to the current level of [exhaustion](#exhaustion). If failed, the character falls [unconscious](#unconscious), immediately. 
+
+| Range D100 | Injury              | Limit     | Description                      | Scar                |
+| ---------  | ------------------- | --------- | -------------------------------- | ------------------- |
+| 1  - 25    | Dizzy               | /         | +1 [exhaustion](#exhaustion); -1 [perception](#perception-perc); -1 [wisdom](#wisdom-wis). You feel dizzy. Focusing is difficult. | / |
+| 26 - 75    | Bruise              | /         | +1 [exhaustion](#exhaustion); -1 [agility](#agility-agi). A bruised limb is harder to control, due to pain. | / |
+| 76 - 100   | Shaken              | /         | +1 [exhaustion](#exhaustion); -1 [willpower](#willpower-will). Rattled and shaken, it is harder to control oneself. | / |
 
 ### Burning Injuries
 Self patch-up: [Toughness](#toughness-tough) at **Ob** 3 every day. 
