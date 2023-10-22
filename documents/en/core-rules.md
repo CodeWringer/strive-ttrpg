@@ -873,7 +873,7 @@ A successful [medicine](#medicine-int) test at **Ob** equal to the treated chara
 > A character with a toughness of 4 and 2 injuries could have all their currently missing **HP** restored with a **medicine** test at **Ob** (4 - 2 =) 2. 
 
 #### Bludgeoned to 0 HP
-When a character was **bludgeoned** to 0 **HP**, they might not die, but instead survive and fall [unconscious](#unconscious). For that, they must succeed a [toughness](#toughness-tough) [test](#tests) at **Ob** equal to 6 subtracted by their [toughness](#toughness-tough) (minimum **Ob** 1). If they succeed, they immediately fall [unconscious](#unconscious). If they fail, they die anyway.
+When a character was **bludgeoned** to 0 **HP** after they reached their [injury](#injury) limit, they might survive and fall [unconscious](#unconscious), instead of dying. For that, they must succeed a [toughness](#toughness-tough) [test](#tests) at **Ob** equal to 6 subtracted by their [toughness](#toughness-tough) (minimum **Ob** 1). If they succeed, they immediately fall [unconscious](#unconscious). If they fail, they die anyway.
 
 > A character with toughness 3, brought to 0 HP with their injury limit reached, must succeed a toughness test at Ob (6 - 3 =) 3, to fall unconscious, or die, if they fail. 
 
