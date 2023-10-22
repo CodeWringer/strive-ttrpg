@@ -217,7 +217,7 @@
   - [List of Mutations](#list-of-mutations)
   - [List of Scars](#list-of-scars)
 
-Version 11
+Version 11 (Playtest)
 
 A role-playing game by Nicolas Haase
 
