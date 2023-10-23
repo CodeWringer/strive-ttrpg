@@ -1317,8 +1317,8 @@ Please keep in mind the values here are representative for an ordinary human abo
    2. If the number is negative, that's the number of levels you'll have to go down. <br>
    If the number is positive, that's the number of levels you'll have to go up. 
 4. Starting from the left or right, start adjusting each value.
-   1. If your levels have to go down, subtract one from each value. **But** skip 1s. 
-   2. If your levels have to go up, add one to each value. But **don't** skip 4s. 
+   1. If your levels have to go down, subtract one from each value. **But** skip "1"s. 
+   2. If your levels have to go up, add one to each value. **But** skip "4"s. 
 5. Repeat from the step of counting up your total and adjusting as necessary, until no more adjustments are necessary. 
 6. Lastly, apply the adjusted values to your attributes. 
 
@@ -1328,10 +1328,14 @@ Once attribute values have been set, you can determine the required number of su
 For this, see the rules on [attribute advancing](#advancing-attributes).
 
 #### Choosing Skills
-You can spend **8** points to *learn* skills and raise their level, with the following limitations:
-* No skill can be higher level than 3. 
-* You can have at most 7 skills. 
-* No skills can be set to *learning*.
+When choosing skills, consider your character's background. What are their core competences? What fields of knowledge might they be well versed in? Which have they only dabbled in?
+* Choose 1 skill at level 4. This is your character's strongest skill. 
+* Choose 2 skills at level 3. These complement your character's strength. 
+* Choose 1 [social](#social-skills) or [knowledge](#knowledge-skills) skill at level 3. This is something your character is particularly knowledgable about. 
+* You can now spend **8** points to freely *learn* additional skills and raise their level, with the following limitations:
+  * No skill can be higher level than 3. 
+  * You can add at most 7 skills. 
+  * No skills can be set to *learning* (= added at level 0).
 
 Once you've chosen skills, you can determine the required number of successes and failures each skill requires, in order to advance. 
 
