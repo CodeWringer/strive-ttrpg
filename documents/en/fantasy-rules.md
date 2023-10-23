@@ -14,6 +14,7 @@
       - [Choosing Attributes](#choosing-attributes)
         - [Manual Attribute Assignment](#manual-attribute-assignment)
         - [Semi-Random Attribute Assignment](#semi-random-attribute-assignment)
+      - [Choosing Skills](#choosing-skills)
     - [Determine Magic Stamina](#determine-magic-stamina)
 - [Magic](#magic)
   - [Spell Intensity (SI)](#spell-intensity-si)
@@ -201,6 +202,9 @@ This section replaces the section of the same name from the core rules.
    1. If your levels have to go up, add one to each value. But **don't** skip 4s. 
 1. Repeat from the step of counting up your total and adjusting as necessary, until no more adjustments are necessary. 
 1. Lastly, apply the adjusted values to your attributes. 
+
+#### Choosing Skills
+If playing a **mage**, keep in mind you need to have at least level 1 in a [magic school skill](#magic-school--school---attribute) to be able to cast magic. You are also advised to have your strongest magic be at least level 3 or 4, to be able to reliably use it. 
 
 ### Determine Magic Stamina
 Determine your character's **maximum magic stamina**, by referring to the [magic stamina](#magic-stamina) section. 
