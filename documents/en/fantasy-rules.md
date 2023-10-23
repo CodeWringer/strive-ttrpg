@@ -602,6 +602,7 @@ Simple, improvised bludgeoning weapons. Examples: wooden club, staff, stick
 | ----- | -------------------- | -- | -------------------------------- | -------------------------------- | ------ |
 | 0     | Clobber              | 2  | Opposed by **Melee Defence**     | **Str** + **2D4** **Bludgeoning**      | / |
 | 0     | Knockout Blow        | 2  | Opposed by **Melee Defence** + 2 | **Str** + **2D6 + 2** **Bludgeoning**  | +2 [exhaustion](#exhaustion) to target. +1 [exhaustion](#exhaustion) to self. |
+| 0     | Smash                | 2  | Opposed by **Melee Defence**     | **Str** + **1D4** **Crushing**         | / |
 
 #### Small Crusher
 Small, heavy crushing weapons with a dedicated *impact zone* on the weapon head which directs more force into the target. Examples: flanged mace, warhammer, flail, morning star
@@ -612,7 +613,7 @@ Small, heavy crushing weapons with a dedicated *impact zone* on the weapon head 
 
 | Level | Name                 | AP | **Ob**                           | Damage                           | Notes  |
 | ----- | -------------------- | -- | -------------------------------- | -------------------------------- | ------ |
-| 0     | Smash                | 2  | Opposed by **Melee Defence**     | **Str** + **1D6** **Crushing**   | / |
+| 0     | Smash                | 2  | Opposed by **Melee Defence**     | **Str** + **1D6 + 2** **Crushing** | / |
 
 #### Large Crusher
 Large, heavy crushing weapons with a dedicated *impact zone* on the weapon head which directs more force into the target. Examples: grand-mace, polehammer, two-handed flail
@@ -623,8 +624,8 @@ Large, heavy crushing weapons with a dedicated *impact zone* on the weapon head 
 
 | Level | Name                 | AP | **Ob**                           | Damage                           | Notes  |
 | ----- | -------------------- | -- | -------------------------------- | -------------------------------- | ------ |
-| 0     | Smash                | 2  | Opposed by **Melee Defence**     | **Str** + **1D8** **Crushing**   | / |
-| 1     | Mighty Smash         | 2  | Opposed by **Melee Defence** + 2 | **Str** + **2D8** **Crushing**   | +1 [exhaustion](#exhaustion) to self. +2 [exhaustion](#exhaustion) to target (if it can be winded). |
+| 0     | Smash                | 2  | Opposed by **Melee Defence**     | **Str** + **1D8 + 2** **Crushing** | / |
+| 1     | Mighty Smash         | 2  | Opposed by **Melee Defence** + 2 | **Str** + **2D8 + 1** **Crushing**     | +2 [exhaustion](#exhaustion) to target (if it can be winded). +1 [exhaustion](#exhaustion) to self. |
 
 #### Short-Bow
 A short distance ranged weapon, shooting arrows.
