@@ -177,7 +177,7 @@
       - [Observation (Perc)](#observation-perc)
       - [Path-finding (Perc)](#path-finding-perc)
       - [Throwing (Agi)](#throwing-agi)
-      - [Weapon \< weapon type \> (Str)](#weapon--weapon-type--str)
+      - [Weapon \< weapon type \> (\< attribute \>)](#weapon--weapon-type---attribute-)
     - [Social Skills](#social-skills)
       - [Animal Handling (Emp)](#animal-handling-emp)
       - [Commanding (Will)](#commanding-will)
@@ -1885,7 +1885,7 @@ General expertise at throwing things. This includes weapons as well as non-weapo
 
 See [throwing](#throwing). 
 
-#### Weapon < [weapon type](#weapon-types) > (Str)
+#### Weapon < [weapon type](#weapon-types) > (< attribute >)
 Expertise at handling a close-quarters or ranged weapon of a specific [weapon type](#weapon-types). 
 
 ### Social Skills
