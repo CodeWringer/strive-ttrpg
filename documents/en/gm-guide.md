@@ -2,7 +2,9 @@
 - [Introduction](#introduction)
 - [The Role Of A Game Master](#the-role-of-a-game-master)
   - [Your World](#your-world)
-    - [Bring NPCs To Life](#bring-npcs-to-life)
+    - [Non-Player Character (NPC)](#non-player-character-npc)
+      - [Challenge Ratings (CR)](#challenge-ratings-cr)
+      - [Bring NPCs To Life](#bring-npcs-to-life)
     - [Use The Senses](#use-the-senses)
   - [Your Game](#your-game)
     - [To Rule or Not To Rule](#to-rule-or-not-to-rule)
@@ -61,10 +63,22 @@ You are encouraged to craft your own world to play in. You decide what species (
 
 Your players can aid in crafting the world. Usually during play, rather than outside of it. If you allow them to change your world through their actions, it becomes a much more dynamic and almost life-like beast. 
 
-### Bring NPCs To Life
+### Non-Player Character (NPC)
 Non-player characters (**NPC**s) are all the people of your world, that aren't the player characters (**PC**s). **NPC**s are one of your most important tools to bring your world to life and make it interesting and engaging to your players. More often than not, the most interesting sessions involve heavy or mindful use of **NPC**s. See them as you do real people. There are no rules or mechanics dictating how they should behave. 
 
-Much like the **PC**s, or in fact real people, **NPC**s lead their own lives, with their own ambitions, aspirations, reactions, strengths and weaknesses. Keeping track of all of the numbers that implies, can become quite the challenge. But you won't have to come up with all those numbers right away or track them all the time.
+However, there is a distinction made between "proper" **NPC**s and "simple" type **NPC**s. 
+* A "proper" **NPC** has a fully filled out character sheet, with distinct values for each attribute and every skill. These are main actors in the story that aren't **PC**s. They will be the key figures that hand out quests, help or hinder the **PC**s' progress and follow defined agendas of their own. 
+* A "simple" **NPC** is only a passing acquaintance, an animal or a faceless enemy in a conflict. They serve as temporary obstacles or "padding" in a scene, to give it liveliness without the bureaucratic overhead of creating proper **NPC**s. 
+
+#### Challenge Ratings (CR)
+**Challenge ratings** (**CR**) simplify **NPC** creation tremendously. Instead of distinct values for every attribute and skill, one could instead define a challenge rating per attribute category. **Every** [opposed test](./core-rules.md#opposed-test) targeting this **NPC** is answered with one of these values. 
+
+E. g., for any [physical attribute](./core-rules.md#physical-attributes) or [physical skill](./core-rules.md#physical-skills), every [opposed test](./core-rules.md#opposed-test) is made with the same number of dice. This even allows you to delegate [opposed tests](./core-rules.md#opposed-test) entirely to your players. Simply name them the **3 challenge ratings** for the **NPC**s they face - perhaps with a small note or card that can be placed on the table - and they can roll their **Ob** on their own, without your involvement. 
+
+> For example, a character with a **CR** of physical 3 would answer **all** physical skill or attribute tests with **3D6**.
+
+#### Bring NPCs To Life
+Much like the **PC**s, or in fact real people, *proper* **NPC**s lead their own lives, with their own ambitions, aspirations, reactions, strengths and weaknesses. Keeping track of all of the numbers that implies, can become quite the challenge. But you won't have to come up with all those numbers right away or track them all the time.
 
 Whenever the **PC**s encounter someone new, all you really need, is a rough idea of *who* that **NPC** *is*. You don't have to know all their history right away, nor all of their strengths, weaknesses or even their agenda. Invent those as needed and just keep notes on that. 
 
