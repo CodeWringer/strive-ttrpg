@@ -1110,14 +1110,23 @@ A penalty to an [attribute](#attributes) or [skill](#skills) usually comes in th
 Whenever a boon or penalty alters the **modified level** of an [attribute](#attributes) or [skill](#skills), it does **not** affect the **successes** and **failures** required to advance. 
 
 ## Assets
-A character may have things on their person, such as worn equipment and luggage, as well as the things they *own*, but don't have on person. 
+A character may *have* things, such as worn equipment and luggage, as well as the things they *own*, but don't have on person. Collectively, all of these things are referred to as **assets**. 
 
-Collectively, these things are referred to as their **assets**. 
+An **asset** is anything from money, to weapons and ammunition, to food and supplies, to cars and planes, to houses and castles, to space ships etc. 
+
+When choosing the assets to [wear on person](#worn--equipped) and have in your [luggage](#luggage), keep in mind that *container* type assets **are always implied**. A container type asset is an asset that is dedicated to holding other assets, e. g. a quiver, a sword sheath, a gun holster, a backpack or any type of bag and so on. An archer having a quiver to hold their arrows or a gunman having an ammunition belt or ammunition pouches is implied and need not be tracked explicitly, other than for flavor reasons. This means you *can* still include a sword sheath or a backpack and other such container type assets on your character sheet, but do **not have to**. You may choose to include a container type asset for flavor reasons, for example when it is especially decorated or has some other unique trait that helps define your character. **When doing so, set its bulk to 0.** You can have as many container type assets as you like, but they will **not** increase your carrying capacity! 
 
 ### Bulk
 Every non-static asset (= any object that can reasonably be picked up) has a **bulk** associated with it. This value determines how easy to handle the asset is.
 
-A lower bulk means an easier to handle asset. 
+A lower bulk means an easier to handle asset. Both weight and size increase an object's bulk. Bulk can be derived in the following way, but is ultimately up to the situation and **GM**'s discretion. Obviously, not all objects' bulk can be estimated this way. A truck may have a much higher bulk than "7", just as a huge boulder of even an entire mountain may have way more bulk than you should even need to discuss. Unless of course if your **PC**s are super-heros or gods who reasonably *could* move a mountain. In such a case, you will have to find your own means of estimating bulk. 
+
+| weight ><br> size v | low | moderate | high | very high | 
+| --------------- | --- | -------- | ---- | --------- |
+| low             | 1   | 2        | 3    | 4         |
+| moderate        | 2   | 3        | 4    | 5         | 
+| high            | 3   | 4        | 5    | 6         |
+| very high       | 4   | 5        | 6    | 7         |
 
 ### Worn & Equipped
 Every character can have **assets** they wear or carry on person. These things do not factor into their used [carrying capacity](#carrying-capacity) and are listed on their character sheet in a separate section. Every asset on person has to be placed in a so called **asset slot**. 
