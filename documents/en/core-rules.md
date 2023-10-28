@@ -118,6 +118,7 @@
     - [Determine Assets](#determine-assets)
     - [Determine Max HP \& Injury Maximum](#determine-max-hp--injury-maximum)
     - [Determine Exhaustion Threshold](#determine-exhaustion-threshold)
+  - [Non-Player Character (NPC)](#non-player-character-npc)
 - [Fate Points](#fate-points)
   - [Minor Fate Points](#minor-fate-points)
   - [Major Fate Points](#major-fate-points)
@@ -472,10 +473,6 @@ While the **GM** decides on how much time a given test will need, the following 
 
 # Character
 A character is a representation of a sentient creature in the game world. They're an amalgam of their [abilities](#abilities), [personality](#personality), [health](#health--exhaustion) and [assets](#assets). 
-
-All **PC**s utilize all of these rules. 
-
-**NPC**s are built differently. **NPC**s don't *need* the [personality](#personality) section and **cannot** earn [fate points](#fate-points). Furthermore, **NPC**s don't always have to be fully-fledged characters. Especially for animals, monsters and other "simple" type creatures, the overhead of filling out a full character sheet is often not necessary and in fact even cumbersome. To combat this bureaucratic overhead, the so called **challenge ratings** come to the rescue, which reduce the amount of work involved. The rules about **challenge ratings** can be looked up in the [GM guide](./gm-guide.md#challenge-ratings-cr). Keep in mind the **GM** guide is mostly reserved for the **GM**. Regardless, **challenge ratings** are mentioned here to let both players and **GM** know of this tool, which can speed up the flow of the game *significantly*. 
 
 ## Abilities
 All characters have innate and learned abilities. These are described as [attributes](#attributes) and [skills](#skills). 
@@ -1371,6 +1368,17 @@ All characters start with an **injury limit** of 2.
 
 ### Determine Exhaustion Threshold
 Determine your character's [exhaustion threshold](#exhaustion), by referring to the [endurance](#endurance-end) attribute. 
+
+## Non-Player Character (NPC)
+Non-player characters (**NPC**s) are all the people, animals and monsters of a world, that aren't the player characters (**PC**s) and are controlled by the **GM**. 
+
+**NPC**s are built differently from **PC**s. Not all the same rules apply to them as **PC**s. The following differences exist:
+* **NPCs** **cannot** earn [fate points](#fate-points). 
+* **NPC**s don't *need* the [personality](#personality) section. A **GM** *may choose* to include it for the *main actor* **NPC**s, but for your average animal or passing acquaintance, no personality need be marked down. 
+* [Challenge ratings](./gm-guide.md#challenge-ratings-cr) abstract away the need to explicitly fill out [attribute](#attributes) or [skill](#skills) levels. 
+* **NPC**s don't *need* advancement progress to be tracked. Thus, [learning skills](#learning-skills) are also optional. 
+
+The rules about [Challenge ratings](./gm-guide.md#challenge-ratings-cr) can be looked up in the **GM** guide. Keep in mind the **GM** guide is mostly reserved for the **GM**. Regardless, **challenge ratings** are mentioned here to let both players and **GM** know of this tool, which can speed up the flow of the game *significantly*. 
 
 # Fate Points
 Fate points (**FP**) represent a meta-currency that *players* can earn and use to buy boons for their character or the group as a whole. 
