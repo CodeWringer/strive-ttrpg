@@ -64,7 +64,7 @@ You are encouraged to craft your own world to play in. You decide what species (
 Your players can aid in crafting the world. Usually during play, rather than outside of it. If you allow them to change your world through their actions, it becomes a much more dynamic and almost life-like beast. 
 
 ### Non-Player Character (NPC)
-Non-player characters (**NPC**s) are all the people of your world, that aren't the player characters (**PC**s). **NPC**s are one of your most important tools to bring your world to life and make it interesting and engaging to your players. More often than not, the most interesting sessions involve heavy or mindful use of **NPC**s. See them as you do real people. There are no rules or mechanics dictating how they should behave. 
+Non-player characters (**NPC**s) are all the people, animals and monsters of your world, that aren't the player characters (**PC**s). **NPC**s are one of your most important tools to bring your world to life and make it interesting and engaging to your players. More often than not, the most interesting sessions involve heavy or mindful use of **NPC**s. See them as you do real people. There are no rules or mechanics dictating how they should behave. 
 
 However, there is a distinction made between "proper" **NPC**s and "simple" type **NPC**s. 
 * A "proper" **NPC** has a fully filled out character sheet, with distinct values for each attribute and every skill. These are main actors in the story that aren't **PC**s. They will be the key figures that hand out quests, help or hinder the **PC**s' progress and follow defined agendas of their own. 
