@@ -103,7 +103,7 @@
   - [List of Injuries](#list-of-injuries)
   - [List of Illnesses](#list-of-illnesses)
 
-Version 2 (Playtest)
+Version 3 (Playtest)
 
 A role-playing game by Nicolas Haase
 

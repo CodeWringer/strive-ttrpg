@@ -34,7 +34,7 @@
     - [Hand Out Fate Points](#hand-out-fate-points)
     - [Gather Feedback](#gather-feedback)
 
-Version 5
+Version 6 (Playtest)
 
 A role-playing game by Nicolas Haase
 
