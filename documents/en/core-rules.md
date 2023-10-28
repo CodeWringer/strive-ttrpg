@@ -52,6 +52,7 @@
         - [Practicing Skills](#practicing-skills)
         - [Teaching Skills](#teaching-skills)
     - [Specialization Skills](#specialization-skills)
+    - [Innate Abilities](#innate-abilities)
   - [Personality](#personality)
     - [Ambition](#ambition)
     - [Aspiration](#aspiration)
@@ -768,6 +769,15 @@ For a [test](#tests), any prerequisite **skills** are *always automatically* [fo
 > A character knows skill A and skill B. These are prerequisite skills for skill C, which the character has just begun learning and has at level 0. 
 >
 > For a test of skill C, they get to roll **+2D6** from their prerequisite skills, even though normally, **learning skills** cannot benefit from **skill forking**!
+
+### Innate Abilities
+An **innate ability** is an [attribute](#attributes) or [skill](#skills) unique to a specific species or individual. 
+
+Especially for animals and monsters, **innate abilities** represent natural weapons, such as talons, stingers, sharp teeth and so on. They are noted in a special "innate abilities" section on the character sheet. 
+
+An **innate ability** **cannot** be learned and there is no advancement for **innate abilities**. 
+
+Even **PC**s might receive **innate abilities**, based on their chosen species or heritage.
 
 ## Personality
 All **PC**s have a **personality**, which is an expression of their [personality traits](#personality-traits), [ambition](#ambition), [aspirations](#aspiration) and [reactions](#reaction). 
