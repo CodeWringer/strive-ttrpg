@@ -2069,7 +2069,14 @@ Tools: cooking utensils, a pot or pan, a fire place
 ## List of Injuries
 How many times an **injury** can be suffered, can be limited. In the table below, the *limit* is the maximum number of times the **injury** can be suffered by the same character. If there is a slash (/), there is no limit. If a roll would result in an already maxed out **injury**, pick the next **injury** below it, instead, or roll again. 
 
-Also noted below are the [treatment skill](#injury-states--treatment), the treatment **Ob**, the time to heal and reduction in time to heal when [treated](#injury-states--treatment). 
+Also noted below for each group of **injuries** are: 
+* The [treatment skill](#injury-states--treatment).
+* The treatment **Ob** (patch-up | proper treatment).
+* The time to heal and reduction in time to heal when [treated](#injury-states--treatment).
+* The **Ob** for a self (= automatic) patch-up and the interval for such a test, if at all possible.
+* The supplies required to be able to make a patch-up or treatment test.
+
+Note that "Cosmic Fortune" is not an actual **injury**. When it is rolled for, **do not** add it to the character sheet! 
 
 ### Acid Injuries
 * Self patch-up: [Toughness](#toughness-tough) at **Ob** 3 every day. 
