@@ -2072,11 +2072,11 @@ How many times an **injury** can be suffered, can be limited. In the table below
 Also noted below are the [treatment skill](#injury-states--treatment), the treatment **Ob**, the time to heal and reduction in time to heal when [treated](#injury-states--treatment). 
 
 ### Acid Injuries
-Self patch-up: [Toughness](#toughness-tough) at **Ob** 3 every day. 
-Treatment skill: [medicine](#medicine-int)
-Required supplies: 1 [medical supplies](#list-of-stuff--things)
-**Ob**: 1D6 - 2 | 1D6
-Time to heal: 4D4 weeks | 3D4 weeks
+* Self patch-up: [Toughness](#toughness-tough) at **Ob** 3 every day. 
+* Treatment skill: [medicine](#medicine-int)
+* Required supplies: 1 [medical supplies](#list-of-stuff--things)
+* **Ob**: 1D6 - 2 | 1D6
+* Time to heal: 4D4 weeks | 3D4 weeks
 
 | Range D100 | Injury              | Limit     | Description                      | Scar                |
 | ---------  | ------------------- | --------- | -------------------------------- | ------------------- |
@@ -2088,11 +2088,11 @@ Time to heal: 4D4 weeks | 3D4 weeks
 | 96 - 100   | Cosmic Misfortune   | /         | The cosmos has it out for you! Suffer one additional **injury**! | / |
 
 ### Bleeding Injuries
-Self patch-up: [Toughness](#toughness-tough) with **Ob** at level of [bleeding](#bleeding) at end of every turn / every minute. 
-Treatment skill: [medicine](#medicine-int)
-Required supplies: 1 [medical supplies](#list-of-stuff--things)
-**Ob**: 1D3 - 1 | 1D3
-Time to heal: 1D4 days | 1D4 days
+* Self patch-up: [Toughness](#toughness-tough) with **Ob** at level of [bleeding](#bleeding) at end of every turn / every minute. 
+* Treatment skill: [medicine](#medicine-int)
+* Required supplies: 1 [medical supplies](#list-of-stuff--things)
+* **Ob**: 1D3 - 1 | 1D3
+* Time to heal: 1D4 days | 1D4 days
 
 | Range D100 | Injury              | Limit     | Description                      | Scar                |
 | ---------  | ------------------- | --------- | -------------------------------- | ------------------- |
@@ -2103,11 +2103,11 @@ Time to heal: 1D4 days | 1D4 days
 | 96 - 100   | Cosmic Misfortune   | /         | The cosmos has it out for you! Suffer one additional **injury**! | / |
 
 ### Bludgeoning Injuries
-Self patch-up: [Toughness](#toughness-tough) at **Ob** 1. 
-Treatment skill: [medicine](#medicine-int)
-Required supplies: 1 [medical supplies](#list-of-stuff--things)
-**Ob**: 1 | 2
-Time to heal: 1D4 days | 1D4 days
+* Self patch-up: [Toughness](#toughness-tough) at **Ob** 1. 
+* Treatment skill: [medicine](#medicine-int)
+* Required supplies: 1 [medical supplies](#list-of-stuff--things)
+* **Ob**: 1 | 2
+* Time to heal: 1D4 days | 1D4 days
 
 Note that whenever a bludgeoning [injury](#injury) is suffered, an [endurance](#endurance-end) [test](#tests) must be succeeded at **Ob** equal to the current level of [exhaustion](#exhaustion). If failed, the character falls [unconscious](#unconscious), immediately. 
 
@@ -2118,11 +2118,11 @@ Note that whenever a bludgeoning [injury](#injury) is suffered, an [endurance](#
 | 76 - 100   | Shaken              | /         | +1 [exhaustion](#exhaustion); -1 [willpower](#willpower-will). Rattled and shaken, it is harder to control oneself. | / |
 
 ### Burning Injuries
-Self patch-up: [Toughness](#toughness-tough) at **Ob** 3 every day. 
-Treatment skill: [medicine](#medicine-int)
-Required supplies: 1 [medical supplies](#list-of-stuff--things)
-**Ob**: 1D6 - 2 | 1D6
-Time to heal: 4D4 weeks | 3D4 weeks
+* Self patch-up: [Toughness](#toughness-tough) at **Ob** 3 every day. 
+* Treatment skill: [medicine](#medicine-int)
+* Required supplies: 1 [medical supplies](#list-of-stuff--things)
+* **Ob**: 1D6 - 2 | 1D6
+* Time to heal: 4D4 weeks | 3D4 weeks
 
 | Range D100 | Injury              | Limit     | Description                      | Scar                |
 | ---------  | ------------------- | --------- | -------------------------------- | ------------------- |
@@ -2134,11 +2134,11 @@ Time to heal: 4D4 weeks | 3D4 weeks
 | 96 - 100   | Cosmic Misfortune   | /         | The cosmos has it out for you! Suffer one additional **injury**! | / |
 
 ### Crushing Injuries
-Self patch-up: Impossible
-Treatment skill: [surgery](#surgery-int)
-Required supplies: 1 [medical supplies](#list-of-stuff--things)
-**Ob**: 1D4 - 1 | 1D4 + 1
-Time to heal: 4D6 weeks | 3D6 weeks
+* Self patch-up: Impossible
+* Treatment skill: [surgery](#surgery-int)
+* Required supplies: 1 [medical supplies](#list-of-stuff--things)
+* **Ob**: 1D4 - 1 | 1D4 + 1
+* Time to heal: 4D6 weeks | 3D6 weeks
 
 | Range D100 | Injury              | Limit     | Description                      | Scar                |
 | ---------  | ------------------- | --------- | -------------------------------- | ------------------- |
@@ -2154,11 +2154,11 @@ Time to heal: 4D6 weeks | 3D6 weeks
 | 96 - 100   | Cosmic Misfortune   | /         | The cosmos has it out for you! Suffer one additional **injury**! | / |
 
 ### Electrical Injuries
-Self patch-up: [Toughness](#toughness-tough) at **Ob** 3 every day. 
-Treatment skill: [medicine](#medicine-int)
-Required supplies: 1 [medical supplies](#list-of-stuff--things)
-**Ob**: 1D6 - 2 | 1D6
-Time to heal: 4D4 weeks | 3D4 weeks
+* Self patch-up: [Toughness](#toughness-tough) at **Ob** 3 every day. 
+* Treatment skill: [medicine](#medicine-int)
+* Required supplies: 1 [medical supplies](#list-of-stuff--things)
+* **Ob**: 1D6 - 2 | 1D6
+* Time to heal: 4D4 weeks | 3D4 weeks
 
 | Range D100 | Injury              | Limit     | Description                      | Scar                |
 | ---------  | ------------------- | --------- | -------------------------------- | ------------------- |
@@ -2173,11 +2173,11 @@ Time to heal: 4D4 weeks | 3D4 weeks
 | 96 - 100   | Cosmic Misfortune   | /         | The cosmos has it out for you! Suffer one additional **injury**! | / |
 
 ### Freezing Injuries
-Self patch-up: [Toughness](#toughness-tough) at **Ob** 1 every day. 
-Treatment skill: [medicine](#medicine-int)
-Required supplies: 1 [medical supplies](#list-of-stuff--things)
-**Ob**: 1D3 - 1 | 1D3
-Time to heal: 2D4 weeks | 2D4 weeks
+* Self patch-up: [Toughness](#toughness-tough) at **Ob** 1 every day. 
+* Treatment skill: [medicine](#medicine-int)
+* Required supplies: 1 [medical supplies](#list-of-stuff--things)
+* **Ob**: 1D3 - 1 | 1D3
+* Time to heal: 2D4 weeks | 2D4 weeks
 
 | Range D100 | Injury              | Limit     | Description                      | Scar                |
 | ---------  | ------------------- | --------- | -------------------------------- | ------------------- |
@@ -2189,11 +2189,11 @@ Time to heal: 2D4 weeks | 2D4 weeks
 | 96 - 100   | Cosmic Misfortune   | /         | The cosmos has it out for you! Suffer one additional **injury**! | / |
 
 ### Piercing Injuries
-Self patch-up: [Toughness](#toughness-tough) at **Ob** 3 every day. 
-Treatment skill: [surgery](#surgery-int)
-Required supplies: 1 [medical supplies](#list-of-stuff--things)
-**Ob**: 1D4 - 1 | 1D4
-Time to heal: 4D3 weeks | 3D3 weeks
+* Self patch-up: [Toughness](#toughness-tough) at **Ob** 3 every day. 
+* Treatment skill: [surgery](#surgery-int)
+* Required supplies: 1 [medical supplies](#list-of-stuff--things)
+* **Ob**: 1D4 - 1 | 1D4
+* Time to heal: 4D3 weeks | 3D3 weeks
 
 | Range D100 | Injury              | Limit     | Description                      | Scar                |
 | ---------  | ------------------- | --------- | -------------------------------- | ------------------- |
@@ -2209,11 +2209,11 @@ Time to heal: 4D3 weeks | 3D3 weeks
 | 96 - 100   | Cosmic Misfortune   | /         | The cosmos has it out for you! Suffer one additional **injury**! | / |
 
 ### Poison Injuries
-Self patch-up: [Toughness](#toughness-tough) with **Ob** at level of [poisoned](#poisoned) at end of every turn / every minute. 
-Treatment skill: [medicine](#medicine-int)
-Required supplies: 1 [antidote](#list-of-stuff--things)
-**Ob**: 1D4 - 1 | 1D4
-Time to heal: 2D4 days | 1D4 + 1 days
+* Self patch-up: [Toughness](#toughness-tough) with **Ob** at level of [poisoned](#poisoned) at end of every turn / every minute. 
+* Treatment skill: [medicine](#medicine-int)
+* Required supplies: 1 [antidote](#list-of-stuff--things)
+* **Ob**: 1D4 - 1 | 1D4
+* Time to heal: 2D4 days | 1D4 + 1 days
 
 | Range D100 | Injury              | Limit     | Description                      | Scar                |
 | ---------  | ------------------- | --------- | -------------------------------- | ------------------- |
@@ -2228,11 +2228,11 @@ Time to heal: 2D4 days | 1D4 + 1 days
 | 96 - 100   | Cosmic Misfortune   | /         | +1 [poisoned](#poisoned). The cosmos has it out for you! Suffer one additional point of [poison](#poisoned)! | / |
 
 ### Slashing Injuries
-Self patch-up: [Toughness](#toughness-tough) at **Ob** 1 at end of every turn / every minute. 
-Treatment skill: [surgery](#surgery-int)
-Required supplies: 1 [medical supplies](#list-of-stuff--things)
-**Ob**: 1D3 - 1 | 1D3
-Time to heal: 2D3 weeks | 1D3 + 1 weeks
+* Self patch-up: [Toughness](#toughness-tough) at **Ob** 1 at end of every turn / every minute. 
+* Treatment skill: [surgery](#surgery-int)
+* Required supplies: 1 [medical supplies](#list-of-stuff--things)
+* **Ob**: 1D3 - 1 | 1D3
+* Time to heal: 2D3 weeks | 1D3 + 1 weeks
 
 | Range D100 | Injury              | Limit     | Description                      | Scar                |
 | ---------  | ------------------- | --------- | -------------------------------- | ------------------- |
