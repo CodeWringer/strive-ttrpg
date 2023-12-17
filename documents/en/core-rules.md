@@ -1401,32 +1401,32 @@ There are three types of **FP**: [Minor](#minor-fate-points), [major](#major-fat
 **Minor Fate Points (MiFP)** are the lowest valued and most common type of **FP**, most commonly earned by playing the mechanics of the game. 
 
 **MiFP** can be earned in the following ways: 
-* **Personality**: Playing in accordance to one's **personality traits**. 
 * **Aspiration**: Playing to one's **aspirations**. This only counts *working towards* an **aspiration**. 
-* **Trouble**: Playing to one's **reactions** - if they get their character, or their allies, into trouble. 
 * **Humor**: Stopping the table with a good bit of humor at the right time. But don't overdo it - your **GM** can only weave you a dramatic and gripping story, if you let them. 
+* **Personality**: Playing in accordance to one's **personality traits**. 
 * **Specialist**: Driving the story forward, when no one else could - having the right skill to employ at the right time. 
-* **Helper**: Helping an ally out at a *critical* time - during or out of [combat](#combat). 
+* **Trouble**: Playing to one's **reactions** - if they get their character, or their allies, into trouble. 
 
 ## Major Fate Points
 **Major Fate Points (MaFP)** take more effort from the *player* to earn, only being earned through convincing roleplaying, creative efforts and accomplishing long-term goals. 
 
 **MaFP** can be earned in the following ways: 
-* **Aspiration**: Accomplishing an **aspiration**, achieving its goal. 
 * **Achievements**: Whenever a major plot point or story arc is concluded - a great journey, uncovering a plot of assassination, fulfilling a contract to clear out a bandit camp or discovering an ancient artifact, all count as *achievements*, which earn this award **for all the players, as a group**. 
-* **Embodiment**: Capturing their character and personifying them, in the moment. For example, by giving a great speech, acting scared or enjoying a bitter revenge with glee, as if they were actually there and doing it! 
-* **Inner Turmoil**: Convincingly acting out an inner conflict that may come up when a decision conflicts with an **aspiration** or **personality trait**. If the others can *feel* the gut-wrenching decision being made, this award is **earned**!
-* **Creative Solutions**: Coming up with a very creative way to solve a problem. This may be a diplomatic solution, where the **GM** thought one impossible. Or, perhaps an unexpected use of the environment during **combat**, which yielded the **PC**s a distinct advantage on the battlefield, in a way the **GM** didn't foresee. 
+* **Aspiration**: Accomplishing an **aspiration**, achieving its goal. 
 * **Collaboration**: Working with the **GM** to further the world and the story in creative ways and helping the **GM** out when possible. Secret plots that only one of the players is involved in, which causes gasps and applause from the other players, when the plot is finally revealed, for example. 
+* **Creative Solutions**: Coming up with a very creative way to solve a problem. This may be a diplomatic solution, where the **GM** thought one impossible. Or, perhaps an unexpected use of the environment during **combat**, which yielded the **PC**s a distinct advantage on the battlefield, in a way the **GM** didn't foresee. 
+* **Embodiment**: Capturing their character and personifying them, in the moment. For example, by giving a great speech, acting scared or enjoying a bitter revenge with glee, as if they were actually there and doing it! 
+* **Helper**: Helping an ally out at a *critical* time - during or out of [combat](#combat). 
+* **Inner Turmoil**: Convincingly acting out an inner conflict that may come up when a decision conflicts with an **aspiration** or **personality trait**. If the others can *feel* the gut-wrenching decision being made, this award is **earned**!
 * **The Gears**: Being *the gears*, without which nothing would move. Doing the laborious work during session, nobody wants to do, but which has to happen to keep the story moving. Always making sure to pitch the tents in the right spot, watching out for traps or doing the boring question-asking all earn this award!
 
 ## Ambition Fate Points
 **Ambition Fate Points (AFP)** are very rare and only earned through outstanding achievements. 
 
 **AFP** can be earned in the following ways: 
-* **World-Shaper**: Changing the world around oneself in a significant way. 
-* **Selfless**: Going above and beyond to achieve something, a betterment, not for oneself, but for others and at great cost. 
 * **Achiever**: Achieving and thus concluding an **ambition**. 
+* **Selfless**: Going above and beyond to achieve something, a betterment, not for oneself, but for others and at great cost. 
+* **World-Shaper**: Changing the world around oneself in a significant way. 
 
 ## Hand of Fate
 The **Hand of Fate** is a deck of cards a player can draw from, using their **FP** as currency to buy cards. 
