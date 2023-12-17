@@ -841,21 +841,21 @@ As such, there are two types of **reactions**:
 ### Personality Traits
 Every **PC** has several values that help inform their player what their character is like - how they act. 
 
-This personality is codified by the following matrix. Each row is a scale, with two opposing traits. Whenever A trait reaches the "signature" column, a **PC** is known for that trait! In fact, they can hardly *not* act that way! In order for behaviour to deviate from a signature trait, a **D6** has to be rolled. Only if it is a **positive**, can the player choose to deviate from the signature trait's dictated behavior. 
+This personality is codified by the following matrix. Each row is a scale, with two opposing traits. Whenever A trait reaches the "signature" column, a **PC** is *known* for that trait! In fact, they can hardly *not* act that way! In order for behaviour to deviate from a signature trait, a **D6** has to be rolled. Only if it is a **positive**, can the player choose to deviate from the signature trait's dictated behavior. 
 
 Whenever **PC**s very strongly act in a certain way, their value in a **personality trait** may change. Take note during play, how the characters have acted. After the session, discuss whether any of the **PC**s have shown a very strong drift towards either side of the scale. And if everyone agrees, a personality change is in order!
 
-| Trait       | Signature | Very | A little | Undecided | A little | Very | Signature | │ Trait      |
-| ----------- | --------- | ---- | -------- | --------- | -------- | ---- | --------- | ------------ |
-| Arrogant    |│          |│     |│         |│          |│         |│     |│          | │ Humble     |
-| Cowardly    |│          |│     |│         |│          |│         |│     |│          | │ Courageous |
-| Cruel       |│          |│     |│         |│          |│         |│     |│          | │ Merciful   |
-| Deceitful   |│          |│     |│         |│          |│         |│     |│          | │ Honest     |
-| Lazy        |│          |│     |│         |│          |│         |│     |│          | │ Energetic  |
-| Paranoid    |│          |│     |│         |│          |│         |│     |│          | │ Naive      |
-| Reckless    |│          |│     |│         |│          |│         |│     |│          | │ Prudent    |
-| Selfish     |│          |│     |│         |│          |│         |│     |│          | │ Considerate|
-| Vengeful    |│          |│     |│         |│          |│         |│     |│          | │ Forgiving  |
+| Trait       | Signature | Very | A little | Undecided | A little | Very | Signature |  Trait      |
+| ----------- | --------- | ---- | -------- | --------- | -------- | ---- | --------- | ----------- |
+| Arrogant    |           |      |          |           |          |      |           |  Humble     |
+| Cowardly    |           |      |          |           |          |      |           |  Courageous |
+| Cruel       |           |      |          |           |          |      |           |  Merciful   |
+| Deceitful   |           |      |          |           |          |      |           |  Honest     |
+| Lazy        |           |      |          |           |          |      |           |  Energetic  |
+| Paranoid    |           |      |          |           |          |      |           |  Naive      |
+| Reckless    |           |      |          |           |          |      |           |  Prudent    |
+| Selfish     |           |      |          |           |          |      |           |  Considerate|
+| Vengeful    |           |      |          |           |          |      |           |  Forgiving  |
 
 These values can even have an impact on your [tests](#tests)! For example, a character who is known to be merciful may find it easier to convince their enemies to surrender to them. On the other hand, if that same **PC** tries intimidation, they will find it harder to succeed. 
 
