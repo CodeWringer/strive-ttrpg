@@ -1406,7 +1406,6 @@ There are three types of **FP**: [Minor](#minor-fate-points), [major](#major-fat
 * **Trouble**: Playing to one's **reactions** - if they get their character, or their allies, into trouble. 
 * **Humor**: Stopping the table with a good bit of humor at the right time. But don't overdo it - your **GM** can only weave you a dramatic and gripping story, if you let them. 
 * **Specialist**: Driving the story forward, when no one else could - having the right skill to employ at the right time. 
-* **Helper**: Helping an ally out at a *critical* time - during or out of [combat](#combat). 
 
 ## Major Fate Points
 **Major Fate Points (MaFP)** take more effort from the *player* to earn, only being earned through convincing roleplaying, creative efforts and accomplishing long-term goals. 
@@ -1415,6 +1414,7 @@ There are three types of **FP**: [Minor](#minor-fate-points), [major](#major-fat
 * **Aspiration**: Accomplishing an **aspiration**, achieving its goal. 
 * **Achievements**: Whenever a major plot point or story arc is concluded - a great journey, uncovering a plot of assassination, fulfilling a contract to clear out a bandit camp or discovering an ancient artifact, all count as *achievements*, which earn this award **for all the players, as a group**. 
 * **Embodiment**: Capturing their character and personifying them, in the moment. For example, by giving a great speech, acting scared or enjoying a bitter revenge with glee, as if they were actually there and doing it! 
+* **Helper**: Helping an ally out at a *critical* time - during or out of [combat](#combat). 
 * **Inner Turmoil**: Convincingly acting out an inner conflict that may come up when a decision conflicts with an **aspiration** or **personality trait**. If the others can *feel* the gut-wrenching decision being made, this award is **earned**!
 * **Creative Solutions**: Coming up with a very creative way to solve a problem. This may be a diplomatic solution, where the **GM** thought one impossible. Or, perhaps an unexpected use of the environment during **combat**, which yielded the **PC**s a distinct advantage on the battlefield, in a way the **GM** didn't foresee. 
 * **Collaboration**: Working with the **GM** to further the world and the story in creative ways and helping the **GM** out when possible. Secret plots that only one of the players is involved in, which causes gasps and applause from the other players, when the plot is finally revealed, for example. 
