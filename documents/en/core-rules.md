@@ -1397,18 +1397,22 @@ There are three types of **FP**: [Minor](#minor-fate-points), [major](#major-fat
 
 **FP** are earned, by playing to the character's [personality](#personality). Most **FP** are earned by a single player, but some may also be earned by the players as a group. 
 
+**FP** are downwards-convertible, meaning if you need to, you can turn a single more significant **FP** into several less significant **FP**. Note that converting "upwards" is **not** possible. 
+
 ## Minor Fate Points
-**Minor Fate Points (MiFP)** are the lowest valued and most common type of **FP**, most commonly earned by playing the mechanics of the game. 
+**Minor Fate Points (MiFP)** are the least significant and most common type of **FP**, earned immediately through the mechanics of the game. 
 
 **MiFP** can be earned in the following ways: 
 * **Aspiration**: Playing to one's **aspirations**. This only counts *working towards* an **aspiration**. 
 * **Humor**: Stopping the table with a good bit of humor at the right time. But don't overdo it - your **GM** can only weave you a dramatic and gripping story, if you let them. 
-* **Personality**: Playing in accordance to one's **personality traits**. 
+* **Personality**: Playing in accordance to one's signature **personality traits**. 
 * **Specialist**: Driving the story forward, when no one else could - having the right skill to employ at the right time. 
-* **Trouble**: Playing to one's **reactions** - if they get their character, or their allies, into trouble. 
+* **Trouble**: Playing to one's **reactions** - if they get their character, or their allies, into [trouble](#reaction). 
 
 ## Major Fate Points
-**Major Fate Points (MaFP)** take more effort from the *player* to earn, only being earned through convincing roleplaying, creative efforts and accomplishing long-term goals. 
+**Major Fate Points (MaFP)** take more effort from the *player* to earn, as they're earned through convincing roleplaying, creative efforts and accomplishing long-term goals. 
+
+A single **MaFP** can be converted into 5 **MiFP**. 
 
 **MaFP** can be earned in the following ways: 
 * **Achievements**: Whenever a major plot point or story arc is concluded - a great journey, uncovering a plot of assassination, fulfilling a contract to clear out a bandit camp or discovering an ancient artifact, all count as *achievements*, which earn this award **for all the players, as a group**. 
@@ -1421,7 +1425,9 @@ There are three types of **FP**: [Minor](#minor-fate-points), [major](#major-fat
 * **The Gears**: Being *the gears*, without which nothing would move. Doing the laborious work during session, nobody wants to do, but which has to happen to keep the story moving. Always making sure to pitch the tents in the right spot, watching out for traps or doing the boring question-asking all earn this award!
 
 ## Ambition Fate Points
-**Ambition Fate Points (AFP)** are very rare and only earned through outstanding achievements. 
+**Ambition Fate Points (AFP)** are very rare and only earned through outstanding achievements, by character and player, which leave a significant impact on the world. 
+
+A single **AFP** can be converted into 15 **MaFP**. 
 
 **AFP** can be earned in the following ways: 
 * **Achiever**: Achieving and thus concluding an **ambition**. 
