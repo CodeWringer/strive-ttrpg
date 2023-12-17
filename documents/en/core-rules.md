@@ -2070,7 +2070,7 @@ Time to heal: 1D4 days | 1D4 days
 | Range D100 | Injury              | Limit     | Description                      | Scar                |
 | ---------  | ------------------- | --------- | -------------------------------- | ------------------- |
 | 1 - 5      | Cosmic Fortune      | /         | Luck is with you! You suffer no **injury**! | / |
-| 6 - 35     | Infection           | /         | Within a day, the character will contract an [illness](#illness). This will always happen, even if the [injury](#injury) is treated. | / |
+| 6 - 35     | Infection           | /         | Within a day, the character will contract an [illness](#illness). This can be avoided, but only if the [injury](#injury) is properly [treated](#injury-states--treatment) within 24 hours. | / |
 | 36 - 65    | Dizzy               | /         | -1 [perception](#perception-perc); -1 [wisdom](#wisdom-wis). You feel dizzy. Focusing is difficult. | / |
 | 66 - 95    | Weakened            | /         | -1 [toughness](#toughness-tough); -1 [strength](#strength-str). You feel weak. | / |
 | 96 - 100   | Cosmic Misfortune   | /         | The cosmos has it out for you! Suffer one additional **injury**! | / |
@@ -2176,7 +2176,7 @@ Time to heal: 4D3 weeks | 3D3 weeks
 | 29 - 39    | Punctured Lung      | /         | -1 [Endurance](#endurance-end); Whenever [exhaustion](#exhaustion) is suffered, it is added +1 times. Breathing has become difficult. | Heavy breathing |
 | 40 - 50    | Bone Fracture       | /         | -1 [Strength](#strength-str). A bone has been cracked, causing it to buckle under the weight of the flesh it once carried. | Crooked limb |
 | 51 - 61    | Torn Artery         | /         | +1 [Bleeding](#bleeding). The blood is everywhere. | Scarred body |
-| 62 - 73    | Infection           | /         | Within a day, the character will contract an [illness](#illness). This will always happen, even if the [injury](#injury) is treated. | / |
+| 62 - 73    | Infection           | /         | Within a day, the character will contract an [illness](#illness). This can be avoided, but only if the [injury](#injury) is properly [treated](#injury-states--treatment) within 24 hours. | / |
 | 74 - 84    | Pierced Eye         | Eye Count | -1 [Perception](#perception-perc); If incurred *limit* times, cannot see. | Blind eye |
 | 85 - 95    | Emotional Damage    | /         | -1 [Empathy](#empathy-emp). Feeling empathy is difficult, when faced with a world that would do such horrible things to you. | / |
 | 96 - 100   | Cosmic Misfortune   | /         | The cosmos has it out for you! Suffer one additional **injury**! | / |
@@ -2218,7 +2218,7 @@ Time to heal: 2D3 weeks | 1D3 + 1 weeks
 | 51 - 59    | Slashed Eye         | Eye Count | +1 [Bleeding](#bleeding). -1 [Perception](#perception-perc); If incurred *limit* times, cannot see. A surface-level cut has grazed your eye, forcing you to keep it shut from pain. | Scarred eye |
 | 60 - 68    | Torn Tendon         | /         | +1 [Bleeding](#bleeding). -1 [Strength](#strength-str). A tendon has abandoned its duty to you. The limb it once controlled loses strength. | Creaky limb |
 | 69 - 77    | Deep Cut            | /         | +2 [Bleeding](#bleeding). The blood is everywhere. | Scarred body |
-| 78 - 86    | Infection           | /         | +1 [Bleeding](#bleeding). Within a day, the character will contract an [illness](#illness). This will always happen, even if the [injury](#injury) is treated. | / |
+| 78 - 86    | Infection           | /         | +1 [Bleeding](#bleeding). Within a day, the character will contract an [illness](#illness). This can be avoided, but only if the [injury](#injury) is properly [treated](#injury-states--treatment) within 24 hours. | / |
 | 87 - 95    | Emotional Damage    | /         | +1 [Bleeding](#bleeding). -1 [Empathy](#empathy-emp). Feeling empathy is difficult, when faced with a world that would do such horrible things to you. | / |
 | 96 - 100   | Cosmic Misfortune   | /         | The cosmos has it out for you! Suffer one additional **injury**! | / |
 
