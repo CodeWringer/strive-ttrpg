@@ -224,7 +224,7 @@
 
 Version 12 (Playtest)
 
-A role-playing game by Nicolas Haase
+A role-playing game by Nicolas H.
 
 # Introduction
 **Ambersteel** is a table-top role-playing game (**TTRPG**), requiring a **game master** (**GM**) and at least one **player** to play. 
