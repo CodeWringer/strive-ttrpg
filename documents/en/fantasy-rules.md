@@ -223,20 +223,20 @@ A mage can fail their [test](./core-rules.md#tests) and thus suffer a [spell-bac
 ## Spell Intensity (SI)
 **Spell intensity** (shorthand **SI**) is the strength at which a magic spell is being cast. A higher number causes stronger and further reaching effects, at greater [magic stamina](#magic-stamina) cost. A spell's maximum intensity is dictated by the level in the corresponding [magic school skill](#magic-school--school---attribute).
 
-For every point of a spell's chosen **spell intensity**, **1 D3** must be rolled. The sum of these rolls is the resulting [magic stamina](#magic-stamina) cost.
+For every point of a spell's chosen **spell intensity**, **1 D4** must be rolled. The sum of these rolls is the resulting [magic stamina](#magic-stamina) cost.
 
-> For a spell at a chosen SI of 3, **3 D3** must be rolled. The sum of these rolls, which is at least 3 and at most could be 9, is the **magic stamina** to deduct after the spell's **test** is made. 
+> For a spell at a chosen SI of 3, **3 D4** must be rolled. The sum of these rolls, which is at least 3 and at most could be 9, is the **magic stamina** to deduct after the spell's **test** is made. 
 
 ## Magic Stamina
 Magic takes a toll on the caster's body, as it takes great mental effort to properly cast magic. **Magic stamina** represents a mage's capacity for casting magic without risk to themselves. It is a replenishable resource that is used up faster with [stronger spells](#spell-intensity-si). 
 
 Mechanically speaking, every mage has two values to track: their **maximum magic stamina** and their **current magic stamina**. 
-* The **maximum magic stamina** of a mage is derived from the **sum** of their [arcana](#arcana-arc) attribute and the **raw levels** of all their known [magic school skills](#magic-school--school---attribute-). 
+* The **maximum magic stamina** of a mage is derived from the **sum** of their [arcana](#arcana-arc) attribute * 2 plus the **raw levels** of all their known [magic school skills](#magic-school--school---attribute-). 
 * The **current magic stamina** can not be less than 0 or more than their **maximum magic stamina**. Every time a mage casts a spell, they incur a **magic stamina** cost, based on the chosen [spell intensity](#spell-intensity-si), which is deducted from this number. 
 
 > If a mage has an **arcana** of 3 and has the **magic school skills** **pyromancy** at level 3, **cryomancy** at level 2 and **illusion** at level 5, that means they have (3 + 3 + 2 + 5) = 13 **maximum magic stamina**. 
 
-Once spent, **magic stamina** can only be regained through **active rest or meditation**. For every **half hour** spent in *active rest or meditation*, a mage regains **1 D3** **magic stamina**. Active rest or meditation implies not engaging in any physical or mental strains. If in doubt - if you have to do a test for it, it's probably a strain. 
+Once spent, **magic stamina** can only be regained through **active rest or meditation**. For every **half hour** spent in *active rest or meditation*, a mage regains **1 D4** **magic stamina**. Active rest or meditation implies not engaging in any physical or mental strains. If in doubt - if you have to do a test for it, it's probably a strain. 
 
 Reaching negative **magic stamina** while casting a spell, results in an automatic [spell-backfire](#spell-backfire)! 
 
@@ -271,7 +271,7 @@ If the defense fails, the full effect is applied. If the defense attempt causes 
 [Testing](./core-rules.md#tests) a [magic school skill](#magic-school--school---attribute-), in order to cast a *magic spell*, works as follows:
 1. The mage determines the [spell intensity](#spell-intensity-si) they're going to use. Their level in the corresponding [magic school skill](#magic-school--school---attribute-) determines the maximum [spell intensity](#spell-intensity-si) they can pick. 
   1. Note that any spell **must** be cast with a [spell intensity](#spell-intensity-si) of *at least* 1. This includes **learning skills**. 
-2. The [magic stamina](#magic-stamina) cost is determined. Roll **1 D3** for every point of the chosen [spell intensity](#spell-intensity-si). 
+2. The [magic stamina](#magic-stamina) cost is determined. Roll **1 D4** for every point of the chosen [spell intensity](#spell-intensity-si). 
   1. If more magic stamina is used up, than the mage has left available, they suffer a [spell-backfire](#spell-backfire).
   2. The [magic stamina](#magic-stamina) is reduced by the rolled sum. This happens regardless of a [spell-backfire](#spell-backfire).
 3. Proceed only if there was no [spell-backfire](#spell-backfire).
@@ -283,11 +283,11 @@ If the defense fails, the full effect is applied. If the defense attempt causes 
 
 > A mage wants to cast an [illusion](#illusion-emp) spell, at SI 2. Their level in the corresponding magic school skill is 4. They have 4 magic stamina left. 
 >
-> They roll **2 D3**, yielding them a 3 and a 2. The sum (5) is one point more magic stamina, than the mage had left. They suffer a spell-backfire and their intended target is left unaffected!
+> They roll **2 D4**, yielding them a 3 and a 2. The sum (5) is one point more magic stamina, than the mage had left. They suffer a spell-backfire and their intended target is left unaffected!
 
 > A mage wants to cast an [illusion](#illusion-emp) spell, at SI 2. Their level in the corresponding magic school skill is 4. They have 4 magic stamina left. 
 >
-> They roll **2 D3**, yielding them a 1 and a 2. The sum (3) is within their available magic stamina (which is now reduced to 1). 
+> They roll **2 D4**, yielding them a 1 and a 2. The sum (3) is within their available magic stamina (which is now reduced to 1). 
 >
 > Now, they determine their **Ob** to be 2. They roll their 4 available D6, but achieve only 1 **positive**. Their spell fizzles and fails without any effect! 
 
@@ -368,40 +368,42 @@ Armor can have the following **properties**:
 Armor reduces damage to its wearer by a flat amount. By how much, is specific to each armor type. Some armors can have special protections or effects. 
 
 ##### Light Armor
-A set of light armor that doesn't impede the wearer by much. Commonly represents a gambeson or thick cloth vest. 
+A set of light armor that doesn't impede the wearer by much. Commonly represents a gambeson or other cloth defense. 
 
 * Bulk: 2
 
-| Reduce Damage     |
-| ----------------- |
-| 3 + **1D3** **Slashing**    |
-| 2 + **1D3** **Bludgeoning** |
-| 1 + **1D3** **Piercing**    |
-| 1 + **1D3** **Crushing**    |
+| Protections                 |
+| --------------------------- |
+| 3 + **1D6** **Slashing**    |
+| 2 + **1D6** **Bludgeoning** |
+| 1 + **1D6** **Piercing**    |
+| **1D6** **Crushing**        |
 
 ##### Medium Armor
-A set of medium armor with a good balance of protection and weight. Commonly represents a gambeson underneath a mail hauberk. Optional mail mittens. Common headgear: arming cap, mail coif or any non-full helmet. 
+A set of medium armor with a good balance of protection and weight. Commonly represents mail armor. Common headgear: arming cap, mail coif or any non-full helmet. 
 
 * Bulk: 3
+* Causes a permanent +1 [exhaustion](./core-rules.md#exhaustion) while worn. 
 
-| Reduce Damage     |
-| ----------------- |
-| 4 + **1D4** **Slashing**    |
-| 3 + **1D4** **Bludgeoning** |
-| 2 + **1D4** **Piercing**    |
-| 1 + **1D4** **Crushing**    |
+| Protections                 |
+| --------------------------- |
+| 4 + **1D6** **Slashing**    |
+| 3 + **1D6** **Bludgeoning** |
+| 2 + **1D6** **Piercing**    |
+| 1 + **1D6** **Crushing**    |
 
 ##### Heavy Armor
 A set of heavy armor with excellent protection, at the cost of encumbering the wearer greatly. Commonly represents a full suit of plate armor.  
 
 * Bulk: 4
+* Causes a permanent +2 [exhaustion](./core-rules.md#exhaustion) while worn. 
 
-| Reduce Damage     | 
-| ----------------- |
-| 5 + **1D5** **Slashing**    |
-| 4 + **1D5** **Bludgeoning** |
-| 3 + **1D5** **Piercing**    |
-| 2 + **1D5** **Crushing**    |
+| Protections                 |
+| --------------------------- |
+| 5 + **1D4** **Slashing**    |
+| 4 + **1D4** **Bludgeoning** |
+| 3 + **1D4** **Piercing**    |
+| 2 + **1D4** **Crushing**    |
 
 ### Shield Types
 Shields are items that provide passive bonuses to [melee defence](#melee-defence-agi) and [ranged defence](#ranged-defence-agi) and require one free hand to use. This implies they cannot be used at the same time as a two-handed weapon. 
@@ -475,10 +477,10 @@ For all attacks made with a dagger, the following rules apply:
 
 | Level | Name                 | AP | **Ob**                           | Damage                           | Notes  |
 | ----- | -------------------- | -- | -------------------------------- | -------------------------------- | ------ |
-| 0     | Slash                | 2  | Opposed by **Melee Defence**     | **2D2** **Slashing**             |  |
-| 0     | Stab                 | 2  | Opposed by **Melee Defence**     | **1D3** **Piercing**             |  |
-| 0     | Artery cut           | 2  | Opposed by **Melee Defence** + 2 | **2D3** **Slashing**             | +1 [bleeding](#bleeding) to the target (if it can bleed).  |
-| 0     | Target weak-spot     | 2  | Opposed by **Melee Defence** + 2 | **2D3** **Piercing**             |  |
+| 0     | Slash                | 2  | Opposed by **Melee Defence**     | **1D4** **Slashing**             |  |
+| 0     | Stab                 | 2  | Opposed by **Melee Defence**     | **1D4** **Piercing**             |  |
+| 0     | Artery cut           | 2  | Opposed by **Melee Defence** + 2 | **2D4** **Slashing**             | +1 [bleeding](#bleeding) to the target (if it can bleed).  |
+| 0     | Target weak-spot     | 2  | Opposed by **Melee Defence** + 2 | **2D4** **Piercing**             |  |
 
 #### Light Blade (Agi)
 Any light blade. Most commonly (but not restricted to) one-handed weapons. Examples: Short-sword, Langes Messer, arming sword, falchion
@@ -623,61 +625,66 @@ Large, heavy crushing weapons with a dedicated *impact zone* on the weapon head 
 A short distance ranged weapon, shooting arrows.
 
 * Ranged
+  * For every attack: +1 **Ob** and **-1D** damage for every distance increment past the initial.
 * Bulk: 1
 * Range Only
 
 | Level | Name                 | AP | **Ob**                            | Distance increments | Damage                     | Notes  |
 | ----- | -------------------- | -- | --------------------------------- | ------------------- | -------------------------- | ------ |
-| 0     | Loose                | 2  | Opposed by **Ranged Defence**     | 30'/10m             | **4D3** **Piercing**       | +1 **Ob** and **-1D** damage for every distance increment past the initial. |
-| 1     | Heavy Shot           | 3  | Opposed by **Ranged Defence** + 1 | 30'/10m             | **4D3 + Str** **Piercing** | +1 **Ob** and **-1D** damage for every distance increment past the initial. |
-| 2     | Double shot          | 3  | Opposed by **Ranged Defence**     | 30'/10m             | **3D3** **Piercing**       | Can attack twice and thus deal its damage to two different targets, or the same target twice. +1 **Ob** and **-1D** damage for every distance increment past the initial. |
+| 0     | Loose                | 2  | Opposed by **Ranged Defence**     | 30'/10m             | **3D4** **Piercing**       |  |
+| 1     | Heavy Shot           | 3  | Opposed by **Ranged Defence** + 1 | 30'/10m             | **3D4 + Str** **Piercing** |  |
+| 2     | Double shot          | 3  | Opposed by **Ranged Defence**     | 30'/10m             | **2D4** **Piercing**       | Can attack twice and thus deal its damage to two different targets, or the same target twice.  |
 
 #### Longbow (Perc)
 A long distance ranged weapon, shooting arrows.
 
 * Ranged
+  * For every attack: +1 **Ob** and **-1D** damage for every distance increment past the initial.
 * Bulk: 2
 * Range Only
 
 | Level | Name                 | AP | **Ob**                            | Distance increments | Damage                     | Notes  |
 | ----- | -------------------- | -- | --------------------------------- | ------------------- | -------------------------- | ------ |
-| 0     | Loose                | 2  | Opposed by **Ranged Defence**     | 45'/15m             | **4D4** **Piercing**       | +1 **Ob** and **-1D** damage for every distance increment past the initial. |
-| 1     | Heavy Shot           | 3  | Opposed by **Ranged Defence** + 1 | 45'/15m             | **4D4 + Str** **Piercing** | +1 **Ob** and **-1D** damage for every distance increment past the initial. +1 [exhaustion](#exhaustion) to self. |
+| 0     | Loose                | 2  | Opposed by **Ranged Defence**     | 45'/15m             | **4D4** **Piercing**       |  |
+| 1     | Heavy Shot           | 3  | Opposed by **Ranged Defence** + 1 | 45'/15m             | **4D4 + Str** **Piercing** |  +1 [exhaustion](#exhaustion) to self. |
 
 #### War-Bow (Str)
 A very deadly long distance ranged weapon, shooting arrows. Beware its exhausting strength of draw. 
 
 * Ranged
+  * For every attack: +1 **Ob** and **-1D** damage for every distance increment past the initial.
 * Bulk: 2
 * Range Only
 
 | Level | Name                 | AP | **Ob**                            | Distance increments | Damage                     | Notes  |
 | ----- | -------------------- | -- | --------------------------------- | ------------------- | -------------------------- | ------ |
-| 0     | Loose                | 2  | Opposed by **Ranged Defence**     | 60'/20m             | **3D8** **Piercing**       | +1 [exhaustion](#exhaustion) to self. +1 **Ob** and **-1D** damage for every distance increment past the initial. |
+| 0     | Loose                | 2  | Opposed by **Ranged Defence**     | 60'/20m             | **3D8** **Piercing**       | +1 [exhaustion](#exhaustion) to self.  |
 
 #### Crossbow (Perc)
 A deadly medium distance ranged weapon, shooting quarrels. Beware its slow reload. 
 
 * Ranged
+  * For every attack: +1 **Ob** and **-1D** damage for every distance increment past the initial.
 * Bulk: 2
 * Prefer Range
 * Slow Reload
 
 | Level | Name                 | AP | **Ob**                            | Distance increments | Damage                     | Notes  |
 | ----- | -------------------- | -- | --------------------------------- | ------------------- | -------------------------- | ------ |
-| 0     | Loose                | 2  | Opposed by **Ranged Defence**     | 60'/20m             | **3D8** **Piercing**       | +1 **Ob** and **-1D** damage for every distance increment past the initial. |
+| 0     | Loose                | 2  | Opposed by **Ranged Defence**     | 60'/20m             | **3D8** **Piercing**       |  |
 
 #### Firearm (Perc)
 A very deadly short to medium distance ranged weapon, shooting musket balls that are likely to penetrate armor. Beware its slow reload. 
 
 * Ranged
+  * For every attack: +2 **Ob** for every distance increment past the initial.
 * Bulk: 2
 * Prefer Range
 * Very Slow Reload
 
 | Level | Name                 | AP | **Ob**                            | Distance increments | Damage                     | Notes  |
 | ----- | -------------------- | -- | --------------------------------- | ------------------- | -------------------------- | ------ |
-| 0     | Fire                 | 2  | Opposed by **Ranged Defence**     | 30'/10m             | **3D8 + 5** **Piercing**   | +2 **Ob** for every distance increment past the initial. |
+| 0     | Fire                 | 2  | Opposed by **Ranged Defence**     | 30'/10m             | **3D8 + 5** **Piercing**   |  |
 
 ## Lists of Skills
 The following list does not and cannot aim to be a complete listing of all possible skills in game. Adding new skills as necessary will have to be done by the **GM**. 
@@ -959,7 +966,7 @@ The summoning and control of lightning. Electricity is fairly versatile - it can
 | Level | Name                  | AP | Distance     | Ob                           | Effect(s)                      | Backfire Effect(s) |
 | ----- | --------------------- | -- | ------------ | ---------------------------- | ------------------------------ | ------------------ |
 | 0     | Shocking Touch        | 2  | 3'/1m        | Opposed: Melee Defence - SI  | A small area, about the size of the mage's hand is burned on touch by an electrical shock, dealing **SI electrical** damage to a **ST**. | The caster is affected, instead. |
-| 1     | Shock                 | 2  | SI * 9'/3m   | Opposed: Melee Defence       | An arc of lightning strikes the vulnerable internals of a **ST**, dealing **SI D3 electrical** damage. | The caster is affected, instead. |
+| 1     | Shock                 | 2  | SI * 9'/3m   | Opposed: Melee Defence       | An arc of lightning strikes the vulnerable internals of a **ST**, dealing **SI D4 electrical** damage. | The caster is affected, instead. |
 | 1     | Power-Up              | 2  | SI * 3'/1m   | SI                           | An electrical device is powered up for 5 * **SI** minutes. | The device breaks or otherwise seizes up and becomes unusable. |
 | 2     | Stunning Shock        | 2  | SI * 15'/5m  | Opposed: Ranged Defence - SI | An aimed arc of lightning strikes a **ST** and adds one stack of [stunned](./core-rules.md#stunned). | The caster is affected, instead. |
 | 5     | UNLIMITED POWER       | 3  | SI * 30'/10m | Opposed: Ranged Defence      | A cone of lightning spews forth from the mage's finger tips. Up to **SI + 1** **MST** can be hit with the shock, dealing **SI D6 electrical** damage. | The caster and anyone next to them is affected, instead. |
@@ -1009,7 +1016,7 @@ The mending of [injuries](./core-rules.md#injury) and treatment of [diseases](./
 | ----- | -------------------- | -- | -------- | ---------------------------- | ------------------------------ | ------------------ |
 | 0     | Patching Touch       | 2  | 3'/1m    | 1                            | A **ST** of the mage's choosing, in hand's reach, is magically healed. Removes **SI** points of [bleeding](#bleeding) and **SI** points of [poisoned](#poisoned). One [injury](#injury) of choice is now **patched up**. Restores **SI** missing [HP](./core-rules.md#hit-points-hp). | The caster receives +1 point of [bleeding](./core-rules.md#bleeding). |
 | 1     | Treating Touch       | 2  | 3'/1m    | 2                            | A **ST** of the mage's choosing, in hand's reach, is magically healed. Up to **SI** [injuries](#injury) of choice are now **treated up** and their time to heal is reduced by **SI D4** days. Restores all missing [HP](./core-rules.md#hit-points-hp). | The caster receives **SI** random [injuries](#injury). |
-| 4     | Life Leech           | 3  | 3'/1m    | Opposed: Resist              | Draw the life from a **ST** creature of choice. Deals **SI D3** points of damage while healing another touched creature's or one's own [HP](./core-rules.md#hit-points-hp) for the same amount. Transfers 1 point of [bleeding](#bleeding) and/or [poisoned](#poisoned) from the healed creature to the damaged one. | The effect triggers in reverse, drawing **SI** [HP](./core-rules.md#hit-points-hp) from the caster and sending them to their victim. Transfers **SI** points of [bleeding](#bleeding) and/or [poisoned](#poisoned) from the target to the caster. |
+| 4     | Life Leech           | 3  | 3'/1m    | Opposed: Resist              | Draw the life from a **ST** creature of choice. Deals **SI D4** points of damage while healing another touched creature's or one's own [HP](./core-rules.md#hit-points-hp) for the same amount. Transfers 1 point of [bleeding](#bleeding) and/or [poisoned](#poisoned) from the healed creature to the damaged one. | The effect triggers in reverse, drawing **SI** [HP](./core-rules.md#hit-points-hp) from the caster and sending them to their victim. Transfers **SI** points of [bleeding](#bleeding) and/or [poisoned](#poisoned) from the target to the caster. |
 | 5     | Expel Illness        | 3  | 3'/1m    | 4                            | Removes **SI** number of [illnesses](#illness) of choice from a **ST** of choice, in hand's reach. | The caster contracts **SI** random [illnesses](#illness). | 
 | 6     | Revert Mutation      | 4  | 3'/1m    | 6                            | Removes **SI** number of [mutations](#list-of-mutations) of choice from a **ST** of choice, in hand's reach. | The caster receives **SI** random [mutations](#list-of-mutations). |
 
@@ -1068,16 +1075,16 @@ This list overrides the list of **injuries** of the core module.
 
 | Range **D100** | Name         | Duration      | Effect      | Treatment |
 | ---------- | ------------ | ------------- | ----------- | --------- |
-| 0 - 7 | Strength Sap | **1D10 + 3** Days | The muscles atrophy, despite any physical exercise. If not treated quickly, the victim will quickly find themselves unable to move, at all. **-1D3** [strength](#strength-str); **-1D3** [agility](#agility-agi); Max 6'/2m movement distance. | [medicine](#medicine-int); Reduces the duration by **2D4** days. |
-| 8 - 15 | Lung Fever | **1D10 + 1** Days | The victim finds themselves easily winded, even by simple acts, such as walking to the privy at night. **-(1D3 + 1)** [endurance](#endurance-end). | [medicine](#medicine-int); The ill-effects are suspended for 24 hours. |
+| 0 - 7 | Strength Sap | **1D10 + 3** Days | The muscles atrophy, despite any physical exercise. If not treated quickly, the victim will quickly find themselves unable to move, at all. **-1D4** [strength](#strength-str); **-1D4** [agility](#agility-agi); Max 6'/2m movement distance. | [medicine](#medicine-int); Reduces the duration by **2D4** days. |
+| 8 - 15 | Lung Fever | **1D10 + 1** Days | The victim finds themselves easily winded, even by simple acts, such as walking to the privy at night. **-(1D4 + 1)** [endurance](#endurance-end). | [medicine](#medicine-int); The ill-effects are suspended for 24 hours. |
 | 16 - 23 | Water's Curse | **1D10 + 1** Days | The victim sweats uncontrollably and has watery stools, thus dehydrating rapidly and losing consciousness frequently. **-1D4** [toughness](#toughness-tough); [exhausted](#exhausted). | [medicine](#medicine-int); Reduces the duration by **1D10** days and suspends the ill-effects for 24 hours. |
-| 24 - 31 | Jazz-Hands | **1D10 + 3** Days | The victim can't stop the tremors in their arms. Any action requiring precise movements is impossible. **-1D3** [agility](#agility-agi); **-1D4** [arcana](#arcana-arc). | [medicine](#medicine-int); The ill-effects are suspended for 24 hours. |
-| 32 - 39 | Brain Rot | **2D10** Days | The victim's mind dulls. They find it difficult to form coherent thoughts. **-1D3** [intelligence](#intelligence-int); **-1D3** [wisdom](#wisdom-wis). | [medicine](#medicine-int); The ill-effects are suspended for 24 hours. |
-| 40 - 47 | Feeble Tounge | **1D10 + 3** Days | The tounge flops and waggles around uncontrollably. Speech is impaired. **-1D3** [oratory](#oratory-ora). | [medicine](#medicine-int); Reduces the duration by **2D4** days. |
+| 24 - 31 | Jazz-Hands | **1D10 + 3** Days | The victim can't stop the tremors in their arms. Any action requiring precise movements is impossible. **-1D4** [agility](#agility-agi); **-1D4** [arcana](#arcana-arc). | [medicine](#medicine-int); The ill-effects are suspended for 24 hours. |
+| 32 - 39 | Brain Rot | **2D10** Days | The victim's mind dulls. They find it difficult to form coherent thoughts. **-1D4** [intelligence](#intelligence-int); **-1D4** [wisdom](#wisdom-wis). | [medicine](#medicine-int); The ill-effects are suspended for 24 hours. |
+| 40 - 47 | Feeble Tounge | **1D10 + 3** Days | The tounge flops and waggles around uncontrollably. Speech is impaired. **-1D4** [oratory](#oratory-ora). | [medicine](#medicine-int); Reduces the duration by **2D4** days. |
 | 48 - 55 | Wound Fever | Until cured | [Injuries](#injury) of the victim refuse any treatment. Any [injury](#injury) of the victim can be **patched up**, but not **treated**. | [medicine](#medicine-int); Sets the duration to **1D10** days. |
-| 56 - 63 | Filth Fever | **1D10 + 1** Days | The victim coughs uncontrollably and violently, with awful-smelling breath. **-1D3** [oratory](#oratory-ora); **-1D3** [endurance](#endurance-end). | [medicine](#medicine-int); Removes the illness on the next day. |
-| 64 - 71 | Amber Curse | **2D10** Days | The victim finds it difficult to feel the flow of magic through their body. **-1D4** [arcana](#arcana-arc); **-1D3** to any magic skills and [rune-using](#rune-using-agi). | Conventional methods cannot treat this illness. |
-| 72 - 79 | Coldness of Heart | **1D10 + 1** Days | The victim feels distant, as if they were only spectators in their own body. **-1D4** [empathy](#empathy-emp); **-1D3** [will](#will-will). | [medicine](#medicine-int); Reduces the duration by **2D4** days. |
-| 80 - 87 | Rot Plague | **4D10** Days | The skin starts developing a nasty rash, before flaking off. Not only unsightly, the bare flesh underneath smells like it's rotting. **-1D3** [endurance](#endurance-end); **-(1D3 + 1)** [toughness](#toughness-tough). | [surgery](#surgery-int); The ill-effects are suspended for 24 hours. |
+| 56 - 63 | Filth Fever | **1D10 + 1** Days | The victim coughs uncontrollably and violently, with awful-smelling breath. **-1D4** [oratory](#oratory-ora); **-1D4** [endurance](#endurance-end). | [medicine](#medicine-int); Removes the illness on the next day. |
+| 64 - 71 | Amber Curse | **2D10** Days | The victim finds it difficult to feel the flow of magic through their body. **-1D4** [arcana](#arcana-arc); **-1D4** to any magic skills and [rune-using](#rune-using-agi). | Conventional methods cannot treat this illness. |
+| 72 - 79 | Coldness of Heart | **1D10 + 1** Days | The victim feels distant, as if they were only spectators in their own body. **-1D4** [empathy](#empathy-emp); **-1D4** [will](#will-will). | [medicine](#medicine-int); Reduces the duration by **2D4** days. |
+| 80 - 87 | Rot Plague | **4D10** Days | The skin starts developing a nasty rash, before flaking off. Not only unsightly, the bare flesh underneath smells like it's rotting. **-1D4** [endurance](#endurance-end); **-(1D4 + 1)** [toughness](#toughness-tough). | [surgery](#surgery-int); The ill-effects are suspended for 24 hours. |
 | 88 - 94 | Organ Mold | Until cured | Causes an [injury](#injury) every day it is active. | [surgery](#surgery-int); The illness is removed within a day. |
 | 95 - 100 | Red Death | Until cured | The victim starts bleeding from all of their orifices, with no end in sight. Causes 3 points of [bleeding](#bleeding) every day it is active. | [surgery](#surgery-int); The illness is removed within a day. |

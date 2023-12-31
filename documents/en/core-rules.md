@@ -264,13 +264,10 @@ In some places, where distances are concerned, both feet and meters are noted as
 **Ambersteel** uses a **dice pool** system of **six-sided dice** (henceforth referred to as **D6**) to resolve [tests](#tests). *Dice pool* means a variable number of dice will be rolled, based on a character's [attributes](#attributes), [skills](#skills), boons and circumstance of the situation they're in. 
 
 The following types of dice come into play:
-* **D2** - a coin
-* **D3** - three-sided dice
-* **D4** - four-sided dice
-* **D5** - five-sided dice
-* **D6** - six-sided dice
-* **D8** - eight-sided dice
-* **D10** (**D100**) - two ten-sided dice
+* **D4** - four-sided dice. Four of these will be enough for most situations. 
+* **D6** - six-sided dice. You will need a lot of these. One or two dozen should suffice. 
+* **D8** - eight-sided dice. Four of these will be enough for most situations. 
+* **D10** (**D100**) - two ten-sided dice. Four of these will be enough for most situations. 
 
 ## Before the Game
 The very first step of preparing for play, is to decide on a theme, world and setting of the game. Ideally, the players and **GM** decide together, but ultimately, the **GM**'s preferences should a greater weight. When a **GM** isn't really interested in the theme, world and setting, the game will quickly start feeling like work to them. They will lose steam and eventually the will to continue the game. 
@@ -637,7 +634,7 @@ Every **skill ability** can have the following properties:
 * A **maximum distance** at which it may apply to targets. 
 * One or more **damage** values of a specified [type](#damage-types). 
   * When successfully used, damage can be applied to the [HP](#hit-points-hp) of one or more targets. 
-  * Damage can be noted either as a *flat* value, or a formula, which may involve dice rolls for variable damage. E. g. "3D3 + 5". 
+  * Damage can be noted either as a *flat* value, or a formula, which may involve dice rolls for variable damage. E. g. "3D4 + 5". 
 
 Using a **skill ability** counts as an **action**. 
 
@@ -877,7 +874,7 @@ For every [injury](#injury), a character loses 2 maximum **HP**. A [penalty](#bo
 
 Any **HP** damage past zero overflows. The additional damage dealt isn't lost. 
 
-A successful [medicine](#medicine-int) test at **Ob** equal to the treated character's [toughness](#toughness-tough) subtracted by their current number of injuries can restore all currently missing **HP** of a character. This requires [medical supplies](#list-of-stuff--things). **HP** also replenish on their own, albeit much slower. For every hour outside of combat, **1 D3** **HP** are regained, up to the current maximum. 
+A successful [medicine](#medicine-int) test at **Ob** equal to the treated character's [toughness](#toughness-tough) subtracted by their current number of injuries can restore all currently missing **HP** of a character. This requires [medical supplies](#list-of-stuff--things). **HP** also replenish on their own, albeit much slower. For every hour outside of combat, **1 D4** **HP** are regained, up to the current maximum. 
 
 > A character with a toughness of 4 and 2 injuries could have all their currently missing **HP** restored with a **medicine** test at **Ob** (4 - 2 =) 2. 
 
@@ -956,7 +953,7 @@ A character who is in **berserk**, **must** attack the creature nearest to them,
 * Immediate cancel: When the character is made [unconscious](#unconscious) or no other creatures remain alive and/or conscious.
 
 #### Burning
-For every *point* in **burning**, a character suffers **1 D3** points of [burning](#damage-types) damage every *tick*. 
+For every *point* in **burning**, a character suffers **1 D4** points of [burning](#damage-types) damage every *tick*. 
 
 * Graded
 * Greedy
@@ -965,7 +962,7 @@ For every *point* in **burning**, a character suffers **1 D3** points of [burnin
 Adjacent allies can also help pat out the flames, by spending an [AP](#action-points-ap) for every point reduction of **burning**. 
 
 #### Bleeding
-For every *point* in **bleeding**, a character suffers **1 D3** points of [bleeding](#damage-types) damage every *tick*. 
+For every *point* in **bleeding**, a character suffers **1 D4** points of [bleeding](#damage-types) damage every *tick*. 
 
 * Graded
 * Shrug off: 1 *point* with [toughness](#toughness-tough) [test](#tests) with **Ob** at the current *degree*. 
@@ -1036,7 +1033,7 @@ A character who is **pacified**, is unable to *willingly* take any action that w
 * Immediate cancel: When the character is made [unconscious](#unconscious) or no other creatures remain alive and/or conscious.
 
 #### Poisoned
-A **poisoned** character suffers **1 D3** points of [poison](#damage-types) damage every *tick*. 
+A **poisoned** character suffers **1 D4** points of [poison](#damage-types) damage every *tick*. 
 
 * Graded
 * Shrug off: 1 *point* with a [skill](#skills) based on [toughness](#toughness-tough) at **Ob** equal to the current *degree*.
@@ -2011,7 +2008,7 @@ In and outside of [combat](#combat), a rider will inherit the [speed](#combat-mo
 | Level | Name                 | AP | **Ob** | Effect(s)          | Condition(s) |
 | ----- | -------------------- | -- | ------ | ------------------ | ------------ |
 | 1     | Spur | 1  | 2 | Gain an additional 3 **AP** worth of movement from your mount. The mount suffers +1 exhaustion. | At most once per turn. |
-| 3     | Mounted Charge       | 3  | 3      | Perform a mounted charge attack, dealing **2D3** extra damage of whatever weapon type you are using. | Mounted on a fast and strong animal; Must have enough distance to target to gain enough speed - refer to **GM**'s judgement. |
+| 3     | Mounted Charge       | 3  | 3      | Perform a mounted charge attack, dealing **2D4** extra damage of whatever weapon type you are using. | Mounted on a fast and strong animal; Must have enough distance to target to gain enough speed - refer to **GM**'s judgement. |
 
 ### Knowledge Skills
 These skills have a dominant mental aspect and are strongly related to a character's *mental attributes*. 
@@ -2124,7 +2121,7 @@ Note that "Cosmic Fortune" is not an actual **injury**. When it is rolled for, *
 * Self patch-up: [Toughness](#toughness-tough) with **Ob** at level of [bleeding](#bleeding) at end of every turn / every minute. 
 * Treatment skill: [medicine](#medicine-int)
 * Required supplies: 1 [medical supplies](#list-of-stuff--things)
-* **Ob**: 1D3 - 1 | 1D3
+* **Ob**: 1D4 - 1 | 1D4
 * Time to heal: 1D4 days | 1D4 days
 
 | Range D100 | Injury              | Limit     | Description                      | Scar                |
@@ -2209,7 +2206,7 @@ Note that whenever a bludgeoning [injury](#injury) is suffered, an [endurance](#
 * Self patch-up: [Toughness](#toughness-tough) at **Ob** 1 every day. 
 * Treatment skill: [medicine](#medicine-int)
 * Required supplies: 1 [medical supplies](#list-of-stuff--things)
-* **Ob**: 1D3 - 1 | 1D3
+* **Ob**: 1D4 - 1 | 1D4
 * Time to heal: 2D4 weeks | 2D4 weeks
 
 | Range D100 | Injury              | Limit     | Description                      | Scar                |
@@ -2226,7 +2223,7 @@ Note that whenever a bludgeoning [injury](#injury) is suffered, an [endurance](#
 * Treatment skill: [surgery](#surgery-int)
 * Required supplies: 1 [medical supplies](#list-of-stuff--things)
 * **Ob**: 1D4 - 1 | 1D4
-* Time to heal: 4D3 weeks | 3D3 weeks
+* Time to heal: 3D4 weeks | 2D4 weeks
 
 | Range D100 | Injury              | Limit     | Description                      | Scar                |
 | ---------  | ------------------- | --------- | -------------------------------- | ------------------- |
@@ -2264,8 +2261,8 @@ Note that whenever a bludgeoning [injury](#injury) is suffered, an [endurance](#
 * Self patch-up: [Toughness](#toughness-tough) at **Ob** 1 at end of every turn / every minute. 
 * Treatment skill: [surgery](#surgery-int)
 * Required supplies: 1 [medical supplies](#list-of-stuff--things)
-* **Ob**: 1D3 - 1 | 1D3
-* Time to heal: 2D3 weeks | 1D3 + 1 weeks
+* **Ob**: 1D4 - 1 | 1D4
+* Time to heal: 2D4 weeks | 1D4
 
 | Range D100 | Injury              | Limit     | Description                      | Scar                |
 | ---------  | ------------------- | --------- | -------------------------------- | ------------------- |
@@ -2285,17 +2282,17 @@ Note that whenever a bludgeoning [injury](#injury) is suffered, an [endurance](#
 ## List of Illnesses
 | Range D100 | Name              | Duration          | Effect      | Treatment |
 | ---------- | ----------------- | ----------------- | ----------- | --------- |
-| 1 - 8      | Strength Sap      | **1D10 + 3** Days | The muscles atrophy, despite any physical exercise. If not treated quickly, the victim will quickly find themselves unable to move, at all. **-1D3** [strength](#strength-str); **-1D3** [agility](#agility-agi); Max 6'/2m movement distance. | [medicine](#medicine-int) **Ob** 1D3; Reduces the duration by **2D4** days. |
-| 9 - 16     | Lung Fever        | **1D10 + 1** Days | The victim finds themselves easily winded, even by simple acts, such as walking to the privy at night. **-(1D3 + 1)** [endurance](#endurance-end). | [medicine](#medicine-int) **Ob** 1; The ill-effects are suspended for 24 hours. |
-| 17 - 24    | Water's Curse     | **1D10 + 1** Days | The victim sweats uncontrollably and has watery stools, thus dehydrating rapidly and losing consciousness frequently. **-1D4** [toughness](#toughness-tough); [exhausted](#exhausted). | [medicine](#medicine-int) **Ob** 1D3; Reduces the duration by **1D10** days and suspends the ill-effects for 24 hours. |
-| 25 - 32    | Jazz-Hands        | **1D10 + 3** Days | The victim can't stop the tremors in their arms. Any action requiring precise movements is impossible. **-1D3** [agility](#agility-agi). | [medicine](#medicine-int) **Ob** 1; The ill-effects are suspended for 24 hours. |
-| 33 - 40    | Brain Rot         | **2D10** Days     | The victim's mind dulls. They find it difficult to form coherent thoughts. **-1D3** [intelligence](#intelligence-int); **-1D3** [wisdom](#wisdom-wis). | [medicine](#medicine-int) **Ob** 1; The ill-effects are suspended for 24 hours. |
-| 41 - 48    | Feeble Tounge     | **1D10 + 3** Days | The tounge flops and waggles around uncontrollably. Speech is impaired. **-1D3** [oratory](#oratory-ora). | [medicine](#medicine-int) **Ob** 1D3; Reduces the duration by **2D4** days. |
+| 1 - 8      | Strength Sap      | **1D10 + 3** Days | The muscles atrophy, despite any physical exercise. If not treated quickly, the victim will quickly find themselves unable to move, at all. **-1D4** [strength](#strength-str); **-1D4** [agility](#agility-agi); Max 6'/2m movement distance. | [medicine](#medicine-int) **Ob** 1D4; Reduces the duration by **2D4** days. |
+| 9 - 16     | Lung Fever        | **1D10 + 1** Days | The victim finds themselves easily winded, even by simple acts, such as walking to the privy at night. **-(1D4 + 1)** [endurance](#endurance-end). | [medicine](#medicine-int) **Ob** 1; The ill-effects are suspended for 24 hours. |
+| 17 - 24    | Water's Curse     | **1D10 + 1** Days | The victim sweats uncontrollably and has watery stools, thus dehydrating rapidly and losing consciousness frequently. **-1D4** [toughness](#toughness-tough); [exhausted](#exhausted). | [medicine](#medicine-int) **Ob** 1D4; Reduces the duration by **1D10** days and suspends the ill-effects for 24 hours. |
+| 25 - 32    | Jazz-Hands        | **1D10 + 3** Days | The victim can't stop the tremors in their arms. Any action requiring precise movements is impossible. **-1D4** [agility](#agility-agi). | [medicine](#medicine-int) **Ob** 1; The ill-effects are suspended for 24 hours. |
+| 33 - 40    | Brain Rot         | **2D10** Days     | The victim's mind dulls. They find it difficult to form coherent thoughts. **-1D4** [intelligence](#intelligence-int); **-1D4** [wisdom](#wisdom-wis). | [medicine](#medicine-int) **Ob** 1; The ill-effects are suspended for 24 hours. |
+| 41 - 48    | Feeble Tounge     | **1D10 + 3** Days | The tounge flops and waggles around uncontrollably. Speech is impaired. **-1D4** [oratory](#oratory-ora). | [medicine](#medicine-int) **Ob** 1D4; Reduces the duration by **2D4** days. |
 | 49 - 56    | Wound Fever       | Until cured       | [Injuries](#injury) of the victim refuse any treatment. Any [injury](#injury) of the victim can be **patched up**, but not **treated**. | [medicine](#medicine-int) **Ob** 2; Sets the duration to **1D10** days. |
-| 57 - 64    | Filth Fever       | **1D10 + 1** Days | The victim coughs uncontrollably and violently, with awful-smelling breath. **-1D3** [oratory](#oratory-ora); **-1D3** [endurance](#endurance-end). | [medicine](#medicine-int) **Ob** 1D3 + 1; Removes the illness on the next day. |
-| 65 - 80    | Coldness of Heart | **1D10 + 1** Days | The victim feels distant, as if they were only spectators in their own body. **-1D4** [empathy](#empathy-emp); **-1D3** [will](#will-will). | [medicine](#medicine-int) **Ob** 1D3; Reduces the duration by **2D4** days. |
-| 81 - 88    | Rot Plague        | **4D10** Days     | The skin starts developing a nasty rash, before flaking off. Not only unsightly, the bare flesh underneath smells like it's rotting. **-1D3** [endurance](#endurance-end); **-(1D3 + 1)** [toughness](#toughness-tough). | [surgery](#surgery-int) **Ob** 2; The ill-effects are suspended for 24 hours. |
-| 89 - 95    | Organ Mold        | Until cured       | Causes an [injury](#injury) every day it is active. | [surgery](#surgery-int) **Ob** 1D3 + 1; The illness is removed within a day. |
+| 57 - 64    | Filth Fever       | **1D10 + 1** Days | The victim coughs uncontrollably and violently, with awful-smelling breath. **-1D4** [oratory](#oratory-ora); **-1D4** [endurance](#endurance-end). | [medicine](#medicine-int) **Ob** 1D4 + 1; Removes the illness on the next day. |
+| 65 - 80    | Coldness of Heart | **1D10 + 1** Days | The victim feels distant, as if they were only spectators in their own body. **-1D4** [empathy](#empathy-emp); **-1D4** [will](#will-will). | [medicine](#medicine-int) **Ob** 1D4; Reduces the duration by **2D4** days. |
+| 81 - 88    | Rot Plague        | **4D10** Days     | The skin starts developing a nasty rash, before flaking off. Not only unsightly, the bare flesh underneath smells like it's rotting. **-1D4** [endurance](#endurance-end); **-(1D4 + 1)** [toughness](#toughness-tough). | [surgery](#surgery-int) **Ob** 2; The ill-effects are suspended for 24 hours. |
+| 89 - 95    | Organ Mold        | Until cured       | Causes an [injury](#injury) every day it is active. | [surgery](#surgery-int) **Ob** 1D4 + 1; The illness is removed within a day. |
 | 96 - 100   | Red Death         | Until cured       | The victim starts bleeding from all of their orifices, with no end in sight. Causes 3 points of [bleeding](#bleeding) every day it is active. | [surgery](#surgery-int) **Ob** 2; The illness is removed within a day. |
 
 ## List of Mutations
