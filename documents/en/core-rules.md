@@ -229,9 +229,11 @@ A role-playing game by Nicolas H.
 # Introduction
 **Ambersteel** is a table-top role-playing game (**TTRPG**), requiring a **game master** (**GM**) and at least one **player** to play. 
 
-At its core, **Ambersteel** is about exploring ever-evolving characters through play, by confronting them with challenges to their very beliefs. The system is best suited for long-term games, running over several real-world sessions. One-shots are possible but may not provide the best experience, as several of the system's mechanics require breaks in play. 
+At its core, **Ambersteel** is about emergent storytelling and tactical combat. Players experience the evolution of their characters by defining convictions that drive them to action and which are based on the events of the story as it unfolds. 
 
-On the spectrum of *narrative-driven*, *game-y* and *simulationist*, **Ambersteel** aims for the region between *game-y* and *narrative-driven*, while leaning heavily towards *game-y*. The rules are designed to be as intuitive and simple as possible, while complex enough to enable players making meaningful choices. 
+On the spectrum of *narrative-driven*, *game-y* and *simulationist*, **Ambersteel** aims for the region between *game-y* and *narrative-driven*, while leaning heavily towards *game-y*. 
+
+The system is best suited for long-term games, running over several real-world sessions. One-shots are possible but may not provide the best experience, as several of the system's mechanics require breaks in play. 
 
 More details about the system:
 * Player character evolution is baked into the rules. 
@@ -244,12 +246,12 @@ More details about the system:
   * Characters can help each other in game mechanical ways, encouraging co-operative play. 
 * Combat is a risky affair and requires tactical and strategic thinking, or the readiness to retreat, when things go awry. 
   * When a character suffers **injuries**, they are in *serious trouble*. 
-  * Recovery from injuries is expected to take several in-game weeks. 
+  * Recovery from injuries is expected to take several in-game weeks. This implies plenty of down-time for combat-heavy parties, which is time that can be spent on professions, hobbies and scheming. 
 * Players are expected to manage resources, such as their character's health and assets. Character's are neither *damage sponges*, nor *item vacuums*. 
 
-Extensibility and adaptability form a core foundation of the system. While in its current form it best supports medieval fantasy themes, it should be fairly well adaptable to any theme and setting and even encourages you to do so. The bulk of the work would lie in designing skills and assets that fit your setting's theme and setting.
+Extensibility and adaptability form a central foundation of the system. While in its current form it best supports medieval fantasy themes, it should be fairly well adaptable to any theme and setting and even encourages you to do so. The bulk of the work would lie in designing skills and assets that fit your setting.
 
-Most rules will have a certain degree of vagueness to them. This is at least partially deliberate. The situations that can come up during play are simply too varied and numerous to be possible to completely cover with rules, without requiring epic tomes filled to the brim with highly specific rulings for highly specific situations. Instead, the game relies on the **GM** to arbitrate in every situation. The descriptions in the rules here should serve as a point of orientation for the **GM**. How they interpret the rules, is how they're to be understood. 
+Most rules will have a certain degree of vagueness to them. This is at least partially deliberate. The situations that can come up during play are simply too varied and numerous to be possible to completely cover with rules, without requiring epic tomes filled to the brim with highly specific rulings for highly specific situations. Instead, the game relies on the **GM** to arbitrate in most situations. The descriptions in the rules here should serve as a point of orientation for the **GM**. How they interpret the rules, is how they're to be understood. 
 
 # How to Play
 As **Ambersteel** is a **roleplaying game**, there are certain rules and expectations of both players and **GM**. 
