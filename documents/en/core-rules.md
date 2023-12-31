@@ -1012,7 +1012,7 @@ A **frostbitten** character suffers -1 [AP](#action-points-ap) during combat and
 * Immediate cancel: After a minute of last suffering one *point* of **frostbitten** or at the end of combat. 
 
 #### Grappled
-A **grappled** character is unable to move and suffers **-1D** to all defense [tests](#tests), for as long as they are **grappled**. A **grappled** character can break free, by **completely succeeding** a [strength](#strength-str) [tests](#tests) against the other character grappling them. 
+A **grappled** character is unable to move and suffers **-1D** to all defense [tests](#tests), for as long as they are **grappled**. A **grappled** character can break free, by **completely succeeding** a [unarmed combat](#unarmed-combat-str) [tests](#tests) against the other character grappling them. 
 
 #### Hasted
 A **hasted** character enjoys several benefits: 
