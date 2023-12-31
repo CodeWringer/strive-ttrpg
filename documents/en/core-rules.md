@@ -1696,7 +1696,7 @@ The ally in question can **oppose** this action with [strength](#strength-str).
 Attacks are made using a [skill ability](#skill-abilities) of a [weapon](#weapon--weapon-type--str), the [unarmed](#unarmed-combat-str) or [throwing](#throwing-agi) [skill](#skills). 
 
 An attack generally requires an [opposed test](#opposed-test) to be made. If the attacker wins, the full [damage](#damage) is applied to the defender. 
-* A defender may generally *choose* how to defend, unless a specific skill is required. The defender may choose to defend with a [weapon skill](#weapon--weapon-type---attribute), [acrobatics](#acrobatics-agi) or a [shield](#shield-end). 
+* A defender must *choose* how to defend, if no a specific skill is required. The defender may choose to defend with a [weapon skill](#weapon--weapon-type---attribute), [acrobatics](#acrobatics-agi) or a [shield](#shield-end). 
 * Defending against a ranged attack with a melee weapon skill or vice-versa is possible, but at a penalty of only being able to use half the dice, rounded down. 
   * Depending on the projectile's speed or other properties, it may even be impossible to defend against it with a melee weapon skill. 
 
@@ -1753,7 +1753,7 @@ There are two types of defense:
   * This defense can *not* be used against attacks that cost more than 1 [AP](#action-points-ap) to defend against. 
   * **Stunts** are *not* possible. 
 
-To defend, an [opposed test](#opposed-test) must be made. If successful, the attack is negated, entirely. The defender must choose _how_ to defend themselves. They can use a [weapon skill](#weapon--weapon-type---attribute), [acrobatics](#acrobatics-agi) or [shield skill](#shield-end). 
+To defend, an [opposed test](#opposed-test) must be made. If successful, the attack is negated, entirely. The defender must *choose* how to defend themselves, if no specific "opposed by" skill is noted. They can use a [weapon skill](#weapon--weapon-type---attribute), [acrobatics](#acrobatics-agi) or [shield skill](#shield-end). 
 
 Defending against [area of effect](#area-of-effect) attacks is *only* possible as a **passive defense** and can *not* negate the attack. It can only halve (rounded up) its [damage](#damage). 
 
