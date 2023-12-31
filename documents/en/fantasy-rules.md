@@ -105,7 +105,7 @@
 
 Version 3 (Playtest)
 
-A role-playing game by Nicolas Haase
+A role-playing game by Nicolas H.
 
 # Introduction
 This is the module containing the rules enabling play in a medieval fantasy game world, which includes supernatural monsters and magic. As such, only the differences and additions to the core rules are included in this document. 

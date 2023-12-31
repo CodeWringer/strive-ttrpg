@@ -36,7 +36,7 @@
 
 Version 6 (Playtest)
 
-A role-playing game by Nicolas Haase
+A role-playing game by Nicolas H.
 
 # Introduction
 This document is directed at (and somewhat reserved for) the Game Master (**GM**) - the one person at the table who everyone agrees has the **authority** and **burden** to run the game. It will outline all the must-knows and present ideas on how to run the game. While most of the information is hopefully useful, not all of it has to be read and internalized, right away. 
