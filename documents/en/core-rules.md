@@ -1769,14 +1769,14 @@ There are two categories of cover:
 ### Speed is Armor
 It is possible for a victim of an attack to be moving too fast for the attacker's ability to keep tracking them effectively. 
 
-What speed exactly that is, depends heavily on circumstance. As always, the **GM**'s estimate determines whether a bonus can apply to a defence [test](#tests). A fast moving target may increase the attacker's **Ob** by 1, up to 3, depending on _how many degrees of too fast_ they are moving. 
+What speed exactly that is, depends heavily on circumstance. As always, the **GM**'s estimate determines whether a bonus can apply to a defense [test](#tests). A fast moving target may increase the attacker's **Ob** by 1, up to 3, depending on _how many degrees of too fast_ they are moving. 
 
 > In a sci-fi setting, an automated turret may have a tracking system that can easily keep up with targets moving at high speeds, which will only fail if the target performs some extreme maneuvers. 
 > 
 > In a medieval fantasy setting, even just someone in a full sprint may be fast enough to throw off an archer's aim. Someone on horse back, riding at speed may be very hard to hit with an arrow or melee weapon, should they ride past. 
 
 ### Defending an Ally
-It is possible for a character to defend an adjacent ally when they're being attacked. This costs 2 [AP](#action-points-ap) and results in the ally taking over the defense being forced to roll the defence test, instead of the originally attacked character. 
+It is possible for a character to defend an adjacent ally when they're being attacked. This costs 2 [AP](#action-points-ap) and results in the ally taking over the defense being forced to roll the defense test, instead of the originally attacked character. 
 
 Defending an ally is a **combat action** and a **reaction**. 
 
@@ -1798,18 +1798,18 @@ The steps to determine **distance** to throw are as follows:
 > A character with [strength](#strength-str) 5 can throw an object of [bulk](#bulk) 1 up to 75'/25m and an object of [bulk](#bulk) 3 up to 45'/15m. 
 
 ### Throwing-Accuracy
-How likely the object is to impact where intended is determined by the object's [bulk](#bulk), the distance to throw and the character's skill in the [throwing](#throwing-agi) skill. If throwing _at_ another character, then their defence also factors into the chance to hit. 
+How likely the object is to impact where intended is determined by the object's [bulk](#bulk), the distance to throw and the character's skill in the [throwing](#throwing-agi) skill. If throwing _at_ another character, then their defense also factors into the chance to hit. 
 * For every **15'/5m** interval, the **Ob** increases by 1. 
   * That means up to 15'/5m is **Ob** 1. Starting at 18'/6m, up to and including 30'/10m it's **Ob** 2. Starting at 33'/11m, it's **Ob** 3, and so on.
 
 The steps to determine **Ob** to throw are as follows:
 1. Divide distance to throw by 15'/5m.
   1. Round up.
-2. If throwing _at_ another character, add the **positives** of the defender's defence [test](#tests).
+2. If throwing _at_ another character, add the **positives** of the defender's defense [test](#tests).
 
 > A character must succeed a test at **Ob** 1 for a distance of 15'/5m. They must succeed a test at **Ob** 2 for a distance of 18'/6m and a test at **Ob** 3 for a distance of 33'/11m. 
 
-> A character is throwing their weapon at an enemy standing 24'/8m away. The distance sets the base **Ob** to 2. Additionally, the defender gets to roll their defence test and achieves 1 **positive**. This raises the **Ob** to hit to 3. 
+> A character is throwing their weapon at an enemy standing 24'/8m away. The distance sets the base **Ob** to 2. Additionally, the defender gets to roll their defense test and achieves 1 **positive**. This raises the **Ob** to hit to 3. 
 
 In case of an unsuccessful throw, the object lands only near the intended spot, instead of on it. In order to determine where a missed throw lands, roll a **D8**. A 1 designates the object landed north-west of the intended spot. Then, going clock-wise, a 2 would designate north, 3 north-east and so on. 
 
@@ -1869,7 +1869,7 @@ Performing acrobatic feats, such as jumping and climbing, without injuring onese
 | Level | Name                 | AP | **Ob**  | Effect(s)          | Condition(s) |
 | ----- | -------------------- | -- | ------- | ------------------ | ------------ |
 | 3     | Wind Out Of It       | 0  | /       | When hit by a [single-target](#single-target-st) attack, wind out of the hit and suffer only half the damage. | Once per combat. |
-| 4     | Bob, Weave, Jab      | 0  | Opposed | When succeeding a defence test, follow up with a [single-target](#single-target-st) attack against the enemy who attacked you. |  |
+| 4     | Bob, Weave, Jab      | 0  | Opposed | When succeeding a defense test, follow up with a [single-target](#single-target-st) attack against the enemy who attacked you. |  |
 
 #### Berserking (End)
 Whether as a well-honed skill and way of life, or through a disappointing childhood of misery and pain, berserking is a talent for fighting angrily and recklessly. It allows a fighter to keep fighting at surprising strength, even when wounded. 
@@ -1878,7 +1878,7 @@ However, the price for this strength is steep. The chance of death is greatly in
 
 | Level | Name                 | AP | **Ob**  | Effect(s)          | Condition(s) |
 | ----- | -------------------- | -- | ------- | ------------------ | ------------ |
-| 1     | Reckless Assault     | 2  | /       | Deal an extra **D** of damage on your next successful attack during this turn, according to your weapon's damage. Suffer a **-2D** penalty on all defence tests until the start of your next turn. |  |
+| 1     | Reckless Assault     | 2  | /       | Deal an extra **D** of damage on your next successful attack during this turn, according to your weapon's damage. Suffer a **-2D** penalty on all defense tests until the start of your next turn. |  |
 | 2     | Grit Your Teeth      | 0  | /       | Ignore the negative effects of one [injury](#injury) of choice for the rest of the combat encounter. It will still count towards the injury limit, however! | Once per combat. |
 | 3     | Pain is Strength     | 3  | Opposed | Perform a [single-target](#single-target-st) melee attack against an opponent of choice. For every active [injury](#injury) you currently have, deal one extra **D** of damage. You suffer one point of [exhaustion](#exhaustion). | Once per day. |
 
@@ -1924,7 +1924,7 @@ Expertise at defending oneself using a shield.
 
 | Level | Name                 | AP | **Ob**  | Effect(s)          | Condition(s) |
 | ----- | -------------------- | -- | ------- | ------------------ | ------------ |
-| 1     | Shield Wall          | 3  | /       | For any ally next to you, who's also using a shield, you both gain **+1D** on your defence tests until the start of your next turn. | Using shield; Adjacent to ally using shield. |
+| 1     | Shield Wall          | 3  | /       | For any ally next to you, who's also using a shield, you both gain **+1D** on your defense tests until the start of your next turn. | Using shield; Adjacent to ally using shield. |
 | 2     | Shield Slam          | 2  | Opposed | Perform a [single-target](#single-target-st) melee attack to knock your opponent down with your shield. | Using shield. |
 | 4     | Unyielding           | 3  | /       | Until your next turn, you gain **+2D** to your **shield tests**. | Using shield; Once per combat. |
 
@@ -1974,9 +1974,9 @@ Is opposed by [resist](#resist-will).
 | ----- | -------------------- | -- | ------- | ------------------ | -------- | ------------ |
 | 0     | Draw Attention       | 1  | Opposed by [Resist](#resist-will) | Force one designated target within range to focus on you, instead. After they've attacked or otherwise had their attention on you, they may divert their attention, again. | 18'/6m | / |
 | 1     | Draw More Attention  | 1  | Opposed by [Resist](#resist-will) | Force N designated targets within range to focus on you, instead, where *N* is equal to your level in this skill. After they've attacked or otherwise had their attention on you, they may divert their attention, again. | 36'/12m | Once per combat. |
-| 1     | Taunt                | 1  | Opposed by [Resist](#resist-will) | Lower a designated target's defence within range by **-1D** for 1 turn. | 18'/6m | Target is not already affected by an intimidation. |
-| 2     | Vicious Mockery      | 1  | Opposed by [Resist](#resist-will) | Lower a designated target's defence within range by **-2D** for 3 turns. | 36'/12m | Target is not already affected by an intimidation. |
-| 3     | War Cry              | 1  | Opposed by [Resist](#resist-will) | Lower the defence of all hostile targets within range by **-2D**, for 4 turns. | 36'/12m | Once per combat; Target is not already affected by an intimidation. |
+| 1     | Taunt                | 1  | Opposed by [Resist](#resist-will) | Lower a designated target's defense within range by **-1D** for 1 turn. | 18'/6m | Target is not already affected by an intimidation. |
+| 2     | Vicious Mockery      | 1  | Opposed by [Resist](#resist-will) | Lower a designated target's defense within range by **-2D** for 3 turns. | 36'/12m | Target is not already affected by an intimidation. |
+| 3     | War Cry              | 1  | Opposed by [Resist](#resist-will) | Lower the defense of all hostile targets within range by **-2D**, for 4 turns. | 36'/12m | Once per combat; Target is not already affected by an intimidation. |
 
 #### Mercantilism (Ora)
 Skill at bartering for goods and services and negotiating prices. Also useful to determine the availability of goods and materials and what their current demands and supply are. 

@@ -260,9 +260,9 @@ A mage can only upkeep **one** concentration spell at a time.
 Concentration can be broken! Concentration is automatically broken, if the mage is incapacitated, for example by having been knocked unconscious. Otherwise, whenever the mage is *forced* to roll a [test](./core-rules.md#tests), they must **also** succeed another test of their concentration spell's magic school, at the same **Ob** as the test they were just forced to roll. 
 
 ## Magic Negation
-It is possible to negate a magical attack entirely, by using the same **school of magic** **skill** and achieving more positives, than the attacker. The defender has to perform a [test](#testing-magic) of the same magic school, at the **Ob** equal to the number of **positives + 1** the attacker achieved. The defender does not get to use a [skill ability](#skill-abilities) of the magic school in question. This is a purely defensive action, which benefits everyone who might be hit with the spell of the attacker, as no one will be hit, if the defence is successful. 
+It is possible to negate a magical attack entirely, by using the same **school of magic** **skill** and achieving more positives, than the attacker. The defender has to perform a [test](#testing-magic) of the same magic school, at the **Ob** equal to the number of **positives + 1** the attacker achieved. The defender does not get to use a [skill ability](#skill-abilities) of the magic school in question. This is a purely defensive action, which benefits everyone who might be hit with the spell of the attacker, as no one will be hit, if the defense is successful. 
 
-If the defence fails, the full effect is applied. If the defence attempt causes a [spell-backfire](#spell-backfire) on the defender, they suffer the attacker's spell at one greater [intensity](#spell-intensity-si) level. 
+If the defense fails, the full effect is applied. If the defense attempt causes a [spell-backfire](#spell-backfire) on the defender, they suffer the attacker's spell at one greater [intensity](#spell-intensity-si) level. 
 
 **Magic negation** can also be used to prevent another mage's [spell-backfire](#spell-backfire).
 
@@ -367,7 +367,7 @@ Armor can have the following **properties**:
 Armor reduces damage to its wearer by a flat amount. By how much, is specific to each armor type. Some armors can have special protections or effects. 
 
 ##### Light Armor
-A set of light armor that doesn't impede the wearer by much. Commonly represents a gambeson or other cloth defence. 
+A set of light armor that doesn't impede the wearer by much. Commonly represents a gambeson or other cloth defense. 
 
 * Bulk: 2
 
@@ -405,7 +405,7 @@ A set of heavy armor with excellent protection, at the cost of encumbering the w
 | 2 + **1D4** **Crushing**    |
 
 ### Shield Types
-Shields are items that provide passive bonuses to defence against melee and ranged attacks and require one free hand to use. This implies they cannot be used at the same time as a two-handed weapon (unless of course if you have more than two arms). 
+Shields are items that provide passive bonuses to defense against melee and ranged attacks and require one free hand to use. This implies they cannot be used at the same time as a two-handed weapon (unless of course if you have more than two arms). 
 
 ##### Buckler
 A small, round shield commonly held as far from the body as possible, to deflect small or stabbing weapons with ease. Helps only little against heavy blows, however. And don't expect to deflect arrows with this, either. 
@@ -414,8 +414,8 @@ A small, round shield commonly held as far from the body as possible, to deflect
 
 | Defensive Bonus       |
 | --------------------- |
-| +1D for melee defence. |
-| +3D for melee defence against **stabbing** attacks. |
+| +1D for melee defense. |
+| +3D for melee defense against **stabbing** attacks. |
 
 ##### Round Shield
 A medium-sized, round shield made from tough wood and leather, which offers decent protection against most attacks, while not encumbering the wielder too much. 
@@ -424,7 +424,7 @@ A medium-sized, round shield made from tough wood and leather, which offers dece
 
 | Defensive Bonus      |
 | -------------------- |
-| +2D for any defence. |
+| +2D for any defense. |
 
 ##### Heater Shield
 A tough and heavy metal shield, which offers great protection, while still being somewhat manageable to wield. 
@@ -434,7 +434,7 @@ A tough and heavy metal shield, which offers great protection, while still being
 
 | Defensive Bonus      |
 | -------------------- |
-| +3D for any defence. |
+| +3D for any defense. |
 
 ##### Kite Shield
 A large, kite-shaped shield, which can protect every part of the fighter, from the shoulder down to the feet. Its weight makes it difficult to react to attacks quickly, hoever. 
@@ -444,7 +444,7 @@ A large, kite-shaped shield, which can protect every part of the fighter, from t
 
 | Defensive Bonus      |
 | -------------------- |
-| +4D for any defence. |
+| +4D for any defense. |
 
 ### List of Stuff & Things
 The following is a list of general assets. Of course, the following list is non-exhaustive. Invent more at your own need. 
@@ -503,7 +503,7 @@ Any long and heavier blade, including heavy one-handed blades. Examples: Longswo
 | 0     | Slash                | 2  | Opposed     | **2D8** **Slashing**             | / |
 | 0     | Stab                 | 2  | Opposed     | **2D8** **Piercing**             | / |
 | 2     | Mord-Strike          | 2  | Opposed + 2 | **1D6 + 1** **Crushing**         | / |
-| 3     | Fencer-Stance        | 2  | /           | /                                | Enter a defensive fencing stance. Gain **+1D** for melee defence and can **counter-attack** **every** attack. |
+| 3     | Fencer-Stance        | 2  | /           | /                                | Enter a defensive fencing stance. Gain **+1D** for melee defense and can **counter-attack** **every** attack. |
 
 #### Great Blade (Str)
 Any very long and heavy two-handed blade. Examples: sword of war, great-sword, Zweihänder, Kriegsmesser
