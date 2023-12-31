@@ -465,6 +465,10 @@ For ranged weapons there is note made of a value called the "distance increment"
 #### Dagger
 Any very short, one-handed blade. Examples: shiv, dagger, rondel-dagger
 
+For all attacks made with a dagger, the following rules apply:
+* If the target is unaware or [grappled](./core-rules.md#grappled), then the target's armor does **not** reduce the dagger's damage.
+* -1 **Ob** and +**Agi\*D** damage against [proned](./core-rules.md#prone) and [grappled](./core-rules.md#grappled) targets.
+
 * Melee
 * [Agility](./core-rules.md#agility-agi)
 * Ranged (throwable: stab)
@@ -472,10 +476,10 @@ Any very short, one-handed blade. Examples: shiv, dagger, rondel-dagger
 
 | Level | Name                 | AP | **Ob**                           | Damage                           | Notes  |
 | ----- | -------------------- | -- | -------------------------------- | -------------------------------- | ------ |
-| 0     | Slash                | 2  | Opposed by **Melee Defence**     | **2D2** **Slashing**             | -1 **Ob** and +**2D** damage against [proned](./core-rules.md#prone) and [grappled](./core-rules.md#grappled) targets. |
-| 0     | Stab                 | 2  | Opposed by **Melee Defence**     | **1D3** **Piercing**             | -1 **Ob** and +**2D** damage against [proned](./core-rules.md#prone) and [grappled](./core-rules.md#grappled) targets. |
-| 0     | Artery cut           | 2  | Opposed by **Melee Defence** + 2 | **2D3** **Slashing**             | +1 [bleeding](#bleeding) to the target (if it can bleed). -1 **Ob** and +**Agi\*D** damage against [proned](./core-rules.md#prone) and [grappled](./core-rules.md#grappled) targets. |
-| 0     | Target weak-spot     | 2  | Opposed by **Melee Defence** + 2 | **2D3** **Piercing**             | -1 **Ob** and +**Agi\*D** damage against [proned](./core-rules.md#prone) and [grappled](./core-rules.md#grappled) targets. |
+| 0     | Slash                | 2  | Opposed by **Melee Defence**     | **2D2** **Slashing**             |  |
+| 0     | Stab                 | 2  | Opposed by **Melee Defence**     | **1D3** **Piercing**             |  |
+| 0     | Artery cut           | 2  | Opposed by **Melee Defence** + 2 | **2D3** **Slashing**             | +1 [bleeding](#bleeding) to the target (if it can bleed).  |
+| 0     | Target weak-spot     | 2  | Opposed by **Melee Defence** + 2 | **2D3** **Piercing**             |  |
 
 #### Light Blade
 Any light blade. Most commonly (but not restricted to) one-handed weapons. Examples: Short-sword, Langes Messer, arming sword, falchion
