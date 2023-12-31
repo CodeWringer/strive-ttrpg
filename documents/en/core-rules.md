@@ -1671,7 +1671,7 @@ Under normal circumstances, a character (an average human) can move up to **12'/
 It is also possible to **sprint**, doubling the distance one can move per **AP**, but at the cost of 1 point of [exhaustion](#exhaustion) for every **AP** spent **sprinting**. 
 
 ### Disengage
-It is possible to move out of an enemy's [range of opportunity](#attacks-of-opportunity) without provoking an [attack of opportunity](#attacks-of-opportunity). This action costs 2 [AP](#action-points-ap) and the disengaging character **must** move 3'/1m in a direction that will get them out of the [range of opportunity](#attacks-of-opportunity) the fastest and safest. 
+It is possible to move out of an enemy's [range of opportunity](#attacks-of-opportunity) without provoking an [attack of opportunity](#attacks-of-opportunity). This action costs 2 [AP](#action-points-ap) and the disengaging character **must** move one **AP** worth in a direction that will get them out of the [range of opportunity](#attacks-of-opportunity) the fastest and safest. 
 
 > Just because jumping off a cliff would be the fastest way out of a **range of opportunity**, doesn't mean this is the best direction to go. A character trying to disengage is trying to move safely, after all. If that means having to go through the **range of opportunity** then so be it, but only if that *is* the best option. 
 
