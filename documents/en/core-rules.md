@@ -1695,7 +1695,7 @@ The ally in question can **oppose** this action with [strength](#strength-str).
 ## Attacking
 Attacks are made using a [skill ability](#skill-abilities) of a [weapon](#weapon--weapon-type--str), the [unarmed](#unarmed-combat-str) or [throwing](#throwing-agi) [skill](#skills). 
 
-An attack generally requires an [opposed test](#opposed-test) to be made. If the attacker wins, the full [damage](#damage) is applied to the defender. 
+An attack generally requires an [opposed test](#opposed-test) to be made. If the attacker wins, the full [damage](#damage) is applied to the defender. If the defender wins, they suffer no damage, **unless** if they're parrying in melee with a weapon that has 2 bulk less than the weapon they've parried. In such a case, half the damage (rounded up) still goes through, regardless of the successful parry.  
 * A defender must *choose* how to defend, if no a specific skill is required. The defender may choose to defend with a [weapon skill](#weapon--weapon-type---attribute), [acrobatics](#acrobatics-agi) or a [shield](#shield-end). 
 * Defending against a ranged attack with a melee weapon skill or vice-versa is possible, but at a penalty of only being able to use half the dice, rounded down. 
   * Depending on the projectile's speed or other properties, it may even be impossible to defend against it with a melee weapon skill. 
@@ -1703,7 +1703,7 @@ An attack generally requires an [opposed test](#opposed-test) to be made. If the
 In case of an [aoe](#area-of-effect-aoe) attack, a defender may be able to halve the [damage](#damage) (rounded up), if they win the [opposed test](#opposed-test). 
 
 ### Damage
-Damage dealt to an opponent reduces their **HP**. When their **HP** reaches 0, they suffer an [injury](#injury) and their HP is reset to their new maximum. To determine the new maximum, see the [injury](#injury) section. 
+Damage dealt to an opponent reduces their **HP**. When their **HP** reaches 0, they suffer an [injury](#injury) and their **HP** is reset to their new maximum. To determine the new maximum, see the [injury](#injury) section. 
 
 If more damage is dealt, than the difference to 0, that damage is also dealt. Damage isn't lost - it overflows into the next **HP** *segment*. 
 
@@ -1753,7 +1753,9 @@ There are two types of defense:
   * This defense can *not* be used against attacks that cost more than 1 [AP](#action-points-ap) to defend against. 
   * **Stunts** are *not* possible. 
 
-To defend, an [opposed test](#opposed-test) must be made. If successful, the attack is negated, entirely. The defender must *choose* how to defend themselves, if no specific "opposed by" skill is noted. They can use a [weapon skill](#weapon--weapon-type---attribute), [acrobatics](#acrobatics-agi) or [shield skill](#shield-end). 
+To defend, an [opposed test](#opposed-test) must be made. If successful, the attack is negated, entirely, **unless** if you're parrying in melee with a weapon that has 2 bulk less than the weapon you've parried. In such a case, half the damage (rounded up) still goes through, regardless of the successful parry.  
+
+The defender must *choose* how to defend themselves, if no specific "opposed by" skill is noted. They can use a [weapon skill](#weapon--weapon-type---attribute), [acrobatics](#acrobatics-agi) or [shield skill](#shield-end). 
 
 Defending against [area of effect](#area-of-effect) attacks is *only* possible as a **passive defense** and can *not* negate the attack. It can only halve (rounded up) its [damage](#damage). 
 
