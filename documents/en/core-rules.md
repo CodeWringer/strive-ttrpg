@@ -268,7 +268,7 @@ The following types of dice come into play:
 * **D4** - four-sided dice. Four of these will be enough for most situations. 
 * **D6** - six-sided dice. You will need a lot of these. One or two dozen should suffice. 
 * **D8** - eight-sided dice. Four of these will be enough for most situations. 
-* **D10** (**D100**) - two ten-sided dice. Four of these will be enough for most situations. 
+* **D10** - ten-sided dice. Four of these will be enough for most situations. 
 
 ## Before the Game
 The very first step of preparing for play, is to decide on a theme, world and setting of the game. Ideally, the players and **GM** decide together, but ultimately, the **GM**'s preferences should a greater weight. When a **GM** isn't really interested in the theme, world and setting, the game will quickly start feeling like work to them. They will lose steam and eventually the will to continue the game. 
@@ -1747,11 +1747,9 @@ An **attack of opportunity** is a **combat action** and a **reaction**.
 There are two types of defense:
 * **Active defense**: Costs 1 [AP](#action-points-ap) and uses all available dice for the [test](#tests). 
   * This defense can only happen as a *reaction* and a deliberate choice, during another character's turn. 
-  * **Stunts** are possible. 
 * **Passive defense**: Does not cost any [AP](#action-points-ap), but uses only half (rounded down) of the available dice for the [test](#tests).
   * This defense happens automatically, if no **active defense** is attempted. 
   * This defense can *not* be used against attacks that cost more than 1 [AP](#action-points-ap) to defend against. 
-  * **Stunts** are *not* possible. 
 
 To defend, an [opposed test](#opposed-test) must be made. If successful, the attack is negated, entirely, **unless** if you're parrying in melee with a weapon that has 2 bulk less than the weapon you've parried. In such a case, half the damage (rounded up) still goes through, regardless of the successful parry.  
 
