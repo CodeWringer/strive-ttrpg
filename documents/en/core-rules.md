@@ -171,13 +171,12 @@
       - [Berserking (End)](#berserking-end)
       - [Fishing (End)](#fishing-end)
       - [Instrument-Playing \< instrument \> (Agi)](#instrument-playing--instrument--agi)
-      - [Melee Defence (Agi)](#melee-defence-agi)
-      - [Ranged Defence (Agi)](#ranged-defence-agi)
       - [Stealth (Agi)](#stealth-agi)
       - [Swimming (End)](#swimming-end)
       - [Thievery (Agi)](#thievery-agi)
       - [Observation (Perc)](#observation-perc)
       - [Path-finding (Perc)](#path-finding-perc)
+      - [Shield (End)](#shield-end)
       - [Throwing (Agi)](#throwing-agi)
       - [Weapon \< weapon type \> (\< attribute \>)](#weapon--weapon-type---attribute-)
     - [Social Skills](#social-skills)
@@ -269,7 +268,7 @@ The following types of dice come into play:
 * **D4** - four-sided dice. Four of these will be enough for most situations. 
 * **D6** - six-sided dice. You will need a lot of these. One or two dozen should suffice. 
 * **D8** - eight-sided dice. Four of these will be enough for most situations. 
-* **D10** (**D100**) - two ten-sided dice. Four of these will be enough for most situations. 
+* **D10** - ten-sided dice. Four of these will be enough for most situations. 
 
 ## Before the Game
 The very first step of preparing for play, is to decide on a theme, world and setting of the game. Ideally, the players and **GM** decide together, but ultimately, the **GM**'s preferences should a greater weight. When a **GM** isn't really interested in the theme, world and setting, the game will quickly start feeling like work to them. They will lose steam and eventually the will to continue the game. 
@@ -418,15 +417,15 @@ If there is a tie, the **defending** character is considered the winner.
 
 What this means, is that the defender first rolls a test of their respective skill, against **Ob 0** (this 'automatic success' does **not** count towards skill progression) and the number of **positives** that result, plus one, is the resulting **Ob** for the attacker to match or exceed. 
 
-> In combat, a defender rolls their [melee defence](#melee-defence-agi) and achieves 3 positives. Thus, the attacker must achieve at least 4 **positives**, in order to win the opposed test. 
+> In combat, a defender rolls a defense and achieves 3 positives. Thus, the attacker must achieve at least 4 **positives**, in order to win the opposed test. 
 
 Whoever actually wins the opposed test, gets to note a success on their respective skill, while the loser must note a failure on their respective skill. 
 
-> In combat, a defender rolls **melee defence** and achieves 3 positives.
+> In combat, a defender rolls for defense and achieves 3 positives.
 > 
 > The attacker rolls an attack and achieves 3 **positives**. The **positives** being tied with the defenders', means the defender wins, by default. 
 > 
-> Thus, the defender notes a success on their **melee defence**, while the attacker must note a failure on their respective attack skill. 
+> Thus, the defender notes a success on their defense, while the attacker must note a failure on their respective attack skill. 
 
 The terms of **attacker** and **defender** refer to the character initiating and the character reacting to the **opposed test**, respectively. 
 
@@ -1013,7 +1012,7 @@ A **frostbitten** character suffers -1 [AP](#action-points-ap) during combat and
 * Immediate cancel: After a minute of last suffering one *point* of **frostbitten** or at the end of combat. 
 
 #### Grappled
-A **grappled** character is unable to move and suffers **-1D** to all defence [tests](#tests), for as long as they are **grappled**. A **grappled** character can break free, by **completely succeeding** a [strength](#strength-str) [tests](#tests) against the other character grappling them. 
+A **grappled** character is unable to move and suffers **-1D** to all defense [tests](#tests), for as long as they are **grappled**. A **grappled** character can break free, by **completely succeeding** a [unarmed combat](#unarmed-combat-str) [tests](#tests) against the other character grappling them. 
 
 #### Hasted
 A **hasted** character enjoys several benefits: 
@@ -1044,9 +1043,9 @@ A **poisoned** character suffers **1 D4** points of [poison](#damage-types) dama
 #### Prone
 A character who is prone, is harder to hit with ranged attacks, but easier to hit with melee attacks. 
 
-* **-1D** to [melee defence](#melee-defence-agi) tests. 
+* **-1D** to melee defense tests. 
 * **-1D** to any melee attack tests. 
-* **+1D** to [ranged defence](#ranged-defence-agi) tests. 
+* **+1D** to ranged defense tests. 
 
 It costs 1 [AP](#action-points-ap) to stand up. 
 
@@ -1062,7 +1061,7 @@ A **stunned** character is unable to act, at all. During combat, their turn is s
 * Shrug off: 1 *point* at the end of every turn or every 5 seconds. 
 
 #### Terrified
-A **terrified** character suffers **-2D** to both their melee and ranged defence and **has to** flee from whatever it is that terrified them, until they can no longer perceive it. 
+A **terrified** character suffers **-2D** to defense tests and **has to** flee from whatever it is that terrified them, until they can no longer perceive it. 
 
 * Graded
 * Shrug off: 1 *point* with a [skill](#skills) based on [willpower](#willpower-will) at **Ob** equal to the current *degree*.
@@ -1696,12 +1695,15 @@ The ally in question can **oppose** this action with [strength](#strength-str).
 ## Attacking
 Attacks are made using a [skill ability](#skill-abilities) of a [weapon](#weapon--weapon-type--str), the [unarmed](#unarmed-combat-str) or [throwing](#throwing-agi) [skill](#skills). 
 
-An attack generally requires an [opposed test](#opposed-test) to be made. If the attacker wins, the full [damage](#damage) is applied to the defender. 
+An attack generally requires an [opposed test](#opposed-test) to be made. If the attacker wins, the full [damage](#damage) is applied to the defender. If the defender wins, they suffer no damage, **unless** if they're parrying in melee with a weapon that has 2 bulk less than the weapon they've parried. In such a case, half the damage (rounded up) still goes through, regardless of the successful parry.  
+* A defender must *choose* how to defend, if no a specific skill is required. The defender may choose to defend with a [weapon skill](#weapon--weapon-type---attribute), [acrobatics](#acrobatics-agi) or a [shield](#shield-end). 
+* Defending against a ranged attack with a melee weapon skill or vice-versa is possible, but at a penalty of only being able to use half the dice, rounded down. 
+  * Depending on the projectile's speed or other properties, it may even be impossible to defend against it with a melee weapon skill. 
 
 In case of an [aoe](#area-of-effect-aoe) attack, a defender may be able to halve the [damage](#damage) (rounded up), if they win the [opposed test](#opposed-test). 
 
 ### Damage
-Damage dealt to an opponent reduces their **HP**. When their **HP** reaches 0, they suffer an [injury](#injury) and their HP is reset to their new maximum. To determine the new maximum, see the [injury](#injury) section. 
+Damage dealt to an opponent reduces their **HP**. When their **HP** reaches 0, they suffer an [injury](#injury) and their **HP** is reset to their new maximum. To determine the new maximum, see the [injury](#injury) section. 
 
 If more damage is dealt, than the difference to 0, that damage is also dealt. Damage isn't lost - it overflows into the next **HP** *segment*. 
 
@@ -1745,13 +1747,13 @@ An **attack of opportunity** is a **combat action** and a **reaction**.
 There are two types of defense:
 * **Active defense**: Costs 1 [AP](#action-points-ap) and uses all available dice for the [test](#tests). 
   * This defense can only happen as a *reaction* and a deliberate choice, during another character's turn. 
-  * **Stunts** are possible. 
 * **Passive defense**: Does not cost any [AP](#action-points-ap), but uses only half (rounded down) of the available dice for the [test](#tests).
   * This defense happens automatically, if no **active defense** is attempted. 
   * This defense can *not* be used against attacks that cost more than 1 [AP](#action-points-ap) to defend against. 
-  * **Stunts** are *not* possible. 
 
-To defend, an [opposed test](#opposed-test) must be made. If successful, the attack is negated, entirely. Depending on the defense skill in question ([melee defense](#melee-defence-agi) or [ranged defence](#ranged-defence-agi)), the [degree of success](#graduated-test) may allow additional effects (called **stunts**) to happen. But if the attacker wins, they get to roll for and apply [damage](#damage) to the defender. 
+To defend, an [opposed test](#opposed-test) must be made. If successful, the attack is negated, entirely, **unless** if you're parrying in melee with a weapon that has 2 bulk less than the weapon you've parried. In such a case, half the damage (rounded up) still goes through, regardless of the successful parry.  
+
+The defender must *choose* how to defend themselves, if no specific "opposed by" skill is noted. They can use a [weapon skill](#weapon--weapon-type---attribute), [acrobatics](#acrobatics-agi) or [shield skill](#shield-end). 
 
 Defending against [area of effect](#area-of-effect) attacks is *only* possible as a **passive defense** and can *not* negate the attack. It can only halve (rounded up) its [damage](#damage). 
 
@@ -1767,14 +1769,14 @@ There are two categories of cover:
 ### Speed is Armor
 It is possible for a victim of an attack to be moving too fast for the attacker's ability to keep tracking them effectively. 
 
-What speed exactly that is, depends heavily on circumstance. As always, the **GM**'s estimate determines whether a bonus can apply to a defence [test](#tests). A fast moving target may increase the attacker's **Ob** by 1, up to 3, depending on _how many degrees of too fast_ they are moving. 
+What speed exactly that is, depends heavily on circumstance. As always, the **GM**'s estimate determines whether a bonus can apply to a defense [test](#tests). A fast moving target may increase the attacker's **Ob** by 1, up to 3, depending on _how many degrees of too fast_ they are moving. 
 
 > In a sci-fi setting, an automated turret may have a tracking system that can easily keep up with targets moving at high speeds, which will only fail if the target performs some extreme maneuvers. 
 > 
 > In a medieval fantasy setting, even just someone in a full sprint may be fast enough to throw off an archer's aim. Someone on horse back, riding at speed may be very hard to hit with an arrow or melee weapon, should they ride past. 
 
 ### Defending an Ally
-It is possible for a character to defend an adjacent ally when they're being attacked. This costs 2 [AP](#action-points-ap) and results in the ally taking over the defense being forced to roll the defence test, instead of the originally attacked character. 
+It is possible for a character to defend an adjacent ally when they're being attacked. This costs 2 [AP](#action-points-ap) and results in the ally taking over the defense being forced to roll the defense test, instead of the originally attacked character. 
 
 Defending an ally is a **combat action** and a **reaction**. 
 
@@ -1796,18 +1798,18 @@ The steps to determine **distance** to throw are as follows:
 > A character with [strength](#strength-str) 5 can throw an object of [bulk](#bulk) 1 up to 75'/25m and an object of [bulk](#bulk) 3 up to 45'/15m. 
 
 ### Throwing-Accuracy
-How likely the object is to impact where intended is determined by the object's [bulk](#bulk), the distance to throw and the character's skill in the [throwing](#throwing-agi) skill. If throwing  _at_ another character, then their [ranged defence](#ranged-defence-agi) also factors into the chance to hit. 
+How likely the object is to impact where intended is determined by the object's [bulk](#bulk), the distance to throw and the character's skill in the [throwing](#throwing-agi) skill. If throwing _at_ another character, then their defense also factors into the chance to hit. 
 * For every **15'/5m** interval, the **Ob** increases by 1. 
   * That means up to 15'/5m is **Ob** 1. Starting at 18'/6m, up to and including 30'/10m it's **Ob** 2. Starting at 33'/11m, it's **Ob** 3, and so on.
 
 The steps to determine **Ob** to throw are as follows:
 1. Divide distance to throw by 15'/5m.
   1. Round up.
-2. If throwing _at_ another character, add the **positives** of the defender's [ranged defence](#ranged-defence-agi) [test](#ranged-defence-agi).
+2. If throwing _at_ another character, add the **positives** of the defender's defense [test](#tests).
 
 > A character must succeed a test at **Ob** 1 for a distance of 15'/5m. They must succeed a test at **Ob** 2 for a distance of 18'/6m and a test at **Ob** 3 for a distance of 33'/11m. 
 
-> A character is throwing their weapon at an enemy standing 24'/8m away. The distance sets the base **Ob** to 2. Additionally, the defender gets to roll their **ranged defence** test and achieves 1 **positive**. This raises the **Ob** to hit to 3. 
+> A character is throwing their weapon at an enemy standing 24'/8m away. The distance sets the base **Ob** to 2. Additionally, the defender gets to roll their defense test and achieves 1 **positive**. This raises the **Ob** to hit to 3. 
 
 In case of an unsuccessful throw, the object lands only near the intended spot, instead of on it. In order to determine where a missed throw lands, roll a **D8**. A 1 designates the object landed north-west of the intended spot. Then, going clock-wise, a 2 would designate north, 3 north-east and so on. 
 
@@ -1832,13 +1834,13 @@ Sometimes, your own body is your greatest weapon. Fists and feet can cause a sur
 * Melee
 * This is a skill
 
-| Skill | **Ob**  | Attack                  | AP | Damage/Effect         | Condition |
-| ----- | ------- | ----------------------- | -- | --------------------- | --------- |
-| 0     | Opposed by [Melee Defence](#melee-defence-agi) | Punch, kick, headbutt   | 2  | **Str** + 2 **Bludgeoning** |  |
-| 0     | Opposed by [strength](#strength-str)           | Shove                   | 2  | Push an enemy away from you for 3'/1m * *N*, where *N* is every point of your strength past their strength. |  |
-| 1     | Opposed by **Unarmed Combat**                  | Grapple                 | 2  | If **completely successful**, the target is unable to move and suffers **-1D** to their defense tests, for as long as they're grappled. Someone grappled can attempt to break free with an opposed **Unarmed Combat** test, on their turn. The grappler can not use at least one of their hands for as long as they're grappling. |  |
-| 2     | Opposed by **Unarmed Combat**                  | Wrestle and Disarm      | 2  | Perform a [single target](#single) attack against a designated enemy. If you win, you disarm them and could wrestle them to the ground, making them [prone](#prone), if you so choose. | Disarm only if enemy is using detachable weapon. |
-| 3     | Opposed by [strength](#strength-str)           | Barge in                | 3  | Push an enemy away from you for 3'/1m * *N*, where *N* is every point of your strength past their strength and take their position. |  | 
+| Skill | **Ob**  | Attack                     | AP | Damage/Effect         | Condition |
+| ----- | ------- | -------------------------- | -- | --------------------- | --------- |
+| 0     | Opposed                              | Punch, kick, headbutt   | 2  | **Str** + 2 **Bludgeoning** |  |
+| 0     | Opposed by [strength](#strength-str) | Shove                   | 2  | Push an enemy away from you for 3'/1m * *N*, where *N* is every point of your strength past their strength. |  |
+| 1     | Opposed by **Unarmed Combat**        | Grapple                 | 2  | If **completely successful**, the target is unable to move and suffers **-1D** to their defense tests, for as long as they're grappled. Someone grappled can attempt to break free with an opposed **Unarmed Combat** test, on their turn. The grappler can not use at least one of their hands for as long as they're grappling. |  |
+| 2     | Opposed by **Unarmed Combat**        | Wrestle and Disarm      | 2  | Perform a [single target](#single) attack against a designated enemy. If you win, you disarm them and could wrestle them to the ground, making them [prone](#prone), if you so choose. | Disarm only if enemy is using detachable weapon. |
+| 3     | Opposed by [strength](#strength-str) | Barge in                | 3  | Push an enemy away from you for 3'/1m * *N*, where *N* is every point of your strength past their strength and take their position. |  | 
 
 # Appendix
 The appendix contains important and less important lists, for reference only when needed. 
@@ -1866,8 +1868,8 @@ Performing acrobatic feats, such as jumping and climbing, without injuring onese
 
 | Level | Name                 | AP | **Ob**  | Effect(s)          | Condition(s) |
 | ----- | -------------------- | -- | ------- | ------------------ | ------------ |
-| 3     | Wind Out Of It       | 0  | /       | When hit by a [single-target](#single-target-st) attack, wind out of the hit and suffer only half the damage. | Once per combat. |
-| 4     | Bob, Weave, Jab      | 0  | Opposed | When succeeding a [melee defence](#melee-defence-agi) test, follow up with a [single-target](#single-target-st) attack against the enemy who attacked you. | Succeded a [melee defence](#melee-defence-agi) test. |
+| 2     | Wind Out Of It       | 1  | 2       | When hit by a [single-target](#single-target-st) attack, wind out of the hit and suffer only half the damage. Can be used even when a much bulkier weapon is breaking through your successful defens, to halve the damage *again*, effectively resulting in you suffering only 1/4th (rounded up) of the damage. | / |
+| 3     | Bob, Weave, Jab      | 1  | Opposed | When succeeding a defense test, follow up with a [single-target](#single-target-st) attack against the enemy who attacked you. | / |
 
 #### Berserking (End)
 Whether as a well-honed skill and way of life, or through a disappointing childhood of misery and pain, berserking is a talent for fighting angrily and recklessly. It allows a fighter to keep fighting at surprising strength, even when wounded. 
@@ -1876,7 +1878,7 @@ However, the price for this strength is steep. The chance of death is greatly in
 
 | Level | Name                 | AP | **Ob**  | Effect(s)          | Condition(s) |
 | ----- | -------------------- | -- | ------- | ------------------ | ------------ |
-| 1     | Reckless Assault     | 2  | /       | Deal an extra **D** of damage on your next successful attack during this turn, according to your weapon's damage. Suffer a **-2D** penalty on all defence tests until the start of your next turn. Cannot convert left-over AP into [melee defence](#melee-defence-agi) or [ranged defence](#ranged-defence-agi).  |  |
+| 1     | Reckless Assault     | 2  | /       | Deal an extra **D** of damage on your next successful attack during this turn, according to your weapon's damage. Suffer a **-2D** penalty on all defense tests until the start of your next turn. |  |
 | 2     | Grit Your Teeth      | 0  | /       | Ignore the negative effects of one [injury](#injury) of choice for the rest of the combat encounter. It will still count towards the injury limit, however! | Once per combat. |
 | 3     | Pain is Strength     | 3  | Opposed | Perform a [single-target](#single-target-st) melee attack against an opponent of choice. For every active [injury](#injury) you currently have, deal one extra **D** of damage. You suffer one point of [exhaustion](#exhaustion). | Once per day. |
 
@@ -1887,23 +1889,6 @@ The ability to efficiently catch fish.
 Playing an instrument of choice. 
 
 The instrument in question must be noted. 
-
-#### Melee Defence (Agi)
-Skill at defending oneself in close-combat. If a test of this skill is successful, the attacker's attack is negated entirely (unless the attack in question states otherwise).
-
-If you succeed an [active defense](#defending) using this **skill**, then for every **positive** that you achieve over the attacker, you can choose one of the following **stunts**:
-* Disarm your opponent (if they have a detachable weapon). 
-* Displace your opponent. They are forced to stumble backwards by 1m/3' in a direction of your choosing. 
-* Throw your opponent to the ground, making them [proned](#prone). 
-* Launch a counter-attack, for half your weapon's regular damage. You'll have to roll a regular attack, which your opponent can choose to defend against. 
-
-#### Ranged Defence (Agi)
-Skill at evading projectiles. If a test of this skill is successful, the attacker's attack is negated entirely (unless the attack in question states otherwise).
-
-If you succeed an [active defense](#defending) using this **skill**, then for every **positive** that you achieve over the attacker, you can choose one of the following **stunts**:
-* Displace yourself. You move 3'/1m in a direction of your choosing. 
-* You catch the projectile (if such a feat could be "reasonably" done). 
-* If the location of the shooter was unknown, you now have a good idea on where they are. 
 
 #### Stealth (Agi)
 Moving silently and performing actions undetected. 
@@ -1933,6 +1918,15 @@ Orienting oneself in the world and finding and following tracks.
 | Level | Name                 | AP | **Ob** | Effect(s)          | Condition(s) |
 | ----- | -------------------- | -- | ------ | ------------------ | ------------ |
 | 3     | Find your Bearings   | 1  | 2      | Figure out your current heading and time of day, even when in complete darkness or in a place without landmarks. | Once per rest. |
+
+#### Shield (End)
+Expertise at defending oneself using a shield. 
+
+For any ally next to you, who's also using a shield, you both gain **+1D** on your defense tests. 
+
+| Level | Name                 | AP | **Ob**  | Effect(s)          | Condition(s) |
+| ----- | -------------------- | -- | ------- | ------------------ | ------------ |
+| 2     | Shield Slam          | 2  | Opposed | Perform a [single-target](#single-target-st) melee attack to knock your opponent down with your shield. | Using shield. |
 
 #### Throwing (Agi)
 General expertise at throwing things. This includes weapons as well as non-weapon objects. 
@@ -1980,9 +1974,9 @@ Is opposed by [resist](#resist-will).
 | ----- | -------------------- | -- | ------- | ------------------ | -------- | ------------ |
 | 0     | Draw Attention       | 1  | Opposed by [Resist](#resist-will) | Force one designated target within range to focus on you, instead. After they've attacked or otherwise had their attention on you, they may divert their attention, again. | 18'/6m | / |
 | 1     | Draw More Attention  | 1  | Opposed by [Resist](#resist-will) | Force N designated targets within range to focus on you, instead, where *N* is equal to your level in this skill. After they've attacked or otherwise had their attention on you, they may divert their attention, again. | 36'/12m | Once per combat. |
-| 1     | Taunt                | 1  | Opposed by [Resist](#resist-will) | Lower a designated target's defence within range by **-1D** for 1 turn. | 18'/6m | Target is not already affected by an intimidation. |
-| 2     | Vicious Mockery      | 1  | Opposed by [Resist](#resist-will) | Lower a designated target's defence within range by **-2D** for 3 turns. | 36'/12m | Target is not already affected by an intimidation. |
-| 3     | War Cry              | 1  | Opposed by [Resist](#resist-will) | Lower the defence of all hostile targets within range by **-2D**, for 4 turns. | 36'/12m | Once per combat; Target is not already affected by an intimidation. |
+| 1     | Taunt                | 1  | Opposed by [Resist](#resist-will) | Lower a designated target's defense within range by **-1D** for 1 turn. | 18'/6m | Target is not already affected by an intimidation. |
+| 2     | Vicious Mockery      | 1  | Opposed by [Resist](#resist-will) | Lower a designated target's defense within range by **-2D** for 3 turns. | 36'/12m | Target is not already affected by an intimidation. |
+| 3     | War Cry              | 1  | Opposed by [Resist](#resist-will) | Lower the defense of all hostile targets within range by **-2D**, for 4 turns. | 36'/12m | Once per combat; Target is not already affected by an intimidation. |
 
 #### Mercantilism (Ora)
 Skill at bartering for goods and services and negotiating prices. Also useful to determine the availability of goods and materials and what their current demands and supply are. 

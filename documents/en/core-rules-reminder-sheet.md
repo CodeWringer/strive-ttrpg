@@ -77,10 +77,8 @@
   * Waiting allows delaying one's turn to the end of a round. 
 * Defense is a reaction.
   * **Active defense**: Costs 1 AP and allows using all available dice. 
-    * **Stunts** are possible. 
   * **passive defense**: Costs no AP and only allows using half the available dice (rounded down). 
     * Happens automatically, if no active defense is attempted. 
-    * Stunts are *not* possible. 
   * If successful, the attack is negated. 
     * Defending against AoE attacks is *only* possible as a passive defense and can *not* negate the attack. It can only halve (rounded up) its damage. 
 * Cover
