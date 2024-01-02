@@ -162,6 +162,8 @@
     - [Throwing-Accuracy](#throwing-accuracy)
     - [Throwing-Damage](#throwing-damage)
   - [Unarmed Combat (Str)](#unarmed-combat-str)
+- [Social Procedures](#social-procedures)
+  - [Appraisal](#appraisal)
 - [Appendix](#appendix)
   - [List of Assets](#list-of-assets)
     - [List of Stuff \& Things](#list-of-stuff--things)
@@ -190,7 +192,6 @@
       - [Riding (Emp)](#riding-emp)
     - [Knowledge Skills](#knowledge-skills)
       - [Architecture (Int)](#architecture-int)
-      - [Appraisal (Int)](#appraisal-int)
       - [Geography (Int)](#geography-int)
       - [History \< subject \> (Wis)](#history--subject--wis)
       - [Language \< language \> (Int)](#language--language--int)
@@ -1842,6 +1843,16 @@ Sometimes, your own body is your greatest weapon. Fists and feet can cause a sur
 | 2     | Opposed by **Unarmed Combat**        | Wrestle and Disarm      | 2  | Perform a [single target](#single) attack against a designated enemy. If you win, you disarm them and could wrestle them to the ground, making them [prone](#prone), if you so choose. | Disarm only if enemy is using detachable weapon. |
 | 3     | Opposed by [strength](#strength-str) | Barge in                | 3  | Push an enemy away from you for 3'/1m * *N*, where *N* is every point of your strength past their strength and take their position. |  | 
 
+# Social Procedures
+These are rules pertaining to specific social interactions or otherwise non-combat interactions that aren't immediately covered by a single [skill](#skills). 
+
+## Appraisal
+In order to quickly appraise the value, weight, size or other properties of something, one must [test](#tests) with a [skill](#skills) pertaining to _what_ is being appraised. 
+
+> For example, to determine the value and weight of a gold-nugget, one would test [metallurgy](#metallurgy-intwis). 
+
+The **Ob** depends on circumstance. How much time is available to appraise? How unusual or common is the thing being appraised?
+
 # Appendix
 The appendix contains important and less important lists, for reference only when needed. 
 
@@ -2011,9 +2022,6 @@ These skills have a dominant mental aspect and are strongly related to a charact
 
 #### Architecture (Int)
 Analysing and planning buildings. Discerning weak points in a structure. 
-
-#### Appraisal (Int)
-The ability to quickly and approximately guage the value of goods and services, the weight or quantity of goods, without having to actually count or weigh. 
 
 #### Geography (Int)
 Knowledge about the geography of the world. Used to recall the location of places in relation to each other. 
