@@ -189,7 +189,8 @@
       - [Mercantilism (Ora)](#mercantilism-ora)
       - [Persuasion (Emp)](#persuasion-emp)
       - [Resist (Will)](#resist-will)
-      - [Riding (Emp)](#riding-emp)
+      - [Riding (Emp/Will)](#riding-empwill)
+      - [Self-Control (Will/Emp)](#self-control-willemp)
     - [Knowledge Skills](#knowledge-skills)
       - [Architecture (Int)](#architecture-int)
       - [Geography (Int)](#geography-int)
@@ -198,11 +199,12 @@
       - [Law and politics (Int)](#law-and-politics-int)
       - [Mathematics (Int)](#mathematics-int)
       - [Mechanics (Int)](#mechanics-int)
-      - [Nature (Int)](#nature-int)
+      - [Metallurgy (Int/Wis)](#metallurgy-intwis)
+      - [Nature (Int/Wis)](#nature-intwis)
       - [Mysticism and Religion (Wis)](#mysticism-and-religion-wis)
-      - [Medicine (Int)](#medicine-int)
+      - [Medicine (Int/Emp)](#medicine-intemp)
       - [Reading and Writing \< language \> (Int)](#reading-and-writing--language--int)
-      - [Surgery (Int)](#surgery-int)
+      - [Surgery (Int/Emp)](#surgery-intemp)
       - [Warfare (Wis)](#warfare-wis)
     - [Craftsmanship Skills](#craftsmanship-skills)
       - [Artistry (Emp)](#artistry-emp)
@@ -840,7 +842,7 @@ As such, there are two types of **reactions**:
 ### Personality Traits
 Every **PC** has several values that help inform their player what their character is like - how they act. 
 
-This personality is codified by the following matrix. Each row is a scale, with two opposing traits. Whenever A trait reaches the "signature" column, a **PC** is *known* for that trait! In fact, they can hardly *not* act that way! In order for behaviour to deviate from a signature trait, a **D6** has to be rolled. Only if it is a **positive**, can the player choose to deviate from the signature trait's dictated behavior. 
+This personality is codified by the following matrix. Each row is a scale, with two opposing traits. Whenever A trait reaches the "signature" column, a **PC** is *known* for that trait! In fact, they can hardly *not* act that way! In order for behaviour to deviate from a signature trait, [self-control](#self-control-willemp) at **Ob** 2 or half of [self-control](#self-control-willemp) (rounded up) - take the higher number - must be made. Only if it is a **success**, can the player choose to deviate from the signature trait's dictated behavior. 
 
 Whenever **PC**s very strongly act in a certain way, their value in a **personality trait** may change. Take note during play, how the characters have acted. After the session, discuss whether any of the **PC**s have shown a very strong drift towards either side of the scale. And if everyone agrees, a personality change is in order!
 
@@ -1875,7 +1877,7 @@ The following list does not and cannot aim to be a complete listing of all possi
 These skills have a dominant physical aspect and are directly tied to a character's *physical attributes*. 
 
 #### Acrobatics (Agi)
-Performing acrobatic feats, such as jumping and climbing, without injuring oneself in the process. 
+Performing acrobatic feats, such as jumping, tumbling and climbing, without injuring oneself in the process. 
 
 | Level | Name                 | AP | **Ob**  | Effect(s)          | Condition(s) |
 | ----- | -------------------- | -- | ------- | ------------------ | ------------ |
@@ -1951,9 +1953,9 @@ Expertise at handling a close-quarters or ranged weapon of a specific [weapon ty
 These skills have a dominant social aspect and are strongly related to a character's *social attributes*. 
 
 #### Animal Handling (Emp)
-Gaining an animal's trust, directing and commanding it, as well as training it to obey commands. 
+Gaining an animal's trust, directing it and training it to obey simple commands. 
 
-Is opposed by [resist](#resist-will). 
+Is opposed by [self-control](#self-control-will). 
 
 | Level | Name                 | AP | **Ob**  | Effect(s)          | Condition(s) |
 | ----- | -------------------- | -- | ------- | ------------------ | ------------ |
@@ -1980,7 +1982,7 @@ Intimidating another character into doing something.
 This should also in large part be based on appearance, strength and reputation. 
 
 Is opposed by [resist](#resist-will). 
- 
+
 | Level | Name                 | AP | **Ob**  | Effect(s)          | Range    | Condition(s) |
 | ----- | -------------------- | -- | ------- | ------------------ | -------- | ------------ |
 | 0     | Draw Attention       | 1  | Opposed by [Resist](#resist-will) | Force one designated target within range to focus on you, instead. After they've attacked or otherwise had their attention on you, they may divert their attention, again. | 18'/6m | / |
@@ -2001,21 +2003,24 @@ Is opposed by [resist](#resist-will).
 
 | Level | Name                 | AP | **Ob**  | Effect(s)          | Condition(s) |
 | ----- | -------------------- | -- | ------- | ------------------ | ------------ |
-| 1     | Inspire  | 1  | 1 | Grant another character **+1D** for their next test. |  |
-| 3     | Pep Talk | 2  | 3 | Remove another character's [exhausted](#exhausted) or [terrified](#terrified) state. |  |
+| 1     | Inspire              | 1  | 1       | Grant another character **+1D** for their next test. |  |
+| 3     | Pep Talk             | 2  | 3       | Remove another character's [exhausted](#exhausted) or [terrified](#terrified) state. |  |
 
 #### Resist (Will)
 Used to resist influences on the mind. 
 
-#### Riding (Emp)
+#### Riding (Emp/Will)
 Riding and controling a mount.
 
 In and outside of [combat](#combat), a rider will inherit the [speed](#combat-movement) of the mount they're on. 
 
 | Level | Name                 | AP | **Ob** | Effect(s)          | Condition(s) |
 | ----- | -------------------- | -- | ------ | ------------------ | ------------ |
-| 1     | Spur | 1  | 2 | Gain an additional 3 **AP** worth of movement from your mount. The mount suffers +1 exhaustion. | At most once per turn. |
+| 1     | Spur                 | 1  | 2      | Gain an additional 3 **AP** worth of movement from your mount. The mount suffers +1 exhaustion. | At most once per turn. |
 | 3     | Mounted Charge       | 3  | 3      | Perform a mounted charge attack, dealing **2D4** extra damage of whatever weapon type you are using. | Mounted on a fast and strong animal; Must have enough distance to target to gain enough speed - refer to **GM**'s judgement. |
+
+#### Self-Control (Will/Emp)
+Mastery of one's own impulses. Used to stay awake past the point of exhaustion and to not act on emotional impulse. 
 
 ### Knowledge Skills
 These skills have a dominant mental aspect and are strongly related to a character's *mental attributes*. 
@@ -2043,18 +2048,21 @@ The ability to work with numbers. Useful for anyone handling large sums of money
 #### Mechanics (Int)
 Understanding, designing and maintaining complex mechanical machines and devices. 
 
-#### Nature (Int)
+#### Metallurgy (Int/Wis)
+Knowledge of metallurgical processes and the qualities (such as weight, conductivity, value and so on) of various metals. 
+
+#### Nature (Int/Wis)
 The ability to tell flora and fauna apart and to know of their attributes, such as what is edible or poisonous or how to hunt a deer, and so on. 
 
 | Level | Name                 | AP | **Ob** | Effect(s)          | Condition(s) |
 | ----- | -------------------- | -- | ------ | ------------------ | ------------ |
-| 2 | Dirty Weapon | 2  | 2 | Grab some dirt or filth and rub it on a melee weapon. When an [attack](#attacking) with that weapon inflicts an [injury](#injury), the victim suffers 2 points of [poisoned](#poisoned) and the **injury** is always an [infection](#list-of-injuries). | Dirt or filth nearby. |
-| 2 | Dirty Ammo | 2  | 2 | Grab some dirt or filth and rub it on a select amount of kinetic ammunition (such as arrows or bullets). When an [attack](#attacking) with that ammunition inflicts an **injury**, the victim suffers 1 point of [poisoned](#poisoned) and the [injury](#injury) is always an [infection](#list-of-injuries). | Dirt or filth nearby; Ammunition easily accessible during combat. |
+| 2     | Dirty Weapon         | 2  | 2      | Grab some dirt or filth and rub it on a melee weapon. When an [attack](#attacking) with that weapon inflicts an [injury](#injury), the victim suffers 2 points of [poisoned](#poisoned) and the **injury** is always an [infection](#list-of-injuries). | Dirt or filth nearby. |
+| 2     | Dirty Ammo           | 2  | 2      | Grab some dirt or filth and rub it on a select amount of kinetic ammunition (such as arrows or bullets). When an [attack](#attacking) with that ammunition inflicts an **injury**, the victim suffers 1 point of [poisoned](#poisoned) and the [injury](#injury) is always an [infection](#list-of-injuries). | Dirt or filth nearby; Ammunition easily accessible during combat. |
 
 #### Mysticism and Religion (Wis)
 Knowledge about religions, legends and myths. May be used to recall knowledge about mythical creatures, artifacts and locations, as well as understand the local religion more easily. 
 
-#### Medicine (Int)
+#### Medicine (Int/Emp)
 Diagnosing and treating mundane [injuries](#injury). 
 
 Implies an understanding of anatomy, whereas past experiences with the creatures treated should be noted. 
@@ -2064,7 +2072,7 @@ The ability to both read and write in a specific language.
 
 The language in question must be noted in addition to this skill. 
 
-#### Surgery (Int)
+#### Surgery (Int/Emp)
 The ability to invasively treat ailments without making things worse for the patient. 
 
 #### Warfare (Wis)

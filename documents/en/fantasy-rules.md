@@ -64,8 +64,8 @@
       - [Firearm (Perc)](#firearm-perc)
   - [Lists of Skills](#lists-of-skills)
     - [Physical Skills](#physical-skills)
-      - [Rune-Using (Agi)](#rune-using-agi)
-      - [Sailing (Str)](#sailing-str)
+      - [Rune-Using (Agi/Arc)](#rune-using-agiarc)
+      - [Sailing (Wis)](#sailing-wis)
     - [Knowledge Skills](#knowledge-skills)
       - [Heraldry (Int)](#heraldry-int)
       - [Magic School \< School \> (\< Attribute \>)](#magic-school--school---attribute-)
@@ -84,7 +84,7 @@
       - [Goldsmithing (Agi)](#goldsmithing-agi)
       - [Leatherworking (Agi)](#leatherworking-agi)
       - [Masonry (Str)](#masonry-str)
-      - [Rune Carving (Arc)](#rune-carving-arc)
+      - [Rune Carving (Arc/Wis)](#rune-carving-arcwis)
       - [Tanning/Skinning (Agi)](#tanningskinning-agi)
       - [Weapon smithing (Str)](#weapon-smithing-str)
       - [Woodcarving (Agi)](#woodcarving-agi)
@@ -689,14 +689,14 @@ The following list does not and cannot aim to be a complete listing of all possi
 ### Physical Skills
 These skills have a dominant physical aspect and are directly tied to a character's *physical attributes*. 
 
-#### Rune-Using (Agi)
+#### Rune-Using (Agi/Arc)
 Skill at using [magic runes](#runes). 
 
 | Level | Name                 | AP | **Ob** | Effect(s)          | Condition(s) |
 | ----- | -------------------- | -- | ------ | ------------------ | ------------ |
 | 4     | Hot Potato           | 1  | 3      | If using a rune would fail and result in a [spell-backfire](#spell-backfire), drop the rune, jump away and suffer only half the damage. | Caused a [spell-backfire](#spell-backfire) using a rune; Once per rest. |
 
-#### Sailing (Str)
+#### Sailing (Wis)
 Steering and maintaining a naval vessel. 
 
 ### Knowledge Skills
@@ -868,7 +868,7 @@ Tools: a hammer and chisels of varying sizes
 | A small stone-hewn object            | Low        | Very High | Stone                                  | / |
 | A large stone-hewn object            | Low        | Very High | Stone                                  | / |
 
-#### Rune Carving (Arc)
+#### Rune Carving (Arc/Wis)
 The ability to carve [magic runes](#runes).
 
 The level of this skill dictates the maximum intensity level of the respective magic the carved rune can hold. The number of **positives** achieved in a test then sets the actual level the rune will hold, but limited by the maximum. 
