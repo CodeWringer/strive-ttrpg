@@ -78,28 +78,6 @@
       - [Carrying Capacity](#carrying-capacity)
     - [Property](#property)
     - [Weapon Properties](#weapon-properties)
-  - [Character Creation](#character-creation)
-    - [Determine Life Path](#determine-life-path)
-      - [Origin](#origin)
-      - [Youth](#youth)
-      - [The Last Few Years](#the-last-few-years)
-    - [Determine Name](#determine-name)
-    - [Species, Sex \& Appearance](#species-sex--appearance)
-    - [Determine Personality](#determine-personality)
-      - [Determine Ambition, Aspirations \& Reactions](#determine-ambition-aspirations--reactions)
-        - [Choosing an Ambition](#choosing-an-ambition)
-        - [Choosing Aspirations](#choosing-aspirations)
-        - [Choosing Reactions](#choosing-reactions)
-    - [Determine Abilities](#determine-abilities)
-      - [Choosing Attributes](#choosing-attributes)
-        - [Manual Attribute Assignment](#manual-attribute-assignment)
-        - [Semi-Random Attribute Assignment](#semi-random-attribute-assignment)
-        - [Determine Attribute Advancing Thresholds](#determine-attribute-advancing-thresholds)
-      - [Choosing Skills](#choosing-skills)
-      - [Determine Boons from Heritage](#determine-boons-from-heritage)
-    - [Determine Assets](#determine-assets)
-    - [Determine Max HP \& Injury Maximum](#determine-max-hp--injury-maximum)
-    - [Determine Exhaustion Threshold](#determine-exhaustion-threshold)
   - [Non-Player Character (NPC)](#non-player-character-npc)
 - [Fate Points](#fate-points)
   - [Minor Fate Points](#minor-fate-points)
@@ -146,6 +124,28 @@
 - [Social Procedures](#social-procedures)
   - [Appraisal](#appraisal)
 - [Appendix](#appendix)
+  - [Character Creation](#character-creation)
+    - [Determine Life Path](#determine-life-path)
+      - [Origin](#origin)
+      - [Youth](#youth)
+      - [The Last Few Years](#the-last-few-years)
+    - [Determine Name](#determine-name)
+    - [Species, Sex \& Appearance](#species-sex--appearance)
+    - [Determine Personality](#determine-personality)
+      - [Determine Ambition, Aspirations \& Reactions](#determine-ambition-aspirations--reactions)
+        - [Choosing an Ambition](#choosing-an-ambition)
+        - [Choosing Aspirations](#choosing-aspirations)
+        - [Choosing Reactions](#choosing-reactions)
+    - [Determine Abilities](#determine-abilities)
+      - [Choosing Attributes](#choosing-attributes)
+        - [Manual Attribute Assignment](#manual-attribute-assignment)
+        - [Semi-Random Attribute Assignment](#semi-random-attribute-assignment)
+        - [Determine Attribute Advancing Thresholds](#determine-attribute-advancing-thresholds)
+      - [Choosing Skills](#choosing-skills)
+      - [Determine Boons from Heritage](#determine-boons-from-heritage)
+    - [Determine Assets](#determine-assets)
+    - [Determine Max HP \& Injury Maximum](#determine-max-hp--injury-maximum)
+    - [Determine Exhaustion Threshold](#determine-exhaustion-threshold)
   - [List of Assets](#list-of-assets)
     - [List of Stuff \& Things](#list-of-stuff--things)
   - [Lists of Skills](#lists-of-skills)
@@ -1072,205 +1072,6 @@ Weapon type assets can have the following **properties**:
 * **Ranged (throwable: < attack name >)**: No damage penalty is incurred when throwing this type of weapon. The damage formula for the given attack is to be used on hit. 
 * A **counter-attack** is a *reaction* that allows a fighter being attacked to attack their attacker, at the cost of 1 [AP](#action-points-ap). 
 
-## Character Creation
-Imagine for the longest time of their life, your character has led an ordinary existence, until one day, something life-changing happened. Perhaps something terrible, perhaps something wonderful, but something significant that has forced them out of their comfort zone into a world full of adventure. 
-
-Creating an interesting and life-like character is a challenging, but ultimately, very rewarding task. Thinking of their existence up to the point they start adventuring, can really help with paving the path of their future and give you a good idea of what they're like, and why.
-
-If you don't feel inspired, the following sections can provide tips and randomization tables that allow you write up a character more quickly. 
-
-The procedure of creating a character consists of the following steps:
-1. [Determine life path](#determine-life-path). 
-2. [Determine species, sex & appearance](#species-sex--appearance).
-3. [Determine name](#determine-name).
-4. [Determine abilities](#determine-abilities).
-6. [Determine **carrying capacity** and **assets**](#determine-assets).
-7. [Determine **Max HP** and **Injury Maximum**](#determine-max-hp--injury-maximum)
-8. [Determine exhaustion threshold](#determine-exhaustion-threshold).
-
-### Determine Life Path
-Where and when does the story of your character begin? Under what circumstances are they born and how were they raised? Until adulthood, did they lead a life of carelessness or did they have to fight for every scrap of food? How did they lead their life up until the point they picked up adventuring? 
-
-Answering these questions will help you figure out what your character could be like, as a person and what kinds of **ambitions**, **aspirations** and **reactions** they might develop. 
-
-If you need inspiration, the following tables might help a spark along:
-#### Origin
-| Range **D6** | Origin | 
-| -------- | ------ |
-| 1 | You were born into the life of a noble. |
-| 2 | You were born as the only child of a merchant. |
-| 3 | You were found as an orphaned infant and grew up in the hands of a kind foster family. |
-| 4 | You were found as an abandoned infant at the doors to an orphanage. |
-| 5 | You were born as the fifth child of a farmer. |
-| 6 | You were born to a craftsman. |
-
-#### Youth
-| Range **D10** | Youth | 
-| --------- | --------- |
-| 1 | You developed a passion for a craft and found a master willing to teach you his art. |
-| 2 | You never quite found your place in the world and never found a passion for honest work. Instead, you took to a life of lowly crime, pickpocketing and extorting what you could. |
-| 3 | You spent much time with books and scrolls, reading about the world and its wonders. |
-| 4 | You were drafted into the military and remained in service for a few years. |
-| 5 | You went where the wind took you, doing lowly hireling pay when necessary and otherwise exploring and enjoying life as it came. |
-| 6 | You preferred life in the wilderniss and either took to the hermit's life or simply camped out in the woods as much as possible. |
-| 7 | You were wrongfully imprisoned for a crime you didn't commit. Or, perhaps, you did? |
-| 8 | You, by chance, met a wise mentor, who sensed your lust for power. They taught you their knowledge, in secret, whenever they were available. |
-| 9 | You found yourself wanting to better the world. You helped others where possible and eventually picked up on the healing arts, perhaps even learning under a tutor. |
-| 10 | You were taught by a wealthy and successful merchant (perhaps your parent) and helped with running their business for a few years. |
-
-#### The Last Few Years
-| Range **D6** | The Last Few Years | 
-| -------- | --------- |
-| 1 | You made an enemy you couldn't beat and were thus forced to leave town. Since then, you've been on the run. |
-| 2 | You've been given an important task to carry out in secret. A piece of parchment holds your orders, but the task is simply too great for you to complete on your own. |
-| 3 | You've found yourself with an insatiable curiosity and decided to go see the world and its wonders. |
-| 4 | You decided to go on a pilgrimage, but were distracted from your path. |
-| 5 | You swore an oath and intend to keep it. You swore to rescue someone, or bring honor to your clan, or perhaps to bring justice to a known criminal. |
-| 6 | You lost someone or something you held dear. Now, you're on a quest to get it back, or your revenge. |
-
-### Determine Name
-Any interesting character should have an interesting name. Whether you set a name or personality first, is entirely up to you. Although, you might prefer to delay this step until much later, once you've determined the other aspects of your character. Whichever you find easier is fine. 
-
-If you can't come up with a name, you can ask your **GM** for inspiration, since they'll likely know the world and the culture(s) your character can stem from and what kinds of names are common there. 
-
-### Species, Sex & Appearance
-Species is a bit difficult to provide a randomization table for, because the world your **GM** is running, might have different species available, that could not be anticipated here. For simplicity's sake, it is assumed you are generating a human. 
-
-Gender is personal preference, but could also be decided by a die. 
-
-The following table provides appearance traits for you to pick via the roll of a **D10**. 
-
-| Range **D10** | Physique    | Face       | Skin       | Hair     |
-| --------- | ----------- | ---------- | ---------- | -------- |
-| 1         | Athletic    | Bloated    | Rough      | Bald     |
-| 2         | Brawny      | Blunt      | Birthmark  | Braided  |
-| 3         | Corpulent   | Bony       | Makeup     | Curly    |
-| 4         | Delicate    | Chiseled   | Tattooed   | Cropped  |
-| 5         | Gaunt       | Delicate   | Weathered  | Frizzy   |
-| 6         | Hulking     | Elongated  | Perfect    | Long     |
-| 7         | Lanky       | Patrician  | Tanned     | Ponytail |
-| 8         | Stout       | Pinched    | War Paint  | Oily     |
-| 9         | Short       | Narrow     | Pale       | Wavy     |
-| 10        | Scrawny     | Broken     | Pierced    | Greased  |
-
-### Determine Personality
-Perhaps more important than a name, is the personality that it represents. Think about what you want your character to be like - are they very sociable? Or perhaps a taciturn brute who'd rather let their actions speak? A cruel man of science? A socialite with friends everywhere? The options are plentiful!
-
-Refer to the table in the [personality traits](#personality-traits) section. You can choose freely, where to place your "x", for every row. You can even leave every trait at "undecided" and find out through play what your character is like. If you prefer, you can even let chance decide for you! For that, roll a **D6** for every row. A 0 results in a "signature" trait on the left side of the scale, while a 6 results in a "signature" trait on the right side of the scale. Using this method, you will **not** have *any* "undecided" traits in the end. 
-
-#### Determine Ambition, Aspirations & Reactions
-This is where things may get a little difficult. Work together with your **GM**, as they know their world and what kinds of agendas the people in it might have. 
-
-Don't worry too much about your first **aspirations** and **reactions**, as they're expected to change frequently and through the events your character has yet to experience. 
-
-Only your **ambition** will require some thought beforehand, but even so, you don't have to plan your character's entire future, at all. But keep in mind that your character's **ambition** tells your **GM**, what kind of stories you'd like to explore and what's more, how your character will fit into them. Again, working with your **GM** to determine a fitting **ambition** is paramount. 
-
-##### Choosing an Ambition
-At the core of every character stands their [ambition](#ambition), which is the primary force driving them. A good **ambition** should last you a long time and give the **GM** a hint what kind of story you want to explore with your character. 
-
-Talk to your **GM** about the **ambition** you want your character to have. On the one hand, it allows them to determine the kind of story you want to explore and on the other hand they can guage whether the **ambition** is a suitable long-term goal. 
-
-Keep in mind the **ambition** you can randomly determine here is kept most basic and generic. Work with your **GM** to fill in the details. 
-
-| Range **D10** | Ambition           |
-| --------- | ------------------ |
-| 1         | Revenge            |
-| 2         | Pilgrimage         |
-| 3         | Wealth             |
-| 4         | Power              |
-| 5         | Fame/Glory         |
-| 6         | Knowledge          |
-| 7         | Family & Belonging |
-| 8         | Atonement          |
-| 9         | Altruism           |
-| 10        | Fire               |
-
-##### Choosing Aspirations
-Now, the time to determine your three [aspirations](#aspiration) has come. Yet again, your **GM** is integral in finding them. However, the other **PC**s are also of interest now. You can have **aspirations** whose subject is one of the other **PC**s. You could even have the game begin with two or more of the **PC**s knowing each other, this way. 
-
-> Two **PC**s begin the game knowing each other. One starts with a background as a criminal, the other as a former monk. The former monk has an **aspiration** stating "Stealing isn't right! I will help my friend pick up honest work!" The thief, on the other hand has the **aspiration** "My friend has my back, but they really need to start looking after themselves! I will teach them to be more like me." 
-> 
-> These two **aspirations** allow these characters to come into conflict, despite their good intentions. How it will play out, no one can say. And that makes for an interesting conflict!
-
-##### Choosing Reactions
-Lastly, you need three [reactions](#reaction) for your character. Ideally, at least one of them should allow your **GM** getting your **PC** into *trouble*. 
-
-For reactions, you're fairly free to pick and choose, so long as you keep in mind that **reactions** cannot alter facts of the narrative. **Reactions** can only allow you to *enter* a situation with an advantage - or to get your character in trouble in a situation that triggers it. 
-
-> A reaction like "Allies around me don't die" is a bad **reaction**, as it tries to alter facts, but isn't allowed to. The **GM** can't do much with this kind of reaction. 
->
-> An improved version would be "Whenever an ally near me is in trouble, I come to their aid". 
-
-### Determine Abilities
-Next up, you can reinforce your character's [personality](#personality) with the abilities they have. Or even prepare a conflict of what your character *can* do and what they *think* they can do. 
-
-Note this section implies **raw level** of [attributes](#attributes) and [skills](#skills). 
-
-#### Choosing Attributes
-There are two methods for determining your character's attributes: manual and semi-random. 
-
-Please keep in mind the values here are representative for an ordinary human about to enter an adventuring life. Other species may have modifiers on their attributes, making them better or worse in some of them. But that depends on the world your **GM** is running. 
-
-##### Manual Attribute Assignment
-* You can spend **16 points** on your attributes. 
-* All attributes start at level 1. 
-* Your attribute-total cannot be greater than **26**.
-* No attribute may have a level less than 1 nor higher than 4.
-* Only two attributes may have a level of 4. 
-
-##### Semi-Random Attribute Assignment
- 1. Roll 10 **D4**
-1. Row up your dice to form a line, then read them from one end to the other and note each value. The order in which they are written down, is the order in which they'll be applied to the attributes. 
-2. If there are more than 2 4s, start lowering their value by one, starting from the left or the right, until there are only 2 4s left. 
-3. Count up the total of your values. 
-   1. Subtract your total from **26**.
-   2. If the number is negative, that's the number of levels you'll have to go down. <br>
-   If the number is positive, that's the number of levels you'll have to go up. 
-4. Starting from the left or right, start adjusting each value.
-   1. If your levels have to go down, subtract one from each value. **But** skip "1"s. 
-   2. If your levels have to go up, add one to each value. **But** skip "4"s. 
-5. Repeat from the step of counting up your total and adjusting as necessary, until no more adjustments are necessary. 
-6. Lastly, apply the adjusted values to your attributes. 
-
-##### Determine Attribute Advancing Thresholds
-Once attribute values have been set, you can determine the required number of successes and failures each attribute requires, in order to advance. 
-
-For this, see the rules on [attribute advancing](#advancing-attributes).
-
-#### Choosing Skills
-When choosing skills, consider your character's background. What are their core competences? What fields of knowledge might they be well versed in? Which have they only dabbled in?
-* Choose 1 skill at level 4. This is your character's strongest skill. 
-* Choose 2 skills at level 3. These complement your character's strength. 
-* Choose 1 [social](#social-skills) or [knowledge](#knowledge-skills) skill at level 3. This is something your character is particularly knowledgable about. 
-* You can now spend **8** points to freely *learn* additional skills and raise their level, with the following limitations:
-  * No skill can be higher level than 3. 
-  * You can add at most 7 skills. 
-  * No skills can be set to *learning* (= added at level 0).
-
-Once you've chosen skills, you can determine the required number of successes and failures each skill requires, in order to advance. 
-
-For this, see the rules on [skill advancing](#advancing-skills).
-
-#### Determine Boons from Heritage
-It is possible for a character to receive permanent boons or penalties during character creation, based upon their cultural heritage. This is entirely at the **GM**'s discretion and subject to their world. When choosing heritage-based skill boons, keep the number down. One or two boons at most. These are narratively based and fairly unique starting conditions for a character. 
-
-### Determine Assets
-In most cases, your character will have left home with their everyday clothes and some of their **property**. 
-
-First, determine your character's [worn & equipped assets](#worn--equipped). Every slot may be filled, but keep in mind your character's background. Someone with the background of a peasant is unlikely to wear a crown, for example. 
-
-Then, determine your character's [carrying capacity](#carrying-capacity). Refer to the [strength](#strength-str) attribute to do so. Once you have this number, you know how much [luggage](#luggage) your character can carry around. Again, your character's background should dictate what kinds of things and how many they should have. 
-
-Always make sure to talk to your **GM** and fellow players and have them agree to the **assets** you want your character to start with. 
-
-### Determine Max HP & Injury Maximum
-Determine your character's **max HP** and **injury limit**, by referring to the [toughness](#toughness-tough) attribute. 
-
-All characters start with an **injury limit** of 2. 
-
-### Determine Exhaustion Threshold
-Determine your character's [exhaustion threshold](#exhaustion), by referring to the [endurance](#endurance-end) attribute. 
-
 ## Non-Player Character (NPC)
 Non-player characters (**NPC**s) are all the people, animals and monsters of a world, that aren't the player characters (**PC**s) and are controlled by the **GM**. 
 
@@ -1730,6 +1531,206 @@ The **Ob** depends on circumstance. How much time is available to appraise? How 
 
 # Appendix
 The appendix contains important and less important lists, for reference only when needed. 
+
+## Character Creation
+Imagine for the longest time of their life, your character has led an ordinary existence, until one day, something life-changing happened. Perhaps something terrible, perhaps something wonderful, but something significant that has forced them out of their comfort zone into a world full of adventure. 
+
+Creating an interesting and life-like character is a challenging, but ultimately, very rewarding task. Thinking of their existence up to the point they start adventuring, can really help with paving the path of their future and give you a good idea of what they're like, and why.
+
+If you don't feel inspired, the following sections can provide tips and randomization tables that allow you write up a character faster. 
+
+The procedure of creating a character consists of the following steps:
+1. [Determine life path](#determine-life-path). 
+2. [Determine species, sex & appearance](#species-sex--appearance).
+3. [Determine name](#determine-name).
+4. [Determine abilities](#determine-abilities).
+6. [Determine **carrying capacity** and **assets**](#determine-assets).
+7. [Determine **Max HP** and **Injury Maximum**](#determine-max-hp--injury-maximum)
+8. [Determine exhaustion threshold](#determine-exhaustion-threshold).
+
+### Determine Life Path
+Where and when does the story of your character begin? Under what circumstances are they born and how were they raised? Until adulthood, did they lead a life of carelessness or did they have to fight for every scrap of food? How did they lead their life up until the point they picked up adventuring? 
+
+Answering these questions will help you figure out what your character could be like, as a person and what kinds of **ambitions**, **aspirations** and **reactions** they might develop. 
+
+If you need inspiration, the following tables might help a spark along:
+#### Origin
+| Range **D6** | Origin | 
+| -------- | ------ |
+| 1 | You were born into the life of a noble. |
+| 2 | You were born as the only child of a merchant. |
+| 3 | You were found as an orphaned infant and grew up in the hands of a kind foster family. |
+| 4 | You were found as an abandoned infant at the doors to an orphanage. |
+| 5 | You were born as the fifth child of a farmer. |
+| 6 | You were born to a craftsman. |
+
+#### Youth
+| Range **D10** | Youth | 
+| --------- | --------- |
+| 1 | You developed a passion for a craft and found a master willing to teach you his art. |
+| 2 | You never quite found your place in the world and never found a passion for honest work. Instead, you took to a life of lowly crime, pickpocketing and extorting what you could. |
+| 3 | You spent much time with books and scrolls, reading about the world and its wonders. |
+| 4 | You were drafted into the military and remained in service for a few years. |
+| 5 | You went where the wind took you, doing lowly hireling pay when necessary and otherwise exploring and enjoying life as it came. |
+| 6 | You preferred life in the wilderniss and either took to the hermit's life or simply camped out in the woods as much as possible. |
+| 7 | You were wrongfully imprisoned for a crime you didn't commit. Or, perhaps, you did? |
+| 8 | You, by chance, met a wise mentor, who sensed your lust for power. They taught you their knowledge, in secret, whenever they were available. |
+| 9 | You found yourself wanting to better the world. You helped others where possible and eventually picked up on the healing arts, perhaps even learning under a tutor. |
+| 10 | You were taught by a wealthy and successful merchant (perhaps your parent) and helped with running their business for a few years. |
+
+#### The Last Few Years
+| Range **D6** | The Last Few Years | 
+| -------- | --------- |
+| 1 | You made an enemy you couldn't beat and were thus forced to leave town. Since then, you've been on the run. |
+| 2 | You've been given an important task to carry out in secret. A piece of parchment holds your orders, but the task is simply too great for you to complete on your own. |
+| 3 | You've found yourself with an insatiable curiosity and decided to go see the world and its wonders. |
+| 4 | You decided to go on a pilgrimage, but were distracted from your path. |
+| 5 | You swore an oath and intend to keep it. You swore to rescue someone, or bring honor to your clan, or perhaps to bring justice to a known criminal. |
+| 6 | You lost someone or something you held dear. Now, you're on a quest to get it back, or your revenge. |
+
+### Determine Name
+Any interesting character should have an interesting name. Whether you set a name or personality first, is entirely up to you. Although, you might prefer to delay this step until much later, once you've determined the other aspects of your character. Whichever you find easier is fine. 
+
+If you can't come up with a name, you can ask your **GM** for inspiration, since they'll likely know the world and the culture(s) your character can stem from and what kinds of names are common there. 
+
+### Species, Sex & Appearance
+Species is a bit difficult to provide a randomization table for, because the world your **GM** is running, might have different species available, that could not be anticipated here. For simplicity's sake, it is assumed you are generating a human. 
+
+Gender is personal preference, but could also be decided by a die. 
+
+The following table provides appearance traits for you to pick via the roll of a **D10**. 
+
+| Range **D10** | Physique    | Face       | Skin       | Hair     |
+| --------- | ----------- | ---------- | ---------- | -------- |
+| 1         | Athletic    | Bloated    | Rough      | Bald     |
+| 2         | Brawny      | Blunt      | Birthmark  | Braided  |
+| 3         | Corpulent   | Bony       | Makeup     | Curly    |
+| 4         | Delicate    | Chiseled   | Tattooed   | Cropped  |
+| 5         | Gaunt       | Delicate   | Weathered  | Frizzy   |
+| 6         | Hulking     | Elongated  | Perfect    | Long     |
+| 7         | Lanky       | Patrician  | Tanned     | Ponytail |
+| 8         | Stout       | Pinched    | War Paint  | Oily     |
+| 9         | Short       | Narrow     | Pale       | Wavy     |
+| 10        | Scrawny     | Broken     | Pierced    | Greased  |
+
+### Determine Personality
+Perhaps more important than a name, is the personality that it represents. Think about what you want your character to be like - are they very sociable? Or perhaps a taciturn brute who'd rather let their actions speak? A cruel man of science? A socialite with friends everywhere? The options are plentiful!
+
+Refer to the table in the [personality traits](#personality-traits) section. You can choose freely, where to place your "x", for every row. You can even leave every trait at "undecided" and find out through play what your character is like. If you prefer, you can even let chance decide for you! For that, roll a **D6** for every row. A 0 results in a "signature" trait on the left side of the scale, while a 6 results in a "signature" trait on the right side of the scale. Using this method, you will **not** have *any* "undecided" traits in the end. 
+
+#### Determine Ambition, Aspirations & Reactions
+This is where things may get a little difficult. Work together with your **GM**, as they know their world and what kinds of agendas the people in it might have. 
+
+Don't worry too much about your first **aspirations** and **reactions**, as they're expected to change frequently and through the events your character has yet to experience. 
+
+Only your **ambition** will require some thought beforehand, but even so, you don't have to plan your character's entire future, at all. But keep in mind that your character's **ambition** tells your **GM**, what kind of stories you'd like to explore and what's more, how your character will fit into them. Again, working with your **GM** to determine a fitting **ambition** is paramount. 
+
+##### Choosing an Ambition
+At the core of every character stands their [ambition](#ambition), which is the primary force driving them. A good **ambition** should last you a long time and give the **GM** a hint what kind of story you want to explore with your character. 
+
+Talk to your **GM** about the **ambition** you want your character to have. On the one hand, it allows them to determine the kind of story you want to explore and on the other hand they can guage whether the **ambition** is a suitable long-term goal. 
+
+Keep in mind the **ambition** you can randomly determine here is kept most basic and generic. Work with your **GM** to fill in the details. 
+
+| Range **D10** | Ambition           |
+| --------- | ------------------ |
+| 1         | Revenge            |
+| 2         | Pilgrimage         |
+| 3         | Wealth             |
+| 4         | Power              |
+| 5         | Fame/Glory         |
+| 6         | Knowledge          |
+| 7         | Family & Belonging |
+| 8         | Atonement          |
+| 9         | Altruism           |
+| 10        | Fire               |
+
+##### Choosing Aspirations
+Now, the time to determine your three [aspirations](#aspiration) has come. Yet again, your **GM** is integral in finding them. However, the other **PC**s are also of interest now. You can have **aspirations** whose subject is one of the other **PC**s. You could even have the game begin with two or more of the **PC**s knowing each other, this way. 
+
+> Two **PC**s begin the game knowing each other. One starts with a background as a criminal, the other as a former monk. The former monk has an **aspiration** stating "Stealing isn't right! I will help my friend pick up honest work!" The thief, on the other hand has the **aspiration** "My friend has my back, but they really need to start looking after themselves! I will teach them to be more like me." 
+> 
+> These two **aspirations** allow these characters to come into conflict, despite their good intentions. How it will play out, no one can say. And that makes for an interesting conflict!
+
+##### Choosing Reactions
+Lastly, you need three [reactions](#reaction) for your character. Ideally, at least one of them should allow your **GM** getting your **PC** into *trouble*. 
+
+For reactions, you're fairly free to pick and choose, so long as you keep in mind that **reactions** cannot alter facts of the narrative. **Reactions** can only allow you to *enter* a situation with an advantage - or to get your character in trouble in a situation that triggers it. 
+
+> A reaction like "Allies around me don't die" is a bad **reaction**, as it tries to alter facts, but isn't allowed to. The **GM** can't do much with this kind of reaction. 
+>
+> An improved version would be "Whenever an ally near me is in trouble, I come to their aid". 
+
+### Determine Abilities
+Next up, you can reinforce your character's [personality](#personality) with the abilities they have. Or even prepare a conflict of what your character *can* do and what they *think* they can do. 
+
+Note this section implies **raw level** of [attributes](#attributes) and [skills](#skills). 
+
+#### Choosing Attributes
+There are two methods for determining your character's attributes: manual and semi-random. 
+
+Please keep in mind the values here are representative for an ordinary human about to enter an adventuring life. Other species may have modifiers on their attributes, making them better or worse in some of them. But that depends on the world your **GM** is running. 
+
+##### Manual Attribute Assignment
+* You can spend **16 points** on your attributes. 
+* All attributes start at level 1. 
+* Your attribute-total cannot be greater than **26**.
+* No attribute may have a level less than 1 nor higher than 4.
+* Only two attributes may have a level of 4. 
+
+##### Semi-Random Attribute Assignment
+ 1. Roll 10 **D4**
+1. Row up your dice to form a line, then read them from one end to the other and note each value. The order in which they are written down, is the order in which they'll be applied to the attributes. 
+2. If there are more than 2 4s, start lowering their value by one, starting from the left or the right, until there are only 2 4s left. 
+3. Count up the total of your values. 
+   1. Subtract your total from **26**.
+   2. If the number is negative, that's the number of levels you'll have to go down. <br>
+   If the number is positive, that's the number of levels you'll have to go up. 
+4. Starting from the left or right, start adjusting each value.
+   1. If your levels have to go down, subtract one from each value. **But** skip "1"s. 
+   2. If your levels have to go up, add one to each value. **But** skip "4"s. 
+5. Repeat from the step of counting up your total and adjusting as necessary, until no more adjustments are necessary. 
+6. Lastly, apply the adjusted values to your attributes. 
+
+##### Determine Attribute Advancing Thresholds
+Once attribute values have been set, you can determine the required number of successes and failures each attribute requires, in order to advance. 
+
+For this, see the rules on [attribute advancing](#advancing-attributes).
+
+#### Choosing Skills
+When choosing skills, consider your character's background. What are their core competences? What fields of knowledge might they be well versed in? Which have they only dabbled in?
+* Choose 1 skill at level 4. This is your character's strongest skill. 
+* Choose 2 skills at level 3. These complement your character's strength. 
+* Choose 1 [social](#social-skills) or [knowledge](#knowledge-skills) skill at level 3. This is something your character is particularly knowledgable about. 
+* You can now spend **8** points to freely *learn* additional skills and raise their level, with the following limitations:
+  * No skill can be higher level than 3. 
+  * You can add at most 7 skills. 
+  * No skills can be set to *learning* (= added at level 0).
+
+Once you've chosen skills, you can determine the required number of successes and failures each skill requires, in order to advance. 
+
+For this, see the rules on [skill advancing](#advancing-skills).
+
+#### Determine Boons from Heritage
+It is possible for a character to receive permanent boons or penalties during character creation, based upon their cultural heritage. This is entirely at the **GM**'s discretion and subject to their world. When choosing heritage-based skill boons, keep the number down. One or two boons at most. These are narratively based and fairly unique starting conditions for a character. 
+
+### Determine Assets
+In most cases, your character will have left home with their everyday clothes and some of their **property**. 
+
+First, determine your character's [worn & equipped assets](#worn--equipped). Every slot may be filled, but keep in mind your character's background. Someone with the background of a peasant is unlikely to wear a crown, for example. 
+
+Then, determine your character's [carrying capacity](#carrying-capacity). Refer to the [strength](#strength-str) attribute to do so. Once you have this number, you know how much [luggage](#luggage) your character can carry around. Again, your character's background should dictate what kinds of things and how many they should have. 
+
+Always make sure to talk to your **GM** and fellow players and have them agree to the **assets** you want your character to start with. 
+
+### Determine Max HP & Injury Maximum
+Determine your character's **max HP** and **injury limit**, by referring to the [toughness](#toughness-tough) attribute. 
+
+All characters start with an **injury limit** of 2. 
+
+### Determine Exhaustion Threshold
+Determine your character's [exhaustion threshold](#exhaustion), by referring to the [endurance](#endurance-end) attribute. 
+
 
 ## List of Assets
 The following list does not and cannot aim to be a complete listing of all possible assets in game. Adding new assets as necessary will have to be done by the **GM**. 
