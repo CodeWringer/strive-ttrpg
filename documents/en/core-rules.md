@@ -67,7 +67,7 @@
     - [Exhaustion](#exhaustion)
     - [Health State](#health-state)
     - [Illness](#illness)
-    - [Scars](#scars)
+    - [Scar](#scar)
     - [Damage Types](#damage-types)
     - [Damage Resistances](#damage-resistances)
     - [Boons \& Penalties](#boons--penalties)
@@ -895,7 +895,7 @@ Whenever a character suffers an **injury**, a **D100** must be rolled and the co
 
 For every **injury** incurred, a character's maximum [HP](#hit-points-hp) is reduced by 2. An **injury** can also reduce [attributes](#attributes) and impose other restrictions. See also [boons & penalties](#boons--penalties). A penalty to [toughness](#toughness-tough) **does not** further reduce the current maximum [HP](#hit-points-hp)! The reduction from the **injury** is enough penalty. 
 
-An **injury** must be [treated](#injury-states--treatment) to reduce its negative effects and begin the healing process. [Treatment](#injury-states--treatment) is made with a [skill](#skills) noted on the **injury**. The difficulty of [treatment](#injury-states--treatment) is determined by the type of **injury**, that is to say, by the [type of damage](#damage-types) that inflicted it. The time to heal depends on its type. When an **injury** is fully healed and removed, it may leave behind a [scar](#scars), which can also impose [boons & penalties](#boons--penalties). 
+An **injury** must be [treated](#injury-states--treatment) to reduce its negative effects and begin the healing process. [Treatment](#injury-states--treatment) is made with a [skill](#skills) noted on the **injury**. The difficulty of [treatment](#injury-states--treatment) is determined by the type of **injury**, that is to say, by the [type of damage](#damage-types) that inflicted it. The time to heal depends on its type. When an **injury** is fully healed and removed, it may leave behind a [scar](#scar), which can also impose [boons & penalties](#boons--penalties). 
 
 **Injuries** apply their penalties only once, upon being suffered. That means that if an **injury** applies a penalty of +1 [bleeding](#bleeding), the [bleeding](#bleeding) [health state](#injury-states--treatment) can be removed separately from the **injury**, after it has been suffered. Treating such an injury would only remove the 1 point of [bleeding](#bleeding) it inflicted. [Bleeding](#bleeding) suffered from other sources would remain. 
 
@@ -971,7 +971,7 @@ Any illness, that when treated has its duration reduced, can only have its durat
 
 An **illness** can only be suffered once, at a time. It may be suffered again later, but you could also expect that a certain level of immunity within the body has built up, after the previous time it was suffered through. 
 
-### Scars
+### Scar
 Some [injuries](#injury), once fully healed and removed, may leave a **scar** behind. If they do, this information will be specified on the [injuries](#injury) in question. See also the [list of scars](#list-of-scars). 
 
 Often times, a **scar** is little more than a reminder of past misfortunes, but some **scars** may infer [boons and/or penalties](#boons--penalties). 
@@ -1000,7 +1000,7 @@ Some creatures can resist certain [types of damage](#damage-types) naturally, wh
 How much **damage** is resisted, depends on the specifics of the creature or character and their [equipment](#worn--equipped). 
 
 ### Boons & Penalties
-Boons and penalties to the level of an [attribute](#attributes) or [skill](#skills) can be incurred from several different sources, such as [injuries](#injury), [illnesses](#illness), [mutations](#list-of-mutations), [scars](#scars) and [states](#health-state). Boons and penalties may be temporary or permanent, depending on their source. 
+Boons and penalties to the level of an [attribute](#attributes) or [skill](#skills) can be incurred from several different sources, such as [injuries](#injury), [illnesses](#illness), [mutations](#list-of-mutations), [scars](#scar) and [states](#health-state). Boons and penalties may be temporary or permanent, depending on their source. 
 
 A boon to an [attribute](#attributes) or [skill](#skills) usually comes in the form of increasing its **modified level**. If a boon awards an [attribute](#attributes) or [skill](#skills) that the character does not yet have, they gain it automatically. 
 
@@ -1342,7 +1342,7 @@ There are no limits to how many of a given card a player can own, but they may o
 | 8 MiFP  | Hastened            | +1 **AP** during your turns for the entirety of a [combat](#combat) encounter. |
 | 2 MaFP  | Fact Check          | Change a minor plot point in a way your prefer. Work with your **GM** to make sure it fits the narrative, but they should respect your wish. This could be something like avoiding an **NPC** death or changing a fact about the plot. |
 | 3 MaFP  | Double the Fun      | Double the number of dice to roll on your next/current test and every rolled **positive** counts double - which means every rolled **positive** actually counts as 2 **positives**! |
-| 3 MaFP  | Scar? What Scar?    | Remove one scar [scar](#scars) of choice. |
+| 3 MaFP  | Scar? What Scar?    | Remove one scar [scar](#scar) of choice. |
 | 4 MaFP  | Incorrect Diagnosis | Avoid an [injury](#injury) as it would be inflicted upon you - you do not suffer that [injury](#injury)! |
 | 5 MaFP  | Just a Flesh Wound  | Raise your injury limit by one for the duration of an encounter. This card can also be played as you suffer an [injury](#injury) and even when you're [dying](#deaths-door). In that case, playing this card counts as a successful test and brings you back from the verge of death. |
 | 1 AFP   | Defy Death          | Leap from [death's door](#deaths-door), remove 1 **active** [injury](#injury) of choice and be at 1 **HP**; Alternatively, avoid a narratively-driven death. The **GM** will decide the character's alternative fate. They could be captured, very badly injured or become indebted to someone or something. Note that this card can only be played *after* the character lost their [battle with death](#deaths-door). |
@@ -2335,9 +2335,9 @@ One should always keep in mind that despite the game mechanical effects of a mut
 | 94 - 100   | Living Cadaver         | The body withers and pales. It is as if it had just risen from the grave. -2 [Oratory](#oratory-ora). |
 
 ## List of Scars
-An [injury](#injury) may heal, but its [scars](#scars) remain. 
+An [injury](#injury) may heal, but its [scars](#scar) remain. 
 
-Most [scars](#scars) can only be incurred once, but some may be incurred multiple times, which will be indicated by a slash (/). 
+Most [scars](#scar) can only be incurred once, but some may be incurred multiple times, which will be indicated by a slash (/). 
 
 | Name                    | Limit     | Description                       |
 | ----------------------  | --------- | --------------------------------- |
