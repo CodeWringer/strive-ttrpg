@@ -109,7 +109,7 @@ A role-playing game by Nicolas H.
 # Introduction
 This is the module containing the rules enabling play in a medieval fantasy game world, which includes supernatural monsters and magic. As such, only the differences and additions to the core rules are included in this document. 
 
-This module is best suited for a low to medium fantasy setting. Adapting it to high or heroic fantasy will require extensive additions to the lists of **skills** and **skill abilities**. 
+This module is best suited for a low to medium fantasy setting. Adapting it to high or heroic fantasy will require extensive additions to the lists of **skills** and **expertises**. 
 
 More details about the module:
 * Magic is a **powerful** tool, but comes with great risk, with a chance for a spell to fail and back-fire. The chance of failure is manageable, however. 
@@ -213,7 +213,7 @@ You'll need to track **current magic stamina** separately. To start with, set yo
 # Magic
 Only a character with [arcana](#arcana-arc) can cast magic. What kind of magic, depends on the [magic schools](#list-of-magic-schools) the character knows. There are offensive, defensive and manipulative [schools of magic](#list-of-magic-schools). 
 
-A *magic spell* is the intended effect of using a [magic school's](#magic-school--school---attribute-) [skill ability](./core-rules.md#skill-abilities). This is also referred to as *casting magic*, *casting a spell* or other similar wordings. In mechanical terms, every [skill ability](./core-rules.md#skill-abilities) noted on a [school of magic](#list-of-magic-schools) is a *magic spell*.
+A *magic spell* is the intended effect of using a [magic school's](#magic-school--school---attribute-) [expertise](./core-rules.md#expertise). This is also referred to as *casting magic*, *casting a spell* or other similar wordings. In mechanical terms, every [expertise](./core-rules.md#expertise) noted on a [school of magic](#list-of-magic-schools) is a *magic spell*.
 
 A mage can fail their [test](./core-rules.md#tests) and thus suffer a [spell-backfire](#spell-backfire), which usually results in negative effects for the caster, instead of their intended target. 
 
@@ -260,7 +260,7 @@ A mage can only upkeep **one** concentration spell at a time.
 Concentration can be broken! Concentration is automatically broken, if the mage is incapacitated, for example by having been knocked unconscious. Otherwise, whenever the mage is *forced* to roll a [test](./core-rules.md#tests), they must **also** succeed another test of their concentration spell's magic school, at the same **Ob** as the test they were just forced to roll. 
 
 ## Magic Negation
-It is possible to negate a magical attack entirely, by using the same **school of magic** **skill** and achieving more positives, than the attacker. The defender has to perform a [test](#testing-magic) of the same magic school, at the **Ob** equal to the number of **positives + 1** the attacker achieved. The defender does not get to use a [skill ability](#skill-abilities) of the magic school in question. This is a purely defensive action, which benefits everyone who might be hit with the spell of the attacker, as no one will be hit, if the defense is successful. 
+It is possible to negate a magical attack entirely, by using the same **school of magic** **skill** and achieving more positives, than the attacker. The defender has to perform a [test](#testing-magic) of the same magic school, at the **Ob** equal to the number of **positives + 1** the attacker achieved. The defender does not get to use a [expertise](./core-rules.md#expertise) of the magic school in question. This is a purely defensive action, which benefits everyone who might be hit with the spell of the attacker, as no one will be hit, if the defense is successful. 
 
 If the defense fails, the full effect is applied. If the defense attempt causes a [spell-backfire](#spell-backfire) on the defender, they suffer the attacker's spell at one greater [intensity](#spell-intensity-si) level. 
 
@@ -915,7 +915,7 @@ Tools: a carving knife
 | A large wood-carved object           | Low        | High      | Wood                                   | / |
 
 ## List of Magic Schools
-The capabilities of the various magic schools are described by the [skill abilities](#skill-abilities) associated with each of them. The concrete effects are kept vague on purpose, to allow a certain freedom when choosing how the magic is expressed. But the intensity or strength of a casting is tied to the level of the [magic school skill](#magic-school--school---attribute-). 
+The capabilities of the various magic schools are described by the [expertise](./core-rules.md#expertise) associated with each of them. The concrete effects are kept vague on purpose, to allow a certain freedom when choosing how the magic is expressed. But the intensity or strength of a casting is tied to the level of the [magic school skill](#magic-school--school---attribute-). 
 
 The levels noted for each magic school represent the effects a mage can achieve, when casting that particular type of magic. Stronger effects generally require a higher level. 
 

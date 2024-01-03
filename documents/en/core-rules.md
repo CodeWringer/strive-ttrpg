@@ -41,7 +41,7 @@
         - [Practicing Attributes](#practicing-attributes)
       - [Base Initiative](#base-initiative)
     - [Skills](#skills)
-      - [Skill Abilities](#skill-abilities)
+      - [Expertise](#expertise)
         - [Targeting-Types](#targeting-types)
           - [Single Target (ST)](#single-target-st)
           - [Multiple Single Target (MST)](#multiple-single-target-mst)
@@ -610,43 +610,38 @@ See also [initiative](#initiative).
 ### Skills
 A **skill** is any acquired knowledge and experience regarding a specific subject. 
 
-Two values must be tracked for every **skill**: Its **raw level** and its current **modifier**, which results from the sum of [boons and penalties](#boons--penalties) affecting it. The result of adding or subtracting the modifier to/from the **raw level** yields the **modified level**, which is used in [tests](#tests).
-
-For [testing](#tests) a **skill**, see the [Testing a Skill](#testing-a-skill) section. 
+Two values must be tracked for every **skill**: Its **raw level** and its current **modifier**, which results from the sum of [boons and penalties](#boons--penalties) affecting it. The result of adding or subtracting the modifier to/from the **raw level** yields the **modified level**, which is used in [tests](#testing-a-skill).
 
 **Skills** [advance](#advancing-skills), as they're tested. It is also possible to [practice](#practicing-skills) and [teach](#teaching-skills) **skills**. 
 
-#### Skill Abilities
-**Skills** can offer **skill abilities**, which further define what the **skill** may be used for. A **skill ability** is either a *passive* [boon](#boons--penalties) or an *active* **action**, with effects that apply when used.  
+#### Expertise
+**Skills** can offer **expertises**, which further define what the **skill** may be used for. An **expertise** is either a *passive* [boon](#boons--penalties) or an *active* **action**, with effects that apply when used.  
 
-**Skill abilities** further incentivize specialization, by granting unique powers at higher **skill** levels. 
+**Expertises** incentivize specialization, by granting special abilities at higher **skill** levels. 
 
-Every **skill ability** can have the following properties:
+Every **expertise** can have the following properties:
 * A **required level** at which they unlock. This is the **modified level** of their *owning* **skill**. 
-  * A **skill ability** may only be used, if the character has the *owning* **skill** with at least this level. 
-  * A **skill ability** noting level 0 or no level at all, can be used right away, even without any levels in the *owning* **skill**. 
+  * An **expertise** may only be used, if the character has the *owning* **skill** with at least this level. 
+  * An **expertise** noting level 0 or no level at all, can be used right away, even without any levels in the **skill** it belongs to. 
 * An [AP](#action-points-ap) cost. 
-  * During [combat](#combat) how often **skill abilities** may be used is restricted by how much a character can do in a single **turn**. 
-  * A cost of 0 implies the use of the **skill ability** is free and can potentially be repeated multiple times in a single **turn**. 
-* A **condition** which restricts when and how often they can be used. 
-  * Some **skill abilities** can only be used as a *reaction* to another character's **action**. 
-  * Some **skill abilities** can only be used once per scenario, once per day or only when other specific circumstances align. 
+  * During [combat](#combat) how often **expertises** may be used is restricted by how much a character can do in a single **turn**. 
+  * A cost of 0 implies the use of the **expertise** is free and can potentially be repeated multiple times in a single **turn**. 
+* A **condition** which restricts when and how often they can be used. Some **expertises** can only be used as a *reaction* to another character's **action**, while others can only be used once per scenario, once per day or only when other specific circumstances align. 
 * An **Ob**. 
-  * When an **Ob** is noted, the *owning* skill must be [tested](#tests) at this **Ob**. It is also possible that instead of a fixed **Ob**, a dynamic number is used. For example, whenever an [opposed test](#opposed-test) is required. In case of an [opposed test](#opposed-test), the opposing **skill** will also be noted. The opposing character must use that **skill** to oppose the use of this **skill ability**. In some cases, the opposing character may abstain from resisting. 
-  * A **skill ability** without a noted **Ob** does *not* require a [test](#tests) to be made. 
-* A [targeting-type](#targeting-types). 
-  * This restricts how many targets may be affected at once by a **skill ability**'s use. 
+  * When an **Ob** is noted, the *owning* skill must be [tested](#tests) at this **Ob**. It is also possible that instead of a fixed **Ob**, a dynamic number is used. For example, whenever an [opposed test](#opposed-test) is required. In case of an [opposed test](#opposed-test), the opposing **skill** will also be noted. The opposing character must use that **skill** to oppose the use of this **expertise**. In some cases, the opposing character may abstain from resisting. 
+  * An **expertise** without a noted **Ob** does *not* require a [test](#tests) to be made. 
+* A [targeting-type](#targeting-types), which restricts how many targets may be affected at once. 
 * A **maximum distance** at which it may apply to targets. 
 * One or more **damage** values of a specified [type](#damage-types). 
   * When successfully used, damage can be applied to the [HP](#hit-points-hp) of one or more targets. 
   * Damage can be noted either as a *flat* value, or a formula, which may involve dice rolls for variable damage. E. g. "3D4 + 5". 
 
-Using a **skill ability** counts as an **action**. 
+Using an **expertise** counts as an **action**. 
 
-[Weapon skills](#weapon--weapon-type--str) use **skill abilities** to denote the ways one can attack with them. 
+[Weapon skills](#weapon--weapon-type--str) use **expertises** to denote the ways one can attack with them. 
 
 ##### Targeting-Types
-The number of targets that a [skill ability](#skill-abilities) can apply to, with a single use, is defined through the **targeting-types**. 
+The number of targets that an [expertise](#expertise) can apply to, with a single use, is defined through the **targeting-types**. 
 
 ###### Single Target (ST)
 A **single-target** (**ST**) action affects only a single target. 
@@ -762,7 +757,7 @@ Both teacher and pupil must actively spend time together, furthering the pupil's
 If the teacher's skill is at least one **raw level** higher than that of their student, the student can use an extra **+1D6** to resolve their tests of the skill they're being taught. 
 
 #### Specialization Skills
-Some **Skills** can only be learned, if other *prerequisite* **skills** are known. Such **skills** represent a further direction of *specialization*, which can in some circumstances replace usage of one of the prerequisite **skills**, or provide a new set of [skill abilities](#skill-abilities) to extend what the prerequisites were capable of. Furthermore, the prerequisites may be required to be known at *at least* a certain given level. Unless if a prerequisite **skills** are *known* at that level, the specialized **skill** **cannot** be learned. 
+Some **Skills** can only be learned, if other *prerequisite* **skills** are known. Such **skills** represent a further direction of *specialization*, which can in some circumstances replace usage of one of the prerequisite **skills**, or provide a new set of [expertises](#expertise) to extend what the prerequisites were capable of. Furthermore, the prerequisites may be required to be known at *at least* a certain given level. Unless if a prerequisite **skills** are *known* at that level, the specialized **skill** **cannot** be learned. 
 
 A **specialization skill** [advance](#advancing-skills) as any other skill. Their prerequisite **skills** do **not** [advance](#advancing-skills) along with the **specialization skill**! 
 
@@ -1323,7 +1318,7 @@ At the start of a combat encounter, **all characters** start with 3 **AP**. Afte
   * Handing an object over to a character adjacent to you, is a basic action (assuming you don't have to force it on them). 
   * Pulling something from your bag or getting a weapon ready (from your back, scabbard or wherever you keep it) also counts as a movement action and costs 1 **AP**. 
 * Any action requiring a [test](#tests), costs 2 **AP**. 
-* [Skill abilities](#skill-abilities) can cost varying amounts of **AP**. The exact number will be noted on the [skill ability](#skill-abilities) in question. 
+* [Expertises](#expertise) can cost varying amounts of **AP**. The exact number will be noted on the [expertise](#expertise) in question. 
 
 ### Action Point Saving
 If a character ends their **turn** with any **AP** unspent, those **AP** will be saved up and be available as additional **AP** at the start of their next **turn**. 
@@ -1332,7 +1327,7 @@ Until the start of their next **turn**, they can keep up to 5 **AP**, which they
 
 At the start of their next **turn**, only up to 2 of the saved **AP** transfer to this next **turn**. This means a character can normally start their next **turn** with at most 5 **AP**. 
 
-It may be possible to go past this limit via some [skill abilities](#skill-abilities) or [boons](#boons--penalties). 
+It may be possible to go past this limit via some [expertises](#expertise) or [boons](#boons--penalties). 
 
 > Assuming a character has 4 unspent **AP** at the end of their **turn**, and they are attacked, they can use one of those **AP** to actively defend themselves. This costs them 1 **AP**, meaning they still have 3 unspent **AP**. 
 >
@@ -1370,7 +1365,7 @@ This **action** costs 3 [AP](#action-points-ap).
 The ally in question can **oppose** this action with [strength](#strength-str). 
 
 ## Attacking
-Attacks are made using a [skill ability](#skill-abilities) of a [weapon](#weapon--weapon-type--str), the [unarmed](#unarmed-combat-str) or [throwing](#throwing-agi) [skill](#skills). 
+Attacks are made with an [expertise](#expertise) of a [weapon](#weapon--weapon-type--str), of the [unarmed](#unarmed-combat-str) or the [throwing](#throwing-agi) [skill](#skills). 
 
 An attack generally requires an [opposed test](#opposed-test) to be made. If the attacker wins, the full [damage](#damage) is applied to the defender. If the defender wins, they suffer no damage, **unless** if they're parrying in melee with a weapon that has 2 bulk less than the weapon they've parried. In such a case, half the damage (rounded up) still goes through, regardless of the successful parry.  
 * A defender must *choose* how to defend, if no a specific skill is required. The defender may choose to defend with a [weapon skill](#weapon--weapon-type---attribute), [acrobatics](#acrobatics-agi) or a [shield](#shield-end). 
