@@ -51,7 +51,7 @@
       - [Advancing Skills](#advancing-skills)
         - [Practicing Skills](#practicing-skills)
         - [Teaching Skills](#teaching-skills)
-    - [Specialization Skills](#specialization-skills)
+      - [Specialization Skills](#specialization-skills)
     - [Innate Abilities](#innate-abilities)
   - [Personality](#personality)
     - [Ambition](#ambition)
@@ -598,7 +598,7 @@ A **cycle** is 1 month, regardless of attribute being practiced.
 > A **PC** spends 3 months practicing their [wisdom](#wisdom-wis). In this case, 3 tests can be made and the progress noted. 
 
 #### Base Initiative
-Whenever the order in which characters act matters, their **base initiative** comes into play. It, together with a dice roll, determine how early a character gets to take action in a given scenario. 
+Whenever the order in which characters act matters, their **base initiative** comes into play. It, together with a dice roll, determines how early a character gets to take action in a given scenario. 
 
 The **base initiative** of a character is **not an attribute** in the pure sense. It *cannot* be improved directly and is instead derived from the sum of the character's [perception](#perception-perc), [intelligence](#intelligence-int) and [empathy](#empathy-emp). 
 
@@ -760,7 +760,7 @@ Both teacher and pupil must actively spend time together, furthering the pupil's
 
 If the teacher's skill is at least one **raw level** higher than that of their student, the student can use an extra **+1D6** to resolve their tests of the skill they're being taught. 
 
-### Specialization Skills
+#### Specialization Skills
 Some **Skills** can only be learned, if other *prerequisite* **skills** are known. Such **skills** represent a further direction of *specialization*, which can in some circumstances replace usage of one of the prerequisite **skills**, or provide a new set of [skill abilities](#skill-abilities) to extend what the prerequisites were capable of. Furthermore, the prerequisites may be required to be known at *at least* a certain given level. Unless if a prerequisite **skills** are *known* at that level, the specialized **skill** **cannot** be learned. 
 
 A **specialization skill** [advance](#advancing-skills) as any other skill. Their prerequisite **skills** do **not** [advance](#advancing-skills) along with the **specialization skill**! 
