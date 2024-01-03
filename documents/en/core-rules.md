@@ -66,25 +66,6 @@
       - [Injury Exhaustion Threshold](#injury-exhaustion-threshold)
     - [Exhaustion](#exhaustion)
     - [Health State](#health-state)
-      - [Berserk](#berserk)
-      - [Burning](#burning)
-      - [Bleeding](#bleeding)
-      - [Death's Door](#deaths-door)
-      - [Dissolving](#dissolving)
-      - [Drug-Addicted](#drug-addicted)
-      - [Electrified](#electrified)
-      - [Exhausted](#exhausted)
-      - [Frostbitten](#frostbitten)
-      - [Grappled](#grappled)
-      - [Hasted](#hasted)
-      - [Jealous](#jealous)
-      - [Pacified](#pacified)
-      - [Poisoned](#poisoned)
-      - [Prone](#prone)
-      - [Rooted](#rooted)
-      - [Stunned](#stunned)
-      - [Terrified](#terrified)
-      - [Unconscious](#unconscious)
     - [Illness](#illness)
     - [Scars](#scars)
     - [Damage Types](#damage-types)
@@ -209,6 +190,26 @@
     - [Craftsmanship Skills](#craftsmanship-skills)
       - [Artistry (Emp)](#artistry-emp)
       - [Cooking (Emp)](#cooking-emp)
+  - [List of Health States](#list-of-health-states)
+    - [Berserk](#berserk)
+    - [Burning](#burning)
+    - [Bleeding](#bleeding)
+    - [Death's Door](#deaths-door)
+    - [Dissolving](#dissolving)
+    - [Drug-Addicted](#drug-addicted)
+    - [Electrified](#electrified)
+    - [Exhausted](#exhausted)
+    - [Frostbitten](#frostbitten)
+    - [Grappled](#grappled)
+    - [Hasted](#hasted)
+    - [Jealous](#jealous)
+    - [Pacified](#pacified)
+    - [Poisoned](#poisoned)
+    - [Prone](#prone)
+    - [Rooted](#rooted)
+    - [Stunned](#stunned)
+    - [Terrified](#terrified)
+    - [Unconscious](#unconscious)
   - [List of Injuries](#list-of-injuries)
     - [Acid Injuries](#acid-injuries)
     - [Bleeding Injuries](#bleeding-injuries)
@@ -936,7 +937,7 @@ Exhaustion gained from **exhausting equipment**, can be reduced, by dropping the
 ### Health State
 A **character** can have positive or negative effects on them, represented by **states**. They can have any number of **states** applying to them simultaneously. 
 
-A bit of terminology to keep in mind when proceeding:
+A bit of terminology to keep in mind about health states:
 * A **tick** is the instant in time, when a health state's effects (such as the damage from [bleeding](#bleeding)) is suffered by the character. 
   * This is always the **start of a character's turn** during combat or every 5 seconds outside of combat. This also applies to characters whose turn is skipped (for example, because they're [unconscious](#unconscious)). 
 * A **graded** health state has a *degree*, which is a number that represents how strong the health state's effects are/will be. A *point* of a health state is one such *degree*. 
@@ -949,135 +950,7 @@ Even outside of combat, for as long as a character in the current scene is suffe
 
 For all **graded** states, keep in mind they last until their *degree* is reduced to 0. 
 
-#### Berserk
-A character who is in **berserk**, **must** attack the creature nearest to them, regardless of whether it is friend or foe, until it is dead or unconscious. The **berserked** character **must** then move on to the next available and closest victim. 
-
-* Graded
-* Shrug off: 1 *point* with a [skill](#skills) based on [empathy](#empathy-emp) at **Ob** equal to the current *degree*.
-* Immediate cancel: When the character is made [unconscious](#unconscious) or no other creatures remain alive and/or conscious.
-
-#### Burning
-For every *point* in **burning**, a character suffers **1 D4** points of [burning](#damage-types) damage every *tick*. 
-
-* Graded
-* Greedy
-* Shrug off: 1 *point* per [AP](#action-points-ap) spent actively patting out flames, rolling on the floor, dousing oneself in water and so on. 
-
-Adjacent allies can also help pat out the flames, by spending an [AP](#action-points-ap) for every point reduction of **burning**. 
-
-#### Bleeding
-For every *point* in **bleeding**, a character suffers **1 D4** points of [bleeding](#damage-types) damage every *tick*. 
-
-* Graded
-* Shrug off: 1 *point* with [toughness](#toughness-tough) [test](#tests) with **Ob** at the current *degree*. 
-* Immediate cancel: With a successful [medicine](#medicine-int) [test](#tests), requiring 1 [medical supplies](#list-of-stuff--things) with **Ob** at the current *degree*.
-
-#### Death's Door
-**Death's door** is a **state** only a **PC** can enter and represents their final battle with death. 
-
-A **PC** at **death's door** must succeed at least one [toughness](#toughness-tough) test out of a possible of three. If they never succeed, they perish, irrevocably*. The **Ob** is determined as half of the character's [toughness](#toughness-tough), rounded up. 
-* If the character is at **death's door** during [combat](#combat), they must make a [toughness](#toughness-tough) test at the end of every round. 
-* If the character is at **death's door** out of [combat](#combat), they must make a test every minute. 
-
-A character can be helped out of the **death's door** **state**, if all of their **active** [injuries](#injury) are **patched up** or **treated**. 
-
-#### Dissolving
-For every point in **dissolving**, a character suffers **1 D4** points of [acid](#damage-types) damage every *tick*. 
-
-* Graded
-* Shrug off: 1 *point* is automatically removed after every *tick*. 
-* Immediate cancel: With a successful [medicine](#medicine-int) [test](#tests), requiring 1 [medical supplies](#list-of-stuff--things) with **Ob** at the current *degree*.
-
-#### Drug-Addicted
-A **drug-addicted** character must take their drug once every 24 hours, or else enter **withdrawal**. 
-
-For every 24 hours that a character is in **withdrawal**, they suffer **-1D** to **all** tests. For every 12 hours that they are in **withdrawal** they have to pass a [willpower](#willpower-will) test at **Ob** 2, or else be forced to dedicate their every bit of strength into acquiring and taking a new dose of the drug. 
-
-After 72 consecutive hours (= 3 full days) of having being in **withdrawal**, the character breaks free from their addiction, removing this **health state**.
-
-#### Electrified
-An **electrified** character suffers **-1D** for their every [test](#tests) requiring [agility](#agility-agi). That means [attributes](#attributes) and [skills](#skills). 
-
-* Graded
-* Shrug off: 1 *point* is automatically removed after the character's next *action*. 
-* Immediate cancel: After a minute of last suffering one *point* of **electrified** or at the end of combat. 
-
-#### Exhausted
-An **exhausted** character begins their turn with -2 **AP** and can run at most only half the distance they normally could. [Sprinting](#combat-movement) is impossible. In addition, they suffer a penalty of **-1D** to all tests. The number of dice for a test cannot be reduced to less than 1 by this penalty. 
-
-This **state** can be recovered from by **actively resting** at least half an hour. 
-
-#### Frostbitten
-A **frostbitten** character suffers -1 [AP](#action-points-ap) during combat and **-1D** to all [tests](#tests) outside of combat. 
-
-* Graded
-* Shrug off: 1 *point* is automatically removed after the character's turn or next *action*. 
-* Immediate cancel: After a minute of last suffering one *point* of **frostbitten** or at the end of combat. 
-
-#### Grappled
-A **grappled** character is unable to move and suffers **-1D** to all defense [tests](#tests), for as long as they are **grappled**. A **grappled** character can break free, by **completely succeeding** a [unarmed combat](#unarmed-combat-str) [tests](#tests) against the other character grappling them. 
-
-#### Hasted
-A **hasted** character enjoys several benefits: 
-* During combat, the character has an additional **AP** to spend and an additional 9'/3m of movement per **AP**. 
-* Out of combat, the character enjoys 50% more movement and action speed compared to their normal movement speed. 
-
-#### Jealous
-A character who has been made unnaturally **jealous**, will do anything in their power to take, whatever it may be, from whoever might have *it*. 
-
-* Graded
-* Shrug off: 1 *point* a [skill](#skills) based on [empathy](#empathy-emp) at **Ob** equal to the current *degree*.
-* Immediate cancel: When the character is made [unconscious](#unconscious) or no other creatures remain alive and/or conscious.
-
-#### Pacified
-A character who is **pacified**, is unable to *willingly* take any action that would directly or indirectly harm any other creature. Note, the character is not physically unable to cause harm, but they **really** don't want to. 
-
-* Graded
-* Shrug off: 1 *point* with a [skill](#skills) based on [strength](#strength-str) at **Ob** equal to the current *degree*.
-* Immediate cancel: When the character is made [unconscious](#unconscious) or no other creatures remain alive and/or conscious.
-
-#### Poisoned
-A **poisoned** character suffers **1 D4** points of [poison](#damage-types) damage every *tick*. 
-
-* Graded
-* Shrug off: 1 *point* with a [skill](#skills) based on [toughness](#toughness-tough) at **Ob** equal to the current *degree*.
-* Immediate cancel: With proper [treatment](#poison-injuries). 
-
-#### Prone
-A character who is prone, is harder to hit with ranged attacks, but easier to hit with melee attacks. 
-
-* **-1D** to melee defense tests. 
-* **-1D** to any melee attack tests. 
-* **+1D** to ranged defense tests. 
-
-It costs 1 [AP](#action-points-ap) to stand up. 
-
-#### Rooted
-A **rooted** character can no longer move their legs. They cannot move from the spot, but can still move their upper body freely. 
-
-This **state** is usually tied to some condition, before it is removed. 
-
-#### Stunned
-A **stunned** character is unable to act, at all. During combat, their turn is skipped. 
-
-* Graded
-* Shrug off: 1 *point* at the end of every turn or every 5 seconds. 
-
-#### Terrified
-A **terrified** character suffers **-2D** to defense tests and **has to** flee from whatever it is that terrified them, until they can no longer perceive it. 
-
-* Graded
-* Shrug off: 1 *point* with a [skill](#skills) based on [willpower](#willpower-will) at **Ob** equal to the current *degree*.
-* Immediate cancel: When the character is made [unconscious](#unconscious) or no other creatures remain alive and/or conscious.
-
-#### Unconscious
-An **unconscious** character is unable to act and is unaware of their surroundings. 
-
-Someone *knocked* **unconscious** can't awaken due to external stimuli. To wake up, they have to recover. For how long, depends on the circumstances. But several hours hould be a good baseline. 
-
-A character can be *knocked* **unconscious**, if they're at their exhaustion threshold and suffer any [bludgeoning](#damage-types) damage and fail an [endurance](#endurance-end) [test](#tests). The **Ob** is 2 + 1 per level of exhaustion past the threshold.
-
-> A character is brought to an exhaustion level of 4 with bludgeoning damage, which is 1 point past their exhaustion threshold of 3. They must succeed an **endurance** test at **Ob** 3, or else be knocked unconscious. 
+A listing of all health states can be found [in the appendix](#list-of-health-states). 
 
 ### Illness
 An illness can affect a character over a perod of time and cause various negative effects. 
@@ -2100,6 +1973,139 @@ Tools: cooking utensils, a pot or pan, a fire place
 | ------------------------------------ | ---------- | --------- | -------------------------------------- | --------------- | 
 | A meal for a few people              | Low        | Low       | Foodstuffs                             | / |
 | A meal for many people               | Moderate   | Moderate  | Plenty of foodstuffs                   | / |
+
+## List of Health States
+The following is a list of all [health states](#health-state) present in the core rules. 
+
+### Berserk
+A character who is in **berserk**, **must** attack the creature nearest to them, regardless of whether it is friend or foe, until it is dead or unconscious. The **berserked** character **must** then move on to the next available and closest victim. 
+
+* Graded
+* Shrug off: 1 *point* with a [skill](#skills) based on [empathy](#empathy-emp) at **Ob** equal to the current *degree*.
+* Immediate cancel: When the character is made [unconscious](#unconscious) or no other creatures remain alive and/or conscious.
+
+### Burning
+For every *point* in **burning**, a character suffers **1 D4** points of [burning](#damage-types) damage every *tick*. 
+
+* Graded
+* Greedy
+* Shrug off: 1 *point* per [AP](#action-points-ap) spent actively patting out flames, rolling on the floor, dousing oneself in water and so on. 
+
+Adjacent allies can also help pat out the flames, by spending an [AP](#action-points-ap) for every point reduction of **burning**. 
+
+### Bleeding
+For every *point* in **bleeding**, a character suffers **1 D4** points of [bleeding](#damage-types) damage every *tick*. 
+
+* Graded
+* Shrug off: 1 *point* with [toughness](#toughness-tough) [test](#tests) with **Ob** at the current *degree*. 
+* Immediate cancel: With a successful [medicine](#medicine-int) [test](#tests), requiring 1 [medical supplies](#list-of-stuff--things) with **Ob** at the current *degree*.
+
+### Death's Door
+**Death's door** is a **state** only a **PC** can enter and represents their final battle with death. 
+
+A **PC** at **death's door** must succeed at least one [toughness](#toughness-tough) test out of a possible of three. If they never succeed, they perish, irrevocably*. The **Ob** is determined as half of the character's [toughness](#toughness-tough), rounded up. 
+* If the character is at **death's door** during [combat](#combat), they must make a [toughness](#toughness-tough) test at the end of every round. 
+* If the character is at **death's door** out of [combat](#combat), they must make a test every minute. 
+
+A character can be helped out of the **death's door** **state**, if all of their **active** [injuries](#injury) are **patched up** or **treated**. 
+
+### Dissolving
+For every point in **dissolving**, a character suffers **1 D4** points of [acid](#damage-types) damage every *tick*. 
+
+* Graded
+* Shrug off: 1 *point* is automatically removed after every *tick*. 
+* Immediate cancel: With a successful [medicine](#medicine-int) [test](#tests), requiring 1 [medical supplies](#list-of-stuff--things) with **Ob** at the current *degree*.
+
+### Drug-Addicted
+A **drug-addicted** character must take their drug once every 24 hours, or else enter **withdrawal**. 
+
+For every 24 hours that a character is in **withdrawal**, they suffer **-1D** to **all** tests. For every 12 hours that they are in **withdrawal** they have to pass a [willpower](#willpower-will) test at **Ob** 2, or else be forced to dedicate their every bit of strength into acquiring and taking a new dose of the drug. 
+
+After 72 consecutive hours (= 3 full days) of having being in **withdrawal**, the character breaks free from their addiction, removing this **health state**.
+
+### Electrified
+An **electrified** character suffers **-1D** for their every [test](#tests) requiring [agility](#agility-agi). That means [attributes](#attributes) and [skills](#skills). 
+
+* Graded
+* Shrug off: 1 *point* is automatically removed after the character's next *action*. 
+* Immediate cancel: After a minute of last suffering one *point* of **electrified** or at the end of combat. 
+
+### Exhausted
+An **exhausted** character begins their turn with -2 **AP** and can run at most only half the distance they normally could. [Sprinting](#combat-movement) is impossible. In addition, they suffer a penalty of **-1D** to all tests. The number of dice for a test cannot be reduced to less than 1 by this penalty. 
+
+This **state** can be recovered from by **actively resting** at least half an hour. 
+
+### Frostbitten
+A **frostbitten** character suffers -1 [AP](#action-points-ap) during combat and **-1D** to all [tests](#tests) outside of combat. 
+
+* Graded
+* Shrug off: 1 *point* is automatically removed after the character's turn or next *action*. 
+* Immediate cancel: After a minute of last suffering one *point* of **frostbitten** or at the end of combat. 
+
+### Grappled
+A **grappled** character is unable to move and suffers **-1D** to all defense [tests](#tests), for as long as they are **grappled**. A **grappled** character can break free, by **completely succeeding** a [unarmed combat](#unarmed-combat-str) [tests](#tests) against the other character grappling them. 
+
+### Hasted
+A **hasted** character enjoys several benefits: 
+* During combat, the character has an additional **AP** to spend and an additional 9'/3m of movement per **AP**. 
+* Out of combat, the character enjoys 50% more movement and action speed compared to their normal movement speed. 
+
+### Jealous
+A character who has been made unnaturally **jealous**, will do anything in their power to take, whatever it may be, from whoever might have *it*. 
+
+* Graded
+* Shrug off: 1 *point* a [skill](#skills) based on [empathy](#empathy-emp) at **Ob** equal to the current *degree*.
+* Immediate cancel: When the character is made [unconscious](#unconscious) or no other creatures remain alive and/or conscious.
+
+### Pacified
+A character who is **pacified**, is unable to *willingly* take any action that would directly or indirectly harm any other creature. Note, the character is not physically unable to cause harm, but they **really** don't want to. 
+
+* Graded
+* Shrug off: 1 *point* with a [skill](#skills) based on [strength](#strength-str) at **Ob** equal to the current *degree*.
+* Immediate cancel: When the character is made [unconscious](#unconscious) or no other creatures remain alive and/or conscious.
+
+### Poisoned
+A **poisoned** character suffers **1 D4** points of [poison](#damage-types) damage every *tick*. 
+
+* Graded
+* Shrug off: 1 *point* with a [skill](#skills) based on [toughness](#toughness-tough) at **Ob** equal to the current *degree*.
+* Immediate cancel: With proper [treatment](#poison-injuries). 
+
+### Prone
+A character who is prone, is harder to hit with ranged attacks, but easier to hit with melee attacks. 
+
+* **-1D** to melee defense tests. 
+* **-1D** to any melee attack tests. 
+* **+1D** to ranged defense tests. 
+
+It costs 1 [AP](#action-points-ap) to stand up. 
+
+### Rooted
+A **rooted** character can no longer move their legs. They cannot move from the spot, but can still move their upper body freely. 
+
+This **state** is usually tied to some condition, before it is removed. 
+
+### Stunned
+A **stunned** character is unable to act, at all. During combat, their turn is skipped. 
+
+* Graded
+* Shrug off: 1 *point* at the end of every turn or every 5 seconds. 
+
+### Terrified
+A **terrified** character suffers **-2D** to defense tests and **has to** flee from whatever it is that terrified them, until they can no longer perceive it. 
+
+* Graded
+* Shrug off: 1 *point* with a [skill](#skills) based on [willpower](#willpower-will) at **Ob** equal to the current *degree*.
+* Immediate cancel: When the character is made [unconscious](#unconscious) or no other creatures remain alive and/or conscious.
+
+### Unconscious
+An **unconscious** character is unable to act and is unaware of their surroundings. 
+
+Someone *knocked* **unconscious** can't awaken due to external stimuli. To wake up, they have to recover. For how long, depends on the circumstances. But several hours hould be a good baseline. 
+
+A character can be *knocked* **unconscious**, if they're at their exhaustion threshold and suffer any [bludgeoning](#damage-types) damage and fail an [endurance](#endurance-end) [test](#tests). The **Ob** is 2 + 1 per level of exhaustion past the threshold.
+
+> A character is brought to an exhaustion level of 4 with bludgeoning damage, which is 1 point past their exhaustion threshold of 3. They must succeed an **endurance** test at **Ob** 3, or else be knocked unconscious. 
 
 ## List of Injuries
 How many times an **injury** can be suffered, can be limited. In the table below, the *limit* is the maximum number of times the **injury** can be suffered by the same character. If there is a slash (/), there is no limit. If a roll would result in an already maxed out **injury**, pick the next **injury** below it, instead, or roll again. 
