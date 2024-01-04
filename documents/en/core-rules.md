@@ -4,7 +4,7 @@
   - [Before the Game](#before-the-game)
   - [The Session](#the-session)
     - [Retell the Previous Session](#retell-the-previous-session)
-    - [The Scenario](#the-scenario)
+    - [During the Session](#during-the-session)
     - [Intent \& Action](#intent--action)
     - [Spending Time](#spending-time)
   - [After the Session](#after-the-session)
@@ -41,17 +41,13 @@
         - [Practicing Attributes](#practicing-attributes)
       - [Base Initiative](#base-initiative)
     - [Skills](#skills)
-      - [Expertise](#expertise)
-        - [Targeting-Types](#targeting-types)
-          - [Single Target (ST)](#single-target-st)
-          - [Multiple Single Target (MST)](#multiple-single-target-mst)
-          - [Area of Effect (AoE)](#area-of-effect-aoe)
       - [Skill Forking](#skill-forking)
       - [Learning Skills](#learning-skills)
       - [Advancing Skills](#advancing-skills)
         - [Practicing Skills](#practicing-skills)
         - [Teaching Skills](#teaching-skills)
       - [Specialization Skills](#specialization-skills)
+      - [Expertise](#expertise)
     - [Innate Abilities](#innate-abilities)
   - [Personality](#personality)
     - [Ambition](#ambition)
@@ -224,6 +220,10 @@
   - [List of Illnesses](#list-of-illnesses)
   - [List of Mutations](#list-of-mutations)
   - [List of Scars](#list-of-scars)
+  - [Targeting-Types](#targeting-types)
+    - [Single Target (ST)](#single-target-st)
+    - [Multiple Single Target (MST)](#multiple-single-target-mst)
+    - [Area of Effect (AoE)](#area-of-effect-aoe)
 
 Version 12 (Playtest)
 
@@ -232,65 +232,71 @@ A role-playing game by Nicolas H.
 # Introduction
 **Ambersteel** is a table-top role-playing game (**TTRPG**), requiring a **game master** (**GM**) and at least one **player** to play. 
 
-At its core, **Ambersteel** is about emergent storytelling and tactical combat. Players experience the evolution of their characters by defining convictions that drive them to action and which are based on the events of the story as it unfolds. 
+At its core, **Ambersteel** is about emergent storytelling and tactical combat. Players experience the evolution of their characters by defining convictions that **drive** them to action and which are based on the events they experience. In that way, players also **drive** the story forward and guide the evolution of the world. 
 
-On the spectrum of *narrative-driven*, *game-y* and *simulationist*, **Ambersteel** aims for the region between *game-y* and *narrative-driven*, while leaning heavily towards *game-y*. 
+On the spectrum of *narrative-driven*, *game-y* and *simulationist*, **Ambersteel** aims for the region between *game-y* and *narrative-driven*, while leaning heavily towards *game-y*. It understands itself as a *game*, not a *simulation*. The rules outlined herein will often reflect that by making broad abstractions and even some unrealistic assertions, with the goal of keeping the game easier to learn and more fun to experience. 
 
-The system is best suited for long-term games, running over several real-world sessions. One-shots are possible but may not provide the best experience, as several of the system's mechanics require breaks in play. 
+Most rules have a certain degree of vagueness to them. This is at least partially deliberate. The situations that can come up during play are simply too varied and numerous to be possible to completely cover with rules, without requiring epic tomes filled to the brim with highly specific rulings for highly specific situations. Instead, the game relies on the **GM** to arbitrate in most situations. The descriptions in the rules here should serve as a point of orientation for the **GM**. How they interpret the rules, is how they're to be understood. 
+
+The system is best suited for long-term "sandbox" style games, running over several real-world sessions. One-shots are possible but may not provide the best experience, as several of the system's mechanics require breaks in play. More narrowly directed experiences are possible, but may require some shortcuts to be taken when it comes to *time* - how long it takes to recover from injuries and illnesses, how long it takes to craft and to practice. 
 
 More details about the system:
 * Player character evolution is baked into the rules. 
   * Characters have long-term and short-term goals, which drive them onward and which change over time. 
-  * There are no classes or other arbitrary restrictions on what a character can do. 
-    * **Attributes** and **skills** improve as they are used. 
-    * Generalist characters benefit from varied knowledge, while specialists enjoy unique abilities. 
+  * Characters learn and improve **skills** as they are used. Generalist characters benefit from varied knowledge, while specialists enjoy unique abilities. 
 * Role-playing is encouraged by game mechanics. 
   * A meta-currency, called **fate points** is earned by *players*, based on what they and their character do in a session. 
   * Characters can help each other in game mechanical ways, encouraging co-operative play. 
 * Combat is a risky affair and requires tactical and strategic thinking, or the readiness to retreat, when things go awry. 
   * When a character suffers **injuries**, they are in *serious trouble*. 
   * Recovery from injuries is expected to take several in-game weeks. This implies plenty of down-time for combat-heavy parties, which is time that can be spent on professions, hobbies and scheming. 
-* Players are expected to manage resources, such as their character's health and assets. Character's are neither *damage sponges*, nor *item vacuums*. 
+* Players are expected to manage their assets (= the things they own). They are not *item vacuums*. 
 
 Extensibility and adaptability form a central foundation of the system. While in its current form it best supports medieval fantasy themes, it should be fairly well adaptable to any theme and setting and even encourages you to do so. The bulk of the work would lie in designing skills and assets that fit your setting.
 
-Most rules will have a certain degree of vagueness to them. This is at least partially deliberate. The situations that can come up during play are simply too varied and numerous to be possible to completely cover with rules, without requiring epic tomes filled to the brim with highly specific rulings for highly specific situations. Instead, the game relies on the **GM** to arbitrate in most situations. The descriptions in the rules here should serve as a point of orientation for the **GM**. How they interpret the rules, is how they're to be understood. 
-
 # How to Play
-As **Ambersteel** is a **roleplaying game**, there are certain rules and expectations of both players and **GM**. 
+As **Ambersteel** is a **roleplaying game**, there are certain rules to follow and expectations made of both players and **GM**. 
 
-Despite the focus on tactical and deadly combat, this is not an *adversarial* game. The **GM** and the players work ***together*** to create a unique experience and weave a story of glorious triumph, tragic defeat or anything in-between. Ultimately, the **GM**'s job is to provide interesting conundrums to the players and their job is to provide interesting answers, in-line with what their characters believe. What's important to remember is that the **GM** is a *player*, too. They're here to have fun and enjoy their time at the table, as well. 
+The **GM** and the players work ***together*** to create a unique experience and weave a story of glorious triumph, tragic defeat or anything in-between. Ultimately, the **GM**'s job is to provide interesting conundrums to the players and their job is to provide interesting answers, in-line with what their characters believe and *want*. Remember that everyone at the table is looking to have fun and that includes the **GM**. 
 
 Each player only directly controls a single character. The **GM** is in control of every single non-player character (**NPC**), the world and the story. A player character is abbreviated as **PC**. 
 
 In some places, where distances are concerned, both feet and meters are noted as units. What attentive readers will notice, is that the conversion between the numbers won't always be correct. This is a deliberate decision to make the math easier, whenever distances are concerned. If a battlemap is used, one square on the grid should represent either a three foot, or one meter square. Furthermore, a single, ordinary human, should occupy an entire such square. 
 
 ## Dice
-**Ambersteel** uses a **dice pool** system of **six-sided dice** (henceforth referred to as **D6**) to resolve [tests](#tests). *Dice pool* means a variable number of dice will be rolled, based on a character's [attributes](#attributes), [skills](#skills), boons and circumstance of the situation they're in. 
+**Ambersteel** uses a **dice pool** system of **six-sided dice** (henceforth referred to as **D6**) to resolve [tests](#tests). *Dice pool* means a variable number of dice will be rolled, based on a character's [attributes](#attributes), [skills](#skills), [boons](#boons--penalties) and circumstance of the situation they're in. 
 
 The following types of dice come into play:
 * **D4** - four-sided dice. Four of these will be enough for most situations. 
-* **D6** - six-sided dice. You will need a lot of these. One or two dozen should suffice. 
+* **D6** - six-sided dice. You will need a lot of these. One dozen should suffice. 
 * **D8** - eight-sided dice. Four of these will be enough for most situations. 
 * **D10** - ten-sided dice. Four of these will be enough for most situations. 
 
 ## Before the Game
-The very first step of preparing for play, is to decide on a theme, world and setting of the game. Ideally, the players and **GM** decide together, but ultimately, the **GM**'s preferences should a greater weight. When a **GM** isn't really interested in the theme, world and setting, the game will quickly start feeling like work to them. They will lose steam and eventually the will to continue the game. 
+The very first step of preparing for play, is to decide on a theme, world and setting of the game. Ideally, the players and **GM** decide together, but ultimately, the **GM**'s preferences should hold a greater weight. When a **GM** isn't really interested in the theme, world and setting, the game will quickly start feeling like a chore to them. The result is they lose motivation to keep running the game. No one wants that. But not to worry! As long as you communicate and respect your **GM**'s wishes, you'll have no problem finding common ground. 
 
-Then, still before anyone can start to play, the players have to [create their characters](#character-creation). Ideally, this process should be done in cooperation with the **GM** and each other, to make sure the character concepts fit into the world and planned narrative. Also, it is advisable to design characters that will work well together, as a group. Or, you could plan for a discordant group of PCs, but make sure the characters find concrete reasons to stick together or else you may find the **GM** eventually running several solo-games that all just *happen* to be played at the same time. 
+* The **theme** describes the types of adventures the **PC**s will experience and what tone they'll have. Is it grimdark or heroic? Is it survival-horror or calm and relaxing? Will politics be important?
+* The **setting** determines the framework that holds the world - what technology, what kinds of creatures and what kinds of environments can be expected? Is it medieval fantasy? Contemporary? The wild-west? Perhaps science-fiction?
+* And ultimately, the **world** is the manifestation of theme and setting. 
+
+Then, still before anyone can start to play, the players have to [create their characters](#character-creation). Ideally, this process should be done in cooperation with the **GM** and each other, to make sure the character concepts fit into the world and planned narrative. Also, it is advisable to design characters that will work well together, as a group. You *could* plan for a discordant group of PCs, but make sure the characters find concrete reasons to stick together! Otherwise, you may find the **GM** eventually running several solo-games that all just *happen* to be played at the same time. 
 
 ## The Session
-This is the time, when the magic happens. The players and **GM** have come together and begin or continue the story. 
-
-[Fate points](#fate-points) cannot be awarded during play and neither can cards be bought from the [hand of fate](#hand-of-fate). However, players and the **GM** should take note of every situation they believe a **PC** (their own included) could have earned a [fate point](#fate-points).
+This is the time when the magic happens. The players and **GM** have come together and begin or continue the story. 
 
 ### Retell the Previous Session
 At the start of a session, one of the players, or perhaps the **GM**, should recall and retell the events of the previous session. This lets everyone refamiliarize themselves with the story so far. It also provides the staging ground for events and actions to come. 
 
-### The Scenario
-It is up to the **GM** to get the ball rolling. They first frame the local area of the world the PCs find themselves in. They describe the scenario at hand - where the PCs are, what they can see, hear, smell and feel - and then ask "who does what?"
+This is also the time when players choose new [aspirations](#aspiration) for their character and to buy [fate-cards](#hand-of-fate). 
 
-Then, the players must keep the ball rolling. In a given scenario, every PC should have something they wish to do. You could take turns or rely on first-come-first-serve, as long as everyone gets to state their character's [intent and action](#intent--action). Every action taken is then resolved, either formally through a [test](#tests) or informally with a direct description of what happens. 
+### During the Session
+[Fate points](#fate-points) cannot be awarded during play and neither can cards be bought from the [hand of fate](#hand-of-fate). However, players and the **GM** should take note of every situation they believe a **PC** (their own included) could have earned a [fate point](#fate-points).
+
+It is up to the **GM** to get the ball rolling. They first frame the local area of the world the PCs find themselves in. They describe the scenario at hand - where the **PC**s are, what they can see, hear, smell and feel - and then ask "who does what?"
+
+Then, the players must keep the ball rolling. In a given scenario, every **PC** should have something they wish to do. You could take turns or rely on first-come-first-serve, as long as everyone gets to state their character's [intent and action](#intent--action). Every action taken is then resolved, either formally through a [test](#tests) or informally with a direct description of what happens. 
+
+A [test](#tests) must be made whenever there is an **obstacle** to overcome - some **action** whose outcome is uncertain. 
 
 > For example, stating your character will leave the room shouldn't warrant a [test](#tests), if there is no obstacle to overcome. Opening an unlocked door in a calm situation should be a "risk-free" thing to do. 
 >
@@ -310,37 +316,35 @@ When deciding on what to do, keep in mind your character's [personality](#person
 ### Spending Time
 Everything the PCs do takes time. How much time, exactly, is variable and depends on the point in the narrative the PCs are in. There are two levels of time-management. 
 
-On the more abstract level, PCs commit to very abstract long-term actions. They might pursue their profession or recover from an injury, the process of which is only described very roughly. This level is called [down-time](#down-time). 
+On the more abstract level, PCs commit to very abstract long-term actions. They might pursue their profession or recover from an injury. This level is called [down-time](#down-time). 
 
-In contrast, on the more concrete level, PCs only commit to fine-grained short-term actions. This is when detailled descriptions and fine time slices come into play. Every action is as small as deciding to open a door that is right in front, on deciding to talk to someone they can see and such. This is considered the **scenario** or **encounter** level. 
+In contrast, on the more concrete level, PCs only commit to fine-grained short-term actions. This is when detailled descriptions and fine time slices come into play. Every action is as small as deciding to open a door that is right in front, or deciding to talk to someone in the same room. This is considered the **scenario** or **encounter** level. 
 
 Typically in RPGs, a fight is considered a **[combat](#combat) encounter**. Non-bloody interaction that involves speaking to NPCs or the PCs amongst themselves is considered a **social encounter**. There are also scenarios of exploration, investigation and survival. 
 
 ## After the Session
-After a playing session is done, the players and **GM** should stick around to discuss which players earned [fate points](#fate-points). This is where players are nominated for [fate points](#fate-points), by each other and by the **GM**. If everyone agrees, the [fate points](#fate-points) are awarded. Players can and should lobby for their [fate points](#fate-points), but shouldn't beg. If most everyone else says no, then that decision stands. That doesn't mean there is no point in discussing the matter further, but such a discussion shoulnd't be forced. 
+After a session is done, the players and **GM** stick around to discuss which players earned [fate points](#fate-points). This is where players are nominated for [fate points](#fate-points), by each other and by the **GM**. If everyone agrees, the [fate points](#fate-points) are awarded. Players can and should lobby for their [fate points](#fate-points), but shouldn't beg. If most everyone else says no, then that decision stands. 
 
 Also after the session, players and the **GM** discuss whether a **PC** should lose a [reaction](#reaction), because they have acted against it or haven't gotten to play it out at all. 
 
-Any time in between sessions, players can spend [fate points](#fate-points) to buy cards (boons) from the [hand of fate](#hand-of-fate).
-
-Also any time in between sessions, players should re-evaluate aspects of their character's [personality](#personality) and change them, as they see fit. 
+Players may now spend earned [fate points](#fate-points) to buy cards (boons) from the [hand of fate](#hand-of-fate) and adjust their character's [personality](#personality) and [aspirations](#aspiration). This may also be postponed to the start of the next session. 
 
 ## Tests
 Whenever the outcome of an action or situation is uncertain, a **test** may be called for by the **GM**, in order to resolve it. 
 
-As a basis for a test, either an [attribute](#attributes) or [skill](#skills) is used. More specifically, their **modified level** determines the number of **D6** available for tests regarding them. The **modified level** is the result of adding and subtracting [boons and penalties](#boons--penalties) (the sum of which is referred to as **modifier**) to or from the **raw level**. Note that while no [boons or penalties](#boons--penalties) are present on the character, their **modified level** is equal to their **raw level**. 
+As a basis for a **test**, either an [attribute](#attributes) or [skill](#skills) is used. More specifically, their **modified level** determines the number of **D6** available for a **test**. The **modified level** is the result of adding and subtracting [boons and penalties](#boons--penalties) (the sum of which is referred to as **modifier**) to or from the **raw level**. Note that while no [boons or penalties](#boons--penalties) are present on the character, their **modified level** is equal to their **raw level**. 
 
-Either a **six** or a **five** rolled on a single die counts as a **positive**. Other values are considered **negatives**. **Positives** are required in order to succeed a test. 
+Either a **six** or a **five** rolled on a single die counts as a **positive**. Other values are considered **negatives**. **Positives** are required in order to succeed a **test**. 
 
-How many **positives** are needed to succeed a test, is determined by the **GM** or by other characters, via a mechanism called **obstacle** (henceforth referred to as **Ob**). The test can only succeed, if at least as many **positives** are rolled, as the given **Ob**. 
+How many **positives** are needed to succeed a **test**, is determined by the **GM** or by other characters, via a mechanism called **obstacle** (henceforth referred to as **Ob**). The **test** can only succeed, if at least as many **positives** are rolled, as the given **Ob**. 
 
-> For example, to succeed a test at **Ob 3**, at least three **positives** must be rolled to succeed the test. Any less, and the test outcome is a failure. 
+> For example, to succeed a **test** at **Ob 3**, at least three **positives** must be rolled to succeed the **test**. Any less, and outcome is a failure. 
 
 The **Ob** isn't always determined directly by the **GM**. Whenever an [opposed test](#opposed-test) must be made, the **Ob** is determined by another character. 
 
-For every test, one of three outcomes is possible: 
-* **Complete Success**: There are enough or even more than required **positives**.
-* **Partial Success/failure**: There are not enough **positives**, but more than none. 
+For every **test**, one of three outcomes is possible: 
+* **Complete Success**: There are enough or more than enough required **positives**.
+* **Partial Failure**: There are not enough **positives**, but more than none. 
 * **Complete Failure**: There are no **positives**, only **negatives**. 
 
 ### Testing an Attribute
@@ -355,7 +359,7 @@ To resolve an **attribute test**, the number of **D6** determined by the **attri
 Unlike with [skills](#skills), it is **not** possible to [fork](#skill-forking) **attributes**. 
 
 ### Testing a Skill
-To resolve a **skill test**, the number of **D6** indicated by the **skill's modified level**, plus the related **attribute's modified level** as additional **D6** must be rolled. 
+To resolve a **skill test**, the number of **D6** indicated by the **skill's modified level**, plus a related **attribute's modified level** as additional **D6** must be rolled. 
 
 > A **PC** has an [agility](#agility-agi) at **modified level** 3 and an [acrobatics](#acrobatics-agi) skill at **modified level** 2. 
 > 
@@ -373,7 +377,7 @@ It possible to [fork](#skill-forking) **skills**, allowing even more dice to be 
 >
 > But since they also know **stealth**, they can petition the **GM** to allow them to [fork](#skill-forking) their **stealth** into their **thievery** test. The **GM** agrees and thus allows an additional **D6** to be added to the roll. 
 >
-> Thus, the **PC** gets to roll 4 **D6** for their test. While still difficult to succeed, the test _can_ now be succeeded, where before such a feat was entirely impossible. 
+> Thus, the **PC** gets to roll 4 **D6** for their test. While still difficult to succeed, the test _can_ now be succeeded, where before such a feat was seemingly impossible. 
 
 A [skill being learned](#learning-skills) is tested with *only* the related **attribute's level**, which also means a *skill being learned* cannot benefit from [forking](#skill-forking). 
 
@@ -382,10 +386,10 @@ A [skill being learned](#learning-skills) is tested with *only* the related **at
 > They are asked to roll a test for [acrobatics](#acrobatics-agi) at **Ob** 2. They don't yet know that skill and thus get to roll only the 3 **D6** from their **agility** for their test. 
 
 ### Types of Test
-There are the following types of tests. The **GM** decides when each type of test is appropriate. 
+There are the following types of tests. The **GM** decides when to use which. 
 
 #### Binary Test
-The outcome of the test is either a **complete success** or **complete failure**. A **partial success** is treated as if it were a **complete failure**. 
+The outcome of the test is either a **complete success** or **complete failure**. A **partial failure** is treated as if it were a **complete failure**. 
 
 #### Stepped Test
 A stepped test is really just a series of [binary tests](#binary-test). This allows for finer-grained results, while still not behaving like a [graduated test](#graduated-test). 
@@ -410,16 +414,18 @@ On the other hand, even a **complete failure** doesn't have to be *absolute*. Th
 > Seeing such a low **degree of failure**, the **GM** rules that the PC *does* succeed their test, but also loses more materials in the process than a **complete success** would have cost them. 
 
 #### Creative Test
-Also known as a **skill challenge**, this type of test asks the player(s) to pick and justify the [skill(s)](#skills) or [attribute](#attributes) to use in a given situation. Players are encouraged to think creatively, come up with and describe their solutions. 
+This type of test asks the player(s) to pick and justify the [skill(s)](#skills) or [attribute](#attributes) to use in a given situation. Players are encouraged to think creatively, come up with and describe their solutions. 
 
 Whether the [attribute](#attributes) or [skill(s)](#skills) in question can apply to resolve the situation at hand, lies at the **GM**'s discretion. 
 
 #### Opposed Test
-Also known as a *versus test*, this type of test occurs, when two characters come into opposition. Who wins, and by how much, is determined by comparing the number of **positives** of each character. The one with the most **positives** is the winner. 
+This type of test occurs, when two characters come into opposition. Who wins, and by how much, is determined by comparing the number of **positives** each achieves. The one with the most **positives** is the winner. But if there is a tie, the **defending** character is considered the winner. 
 
-If there is a tie, the **defending** character is considered the winner. 
+The character whose action requires the opposed test to be made is considered the *attacker*. The other character is considered the *defender*, because they are forced to react. 
 
-What this means, is that the defender first rolls a test of their respective skill, against **Ob 0** (this 'automatic success' does **not** count towards skill progression) and the number of **positives** that result, plus one, is the resulting **Ob** for the attacker to match or exceed. 
+> For example, a character tries to sneak past another, the sneaking character will have to succeed a [stealth](#stealth-agi) test, while the other character will have to succeed an [observation](#observation-perc) test. In this scenario the character testing their **stealth** is considered the *attacker*, while the passive character being *forced* to test their **observation** is considered the defender. 
+
+The defender first rolls a test of their respective skill, against **Ob 0** (this 'automatic success' does **not** count towards skill progression) and the number of **positives** that result, plus one, is the resulting **Ob** for the attacker to match or exceed. 
 
 > In combat, a defender rolls a defense and achieves 3 positives. Thus, the attacker must achieve at least 4 **positives**, in order to win the opposed test. 
 
@@ -429,26 +435,20 @@ Whoever actually wins the opposed test, gets to note a success on their respecti
 > 
 > The attacker rolls an attack and achieves 3 **positives**. The **positives** being tied with the defenders', means the defender wins, by default. 
 > 
-> Thus, the defender notes a success on their defense, while the attacker must note a failure on their respective attack skill. 
-
-The terms of **attacker** and **defender** refer to the character initiating and the character reacting to the **opposed test**, respectively. 
-
-> For example, a character tries to sneak past another, the sneaking character will have to succeed a [stealth](#stealth-agi) test, while the other character will have to succeed an [observation](#observation-perc) test. If the result is a tie, the one making the observation test is considered the **defender**, and wins. 
-
-If a tie occurs in which a **defender** cannot be clearly determined, the result is a deadlock and neither side gains anything. 
+> Thus, the defender notes a success on their respective defense skill, while the attacker must note a failure on their respective attack skill. 
 
 The defender **cannot** [fork](#skill-forking) other skills into their test, whereas the attacker **can**.
+
+If a tie occurs in which a **defender** cannot be clearly determined, the result is a deadlock and neither side gains anything. Mind you, this shouldn't normally happen. Avoid this type of situation to the best of your ability. 
 
 ### Providing Assistance
 Characters can help each other in tests. In order to help with a test, a character must know a relevant [skill](#skills) and the one being helped must accept the help. 
 
-Helping in a test works much like [forking](#skill-forking) a skill. The character being helped receives **+1D6** to roll for each *character* helping them. The number of relevant skills a helping character has is irrelevant. Just one is enough to allow them to help and only one **+1D6** is granted by the helping character. Which skill is used to help with, matters, however. 
+Helping in a test works similar to [forking](#skill-forking) a skill. The character being helped receives **+1D6** to roll for each *character* helping them. The number of relevant skills a helping character has is irrelevant, as is the level of those skills. Just one skill and one level in that skill are enough to allow them to help and only one **+1D6** is granted by the helping character. However, *which* skill is used to help with matters. 
 
-If a **PC** is helping another, their player must describe *how* they're using their relevant skill to help. 
+If a **PC** is helping another, their player must describe *how* they're using their relevant skill to help. Only if the **GM** agrees, may the helping die be granted. 
 
 > For example, a **PC** is currently using their [thievery](#thievery-agi) to lockpick a door. Their allied **PC** is *helping*, by using their [observation](#observation-perc) skill to *keep an eye out for guards*, which allows the one on the door to work without having to constantly look over their shoulder. The **GM** finds that description agreeable and allows the use of the skill to help. 
-
-Ultimately, whether a skill is appropriate to help with is determined by the **GM**. 
 
 #### Helpers Learn
 A character helping in a test, also gains [progress](#advancing-skills) towards the [skill](#skills) and [attribute](#attributes) they've helped with. The outcome of the test for the character they've helped, is their own outcome. 
@@ -487,12 +487,12 @@ These abilities determine the chance a character will succeed at the tasks they 
 
 Two values must be tracked for every **attribute**: Its **raw level** and its current **modifier**, which results from the sum of [boons and penalties](#boons--penalties) affecting it. The result of adding or subtracting the modifier to/from the **raw level** yields the **modified level**, which is used in [tests](#tests).
 
-For [testing](#tests) an **attributes**, see the [Testing an attribute](#testing-an-attribute) section. 
+For [testing](#tests) an **attribute**, see the [Testing an attribute](#testing-an-attribute) section. 
 
-**Attributes** [advance](#advancing-attributes), as they or [skills](#skills) that depend on them are [tested](#tests). It is also possible to [practice](#practicing-attributes) **attributes**. It is **not** possible to teach **attributes**, however. 
+**Attributes** [advance](#advancing-attributes), as they or [skills](#skills) that depend on them are [tested](#tests). It is also possible to [practice](#practicing-attributes) **attributes**, but **not** to teach them. 
 
 #### Physical Attributes
-These numbers represent a character's basic physical abilities. 
+The body's abilities. 
 
 ##### Agility [Agi]
 Determines how nimble, fast and flexible a character is. Any action that requires a character to move very precisely, will require agility. 
@@ -502,10 +502,10 @@ Governs how long a character can endure physical strains.
 
 For every point in endurance, a character raises their [exhaustion threshold](#exhaustion) by 1. All characters have a base [exhaustion threshold](#exhaustion) of 1. 
 
-Endurance also governs how long a character can hold their breath. Every point in endurance grants around 10 minutes. 
+Endurance also governs how long a character can hold their breath. Every point in endurance grants around 3 minutes. 
 
 ##### Perception [Perc]
-Governs a character's ability to passively quickly pick up on fine and fleeting details in their environment or on objects and other characters. 
+Governs a character's ability to passively and quickly pick up on fine and fleeting details in their environment or on objects and other characters. 
 
 Also governs the ability to perceive under difficult conditions such as dim light and fog, or noisy and smelly environments. 
 
@@ -521,12 +521,12 @@ For every 3 points in **strength**, past the initial **modified level**, every [
 > Starting at **modified level** 4 in **strength**, a character can hold **assets** of bulk 3 in each hand. Then, the next increase is at level 7, then level 10 and so on.
 
 ##### Toughness [Tough]
-Governs the [injury limit](#injury) and chance to shrug off [bleeding](#bleeding) and [poison](#poisoned). 
+Governs the [injury limit](#injury) and chance to shrug off certain afflictions. 
 
 For every point in [toughness](#toughness-tough), a character gains **+4 maximum [HP](#hit-points-hp)** and raises their [injury](#injury) limit by 1. 
 
 #### Mental Attributes
-These numbers represent a character's basic mental abilities. 
+The mind's abilities. 
 
 ##### Intelligence [Int]
 Governs a character's ability to reason and analyze. 
@@ -535,16 +535,16 @@ Governs a character's ability to reason and analyze.
 Governs a character's understanding of and ability to recall knowledge. 
 
 #### Social Attributes
-These numbers represent a character's basic social abilities. 
+The heart's abilities.
 
 ##### Empathy [Emp]
 Governs a character's ability to read and understand another's emotions and intentions. 
 
 ##### Oratory [Ora]
-Governs a character's ability to convincingly speak with and before others. Also used to manipulate others. 
+Governs a character's ability to convincingly speak with and before others. 
 
 ##### Willpower [Will]
-Governs a character's ability to withstand persuasion, intimidation, charm or terror. 
+Governs a character's ability to withstand mental pressure. 
 
 #### Advancing Attributes
 Whenever a **PC** [tests](#tests) an [attribute](#attributes) or a [skill](#skills) that depends on it, progress towards advancing the [attribute](#attributes) must be noted. See also: [Tests Bring about Learning](#tests-bring-about-learning)
@@ -588,18 +588,18 @@ For your convenience, the following table contains the precalculated requirement
 Whenever an attribute advances (= its level increases), advancement progress must be reset to 0. 
 
 ##### Practicing Attributes
-It is possible to advance attributes *passively*. Whenever a large period of time is spent outside of active adventure, **PC**'s can practice an attribute of choice. 
+It is possible to advance attributes *passively*. Whenever a large period of time is spent outside of active adventure, **PC**s can practice an attribute of choice. 
 
 A **PC** can only actively practice one **attribute**. Furthermore, a **PC** can not both be actively practicing an **attribute** *and* a **skill**. They must choose - either practice an **attribute** *or* a **skill**. 
 
-For every **cycle** that passes of active practice, the **PC** can roll a [test](#tests) for the chosen **attribute**. 
+For every **cycle** that passes of active practice, the **PC** can roll a [test](#tests) for the chosen **attribute** with **Ob** at half of their **raw attribute** (rounded up). 
 
 A **cycle** is 1 month, regardless of attribute being practiced. 
 
 > A **PC** spends 3 months practicing their [wisdom](#wisdom-wis). In this case, 3 tests can be made and the progress noted. 
 
 #### Base Initiative
-Whenever the order in which characters act matters, their **base initiative** comes into play. It, together with a dice roll, determines how early a character gets to take action in a given scenario. 
+Whenever the order in which characters act matters, their **base initiative** comes into play. It, together with a die roll, determines how early a character gets to take action in a given scenario. 
 
 The **base initiative** of a character is **not an attribute** in the pure sense. It *cannot* be improved directly and is instead derived from the sum of the character's [perception](#perception-perc), [intelligence](#intelligence-int) and [empathy](#empathy-emp). 
 
@@ -614,71 +614,38 @@ Two values must be tracked for every **skill**: Its **raw level** and its curren
 
 **Skills** [advance](#advancing-skills), as they're tested. It is also possible to [practice](#practicing-skills) and [teach](#teaching-skills) **skills**. 
 
-#### Expertise
-**Skills** can offer **expertises**, which further define what the **skill** may be used for. An **expertise** is either a *passive* [boon](#boons--penalties) or an *active* **action**, with effects that apply when used.  
-
-**Expertises** incentivize specialization, by granting special abilities at higher **skill** levels. 
-
-Every **expertise** can have the following properties:
-* A **required level** at which they unlock. This is the **modified level** of their *owning* **skill**. 
-  * An **expertise** may only be used, if the character has the *owning* **skill** with at least this level. 
-  * An **expertise** noting level 0 or no level at all, can be used right away, even without any levels in the **skill** it belongs to. 
-* An [AP](#action-points-ap) cost. 
-  * During [combat](#combat) how often **expertises** may be used is restricted by how much a character can do in a single **turn**. 
-  * A cost of 0 implies the use of the **expertise** is free and can potentially be repeated multiple times in a single **turn**. 
-* A **condition** which restricts when and how often they can be used. Some **expertises** can only be used as a *reaction* to another character's **action**, while others can only be used once per scenario, once per day or only when other specific circumstances align. 
-* An **Ob**. 
-  * When an **Ob** is noted, the *owning* skill must be [tested](#tests) at this **Ob**. It is also possible that instead of a fixed **Ob**, a dynamic number is used. For example, whenever an [opposed test](#opposed-test) is required. In case of an [opposed test](#opposed-test), the opposing **skill** will also be noted. The opposing character must use that **skill** to oppose the use of this **expertise**. In some cases, the opposing character may abstain from resisting. 
-  * An **expertise** without a noted **Ob** does *not* require a [test](#tests) to be made. 
-* A [targeting-type](#targeting-types), which restricts how many targets may be affected at once. 
-* A **maximum distance** at which it may apply to targets. 
-* One or more **damage** values of a specified [type](#damage-types). 
-  * When successfully used, damage can be applied to the [HP](#hit-points-hp) of one or more targets. 
-  * Damage can be noted either as a *flat* value, or a formula, which may involve dice rolls for variable damage. E. g. "3D4 + 5". 
-
-Using an **expertise** counts as an **action**. 
-
-[Weapon skills](#weapon--weapon-type--str) use **expertises** to denote the ways one can attack with them. 
-
-##### Targeting-Types
-The number of targets that an [expertise](#expertise) can apply to, with a single use, is defined through the **targeting-types**. 
-
-###### Single Target (ST)
-A **single-target** (**ST**) action affects only a single target. 
-
-###### Multiple Single Target (MST)
-A **multiple-single-target** (**MST**) action affects at least one and up to a maximum number of targets. 
-
-###### Area of Effect (AoE)
-**Area of Effect** (**aoe**) actions affect *every* target that is in the area of effect. 
-
 #### Skill Forking
-For every **skill** a character knows (= is not currently still learning), and they are currently testing a **skill** that is thematically related, they can **fork** that **skill** into their test, granting them **+1D6** for their [test](#tests). 
+When [testing](#tests) a **skill**, it is possible to **fork** other **skills** into the test, granting more dice to roll and thus a better chance of succeeding. 
+
+For every other **skill** you **fork** into a test, you always receive **+1D6**. The level in the **skill** being **forked** into a test does **not** matter!
+
+It is possible to **fork** as many other **skills** as you want into a test. But:
+* The **skill** being tested must be known (= is not currently being [learned](#learning-skills)) and the **skills** you wish to **fork** into the test must be known.
+  * Exception: [specialization skills](#specialization-skills) *always* receive **forking** from their **prerequisite skills**, even if they are currently in the **learning skill** stage!
+* You must *ask* permission for every other **skill** you wish to **fork** into your test with a plausible explanation of how that other **skill** may be helpful. Only if the **GM** agrees, may you **fork** that **skill** into your test. 
 
 > Imagine a large forked rivermouth. One of the forks feeding into it is also a large river, which represents the **skill** primarily being tested. The other, smaller forks of the river represent the supporting **skills**. They all combine together at the rivermouth. A primary and its supporting **skills** flow together into the test! 
 
-> For example, if a character is testing their [thievery](#thievery-dex--perc--spd) **skill** at **modified level** 3 and they also know [stealth](#stealth-dex--spd--int), they can **fork** their stealth **skill** into their thievery test. Any number of **skills** can be **forked** into a test, but each **fork** only grants **+1D6**. For the thievery test above, it doesn't matter if the character is at stealth level one or five or nine-thousand. They only get **+1D6** to their thievery test. So in this case, if the **GM** agrees, the player gets to roll **4D6** for their test. 
+Always keep in mind that *players* lobby for **skill forking**, not the **GM**! When the **GM** asks you to test a **skill**, ***you*** present the **skills** *you* wish to **fork**. The **GM** should not ever tell you which **skills** to **fork**! That is not their job. 
 
-Which **skills** can be **forked** into a particular test is up to the **GM**. If a player is performing a test, they can lobby for the use of the **skills** they want to **fork** into their particular test, but ultimately, if the **GM** says no, that decision is final. 
+> For example, a **PC** is asked to test their [thievery](#thievery-dex--perc--spd) **skill** to pick a lock. They also know [stealth](#stealth-dex--spd--int) and know a mechanics skill. Their player thus asks for permission to fork their mechanics skill into their thievery test, explaining their experience with mechanics helps them understand the lock's mechanism. The **GM** agrees. 
+>
+> Then, the player asks to also fork their stealth into the test. The **GM** disagrees, as they explain there is currently no need to be stealthy. There are no guards nearby who could possibly perceive the lock-picking attempt. 
+>
+> In the end, the **PC** gets **+1D6** from their mechanics skill for their thievery test. 
 
-> Back to the thievery example. Let's assume a **PC** is trying to quickly unlock a door using their [thievery](#thievery-dex--perc--spd), because they're being chased by guards and desperately need to get away. They could argue to fork their [stealth](#stealth-dex--spd--int) **skill** into the test, but ultimately, what use is stealth when you've already been detected? Unless you can make yourself *unseen* somehow, the **GM** should rule that stealth cannot apply in that situation. 
-
-[Forking](#skill-forking) **learning skills** into tests is **not** allowed. **Forking** into tests of **learning skills** isn't allowed, either. Note an exception to this rule are [specialization skills](#specialization-skills), which *always* receive **forking** from their **prerequisite skills**, even if they are currently in the **learning skill** stage!
+> Anothery thievery example. Let's assume a **PC** is trying to quickly unlock a door using their [thievery](#thievery-dex--perc--spd), because they're being chased by guards and desperately need to get away. They could argue to fork their [stealth](#stealth-dex--spd--int) skill into the test, but ultimately, what use is stealth when you've already been detected? Unless you can make yourself *unseen* somehow, the **GM** should rule that stealth cannot apply in that situation. 
 
 #### Learning Skills
 Whenever asked to test a skill a **PC** does not yet know, it will be added or progressed in the *currently learning* section of the character sheet. 
 
 A skill in learning can only be tested with their related [attribute](#attributes). If multiple attributes are listed for the skill, you can choose which one to test with. 
 
-> A player is asked to test their character's [Leatherworking](#leatherworking-agi) at **Ob** 2. Their character lacks that skill and thus adds it to the *currently learning* section on their character sheet. Assuming their character has an agility of 3, they get to roll **3D6**. But since this is a skill being learned, the **Ob** must be doubled. 
-> 
-> The player cannot, mathematically, succeed a test at **Ob 4** with just **3D6**. Their character fails, but at least they learned a little from the attempt, which is noted on the skill in the *currently learning* section. 
-
-The outcome of a test gets noted on the skill it was made for, not the attribute actually used for the test. 
+> A player is asked to test their character's [Leatherworking](#leatherworking-agi) at **Ob** 2. Their character lacks that skill and thus adds it to the *currently learning* section on their character sheet. Assuming their character has an agility of 3, they get to roll **3D6**. 
 
 [Forking](#skill-forking) **learning skills** into tests is **not** allowed. **Forking** into tests of **learning skills** isn't allowed, either. Note an exception to this rule are [specialization skills](#specialization-skills), which *always* receive **forking** from their **prerequisite skills**, even if they are currently in the **learning skill** stage!
 
-It **is** possible to receive help or [tutoring](#teaching-skills) on a learning skill. 
+It **is** possible to receive [help](#providing-assistance) or [tutoring](#teaching-skills) for a **learning skill**. 
 
 #### Advancing Skills
 Whenever a **PC** uses a **skill** in a [test](#tests), the outcome must be noted, both on the skill **and** its associated [attribute](#attributes). See also: [Tests Bring about Learning](#tests-bring-about-learning)
@@ -686,27 +653,27 @@ Whenever a **PC** uses a **skill** in a [test](#tests), the outcome must be note
 Note that *level* in this section refers to the *raw level* of a **skill**. That is, the level as it is **before** [boons and penalties](#boons--penalties) are applied to it. 
 
 Skill levels and advancement are divided into three tiers: **Dabbling**, **Apprentice** and **Master**. 
-* Skills at **dabbling level** are any skills at level 0, which means any [learning skill](#learning-skills). They are hard to learn without help. 
-* Skills at **apprentice level** are easier to improve and range from the levels 1 to and including 4. 
-* Skills at **master level** are very hard to improve and start at, including, 5. Mastery is open-ended, which means it doesn't, technically, stop. 
+* Skills at **dabbling level** are any skills at level 0, which means any [learning skill](#learning-skills). 
+* Skills at **apprentice level** are easy to improve and range from the levels 1 to and including 4. 
+* Skills at **master level** are difficult to improve and start at levle 5. Mastery is open-ended, which means it doesn't, technically, stop. 
 
 Advancing a **dabbling skill** (level 0) requires: 
 * 6 **complete successes**. 
-* 9 **partial successes** or **complete failures**. 
+* 9 **partial failures** or **complete failures**. 
 
 Advancing an **apprentice skill** (level 1-4) requires:
 * (N + 1) * 2 **complete successess**.
-* (N + 1) * 3 **partial successess** or **complete failures**.
-* Where *N* is the *current* level of the akill. 
+* (N + 1) * 3 **partial failures** or **complete failures**.
+* Where *N* is the *current* level of the **skill**. 
 
 Advancing a **master skill** (level 5+) requires:
 * N * N **complete successess**.
-* (N + 1) * (N + 1) **partial successess** or **complete failures**.
-* Where *N* is the *current* level of the akill. 
+* (N + 1) * (N + 1) **partial failures** or **complete failures**.
+* Where *N* is the *current* level of the **skill**. 
 
 > A character has a [nature](#nature-int) **skill** at level 2. 
 > 
-> To advance their **skill** to level 3, they would need (2 + 1) * 2 = 6 **complete successes** and (2 + 1) * 3 = 9 **partial successess** or **complete failures**.
+> To advance their **skill** to level 3, they would need (2 + 1) * 2 = 6 **complete successes** and (2 + 1) * 3 = 9 **partial failures** or **complete failures**.
 
 For your convenience, the following table contains the precalculated requirements to advance a **skill** level. 
 * In the table, 'Level' is the character's *current level* in the **skill**. 
@@ -733,6 +700,8 @@ It is possible to advance **skills** *passively*. Whenever a large period of tim
 
 A **PC** can only actively practice one **category of skills**. For every **cycle** that passes of active practice, the **PC** can roll a [test](#tests) of a skill of the corresponding category. Furthermore, a **PC** can not both be actively practicing a **skill** *and* an **attribute**. They must choose - either practice a **skill** *or* an **attribute**. 
 
+The **Ob** for such practice [tests](#tests) is always half of the **skill's raw level** (rounded up). 
+
 | Skill Category | Cycle    |
 | -------------- | -------- |
 | Physical       | 3 Weeks  |
@@ -740,12 +709,14 @@ A **PC** can only actively practice one **category of skills**. For every **cycl
 | Craftsmanship  | 1 Month  |
 | Knowledge      | 2 Months |
 
-> A **PC** spends seven weeks practicing their [fishing](#fishing-end), while waiting for their comrade to recover from their [injuries](#injury). [fishing](#fishing-end) being a physical skill, the cycle for tests is 3 weeks. In this case, 2 tests can be made and their outcomes noted. 
+> A **PC** spends seven weeks practicing their [fishing](#fishing-end), while waiting for their comrade to recover from their [injuries](#injury). [fishing](#fishing-end) being a physical skill, has a test cycle of 3 weeks. In this case, 2 tests can be made and their outcomes noted. 
 
 ##### Teaching Skills
 Much like it is possible for a character to [practice](#practicing-skills) on their own, they can also be taught by another, who knows more than them. 
 
-Both teacher and pupil must actively spend time together, furthering the pupil's skill. The rules for cycle and test are the same as with [practice](#practicing-skills). The cycles noted in the table below are used instead. 
+Both teacher and pupil must actively spend time together, furthering the pupil's skill. The teacher's skill must be at least one **raw level** higher than that of their student.
+
+The rules for cycle and test are the same as with [practice](#practicing-skills), but the cycles noted in the table below are used, instead. Also, the student can use an extra **+1D6** to resolve their tests of the skill they're being taught. 
 
 | Skill Category | Cycle    |
 | -------------- | -------- |
@@ -754,23 +725,49 @@ Both teacher and pupil must actively spend time together, furthering the pupil's
 | Craftsmanship  | 3 Weeks  |
 | Knowledge      | 1 Month  |
 
-If the teacher's skill is at least one **raw level** higher than that of their student, the student can use an extra **+1D6** to resolve their tests of the skill they're being taught. 
-
 #### Specialization Skills
-Some **Skills** can only be learned, if other *prerequisite* **skills** are known. Such **skills** represent a further direction of *specialization*, which can in some circumstances replace usage of one of the prerequisite **skills**, or provide a new set of [expertises](#expertise) to extend what the prerequisites were capable of. Furthermore, the prerequisites may be required to be known at *at least* a certain given level. Unless if a prerequisite **skills** are *known* at that level, the specialized **skill** **cannot** be learned. 
+Some **Skills** can only be learned, if other *prerequisite* **skills** are known. Such **skills** represent a further direction of *specialization*, which can in some circumstances replace usage of one of the prerequisite **skills**, or provide a new set of [expertises](#expertise) to extend what the prerequisites were capable of. Furthermore, the prerequisites may be required to be known at *at least* a certain given level. Unless the prerequisite **skills** are *known* at that level, the specialization **skill cannot** be learned. 
 
-A **specialization skill** [advance](#advancing-skills) as any other skill. Their prerequisite **skills** do **not** [advance](#advancing-skills) along with the **specialization skill**! 
+A **specialization skill** [advances](#advancing-skills) as any other **skill**. Their prerequisite **skills** do **not** [advance](#advancing-skills) along with the **specialization skill**! 
 
 For a [test](#tests), any prerequisite **skills** are *always automatically* [forked](#skill-forking) into the [test](#tests). 
 
 > A character knows skill A and skill B. These are prerequisite skills for skill C, which the character has just begun learning and has at level 0. 
 >
-> For a test of skill C, they get to roll **+2D6** from their prerequisite skills, even though normally, **learning skills** cannot benefit from **skill forking**!
+> For a test of skill C, they get to roll **+2D6** from their prerequisite skills, even though, **learning skills** cannot normally benefit from **skill forking**.
+
+#### Expertise
+**Skills** can offer **expertises**, which further define what the **skill** may be used for. An **expertise** is either a *passive* [boon](#boons--penalties) or an *active* **action**, with effects that apply when used.  
+
+**Expertises** incentivize specialization, by granting special abilities at higher **skill** levels. 
+
+"*Owning* **skill**" refers to the **skill** an **expertise** belongs to. 
+
+Every **expertise** can have the following properties:
+* A **required level** at which they unlock. This is the **modified level** of their *owning* **skill**. 
+  * An **expertise** may only be used, if the character has the *owning* **skill** with at least this level. 
+  * An **expertise** noting level 0 or no level at all, can be used right away, even without any levels in the **skill** it belongs to. 
+* An [AP](#action-points-ap) cost. 
+  * During [combat](#combat) how often **expertises** may be used is restricted by how much a character can do in a single **turn**. 
+  * A cost of 0 implies the use of the **expertise** is free and can potentially be repeated multiple times in a single **turn**. 
+* A **condition** which restricts when and how often they can be used. Some **expertises** can only be used as a *reaction* to another character's **action**, while others can only be used once per scenario, once per day or only when other specific circumstances align. 
+* An **Ob**. 
+  * When an **Ob** is noted, the *owning* skill must be [tested](#tests) at this **Ob**. It is also possible that instead of a fixed **Ob**, a dynamic number is used. For example, whenever an [opposed test](#opposed-test) is required. In case of an [opposed test](#opposed-test), the opposing **skill** will also be noted. The opposing character must use that **skill** to oppose the use of this **expertise**. In some cases, the opposing character may abstain from resisting. 
+  * An **expertise** without a noted **Ob** does *not* require a [test](#tests) to be made. 
+* A [targeting-type](#targeting-types), which restricts how many targets may be affected at once. 
+* A **maximum distance** at which it may apply to targets. 
+* One or more **damage** values of a specified [type](#damage-types). 
+  * When successfully used, damage can be applied to the [HP](#hit-points-hp) of one or more targets. 
+  * Damage can be noted either as a *flat* value, or a formula, which may involve dice rolls for variable damage. E. g. "3D4 + 5". 
+
+Using an **expertise** counts as an **action**. 
+
+[Weapon skills](#weapon--weapon-type--str) use **expertises** to denote the ways one can attack with them. 
 
 ### Innate Abilities
 An **innate ability** is an [attribute](#attributes) or [skill](#skills) unique to a specific species or individual. 
 
-Especially for animals and monsters, **innate abilities** represent natural weapons, such as talons, stingers, sharp teeth and so on. They are noted in a special "innate abilities" section on the character sheet. 
+Especially for animals and monsters, **innate abilities** represent natural weapons, such as talons, stingers, sharp teeth and such. They are noted in a special "innate abilities" section on the character sheet. 
 
 An **innate ability** **cannot** be learned and there is no advancement for **innate abilities**. 
 
@@ -952,9 +949,9 @@ An illness can affect a character over a perod of time and cause various negativ
 
 Illness can be contracted in a variety of ways, although most of them involve an open wound exposed to bacterial breeding grounds, such as bogs, sewers, mass graves and trash dumps. Or from something ingested, such as spoiled or poisoned food. 
 
-When a character is about to contract an illness, they most make a [toughness](#toughness-tough) test:
+When a character is about to contract an illness, they must make a [toughness](#toughness-tough) test:
 * On a **complete success**, the illness is shrugged off. 
-* On a **partial success** or **complete failure**, the illness is contracted and will immediately apply its effects to the character. 
+* On a **partial failure** or **complete failure**, the illness is contracted and will immediately apply its effects to the character. 
 * If they contracted the illness, determine which one by rolling a **D100** and picking the corresponding illness from the [list of illnesses](#list-of-illnesses). 
   * Once the illness has been determined, its duration and severity must also be rolled. 
 
@@ -2354,3 +2351,15 @@ Most [scars](#scar) can only be incurred once, but some may be incurred multiple
 | Scarred eye             | /         | A rather dashing scar stretching from above to below the eye tells a story of adventure. Or of a really unfortunate accident. +1 [intimidation](#intimidation-will). |
 | Scarred leg             | /         | A reminder of a past injury to your leg. |
 | Scarred limb            | /         | A reminder of a past injury to a limb. |
+
+## Targeting-Types
+The number of targets that an [expertise](#expertise) can apply to, with a single use, is defined through the **targeting-types**. 
+
+### Single Target (ST)
+A **single-target** (**ST**) action affects only a single target. 
+
+### Multiple Single Target (MST)
+A **multiple-single-target** (**MST**) action affects at least one and up to a maximum number of targets. 
+
+### Area of Effect (AoE)
+**Area of Effect** (**aoe**) actions affect *every* target that is in the area of effect. 
