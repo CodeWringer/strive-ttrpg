@@ -259,7 +259,7 @@ As **Ambersteel** is a **roleplaying game**, there are certain rules to follow a
 
 The **GM** and the players work ***together*** to create a unique experience and weave a story of glorious triumph, tragic defeat or anything in-between. Ultimately, the **GM**'s job is to provide interesting conundrums to the players and their job is to provide interesting answers, in-line with what their characters believe and *want*. Remember that everyone at the table is looking to have fun and that includes the **GM**. 
 
-Each player only directly controls a single character. The **GM** is in control of every single non-player character (**NPC**), the world and the story. A player character is abbreviated as **PC**. 
+Each player only directly controls a single character. The **GM** is in control of every single [non-player character (**NPC**)](#non-player-character-npc), the world and the story. A player character is abbreviated as **PC**. 
 
 In some places, where distances are concerned, both feet and meters are noted as units. What attentive readers will notice, is that the conversion between the numbers won't always be correct. This is a deliberate decision to make the math easier, whenever distances are concerned. If a battlemap is used, one square on the grid should represent either a three foot, or one meter square. Furthermore, a single, ordinary human, should occupy an entire such square. 
 
@@ -314,13 +314,13 @@ Of course, how appropriate a certain [attribute](#attributes) or [skill](#skills
 When deciding on what to do, keep in mind your character's [personality](#personality) as that should inform you of the kinds of actions they might take. 
 
 ### Spending Time
-Everything the PCs do takes time. How much time, exactly, is variable and depends on the point in the narrative the PCs are in. There are two levels of time-management. 
+Everything the **PC**s do takes time. How much time, exactly, is variable and depends on the point in the narrative the **PC**s are in. There are two levels of time-management. 
 
-On the more abstract level, PCs commit to very abstract long-term actions. They might pursue their profession or recover from an injury. This level is called [down-time](#down-time). 
+On the more abstract level, **PC**s commit to very abstract long-term actions. They might pursue their profession or recover from an injury. This level is called [down-time](#down-time). 
 
-In contrast, on the more concrete level, PCs only commit to fine-grained short-term actions. This is when detailled descriptions and fine time slices come into play. Every action is as small as deciding to open a door that is right in front, or deciding to talk to someone in the same room. This is considered the **scenario** or **encounter** level. 
+In contrast, on the more concrete level, **PC**s only commit to fine-grained short-term actions. This is when detailled descriptions and fine time slices come into play. Every action is as small as deciding to open a door that is right in front, or deciding to talk to someone in the same room. This is considered the **scenario** or **encounter** level. 
 
-Typically in RPGs, a fight is considered a **[combat](#combat) encounter**. Non-bloody interaction that involves speaking to NPCs or the PCs amongst themselves is considered a **social encounter**. There are also scenarios of exploration, investigation and survival. 
+Typically in RPGs, a fight is considered a **[combat](#combat) encounter**. Non-bloody interaction that involves speaking to [NPCs](#non-player-character-npc) or the **PC**s amongst themselves is considered a **social encounter**. There are also scenarios of exploration, investigation and survival. 
 
 ## After the Session
 After a session is done, the players and **GM** stick around to discuss which players earned [fate points](#fate-points). This is where players are nominated for [fate points](#fate-points), by each other and by the **GM**. If everyone agrees, the [fate points](#fate-points) are awarded. Players can and should lobby for their [fate points](#fate-points), but shouldn't beg. If most everyone else says no, then that decision stands. 
@@ -776,31 +776,41 @@ Even **PC**s might receive **innate abilities**, based on their chosen species o
 ## Personality
 All **PC**s have a **personality**, which is an expression of their [personality traits](#personality-traits), [ambition](#ambition), [aspirations](#aspiration) and [reactions](#reaction). 
 
-All aspects of a **PC**s **personality** may change, as the game is played. Through their actions and the situations they're confronted with, a character's **personality** may be affected. 
+The [ambition](#ambition), [aspirations](#aspiration) and [reactions](#reaction) are grouped together and referred to as the character's **drivers**. These **drivers** prevent inaction and thus also prevent stagnation of the character's development. That is because the [ambition](#ambition) and the [aspirations](#aspiration) define goals for the character to always work towards. 
 
-It is from this fluidity, that a character becomes so interesting to explore, because even as their player, you might not know how the world and events they experience may affect them. They're a book you start writing from the beginning - not the ending.
+All aspects of a **PC**s **personality** may change, as the game is played, through their actions and the events of the story. It is from this fluidity, that a character becomes so interesting to explore, because even as their player, you might not know the paths they'll take. They're a book you start writing from the beginning - not the ending. 
 
-In addition to that, players can earn a meta-currency called [fate points](#fate-points), by playing their character either in accordance with their **personality**, or by dramatically breaking with it. It is the **GM**'s job to present the **PC**s with conflicts that will challenge their **personality** and it is the player's job to provide answers. 
+This is not to say you have no control. On the contrary - *you* define your character's [ambition](#ambition) and [aspirations](#aspiration). But when you do, keep in mind that priorities may change due to the events of the story. 
 
-Of course, even **NPC**s have a **personality**, but unlike **PC**s, this is not cemented through rules and they **cannot** earn [fate points](#fate-points). 
+> A **PC** might have an **aspiration** to create a fantastic work of art. On their way to the market or store, to buy supplies for their craft, they catch a child trying to pickpocket them. 
+>
+> Of course, at first, they're angry with the child and demand to be brought to its parents. But the child explains they're an orphan and have no one to care for them. The **PC**, being very empathic and knowing what it's like to go hungry, decides to go buy a loaf of bread for the child. 
+>
+> After the session, the player decides to switch out one of their **PC**'s **aspirations**. Instead of wanting to create that work of art, they now want to help that child find adoptive parents, to take the child into their family. 
+>
+> The player did not predict these events, but after thinking about them, found they affected their character in decisive ways. 
 
-The [ambition](#ambition), [aspirations](#aspiration) and [reactions](#reaction) are grouped together and referred to as the character's **drivers** or **driver system**. This **driver system** prevents inaction and thus stagnation of the character's development, as they'll always have some goal to work towards. 
+It is the **GM**'s job to present the **PC**s with conflicts that will challenge their **personality** and it is the player's job to provide answers. Through these challenges, characters can grow and evolve. 
+
+By playing their character either in accordance with their **personality**, or by dramatically breaking with it, players can earn a meta-currency called [fate points](#fate-points). With this meta-currency, they can buy [fate-cards](#hand-of-fate), which are powerful meta-abilities that may help shift the odds in a tough situation. 
+
+Of course, [NPCs](#non-player-character-npc) have a **personality**, too. But unlike **PC**s, this is not cemented through rules and they **cannot** earn [fate points](#fate-points). 
 
 ### Ambition
 Every **PC** must have one **ambition** - a life-fulfilling long-term goal to pursue. This can be anything from "found a family" to "become king of the world!". No matter how unrealistic, an **ambition** is a primary driver for a character, to guide them onward. The important part is to think *big*. Something easily achievable would make for a dull **ambition** and defeat the point of it. 
 
-An **ambition** is not *expected* to change often. An ideal **ambition** would accompany a character a long time. 
+An **ambition** is not *expected* to change often. An ideal **ambition** would accompany a character a long time. But that isn't to say you mustn't ever change it. On the contrary, if events play out that shake up your character's deepest desires, then changing their **ambition** may be a very appropriate action to take.
 
 Whenever a **PC** acts in accordance with their **ambition**, their player earns [fate points](#fate-points). 
 
 ### Aspiration
-Every **PC** must have three **aspirations** - immediate goals to pursue in the current game session. They're usually born from circumstance and are expected to change frequently. 
+Every **PC** must have three **aspirations** - immediate goals to pursue in the current game session. They're usually born from immediate circumstance and are expected to change frequently. 
 
 **Aspirations** should be a *conviction*, followed by an *actionable* goal to pursue. Any **aspiration** that includes the words "I will ..." is usually *actionable* - the character wants to **do** something, which will possibly achieve their goal. A *conviction* is a statement of *why* the character has set this goal. 
 
-> For example, a **PC** learns of a conspiracy against their lord during the session. After the session, they decide they'll change one of their **aspirations** to "My lord's safety is paramount! I will uncover the plot against my lord!"
+> For example, a **PC** learns of a conspiracy against their lord during the session. After the session, they decide they'll change one of their **aspirations** to "My lord's safety is paramount! I will uncover the plot against them!"
 >
-> The first part is the *conviction* - the *why* - and the second part the action they want to take - that which makes the **aspiration** *actionable*. 
+> The first part is the *conviction* - the *why*. The second part the action they want to take - that which makes the **aspiration** *actionable*. 
 > 
 > With that they set the stage for their character when the next session arrives. The **GM** thus has an idea of what story elements to prepare for and the other players know why the one **PC** suddenly acts more suspiciously and inquisitively. 
 
@@ -809,6 +819,8 @@ Every **PC** must have three **aspirations** - immediate goals to pursue in the 
 > For example, a **PC** learns their ally is a member of a secretive and potentially dangerous cult. After the session, the player determines the new **aspiration** "I look out for my allies! I will get my ally to leave that dangerous cult!" 
 > 
 > Whether successful or not, this **aspiration**, in play, will create an **interesting conflict** between the two **PC**s. But always keep in mind not to do anything *too* drastic or antagonistic towards fellow **PC**s. After all, why should people who actually hate each other's guts stick together as a group? Perhaps you can find a good reason, but this should be a deliberate decision that the entire player group agrees on. 
+
+If you cannot think of three **aspirations**, don't hesitate to ask the **GM** and the other players for ideas and suggestions! And once you have all three, make sure to run them by your **GM**. After all, your **GM** must be able to understand your **aspirations** to properly run the game. 
 
 Whenever a **PC** acts in accordance with their **aspirations**, their player earns [fate points](#fate-points). 
 
