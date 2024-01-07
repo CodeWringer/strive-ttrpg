@@ -71,9 +71,11 @@ However, there is a distinction made between "proper" **NPC**s and "simple" type
 * A "simple" **NPC** is only a passing acquaintance, an animal or a faceless enemy in a conflict. They serve as temporary obstacles or "padding" in a scene, to give it liveliness without the bureaucratic overhead of creating proper **NPC**s. 
 
 #### Challenge Ratings (CR)
-**Challenge ratings** (**CR**) simplify **NPC** creation tremendously. Instead of distinct values for every attribute and skill, one could instead define a challenge rating per attribute category. **Every** [opposed test](./core-rules.md#opposed-test) targeting this **NPC** is answered with one of these values. 
+**Challenge ratings** (**CR**) simplify **NPC** creation tremendously. Instead of distinct values for every attribute and skill, you can define a **CR** per attribute category. Or go one step beyond and have *just one* **CR** for all the attributes and skills of the **NPC**. 
 
-E. g., for any [physical attribute](./core-rules.md#physical-attributes) or [physical skill](./core-rules.md#physical-skills), every [opposed test](./core-rules.md#opposed-test) is made with the same number of dice. This even allows you to delegate [opposed tests](./core-rules.md#opposed-test) entirely to your players. Simply name them the **3 challenge ratings** for the **NPC**s they face - perhaps with a small note or card that can be placed on the table - and they can roll their **Ob** on their own, without your involvement. 
+**Every** [opposed test](./core-rules.md#opposed-test) targeting this **NPC** is answered with one of these values. And every test initiated by this **NPC** uses the **CR** number of dice. 
+
+E. g., for any [physical attribute](./core-rules.md#physical-attributes) or [physical skill](./core-rules.md#physical-skills), every [opposed test](./core-rules.md#opposed-test) is made with the same number of dice. This allows you to delegate [opposed tests](./core-rules.md#opposed-test) entirely to your players. Simply name them the **3 CR**s for the **NPC**s they face - perhaps with a small note or card that can be placed on the table - and they can roll their **Ob** on their own, without your involvement. 
 
 > For example, a character with a **CR** of physical 3 would answer **all** physical skill or attribute tests with **3D6**.
 

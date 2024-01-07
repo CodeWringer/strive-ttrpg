@@ -73,7 +73,6 @@
     - [Luggage](#luggage)
       - [Carrying Capacity](#carrying-capacity)
     - [Property](#property)
-    - [Weapon Properties](#weapon-properties)
   - [Non-Player Character (NPC)](#non-player-character-npc)
 - [Fate Points](#fate-points)
   - [Minor Fate Points](#minor-fate-points)
@@ -89,7 +88,7 @@
       - [Crafting Time Chart](#crafting-time-chart)
     - [Trade](#trade)
       - [Seller's Chart](#sellers-chart)
-    - [Buyer's Chart](#buyers-chart)
+      - [Buyer's Chart](#buyers-chart)
     - [Recovery](#recovery)
     - [Training](#training)
   - [Scenario-Time](#scenario-time)
@@ -117,7 +116,7 @@
     - [Throwing-Accuracy](#throwing-accuracy)
     - [Throwing-Damage](#throwing-damage)
   - [Unarmed Combat (Str)](#unarmed-combat-str)
-- [Social Procedures](#social-procedures)
+- [General Interactions](#general-interactions)
   - [Appraisal](#appraisal)
 - [Appendix](#appendix)
   - [Character Creation](#character-creation)
@@ -142,7 +141,8 @@
     - [Determine Assets](#determine-assets)
     - [Determine Max HP \& Injury Maximum](#determine-max-hp--injury-maximum)
     - [Determine Exhaustion Threshold](#determine-exhaustion-threshold)
-  - [List of Assets](#list-of-assets)
+  - [Asset Appendix](#asset-appendix)
+    - [Weapon Properties](#weapon-properties)
     - [List of Stuff \& Things](#list-of-stuff--things)
   - [Lists of Skills](#lists-of-skills)
     - [Physical Skills](#physical-skills)
@@ -477,6 +477,8 @@ While the **GM** decides on how much time a given test will need, the following 
 # Character
 A character is a representation of a sentient creature in the game world. They're an amalgam of their [abilities](#abilities), [personality](#personality), [health](#health--exhaustion) and [assets](#assets). 
 
+A guide on character creation can be found [in the appendix](#character-creation). It has been placed there because the assumption is you won't have to look up character creation as often as the other core rules. 
+
 ## Abilities
 All characters have innate and learned abilities. These are described as [attributes](#attributes) and [skills](#skills). 
 
@@ -778,7 +780,7 @@ All **PC**s have a **personality**, which is an expression of their [personality
 
 The [ambition](#ambition), [aspirations](#aspiration) and [reactions](#reaction) are grouped together and referred to as the character's **drivers**. These **drivers** prevent inaction and thus also prevent stagnation of the character's development. That is because the [ambition](#ambition) and the [aspirations](#aspiration) define goals for the character to always work towards. 
 
-All aspects of a **PC**s **personality** may change, as the game is played, through their actions and the events of the story. It is from this fluidity, that a character becomes so interesting to explore, because even as their player, you might not know the paths they'll take. They're a book you start writing from the beginning - not the ending. 
+All aspects of a **PC**'s **personality** may change, as the game is played, through their actions and the events of the story. It is from this fluidity, that a character becomes so interesting to explore, because even as their player, you might not know the paths they'll take. They're a book you start writing from the beginning - not the ending. 
 
 This is not to say you have no control. On the contrary - *you* define your character's [ambition](#ambition) and [aspirations](#aspiration). But when you do, keep in mind that priorities may change due to the events of the story. 
 
@@ -790,7 +792,7 @@ This is not to say you have no control. On the contrary - *you* define your char
 >
 > The player did not predict these events, but after thinking about them, found they affected their character in decisive ways. 
 
-It is the **GM**'s job to present the **PC**s with conflicts that will challenge their **personality** and it is the player's job to provide answers. Through these challenges, characters can grow and evolve. 
+It is the **GM**'s job to present the **PC**s with conflicts that will challenge their **personality** and it is the players' job to provide answers. Through these challenges, characters can grow and evolve. 
 
 By playing their character either in accordance with their **personality**, or by dramatically breaking with it, players can earn a meta-currency called [fate points](#fate-points). With this meta-currency, they can buy [fate-cards](#hand-of-fate), which are powerful meta-abilities that may help shift the odds in a tough situation. 
 
@@ -806,7 +808,7 @@ Whenever a **PC** acts in accordance with their **ambition**, their player earns
 ### Aspiration
 Every **PC** must have three **aspirations** - immediate goals to pursue in the current game session. They're usually born from immediate circumstance and are expected to change frequently. 
 
-**Aspirations** should be a *conviction*, followed by an *actionable* goal to pursue. Any **aspiration** that includes the words "I will ..." is usually *actionable* - the character wants to **do** something, which will possibly achieve their goal. A *conviction* is a statement of *why* the character has set this goal. 
+**Aspirations** should be written down as a *conviction*, followed by an *actionable* goal to pursue. Any **aspiration** that includes the words "I will ..." is usually *actionable* - the character wants to **do** something, which will possibly achieve their goal. A *conviction* is a statement of *why* the character has set this goal. 
 
 > For example, a **PC** learns of a conspiracy against their lord during the session. After the session, they decide they'll change one of their **aspirations** to "My lord's safety is paramount! I will uncover the plot against them!"
 >
@@ -847,7 +849,7 @@ As such, there are two types of **reactions**:
 ### Personality Traits
 Every **PC** has several values that help inform their player what their character is like - how they act. 
 
-This personality is codified by the following matrix. Each row is a scale, with two opposing traits. Whenever A trait reaches the "signature" column, a **PC** is *known* for that trait! In fact, they can hardly *not* act that way! In order for behaviour to deviate from a signature trait, [self-control](#self-control-willemp) at **Ob** 2 or half of [self-control](#self-control-willemp) (rounded up) - take the higher number - must be made. Only if it is a **success**, can the player choose to deviate from the signature trait's dictated behavior. 
+This personality is codified by the following matrix. Each row is a scale, with two opposing traits. Whenever A trait reaches the "signature" column, a **PC** is *known* for that trait! In fact, they can hardly *not* act that way! In order for behaviour to deviate from a signature trait, a [self-control](#self-control-willemp) test at **Ob** 2 or half of of its raw level (rounded up) - take the higher number - must be made. Only if it is a **success**, can the player choose to deviate from the signature trait's dictated behavior. 
 
 Whenever **PC**s very strongly act in a certain way, their value in a **personality trait** may change. Take note during play, how the characters have acted. After the session, discuss whether any of the **PC**s have shown a very strong drift towards either side of the scale. And if everyone agrees, a personality change is in order!
 
@@ -873,24 +875,28 @@ Additionally, playing to or even against their character's **personality traits*
 Every character has **Hit Points (HP)** and a maximum number of **injuries** they can endure (= their **injury limit**), before they die. 
 
 ### Hit Points (HP)
-Whenever a character is hurt, the **damage** that has been inflicted upon them is deducted from their **HP**. Whenever their **HP** reach zero, they suffer an [injury](#injury) and their **maximum HP** is reduced by **2**. The type of [injury](#injury) depends on the [type of damage](#damage-types) that caused it.
+Whenever a character is hurt, the **damage** that has been inflicted upon them is deducted from their **HP**. Whenever their **HP** reach zero, they suffer an [injury](#injury). The type of [injury](#injury) depends on the [type of damage](#damage-types) that caused it.
 
 When their **HP** reach 0, after they have suffered their maximum number of [injuries](#injury), they **die**. An exception to this rule applies when the [damage type](#damage-types) that brought them to 0 **HP** was [bludgeoning](#damage-types). For that, see [bludgeoned to 0 HP](#bludgeoned-to-0-hp). 
 
 For every point in [toughness](#toughness-tough), a character gains **+4 maximum HP**. 
 
-For every [injury](#injury), a character loses 2 maximum **HP**. A [penalty](#boons--penalties) to [Toughness](#toughness-tough) does **not** cause a *further* maximum **HP** reduction. 
+For every [injury](#injury), a character's maximum **HP** is reduced by 2. A [penalty](#boons--penalties) to [Toughness](#toughness-tough) does **not** cause a *further* maximum **HP** reduction. 
 
-Any **HP** damage past zero overflows. The additional damage dealt isn't lost. 
+The **HP** range in between [injuries](#injury) is called a **HP** *segment*. 
+
+Any **HP** damage past zero overflows. The additional damage dealt isn't lost. When **HP** reach 0, an [injury](#injury) is suffered, maximum **HP** are reduced by 2 and **HP** are reset to the new maximum, minus the damage that overflowed. In other words, the damage past the 0 mark flows into the next **HP** *segment*. 
+
+> A character currently at 8 **HP** and a maximum of 12 **HP** suffers 10 points of damage. Thus, they suffer an **injury** and now have the new maximum of 10 **HP**. 2 points of damage have overflowed. Therefore, the character's new current **HP** is (10 - 2 =) 8. 
 
 A successful [medicine](#medicine-int) test at **Ob** equal to the treated character's [toughness](#toughness-tough) subtracted by their current number of injuries can restore all currently missing **HP** of a character. This requires [medical supplies](#list-of-stuff--things). **HP** also replenish on their own, albeit much slower. For every hour outside of combat, **1 D4** **HP** are regained, up to the current maximum. 
 
 > A character with a toughness of 4 and 2 injuries could have all their currently missing **HP** restored with a **medicine** test at **Ob** (4 - 2 =) 2. 
 
 #### Bludgeoned to 0 HP
-When a character was **bludgeoned** to 0 **HP** after they reached their [injury](#injury) limit, they might survive and fall [unconscious](#unconscious), instead of dying. For that, they must succeed a [toughness](#toughness-tough) [test](#tests) at **Ob** equal to 6 subtracted by their [toughness](#toughness-tough) (minimum **Ob** 1). If they succeed, they immediately fall [unconscious](#unconscious). If they fail, they die anyway.
+When a character was **bludgeoned** to 0 **HP** after they reached their [injury](#injury) limit, they might survive and fall [unconscious](#unconscious), instead of dying. For that, they must succeed a [toughness](#toughness-tough) [test](#tests) at **Ob** equal to 5 subtracted by their [toughness](#toughness-tough) (minimum **Ob** 1). If they succeed, they immediately fall [unconscious](#unconscious). If they fail, they die anyway.
 
-> A character with toughness 3, brought to 0 HP with their injury limit reached, must succeed a toughness test at Ob (6 - 3 =) 3, to fall unconscious, or die, if they fail. 
+> A character with toughness 3, brought to 0 HP with their injury limit reached, must succeed a toughness test at Ob (5 - 3 =) 2, to fall unconscious, or die, if they fail. 
 
 ### Injury
 An **injury** is a serious health impediment of a character. Every character has a maximum number of **injuries** they can endure. If they reach their maximum number of **injuries** and then lose all their remaining [HP](#hit-points-hp), the character **dies**. **PC**s are an exception, who instead arrive at [death's door](#deaths-door). 
@@ -901,7 +907,7 @@ For every **injury** incurred, a character's maximum [HP](#hit-points-hp) is red
 
 An **injury** must be [treated](#injury-states--treatment) to reduce its negative effects and begin the healing process. [Treatment](#injury-states--treatment) is made with a [skill](#skills) noted on the **injury**. The difficulty of [treatment](#injury-states--treatment) is determined by the type of **injury**, that is to say, by the [type of damage](#damage-types) that inflicted it. The time to heal depends on its type. When an **injury** is fully healed and removed, it may leave behind a [scar](#scar), which can also impose [boons & penalties](#boons--penalties). 
 
-**Injuries** apply their penalties only once, upon being suffered. That means that if an **injury** applies a penalty of +1 [bleeding](#bleeding), the [bleeding](#bleeding) [health state](#injury-states--treatment) can be removed separately from the **injury**, after it has been suffered. Treating such an injury would only remove the 1 point of [bleeding](#bleeding) it inflicted. [Bleeding](#bleeding) suffered from other sources would remain. 
+**Injuries** apply their penalties only once, upon being suffered. That means that if an **injury** applies a penalty of +1 [bleeding](#bleeding), the [bleeding](#bleeding) [health state](#injury-states--treatment) can be removed separately from the **injury**, after it has been suffered. Treating such an **injury** would only remove the 1 point of [bleeding](#bleeding) it inflicted. [Bleeding](#bleeding) suffered from other sources would remain. 
 
 #### Injury States & Treatment
 There are three possible states of an [injury](#injury): **active**, **patched up** or **treated**. Note that regardless of current state, **all** [injuries](#injury) **always** count towards the [injury](#injury) limit and reduce the **maximum HP**! 
@@ -930,13 +936,15 @@ Exhaustion is the measure of a character's maximum physical and mental strain th
 
 For every point in [endurance](#endurance-end), a character raises their [exhaustion threshold](#exhaustion) by 1. All characters have a base [exhaustion threshold](#exhaustion) of 1. 
 
-If a character's exhaustion reaches their threshold, they become [exhausted](#exhausted) from over-exertion. 
+> So at **endurance** 1, you already have an exhaustion threshold of 2. 
+
+If a character's exhaustion reaches their threshold, they become [exhausted](#exhausted) from over-exertion. While **exhausted**, a character suffering further [exhaustion](#exhaustion), must succeed a [self-control](#self-control-willemp) [test](#tests) at **Ob** equal to their current level of [exhaustion](#exhaustion), or else fall [unconscious](#unconscious).
 
 Exhaustion is gained through performing **exhausting actions**, carrying **exhausting equipment** or suffering [injuries](#injury). 
 
-Exhaustion gained from **exhausting actions** can be reduced by resting. A full rest of at least **six uninterrupted hours** will fully clear any exhaustion gained from **exhausting actions**. 
+Exhaustion gained from **exhausting actions** can be reduced by resting. A full rest of at least **six uninterrupted hours** will fully clear any exhaustion gained from **exhausting actions** and remove the [exhausted](#exhausted) state. 
 
-Exhaustion gained from **exhausting equipment**, can be reduced, by dropping the equipment in question and resting for a short while, at the **GM**'s discretion. A character trying to carry more than they can endure, should not immediately fall [unconscious](#unconscious), mind you. Apply common sense - the character in question would probably try to carry the extra equipment, only find out right away it is simply too much for them. 
+Exhaustion gained from **exhausting equipment**, can be reduced, by dropping the equipment in question and resting for a short while, at the **GM**'s discretion. A character trying to carry more than they can endure, should not immediately fall [unconscious](#unconscious), mind you. Apply common sense - the character in question would probably try to carry the extra equipment, only find out right away it is simply too much for them and thus drop the equipment. 
 
 ### Health State
 A **character** can have positive or negative effects on them, represented by **states**. They can have any number of **states** applying to them simultaneously. 
@@ -948,7 +956,7 @@ A bit of terminology to keep in mind about health states:
 * To *shrug off* a *point* of a health state means to reduce the *degree* through a [test](#tests) performed by the affected character. It may often be possible to immediately cancel out a health state with external help (e. g. an antidote against [poison](#poisoned)).
   * Keep in mind that an attempt to *shrug off* counts as an [action](#action-points-ap) during combat. 
   * An attempt to *shrug off* can only be made *after* the **tick** of the effect. 
-* A **greedy** health state automatically increases in degree by 1 *point* **after** every *tick*. 
+* A **greedy** health state automatically increases in *degree* by 1 *point* **after** every *tick*. 
 
 Even outside of combat, for as long as a character in the current scene is suffering one of these health states, it is advisable to use very fine and [discrete time-slices](#scenario-time). 
 
@@ -957,42 +965,42 @@ For all **graded** states, keep in mind they last until their *degree* is reduce
 A listing of all health states can be found [in the appendix](#list-of-health-states). 
 
 ### Illness
-An illness can affect a character over a perod of time and cause various negative effects. 
+An **illness** can affect a character over a perod of time and cause various negative effects. 
 
-Illness can be contracted in a variety of ways, although most of them involve an open wound exposed to bacterial breeding grounds, such as bogs, sewers, mass graves and trash dumps. Or from something ingested, such as spoiled or poisoned food. 
+**Illnesses** can be contracted in a variety of ways, although most of them involve an open wound exposed to bacterial breeding grounds, such as bogs, sewers, mass graves and trash dumps. Or from something ingested, such as spoiled or poisoned food. 
 
-When a character is about to contract an illness, they must make a [toughness](#toughness-tough) test:
-* On a **complete success**, the illness is shrugged off. 
-* On a **partial failure** or **complete failure**, the illness is contracted and will immediately apply its effects to the character. 
-* If they contracted the illness, determine which one by rolling a **D100** and picking the corresponding illness from the [list of illnesses](#list-of-illnesses). 
-  * Once the illness has been determined, its duration and severity must also be rolled. 
+When a character is about to contract an **illness**, they must make a [toughness](#toughness-tough) [test](#tests):
+* On a **complete success**, the **illness** is shrugged off. 
+* On a **partial failure** or **complete failure**, the **illness** is contracted and will immediately apply its effects to the character. 
+  * Unless a specific **illness** has been contracted, you must determine a random one by rolling a **D100** and picking the corresponding **illness** from the [list of illnesses](#list-of-illnesses). 
+  * Once the **illness** has been determined, its duration and severity must also be determined through rolls, as noted on the **illness** itself. 
 
-Most illnesses have a duration, during which their effects are active and after which, all ill-effects go away. In some cases, an illness may have a duration of "until cured", which means it will never go away, if not treated. 
+Most illnesses have a duration, during which their effects are active and after which, all ill-effects go away. In some cases, an **illness** may have a duration of "until cured", which means it will never go away, if not treated. 
 
-Treatment of an illness is possible through [medicine](#medicine-int) or [surgery](#surgery-int). Which skill is required, will be noted on the illness. Treatment will often be able to reduce the ill-effects and sometimes to remove the illness, altogether. A treatment attempt can only be made once every 24 hours. 
+Treatment of an **illness** is possible through [medicine](#medicine-int) or [surgery](#surgery-int). Which skill is required, will be noted on the **illness**. Treatment will often be able to reduce the ill-effects and sometimes to remove the **illness**, altogether. A treatment attempt can only be made once every 24 hours. 
 
-Any illness, that when treated has its duration reduced, can only have its duration reduced once. If a treatment would also suspend any ill-effects, that would still be applicable. That way, treating an illness which already had its duration reduced can still be useful. 
+Any **illness** when treated has its duration reduced and can only have its duration reduced once. If a treatment would also suspend any ill-effects, that would still be applicable. That way, treating an **illness** which already had its duration reduced can still be useful. 
 
-An **illness** can only be suffered once, at a time. It may be suffered again later, but you could also expect that a certain level of immunity within the body has built up, after the previous time it was suffered through. 
+An **illness** can only be suffered once, at a time. It may be suffered again later, but you could also expect that a certain level of immunity within the body has built up, after the previous time it was suffered through. A character gains **+2D** to any [toughness](#toughness-tough) [test](#tests) for any **illness** they have suffered in the past. Make sure to note past **illnesses** on your character sheet for this reason. 
 
 ### Scar
-Some [injuries](#injury), once fully healed and removed, may leave a **scar** behind. If they do, this information will be specified on the [injuries](#injury) in question. See also the [list of scars](#list-of-scars). 
+Some [injuries](#injury), once fully healed and removed, may leave a **scar** behind. If they do, this information will be specified on the [injury](#injury) in question. See also the [list of scars](#list-of-scars). 
 
 Often times, a **scar** is little more than a reminder of past misfortunes, but some **scars** may infer [boons and/or penalties](#boons--penalties). 
 
 Scars may be removed by [surgery](#surgery-int), at the **GM**'s discretion. 
 
 ### Damage Types
-All damage inflicted, is inflicted with one of these types, which dictate the type of [injury](#injury) suffered when brought to below 0 [HP](#hit-points-hp). 
+All damage inflicted, is inflicted with one of these types, which dictate the type of [injury](#injury) suffered when brought to 0 [HP](#hit-points-hp). 
 
 | Damage Type | Description |
 | ----------- | ----------- |
 | Acid        | Dissolves anything it touches, depending on circumstance. Causes [acid injuries](#acid-injuries). |
 | Bleeding    | Inflicted by [bleeding](#bleeding). The result of open wounds. Causes [bleeding injuries](#bleeding-injuries). |
-| Bludgeoning | Inflicted by blunt weapons and [unarmed](#unarmed-combat-str) attacks. **Bludgeoning** causes (mostly) non-lethal damage. Causes [bludgeoning injuries](#bludgeoning-injuries). Can cause a character to fall [unconscious](#unconscious). For that, see [bludgeoned to 0 HP](#bludgeoned-to-0-hp). |
+| Bludgeoning | Inflicted by blunt weapons and [unarmed](#unarmed-combat-str) attacks. **Bludgeoning** causes (mostly) non-lethal damage. Causes [bludgeoning injuries](#bludgeoning-injuries). Can cause a character to fall [unconscious](#unconscious), for that, see [bludgeoned to 0 HP](#bludgeoned-to-0-hp). |
 | Burning     | Inflicted by extreme heat. Causes [burning injuries](#burning-injuries). |
 | Crushing    | Usually inflicted by any sort of heavy blunt weapon, like a hammer, or an animal's tusks. Causes [crushing injuries](#crushing-injuries). |
-| Electrical  | Destroyer and giver of life. Mind maker and unmaker. Whip of light and sound. Causes [electrical injuries](#electrical-injuries). |
+| Electrical  | Inflicted by eletrical shock. Causes [electrical injuries](#electrical-injuries). |
 | Freezing    | Inflicted by extreme cold. Causes [freezing injuries](#freezing-injuries). |
 | Piercing    | Usually inflicted by any sort of stabbing weapon, like a spear, or an animal's stinger. Causes [piercing injuries](#piercing-injuries). |
 | Poison      | Inflicted over time, by imbibed or injected substances. Causes [poison injuries](#poison-injuries). Beware, poison quickly grows more potent. |
@@ -1006,45 +1014,46 @@ How much **damage** is resisted, depends on the specifics of the creature or cha
 ### Boons & Penalties
 Boons and penalties to the level of an [attribute](#attributes) or [skill](#skills) can be incurred from several different sources, such as [injuries](#injury), [illnesses](#illness), [mutations](#list-of-mutations), [scars](#scar) and [states](#health-state). Boons and penalties may be temporary or permanent, depending on their source. 
 
-A boon to an [attribute](#attributes) or [skill](#skills) usually comes in the form of increasing its **modified level**. If a boon awards an [attribute](#attributes) or [skill](#skills) that the character does not yet have, they gain it automatically. 
+A boon to an [attribute](#attributes) or [skill](#skills) usually increase their **modified level**. If a boon awards an [attribute](#attributes) or [skill](#skills) that the character does not yet have, they gain it automatically. 
 
-A penalty to an [attribute](#attributes) or [skill](#skills) usually comes in the form of decreasing its **modified level**. A penalty **cannot** reduce an [attribute](#attributes) or [skill](#skills) to 0. The minimum reduction is to 1. An exception to this rule is, when the character's only reason for having the [attribute](#attributes) or [skill](#skills) is a boon. In that case, the penalty **can** reduce the **modified level** to 0, effectively removing the [attribute](#attributes) or [skill](#skills). 
+A penalty to an [attribute](#attributes) or [skill](#skills) decreases their **modified level**. A penalty **cannot** reduce an [attribute](#attributes) or [skill](#skills) to 0. The minimum reduction is to 1. But there is an exception - when the character's only reason for having the [attribute](#attributes) or [skill](#skills) is a boon. In that case, the penalty **can** reduce the **modified level** to 0, effectively removing the [attribute](#attributes) or [skill](#skills). 
 
 Whenever a boon or penalty alters the **modified level** of an [attribute](#attributes) or [skill](#skills), it does **not** affect the **successes** and **failures** required to advance. 
 
 ## Assets
-A character may *have* things, such as worn equipment and luggage, as well as the things they *own*, but don't have on person. Collectively, all of these things are referred to as **assets**. 
+A character may *have* things, such as [worn equipment](#worn--equipped) and [luggage](#luggage), as well as the things they *own*, but don't have on person. Collectively, all of these things are referred to as **assets**. 
 
-An **asset** is anything from money, to weapons and ammunition, to food and supplies, to cars and planes, to houses and castles, to space ships etc. 
+An **asset** is anything from money, to weapons and ammunition, to food and supplies, to cars and planes, to houses and castles, to space ships and whatever else they might own. 
 
 When choosing the assets to [wear on person](#worn--equipped) and have in your [luggage](#luggage), keep in mind that *container* type assets **are always implied**. A container type asset is an asset that is dedicated to holding other assets, e. g. a quiver, a sword sheath, a gun holster, a backpack or any type of bag and so on. An archer having a quiver to hold their arrows or a gunman having an ammunition belt or ammunition pouches is implied and need not be tracked explicitly, other than for flavor reasons. This means you *can* still include a sword sheath or a backpack and other such container type assets on your character sheet, but do **not have to**. You may choose to include a container type asset for flavor reasons, for example when it is especially decorated or has some other unique trait that helps define your character. **When doing so, set its bulk to 0.** You can have as many container type assets as you like, but they will **not** increase your carrying capacity! 
 
 ### Bulk
 Every non-static asset (= any object that can reasonably be picked up) has a **bulk** associated with it. This value determines how easy to handle the asset is.
 
-A lower bulk means an easier to handle asset. Both weight and size increase an object's bulk. Bulk can be derived in the following way, but is ultimately up to the situation and **GM**'s discretion. Obviously, not all objects' bulk can be estimated this way. A truck may have a much higher bulk than "7", just as a huge boulder of even an entire mountain may have way more bulk than you should even need to discuss. Unless of course if your **PC**s are super-heros or gods who reasonably *could* move a mountain. In such a case, you will have to find your own means of estimating bulk. 
+A lower bulk means an easier to handle asset. Both weight and size increase an object's bulk. Bulk can be derived in the following way, but is ultimately up to the situation and **GM**'s discretion. Obviously, not all objects' bulk can be estimated this way. A truck may have a much higher bulk than "7", just as a huge boulder or even an entire mountain may have way more bulk than you should even need to discuss. Unless of course if your **PC**s are super-heros or gods who reasonably *could* move a mountain. In such a case, you will have to find your own means of estimating bulk. 
 
 | weight ><br> size v | low | moderate | high | very high | 
 | --------------- | --- | -------- | ---- | --------- |
-| low             | 1   | 2        | 3    | 4         |
+| tiny            | 0   | 1        | 2    | 3         |
+| small           | 1   | 2        | 3    | 4         |
 | moderate        | 2   | 3        | 4    | 5         | 
-| high            | 3   | 4        | 5    | 6         |
-| very high       | 4   | 5        | 6    | 7         |
+| large           | 3   | 4        | 5    | 6         |
+| huge            | 4   | 5        | 6    | 7         |
 
 ### Worn & Equipped
 Every character can have **assets** they wear or carry on person. These things do not factor into their used [carrying capacity](#carrying-capacity) and are listed on their character sheet in a separate section. Every asset on person has to be placed in a so called **asset slot**. 
 
-Every **asset slot** has a maximum bulk it can hold. Two or more **slots** of the **same type** can be combined to hold a single asset that is too bulky for just one slot. The amount of bulk each slot can hold can be increased with greater [strength](#strength-str). 
+Every **asset slot** has a maximum **bulk** it can hold. Two or more **slots** of the **same type** can be combined to hold a single asset that is too bulky for just one slot. The amount of **bulk** each slot can hold can be increased with greater [strength](#strength-str). 
 
 Every humanoid character has the following **slots** for worn & equipped **assets** available:
-* One slot for clothing of up to 3 bulk. 
-* One slot for armor of up to 3 bulk. 
-* A slot for every hand of up to 2 bulk. 
+* One slot for clothing of up to 4 **bulk**. 
+* One slot for armor of up to 4 **bulk**. 
+* A slot for every hand of up to 2 **bulk**. 
   * This would allow creatures with more than two appendages to potentially hold a lot more things. 
-* One slot for a back-strapped thing of up to 3 bulk. 
+* One slot for a back-strapped thing of up to 3 **bulk**. 
   * A backpack or similar thing need not be listed, as it is implied by the ability to have [luggage](#luggage) on person. 
 * Slots for any number of worn jewelry or other ornaments.
-  * This only considers *light* jewelry and ornaments. Things that wouldn't encumber their wearer noticeably. Such things as rings, bracelets, a circlet or similar. 
+  * This only considers *light* jewelry and ornaments. Things that wouldn't encumber their wearer noticeably. Such as rings, bracelets, amulets or similar. 
 
 ### Luggage
 In addition to the things a character can *wear* on their person, they can also carry around things in a backpack, in pouches, slung over the shoulder or using whatever on person storage solution available. These things are considered a character's **luggage**. 
@@ -1065,17 +1074,6 @@ Things such as an owned plot of land, a house, money in the bank, equipment and 
 
 There is no limit for how much **property** a character can have. Except, perhaps, how much they can keep safe from greedy hands. 
 
-### Weapon Properties
-Weapon type assets can have the following **properties**:
-* **Long Reach**: Allows attacking a target two fields (6'/2m) away. 
-* **Very long Reach**: Allows attacking a target three fields (9'/3m) away. 
-* **Range Only**: Implies a weapon cannot be used against any targets adjacent to self. 
-* **Prefer Range**: +2 **Ob** to using the weapon against an adjacent target.
-* **Slow Reload**: Reloading the weapon costs 2 [AP](#action-points-ap).
-* **Very Slow Reload**: Reloading the weapon costs 3 [AP](#action-points-ap).
-* **Ranged (throwable: < attack name >)**: No damage penalty is incurred when throwing this type of weapon. The damage formula for the given attack is to be used on hit. 
-* A **counter-attack** is a *reaction* that allows a fighter being attacked to attack their attacker, at the cost of 1 [AP](#action-points-ap). 
-
 ## Non-Player Character (NPC)
 Non-player characters (**NPC**s) are all the people, animals and monsters of a world, that aren't the player characters (**PC**s) and are controlled by the **GM**. 
 
@@ -1088,7 +1086,7 @@ Non-player characters (**NPC**s) are all the people, animals and monsters of a w
 The rules about [Challenge ratings](./gm-guide.md#challenge-ratings-cr) can be looked up in the **GM** guide. Keep in mind the **GM** guide is mostly reserved for the **GM**. Regardless, **challenge ratings** are mentioned here to let both players and **GM** know of this tool, which can speed up the flow of the game *significantly*. 
 
 # Fate Points
-Fate points (**FP**) represent a meta-currency that *players* can earn and use to buy boons for their character or the group as a whole. 
+Fate points (**FP**) represent a meta-currency that *players* can earn and use to buy boons for their character or the group as a whole. At the end of every session, players and the **GM** should discuss who earned which **FP**, followed by awarding those **FP**. 
 
 There are three types of **FP**: [Minor](#minor-fate-points), [major](#major-fate-points) and [ambition](#ambition-fate-points). 
 
@@ -1101,7 +1099,6 @@ There are three types of **FP**: [Minor](#minor-fate-points), [major](#major-fat
 
 **MiFP** can be earned in the following ways: 
 * **Aspiration**: Playing to one's **aspirations**. This only counts *working towards* an **aspiration**. 
-* **Humor**: Stopping the table with a good bit of humor at the right time. But don't overdo it - your **GM** can only weave you a dramatic and gripping story, if you let them. 
 * **Personality**: Playing in accordance to one's signature **personality traits**. 
 * **Specialist**: Driving the story forward, when no one else could - having the right skill to employ at the right time. 
 * **Trouble**: Playing to one's **reactions** - if they get their character, or their allies, into [trouble](#reaction). 
@@ -1116,9 +1113,8 @@ A single **MaFP** can be converted into 5 **MiFP**.
 * **Aspiration**: Accomplishing an **aspiration**, achieving its goal. 
 * **Collaboration**: Working with the **GM** to further the world and the story in creative ways and helping the **GM** out when possible. Secret plots that only one of the players is involved in, which causes gasps and applause from the other players, when the plot is finally revealed, for example. 
 * **Creative Solutions**: Coming up with a very creative way to solve a problem. This may be a diplomatic solution, where the **GM** thought one impossible. Or, perhaps an unexpected use of the environment during **combat**, which yielded the **PC**s a distinct advantage on the battlefield, in a way the **GM** didn't foresee. 
-* **Embodiment**: Capturing their character and personifying them, in the moment. For example, by giving a great speech, acting scared or enjoying a bitter revenge with glee, as if they were actually there and doing it! 
+* **Embodiment**: Capturing their character and personifying them, in the moment. For example, by giving a great speech, acting scared, enjoying a bitter revenge with glee or convincingly portraying an inner conflict (for example, when contradicting an **aspiration** or **reaction**). 
 * **Helper**: Helping an ally out at a *critical* time - during or out of [combat](#combat). 
-* **Inner Turmoil**: Convincingly acting out an inner conflict that may come up when a decision conflicts with an **aspiration** or **personality trait**. If the others can *feel* the gut-wrenching decision being made, this award is **earned**!
 * **The Gears**: Being *the gears*, without which nothing would move. Doing the laborious work during session, nobody wants to do, but which has to happen to keep the story moving. Always making sure to pitch the tents in the right spot, watching out for traps or doing the boring question-asking all earn this award!
 
 ## Ambition Fate Points
@@ -1134,7 +1130,7 @@ A single **AFP** can be converted into 15 **MaFP**.
 ## Hand of Fate
 The **Hand of Fate** is a deck of cards a player can draw from, using their **FP** as currency to buy cards. 
 
-A player can play any of their cards whenever appropriate. A played card is discarded. 
+A player can play any of their cards **whenever** appropriate. A played card is discarded. 
 
 There are no limits to how many of a given card a player can own, but they may only hoard a maximum of 5 cards at a time. 
 
@@ -1150,7 +1146,7 @@ There are no limits to how many of a given card a player can own, but they may o
 | 3 MaFP  | Scar? What Scar?    | Remove one scar [scar](#scar) of choice. |
 | 4 MaFP  | Incorrect Diagnosis | Avoid an [injury](#injury) as it would be inflicted upon you - you do not suffer that [injury](#injury)! |
 | 5 MaFP  | Just a Flesh Wound  | Raise your injury limit by one for the duration of an encounter. This card can also be played as you suffer an [injury](#injury) and even when you're [dying](#deaths-door). In that case, playing this card counts as a successful test and brings you back from the verge of death. |
-| 1 AFP   | Defy Death          | Leap from [death's door](#deaths-door), remove 1 **active** [injury](#injury) of choice and be at 1 **HP**; Alternatively, avoid a narratively-driven death. The **GM** will decide the character's alternative fate. They could be captured, very badly injured or become indebted to someone or something. Note that this card can only be played *after* the character lost their [battle with death](#deaths-door). |
+| 1 AFP   | Defy Death          | Return from the dead, remove 1 **active** [injury](#injury) of choice and be at 1 **HP**; Alternatively, avoid a narratively-driven death. The **GM** will decide the character's alternative fate. They could be captured, very badly injured or become indebted to someone or something. Note that this card can only be played *after* the character lost their [battle with death](#deaths-door). |
 | 1 AFP   | Yes, my liege       | Work with your **GM** to create a follower/hireling who will now be at your command/employ. |
 
 # Time-Management
@@ -1183,10 +1179,7 @@ Most prominently, **initiative order** is used during [combat](#combat). But it 
 ### Surprise Round
 If one party is surprised, for example during an ambush, then the ambushing party gets to act for a full **round**, without the ambushed party getting a chance to act. This is called a **surprise round**. After the **surprise round** **initiative** is handled as normal. Additionally, any surprised characters **do not** get their starting [AP](#action-points-ap), until the end of the surprise round! 
 
-To determine whether a **round** is a **surprise round**, proceed with the following steps:
-1. Determine **awareness** with [perception](#perception-perc) rolls. 
-   1. The **Ob** to use is up to circumstance. When choosing the **Ob**, keep in mind that pure [attribute](#attributes) rolls cannot be forked! Even just **Ob** 3 would be a difficult to succeed [test](#tests). 
-2. If no one in the surprised party could clearly see, hear or perhaps even smell the fight coming and none of them succeeded their **awareness** test, they are considered **surprised**.
+To determine whether a **round** is a **surprise round**, determine awareness with [stealth](#stealth-agi) opposed by [observation](#observation-perc) [tests](#tests). 
 
 > **Surprise round** does not apply to opponents standing right in front of each other in conversation, when one of them suddenly draws a dagger and attacks. The attacker can be clearly seen by the defender (assuming they can see) and thus does not result in a **surprise round**. Of course, the specifics are always up to the scenario at hand and to the **GM**'s ruling. 
 
@@ -1205,7 +1198,7 @@ All [craftsmanship skills](#craftsmanship) require a time investment proportiona
 
 Making use of a [craftsmanship skill](#craftsmanship) to create something requires a [graduated test](#graduated-test) be made. The number of dice in play dictate both the time required and the maximum achievable quality. Each [skill](#skills) in question notes how much time one die "costs". It is possible to roll with fewer dice, than would be available for the [graduated test](#graduated-test). [Forked skills](#skill-forking) can also provide a die each, but note that *every* die, including those from [forked skills](#skill-forking), increase the time required. The number of **positives** and **negatives** achieved has no effect on the time taken. Merely the *number* of dice that were rolled matters. 
 
-Most **skills** do not allow for failure and the outcome of the test simply denotes the achieved quality of the product. But there are some **skills**, which can be failed, entirely. In such a case, an **Ob** threshold will be noted. Failing to achieve more **positives** than the **Ob**, will result in a **complete failure** of the test - there is no resulting product and the materials used are wasted. 
+Most **skills** do not allow for failure and the outcome of the test simply denotes the achieved quality of the product. But there are some **skills**, which can be failed, entirely. In such a case, an **Ob** threshold will be noted. Failing to achieve **Ob** number of **positives**, will result in a **complete failure** of the test - there is no resulting product and the materials used are wasted. 
 
 The number of **positives** achieved denote the quality that has been achieved. Note this number on the product. 1-2 **positives** result in a **poor**, 3-4 in an **average**, 5 in a **good**, 6 in an **excellent** and 7+ in a **masterwork** product.
 
@@ -1238,7 +1231,7 @@ The number of dice in play for a [graduated test](#graduated-test) of this skill
 
 It is possible to roll with fewer dice, than would be available for the [graduated test](#graduated-test). [Forked skills](#skill-forking) can also provide a die each, but note that *every* die, including those from [forked skills](#skill-forking), increase the time required. The number of **positives** and **negatives** achieved has no effect on the time taken. Merely the *number* of dice that were rolled matters. 
 
-To get an ear on the ground and figure out what the local market is like, a character can spend 8 hours to walk around, talk to people, ask for prices of common goods and get a feel for the wealth of the local populace. 
+To get an ear on the ground and figure out what the local market is like, a character can spend time to walk around, talk to people, ask for prices of common goods and get a feel for the wealth of the local populace. How long that will take, depends on circumstance, of course. The more technologically advanced a society is, the less time it will take to figure out the market's condition. 
 
 #### Seller's Chart
 The following matrix provides an overview of how long it may take to sell things on the market. Note that the **GM** has the final say on how long it will actually take and on how difficult it will be. 
@@ -1252,7 +1245,7 @@ Denoted are both the time it takes to get a chance at a [mercantilism](#mercanti
 | **High**      | 12 Hours <br> Ob 4 <br> 110% | 10 Hours <br> Ob 3 <br> 120% | 8 Hours <br> Ob 2 <br> 130%  | 6 Hours <br> Ob 1 <br> 140%    | 
 | **Very High** | 4 Hours <br> Ob 3 <br> 140%  | 2 Hours <br> Ob 2 <br> 160%  | 1 Hour <br> Ob 1 <br> 180%   | 30 Minutes <br> Ob 0 <br> 200% | 
 
-### Buyer's Chart
+#### Buyer's Chart
 The following matrix provides an overview of how long it may take to buy things on the market. Note that the **GM** has the final say on how long it will actually take and on how difficult it will be. 
 
 Denoted are both the time it takes to get a chance at a [mercantilism](#mercantilism-ora) [test](#tests), what the **Ob** threshold is and what price inflation can be expected. The prices are relative to the goods' *listing price* or *normal* value. 200% means the goods must be bought at twice what they're worth. 
@@ -1267,7 +1260,7 @@ The supply is assumed to be relative to the demand. The more something is in dem
 | **Very High** | 30 Minutes <br> Ob 3 <br> 140% | 1 Hour  <br> Ob 4 <br> 160%  | 2 Hours <br> Ob 5 <br> 180%   | 4 Hours <br> Ob 6 <br> 200%  | 
 
 ### Recovery
-When [injured](#injury), a character should prepare to spend time away from adventure for a while. Since the process of healing up can take several weeks, this time is best handled abstractly with the other **PC**s going about their business during the same time. 
+When [injured](#injury), a character should prepare to spend time away from adventure for a while. Since the process of healing can take several weeks, this time is best handled abstractly with the other **PC**s going about their business during the same time. 
 
 ### Training
 When not busy with work and adventure, **PC**s may train, in order to passively improve their [attributes](#practicing-attributes) or [skills](#practicing-skills). This time is usually best handled abstractly, by not playing out the details of the training. 
@@ -1283,11 +1276,8 @@ There is also the distinction to be made whether the order in which characters a
 When diplomacy fails, hostilities ensue. This is when the game enters into a state that is handled very carefully. How time is *sliced* and when characters get to act, is crucial. 
 
 The steps to *prepare* for combat are as follows:
-1. Determine **awareness** with [perception](#perception-perc) rolls. 
-   1. Sometimes, not everyone may be immediately aware of a fight breaking out. This is usually the case when characters cannot clearly see, hear or perhaps even smell a fight breaking out. 
-   2. The **Ob** to use is up to circumstance. When choosing the **Ob**, keep in mind that pure [attribute](#attributes) rolls cannot be [forked](#skill-forking)! Even at just **Ob** 3, a [test](#tests) would be difficult to succeed. 
-2. Determine if there is a [surprise round](#surprise-round). 
-   1. If no one in the party could clearly see, hear or perhaps even smell the fight coming and none of them succeeded their [perception](#perception-perc) [test](#tests), they are considered **surprised**.
+1. Determine a [surprise round](#surprise-round), if required, with [stealth](#stealth-agi) versus [observation](#observation-perc) [opposed tests](#opposed-test). 
+   1. Sometimes, not everyone may be immediately aware of a fight breaking out. This is usually the case when characters cannot clearly see, hear or perhaps even smell a fight breaking out. In every other case, this step can be skipped. 
    2. Only the first **round** of combat can be a [surprise round](#surprise-round). 
    3. In a [surprise round](#surprise-round), any surprised characters **do not** get their starting [AP](#action-points-ap), until the end of the [surprise round](#surprise-round). 
 3. Determine [Initiative order](#initiative). 
@@ -1314,15 +1304,15 @@ Reactions during combat are:
 * [Defending](#defending)
   * [Defending an ally](#defending-an-ally)
 
-Combat ends, when neither side has the ability or will left to fight. At this point, **initiative order** will oftentimes no longer be needed. 
+Combat ends, when neither side has the ability or will left to fight. 
 
 ## Action Points (AP)
 Every **turn**, every character gets 3 **Action Points (AP)** to spend on actions during their **turn**. Some [skills](#skills), [boons and penalties](#boons--penalties) can alter this number. 
 
-At the start of a combat encounter, **all characters** start with 3 **AP**. After that, **AP** are only regained per-character, upon the start of their turn. 
+At the start of a combat encounter, **all non-surprised characters** start with 3 **AP**. After that, **AP** are only regained per-character, upon the start of their turn. 
 
 * Any basic action, that is, any action not requiring a [test](#tests), costs 1 **AP**. 
-  * Speaking or shouting a short phrase is free. If you want to have a proper conversation, that will cost you one or more **AP**, depending on how much you have to say. 
+  * Speaking or shouting a short phrase is free. If you want to have a proper conversation, that will cost you more **AP**, depending on how much you have to say. 
   * [Basic movement](#combat-movement) counts as a basic action. 
   * Handing an object over to a character adjacent to you, is a basic action (assuming you don't have to force it on them). 
   * Pulling something from your bag or getting a weapon ready (from your back, scabbard or wherever you keep it) also counts as a movement action and costs 1 **AP**. 
@@ -1332,7 +1322,7 @@ At the start of a combat encounter, **all characters** start with 3 **AP**. Afte
 ### Action Point Saving
 If a character ends their **turn** with any **AP** unspent, those **AP** will be saved up and be available as additional **AP** at the start of their next **turn**. 
 
-Until the start of their next **turn**, they can keep up to 5 **AP**, which they can use for [active defense](#defending) during other character turns. 
+Until the start of their next **turn**, they can keep up to 5 **AP**, which they can use for [active defense](#defending) or *reactions* during the turns of other characters. 
 
 At the start of their next **turn**, only up to 2 of the saved **AP** transfer to this next **turn**. This means a character can normally start their next **turn** with at most 5 **AP**. 
 
@@ -1340,7 +1330,7 @@ It may be possible to go past this limit via some [expertises](#expertise) or [b
 
 > Assuming a character has 4 unspent **AP** at the end of their **turn**, and they are attacked, they can use one of those **AP** to actively defend themselves. This costs them 1 **AP**, meaning they still have 3 unspent **AP**. 
 >
-> At the start of their next **turn**, they get to keep 2 of those unspent **AP** and are forced to discard the other 1 **AP**. Thus, they begin their turn with 5 **AP** available to them. 
+> At the start of their next **turn**, they get to keep 2 of those unspent **AP** and are forced to discard the third **AP**. They get 3 more **AP** because it is the start of their turn. Thus, they begin their turn with 5 **AP** available to them. 
 
 ## Combat Movement
 Under normal circumstances, a character (an average human) can move up to **12'/4m** (= 4 fields on a grid) per **AP** spent. In **difficult terrain**, the distance moved per **AP** is half that, at **6'/2m** (= 2 fields on a grid). It may be possible to increase the distance moved per **AP**, by **sprinting** (see below) or through the use of [skills](#skills). 
@@ -1350,18 +1340,16 @@ Under normal circumstances, a character (an average human) can move up to **12'/
 It is also possible to **sprint**, doubling the distance one can move per **AP**, but at the cost of 1 point of [exhaustion](#exhaustion) for every **AP** spent **sprinting**. 
 
 ### Disengage
-It is possible to move out of an enemy's [range of opportunity](#attacks-of-opportunity) without provoking an [attack of opportunity](#attacks-of-opportunity). This action costs 2 [AP](#action-points-ap) and the disengaging character **must** move one **AP** worth in a direction that will get them out of the [range of opportunity](#attacks-of-opportunity) the fastest and safest. 
+It is possible to move out of an enemy's [range of opportunity](#attacks-of-opportunity) without provoking an [attack of opportunity](#attacks-of-opportunity). This action costs 2 [AP](#action-points-ap) and the disengaging character **must** move in a direction that will get them out of the [range of opportunity](#attacks-of-opportunity) the fastest and safest, as far as 1 **AP** of movement would get them. 
 
-> Just because jumping off a cliff would be the fastest way out of a **range of opportunity**, doesn't mean this is the best direction to go. A character trying to disengage is trying to move safely, after all. If that means having to go through the **range of opportunity** then so be it, but only if that *is* the best option. 
+> Just because jumping off a cliff would be the fastest way out of a **range of opportunity**, doesn't mean this is the safest direction to go. A character trying to disengage is trying to move safely, after all. If the safest direction is through the **range of opportunity**, then so be it. 
 
-When disengaging from more than one [range of opportunity](#attacks-of-opportunity) in the same action, every additional [range of opportunity](#attacks-of-opportunity) past the first adds 1 [AP](#action-points-ap) cost. 
+When disengaging from more than one [range of opportunity](#attacks-of-opportunity) in the same action, every additional [range of opportunity](#attacks-of-opportunity) past the first adds a cost of 1 [AP](#action-points-ap). 
 
 ### Flee Combat
 When [combat](#combat) is a decidedly bad idea, one can try to flee from it. A fleeing character can no longer perform any *hostile actions*. That means, they can no longer attack or hinder any other characters until the end of [combat](#combat). 
 
 In turn for giving up their offensive capacity, they gain +50% of movement (for an average human on foot, that is +6'/2m) per [AP](#action-points-ap) spent. Rules for [difficult terrain](#combat-movement) still apply. 
-
-Additionally, they can [disengage](#disengage) at a cost of only 1 [AP](#action-points-ap). 
 
 ### Push Through
 It is possible to **push through** a [range of opportunity](#attacks-of-opportunity), without spending any [AP](#action-points-ap), but in doing so, the [attack of opportunity](#attacks-of-opportunity) is **guaranteed** to land successfully, without any attack [test](#tests) necessary (this counts as an automatic success for the attacker). 
@@ -1369,14 +1357,14 @@ It is possible to **push through** a [range of opportunity](#attacks-of-opportun
 ### Swap-Out
 It is possible to swap positions with an adjacent ally, without provoking an [attack of opportunity](#attacks-of-opportunity) for either character. 
 
-This **action** costs 3 [AP](#action-points-ap). 
+This **action** costs 2 [AP](#action-points-ap). 
 
-The ally in question can **oppose** this action with [strength](#strength-str). 
+The ally in question can **oppose** this action with [strength](#strength-str) (both characters will have to compete with [strength](#strength-str)). 
 
 ## Attacking
-Attacks are made with an [expertise](#expertise) of a [weapon](#weapon--weapon-type--str), of the [unarmed](#unarmed-combat-str) or the [throwing](#throwing-agi) [skill](#skills). 
+Attacks are made with an [expertise](#expertise) of a [weapon](#weapon--weapon-type--str), the [unarmed](#unarmed-combat-str) or the [throwing](#throwing-agi) [skill](#skills). 
 
-An attack generally requires an [opposed test](#opposed-test) to be made. If the attacker wins, the full [damage](#damage) is applied to the defender. If the defender wins, they suffer no damage, **unless** if they're parrying in melee with a weapon that has 2 bulk less than the weapon they've parried. In such a case, half the damage (rounded up) still goes through, regardless of the successful parry.  
+An attack generally requires an [opposed test](#opposed-test) to be made. If the attacker wins, [damage](#damage) is determined and applied to the defender. If the defender wins, they suffer no damage, **unless** if they're parrying in melee with a weapon that has 2 bulk less than the weapon they've parried. In such a case, half the damage (rounded up) still goes through, regardless of the successful parry.  
 * A defender must *choose* how to defend, if no a specific skill is required. The defender may choose to defend with a [weapon skill](#weapon--weapon-type---attribute), [acrobatics](#acrobatics-agi) or a [shield](#shield-end). 
 * Defending against a ranged attack with a melee weapon skill or vice-versa is possible, but at a penalty of only being able to use half the dice, rounded down. 
   * Depending on the projectile's speed or other properties, it may even be impossible to defend against it with a melee weapon skill. 
@@ -1384,11 +1372,11 @@ An attack generally requires an [opposed test](#opposed-test) to be made. If the
 In case of an [aoe](#area-of-effect-aoe) attack, a defender may be able to halve the [damage](#damage) (rounded up), if they win the [opposed test](#opposed-test). 
 
 ### Damage
-Damage dealt to an opponent reduces their **HP**. When their **HP** reaches 0, they suffer an [injury](#injury) and their **HP** is reset to their new maximum. To determine the new maximum, see the [injury](#injury) section. 
+Damage dealt to an opponent reduces their [HP](#hit-points-hp). When their **HP** reaches 0, they suffer an [injury](#injury) and their **HP** is reset to their new maximum. The type of [injury](#injury) that is dealt, depends on the [damage type](#damage-types). 
 
-If more damage is dealt, than the difference to 0, that damage is also dealt. Damage isn't lost - it overflows into the next **HP** *segment*. 
+If more damage is dealt, than the difference to 0, then that damage is also dealt - it overflows into the next **HP** *segment*. 
 
-What type of [injury](#injury) is dealt, also depends on the [damage type](#damage-types). 
+To determine the new **HP** maximum of a *segment*, see the [injury](#injury) section. 
 
 ### Attack Modifiers
 Sometimes, special circumstances apply, which make certain attacks easier or harder to land. 
@@ -1396,9 +1384,9 @@ Sometimes, special circumstances apply, which make certain attacks easier or har
 #### Aimed Attack
 An attack generally targets the center of mass (torso) of the targeted opponent. 
 
-It is, however, possible to call out wanting to attack a specific part of an opponent's body. Generally, this means that the attack must be rolled at greater **Ob**. However, the **GM** can also decide the part being targeted is fairly easy to hit, either generally or due to current circumstance, so no disadvantage is incurred. 
+It is also possible to call out an attack to a specific part of an opponent's body. Usually, this means that the attack must be rolled at greater **Ob**. How much greater, must be determined by the **GM**. 
 
-A player may call out what effect the aimed attack is supposed to have, such as limiting their opponent's ability to stand, move, attack or whatever else the body part may be useful for. If they don't, the **GM** decides the effect. 
+A player may call out what effect the aimed attack is supposed to have, such as limiting their opponent's ability to stand, move, attack or whatever else the body part may be useful for. If they don't, the **GM** may decide the effect. 
 
 #### Easy Attack
 Some attacks may be easier to perform. An **easy attack** has a lower **Ob**.
@@ -1420,7 +1408,7 @@ This kind of attack is only possible at the **GM**'s discretion.
 ### Attacks of Opportunity
 When a character is within weapon's reach of another hostile character, they're considered within the other's **range of opportunity**. Whenever a character in an enemy's **range of opportunity** moves away from or more than 6'/2m *around* that enemy, that enemy can *choose* to perform an **attack of opportunity**. It is possible to avoid an **attack of opportunity** with a [disengage](#disengage) combat action. 
 
-Performing an **attack of opportunity** costs 1 [AP](#action-points-ap) at a **-1D** penalty and will **halt** the enemy in question and prevent their movement, regardless of whether the attack lands. The attacked party can still choose to [push through](#push-through), thus still getting to move, but if they do, the **attack of opportunity** is **guaranteed** to land successfully, without any attack [test](#tests) necessary (this counts as an automatic success for the attacker). 
+Performing an **attack of opportunity** costs 1 [AP](#action-points-ap) at a **-1D** penalty and will **halt** the enemy in question, preventing their movement, regardless of whether the attack lands. The attacked party can still choose to [push through](#push-through), thus still getting to move, but if they do, the **attack of opportunity** is **guaranteed** to land successfully, without any attack [test](#tests) necessary (this counts as an automatic success for the attacker). 
 
 An **attack of opportunity** is a **combat action** and a **reaction**. 
 
@@ -1428,7 +1416,7 @@ An **attack of opportunity** is a **combat action** and a **reaction**.
 There are two types of defense:
 * **Active defense**: Costs 1 [AP](#action-points-ap) and uses all available dice for the [test](#tests). 
   * This defense can only happen as a *reaction* and a deliberate choice, during another character's turn. 
-* **Passive defense**: Does not cost any [AP](#action-points-ap), but uses only half (rounded down) of the available dice for the [test](#tests).
+* **Passive defense**: Does not cost any [AP](#action-points-ap), but uses only half (rounded down, minimum 1) of the available dice for the [test](#tests).
   * This defense happens automatically, if no **active defense** is attempted. 
   * This defense can *not* be used against attacks that cost more than 1 [AP](#action-points-ap) to defend against. 
 
@@ -1494,6 +1482,12 @@ The steps to determine **Ob** to throw are as follows:
 
 In case of an unsuccessful throw, the object lands only near the intended spot, instead of on it. In order to determine where a missed throw lands, roll a **D8**. A 1 designates the object landed north-west of the intended spot. Then, going clock-wise, a 2 would designate north, 3 north-east and so on. 
 
+A roll of **1D4** determines how far along that axis, measured from the intended spot, the object lands. 
+
+> A character missed their throw. They roll **1D8**, yielding a 4, which means east of the intended spot. Then they roll **1D4**, yielding a 3, which means a distance of 9'/3m (= 3 fields). 
+>
+> So, the object lands 9'/3m (= 3 fields) east of the intended spot. 
+
 Note, that in case a spot determined this way would be farther than the character can throw, you must correct the distance by moving it closer towards the character that threw the object, until it is within their allowed distance. 
 
 For your convenience, you can refer to the following chart: 
@@ -1503,11 +1497,11 @@ For your convenience, you can refer to the following chart:
 ### Throwing-Damage
 If throwing a weapon that isn't specifically made or especially suitable to throwing, then the damage that is dealt on successful hit is halved (rounded down). 
 
-When throwing non-weapons, the damage dealt is calculated the following way: [strength](#strength-str) * [bulk](#bulk)
+When throwing non-weapons, the damage dealt is calculated the following way: [strength](#strength-str) * ([bulk](#bulk) - 1) (minimum bulk 1)
 
-The [damage type](#damage-types) to use, depends on the type of object and how it hits the target. For most non-weapons, **bludgeoning** will be appropriate. 
+The [damage type](#damage-types) to use, depends on the type of object and how it hits the target. For most non-weapons, **bludgeoning** or **crushing** should be appropriate. 
 
-> A character with [strength](#strength-str) 5, throwing a [bulk](#bulk) 3 object, can deal 5 * 3 = 15 points of damage. 
+> A character with [strength](#strength-str) 5, throwing a [bulk](#bulk) 3 object, can deal 5 * (3 - 1) = 10 points of damage. 
 
 ## Unarmed Combat (Str)
 Sometimes, your own body is your greatest weapon. Fists and feet can cause a surprising amount of damage. 
@@ -1515,23 +1509,23 @@ Sometimes, your own body is your greatest weapon. Fists and feet can cause a sur
 * Melee
 * This is a skill
 
-| Skill | **Ob**  | Attack                     | AP | Damage/Effect         | Condition |
-| ----- | ------- | -------------------------- | -- | --------------------- | --------- |
-| 0     | Opposed                              | Punch, kick, headbutt   | 2  | **Str** + 2 **Bludgeoning** |  |
-| 0     | Opposed by [strength](#strength-str) | Shove                   | 2  | Push an enemy away from you for 3'/1m * *N*, where *N* is every point of your strength past their strength. |  |
-| 1     | Opposed by **Unarmed Combat**        | Grapple                 | 2  | If **completely successful**, the target is unable to move and suffers **-1D** to their defense tests, for as long as they're grappled. Someone grappled can attempt to break free with an opposed **Unarmed Combat** test, on their turn. The grappler can not use at least one of their hands for as long as they're grappling. |  |
-| 2     | Opposed by **Unarmed Combat**        | Wrestle and Disarm      | 2  | Perform a [single target](#single) attack against a designated enemy. If you win, you disarm them and could wrestle them to the ground, making them [prone](#prone), if you so choose. | Disarm only if enemy is using detachable weapon. |
-| 3     | Opposed by [strength](#strength-str) | Barge in                | 3  | Push an enemy away from you for 3'/1m * *N*, where *N* is every point of your strength past their strength and take their position. |  | 
+| Level | Name                       | AP | **Ob**                               | Damage/Effect         | Condition |
+| ----- | -------------------------- | -- | ------------------------------------ | --------------------- | --------- |
+| 0     | Punch, kick, headbutt      | 2  | Opposed                              | **Str** + 2 **Bludgeoning** |  |
+| 0     | Shove                      | 2  | Opposed by [strength](#strength-str) | Push an enemy away from you for 3'/1m * *N*, where *N* is the number of **positives** more than the opponent achieved. |  |
+| 1     | Grapple                    | 2  | Opposed by **Unarmed Combat**        | If **completely successful**, the target is unable to move and suffers **-1D** to their defense tests, for as long as they're grappled. Someone grappled can attempt to break free with an opposed **Unarmed Combat** test, on their turn. The grappler can not use at least one of their hands for as long as they're grappling. |  |
+| 2     | Wrestle and Disarm         | 2  | Opposed by **Unarmed Combat**        | Disarm your opponent and wrestle them to the ground, making them [prone](#prone), if you so choose. | Disarm only if enemy is using detachable weapon. |
+| 3     | Barge in                   | 3  | Opposed by [strength](#strength-str) | Push an enemy away from you for 3'/1m * *N*, where *N* is the number of **positives** more than the opponent achieved. Take their previous position and do **not** provoke **attacks of opportunity**. |  | 
 
-# Social Procedures
+# General Interactions
 These are rules pertaining to specific social interactions or otherwise non-combat interactions that aren't immediately covered by a single [skill](#skills). 
 
 ## Appraisal
-In order to quickly appraise the value, weight, size or other properties of something, one must [test](#tests) with a [skill](#skills) pertaining to _what_ is being appraised. 
+In order to appraise the value, weight, size or other properties of something, a [test](#tests) with a [skill](#skills) pertaining to _what_ is being appraised must be made. 
 
-> For example, to determine the value and weight of a gold-nugget, one would test [metallurgy](#metallurgy-intwis). 
+> For example, to determine the value and weight of a gold-nugget, one could test [metallurgy](#metallurgy-intwis). 
 
-The **Ob** depends on circumstance. How much time is available to appraise? How unusual or common is the thing being appraised?
+The **Ob** depends on circumstance. How much time is available to appraise? How unusual or uncommon is the thing being appraised? How easy is it to appraise such things? 
 
 # Appendix
 The appendix contains important and less important lists, for reference only when needed. 
@@ -1736,16 +1730,27 @@ All characters start with an **injury limit** of 2.
 Determine your character's [exhaustion threshold](#exhaustion), by referring to the [endurance](#endurance-end) attribute. 
 
 
-## List of Assets
+## Asset Appendix
 The following list does not and cannot aim to be a complete listing of all possible assets in game. Adding new assets as necessary will have to be done by the **GM**. 
+
+### Weapon Properties
+Weapon type assets can have the following **traits**:
+* **Long Reach**: Allows attacking a target two fields (6'/2m) away. 
+* **Very long Reach**: Allows attacking a target three fields (9'/3m) away. 
+* **Range Only**: Implies a weapon cannot be used against any targets adjacent to self. 
+* **Prefer Range**: +2 **Ob** to using the weapon against an adjacent target.
+* **Slow Reload**: Reloading the weapon costs 2 [AP](#action-points-ap).
+* **Very Slow Reload**: Reloading the weapon costs 3 [AP](#action-points-ap).
+* **Ranged (throwable: < attack name >)**: No damage penalty is incurred when throwing this type of weapon. The damage formula for the given attack is to be used on hit. 
+* A **counter-attack** is a *reaction* that allows a fighter being attacked to attack their attacker, at the cost of 1 [AP](#action-points-ap). 
 
 ### List of Stuff & Things
 The following is a list of general assets. Of course, the following list is non-exhaustive. Invent more at your own need. 
 
 | Name                   | Max. Stack Size | Description                                                              |
 | ---------------------- | --------------- | ------------------------------------------------------------------------ |
-| Antidote               | 1    | This unassuming liquid can make the difference between life and death. Is used in the [treatment of poison](#list-of-poison-injuries). |
-| Herbal Remedy Potion   | 1    | The sickly green tint and strong odor of the liquid within might not seem enticing, but its efficacy is well worth it. Upon imbibing, restores all currently missing [HP](#hit-points-hp) of a character. |
+| Antidote               | 2    | This unassuming liquid can make the difference between life and death. Is used in the [treatment of poison](#list-of-poison-injuries). |
+| Herbal Remedy Potion   | 2    | The sickly green tint and strong odor of the liquid within might not seem enticing, but its efficacy is well worth it. Upon imbibing, restores all currently missing [HP](#hit-points-hp) of a character. |
 | Medical Supplies       | 2    | A small satchel of clean bandages, thread and needle for suturing, a clean and sharp knife, a splint and straps for binding. Is used in the [treatment](#injury-states--treatment) of various [injuries](#injury). |
 
 ## Lists of Skills
@@ -2036,9 +2041,11 @@ An **electrified** character suffers **-1D** for their every [test](#tests) requ
 * Immediate cancel: After a minute of last suffering one *point* of **electrified** or at the end of combat. 
 
 ### Exhausted
-An **exhausted** character begins their turn with -2 **AP** and can run at most only half the distance they normally could. [Sprinting](#combat-movement) is impossible. In addition, they suffer a penalty of **-1D** to all tests. The number of dice for a test cannot be reduced to less than 1 by this penalty. 
+An **exhausted** character begins their turn with -2 **AP** and can run at most only half the distance they normally could. [Sprinting](#combat-movement) is impossible. In addition, they suffer a penalty of **-1D** to all [tests](#tests). The number of dice for a [test](#tests) cannot be reduced to less than 1 by this penalty. 
 
-This **state** can be recovered from by **actively resting** at least half an hour. 
+While **exhausted**, a character suffering further [exhaustion](#exhaustion), must succeed a [self-control](#self-control-willemp) [test](#tests) at **Ob** equal to their current level of [exhaustion](#exhaustion), or else fall [unconscious](#unconscious).
+
+This **state** can be recovered from by **actively resting** for at least **six uninterrupted hours**. 
 
 ### Frostbitten
 A **frostbitten** character suffers -1 [AP](#action-points-ap) during combat and **-1D** to all [tests](#tests) outside of combat. 
