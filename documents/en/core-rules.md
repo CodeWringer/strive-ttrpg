@@ -61,7 +61,7 @@
       - [Injury States \& Treatment](#injury-states--treatment)
       - [Injury Exhaustion Threshold](#injury-exhaustion-threshold)
     - [Exhaustion](#exhaustion)
-    - [Health State](#health-state)
+    - [Condition](#condition)
     - [Illness](#illness)
     - [Scar](#scar)
     - [Damage Types](#damage-types)
@@ -186,7 +186,7 @@
     - [Craftsmanship Skills](#craftsmanship-skills)
       - [Artistry (Emp)](#artistry-emp)
       - [Cooking (Emp)](#cooking-emp)
-  - [List of Health States](#list-of-health-states)
+  - [List of Conditions](#list-of-conditions)
     - [Berserk](#berserk)
     - [Burning](#burning)
     - [Bleeding](#bleeding)
@@ -907,7 +907,7 @@ For every **injury** incurred, a character's maximum [HP](#hit-points-hp) is red
 
 An **injury** must be [treated](#injury-states--treatment) to reduce its negative effects and begin the healing process. [Treatment](#injury-states--treatment) is made with a [skill](#skills) noted on the **injury**. The difficulty of [treatment](#injury-states--treatment) is determined by the type of **injury**, that is to say, by the [type of damage](#damage-types) that inflicted it. The time to heal depends on its type. When an **injury** is fully healed and removed, it may leave behind a [scar](#scar), which can also impose [boons & penalties](#boons--penalties). 
 
-**Injuries** apply their penalties only once, upon being suffered. That means that if an **injury** applies a penalty of +1 [bleeding](#bleeding), the [bleeding](#bleeding) [health state](#injury-states--treatment) can be removed separately from the **injury**, after it has been suffered. Treating such an **injury** would only remove the 1 point of [bleeding](#bleeding) it inflicted. [Bleeding](#bleeding) suffered from other sources would remain. 
+**Injuries** apply their penalties only once, upon being suffered. That means that if an **injury** applies a penalty of +1 [bleeding](#bleeding), the [bleeding](#bleeding) [condition](#condition) can be removed separately from the **injury**, after it has been suffered. Treating such an **injury** would only remove the 1 point of [bleeding](#bleeding) it inflicted. [Bleeding](#bleeding) suffered from other sources would remain. 
 
 #### Injury States & Treatment
 There are three possible states of an [injury](#injury): **active**, **patched up** or **treated**. Note that regardless of current state, **all** [injuries](#injury) **always** count towards the [injury](#injury) limit and reduce the **maximum HP**! 
@@ -942,27 +942,27 @@ If a character's exhaustion reaches their threshold, they become [exhausted](#ex
 
 Exhaustion is gained through performing **exhausting actions**, carrying **exhausting equipment** or suffering [injuries](#injury). 
 
-Exhaustion gained from **exhausting actions** can be reduced by resting. A full rest of at least **six uninterrupted hours** will fully clear any exhaustion gained from **exhausting actions** and remove the [exhausted](#exhausted) state. 
+Exhaustion gained from **exhausting actions** can be reduced by resting. A full rest of at least **six uninterrupted hours** will fully clear any exhaustion gained from **exhausting actions** and remove the [exhausted](#exhausted) [condition](#condition). 
 
 Exhaustion gained from **exhausting equipment**, can be reduced, by dropping the equipment in question and resting for a short while, at the **GM**'s discretion. A character trying to carry more than they can endure, should not immediately fall [unconscious](#unconscious), mind you. Apply common sense - the character in question would probably try to carry the extra equipment, only find out right away it is simply too much for them and thus drop the equipment. 
 
-### Health State
-A **character** can have positive or negative effects on them, represented by **states**. They can have any number of **states** applying to them simultaneously. 
+### Condition
+A **character** can have positive or negative effects on them, represented by **conditions**. They can have any number of **conditions** applying to them simultaneously. 
 
-A bit of terminology to keep in mind about health states:
-* A **tick** is the instant in time, when a health state's effects (such as the damage from [bleeding](#bleeding)) is suffered by the character. 
+A bit of terminology to keep in mind about health **conditions**:
+* A **tick** is the instant in time, when a health **condition's** effects (such as the damage from [bleeding](#bleeding)) is suffered by the character. 
   * This is always the **start of a character's turn** during combat or every 5 seconds outside of combat. This also applies to characters whose turn is skipped (for example, because they're [unconscious](#unconscious)). 
-* A **graded** health state has a *degree*, which is a number that represents how strong the health state's effects are/will be. A *point* of a health state is one such *degree*. 
-* To *shrug off* a *point* of a health state means to reduce the *degree* through a [test](#tests) performed by the affected character. It may often be possible to immediately cancel out a health state with external help (e. g. an antidote against [poison](#poisoned)).
+* A **graded** **condition** has a *degree*, which is a number that represents how strong the **condition's** effects are/will be. A *point* of a **condition** is one such *degree*. 
+* To *shrug off* a *point* of a **condition** means to reduce the *degree* through a [test](#tests) performed by the affected character. It may often be possible to immediately cancel out a **condition** with external help (e. g. an antidote against [poison](#poisoned)).
   * Keep in mind that an attempt to *shrug off* counts as an [action](#action-points-ap) during combat. 
   * An attempt to *shrug off* can only be made *after* the **tick** of the effect. 
-* A **greedy** health state automatically increases in *degree* by 1 *point* **after** every *tick*. 
+* A **greedy condition** automatically increases in *degree* by 1 *point* **after** every *tick*. 
 
-Even outside of combat, for as long as a character in the current scene is suffering one of these health states, it is advisable to use very fine and [discrete time-slices](#scenario-time). 
+Even outside of combat, for as long as a character in the current scene is suffering one of these **conditions**, it is advisable to use very fine and [discrete time-slices](#scenario-time). 
 
-For all **graded** states, keep in mind they last until their *degree* is reduced to 0. 
+For all **graded** **conditions**, keep in mind they last until their *degree* is reduced to 0. 
 
-A listing of all health states can be found [in the appendix](#list-of-health-states). 
+A listing of all **conditions** can be found [in the appendix](#list-of-conditions). 
 
 ### Illness
 An **illness** can affect a character over a perod of time and cause various negative effects. 
@@ -1012,7 +1012,7 @@ Some creatures can resist certain [types of damage](#damage-types) naturally, wh
 How much **damage** is resisted, depends on the specifics of the creature or character and their [equipment](#worn--equipped). 
 
 ### Boons & Penalties
-Boons and penalties to the level of an [attribute](#attributes) or [skill](#skills) can be incurred from several different sources, such as [injuries](#injury), [illnesses](#illness), [mutations](#list-of-mutations), [scars](#scar) and [states](#health-state). Boons and penalties may be temporary or permanent, depending on their source. 
+Boons and penalties to the level of an [attribute](#attributes) or [skill](#skills) can be incurred from several different sources, such as [injuries](#injury), [illnesses](#illness), [mutations](#list-of-mutations), [scars](#scar) and [conditions](#condition). Boons and penalties may be temporary or permanent, depending on their source. 
 
 A boon to an [attribute](#attributes) or [skill](#skills) usually increase their **modified level**. If a boon awards an [attribute](#attributes) or [skill](#skills) that the character does not yet have, they gain it automatically. 
 
@@ -1887,7 +1887,7 @@ Is opposed by [resist](#resist-will).
 | Level | Name                 | AP | **Ob**  | Effect(s)          | Condition(s) |
 | ----- | -------------------- | -- | ------- | ------------------ | ------------ |
 | 1     | Inspire              | 1  | 1       | Grant another character **+1D** for their next test. |  |
-| 3     | Pep Talk             | 2  | 3       | Remove another character's [exhausted](#exhausted) or [terrified](#terrified) state. |  |
+| 3     | Pep Talk             | 2  | 3       | Remove another character's [exhausted](#exhausted) or [terrified](#terrified) [condition](#condition). |  |
 
 #### Resist (Will)
 Used to resist influences on the mind. 
@@ -1984,8 +1984,8 @@ Tools: cooking utensils, a pot or pan, a fire place
 | A meal for a few people              | Low        | Low       | Foodstuffs                             | / |
 | A meal for many people               | Moderate   | Moderate  | Plenty of foodstuffs                   | / |
 
-## List of Health States
-The following is a list of all [health states](#health-state) present in the core rules. 
+## List of Conditions
+The following is a list of all [conditions](#condition) present in the core rules. 
 
 ### Berserk
 A character who is in **berserk**, **must** attack the creature nearest to them, regardless of whether it is friend or foe, until it is dead or unconscious. The **berserked** character **must** then move on to the next available and closest victim. 
@@ -2011,13 +2011,13 @@ For every *point* in **bleeding**, a character suffers **1 D4** points of [bleed
 * Immediate cancel: With a successful [medicine](#medicine-int) [test](#tests), requiring 1 [medical supplies](#list-of-stuff--things) with **Ob** at the current *degree*.
 
 ### Death's Door
-**Death's door** is a **state** only a **PC** can enter and represents their final battle with death. 
+**Death's door** is a **condition** only a **PC** can enter and represents their final battle with death. 
 
 A **PC** at **death's door** must succeed at least one [toughness](#toughness-tough) test out of a possible of three. If they never succeed, they perish, irrevocably*. The **Ob** is determined as half of the character's [toughness](#toughness-tough), rounded up. 
 * If the character is at **death's door** during [combat](#combat), they must make a [toughness](#toughness-tough) test at the end of every round. 
 * If the character is at **death's door** out of [combat](#combat), they must make a test every minute. 
 
-A character can be helped out of the **death's door** **state**, if all of their **active** [injuries](#injury) are **patched up** or **treated**. 
+A character can be helped out of the **death's door** **condition**, if all of their **active** [injuries](#injury) are **patched up** or **treated**. 
 
 ### Dissolving
 For every point in **dissolving**, a character suffers **1 D4** points of [acid](#damage-types) damage every *tick*. 
@@ -2031,7 +2031,7 @@ A **drug-addicted** character must take their drug once every 24 hours, or else 
 
 For every 24 hours that a character is in **withdrawal**, they suffer **-1D** to **all** tests. For every 12 hours that they are in **withdrawal** they have to pass a [willpower](#willpower-will) test at **Ob** 2, or else be forced to dedicate their every bit of strength into acquiring and taking a new dose of the drug. 
 
-After 72 consecutive hours (= 3 full days) of having being in **withdrawal**, the character breaks free from their addiction, removing this **health state**.
+After 72 consecutive hours (= 3 full days) of having being in **withdrawal**, the character breaks free from their addiction, removing this **condition**.
 
 ### Electrified
 An **electrified** character suffers **-1D** for their every [test](#tests) requiring [agility](#agility-agi). That means [attributes](#attributes) and [skills](#skills). 
@@ -2045,7 +2045,7 @@ An **exhausted** character begins their turn with -2 **AP** and can run at most 
 
 While **exhausted**, a character suffering further [exhaustion](#exhaustion), must succeed a [self-control](#self-control-willemp) [test](#tests) at **Ob** equal to their current level of [exhaustion](#exhaustion), or else fall [unconscious](#unconscious).
 
-This **state** can be recovered from by **actively resting** for at least **six uninterrupted hours**. 
+This **condition** can be recovered from by **actively resting** for at least **six uninterrupted hours**. 
 
 ### Frostbitten
 A **frostbitten** character suffers -1 [AP](#action-points-ap) during combat and **-1D** to all [tests](#tests) outside of combat. 
@@ -2095,7 +2095,7 @@ It costs 1 [AP](#action-points-ap) to stand up.
 ### Rooted
 A **rooted** character can no longer move their legs. They cannot move from the spot, but can still move their upper body freely. 
 
-This **state** is usually tied to some condition, before it is removed. 
+This **condition** is usually tied to some condition, before it is removed. 
 
 ### Stunned
 A **stunned** character is unable to act, at all. During combat, their turn is skipped. 
