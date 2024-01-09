@@ -118,6 +118,8 @@
   - [Unarmed Combat (Str)](#unarmed-combat-str)
 - [General Interactions](#general-interactions)
   - [Appraisal](#appraisal)
+  - [Persuasion, Intimidation \& Deception](#persuasion-intimidation--deception)
+    - [Are they lying?](#are-they-lying)
 - [Appendix](#appendix)
   - [Character Creation](#character-creation)
     - [Determine Life Path](#determine-life-path)
@@ -159,13 +161,11 @@
       - [Throwing (Agi)](#throwing-agi)
       - [Weapon \< weapon type \> (\< attribute \>)](#weapon--weapon-type---attribute-)
     - [Social Skills](#social-skills)
+      - [Acting (Emp/Ora)](#acting-empora)
       - [Animal Handling (Emp)](#animal-handling-emp)
       - [Commanding (Will)](#commanding-will)
-      - [Deception (Ora)](#deception-ora)
-      - [Intimidation (Will)](#intimidation-will)
+      - [Entertainment (Agi/Emp)](#entertainment-agiemp)
       - [Mercantilism (Ora)](#mercantilism-ora)
-      - [Persuasion (Emp)](#persuasion-emp)
-      - [Resist (Will)](#resist-will)
       - [Riding (Emp/Will)](#riding-empwill)
       - [Self-Control (Will/Emp)](#self-control-willemp)
     - [Knowledge Skills](#knowledge-skills)
@@ -1527,6 +1527,53 @@ In order to appraise the value, weight, size or other properties of something, a
 
 The **Ob** depends on circumstance. How much time is available to appraise? How unusual or uncommon is the thing being appraised? How easy is it to appraise such things? 
 
+Of course, a trader may be experienced in the goods and wares they peddle. [Mercantilism](#mercantilism-ora) may be used as a catch-all for appraisal, but at a penalty of increased **Ob**, as a pure trader will never be able to ascertain the quality as well as a craftsperson could. As such, when using **mercantilism** for appraisal, the **Ob** is increased by 1. 
+
+## Persuasion, Intimidation & Deception
+There are no dedicated "social interaction" [skills](#skills) for the purposes of persuading people. Instead, characters *choose* one of their known **skills** relevant to the topic they wish to change another character's view about. 
+
+Unlike violent actions (= [combat](#combat)), where outcomes are clear and binary results (you hit or you miss), social maneuvering is much more complex and varied. Generally, you have three methods available: **persuasion**, **deception** and **intimidation**. Outside influences factor into the success of each of these methods. 
+
+When deciding on whether dice rolls are needed, keep in mind that a roll is only necessary, if the outcome is unclear. Only if the **NPC** has no clear reason to obey or believe as desired, should a roll be necessary. 
+
+That is the difference to combat. Combat cannot be played out in reality and will always have to be an abstraction, which only the dice can resolve. But social interaction *can* be played out at the table. After all, the medium for social interaction is communication, which is what you're already doing, just by playing the game. 
+
+Despite that, sometimes you may not clearly know how a **NPC** will react. That is when dice rolls may help to resolve the situation. 
+
+To ***persuade*** someone to see your point, you choose a *known* **skill** pertaining to the subject and make a roll. If you have no *known* **skill** to roll with, you may fall back to rolling your [oratory](#oratory-ora), [empathy](#empathy-emp) or [willpower](#willpower-will). The other character may [oppose](#opposed-test) your roll with the same **skill**, should they also know it. Alternatively, they may oppose with [oratory](#oratory-ora), [empathy](#empathy-emp) or [willpower](#willpower-will). 
+
+> For example, to convince another character that their methods for treating an ailment are incorrect, you might try to *persuade* with an opposed **medicine** test. 
+> 
+> If you achieve more **positives** than them, they should understand you might be correct in your assessment and begin to doubt their own opinion. But if you don't, then they may just as well stick with their beliefs. 
+
+Given the circumstances and what you're trying to achieve, the **GM** may determine that your **Ob** will be greater or less. Does the other character know and trust you? Do you have knowledge they do not? Do you have evidence? These and other such questions should affect the difficulty in convincing someone. 
+
+> For example, convincing a guard that accepting a bribe to let you pass may be in their own best interest, because you're about to prevent a plot that could lead to war, may be a lot harder when the guard has no reason to believe you. 
+> 
+> In that case, no matter how well you present your argument, if the guard has absolutely never heard or seen any evidence prior to your visit, then convincing them should be much harder than if the guard already had their suspicions about a secret plot. 
+
+For the purposes of convincing someone, you needn't always speak truthfully. You may ***deceive*** another character to the same effect as speaking the truth - at least for as long as the lie is not discovered. For this method, the [acting](#acting-empora) **skill** may be invaluable. But you could also lie about a subject that you know well. You could invent facts, based on facts that your character and the other character may have. 
+
+And lastly, ***intimidation*** is another method to try and get what you want, by forcing another character to obey. Mechanically, this is no different from persuasion. Pick a **skill** and explain how you use it. After all, intimidation isn't always just the threat of violence. Blackmailing also falls into this category. 
+
+Just as with persuasion, how much power you can exert over another character also depends on circumstance. Can you procure incriminating evidence to make them believe you mean business? Perhaps you can threaten their family, but why should they believe you have the means to follow up on your threats? A **GM** may and should adjust the **Ob** as they see fit. 
+
+Always be mindful about when to use which of the three methods. 
+
+* **Persuasion** is the most difficult method and perhaps the slowest, but doesn't harm trust. In fact, in can even help build trust. This is the healthy way to build and maintain relationships.
+* **Deception**, while not easy, may be easier and quicker. Most people don't take kindly to deception. This method is very harmful to trust, but only if the deception is discovered. 
+* **Intimidation** is perhaps the easiest and quickest way to progress, but is also sure to produce **enemies**. 
+
+### Are they lying?
+Of course, all of this begs the question - how to know if another character is lying? "Does my character believe them?" Barring any evidence or knowledge to determine the answer, characters can only determine whether they believe the *act* of the other character. Does it *seem* like they're speaking the truth?
+
+At that point an [opposed test](#opposed-test) may be made. The defender is the character being scrutinized. The defender tests [acting](#acting-empora) versus the attacker testing [observation](#observation-perc). For this procedure it does not matter, whether the defender was actually lying. Someone speaking the truth is tested the same way as someone speaking a lie. That is because the attacker can only go by whether it *looks*, *sounds* or *feels* like they're being deceived. 
+
+* If the attacker wins...
+  * ...and the other character was lying, they are given a hint that the other character doesn't seem trustworthy. They are **not** told how exactly it was a lie, only that it *seems* that something is off about *what* was said or *how* it was said. 
+  * ...and the other character wasn't lying, they are told the other character seems trustworthy. 
+* If the attacker loses, then they're told the other character seems trustworthy, regardless of whether they were lying. 
+
 # Appendix
 The appendix contains important and less important lists, for reference only when needed. 
 
@@ -1835,6 +1882,16 @@ Expertise at handling a close-quarters or ranged weapon of a specific [weapon ty
 ### Social Skills
 These skills have a dominant social aspect and are strongly related to a character's *social attributes*. 
 
+#### Acting (Emp/Ora)
+Changing one's visual language, mannerisms, tone of voice and forms of speech to imitate someone else. 
+
+A vital skill in stage-play for honest entertainment and just as important to liars and cheats who prefer to entertain only themselves. 
+
+| Level | Name                 | AP | **Ob**  | Effect(s)          | Condition(s) |
+| ----- | -------------------- | -- | ------- | ------------------ | ------------ |
+| 0     | Taunt                | 2  | Opposed by [self-control](#self-control-willemp) | Force a designated target to attack *you* on their next turn. | |
+| 3     | Vicious Mockery      | 2  | Opposed by [self-control](#self-control-willemp) | Lower a designated target's defense by **-1D** until the end of their next turn and force them to attack *you*. | |
+
 #### Animal Handling (Emp)
 Gaining an animal's trust, directing it and training it to obey simple commands. 
 
@@ -1842,55 +1899,29 @@ Is opposed by [self-control](#self-control-will).
 
 | Level | Name                 | AP | **Ob**  | Effect(s)          | Condition(s) |
 | ----- | -------------------- | -- | ------- | ------------------ | ------------ |
-| 2     | Calm Animal          | 2  | Opposed | Calm an aggressive/hostile/frightened animal down. | Once per scene. |
-| 3     | Command Animal       | 2  | Opposed | Issue a *simple* command to a tamed/friendly animal. | / |
+| 0     | Command Animal       | 2  | Opposed by [self-control](#self-control-willemp) | Issue a *simple* command to a tamed/friendly animal. | / |
+| 2     | Calm Animal          | 2  | Opposed by [self-control](#self-control-willemp) | Calm an aggressive/hostile/frightened animal down. | Once per scene. |
 
 #### Commanding (Will)
 Speaking commands others will respect and follow to the letter. 
 
-| Level | Name                 | AP | **Ob** | Effect(s)          | Condition(s) |
-| ----- | -------------------- | -- | ------ | ------------------ | ------------ |
-| 3     | War Cry                | 1 | 2 | All allies who can hear it, gain **+1D** on their next attack test. | Ally can hear the command. |
-| 5     | Unquestionable Command | 2 | 3 | An ally of choice, gains **+2D** on their next test. | Ally can hear the command. |
-| 6     | Spur                   | 2 | 4 | An ally of choice, is [hastened](#hasted) for one turn of combat, or five seconds out of combat. | Ally can hear the command. |
+| Level | Name                   | AP | **Ob** | Effect(s)          | Condition(s) |
+| ----- | ---------------------- | -- | ------ | ------------------ | ------------ |
+| 1     | Inspire                | 1  | 1      | Grant another character **+1D** for their next test. |  |
+| 3     | Pep Talk               | 2  | 3      | Remove another character's [exhausted](#exhausted) or [terrified](#terrified) [condition](#condition). |  |
+| 3     | War Cry                | 1  | 2      | All allies who can hear it, gain **+1D** on their next attack test. | Ally can hear the command. |
+| 5     | Unquestionable Command | 2  | 3      | An ally of choice, gains **+2D** on their next test. | Ally can hear the command. |
+| 6     | Spur                   | 2  | 2      | An ally of choice, is [hastened](#hasted) for one turn of combat, or five seconds out of combat. | Ally can hear the command. |
 
-#### Deception (Ora)
-Telling lies, acting in a way so as to deceive another character into believing something untruthful. 
-
-Is opposed by [observation](#observation-perc). Liars are often given away by subtle gestures and mimicry, or a change in tone and demeanor. Observant characters can pick up on that. 
-
-#### Intimidation (Will)
-Intimidating another character into doing something. 
-
-This should also in large part be based on appearance, strength and reputation. 
-
-Is opposed by [resist](#resist-will). 
-
-| Level | Name                 | AP | **Ob**  | Effect(s)          | Range    | Condition(s) |
-| ----- | -------------------- | -- | ------- | ------------------ | -------- | ------------ |
-| 0     | Draw Attention       | 1  | Opposed by [Resist](#resist-will) | Force one designated target within range to focus on you, instead. After they've attacked or otherwise had their attention on you, they may divert their attention, again. | 18'/6m | / |
-| 1     | Draw More Attention  | 1  | Opposed by [Resist](#resist-will) | Force N designated targets within range to focus on you, instead, where *N* is equal to your level in this skill. After they've attacked or otherwise had their attention on you, they may divert their attention, again. | 36'/12m | Once per combat. |
-| 1     | Taunt                | 1  | Opposed by [Resist](#resist-will) | Lower a designated target's defense within range by **-1D** for 1 turn. | 18'/6m | Target is not already affected by an intimidation. |
-| 2     | Vicious Mockery      | 1  | Opposed by [Resist](#resist-will) | Lower a designated target's defense within range by **-2D** for 3 turns. | 36'/12m | Target is not already affected by an intimidation. |
-| 3     | War Cry              | 1  | Opposed by [Resist](#resist-will) | Lower the defense of all hostile targets within range by **-2D**, for 4 turns. | 36'/12m | Once per combat; Target is not already affected by an intimidation. |
+#### Entertainment (Agi/Emp)
+The ability to juggle, perform tricks with cards, to perform "magic" tricks and such - anything requiring nimble fingers and flashy presentation, for the entertainment of others. 
 
 #### Mercantilism (Ora)
-Skill at bartering for goods and services and negotiating prices. Also useful to determine the availability of goods and materials and what their current demands and supply are. 
+Skill at knowing or getting to know the value of goods and services. Also useful in determining the availability and demand of such things. 
 
-See [trade](#trade) on how to use this skill on a more abstract level. 
+See [trade](#trade) on how to use this **skill** on a more abstract level. 
 
-#### Persuasion (Emp)
-Persuading another character to think differently about something. 
-
-Is opposed by [resist](#resist-will). 
-
-| Level | Name                 | AP | **Ob**  | Effect(s)          | Condition(s) |
-| ----- | -------------------- | -- | ------- | ------------------ | ------------ |
-| 1     | Inspire              | 1  | 1       | Grant another character **+1D** for their next test. |  |
-| 3     | Pep Talk             | 2  | 3       | Remove another character's [exhausted](#exhausted) or [terrified](#terrified) [condition](#condition). |  |
-
-#### Resist (Will)
-Used to resist influences on the mind. 
+Can also be used as a sort of catch-all **skill** for [appraisal](#appraisal), but at a penalty of +1 **Ob**. 
 
 #### Riding (Emp/Will)
 Riding and controling a mount.
