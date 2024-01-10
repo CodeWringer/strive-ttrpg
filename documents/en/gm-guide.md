@@ -5,7 +5,6 @@
     - [Non-Player Character (NPC)](#non-player-character-npc)
       - [Challenge Ratings (CR)](#challenge-ratings-cr)
       - [Bring NPCs To Life](#bring-npcs-to-life)
-    - [Use The Senses](#use-the-senses)
   - [Your Game](#your-game)
     - [To Rule or Not To Rule](#to-rule-or-not-to-rule)
   - [Your Players](#your-players)
@@ -15,6 +14,7 @@
     - [Read Out Ambitions, Aspirations \& Reactions](#read-out-ambitions-aspirations--reactions)
     - [Read Out Fate Point Purchases](#read-out-fate-point-purchases)
   - [Your Session](#your-session)
+    - [Use The Senses](#use-the-senses)
     - [Choosing **Ob**](#choosing-ob)
     - [Challenging Your Players](#challenging-your-players)
       - [**Challenge your PCs' abilities during combat**](#challenge-your-pcs-abilities-during-combat)
@@ -44,17 +44,15 @@ This document is directed at (and somewhat reserved for) the Game Master (**GM**
 # The Role Of A Game Master
 As the **GM**, you are the one person at the table playing a different game than the others. Instead of controlling a single character in a given world, you are in control of the world itself and determine what the characters within it get to do. 
 
-You're the one who decides on the tone of the world. Is it grimdark? Or perhaps heroic, instead? You should be clear about this, before you even interview your first player. 
+You decide what kind of game you'll host. A grimdark campaign of desperate survival? A heroic war against evil gods? A Cthulean horror mystery? An epic space opera in a galaxy full of conflict? Or something else entirely? Choose something that interests *you*! After all, *you'll* be the one engaging with the world the most. If the world fascinates *you*, then the players will quickly share in the fascination! 
 
-What adventure(s) will the players be engaging in? Murder mystery? Grand strategy? A heist? Perhaps nothing quite so specific. Perhaps you'll simply present them with a mix of adventures and see which one they pick. 
+You're the one who organizes everything. On what days are your play sessions going to be on? What time? What do you do, if someone can't make it? Do you play without them or do you have boardgames at the ready for such an occasion? Of course, you should consult your players and make sure to find the best compromise for everyone. 
 
-You're also the one who organizes everything. On what days are your play sessions going to be on? What time? What do you do, if someone can't make it? Do you play without them or do you have boardgames at the ready for such an occasion? 
+Who will get to be at your table and play in your game? You'll have to be the one to invite others. You may and should involve your players in the process of course! 
 
-Who will get to be at your table and play in your game? You'll have to decide on that, too. You may involve your players in the process of judging the fitness of potential candidates, but ultimately, the final say lies with you. 
+How will you run the game? Will it be a single play session (= one-shot) or a perpetual game? Do you want the game to be on-site, at your house or perhaps online? Will you use a webcam and do you expect your players to show themselves via webcam or is it optional? 
 
-How will you run the game? Will it be a single play session (= one-shot) or a perpetual game? Do you want the game to be on-site, at your house or perhaps online? Will you use a webcam and do you expect your players to show themselves via webcam? 
-
-It is *your world* and *your game*. The other people at the table are *your players*. Find the right players for your world and your game and make your game and world right for your players. 
+It is *your world* and *your game*. The other people at the table are *your players*. Find the right players for your game and make your game right for your players. They are your guests and will only stay for as long as they feel welcome. 
 
 ## Your World
 While **Ambersteel** is best suited to a medieval-fantasy world, it doesn't dictate the type of world you have to employ. 
@@ -97,15 +95,6 @@ While putting on an accent and visibly acting out the quirks of an **NPC** certa
 More often than not, you'll have **NPC**s be the source of quests and adventures for the **PC**s. But you can also have some **NPC**s that work for the **PC**s. This, especially, gives players a greater sense of agency, in your world. It allows them to move pieces on the board, so to speak. 
 
 You also get to use **NPC**s as a tool to feed players information (or false rumors) about the world they're in. Be careful how you approach this, though. Players have a tendency to assume everything the **GM** says is true. So when an **NPC** feeds them false information, they tend not to question it. Before you can effectively use false information as a tool, you'll have to establish that **NPC**s will not always speak the truth. Perhaps by introducing an **NPC** very early on, who will tell the most outrageous lies. Maybe even about the **PC**s. That would certainly make your players sceptical. But the specifics of this are entirely up to you and your specific game. 
-
-### Use The Senses
-When you describe scenes, not just what one can see is of relevance. What are the **PC**s' other senses picking up? What about hearing? Smell? Do the mages sense the flow of magic? What's the temperature like? Is the air damp or dry? Is the ground trembling from a giant's heavy footfalls?
-
-Try to pick only the most significant and most symbolic influences on the senses for your scene. There is little point in describing the gentle rustle of the wind in the leaves, whenever the **PC**s enter a forest. But if there is a strong stench of decay in the air, then that's probably noteworthy. 
-
-More often than not, players would be on the look-out for anything out of the ordinary in a given scene. So anything obvious to the **PC**s, anything that *should* stand out to them, you should describe to them. And that includes smells, noises, temperature, humidity, etc. 
-
-Of course, sometimes, describing a peaceful and soothing scene can be a welcome and effective change. After a harrowing fight, the **PC**s might enter a safe area, where you describe it as a peaceful meadow or serene village or anything along those lines. 
 
 ## Your Game
 There is an *unspoken social contract* between you, the **GM** and your players. Everyone at the table agrees that you *get to call the shots*. You present every scenario and its challenges, you arbitrate and moderate. You narrate and you listen. 
@@ -179,6 +168,15 @@ Everyone should be clear on what everyone else can do, especially since these ar
 While running the session, you'll have the most work and the toughest job. Listen to your players attentively, react and improvise as needed. 
 
 You'll have to keep a lot of rules in mind. This section aims to provide a set of reminders. 
+
+### Use The Senses
+When you describe scenes, not just what one can see is of relevance. What are the **PC**s' other senses picking up? What about hearing? Smell? Do the mages sense the flow of magic? What's the temperature like? Is the air damp or dry? Is the ground trembling from a giant's heavy footfalls?
+
+Try to pick only the most significant and most symbolic influences on the senses for your scene. There is little point in describing the gentle rustle of the wind in the leaves, whenever the **PC**s enter a forest. But if there is a strong stench of decay in the air, then that's probably noteworthy. 
+
+More often than not, players would be on the look-out for anything out of the ordinary in a given scene. So anything obvious to the **PC**s, anything that *should* stand out to them, you should describe to them. And that includes smells, noises, temperature, humidity, etc. 
+
+Of course, sometimes, describing a peaceful and soothing scene can be a welcome and effective change. After a harrowing fight, the **PC**s might enter a safe area, where you describe it as a peaceful meadow or serene village or anything along those lines. 
 
 ### Choosing **Ob**
 Choosing the right **Ob** for a test is a difficult task, for which clear rules cannot be easily written. More times than not, your gut-feeling will have to tell you which number is *right* for the given test. 
