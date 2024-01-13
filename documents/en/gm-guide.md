@@ -1,10 +1,12 @@
 ## Table of Contents <!-- omit in toc -->
 - [Introduction](#introduction)
 - [The Role Of A Game Master](#the-role-of-a-game-master)
+  - [Getting a Game Together](#getting-a-game-together)
   - [Your World](#your-world)
     - [Non-Player Character (NPC)](#non-player-character-npc)
       - [Challenge Ratings (CR)](#challenge-ratings-cr)
       - [Bring NPCs To Life](#bring-npcs-to-life)
+  - [First Impressions Are Definitive](#first-impressions-are-definitive)
   - [Your Game](#your-game)
     - [To Rule or Not To Rule](#to-rule-or-not-to-rule)
   - [Your Players](#your-players)
@@ -42,17 +44,28 @@ A role-playing game by Nicolas H.
 This document is directed at (and somewhat reserved for) the Game Master (**GM**) - the one person at the table who everyone agrees has the **authority** and **burden** to run the game. It will outline all the must-knows and present ideas on how to run the game. While most of the information is hopefully useful, not all of it has to be read and internalized, right away. 
 
 # The Role Of A Game Master
-As the **GM**, you are the one person at the table playing a different game than the others. Instead of controlling a single character in a given world, you are in control of the world itself and determine what the characters within it get to do. 
+As the **GM**, you are the one person at the table playing a slightly different game than the others. Instead of controlling a single character in a given world, you are in control of the world itself and determine what the characters within it get to do. 
 
-You decide what kind of game you'll host. A grimdark campaign of desperate survival? A heroic war against evil gods? A Cthulean horror mystery? An epic space opera in a galaxy full of conflict? Or something else entirely? Choose something that interests *you*! After all, *you'll* be the one engaging with the world the most. If the world fascinates *you*, then the players will quickly share in the fascination! 
+You're the host of the game. This means you'll have to organize everything. Invite players or make a post detailling the game you want to host, set the time and place and interview players who show interest. 
 
-You're the one who organizes everything. On what days are your play sessions going to be on? What time? What do you do, if someone can't make it? Do you play without them or do you have boardgames at the ready for such an occasion? Of course, you should consult your players and make sure to find the best compromise for everyone. 
+You prepare maps, **NPC**s, stories and plot hooks. You involve the **PC**s in the world, offer them incentives to act and feed their [drivers](./core-rules.md#personality). 
 
-Who will get to be at your table and play in your game? You'll have to be the one to invite others. You may and should involve your players in the process of course! 
+You moderate and mediate. When there is conflict between players, you help with reconciliation. You ensure every player gets a chance to speak and ensure players are comfortable being at your table. Ask for and hear their feedback. Criticism is a chance to improve. 
 
-How will you run the game? Will it be a single play session (= one-shot) or a perpetual game? Do you want the game to be on-site, at your house or perhaps online? Will you use a webcam and do you expect your players to show themselves via webcam or is it optional? 
+Players may help with all of these tasks, but that may not be commonplace. These are foremost *your* tasks and are much the reason why *running the game* can be a lot of fun. It is a very demanding and very rewarding process. 
 
-It is *your world* and *your game*. The other people at the table are *your players*. Find the right players for your game and make your game right for your players. They are your guests and will only stay for as long as they feel welcome. 
+It is *your world* and *your game*, but the other people at the table are *your players*. Find the right players for your game and ***make*** your game right for your players. They are your guests and will only stay for as long as they feel welcome. 
+
+## Getting a Game Together
+Before inviting or interviewing your first player, you'll have to define a few parameters. 
+* What theme and setting will the game have? A grimdark campaign of desperate survival? A heroic war against evil gods? A Cthulean horror mystery? An epic space opera in a galaxy full of conflict? Or something else entirely? 
+  * Will you be following a pre-defined narrative (the railroad) or simply throw the **PC**s in a sandbox and expect them to find their way? 
+* How may sessions will you host? A one-shot, two-shot or other number? Perhaps you don't want to place a limit and simply keep running the game for as long as it remains fun. 
+* If the game is online, do you expect everyone to be using webcams or do you make that optional?
+* Are there any taboo subjects that you will dodge during play and expect your players to avoid? Torture, racism, sexism and such? Make sure to allow your players to name taboo subjects, as well. 
+* Do you expect people at the table to always act in-character? Do you expect players to speak as their character would? Or do you see such behavior as entirely optional? Forcing it may make players uncomfortable very quickly, so be careful with this one. 
+
+In a running game, when inviting additional players, always make sure to involve the players already in your group in the interview and decision-making process. After all, they'll be interacting with any newcomers as much as you. 
 
 ## Your World
 While **Ambersteel** is best suited to a medieval-fantasy world, it doesn't dictate the type of world you have to employ. 
@@ -95,6 +108,15 @@ While putting on an accent and visibly acting out the quirks of an **NPC** certa
 More often than not, you'll have **NPC**s be the source of quests and adventures for the **PC**s. But you can also have some **NPC**s that work for the **PC**s. This, especially, gives players a greater sense of agency, in your world. It allows them to move pieces on the board, so to speak. 
 
 You also get to use **NPC**s as a tool to feed players information (or false rumors) about the world they're in. Be careful how you approach this, though. Players have a tendency to assume everything the **GM** says is true. So when an **NPC** feeds them false information, they tend not to question it. Before you can effectively use false information as a tool, you'll have to establish that **NPC**s will not always speak the truth. Perhaps by introducing an **NPC** very early on, who will tell the most outrageous lies. Maybe even about the **PC**s. That would certainly make your players sceptical. But the specifics of this are entirely up to you and your specific game. 
+
+## First Impressions Are Definitive
+Whenever you introduce a new aspect of your world, that introduction will stick. In whatever way you portray an aspect of your world, *that*, is how players will remember it. A first impression tends to teach us fundamental expectations. 
+
+For this reason, it is often wise to introduce normality first, instead of the exception. If you have the **PC**s get robbed the first time they enter a city, they'll henceforth expect to be robbed *every* time they enter a city. Especially when faced with hostility, the first time **PC**s interact with a new aspect of the world, that aspect will seem more hostile in general. Combine many such experiences, and you end up with a world that seems extremely hostile. Unless if you're playing a grimdark campaign, you should be wary of arriving at such a state. 
+
+If it is normal to arrive in a new city safely, find secure lodgings, go to the market or inn and *not* be robbed or molested, then that should be the first impression the **PC**s get to experience. Unless if there is solid narrative reason why that shouldn't be the case, of course. Even so, it *will* paint a picture the players won't soon forget. 
+
+This is also why **PC**s should be expected to behave as their origin cultures dictate. This point is probably up for contention, as **PC**s are usually somewhat special. They may deviate to an extent, but even so, the "elf in the party" defines the very perception of elves to all the players. The way that **PC** behaves, is the way players will expect all elves to behave, because if that is their first exposure to people of their culture. 
 
 ## Your Game
 There is an *unspoken social contract* between you, the **GM** and your players. Everyone at the table agrees that you *get to call the shots*. You present every scenario and its challenges, you arbitrate and moderate. You narrate and you listen. 
