@@ -148,7 +148,7 @@
     - [List of Stuff \& Things](#list-of-stuff--things)
   - [Lists of Skills](#lists-of-skills)
     - [Physical Skills](#physical-skills)
-      - [Acrobatics (Agi)](#acrobatics-agi)
+      - [Acrobatics (Agi/Str)](#acrobatics-agistr)
       - [Berserking (End)](#berserking-end)
       - [Fishing (End)](#fishing-end)
       - [Instrument-Playing \< instrument \> (Agi)](#instrument-playing--instrument--agi)
@@ -1806,7 +1806,7 @@ The following list does not and cannot aim to be a complete listing of all possi
 ### Physical Skills
 These skills have a dominant physical aspect and are directly tied to a character's *physical attributes*. 
 
-#### Acrobatics (Agi)
+#### Acrobatics (Agi/Str)
 Performing acrobatic feats, such as jumping, tumbling and climbing, without injuring oneself in the process. 
 
 | Level | Name                 | AP | **Ob**  | Effect(s)          | Condition(s) |

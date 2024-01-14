@@ -2,47 +2,24 @@
 
 ## The Start of a Session
 1. Recap the last session. Preferably, a player should do this.
-1. Time for personality changes. 
-   1. Now, players should have a last chance to change their personality before the session begins. 
-   2. Once everyone is done adjusting things, have them read out their current ambition, aspirations, reactions and *signature* personality traits. 
-2. Time for fate-card purchases. Everyone should say out loud what cards they bought. 
+1. Time for personality and driver changes. 
+1. Time for fate-card purchases. Everyone should say out loud what cards they bought. 
 
 ## During the Session
 
 ### Choosing Ob
-* T - Trivial
-* E - Easy
-* D - Difficult
-* C - Challenging
-* Blanks are impossible
-
-The following table provides a decent point of orientation for **attribute** tests: 
-Level | **Ob** 1 | **Ob** 2 | **Ob** 3 | **Ob** 4 | **Ob** 5 | **Ob** 6 | **Ob** 7 | **Ob** 8 | **Ob** 9 | **Ob** 10
-| -- | - | - | - | - | - | - | - | - | - | - |
-| 1  | C |   |   |   |   |   |   |   |   |   | 
-| 2  | C | C |   |   |   |   |   |   |   |   | 
-| 3  | D | C | C |   |   |   |   |   |   |   | 
-| 4  | E | D | C | C |   |   |   |   |   |   | 
-| 5  | E | D | D | C | C |   |   |   |   |   | 
-| 6  | T | E | D | D | C | C |   |   |   |   | 
-| 7  | T | T | E | E | D | C | C |   |   |   | 
-| 8  | T | T | T | E | E | D | C | C |   |   | 
-| 9  | T | T | T | E | E | D | C | C | C |   | 
-| 10 | T | T | T | E | E | D | D | C | C | C | 
-
-The following table provides a decent point of orientation for **skill** tests: 
-Level | **Ob** 1 | **Ob** 2 | **Ob** 3 | **Ob** 4 | **Ob** 5 | **Ob** 6 | **Ob** 7 | **Ob** 8 | **Ob** 9 | **Ob** 10
-| -- | - | - | - | - | - | - | - | - | - | - |
-| 1  | D | C | C | C | C | C | C | C | C | C | 
-| 2  | D | D | C | C | C | C | C | C | C | C | 
-| 3  | D | D | D | C | C | C | C | C | C | C | 
-| 4  | E | D | D | D | C | C | C | C | C | C | 
-| 5  | E | E | D | D | D | C | C | C | C | C | 
-| 6  | T | E | E | D | D | D | C | C | C | C | 
-| 7  | T | T | E | E | D | D | D | C | C | C | 
-| 8  | T | T | T | E | E | D | D | D | C | C | 
-| 9  | T | T | T | E | E | D | D | D | D | C | 
-| 10 | T | T | T | T | E | E | D | D | D | D | 
+Keep in mind that **attribute** tests are much harder to succeed, than **skill** tests. The following guidelines aim to provide a point of orientation:
+* For **attribute** tests
+  * **Ob** 1 is easy:
+  * **Ob** 2-3 is difficult
+  * **Ob** 4-6 is challenging
+  * **Ob** 7+ is very challenging
+* For **skill** tests:
+  * **Ob** 1-2 is trivial
+  * **Ob** 3-4 is difficult
+  * **Ob** 4-6 is challenging
+  * **Ob** 7-8 is very challenging
+  * **Ob** 9+ is masterful
 
 ### Challenge Your Players
 1. **Mechanical challenges**
