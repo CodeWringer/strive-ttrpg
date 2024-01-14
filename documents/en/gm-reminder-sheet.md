@@ -21,6 +21,14 @@ Keep in mind that **attribute** tests are much harder to succeed, than **skill**
   * **Ob** 7-8 is very challenging
   * **Ob** 9+ is masterful
 
+### Types of Test
+* **Binary** - The outcome of the test is either a **complete success** or **complete failure**.
+* **Stepped**: A series of binary tests.
+* **Graduated**: The number of **positives** rolled during the test factor into the outcome.
+* **Creative**: Players choose the skill(s) or attribute(s) to use in a given situation. 
+* **Opposed**: Two characters must roll. One side must achieve more **positives** than the other. 
+  * **Ob** for the *attacker*: *defender* **positives** + 1. 
+
 ### Challenge Your Players
 1. **Mechanical challenges**
    1. Tests
