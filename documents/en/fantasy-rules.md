@@ -4,7 +4,7 @@
     - [Arcana \[Arc\]](#arcana-arc)
   - [Health \& Exhaustion](#health--exhaustion)
     - [Hit Points (HP)](#hit-points-hp)
-    - [State](#state)
+    - [Condition](#condition)
       - [Bleeding](#bleeding)
       - [Exhausted](#exhausted)
       - [Poisoned](#poisoned)
@@ -132,8 +132,8 @@ Supplements to specific health and exhaustion.
 ### Hit Points (HP)
 [Restoration magic](#restoration-emp) can restore all currently missing **HP** of a character, without the need for medical supplies. 
 
-### State
-Supplements to specific **health states**. 
+### Condition
+Supplements to specific **conditions**. 
 
 #### Bleeding
 [Restoration magic](#restoration-emp) can remove one or more points of **bleeding** at a time. 
@@ -142,7 +142,7 @@ Supplements to specific **health states**.
 An **exhausted** mage can no longer attempt to cast any magic. 
 
 #### Poisoned
-This state can also be removed with [restoration magic](#restoration-emp).
+This **condition** can also be removed with [restoration magic](#restoration-emp).
 
 ### Scars
 Scars may be removed through successful application of [alteration](#alteration-int) magic. 
