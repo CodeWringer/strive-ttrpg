@@ -10,11 +10,11 @@
   - [Your Game](#your-game)
   - [Your Players](#your-players)
 - [Mastering Your Game](#mastering-your-game)
-  - [Starting Your Session](#starting-your-session)
+  - [Starting the Session](#starting-the-session)
     - [Recap The Last Session](#recap-the-last-session)
     - [Personality \& Driver Adjustments](#personality--driver-adjustments)
     - [Read Out Fate Point Purchases](#read-out-fate-point-purchases)
-  - [Your Session](#your-session)
+  - [During the Session](#during-the-session)
     - [Use The Senses](#use-the-senses)
     - [Choosing **Ob**](#choosing-ob)
     - [The Tools](#the-tools)
@@ -30,7 +30,7 @@
       - [Rewards!](#rewards)
       - [Fair Warning](#fair-warning)
     - [To Rule or Not To Rule](#to-rule-or-not-to-rule)
-  - [Ending Your Session](#ending-your-session)
+  - [Ending the Session](#ending-the-session)
     - [Hand Out Fate Points](#hand-out-fate-points)
     - [Gather Feedback](#gather-feedback)
 
@@ -160,7 +160,7 @@ Besides the mediator, you're also the moderator. Make sure your players are resp
 # Mastering Your Game
 While the previous sections provide an overview of the expectations of a **GM**, this sections aims to help you fulfill those expectations. 
 
-## Starting Your Session
+## Starting the Session
 There are a few steps to take before diving right back into the action. 
 
 ### Recap The Last Session
@@ -187,7 +187,7 @@ Once **drivers** are handled, move on to what meta-powers players purchased with
 
 Especially since these are strictly meta-game powers, everyone should be clear on this. 
 
-## Your Session
+## During the Session
 While running the session, you'll have the most work and the toughest job. Listen to your players attentively, react and prompt as needed. 
 
 You'll have to keep a lot in mind. This section aims to provide a set of reminders. 
@@ -385,7 +385,7 @@ When looking up rules, limit the time you take. If you take too long, players st
 
 Rules *discussions* are best kept for after the game. When a player tries to argue a ruling, they're violating the unspoken social contract and are harming the game's pacing. It should be wise to move such discussions to a later point in time. But of course, there is an exception. When you find there is a rule of **Ambersteel**, which really doesn't work out in the given situation, that's when you may need to consult your players to figure out how you'll house-rule it. Such breaks in play may not always be avoidable. Make sure to write down your house-rule, so that you may look it up quickly, the next time you encounter a similar situation. 
 
-## Ending Your Session
+## Ending the Session
 Finally, before parting ways, you and your players should stick around for some wind-down steps. 
 
 ### Hand Out Fate Points
