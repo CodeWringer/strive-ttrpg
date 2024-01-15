@@ -657,7 +657,7 @@ Note that *level* in this section refers to the *raw level* of a **skill**. That
 Skill levels and advancement are divided into three tiers: **Dabbling**, **Apprentice** and **Master**. 
 * Skills at **dabbling level** are any skills at level 0, which means any [learning skill](#learning-skills). 
 * Skills at **apprentice level** are easy to improve and range from the levels 1 to and including 4. 
-* Skills at **master level** are difficult to improve and start at levle 5. Mastery is open-ended, which means it doesn't, technically, stop. 
+* Skills at **master level** are difficult to improve and start at level 5. Mastery is open-ended, which means it doesn't, technically, stop. 
 
 Advancing a **dabbling skill** (level 0) requires: 
 * 6 **complete successes**. 
