@@ -4,7 +4,7 @@
     - [Arcana \[Arc\]](#arcana-arc)
   - [Health \& Exhaustion](#health--exhaustion)
     - [Hit Points (HP)](#hit-points-hp)
-    - [State](#state)
+    - [Condition](#condition)
       - [Bleeding](#bleeding)
       - [Exhausted](#exhausted)
       - [Poisoned](#poisoned)
@@ -45,28 +45,27 @@
         - [Kite Shield](#kite-shield)
     - [List of Stuff \& Things](#list-of-stuff--things)
     - [Weapon Types](#weapon-types)
-      - [Dagger](#dagger)
-      - [Light Blade](#light-blade)
-      - [Long Blade](#long-blade)
-      - [Great Blade](#great-blade)
-      - [Axe](#axe)
-      - [Great Axe](#great-axe)
-      - [Spear](#spear)
-      - [Lance](#lance)
-      - [Polearm](#polearm)
-      - [Club](#club)
-      - [Small Crusher](#small-crusher)
-      - [Large Crusher](#large-crusher)
-      - [Short-Bow](#short-bow)
-      - [Longbow](#longbow)
-      - [War-Bow](#war-bow)
-      - [Crossbow](#crossbow)
-      - [Firearm](#firearm)
+      - [Dagger (Agi)](#dagger-agi)
+      - [Light Blade (Agi)](#light-blade-agi)
+      - [Long Blade (Str)](#long-blade-str)
+      - [Great Blade (Str)](#great-blade-str)
+      - [Axe (Str)](#axe-str)
+      - [Great Axe (Str)](#great-axe-str)
+      - [Spear (Str)](#spear-str)
+      - [Lance (Str)](#lance-str)
+      - [Polearm (Str)](#polearm-str)
+      - [Club (Str)](#club-str)
+      - [Small Crusher (Str)](#small-crusher-str)
+      - [Large Crusher (Str)](#large-crusher-str)
+      - [Short-Bow (Agi)](#short-bow-agi)
+      - [Longbow (Perc)](#longbow-perc)
+      - [War-Bow (Str)](#war-bow-str)
+      - [Crossbow (Perc)](#crossbow-perc)
+      - [Firearm (Perc)](#firearm-perc)
   - [Lists of Skills](#lists-of-skills)
     - [Physical Skills](#physical-skills)
-      - [Rune-Using (Agi)](#rune-using-agi)
-      - [Sailing (Str)](#sailing-str)
-      - [Shield (End)](#shield-end)
+      - [Rune-Using (Agi/Arc)](#rune-using-agiarc)
+      - [Sailing (Wis)](#sailing-wis)
     - [Knowledge Skills](#knowledge-skills)
       - [Heraldry (Int)](#heraldry-int)
       - [Magic School \< School \> (\< Attribute \>)](#magic-school--school---attribute-)
@@ -85,7 +84,7 @@
       - [Goldsmithing (Agi)](#goldsmithing-agi)
       - [Leatherworking (Agi)](#leatherworking-agi)
       - [Masonry (Str)](#masonry-str)
-      - [Rune Carving (Arc)](#rune-carving-arc)
+      - [Rune Carving (Arc/Wis)](#rune-carving-arcwis)
       - [Tanning/Skinning (Agi)](#tanningskinning-agi)
       - [Weapon smithing (Str)](#weapon-smithing-str)
       - [Woodcarving (Agi)](#woodcarving-agi)
@@ -103,14 +102,14 @@
   - [List of Injuries](#list-of-injuries)
   - [List of Illnesses](#list-of-illnesses)
 
-Version 3 (Playtest)
+Version 4 (Playtest)
 
-A role-playing game by Nicolas Haase
+A role-playing game by Nicolas H.
 
 # Introduction
 This is the module containing the rules enabling play in a medieval fantasy game world, which includes supernatural monsters and magic. As such, only the differences and additions to the core rules are included in this document. 
 
-This module is best suited for a low to medium fantasy setting. Adapting it to high or heroic fantasy will require extensive additions to the lists of **skills** and **skill abilities**. 
+This module is best suited for a low to medium fantasy setting. Adapting it to high or heroic fantasy will require extensive additions to the lists of **skills** and **expertises**. 
 
 More details about the module:
 * Magic is a **powerful** tool, but comes with great risk, with a chance for a spell to fail and back-fire. The chance of failure is manageable, however. 
@@ -133,8 +132,8 @@ Supplements to specific health and exhaustion.
 ### Hit Points (HP)
 [Restoration magic](#restoration-emp) can restore all currently missing **HP** of a character, without the need for medical supplies. 
 
-### State
-Supplements to specific **health states**. 
+### Condition
+Supplements to specific **conditions**. 
 
 #### Bleeding
 [Restoration magic](#restoration-emp) can remove one or more points of **bleeding** at a time. 
@@ -143,7 +142,7 @@ Supplements to specific **health states**.
 An **exhausted** mage can no longer attempt to cast any magic. 
 
 #### Poisoned
-This state can also be removed with [restoration magic](#restoration-emp).
+This **condition** can also be removed with [restoration magic](#restoration-emp).
 
 ### Scars
 Scars may be removed through successful application of [alteration](#alteration-int) magic. 
@@ -214,7 +213,7 @@ You'll need to track **current magic stamina** separately. To start with, set yo
 # Magic
 Only a character with [arcana](#arcana-arc) can cast magic. What kind of magic, depends on the [magic schools](#list-of-magic-schools) the character knows. There are offensive, defensive and manipulative [schools of magic](#list-of-magic-schools). 
 
-A *magic spell* is the intended effect of using a [magic school's](#magic-school--school---attribute-) [skill ability](./core-rules.md#skill-abilities). This is also referred to as *casting magic*, *casting a spell* or other similar wordings. In mechanical terms, every [skill ability](./core-rules.md#skill-abilities) noted on a [school of magic](#list-of-magic-schools) is a *magic spell*.
+A *magic spell* is the intended effect of using a [magic school's](#magic-school--school---attribute-) [expertise](./core-rules.md#expertise). This is also referred to as *casting magic*, *casting a spell* or other similar wordings. In mechanical terms, every [expertise](./core-rules.md#expertise) noted on a [school of magic](#list-of-magic-schools) is a *magic spell*.
 
 A mage can fail their [test](./core-rules.md#tests) and thus suffer a [spell-backfire](#spell-backfire), which usually results in negative effects for the caster, instead of their intended target. 
 
@@ -223,20 +222,20 @@ A mage can fail their [test](./core-rules.md#tests) and thus suffer a [spell-bac
 ## Spell Intensity (SI)
 **Spell intensity** (shorthand **SI**) is the strength at which a magic spell is being cast. A higher number causes stronger and further reaching effects, at greater [magic stamina](#magic-stamina) cost. A spell's maximum intensity is dictated by the level in the corresponding [magic school skill](#magic-school--school---attribute).
 
-For every point of a spell's chosen **spell intensity**, **1 D3** must be rolled. The sum of these rolls is the resulting [magic stamina](#magic-stamina) cost.
+For every point of a spell's chosen **spell intensity**, **1 D4** must be rolled. The sum of these rolls is the resulting [magic stamina](#magic-stamina) cost.
 
-> For a spell at a chosen SI of 3, **3 D3** must be rolled. The sum of these rolls, which is at least 3 and at most could be 9, is the **magic stamina** to deduct after the spell's **test** is made. 
+> For a spell at a chosen SI of 3, **3 D4** must be rolled. The sum of these rolls, which is at least 3 and at most could be 9, is the **magic stamina** to deduct after the spell's **test** is made. 
 
 ## Magic Stamina
 Magic takes a toll on the caster's body, as it takes great mental effort to properly cast magic. **Magic stamina** represents a mage's capacity for casting magic without risk to themselves. It is a replenishable resource that is used up faster with [stronger spells](#spell-intensity-si). 
 
 Mechanically speaking, every mage has two values to track: their **maximum magic stamina** and their **current magic stamina**. 
-* The **maximum magic stamina** of a mage is derived from the **sum** of their [arcana](#arcana-arc) attribute and the **raw levels** of all their known [magic school skills](#magic-school--school---attribute-). 
+* The **maximum magic stamina** of a mage is derived from the **sum** of their [arcana](#arcana-arc) attribute * 2 plus the **raw levels** of all their known [magic school skills](#magic-school--school---attribute-). 
 * The **current magic stamina** can not be less than 0 or more than their **maximum magic stamina**. Every time a mage casts a spell, they incur a **magic stamina** cost, based on the chosen [spell intensity](#spell-intensity-si), which is deducted from this number. 
 
 > If a mage has an **arcana** of 3 and has the **magic school skills** **pyromancy** at level 3, **cryomancy** at level 2 and **illusion** at level 5, that means they have (3 + 3 + 2 + 5) = 13 **maximum magic stamina**. 
 
-Once spent, **magic stamina** can only be regained through **active rest or meditation**. For every **half hour** spent in *active rest or meditation*, a mage regains **1 D3** **magic stamina**. Active rest or meditation implies not engaging in any physical or mental strains. If in doubt - if you have to do a test for it, it's probably a strain. 
+Once spent, **magic stamina** can only be regained through **active rest or meditation**. For every **half hour** spent in *active rest or meditation*, a mage regains **1 D4** **magic stamina**. Active rest or meditation implies not engaging in any physical or mental strains. If in doubt - if you have to do a test for it, it's probably a strain. 
 
 Reaching negative **magic stamina** while casting a spell, results in an automatic [spell-backfire](#spell-backfire)! 
 
@@ -258,10 +257,10 @@ Some magic can be upheld for as long as the casting mage *concentrates* on their
 
 A mage can only upkeep **one** concentration spell at a time. 
 
-Concentration can be broken! Concentration is automatically broken, if the mage is incapacitated, for example by having been knocked unconscious. Otherwise, whenever the mage is *forced* to roll a [test](./core-rules.md#tests) (for example [melee defence](./core-rules.md#melee-defence-agi)), they must **also** succeed another test of their concentration spell's magic school, at the same **Ob** as the test they were just forced to roll. 
+Concentration can be broken! Concentration is automatically broken, if the mage is incapacitated, for example by having been knocked unconscious. Otherwise, whenever the mage is *forced* to roll a [test](./core-rules.md#tests), they must **also** succeed another test of their concentration spell's magic school, at the same **Ob** as the test they were just forced to roll. 
 
 ## Magic Negation
-It is possible to negate a magical attack entirely, by using the same **school of magic** **skill** and achieving more positives, than the attacker. The defender has to perform a [test](#testing-magic) of the same magic school, at the **Ob** equal to the number of **positives + 1** the attacker achieved. The defender does not get to use a [skill ability](#skill-abilities) of the magic school in question. This is a purely defensive action, which benefits everyone who might be hit with the spell of the attacker, as no one will be hit, if the defense is successful. 
+It is possible to negate a magical attack entirely, by using the same **school of magic** **skill** and achieving more positives, than the attacker. The defender has to perform a [test](#testing-magic) of the same magic school, at the **Ob** equal to the number of **positives + 1** the attacker achieved. The defender does not get to use a [expertise](./core-rules.md#expertise) of the magic school in question. This is a purely defensive action, which benefits everyone who might be hit with the spell of the attacker, as no one will be hit, if the defense is successful. 
 
 If the defense fails, the full effect is applied. If the defense attempt causes a [spell-backfire](#spell-backfire) on the defender, they suffer the attacker's spell at one greater [intensity](#spell-intensity-si) level. 
 
@@ -271,7 +270,7 @@ If the defense fails, the full effect is applied. If the defense attempt causes 
 [Testing](./core-rules.md#tests) a [magic school skill](#magic-school--school---attribute-), in order to cast a *magic spell*, works as follows:
 1. The mage determines the [spell intensity](#spell-intensity-si) they're going to use. Their level in the corresponding [magic school skill](#magic-school--school---attribute-) determines the maximum [spell intensity](#spell-intensity-si) they can pick. 
   1. Note that any spell **must** be cast with a [spell intensity](#spell-intensity-si) of *at least* 1. This includes **learning skills**. 
-2. The [magic stamina](#magic-stamina) cost is determined. Roll **1 D3** for every point of the chosen [spell intensity](#spell-intensity-si). 
+2. The [magic stamina](#magic-stamina) cost is determined. Roll **1 D4** for every point of the chosen [spell intensity](#spell-intensity-si). 
   1. If more magic stamina is used up, than the mage has left available, they suffer a [spell-backfire](#spell-backfire).
   2. The [magic stamina](#magic-stamina) is reduced by the rolled sum. This happens regardless of a [spell-backfire](#spell-backfire).
 3. Proceed only if there was no [spell-backfire](#spell-backfire).
@@ -283,11 +282,11 @@ If the defense fails, the full effect is applied. If the defense attempt causes 
 
 > A mage wants to cast an [illusion](#illusion-emp) spell, at SI 2. Their level in the corresponding magic school skill is 4. They have 4 magic stamina left. 
 >
-> They roll **2 D3**, yielding them a 3 and a 2. The sum (5) is one point more magic stamina, than the mage had left. They suffer a spell-backfire and their intended target is left unaffected!
+> They roll **2 D4**, yielding them a 3 and a 2. The sum (5) is one point more magic stamina, than the mage had left. They suffer a spell-backfire and their intended target is left unaffected!
 
 > A mage wants to cast an [illusion](#illusion-emp) spell, at SI 2. Their level in the corresponding magic school skill is 4. They have 4 magic stamina left. 
 >
-> They roll **2 D3**, yielding them a 1 and a 2. The sum (3) is within their available magic stamina (which is now reduced to 1). 
+> They roll **2 D4**, yielding them a 1 and a 2. The sum (3) is within their available magic stamina (which is now reduced to 1). 
 >
 > Now, they determine their **Ob** to be 2. They roll their 4 available D6, but achieve only 1 **positive**. Their spell fizzles and fails without any effect! 
 
@@ -368,84 +367,84 @@ Armor can have the following **properties**:
 Armor reduces damage to its wearer by a flat amount. By how much, is specific to each armor type. Some armors can have special protections or effects. 
 
 ##### Light Armor
-A set of light armor that doesn't impede the wearer by much. Commonly represents a gambeson or thick cloth vest. 
+A set of light armor that doesn't impede the wearer by much. Commonly represents a gambeson or other cloth defense. 
 
 * Bulk: 2
 
-| Reduce Damage     |
-| ----------------- |
-| 3 + **1D3** **Slashing**    |
-| 2 + **1D3** **Bludgeoning** |
-| 1 + **1D3** **Piercing**    |
-| 1 + **1D3** **Crushing**    |
+| Protections                 |
+| --------------------------- |
+| 3 + **1D6** **Slashing**    |
+| 2 + **1D6** **Bludgeoning** |
+| 1 + **1D6** **Piercing**    |
+| **1D6** **Crushing**        |
 
 ##### Medium Armor
-A set of medium armor with a good balance of protection and weight. Commonly represents a gambeson underneath a mail hauberk. Optional mail mittens. Common headgear: arming cap, mail coif or any non-full helmet. 
+A set of medium armor with a good balance of protection and weight. Commonly represents mail armor. Common headgear: arming cap, mail coif or any non-full helmet. 
 
 * Bulk: 3
+* Causes a permanent +1 [exhaustion](./core-rules.md#exhaustion) while worn. 
 
-| Reduce Damage     |
-| ----------------- |
-| 4 + **1D4** **Slashing**    |
-| 3 + **1D4** **Bludgeoning** |
-| 2 + **1D4** **Piercing**    |
-| 1 + **1D4** **Crushing**    |
+| Protections                 |
+| --------------------------- |
+| 4 + **1D6** **Slashing**    |
+| 3 + **1D6** **Bludgeoning** |
+| 2 + **1D6** **Piercing**    |
+| 1 + **1D6** **Crushing**    |
 
 ##### Heavy Armor
 A set of heavy armor with excellent protection, at the cost of encumbering the wearer greatly. Commonly represents a full suit of plate armor.  
 
 * Bulk: 4
+* Causes a permanent +2 [exhaustion](./core-rules.md#exhaustion) while worn. 
 
-| Reduce Damage     | 
-| ----------------- |
-| 5 + **1D5** **Slashing**    |
-| 4 + **1D5** **Bludgeoning** |
-| 3 + **1D5** **Piercing**    |
-| 2 + **1D5** **Crushing**    |
+| Protections                 |
+| --------------------------- |
+| 5 + **1D4** **Slashing**    |
+| 4 + **1D4** **Bludgeoning** |
+| 3 + **1D4** **Piercing**    |
+| 2 + **1D4** **Crushing**    |
 
 ### Shield Types
-Shields are items that provide passive bonuses to [melee defence](#melee-defence-agi) and [ranged defence](#ranged-defence-agi) and require one free hand to use. This implies they cannot be used at the same time as a two-handed weapon. 
+Shields are items that provide passive bonuses to defense against melee and ranged attacks and require one free hand to use. This implies they cannot be used at the same time as a two-handed weapon (unless of course if you have more than two arms). 
 
 ##### Buckler
 A small, round shield commonly held as far from the body as possible, to deflect small or stabbing weapons with ease. Helps only little against heavy blows, however. And don't expect to deflect arrows with this, either. 
 
 * Bulk: 1
 
-| Defensive Bonus |
-| --------------- |
-| +1 [melee defence](#melee-defence-agi).  |
-| +3 [melee defence](#melee-defence-agi) against **stabbing** attacks. |
+| Defensive Bonus       |
+| --------------------- |
+| +1D for melee defense. |
+| +3D for melee defense against **stabbing** attacks. |
 
 ##### Round Shield
 A medium-sized, round shield made from tough wood and leather, which offers decent protection against most attacks, while not encumbering the wielder too much. 
 
 * Bulk: 2
 
-| Defensive Bonus |
-| --------------- |
-| +2 [melee defence](#melee-defence-agi).  |
-| +2 [ranged defence](#melee-defence-agi). |
+| Defensive Bonus      |
+| -------------------- |
+| +2D for any defense. |
 
 ##### Heater Shield
 A tough and heavy metal shield, which offers great protection, while still being somewhat manageable to wield. 
 
 * Bulk: 3
+* +1 [exhaustion](#exhaustion) while wielded
 
-| Defensive Bonus |
-| --------------- |
-| +3 [melee defence](#melee-defence-agi).  |
-| +3 [ranged defence](#melee-defence-agi). |
+| Defensive Bonus      |
+| -------------------- |
+| +3D for any defense. |
 
 ##### Kite Shield
 A large, kite-shaped shield, which can protect every part of the fighter, from the shoulder down to the feet. Its weight makes it difficult to react to attacks quickly, hoever. 
 
 * Bulk: 4
-* +1 [exhaustion](#exhaustion) while wielded
+* +2 [exhaustion](#exhaustion) while wielded
 
-| Defensive Bonus |
-| --------------- |
-| +4 [melee defence](#melee-defence-agi).  |
-| +4 [ranged defence](#melee-defence-agi). |
+| Defensive Bonus      |
+| -------------------- |
+| +4D for any defense. |
 
 ### List of Stuff & Things
 The following is a list of general assets. Of course, the following list is non-exhaustive. Invent more at your own need. 
@@ -462,235 +461,227 @@ For ranged weapons there is note made of a value called the "distance increment"
 
 > For example, when a distance increment of 30'/10m has been noted, then shooting anything within and up to that distance incurs no penalties. But as soon as the shooter wants to hit something at 33'/11m distance, they incur their first penalty. The next penalty is incurred at 63'/21m and so on. 
 
-#### Dagger
+#### Dagger (Agi)
 Any very short, one-handed blade. Examples: shiv, dagger, rondel-dagger
 
+For all attacks made with a dagger, the following rules apply:
+* If the target is unaware or [grappled](./core-rules.md#grappled), then the target's armor does **not** reduce the dagger's damage.
+* -1 **Ob** and +**Agi\*D** damage against [proned](./core-rules.md#prone) and [grappled](./core-rules.md#grappled) targets.
+
 * Melee
-* [Agility](./core-rules.md#agility-agi)
 * Ranged (throwable: stab)
 * Bulk: 1
 
-| Level | Name                 | AP | **Ob**                           | Damage                           | Notes  |
-| ----- | -------------------- | -- | -------------------------------- | -------------------------------- | ------ |
-| 0     | Slash                | 2  | Opposed by **Melee Defence**     | **2D2** **Slashing**             | -1 **Ob** and +**2D** damage against [proned](./core-rules.md#prone) and [grappled](./core-rules.md#grappled) targets. |
-| 0     | Stab                 | 2  | Opposed by **Melee Defence**     | **1D3** **Piercing**             | -1 **Ob** and +**2D** damage against [proned](./core-rules.md#prone) and [grappled](./core-rules.md#grappled) targets. |
-| 0     | Artery cut           | 2  | Opposed by **Melee Defence** + 2 | **2D3** **Slashing**             | +1 [bleeding](#bleeding) to the target (if it can bleed). -1 **Ob** and +**Agi\*D** damage against [proned](./core-rules.md#prone) and [grappled](./core-rules.md#grappled) targets. |
-| 0     | Target weak-spot     | 2  | Opposed by **Melee Defence** + 2 | **2D3** **Piercing**             | -1 **Ob** and +**Agi\*D** damage against [proned](./core-rules.md#prone) and [grappled](./core-rules.md#grappled) targets. |
+| Level | Name                 | AP | **Ob**      | Damage                           | Notes  |
+| ----- | -------------------- | -- | ----------- | -------------------------------- | ------ |
+| 0     | Slash                | 2  | Opposed     | **1D4** **Slashing**             |  |
+| 0     | Stab                 | 2  | Opposed     | **1D4** **Piercing**             |  |
+| 0     | Artery cut           | 2  | Opposed + 2 | **2D4** **Slashing**             | +1 [bleeding](#bleeding) to the target (if it can bleed).  |
+| 0     | Target weak-spot     | 2  | Opposed + 2 | **2D4** **Piercing**             |  |
 
-#### Light Blade
+#### Light Blade (Agi)
 Any light blade. Most commonly (but not restricted to) one-handed weapons. Examples: Short-sword, Langes Messer, arming sword, falchion
 
 * Melee
-* [Agility](./core-rules.md#agility-agi)
 * Ranged (throwable: stab)
 * Bulk: 1
 
-| Level | Name                 | AP | **Ob**                           | Damage                           | Notes  |
-| ----- | -------------------- | -- | -------------------------------- | -------------------------------- | ------ |
-| 0     | Slash                | 2  | Opposed by **Melee Defence**     | **1D8 + 2** **Slashing**         | / |
-| 0     | Stab                 | 2  | Opposed by **Melee Defence**     | **1D8 + 1** **Piercing**         | / |
-| 0     | Grappling Feint      | 2  | Opposed by **Melee Defence** - 1 | /                                | Attack with a feint, immediately close the distance and [grapple](./core-rules.md#grappled) your opponent. |
+| Level | Name                 | AP | **Ob**      | Damage                           | Notes  |
+| ----- | -------------------- | -- | ----------- | -------------------------------- | ------ |
+| 0     | Slash                | 2  | Opposed     | **1D8 + 2** **Slashing**         | / |
+| 0     | Stab                 | 2  | Opposed     | **1D8 + 1** **Piercing**         | / |
+| 0     | Grappling Feint      | 2  | Opposed - 1 | /                                | Attack with a feint, immediately close the distance and [grapple](./core-rules.md#grappled) your opponent. |
 
-#### Long Blade
+#### Long Blade (Str)
 Any long and heavier blade, including heavy one-handed blades. Examples: Longsword, saber, side-sword, rapier
 
 * Melee
-* [Strength](./core-rules.md#strength-str)
 * Bulk: 2
 
-| Level | Name                 | AP | **Ob**                           | Damage                           | Notes  |
-| ----- | -------------------- | -- | -------------------------------- | -------------------------------- | ------ |
-| 0     | Slash                | 2  | Opposed by **Melee Defence**     | **2D8** **Slashing**             | / |
-| 0     | Stab                 | 2  | Opposed by **Melee Defence**     | **2D8** **Piercing**             | / |
-| 2     | Mord-Strike          | 2  | Opposed by **Melee Defence** + 2 | **1D6 + 1** **Crushing**         | / |
-| 3     | Fencer-Stance        | 2  | /                                | /                                | Enter a defensive fencing stance. Gain **+1D** for [melee defence](#melee-defence-agi) and can **counter-attack** **every** attack. |
+| Level | Name                 | AP | **Ob**      | Damage                           | Notes  |
+| ----- | -------------------- | -- | ----------- | -------------------------------- | ------ |
+| 0     | Slash                | 2  | Opposed     | **2D8** **Slashing**             | / |
+| 0     | Stab                 | 2  | Opposed     | **2D8** **Piercing**             | / |
+| 2     | Mord-Strike          | 2  | Opposed + 2 | **1D6 + 1** **Crushing**         | / |
+| 3     | Fencer-Stance        | 2  | /           | /                                | Enter a defensive fencing stance. Gain **+1D** for melee defense and can **counter-attack** **every** attack. |
 
-#### Great Blade
+#### Great Blade (Str)
 Any very long and heavy two-handed blade. Examples: sword of war, great-sword, Zweihänder, Kriegsmesser
 
 * Melee
-* [Strength](./core-rules.md#strength-str)
 * Long Reach
 * Bulk: 3
 
-| Level | Name                 | AP | **Ob**                           | Damage                           | Notes  |
-| ----- | -------------------- | -- | -------------------------------- | -------------------------------- | ------ |
-| 0     | Slash                | 2  | Opposed by **Melee Defence**     | **3D8** **Slashing**             | / |
-| 0     | Stab                 | 2  | Opposed by **Melee Defence**     | **2D8 + 2** **Piercing**         | / |
-| 2     | Blade Barrier        | 2  | Opposed by **Melee Defence**     | /                                | Whenever any character moves **into** a spot within reach, can attack that character with a **slash** at **Ob** + 1 and force them back 3'/1m. |
-| 3     | Heavy Blow           | 3  | Opposed by **Melee Defence** + 1 | **2D8** **Slashing** and **1D8** **Crushing** | Defending against this attack costs 2 [AP](#action-points-ap). +1 [exhaustion](#exhaustion) to self. |
+| Level | Name                 | AP | **Ob**      | Damage                           | Notes  |
+| ----- | -------------------- | -- | ----------- | -------------------------------- | ------ |
+| 0     | Slash                | 2  | Opposed     | **3D8** **Slashing**             | / |
+| 0     | Stab                 | 2  | Opposed     | **2D8 + 2** **Piercing**         | / |
+| 2     | Blade Barrier        | 2  | Opposed     | /                                | Whenever any character moves **into** a spot within reach, can attack that character with a **slash** at **Ob** + 1 and force them back 3'/1m. |
+| 3     | Heavy Blow           | 3  | Opposed + 1 | **2D8** **Slashing** and **1D8** **Crushing** | Defending against this attack costs 2 [AP](#action-points-ap). +1 [exhaustion](#exhaustion) to self. |
 
-#### Axe
+#### Axe (Str)
 Small and light axes. Examples: hatchet, dane axe, woodcutter's axe
 
 * Melee
-* [Strength](./core-rules.md#strength-str)
 * Ranged (throwable: hack)
 * Bulk: 1
 
-| Level | Name                 | AP | **Ob**                           | Damage                           | Notes  |
-| ----- | -------------------- | -- | -------------------------------- | -------------------------------- | ------ |
-| 0     | Hack                 | 2  | Opposed by **Melee Defence**     |  **1D6 + 2** **Slashing** and **1D4** **Crushing**  | / |
-| 1     | Savage Slash         | 2  | Opposed by **Melee Defence** + 1 |  **1D6 + 2** **Slashing**            | +1 [bleeding](#bleeding)  to the target (if it can bleed). |
+| Level | Name                 | AP | **Ob**      | Damage                           | Notes  |
+| ----- | -------------------- | -- | ----------- | -------------------------------- | ------ |
+| 0     | Hack                 | 2  | Opposed     |  **1D6 + 2** **Slashing** and **1D4** **Crushing**  | / |
+| 1     | Savage Slash         | 2  | Opposed + 1 |  **1D6 + 2** **Slashing**            | +1 [bleeding](#bleeding)  to the target (if it can bleed). |
 
-#### Great Axe
+#### Great Axe (Str)
 Large and heavy axes. Examples: bearded axe, double-sided axe
 
 * Melee
-* [Strength](./core-rules.md#strength-str)
 * Bulk: 3
 
-| Level | Name                 | AP | **Ob**                           | Damage                           | Notes  |
-| ----- | -------------------- | -- | -------------------------------- | -------------------------------- | ------ |
-| 0     | Hack                 | 2  | Opposed by **Melee Defence**     | **1D8** **Slashing** and **2D4** **Crushing** | / |
-| 2     | Savage Slash         | 2  | Opposed by **Melee Defence** + 2 | **2D8** **Slashing**             | +2 [bleeding](#bleeding)  to the target (if it can bleed). |
-| 3     | Heavy Blow           | 3  | Opposed by **Melee Defence** + 1 | **1D8** **Slashing** and **1D6 + 2** **Crushing** | Defending against this attack costs 2 [AP](#action-points-ap). +1 [exhaustion](#exhaustion) to self. |
+| Level | Name                 | AP | **Ob**      | Damage                           | Notes  |
+| ----- | -------------------- | -- | ----------- | -------------------------------- | ------ |
+| 0     | Hack                 | 2  | Opposed     | **1D8** **Slashing** and **2D4** **Crushing** | / |
+| 2     | Savage Slash         | 2  | Opposed + 2 | **2D8** **Slashing**             | +2 [bleeding](#bleeding)  to the target (if it can bleed). |
+| 3     | Heavy Blow           | 3  | Opposed + 1 | **1D8** **Slashing** and **1D6 + 2** **Crushing** | Defending against this attack costs 2 [AP](#action-points-ap). +1 [exhaustion](#exhaustion) to self. |
 
-#### Spear
+#### Spear (Str)
 Any one or two-handed short piercing polearms. Examples: short-spear, boar-spear
 
 * Melee
-* [Strength](./core-rules.md#strength-str)
 * Ranged (throwable: stab)
 * Bulk: 2
 * Long Reach
 * Prefer Range
 
-| Level | Name                 | AP | **Ob**                           | Damage                           | Notes  |
-| ----- | -------------------- | -- | -------------------------------- | -------------------------------- | ------ |
-| 0     | Stab                 | 2  | Opposed by **Melee Defence**     | **2D8** **Piercing**  | / |
+| Level | Name                 | AP | **Ob**      | Damage                           | Notes  |
+| ----- | -------------------- | -- | ----------- | -------------------------------- | ------ |
+| 0     | Stab                 | 2  | Opposed     | **2D8** **Piercing**  | / |
 | 0     | Spear wall           | 2  | /                                | Whenever any character moves **into** a spot within reach, can attack that character with a **stab** and force them back 3'/1m. | / |
 
-#### Lance
+#### Lance (Str)
 Any one or two-handed long piercing polearms. Examples: pike, lance
 
 * Melee
-* [Strength](./core-rules.md#strength-str)
 * Bulk: 4
 * Long Reach
 * Prefer Range
 
-| Level | Name                 | AP | **Ob**                           | Damage                           | Notes  |
-| ----- | -------------------- | -- | -------------------------------- | -------------------------------- | ------ |
-| 0     | Stab                 | 2  | Opposed by **Melee Defence**     | **2D6** **Piercing**             | / |
-| 0     | Couched Lancing      | 2  | Opposed by **Melee Defence**     | **3D10** **Piercing**            | Requires self to be mounted on horse-back (or similar creature). Self must move at least 15'/5m in a straight line, past the target. |
+| Level | Name                 | AP | **Ob**      | Damage                           | Notes  |
+| ----- | -------------------- | -- | ----------- | -------------------------------- | ------ |
+| 0     | Stab                 | 2  | Opposed     | **2D6** **Piercing**             | / |
+| 0     | Couched Lancing      | 2  | Opposed     | **3D10** **Piercing**            | Requires self to be mounted on horse-back (or similar creature). Self must move at least 15'/5m in a straight line, past the target. |
 
-#### Polearm
+#### Polearm (Str)
 Flexible polearms with a focus on slashing. Examples: halberd, bardiche, poleaxe
 
 * Melee
-* [Strength](./core-rules.md#strength-str)
 * Bulk: 4
 * Long Reach
 * Prefer Range
 
-| Level | Name                 | AP | **Ob**                           | Damage                           | Notes  |
-| ----- | -------------------- | -- | -------------------------------- | -------------------------------- | ------ |
-| 0     | Slash                | 2  | Opposed by **Melee Defence**     | **3D6** **Slashing**             | / |
-| 0     | Stab                 | 2  | Opposed by **Melee Defence**     | **2D8** **Piercing**             | / |
-| 1     | Blade Barrier        | 2  | Opposed by **Melee Defence**     | /                                | Whenever any character moves **into** a spot within reach, can attack that character with a **stab** at **Ob** + 1 and force them back 3'/1m. |
-| 2     | Cleave               | 2  | Opposed by **Melee Defence** + 2 | **3D6** **Slashing**             | Deals damage to up to two targets adjacent to each other and within reach. |
+| Level | Name                 | AP | **Ob**      | Damage                           | Notes  |
+| ----- | -------------------- | -- | ----------- | -------------------------------- | ------ |
+| 0     | Slash                | 2  | Opposed     | **3D6** **Slashing**             | / |
+| 0     | Stab                 | 2  | Opposed     | **2D8** **Piercing**             | / |
+| 1     | Blade Barrier        | 2  | Opposed     | /                                | Whenever any character moves **into** a spot within reach, can attack that character with a **stab** at **Ob** + 1 and force them back 3'/1m. |
+| 2     | Cleave               | 2  | Opposed + 2 | **3D6** **Slashing**             | Deals damage to up to two targets adjacent to each other and within reach. |
 
-#### Club
+#### Club (Str)
 Simple, improvised bludgeoning weapons. Examples: wooden club, staff, stick
 
 * Melee
-* [Strength](./core-rules.md#strength-str)
 * Bulk: 2
 
-| Level | Name                 | AP | **Ob**                           | Damage                           | Notes  |
-| ----- | -------------------- | -- | -------------------------------- | -------------------------------- | ------ |
-| 0     | Clobber              | 2  | Opposed by **Melee Defence**     | **Str** + **2D4** **Bludgeoning**      | / |
-| 0     | Knockout Blow        | 2  | Opposed by **Melee Defence** + 2 | **Str** + **2D6 + 2** **Bludgeoning**  | +2 [exhaustion](#exhaustion) to target. +1 [exhaustion](#exhaustion) to self. |
-| 0     | Smash                | 2  | Opposed by **Melee Defence**     | **Str** + **1D4** **Crushing**         | / |
+| Level | Name                 | AP | **Ob**      | Damage                           | Notes  |
+| ----- | -------------------- | -- | ----------- | -------------------------------- | ------ |
+| 0     | Clobber              | 2  | Opposed     | **Str** + **2D4** **Bludgeoning**      | / |
+| 0     | Knockout Blow        | 2  | Opposed + 2 | **Str** + **2D6 + 2** **Bludgeoning**  | +2 [exhaustion](#exhaustion) to target. +1 [exhaustion](#exhaustion) to self. |
+| 0     | Smash                | 2  | Opposed     | **Str** + **1D4** **Crushing**         | / |
 
-#### Small Crusher
+#### Small Crusher (Str)
 Small, heavy crushing weapons with a dedicated *impact zone* on the weapon head which directs more force into the target. Examples: flanged mace, warhammer, flail, morning star
 
 * Melee
-* [Strength](./core-rules.md#strength-str)
 * Bulk: 2
 
-| Level | Name                 | AP | **Ob**                           | Damage                           | Notes  |
-| ----- | -------------------- | -- | -------------------------------- | -------------------------------- | ------ |
-| 0     | Smash                | 2  | Opposed by **Melee Defence**     | **Str** + **1D6 + 2** **Crushing** | / |
+| Level | Name                 | AP | **Ob**      | Damage                           | Notes  |
+| ----- | -------------------- | -- | ----------- | -------------------------------- | ------ |
+| 0     | Smash                | 2  | Opposed     | **Str** + **1D6 + 2** **Crushing** | / |
 
-#### Large Crusher
+#### Large Crusher (Str)
 Large, heavy crushing weapons with a dedicated *impact zone* on the weapon head which directs more force into the target. Examples: grand-mace, polehammer, two-handed flail
 
 * Melee
-* [Strength](./core-rules.md#strength-str)
 * Bulk: 3
 
-| Level | Name                 | AP | **Ob**                           | Damage                           | Notes  |
-| ----- | -------------------- | -- | -------------------------------- | -------------------------------- | ------ |
-| 0     | Smash                | 2  | Opposed by **Melee Defence**     | **Str** + **1D8 + 2** **Crushing** | / |
-| 1     | Mighty Smash         | 2  | Opposed by **Melee Defence** + 2 | **Str** + **2D8 + 1** **Crushing**     | +2 [exhaustion](#exhaustion) to target (if it can be winded). +1 [exhaustion](#exhaustion) to self. |
+| Level | Name                 | AP | **Ob**      | Damage                           | Notes  |
+| ----- | -------------------- | -- | ----------- | -------------------------------- | ------ |
+| 0     | Smash                | 2  | Opposed     | **Str** + **1D8 + 2** **Crushing** | / |
+| 1     | Mighty Smash         | 2  | Opposed + 2 | **Str** + **2D8 + 1** **Crushing**     | +2 [exhaustion](#exhaustion) to target (if it can be winded). +1 [exhaustion](#exhaustion) to self. |
 
-#### Short-Bow
+#### Short-Bow (Agi)
 A short distance ranged weapon, shooting arrows.
 
 * Ranged
-* [Strength](./core-rules.md#strength-str)
+  * For every attack: +1 **Ob** and **-1D** damage for every distance increment past the initial.
 * Bulk: 1
 * Range Only
 
-| Level | Name                 | AP | **Ob**                            | Distance increments | Damage                     | Notes  |
-| ----- | -------------------- | -- | --------------------------------- | ------------------- | -------------------------- | ------ |
-| 0     | Loose                | 2  | Opposed by **Ranged Defence**     | 30'/10m             | **4D3** **Piercing**       | +1 **Ob** and **-1D** damage for every distance increment past the initial. |
-| 1     | Heavy Shot           | 3  | Opposed by **Ranged Defence** + 1 | 30'/10m             | **4D3 + Str** **Piercing** | +1 **Ob** and **-1D** damage for every distance increment past the initial. |
-| 2     | Double shot          | 3  | Opposed by **Ranged Defence**     | 30'/10m             | **3D3** **Piercing**       | Can attack twice and thus deal its damage to two different targets, or the same target twice. +1 **Ob** and **-1D** damage for every distance increment past the initial. |
+| Level | Name                 | AP | **Ob**      | Distance increments | Damage                     | Notes  |
+| ----- | -------------------- | -- | ----------- | ------------------- | -------------------------- | ------ |
+| 0     | Loose                | 2  | Opposed     | 30'/10m             | **3D4** **Piercing**       |  |
+| 1     | Heavy Shot           | 3  | Opposed + 1 | 30'/10m             | **3D4 + Str** **Piercing** |  |
+| 2     | Double shot          | 3  | Opposed     | 30'/10m             | **2D4** **Piercing**       | Can attack twice and thus deal its damage to two different targets, or the same target twice.  |
 
-#### Longbow
+#### Longbow (Perc)
 A long distance ranged weapon, shooting arrows.
 
 * Ranged
-* [Strength](./core-rules.md#strength-str)
+  * For every attack: +1 **Ob** and **-1D** damage for every distance increment past the initial.
 * Bulk: 2
 * Range Only
 
-| Level | Name                 | AP | **Ob**                            | Distance increments | Damage                     | Notes  |
-| ----- | -------------------- | -- | --------------------------------- | ------------------- | -------------------------- | ------ |
-| 0     | Loose                | 2  | Opposed by **Ranged Defence**     | 45'/15m             | **4D4** **Piercing**       | +1 **Ob** and **-1D** damage for every distance increment past the initial. |
-| 1     | Heavy Shot           | 3  | Opposed by **Ranged Defence** + 1 | 45'/15m             | **4D4 + Str** **Piercing** | +1 **Ob** and **-1D** damage for every distance increment past the initial. +1 [exhaustion](#exhaustion) to self. |
+| Level | Name                 | AP | **Ob**      | Distance increments | Damage                     | Notes  |
+| ----- | -------------------- | -- | ----------- | ------------------- | -------------------------- | ------ |
+| 0     | Loose                | 2  | Opposed     | 45'/15m             | **4D4** **Piercing**       |  |
+| 1     | Heavy Shot           | 3  | Opposed + 1 | 45'/15m             | **4D4 + Str** **Piercing** |  +1 [exhaustion](#exhaustion) to self. |
 
-#### War-Bow
+#### War-Bow (Str)
 A very deadly long distance ranged weapon, shooting arrows. Beware its exhausting strength of draw. 
 
 * Ranged
-* [Strength](./core-rules.md#strength-str)
+  * For every attack: +1 **Ob** and **-1D** damage for every distance increment past the initial.
 * Bulk: 2
 * Range Only
 
-| Level | Name                 | AP | **Ob**                            | Distance increments | Damage                     | Notes  |
-| ----- | -------------------- | -- | --------------------------------- | ------------------- | -------------------------- | ------ |
-| 0     | Loose                | 2  | Opposed by **Ranged Defence**     | 60'/20m             | **3D8** **Piercing**       | +1 [exhaustion](#exhaustion) to self. +1 **Ob** and **-1D** damage for every distance increment past the initial. |
+| Level | Name                 | AP | **Ob**      | Distance increments | Damage                     | Notes  |
+| ----- | -------------------- | -- | ----------- | ------------------- | -------------------------- | ------ |
+| 0     | Loose                | 2  | Opposed     | 60'/20m             | **3D8** **Piercing**       | +1 [exhaustion](#exhaustion) to self.  |
 
-#### Crossbow
+#### Crossbow (Perc)
 A deadly medium distance ranged weapon, shooting quarrels. Beware its slow reload. 
 
 * Ranged
-* [Perception](./core-rules.md#perception-perc)
+  * For every attack: +1 **Ob** and **-1D** damage for every distance increment past the initial.
 * Bulk: 2
 * Prefer Range
 * Slow Reload
 
-| Level | Name                 | AP | **Ob**                            | Distance increments | Damage                     | Notes  |
-| ----- | -------------------- | -- | --------------------------------- | ------------------- | -------------------------- | ------ |
-| 0     | Loose                | 2  | Opposed by **Ranged Defence**     | 60'/20m             | **3D8** **Piercing**       | +1 **Ob** and **-1D** damage for every distance increment past the initial. |
+| Level | Name                 | AP | **Ob**      | Distance increments | Damage                     | Notes  |
+| ----- | -------------------- | -- | ----------- | ------------------- | -------------------------- | ------ |
+| 0     | Loose                | 2  | Opposed     | 60'/20m             | **3D8** **Piercing**       |  |
 
-#### Firearm
+#### Firearm (Perc)
 A very deadly short to medium distance ranged weapon, shooting musket balls that are likely to penetrate armor. Beware its slow reload. 
 
 * Ranged
-* [Perception](./core-rules.md#perception-perc)
+  * For every attack: +2 **Ob** for every distance increment past the initial.
 * Bulk: 2
 * Prefer Range
 * Very Slow Reload
 
-| Level | Name                 | AP | **Ob**                            | Distance increments | Damage                     | Notes  |
-| ----- | -------------------- | -- | --------------------------------- | ------------------- | -------------------------- | ------ |
-| 0     | Fire                 | 2  | Opposed by **Ranged Defence**     | 30'/10m             | **3D8 + 5** **Piercing**   | +2 **Ob** for every distance increment past the initial. |
+| Level | Name                 | AP | **Ob**      | Distance increments | Damage                     | Notes  |
+| ----- | -------------------- | -- | ----------- | ------------------- | -------------------------- | ------ |
+| 0     | Fire                 | 2  | Opposed     | 30'/10m             | **3D8 + 5** **Piercing**   |  |
 
 ## Lists of Skills
 The following list does not and cannot aim to be a complete listing of all possible skills in game. Adding new skills as necessary will have to be done by the **GM**. 
@@ -698,26 +689,15 @@ The following list does not and cannot aim to be a complete listing of all possi
 ### Physical Skills
 These skills have a dominant physical aspect and are directly tied to a character's *physical attributes*. 
 
-#### Rune-Using (Agi)
+#### Rune-Using (Agi/Arc)
 Skill at using [magic runes](#runes). 
 
 | Level | Name                 | AP | **Ob** | Effect(s)          | Condition(s) |
 | ----- | -------------------- | -- | ------ | ------------------ | ------------ |
 | 4     | Hot Potato           | 1  | 3      | If using a rune would fail and result in a [spell-backfire](#spell-backfire), drop the rune, jump away and suffer only half the damage. | Caused a [spell-backfire](#spell-backfire) using a rune; Once per rest. |
 
-#### Sailing (Str)
+#### Sailing (Wis)
 Steering and maintaining a naval vessel. 
-
-#### Shield (End)
-Expertise at defending oneself using a shield. 
-
-If an equipped shield is used to defend with, this skill is used instead of [melee defence](#melee-defence-agi) and [ranged defence](#ranged-defence-agi). 
-
-| Level | Name                 | AP | **Ob**  | Effect(s)          | Condition(s) |
-| ----- | -------------------- | -- | ------- | ------------------ | ------------ |
-| 1     | Shield Wall          | 3  | /       | For any ally next to you, who's also using a shield, you both gain **+1D** on your defence tests until the start of your next turn. | Using shield; Adjacent to ally using shield. |
-| 2     | Shield Slam          | 2  | Opposed | Perform a [single-target](#single-target-st) melee attack to knock your opponent down with your shield. | Using shield. |
-| 4     | Unyielding           | 3  | /       | Until your next turn, you gain **+2D** to your **shield tests**. | Using shield; Once per combat. |
 
 ### Knowledge Skills
 These skills have a dominant mental aspect and are strongly related to a character's *mental attributes*. 
@@ -888,7 +868,7 @@ Tools: a hammer and chisels of varying sizes
 | A small stone-hewn object            | Low        | Very High | Stone                                  | / |
 | A large stone-hewn object            | Low        | Very High | Stone                                  | / |
 
-#### Rune Carving (Arc)
+#### Rune Carving (Arc/Wis)
 The ability to carve [magic runes](#runes).
 
 The level of this skill dictates the maximum intensity level of the respective magic the carved rune can hold. The number of **positives** achieved in a test then sets the actual level the rune will hold, but limited by the maximum. 
@@ -935,7 +915,7 @@ Tools: a carving knife
 | A large wood-carved object           | Low        | High      | Wood                                   | / |
 
 ## List of Magic Schools
-The capabilities of the various magic schools are described by the [skill abilities](#skill-abilities) associated with each of them. The concrete effects are kept vague on purpose, to allow a certain freedom when choosing how the magic is expressed. But the intensity or strength of a casting is tied to the level of the [magic school skill](#magic-school--school---attribute-). 
+The capabilities of the various magic schools are described by the [expertise](./core-rules.md#expertise) associated with each of them. The concrete effects are kept vague on purpose, to allow a certain freedom when choosing how the magic is expressed. But the intensity or strength of a casting is tied to the level of the [magic school skill](#magic-school--school---attribute-). 
 
 The levels noted for each magic school represent the effects a mage can achieve, when casting that particular type of magic. Stronger effects generally require a higher level. 
 
@@ -961,9 +941,9 @@ The summoning and control of ice. Cryomancer's can freeze things, so they're hea
 
 | Level | Name                 | AP | Distance    | Ob                           | Effect(s)                      | Backfire Effect(s) |
 | ----- | -------------------- | -- | ----------- | ---------------------------- | ------------------------------ | ------------------ |
-| 0     | Freezing Touch       | 2  | 3'/1m       | Opposed: Melee Defence - SI  | A fist-sized spot on a **ST**, that the mage's hand touches, freezes over and deals **SI freezing** damage. | The caster is affected, instead. |
-| 1     | Cold Finger Gun      | 2  | SI * 15'/5m | Opposed: Ranged Defence      | The mage shoots an ice spike at a **ST** from their hand, dealing **SI D4 freezing** damage. Causes +1 [frostbitten](./core-rules.md#frostbitten). | The caster is affected, instead. |
-| 3     | Deep Freeze          | 3  | 3'/1m       | Opposed: Melee Defence       | A man-sized area of whatever the mage's hand is touching freezes over. The frost even penetrates and runs deep in a **ST**, dealing **1D10 freezing** damage. Causes +1 [frostbitten](./core-rules.md#frostbitten). | The caster is affected, instead. |
+| 0     | Freezing Touch       | 2  | 3'/1m       | Opposed - SI                 | A fist-sized spot on a **ST**, that the mage's hand touches, freezes over and deals **SI freezing** damage. | The caster is affected, instead. |
+| 1     | Cold Finger Gun      | 2  | SI * 15'/5m | Opposed                      | The mage shoots an ice spike at a **ST** from their hand, dealing **SI D4 freezing** damage. Causes +1 [frostbitten](./core-rules.md#frostbitten). | The caster is affected, instead. |
+| 3     | Deep Freeze          | 3  | 3'/1m       | Opposed                      | A man-sized area of whatever the mage's hand is touching freezes over. The frost even penetrates and runs deep in a **ST**, dealing **1D10 freezing** damage. Causes +1 [frostbitten](./core-rules.md#frostbitten). | The caster is affected, instead. |
 | 5     | Rooting Freeze       | 3  | SI * 15'/5m | 5                            | A spot of the mage's choosing freezes over. Anyone caught within the **AOE** 9'/3m radius, will be frozen to the spot and thus [rooted](#rooted) and also suffer **SI D4 Freezing** damage. They can break free via a successful [strength](#strength-str) test at **Ob 3**. Or wait, until the ice thaws... | The spot beneath the caster is affected, instead. |
 
 ### Electromancy (Arc)
@@ -971,12 +951,12 @@ The summoning and control of lightning. Electricity is fairly versatile - it can
 
 | Level | Name                  | AP | Distance     | Ob                           | Effect(s)                      | Backfire Effect(s) |
 | ----- | --------------------- | -- | ------------ | ---------------------------- | ------------------------------ | ------------------ |
-| 0     | Shocking Touch        | 2  | 3'/1m        | Opposed: Melee Defence - SI  | A small area, about the size of the mage's hand is burned on touch by an electrical shock, dealing **SI electrical** damage to a **ST**. | The caster is affected, instead. |
-| 1     | Shock                 | 2  | SI * 9'/3m   | Opposed: Melee Defence       | An arc of lightning strikes the vulnerable internals of a **ST**, dealing **SI D3 electrical** damage. | The caster is affected, instead. |
+| 0     | Shocking Touch        | 2  | 3'/1m        | Opposed - SI                 | A small area, about the size of the mage's hand is burned on touch by an electrical shock, dealing **SI electrical** damage to a **ST**. | The caster is affected, instead. |
+| 1     | Shock                 | 2  | SI * 9'/3m   | Opposed                      | An arc of lightning strikes the vulnerable internals of a **ST**, dealing **SI D4 electrical** damage. | The caster is affected, instead. |
 | 1     | Power-Up              | 2  | SI * 3'/1m   | SI                           | An electrical device is powered up for 5 * **SI** minutes. | The device breaks or otherwise seizes up and becomes unusable. |
-| 2     | Stunning Shock        | 2  | SI * 15'/5m  | Opposed: Ranged Defence - SI | An aimed arc of lightning strikes a **ST** and adds one stack of [stunned](./core-rules.md#stunned). | The caster is affected, instead. |
-| 5     | UNLIMITED POWER       | 3  | SI * 30'/10m | Opposed: Ranged Defence      | A cone of lightning spews forth from the mage's finger tips. Up to **SI + 1** **MST** can be hit with the shock, dealing **SI D6 electrical** damage. | The caster and anyone next to them is affected, instead. |
-| 5     | Mass Stunning Shock   | 3  | SI * 30'/10m | Opposed: Ranged Defence      | Several arcs of aimed lightning spew forth from the mage's finger tips, striking up to **SI + 1** **MST** and adding 3 stacks of [stunned](./core-rules.md#stunned). | The caster and anyone next to them is affected, instead. |
+| 2     | Stunning Shock        | 2  | SI * 15'/5m  | Opposed - SI                 | An aimed arc of lightning strikes a **ST** and adds one stack of [stunned](./core-rules.md#stunned). | The caster is affected, instead. |
+| 5     | UNLIMITED POWER       | 3  | SI * 30'/10m | Opposed                      | A cone of lightning spews forth from the mage's finger tips. Up to **SI + 1** **MST** can be hit with the shock, dealing **SI D6 electrical** damage. | The caster and anyone next to them is affected, instead. |
+| 5     | Mass Stunning Shock   | 3  | SI * 30'/10m | Opposed                      | Several arcs of aimed lightning spew forth from the mage's finger tips, striking up to **SI + 1** **MST** and adding 3 stacks of [stunned](./core-rules.md#stunned). | The caster and anyone next to them is affected, instead. |
 
 ### Illusion (Emp)
 Creation of non-physical influences on the senses. That includes images, sounds and odors. The illusions cannot cause direct harm, although they can drive an individual to acts that may put them in danger. 
@@ -997,20 +977,20 @@ Only targets within and up to the given *distance* can be moved and only within 
 
 | Level | Name                 | AP | Distance     | Ob                           | Effect(s)                      | Backfire Effect(s) |
 | ----- | -------------------- | -- | ------------ | ---------------------------- | ------------------------------ | ------------------ |
-| 0     | Psionic Telekinesis  | 3  | SI * 30'/10m | Opposed: Ranged Defence      | Move a **ST** at great velocity (if desired), which allows it to deal **SI D6** **variant** (depends on the type of object, if it is an object) damage upon impact. Alternatively, **crush** or restrain the object or creature. Can target yourself. | The caster is affected, instead. |
-| 0     | Psionic Missile      | 2  | SI * 15'/5m  | Opposed: Ranged Defence      | Using psionics, extend the force of a punch, to hurl a focused psionic shockwave towards a **ST**, dealing **SI D8** **bludgeoning** damage. | The caster is affected, instead. |
+| 0     | Psionic Telekinesis  | 3  | SI * 30'/10m | Opposed                      | Move a **ST** at great velocity (if desired), which allows it to deal **SI D6** **variant** (depends on the type of object, if it is an object) damage upon impact. Alternatively, **crush** or restrain the object or creature. Can target yourself. | The caster is affected, instead. |
+| 0     | Psionic Missile      | 2  | SI * 15'/5m  | Opposed                      | Using psionics, extend the force of a punch, to hurl a focused psionic shockwave towards a **ST**, dealing **SI D8** **bludgeoning** damage. | The caster is affected, instead. |
 | 1     | Psionic Shield       | 2  | SI * 9'/3m   | SI                           | As a **reaction** to you or an ally being hit with an attack, cast a shield of psionic energy to erupt around yourself or an ally within distance, which absorbs up to **SI * 10** points of damage. | Instead of absorbing damage, the target instead suffers an additional **SI * 2** points of **bludgeoning** damage. |
 | 1     | Psionic Hasten       | 2  | SI * 36'/18m | 3 + SI                       | **Concentration**: [Hasten](./core-rules.md#hasted) up to **SI** creatures of choice. | The caster suffers +1 [exhaustion](./core-rules.md#exhaustion). |
-| 1     | Levitate             | 1  | SI * 9'/3m   | Opposed: Ranged Defence      | **Concentration**: Cause yourself or one other **ST** of choice, within *distance* to levitate a short distance above the ground. | The caster suffers +1 [exhaustion](./core-rules.md#exhaustion). |
-| 3     | Dimensional Shift    | 3  | SI * 30'/10m | Opposed: Ranged Defence      | Cause a dimensional rift to open and swallow a **ST** of choice, which another rift releases at a location of your choosing, a moment later. | The caster is instead swallowed by a rift, immediately tossed back out in the same spot and suffers **1D10** points of **crushing** damage. |
+| 1     | Levitate             | 1  | SI * 9'/3m   | Opposed                      | **Concentration**: Cause yourself or one other **ST** of choice, within *distance* to levitate a short distance above the ground. | The caster suffers +1 [exhaustion](./core-rules.md#exhaustion). |
+| 3     | Dimensional Shift    | 3  | SI * 30'/10m | Opposed                      | Cause a dimensional rift to open and swallow a **ST** of choice, which another rift releases at a location of your choosing, a moment later. | The caster is instead swallowed by a rift, immediately tossed back out in the same spot and suffers **1D10** points of **crushing** damage. |
 
 ### Pyromancy (Arc)
 The summoning and control of fire. The flame being a destructive force, pyromancers enjoy little utility from their magic, beyond the ability to create light and heat. 
 
 | Level | Name                 | AP | Distance     | Ob                           | Effect(s)                      | Backfire Effect(s) |
 | ----- | -------------------- | -- | ------------ | ---------------------------- | ------------------------------ | ------------------ |
-| 0     | Burning Touch        | 2  | 3'/1m        | Opposed: Melee Defence - SI  | A controlled flame erupts and stays in the mage's hand, inflicting **SI burning** damage on touch to a **ST**. | The caster is affected, instead. |
-| 1     | Cone of Fire         | 3  | SI * 6'/2m   | Opposed: Ranged Defence      | The mage shoots a burst of fire in a short cone in front of them, hitting up to two adjacent **MST**, dealing **SI D4 burning** damage. | The caster and anyone next to them is affected, instead. |
+| 0     | Burning Touch        | 2  | 3'/1m        | Opposed - SI                 | A controlled flame erupts and stays in the mage's hand, inflicting **SI burning** damage on touch to a **ST**. | The caster is affected, instead. |
+| 1     | Cone of Fire         | 3  | SI * 6'/2m   | Opposed                      | The mage shoots a burst of fire in a short cone in front of them, hitting up to two adjacent **MST**, dealing **SI D4 burning** damage. | The caster and anyone next to them is affected, instead. |
 | 3     | Fire Ball            | 2  | SI * 45'/15m | SI                           | The mage forms a large ball of flame between their hands, ready to be flung at a target location, dealing **SI D6 burning** damage in a **AOE** 6'/2m radius. | The caster and anyone next to them is affected, instead. |
 | 7     | Flame Jet            | 3  | SI * 30'/10m | SI + 1                       | A steady stream of flame shoots from the mage's hands, dealing **SI D6 burning** damage to anything caught by it, in a straight **AOE** line.  | The line of fire erupts backwards, through the mage. They and anyone behind them, in the line's range is affected. |
 | 9     | Rain of Fire         | 4  | SI * 60'/20m | SI + 3                       | The mage makes fire rain from the sky. A ball of fire falls from the sky for every **SI**, dealing **6 D6 + SI burning** damage in a **AOE** 24'/8m radius, at a location of choice. | No fire falls from the sky, instead the SI number of fire balls erupt in the mage's hands. They and anyone in the radius suffers the damage. |
@@ -1022,7 +1002,7 @@ The mending of [injuries](./core-rules.md#injury) and treatment of [diseases](./
 | ----- | -------------------- | -- | -------- | ---------------------------- | ------------------------------ | ------------------ |
 | 0     | Patching Touch       | 2  | 3'/1m    | 1                            | A **ST** of the mage's choosing, in hand's reach, is magically healed. Removes **SI** points of [bleeding](#bleeding) and **SI** points of [poisoned](#poisoned). One [injury](#injury) of choice is now **patched up**. Restores **SI** missing [HP](./core-rules.md#hit-points-hp). | The caster receives +1 point of [bleeding](./core-rules.md#bleeding). |
 | 1     | Treating Touch       | 2  | 3'/1m    | 2                            | A **ST** of the mage's choosing, in hand's reach, is magically healed. Up to **SI** [injuries](#injury) of choice are now **treated up** and their time to heal is reduced by **SI D4** days. Restores all missing [HP](./core-rules.md#hit-points-hp). | The caster receives **SI** random [injuries](#injury). |
-| 4     | Life Leech           | 3  | 3'/1m    | Opposed: Resist              | Draw the life from a **ST** creature of choice. Deals **SI D3** points of damage while healing another touched creature's or one's own [HP](./core-rules.md#hit-points-hp) for the same amount. Transfers 1 point of [bleeding](#bleeding) and/or [poisoned](#poisoned) from the healed creature to the damaged one. | The effect triggers in reverse, drawing **SI** [HP](./core-rules.md#hit-points-hp) from the caster and sending them to their victim. Transfers **SI** points of [bleeding](#bleeding) and/or [poisoned](#poisoned) from the target to the caster. |
+| 4     | Life Leech           | 3  | 3'/1m    | Opposed: Resist              | Draw the life from a **ST** creature of choice. Deals **SI D4** points of damage while healing another touched creature's or one's own [HP](./core-rules.md#hit-points-hp) for the same amount. Transfers 1 point of [bleeding](#bleeding) and/or [poisoned](#poisoned) from the healed creature to the damaged one. | The effect triggers in reverse, drawing **SI** [HP](./core-rules.md#hit-points-hp) from the caster and sending them to their victim. Transfers **SI** points of [bleeding](#bleeding) and/or [poisoned](#poisoned) from the target to the caster. |
 | 5     | Expel Illness        | 3  | 3'/1m    | 4                            | Removes **SI** number of [illnesses](#illness) of choice from a **ST** of choice, in hand's reach. | The caster contracts **SI** random [illnesses](#illness). | 
 | 6     | Revert Mutation      | 4  | 3'/1m    | 6                            | Removes **SI** number of [mutations](#list-of-mutations) of choice from a **ST** of choice, in hand's reach. | The caster receives **SI** random [mutations](#list-of-mutations). |
 
@@ -1058,7 +1038,7 @@ Only targets within and up to the given *distance* can be moved and only within 
 | Level | Name                   | AP | Distance     | Ob                           | Effect(s)                      | Backfire Effect(s) |
 | ----- | ---------------------- | -- | ------------ | ---------------------------- | ------------------------------ | ------------------ |
 | 0     | Telekinesis            | 2  | SI * 15'/5m  | SI                           | Move an inanimate **ST** object at great velocity (if desired), which allows it to deal **SI D4** **variant** (depending on the type of object) damage upon impact. | The caster suffers +1 [exhaustion](./core-rules.md#exhaustion). |
-| 3     | Creature Telekinesis   | 3  | SI * 15'/5m  | Opposed: Ranged Defence      | Move a **ST** large, or smaller, creature. | The caster is knocked back **SI** * 9'/3m and suffers **SI bludgeoning** damage. |
+| 3     | Creature Telekinesis   | 3  | SI * 15'/5m  | Opposed                      | Move a **ST** large, or smaller, creature. | The caster is knocked back **SI** * 9'/3m and suffers **SI bludgeoning** damage. |
 
 ### Telepathy (Ora)
 The ability to communicate wordlessly, to alter emotions and even issue compelling commands against another's will. 
@@ -1081,16 +1061,16 @@ This list overrides the list of **injuries** of the core module.
 
 | Range **D100** | Name         | Duration      | Effect      | Treatment |
 | ---------- | ------------ | ------------- | ----------- | --------- |
-| 0 - 7 | Strength Sap | **1D10 + 3** Days | The muscles atrophy, despite any physical exercise. If not treated quickly, the victim will quickly find themselves unable to move, at all. **-1D3** [strength](#strength-str); **-1D3** [agility](#agility-agi); Max 6'/2m movement distance. | [medicine](#medicine-int); Reduces the duration by **2D4** days. |
-| 8 - 15 | Lung Fever | **1D10 + 1** Days | The victim finds themselves easily winded, even by simple acts, such as walking to the privy at night. **-(1D3 + 1)** [endurance](#endurance-end). | [medicine](#medicine-int); The ill-effects are suspended for 24 hours. |
+| 0 - 7 | Strength Sap | **1D10 + 3** Days | The muscles atrophy, despite any physical exercise. If not treated quickly, the victim will quickly find themselves unable to move, at all. **-1D4** [strength](#strength-str); **-1D4** [agility](#agility-agi); Max 6'/2m movement distance. | [medicine](#medicine-int); Reduces the duration by **2D4** days. |
+| 8 - 15 | Lung Fever | **1D10 + 1** Days | The victim finds themselves easily winded, even by simple acts, such as walking to the privy at night. **-(1D4 + 1)** [endurance](#endurance-end). | [medicine](#medicine-int); The ill-effects are suspended for 24 hours. |
 | 16 - 23 | Water's Curse | **1D10 + 1** Days | The victim sweats uncontrollably and has watery stools, thus dehydrating rapidly and losing consciousness frequently. **-1D4** [toughness](#toughness-tough); [exhausted](#exhausted). | [medicine](#medicine-int); Reduces the duration by **1D10** days and suspends the ill-effects for 24 hours. |
-| 24 - 31 | Jazz-Hands | **1D10 + 3** Days | The victim can't stop the tremors in their arms. Any action requiring precise movements is impossible. **-1D3** [agility](#agility-agi); **-1D4** [arcana](#arcana-arc). | [medicine](#medicine-int); The ill-effects are suspended for 24 hours. |
-| 32 - 39 | Brain Rot | **2D10** Days | The victim's mind dulls. They find it difficult to form coherent thoughts. **-1D3** [intelligence](#intelligence-int); **-1D3** [wisdom](#wisdom-wis). | [medicine](#medicine-int); The ill-effects are suspended for 24 hours. |
-| 40 - 47 | Feeble Tounge | **1D10 + 3** Days | The tounge flops and waggles around uncontrollably. Speech is impaired. **-1D3** [oratory](#oratory-ora). | [medicine](#medicine-int); Reduces the duration by **2D4** days. |
+| 24 - 31 | Jazz-Hands | **1D10 + 3** Days | The victim can't stop the tremors in their arms. Any action requiring precise movements is impossible. **-1D4** [agility](#agility-agi); **-1D4** [arcana](#arcana-arc). | [medicine](#medicine-int); The ill-effects are suspended for 24 hours. |
+| 32 - 39 | Brain Rot | **2D10** Days | The victim's mind dulls. They find it difficult to form coherent thoughts. **-1D4** [intelligence](#intelligence-int); **-1D4** [wisdom](#wisdom-wis). | [medicine](#medicine-int); The ill-effects are suspended for 24 hours. |
+| 40 - 47 | Feeble Tounge | **1D10 + 3** Days | The tounge flops and waggles around uncontrollably. Speech is impaired. **-1D4** [oratory](#oratory-ora). | [medicine](#medicine-int); Reduces the duration by **2D4** days. |
 | 48 - 55 | Wound Fever | Until cured | [Injuries](#injury) of the victim refuse any treatment. Any [injury](#injury) of the victim can be **patched up**, but not **treated**. | [medicine](#medicine-int); Sets the duration to **1D10** days. |
-| 56 - 63 | Filth Fever | **1D10 + 1** Days | The victim coughs uncontrollably and violently, with awful-smelling breath. **-1D3** [oratory](#oratory-ora); **-1D3** [endurance](#endurance-end). | [medicine](#medicine-int); Removes the illness on the next day. |
-| 64 - 71 | Amber Curse | **2D10** Days | The victim finds it difficult to feel the flow of magic through their body. **-1D4** [arcana](#arcana-arc); **-1D3** to any magic skills and [rune-using](#rune-using-agi). | Conventional methods cannot treat this illness. |
-| 72 - 79 | Coldness of Heart | **1D10 + 1** Days | The victim feels distant, as if they were only spectators in their own body. **-1D4** [empathy](#empathy-emp); **-1D3** [will](#will-will). | [medicine](#medicine-int); Reduces the duration by **2D4** days. |
-| 80 - 87 | Rot Plague | **4D10** Days | The skin starts developing a nasty rash, before flaking off. Not only unsightly, the bare flesh underneath smells like it's rotting. **-1D3** [endurance](#endurance-end); **-(1D3 + 1)** [toughness](#toughness-tough). | [surgery](#surgery-int); The ill-effects are suspended for 24 hours. |
+| 56 - 63 | Filth Fever | **1D10 + 1** Days | The victim coughs uncontrollably and violently, with awful-smelling breath. **-1D4** [oratory](#oratory-ora); **-1D4** [endurance](#endurance-end). | [medicine](#medicine-int); Removes the illness on the next day. |
+| 64 - 71 | Amber Curse | **2D10** Days | The victim finds it difficult to feel the flow of magic through their body. **-1D4** [arcana](#arcana-arc); **-1D4** to any magic skills and [rune-using](#rune-using-agi). | Conventional methods cannot treat this illness. |
+| 72 - 79 | Coldness of Heart | **1D10 + 1** Days | The victim feels distant, as if they were only spectators in their own body. **-1D4** [empathy](#empathy-emp); **-1D4** [will](#will-will). | [medicine](#medicine-int); Reduces the duration by **2D4** days. |
+| 80 - 87 | Rot Plague | **4D10** Days | The skin starts developing a nasty rash, before flaking off. Not only unsightly, the bare flesh underneath smells like it's rotting. **-1D4** [endurance](#endurance-end); **-(1D4 + 1)** [toughness](#toughness-tough). | [surgery](#surgery-int); The ill-effects are suspended for 24 hours. |
 | 88 - 94 | Organ Mold | Until cured | Causes an [injury](#injury) every day it is active. | [surgery](#surgery-int); The illness is removed within a day. |
 | 95 - 100 | Red Death | Until cured | The victim starts bleeding from all of their orifices, with no end in sight. Causes 3 points of [bleeding](#bleeding) every day it is active. | [surgery](#surgery-int); The illness is removed within a day. |
