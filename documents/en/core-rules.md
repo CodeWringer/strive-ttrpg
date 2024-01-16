@@ -225,7 +225,7 @@
     - [Multiple Single Target (MST)](#multiple-single-target-mst)
     - [Area of Effect (AoE)](#area-of-effect-aoe)
 
-Version 12 (Playtest)
+Version 13 (Playtest)
 
 A role-playing game by Nicolas H.
 
