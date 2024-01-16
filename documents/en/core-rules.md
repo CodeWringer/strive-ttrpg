@@ -2022,7 +2022,7 @@ The following is a list of all [conditions](#condition) present in the core rule
 A character who is in **berserk**, **must** attack the creature nearest to them, regardless of whether it is friend or foe, until it is dead or unconscious. The **berserked** character **must** then move on to the next available and closest victim. 
 
 * Graded
-* Shrug off: 1 *point* with a [skill](#skills) based on [empathy](#empathy-emp) at **Ob** equal to the current *degree*.
+* Shrug off: 1 *point* with a [skill](#skills) based on [empathy](#empathy-emp) or with [empathy](#empathy-emp) itself at **Ob** equal to the current *degree*.
 * Immediate cancel: When the character is made [unconscious](#unconscious) or no other creatures remain alive and/or conscious.
 
 ### Burning
@@ -2097,15 +2097,15 @@ A **hasted** character enjoys several benefits:
 A character who has been made unnaturally **jealous**, will do anything in their power to take, whatever it may be, from whoever might have *it*. 
 
 * Graded
-* Shrug off: 1 *point* a [skill](#skills) based on [empathy](#empathy-emp) at **Ob** equal to the current *degree*.
-* Immediate cancel: When the character is made [unconscious](#unconscious) or no other creatures remain alive and/or conscious.
+* Shrug off: 1 *point* a [skill](#skills) based on [empathy](#empathy-emp) or with [empathy](#empathy-emp) itself at **Ob** equal to the current *degree*.
+* Immediate cancel: When the character is made [unconscious](#unconscious), the source of the jealousy is removed or the character acquires that which they covet. 
 
 ### Pacified
 A character who is **pacified**, is unable to *willingly* take any action that would directly or indirectly harm any other creature. Note, the character is not physically unable to cause harm, but they **really** don't want to. 
 
 * Graded
-* Shrug off: 1 *point* with a [skill](#skills) based on [strength](#strength-str) at **Ob** equal to the current *degree*.
-* Immediate cancel: When the character is made [unconscious](#unconscious) or no other creatures remain alive and/or conscious.
+* Shrug off: 1 *point* with a [skill](#skills) based on [strength](#strength-str) or with [strength](#strength-str) itself at **Ob** equal to the current *degree*.
+* Immediate cancel: When the character is made [unconscious](#unconscious) or the source of the pacification is removed.
 
 ### Poisoned
 A **poisoned** character suffers **1 D4** points of [poison](#damage-types) damage every *tick*. 
@@ -2139,7 +2139,7 @@ A **terrified** character suffers **-2D** to defense tests and **has to** flee f
 
 * Graded
 * Shrug off: 1 *point* with a [skill](#skills) based on [willpower](#willpower-will) at **Ob** equal to the current *degree*.
-* Immediate cancel: When the character is made [unconscious](#unconscious) or no other creatures remain alive and/or conscious.
+* Immediate cancel: When the character is made [unconscious](#unconscious), the source of terror is removed or the character can no longer perceive the source of terror in any way for a short wile (1-2 turns or 5-10 seconds).
 
 ### Unconscious
 An **unconscious** character is unable to act and is unaware of their surroundings. 
