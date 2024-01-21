@@ -474,7 +474,7 @@ For all attacks made with a dagger, the following rules apply:
 
 | Level | Name                 | AP | **Ob**      | Damage                           | Notes  |
 | ----- | -------------------- | -- | ----------- | -------------------------------- | ------ |
-| 0     | Slash                | 2  | Opposed     | **1D4** **Slashing**             |  |
+| 0     | Slash                | 2  | Opposed     | **1D4 + 2** **Slashing**         |  |
 | 0     | Stab                 | 2  | Opposed     | **1D4** **Piercing**             |  |
 | 0     | Artery cut           | 2  | Opposed + 2 | **2D4** **Slashing**             | +1 [bleeding](#bleeding) to the target (if it can bleed).  |
 | 0     | Target weak-spot     | 2  | Opposed + 2 | **2D4** **Piercing**             |  |
