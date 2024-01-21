@@ -1794,11 +1794,11 @@ Weapon type assets can have the following **traits**:
 ### List of Stuff & Things
 The following is a list of general assets. Of course, the following list is non-exhaustive. Invent more at your own need. 
 
-| Name                   | Max. Stack Size | Description                                                              |
-| ---------------------- | --------------- | ------------------------------------------------------------------------ |
-| Antidote               | 2    | This unassuming liquid can make the difference between life and death. Is used in the [treatment of poison](#list-of-poison-injuries). |
-| Herbal Remedy Potion   | 2    | The sickly green tint and strong odor of the liquid within might not seem enticing, but its efficacy is well worth it. Upon imbibing, restores all currently missing [HP](#hit-points-hp) of a character. |
-| Medical Supplies       | 2    | A small satchel of clean bandages, thread and needle for suturing, a clean and sharp knife, a splint and straps for binding. Is used in the [treatment](#injury-states--treatment) of various [injuries](#injury). |
+| Name                   | Bulk | Max. Stack Size | Description                                                              |
+| ---------------------- | ---- | --------------- | ------------------------------------------------------------------------ |
+| Antidote               | 1    | 2               | This unassuming liquid can make the difference between life and death. Is used in the [treatment of poison](#list-of-poison-injuries). |
+| Herbal Remedy Potion   | 1    | 2               | The sickly green tint and strong odor of the liquid within might not seem enticing, but its efficacy is well worth it. Upon imbibing, restores all currently missing [HP](#hit-points-hp) of a character. |
+| Medical Supplies       | 1    | 2               | A small satchel of clean bandages, thread and needle for suturing, a clean and sharp knife, a splint and straps for binding. Is used in the [treatment](#injury-states--treatment) of various [injuries](#injury). |
 
 ## Lists of Skills
 The following list does not and cannot aim to be a complete listing of all possible skills in game. Adding new skills as necessary will have to be done by the **GM**. 
@@ -1839,7 +1839,7 @@ Moving silently and performing actions undetected.
 | Level | Name                 | AP | **Ob**  | Effect(s)          | Condition(s) |
 | ----- | -------------------- | -- | ------- | ------------------ | ------------ |
 | 3     | Muffled Fumble       | 0  | 2       | When failing a **stealth test**, re-roll two of your **negatives**. If you now succeed, treat that as the outcome of your original roll. | Failed a **stealth test**;  Once per rest. |
-| 4    | Pocket-Sand           | 3  | Opposed | If you succeed a **stealth test** against a single designated target's [observation](#observation-perc), you can disappear from their sight and run up to 2 **AP** worth of distance. | Once per rest. |
+| 4     | Pocket-Sand          | 3  | Opposed | If you succeed a **stealth test** against a single designated target's [observation](#observation-perc), you can disappear from their sight and run up to 2 **AP** worth of distance. | Once per rest. |
 
 #### Swimming (End)
 Swimming, as opposed to drowning. 
@@ -2343,18 +2343,18 @@ Note that whenever a bludgeoning [injury](#injury) is suffered, an [endurance](#
 ## List of Illnesses
 | Range D100 | Name              | Duration          | Effect      | Treatment |
 | ---------- | ----------------- | ----------------- | ----------- | --------- |
-| 1 - 8      | Strength Sap      | **1D10 + 3** Days | The muscles atrophy, despite any physical exercise. If not treated quickly, the victim will quickly find themselves unable to move, at all. **-1D4** [strength](#strength-str); **-1D4** [agility](#agility-agi); Max 6'/2m movement distance. | [medicine](#medicine-int) **Ob** 1D4; Reduces the duration by **2D4** days. |
-| 9 - 16     | Lung Fever        | **1D10 + 1** Days | The victim finds themselves easily winded, even by simple acts, such as walking to the privy at night. **-(1D4 + 1)** [endurance](#endurance-end). | [medicine](#medicine-int) **Ob** 1; The ill-effects are suspended for 24 hours. |
-| 17 - 24    | Water's Curse     | **1D10 + 1** Days | The victim sweats uncontrollably and has watery stools, thus dehydrating rapidly and losing consciousness frequently. **-1D4** [toughness](#toughness-tough); [exhausted](#exhausted). | [medicine](#medicine-int) **Ob** 1D4; Reduces the duration by **1D10** days and suspends the ill-effects for 24 hours. |
-| 25 - 32    | Jazz-Hands        | **1D10 + 3** Days | The victim can't stop the tremors in their arms. Any action requiring precise movements is impossible. **-1D4** [agility](#agility-agi). | [medicine](#medicine-int) **Ob** 1; The ill-effects are suspended for 24 hours. |
-| 33 - 40    | Brain Rot         | **2D10** Days     | The victim's mind dulls. They find it difficult to form coherent thoughts. **-1D4** [intelligence](#intelligence-int); **-1D4** [wisdom](#wisdom-wis). | [medicine](#medicine-int) **Ob** 1; The ill-effects are suspended for 24 hours. |
-| 41 - 48    | Feeble Tounge     | **1D10 + 3** Days | The tounge flops and waggles around uncontrollably. Speech is impaired. **-1D4** [oratory](#oratory-ora). | [medicine](#medicine-int) **Ob** 1D4; Reduces the duration by **2D4** days. |
-| 49 - 56    | Wound Fever       | Until cured       | [Injuries](#injury) of the victim refuse any treatment. Any [injury](#injury) of the victim can be **patched up**, but not **treated**. | [medicine](#medicine-int) **Ob** 2; Sets the duration to **1D10** days. |
-| 57 - 64    | Filth Fever       | **1D10 + 1** Days | The victim coughs uncontrollably and violently, with awful-smelling breath. **-1D4** [oratory](#oratory-ora); **-1D4** [endurance](#endurance-end). | [medicine](#medicine-int) **Ob** 1D4 + 1; Removes the illness on the next day. |
-| 65 - 80    | Coldness of Heart | **1D10 + 1** Days | The victim feels distant, as if they were only spectators in their own body. **-1D4** [empathy](#empathy-emp); **-1D4** [will](#will-will). | [medicine](#medicine-int) **Ob** 1D4; Reduces the duration by **2D4** days. |
-| 81 - 88    | Rot Plague        | **4D10** Days     | The skin starts developing a nasty rash, before flaking off. Not only unsightly, the bare flesh underneath smells like it's rotting. **-1D4** [endurance](#endurance-end); **-(1D4 + 1)** [toughness](#toughness-tough). | [surgery](#surgery-int) **Ob** 2; The ill-effects are suspended for 24 hours. |
-| 89 - 95    | Organ Mold        | Until cured       | Causes an [injury](#injury) every day it is active. | [surgery](#surgery-int) **Ob** 1D4 + 1; The illness is removed within a day. |
-| 96 - 100   | Red Death         | Until cured       | The victim starts bleeding from all of their orifices, with no end in sight. Causes 3 points of [bleeding](#bleeding) every day it is active. | [surgery](#surgery-int) **Ob** 2; The illness is removed within a day. |
+| 1 - 8      | Strength Sap      | **1D10 + 3** Days | The muscles atrophy, despite any physical exercise. If not treated quickly, the victim will quickly find themselves unable to move, at all. **-1D4** [strength](#strength-str); **-1D4** [agility](#agility-agi); Max 6'/2m movement distance. | [Medicine](#medicine-int) **Ob** 1D4; Reduces the duration by **2D4** days. |
+| 9 - 16     | Lung Fever        | **1D10 + 1** Days | The victim finds themselves easily winded, even by simple acts, such as walking to the privy at night. **-(1D4 + 1)** [endurance](#endurance-end). | [Medicine](#medicine-int) **Ob** 1; The ill-effects are suspended for 24 hours. |
+| 17 - 24    | Water's Curse     | **1D10 + 1** Days | The victim sweats uncontrollably and has watery stools, thus dehydrating rapidly and losing consciousness frequently. **-1D4** [toughness](#toughness-tough); [exhausted](#exhausted). | [Medicine](#medicine-int) **Ob** 1D4; Reduces the duration by **1D10** days and suspends the ill-effects for 24 hours. |
+| 25 - 32    | Jazz-Hands        | **1D10 + 3** Days | The victim can't stop the tremors in their arms. Any action requiring precise movements is impossible. **-1D4** [agility](#agility-agi). | [Medicine](#medicine-int) **Ob** 1; The ill-effects are suspended for 24 hours. |
+| 33 - 40    | Brain Rot         | **2D10** Days     | The victim's mind dulls. They find it difficult to form coherent thoughts. **-1D4** [intelligence](#intelligence-int); **-1D4** [wisdom](#wisdom-wis). | [Medicine](#medicine-int) **Ob** 1; The ill-effects are suspended for 24 hours. |
+| 41 - 48    | Feeble Tounge     | **1D10 + 3** Days | The tounge flops and waggles around uncontrollably. Speech is impaired. **-1D4** [oratory](#oratory-ora). | [Medicine](#medicine-int) **Ob** 1D4; Reduces the duration by **2D4** days. |
+| 49 - 56    | Wound Fever       | Until cured       | [Injuries](#injury) of the victim refuse any treatment. Any [injury](#injury) of the victim can be **patched up**, but not **treated**. | [Medicine](#medicine-int) **Ob** 2; Sets the duration to **1D10** days. |
+| 57 - 64    | Filth Fever       | **1D10 + 1** Days | The victim coughs uncontrollably and violently, with awful-smelling breath. **-1D4** [oratory](#oratory-ora); **-1D4** [endurance](#endurance-end). | [Medicine](#medicine-int) **Ob** 1D4 + 1; Removes the illness on the next day. |
+| 65 - 80    | Coldness of Heart | **1D10 + 1** Days | The victim feels distant, as if they were only spectators in their own body. **-1D4** [empathy](#empathy-emp); **-1D4** [will](#will-will). | [Medicine](#medicine-int) **Ob** 1D4; Reduces the duration by **2D4** days. |
+| 81 - 88    | Rot Plague        | **4D10** Days     | The skin starts developing a nasty rash, before flaking off. Not only unsightly, the bare flesh underneath smells like it's rotting. **-1D4** [endurance](#endurance-end); **-(1D4 + 1)** [toughness](#toughness-tough). | [Surgery](#surgery-int) **Ob** 2; The ill-effects are suspended for 24 hours. |
+| 89 - 95    | Organ Mold        | Until cured       | Causes an [injury](#injury) every day it is active. | [Surgery](#surgery-int) **Ob** 1D4 + 1; The illness is removed within a day. |
+| 96 - 100   | Red Death         | Until cured       | The victim starts bleeding from all of their orifices, with no end in sight. Causes 3 points of [bleeding](#bleeding) every day it is active. | [Surgery](#surgery-int) **Ob** 2; The illness is removed within a day. |
 
 ## List of Mutations
 One should always keep in mind that despite the game mechanical effects of a mutation, the appearance of an affected individual will also be severly altered. Other characters and creatures may react with disgust, fear, disdain, pity, and so on. 
