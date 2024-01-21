@@ -930,11 +930,11 @@ The alteration of physical things, to change their shape and purpose, permanentl
 
 Note that altering the shape of creatures poses a particular challenge. Unless if the test is a **complete success**, the target creature may mutate, horribly. When failing a test, consult the [list of mutations](#list-of-mutations), to determine the type of mutation. 
 
-Creatures can [resist](#resist-will) the change. Inanimate objects don't resist. 
+Creatures can resist the change with [toughness](./core-rules.md#toughness-tough). Inanimate objects don't resist. 
 
 | Level | Name                 | AP | Distance | Ob                           | Effect(s)                      | Backfire Effect(s) |
 | ----- | -------------------- | -- | -------- | ---------------------------- | ------------------------------ | ------------------ |
-| 0     | Alter Shape          | 3  | 3'/1m    | Opposed: Resist + SI         | A **ST** (object or creature) is altered as the mage desires. The complexity and size of the re-shaping depends on the **SI**. 1-3 are for simple and small, 4-6 for tricky and medium, 7-8 for complex and large and 9+ for very complex and very large alterations. Consult your **GM**! | The intended alteration occurs only on the caster. |
+| 0     | Alter Shape          | 3  | 3'/1m    | Opposed + SI         | A **ST** (object or creature) is altered as the mage desires. The complexity and size of the re-shaping depends on the **SI**. 1-3 are for simple and small, 4-6 for tricky and medium, 7-8 for complex and large and 9+ for very complex and very large alterations. Consult your **GM**! | The intended alteration occurs only on the caster. |
 
 ### Cryomancy (Arc)
 The summoning and control of ice. Cryomancer's can freeze things, so they're heavier and harder to break. 
@@ -965,7 +965,7 @@ A victim reaching their [exhaustion threshold](#exhaustion) by effect of this ma
 
 | Level | Name                 | AP | Distance     | Ob                           | Effect(s)                      | Backfire Effect(s) |
 | ----- | -------------------- | -- | ------------ | ---------------------------- | ------------------------------ | ------------------ |
-| 0     | Illusion             | 2  | SI * 30'/10m | Opposed: Resist + SI         | **Concentration**; The affected **ST** *sees*, *hears* or *smells* an illusory image/sound/odor. The intensity of the illusion is determined by the **SI**. 1 for a weak and small, 2 for a moderate and 3-4 for a large and intense, 5-6 for a giant and 7+ for a titanic illusion. *Can* be used to inflict [terror](./core-rules.md#terrified) or intense [jealousy](./core-rules.md#jealous). The victim suffers +1 [exhaustion](./core-rules.md#exhaustion). | The caster suffers +1 [exhaustion](./core-rules.md#exhaustion). |
+| 0     | Illusion             | 2  | SI * 30'/10m | Opposed by [wisdom](./core-rules.md#wisdom-wis) + SI         | **Concentration**; The affected **ST** *sees*, *hears* or *smells* an illusory image/sound/odor. The intensity of the illusion is determined by the **SI**. 1 for a weak and small, 2 for a moderate and 3-4 for a large and intense, 5-6 for a giant and 7+ for a titanic illusion. *Can* be used to inflict [terror](./core-rules.md#terrified) or intense [jealousy](./core-rules.md#jealous). The victim suffers +1 [exhaustion](./core-rules.md#exhaustion). | The caster suffers +1 [exhaustion](./core-rules.md#exhaustion). |
 
 ### Psionics (Ora/Int)
 Mind over matter! Psionics grants powerful abilities to manipulate objects, influence others and even wield magic as a weapon or shield. 
@@ -1002,7 +1002,7 @@ The mending of [injuries](./core-rules.md#injury) and treatment of [diseases](./
 | ----- | -------------------- | -- | -------- | ---------------------------- | ------------------------------ | ------------------ |
 | 0     | Patching Touch       | 2  | 3'/1m    | 1                            | A **ST** of the mage's choosing, in hand's reach, is magically healed. Removes **SI** points of [bleeding](#bleeding) and **SI** points of [poisoned](#poisoned). One [injury](#injury) of choice is now **patched up**. Restores **SI** missing [HP](./core-rules.md#hit-points-hp). | The caster receives +1 point of [bleeding](./core-rules.md#bleeding). |
 | 1     | Treating Touch       | 2  | 3'/1m    | 2                            | A **ST** of the mage's choosing, in hand's reach, is magically healed. Up to **SI** [injuries](#injury) of choice are now **treated up** and their time to heal is reduced by **SI D4** days. Restores all missing [HP](./core-rules.md#hit-points-hp). | The caster receives **SI** random [injuries](#injury). |
-| 4     | Life Leech           | 3  | 3'/1m    | Opposed: Resist              | Draw the life from a **ST** creature of choice. Deals **SI D4** points of damage while healing another touched creature's or one's own [HP](./core-rules.md#hit-points-hp) for the same amount. Transfers 1 point of [bleeding](#bleeding) and/or [poisoned](#poisoned) from the healed creature to the damaged one. | The effect triggers in reverse, drawing **SI** [HP](./core-rules.md#hit-points-hp) from the caster and sending them to their victim. Transfers **SI** points of [bleeding](#bleeding) and/or [poisoned](#poisoned) from the target to the caster. |
+| 4     | Life Leech           | 3  | 3'/1m    | Opposed by [toughness](./core-rules.md#toughness-tough) | Draw the life from a **ST** creature of choice. Deals **SI D4** points of damage while healing another touched creature's or one's own [HP](./core-rules.md#hit-points-hp) for the same amount. Transfers 1 point of [bleeding](#bleeding) and/or [poisoned](#poisoned) from the healed creature to the damaged one. | The effect triggers in reverse, drawing **SI** [HP](./core-rules.md#hit-points-hp) from the caster and sending them to their victim. Transfers **SI** points of [bleeding](#bleeding) and/or [poisoned](#poisoned) from the target to the caster. |
 | 5     | Expel Illness        | 3  | 3'/1m    | 4                            | Removes **SI** number of [illnesses](#illness) of choice from a **ST** of choice, in hand's reach. | The caster contracts **SI** random [illnesses](#illness). | 
 | 6     | Revert Mutation      | 4  | 3'/1m    | 6                            | Removes **SI** number of [mutations](#list-of-mutations) of choice from a **ST** of choice, in hand's reach. | The caster receives **SI** random [mutations](#list-of-mutations). |
 
@@ -1022,7 +1022,7 @@ Another important note about targeting a specific soul. It is easier to recall t
 | Level | Name                 | AP | Distance   | Ob                           | Effect(s)                      | Backfire Effect(s) |
 | ----- | -------------------- | -- | ---------- | ---------------------------- | ------------------------------ | ------------------ |
 | 0     | Call and Bind a Soul | 3  | 3'/1m      | SI                           | Create a **soul-binding** at the strength of the chosen level. The larger, heavier and more complex a body is, the harder it is to create a binding. Anything larger than, heavier or more complex than a human will make the **soul-binding** harder. 1-3 for a small and simple, 4-5 for a moderate and 6+ for a large and complex binding. Consult your **GM**. Requires a **soul-seal**. Replacing an existing binding is possible, but the test must exceed the original soul-seals strength. | The caster's soul is evicted from their body and another soul takes place. The caster's character is effectively removed from the world. |
-| 1     | Command Bound Soul   | 1  | SI * 6'/3m | Opposed: Resist at 6 - SI    | Issue a single command that the bound soul **must** follow. | +1 [exhaustion](./core-rules.md#exhaustion) to the caster. |
+| 1     | Command Bound Soul   | 1  | SI * 6'/3m | Opposed by [willpower](./core-rules.md#willpower-will) - SI   | Issue a single command that the bound soul **must** follow. | +1 [exhaustion](./core-rules.md#exhaustion) to the caster. |
 | 1     | Break Binding        | 3  | 3'/1m      | SI of the seal               | Break a **soul-binding** and send the soul back to the **plane of the dead**, leaving its former body inanimate and soulless. | The caster's soul is evicted from their body and another soul takes place. The caster's character is effectively removed from the world. |
 | 5     | Call back a Soul     | 3  | 3'/1m      | SI + days since death        | Target a specific soul and recall them into their prior body. This isn't, strictly speaking, the same as binding a soul. | The caster's soul is evicted from their body and another soul takes place. The caster's character is effectively removed from the world. |
 
@@ -1043,14 +1043,14 @@ Only targets within and up to the given *distance* can be moved and only within 
 ### Telepathy (Ora)
 The ability to communicate wordlessly, to alter emotions and even issue compelling commands against another's will. 
 
-The mage can only affect those creatures that either don't resist, or which **fail** a [resist](#resist-will) test, at the given **Ob**. 
+The mage can only affect those creatures that either don't resist, or which **fail** a [wisdom](./core-rules.md#wisdom-wis) test, at the given **Ob**. 
 
 | Level | Name                   | AP | Distance     | Ob                           | Effect(s)                      | Backfire Effect(s) |
 | ----- | ---------------------- | -- | ------------ | ---------------------------- | ------------------------------ | ------------------ |
 | 0     | Wordless Communication | 2  | SI * 12'/4m  | SI                           | **Concentration**: Communicate wordlessly with **SI** **MST**. | The caster suffers +1 [exhaustion](./core-rules.md#exhaustion). |
-| 3     | Change a Mind          | 2  | SI * 12'/4m  | Opposed: Resist - SI         | Alter a creature's current state of mind and emotion. | The caster is affected, instead. |
+| 3     | Change a Mind          | 2  | SI * 12'/4m  | Opposed by [wisdom](./core-rules.md#wisdom-wis) - SI | Alter a creature's current state of mind and emotion. | The caster is affected, instead. |
 | 4     | Pressing Thought       | 3  | SI * 30'/10m | SI + 2                       | [Hasten](./core-rules.md#hasted) up to **SI** **MST** of choice for **SI** turns of combat or **SI** * 5 seconds out of combat. | The caster suffers +1 [exhaustion](./core-rules.md#exhaustion). |
-| 6     | Quiet Command          | 3  | SI * 30'/10m | Opposed: Resist - SI         | Issue a command to another creature, which they feel **strongly** compelled to follow. | The caster is affected, instead. |
+| 6     | Quiet Command          | 3  | SI * 30'/10m | Opposed by [wisdom](./core-rules.md#wisdom-wis) - SI | Issue a command to another creature, which they feel **strongly** compelled to follow. | The caster is affected, instead. |
 | 7     | Confer Knowledge       | 4  | 3'/1m        | 7 - SI                       | Confer +1 level of a **known skill** to another creature. | The caster loses 1 level in the chosen skill. |
 
 ## List of Injuries
