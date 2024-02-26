@@ -230,11 +230,11 @@ Version 13 (Playtest)
 A role-playing game by Nicolas H.
 
 # Introduction
-**Ambersteel** is a table-top role-playing game (**TTRPG**), requiring a **game master** (**GM**) and at least one **player** to play. 
+**STRIVE** is a table-top role-playing game (**TTRPG**), requiring a **game master** (**GM**) and at least one **player** to play. 
 
-At its core, **Ambersteel** is about emergent storytelling and tactical combat. Players experience the evolution of their characters by defining convictions that **drive** them to action and which are based on the events they experience. In that way, players also **drive** the story forward and guide the evolution of the world. 
+At its core, **STRIVE** is about emergent storytelling and tactical combat. Players experience the evolution of their characters by defining convictions that **drive** them to action and which are based on the events they experience. In that way, players also **drive** the story forward and guide the evolution of the world. 
 
-On the spectrum of *narrative-driven*, *game-y* and *simulationist*, **Ambersteel** aims for the region between *game-y* and *narrative-driven*, while leaning heavily towards *game-y*. It understands itself as a *game*, not a *simulation*. The rules outlined herein will often reflect that by making broad abstractions and even some unrealistic assertions, with the goal of keeping the game easier to learn and more fun to experience. 
+On the spectrum of *narrative-driven*, *game-y* and *simulationist*, **STRIVE** aims for the region between *game-y* and *narrative-driven*, while leaning heavily towards *game-y*. It understands itself as a *game*, not a *simulation*. The rules outlined herein will often reflect that by making broad abstractions and even some unrealistic assertions, with the goal of keeping the game easier to learn and more fun to experience. 
 
 Most rules have a certain degree of vagueness to them. This is at least partially deliberate. The situations that can come up during play are simply too varied and numerous to be possible to completely cover with rules, without requiring epic tomes filled to the brim with highly specific rulings for highly specific situations. Instead, the game relies on the **GM** to arbitrate in most situations. The descriptions in the rules here should serve as a point of orientation for the **GM**. How they interpret the rules, is how they're to be understood. 
 
@@ -255,7 +255,7 @@ More details about the system:
 Extensibility and adaptability form a central foundation of the system. While in its current form it best supports medieval fantasy themes, it should be fairly well adaptable to any theme and setting and even encourages you to do so. The bulk of the work would lie in designing skills and assets that fit your setting.
 
 # How to Play
-As **Ambersteel** is a **roleplaying game**, there are certain rules to follow and expectations made of both players and **GM**. 
+As **STRIVE** is a **roleplaying game**, there are certain rules to follow and expectations made of both players and **GM**. 
 
 The **GM** and the players work ***together*** to create a unique experience and weave a story of glorious triumph, tragic defeat or anything in-between. Ultimately, the **GM**'s job is to provide interesting conundrums to the players and their job is to provide interesting answers, in-line with what their characters believe and *want*. Remember that everyone at the table is looking to have fun and that includes the **GM**. 
 
@@ -264,7 +264,7 @@ Each player only directly controls a single character. The **GM** is in control 
 In some places, where distances are concerned, both feet and meters are noted as units. What attentive readers will notice, is that the conversion between the numbers won't always be correct. This is a deliberate decision to make the math easier, whenever distances are concerned. If a battlemap is used, one square on the grid should represent either a three foot, or one meter square. Furthermore, a single, ordinary human, should occupy an entire such square. 
 
 ## Dice
-**Ambersteel** uses a **dice pool** system of **six-sided dice** (henceforth referred to as **D6**) to resolve [tests](#tests). *Dice pool* means a variable number of dice will be rolled, based on a character's [attributes](#attributes), [skills](#skills), [boons](#boons--penalties) and circumstance of the situation they're in. 
+**STRIVE** uses a **dice pool** system of **six-sided dice** (henceforth referred to as **D6**) to resolve [tests](#tests). *Dice pool* means a variable number of dice will be rolled, based on a character's [attributes](#attributes), [skills](#skills), [boons](#boons--penalties) and circumstance of the situation they're in. 
 
 The following types of dice come into play:
 * **D4** - four-sided dice. Four of these will be enough for most situations. 

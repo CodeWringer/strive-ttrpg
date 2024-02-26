@@ -1,4 +1,4 @@
-# Ambersteel - Core Rules Reminder Sheet
+# STRIVE - Core Rules Reminder Sheet
 
 ## Tests
 * **Attributes** and **skills** can be tested with their **modified level**. 
