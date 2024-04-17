@@ -720,6 +720,8 @@ Both teacher and pupil must actively spend time together, furthering the pupil's
 
 The rules for cycle and test are the same as with [practice](#practicing-skills), but the cycles noted in the table below are used, instead. Also, the student can use an extra **+1D6** to resolve their tests of the skill they're being taught. 
 
+Pupils benefit from getting twice the amount of advancement progress to note, per test. 
+
 | Skill Category | Cycle    |
 | -------------- | -------- |
 | Physical       | 2 Weeks  |
