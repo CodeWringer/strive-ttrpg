@@ -72,7 +72,7 @@
     - [Craftsmanship Skills](#craftsmanship-skills)
       - [Armor smithing (Str)](#armor-smithing-str)
       - [Ambersmithing (Agi)](#ambersmithing-agi)
-      - [Alchemy (Arc)](#alchemy-arc)
+      - [Alchemy (Arc/Int/Wis)](#alchemy-arcintwis)
       - [Brewing (Wis)](#brewing-wis)
       - [Blacksmithing (Str)](#blacksmithing-str)
       - [Bow-Making (Agi)](#bow-making-agi)
@@ -743,7 +743,7 @@ The product effects do not stack, but they can be overridden. This means that th
 
 > An ambersteel-lined armor at quality level 3 would have +(3 + **2D4**) protection from magic. 
 
-#### Alchemy (Arc)
+#### Alchemy (Arc/Int/Wis)
 The ability to brew alchemical potions, create powders, mixtures and other substances, as well as the ability to tell these things apart. 
 
 Tools: a distillery, mortar and pestle, a fire place
