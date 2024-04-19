@@ -22,12 +22,14 @@
   - [Spell-Backfire](#spell-backfire)
   - [Concentration Spells](#concentration-spells)
   - [Magic Negation](#magic-negation)
+  - [Protection From Magic](#protection-from-magic)
   - [Testing Magic](#testing-magic)
   - [Magic Things](#magic-things)
     - [Abyssalite](#abyssalite)
     - [Amberite](#amberite)
     - [Ambersteel](#ambersteel)
     - [Runes](#runes)
+    - [Magic Scrolls](#magic-scrolls)
 - [Assets](#assets)
   - [Weapon Properties](#weapon-properties)
 - [Appendix](#appendix)
@@ -71,7 +73,7 @@
       - [Magic School \< School \> (\< Attribute \>)](#magic-school--school---attribute-)
     - [Craftsmanship Skills](#craftsmanship-skills)
       - [Armor smithing (Str)](#armor-smithing-str)
-      - [Ambersmithing (Agi)](#ambersmithing-agi)
+      - [Ambersmithing (Agi/Int)](#ambersmithing-agiint)
       - [Alchemy (Arc/Int/Wis)](#alchemy-arcintwis)
       - [Brewing (Wis)](#brewing-wis)
       - [Blacksmithing (Str)](#blacksmithing-str)
@@ -211,7 +213,11 @@ Determine your character's **maximum magic stamina**, by referring to the [magic
 You'll need to track **current magic stamina** separately. To start with, set your current to your maximum **magic stamina**. 
 
 # Magic
-Only a character with [arcana](#arcana-arc) can cast magic. What kind of magic, depends on the [magic schools](#list-of-magic-schools) the character knows. There are offensive, defensive and manipulative [schools of magic](#list-of-magic-schools). 
+For this supplement, magic is assumed to be a mostly invisible force that runs all throughout, like a magnetosphere. Perhaps it could be called the *arcanosphere*. Individuals gifted with a sensitivity to this force may learn to manipulate and "shape" it. Thus, magical ability is intuitive. Those born without the gift, cannot learn magic. Of course, you may want to relax this rule, if you prefer anyone should have the chance to learn magic. 
+
+Only a character with [arcana](#arcana-arc) can cast intuitive magic. What kind of magic, depends on the [magic schools](#list-of-magic-schools) the character knows. There are offensive, defensive and manipulative [schools of magic](#list-of-magic-schools). 
+
+There may also be magic artifacts that can either cause magical effects on their own, or through character interaction. With such artifacts, it may be possible for non-mages to cast magic. For that, see [runes](#runes) and [scrolls](#magic-scrolls). 
 
 A *magic spell* is the intended effect of using a [magic school's](#magic-school--school---attribute-) [expertise](./core-rules.md#expertise). This is also referred to as *casting magic*, *casting a spell* or other similar wordings. In mechanical terms, every [expertise](./core-rules.md#expertise) noted on a [school of magic](#list-of-magic-schools) is a *magic spell*.
 
@@ -266,6 +272,13 @@ If the defense fails, the full effect is applied. If the defense attempt causes 
 
 **Magic negation** can also be used to prevent another mage's [spell-backfire](#spell-backfire).
 
+## Protection From Magic
+Armor made from [Ambersteel](#ambersteel) can reduce the damage suffered through magical sources and reduce the [spell intensity](#spell-intensity-si) of non-damaging spells. 
+
+The [quality](./core-rules.md#crafting) of an armor or shield determines how much it protects the wearer. See [ambersmithing](#ambersmithing-agiint) for the specific numbers. 
+
+Damage from magical sources is reduced by the quality level + a number of dice. Non-damaging spells have their [spell intensity](#spell-intensity-si) reduced by *only* the quality level. 
+
 ## Testing Magic
 [Testing](./core-rules.md#tests) a [magic school skill](#magic-school--school---attribute-), in order to cast a *magic spell*, works as follows:
 1. The mage determines the [spell intensity](#spell-intensity-si) they're going to use. Their level in the corresponding [magic school skill](#magic-school--school---attribute-) determines the maximum [spell intensity](#spell-intensity-si) they can pick. 
@@ -293,6 +306,8 @@ If the defense fails, the full effect is applied. If the defense attempt causes 
 ## Magic Things
 No fantasy world would be complete without materials with uses for the supernatural or artifacts of immense power. This section introduces the basics of these things. 
 
+Aside from the materials listed below, you are of course free to invent more as desired. 
+
 ### Abyssalite
 **Abyssalite** is a hard and brittle mineral, that has the ability to *amplify the flow of magic*. It can only be acquired from the depths of the earth and is fairly rare. 
 
@@ -300,44 +315,72 @@ Its surface is unnaturally smooth and covered in a fine, iridescent shine. Under
 
 **Abyssalite** is a hard and brittle mineral, prone to shattering if too much force is applied. This makes it difficult to shape. It is also fairly heavy, which makes it difficult to carry long. 
 
-A fist-sized **Abyssalite** chunk has a [bulk](#carrying-capacity) of 2 and grants one greater level in the respective school of magic, without costing any extra [magic stamina](#magic-stamina). In order to use the **Abyssalite**, the caster **must** be touching it. 
+A fist-sized **Abyssalite** chunk has a [bulk](./core-rules.md#carrying-capacity) of 2 and grants one greater level in the respective school of magic, without costing any extra [magic stamina](#magic-stamina). In order to use the **Abyssalite**, the caster **must** be touching it. 
 
 ### Amberite
 As magic is amplified by [Abyssalite](#abyssalite), its antithesis is called **Amberite**, a metal which dulls the effects of magic and slows any magic flow nearby it. The material is also known to affect magic creatures and can cause great pain in magic-users. 
 
 Weapons made from **Amberite** are quite popular with witch and monster hunters alike, although fairly hard to come by, due to the difficulty in **Amberite** processing. 
 
-**Amberite** is a crystalline material, that can be molten down and shaped, like iron. It glows weakly, in the fiery orange of the name-sharing amber stone. Near the edges, the glow fades to a dull reflection, like cooling molten glass. 
+**Amberite** is a crystalline material, that can be molten down and shaped, like iron. It glows weakly and translucently, in the fiery orange of the name-sharing amber stone. Near the edges, the glow fades to a dull reflection, like cooling molten lava. 
 
-It only occurs naturally in a few select places in the world, where the ground offers the right conditions. **Amberite** grows over time, in the right environment. It can take several decades for a finger-sized crystal to grow to the size of an adult man's forearm. Attempts to cultivate it have mostly failed, as **Amberite** farmers have so far been unable to understand and reproduce the right conditions for it to thrive. Due to the slow rate at which it grows, an **Amberite** farmer may not realize the lack of growth until well into a decade later. 
+It only occurs naturally in a few select places in the world, where the ground offers the right conditions. **Amberite** grows over time, in the right environment. It can take several decades for a finger-sized crystal to grow to the size of an adult man's forearm. Attempts to cultivate it are met with extreme difficulty. The right conditions for it to thrive are highly dependent on the soil's components, the influence of the *arcanosphere* and proximity to volcanic activity. Due to the slow rate at which it grows, an **Amberite** farmer may not realize the lack of growth until well into a decade later. 
 
 Prolonged exposure to **Amberite** can cause severe ill-effects with nausea and migranes being common symptoms. 
 
+A fist-sized **Amberite** chunk is fairly heavy, with a [bulk](./core-rules.md#carrying-capacity) of 3. 
+
 ### Ambersteel
-**Ambersteel** is a strictly anti-magic material, it should enjoy great attention in any fantasy world, where magic is a real and recognizable force. Where usually, magic is the centerpiece, in **Ambersteel** that isn't quite the case. Magic is powerful and fearsome and thus, if not under control, can threaten to cause great pain and destruction. **Ambersteel** dampens that power and puts shackles on it. 
+**Ambersteel** is a strictly anti-magic material. It should enjoy great attention in any fantasy world, where magic is a real and recognizable force. Magic is powerful and fearsome and thus, if not under control, can threaten to cause great pain and destruction. **Ambersteel** dampens that power and puts shackles on it. 
 
-[Amberite](#amberite) can be processed into **Ambersteel**, which makes it a hard and flexible metal. The raw material heats slowly and must be heated over the course of several days and nights, without interruption. When it finally reaches the right temperature, it will glow white, with a purple sheen. At that point, it can be hammered into shape. Constant re-heating ensures it stays at the right temperature and a final quenching in vegetable oil ensures it retains its flexibility. 
-
-If processed outside the optimal temperature, the material quickly grows brittle and will shatter if any stress is put on it.
+[Amberite](#amberite) can be processed into **Ambersteel**, which makes it a hard and flexible metal. The raw material heats slowly and must be heated over the course of several days and nights, without interruption. When it finally reaches the right temperature, it will glow white, with a purple sheen. At that point, it can be hammered into shape. Constant re-heating ensures it stays at the right temperature and a final quenching in oil mixed with powdered [Abyssalite](#abyssalite) ensures it retains its flexibility. If processed outside the optimal temperature, the material quickly grows brittle and will shatter if any stress is put on it. The skill to use is [ambersmithing](#ambersmithing-agiint). 
 
 Due to the length of the process and the difficulty in keeping the right temperature, smiths capable of creating **Ambersteel** are rare. 
 
+**Ambesteel** is also a fairly heavy material, albeit slightly lighter than [Amberite](#amberite). A fist-sized chunk has a [bulk](./core-rules.md#carrying-capacity) of 2. Weapons, shields and armor made from this material are +1 [bulkier](./core-rules.md#carrying-capacity). 
+
 ### Runes
-Shards of [Abyssalite](#abyssalite) can have runes carved into them, which allow magic to flow through the runes. This renders runes extremely powerful artifacts, as they can allow for near limitless magic-use, even in the hands of a non-mage. 
+Shards of [Abyssalite](#abyssalite) can have **runes** carved into them, which allow magic to flow through the **runes**. This renders **runes** extremely powerful artifacts, as they can allow for near limitless magic-use, even in the hands of a non-mage. 
 
-To activate such a rune, is a difficult skill to learn, however. Even if no innate magical ability is required, an understanding of the flow of magic is. The rune must be touched in the right spots, at the right intervals, to activate successfully. Mistakes in this procedure can have disastrous results. 
+To activate such a **rune**, is a difficult skill to learn, however. Even if no innate magical ability is required, an understanding of the flow of magic is. The **rune** must be touched in the right spots, at the right intervals, to activate successfully. Mistakes in this procedure can have disastrous results. 
 
-What's more, it takes great skill to carve the right runes, as each rune's shape and complexity depends in part on the size and shape of the [Abyssalite](abyssalite) shard. The only way to get it right, is to *feel* the way the rune must be shaped. Alternatively, the shard can be adjusted to be of equivalent size and shape, but this requires considerable effort, as [Abyssalite](abyssalite) is a brittle material, prone to shattering if too much force is applied. 
+What's more, it takes great skill to carve the right **runes**, as each **rune's** shape and complexity depends in part on the size and shape of the [Abyssalite](#abyssalite) shard. The only way to get it right, is to *feel* the way the **rune** must be shaped. Alternatively, the shard can be adjusted to be of equivalent size and shape as another **rune**, but this requires considerable effort, as [Abyssalite](#abyssalite) is a brittle material, prone to shattering if too much force is applied. Thus, it must be carefully filed down to size. This would double the time it takes to [craft](#rune-carving-arcwis) the **rune**.
+
+Due to how **runes** are always magically charged, they cannot be in the vicinity of any other **runes**. This works a bit like how magnets with the same polarity repulse each other, but a lot more dangerous. This condition applies regardless of the type of magic each of the **runes** hold. 
+
+If two **runes** are brought to a distance of 20m/60' or less to each other, they begin to glow, hum and rumble, as if to warn their bearers. Should they be brought to a distance of 15m/45' or less to each other, they both discharge the magic they hold and repulse each other. This means anyone immediately nearby suffers the [spell-backfire](#spell-backfire) of the respective **rune**, in addition to suffering **3D6 Crushing** damage. The **runes** are flung away from each other far enough to be at least 21m/63' apart. *Also*, the **runes** may be **destroyed** in the process. There is a 1 in 3 chance of this occurring. Roll 1D6 for each of the **runes**. If the result is a 1 or 2, the **rune** is **destroyed**! 
+
+It may be possible to circumvent this repulsion behavior by placing the **runes** in a container made of [Ambersteel](#ambersteel). This requires the container to be of a [quality](./core-rules.md#crafting) level equal to the highest of the **runes'** [spell intensity](#spell-intensity-si).
 
 In order to craft a **rune**:
-* A **rune** can only be made to cast one type of magic. So the carver has to pick one of the [magic schools](#magic-schools). 
+* A **rune** can only be made to cast one type of magic. So the carver has to pick one of the [magic schools](#list-of-magic-schools). 
 * The maximum **level** at which a **rune** can be created, depends on the carver's skill. The **level** of the **rune** dictates the level of the respective magic it will cast at. 
 * The carver has to succeed a [rune carving](#rune-carving-arc) skill test. 
-  * If they fail, the carving is botched and the [Abyssalite chunk](#abyssalite) cannot be used for another carving attempt. There is no room for mistakes. 
+* Then, the **rune** must be "primed" by a mage. This requires a **complete success** of a test of the same [school of magic](#list-of-magic-schools) as the **rune** holds, with **Ob** equal to the spell's [intensity level](#spell-intensity-si). 
+* If any of the tests are not a **complete success**, the **rune** is botched and the material cannot be used for another attempt. There is no room for mistakes. 
 
 In order to invoke a **rune**:
 * A **complete success** of a [rune-using](#rune-using-agi) skill test will invoke the spell of the **rune** as expected.
 * A **partial success** or **complete failure** results in a [spell-backfire](#spell-backfire). 
+
+### Magic Scrolls
+**Magic scrolls** allow a single, specific spell to be cast by both mages and non-mages, at no cost of [magic stamina](#magic-stamina). Once used, the **magic scroll** burns up from the flow of magic and cannot be used again (even if the bearer material is fire-proof). Thus, these are single-use tools. 
+
+Due to how **magic scrolls** are always magically charged, they cannot be in the vicinity of any other **magic scrolls**. This works a bit like how magnets with the same polarity repulse each other, but a lot more dangerous. This condition applies *only* to **magic scrolls** of **same the type of magic**. 
+
+If two **magic scrolls** **of the same type** are brought to a distance of 20m/60' or less to each other, they begin to glow, hum and rumble, as if to warn their bearers. Should they be brought to a distance of 15m/45' or less to each other, they both discharge the magic they hold and repulse each other. This means anyone immediately nearby suffers the [spell-backfire](#spell-backfire) of the respective **magic scroll**, in addition to suffering **3D6 Crushing** damage. The **magic scrolls** are destroyed in the process! 
+
+It may be possible to circumvent this repulsion behavior by placing the **magic scrolls** in a container made of [Ambersteel](#ambersteel). This requires the container to be of a [quality](./core-rules.md#crafting) level equal to the highest of the **magic scrolls'** [spell intensity](#spell-intensity-si).
+
+In order to create a **magic scroll**:
+* Powdered [Abyssalite](#abyssalite) must be painted onto the parchment, paper or other such material, in a shape specific to the magic spell the **magic scroll** will be able to cast. 
+  * This requires a **complete success** of an [artistry](./core-rules.md#artistry-emp) test, at **Ob** equal to the spell's [intensity level](#spell-intensity-si). 
+* Then, the **magic scroll** must be "primed" by a mage. This requires a **complete success** of a test of the same [school of magic](#list-of-magic-schools) as the **magic scroll** holds, with **Ob** equal to the spell's [intensity level](#spell-intensity-si). 
+* If any of the tests are not a **complete success**, the **magic scroll** is botched and the material cannot be used for another attempt. There is no room for mistakes. 
+
+In order to invoke a **magic scroll**:
+* One must unfurl and hold it plainly in the direction the spell is to be cast, then trace the painted symbol on the **magic scroll** to "agitate" the primed magic. 
+* It costs no [magic stamina](#magic-stamina), but the **magic scroll** is immediately destroyed upon use. It burns up magically (even if the material itself is fire-proof). 
 
 # Assets
 
@@ -361,7 +404,7 @@ Armor can have the following **properties**:
 * **Ambersteel-Plated**: Bonus protection from magic: **+1** for every quality level. **+1D6** for every two **quality levels**, starting at level 1.
 * **Ambersteel-Forged**: Bonus protection from magic: **+2** for every quality level. **+1D8** for every two **quality levels**, starting at level 1.
 
-> An ambersteel-lined armor at quality level 3 would have +(3 + **2D4**) protection from magic. 
+> An **Ambersteel**-lined armor at quality level 3 would have +(3 + **2D4**) protection from magic. 
 
 #### Armor Types
 Armor reduces damage to its wearer by a flat amount. By how much, is specific to each armor type. Some armors can have special protections or effects. 
@@ -722,26 +765,33 @@ The ability to make armor from conventional materials, such as metal and leather
 | 1 [medium armor](#medium-armor)      | High       | Very High | Any shapeable sturdy and flexible material, such as iron, steel, leather or chitin. | Every **positive**: +1 **Slashing**; Every 2 **positives**: +1 **Bludgeoning**; Every 3 **positives**: +1 **Crushing**, +1 **Piercing** |
 | 1 [heavy armor](#heavy-armor)        | High       | Very High | Any shapeable sturdy and flexible material, such as iron, steel, leather or chitin. | Every **positive**: +1 **Slashing**; Every 2 **positives**: +1 **Bludgeoning**; Every 3 **positives**: +1 **Crushing**, +1 **Piercing** |
 
-#### Ambersmithing (Agi)
-The ability to make armor from [amberite](#amberite). 
+#### Ambersmithing (Agi/Int)
+The ability to make things from [Amberite](#amberite). 
 
-Lining or plating an existing object with [ambersteel](#amberite) acts as an improvement, whereas an [ambersteel](#amberite)-forged object is an entirely new object, completely made out of [ambersteel](#amberite). 
+Lining or plating an existing object with [Ambersteel](#ambersteel) acts as an improvement, whereas an [Ambersteel](#ambersteel)-forged object is an entirely new object, completely made out of [Ambersteel](#ambersteel). 
 
-The product effects do not stack, but they can be overridden. This means that the same object cannot be lined with [ambersteel](#amberite) twice, for cumulative effects. But it can be upgraded to [ambersteel](#amberite)-plated. 
+The product effects do not stack, but they can be overridden. This means that the same object cannot be lined with [Ambersteel](#ambersteel) twice, for cumulative effects. But it can be upgraded to [Ambersteel](#ambersteel)-plated. 
 
 [Crafting](#crafting)
-| Product                              | Complexity | Workload  | **Ob** | Materials                              | Quality Bonus   |
-| ------------------------------------ | ---------- | --------- | ------ | -------------------------------------- | --------------- | 
-| Ambersteel-lined weapon              | High       | High      | [Amberite](#amberite); A weapon        | Bonus damage against mages and magical creatures: **+1** for every quality level. **+1D4** for every two **quality levels**, starting at level 1. |
-| Ambersteel-plated weapon             | High       | High      | [Amberite](#amberite); A weapon        | Bonus damage against mages and magical creatures: **+1** for every quality level. **+1D6** for every two **quality levels**, starting at level 1. |
-| Ambersteel-forged weapon             | Very High  | Very High | [Amberite](#amberite)                  | Bonus damage against mages and magical creatures: **+2** for every quality level. **+1D8** for every two **quality levels**, starting at level 1. |
-| Ambersteel-lined armor               | High       | High      | [Amberite](#amberite); A set of armor  | Bonus protection from magic: **+1** for every quality level. **+1D4** for every two **quality levels**, starting at level 1. |
-| Ambersteel-plated armor              | High       | High      | [Amberite](#amberite); A set of armor  | Bonus protection from magic: **+1** for every quality level. **+1D6** for every two **quality levels**, starting at level 1. |
-| Ambersteel-forged armor              | Very High  | Very High | [Amberite](#amberite)                  | Bonus protection from magic: **+2** for every quality level. **+1D8** for every two **quality levels**, starting at level 1. |
+| Product                              | Complexity | Workload  | Materials                              | Quality Bonus   |
+| ------------------------------------ | ---------- | --------- | -------------------------------------- | --------------- | 
+| Ambersteel-lined weapon              | High       | High      | [Ambersteel](#ambersteel); A weapon        | Bonus damage against mages and magical creatures: **+1** for every quality level. **+1D4** for every two **quality levels**, starting at level 2. |
+| Ambersteel-plated weapon             | High       | Very High | [Ambersteel](#ambersteel); A weapon        | Bonus damage against mages and magical creatures: **+1** for every quality level. **+1D6** for every two **quality levels**, starting at level 2. |
+| Ambersteel-forged weapon             | Very High  | Very High | [Ambersteel](#ambersteel)                  | Bonus damage against mages and magical creatures: **+2** for every quality level. **+1D8** for every two **quality levels**, starting at level 2. The weapon is +1 **bulkier** than an equivalent weapon that is not **Ambersteel** forged. |
+| Ambersteel-lined armor               | High       | High      | [Ambersteel](#ambersteel); A set of armor  | Bonus protection from magic: **+1** for every quality level. **+1D4** for every two **quality levels**, starting at level 2. |
+| Ambersteel-plated armor              | High       | Very High | [Ambersteel](#ambersteel); A set of armor  | Bonus protection from magic: **+1** for every quality level. **+1D6** for every two **quality levels**, starting at level 2. |
+| Ambersteel-forged armor              | Very High  | Very High | [Ambersteel](#ambersteel)                  | Bonus protection from magic: **+2** for every quality level. **+1D8** for every two **quality levels**, starting at level 2. The armor is +1 **bulkier** than an equivalent armor that is not **Ambersteel** forged. |
+| Ambersteel-lined shield              | High       | High      | [Ambersteel](#ambersteel); A shield        | Bonus protection from magic: **+1** for every quality level. **+1D4** for every two **quality levels**, starting at level 2. |
+| Ambersteel-plated shield             | High       | Very High | [Ambersteel](#ambersteel); A shield        | Bonus protection from magic: **+1** for every quality level. **+1D6** for every two **quality levels**, starting at level 2. |
+| Ambersteel-forged shield             | Very High  | Very High | [Ambersteel](#ambersteel)                  | Bonus protection from magic: **+2** for every quality level. **+1D8** for every two **quality levels**, starting at level 2. The shield is +1 **bulkier** than an equivalent shield that is not **Ambersteel** forged. |
 
-> An ambersteel-lined weapon at quality level 3 would have +(3 + **2D4**) damage against mages and magical creatures. 
+> An **Ambersteel**-lined weapon at quality level 3 would have +(3 + **2D4**) damage against mages and magical creatures. 
 
-> An ambersteel-lined armor at quality level 3 would have +(3 + **2D4**) protection from magic. 
+See also [protection from magic](#protection-from-magic). 
+
+> An **Ambersteel**-lined armor at quality level 3 would have +(3 + **2D4**) protection from magic. 
+>
+> This means damage from magic source will be reduced by 3 + **2D4** and a non-damaging **spell's intensity** is reduced by 3. 
 
 #### Alchemy (Arc/Int/Wis)
 The ability to brew alchemical potions, create powders, mixtures and other substances, as well as the ability to tell these things apart. 
