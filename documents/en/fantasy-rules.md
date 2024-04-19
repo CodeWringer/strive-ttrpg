@@ -73,7 +73,7 @@
       - [Magic School \< School \> (\< Attribute \>)](#magic-school--school---attribute-)
     - [Craftsmanship Skills](#craftsmanship-skills)
       - [Armor smithing (Str)](#armor-smithing-str)
-      - [Ambersmithing (Agi/Int)](#ambersmithing-agiint)
+      - [Ambersmithing (Agi/End)](#ambersmithing-agiend)
       - [Alchemy (Arc/Int/Wis)](#alchemy-arcintwis)
       - [Brewing (Wis)](#brewing-wis)
       - [Blacksmithing (Str)](#blacksmithing-str)
@@ -765,7 +765,7 @@ The ability to make armor from conventional materials, such as metal and leather
 | 1 [medium armor](#medium-armor)      | High       | Very High | Any shapeable sturdy and flexible material, such as iron, steel, leather or chitin. | Every **positive**: +1 **Slashing**; Every 2 **positives**: +1 **Bludgeoning**; Every 3 **positives**: +1 **Crushing**, +1 **Piercing** |
 | 1 [heavy armor](#heavy-armor)        | High       | Very High | Any shapeable sturdy and flexible material, such as iron, steel, leather or chitin. | Every **positive**: +1 **Slashing**; Every 2 **positives**: +1 **Bludgeoning**; Every 3 **positives**: +1 **Crushing**, +1 **Piercing** |
 
-#### Ambersmithing (Agi/Int)
+#### Ambersmithing (Agi/End)
 The ability to make things from [Amberite](#amberite). 
 
 Lining or plating an existing object with [Ambersteel](#ambersteel) acts as an improvement, whereas an [Ambersteel](#ambersteel)-forged object is an entirely new object, completely made out of [Ambersteel](#ambersteel). 
