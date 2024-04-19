@@ -72,23 +72,24 @@
       - [Heraldry (Int)](#heraldry-int)
       - [Magic School \< School \> (\< Attribute \>)](#magic-school--school---attribute-)
     - [Craftsmanship Skills](#craftsmanship-skills)
-      - [Armor smithing (Str)](#armor-smithing-str)
+      - [Armor Smithing (Str/End)](#armor-smithing-strend)
       - [Ambersmithing (Agi/End)](#ambersmithing-agiend)
-      - [Alchemy (Arc/Int/Wis)](#alchemy-arcintwis)
+      - [Alchemy (Arc/Int/Agi)](#alchemy-arcintagi)
       - [Brewing (Wis)](#brewing-wis)
-      - [Blacksmithing (Str)](#blacksmithing-str)
+      - [Blacksmithing (Str/End)](#blacksmithing-strend)
       - [Bow-Making (Agi)](#bow-making-agi)
       - [Carpentry (Agi)](#carpentry-agi)
       - [Clothesmaking (Agi)](#clothesmaking-agi)
       - [Engineering (Int)](#engineering-int)
       - [Fletching (Agi)](#fletching-agi)
-      - [Glass-blowing (Agi)](#glass-blowing-agi)
+      - [Glass-Blowing (Agi)](#glass-blowing-agi)
       - [Goldsmithing (Agi)](#goldsmithing-agi)
       - [Leatherworking (Agi)](#leatherworking-agi)
-      - [Masonry (Str)](#masonry-str)
+      - [Masonry (Str/End)](#masonry-strend)
       - [Rune Carving (Arc/Wis)](#rune-carving-arcwis)
+      - [Shield-Making (Str/End)](#shield-making-strend)
       - [Tanning/Skinning (Agi)](#tanningskinning-agi)
-      - [Weapon smithing (Str)](#weapon-smithing-str)
+      - [Weapon Smithing (Str/End)](#weapon-smithing-strend)
       - [Woodcarving (Agi)](#woodcarving-agi)
   - [List of Magic Schools](#list-of-magic-schools)
     - [Alteration (Int)](#alteration-int)
@@ -756,9 +757,10 @@ See also [testing magic](#testing-magic).
 ### Craftsmanship Skills
 All craftsmanship requires a mix of physical and mental attributes, for the purpose of creating a wide variety of things.
 
-#### Armor smithing (Str)
+#### Armor Smithing (Str/End)
 The ability to make armor from conventional materials, such as metal and leather. 
 
+[Crafting](#crafting)
 | Product                              | Complexity | Workload  | Materials                              | Quality Bonus   |
 | ------------------------------------ | ---------- | --------- | -------------------------------------- | --------------- | 
 | 1 [light armor](#light-armor)        | High       | High      | Any shapeable sturdy and flexible material, such as iron, steel, leather or chitin. | Every **positive**: +1 **Slashing**; Every 2 **positives**: +1 **Bludgeoning**; Every 3 **positives**: +1 **Crushing**, +1 **Piercing** |
@@ -793,7 +795,7 @@ See also [protection from magic](#protection-from-magic).
 >
 > This means damage from magic source will be reduced by 3 + **2D4** and a non-damaging **spell's intensity** is reduced by 3. 
 
-#### Alchemy (Arc/Int/Wis)
+#### Alchemy (Arc/Int/Agi)
 The ability to brew alchemical potions, create powders, mixtures and other substances, as well as the ability to tell these things apart. 
 
 Tools: a distillery, mortar and pestle, a fire place
@@ -814,7 +816,7 @@ Tools: a fire place, a distillery
 | ------------------------------------ | ---------- | --------- | -------------------------------------- | --------------- | 
 | A small keg worth of alcohol         | Moderate   | Very High | Any closeable container; Any fermentable fruit or distillable plant matter. | / |
 
-#### Blacksmithing (Str)
+#### Blacksmithing (Str/End)
 The ability to create every-day items from metal. 
 
 Tools: a hammer, an anvil or other resilient surface, tongs, a forge
@@ -876,7 +878,7 @@ Tools: a carving knife, a brush
 | ------------------------------------ | ---------- | --------- | -------------------------------------- | --------------- | 
 | 5 Arrow shafts                       | Low        | Moderate  | Wood; feathers; glue                   | / | 
 
-#### Glass-blowing (Agi)
+#### Glass-Blowing (Agi)
 The ability to make objects from glass. 
 
 Tools: a fire place, a glass-blower, various shaping tools
@@ -907,7 +909,7 @@ Tools: scissors, needles, hole punchers and a hammer
 | 5 Small leather objects              | Low        | Moderate  | A tanned hide                          | / | 
 | A large leather object               | Low        | Moderate  | A tanned hide                          | / | 
 
-#### Masonry (Str)
+#### Masonry (Str/End)
 The ability to shape stone to craft predominantly stone-based things. 
 
 Tools: a hammer and chisels of varying sizes
@@ -931,10 +933,23 @@ Tools: a hammer and chisels of varying sizes, tongs, tweezer, a fine brush
 | A blank rune                         | High       | Moderate  | /  | [Abyssalite](#abyssalite)              | / |
 | A magic rune                         | Very High  | High      | 2  | A blank rune; thin-leaf metal          | +1 [spell intensity level](#magic) |
 
+#### Shield-Making (Str/End)
+The ability to make shields from conventional materials, such as wood and metal. 
+
+Tools: axes, hammers, tongs, (if metal) a forge and anvil
+
+[Crafting](#crafting)
+| Product                              | Complexity | Workload  | Materials                              | Quality Bonus   |
+| ------------------------------------ | ---------- | --------- | -------------------------------------- | --------------- | 
+| 1 [buckler](#buckler)                | Moderate   | High      | Any shapeable sturdy and flexible material, such as wood, metal or chitin. | / |
+| 1 [round shield](#round-shield)      | Moderate   | High      | Any shapeable sturdy and flexible material, such as wood, metal or chitin. | For every 3 quality levels, starting at level 2, reduction of bulk by 1 (to a minimum of 1). |
+| 1 [heater shield](#heater-shield)    | Moderate   | High      | Any shapeable sturdy and flexible material, such as wood, metal or chitin. | For every 3 quality levels, starting at level 2, reduction of bulk by 1 (to a minimum of 1). |
+| 1 [kite shield](#kite-shield)        | Moderate   | High      | Any shapeable sturdy and flexible material, such as wood, metal or chitin. | For every 3 quality levels, starting at level 2, reduction of bulk by 1 (to a minimum of 2). |
+
 #### Tanning/Skinning (Agi)
 Taking the hide off a creature undamaged. 
 
-Tools: a knife, a scraping blade
+Tools: a knife, a scraping blade, a bucket, a brush
 
 [Crafting](#crafting)
 | Product                              | Complexity | Workload  | Materials                              | Quality Bonus   |
@@ -943,7 +958,7 @@ Tools: a knife, a scraping blade
 | A large skin                         | Moderate   | Moderate  | A skinnable creature                   | / |
 | A tanned hide                        | Moderate   | High      | A tannable skin                        | / |
 
-#### Weapon smithing (Str)
+#### Weapon Smithing (Str/End)
 The ability to make weapons from metal. 
 
 Tools: a hammer, an anvil or other resilient surface, tongs, a forge
