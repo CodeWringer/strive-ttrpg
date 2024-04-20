@@ -237,10 +237,12 @@ For every point of a spell's chosen **spell intensity**, **1 D4** must be rolled
 Magic takes a toll on the caster's body, as it takes great mental effort to properly cast magic. **Magic stamina** represents a mage's capacity for casting magic without risk to themselves. It is a replenishable resource that is used up faster with [stronger spells](#spell-intensity-si). 
 
 Mechanically speaking, every mage has two values to track: their **maximum magic stamina** and their **current magic stamina**. 
-* The **maximum magic stamina** of a mage is derived from the **sum** of their [arcana](#arcana-arc) attribute * 2 plus the **raw levels** of all their known [magic school skills](#magic-school--school---attribute-). 
+* The **maximum magic stamina** of a mage is derived from the **sum** of their [arcana](#arcana-arc) attribute plus the **raw levels** of all their known [magic school skills](#magic-school--school---attribute-) * 2 and is always at least 4. 
 * The **current magic stamina** can not be less than 0 or more than their **maximum magic stamina**. Every time a mage casts a spell, they incur a **magic stamina** cost, based on the chosen [spell intensity](#spell-intensity-si), which is deducted from this number. 
 
-> If a mage has an **arcana** of 3 and has the **magic school skills** **pyromancy** at level 3, **cryomancy** at level 2 and **illusion** at level 5, that means they have (3 + 3 + 2 + 5) = 13 **maximum magic stamina**. 
+> If a mage has an **arcana** of 3 and has the **magic school skills** **pyromancy** at level 3, **cryomancy** at level 2 and **illusion** at level 1, that means they have (3 + 3 + 2 + 1) * 2 = 18 **maximum magic stamina**. 
+
+> If a mage has an **arcana** of 1 and knows no **magic school skills**, that means they have 4 **maximum magic stamina**. Based on the formula, it should be (1 * 2 = 2), but the minimum is 4, so that supersedes the result. 
 
 Once spent, **magic stamina** can only be regained through **active rest or meditation**. For every **half hour** spent in *active rest or meditation*, a mage regains **1 D4** **magic stamina**. Active rest or meditation implies not engaging in any physical or mental strains. If in doubt - if you have to do a test for it, it's probably a strain. 
 
