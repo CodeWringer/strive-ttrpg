@@ -102,11 +102,8 @@
     - [Swap-Out](#swap-out)
   - [Attacking](#attacking)
     - [Damage](#damage)
-    - [Attack Modifiers](#attack-modifiers)
-      - [Aimed Attack](#aimed-attack)
-      - [Easy Attack](#easy-attack)
-      - [Execution Attack](#execution-attack)
     - [Attacks of Opportunity](#attacks-of-opportunity)
+    - [Stealth Attacks](#stealth-attacks)
   - [Defending](#defending)
     - [Cover](#cover)
     - [Speed is Armor](#speed-is-armor)
@@ -1373,6 +1370,10 @@ An attack generally requires an [opposed test](#opposed-test) to be made. If the
 
 In case of an [aoe](#area-of-effect-aoe) attack, a defender may be able to halve the [damage](#damage) (rounded up), if they win the [opposed test](#opposed-test). 
 
+Sometimes, special circumstances apply, which make certain attacks easier or harder to land. These are at the **GM's** discretion. They can impose an **Ob** penalty or boon whenever appropriate. 
+
+Also keep in mind there may be times when rolling for an attack is entirely unnecessary, such as against a helpless victim. In such a case, you may apply your malevolence with impunity, to the extent of your choosing. 
+
 ### Damage
 Damage dealt to an opponent reduces their [HP](#hit-points-hp). When their **HP** reaches 0, they suffer an [injury](#injury) and their **HP** is reset to their new maximum. The type of [injury](#injury) that is dealt, depends on the [damage type](#damage-types). 
 
@@ -1380,39 +1381,23 @@ If more damage is dealt, than the difference to 0, then that damage is also deal
 
 To determine the new **HP** maximum of a *segment*, see the [injury](#injury) section. 
 
-### Attack Modifiers
-Sometimes, special circumstances apply, which make certain attacks easier or harder to land. 
-
-#### Aimed Attack
-An attack generally targets the center of mass (torso) of the targeted opponent. 
-
-It is also possible to call out an attack to a specific part of an opponent's body. Usually, this means that the attack must be rolled at greater **Ob**. How much greater, must be determined by the **GM**. 
-
-A player may call out what effect the aimed attack is supposed to have, such as limiting their opponent's ability to stand, move, attack or whatever else the body part may be useful for. If they don't, the **GM** may decide the effect. 
-
-#### Easy Attack
-Some attacks may be easier to perform. An **easy attack** has a lower **Ob**.
-
-The following are generally considered easy attacks (but at the **GM**'s discretion):
-* From behind
-* Against prone opponents
-* Against restrained opponents
-
-#### Execution Attack
-The extreme version of an easy attack, the **execution attack** allows outright killing or maiming an opponent, without having to roll for an attack or for [damage](#damage). 
-
-Such an attack can be carried out against any character who is unable to resist (with the exception of player characters, see [death's door](#deaths-door)). 
-
-> An **unconscious** character, or one chained to the wall couldn't possibly resist and can be instantaneously killed with an **execution attack**. 
-
-This kind of attack is only possible at the **GM**'s discretion. 
-
 ### Attacks of Opportunity
 When a character is within weapon's reach of another hostile character, they're considered within the other's **range of opportunity**. Whenever a character in an enemy's **range of opportunity** moves away from or more than 6'/2m *around* that enemy, that enemy can *choose* to perform an **attack of opportunity**. It is possible to avoid an **attack of opportunity** with a [disengage](#disengage) combat action. 
 
 Performing an **attack of opportunity** costs 1 [AP](#action-points-ap) at a **-1D** penalty and will **halt** the enemy in question, preventing their movement, regardless of whether the attack lands. The attacked party can still choose to [push through](#push-through), thus still getting to move, but if they do, the **attack of opportunity** is **guaranteed** to land successfully, without any attack [test](#tests) necessary (this counts as an automatic success for the attacker). 
 
 An **attack of opportunity** is a **combat action** and a **reaction**. 
+
+### Stealth Attacks
+When attacking another character from stealth, the moment of surprise can make all the difference. An attack from stealth counts as an automatic success and you may go on to roll damage right away. 
+
+In addition to an automatic success, the attack also deals **+1D** damage or if the damage is a flat number, add half of that number, rounded up. 
+
+When attacking with [bludgeoning](#damage-types), you may knock another character [unconscious](#unconscious) with one fell swoop. For this, their [toughness](#toughness-tough) must not be more than 3 levels greater than your [strength](#strength-str). Otherwise, the normal stealth damage bonus applies. 
+
+> For example, two ordinary humans: one is attacking from stealth with a club and has **strength** 2, while the victim has **toughness** 5. The victim is knocked unconscious right away, as their toughness is still within 3 levels of their attacker. 
+>
+> On the other hand, the same human attacking a giant from stealth with a club cannot knock that giant unconscious, assuming that giant to have a **toughness** of 10. The difference of 8 levels is simply too great. 
 
 ## Defending
 There are two types of defense:
