@@ -302,9 +302,7 @@ A [test](#tests) must be made whenever there is an **obstacle** to overcome - so
 ### Intent & Action
 The players drive the story and the action. They decide what their character will try to do and the **GM** will help them figure out if things will go as planned. 
 
-As a player, when deciding on what to do, make sure you state the **intent** of your action, like "I will make that person work for us!". 
-
-Then, the **GM** will need to know *how* you aim to follow up on your intent. Describe the **action** you will take. The clearer, the better. "I will tell them of our exploits and how well we get paid!", is a good response and allows the **GM** to conclude you're trying to [persuade](#persuasion-emp) the other character. Even better would be something like "I will *persuade* them by telling them of our exploits and how well we get paid!" That leaves no room for doubt *how* you wish to achieve your goal, which makes the **GM**'s job easier and the game flow better. 
+As a player, when deciding on what to do, make sure you state the **intent** of your action, like "I want to find incriminating evidence against a merchant". Then, the **GM** will need to know *how* you aim to follow up on your intent. Describe the **action** you will take. The clearer, the better. "I will ask around", would allow the **GM** to guide you along. But there are still details left to fill in. Who and where will you ask? What will you ask them? So, a better intent would be "I will ask the other merchants at the market what they think about this one merchant". That leaves no room for doubt *how* you wish to achieve your goal, which makes the **GM**'s job easier and the game flow better. The **GM** could now have each merchant tell the **PC** some rumours or observed past activities and behaviors of that one merchant, some of which may be of a sketchy nature, like "I swear I saw him down at the docks, speaking to some shady looking people" or "He always seems wary of people walking behind him".
 
 Of course, how appropriate a certain [attribute](#attributes) or [skill](#skills) is for the resolution of a given situation, is ultimately up to the **GM** and the specifics of the situation itself. 
 
@@ -2352,7 +2350,7 @@ One should always keep in mind that despite the game mechanical effects of a mut
 | 6 - 12     | Deformed Arm           | The arm deforms and bends in ways it was never meant to. -1 [Agility](#agility-agi), -1 [Strength](#strength-str). |
 | 13 - 19    | Grotesque Claws        | The entire lower arm morphs into three large claws. Unable to hold *anything* with that arm, but able to perform claw attacks that deal **3D6** **slashing** damage. |
 | 20 - 25    | Deformed Leg           | The leg deforms and bends in ways it was never meant to. -1 [Agility](#agility-agi). |
-| 26 - 32    | Deformed Face          | A morphed visage, forever stuck in agony, horror and anger. -1 [persuasion](#persuasion-emp), +1 [intimidation](#intimidation-will). |
+| 26 - 32    | Deformed Face          | A morphed visage, forever stuck in agony, horror and anger. +1 [commanding](#commanding-will), -1 [acting](#acting-empora). |
 | 33 - 39    | Internal Changes       | Something deep within isn't quite right. -1 [Endurance](#endurance-end) -1 [Toughness](#toughness-tough) |
 | 40 - 46    | Bulbous Head           | Part of the cranium grows tumurously. The brain is weighed down and slowed down. -1 [Intelligence](#intelligence-int) -1 [Wisdom](#wisdom-wis) |
 | 47 - 53    | Animal Ears            | The ears morph into something resembling animal ears (or another animal's ears). Despite the obvious reason for ridicule, there are no penalties. +1 [Perception](#perception-perc) (hearing). |
