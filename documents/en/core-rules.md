@@ -1129,7 +1129,7 @@ A single **AFP** can be converted into 15 **MaFP**.
 ## Hand of Fate
 The **Hand of Fate** is a deck of cards a player can draw from, using their **FP** as currency to buy cards. 
 
-A player can play any of their cards **whenever** appropriate. A played card is discarded. 
+A player can play any of their cards **whenever** appropriate. A played card is discarded. The play of some cards may be exclusive to some others. If that is the case, then only one of the two cards may apply at the same time. 
 
 There are no limits to how many of a given card a player can own, but they may only hoard a maximum of 5 cards at a time. 
 
@@ -1137,11 +1137,11 @@ There are no limits to how many of a given card a player can own, but they may o
 | ------- | ------------------- | ------------------ |
 | 2 MiFP  | Single Re-Roll      | Repeat a single test you just made. |
 | 6 MiFP  | Clotter             | One **active** [injury](#injury) of choice is now **patched up**. |
-| 6 MiFP  | Cascading Re-Roll   | Repeat a single test you just made. With this card, you keep any **positives** you achieved from the previously made test and add them to the **positives** rolled when you repeat the test. |
-| 8 MiFP  | Learning Boost      | For the duration of the session, you gain **twice** the [progress](#advancing-skills) towards your [learning skills](#learning-skills) whenever you test them. |
+| 6 MiFP  | Cascading Re-Roll   | Repeat a single test you just made. With this card, you keep any **positives** you achieved from the previously made test and add them to the **positives** rolled when you repeat the test. Exclusive with "Double the Fun". |
+| 8 MiFP  | Learning Boost      | For the duration of the session, you gain **twice** the [progress](#advancing-skills) towards your [skills](#skills) and [attributes](#attributes) whenever you test them. |
 | 8 MiFP  | Hastened            | +1 **AP** during your turns for the entirety of a [combat](#combat) encounter. |
 | 2 MaFP  | Fact Check          | Change a minor plot point in a way your prefer. Work with your **GM** to make sure it fits the narrative, but they should respect your wish. This could be something like avoiding an **NPC** death or changing a fact about the plot. |
-| 3 MaFP  | Double the Fun      | Double the number of dice to roll on your next/current test and every rolled **positive** counts double - which means every rolled **positive** actually counts as 2 **positives**! |
+| 3 MaFP  | Double the Fun      | Double the number of dice to roll on your next/current test and every rolled **positive** counts double - which means every rolled **positive** actually counts as 2 **positives**! Exclusive with "Cascading Re-Roll". |
 | 3 MaFP  | Scar? What Scar?    | Remove one scar [scar](#scar) of choice. |
 | 4 MaFP  | Incorrect Diagnosis | Avoid an [injury](#injury) as it would be inflicted upon you - you do not suffer that [injury](#injury)! |
 | 5 MaFP  | Just a Flesh Wound  | Raise your injury limit by one for the duration of an encounter. This card can also be played as you suffer an [injury](#injury) and even when you're [dying](#deaths-door). In that case, playing this card counts as a successful test and brings you back from the verge of death. |
