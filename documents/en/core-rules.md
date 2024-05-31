@@ -2372,20 +2372,20 @@ Most [scars](#scar) can only be incurred once, but some may be incurred multiple
 | Name                    | Limit     | Description                       |
 | ----------------------  | --------- | --------------------------------- |
 | Burned skin             | /         | Something has melted parts of the skin. Those areas are irritable and itchy. |
-| Burned face             | /         | Something has melted parts of the face. A powerful reminder of insufferable pain, which cannot be overlooked. +1 [intimidation](#intimidation-will), -1 [persuasion](#persuasion-emp). |
+| Burned face             | /         | Something has melted parts of the face. A powerful reminder of insufferable pain, which cannot be overlooked. |
 | Creaky limb             | /         | Every movement is painful, even if ever so slightly and causes you to halt your movement every once in a while. |
-| Crooked jaw             | 1         | The jaw hangs a little looser than before, causing your speech to sound a little odd. Some may take you for some kind of dullard, because of it. +1 [deception](#deception-ora), -1 [persuasion](#persuasion-emp). |
+| Crooked jaw             | 1         | The jaw hangs a little looser than before, causing your speech to sound a little odd. Some may take you for some kind of dullard, because of it. |
 | Crooked limb            | /         | It may have healed, but will never be quite as before. Your limb moves in slightly odd ways. |
 | Crooked rib cage        | 1         | There is a dent in your rib cage where there shouldn't be one. It looks and feels a little odd. |
-| Crooked skull           | 1         | There is a dent in your skull where there shouldn't be one. It looks and feels a little odd. Some may take you for some kind of dullard, because of it. +1 [deception](#deception-ora), -1 [persuasion](#persuasion-emp). |
+| Crooked skull           | 1         | There is a dent in your skull where there shouldn't be one. It looks and feels a little odd. Some may take you for some kind of dullard, because of it. |
 | Discolored skin         | /         | Spots on your skin have permanently discolored. It may be a dark, sickly green or a darkened blue or black color. |
 | Disfigured ear          | Ear Count | The ear is unrecognizable. It may look bad, but the ear still does its job. Mostly. |
 | Disfigured nose         | 1         | An unnaturally crooked nose makes breathing slightly more difficult and is sure to be memorable. |
-| Blind eye               | /         | The eye has glazed over white and is impossible to see through. -1 [perception](#perception-perc); cannot see through that eye. |
-| Heavy breathing         | 1         | Your lung doesn't work quite right anymore. The wheezing and occasional coughing is quite distinguishing. -1 [stealth](#stealth-agi). |
+| Blind eye               | /         | The eye has glazed over white and is impossible to see through. Cannot see through that eye. |
+| Heavy breathing         | 1         | Your lung doesn't work quite right anymore. The wheezing and occasional coughing is quite distinguishing. |
 | Scarred arm             | Arm Count | A reminder of a past injury to your arm. |
 | Scarred body            | /         | A reminder of a past injury. |
-| Scarred eye             | /         | A rather dashing scar stretching from above to below the eye tells a story of adventure. Or of a really unfortunate accident. +1 [intimidation](#intimidation-will). |
+| Scarred eye             | /         | A rather dashing scar stretching from above to below the eye tells a story of adventure. Or of a really unfortunate accident. |
 | Scarred leg             | /         | A reminder of a past injury to your leg. |
 | Scarred limb            | /         | A reminder of a past injury to a limb. |
 
