@@ -147,25 +147,25 @@
   - [Lists of Skills](#lists-of-skills)
     - [Physical Skills](#physical-skills)
       - [Acrobatics (Agi/Str)](#acrobatics-agistr)
-      - [Berserking (End)](#berserking-end)
+      - [Berserking (Tough)](#berserking-tough)
       - [Fishing (End)](#fishing-end)
       - [Instrument-Playing \< instrument \> (Agi)](#instrument-playing--instrument--agi)
-      - [Stealth (Agi)](#stealth-agi)
+      - [Stealth (Agi/Perc)](#stealth-agiperc)
       - [Swimming (End)](#swimming-end)
       - [Thievery (Agi)](#thievery-agi)
       - [Observation (Perc)](#observation-perc)
-      - [Path-finding (Perc)](#path-finding-perc)
-      - [Shield (End)](#shield-end)
+      - [Path-finding (Perc/Int)](#path-finding-percint)
+      - [Shield (End/Tough)](#shield-endtough)
       - [Throwing (Agi)](#throwing-agi)
       - [Weapon \< weapon type \> (\< attribute \>)](#weapon--weapon-type---attribute-)
     - [Social Skills](#social-skills)
       - [Acting (Emp/Ora)](#acting-empora)
       - [Animal Handling (Emp)](#animal-handling-emp)
-      - [Commanding (Will)](#commanding-will)
+      - [Commanding (Will/Tough)](#commanding-willtough)
       - [Entertainment (Agi/Emp)](#entertainment-agiemp)
       - [Mercantilism (Ora)](#mercantilism-ora)
       - [Riding (Emp/Will)](#riding-empwill)
-      - [Self-Control (Will/Emp)](#self-control-willemp)
+      - [Self-Control (Will/Tough)](#self-control-willtough)
     - [Knowledge Skills](#knowledge-skills)
       - [Architecture (Int)](#architecture-int)
       - [Geography (Int)](#geography-int)
@@ -179,11 +179,11 @@
       - [Mysticism and Religion (Wis)](#mysticism-and-religion-wis)
       - [Medicine (Int/Emp)](#medicine-intemp)
       - [Reading and Writing \< language \> (Int)](#reading-and-writing--language--int)
-      - [Surgery (Int/Emp)](#surgery-intemp)
-      - [Warfare (Wis)](#warfare-wis)
+      - [Surgery (Int/Agi)](#surgery-intagi)
+      - [Warfare (Wis/Tough)](#warfare-wistough)
     - [Craftsmanship Skills](#craftsmanship-skills)
       - [Artistry (Emp)](#artistry-emp)
-      - [Cooking (Emp)](#cooking-emp)
+      - [Cooking (Emp/Agi)](#cooking-empagi)
   - [List of Conditions](#list-of-conditions)
     - [Berserk](#berserk)
     - [Burning](#burning)
@@ -1817,16 +1817,16 @@ Performing acrobatic feats, such as jumping, tumbling and climbing, without inju
 | 2     | Wind Out Of It       | 1  | 2       | When hit by a [single-target](#single-target-st) attack, wind out of the hit and suffer only half the damage. Can be used even when a much bulkier weapon is breaking through your successful defens, to halve the damage *again*, effectively resulting in you suffering only 1/4th (rounded up) of the damage. | / |
 | 3     | Bob, Weave, Jab      | 1  | Opposed | When succeeding a defense test, follow up with a [single-target](#single-target-st) attack against the enemy who attacked you. | / |
 
-#### Berserking (End)
+#### Berserking (Tough)
 Whether as a well-honed skill and way of life, or through a disappointing childhood of misery and pain, berserking is a talent for fighting angrily and recklessly. It allows a fighter to keep fighting at surprising strength, even when wounded. 
 
 However, the price for this strength is steep. The chance of death is greatly increased for anyone who embraces this way of fighting. 
 
 | Level | Name                 | AP | **Ob**  | Effect(s)          | Condition(s) |
 | ----- | -------------------- | -- | ------- | ------------------ | ------------ |
-| 1     | Reckless Assault     | 2  | /       | Deal an extra **D** of damage on your next successful attack during this turn, according to your weapon's damage. Suffer a **-2D** penalty on all defense tests until the start of your next turn. |  |
-| 2     | Grit Your Teeth      | 1  | /       | Ignore the negative effects of one [injury](#injury) of choice for the rest of the combat encounter. It will still count towards the injury limit, however! | Once per combat. |
-| 3     | Pain is Strength     | 3  | Opposed | Perform a [single-target](#single-target-st) melee attack against an opponent of choice. For every active [injury](#injury) you currently have, deal one extra **D** of damage. You suffer one point of [exhaustion](#exhaustion). | Once per day. |
+| 0     | Reckless Assault     | 2  | /       | Deal an extra **D** of damage on your next successful attack during this turn, according to your weapon's damage. Suffer a **-2D** penalty on all defense tests until the start of your next turn. |  |
+| 1     | Grit Your Teeth      | 1  | /       | Ignore the negative effects of one [injury](#injury) of choice for the rest of the combat encounter. It will still count towards the injury limit, however! | Once per combat. |
+| 2     | Pain is Strength     | 3  | Opposed | Perform a [single-target](#single-target-st) melee attack against an opponent of choice. For every active [injury](#injury) you currently have, deal one extra **D** of damage. You suffer one point of [exhaustion](#exhaustion). | Once per day. |
 
 #### Fishing (End)
 The ability to efficiently catch fish. 
@@ -1836,7 +1836,7 @@ Playing an instrument of choice.
 
 The instrument in question must be noted. 
 
-#### Stealth (Agi)
+#### Stealth (Agi/Perc)
 Moving silently and performing actions undetected. 
 
 | Level | Name                 | AP | **Ob**  | Effect(s)          | Condition(s) |
@@ -1858,14 +1858,14 @@ Pickpocketing and lockpicking.
 #### Observation (Perc)
 Actively looking out for and detecting hidden things or characters. 
 
-#### Path-finding (Perc)
+#### Path-finding (Perc/Int)
 Orienting oneself in the world and finding and following tracks. 
 
 | Level | Name                 | AP | **Ob** | Effect(s)          | Condition(s) |
 | ----- | -------------------- | -- | ------ | ------------------ | ------------ |
 | 3     | Find your Bearings   | 1  | 2      | Figure out your current heading and time of day, even when in complete darkness or in a place without landmarks. | Once per rest. |
 
-#### Shield (End)
+#### Shield (End/Tough)
 Expertise at defending oneself using a shield. 
 
 For any ally next to you, who's also using a shield, you both gain **+1D** on your defense tests. 
@@ -1905,7 +1905,7 @@ Is opposed by [self-control](#self-control-will).
 | 0     | Command Animal       | 2  | Opposed by [self-control](#self-control-willemp) | Issue a *simple* command to a tamed/friendly animal. | / |
 | 2     | Calm Animal          | 2  | Opposed by [self-control](#self-control-willemp) | Calm an aggressive/hostile/frightened animal down. | Once per scene. |
 
-#### Commanding (Will)
+#### Commanding (Will/Tough)
 Speaking commands others will respect and follow to the letter. 
 
 | Level | Name                   | AP | **Ob** | Effect(s)          | Condition(s) |
@@ -1936,7 +1936,7 @@ In and outside of [combat](#combat), a rider will inherit the [speed](#combat-mo
 | 1     | Spur                 | 1  | 2      | Gain an additional 3 **AP** worth of movement from your mount. The mount suffers +1 exhaustion. | At most once per turn. |
 | 3     | Mounted Charge       | 3  | 3      | Perform a mounted charge attack, dealing **2D4** extra damage of whatever weapon type you are using. | Mounted on a fast and strong animal; Must have enough distance to target to gain enough speed - refer to **GM**'s judgement. |
 
-#### Self-Control (Will/Emp)
+#### Self-Control (Will/Tough)
 Mastery of one's own impulses. Used to stay awake past the point of exhaustion and to not act on emotional impulse. 
 
 ### Knowledge Skills
@@ -1982,17 +1982,15 @@ Knowledge about religions, legends and myths. May be used to recall knowledge ab
 #### Medicine (Int/Emp)
 Diagnosing and treating mundane [injuries](#injury). 
 
-Implies an understanding of anatomy, whereas past experiences with the creatures treated should be noted. 
-
 #### Reading and Writing < language > (Int)
 The ability to both read and write in a specific language. 
 
 The language in question must be noted in addition to this skill. 
 
-#### Surgery (Int/Emp)
+#### Surgery (Int/Agi)
 The ability to invasively treat ailments without making things worse for the patient. 
 
-#### Warfare (Wis)
+#### Warfare (Wis/Tough)
 The ability to understand and direct large-scale combat movements, the logistics and psychology of war. 
 
 This governs the understanding of what makes defensive structures effective and how to circumvent them. This entails a functional understanding of siege engines, but not their construction. 
@@ -2007,7 +2005,7 @@ The ability to paint and draw well, as well as a general sense of aesthetics.
 | ------------------------------------ | ---------- | --------- | -------------------------------------- | --------------- | 
 | 1 painting or sculpture.             | Moderate   | Moderate  | Any paintable or shapeable object, such as a canvas or chunk of marble. | / |
 
-#### Cooking (Emp)
+#### Cooking (Emp/Agi)
 The ability to cook well. Poor cooks are prone to losing ingredients due to burning them or overcooking them to the point of inedibility. 
 
 Tools: cooking utensils, a pot or pan, a fire place
