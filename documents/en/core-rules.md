@@ -56,6 +56,7 @@
     - [Personality Traits](#personality-traits)
   - [Health \& Exhaustion](#health--exhaustion)
     - [Hit Points (HP)](#hit-points-hp)
+      - [Toughness Progress from Damage](#toughness-progress-from-damage)
       - [Bludgeoned to 0 HP](#bludgeoned-to-0-hp)
     - [Injury](#injury)
       - [Injury States \& Treatment](#injury-states--treatment)
@@ -522,6 +523,14 @@ Governs the [injury limit](#injury) and chance to shrug off certain afflictions.
 
 For every point in [toughness](#toughness-tough), a character gains **+4 maximum [HP](#hit-points-hp)** and raises their [injury](#injury) limit by 1. 
 
+Every time a character suffers at least 10 [HP](#hit-points-hp) of damage **in a single attack**, they gain +1 [advancement progress](#advancing-attributes). For 20 or more [HP](#hit-points-hp) of damage, they gain +2 [advancement progress](#advancing-attributes). 
+
+> A character suffering 15 points of damage **in a single attack**, gains +1 advancement progress to their toughness automatically. 
+>
+> A character suffering 22 points of damage **in a single attack**, gains +2 advancement progress to their toughness automatically. 
+> 
+> A character suffering 41 points of damage **in a single attack**, still only gains +2 advancement progress to their toughness automatically. 
+
 #### Mental Attributes
 The mind's abilities. 
 
@@ -889,6 +898,15 @@ Any **HP** damage past zero overflows. The additional damage dealt isn't lost. W
 A successful [medicine](#medicine-int) test at **Ob** equal to the treated character's [toughness](#toughness-tough) subtracted by their current number of injuries can restore all currently missing **HP** of a character. This requires [medical supplies](#list-of-stuff--things). **HP** also replenish on their own, albeit much slower. For every hour outside of combat, **1 D4** **HP** are regained, up to the current maximum. 
 
 > A character with a toughness of 4 and 2 injuries could have all their currently missing **HP** restored with a **medicine** test at **Ob** (4 - 2 =) 2. 
+
+#### Toughness Progress from Damage
+Every time a character suffers at least 10 [HP](#hit-points-hp) of damage **in a single attack**, they gain +1 [advancement progress](#advancing-attributes). For 20 or more [HP](#hit-points-hp) of damage, they gain +2 [advancement progress](#advancing-attributes). 
+
+> A character suffering 15 points of damage **in a single attack**, gains +1 advancement progress to their toughness automatically. 
+>
+> A character suffering 22 points of damage **in a single attack**, gains +2 advancement progress to their toughness automatically. 
+> 
+> A character suffering 41 points of damage **in a single attack**, still only gains +2 advancement progress to their toughness automatically. 
 
 #### Bludgeoned to 0 HP
 When a character was **bludgeoned** to 0 **HP** after they reached their [injury](#injury) limit, they might survive and fall [unconscious](#unconscious), instead of dying. For that, they must succeed a [toughness](#toughness-tough) [test](#tests) at **Ob** equal to 5 subtracted by their [toughness](#toughness-tough) (minimum **Ob** 1). If they succeed, they immediately fall [unconscious](#unconscious). If they fail, they die anyway.
