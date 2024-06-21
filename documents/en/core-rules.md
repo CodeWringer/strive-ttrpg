@@ -452,7 +452,9 @@ A character helping in a test, also gains [progress](#advancing-skills) towards 
 > If the character who was helped succeeded their test, the helper also gains a successful test to mark on their skill. 
 
 #### Tests Bring about Learning
-Whenever a [skill](#skills) or [attribute](#attributes) is tested, its outcome must be noted. 
+Whenever a [skill](#skills) or [attribute](#attributes) is tested, its outcome must be noted. Once a certain threshold number is reached, the [skill](#skills) or [attribute](#attributes) advances to the a higher level. 
+
+For [skills](#skills), whether the test was a success or failure matters. But for [attributes](#attributes), only the number of tests matters. 
 
 When a [skill](#skills) is tested, both it **and** its associated [attribute](#attributes) is progressed. See also:
 * [advancing skills](#advancing-skills)
@@ -890,6 +892,8 @@ For every point in [toughness](#toughness-tough), a character gains **+4 maximum
 For every [injury](#injury), a character's maximum **HP** is reduced by 2. A [penalty](#boons--penalties) to [Toughness](#toughness-tough) does **not** cause a *further* maximum **HP** reduction. 
 
 The **HP** range in between [injuries](#injury) is called a **HP** *segment*. 
+
+> A character with toughness 3 has 12 HP and an injury limit of 3. These 12 HP are their first HP segment. When they suffer an injury, they lose 2 maximum HP. Thus, their next HP segment is 10. And the one after that is 8. 
 
 Any **HP** damage past zero overflows. The additional damage dealt isn't lost. When **HP** reach 0, an [injury](#injury) is suffered, maximum **HP** are reduced by 2 and **HP** are reset to the new maximum, minus the damage that overflowed. In other words, the damage past the 0 mark flows into the next **HP** *segment*. 
 
