@@ -1504,7 +1504,9 @@ For your convenience, you can refer to the following chart:
 ### Throwing-Damage
 If throwing a weapon that isn't specifically made or especially suitable to throwing, then the damage that is dealt on successful hit is halved (rounded down). 
 
-When throwing non-weapons, the damage dealt is calculated the following way: [strength](#strength-str) * ([bulk](#bulk) - 1) (minimum bulk 1)
+When throwing non-weapons, the damage dealt is calculated the following way: [strength](#strength-str) * ([bulk](#bulk) - 1) (minimum [strength](#strength-str) * 1)
+
+Even if the `bulk - 1` formula would result in 0, instead use 1. The resulting multiplicator must not be less than 1. 
 
 The [damage type](#damage-types) to use, depends on the type of object and how it hits the target. For most non-weapons, **bludgeoning** or **crushing** should be appropriate. 
 
