@@ -147,6 +147,7 @@
   - [Lists of Skills](#lists-of-skills)
     - [Physical Skills](#physical-skills)
       - [Acrobatics (Agi/Str)](#acrobatics-agistr)
+      - [Athletics (End/Tough)](#athletics-endtough)
       - [Berserking (Tough)](#berserking-tough)
       - [Fishing (End)](#fishing-end)
       - [Instrument-Playing \< instrument \> (Agi)](#instrument-playing--instrument--agi)
@@ -1356,7 +1357,7 @@ Under normal circumstances, a character (an average human) can move up to **12'/
 
 **Difficult terrain** is any space that slows movement, but does not prevent it outright. Examples would be waist-high water, a surface of glue or a slowing force field. 
 
-It is also possible to **sprint**, doubling the distance one can move per **AP**, but at the cost of 1 point of [exhaustion](#exhaustion) for every **AP** spent **sprinting**. 
+It is also possible to **sprint**, increasing the distance by one per level in [athletics](#athletics-endtough) one can move per **AP**, but at the cost of 1 point of [exhaustion](#exhaustion) for every **AP** spent **sprinting**. By default a character can increase the distance by 3'/1m. 
 
 ### Disengage
 It is possible to move out of an enemy's [range of opportunity](#attacks-of-opportunity) without provoking an [attack of opportunity](#attacks-of-opportunity). This action costs 2 [AP](#action-points-ap) and the disengaging character **must** move in a direction that will get them out of the [range of opportunity](#attacks-of-opportunity) the fastest and safest, as far as 1 **AP** of movement would get them. 
@@ -1820,6 +1821,11 @@ Performing acrobatic feats, such as jumping, tumbling and climbing, without inju
 | ----- | -------------------- | -- | ------- | ------------------ | ------------ |
 | 2     | Wind Out Of It       | 1  | 2       | When hit by a [single-target](#single-target-st) attack, wind out of the hit and suffer only half the damage. Can be used even when a much bulkier weapon is breaking through your successful defens, to halve the damage *again*, effectively resulting in you suffering only 1/4th (rounded up) of the damage. | / |
 | 3     | Bob, Weave, Jab      | 1  | Opposed | When succeeding a defense test, follow up with a [single-target](#single-target-st) attack against the enemy who attacked you. | / |
+
+#### Athletics (End/Tough)
+Running at speed over long periods of time. 
+
+For every point in athletics, a character can increase their [sprinting](#combat-movement) distance by 3'/1m per [AP](#action-points-ap) spent. By default (at level 0 and 1) a character can increase their [sprinting](#combat-movement) distance by 3'/1m. 
 
 #### Berserking (Tough)
 Whether as a well-honed skill and way of life, or through a disappointing childhood of misery and pain, berserking is a talent for fighting angrily and recklessly. It allows a fighter to keep fighting at surprising strength, even when wounded. 
