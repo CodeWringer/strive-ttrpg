@@ -99,9 +99,9 @@
     - [Psionics (Ora/Int)](#psionics-oraint)
     - [Pyromancy (Arc)](#pyromancy-arc)
     - [Restoration (Emp)](#restoration-emp)
-    - [Soul-Binding (Int)](#soul-binding-int)
+    - [Soul-Binding (Will)](#soul-binding-will)
     - [Telekinesis (Int)](#telekinesis-int)
-    - [Telepathy (Ora)](#telepathy-ora)
+    - [Telepathy (Will)](#telepathy-will)
   - [List of Injuries](#list-of-injuries)
   - [List of Illnesses](#list-of-illnesses)
 
@@ -1071,7 +1071,7 @@ The mending of [injuries](./core-rules.md#injury) and treatment of [diseases](./
 | 5     | Expel Illness        | 3  | 3'/1m    | 4                            | Removes **SI** number of [illnesses](#illness) of choice from a **ST** of choice, in hand's reach. | The caster contracts **SI** random [illnesses](#illness). | 
 | 6     | Revert Mutation      | 4  | 3'/1m    | 6                            | Removes **SI** number of [mutations](#list-of-mutations) of choice from a **ST** of choice, in hand's reach. | The caster receives **SI** random [mutations](#list-of-mutations). |
 
-### Soul-Binding (Int)
+### Soul-Binding (Will)
 Also referred to as **necromancy**, this is the art and skill of calling souls from the **plane of the dead** and binding them, to reanimate corpses or animate an otherwise unliving body. 
 
 In order to bind a soul, a **soul-seal** is required. This seal has to take the form of a pentagram. The medium doesn't matter, although if the seal is destroyed, the soul binding is broken. So, if a mage wants to create a lasting soul-binding, an enduring medium for the seal is advisable. 
@@ -1105,7 +1105,7 @@ Only targets within and up to the given *distance* can be moved and only within 
 | 0     | Telekinesis            | 2  | SI * 15'/5m  | SI                           | Move an inanimate **ST** object at great velocity (if desired), which allows it to deal **SI D4** **variant** (depending on the type of object) damage upon impact. | The caster suffers +1 [exhaustion](./core-rules.md#exhaustion). |
 | 3     | Creature Telekinesis   | 3  | SI * 15'/5m  | Opposed                      | Move a **ST** large, or smaller, creature. | The caster is knocked back **SI** * 9'/3m and suffers **SI bludgeoning** damage. |
 
-### Telepathy (Ora)
+### Telepathy (Will)
 The ability to communicate wordlessly, to alter emotions and even issue compelling commands against another's will. 
 
 The mage can only affect those creatures that either don't resist, or which **fail** a [wisdom](./core-rules.md#wisdom-wis) test, at the given **Ob**. 

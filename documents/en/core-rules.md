@@ -56,6 +56,7 @@
     - [Personality Traits](#personality-traits)
   - [Health \& Exhaustion](#health--exhaustion)
     - [Hit Points (HP)](#hit-points-hp)
+      - [Toughness Progress from Damage](#toughness-progress-from-damage)
       - [Bludgeoned to 0 HP](#bludgeoned-to-0-hp)
     - [Injury](#injury)
       - [Injury States \& Treatment](#injury-states--treatment)
@@ -146,25 +147,25 @@
   - [Lists of Skills](#lists-of-skills)
     - [Physical Skills](#physical-skills)
       - [Acrobatics (Agi/Str)](#acrobatics-agistr)
-      - [Berserking (End)](#berserking-end)
+      - [Berserking (Tough)](#berserking-tough)
       - [Fishing (End)](#fishing-end)
       - [Instrument-Playing \< instrument \> (Agi)](#instrument-playing--instrument--agi)
-      - [Stealth (Agi)](#stealth-agi)
+      - [Stealth (Agi/Perc)](#stealth-agiperc)
       - [Swimming (End)](#swimming-end)
       - [Thievery (Agi)](#thievery-agi)
       - [Observation (Perc)](#observation-perc)
-      - [Path-finding (Perc)](#path-finding-perc)
-      - [Shield (End)](#shield-end)
+      - [Path-finding (Perc/Int)](#path-finding-percint)
+      - [Shield (End/Tough)](#shield-endtough)
       - [Throwing (Agi)](#throwing-agi)
       - [Weapon \< weapon type \> (\< attribute \>)](#weapon--weapon-type---attribute-)
     - [Social Skills](#social-skills)
       - [Acting (Emp/Ora)](#acting-empora)
-      - [Animal Handling (Emp)](#animal-handling-emp)
-      - [Commanding (Will)](#commanding-will)
+      - [Animal Handling (Emp/Will)](#animal-handling-empwill)
+      - [Commanding (Tough/Will)](#commanding-toughwill)
       - [Entertainment (Agi/Emp)](#entertainment-agiemp)
       - [Mercantilism (Ora)](#mercantilism-ora)
       - [Riding (Emp/Will)](#riding-empwill)
-      - [Self-Control (Will/Emp)](#self-control-willemp)
+      - [Self-Control (Will/Tough)](#self-control-willtough)
     - [Knowledge Skills](#knowledge-skills)
       - [Architecture (Int)](#architecture-int)
       - [Geography (Int)](#geography-int)
@@ -178,11 +179,11 @@
       - [Mysticism and Religion (Wis)](#mysticism-and-religion-wis)
       - [Medicine (Int/Emp)](#medicine-intemp)
       - [Reading and Writing \< language \> (Int)](#reading-and-writing--language--int)
-      - [Surgery (Int/Emp)](#surgery-intemp)
-      - [Warfare (Wis)](#warfare-wis)
+      - [Surgery (Int/Agi)](#surgery-intagi)
+      - [Warfare (Wis/Tough)](#warfare-wistough)
     - [Craftsmanship Skills](#craftsmanship-skills)
       - [Artistry (Emp)](#artistry-emp)
-      - [Cooking (Emp)](#cooking-emp)
+      - [Cooking (Emp/Agi)](#cooking-empagi)
   - [List of Conditions](#list-of-conditions)
     - [Berserk](#berserk)
     - [Burning](#burning)
@@ -451,7 +452,9 @@ A character helping in a test, also gains [progress](#advancing-skills) towards 
 > If the character who was helped succeeded their test, the helper also gains a successful test to mark on their skill. 
 
 #### Tests Bring about Learning
-Whenever a [skill](#skills) or [attribute](#attributes) is tested, its outcome must be noted. 
+Whenever a [skill](#skills) or [attribute](#attributes) is tested, its outcome must be noted. Once a certain threshold number is reached, the [skill](#skills) or [attribute](#attributes) advances to the a higher level. 
+
+For [skills](#skills), whether the test was a success or failure matters. But for [attributes](#attributes), only the number of tests matters. 
 
 When a [skill](#skills) is tested, both it **and** its associated [attribute](#attributes) is progressed. See also:
 * [advancing skills](#advancing-skills)
@@ -521,6 +524,14 @@ For every 3 points in **strength**, past the initial **modified level**, every [
 Governs the [injury limit](#injury) and chance to shrug off certain afflictions. 
 
 For every point in [toughness](#toughness-tough), a character gains **+4 maximum [HP](#hit-points-hp)** and raises their [injury](#injury) limit by 1. 
+
+Every time a character suffers at least 10 [HP](#hit-points-hp) of damage **in a single attack**, they gain +1 [advancement progress](#advancing-attributes). For 20 or more [HP](#hit-points-hp) of damage, they gain +2 [advancement progress](#advancing-attributes). 
+
+> A character suffering 15 points of damage **in a single attack**, gains +1 advancement progress to their toughness automatically. 
+>
+> A character suffering 22 points of damage **in a single attack**, gains +2 advancement progress to their toughness automatically. 
+> 
+> A character suffering 41 points of damage **in a single attack**, still only gains +2 advancement progress to their toughness automatically. 
 
 #### Mental Attributes
 The mind's abilities. 
@@ -882,6 +893,8 @@ For every [injury](#injury), a character's maximum **HP** is reduced by 2. A [pe
 
 The **HP** range in between [injuries](#injury) is called a **HP** *segment*. 
 
+> A character with toughness 3 has 12 HP and an injury limit of 3. These 12 HP are their first HP segment. When they suffer an injury, they lose 2 maximum HP. Thus, their next HP segment is 10. And the one after that is 8. 
+
 Any **HP** damage past zero overflows. The additional damage dealt isn't lost. When **HP** reach 0, an [injury](#injury) is suffered, maximum **HP** are reduced by 2 and **HP** are reset to the new maximum, minus the damage that overflowed. In other words, the damage past the 0 mark flows into the next **HP** *segment*. 
 
 > A character currently at 8 **HP** and a maximum of 12 **HP** suffers 10 points of damage. Thus, they suffer an **injury** and now have the new maximum of 10 **HP**. 2 points of damage have overflowed. Therefore, the character's new current **HP** is (10 - 2 =) 8. 
@@ -889,6 +902,15 @@ Any **HP** damage past zero overflows. The additional damage dealt isn't lost. W
 A successful [medicine](#medicine-int) test at **Ob** equal to the treated character's [toughness](#toughness-tough) subtracted by their current number of injuries can restore all currently missing **HP** of a character. This requires [medical supplies](#list-of-stuff--things). **HP** also replenish on their own, albeit much slower. For every hour outside of combat, **1 D4** **HP** are regained, up to the current maximum. 
 
 > A character with a toughness of 4 and 2 injuries could have all their currently missing **HP** restored with a **medicine** test at **Ob** (4 - 2 =) 2. 
+
+#### Toughness Progress from Damage
+Every time a character suffers at least 10 [HP](#hit-points-hp) of damage **in a single attack**, they gain +1 [advancement progress](#advancing-attributes). For 20 or more [HP](#hit-points-hp) of damage, they gain +2 [advancement progress](#advancing-attributes). 
+
+> A character suffering 15 points of damage **in a single attack**, gains +1 advancement progress to their toughness automatically. 
+>
+> A character suffering 22 points of damage **in a single attack**, gains +2 advancement progress to their toughness automatically. 
+> 
+> A character suffering 41 points of damage **in a single attack**, still only gains +2 advancement progress to their toughness automatically. 
 
 #### Bludgeoned to 0 HP
 When a character was **bludgeoned** to 0 **HP** after they reached their [injury](#injury) limit, they might survive and fall [unconscious](#unconscious), instead of dying. For that, they must succeed a [toughness](#toughness-tough) [test](#tests) at **Ob** equal to 5 subtracted by their [toughness](#toughness-tough) (minimum **Ob** 1). If they succeed, they immediately fall [unconscious](#unconscious). If they fail, they die anyway.
@@ -1799,16 +1821,16 @@ Performing acrobatic feats, such as jumping, tumbling and climbing, without inju
 | 2     | Wind Out Of It       | 1  | 2       | When hit by a [single-target](#single-target-st) attack, wind out of the hit and suffer only half the damage. Can be used even when a much bulkier weapon is breaking through your successful defens, to halve the damage *again*, effectively resulting in you suffering only 1/4th (rounded up) of the damage. | / |
 | 3     | Bob, Weave, Jab      | 1  | Opposed | When succeeding a defense test, follow up with a [single-target](#single-target-st) attack against the enemy who attacked you. | / |
 
-#### Berserking (End)
+#### Berserking (Tough)
 Whether as a well-honed skill and way of life, or through a disappointing childhood of misery and pain, berserking is a talent for fighting angrily and recklessly. It allows a fighter to keep fighting at surprising strength, even when wounded. 
 
 However, the price for this strength is steep. The chance of death is greatly increased for anyone who embraces this way of fighting. 
 
 | Level | Name                 | AP | **Ob**  | Effect(s)          | Condition(s) |
 | ----- | -------------------- | -- | ------- | ------------------ | ------------ |
-| 1     | Reckless Assault     | 2  | /       | Deal an extra **D** of damage on your next successful attack during this turn, according to your weapon's damage. Suffer a **-2D** penalty on all defense tests until the start of your next turn. |  |
-| 2     | Grit Your Teeth      | 1  | /       | Ignore the negative effects of one [injury](#injury) of choice for the rest of the combat encounter. It will still count towards the injury limit, however! | Once per combat. |
-| 3     | Pain is Strength     | 3  | Opposed | Perform a [single-target](#single-target-st) melee attack against an opponent of choice. For every active [injury](#injury) you currently have, deal one extra **D** of damage. You suffer one point of [exhaustion](#exhaustion). | Once per day. |
+| 0     | Reckless Assault     | 2  | /       | Deal an extra **D** of damage on your next successful attack during this turn, according to your weapon's damage. Suffer a **-2D** penalty on all defense tests until the start of your next turn. |  |
+| 1     | Grit Your Teeth      | 1  | /       | Ignore the negative effects of one [injury](#injury) of choice for the rest of the combat encounter. It will still count towards the injury limit, however! | Once per combat. |
+| 2     | Pain is Strength     | 3  | Opposed | Perform a [single-target](#single-target-st) melee attack against an opponent of choice. For every active [injury](#injury) you currently have, deal one extra **D** of damage. You suffer one point of [exhaustion](#exhaustion). | Once per day. |
 
 #### Fishing (End)
 The ability to efficiently catch fish. 
@@ -1818,7 +1840,7 @@ Playing an instrument of choice.
 
 The instrument in question must be noted. 
 
-#### Stealth (Agi)
+#### Stealth (Agi/Perc)
 Moving silently and performing actions undetected. 
 
 | Level | Name                 | AP | **Ob**  | Effect(s)          | Condition(s) |
@@ -1840,14 +1862,14 @@ Pickpocketing and lockpicking.
 #### Observation (Perc)
 Actively looking out for and detecting hidden things or characters. 
 
-#### Path-finding (Perc)
+#### Path-finding (Perc/Int)
 Orienting oneself in the world and finding and following tracks. 
 
 | Level | Name                 | AP | **Ob** | Effect(s)          | Condition(s) |
 | ----- | -------------------- | -- | ------ | ------------------ | ------------ |
 | 3     | Find your Bearings   | 1  | 2      | Figure out your current heading and time of day, even when in complete darkness or in a place without landmarks. | Once per rest. |
 
-#### Shield (End)
+#### Shield (End/Tough)
 Expertise at defending oneself using a shield. 
 
 For any ally next to you, who's also using a shield, you both gain **+1D** on your defense tests. 
@@ -1877,7 +1899,7 @@ A vital skill in stage-play for honest entertainment and just as important to li
 | 0     | Taunt                | 2  | Opposed by [self-control](#self-control-willemp) | Force a designated target to attack *you* on their next turn. | |
 | 3     | Vicious Mockery      | 2  | Opposed by [self-control](#self-control-willemp) | Lower a designated target's defense by **-1D** until the end of their next turn and force them to attack *you*. | |
 
-#### Animal Handling (Emp)
+#### Animal Handling (Emp/Will)
 Gaining an animal's trust, directing it and training it to obey simple commands. 
 
 Is opposed by [self-control](#self-control-will). 
@@ -1887,7 +1909,7 @@ Is opposed by [self-control](#self-control-will).
 | 0     | Command Animal       | 2  | Opposed by [self-control](#self-control-willemp) | Issue a *simple* command to a tamed/friendly animal. | / |
 | 2     | Calm Animal          | 2  | Opposed by [self-control](#self-control-willemp) | Calm an aggressive/hostile/frightened animal down. | Once per scene. |
 
-#### Commanding (Will)
+#### Commanding (Tough/Will)
 Speaking commands others will respect and follow to the letter. 
 
 | Level | Name                   | AP | **Ob** | Effect(s)          | Condition(s) |
@@ -1918,7 +1940,7 @@ In and outside of [combat](#combat), a rider will inherit the [speed](#combat-mo
 | 1     | Spur                 | 1  | 2      | Gain an additional 3 **AP** worth of movement from your mount. The mount suffers +1 exhaustion. | At most once per turn. |
 | 3     | Mounted Charge       | 3  | 3      | Perform a mounted charge attack, dealing **2D4** extra damage of whatever weapon type you are using. | Mounted on a fast and strong animal; Must have enough distance to target to gain enough speed - refer to **GM**'s judgement. |
 
-#### Self-Control (Will/Emp)
+#### Self-Control (Will/Tough)
 Mastery of one's own impulses. Used to stay awake past the point of exhaustion and to not act on emotional impulse. 
 
 ### Knowledge Skills
@@ -1964,17 +1986,15 @@ Knowledge about religions, legends and myths. May be used to recall knowledge ab
 #### Medicine (Int/Emp)
 Diagnosing and treating mundane [injuries](#injury). 
 
-Implies an understanding of anatomy, whereas past experiences with the creatures treated should be noted. 
-
 #### Reading and Writing < language > (Int)
 The ability to both read and write in a specific language. 
 
 The language in question must be noted in addition to this skill. 
 
-#### Surgery (Int/Emp)
+#### Surgery (Int/Agi)
 The ability to invasively treat ailments without making things worse for the patient. 
 
-#### Warfare (Wis)
+#### Warfare (Wis/Tough)
 The ability to understand and direct large-scale combat movements, the logistics and psychology of war. 
 
 This governs the understanding of what makes defensive structures effective and how to circumvent them. This entails a functional understanding of siege engines, but not their construction. 
@@ -1989,7 +2009,7 @@ The ability to paint and draw well, as well as a general sense of aesthetics.
 | ------------------------------------ | ---------- | --------- | -------------------------------------- | --------------- | 
 | 1 painting or sculpture.             | Moderate   | Moderate  | Any paintable or shapeable object, such as a canvas or chunk of marble. | / |
 
-#### Cooking (Emp)
+#### Cooking (Emp/Agi)
 The ability to cook well. Poor cooks are prone to losing ingredients due to burning them or overcooking them to the point of inedibility. 
 
 Tools: cooking utensils, a pot or pan, a fire place
