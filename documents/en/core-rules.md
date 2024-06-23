@@ -1149,7 +1149,7 @@ A single **AFP** can be converted into 15 **MaFP**.
 ## Hand of Fate
 The **Hand of Fate** is a deck of cards a player can draw from, using their **FP** as currency to buy cards. 
 
-A player can play any of their cards **whenever** appropriate. A played card is discarded. The play of some cards may be exclusive to some others. If that is the case, then only one of the two cards may apply at the same time. 
+A player can play any of their cards **whenever** appropriate. A played card is discarded. The play of some cards may be exclusive to some others. If that is the case, then only one of the two cards may apply at the same time. A player may even play their own cards on another player's behalf, but both players must agree to this. 
 
 There are no limits to how many of a given card a player can own, but they may only hoard a maximum of 5 cards at a time. 
 
