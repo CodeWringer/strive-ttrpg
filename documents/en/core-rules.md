@@ -160,8 +160,8 @@
       - [Weapon \< weapon type \> (\< attribute \>)](#weapon--weapon-type---attribute-)
     - [Social Skills](#social-skills)
       - [Acting (Emp/Ora)](#acting-empora)
-      - [Animal Handling (Emp)](#animal-handling-emp)
-      - [Commanding (Will/Tough)](#commanding-willtough)
+      - [Animal Handling (Emp/Will)](#animal-handling-empwill)
+      - [Commanding (Tough/Will)](#commanding-toughwill)
       - [Entertainment (Agi/Emp)](#entertainment-agiemp)
       - [Mercantilism (Ora)](#mercantilism-ora)
       - [Riding (Emp/Will)](#riding-empwill)
@@ -1899,7 +1899,7 @@ A vital skill in stage-play for honest entertainment and just as important to li
 | 0     | Taunt                | 2  | Opposed by [self-control](#self-control-willemp) | Force a designated target to attack *you* on their next turn. | |
 | 3     | Vicious Mockery      | 2  | Opposed by [self-control](#self-control-willemp) | Lower a designated target's defense by **-1D** until the end of their next turn and force them to attack *you*. | |
 
-#### Animal Handling (Emp)
+#### Animal Handling (Emp/Will)
 Gaining an animal's trust, directing it and training it to obey simple commands. 
 
 Is opposed by [self-control](#self-control-will). 
@@ -1909,7 +1909,7 @@ Is opposed by [self-control](#self-control-will).
 | 0     | Command Animal       | 2  | Opposed by [self-control](#self-control-willemp) | Issue a *simple* command to a tamed/friendly animal. | / |
 | 2     | Calm Animal          | 2  | Opposed by [self-control](#self-control-willemp) | Calm an aggressive/hostile/frightened animal down. | Once per scene. |
 
-#### Commanding (Will/Tough)
+#### Commanding (Tough/Will)
 Speaking commands others will respect and follow to the letter. 
 
 | Level | Name                   | AP | **Ob** | Effect(s)          | Condition(s) |
