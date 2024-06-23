@@ -2401,7 +2401,6 @@ Most [scars](#scar) can only be incurred once, but some may be incurred multiple
 | Discolored skin         | /         | Spots on your skin have permanently discolored. It may be a dark, sickly green or a darkened blue or black color. |
 | Disfigured ear          | Ear Count | The ear is unrecognizable. It may look bad, but the ear still does its job. Mostly. |
 | Disfigured nose         | 1         | An unnaturally crooked nose makes breathing slightly more difficult and is sure to be memorable. |
-| Blind eye               | /         | The eye has glazed over white and is impossible to see through. Cannot see through that eye. |
 | Heavy breathing         | 1         | Your lung doesn't work quite right anymore. The wheezing and occasional coughing is quite distinguishing. |
 | Scarred arm             | Arm Count | A reminder of a past injury to your arm. |
 | Scarred body            | /         | A reminder of a past injury. |
