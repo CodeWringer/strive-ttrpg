@@ -294,6 +294,8 @@ Damage from magical sources is reduced by the quality level + a number of dice. 
   2. If the test is a **partial success/failure**, the spell fizzles and nothing happens.
   3. If the test is a **complete failure**, the spell [back-fires](#spell-backfire). 
 
+Whenever a [magic school skill](#magic-school--school---attribute) is tested, [arcana](#arcana-arc) is progressed, as well! If [arcana](#arcana-arc) is the base attribute, then it **is** progressed twice. 
+
 > A mage wants to cast an [illusion](#illusion-emp) spell, at SI 2. Their level in the corresponding magic school skill is 4. They have 4 magic stamina left. 
 >
 > They roll **2 D4**, yielding them a 3 and a 2. The sum (5) is one point more magic stamina, than the mage had left. They suffer a spell-backfire and their intended target is left unaffected!

@@ -109,6 +109,7 @@
     - [Cover](#cover)
     - [Speed is Armor](#speed-is-armor)
     - [Defending an Ally](#defending-an-ally)
+    - [Defence Stunts](#defence-stunts)
   - [Throwing](#throwing)
     - [Throwing-Distance](#throwing-distance)
     - [Throwing-Accuracy](#throwing-accuracy)
@@ -1150,7 +1151,7 @@ A single **AFP** can be converted into 15 **MaFP**.
 ## Hand of Fate
 The **Hand of Fate** is a deck of cards a player can draw from, using their **FP** as currency to buy cards. 
 
-A player can play any of their cards **whenever** appropriate. A played card is discarded. The play of some cards may be exclusive to some others. If that is the case, then only one of the two cards may apply at the same time. 
+A player can play any of their cards **whenever** appropriate. A played card is discarded. The play of some cards may be exclusive to some others. If that is the case, then only one of the two cards may apply at the same time. A player may even play their own cards on another player's behalf, but both players must agree to this. 
 
 There are no limits to how many of a given card a player can own, but they may only hoard a maximum of 5 cards at a time. 
 
@@ -1339,6 +1340,8 @@ At the start of a combat encounter, **all non-surprised characters** start with 
 * Any action requiring a [test](#tests), costs 2 **AP**. 
 * [Expertises](#expertise) can cost varying amounts of **AP**. The exact number will be noted on the [expertise](#expertise) in question. 
 
+Once per turn, it is possible to **push yourself** to gain +1 **AP**, at the cost of +1 [exhaustion](#exhaustion). **Pushing yourself** when the additional point of [exhaustion](#exhaustion) would bring you to your threshold is not allowed. 
+
 ### Action Point Saving
 If a character ends their **turn** with any **AP** unspent, those **AP** will be saved up and be available as additional **AP** at the start of their next **turn**. 
 
@@ -1457,6 +1460,16 @@ It is possible for a character to defend an adjacent ally when they're being att
 
 Defending an ally is a **combat action** and a **reaction**. 
 
+### Defence Stunts
+If you succeed an **active defense** and achieve at least 2 **positives** over your attacker, then you may perform one of the following stunts, at the cost of +1 [exhaustion](#exhaustion) (but only if that won't bring you to your [exhaustion threshold](#exhaustion)): 
+
+* Disarm your opponent (if they have a detachable weapon).
+* Displace your opponent. They are forced to stumble backwards by 2m/6' in a direction of your choosing.
+* Displace yourself. You move 6'/2m in a direction of your choosing. This does not provoke [attacks of opportunity](#attacks-of-opportunity). 
+* Throw your opponent to the ground, making them proned.
+* Launch a counter-attack, for half your weapon's regular damage. You'll have to roll a regular attack, which your opponent can choose to defend against. This attack does not cost you any additional [AP](#action-points-ap). 
+* If defending against a ranged attack, you catch the projectile (if such a feat could be "reasonably" done). 
+
 ## Throwing
 Throwing things is a special type of action, that follows the rules outlined below. 
 
@@ -1505,7 +1518,9 @@ For your convenience, you can refer to the following chart:
 ### Throwing-Damage
 If throwing a weapon that isn't specifically made or especially suitable to throwing, then the damage that is dealt on successful hit is halved (rounded down). 
 
-When throwing non-weapons, the damage dealt is calculated the following way: [strength](#strength-str) * ([bulk](#bulk) - 1) (minimum bulk 1)
+When throwing non-weapons, the damage dealt is calculated the following way: [strength](#strength-str) * ([bulk](#bulk) - 1) (minimum [strength](#strength-str) * 1)
+
+Even if the `bulk - 1` formula would result in 0, instead use 1. The resulting multiplicator must not be less than 1. 
 
 The [damage type](#damage-types) to use, depends on the type of object and how it hits the target. For most non-weapons, **bludgeoning** or **crushing** should be appropriate. 
 
@@ -2405,7 +2420,6 @@ Most [scars](#scar) can only be incurred once, but some may be incurred multiple
 | Discolored skin         | /         | Spots on your skin have permanently discolored. It may be a dark, sickly green or a darkened blue or black color. |
 | Disfigured ear          | Ear Count | The ear is unrecognizable. It may look bad, but the ear still does its job. Mostly. |
 | Disfigured nose         | 1         | An unnaturally crooked nose makes breathing slightly more difficult and is sure to be memorable. |
-| Blind eye               | /         | The eye has glazed over white and is impossible to see through. Cannot see through that eye. |
 | Heavy breathing         | 1         | Your lung doesn't work quite right anymore. The wheezing and occasional coughing is quite distinguishing. |
 | Scarred arm             | Arm Count | A reminder of a past injury to your arm. |
 | Scarred body            | /         | A reminder of a past injury. |
