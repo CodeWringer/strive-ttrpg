@@ -503,6 +503,8 @@ Governs how long a character can endure physical strains.
 
 For every point in endurance, a character raises their [exhaustion threshold](#exhaustion) by 1. All characters have a base [exhaustion threshold](#exhaustion) of 1. 
 
+For every point in endurance, a character can [sprint](#combat-movement) an additional 3'/1m per [AP](#action-points-ap) spent or every 5 seconds. 
+
 Endurance also governs how long a character can hold their breath. Every point in endurance grants around 3 minutes. 
 
 ##### Perception [Perc]
@@ -1359,7 +1361,7 @@ Under normal circumstances, a character (an average human) can move up to **12'/
 
 **Difficult terrain** is any space that slows movement, but does not prevent it outright. Examples would be waist-high water, a surface of glue or a slowing force field. 
 
-It is also possible to **sprint**, doubling the distance one can move per **AP**, but at the cost of 1 point of [exhaustion](#exhaustion) for every **AP** spent **sprinting**. 
+It is also possible to **sprint**, increasing the distance one can move per **AP** spent, at the cost of 1 point of [exhaustion](#exhaustion) for every **AP** spent **sprinting**. The movement distance is increased by 3'/1m per level in [endurance](#endurance-end), per **AP**. Every time a character **sprints**, they progress their [endurance](#endurance-end) (but only once per turn). 
 
 ### Disengage
 It is possible to move out of an enemy's [range of opportunity](#attacks-of-opportunity) without provoking an [attack of opportunity](#attacks-of-opportunity). This action costs 2 [AP](#action-points-ap) and the disengaging character **must** move in a direction that will get them out of the [range of opportunity](#attacks-of-opportunity) the fastest and safest, as far as 1 **AP** of movement would get them. 
@@ -1864,7 +1866,9 @@ Moving silently and performing actions undetected.
 | 4     | Pocket-Sand          | 3  | Opposed | If you succeed a **stealth test** against a single designated target's [observation](#observation-perc), you can disappear from their sight and run up to 2 **AP** worth of distance. | Once per rest. |
 
 #### Swimming (End)
-Swimming, as opposed to drowning. 
+The ability to safely stay afloat and move around in water. 
+
+For every point in **swimming**, a character can move an additional 3'/1m per [AP](#action-points-ap) spent or every 5 seconds. 
 
 #### Thievery (Agi)
 Pickpocketing and lockpicking. 
