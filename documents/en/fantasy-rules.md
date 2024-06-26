@@ -45,7 +45,7 @@
         - [Round Shield](#round-shield)
         - [Heater Shield](#heater-shield)
         - [Kite Shield](#kite-shield)
-    - [List of Stuff \& Things](#list-of-stuff--things)
+    - [List of General Assets](#list-of-general-assets)
     - [Weapon Types](#weapon-types)
       - [Dagger (Agi)](#dagger-agi)
       - [Light Blade (Agi)](#light-blade-agi)
@@ -492,13 +492,17 @@ A large, kite-shaped shield, which can protect every part of the fighter, from t
 | -------------------- |
 | +4D for any defense. |
 
-### List of Stuff & Things
+### List of General Assets
 The following is a list of general assets. Of course, the following list is non-exhaustive. Invent more at your own need. 
 
-| Name                   | Max. Stack Size | Description                                                              |
-| ---------------------- | --------------- | ------------------------------------------------------------------------ |
-| Laudanum Potion        | 1    | This wonderous substance can quell pain and calm nerves within seconds. Also effective against diarrhea. Upon imbibing, sets one **active** [injury](./core-rules.md#injury) to **patched up**. After 24 hours, the [injury](./core-rules.md#injury) is set back to **active**, even if it was **treated** in the meantime. Also, must succeed a [willpower](./core-rules.md#willpower-will) test at **Ob** 2, or else become [addicted](./core-rules.md#drug-addicted) to the stuff. |
-| Calming Tea            | 1    | This herbal tea has the ability to calm nerves. Removes [berserk](./core-rules.md#berserk), [jealous](./core-rules.md#jealous) and [terrified](./core-rules.md#terrified). Best enjoyed steaming hot, but not necessarily. |
+| Name                   | Bulk | Max. Stack Size | Description                                                              |
+| ---------------------- | ---- | --------------- | ------------------------------------------------------------------------ |
+| Laudanum Potion        | 1    | 2               | This wonderous substance can quell pain and calm nerves within seconds. Also effective against diarrhea. Upon imbibing, sets one **active** [injury](./core-rules.md#injury) to **patched up**. After 24 hours, the [injury](./core-rules.md#injury) is set back to **active**, even if it was **treated** in the meantime. Also, must succeed a [willpower](./core-rules.md#willpower-will) test at **Ob** 2, or else become [addicted](./core-rules.md#drug-addicted) to the stuff. |
+| Calming Tea            | 1    | 3               | This herbal tea has the ability to calm nerves. Removes [berserk](./core-rules.md#berserk), [jealous](./core-rules.md#jealous) and [terrified](./core-rules.md#terrified). Best enjoyed steaming hot, but not necessarily. |
+| Smoke Bomb             | 1    | 3               | A small fragile shell, filled with a very fine powder which when broken causes an area in a 6'/2m radius to be covered in smoke. It is impossible to see through and ranged attacks within or through the area suffer +2 **Ob**. Victims caught in the smoke may be forced to cough. The smoke lasts 6 turns or 30 seconds. |
+| Acid Bomb              | 1    | 2               | A small fragile shell with two compartments, filled with two liquids which, when they combine, act as a powerful acid. When shattered, deals **2D8** **acid** damage to whatever it hits. |
+| Blackpowder Bomb       | 1    | 2               | A small iron-shelled bomb, filled with blackpowder. A short fuse sticks out and must be lit to set it off. Once lit, the bomb will detonate after 3 turns or 15 seconds. Deals **2D6** **crushing** + **2D6** **burning** damage to anyone in a 6'/2m radius. |
+| Throwing Blade         | 1    | 6               | A small weighted blade, like a knife or star, well suited to being thrown. Can be used in melee and acts like a [dagger](#dagger-agi), but with a penalty of **-2D** to attack and defence. **+1D** when [thrown](./core-rules.md#throwing-accuracy) for a ranged attack. Deals **2D4 + Str** **piercing** damage. |
 
 ### Weapon Types
 Following are fantasy-themed weapon types. 
