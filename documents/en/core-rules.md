@@ -143,8 +143,8 @@
     - [Determine Max HP \& Injury Maximum](#determine-max-hp--injury-maximum)
     - [Determine Exhaustion Threshold](#determine-exhaustion-threshold)
   - [Asset Appendix](#asset-appendix)
+    - [List of General Assets](#list-of-general-assets)
     - [Weapon Properties](#weapon-properties)
-    - [List of Stuff \& Things](#list-of-stuff--things)
   - [Lists of Skills](#lists-of-skills)
     - [Physical Skills](#physical-skills)
       - [Acrobatics (Agi/Str)](#acrobatics-agistr)
@@ -1804,6 +1804,15 @@ Determine your character's [exhaustion threshold](#exhaustion), by referring to 
 ## Asset Appendix
 The following list does not and cannot aim to be a complete listing of all possible assets in game. Adding new assets as necessary will have to be done by the **GM**. 
 
+### List of General Assets
+The following is a list of general assets. Of course, the following list is non-exhaustive. Invent more at your own need. 
+
+| Name                   | Bulk | Max. Stack Size | Description                                                              |
+| ---------------------- | ---- | --------------- | ------------------------------------------------------------------------ |
+| Antidote               | 1    | 2               | This unassuming liquid can make the difference between life and death. Is used in the [treatment of poison](#list-of-poison-injuries). |
+| Herbal Remedy Potion   | 1    | 2               | The sickly green tint and strong odor of the liquid within might not seem enticing, but its efficacy is well worth it. Upon imbibing, restores all currently missing [HP](#hit-points-hp) of a character. |
+| Medical Supplies       | 1    | 2               | A small satchel of clean bandages, thread and needle for suturing, a clean and sharp knife, a splint and straps for binding. Is used in the [treatment](#injury-states--treatment) of various [injuries](#injury). |
+
 ### Weapon Properties
 Weapon type assets can have the following **traits**:
 * **Long Reach**: Allows attacking a target two fields (6'/2m) away. 
@@ -1814,15 +1823,6 @@ Weapon type assets can have the following **traits**:
 * **Very Slow Reload**: Reloading the weapon costs 3 [AP](#action-points-ap).
 * **Ranged (throwable: < attack name >)**: No damage penalty is incurred when throwing this type of weapon. The damage formula for the given attack is to be used on hit. 
 * A **counter-attack** is a *reaction* that allows a fighter being attacked to attack their attacker, at the cost of 1 [AP](#action-points-ap). 
-
-### List of Stuff & Things
-The following is a list of general assets. Of course, the following list is non-exhaustive. Invent more at your own need. 
-
-| Name                   | Bulk | Max. Stack Size | Description                                                              |
-| ---------------------- | ---- | --------------- | ------------------------------------------------------------------------ |
-| Antidote               | 1    | 2               | This unassuming liquid can make the difference between life and death. Is used in the [treatment of poison](#list-of-poison-injuries). |
-| Herbal Remedy Potion   | 1    | 2               | The sickly green tint and strong odor of the liquid within might not seem enticing, but its efficacy is well worth it. Upon imbibing, restores all currently missing [HP](#hit-points-hp) of a character. |
-| Medical Supplies       | 1    | 2               | A small satchel of clean bandages, thread and needle for suturing, a clean and sharp knife, a splint and straps for binding. Is used in the [treatment](#injury-states--treatment) of various [injuries](#injury). |
 
 ## Lists of Skills
 The following list does not and cannot aim to be a complete listing of all possible skills in game. Adding new skills as necessary will have to be done by the **GM**. 
