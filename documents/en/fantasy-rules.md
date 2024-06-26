@@ -105,7 +105,7 @@
   - [List of Injuries](#list-of-injuries)
   - [List of Illnesses](#list-of-illnesses)
 
-Version 4 (Playtest)
+Version 5 (Playtest)
 
 A role-playing game by Nicolas H.
 
@@ -340,7 +340,7 @@ A fist-sized **Amberite** chunk is fairly heavy, with a [bulk](./core-rules.md#c
 
 Due to the length of the process and the difficulty in keeping the right temperature, smiths capable of creating **Ambersteel** are rare. 
 
-**Ambesteel** is also a fairly heavy material, albeit slightly lighter than [Amberite](#amberite). A fist-sized chunk has a [bulk](./core-rules.md#carrying-capacity) of 2. Weapons, shields and armor made from this material are +1 [bulkier](./core-rules.md#carrying-capacity). 
+**Ambersteel** is also a fairly heavy material, albeit slightly lighter than [Amberite](#amberite). A fist-sized chunk has a [bulk](./core-rules.md#carrying-capacity) of 2. Weapons, shields and armor made from this material are +1 [bulkier](./core-rules.md#carrying-capacity). 
 
 ### Runes
 Shards of [Abyssalite](#abyssalite) can have **runes** carved into them, which allow magic to flow through the **runes**. This renders **runes** extremely powerful artifacts, as they can allow for near limitless magic-use, even in the hands of a non-mage. 
