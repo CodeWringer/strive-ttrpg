@@ -519,8 +519,8 @@ For all attacks made with a dagger, the following rules apply:
 * -1 **Ob** and +**Agi\*D** damage against [proned](./core-rules.md#prone) and [grappled](./core-rules.md#grappled) targets.
 
 * Melee
-* Ranged (throwable: stab)
 * Bulk: 1
+* Ranged (throwable: stab)
 
 | Level | Name                 | AP | **Ob**      | Damage                           | Notes  |
 | ----- | -------------------- | -- | ----------- | -------------------------------- | ------ |
@@ -533,8 +533,8 @@ For all attacks made with a dagger, the following rules apply:
 Any light blade. Most commonly (but not restricted to) one-handed weapons. Examples: Short-sword, Langes Messer, arming sword, falchion
 
 * Melee
-* Ranged (throwable: stab)
 * Bulk: 1
+* Ranged (throwable: stab)
 
 | Level | Name                 | AP | **Ob**      | Damage                           | Notes  |
 | ----- | -------------------- | -- | ----------- | -------------------------------- | ------ |
@@ -559,8 +559,8 @@ Any long and heavier blade, including heavy one-handed blades. Examples: Longswo
 Any very long and heavy two-handed blade. Examples: sword of war, great-sword, Zweihänder, Kriegsmesser
 
 * Melee
-* Long Reach
 * Bulk: 3
+* [Long Reach](core-rules.md#weapon-properties)
 
 | Level | Name                 | AP | **Ob**      | Damage                           | Notes  |
 | ----- | -------------------- | -- | ----------- | -------------------------------- | ------ |
@@ -573,8 +573,8 @@ Any very long and heavy two-handed blade. Examples: sword of war, great-sword, Z
 Small and light axes. Examples: hatchet, dane axe, woodcutter's axe
 
 * Melee
-* Ranged (throwable: hack)
 * Bulk: 1
+* Ranged (throwable: hack)
 
 | Level | Name                 | AP | **Ob**      | Damage                           | Notes  |
 | ----- | -------------------- | -- | ----------- | -------------------------------- | ------ |
@@ -597,10 +597,10 @@ Large and heavy axes. Examples: bearded axe, double-sided axe
 Any one or two-handed short piercing polearms. Examples: short-spear, boar-spear
 
 * Melee
-* Ranged (throwable: stab)
 * Bulk: 2
-* Long Reach
-* Prefer Range
+* Ranged (throwable: stab)
+* [Long Reach](core-rules.md#weapon-properties)
+* [Prefer Range](core-rules.md#weapon-properties)
 
 | Level | Name                 | AP | **Ob**      | Damage                           | Notes  |
 | ----- | -------------------- | -- | ----------- | -------------------------------- | ------ |
@@ -612,8 +612,8 @@ Any one or two-handed long piercing polearms. Examples: pike, lance
 
 * Melee
 * Bulk: 4
-* Long Reach
-* Prefer Range
+* [Long Reach](core-rules.md#weapon-properties)
+* [Prefer Range](core-rules.md#weapon-properties)
 
 | Level | Name                 | AP | **Ob**      | Damage                           | Notes  |
 | ----- | -------------------- | -- | ----------- | -------------------------------- | ------ |
@@ -625,8 +625,8 @@ Flexible polearms with a focus on slashing. Examples: halberd, bardiche, poleaxe
 
 * Melee
 * Bulk: 4
-* Long Reach
-* Prefer Range
+* [Long Reach](core-rules.md#weapon-properties)
+* [Prefer Range](core-rules.md#weapon-properties)
 
 | Level | Name                 | AP | **Ob**      | Damage                           | Notes  |
 | ----- | -------------------- | -- | ----------- | -------------------------------- | ------ |
@@ -674,7 +674,7 @@ A short distance ranged weapon, shooting arrows.
 * Ranged
   * For every attack: +1 **Ob** and **-1D** damage for every distance increment past the initial.
 * Bulk: 1
-* Range Only
+* [Range Only](core-rules.md#weapon-properties)
 
 | Level | Name                 | AP | **Ob**      | Distance increments | Damage                     | Notes  |
 | ----- | -------------------- | -- | ----------- | ------------------- | -------------------------- | ------ |
@@ -688,7 +688,7 @@ A long distance ranged weapon, shooting arrows.
 * Ranged
   * For every attack: +1 **Ob** and **-1D** damage for every distance increment past the initial.
 * Bulk: 2
-* Range Only
+* [Range Only](core-rules.md#weapon-properties)
 
 | Level | Name                 | AP | **Ob**      | Distance increments | Damage                     | Notes  |
 | ----- | -------------------- | -- | ----------- | ------------------- | -------------------------- | ------ |
@@ -701,7 +701,7 @@ A very deadly long distance ranged weapon, shooting arrows. Beware its exhaustin
 * Ranged
   * For every attack: +1 **Ob** and **-1D** damage for every distance increment past the initial.
 * Bulk: 2
-* Range Only
+* [Range Only](core-rules.md#weapon-properties)
 
 | Level | Name                 | AP | **Ob**      | Distance increments | Damage                     | Notes  |
 | ----- | -------------------- | -- | ----------- | ------------------- | -------------------------- | ------ |
@@ -713,8 +713,8 @@ A deadly medium distance ranged weapon, shooting quarrels. Beware its slow reloa
 * Ranged
   * For every attack: +1 **Ob** and **-1D** damage for every distance increment past the initial.
 * Bulk: 2
-* Prefer Range
-* Slow Reload
+* [Prefer Range](core-rules.md#weapon-properties)
+* [Slow Reload](core-rules.md#weapon-properties)
 
 | Level | Name                 | AP | **Ob**      | Distance increments | Damage                     | Notes  |
 | ----- | -------------------- | -- | ----------- | ------------------- | -------------------------- | ------ |
@@ -726,8 +726,8 @@ A very deadly short to medium distance ranged weapon, shooting musket balls that
 * Ranged
   * For every attack: +2 **Ob** for every distance increment past the initial.
 * Bulk: 2
-* Prefer Range
-* Very Slow Reload
+* [Prefer Range](core-rules.md#weapon-properties)
+* [Very Slow Reload](core-rules.md#weapon-properties)
 
 | Level | Name                 | AP | **Ob**      | Distance increments | Damage                     | Notes  |
 | ----- | -------------------- | -- | ----------- | ------------------- | -------------------------- | ------ |
