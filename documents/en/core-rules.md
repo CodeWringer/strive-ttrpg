@@ -56,6 +56,7 @@
     - [Personality Traits](#personality-traits)
   - [Health \& Exhaustion](#health--exhaustion)
     - [Hit Points (HP)](#hit-points-hp)
+      - [Toughness Progress from Damage](#toughness-progress-from-damage)
       - [Bludgeoned to 0 HP](#bludgeoned-to-0-hp)
     - [Injury](#injury)
       - [Injury States \& Treatment](#injury-states--treatment)
@@ -102,15 +103,13 @@
     - [Swap-Out](#swap-out)
   - [Attacking](#attacking)
     - [Damage](#damage)
-    - [Attack Modifiers](#attack-modifiers)
-      - [Aimed Attack](#aimed-attack)
-      - [Easy Attack](#easy-attack)
-      - [Execution Attack](#execution-attack)
     - [Attacks of Opportunity](#attacks-of-opportunity)
+    - [Stealth Attacks](#stealth-attacks)
   - [Defending](#defending)
     - [Cover](#cover)
     - [Speed is Armor](#speed-is-armor)
     - [Defending an Ally](#defending-an-ally)
+    - [Defence Stunts](#defence-stunts)
   - [Throwing](#throwing)
     - [Throwing-Distance](#throwing-distance)
     - [Throwing-Accuracy](#throwing-accuracy)
@@ -144,30 +143,30 @@
     - [Determine Max HP \& Injury Maximum](#determine-max-hp--injury-maximum)
     - [Determine Exhaustion Threshold](#determine-exhaustion-threshold)
   - [Asset Appendix](#asset-appendix)
+    - [List of General Assets](#list-of-general-assets)
     - [Weapon Properties](#weapon-properties)
-    - [List of Stuff \& Things](#list-of-stuff--things)
   - [Lists of Skills](#lists-of-skills)
     - [Physical Skills](#physical-skills)
       - [Acrobatics (Agi/Str)](#acrobatics-agistr)
-      - [Berserking (End)](#berserking-end)
+      - [Berserking (Tough)](#berserking-tough)
       - [Fishing (End)](#fishing-end)
       - [Instrument-Playing \< instrument \> (Agi)](#instrument-playing--instrument--agi)
-      - [Stealth (Agi)](#stealth-agi)
+      - [Stealth (Agi/Perc)](#stealth-agiperc)
       - [Swimming (End)](#swimming-end)
       - [Thievery (Agi)](#thievery-agi)
       - [Observation (Perc)](#observation-perc)
-      - [Path-finding (Perc)](#path-finding-perc)
-      - [Shield (End)](#shield-end)
+      - [Path-finding (Perc/Int)](#path-finding-percint)
+      - [Shield (End/Tough)](#shield-endtough)
       - [Throwing (Agi)](#throwing-agi)
       - [Weapon \< weapon type \> (\< attribute \>)](#weapon--weapon-type---attribute-)
     - [Social Skills](#social-skills)
       - [Acting (Emp/Ora)](#acting-empora)
-      - [Animal Handling (Emp)](#animal-handling-emp)
-      - [Commanding (Will)](#commanding-will)
+      - [Animal Handling (Emp/Will)](#animal-handling-empwill)
+      - [Commanding (Tough/Will)](#commanding-toughwill)
       - [Entertainment (Agi/Emp)](#entertainment-agiemp)
       - [Mercantilism (Ora)](#mercantilism-ora)
       - [Riding (Emp/Will)](#riding-empwill)
-      - [Self-Control (Will/Emp)](#self-control-willemp)
+      - [Self-Control (Will/Tough)](#self-control-willtough)
     - [Knowledge Skills](#knowledge-skills)
       - [Architecture (Int)](#architecture-int)
       - [Geography (Int)](#geography-int)
@@ -181,11 +180,11 @@
       - [Mysticism and Religion (Wis)](#mysticism-and-religion-wis)
       - [Medicine (Int/Emp)](#medicine-intemp)
       - [Reading and Writing \< language \> (Int)](#reading-and-writing--language--int)
-      - [Surgery (Int/Emp)](#surgery-intemp)
-      - [Warfare (Wis)](#warfare-wis)
+      - [Surgery (Int/Agi)](#surgery-intagi)
+      - [Warfare (Wis/Tough)](#warfare-wistough)
     - [Craftsmanship Skills](#craftsmanship-skills)
       - [Artistry (Emp)](#artistry-emp)
-      - [Cooking (Emp)](#cooking-emp)
+      - [Cooking (Emp/Agi)](#cooking-empagi)
   - [List of Conditions](#list-of-conditions)
     - [Berserk](#berserk)
     - [Burning](#burning)
@@ -230,11 +229,11 @@ Version 13 (Playtest)
 A role-playing game by Nicolas H.
 
 # Introduction
-**Ambersteel** is a table-top role-playing game (**TTRPG**), requiring a **game master** (**GM**) and at least one **player** to play. 
+**STRIVE** is a table-top role-playing game (**TTRPG**), requiring a **game master** (**GM**) and at least one **player** to play. 
 
-At its core, **Ambersteel** is about emergent storytelling and tactical combat. Players experience the evolution of their characters by defining convictions that **drive** them to action and which are based on the events they experience. In that way, players also **drive** the story forward and guide the evolution of the world. 
+At its core, **STRIVE** is about emergent storytelling and tactical combat. Players experience the evolution of their characters by defining convictions that **drive** them to action and which are based on the events they experience. In that way, players also **drive** the story forward and guide the evolution of the world. 
 
-On the spectrum of *narrative-driven*, *game-y* and *simulationist*, **Ambersteel** aims for the region between *game-y* and *narrative-driven*, while leaning heavily towards *game-y*. It understands itself as a *game*, not a *simulation*. The rules outlined herein will often reflect that by making broad abstractions and even some unrealistic assertions, with the goal of keeping the game easier to learn and more fun to experience. 
+On the spectrum of *narrative-driven*, *game-y* and *simulationist*, **STRIVE** aims for the region between *game-y* and *narrative-driven*, while leaning heavily towards *game-y*. It understands itself as a *game*, not a *simulation*. The rules outlined herein will often reflect that by making broad abstractions and even some unrealistic assertions, with the goal of keeping the game easier to learn and more fun to experience. 
 
 Most rules have a certain degree of vagueness to them. This is at least partially deliberate. The situations that can come up during play are simply too varied and numerous to be possible to completely cover with rules, without requiring epic tomes filled to the brim with highly specific rulings for highly specific situations. Instead, the game relies on the **GM** to arbitrate in most situations. The descriptions in the rules here should serve as a point of orientation for the **GM**. How they interpret the rules, is how they're to be understood. 
 
@@ -255,7 +254,7 @@ More details about the system:
 Extensibility and adaptability form a central foundation of the system. While in its current form it best supports medieval fantasy themes, it should be fairly well adaptable to any theme and setting and even encourages you to do so. The bulk of the work would lie in designing skills and assets that fit your setting.
 
 # How to Play
-As **Ambersteel** is a **roleplaying game**, there are certain rules to follow and expectations made of both players and **GM**. 
+As **STRIVE** is a **roleplaying game**, there are certain rules to follow and expectations made of both players and **GM**. 
 
 The **GM** and the players work ***together*** to create a unique experience and weave a story of glorious triumph, tragic defeat or anything in-between. Ultimately, the **GM**'s job is to provide interesting conundrums to the players and their job is to provide interesting answers, in-line with what their characters believe and *want*. Remember that everyone at the table is looking to have fun and that includes the **GM**. 
 
@@ -264,7 +263,7 @@ Each player only directly controls a single character. The **GM** is in control 
 In some places, where distances are concerned, both feet and meters are noted as units. What attentive readers will notice, is that the conversion between the numbers won't always be correct. This is a deliberate decision to make the math easier, whenever distances are concerned. If a battlemap is used, one square on the grid should represent either a three foot, or one meter square. Furthermore, a single, ordinary human, should occupy an entire such square. 
 
 ## Dice
-**Ambersteel** uses a **dice pool** system of **six-sided dice** (henceforth referred to as **D6**) to resolve [tests](#tests). *Dice pool* means a variable number of dice will be rolled, based on a character's [attributes](#attributes), [skills](#skills), [boons](#boons--penalties) and circumstance of the situation they're in. 
+**STRIVE** uses a **dice pool** system of **six-sided dice** (henceforth referred to as **D6**) to resolve [tests](#tests). *Dice pool* means a variable number of dice will be rolled, based on a character's [attributes](#attributes), [skills](#skills), [boons](#boons--penalties) and circumstance of the situation they're in. 
 
 The following types of dice come into play:
 * **D4** - four-sided dice. Four of these will be enough for most situations. 
@@ -305,9 +304,7 @@ A [test](#tests) must be made whenever there is an **obstacle** to overcome - so
 ### Intent & Action
 The players drive the story and the action. They decide what their character will try to do and the **GM** will help them figure out if things will go as planned. 
 
-As a player, when deciding on what to do, make sure you state the **intent** of your action, like "I will make that person work for us!". 
-
-Then, the **GM** will need to know *how* you aim to follow up on your intent. Describe the **action** you will take. The clearer, the better. "I will tell them of our exploits and how well we get paid!", is a good response and allows the **GM** to conclude you're trying to [persuade](#persuasion-emp) the other character. Even better would be something like "I will *persuade* them by telling them of our exploits and how well we get paid!" That leaves no room for doubt *how* you wish to achieve your goal, which makes the **GM**'s job easier and the game flow better. 
+As a player, when deciding on what to do, make sure you state the **intent** of your action, like "I want to find incriminating evidence against a merchant". Then, the **GM** will need to know *how* you aim to follow up on your intent. Describe the **action** you will take. The clearer, the better. "I will ask around", would allow the **GM** to guide you along. But there are still details left to fill in. Who and where will you ask? What will you ask them? So, a better intent would be "I will ask the other merchants at the market what they think about this one merchant". That leaves no room for doubt *how* you wish to achieve your goal, which makes the **GM**'s job easier and the game flow better. The **GM** could now have each merchant tell the **PC** some rumours or observed past activities and behaviors of that one merchant, some of which may be of a sketchy nature, like "I swear I saw him down at the docks, speaking to some shady looking people" or "He always seems wary of people walking behind him".
 
 Of course, how appropriate a certain [attribute](#attributes) or [skill](#skills) is for the resolution of a given situation, is ultimately up to the **GM** and the specifics of the situation itself. 
 
@@ -456,7 +453,9 @@ A character helping in a test, also gains [progress](#advancing-skills) towards 
 > If the character who was helped succeeded their test, the helper also gains a successful test to mark on their skill. 
 
 #### Tests Bring about Learning
-Whenever a [skill](#skills) or [attribute](#attributes) is tested, its outcome must be noted. 
+Whenever a [skill](#skills) or [attribute](#attributes) is tested, its outcome must be noted. Once a certain threshold number is reached, the [skill](#skills) or [attribute](#attributes) advances to the a higher level. 
+
+For [skills](#skills), whether the test was a success or failure matters. But for [attributes](#attributes), only the number of tests matters. 
 
 When a [skill](#skills) is tested, both it **and** its associated [attribute](#attributes) is progressed. See also:
 * [advancing skills](#advancing-skills)
@@ -504,6 +503,8 @@ Governs how long a character can endure physical strains.
 
 For every point in endurance, a character raises their [exhaustion threshold](#exhaustion) by 1. All characters have a base [exhaustion threshold](#exhaustion) of 1. 
 
+For every point in endurance, a character can [sprint](#combat-movement) an additional 3'/1m per [AP](#action-points-ap) spent or every 5 seconds. 
+
 Endurance also governs how long a character can hold their breath. Every point in endurance grants around 3 minutes. 
 
 ##### Perception [Perc]
@@ -526,6 +527,14 @@ For every 3 points in **strength**, past the initial **modified level**, every [
 Governs the [injury limit](#injury) and chance to shrug off certain afflictions. 
 
 For every point in [toughness](#toughness-tough), a character gains **+4 maximum [HP](#hit-points-hp)** and raises their [injury](#injury) limit by 1. 
+
+Every time a character suffers at least 10 [HP](#hit-points-hp) of damage **in a single attack**, they gain +1 [advancement progress](#advancing-attributes). For 20 or more [HP](#hit-points-hp) of damage, they gain +2 [advancement progress](#advancing-attributes). 
+
+> A character suffering 15 points of damage **in a single attack**, gains +1 advancement progress to their toughness automatically. 
+>
+> A character suffering 22 points of damage **in a single attack**, gains +2 advancement progress to their toughness automatically. 
+> 
+> A character suffering 41 points of damage **in a single attack**, still only gains +2 advancement progress to their toughness automatically. 
 
 #### Mental Attributes
 The mind's abilities. 
@@ -720,6 +729,8 @@ Both teacher and pupil must actively spend time together, furthering the pupil's
 
 The rules for cycle and test are the same as with [practice](#practicing-skills), but the cycles noted in the table below are used, instead. Also, the student can use an extra **+1D6** to resolve their tests of the skill they're being taught. 
 
+Pupils benefit from getting twice the amount of advancement progress to note, per test. 
+
 | Skill Category | Cycle    |
 | -------------- | -------- |
 | Physical       | 2 Weeks  |
@@ -885,6 +896,8 @@ For every [injury](#injury), a character's maximum **HP** is reduced by 2. A [pe
 
 The **HP** range in between [injuries](#injury) is called a **HP** *segment*. 
 
+> A character with toughness 3 has 12 HP and an injury limit of 3. These 12 HP are their first HP segment. When they suffer an injury, they lose 2 maximum HP. Thus, their next HP segment is 10. And the one after that is 8. 
+
 Any **HP** damage past zero overflows. The additional damage dealt isn't lost. When **HP** reach 0, an [injury](#injury) is suffered, maximum **HP** are reduced by 2 and **HP** are reset to the new maximum, minus the damage that overflowed. In other words, the damage past the 0 mark flows into the next **HP** *segment*. 
 
 > A character currently at 8 **HP** and a maximum of 12 **HP** suffers 10 points of damage. Thus, they suffer an **injury** and now have the new maximum of 10 **HP**. 2 points of damage have overflowed. Therefore, the character's new current **HP** is (10 - 2 =) 8. 
@@ -892,6 +905,15 @@ Any **HP** damage past zero overflows. The additional damage dealt isn't lost. W
 A successful [medicine](#medicine-int) test at **Ob** equal to the treated character's [toughness](#toughness-tough) subtracted by their current number of injuries can restore all currently missing **HP** of a character. This requires [medical supplies](#list-of-stuff--things). **HP** also replenish on their own, albeit much slower. For every hour outside of combat, **1 D4** **HP** are regained, up to the current maximum. 
 
 > A character with a toughness of 4 and 2 injuries could have all their currently missing **HP** restored with a **medicine** test at **Ob** (4 - 2 =) 2. 
+
+#### Toughness Progress from Damage
+Every time a character suffers at least 10 [HP](#hit-points-hp) of damage **in a single attack**, they gain +1 [advancement progress](#advancing-attributes). For 20 or more [HP](#hit-points-hp) of damage, they gain +2 [advancement progress](#advancing-attributes). 
+
+> A character suffering 15 points of damage **in a single attack**, gains +1 advancement progress to their toughness automatically. 
+>
+> A character suffering 22 points of damage **in a single attack**, gains +2 advancement progress to their toughness automatically. 
+> 
+> A character suffering 41 points of damage **in a single attack**, still only gains +2 advancement progress to their toughness automatically. 
 
 #### Bludgeoned to 0 HP
 When a character was **bludgeoned** to 0 **HP** after they reached their [injury](#injury) limit, they might survive and fall [unconscious](#unconscious), instead of dying. For that, they must succeed a [toughness](#toughness-tough) [test](#tests) at **Ob** equal to 5 subtracted by their [toughness](#toughness-tough) (minimum **Ob** 1). If they succeed, they immediately fall [unconscious](#unconscious). If they fail, they die anyway.
@@ -1130,7 +1152,7 @@ A single **AFP** can be converted into 15 **MaFP**.
 ## Hand of Fate
 The **Hand of Fate** is a deck of cards a player can draw from, using their **FP** as currency to buy cards. 
 
-A player can play any of their cards **whenever** appropriate. A played card is discarded. 
+A player can play any of their cards **whenever** appropriate. A played card is discarded. The play of some cards may be exclusive to some others. If that is the case, then only one of the two cards may apply at the same time. A player may even play their own cards on another player's behalf, but both players must agree to this. 
 
 There are no limits to how many of a given card a player can own, but they may only hoard a maximum of 5 cards at a time. 
 
@@ -1138,11 +1160,11 @@ There are no limits to how many of a given card a player can own, but they may o
 | ------- | ------------------- | ------------------ |
 | 2 MiFP  | Single Re-Roll      | Repeat a single test you just made. |
 | 6 MiFP  | Clotter             | One **active** [injury](#injury) of choice is now **patched up**. |
-| 6 MiFP  | Cascading Re-Roll   | Repeat a single test you just made. With this card, you keep any **positives** you achieved from the previously made test and add them to the **positives** rolled when you repeat the test. |
-| 8 MiFP  | Learning Boost      | For the duration of the session, you gain **twice** the [progress](#advancing-skills) towards your [learning skills](#learning-skills) whenever you test them. |
+| 6 MiFP  | Cascading Re-Roll   | Repeat a single test you just made. With this card, you keep any **positives** you achieved from the previously made test and add them to the **positives** rolled when you repeat the test. Exclusive with "Double the Fun". |
+| 8 MiFP  | Learning Boost      | For the duration of the session, you gain **twice** the [progress](#advancing-skills) towards your [skills](#skills) and [attributes](#attributes) whenever you test them. |
 | 8 MiFP  | Hastened            | +1 **AP** during your turns for the entirety of a [combat](#combat) encounter. |
 | 2 MaFP  | Fact Check          | Change a minor plot point in a way your prefer. Work with your **GM** to make sure it fits the narrative, but they should respect your wish. This could be something like avoiding an **NPC** death or changing a fact about the plot. |
-| 3 MaFP  | Double the Fun      | Double the number of dice to roll on your next/current test and every rolled **positive** counts double - which means every rolled **positive** actually counts as 2 **positives**! |
+| 3 MaFP  | Double the Fun      | Double the number of dice to roll on your next/current test and every rolled **positive** counts double - which means every rolled **positive** actually counts as 2 **positives**! Exclusive with "Cascading Re-Roll". |
 | 3 MaFP  | Scar? What Scar?    | Remove one scar [scar](#scar) of choice. |
 | 4 MaFP  | Incorrect Diagnosis | Avoid an [injury](#injury) as it would be inflicted upon you - you do not suffer that [injury](#injury)! |
 | 5 MaFP  | Just a Flesh Wound  | Raise your injury limit by one for the duration of an encounter. This card can also be played as you suffer an [injury](#injury) and even when you're [dying](#deaths-door). In that case, playing this card counts as a successful test and brings you back from the verge of death. |
@@ -1319,6 +1341,8 @@ At the start of a combat encounter, **all non-surprised characters** start with 
 * Any action requiring a [test](#tests), costs 2 **AP**. 
 * [Expertises](#expertise) can cost varying amounts of **AP**. The exact number will be noted on the [expertise](#expertise) in question. 
 
+Once per turn, it is possible to **push yourself** to gain +1 **AP**, at the cost of +1 [exhaustion](#exhaustion). **Pushing yourself** when the additional point of [exhaustion](#exhaustion) would bring you to your threshold is not allowed. 
+
 ### Action Point Saving
 If a character ends their **turn** with any **AP** unspent, those **AP** will be saved up and be available as additional **AP** at the start of their next **turn**. 
 
@@ -1337,7 +1361,7 @@ Under normal circumstances, a character (an average human) can move up to **12'/
 
 **Difficult terrain** is any space that slows movement, but does not prevent it outright. Examples would be waist-high water, a surface of glue or a slowing force field. 
 
-It is also possible to **sprint**, doubling the distance one can move per **AP**, but at the cost of 1 point of [exhaustion](#exhaustion) for every **AP** spent **sprinting**. 
+It is also possible to **sprint**, increasing the distance one can move per **AP** spent, at the cost of 1 point of [exhaustion](#exhaustion) for every **AP** spent **sprinting**. The movement distance is increased by 3'/1m per level in [endurance](#endurance-end), per **AP**. Every time a character **sprints**, they progress their [endurance](#endurance-end) (but only once per turn). 
 
 ### Disengage
 It is possible to move out of an enemy's [range of opportunity](#attacks-of-opportunity) without provoking an [attack of opportunity](#attacks-of-opportunity). This action costs 2 [AP](#action-points-ap) and the disengaging character **must** move in a direction that will get them out of the [range of opportunity](#attacks-of-opportunity) the fastest and safest, as far as 1 **AP** of movement would get them. 
@@ -1371,6 +1395,10 @@ An attack generally requires an [opposed test](#opposed-test) to be made. If the
 
 In case of an [aoe](#area-of-effect-aoe) attack, a defender may be able to halve the [damage](#damage) (rounded up), if they win the [opposed test](#opposed-test). 
 
+Sometimes, special circumstances apply, which make certain attacks easier or harder to land. These are at the **GM's** discretion. They can impose an **Ob** penalty or boon whenever appropriate. 
+
+Also keep in mind there may be times when rolling for an attack is entirely unnecessary, such as against a helpless victim. In such a case, you may apply your malevolence with impunity, to the extent of your choosing. 
+
 ### Damage
 Damage dealt to an opponent reduces their [HP](#hit-points-hp). When their **HP** reaches 0, they suffer an [injury](#injury) and their **HP** is reset to their new maximum. The type of [injury](#injury) that is dealt, depends on the [damage type](#damage-types). 
 
@@ -1378,39 +1406,23 @@ If more damage is dealt, than the difference to 0, then that damage is also deal
 
 To determine the new **HP** maximum of a *segment*, see the [injury](#injury) section. 
 
-### Attack Modifiers
-Sometimes, special circumstances apply, which make certain attacks easier or harder to land. 
-
-#### Aimed Attack
-An attack generally targets the center of mass (torso) of the targeted opponent. 
-
-It is also possible to call out an attack to a specific part of an opponent's body. Usually, this means that the attack must be rolled at greater **Ob**. How much greater, must be determined by the **GM**. 
-
-A player may call out what effect the aimed attack is supposed to have, such as limiting their opponent's ability to stand, move, attack or whatever else the body part may be useful for. If they don't, the **GM** may decide the effect. 
-
-#### Easy Attack
-Some attacks may be easier to perform. An **easy attack** has a lower **Ob**.
-
-The following are generally considered easy attacks (but at the **GM**'s discretion):
-* From behind
-* Against prone opponents
-* Against restrained opponents
-
-#### Execution Attack
-The extreme version of an easy attack, the **execution attack** allows outright killing or maiming an opponent, without having to roll for an attack or for [damage](#damage). 
-
-Such an attack can be carried out against any character who is unable to resist (with the exception of player characters, see [death's door](#deaths-door)). 
-
-> An **unconscious** character, or one chained to the wall couldn't possibly resist and can be instantaneously killed with an **execution attack**. 
-
-This kind of attack is only possible at the **GM**'s discretion. 
-
 ### Attacks of Opportunity
 When a character is within weapon's reach of another hostile character, they're considered within the other's **range of opportunity**. Whenever a character in an enemy's **range of opportunity** moves away from or more than 6'/2m *around* that enemy, that enemy can *choose* to perform an **attack of opportunity**. It is possible to avoid an **attack of opportunity** with a [disengage](#disengage) combat action. 
 
 Performing an **attack of opportunity** costs 1 [AP](#action-points-ap) at a **-1D** penalty and will **halt** the enemy in question, preventing their movement, regardless of whether the attack lands. The attacked party can still choose to [push through](#push-through), thus still getting to move, but if they do, the **attack of opportunity** is **guaranteed** to land successfully, without any attack [test](#tests) necessary (this counts as an automatic success for the attacker). 
 
 An **attack of opportunity** is a **combat action** and a **reaction**. 
+
+### Stealth Attacks
+When attacking another character from stealth, the moment of surprise can make all the difference. An attack from stealth counts as an automatic success and you may go on to roll damage right away. 
+
+In addition to an automatic success, the attack also deals **+1D** damage or if the damage is a flat number, add half of that number, rounded up. 
+
+When attacking with [bludgeoning](#damage-types), you may knock another character [unconscious](#unconscious) with one fell swoop. For this, their [toughness](#toughness-tough) must not be more than 3 levels greater than your [strength](#strength-str). Otherwise, the normal stealth damage bonus applies. 
+
+> For example, two ordinary humans: one is attacking from stealth with a club and has **strength** 2, while the victim has **toughness** 5. The victim is knocked unconscious right away, as their toughness is still within 3 levels of their attacker. 
+>
+> On the other hand, the same human attacking a giant from stealth with a club cannot knock that giant unconscious, assuming that giant to have a **toughness** of 10. The difference of 8 levels is simply too great. 
 
 ## Defending
 There are two types of defense:
@@ -1448,6 +1460,16 @@ What speed exactly that is, depends heavily on circumstance. As always, the **GM
 It is possible for a character to defend an adjacent ally when they're being attacked. This costs 2 [AP](#action-points-ap) and results in the ally taking over the defense being forced to roll the defense test, instead of the originally attacked character. 
 
 Defending an ally is a **combat action** and a **reaction**. 
+
+### Defence Stunts
+If you succeed an **active defense** and achieve at least 2 **positives** over your attacker, then you may perform one of the following stunts, at the cost of +1 [exhaustion](#exhaustion) (but only if that won't bring you to your [exhaustion threshold](#exhaustion)): 
+
+* Disarm your opponent (if they have a detachable weapon).
+* Displace your opponent. They are forced to stumble backwards by 2m/6' in a direction of your choosing.
+* Displace yourself. You move 6'/2m in a direction of your choosing. This does not provoke [attacks of opportunity](#attacks-of-opportunity). 
+* Throw your opponent to the ground, making them proned.
+* Launch a counter-attack, for half your weapon's regular damage. You'll have to roll a regular attack, which your opponent can choose to defend against. This attack does not cost you any additional [AP](#action-points-ap). 
+* If defending against a ranged attack, you catch the projectile (if such a feat could be "reasonably" done). 
 
 ## Throwing
 Throwing things is a special type of action, that follows the rules outlined below. 
@@ -1497,7 +1519,9 @@ For your convenience, you can refer to the following chart:
 ### Throwing-Damage
 If throwing a weapon that isn't specifically made or especially suitable to throwing, then the damage that is dealt on successful hit is halved (rounded down). 
 
-When throwing non-weapons, the damage dealt is calculated the following way: [strength](#strength-str) * ([bulk](#bulk) - 1) (minimum bulk 1)
+When throwing non-weapons, the damage dealt is calculated the following way: [strength](#strength-str) * ([bulk](#bulk) - 1) (minimum [strength](#strength-str) * 1)
+
+Even if the `bulk - 1` formula would result in 0, instead use 1. The resulting multiplicator must not be less than 1. 
 
 The [damage type](#damage-types) to use, depends on the type of object and how it hits the target. For most non-weapons, **bludgeoning** or **crushing** should be appropriate. 
 
@@ -1780,6 +1804,15 @@ Determine your character's [exhaustion threshold](#exhaustion), by referring to 
 ## Asset Appendix
 The following list does not and cannot aim to be a complete listing of all possible assets in game. Adding new assets as necessary will have to be done by the **GM**. 
 
+### List of General Assets
+The following is a list of general assets. Of course, the following list is non-exhaustive. Invent more at your own need. 
+
+| Name                   | Bulk | Max. Stack Size | Description                                                              |
+| ---------------------- | ---- | --------------- | ------------------------------------------------------------------------ |
+| Antidote               | 1    | 2               | This unassuming liquid can make the difference between life and death. Is used in the [treatment of poison](#list-of-poison-injuries). |
+| Herbal Remedy Potion   | 1    | 2               | The sickly green tint and strong odor of the liquid within might not seem enticing, but its efficacy is well worth it. Upon imbibing, restores all currently missing [HP](#hit-points-hp) of a character. |
+| Medical Supplies       | 1    | 2               | A small satchel of clean bandages, thread and needle for suturing, a clean and sharp knife, a splint and straps for binding. Is used in the [treatment](#injury-states--treatment) of various [injuries](#injury). |
+
 ### Weapon Properties
 Weapon type assets can have the following **traits**:
 * **Long Reach**: Allows attacking a target two fields (6'/2m) away. 
@@ -1790,15 +1823,6 @@ Weapon type assets can have the following **traits**:
 * **Very Slow Reload**: Reloading the weapon costs 3 [AP](#action-points-ap).
 * **Ranged (throwable: < attack name >)**: No damage penalty is incurred when throwing this type of weapon. The damage formula for the given attack is to be used on hit. 
 * A **counter-attack** is a *reaction* that allows a fighter being attacked to attack their attacker, at the cost of 1 [AP](#action-points-ap). 
-
-### List of Stuff & Things
-The following is a list of general assets. Of course, the following list is non-exhaustive. Invent more at your own need. 
-
-| Name                   | Max. Stack Size | Description                                                              |
-| ---------------------- | --------------- | ------------------------------------------------------------------------ |
-| Antidote               | 2    | This unassuming liquid can make the difference between life and death. Is used in the [treatment of poison](#list-of-poison-injuries). |
-| Herbal Remedy Potion   | 2    | The sickly green tint and strong odor of the liquid within might not seem enticing, but its efficacy is well worth it. Upon imbibing, restores all currently missing [HP](#hit-points-hp) of a character. |
-| Medical Supplies       | 2    | A small satchel of clean bandages, thread and needle for suturing, a clean and sharp knife, a splint and straps for binding. Is used in the [treatment](#injury-states--treatment) of various [injuries](#injury). |
 
 ## Lists of Skills
 The following list does not and cannot aim to be a complete listing of all possible skills in game. Adding new skills as necessary will have to be done by the **GM**. 
@@ -1814,16 +1838,16 @@ Performing acrobatic feats, such as jumping, tumbling and climbing, without inju
 | 2     | Wind Out Of It       | 1  | 2       | When hit by a [single-target](#single-target-st) attack, wind out of the hit and suffer only half the damage. Can be used even when a much bulkier weapon is breaking through your successful defens, to halve the damage *again*, effectively resulting in you suffering only 1/4th (rounded up) of the damage. | / |
 | 3     | Bob, Weave, Jab      | 1  | Opposed | When succeeding a defense test, follow up with a [single-target](#single-target-st) attack against the enemy who attacked you. | / |
 
-#### Berserking (End)
+#### Berserking (Tough)
 Whether as a well-honed skill and way of life, or through a disappointing childhood of misery and pain, berserking is a talent for fighting angrily and recklessly. It allows a fighter to keep fighting at surprising strength, even when wounded. 
 
 However, the price for this strength is steep. The chance of death is greatly increased for anyone who embraces this way of fighting. 
 
 | Level | Name                 | AP | **Ob**  | Effect(s)          | Condition(s) |
 | ----- | -------------------- | -- | ------- | ------------------ | ------------ |
-| 1     | Reckless Assault     | 2  | /       | Deal an extra **D** of damage on your next successful attack during this turn, according to your weapon's damage. Suffer a **-2D** penalty on all defense tests until the start of your next turn. |  |
-| 2     | Grit Your Teeth      | 0  | /       | Ignore the negative effects of one [injury](#injury) of choice for the rest of the combat encounter. It will still count towards the injury limit, however! | Once per combat. |
-| 3     | Pain is Strength     | 3  | Opposed | Perform a [single-target](#single-target-st) melee attack against an opponent of choice. For every active [injury](#injury) you currently have, deal one extra **D** of damage. You suffer one point of [exhaustion](#exhaustion). | Once per day. |
+| 0     | Reckless Assault     | 2  | /       | Deal an extra **D** of damage on your next successful attack during this turn, according to your weapon's damage. Suffer a **-2D** penalty on all defense tests until the start of your next turn. |  |
+| 1     | Grit Your Teeth      | 1  | /       | Ignore the negative effects of one [injury](#injury) of choice for the rest of the combat encounter. It will still count towards the injury limit, however! | Once per combat. |
+| 2     | Pain is Strength     | 3  | Opposed | Perform a [single-target](#single-target-st) melee attack against an opponent of choice. For every active [injury](#injury) you currently have, deal one extra **D** of damage. You suffer one point of [exhaustion](#exhaustion). | Once per day. |
 
 #### Fishing (End)
 The ability to efficiently catch fish. 
@@ -1833,16 +1857,18 @@ Playing an instrument of choice.
 
 The instrument in question must be noted. 
 
-#### Stealth (Agi)
+#### Stealth (Agi/Perc)
 Moving silently and performing actions undetected. 
 
 | Level | Name                 | AP | **Ob**  | Effect(s)          | Condition(s) |
 | ----- | -------------------- | -- | ------- | ------------------ | ------------ |
 | 3     | Muffled Fumble       | 0  | 2       | When failing a **stealth test**, re-roll two of your **negatives**. If you now succeed, treat that as the outcome of your original roll. | Failed a **stealth test**;  Once per rest. |
-| 4    | Pocket-Sand           | 3  | Opposed | If you succeed a **stealth test** against a single designated target's [observation](#observation-perc), you can disappear from their sight and run up to 2 **AP** worth of distance. | Once per rest. |
+| 4     | Pocket-Sand          | 3  | Opposed | If you succeed a **stealth test** against a single designated target's [observation](#observation-perc), you can disappear from their sight and run up to 2 **AP** worth of distance. | Once per rest. |
 
 #### Swimming (End)
-Swimming, as opposed to drowning. 
+The ability to safely stay afloat and move around in water. 
+
+For every point in **swimming**, a character can move an additional 3'/1m per [AP](#action-points-ap) spent or every 5 seconds. 
 
 #### Thievery (Agi)
 Pickpocketing and lockpicking. 
@@ -1855,14 +1881,14 @@ Pickpocketing and lockpicking.
 #### Observation (Perc)
 Actively looking out for and detecting hidden things or characters. 
 
-#### Path-finding (Perc)
+#### Path-finding (Perc/Int)
 Orienting oneself in the world and finding and following tracks. 
 
 | Level | Name                 | AP | **Ob** | Effect(s)          | Condition(s) |
 | ----- | -------------------- | -- | ------ | ------------------ | ------------ |
 | 3     | Find your Bearings   | 1  | 2      | Figure out your current heading and time of day, even when in complete darkness or in a place without landmarks. | Once per rest. |
 
-#### Shield (End)
+#### Shield (End/Tough)
 Expertise at defending oneself using a shield. 
 
 For any ally next to you, who's also using a shield, you both gain **+1D** on your defense tests. 
@@ -1892,7 +1918,7 @@ A vital skill in stage-play for honest entertainment and just as important to li
 | 0     | Taunt                | 2  | Opposed by [self-control](#self-control-willemp) | Force a designated target to attack *you* on their next turn. | |
 | 3     | Vicious Mockery      | 2  | Opposed by [self-control](#self-control-willemp) | Lower a designated target's defense by **-1D** until the end of their next turn and force them to attack *you*. | |
 
-#### Animal Handling (Emp)
+#### Animal Handling (Emp/Will)
 Gaining an animal's trust, directing it and training it to obey simple commands. 
 
 Is opposed by [self-control](#self-control-will). 
@@ -1902,7 +1928,7 @@ Is opposed by [self-control](#self-control-will).
 | 0     | Command Animal       | 2  | Opposed by [self-control](#self-control-willemp) | Issue a *simple* command to a tamed/friendly animal. | / |
 | 2     | Calm Animal          | 2  | Opposed by [self-control](#self-control-willemp) | Calm an aggressive/hostile/frightened animal down. | Once per scene. |
 
-#### Commanding (Will)
+#### Commanding (Tough/Will)
 Speaking commands others will respect and follow to the letter. 
 
 | Level | Name                   | AP | **Ob** | Effect(s)          | Condition(s) |
@@ -1933,7 +1959,7 @@ In and outside of [combat](#combat), a rider will inherit the [speed](#combat-mo
 | 1     | Spur                 | 1  | 2      | Gain an additional 3 **AP** worth of movement from your mount. The mount suffers +1 exhaustion. | At most once per turn. |
 | 3     | Mounted Charge       | 3  | 3      | Perform a mounted charge attack, dealing **2D4** extra damage of whatever weapon type you are using. | Mounted on a fast and strong animal; Must have enough distance to target to gain enough speed - refer to **GM**'s judgement. |
 
-#### Self-Control (Will/Emp)
+#### Self-Control (Will/Tough)
 Mastery of one's own impulses. Used to stay awake past the point of exhaustion and to not act on emotional impulse. 
 
 ### Knowledge Skills
@@ -1979,17 +2005,15 @@ Knowledge about religions, legends and myths. May be used to recall knowledge ab
 #### Medicine (Int/Emp)
 Diagnosing and treating mundane [injuries](#injury). 
 
-Implies an understanding of anatomy, whereas past experiences with the creatures treated should be noted. 
-
 #### Reading and Writing < language > (Int)
 The ability to both read and write in a specific language. 
 
 The language in question must be noted in addition to this skill. 
 
-#### Surgery (Int/Emp)
+#### Surgery (Int/Agi)
 The ability to invasively treat ailments without making things worse for the patient. 
 
-#### Warfare (Wis)
+#### Warfare (Wis/Tough)
 The ability to understand and direct large-scale combat movements, the logistics and psychology of war. 
 
 This governs the understanding of what makes defensive structures effective and how to circumvent them. This entails a functional understanding of siege engines, but not their construction. 
@@ -2004,7 +2028,7 @@ The ability to paint and draw well, as well as a general sense of aesthetics.
 | ------------------------------------ | ---------- | --------- | -------------------------------------- | --------------- | 
 | 1 painting or sculpture.             | Moderate   | Moderate  | Any paintable or shapeable object, such as a canvas or chunk of marble. | / |
 
-#### Cooking (Emp)
+#### Cooking (Emp/Agi)
 The ability to cook well. Poor cooks are prone to losing ingredients due to burning them or overcooking them to the point of inedibility. 
 
 Tools: cooking utensils, a pot or pan, a fire place
@@ -2343,18 +2367,18 @@ Note that whenever a bludgeoning [injury](#injury) is suffered, an [endurance](#
 ## List of Illnesses
 | Range D100 | Name              | Duration          | Effect      | Treatment |
 | ---------- | ----------------- | ----------------- | ----------- | --------- |
-| 1 - 8      | Strength Sap      | **1D10 + 3** Days | The muscles atrophy, despite any physical exercise. If not treated quickly, the victim will quickly find themselves unable to move, at all. **-1D4** [strength](#strength-str); **-1D4** [agility](#agility-agi); Max 6'/2m movement distance. | [medicine](#medicine-int) **Ob** 1D4; Reduces the duration by **2D4** days. |
-| 9 - 16     | Lung Fever        | **1D10 + 1** Days | The victim finds themselves easily winded, even by simple acts, such as walking to the privy at night. **-(1D4 + 1)** [endurance](#endurance-end). | [medicine](#medicine-int) **Ob** 1; The ill-effects are suspended for 24 hours. |
-| 17 - 24    | Water's Curse     | **1D10 + 1** Days | The victim sweats uncontrollably and has watery stools, thus dehydrating rapidly and losing consciousness frequently. **-1D4** [toughness](#toughness-tough); [exhausted](#exhausted). | [medicine](#medicine-int) **Ob** 1D4; Reduces the duration by **1D10** days and suspends the ill-effects for 24 hours. |
-| 25 - 32    | Jazz-Hands        | **1D10 + 3** Days | The victim can't stop the tremors in their arms. Any action requiring precise movements is impossible. **-1D4** [agility](#agility-agi). | [medicine](#medicine-int) **Ob** 1; The ill-effects are suspended for 24 hours. |
-| 33 - 40    | Brain Rot         | **2D10** Days     | The victim's mind dulls. They find it difficult to form coherent thoughts. **-1D4** [intelligence](#intelligence-int); **-1D4** [wisdom](#wisdom-wis). | [medicine](#medicine-int) **Ob** 1; The ill-effects are suspended for 24 hours. |
-| 41 - 48    | Feeble Tounge     | **1D10 + 3** Days | The tounge flops and waggles around uncontrollably. Speech is impaired. **-1D4** [oratory](#oratory-ora). | [medicine](#medicine-int) **Ob** 1D4; Reduces the duration by **2D4** days. |
-| 49 - 56    | Wound Fever       | Until cured       | [Injuries](#injury) of the victim refuse any treatment. Any [injury](#injury) of the victim can be **patched up**, but not **treated**. | [medicine](#medicine-int) **Ob** 2; Sets the duration to **1D10** days. |
-| 57 - 64    | Filth Fever       | **1D10 + 1** Days | The victim coughs uncontrollably and violently, with awful-smelling breath. **-1D4** [oratory](#oratory-ora); **-1D4** [endurance](#endurance-end). | [medicine](#medicine-int) **Ob** 1D4 + 1; Removes the illness on the next day. |
-| 65 - 80    | Coldness of Heart | **1D10 + 1** Days | The victim feels distant, as if they were only spectators in their own body. **-1D4** [empathy](#empathy-emp); **-1D4** [will](#will-will). | [medicine](#medicine-int) **Ob** 1D4; Reduces the duration by **2D4** days. |
-| 81 - 88    | Rot Plague        | **4D10** Days     | The skin starts developing a nasty rash, before flaking off. Not only unsightly, the bare flesh underneath smells like it's rotting. **-1D4** [endurance](#endurance-end); **-(1D4 + 1)** [toughness](#toughness-tough). | [surgery](#surgery-int) **Ob** 2; The ill-effects are suspended for 24 hours. |
-| 89 - 95    | Organ Mold        | Until cured       | Causes an [injury](#injury) every day it is active. | [surgery](#surgery-int) **Ob** 1D4 + 1; The illness is removed within a day. |
-| 96 - 100   | Red Death         | Until cured       | The victim starts bleeding from all of their orifices, with no end in sight. Causes 3 points of [bleeding](#bleeding) every day it is active. | [surgery](#surgery-int) **Ob** 2; The illness is removed within a day. |
+| 1 - 8      | Strength Sap      | **1D10 + 3** Days | The muscles atrophy, despite any physical exercise. If not treated quickly, the victim will quickly find themselves unable to move, at all. **-1D4** [strength](#strength-str); **-1D4** [agility](#agility-agi); Max 6'/2m movement distance. | [Medicine](#medicine-int) **Ob** 1D4; Reduces the duration by **2D4** days. |
+| 9 - 16     | Lung Fever        | **1D10 + 1** Days | The victim finds themselves easily winded, even by simple acts, such as walking to the privy at night. **-(1D4 + 1)** [endurance](#endurance-end). | [Medicine](#medicine-int) **Ob** 1; The ill-effects are suspended for 24 hours. |
+| 17 - 24    | Water's Curse     | **1D10 + 1** Days | The victim sweats uncontrollably and has watery stools, thus dehydrating rapidly and losing consciousness frequently. **-1D4** [toughness](#toughness-tough); [exhausted](#exhausted). | [Medicine](#medicine-int) **Ob** 1D4; Reduces the duration by **1D10** days and suspends the ill-effects for 24 hours. |
+| 25 - 32    | Jazz-Hands        | **1D10 + 3** Days | The victim can't stop the tremors in their arms. Any action requiring precise movements is impossible. **-1D4** [agility](#agility-agi). | [Medicine](#medicine-int) **Ob** 1; The ill-effects are suspended for 24 hours. |
+| 33 - 40    | Brain Rot         | **2D10** Days     | The victim's mind dulls. They find it difficult to form coherent thoughts. **-1D4** [intelligence](#intelligence-int); **-1D4** [wisdom](#wisdom-wis). | [Medicine](#medicine-int) **Ob** 1; The ill-effects are suspended for 24 hours. |
+| 41 - 48    | Feeble Tounge     | **1D10 + 3** Days | The tounge flops and waggles around uncontrollably. Speech is impaired. **-1D4** [oratory](#oratory-ora). | [Medicine](#medicine-int) **Ob** 1D4; Reduces the duration by **2D4** days. |
+| 49 - 56    | Wound Fever       | Until cured       | [Injuries](#injury) of the victim refuse any treatment. Any [injury](#injury) of the victim can be **patched up**, but not **treated**. | [Medicine](#medicine-int) **Ob** 2; Sets the duration to **1D10** days. |
+| 57 - 64    | Filth Fever       | **1D10 + 1** Days | The victim coughs uncontrollably and violently, with awful-smelling breath. **-1D4** [oratory](#oratory-ora); **-1D4** [endurance](#endurance-end). | [Medicine](#medicine-int) **Ob** 1D4 + 1; Removes the illness on the next day. |
+| 65 - 80    | Coldness of Heart | **1D10 + 1** Days | The victim feels distant, as if they were only spectators in their own body. **-1D4** [empathy](#empathy-emp); **-1D4** [will](#will-will). | [Medicine](#medicine-int) **Ob** 1D4; Reduces the duration by **2D4** days. |
+| 81 - 88    | Rot Plague        | **4D10** Days     | The skin starts developing a nasty rash, before flaking off. Not only unsightly, the bare flesh underneath smells like it's rotting. **-1D4** [endurance](#endurance-end); **-(1D4 + 1)** [toughness](#toughness-tough). | [Surgery](#surgery-int) **Ob** 2; The ill-effects are suspended for 24 hours. |
+| 89 - 95    | Organ Mold        | Until cured       | Causes an [injury](#injury) every day it is active. | [Surgery](#surgery-int) **Ob** 1D4 + 1; The illness is removed within a day. |
+| 96 - 100   | Red Death         | Until cured       | The victim starts bleeding from all of their orifices, with no end in sight. Causes 3 points of [bleeding](#bleeding) every day it is active. | [Surgery](#surgery-int) **Ob** 2; The illness is removed within a day. |
 
 ## List of Mutations
 One should always keep in mind that despite the game mechanical effects of a mutation, the appearance of an affected individual will also be severly altered. Other characters and creatures may react with disgust, fear, disdain, pity, and so on. 
@@ -2365,7 +2389,7 @@ One should always keep in mind that despite the game mechanical effects of a mut
 | 6 - 12     | Deformed Arm           | The arm deforms and bends in ways it was never meant to. -1 [Agility](#agility-agi), -1 [Strength](#strength-str). |
 | 13 - 19    | Grotesque Claws        | The entire lower arm morphs into three large claws. Unable to hold *anything* with that arm, but able to perform claw attacks that deal **3D6** **slashing** damage. |
 | 20 - 25    | Deformed Leg           | The leg deforms and bends in ways it was never meant to. -1 [Agility](#agility-agi). |
-| 26 - 32    | Deformed Face          | A morphed visage, forever stuck in agony, horror and anger. -1 [persuasion](#persuasion-emp), +1 [intimidation](#intimidation-will). |
+| 26 - 32    | Deformed Face          | A morphed visage, forever stuck in agony, horror and anger. +1 [commanding](#commanding-will), -1 [acting](#acting-empora). |
 | 33 - 39    | Internal Changes       | Something deep within isn't quite right. -1 [Endurance](#endurance-end) -1 [Toughness](#toughness-tough) |
 | 40 - 46    | Bulbous Head           | Part of the cranium grows tumurously. The brain is weighed down and slowed down. -1 [Intelligence](#intelligence-int) -1 [Wisdom](#wisdom-wis) |
 | 47 - 53    | Animal Ears            | The ears morph into something resembling animal ears (or another animal's ears). Despite the obvious reason for ridicule, there are no penalties. +1 [Perception](#perception-perc) (hearing). |
@@ -2385,20 +2409,19 @@ Most [scars](#scar) can only be incurred once, but some may be incurred multiple
 | Name                    | Limit     | Description                       |
 | ----------------------  | --------- | --------------------------------- |
 | Burned skin             | /         | Something has melted parts of the skin. Those areas are irritable and itchy. |
-| Burned face             | /         | Something has melted parts of the face. A powerful reminder of insufferable pain, which cannot be overlooked. +1 [intimidation](#intimidation-will), -1 [persuasion](#persuasion-emp). |
+| Burned face             | /         | Something has melted parts of the face. A powerful reminder of insufferable pain, which cannot be overlooked. |
 | Creaky limb             | /         | Every movement is painful, even if ever so slightly and causes you to halt your movement every once in a while. |
-| Crooked jaw             | 1         | The jaw hangs a little looser than before, causing your speech to sound a little odd. Some may take you for some kind of dullard, because of it. +1 [deception](#deception-ora), -1 [persuasion](#persuasion-emp). |
+| Crooked jaw             | 1         | The jaw hangs a little looser than before, causing your speech to sound a little odd. Some may take you for some kind of dullard, because of it. |
 | Crooked limb            | /         | It may have healed, but will never be quite as before. Your limb moves in slightly odd ways. |
 | Crooked rib cage        | 1         | There is a dent in your rib cage where there shouldn't be one. It looks and feels a little odd. |
-| Crooked skull           | 1         | There is a dent in your skull where there shouldn't be one. It looks and feels a little odd. Some may take you for some kind of dullard, because of it. +1 [deception](#deception-ora), -1 [persuasion](#persuasion-emp). |
+| Crooked skull           | 1         | There is a dent in your skull where there shouldn't be one. It looks and feels a little odd. Some may take you for some kind of dullard, because of it. |
 | Discolored skin         | /         | Spots on your skin have permanently discolored. It may be a dark, sickly green or a darkened blue or black color. |
 | Disfigured ear          | Ear Count | The ear is unrecognizable. It may look bad, but the ear still does its job. Mostly. |
 | Disfigured nose         | 1         | An unnaturally crooked nose makes breathing slightly more difficult and is sure to be memorable. |
-| Blind eye               | /         | The eye has glazed over white and is impossible to see through. -1 [perception](#perception-perc); cannot see through that eye. |
-| Heavy breathing         | 1         | Your lung doesn't work quite right anymore. The wheezing and occasional coughing is quite distinguishing. -1 [stealth](#stealth-agi). |
+| Heavy breathing         | 1         | Your lung doesn't work quite right anymore. The wheezing and occasional coughing is quite distinguishing. |
 | Scarred arm             | Arm Count | A reminder of a past injury to your arm. |
 | Scarred body            | /         | A reminder of a past injury. |
-| Scarred eye             | /         | A rather dashing scar stretching from above to below the eye tells a story of adventure. Or of a really unfortunate accident. +1 [intimidation](#intimidation-will). |
+| Scarred eye             | /         | A rather dashing scar stretching from above to below the eye tells a story of adventure. Or of a really unfortunate accident. |
 | Scarred leg             | /         | A reminder of a past injury to your leg. |
 | Scarred limb            | /         | A reminder of a past injury to a limb. |
 

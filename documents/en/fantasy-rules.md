@@ -22,12 +22,14 @@
   - [Spell-Backfire](#spell-backfire)
   - [Concentration Spells](#concentration-spells)
   - [Magic Negation](#magic-negation)
+  - [Protection From Magic](#protection-from-magic)
   - [Testing Magic](#testing-magic)
   - [Magic Things](#magic-things)
     - [Abyssalite](#abyssalite)
     - [Amberite](#amberite)
     - [Ambersteel](#ambersteel)
     - [Runes](#runes)
+    - [Magic Scrolls](#magic-scrolls)
 - [Assets](#assets)
   - [Weapon Properties](#weapon-properties)
 - [Appendix](#appendix)
@@ -43,7 +45,7 @@
         - [Round Shield](#round-shield)
         - [Heater Shield](#heater-shield)
         - [Kite Shield](#kite-shield)
-    - [List of Stuff \& Things](#list-of-stuff--things)
+    - [List of General Assets](#list-of-general-assets)
     - [Weapon Types](#weapon-types)
       - [Dagger (Agi)](#dagger-agi)
       - [Light Blade (Agi)](#light-blade-agi)
@@ -70,23 +72,24 @@
       - [Heraldry (Int)](#heraldry-int)
       - [Magic School \< School \> (\< Attribute \>)](#magic-school--school---attribute-)
     - [Craftsmanship Skills](#craftsmanship-skills)
-      - [Armor smithing (Str)](#armor-smithing-str)
-      - [Ambersmithing (Agi)](#ambersmithing-agi)
-      - [Alchemy (Arc)](#alchemy-arc)
+      - [Armor Smithing (Str/End)](#armor-smithing-strend)
+      - [Ambersmithing (Agi/End)](#ambersmithing-agiend)
+      - [Alchemy (Arc/Int/Agi)](#alchemy-arcintagi)
       - [Brewing (Wis)](#brewing-wis)
-      - [Blacksmithing (Str)](#blacksmithing-str)
+      - [Blacksmithing (Str/End)](#blacksmithing-strend)
       - [Bow-Making (Agi)](#bow-making-agi)
       - [Carpentry (Agi)](#carpentry-agi)
       - [Clothesmaking (Agi)](#clothesmaking-agi)
       - [Engineering (Int)](#engineering-int)
       - [Fletching (Agi)](#fletching-agi)
-      - [Glass-blowing (Agi)](#glass-blowing-agi)
+      - [Glass-Blowing (Agi)](#glass-blowing-agi)
       - [Goldsmithing (Agi)](#goldsmithing-agi)
       - [Leatherworking (Agi)](#leatherworking-agi)
-      - [Masonry (Str)](#masonry-str)
+      - [Masonry (Str/End)](#masonry-strend)
       - [Rune Carving (Arc/Wis)](#rune-carving-arcwis)
+      - [Shield-Making (Str/End)](#shield-making-strend)
       - [Tanning/Skinning (Agi)](#tanningskinning-agi)
-      - [Weapon smithing (Str)](#weapon-smithing-str)
+      - [Weapon Smithing (Str/End)](#weapon-smithing-strend)
       - [Woodcarving (Agi)](#woodcarving-agi)
   - [List of Magic Schools](#list-of-magic-schools)
     - [Alteration (Int)](#alteration-int)
@@ -96,9 +99,9 @@
     - [Psionics (Ora/Int)](#psionics-oraint)
     - [Pyromancy (Arc)](#pyromancy-arc)
     - [Restoration (Emp)](#restoration-emp)
-    - [Soul-Binding (Int)](#soul-binding-int)
+    - [Soul-Binding (Will)](#soul-binding-will)
     - [Telekinesis (Int)](#telekinesis-int)
-    - [Telepathy (Ora)](#telepathy-ora)
+    - [Telepathy (Will)](#telepathy-will)
   - [List of Injuries](#list-of-injuries)
   - [List of Illnesses](#list-of-illnesses)
 
@@ -211,7 +214,11 @@ Determine your character's **maximum magic stamina**, by referring to the [magic
 You'll need to track **current magic stamina** separately. To start with, set your current to your maximum **magic stamina**. 
 
 # Magic
-Only a character with [arcana](#arcana-arc) can cast magic. What kind of magic, depends on the [magic schools](#list-of-magic-schools) the character knows. There are offensive, defensive and manipulative [schools of magic](#list-of-magic-schools). 
+For this supplement, magic is assumed to be a mostly invisible force that runs all throughout, like a magnetosphere. Perhaps it could be called the *arcanosphere*. Individuals gifted with a sensitivity to this force may learn to manipulate and "shape" it. Thus, magical ability is intuitive. Those born without the gift, cannot learn magic. Of course, you may want to relax this rule, if you prefer anyone should have the chance to learn magic. 
+
+Only a character with [arcana](#arcana-arc) can cast intuitive magic. What kind of magic, depends on the [magic schools](#list-of-magic-schools) the character knows. There are offensive, defensive and manipulative [schools of magic](#list-of-magic-schools). 
+
+There may also be magic artifacts that can either cause magical effects on their own, or through character interaction. With such artifacts, it may be possible for non-mages to cast magic. For that, see [runes](#runes) and [scrolls](#magic-scrolls). 
 
 A *magic spell* is the intended effect of using a [magic school's](#magic-school--school---attribute-) [expertise](./core-rules.md#expertise). This is also referred to as *casting magic*, *casting a spell* or other similar wordings. In mechanical terms, every [expertise](./core-rules.md#expertise) noted on a [school of magic](#list-of-magic-schools) is a *magic spell*.
 
@@ -230,10 +237,10 @@ For every point of a spell's chosen **spell intensity**, **1 D4** must be rolled
 Magic takes a toll on the caster's body, as it takes great mental effort to properly cast magic. **Magic stamina** represents a mage's capacity for casting magic without risk to themselves. It is a replenishable resource that is used up faster with [stronger spells](#spell-intensity-si). 
 
 Mechanically speaking, every mage has two values to track: their **maximum magic stamina** and their **current magic stamina**. 
-* The **maximum magic stamina** of a mage is derived from the **sum** of their [arcana](#arcana-arc) attribute * 2 plus the **raw levels** of all their known [magic school skills](#magic-school--school---attribute-). 
+* The **maximum magic stamina** of a mage is derived from the (**sum** of their [arcana](#arcana-arc) attribute plus the **raw levels** of all their known [magic school skills](#magic-school--school---attribute-) + 4) * 2. 
 * The **current magic stamina** can not be less than 0 or more than their **maximum magic stamina**. Every time a mage casts a spell, they incur a **magic stamina** cost, based on the chosen [spell intensity](#spell-intensity-si), which is deducted from this number. 
 
-> If a mage has an **arcana** of 3 and has the **magic school skills** **pyromancy** at level 3, **cryomancy** at level 2 and **illusion** at level 5, that means they have (3 + 3 + 2 + 5) = 13 **maximum magic stamina**. 
+> If a mage has an **arcana** of 3 and has the **magic school skills** **pyromancy** at level 3, **cryomancy** at level 2 and **illusion** at level 1, that means they have (4 + 3 + 3 + 2 + 1) * 2 = 26 **maximum magic stamina**. 
 
 Once spent, **magic stamina** can only be regained through **active rest or meditation**. For every **half hour** spent in *active rest or meditation*, a mage regains **1 D4** **magic stamina**. Active rest or meditation implies not engaging in any physical or mental strains. If in doubt - if you have to do a test for it, it's probably a strain. 
 
@@ -266,6 +273,13 @@ If the defense fails, the full effect is applied. If the defense attempt causes 
 
 **Magic negation** can also be used to prevent another mage's [spell-backfire](#spell-backfire).
 
+## Protection From Magic
+Armor made from [Ambersteel](#ambersteel) can reduce the damage suffered through magical sources and reduce the [spell intensity](#spell-intensity-si) of non-damaging spells. 
+
+The [quality](./core-rules.md#crafting) of an armor or shield determines how much it protects the wearer. See [ambersmithing](#ambersmithing-agiint) for the specific numbers. 
+
+Damage from magical sources is reduced by the quality level + a number of dice. Non-damaging spells have their [spell intensity](#spell-intensity-si) reduced by *only* the quality level. 
+
 ## Testing Magic
 [Testing](./core-rules.md#tests) a [magic school skill](#magic-school--school---attribute-), in order to cast a *magic spell*, works as follows:
 1. The mage determines the [spell intensity](#spell-intensity-si) they're going to use. Their level in the corresponding [magic school skill](#magic-school--school---attribute-) determines the maximum [spell intensity](#spell-intensity-si) they can pick. 
@@ -280,6 +294,8 @@ If the defense fails, the full effect is applied. If the defense attempt causes 
   2. If the test is a **partial success/failure**, the spell fizzles and nothing happens.
   3. If the test is a **complete failure**, the spell [back-fires](#spell-backfire). 
 
+Whenever a [magic school skill](#magic-school--school---attribute) is tested, [arcana](#arcana-arc) is progressed, as well! If [arcana](#arcana-arc) is the base attribute, then it **is** progressed twice. 
+
 > A mage wants to cast an [illusion](#illusion-emp) spell, at SI 2. Their level in the corresponding magic school skill is 4. They have 4 magic stamina left. 
 >
 > They roll **2 D4**, yielding them a 3 and a 2. The sum (5) is one point more magic stamina, than the mage had left. They suffer a spell-backfire and their intended target is left unaffected!
@@ -293,6 +309,8 @@ If the defense fails, the full effect is applied. If the defense attempt causes 
 ## Magic Things
 No fantasy world would be complete without materials with uses for the supernatural or artifacts of immense power. This section introduces the basics of these things. 
 
+Aside from the materials listed below, you are of course free to invent more as desired. 
+
 ### Abyssalite
 **Abyssalite** is a hard and brittle mineral, that has the ability to *amplify the flow of magic*. It can only be acquired from the depths of the earth and is fairly rare. 
 
@@ -300,44 +318,72 @@ Its surface is unnaturally smooth and covered in a fine, iridescent shine. Under
 
 **Abyssalite** is a hard and brittle mineral, prone to shattering if too much force is applied. This makes it difficult to shape. It is also fairly heavy, which makes it difficult to carry long. 
 
-A fist-sized **Abyssalite** chunk has a [bulk](#carrying-capacity) of 2 and grants one greater level in the respective school of magic, without costing any extra [magic stamina](#magic-stamina). In order to use the **Abyssalite**, the caster **must** be touching it. 
+A fist-sized **Abyssalite** chunk has a [bulk](./core-rules.md#carrying-capacity) of 2 and grants one greater level in the respective school of magic, without costing any extra [magic stamina](#magic-stamina). In order to use the **Abyssalite**, the caster **must** be touching it. 
 
 ### Amberite
 As magic is amplified by [Abyssalite](#abyssalite), its antithesis is called **Amberite**, a metal which dulls the effects of magic and slows any magic flow nearby it. The material is also known to affect magic creatures and can cause great pain in magic-users. 
 
 Weapons made from **Amberite** are quite popular with witch and monster hunters alike, although fairly hard to come by, due to the difficulty in **Amberite** processing. 
 
-**Amberite** is a crystalline material, that can be molten down and shaped, like iron. It glows weakly, in the fiery orange of the name-sharing amber stone. Near the edges, the glow fades to a dull reflection, like cooling molten glass. 
+**Amberite** is a crystalline material, that can be molten down and shaped, like iron. It glows weakly and translucently, in the fiery orange of the name-sharing amber stone. Near the edges, the glow fades to a dull reflection, like cooling molten lava. 
 
-It only occurs naturally in a few select places in the world, where the ground offers the right conditions. **Amberite** grows over time, in the right environment. It can take several decades for a finger-sized crystal to grow to the size of an adult man's forearm. Attempts to cultivate it have mostly failed, as **Amberite** farmers have so far been unable to understand and reproduce the right conditions for it to thrive. Due to the slow rate at which it grows, an **Amberite** farmer may not realize the lack of growth until well into a decade later. 
+It only occurs naturally in a few select places in the world, where the ground offers the right conditions. **Amberite** grows over time, in the right environment. It can take several decades for a finger-sized crystal to grow to the size of an adult man's forearm. Attempts to cultivate it are met with extreme difficulty. The right conditions for it to thrive are highly dependent on the soil's components, the influence of the *arcanosphere* and proximity to volcanic activity. Due to the slow rate at which it grows, an **Amberite** farmer may not realize the lack of growth until well into a decade later. 
 
 Prolonged exposure to **Amberite** can cause severe ill-effects with nausea and migranes being common symptoms. 
 
+A fist-sized **Amberite** chunk is fairly heavy, with a [bulk](./core-rules.md#carrying-capacity) of 3. 
+
 ### Ambersteel
-**Ambersteel** is a strictly anti-magic material, it should enjoy great attention in any fantasy world, where magic is a real and recognizable force. Where usually, magic is the centerpiece, in **Ambersteel** that isn't quite the case. Magic is powerful and fearsome and thus, if not under control, can threaten to cause great pain and destruction. **Ambersteel** dampens that power and puts shackles on it. 
+**Ambersteel** is a strictly anti-magic material. It should enjoy great attention in any fantasy world, where magic is a real and recognizable force. Magic is powerful and fearsome and thus, if not under control, can threaten to cause great pain and destruction. **Ambersteel** dampens that power and puts shackles on it. 
 
-[Amberite](#amberite) can be processed into **Ambersteel**, which makes it a hard and flexible metal. The raw material heats slowly and must be heated over the course of several days and nights, without interruption. When it finally reaches the right temperature, it will glow white, with a purple sheen. At that point, it can be hammered into shape. Constant re-heating ensures it stays at the right temperature and a final quenching in vegetable oil ensures it retains its flexibility. 
-
-If processed outside the optimal temperature, the material quickly grows brittle and will shatter if any stress is put on it.
+[Amberite](#amberite) can be processed into **Ambersteel**, which makes it a hard and flexible metal. The raw material heats slowly and must be heated over the course of several days and nights, without interruption. When it finally reaches the right temperature, it will glow white, with a purple sheen. At that point, it can be hammered into shape. Constant re-heating ensures it stays at the right temperature and a final quenching in oil mixed with powdered [Abyssalite](#abyssalite) ensures it retains its flexibility. If processed outside the optimal temperature, the material quickly grows brittle and will shatter if any stress is put on it. The skill to use is [ambersmithing](#ambersmithing-agiint). 
 
 Due to the length of the process and the difficulty in keeping the right temperature, smiths capable of creating **Ambersteel** are rare. 
 
+**Ambesteel** is also a fairly heavy material, albeit slightly lighter than [Amberite](#amberite). A fist-sized chunk has a [bulk](./core-rules.md#carrying-capacity) of 2. Weapons, shields and armor made from this material are +1 [bulkier](./core-rules.md#carrying-capacity). 
+
 ### Runes
-Shards of [Abyssalite](#abyssalite) can have runes carved into them, which allow magic to flow through the runes. This renders runes extremely powerful artifacts, as they can allow for near limitless magic-use, even in the hands of a non-mage. 
+Shards of [Abyssalite](#abyssalite) can have **runes** carved into them, which allow magic to flow through the **runes**. This renders **runes** extremely powerful artifacts, as they can allow for near limitless magic-use, even in the hands of a non-mage. 
 
-To activate such a rune, is a difficult skill to learn, however. Even if no innate magical ability is required, an understanding of the flow of magic is. The rune must be touched in the right spots, at the right intervals, to activate successfully. Mistakes in this procedure can have disastrous results. 
+To activate such a **rune**, is a difficult skill to learn, however. Even if no innate magical ability is required, an understanding of the flow of magic is. The **rune** must be touched in the right spots, at the right intervals, to activate successfully. Mistakes in this procedure can have disastrous results. 
 
-What's more, it takes great skill to carve the right runes, as each rune's shape and complexity depends in part on the size and shape of the [Abyssalite](abyssalite) shard. The only way to get it right, is to *feel* the way the rune must be shaped. Alternatively, the shard can be adjusted to be of equivalent size and shape, but this requires considerable effort, as [Abyssalite](abyssalite) is a brittle material, prone to shattering if too much force is applied. 
+What's more, it takes great skill to carve the right **runes**, as each **rune's** shape and complexity depends in part on the size and shape of the [Abyssalite](#abyssalite) shard. The only way to get it right, is to *feel* the way the **rune** must be shaped. Alternatively, the shard can be adjusted to be of equivalent size and shape as another **rune**, but this requires considerable effort, as [Abyssalite](#abyssalite) is a brittle material, prone to shattering if too much force is applied. Thus, it must be carefully filed down to size. This would double the time it takes to [craft](#rune-carving-arcwis) the **rune**.
+
+Due to how **runes** are always magically charged, they cannot be in the vicinity of any other **runes**. This works a bit like how magnets with the same polarity repulse each other, but a lot more dangerous. This condition applies regardless of the type of magic each of the **runes** hold. 
+
+If two **runes** are brought to a distance of 20m/60' or less to each other, they begin to glow, hum and rumble, as if to warn their bearers. Should they be brought to a distance of 15m/45' or less to each other, they both discharge the magic they hold and repulse each other. This means anyone immediately nearby suffers the [spell-backfire](#spell-backfire) of the respective **rune**, in addition to suffering **3D6 Crushing** damage. The **runes** are flung away from each other far enough to be at least 21m/63' apart. *Also*, the **runes** may be **destroyed** in the process. There is a 1 in 3 chance of this occurring. Roll 1D6 for each of the **runes**. If the result is a 1 or 2, the **rune** is **destroyed**! 
+
+It may be possible to circumvent this repulsion behavior by placing the **runes** in a container made of [Ambersteel](#ambersteel). This requires the container to be of a [quality](./core-rules.md#crafting) level equal to the highest of the **runes'** [spell intensity](#spell-intensity-si).
 
 In order to craft a **rune**:
-* A **rune** can only be made to cast one type of magic. So the carver has to pick one of the [magic schools](#magic-schools). 
+* A **rune** can only be made to cast one type of magic. So the carver has to pick one of the [magic schools](#list-of-magic-schools). 
 * The maximum **level** at which a **rune** can be created, depends on the carver's skill. The **level** of the **rune** dictates the level of the respective magic it will cast at. 
 * The carver has to succeed a [rune carving](#rune-carving-arc) skill test. 
-  * If they fail, the carving is botched and the [Abyssalite chunk](#abyssalite) cannot be used for another carving attempt. There is no room for mistakes. 
+* Then, the **rune** must be "primed" by a mage. This requires a **complete success** of a test of the same [school of magic](#list-of-magic-schools) as the **rune** holds, with **Ob** equal to the spell's [intensity level](#spell-intensity-si). 
+* If any of the tests are not a **complete success**, the **rune** is botched and the material cannot be used for another attempt. There is no room for mistakes. 
 
 In order to invoke a **rune**:
 * A **complete success** of a [rune-using](#rune-using-agi) skill test will invoke the spell of the **rune** as expected.
 * A **partial success** or **complete failure** results in a [spell-backfire](#spell-backfire). 
+
+### Magic Scrolls
+**Magic scrolls** allow a single, specific spell to be cast by both mages and non-mages, at no cost of [magic stamina](#magic-stamina). Once used, the **magic scroll** burns up from the flow of magic and cannot be used again (even if the bearer material is fire-proof). Thus, these are single-use tools. 
+
+Due to how **magic scrolls** are always magically charged, they cannot be in the vicinity of any other **magic scrolls**. This works a bit like how magnets with the same polarity repulse each other, but a lot more dangerous. This condition applies *only* to **magic scrolls** of **same the type of magic**. 
+
+If two **magic scrolls** **of the same type** are brought to a distance of 20m/60' or less to each other, they begin to glow, hum and rumble, as if to warn their bearers. Should they be brought to a distance of 15m/45' or less to each other, they both discharge the magic they hold and repulse each other. This means anyone immediately nearby suffers the [spell-backfire](#spell-backfire) of the respective **magic scroll**, in addition to suffering **3D6 Crushing** damage. The **magic scrolls** are destroyed in the process! 
+
+It may be possible to circumvent this repulsion behavior by placing the **magic scrolls** in a container made of [Ambersteel](#ambersteel). This requires the container to be of a [quality](./core-rules.md#crafting) level equal to the highest of the **magic scrolls'** [spell intensity](#spell-intensity-si).
+
+In order to create a **magic scroll**:
+* Powdered [Abyssalite](#abyssalite) must be painted onto the parchment, paper or other such material, in a shape specific to the magic spell the **magic scroll** will be able to cast. 
+  * This requires a **complete success** of an [artistry](./core-rules.md#artistry-emp) test, at **Ob** equal to the spell's [intensity level](#spell-intensity-si). 
+* Then, the **magic scroll** must be "primed" by a mage. This requires a **complete success** of a test of the same [school of magic](#list-of-magic-schools) as the **magic scroll** holds, with **Ob** equal to the spell's [intensity level](#spell-intensity-si). 
+* If any of the tests are not a **complete success**, the **magic scroll** is botched and the material cannot be used for another attempt. There is no room for mistakes. 
+
+In order to invoke a **magic scroll**:
+* One must unfurl and hold it plainly in the direction the spell is to be cast, then trace the painted symbol on the **magic scroll** to "agitate" the primed magic. 
+* It costs no [magic stamina](#magic-stamina), but the **magic scroll** is immediately destroyed upon use. It burns up magically (even if the material itself is fire-proof). 
 
 # Assets
 
@@ -361,7 +407,7 @@ Armor can have the following **properties**:
 * **Ambersteel-Plated**: Bonus protection from magic: **+1** for every quality level. **+1D6** for every two **quality levels**, starting at level 1.
 * **Ambersteel-Forged**: Bonus protection from magic: **+2** for every quality level. **+1D8** for every two **quality levels**, starting at level 1.
 
-> An ambersteel-lined armor at quality level 3 would have +(3 + **2D4**) protection from magic. 
+> An **Ambersteel**-lined armor at quality level 3 would have +(3 + **2D4**) protection from magic. 
 
 #### Armor Types
 Armor reduces damage to its wearer by a flat amount. By how much, is specific to each armor type. Some armors can have special protections or effects. 
@@ -446,13 +492,17 @@ A large, kite-shaped shield, which can protect every part of the fighter, from t
 | -------------------- |
 | +4D for any defense. |
 
-### List of Stuff & Things
+### List of General Assets
 The following is a list of general assets. Of course, the following list is non-exhaustive. Invent more at your own need. 
 
-| Name                   | Max. Stack Size | Description                                                              |
-| ---------------------- | --------------- | ------------------------------------------------------------------------ |
-| Laudanum Potion        | 1    | This wonderous substance can quell pain and calm nerves within seconds. Also effective against diarrhea. Upon imbibing, sets one **active** [injury](./core-rules.md#injury) to **patched up**. After 24 hours, the [injury](./core-rules.md#injury) is set back to **active**, even if it was **treated** in the meantime. Also, must succeed a [willpower](./core-rules.md#willpower-will) test at **Ob** 2, or else become [addicted](./core-rules.md#drug-addicted) to the stuff. |
-| Calming Tea            | 1    | This herbal tea has the ability to calm nerves. Removes [berserk](./core-rules.md#berserk), [jealous](./core-rules.md#jealous) and [terrified](./core-rules.md#terrified). Best enjoyed steaming hot, but not necessarily. |
+| Name                   | Bulk | Max. Stack Size | Description                                                              |
+| ---------------------- | ---- | --------------- | ------------------------------------------------------------------------ |
+| Laudanum Potion        | 1    | 2               | This wonderous substance can quell pain and calm nerves within seconds. Also effective against diarrhea. Upon imbibing, sets one **active** [injury](./core-rules.md#injury) to **patched up**. After 24 hours, the [injury](./core-rules.md#injury) is set back to **active**, even if it was **treated** in the meantime. Also, must succeed a [willpower](./core-rules.md#willpower-will) test at **Ob** 2, or else become [addicted](./core-rules.md#drug-addicted) to the stuff. |
+| Calming Tea            | 1    | 3               | This herbal tea has the ability to calm nerves. Removes [berserk](./core-rules.md#berserk), [jealous](./core-rules.md#jealous) and [terrified](./core-rules.md#terrified). Best enjoyed steaming hot, but not necessarily. |
+| Smoke Bomb             | 1    | 3               | A small fragile shell, filled with a very fine powder which when broken causes an area in a 6'/2m radius to be covered in smoke. It is impossible to see through and ranged attacks within or through the area suffer +2 **Ob**. Victims caught in the smoke may be forced to cough. The smoke lasts 6 turns or 30 seconds. |
+| Acid Bomb              | 1    | 2               | A small fragile shell with two compartments, filled with two liquids which, when they combine, act as a powerful acid. When shattered, deals **2D8** **acid** damage to whatever it hits. |
+| Blackpowder Bomb       | 1    | 2               | A small iron-shelled bomb, filled with blackpowder. A short fuse sticks out and must be lit to set it off. Once lit, the bomb will detonate after 3 turns or 15 seconds. Deals **2D6** **crushing** + **2D6** **burning** damage to anyone in a 6'/2m radius. |
+| Throwing Blade         | 1    | 6               | A small weighted blade, like a knife or star, well suited to being thrown. Can be used in melee and acts like a [dagger](#dagger-agi), but with a penalty of **-2D** to attack and defence. **+1D** when [thrown](./core-rules.md#throwing-accuracy) for a ranged attack. Deals **2D4 + Str** **piercing** damage. |
 
 ### Weapon Types
 Following are fantasy-themed weapon types. 
@@ -469,12 +519,12 @@ For all attacks made with a dagger, the following rules apply:
 * -1 **Ob** and +**Agi\*D** damage against [proned](./core-rules.md#prone) and [grappled](./core-rules.md#grappled) targets.
 
 * Melee
-* Ranged (throwable: stab)
 * Bulk: 1
+* Ranged (throwable: stab)
 
 | Level | Name                 | AP | **Ob**      | Damage                           | Notes  |
 | ----- | -------------------- | -- | ----------- | -------------------------------- | ------ |
-| 0     | Slash                | 2  | Opposed     | **1D4** **Slashing**             |  |
+| 0     | Slash                | 2  | Opposed     | **1D4 + 2** **Slashing**         |  |
 | 0     | Stab                 | 2  | Opposed     | **1D4** **Piercing**             |  |
 | 0     | Artery cut           | 2  | Opposed + 2 | **2D4** **Slashing**             | +1 [bleeding](#bleeding) to the target (if it can bleed).  |
 | 0     | Target weak-spot     | 2  | Opposed + 2 | **2D4** **Piercing**             |  |
@@ -483,8 +533,8 @@ For all attacks made with a dagger, the following rules apply:
 Any light blade. Most commonly (but not restricted to) one-handed weapons. Examples: Short-sword, Langes Messer, arming sword, falchion
 
 * Melee
-* Ranged (throwable: stab)
 * Bulk: 1
+* Ranged (throwable: stab)
 
 | Level | Name                 | AP | **Ob**      | Damage                           | Notes  |
 | ----- | -------------------- | -- | ----------- | -------------------------------- | ------ |
@@ -509,8 +559,8 @@ Any long and heavier blade, including heavy one-handed blades. Examples: Longswo
 Any very long and heavy two-handed blade. Examples: sword of war, great-sword, Zweihänder, Kriegsmesser
 
 * Melee
-* Long Reach
 * Bulk: 3
+* [Long Reach](core-rules.md#weapon-properties)
 
 | Level | Name                 | AP | **Ob**      | Damage                           | Notes  |
 | ----- | -------------------- | -- | ----------- | -------------------------------- | ------ |
@@ -523,8 +573,8 @@ Any very long and heavy two-handed blade. Examples: sword of war, great-sword, Z
 Small and light axes. Examples: hatchet, dane axe, woodcutter's axe
 
 * Melee
-* Ranged (throwable: hack)
 * Bulk: 1
+* Ranged (throwable: hack)
 
 | Level | Name                 | AP | **Ob**      | Damage                           | Notes  |
 | ----- | -------------------- | -- | ----------- | -------------------------------- | ------ |
@@ -547,10 +597,10 @@ Large and heavy axes. Examples: bearded axe, double-sided axe
 Any one or two-handed short piercing polearms. Examples: short-spear, boar-spear
 
 * Melee
-* Ranged (throwable: stab)
 * Bulk: 2
-* Long Reach
-* Prefer Range
+* Ranged (throwable: stab)
+* [Long Reach](core-rules.md#weapon-properties)
+* [Prefer Range](core-rules.md#weapon-properties)
 
 | Level | Name                 | AP | **Ob**      | Damage                           | Notes  |
 | ----- | -------------------- | -- | ----------- | -------------------------------- | ------ |
@@ -562,8 +612,8 @@ Any one or two-handed long piercing polearms. Examples: pike, lance
 
 * Melee
 * Bulk: 4
-* Long Reach
-* Prefer Range
+* [Long Reach](core-rules.md#weapon-properties)
+* [Prefer Range](core-rules.md#weapon-properties)
 
 | Level | Name                 | AP | **Ob**      | Damage                           | Notes  |
 | ----- | -------------------- | -- | ----------- | -------------------------------- | ------ |
@@ -575,8 +625,8 @@ Flexible polearms with a focus on slashing. Examples: halberd, bardiche, poleaxe
 
 * Melee
 * Bulk: 4
-* Long Reach
-* Prefer Range
+* [Long Reach](core-rules.md#weapon-properties)
+* [Prefer Range](core-rules.md#weapon-properties)
 
 | Level | Name                 | AP | **Ob**      | Damage                           | Notes  |
 | ----- | -------------------- | -- | ----------- | -------------------------------- | ------ |
@@ -624,7 +674,7 @@ A short distance ranged weapon, shooting arrows.
 * Ranged
   * For every attack: +1 **Ob** and **-1D** damage for every distance increment past the initial.
 * Bulk: 1
-* Range Only
+* [Range Only](core-rules.md#weapon-properties)
 
 | Level | Name                 | AP | **Ob**      | Distance increments | Damage                     | Notes  |
 | ----- | -------------------- | -- | ----------- | ------------------- | -------------------------- | ------ |
@@ -638,7 +688,7 @@ A long distance ranged weapon, shooting arrows.
 * Ranged
   * For every attack: +1 **Ob** and **-1D** damage for every distance increment past the initial.
 * Bulk: 2
-* Range Only
+* [Range Only](core-rules.md#weapon-properties)
 
 | Level | Name                 | AP | **Ob**      | Distance increments | Damage                     | Notes  |
 | ----- | -------------------- | -- | ----------- | ------------------- | -------------------------- | ------ |
@@ -651,7 +701,7 @@ A very deadly long distance ranged weapon, shooting arrows. Beware its exhaustin
 * Ranged
   * For every attack: +1 **Ob** and **-1D** damage for every distance increment past the initial.
 * Bulk: 2
-* Range Only
+* [Range Only](core-rules.md#weapon-properties)
 
 | Level | Name                 | AP | **Ob**      | Distance increments | Damage                     | Notes  |
 | ----- | -------------------- | -- | ----------- | ------------------- | -------------------------- | ------ |
@@ -663,8 +713,8 @@ A deadly medium distance ranged weapon, shooting quarrels. Beware its slow reloa
 * Ranged
   * For every attack: +1 **Ob** and **-1D** damage for every distance increment past the initial.
 * Bulk: 2
-* Prefer Range
-* Slow Reload
+* [Prefer Range](core-rules.md#weapon-properties)
+* [Slow Reload](core-rules.md#weapon-properties)
 
 | Level | Name                 | AP | **Ob**      | Distance increments | Damage                     | Notes  |
 | ----- | -------------------- | -- | ----------- | ------------------- | -------------------------- | ------ |
@@ -676,8 +726,8 @@ A very deadly short to medium distance ranged weapon, shooting musket balls that
 * Ranged
   * For every attack: +2 **Ob** for every distance increment past the initial.
 * Bulk: 2
-* Prefer Range
-* Very Slow Reload
+* [Prefer Range](core-rules.md#weapon-properties)
+* [Very Slow Reload](core-rules.md#weapon-properties)
 
 | Level | Name                 | AP | **Ob**      | Distance increments | Damage                     | Notes  |
 | ----- | -------------------- | -- | ----------- | ------------------- | -------------------------- | ------ |
@@ -713,37 +763,45 @@ See also [testing magic](#testing-magic).
 ### Craftsmanship Skills
 All craftsmanship requires a mix of physical and mental attributes, for the purpose of creating a wide variety of things.
 
-#### Armor smithing (Str)
+#### Armor Smithing (Str/End)
 The ability to make armor from conventional materials, such as metal and leather. 
 
+[Crafting](#crafting)
 | Product                              | Complexity | Workload  | Materials                              | Quality Bonus   |
 | ------------------------------------ | ---------- | --------- | -------------------------------------- | --------------- | 
 | 1 [light armor](#light-armor)        | High       | High      | Any shapeable sturdy and flexible material, such as iron, steel, leather or chitin. | Every **positive**: +1 **Slashing**; Every 2 **positives**: +1 **Bludgeoning**; Every 3 **positives**: +1 **Crushing**, +1 **Piercing** |
 | 1 [medium armor](#medium-armor)      | High       | Very High | Any shapeable sturdy and flexible material, such as iron, steel, leather or chitin. | Every **positive**: +1 **Slashing**; Every 2 **positives**: +1 **Bludgeoning**; Every 3 **positives**: +1 **Crushing**, +1 **Piercing** |
 | 1 [heavy armor](#heavy-armor)        | High       | Very High | Any shapeable sturdy and flexible material, such as iron, steel, leather or chitin. | Every **positive**: +1 **Slashing**; Every 2 **positives**: +1 **Bludgeoning**; Every 3 **positives**: +1 **Crushing**, +1 **Piercing** |
 
-#### Ambersmithing (Agi)
-The ability to make armor from [amberite](#amberite). 
+#### Ambersmithing (Agi/End)
+The ability to make things from [Amberite](#amberite). 
 
-Lining or plating an existing object with [ambersteel](#amberite) acts as an improvement, whereas an [ambersteel](#amberite)-forged object is an entirely new object, completely made out of [ambersteel](#amberite). 
+Lining or plating an existing object with [Ambersteel](#ambersteel) acts as an improvement, whereas an [Ambersteel](#ambersteel)-forged object is an entirely new object, completely made out of [Ambersteel](#ambersteel). 
 
-The product effects do not stack, but they can be overridden. This means that the same object cannot be lined with [ambersteel](#amberite) twice, for cumulative effects. But it can be upgraded to [ambersteel](#amberite)-plated. 
+The product effects do not stack, but they can be overridden. This means that the same object cannot be lined with [Ambersteel](#ambersteel) twice, for cumulative effects. But it can be upgraded to [Ambersteel](#ambersteel)-plated. 
 
 [Crafting](#crafting)
-| Product                              | Complexity | Workload  | **Ob** | Materials                              | Quality Bonus   |
-| ------------------------------------ | ---------- | --------- | ------ | -------------------------------------- | --------------- | 
-| Ambersteel-lined weapon              | High       | High      | [Amberite](#amberite); A weapon        | Bonus damage against mages and magical creatures: **+1** for every quality level. **+1D4** for every two **quality levels**, starting at level 1. |
-| Ambersteel-plated weapon             | High       | High      | [Amberite](#amberite); A weapon        | Bonus damage against mages and magical creatures: **+1** for every quality level. **+1D6** for every two **quality levels**, starting at level 1. |
-| Ambersteel-forged weapon             | Very High  | Very High | [Amberite](#amberite)                  | Bonus damage against mages and magical creatures: **+2** for every quality level. **+1D8** for every two **quality levels**, starting at level 1. |
-| Ambersteel-lined armor               | High       | High      | [Amberite](#amberite); A set of armor  | Bonus protection from magic: **+1** for every quality level. **+1D4** for every two **quality levels**, starting at level 1. |
-| Ambersteel-plated armor              | High       | High      | [Amberite](#amberite); A set of armor  | Bonus protection from magic: **+1** for every quality level. **+1D6** for every two **quality levels**, starting at level 1. |
-| Ambersteel-forged armor              | Very High  | Very High | [Amberite](#amberite)                  | Bonus protection from magic: **+2** for every quality level. **+1D8** for every two **quality levels**, starting at level 1. |
+| Product                              | Complexity | Workload  | Materials                              | Quality Bonus   |
+| ------------------------------------ | ---------- | --------- | -------------------------------------- | --------------- | 
+| Ambersteel-lined weapon              | High       | High      | [Ambersteel](#ambersteel); A weapon        | Bonus damage against mages and magical creatures: **+1** for every quality level. **+1D4** for every two **quality levels**, starting at level 2. |
+| Ambersteel-plated weapon             | High       | Very High | [Ambersteel](#ambersteel); A weapon        | Bonus damage against mages and magical creatures: **+1** for every quality level. **+1D6** for every two **quality levels**, starting at level 2. |
+| Ambersteel-forged weapon             | Very High  | Very High | [Ambersteel](#ambersteel)                  | Bonus damage against mages and magical creatures: **+2** for every quality level. **+1D8** for every two **quality levels**, starting at level 2. The weapon is +1 **bulkier** than an equivalent weapon that is not **Ambersteel** forged. |
+| Ambersteel-lined armor               | High       | High      | [Ambersteel](#ambersteel); A set of armor  | Bonus protection from magic: **+1** for every quality level. **+1D4** for every two **quality levels**, starting at level 2. |
+| Ambersteel-plated armor              | High       | Very High | [Ambersteel](#ambersteel); A set of armor  | Bonus protection from magic: **+1** for every quality level. **+1D6** for every two **quality levels**, starting at level 2. |
+| Ambersteel-forged armor              | Very High  | Very High | [Ambersteel](#ambersteel)                  | Bonus protection from magic: **+2** for every quality level. **+1D8** for every two **quality levels**, starting at level 2. The armor is +1 **bulkier** than an equivalent armor that is not **Ambersteel** forged. |
+| Ambersteel-lined shield              | High       | High      | [Ambersteel](#ambersteel); A shield        | Bonus protection from magic: **+1** for every quality level. **+1D4** for every two **quality levels**, starting at level 2. |
+| Ambersteel-plated shield             | High       | Very High | [Ambersteel](#ambersteel); A shield        | Bonus protection from magic: **+1** for every quality level. **+1D6** for every two **quality levels**, starting at level 2. |
+| Ambersteel-forged shield             | Very High  | Very High | [Ambersteel](#ambersteel)                  | Bonus protection from magic: **+2** for every quality level. **+1D8** for every two **quality levels**, starting at level 2. The shield is +1 **bulkier** than an equivalent shield that is not **Ambersteel** forged. |
 
-> An ambersteel-lined weapon at quality level 3 would have +(3 + **2D4**) damage against mages and magical creatures. 
+> An **Ambersteel**-lined weapon at quality level 3 would have +(3 + **2D4**) damage against mages and magical creatures. 
 
-> An ambersteel-lined armor at quality level 3 would have +(3 + **2D4**) protection from magic. 
+See also [protection from magic](#protection-from-magic). 
 
-#### Alchemy (Arc)
+> An **Ambersteel**-lined armor at quality level 3 would have +(3 + **2D4**) protection from magic. 
+>
+> This means damage from magic source will be reduced by 3 + **2D4** and a non-damaging **spell's intensity** is reduced by 3. 
+
+#### Alchemy (Arc/Int/Agi)
 The ability to brew alchemical potions, create powders, mixtures and other substances, as well as the ability to tell these things apart. 
 
 Tools: a distillery, mortar and pestle, a fire place
@@ -764,7 +822,7 @@ Tools: a fire place, a distillery
 | ------------------------------------ | ---------- | --------- | -------------------------------------- | --------------- | 
 | A small keg worth of alcohol         | Moderate   | Very High | Any closeable container; Any fermentable fruit or distillable plant matter. | / |
 
-#### Blacksmithing (Str)
+#### Blacksmithing (Str/End)
 The ability to create every-day items from metal. 
 
 Tools: a hammer, an anvil or other resilient surface, tongs, a forge
@@ -826,7 +884,7 @@ Tools: a carving knife, a brush
 | ------------------------------------ | ---------- | --------- | -------------------------------------- | --------------- | 
 | 5 Arrow shafts                       | Low        | Moderate  | Wood; feathers; glue                   | / | 
 
-#### Glass-blowing (Agi)
+#### Glass-Blowing (Agi)
 The ability to make objects from glass. 
 
 Tools: a fire place, a glass-blower, various shaping tools
@@ -857,7 +915,7 @@ Tools: scissors, needles, hole punchers and a hammer
 | 5 Small leather objects              | Low        | Moderate  | A tanned hide                          | / | 
 | A large leather object               | Low        | Moderate  | A tanned hide                          | / | 
 
-#### Masonry (Str)
+#### Masonry (Str/End)
 The ability to shape stone to craft predominantly stone-based things. 
 
 Tools: a hammer and chisels of varying sizes
@@ -881,10 +939,23 @@ Tools: a hammer and chisels of varying sizes, tongs, tweezer, a fine brush
 | A blank rune                         | High       | Moderate  | /  | [Abyssalite](#abyssalite)              | / |
 | A magic rune                         | Very High  | High      | 2  | A blank rune; thin-leaf metal          | +1 [spell intensity level](#magic) |
 
+#### Shield-Making (Str/End)
+The ability to make shields from conventional materials, such as wood and metal. 
+
+Tools: axes, hammers, tongs, (if metal) a forge and anvil
+
+[Crafting](#crafting)
+| Product                              | Complexity | Workload  | Materials                              | Quality Bonus   |
+| ------------------------------------ | ---------- | --------- | -------------------------------------- | --------------- | 
+| 1 [buckler](#buckler)                | Moderate   | High      | Any shapeable sturdy and flexible material, such as wood, metal or chitin. | / |
+| 1 [round shield](#round-shield)      | Moderate   | High      | Any shapeable sturdy and flexible material, such as wood, metal or chitin. | For every 3 quality levels, starting at level 2, reduction of bulk by 1 (to a minimum of 1). |
+| 1 [heater shield](#heater-shield)    | Moderate   | High      | Any shapeable sturdy and flexible material, such as wood, metal or chitin. | For every 3 quality levels, starting at level 2, reduction of bulk by 1 (to a minimum of 1). |
+| 1 [kite shield](#kite-shield)        | Moderate   | High      | Any shapeable sturdy and flexible material, such as wood, metal or chitin. | For every 3 quality levels, starting at level 2, reduction of bulk by 1 (to a minimum of 2). |
+
 #### Tanning/Skinning (Agi)
 Taking the hide off a creature undamaged. 
 
-Tools: a knife, a scraping blade
+Tools: a knife, a scraping blade, a bucket, a brush
 
 [Crafting](#crafting)
 | Product                              | Complexity | Workload  | Materials                              | Quality Bonus   |
@@ -893,7 +964,7 @@ Tools: a knife, a scraping blade
 | A large skin                         | Moderate   | Moderate  | A skinnable creature                   | / |
 | A tanned hide                        | Moderate   | High      | A tannable skin                        | / |
 
-#### Weapon smithing (Str)
+#### Weapon Smithing (Str/End)
 The ability to make weapons from metal. 
 
 Tools: a hammer, an anvil or other resilient surface, tongs, a forge
@@ -930,11 +1001,11 @@ The alteration of physical things, to change their shape and purpose, permanentl
 
 Note that altering the shape of creatures poses a particular challenge. Unless if the test is a **complete success**, the target creature may mutate, horribly. When failing a test, consult the [list of mutations](#list-of-mutations), to determine the type of mutation. 
 
-Creatures can [resist](#resist-will) the change. Inanimate objects don't resist. 
+Creatures can resist the change with [toughness](./core-rules.md#toughness-tough). Inanimate objects don't resist. 
 
 | Level | Name                 | AP | Distance | Ob                           | Effect(s)                      | Backfire Effect(s) |
 | ----- | -------------------- | -- | -------- | ---------------------------- | ------------------------------ | ------------------ |
-| 0     | Alter Shape          | 3  | 3'/1m    | Opposed: Resist + SI         | A **ST** (object or creature) is altered as the mage desires. The complexity and size of the re-shaping depends on the **SI**. 1-3 are for simple and small, 4-6 for tricky and medium, 7-8 for complex and large and 9+ for very complex and very large alterations. Consult your **GM**! | The intended alteration occurs only on the caster. |
+| 0     | Alter Shape          | 3  | 3'/1m    | Opposed + SI         | A **ST** (object or creature) is altered as the mage desires. The complexity and size of the re-shaping depends on the **SI**. 1-3 are for simple and small, 4-6 for tricky and medium, 7-8 for complex and large and 9+ for very complex and very large alterations. Consult your **GM**! | The intended alteration occurs only on the caster. |
 
 ### Cryomancy (Arc)
 The summoning and control of ice. Cryomancer's can freeze things, so they're heavier and harder to break. 
@@ -965,7 +1036,7 @@ A victim reaching their [exhaustion threshold](#exhaustion) by effect of this ma
 
 | Level | Name                 | AP | Distance     | Ob                           | Effect(s)                      | Backfire Effect(s) |
 | ----- | -------------------- | -- | ------------ | ---------------------------- | ------------------------------ | ------------------ |
-| 0     | Illusion             | 2  | SI * 30'/10m | Opposed: Resist + SI         | **Concentration**; The affected **ST** *sees*, *hears* or *smells* an illusory image/sound/odor. The intensity of the illusion is determined by the **SI**. 1 for a weak and small, 2 for a moderate and 3-4 for a large and intense, 5-6 for a giant and 7+ for a titanic illusion. *Can* be used to inflict [terror](./core-rules.md#terrified) or intense [jealousy](./core-rules.md#jealous). The victim suffers +1 [exhaustion](./core-rules.md#exhaustion). | The caster suffers +1 [exhaustion](./core-rules.md#exhaustion). |
+| 0     | Illusion             | 2  | SI * 30'/10m | Opposed by [wisdom](./core-rules.md#wisdom-wis) + SI         | **Concentration**; The affected **ST** *sees*, *hears* or *smells* an illusory image/sound/odor. The intensity of the illusion is determined by the **SI**. 1 for a weak and small, 2 for a moderate and 3-4 for a large and intense, 5-6 for a giant and 7+ for a titanic illusion. *Can* be used to inflict [terror](./core-rules.md#terrified) or intense [jealousy](./core-rules.md#jealous). The victim suffers +1 [exhaustion](./core-rules.md#exhaustion). | The caster suffers +1 [exhaustion](./core-rules.md#exhaustion). |
 
 ### Psionics (Ora/Int)
 Mind over matter! Psionics grants powerful abilities to manipulate objects, influence others and even wield magic as a weapon or shield. 
@@ -1000,13 +1071,13 @@ The mending of [injuries](./core-rules.md#injury) and treatment of [diseases](./
 
 | Level | Name                 | AP | Distance | Ob                           | Effect(s)                      | Backfire Effect(s) |
 | ----- | -------------------- | -- | -------- | ---------------------------- | ------------------------------ | ------------------ |
-| 0     | Patching Touch       | 2  | 3'/1m    | 1                            | A **ST** of the mage's choosing, in hand's reach, is magically healed. Removes **SI** points of [bleeding](#bleeding) and **SI** points of [poisoned](#poisoned). One [injury](#injury) of choice is now **patched up**. Restores **SI** missing [HP](./core-rules.md#hit-points-hp). | The caster receives +1 point of [bleeding](./core-rules.md#bleeding). |
+| 0     | Patching Touch       | 2  | 3'/1m    | 1                            | A **ST** of the mage's choosing, in hand's reach, is magically healed. Removes **SI** points of [bleeding](#bleeding) and **SI** points of [poisoned](#poisoned). One [injury](#injury) of choice is now **patched up**. Restores **(SI D4) * 2** missing [HP](./core-rules.md#hit-points-hp). | The caster receives +1 point of [bleeding](./core-rules.md#bleeding). |
 | 1     | Treating Touch       | 2  | 3'/1m    | 2                            | A **ST** of the mage's choosing, in hand's reach, is magically healed. Up to **SI** [injuries](#injury) of choice are now **treated up** and their time to heal is reduced by **SI D4** days. Restores all missing [HP](./core-rules.md#hit-points-hp). | The caster receives **SI** random [injuries](#injury). |
-| 4     | Life Leech           | 3  | 3'/1m    | Opposed: Resist              | Draw the life from a **ST** creature of choice. Deals **SI D4** points of damage while healing another touched creature's or one's own [HP](./core-rules.md#hit-points-hp) for the same amount. Transfers 1 point of [bleeding](#bleeding) and/or [poisoned](#poisoned) from the healed creature to the damaged one. | The effect triggers in reverse, drawing **SI** [HP](./core-rules.md#hit-points-hp) from the caster and sending them to their victim. Transfers **SI** points of [bleeding](#bleeding) and/or [poisoned](#poisoned) from the target to the caster. |
+| 4     | Life Leech           | 3  | 3'/1m    | Opposed by [toughness](./core-rules.md#toughness-tough) | Draw the life from a **ST** creature of choice. Deals **SI D4** points of damage while healing another touched creature's or one's own [HP](./core-rules.md#hit-points-hp) for the same amount. Transfers 1 point of [bleeding](#bleeding) and/or [poisoned](#poisoned) from the healed creature to the damaged one. | The effect triggers in reverse, drawing **SI** [HP](./core-rules.md#hit-points-hp) from the caster and sending them to their victim. Transfers **SI** points of [bleeding](#bleeding) and/or [poisoned](#poisoned) from the target to the caster. |
 | 5     | Expel Illness        | 3  | 3'/1m    | 4                            | Removes **SI** number of [illnesses](#illness) of choice from a **ST** of choice, in hand's reach. | The caster contracts **SI** random [illnesses](#illness). | 
 | 6     | Revert Mutation      | 4  | 3'/1m    | 6                            | Removes **SI** number of [mutations](#list-of-mutations) of choice from a **ST** of choice, in hand's reach. | The caster receives **SI** random [mutations](#list-of-mutations). |
 
-### Soul-Binding (Int)
+### Soul-Binding (Will)
 Also referred to as **necromancy**, this is the art and skill of calling souls from the **plane of the dead** and binding them, to reanimate corpses or animate an otherwise unliving body. 
 
 In order to bind a soul, a **soul-seal** is required. This seal has to take the form of a pentagram. The medium doesn't matter, although if the seal is destroyed, the soul binding is broken. So, if a mage wants to create a lasting soul-binding, an enduring medium for the seal is advisable. 
@@ -1022,7 +1093,7 @@ Another important note about targeting a specific soul. It is easier to recall t
 | Level | Name                 | AP | Distance   | Ob                           | Effect(s)                      | Backfire Effect(s) |
 | ----- | -------------------- | -- | ---------- | ---------------------------- | ------------------------------ | ------------------ |
 | 0     | Call and Bind a Soul | 3  | 3'/1m      | SI                           | Create a **soul-binding** at the strength of the chosen level. The larger, heavier and more complex a body is, the harder it is to create a binding. Anything larger than, heavier or more complex than a human will make the **soul-binding** harder. 1-3 for a small and simple, 4-5 for a moderate and 6+ for a large and complex binding. Consult your **GM**. Requires a **soul-seal**. Replacing an existing binding is possible, but the test must exceed the original soul-seals strength. | The caster's soul is evicted from their body and another soul takes place. The caster's character is effectively removed from the world. |
-| 1     | Command Bound Soul   | 1  | SI * 6'/3m | Opposed: Resist at 6 - SI    | Issue a single command that the bound soul **must** follow. | +1 [exhaustion](./core-rules.md#exhaustion) to the caster. |
+| 1     | Command Bound Soul   | 1  | SI * 6'/3m | Opposed by [willpower](./core-rules.md#willpower-will) - SI   | Issue a single command that the bound soul **must** follow. | +1 [exhaustion](./core-rules.md#exhaustion) to the caster. |
 | 1     | Break Binding        | 3  | 3'/1m      | SI of the seal               | Break a **soul-binding** and send the soul back to the **plane of the dead**, leaving its former body inanimate and soulless. | The caster's soul is evicted from their body and another soul takes place. The caster's character is effectively removed from the world. |
 | 5     | Call back a Soul     | 3  | 3'/1m      | SI + days since death        | Target a specific soul and recall them into their prior body. This isn't, strictly speaking, the same as binding a soul. | The caster's soul is evicted from their body and another soul takes place. The caster's character is effectively removed from the world. |
 
@@ -1040,17 +1111,18 @@ Only targets within and up to the given *distance* can be moved and only within 
 | 0     | Telekinesis            | 2  | SI * 15'/5m  | SI                           | Move an inanimate **ST** object at great velocity (if desired), which allows it to deal **SI D4** **variant** (depending on the type of object) damage upon impact. | The caster suffers +1 [exhaustion](./core-rules.md#exhaustion). |
 | 3     | Creature Telekinesis   | 3  | SI * 15'/5m  | Opposed                      | Move a **ST** large, or smaller, creature. | The caster is knocked back **SI** * 9'/3m and suffers **SI bludgeoning** damage. |
 
-### Telepathy (Ora)
+### Telepathy (Will)
 The ability to communicate wordlessly, to alter emotions and even issue compelling commands against another's will. 
 
-The mage can only affect those creatures that either don't resist, or which **fail** a [resist](#resist-will) test, at the given **Ob**. 
+The mage can only affect those creatures that either don't resist, or which **fail** a [wisdom](./core-rules.md#wisdom-wis) test, at the given **Ob**. 
 
 | Level | Name                   | AP | Distance     | Ob                           | Effect(s)                      | Backfire Effect(s) |
 | ----- | ---------------------- | -- | ------------ | ---------------------------- | ------------------------------ | ------------------ |
 | 0     | Wordless Communication | 2  | SI * 12'/4m  | SI                           | **Concentration**: Communicate wordlessly with **SI** **MST**. | The caster suffers +1 [exhaustion](./core-rules.md#exhaustion). |
-| 3     | Change a Mind          | 2  | SI * 12'/4m  | Opposed: Resist - SI         | Alter a creature's current state of mind and emotion. | The caster is affected, instead. |
+| 0     | Read Thoughts          | 2  | SI * 12'/4m  | Opposed by [willpower](./core-rules.md#willpower-will) - SI | Glimpse into the thoughts of **ST** for a short time. | The target instead catches a glimpse into the caster's thoughts. The caster suffers +1 [exhaustion](./core-rules.md#exhaustion). |
+| 3     | Change a Mind          | 2  | SI * 12'/4m  | Opposed by [wisdom](./core-rules.md#wisdom-wis) - SI | Alter a creature's current state of mind and emotion. | The caster is affected, instead. |
 | 4     | Pressing Thought       | 3  | SI * 30'/10m | SI + 2                       | [Hasten](./core-rules.md#hasted) up to **SI** **MST** of choice for **SI** turns of combat or **SI** * 5 seconds out of combat. | The caster suffers +1 [exhaustion](./core-rules.md#exhaustion). |
-| 6     | Quiet Command          | 3  | SI * 30'/10m | Opposed: Resist - SI         | Issue a command to another creature, which they feel **strongly** compelled to follow. | The caster is affected, instead. |
+| 6     | Quiet Command          | 3  | SI * 30'/10m | Opposed by [wisdom](./core-rules.md#wisdom-wis) - SI | Issue a command to another creature, which they feel **strongly** compelled to follow. | The caster is affected, instead. |
 | 7     | Confer Knowledge       | 4  | 3'/1m        | 7 - SI                       | Confer +1 level of a **known skill** to another creature. | The caster loses 1 level in the chosen skill. |
 
 ## List of Injuries

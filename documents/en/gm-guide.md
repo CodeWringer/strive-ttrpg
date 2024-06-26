@@ -66,7 +66,7 @@ Before inviting or interviewing your first player, you'll have to define a few p
 In a running game, when inviting additional players, always make sure to involve the players already in your group in the interview and decision-making process. After all, they'll be interacting with any newcomers as much as you. 
 
 ## Your World
-While **Ambersteel** is best suited to a medieval-fantasy world, it doesn't dictate the type of world you have to employ. 
+While **STRIVE** is best suited to a medieval-fantasy world, it doesn't dictate the type of world you have to employ. 
 
 You are encouraged to craft your own world to play in. You decide what species (like humans) exist, what nations and cultures vie for supremacy and what fantastical landscapes exist. Are there supernatural forces at work? How often and to what extent? You decide. This world is yours. 
 
@@ -134,7 +134,7 @@ There is an *unspoken social contract* between you, the **GM** and your players.
 
 When presenting challenges and obstacles to the **PC**s, keep in mind it is **not** your job to think of possible solutions. *That*, is the *players' job*. It is also not your job to come up with **PC** reactions, emotions, thoughts, etc. That is also the players' job and furthermore, *their* prerogative. This point is further explained in [Player Agency](#player-agency). 
 
-The rules are in your hands. If you find one of **Ambersteel**'s rules to not be to agreeable, you may change it, so that it fits your game. This is called *house-ruling* - introducing unofficial rules that are only in effect at your table. In fact, you're hereby strongly encouraged to modify and add to the rules, as you see fit. Especially the list of skills is non-exhaustive, meaning, there is a very high chance one of your players will want their character to do something, for which there isn't a skill defined, yet. You can even allow your players to invent skills. That way, not *all* of the work lies on you, but be mindful that you'll have to ensure the skills *make sense* and don't result in a character *suddenly* becoming an invulnerable power-house. 
+The rules are in your hands. If you find one of **STRIVE**'s rules to not be to agreeable, you may change it, so that it fits your game. This is called *house-ruling* - introducing unofficial rules that are only in effect at your table. In fact, you're hereby strongly encouraged to modify and add to the rules, as you see fit. Especially the list of skills is non-exhaustive, meaning, there is a very high chance one of your players will want their character to do something, for which there isn't a skill defined, yet. You can even allow your players to invent skills. That way, not *all* of the work lies on you, but be mindful that you'll have to ensure the skills *make sense* and don't result in a character *suddenly* becoming an invulnerable power-house. 
 
 Keep in mind that with the **authority** to *make decisions*, also comes a certain **responsibility**. It is your task to entertain your players. Not like a comedian or a singer, but something more subtle and complex than that. You agree to keep your players **interested and engaged** in your game. You agree to weave their characters into stories of which even you may have no idea how they'll play out. In your rulings, you must **be fair and consistent**. No player is favored. They're **all** your guests. Abuse your authority, and players will eventually leave your table. 
 
@@ -231,7 +231,7 @@ This section outlines the tools - methods - of engaging your players. Usually, t
 #### **Combat Challenges**
 Challenging **PC**s through combat encounters is most fun to players who enjoy strategic and tactical thinking. 
 
-**Ambersteel** expects combat to be occasional, with ample breaks in-between. The game isn't well suited to prolonged dungeon-crawls. Injuries put a character out of commission for a good while. For this reason, you should always strive to provide a means of escape and retreat for the **PC**s. 
+**STRIVE** expects combat to be occasional, with ample breaks in-between. The game isn't well suited to prolonged dungeon-crawls. Injuries put a character out of commission for a good while. For this reason, you should always plan to provide a means of escape and retreat for the **PC**s. 
 
 To make combat encounters challenging, you may play around with the number of opponents, as well as their capabilities. 
 
@@ -383,7 +383,7 @@ Obviously, as the **GM**, you have to know the rules well, so that you may make 
 
 When looking up rules, limit the time you take. If you take too long, players start getting bored and lose interest. If you cannot find the rule you're looking for quickly, skip the process and instead make a ruling, to the best of your knowledge and understanding of the situation at hand. This ensures you keep the game's pacing. A solid, fluent pace ensures your players stay interested. 
 
-Rules *discussions* are best kept for after the game. When a player tries to argue a ruling, they're violating the unspoken social contract and are harming the game's pacing. It should be wise to move such discussions to a later point in time. But of course, there is an exception. When you find there is a rule of **Ambersteel**, which really doesn't work out in the given situation, that's when you may need to consult your players to figure out how you'll house-rule it. Such breaks in play may not always be avoidable. Make sure to write down your house-rule, so that you may look it up quickly, the next time you encounter a similar situation. 
+Rules *discussions* are best kept for after the game. When a player tries to argue a ruling, they're violating the unspoken social contract and are harming the game's pacing. It should be wise to move such discussions to a later point in time. But of course, there is an exception. When you find there is a rule of **STRIVE**, which really doesn't work out in the given situation, that's when you may need to consult your players to figure out how you'll house-rule it. Such breaks in play may not always be avoidable. Make sure to write down your house-rule, so that you may look it up quickly, the next time you encounter a similar situation. 
 
 ## Ending the Session
 Finally, before parting ways, you and your players should stick around for some wind-down steps. 

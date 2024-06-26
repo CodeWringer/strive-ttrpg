@@ -1,5 +1,5 @@
-# Ambersteel TTRPG
-**Ambersteel** is a table-top role-playing game (**TTRPG**), requiring a **game master** (**GM**) and at least one **player** to play. 
+# STRIVE TTRPG
+**STRIVE** is a table-top role-playing game (**TTRPG**), requiring a **game master** (**GM**) and at least one **player** to play. 
 
 ## Core
 The [core rules](documents/en/core-rules.md)-document presents the system's core rules that both players and **GM** must know. There is also a reminder/reference sheet: [core-rules reminder sheet](./documents/en/core-rules-reminder-sheet.md)

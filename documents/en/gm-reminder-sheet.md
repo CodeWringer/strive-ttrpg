@@ -1,4 +1,4 @@
-# Ambersteel - Game-Mastery Reminder Sheet
+# STRIVE - Game-Mastery Reminder Sheet
 
 ## The Start of a Session
 1. Recap the last session. Preferably, a player should do this.
