@@ -17,26 +17,17 @@
       - [Graduated Test](#graduated-test)
       - [Creative Test](#creative-test)
       - [Opposed Test](#opposed-test)
+    - [Tests Bring about Learning](#tests-bring-about-learning)
     - [Providing Assistance](#providing-assistance)
       - [Helpers Learn](#helpers-learn)
-      - [Tests Bring about Learning](#tests-bring-about-learning)
     - [Time](#time)
 - [Character](#character)
   - [Abilities](#abilities)
     - [Attributes](#attributes)
-      - [Physical Attributes](#physical-attributes)
-        - [Agility \[Agi\]](#agility-agi)
-        - [Endurance \[End\]](#endurance-end)
-        - [Perception \[Perc\]](#perception-perc)
-        - [Strength \[Str\]](#strength-str)
-        - [Toughness \[Tough\]](#toughness-tough)
-      - [Mental Attributes](#mental-attributes)
-        - [Intelligence \[Int\]](#intelligence-int)
-        - [Wisdom \[Wis\]](#wisdom-wis)
-      - [Social Attributes](#social-attributes)
-        - [Empathy \[Emp\]](#empathy-emp)
-        - [Oratory \[Ora\]](#oratory-ora)
-        - [Willpower \[Will\]](#willpower-will)
+      - [Athleticism \[Ath\]](#athleticism-ath)
+      - [Toughness \[Tough\]](#toughness-tough)
+      - [Wit \[Wit\]](#wit-wit)
+      - [Awareness \[Awar\]](#awareness-awar)
       - [Advancing Attributes](#advancing-attributes)
         - [Practicing Attributes](#practicing-attributes)
       - [Base Initiative](#base-initiative)
@@ -147,44 +138,44 @@
     - [Weapon Properties](#weapon-properties)
   - [Lists of Skills](#lists-of-skills)
     - [Physical Skills](#physical-skills)
-      - [Acrobatics (Agi/Str)](#acrobatics-agistr)
+      - [Acrobatics (Ath)](#acrobatics-ath)
       - [Berserking (Tough)](#berserking-tough)
-      - [Fishing (End)](#fishing-end)
-      - [Instrument-Playing \< instrument \> (Agi)](#instrument-playing--instrument--agi)
-      - [Stealth (Agi/Perc)](#stealth-agiperc)
-      - [Swimming (End)](#swimming-end)
-      - [Thievery (Agi)](#thievery-agi)
-      - [Observation (Perc)](#observation-perc)
-      - [Path-finding (Perc/Int)](#path-finding-percint)
-      - [Shield (End/Tough)](#shield-endtough)
-      - [Throwing (Agi)](#throwing-agi)
+      - [Fishing (Awar)](#fishing-awar)
+      - [Instrument-Playing \< instrument \> (Ath)](#instrument-playing--instrument--ath)
+      - [Stealth (Ath)](#stealth-ath)
+      - [Swimming (Ath)](#swimming-ath)
+      - [Thievery (Ath)](#thievery-ath)
+      - [Observation (Awar)](#observation-awar)
+      - [Path-finding (Awar/Wit)](#path-finding-awarwit)
+      - [Shield (Tough)](#shield-tough)
+      - [Throwing (Ath)](#throwing-ath)
       - [Weapon \< weapon type \> (\< attribute \>)](#weapon--weapon-type---attribute-)
     - [Social Skills](#social-skills)
-      - [Acting (Emp/Ora)](#acting-empora)
-      - [Animal Handling (Emp/Will)](#animal-handling-empwill)
-      - [Commanding (Tough/Will)](#commanding-toughwill)
-      - [Entertainment (Agi/Emp)](#entertainment-agiemp)
-      - [Mercantilism (Ora)](#mercantilism-ora)
-      - [Riding (Emp/Will)](#riding-empwill)
-      - [Self-Control (Will/Tough)](#self-control-willtough)
+      - [Acting (Wit)](#acting-wit)
+      - [Animal Handling (Awar)](#animal-handling-awar)
+      - [Commanding (Tough)](#commanding-tough)
+      - [Entertainment (Ath)](#entertainment-ath)
+      - [Mercantilism (Wit)](#mercantilism-wit)
+      - [Riding (Ath)](#riding-ath)
+      - [Self-Control (Tough)](#self-control-tough)
     - [Knowledge Skills](#knowledge-skills)
-      - [Architecture (Int)](#architecture-int)
-      - [Geography (Int)](#geography-int)
-      - [History \< subject \> (Wis)](#history--subject--wis)
-      - [Language \< language \> (Int)](#language--language--int)
-      - [Law and politics (Int)](#law-and-politics-int)
-      - [Mathematics (Int)](#mathematics-int)
-      - [Mechanics (Int)](#mechanics-int)
-      - [Metallurgy (Int/Wis)](#metallurgy-intwis)
-      - [Nature (Int/Wis)](#nature-intwis)
-      - [Mysticism and Religion (Wis)](#mysticism-and-religion-wis)
-      - [Medicine (Int/Emp)](#medicine-intemp)
-      - [Reading and Writing \< language \> (Int)](#reading-and-writing--language--int)
-      - [Surgery (Int/Agi)](#surgery-intagi)
-      - [Warfare (Wis/Tough)](#warfare-wistough)
+      - [Architecture (Wit)](#architecture-wit)
+      - [Geography (Wit)](#geography-wit)
+      - [History \< subject \> (Wit)](#history--subject--wit)
+      - [Language \< language \> (Wit)](#language--language--wit)
+      - [Law and politics (Wit)](#law-and-politics-wit)
+      - [Mathematics (Wit)](#mathematics-wit)
+      - [Mechanics (Wit)](#mechanics-wit)
+      - [Metallurgy (Wit)](#metallurgy-wit)
+      - [Nature (Wit/Awar)](#nature-witawar)
+      - [Mysticism and Religion (Wit)](#mysticism-and-religion-wit)
+      - [Medicine (Wit)](#medicine-wit)
+      - [Reading and Writing \< language \> (Wit)](#reading-and-writing--language--wit)
+      - [Surgery (Ath/Wit)](#surgery-athwit)
+      - [Warfare (Tough)](#warfare-tough)
     - [Craftsmanship Skills](#craftsmanship-skills)
-      - [Artistry (Emp)](#artistry-emp)
-      - [Cooking (Emp/Agi)](#cooking-empagi)
+      - [Artistry (Ath/Wit)](#artistry-athwit)
+      - [Cooking (Awar/Wit)](#cooking-awarwit)
   - [List of Conditions](#list-of-conditions)
     - [Berserk](#berserk)
     - [Burning](#burning)
@@ -347,9 +338,9 @@ For every **test**, one of three outcomes is possible:
 ### Testing an Attribute
 To resolve an **attribute test**, the number of **D6** determined by the **attribute's modified level** must be rolled. 
 
-> A **PC** has an [agility](#agility-agi) of 3 and an [injury](#injury) that imposes a [penalty](#boons--penalties) of -1 to their **agility**. 
+> A **PC** has an [athleticism](#athleticism-ath) of 3 and an [injury](#injury) that imposes a [penalty](#boons--penalties) of -1 to their **athleticism**. 
 >
-> When asked to test their **agility**, their player takes their **raw level** (3), subtracts the **penalty** (1) and thus knows their **modified level** to be 2. 
+> When asked to test their **athleticism**, their player takes their **raw level** (3), subtracts the **penalty** (1) and thus knows their **modified level** to be 2. 
 >
 > This means they get to roll 2 **D6** for their **test**. 
 
@@ -358,19 +349,19 @@ Unlike with [skills](#skills), it is **not** possible to [fork](#skill-forking) 
 ### Testing a Skill
 To resolve a **skill test**, the number of **D6** indicated by the **skill's modified level**, plus a related **attribute's modified level** as additional **D6** must be rolled. 
 
-> A **PC** has an [agility](#agility-agi) at **modified level** 3 and an [acrobatics](#acrobatics-agi) skill at **modified level** 2. 
+> A **PC** has an [athleticism](#athleticism-ath) at **modified level** 3 and an [acrobatics](#acrobatics-ath) skill at **modified level** 2. 
 > 
-> They are asked to roll a test for [acrobatics](#acrobatics-agi) at **Ob** 2. They get to roll 3 + 2 = 5 **D6**, if they don't have any other skills to [fork](#skill-forking) into the test. 
+> They are asked to roll a test for [acrobatics](#acrobatics-ath) at **Ob** 2. They get to roll 3 + 2 = 5 **D6**, if they don't have any other skills to [fork](#skill-forking) into the test. 
 
-> A **PC** has an [agility](#agility-agi) at **raw level** 3, with a [penalty](#boons--penalties) of -1 and an [acrobatics](#acrobatics-agi) skill at **raw level** 1, with a [boon](#boons--penalties) of +1. 
+> A **PC** has an [athleticism](#athleticism-ath) at **raw level** 3, with a [penalty](#boons--penalties) of -1 and an [acrobatics](#acrobatics-ath) skill at **raw level** 1, with a [boon](#boons--penalties) of +1. 
 > 
-> They are asked to roll a test for [acrobatics](#acrobatics-agi) at **Ob** 2. They get to roll (3 - 1) + (1 + 1) = 4 **D6**, if they don't have any other skills to [fork](#skill-forking) into the test. 
+> They are asked to roll a test for [acrobatics](#acrobatics-ath) at **Ob** 2. They get to roll (3 - 1) + (1 + 1) = 4 **D6**, if they don't have any other skills to [fork](#skill-forking) into the test. 
 
 It possible to [fork](#skill-forking) **skills**, allowing even more dice to be used in a  test. **Do not forget to fork your skills in tests!**
 
-> A **PC** has an [agility](#agility-agi) at **modified level** 2, [stealth](#stealth-agi) at **modified level** 2 and [thievery](#thievery-agi) at **modified level** 1. 
+> A **PC** has an [athleticism](#athleticism-ath) at **modified level** 2, [stealth](#stealth-ath) at **modified level** 2 and [thievery](#thievery-ath) at **modified level** 1. 
 >
-> They are asked to roll a test for their **thievery** at **Ob** 4. With their **agility** and **thievery** combined, they can only roll 3 **D6** for the test, which means the **Ob** 4 test would be impossible to succeed. 
+> They are asked to roll a test for their **thievery** at **Ob** 4. With their **base attribute** and **thievery** combined, they can only roll 3 **D6** for the test, which means the **Ob** 4 test would be impossible to succeed. 
 >
 > But since they also know **stealth**, they can petition the **GM** to allow them to [fork](#skill-forking) their **stealth** into their **thievery** test. The **GM** agrees and thus allows an additional **D6** to be added to the roll. 
 >
@@ -378,9 +369,9 @@ It possible to [fork](#skill-forking) **skills**, allowing even more dice to be 
 
 A [skill being learned](#learning-skills) is tested with *only* the related **attribute's level**, which also means a *skill being learned* cannot benefit from [forking](#skill-forking). 
 
-> A **PC** has an [agility](#agility-agi) at **modified level** 3. 
+> A **PC** has an [athleticism](#athleticism-ath) at **modified level** 3. 
 > 
-> They are asked to roll a test for [acrobatics](#acrobatics-agi) at **Ob** 2. They don't yet know that skill and thus get to roll only the 3 **D6** from their **agility** for their test. 
+> They are asked to roll a test for [acrobatics](#acrobatics-ath) at **Ob** 2. They don't yet know that skill and thus get to roll only the 3 **D6** from their **base attribute** for their test. 
 
 ### Types of Test
 There are the following types of tests. The **GM** decides when to use which. 
@@ -393,7 +384,7 @@ A stepped test is really just a series of [binary tests](#binary-test). This all
 
 This type of test is useful for situations where the **GM** decides to create very fine *time slices* and allow more chances for success. This makes it easier to allow a **PC** to *fail forward* or prevent a *one roll to end it all* situation. 
 
-> For example, a **PC** is attempting to cross a suspension bridge, but upon setting foot on the bridge, the ropes holding it up, suddenly snap. The **PC** can make an [acrobatics](#acrobatics-agi) test, to try and quickly jump off and back onto solid ground. They fail, and get to make another [acrobatics](#acrobatics-agi) test at greater **Ob**, to try and grab a root sticking out of the ground beneath the bridge. They fail again! As a last chance for that **PC** to survive, the **GM** asks one of the other players if their character will attempt an [acrobatics](#acrobatics-agi) test at high **Ob**, to try and grab their falling ally's hand in a daring rescue. Finally, their ally succeeds and the **PC**'s life is saved. 
+> For example, a **PC** is attempting to cross a suspension bridge, but upon setting foot on the bridge, the ropes holding it up, suddenly snap. The **PC** can make an [acrobatics](#acrobatics-ath) test, to try and quickly jump off and back onto solid ground. They fail, and get to make another [acrobatics](#acrobatics-ath) test at greater **Ob**, to try and grab a root sticking out of the ground beneath the bridge. They fail again! As a last chance for that **PC** to survive, the **GM** asks one of the other players if their character will attempt an [acrobatics](#acrobatics-ath) test at high **Ob**, to try and grab their falling ally's hand in a daring rescue. Finally, their ally succeeds and the **PC**'s life is saved. 
 > 
 > Obviously, such a situation should not arise often, as stepped tests can quickly grow exasperating. 
 
@@ -420,7 +411,7 @@ This type of test occurs, when two characters come into opposition. Who wins, an
 
 The character whose action requires the opposed test to be made is considered the *attacker*. The other character is considered the *defender*, because they are forced to react. 
 
-> For example, a character tries to sneak past another, the sneaking character will have to succeed a [stealth](#stealth-agi) test, while the other character will have to succeed an [observation](#observation-perc) test. In this scenario the character testing their **stealth** is considered the *attacker*, while the passive character being *forced* to test their **observation** is considered the defender. 
+> For example, a character tries to sneak past another, the sneaking character will have to succeed a [stealth](#stealth-ath) test, while the other character will have to succeed an [observation](#observation-awar) test. In this scenario the character testing their **stealth** is considered the *attacker*, while the passive character being *forced* to test their **observation** is considered the defender. 
 
 The defender first rolls a test of their respective skill, against **Ob 0** (this 'automatic success' does **not** count towards skill progression) and the number of **positives** that result, plus one, is the resulting **Ob** for the attacker to match or exceed. 
 
@@ -438,21 +429,7 @@ The defender **cannot** [fork](#skill-forking) other skills into their test, whe
 
 If a tie occurs in which a **defender** cannot be clearly determined, the result is a deadlock and neither side gains anything. Mind you, this shouldn't normally happen. Avoid this type of situation to the best of your ability. 
 
-### Providing Assistance
-Characters can help each other in tests. In order to help with a test, a character must know a relevant [skill](#skills) and the one being helped must accept the help. 
-
-Helping in a test works similar to [forking](#skill-forking) a skill. The character being helped receives **+1D6** to roll for each *character* helping them. The number of relevant skills a helping character has is irrelevant, as is the level of those skills. Just one skill and one level in that skill are enough to allow them to help and only one **+1D6** is granted by the helping character. However, *which* skill is used to help with matters. 
-
-If a **PC** is helping another, their player must describe *how* they're using their relevant skill to help. Only if the **GM** agrees, may the helping die be granted. 
-
-> For example, a **PC** is currently using their [thievery](#thievery-agi) to lockpick a door. Their allied **PC** is *helping*, by using their [observation](#observation-perc) skill to *keep an eye out for guards*, which allows the one on the door to work without having to constantly look over their shoulder. The **GM** finds that description agreeable and allows the use of the skill to help. 
-
-#### Helpers Learn
-A character helping in a test, also gains [progress](#advancing-skills) towards the [skill](#skills) and [attribute](#attributes) they've helped with. The outcome of the test for the character they've helped, is their own outcome. 
-
-> If the character who was helped succeeded their test, the helper also gains a successful test to mark on their skill. 
-
-#### Tests Bring about Learning
+### Tests Bring about Learning
 Whenever a [skill](#skills) or [attribute](#attributes) is tested, its outcome must be noted. Once a certain threshold number is reached, the [skill](#skills) or [attribute](#attributes) advances to the a higher level. 
 
 For [skills](#skills), whether the test was a success or failure matters. But for [attributes](#attributes), only the number of tests matters. 
@@ -463,14 +440,28 @@ When a [skill](#skills) is tested, both it **and** its associated [attribute](#a
 
 **Ob** 0 tests only count towards progression, if they are made in an [opposed test](#opposed-test). 
 
+### Providing Assistance
+Characters can help each other in tests. In order to help with a test, a character must know a relevant [skill](#skills) and the one being helped must accept the help. 
+
+Helping in a test works similar to [forking](#skill-forking) a skill. The character being helped receives **+1D6** to roll for each *character* helping them. The number of relevant skills a helping character has is irrelevant, as is the level of those skills. Just one skill and one level in that skill are enough to allow them to help and only one **+1D6** is granted by the helping character. However, *which* skill is used to help with matters. 
+
+If a **PC** is helping another, their player must describe *how* they're using their relevant skill to help. Only if the **GM** agrees, may the helping die be granted. 
+
+> For example, a **PC** is currently using their [thievery](#thievery-ath) to lockpick a door. Their allied **PC** is *helping*, by using their [observation](#observation-awar) skill to *keep an eye out for guards*, which allows the one on the door to work without having to constantly look over their shoulder. The **GM** finds that description agreeable and allows the use of the skill to help. 
+
+#### Helpers Learn
+A character helping in a test, also gains [progress](#advancing-skills) towards the [skill](#skills) and [attribute](#attributes) they've helped with. The outcome of the test for the character they've helped, is their own outcome. 
+
+> If the character who was helped succeeded their test, the helper also gains a success to mark on their **skill**. 
+
 ### Time
 Not all tests are created equal - some actions require more time than others. 
 
 While the **GM** decides on how much time a given test will need, the following guidelines should provide a good basis. 
 
 * (Near) instantaneous: Combat actions, recalling knowledge, noticing things in passing. 
-* A matter of minutes: inspecting an environment, quickly skimming the contents of a book, persuading someone in conversation, first aid. 
-* A matter of hours: Simple crafts, surgery, scrutinizing an environment, researching something simple/not obscure, engaging in lengthy and difficult negotiations.
+* A matter of minutes: inspecting an environment, quickly skimming the contents of a book, a short conversation, first aid. 
+* A matter of hours: Simple crafts, surgery, scrutinizing an environment, researching something simple and common, engaging in lengthy and difficult negotiations.
 * A matter of days and months: Complex crafts and artistry, researching a complex or obscure subject. 
 
 # Character
@@ -492,70 +483,43 @@ For [testing](#tests) an **attribute**, see the [Testing an attribute](#testing-
 
 **Attributes** [advance](#advancing-attributes), as they or [skills](#skills) that depend on them are [tested](#tests). It is also possible to [practice](#practicing-attributes) **attributes**, but **not** to teach them. 
 
-#### Physical Attributes
-The body's abilities. 
+#### Athleticism [Ath]
+Strength of limb, nimbleness, swiftness and hand-eye coordination. 
 
-##### Agility [Agi]
-Determines how nimble, fast and flexible a character is. Any action that requires a character to move very precisely, will require agility. 
+Governs the [carrying capacity](#carrying-capacity) of a character. Each point in **athleticism** raises the [carrying capacity](#carrying-capacity) of the character by 3. 
 
-##### Endurance [End]
-Governs how long a character can endure physical strains. 
+For every 3 points in **athleticism**, past the initial **modified level**, every [asset slot](#worn--equipped) of a character can hold **assets** of one bulk higher. 
 
-For every point in endurance, a character raises their [exhaustion threshold](#exhaustion) by 1. All characters have a base [exhaustion threshold](#exhaustion) of 1. 
-
-For every point in endurance, a character can [sprint](#combat-movement) an additional 3'/1m per [AP](#action-points-ap) spent or every 5 seconds. 
-
-Endurance also governs how long a character can hold their breath. Every point in endurance grants around 3 minutes. 
-
-##### Perception [Perc]
-Governs a character's ability to passively and quickly pick up on fine and fleeting details in their environment or on objects and other characters. 
-
-Also governs the ability to perceive under difficult conditions such as dim light and fog, or noisy and smelly environments. 
-
-##### Strength [Str]
-Governs a character's **strength** - the ability to lift, throw and break heavy and sturdy things. Such as skulls. 
-
-Also governs the [carrying capacity](#carrying-capacity) of a character. Each point in **strength** raises the [carrying capacity](#carrying-capacity) of the character by 3. 
-
-For every 3 points in **strength**, past the initial **modified level**, every [asset slot](#worn--equipped) of a character can hold **assets** of one bulk higher. 
-
-> At **modified level** 3 in **strength**, a character can still only hold **assets** of bulk 2 in each hand. 
+> At **modified level** 3 in **athleticism**, a character can still only hold **assets** of bulk 2 in each hand. 
 > 
-> Starting at **modified level** 4 in **strength**, a character can hold **assets** of bulk 3 in each hand. Then, the next increase is at level 7, then level 10 and so on.
+> Starting at **modified level** 4 in **athleticism**, a character can hold **assets** of bulk 3 in each hand. Then, the next increase is at level 7, then level 10 and so on.
 
-##### Toughness [Tough]
+For every point in **athleticism**, a character can [sprint](#combat-movement) an additional 3'/1m per [AP](#action-points-ap) spent or every 5 seconds. 
+
+#### Toughness [Tough]
+Enduring physical and mental strains. 
+
 Governs the [injury limit](#injury) and chance to shrug off certain afflictions. 
 
-For every point in [toughness](#toughness-tough), a character gains **+4 maximum [HP](#hit-points-hp)** and raises their [injury](#injury) limit by 1. 
+For every point in **toughness**, a character gains **+4 maximum [HP](#hit-points-hp)** and raises their [injury](#injury) limit by 1. 
 
-Every time a character suffers at least 10 [HP](#hit-points-hp) of damage **in a single attack**, they gain +1 [advancement progress](#advancing-attributes). For 20 or more [HP](#hit-points-hp) of damage, they gain +2 [advancement progress](#advancing-attributes). 
+Every time a character suffers at least 10 [HP](#hit-points-hp) of damage **in a single attack**, they gain +1 [advancement progress](#advancing-attributes) to **toughness**. For 20 or more [HP](#hit-points-hp) of damage, they gain +2 [advancement progress](#advancing-attributes). 
 
-> A character suffering 15 points of damage **in a single attack**, gains +1 advancement progress to their toughness automatically. 
+> A character suffering 15 points of damage **in a single attack**, gains +1 advancement progress to their **toughness** automatically. 
 >
-> A character suffering 22 points of damage **in a single attack**, gains +2 advancement progress to their toughness automatically. 
+> A character suffering 22 points of damage **in a single attack**, gains +2 advancement progress to their **toughness** automatically. 
 > 
-> A character suffering 41 points of damage **in a single attack**, still only gains +2 advancement progress to their toughness automatically. 
+> A character suffering 41 points of damage **in a single attack**, still only gains +2 advancement progress to their **toughness** automatically. 
 
-#### Mental Attributes
-The mind's abilities. 
+For every point in **toughness**, a character raises their [exhaustion threshold](#exhaustion) by 1. All characters have a base [exhaustion threshold](#exhaustion) of 1. 
 
-##### Intelligence [Int]
-Governs a character's ability to reason and analyze. 
+**Toughness** also governs how long a character can hold their breath. Every point in **toughness** grants around 3 minutes. 
 
-##### Wisdom [Wis]
-Governs a character's understanding of and ability to recall knowledge. 
+#### Wit [Wit]
+Sharpness of mind and tongue. 
 
-#### Social Attributes
-The heart's abilities.
-
-##### Empathy [Emp]
-Governs a character's ability to read and understand another's emotions and intentions. 
-
-##### Oratory [Ora]
-Governs a character's ability to convincingly speak with and before others. 
-
-##### Willpower [Will]
-Governs a character's ability to withstand mental pressure. 
+#### Awareness [Awar]
+Keen senses and empathic understanding. 
 
 #### Advancing Attributes
 Whenever a **PC** [tests](#tests) an [attribute](#attributes) or a [skill](#skills) that depends on it, progress towards advancing the [attribute](#attributes) must be noted. See also: [Tests Bring about Learning](#tests-bring-about-learning)
@@ -607,14 +571,14 @@ For every **cycle** that passes of active practice, the **PC** can roll a [test]
 
 A **cycle** is 1 month, regardless of attribute being practiced. 
 
-> A **PC** spends 3 months practicing their [wisdom](#wisdom-wis). In this case, 3 tests can be made and the progress noted. 
+> A **PC** spends 3 months practicing their [wit](#wit-wit). In this case, 3 tests can be made and the progress noted. 
 
 #### Base Initiative
 Whenever the order in which characters act matters, their **base initiative** comes into play. It, together with a die roll, determines how early a character gets to take action in a given scenario. 
 
-The **base initiative** of a character is **not an attribute** in the pure sense. It *cannot* be improved directly and is instead derived from the sum of the character's [perception](#perception-perc), [intelligence](#intelligence-int) and [empathy](#empathy-emp). 
+The **base initiative** of a character is **not an attribute** in the pure sense. It *cannot* be improved directly and is instead derived from the sum of the character's [athleticism](#athleticism-ath), [wit](#wit-wit) and [awareness](#awareness-awar). 
 
-> A character with a **perception** of 3, **intelligence** of 4 and **empathy** of 5, has a **base initiative** of 12. 
+> A character with an **athleticism** of 3, **wit** of 4 and **awareness** of 5, has a **base initiative** of (3 + 4 + 5 =) 12. 
 
 See also [initiative](#initiative). 
 
@@ -639,20 +603,20 @@ It is possible to **fork** as many other **skills** as you want into a test. But
 
 Always keep in mind that *players* lobby for **skill forking**, not the **GM**! When the **GM** asks you to test a **skill**, ***you*** present the **skills** *you* wish to **fork**. The **GM** should not ever tell you which **skills** to **fork**! That is not their job. 
 
-> For example, a **PC** is asked to test their [thievery](#thievery-dex--perc--spd) **skill** to pick a lock. They also know [stealth](#stealth-dex--spd--int) and know a mechanics skill. Their player thus asks for permission to fork their mechanics skill into their thievery test, explaining their experience with mechanics helps them understand the lock's mechanism. The **GM** agrees. 
+> For example, a **PC** is asked to test their [thievery](#thievery-ath) **skill** to pick a lock. They also know [stealth](#stealth-ath) and know a mechanics skill. Their player thus asks for permission to fork their mechanics skill into their thievery test, explaining their experience with mechanics helps them understand the lock's mechanism. The **GM** agrees. 
 >
 > Then, the player asks to also fork their stealth into the test. The **GM** disagrees, as they explain there is currently no need to be stealthy. There are no guards nearby who could possibly perceive the lock-picking attempt. 
 >
 > In the end, the **PC** gets **+1D6** from their mechanics skill for their thievery test. 
 
-> Anothery thievery example. Let's assume a **PC** is trying to quickly unlock a door using their [thievery](#thievery-dex--perc--spd), because they're being chased by guards and desperately need to get away. They could argue to fork their [stealth](#stealth-dex--spd--int) skill into the test, but ultimately, what use is stealth when you've already been detected? Unless you can make yourself *unseen* somehow, the **GM** should rule that stealth cannot apply in that situation. 
+> Anothery thievery example. Let's assume a **PC** is trying to quickly unlock a door using their [thievery](#thievery-ath), because they're being chased by guards and desperately need to get away. They could argue to fork their [stealth](#stealth-ath) skill into the test, but ultimately, what use is stealth when you've already been detected? Unless you can make yourself *unseen* somehow, the **GM** should rule that stealth cannot apply in that situation. 
 
 #### Learning Skills
 Whenever asked to test a skill a **PC** does not yet know, it will be added or progressed in the *currently learning* section of the character sheet. 
 
 A skill in learning can only be tested with their related [attribute](#attributes). If multiple attributes are listed for the skill, you can choose which one to test with. 
 
-> A player is asked to test their character's [Leatherworking](#leatherworking-agi) at **Ob** 2. Their character lacks that skill and thus adds it to the *currently learning* section on their character sheet. Assuming their character has an agility of 3, they get to roll **3D6**. 
+> A player is asked to test their character's [cooking](#cooking-awarwit) at **Ob** 2. Their character lacks that skill and thus adds it to the *currently learning* section on their character sheet. Assuming their character has a the **base attribute** at level 3, they get to roll **3D6**. 
 
 [Forking](#skill-forking) **learning skills** into tests is **not** allowed. **Forking** into tests of **learning skills** isn't allowed, either. Note an exception to this rule are [specialization skills](#specialization-skills), which *always* receive **forking** from their **prerequisite skills**, even if they are currently in the **learning skill** stage!
 
@@ -720,7 +684,7 @@ The **Ob** for such practice [tests](#tests) is always half of the **skill's raw
 | Craftsmanship  | 1 Month  |
 | Knowledge      | 2 Months |
 
-> A **PC** spends seven weeks practicing their [fishing](#fishing-end), while waiting for their comrade to recover from their [injuries](#injury). [fishing](#fishing-end) being a physical skill, has a test cycle of 3 weeks. In this case, 2 tests can be made and their outcomes noted. 
+> A **PC** spends seven weeks practicing their [fishing](#fishing-awar), while waiting for their comrade to recover from their [injuries](#injury). [fishing](#fishing-awar) being a physical skill, has a test cycle of 3 weeks. In this case, 2 tests can be made and their outcomes noted. 
 
 ##### Teaching Skills
 Much like it is possible for a character to [practice](#practicing-skills) on their own, they can also be taught by another, who knows more than them. 
@@ -860,7 +824,7 @@ As such, there are two types of **reactions**:
 ### Personality Traits
 Every **PC** has several values that help inform their player what their character is like - how they act. 
 
-This personality is codified by the following matrix. Each row is a scale, with two opposing traits. Whenever A trait reaches the "signature" column, a **PC** is *known* for that trait! In fact, they can hardly *not* act that way! In order for behaviour to deviate from a signature trait, a [self-control](#self-control-willemp) test at **Ob** 2 or half of of its raw level (rounded up) - take the higher number - must be made. Only if it is a **success**, can the player choose to deviate from the signature trait's dictated behavior. 
+This personality is codified by the following matrix. Each row is a scale, with two opposing traits. Whenever A trait reaches the "signature" column, a **PC** is *known* for that trait! In fact, they can hardly *not* act that way! In order for behaviour to deviate from a signature trait, a [self-control](#self-control-tough) test at **Ob** 2 or half of of its raw level (rounded up) - take the higher number - must be made. Only if it is a **success**, can the player choose to deviate from the signature trait's dictated behavior. 
 
 Whenever **PC**s very strongly act in a certain way, their value in a **personality trait** may change. Take note during play, how the characters have acted. After the session, discuss whether any of the **PC**s have shown a very strong drift towards either side of the scale. And if everyone agrees, a personality change is in order!
 
@@ -902,7 +866,7 @@ Any **HP** damage past zero overflows. The additional damage dealt isn't lost. W
 
 > A character currently at 8 **HP** and a maximum of 12 **HP** suffers 10 points of damage. Thus, they suffer an **injury** and now have the new maximum of 10 **HP**. 2 points of damage have overflowed. Therefore, the character's new current **HP** is (10 - 2 =) 8. 
 
-A successful [medicine](#medicine-int) test at **Ob** equal to the treated character's [toughness](#toughness-tough) subtracted by their current number of injuries can restore all currently missing **HP** of a character. This requires [medical supplies](#list-of-stuff--things). **HP** also replenish on their own, albeit much slower. For every hour outside of combat, **1 D4** **HP** are regained, up to the current maximum. 
+A successful [medicine](#medicine-wit) test at **Ob** equal to the treated character's [toughness](#toughness-tough) subtracted by their current number of injuries can restore all currently missing **HP** of a character. This requires [medical supplies](#list-of-stuff--things). **HP** also replenish on their own, albeit much slower. For every hour outside of combat, **1 D4** **HP** are regained, up to the current maximum. 
 
 > A character with a toughness of 4 and 2 injuries could have all their currently missing **HP** restored with a **medicine** test at **Ob** (4 - 2 =) 2. 
 
@@ -956,11 +920,11 @@ Once a character is brought to at least half their maximum number of [injuries](
 ### Exhaustion
 Exhaustion is the measure of a character's maximum physical and mental strain they can endure. 
 
-For every point in [endurance](#endurance-end), a character raises their [exhaustion threshold](#exhaustion) by 1. All characters have a base [exhaustion threshold](#exhaustion) of 1. 
+For every point in [toughness](#thoughness-tough), a character raises their [exhaustion threshold](#exhaustion) by 1. All characters have a base [exhaustion threshold](#exhaustion) of 1. 
 
-> So at **endurance** 1, you already have an exhaustion threshold of 2. 
+> At **toughness** 1, you already have an exhaustion threshold of 2. 
 
-If a character's exhaustion reaches their threshold, they become [exhausted](#exhausted) from over-exertion. While **exhausted**, a character suffering further [exhaustion](#exhaustion), must succeed a [self-control](#self-control-willemp) [test](#tests) at **Ob** equal to their current level of [exhaustion](#exhaustion), or else fall [unconscious](#unconscious).
+If a character's exhaustion reaches their threshold, they become [exhausted](#exhausted) from over-exertion. While **exhausted**, a character suffering further [exhaustion](#exhaustion), must succeed a [self-control](#self-control-tough) [test](#tests) at **Ob** equal to their current level of [exhaustion](#exhaustion), or else fall [unconscious](#unconscious).
 
 Exhaustion is gained through performing **exhausting actions**, carrying **exhausting equipment** or suffering [injuries](#injury). 
 
@@ -999,7 +963,7 @@ When a character is about to contract an **illness**, they must make a [toughnes
 
 Most illnesses have a duration, during which their effects are active and after which, all ill-effects go away. In some cases, an **illness** may have a duration of "until cured", which means it will never go away, if not treated. 
 
-Treatment of an **illness** is possible through [medicine](#medicine-int) or [surgery](#surgery-int). Which skill is required, will be noted on the **illness**. Treatment will often be able to reduce the ill-effects and sometimes to remove the **illness**, altogether. A treatment attempt can only be made once every 24 hours. 
+Treatment of an **illness** is possible through [medicine](#medicine-wit) or [surgery](#surgery-athwit). Which skill is required, will be noted on the **illness**. Treatment will often be able to reduce the ill-effects and sometimes to remove the **illness**, altogether. A treatment attempt can only be made once every 24 hours. 
 
 Any **illness** when treated has its duration reduced and can only have its duration reduced once. If a treatment would also suspend any ill-effects, that would still be applicable. That way, treating an **illness** which already had its duration reduced can still be useful. 
 
@@ -1010,7 +974,7 @@ Some [injuries](#injury), once fully healed and removed, may leave a **scar** be
 
 Often times, a **scar** is little more than a reminder of past misfortunes, but some **scars** may infer [boons and/or penalties](#boons--penalties). 
 
-Scars may be removed by [surgery](#surgery-int), at the **GM**'s discretion. 
+Scars may be removed by [surgery](#surgery-athwit), at the **GM**'s discretion. 
 
 ### Damage Types
 All damage inflicted, is inflicted with one of these types, which dictate the type of [injury](#injury) suffered when brought to 0 [HP](#hit-points-hp). 
@@ -1065,7 +1029,7 @@ A lower bulk means an easier to handle asset. Both weight and size increase an o
 ### Worn & Equipped
 Every character can have **assets** they wear or carry on person. These things do not factor into their used [carrying capacity](#carrying-capacity) and are listed on their character sheet in a separate section. Every asset on person has to be placed in a so called **asset slot**. 
 
-Every **asset slot** has a maximum **bulk** it can hold. Two or more **slots** of the **same type** can be combined to hold a single asset that is too bulky for just one slot. The amount of **bulk** each slot can hold can be increased with greater [strength](#strength-str). 
+Every **asset slot** has a maximum **bulk** it can hold. Two or more **slots** of the **same type** can be combined to hold a single asset that is too bulky for just one slot. The amount of **bulk** each slot can hold can be increased with greater [athleticism](#athleticism-ath). 
 
 Every humanoid character has the following **slots** for worn & equipped **assets** available:
 * One slot for clothing of up to 4 **bulk**. 
@@ -1087,7 +1051,7 @@ How much **luggage** a character can have on them, is determined by their [carry
 #### Carrying Capacity
 How much [luggage](#luggage) a character can have on them, is determined by their **carrying capacity**, which is a **bulk** limit of **assets** that a person can be carrying around on their person. [Worn & equipped](#worn--equipped) **assets** are *excluded* and don't count towards this limit. 
 
-A character's **carrying capacity** is determined by their [strength](#strength-str). For each point in [strength](#strength-str), a character raises their **carrying capacity** by 3. 
+A character's **carrying capacity** is determined by their [athleticism](#athleticism-ath). For each point in this **attribute**, a character raises their **carrying capacity** by 3. 
 
 ### Property
 Often times, characters will also own things they don't currently have on their person, or which they couldn't reasonably carry on person. 
@@ -1201,7 +1165,7 @@ Most prominently, **initiative order** is used during [combat](#combat). But it 
 ### Surprise Round
 If one party is surprised, for example during an ambush, then the ambushing party gets to act for a full **round**, without the ambushed party getting a chance to act. This is called a **surprise round**. After the **surprise round** **initiative** is handled as normal. Additionally, any surprised characters **do not** get their starting [AP](#action-points-ap), until the end of the surprise round! 
 
-To determine whether a **round** is a **surprise round**, determine awareness with [stealth](#stealth-agi) opposed by [observation](#observation-perc) [tests](#tests). 
+To determine whether a **round** is a **surprise round**, determine awareness with [stealth](#stealth-ath) opposed by [observation](#observation-awar) [tests](#tests). 
 
 > **Surprise round** does not apply to opponents standing right in front of each other in conversation, when one of them suddenly draws a dagger and attacks. The attacker can be clearly seen by the defender (assuming they can see) and thus does not result in a **surprise round**. Of course, the specifics are always up to the scenario at hand and to the **GM**'s ruling. 
 
@@ -1228,7 +1192,7 @@ Also keep in mind that to craft anything, you must have the materials required. 
 
 Depending on how easy to acquire the materials are, you may act on a more abstract level and "go shopping", simply spending the time and money required up front, without turning it into a scene or adventure of its own, that must be played out. Of course, the more difficult to acquire materials may require you to *actually* go and find them. 
 
-> For example, a **PC** might have decided they want to create an elaborately decorated piece of furniture, with bands of gold and colored glass inlays. Even though the [carpentry](#carpentry-agi) skill does not list gold as a material for its product, the **PC** should have to procure the gold, if they are to finish their piece of furniture. 
+> For example, a **PC** might have decided they want to create an elaborately decorated piece of furniture, with bands of gold and colored glass inlays. Even though the corresponding skill does not list gold as a material for its product, the **PC** should have to procure the gold, if they are to finish their piece of furniture. 
 
 #### Crafting Time Chart
 The following matrix denotes the time that work will take, based on its inherent *complexity* and *workload*. 
@@ -1247,7 +1211,7 @@ Workload is the result of processes that naturally take a long time, the difficu
 ### Trade
 Selling and buying things can take a surprising amount of time. If prices are too high and demand or reputation too low, chances are, you won't be able to sell your goods. But even when people do show interest in your wares, you still have to *sell it* to them. An uncharismatic merchant will have a difficult time making a pretty profit, regardless of the quality of their goods. On the other hand, buying things may prove equally difficult, when what you're looking for isn't really available. 
 
-For trade, there is really only one [skill](#skills) - the [mercantilism](#mercantilism-ora) skill. Using this [skill](#skills) requires a [graduated test](#graduated-test) with an **Ob** threshold to be made. The **degree of success** factors into getting a better price.
+For trade, there is really only one [skill](#skills) - the [mercantilism](#mercantilism-wit) skill. Using this [skill](#skills) requires a [graduated test](#graduated-test) with an **Ob** threshold to be made. The **degree of success** factors into getting a better price.
 
 The number of dice in play for a [graduated test](#graduated-test) of this skill determine both the chance to successfully trade something and the time it takes to trade it. It is the **GM**'s duty to determine demand and supply of the thing being sold on the market, as well as how well known the **PC** is as a reputable trader. A low demand, coupled with a low reputation as a trader, should result in a high **Ob** for the test (such as a 4 or even 5). On the other hand, if demand is high, reputation might not matter much and result in a much lower **Ob**. 
 
@@ -1258,7 +1222,7 @@ To get an ear on the ground and figure out what the local market is like, a char
 #### Seller's Chart
 The following matrix provides an overview of how long it may take to sell things on the market. Note that the **GM** has the final say on how long it will actually take and on how difficult it will be. 
 
-Denoted are both the time it takes to get a chance at a [mercantilism](#mercantilism-ora) [test](#tests), what the **Ob** threshold is and what margins can be expected. The margins are relative to the goods' *listing price* or *normal* value. 200% means the goods can be sold at twice what they're worth. 
+Denoted are both the time it takes to get a chance at a [mercantilism](#mercantilism-wit) [test](#tests), what the **Ob** threshold is and what margins can be expected. The margins are relative to the goods' *listing price* or *normal* value. 200% means the goods can be sold at twice what they're worth. 
 
 | **Supply >** <br> **Demand v** | **Very High** | **High** | **Moderate** | **Low** | 
 | ------------- | --------- | --------- | --------- | --------- |
@@ -1270,7 +1234,7 @@ Denoted are both the time it takes to get a chance at a [mercantilism](#mercanti
 #### Buyer's Chart
 The following matrix provides an overview of how long it may take to buy things on the market. Note that the **GM** has the final say on how long it will actually take and on how difficult it will be. 
 
-Denoted are both the time it takes to get a chance at a [mercantilism](#mercantilism-ora) [test](#tests), what the **Ob** threshold is and what price inflation can be expected. The prices are relative to the goods' *listing price* or *normal* value. 200% means the goods must be bought at twice what they're worth. 
+Denoted are both the time it takes to get a chance at a [mercantilism](#mercantilism-wit) [test](#tests), what the **Ob** threshold is and what price inflation can be expected. The prices are relative to the goods' *listing price* or *normal* value. 200% means the goods must be bought at twice what they're worth. 
 
 The supply is assumed to be relative to the demand. The more something is in demand, the more likely it is to be kept in stock and by more merchants, which makes it easier to find, even if there are more other buyers to compete with. 
 
@@ -1298,7 +1262,7 @@ There is also the distinction to be made whether the order in which characters a
 When diplomacy fails, hostilities ensue. This is when the game enters into a state that is handled very carefully. How time is *sliced* and when characters get to act, is crucial. 
 
 The steps to *prepare* for combat are as follows:
-1. Determine a [surprise round](#surprise-round), if required, with [stealth](#stealth-agi) versus [observation](#observation-perc) [opposed tests](#opposed-test). 
+1. Determine a [surprise round](#surprise-round), if required, with [stealth](#stealth-ath) versus [observation](#observation-awar) [opposed tests](#opposed-test). 
    1. Sometimes, not everyone may be immediately aware of a fight breaking out. This is usually the case when characters cannot clearly see, hear or perhaps even smell a fight breaking out. In every other case, this step can be skipped. 
    2. Only the first **round** of combat can be a [surprise round](#surprise-round). 
    3. In a [surprise round](#surprise-round), any surprised characters **do not** get their starting [AP](#action-points-ap), until the end of the [surprise round](#surprise-round). 
@@ -1361,7 +1325,7 @@ Under normal circumstances, a character (an average human) can move up to **12'/
 
 **Difficult terrain** is any space that slows movement, but does not prevent it outright. Examples would be waist-high water, a surface of glue or a slowing force field. 
 
-It is also possible to **sprint**, increasing the distance one can move per **AP** spent, at the cost of 1 point of [exhaustion](#exhaustion) for every **AP** spent **sprinting**. The movement distance is increased by 3'/1m per level in [endurance](#endurance-end), per **AP**. Every time a character **sprints**, they progress their [endurance](#endurance-end) (but only once per turn). 
+It is also possible to **sprint**, increasing the distance one can move per **AP** spent, at the cost of 1 point of [exhaustion](#exhaustion) for every **AP** spent **sprinting**. The movement distance is increased by 3'/1m per level in [athleticism](#athleticism-ath), per **AP**. Every time a character **sprints**, they progress their [athleticism](#athleticism-ath) (but only once per turn). 
 
 ### Disengage
 It is possible to move out of an enemy's [range of opportunity](#attacks-of-opportunity) without provoking an [attack of opportunity](#attacks-of-opportunity). This action costs 2 [AP](#action-points-ap) and the disengaging character **must** move in a direction that will get them out of the [range of opportunity](#attacks-of-opportunity) the fastest and safest, as far as 1 **AP** of movement would get them. 
@@ -1383,13 +1347,13 @@ It is possible to swap positions with an adjacent ally, without provoking an [at
 
 This **action** costs 2 [AP](#action-points-ap). 
 
-The ally in question can **oppose** this action with [strength](#strength-str) (both characters will have to compete with [strength](#strength-str)). 
+The ally in question can **oppose** this action with [athleticism](#athleticism-ath) (both characters will have to compete with this **attribute**). 
 
 ## Attacking
-Attacks are made with an [expertise](#expertise) of a [weapon](#weapon--weapon-type--str), the [unarmed](#unarmed-combat-str) or the [throwing](#throwing-agi) [skill](#skills). 
+Attacks are made with an [expertise](#expertise) of a [weapon](#weapon--weapon-type--str), the [unarmed](#unarmed-combat-str) or the [throwing](#throwing-ath) [skill](#skills). 
 
 An attack generally requires an [opposed test](#opposed-test) to be made. If the attacker wins, [damage](#damage) is determined and applied to the defender. If the defender wins, they suffer no damage, **unless** if they're parrying in melee with a weapon that has 2 bulk less than the weapon they've parried. In such a case, half the damage (rounded up) still goes through, regardless of the successful parry.  
-* A defender must *choose* how to defend, if no a specific skill is required. The defender may choose to defend with a [weapon skill](#weapon--weapon-type---attribute), [acrobatics](#acrobatics-agi) or a [shield](#shield-end). 
+* A defender must *choose* how to defend, if no a specific skill is required. The defender may choose to defend with a [weapon skill](#weapon--weapon-type---attribute), [acrobatics](#acrobatics-ath) or a [shield](#shield-tough). 
 * Defending against a ranged attack with a melee weapon skill or vice-versa is possible, but at a penalty of only being able to use half the dice, rounded down. 
   * Depending on the projectile's speed or other properties, it may even be impossible to defend against it with a melee weapon skill. 
 
@@ -1418,9 +1382,9 @@ When attacking another character from stealth, the moment of surprise can make a
 
 In addition to an automatic success, the attack also deals **+1D** damage or if the damage is a flat number, add half of that number, rounded up. 
 
-When attacking with [bludgeoning](#damage-types), you may knock another character [unconscious](#unconscious) with one fell swoop. For this, their [toughness](#toughness-tough) must not be more than 3 levels greater than your [strength](#strength-str). Otherwise, the normal stealth damage bonus applies. 
+When attacking with [bludgeoning](#damage-types), you may knock another character [unconscious](#unconscious) with one fell swoop. For this, their [toughness](#toughness-tough) must not be more than 3 levels greater than your [athleticism](#athleticism-ath). Otherwise, the normal stealth damage bonus applies. 
 
-> For example, two ordinary humans: one is attacking from stealth with a club and has **strength** 2, while the victim has **toughness** 5. The victim is knocked unconscious right away, as their toughness is still within 3 levels of their attacker. 
+> For example, two ordinary humans: one is attacking from stealth with a club and has **athleticism** 2, while the victim has **toughness** 5. The victim is knocked unconscious right away, as their **toughness** is still within 3 levels of their attacker. 
 >
 > On the other hand, the same human attacking a giant from stealth with a club cannot knock that giant unconscious, assuming that giant to have a **toughness** of 10. The difference of 8 levels is simply too great. 
 
@@ -1434,7 +1398,7 @@ There are two types of defense:
 
 To defend, an [opposed test](#opposed-test) must be made. If successful, the attack is negated, entirely, **unless** if you're parrying in melee with a weapon that has 2 bulk less than the weapon you've parried. In such a case, half the damage (rounded up) still goes through, regardless of the successful parry.  
 
-The defender must *choose* how to defend themselves, if no specific "opposed by" skill is noted. They can use a [weapon skill](#weapon--weapon-type---attribute), [acrobatics](#acrobatics-agi) or [shield skill](#shield-end). 
+The defender must *choose* how to defend themselves, if no specific "opposed by" skill is noted. They can use a [weapon skill](#weapon--weapon-type---attribute), [acrobatics](#acrobatics-ath) or [shield skill](#shield-tough). 
 
 Defending against [area of effect](#area-of-effect) attacks is *only* possible as a **passive defense** and can *not* negate the attack. It can only halve (rounded up) its [damage](#damage). 
 
@@ -1468,28 +1432,28 @@ If you succeed an **active defense** and achieve at least 2 **positives** over y
 * Displace your opponent. They are forced to stumble backwards by 2m/6' in a direction of your choosing.
 * Displace yourself. You move 6'/2m in a direction of your choosing. This does not provoke [attacks of opportunity](#attacks-of-opportunity). 
 * Throw your opponent to the ground, making them proned.
-* Launch a counter-attack, for half your weapon's regular damage. You'll have to roll a regular attack, which your opponent can choose to defend against. This attack does not cost you any additional [AP](#action-points-ap). 
+* Launch a counter-attack, for half your weapon's regular damage (rounded up). You'll have to roll a regular attack, which your opponent can choose to defend against. This attack does not cost you any additional [AP](#action-points-ap). 
 * If defending against a ranged attack, you catch the projectile (if such a feat could be "reasonably" done). 
 
 ## Throwing
 Throwing things is a special type of action, that follows the rules outlined below. 
 
 ### Throwing-Distance
-**The maximum distance** something can be thrown is determined by the object's [bulk](#bulk) and the character's [strength](#strength-str):
-* For every point in [strength](#strength-str), an object can be thrown an additional **15'/5m**. 
-* For every point in bulk past 1, the [strength](#strength-str) value for throwing is reduced by 1. 
+**The maximum distance** something can be thrown is determined by the object's [bulk](#bulk) and the character's [athleticism](#athleticism-ath):
+* For every point in [athleticism](#athleticism-ath), an object can be thrown an additional **15'/5m**. 
+* For every point in bulk past 1, the [athleticism](#athleticism-ath) value for throwing is reduced by 1. 
 
 The steps to determine **distance** to throw are as follows:
 1. Reduce the object's [bulk](#bulk) by 1. 
-2. Reduce [strength](#strength-str) by the remaining [bulk](#bulk). 
+2. Reduce [athleticism](#athleticism-ath) by the remaining [bulk](#bulk). 
 3. Multiply by 15'/5m. 
 
-> A character with [strength](#strength-str) 1 can throw an object of [bulk](#bulk) 1 up to 15'/5m and cannot throw an object of bulk 2 or higher, at all. 
+> A character with **athleticism** 1 can throw an object of [bulk](#bulk) 1 up to 15'/5m and cannot throw an object of bulk 2 or higher, at all. 
 > 
-> A character with [strength](#strength-str) 5 can throw an object of [bulk](#bulk) 1 up to 75'/25m and an object of [bulk](#bulk) 3 up to 45'/15m. 
+> A character with **athleticism** 5 can throw an object of [bulk](#bulk) 1 up to 75'/25m and an object of [bulk](#bulk) 3 up to 45'/15m. 
 
 ### Throwing-Accuracy
-How likely the object is to impact where intended is determined by the object's [bulk](#bulk), the distance to throw and the character's skill in the [throwing](#throwing-agi) skill. If throwing _at_ another character, then their defense also factors into the chance to hit. 
+How likely the object is to impact where intended is determined by the object's [bulk](#bulk), the distance to throw and the character's skill in the [throwing](#throwing-ath) skill. If throwing _at_ another character, then their defense also factors into the chance to hit. 
 * For every **15'/5m** interval, the **Ob** increases by 1. 
   * That means up to 15'/5m is **Ob** 1. Starting at 18'/6m, up to and including 30'/10m it's **Ob** 2. Starting at 33'/11m, it's **Ob** 3, and so on.
 
@@ -1519,13 +1483,13 @@ For your convenience, you can refer to the following chart:
 ### Throwing-Damage
 If throwing a weapon that isn't specifically made or especially suitable to throwing, then the damage that is dealt on successful hit is halved (rounded down). 
 
-When throwing non-weapons, the damage dealt is calculated the following way: [strength](#strength-str) * ([bulk](#bulk) - 1) (minimum [strength](#strength-str) * 1)
+When throwing non-weapons, the damage dealt is calculated the following way: [athleticism](#athleticism-ath) * ([bulk](#bulk) - 1). Note if [bulk](#bulk) were to be less than 1, use 1 instead. 
 
 Even if the `bulk - 1` formula would result in 0, instead use 1. The resulting multiplicator must not be less than 1. 
 
 The [damage type](#damage-types) to use, depends on the type of object and how it hits the target. For most non-weapons, **bludgeoning** or **crushing** should be appropriate. 
 
-> A character with [strength](#strength-str) 5, throwing a [bulk](#bulk) 3 object, can deal 5 * (3 - 1) = 10 points of damage. 
+> A character with [athleticism](#athleticism-ath) 5, throwing a [bulk](#bulk) 3 object, can deal 5 * (3 - 1) = 10 points of damage. 
 
 ## Unarmed Combat (Str)
 Sometimes, your own body is your greatest weapon. Fists and feet can cause a surprising amount of damage. 
@@ -1536,10 +1500,10 @@ Sometimes, your own body is your greatest weapon. Fists and feet can cause a sur
 | Level | Name                       | AP | **Ob**                               | Damage/Effect         | Condition |
 | ----- | -------------------------- | -- | ------------------------------------ | --------------------- | --------- |
 | 0     | Punch, kick, headbutt      | 2  | Opposed                              | **Str** + 2 **Bludgeoning** |  |
-| 0     | Shove                      | 2  | Opposed by [strength](#strength-str) | Push an enemy away from you for 3'/1m * *N*, where *N* is the number of **positives** more than the opponent achieved. |  |
+| 0     | Shove                      | 2  | Opposed by [athleticism](#athleticism-ath) | Push an enemy away from you for 3'/1m * *N*, where *N* is the number of **positives** more than the opponent achieved. |  |
 | 1     | Grapple                    | 2  | Opposed by **Unarmed Combat**        | If **completely successful**, the target is unable to move and suffers **-1D** to their defense tests, for as long as they're grappled. Someone grappled can attempt to break free with an opposed **Unarmed Combat** test, on their turn. The grappler can not use at least one of their hands for as long as they're grappling. |  |
 | 2     | Wrestle and Disarm         | 2  | Opposed by **Unarmed Combat**        | Disarm your opponent and wrestle them to the ground, making them [prone](#prone), if you so choose. | Disarm only if enemy is using detachable weapon. |
-| 3     | Barge in                   | 3  | Opposed by [strength](#strength-str) | Push an enemy away from you for 3'/1m * *N*, where *N* is the number of **positives** more than the opponent achieved. Take their previous position and do **not** provoke **attacks of opportunity**. |  | 
+| 3     | Barge in                   | 3  | Opposed by [athleticism](#athleticism-ath) | Push an enemy away from you for 3'/1m * *N*, where *N* is the number of **positives** more than the opponent achieved. Take their previous position and do **not** provoke **attacks of opportunity**. |  | 
 
 # General Interactions
 These are rules pertaining to specific social interactions or otherwise non-combat interactions that aren't immediately covered by a single [skill](#skills). 
@@ -1547,11 +1511,11 @@ These are rules pertaining to specific social interactions or otherwise non-comb
 ## Appraisal
 In order to appraise the value, weight, size or other properties of something, a [test](#tests) with a [skill](#skills) pertaining to _what_ is being appraised must be made. 
 
-> For example, to determine the value and weight of a gold-nugget, one could test [metallurgy](#metallurgy-intwis). 
+> For example, to determine the value and weight of a gold-nugget, one could test [metallurgy](#metallurgy-wit). 
 
 The **Ob** depends on circumstance. How much time is available to appraise? How unusual or uncommon is the thing being appraised? How easy is it to appraise such things? 
 
-Of course, a trader may be experienced in the goods and wares they peddle. [Mercantilism](#mercantilism-ora) may be used as a catch-all for appraisal, but at a penalty of increased **Ob**, as a pure trader will never be able to ascertain the quality as well as a craftsperson could. As such, when using **mercantilism** for appraisal, the **Ob** is increased by 1. 
+Of course, a trader may be experienced in the goods and wares they peddle. [Mercantilism](#mercantilism-wit) may be used as a catch-all for appraisal, but at a penalty of increased **Ob**, as a pure trader will never be able to ascertain the quality as well as a craftsperson could. As such, when using **mercantilism** for appraisal, the **Ob** is increased by 1. 
 
 ## Persuasion, Intimidation & Deception
 There are no dedicated "social interaction" [skills](#skills) for the purposes of persuading people. Instead, characters *choose* one of their known **skills** relevant to the topic they wish to change another character's view about. 
@@ -1564,7 +1528,7 @@ That is the difference to combat. Combat cannot be played out in reality and wil
 
 Despite that, sometimes you may not clearly know how a **NPC** will react. That is when dice rolls may help to resolve the situation. 
 
-To ***persuade*** someone to see your point, you choose a *known* **skill** pertaining to the subject and make a roll. If you have no *known* **skill** to roll with, you may fall back to rolling your [oratory](#oratory-ora), [empathy](#empathy-emp) or [willpower](#willpower-will). The other character may [oppose](#opposed-test) your roll with the same **skill**, should they also know it. Alternatively, they may oppose with [oratory](#oratory-ora), [empathy](#empathy-emp) or [willpower](#willpower-will). 
+To ***persuade*** someone to see your point, you choose a *known* **skill** pertaining to the subject and make a roll. If you have no *known* **skill** to roll with, you may fall back to rolling your [wit](#wit-wit) or [awareness](#awareness-awar). The other character may [oppose](#opposed-test) your roll with the same **skill** or **attribute**.  
 
 > For example, to convince another character that their methods for treating an ailment are incorrect, you might try to *persuade* with an opposed **medicine** test. 
 > 
@@ -1576,7 +1540,7 @@ Given the circumstances and what you're trying to achieve, the **GM** may determ
 > 
 > In that case, no matter how well you present your argument, if the guard has absolutely never heard or seen any evidence prior to your visit, then convincing them should be much harder than if the guard already had their suspicions about a secret plot. 
 
-For the purposes of convincing someone, you needn't always speak truthfully. You may ***deceive*** another character to the same effect as speaking the truth - at least for as long as the lie is not discovered. For this method, the [acting](#acting-empora) **skill** may be invaluable. But you could also lie about a subject that you know well. You could invent facts, based on facts that your character and the other character may have. 
+For the purposes of convincing someone, you needn't always speak truthfully. You may ***deceive*** another character to the same effect as speaking the truth - at least for as long as the lie is not discovered. For this method, the [acting](#acting-wit) **skill** may be invaluable. But you could also lie about a subject that you know well. You could invent facts, based on facts that your character and the other character may have. 
 
 And lastly, ***intimidation*** is another method to try and get what you want, by forcing another character to obey. Mechanically, this is no different from persuasion. Pick a **skill** and explain how you use it. After all, intimidation isn't always just the threat of violence. Blackmailing also falls into this category. 
 
@@ -1591,7 +1555,7 @@ Always be mindful about when to use which of the three methods.
 ### Are they lying?
 Of course, all of this begs the question - how to know if another character is lying? "Does my character believe them?" Barring any evidence or knowledge to determine the answer, characters can only determine whether they believe the *act* of the other character. Does it *seem* like they're speaking the truth?
 
-At that point an [opposed test](#opposed-test) may be made. The defender is the character being scrutinized. The defender tests [acting](#acting-empora) versus the attacker testing [observation](#observation-perc). For this procedure it does not matter, whether the defender was actually lying. Someone speaking the truth is tested the same way as someone speaking a lie. That is because the attacker can only go by whether it *looks*, *sounds* or *feels* like they're being deceived. 
+At that point an [opposed test](#opposed-test) may be made. The defender is the character being scrutinized. The defender tests [acting](#acting-wit) versus the attacker testing [observation](#observation-awar). For this procedure it does not matter, whether the defender was actually lying. Someone speaking the truth is tested the same way as someone speaking a lie. That is because the attacker can only go by whether it *looks*, *sounds* or *feels* like they're being deceived. 
 
 * If the attacker wins...
   * ...and the other character was lying, they are given a hint that the other character doesn't seem trustworthy. They are **not** told how exactly it was a lie, only that it *seems* that something is off about *what* was said or *how* it was said. 
@@ -1788,7 +1752,7 @@ In most cases, your character will have left home with their everyday clothes an
 
 First, determine your character's [worn & equipped assets](#worn--equipped). Every slot may be filled, but keep in mind your character's background. Someone with the background of a peasant is unlikely to wear a crown, for example. 
 
-Then, determine your character's [carrying capacity](#carrying-capacity). Refer to the [strength](#strength-str) attribute to do so. Once you have this number, you know how much [luggage](#luggage) your character can carry around. Again, your character's background should dictate what kinds of things and how many they should have. 
+Then, determine your character's [carrying capacity](#carrying-capacity). Refer to the [athleticism](#athleticism-ath) attribute to do so. Once you have this number, you know how much [luggage](#luggage) your character can carry around. Again, your character's background should dictate what kinds of things and how many they should have. 
 
 Always make sure to talk to your **GM** and fellow players and have them agree to the **assets** you want your character to start with. 
 
@@ -1798,7 +1762,7 @@ Determine your character's **max HP** and **injury limit**, by referring to the 
 All characters start with an **injury limit** of 2. 
 
 ### Determine Exhaustion Threshold
-Determine your character's [exhaustion threshold](#exhaustion), by referring to the [endurance](#endurance-end) attribute. 
+Determine your character's [exhaustion threshold](#exhaustion), by referring to the [toughness](#thoughness-tough) attribute. 
 
 
 ## Asset Appendix
@@ -1830,7 +1794,7 @@ The following list does not and cannot aim to be a complete listing of all possi
 ### Physical Skills
 These skills have a dominant physical aspect and are directly tied to a character's *physical attributes*. 
 
-#### Acrobatics (Agi/Str)
+#### Acrobatics (Ath)
 Performing acrobatic feats, such as jumping, tumbling and climbing, without injuring oneself in the process. 
 
 | Level | Name                 | AP | **Ob**  | Effect(s)          | Condition(s) |
@@ -1849,46 +1813,46 @@ However, the price for this strength is steep. The chance of death is greatly in
 | 1     | Grit Your Teeth      | 1  | /       | Ignore the negative effects of one [injury](#injury) of choice for the rest of the combat encounter. It will still count towards the injury limit, however! | Once per combat. |
 | 2     | Pain is Strength     | 3  | Opposed | Perform a [single-target](#single-target-st) melee attack against an opponent of choice. For every active [injury](#injury) you currently have, deal one extra **D** of damage. You suffer one point of [exhaustion](#exhaustion). | Once per day. |
 
-#### Fishing (End)
+#### Fishing (Awar)
 The ability to efficiently catch fish. 
 
-#### Instrument-Playing < instrument > (Agi)
+#### Instrument-Playing < instrument > (Ath)
 Playing an instrument of choice. 
 
 The instrument in question must be noted. 
 
-#### Stealth (Agi/Perc)
+#### Stealth (Ath)
 Moving silently and performing actions undetected. 
 
 | Level | Name                 | AP | **Ob**  | Effect(s)          | Condition(s) |
 | ----- | -------------------- | -- | ------- | ------------------ | ------------ |
 | 3     | Muffled Fumble       | 0  | 2       | When failing a **stealth test**, re-roll two of your **negatives**. If you now succeed, treat that as the outcome of your original roll. | Failed a **stealth test**;  Once per rest. |
-| 4     | Pocket-Sand          | 3  | Opposed | If you succeed a **stealth test** against a single designated target's [observation](#observation-perc), you can disappear from their sight and run up to 2 **AP** worth of distance. | Once per rest. |
+| 4     | Pocket-Sand          | 3  | Opposed | If you succeed a **stealth test** against a single designated target's [observation](#observation-awar), you can disappear from their sight and run up to 2 **AP** worth of distance. | Once per rest. |
 
-#### Swimming (End)
+#### Swimming (Ath)
 The ability to safely stay afloat and move around in water. 
 
 For every point in **swimming**, a character can move an additional 3'/1m per [AP](#action-points-ap) spent or every 5 seconds. 
 
-#### Thievery (Agi)
+#### Thievery (Ath)
 Pickpocketing and lockpicking. 
 
 | Level | Name                 | AP | **Ob**  | Effect(s)          | Condition(s) |
 | ----- | -------------------- | -- | ------- | ------------------ | ------------ |
-| 3     | Nimble Recovery      | 2  | Opposed | When failing a **thievery test**, roll another **thievery test**, against the target's [observation](#observation-perc) to see if you've been found out. If you win, you're not discovered, but you don't succeed at pick-pocketing, either. | Once per rest. |
+| 3     | Nimble Recovery      | 2  | Opposed | When failing a **thievery test**, roll another **thievery test**, against the target's [observation](#observation-awar) to see if you've been found out. If you win, you're not discovered, but you don't succeed at pick-pocketing, either. | Once per rest. |
 | 4     | Feel the Mechanism   | 2  | 4       | Instantly succeed at picking even a very difficult lock. | Once per rest. |
 
-#### Observation (Perc)
+#### Observation (Awar)
 Actively looking out for and detecting hidden things or characters. 
 
-#### Path-finding (Perc/Int)
+#### Path-finding (Awar/Wit)
 Orienting oneself in the world and finding and following tracks. 
 
 | Level | Name                 | AP | **Ob** | Effect(s)          | Condition(s) |
 | ----- | -------------------- | -- | ------ | ------------------ | ------------ |
 | 3     | Find your Bearings   | 1  | 2      | Figure out your current heading and time of day, even when in complete darkness or in a place without landmarks. | Once per rest. |
 
-#### Shield (End/Tough)
+#### Shield (Tough)
 Expertise at defending oneself using a shield. 
 
 For any ally next to you, who's also using a shield, you both gain **+1D** on your defense tests. 
@@ -1897,7 +1861,7 @@ For any ally next to you, who's also using a shield, you both gain **+1D** on yo
 | ----- | -------------------- | -- | ------- | ------------------ | ------------ |
 | 2     | Shield Slam          | 2  | Opposed | Perform a [single-target](#single-target-st) melee attack to knock your opponent down with your shield. | Using shield. |
 
-#### Throwing (Agi)
+#### Throwing (Ath)
 General expertise at throwing things. This includes weapons as well as non-weapon objects. 
 
 See [throwing](#throwing). 
@@ -1908,27 +1872,27 @@ Expertise at handling a close-quarters or ranged weapon of a specific [weapon ty
 ### Social Skills
 These skills have a dominant social aspect and are strongly related to a character's *social attributes*. 
 
-#### Acting (Emp/Ora)
+#### Acting (Wit)
 Changing one's visual language, mannerisms, tone of voice and forms of speech to imitate someone else. 
 
 A vital skill in stage-play for honest entertainment and just as important to liars and cheats who prefer to entertain only themselves. 
 
 | Level | Name                 | AP | **Ob**  | Effect(s)          | Condition(s) |
 | ----- | -------------------- | -- | ------- | ------------------ | ------------ |
-| 0     | Taunt                | 2  | Opposed by [self-control](#self-control-willemp) | Force a designated target to attack *you* on their next turn. | |
-| 3     | Vicious Mockery      | 2  | Opposed by [self-control](#self-control-willemp) | Lower a designated target's defense by **-1D** until the end of their next turn and force them to attack *you*. | |
+| 0     | Taunt                | 2  | Opposed by [self-control](#self-control-tough) | Force a designated target to attack *you* on their next turn. | |
+| 3     | Vicious Mockery      | 2  | Opposed by [self-control](#self-control-tough) | Lower a designated target's defense by **-1D** until the end of their next turn and force them to attack *you*. | |
 
-#### Animal Handling (Emp/Will)
+#### Animal Handling (Awar)
 Gaining an animal's trust, directing it and training it to obey simple commands. 
 
-Is opposed by [self-control](#self-control-will). 
+Is opposed by [self-control](#self-control-tough). 
 
 | Level | Name                 | AP | **Ob**  | Effect(s)          | Condition(s) |
 | ----- | -------------------- | -- | ------- | ------------------ | ------------ |
-| 0     | Command Animal       | 2  | Opposed by [self-control](#self-control-willemp) | Issue a *simple* command to a tamed/friendly animal. | / |
-| 2     | Calm Animal          | 2  | Opposed by [self-control](#self-control-willemp) | Calm an aggressive/hostile/frightened animal down. | Once per scene. |
+| 0     | Command Animal       | 2  | Opposed by [self-control](#self-control-tough) | Issue a *simple* command to a tamed/friendly animal. | / |
+| 2     | Calm Animal          | 2  | Opposed by [self-control](#self-control-tough) | Calm an aggressive/hostile/frightened animal down. | Once per scene. |
 
-#### Commanding (Tough/Will)
+#### Commanding (Tough)
 Speaking commands others will respect and follow to the letter. 
 
 | Level | Name                   | AP | **Ob** | Effect(s)          | Condition(s) |
@@ -1939,17 +1903,17 @@ Speaking commands others will respect and follow to the letter.
 | 5     | Unquestionable Command | 2  | 3      | An ally of choice, gains **+2D** on their next test. | Ally can hear the command. |
 | 6     | Spur                   | 2  | 2      | An ally of choice, is [hastened](#hasted) for one turn of combat, or five seconds out of combat. | Ally can hear the command. |
 
-#### Entertainment (Agi/Emp)
+#### Entertainment (Ath)
 The ability to juggle, perform tricks with cards, to perform "magic" tricks and such - anything requiring nimble fingers and flashy presentation, for the entertainment of others. 
 
-#### Mercantilism (Ora)
+#### Mercantilism (Wit)
 Skill at knowing or getting to know the value of goods and services. Also useful in determining the availability and demand of such things. 
 
 See [trade](#trade) on how to use this **skill** on a more abstract level. 
 
 Can also be used as a sort of catch-all **skill** for [appraisal](#appraisal), but at a penalty of +1 **Ob**. 
 
-#### Riding (Emp/Will)
+#### Riding (Ath)
 Riding and controling a mount.
 
 In and outside of [combat](#combat), a rider will inherit the [speed](#combat-movement) of the mount they're on. 
@@ -1959,39 +1923,39 @@ In and outside of [combat](#combat), a rider will inherit the [speed](#combat-mo
 | 1     | Spur                 | 1  | 2      | Gain an additional 3 **AP** worth of movement from your mount. The mount suffers +1 exhaustion. | At most once per turn. |
 | 3     | Mounted Charge       | 3  | 3      | Perform a mounted charge attack, dealing **2D4** extra damage of whatever weapon type you are using. | Mounted on a fast and strong animal; Must have enough distance to target to gain enough speed - refer to **GM**'s judgement. |
 
-#### Self-Control (Will/Tough)
+#### Self-Control (Tough)
 Mastery of one's own impulses. Used to stay awake past the point of exhaustion and to not act on emotional impulse. 
 
 ### Knowledge Skills
 These skills have a dominant mental aspect and are strongly related to a character's *mental attributes*. 
 
-#### Architecture (Int)
+#### Architecture (Wit)
 Analysing and planning buildings. Discerning weak points in a structure. 
 
-#### Geography (Int)
+#### Geography (Wit)
 Knowledge about the geography of the world. Used to recall the location of places in relation to each other. 
 
-#### History < subject > (Wis)
+#### History < subject > (Wit)
 Knowledge about past events and locations. 
 
 Specific historical knowledge should be noted. 
 
-#### Language < language > (Int)
+#### Language < language > (Wit)
 Speaking and understanding a specific language. The language in question must be noted. 
 
-#### Law and politics (Int)
+#### Law and politics (Wit)
 The ability to understand laws and politics, as well as the ability to direct politics. 
 
-#### Mathematics (Int)
+#### Mathematics (Wit)
 The ability to work with numbers. Useful for anyone handling large sums of money, but also for engineers and architects. 
 
-#### Mechanics (Int)
+#### Mechanics (Wit)
 Understanding, designing and maintaining complex mechanical machines and devices. 
 
-#### Metallurgy (Int/Wis)
+#### Metallurgy (Wit)
 Knowledge of metallurgical processes and the qualities (such as weight, conductivity, value and so on) of various metals. 
 
-#### Nature (Int/Wis)
+#### Nature (Wit/Awar)
 The ability to tell flora and fauna apart and to know of their attributes, such as what is edible or poisonous or how to hunt a deer, and so on. 
 
 | Level | Name                 | AP | **Ob** | Effect(s)          | Condition(s) |
@@ -1999,21 +1963,21 @@ The ability to tell flora and fauna apart and to know of their attributes, such 
 | 2     | Dirty Weapon         | 2  | 2      | Grab some dirt or filth and rub it on a melee weapon. When an [attack](#attacking) with that weapon inflicts an [injury](#injury), the victim suffers 2 points of [poisoned](#poisoned) and the **injury** is always an [infection](#list-of-injuries). | Dirt or filth nearby. |
 | 2     | Dirty Ammo           | 2  | 2      | Grab some dirt or filth and rub it on a select amount of kinetic ammunition (such as arrows or bullets). When an [attack](#attacking) with that ammunition inflicts an **injury**, the victim suffers 1 point of [poisoned](#poisoned) and the [injury](#injury) is always an [infection](#list-of-injuries). | Dirt or filth nearby; Ammunition easily accessible during combat. |
 
-#### Mysticism and Religion (Wis)
+#### Mysticism and Religion (Wit)
 Knowledge about religions, legends and myths. May be used to recall knowledge about mythical creatures, artifacts and locations, as well as understand the local religion more easily. 
 
-#### Medicine (Int/Emp)
+#### Medicine (Wit)
 Diagnosing and treating mundane [injuries](#injury). 
 
-#### Reading and Writing < language > (Int)
+#### Reading and Writing < language > (Wit)
 The ability to both read and write in a specific language. 
 
 The language in question must be noted in addition to this skill. 
 
-#### Surgery (Int/Agi)
+#### Surgery (Ath/Wit)
 The ability to invasively treat ailments without making things worse for the patient. 
 
-#### Warfare (Wis/Tough)
+#### Warfare (Tough)
 The ability to understand and direct large-scale combat movements, the logistics and psychology of war. 
 
 This governs the understanding of what makes defensive structures effective and how to circumvent them. This entails a functional understanding of siege engines, but not their construction. 
@@ -2021,14 +1985,14 @@ This governs the understanding of what makes defensive structures effective and 
 ### Craftsmanship Skills
 All craftsmanship requires a mix of physical and mental attributes, for the purpose of creating a wide variety of things.
 
-#### Artistry (Emp)
+#### Artistry (Ath/Wit)
 The ability to paint and draw well, as well as a general sense of aesthetics. 
 
 | Product                              | Complexity | Workload  | Materials                              | Quality Bonus   |
 | ------------------------------------ | ---------- | --------- | -------------------------------------- | --------------- | 
 | 1 painting or sculpture.             | Moderate   | Moderate  | Any paintable or shapeable object, such as a canvas or chunk of marble. | / |
 
-#### Cooking (Emp/Agi)
+#### Cooking (Awar/Wit)
 The ability to cook well. Poor cooks are prone to losing ingredients due to burning them or overcooking them to the point of inedibility. 
 
 Tools: cooking utensils, a pot or pan, a fire place
@@ -2046,7 +2010,7 @@ The following is a list of all [conditions](#condition) present in the core rule
 A character who is in **berserk**, **must** attack the creature nearest to them, regardless of whether it is friend or foe, until it is dead or unconscious. The **berserked** character **must** then move on to the next available and closest victim. 
 
 * Graded
-* Shrug off: 1 *point* with a [skill](#skills) based on [empathy](#empathy-emp) or with [empathy](#empathy-emp) itself at **Ob** equal to the current *degree*.
+* Shrug off: 1 *point* with an [awareness](#awareness-awar) [test](#tests) with **Ob** equal to the current *degree*. 
 * Immediate cancel: When the character is made [unconscious](#unconscious) or no other creatures remain alive and/or conscious.
 
 ### Burning
@@ -2062,8 +2026,8 @@ Adjacent allies can also help pat out the flames, by spending an [AP](#action-po
 For every *point* in **bleeding**, a character suffers **1 D4** points of [bleeding](#damage-types) damage every *tick*. 
 
 * Graded
-* Shrug off: 1 *point* with [toughness](#toughness-tough) [test](#tests) with **Ob** at the current *degree*. 
-* Immediate cancel: With a successful [medicine](#medicine-int) [test](#tests), requiring 1 [medical supplies](#list-of-stuff--things) with **Ob** at the current *degree*.
+* Shrug off: 1 *point* with a [toughness](#toughness-tough) [test](#tests) with **Ob** equal to the current *degree*. 
+* Immediate cancel: With a successful [medicine](#medicine-wit) [test](#tests), requiring 1 [medical supplies](#list-of-stuff--things) with **Ob** at the current *degree*.
 
 ### Death's Door
 **Death's door** is a **condition** only a **PC** can enter and represents their final battle with death. 
@@ -2079,17 +2043,17 @@ For every point in **dissolving**, a character suffers **1 D4** points of [acid]
 
 * Graded
 * Shrug off: 1 *point* is automatically removed after every *tick*. 
-* Immediate cancel: With a successful [medicine](#medicine-int) [test](#tests), requiring 1 [medical supplies](#list-of-stuff--things) with **Ob** at the current *degree*.
+* Immediate cancel: With a successful [medicine](#medicine-wit) [test](#tests), requiring 1 [medical supplies](#list-of-stuff--things) with **Ob** at the current *degree*.
 
 ### Drug-Addicted
 A **drug-addicted** character must take their drug once every 24 hours, or else enter **withdrawal**. 
 
-For every 24 hours that a character is in **withdrawal**, they suffer **-1D** to **all** tests. For every 12 hours that they are in **withdrawal** they have to pass a [willpower](#willpower-will) test at **Ob** 2, or else be forced to dedicate their every bit of strength into acquiring and taking a new dose of the drug. 
+For every 24 hours that a character is in **withdrawal**, they suffer **-1D** to **all** tests. For every 12 hours that they are in **withdrawal** they have to pass a [toughness](#toughness-tough) test at **Ob** 2, or else be forced to dedicate their every bit of strength into acquiring and taking a new dose of the drug. 
 
 After 72 consecutive hours (= 3 full days) of having being in **withdrawal**, the character breaks free from their addiction, removing this **condition**.
 
 ### Electrified
-An **electrified** character suffers **-1D** for their every [test](#tests) requiring [agility](#agility-agi). That means [attributes](#attributes) and [skills](#skills). 
+An **electrified** character suffers **-1D** for their every [test](#tests) requiring [athleticism](#athleticism-ath). That means [attribute](#attributes) and [skills](#skills). 
 
 * Graded
 * Shrug off: 1 *point* is automatically removed after the character's next *action*. 
@@ -2098,7 +2062,7 @@ An **electrified** character suffers **-1D** for their every [test](#tests) requ
 ### Exhausted
 An **exhausted** character begins their turn with -2 **AP** and can run at most only half the distance they normally could. [Sprinting](#combat-movement) is impossible. In addition, they suffer a penalty of **-1D** to all [tests](#tests). The number of dice for a [test](#tests) cannot be reduced to less than 1 by this penalty. 
 
-While **exhausted**, a character suffering further [exhaustion](#exhaustion), must succeed a [self-control](#self-control-willemp) [test](#tests) at **Ob** equal to their current level of [exhaustion](#exhaustion), or else fall [unconscious](#unconscious).
+While **exhausted**, a character suffering further [exhaustion](#exhaustion), must succeed a [self-control](#self-control-tough) [test](#tests) at **Ob** equal to their current level of [exhaustion](#exhaustion), or else fall [unconscious](#unconscious).
 
 This **condition** can be recovered from by **actively resting** for at least **six uninterrupted hours**. 
 
@@ -2113,29 +2077,27 @@ A **frostbitten** character suffers -1 [AP](#action-points-ap) during combat and
 A **grappled** character is unable to move and suffers **-1D** to all defense [tests](#tests), for as long as they are **grappled**. A **grappled** character can break free, by **completely succeeding** a [unarmed combat](#unarmed-combat-str) [tests](#tests) against the other character grappling them. 
 
 ### Hasted
-A **hasted** character enjoys several benefits: 
-* During combat, the character has an additional **AP** to spend and an additional 9'/3m of movement per **AP**. 
-* Out of combat, the character enjoys 50% more movement and action speed compared to their normal movement speed. 
+A **hasted** character has an additional [AP](#action-points-ap) to spend and an additional 9'/3m of [movement](#combat-movement) per [AP](#action-points-ap) or every 5 seconds. 
 
 ### Jealous
 A character who has been made unnaturally **jealous**, will do anything in their power to take, whatever it may be, from whoever might have *it*. 
 
 * Graded
-* Shrug off: 1 *point* a [skill](#skills) based on [empathy](#empathy-emp) or with [empathy](#empathy-emp) itself at **Ob** equal to the current *degree*.
+* Shrug off: 1 *point* with an [awareness](#awareness-awar) [test](#tests) with **Ob** equal to the current *degree*. 
 * Immediate cancel: When the character is made [unconscious](#unconscious), the source of the jealousy is removed or the character acquires that which they covet. 
 
 ### Pacified
 A character who is **pacified**, is unable to *willingly* take any action that would directly or indirectly harm any other creature. Note, the character is not physically unable to cause harm, but they **really** don't want to. 
 
 * Graded
-* Shrug off: 1 *point* with a [skill](#skills) based on [strength](#strength-str) or with [strength](#strength-str) itself at **Ob** equal to the current *degree*.
+* Shrug off: 1 *point* with a [toughness](#toughness-tough) [test](#tests) with **Ob** equal to the current *degree*. 
 * Immediate cancel: When the character is made [unconscious](#unconscious) or the source of the pacification is removed.
 
 ### Poisoned
 A **poisoned** character suffers **1 D4** points of [poison](#damage-types) damage every *tick*. 
 
 * Graded
-* Shrug off: 1 *point* with a [skill](#skills) based on [toughness](#toughness-tough) at **Ob** equal to the current *degree*.
+* Shrug off: 1 *point* with a [toughness](#toughness-tough) [test](#tests) with **Ob** equal to the current *degree*. 
 * Immediate cancel: With proper [treatment](#poison-injuries). 
 
 ### Prone
@@ -2162,7 +2124,7 @@ A **stunned** character is unable to act, at all. During combat, their turn is s
 A **terrified** character suffers **-2D** to defense tests and **has to** flee from whatever it is that terrified them, until they can no longer perceive it. 
 
 * Graded
-* Shrug off: 1 *point* with a [skill](#skills) based on [willpower](#willpower-will) at **Ob** equal to the current *degree*.
+* Shrug off: 1 *point* with a [wit](#wit-wit) [test](#tests) with **Ob** equal to the current *degree*. 
 * Immediate cancel: When the character is made [unconscious](#unconscious), the source of terror is removed or the character can no longer perceive the source of terror in any way for a short wile (1-2 turns or 5-10 seconds).
 
 ### Unconscious
@@ -2170,9 +2132,9 @@ An **unconscious** character is unable to act and is unaware of their surroundin
 
 Someone *knocked* **unconscious** can't awaken due to external stimuli. To wake up, they have to recover. For how long, depends on the circumstances. But several hours hould be a good baseline. 
 
-A character can be *knocked* **unconscious**, if they're at their exhaustion threshold and suffer any [bludgeoning](#damage-types) damage and fail an [endurance](#endurance-end) [test](#tests). The **Ob** is 2 + 1 per level of exhaustion past the threshold.
+A character can be *knocked* **unconscious**, if they're at their exhaustion threshold and suffer any [bludgeoning](#damage-types) damage and fail an [toughness](#thoughness-tough) [test](#tests). The **Ob** is 2 + 1 per level of exhaustion past the threshold.
 
-> A character is brought to an exhaustion level of 4 with bludgeoning damage, which is 1 point past their exhaustion threshold of 3. They must succeed an **endurance** test at **Ob** 3, or else be knocked unconscious. 
+> A character is brought to an exhaustion level of 4 with bludgeoning damage, which is 1 point past their exhaustion threshold of 3. They must succeed a **toughness** test at **Ob** 3, or else be knocked unconscious. 
 
 ## List of Injuries
 How many times an **injury** can be suffered, can be limited. In the table below, the *limit* is the maximum number of times the **injury** can be suffered by the same character. If there is a slash (/), there is no limit. If a roll would result in an already maxed out **injury**, pick the next **injury** below it, instead, or roll again. 
@@ -2188,197 +2150,173 @@ Note that "Cosmic Fortune" is not an actual **injury**. When it is rolled for, *
 
 ### Acid Injuries
 * Self patch-up: [Toughness](#toughness-tough) at **Ob** 3 every day. 
-* Treatment skill: [medicine](#medicine-int)
+* Treatment skill: [medicine](#medicine-wit)
 * Required supplies: 1 [medical supplies](#list-of-stuff--things)
 * **Ob**: 1D6 - 2 | 1D6
 * Time to heal: 4D4 weeks | 3D4 weeks
 
 | Range D100 | Injury              | Limit     | Description                      | Scar                |
 | ---------  | ------------------- | --------- | -------------------------------- | ------------------- |
-| 1 - 5      | Cosmic Fortune      | /         | Luck is with you! You suffer no **injury**! | / |
-| 6 - 28     | Molten Skin         | /         | -1 [Toughness](#toughness-tough); -1 [Oratory](#oratory-ora). Acid's greed has laid part of you bare. | Burned skin |
-| 29 - 50    | Dissolved Arm       | Arm Count | -1 [Agility](#agility-agi); Actions and equipment requiring two hands cannot be used. If incurred *limit* times, any actions requiring arm movement is impossible. | Scarred arm |
-| 51 - 73    | Dissolved Leg       | Leg Count | -6'/2m of [movement](#combat-movement). If incurred *limit* times, any actions requiring leg movement is impossible. | Scarred leg |
-| 74 - 95    | Emotional Damage    | /         | -1 [Empathy](#empathy-emp). Feeling empathy is difficult, when faced with a world that would do such horrible things to you. | / |
-| 96 - 100   | Cosmic Misfortune   | /         | The cosmos has it out for you! Suffer one additional **injury**! | / |
+| 1 - 25     | Molten Skin         | /         | -1 [awareness](#awareness-awar). Acid has laid part of you bare. | Burned skin |
+| 26 - 50    | Dissolved Arm       | Arm Count | -1 [athleticism](#athleticism-ath); Actions and equipment requiring two hands cannot be used. If incurred *limit* times, any actions requiring arm movement is impossible. | Scarred arm |
+| 51 - 75    | Dissolved Leg       | Leg Count | -6'/2m of [movement](#combat-movement). If incurred *limit* times, any actions requiring leg movement is impossible. | Scarred leg |
+| 76 - 100   | Molten Muscles      | /         | -1 [toughness](#toughness-tough). | / |
 
 ### Bleeding Injuries
 * Self patch-up: [Toughness](#toughness-tough) with **Ob** at level of [bleeding](#bleeding) at end of every turn / every minute. 
-* Treatment skill: [medicine](#medicine-int)
+* Treatment skill: [medicine](#medicine-wit)
 * Required supplies: 1 [medical supplies](#list-of-stuff--things)
 * **Ob**: 1D4 - 1 | 1D4
 * Time to heal: 1D4 days | 1D4 days
 
 | Range D100 | Injury              | Limit     | Description                      | Scar                |
 | ---------  | ------------------- | --------- | -------------------------------- | ------------------- |
-| 1 - 5      | Cosmic Fortune      | /         | Luck is with you! You suffer no **injury**! | / |
-| 6 - 35     | Infection           | /         | Within a day, the character will contract an [illness](#illness). This can be avoided, but only if the [injury](#injury) is properly [treated](#injury-states--treatment) within 24 hours. | / |
-| 36 - 65    | Dizzy               | /         | -1 [perception](#perception-perc); -1 [wisdom](#wisdom-wis). You feel dizzy. Focusing is difficult. | / |
-| 66 - 95    | Weakened            | /         | -1 [toughness](#toughness-tough); -1 [strength](#strength-str). You feel weak. | / |
-| 96 - 100   | Cosmic Misfortune   | /         | The cosmos has it out for you! Suffer one additional **injury**! | / |
+| 1 - 33     | Infection           | /         | Within a day, the character will contract an [illness](#illness). This can be avoided, but only if the [injury](#injury) is properly [treated](#injury-states--treatment) within 24 hours. | / |
+| 34 - 66    | Exsanguinated       | /         | -1 [athleticism](#athleticism-ath); -1 [wit](#wit-wit). The skin is pale and the body feels heavy. | / |
+| 67 - 100   | Weakened            | /         | -1 [athleticism](#athleticism-ath); -1 [toughness](#toughness-tough). You feel weak. | / |
 
 ### Bludgeoning Injuries
 * Self patch-up: [Toughness](#toughness-tough) at **Ob** 1. 
-* Treatment skill: [medicine](#medicine-int)
+* Treatment skill: [medicine](#medicine-wit)
 * Required supplies: 1 [medical supplies](#list-of-stuff--things)
 * **Ob**: 1 | 2
 * Time to heal: 1D4 days | 1D4 days
 
-Note that whenever a bludgeoning [injury](#injury) is suffered, an [endurance](#endurance-end) [test](#tests) must be succeeded at **Ob** equal to the current level of [exhaustion](#exhaustion). If failed, the character falls [unconscious](#unconscious), immediately. 
+Note that whenever a bludgeoning [injury](#injury) is suffered, an [toughness](#thoughness-tough) [test](#tests) must be succeeded at **Ob** equal to the current level of [exhaustion](#exhaustion). If failed, the character falls [unconscious](#unconscious), immediately. 
 
 | Range D100 | Injury              | Limit     | Description                      | Scar                |
 | ---------  | ------------------- | --------- | -------------------------------- | ------------------- |
-| 1  - 25    | Dizzy               | /         | +1 [exhaustion](#exhaustion); -1 [perception](#perception-perc); -1 [wisdom](#wisdom-wis). You feel dizzy. Focusing is difficult. | / |
-| 26 - 75    | Bruise              | /         | +1 [exhaustion](#exhaustion); -1 [agility](#agility-agi). A bruised limb is harder to control, due to pain. | / |
-| 76 - 100   | Shaken              | /         | +1 [exhaustion](#exhaustion); -1 [willpower](#willpower-will). Rattled and shaken, it is harder to control oneself. | / |
+| 1  - 25    | Dizzy               | /         | +1 [exhaustion](#exhaustion); -1 [awareness](#awareness-awar). You feel dizzy. Focusing is difficult. | / |
+| 26 - 50    | Battered Head       | /         | +1 [exhaustion](#exhaustion); -1 [wit](#wit-wit). Headache plagues you and pain dulls your mind. | / |
+| 51 - 75    | Bruise              | /         | +1 [exhaustion](#exhaustion); -1 [athleticism](#athleticism-ath). A bruised limb is harder to control, due to pain. | / |
+| 76 - 100   | Shaken              | /         | +1 [exhaustion](#exhaustion); -1 [toughness](#toughness-tough). Rattled and shaken, it is harder to control yourself. | / |
 
 ### Burning Injuries
 * Self patch-up: [Toughness](#toughness-tough) at **Ob** 3 every day. 
-* Treatment skill: [medicine](#medicine-int)
+* Treatment skill: [medicine](#medicine-wit)
 * Required supplies: 1 [medical supplies](#list-of-stuff--things)
 * **Ob**: 1D6 - 2 | 1D6
 * Time to heal: 4D4 weeks | 3D4 weeks
 
 | Range D100 | Injury              | Limit     | Description                      | Scar                |
 | ---------  | ------------------- | --------- | -------------------------------- | ------------------- |
-| 1 - 5      | Cosmic Fortune      | /         | Luck is with you! You suffer no **injury**! | / |
-| 6 - 28     | Molten Skin         | /         | -1 [Toughness](#toughness-tough); -1 [Oratory](#oratory-ora). Flame's greed has laid part of you bare. | Burned skin |
-| 29 - 50    | Ash Lung            | /         | -1 [Endurance](#endurance-end). The heat and stench of your own self burning cause difficulty breathing. | / |
-| 51 - 73    | Burned Face         | /         | -1 [Perception](#perception-perc); -1 [Oratory](#oratory-ora). Involuntarily, you close your eyes in hopes of protecting them from the fire. In vain. Speech is impaired from your pain contorted face. | Burned face |
-| 74 - 95    | Emotional Damage    | /         | -1 [Empathy](#empathy-emp). Feeling empathy is difficult, when faced with a world that would do such horrible things to you. | / |
-| 96 - 100   | Cosmic Misfortune   | /         | The cosmos has it out for you! Suffer one additional **injury**! | / |
+| 1 - 25     | Molten Skin         | /         | -1 [awareness](#awareness-awar). Flame's greed has laid part of you bare. | Burned skin |
+| 26 - 50    | Ash Lung            | /         | -1 [athleticism](#athleticism-ath). The heat and stench of your own self burning cause difficulty breathing. | / |
+| 51 - 75    | Burned Face         | /         | -1 [awareness](#awareness-awar). Involuntarily, you close your eyes in hopes of protecting them from the fire. In vain. Speech is impaired from your pain contorted face. | Burned face |
+| 76 - 100   | Molten Muscles      | /         | -1 [toughness](#toughness-tough). Heat induced atrophy. | / |
 
 ### Crushing Injuries
 * Self patch-up: Impossible
-* Treatment skill: [surgery](#surgery-int)
+* Treatment skill: [surgery](#surgery-athwit)
 * Required supplies: 1 [medical supplies](#list-of-stuff--things)
 * **Ob**: 1D4 - 1 | 1D4 + 1
 * Time to heal: 4D6 weeks | 3D6 weeks
 
 | Range D100 | Injury              | Limit     | Description                      | Scar                |
 | ---------  | ------------------- | --------- | -------------------------------- | ------------------- |
-| 1 - 5      | Cosmic Fortune      | /         | Luck is with you! You suffer no **injury**! | / |
-| 6 - 16     | Concussion          | /         | -1 [Wisdom](#wisdom-wis). Thoughts come to you slower than before. | / |
-| 17 - 28    | Skull Fracture      | /         | -1 [Intelligence](#intelligence-int). The pain shoots through your mind, displacing any other thought. | Crooked skull |
-| 29 - 39    | Fractured Rib       | /         | -1 [Toughness](#toughness-tough). A rib has cracked and is now pointing the wrong way. | Crooked rib cage |
-| 40 - 50    | Broken Nose         | 1         | -1 [Perception](#perception-perc); Cannot smell. | Disfigured nose |
-| 51 - 61    | Knocked Senseless   | /         | -1 [Perception](#perception-perc). The pain and the impact disorient you. | / |
-| 62 - 73    | Mental Trauma       | /         | -1 [Willpower](#willpower-will). The sheer force of impact sends terror tremors through your body. | / |
-| 74 - 84    | Smashed Jaw         | /         | -1 [Oratory](#oratory-ora). Your jaw no longer hinges the way it should and speech is impaired. | Crooked jaw |
-| 85 - 95    | Emotional Damage    | /         | -1 [Empathy](#empathy-emp). Feeling empathy is difficult, when faced with a world that would do such horrible things to you. | / |
-| 96 - 100   | Cosmic Misfortune   | /         | The cosmos has it out for you! Suffer one additional **injury**! | / |
+| 1  - 17    | Broken Nose         | 1         | -1 [awareness](#awareness-awar); Cannot smell. | Disfigured nose |
+| 18 - 33    | Concussion          | /         | -1 [awareness](#awareness-awar). The pain and the impact disorient you. | / |
+| 34 - 50    | Fractured Rib       | /         | -1 [toughness](#toughness-tough). A rib has cracked and is now pointing the wrong way. | Crooked rib cage |
+| 51 - 67    | Skull Fracture      | /         | -1 [wit](#wit-wit). Thoughts come to you slower than before. | / |
+| 68 - 83    | Broken Bone         | /         | -1 [athleticism](#athleticism-ath). _Some_ bone is broken. And the pain causes you to tensen up, weakening you. | / |
+| 84 - 100   | Smashed Jaw         | /         | -1 [wit](#wit-wit). Your jaw no longer hinges the way it should and speech is impaired. | Crooked jaw |
 
 ### Electrical Injuries
 * Self patch-up: [Toughness](#toughness-tough) at **Ob** 3 every day. 
-* Treatment skill: [medicine](#medicine-int)
+* Treatment skill: [medicine](#medicine-wit)
 * Required supplies: 1 [medical supplies](#list-of-stuff--things)
 * **Ob**: 1D6 - 2 | 1D6
 * Time to heal: 4D4 weeks | 3D4 weeks
 
 | Range D100 | Injury              | Limit     | Description                      | Scar                |
 | ---------  | ------------------- | --------- | -------------------------------- | ------------------- |
-| 1 - 5      | Cosmic Fortune      | /         | Luck is with you! You suffer no **injury**! | / |
-| 6 - 18     | Burned Skin         | /         | -1 [Toughness](#toughness-tough); -1 [Oratory](#oratory-ora). Electrical flames have laid part of you bare. | Burned skin |
-| 19 - 31    | Short-Circuited     | /         | -1 [Intelligence](#intelligence-int). Your mind dulls and thoughts are difficult to grasp. | / |
-| 32 - 44    | Dulled Memory       | /         | -1 [Wisdom](#wisdom-wis). Recalling thoughts has become difficult. | / |
-| 45 - 56    | Tremors             | /         | -1 [Agility](#agility-agi) | / |
-| 57 - 69    | Spasms              | /         | Move 3'/1m in a random direction. To determine where, you may use the [throwing accuracy](#throwing-accuracy) rules for misses. This movement can trigger [attacks of opportunity](#attacks-of-opportunity). | / |
-| 70 - 82    | Emotional Damage    | /         | -1 [Empathy](#empathy-emp). Feeling empathy is difficult, when faced with a world that would do such horrible things to you. | / |
-| 83 - 95    | Distracted          | /         | -1 [Perception](#perception-perc). It has become difficult to focus on what is happening around you. | / |
-| 96 - 100   | Cosmic Misfortune   | /         | The cosmos has it out for you! Suffer one additional **injury**! | / |
+| 1  - 20    | Burned Skin         | /         | -1 [awareness](#awareness-awar). The rage of electricity has ravaged your skin. | Burned skin |
+| 21 - 40    | Short-Circuited     | /         | -1 [wit](#wit-wit). Your mind dulls and thoughts are difficult to grasp. | / |
+| 41 - 60    | Tremors             | /         | -1 [athleticism](#athleticism-ath). Your muscles escape your control. | / |
+| 61 - 80    | Spasms              | /         | Move 3'/1m in a random direction for 3 turns or 15 seconds. To determine where, you may use the [throwing accuracy](#throwing-accuracy) rules for misses. This movement can trigger [attacks of opportunity](#attacks-of-opportunity). | / |
+| 81 - 100   | Distracted          | /         | -1 [awareness](#awareness-awar). It has become difficult to focus on what is happening around you. | / |
 
 ### Freezing Injuries
 * Self patch-up: [Toughness](#toughness-tough) at **Ob** 1 every day. 
-* Treatment skill: [medicine](#medicine-int)
+* Treatment skill: [medicine](#medicine-wit)
 * Required supplies: 1 [medical supplies](#list-of-stuff--things)
 * **Ob**: 1D4 - 1 | 1D4
 * Time to heal: 2D4 weeks | 2D4 weeks
 
 | Range D100 | Injury              | Limit     | Description                      | Scar                |
 | ---------  | ------------------- | --------- | -------------------------------- | ------------------- |
-| 1 - 5      | Cosmic Fortune      | /         | Luck is with you! You suffer no **injury**! | / |
-| 6 - 28     | Frostbitten Skin    | /         | -1 [Toughness](#toughness-tough). The cold bites. The pain is unbearable. | Discolored skin |
-| 29 - 50    | Deep Freeze         | /         | -1 [Endurance](#endurance-end). Chilled to the bone! Every movement hurts and causes difficulty breathing. | / |
-| 51 - 73    | Arresting Cold      | /         | -1 [Agility](#agility-agi). Your limbs have to fight for every movement, as the cold causes them to seize up. | / |
-| 74 - 95    | Emotional Damage    | /         | -1 [Empathy](#empathy-emp). Feeling empathy is difficult, when faced with a world that would do such horrible things to you. | / |
-| 96 - 100   | Cosmic Misfortune   | /         | The cosmos has it out for you! Suffer one additional **injury**! | / |
+| 1  - 25    | Frostbitten Skin    | /         | -1 [toughness](#toughness-tough). The cold bites. The pain is unbearable. | Discolored skin |
+| 26 - 50    | Deep Freeze         | /         | -1 [toughness](#toughness-tough). Chilled to the bone! Every movement hurts and causes difficulty breathing. | / |
+| 51 - 75    | Arresting Cold      | /         | -1 [athleticism](#athleticism-ath). Your limbs have to fight for every movement, as the cold causes them to seize up. | / |
+| 76 - 100   | Brain Freeze        | /         | -1 [wit](#wit-wit). Like too much ice cream, the cold shoots to your head and slows your thoughts. | / |
 
 ### Piercing Injuries
 * Self patch-up: [Toughness](#toughness-tough) at **Ob** 3 every day. 
-* Treatment skill: [surgery](#surgery-int)
+* Treatment skill: [surgery](#surgery-athwit)
 * Required supplies: 1 [medical supplies](#list-of-stuff--things)
 * **Ob**: 1D4 - 1 | 1D4
 * Time to heal: 3D4 weeks | 2D4 weeks
 
 | Range D100 | Injury              | Limit     | Description                      | Scar                |
 | ---------  | ------------------- | --------- | -------------------------------- | ------------------- |
-| 1 - 5      | Cosmic Fortune      | /         | Luck is with you! You suffer no **injury**! | / |
-| 6 - 16     | Pierced Limb        | /         | -1 [Agility](#agility-agi). Pain causes difficulty moving. | Scarred limb |
-| 17 - 28    | Pierced Body        | /         | -1 [Toughness](#toughness-tough). An invader has injured something within. You feel weaker. | Scarred body |
-| 29 - 39    | Punctured Lung      | /         | -1 [Endurance](#endurance-end); Whenever [exhaustion](#exhaustion) is suffered, it is added +1 times. Breathing has become difficult. | Heavy breathing |
-| 40 - 50    | Bone Fracture       | /         | -1 [Strength](#strength-str). A bone has been cracked, causing it to buckle under the weight of the flesh it once carried. | Crooked limb |
-| 51 - 61    | Torn Artery         | /         | +1 [Bleeding](#bleeding). The blood is everywhere. | Scarred body |
-| 62 - 73    | Infection           | /         | Within a day, the character will contract an [illness](#illness). This can be avoided, but only if the [injury](#injury) is properly [treated](#injury-states--treatment) within 24 hours. | / |
-| 74 - 84    | Pierced Eye         | Eye Count | -1 [Perception](#perception-perc); If incurred *limit* times, cannot see. | Blind eye |
-| 85 - 95    | Emotional Damage    | /         | -1 [Empathy](#empathy-emp). Feeling empathy is difficult, when faced with a world that would do such horrible things to you. | / |
-| 96 - 100   | Cosmic Misfortune   | /         | The cosmos has it out for you! Suffer one additional **injury**! | / |
+| 1  - 14    | Pierced Limb        | /         | -1 [athleticism](#athleticism-ath). Pain causes difficulty moving. | Scarred limb |
+| 15 - 29    | Pierced Body        | /         | -1 [athleticism](#athleticism-ath). An invader has injured something within. You feel weaker. | Scarred body |
+| 30 - 43    | Punctured Lung      | /         | -1 [toughness](#toughness-tough); Whenever [exhaustion](#exhaustion) is suffered, it is added +1 times. Breathing has become difficult. | Heavy breathing |
+| 44 - 57    | Bone Fracture       | /         | -1 [athleticism](#athleticism-ath). A bone has been cracked, causing it to buckle under the weight of the flesh it once carried. | Crooked limb |
+| 58 - 71    | Torn Artery         | /         | +1 [bleeding](#bleeding). The blood is everywhere. | Scarred body |
+| 72 - 86    | Infection           | /         | Within a day, the character will contract an [illness](#illness). This can be avoided, but only if the [injury](#injury) is properly [treated](#injury-states--treatment) within 24 hours. | / |
+| 87 - 100   | Pierced Eye         | Eye Count | -1 [awareness](#awareness-awar); If incurred *limit* times, cannot see. | Scarred eye |
 
 ### Poison Injuries
 * Self patch-up: [Toughness](#toughness-tough) with **Ob** at level of [poisoned](#poisoned) at end of every turn / every minute. 
-* Treatment skill: [medicine](#medicine-int)
+* Treatment skill: [medicine](#medicine-wit)
 * Required supplies: 1 [antidote](#list-of-stuff--things)
 * **Ob**: 1D4 - 1 | 1D4
 * Time to heal: 2D4 days | 1D4 + 1 days
 
 | Range D100 | Injury              | Limit     | Description                      | Scar                |
 | ---------  | ------------------- | --------- | -------------------------------- | ------------------- |
-| 1 - 5      | Cosmic Fortune      | /         | Luck is with you! You suffer no **injury**! | / |
-| 6 - 18     | Sickly Color        | /         | +1 [poisoned](#poisoned). -1 [Toughness](#toughness-tough). Your skin turns a sickly green. | Discolored skin |
-| 19 - 31    | Vomiting            | /         | +1 [poisoned](#poisoned). -1 [Endurance](#endurance-end). Your body convulses, as you involuntarily bend over and vomit. | / |
-| 32 - 44    | Poisoned Thoughts   | /         | +1 [poisoned](#poisoned). -1 [Intelligence](#intelligence-int). Your mind dulls and thoughts are difficult to grasp. | / |
-| 45 - 56    | Distracted          | /         | +1 [poisoned](#poisoned). -1 [Perception](#perception-perc). It has become difficult to focus on what is happening around you. | / |
-| 57 - 69    | Panic               | /         | +1 [poisoned](#poisoned). Become [terrified](#terrified). The inevitability of what is to come has dawned upon you. But you cannot let it end like this! | / |
-| 70 - 82    | Frenzy              | /         | +1 [poisoned](#poisoned). Become [berserked](#berserk). To some, this may be a fun afternoon, but to you, the pain of the fire in your veins is unbearable, causing unquenchable rage to broil within you. | / |
-| 83 - 95    | Emotional Damage    | /         | +1 [poisoned](#poisoned). -1 [Empathy](#empathy-emp). Feeling empathy is difficult, when faced with a world that would do such horrible things to you. | / |
-| 96 - 100   | Cosmic Misfortune   | /         | +1 [poisoned](#poisoned). The cosmos has it out for you! Suffer one additional point of [poison](#poisoned)! | / |
+| 1  - 17    | Sickly Color        | /         | +1 [poisoned](#poisoned). -1 [toughness](#toughness-tough). Your skin turns a sickly green. | Discolored skin |
+| 18 - 33    | Vomiting            | /         | +1 [poisoned](#poisoned). -1 [toughness](#toughness-tough). Your body convulses, as you involuntarily bend over and vomit. | / |
+| 34 - 50    | Poisoned Thoughts   | /         | +1 [poisoned](#poisoned). -1 [wit](#wit-wit). Your mind dulls and thoughts are difficult to grasp. | / |
+| 51 - 67    | Distracted          | /         | +1 [poisoned](#poisoned). -1 [awareness](#awareness-awar). It has become difficult to focus on what is happening around you. | / |
+| 68 - 83    | Panic               | /         | +1 [poisoned](#poisoned). Become [terrified](#terrified). The inevitability of what is to come has dawned upon you. But you cannot let it end like this! | / |
+| 84 - 100   | Frenzy              | /         | +1 [poisoned](#poisoned). Become [berserked](#berserk). To some, this may be a fun afternoon, but to you, the pain of the fire in your veins is unbearable, causing unquenchable rage to broil within you. | / |
 
 ### Slashing Injuries
 * Self patch-up: [Toughness](#toughness-tough) at **Ob** 1 at end of every turn / every minute. 
-* Treatment skill: [surgery](#surgery-int)
+* Treatment skill: [surgery](#surgery-athwit)
 * Required supplies: 1 [medical supplies](#list-of-stuff--things)
 * **Ob**: 1D4 - 1 | 1D4
 * Time to heal: 2D4 weeks | 1D4
 
 | Range D100 | Injury              | Limit     | Description                      | Scar                |
 | ---------  | ------------------- | --------- | -------------------------------- | ------------------- |
-| 1 - 5      | Cosmic Fortune      | /         | Luck is with you! You suffer no **injury**! | / |
-| 6 - 14     | Butchered Arm       | Arm Count | +1 [Bleeding](#bleeding). -1 [Agility](#agility-agi); Actions and equipment requiring two hands cannot be used. If incurred *limit* times, any actions requiring arm movement is impossible. | Scarred arm |
-| 15 - 23    | Butchered Leg       | Leg Count | +1 [Bleeding](#bleeding). -6'/2m of [movement](#combat-movement). If incurred *limit* times, any actions requiring leg movement is impossible. | Scarred leg |
-| 24 - 32    | Butchered Body      | /         | +1 [Bleeding](#bleeding). -1 [Toughness](#toughness-tough); | Scarred body |
-| 33 - 41    | Maimed Ear          | Ear Count | +1 [Bleeding](#bleeding). -1 [Perception](#perception-perc); If incurred *limit* times, cannot hear. | Disfigured ear |
-| 42 - 50    | Maimed Nose         | 1         | +1 [Bleeding](#bleeding). -1 [Perception](#perception-perc); Cannot smell. | Disfigured nose |
-| 51 - 59    | Slashed Eye         | Eye Count | +1 [Bleeding](#bleeding). -1 [Perception](#perception-perc); If incurred *limit* times, cannot see. A surface-level cut has grazed your eye, forcing you to keep it shut from pain. | Scarred eye |
-| 60 - 68    | Torn Tendon         | /         | +1 [Bleeding](#bleeding). -1 [Strength](#strength-str). A tendon has abandoned its duty to you. The limb it once controlled loses strength. | Creaky limb |
-| 69 - 77    | Deep Cut            | /         | +2 [Bleeding](#bleeding). The blood is everywhere. | Scarred body |
-| 78 - 86    | Infection           | /         | +1 [Bleeding](#bleeding). Within a day, the character will contract an [illness](#illness). This can be avoided, but only if the [injury](#injury) is properly [treated](#injury-states--treatment) within 24 hours. | / |
-| 87 - 95    | Emotional Damage    | /         | +1 [Bleeding](#bleeding). -1 [Empathy](#empathy-emp). Feeling empathy is difficult, when faced with a world that would do such horrible things to you. | / |
-| 96 - 100   | Cosmic Misfortune   | /         | The cosmos has it out for you! Suffer one additional **injury**! | / |
+| 1  - 11    | Butchered Arm       | Arm Count | +1 [Bleeding](#bleeding). -1 [athleticism](#athleticism-ath); Actions and equipment requiring two hands cannot be used. If incurred *limit* times, any actions requiring arm movement is impossible. | Scarred arm |
+| 12 - 22    | Butchered Leg       | Leg Count | +1 [Bleeding](#bleeding). -6'/2m of [movement](#combat-movement). If incurred *limit* times, any actions requiring leg movement is impossible. | Scarred leg |
+| 23 - 33    | Butchered Body      | /         | +1 [Bleeding](#bleeding). -1 [toughness](#toughness-tough); | Scarred body |
+| 34 - 44    | Maimed Ear          | Ear Count | +1 [Bleeding](#bleeding). -1 [awareness](#awareness-awar); If incurred *limit* times, cannot hear. | Disfigured ear |
+| 45 - 56    | Maimed Nose         | 1         | +1 [Bleeding](#bleeding). -1 [awareness](#awareness-awar); Cannot smell. | Disfigured nose |
+| 57 - 67    | Slashed Eye         | Eye Count | +1 [Bleeding](#bleeding). -1 [awareness](#awareness-awar); If incurred *limit* times, cannot see. A surface-level cut has grazed your eye, forcing you to keep it shut from pain. | Scarred eye |
+| 68 - 78    | Torn Tendon         | /         | +1 [Bleeding](#bleeding). -1 [athleticism](#athleticism-ath). A tendon has abandoned its duty to you. The limb it once controlled loses strength. | Creaky limb |
+| 79 - 89    | Deep Cut            | /         | +2 [Bleeding](#bleeding). The blood is everywhere. | Scarred body |
+| 90 - 100   | Infection           | /         | +1 [Bleeding](#bleeding). Within a day, the character will contract an [illness](#illness). This can be avoided, but only if the [injury](#injury) is properly [treated](#injury-states--treatment) within 24 hours. | / |
 
 ## List of Illnesses
 | Range D100 | Name              | Duration          | Effect      | Treatment |
 | ---------- | ----------------- | ----------------- | ----------- | --------- |
-| 1 - 8      | Strength Sap      | **1D10 + 3** Days | The muscles atrophy, despite any physical exercise. If not treated quickly, the victim will quickly find themselves unable to move, at all. **-1D4** [strength](#strength-str); **-1D4** [agility](#agility-agi); Max 6'/2m movement distance. | [Medicine](#medicine-int) **Ob** 1D4; Reduces the duration by **2D4** days. |
-| 9 - 16     | Lung Fever        | **1D10 + 1** Days | The victim finds themselves easily winded, even by simple acts, such as walking to the privy at night. **-(1D4 + 1)** [endurance](#endurance-end). | [Medicine](#medicine-int) **Ob** 1; The ill-effects are suspended for 24 hours. |
-| 17 - 24    | Water's Curse     | **1D10 + 1** Days | The victim sweats uncontrollably and has watery stools, thus dehydrating rapidly and losing consciousness frequently. **-1D4** [toughness](#toughness-tough); [exhausted](#exhausted). | [Medicine](#medicine-int) **Ob** 1D4; Reduces the duration by **1D10** days and suspends the ill-effects for 24 hours. |
-| 25 - 32    | Jazz-Hands        | **1D10 + 3** Days | The victim can't stop the tremors in their arms. Any action requiring precise movements is impossible. **-1D4** [agility](#agility-agi). | [Medicine](#medicine-int) **Ob** 1; The ill-effects are suspended for 24 hours. |
-| 33 - 40    | Brain Rot         | **2D10** Days     | The victim's mind dulls. They find it difficult to form coherent thoughts. **-1D4** [intelligence](#intelligence-int); **-1D4** [wisdom](#wisdom-wis). | [Medicine](#medicine-int) **Ob** 1; The ill-effects are suspended for 24 hours. |
-| 41 - 48    | Feeble Tounge     | **1D10 + 3** Days | The tounge flops and waggles around uncontrollably. Speech is impaired. **-1D4** [oratory](#oratory-ora). | [Medicine](#medicine-int) **Ob** 1D4; Reduces the duration by **2D4** days. |
-| 49 - 56    | Wound Fever       | Until cured       | [Injuries](#injury) of the victim refuse any treatment. Any [injury](#injury) of the victim can be **patched up**, but not **treated**. | [Medicine](#medicine-int) **Ob** 2; Sets the duration to **1D10** days. |
-| 57 - 64    | Filth Fever       | **1D10 + 1** Days | The victim coughs uncontrollably and violently, with awful-smelling breath. **-1D4** [oratory](#oratory-ora); **-1D4** [endurance](#endurance-end). | [Medicine](#medicine-int) **Ob** 1D4 + 1; Removes the illness on the next day. |
-| 65 - 80    | Coldness of Heart | **1D10 + 1** Days | The victim feels distant, as if they were only spectators in their own body. **-1D4** [empathy](#empathy-emp); **-1D4** [will](#will-will). | [Medicine](#medicine-int) **Ob** 1D4; Reduces the duration by **2D4** days. |
-| 81 - 88    | Rot Plague        | **4D10** Days     | The skin starts developing a nasty rash, before flaking off. Not only unsightly, the bare flesh underneath smells like it's rotting. **-1D4** [endurance](#endurance-end); **-(1D4 + 1)** [toughness](#toughness-tough). | [Surgery](#surgery-int) **Ob** 2; The ill-effects are suspended for 24 hours. |
-| 89 - 95    | Organ Mold        | Until cured       | Causes an [injury](#injury) every day it is active. | [Surgery](#surgery-int) **Ob** 1D4 + 1; The illness is removed within a day. |
-| 96 - 100   | Red Death         | Until cured       | The victim starts bleeding from all of their orifices, with no end in sight. Causes 3 points of [bleeding](#bleeding) every day it is active. | [Surgery](#surgery-int) **Ob** 2; The illness is removed within a day. |
+| 1 - 8      | Strength Sap      | **1D10 + 3** Days | The muscles atrophy, despite any physical exercise. If not treated quickly, the victim will quickly find themselves unable to move, at all. **-1D4** [athleticism](#athleticism-ath); Max 6'/2m movement distance. | [Medicine](#medicine-wit) **Ob** 1D4; Reduces the duration by **2D4** days. |
+| 9 - 16     | Lung Fever        | **1D10 + 1** Days | The victim finds themselves easily winded, even by simple acts, such as walking to the privy at night. **-(1D4 + 1)** [toughness](#toughness-tough). | [Medicine](#medicine-wit) **Ob** 1; The ill-effects are suspended for 24 hours. |
+| 17 - 24    | Water's Curse     | **1D10 + 1** Days | The victim sweats uncontrollably and has watery stools, thus dehydrating rapidly and losing consciousness frequently. **-1D4** [toughness](#toughness-tough); [exhausted](#exhausted). | [Medicine](#medicine-wit) **Ob** 1D4; Reduces the duration by **1D10** days and suspends the ill-effects for 24 hours. |
+| 25 - 32    | Jazz-Hands        | **1D10 + 3** Days | The victim can't stop the tremors in their arms. Any action requiring precise movements is impossible. **-1D4** [athleticism](#athleticism-ath). | [Medicine](#medicine-wit) **Ob** 1; The ill-effects are suspended for 24 hours. |
+| 33 - 40    | Brain Rot         | **2D10** Days     | The victim's mind dulls. They find it difficult to form coherent thoughts. **-1D4** [wit](#wit-wit). | [Medicine](#medicine-wit) **Ob** 1; The ill-effects are suspended for 24 hours. |
+| 41 - 48    | Feeble Tounge     | **1D10 + 3** Days | The tounge flops and waggles around uncontrollably. Speech is impaired. **-1D4** [wit](#wit-wit). | [Medicine](#medicine-wit) **Ob** 1D4; Reduces the duration by **2D4** days. |
+| 49 - 56    | Wound Fever       | Until cured       | [Injuries](#injury) of the victim refuse any treatment. Any [injury](#injury) of the victim can be **patched up**, but not **treated**. | [Medicine](#medicine-wit) **Ob** 2; Sets the duration to **1D10** days. |
+| 57 - 64    | Filth Fever       | **1D10 + 1** Days | The victim coughs uncontrollably and violently, with awful-smelling breath. **-1D4** [toughness](#toughness-tough). | [Medicine](#medicine-wit) **Ob** 1D4 + 1; Removes the illness on the next day. |
+| 65 - 80    | Coldness of Heart | **1D10 + 1** Days | The victim feels distant, as if they were only spectators in their own body. **-1D4** [awareness](#awareness-awar). | [Medicine](#medicine-wit) **Ob** 1D4; Reduces the duration by **2D4** days. |
+| 81 - 88    | Rot Plague        | **4D10** Days     | The skin starts developing a nasty rash, before flaking off. Not only unsightly, the bare flesh underneath smells like it's rotting. **-(1D4 + 1)** [toughness](#toughness-tough). | [Surgery](#surgery-athwit) **Ob** 2; The ill-effects are suspended for 24 hours. |
+| 89 - 95    | Organ Mold        | Until cured       | Causes an [injury](#injury) every day it is active. | [Surgery](#surgery-athwit) **Ob** 1D4 + 1; The illness is removed within a day. |
+| 96 - 100   | Red Death         | Until cured       | The victim starts bleeding from all of their orifices, with no end in sight. Causes 3 points of [bleeding](#bleeding) every day it is active. | [Surgery](#surgery-athwit) **Ob** 2; The illness is removed within a day. |
 
 ## List of Mutations
 One should always keep in mind that despite the game mechanical effects of a mutation, the appearance of an affected individual will also be severly altered. Other characters and creatures may react with disgust, fear, disdain, pity, and so on. 
@@ -2386,20 +2324,20 @@ One should always keep in mind that despite the game mechanical effects of a mut
 | Range D100 | Name                   | Effect                            |
 | ---------- | ---------------------- | --------------------------------- |
 | 1 - 5      | Cosmic Fortune         | Suffer no mutation! |
-| 6 - 12     | Deformed Arm           | The arm deforms and bends in ways it was never meant to. -1 [Agility](#agility-agi), -1 [Strength](#strength-str). |
+| 6 - 12     | Deformed Arm           | The arm deforms and bends in ways it was never meant to. -1 [athleticism](#athleticism-ath). |
 | 13 - 19    | Grotesque Claws        | The entire lower arm morphs into three large claws. Unable to hold *anything* with that arm, but able to perform claw attacks that deal **3D6** **slashing** damage. |
-| 20 - 25    | Deformed Leg           | The leg deforms and bends in ways it was never meant to. -1 [Agility](#agility-agi). |
-| 26 - 32    | Deformed Face          | A morphed visage, forever stuck in agony, horror and anger. +1 [commanding](#commanding-will), -1 [acting](#acting-empora). |
-| 33 - 39    | Internal Changes       | Something deep within isn't quite right. -1 [Endurance](#endurance-end) -1 [Toughness](#toughness-tough) |
-| 40 - 46    | Bulbous Head           | Part of the cranium grows tumurously. The brain is weighed down and slowed down. -1 [Intelligence](#intelligence-int) -1 [Wisdom](#wisdom-wis) |
-| 47 - 53    | Animal Ears            | The ears morph into something resembling animal ears (or another animal's ears). Despite the obvious reason for ridicule, there are no penalties. +1 [Perception](#perception-perc) (hearing). |
-| 54 - 59    | Animal Tail            | A tail sprouts where there was perhaps never meant to be one. Or an additional tail sprouts. Despite the obvious reason for ridicule, there are no penalties. +1 [acrobatics](#acrobatics-agi). |
-| 60 - 66    | Atrophy                | The muscles deflate and unnatural weakness takes hold. -2 [Strength](#strength-str) |
-| 67 - 73    | Blackened Nails        | Every finger and toe nail turns a sickly black. That's it. |
+| 20 - 25    | Deformed Leg           | The leg deforms and bends in ways it was never meant to. -1 [athleticism](#athleticism-ath). |
+| 26 - 32    | Deformed Face          | A morphed visage, forever stuck in agony, horror and anger. +1 [commanding](#commanding-tough), -1 [acting](#acting-wit). |
+| 33 - 39    | Internal Changes       | Something deep within isn't quite right. -1 [toughness](#toughness-tough). |
+| 40 - 46    | Bulbous Head           | Part of the cranium grows tumurously. The brain is weighed down and slowed down. -1 [wit](#wit-wit). |
+| 47 - 53    | Animal Ears            | The ears morph into something resembling animal ears (or another animal's ears). Despite the obvious reason for ridicule, there are no penalties. +1 [awareness](#awareness-awar) (hearing). |
+| 54 - 59    | Animal Tail            | A tail sprouts where there was perhaps never meant to be one. Or an additional tail sprouts. Despite the obvious reason for ridicule, there are no penalties. +1 [acrobatics](#acrobatics-ath). |
+| 60 - 66    | Atrophy                | The muscles deflate and unnatural weakness takes hold. -2 [athleticism](#athleticism-ath) |
+| 67 - 73    | Blackened Nails        | Every finger and toe nail turns a goth black. That's about it. |
 | 74 - 80    | Hairless               | Every single hair falls from the body. A terminal case of baldness ensues. |
-| 81 - 86    | Special Needs Eyes     | The eyes turn a deep red and go cross-eyed. -1 [Perception](#perception-perc) (seeing) |
-| 87 - 93    | Fetid Stench           | Whether from the mouth, or in general, a fetid stench emanates from the body, even assaulting the victim's own nose. -1 [Oratory](#oratory-ora), -1 [stealth](#stealth-agi) (when smell is concerned). |
-| 94 - 100   | Living Cadaver         | The body withers and pales. It is as if it had just risen from the grave. -2 [Oratory](#oratory-ora). |
+| 81 - 86    | Special Needs Eyes     | The eyes turn a deep red and go cross-eyed. -1 [awareness](#awareness-awar) (seeing) |
+| 87 - 93    | Fetid Stench           | Whether from the mouth, or in general, a fetid stench emanates from the body, even assaulting the victim's own nose. -1 [awareness](#awareness-awar), -1 [stealth](#stealth-ath) (when smell is concerned). |
+| 94 - 100   | Living Cadaver         | The body withers and pales. It is as if it had just risen from the grave. -1 [toughness](#toughness-tough). |
 
 ## List of Scars
 An [injury](#injury) may heal, but its [scars](#scar) remain. 
