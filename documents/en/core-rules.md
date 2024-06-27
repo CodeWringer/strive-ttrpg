@@ -774,7 +774,7 @@ By playing their character either in accordance with their **personality**, or b
 Of course, [NPCs](#non-player-character-npc) have a **personality**, too. But unlike **PC**s, this is not cemented through rules and they **cannot** earn [fate points](#fate-points). 
 
 ### Ambition
-Every **PC** must have one **ambition** - a life-fulfilling long-term goal to pursue. This can be anything from "found a family" to "become king of the world!". No matter how unrealistic, an **ambition** is a primary driver for a character, to guide them onward. The important part is to think *big*. Something easily achievable would make for a dull **ambition** and defeat the point of it. 
+Every **PC** must have one **ambition** - a life-fulfilling long-term goal to pursue. This can be anything from "found a family" to "become king of the world!". No matter how unrealistic, an **ambition** is a primary driver for a character, to guide them onward. The important part is to think *big* and include some sort of "call for adventure". Something easily achievable would make for a dull **ambition** and defeat the point of it. An ideal **ambition** draws your character out of their comfort zone and out of their safe space and gives them a willingness to engage in adventure. 
 
 An **ambition** is not *expected* to change often. An ideal **ambition** would accompany a character a long time. But that isn't to say you mustn't ever change it. On the contrary, if events play out that shake up your character's deepest desires, then changing their **ambition** may be a very appropriate action to take.
 
