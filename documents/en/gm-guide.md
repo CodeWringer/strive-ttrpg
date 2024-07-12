@@ -90,7 +90,7 @@ E. g., for any [attribute](./core-rules.md#attributes) or [skill](./core-rules.m
 
 Of course, such **NPC**s may still suffer [injuries](./core-rules.md#injury), which may impose penalties to their skills and attributes. Since **NPC**s with active **CR** don't allow for the granularity that injuries would normally expect, all penalties (and boons) apply directly to the **CR**. This means **CR**s themselves also allow for a modifier to apply to them, which results in a **modified CR**, which dictates the number of dice they actually have available in tests. 
 
-> Back to the **NPC** with a **CR** of 3. If they suffered an injury that reduced their **athleticism** by 1, then this would reduce their **CR** to 2. 
+> Back to the **NPC** with a **CR** of 3. If they suffered an injury that reduced their **agility** by 1, then this would reduce their **CR** to 2. 
 > 
 > Granularity is lost, but the trade-off is far less bureaucratic overhead. 
 
@@ -219,7 +219,7 @@ Keep in mind that **attribute** tests are much harder to succeed, than **skill**
 
 Because **attribute** tests are harder to succeed, **skill** tests should always be preferred, when possible. Regardless, there may be some situations where skill simply does not matter. Sometimes, raw innate ability (= attributes) is all that's required. 
 
-> For example, pulling another character up and onto a ledge one is standing on, might only be possible with an **athleticism** test. There is no dedicated "pulling people up ledges" skill. And even if there was, someone very weak should still be unable to do it. 
+> For example, pulling another character up and onto a ledge one is standing on, might only be possible with an **strength** test. There is no dedicated "pulling people up ledges" skill. And even if there was, someone very weak should still be unable to do it. 
 
 ### The Tools
 This section outlines the tools - methods - of engaging your players. Usually, that means challenging their characters, sometimes even the players themselves - to think creatively. 
