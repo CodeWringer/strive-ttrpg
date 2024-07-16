@@ -348,15 +348,18 @@ To resolve an **attribute test**, the number of **D6** determined by the **attri
 Unlike with [skills](#skills), it is **not** possible to [fork](#skill-forking) **attributes**. 
 
 ### Testing a Skill
-To resolve a **skill test**, the number of **D6** indicated by the **skill's modified level**, plus a related **attribute's modified level** as additional **D6** must be rolled. 
+To resolve a **skill test**, the number of **D6** indicated by the **skill's modified level**, plus each of its two **base attributes' modified level** as additional **D6** must be rolled. 
 
-> A **PC** has an [agility](#agility-agi) at **modified level** 3 and an [acrobatics](#acrobatics-agistr) skill at **modified level** 2. 
-> 
-> They are asked to roll a test for [acrobatics](#acrobatics-agistr) at **Ob** 2. They get to roll 3 + 2 = 5 **D6**, if they don't have any other skills to [fork](#skill-forking) into the test. 
+The **modified level** is the result of adding and subtracting [boons and penalties](#boons--penalties) from the **raw level**. 
 
-> A **PC** has an [agility](#agility-agi) at **raw level** 3, with a [penalty](#boons--penalties) of -1 and an [acrobatics](#acrobatics-agistr) skill at **raw level** 1, with a [boon](#boons--penalties) of +1. 
+> A **PC** has an [agility](#agility-agi) at **modified level** 3 and [strength](#strength-str) at **modified level** 1. 
 > 
-> They are asked to roll a test for [acrobatics](#acrobatics-agistr) at **Ob** 2. They get to roll (3 - 1) + (1 + 1) = 4 **D6**, if they don't have any other skills to [fork](#skill-forking) into the test. 
+> In order to test their [acrobatics](#acrobatics-agistr) skill at **modified level** 2, they get to roll 3 + 1 + 2 = 6 **D6**, if they don't have any other skills to [fork](#skill-forking) into the test. 
+
+> A **PC** has an [agility](#agility-agi) at **raw level** 3, with a [penalty](#boons--penalties) of -1 resulting in a **modified level** of 2 and [strength](#strength-str) at **raw level** at level 1 and no [boons or penalties](#boons--penalties) resulting in a **modified level** of 1.
+> 
+> In order to test their [acrobatics](#acrobatics-agistr) skill at **raw level** 1, with a [boon](#boons--penalties) of +1, they get to roll (3 - 1) + 1 
+> + (1 + 1) = 4 **D6**, if they don't have any other skills to [fork](#skill-forking) into the test. 
 
 It possible to [fork](#skill-forking) **skills**, allowing even more dice to be used in a  test. **Do not forget to fork your skills in tests!**
 
@@ -382,7 +385,7 @@ The outcome of the test is either a **complete success** or **complete failure**
 
 #### Stepped Test
 A stepped test is really just a series of [binary tests](#binary-test). This allows for finer-grained results, while still not behaving like a [graduated test](#graduated-test). 
-
+ 
 This type of test is useful for situations where the **GM** decides to create very fine *time slices* and allow more chances for success. This makes it easier to allow a **PC** to *fail forward* or prevent a *one roll to end it all* situation. 
 
 > For example, a **PC** is attempting to cross a suspension bridge, but upon setting foot on the bridge, the ropes holding it up, suddenly snap. The **PC** can make an [acrobatics](#acrobatics-agistr) test, to try and quickly jump off and back onto solid ground. They fail, and get to make another [acrobatics](#acrobatics-agistr) test at greater **Ob**, to try and grab a root sticking out of the ground beneath the bridge. They fail again! As a last chance for that **PC** to survive, the **GM** asks one of the other players if their character will attempt an [acrobatics](#acrobatics-agistr) test at high **Ob**, to try and grab their falling ally's hand in a daring rescue. Finally, their ally succeeds and the **PC**'s life is saved. 
