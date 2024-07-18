@@ -536,26 +536,26 @@ The advancement formulae are shown in the following table. *N* is the current le
 
 | underdeveloped | average             | exceptional         |
 | -------------- | ------------------- | ------------------- |
-| `15 + (N * 4)` | `(N + 3) * (N + 2)` | `(N + 4) * (N + 3)` |
+| `10 * N`       | `N * 7`             | `N * 8`             |
 
 For your convenience, the following table contains the precalculated requirements to advance an **attribute** level. 
 * In the table, 'Level' is the character's *current level* in the **attribute**. 
-* Note it is possible to go past level 10, but you shouldn't hope for it. 
+* Note it is possible to go past level 10, but you shouldn't hope for it any time soon. 
 
 | Level | Tests |
 | ----- | ----- |
-| 1     | 19    |
-| 2     | 23    |
-| 3     | 30    |
-| 4     | 42    |
-| 5     | 72    |
-| 6     | 90    |
-| 7     | 110   |
-| 8     | 132   |
-| 9     | 156   |
-| 10    | 182   |
+| 1     | 10    |
+| 2     | 20    |
+| 3     | 21    |
+| 4     | 28    |
+| 5     | 40    |
+| 6     | 48    |
+| 7     | 56    |
+| 8     | 64    |
+| 9     | 72    |
+| 10    | 80    |
 
-Whenever an attribute advances (= its level increases), advancement progress must be reset to 0. 
+Whenever an attribute advances (= its level increases), advancement progress must be reset to `0`. 
 
 ##### Practicing Attributes
 It is possible to advance attributes *passively*. Whenever a large period of time is spent outside of active adventure, **PC**s can practice an attribute of choice. 
