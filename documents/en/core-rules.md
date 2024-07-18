@@ -655,7 +655,7 @@ For your convenience, the following table contains the precalculated requirement
 | 9   | 11  | 20  |
 | 10  | 12  | 22  |
 
-Whenever a skill advances, its associated successes and failures must each be reset to 0. Successes and failures accumulated past the threshold do not carry over. They're "lost". 
+Whenever a skill advances, its associated successes and failures must each be reset to `0`. Successes and failures accumulated past the threshold do **not** carry over. They're *lost*. 
 
 ##### Practicing Skills
 It is possible to advance **skills** *passively*. Whenever a large period of time is spent outside of active adventure, **PC**'s can practice a skill of choice. 
