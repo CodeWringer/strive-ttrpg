@@ -219,7 +219,7 @@ Keep in mind that **attribute** tests are much harder to succeed, than **skill**
 
 Because **attribute** tests are harder to succeed, **skill** tests should always be preferred, when possible. Regardless, there may be some situations where skill simply does not matter. Sometimes, raw innate ability (= attributes) is all that's required. 
 
-> For example, pulling another character up and onto a ledge one is standing on, might only be possible with an **strength** test. There is no dedicated "pulling people up ledges" skill. And even if there was, someone very weak should still be unable to do it. 
+> For example, pulling another character up and onto a ledge one is standing on, might only be possible with a **strength** test. There is no dedicated "pulling people up ledges" skill. And even if there was, someone very weak should still be unable to do it. 
 
 ### The Tools
 This section outlines the tools - methods - of engaging your players. Usually, that means challenging their characters, sometimes even the players themselves - to think creatively. 
