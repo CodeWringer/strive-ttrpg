@@ -1,6 +1,6 @@
 - [Introduction](#introduction)
 - [Character](#character)
-  - [Mental Attributes](#mental-attributes)
+  - [Attributes](#attributes)
     - [Arcana \[Arc\]](#arcana-arc)
   - [Health \& Exhaustion](#health--exhaustion)
     - [Hit Points (HP)](#hit-points-hp)
@@ -9,13 +9,6 @@
       - [Exhausted](#exhausted)
       - [Poisoned](#poisoned)
     - [Scars](#scars)
-  - [Character Creation](#character-creation)
-    - [Determine Abilities](#determine-abilities)
-      - [Choosing Attributes](#choosing-attributes)
-        - [Manual Attribute Assignment](#manual-attribute-assignment)
-        - [Semi-Random Attribute Assignment](#semi-random-attribute-assignment)
-      - [Choosing Skills](#choosing-skills)
-    - [Determine Magic Stamina](#determine-magic-stamina)
 - [Magic](#magic)
   - [Spell Intensity (SI)](#spell-intensity-si)
   - [Magic Stamina](#magic-stamina)
@@ -33,6 +26,13 @@
 - [Assets](#assets)
   - [Weapon Properties](#weapon-properties)
 - [Appendix](#appendix)
+  - [Character Creation](#character-creation)
+    - [Determine Abilities](#determine-abilities)
+      - [Choosing Attributes](#choosing-attributes)
+        - [Manual Attribute Assignment](#manual-attribute-assignment)
+        - [Semi-Random Attribute Assignment](#semi-random-attribute-assignment)
+      - [Choosing Skills](#choosing-skills)
+    - [Determine Magic Stamina](#determine-magic-stamina)
   - [List of Assets](#list-of-assets)
     - [Armor](#armor)
       - [Armor Properties](#armor-properties)
@@ -47,61 +47,61 @@
         - [Kite Shield](#kite-shield)
     - [List of General Assets](#list-of-general-assets)
     - [Weapon Types](#weapon-types)
-      - [Dagger (Agi)](#dagger-agi)
-      - [Light Blade (Agi)](#light-blade-agi)
-      - [Long Blade (Str)](#long-blade-str)
-      - [Great Blade (Str)](#great-blade-str)
-      - [Axe (Str)](#axe-str)
-      - [Great Axe (Str)](#great-axe-str)
-      - [Spear (Str)](#spear-str)
-      - [Lance (Str)](#lance-str)
-      - [Polearm (Str)](#polearm-str)
-      - [Club (Str)](#club-str)
-      - [Small Crusher (Str)](#small-crusher-str)
-      - [Large Crusher (Str)](#large-crusher-str)
-      - [Short-Bow (Agi)](#short-bow-agi)
-      - [Longbow (Perc)](#longbow-perc)
-      - [War-Bow (Str)](#war-bow-str)
-      - [Crossbow (Perc)](#crossbow-perc)
-      - [Firearm (Perc)](#firearm-perc)
+      - [Dagger (Agi/Awar)](#dagger-agiawar)
+      - [Light Blade (Agi/Str)](#light-blade-agistr)
+      - [Long Blade (Agi/Str)](#long-blade-agistr)
+      - [Great Blade (Str/Tough)](#great-blade-strtough)
+      - [Axe (Str/Str)](#axe-strstr)
+      - [Great Axe (Str/Str)](#great-axe-strstr)
+      - [Spear (Agi/Str)](#spear-agistr)
+      - [Lance (Awar/Str)](#lance-awarstr)
+      - [Polearm (Str/Tough)](#polearm-strtough)
+      - [Club (Str/Str)](#club-strstr)
+      - [Small Crusher (Str/Str)](#small-crusher-strstr)
+      - [Large Crusher (Str/Tough)](#large-crusher-strtough)
+      - [Short-Bow (Awar/Awar)](#short-bow-awarawar)
+      - [Longbow (Awar/Str)](#longbow-awarstr)
+      - [War-Bow (Str/Tough)](#war-bow-strtough)
+      - [Crossbow (Awar/Awar)](#crossbow-awarawar)
+      - [Firearm (Awar/Awar)](#firearm-awarawar)
   - [Lists of Skills](#lists-of-skills)
     - [Physical Skills](#physical-skills)
-      - [Rune-Using (Agi/Arc)](#rune-using-agiarc)
-      - [Sailing (Wis)](#sailing-wis)
+      - [Rune-Using (Agi/Wit)](#rune-using-agiwit)
+      - [Sailing (Awar/Wit)](#sailing-awarwit)
     - [Knowledge Skills](#knowledge-skills)
-      - [Heraldry (Int)](#heraldry-int)
+      - [Heraldry (Awar/Wit)](#heraldry-awarwit)
       - [Magic School \< School \> (\< Attribute \>)](#magic-school--school---attribute-)
     - [Craftsmanship Skills](#craftsmanship-skills)
-      - [Armor Smithing (Str/End)](#armor-smithing-strend)
-      - [Ambersmithing (Agi/End)](#ambersmithing-agiend)
-      - [Alchemy (Arc/Int/Agi)](#alchemy-arcintagi)
-      - [Brewing (Wis)](#brewing-wis)
-      - [Blacksmithing (Str/End)](#blacksmithing-strend)
-      - [Bow-Making (Agi)](#bow-making-agi)
-      - [Carpentry (Agi)](#carpentry-agi)
-      - [Clothesmaking (Agi)](#clothesmaking-agi)
-      - [Engineering (Int)](#engineering-int)
-      - [Fletching (Agi)](#fletching-agi)
-      - [Glass-Blowing (Agi)](#glass-blowing-agi)
-      - [Goldsmithing (Agi)](#goldsmithing-agi)
-      - [Leatherworking (Agi)](#leatherworking-agi)
-      - [Masonry (Str/End)](#masonry-strend)
-      - [Rune Carving (Arc/Wis)](#rune-carving-arcwis)
-      - [Shield-Making (Str/End)](#shield-making-strend)
-      - [Tanning/Skinning (Agi)](#tanningskinning-agi)
-      - [Weapon Smithing (Str/End)](#weapon-smithing-strend)
-      - [Woodcarving (Agi)](#woodcarving-agi)
+      - [Armor Smithing (Str/Wit)](#armor-smithing-strwit)
+      - [Ambersmithing (Str/Wit)](#ambersmithing-strwit)
+      - [Alchemy (Arc/Wit)](#alchemy-arcwit)
+      - [Brewing (Wit/Wit)](#brewing-witwit)
+      - [Blacksmithing (Agi/Str)](#blacksmithing-agistr)
+      - [Bow-Making (Agi/Awar)](#bow-making-agiawar)
+      - [Carpentry (Agi/Str)](#carpentry-agistr)
+      - [Clothesmaking (Agi/Wit)](#clothesmaking-agiwit)
+      - [Engineering (Agi/Wit)](#engineering-agiwit)
+      - [Fletching (Agi/Awar)](#fletching-agiawar)
+      - [Glass-Blowing (Agi/Agi)](#glass-blowing-agiagi)
+      - [Goldsmithing (Agi/Agi)](#goldsmithing-agiagi)
+      - [Leatherworking (Agi/Wit)](#leatherworking-agiwit)
+      - [Masonry (Str/Tough)](#masonry-strtough)
+      - [Rune Carving (Arc/Wit)](#rune-carving-arcwit)
+      - [Shield-Making (Str/Wit)](#shield-making-strwit)
+      - [Tanning/Skinning (Agi/Tough)](#tanningskinning-agitough)
+      - [Weapon Smithing (Str/Wit)](#weapon-smithing-strwit)
+      - [Woodcarving (Agi/Agi)](#woodcarving-agiagi)
   - [List of Magic Schools](#list-of-magic-schools)
-    - [Alteration (Int)](#alteration-int)
-    - [Cryomancy (Arc)](#cryomancy-arc)
-    - [Electromancy (Arc)](#electromancy-arc)
-    - [Illusion (Emp)](#illusion-emp)
-    - [Psionics (Ora/Int)](#psionics-oraint)
-    - [Pyromancy (Arc)](#pyromancy-arc)
-    - [Restoration (Emp)](#restoration-emp)
-    - [Soul-Binding (Will)](#soul-binding-will)
-    - [Telekinesis (Int)](#telekinesis-int)
-    - [Telepathy (Will)](#telepathy-will)
+    - [Alteration (Arc/Wit)](#alteration-arcwit)
+    - [Cryomancy (Arc/Arc)](#cryomancy-arcarc)
+    - [Electromancy (Agi/Arc)](#electromancy-agiarc)
+    - [Illusion (Arc/Awar)](#illusion-arcawar)
+    - [Psionics (Arc/Wit)](#psionics-arcwit)
+    - [Pyromancy (Arc/Arc)](#pyromancy-arcarc)
+    - [Restoration (Arc/Awar)](#restoration-arcawar)
+    - [Soul-Binding (Arc/Tough)](#soul-binding-arctough)
+    - [Telekinesis (Arc/Agi)](#telekinesis-arcagi)
+    - [Telepathy (Arc/Wit)](#telepathy-arcwit)
   - [List of Injuries](#list-of-injuries)
   - [List of Illnesses](#list-of-illnesses)
 
@@ -119,10 +119,10 @@ More details about the module:
   * Magic stamina is a new resource, that mages have to manage. 
 
 # Character
-New in this module, is the mental attribute [arcana](#arcana-arc), which governs a character's capacity for magic. 
+New in this module, is the attribute [arcana](#arcana-arc), which governs a character's capacity for magic. 
 
-## Mental Attributes
-Supplements to the mental attributes. 
+## Attributes
+Supplements to the [core attributes](./core-rules.md#attributes). 
 
 ### Arcana [Arc]
 Governs a character's ability to control and sense magic flow, thus casting magic spells or detecting lingering magic. 
@@ -133,85 +133,22 @@ This is the only attribute that can have a level of 0. Magical ability is innate
 Supplements to specific health and exhaustion. 
 
 ### Hit Points (HP)
-[Restoration magic](#restoration-emp) can restore all currently missing **HP** of a character, without the need for medical supplies. 
+[Restoration magic](#restoration-arcawar) can restore all currently missing **HP** of a character, without the need for medical supplies. 
 
 ### Condition
 Supplements to specific **conditions**. 
 
 #### Bleeding
-[Restoration magic](#restoration-emp) can remove one or more points of **bleeding** at a time. 
+[Restoration magic](#restoration-arcawar) can remove one or more points of **bleeding** at a time. 
 
 #### Exhausted
 An **exhausted** mage can no longer attempt to cast any magic. 
 
 #### Poisoned
-This **condition** can also be removed with [restoration magic](#restoration-emp).
+This **condition** can also be removed with [restoration magic](#restoration-arcawar).
 
 ### Scars
-Scars may be removed through successful application of [alteration](#alteration-int) magic. 
-
-## Character Creation
-Character creation is now supplemented by the following step, which follows determining the **exhaustion threshold**. 
-
-The new procedure of creating a character consists of the following steps:
-1. [Determine life path](#determine-life-path). 
-2. [Determine species, sex & appearance](#species-sex--appearance).
-3. [Determine name](#determine-name).
-4. [Determine abilities](#determine-abilities).
-6. [Determine **carrying capacity** and **assets**](#determine-assets).
-7. [Determine **Max HP** and **Injury Maximum**](#determine-max-hp--injury-maximum)
-8. [Determine exhaustion threshold](#determine-exhaustion-threshold).
-9. [Determine magic stamina](#determine-magic-stamina).
-
-### Determine Abilities
-Next up, you can reinforce your character's [personality](#personality) with the abilities they have. Or even prepare a conflict of what your character *can* do and what they *think* they can do. 
-
-#### Choosing Attributes
-There are two methods for determining your character's attributes: manual and semi-random. 
-
-You'll have to decide on whether your character will be a mage or not. Mages start with lower attributes, so this decision can affect your character's initial competence. 
-
-Please keep in mind the values here are representative for an ordinary human about to enter an adventuring life. Other species may have modifiers on their attributes, making them better or worse in some of them. But that depends on the world your **GM** is running. 
-
-This section replaces the section of the same name from the core rules. 
-
-##### Manual Attribute Assignment
-* As a **mage**
-  * You can spend **12 points** on your attributes. 
-  * **All** attributes start at level 1. 
-  * Your attribute-total cannot be greater than **23**.
-* As a **non-mage**
-  * You can spend **16 points** on your attributes. 
-  * All attributes **except arcana** start at level 1. Arcana is at 0 and remains at 0. 
-  * Your attribute-total cannot be greater than **26**.
-* No attribute may have a level less than 1 (exception: **arcana**) nor higher than 4.
-* Only two attributes may have a level of 4. 
-
-##### Semi-Random Attribute Assignment
-1. For a **mage**
-   1. Roll 11 **D4**
-1. For a **non-mage**
-   1. Roll 10 **D4**
-1. Row up your dice to form a line, then read them from one end to the other and note each value. The order in which they are written down, is the order in which they'll be applied to the attributes. 
-1. If there are more than 2 4s, start lowering their value by one, starting from the left or the right, until there are only 2 4s left. 
-1. Count up the total of your values. 
-   1. For a mage subtract your total from **26**. <br>
-   For a non-mage subtract your total from **23**.
-   1. If the number is negative, that's the number of levels you'll have to go down. <br>
-   If the number is positive, that's the number of levels you'll have to go up. 
-1. Starting from the left or right, start adjusting each value.
-   1. If your levels have to go down, subtract one from each value. **But** skip 1s. 
-   1. If your levels have to go up, add one to each value. But **don't** skip 4s. 
-1. Repeat from the step of counting up your total and adjusting as necessary, until no more adjustments are necessary. 
-1. Lastly, apply the adjusted values to your attributes. 
-
-#### Choosing Skills
-If playing a **mage**, keep in mind you need to have at least level 1 in a [magic school skill](#magic-school--school---attribute) to be able to cast magic. You are also advised to have your strongest magic be at least level 3 or 4, to be able to reliably use it. 
-
-### Determine Magic Stamina
-Determine your character's **maximum magic stamina**, by referring to the [magic stamina](#magic-stamina) section. 
-
-You'll need to track **current magic stamina** separately. To start with, set your current to your maximum **magic stamina**. 
+Scars may be removed through successful application of [alteration](#alteration-arcwit) magic. 
 
 # Magic
 For this supplement, magic is assumed to be a mostly invisible force that runs all throughout, like a magnetosphere. Perhaps it could be called the *arcanosphere*. Individuals gifted with a sensitivity to this force may learn to manipulate and "shape" it. Thus, magical ability is intuitive. Those born without the gift, cannot learn magic. Of course, you may want to relax this rule, if you prefer anyone should have the chance to learn magic. 
@@ -276,7 +213,7 @@ If the defense fails, the full effect is applied. If the defense attempt causes 
 ## Protection From Magic
 Armor made from [Ambersteel](#ambersteel) can reduce the damage suffered through magical sources and reduce the [spell intensity](#spell-intensity-si) of non-damaging spells. 
 
-The [quality](./core-rules.md#crafting) of an armor or shield determines how much it protects the wearer. See [ambersmithing](#ambersmithing-agiint) for the specific numbers. 
+The [quality](./core-rules.md#crafting) of an armor or shield determines how much it protects the wearer. See [ambersmithing](#ambersmithing-strwit) for the specific numbers. 
 
 Damage from magical sources is reduced by the quality level + a number of dice. Non-damaging spells have their [spell intensity](#spell-intensity-si) reduced by *only* the quality level. 
 
@@ -294,13 +231,11 @@ Damage from magical sources is reduced by the quality level + a number of dice. 
   2. If the test is a **partial success/failure**, the spell fizzles and nothing happens.
   3. If the test is a **complete failure**, the spell [back-fires](#spell-backfire). 
 
-Whenever a [magic school skill](#magic-school--school---attribute) is tested, [arcana](#arcana-arc) is progressed, as well! If [arcana](#arcana-arc) is the base attribute, then it **is** progressed twice. 
-
-> A mage wants to cast an [illusion](#illusion-emp) spell, at SI 2. Their level in the corresponding magic school skill is 4. They have 4 magic stamina left. 
+> A mage wants to cast an [illusion](#illusion-arcawar) spell, at SI 2. Their level in the corresponding magic school skill is 4 and they have 4 magic stamina left. 
 >
 > They roll **2 D4**, yielding them a 3 and a 2. The sum (5) is one point more magic stamina, than the mage had left. They suffer a spell-backfire and their intended target is left unaffected!
 
-> A mage wants to cast an [illusion](#illusion-emp) spell, at SI 2. Their level in the corresponding magic school skill is 4. They have 4 magic stamina left. 
+> A mage wants to cast an [illusion](#illusion-arcawar) spell, at SI 2. Their level in the corresponding magic school skill is 4 and they have 4 magic stamina left. 
 >
 > They roll **2 D4**, yielding them a 1 and a 2. The sum (3) is within their available magic stamina (which is now reduced to 1). 
 >
@@ -336,7 +271,7 @@ A fist-sized **Amberite** chunk is fairly heavy, with a [bulk](./core-rules.md#c
 ### Ambersteel
 **Ambersteel** is a strictly anti-magic material. It should enjoy great attention in any fantasy world, where magic is a real and recognizable force. Magic is powerful and fearsome and thus, if not under control, can threaten to cause great pain and destruction. **Ambersteel** dampens that power and puts shackles on it. 
 
-[Amberite](#amberite) can be processed into **Ambersteel**, which makes it a hard and flexible metal. The raw material heats slowly and must be heated over the course of several days and nights, without interruption. When it finally reaches the right temperature, it will glow white, with a purple sheen. At that point, it can be hammered into shape. Constant re-heating ensures it stays at the right temperature and a final quenching in oil mixed with powdered [Abyssalite](#abyssalite) ensures it retains its flexibility. If processed outside the optimal temperature, the material quickly grows brittle and will shatter if any stress is put on it. The skill to use is [ambersmithing](#ambersmithing-agiint). 
+[Amberite](#amberite) can be processed into **Ambersteel**, which makes it a hard and flexible metal. The raw material heats slowly and must be heated over the course of several days and nights, without interruption. When it finally reaches the right temperature, it will glow white, with a purple sheen. At that point, it can be hammered into shape. Constant re-heating ensures it stays at the right temperature and a final quenching in oil mixed with powdered [Abyssalite](#abyssalite) ensures it retains its flexibility. If processed outside the optimal temperature, the material quickly grows brittle and will shatter if any stress is put on it. The skill to use is [ambersmithing](#ambersmithing-strwit). 
 
 Due to the length of the process and the difficulty in keeping the right temperature, smiths capable of creating **Ambersteel** are rare. 
 
@@ -347,7 +282,7 @@ Shards of [Abyssalite](#abyssalite) can have **runes** carved into them, which a
 
 To activate such a **rune**, is a difficult skill to learn, however. Even if no innate magical ability is required, an understanding of the flow of magic is. The **rune** must be touched in the right spots, at the right intervals, to activate successfully. Mistakes in this procedure can have disastrous results. 
 
-What's more, it takes great skill to carve the right **runes**, as each **rune's** shape and complexity depends in part on the size and shape of the [Abyssalite](#abyssalite) shard. The only way to get it right, is to *feel* the way the **rune** must be shaped. Alternatively, the shard can be adjusted to be of equivalent size and shape as another **rune**, but this requires considerable effort, as [Abyssalite](#abyssalite) is a brittle material, prone to shattering if too much force is applied. Thus, it must be carefully filed down to size. This would double the time it takes to [craft](#rune-carving-arcwis) the **rune**.
+What's more, it takes great skill to carve the right **runes**, as each **rune's** shape and complexity depends in part on the size and shape of the [Abyssalite](#abyssalite) shard. The only way to get it right, is to *feel* the way the **rune** must be shaped. Alternatively, the shard can be adjusted to be of equivalent size and shape as another **rune**, but this requires considerable effort, as [Abyssalite](#abyssalite) is a brittle material, prone to shattering if too much force is applied. Thus, it must be carefully filed down to size. This would double the time it takes to [craft](#rune-carving-arcwit) the **rune**.
 
 Due to how **runes** are always magically charged, they cannot be in the vicinity of any other **runes**. This works a bit like how magnets with the same polarity repulse each other, but a lot more dangerous. This condition applies regardless of the type of magic each of the **runes** hold. 
 
@@ -358,12 +293,12 @@ It may be possible to circumvent this repulsion behavior by placing the **runes*
 In order to craft a **rune**:
 * A **rune** can only be made to cast one type of magic. So the carver has to pick one of the [magic schools](#list-of-magic-schools). 
 * The maximum **level** at which a **rune** can be created, depends on the carver's skill. The **level** of the **rune** dictates the level of the respective magic it will cast at. 
-* The carver has to succeed a [rune carving](#rune-carving-arc) skill test. 
+* The carver has to succeed a [rune carving](#rune-carving-arcwit) skill test. 
 * Then, the **rune** must be "primed" by a mage. This requires a **complete success** of a test of the same [school of magic](#list-of-magic-schools) as the **rune** holds, with **Ob** equal to the spell's [intensity level](#spell-intensity-si). 
 * If any of the tests are not a **complete success**, the **rune** is botched and the material cannot be used for another attempt. There is no room for mistakes. 
 
 In order to invoke a **rune**:
-* A **complete success** of a [rune-using](#rune-using-agi) skill test will invoke the spell of the **rune** as expected.
+* A **complete success** of a [rune-using](#rune-using-agiwit) skill test will invoke the spell of the **rune** as expected.
 * A **partial success** or **complete failure** results in a [spell-backfire](#spell-backfire). 
 
 ### Magic Scrolls
@@ -377,7 +312,7 @@ It may be possible to circumvent this repulsion behavior by placing the **magic 
 
 In order to create a **magic scroll**:
 * Powdered [Abyssalite](#abyssalite) must be painted onto the parchment, paper or other such material, in a shape specific to the magic spell the **magic scroll** will be able to cast. 
-  * This requires a **complete success** of an [artistry](./core-rules.md#artistry-emp) test, at **Ob** equal to the spell's [intensity level](#spell-intensity-si). 
+  * This requires a **complete success** of an [artistry](./core-rules.md#artistry-agiawar) test, at **Ob** equal to the spell's [intensity level](#spell-intensity-si). 
 * Then, the **magic scroll** must be "primed" by a mage. This requires a **complete success** of a test of the same [school of magic](#list-of-magic-schools) as the **magic scroll** holds, with **Ob** equal to the spell's [intensity level](#spell-intensity-si). 
 * If any of the tests are not a **complete success**, the **magic scroll** is botched and the material cannot be used for another attempt. There is no room for mistakes. 
 
@@ -395,6 +330,62 @@ Weapon type assets can have the following **properties**:
 
 # Appendix
 The appendix contains important and less important lists, for reference only when needed. 
+
+## Character Creation
+Character creation is now supplemented by the step to determine [magic stamina](#magic-stamina), which follows determining the **exhaustion threshold**. 
+
+The new procedure of creating a character consists of the following steps:
+1. [Determine life path](#determine-life-path). 
+2. [Determine species, sex & appearance](#species-sex--appearance).
+3. [Determine name](#determine-name).
+4. [Determine abilities](#determine-abilities).
+6. [Determine **carrying capacity** and **assets**](#determine-assets).
+7. [Determine **Max HP** and **Injury Maximum**](#determine-max-hp--injury-maximum)
+8. [Determine exhaustion threshold](#determine-exhaustion-threshold).
+9. [Determine magic stamina](#determine-magic-stamina).
+
+### Determine Abilities
+Supplements to abilities in character creation. 
+
+#### Choosing Attributes
+There are two methods for determining your character's attributes: manual and semi-random. 
+
+You'll have to decide on whether your character will be a mage or not. Mages have the new, 6th attribute to spend points on, so this decision can affect your character's initial overall competence. 
+
+Please keep in mind the values here are representative for an ordinary human about to enter an adventuring life. Other species may have modifiers on their attributes, making them better or worse in some of them. But that depends on the world your **GM** is running. 
+
+This section replaces its core rule counter-part. 
+
+##### Manual Attribute Assignment
+* You can spend **9 points** on your attributes. 
+* All attributes **except arcana** start at level `1`. Arcana starts at `0`. 
+* Your attribute-total cannot be greater than **14**.
+* No attribute may have a level less than `1` (except **arcana**) nor higher than `4` (including **arcana**).
+* Only one attribute may have a level of `4`. 
+
+##### Semi-Random Attribute Assignment
+1. Decide if you want to play a mage.
+   1. As a mage, roll **6 D4** and **include** **arcana** in the following steps. 
+   2. As a non-mage, roll **5 D4** and **exclude** **arcana** in the following steps. 
+2. Row up your dice to form a line, then read them from one end to the other and note each value. The order in which they are written down, is the order in which they'll be applied to the attributes. 
+3. If there is more than one `4`, start lowering their value by one, starting from the left or the right, until there is only one `4` left. 
+4. Count up the total of your values. 
+   1. Subtract your total from **14**.
+   2. If the number is negative, that's the number of levels you'll have to go down. <br>
+   If the number is positive, that's the number of levels you'll have to go up. 
+5. Starting from the left or right, start adjusting each value.
+   1. If your levels have to go down, subtract one from each value. **But** skip `1`s. 
+   2. If your levels have to go up, add one to each value. **But** skip `4`s. 
+6. Repeat from the step of counting up your total and adjusting as necessary, until no more adjustments are necessary. 
+7. Lastly, apply the adjusted values to your attributes. 
+
+#### Choosing Skills
+If playing a **mage**, keep in mind you need to have at least level 1 in a [magic school skill](#magic-school--school---attribute) to be able to cast magic. You are also advised to have your strongest magic be at least level 3 or 4, to be able to reliably use it. 
+
+### Determine Magic Stamina
+Determine your character's **maximum magic stamina**, by referring to the [magic stamina](#magic-stamina) section. 
+
+You'll need to track **current magic stamina** separately. To start with, set your current to your maximum **magic stamina**. 
 
 ## List of Assets
 The following list does not and cannot aim to be a complete listing of all possible assets in game. Adding new assets as necessary will have to be done by the **GM**. 
@@ -497,12 +488,12 @@ The following is a list of general assets. Of course, the following list is non-
 
 | Name                   | Bulk | Max. Stack Size | Description                                                              |
 | ---------------------- | ---- | --------------- | ------------------------------------------------------------------------ |
-| Laudanum Potion        | 1    | 2               | This wonderous substance can quell pain and calm nerves within seconds. Also effective against diarrhea. Upon imbibing, sets one **active** [injury](./core-rules.md#injury) to **patched up**. After 24 hours, the [injury](./core-rules.md#injury) is set back to **active**, even if it was **treated** in the meantime. Also, must succeed a [willpower](./core-rules.md#willpower-will) test at **Ob** 2, or else become [addicted](./core-rules.md#drug-addicted) to the stuff. |
+| Laudanum Potion        | 1    | 2               | This wonderous substance can quell pain and calm nerves within seconds. Also effective against diarrhea. Upon imbibing, sets one **active** [injury](./core-rules.md#injury) to **patched up**. After 24 hours, the [injury](./core-rules.md#injury) is set back to **active**, even if it was **treated** in the meantime. Also, must succeed a [wit](./core-rules.md#wit-wit) test at **Ob** 2, or else become [addicted](./core-rules.md#drug-addicted) to the stuff. |
 | Calming Tea            | 1    | 3               | This herbal tea has the ability to calm nerves. Removes [berserk](./core-rules.md#berserk), [jealous](./core-rules.md#jealous) and [terrified](./core-rules.md#terrified). Best enjoyed steaming hot, but not necessarily. |
 | Smoke Bomb             | 1    | 3               | A small fragile shell, filled with a very fine powder which when broken causes an area in a 6'/2m radius to be covered in smoke. It is impossible to see through and ranged attacks within or through the area suffer +2 **Ob**. Victims caught in the smoke may be forced to cough. The smoke lasts 6 turns or 30 seconds. |
 | Acid Bomb              | 1    | 2               | A small fragile shell with two compartments, filled with two liquids which, when they combine, act as a powerful acid. When shattered, deals **2D8** **acid** damage to whatever it hits. |
 | Blackpowder Bomb       | 1    | 2               | A small iron-shelled bomb, filled with blackpowder. A short fuse sticks out and must be lit to set it off. Once lit, the bomb will detonate after 3 turns or 15 seconds. Deals **2D6** **crushing** + **2D6** **burning** damage to anyone in a 6'/2m radius. |
-| Throwing Blade         | 1    | 6               | A small weighted blade, like a knife or star, well suited to being thrown. Can be used in melee and acts like a [dagger](#dagger-agi), but with a penalty of **-2D** to attack and defence. **+1D** when [thrown](./core-rules.md#throwing-accuracy) for a ranged attack. Deals **2D4 + Str** **piercing** damage. |
+| Throwing Blade         | 1    | 6               | A small weighted blade, like a knife or star, well suited to being thrown. Can be used in melee and acts like a [dagger](#dagger-agiawar), but with a penalty of **-2D** to attack and defence. **+1D** when [thrown](./core-rules.md#throwing-accuracy) for a ranged attack. Deals **2D4 + Str** **piercing** damage. |
 
 ### Weapon Types
 Following are fantasy-themed weapon types. 
@@ -511,7 +502,7 @@ For ranged weapons there is note made of a value called the "distance increment"
 
 > For example, when a distance increment of 30'/10m has been noted, then shooting anything within and up to that distance incurs no penalties. But as soon as the shooter wants to hit something at 33'/11m distance, they incur their first penalty. The next penalty is incurred at 63'/21m and so on. 
 
-#### Dagger (Agi)
+#### Dagger (Agi/Awar)
 Any very short, one-handed blade. Examples: shiv, dagger, rondel-dagger
 
 For all attacks made with a dagger, the following rules apply:
@@ -529,7 +520,7 @@ For all attacks made with a dagger, the following rules apply:
 | 0     | Artery cut           | 2  | Opposed + 2 | **2D4** **Slashing**             | +1 [bleeding](#bleeding) to the target (if it can bleed).  |
 | 0     | Target weak-spot     | 2  | Opposed + 2 | **2D4** **Piercing**             |  |
 
-#### Light Blade (Agi)
+#### Light Blade (Agi/Str)
 Any light blade. Most commonly (but not restricted to) one-handed weapons. Examples: Short-sword, Langes Messer, arming sword, falchion
 
 * Melee
@@ -542,7 +533,7 @@ Any light blade. Most commonly (but not restricted to) one-handed weapons. Examp
 | 0     | Stab                 | 2  | Opposed     | **1D8 + 1** **Piercing**         | / |
 | 0     | Grappling Feint      | 2  | Opposed - 1 | /                                | Attack with a feint, immediately close the distance and [grapple](./core-rules.md#grappled) your opponent. |
 
-#### Long Blade (Str)
+#### Long Blade (Agi/Str)
 Any long and heavier blade, including heavy one-handed blades. Examples: Longsword, saber, side-sword, rapier
 
 * Melee
@@ -555,7 +546,7 @@ Any long and heavier blade, including heavy one-handed blades. Examples: Longswo
 | 2     | Mord-Strike          | 2  | Opposed + 2 | **1D6 + 1** **Crushing**         | / |
 | 3     | Fencer-Stance        | 2  | /           | /                                | Enter a defensive fencing stance. Gain **+1D** for melee defense and can **counter-attack** **every** attack. |
 
-#### Great Blade (Str)
+#### Great Blade (Str/Tough)
 Any very long and heavy two-handed blade. Examples: sword of war, great-sword, Zweihänder, Kriegsmesser
 
 * Melee
@@ -569,7 +560,7 @@ Any very long and heavy two-handed blade. Examples: sword of war, great-sword, Z
 | 2     | Blade Barrier        | 2  | Opposed     | /                                | Whenever any character moves **into** a spot within reach, can attack that character with a **slash** at **Ob** + 1 and force them back 3'/1m. |
 | 3     | Heavy Blow           | 3  | Opposed + 1 | **2D8** **Slashing** and **1D8** **Crushing** | Defending against this attack costs 2 [AP](#action-points-ap). +1 [exhaustion](#exhaustion) to self. |
 
-#### Axe (Str)
+#### Axe (Str/Str)
 Small and light axes. Examples: hatchet, dane axe, woodcutter's axe
 
 * Melee
@@ -581,7 +572,7 @@ Small and light axes. Examples: hatchet, dane axe, woodcutter's axe
 | 0     | Hack                 | 2  | Opposed     |  **1D6 + 2** **Slashing** and **1D4** **Crushing**  | / |
 | 1     | Savage Slash         | 2  | Opposed + 1 |  **1D6 + 2** **Slashing**            | +1 [bleeding](#bleeding)  to the target (if it can bleed). |
 
-#### Great Axe (Str)
+#### Great Axe (Str/Str)
 Large and heavy axes. Examples: bearded axe, double-sided axe
 
 * Melee
@@ -593,7 +584,7 @@ Large and heavy axes. Examples: bearded axe, double-sided axe
 | 2     | Savage Slash         | 2  | Opposed + 2 | **2D8** **Slashing**             | +2 [bleeding](#bleeding)  to the target (if it can bleed). |
 | 3     | Heavy Blow           | 3  | Opposed + 1 | **1D8** **Slashing** and **1D6 + 2** **Crushing** | Defending against this attack costs 2 [AP](#action-points-ap). +1 [exhaustion](#exhaustion) to self. |
 
-#### Spear (Str)
+#### Spear (Agi/Str)
 Any one or two-handed short piercing polearms. Examples: short-spear, boar-spear
 
 * Melee
@@ -607,7 +598,7 @@ Any one or two-handed short piercing polearms. Examples: short-spear, boar-spear
 | 0     | Stab                 | 2  | Opposed     | **2D8** **Piercing**  | / |
 | 0     | Spear wall           | 2  | /                                | Whenever any character moves **into** a spot within reach, can attack that character with a **stab** and force them back 3'/1m. | / |
 
-#### Lance (Str)
+#### Lance (Awar/Str)
 Any one or two-handed long piercing polearms. Examples: pike, lance
 
 * Melee
@@ -620,7 +611,7 @@ Any one or two-handed long piercing polearms. Examples: pike, lance
 | 0     | Stab                 | 2  | Opposed     | **2D6** **Piercing**             | / |
 | 0     | Couched Lancing      | 2  | Opposed     | **3D10** **Piercing**            | Requires self to be mounted on horse-back (or similar creature). Self must move at least 15'/5m in a straight line, past the target. |
 
-#### Polearm (Str)
+#### Polearm (Str/Tough)
 Flexible polearms with a focus on slashing. Examples: halberd, bardiche, poleaxe
 
 * Melee
@@ -635,7 +626,7 @@ Flexible polearms with a focus on slashing. Examples: halberd, bardiche, poleaxe
 | 1     | Blade Barrier        | 2  | Opposed     | /                                | Whenever any character moves **into** a spot within reach, can attack that character with a **stab** at **Ob** + 1 and force them back 3'/1m. |
 | 2     | Cleave               | 2  | Opposed + 2 | **3D6** **Slashing**             | Deals damage to up to two targets adjacent to each other and within reach. |
 
-#### Club (Str)
+#### Club (Str/Str)
 Simple, improvised bludgeoning weapons. Examples: wooden club, staff, stick
 
 * Melee
@@ -647,7 +638,7 @@ Simple, improvised bludgeoning weapons. Examples: wooden club, staff, stick
 | 0     | Knockout Blow        | 2  | Opposed + 2 | **Str** + **2D6 + 2** **Bludgeoning**  | +2 [exhaustion](#exhaustion) to target. +1 [exhaustion](#exhaustion) to self. |
 | 0     | Smash                | 2  | Opposed     | **Str** + **1D4** **Crushing**         | / |
 
-#### Small Crusher (Str)
+#### Small Crusher (Str/Str)
 Small, heavy crushing weapons with a dedicated *impact zone* on the weapon head which directs more force into the target. Examples: flanged mace, warhammer, flail, morning star
 
 * Melee
@@ -657,7 +648,7 @@ Small, heavy crushing weapons with a dedicated *impact zone* on the weapon head 
 | ----- | -------------------- | -- | ----------- | -------------------------------- | ------ |
 | 0     | Smash                | 2  | Opposed     | **Str** + **1D6 + 2** **Crushing** | / |
 
-#### Large Crusher (Str)
+#### Large Crusher (Str/Tough)
 Large, heavy crushing weapons with a dedicated *impact zone* on the weapon head which directs more force into the target. Examples: grand-mace, polehammer, two-handed flail
 
 * Melee
@@ -668,7 +659,7 @@ Large, heavy crushing weapons with a dedicated *impact zone* on the weapon head 
 | 0     | Smash                | 2  | Opposed     | **Str** + **1D8 + 2** **Crushing** | / |
 | 1     | Mighty Smash         | 2  | Opposed + 2 | **Str** + **2D8 + 1** **Crushing**     | +2 [exhaustion](#exhaustion) to target (if it can be winded). +1 [exhaustion](#exhaustion) to self. |
 
-#### Short-Bow (Agi)
+#### Short-Bow (Awar/Awar)
 A short distance ranged weapon, shooting arrows.
 
 * Ranged
@@ -682,7 +673,7 @@ A short distance ranged weapon, shooting arrows.
 | 1     | Heavy Shot           | 3  | Opposed + 1 | 30'/10m             | **3D4 + Str** **Piercing** |  |
 | 2     | Double shot          | 3  | Opposed     | 30'/10m             | **2D4** **Piercing**       | Can attack twice and thus deal its damage to two different targets, or the same target twice.  |
 
-#### Longbow (Perc)
+#### Longbow (Awar/Str)
 A long distance ranged weapon, shooting arrows.
 
 * Ranged
@@ -695,7 +686,7 @@ A long distance ranged weapon, shooting arrows.
 | 0     | Loose                | 2  | Opposed     | 45'/15m             | **4D4** **Piercing**       |  |
 | 1     | Heavy Shot           | 3  | Opposed + 1 | 45'/15m             | **4D4 + Str** **Piercing** |  +1 [exhaustion](#exhaustion) to self. |
 
-#### War-Bow (Str)
+#### War-Bow (Str/Tough)
 A very deadly long distance ranged weapon, shooting arrows. Beware its exhausting strength of draw. 
 
 * Ranged
@@ -707,7 +698,7 @@ A very deadly long distance ranged weapon, shooting arrows. Beware its exhaustin
 | ----- | -------------------- | -- | ----------- | ------------------- | -------------------------- | ------ |
 | 0     | Loose                | 2  | Opposed     | 60'/20m             | **3D8** **Piercing**       | +1 [exhaustion](#exhaustion) to self.  |
 
-#### Crossbow (Perc)
+#### Crossbow (Awar/Awar)
 A deadly medium distance ranged weapon, shooting quarrels. Beware its slow reload. 
 
 * Ranged
@@ -720,7 +711,7 @@ A deadly medium distance ranged weapon, shooting quarrels. Beware its slow reloa
 | ----- | -------------------- | -- | ----------- | ------------------- | -------------------------- | ------ |
 | 0     | Loose                | 2  | Opposed     | 60'/20m             | **3D8** **Piercing**       |  |
 
-#### Firearm (Perc)
+#### Firearm (Awar/Awar)
 A very deadly short to medium distance ranged weapon, shooting musket balls that are likely to penetrate armor. Beware its slow reload. 
 
 * Ranged
@@ -739,20 +730,20 @@ The following list does not and cannot aim to be a complete listing of all possi
 ### Physical Skills
 These skills have a dominant physical aspect and are directly tied to a character's *physical attributes*. 
 
-#### Rune-Using (Agi/Arc)
+#### Rune-Using (Agi/Wit)
 Skill at using [magic runes](#runes). 
 
 | Level | Name                 | AP | **Ob** | Effect(s)          | Condition(s) |
 | ----- | -------------------- | -- | ------ | ------------------ | ------------ |
 | 4     | Hot Potato           | 1  | 3      | If using a rune would fail and result in a [spell-backfire](#spell-backfire), drop the rune, jump away and suffer only half the damage. | Caused a [spell-backfire](#spell-backfire) using a rune; Once per rest. |
 
-#### Sailing (Wis)
+#### Sailing (Awar/Wit)
 Steering and maintaining a naval vessel. 
 
 ### Knowledge Skills
 These skills have a dominant mental aspect and are strongly related to a character's *mental attributes*. 
 
-#### Heraldry (Int)
+#### Heraldry (Awar/Wit)
 The ability to tell noble houses apart and to know their heraldry. 
 
 #### Magic School < School > (< Attribute >)
@@ -763,7 +754,7 @@ See also [testing magic](#testing-magic).
 ### Craftsmanship Skills
 All craftsmanship requires a mix of physical and mental attributes, for the purpose of creating a wide variety of things.
 
-#### Armor Smithing (Str/End)
+#### Armor Smithing (Str/Wit)
 The ability to make armor from conventional materials, such as metal and leather. 
 
 [Crafting](#crafting)
@@ -773,7 +764,7 @@ The ability to make armor from conventional materials, such as metal and leather
 | 1 [medium armor](#medium-armor)      | High       | Very High | Any shapeable sturdy and flexible material, such as iron, steel, leather or chitin. | Every **positive**: +1 **Slashing**; Every 2 **positives**: +1 **Bludgeoning**; Every 3 **positives**: +1 **Crushing**, +1 **Piercing** |
 | 1 [heavy armor](#heavy-armor)        | High       | Very High | Any shapeable sturdy and flexible material, such as iron, steel, leather or chitin. | Every **positive**: +1 **Slashing**; Every 2 **positives**: +1 **Bludgeoning**; Every 3 **positives**: +1 **Crushing**, +1 **Piercing** |
 
-#### Ambersmithing (Agi/End)
+#### Ambersmithing (Str/Wit)
 The ability to make things from [Amberite](#amberite). 
 
 Lining or plating an existing object with [Ambersteel](#ambersteel) acts as an improvement, whereas an [Ambersteel](#ambersteel)-forged object is an entirely new object, completely made out of [Ambersteel](#ambersteel). 
@@ -801,7 +792,7 @@ See also [protection from magic](#protection-from-magic).
 >
 > This means damage from magic source will be reduced by 3 + **2D4** and a non-damaging **spell's intensity** is reduced by 3. 
 
-#### Alchemy (Arc/Int/Agi)
+#### Alchemy (Arc/Wit)
 The ability to brew alchemical potions, create powders, mixtures and other substances, as well as the ability to tell these things apart. 
 
 Tools: a distillery, mortar and pestle, a fire place
@@ -812,7 +803,7 @@ Tools: a distillery, mortar and pestle, a fire place
 | A simple alchemical concoction (potion or powder)  | Moderate  | Moderate | Small containers, minerals, metals, herbs and water. | / |
 | A complex alchemical concoction (potion or powder) | Very High | High     | Small containers, minerals, metals, herbs and water. | / |
 
-#### Brewing (Wis)
+#### Brewing (Wit/Wit)
 The brewing of alcoholic beverages. 
 
 Tools: a fire place, a distillery
@@ -822,7 +813,7 @@ Tools: a fire place, a distillery
 | ------------------------------------ | ---------- | --------- | -------------------------------------- | --------------- | 
 | A small keg worth of alcohol         | Moderate   | Very High | Any closeable container; Any fermentable fruit or distillable plant matter. | / |
 
-#### Blacksmithing (Str/End)
+#### Blacksmithing (Agi/Str)
 The ability to create every-day items from metal. 
 
 Tools: a hammer, an anvil or other resilient surface, tongs, a forge
@@ -833,7 +824,7 @@ Tools: a hammer, an anvil or other resilient surface, tongs, a forge
 | A large item, such as a handheld tool               | Moderate | High     | Any shapeable metal; (Wood). | / |
 | Several smaller items, such as nails or arrow-heads | Moderate | Moderate | Any shapeable metal. | / |
 
-#### Bow-Making (Agi)
+#### Bow-Making (Agi/Awar)
 The ability to craft bows and crossbows. 
 
 Tools: a carving knife
@@ -844,7 +835,7 @@ Tools: a carving knife
 | Bow                                  | Low        | Moderate  | A piece of sturdy and flexible wood; A piece of string or sinew. | Every 3 **positives**: +1 **Piercing** |
 | Crossbow                             | High       | High      | Sturdy pieces of wood; Metal arms; a piece of string or sinew. | Every 3 **positives**: +1 **Piercing** |
 
-#### Carpentry (Agi)
+#### Carpentry (Agi/Str)
 The ability to shape wood to craft predominantly wooden things. 
 
 Tools: an axe, a wood plane, a hand drill, a workbench
@@ -855,7 +846,7 @@ Tools: an axe, a wood plane, a hand drill, a workbench
 | A small piece of furniture           | Moderate   | Moderate  | Wood                                   | / |
 | A large piece of furniture           | Moderate   | High      | Wood                                   | / |
 
-#### Clothesmaking (Agi)
+#### Clothesmaking (Agi/Wit)
 The ability to make comfortable, well-fitting and decorated clothes. 
 
 Tools: scissors, needles, yarn, thread
@@ -865,7 +856,7 @@ Tools: scissors, needles, yarn, thread
 | ------------------------------------ | ---------- | --------- | -------------------------------------- | --------------- | 
 | A piece of clothing                  | Moderate   | Moderate  | Cloth                                  | / |
 
-#### Engineering (Int)
+#### Engineering (Agi/Wit)
 The ability to plan and construct complex mechanisms and devices. 
 
 [Crafting](#crafting)
@@ -874,7 +865,7 @@ The ability to plan and construct complex mechanisms and devices.
 | A simple mechanism                   | High       | Low       | Any suitable material                  | / |
 | A complex mechanism                  | High       | Moderate  | Any suitable material                  | / |
 
-#### Fletching (Agi)
+#### Fletching (Agi/Awar)
 The ability to efficiently craft arrows, bolts and javelins. 
 
 Tools: a carving knife, a brush
@@ -884,7 +875,7 @@ Tools: a carving knife, a brush
 | ------------------------------------ | ---------- | --------- | -------------------------------------- | --------------- | 
 | 5 Arrow shafts                       | Low        | Moderate  | Wood; feathers; glue                   | / | 
 
-#### Glass-Blowing (Agi)
+#### Glass-Blowing (Agi/Agi)
 The ability to make objects from glass. 
 
 Tools: a fire place, a glass-blower, various shaping tools
@@ -894,7 +885,7 @@ Tools: a fire place, a glass-blower, various shaping tools
 | ------------------------------------ | ---------- | --------- | -------------------------------------- | --------------- | 
 | A small glass object                 | High       | Moderate  | Quartz; sand                           | / | 
 
-#### Goldsmithing (Agi)
+#### Goldsmithing (Agi/Agi)
 The ability to make jewelry from precious metals and stones. 
 
 Tools: hammers, tweezer, chisels, a workbench, magnifying glasses
@@ -904,7 +895,7 @@ Tools: hammers, tweezer, chisels, a workbench, magnifying glasses
 | ------------------------------------ | ---------- | --------- | -------------------------------------- | --------------- | 
 | A small piece of jewelry             | High       | High      | Quartz; sand                           | / | 
 
-#### Leatherworking (Agi)
+#### Leatherworking (Agi/Wit)
 The ability to create leather objects. 
 
 Tools: scissors, needles, hole punchers and a hammer
@@ -915,7 +906,7 @@ Tools: scissors, needles, hole punchers and a hammer
 | 5 Small leather objects              | Low        | Moderate  | A tanned hide                          | / | 
 | A large leather object               | Low        | Moderate  | A tanned hide                          | / | 
 
-#### Masonry (Str/End)
+#### Masonry (Str/Tough)
 The ability to shape stone to craft predominantly stone-based things. 
 
 Tools: a hammer and chisels of varying sizes
@@ -926,7 +917,7 @@ Tools: a hammer and chisels of varying sizes
 | A small stone-hewn object            | Low        | Very High | Stone                                  | / |
 | A large stone-hewn object            | Low        | Very High | Stone                                  | / |
 
-#### Rune Carving (Arc/Wis)
+#### Rune Carving (Arc/Wit)
 The ability to carve [magic runes](#runes).
 
 The level of this skill dictates the maximum intensity level of the respective magic the carved rune can hold. The number of **positives** achieved in a test then sets the actual level the rune will hold, but limited by the maximum. 
@@ -939,7 +930,7 @@ Tools: a hammer and chisels of varying sizes, tongs, tweezer, a fine brush
 | A blank rune                         | High       | Moderate  | /  | [Abyssalite](#abyssalite)              | / |
 | A magic rune                         | Very High  | High      | 2  | A blank rune; thin-leaf metal          | +1 [spell intensity level](#magic) |
 
-#### Shield-Making (Str/End)
+#### Shield-Making (Str/Wit)
 The ability to make shields from conventional materials, such as wood and metal. 
 
 Tools: axes, hammers, tongs, (if metal) a forge and anvil
@@ -952,7 +943,7 @@ Tools: axes, hammers, tongs, (if metal) a forge and anvil
 | 1 [heater shield](#heater-shield)    | Moderate   | High      | Any shapeable sturdy and flexible material, such as wood, metal or chitin. | For every 3 quality levels, starting at level 2, reduction of bulk by 1 (to a minimum of 1). |
 | 1 [kite shield](#kite-shield)        | Moderate   | High      | Any shapeable sturdy and flexible material, such as wood, metal or chitin. | For every 3 quality levels, starting at level 2, reduction of bulk by 1 (to a minimum of 2). |
 
-#### Tanning/Skinning (Agi)
+#### Tanning/Skinning (Agi/Tough)
 Taking the hide off a creature undamaged. 
 
 Tools: a knife, a scraping blade, a bucket, a brush
@@ -964,7 +955,7 @@ Tools: a knife, a scraping blade, a bucket, a brush
 | A large skin                         | Moderate   | Moderate  | A skinnable creature                   | / |
 | A tanned hide                        | Moderate   | High      | A tannable skin                        | / |
 
-#### Weapon Smithing (Str/End)
+#### Weapon Smithing (Str/Wit)
 The ability to make weapons from metal. 
 
 Tools: a hammer, an anvil or other resilient surface, tongs, a forge
@@ -974,7 +965,7 @@ Tools: a hammer, an anvil or other resilient surface, tongs, a forge
 | ------------------------------------ | ---------- | --------- | -------------------------------------- | --------------- | 
 | A weapon                             | High       | High      | Any suitable metal, wood and/or similar material | / |
 
-#### Woodcarving (Agi)
+#### Woodcarving (Agi/Agi)
 Creating small things from carved wood. 
 
 Tools: a carving knife
@@ -996,7 +987,7 @@ In all the following tables, note the following:
 * Replace *SI* with the chosen [spell intensity](#spell-intensity-si). 
 * *Level* is the prerequisite level of the **magic school skill**, at which a given spell becomes available for use. 
 
-### Alteration (Int)
+### Alteration (Arc/Wit)
 The alteration of physical things, to change their shape and purpose, permanently. 
 
 Note that altering the shape of creatures poses a particular challenge. Unless if the test is a **complete success**, the target creature may mutate, horribly. When failing a test, consult the [list of mutations](#list-of-mutations), to determine the type of mutation. 
@@ -1007,7 +998,7 @@ Creatures can resist the change with [toughness](./core-rules.md#toughness-tough
 | ----- | -------------------- | -- | -------- | ---------------------------- | ------------------------------ | ------------------ |
 | 0     | Alter Shape          | 3  | 3'/1m    | Opposed + SI         | A **ST** (object or creature) is altered as the mage desires. The complexity and size of the re-shaping depends on the **SI**. 1-3 are for simple and small, 4-6 for tricky and medium, 7-8 for complex and large and 9+ for very complex and very large alterations. Consult your **GM**! | The intended alteration occurs only on the caster. |
 
-### Cryomancy (Arc)
+### Cryomancy (Arc/Arc)
 The summoning and control of ice. Cryomancer's can freeze things, so they're heavier and harder to break. 
 
 | Level | Name                 | AP | Distance    | Ob                           | Effect(s)                      | Backfire Effect(s) |
@@ -1015,9 +1006,9 @@ The summoning and control of ice. Cryomancer's can freeze things, so they're hea
 | 0     | Freezing Touch       | 2  | 3'/1m       | Opposed - SI                 | A fist-sized spot on a **ST**, that the mage's hand touches, freezes over and deals **SI freezing** damage. | The caster is affected, instead. |
 | 1     | Cold Finger Gun      | 2  | SI * 15'/5m | Opposed                      | The mage shoots an ice spike at a **ST** from their hand, dealing **SI D4 freezing** damage. Causes +1 [frostbitten](./core-rules.md#frostbitten). | The caster is affected, instead. |
 | 3     | Deep Freeze          | 3  | 3'/1m       | Opposed                      | A man-sized area of whatever the mage's hand is touching freezes over. The frost even penetrates and runs deep in a **ST**, dealing **1D10 freezing** damage. Causes +1 [frostbitten](./core-rules.md#frostbitten). | The caster is affected, instead. |
-| 5     | Rooting Freeze       | 3  | SI * 15'/5m | 5                            | A spot of the mage's choosing freezes over. Anyone caught within the **AOE** 9'/3m radius, will be frozen to the spot and thus [rooted](#rooted) and also suffer **SI D4 Freezing** damage. They can break free via a successful [strength](#strength-str) test at **Ob 3**. Or wait, until the ice thaws... | The spot beneath the caster is affected, instead. |
+| 5     | Rooting Freeze       | 3  | SI * 15'/5m | 5                            | A spot of the mage's choosing freezes over. Anyone caught within the **AOE** 9'/3m radius, will be frozen to the spot and thus [rooted](#rooted) and also suffer **SI D4 Freezing** damage. They can break free via a successful [strength](./core-rules.md#strength-str) test at **Ob 3**. Or wait, until the ice thaws... | The spot beneath the caster is affected, instead. |
 
-### Electromancy (Arc)
+### Electromancy (Agi/Arc)
 The summoning and control of lightning. Electricity is fairly versatile - it can injure or stun and power or trigger electrical and electronic devices. 
 
 | Level | Name                  | AP | Distance     | Ob                           | Effect(s)                      | Backfire Effect(s) |
@@ -1029,20 +1020,20 @@ The summoning and control of lightning. Electricity is fairly versatile - it can
 | 5     | UNLIMITED POWER       | 3  | SI * 30'/10m | Opposed                      | A cone of lightning spews forth from the mage's finger tips. Up to **SI + 1** **MST** can be hit with the shock, dealing **SI D6 electrical** damage. | The caster and anyone next to them is affected, instead. |
 | 5     | Mass Stunning Shock   | 3  | SI * 30'/10m | Opposed                      | Several arcs of aimed lightning spew forth from the mage's finger tips, striking up to **SI + 1** **MST** and adding 3 stacks of [stunned](./core-rules.md#stunned). | The caster and anyone next to them is affected, instead. |
 
-### Illusion (Emp)
+### Illusion (Arc/Awar)
 Creation of non-physical influences on the senses. That includes images, sounds and odors. The illusions cannot cause direct harm, although they can drive an individual to acts that may put them in danger. 
 
-A victim reaching their [exhaustion threshold](#exhaustion) by effect of this magic, while [terrified](./core-rules.md#terrified), must succeed an [endurance](#endurance-end) test, or else suffer a heart-attack and **die** outright. The **Ob** is a third of their [endurance](#endurance-end), rounded up. 
+A victim reaching their [exhaustion threshold](#exhaustion) by effect of this magic, while [terrified](./core-rules.md#terrified), must succeed a [toughness](./core-rules.md#toughness-tough) test, or else suffer a heart-attack and **die** outright. The **Ob** is a third of the **attribute**, rounded up. 
 
 | Level | Name                 | AP | Distance     | Ob                           | Effect(s)                      | Backfire Effect(s) |
 | ----- | -------------------- | -- | ------------ | ---------------------------- | ------------------------------ | ------------------ |
-| 0     | Illusion             | 2  | SI * 30'/10m | Opposed by [wisdom](./core-rules.md#wisdom-wis) + SI         | **Concentration**; The affected **ST** *sees*, *hears* or *smells* an illusory image/sound/odor. The intensity of the illusion is determined by the **SI**. 1 for a weak and small, 2 for a moderate and 3-4 for a large and intense, 5-6 for a giant and 7+ for a titanic illusion. *Can* be used to inflict [terror](./core-rules.md#terrified) or intense [jealousy](./core-rules.md#jealous). The victim suffers +1 [exhaustion](./core-rules.md#exhaustion). | The caster suffers +1 [exhaustion](./core-rules.md#exhaustion). |
+| 0     | Illusion             | 2  | SI * 30'/10m | Opposed by [wit](./core-rules.md#wit-wit) + SI | **Concentration**; The affected **ST** *sees*, *hears* or *smells* an illusory image/sound/odor. The intensity of the illusion is determined by the **SI**. 1 for a weak and small, 2 for a moderate and 3-4 for a large and intense, 5-6 for a giant and 7+ for a titanic illusion. *Can* be used to inflict [terror](./core-rules.md#terrified) or intense [jealousy](./core-rules.md#jealous). The victim suffers +1 [exhaustion](./core-rules.md#exhaustion). | The caster suffers +1 [exhaustion](./core-rules.md#exhaustion). |
 
-### Psionics (Ora/Int)
+### Psionics (Arc/Wit)
 Mind over matter! Psionics grants powerful abilities to manipulate objects, influence others and even wield magic as a weapon or shield. 
 
 * Obvious: A purple flame lights within the mage's eyes, when they use their psionic abilities.
-* [Prerequisites](./core-rules.md#specialization-skills): [Telepathy](#telepathy-ora) (3), [telekinesis](#telekinesis-int) (3)
+* [Prerequisites](./core-rules.md#specialization-skills): [Telepathy](#telepathy-arcwit) (3), [telekinesis](#telekinesis-arcagi) (3)
 
 Only targets within and up to the given *distance* can be moved and only within and up to that *distance* from the mage. 
 
@@ -1055,7 +1046,7 @@ Only targets within and up to the given *distance* can be moved and only within 
 | 1     | Levitate             | 1  | SI * 9'/3m   | Opposed                      | **Concentration**: Cause yourself or one other **ST** of choice, within *distance* to levitate a short distance above the ground. | The caster suffers +1 [exhaustion](./core-rules.md#exhaustion). |
 | 3     | Dimensional Shift    | 3  | SI * 30'/10m | Opposed                      | Cause a dimensional rift to open and swallow a **ST** of choice, which another rift releases at a location of your choosing, a moment later. | The caster is instead swallowed by a rift, immediately tossed back out in the same spot and suffers **1D10** points of **crushing** damage. |
 
-### Pyromancy (Arc)
+### Pyromancy (Arc/Arc)
 The summoning and control of fire. The flame being a destructive force, pyromancers enjoy little utility from their magic, beyond the ability to create light and heat. 
 
 | Level | Name                 | AP | Distance     | Ob                           | Effect(s)                      | Backfire Effect(s) |
@@ -1066,7 +1057,7 @@ The summoning and control of fire. The flame being a destructive force, pyromanc
 | 7     | Flame Jet            | 3  | SI * 30'/10m | SI + 1                       | A steady stream of flame shoots from the mage's hands, dealing **SI D6 burning** damage to anything caught by it, in a straight **AOE** line.  | The line of fire erupts backwards, through the mage. They and anyone behind them, in the line's range is affected. |
 | 9     | Rain of Fire         | 4  | SI * 60'/20m | SI + 3                       | The mage makes fire rain from the sky. A ball of fire falls from the sky for every **SI**, dealing **6 D6 + SI burning** damage in a **AOE** 24'/8m radius, at a location of choice. | No fire falls from the sky, instead the SI number of fire balls erupt in the mage's hands. They and anyone in the radius suffers the damage. |
 
-### Restoration (Emp)
+### Restoration (Arc/Awar)
 The mending of [injuries](./core-rules.md#injury) and treatment of [diseases](./core-rules.md#illness). 
 
 | Level | Name                 | AP | Distance | Ob                           | Effect(s)                      | Backfire Effect(s) |
@@ -1077,7 +1068,7 @@ The mending of [injuries](./core-rules.md#injury) and treatment of [diseases](./
 | 5     | Expel Illness        | 3  | 3'/1m    | 4                            | Removes **SI** number of [illnesses](#illness) of choice from a **ST** of choice, in hand's reach. | The caster contracts **SI** random [illnesses](#illness). | 
 | 6     | Revert Mutation      | 4  | 3'/1m    | 6                            | Removes **SI** number of [mutations](#list-of-mutations) of choice from a **ST** of choice, in hand's reach. | The caster receives **SI** random [mutations](#list-of-mutations). |
 
-### Soul-Binding (Will)
+### Soul-Binding (Arc/Tough)
 Also referred to as **necromancy**, this is the art and skill of calling souls from the **plane of the dead** and binding them, to reanimate corpses or animate an otherwise unliving body. 
 
 In order to bind a soul, a **soul-seal** is required. This seal has to take the form of a pentagram. The medium doesn't matter, although if the seal is destroyed, the soul binding is broken. So, if a mage wants to create a lasting soul-binding, an enduring medium for the seal is advisable. 
@@ -1093,11 +1084,11 @@ Another important note about targeting a specific soul. It is easier to recall t
 | Level | Name                 | AP | Distance   | Ob                           | Effect(s)                      | Backfire Effect(s) |
 | ----- | -------------------- | -- | ---------- | ---------------------------- | ------------------------------ | ------------------ |
 | 0     | Call and Bind a Soul | 3  | 3'/1m      | SI                           | Create a **soul-binding** at the strength of the chosen level. The larger, heavier and more complex a body is, the harder it is to create a binding. Anything larger than, heavier or more complex than a human will make the **soul-binding** harder. 1-3 for a small and simple, 4-5 for a moderate and 6+ for a large and complex binding. Consult your **GM**. Requires a **soul-seal**. Replacing an existing binding is possible, but the test must exceed the original soul-seals strength. | The caster's soul is evicted from their body and another soul takes place. The caster's character is effectively removed from the world. |
-| 1     | Command Bound Soul   | 1  | SI * 6'/3m | Opposed by [willpower](./core-rules.md#willpower-will) - SI   | Issue a single command that the bound soul **must** follow. | +1 [exhaustion](./core-rules.md#exhaustion) to the caster. |
+| 1     | Command Bound Soul   | 1  | SI * 6'/3m | Opposed by [wit](./core-rules.md#wit-wit) - SI | Issue a single command that the bound soul **must** follow. | +1 [exhaustion](./core-rules.md#exhaustion) to the caster. |
 | 1     | Break Binding        | 3  | 3'/1m      | SI of the seal               | Break a **soul-binding** and send the soul back to the **plane of the dead**, leaving its former body inanimate and soulless. | The caster's soul is evicted from their body and another soul takes place. The caster's character is effectively removed from the world. |
 | 5     | Call back a Soul     | 3  | 3'/1m      | SI + days since death        | Target a specific soul and recall them into their prior body. This isn't, strictly speaking, the same as binding a soul. | The caster's soul is evicted from their body and another soul takes place. The caster's character is effectively removed from the world. |
 
-### Telekinesis (Int)
+### Telekinesis (Arc/Agi)
 The ability to affect things and even creatures from afar, using magic instead of muscles or tools. 
 
 When using objects as projectiles, choose the [damage type](#damage-types) as appropriate. For example, a crossbow bolt might cause **piercing** damage, while a rock might cause **crushing** damage.
@@ -1111,38 +1102,24 @@ Only targets within and up to the given *distance* can be moved and only within 
 | 0     | Telekinesis            | 2  | SI * 15'/5m  | SI                           | Move an inanimate **ST** object at great velocity (if desired), which allows it to deal **SI D4** **variant** (depending on the type of object) damage upon impact. | The caster suffers +1 [exhaustion](./core-rules.md#exhaustion). |
 | 3     | Creature Telekinesis   | 3  | SI * 15'/5m  | Opposed                      | Move a **ST** large, or smaller, creature. | The caster is knocked back **SI** * 9'/3m and suffers **SI bludgeoning** damage. |
 
-### Telepathy (Will)
+### Telepathy (Arc/Wit)
 The ability to communicate wordlessly, to alter emotions and even issue compelling commands against another's will. 
-
-The mage can only affect those creatures that either don't resist, or which **fail** a [wisdom](./core-rules.md#wisdom-wis) test, at the given **Ob**. 
 
 | Level | Name                   | AP | Distance     | Ob                           | Effect(s)                      | Backfire Effect(s) |
 | ----- | ---------------------- | -- | ------------ | ---------------------------- | ------------------------------ | ------------------ |
 | 0     | Wordless Communication | 2  | SI * 12'/4m  | SI                           | **Concentration**: Communicate wordlessly with **SI** **MST**. | The caster suffers +1 [exhaustion](./core-rules.md#exhaustion). |
-| 0     | Read Thoughts          | 2  | SI * 12'/4m  | Opposed by [willpower](./core-rules.md#willpower-will) - SI | Glimpse into the thoughts of **ST** for a short time. | The target instead catches a glimpse into the caster's thoughts. The caster suffers +1 [exhaustion](./core-rules.md#exhaustion). |
-| 3     | Change a Mind          | 2  | SI * 12'/4m  | Opposed by [wisdom](./core-rules.md#wisdom-wis) - SI | Alter a creature's current state of mind and emotion. | The caster is affected, instead. |
+| 0     | Read Thoughts          | 2  | SI * 12'/4m  | Opposed by [wit](./core-rules.md#wit-wit) - SI | Glimpse into the thoughts of **ST** for a short time. | The target instead catches a glimpse into the caster's thoughts. The caster suffers +1 [exhaustion](./core-rules.md#exhaustion). |
+| 3     | Change a Mind          | 2  | SI * 12'/4m  | Opposed by [wit](./core-rules.md#wit-wit) - SI | Alter a creature's current state of mind and emotion. | The caster is affected, instead. |
 | 4     | Pressing Thought       | 3  | SI * 30'/10m | SI + 2                       | [Hasten](./core-rules.md#hasted) up to **SI** **MST** of choice for **SI** turns of combat or **SI** * 5 seconds out of combat. | The caster suffers +1 [exhaustion](./core-rules.md#exhaustion). |
-| 6     | Quiet Command          | 3  | SI * 30'/10m | Opposed by [wisdom](./core-rules.md#wisdom-wis) - SI | Issue a command to another creature, which they feel **strongly** compelled to follow. | The caster is affected, instead. |
+| 6     | Quiet Command          | 3  | SI * 30'/10m | Opposed by [wit](./core-rules.md#wit-wit) - SI | Issue a command to another creature, which they feel **strongly** compelled to follow. | The caster is affected, instead. |
 | 7     | Confer Knowledge       | 4  | 3'/1m        | 7 - SI                       | Confer +1 level of a **known skill** to another creature. | The caster loses 1 level in the chosen skill. |
 
 ## List of Injuries
-* New description of "Tremors": -1 [Arcana](#arcana-arc); -1 [Agility](#agility-agi)
+* New description of "Tremors": -1 [Arcana](#arcana-arc); -1 [Agility](./core-rules.md#agility-agi)
 
 ## List of Illnesses
-This list overrides the list of **injuries** of the core module. 
+This list supplements the list of **injuries** of the [core module](./core-rules.md#list-of-injuries). 
 
-| Range **D100** | Name         | Duration      | Effect      | Treatment |
-| ---------- | ------------ | ------------- | ----------- | --------- |
-| 0 - 7 | Strength Sap | **1D10 + 3** Days | The muscles atrophy, despite any physical exercise. If not treated quickly, the victim will quickly find themselves unable to move, at all. **-1D4** [strength](#strength-str); **-1D4** [agility](#agility-agi); Max 6'/2m movement distance. | [medicine](#medicine-int); Reduces the duration by **2D4** days. |
-| 8 - 15 | Lung Fever | **1D10 + 1** Days | The victim finds themselves easily winded, even by simple acts, such as walking to the privy at night. **-(1D4 + 1)** [endurance](#endurance-end). | [medicine](#medicine-int); The ill-effects are suspended for 24 hours. |
-| 16 - 23 | Water's Curse | **1D10 + 1** Days | The victim sweats uncontrollably and has watery stools, thus dehydrating rapidly and losing consciousness frequently. **-1D4** [toughness](#toughness-tough); [exhausted](#exhausted). | [medicine](#medicine-int); Reduces the duration by **1D10** days and suspends the ill-effects for 24 hours. |
-| 24 - 31 | Jazz-Hands | **1D10 + 3** Days | The victim can't stop the tremors in their arms. Any action requiring precise movements is impossible. **-1D4** [agility](#agility-agi); **-1D4** [arcana](#arcana-arc). | [medicine](#medicine-int); The ill-effects are suspended for 24 hours. |
-| 32 - 39 | Brain Rot | **2D10** Days | The victim's mind dulls. They find it difficult to form coherent thoughts. **-1D4** [intelligence](#intelligence-int); **-1D4** [wisdom](#wisdom-wis). | [medicine](#medicine-int); The ill-effects are suspended for 24 hours. |
-| 40 - 47 | Feeble Tounge | **1D10 + 3** Days | The tounge flops and waggles around uncontrollably. Speech is impaired. **-1D4** [oratory](#oratory-ora). | [medicine](#medicine-int); Reduces the duration by **2D4** days. |
-| 48 - 55 | Wound Fever | Until cured | [Injuries](#injury) of the victim refuse any treatment. Any [injury](#injury) of the victim can be **patched up**, but not **treated**. | [medicine](#medicine-int); Sets the duration to **1D10** days. |
-| 56 - 63 | Filth Fever | **1D10 + 1** Days | The victim coughs uncontrollably and violently, with awful-smelling breath. **-1D4** [oratory](#oratory-ora); **-1D4** [endurance](#endurance-end). | [medicine](#medicine-int); Removes the illness on the next day. |
-| 64 - 71 | Amber Curse | **2D10** Days | The victim finds it difficult to feel the flow of magic through their body. **-1D4** [arcana](#arcana-arc); **-1D4** to any magic skills and [rune-using](#rune-using-agi). | Conventional methods cannot treat this illness. |
-| 72 - 79 | Coldness of Heart | **1D10 + 1** Days | The victim feels distant, as if they were only spectators in their own body. **-1D4** [empathy](#empathy-emp); **-1D4** [will](#will-will). | [medicine](#medicine-int); Reduces the duration by **2D4** days. |
-| 80 - 87 | Rot Plague | **4D10** Days | The skin starts developing a nasty rash, before flaking off. Not only unsightly, the bare flesh underneath smells like it's rotting. **-1D4** [endurance](#endurance-end); **-(1D4 + 1)** [toughness](#toughness-tough). | [surgery](#surgery-int); The ill-effects are suspended for 24 hours. |
-| 88 - 94 | Organ Mold | Until cured | Causes an [injury](#injury) every day it is active. | [surgery](#surgery-int); The illness is removed within a day. |
-| 95 - 100 | Red Death | Until cured | The victim starts bleeding from all of their orifices, with no end in sight. Causes 3 points of [bleeding](#bleeding) every day it is active. | [surgery](#surgery-int); The illness is removed within a day. |
+| Name              | Duration          | Effect      | Treatment |
+| ----------------- | ----------------- | ----------- | --------- |
+| Amber Curse       | **2D10** Days     | The victim finds it difficult to feel the flow of magic through their body. **-1D4** [arcana](#arcana-arc); **-1D4** to any magic skills and [rune-using](#rune-using-agiwit). | Conventional methods cannot treat this illness. It can be treated with a potion of powdered [abyssalite](#abyssalite). |
