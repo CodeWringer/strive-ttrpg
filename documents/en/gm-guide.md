@@ -80,25 +80,25 @@ However, there is a distinction made between "proper" **NPC**s and "simple" type
 * A "simple" **NPC** is only a passing acquaintance, an animal or a faceless enemy in a conflict. They serve as temporary obstacles or "padding" in a scene, to give it liveliness without the bureaucratic overhead of creating proper **NPC**s. 
 
 #### Challenge Ratings (CR)
-**Challenge ratings** (**CR**) simplify **NPC** creation tremendously. Instead of distinct values for every attribute and skill, you can define a **CR** per attribute category. Or go one step beyond and have *just one* **CR** for all the attributes and skills of the **NPC**. 
+**Challenge ratings** (**CR**) simplify **NPC** creation tremendously. Instead of distinct values for every attribute and skill, you can define *just one* **CR** for all the attributes and skills of the **NPC**. 
 
-**Every** [opposed test](./core-rules.md#opposed-test) targeting this **NPC** is answered with one of these values. And every test initiated by this **NPC** uses the **CR** number of dice. 
+**Every** [opposed test](./core-rules.md#opposed-test) targeting this **NPC** is answered with this **CR**. And every test initiated by this **NPC** uses the **CR** number of dice. 
 
-E. g., for any [physical attribute](./core-rules.md#physical-attributes) or [physical skill](./core-rules.md#physical-skills), every [opposed test](./core-rules.md#opposed-test) is made with the same number of dice. This allows you to delegate [opposed tests](./core-rules.md#opposed-test) entirely to your players. Simply name them the **3 CR**s for the **NPC**s they face - perhaps with a small note or card that can be placed on the table - and they can roll their **Ob** on their own, without your involvement. 
+E. g., for any [attribute](./core-rules.md#attributes) or [skill](./core-rules.md#skills), every [opposed test](./core-rules.md#opposed-test) is made with the same number of dice. This allows you to delegate [opposed tests](./core-rules.md#opposed-test) entirely to your players. Simply name them the **CR**s for the **NPC**s they face - perhaps with a small note or card that can be placed on the table - and they can roll their **Ob** on their own, without your involvement. 
 
-> For example, a **NPC** with a **CR** of physical 3 would answer **all** physical skill or attribute tests with **3D6**.
+> For example, a **NPC** with a **CR** of 3 would answer **all** skill or attribute tests with **3D6**. The rolled positives then determine the **Ob** for the **PC**. 
 
 Of course, such **NPC**s may still suffer [injuries](./core-rules.md#injury), which may impose penalties to their skills and attributes. Since **NPC**s with active **CR** don't allow for the granularity that injuries would normally expect, all penalties (and boons) apply directly to the **CR**. This means **CR**s themselves also allow for a modifier to apply to them, which results in a **modified CR**, which dictates the number of dice they actually have available in tests. 
 
-> Back to the **NPC** with a physical **CR** of 3. If they suffered an injury that reduced their strength by 1, then this would reduce their physical **CR** to 2. 
+> Back to the **NPC** with a **CR** of 3. If they suffered an injury that reduced their **agility** by 1, then this would reduce their **CR** to 2. 
 > 
 > Granularity is lost, but the trade-off is far less bureaucratic overhead. 
 
 When picking a **CR**, consult the following guideline:
-* 1-3 results in a fairly easy opponent.
-* 4-5 results in a difficult opponent.
-* 6-7 results in a very difficult opponent. 
-* 8+ results in a masterful opponent. 
+* 1-2 results in a fairly easy opponent.
+* 3-4 results in a manageable opponent.
+* 5-6 results in a difficult opponent. 
+* 7+ results in a masterful opponent. 
   * At this point, we enter the territory of unique characters and creatures. Consider if maybe a fully fledged **NPC** might be preferable to **CR**, as granularity may make such opponents much more interesting and give your players more specific tactical options. 
 
 #### Bring NPCs To Life
@@ -219,7 +219,7 @@ Keep in mind that **attribute** tests are much harder to succeed, than **skill**
 
 Because **attribute** tests are harder to succeed, **skill** tests should always be preferred, when possible. Regardless, there may be some situations where skill simply does not matter. Sometimes, raw innate ability (= attributes) is all that's required. 
 
-> For example, pulling another character up and onto a ledge one is standing on, might only be possible with a strength test. There is no dedicated "pulling people up ledges" skill. And even if there was, someone very weak should still be unable to do it. 
+> For example, pulling another character up and onto a ledge one is standing on, might only be possible with a **strength** test. There is no dedicated "pulling people up ledges" skill. And even if there was, someone very weak should still be unable to do it. 
 
 ### The Tools
 This section outlines the tools - methods - of engaging your players. Usually, that means challenging their characters, sometimes even the players themselves - to think creatively. 
