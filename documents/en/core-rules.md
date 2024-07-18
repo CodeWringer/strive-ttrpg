@@ -536,7 +536,7 @@ The advancement formulae are shown in the following table. *N* is the current le
 
 | underdeveloped | average             | exceptional         |
 | -------------- | ------------------- | ------------------- |
-| `10 * N`       | `N * 7`             | `N * 8`             |
+| `N * 10`       | `N * 7`             | `N * 8`             |
 
 For your convenience, the following table contains the precalculated requirements to advance an **attribute** level. 
 * In the table, 'Level' is the character's *current level* in the **attribute**. 
