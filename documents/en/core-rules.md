@@ -359,23 +359,19 @@ The **modified level** is the result of adding and subtracting [boons and penalt
 > A **PC** has an [agility](#agility-agi) at **raw level** 3, with a [penalty](#boons--penalties) of -1 resulting in a **modified level** of 2 and [strength](#strength-str) at **raw level** at level 1 and no [boons or penalties](#boons--penalties) resulting in a **modified level** of 1.
 > 
 > In order to test their [acrobatics](#acrobatics-agistr) skill at **raw level** 1, with a [boon](#boons--penalties) of +1, they get to roll (3 - 1) + 1 
-> + (1 + 1) = 4 **D6**, if they don't have any other skills to [fork](#skill-forking) into the test. 
+> + (1 + 1) = 5 **D6**, if they don't have any other skills to [fork](#skill-forking) into the test. 
 
 It possible to [fork](#skill-forking) **skills**, allowing even more dice to be used in a test. **Do not forget to fork your skills in tests!**
 
-> A **PC** has an [agility](#agility-agi) at **modified level** 2, [stealth](#stealth-agiawar) at **modified level** 2 and [thievery](#thievery-agiawar) at **modified level** 1. 
+> A **PC** has an [agility](#agility-agi) at **modified level** 2, **awareness** at **modified level** 1 and [thievery](#thievery-agiawar) at **modified level** 1. 
 >
-> They are asked to roll a test for their **thievery** at **Ob** 4. With their **base attribute** and **thievery** combined, they can only roll 3 **D6** for the test, which means the **Ob** 4 test would be impossible to succeed. 
+> They are asked to roll a test for their [thievery](#thievery-agiawar) at **Ob** 5. With their **base attributes** and [thievery](#thievery-agiawar) combined, they can only roll 2 + 1 + 1 = 4 **D6** for the test, which means the **Ob** 5 test would be impossible to succeed. 
 >
-> But since they also know **stealth**, they can petition the **GM** to allow them to [fork](#skill-forking) their **stealth** into their **thievery** test. The **GM** agrees and thus allows an additional **D6** to be added to the roll. 
+> But since they also *knows* [stealth](#stealth-agiawar), they can petition the **GM** to allow them to [fork](#skill-forking) their [stealth](#stealth-agiawar) into their [thievery](#thievery-agiawar) test. The **GM** agrees and thus allows an additional **D6** to be added to the roll. 
 >
-> Thus, the **PC** gets to roll 4 **D6** for their test. While still difficult to succeed, the test _can_ now be succeeded, where before such a feat was seemingly impossible. 
+> Thus, the **PC** gets to roll 5 **D6** for their test. While still difficult to succeed, the test _can_ now be succeeded, where before such a feat was impossible. 
 
-A [skill being learned](#learning-skills) is tested with *only* its **base attribute levels**, which also means a *skill being learned* cannot benefit from [forking](#skill-forking). 
-
-> A **PC** has an [agility](#agility-agi) at **modified level** 3. 
-> 
-> They are asked to roll a test for [acrobatics](#acrobatics-agistr) at **Ob** 2. They don't yet know that skill and thus get to roll only the 3 **D6** from their **base attribute** for their test. 
+A [skill being learned](#learning-skills) is tested with *only* its **base attribute levels**, which also means a learning **skill** cannot benefit from [forking](#skill-forking). But, it is possible to [receive help](#providing-assistance) for a learning **skill** test. 
 
 ### Types of Test
 There are the following types of tests. The **GM** decides when to use which. 
@@ -385,7 +381,7 @@ The outcome of the test is either a **complete success** or **complete failure**
 
 #### Stepped Test
 A stepped test is really just a series of [binary tests](#binary-test). This allows for finer-grained results, while still not behaving like a [graduated test](#graduated-test). 
- 
+
 This type of test is useful for situations where the **GM** decides to create very fine *time slices* and allow more chances for success. This makes it easier to allow a **PC** to *fail forward* or prevent a *one roll to end it all* situation. 
 
 > For example, a **PC** is attempting to cross a suspension bridge, but upon setting foot on the bridge, the ropes holding it up, suddenly snap. The **PC** can make an [acrobatics](#acrobatics-agistr) test, to try and quickly jump off and back onto solid ground. They fail, and get to make another [acrobatics](#acrobatics-agistr) test at greater **Ob**, to try and grab a root sticking out of the ground beneath the bridge. They fail again! As a last chance for that **PC** to survive, the **GM** asks one of the other players if their character will attempt an [acrobatics](#acrobatics-agistr) test at high **Ob**, to try and grab their falling ally's hand in a daring rescue. Finally, their ally succeeds and the **PC**'s life is saved. 
@@ -434,11 +430,11 @@ The defender **cannot** [fork](#skill-forking) other skills into their test, whe
 If a tie occurs in which a **defender** cannot be clearly determined, the result is a deadlock and neither side gains anything. Mind you, this shouldn't normally happen. Avoid this type of situation to the best of your ability. 
 
 ### Tests Bring about Learning
-Whenever a [skill](#skills) or [attribute](#attributes) is tested, its outcome must be noted. Once a certain threshold number is reached, the [skill](#skills) or [attribute](#attributes) advances to the a higher level. 
+Whenever a [skill](#skills) or [attribute](#attributes) is tested, its outcome must be noted. Once a certain threshold number is reached, the [skill](#skills) or [attribute](#attributes) advances to a higher level. 
 
 For [skills](#skills), whether the test was a success or failure matters. But for [attributes](#attributes), only the number of tests matters. 
 
-When a [skill](#skills) is tested, both it **and** its associated [attribute](#attributes) is progressed. See also:
+When a [skill](#skills) is tested, both it **and** its base [attributes](#attributes) are progressed. See also:
 * [advancing skills](#advancing-skills)
 * [advancing attributes](#advancing-attributes)
 
@@ -619,7 +615,7 @@ Whenever asked to test a skill a **PC** does not yet know, it will be added or p
 
 A **skill** in learning can only be tested with its base [attributes](#attributes). 
 
-> A player is asked to test their character's [cooking](#cooking-awarwit) at **Ob** 2. Their character lacks that skill and thus adds it to the *currently learning* section on their character sheet. Assuming their character has a the **base attribute** at level 3, they get to roll **3D6**. 
+> A player is asked to test their character's [cooking](#cooking-awarwit) at **Ob** 2. Their character lacks that skill and thus adds it to the *currently learning* section on their character sheet. Assuming their character has the **base attribute** at level 3, they get to roll **3D6**. 
 
 [Forking](#skill-forking) **learning skills** into [tests](#tests) is **not** allowed. **Forking** into [tests](#tests) of **learning skills** isn't allowed, either. Note an exception to this rule are [specialization skills](#specialization-skills), which *always* receive **forking** from their **prerequisite skills**, even if they are currently in the **learning skill** stage!
 
@@ -2135,7 +2131,7 @@ An **unconscious** character is unable to act and is unaware of their surroundin
 
 Someone *knocked* **unconscious** can't awaken due to external stimuli. To wake up, they have to recover. For how long, depends on the circumstances. But several hours hould be a good baseline. 
 
-A character can be *knocked* **unconscious**, if they're at their exhaustion threshold and suffer any [bludgeoning](#damage-types) damage and fail an [toughness](#thoughness-tough) [test](#tests). The **Ob** is 2 + 1 per level of exhaustion past the threshold.
+A character can be *knocked* **unconscious**, if they're at their exhaustion threshold and suffer any [bludgeoning](#damage-types) damage and fail a [toughness](#thoughness-tough) [test](#tests). The **Ob** is 2 + 1 per level of exhaustion past the threshold.
 
 > A character is brought to an exhaustion level of 4 with bludgeoning damage, which is 1 point past their exhaustion threshold of 3. They must succeed a **toughness** test at **Ob** 3, or else be knocked unconscious. 
 
@@ -2185,7 +2181,7 @@ Note that "Cosmic Fortune" is not an actual **injury**. When it is rolled for, *
 * **Ob**: 1 | 2
 * Time to heal: 1D4 days | 1D4 days
 
-Note that whenever a bludgeoning [injury](#injury) is suffered, an [toughness](#thoughness-tough) [test](#tests) must be succeeded at **Ob** equal to the current level of [exhaustion](#exhaustion). If failed, the character falls [unconscious](#unconscious), immediately. 
+Note that whenever a bludgeoning [injury](#injury) is suffered, a [toughness](#thoughness-tough) [test](#tests) must be succeeded at **Ob** equal to the current level of [exhaustion](#exhaustion). If failed, the character falls [unconscious](#unconscious), immediately. 
 
 | Range D100 | Injury              | Limit     | Description                      | Scar                |
 | ---------  | ------------------- | --------- | -------------------------------- | ------------------- |
