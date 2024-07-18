@@ -361,7 +361,7 @@ The **modified level** is the result of adding and subtracting [boons and penalt
 > In order to test their [acrobatics](#acrobatics-agistr) skill at **raw level** 1, with a [boon](#boons--penalties) of +1, they get to roll (3 - 1) + 1 
 > + (1 + 1) = 4 **D6**, if they don't have any other skills to [fork](#skill-forking) into the test. 
 
-It possible to [fork](#skill-forking) **skills**, allowing even more dice to be used in a  test. **Do not forget to fork your skills in tests!**
+It possible to [fork](#skill-forking) **skills**, allowing even more dice to be used in a test. **Do not forget to fork your skills in tests!**
 
 > A **PC** has an [agility](#agility-agi) at **modified level** 2, [stealth](#stealth-agiawar) at **modified level** 2 and [thievery](#thievery-agiawar) at **modified level** 1. 
 >
@@ -371,7 +371,7 @@ It possible to [fork](#skill-forking) **skills**, allowing even more dice to be 
 >
 > Thus, the **PC** gets to roll 4 **D6** for their test. While still difficult to succeed, the test _can_ now be succeeded, where before such a feat was seemingly impossible. 
 
-A [skill being learned](#learning-skills) is tested with *only* the related **attribute's level**, which also means a *skill being learned* cannot benefit from [forking](#skill-forking). 
+A [skill being learned](#learning-skills) is tested with *only* its **base attribute levels**, which also means a *skill being learned* cannot benefit from [forking](#skill-forking). 
 
 > A **PC** has an [agility](#agility-agi) at **modified level** 3. 
 > 
@@ -471,7 +471,7 @@ While the **GM** decides on how much time a given test will need, the following 
 # Character
 A character is a representation of a sentient creature in the game world. They're an amalgam of their [abilities](#abilities), [personality](#personality), [health](#health--exhaustion) and [assets](#assets). 
 
-A guide on character creation can be found [in the appendix](#character-creation). It has been placed there because the assumption is you won't have to look up character creation as often as the other core rules. 
+A guide on character creation can be found [in the appendix](#character-creation). It has been placed there based on the assumption you won't have to look up character creation as often as the other core rules. 
 
 ## Abilities
 All characters have innate and learned abilities. These are described as [attributes](#attributes) and [skills](#skills). 
@@ -534,21 +534,15 @@ Whenever a **PC** [tests](#tests) an [attribute](#attributes) or a [skill](#skil
 Note that *level* in this section refers to the **raw level** of an **attribute**. That is, the level as it is **before** [boons and penalties](#boons--penalties) are applied to it. 
 
 **Attribute** levels and advancement are divided into three tiers: **Underdeveloped**, **Average** and **Exceptional**. 
-* Attributes are considered **underdeveloped** up to and including level 2. 
-* Attributes are considered **average** starting from level 3, up to and including level 5. 
-* Attributes are considered **exceptional** starting from level 6. 
+* Attributes are considered **underdeveloped** at level 1 and 2. 
+* Attributes are considered **average** at level 3 and 4. 
+* Attributes are considered **exceptional** starting from level 5. 
 
-Advancing an **underdeveloped attribute** requires:
-* 15 + (N * 4) [tests](#tests). 
-* Where *N* is the current level of the **attribute**. 
+The advancement formulae are shown in the following table. *N* is the current level in the **attribute** and the resulting number is the number of [tests](#tests) required to advance. Successes and failures are not tracked for **attributes** and thus irrelevant for **attribute advancement**. 
 
-Advancing an **average attribute** requires:
-* (N + 3) * (N + 2) [tests](#tests). 
-* Where *N* is the current level of the **attribute**. 
-
-Advancing an **exceptional attribute** requires:
-* (N + 4) * (N + 3) [tests](#tests). 
-* Where *N* is the current level of the **attribute**. 
+| underdeveloped | average             | exceptional         |
+| -------------- | ------------------- | ------------------- |
+| `15 + (N * 4)` | `(N + 3) * (N + 2)` | `(N + 4) * (N + 3)` |
 
 For your convenience, the following table contains the precalculated requirements to advance an **attribute** level. 
 * In the table, 'Level' is the character's *current level* in the **attribute**. 
@@ -560,7 +554,7 @@ For your convenience, the following table contains the precalculated requirement
 | 2     | 23    |
 | 3     | 30    |
 | 4     | 42    |
-| 5     | 56    |
+| 5     | 72    |
 | 6     | 90    |
 | 7     | 110   |
 | 8     | 132   |
@@ -594,10 +588,12 @@ A **skill** is any acquired knowledge and experience regarding a specific subjec
 
 Two values must be tracked for every **skill**: Its **raw level** and its current **modifier**, which results from the sum of [boons and penalties](#boons--penalties) affecting it. The result of adding or subtracting the modifier to/from the **raw level** yields the **modified level**, which is used in [tests](#testing-a-skill).
 
+Every skill has two [attributes](#attributes) it relies on - its so-called *base* [attributes](#attributes). The levels of these base [attributes](#attributes) also factor into a [test](#testing-a-skill) of the **skill**. 
+
 **Skills** [advance](#advancing-skills), as they're tested. It is also possible to [practice](#practicing-skills) and [teach](#teaching-skills) **skills**. 
 
 #### Skill Forking
-When [testing](#tests) a **skill**, it is possible to **fork** other **skills** into the test, granting more dice to roll and thus a better chance of succeeding. 
+When [testing](#testing-a-skill) a **skill**, it is possible to **fork** other *related* **skills** into the test, granting more dice to roll and thus a better chance of succeeding. 
 
 For every other **skill** you **fork** into a test, you always receive **+1D6**. The level in the **skill** being **forked** into a test does **not** matter!
 
@@ -621,11 +617,11 @@ Always keep in mind that *players* lobby for **skill forking**, not the **GM**! 
 #### Learning Skills
 Whenever asked to test a skill a **PC** does not yet know, it will be added or progressed in the *currently learning* section of the character sheet. 
 
-A skill in learning can only be tested with their related [attribute](#attributes). If multiple attributes are listed for the skill, you can choose which one to test with. 
+A **skill** in learning can only be tested with its base [attributes](#attributes). 
 
 > A player is asked to test their character's [cooking](#cooking-awarwit) at **Ob** 2. Their character lacks that skill and thus adds it to the *currently learning* section on their character sheet. Assuming their character has a the **base attribute** at level 3, they get to roll **3D6**. 
 
-[Forking](#skill-forking) **learning skills** into tests is **not** allowed. **Forking** into tests of **learning skills** isn't allowed, either. Note an exception to this rule are [specialization skills](#specialization-skills), which *always* receive **forking** from their **prerequisite skills**, even if they are currently in the **learning skill** stage!
+[Forking](#skill-forking) **learning skills** into [tests](#tests) is **not** allowed. **Forking** into [tests](#tests) of **learning skills** isn't allowed, either. Note an exception to this rule are [specialization skills](#specialization-skills), which *always* receive **forking** from their **prerequisite skills**, even if they are currently in the **learning skill** stage!
 
 It **is** possible to receive [help](#providing-assistance) or [tutoring](#teaching-skills) for a **learning skill**. 
 
@@ -1712,25 +1708,25 @@ There are two methods for determining your character's attributes: manual and se
 Please keep in mind the values here are representative for an ordinary human about to enter an adventuring life. Other species may have modifiers on their attributes, making them better or worse in some of them. But that depends on the world your **GM** is running. 
 
 ##### Manual Attribute Assignment
-* You can spend **16 points** on your attributes. 
-* All attributes start at level 1. 
-* Your attribute-total cannot be greater than **26**.
-* No attribute may have a level less than 1 nor higher than 4.
-* Only two attributes may have a level of 4. 
+* You can spend **9 points** on your attributes. 
+* All attributes start at level `1`. 
+* Your attribute-total must not be greater than **14**.
+* No attribute may have a level less than `1` nor higher than `4`.
+* Only one attribute may have a level of `4`. 
 
 ##### Semi-Random Attribute Assignment
- 1. Roll 10 **D4**
-1. Row up your dice to form a line, then read them from one end to the other and note each value. The order in which they are written down, is the order in which they'll be applied to the attributes. 
-2. If there are more than 2 4s, start lowering their value by one, starting from the left or the right, until there are only 2 4s left. 
-3. Count up the total of your values. 
-   1. Subtract your total from **26**.
+1. Roll **5 D4**
+2. Row up your dice to form a line, then read them from one end to the other and note each value. The order in which they are written down, is the order in which they'll be applied to the attributes. 
+3. If there is more than one `4`, start lowering their value by one, starting from the left or the right, until there is only one `4` left. 
+4. Count up the total of your values. 
+   1. Subtract your total from **14**.
    2. If the number is negative, that's the number of levels you'll have to go down. <br>
    If the number is positive, that's the number of levels you'll have to go up. 
-4. Starting from the left or right, start adjusting each value.
-   1. If your levels have to go down, subtract one from each value. **But** skip "1"s. 
-   2. If your levels have to go up, add one to each value. **But** skip "4"s. 
-5. Repeat from the step of counting up your total and adjusting as necessary, until no more adjustments are necessary. 
-6. Lastly, apply the adjusted values to your attributes. 
+5. Starting from the left or right, start adjusting each value.
+   1. If your levels have to go down, subtract one from each value. **But** skip `1`s. 
+   2. If your levels have to go up, add one to each value. **But** skip `4`s. 
+6. Repeat from the step of counting up your total and adjusting as necessary, until no more adjustments are necessary. 
+7. Lastly, apply the adjusted values to your attributes. 
 
 ##### Determine Attribute Advancing Thresholds
 Once attribute values have been set, you can determine the required number of successes and failures each attribute requires, in order to advance. 

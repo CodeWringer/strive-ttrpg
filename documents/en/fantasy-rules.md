@@ -9,13 +9,6 @@
       - [Exhausted](#exhausted)
       - [Poisoned](#poisoned)
     - [Scars](#scars)
-  - [Character Creation](#character-creation)
-    - [Determine Abilities](#determine-abilities)
-      - [Choosing Attributes](#choosing-attributes)
-        - [Manual Attribute Assignment](#manual-attribute-assignment)
-        - [Semi-Random Attribute Assignment](#semi-random-attribute-assignment)
-      - [Choosing Skills](#choosing-skills)
-    - [Determine Magic Stamina](#determine-magic-stamina)
 - [Magic](#magic)
   - [Spell Intensity (SI)](#spell-intensity-si)
   - [Magic Stamina](#magic-stamina)
@@ -33,6 +26,13 @@
 - [Assets](#assets)
   - [Weapon Properties](#weapon-properties)
 - [Appendix](#appendix)
+  - [Character Creation](#character-creation)
+    - [Determine Abilities](#determine-abilities)
+      - [Choosing Attributes](#choosing-attributes)
+        - [Manual Attribute Assignment](#manual-attribute-assignment)
+        - [Semi-Random Attribute Assignment](#semi-random-attribute-assignment)
+      - [Choosing Skills](#choosing-skills)
+    - [Determine Magic Stamina](#determine-magic-stamina)
   - [List of Assets](#list-of-assets)
     - [Armor](#armor)
       - [Armor Properties](#armor-properties)
@@ -122,7 +122,7 @@ More details about the module:
 New in this module, is the attribute [arcana](#arcana-arc), which governs a character's capacity for magic. 
 
 ## Attributes
-Supplements to the attributes. 
+Supplements to the [core attributes](./core-rules.md#attributes). 
 
 ### Arcana [Arc]
 Governs a character's ability to control and sense magic flow, thus casting magic spells or detecting lingering magic. 
@@ -149,69 +149,6 @@ This **condition** can also be removed with [restoration magic](#restoration-arc
 
 ### Scars
 Scars may be removed through successful application of [alteration](#alteration-arcwit) magic. 
-
-## Character Creation
-Character creation is now supplemented by the following step, which follows determining the **exhaustion threshold**. 
-
-The new procedure of creating a character consists of the following steps:
-1. [Determine life path](#determine-life-path). 
-2. [Determine species, sex & appearance](#species-sex--appearance).
-3. [Determine name](#determine-name).
-4. [Determine abilities](#determine-abilities).
-6. [Determine **carrying capacity** and **assets**](#determine-assets).
-7. [Determine **Max HP** and **Injury Maximum**](#determine-max-hp--injury-maximum)
-8. [Determine exhaustion threshold](#determine-exhaustion-threshold).
-9. [Determine magic stamina](#determine-magic-stamina).
-
-### Determine Abilities
-Next up, you can reinforce your character's [personality](#personality) with the abilities they have. Or even prepare a conflict of what your character *can* do and what they *think* they can do. 
-
-#### Choosing Attributes
-There are two methods for determining your character's attributes: manual and semi-random. 
-
-You'll have to decide on whether your character will be a mage or not. Mages start with lower attributes, so this decision can affect your character's initial competence. 
-
-Please keep in mind the values here are representative for an ordinary human about to enter an adventuring life. Other species may have modifiers on their attributes, making them better or worse in some of them. But that depends on the world your **GM** is running. 
-
-This section replaces the section of the same name from the core rules. 
-
-##### Manual Attribute Assignment
-* As a **mage**
-  * You can spend **12 points** on your attributes. 
-  * **All** attributes start at level 1. 
-  * Your attribute-total cannot be greater than **23**.
-* As a **non-mage**
-  * You can spend **16 points** on your attributes. 
-  * All attributes **except arcana** start at level 1. Arcana is at 0 and remains at 0. 
-  * Your attribute-total cannot be greater than **26**.
-* No attribute may have a level less than 1 (exception: **arcana**) nor higher than 4.
-* Only two attributes may have a level of 4. 
-
-##### Semi-Random Attribute Assignment
-1. For a **mage**
-   1. Roll 11 **D4**
-1. For a **non-mage**
-   1. Roll 10 **D4**
-1. Row up your dice to form a line, then read them from one end to the other and note each value. The order in which they are written down, is the order in which they'll be applied to the attributes. 
-1. If there are more than 2 4s, start lowering their value by one, starting from the left or the right, until there are only 2 4s left. 
-1. Count up the total of your values. 
-   1. For a mage subtract your total from **26**. <br>
-   For a non-mage subtract your total from **23**.
-   1. If the number is negative, that's the number of levels you'll have to go down. <br>
-   If the number is positive, that's the number of levels you'll have to go up. 
-1. Starting from the left or right, start adjusting each value.
-   1. If your levels have to go down, subtract one from each value. **But** skip 1s. 
-   1. If your levels have to go up, add one to each value. But **don't** skip 4s. 
-1. Repeat from the step of counting up your total and adjusting as necessary, until no more adjustments are necessary. 
-1. Lastly, apply the adjusted values to your attributes. 
-
-#### Choosing Skills
-If playing a **mage**, keep in mind you need to have at least level 1 in a [magic school skill](#magic-school--school---attribute) to be able to cast magic. You are also advised to have your strongest magic be at least level 3 or 4, to be able to reliably use it. 
-
-### Determine Magic Stamina
-Determine your character's **maximum magic stamina**, by referring to the [magic stamina](#magic-stamina) section. 
-
-You'll need to track **current magic stamina** separately. To start with, set your current to your maximum **magic stamina**. 
 
 # Magic
 For this supplement, magic is assumed to be a mostly invisible force that runs all throughout, like a magnetosphere. Perhaps it could be called the *arcanosphere*. Individuals gifted with a sensitivity to this force may learn to manipulate and "shape" it. Thus, magical ability is intuitive. Those born without the gift, cannot learn magic. Of course, you may want to relax this rule, if you prefer anyone should have the chance to learn magic. 
@@ -393,6 +330,62 @@ Weapon type assets can have the following **properties**:
 
 # Appendix
 The appendix contains important and less important lists, for reference only when needed. 
+
+## Character Creation
+Character creation is now supplemented by the step to determine [magic stamina](#magic-stamina), which follows determining the **exhaustion threshold**. 
+
+The new procedure of creating a character consists of the following steps:
+1. [Determine life path](#determine-life-path). 
+2. [Determine species, sex & appearance](#species-sex--appearance).
+3. [Determine name](#determine-name).
+4. [Determine abilities](#determine-abilities).
+6. [Determine **carrying capacity** and **assets**](#determine-assets).
+7. [Determine **Max HP** and **Injury Maximum**](#determine-max-hp--injury-maximum)
+8. [Determine exhaustion threshold](#determine-exhaustion-threshold).
+9. [Determine magic stamina](#determine-magic-stamina).
+
+### Determine Abilities
+Supplements to abilities in character creation. 
+
+#### Choosing Attributes
+There are two methods for determining your character's attributes: manual and semi-random. 
+
+You'll have to decide on whether your character will be a mage or not. Mages have the new, 6th attribute to spend points on, so this decision can affect your character's initial overall competence. 
+
+Please keep in mind the values here are representative for an ordinary human about to enter an adventuring life. Other species may have modifiers on their attributes, making them better or worse in some of them. But that depends on the world your **GM** is running. 
+
+This section replaces its core rule counter-part. 
+
+##### Manual Attribute Assignment
+* You can spend **9 points** on your attributes. 
+* All attributes **except arcana** start at level `1`. Arcana starts at `0`. 
+* Your attribute-total cannot be greater than **14**.
+* No attribute may have a level less than `1` (except **arcana**) nor higher than `4` (including **arcana**).
+* Only one attribute may have a level of `4`. 
+
+##### Semi-Random Attribute Assignment
+1. Decide if you want to play a mage.
+   1. As a mage, roll **6 D4** and **include** **arcana** in the following steps. 
+   2. As a non-mage, roll **5 D4** and **exclude** **arcana** in the following steps. 
+2. Row up your dice to form a line, then read them from one end to the other and note each value. The order in which they are written down, is the order in which they'll be applied to the attributes. 
+3. If there is more than one `4`, start lowering their value by one, starting from the left or the right, until there is only one `4` left. 
+4. Count up the total of your values. 
+   1. Subtract your total from **14**.
+   2. If the number is negative, that's the number of levels you'll have to go down. <br>
+   If the number is positive, that's the number of levels you'll have to go up. 
+5. Starting from the left or right, start adjusting each value.
+   1. If your levels have to go down, subtract one from each value. **But** skip `1`s. 
+   2. If your levels have to go up, add one to each value. **But** skip `4`s. 
+6. Repeat from the step of counting up your total and adjusting as necessary, until no more adjustments are necessary. 
+7. Lastly, apply the adjusted values to your attributes. 
+
+#### Choosing Skills
+If playing a **mage**, keep in mind you need to have at least level 1 in a [magic school skill](#magic-school--school---attribute) to be able to cast magic. You are also advised to have your strongest magic be at least level 3 or 4, to be able to reliably use it. 
+
+### Determine Magic Stamina
+Determine your character's **maximum magic stamina**, by referring to the [magic stamina](#magic-stamina) section. 
+
+You'll need to track **current magic stamina** separately. To start with, set your current to your maximum **magic stamina**. 
 
 ## List of Assets
 The following list does not and cannot aim to be a complete listing of all possible assets in game. Adding new assets as necessary will have to be done by the **GM**. 
