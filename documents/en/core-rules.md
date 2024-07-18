@@ -371,8 +371,6 @@ It possible to [fork](#skill-forking) **skills**, allowing even more dice to be 
 >
 > Thus, the **PC** gets to roll 5 **D6** for their test. While still difficult to succeed, the test _can_ now be succeeded, where before such a feat was impossible. 
 
-A [skill being learned](#learning-skills) is tested with *only* its **base attribute levels**, which also means a learning **skill** cannot benefit from [forking](#skill-forking). But, it is possible to [receive help](#providing-assistance) for a learning **skill** test. 
-
 ### Types of Test
 There are the following types of tests. The **GM** decides when to use which. 
 
@@ -443,16 +441,16 @@ When a [skill](#skills) is tested, both it **and** its base [attributes](#attrib
 ### Providing Assistance
 Characters can help each other in tests. In order to help with a test, a character must know a relevant [skill](#skills) and the one being helped must accept the help. 
 
-Helping in a test works similar to [forking](#skill-forking) a skill. The character being helped receives **+1D6** to roll for each *character* helping them. The number of relevant skills a helping character has is irrelevant, as is the level of those skills. Just one skill and one level in that skill are enough to allow them to help and only one **+1D6** is granted by the helping character. However, *which* skill is used to help with matters. 
+Helping in a test works similar to [forking](#skill-forking) a [skill](#skills). The character being helped receives **+1D6** to roll for each *character* helping them. The number of relevant [skills](#skills) a helping character has is irrelevant, as is the level of those [skills](#skills). Just one [skill](#skills) and one level in it are enough to allow them to help and only one **+1D6** is granted by the helping character. However, *which* [skill](#skills) is used to help with, matters. 
 
-If a **PC** is helping another, their player must describe *how* they're using their relevant skill to help. Only if the **GM** agrees, may the helping die be granted. 
+If a **PC** is helping another, their player must describe *how* they're using their relevant [skill](#skills) to help. Only if the **GM** agrees, may the helping die be granted. 
 
-> For example, a **PC** is currently using their [thievery](#thievery-agiawar) to lockpick a door. Their allied **PC** is *helping*, by using their [observation](#observation-awarawar) skill to *keep an eye out for guards*, which allows the one on the door to work without having to constantly look over their shoulder. The **GM** finds that description agreeable and allows the use of the skill to help. 
+> For example, a **PC** is currently using their [thievery](#thievery-agiawar) to lockpick a door. Their allied **PC** is *helping*, by using their [observation](#observation-awarawar) [skill](#skills) to *keep an eye out for guards*, which allows the one on the door to work without having to constantly look over their shoulder. The **GM** finds that description agreeable and allows the use of the [skill](#skills) to help. 
 
 #### Helpers Learn
 A character helping in a test, also gains [progress](#advancing-skills) towards the [skill](#skills) and [attribute](#attributes) they've helped with. The outcome of the test for the character they've helped, is their own outcome. 
 
-> If the character who was helped succeeded their test, the helper also gains a success to mark on their **skill**. 
+> If the character who was helped succeeded their test, the helper also gains a success to mark on their [skill](#skills). 
 
 ### Time
 Not all tests are created equal - some actions require more time than others. 
@@ -591,16 +589,15 @@ Every skill has two [attributes](#attributes) it relies on - its so-called *base
 #### Skill Forking
 When [testing](#testing-a-skill) a **skill**, it is possible to **fork** other *related* **skills** into the test, granting more dice to roll and thus a better chance of succeeding. 
 
-For every other **skill** you **fork** into a test, you always receive **+1D6**. The level in the **skill** being **forked** into a test does **not** matter!
+For every other **skill** you **fork** into a test, you always receive **+1D6**. The level of the **skill** being **forked** into a test does **not** matter!
 
 It is possible to **fork** as many other **skills** as you want into a test. But:
-* The **skill** being tested must be known (= is not currently being [learned](#learning-skills)) and the **skills** you wish to **fork** into the test must be known.
-  * Exception: [specialization skills](#specialization-skills) *always* receive **forking** from their **prerequisite skills**, even if they are currently in the **learning skill** stage!
-* You must *ask* permission for every other **skill** you wish to **fork** into your test with a plausible explanation of how that other **skill** may be helpful. Only if the **GM** agrees, may you **fork** that **skill** into your test. 
+* The **skills** you wish to **fork** into the test must be *known*.
+* You must *ask* permission for every **skill** you wish to **fork** into your test with a plausible explanation of how it may be helpful. Only if the **GM** agrees, may you **fork** that **skill** into your test. 
 
 > Imagine a large forked rivermouth. One of the forks feeding into it is also a large river, which represents the **skill** primarily being tested. The other, smaller forks of the river represent the supporting **skills**. They all combine together at the rivermouth. A primary and its supporting **skills** flow together into the test! 
 
-Always keep in mind that *players* lobby for **skill forking**, not the **GM**! When the **GM** asks you to test a **skill**, ***you*** present the **skills** *you* wish to **fork**. The **GM** should not ever tell you which **skills** to **fork**! That is not their job. 
+Always keep in mind that *players* lobby for **skill forking**, not the **GM**! When the **GM** asks you to test a **skill**, ***you*** present the **skills** *you* wish to **fork**. The **GM** should not tell you which **skills** to **fork**! That is not their job. 
 
 > For example, a **PC** is asked to test their [thievery](#thievery-agiawar) **skill** to pick a lock. They also know [stealth](#stealth-agiawar) and know a mechanics skill. Their player thus asks for permission to fork their mechanics skill into their thievery test, explaining their experience with mechanics helps them understand the lock's mechanism. The **GM** agrees. 
 >
@@ -615,11 +612,9 @@ Whenever asked to test a skill a **PC** does not yet know, it will be added or p
 
 A **skill** in learning can only be tested with its base [attributes](#attributes). 
 
-> A player is asked to test their character's [cooking](#cooking-awarwit) at **Ob** 2. Their character lacks that skill and thus adds it to the *currently learning* section on their character sheet. Assuming their character has the **base attribute** at level 3, they get to roll **3D6**. 
+> A player is asked to test their character's [cooking](#cooking-awarwit) at **Ob** 2. Their character lacks that skill and thus adds it to the *currently learning* section on their character sheet. Assuming their character has the **base attributes** at level 2 and 3, they get to roll `2 + 3 = 5` **D6**. 
 
-[Forking](#skill-forking) **learning skills** into [tests](#tests) is **not** allowed. **Forking** into [tests](#tests) of **learning skills** isn't allowed, either. Note an exception to this rule are [specialization skills](#specialization-skills), which *always* receive **forking** from their **prerequisite skills**, even if they are currently in the **learning skill** stage!
-
-It **is** possible to receive [help](#providing-assistance) or [tutoring](#teaching-skills) for a **learning skill**. 
+[Forking](#skill-forking) **learning skills** into [tests](#tests) is **not** allowed. But **forking** *into* [tests](#tests) of **learning skills** **is** allowed. [Specialization skills](#specialization-skills) *always* and *automatically* receive **forking** from their **prerequisite skills**. 
 
 #### Advancing Skills
 Whenever a **PC** uses a **skill** in a [test](#tests), the outcome must be noted, both on the skill **and** its associated [attribute](#attributes). See also: [Tests Bring about Learning](#tests-bring-about-learning)
@@ -627,23 +622,16 @@ Whenever a **PC** uses a **skill** in a [test](#tests), the outcome must be note
 Note that *level* in this section refers to the *raw level* of a **skill**. That is, the level as it is **before** [boons and penalties](#boons--penalties) are applied to it. 
 
 Skill levels and advancement are divided into three tiers: **Dabbling**, **Apprentice** and **Master**. 
-* Skills at **dabbling level** are any skills at level 0, which means any [learning skill](#learning-skills). 
-* Skills at **apprentice level** are easy to improve and range from the levels 1 to and including 4. 
-* Skills at **master level** are difficult to improve and start at level 5. Mastery is open-ended, which means it doesn't, technically, stop. 
+* Skills at **dabbling level** are any skills at level `0`, which means any [learning skill](#learning-skills). 
+* Skills at **apprentice level** are easy to improve and range from the levels `1` to and including `4`. 
+* Skills at **master level** are difficult to improve and start at level `5`. Mastery is open-ended, which means it doesn't, technically, stop. 
 
-Advancing a **dabbling skill** (level 0) requires: 
-* 6 **complete successes**. 
-* 9 **partial failures** or **complete failures**. 
+The advancement formulae are shown in the following table. *N* is the current level in the **skill**. *S* stands for **complete successes**. *F* stands for **partial failures** and **complete failures**. 
 
-Advancing an **apprentice skill** (level 1-4) requires:
-* (N + 1) * 2 **complete successess**.
-* (N + 1) * 3 **partial failures** or **complete failures**.
-* Where *N* is the *current* level of the **skill**. 
-
-Advancing a **master skill** (level 5+) requires:
-* N * N **complete successess**.
-* (N + 1) * (N + 1) **partial failures** or **complete failures**.
-* Where *N* is the *current* level of the **skill**. 
+|   | dabbling       | apprentice          | master              |
+| - | -------------- | ------------------- | ------------------- |
+| S | `6`            | `(N + 1) * 2`       | `N * N`             |
+| F | `9`            | `(N + 1) * 3`       | `(N + 1) * (N + 1)` |
 
 > A character has a [nature](#nature-int) **skill** at level 2. 
 > 
@@ -710,7 +698,7 @@ For a [test](#tests), any prerequisite **skills** are *always automatically* [fo
 
 > A character knows skill A and skill B. These are prerequisite skills for skill C, which the character has just begun learning and has at level 0. 
 >
-> For a test of skill C, they get to roll **+2D6** from their prerequisite skills, even though, **learning skills** cannot normally benefit from **skill forking**.
+> For a test of skill C, they get to roll **+2D6** from their prerequisite skills.
 
 #### Expertise
 **Skills** can offer **expertises**, which further define what the **skill** may be used for. An **expertise** is either a *passive* [boon](#boons--penalties) or an *active* **action**, with effects that apply when used.  
