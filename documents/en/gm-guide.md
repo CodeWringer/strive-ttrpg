@@ -34,7 +34,7 @@
     - [Hand Out Fate Points](#hand-out-fate-points)
     - [Gather Feedback](#gather-feedback)
 
-Version 7 (Playtest)
+Version 8 (Playtest)
 
 A role-playing game by Nicolas H.
 
