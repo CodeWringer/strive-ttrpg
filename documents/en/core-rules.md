@@ -626,34 +626,34 @@ Skill levels and advancement are divided into three tiers: **Dabbling**, **Appre
 * Skills at **apprentice level** are easy to improve and range from the levels `1` to and including `4`. 
 * Skills at **master level** are difficult to improve and start at level `5`. Mastery is open-ended, which means it doesn't, technically, stop. 
 
-The advancement formulae are shown in the following table. *N* is the current level in the **skill**. *S* stands for **complete successes**. *F* stands for **partial failures** and **complete failures**. 
+The advancement formulae are shown in the following table. *N* is the current level in the **skill**. *S* stands for **complete successes**. *F* stands for any **failure** - that means **partial failures** and **complete failures**. For advancement, no distinction between the type of failure is made. 
 
 |   | dabbling       | apprentice          | master              |
 | - | -------------- | ------------------- | ------------------- |
-| S | `6`            | `(N + 1) * 2`       | `N * N`             |
-| F | `9`            | `(N + 1) * 3`       | `(N + 1) * (N + 1)` |
+| S | `6`            | `N + 1`             | `N + 2`             |
+| F | `9`            | `(N * 2) + 1`       | `(N * 2) + 2`       |
 
-> A character has a [nature](#nature-int) **skill** at level 2. 
+> A character has a [nature](#nature-int) **skill** at level `2`. 
 > 
-> To advance their **skill** to level 3, they would need (2 + 1) * 2 = 6 **complete successes** and (2 + 1) * 3 = 9 **partial failures** or **complete failures**.
+> To advance their **skill** to level `3`, they would need `2 + 1 = 3` **complete successes** and `(2 * 2) + 1 = 5` **failures**.
 
 For your convenience, the following table contains the precalculated requirements to advance a **skill** level. 
 * In the table, 'Level' is the character's *current level* in the **skill**. 
-* Note it is possible to go past level 10, but you shouldn't hope for it any time soon. 
+* Note it is possible to go past level `10`, but you shouldn't hope for it any time soon. 
 
 | Level | Successes | Failures |
 | --- | --- | --- |
 | 0   | 6   | 9   |
-| 1   | 4   | 6   |
-| 2   | 6   | 9   |
-| 3   | 8   | 12  |
-| 4   | 10  | 15  |
-| 5   | 25  | 36  |
-| 6   | 36  | 49  |
-| 7   | 49  | 64  |
-| 8   | 64  | 81  |
-| 9   | 81  | 100 |
-| 10  | 100 | 121 |
+| 1   | 2   | 3   |
+| 2   | 3   | 5   |
+| 3   | 4   | 7   |
+| 4   | 5   | 9   |
+| 5   | 7   | 12  |
+| 6   | 8   | 14  |
+| 7   | 9   | 16  |
+| 8   | 10  | 18  |
+| 9   | 11  | 20  |
+| 10  | 12  | 22  |
 
 Whenever a skill advances, its associated successes and failures must each be reset to 0. Successes and failures accumulated past the threshold do not carry over. They're "lost". 
 
