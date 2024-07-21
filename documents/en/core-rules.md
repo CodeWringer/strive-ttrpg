@@ -356,7 +356,7 @@ The **modified level** is the result of adding and subtracting [boons and penalt
 > 
 > In order to test their [acrobatics](#acrobatics-agistr) skill at **modified level** 2, they get to roll 3 + 1 + 2 = 6 **D6**, if they don't have any other skills to [fork](#skill-forking) into the test. 
 
-> A **PC** has an [agility](#agility-agi) at **raw level** 3, with a [penalty](#boons--penalties) of -1 resulting in a **modified level** of 2 and [strength](#strength-str) at **raw level** at level 1 and no [boons or penalties](#boons--penalties) resulting in a **modified level** of 1.
+> A **PC** has an [agility](#agility-agi) at **raw level** 3, with a [penalty](#boons--penalties) of -1 resulting in a **modified level** of 2 and [strength](#strength-str) at **raw level** 1 and no [boons or penalties](#boons--penalties) resulting in a **modified level** of 1.
 > 
 > In order to test their [acrobatics](#acrobatics-agistr) skill at **raw level** 1, with a [boon](#boons--penalties) of +1, they get to roll (3 - 1) + 1 
 > + (1 + 1) = 5 **D6**, if they don't have any other skills to [fork](#skill-forking) into the test. 
