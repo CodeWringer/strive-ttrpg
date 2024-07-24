@@ -367,7 +367,7 @@ It possible to [fork](#skill-forking) **skills**, allowing even more dice to be 
 >
 > They are asked to roll a test for their [thievery](#thievery-agiawar) at **Ob** 5. With their **base attributes** and [thievery](#thievery-agiawar) combined, they can only roll 2 + 1 + 1 = 4 **D6** for the test, which means the **Ob** 5 test would be impossible to succeed. 
 >
-> But since they also *knows* [stealth](#stealth-agiawar), they can petition the **GM** to allow them to [fork](#skill-forking) their [stealth](#stealth-agiawar) into their [thievery](#thievery-agiawar) test. The **GM** agrees and thus allows an additional **D6** to be added to the roll. 
+> But since they also *know* [stealth](#stealth-agiawar), they can petition the **GM** to allow them to [fork](#skill-forking) their [stealth](#stealth-agiawar) into their [thievery](#thievery-agiawar) test. The **GM** agrees and thus allows an additional **D6** to be added to the roll. 
 >
 > Thus, the **PC** gets to roll 5 **D6** for their test. While still difficult to succeed, the test _can_ now be succeeded, where before such a feat was impossible. 
 
