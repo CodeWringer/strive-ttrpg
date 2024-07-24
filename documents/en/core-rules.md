@@ -65,6 +65,7 @@
     - [Worn \& Equipped](#worn--equipped)
     - [Luggage](#luggage)
       - [Carrying Capacity](#carrying-capacity)
+      - [Overweight](#overweight)
     - [Property](#property)
   - [Non-Player Character (NPC)](#non-player-character-npc)
 - [Fate Points](#fate-points)
@@ -1036,9 +1037,14 @@ Things such as money, valuables, camping equipment, tools, provisions, ammunitio
 How much **luggage** a character can have on them, is determined by their [carrying capacity](#carrying-capacity). For every point of it, a character gets one *slot* for a piece of **luggage**. 
 
 #### Carrying Capacity
-How much [luggage](#luggage) a character can have on them, is determined by their **carrying capacity**, which is a **bulk** limit of **assets** that a person can be carrying around on their person. [Worn & equipped](#worn--equipped) **assets** are *excluded* and don't count towards this limit. 
+How much [luggage](#luggage) a character can comfortably have on them, is determined by their **carrying capacity**, which is a **bulk** limit of **assets** that a person can be carrying around on their person. [Worn & equipped](#worn--equipped) **assets** are *excluded* and don't count towards this limit. 
 
 A character's **carrying capacity** is determined by their [strength](#strength-str). For each point in this **attribute**, a character raises their **carrying capacity** by 3. 
+
+#### Overweight
+A character *may* carry more than their [carrying capacity](#carrying-capacity) comfortably allows, *if* they succeed a [strength](#strength-str) test, once every 6 hours. The **Ob** is equal to the number of increments of 3 of **bulk** that they're over their limit. If they fail, they must drop some of their [luggage](#luggage). If they succeed, they may proceed, but suffer a penalty of **-1D** to all [tests](#tests) (except the [strength](#strength-str) test) for every 3 **bulk** increment over the limit. 
+
+> A character with a **carrying capacity** of 6 and currently with 5 bulk in their **luggage**, tries to pick up a bulk 5 **asset**. This brings them to a current bulk of 10 in their luggage, which is 4 points over their limit. This represents two increments of 3. Thus they must succeed a [strength](#strength-str) at **Ob** 2 and suffer **-2D** to all **tests** (except this [strength](#strength-str) test). 
 
 ### Property
 Often times, characters will also own things they don't currently have on their person, or which they couldn't reasonably carry on person. 
