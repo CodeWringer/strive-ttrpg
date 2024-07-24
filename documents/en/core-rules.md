@@ -475,7 +475,7 @@ These abilities determine the chance a character will succeed at the tasks they 
 ### Attributes
 **Attributes** describe a character's basic, inherent abilities. 
 
-Two values must be tracked for every **attribute**: Its **raw level** and its current **modifier**, which results from the sum of [boons and penalties](#boons--penalties) affecting it. The result of adding or subtracting the modifier to/from the **raw level** yields the **modified level**, which is used in [tests](#tests).
+Two values must be tracked for every **attribute**: Its **raw level** and its current **modifier**, which results from the sum of [boons and penalties](#boons--penalties) affecting it. The result of adding or subtracting the modifier to/from the **raw level** yields the **modified level**, which is used in [tests](#tests). The higher the **level**, whether **raw** or **modified**, the better. 
 
 For [testing](#tests) an **attribute**, see the [Testing an attribute](#testing-an-attribute) section. 
 
@@ -580,7 +580,7 @@ See also [initiative](#initiative).
 ### Skills
 A **skill** is any acquired knowledge and experience regarding a specific subject. 
 
-Two values must be tracked for every **skill**: Its **raw level** and its current **modifier**, which results from the sum of [boons and penalties](#boons--penalties) affecting it. The result of adding or subtracting the modifier to/from the **raw level** yields the **modified level**, which is used in [tests](#testing-a-skill).
+Two values must be tracked for every **skill**: Its **raw level** and its current **modifier**, which results from the sum of [boons and penalties](#boons--penalties) affecting it. The result of adding or subtracting the modifier to/from the **raw level** yields the **modified level**, which is used in [tests](#testing-a-skill). The higher the **level**, whether **raw** or **modified**, the better. 
 
 Every skill has two [attributes](#attributes) it relies on - its so-called *base* [attributes](#attributes). The levels of these base [attributes](#attributes) also factor into a [test](#testing-a-skill) of the **skill**. 
 
