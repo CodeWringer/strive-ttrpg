@@ -509,9 +509,19 @@ For every 3 points in this **attribute**, past the initial **modified level**, e
 #### Toughness [Tough]
 Enduring physical and mental strains. 
 
-Governs the [injury limit](#injury) and chance to shrug off certain afflictions. 
+For every level in **toughness**, a character...
+* ...gains **+2 maximum [HP](#hit-points-hp)**. All characters have base [HP](#hit-points-hp) of 8. 
+* ...raises their [injury](#injury) limit by +1. All characters have a base [injury](#injury) limit of 1. 
+* ...raises their [exhaustion threshold](#exhaustion) by 1. 
+* ...gains around 3 minutes of holding their breath. 
 
-For every point in **toughness**, a character gains **+4 maximum [HP](#hit-points-hp)** and raises their [injury](#injury) limit by +1. 
+For your convenience, the table below lists the numbers per level.
+
+| Level                | 1   | 2   | 3   | 4   | 5   | 6   | 7   | 8   | 9   | 10  |
+| -------------------- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Max. HP              | 10  | 12  | 14  | 16  | 18  | 20  | 22  | 24  | 26  | 28  |
+| Injury Limit         | 1   | 2   | 3   | 4   | 5   | 6   | 7   | 8   | 9   | 10  |
+| Exhaustion Threshold | 2   | 3   | 4   | 5   | 6   | 7   | 8   | 9   | 10  | 11  |
 
 Every time a character suffers at least 10 [HP](#hit-points-hp) of damage **in a single attack**, they gain +1 [advancement progress](#advancing-attributes) to **toughness**. For 20 or more [HP](#hit-points-hp) of damage, they gain +2 [advancement progress](#advancing-attributes). 
 
@@ -520,12 +530,6 @@ Every time a character suffers at least 10 [HP](#hit-points-hp) of damage **in a
 > A character suffering 22 points of damage **in a single attack**, gains +2 advancement progress to their **toughness** automatically. 
 > 
 > A character suffering 41 points of damage **in a single attack**, still only gains +2 advancement progress to their **toughness** automatically. 
-
-For every point in **toughness**, a character raises their [exhaustion threshold](#exhaustion) by 1. All characters have a base [exhaustion threshold](#exhaustion) of 1. 
-
-> At **toughness** level 1, a character has an exhaustion threshold of 2. 
-
-**Toughness** also governs how long a character can hold their breath. Every point in **toughness** grants around 3 minutes. 
 
 #### Wit [Wit]
 Sharpness of mind and tongue. 
@@ -849,13 +853,13 @@ Whenever a character is hurt, the **damage** that has been inflicted upon them i
 
 When their **HP** reach 0, after they have suffered their maximum number of [injuries](#injury), they **die**. An exception to this rule applies when the [damage type](#damage-types) that brought them to 0 **HP** was [bludgeoning](#damage-types). For that, see [bludgeoned to 0 HP](#bludgeoned-to-0-hp). 
 
-For every point in [toughness](#toughness-tough), a character gains **+4 maximum HP** and raises their injury limit by +1. 
+For every level in [toughness](#toughness-tough), a character gains **+2 maximum HP** and raises their injury limit by +1. 
 
 For every [injury](#injury), a character's maximum **HP** is reduced by 2. A [penalty](#boons--penalties) to [Toughness](#toughness-tough) does **not** cause a *further* maximum **HP** reduction. 
 
 The **HP** range in between [injuries](#injury) is called a **HP** *segment*. 
 
-> A character with toughness 3 has 12 HP and an injury limit of 3. These 12 HP are their first HP segment. When they suffer an injury, they lose 2 maximum HP. Thus, their next HP segment is 10. And the one after that is 8. 
+> A character with toughness 3 has 14 HP and an injury limit of 3. These 14 HP are their first HP segment. When they suffer an injury, they lose 2 maximum HP. Thus, their next HP segment is 12. And the one after that is 10. 
 
 Any **HP** damage past zero overflows. The additional damage dealt isn't lost. When **HP** reach 0, an [injury](#injury) is suffered, maximum **HP** are reduced by 2 and **HP** are reset to the new maximum, minus the damage that overflowed. In other words, the damage past the 0 mark flows into the next **HP** *segment*. 
 
@@ -1764,11 +1768,8 @@ Always make sure to talk to your **GM** and fellow players and have them agree t
 ### Determine Max HP & Injury Maximum
 Determine your character's **max HP** and **injury limit**, by referring to the [toughness](#toughness-tough) attribute. 
 
-All characters start with an **injury limit** of 2. 
-
 ### Determine Exhaustion Threshold
 Determine your character's [exhaustion threshold](#exhaustion), by referring to the [toughness](#thoughness-tough) attribute. 
-
 
 ## Asset Appendix
 The following list does not and cannot aim to be a complete listing of all possible assets in game. Adding new assets as necessary will have to be done by the **GM**. 
