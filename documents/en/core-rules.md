@@ -99,10 +99,11 @@
     - [Attacks of Opportunity](#attacks-of-opportunity)
     - [Stealth Attacks](#stealth-attacks)
   - [Defending](#defending)
-    - [Cover](#cover)
-    - [Speed is Armor](#speed-is-armor)
+    - [Armor](#armor)
     - [Defending an Ally](#defending-an-ally)
     - [Defence Stunts](#defence-stunts)
+    - [Cover](#cover)
+    - [Speed aids Defence](#speed-aids-defence)
   - [Throwing](#throwing)
     - [Throwing-Distance](#throwing-distance)
     - [Throwing-Accuracy](#throwing-accuracy)
@@ -136,6 +137,10 @@
     - [Determine Max HP \& Injury Maximum](#determine-max-hp--injury-maximum)
     - [Determine Exhaustion Threshold](#determine-exhaustion-threshold)
   - [Asset Appendix](#asset-appendix)
+      - [Armor Types](#armor-types)
+        - [Light Armor](#light-armor)
+        - [Medium Armor](#medium-armor)
+        - [Heavy Armor](#heavy-armor)
     - [List of General Assets](#list-of-general-assets)
     - [Weapon Properties](#weapon-properties)
   - [Lists of Skills](#lists-of-skills)
@@ -506,7 +511,7 @@ Enduring physical and mental strains.
 
 Governs the [injury limit](#injury) and chance to shrug off certain afflictions. 
 
-For every point in **toughness**, a character gains **+4 maximum [HP](#hit-points-hp)** and raises their [injury](#injury) limit by 1. 
+For every point in **toughness**, a character gains **+4 maximum [HP](#hit-points-hp)** and raises their [injury](#injury) limit by +1. 
 
 Every time a character suffers at least 10 [HP](#hit-points-hp) of damage **in a single attack**, they gain +1 [advancement progress](#advancing-attributes) to **toughness**. For 20 or more [HP](#hit-points-hp) of damage, they gain +2 [advancement progress](#advancing-attributes). 
 
@@ -517,6 +522,8 @@ Every time a character suffers at least 10 [HP](#hit-points-hp) of damage **in a
 > A character suffering 41 points of damage **in a single attack**, still only gains +2 advancement progress to their **toughness** automatically. 
 
 For every point in **toughness**, a character raises their [exhaustion threshold](#exhaustion) by 1. All characters have a base [exhaustion threshold](#exhaustion) of 1. 
+
+> At **toughness** level 1, a character has an exhaustion threshold of 2. 
 
 **Toughness** also governs how long a character can hold their breath. Every point in **toughness** grants around 3 minutes. 
 
@@ -842,7 +849,7 @@ Whenever a character is hurt, the **damage** that has been inflicted upon them i
 
 When their **HP** reach 0, after they have suffered their maximum number of [injuries](#injury), they **die**. An exception to this rule applies when the [damage type](#damage-types) that brought them to 0 **HP** was [bludgeoning](#damage-types). For that, see [bludgeoned to 0 HP](#bludgeoned-to-0-hp). 
 
-For every point in [toughness](#toughness-tough), a character gains **+4 maximum HP**. 
+For every point in [toughness](#toughness-tough), a character gains **+4 maximum HP** and raises their injury limit by +1. 
 
 For every [injury](#injury), a character's maximum **HP** is reduced by 2. A [penalty](#boons--penalties) to [Toughness](#toughness-tough) does **not** cause a *further* maximum **HP** reduction. 
 
@@ -1395,23 +1402,10 @@ The defender must *choose* how to defend themselves, if no specific "opposed by"
 
 Defending against [area of effect](#area-of-effect) attacks is *only* possible as a **passive defense** and can *not* negate the attack. It can only halve (rounded up) its [damage](#damage). 
 
-### Cover
-It is possible for characters to hide behind stationary things to make it harder to hit them. This mostly applies to ranged combat, but may also find use in melee, depending on circumstance. 
+### Armor
+Armor can negate or at least reduce the damage taken, after a defence test has failed. The core rules define 3 types of armor, classified as a general light, medium and heavy variant. As protection numbers increase, the encumbrance of the wearer also increases. 
 
-There are two categories of cover: 
-* **Low cover**: +1 **Ob** against a target that is behind low cover. 
-  * Low cover is any static object to hide behind that doesn't fully cover the body, like a tree stump or low wall. 
-* **High cover**: +2 **Ob** against a target that is behind high cover. 
-  * High cover is any static object to hide behind that fully covers the body, like a tall wall or large boulder. 
-
-### Speed is Armor
-It is possible for a victim of an attack to be moving too fast for the attacker's ability to keep tracking them effectively. 
-
-What speed exactly that is, depends heavily on circumstance. As always, the **GM**'s estimate determines whether a bonus can apply to a defense [test](#tests). A fast moving target may increase the attacker's **Ob** by 1, up to 3, depending on _how many degrees of too fast_ they are moving. 
-
-> In a sci-fi setting, an automated turret may have a tracking system that can easily keep up with targets moving at high speeds, which will only fail if the target performs some extreme maneuvers. 
-> 
-> In a medieval fantasy setting, even just someone in a full sprint may be fast enough to throw off an archer's aim. Someone on horse back, riding at speed may be very hard to hit with an arrow or melee weapon, should they ride past. 
+The core rules' armors can be found in the [appendix](#armor-types). 
 
 ### Defending an Ally
 It is possible for a character to defend an adjacent ally when they're being attacked. This costs 2 [AP](#action-points-ap) and results in the ally taking over the defense being forced to roll the defense test, instead of the originally attacked character. 
@@ -1421,12 +1415,30 @@ Defending an ally is a **combat action** and a **reaction**.
 ### Defence Stunts
 If you succeed an **active defense** and achieve at least 2 **positives** over your attacker, then you may perform one of the following stunts, at the cost of +1 [exhaustion](#exhaustion) (but only if that won't bring you to your [exhaustion threshold](#exhaustion)): 
 
-* Disarm your opponent (if they have a detachable weapon).
-* Displace your opponent. They are forced to stumble backwards by 2m/6' in a direction of your choosing.
-* Displace yourself. You move 6'/2m in a direction of your choosing. This does not provoke [attacks of opportunity](#attacks-of-opportunity). 
+* **Disarm** your opponent (if they have a detachable weapon).
+* **Displace your opponent**. They are forced to stumble backwards by 2m/6' in a direction of your choosing.
+* **Displace yourself**. You move 6'/2m in a direction of your choosing. This does not provoke [attacks of opportunity](#attacks-of-opportunity). 
 * Throw your opponent to the ground, making them proned.
-* Launch a counter-attack, for half your weapon's regular damage (rounded up). You'll have to roll a regular attack, which your opponent can choose to defend against. This attack does not cost you any additional [AP](#action-points-ap). 
+* Launch a **counter-attack**, for half your weapon's regular damage (rounded up). You'll have to roll a regular attack, which your opponent can choose to defend against. This attack does not cost you any additional [AP](#action-points-ap). 
 * If defending against a ranged attack, you catch the projectile (if such a feat could be "reasonably" done). 
+
+### Cover
+It is possible for characters to hide behind stationary things to make it harder to hit them. This mostly applies to ranged combat, but may also find use in melee, depending on circumstance. 
+
+There are two categories of cover: 
+* **Low cover**: +1 **Ob** against a target that is behind low cover. 
+  * Low cover is any static object to hide behind that doesn't fully cover the body, like a tree stump or low wall. 
+* **High cover**: +2 **Ob** against a target that is behind high cover. 
+  * High cover is any static object to hide behind that fully covers the body, like a tall wall or large boulder. 
+
+### Speed aids Defence
+It is possible for a victim of an attack to be moving too fast for the attacker's ability to keep tracking them effectively. 
+
+What speed exactly that is, depends heavily on circumstance. As always, the **GM**'s estimate determines whether a bonus can apply to a defense [test](#tests). A fast moving target may increase the attacker's **Ob** by 1, up to 3, depending on _how many degrees of too fast_ they are moving. 
+
+> In a sci-fi setting, an automated turret may have a tracking system that can easily keep up with targets moving at high speeds, which will only fail if the target performs some extreme maneuvers. 
+> 
+> In a medieval fantasy setting, even just someone in a full sprint may be fast enough to throw off an archer's aim. Someone on horse back, riding at speed may be very hard to hit with an arrow or melee weapon. 
 
 ## Throwing
 Throwing things is a special type of action, that follows the rules outlined below. 
@@ -1492,7 +1504,7 @@ Sometimes, your own body is your greatest weapon. Fists and feet can cause a sur
 
 | Level | Name                       | AP | **Ob**                               | Damage/Effect         | Condition |
 | ----- | -------------------------- | -- | ------------------------------------ | --------------------- | --------- |
-| 0     | Punch, kick, headbutt      | 2  | Opposed                              | **Str** + 2 **Bludgeoning** |  |
+| 0     | Punch, kick, headbutt      | 2  | Opposed                              | `Str * 2` Bludgeoning |  |
 | 0     | Shove                      | 2  | Opposed by [strength](#strength-str) | Push an enemy away from you for 3'/1m * *N*, where *N* is the number of **positives** more than the opponent achieved. |  |
 | 1     | Grapple                    | 2  | Opposed by **Unarmed Combat**        | If **completely successful**, the target is unable to move and suffers **-1D** to their defense tests, for as long as they're grappled. Someone grappled can attempt to break free with an opposed **Unarmed Combat** test, on their turn. The grappler can not use at least one of their hands for as long as they're grappling. |  |
 | 2     | Wrestle and Disarm         | 2  | Opposed by **Unarmed Combat**        | Disarm your opponent and wrestle them to the ground, making them [prone](#prone), if you so choose. | Disarm only if enemy is using detachable weapon. |
@@ -1760,6 +1772,54 @@ Determine your character's [exhaustion threshold](#exhaustion), by referring to 
 
 ## Asset Appendix
 The following list does not and cannot aim to be a complete listing of all possible assets in game. Adding new assets as necessary will have to be done by the **GM**. 
+
+#### Armor Types
+The following are the armors included in the core rules. Modules may introduce their own armors, more fitting to the theme and setting, with different values. 
+
+##### Light Armor
+A set of light armor that doesn't impede the wearer much. 
+
+* Bulk: 2
+
+| Protections                 | 
+| --------------------------- | 
+| 14 **Slashing**             | 
+| 12 **Piercing**             | 
+| 8 **Bludgeoning**           | 
+| 8 **Crushing**              | 
+| 6 **Acid**                  | 
+
+##### Medium Armor
+A set of medium armor with a good balance of protection and weight. 
+
+* Bulk: 3
+* Causes a permanent +1 [exhaustion](./core-rules.md#exhaustion) while worn. 
+* `-1D` to any defence tests while worn. 
+
+| Protections                 | 
+| --------------------------- | 
+| 18 **Slashing**             | 
+| 16 **Piercing**             | 
+| 10 **Bludgeoning**          | 
+| 10 **Crushing**             | 
+| 8 **Acid**                  | 
+| 8 **Electrical**            | 
+
+##### Heavy Armor
+A set of heavy armor with excellent protection, at the cost of encumbering the wearer greatly. 
+
+* Bulk: 4
+* Causes a permanent +2 [exhaustion](./core-rules.md#exhaustion) while worn. 
+* `-2D` to any defence tests while worn. 
+
+| Protections                 | 
+| --------------------------- | 
+| 22 **Slashing**             | 
+| 20 **Piercing**             | 
+| 12 **Bludgeoning**          | 
+| 12 **Crushing**             | 
+| 10 **Acid**                 | 
+| 10 **Electrical**           | 
 
 ### List of General Assets
 The following is a list of general assets. Of course, the following list is non-exhaustive. Invent more at your own need. 

@@ -36,10 +36,6 @@
   - [List of Assets](#list-of-assets)
     - [Armor](#armor)
       - [Armor Properties](#armor-properties)
-      - [Armor Types](#armor-types)
-        - [Light Armor](#light-armor)
-        - [Medium Armor](#medium-armor)
-        - [Heavy Armor](#heavy-armor)
     - [Shield Types](#shield-types)
         - [Buckler](#buckler)
         - [Round Shield](#round-shield)
@@ -400,47 +396,6 @@ Armor can have the following **properties**:
 
 > An **Ambersteel**-lined armor at quality level 3 would have +(3 + **2D4**) protection from magic. 
 
-#### Armor Types
-Armor reduces damage to its wearer by a flat amount. By how much, is specific to each armor type. Some armors can have special protections or effects. 
-
-##### Light Armor
-A set of light armor that doesn't impede the wearer by much. Commonly represents a gambeson or other cloth defense. 
-
-* Bulk: 2
-
-| Protections                 |
-| --------------------------- |
-| 3 + **1D6** **Slashing**    |
-| 2 + **1D6** **Bludgeoning** |
-| 1 + **1D6** **Piercing**    |
-| **1D6** **Crushing**        |
-
-##### Medium Armor
-A set of medium armor with a good balance of protection and weight. Commonly represents mail armor. Common headgear: arming cap, mail coif or any non-full helmet. 
-
-* Bulk: 3
-* Causes a permanent +1 [exhaustion](./core-rules.md#exhaustion) while worn. 
-
-| Protections                 |
-| --------------------------- |
-| 4 + **1D6** **Slashing**    |
-| 3 + **1D6** **Bludgeoning** |
-| 2 + **1D6** **Piercing**    |
-| 1 + **1D6** **Crushing**    |
-
-##### Heavy Armor
-A set of heavy armor with excellent protection, at the cost of encumbering the wearer greatly. Commonly represents a full suit of plate armor.  
-
-* Bulk: 4
-* Causes a permanent +2 [exhaustion](./core-rules.md#exhaustion) while worn. 
-
-| Protections                 |
-| --------------------------- |
-| 5 + **1D4** **Slashing**    |
-| 4 + **1D4** **Bludgeoning** |
-| 3 + **1D4** **Piercing**    |
-| 2 + **1D4** **Crushing**    |
-
 ### Shield Types
 Shields are items that provide passive bonuses to defense against melee and ranged attacks and require one free hand to use. This implies they cannot be used at the same time as a two-handed weapon (unless of course if you have more than two arms). 
 
@@ -507,7 +462,7 @@ Any very short, one-handed blade. Examples: shiv, dagger, rondel-dagger
 
 For all attacks made with a dagger, the following rules apply:
 * If the target is unaware or [grappled](./core-rules.md#grappled), then the target's armor does **not** reduce the dagger's damage.
-* -1 **Ob** and +**Agi\*D** damage against [proned](./core-rules.md#prone) and [grappled](./core-rules.md#grappled) targets.
+* -1 **Ob** against [proned](./core-rules.md#prone) and/or [grappled](./core-rules.md#grappled) targets.
 
 * Melee
 * Bulk: 1
@@ -515,10 +470,10 @@ For all attacks made with a dagger, the following rules apply:
 
 | Level | Name                 | AP | **Ob**      | Damage                           | Notes  |
 | ----- | -------------------- | -- | ----------- | -------------------------------- | ------ |
-| 0     | Slash                | 2  | Opposed     | **1D4 + 2** **Slashing**         |  |
-| 0     | Stab                 | 2  | Opposed     | **1D4** **Piercing**             |  |
-| 0     | Artery cut           | 2  | Opposed + 2 | **2D4** **Slashing**             | +1 [bleeding](#bleeding) to the target (if it can bleed).  |
-| 0     | Target weak-spot     | 2  | Opposed + 2 | **2D4** **Piercing**             |  |
+| 0     | Slash                | 2  | Opposed     | `1D6 + Agi` Slashing             |  |
+| 0     | Stab                 | 2  | Opposed     | `1D6 + Agi` Piercing             |  |
+| 0     | Artery Cut           | 2  | Opposed + 1 | `2D6` Slashing                   | +1 [bleeding](#bleeding) to the target (if it can bleed).  |
+| 0     | Target Weak-Spot     | 2  | Opposed + 2 | `2D6 + Agi` Piercing             |  |
 
 #### Light Blade (Agi/Str)
 Any light blade. Most commonly (but not restricted to) one-handed weapons. Examples: Short-sword, Langes Messer, arming sword, falchion
@@ -529,8 +484,8 @@ Any light blade. Most commonly (but not restricted to) one-handed weapons. Examp
 
 | Level | Name                 | AP | **Ob**      | Damage                           | Notes  |
 | ----- | -------------------- | -- | ----------- | -------------------------------- | ------ |
-| 0     | Slash                | 2  | Opposed     | **1D8 + 2** **Slashing**         | / |
-| 0     | Stab                 | 2  | Opposed     | **1D8 + 1** **Piercing**         | / |
+| 0     | Slash                | 2  | Opposed     | `1D8 + 2` Slashing               | / |
+| 0     | Stab                 | 2  | Opposed     | `1D8 + 1` Piercing               | / |
 | 0     | Grappling Feint      | 2  | Opposed - 1 | /                                | Attack with a feint, immediately close the distance and [grapple](./core-rules.md#grappled) your opponent. |
 
 #### Long Blade (Agi/Str)
@@ -541,10 +496,10 @@ Any long and heavier blade, including heavy one-handed blades. Examples: Longswo
 
 | Level | Name                 | AP | **Ob**      | Damage                           | Notes  |
 | ----- | -------------------- | -- | ----------- | -------------------------------- | ------ |
-| 0     | Slash                | 2  | Opposed     | **2D8** **Slashing**             | / |
-| 0     | Stab                 | 2  | Opposed     | **2D8** **Piercing**             | / |
-| 2     | Mord-Strike          | 2  | Opposed + 2 | **1D6 + 1** **Crushing**         | / |
-| 3     | Fencer-Stance        | 2  | /           | /                                | Enter a defensive fencing stance. Gain **+1D** for melee defense and can **counter-attack** **every** attack. |
+| 0     | Slash                | 2  | Opposed     | `2D8` Slashing                   | / |
+| 0     | Stab                 | 2  | Opposed     | `2D8` Piercing                   | / |
+| 2     | Mord-Strike          | 2  | Opposed + 2 | `1D6 + 1` Crushing               | / |
+| 3     | Fencer-Stance        | 2  | /           | /                                | Enter a defensive fencing stance. Gain **+1D** for melee defense and can [counter-attack](./core-rules.md#defence-stunts) **every** attack. |
 
 #### Great Blade (Str/Tough)
 Any very long and heavy two-handed blade. Examples: sword of war, great-sword, Zweihänder, Kriegsmesser
@@ -555,10 +510,10 @@ Any very long and heavy two-handed blade. Examples: sword of war, great-sword, Z
 
 | Level | Name                 | AP | **Ob**      | Damage                           | Notes  |
 | ----- | -------------------- | -- | ----------- | -------------------------------- | ------ |
-| 0     | Slash                | 2  | Opposed     | **3D8** **Slashing**             | / |
-| 0     | Stab                 | 2  | Opposed     | **2D8 + 2** **Piercing**         | / |
-| 2     | Blade Barrier        | 2  | Opposed     | /                                | Whenever any character moves **into** a spot within reach, can attack that character with a **slash** at **Ob** + 1 and force them back 3'/1m. |
-| 3     | Heavy Blow           | 3  | Opposed + 1 | **2D8** **Slashing** and **1D8** **Crushing** | Defending against this attack costs 2 [AP](#action-points-ap). +1 [exhaustion](#exhaustion) to self. |
+| 0     | Slash                | 2  | Opposed     | `3D8` Slashing                   | / |
+| 0     | Stab                 | 2  | Opposed     | `2D8 + 2` Piercing               | / |
+| 2     | Blade Barrier        | 2  | Opposed     | /                                | Whenever any character moves **into** a spot within reach, can attack that character with a **slash** at **Ob** + 1 and always force them back 3'/1m. |
+| 3     | Heavy Blow           | 3  | Opposed + 1 | `2D8` Slashing + `1D8` Crushing  | Defending against this attack costs 2 [AP](#action-points-ap). +1 [exhaustion](#exhaustion) to self. |
 
 #### Axe (Str/Str)
 Small and light axes. Examples: hatchet, dane axe, woodcutter's axe
@@ -569,8 +524,8 @@ Small and light axes. Examples: hatchet, dane axe, woodcutter's axe
 
 | Level | Name                 | AP | **Ob**      | Damage                           | Notes  |
 | ----- | -------------------- | -- | ----------- | -------------------------------- | ------ |
-| 0     | Hack                 | 2  | Opposed     |  **1D6 + 2** **Slashing** and **1D4** **Crushing**  | / |
-| 1     | Savage Slash         | 2  | Opposed + 1 |  **1D6 + 2** **Slashing**            | +1 [bleeding](#bleeding)  to the target (if it can bleed). |
+| 0     | Hack                 | 2  | Opposed     |  `1D6 + 2` Slashing + `1D4` Crushing | / |
+| 1     | Savage Slash         | 2  | Opposed + 1 |  `1D6 + 2` Slashing              | +1 [bleeding](#bleeding) to the target (if it can bleed). |
 
 #### Great Axe (Str/Str)
 Large and heavy axes. Examples: bearded axe, double-sided axe
@@ -580,9 +535,9 @@ Large and heavy axes. Examples: bearded axe, double-sided axe
 
 | Level | Name                 | AP | **Ob**      | Damage                           | Notes  |
 | ----- | -------------------- | -- | ----------- | -------------------------------- | ------ |
-| 0     | Hack                 | 2  | Opposed     | **1D8** **Slashing** and **2D4** **Crushing** | / |
-| 2     | Savage Slash         | 2  | Opposed + 2 | **2D8** **Slashing**             | +2 [bleeding](#bleeding)  to the target (if it can bleed). |
-| 3     | Heavy Blow           | 3  | Opposed + 1 | **1D8** **Slashing** and **1D6 + 2** **Crushing** | Defending against this attack costs 2 [AP](#action-points-ap). +1 [exhaustion](#exhaustion) to self. |
+| 0     | Hack                 | 2  | Opposed     | `1D8` Slashing + `2D4` Crushing  | / |
+| 2     | Savage Slash         | 2  | Opposed + 2 | `2D8` Slashing                   | +2 [bleeding](#bleeding) to the target (if it can bleed). |
+| 3     | Heavy Blow           | 3  | Opposed + 1 | `1D8` Slashing + `1D6 + 2` Crushing | Defending against this attack costs 2 [AP](#action-points-ap). +1 [exhaustion](#exhaustion) to self. |
 
 #### Spear (Agi/Str)
 Any one or two-handed short piercing polearms. Examples: short-spear, boar-spear
@@ -595,8 +550,8 @@ Any one or two-handed short piercing polearms. Examples: short-spear, boar-spear
 
 | Level | Name                 | AP | **Ob**      | Damage                           | Notes  |
 | ----- | -------------------- | -- | ----------- | -------------------------------- | ------ |
-| 0     | Stab                 | 2  | Opposed     | **2D8** **Piercing**  | / |
-| 0     | Spear wall           | 2  | /                                | Whenever any character moves **into** a spot within reach, can attack that character with a **stab** and force them back 3'/1m. | / |
+| 0     | Stab                 | 2  | Opposed     | `2D8` Piercing                   | / |
+| 0     | Spear Wall           | 2  | /           | Whenever any character moves **into** a spot within reach, can attack that character with a **stab** and always force them back 3'/1m. | / |
 
 #### Lance (Awar/Str)
 Any one or two-handed long piercing polearms. Examples: pike, lance
@@ -608,8 +563,8 @@ Any one or two-handed long piercing polearms. Examples: pike, lance
 
 | Level | Name                 | AP | **Ob**      | Damage                           | Notes  |
 | ----- | -------------------- | -- | ----------- | -------------------------------- | ------ |
-| 0     | Stab                 | 2  | Opposed     | **2D6** **Piercing**             | / |
-| 0     | Couched Lancing      | 2  | Opposed     | **3D10** **Piercing**            | Requires self to be mounted on horse-back (or similar creature). Self must move at least 15'/5m in a straight line, past the target. |
+| 0     | Stab                 | 2  | Opposed     | `2D6` Piercing                   | / |
+| 0     | Couched Lancing      | 2  | Opposed     | `3D10` Piercing                  | Requires self to be mounted on horse-back (or similar creature). Self must move at least 15'/5m in a straight line, past the target. |
 
 #### Polearm (Str/Tough)
 Flexible polearms with a focus on slashing. Examples: halberd, bardiche, poleaxe
@@ -621,10 +576,10 @@ Flexible polearms with a focus on slashing. Examples: halberd, bardiche, poleaxe
 
 | Level | Name                 | AP | **Ob**      | Damage                           | Notes  |
 | ----- | -------------------- | -- | ----------- | -------------------------------- | ------ |
-| 0     | Slash                | 2  | Opposed     | **3D6** **Slashing**             | / |
-| 0     | Stab                 | 2  | Opposed     | **2D8** **Piercing**             | / |
-| 1     | Blade Barrier        | 2  | Opposed     | /                                | Whenever any character moves **into** a spot within reach, can attack that character with a **stab** at **Ob** + 1 and force them back 3'/1m. |
-| 2     | Cleave               | 2  | Opposed + 2 | **3D6** **Slashing**             | Deals damage to up to two targets adjacent to each other and within reach. |
+| 0     | Slash                | 2  | Opposed     | `3D6` Slashing                   | / |
+| 0     | Stab                 | 2  | Opposed     | `2D8` Piercing                   | / |
+| 1     | Blade Barrier        | 2  | Opposed     | /                                | Whenever any character moves **into** a spot within reach, can attack that character with a **stab** at **Ob** + 1 and always force them back 3'/1m. |
+| 2     | Cleave               | 2  | Opposed + 2 | `3D6` Slashing                   | Deals damage to up to two targets adjacent to each other and within reach. |
 
 #### Club (Str/Str)
 Simple, improvised bludgeoning weapons. Examples: wooden club, staff, stick
@@ -634,9 +589,9 @@ Simple, improvised bludgeoning weapons. Examples: wooden club, staff, stick
 
 | Level | Name                 | AP | **Ob**      | Damage                           | Notes  |
 | ----- | -------------------- | -- | ----------- | -------------------------------- | ------ |
-| 0     | Clobber              | 2  | Opposed     | **Str** + **2D4** **Bludgeoning**      | / |
-| 0     | Knockout Blow        | 2  | Opposed + 2 | **Str** + **2D6 + 2** **Bludgeoning**  | +2 [exhaustion](#exhaustion) to target. +1 [exhaustion](#exhaustion) to self. |
-| 0     | Smash                | 2  | Opposed     | **Str** + **1D4** **Crushing**         | / |
+| 0     | Clobber              | 2  | Opposed     | `Str + 2D4` Bludgeoning          | / |
+| 0     | Knockout Blow        | 2  | Opposed + 2 | `Str + 2D6 + 2` Bludgeoning      | +1 [exhaustion](./core-rules.md#exhaustion) to target. |
+| 0     | Smash                | 2  | Opposed     | `Str + 1D4` Crushing             | / |
 
 #### Small Crusher (Str/Str)
 Small, heavy crushing weapons with a dedicated *impact zone* on the weapon head which directs more force into the target. Examples: flanged mace, warhammer, flail, morning star
@@ -646,7 +601,7 @@ Small, heavy crushing weapons with a dedicated *impact zone* on the weapon head 
 
 | Level | Name                 | AP | **Ob**      | Damage                           | Notes  |
 | ----- | -------------------- | -- | ----------- | -------------------------------- | ------ |
-| 0     | Smash                | 2  | Opposed     | **Str** + **1D6 + 2** **Crushing** | / |
+| 0     | Smash                | 2  | Opposed     | `Str + 1D6 + 2` Crushing         | / |
 
 #### Large Crusher (Str/Tough)
 Large, heavy crushing weapons with a dedicated *impact zone* on the weapon head which directs more force into the target. Examples: grand-mace, polehammer, two-handed flail
@@ -656,8 +611,8 @@ Large, heavy crushing weapons with a dedicated *impact zone* on the weapon head 
 
 | Level | Name                 | AP | **Ob**      | Damage                           | Notes  |
 | ----- | -------------------- | -- | ----------- | -------------------------------- | ------ |
-| 0     | Smash                | 2  | Opposed     | **Str** + **1D8 + 2** **Crushing** | / |
-| 1     | Mighty Smash         | 2  | Opposed + 2 | **Str** + **2D8 + 1** **Crushing**     | +2 [exhaustion](#exhaustion) to target (if it can be winded). +1 [exhaustion](#exhaustion) to self. |
+| 0     | Smash                | 2  | Opposed     | `Str + 1D8 + 2` **Crushing** | / |
+| 1     | Mighty Smash         | 2  | Opposed + 2 | `Str + 2D8 + 1` **Crushing**     | Defending against this attack costs 2 [AP](#action-points-ap). +1 [exhaustion](#exhaustion) to self. |
 
 #### Short-Bow (Awar/Awar)
 A short distance ranged weapon, shooting arrows.
@@ -669,9 +624,9 @@ A short distance ranged weapon, shooting arrows.
 
 | Level | Name                 | AP | **Ob**      | Distance increments | Damage                     | Notes  |
 | ----- | -------------------- | -- | ----------- | ------------------- | -------------------------- | ------ |
-| 0     | Loose                | 2  | Opposed     | 30'/10m             | **3D4** **Piercing**       |  |
-| 1     | Heavy Shot           | 3  | Opposed + 1 | 30'/10m             | **3D4 + Str** **Piercing** |  |
-| 2     | Double shot          | 3  | Opposed     | 30'/10m             | **2D4** **Piercing**       | Can attack twice and thus deal its damage to two different targets, or the same target twice.  |
+| 0     | Loose                | 2  | Opposed     | 30'/10m             | `3D4` Piercing             |  |
+| 1     | Heavy Shot           | 3  | Opposed + 1 | 30'/10m             | `3D4 + Str` Piercing       |  |
+| 2     | Double Shot          | 3  | Opposed     | 30'/10m             | `2D4` Piercing             | Can attack twice and thus deal its damage to two different targets, or the same target twice.  |
 
 #### Longbow (Awar/Str)
 A long distance ranged weapon, shooting arrows.
@@ -683,8 +638,8 @@ A long distance ranged weapon, shooting arrows.
 
 | Level | Name                 | AP | **Ob**      | Distance increments | Damage                     | Notes  |
 | ----- | -------------------- | -- | ----------- | ------------------- | -------------------------- | ------ |
-| 0     | Loose                | 2  | Opposed     | 45'/15m             | **4D4** **Piercing**       |  |
-| 1     | Heavy Shot           | 3  | Opposed + 1 | 45'/15m             | **4D4 + Str** **Piercing** |  +1 [exhaustion](#exhaustion) to self. |
+| 0     | Loose                | 2  | Opposed     | 45'/15m             | `4D4` Piercing             |  |
+| 1     | Heavy Shot           | 3  | Opposed + 1 | 45'/15m             | `4D4 + Str` Piercing       |  +1 [exhaustion](#exhaustion) to self. |
 
 #### War-Bow (Str/Tough)
 A very deadly long distance ranged weapon, shooting arrows. Beware its exhausting strength of draw. 
@@ -696,7 +651,7 @@ A very deadly long distance ranged weapon, shooting arrows. Beware its exhaustin
 
 | Level | Name                 | AP | **Ob**      | Distance increments | Damage                     | Notes  |
 | ----- | -------------------- | -- | ----------- | ------------------- | -------------------------- | ------ |
-| 0     | Loose                | 2  | Opposed     | 60'/20m             | **3D8** **Piercing**       | +1 [exhaustion](#exhaustion) to self.  |
+| 0     | Loose                | 2  | Opposed     | 60'/20m             | `3D8` Piercing             | +1 [exhaustion](#exhaustion) to self.  |
 
 #### Crossbow (Awar/Awar)
 A deadly medium distance ranged weapon, shooting quarrels. Beware its slow reload. 
@@ -709,7 +664,7 @@ A deadly medium distance ranged weapon, shooting quarrels. Beware its slow reloa
 
 | Level | Name                 | AP | **Ob**      | Distance increments | Damage                     | Notes  |
 | ----- | -------------------- | -- | ----------- | ------------------- | -------------------------- | ------ |
-| 0     | Loose                | 2  | Opposed     | 60'/20m             | **3D8** **Piercing**       |  |
+| 0     | Loose                | 2  | Opposed     | 60'/20m             | `3D8` Piercing             |  |
 
 #### Firearm (Awar/Awar)
 A very deadly short to medium distance ranged weapon, shooting musket balls that are likely to penetrate armor. Beware its slow reload. 
@@ -722,7 +677,7 @@ A very deadly short to medium distance ranged weapon, shooting musket balls that
 
 | Level | Name                 | AP | **Ob**      | Distance increments | Damage                     | Notes  |
 | ----- | -------------------- | -- | ----------- | ------------------- | -------------------------- | ------ |
-| 0     | Fire                 | 2  | Opposed     | 30'/10m             | **3D8 + 5** **Piercing**   |  |
+| 0     | Fire                 | 2  | Opposed     | 30'/10m             | `3D8 + 5` Piercing         |  |
 
 ## Lists of Skills
 The following list does not and cannot aim to be a complete listing of all possible skills in game. Adding new skills as necessary will have to be done by the **GM**. 
@@ -986,6 +941,8 @@ See also [testing magic](#testing-magic).
 In all the following tables, note the following:
 * Replace *SI* with the chosen [spell intensity](#spell-intensity-si). 
 * *Level* is the prerequisite level of the **magic school skill**, at which a given spell becomes available for use. 
+* Whenever distances and radii are concerned, a mage may always choose a *shorter* distance or radius. For example, a `SI * 6'/2m` radius definition, sets the **maximum**. The radius may be at most this large, but can be smaller, if the mage so chooses. 
+* Whenever the effect is unleashed in a **cone**, then at every point it has traveled, it is as far as it has traveled. So for example, at 3'/1m, it is 3'/1m wide. At 9'/3m, it is 9'/3m wide. 
 
 ### Alteration (Arc/Wit)
 The alteration of physical things, to change their shape and purpose, permanently. 
@@ -996,29 +953,29 @@ Creatures can resist the change with [toughness](./core-rules.md#toughness-tough
 
 | Level | Name                 | AP | Distance | Ob                           | Effect(s)                      | Backfire Effect(s) |
 | ----- | -------------------- | -- | -------- | ---------------------------- | ------------------------------ | ------------------ |
-| 0     | Alter Shape          | 3  | 3'/1m    | Opposed + SI         | A **ST** (object or creature) is altered as the mage desires. The complexity and size of the re-shaping depends on the **SI**. 1-3 are for simple and small, 4-6 for tricky and medium, 7-8 for complex and large and 9+ for very complex and very large alterations. Consult your **GM**! | The intended alteration occurs only on the caster. |
+| 0     | Alter Shape          | 3  | 3'/1m    | Opposed + SI                 | A **ST** (object or creature) is altered as the mage desires. The complexity and size of the re-shaping depends on the **SI**. 1-3 are for simple and small, 4-6 for tricky and medium, 7-8 for complex and large and 9+ for very complex and very large alterations. Consult your **GM**! | The intended alteration occurs only on the caster. |
 
 ### Cryomancy (Arc/Arc)
 The summoning and control of ice. Cryomancer's can freeze things, so they're heavier and harder to break. 
 
 | Level | Name                 | AP | Distance    | Ob                           | Effect(s)                      | Backfire Effect(s) |
 | ----- | -------------------- | -- | ----------- | ---------------------------- | ------------------------------ | ------------------ |
-| 0     | Freezing Touch       | 2  | 3'/1m       | Opposed - SI                 | A fist-sized spot on a **ST**, that the mage's hand touches, freezes over and deals **SI freezing** damage. | The caster is affected, instead. |
-| 1     | Cold Finger Gun      | 2  | SI * 15'/5m | Opposed                      | The mage shoots an ice spike at a **ST** from their hand, dealing **SI D4 freezing** damage. Causes +1 [frostbitten](./core-rules.md#frostbitten). | The caster is affected, instead. |
-| 3     | Deep Freeze          | 3  | 3'/1m       | Opposed                      | A man-sized area of whatever the mage's hand is touching freezes over. The frost even penetrates and runs deep in a **ST**, dealing **1D10 freezing** damage. Causes +1 [frostbitten](./core-rules.md#frostbitten). | The caster is affected, instead. |
-| 5     | Rooting Freeze       | 3  | SI * 15'/5m | 5                            | A spot of the mage's choosing freezes over. Anyone caught within the **AOE** 9'/3m radius, will be frozen to the spot and thus [rooted](#rooted) and also suffer **SI D4 Freezing** damage. They can break free via a successful [strength](./core-rules.md#strength-str) test at **Ob 3**. Or wait, until the ice thaws... | The spot beneath the caster is affected, instead. |
+| 0     | Freezing Touch       | 2  | 3'/1m       | Opposed - SI                 | A fist-sized spot on a **ST**, that the mage's hand touches, freezes over and deals `SI` **freezing** damage. | The caster is affected, instead. |
+| 1     | Cold Finger Gun      | 2  | SI * 15'/5m | Opposed                      | The mage shoots an ice spike at a **ST** from their hand, dealing `1D10 + SI` **freezing** damage. Causes +1 [frostbitten](./core-rules.md#frostbitten). | The caster is affected, instead. |
+| 3     | Deep Freeze          | 3  | 3'/1m       | Opposed                      | A man-sized area of whatever the mage's hand is touching freezes over. The frost even penetrates and runs deep in a **ST**, dealing `SI D4` **freezing** damage. Causes +1 [frostbitten](./core-rules.md#frostbitten). | The caster is affected, instead. |
+| 5     | Rooting Freeze       | 3  | SI * 15'/5m | 5                            | A spot of the mage's choosing freezes over. Anyone caught within the **AOE** `SI * 6'/2m` radius, will be frozen to the spot and thus [rooted](#rooted) and also suffer `SI D4` **Freezing** damage. They can break free via a successful [strength](./core-rules.md#strength-str) test at **Ob 3**. Or wait, until the ice thaws... | The spot beneath the caster is affected, instead. |
 
 ### Electromancy (Agi/Arc)
 The summoning and control of lightning. Electricity is fairly versatile - it can injure or stun and power or trigger electrical and electronic devices. 
 
 | Level | Name                  | AP | Distance     | Ob                           | Effect(s)                      | Backfire Effect(s) |
 | ----- | --------------------- | -- | ------------ | ---------------------------- | ------------------------------ | ------------------ |
-| 0     | Shocking Touch        | 2  | 3'/1m        | Opposed - SI                 | A small area, about the size of the mage's hand is burned on touch by an electrical shock, dealing **SI electrical** damage to a **ST**. | The caster is affected, instead. |
-| 1     | Shock                 | 2  | SI * 9'/3m   | Opposed                      | An arc of lightning strikes the vulnerable internals of a **ST**, dealing **SI D4 electrical** damage. | The caster is affected, instead. |
-| 1     | Power-Up              | 2  | SI * 3'/1m   | SI                           | An electrical device is powered up for 5 * **SI** minutes. | The device breaks or otherwise seizes up and becomes unusable. |
+| 0     | Shocking Touch        | 2  | 3'/1m        | Opposed - SI                 | A small area, about the size of the mage's hand is burned on touch by an electrical shock, dealing `SI` **electrical** damage to a **ST**. | The caster is affected, instead. |
+| 1     | Shock                 | 2  | SI * 9'/3m   | Opposed                      | An arc of lightning strikes the vulnerable internals of a **ST**, dealing `SI D4` **electrical** damage. | The caster is affected, instead. |
+| 1     | Power-Up              | 2  | SI * 3'/1m   | SI                           | An electrical device is powered up for `SI * 5` minutes. | The device breaks or otherwise seizes up and becomes unusable. |
 | 2     | Stunning Shock        | 2  | SI * 15'/5m  | Opposed - SI                 | An aimed arc of lightning strikes a **ST** and adds one stack of [stunned](./core-rules.md#stunned). | The caster is affected, instead. |
-| 5     | UNLIMITED POWER       | 3  | SI * 30'/10m | Opposed                      | A cone of lightning spews forth from the mage's finger tips. Up to **SI + 1** **MST** can be hit with the shock, dealing **SI D6 electrical** damage. | The caster and anyone next to them is affected, instead. |
-| 5     | Mass Stunning Shock   | 3  | SI * 30'/10m | Opposed                      | Several arcs of aimed lightning spew forth from the mage's finger tips, striking up to **SI + 1** **MST** and adding 3 stacks of [stunned](./core-rules.md#stunned). | The caster and anyone next to them is affected, instead. |
+| 5     | UNLIMITED POWER       | 3  | SI * 30'/10m | Opposed                      | A cone of lightning spews forth from the mage's finger tips. Up to `SI + 1` **MST** can be hit with the shock, dealing `SI D6` **electrical** damage. | The caster and anyone next to them is affected, instead. |
+| 5     | Mass Stunning Shock   | 3  | SI * 30'/10m | Opposed                      | Several arcs of aimed lightning spew forth from the mage's finger tips, striking up to `SI + 1` **MST** and adding 3 stacks of [stunned](./core-rules.md#stunned). | The caster and anyone next to them is affected, instead. |
 
 ### Illusion (Arc/Awar)
 Creation of non-physical influences on the senses. That includes images, sounds and odors. The illusions cannot cause direct harm, although they can drive an individual to acts that may put them in danger. 
@@ -1039,23 +996,23 @@ Only targets within and up to the given *distance* can be moved and only within 
 
 | Level | Name                 | AP | Distance     | Ob                           | Effect(s)                      | Backfire Effect(s) |
 | ----- | -------------------- | -- | ------------ | ---------------------------- | ------------------------------ | ------------------ |
-| 0     | Psionic Telekinesis  | 3  | SI * 30'/10m | Opposed                      | Move a **ST** at great velocity (if desired), which allows it to deal **SI D6** **variant** (depends on the type of object, if it is an object) damage upon impact. Alternatively, **crush** or restrain the object or creature. Can target yourself. | The caster is affected, instead. |
-| 0     | Psionic Missile      | 2  | SI * 15'/5m  | Opposed                      | Using psionics, extend the force of a punch, to hurl a focused psionic shockwave towards a **ST**, dealing **SI D8** **bludgeoning** damage. | The caster is affected, instead. |
-| 1     | Psionic Shield       | 2  | SI * 9'/3m   | SI                           | As a **reaction** to you or an ally being hit with an attack, cast a shield of psionic energy to erupt around yourself or an ally within distance, which absorbs up to **SI * 10** points of damage. | Instead of absorbing damage, the target instead suffers an additional **SI * 2** points of **bludgeoning** damage. |
-| 1     | Psionic Hasten       | 2  | SI * 36'/18m | 3 + SI                       | **Concentration**: [Hasten](./core-rules.md#hasted) up to **SI** creatures of choice. | The caster suffers +1 [exhaustion](./core-rules.md#exhaustion). |
+| 0     | Psionic Telekinesis  | 3  | SI * 30'/10m | Opposed                      | Move a **ST** at great velocity (if desired), which allows it to deal `SI D6` **variant** (depends on the type of object, if it is an object) damage upon impact. Alternatively, **crush** or restrain the object or creature. Can target yourself. | The caster is affected, instead. |
+| 0     | Psionic Missile      | 2  | SI * 15'/5m  | Opposed                      | Using psionics, extend the force of a punch, to hurl a focused psionic shockwave towards a **ST**, dealing `SI D6` **bludgeoning** damage. | The caster is affected, instead. |
+| 1     | Psionic Shield       | 2  | SI * 9'/3m   | SI                           | As a **reaction** to you or an ally being hit with an attack, cast a shield of psionic energy to erupt around yourself or an ally within distance, which absorbs up to `SI * 10` points of any damage. | Instead of absorbing damage, the target instead suffers an additional `SI * 3` points of **bludgeoning** damage. |
+| 1     | Psionic Hasten       | 2  | SI * 36'/18m | 3 + SI                       | **Concentration**: [Hasten](./core-rules.md#hasted) up to `SI` creatures of choice. | The caster suffers +1 [exhaustion](./core-rules.md#exhaustion). |
 | 1     | Levitate             | 1  | SI * 9'/3m   | Opposed                      | **Concentration**: Cause yourself or one other **ST** of choice, within *distance* to levitate a short distance above the ground. | The caster suffers +1 [exhaustion](./core-rules.md#exhaustion). |
-| 3     | Dimensional Shift    | 3  | SI * 30'/10m | Opposed                      | Cause a dimensional rift to open and swallow a **ST** of choice, which another rift releases at a location of your choosing, a moment later. | The caster is instead swallowed by a rift, immediately tossed back out in the same spot and suffers **1D10** points of **crushing** damage. |
+| 3     | Dimensional Shift    | 3  | SI * 30'/10m | Opposed                      | Cause a dimensional rift to open and swallow a **ST** of choice, which another rift releases at a location of your choosing, a moment later. | The caster is instead swallowed by a rift, immediately tossed back out in the same spot and suffers `1D10` points of **crushing** damage. |
 
 ### Pyromancy (Arc/Arc)
 The summoning and control of fire. The flame being a destructive force, pyromancers enjoy little utility from their magic, beyond the ability to create light and heat. 
 
 | Level | Name                 | AP | Distance     | Ob                           | Effect(s)                      | Backfire Effect(s) |
 | ----- | -------------------- | -- | ------------ | ---------------------------- | ------------------------------ | ------------------ |
-| 0     | Burning Touch        | 2  | 3'/1m        | Opposed - SI                 | A controlled flame erupts and stays in the mage's hand, inflicting **SI burning** damage on touch to a **ST**. | The caster is affected, instead. |
-| 1     | Cone of Fire         | 3  | SI * 6'/2m   | Opposed                      | The mage shoots a burst of fire in a short cone in front of them, hitting up to two adjacent **MST**, dealing **SI D4 burning** damage. | The caster and anyone next to them is affected, instead. |
-| 3     | Fire Ball            | 2  | SI * 45'/15m | SI                           | The mage forms a large ball of flame between their hands, ready to be flung at a target location, dealing **SI D6 burning** damage in a **AOE** 6'/2m radius. | The caster and anyone next to them is affected, instead. |
-| 7     | Flame Jet            | 3  | SI * 30'/10m | SI + 1                       | A steady stream of flame shoots from the mage's hands, dealing **SI D6 burning** damage to anything caught by it, in a straight **AOE** line.  | The line of fire erupts backwards, through the mage. They and anyone behind them, in the line's range is affected. |
-| 9     | Rain of Fire         | 4  | SI * 60'/20m | SI + 3                       | The mage makes fire rain from the sky. A ball of fire falls from the sky for every **SI**, dealing **6 D6 + SI burning** damage in a **AOE** 24'/8m radius, at a location of choice. | No fire falls from the sky, instead the SI number of fire balls erupt in the mage's hands. They and anyone in the radius suffers the damage. |
+| 0     | Burning Touch        | 2  | 3'/1m        | Opposed - SI                 | A controlled flame erupts and stays in the mage's hand, inflicting `SI + 2` **burning** damage on touch to a **ST**. | The caster is affected, instead. |
+| 1     | Cone of Fire         | 3  | SI * 6'/2m   | Opposed                      | The mage shoots a burst of fire in a short cone in front of them, hitting up to two adjacent **MST**, dealing `SI D4` **burning** damage. | The caster and anyone next to them is affected, instead. |
+| 3     | Fire Ball            | 2  | SI * 45'/15m | SI                           | The mage forms a large ball of flame between their hands, ready to be flung at a target location, dealing `SI D6` **burning** damage in a **AOE** `SI * 3'/1m` radius. | The caster and anyone next to them is affected, instead. |
+| 7     | Flame Jet            | 3  | SI * 30'/10m | SI + 1                       | A steady stream of flame shoots from the mage's hands, dealing `SI D6` **burning** damage to anything caught by it, in a straight **AOE** line.  | The line of fire erupts backwards, through the mage. They and anyone behind them, in the line's range is affected. |
+| 9     | Rain of Fire         | 4  | SI * 60'/20m | SI + 3                       | The mage makes fire rain from the sky. A ball of fire falls from the sky for every `SI`, dealing `6D6 + SI` **burning** damage in a **AOE** `24'/8m` radius, at a location of choice. | No fire falls from the sky, instead the SI number of fire balls erupt in the mage's hands. They and anyone in the radius suffers the damage. |
 
 ### Restoration (Arc/Awar)
 The mending of [injuries](./core-rules.md#injury) and treatment of [diseases](./core-rules.md#illness). 
@@ -1099,8 +1056,8 @@ Only targets within and up to the given *distance* can be moved and only within 
 
 | Level | Name                   | AP | Distance     | Ob                           | Effect(s)                      | Backfire Effect(s) |
 | ----- | ---------------------- | -- | ------------ | ---------------------------- | ------------------------------ | ------------------ |
-| 0     | Telekinesis            | 2  | SI * 15'/5m  | SI                           | Move an inanimate **ST** object at great velocity (if desired), which allows it to deal **SI D4** **variant** (depending on the type of object) damage upon impact. | The caster suffers +1 [exhaustion](./core-rules.md#exhaustion). |
-| 3     | Creature Telekinesis   | 3  | SI * 15'/5m  | Opposed                      | Move a **ST** large, or smaller, creature. | The caster is knocked back **SI** * 9'/3m and suffers **SI bludgeoning** damage. |
+| 0     | Telekinesis            | 2  | SI * 15'/5m  | SI                           | Move an inanimate **ST** object at great velocity (if desired), which allows it to deal `SI D4` **variant** (depending on the type of object) damage upon impact. | The caster suffers +1 [exhaustion](./core-rules.md#exhaustion). |
+| 3     | Creature Telekinesis   | 3  | SI * 15'/5m  | Opposed                      | Move a **ST** large, or smaller, creature. | The caster is knocked back `SI * 9'/3m` and suffers `SI * 2` **bludgeoning** damage. |
 
 ### Telepathy (Arc/Wit)
 The ability to communicate wordlessly, to alter emotions and even issue compelling commands against another's will. 
