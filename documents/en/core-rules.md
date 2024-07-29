@@ -137,10 +137,6 @@
     - [Determine Max HP \& Injury Maximum](#determine-max-hp--injury-maximum)
     - [Determine Exhaustion Threshold](#determine-exhaustion-threshold)
   - [Asset Appendix](#asset-appendix)
-      - [Armor Types](#armor-types)
-        - [Light Armor](#light-armor)
-        - [Medium Armor](#medium-armor)
-        - [Heavy Armor](#heavy-armor)
     - [List of General Assets](#list-of-general-assets)
     - [Weapon Properties](#weapon-properties)
   - [Lists of Skills](#lists-of-skills)
@@ -1773,54 +1769,6 @@ Determine your character's [exhaustion threshold](#exhaustion), by referring to 
 
 ## Asset Appendix
 The following list does not and cannot aim to be a complete listing of all possible assets in game. Adding new assets as necessary will have to be done by the **GM**. 
-
-#### Armor Types
-The following are the armors included in the core rules. Modules may introduce their own armors, more fitting to the theme and setting, with different values. 
-
-##### Light Armor
-A set of light armor that doesn't impede the wearer much. 
-
-* Bulk: 2
-
-| Protections                 | 
-| --------------------------- | 
-| 14 **Slashing**             | 
-| 12 **Piercing**             | 
-| 8 **Bludgeoning**           | 
-| 8 **Crushing**              | 
-| 6 **Acid**                  | 
-
-##### Medium Armor
-A set of medium armor with a good balance of protection and weight. 
-
-* Bulk: 3
-* Causes a permanent +1 [exhaustion](./core-rules.md#exhaustion) while worn. 
-* `-1D` to any defence tests while worn. 
-
-| Protections                 | 
-| --------------------------- | 
-| 18 **Slashing**             | 
-| 16 **Piercing**             | 
-| 10 **Bludgeoning**          | 
-| 10 **Crushing**             | 
-| 8 **Acid**                  | 
-| 8 **Electrical**            | 
-
-##### Heavy Armor
-A set of heavy armor with excellent protection, at the cost of encumbering the wearer greatly. 
-
-* Bulk: 4
-* Causes a permanent +2 [exhaustion](./core-rules.md#exhaustion) while worn. 
-* `-2D` to any defence tests while worn. 
-
-| Protections                 | 
-| --------------------------- | 
-| 22 **Slashing**             | 
-| 20 **Piercing**             | 
-| 12 **Bludgeoning**          | 
-| 12 **Crushing**             | 
-| 10 **Acid**                 | 
-| 10 **Electrical**           | 
 
 ### List of General Assets
 The following is a list of general assets. Of course, the following list is non-exhaustive. Invent more at your own need. 

@@ -36,6 +36,10 @@
   - [List of Assets](#list-of-assets)
     - [Armor](#armor)
       - [Armor Properties](#armor-properties)
+      - [Armor Types](#armor-types)
+        - [Light Armor](#light-armor)
+        - [Medium Armor](#medium-armor)
+        - [Heavy Armor](#heavy-armor)
     - [Shield Types](#shield-types)
         - [Buckler](#buckler)
         - [Round Shield](#round-shield)
@@ -395,6 +399,51 @@ Armor can have the following **properties**:
 * **Ambersteel-Forged**: Bonus protection from magic: **+2** for every quality level. **+1D8** for every two **quality levels**, starting at level 1.
 
 > An **Ambersteel**-lined armor at quality level 3 would have +(3 + **2D4**) protection from magic. 
+
+#### Armor Types
+The following are the armors included in the core rules. Modules may introduce their own armors, more fitting to the theme and setting, with different values. 
+
+##### Light Armor
+A set of light armor that doesn't impede the wearer much. Example: cloth armor like a gambeson. 
+
+* Bulk: 2
+
+| Protections                 | 
+| --------------------------- | 
+| 14 **Slashing**             | 
+| 12 **Piercing**             | 
+| 8 **Bludgeoning**           | 
+| 6 **Acid**                  | 
+
+##### Medium Armor
+A set of medium armor with a good balance of protection and weight. Example: full chain mail armor, with or without a helmet. 
+
+* Bulk: 3
+* Causes a permanent +1 [exhaustion](./core-rules.md#exhaustion) while worn. 
+* `-1D` to any defence tests while worn. 
+
+| Protections                 | 
+| --------------------------- | 
+| 18 **Slashing**             | 
+| 16 **Piercing**             | 
+| 10 **Bludgeoning**          | 
+| 8 **Acid**                  | 
+| 8 **Electrical**            | 
+
+##### Heavy Armor
+A set of heavy armor with excellent protection, at the cost of encumbering the wearer greatly. Example: full plate armor. 
+
+* Bulk: 4
+* Causes a permanent +2 [exhaustion](./core-rules.md#exhaustion) while worn. 
+* `-2D` to any defence tests while worn. 
+
+| Protections                 | 
+| --------------------------- | 
+| 22 **Slashing**             | 
+| 20 **Piercing**             | 
+| 12 **Bludgeoning**          | 
+| 10 **Acid**                 | 
+| 10 **Electrical**           | 
 
 ### Shield Types
 Shields are items that provide passive bonuses to defense against melee and ranged attacks and require one free hand to use. This implies they cannot be used at the same time as a two-handed weapon (unless of course if you have more than two arms). 
