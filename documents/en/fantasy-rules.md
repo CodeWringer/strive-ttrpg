@@ -56,7 +56,6 @@
       - [Spear (Agi/Str)](#spear-agistr)
       - [Lance (Awar/Str)](#lance-awarstr)
       - [Polearm (Str/Tough)](#polearm-strtough)
-      - [Club (Str/Str)](#club-strstr)
       - [Small Crusher (Str/Str)](#small-crusher-strstr)
       - [Large Crusher (Str/Tough)](#large-crusher-strtough)
       - [Short-Bow (Awar/Awar)](#short-bow-awarawar)
@@ -286,7 +285,7 @@ What's more, it takes great skill to carve the right **runes**, as each **rune's
 
 Due to how **runes** are always magically charged, they cannot be in the vicinity of any other **runes**. This works a bit like how magnets with the same polarity repulse each other, but a lot more dangerous. This condition applies regardless of the type of magic each of the **runes** hold. 
 
-If two **runes** are brought to a distance of 20m/60' or less to each other, they begin to glow, hum and rumble, as if to warn their bearers. Should they be brought to a distance of 15m/45' or less to each other, they both discharge the magic they hold and repulse each other. This means anyone immediately nearby suffers the [spell-backfire](#spell-backfire) of the respective **rune**, in addition to suffering **3D6 Crushing** damage. The **runes** are flung away from each other far enough to be at least 21m/63' apart. *Also*, the **runes** may be **destroyed** in the process. There is a 1 in 3 chance of this occurring. Roll 1D6 for each of the **runes**. If the result is a 1 or 2, the **rune** is **destroyed**! 
+If two **runes** are brought to a distance of 20m/60' or less to each other, they begin to glow, hum and rumble, as if to warn their bearers. Should they be brought to a distance of 15m/45' or less to each other, they both discharge the magic they hold and repulse each other. This means anyone immediately nearby suffers the [spell-backfire](#spell-backfire) of the respective **rune**, in addition to suffering **3D6 Bludgeoning** damage. The **runes** are flung away from each other far enough to be at least 21m/63' apart. *Also*, the **runes** may be **destroyed** in the process. There is a 1 in 3 chance of this occurring. Roll 1D6 for each of the **runes**. If the result is a 1 or 2, the **rune** is **destroyed**! 
 
 It may be possible to circumvent this repulsion behavior by placing the **runes** in a container made of [Ambersteel](#ambersteel). This requires the container to be of a [quality](./core-rules.md#crafting) level equal to the highest of the **runes'** [spell intensity](#spell-intensity-si).
 
@@ -306,7 +305,7 @@ In order to invoke a **rune**:
 
 Due to how **magic scrolls** are always magically charged, they cannot be in the vicinity of any other **magic scrolls**. This works a bit like how magnets with the same polarity repulse each other, but a lot more dangerous. This condition applies *only* to **magic scrolls** of **same the type of magic**. 
 
-If two **magic scrolls** **of the same type** are brought to a distance of 20m/60' or less to each other, they begin to glow, hum and rumble, as if to warn their bearers. Should they be brought to a distance of 15m/45' or less to each other, they both discharge the magic they hold and repulse each other. This means anyone immediately nearby suffers the [spell-backfire](#spell-backfire) of the respective **magic scroll**, in addition to suffering **3D6 Crushing** damage. The **magic scrolls** are destroyed in the process! 
+If two **magic scrolls** **of the same type** are brought to a distance of 20m/60' or less to each other, they begin to glow, hum and rumble, as if to warn their bearers. Should they be brought to a distance of 15m/45' or less to each other, they both discharge the magic they hold and repulse each other. This means anyone immediately nearby suffers the [spell-backfire](#spell-backfire) of the respective **magic scroll**, in addition to suffering **3D6 Bludgeoning** damage. The **magic scrolls** are destroyed in the process! 
 
 It may be possible to circumvent this repulsion behavior by placing the **magic scrolls** in a container made of [Ambersteel](#ambersteel). This requires the container to be of a [quality](./core-rules.md#crafting) level equal to the highest of the **magic scrolls'** [spell intensity](#spell-intensity-si).
 
@@ -496,7 +495,7 @@ The following is a list of general assets. Of course, the following list is non-
 | Calming Tea            | 1    | 3               | This herbal tea has the ability to calm nerves. Removes [berserk](./core-rules.md#berserk), [jealous](./core-rules.md#jealous) and [terrified](./core-rules.md#terrified). Best enjoyed steaming hot, but not necessarily. |
 | Smoke Bomb             | 1    | 3               | A small fragile shell, filled with a very fine powder which when broken causes an area in a 6'/2m radius to be covered in smoke. It is impossible to see through and ranged attacks within or through the area suffer +2 **Ob**. Victims caught in the smoke may be forced to cough. The smoke lasts 6 turns or 30 seconds. |
 | Acid Bomb              | 1    | 2               | A small fragile shell with two compartments, filled with two liquids which, when they combine, act as a powerful acid. When shattered, deals **2D8** **acid** damage to whatever it hits. |
-| Blackpowder Bomb       | 1    | 2               | A small iron-shelled bomb, filled with blackpowder. A short fuse sticks out and must be lit to set it off. Once lit, the bomb will detonate after 3 turns or 15 seconds. Deals **2D6** **crushing** + **2D6** **burning** damage to anyone in a 6'/2m radius. |
+| Blackpowder Bomb       | 1    | 2               | A small iron-shelled bomb, filled with blackpowder. A short fuse sticks out and must be lit to set it off. Once lit, the bomb will detonate after 3 turns or 15 seconds. Deals **2D6** **Bludgeoning** + **2D6** **burning** damage to anyone in a 6'/2m radius. |
 | Throwing Blade         | 1    | 6               | A small weighted blade, like a knife or star, well suited to being thrown. Can be used in melee and acts like a [dagger](#dagger-agiawar), but with a penalty of **-2D** to attack and defence. **+1D** when [thrown](./core-rules.md#throwing-accuracy) for a ranged attack. Deals **2D4 + Str** **piercing** damage. |
 
 ### Weapon Types
@@ -547,7 +546,7 @@ Any long and heavier blade, including heavy one-handed blades. Examples: longswo
 | ----- | -------------------- | -- | ----------- | -------------------------------- | ------ |
 | 0     | Slash                | 2  | Opposed     | `2D8` Slashing                   | / |
 | 0     | Stab                 | 2  | Opposed     | `2D8` Piercing                   | / |
-| 2     | Mord-Strike          | 2  | Opposed + 2 | `1D6 + 1` Crushing               | / |
+| 2     | Mord-Strike          | 2  | Opposed + 2 | `1D6 + 1` Bludgeoning            | / |
 | 3     | Fencer-Stance        | 2  | /           | /                                | Enter a defensive fencing stance. Gain **+1D** for melee defense and can [counter-attack](./core-rules.md#defence-stunts) **every** attack. |
 
 #### Great Blade (Str/Tough)
@@ -562,7 +561,7 @@ Any very long and heavy two-handed blade. Examples: great-sword, sword of war, g
 | 0     | Slash                | 2  | Opposed     | `3D8` Slashing                   | / |
 | 0     | Stab                 | 2  | Opposed     | `2D8 + 2` Piercing               | / |
 | 2     | Blade Barrier        | 2  | Opposed     | /                                | Whenever any character moves **into** a spot within reach, can attack that character with a **slash** at **Ob** + 1 and always force them back 3'/1m. |
-| 3     | Heavy Blow           | 3  | Opposed + 1 | `2D8` Slashing + `1D8` Crushing  | Defending against this attack costs 2 [AP](#action-points-ap). +1 [exhaustion](#exhaustion) to self. |
+| 3     | Heavy Blow           | 3  | Opposed + 1 | `2D8` Slashing + `1D8` Bludgeoning | Defending against this attack costs 2 [AP](#action-points-ap). +1 [exhaustion](#exhaustion) to self. |
 
 #### Axe (Str/Str)
 Small and light axes. Examples: hatchet, dane axe, woodcutter's axe
@@ -573,7 +572,7 @@ Small and light axes. Examples: hatchet, dane axe, woodcutter's axe
 
 | Level | Name                 | AP | **Ob**      | Damage                           | Notes  |
 | ----- | -------------------- | -- | ----------- | -------------------------------- | ------ |
-| 0     | Hack                 | 2  | Opposed     |  `1D6 + 2` Slashing + `1D4` Crushing | / |
+| 0     | Hack                 | 2  | Opposed     |  `1D6 + 2` Slashing + `1D4` Bludgeoning | / |
 | 1     | Savage Slash         | 2  | Opposed + 1 |  `1D6 + 2` Slashing              | +1 [bleeding](#bleeding) to the target (if it can bleed). |
 
 #### Great Axe (Str/Str)
@@ -584,9 +583,9 @@ Large and heavy axes. Examples: bearded axe, double-sided axe
 
 | Level | Name                 | AP | **Ob**      | Damage                           | Notes  |
 | ----- | -------------------- | -- | ----------- | -------------------------------- | ------ |
-| 0     | Hack                 | 2  | Opposed     | `1D8` Slashing + `2D4` Crushing  | / |
+| 0     | Hack                 | 2  | Opposed     | `1D8` Slashing + `2D4` Bludgeoning | / |
 | 2     | Savage Slash         | 2  | Opposed + 2 | `2D8` Slashing                   | +2 [bleeding](#bleeding) to the target (if it can bleed). |
-| 3     | Heavy Blow           | 3  | Opposed + 1 | `1D8` Slashing + `1D6 + 2` Crushing | Defending against this attack costs 2 [AP](#action-points-ap). +1 [exhaustion](#exhaustion) to self. |
+| 3     | Heavy Blow           | 3  | Opposed + 1 | `1D8` Slashing + `1D6 + 2` Bludgeoning | Defending against this attack costs 2 [AP](#action-points-ap). +1 [exhaustion](#exhaustion) to self. |
 
 #### Spear (Agi/Str)
 Any one or two-handed short piercing polearms. Examples: short-spear, boar-spear
@@ -630,38 +629,27 @@ Flexible polearms with a focus on slashing. Examples: halberd, bardiche, poleaxe
 | 1     | Blade Barrier        | 2  | Opposed     | /                                | Whenever any character moves **into** a spot within reach, can attack that character with a **stab** at **Ob** + 1 and always force them back 3'/1m. |
 | 2     | Cleave               | 2  | Opposed + 2 | `3D6` Slashing                   | Deals damage to up to two targets adjacent to each other and within reach. |
 
-#### Club (Str/Str)
-Simple, improvised bludgeoning weapons. Examples: wooden club, staff, stick
-
-* Melee
-* Bulk: 2
-
-| Level | Name                 | AP | **Ob**      | Damage                           | Notes  |
-| ----- | -------------------- | -- | ----------- | -------------------------------- | ------ |
-| 0     | Clobber              | 2  | Opposed     | `Str + 2D4` Bludgeoning          | / |
-| 0     | Knockout Blow        | 2  | Opposed + 2 | `Str + 2D6 + 2` Bludgeoning      | +1 [exhaustion](./core-rules.md#exhaustion) to target. |
-| 0     | Smash                | 2  | Opposed     | `Str + 1D4` Crushing             | / |
-
 #### Small Crusher (Str/Str)
-Small, heavy crushing weapons with a dedicated *impact zone* on the weapon head which directs more force into the target. Examples: flanged mace, warhammer, flail, morning star
+Small bludgeoning weapons. Examples: any improvised weapon, any club, any mace
 
 * Melee
 * Bulk: 2
 
 | Level | Name                 | AP | **Ob**      | Damage                           | Notes  |
 | ----- | -------------------- | -- | ----------- | -------------------------------- | ------ |
-| 0     | Smash                | 2  | Opposed     | `Str + 1D6 + 2` Crushing         | / |
+| 0     | Smash                | 2  | Opposed     | `1D6 + Str` Bludgeoning      | / |
+| 0     | Knockout Blow        | 2  | Opposed + 2 | `1D6 + Str` Bludgeoning      | +2 [exhaustion](./core-rules.md#exhaustion) to target. |
 
 #### Large Crusher (Str/Tough)
-Large, heavy crushing weapons with a dedicated *impact zone* on the weapon head which directs more force into the target. Examples: grand-mace, polehammer, two-handed flail
+Large bludgeoning weapons with a dedicated *impact zone* on the weapon head which directs more force into the target. Examples: grand-mace, polehammer, two-handed flail
 
 * Melee
 * Bulk: 3
 
 | Level | Name                 | AP | **Ob**      | Damage                           | Notes  |
 | ----- | -------------------- | -- | ----------- | -------------------------------- | ------ |
-| 0     | Smash                | 2  | Opposed     | `Str + 1D8 + 2` Crushing         | / |
-| 1     | Mighty Smash         | 2  | Opposed + 2 | `Str + 2D8 + 1` Crushing         | Defending against this attack costs 2 [AP](#action-points-ap). +1 [exhaustion](#exhaustion) to self. |
+| 0     | Smash                | 2  | Opposed     | `1D8 + Str` Bludgeoning      | / |
+| 1     | Mighty Smash         | 2  | Opposed + 2 | `2D8 + Str` Bludgeoning      | Defending against this attack costs 2 [AP](#action-points-ap). +1 [exhaustion](#exhaustion) to self. |
 
 #### Short-Bow (Awar/Awar)
 A short distance ranged weapon, shooting arrows.
@@ -764,9 +752,9 @@ The ability to make armor from conventional materials, such as metal and leather
 [Crafting](#crafting)
 | Product                              | Complexity | Workload  | Materials                              | Quality Bonus   |
 | ------------------------------------ | ---------- | --------- | -------------------------------------- | --------------- | 
-| 1 [light armor](#light-armor)        | High       | High      | Any shapeable sturdy and flexible material, such as iron, steel, leather or chitin. | Every **positive**: +1 **Slashing**; Every 2 **positives**: +1 **Bludgeoning**; Every 3 **positives**: +1 **Crushing**, +1 **Piercing** |
-| 1 [medium armor](#medium-armor)      | High       | Very High | Any shapeable sturdy and flexible material, such as iron, steel, leather or chitin. | Every **positive**: +1 **Slashing**; Every 2 **positives**: +1 **Bludgeoning**; Every 3 **positives**: +1 **Crushing**, +1 **Piercing** |
-| 1 [heavy armor](#heavy-armor)        | High       | Very High | Any shapeable sturdy and flexible material, such as iron, steel, leather or chitin. | Every **positive**: +1 **Slashing**; Every 2 **positives**: +1 **Bludgeoning**; Every 3 **positives**: +1 **Crushing**, +1 **Piercing** |
+| 1 [light armor](#light-armor)        | High       | High      | Any shapeable sturdy and flexible material, such as iron, steel, leather or chitin. | Every **positive**: +1 **Slashing**; Every 2 **positives**: +1 **Piercing**; Every 3 **positives**: +1 **Bludgeoning** |
+| 1 [medium armor](#medium-armor)      | High       | Very High | Any shapeable sturdy and flexible material, such as iron, steel, leather or chitin. | Every **positive**: +1 **Slashing**; Every 2 **positives**: +1 **Piercing**; Every 3 **positives**: +1 **Bludgeoning** |
+| 1 [heavy armor](#heavy-armor)        | High       | Very High | Any shapeable sturdy and flexible material, such as iron, steel, leather or chitin. | Every **positive**: +1 **Slashing**; Every 2 **positives**: +1 **Piercing**; Every 3 **positives**: +1 **Bludgeoning** |
 
 #### Ambersmithing (Str/Wit)
 The ability to make things from [Amberite](#amberite). 
@@ -1045,12 +1033,12 @@ Only targets within and up to the given *distance* can be moved and only within 
 
 | Level | Name                 | AP | Distance     | Ob                           | Effect(s)                      | Backfire Effect(s) |
 | ----- | -------------------- | -- | ------------ | ---------------------------- | ------------------------------ | ------------------ |
-| 0     | Psionic Telekinesis  | 3  | SI * 30'/10m | Opposed                      | Move a **ST** at great velocity (if desired), which allows it to deal `SI D6` **variant** (depends on the type of object, if it is an object) damage upon impact. Alternatively, **crush** or restrain the object or creature. Can target yourself. | The caster is affected, instead. |
+| 0     | Psionic Telekinesis  | 3  | SI * 30'/10m | Opposed                      | Move a **ST** at great velocity (if desired), which allows it to deal `SI D6` **variant** (depends on the type of object, if it is an object) damage upon impact. Alternatively, **bludgeon** or restrain the object or creature. Can target yourself. | The caster is affected, instead. |
 | 0     | Psionic Missile      | 2  | SI * 15'/5m  | Opposed                      | Using psionics, extend the force of a punch, to hurl a focused psionic shockwave towards a **ST**, dealing `SI D6` **bludgeoning** damage. | The caster is affected, instead. |
 | 1     | Psionic Shield       | 2  | SI * 9'/3m   | SI                           | As a **reaction** to you or an ally being hit with an attack, cast a shield of psionic energy to erupt around yourself or an ally within distance, which absorbs up to `SI * 10` points of any damage. | Instead of absorbing damage, the target instead suffers an additional `SI * 3` points of **bludgeoning** damage. |
 | 1     | Psionic Hasten       | 2  | SI * 36'/18m | 3 + SI                       | **Concentration**: [Hasten](./core-rules.md#hasted) up to `SI` creatures of choice. | The caster suffers +1 [exhaustion](./core-rules.md#exhaustion). |
 | 1     | Levitate             | 1  | SI * 9'/3m   | Opposed                      | **Concentration**: Cause yourself or one other **ST** of choice, within *distance* to levitate a short distance above the ground. | The caster suffers +1 [exhaustion](./core-rules.md#exhaustion). |
-| 3     | Dimensional Shift    | 3  | SI * 30'/10m | Opposed                      | Cause a dimensional rift to open and swallow a **ST** of choice, which another rift releases at a location of your choosing, a moment later. | The caster is instead swallowed by a rift, immediately tossed back out in the same spot and suffers `1D10` points of **crushing** damage. |
+| 3     | Dimensional Shift    | 3  | SI * 30'/10m | Opposed                      | Cause a dimensional rift to open and swallow a **ST** of choice, which another rift releases at a location of your choosing, a moment later. | The caster is instead swallowed by a rift, immediately tossed back out in the same spot and suffers `1D10` points of **bludgeoning** damage. |
 
 ### Pyromancy (Arc/Arc)
 The summoning and control of fire. The flame being a destructive force, pyromancers enjoy little utility from their magic, beyond the ability to create light and heat. 
@@ -1097,7 +1085,7 @@ Another important note about targeting a specific soul. It is easier to recall t
 ### Telekinesis (Arc/Agi)
 The ability to affect things and even creatures from afar, using magic instead of muscles or tools. 
 
-When using objects as projectiles, choose the [damage type](#damage-types) as appropriate. For example, a crossbow bolt might cause **piercing** damage, while a rock might cause **crushing** damage.
+When using objects as projectiles, choose the [damage type](#damage-types) as appropriate. For example, a crossbow bolt might cause **piercing** damage, while a rock might cause **bludgeoning** damage.
 
 The mage can only ever perform *one* movement with a spell cast. So, for example, it is not possible to violently shake things or creatures around, without casting **telekinesis** multiple times, to do so. During combat, every movement takes one turn. Out of combat, about five seconds. A single movement is a displacement from one point to another, in a straight and uninterrupted line. 
 

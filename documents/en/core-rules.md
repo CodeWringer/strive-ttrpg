@@ -202,9 +202,8 @@
   - [List of Injuries](#list-of-injuries)
     - [Acid Injuries](#acid-injuries)
     - [Bleeding Injuries](#bleeding-injuries)
-    - [Bludgeoning Injuries](#bludgeoning-injuries)
     - [Burning Injuries](#burning-injuries)
-    - [Crushing Injuries](#crushing-injuries)
+    - [Bludgeoning Injuries](#bludgeoning-injuries)
     - [Electrical Injuries](#electrical-injuries)
     - [Freezing Injuries](#freezing-injuries)
     - [Piercing Injuries](#piercing-injuries)
@@ -978,9 +977,8 @@ All damage inflicted, is inflicted with one of these types, which dictate the ty
 | ----------- | ----------- |
 | Acid        | Dissolves anything it touches, depending on circumstance. Causes [acid injuries](#acid-injuries). |
 | Bleeding    | Inflicted by [bleeding](#bleeding). The result of open wounds. Causes [bleeding injuries](#bleeding-injuries). |
-| Bludgeoning | Inflicted by blunt weapons and [unarmed](#unarmed-combat-agistr) attacks. **Bludgeoning** causes (mostly) non-lethal damage. Causes [bludgeoning injuries](#bludgeoning-injuries). Can cause a character to fall [unconscious](#unconscious), for that, see [bludgeoned to 0 HP](#bludgeoned-to-0-hp). |
+| Bludgeoning | Inflicted by blunt weapons and [unarmed](#unarmed-combat-agistr) attacks. Can cause a character to fall [unconscious](#unconscious), for that, see [bludgeoned to 0 HP](#bludgeoned-to-0-hp). |
 | Burning     | Inflicted by extreme heat. Causes [burning injuries](#burning-injuries). |
-| Crushing    | Usually inflicted by any sort of heavy blunt weapon, like a hammer, or an animal's tusks. Causes [crushing injuries](#crushing-injuries). |
 | Electrical  | Inflicted by eletrical shock. Causes [electrical injuries](#electrical-injuries). |
 | Freezing    | Inflicted by extreme cold. Causes [freezing injuries](#freezing-injuries). |
 | Piercing    | Usually inflicted by any sort of stabbing weapon, like a spear, or an animal's stinger. Causes [piercing injuries](#piercing-injuries). |
@@ -1380,11 +1378,11 @@ An **attack of opportunity** is a **combat action** and a **reaction**.
 ### Stealth Attacks
 When attacking another character from stealth, the moment of surprise can make all the difference. An attack from stealth counts as an automatic success and you may go on to roll damage right away. 
 
-In addition to an automatic success, the attack also deals **+1D** damage or if the damage is a flat number, add half of that number, rounded up. 
+In addition to an automatic success, add half of the damage (rounded up) to be dealt as additional damage. In the case of multiple damage types in one attack, add half of *each* (and each rounded up). 
 
-When attacking with [bludgeoning](#damage-types), you may knock another character [unconscious](#unconscious) with one fell swoop. For this, their [toughness](#toughness-tough) must not be more than 3 levels greater than your [strength](#strength-str). Otherwise, the normal stealth damage bonus applies. 
+When attacking with [bludgeoning](#damage-types), you may knock another character [unconscious](#unconscious) with one fell swoop. For this, their [toughness](#toughness-tough) must not be more than 2 levels greater than your [strength](#strength-str). Otherwise, the normal stealth damage bonus applies. 
 
-> For example, two ordinary humans: one is attacking from stealth with a club and has **strength** 2, while the victim has **toughness** 5. The victim is knocked unconscious right away, as their **toughness** is still within 3 levels of their attacker. 
+> For example, two ordinary humans: one is attacking from stealth with a club and has **strength** 2, while the victim has **toughness** 4. The victim is knocked unconscious right away. 
 >
 > On the other hand, the same human attacking a giant from stealth with a club cannot knock that giant unconscious, assuming that giant to have a **toughness** of 10. The difference of 8 levels is simply too great. 
 
@@ -1404,8 +1402,6 @@ Defending against [area of effect](#area-of-effect) attacks is *only* possible a
 
 ### Armor
 Armor can negate or at least reduce the damage taken, after a defence test has failed. The core rules define 3 types of armor, classified as a general light, medium and heavy variant. As protection numbers increase, the encumbrance of the wearer also increases. 
-
-The core rules' armors can be found in the [appendix](#armor-types). 
 
 ### Defending an Ally
 It is possible for a character to defend an adjacent ally when they're being attacked. This costs 2 [AP](#action-points-ap) and results in the ally taking over the defense being forced to roll the defense test, instead of the originally attacked character. 
@@ -1492,7 +1488,7 @@ When throwing non-weapons, the damage dealt is calculated the following way: [st
 
 Even if the `bulk - 1` formula would result in 0, instead use 1. The resulting multiplicator must not be less than 1. 
 
-The [damage type](#damage-types) to use, depends on the type of object and how it hits the target. For most non-weapons, **bludgeoning** or **crushing** should be appropriate. 
+The [damage type](#damage-types) to use, depends on the type of object and how it hits the target. For most non-weapons, **bludgeoning** should be appropriate. 
 
 > A character with [strength](#strength-str) 5, throwing a [bulk](#bulk) 3 object, can deal 5 * (3 - 1) = 10 points of damage. 
 
@@ -2178,22 +2174,6 @@ Note that "Cosmic Fortune" is not an actual **injury**. When it is rolled for, *
 | 34 - 66    | Exsanguinated       | /         | -1 [strength](#strength-str); -1 [wit](#wit-wit). The skin is pale and the body feels heavy. | / |
 | 67 - 100   | Weakened            | /         | -1 [strength](#strength-str); -1 [toughness](#toughness-tough). You feel weak. | / |
 
-### Bludgeoning Injuries
-* Self patch-up: [Toughness](#toughness-tough) at **Ob** 1. 
-* Treatment skill: [medicine](#medicine-agiwit)
-* Required supplies: 1 [medical supplies](#list-of-stuff--things)
-* **Ob**: 1 | 2
-* Time to heal: 1D4 days | 1D4 days
-
-Note that whenever a bludgeoning [injury](#injury) is suffered, a [toughness](#thoughness-tough) [test](#tests) must be succeeded at **Ob** equal to the current level of [exhaustion](#exhaustion). If failed, the character falls [unconscious](#unconscious), immediately. 
-
-| Range D100 | Injury              | Limit     | Description                      | Scar                |
-| ---------  | ------------------- | --------- | -------------------------------- | ------------------- |
-| 1  - 25    | Dizzy               | /         | +1 [exhaustion](#exhaustion); -1 [awareness](#awareness-awar). You feel dizzy. Focusing is difficult. | / |
-| 26 - 50    | Battered Head       | /         | +1 [exhaustion](#exhaustion); -1 [wit](#wit-wit). Headache plagues you and pain dulls your mind. | / |
-| 51 - 75    | Bruise              | /         | +1 [exhaustion](#exhaustion); -1 [agility](#agility-agi). A bruised limb is harder to control, due to pain. | / |
-| 76 - 100   | Shaken              | /         | +1 [exhaustion](#exhaustion); -1 [toughness](#toughness-tough). Rattled and shaken, it is harder to control yourself. | / |
-
 ### Burning Injuries
 * Self patch-up: [Toughness](#toughness-tough) at **Ob** 3 every day. 
 * Treatment skill: [medicine](#medicine-agiwit)
@@ -2208,7 +2188,7 @@ Note that whenever a bludgeoning [injury](#injury) is suffered, a [toughness](#t
 | 51 - 75    | Burned Face         | /         | -1 [awareness](#awareness-awar). Involuntarily, you close your eyes in hopes of protecting them from the fire. In vain. Speech is impaired from your pain contorted face. | Burned face |
 | 76 - 100   | Molten Muscles      | /         | -1 [strength](#strength-str). Heat induced atrophy. | / |
 
-### Crushing Injuries
+### Bludgeoning Injuries
 * Self patch-up: Impossible
 * Treatment skill: [surgery](#surgery-agiwit)
 * Required supplies: 1 [medical supplies](#list-of-stuff--things)
@@ -2217,12 +2197,16 @@ Note that whenever a bludgeoning [injury](#injury) is suffered, a [toughness](#t
 
 | Range D100 | Injury              | Limit     | Description                      | Scar                |
 | ---------  | ------------------- | --------- | -------------------------------- | ------------------- |
-| 1  - 17    | Broken Nose         | 1         | -1 [awareness](#awareness-awar); Cannot smell. | Disfigured nose |
-| 18 - 33    | Concussion          | /         | -1 [awareness](#awareness-awar). The pain and the impact disorient you. | / |
-| 34 - 50    | Fractured Rib       | /         | -1 [toughness](#toughness-tough). A rib has cracked and is now pointing the wrong way. | Crooked rib cage |
-| 51 - 67    | Skull Fracture      | /         | -1 [wit](#wit-wit). Thoughts come to you slower than before. | / |
-| 68 - 83    | Broken Bone         | /         | -1 [strength](#strength-str). _Some_ bone is broken. And the pain causes you to tensen up, weakening you. | / |
-| 84 - 100   | Smashed Jaw         | /         | -1 [wit](#wit-wit). Your jaw no longer hinges the way it should and speech is impaired. | Crooked jaw |
+| 1  - 10    | Battered Head       | /         | +1 [exhaustion](#exhaustion); -1 [wit](#wit-wit). Headache plagues you and pain dulls your mind. | / |
+| 11 - 20    | Broken Bone         | /         | -1 [strength](#strength-str). _Some_ bone is broken. And the pain causes you to tensen up, weakening you. | / |
+| 21 - 30    | Broken Nose         | 1         | -1 [awareness](#awareness-awar); Cannot smell. | Disfigured nose |
+| 31 - 40    | Bruise              | /         | +1 [exhaustion](#exhaustion); -1 [agility](#agility-agi). A bruised limb is harder to control, due to pain. | / |
+| 41 - 50    | Concussion          | /         | -1 [awareness](#awareness-awar). The pain and the impact disorient you. | / |
+| 51 - 60    | Dizzy               | /         | +1 [exhaustion](#exhaustion); -1 [awareness](#awareness-awar). You feel dizzy. Focusing is difficult. | / |
+| 61 - 70    | Fractured Rib       | /         | -1 [toughness](#toughness-tough). A rib has cracked and is now pointing the wrong way. | Crooked rib cage |
+| 71 - 80    | Shaken              | /         | +1 [exhaustion](#exhaustion); -1 [toughness](#toughness-tough). Rattled and shaken, it is harder to control yourself. | / |
+| 81 - 90    | Skull Fracture      | /         | -1 [wit](#wit-wit). Thoughts come to you slower than before. | / |
+| 91 - 100   | Smashed Jaw         | /         | -1 [wit](#wit-wit). Your jaw no longer hinges the way it should and speech is impaired. | Crooked jaw |
 
 ### Electrical Injuries
 * Self patch-up: [Toughness](#toughness-tough) at **Ob** 3 every day. 
