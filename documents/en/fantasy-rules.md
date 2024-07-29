@@ -470,13 +470,13 @@ For all attacks made with a dagger, the following rules apply:
 
 | Level | Name                 | AP | **Ob**      | Damage                           | Notes  |
 | ----- | -------------------- | -- | ----------- | -------------------------------- | ------ |
-| 0     | Slash                | 2  | Opposed     | `1D6 + Agi` Slashing             |  |
-| 0     | Stab                 | 2  | Opposed     | `1D6 + Agi` Piercing             |  |
+| 0     | Slash                | 2  | Opposed     | `1D6 + Agi` Slashing             | / |
+| 0     | Stab                 | 2  | Opposed     | `1D6 + Agi` Piercing             | / |
 | 0     | Artery Cut           | 2  | Opposed + 1 | `2D6` Slashing                   | +1 [bleeding](#bleeding) to the target (if it can bleed).  |
-| 0     | Target Weak-Spot     | 2  | Opposed + 2 | `2D6 + Agi` Piercing             |  |
+| 0     | Target Weak-Spot     | 2  | Opposed + 2 | `2D6 + Agi` Piercing             | / |
 
 #### Light Blade (Agi/Str)
-Any light blade. Most commonly (but not restricted to) one-handed weapons. Examples: Short-sword, Langes Messer, arming sword, falchion
+Any light blade. Most commonly (but not restricted to) one-handed weapons. Examples: short-sword, Langes Messer, arming sword, falchion, saber
 
 * Melee
 * Bulk: 1
@@ -489,7 +489,7 @@ Any light blade. Most commonly (but not restricted to) one-handed weapons. Examp
 | 0     | Grappling Feint      | 2  | Opposed - 1 | /                                | Attack with a feint, immediately close the distance and [grapple](./core-rules.md#grappled) your opponent. |
 
 #### Long Blade (Agi/Str)
-Any long and heavier blade, including heavy one-handed blades. Examples: Longsword, saber, side-sword, rapier
+Any long and heavier blade, including heavy one-handed blades. Examples: longsword, rapier, Kriegsmesser
 
 * Melee
 * Bulk: 2
@@ -502,7 +502,7 @@ Any long and heavier blade, including heavy one-handed blades. Examples: Longswo
 | 3     | Fencer-Stance        | 2  | /           | /                                | Enter a defensive fencing stance. Gain **+1D** for melee defense and can [counter-attack](./core-rules.md#defence-stunts) **every** attack. |
 
 #### Great Blade (Str/Tough)
-Any very long and heavy two-handed blade. Examples: sword of war, great-sword, Zweihänder, Kriegsmesser
+Any very long and heavy two-handed blade. Examples: great-sword, sword of war, great-saber
 
 * Melee
 * Bulk: 3
@@ -611,8 +611,8 @@ Large, heavy crushing weapons with a dedicated *impact zone* on the weapon head 
 
 | Level | Name                 | AP | **Ob**      | Damage                           | Notes  |
 | ----- | -------------------- | -- | ----------- | -------------------------------- | ------ |
-| 0     | Smash                | 2  | Opposed     | `Str + 1D8 + 2` **Crushing** | / |
-| 1     | Mighty Smash         | 2  | Opposed + 2 | `Str + 2D8 + 1` **Crushing**     | Defending against this attack costs 2 [AP](#action-points-ap). +1 [exhaustion](#exhaustion) to self. |
+| 0     | Smash                | 2  | Opposed     | `Str + 1D8 + 2` Crushing         | / |
+| 1     | Mighty Smash         | 2  | Opposed + 2 | `Str + 2D8 + 1` Crushing         | Defending against this attack costs 2 [AP](#action-points-ap). +1 [exhaustion](#exhaustion) to self. |
 
 #### Short-Bow (Awar/Awar)
 A short distance ranged weapon, shooting arrows.
