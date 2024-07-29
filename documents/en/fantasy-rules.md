@@ -409,10 +409,10 @@ A set of light armor that doesn't impede the wearer much. Example: cloth armor l
 
 | Protections                 | 
 | --------------------------- | 
-| 14 **Slashing**             | 
-| 12 **Piercing**             | 
-| 8 **Bludgeoning**           | 
-| 6 **Acid**                  | 
+| 8 **Slashing**              | 
+| 6 **Piercing**              | 
+| 4 **Bludgeoning**           | 
+| 4 **Acid**                  | 
 
 ##### Medium Armor
 A set of medium armor with a good balance of protection and weight. Example: full chain mail armor, with or without a helmet. 
@@ -423,11 +423,11 @@ A set of medium armor with a good balance of protection and weight. Example: ful
 
 | Protections                 | 
 | --------------------------- | 
-| 18 **Slashing**             | 
-| 16 **Piercing**             | 
-| 10 **Bludgeoning**          | 
-| 8 **Acid**                  | 
-| 8 **Electrical**            | 
+| 11 **Slashing**             | 
+| 9 **Piercing**              | 
+| 7 **Bludgeoning**           | 
+| 7 **Acid**                  | 
+| 12 **Electrical**           | 
 
 ##### Heavy Armor
 A set of heavy armor with excellent protection, at the cost of encumbering the wearer greatly. Example: full plate armor. 
@@ -438,11 +438,11 @@ A set of heavy armor with excellent protection, at the cost of encumbering the w
 
 | Protections                 | 
 | --------------------------- | 
-| 22 **Slashing**             | 
-| 20 **Piercing**             | 
-| 12 **Bludgeoning**          | 
-| 10 **Acid**                 | 
-| 10 **Electrical**           | 
+| 15 **Slashing**             | 
+| 13 **Piercing**             | 
+| 11 **Bludgeoning**          | 
+| 11 **Acid**                 | 
+| 8 **Electrical**            | 
 
 ### Shield Types
 Shields are items that provide passive bonuses to defense against melee and ranged attacks and require one free hand to use. This implies they cannot be used at the same time as a two-handed weapon (unless of course if you have more than two arms). 
@@ -519,8 +519,8 @@ For all attacks made with a dagger, the following rules apply:
 | Level | Name                 | AP | **Ob**      | Damage                           | Notes  |
 | ----- | -------------------- | -- | ----------- | -------------------------------- | ------ |
 | 0     | Slash                | 2  | Opposed     | `1D6 + Agi` Slashing             | / |
-| 0     | Stab                 | 2  | Opposed     | `1D6 + Agi` Piercing             | / |
-| 0     | Artery Cut           | 2  | Opposed + 1 | `2D6` Slashing                   | +1 [bleeding](#bleeding) to the target (if it can bleed).  |
+| 0     | Stab                 | 2  | Opposed     | `1D4 + Agi` Piercing             | / |
+| 0     | Artery Cut           | 2  | Opposed + 1 | `2D6` Slashing                   | +2 [bleeding](#bleeding) to the target (if it can bleed).  |
 | 0     | Target Weak-Spot     | 2  | Opposed + 2 | `2D6 + Agi` Piercing             | / |
 
 #### Light Blade (Agi/Str)
@@ -532,8 +532,8 @@ Any light blade. Most commonly (but not restricted to) one-handed weapons. Examp
 
 | Level | Name                 | AP | **Ob**      | Damage                           | Notes  |
 | ----- | -------------------- | -- | ----------- | -------------------------------- | ------ |
-| 0     | Slash                | 2  | Opposed     | `1D8 + 2` Slashing               | / |
-| 0     | Stab                 | 2  | Opposed     | `1D8 + 1` Piercing               | / |
+| 0     | Slash                | 2  | Opposed     | `1D8 + Str` Slashing             | / |
+| 0     | Stab                 | 2  | Opposed     | `1D6 + Agi` Piercing             | / |
 | 0     | Grappling Feint      | 2  | Opposed - 1 | /                                | Attack with a feint, immediately close the distance and [grapple](./core-rules.md#grappled) your opponent. |
 
 #### Long Blade (Agi/Str)
@@ -544,9 +544,9 @@ Any long and heavier blade, including heavy one-handed blades. Examples: longswo
 
 | Level | Name                 | AP | **Ob**      | Damage                           | Notes  |
 | ----- | -------------------- | -- | ----------- | -------------------------------- | ------ |
-| 0     | Slash                | 2  | Opposed     | `2D8` Slashing                   | / |
-| 0     | Stab                 | 2  | Opposed     | `2D8` Piercing                   | / |
-| 2     | Mord-Strike          | 2  | Opposed + 2 | `1D6 + 1` Bludgeoning            | / |
+| 0     | Slash                | 2  | Opposed     | `2D8 + Str` Slashing             | / |
+| 0     | Stab                 | 2  | Opposed     | `2D6 + Agi` Piercing             | / |
+| 2     | Mord-Strike          | 2  | Opposed + 2 | `1D6 + Str` Bludgeoning          | / |
 | 3     | Fencer-Stance        | 2  | /           | /                                | Enter a defensive fencing stance. Gain **+1D** for melee defense and can [counter-attack](./core-rules.md#defence-stunts) **every** attack. |
 
 #### Great Blade (Str/Tough)
@@ -558,10 +558,10 @@ Any very long and heavy two-handed blade. Examples: great-sword, sword of war, g
 
 | Level | Name                 | AP | **Ob**      | Damage                           | Notes  |
 | ----- | -------------------- | -- | ----------- | -------------------------------- | ------ |
-| 0     | Slash                | 2  | Opposed     | `3D8` Slashing                   | / |
-| 0     | Stab                 | 2  | Opposed     | `2D8 + 2` Piercing               | / |
+| 0     | Slash                | 2  | Opposed     | `2D10 + Str` Slashing            | / |
+| 0     | Stab                 | 2  | Opposed     | `2D8 + Agi` Piercing             | / |
 | 2     | Blade Barrier        | 2  | Opposed     | /                                | Whenever any character moves **into** a spot within reach, can attack that character with a **slash** at **Ob** + 1 and always force them back 3'/1m. |
-| 3     | Heavy Blow           | 3  | Opposed + 1 | `2D8` Slashing + `1D8` Bludgeoning | Defending against this attack costs 2 [AP](#action-points-ap). +1 [exhaustion](#exhaustion) to self. |
+| 3     | Heavy Blow           | 3  | Opposed + 1 | `2D8` Slashing + `1D4 + Str` Bludgeoning | Defending against this attack costs 2 [AP](#action-points-ap). +1 [exhaustion](#exhaustion) to self. |
 
 #### Axe (Str/Str)
 Small and light axes. Examples: hatchet, dane axe, woodcutter's axe
@@ -572,8 +572,8 @@ Small and light axes. Examples: hatchet, dane axe, woodcutter's axe
 
 | Level | Name                 | AP | **Ob**      | Damage                           | Notes  |
 | ----- | -------------------- | -- | ----------- | -------------------------------- | ------ |
-| 0     | Hack                 | 2  | Opposed     |  `1D6 + 2` Slashing + `1D4` Bludgeoning | / |
-| 1     | Savage Slash         | 2  | Opposed + 1 |  `1D6 + 2` Slashing              | +1 [bleeding](#bleeding) to the target (if it can bleed). |
+| 0     | Hack                 | 2  | Opposed     |  `1D6` Slashing + `1D6 + Str` Bludgeoning  | / |
+| 1     | Savage Slash         | 2  | Opposed + 1 |  `1D6 + Str` Slashing            | +1 [bleeding](#bleeding) to the target (if it can bleed). |
 
 #### Great Axe (Str/Str)
 Large and heavy axes. Examples: bearded axe, double-sided axe
@@ -583,9 +583,9 @@ Large and heavy axes. Examples: bearded axe, double-sided axe
 
 | Level | Name                 | AP | **Ob**      | Damage                           | Notes  |
 | ----- | -------------------- | -- | ----------- | -------------------------------- | ------ |
-| 0     | Hack                 | 2  | Opposed     | `1D8` Slashing + `2D4` Bludgeoning | / |
-| 2     | Savage Slash         | 2  | Opposed + 2 | `2D8` Slashing                   | +2 [bleeding](#bleeding) to the target (if it can bleed). |
-| 3     | Heavy Blow           | 3  | Opposed + 1 | `1D8` Slashing + `1D6 + 2` Bludgeoning | Defending against this attack costs 2 [AP](#action-points-ap). +1 [exhaustion](#exhaustion) to self. |
+| 0     | Hack                 | 2  | Opposed     | `1D8` Slashing + `2D6 + Str` Bludgeoning | / |
+| 2     | Savage Slash         | 2  | Opposed + 2 | `2D6 + Str` Slashing             | +2 [bleeding](#bleeding) to the target (if it can bleed). |
+| 3     | Heavy Blow           | 3  | Opposed + 1 | `1D8` Slashing + `1D8 + Str` Bludgeoning | Defending against this attack costs 2 [AP](#action-points-ap). +1 [exhaustion](#exhaustion) to self. |
 
 #### Spear (Agi/Str)
 Any one or two-handed short piercing polearms. Examples: short-spear, boar-spear
@@ -598,7 +598,7 @@ Any one or two-handed short piercing polearms. Examples: short-spear, boar-spear
 
 | Level | Name                 | AP | **Ob**      | Damage                           | Notes  |
 | ----- | -------------------- | -- | ----------- | -------------------------------- | ------ |
-| 0     | Stab                 | 2  | Opposed     | `2D8` Piercing                   | / |
+| 0     | Stab                 | 2  | Opposed     | `2D8 + Agi` Piercing             | / |
 | 0     | Spear Wall           | 2  | /           | Whenever any character moves **into** a spot within reach, can attack that character with a **stab** and always force them back 3'/1m. | / |
 
 #### Lance (Awar/Str)
@@ -611,7 +611,7 @@ Any one or two-handed long piercing polearms. Examples: pike, lance
 
 | Level | Name                 | AP | **Ob**      | Damage                           | Notes  |
 | ----- | -------------------- | -- | ----------- | -------------------------------- | ------ |
-| 0     | Stab                 | 2  | Opposed     | `2D6` Piercing                   | / |
+| 0     | Stab                 | 2  | Opposed     | `2D6 + Str` Piercing             | / |
 | 0     | Couched Lancing      | 2  | Opposed     | `3D10` Piercing                  | Requires self to be mounted on horse-back (or similar creature). Self must move at least 15'/5m in a straight line, past the target. |
 
 #### Polearm (Str/Tough)
@@ -624,10 +624,10 @@ Flexible polearms with a focus on slashing. Examples: halberd, bardiche, poleaxe
 
 | Level | Name                 | AP | **Ob**      | Damage                           | Notes  |
 | ----- | -------------------- | -- | ----------- | -------------------------------- | ------ |
-| 0     | Slash                | 2  | Opposed     | `3D6` Slashing                   | / |
-| 0     | Stab                 | 2  | Opposed     | `2D8` Piercing                   | / |
+| 0     | Slash                | 2  | Opposed     | `3D6 + Str` Slashing             | / |
+| 0     | Stab                 | 2  | Opposed     | `2D6 + Agi` Piercing             | / |
 | 1     | Blade Barrier        | 2  | Opposed     | /                                | Whenever any character moves **into** a spot within reach, can attack that character with a **stab** at **Ob** + 1 and always force them back 3'/1m. |
-| 2     | Cleave               | 2  | Opposed + 2 | `3D6` Slashing                   | Deals damage to up to two targets adjacent to each other and within reach. |
+| 2     | Cleave               | 2  | Opposed + 2 | `2D6 + Str` Slashing             | Deals damage to up to two targets adjacent to each other and within reach. |
 
 #### Small Crusher (Str/Str)
 Small bludgeoning weapons. Examples: any improvised weapon, any club, any mace
@@ -637,8 +637,8 @@ Small bludgeoning weapons. Examples: any improvised weapon, any club, any mace
 
 | Level | Name                 | AP | **Ob**      | Damage                           | Notes  |
 | ----- | -------------------- | -- | ----------- | -------------------------------- | ------ |
-| 0     | Smash                | 2  | Opposed     | `1D6 + Str` Bludgeoning      | / |
-| 0     | Knockout Blow        | 2  | Opposed + 2 | `1D6 + Str` Bludgeoning      | +2 [exhaustion](./core-rules.md#exhaustion) to target. |
+| 0     | Smash                | 2  | Opposed     | `1D6 + Str` Bludgeonin           | / |
+| 0     | Knockout Blow        | 2  | Opposed + 2 | `1D6 + Str` Bludgeoning          | +2 [exhaustion](./core-rules.md#exhaustion) to target. |
 
 #### Large Crusher (Str/Tough)
 Large bludgeoning weapons with a dedicated *impact zone* on the weapon head which directs more force into the target. Examples: grand-mace, polehammer, two-handed flail
@@ -648,8 +648,8 @@ Large bludgeoning weapons with a dedicated *impact zone* on the weapon head whic
 
 | Level | Name                 | AP | **Ob**      | Damage                           | Notes  |
 | ----- | -------------------- | -- | ----------- | -------------------------------- | ------ |
-| 0     | Smash                | 2  | Opposed     | `1D8 + Str` Bludgeoning      | / |
-| 1     | Mighty Smash         | 2  | Opposed + 2 | `2D8 + Str` Bludgeoning      | Defending against this attack costs 2 [AP](#action-points-ap). +1 [exhaustion](#exhaustion) to self. |
+| 0     | Smash                | 2  | Opposed     | `2D8 + Str` Crushing             | / |
+| 1     | Mighty Smash         | 2  | Opposed + 2 | `3D8 + Str` Crushing             | Defending against this attack costs 2 [AP](#action-points-ap). +1 [exhaustion](#exhaustion) to self. |
 
 #### Short-Bow (Awar/Awar)
 A short distance ranged weapon, shooting arrows.
@@ -661,8 +661,8 @@ A short distance ranged weapon, shooting arrows.
 
 | Level | Name                 | AP | **Ob**      | Distance increments | Damage                     | Notes  |
 | ----- | -------------------- | -- | ----------- | ------------------- | -------------------------- | ------ |
-| 0     | Loose                | 2  | Opposed     | 30'/10m             | `3D4` Piercing             |  |
-| 1     | Heavy Shot           | 3  | Opposed + 1 | 30'/10m             | `3D4 + Str` Piercing       |  |
+| 0     | Loose                | 2  | Opposed     | 30'/10m             | `3D4` Piercing             | / |
+| 1     | Heavy Shot           | 3  | Opposed + 1 | 30'/10m             | `3D4 + Str` Piercing       | / |
 | 2     | Double Shot          | 3  | Opposed     | 30'/10m             | `2D4` Piercing             | Can attack twice and thus deal its damage to two different targets, or the same target twice.  |
 
 #### Longbow (Awar/Str)
@@ -675,8 +675,8 @@ A long distance ranged weapon, shooting arrows.
 
 | Level | Name                 | AP | **Ob**      | Distance increments | Damage                     | Notes  |
 | ----- | -------------------- | -- | ----------- | ------------------- | -------------------------- | ------ |
-| 0     | Loose                | 2  | Opposed     | 45'/15m             | `4D4` Piercing             |  |
-| 1     | Heavy Shot           | 3  | Opposed + 1 | 45'/15m             | `4D4 + Str` Piercing       |  +1 [exhaustion](#exhaustion) to self. |
+| 0     | Loose                | 2  | Opposed     | 45'/15m             | `3D6` Piercing             | / |
+| 1     | Heavy Shot           | 3  | Opposed + 1 | 45'/15m             | `3D6 + Str` Piercing       |  +1 [exhaustion](#exhaustion) to self. |
 
 #### War-Bow (Str/Tough)
 A very deadly long distance ranged weapon, shooting arrows. Beware its exhausting strength of draw. 
@@ -688,7 +688,7 @@ A very deadly long distance ranged weapon, shooting arrows. Beware its exhaustin
 
 | Level | Name                 | AP | **Ob**      | Distance increments | Damage                     | Notes  |
 | ----- | -------------------- | -- | ----------- | ------------------- | -------------------------- | ------ |
-| 0     | Loose                | 2  | Opposed     | 60'/20m             | `3D8` Piercing             | +1 [exhaustion](#exhaustion) to self.  |
+| 0     | Loose                | 2  | Opposed     | 60'/20m             | `3D10` Piercing            | +1 [exhaustion](#exhaustion) to self.  |
 
 #### Crossbow (Awar/Awar)
 A deadly medium distance ranged weapon, shooting quarrels. Beware its slow reload. 
