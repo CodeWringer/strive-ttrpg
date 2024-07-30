@@ -557,7 +557,7 @@ Any very long and heavy two-handed blade. Examples: great-sword, sword of war, g
 | 0     | Slash                | 2  | Opposed     | `2D10 + Str` Slashing            | / |
 | 0     | Stab                 | 2  | Opposed     | `2D8 + Agi` Piercing             | / |
 | 2     | Blade Barrier        | 2  | Opposed     | /                                | Whenever any character moves **into** a spot within reach, can attack that character with a **slash** at **Ob** + 1 and always force them back 3'/1m. |
-| 3     | Heavy Blow           | 3  | Opposed + 1 | `2D8` Slashing + `1D4 + Str` Bludgeoning | Defending against this attack costs 2 [AP](#action-points-ap). +1 [exhaustion](#exhaustion) to self. |
+| 3     | Heavy Blow           | 3  | Opposed + 1 | `2D10` Slashing                  | Defending against this attack costs 2 [AP](#action-points-ap). |
 
 #### Axe (Str/Str)
 Small and light axes. Examples: hatchet, dane axe, woodcutter's axe
@@ -579,9 +579,9 @@ Large and heavy axes. Examples: bearded axe, double-sided axe
 
 | Level | Name                 | AP | **Ob**      | Damage                           | Notes  |
 | ----- | -------------------- | -- | ----------- | -------------------------------- | ------ |
-| 0     | Hack                 | 2  | Opposed     | `1D8` Slashing + `2D6 + Str` Bludgeoning | / |
-| 2     | Savage Slash         | 2  | Opposed + 2 | `2D6 + Str` Slashing             | +2 [bleeding](#bleeding) to the target (if it can bleed). |
-| 3     | Heavy Blow           | 3  | Opposed + 1 | `1D8` Slashing + `1D8 + Str` Bludgeoning | Defending against this attack costs 2 [AP](#action-points-ap). +1 [exhaustion](#exhaustion) to self. |
+| 0     | Hack                 | 2  | Opposed     | `1D8` Slashing + `1D8 + Str` Bludgeoning | / |
+| 2     | Savage Slash         | 2  | Opposed + 1 | `2D6 + Str` Slashing             | +2 [bleeding](#bleeding) to the target (if it can bleed). |
+| 3     | Heavy Blow           | 3  | Opposed + 1 | `1D8` Slashing + `1D8 + Str` Bludgeoning | Defending against this attack costs 2 [AP](#action-points-ap). |
 
 #### Spear (Agi/Str)
 Any one or two-handed short piercing polearms. Examples: short-spear, boar-spear
@@ -595,7 +595,7 @@ Any one or two-handed short piercing polearms. Examples: short-spear, boar-spear
 | Level | Name                 | AP | **Ob**      | Damage                           | Notes  |
 | ----- | -------------------- | -- | ----------- | -------------------------------- | ------ |
 | 0     | Stab                 | 2  | Opposed     | `2D8 + Agi` Piercing             | / |
-| 0     | Spear Wall           | 2  | /           | Whenever any character moves **into** a spot within reach, can attack that character with a **stab** and always force them back 3'/1m. | / |
+| 0     | Spear Wall           | 2  | /           | /                                | Whenever any character moves **into** a spot within reach, can attack that character with a **stab** and always force them back 3'/1m. |
 
 #### Lance (Awar/Str)
 Any one or two-handed long piercing polearms. Examples: pike, lance
@@ -622,7 +622,7 @@ Flexible polearms with a focus on slashing. Examples: halberd, bardiche, poleaxe
 | ----- | -------------------- | -- | ----------- | -------------------------------- | ------ |
 | 0     | Slash                | 2  | Opposed     | `3D6 + Str` Slashing             | / |
 | 0     | Stab                 | 2  | Opposed     | `2D6 + Agi` Piercing             | / |
-| 1     | Blade Barrier        | 2  | Opposed     | /                                | Whenever any character moves **into** a spot within reach, can attack that character with a **stab** at **Ob** + 1 and always force them back 3'/1m. |
+| 1     | Blade Barrier        | 2  | /           | /                                | Whenever any character moves **into** a spot within reach, can attack that character with a **stab** at **Ob** + 1 and always force them back 3'/1m. |
 | 2     | Cleave               | 2  | Opposed + 2 | `2D6 + Str` Slashing             | Deals damage to up to two targets adjacent to each other and within reach. |
 
 #### Small Crusher (Str/Str)
@@ -644,8 +644,8 @@ Large bludgeoning weapons with a dedicated *impact zone* on the weapon head whic
 
 | Level | Name                 | AP | **Ob**      | Damage                           | Notes  |
 | ----- | -------------------- | -- | ----------- | -------------------------------- | ------ |
-| 0     | Smash                | 2  | Opposed     | `2D8 + Str` Crushing             | / |
-| 1     | Mighty Smash         | 2  | Opposed + 1 | `3D8 + Str` Crushing             | Defending against this attack costs 2 [AP](#action-points-ap). +1 [exhaustion](#exhaustion) to self. |
+| 0     | Smash                | 2  | Opposed     | `2D8 + Str` Bludgeoning          | / |
+| 1     | Mighty Smash         | 2  | Opposed + 1 | `3D8 + Str` Bludgeoning          | Defending against this attack costs 2 [AP](#action-points-ap). |
 
 #### Short-Bow (Awar/Awar)
 A short distance ranged weapon, shooting arrows.
@@ -672,7 +672,7 @@ A long distance ranged weapon, shooting arrows.
 | Level | Name                 | AP | **Ob**      | Distance increments | Damage                     | Notes  |
 | ----- | -------------------- | -- | ----------- | ------------------- | -------------------------- | ------ |
 | 0     | Loose                | 2  | Opposed     | 45'/15m             | `3D6` Piercing             | / |
-| 1     | Heavy Shot           | 3  | Opposed + 1 | 45'/15m             | `3D6 + Str` Piercing       |  +1 [exhaustion](#exhaustion) to self. |
+| 1     | Heavy Shot           | 3  | Opposed + 1 | 45'/15m             | `3D6 + Str` Piercing       | / |
 
 #### War-Bow (Str/Tough)
 A very deadly long distance ranged weapon, shooting arrows. Beware its exhausting strength of draw. 
@@ -710,7 +710,7 @@ A very deadly short to medium distance ranged weapon, shooting musket balls that
 
 | Level | Name                 | AP | **Ob**      | Distance increments | Damage                     | Notes  |
 | ----- | -------------------- | -- | ----------- | ------------------- | -------------------------- | ------ |
-| 0     | Fire                 | 2  | Opposed     | 30'/10m             | `3D8 + 5` Piercing         |  |
+| 0     | Fire                 | 2  | Opposed     | 30'/10m             | `3D10 + 5` Piercing         |  |
 
 ## Lists of Skills
 The following list does not and cannot aim to be a complete listing of all possible skills in game. Adding new skills as necessary will have to be done by the **GM**. 
