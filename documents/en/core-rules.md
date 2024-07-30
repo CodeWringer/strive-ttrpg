@@ -2176,10 +2176,10 @@ Note that "Cosmic Fortune" is not an actual **injury**. When it is rolled for, *
 
 | Range D100 | Injury              | Limit     | Description                      | Scar                |
 | ---------  | ------------------- | --------- | -------------------------------- | ------------------- |
-| 1 - 25     | Molten Skin         | /         | -1 [awareness](#awareness-awar). Flame's greed has laid part of you bare. | Burned skin |
-| 26 - 50    | Ash Lung            | /         | -1 [toughness](#toughness-tough). The heat and stench of your own self burning cause difficulty breathing. | / |
-| 51 - 75    | Burned Face         | /         | -1 [awareness](#awareness-awar). Involuntarily, you close your eyes in hopes of protecting them from the fire. In vain. Speech is impaired from your pain contorted face. | Burned face |
-| 76 - 100   | Molten Muscles      | /         | -1 [strength](#strength-str). Heat induced atrophy. | / |
+| 1 - 25     | Molten Skin         | /         | +1 [burning](./core-rules.md#burning); -1 [awareness](#awareness-awar). Flame's greed has laid part of you bare. | Burned skin |
+| 26 - 50    | Ash Lung            | /         | +1 [burning](./core-rules.md#burning); -1 [toughness](#toughness-tough). The heat and stench of your own self burning cause difficulty breathing. | / |
+| 51 - 75    | Burned Face         | /         | +1 [burning](./core-rules.md#burning); -1 [awareness](#awareness-awar). Involuntarily, you close your eyes in hopes of protecting them from the fire. In vain. Speech is impaired from your pain contorted face. | Burned face |
+| 76 - 100   | Molten Muscles      | /         | +1 [burning](./core-rules.md#burning); -1 [strength](#strength-str). Heat induced atrophy. | / |
 
 ### Bludgeoning Injuries
 * Self patch-up: Impossible
