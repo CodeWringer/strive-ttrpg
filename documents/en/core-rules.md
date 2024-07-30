@@ -1393,7 +1393,7 @@ The defender must *choose* how to defend themselves, if no specific "opposed by"
 Defending against [area of effect](#area-of-effect) attacks is *only* possible as a **passive defense** and can *not* negate the attack. It can only halve (rounded up) its [damage](#damage). 
 
 ### Armor
-Armor can negate or at least reduce the damage taken, after a defence test has failed. The core rules define 3 types of armor, classified as a general light, medium and heavy variant. As protection numbers increase, the encumbrance of the wearer also increases. 
+Armor can negate or at least reduce the damage taken, after a defence test has failed. The specifics can be found in the used module's asset appendix. 
 
 ### Defending an Ally
 It is possible for a character to defend an adjacent ally when they're being attacked. This costs 2 [AP](#action-points-ap) and results in the ally taking over the defense being forced to roll the defense test, instead of the originally attacked character. 
