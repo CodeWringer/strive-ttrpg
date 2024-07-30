@@ -36,10 +36,9 @@
   - [List of Assets](#list-of-assets)
     - [Armor](#armor)
       - [Armor Properties](#armor-properties)
-      - [Armor Types](#armor-types)
-        - [Light Armor](#light-armor)
-        - [Medium Armor](#medium-armor)
-        - [Heavy Armor](#heavy-armor)
+      - [Light Armor](#light-armor)
+      - [Medium Armor](#medium-armor)
+      - [Heavy Armor](#heavy-armor)
     - [Shield Types](#shield-types)
         - [Buckler](#buckler)
         - [Round Shield](#round-shield)
@@ -399,10 +398,7 @@ Armor can have the following **properties**:
 
 > An **Ambersteel**-lined armor at quality level 3 would have +(3 + **2D4**) protection from magic. 
 
-#### Armor Types
-The following are the armors included in the core rules. Modules may introduce their own armors, more fitting to the theme and setting, with different values. 
-
-##### Light Armor
+#### Light Armor
 A set of light armor that doesn't impede the wearer much. Example: cloth armor like a gambeson. 
 
 * Bulk: 2
@@ -414,7 +410,7 @@ A set of light armor that doesn't impede the wearer much. Example: cloth armor l
 | 4 **Bludgeoning**           | 
 | 4 **Acid**                  | 
 
-##### Medium Armor
+#### Medium Armor
 A set of medium armor with a good balance of protection and weight. Example: full chain mail armor, with or without a helmet. 
 
 * Bulk: 3
@@ -429,7 +425,7 @@ A set of medium armor with a good balance of protection and weight. Example: ful
 | 7 **Acid**                  | 
 | 12 **Electrical**           | 
 
-##### Heavy Armor
+#### Heavy Armor
 A set of heavy armor with excellent protection, at the cost of encumbering the wearer greatly. Example: full plate armor. 
 
 * Bulk: 4
