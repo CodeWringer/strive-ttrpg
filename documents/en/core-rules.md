@@ -134,7 +134,7 @@
       - [Determine Boons from Heritage](#determine-boons-from-heritage)
     - [Determine Assets](#determine-assets)
     - [Determine Max HP \& Injury Maximum](#determine-max-hp--injury-maximum)
-    - [Determine Exhaustion Threshold](#determine-exhaustion-threshold)
+    - [Determine Exhaustion Limit](#determine-exhaustion-limit)
   - [Asset Appendix](#asset-appendix)
     - [List of General Assets](#list-of-general-assets)
     - [Weapon Properties](#weapon-properties)
@@ -506,7 +506,7 @@ Enduring physical and mental strains.
 For every level in **toughness**, a character...
 * ...gains **+2 maximum [HP](#hit-points-hp)**. All characters have base [HP](#hit-points-hp) of 8. 
 * ...raises their [injury](#injury) limit by +1. All characters have a base [injury](#injury) limit of 1. 
-* ...raises their [exhaustion threshold](#exhaustion) by 1. 
+* ...raises their [exhaustion limit](#exhaustion) by 1. 
 * ...gains around 3 minutes of holding their breath. 
 
 For your convenience, the table below lists the numbers per level.
@@ -515,7 +515,7 @@ For your convenience, the table below lists the numbers per level.
 | -------------------- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | Max. HP              | 10  | 12  | 14  | 16  | 18  | 20  | 22  | 24  | 26  | 28  |
 | Injury Limit         | 1   | 2   | 3   | 4   | 5   | 6   | 7   | 8   | 9   | 10  |
-| Exhaustion Threshold | 2   | 3   | 4   | 5   | 6   | 7   | 8   | 9   | 10  | 11  |
+| Exhaustion Limit     | 2   | 3   | 4   | 5   | 6   | 7   | 8   | 9   | 10  | 11  |
 
 Every time a character suffers at least 10 [HP](#hit-points-hp) of damage **in a single attack**, they gain +1 [advancement progress](#advancing-attributes) to **toughness**. For 20 or more [HP](#hit-points-hp) of damage, they gain +2 [advancement progress](#advancing-attributes). 
 
@@ -904,11 +904,11 @@ An [injury](#injury) can be **patched up** via a successful [test](#tests) of th
 An [injury](#injury) can be properly **treated** via a successful [test](#tests) of the required treatment skill at full **Ob**. A **treated** [injury](#injury)'s time to heal is reduced significantly (minimum 1 time increment). Only one **treatment** attempt can be made every 24 hours on a per-character basis. 
 
 ### Exhaustion
-Exhaustion is the measure of a character's maximum physical and mental strain they can endure. 
+**Exhaustion** is the measure of a character's maximum physical and mental strain they can endure. 
 
-For every point in [toughness](#thoughness-tough), a character raises their [exhaustion threshold](#exhaustion) by 1. All characters have a base [exhaustion threshold](#exhaustion) of 1. 
+For every point in [toughness](#toughness-tough), a character raises their [exhaustion limit](#exhaustion) by 1. All characters have a base [exhaustion limit](#exhaustion) of 1. 
 
-> At **toughness** 1, you already have an exhaustion threshold of 2. 
+> At **toughness** 1, you already have an **exhaustion limit** of 2. 
 
 If a character's exhaustion reaches their threshold, they become [exhausted](#exhausted) from over-exertion. While **exhausted**, a character suffering further [exhaustion](#exhaustion), must succeed a [self-control](#self-control-toughtough) [test](#tests) at **Ob** equal to their current level of [exhaustion](#exhaustion), or else fall [unconscious](#unconscious).
 
@@ -1401,7 +1401,7 @@ It is possible for a character to defend an adjacent ally when they're being att
 Defending an ally is a **combat action** and a **reaction**. 
 
 ### Defence Stunts
-If you succeed an **active defense** and achieve at least 2 **positives** over your attacker, then you may perform one of the following stunts, at the cost of +1 [exhaustion](#exhaustion) (but only if that won't bring you to your [exhaustion threshold](#exhaustion)): 
+If you succeed an **active defense** and achieve at least 2 **positives** over your attacker, then you may perform one of the following stunts, at the cost of +1 [exhaustion](#exhaustion) (but only if that won't bring you to your [exhaustion limit](#exhaustion)): 
 
 * **Disarm** your opponent (if they have a detachable weapon).
 * **Displace your opponent**. They are forced to stumble backwards by 2m/6' in a direction of your choosing.
@@ -1572,7 +1572,7 @@ The procedure of creating a character consists of the following steps:
 4. [Determine abilities](#determine-abilities).
 6. [Determine **carrying capacity** and **assets**](#determine-assets).
 7. [Determine **Max HP** and **Injury Maximum**](#determine-max-hp--injury-maximum)
-8. [Determine exhaustion threshold](#determine-exhaustion-threshold).
+8. [Determine exhaustion limit](#determine-exhaustion-limit).
 
 ### Determine Life Path
 Where and when does the story of your character begin? Under what circumstances are they born and how were they raised? Until adulthood, did they lead a life of carelessness or did they have to fight for every scrap of food? How did they lead their life up until the point they picked up adventuring? 
@@ -1752,8 +1752,8 @@ Always make sure to talk to your **GM** and fellow players and have them agree t
 ### Determine Max HP & Injury Maximum
 Determine your character's **max HP** and **injury limit**, by referring to the [toughness](#toughness-tough) attribute. 
 
-### Determine Exhaustion Threshold
-Determine your character's [exhaustion threshold](#exhaustion), by referring to the [toughness](#thoughness-tough) attribute. 
+### Determine Exhaustion Limit
+Determine your character's [exhaustion limit](#exhaustion), by referring to the [toughness](#toughness-tough) attribute. 
 
 ## Asset Appendix
 The following list does not and cannot aim to be a complete listing of all possible assets in game. Adding new assets as necessary will have to be done by the **GM**. 
@@ -2123,9 +2123,9 @@ An **unconscious** character is unable to act and is unaware of their surroundin
 
 Someone *knocked* **unconscious** can't awaken due to external stimuli. To wake up, they have to recover. For how long, depends on the circumstances. But several hours hould be a good baseline. 
 
-A character can be *knocked* **unconscious**, if they're at their exhaustion threshold and suffer any [bludgeoning](#damage-types) damage and fail a [toughness](#thoughness-tough) [test](#tests). The **Ob** is 2 + 1 per level of exhaustion past the threshold.
+A character can be *knocked* **unconscious**, if they're at their [exhaustion limit](#exhaustion) and suffer any [bludgeoning](#damage-types) damage and fail a [toughness](#toughness-tough) [test](#tests). The **Ob** is 2 + 1 per level of [exhaustion](#exhaustion) past the threshold.
 
-> A character is brought to an exhaustion level of 4 with bludgeoning damage, which is 1 point past their exhaustion threshold of 3. They must succeed a **toughness** test at **Ob** 3, or else be knocked unconscious. 
+> A character is brought to an **exhaustion** level of 4 with bludgeoning damage, which is 1 point past their **exhaustion limit** of 3. They must succeed a **toughness** test at **Ob** 3, or else be knocked unconscious. 
 
 ## List of Injuries
 How many times an **injury** can be suffered, can be limited. In the table below, the *limit* is the maximum number of times the **injury** can be suffered by the same character. If there is a slash (/), there is no limit. If a roll would result in an already maxed out **injury**, pick the next **injury** below it, instead, or roll again. 

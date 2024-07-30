@@ -331,7 +331,7 @@ Weapon type assets can have the following **properties**:
 The appendix contains important and less important lists, for reference only when needed. 
 
 ## Character Creation
-Character creation is now supplemented by the step to determine [magic stamina](#magic-stamina), which follows determining the **exhaustion threshold**. 
+Character creation is now supplemented by the step to determine [magic stamina](#magic-stamina), which follows determining the **exhaustion limit**. 
 
 The new procedure of creating a character consists of the following steps:
 1. [Determine life path](#determine-life-path). 
@@ -340,7 +340,7 @@ The new procedure of creating a character consists of the following steps:
 4. [Determine abilities](#determine-abilities).
 6. [Determine **carrying capacity** and **assets**](#determine-assets).
 7. [Determine **Max HP** and **Injury Maximum**](#determine-max-hp--injury-maximum)
-8. [Determine exhaustion threshold](#determine-exhaustion-threshold).
+8. [Determine exhaustion limit](#determine-exhaustion-threshold).
 9. [Determine magic stamina](#determine-magic-stamina).
 
 ### Determine Abilities
@@ -1017,7 +1017,7 @@ The summoning and control of lightning. Electricity is fairly versatile - it can
 ### Illusion (Arc/Awar)
 Creation of non-physical influences on the senses. That includes images, sounds and odors. The illusions cannot cause direct harm, although they can drive an individual to acts that may put them in danger. 
 
-A victim reaching their [exhaustion threshold](#exhaustion) by effect of this magic, while [terrified](./core-rules.md#terrified), must succeed a [toughness](./core-rules.md#toughness-tough) test, or else suffer a heart-attack and **die** outright. The **Ob** is a third of the **attribute**, rounded up. 
+A victim reaching their [exhaustion limit](#exhaustion) by effect of this magic, while [terrified](./core-rules.md#terrified), must succeed a [toughness](./core-rules.md#toughness-tough) test, or else suffer a heart-attack and **die** outright. The **Ob** is a third of the **attribute**, rounded up. 
 
 | Level | Name                 | AP | Distance     | Ob                           | Effect(s)                      | Backfire Effect(s) |
 | ----- | -------------------- | -- | ------------ | ---------------------------- | ------------------------------ | ------------------ |
