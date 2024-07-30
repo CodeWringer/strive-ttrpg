@@ -505,8 +505,8 @@ Enduring physical and mental strains.
 
 For every level in **toughness**, a character...
 * ...gains **+2 maximum [HP](#hit-points-hp)**. All characters have base [HP](#hit-points-hp) of 8. 
-* ...raises their [injury](#injury) limit by +1. All characters have a base [injury](#injury) limit of 1. 
-* ...raises their [exhaustion limit](#exhaustion) by 1. 
+* ...raises their [injury](#injury) limit by +1. 
+* ...raises their [exhaustion limit](#exhaustion) by 1. All characters have a base limit of 1. 
 * ...gains around 3 minutes of holding their breath. 
 
 For your convenience, the table below lists the numbers per level.
