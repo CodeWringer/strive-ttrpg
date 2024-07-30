@@ -52,7 +52,6 @@
       - [Bludgeoned to 0 HP](#bludgeoned-to-0-hp)
     - [Injury](#injury)
       - [Injury States \& Treatment](#injury-states--treatment)
-      - [Injury Exhaustion Threshold](#injury-exhaustion-threshold)
     - [Exhaustion](#exhaustion)
     - [Condition](#condition)
     - [Illness](#illness)
@@ -903,13 +902,6 @@ Only an **active** [injury](#injury) imposes negative effects *in addition* to t
 An [injury](#injury) can be **patched up** via a successful [test](#tests) of the required treatment skill with a reduced **Ob** (minimum 1). A **patched up** [injury](#injury) no longer imposes *additional* penalties and will begin healing, albeit much slower than if it were properly **treated**. 
 
 An [injury](#injury) can be properly **treated** via a successful [test](#tests) of the required treatment skill at full **Ob**. A **treated** [injury](#injury)'s time to heal is reduced significantly (minimum 1 time increment). Only one **treatment** attempt can be made every 24 hours on a per-character basis. 
-
-#### Injury Exhaustion Threshold
-Once a character is brought to at least half their maximum number of [injuries](#injury) (rounded down), every time past that point that they suffer further damage and/or an **injury** they must succeed a [toughness](#toughness-tough) test with their number of **injuries** as the **Ob**, or else suffer +1 [exhaustion](#exhaustion). This point in time is called the **injury exhaustion threshold**. 
-
-> A character is injured in combat. They have an **injury limit** of 3 and already suffered an **injury** earlier. Even though the earlier **injury** may have been **patched up** by now, the character's new **injury** brings them up to a total of 2 **injuries**. 
-> 
-> This means that they've gone past their **injury exhaustion threshold**. Now, they must succeed a [toughness](#toughness-tough) test at **Ob** 2, or else suffer +1 [exhaustion](#exhaustion). 
 
 ### Exhaustion
 Exhaustion is the measure of a character's maximum physical and mental strain they can endure. 
