@@ -542,7 +542,7 @@ Any long and heavier blade, including heavy one-handed blades. Examples: longswo
 | ----- | -------------------- | -- | ----------- | -------------------------------- | ------ |
 | 0     | Slash                | 2  | Opposed     | `2D8 + Str` Slashing             | / |
 | 0     | Stab                 | 2  | Opposed     | `2D6 + Agi` Piercing             | / |
-| 2     | Mord-Strike          | 2  | Opposed + 2 | `1D6 + Str` Bludgeoning          | / |
+| 2     | Mord-Strike          | 2  | Opposed     | `1D6 + Str` Bludgeoning          | / |
 | 3     | Fencer-Stance        | 2  | /           | /                                | Enter a defensive fencing stance. Gain **+1D** for melee defense and can [counter-attack](./core-rules.md#defence-stunts) **every** attack. |
 
 #### Great Blade (Str/Tough)
@@ -633,7 +633,7 @@ Small bludgeoning weapons. Examples: any improvised weapon, any club, any mace
 
 | Level | Name                 | AP | **Ob**      | Damage                           | Notes  |
 | ----- | -------------------- | -- | ----------- | -------------------------------- | ------ |
-| 0     | Smash                | 2  | Opposed     | `1D6 + Str` Bludgeonin           | / |
+| 0     | Smash                | 2  | Opposed     | `1D6 + Str` Bludgeoning          | / |
 | 0     | Knockout Blow        | 2  | Opposed + 2 | `1D6 + Str` Bludgeoning          | +2 [exhaustion](./core-rules.md#exhaustion) to target. |
 
 #### Large Crusher (Str/Tough)
@@ -645,7 +645,7 @@ Large bludgeoning weapons with a dedicated *impact zone* on the weapon head whic
 | Level | Name                 | AP | **Ob**      | Damage                           | Notes  |
 | ----- | -------------------- | -- | ----------- | -------------------------------- | ------ |
 | 0     | Smash                | 2  | Opposed     | `2D8 + Str` Crushing             | / |
-| 1     | Mighty Smash         | 2  | Opposed + 2 | `3D8 + Str` Crushing             | Defending against this attack costs 2 [AP](#action-points-ap). +1 [exhaustion](#exhaustion) to self. |
+| 1     | Mighty Smash         | 2  | Opposed + 1 | `3D8 + Str` Crushing             | Defending against this attack costs 2 [AP](#action-points-ap). +1 [exhaustion](#exhaustion) to self. |
 
 #### Short-Bow (Awar/Awar)
 A short distance ranged weapon, shooting arrows.
@@ -975,7 +975,7 @@ In all the following tables, note the following:
 * Replace *SI* with the chosen [spell intensity](#spell-intensity-si). 
 * *Level* is the prerequisite level of the **magic school skill**, at which a given spell becomes available for use. 
 * Whenever distances and radii are concerned, a mage may always choose a *shorter* distance or radius. For example, a `SI * 6'/2m` radius definition, sets the **maximum**. The radius may be at most this large, but can be smaller, if the mage so chooses. 
-* Whenever the effect is unleashed in a **cone**, then at every point it has traveled, it is as far as it has traveled. So for example, at 3'/1m, it is 3'/1m wide. At 9'/3m, it is 9'/3m wide. 
+* Whenever the effect is unleashed in a **cone**, then at every point it has traveled, it is as wide as far as it has traveled. So for example, at 3'/1m distance, it is 3'/1m wide. At 9'/3m distance, it is 9'/3m wide. 
 
 ### Alteration (Arc/Wit)
 The alteration of physical things, to change their shape and purpose, permanently. 
