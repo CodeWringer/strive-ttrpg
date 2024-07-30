@@ -1404,7 +1404,7 @@ Defending an ally is a **combat action** and a **reaction**.
 If you succeed an **active defense** and achieve at least 2 **positives** over your attacker, then you may perform one of the following stunts, at the cost of +1 [exhaustion](#exhaustion) (but only if that won't bring you to your [exhaustion limit](#exhaustion)): 
 
 * **Disarm** your opponent (if they have a detachable weapon).
-* **Displace your opponent**. They are forced to stumble backwards by 2m/6' in a direction of your choosing.
+* **Displace your opponent**. They are forced to stumble backwards by 6'/2m in a direction of your choosing.
 * **Displace yourself**. You move 6'/2m in a direction of your choosing. This does not provoke [attacks of opportunity](#attacks-of-opportunity). 
 * Throw your opponent to the ground, making them proned.
 * Launch a **counter-attack**, for half your weapon's regular damage (rounded up). You'll have to roll a regular attack, which your opponent can choose to defend against. This attack does not cost you any additional [AP](#action-points-ap). 
