@@ -348,28 +348,23 @@ To resolve an **attribute test**, the number of **D6** determined by the **attri
 Unlike with [skills](#skills), it is **not** possible to [fork](#skill-forking) **attributes**. 
 
 ### Testing a Skill
-To resolve a **skill test**, the number of **D6** indicated by the **skill's modified level**, plus each of its two **base attributes' modified level** as additional **D6** must be rolled. 
+To resolve a **skill test**, the number of **D6** indicated by the **skill's modified level**, plus *one* of its two **base attributes' modified level** as additional **D6** must be rolled. You must choose, which of the two base attributes to roll. 
 
 The **modified level** is the result of adding and subtracting [boons and penalties](#boons--penalties) from the **raw level**. 
 
 > A **PC** has an [agility](#agility-agi) at **modified level** 3 and [strength](#strength-str) at **modified level** 1. 
 > 
-> In order to test their [acrobatics](#acrobatics-agistr) skill at **modified level** 2, they get to roll 3 + 1 + 2 = 6 **D6**, if they don't have any other skills to [fork](#skill-forking) into the test. 
-
-> A **PC** has an [agility](#agility-agi) at **raw level** 3, with a [penalty](#boons--penalties) of -1 resulting in a **modified level** of 2 and [strength](#strength-str) at **raw level** 1 and no [boons or penalties](#boons--penalties) resulting in a **modified level** of 1.
-> 
-> In order to test their [acrobatics](#acrobatics-agistr) skill at **raw level** 1, with a [boon](#boons--penalties) of +1, they get to roll (3 - 1) + 1 
-> + (1 + 1) = 5 **D6**, if they don't have any other skills to [fork](#skill-forking) into the test. 
+> In order to test their [acrobatics](#acrobatics-agistr) skill at **modified level** 2, they get to roll (3 or 1) + 2 = 5 or 3 **D6**, if they don't have any other skills to [fork](#skill-forking) into the test. 
 
 It possible to [fork](#skill-forking) **skills**, allowing even more dice to be used in a test. **Do not forget to fork your skills in tests!**
 
 > A **PC** has an [agility](#agility-agi) at **modified level** 2, **awareness** at **modified level** 1 and [thievery](#thievery-agiawar) at **modified level** 1. 
 >
-> They are asked to roll a test for their [thievery](#thievery-agiawar) at **Ob** 5. With their **base attributes** and [thievery](#thievery-agiawar) combined, they can only roll 2 + 1 + 1 = 4 **D6** for the test, which means the **Ob** 5 test would be impossible to succeed. 
+> They are asked to roll a test for their [thievery](#thievery-agiawar) at **Ob** 4. With their **base attributes** and [thievery](#thievery-agiawar) combined, they can only roll (2 or 1) + 1 = 3 or 2 **D6** for the test, which means the **Ob** 4 test would be impossible to succeed. 
 >
 > But since they also *know* [stealth](#stealth-agiawar), they can petition the **GM** to allow them to [fork](#skill-forking) their [stealth](#stealth-agiawar) into their [thievery](#thievery-agiawar) test. The **GM** agrees and thus allows an additional **D6** to be added to the roll. 
 >
-> Thus, the **PC** gets to roll 5 **D6** for their test. While still difficult to succeed, the test _can_ now be succeeded, where before such a feat was impossible. 
+> Thus, the **PC** gets to roll 4 **D6** for their test. While still difficult to succeed, the test _can_ now be succeeded, where before such a feat was impossible. 
 
 ### Types of Test
 There are the following types of tests. The **GM** decides when to use which. 
@@ -588,7 +583,7 @@ A **skill** is any acquired knowledge and experience regarding a specific subjec
 
 Two values must be tracked for every **skill**: Its **raw level** and its current **modifier**, which results from the sum of [boons and penalties](#boons--penalties) affecting it. The result of adding or subtracting the modifier to/from the **raw level** yields the **modified level**, which is used in [tests](#testing-a-skill). The higher the **level**, whether **raw** or **modified**, the better. 
 
-Every skill has two [attributes](#attributes) it relies on - its so-called *base* [attributes](#attributes). The levels of these base [attributes](#attributes) also factor into a [test](#testing-a-skill) of the **skill**. 
+Every skill has two [attributes](#attributes) it relies on - its so-called *base* [attributes](#attributes). The level of a chosen one of these base [attributes](#attributes) also factors into [tests](#testing-a-skill) of the **skill**. 
 
 **Skills** [advance](#advancing-skills), as they're tested. It is also possible to [practice](#practicing-skills) and [teach](#teaching-skills) **skills**. 
 
