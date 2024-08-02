@@ -86,7 +86,7 @@ However, there is a distinction made between "proper" **NPC**s and "simple" type
 
 E. g., for any [attribute](./core-rules.md#attributes) or [skill](./core-rules.md#skills), every [opposed test](./core-rules.md#opposed-test) is made with the same number of dice. This allows you to delegate [opposed tests](./core-rules.md#opposed-test) entirely to your players. Simply name them the **CR**s for the **NPC**s they face - perhaps with a small note or card that can be placed on the table - and they can roll their **Ob** on their own, without your involvement. 
 
-> For example, a **NPC** with a **CR** of 3 would answer **all** skill or attribute tests with **3D6**. The rolled positives then determine the **Ob** for the **PC**. 
+> For example, a **NPC** with a **CR** of 3 would answer **all** skill or attribute tests with **3D6**. The rolled **hits** then determine the **Ob** for the **PC**. 
 
 Of course, such **NPC**s may still suffer [injuries](./core-rules.md#injury), which may impose penalties to their skills and attributes. Since **NPC**s with active **CR** don't allow for the granularity that injuries would normally expect, all penalties (and boons) apply directly to the **CR**. This means **CR**s themselves also allow for a modifier to apply to them, which results in a **modified CR**, which dictates the number of dice they actually have available in tests. 
 

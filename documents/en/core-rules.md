@@ -323,18 +323,18 @@ Whenever the outcome of an action or situation is uncertain, a **test** may be c
 
 As a basis for a **test**, either an [attribute](#attributes) or [skill](#skills) is used. More specifically, their **modified level** determines the number of **D6** available for a **test**. The **modified level** is the result of adding and subtracting [boons and penalties](#boons--penalties) (the sum of which is referred to as **modifier**) to or from the **raw level**. Note that while no [boons or penalties](#boons--penalties) are present on the character, their **modified level** is equal to their **raw level**. 
 
-Either a **six** or a **five** rolled on a single die counts as a **positive**. Other values are considered **negatives**. **Positives** are required in order to succeed a **test**. 
+Either a **six** or a **five** rolled on a single die counts as a **hit**. Other values are considered **misses**. **hits** are required in order to succeed a **test**. 
 
-How many **positives** are needed to succeed a **test**, is determined by the **GM** or by other characters, via a mechanism called **obstacle** (henceforth referred to as **Ob**). The **test** can only succeed, if at least as many **positives** are rolled, as the given **Ob**. 
+How many **hits** are needed to succeed a **test**, is determined by the **GM** or by other characters, via a mechanism called **obstacle** (henceforth referred to as **Ob**). The **test** can only succeed, if at least as many **hits** are rolled, as the given **Ob**. 
 
-> For example, to succeed a **test** at **Ob 3**, at least three **positives** must be rolled to succeed the **test**. Any less, and outcome is a failure. 
+> For example, to succeed a **test** at **Ob 3**, at least three **hits** must be rolled to succeed the **test**. Any less, and outcome is a failure. 
 
 The **Ob** isn't always determined directly by the **GM**. Whenever an [opposed test](#opposed-test) must be made, the **Ob** is determined by another character. 
 
 For every **test**, one of three outcomes is possible: 
-* **Complete Success**: There are enough or more than enough required **positives**.
-* **Partial Failure**: There are not enough **positives**, but more than none. 
-* **Complete Failure**: There are no **positives**, only **negatives**. 
+* **Complete Success**: There are enough or more than enough required **hits**.
+* **Partial Failure**: There are not enough **hits**, but more than none. 
+* **Complete Failure**: There are no **hits**, only **misses**. 
 
 ### Testing an Attribute
 To resolve an **attribute test**, the number of **D6** determined by the **attribute's modified level** must be rolled. 
@@ -387,15 +387,15 @@ This type of test is useful for situations where the **GM** decides to create ve
 > Obviously, such a situation should not arise often, as stepped tests can quickly grow exasperating. 
 
 #### Graduated Test
-The outcome of the test is graduated. That means, the number of **positives** rolled during the test factor into the outcome. This is called the **degree of success**. 
+The outcome of the test is graduated. That means, the number of **hits** rolled during the test factor into the outcome. This is called the **degree of success**. 
 
-> For example, when crafting a work of art, the number of **positives** achieved may result in a more impressive piece, which can then be sold at a higher price or which could make for a more impressive gift. 
+> For example, when crafting a work of art, the number of **hits** achieved may result in a more impressive piece, which can then be sold at a higher price or which could make for a more impressive gift. 
 
-A **graduated test** can occur in two forms. The first is without an **Ob** threshold for failure and the second is *with* such a threshold. When a graduated test has an **Ob**, then at least that number of **positives** must be rolled, in order to succeed the test, at all. Any **positives** rolled past the **Ob**, determine the **degree of success**. However, not achieving at least **Ob** number of **positives** results in the test being counted as a **complete failure**. 
+A **graduated test** can occur in two forms. The first is without an **Ob** threshold for failure and the second is *with* such a threshold. When a graduated test has an **Ob**, then at least that number of **hits** must be rolled, in order to succeed the test, at all. Any **hits** rolled past the **Ob**, determine the **degree of success**. However, not achieving at least **Ob** number of **hits** results in the test being counted as a **complete failure**. 
 
-On the other hand, even a **complete failure** doesn't have to be *absolute*. The number of **positives** *missing* to reach the **Ob** threshold determine the **degree of failure**. Therefore, there might be a chance to "fail forward" - a success, but with complications, whose severity depends on the **degree of failure**. 
+On the other hand, even a **complete failure** doesn't have to be *absolute*. The number of **hits** *missing* to reach the **Ob** threshold determine the **degree of failure**. Therefore, there might be a chance to "fail forward" - a success, but with complications, whose severity depends on the **degree of failure**. 
 
-> For a test, a **PC** has to do a **graduated test** of one of their **craftsmanship** **skills**, at **Ob** 3. They only achieve only 2 **positives**, which results in a **degree of failure** of 1. 
+> For a test, a **PC** has to do a **graduated test** of one of their **craftsmanship** **skills**, at **Ob** 3. They only achieve only 2 **hits**, which results in a **degree of failure** of 1. 
 > 
 > Seeing such a low **degree of failure**, the **GM** rules that the PC *does* succeed their test, but also loses more materials in the process than a **complete success** would have cost them. 
 
@@ -405,21 +405,21 @@ This type of test asks the player(s) to pick and justify the [skill(s)](#skills)
 Whether the [attribute](#attributes) or [skill(s)](#skills) in question can apply to resolve the situation at hand, lies at the **GM**'s discretion. 
 
 #### Opposed Test
-This type of test occurs, when two characters come into opposition. Who wins, and by how much, is determined by comparing the number of **positives** each achieves. The one with the most **positives** is the winner. But if there is a tie, the **defending** character is considered the winner. 
+This type of test occurs, when two characters come into opposition. Who wins, and by how much, is determined by comparing the number of **hits** each achieves. The one with the most **hits** is the winner. But if there is a tie, the **defending** character is considered the winner. 
 
 The character whose action requires the opposed test to be made is considered the *attacker*. The other character is considered the *defender*, because they are forced to react. 
 
 > For example, a character tries to sneak past another, the sneaking character will have to succeed a [stealth](#stealth-agiawar) test, while the other character will have to succeed an [observation](#observation-awarawar) test. In this scenario the character testing their **stealth** is considered the *attacker*, while the passive character being *forced* to test their **observation** is considered the defender. 
 
-The defender first rolls a test of their respective skill, against **Ob 0** (this 'automatic success' does **not** count towards skill progression) and the number of **positives** that result, plus one, is the resulting **Ob** for the attacker to match or exceed. 
+The defender first rolls a test of their respective skill, against **Ob 0** (this 'automatic success' does **not** count towards skill progression) and the number of **hits** that result, plus one, is the resulting **Ob** for the attacker to match or exceed. 
 
-> In combat, a defender rolls a defense and achieves 3 positives. Thus, the attacker must achieve at least 4 **positives**, in order to win the opposed test. 
+> In combat, a defender rolls a defense and achieves 3 **hits**. Thus, the attacker must achieve at least 4 **hits**, in order to win the opposed test. 
 
 Whoever actually wins the opposed test, gets to note a success on their respective skill, while the loser must note a failure on their respective skill. 
 
-> In combat, a defender rolls for defense and achieves 3 positives.
+> In combat, a defender rolls for defense and achieves 3 **hits**.
 > 
-> The attacker rolls an attack and achieves 3 **positives**. The **positives** being tied with the defenders', means the defender wins, by default. 
+> The attacker rolls an attack and achieves 3 **hits**. The **hits** being tied with the defenders', means the defender wins, by default. 
 > 
 > Thus, the defender notes a success on their respective defense skill, while the attacker must note a failure on their respective attack skill. 
 
@@ -1114,11 +1114,11 @@ There are no limits to how many of a given card a player can own, but they may o
 | ------- | ------------------- | ------------------ |
 | 2 MiFP  | Single Re-Roll      | Repeat a single test you just made. |
 | 6 MiFP  | Clotter             | One **active** [injury](#injury) of choice is now **patched up**. |
-| 6 MiFP  | Cascading Re-Roll   | Repeat a single test you just made. With this card, you keep any **positives** you achieved from the previously made test and add them to the **positives** rolled when you repeat the test. Exclusive with "Double the Fun". |
+| 6 MiFP  | Cascading Re-Roll   | Repeat a single test you just made. With this card, you keep any **hits** you achieved from the previously made test and add them to the **hits** rolled when you repeat the test. Exclusive with "Double the Fun". |
 | 8 MiFP  | Learning Boost      | For the duration of the session, you gain **twice** the [progress](#advancing-skills) towards your [skills](#skills) and [attributes](#attributes) whenever you test them. |
 | 8 MiFP  | Hastened            | +1 **AP** during your turns for the entirety of a [combat](#combat) encounter. |
 | 2 MaFP  | Fact Check          | Change a minor plot point in a way your prefer. Work with your **GM** to make sure it fits the narrative, but they should respect your wish. This could be something like avoiding an **NPC** death or changing a fact about the plot. |
-| 3 MaFP  | Double the Fun      | Double the number of dice to roll on your next/current test and every rolled **positive** counts double - which means every rolled **positive** actually counts as 2 **positives**! Exclusive with "Cascading Re-Roll". |
+| 3 MaFP  | Double the Fun      | Double the number of dice to roll on your next/current test and every rolled **hit** counts double - which means every rolled **hit** actually counts as 2 **hits**! Exclusive with "Cascading Re-Roll". |
 | 3 MaFP  | Scar? What Scar?    | Remove one scar [scar](#scar) of choice. |
 | 4 MaFP  | Incorrect Diagnosis | Avoid an [injury](#injury) as it would be inflicted upon you - you do not suffer that [injury](#injury)! |
 | 5 MaFP  | Just a Flesh Wound  | Raise your injury limit by one for the duration of an encounter. This card can also be played as you suffer an [injury](#injury) and even when you're [dying](#deaths-door). In that case, playing this card counts as a successful test and brings you back from the verge of death. |
@@ -1172,11 +1172,11 @@ If there is a world map, the **GM** could overlay it with tiles of squares or he
 ### Crafting
 All [craftsmanship skills](#craftsmanship) require a time investment proportional to the *quality* and *complexity* of the desired product, as well as the innate *effort* required to create it. 
 
-Making use of a [craftsmanship skill](#craftsmanship) to create something requires a [graduated test](#graduated-test) be made. The number of dice in play dictate both the time required and the maximum achievable quality. Each [skill](#skills) in question notes how much time one die "costs". It is possible to roll with fewer dice, than would be available for the [graduated test](#graduated-test). [Forked skills](#skill-forking) can also provide a die each, but note that *every* die, including those from [forked skills](#skill-forking), increase the time required. The number of **positives** and **negatives** achieved has no effect on the time taken. Merely the *number* of dice that were rolled matters. 
+Making use of a [craftsmanship skill](#craftsmanship) to create something requires a [graduated test](#graduated-test) be made. The number of dice in play dictate both the time required and the maximum achievable quality. Each [skill](#skills) in question notes how much time one die "costs". It is possible to roll with fewer dice, than would be available for the [graduated test](#graduated-test). [Forked skills](#skill-forking) can also provide a die each, but note that *every* die, including those from [forked skills](#skill-forking), increase the time required. The number of **hits** and **misses** achieved has no effect on the time taken. Merely the *number* of dice that were rolled matters. 
 
-Most **skills** do not allow for failure and the outcome of the test simply denotes the achieved quality of the product. But there are some **skills**, which can be failed, entirely. In such a case, an **Ob** threshold will be noted. Failing to achieve **Ob** number of **positives**, will result in a **complete failure** of the test - there is no resulting product and the materials used are wasted. 
+Most **skills** do not allow for failure and the outcome of the test simply denotes the achieved quality of the product. But there are some **skills**, which can be failed, entirely. In such a case, an **Ob** threshold will be noted. Failing to achieve **Ob** number of **hits**, will result in a **complete failure** of the test - there is no resulting product and the materials used are wasted. 
 
-The number of **positives** achieved denote the quality that has been achieved. Note this number on the product. 1-2 **positives** result in a **poor**, 3-4 in an **average**, 5 in a **good**, 6 in an **excellent** and 7+ in a **masterwork** product.
+The number of **hits** achieved denote the quality that has been achieved. Note this number on the product. 1-2 **hits** result in a **poor**, 3-4 in an **average**, 5 in a **good**, 6 in an **excellent** and 7+ in a **masterwork** product.
 
 Also keep in mind that to craft anything, you must have the materials required. The [craftsmanship skill](#craftsmanship) in question will provide an overview of the kinds of products you can make and what they require. Note, however, that things are kept vague on purpose. No encyclopedic listing of all possible products and required materials can be found, because such lists could never completely encompass the full spectrum of creativity available. The things listed on the skills are only meant to provide guidance. So, be creative and have your **GM** help you figure out what you need to make your product. 
 
@@ -1205,7 +1205,7 @@ For trade, there is really only one [skill](#skills) - the [mercantilism](#merca
 
 The number of dice in play for a [graduated test](#graduated-test) of this skill determine both the chance to successfully trade something and the time it takes to trade it. It is the **GM**'s duty to determine demand and supply of the thing being sold on the market, as well as how well known the **PC** is as a reputable trader. A low demand, coupled with a low reputation as a trader, should result in a high **Ob** for the test (such as a 4 or even 5). On the other hand, if demand is high, reputation might not matter much and result in a much lower **Ob**. 
 
-It is possible to roll with fewer dice, than would be available for the [graduated test](#graduated-test). [Forked skills](#skill-forking) can also provide a die each, but note that *every* die, including those from [forked skills](#skill-forking), increase the time required. The number of **positives** and **negatives** achieved has no effect on the time taken. Merely the *number* of dice that were rolled matters. 
+It is possible to roll with fewer dice, than would be available for the [graduated test](#graduated-test). [Forked skills](#skill-forking) can also provide a die each, but note that *every* die, including those from [forked skills](#skill-forking), increase the time required. The number of **hits** and **misses** achieved has no effect on the time taken. Merely the *number* of dice that were rolled matters. 
 
 To get an ear on the ground and figure out what the local market is like, a character can spend time to walk around, talk to people, ask for prices of common goods and get a feel for the wealth of the local populace. How long that will take, depends on circumstance, of course. The more technologically advanced a society is, the less time it will take to figure out the market's condition. 
 
@@ -1401,7 +1401,7 @@ It is possible for a character to defend an adjacent ally when they're being att
 Defending an ally is a **combat action** and a **reaction**. 
 
 ### Defence Stunts
-If you succeed an **active defense** and achieve at least 2 **positives** over your attacker, then you may perform one of the following stunts, at the cost of +1 [exhaustion](#exhaustion) (but only if that won't bring you to your [exhaustion limit](#exhaustion)): 
+If you succeed an **active defense** and achieve at least 2 **hits** over your attacker, then you may perform one of the following stunts, at the cost of +1 [exhaustion](#exhaustion) (but only if that won't bring you to your [exhaustion limit](#exhaustion)): 
 
 * **Disarm** your opponent (if they have a detachable weapon).
 * **Displace your opponent**. They are forced to stumble backwards by 6'/2m in a direction of your choosing. This may provoke [attacks of opportunity](#attacks-of-opportunity). 
@@ -1453,11 +1453,11 @@ How likely the object is to impact where intended is determined by the object's 
 The steps to determine **Ob** to throw are as follows:
 1. Divide distance to throw by 15'/5m.
   1. Round up.
-2. If throwing _at_ another character, add the **positives** of the defender's defense [test](#tests).
+2. If throwing _at_ another character, add the **hits** of the defender's defense [test](#tests).
 
 > A character must succeed a test at **Ob** 1 for a distance of 15'/5m. They must succeed a test at **Ob** 2 for a distance of 18'/6m and a test at **Ob** 3 for a distance of 33'/11m. 
 
-> A character is throwing their weapon at an enemy standing 24'/8m away. The distance sets the base **Ob** to 2. Additionally, the defender gets to roll their defense test and achieves 1 **positive**. This raises the **Ob** to hit to 3. 
+> A character is throwing their weapon at an enemy standing 24'/8m away. The distance sets the base **Ob** to 2. Additionally, the defender gets to roll their defense test and achieves 1 **hit**. This raises the **Ob** to hit to 3. 
 
 In case of an unsuccessful throw, the object lands only near the intended spot, instead of on it. In order to determine where a missed throw lands, roll a **D8**. A 1 designates the object landed north-west of the intended spot. Then, going clock-wise, a 2 would designate north, 3 north-east and so on. 
 
@@ -1493,10 +1493,10 @@ Sometimes, your own body is your greatest weapon. Fists and feet can cause a sur
 | Level | Name                       | AP | **Ob**                               | Damage/Effect         | Condition |
 | ----- | -------------------------- | -- | ------------------------------------ | --------------------- | --------- |
 | 0     | Punch, kick, headbutt      | 2  | Opposed                              | `Str * 2` Bludgeoning |  |
-| 0     | Shove                      | 2  | Opposed by [strength](#strength-str) | Push an enemy away from you for 3'/1m * *N*, where *N* is the number of **positives** more than the opponent achieved. |  |
+| 0     | Shove                      | 2  | Opposed by [strength](#strength-str) | Push an enemy away from you for 3'/1m * *N*, where *N* is the number of **hits** more than the opponent achieved. |  |
 | 1     | Grapple                    | 2  | Opposed by **Unarmed Combat**        | If **completely successful**, the target is unable to move and suffers **-1D** to their defense tests, for as long as they're grappled. Someone grappled can attempt to break free with an opposed **Unarmed Combat** test, on their turn. The grappler can not use at least one of their hands for as long as they're grappling. |  |
 | 2     | Wrestle and Disarm         | 2  | Opposed by **Unarmed Combat**        | Disarm your opponent and wrestle them to the ground, making them [prone](#prone), if you so choose. | Disarm only if enemy is using detachable weapon. |
-| 3     | Barge in                   | 3  | Opposed by [strength](#strength-str) | Push an enemy away from you for 3'/1m * *N*, where *N* is the number of **positives** more than the opponent achieved. Take their previous position and do **not** provoke **attacks of opportunity**. |  | 
+| 3     | Barge in                   | 3  | Opposed by [strength](#strength-str) | Push an enemy away from you for 3'/1m * *N*, where *N* is the number of **hits** more than the opponent achieved. Take their previous position and do **not** provoke **attacks of opportunity**. |  | 
 
 # General Interactions
 These are rules pertaining to specific social interactions or otherwise non-combat interactions that aren't immediately covered by a single [skill](#skills). 
@@ -1525,7 +1525,7 @@ To ***persuade*** someone to see your point, you choose a *known* **skill** pert
 
 > For example, to convince another character that their methods for treating an ailment are incorrect, you might try to *persuade* with an opposed **medicine** test. 
 > 
-> If you achieve more **positives** than them, they should understand you might be correct in your assessment and begin to doubt their own opinion. But if you don't, then they may just as well stick with their beliefs. 
+> If you achieve more **hits** than them, they should understand you might be correct in your assessment and begin to doubt their own opinion. But if you don't, then they may just as well stick with their beliefs. 
 
 Given the circumstances and what you're trying to achieve, the **GM** may determine that your **Ob** will be greater or less. Does the other character know and trust you? Do you have knowledge they do not? Do you have evidence? These and other such questions should affect the difficulty in convincing someone. 
 
@@ -1698,18 +1698,18 @@ There are two methods for determining your character's attributes: manual and se
 Please keep in mind the values here are representative for an ordinary human about to enter an adventuring life. Other species may have modifiers on their attributes, making them better or worse in some of them. But that depends on the world your **GM** is running. 
 
 ##### Manual Attribute Assignment
-* You can spend **9 points** on your attributes. 
+* You can spend **8 points** on your attributes. 
 * All attributes start at level `1`. 
-* Your attribute-total must not be greater than **14**.
+* Your attribute-total must not be greater than `13`.
 * No attribute may have a level less than `1` nor higher than `4`.
-* Only one attribute may have a level of `4`. 
+* Only two attributes may have a level of `4`. 
 
 ##### Semi-Random Attribute Assignment
 1. Roll **5 D4**
 2. Row up your dice to form a line, then read them from one end to the other and note each value. The order in which they are written down, is the order in which they'll be applied to the attributes. 
-3. If there is more than one `4`, start lowering their value by one, starting from the left or the right, until there is only one `4` left. 
+3. If there is more than two `4`s, start lowering their value by one, starting from the left or the right, until there is only two `4`s left. 
 4. Count up the total of your values. 
-   1. Subtract your total from **14**.
+   1. Subtract your total from `13`.
    2. If the number is negative, that's the number of levels you'll have to go down. <br>
    If the number is positive, that's the number of levels you'll have to go up. 
 5. Starting from the left or right, start adjusting each value.
@@ -1818,7 +1818,7 @@ Moving silently and performing actions undetected.
 
 | Level | Name                 | AP | **Ob**  | Effect(s)          | Condition(s) |
 | ----- | -------------------- | -- | ------- | ------------------ | ------------ |
-| 3     | Muffled Fumble       | 0  | 2       | When failing a **stealth test**, re-roll two of your **negatives**. If you now succeed, treat that as the outcome of your original roll. | Failed a **stealth test**;  Once per rest. |
+| 3     | Muffled Fumble       | 0  | 2       | When failing a **stealth test**, re-roll two of your **misses**. If you now succeed, treat that as the outcome of your original roll. | Failed a **stealth test**;  Once per rest. |
 | 4     | Pocket-Sand          | 3  | Opposed | If you succeed a **stealth test** against a single designated target's [observation](#observation-awarawar), you can disappear from their sight and run up to 2 **AP** worth of distance. | Once per rest. |
 
 #### Swimming (Agi/Tough)
