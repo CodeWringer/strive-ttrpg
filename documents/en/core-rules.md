@@ -853,7 +853,7 @@ Whenever a `10` **HP** segment threshold is reached, they suffer an [injury](#in
 
 > A character with toughness 3 has 40 **HP** and an injury limit of 2. They also have armor that reduces all incoming **damage** by 12. An enemy attack deals 36 points of **damage** to them, which is reduced by their armor, down to 24 points of damage that actually go through. Thus, the victim has 16 **HP** left. In the process, they pass the 30 and 20 **HP** segment thresholds. This causes them to suffer 2 **injuries**, which reduce their **maximum HP** to 20, but they also gain 2 **grit points**! 
 
-A successful [medicine](#medicine-agiwit) [test](#tests) at **Ob** equal to the treated character's [toughness](#toughness-tough) subtracted by their current number of [injuries](#injury) can restore all currently missing **HP** of a character. The minimum **Ob** for this [test](#tests) is `1`! The [test](#tests) requires [medical supplies](#list-of-stuff--things). **HP** also replenish on their own, albeit much slower. For every hour outside of combat, **1 D4** **HP** are regained, up to the current maximum. 
+A successful [medicine](#medicine-agiwit) [test](#tests) at **Ob** equal to the treated character's [toughness](#toughness-tough) subtracted by their current number of [injuries](#injury) can restore all currently missing **HP** of a character. The minimum **Ob** for this [test](#tests) is `1`! The [test](#tests) requires [medical supplies](#list-of-general-assets). **HP** also replenish on their own, albeit much slower. For every hour outside of combat, **1 D4** **HP** are regained, up to the current maximum. 
 
 > A character with a **toughness** of 4 and 2 **injuries** could have all their currently missing **HP** restored with a **medicine** test at **Ob** (4 - 2 =) 2. 
 
@@ -901,7 +901,7 @@ There are three possible states of an [injury](#injury): **active**, **patched u
 
 The type of [injury](#injury) dictates various aspects of treatment:
 * The [skill](#skills) to use.
-* The [required supplies](#list-of-stuff--things) for a treatment attempt. Both patching up and properly treating require this. 
+* The [required supplies](#list-of-general-assets) for a treatment attempt. Both patching up and properly treating require this. 
 * The **Ob** for the treatment [test](#tests). Noted as (patch-up **Ob** | treatment **Ob**). Note that the minimum **Ob** is always 1. 
 * The time to heal and the reduction in time to heal when properly treated. Noted as (time to heal | reduction when properly treated). The reduction is subtracted from the time to heal, but cannot be reduced to less than one time increment. E. g. a time to heal of 2 weeks, reduced by 3 weeks, results in 1 week of actual time to heal. 
 
@@ -2027,7 +2027,7 @@ For every *point* in **bleeding**, a character suffers **1 D4** points of [bleed
 
 * Graded
 * Shrug off: 1 *point* with a [toughness](#toughness-tough) [test](#tests) with **Ob** equal to the current *degree*. 
-* Immediate cancel: With a successful [medicine](#medicine-agiwit) [test](#tests), requiring 1 [medical supplies](#list-of-stuff--things) with **Ob** at the current *degree*.
+* Immediate cancel: With a successful [medicine](#medicine-agiwit) [test](#tests), requiring 1 [medical supplies](#list-of-general-assets) with **Ob** at the current *degree*.
 
 ### Death's Door
 **Death's door** is a **condition** only a **PC** can enter and represents their final battle with death. 
@@ -2043,7 +2043,7 @@ For every point in **dissolving**, a character suffers **1 D4** points of [acid]
 
 * Graded
 * Shrug off: 1 *point* is automatically removed after every *tick*. 
-* Immediate cancel: With a successful [medicine](#medicine-agiwit) [test](#tests), requiring 1 [medical supplies](#list-of-stuff--things) with **Ob** at the current *degree*.
+* Immediate cancel: With a successful [medicine](#medicine-agiwit) [test](#tests), requiring 1 [medical supplies](#list-of-general-assets) with **Ob** at the current *degree*.
 
 ### Drug-Addicted
 A **drug-addicted** character must take their drug once every 24 hours, or else enter **withdrawal**. 
@@ -2151,7 +2151,7 @@ Note that "Cosmic Fortune" is not an actual **injury**. When it is rolled for, *
 ### Acid Injuries
 * Self patch-up: [Toughness](#toughness-tough) at **Ob** 3 every day. 
 * Treatment skill: [medicine](#medicine-agiwit)
-* Required supplies: 1 [medical supplies](#list-of-stuff--things)
+* Required supplies: 1 [medical supplies](#list-of-general-assets)
 * **Ob**: 1D6 - 2 | 1D6
 * Time to heal: 4D4 weeks | 3D4 weeks
 
@@ -2165,7 +2165,7 @@ Note that "Cosmic Fortune" is not an actual **injury**. When it is rolled for, *
 ### Bleeding Injuries
 * Self patch-up: [Toughness](#toughness-tough) with **Ob** at level of [bleeding](#bleeding) at end of every turn / every minute. 
 * Treatment skill: [medicine](#medicine-agiwit)
-* Required supplies: 1 [medical supplies](#list-of-stuff--things)
+* Required supplies: 1 [medical supplies](#list-of-general-assets)
 * **Ob**: 1D4 - 1 | 1D4
 * Time to heal: 1D4 days | 1D4 days
 
@@ -2178,7 +2178,7 @@ Note that "Cosmic Fortune" is not an actual **injury**. When it is rolled for, *
 ### Burning Injuries
 * Self patch-up: [Toughness](#toughness-tough) at **Ob** 3 every day. 
 * Treatment skill: [medicine](#medicine-agiwit)
-* Required supplies: 1 [medical supplies](#list-of-stuff--things)
+* Required supplies: 1 [medical supplies](#list-of-general-assets)
 * **Ob**: 1D6 - 2 | 1D6
 * Time to heal: 4D4 weeks | 3D4 weeks
 
@@ -2192,7 +2192,7 @@ Note that "Cosmic Fortune" is not an actual **injury**. When it is rolled for, *
 ### Bludgeoning Injuries
 * Self patch-up: Impossible
 * Treatment skill: [surgery](#surgery-agiwit)
-* Required supplies: 1 [medical supplies](#list-of-stuff--things)
+* Required supplies: 1 [medical supplies](#list-of-general-assets)
 * **Ob**: 1D4 - 1 | 1D4 + 1
 * Time to heal: 4D6 weeks | 3D6 weeks
 
@@ -2212,7 +2212,7 @@ Note that "Cosmic Fortune" is not an actual **injury**. When it is rolled for, *
 ### Electrical Injuries
 * Self patch-up: [Toughness](#toughness-tough) at **Ob** 3 every day. 
 * Treatment skill: [medicine](#medicine-agiwit)
-* Required supplies: 1 [medical supplies](#list-of-stuff--things)
+* Required supplies: 1 [medical supplies](#list-of-general-assets)
 * **Ob**: 1D6 - 2 | 1D6
 * Time to heal: 4D4 weeks | 3D4 weeks
 
@@ -2227,7 +2227,7 @@ Note that "Cosmic Fortune" is not an actual **injury**. When it is rolled for, *
 ### Freezing Injuries
 * Self patch-up: [Toughness](#toughness-tough) at **Ob** 1 every day. 
 * Treatment skill: [medicine](#medicine-agiwit)
-* Required supplies: 1 [medical supplies](#list-of-stuff--things)
+* Required supplies: 1 [medical supplies](#list-of-general-assets)
 * **Ob**: 1D4 - 1 | 1D4
 * Time to heal: 2D4 weeks | 2D4 weeks
 
@@ -2241,7 +2241,7 @@ Note that "Cosmic Fortune" is not an actual **injury**. When it is rolled for, *
 ### Piercing Injuries
 * Self patch-up: [Toughness](#toughness-tough) at **Ob** 3 every day. 
 * Treatment skill: [surgery](#surgery-agiwit)
-* Required supplies: 1 [medical supplies](#list-of-stuff--things)
+* Required supplies: 1 [medical supplies](#list-of-general-assets)
 * **Ob**: 1D4 - 1 | 1D4
 * Time to heal: 3D4 weeks | 2D4 weeks
 
@@ -2258,7 +2258,7 @@ Note that "Cosmic Fortune" is not an actual **injury**. When it is rolled for, *
 ### Poison Injuries
 * Self patch-up: [Toughness](#toughness-tough) with **Ob** at level of [poisoned](#poisoned) at end of every turn / every minute. 
 * Treatment skill: [medicine](#medicine-agiwit)
-* Required supplies: 1 [antidote](#list-of-stuff--things)
+* Required supplies: 1 [antidote](#list-of-general-assets)
 * **Ob**: 1D4 - 1 | 1D4
 * Time to heal: 2D4 days | 1D4 + 1 days
 
@@ -2274,7 +2274,7 @@ Note that "Cosmic Fortune" is not an actual **injury**. When it is rolled for, *
 ### Slashing Injuries
 * Self patch-up: [Toughness](#toughness-tough) at **Ob** 1 at end of every turn / every minute. 
 * Treatment skill: [surgery](#surgery-agiwit)
-* Required supplies: 1 [medical supplies](#list-of-stuff--things)
+* Required supplies: 1 [medical supplies](#list-of-general-assets)
 * **Ob**: 1D4 - 1 | 1D4
 * Time to heal: 2D4 weeks | 1D4
 
