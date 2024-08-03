@@ -21,6 +21,7 @@
     - [Providing Assistance](#providing-assistance)
       - [Helpers Learn](#helpers-learn)
     - [Time](#time)
+    - [Compensation Points](#compensation-points)
 - [Character](#character)
   - [Abilities](#abilities)
     - [Attributes](#attributes)
@@ -456,6 +457,11 @@ While the **GM** decides on how much time a given test will need, the following 
 * A matter of minutes: inspecting an environment, quickly skimming the contents of a book, a short conversation, first aid. 
 * A matter of hours: Simple crafts, surgery, scrutinizing an environment, researching something simple and common, engaging in lengthy and difficult negotiations.
 * A matter of days and months: Complex crafts and artistry, researching a complex or obscure subject. 
+
+### Compensation Points
+**Compensation points** allow turning the faces of dice that came up as **misses** up to the next higher number, until they become a **hit**, instead. 
+
+> When rolling 3D6, with 2 **compensation points** and achieving 5, 3, 4 in the roll, then 1 of those **compensation points** can be used to turn the 4 into a 5 or both of the **compensation points** could turn the 3 into a 5. There are not enough **compensation points** to turn all **misses** into **hits**, but at least one die is guaranteed to become a **hit**! 
 
 # Character
 A character is a representation of a sentient creature in the game world. They're an amalgam of their [abilities](#abilities), [personality](#personality), [health](#health--exhaustion) and [assets](#assets). 
