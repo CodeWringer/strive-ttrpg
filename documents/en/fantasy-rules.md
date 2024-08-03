@@ -103,7 +103,7 @@
   - [List of Injuries](#list-of-injuries)
   - [List of Illnesses](#list-of-illnesses)
 
-Version 6 (Playtest)
+Version 7 (Playtest)
 
 A role-playing game by Nicolas H.
 
