@@ -236,16 +236,16 @@ The system is best suited for long-term "sandbox" style games, running over seve
 More details about the system:
 * Player character evolution is baked into the rules. 
   * Characters have long-term and short-term goals, which drive them onward and which change over time. 
-  * Characters learn and improve **skills** as they are used. Generalist characters benefit from varied knowledge, while specialists enjoy unique abilities. 
+  * Characters learn and improve their abilities (**attributes** and **skills**) as they are used. Generalist characters benefit from varied knowledge, while specialists enjoy unique abilities. 
 * Role-playing is encouraged by game mechanics. 
   * A meta-currency, called **fate points** is earned by *players*, based on what they and their character do in a session. 
   * Characters can help each other in game mechanical ways, encouraging co-operative play. 
 * Combat is a risky affair and requires tactical and strategic thinking, or the readiness to retreat, when things go awry. 
   * When a character suffers **injuries**, they are in *serious trouble*. 
   * Recovery from injuries is expected to take several in-game weeks. This implies plenty of down-time for combat-heavy parties, which is time that can be spent on professions, hobbies and scheming. 
-* Players are expected to manage their assets (= the things they own). They are not *item vacuums*. 
+* Players are expected to manage various resources, such as their **fate points**, their character's HP, stamina and luggage. 
 
-Extensibility and adaptability form a central foundation of the system. While in its current form it best supports medieval fantasy themes, it should be fairly well adaptable to any theme and setting and even encourages you to do so. The bulk of the work would lie in designing skills and assets that fit your setting.
+Extensibility and adaptability are an important component of the system. You are encouraged to add skills, assets or whatever else you desire. And if a rule doesn't work for you, change it to make it your own! 
 
 # How to Play
 As **STRIVE** is a **roleplaying game**, there are certain rules to follow and expectations made of both players and **GM**. 
