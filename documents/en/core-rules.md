@@ -862,9 +862,9 @@ A successful [medicine](#medicine-agiwit) [test](#tests) at **Ob** equal to the 
 See the [toughness attribute](#toughness-tough) to determine the **maximum HP** and [injury limit](#injury). 
 
 #### Bludgeoned to 0 HP
-When a character was **bludgeoned** to 0 **HP** after they reached their [injury](#injury) limit, they might survive and fall [unconscious](#unconscious), instead of dying. For that, they must succeed a [toughness](#toughness-tough) [test](#tests) at **Ob** equal to 5 subtracted by their [toughness](#toughness-tough) (minimum **Ob** 1). If they succeed, they immediately fall [unconscious](#unconscious). If they fail, they die anyway.
+When a character was **bludgeoned** to `0` **HP**, they might survive and fall [unconscious](#unconscious), instead of dying. For that, they must succeed a [toughness](#toughness-tough) [test](#tests) at **Ob** equal to the the number of times that `10` fits in the damage that was inflicted. If they succeed the [test](#tests), they immediately fall [unconscious](#unconscious). If they fail, they die.
 
-> A character with toughness 3, brought to 0 HP with their injury limit reached, must succeed a toughness test at Ob (5 - 3 =) 2, to fall unconscious, or die, if they fail. 
+> A character suffers 24 points of **bludgeoning damage** and are brought to 0 **HP**. They must now succeed a **toughness** test at **Ob** 2, if they are to survive (albeit unconscious). 
 
 ### Grit Points (GP)
 A **grit point** lets a character stand up in defiance of their [injuries](#injury) and make a last-ditch effort to turn the wheel of fate around. Every time a character suffers an [injury](#injury), they gain `1` **grit point**. 
