@@ -922,11 +922,13 @@ For every point in [toughness](#toughness-tough), a character raises their [exha
 
 If a character's exhaustion reaches their threshold, they become [exhausted](#exhausted) from over-exertion. While **exhausted**, a character suffering further [exhaustion](#exhaustion), must succeed a [self-control](#self-control-toughtough) [test](#tests) at **Ob** equal to their current level of [exhaustion](#exhaustion), or else fall [unconscious](#unconscious).
 
-Exhaustion is gained through performing **exhausting actions**, carrying **exhausting equipment** or suffering [injuries](#injury). 
+Exhaustion is gained through performing **exhausting actions** and **exhausting equipment**. 
 
-Exhaustion gained from **exhausting actions** can be reduced by resting. A full rest of at least **six uninterrupted hours** will fully clear any exhaustion gained from **exhausting actions** and remove the [exhausted](#exhausted) [condition](#condition). 
+Exhaustion gained from **exhausting actions** can be reduced by resting. An hour of uninterrupted rest will remove `1` point of exhaustion. The [exhausted](#exhausted) [condition](#condition) is automatically removed, once **exhaustion** is **below** the limit. 
 
-Exhaustion gained from **exhausting equipment**, can be reduced, by dropping the equipment in question and resting for a short while, at the **GM**'s discretion. A character trying to carry more than they can endure, should not immediately fall [unconscious](#unconscious), mind you. Apply common sense - the character in question would probably try to carry the extra equipment, only find out right away it is simply too much for them and thus drop the equipment. 
+> If a character has a limit of 3 and exhaustion of 4, then they must rest for at least 2 hours to clear their **exhausted condition**. 
+
+Exhaustion gained from **exhausting equipment**, can be reduced, by dropping the equipment in question. A character trying to carry more than they can endure, should not immediately fall [unconscious](#unconscious), mind you. Apply common sense - the character in question would probably try to carry the extra equipment, only find out right away it is simply too much for them and thus drop the equipment. 
 
 ### Condition
 A **character** can have positive or negative effects on them, represented by **conditions**. They can have any number of **conditions** applying to them simultaneously. 
@@ -1051,7 +1053,7 @@ A character's **carrying capacity** is determined by their [strength](#strength-
 #### Overweight
 A character *may* carry more than their [carrying capacity](#carrying-capacity) comfortably allows, *if* they succeed a [strength](#strength-str) test, once every 6 hours. The **Ob** is equal to the number of increments of 3 of **bulk** that they're over their limit. If they fail, they must drop some of their [luggage](#luggage). If they succeed, they may proceed, but suffer a penalty of **-1D** to all [tests](#tests) (except the [strength](#strength-str) test) for every 3 **bulk** increment over the limit. 
 
-> A character with a **carrying capacity** of 6 and currently with 5 bulk in their **luggage**, tries to pick up a bulk 5 **asset**. This brings them to a current bulk of 10 in their luggage, which is 4 points over their limit. This represents two increments of 3. Thus they must succeed a [strength](#strength-str) at **Ob** 2 and suffer **-2D** to all **tests** (except this [strength](#strength-str) test). 
+> A character with a **carrying capacity** of 6 and currently with 5 bulk in their **luggage**, tries to pick up a bulk 5 **asset**. This brings them to a current bulk of 10 in their luggage, which is 4 points over their limit. This represents two increments of 3. Thus they must succeed a [strength](#strength-str) at **Ob** 2 and suffer **-2D** to all **tests** (except *this* [strength](#strength-str) test). 
 
 ### Property
 Often times, characters will also own things they don't currently have on their person, or which they couldn't reasonably carry on person. 
@@ -2131,12 +2133,6 @@ A **terrified** character suffers **-2D** to defense tests and **has to** flee f
 
 ### Unconscious
 An **unconscious** character is unable to act and is unaware of their surroundings. 
-
-Someone *knocked* **unconscious** can't awaken due to external stimuli. To wake up, they have to recover. For how long, depends on the circumstances. But several hours hould be a good baseline. 
-
-A character can be *knocked* **unconscious**, if they're at their [exhaustion limit](#exhaustion) and suffer any [bludgeoning](#damage-types) damage and fail a [toughness](#toughness-tough) [test](#tests). The **Ob** is 2 + 1 per level of [exhaustion](#exhaustion) past the threshold.
-
-> A character is brought to an **exhaustion** level of 4 with bludgeoning damage, which is 1 point past their **exhaustion limit** of 3. They must succeed a **toughness** test at **Ob** 3, or else be knocked unconscious. 
 
 ## List of Injuries
 How many times an **injury** can be suffered, can be limited. In the table below, the *limit* is the maximum number of times the **injury** can be suffered by the same character. If there is a slash (/), there is no limit. If a roll would result in an already maxed out **injury**, pick the next **injury** below it, instead, or roll again. 
