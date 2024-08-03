@@ -565,7 +565,7 @@ For your convenience, the following table contains the precalculated requirement
 | 9     | 72    |
 | 10    | 80    |
 
-Whenever an attribute advances (= its level increases), advancement progress must be reset to `0`. 
+Whenever an **attribute** advances (= its level increases), advancement progress must be reset to `0` and it must be marked as "advanced" this session. Once it has advanced, no more progress can be noted for it, for the remainder of the session and an in-game week (although you may wish to relax the in-game time requirement if it doesn't work at your table). The body and mind need time to adjust and to rest after all that exercise. 
 
 ##### Practicing Attributes
 It is possible to advance attributes *passively*. Whenever a large period of time is spent outside of active adventure, **PC**s can practice an attribute of choice. 
@@ -640,8 +640,8 @@ The advancement formulae are shown in the following table. *N* is the current le
 
 |   | dabbling       | apprentice          | master              |
 | - | -------------- | ------------------- | ------------------- |
-| S | `6`            | `N + 1`             | `N + 2`             |
-| F | `9`            | `(N * 2) + 1`       | `(N * 2) + 2`       |
+| S | `6`            | `N + 3`             | `N + 4`             |
+| F | `9`            | `(N * 2) + 4`       | `(N * 2) + 5`       |
 
 > A character has a [nature](#nature-int) **skill** at level `2`. 
 > 
@@ -654,18 +654,18 @@ For your convenience, the following table contains the precalculated requirement
 | Level | Successes | Failures |
 | --- | --- | --- |
 | 0   | 6   | 9   |
-| 1   | 2   | 3   |
-| 2   | 3   | 5   |
-| 3   | 4   | 7   |
-| 4   | 5   | 9   |
-| 5   | 7   | 12  |
-| 6   | 8   | 14  |
-| 7   | 9   | 16  |
-| 8   | 10  | 18  |
-| 9   | 11  | 20  |
-| 10  | 12  | 22  |
+| 1   | 4   | 6   |
+| 2   | 5   | 8   |
+| 3   | 6   | 10  |
+| 4   | 7   | 12  |
+| 5   | 9   | 15  |
+| 6   | 10  | 17  |
+| 7   | 11  | 19  |
+| 8   | 12  | 21  |
+| 9   | 13  | 23  |
+| 10  | 14  | 25  |
 
-Whenever a skill advances, its associated successes and failures must each be reset to `0`. Successes and failures accumulated past the threshold do **not** carry over. They're *lost*. 
+Whenever a **skill** advances, its associated successes and failures must each be reset to `0`. Successes and failures accumulated past the threshold do **not** carry over. They're *lost*. Also, the **skill** must be marked as "advanced" this session. Once it has advanced, no more progress can be noted for it, for the remainder of the session and an in-game week (although you may wish to relax the in-game time requirement if it doesn't work at your table). The body and mind need time to adjust and to rest after all that exercise. 
 
 ##### Practicing Skills
 It is possible to advance **skills** *passively*. Whenever a large period of time is spent outside of active adventure, **PC**'s can practice a skill of choice. 
