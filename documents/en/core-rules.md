@@ -49,8 +49,9 @@
     - [Personality Traits](#personality-traits)
   - [Health \& Exhaustion](#health--exhaustion)
     - [Hit Points (HP)](#hit-points-hp)
-      - [Toughness Progress from Damage](#toughness-progress-from-damage)
       - [Bludgeoned to 0 HP](#bludgeoned-to-0-hp)
+    - [Grit Points (GP)](#grit-points-gp)
+    - [Toughness Progress from Damage](#toughness-progress-from-damage)
     - [Injury](#injury)
       - [Injury States \& Treatment](#injury-states--treatment)
     - [Exhaustion](#exhaustion)
@@ -504,18 +505,20 @@ For every 3 points in this **attribute**, past the initial **modified level**, e
 #### Toughness [Tough]
 Enduring physical and mental strains. 
 
-For every level in **toughness**, a character...
-* ...gains **+2 maximum [HP](#hit-points-hp)**. All characters have base [HP](#hit-points-hp) of 8. 
-* ...raises their [injury](#injury) limit by +1. 
-* ...raises their [exhaustion limit](#exhaustion) by 1. All characters have a base limit of 1. 
-* ...gains around 3 minutes of holding their breath. 
+For **every** level in **toughness**, a character...
+* ...gains `+10` maximum [HP](#hit-points-hp). All characters have base [HP](#hit-points-hp) of `10`. 
+* ...raises their [exhaustion limit](#exhaustion) by `+1`. All characters have a base limit of `1`. 
+* ...gains around `3` minutes of holding their breath. 
+
+For **every second** level in **toughness**, a character...
+* ...raises their [injury](#injury) limit by `+1`. All characters have a base limit of `1`. 
 
 For your convenience, the table below lists the numbers per level.
 
 | Level                | 1   | 2   | 3   | 4   | 5   | 6   | 7   | 8   | 9   | 10  |
 | -------------------- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Max. HP              | 10  | 12  | 14  | 16  | 18  | 20  | 22  | 24  | 26  | 28  |
-| Injury Limit         | 1   | 2   | 3   | 4   | 5   | 6   | 7   | 8   | 9   | 10  |
+| Max. HP              | 20  | 30  | 40  | 50  | 60  | 70  | 80  | 90  | 100 | 110 |
+| Injury Limit         | 1   | 2   | 2   | 3   | 3   | 4   | 4   | 5   | 5   | 6   |
 | Exhaustion Limit     | 2   | 3   | 4   | 5   | 6   | 7   | 8   | 9   | 10  | 11  |
 
 Every time a character suffers at least 10 [HP](#hit-points-hp) of damage **in a single attack**, they gain +1 [advancement progress](#advancing-attributes) to **toughness**. For 20 or more [HP](#hit-points-hp) of damage, they gain +2 [advancement progress](#advancing-attributes). 
@@ -844,27 +847,36 @@ Additionally, playing to or even against their character's **personality traits*
 Every character has **Hit Points (HP)** and a maximum number of **injuries** they can endure (= their **injury limit**), before they die. 
 
 ### Hit Points (HP)
-Whenever a character is hurt, the **damage** that has been inflicted upon them is deducted from their **HP**. Whenever their **HP** reach zero, they suffer an [injury](#injury). The type of [injury](#injury) depends on the [type of damage](#damage-types) that caused it.
+Whenever a character is hurt, the **damage** that has been inflicted upon them is deducted from their **HP**. When their **HP** reach 0, they **die**. An exception to this rule applies when the [damage type](#damage-types) that brought them to 0 **HP** was [bludgeoning](#damage-types). For that, see [bludgeoned to 0 HP](#bludgeoned-to-0-hp). 
 
-When their **HP** reach 0, after they have suffered their maximum number of [injuries](#injury), they **die**. An exception to this rule applies when the [damage type](#damage-types) that brought them to 0 **HP** was [bludgeoning](#damage-types). For that, see [bludgeoned to 0 HP](#bludgeoned-to-0-hp). 
+Whenever a `10` **HP** segment threshold is reached, they suffer an [injury](#injury) and gain a [grit point](#grit-points-gp). The type of [injury](#injury) depends on the [type of damage](#damage-types) that caused it. The **HP** segments are always based on the character's maximum **HP** and **not** the **damage** that was caused. Also, for every [injury](#injury), a character's maximum **HP** is reduced by `10`. A [penalty](#boons--penalties) to [toughness](#toughness-tough) does **not** cause a *further* maximum **HP** reduction. 
 
-For every level in [toughness](#toughness-tough), a character gains **+2 maximum HP** and raises their injury limit by +1. 
+> A character with toughness 3 has 40 **HP** and an injury limit of 2. They also have armor that reduces all incoming **damage** by 12. An enemy attack deals 36 points of **damage** to them, which is reduced by their armor, down to 24 points of damage that actually go through. Thus, the victim has 16 **HP** left. In the process, they pass the 30 and 20 **HP** segment thresholds. This causes them to suffer 2 **injuries**, which reduce their **maximum HP** to 20, but they also gain 2 **grit points**! 
 
-For every [injury](#injury), a character's maximum **HP** is reduced by 2. A [penalty](#boons--penalties) to [Toughness](#toughness-tough) does **not** cause a *further* maximum **HP** reduction. 
+A successful [medicine](#medicine-agiwit) [test](#tests) at **Ob** equal to the treated character's [toughness](#toughness-tough) subtracted by their current number of [injuries](#injury) can restore all currently missing **HP** of a character. The minimum **Ob** for this [test](#tests) is `1`! The [test](#tests) requires [medical supplies](#list-of-stuff--things). **HP** also replenish on their own, albeit much slower. For every hour outside of combat, **1 D4** **HP** are regained, up to the current maximum. 
 
-The **HP** range in between [injuries](#injury) is called a **HP** *segment*. 
+> A character with a **toughness** of 4 and 2 **injuries** could have all their currently missing **HP** restored with a **medicine** test at **Ob** (4 - 2 =) 2. 
 
-> A character with toughness 3 has 14 HP and an injury limit of 3. These 14 HP are their first HP segment. When they suffer an injury, they lose 2 maximum HP. Thus, their next HP segment is 12. And the one after that is 10. 
+See the [toughness attribute](#toughness-tough) to determine the **maximum HP** and [injury limit](#injury). 
 
-Any **HP** damage past zero overflows. The additional damage dealt isn't lost. When **HP** reach 0, an [injury](#injury) is suffered, maximum **HP** are reduced by 2 and **HP** are reset to the new maximum, minus the damage that overflowed. In other words, the damage past the 0 mark flows into the next **HP** *segment*. 
+#### Bludgeoned to 0 HP
+When a character was **bludgeoned** to 0 **HP** after they reached their [injury](#injury) limit, they might survive and fall [unconscious](#unconscious), instead of dying. For that, they must succeed a [toughness](#toughness-tough) [test](#tests) at **Ob** equal to 5 subtracted by their [toughness](#toughness-tough) (minimum **Ob** 1). If they succeed, they immediately fall [unconscious](#unconscious). If they fail, they die anyway.
 
-> A character currently at 8 **HP** and a maximum of 12 **HP** suffers 10 points of damage. Thus, they suffer an **injury** and now have the new maximum of 10 **HP**. 2 points of damage have overflowed. Therefore, the character's new current **HP** is (10 - 2 =) 8. 
+> A character with toughness 3, brought to 0 HP with their injury limit reached, must succeed a toughness test at Ob (5 - 3 =) 2, to fall unconscious, or die, if they fail. 
 
-A successful [medicine](#medicine-agiwit) test at **Ob** equal to the treated character's [toughness](#toughness-tough) subtracted by their current number of injuries can restore all currently missing **HP** of a character. This requires [medical supplies](#list-of-stuff--things). **HP** also replenish on their own, albeit much slower. For every hour outside of combat, **1 D4** **HP** are regained, up to the current maximum. 
+### Grit Points (GP)
+A **grit point** lets a character stand up in defiance of their [injuries](#injury) and make a last-ditch effort to turn the wheel of fate around. Every time a character suffers an [injury](#injury), they gain `1` **grit point**. 
 
-> A character with a toughness of 4 and 2 injuries could have all their currently missing **HP** restored with a **medicine** test at **Ob** (4 - 2 =) 2. 
+**Grit points** are one-time use and last until they are spent or until an [injury](#injury) has fully healed. 
 
-#### Toughness Progress from Damage
+You may spend **grit points** at any time during a round for the following effects (but only one **grit point** per effect, per round): 
+* On a [test](#tests), gain `+1D`. 
+* On a [test](#tests), gain `+1` [compensation point](#compensation-points). 
+* Reduce [exhaustion](#exhaustion) by `1D4`. 
+* On your attack, deal `+1D6` points of damage of your weapon's strongest [type of damage](#damage-types). 
+* Gain `+1D4` [AP](#action-points-ap). 
+
+### Toughness Progress from Damage
 Every time a character suffers at least 10 [HP](#hit-points-hp) of damage **in a single attack**, they gain +1 [advancement progress](#advancing-attributes). For 20 or more [HP](#hit-points-hp) of damage, they gain +2 [advancement progress](#advancing-attributes). 
 
 > A character suffering 15 points of damage **in a single attack**, gains +1 advancement progress to their toughness automatically. 
@@ -872,11 +884,6 @@ Every time a character suffers at least 10 [HP](#hit-points-hp) of damage **in a
 > A character suffering 22 points of damage **in a single attack**, gains +2 advancement progress to their toughness automatically. 
 > 
 > A character suffering 41 points of damage **in a single attack**, still only gains +2 advancement progress to their toughness automatically. 
-
-#### Bludgeoned to 0 HP
-When a character was **bludgeoned** to 0 **HP** after they reached their [injury](#injury) limit, they might survive and fall [unconscious](#unconscious), instead of dying. For that, they must succeed a [toughness](#toughness-tough) [test](#tests) at **Ob** equal to 5 subtracted by their [toughness](#toughness-tough) (minimum **Ob** 1). If they succeed, they immediately fall [unconscious](#unconscious). If they fail, they die anyway.
-
-> A character with toughness 3, brought to 0 HP with their injury limit reached, must succeed a toughness test at Ob (5 - 3 =) 2, to fall unconscious, or die, if they fail. 
 
 ### Injury
 An **injury** is a serious health impediment of a character. Every character has a maximum number of **injuries** they can endure. If they reach their maximum number of **injuries** and then lose all their remaining [HP](#hit-points-hp), the character **dies**. **PC**s are an exception, who instead arrive at [death's door](#deaths-door). 
