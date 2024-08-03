@@ -888,7 +888,7 @@ Every time a character suffers at least 10 [HP](#hit-points-hp) of damage **in a
 > A character suffering 41 points of damage **in a single attack**, still only gains +2 advancement progress to their toughness automatically. 
 
 ### Injury
-An **injury** is a serious health impediment of a character. Every character has a maximum number of **injuries** they can endure. If they reach their maximum number of **injuries** and then lose all their remaining [HP](#hit-points-hp), the character **dies**. **PC**s are an exception, who instead arrive at [death's door](#deaths-door). 
+An **injury** is a serious health impediment of a character. Every character has a maximum number of **injuries** they can endure, called the **injury limit**. 
 
 Whenever a character suffers an **injury**, a **D100** must be rolled and the corresponding result from the [damage type](#damage-types) specific [list of injuries](#list-of-injuries) added to the character. In such a case, if multiple [types of damage](#damage-types) are incurred in the same instant, then the **injury** is based on the type of which the most damage got through armor and thus dealt the most [HP](#hit-points-hp) damage. If there is a tie, the [damage type](#damage-types) that the armor reduces less causes the **injury**. If there is still a tie, a coin flip could decide.
 
