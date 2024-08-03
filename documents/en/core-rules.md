@@ -21,6 +21,7 @@
     - [Providing Assistance](#providing-assistance)
       - [Helpers Learn](#helpers-learn)
     - [Time](#time)
+    - [Compensation Points](#compensation-points)
 - [Character](#character)
   - [Abilities](#abilities)
     - [Attributes](#attributes)
@@ -48,11 +49,11 @@
     - [Personality Traits](#personality-traits)
   - [Health \& Exhaustion](#health--exhaustion)
     - [Hit Points (HP)](#hit-points-hp)
-      - [Toughness Progress from Damage](#toughness-progress-from-damage)
       - [Bludgeoned to 0 HP](#bludgeoned-to-0-hp)
+    - [Grit Points (GP)](#grit-points-gp)
+    - [Toughness Progress from Damage](#toughness-progress-from-damage)
     - [Injury](#injury)
       - [Injury States \& Treatment](#injury-states--treatment)
-      - [Injury Exhaustion Threshold](#injury-exhaustion-threshold)
     - [Exhaustion](#exhaustion)
     - [Condition](#condition)
     - [Illness](#illness)
@@ -65,6 +66,7 @@
     - [Worn \& Equipped](#worn--equipped)
     - [Luggage](#luggage)
       - [Carrying Capacity](#carrying-capacity)
+      - [Overweight](#overweight)
     - [Property](#property)
   - [Non-Player Character (NPC)](#non-player-character-npc)
 - [Fate Points](#fate-points)
@@ -98,10 +100,11 @@
     - [Attacks of Opportunity](#attacks-of-opportunity)
     - [Stealth Attacks](#stealth-attacks)
   - [Defending](#defending)
-    - [Cover](#cover)
-    - [Speed is Armor](#speed-is-armor)
+    - [Armor](#armor)
     - [Defending an Ally](#defending-an-ally)
     - [Defence Stunts](#defence-stunts)
+    - [Cover](#cover)
+    - [Speed aids Defence](#speed-aids-defence)
   - [Throwing](#throwing)
     - [Throwing-Distance](#throwing-distance)
     - [Throwing-Accuracy](#throwing-accuracy)
@@ -133,7 +136,7 @@
       - [Determine Boons from Heritage](#determine-boons-from-heritage)
     - [Determine Assets](#determine-assets)
     - [Determine Max HP \& Injury Maximum](#determine-max-hp--injury-maximum)
-    - [Determine Exhaustion Threshold](#determine-exhaustion-threshold)
+    - [Determine Exhaustion Limit](#determine-exhaustion-limit)
   - [Asset Appendix](#asset-appendix)
     - [List of General Assets](#list-of-general-assets)
     - [Weapon Properties](#weapon-properties)
@@ -200,9 +203,8 @@
   - [List of Injuries](#list-of-injuries)
     - [Acid Injuries](#acid-injuries)
     - [Bleeding Injuries](#bleeding-injuries)
-    - [Bludgeoning Injuries](#bludgeoning-injuries)
     - [Burning Injuries](#burning-injuries)
-    - [Crushing Injuries](#crushing-injuries)
+    - [Bludgeoning Injuries](#bludgeoning-injuries)
     - [Electrical Injuries](#electrical-injuries)
     - [Freezing Injuries](#freezing-injuries)
     - [Piercing Injuries](#piercing-injuries)
@@ -216,7 +218,7 @@
     - [Multiple Single Target (MST)](#multiple-single-target-mst)
     - [Area of Effect (AoE)](#area-of-effect-aoe)
 
-Version 15 (Playtest)
+Version 16 (Playtest)
 
 A role-playing game by Nicolas H.
 
@@ -234,16 +236,16 @@ The system is best suited for long-term "sandbox" style games, running over seve
 More details about the system:
 * Player character evolution is baked into the rules. 
   * Characters have long-term and short-term goals, which drive them onward and which change over time. 
-  * Characters learn and improve **skills** as they are used. Generalist characters benefit from varied knowledge, while specialists enjoy unique abilities. 
+  * Characters learn and improve their abilities (**attributes** and **skills**) as they are used. Generalist characters benefit from varied knowledge, while specialists enjoy unique abilities. 
 * Role-playing is encouraged by game mechanics. 
   * A meta-currency, called **fate points** is earned by *players*, based on what they and their character do in a session. 
   * Characters can help each other in game mechanical ways, encouraging co-operative play. 
 * Combat is a risky affair and requires tactical and strategic thinking, or the readiness to retreat, when things go awry. 
   * When a character suffers **injuries**, they are in *serious trouble*. 
   * Recovery from injuries is expected to take several in-game weeks. This implies plenty of down-time for combat-heavy parties, which is time that can be spent on professions, hobbies and scheming. 
-* Players are expected to manage their assets (= the things they own). They are not *item vacuums*. 
+* Players are expected to manage various resources, such as their **fate points**, their character's HP, stamina and luggage. 
 
-Extensibility and adaptability form a central foundation of the system. While in its current form it best supports medieval fantasy themes, it should be fairly well adaptable to any theme and setting and even encourages you to do so. The bulk of the work would lie in designing skills and assets that fit your setting.
+Extensibility and adaptability are an important component of the system. You are encouraged to add skills, assets or whatever else you desire. And if a rule doesn't work for you, change it to make it your own! 
 
 # How to Play
 As **STRIVE** is a **roleplaying game**, there are certain rules to follow and expectations made of both players and **GM**. 
@@ -323,18 +325,18 @@ Whenever the outcome of an action or situation is uncertain, a **test** may be c
 
 As a basis for a **test**, either an [attribute](#attributes) or [skill](#skills) is used. More specifically, their **modified level** determines the number of **D6** available for a **test**. The **modified level** is the result of adding and subtracting [boons and penalties](#boons--penalties) (the sum of which is referred to as **modifier**) to or from the **raw level**. Note that while no [boons or penalties](#boons--penalties) are present on the character, their **modified level** is equal to their **raw level**. 
 
-Either a **six** or a **five** rolled on a single die counts as a **positive**. Other values are considered **negatives**. **Positives** are required in order to succeed a **test**. 
+Either a **six** or a **five** rolled on a single die counts as a **hit**. Other values are considered **misses**. **hits** are required in order to succeed a **test**. 
 
-How many **positives** are needed to succeed a **test**, is determined by the **GM** or by other characters, via a mechanism called **obstacle** (henceforth referred to as **Ob**). The **test** can only succeed, if at least as many **positives** are rolled, as the given **Ob**. 
+How many **hits** are needed to succeed a **test**, is determined by the **GM** or by other characters, via a mechanism called **obstacle** (henceforth referred to as **Ob**). The **test** can only succeed, if at least as many **hits** are rolled, as the given **Ob**. 
 
-> For example, to succeed a **test** at **Ob 3**, at least three **positives** must be rolled to succeed the **test**. Any less, and outcome is a failure. 
+> For example, to succeed a **test** at **Ob 3**, at least three **hits** must be rolled to succeed the **test**. Any less, and outcome is a failure. 
 
 The **Ob** isn't always determined directly by the **GM**. Whenever an [opposed test](#opposed-test) must be made, the **Ob** is determined by another character. 
 
 For every **test**, one of three outcomes is possible: 
-* **Complete Success**: There are enough or more than enough required **positives**.
-* **Partial Failure**: There are not enough **positives**, but more than none. 
-* **Complete Failure**: There are no **positives**, only **negatives**. 
+* **Complete Success**: There are enough or more than enough required **hits**.
+* **Partial Failure**: There are not enough **hits**, but more than none. 
+* **Complete Failure**: There are no **hits**, only **misses**. 
 
 ### Testing an Attribute
 To resolve an **attribute test**, the number of **D6** determined by the **attribute's modified level** must be rolled. 
@@ -348,28 +350,23 @@ To resolve an **attribute test**, the number of **D6** determined by the **attri
 Unlike with [skills](#skills), it is **not** possible to [fork](#skill-forking) **attributes**. 
 
 ### Testing a Skill
-To resolve a **skill test**, the number of **D6** indicated by the **skill's modified level**, plus each of its two **base attributes' modified level** as additional **D6** must be rolled. 
+To resolve a **skill test**, the number of **D6** indicated by the **skill's modified level**, plus *one* of its two **base attributes' modified level** as additional **D6** must be rolled. You must choose, which of the two base attributes to roll. 
 
 The **modified level** is the result of adding and subtracting [boons and penalties](#boons--penalties) from the **raw level**. 
 
 > A **PC** has an [agility](#agility-agi) at **modified level** 3 and [strength](#strength-str) at **modified level** 1. 
 > 
-> In order to test their [acrobatics](#acrobatics-agistr) skill at **modified level** 2, they get to roll 3 + 1 + 2 = 6 **D6**, if they don't have any other skills to [fork](#skill-forking) into the test. 
-
-> A **PC** has an [agility](#agility-agi) at **raw level** 3, with a [penalty](#boons--penalties) of -1 resulting in a **modified level** of 2 and [strength](#strength-str) at **raw level** at level 1 and no [boons or penalties](#boons--penalties) resulting in a **modified level** of 1.
-> 
-> In order to test their [acrobatics](#acrobatics-agistr) skill at **raw level** 1, with a [boon](#boons--penalties) of +1, they get to roll (3 - 1) + 1 
-> + (1 + 1) = 5 **D6**, if they don't have any other skills to [fork](#skill-forking) into the test. 
+> In order to test their [acrobatics](#acrobatics-agistr) skill at **modified level** 2, they get to roll (3 or 1) + 2 = 5 or 3 **D6**, if they don't have any other skills to [fork](#skill-forking) into the test. 
 
 It possible to [fork](#skill-forking) **skills**, allowing even more dice to be used in a test. **Do not forget to fork your skills in tests!**
 
 > A **PC** has an [agility](#agility-agi) at **modified level** 2, **awareness** at **modified level** 1 and [thievery](#thievery-agiawar) at **modified level** 1. 
 >
-> They are asked to roll a test for their [thievery](#thievery-agiawar) at **Ob** 5. With their **base attributes** and [thievery](#thievery-agiawar) combined, they can only roll 2 + 1 + 1 = 4 **D6** for the test, which means the **Ob** 5 test would be impossible to succeed. 
+> They are asked to roll a test for their [thievery](#thievery-agiawar) at **Ob** 4. With their **base attributes** and [thievery](#thievery-agiawar) combined, they can only roll (2 or 1) + 1 = 3 or 2 **D6** for the test, which means the **Ob** 4 test would be impossible to succeed. 
 >
-> But since they also *knows* [stealth](#stealth-agiawar), they can petition the **GM** to allow them to [fork](#skill-forking) their [stealth](#stealth-agiawar) into their [thievery](#thievery-agiawar) test. The **GM** agrees and thus allows an additional **D6** to be added to the roll. 
+> But since they also *know* [stealth](#stealth-agiawar), they can petition the **GM** to allow them to [fork](#skill-forking) their [stealth](#stealth-agiawar) into their [thievery](#thievery-agiawar) test. The **GM** agrees and thus allows an additional **D6** to be added to the roll. 
 >
-> Thus, the **PC** gets to roll 5 **D6** for their test. While still difficult to succeed, the test _can_ now be succeeded, where before such a feat was impossible. 
+> Thus, the **PC** gets to roll 4 **D6** for their test. While still difficult to succeed, the test _can_ now be succeeded, where before such a feat was impossible. 
 
 ### Types of Test
 There are the following types of tests. The **GM** decides when to use which. 
@@ -387,15 +384,15 @@ This type of test is useful for situations where the **GM** decides to create ve
 > Obviously, such a situation should not arise often, as stepped tests can quickly grow exasperating. 
 
 #### Graduated Test
-The outcome of the test is graduated. That means, the number of **positives** rolled during the test factor into the outcome. This is called the **degree of success**. 
+The outcome of the test is graduated. That means, the number of **hits** rolled during the test factor into the outcome. This is called the **degree of success**. 
 
-> For example, when crafting a work of art, the number of **positives** achieved may result in a more impressive piece, which can then be sold at a higher price or which could make for a more impressive gift. 
+> For example, when crafting a work of art, the number of **hits** achieved may result in a more impressive piece, which can then be sold at a higher price or which could make for a more impressive gift. 
 
-A **graduated test** can occur in two forms. The first is without an **Ob** threshold for failure and the second is *with* such a threshold. When a graduated test has an **Ob**, then at least that number of **positives** must be rolled, in order to succeed the test, at all. Any **positives** rolled past the **Ob**, determine the **degree of success**. However, not achieving at least **Ob** number of **positives** results in the test being counted as a **complete failure**. 
+A **graduated test** can occur in two forms. The first is without an **Ob** threshold for failure and the second is *with* such a threshold. When a graduated test has an **Ob**, then at least that number of **hits** must be rolled, in order to succeed the test, at all. Any **hits** rolled past the **Ob**, determine the **degree of success**. However, not achieving at least **Ob** number of **hits** results in the test being counted as a **complete failure**. 
 
-On the other hand, even a **complete failure** doesn't have to be *absolute*. The number of **positives** *missing* to reach the **Ob** threshold determine the **degree of failure**. Therefore, there might be a chance to "fail forward" - a success, but with complications, whose severity depends on the **degree of failure**. 
+On the other hand, even a **complete failure** doesn't have to be *absolute*. The number of **hits** *missing* to reach the **Ob** threshold determine the **degree of failure**. Therefore, there might be a chance to "fail forward" - a success, but with complications, whose severity depends on the **degree of failure**. 
 
-> For a test, a **PC** has to do a **graduated test** of one of their **craftsmanship** **skills**, at **Ob** 3. They only achieve only 2 **positives**, which results in a **degree of failure** of 1. 
+> For a test, a **PC** has to do a **graduated test** of one of their **craftsmanship** **skills**, at **Ob** 3. They only achieve only 2 **hits**, which results in a **degree of failure** of 1. 
 > 
 > Seeing such a low **degree of failure**, the **GM** rules that the PC *does* succeed their test, but also loses more materials in the process than a **complete success** would have cost them. 
 
@@ -405,21 +402,21 @@ This type of test asks the player(s) to pick and justify the [skill(s)](#skills)
 Whether the [attribute](#attributes) or [skill(s)](#skills) in question can apply to resolve the situation at hand, lies at the **GM**'s discretion. 
 
 #### Opposed Test
-This type of test occurs, when two characters come into opposition. Who wins, and by how much, is determined by comparing the number of **positives** each achieves. The one with the most **positives** is the winner. But if there is a tie, the **defending** character is considered the winner. 
+This type of test occurs, when two characters come into opposition. Who wins, and by how much, is determined by comparing the number of **hits** each achieves. The one with the most **hits** is the winner. But if there is a tie, the **defending** character is considered the winner. 
 
 The character whose action requires the opposed test to be made is considered the *attacker*. The other character is considered the *defender*, because they are forced to react. 
 
 > For example, a character tries to sneak past another, the sneaking character will have to succeed a [stealth](#stealth-agiawar) test, while the other character will have to succeed an [observation](#observation-awarawar) test. In this scenario the character testing their **stealth** is considered the *attacker*, while the passive character being *forced* to test their **observation** is considered the defender. 
 
-The defender first rolls a test of their respective skill, against **Ob 0** (this 'automatic success' does **not** count towards skill progression) and the number of **positives** that result, plus one, is the resulting **Ob** for the attacker to match or exceed. 
+The defender first rolls a test of their respective skill, against **Ob 0** (this 'automatic success' does **not** count towards skill progression) and the number of **hits** that result, plus one, is the resulting **Ob** for the attacker to match or exceed. 
 
-> In combat, a defender rolls a defense and achieves 3 positives. Thus, the attacker must achieve at least 4 **positives**, in order to win the opposed test. 
+> In combat, a defender rolls a defense and achieves 3 **hits**. Thus, the attacker must achieve at least 4 **hits**, in order to win the opposed test. 
 
 Whoever actually wins the opposed test, gets to note a success on their respective skill, while the loser must note a failure on their respective skill. 
 
-> In combat, a defender rolls for defense and achieves 3 positives.
+> In combat, a defender rolls for defense and achieves 3 **hits**.
 > 
-> The attacker rolls an attack and achieves 3 **positives**. The **positives** being tied with the defenders', means the defender wins, by default. 
+> The attacker rolls an attack and achieves 3 **hits**. The **hits** being tied with the defenders', means the defender wins, by default. 
 > 
 > Thus, the defender notes a success on their respective defense skill, while the attacker must note a failure on their respective attack skill. 
 
@@ -462,6 +459,11 @@ While the **GM** decides on how much time a given test will need, the following 
 * A matter of hours: Simple crafts, surgery, scrutinizing an environment, researching something simple and common, engaging in lengthy and difficult negotiations.
 * A matter of days and months: Complex crafts and artistry, researching a complex or obscure subject. 
 
+### Compensation Points
+**Compensation points** allow turning the faces of dice that came up as **misses** up to the next higher number, until they become a **hit**, instead. 
+
+> When rolling 3D6, with 2 **compensation points** and achieving 5, 3, 4 in the roll, then 1 of those **compensation points** can be used to turn the 4 into a 5 or both of the **compensation points** could turn the 3 into a 5. There are not enough **compensation points** to turn all **misses** into **hits**, but at least one die is guaranteed to become a **hit**! 
+
 # Character
 A character is a representation of a sentient creature in the game world. They're an amalgam of their [abilities](#abilities), [personality](#personality), [health](#health--exhaustion) and [assets](#assets). 
 
@@ -475,7 +477,7 @@ These abilities determine the chance a character will succeed at the tasks they 
 ### Attributes
 **Attributes** describe a character's basic, inherent abilities. 
 
-Two values must be tracked for every **attribute**: Its **raw level** and its current **modifier**, which results from the sum of [boons and penalties](#boons--penalties) affecting it. The result of adding or subtracting the modifier to/from the **raw level** yields the **modified level**, which is used in [tests](#tests).
+Two values must be tracked for every **attribute**: Its **raw level** and its current **modifier**, which results from the sum of [boons and penalties](#boons--penalties) affecting it. The result of adding or subtracting the modifier to/from the **raw level** yields the **modified level**, which is used in [tests](#tests). The higher the **level**, whether **raw** or **modified**, the better. 
 
 For [testing](#tests) an **attribute**, see the [Testing an attribute](#testing-an-attribute) section. 
 
@@ -503,9 +505,21 @@ For every 3 points in this **attribute**, past the initial **modified level**, e
 #### Toughness [Tough]
 Enduring physical and mental strains. 
 
-Governs the [injury limit](#injury) and chance to shrug off certain afflictions. 
+For **every** level in **toughness**, a character...
+* ...gains `+10` maximum [HP](#hit-points-hp). All characters have base [HP](#hit-points-hp) of `10`. 
+* ...raises their [exhaustion limit](#exhaustion) by `+1`. All characters have a base limit of `1`. 
+* ...gains around `3` minutes of holding their breath. 
 
-For every point in **toughness**, a character gains **+4 maximum [HP](#hit-points-hp)** and raises their [injury](#injury) limit by 1. 
+For **every second** level in **toughness**, a character...
+* ...raises their [injury](#injury) limit by `+1`. All characters have a base limit of `1`. 
+
+For your convenience, the table below lists the numbers per level.
+
+| Level                | 1   | 2   | 3   | 4   | 5   | 6   | 7   | 8   | 9   | 10  |
+| -------------------- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Max. HP              | 20  | 30  | 40  | 50  | 60  | 70  | 80  | 90  | 100 | 110 |
+| Injury Limit         | 1   | 2   | 2   | 3   | 3   | 4   | 4   | 5   | 5   | 6   |
+| Exhaustion Limit     | 2   | 3   | 4   | 5   | 6   | 7   | 8   | 9   | 10  | 11  |
 
 Every time a character suffers at least 10 [HP](#hit-points-hp) of damage **in a single attack**, they gain +1 [advancement progress](#advancing-attributes) to **toughness**. For 20 or more [HP](#hit-points-hp) of damage, they gain +2 [advancement progress](#advancing-attributes). 
 
@@ -514,10 +528,6 @@ Every time a character suffers at least 10 [HP](#hit-points-hp) of damage **in a
 > A character suffering 22 points of damage **in a single attack**, gains +2 advancement progress to their **toughness** automatically. 
 > 
 > A character suffering 41 points of damage **in a single attack**, still only gains +2 advancement progress to their **toughness** automatically. 
-
-For every point in **toughness**, a character raises their [exhaustion threshold](#exhaustion) by 1. All characters have a base [exhaustion threshold](#exhaustion) of 1. 
-
-**Toughness** also governs how long a character can hold their breath. Every point in **toughness** grants around 3 minutes. 
 
 #### Wit [Wit]
 Sharpness of mind and tongue. 
@@ -555,7 +565,7 @@ For your convenience, the following table contains the precalculated requirement
 | 9     | 72    |
 | 10    | 80    |
 
-Whenever an attribute advances (= its level increases), advancement progress must be reset to `0`. 
+Whenever an **attribute** advances (= its level increases), advancement progress must be reset to `0` and it must be marked as "advanced" this session. Once it has advanced, no more progress can be noted for it, for the remainder of the session and an in-game week (although you may wish to relax the in-game time requirement if it doesn't work at your table). The body and mind need time to adjust and to rest after all that exercise. 
 
 ##### Practicing Attributes
 It is possible to advance attributes *passively*. Whenever a large period of time is spent outside of active adventure, **PC**s can practice an attribute of choice. 
@@ -580,9 +590,9 @@ See also [initiative](#initiative).
 ### Skills
 A **skill** is any acquired knowledge and experience regarding a specific subject. 
 
-Two values must be tracked for every **skill**: Its **raw level** and its current **modifier**, which results from the sum of [boons and penalties](#boons--penalties) affecting it. The result of adding or subtracting the modifier to/from the **raw level** yields the **modified level**, which is used in [tests](#testing-a-skill).
+Two values must be tracked for every **skill**: Its **raw level** and its current **modifier**, which results from the sum of [boons and penalties](#boons--penalties) affecting it. The result of adding or subtracting the modifier to/from the **raw level** yields the **modified level**, which is used in [tests](#testing-a-skill). The higher the **level**, whether **raw** or **modified**, the better. 
 
-Every skill has two [attributes](#attributes) it relies on - its so-called *base* [attributes](#attributes). The levels of these base [attributes](#attributes) also factor into a [test](#testing-a-skill) of the **skill**. 
+Every skill has two [attributes](#attributes) it relies on - its so-called *base* [attributes](#attributes). The level of a chosen one of these base [attributes](#attributes) also factors into [tests](#testing-a-skill) of the **skill**. 
 
 **Skills** [advance](#advancing-skills), as they're tested. It is also possible to [practice](#practicing-skills) and [teach](#teaching-skills) **skills**. 
 
@@ -630,8 +640,8 @@ The advancement formulae are shown in the following table. *N* is the current le
 
 |   | dabbling       | apprentice          | master              |
 | - | -------------- | ------------------- | ------------------- |
-| S | `6`            | `N + 1`             | `N + 2`             |
-| F | `9`            | `(N * 2) + 1`       | `(N * 2) + 2`       |
+| S | `6`            | `N + 3`             | `N + 4`             |
+| F | `9`            | `(N * 2) + 4`       | `(N * 2) + 5`       |
 
 > A character has a [nature](#nature-int) **skill** at level `2`. 
 > 
@@ -644,18 +654,18 @@ For your convenience, the following table contains the precalculated requirement
 | Level | Successes | Failures |
 | --- | --- | --- |
 | 0   | 6   | 9   |
-| 1   | 2   | 3   |
-| 2   | 3   | 5   |
-| 3   | 4   | 7   |
-| 4   | 5   | 9   |
-| 5   | 7   | 12  |
-| 6   | 8   | 14  |
-| 7   | 9   | 16  |
-| 8   | 10  | 18  |
-| 9   | 11  | 20  |
-| 10  | 12  | 22  |
+| 1   | 4   | 6   |
+| 2   | 5   | 8   |
+| 3   | 6   | 10  |
+| 4   | 7   | 12  |
+| 5   | 9   | 15  |
+| 6   | 10  | 17  |
+| 7   | 11  | 19  |
+| 8   | 12  | 21  |
+| 9   | 13  | 23  |
+| 10  | 14  | 25  |
 
-Whenever a skill advances, its associated successes and failures must each be reset to `0`. Successes and failures accumulated past the threshold do **not** carry over. They're *lost*. 
+Whenever a **skill** advances, its associated successes and failures must each be reset to `0`. Successes and failures accumulated past the threshold do **not** carry over. They're *lost*. Also, the **skill** must be marked as "advanced" this session. Once it has advanced, no more progress can be noted for it, for the remainder of the session and an in-game week (although you may wish to relax the in-game time requirement if it doesn't work at your table). The body and mind need time to adjust and to rest after all that exercise. 
 
 ##### Practicing Skills
 It is possible to advance **skills** *passively*. Whenever a large period of time is spent outside of active adventure, **PC**'s can practice a skill of choice. 
@@ -837,27 +847,38 @@ Additionally, playing to or even against their character's **personality traits*
 Every character has **Hit Points (HP)** and a maximum number of **injuries** they can endure (= their **injury limit**), before they die. 
 
 ### Hit Points (HP)
-Whenever a character is hurt, the **damage** that has been inflicted upon them is deducted from their **HP**. Whenever their **HP** reach zero, they suffer an [injury](#injury). The type of [injury](#injury) depends on the [type of damage](#damage-types) that caused it.
+Whenever a character is hurt, the **damage** that has been inflicted upon them is deducted from their **HP**. When their **HP** reach `0`, they **die**. An exception to this rule applies when the [damage type](#damage-types) that brought them to `0` **HP** was [bludgeoning](#damage-types). For that, see [bludgeoned to 0 HP](#bludgeoned-to-0-hp). 
 
-When their **HP** reach 0, after they have suffered their maximum number of [injuries](#injury), they **die**. An exception to this rule applies when the [damage type](#damage-types) that brought them to 0 **HP** was [bludgeoning](#damage-types). For that, see [bludgeoned to 0 HP](#bludgeoned-to-0-hp). 
+A further exception applies, but only for player characters, who upon reaching `0` **HP** are brought to [death's door](#deaths-door) (unless they are knocked unconscious). 
 
-For every point in [toughness](#toughness-tough), a character gains **+4 maximum HP**. 
+Whenever a `10` **HP** segment threshold is reached, they suffer an [injury](#injury) and gain a [grit point](#grit-points-gp). The type of [injury](#injury) depends on the [type of damage](#damage-types) that caused it. The **HP** segments are always based on the character's maximum **HP** and **not** the **damage** that was caused. Also, for every [injury](#injury), a character's maximum **HP** is reduced by `10`. A [penalty](#boons--penalties) to [toughness](#toughness-tough) does **not** cause a *further* maximum **HP** reduction. 
 
-For every [injury](#injury), a character's maximum **HP** is reduced by 2. A [penalty](#boons--penalties) to [Toughness](#toughness-tough) does **not** cause a *further* maximum **HP** reduction. 
+> A character with toughness 3 has 40 **HP** and an injury limit of 2. They also have armor that reduces all incoming **damage** by 12. An enemy attack deals 36 points of **damage** to them, which is reduced by their armor, down to 24 points of damage that actually go through. Thus, the victim has 16 **HP** left. In the process, they pass the 30 and 20 **HP** segment thresholds. This causes them to suffer 2 **injuries**, which reduce their **maximum HP** to 20, but they also gain 2 **grit points**! 
 
-The **HP** range in between [injuries](#injury) is called a **HP** *segment*. 
+A successful [medicine](#medicine-agiwit) [test](#tests) at **Ob** equal to the treated character's [toughness](#toughness-tough) subtracted by their current number of [injuries](#injury) can restore all currently missing **HP** of a character. The minimum **Ob** for this [test](#tests) is `1`! The [test](#tests) requires [medical supplies](#list-of-general-assets). **HP** also replenish on their own, albeit much slower. For every hour outside of combat, **1 D4** **HP** are regained, up to the current maximum. 
 
-> A character with toughness 3 has 12 HP and an injury limit of 3. These 12 HP are their first HP segment. When they suffer an injury, they lose 2 maximum HP. Thus, their next HP segment is 10. And the one after that is 8. 
+> A character with a **toughness** of 4 and 2 **injuries** could have all their currently missing **HP** restored with a **medicine** test at **Ob** (4 - 2 =) 2. 
 
-Any **HP** damage past zero overflows. The additional damage dealt isn't lost. When **HP** reach 0, an [injury](#injury) is suffered, maximum **HP** are reduced by 2 and **HP** are reset to the new maximum, minus the damage that overflowed. In other words, the damage past the 0 mark flows into the next **HP** *segment*. 
+See the [toughness attribute](#toughness-tough) to determine the **maximum HP** and [injury limit](#injury). 
 
-> A character currently at 8 **HP** and a maximum of 12 **HP** suffers 10 points of damage. Thus, they suffer an **injury** and now have the new maximum of 10 **HP**. 2 points of damage have overflowed. Therefore, the character's new current **HP** is (10 - 2 =) 8. 
+#### Bludgeoned to 0 HP
+When a character was **bludgeoned** to `0` **HP**, they might survive and fall [unconscious](#unconscious), instead of dying. For that, they must succeed a [toughness](#toughness-tough) [test](#tests) at **Ob** equal to the the number of times that `10` fits in the damage that was inflicted. If they succeed the [test](#tests), they immediately fall [unconscious](#unconscious). If they fail, they die.
 
-A successful [medicine](#medicine-agiwit) test at **Ob** equal to the treated character's [toughness](#toughness-tough) subtracted by their current number of injuries can restore all currently missing **HP** of a character. This requires [medical supplies](#list-of-stuff--things). **HP** also replenish on their own, albeit much slower. For every hour outside of combat, **1 D4** **HP** are regained, up to the current maximum. 
+> A character suffers 24 points of **bludgeoning damage** and are brought to 0 **HP**. They must now succeed a **toughness** test at **Ob** 2, if they are to survive (albeit unconscious). 
 
-> A character with a toughness of 4 and 2 injuries could have all their currently missing **HP** restored with a **medicine** test at **Ob** (4 - 2 =) 2. 
+### Grit Points (GP)
+A **grit point** lets a character stand up in defiance of their [injuries](#injury) and make a last-ditch effort to turn the wheel of fate around. Every time a character suffers an [injury](#injury), they gain `1` **grit point**. 
 
-#### Toughness Progress from Damage
+**Grit points** are one-time use and last until they are spent or until an [injury](#injury) has fully healed. 
+
+You may spend **grit points** at any time during a round for the following effects (but only one **grit point** per effect, per round): 
+* On a [test](#tests), gain `+1D`. 
+* On a [test](#tests), gain `+1` [compensation point](#compensation-points). 
+* Reduce [exhaustion](#exhaustion) by `1D4`. 
+* On your attack, deal `+1D6` points of damage of your weapon's strongest [type of damage](#damage-types). 
+* Gain `+1D4` [AP](#action-points-ap). 
+
+### Toughness Progress from Damage
 Every time a character suffers at least 10 [HP](#hit-points-hp) of damage **in a single attack**, they gain +1 [advancement progress](#advancing-attributes). For 20 or more [HP](#hit-points-hp) of damage, they gain +2 [advancement progress](#advancing-attributes). 
 
 > A character suffering 15 points of damage **in a single attack**, gains +1 advancement progress to their toughness automatically. 
@@ -866,17 +887,12 @@ Every time a character suffers at least 10 [HP](#hit-points-hp) of damage **in a
 > 
 > A character suffering 41 points of damage **in a single attack**, still only gains +2 advancement progress to their toughness automatically. 
 
-#### Bludgeoned to 0 HP
-When a character was **bludgeoned** to 0 **HP** after they reached their [injury](#injury) limit, they might survive and fall [unconscious](#unconscious), instead of dying. For that, they must succeed a [toughness](#toughness-tough) [test](#tests) at **Ob** equal to 5 subtracted by their [toughness](#toughness-tough) (minimum **Ob** 1). If they succeed, they immediately fall [unconscious](#unconscious). If they fail, they die anyway.
-
-> A character with toughness 3, brought to 0 HP with their injury limit reached, must succeed a toughness test at Ob (5 - 3 =) 2, to fall unconscious, or die, if they fail. 
-
 ### Injury
 An **injury** is a serious health impediment of a character. Every character has a maximum number of **injuries** they can endure. If they reach their maximum number of **injuries** and then lose all their remaining [HP](#hit-points-hp), the character **dies**. **PC**s are an exception, who instead arrive at [death's door](#deaths-door). 
 
 Whenever a character suffers an **injury**, a **D100** must be rolled and the corresponding result from the [damage type](#damage-types) specific [list of injuries](#list-of-injuries) added to the character. In such a case, if multiple [types of damage](#damage-types) are incurred in the same instant, then the **injury** is based on the type of which the most damage got through armor and thus dealt the most [HP](#hit-points-hp) damage. If there is a tie, the [damage type](#damage-types) that the armor reduces less causes the **injury**. If there is still a tie, a coin flip could decide.
 
-For every **injury** incurred, a character's maximum [HP](#hit-points-hp) is reduced by 2. An **injury** can also reduce [attributes](#attributes) and impose other restrictions. See also [boons & penalties](#boons--penalties). A penalty to [toughness](#toughness-tough) **does not** further reduce the current maximum [HP](#hit-points-hp)! The reduction from the **injury** is enough penalty. 
+For every **injury** incurred, a character's maximum [HP](#hit-points-hp) is reduced by `10`. An **injury** can also reduce [attributes](#attributes) and impose other restrictions. See also [boons & penalties](#boons--penalties). A penalty to [toughness](#toughness-tough) **does not** further reduce the current maximum [HP](#hit-points-hp)! The reduction from the **injury** is enough penalty. 
 
 An **injury** must be [treated](#injury-states--treatment) to reduce its negative effects and begin the healing process. [Treatment](#injury-states--treatment) is made with a [skill](#skills) noted on the **injury**. The difficulty of [treatment](#injury-states--treatment) is determined by the type of **injury**, that is to say, by the [type of damage](#damage-types) that inflicted it. The time to heal depends on its type. When an **injury** is fully healed and removed, it may leave behind a [scar](#scar), which can also impose [boons & penalties](#boons--penalties). 
 
@@ -887,7 +903,7 @@ There are three possible states of an [injury](#injury): **active**, **patched u
 
 The type of [injury](#injury) dictates various aspects of treatment:
 * The [skill](#skills) to use.
-* The [required supplies](#list-of-stuff--things) for a treatment attempt. Both patching up and properly treating require this. 
+* The [required supplies](#list-of-general-assets) for a treatment attempt. Both patching up and properly treating require this. 
 * The **Ob** for the treatment [test](#tests). Noted as (patch-up **Ob** | treatment **Ob**). Note that the minimum **Ob** is always 1. 
 * The time to heal and the reduction in time to heal when properly treated. Noted as (time to heal | reduction when properly treated). The reduction is subtracted from the time to heal, but cannot be reduced to less than one time increment. E. g. a time to heal of 2 weeks, reduced by 3 weeks, results in 1 week of actual time to heal. 
 
@@ -897,27 +913,22 @@ An [injury](#injury) can be **patched up** via a successful [test](#tests) of th
 
 An [injury](#injury) can be properly **treated** via a successful [test](#tests) of the required treatment skill at full **Ob**. A **treated** [injury](#injury)'s time to heal is reduced significantly (minimum 1 time increment). Only one **treatment** attempt can be made every 24 hours on a per-character basis. 
 
-#### Injury Exhaustion Threshold
-Once a character is brought to at least half their maximum number of [injuries](#injury) (rounded down), every time past that point that they suffer further damage and/or an **injury** they must succeed a [toughness](#toughness-tough) test with their number of **injuries** as the **Ob**, or else suffer +1 [exhaustion](#exhaustion). This point in time is called the **injury exhaustion threshold**. 
-
-> A character is injured in combat. They have an **injury limit** of 3 and already suffered an **injury** earlier. Even though the earlier **injury** may have been **patched up** by now, the character's new **injury** brings them up to a total of 2 **injuries**. 
-> 
-> This means that they've gone past their **injury exhaustion threshold**. Now, they must succeed a [toughness](#toughness-tough) test at **Ob** 2, or else suffer +1 [exhaustion](#exhaustion). 
-
 ### Exhaustion
-Exhaustion is the measure of a character's maximum physical and mental strain they can endure. 
+**Exhaustion** is the measure of a character's maximum physical and mental strain they can endure. 
 
-For every point in [toughness](#thoughness-tough), a character raises their [exhaustion threshold](#exhaustion) by 1. All characters have a base [exhaustion threshold](#exhaustion) of 1. 
+For every point in [toughness](#toughness-tough), a character raises their [exhaustion limit](#exhaustion) by 1. All characters have a base [exhaustion limit](#exhaustion) of 1. 
 
-> At **toughness** 1, you already have an exhaustion threshold of 2. 
+> At **toughness** 1, you already have an **exhaustion limit** of 2. 
 
 If a character's exhaustion reaches their threshold, they become [exhausted](#exhausted) from over-exertion. While **exhausted**, a character suffering further [exhaustion](#exhaustion), must succeed a [self-control](#self-control-toughtough) [test](#tests) at **Ob** equal to their current level of [exhaustion](#exhaustion), or else fall [unconscious](#unconscious).
 
-Exhaustion is gained through performing **exhausting actions**, carrying **exhausting equipment** or suffering [injuries](#injury). 
+Exhaustion is gained through performing **exhausting actions** and **exhausting equipment**. 
 
-Exhaustion gained from **exhausting actions** can be reduced by resting. A full rest of at least **six uninterrupted hours** will fully clear any exhaustion gained from **exhausting actions** and remove the [exhausted](#exhausted) [condition](#condition). 
+Exhaustion gained from **exhausting actions** can be reduced by resting. An hour of uninterrupted rest will remove `1` point of exhaustion. The [exhausted](#exhausted) [condition](#condition) is automatically removed, once **exhaustion** is **below** the limit. 
 
-Exhaustion gained from **exhausting equipment**, can be reduced, by dropping the equipment in question and resting for a short while, at the **GM**'s discretion. A character trying to carry more than they can endure, should not immediately fall [unconscious](#unconscious), mind you. Apply common sense - the character in question would probably try to carry the extra equipment, only find out right away it is simply too much for them and thus drop the equipment. 
+> If a character has a limit of 3 and exhaustion of 4, then they must rest for at least 2 hours to clear their **exhausted condition**. 
+
+Exhaustion gained from **exhausting equipment**, can be reduced, by dropping the equipment in question. A character trying to carry more than they can endure, should not immediately fall [unconscious](#unconscious), mind you. Apply common sense - the character in question would probably try to carry the extra equipment, only find out right away it is simply too much for them and thus drop the equipment. 
 
 ### Condition
 A **character** can have positive or negative effects on them, represented by **conditions**. They can have any number of **conditions** applying to them simultaneously. 
@@ -970,9 +981,8 @@ All damage inflicted, is inflicted with one of these types, which dictate the ty
 | ----------- | ----------- |
 | Acid        | Dissolves anything it touches, depending on circumstance. Causes [acid injuries](#acid-injuries). |
 | Bleeding    | Inflicted by [bleeding](#bleeding). The result of open wounds. Causes [bleeding injuries](#bleeding-injuries). |
-| Bludgeoning | Inflicted by blunt weapons and [unarmed](#unarmed-combat-agistr) attacks. **Bludgeoning** causes (mostly) non-lethal damage. Causes [bludgeoning injuries](#bludgeoning-injuries). Can cause a character to fall [unconscious](#unconscious), for that, see [bludgeoned to 0 HP](#bludgeoned-to-0-hp). |
+| Bludgeoning | Inflicted by blunt weapons and [unarmed](#unarmed-combat-agistr) attacks. Can cause a character to fall [unconscious](#unconscious), for that, see [bludgeoned to 0 HP](#bludgeoned-to-0-hp). |
 | Burning     | Inflicted by extreme heat. Causes [burning injuries](#burning-injuries). |
-| Crushing    | Usually inflicted by any sort of heavy blunt weapon, like a hammer, or an animal's tusks. Causes [crushing injuries](#crushing-injuries). |
 | Electrical  | Inflicted by eletrical shock. Causes [electrical injuries](#electrical-injuries). |
 | Freezing    | Inflicted by extreme cold. Causes [freezing injuries](#freezing-injuries). |
 | Piercing    | Usually inflicted by any sort of stabbing weapon, like a spear, or an animal's stinger. Causes [piercing injuries](#piercing-injuries). |
@@ -1036,9 +1046,14 @@ Things such as money, valuables, camping equipment, tools, provisions, ammunitio
 How much **luggage** a character can have on them, is determined by their [carrying capacity](#carrying-capacity). For every point of it, a character gets one *slot* for a piece of **luggage**. 
 
 #### Carrying Capacity
-How much [luggage](#luggage) a character can have on them, is determined by their **carrying capacity**, which is a **bulk** limit of **assets** that a person can be carrying around on their person. [Worn & equipped](#worn--equipped) **assets** are *excluded* and don't count towards this limit. 
+How much [luggage](#luggage) a character can comfortably have on them, is determined by their **carrying capacity**, which is a **bulk** limit of **assets** that a person can be carrying around on their person. [Worn & equipped](#worn--equipped) **assets** are *excluded* and don't count towards this limit. 
 
 A character's **carrying capacity** is determined by their [strength](#strength-str). For each point in this **attribute**, a character raises their **carrying capacity** by 3. 
+
+#### Overweight
+A character *may* carry more than their [carrying capacity](#carrying-capacity) comfortably allows, *if* they succeed a [strength](#strength-str) test, once every 6 hours. The **Ob** is equal to the number of increments of 3 of **bulk** that they're over their limit. If they fail, they must drop some of their [luggage](#luggage). If they succeed, they may proceed, but suffer a penalty of **-1D** to all [tests](#tests) (except the [strength](#strength-str) test) for every 3 **bulk** increment over the limit. 
+
+> A character with a **carrying capacity** of 6 and currently with 5 bulk in their **luggage**, tries to pick up a bulk 5 **asset**. This brings them to a current bulk of 10 in their luggage, which is 4 points over their limit. This represents two increments of 3. Thus they must succeed a [strength](#strength-str) at **Ob** 2 and suffer **-2D** to all **tests** (except *this* [strength](#strength-str) test). 
 
 ### Property
 Often times, characters will also own things they don't currently have on their person, or which they couldn't reasonably carry on person. 
@@ -1111,11 +1126,11 @@ There are no limits to how many of a given card a player can own, but they may o
 | ------- | ------------------- | ------------------ |
 | 2 MiFP  | Single Re-Roll      | Repeat a single test you just made. |
 | 6 MiFP  | Clotter             | One **active** [injury](#injury) of choice is now **patched up**. |
-| 6 MiFP  | Cascading Re-Roll   | Repeat a single test you just made. With this card, you keep any **positives** you achieved from the previously made test and add them to the **positives** rolled when you repeat the test. Exclusive with "Double the Fun". |
+| 6 MiFP  | Cascading Re-Roll   | Repeat a single test you just made. With this card, you keep any **hits** you achieved from the previously made test and add them to the **hits** rolled when you repeat the test. Exclusive with "Double the Fun". |
 | 8 MiFP  | Learning Boost      | For the duration of the session, you gain **twice** the [progress](#advancing-skills) towards your [skills](#skills) and [attributes](#attributes) whenever you test them. |
 | 8 MiFP  | Hastened            | +1 **AP** during your turns for the entirety of a [combat](#combat) encounter. |
 | 2 MaFP  | Fact Check          | Change a minor plot point in a way your prefer. Work with your **GM** to make sure it fits the narrative, but they should respect your wish. This could be something like avoiding an **NPC** death or changing a fact about the plot. |
-| 3 MaFP  | Double the Fun      | Double the number of dice to roll on your next/current test and every rolled **positive** counts double - which means every rolled **positive** actually counts as 2 **positives**! Exclusive with "Cascading Re-Roll". |
+| 3 MaFP  | Double the Fun      | Double the number of dice to roll on your next/current test and every rolled **hit** counts double - which means every rolled **hit** actually counts as 2 **hits**! Exclusive with "Cascading Re-Roll". |
 | 3 MaFP  | Scar? What Scar?    | Remove one scar [scar](#scar) of choice. |
 | 4 MaFP  | Incorrect Diagnosis | Avoid an [injury](#injury) as it would be inflicted upon you - you do not suffer that [injury](#injury)! |
 | 5 MaFP  | Just a Flesh Wound  | Raise your injury limit by one for the duration of an encounter. This card can also be played as you suffer an [injury](#injury) and even when you're [dying](#deaths-door). In that case, playing this card counts as a successful test and brings you back from the verge of death. |
@@ -1169,11 +1184,11 @@ If there is a world map, the **GM** could overlay it with tiles of squares or he
 ### Crafting
 All [craftsmanship skills](#craftsmanship) require a time investment proportional to the *quality* and *complexity* of the desired product, as well as the innate *effort* required to create it. 
 
-Making use of a [craftsmanship skill](#craftsmanship) to create something requires a [graduated test](#graduated-test) be made. The number of dice in play dictate both the time required and the maximum achievable quality. Each [skill](#skills) in question notes how much time one die "costs". It is possible to roll with fewer dice, than would be available for the [graduated test](#graduated-test). [Forked skills](#skill-forking) can also provide a die each, but note that *every* die, including those from [forked skills](#skill-forking), increase the time required. The number of **positives** and **negatives** achieved has no effect on the time taken. Merely the *number* of dice that were rolled matters. 
+Making use of a [craftsmanship skill](#craftsmanship) to create something requires a [graduated test](#graduated-test) be made. The number of dice in play dictate both the time required and the maximum achievable quality. Each [skill](#skills) in question notes how much time one die "costs". It is possible to roll with fewer dice, than would be available for the [graduated test](#graduated-test). [Forked skills](#skill-forking) can also provide a die each, but note that *every* die, including those from [forked skills](#skill-forking), increase the time required. The number of **hits** and **misses** achieved has no effect on the time taken. Merely the *number* of dice that were rolled matters. 
 
-Most **skills** do not allow for failure and the outcome of the test simply denotes the achieved quality of the product. But there are some **skills**, which can be failed, entirely. In such a case, an **Ob** threshold will be noted. Failing to achieve **Ob** number of **positives**, will result in a **complete failure** of the test - there is no resulting product and the materials used are wasted. 
+Most **skills** do not allow for failure and the outcome of the test simply denotes the achieved quality of the product. But there are some **skills**, which can be failed, entirely. In such a case, an **Ob** threshold will be noted. Failing to achieve **Ob** number of **hits**, will result in a **complete failure** of the test - there is no resulting product and the materials used are wasted. 
 
-The number of **positives** achieved denote the quality that has been achieved. Note this number on the product. 1-2 **positives** result in a **poor**, 3-4 in an **average**, 5 in a **good**, 6 in an **excellent** and 7+ in a **masterwork** product.
+The number of **hits** achieved denote the quality that has been achieved. Note this number on the product. 1-2 **hits** result in a **poor**, 3-4 in an **average**, 5 in a **good**, 6 in an **excellent** and 7+ in a **masterwork** product.
 
 Also keep in mind that to craft anything, you must have the materials required. The [craftsmanship skill](#craftsmanship) in question will provide an overview of the kinds of products you can make and what they require. Note, however, that things are kept vague on purpose. No encyclopedic listing of all possible products and required materials can be found, because such lists could never completely encompass the full spectrum of creativity available. The things listed on the skills are only meant to provide guidance. So, be creative and have your **GM** help you figure out what you need to make your product. 
 
@@ -1202,7 +1217,7 @@ For trade, there is really only one [skill](#skills) - the [mercantilism](#merca
 
 The number of dice in play for a [graduated test](#graduated-test) of this skill determine both the chance to successfully trade something and the time it takes to trade it. It is the **GM**'s duty to determine demand and supply of the thing being sold on the market, as well as how well known the **PC** is as a reputable trader. A low demand, coupled with a low reputation as a trader, should result in a high **Ob** for the test (such as a 4 or even 5). On the other hand, if demand is high, reputation might not matter much and result in a much lower **Ob**. 
 
-It is possible to roll with fewer dice, than would be available for the [graduated test](#graduated-test). [Forked skills](#skill-forking) can also provide a die each, but note that *every* die, including those from [forked skills](#skill-forking), increase the time required. The number of **positives** and **negatives** achieved has no effect on the time taken. Merely the *number* of dice that were rolled matters. 
+It is possible to roll with fewer dice, than would be available for the [graduated test](#graduated-test). [Forked skills](#skill-forking) can also provide a die each, but note that *every* die, including those from [forked skills](#skill-forking), increase the time required. The number of **hits** and **misses** achieved has no effect on the time taken. Merely the *number* of dice that were rolled matters. 
 
 To get an ear on the ground and figure out what the local market is like, a character can spend time to walk around, talk to people, ask for prices of common goods and get a feel for the wealth of the local populace. How long that will take, depends on circumstance, of course. The more technologically advanced a society is, the less time it will take to figure out the market's condition. 
 
@@ -1367,11 +1382,11 @@ An **attack of opportunity** is a **combat action** and a **reaction**.
 ### Stealth Attacks
 When attacking another character from stealth, the moment of surprise can make all the difference. An attack from stealth counts as an automatic success and you may go on to roll damage right away. 
 
-In addition to an automatic success, the attack also deals **+1D** damage or if the damage is a flat number, add half of that number, rounded up. 
+In addition to an automatic success, add half of the damage (rounded up) to be dealt as additional damage. In the case of multiple damage types in one attack, add half of *each* (and each rounded up). 
 
-When attacking with [bludgeoning](#damage-types), you may knock another character [unconscious](#unconscious) with one fell swoop. For this, their [toughness](#toughness-tough) must not be more than 3 levels greater than your [strength](#strength-str). Otherwise, the normal stealth damage bonus applies. 
+When attacking with [bludgeoning](#damage-types), you may knock another character [unconscious](#unconscious) with one fell swoop. For this, their [toughness](#toughness-tough) must not be more than 2 levels greater than your [strength](#strength-str). Otherwise, the normal stealth damage bonus applies. 
 
-> For example, two ordinary humans: one is attacking from stealth with a club and has **strength** 2, while the victim has **toughness** 5. The victim is knocked unconscious right away, as their **toughness** is still within 3 levels of their attacker. 
+> For example, two ordinary humans: one is attacking from stealth with a club and has **strength** 2, while the victim has **toughness** 4. The victim is knocked unconscious right away. 
 >
 > On the other hand, the same human attacking a giant from stealth with a club cannot knock that giant unconscious, assuming that giant to have a **toughness** of 10. The difference of 8 levels is simply too great. 
 
@@ -1383,11 +1398,29 @@ There are two types of defense:
   * This defense happens automatically, if no **active defense** is attempted. 
   * This defense can *not* be used against attacks that cost more than 1 [AP](#action-points-ap) to defend against. 
 
-To defend, an [opposed test](#opposed-test) must be made. If successful, the attack is negated, entirely, **unless** if you're parrying in melee with a weapon that has 2 bulk less than the weapon you've parried. In such a case, half the damage (rounded up) still goes through, regardless of the successful parry.  
+To defend, an [opposed test](#opposed-test) must be made. If successful, the attack is negated, entirely, **unless** if you're parrying in melee with a weapon that has 2 [bulk](#bulk) less than the weapon you've parried. In such a case, half the damage (rounded up) still goes through, regardless of the successful parry.  
 
 The defender must *choose* how to defend themselves, if no specific "opposed by" skill is noted. They can use a [weapon skill](#weapon--weapon-type---attribute), [acrobatics](#acrobatics-agistr) or [shield skill](#shield-strtough). 
 
 Defending against [area of effect](#area-of-effect) attacks is *only* possible as a **passive defense** and can *not* negate the attack. It can only halve (rounded up) its [damage](#damage). 
+
+### Armor
+Armor can negate or at least reduce the damage taken, after a defence test has failed. The specifics can be found in the used module's asset appendix. 
+
+### Defending an Ally
+It is possible for a character to defend an adjacent ally when they're being attacked. This costs 2 [AP](#action-points-ap) and results in the ally taking over the defense being forced to roll the defense test, instead of the originally attacked character. 
+
+Defending an ally is a **combat action** and a **reaction**. 
+
+### Defence Stunts
+If you succeed an **active defense** and achieve at least 2 **hits** over your attacker, then you may perform one of the following stunts, at the cost of +1 [exhaustion](#exhaustion) (but only if that won't bring you to your [exhaustion limit](#exhaustion)): 
+
+* **Disarm** your opponent (if they have a detachable weapon).
+* **Displace your opponent**. They are forced to stumble backwards by 6'/2m in a direction of your choosing. This may provoke [attacks of opportunity](#attacks-of-opportunity). 
+* **Displace yourself**. You move 6'/2m in a direction of your choosing. This does not provoke [attacks of opportunity](#attacks-of-opportunity). 
+* Throw your opponent to the ground, making them proned.
+* Launch a **counter-attack**, for half your weapon's regular damage (rounded up). You'll have to roll a regular attack, which your opponent can choose to defend against. This attack does not cost you any additional [AP](#action-points-ap). 
+* If defending against a ranged attack, you catch the projectile (if such a feat could be "reasonably" done). You may immediately throw it back at the attacker, for no additional cost. Normal [throwing](#throwing) rules apply. 
 
 ### Cover
 It is possible for characters to hide behind stationary things to make it harder to hit them. This mostly applies to ranged combat, but may also find use in melee, depending on circumstance. 
@@ -1398,29 +1431,14 @@ There are two categories of cover:
 * **High cover**: +2 **Ob** against a target that is behind high cover. 
   * High cover is any static object to hide behind that fully covers the body, like a tall wall or large boulder. 
 
-### Speed is Armor
+### Speed aids Defence
 It is possible for a victim of an attack to be moving too fast for the attacker's ability to keep tracking them effectively. 
 
 What speed exactly that is, depends heavily on circumstance. As always, the **GM**'s estimate determines whether a bonus can apply to a defense [test](#tests). A fast moving target may increase the attacker's **Ob** by 1, up to 3, depending on _how many degrees of too fast_ they are moving. 
 
 > In a sci-fi setting, an automated turret may have a tracking system that can easily keep up with targets moving at high speeds, which will only fail if the target performs some extreme maneuvers. 
 > 
-> In a medieval fantasy setting, even just someone in a full sprint may be fast enough to throw off an archer's aim. Someone on horse back, riding at speed may be very hard to hit with an arrow or melee weapon, should they ride past. 
-
-### Defending an Ally
-It is possible for a character to defend an adjacent ally when they're being attacked. This costs 2 [AP](#action-points-ap) and results in the ally taking over the defense being forced to roll the defense test, instead of the originally attacked character. 
-
-Defending an ally is a **combat action** and a **reaction**. 
-
-### Defence Stunts
-If you succeed an **active defense** and achieve at least 2 **positives** over your attacker, then you may perform one of the following stunts, at the cost of +1 [exhaustion](#exhaustion) (but only if that won't bring you to your [exhaustion threshold](#exhaustion)): 
-
-* Disarm your opponent (if they have a detachable weapon).
-* Displace your opponent. They are forced to stumble backwards by 2m/6' in a direction of your choosing.
-* Displace yourself. You move 6'/2m in a direction of your choosing. This does not provoke [attacks of opportunity](#attacks-of-opportunity). 
-* Throw your opponent to the ground, making them proned.
-* Launch a counter-attack, for half your weapon's regular damage (rounded up). You'll have to roll a regular attack, which your opponent can choose to defend against. This attack does not cost you any additional [AP](#action-points-ap). 
-* If defending against a ranged attack, you catch the projectile (if such a feat could be "reasonably" done). 
+> In a medieval fantasy setting, even just someone in a full sprint may be fast enough to throw off an archer's aim. Someone on horse back, riding at speed may be very hard to hit with an arrow or melee weapon. 
 
 ## Throwing
 Throwing things is a special type of action, that follows the rules outlined below. 
@@ -1447,11 +1465,11 @@ How likely the object is to impact where intended is determined by the object's 
 The steps to determine **Ob** to throw are as follows:
 1. Divide distance to throw by 15'/5m.
   1. Round up.
-2. If throwing _at_ another character, add the **positives** of the defender's defense [test](#tests).
+2. If throwing _at_ another character, add the **hits** of the defender's defense [test](#tests).
 
 > A character must succeed a test at **Ob** 1 for a distance of 15'/5m. They must succeed a test at **Ob** 2 for a distance of 18'/6m and a test at **Ob** 3 for a distance of 33'/11m. 
 
-> A character is throwing their weapon at an enemy standing 24'/8m away. The distance sets the base **Ob** to 2. Additionally, the defender gets to roll their defense test and achieves 1 **positive**. This raises the **Ob** to hit to 3. 
+> A character is throwing their weapon at an enemy standing 24'/8m away. The distance sets the base **Ob** to 2. Additionally, the defender gets to roll their defense test and achieves 1 **hit**. This raises the **Ob** to hit to 3. 
 
 In case of an unsuccessful throw, the object lands only near the intended spot, instead of on it. In order to determine where a missed throw lands, roll a **D8**. A 1 designates the object landed north-west of the intended spot. Then, going clock-wise, a 2 would designate north, 3 north-east and so on. 
 
@@ -1474,7 +1492,7 @@ When throwing non-weapons, the damage dealt is calculated the following way: [st
 
 Even if the `bulk - 1` formula would result in 0, instead use 1. The resulting multiplicator must not be less than 1. 
 
-The [damage type](#damage-types) to use, depends on the type of object and how it hits the target. For most non-weapons, **bludgeoning** or **crushing** should be appropriate. 
+The [damage type](#damage-types) to use, depends on the type of object and how it hits the target. For most non-weapons, **bludgeoning** should be appropriate. 
 
 > A character with [strength](#strength-str) 5, throwing a [bulk](#bulk) 3 object, can deal 5 * (3 - 1) = 10 points of damage. 
 
@@ -1486,11 +1504,11 @@ Sometimes, your own body is your greatest weapon. Fists and feet can cause a sur
 
 | Level | Name                       | AP | **Ob**                               | Damage/Effect         | Condition |
 | ----- | -------------------------- | -- | ------------------------------------ | --------------------- | --------- |
-| 0     | Punch, kick, headbutt      | 2  | Opposed                              | **Str** + 2 **Bludgeoning** |  |
-| 0     | Shove                      | 2  | Opposed by [strength](#strength-str) | Push an enemy away from you for 3'/1m * *N*, where *N* is the number of **positives** more than the opponent achieved. |  |
+| 0     | Punch, kick, headbutt      | 2  | Opposed                              | `Str * 2` Bludgeoning |  |
+| 0     | Shove                      | 2  | Opposed by [strength](#strength-str) | Push an enemy away from you for 3'/1m * *N*, where *N* is the number of **hits** more than the opponent achieved. |  |
 | 1     | Grapple                    | 2  | Opposed by **Unarmed Combat**        | If **completely successful**, the target is unable to move and suffers **-1D** to their defense tests, for as long as they're grappled. Someone grappled can attempt to break free with an opposed **Unarmed Combat** test, on their turn. The grappler can not use at least one of their hands for as long as they're grappling. |  |
 | 2     | Wrestle and Disarm         | 2  | Opposed by **Unarmed Combat**        | Disarm your opponent and wrestle them to the ground, making them [prone](#prone), if you so choose. | Disarm only if enemy is using detachable weapon. |
-| 3     | Barge in                   | 3  | Opposed by [strength](#strength-str) | Push an enemy away from you for 3'/1m * *N*, where *N* is the number of **positives** more than the opponent achieved. Take their previous position and do **not** provoke **attacks of opportunity**. |  | 
+| 3     | Barge in                   | 3  | Opposed by [strength](#strength-str) | Push an enemy away from you for 3'/1m * *N*, where *N* is the number of **hits** more than the opponent achieved. Take their previous position and do **not** provoke **attacks of opportunity**. |  | 
 
 # General Interactions
 These are rules pertaining to specific social interactions or otherwise non-combat interactions that aren't immediately covered by a single [skill](#skills). 
@@ -1519,7 +1537,7 @@ To ***persuade*** someone to see your point, you choose a *known* **skill** pert
 
 > For example, to convince another character that their methods for treating an ailment are incorrect, you might try to *persuade* with an opposed **medicine** test. 
 > 
-> If you achieve more **positives** than them, they should understand you might be correct in your assessment and begin to doubt their own opinion. But if you don't, then they may just as well stick with their beliefs. 
+> If you achieve more **hits** than them, they should understand you might be correct in your assessment and begin to doubt their own opinion. But if you don't, then they may just as well stick with their beliefs. 
 
 Given the circumstances and what you're trying to achieve, the **GM** may determine that your **Ob** will be greater or less. Does the other character know and trust you? Do you have knowledge they do not? Do you have evidence? These and other such questions should affect the difficulty in convincing someone. 
 
@@ -1566,7 +1584,7 @@ The procedure of creating a character consists of the following steps:
 4. [Determine abilities](#determine-abilities).
 6. [Determine **carrying capacity** and **assets**](#determine-assets).
 7. [Determine **Max HP** and **Injury Maximum**](#determine-max-hp--injury-maximum)
-8. [Determine exhaustion threshold](#determine-exhaustion-threshold).
+8. [Determine exhaustion limit](#determine-exhaustion-limit).
 
 ### Determine Life Path
 Where and when does the story of your character begin? Under what circumstances are they born and how were they raised? Until adulthood, did they lead a life of carelessness or did they have to fight for every scrap of food? How did they lead their life up until the point they picked up adventuring? 
@@ -1692,18 +1710,18 @@ There are two methods for determining your character's attributes: manual and se
 Please keep in mind the values here are representative for an ordinary human about to enter an adventuring life. Other species may have modifiers on their attributes, making them better or worse in some of them. But that depends on the world your **GM** is running. 
 
 ##### Manual Attribute Assignment
-* You can spend **9 points** on your attributes. 
+* You can spend **8 points** on your attributes. 
 * All attributes start at level `1`. 
-* Your attribute-total must not be greater than **14**.
+* Your attribute-total must not be greater than `13`.
 * No attribute may have a level less than `1` nor higher than `4`.
-* Only one attribute may have a level of `4`. 
+* Only two attributes may have a level of `4`. 
 
 ##### Semi-Random Attribute Assignment
 1. Roll **5 D4**
 2. Row up your dice to form a line, then read them from one end to the other and note each value. The order in which they are written down, is the order in which they'll be applied to the attributes. 
-3. If there is more than one `4`, start lowering their value by one, starting from the left or the right, until there is only one `4` left. 
+3. If there is more than two `4`s, start lowering their value by one, starting from the left or the right, until there is only two `4`s left. 
 4. Count up the total of your values. 
-   1. Subtract your total from **14**.
+   1. Subtract your total from `13`.
    2. If the number is negative, that's the number of levels you'll have to go down. <br>
    If the number is positive, that's the number of levels you'll have to go up. 
 5. Starting from the left or right, start adjusting each value.
@@ -1746,11 +1764,8 @@ Always make sure to talk to your **GM** and fellow players and have them agree t
 ### Determine Max HP & Injury Maximum
 Determine your character's **max HP** and **injury limit**, by referring to the [toughness](#toughness-tough) attribute. 
 
-All characters start with an **injury limit** of 2. 
-
-### Determine Exhaustion Threshold
-Determine your character's [exhaustion threshold](#exhaustion), by referring to the [toughness](#thoughness-tough) attribute. 
-
+### Determine Exhaustion Limit
+Determine your character's [exhaustion limit](#exhaustion), by referring to the [toughness](#toughness-tough) attribute. 
 
 ## Asset Appendix
 The following list does not and cannot aim to be a complete listing of all possible assets in game. Adding new assets as necessary will have to be done by the **GM**. 
@@ -1786,8 +1801,9 @@ Performing acrobatic feats, such as jumping, tumbling and climbing, without inju
 
 | Level | Name                 | AP | **Ob**  | Effect(s)          | Condition(s) |
 | ----- | -------------------- | -- | ------- | ------------------ | ------------ |
-| 2     | Wind Out Of It       | 1  | 2       | When hit by a [single-target](#single-target-st) attack, wind out of the hit and suffer only half the damage. Can be used even when a much bulkier weapon is breaking through your successful defens, to halve the damage *again*, effectively resulting in you suffering only 1/4th (rounded up) of the damage. | / |
-| 3     | Bob, Weave, Jab      | 1  | Opposed | When succeeding a defense test, follow up with a [single-target](#single-target-st) attack against the enemy who attacked you. | / |
+| 0     | Deft Evasion         | /  | /       | Passive: While not wearing any [armor](#armor) and not wielding a shield of bulk 2 or more, gain `+1` [compensation point](#compensation-points) to any [defence test](#defending) made using this skill. | / |
+| 2     | Wind Out Of It       | 1  | 2       | When hit by a [single-target](#single-target-st) attack, wind out of the hit and suffer only half the damage. Can be used even when a much bulkier weapon is breaking through your successful defense, to halve the damage *again*, effectively resulting in you suffering only 1/4th (rounded up) of the damage. | Once per combat. |
+| 3     | Bob, Weave, Jab      | 1  | Opposed | When succeeding a defense test, launch a [counter-attack](#defence-stunts) against the enemy who attacked you, but for your weapon's **full damage** and without suffering any [exhaustion](#exhaustion)! | Once per round. |
 
 #### Berserking (Tough/Tough)
 Whether as a well-honed skill and way of life, or through a disappointing childhood of misery and pain, berserking is a talent for fighting angrily and recklessly. It allows a fighter to keep fighting at surprising strength, even when wounded. 
@@ -1796,9 +1812,10 @@ However, the price for this strength is steep. The chance of death is greatly in
 
 | Level | Name                 | AP | **Ob**  | Effect(s)          | Condition(s) |
 | ----- | -------------------- | -- | ------- | ------------------ | ------------ |
-| 0     | Reckless Assault     | 2  | /       | Deal an extra **D** of damage on your next successful attack during this turn, according to your weapon's damage. Suffer a **-2D** penalty on all defense tests until the start of your next turn. |  |
+| 0     | Reckless Assault     | 1  | /       | Deal an extra **D** of damage (or if no dice are rolled, then add half of the damage, rounded up) on your next successful attack during this turn, according to your weapon's damage. Suffer a **-1D** penalty on all [defense tests](#defending) until the start of your next turn. |  |
 | 1     | Grit Your Teeth      | 1  | /       | Ignore the negative effects of one [injury](#injury) of choice for the rest of the combat encounter. It will still count towards the injury limit, however! | Once per combat. |
 | 2     | Pain is Strength     | 3  | Opposed | Perform a [single-target](#single-target-st) melee attack against an opponent of choice. For every active [injury](#injury) you currently have, deal one extra **D** of damage. You suffer one point of [exhaustion](#exhaustion). | Once per day. |
+| 4     | Injury Collector     | 0  | /       | Passive: While not wearing any [armor](#armor), raise your [injury limit](#injury) by 1. | / |
 
 #### Fishing (Agi/Awar)
 The ability to efficiently catch fish. 
@@ -1813,7 +1830,7 @@ Moving silently and performing actions undetected.
 
 | Level | Name                 | AP | **Ob**  | Effect(s)          | Condition(s) |
 | ----- | -------------------- | -- | ------- | ------------------ | ------------ |
-| 3     | Muffled Fumble       | 0  | 2       | When failing a **stealth test**, re-roll two of your **negatives**. If you now succeed, treat that as the outcome of your original roll. | Failed a **stealth test**;  Once per rest. |
+| 3     | Muffled Fumble       | 0  | 2       | When failing a **stealth test**, re-roll two of your **misses**. If you now succeed, treat that as the outcome of your original roll. | Failed a **stealth test**;  Once per rest. |
 | 4     | Pocket-Sand          | 3  | Opposed | If you succeed a **stealth test** against a single designated target's [observation](#observation-awarawar), you can disappear from their sight and run up to 2 **AP** worth of distance. | Once per rest. |
 
 #### Swimming (Agi/Tough)
@@ -1907,7 +1924,7 @@ In and outside of [combat](#combat), a rider will inherit the [speed](#combat-mo
 
 | Level | Name                 | AP | **Ob** | Effect(s)          | Condition(s) |
 | ----- | -------------------- | -- | ------ | ------------------ | ------------ |
-| 1     | Spur                 | 1  | 2      | Gain an additional 3 **AP** worth of movement from your mount. The mount suffers +1 exhaustion. | At most once per turn. |
+| 1     | Spur                 | 1  | 2      | Gain an additional 2 **AP** worth of movement from your mount. The mount suffers +1 exhaustion. | At most once per turn. |
 | 3     | Mounted Charge       | 3  | 3      | Perform a mounted charge attack, dealing **2D4** extra damage of whatever weapon type you are using. | Mounted on a fast and strong animal; Must have enough distance to target to gain enough speed - refer to **GM**'s judgement. |
 
 #### Self-Control (Tough/Tough)
@@ -2014,23 +2031,23 @@ For every *point* in **bleeding**, a character suffers **1 D4** points of [bleed
 
 * Graded
 * Shrug off: 1 *point* with a [toughness](#toughness-tough) [test](#tests) with **Ob** equal to the current *degree*. 
-* Immediate cancel: With a successful [medicine](#medicine-agiwit) [test](#tests), requiring 1 [medical supplies](#list-of-stuff--things) with **Ob** at the current *degree*.
+* Immediate cancel: With a successful [medicine](#medicine-agiwit) [test](#tests), requiring 1 [medical supplies](#list-of-general-assets) with **Ob** at the current *degree*.
 
 ### Death's Door
 **Death's door** is a **condition** only a **PC** can enter and represents their final battle with death. 
 
 A **PC** at **death's door** must succeed at least one [toughness](#toughness-tough) test out of a possible of three. If they never succeed, they perish, irrevocably*. The **Ob** is determined as half of the character's [toughness](#toughness-tough), rounded up. 
-* If the character is at **death's door** during [combat](#combat), they must make a [toughness](#toughness-tough) test at the end of every round. 
+* If the character is at **death's door** during [combat](#combat), they must make a [toughness](#toughness-tough) test at the end of every **round**. 
 * If the character is at **death's door** out of [combat](#combat), they must make a test every minute. 
 
-A character can be helped out of the **death's door** **condition**, if all of their **active** [injuries](#injury) are **patched up** or **treated**. 
+A character can be helped out of the **death's door** **condition**, if their [HP](#hit-points-hp) are brought back up to at least `1`. 
 
 ### Dissolving
 For every point in **dissolving**, a character suffers **1 D4** points of [acid](#damage-types) damage every *tick*. 
 
 * Graded
 * Shrug off: 1 *point* is automatically removed after every *tick*. 
-* Immediate cancel: With a successful [medicine](#medicine-agiwit) [test](#tests), requiring 1 [medical supplies](#list-of-stuff--things) with **Ob** at the current *degree*.
+* Immediate cancel: With a successful [medicine](#medicine-agiwit) [test](#tests), requiring 1 [medical supplies](#list-of-general-assets) with **Ob** at the current *degree*.
 
 ### Drug-Addicted
 A **drug-addicted** character must take their drug once every 24 hours, or else enter **withdrawal**. 
@@ -2117,12 +2134,6 @@ A **terrified** character suffers **-2D** to defense tests and **has to** flee f
 ### Unconscious
 An **unconscious** character is unable to act and is unaware of their surroundings. 
 
-Someone *knocked* **unconscious** can't awaken due to external stimuli. To wake up, they have to recover. For how long, depends on the circumstances. But several hours hould be a good baseline. 
-
-A character can be *knocked* **unconscious**, if they're at their exhaustion threshold and suffer any [bludgeoning](#damage-types) damage and fail a [toughness](#thoughness-tough) [test](#tests). The **Ob** is 2 + 1 per level of exhaustion past the threshold.
-
-> A character is brought to an exhaustion level of 4 with bludgeoning damage, which is 1 point past their exhaustion threshold of 3. They must succeed a **toughness** test at **Ob** 3, or else be knocked unconscious. 
-
 ## List of Injuries
 How many times an **injury** can be suffered, can be limited. In the table below, the *limit* is the maximum number of times the **injury** can be suffered by the same character. If there is a slash (/), there is no limit. If a roll would result in an already maxed out **injury**, pick the next **injury** below it, instead, or roll again. 
 
@@ -2138,7 +2149,7 @@ Note that "Cosmic Fortune" is not an actual **injury**. When it is rolled for, *
 ### Acid Injuries
 * Self patch-up: [Toughness](#toughness-tough) at **Ob** 3 every day. 
 * Treatment skill: [medicine](#medicine-agiwit)
-* Required supplies: 1 [medical supplies](#list-of-stuff--things)
+* Required supplies: 1 [medical supplies](#list-of-general-assets)
 * **Ob**: 1D6 - 2 | 1D6
 * Time to heal: 4D4 weeks | 3D4 weeks
 
@@ -2152,7 +2163,7 @@ Note that "Cosmic Fortune" is not an actual **injury**. When it is rolled for, *
 ### Bleeding Injuries
 * Self patch-up: [Toughness](#toughness-tough) with **Ob** at level of [bleeding](#bleeding) at end of every turn / every minute. 
 * Treatment skill: [medicine](#medicine-agiwit)
-* Required supplies: 1 [medical supplies](#list-of-stuff--things)
+* Required supplies: 1 [medical supplies](#list-of-general-assets)
 * **Ob**: 1D4 - 1 | 1D4
 * Time to heal: 1D4 days | 1D4 days
 
@@ -2162,56 +2173,44 @@ Note that "Cosmic Fortune" is not an actual **injury**. When it is rolled for, *
 | 34 - 66    | Exsanguinated       | /         | -1 [strength](#strength-str); -1 [wit](#wit-wit). The skin is pale and the body feels heavy. | / |
 | 67 - 100   | Weakened            | /         | -1 [strength](#strength-str); -1 [toughness](#toughness-tough). You feel weak. | / |
 
-### Bludgeoning Injuries
-* Self patch-up: [Toughness](#toughness-tough) at **Ob** 1. 
-* Treatment skill: [medicine](#medicine-agiwit)
-* Required supplies: 1 [medical supplies](#list-of-stuff--things)
-* **Ob**: 1 | 2
-* Time to heal: 1D4 days | 1D4 days
-
-Note that whenever a bludgeoning [injury](#injury) is suffered, a [toughness](#thoughness-tough) [test](#tests) must be succeeded at **Ob** equal to the current level of [exhaustion](#exhaustion). If failed, the character falls [unconscious](#unconscious), immediately. 
-
-| Range D100 | Injury              | Limit     | Description                      | Scar                |
-| ---------  | ------------------- | --------- | -------------------------------- | ------------------- |
-| 1  - 25    | Dizzy               | /         | +1 [exhaustion](#exhaustion); -1 [awareness](#awareness-awar). You feel dizzy. Focusing is difficult. | / |
-| 26 - 50    | Battered Head       | /         | +1 [exhaustion](#exhaustion); -1 [wit](#wit-wit). Headache plagues you and pain dulls your mind. | / |
-| 51 - 75    | Bruise              | /         | +1 [exhaustion](#exhaustion); -1 [agility](#agility-agi). A bruised limb is harder to control, due to pain. | / |
-| 76 - 100   | Shaken              | /         | +1 [exhaustion](#exhaustion); -1 [toughness](#toughness-tough). Rattled and shaken, it is harder to control yourself. | / |
-
 ### Burning Injuries
 * Self patch-up: [Toughness](#toughness-tough) at **Ob** 3 every day. 
 * Treatment skill: [medicine](#medicine-agiwit)
-* Required supplies: 1 [medical supplies](#list-of-stuff--things)
+* Required supplies: 1 [medical supplies](#list-of-general-assets)
 * **Ob**: 1D6 - 2 | 1D6
 * Time to heal: 4D4 weeks | 3D4 weeks
 
 | Range D100 | Injury              | Limit     | Description                      | Scar                |
 | ---------  | ------------------- | --------- | -------------------------------- | ------------------- |
-| 1 - 25     | Molten Skin         | /         | -1 [awareness](#awareness-awar). Flame's greed has laid part of you bare. | Burned skin |
-| 26 - 50    | Ash Lung            | /         | -1 [toughness](#toughness-tough). The heat and stench of your own self burning cause difficulty breathing. | / |
-| 51 - 75    | Burned Face         | /         | -1 [awareness](#awareness-awar). Involuntarily, you close your eyes in hopes of protecting them from the fire. In vain. Speech is impaired from your pain contorted face. | Burned face |
-| 76 - 100   | Molten Muscles      | /         | -1 [strength](#strength-str). Heat induced atrophy. | / |
+| 1 - 25     | Molten Skin         | /         | +1 [burning](./core-rules.md#burning); -1 [awareness](#awareness-awar). Flame's greed has laid part of you bare. | Burned skin |
+| 26 - 50    | Ash Lung            | /         | +1 [burning](./core-rules.md#burning); -1 [toughness](#toughness-tough). The heat and stench of your own self burning cause difficulty breathing. | / |
+| 51 - 75    | Burned Face         | /         | +1 [burning](./core-rules.md#burning); -1 [awareness](#awareness-awar). Involuntarily, you close your eyes in hopes of protecting them from the fire. In vain. Speech is impaired from your pain contorted face. | Burned face |
+| 76 - 100   | Molten Muscles      | /         | +1 [burning](./core-rules.md#burning); -1 [strength](#strength-str). Heat induced atrophy. | / |
 
-### Crushing Injuries
+### Bludgeoning Injuries
 * Self patch-up: Impossible
 * Treatment skill: [surgery](#surgery-agiwit)
-* Required supplies: 1 [medical supplies](#list-of-stuff--things)
+* Required supplies: 1 [medical supplies](#list-of-general-assets)
 * **Ob**: 1D4 - 1 | 1D4 + 1
 * Time to heal: 4D6 weeks | 3D6 weeks
 
 | Range D100 | Injury              | Limit     | Description                      | Scar                |
 | ---------  | ------------------- | --------- | -------------------------------- | ------------------- |
-| 1  - 17    | Broken Nose         | 1         | -1 [awareness](#awareness-awar); Cannot smell. | Disfigured nose |
-| 18 - 33    | Concussion          | /         | -1 [awareness](#awareness-awar). The pain and the impact disorient you. | / |
-| 34 - 50    | Fractured Rib       | /         | -1 [toughness](#toughness-tough). A rib has cracked and is now pointing the wrong way. | Crooked rib cage |
-| 51 - 67    | Skull Fracture      | /         | -1 [wit](#wit-wit). Thoughts come to you slower than before. | / |
-| 68 - 83    | Broken Bone         | /         | -1 [strength](#strength-str). _Some_ bone is broken. And the pain causes you to tensen up, weakening you. | / |
-| 84 - 100   | Smashed Jaw         | /         | -1 [wit](#wit-wit). Your jaw no longer hinges the way it should and speech is impaired. | Crooked jaw |
+| 1  - 10    | Battered Head       | /         | +1 [exhaustion](#exhaustion); -1 [wit](#wit-wit). Headache plagues you and pain dulls your mind. | / |
+| 11 - 20    | Broken Bone         | /         | -1 [strength](#strength-str). _Some_ bone is broken. And the pain causes you to tensen up, weakening you. | / |
+| 21 - 30    | Broken Nose         | 1         | -1 [awareness](#awareness-awar); Cannot smell. | Disfigured nose |
+| 31 - 40    | Bruise              | /         | +1 [exhaustion](#exhaustion); -1 [agility](#agility-agi). A bruised limb is harder to control, due to pain. | / |
+| 41 - 50    | Concussion          | /         | -1 [awareness](#awareness-awar). The pain and the impact disorient you. | / |
+| 51 - 60    | Dizzy               | /         | +1 [exhaustion](#exhaustion); -1 [awareness](#awareness-awar). You feel dizzy. Focusing is difficult. | / |
+| 61 - 70    | Fractured Rib       | /         | -1 [toughness](#toughness-tough). A rib has cracked and is now pointing the wrong way. | Crooked rib cage |
+| 71 - 80    | Shaken              | /         | +1 [exhaustion](#exhaustion); -1 [toughness](#toughness-tough). Rattled and shaken, it is harder to control yourself. | / |
+| 81 - 90    | Skull Fracture      | /         | -1 [wit](#wit-wit). Thoughts come to you slower than before. | / |
+| 91 - 100   | Smashed Jaw         | /         | -1 [wit](#wit-wit). Your jaw no longer hinges the way it should and speech is impaired. | Crooked jaw |
 
 ### Electrical Injuries
 * Self patch-up: [Toughness](#toughness-tough) at **Ob** 3 every day. 
 * Treatment skill: [medicine](#medicine-agiwit)
-* Required supplies: 1 [medical supplies](#list-of-stuff--things)
+* Required supplies: 1 [medical supplies](#list-of-general-assets)
 * **Ob**: 1D6 - 2 | 1D6
 * Time to heal: 4D4 weeks | 3D4 weeks
 
@@ -2226,7 +2225,7 @@ Note that whenever a bludgeoning [injury](#injury) is suffered, a [toughness](#t
 ### Freezing Injuries
 * Self patch-up: [Toughness](#toughness-tough) at **Ob** 1 every day. 
 * Treatment skill: [medicine](#medicine-agiwit)
-* Required supplies: 1 [medical supplies](#list-of-stuff--things)
+* Required supplies: 1 [medical supplies](#list-of-general-assets)
 * **Ob**: 1D4 - 1 | 1D4
 * Time to heal: 2D4 weeks | 2D4 weeks
 
@@ -2240,7 +2239,7 @@ Note that whenever a bludgeoning [injury](#injury) is suffered, a [toughness](#t
 ### Piercing Injuries
 * Self patch-up: [Toughness](#toughness-tough) at **Ob** 3 every day. 
 * Treatment skill: [surgery](#surgery-agiwit)
-* Required supplies: 1 [medical supplies](#list-of-stuff--things)
+* Required supplies: 1 [medical supplies](#list-of-general-assets)
 * **Ob**: 1D4 - 1 | 1D4
 * Time to heal: 3D4 weeks | 2D4 weeks
 
@@ -2257,7 +2256,7 @@ Note that whenever a bludgeoning [injury](#injury) is suffered, a [toughness](#t
 ### Poison Injuries
 * Self patch-up: [Toughness](#toughness-tough) with **Ob** at level of [poisoned](#poisoned) at end of every turn / every minute. 
 * Treatment skill: [medicine](#medicine-agiwit)
-* Required supplies: 1 [antidote](#list-of-stuff--things)
+* Required supplies: 1 [antidote](#list-of-general-assets)
 * **Ob**: 1D4 - 1 | 1D4
 * Time to heal: 2D4 days | 1D4 + 1 days
 
@@ -2273,7 +2272,7 @@ Note that whenever a bludgeoning [injury](#injury) is suffered, a [toughness](#t
 ### Slashing Injuries
 * Self patch-up: [Toughness](#toughness-tough) at **Ob** 1 at end of every turn / every minute. 
 * Treatment skill: [surgery](#surgery-agiwit)
-* Required supplies: 1 [medical supplies](#list-of-stuff--things)
+* Required supplies: 1 [medical supplies](#list-of-general-assets)
 * **Ob**: 1D4 - 1 | 1D4
 * Time to heal: 2D4 weeks | 1D4
 
