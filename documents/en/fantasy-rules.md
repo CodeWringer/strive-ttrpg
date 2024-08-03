@@ -543,7 +543,7 @@ Any long and heavier blade, including heavy one-handed blades. Examples: longswo
 | 0     | Slash                | 2  | Opposed     | `2D8 + Str` Slashing             | / |
 | 0     | Stab                 | 2  | Opposed     | `2D6 + Agi` Piercing             | / |
 | 2     | Mord-Strike          | 2  | Opposed     | `1D6 + Str` Bludgeoning          | / |
-| 3     | Fencer-Stance        | 2  | /           | /                                | Enter a defensive fencing stance. Gain **+1D** for melee defense and can [counter-attack](./core-rules.md#defence-stunts) **every** attack. |
+| 3     | Fencer-Stance        | 2  | /           | /                                | Enter a defensive fencing stance. Gain **+1D** for melee defense and can [counter-attack](./core-rules.md#defence-stunts) **every** attack, until the start of your next turn. |
 
 #### Great Blade (Str/Tough)
 Any very long and heavy two-handed blade. Examples: great-sword, sword of war, great-saber
@@ -556,7 +556,7 @@ Any very long and heavy two-handed blade. Examples: great-sword, sword of war, g
 | ----- | -------------------- | -- | ----------- | -------------------------------- | ------ |
 | 0     | Slash                | 2  | Opposed     | `2D10 + Str` Slashing            | / |
 | 0     | Stab                 | 2  | Opposed     | `2D8 + Agi` Piercing             | / |
-| 2     | Blade Barrier        | 2  | Opposed     | /                                | Whenever any character moves **into** a spot within reach, can attack that character with a **slash** at **Ob** + 1 and always force them back 3'/1m. |
+| 2     | Blade Barrier        | 2  | Opposed     | /                                | Whenever any character moves **into** a spot within reach, can attack that character with a **slash** at **Ob** + 1 and always force them back 3'/1m, until the start of your next turn. |
 | 3     | Heavy Blow           | 3  | Opposed + 1 | `2D10` Slashing                  | Defending against this attack costs 2 [AP](#action-points-ap). |
 
 #### Axe (Str/Str)
@@ -595,7 +595,7 @@ Any one or two-handed short piercing polearms. Examples: short-spear, boar-spear
 | Level | Name                 | AP | **Ob**      | Damage                           | Notes  |
 | ----- | -------------------- | -- | ----------- | -------------------------------- | ------ |
 | 0     | Stab                 | 2  | Opposed     | `2D8 + Agi` Piercing             | / |
-| 0     | Spear Wall           | 2  | /           | /                                | Whenever any character moves **into** a spot within reach, can attack that character with a **stab** and always force them back 3'/1m. |
+| 0     | Spear Wall           | 2  | /           | /                                | Whenever any character moves **into** a spot within reach, can attack that character with a **stab** and always force them back 3'/1m, until the start of your next turn. |
 
 #### Lance (Awar/Str)
 Any one or two-handed long piercing polearms. Examples: pike, lance
@@ -622,7 +622,7 @@ Flexible polearms with a focus on slashing. Examples: halberd, bardiche, poleaxe
 | ----- | -------------------- | -- | ----------- | -------------------------------- | ------ |
 | 0     | Slash                | 2  | Opposed     | `3D6 + Str` Slashing             | / |
 | 0     | Stab                 | 2  | Opposed     | `2D6 + Agi` Piercing             | / |
-| 1     | Blade Barrier        | 2  | /           | /                                | Whenever any character moves **into** a spot within reach, can attack that character with a **stab** at **Ob** + 1 and always force them back 3'/1m. |
+| 1     | Blade Barrier        | 2  | /           | /                                | Whenever any character moves **into** a spot within reach, can attack that character with a **stab** at **Ob** + 1 and always force them back 3'/1m, until the start of your next turn. |
 | 2     | Cleave               | 2  | Opposed + 2 | `2D6 + Str` Slashing             | Deals damage to up to two targets adjacent to each other and within reach. |
 
 #### Small Crusher (Str/Str)
