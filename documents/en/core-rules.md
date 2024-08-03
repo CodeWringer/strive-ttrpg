@@ -847,7 +847,9 @@ Additionally, playing to or even against their character's **personality traits*
 Every character has **Hit Points (HP)** and a maximum number of **injuries** they can endure (= their **injury limit**), before they die. 
 
 ### Hit Points (HP)
-Whenever a character is hurt, the **damage** that has been inflicted upon them is deducted from their **HP**. When their **HP** reach 0, they **die**. An exception to this rule applies when the [damage type](#damage-types) that brought them to 0 **HP** was [bludgeoning](#damage-types). For that, see [bludgeoned to 0 HP](#bludgeoned-to-0-hp). 
+Whenever a character is hurt, the **damage** that has been inflicted upon them is deducted from their **HP**. When their **HP** reach `0`, they **die**. An exception to this rule applies when the [damage type](#damage-types) that brought them to `0` **HP** was [bludgeoning](#damage-types). For that, see [bludgeoned to 0 HP](#bludgeoned-to-0-hp). 
+
+A further exception applies, but only for player characters, who upon reaching `0` **HP** are brought to [death's door](#deaths-door) (unless they are knocked unconscious). 
 
 Whenever a `10` **HP** segment threshold is reached, they suffer an [injury](#injury) and gain a [grit point](#grit-points-gp). The type of [injury](#injury) depends on the [type of damage](#damage-types) that caused it. The **HP** segments are always based on the character's maximum **HP** and **not** the **damage** that was caused. Also, for every [injury](#injury), a character's maximum **HP** is reduced by `10`. A [penalty](#boons--penalties) to [toughness](#toughness-tough) does **not** cause a *further* maximum **HP** reduction. 
 
@@ -2033,10 +2035,10 @@ For every *point* in **bleeding**, a character suffers **1 D4** points of [bleed
 **Death's door** is a **condition** only a **PC** can enter and represents their final battle with death. 
 
 A **PC** at **death's door** must succeed at least one [toughness](#toughness-tough) test out of a possible of three. If they never succeed, they perish, irrevocably*. The **Ob** is determined as half of the character's [toughness](#toughness-tough), rounded up. 
-* If the character is at **death's door** during [combat](#combat), they must make a [toughness](#toughness-tough) test at the end of every round. 
+* If the character is at **death's door** during [combat](#combat), they must make a [toughness](#toughness-tough) test at the end of every **round**. 
 * If the character is at **death's door** out of [combat](#combat), they must make a test every minute. 
 
-A character can be helped out of the **death's door** **condition**, if all of their **active** [injuries](#injury) are **patched up** or **treated**. 
+A character can be helped out of the **death's door** **condition**, if their [HP](#hit-points-hp) are brought back up to at least `1`. 
 
 ### Dissolving
 For every point in **dissolving**, a character suffers **1 D4** points of [acid](#damage-types) damage every *tick*. 
