@@ -1434,7 +1434,7 @@ The following graphic illustrates valid spots for a third ally to enter, to **su
 The specific armors and their values can be found asset appendix of whatever module you're using. 
 
 ### Defending an Ally
-It is possible for a character to defend an adjacent ally when they're being attacked. This costs 2 [AP](#action-points-ap) and results in the ally taking over the defense being forced to roll the defense test, instead of the originally attacked character. 
+It is possible for a character to defend an adjacent ally when they're being attacked. This costs `1` [AP](#action-points-ap) and results in the ally taking over the defense being forced to roll the defense test, instead of the originally attacked character. 
 
 Defending an ally is a **combat action** and a **reaction**. 
 
