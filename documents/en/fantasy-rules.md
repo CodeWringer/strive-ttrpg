@@ -395,7 +395,7 @@ Armor can have the following **properties**:
 * **Ambersteel-Plated**: Bonus protection against magic. `+1` **Ob** for the attacker and reduces magic damage by `+1D6` for every quality level. 
 * **Ambersteel-Forged**: Bonus protection against magic. `+2` **Ob** for the attacker and reduces magic damage by `+1D8` for every quality level. 
 
-> An **Ambersteel**-lined armor at quality level 3 would make magic attacks `+3` **Ob** harder for the attacker and reduces incoming magical damage by `2D4`. 
+> An **Ambersteel**-lined armor at quality level 3 would make magic attacks `+3` **Ob** harder for the attacker and reduces incoming magical damage by `3D4`. 
 
 #### Light Armor
 A set of light armor that doesn't impede the wearer much. Example: cloth armor like a gambeson. Might also be leather armor, if the leather comes from a creature whose skin is particularly tough and well suited to being used as armor. 
