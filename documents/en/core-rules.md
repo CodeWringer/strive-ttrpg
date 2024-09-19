@@ -862,7 +862,7 @@ A successful [medicine](#medicine-agiwit) [test](#tests) at **Ob** equal to the 
 See the [toughness attribute](#toughness-tough) to determine the **maximum HP** and [injury limit](#injury). 
 
 #### Bludgeoned to 0 HP
-When a character was **bludgeoned** to `0` **HP**, they might survive and fall [unconscious](#unconscious), instead of dying. For that, they must succeed a [toughness](#toughness-tough) [test](#tests) at **Ob** equal to the the number of times that `10` fits in the damage that was inflicted. If they succeed the [test](#tests), they immediately fall [unconscious](#unconscious). If they fail, they die.
+When a character was **bludgeoned** to `0` [HP](#hit-points-hp), they might survive and fall [unconscious](#unconscious), instead of dying. For that, they must succeed a [toughness](#toughness-tough) [test](#tests) at **Ob** equal to the the number of times that `10` fits in the damage that was inflicted. If they succeed the [test](#tests), they immediately fall [unconscious](#unconscious). If they fail, they die.
 
 > A character suffers 24 points of **bludgeoning damage** and are brought to 0 **HP**. They must now succeed a **toughness** test at **Ob** 2, if they are to survive (albeit unconscious). 
 
@@ -1366,11 +1366,9 @@ Sometimes, special circumstances apply, which make certain attacks easier or har
 Also keep in mind there may be times when rolling for an attack is entirely unnecessary, such as against a helpless victim. In such a case, you may apply your malevolence with impunity, to the extent of your choosing. 
 
 ### Damage
-Damage dealt to an opponent reduces their [HP](#hit-points-hp). When their **HP** reaches 0, they suffer an [injury](#injury) and their **HP** is reset to their new maximum. The type of [injury](#injury) that is dealt, depends on the [damage type](#damage-types). 
+Damage dealt to an opponent reduces their [HP](#hit-points-hp). When their **HP** reaches `0`, they die. Damage can also inflict [injuries](#injury). 
 
-If more damage is dealt, than the difference to 0, then that damage is also dealt - it overflows into the next **HP** *segment*. 
-
-To determine the new **HP** maximum of a *segment*, see the [injury](#injury) section. 
+[Armor](#armor) can reduce the amount of damage that is actually applied. 
 
 ### Attacks of Opportunity
 When a character is within weapon's reach of another hostile character, they're considered within the other's **range of opportunity**. Whenever a character in an enemy's **range of opportunity** moves away from or more than 6'/2m *around* that enemy, that enemy can *choose* to perform an **attack of opportunity**. It is possible to avoid an **attack of opportunity** with a [disengage](#disengage) combat action. 
@@ -1395,7 +1393,7 @@ There are two types of defense:
 * **Active defense**: Costs 1 [AP](#action-points-ap) and uses all available dice for the [test](#tests). 
   * This defense can only happen as a *reaction* and a deliberate choice, during another character's turn. 
 * **Passive defense**: Does not cost any [AP](#action-points-ap), but uses only half (rounded down, minimum 1) of the available dice for the [test](#tests).
-  * This defense happens automatically, if no **active defense** is attempted. 
+  * This defense happens automatically as a *reaction*, if no **active defense** is attempted. 
   * This defense can *not* be used against attacks that cost more than 1 [AP](#action-points-ap) to defend against. 
 
 To defend, an [opposed test](#opposed-test) must be made. If successful, the attack is negated, entirely, **unless** if you're parrying in melee with a weapon that has 2 [bulk](#bulk) less than the weapon you've parried. In such a case, half the damage (rounded up) still goes through, regardless of the successful parry.  
@@ -1439,12 +1437,12 @@ It is possible for a character to defend an adjacent ally when they're being att
 Defending an ally is a **combat action** and a **reaction**. 
 
 ### Defense Stunts
-If you succeed an **active defense** and achieve at least 2 **hits** over your attacker, then you may perform one of the following stunts, at the cost of +1 [exhaustion](#exhaustion) (but only if that won't bring you to your [exhaustion limit](#exhaustion)): 
+If you succeed an **active defense** and achieve at least 2 **hits** over your attacker, then you may perform one of the following stunts, at the cost of `+1` [exhaustion](#exhaustion) (but only if that won't bring you to your [exhaustion limit](#exhaustion)): 
 
 * **Disarm** your opponent (if they have a detachable weapon).
-* **Displace your opponent**. They are forced to stumble backwards by 6'/2m in a direction of your choosing. This may provoke [attacks of opportunity](#attacks-of-opportunity). 
-* **Displace yourself**. You move 6'/2m in a direction of your choosing. This does not provoke [attacks of opportunity](#attacks-of-opportunity). 
-* Throw your opponent to the ground, making them proned.
+* **Displace your opponent**. They are forced to stumble backwards by `6'/2m` in a direction of your choosing. This may provoke [attacks of opportunity](#attacks-of-opportunity). 
+* **Displace yourself**. You move `6'/2m` in a direction of your choosing. This does **not** provoke [attacks of opportunity](#attacks-of-opportunity). 
+* Throw your opponent to the ground, making them [proned](#prone). This may provoke [attacks of opportunity](#attacks-of-opportunity). 
 * Launch a **counter-attack**, for half your weapon's regular damage (rounded up). You'll have to roll a regular attack, which your opponent can choose to defend against. This attack does not cost you any additional [AP](#action-points-ap). 
 * If defending against a ranged attack, you catch the projectile (if such a feat could be "reasonably" done). You may immediately throw it back at the attacker, for no additional cost. Normal [throwing](#throwing) rules apply. 
 
@@ -1454,6 +1452,7 @@ It is possible for characters to hide behind stationary things to make it harder
 There are two categories of cover: 
 * **Low cover**: +1 **Ob** against a target that is behind low cover. 
   * Low cover is any static object to hide behind that doesn't fully cover the body, like a tree stump or low wall. 
+  * If the type of cover allows (like a low wall), going [prone](#prone) may turn your low cover to high cover. 
 * **High cover**: +2 **Ob** against a target that is behind high cover. 
   * High cover is any static object to hide behind that fully covers the body, like a tall wall or large boulder. 
 
