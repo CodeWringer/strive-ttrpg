@@ -40,10 +40,9 @@
       - [Medium Armor](#medium-armor)
       - [Heavy Armor](#heavy-armor)
     - [Shield Types](#shield-types)
-        - [Buckler](#buckler)
-        - [Round Shield](#round-shield)
-        - [Heater Shield](#heater-shield)
-        - [Kite Shield](#kite-shield)
+        - [Light Shield](#light-shield)
+        - [Medium Shield](#medium-shield)
+        - [Heavy Shield](#heavy-shield)
     - [List of General Assets](#list-of-general-assets)
     - [Weapon Types](#weapon-types)
       - [Dagger (Agi/Awar)](#dagger-agiawar)
@@ -443,44 +442,38 @@ A set of heavy armor with excellent protection, at the cost of encumbering the w
 ### Shield Types
 Shields are items that provide passive bonuses to defense against melee and ranged attacks and require one free hand to use. This implies they cannot be used at the same time as a two-handed weapon (unless of course if you have more than two arms). 
 
-##### Buckler
-A small, round shield commonly held as far from the body as possible, to deflect small or stabbing weapons with ease. Helps only little against heavy blows, however. And don't expect to deflect arrows with this, either. 
+Shields can only be used in defense tests via the [shield](core-rules.md#shield-strtough) skill.
+
+##### Light Shield
+A small round or oblong shield commonly held as far from the body as possible, to deflect small or stabbing weapons with ease. Helps only little against heavy blows and don't expect to deflect arrows with this, either. 
 
 * Bulk: 1
 
 | Defensive Bonus       |
 | --------------------- |
-| +1D for melee defense. |
-| +3D for melee defense against **stabbing** attacks. |
+| `+1` [compensation point](core-rules.md#compensation-points) for melee defense using [shield](core-rules.md#shield-strtough). |
+| `+2` [compensation points](core-rules.md#compensation-points) for melee defense using [shield](core-rules.md#shield-strtough) against **stabbing** attacks. |
+| `-1D` for ranged defense using [shield](core-rules.md#shield-strtough). |
 
-##### Round Shield
-A medium-sized, round shield made from tough wood and leather, which offers decent protection against most attacks, while not encumbering the wielder too much. 
+##### Medium Shield
+A medium-sized, round or kite-shaped shield made from tough wood and leather or even metal, which offers good protection against most attacks, while not encumbering the wielder too much. 
 
 * Bulk: 2
+* `+1` permanent [exhaustion](#exhaustion) while wielded. 
 
 | Defensive Bonus      |
 | -------------------- |
-| +2D for any defense. |
+| `+1` [compensation points](core-rules.md#compensation-points) for any defense using [shield](core-rules.md#shield-strtough). |
 
-##### Heater Shield
-A tough and heavy metal shield, which offers great protection, while still being somewhat manageable to wield. 
-
-* Bulk: 3
-* +1 [exhaustion](#exhaustion) while wielded
-
-| Defensive Bonus      |
-| -------------------- |
-| +3D for any defense. |
-
-##### Kite Shield
-A large, kite-shaped shield, which can protect every part of the fighter, from the shoulder down to the feet. Its weight makes it difficult to react to attacks quickly, hoever. 
+##### Heavy Shield
+A large, kite-shaped or rectangular shield, which can protect every part of the fighter, from the shoulder down to the feet. Its weight is very tiring. 
 
 * Bulk: 4
-* +2 [exhaustion](#exhaustion) while wielded
+* `+2` permanent [exhaustion](#exhaustion) while wielded. 
 
 | Defensive Bonus      |
 | -------------------- |
-| +4D for any defense. |
+| `+2` [compensation points](core-rules.md#compensation-points) for any defense using [shield](core-rules.md#shield-strtough). |
 
 ### List of General Assets
 The following is a list of general assets. Of course, the following list is non-exhaustive. Invent more at your own need. 
@@ -926,10 +919,9 @@ Tools: axes, hammers, tongs, (if metal) a forge and anvil
 [Crafting](#crafting)
 | Product                              | Complexity | Workload  | Materials                              | Quality Bonus   |
 | ------------------------------------ | ---------- | --------- | -------------------------------------- | --------------- | 
-| 1 [buckler](#buckler)                | Moderate   | High      | Any shapeable sturdy and flexible material, such as wood, metal or chitin. | / |
-| 1 [round shield](#round-shield)      | Moderate   | High      | Any shapeable sturdy and flexible material, such as wood, metal or chitin. | For every 3 quality levels, starting at level 2, reduction of bulk by 1 (to a minimum of 1). |
-| 1 [heater shield](#heater-shield)    | Moderate   | High      | Any shapeable sturdy and flexible material, such as wood, metal or chitin. | For every 3 quality levels, starting at level 2, reduction of bulk by 1 (to a minimum of 1). |
-| 1 [kite shield](#kite-shield)        | Moderate   | High      | Any shapeable sturdy and flexible material, such as wood, metal or chitin. | For every 3 quality levels, starting at level 2, reduction of bulk by 1 (to a minimum of 2). |
+| 1 [light shield](#light-shield)                | Moderate   | High      | Any shapeable sturdy and flexible material, such as wood, metal or chitin. | / |
+| 1 [medium shield](#medium-shield)      | Moderate   | High      | Any shapeable sturdy and flexible material, such as wood, metal or chitin. | For every 3 quality levels, starting at level 2, reduction of bulk by 1 (to a minimum of 1). |
+| 1 [heavy shield](#heavy-shield)        | Moderate   | High      | Any shapeable sturdy and flexible material, such as wood, metal or chitin. | For every 3 quality levels, starting at level 2, reduction of bulk by 1 (to a minimum of 2). |
 
 #### Tanning/Skinning (Agi/Tough)
 Taking the hide off a creature undamaged. 
