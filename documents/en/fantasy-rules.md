@@ -399,46 +399,46 @@ Armor can have the following **properties**:
 > An **Ambersteel**-lined armor at quality level 3 would have +(3 + **2D4**) protection from magic. 
 
 #### Light Armor
-A set of light armor that doesn't impede the wearer much. Example: cloth armor like a gambeson. 
+A set of light armor that doesn't impede the wearer much. Example: cloth armor like a gambeson. Might also be leather armor, if the leather comes from a creature whose skin is particularly tough and well suited to being used as armor. 
 
 * Bulk: 2
 
-| Protections                 | 
-| --------------------------- | 
-| 8 **Slashing**              | 
-| 6 **Piercing**              | 
-| 4 **Bludgeoning**           | 
-| 4 **Acid**                  | 
+| Protections          | Unthreatened | Flanked | Surrounded | Overwhelmed | 
+| -------------------- | ------------ | ------- | ---------- | ----------- | 
+| **Slashing**         | 8            | 4       | 2          | 0           | 
+| **Piercing**         | 6            | 3       | 2          | 0           | 
+| **Bludgeoning**      | 4            | 2       | 1          | 0           | 
+| **Acid**             | 4            | 2       | 1          | 0           | 
 
 #### Medium Armor
 A set of medium armor with a good balance of protection and weight. Example: full chain mail armor, with or without a helmet. 
 
 * Bulk: 3
-* Causes a permanent +1 [exhaustion](./core-rules.md#exhaustion) while worn. 
-* `-1D` to any defence tests while worn. 
+* `+1` permanent [exhaustion](./core-rules.md#exhaustion) while worn. 
+* `-1D` to any defense tests while worn. 
 
-| Protections                 | 
-| --------------------------- | 
-| 11 **Slashing**             | 
-| 9 **Piercing**              | 
-| 7 **Bludgeoning**           | 
-| 7 **Acid**                  | 
-| 12 **Electrical**           | 
+| Protections          | Unthreatened | Flanked | Surrounded | Overwhelmed | 
+| -------------------- | ------------ | ------- | ---------- | ----------- | 
+| **Slashing**         | 11           | 6       | 3          | 0           | 
+| **Piercing**         | 9            | 5       | 3          | 0           | 
+| **Bludgeoning**      | 7            | 4       | 2          | 0           | 
+| **Acid**             | 7            | 4       | 2          | 0           | 
+| **Electrical**       | 12           | 6       | 3          | 0           |
 
 #### Heavy Armor
 A set of heavy armor with excellent protection, at the cost of encumbering the wearer greatly. Example: full plate armor. 
 
 * Bulk: 4
-* Causes a permanent +2 [exhaustion](./core-rules.md#exhaustion) while worn. 
-* `-2D` to any defence tests while worn. 
+* `+2` permanent [exhaustion](./core-rules.md#exhaustion) while worn. 
+* `-2D` to any defense tests while worn. 
 
-| Protections                 | 
-| --------------------------- | 
-| 15 **Slashing**             | 
-| 13 **Piercing**             | 
-| 11 **Bludgeoning**          | 
-| 11 **Acid**                 | 
-| 8 **Electrical**            | 
+| Protections          | Unthreatened | Flanked | Surrounded | Overwhelmed | 
+| -------------------- | ------------ | ------- | ---------- | ----------- | 
+| **Slashing**         | 15           | 8       | 4          | 0           | 
+| **Piercing**         | 13           | 7       | 4          | 0           | 
+| **Bludgeoning**      | 11           | 6       | 3          | 0           | 
+| **Acid**             | 11           | 6       | 3          | 0           | 
+| **Electrical**       | 12           | 6       | 3          | 0           | 
 
 ### Shield Types
 Shields are items that provide passive bonuses to defense against melee and ranged attacks and require one free hand to use. This implies they cannot be used at the same time as a two-handed weapon (unless of course if you have more than two arms). 
