@@ -485,7 +485,7 @@ The following is a list of general assets. Of course, the following list is non-
 | Smoke Bomb             | 1    | 3               | A small fragile shell, filled with a very fine powder which when broken causes an area in a 6'/2m radius to be covered in smoke. It is impossible to see through and ranged attacks within or through the area suffer +2 **Ob**. Victims caught in the smoke may be forced to cough. The smoke lasts 6 turns or 30 seconds. |
 | Acid Bomb              | 1    | 2               | A small fragile shell with two compartments, filled with two liquids which, when they combine, act as a powerful acid. When shattered, deals **2D8** **acid** damage to whatever it hits. |
 | Blackpowder Bomb       | 1    | 2               | A small iron-shelled bomb, filled with blackpowder. A short fuse sticks out and must be lit to set it off. Once lit, the bomb will detonate after 3 turns or 15 seconds. Deals **2D6** **Bludgeoning** + **2D6** **burning** damage to anyone in a 6'/2m radius. |
-| Throwing Blade         | 1    | 6               | A small weighted blade, like a knife or star, well suited to being thrown. Can be used in melee and acts like a [dagger](#dagger-agiawar), but with a penalty of **-2D** to attack and defence. **+1D** when [thrown](./core-rules.md#throwing-accuracy) for a ranged attack. Deals **2D4 + Str** **piercing** damage. |
+| Throwing Blade         | 1    | 6               | A small weighted blade, like a knife or star, well suited to being thrown. Can be used in melee and acts like a [dagger](#dagger-agiawar), but with a penalty of **-2D** to attack and defense. **+1D** when [thrown](./core-rules.md#throwing-accuracy) for a ranged attack. Deals **2D4 + Str** **piercing** damage. |
 
 ### Weapon Types
 Following are fantasy-themed weapon types. 
@@ -536,7 +536,7 @@ Any long and heavier blade, including heavy one-handed blades. Examples: longswo
 | 0     | Slash                | 2  | Opposed     | `2D8 + Str` Slashing             | / |
 | 0     | Stab                 | 2  | Opposed     | `2D6 + Agi` Piercing             | / |
 | 2     | Mord-Strike          | 2  | Opposed     | `1D6 + Str` Bludgeoning          | / |
-| 3     | Fencer-Stance        | 2  | /           | /                                | Enter a defensive fencing stance. Gain **+1D** for melee defense and can [counter-attack](./core-rules.md#defence-stunts) **every** attack, until the start of your next turn. |
+| 3     | Fencer-Stance        | 2  | /           | /                                | Enter a defensive fencing stance. Gain **+1D** for melee defense and can [counter-attack](./core-rules.md#defense-stunts) **every** attack, until the start of your next turn. |
 
 #### Great Blade (Str/Tough)
 Any very long and heavy two-handed blade. Examples: great-sword, sword of war, great-saber
