@@ -2130,7 +2130,7 @@ A **poisoned** character suffers **1 D4** points of [poison](#damage-types) dama
 * Immediate cancel: With proper [treatment](#poison-injuries). 
 
 ### Prone
-A character who is prone, is harder to hit with ranged attacks, but easier to hit with melee attacks. 
+A character who is prone, is harder to hit with ranged attacks, but easier to hit with melee attacks. A character who is prone, counts as [flanked](#armor) in melee. If they're *also* [grappled](#grappled), they count as [surrounded](#armor). 
 
 * **-1D** to melee defense tests. 
 * **-1D** to any melee attack tests. 
