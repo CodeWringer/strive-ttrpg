@@ -1409,7 +1409,7 @@ In a normal duel situation, the person in armor will always have an advantage ov
 
 This circumstance changes, when the armored person is flanked and surrounded. Most armor is designed to protect the most from frontal attacks and even the more masterful armors must still allow some cracks in between armor plates. Also, armor is usually thinner on the back, which means it's easier to find a spot where the material is weak. Therefore, by flanking an armored opponent, you can negate at least some of the armor's effect. 
 
-To **flank** an opponent, two allies must be within their weapons' range to the armored opponent and the two allies **must** be on opposite sides of the opponent. If both are attacking from the same side, then the armor will continue protecting fully. 
+To **flank** an opponent, two allies must be within their weapons' range to the armored opponent and the two allies **must** be on opposite sides of the opponent. If both are attacking from the same side, then the armor will continue protecting fully. This appplies both for melee and ranged attacks. 
 
 Three allies can **surround** the opponent, further reducing their armor's effectiveness. Four or more allies can **overwhelm** the opponent, rendering their armor completely useless. The third and fourth (or any beyond that number) ally can **freely** choose a spot within weapon's reach. 
 
