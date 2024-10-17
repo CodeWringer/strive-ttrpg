@@ -165,6 +165,7 @@
     - [Knowledge Skills](#knowledge-skills)
       - [Architecture (Awar/Wit)](#architecture-awarwit)
       - [Geography (Awar/Wit)](#geography-awarwit)
+      - [Geology (Awar/Wit)](#geology-awarwit)
       - [History \< subject \> (Wit/Wit)](#history--subject--witwit)
       - [Language \< language \> (Wit/Wit)](#language--language--witwit)
       - [Law and politics (Wit/Wit)](#law-and-politics-witwit)
@@ -1967,6 +1968,11 @@ Analysing and planning buildings. Discerning weak points in a structure.
 
 #### Geography (Awar/Wit)
 Knowledge about the geography of the world. Used to recall the location of places in relation to each other. 
+
+#### Geology (Awar/Wit)
+Knowledge about minerals, sediments, rock and geothermal activity. Useful to find ore veins, to tell when damp stone implies a nearby underwater river or lakes and when hot stone implies volcanic activity. Can also be useful to determine how deep underground one finds themself. 
+
+Every miner will have at least some amount of geological knowledge, even if they're not explicitly aware of it. 
 
 #### History < subject > (Wit/Wit)
 Knowledge about past events and locations. 
