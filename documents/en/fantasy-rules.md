@@ -54,7 +54,7 @@
       - [Spear (Agi/Str)](#spear-agistr)
       - [Lance (Awar/Str)](#lance-awarstr)
       - [Polearm (Str/Tough)](#polearm-strtough)
-      - [Small Crusher (Str/Str)](#small-crusher-strstr)
+      - [Small Crusher (Str/Tough)](#small-crusher-strtough)
       - [Large Crusher (Str/Tough)](#large-crusher-strtough)
       - [Short-Bow (Awar/Awar)](#short-bow-awarawar)
       - [Longbow (Awar/Str)](#longbow-awarstr)
@@ -500,7 +500,7 @@ Any very short, one-handed blade. Examples: shiv, dagger, rondel-dagger
 
 For all attacks made with a dagger, the following rules apply:
 * If the target is unaware or [grappled](./core-rules.md#grappled), then the target's armor does **not** reduce the dagger's damage.
-* -1 **Ob** against [proned](./core-rules.md#prone) and/or [grappled](./core-rules.md#grappled) targets.
+* `-1 Ob` against [proned](./core-rules.md#prone) and/or [grappled](./core-rules.md#grappled) targets.
 
 * Melee
 * Bulk: 1
@@ -509,7 +509,7 @@ For all attacks made with a dagger, the following rules apply:
 | Level | Name                 | AP | **Ob**      | Damage                           | Notes  |
 | ----- | -------------------- | -- | ----------- | -------------------------------- | ------ |
 | 0     | Slash                | 2  | Opposed     | `1D6 + Agi` Slashing             | / |
-| 0     | Stab                 | 2  | Opposed     | `1D4 + Agi` Piercing             | / |
+| 0     | Stab                 | 2  | Opposed     | `1D10 + Agi` Piercing            | / |
 | 0     | Artery Cut           | 2  | Opposed + 1 | `2D6` Slashing                   | +2 [bleeding](#bleeding) to the target (if it can bleed).  |
 | 0     | Target Weak-Spot     | 2  | Opposed + 2 | `2D6 + Agi` Piercing             | / |
 
@@ -522,8 +522,8 @@ Any light blade. Most commonly (but not restricted to) one-handed weapons. Examp
 
 | Level | Name                 | AP | **Ob**      | Damage                           | Notes  |
 | ----- | -------------------- | -- | ----------- | -------------------------------- | ------ |
-| 0     | Slash                | 2  | Opposed     | `1D8 + Str` Slashing             | / |
-| 0     | Stab                 | 2  | Opposed     | `1D6 + Agi` Piercing             | / |
+| 0     | Slash                | 2  | Opposed     | `2D6 + Str` Slashing             | / |
+| 0     | Stab                 | 2  | Opposed     | `1D8 + Agi` Piercing             | / |
 | 0     | Grappling Feint      | 2  | Opposed - 1 | /                                | Attack with a feint, immediately close the distance and [grapple](./core-rules.md#grappled) your opponent. |
 
 #### Long Blade (Agi/Str)
@@ -536,8 +536,8 @@ Any long and heavier blade, including heavy one-handed blades. Examples: longswo
 | ----- | -------------------- | -- | ----------- | -------------------------------- | ------ |
 | 0     | Slash                | 2  | Opposed     | `2D8 + Str` Slashing             | / |
 | 0     | Stab                 | 2  | Opposed     | `2D6 + Agi` Piercing             | / |
-| 2     | Mord-Strike          | 2  | Opposed     | `1D6 + Str` Bludgeoning          | / |
-| 3     | Fencer-Stance        | 2  | /           | /                                | Enter a defensive fencing stance. Gain **+1D** for melee defense and can [counter-attack](./core-rules.md#defense-stunts) **every** attack, until the start of your next turn. |
+| 2     | Mord-Strike          | 2  | Opposed     | `1D8 + Str` Bludgeoning          | / |
+| 3     | Fencer-Stance        | 2  | /           | /                                | Enter a defensive fencing stance. Gain `+1D` for melee defense and can [counter-attack](./core-rules.md#defense-stunts) **every** attack, until the start of your next turn. |
 
 #### Great Blade (Str/Tough)
 Any very long and heavy two-handed blade. Examples: great-sword, sword of war, great-saber
@@ -550,20 +550,20 @@ Any very long and heavy two-handed blade. Examples: great-sword, sword of war, g
 | ----- | -------------------- | -- | ----------- | -------------------------------- | ------ |
 | 0     | Slash                | 2  | Opposed     | `2D10 + Str` Slashing            | / |
 | 0     | Stab                 | 2  | Opposed     | `2D8 + Agi` Piercing             | / |
-| 2     | Blade Barrier        | 2  | Opposed     | /                                | Whenever any character moves **into** a spot within reach, can attack that character with a **slash** at **Ob** + 1 and always force them back 3'/1m, until the start of your next turn. |
-| 3     | Heavy Blow           | 3  | Opposed + 1 | `2D10` Slashing                  | Defending against this attack costs 2 [AP](#action-points-ap). |
+| 2     | Blade Barrier        | 2  | Opposed     | /                                | Whenever any character moves **into** a spot within reach, can attack that character with a **slash** at `Ob + 1` and always force them back `3'/1m`, until the start of your next turn. These attacks do not cost any additional **AP**. |
+| 3     | Heavy Blow           | 3  | Opposed + 2 | `3D8` Slashing                   | Defending against this attack costs 2 [AP](#action-points-ap). |
 
 #### Axe (Str/Str)
-Small and light axes. Examples: hatchet, dane axe, woodcutter's axe
+Small and light axes. Examples: hatchet, woodcutter's axe
 
 * Melee
 * Bulk: 1
 * Ranged (throwable: hack)
 
-| Level | Name                 | AP | **Ob**      | Damage                           | Notes  |
-| ----- | -------------------- | -- | ----------- | -------------------------------- | ------ |
-| 0     | Hack                 | 2  | Opposed     |  `1D6` Slashing + `1D6 + Str` Bludgeoning  | / |
-| 1     | Savage Slash         | 2  | Opposed + 1 |  `1D6 + Str` Slashing            | +1 [bleeding](#bleeding) to the target (if it can bleed). |
+| Level | Name                 | AP | **Ob**      | Damage                                    | Notes  |
+| ----- | -------------------- | -- | ----------- | ----------------------------------------- | ------ |
+| 0     | Hack                 | 2  | Opposed     |  `1D8` Slashing + `1D4 + Str` Bludgeoning | / |
+| 1     | Savage Slash         | 2  | Opposed + 1 |  `1D10 + Str` Slashing                    | +1 [bleeding](#bleeding) to the target (if it can bleed). |
 
 #### Great Axe (Str/Str)
 Large and heavy axes. Examples: bearded axe, double-sided axe
@@ -571,11 +571,11 @@ Large and heavy axes. Examples: bearded axe, double-sided axe
 * Melee
 * Bulk: 3
 
-| Level | Name                 | AP | **Ob**      | Damage                           | Notes  |
-| ----- | -------------------- | -- | ----------- | -------------------------------- | ------ |
-| 0     | Hack                 | 2  | Opposed     | `1D8` Slashing + `1D8 + Str` Bludgeoning | / |
-| 2     | Savage Slash         | 2  | Opposed + 1 | `2D6 + Str` Slashing             | +2 [bleeding](#bleeding) to the target (if it can bleed). |
-| 3     | Heavy Blow           | 3  | Opposed + 1 | `1D8` Slashing + `1D8 + Str` Bludgeoning | Defending against this attack costs 2 [AP](#action-points-ap). |
+| Level | Name                 | AP | **Ob**      | Damage                                           | Notes  |
+| ----- | -------------------- | -- | ----------- | ------------------------------------------------ | ------ |
+| 0     | Hack                 | 2  | Opposed     | `1D10` Slashing + `1D6 + Str` Bludgeoning        | / |
+| 2     | Savage Slash         | 2  | Opposed + 1 | `2D6 + Str` Slashing                             | +2 [bleeding](#bleeding) to the target (if it can bleed). |
+| 3     | Heavy Blow           | 3  | Opposed + 2 | `1D10 + 1D6` Slashing + `1D8 + Str` Bludgeoning  | Defending against this attack costs 2 [AP](#action-points-ap). |
 
 #### Spear (Agi/Str)
 Any one or two-handed short piercing polearms. Examples: short-spear, boar-spear
@@ -584,12 +584,11 @@ Any one or two-handed short piercing polearms. Examples: short-spear, boar-spear
 * Bulk: 2
 * Ranged (throwable: stab)
 * [Long Reach](core-rules.md#weapon-properties)
-* [Prefer Range](core-rules.md#weapon-properties)
 
 | Level | Name                 | AP | **Ob**      | Damage                           | Notes  |
 | ----- | -------------------- | -- | ----------- | -------------------------------- | ------ |
-| 0     | Stab                 | 2  | Opposed     | `2D8 + Agi` Piercing             | / |
-| 0     | Spear Wall           | 2  | /           | /                                | Whenever any character moves **into** a spot within reach, can attack that character with a **stab** and always force them back 3'/1m, until the start of your next turn. |
+| 0     | Stab                 | 2  | Opposed     | `2D6 + Agi` Piercing             | / |
+| 0     | Spear Wall           | 2  | /           | /                                | Whenever any character moves **into** a spot within reach, can attack that character with a **stab** at `Ob + 1` and always force them back `3'/1m`, until the start of your next turn. The attacks cost no additional **AP**. |
 
 #### Lance (Awar/Str)
 Any one or two-handed long piercing polearms. Examples: pike, lance
@@ -601,7 +600,7 @@ Any one or two-handed long piercing polearms. Examples: pike, lance
 
 | Level | Name                 | AP | **Ob**      | Damage                           | Notes  |
 | ----- | -------------------- | -- | ----------- | -------------------------------- | ------ |
-| 0     | Stab                 | 2  | Opposed     | `2D6 + Str` Piercing             | / |
+| 0     | Stab                 | 2  | Opposed     | `2D6 + Agi` Piercing             | / |
 | 0     | Couched Lancing      | 2  | Opposed     | `3D10` Piercing                  | Requires self to be mounted on horse-back (or similar creature). Self must move at least 15'/5m in a straight line, past the target. |
 
 #### Polearm (Str/Tough)
@@ -614,12 +613,12 @@ Flexible polearms with a focus on slashing. Examples: halberd, bardiche, poleaxe
 
 | Level | Name                 | AP | **Ob**      | Damage                           | Notes  |
 | ----- | -------------------- | -- | ----------- | -------------------------------- | ------ |
-| 0     | Slash                | 2  | Opposed     | `3D6 + Str` Slashing             | / |
+| 0     | Slash                | 2  | Opposed     | `2D10 + Str` Slashing            | / |
 | 0     | Stab                 | 2  | Opposed     | `2D6 + Agi` Piercing             | / |
-| 1     | Blade Barrier        | 2  | /           | /                                | Whenever any character moves **into** a spot within reach, can attack that character with a **stab** at **Ob** + 1 and always force them back 3'/1m, until the start of your next turn. |
-| 2     | Cleave               | 2  | Opposed + 2 | `2D6 + Str` Slashing             | Deals damage to up to two targets adjacent to each other and within reach. |
+| 1     | Blade Barrier        | 2  | /           | /                                | Whenever any character moves **into** a spot within reach, can attack that character with a **stab** at `Ob + 1` and always force them back `3'/1m`, until the start of your next turn. The attacks cost no additional **AP**. |
+| 2     | Cleave               | 2  | Opposed + 2 | `2D8 + Str` Slashing             | Deals damage to up to two targets adjacent to each other and within reach. |
 
-#### Small Crusher (Str/Str)
+#### Small Crusher (Str/Tough)
 Small bludgeoning weapons. Examples: any improvised weapon, any club, any mace
 
 * Melee
@@ -627,8 +626,8 @@ Small bludgeoning weapons. Examples: any improvised weapon, any club, any mace
 
 | Level | Name                 | AP | **Ob**      | Damage                           | Notes  |
 | ----- | -------------------- | -- | ----------- | -------------------------------- | ------ |
-| 0     | Smash                | 2  | Opposed     | `1D6 + Str` Bludgeoning          | / |
-| 0     | Knockout Blow        | 2  | Opposed + 2 | `1D6 + Str` Bludgeoning          | +2 [exhaustion](./core-rules.md#exhaustion) to target. |
+| 0     | Smash                | 2  | Opposed     | `1D8 + 1D6 + Str` Bludgeoning    | / |
+| 0     | Knockout Blow        | 2  | Opposed + 1 | `1D6 + 1D4 + Str` Bludgeoning    | +2 [exhaustion](./core-rules.md#exhaustion) to target. |
 
 #### Large Crusher (Str/Tough)
 Large bludgeoning weapons with a dedicated *impact zone* on the weapon head which directs more force into the target. Examples: grand-mace, polehammer, two-handed flail
@@ -638,8 +637,8 @@ Large bludgeoning weapons with a dedicated *impact zone* on the weapon head whic
 
 | Level | Name                 | AP | **Ob**      | Damage                           | Notes  |
 | ----- | -------------------- | -- | ----------- | -------------------------------- | ------ |
-| 0     | Smash                | 2  | Opposed     | `2D8 + Str` Bludgeoning          | / |
-| 1     | Mighty Smash         | 2  | Opposed + 1 | `3D8 + Str` Bludgeoning          | Defending against this attack costs 2 [AP](#action-points-ap). |
+| 0     | Smash                | 2  | Opposed     | `1D10 + 1D8 + Str` Bludgeoning   | / |
+| 1     | Mighty Smash         | 2  | Opposed + 2 | `2D10 + Str` Bludgeoning         | Defending against this attack costs 2 [AP](./core-rules.md#action-points-ap) and causes `+1` [exhaustion](./core-rules.md#exhaustion) to the target. |
 
 #### Short-Bow (Awar/Awar)
 A short distance ranged weapon, shooting arrows.
