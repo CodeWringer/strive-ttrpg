@@ -894,9 +894,13 @@ Every time a character suffers at least 10 [HP](#hit-points-hp) of damage **in a
 ### Injury
 An **injury** is a serious health impediment of a character. It reduces the maximum [HP](#hit-points-hp) and imposes other [penalties](#boons--penalties). 
 
-Whenever a character loses a `10` [HP](#hit-points-hp) segment (whether from a single or multiple consecutive sources of damage doesn't matter), they *may* suffer an **injury**. <br>
-If they succeed a [toughness](#toughness-tough) test at **Ob** equal to their current number of **injuries** plus the number of successful shrug offs, they suffer no **injury**! They must note this success, as every time an **injury** is shrugged off, it becomes `+1` **Ob** harder to shrug off the next! Every time an **injury** has fully healed and been removed, this counter is reset to 0. <br>
-If failed, a **D100** must be rolled and the corresponding result from the [damage type](#damage-types) specific [list of injuries](#list-of-injuries) added to the character. In such a case, if multiple [types of damage](#damage-types) are incurred in the same instant, then the **injury** is based on the type of which the most damage got through armor and thus dealt the most [HP](#hit-points-hp) damage. If there is a tie, the [damage type](#damage-types) that the armor reduces less causes the **injury**. If there is still a tie, a coin flip could decide.
+Whenever a character loses a `10` [HP](#hit-points-hp) segment (whether from a single or multiple consecutive sources of damage doesn't matter), they *may* suffer an **injury**. To shrug off an injury, they must succeed a [toughness](#toughness-tough) test at **Ob** equal to their current number of **injuries** plus `1` and plus the number of successful shrug offs. 
+* If they succeeded, they suffer no **injury**! They must note this success, as every time an **injury** is shrugged off, it becomes `+1` **Ob** harder to shrug off the next! Only once an **injury** has fully healed and been removed, is this counter reset to `0`.
+* If failed, a **D100** must be rolled and the corresponding result from the [damage type](#damage-types) specific [list of injuries](#list-of-injuries) added to the character. In such a case, if multiple [types of damage](#damage-types) are incurred in the same instant, then the **injury** is based on the type of which the most damage got through armor and thus dealt the most [HP](#hit-points-hp) damage. If there is a tie, the [damage type](#damage-types) that the armor reduces less causes the **injury**. If there is still a tie, a coin flip could decide.
+
+> A character with no injuries, who has just been brought down to 30 HP from an attack, must now test whether they suffer an injury. They have already successfully shrugged off an attack once before. 
+>
+> Thus, their Ob for their toughness test is `0 (current injury count) + 1 (always) + 1 (from an earlier shrugged off injury) = 2`. 
 
 For every **injury** incurred, a character's maximum [HP](#hit-points-hp) is reduced - by how much is determined by their [toughness](#toughness-tough) - and a [grit point](#grit-points-gp) is earned. An **injury** can also apply further [penalties](#boons--penalties). A penalty to [toughness](#toughness-tough) **does not** further reduce the current maximum [HP](#hit-points-hp)! The reduction from the **injury** is enough penalty. 
 
@@ -1137,7 +1141,7 @@ There are no limits to how many of a given card a player can own, but they may o
 | 8 MiFP  | Hastened            | +1 **AP** during your turns for the entirety of a [combat](#combat) encounter. |
 | 3 MaFP  | Double the Fun      | Double the number of dice to roll on your next/current test and every rolled **hit** counts double - which means every rolled **hit** actually counts as 2 **hits**! Exclusive with "Cascading Re-Roll". |
 | 3 MaFP  | Scar? What Scar?    | Remove one scar [scar](#scar) of choice. |
-| 5 MaFP  | Fact Check          | Change a minor plot point in a way your prefer. Work with your **GM** to make sure it fits the narrative, but they should respect your wish. This could be something like avoiding an **NPC** death or changing a fact about the plot. |
+| 5 MaFP  | Fact Check          | Change a minor plot point in a way you prefer. Work with your **GM** to make sure it fits the narrative, but they should respect your wish. This could be something like avoiding an **NPC** death or changing a fact about the plot. |
 | 5 MaFP  | Just a Flesh Wound  | Avoid or remove an [injury](#injury)! |
 | 1 AFP   | Defy Death          | Return from the dead, remove 1 **active** [injury](#injury) of choice and be at 1 **HP**; Alternatively, avoid a narratively-driven death. The **GM** will decide the character's alternative fate. They could be captured, very badly injured or become indebted to someone or something. Note that this card can only be played *after* the character lost their [battle with death](#deaths-door). |
 | 1 AFP   | Yes, my liege       | Work with your **GM** to create a follower/hireling who will now be at your command/employ. |
