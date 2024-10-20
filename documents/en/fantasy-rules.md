@@ -449,11 +449,11 @@ A small round or oblong shield commonly held as far from the body as possible, t
 
 * Bulk: 1
 
-| Defensive Bonus       |
-| --------------------- |
-| `+1` [compensation point](core-rules.md#compensation-points) for melee defense using [shield](core-rules.md#shield-strtough). |
-| `+2` [compensation points](core-rules.md#compensation-points) for melee defense using [shield](core-rules.md#shield-strtough) against **stabbing** attacks. |
-| `-1D` for ranged defense using [shield](core-rules.md#shield-strtough). |
+| Unthreatened           | Flanked           | Surrounded           | Overwhelmed           |
+| ---------------------- | ----------------- | -------------------- | --------------------- |
+| `+1` [compensation point](core-rules.md#compensation-points) for melee defense. | `+1D` for melee defense. | / | / |
+| `+2` [compensation points](core-rules.md#compensation-points) for melee defense against **stabbing** attacks. | `+2D` for melee defense against **stabbing** attacks. | `+1D` for melee defense against **stabbing** attacks. | / |
+| `-1D` for ranged defense. | `-2D` for ranged defense. | `-2D` for ranged defense. | `-2D` for ranged defense. |
 
 ##### Medium Shield
 A medium-sized, round or kite-shaped shield made from tough wood and leather or even metal, which offers good protection against most attacks, while not encumbering the wielder too much. 
@@ -461,9 +461,9 @@ A medium-sized, round or kite-shaped shield made from tough wood and leather or 
 * Bulk: 2
 * `+1` permanent [exhaustion](#exhaustion) while wielded. 
 
-| Defensive Bonus      |
-| -------------------- |
-| `+1` [compensation points](core-rules.md#compensation-points) for any defense using [shield](core-rules.md#shield-strtough). |
+| Unthreatened           | Flanked           | Surrounded           | Overwhelmed           |
+| ---------------------- | ----------------- | -------------------- | --------------------- |
+| `+1` [compensation point](core-rules.md#compensation-points) for any defense. | `+1D` for any defense. | / | `-1D` for any defense. |
 
 ##### Heavy Shield
 A large, kite-shaped or rectangular shield, which can protect every part of the fighter, from the shoulder down to the feet. Its weight is very tiring. 
@@ -471,9 +471,9 @@ A large, kite-shaped or rectangular shield, which can protect every part of the 
 * Bulk: 4
 * `+2` permanent [exhaustion](#exhaustion) while wielded. 
 
-| Defensive Bonus      |
-| -------------------- |
-| `+2` [compensation points](core-rules.md#compensation-points) for any defense using [shield](core-rules.md#shield-strtough). |
+| Unthreatened           | Flanked           | Surrounded           | Overwhelmed           |
+| ---------------------- | ----------------- | -------------------- | --------------------- |
+| `+2` [compensation points](core-rules.md#compensation-points) for any defense. | `+1` [compensation point](core-rules.md#compensation-points) for any defense. | `+1D` for any defense. | / |
 
 ### List of General Assets
 The following is a list of general assets. Of course, the following list is non-exhaustive. Invent more at your own need. 
