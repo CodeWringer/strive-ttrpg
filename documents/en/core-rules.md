@@ -1849,7 +1849,7 @@ However, the price for this strength is steep. The chance of death is greatly in
 
 | Level | Name                 | AP | **Ob**  | Effect(s)          | Condition(s) |
 | ----- | -------------------- | -- | ------- | ------------------ | ------------ |
-| 0     | Reckless Assault     | 1  | /       | Deal half of the damage (rounded up) as additional damage on your next successful attack. Suffer a **-1D** penalty to all [defense tests](#defending) until the start of your next turn. |  |
+| 0     | Reckless Assault     | 1  | /       | Deal half of the damage (rounded up) as additional damage on your next successful attack. Suffer a **-1D** penalty to all [defense tests](#defending) until the start of your next turn. | / |
 | 1     | Grit Your Teeth      | 1  | /       | Reaction: Upon suffering an [injury](#injury), gain an *additional* [grit point](#grit-points-gp). | / |
 | 2     | Pain is Strength     | 3  | Opposed | Perform a [single-target](#single-target-st) melee attack against an opponent of choice. For every active [injury](#injury) you currently have, deal one extra **D6** of [bludgeoning](#damage-types) damage. You suffer one point of [exhaustion](#exhaustion). | Cooldown: 3 turns. |
 | 4     | Injury Collector     | 0  | 3       | Reaction: Upon suffering an [injury](#injury), with a successful test of this Expertise, remove all additional [penalties](#boons--penalties) (i. e. everything but the [HP](#hit-points-hp) malus) from the [injury](#injury). | / |
@@ -2194,6 +2194,7 @@ Note that "Cosmic Fortune" is not an actual **injury**. When it is rolled for, *
 * Required supplies: 1 [medical supplies](#list-of-general-assets)
 * **Ob**: 1D6
 * Time to heal: 4D4 weeks
+* Treated heal time reduction: 3D4 weeks
 
 | Range D100 | Injury              | Limit     | Description                      | Scar                |
 | ---------  | ------------------- | --------- | -------------------------------- | ------------------- |
@@ -2208,6 +2209,7 @@ Note that "Cosmic Fortune" is not an actual **injury**. When it is rolled for, *
 * Required supplies: 1 [medical supplies](#list-of-general-assets)
 * **Ob**: 1D4
 * Time to heal: 1D4 days
+* Treated heal time reduction: 1D4 days
 
 | Range D100 | Injury              | Limit     | Description                      | Scar                |
 | ---------  | ------------------- | --------- | -------------------------------- | ------------------- |
@@ -2221,6 +2223,7 @@ Note that "Cosmic Fortune" is not an actual **injury**. When it is rolled for, *
 * Required supplies: 1 [medical supplies](#list-of-general-assets)
 * **Ob**: 1D6
 * Time to heal: 4D4 weeks
+* Treated heal time reduction: 3D4 weeks
 
 | Range D100 | Injury              | Limit     | Description                      | Scar                |
 | ---------  | ------------------- | --------- | -------------------------------- | ------------------- |
@@ -2230,11 +2233,12 @@ Note that "Cosmic Fortune" is not an actual **injury**. When it is rolled for, *
 | 76 - 100   | Molten Muscles      | /         | +1 [burning](./core-rules.md#burning); -1 [strength](#strength-str). Heat induced atrophy. | / |
 
 ### Bludgeoning Injuries
-* Automatic treatment: Impossible
+* Automatic treatment: [Toughness](#toughness-tough) at **Ob** 3 every day.
 * Treatment skill: [surgery](#surgery-agiwit)
 * Required supplies: 1 [medical supplies](#list-of-general-assets)
 * **Ob**: 1D4
 * Time to heal: 4D6 weeks
+* Treated heal time reduction: 3D6 weeks
 
 | Range D100 | Injury              | Limit     | Description                      | Scar                |
 | ---------  | ------------------- | --------- | -------------------------------- | ------------------- |
@@ -2255,6 +2259,7 @@ Note that "Cosmic Fortune" is not an actual **injury**. When it is rolled for, *
 * Required supplies: 1 [medical supplies](#list-of-general-assets)
 * **Ob**: 1D6
 * Time to heal: 4D4 weeks
+* Treated heal time reduction: 3D4 weeks
 
 | Range D100 | Injury              | Limit     | Description                      | Scar                |
 | ---------  | ------------------- | --------- | -------------------------------- | ------------------- |
@@ -2270,6 +2275,7 @@ Note that "Cosmic Fortune" is not an actual **injury**. When it is rolled for, *
 * Required supplies: 1 [medical supplies](#list-of-general-assets)
 * **Ob**: 1D4
 * Time to heal: 2D4 weeks
+* Treated heal time reduction: 2D4 weeks
 
 | Range D100 | Injury              | Limit     | Description                      | Scar                |
 | ---------  | ------------------- | --------- | -------------------------------- | ------------------- |
@@ -2284,6 +2290,7 @@ Note that "Cosmic Fortune" is not an actual **injury**. When it is rolled for, *
 * Required supplies: 1 [medical supplies](#list-of-general-assets)
 * **Ob**: 1D4
 * Time to heal: 3D4 weeks
+* Treated heal time reduction: 2D4 weeks
 
 | Range D100 | Injury              | Limit     | Description                      | Scar                |
 | ---------  | ------------------- | --------- | -------------------------------- | ------------------- |
@@ -2296,11 +2303,12 @@ Note that "Cosmic Fortune" is not an actual **injury**. When it is rolled for, *
 | 87 - 100   | Pierced Eye         | Eye Count | -1 [awareness](#awareness-awar); If incurred *limit* times, cannot see. | Scarred eye |
 
 ### Poison Injuries
-* Automatic treatment: [Toughness](#toughness-tough) with **Ob** at level of [poisoned](#poisoned) at end of every turn / every minute. 
+* Automatic treatment: [Toughness](#toughness-tough) at **Ob** 3 every day. 
 * Treatment skill: [medicine](#medicine-agiwit)
 * Required supplies: 1 [antidote](#list-of-general-assets)
 * **Ob**: 1D4
 * Time to heal: 2D4 days
+* Treated heal time reduction: 1D4 + 1 days
 
 | Range D100 | Injury              | Limit     | Description                      | Scar                |
 | ---------  | ------------------- | --------- | -------------------------------- | ------------------- |
@@ -2312,11 +2320,12 @@ Note that "Cosmic Fortune" is not an actual **injury**. When it is rolled for, *
 | 84 - 100   | Frenzy              | /         | +1 [poisoned](#poisoned). Become [berserked](#berserk). To some, this may be a fun afternoon, but to you, the pain of the fire in your veins is unbearable, causing unquenchable rage to broil within you. | / |
 
 ### Slashing Injuries
-* Automatic treatment: [Toughness](#toughness-tough) at **Ob** 1 at end of every turn / every minute. 
+* Automatic treatment: [Toughness](#toughness-tough) at **Ob** 3 every day. 
 * Treatment skill: [surgery](#surgery-agiwit)
 * Required supplies: 1 [medical supplies](#list-of-general-assets)
 * **Ob**: 1D4
 * Time to heal: 2D4 weeks
+* Treated heal time reduction: 1D4 weeks
 
 | Range D100 | Injury              | Limit     | Description                      | Scar                |
 | ---------  | ------------------- | --------- | -------------------------------- | ------------------- |
