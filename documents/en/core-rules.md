@@ -102,9 +102,9 @@
   - [Defending](#defending)
     - [Armor](#armor)
     - [Defending an Ally](#defending-an-ally)
-    - [Defence Stunts](#defence-stunts)
+    - [Defense Stunts](#defense-stunts)
     - [Cover](#cover)
-    - [Speed aids Defence](#speed-aids-defence)
+    - [Speed aids Defense](#speed-aids-defense)
   - [Throwing](#throwing)
     - [Throwing-Distance](#throwing-distance)
     - [Throwing-Accuracy](#throwing-accuracy)
@@ -165,6 +165,7 @@
     - [Knowledge Skills](#knowledge-skills)
       - [Architecture (Awar/Wit)](#architecture-awarwit)
       - [Geography (Awar/Wit)](#geography-awarwit)
+      - [Geology (Awar/Wit)](#geology-awarwit)
       - [History \< subject \> (Wit/Wit)](#history--subject--witwit)
       - [Language \< language \> (Wit/Wit)](#language--language--witwit)
       - [Law and politics (Wit/Wit)](#law-and-politics-witwit)
@@ -218,7 +219,7 @@
     - [Multiple Single Target (MST)](#multiple-single-target-mst)
     - [Area of Effect (AoE)](#area-of-effect-aoe)
 
-Version 16 (Playtest)
+Version 17 (Playtest)
 
 A role-playing game by Nicolas H.
 
@@ -509,19 +510,20 @@ For **every** level in **toughness**, a character...
 * ...gains `+10` maximum [HP](#hit-points-hp). All characters have base [HP](#hit-points-hp) of `10`. 
 * ...raises their [exhaustion limit](#exhaustion) by `+1`. All characters have a base limit of `1`. 
 * ...gains around `3` minutes of holding their breath. 
+* ...gains one additional die with which to try and shrug off an [injury](#injury).
 
 For **every second** level in **toughness**, a character...
-* ...raises their [injury](#injury) limit by `+1`. All characters have a base limit of `1`. 
+* ...reduces the maximum [HP](#hit-points-hp) penalty from [injuries](#injury) by `1`. 
 
 For your convenience, the table below lists the numbers per level.
 
-| Level                | 1   | 2   | 3   | 4   | 5   | 6   | 7   | 8   | 9   | 10  |
-| -------------------- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Max. HP              | 20  | 30  | 40  | 50  | 60  | 70  | 80  | 90  | 100 | 110 |
-| Injury Limit         | 1   | 2   | 2   | 3   | 3   | 4   | 4   | 5   | 5   | 6   |
-| Exhaustion Limit     | 2   | 3   | 4   | 5   | 6   | 7   | 8   | 9   | 10  | 11  |
+| Level                        | 1   | 2   | 3   | 4   | 5   | 6   | 7   | 8   | 9   | 10  |
+| ---------------------------- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Max. HP                      | 20  | 30  | 40  | 50  | 60  | 70  | 80  | 90  | 100 | 110 |
+| Max. HP reduction per injury | 10  | 9   | 9   | 8   | 8   | 7   | 7   | 6   | 6   | 5   |
+| Exhaustion Limit             | 2   | 3   | 4   | 5   | 6   | 7   | 8   | 9   | 10  | 11  |
 
-Every time a character suffers at least 10 [HP](#hit-points-hp) of damage **in a single attack**, they gain +1 [advancement progress](#advancing-attributes) to **toughness**. For 20 or more [HP](#hit-points-hp) of damage, they gain +2 [advancement progress](#advancing-attributes). 
+Every time a character suffers at least 10 [HP](#hit-points-hp) of damage **in a single attack**, they gain +1 [advancement progress](#advancing-attributes) to **toughness**. For 20 or more [HP](#hit-points-hp) of damage, they gain +2 [advancement progress](#advancing-attributes). There is no greater progression past this point. 
 
 > A character suffering 15 points of damage **in a single attack**, gains +1 advancement progress to their **toughness** automatically. 
 >
@@ -847,22 +849,24 @@ Additionally, playing to or even against their character's **personality traits*
 Every character has **Hit Points (HP)** and a maximum number of **injuries** they can endure (= their **injury limit**), before they die. 
 
 ### Hit Points (HP)
-Whenever a character is hurt, the **damage** that has been inflicted upon them is deducted from their **HP**. When their **HP** reach `0`, they **die**. An exception to this rule applies when the [damage type](#damage-types) that brought them to `0` **HP** was [bludgeoning](#damage-types). For that, see [bludgeoned to 0 HP](#bludgeoned-to-0-hp). 
-
+Whenever a character is hurt, the **damage** that has been inflicted upon them is deducted from their **HP**. When their **HP** reach `0`, they **die**. <br>
+An exception to this rule applies when the [damage type](#damage-types) that brought them to `0` **HP** was [bludgeoning](#damage-types). For that, see [bludgeoned to 0 HP](#bludgeoned-to-0-hp). <br>
 A further exception applies, but only for player characters, who upon reaching `0` **HP** are brought to [death's door](#deaths-door) (unless they are knocked unconscious). 
 
-Whenever a `10` **HP** segment threshold is reached, they suffer an [injury](#injury) and gain a [grit point](#grit-points-gp). The type of [injury](#injury) depends on the [type of damage](#damage-types) that caused it. The **HP** segments are always based on the character's maximum **HP** and **not** the **damage** that was caused. Also, for every [injury](#injury), a character's maximum **HP** is reduced by `10`. A [penalty](#boons--penalties) to [toughness](#toughness-tough) does **not** cause a *further* maximum **HP** reduction. 
+Whenever a `10` **HP** segment threshold is reached, an [injury](#injury) *may* be suffered. For more details, see the [injury](#injury) section. **HP** segments are always based on the character's maximum **HP**. 
 
-> A character with toughness 3 has 40 **HP** and an injury limit of 2. They also have armor that reduces all incoming **damage** by 12. An enemy attack deals 36 points of **damage** to them, which is reduced by their armor, down to 24 points of damage that actually go through. Thus, the victim has 16 **HP** left. In the process, they pass the 30 and 20 **HP** segment thresholds. This causes them to suffer 2 **injuries**, which reduce their **maximum HP** to 20, but they also gain 2 **grit points**! 
+> A character with 30 maximum **HP** has 3 **HP** segments. The current **HP** do not factor into the segments, at all. 
 
-A successful [medicine](#medicine-agiwit) [test](#tests) at **Ob** equal to the treated character's [toughness](#toughness-tough) subtracted by their current number of [injuries](#injury) can restore all currently missing **HP** of a character. The minimum **Ob** for this [test](#tests) is `1`! The [test](#tests) requires [medical supplies](#list-of-general-assets). **HP** also replenish on their own, albeit much slower. For every hour outside of combat, **1 D4** **HP** are regained, up to the current maximum. 
+A [graduated](#graduated-test) [medicine](#medicine-agiwit) test can restore `hits * D8` **HP**. This test requires and consumes one unit of [medical supplies](#list-of-general-assets)! 
 
-> A character with a **toughness** of 4 and 2 **injuries** could have all their currently missing **HP** restored with a **medicine** test at **Ob** (4 - 2 =) 2. 
+> For `3` hits out of `7` rolled dice, a medic can restore `3D8` **HP** for themselves or an ally. 
 
-See the [toughness attribute](#toughness-tough) to determine the **maximum HP** and [injury limit](#injury). 
+**HP** also replenish on their own, albeit much slower. For every hour outside of combat, **1 D4** **HP** are regained, up to the current maximum. 
+
+See the [toughness attribute](#toughness-tough) to determine the **maximum HP**. 
 
 #### Bludgeoned to 0 HP
-When a character was **bludgeoned** to `0` **HP**, they might survive and fall [unconscious](#unconscious), instead of dying. For that, they must succeed a [toughness](#toughness-tough) [test](#tests) at **Ob** equal to the the number of times that `10` fits in the damage that was inflicted. If they succeed the [test](#tests), they immediately fall [unconscious](#unconscious). If they fail, they die.
+When a character was **bludgeoned** to `0` [HP](#hit-points-hp), they might survive and fall [unconscious](#unconscious), instead of dying. For that, they must succeed a [toughness](#toughness-tough) [test](#tests) at **Ob** equal to the the number of times that `10` fits in the damage that was inflicted. If they succeed the [test](#tests), they immediately fall [unconscious](#unconscious). If they fail, they die.
 
 > A character suffers 24 points of **bludgeoning damage** and are brought to 0 **HP**. They must now succeed a **toughness** test at **Ob** 2, if they are to survive (albeit unconscious). 
 
@@ -872,10 +876,10 @@ A **grit point** lets a character stand up in defiance of their [injuries](#inju
 **Grit points** are one-time use and last until they are spent or until an [injury](#injury) has fully healed. 
 
 You may spend **grit points** at any time during a round for the following effects (but only one **grit point** per effect, per round): 
-* On a [test](#tests), gain `+1D`. 
+* On a [test](#tests), gain `+2D`. 
 * On a [test](#tests), gain `+1` [compensation point](#compensation-points). 
 * Reduce [exhaustion](#exhaustion) by `1D4`. 
-* On your attack, deal `+1D6` points of damage of your weapon's strongest [type of damage](#damage-types). 
+* On your attack, deal `+1D6` points of additional damage of your weapon's strongest [type of damage](#damage-types). 
 * Gain `+1D4` [AP](#action-points-ap). 
 
 ### Toughness Progress from Damage
@@ -888,30 +892,36 @@ Every time a character suffers at least 10 [HP](#hit-points-hp) of damage **in a
 > A character suffering 41 points of damage **in a single attack**, still only gains +2 advancement progress to their toughness automatically. 
 
 ### Injury
-An **injury** is a serious health impediment of a character. Every character has a maximum number of **injuries** they can endure. If they reach their maximum number of **injuries** and then lose all their remaining [HP](#hit-points-hp), the character **dies**. **PC**s are an exception, who instead arrive at [death's door](#deaths-door). 
+An **injury** is a serious health impediment of a character. It reduces the maximum [HP](#hit-points-hp) and imposes other [penalties](#boons--penalties). 
 
-Whenever a character suffers an **injury**, a **D100** must be rolled and the corresponding result from the [damage type](#damage-types) specific [list of injuries](#list-of-injuries) added to the character. In such a case, if multiple [types of damage](#damage-types) are incurred in the same instant, then the **injury** is based on the type of which the most damage got through armor and thus dealt the most [HP](#hit-points-hp) damage. If there is a tie, the [damage type](#damage-types) that the armor reduces less causes the **injury**. If there is still a tie, a coin flip could decide.
+Whenever a character loses a `10` [HP](#hit-points-hp) segment (whether from a single or multiple consecutive sources of damage doesn't matter), they *may* suffer an **injury**. To shrug off an injury, they must succeed a [toughness](#toughness-tough) test at **Ob** equal to their current number of **injuries** plus `1` and plus the number of successful shrug offs. 
+* If they succeeded, they suffer no **injury**! They must note this success, as every time an **injury** is shrugged off, it becomes `+1` **Ob** harder to shrug off the next! Only once an **injury** has fully healed and been removed, is this counter reset to `0`.
+* If failed, a **D100** must be rolled and the corresponding result from the [damage type](#damage-types) specific [list of injuries](#list-of-injuries) added to the character. In such a case, if multiple [types of damage](#damage-types) are incurred in the same instant, then the **injury** is based on the type of which the most damage got through armor and thus dealt the most [HP](#hit-points-hp) damage. If there is a tie, the [damage type](#damage-types) that the armor reduces less causes the **injury**. If there is still a tie, a coin flip could decide.
 
-For every **injury** incurred, a character's maximum [HP](#hit-points-hp) is reduced by `10`. An **injury** can also reduce [attributes](#attributes) and impose other restrictions. See also [boons & penalties](#boons--penalties). A penalty to [toughness](#toughness-tough) **does not** further reduce the current maximum [HP](#hit-points-hp)! The reduction from the **injury** is enough penalty. 
+> A character with no injuries, who has just been brought down to 30 HP from an attack, must now test whether they suffer an injury. They have already successfully shrugged off an attack once before. 
+>
+> Thus, their Ob for their toughness test is `0 (current injury count) + 1 (always) + 1 (from an earlier shrugged off injury) = 2`. 
+
+For every **injury** incurred, a character's maximum [HP](#hit-points-hp) is reduced - by how much is determined by their [toughness](#toughness-tough) - and a [grit point](#grit-points-gp) is earned. An **injury** can also apply further [penalties](#boons--penalties). A penalty to [toughness](#toughness-tough) **does not** further reduce the current maximum [HP](#hit-points-hp)! The reduction from the **injury** is enough penalty. 
+
+> A character with toughness 4, suffering an injury, loses `8` maximum **HP**. 
 
 An **injury** must be [treated](#injury-states--treatment) to reduce its negative effects and begin the healing process. [Treatment](#injury-states--treatment) is made with a [skill](#skills) noted on the **injury**. The difficulty of [treatment](#injury-states--treatment) is determined by the type of **injury**, that is to say, by the [type of damage](#damage-types) that inflicted it. The time to heal depends on its type. When an **injury** is fully healed and removed, it may leave behind a [scar](#scar), which can also impose [boons & penalties](#boons--penalties). 
 
 **Injuries** apply their penalties only once, upon being suffered. That means that if an **injury** applies a penalty of +1 [bleeding](#bleeding), the [bleeding](#bleeding) [condition](#condition) can be removed separately from the **injury**, after it has been suffered. Treating such an **injury** would only remove the 1 point of [bleeding](#bleeding) it inflicted. [Bleeding](#bleeding) suffered from other sources would remain. 
 
 #### Injury States & Treatment
-There are three possible states of an [injury](#injury): **active**, **patched up** or **treated**. Note that regardless of current state, **all** [injuries](#injury) **always** count towards the [injury](#injury) limit and reduce the **maximum HP**! 
+There are two possible states of an [injury](#injury): **active** or **treated**. Note that regardless of current state, **all** [injuries](#injury) **always** reduce the **maximum HP**! 
 
 The type of [injury](#injury) dictates various aspects of treatment:
 * The [skill](#skills) to use.
-* The [required supplies](#list-of-general-assets) for a treatment attempt. Both patching up and properly treating require this. 
-* The **Ob** for the treatment [test](#tests). Noted as (patch-up **Ob** | treatment **Ob**). Note that the minimum **Ob** is always 1. 
-* The time to heal and the reduction in time to heal when properly treated. Noted as (time to heal | reduction when properly treated). The reduction is subtracted from the time to heal, but cannot be reduced to less than one time increment. E. g. a time to heal of 2 weeks, reduced by 3 weeks, results in 1 week of actual time to heal. 
+* The [required supplies](#list-of-general-assets) for a treatment attempt. These supplies are consumed on every treatment attempt! 
+* The **Ob** for the treatment [test](#tests). Note that the minimum **Ob** is always 1. 
+* The time to heal and the reduction in time to heal when properly treated. The reduction is subtracted from the time to heal, but cannot be reduced to less than one time increment. E. g. a time to heal of 2 weeks, reduced by 3 weeks, results in 1 week of actual time to heal. 
 
-Only an **active** [injury](#injury) imposes negative effects *in addition* to the reduction of **maximum HP**. This is the initial state for any newly added [injury](#injury). Some [injuries](#injury) may **patch up** on their own, with a successful [test](#tests) of a specific [attribute](#attributes) or [skill](#skills), made with a specific interval and with a specific **Ob**.
+Only an **active** [injury](#injury) imposes negative effects *in addition* to the reduction of **maximum HP**. This is the initial state for any newly added [injury](#injury). Some [injuries](#injury) may become **treated** on their own, with a successful [test](#tests) of a specific [attribute](#attributes) or [skill](#skills), made at a specific interval and **Ob**.
 
-An [injury](#injury) can be **patched up** via a successful [test](#tests) of the required treatment skill with a reduced **Ob** (minimum 1). A **patched up** [injury](#injury) no longer imposes *additional* penalties and will begin healing, albeit much slower than if it were properly **treated**. 
-
-An [injury](#injury) can be properly **treated** via a successful [test](#tests) of the required treatment skill at full **Ob**. A **treated** [injury](#injury)'s time to heal is reduced significantly (minimum 1 time increment). Only one **treatment** attempt can be made every 24 hours on a per-character basis. 
+An [injury](#injury) can be properly **treated** via a successful [test](#tests) of the required treatment skill at the noted **Ob**. A **treated** [injury](#injury)'s time to heal is reduced significantly (minimum 1 time increment). Only one **treatment** attempt can be made every 24 hours on a per-character basis. 
 
 ### Exhaustion
 **Exhaustion** is the measure of a character's maximum physical and mental strain they can endure. 
@@ -1125,15 +1135,14 @@ There are no limits to how many of a given card a player can own, but they may o
 | Cost    | Name                | Effect             |
 | ------- | ------------------- | ------------------ |
 | 2 MiFP  | Single Re-Roll      | Repeat a single test you just made. |
-| 6 MiFP  | Clotter             | One **active** [injury](#injury) of choice is now **patched up**. |
-| 6 MiFP  | Cascading Re-Roll   | Repeat a single test you just made. With this card, you keep any **hits** you achieved from the previously made test and add them to the **hits** rolled when you repeat the test. Exclusive with "Double the Fun". |
+| 6 MiFP  | Clotter             | One **active** [injury](#injury) of choice is now **treated**. |
+| 8 MiFP  | Cascading Re-Roll   | Repeat a single test you just made. With this card, you keep any **hits** you achieved from the previously made test and add them to the **hits** rolled when you repeat the test. Exclusive with "Double the Fun". |
 | 8 MiFP  | Learning Boost      | For the duration of the session, you gain **twice** the [progress](#advancing-skills) towards your [skills](#skills) and [attributes](#attributes) whenever you test them. |
 | 8 MiFP  | Hastened            | +1 **AP** during your turns for the entirety of a [combat](#combat) encounter. |
-| 2 MaFP  | Fact Check          | Change a minor plot point in a way your prefer. Work with your **GM** to make sure it fits the narrative, but they should respect your wish. This could be something like avoiding an **NPC** death or changing a fact about the plot. |
 | 3 MaFP  | Double the Fun      | Double the number of dice to roll on your next/current test and every rolled **hit** counts double - which means every rolled **hit** actually counts as 2 **hits**! Exclusive with "Cascading Re-Roll". |
 | 3 MaFP  | Scar? What Scar?    | Remove one scar [scar](#scar) of choice. |
-| 4 MaFP  | Incorrect Diagnosis | Avoid an [injury](#injury) as it would be inflicted upon you - you do not suffer that [injury](#injury)! |
-| 5 MaFP  | Just a Flesh Wound  | Raise your injury limit by one for the duration of an encounter. This card can also be played as you suffer an [injury](#injury) and even when you're [dying](#deaths-door). In that case, playing this card counts as a successful test and brings you back from the verge of death. |
+| 5 MaFP  | Fact Check          | Change a minor plot point in a way your prefer. Work with your **GM** to make sure it fits the narrative, but they should respect your wish. This could be something like avoiding an **NPC** death or changing a fact about the plot. |
+| 5 MaFP  | Just a Flesh Wound  | Avoid or remove an [injury](#injury)! |
 | 1 AFP   | Defy Death          | Return from the dead, remove 1 **active** [injury](#injury) of choice and be at 1 **HP**; Alternatively, avoid a narratively-driven death. The **GM** will decide the character's alternative fate. They could be captured, very badly injured or become indebted to someone or something. Note that this card can only be played *after* the character lost their [battle with death](#deaths-door). |
 | 1 AFP   | Yes, my liege       | Work with your **GM** to create a follower/hireling who will now be at your command/employ. |
 
@@ -1366,11 +1375,9 @@ Sometimes, special circumstances apply, which make certain attacks easier or har
 Also keep in mind there may be times when rolling for an attack is entirely unnecessary, such as against a helpless victim. In such a case, you may apply your malevolence with impunity, to the extent of your choosing. 
 
 ### Damage
-Damage dealt to an opponent reduces their [HP](#hit-points-hp). When their **HP** reaches 0, they suffer an [injury](#injury) and their **HP** is reset to their new maximum. The type of [injury](#injury) that is dealt, depends on the [damage type](#damage-types). 
+Damage dealt to an opponent reduces their [HP](#hit-points-hp). When their **HP** reaches `0`, they die. Damage can also inflict [injuries](#injury). 
 
-If more damage is dealt, than the difference to 0, then that damage is also dealt - it overflows into the next **HP** *segment*. 
-
-To determine the new **HP** maximum of a *segment*, see the [injury](#injury) section. 
+[Armor](#armor) can reduce the amount of damage that is actually applied. 
 
 ### Attacks of Opportunity
 When a character is within weapon's reach of another hostile character, they're considered within the other's **range of opportunity**. Whenever a character in an enemy's **range of opportunity** moves away from or more than 6'/2m *around* that enemy, that enemy can *choose* to perform an **attack of opportunity**. It is possible to avoid an **attack of opportunity** with a [disengage](#disengage) combat action. 
@@ -1395,7 +1402,7 @@ There are two types of defense:
 * **Active defense**: Costs 1 [AP](#action-points-ap) and uses all available dice for the [test](#tests). 
   * This defense can only happen as a *reaction* and a deliberate choice, during another character's turn. 
 * **Passive defense**: Does not cost any [AP](#action-points-ap), but uses only half (rounded down, minimum 1) of the available dice for the [test](#tests).
-  * This defense happens automatically, if no **active defense** is attempted. 
+  * This defense happens automatically as a *reaction*, if no **active defense** is attempted. 
   * This defense can *not* be used against attacks that cost more than 1 [AP](#action-points-ap) to defend against. 
 
 To defend, an [opposed test](#opposed-test) must be made. If successful, the attack is negated, entirely, **unless** if you're parrying in melee with a weapon that has 2 [bulk](#bulk) less than the weapon you've parried. In such a case, half the damage (rounded up) still goes through, regardless of the successful parry.  
@@ -1405,20 +1412,46 @@ The defender must *choose* how to defend themselves, if no specific "opposed by"
 Defending against [area of effect](#area-of-effect) attacks is *only* possible as a **passive defense** and can *not* negate the attack. It can only halve (rounded up) its [damage](#damage). 
 
 ### Armor
-Armor can negate or at least reduce the damage taken, after a defence test has failed. The specifics can be found in the used module's asset appendix. 
+Armor serves as life insurance, because it can negate or at least reduce the damage taken, after a defense test has failed. 
+
+In a normal duel situation, the person in armor will always have an advantage over the person without armor. There are still ways to get around armor, but they usually involve managing to throw the armored opponent to the ground or using [expertises](#expertise) designed to circumvent armor. Simply continuing trying to hit someone in armor in a straight fight will not yield you the results you seek. 
+
+This circumstance changes, when the armored person is flanked and surrounded. Most armor is designed to protect the most from frontal attacks and even the more masterful armors must still allow some cracks in between armor plates. Also, armor is usually thinner on the back, which means it's easier to find a spot where the material is weak. Therefore, by flanking an armored opponent, you can negate at least some of the armor's effect. 
+
+To **flank** an opponent, two allies must be within their weapons' range to the armored opponent and the two allies **must** be on opposite sides of the opponent. If both are attacking from the same side, then the armor will continue protecting fully. This appplies both for melee and ranged attacks. 
+
+Three allies can **surround** the opponent, further reducing their armor's effectiveness. Four or more allies can **overwhelm** the opponent, rendering their armor completely useless. The third and fourth (or any beyond that number) ally can **freely** choose a spot within weapon's reach. 
+
+* When **unthreatened**, the armor protects fully. 
+* When **flanked**, the armor protects only half (rounded up) as much. 
+* When **surrounded**, the armor protects only one fourth (rounded up) as much. 
+* When **overwhelmed**, the armor no longer protects **at all**. 
+
+If one of the allies is using a weapon with a property to increase its reach, for example [long reach](#weapon-properties), then they need not be adjacent to the enemy to count towards the flanking effect (but still within their weapon's reach to the enemy). 
+
+The following two graphics illustrate valid spots for a second ally to enter, to **flank** the character in the center. 
+
+<img src="../../img/flanking-chart_1.png" width="349px" height="264px"></img> <img src="../../img/flanking-chart_2.png" width="349px" height="349px"></img>
+
+The following graphic illustrates valid spots for a third ally to enter, to **surround** the character in the center (not shown here is that the third ally could also approach from the south. In that case, the valid spots would simply be mirrored on the opposite side). 
+
+<img src="../../img/flanking-chart_3.png" width="264px" height="357px"></img>
+
+
+The specific armors and their values can be found asset appendix of whatever module you're using. 
 
 ### Defending an Ally
-It is possible for a character to defend an adjacent ally when they're being attacked. This costs 2 [AP](#action-points-ap) and results in the ally taking over the defense being forced to roll the defense test, instead of the originally attacked character. 
+It is possible for a character to defend an adjacent ally when they're being attacked. This costs `1` [AP](#action-points-ap) and results in the ally taking over the defense being forced to roll the defense test, instead of the originally attacked character. 
 
 Defending an ally is a **combat action** and a **reaction**. 
 
-### Defence Stunts
-If you succeed an **active defense** and achieve at least 2 **hits** over your attacker, then you may perform one of the following stunts, at the cost of +1 [exhaustion](#exhaustion) (but only if that won't bring you to your [exhaustion limit](#exhaustion)): 
+### Defense Stunts
+If you succeed an **active defense** and achieve at least 2 **hits** over your attacker, then you may perform one of the following stunts, at the cost of `+1` [exhaustion](#exhaustion) (but only if that won't bring you to your [exhaustion limit](#exhaustion)): 
 
 * **Disarm** your opponent (if they have a detachable weapon).
-* **Displace your opponent**. They are forced to stumble backwards by 6'/2m in a direction of your choosing. This may provoke [attacks of opportunity](#attacks-of-opportunity). 
-* **Displace yourself**. You move 6'/2m in a direction of your choosing. This does not provoke [attacks of opportunity](#attacks-of-opportunity). 
-* Throw your opponent to the ground, making them proned.
+* **Displace your opponent**. They are forced to stumble backwards by `6'/2m` in a direction of your choosing. This may provoke [attacks of opportunity](#attacks-of-opportunity). 
+* **Displace yourself**. You move `6'/2m` in a direction of your choosing. This does **not** provoke [attacks of opportunity](#attacks-of-opportunity). 
+* Throw your opponent to the ground, making them [proned](#prone). This may provoke [attacks of opportunity](#attacks-of-opportunity). 
 * Launch a **counter-attack**, for half your weapon's regular damage (rounded up). You'll have to roll a regular attack, which your opponent can choose to defend against. This attack does not cost you any additional [AP](#action-points-ap). 
 * If defending against a ranged attack, you catch the projectile (if such a feat could be "reasonably" done). You may immediately throw it back at the attacker, for no additional cost. Normal [throwing](#throwing) rules apply. 
 
@@ -1428,10 +1461,11 @@ It is possible for characters to hide behind stationary things to make it harder
 There are two categories of cover: 
 * **Low cover**: +1 **Ob** against a target that is behind low cover. 
   * Low cover is any static object to hide behind that doesn't fully cover the body, like a tree stump or low wall. 
+  * If the type of cover allows (like a low wall), going [prone](#prone) may turn your low cover to high cover. 
 * **High cover**: +2 **Ob** against a target that is behind high cover. 
   * High cover is any static object to hide behind that fully covers the body, like a tall wall or large boulder. 
 
-### Speed aids Defence
+### Speed aids Defense
 It is possible for a victim of an attack to be moving too fast for the attacker's ability to keep tracking them effectively. 
 
 What speed exactly that is, depends heavily on circumstance. As always, the **GM**'s estimate determines whether a bonus can apply to a defense [test](#tests). A fast moving target may increase the attacker's **Ob** by 1, up to 3, depending on _how many degrees of too fast_ they are moving. 
@@ -1504,11 +1538,11 @@ Sometimes, your own body is your greatest weapon. Fists and feet can cause a sur
 
 | Level | Name                       | AP | **Ob**                               | Damage/Effect         | Condition |
 | ----- | -------------------------- | -- | ------------------------------------ | --------------------- | --------- |
-| 0     | Punch, kick, headbutt      | 2  | Opposed                              | `Str * 2` Bludgeoning |  |
+| 0     | Punch, Kick, Headbutt      | 2  | Opposed                              | `Str * 2` Bludgeoning |  |
 | 0     | Shove                      | 2  | Opposed by [strength](#strength-str) | Push an enemy away from you for 3'/1m * *N*, where *N* is the number of **hits** more than the opponent achieved. |  |
 | 1     | Grapple                    | 2  | Opposed by **Unarmed Combat**        | If **completely successful**, the target is unable to move and suffers **-1D** to their defense tests, for as long as they're grappled. Someone grappled can attempt to break free with an opposed **Unarmed Combat** test, on their turn. The grappler can not use at least one of their hands for as long as they're grappling. |  |
 | 2     | Wrestle and Disarm         | 2  | Opposed by **Unarmed Combat**        | Disarm your opponent and wrestle them to the ground, making them [prone](#prone), if you so choose. | Disarm only if enemy is using detachable weapon. |
-| 3     | Barge in                   | 3  | Opposed by [strength](#strength-str) | Push an enemy away from you for 3'/1m * *N*, where *N* is the number of **hits** more than the opponent achieved. Take their previous position and do **not** provoke **attacks of opportunity**. |  | 
+| 3     | Barge In                   | 3  | Opposed by [strength](#strength-str) | Push an enemy away from you for 3'/1m * *N*, where *N* is the number of **hits** more than the opponent achieved. Take their previous position and do **not** provoke **attacks of opportunity**. |  | 
 
 # General Interactions
 These are rules pertaining to specific social interactions or otherwise non-combat interactions that aren't immediately covered by a single [skill](#skills). 
@@ -1801,9 +1835,9 @@ Performing acrobatic feats, such as jumping, tumbling and climbing, without inju
 
 | Level | Name                 | AP | **Ob**  | Effect(s)          | Condition(s) |
 | ----- | -------------------- | -- | ------- | ------------------ | ------------ |
-| 0     | Deft Evasion         | /  | /       | Passive: While not wearing any [armor](#armor) and not wielding a shield of bulk 2 or more, gain `+1` [compensation point](#compensation-points) to any [defence test](#defending) made using this skill. | / |
+| 0     | Deft Evasion         | /  | /       | Passive: While not wearing any [armor](#armor) and not wielding a shield of bulk 2 or more, gain `+1` [compensation point](#compensation-points) to any [defense test](#defending) made using this skill. | / |
 | 2     | Wind Out Of It       | 1  | 2       | When hit by a [single-target](#single-target-st) attack, wind out of the hit and suffer only half the damage. Can be used even when a much bulkier weapon is breaking through your successful defense, to halve the damage *again*, effectively resulting in you suffering only 1/4th (rounded up) of the damage. | Once per combat. |
-| 3     | Bob, Weave, Jab      | 1  | Opposed | When succeeding a defense test, launch a [counter-attack](#defence-stunts) against the enemy who attacked you, but for your weapon's **full damage** and without suffering any [exhaustion](#exhaustion)! | Once per round. |
+| 3     | Bob, Weave, Jab      | 1  | Opposed | When succeeding a defense test, launch a [counter-attack](#defense-stunts) against the enemy who attacked you, but for your weapon's **full damage** and without suffering any [exhaustion](#exhaustion)! | Once per round. |
 
 #### Berserking (Tough/Tough)
 Whether as a well-honed skill and way of life, or through a disappointing childhood of misery and pain, berserking is a talent for fighting angrily and recklessly. It allows a fighter to keep fighting at surprising strength, even when wounded. 
@@ -1812,10 +1846,10 @@ However, the price for this strength is steep. The chance of death is greatly in
 
 | Level | Name                 | AP | **Ob**  | Effect(s)          | Condition(s) |
 | ----- | -------------------- | -- | ------- | ------------------ | ------------ |
-| 0     | Reckless Assault     | 1  | /       | Deal an extra **D** of damage (or if no dice are rolled, then add half of the damage, rounded up) on your next successful attack during this turn, according to your weapon's damage. Suffer a **-1D** penalty on all [defense tests](#defending) until the start of your next turn. |  |
-| 1     | Grit Your Teeth      | 1  | /       | Ignore the negative effects of one [injury](#injury) of choice for the rest of the combat encounter. It will still count towards the injury limit, however! | Once per combat. |
-| 2     | Pain is Strength     | 3  | Opposed | Perform a [single-target](#single-target-st) melee attack against an opponent of choice. For every active [injury](#injury) you currently have, deal one extra **D** of damage. You suffer one point of [exhaustion](#exhaustion). | Once per day. |
-| 4     | Injury Collector     | 0  | /       | Passive: While not wearing any [armor](#armor), raise your [injury limit](#injury) by 1. | / |
+| 0     | Reckless Assault     | 1  | /       | Deal half of the damage (rounded up) as additional damage on your next successful attack. Suffer a **-1D** penalty to all [defense tests](#defending) until the start of your next turn. |  |
+| 1     | Grit Your Teeth      | 1  | /       | Reaction: Upon suffering an [injury](#injury), gain an *additional* [grit point](#grit-points-gp). | / |
+| 2     | Pain is Strength     | 3  | Opposed | Perform a [single-target](#single-target-st) melee attack against an opponent of choice. For every active [injury](#injury) you currently have, deal one extra **D6** of [bludgeoning](#damage-types) damage. You suffer one point of [exhaustion](#exhaustion). | Cooldown: 3 turns. |
+| 4     | Injury Collector     | 0  | 3       | Reaction: Upon suffering an [injury](#injury), with a successful test of this Expertise, remove all additional [penalties](#boons--penalties) (i. e. everything but the [HP](#hit-points-hp) malus) from the [injury](#injury). | / |
 
 #### Fishing (Agi/Awar)
 The ability to efficiently catch fish. 
@@ -1938,6 +1972,11 @@ Analysing and planning buildings. Discerning weak points in a structure.
 
 #### Geography (Awar/Wit)
 Knowledge about the geography of the world. Used to recall the location of places in relation to each other. 
+
+#### Geology (Awar/Wit)
+Knowledge about minerals, sediments, rock and geothermal activity. Useful to find ore veins, to tell when damp stone implies a nearby underwater river or lakes and when hot stone implies volcanic activity. Can also be useful to determine how deep underground one finds themself. 
+
+Every miner will have at least some amount of geological knowledge, even if they're not explicitly aware of it. 
 
 #### History < subject > (Wit/Wit)
 Knowledge about past events and locations. 
@@ -2105,7 +2144,7 @@ A **poisoned** character suffers **1 D4** points of [poison](#damage-types) dama
 * Immediate cancel: With proper [treatment](#poison-injuries). 
 
 ### Prone
-A character who is prone, is harder to hit with ranged attacks, but easier to hit with melee attacks. 
+A character who is prone, is harder to hit with ranged attacks, but easier to hit with melee attacks. A character who is prone, counts as [flanked](#armor) in melee. If they're *also* [grappled](#grappled), they count as [surrounded](#armor). 
 
 * **-1D** to melee defense tests. 
 * **-1D** to any melee attack tests. 
@@ -2135,23 +2174,23 @@ A **terrified** character suffers **-2D** to defense tests and **has to** flee f
 An **unconscious** character is unable to act and is unaware of their surroundings. 
 
 ## List of Injuries
-How many times an **injury** can be suffered, can be limited. In the table below, the *limit* is the maximum number of times the **injury** can be suffered by the same character. If there is a slash (/), there is no limit. If a roll would result in an already maxed out **injury**, pick the next **injury** below it, instead, or roll again. 
+How many times a specific type of **injury** can be suffered, can be limited. In the table below, the *limit* is the maximum number of times the **injury** can be suffered by the same character. If there is a slash (/), there is no limit. If a roll would result in an already maxed out **injury**, pick the next **injury** below it, instead or roll again. 
 
 Also noted below for each group of **injuries** are: 
 * The [treatment skill](#injury-states--treatment).
-* The treatment **Ob** (patch-up | proper treatment).
+* The treatment **Ob**.
 * The time to heal and reduction in time to heal when [treated](#injury-states--treatment).
-* The **Ob** for a self (= automatic) patch-up and the interval for such a test, if at all possible.
-* The supplies required to be able to make a patch-up or treatment test.
+* The **Ob** for a self (= automatic) treatment and the interval for such a test, if at all possible.
+* The supplies required to be able to make a treatment test.
 
 Note that "Cosmic Fortune" is not an actual **injury**. When it is rolled for, **do not** add it to the character sheet! 
 
 ### Acid Injuries
-* Self patch-up: [Toughness](#toughness-tough) at **Ob** 3 every day. 
+* Automatic treatment: [Toughness](#toughness-tough) at **Ob** 3 every day. 
 * Treatment skill: [medicine](#medicine-agiwit)
 * Required supplies: 1 [medical supplies](#list-of-general-assets)
-* **Ob**: 1D6 - 2 | 1D6
-* Time to heal: 4D4 weeks | 3D4 weeks
+* **Ob**: 1D6
+* Time to heal: 4D4 weeks
 
 | Range D100 | Injury              | Limit     | Description                      | Scar                |
 | ---------  | ------------------- | --------- | -------------------------------- | ------------------- |
@@ -2161,11 +2200,11 @@ Note that "Cosmic Fortune" is not an actual **injury**. When it is rolled for, *
 | 76 - 100   | Molten Muscles      | /         | -1 [toughness](#toughness-tough). | / |
 
 ### Bleeding Injuries
-* Self patch-up: [Toughness](#toughness-tough) with **Ob** at level of [bleeding](#bleeding) at end of every turn / every minute. 
+* Automatic treatment: [Toughness](#toughness-tough) with **Ob** at level of [bleeding](#bleeding) at end of every turn / every minute. 
 * Treatment skill: [medicine](#medicine-agiwit)
 * Required supplies: 1 [medical supplies](#list-of-general-assets)
-* **Ob**: 1D4 - 1 | 1D4
-* Time to heal: 1D4 days | 1D4 days
+* **Ob**: 1D4
+* Time to heal: 1D4 days
 
 | Range D100 | Injury              | Limit     | Description                      | Scar                |
 | ---------  | ------------------- | --------- | -------------------------------- | ------------------- |
@@ -2174,11 +2213,11 @@ Note that "Cosmic Fortune" is not an actual **injury**. When it is rolled for, *
 | 67 - 100   | Weakened            | /         | -1 [strength](#strength-str); -1 [toughness](#toughness-tough). You feel weak. | / |
 
 ### Burning Injuries
-* Self patch-up: [Toughness](#toughness-tough) at **Ob** 3 every day. 
+* Automatic treatment: [Toughness](#toughness-tough) at **Ob** 3 every day. 
 * Treatment skill: [medicine](#medicine-agiwit)
 * Required supplies: 1 [medical supplies](#list-of-general-assets)
-* **Ob**: 1D6 - 2 | 1D6
-* Time to heal: 4D4 weeks | 3D4 weeks
+* **Ob**: 1D6
+* Time to heal: 4D4 weeks
 
 | Range D100 | Injury              | Limit     | Description                      | Scar                |
 | ---------  | ------------------- | --------- | -------------------------------- | ------------------- |
@@ -2188,11 +2227,11 @@ Note that "Cosmic Fortune" is not an actual **injury**. When it is rolled for, *
 | 76 - 100   | Molten Muscles      | /         | +1 [burning](./core-rules.md#burning); -1 [strength](#strength-str). Heat induced atrophy. | / |
 
 ### Bludgeoning Injuries
-* Self patch-up: Impossible
+* Automatic treatment: Impossible
 * Treatment skill: [surgery](#surgery-agiwit)
 * Required supplies: 1 [medical supplies](#list-of-general-assets)
-* **Ob**: 1D4 - 1 | 1D4 + 1
-* Time to heal: 4D6 weeks | 3D6 weeks
+* **Ob**: 1D4
+* Time to heal: 4D6 weeks
 
 | Range D100 | Injury              | Limit     | Description                      | Scar                |
 | ---------  | ------------------- | --------- | -------------------------------- | ------------------- |
@@ -2208,11 +2247,11 @@ Note that "Cosmic Fortune" is not an actual **injury**. When it is rolled for, *
 | 91 - 100   | Smashed Jaw         | /         | -1 [wit](#wit-wit). Your jaw no longer hinges the way it should and speech is impaired. | Crooked jaw |
 
 ### Electrical Injuries
-* Self patch-up: [Toughness](#toughness-tough) at **Ob** 3 every day. 
+* Automatic treatment: [Toughness](#toughness-tough) at **Ob** 3 every day. 
 * Treatment skill: [medicine](#medicine-agiwit)
 * Required supplies: 1 [medical supplies](#list-of-general-assets)
-* **Ob**: 1D6 - 2 | 1D6
-* Time to heal: 4D4 weeks | 3D4 weeks
+* **Ob**: 1D6
+* Time to heal: 4D4 weeks
 
 | Range D100 | Injury              | Limit     | Description                      | Scar                |
 | ---------  | ------------------- | --------- | -------------------------------- | ------------------- |
@@ -2223,11 +2262,11 @@ Note that "Cosmic Fortune" is not an actual **injury**. When it is rolled for, *
 | 81 - 100   | Distracted          | /         | -1 [awareness](#awareness-awar). It has become difficult to focus on what is happening around you. | / |
 
 ### Freezing Injuries
-* Self patch-up: [Toughness](#toughness-tough) at **Ob** 1 every day. 
+* Automatic treatment: [Toughness](#toughness-tough) at **Ob** 1 every day. 
 * Treatment skill: [medicine](#medicine-agiwit)
 * Required supplies: 1 [medical supplies](#list-of-general-assets)
-* **Ob**: 1D4 - 1 | 1D4
-* Time to heal: 2D4 weeks | 2D4 weeks
+* **Ob**: 1D4
+* Time to heal: 2D4 weeks
 
 | Range D100 | Injury              | Limit     | Description                      | Scar                |
 | ---------  | ------------------- | --------- | -------------------------------- | ------------------- |
@@ -2237,11 +2276,11 @@ Note that "Cosmic Fortune" is not an actual **injury**. When it is rolled for, *
 | 76 - 100   | Brain Freeze        | /         | -1 [wit](#wit-wit). Like too much ice cream, the cold shoots to your head and slows your thoughts. | / |
 
 ### Piercing Injuries
-* Self patch-up: [Toughness](#toughness-tough) at **Ob** 3 every day. 
+* Automatic treatment: [Toughness](#toughness-tough) at **Ob** 3 every day. 
 * Treatment skill: [surgery](#surgery-agiwit)
 * Required supplies: 1 [medical supplies](#list-of-general-assets)
-* **Ob**: 1D4 - 1 | 1D4
-* Time to heal: 3D4 weeks | 2D4 weeks
+* **Ob**: 1D4
+* Time to heal: 3D4 weeks
 
 | Range D100 | Injury              | Limit     | Description                      | Scar                |
 | ---------  | ------------------- | --------- | -------------------------------- | ------------------- |
@@ -2254,11 +2293,11 @@ Note that "Cosmic Fortune" is not an actual **injury**. When it is rolled for, *
 | 87 - 100   | Pierced Eye         | Eye Count | -1 [awareness](#awareness-awar); If incurred *limit* times, cannot see. | Scarred eye |
 
 ### Poison Injuries
-* Self patch-up: [Toughness](#toughness-tough) with **Ob** at level of [poisoned](#poisoned) at end of every turn / every minute. 
+* Automatic treatment: [Toughness](#toughness-tough) with **Ob** at level of [poisoned](#poisoned) at end of every turn / every minute. 
 * Treatment skill: [medicine](#medicine-agiwit)
 * Required supplies: 1 [antidote](#list-of-general-assets)
-* **Ob**: 1D4 - 1 | 1D4
-* Time to heal: 2D4 days | 1D4 + 1 days
+* **Ob**: 1D4
+* Time to heal: 2D4 days
 
 | Range D100 | Injury              | Limit     | Description                      | Scar                |
 | ---------  | ------------------- | --------- | -------------------------------- | ------------------- |
@@ -2270,11 +2309,11 @@ Note that "Cosmic Fortune" is not an actual **injury**. When it is rolled for, *
 | 84 - 100   | Frenzy              | /         | +1 [poisoned](#poisoned). Become [berserked](#berserk). To some, this may be a fun afternoon, but to you, the pain of the fire in your veins is unbearable, causing unquenchable rage to broil within you. | / |
 
 ### Slashing Injuries
-* Self patch-up: [Toughness](#toughness-tough) at **Ob** 1 at end of every turn / every minute. 
+* Automatic treatment: [Toughness](#toughness-tough) at **Ob** 1 at end of every turn / every minute. 
 * Treatment skill: [surgery](#surgery-agiwit)
 * Required supplies: 1 [medical supplies](#list-of-general-assets)
-* **Ob**: 1D4 - 1 | 1D4
-* Time to heal: 2D4 weeks | 1D4
+* **Ob**: 1D4
+* Time to heal: 2D4 weeks
 
 | Range D100 | Injury              | Limit     | Description                      | Scar                |
 | ---------  | ------------------- | --------- | -------------------------------- | ------------------- |
@@ -2297,7 +2336,7 @@ Note that "Cosmic Fortune" is not an actual **injury**. When it is rolled for, *
 | 25 - 32    | Jazz-Hands        | **1D10 + 3** Days | The victim can't stop the tremors in their arms. Any action requiring precise movements is impossible. **-1D4** [agility](#agility-agi). | [Medicine](#medicine-agiwit) **Ob** 1; The ill-effects are suspended for 24 hours. |
 | 33 - 40    | Brain Rot         | **2D10** Days     | The victim's mind dulls. They find it difficult to form coherent thoughts. **-1D4** [wit](#wit-wit). | [Medicine](#medicine-agiwit) **Ob** 1; The ill-effects are suspended for 24 hours. |
 | 41 - 48    | Feeble Tounge     | **1D10 + 3** Days | The tounge flops and waggles around uncontrollably. Speech is impaired. **-1D4** [wit](#wit-wit). | [Medicine](#medicine-agiwit) **Ob** 1D4; Reduces the duration by **2D4** days. |
-| 49 - 56    | Wound Fever       | Until cured       | [Injuries](#injury) of the victim refuse any treatment. Any [injury](#injury) of the victim can be **patched up**, but not **treated**. | [Medicine](#medicine-agiwit) **Ob** 2; Sets the duration to **1D10** days. |
+| 49 - 56    | Wound Fever       | Until cured       | [Injuries](#injury) of the victim refuse *any* **treatment**. | [Medicine](#medicine-agiwit) **Ob** 2; Sets the duration to **1D10** days. |
 | 57 - 64    | Filth Fever       | **1D10 + 1** Days | The victim coughs uncontrollably and violently, with awful-smelling breath. **-1D4** [toughness](#toughness-tough). | [Medicine](#medicine-agiwit) **Ob** 1D4 + 1; Removes the illness on the next day. |
 | 65 - 80    | Coldness of Heart | **1D10 + 1** Days | The victim feels distant, as if they were only spectators in their own body. **-1D4** [awareness](#awareness-awar). | [Medicine](#medicine-agiwit) **Ob** 1D4; Reduces the duration by **2D4** days. |
 | 81 - 88    | Rot Plague        | **4D10** Days     | The skin starts developing a nasty rash, before flaking off. Not only unsightly, the bare flesh underneath smells like it's rotting. **-(1D4 + 1)** [toughness](#toughness-tough). | [Surgery](#surgery-agiwit) **Ob** 2; The ill-effects are suspended for 24 hours. |

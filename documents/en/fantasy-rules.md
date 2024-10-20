@@ -40,10 +40,9 @@
       - [Medium Armor](#medium-armor)
       - [Heavy Armor](#heavy-armor)
     - [Shield Types](#shield-types)
-        - [Buckler](#buckler)
-        - [Round Shield](#round-shield)
-        - [Heater Shield](#heater-shield)
-        - [Kite Shield](#kite-shield)
+        - [Light Shield](#light-shield)
+        - [Medium Shield](#medium-shield)
+        - [Heavy Shield](#heavy-shield)
     - [List of General Assets](#list-of-general-assets)
     - [Weapon Types](#weapon-types)
       - [Dagger (Agi/Awar)](#dagger-agiawar)
@@ -55,7 +54,7 @@
       - [Spear (Agi/Str)](#spear-agistr)
       - [Lance (Awar/Str)](#lance-awarstr)
       - [Polearm (Str/Tough)](#polearm-strtough)
-      - [Small Crusher (Str/Str)](#small-crusher-strstr)
+      - [Small Crusher (Str/Tough)](#small-crusher-strtough)
       - [Large Crusher (Str/Tough)](#large-crusher-strtough)
       - [Short-Bow (Awar/Awar)](#short-bow-awarawar)
       - [Longbow (Awar/Str)](#longbow-awarstr)
@@ -103,7 +102,7 @@
   - [List of Injuries](#list-of-injuries)
   - [List of Illnesses](#list-of-illnesses)
 
-Version 6 (Playtest)
+Version 7 (Playtest)
 
 A role-playing game by Nicolas H.
 
@@ -392,107 +391,102 @@ The following list does not and cannot aim to be a complete listing of all possi
 
 #### Armor Properties
 Armor can have the following **properties**:
-* **Ambersteel-Lined**: Bonus protection from magic: **+1** for every quality level. **+1D4** for every two **quality levels**, starting at level 1.
-* **Ambersteel-Plated**: Bonus protection from magic: **+1** for every quality level. **+1D6** for every two **quality levels**, starting at level 1.
-* **Ambersteel-Forged**: Bonus protection from magic: **+2** for every quality level. **+1D8** for every two **quality levels**, starting at level 1.
+* **Ambersteel-Lined**: Bonus protection against magic. `+1` **Ob** for the attacker and reduces magic damage by `+1D4` for every quality level. 
+* **Ambersteel-Plated**: Bonus protection against magic. `+1` **Ob** for the attacker and reduces magic damage by `+1D6` for every quality level. 
+* **Ambersteel-Forged**: Bonus protection against magic. `+2` **Ob** for the attacker and reduces magic damage by `+1D8` for every quality level. 
 
-> An **Ambersteel**-lined armor at quality level 3 would have +(3 + **2D4**) protection from magic. 
+> An **Ambersteel**-lined armor at quality level 3 would make magic attacks `+3` **Ob** harder for the attacker and reduces incoming magical damage by `3D4`. 
 
 #### Light Armor
-A set of light armor that doesn't impede the wearer much. Example: cloth armor like a gambeson. 
+A set of light armor that doesn't impede the wearer much. Example: cloth armor like a gambeson. Might also be leather armor, if the leather comes from a creature whose skin is particularly tough and well suited to being used as armor. 
 
 * Bulk: 2
 
-| Protections                 | 
-| --------------------------- | 
-| 8 **Slashing**              | 
-| 6 **Piercing**              | 
-| 4 **Bludgeoning**           | 
-| 4 **Acid**                  | 
+| Protections          | Unthreatened | Flanked | Surrounded | Overwhelmed | 
+| -------------------- | ------------ | ------- | ---------- | ----------- | 
+| **Slashing**         | 8            | 4       | 2          | 0           | 
+| **Piercing**         | 6            | 3       | 2          | 0           | 
+| **Bludgeoning**      | 4            | 2       | 1          | 0           | 
+| **Acid**             | 4            | 2       | 1          | 0           | 
 
 #### Medium Armor
 A set of medium armor with a good balance of protection and weight. Example: full chain mail armor, with or without a helmet. 
 
 * Bulk: 3
-* Causes a permanent +1 [exhaustion](./core-rules.md#exhaustion) while worn. 
-* `-1D` to any defence tests while worn. 
+* `+1` permanent [exhaustion](./core-rules.md#exhaustion) while worn. 
+* `-1D` to any defense tests while worn. 
 
-| Protections                 | 
-| --------------------------- | 
-| 11 **Slashing**             | 
-| 9 **Piercing**              | 
-| 7 **Bludgeoning**           | 
-| 7 **Acid**                  | 
-| 12 **Electrical**           | 
+| Protections          | Unthreatened | Flanked | Surrounded | Overwhelmed | 
+| -------------------- | ------------ | ------- | ---------- | ----------- | 
+| **Slashing**         | 11           | 6       | 3          | 0           | 
+| **Piercing**         | 9            | 5       | 3          | 0           | 
+| **Bludgeoning**      | 7            | 4       | 2          | 0           | 
+| **Acid**             | 7            | 4       | 2          | 0           | 
+| **Electrical**       | 12           | 6       | 3          | 0           |
 
 #### Heavy Armor
 A set of heavy armor with excellent protection, at the cost of encumbering the wearer greatly. Example: full plate armor. 
 
 * Bulk: 4
-* Causes a permanent +2 [exhaustion](./core-rules.md#exhaustion) while worn. 
-* `-2D` to any defence tests while worn. 
+* `+2` permanent [exhaustion](./core-rules.md#exhaustion) while worn. 
+* `-2D` to any defense tests while worn. 
 
-| Protections                 | 
-| --------------------------- | 
-| 15 **Slashing**             | 
-| 13 **Piercing**             | 
-| 11 **Bludgeoning**          | 
-| 11 **Acid**                 | 
-| 8 **Electrical**            | 
+| Protections          | Unthreatened | Flanked | Surrounded | Overwhelmed | 
+| -------------------- | ------------ | ------- | ---------- | ----------- | 
+| **Slashing**         | 15           | 8       | 4          | 0           | 
+| **Piercing**         | 13           | 7       | 4          | 0           | 
+| **Bludgeoning**      | 11           | 6       | 3          | 0           | 
+| **Acid**             | 11           | 6       | 3          | 0           | 
+| **Electrical**       | 12           | 6       | 3          | 0           | 
 
 ### Shield Types
 Shields are items that provide passive bonuses to defense against melee and ranged attacks and require one free hand to use. This implies they cannot be used at the same time as a two-handed weapon (unless of course if you have more than two arms). 
 
-##### Buckler
-A small, round shield commonly held as far from the body as possible, to deflect small or stabbing weapons with ease. Helps only little against heavy blows, however. And don't expect to deflect arrows with this, either. 
+Shields can only be used in defense tests via the [shield](core-rules.md#shield-strtough) skill.
+
+##### Light Shield
+A small round or oblong shield commonly held as far from the body as possible, to deflect small or stabbing weapons with ease. Helps only little against heavy blows and don't expect to deflect arrows with this, either. 
 
 * Bulk: 1
 
 | Defensive Bonus       |
 | --------------------- |
-| +1D for melee defense. |
-| +3D for melee defense against **stabbing** attacks. |
+| `+1` [compensation point](core-rules.md#compensation-points) for melee defense using [shield](core-rules.md#shield-strtough). |
+| `+2` [compensation points](core-rules.md#compensation-points) for melee defense using [shield](core-rules.md#shield-strtough) against **stabbing** attacks. |
+| `-1D` for ranged defense using [shield](core-rules.md#shield-strtough). |
 
-##### Round Shield
-A medium-sized, round shield made from tough wood and leather, which offers decent protection against most attacks, while not encumbering the wielder too much. 
+##### Medium Shield
+A medium-sized, round or kite-shaped shield made from tough wood and leather or even metal, which offers good protection against most attacks, while not encumbering the wielder too much. 
 
 * Bulk: 2
+* `+1` permanent [exhaustion](#exhaustion) while wielded. 
 
 | Defensive Bonus      |
 | -------------------- |
-| +2D for any defense. |
+| `+1` [compensation points](core-rules.md#compensation-points) for any defense using [shield](core-rules.md#shield-strtough). |
 
-##### Heater Shield
-A tough and heavy metal shield, which offers great protection, while still being somewhat manageable to wield. 
-
-* Bulk: 3
-* +1 [exhaustion](#exhaustion) while wielded
-
-| Defensive Bonus      |
-| -------------------- |
-| +3D for any defense. |
-
-##### Kite Shield
-A large, kite-shaped shield, which can protect every part of the fighter, from the shoulder down to the feet. Its weight makes it difficult to react to attacks quickly, hoever. 
+##### Heavy Shield
+A large, kite-shaped or rectangular shield, which can protect every part of the fighter, from the shoulder down to the feet. Its weight is very tiring. 
 
 * Bulk: 4
-* +2 [exhaustion](#exhaustion) while wielded
+* `+2` permanent [exhaustion](#exhaustion) while wielded. 
 
 | Defensive Bonus      |
 | -------------------- |
-| +4D for any defense. |
+| `+2` [compensation points](core-rules.md#compensation-points) for any defense using [shield](core-rules.md#shield-strtough). |
 
 ### List of General Assets
 The following is a list of general assets. Of course, the following list is non-exhaustive. Invent more at your own need. 
 
 | Name                   | Bulk | Max. Stack Size | Description                                                              |
 | ---------------------- | ---- | --------------- | ------------------------------------------------------------------------ |
-| Laudanum Potion        | 1    | 2               | This wonderous substance can quell pain and calm nerves within seconds. Also effective against diarrhea. Upon imbibing, sets one **active** [injury](./core-rules.md#injury) to **patched up**. After 24 hours, the [injury](./core-rules.md#injury) is set back to **active**, even if it was **treated** in the meantime. Also, must succeed a [wit](./core-rules.md#wit-wit) test at **Ob** 2, or else become [addicted](./core-rules.md#drug-addicted) to the stuff. |
+| Laudanum Potion        | 1    | 2               | This wonderous substance can quell pain and calm nerves within seconds. Also effective against diarrhea. Upon imbibing, sets one **active** [injury](./core-rules.md#injury) to **treated**. After 24 hours, the [injury](./core-rules.md#injury) is set back to **active**, even if it was also properly **treated** in the meantime. Also, must succeed a [self-control](./core-rules.md#self-control-toughtough) test at **Ob** 3, or else become [addicted](./core-rules.md#drug-addicted) to the stuff. |
 | Calming Tea            | 1    | 3               | This herbal tea has the ability to calm nerves. Removes [berserk](./core-rules.md#berserk), [jealous](./core-rules.md#jealous) and [terrified](./core-rules.md#terrified). Best enjoyed steaming hot, but not necessarily. |
-| Smoke Bomb             | 1    | 3               | A small fragile shell, filled with a very fine powder which when broken causes an area in a 6'/2m radius to be covered in smoke. It is impossible to see through and ranged attacks within or through the area suffer +2 **Ob**. Victims caught in the smoke may be forced to cough. The smoke lasts 6 turns or 30 seconds. |
-| Acid Bomb              | 1    | 2               | A small fragile shell with two compartments, filled with two liquids which, when they combine, act as a powerful acid. When shattered, deals **2D8** **acid** damage to whatever it hits. |
-| Blackpowder Bomb       | 1    | 2               | A small iron-shelled bomb, filled with blackpowder. A short fuse sticks out and must be lit to set it off. Once lit, the bomb will detonate after 3 turns or 15 seconds. Deals **2D6** **Bludgeoning** + **2D6** **burning** damage to anyone in a 6'/2m radius. |
-| Throwing Blade         | 1    | 6               | A small weighted blade, like a knife or star, well suited to being thrown. Can be used in melee and acts like a [dagger](#dagger-agiawar), but with a penalty of **-2D** to attack and defence. **+1D** when [thrown](./core-rules.md#throwing-accuracy) for a ranged attack. Deals **2D4 + Str** **piercing** damage. |
+| Fire Pot (Potion)      | 1    | 3               | An ancient recipe, this concoction bursts into flame when exposed to air for several seconds. It causes severe burns for `2D8 Burning` damage in a `6'/2m` radius. Consumed on use. |
+| Smoke Bomb             | 1    | 3               | A small fragile shell, filled with a very fine powder which when broken causes an area in a `6'/2m` radius to be covered in smoke. It is impossible to see through and ranged attacks within or through the area suffer `+2` Ob. Victims caught in the smoke may be forced to cough. The smoke lasts 6 turns or 30 seconds. |
+| Acid Bomb              | 1    | 3               | A small fragile shell with two compartments, filled with two liquids which, when they combine, act as a powerful acid. When shattered, deals `2D8 Acid` damage to whatever it hits.  |
+| Blackpowder Bomb       | 1    | 2               | A small iron-shelled bomb, filled with blackpowder. A short fuse sticks out and must be lit to set it off. Once lit, the bomb will detonate after 3 turns or 15 seconds. Deals `2D6 Bludgeoning + 2D6 Burning` damage to anyone in a `6'/2m` radius.  |
+| Throwing Blade         | 1    | 6               | A small weighted blade, like a knife or star, well suited to being thrown. Can be used in melee and acts like a [dagger](#dagger-agiawar), but with a penalty of **-2D** to attack and defense. **+1D** when [thrown](./core-rules.md#throwing-accuracy) for a ranged attack. Deals **2D4 + Str** **piercing** damage. |
 
 ### Weapon Types
 Following are fantasy-themed weapon types. 
@@ -506,7 +500,7 @@ Any very short, one-handed blade. Examples: shiv, dagger, rondel-dagger
 
 For all attacks made with a dagger, the following rules apply:
 * If the target is unaware or [grappled](./core-rules.md#grappled), then the target's armor does **not** reduce the dagger's damage.
-* -1 **Ob** against [proned](./core-rules.md#prone) and/or [grappled](./core-rules.md#grappled) targets.
+* `-1 Ob` against [proned](./core-rules.md#prone) and/or [grappled](./core-rules.md#grappled) targets.
 
 * Melee
 * Bulk: 1
@@ -515,7 +509,7 @@ For all attacks made with a dagger, the following rules apply:
 | Level | Name                 | AP | **Ob**      | Damage                           | Notes  |
 | ----- | -------------------- | -- | ----------- | -------------------------------- | ------ |
 | 0     | Slash                | 2  | Opposed     | `1D6 + Agi` Slashing             | / |
-| 0     | Stab                 | 2  | Opposed     | `1D4 + Agi` Piercing             | / |
+| 0     | Stab                 | 2  | Opposed     | `1D10 + Agi` Piercing            | / |
 | 0     | Artery Cut           | 2  | Opposed + 1 | `2D6` Slashing                   | +2 [bleeding](#bleeding) to the target (if it can bleed).  |
 | 0     | Target Weak-Spot     | 2  | Opposed + 2 | `2D6 + Agi` Piercing             | / |
 
@@ -528,8 +522,8 @@ Any light blade. Most commonly (but not restricted to) one-handed weapons. Examp
 
 | Level | Name                 | AP | **Ob**      | Damage                           | Notes  |
 | ----- | -------------------- | -- | ----------- | -------------------------------- | ------ |
-| 0     | Slash                | 2  | Opposed     | `1D8 + Str` Slashing             | / |
-| 0     | Stab                 | 2  | Opposed     | `1D6 + Agi` Piercing             | / |
+| 0     | Slash                | 2  | Opposed     | `2D6 + Str` Slashing             | / |
+| 0     | Stab                 | 2  | Opposed     | `1D8 + Agi` Piercing             | / |
 | 0     | Grappling Feint      | 2  | Opposed - 1 | /                                | Attack with a feint, immediately close the distance and [grapple](./core-rules.md#grappled) your opponent. |
 
 #### Long Blade (Agi/Str)
@@ -542,8 +536,8 @@ Any long and heavier blade, including heavy one-handed blades. Examples: longswo
 | ----- | -------------------- | -- | ----------- | -------------------------------- | ------ |
 | 0     | Slash                | 2  | Opposed     | `2D8 + Str` Slashing             | / |
 | 0     | Stab                 | 2  | Opposed     | `2D6 + Agi` Piercing             | / |
-| 2     | Mord-Strike          | 2  | Opposed     | `1D6 + Str` Bludgeoning          | / |
-| 3     | Fencer-Stance        | 2  | /           | /                                | Enter a defensive fencing stance. Gain **+1D** for melee defense and can [counter-attack](./core-rules.md#defence-stunts) **every** attack, until the start of your next turn. |
+| 2     | Mord-Strike          | 2  | Opposed     | `1D8 + Str` Bludgeoning          | / |
+| 3     | Fencer-Stance        | 2  | /           | /                                | Enter a defensive fencing stance. Gain `+1D` for melee defense and can [counter-attack](./core-rules.md#defense-stunts) **every** attack, until the start of your next turn. |
 
 #### Great Blade (Str/Tough)
 Any very long and heavy two-handed blade. Examples: great-sword, sword of war, great-saber
@@ -556,20 +550,20 @@ Any very long and heavy two-handed blade. Examples: great-sword, sword of war, g
 | ----- | -------------------- | -- | ----------- | -------------------------------- | ------ |
 | 0     | Slash                | 2  | Opposed     | `2D10 + Str` Slashing            | / |
 | 0     | Stab                 | 2  | Opposed     | `2D8 + Agi` Piercing             | / |
-| 2     | Blade Barrier        | 2  | Opposed     | /                                | Whenever any character moves **into** a spot within reach, can attack that character with a **slash** at **Ob** + 1 and always force them back 3'/1m, until the start of your next turn. |
-| 3     | Heavy Blow           | 3  | Opposed + 1 | `2D10` Slashing                  | Defending against this attack costs 2 [AP](#action-points-ap). |
+| 2     | Blade Barrier        | 2  | Opposed     | /                                | Whenever any character moves **into** a spot within reach, can attack that character with a **slash** at `Ob + 1` and always force them back `3'/1m`, until the start of your next turn. These attacks do not cost any additional **AP**. |
+| 3     | Heavy Blow           | 3  | Opposed + 2 | `3D8` Slashing                   | Defending against this attack costs 2 [AP](#action-points-ap). |
 
 #### Axe (Str/Str)
-Small and light axes. Examples: hatchet, dane axe, woodcutter's axe
+Small and light axes. Examples: hatchet, woodcutter's axe
 
 * Melee
 * Bulk: 1
 * Ranged (throwable: hack)
 
-| Level | Name                 | AP | **Ob**      | Damage                           | Notes  |
-| ----- | -------------------- | -- | ----------- | -------------------------------- | ------ |
-| 0     | Hack                 | 2  | Opposed     |  `1D6` Slashing + `1D6 + Str` Bludgeoning  | / |
-| 1     | Savage Slash         | 2  | Opposed + 1 |  `1D6 + Str` Slashing            | +1 [bleeding](#bleeding) to the target (if it can bleed). |
+| Level | Name                 | AP | **Ob**      | Damage                                    | Notes  |
+| ----- | -------------------- | -- | ----------- | ----------------------------------------- | ------ |
+| 0     | Hack                 | 2  | Opposed     |  `1D8` Slashing + `1D4 + Str` Bludgeoning | / |
+| 1     | Savage Slash         | 2  | Opposed + 1 |  `1D10 + Str` Slashing                    | +1 [bleeding](#bleeding) to the target (if it can bleed). |
 
 #### Great Axe (Str/Str)
 Large and heavy axes. Examples: bearded axe, double-sided axe
@@ -577,11 +571,11 @@ Large and heavy axes. Examples: bearded axe, double-sided axe
 * Melee
 * Bulk: 3
 
-| Level | Name                 | AP | **Ob**      | Damage                           | Notes  |
-| ----- | -------------------- | -- | ----------- | -------------------------------- | ------ |
-| 0     | Hack                 | 2  | Opposed     | `1D8` Slashing + `1D8 + Str` Bludgeoning | / |
-| 2     | Savage Slash         | 2  | Opposed + 1 | `2D6 + Str` Slashing             | +2 [bleeding](#bleeding) to the target (if it can bleed). |
-| 3     | Heavy Blow           | 3  | Opposed + 1 | `1D8` Slashing + `1D8 + Str` Bludgeoning | Defending against this attack costs 2 [AP](#action-points-ap). |
+| Level | Name                 | AP | **Ob**      | Damage                                           | Notes  |
+| ----- | -------------------- | -- | ----------- | ------------------------------------------------ | ------ |
+| 0     | Hack                 | 2  | Opposed     | `1D10` Slashing + `1D6 + Str` Bludgeoning        | / |
+| 2     | Savage Slash         | 2  | Opposed + 1 | `2D6 + Str` Slashing                             | +2 [bleeding](#bleeding) to the target (if it can bleed). |
+| 3     | Heavy Blow           | 3  | Opposed + 2 | `1D10 + 1D6` Slashing + `1D8 + Str` Bludgeoning  | Defending against this attack costs 2 [AP](#action-points-ap). |
 
 #### Spear (Agi/Str)
 Any one or two-handed short piercing polearms. Examples: short-spear, boar-spear
@@ -590,12 +584,11 @@ Any one or two-handed short piercing polearms. Examples: short-spear, boar-spear
 * Bulk: 2
 * Ranged (throwable: stab)
 * [Long Reach](core-rules.md#weapon-properties)
-* [Prefer Range](core-rules.md#weapon-properties)
 
 | Level | Name                 | AP | **Ob**      | Damage                           | Notes  |
 | ----- | -------------------- | -- | ----------- | -------------------------------- | ------ |
-| 0     | Stab                 | 2  | Opposed     | `2D8 + Agi` Piercing             | / |
-| 0     | Spear Wall           | 2  | /           | /                                | Whenever any character moves **into** a spot within reach, can attack that character with a **stab** and always force them back 3'/1m, until the start of your next turn. |
+| 0     | Stab                 | 2  | Opposed     | `2D6 + Agi` Piercing             | / |
+| 0     | Spear Wall           | 2  | /           | /                                | Whenever any character moves **into** a spot within reach, can attack that character with a **stab** at `Ob + 1` and always force them back `3'/1m`, until the start of your next turn. The attacks cost no additional **AP**. |
 
 #### Lance (Awar/Str)
 Any one or two-handed long piercing polearms. Examples: pike, lance
@@ -607,7 +600,7 @@ Any one or two-handed long piercing polearms. Examples: pike, lance
 
 | Level | Name                 | AP | **Ob**      | Damage                           | Notes  |
 | ----- | -------------------- | -- | ----------- | -------------------------------- | ------ |
-| 0     | Stab                 | 2  | Opposed     | `2D6 + Str` Piercing             | / |
+| 0     | Stab                 | 2  | Opposed     | `2D6 + Agi` Piercing             | / |
 | 0     | Couched Lancing      | 2  | Opposed     | `3D10` Piercing                  | Requires self to be mounted on horse-back (or similar creature). Self must move at least 15'/5m in a straight line, past the target. |
 
 #### Polearm (Str/Tough)
@@ -620,12 +613,12 @@ Flexible polearms with a focus on slashing. Examples: halberd, bardiche, poleaxe
 
 | Level | Name                 | AP | **Ob**      | Damage                           | Notes  |
 | ----- | -------------------- | -- | ----------- | -------------------------------- | ------ |
-| 0     | Slash                | 2  | Opposed     | `3D6 + Str` Slashing             | / |
+| 0     | Slash                | 2  | Opposed     | `2D10 + Str` Slashing            | / |
 | 0     | Stab                 | 2  | Opposed     | `2D6 + Agi` Piercing             | / |
-| 1     | Blade Barrier        | 2  | /           | /                                | Whenever any character moves **into** a spot within reach, can attack that character with a **stab** at **Ob** + 1 and always force them back 3'/1m, until the start of your next turn. |
-| 2     | Cleave               | 2  | Opposed + 2 | `2D6 + Str` Slashing             | Deals damage to up to two targets adjacent to each other and within reach. |
+| 1     | Blade Barrier        | 2  | /           | /                                | Whenever any character moves **into** a spot within reach, can attack that character with a **stab** at `Ob + 1` and always force them back `3'/1m`, until the start of your next turn. The attacks cost no additional **AP**. |
+| 2     | Cleave               | 2  | Opposed + 2 | `2D8 + Str` Slashing             | Deals damage to up to two targets adjacent to each other and within reach. |
 
-#### Small Crusher (Str/Str)
+#### Small Crusher (Str/Tough)
 Small bludgeoning weapons. Examples: any improvised weapon, any club, any mace
 
 * Melee
@@ -633,8 +626,8 @@ Small bludgeoning weapons. Examples: any improvised weapon, any club, any mace
 
 | Level | Name                 | AP | **Ob**      | Damage                           | Notes  |
 | ----- | -------------------- | -- | ----------- | -------------------------------- | ------ |
-| 0     | Smash                | 2  | Opposed     | `1D6 + Str` Bludgeoning          | / |
-| 0     | Knockout Blow        | 2  | Opposed + 2 | `1D6 + Str` Bludgeoning          | +2 [exhaustion](./core-rules.md#exhaustion) to target. |
+| 0     | Smash                | 2  | Opposed     | `1D8 + 1D6 + Str` Bludgeoning    | / |
+| 0     | Knockout Blow        | 2  | Opposed + 1 | `1D6 + 1D4 + Str` Bludgeoning    | +2 [exhaustion](./core-rules.md#exhaustion) to target. |
 
 #### Large Crusher (Str/Tough)
 Large bludgeoning weapons with a dedicated *impact zone* on the weapon head which directs more force into the target. Examples: grand-mace, polehammer, two-handed flail
@@ -644,8 +637,8 @@ Large bludgeoning weapons with a dedicated *impact zone* on the weapon head whic
 
 | Level | Name                 | AP | **Ob**      | Damage                           | Notes  |
 | ----- | -------------------- | -- | ----------- | -------------------------------- | ------ |
-| 0     | Smash                | 2  | Opposed     | `2D8 + Str` Bludgeoning          | / |
-| 1     | Mighty Smash         | 2  | Opposed + 1 | `3D8 + Str` Bludgeoning          | Defending against this attack costs 2 [AP](#action-points-ap). |
+| 0     | Smash                | 2  | Opposed     | `1D10 + 1D8 + Str` Bludgeoning   | / |
+| 1     | Mighty Smash         | 2  | Opposed + 2 | `2D10 + Str` Bludgeoning         | Defending against this attack costs 2 [AP](./core-rules.md#action-points-ap) and causes `+1` [exhaustion](./core-rules.md#exhaustion) to the target. |
 
 #### Short-Bow (Awar/Awar)
 A short distance ranged weapon, shooting arrows.
@@ -926,10 +919,9 @@ Tools: axes, hammers, tongs, (if metal) a forge and anvil
 [Crafting](#crafting)
 | Product                              | Complexity | Workload  | Materials                              | Quality Bonus   |
 | ------------------------------------ | ---------- | --------- | -------------------------------------- | --------------- | 
-| 1 [buckler](#buckler)                | Moderate   | High      | Any shapeable sturdy and flexible material, such as wood, metal or chitin. | / |
-| 1 [round shield](#round-shield)      | Moderate   | High      | Any shapeable sturdy and flexible material, such as wood, metal or chitin. | For every 3 quality levels, starting at level 2, reduction of bulk by 1 (to a minimum of 1). |
-| 1 [heater shield](#heater-shield)    | Moderate   | High      | Any shapeable sturdy and flexible material, such as wood, metal or chitin. | For every 3 quality levels, starting at level 2, reduction of bulk by 1 (to a minimum of 1). |
-| 1 [kite shield](#kite-shield)        | Moderate   | High      | Any shapeable sturdy and flexible material, such as wood, metal or chitin. | For every 3 quality levels, starting at level 2, reduction of bulk by 1 (to a minimum of 2). |
+| 1 [light shield](#light-shield)                | Moderate   | High      | Any shapeable sturdy and flexible material, such as wood, metal or chitin. | / |
+| 1 [medium shield](#medium-shield)      | Moderate   | High      | Any shapeable sturdy and flexible material, such as wood, metal or chitin. | For every 3 quality levels, starting at level 2, reduction of bulk by 1 (to a minimum of 1). |
+| 1 [heavy shield](#heavy-shield)        | Moderate   | High      | Any shapeable sturdy and flexible material, such as wood, metal or chitin. | For every 3 quality levels, starting at level 2, reduction of bulk by 1 (to a minimum of 2). |
 
 #### Tanning/Skinning (Agi/Tough)
 Taking the hide off a creature undamaged. 
@@ -1052,8 +1044,7 @@ The mending of [injuries](./core-rules.md#injury) and treatment of [diseases](./
 
 | Level | Name                 | AP | Distance | Ob                           | Effect(s)                      | Backfire Effect(s) |
 | ----- | -------------------- | -- | -------- | ---------------------------- | ------------------------------ | ------------------ |
-| 0     | Patching Touch       | 2  | 3'/1m    | 1                            | A **ST** of the mage's choosing, in hand's reach, is magically healed. Removes **SI** points of [bleeding](#bleeding) and **SI** points of [poisoned](#poisoned). One [injury](#injury) of choice is now **patched up**. Restores **(SI D4) * 2** missing [HP](./core-rules.md#hit-points-hp). | The caster receives +1 point of [bleeding](./core-rules.md#bleeding). |
-| 1     | Treating Touch       | 2  | 3'/1m    | 2                            | A **ST** of the mage's choosing, in hand's reach, is magically healed. Up to **SI** [injuries](#injury) of choice are now **treated up** and their time to heal is reduced by **SI D4** days. Restores all missing [HP](./core-rules.md#hit-points-hp). | The caster receives **SI** random [injuries](#injury). |
+| 0     | Treating Touch       | 2  | 3'/1m    | See the injury in question   | An [injury](./core-rules.md#injury) of a **ST** of the mage's choosing, in hand's reach, is magically healed and removed. It may still leave a [scar](./core-rules.md#scar). Restores all missing [HP](./core-rules.md#hit-points-hp). | The caster receives **SI** random injuries. |
 | 4     | Life Leech           | 3  | 3'/1m    | Opposed by [toughness](./core-rules.md#toughness-tough) | Draw the life from a **ST** creature of choice. Deals **SI D4** points of damage while healing another touched creature's or one's own [HP](./core-rules.md#hit-points-hp) for the same amount. Transfers 1 point of [bleeding](#bleeding) and/or [poisoned](#poisoned) from the healed creature to the damaged one. | The effect triggers in reverse, drawing **SI** [HP](./core-rules.md#hit-points-hp) from the caster and sending them to their victim. Transfers **SI** points of [bleeding](#bleeding) and/or [poisoned](#poisoned) from the target to the caster. |
 | 5     | Expel Illness        | 3  | 3'/1m    | 4                            | Removes **SI** number of [illnesses](#illness) of choice from a **ST** of choice, in hand's reach. | The caster contracts **SI** random [illnesses](#illness). | 
 | 6     | Revert Mutation      | 4  | 3'/1m    | 6                            | Removes **SI** number of [mutations](#list-of-mutations) of choice from a **ST** of choice, in hand's reach. | The caster receives **SI** random [mutations](#list-of-mutations). |
