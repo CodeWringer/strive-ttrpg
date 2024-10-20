@@ -98,8 +98,8 @@
   - [Attacking](#attacking)
     - [Damage](#damage)
     - [Attacks of Opportunity](#attacks-of-opportunity)
+    - [Flanking](#flanking)
     - [Stealth Attacks](#stealth-attacks)
-  - [Flanking](#flanking)
   - [Defending](#defending)
     - [Armor \& Shields](#armor--shields)
     - [Defending an Ally](#defending-an-ally)
@@ -1387,18 +1387,7 @@ Performing an **attack of opportunity** costs 1 [AP](#action-points-ap) at a **-
 
 An **attack of opportunity** is a **combat action** and a **reaction**. 
 
-### Stealth Attacks
-When attacking another character from stealth, the moment of surprise can make all the difference. An attack from stealth counts as an automatic success and you may go on to roll damage right away. 
-
-In addition to an automatic success, add half of the damage (rounded up) to be dealt as additional damage. In the case of multiple damage types in one attack, add half of *each* (and each rounded up). 
-
-When attacking with [bludgeoning](#damage-types), you may knock another character [unconscious](#unconscious) with one fell swoop. For this, their [toughness](#toughness-tough) must not be more than 2 levels greater than your [strength](#strength-str). Otherwise, the normal stealth damage bonus applies. 
-
-> For example, two ordinary humans: one is attacking from stealth with a club and has **strength** 2, while the victim has **toughness** 4. The victim is knocked unconscious right away. 
->
-> On the other hand, the same human attacking a giant from stealth with a club cannot knock that giant unconscious, assuming that giant to have a **toughness** of 10. The difference of 8 levels is simply too great. 
-
-## Flanking
+### Flanking
 In a normal duel situation, a person in armor or with a shield will always have an advantage over the person without. There are still ways to get around these defenses, but they usually involve managing to throw the opponent to the ground or using specific [expertises](#expertise). Simply continuing trying to hit someone in armor in a straight fight will not yield you the results you seek. 
 
 This circumstance changes, when the opponent is flanked and surrounded. Most armor and all shields are designed to protect the most from frontal attacks and even the more masterful armors must still allow some cracks in between armor plates. Also, armor is usually thinner on the back, which means it's easier to find a spot where the material is weak. Therefore, by flanking an armored opponent, you can negate at least some of the armor's effect. 
@@ -1421,6 +1410,17 @@ The following two graphics illustrate valid spots for a second ally to enter, to
 The following graphic illustrates valid spots for a third ally to enter, to **surround** the character in the center (not shown here is that the third ally could also approach from the south. In that case, the valid spots would simply be mirrored on the opposite side). 
 
 <img src="../../img/flanking-chart_3.png" width="264px" height="357px"></img>
+
+### Stealth Attacks
+When attacking another character from stealth, the moment of surprise can make all the difference. An attack from stealth counts as an automatic success and you may go on to roll damage right away. 
+
+In addition to an automatic success, add half of the damage (rounded up) to be dealt as additional damage. In the case of multiple damage types in one attack, add half of *each* (and each rounded up). 
+
+When attacking with [bludgeoning](#damage-types), you may knock another character [unconscious](#unconscious) with one fell swoop. For this, their [toughness](#toughness-tough) must not be more than 2 levels greater than your [strength](#strength-str). Otherwise, the normal stealth damage bonus applies. 
+
+> For example, two ordinary humans: one is attacking from stealth with a club and has **strength** 2, while the victim has **toughness** 4. The victim is knocked unconscious right away. 
+>
+> On the other hand, the same human attacking a giant from stealth with a club cannot knock that giant unconscious, assuming that giant to have a **toughness** of 10. The difference of 8 levels is simply too great. 
 
 ## Defending
 There are two types of defense:
