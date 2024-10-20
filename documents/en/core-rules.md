@@ -98,9 +98,10 @@
   - [Attacking](#attacking)
     - [Damage](#damage)
     - [Attacks of Opportunity](#attacks-of-opportunity)
+    - [Flanking](#flanking)
     - [Stealth Attacks](#stealth-attacks)
   - [Defending](#defending)
-    - [Armor](#armor)
+    - [Armor \& Shields](#armor--shields)
     - [Defending an Ally](#defending-an-ally)
     - [Defense Stunts](#defense-stunts)
     - [Cover](#cover)
@@ -1386,6 +1387,30 @@ Performing an **attack of opportunity** costs 1 [AP](#action-points-ap) at a **-
 
 An **attack of opportunity** is a **combat action** and a **reaction**. 
 
+### Flanking
+In a normal duel situation, a person in armor or with a shield will always have an advantage over the person without. There are still ways to get around these defenses, but they usually involve managing to throw the opponent to the ground or using specific [expertises](#expertise). Simply continuing trying to hit someone in armor in a straight fight will not yield you the results you seek. 
+
+This circumstance changes, when the opponent is flanked and surrounded. Most armor and all shields are designed to protect the most from frontal attacks and even the more masterful armors must still allow some cracks in between armor plates. Also, armor is usually thinner on the back, which means it's easier to find a spot where the material is weak. Therefore, by flanking an armored opponent, you can negate at least some of the armor's effect. 
+
+To **flank** an opponent, two allies must be within their weapons' range to and on **opposite sides** of the opponent. If both are attacking from the same side, then the armor and shield will continue protecting fully. This appplies both for melee and ranged attacks. 
+
+Three allies can **surround** the opponent, further reducing their armor's and shield's effectiveness. Four or more allies can **overwhelm** the opponent, rendering their defenses completely useless. The third and fourth (or any beyond that number) ally can **freely** choose a spot within weapon's reach. 
+
+* When **unthreatened**, the armor and shield protects fully. 
+* When **flanked**, the armor and shield protects only half (rounded up) as much. 
+* When **surrounded**, the armor and shield protects only one fourth (rounded up) as much. 
+* When **overwhelmed**, the armor and shield no longer protects **at all**. 
+
+If one of the allies is using a weapon with a property to increase its reach, for example [long reach](#weapon-properties), then they need not be adjacent to the enemy to count towards the flanking effect (but still within their weapon's reach to the enemy). 
+
+The following two graphics illustrate valid spots for a second ally to enter, to **flank** the character in the center. 
+
+<img src="../../img/flanking-chart_1.png" width="349px" height="264px"></img> <img src="../../img/flanking-chart_2.png" width="349px" height="349px"></img>
+
+The following graphic illustrates valid spots for a third ally to enter, to **surround** the character in the center (not shown here is that the third ally could also approach from the south. In that case, the valid spots would simply be mirrored on the opposite side). 
+
+<img src="../../img/flanking-chart_3.png" width="264px" height="357px"></img>
+
 ### Stealth Attacks
 When attacking another character from stealth, the moment of surprise can make all the difference. An attack from stealth counts as an automatic success and you may go on to roll damage right away. 
 
@@ -1411,34 +1436,12 @@ The defender must *choose* how to defend themselves, if no specific "opposed by"
 
 Defending against [area of effect](#area-of-effect) attacks is *only* possible as a **passive defense** and can *not* negate the attack. It can only halve (rounded up) its [damage](#damage). 
 
-### Armor
+### Armor & Shields
 Armor serves as life insurance, because it can negate or at least reduce the damage taken, after a defense test has failed. 
 
-In a normal duel situation, the person in armor will always have an advantage over the person without armor. There are still ways to get around armor, but they usually involve managing to throw the armored opponent to the ground or using [expertises](#expertise) designed to circumvent armor. Simply continuing trying to hit someone in armor in a straight fight will not yield you the results you seek. 
+Shields on the other hand provide bonuses to defense, making it harder for an enemy to succesfully land a hit in the first place. 
 
-This circumstance changes, when the armored person is flanked and surrounded. Most armor is designed to protect the most from frontal attacks and even the more masterful armors must still allow some cracks in between armor plates. Also, armor is usually thinner on the back, which means it's easier to find a spot where the material is weak. Therefore, by flanking an armored opponent, you can negate at least some of the armor's effect. 
-
-To **flank** an opponent, two allies must be within their weapons' range to the armored opponent and the two allies **must** be on opposite sides of the opponent. If both are attacking from the same side, then the armor will continue protecting fully. This appplies both for melee and ranged attacks. 
-
-Three allies can **surround** the opponent, further reducing their armor's effectiveness. Four or more allies can **overwhelm** the opponent, rendering their armor completely useless. The third and fourth (or any beyond that number) ally can **freely** choose a spot within weapon's reach. 
-
-* When **unthreatened**, the armor protects fully. 
-* When **flanked**, the armor protects only half (rounded up) as much. 
-* When **surrounded**, the armor protects only one fourth (rounded up) as much. 
-* When **overwhelmed**, the armor no longer protects **at all**. 
-
-If one of the allies is using a weapon with a property to increase its reach, for example [long reach](#weapon-properties), then they need not be adjacent to the enemy to count towards the flanking effect (but still within their weapon's reach to the enemy). 
-
-The following two graphics illustrate valid spots for a second ally to enter, to **flank** the character in the center. 
-
-<img src="../../img/flanking-chart_1.png" width="349px" height="264px"></img> <img src="../../img/flanking-chart_2.png" width="349px" height="349px"></img>
-
-The following graphic illustrates valid spots for a third ally to enter, to **surround** the character in the center (not shown here is that the third ally could also approach from the south. In that case, the valid spots would simply be mirrored on the opposite side). 
-
-<img src="../../img/flanking-chart_3.png" width="264px" height="357px"></img>
-
-
-The specific armors and their values can be found asset appendix of whatever module you're using. 
+The specifics of armors and shields can be found asset appendix of whatever module you're using. 
 
 ### Defending an Ally
 It is possible for a character to defend an adjacent ally when they're being attacked. This costs `1` [AP](#action-points-ap) and results in the ally taking over the defense being forced to roll the defense test, instead of the originally attacked character. 
@@ -2144,7 +2147,7 @@ A **poisoned** character suffers **1 D4** points of [poison](#damage-types) dama
 * Immediate cancel: With proper [treatment](#poison-injuries). 
 
 ### Prone
-A character who is prone, is harder to hit with ranged attacks, but easier to hit with melee attacks. A character who is prone, counts as [flanked](#armor) in melee. If they're *also* [grappled](#grappled), they count as [surrounded](#armor). 
+A character who is prone, is harder to hit with ranged attacks, but easier to hit with melee attacks. A character who is prone, counts as [flanked](#flanking) in melee. If they're *also* [grappled](#grappled), they count as [surrounded](#armor). 
 
 * **-1D** to melee defense tests. 
 * **-1D** to any melee attack tests. 
