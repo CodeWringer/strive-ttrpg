@@ -20,8 +20,10 @@
     - [Abyssalite](#abyssalite)
     - [Amberite](#amberite)
     - [Ambersteel](#ambersteel)
+    - [Cerebillium](#cerebillium)
     - [Runes](#runes)
     - [Magic Scrolls](#magic-scrolls)
+    - [Malevite](#malevite)
 - [Assets](#assets)
   - [Weapon Properties](#weapon-properties)
 - [Appendix](#appendix)
@@ -88,6 +90,7 @@
       - [Weapon Smithing (Str/Wit)](#weapon-smithing-strwit)
       - [Woodcarving (Agi/Agi)](#woodcarving-agiagi)
   - [List of Magic Schools](#list-of-magic-schools)
+    - [Artificing (Arc/Wit)](#artificing-arcwit)
     - [Alteration (Arc/Wit)](#alteration-arcwit)
     - [Cryomancy (Arc/Arc)](#cryomancy-arcarc)
     - [Electromancy (Agi/Arc)](#electromancy-agiarc)
@@ -95,6 +98,7 @@
     - [Psionics (Arc/Wit)](#psionics-arcwit)
     - [Pyromancy (Arc/Arc)](#pyromancy-arcarc)
     - [Restoration (Arc/Awar)](#restoration-arcawar)
+    - [Sanguinomancy (Arc/Tough)](#sanguinomancy-arctough)
     - [Soul-Binding (Arc/Tough)](#soul-binding-arctough)
     - [Telekinesis (Arc/Agi)](#telekinesis-arcagi)
     - [Telepathy (Arc/Wit)](#telepathy-arcwit)
@@ -244,9 +248,9 @@ Aside from the materials listed below, you are of course free to invent more as 
 
 Its surface is unnaturally smooth and covered in a fine, iridescent shine. Underneath the smooth surface, one searches for depth and color in vain. It is as though the void itself is being contained by that iridescent shell. However, the more magic flows through it, the stronger its shell shines. This means that when any magically gifted creature touches **Abyssalite**, it shines stronger. 
 
-**Abyssalite** is a hard and brittle mineral, prone to shattering if too much force is applied. This makes it difficult to shape. It is also fairly heavy, which makes it difficult to carry long. 
+**Abyssalite** is a hard and brittle mineral, prone to shattering if too much force is applied. This makes it difficult to shape. It is also fairly heavy, which makes it difficult to carry. 
 
-A fist-sized **Abyssalite** chunk has a [bulk](./core-rules.md#carrying-capacity) of 2 and grants one greater level in the respective school of magic, without costing any extra [magic stamina](#magic-stamina). In order to use the **Abyssalite**, the caster **must** be touching it. 
+A fist-sized **Abyssalite** chunk has a [bulk](./core-rules.md#carrying-capacity) of 2 and grants one greater level in the respective [school of magic](#magic-school--school---attribute-), without costing any extra [magic stamina](#magic-stamina). In order to use the **Abyssalite**, the caster **must** be touching it. 
 
 ### Amberite
 As magic is amplified by [Abyssalite](#abyssalite), its antithesis is called **Amberite**, a metal which dulls the effects of magic and slows any magic flow nearby it. The material is also known to affect magic creatures and can cause great pain in magic-users. 
@@ -269,6 +273,17 @@ A fist-sized **Amberite** chunk is fairly heavy, with a [bulk](./core-rules.md#c
 Due to the length of the process and the difficulty in keeping the right temperature, smiths capable of creating **Ambersteel** are rare. 
 
 **Ambersteel** is also a fairly heavy material, albeit slightly lighter than [Amberite](#amberite). A fist-sized chunk has a [bulk](./core-rules.md#carrying-capacity) of 2. Weapons, shields and armor made from this material are +1 [bulkier](./core-rules.md#carrying-capacity). 
+
+### Cerebillium
+**Cerebillium** is an odd material, that resembles white marble, with faintly glowing veins of green and turqoise running through it. This material is unique in that it always creates a small magical current on its own, which flows back and forth through the veins. 
+
+These veins tend to grow more numerous over time and to "connect" with each other, forming an intricate web. This process is slow, however. It may take years for any significant change to become noticeable. 
+
+These webs eventually become complex enough to form something of a "consciousness". Some of the oldest examples of **Cerebillium** slabs are said to have the intelligence of a small child!
+
+When sufficient magic is sent flowing through it, the veins glow strongly and change shape, following the current. This can be used to alter the "brain". Alternate methods of altering the brain include scratching out veins, trimming the slab or - most difficult - "teaching". This process is difficult, as the **Cerebillium** consciousness is rarely advanced enough to understand morals or other subtle implications. Direct commands may work, but that depends on the density of the web. 
+
+The veins do not spread to other materials. Only the bright marble-like substance seems to find their favor. Thus, cultivating greater amounts of **Cerebillium** is very difficult and requires synthesization of a very unique chemical compound, which is then left to crystallize over a long time. 
 
 ### Runes
 Shards of [Abyssalite](#abyssalite) can have **runes** carved into them, which allow magic to flow through the **runes**. This renders **runes** extremely powerful artifacts, as they can allow for near limitless magic-use, even in the hands of a non-mage. 
@@ -312,6 +327,17 @@ In order to create a **magic scroll**:
 In order to invoke a **magic scroll**:
 * One must unfurl and hold it plainly in the direction the spell is to be cast, then trace the painted symbol on the **magic scroll** to "agitate" the primed magic. 
 * It costs no [magic stamina](#magic-stamina), but the **magic scroll** is immediately destroyed upon use. It burns up magically (even if the material itself is fire-proof). 
+
+### Malevite
+Also known as blood jewel, Malevite is an entirely artificial material, made from the blood of mages, by use of great pressure, a constant arcanic charge and much patience. The more blood it is infused with and the stronger the mage it was gathered from, the purer the color and the stronger the artifact. 
+
+A blood jewel is a perfectly smooth sphere, with coloration ranging from a muddy black, to a swirly muddy crimson or at its purest, to a pure crimson.
+
+Once formed, a Malevite orb can not be infused further. It rejects any more mage blood. 
+
+Destroying such an artifact is not an easy feat. It requires a spike of pure [Abyssalite](#abyssalite) driven through it with great force. But doing so may tear a temporary hole in the fabric of reality. 
+
+A Malevite orb is an artifact of very great power that can change the very fabric of reality. To direct this power, requires an arcane apparatus, wherein the orb functions like a super-charged battery. To build such a device require a deep understanding of the arcanosphere and how it interacts with Malevite.
 
 # Assets
 
@@ -965,6 +991,13 @@ In all the following tables, note the following:
 * Whenever distances and radii are concerned, a mage may always choose a *shorter* distance or radius. For example, a `SI * 6'/2m` radius definition, sets the **maximum**. The radius may be at most this large, but can be smaller, if the mage so chooses. 
 * Whenever the effect is unleashed in a **cone**, then at every point it has traveled, it is as wide as far as it has traveled. So for example, at 3'/1m distance, it is 3'/1m wide. At 9'/3m distance, it is 9'/3m wide. 
 
+### Artificing (Arc/Wit)
+The setting of arcane traps and creation of arcane artifacts. 
+
+| Level | Name                 | AP | Distance | Ob                           | Effect(s)                      | Backfire Effect(s) |
+| ----- | -------------------- | -- | -------- | ---------------------------- | ------------------------------ | ------------------ |
+| 0     |  | 3  | 3'/1m    | Opposed + SI                 | A **ST** (object or creature) is altered as the mage desires. The complexity and size of the re-shaping depends on the **SI**. 1-3 are for simple and small, 4-6 for tricky and medium, 7-8 for complex and large and 9+ for very complex and very large alterations. Consult your **GM**! | The intended alteration occurs only on the caster. |
+
 ### Alteration (Arc/Wit)
 The alteration of physical things, to change their shape and purpose, permanently. 
 
@@ -1044,6 +1077,13 @@ The mending of [injuries](./core-rules.md#injury) and treatment of [diseases](./
 | 2     | Life Leech           | 2  | 3'/1m    | Opposed by [toughness](./core-rules.md#toughness-tough) | Draw the life from a **ST** creature of choice. Deals **SI D4** points of damage while healing another touched creature's or one's own [HP](./core-rules.md#hit-points-hp) for the same amount. Transfers 1 point of [bleeding](./core-rules.md#bleeding) and/or [poisoned](./core-rules.md#poisoned) from the healed creature to the damaged one. | The effect triggers in reverse, drawing **SI** [HP](./core-rules.md#hit-points-hp) from the caster and sending them to their victim. Transfers **SI** points of [bleeding](./core-rules.md#bleeding) and/or [poisoned](./core-rules.md#poisoned) from the target to the caster. |
 | 5     | Expel Illness        | 3  | 3'/1m    | 4                            | Removes **SI** number of [illnesses](./core-rules.md#illness) of choice from a **ST** of choice, in hand's reach. | The caster contracts **SI** random [illnesses](./core-rules.md#illness). | 
 | 6     | Revert Mutation      | 4  | 3'/1m    | 6                            | Removes **SI** number of [mutations](./core-rules.md#list-of-mutations) of choice from a **ST** of choice, in hand's reach. | The caster receives **SI** random [mutations](./core-rules.md#list-of-mutations). |
+
+### Sanguinomancy (Arc/Tough)
+In the common tongue, blood magic, utilizes mage blood to control a deeply unsettling power. 
+
+| Level | Name                 | AP | Distance | Ob                           | Effect(s)                      | Backfire Effect(s) |
+| ----- | -------------------- | -- | -------- | ---------------------------- | ------------------------------ | ------------------ |
+| 0     | Infusion             | 1  | /        | SI                           | Suffer `1D4` [bleeding](./core-rules.md#damage-types) damage, as you cut a nasty gash into your flesh. Arcanically charge the blood and smear it on something (like a weapon). The blood begins to boil, causing it to deal `SI D4` [burning](./core-rules.md#damage-types) damage to the touch. This effect lasts 2 rounds. | The caster suffers `SI D4` points of [bleeding](./core-rules.md#damage-types) damage. |
 
 ### Soul-Binding (Arc/Tough)
 Also referred to as **necromancy**, this is the art and skill of calling souls from the **plane of the dead** and binding them, to reanimate corpses or animate an otherwise unliving body. 
