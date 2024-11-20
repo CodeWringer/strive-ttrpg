@@ -266,6 +266,7 @@ The following types of dice come into play:
 * **D6** - six-sided dice. You will need a lot of these. One dozen should suffice. 
 * **D8** - eight-sided dice. Four of these will be enough for most situations. 
 * **D10** - ten-sided dice. Four of these will be enough for most situations. 
+* **D20** - twenty-sided dice. Just one of these will be enough. Can also be substituted with `2 D20`s. 
 
 ## Before the Game
 The very first step of preparing for play, is to decide on a theme, world and setting of the game. Ideally, the players and **GM** decide together, but ultimately, the **GM**'s preferences should hold a greater weight. When a **GM** isn't really interested in the theme, world and setting, the game will quickly start feeling like a chore to them. The result is they lose motivation to keep running the game. No one wants that. But not to worry! As long as you communicate and respect your **GM**'s wishes, you'll have no problem finding common ground. 
@@ -1162,17 +1163,20 @@ When the order in which characters act matters, rolls for **initiative** are nee
 The **initiative** of all involved parties is collected and sorted, which forms the so called **initiative order**. The first character in the **initiative order** gets to act first, then the character after them gets to act and so on. Higher **initiative** allows for an earlier turn. 
 
 The steps to determine the **initiatve order** are as follows: 
-1. Every character who rolls for **initiative**, must do so with a **D10**. 
+1. Every character who rolls for **initiative**, must do so with a `D20`. 
 2. They add their [base initiative](#base-initiative) to the number they rolled. 
-3. If two characters achieve the same number, they must each roll a **D10** again, until one of the numbers is higher. The character with the higher number gets to act before the other. 
-4. The result, is their place in the **initiative order**.
-5. A higher **initiative** results in an earlier **turn** while lower **initiative** results in a later **turn**. 
+3. If a character enters the **initiative order** more than once, then every consecutive **initiative roll** of theirs is divided by its order. So the first **initiative roll** is the same as for other characters. But the second **initiative roll** is halved (= divided by 2), the third is divided by 3 and so on. The resulting number is rounded up. There is no need for fractions here. 
+4. If two characters achieve the same number, they must each roll a `D20` again, until one of the numbers is higher. The character with the higher number gets to act before the other. 
+5. The result, is their place in the **initiative order**.
+6. A higher **initiative** results in an earlier **turn** while lower **initiative** results in a later **turn**. 
 
 The point in time when a character gets to act (or abstain from their action) is called their **turn**. When all characters have had their **turn**, a **round** is concluded. After that, the first person in the **initiative order** gets to act again and a new **round** is begun. This cycle continues, until **initiative order** is no longer needed. 
 
 A character can abstain from their action willingly. They get a final chance to act at the end of the **round**. They can abstain from that action, too, which ends the **round** for them. Then, in the next **round**, their time to act is back to what the **initiative order** dictates. If multiple characters abstain from their action, they'll get another chance at the end of a **round**, in the same order they normally would have. In other words, the last character to abstain from their action is the last person to get another chance at the end of a **round**. 
 
 Most prominently, **initiative order** is used during [combat](#combat). But it could also find application during other times, such as a chase-sequence, negotiations, or during [down-time](#down-time). **Initiative** could even be used on a more abstract level, to determine in what order characters get to try out their political schemes. The concrete instances when **initiative** is to be used, will be up to the **GM** to decide. 
+
+Some characters may be granted the ability to enter the **initiative order** multiple times, meaning they get to make multiple **initiative rolls** for a **round**. 
 
 ### Surprise Round
 If one party is surprised, for example during an ambush, then the ambushing party gets to act for a full **round**, without the ambushed party getting a chance to act. This is called a **surprise round**. After the **surprise round** **initiative** is handled as normal. Additionally, any surprised characters **do not** get their starting [AP](#action-points-ap), until the end of the surprise round! 
