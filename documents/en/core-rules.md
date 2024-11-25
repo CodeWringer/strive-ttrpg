@@ -77,8 +77,10 @@
 - [Time-Management](#time-management)
   - [Initiative](#initiative)
     - [Surprise Round](#surprise-round)
+  - [Travel \& Terrain](#travel--terrain)
+    - [Forced March](#forced-march)
+    - [Enduring the Journey](#enduring-the-journey)
   - [Down-Time](#down-time)
-    - [Travel](#travel)
     - [Crafting](#crafting)
       - [Crafting Time Chart](#crafting-time-chart)
     - [Trade](#trade)
@@ -145,6 +147,7 @@
     - [Physical Skills](#physical-skills)
       - [Acrobatics (Agi/Str)](#acrobatics-agistr)
       - [Berserking (Tough/Tough)](#berserking-toughtough)
+      - [Driving (Awar/Wit)](#driving-awarwit)
       - [Fishing (Agi/Awar)](#fishing-agiawar)
       - [Instrument-Playing \< instrument \> (Agi/Awar)](#instrument-playing--instrument--agiawar)
       - [Stealth (Agi/Awar)](#stealth-agiawar)
@@ -1185,15 +1188,35 @@ To determine whether a **round** is a **surprise round**, determine awareness wi
 
 > **Surprise round** does not apply to opponents standing right in front of each other in conversation, when one of them suddenly draws a dagger and attacks. The attacker can be clearly seen by the defender (assuming they can see) and thus does not result in a **surprise round**. Of course, the specifics are always up to the scenario at hand and to the **GM**'s ruling. 
 
-## Down-Time
-When not currently dealing with events on a detailed level - there and in the moment - **PC**'s can spend their time on a more abstract level. This applies especially to activities that take greater amounts of time, such as recovering from injuries, travel, engaging in their trade, honing their [skill](#skills) and so on. 
-
-### Travel
+## Travel & Terrain
 People travel around the world all the time, for the most diverse reasons. Be they a trade caravan on the move between cities, a pilgrim on the way to a holy site, a craftsman going to town to sell their crafts, a roaming mercenary or a mother visiting their children - everyone has to spend time, travelling. 
 
-How much time it takes, exactly, to get from *A* to *B*, depends heavily on the *distance* to and the *means* of travel. If horses are the fastest means of transportation, expect to be travelling across countries for days if not weeks. But if means of instantaneous teleportation makes travel a trivial issue, then you might not even need to consider it, at all. These details are strongly tied to your **GM**'s world, so they'll ultimately be the one to determine your travel times. 
+How much time it takes, exactly, to get from location to location, depends heavily on the *distance* and the *means* of travel. If horses are the fastest means of transportation, expect to be travelling across countries for days if not weeks. But if means of instantaneous teleportation makes travel a trivial issue, then you might not even need to consider it, at all. These details are strongly tied to your **GM**'s world, so they'll ultimately be the one to determine your travel times. 
 
 If there is a world map, the **GM** could overlay it with tiles of squares or hexagons, which may help with determining distance. If your group desires, you could even play it so that your characters only travel from tile to tile. Moving from one tile to another may then always take a set time, unless faster means of travel are available. That way, travel would be simplified and abstract. But discuss with your group, whether you want to play it this way. Travel may also provide interesting opportunities for role-playing and *conflicts*. The abstract level draws attention away from these opportunities. 
+
+In case your **GM** hasn't yet decided on the specifics, the following may serve as a guideline. 
+
+The following assumes a travel across `10 miles/15km`. 
+
+A successful [Path-finding](#path-finding-awarwit) [test](#tests) can reduce the time. For every **hit**, the time it takes is reduced by the amount noted. Under normal circumstances the time can be reduced at most by half in this way. 
+
+| Type                                         | Movement       | On Foot | Horse      | Motorized Vehicle | Time Reduction per Hit | Forage/Hunt | 
+| -------------------------------------------- | -------------- | ------- | ---------- | ----------------- | ---------------------- | ----------- | 
+| Easy (grassland, paved roads, towns)         | Unmodified     | 1 hour  | 30 minutes | 10 minutes        | 10 minutes             | Ob 3        | 
+| Rough (hills, sparse forests)                | 2 times slower | 3 hours | 1 hour     | 30 minutes        | 20 minutes             | Ob 1        | 
+| Difficult (swamps, dense forests, mountains) | 3 times slower | 6 hours | 3 hours    | 2 hours           | 30 minutes             | Ob 3        | 
+
+TODO
+
+### Forced March
+TODO
+
+### Enduring the Journey
+TODO
+
+## Down-Time
+When not currently dealing with events on a detailed level - there and in the moment - **PC**'s can spend their time on a more abstract level. This applies especially to activities that take greater amounts of time, such as recovering from injuries, travel, engaging in their trade, honing their [skill](#skills) and so on. 
 
 ### Crafting
 All [craftsmanship skills](#craftsmanship) require a time investment proportional to the *quality* and *complexity* of the desired product, as well as the innate *effort* required to create it. 
@@ -1858,6 +1881,15 @@ However, the price for this strength is steep. The chance of death is greatly in
 | 2     | Pain is Strength     | 3  | Opposed | Perform a [single-target](#single-target-st) melee attack against an opponent of choice. For every active [injury](#injury) you currently have, deal one extra **D6** of [bludgeoning](#damage-types) damage. You suffer one point of [exhaustion](#exhaustion). | Cooldown: 3 turns. |
 | 4     | Injury Collector     | 0  | 3       | Reaction: Upon suffering an [injury](#injury), with a successful test of this Expertise, remove all additional [penalties](#boons--penalties) (i. e. everything but the [HP](#hit-points-hp) malus) from the [injury](#injury). | / |
 
+#### Driving (Awar/Wit)
+The ability to drive a motorized vehicle. 
+
+| Level | Name                 | AP | **Ob**  | Effect(s)          | Condition(s) |
+| ----- | -------------------- | -- | ------- | ------------------ | ------------ |
+| 2     | Stunt Drive          | 1  | 2       | Reaction: Upon crashing the vehicle, pull it around to negate some of the forces involved. You and your by-seaters get out of the crash with only an [injury](#injury). | / |
+
+See also [Travel & Terrain](#travel--terrain).
+
 #### Fishing (Agi/Awar)
 The ability to efficiently catch fish. 
 
@@ -1895,7 +1927,7 @@ Orienting oneself in the world and finding and following tracks.
 
 | Level | Name                 | AP | **Ob** | Effect(s)          | Condition(s) |
 | ----- | -------------------- | -- | ------ | ------------------ | ------------ |
-| 3     | Find your Bearings   | 1  | 2      | Figure out your current heading and time of day, even when in complete darkness or in a place without landmarks. | Once per rest. |
+| 2     | Find your Bearings   | 1  | 2      | Figure out your current heading and time of day, even when in complete darkness or in a place without landmarks. | Once per location. |
 
 #### Shield (Str/Tough)
 Expertise at defending oneself using a shield. 
@@ -1967,6 +1999,8 @@ In and outside of [combat](#combat), a rider will inherit the [speed](#combat-mo
 | ----- | -------------------- | -- | ------ | ------------------ | ------------ |
 | 1     | Spur                 | 1  | 2      | Gain an additional 2 **AP** worth of movement from your mount. The mount suffers +1 exhaustion. | At most once per turn. |
 | 3     | Mounted Charge       | 3  | 3      | Perform a mounted charge attack, dealing **2D4** extra damage of whatever weapon type you are using. | Mounted on a fast and strong animal; Must have enough distance to target to gain enough speed - refer to **GM**'s judgement. |
+
+See also [Travel & Terrain](#travel--terrain).
 
 #### Self-Control (Tough/Tough)
 Mastery of one's own impulses. Used to stay awake past the point of exhaustion and to not act on emotional impulse. 
