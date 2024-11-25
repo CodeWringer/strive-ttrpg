@@ -5,7 +5,6 @@
   - [Health \& Exhaustion](#health--exhaustion)
     - [Hit Points (HP)](#hit-points-hp)
     - [Condition](#condition)
-      - [Bleeding](#bleeding)
       - [Exhausted](#exhausted)
       - [Poisoned](#poisoned)
     - [Scars](#scars)
@@ -102,7 +101,7 @@
   - [List of Injuries](#list-of-injuries)
   - [List of Illnesses](#list-of-illnesses)
 
-Version 7 (Playtest)
+Version 8 (Playtest)
 
 A role-playing game by Nicolas H.
 
@@ -135,9 +134,6 @@ Supplements to specific health and exhaustion.
 ### Condition
 Supplements to specific **conditions**. 
 
-#### Bleeding
-[Restoration magic](#restoration-arcawar) can remove one or more points of **bleeding** at a time. 
-
 #### Exhausted
 An **exhausted** mage can no longer attempt to cast any magic. 
 
@@ -161,7 +157,7 @@ A mage can fail their [test](./core-rules.md#tests) and thus suffer a [spell-bac
 [Spell intensity](#spell-intensity-si) adjusts the strength of a magic spell, as well as its cost in [magic stamina](#magic-stamina). 
 
 ## Spell Intensity (SI)
-**Spell intensity** (shorthand **SI**) is the strength at which a magic spell is being cast. A higher number causes stronger and further reaching effects, at greater [magic stamina](#magic-stamina) cost. A spell's maximum intensity is dictated by the level in the corresponding [magic school skill](#magic-school--school---attribute).
+**Spell intensity** (shorthand **SI**) is the strength at which a magic spell is being cast. A higher number causes stronger and further reaching effects, at greater [magic stamina](#magic-stamina) cost. A spell's maximum intensity is dictated by the level in the corresponding [magic school skill](#magic-school--school---attribute-).
 
 For every point of a spell's chosen **spell intensity**, **1 D4** must be rolled. The sum of these rolls is the resulting [magic stamina](#magic-stamina) cost.
 
@@ -332,13 +328,13 @@ The appendix contains important and less important lists, for reference only whe
 Character creation is now supplemented by the step to determine [magic stamina](#magic-stamina), which follows determining the **exhaustion limit**. 
 
 The new procedure of creating a character consists of the following steps:
-1. [Determine life path](#determine-life-path). 
-2. [Determine species, sex & appearance](#species-sex--appearance).
-3. [Determine name](#determine-name).
-4. [Determine abilities](#determine-abilities).
-6. [Determine **carrying capacity** and **assets**](#determine-assets).
-7. [Determine **Max HP** and **Injury Maximum**](#determine-max-hp--injury-maximum)
-8. [Determine exhaustion limit](#determine-exhaustion-threshold).
+1. [Determine life path](./core-rules.md#determine-life-path). 
+2. [Determine species, sex & appearance](./core-rules.md#species-sex--appearance).
+3. [Determine name](./core-rules.md#determine-name).
+4. [Determine abilities](./core-rules.md#determine-abilities).
+6. [Determine **carrying capacity** and **assets**](./core-rules.md#determine-assets).
+7. [Determine **Max HP** and **Injury Maximum**](./core-rules.md#determine-max-hp--injury-maximum)
+8. [Determine exhaustion limit](./core-rules.md#determine-exhaustion-threshold).
 9. [Determine magic stamina](#determine-magic-stamina).
 
 ### Determine Abilities
@@ -377,7 +373,7 @@ This section replaces its core rule counter-part.
 7. Lastly, apply the adjusted values to your attributes. 
 
 #### Choosing Skills
-If playing a **mage**, keep in mind you need to have at least level 1 in a [magic school skill](#magic-school--school---attribute) to be able to cast magic. You are also advised to have your strongest magic be at least level 3 or 4, to be able to reliably use it. 
+If playing a **mage**, keep in mind you need to have at least level 1 in a [magic school skill](#magic-school--school---attribute-) to be able to cast magic. You are also advised to have your strongest magic be at least level 3 or 4, to be able to reliably use it. 
 
 ### Determine Magic Stamina
 Determine your character's **maximum magic stamina**, by referring to the [magic stamina](#magic-stamina) section. 
@@ -449,41 +445,41 @@ A small round or oblong shield commonly held as far from the body as possible, t
 
 * Bulk: 1
 
-| Defensive Bonus       |
-| --------------------- |
-| `+1` [compensation point](core-rules.md#compensation-points) for melee defense using [shield](core-rules.md#shield-strtough). |
-| `+2` [compensation points](core-rules.md#compensation-points) for melee defense using [shield](core-rules.md#shield-strtough) against **stabbing** attacks. |
-| `-1D` for ranged defense using [shield](core-rules.md#shield-strtough). |
+| Unthreatened           | Flanked           | Surrounded           | Overwhelmed           |
+| ---------------------- | ----------------- | -------------------- | --------------------- |
+| `+1` [compensation point](core-rules.md#compensation-points) for melee defense. | `+1D` for melee defense. | / | / |
+| `+2` [compensation points](core-rules.md#compensation-points) for melee defense against **stabbing** attacks. | `+2D` for melee defense against **stabbing** attacks. | `+1D` for melee defense against **stabbing** attacks. | / |
+| `-1D` for ranged defense. | `-2D` for ranged defense. | `-2D` for ranged defense. | `-2D` for ranged defense. |
 
 ##### Medium Shield
 A medium-sized, round or kite-shaped shield made from tough wood and leather or even metal, which offers good protection against most attacks, while not encumbering the wielder too much. 
 
 * Bulk: 2
-* `+1` permanent [exhaustion](#exhaustion) while wielded. 
+* `+1` permanent [exhaustion](./core-rules.md#exhaustion) while wielded. 
 
-| Defensive Bonus      |
-| -------------------- |
-| `+1` [compensation points](core-rules.md#compensation-points) for any defense using [shield](core-rules.md#shield-strtough). |
+| Unthreatened           | Flanked           | Surrounded           | Overwhelmed           |
+| ---------------------- | ----------------- | -------------------- | --------------------- |
+| `+1` [compensation point](core-rules.md#compensation-points) for any defense. | `+1D` for any defense. | / | `-1D` for any defense. |
 
 ##### Heavy Shield
 A large, kite-shaped or rectangular shield, which can protect every part of the fighter, from the shoulder down to the feet. Its weight is very tiring. 
 
 * Bulk: 4
-* `+2` permanent [exhaustion](#exhaustion) while wielded. 
+* `+2` permanent [exhaustion](./core-rules.md#exhaustion) while wielded. 
 
-| Defensive Bonus      |
-| -------------------- |
-| `+2` [compensation points](core-rules.md#compensation-points) for any defense using [shield](core-rules.md#shield-strtough). |
+| Unthreatened           | Flanked           | Surrounded           | Overwhelmed           |
+| ---------------------- | ----------------- | -------------------- | --------------------- |
+| `+2` [compensation points](core-rules.md#compensation-points) for any defense. | `+1` [compensation point](core-rules.md#compensation-points) for any defense. | `+1D` for any defense. | / |
 
 ### List of General Assets
 The following is a list of general assets. Of course, the following list is non-exhaustive. Invent more at your own need. 
 
 | Name                   | Bulk | Max. Stack Size | Description                                                              |
 | ---------------------- | ---- | --------------- | ------------------------------------------------------------------------ |
-| Laudanum Potion        | 1    | 2               | This wonderous substance can quell pain and calm nerves within seconds. Also effective against diarrhea. Upon imbibing, sets one **active** [injury](./core-rules.md#injury) to **treated**. After 24 hours, the [injury](./core-rules.md#injury) is set back to **active**, even if it was also properly **treated** in the meantime. Also, must succeed a [self-control](./core-rules.md#self-control-toughtough) test at **Ob** 3, or else become [addicted](./core-rules.md#drug-addicted) to the stuff. |
+| Laudanum Potion        | 1    | 2               | This wonderous substance can quell pain and calm nerves within seconds. Also effective against diarrhea. Upon imbibing, sets one **active** [injury](./core-rules.md#injury) to **treated**. After 24 hours, the [injury](./core-rules.md#injury) is set back to **active**, even if it was also properly **treated** in the meantime. Also, must succeed a [self-control](./core-rules.md#self-control-toughtough) test at **Ob** `3`, or else become [addicted](./core-rules.md#drug-addicted) to the stuff. |
 | Calming Tea            | 1    | 3               | This herbal tea has the ability to calm nerves. Removes [berserk](./core-rules.md#berserk), [jealous](./core-rules.md#jealous) and [terrified](./core-rules.md#terrified). Best enjoyed steaming hot, but not necessarily. |
 | Fire Pot (Potion)      | 1    | 3               | An ancient recipe, this concoction bursts into flame when exposed to air for several seconds. It causes severe burns for `2D8 Burning` damage in a `6'/2m` radius. Consumed on use. |
-| Smoke Bomb             | 1    | 3               | A small fragile shell, filled with a very fine powder which when broken causes an area in a `6'/2m` radius to be covered in smoke. It is impossible to see through and ranged attacks within or through the area suffer `+2` Ob. Victims caught in the smoke may be forced to cough. The smoke lasts 6 turns or 30 seconds. |
+| Smoke Bomb             | 1    | 3               | A small fragile shell, filled with a very fine powder which when broken causes an area in a `6'/2m` radius to be covered in smoke. It is impossible to see through and ranged attacks within or through the area suffer `+2` **Ob**. Victims caught in the smoke may be forced to cough. The smoke lasts 6 turns or 30 seconds. |
 | Acid Bomb              | 1    | 3               | A small fragile shell with two compartments, filled with two liquids which, when they combine, act as a powerful acid. When shattered, deals `2D8 Acid` damage to whatever it hits.  |
 | Blackpowder Bomb       | 1    | 2               | A small iron-shelled bomb, filled with blackpowder. A short fuse sticks out and must be lit to set it off. Once lit, the bomb will detonate after 3 turns or 15 seconds. Deals `2D6 Bludgeoning + 2D6 Burning` damage to anyone in a `6'/2m` radius.  |
 | Throwing Blade         | 1    | 6               | A small weighted blade, like a knife or star, well suited to being thrown. Can be used in melee and acts like a [dagger](#dagger-agiawar), but with a penalty of **-2D** to attack and defense. **+1D** when [thrown](./core-rules.md#throwing-accuracy) for a ranged attack. Deals **2D4 + Str** **piercing** damage. |
@@ -510,7 +506,7 @@ For all attacks made with a dagger, the following rules apply:
 | ----- | -------------------- | -- | ----------- | -------------------------------- | ------ |
 | 0     | Slash                | 2  | Opposed     | `1D6 + Agi` Slashing             | / |
 | 0     | Stab                 | 2  | Opposed     | `1D10 + Agi` Piercing            | / |
-| 0     | Artery Cut           | 2  | Opposed + 1 | `2D6` Slashing                   | +2 [bleeding](#bleeding) to the target (if it can bleed).  |
+| 0     | Artery Cut           | 2  | Opposed + 1 | `2D6` Slashing                   | +2 [bleeding](./core-rules.md#bleeding) to the target (if it can bleed).  |
 | 0     | Target Weak-Spot     | 2  | Opposed + 2 | `2D6 + Agi` Piercing             | / |
 
 #### Light Blade (Agi/Str)
@@ -551,7 +547,7 @@ Any very long and heavy two-handed blade. Examples: great-sword, sword of war, g
 | 0     | Slash                | 2  | Opposed     | `2D10 + Str` Slashing            | / |
 | 0     | Stab                 | 2  | Opposed     | `2D8 + Agi` Piercing             | / |
 | 2     | Blade Barrier        | 2  | Opposed     | /                                | Whenever any character moves **into** a spot within reach, can attack that character with a **slash** at `Ob + 1` and always force them back `3'/1m`, until the start of your next turn. These attacks do not cost any additional **AP**. |
-| 3     | Heavy Blow           | 3  | Opposed + 2 | `3D8` Slashing                   | Defending against this attack costs 2 [AP](#action-points-ap). |
+| 3     | Heavy Blow           | 3  | Opposed + 2 | `3D8` Slashing                   | Defending against this attack costs 2 [AP](./core-rules.md#action-points-ap). |
 
 #### Axe (Str/Str)
 Small and light axes. Examples: hatchet, woodcutter's axe
@@ -563,7 +559,7 @@ Small and light axes. Examples: hatchet, woodcutter's axe
 | Level | Name                 | AP | **Ob**      | Damage                                    | Notes  |
 | ----- | -------------------- | -- | ----------- | ----------------------------------------- | ------ |
 | 0     | Hack                 | 2  | Opposed     |  `1D8` Slashing + `1D4 + Str` Bludgeoning | / |
-| 1     | Savage Slash         | 2  | Opposed + 1 |  `1D10 + Str` Slashing                    | +1 [bleeding](#bleeding) to the target (if it can bleed). |
+| 1     | Savage Slash         | 2  | Opposed + 1 |  `1D10 + Str` Slashing                    | +1 [bleeding](./core-rules.md#bleeding) to the target (if it can bleed). |
 
 #### Great Axe (Str/Str)
 Large and heavy axes. Examples: bearded axe, double-sided axe
@@ -574,8 +570,8 @@ Large and heavy axes. Examples: bearded axe, double-sided axe
 | Level | Name                 | AP | **Ob**      | Damage                                           | Notes  |
 | ----- | -------------------- | -- | ----------- | ------------------------------------------------ | ------ |
 | 0     | Hack                 | 2  | Opposed     | `1D10` Slashing + `1D6 + Str` Bludgeoning        | / |
-| 2     | Savage Slash         | 2  | Opposed + 1 | `2D6 + Str` Slashing                             | +2 [bleeding](#bleeding) to the target (if it can bleed). |
-| 3     | Heavy Blow           | 3  | Opposed + 2 | `1D10 + 1D6` Slashing + `1D8 + Str` Bludgeoning  | Defending against this attack costs 2 [AP](#action-points-ap). |
+| 2     | Savage Slash         | 2  | Opposed + 1 | `2D6 + Str` Slashing                             | +2 [bleeding](./core-rules.md#bleeding) to the target (if it can bleed). |
+| 3     | Heavy Blow           | 3  | Opposed + 2 | `1D10 + 1D6` Slashing + `1D8 + Str` Bludgeoning  | Defending against this attack costs 2 [AP](./core-rules.md#action-points-ap). |
 
 #### Spear (Agi/Str)
 Any one or two-handed short piercing polearms. Examples: short-spear, boar-spear
@@ -677,7 +673,7 @@ A very deadly long distance ranged weapon, shooting arrows. Beware its exhaustin
 
 | Level | Name                 | AP | **Ob**      | Distance increments | Damage                     | Notes  |
 | ----- | -------------------- | -- | ----------- | ------------------- | -------------------------- | ------ |
-| 0     | Loose                | 2  | Opposed     | 60'/20m             | `3D10` Piercing            | +1 [exhaustion](#exhaustion) to self.  |
+| 0     | Loose                | 2  | Opposed     | 60'/20m             | `3D10` Piercing            | +1 [exhaustion](./core-rules.md#exhaustion) to self.  |
 
 #### Crossbow (Awar/Awar)
 A deadly medium distance ranged weapon, shooting quarrels. Beware its slow reload. 
@@ -738,7 +734,7 @@ All craftsmanship requires a mix of physical and mental attributes, for the purp
 #### Armor Smithing (Str/Wit)
 The ability to make armor from conventional materials, such as metal and leather. 
 
-[Crafting](#crafting)
+[Crafting](./core-rules.md#crafting)
 | Product                              | Complexity | Workload  | Materials                              | Quality Bonus   |
 | ------------------------------------ | ---------- | --------- | -------------------------------------- | --------------- | 
 | 1 [light armor](#light-armor)        | High       | High      | Any shapeable sturdy and flexible material, such as iron, steel, leather or chitin. | Every **hit**: +1 **Slashing**; Every 2 **hits**: +1 **Piercing**; Every 3 **hits**: +1 **Bludgeoning** |
@@ -752,7 +748,7 @@ Lining or plating an existing object with [Ambersteel](#ambersteel) acts as an i
 
 The product effects do not stack, but they can be overridden. This means that the same object cannot be lined with [Ambersteel](#ambersteel) twice, for cumulative effects. But it can be upgraded to [Ambersteel](#ambersteel)-plated. 
 
-[Crafting](#crafting)
+[Crafting](./core-rules.md#crafting)
 | Product                              | Complexity | Workload  | Materials                              | Quality Bonus   |
 | ------------------------------------ | ---------- | --------- | -------------------------------------- | --------------- | 
 | Ambersteel-lined weapon              | High       | High      | [Ambersteel](#ambersteel); A weapon        | Bonus damage against mages and magical creatures: **+1** for every quality level. **+1D4** for every two **quality levels**, starting at level 2. |
@@ -778,7 +774,7 @@ The ability to brew alchemical potions, create powders, mixtures and other subst
 
 Tools: a distillery, mortar and pestle, a fire place
 
-[Crafting](#crafting)
+[Crafting](./core-rules.md#crafting)
 | Product                              | Complexity | Workload  | Materials                              | Quality Bonus   |
 | ------------------------------------ | ---------- | --------- | -------------------------------------- | --------------- | 
 | A simple alchemical concoction (potion or powder)  | Moderate  | Moderate | Small containers, minerals, metals, herbs and water. | / |
@@ -789,7 +785,7 @@ The brewing of alcoholic beverages.
 
 Tools: a fire place, a distillery
 
-[Crafting](#crafting)
+[Crafting](./core-rules.md#crafting)
 | Product                              | Complexity | Workload  | Materials                              | Quality Bonus   |
 | ------------------------------------ | ---------- | --------- | -------------------------------------- | --------------- | 
 | A small keg worth of alcohol         | Moderate   | Very High | Any closeable container; Any fermentable fruit or distillable plant matter. | / |
@@ -799,7 +795,7 @@ The ability to create every-day items from metal.
 
 Tools: a hammer, an anvil or other resilient surface, tongs, a forge
 
-[Crafting](#crafting)
+[Crafting](./core-rules.md#crafting)
 | Product                              | Complexity | Workload  | Materials                              | Quality Bonus   |
 | ------------------------------------ | ---------- | --------- | -------------------------------------- | --------------- | 
 | A large item, such as a handheld tool               | Moderate | High     | Any shapeable metal; (Wood). | / |
@@ -810,7 +806,7 @@ The ability to craft bows and crossbows.
 
 Tools: a carving knife
 
-[Crafting](#crafting)
+[Crafting](./core-rules.md#crafting)
 | Product                              | Complexity | Workload  | Materials                              | Quality Bonus   |
 | ------------------------------------ | ---------- | --------- | -------------------------------------- | --------------- | 
 | Bow                                  | Low        | Moderate  | A piece of sturdy and flexible wood; A piece of string or sinew. | Every 3 **hits**: +1 **Piercing** |
@@ -821,7 +817,7 @@ The ability to shape wood to craft predominantly wooden things.
 
 Tools: an axe, a wood plane, a hand drill, a workbench
 
-[Crafting](#crafting)
+[Crafting](./core-rules.md#crafting)
 | Product                              | Complexity | Workload  | Materials                              | Quality Bonus   |
 | ------------------------------------ | ---------- | --------- | -------------------------------------- | --------------- | 
 | A small piece of furniture           | Moderate   | Moderate  | Wood                                   | / |
@@ -832,7 +828,7 @@ The ability to make comfortable, well-fitting and decorated clothes.
 
 Tools: scissors, needles, yarn, thread
 
-[Crafting](#crafting)
+[Crafting](./core-rules.md#crafting)
 | Product                              | Complexity | Workload  | Materials                              | Quality Bonus   |
 | ------------------------------------ | ---------- | --------- | -------------------------------------- | --------------- | 
 | A piece of clothing                  | Moderate   | Moderate  | Cloth                                  | / |
@@ -840,7 +836,7 @@ Tools: scissors, needles, yarn, thread
 #### Engineering (Agi/Wit)
 The ability to plan and construct complex mechanisms and devices. 
 
-[Crafting](#crafting)
+[Crafting](./core-rules.md#crafting)
 | Product                              | Complexity | Workload  | Materials                              | Quality Bonus   |
 | ------------------------------------ | ---------- | --------- | -------------------------------------- | --------------- | 
 | A simple mechanism                   | High       | Low       | Any suitable material                  | / |
@@ -851,7 +847,7 @@ The ability to efficiently craft arrows, bolts and javelins.
 
 Tools: a carving knife, a brush
 
-[Crafting](#crafting)
+[Crafting](./core-rules.md#crafting)
 | Product                              | Complexity | Workload  | Materials                              | Quality Bonus   |
 | ------------------------------------ | ---------- | --------- | -------------------------------------- | --------------- | 
 | 5 Arrow shafts                       | Low        | Moderate  | Wood; feathers; glue                   | / | 
@@ -861,7 +857,7 @@ The ability to make objects from glass.
 
 Tools: a fire place, a glass-blower, various shaping tools
 
-[Crafting](#crafting)
+[Crafting](./core-rules.md#crafting)
 | Product                              | Complexity | Workload  | Materials                              | Quality Bonus   |
 | ------------------------------------ | ---------- | --------- | -------------------------------------- | --------------- | 
 | A small glass object                 | High       | Moderate  | Quartz; sand                           | / | 
@@ -871,7 +867,7 @@ The ability to make jewelry from precious metals and stones.
 
 Tools: hammers, tweezer, chisels, a workbench, magnifying glasses
 
-[Crafting](#crafting)
+[Crafting](./core-rules.md#crafting)
 | Product                              | Complexity | Workload  | Materials                              | Quality Bonus   |
 | ------------------------------------ | ---------- | --------- | -------------------------------------- | --------------- | 
 | A small piece of jewelry             | High       | High      | Quartz; sand                           | / | 
@@ -881,7 +877,7 @@ The ability to create leather objects.
 
 Tools: scissors, needles, hole punchers and a hammer
 
-[Crafting](#crafting)
+[Crafting](./core-rules.md#crafting)
 | Product                              | Complexity | Workload  | Materials                              | Quality Bonus   |
 | ------------------------------------ | ---------- | --------- | -------------------------------------- | --------------- | 
 | 5 Small leather objects              | Low        | Moderate  | A tanned hide                          | / | 
@@ -892,7 +888,7 @@ The ability to shape stone to craft predominantly stone-based things.
 
 Tools: a hammer and chisels of varying sizes
 
-[Crafting](#crafting)
+[Crafting](./core-rules.md#crafting)
 | Product                              | Complexity | Workload  | Materials                              | Quality Bonus   |
 | ------------------------------------ | ---------- | --------- | -------------------------------------- | --------------- | 
 | A small stone-hewn object            | Low        | Very High | Stone                                  | / |
@@ -905,7 +901,7 @@ The level of this skill dictates the maximum intensity level of the respective m
 
 Tools: a hammer and chisels of varying sizes, tongs, tweezer, a fine brush
 
-[Crafting](#crafting)
+[Crafting](./core-rules.md#crafting)
 | Product                              | Complexity | Workload  | Ob | Materials                              | Quality Bonus   |
 | ------------------------------------ | ---------- | --------- | -- | -------------------------------------- | --------------- | 
 | A blank rune                         | High       | Moderate  | /  | [Abyssalite](#abyssalite)              | / |
@@ -916,7 +912,7 @@ The ability to make shields from conventional materials, such as wood and metal.
 
 Tools: axes, hammers, tongs, (if metal) a forge and anvil
 
-[Crafting](#crafting)
+[Crafting](./core-rules.md#crafting)
 | Product                              | Complexity | Workload  | Materials                              | Quality Bonus   |
 | ------------------------------------ | ---------- | --------- | -------------------------------------- | --------------- | 
 | 1 [light shield](#light-shield)                | Moderate   | High      | Any shapeable sturdy and flexible material, such as wood, metal or chitin. | / |
@@ -928,7 +924,7 @@ Taking the hide off a creature undamaged.
 
 Tools: a knife, a scraping blade, a bucket, a brush
 
-[Crafting](#crafting)
+[Crafting](./core-rules.md#crafting)
 | Product                              | Complexity | Workload  | Materials                              | Quality Bonus   |
 | ------------------------------------ | ---------- | --------- | -------------------------------------- | --------------- | 
 | A small skin                         | Low        | Low       | A skinnable creature                   | / |
@@ -940,7 +936,7 @@ The ability to make weapons from metal.
 
 Tools: a hammer, an anvil or other resilient surface, tongs, a forge
 
-[Crafting](#crafting)
+[Crafting](./core-rules.md#crafting)
 | Product                              | Complexity | Workload  | Materials                              | Quality Bonus   |
 | ------------------------------------ | ---------- | --------- | -------------------------------------- | --------------- | 
 | A weapon                             | High       | High      | Any suitable metal, wood and/or similar material | / |
@@ -950,7 +946,7 @@ Creating small things from carved wood.
 
 Tools: a carving knife
 
-[Crafting](#crafting)
+[Crafting](./core-rules.md#crafting)
 | Product                              | Complexity | Workload  | Materials                              | Quality Bonus   |
 | ------------------------------------ | ---------- | --------- | -------------------------------------- | --------------- | 
 | A small wood-carved object           | Low        | Moderate  | Wood                                   | / |
@@ -972,7 +968,7 @@ In all the following tables, note the following:
 ### Alteration (Arc/Wit)
 The alteration of physical things, to change their shape and purpose, permanently. 
 
-Note that altering the shape of creatures poses a particular challenge. Unless if the test is a **complete success**, the target creature may mutate, horribly. When failing a test, consult the [list of mutations](#list-of-mutations), to determine the type of mutation. 
+Note that altering the shape of creatures poses a particular challenge. Unless if the test is a **complete success**, the target creature may mutate, horribly. When failing a test, consult the [list of mutations](./core-rules.md#list-of-mutations), to determine the type of mutation. 
 
 Creatures can resist the change with [toughness](./core-rules.md#toughness-tough). Inanimate objects don't resist. 
 
@@ -988,7 +984,7 @@ The summoning and control of ice. Cryomancer's can freeze things, so they're hea
 | 0     | Freezing Touch       | 2  | 3'/1m       | Opposed - SI                 | A fist-sized spot on a **ST**, that the mage's hand touches, freezes over and deals `SI` **freezing** damage. | The caster is affected, instead. |
 | 1     | Cold Finger Gun      | 2  | SI * 15'/5m | Opposed                      | The mage shoots an ice spike at a **ST** from their hand, dealing `1D10 + SI` **freezing** damage. Causes +1 [frostbitten](./core-rules.md#frostbitten). | The caster is affected, instead. |
 | 3     | Deep Freeze          | 3  | 3'/1m       | Opposed                      | A man-sized area of whatever the mage's hand is touching freezes over. The frost even penetrates and runs deep in a **ST**, dealing `SI D4` **freezing** damage. Causes +1 [frostbitten](./core-rules.md#frostbitten). | The caster is affected, instead. |
-| 5     | Rooting Freeze       | 3  | SI * 15'/5m | 5                            | A spot of the mage's choosing freezes over. Anyone caught within the **AOE** `SI * 6'/2m` radius, will be frozen to the spot and thus [rooted](#rooted) and also suffer `SI D4` **Freezing** damage. They can break free via a successful [strength](./core-rules.md#strength-str) test at **Ob 3**. Or wait, until the ice thaws, which under normal conditions will be 3 turns. | The spot beneath the caster is affected, instead. |
+| 5     | Rooting Freeze       | 3  | SI * 15'/5m | 5                            | A spot of the mage's choosing freezes over. Anyone caught within the **AOE** `SI * 6'/2m` radius, will be frozen to the spot and thus [rooted](./core-rules.md#rooted) and also suffer `SI D4` **Freezing** damage. They can break free via a successful [strength](./core-rules.md#strength-str) test at **Ob 3**. Or wait, until the ice thaws, which under normal conditions will be 3 turns. | The spot beneath the caster is affected, instead. |
 
 ### Electromancy (Agi/Arc)
 The summoning and control of lightning. Electricity is fairly versatile - it can injure or stun and power or trigger electrical and electronic devices. 
@@ -1005,7 +1001,7 @@ The summoning and control of lightning. Electricity is fairly versatile - it can
 ### Illusion (Arc/Awar)
 Creation of non-physical influences on the senses. That includes images, sounds and odors. The illusions cannot cause direct harm, although they can drive an individual to acts that may put them in danger. 
 
-A victim reaching their [exhaustion limit](#exhaustion) by effect of this magic, while [terrified](./core-rules.md#terrified), must succeed a [toughness](./core-rules.md#toughness-tough) test, or else suffer a heart-attack and **die** outright. The **Ob** is a third of the **attribute**, rounded up. 
+A victim reaching their [exhaustion limit](./core-rules.md#exhaustion) by effect of this magic, while [terrified](./core-rules.md#terrified), must succeed a [toughness](./core-rules.md#toughness-tough) test, or else suffer a heart-attack and **die** outright. The **Ob** is a third of the **attribute**, rounded up. 
 
 | Level | Name                 | AP | Distance     | Ob                           | Effect(s)                      | Backfire Effect(s) |
 | ----- | -------------------- | -- | ------------ | ---------------------------- | ------------------------------ | ------------------ |
@@ -1044,10 +1040,10 @@ The mending of [injuries](./core-rules.md#injury) and treatment of [diseases](./
 
 | Level | Name                 | AP | Distance | Ob                           | Effect(s)                      | Backfire Effect(s) |
 | ----- | -------------------- | -- | -------- | ---------------------------- | ------------------------------ | ------------------ |
-| 0     | Treating Touch       | 2  | 3'/1m    | See the injury in question   | An [injury](./core-rules.md#injury) of a **ST** of the mage's choosing, in hand's reach, is magically healed and removed. It may still leave a [scar](./core-rules.md#scar). Restores all missing [HP](./core-rules.md#hit-points-hp). | The caster receives **SI** random injuries. |
-| 4     | Life Leech           | 3  | 3'/1m    | Opposed by [toughness](./core-rules.md#toughness-tough) | Draw the life from a **ST** creature of choice. Deals **SI D4** points of damage while healing another touched creature's or one's own [HP](./core-rules.md#hit-points-hp) for the same amount. Transfers 1 point of [bleeding](#bleeding) and/or [poisoned](#poisoned) from the healed creature to the damaged one. | The effect triggers in reverse, drawing **SI** [HP](./core-rules.md#hit-points-hp) from the caster and sending them to their victim. Transfers **SI** points of [bleeding](#bleeding) and/or [poisoned](#poisoned) from the target to the caster. |
-| 5     | Expel Illness        | 3  | 3'/1m    | 4                            | Removes **SI** number of [illnesses](#illness) of choice from a **ST** of choice, in hand's reach. | The caster contracts **SI** random [illnesses](#illness). | 
-| 6     | Revert Mutation      | 4  | 3'/1m    | 6                            | Removes **SI** number of [mutations](#list-of-mutations) of choice from a **ST** of choice, in hand's reach. | The caster receives **SI** random [mutations](#list-of-mutations). |
+| 0     | Treating Touch       | 2  | 3'/1m    | See the injury in question   | An [injury](./core-rules.md#injury) of a **ST** of the mage's choosing, in hand's reach, is magically healed and removed. It may still leave a [scar](./core-rules.md#scar). Restores `SI D10` missing [HP](./core-rules.md#hit-points-hp). | The caster suffers `SI D10` points of [bleeding](./core-rules.md#damage-types) damage. |
+| 2     | Life Leech           | 2  | 3'/1m    | Opposed by [toughness](./core-rules.md#toughness-tough) | Draw the life from a **ST** creature of choice. Deals **SI D4** points of damage while healing another touched creature's or one's own [HP](./core-rules.md#hit-points-hp) for the same amount. Transfers 1 point of [bleeding](./core-rules.md#bleeding) and/or [poisoned](./core-rules.md#poisoned) from the healed creature to the damaged one. | The effect triggers in reverse, drawing **SI** [HP](./core-rules.md#hit-points-hp) from the caster and sending them to their victim. Transfers **SI** points of [bleeding](./core-rules.md#bleeding) and/or [poisoned](./core-rules.md#poisoned) from the target to the caster. |
+| 5     | Expel Illness        | 3  | 3'/1m    | 4                            | Removes **SI** number of [illnesses](./core-rules.md#illness) of choice from a **ST** of choice, in hand's reach. | The caster contracts **SI** random [illnesses](./core-rules.md#illness). | 
+| 6     | Revert Mutation      | 4  | 3'/1m    | 6                            | Removes **SI** number of [mutations](./core-rules.md#list-of-mutations) of choice from a **ST** of choice, in hand's reach. | The caster receives **SI** random [mutations](./core-rules.md#list-of-mutations). |
 
 ### Soul-Binding (Arc/Tough)
 Also referred to as **necromancy**, this is the art and skill of calling souls from the **plane of the dead** and binding them, to reanimate corpses or animate an otherwise unliving body. 
@@ -1072,7 +1068,7 @@ Another important note about targeting a specific soul. It is easier to recall t
 ### Telekinesis (Arc/Agi)
 The ability to affect things and even creatures from afar, using magic instead of muscles or tools. 
 
-When using objects as projectiles, choose the [damage type](#damage-types) as appropriate. For example, a crossbow bolt might cause **piercing** damage, while a rock might cause **bludgeoning** damage.
+When using objects as projectiles, choose the [damage type](./core-rules.md#damage-types) as appropriate. For example, a crossbow bolt might cause **piercing** damage, while a rock might cause **bludgeoning** damage.
 
 The mage can only ever perform *one* movement with a spell cast. So, for example, it is not possible to violently shake things or creatures around, without casting **telekinesis** multiple times, to do so. During combat, every movement takes one turn. Out of combat, about five seconds. A single movement is a displacement from one point to another, in a straight and uninterrupted line. 
 

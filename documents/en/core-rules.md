@@ -98,9 +98,10 @@
   - [Attacking](#attacking)
     - [Damage](#damage)
     - [Attacks of Opportunity](#attacks-of-opportunity)
+    - [Flanking](#flanking)
     - [Stealth Attacks](#stealth-attacks)
   - [Defending](#defending)
-    - [Armor](#armor)
+    - [Armor \& Shields](#armor--shields)
     - [Defending an Ally](#defending-an-ally)
     - [Defense Stunts](#defense-stunts)
     - [Cover](#cover)
@@ -219,7 +220,7 @@
     - [Multiple Single Target (MST)](#multiple-single-target-mst)
     - [Area of Effect (AoE)](#area-of-effect-aoe)
 
-Version 17 (Playtest)
+Version 18 (Playtest)
 
 A role-playing game by Nicolas H.
 
@@ -265,6 +266,7 @@ The following types of dice come into play:
 * **D6** - six-sided dice. You will need a lot of these. One dozen should suffice. 
 * **D8** - eight-sided dice. Four of these will be enough for most situations. 
 * **D10** - ten-sided dice. Four of these will be enough for most situations. 
+* **D20** - twenty-sided dice. Just one of these will be enough. Can also be substituted with `2 D20`s. 
 
 ## Before the Game
 The very first step of preparing for play, is to decide on a theme, world and setting of the game. Ideally, the players and **GM** decide together, but ultimately, the **GM**'s preferences should hold a greater weight. When a **GM** isn't really interested in the theme, world and setting, the game will quickly start feeling like a chore to them. The result is they lose motivation to keep running the game. No one wants that. But not to worry! As long as you communicate and respect your **GM**'s wishes, you'll have no problem finding common ground. 
@@ -895,7 +897,7 @@ Every time a character suffers at least 10 [HP](#hit-points-hp) of damage **in a
 An **injury** is a serious health impediment of a character. It reduces the maximum [HP](#hit-points-hp) and imposes other [penalties](#boons--penalties). 
 
 Whenever a character loses a `10` [HP](#hit-points-hp) segment (whether from a single or multiple consecutive sources of damage doesn't matter), they *may* suffer an **injury**. To shrug off an injury, they must succeed a [toughness](#toughness-tough) test at **Ob** equal to their current number of **injuries** plus `1` and plus the number of successful shrug offs. 
-* If they succeeded, they suffer no **injury**! They must note this success, as every time an **injury** is shrugged off, it becomes `+1` **Ob** harder to shrug off the next! Only once an **injury** has fully healed and been removed, is this counter reset to `0`.
+* If they succeeded, they suffer no **injury**! They must note this success, as every time an **injury** is shrugged off, it becomes `+1` **Ob** harder to shrug off the next! For every rest of at least six uninterrupted hours, this counter is reduced by `1`.
 * If failed, a **D100** must be rolled and the corresponding result from the [damage type](#damage-types) specific [list of injuries](#list-of-injuries) added to the character. In such a case, if multiple [types of damage](#damage-types) are incurred in the same instant, then the **injury** is based on the type of which the most damage got through armor and thus dealt the most [HP](#hit-points-hp) damage. If there is a tie, the [damage type](#damage-types) that the armor reduces less causes the **injury**. If there is still a tie, a coin flip could decide.
 
 > A character with no injuries, who has just been brought down to 30 HP from an attack, must now test whether they suffer an injury. They have already successfully shrugged off an attack once before. 
@@ -1141,7 +1143,7 @@ There are no limits to how many of a given card a player can own, but they may o
 | 8 MiFP  | Hastened            | +1 **AP** during your turns for the entirety of a [combat](#combat) encounter. |
 | 3 MaFP  | Double the Fun      | Double the number of dice to roll on your next/current test and every rolled **hit** counts double - which means every rolled **hit** actually counts as 2 **hits**! Exclusive with "Cascading Re-Roll". |
 | 3 MaFP  | Scar? What Scar?    | Remove one scar [scar](#scar) of choice. |
-| 5 MaFP  | Fact Check          | Change a minor plot point in a way your prefer. Work with your **GM** to make sure it fits the narrative, but they should respect your wish. This could be something like avoiding an **NPC** death or changing a fact about the plot. |
+| 5 MaFP  | Fact Check          | Change a minor plot point in a way you prefer. Work with your **GM** to make sure it fits the narrative, but they should respect your wish. This could be something like avoiding an **NPC** death or changing a fact about the plot. |
 | 5 MaFP  | Just a Flesh Wound  | Avoid or remove an [injury](#injury)! |
 | 1 AFP   | Defy Death          | Return from the dead, remove 1 **active** [injury](#injury) of choice and be at 1 **HP**; Alternatively, avoid a narratively-driven death. The **GM** will decide the character's alternative fate. They could be captured, very badly injured or become indebted to someone or something. Note that this card can only be played *after* the character lost their [battle with death](#deaths-door). |
 | 1 AFP   | Yes, my liege       | Work with your **GM** to create a follower/hireling who will now be at your command/employ. |
@@ -1161,17 +1163,20 @@ When the order in which characters act matters, rolls for **initiative** are nee
 The **initiative** of all involved parties is collected and sorted, which forms the so called **initiative order**. The first character in the **initiative order** gets to act first, then the character after them gets to act and so on. Higher **initiative** allows for an earlier turn. 
 
 The steps to determine the **initiatve order** are as follows: 
-1. Every character who rolls for **initiative**, must do so with a **D10**. 
+1. Every character who rolls for **initiative**, must do so with a `D20`. 
 2. They add their [base initiative](#base-initiative) to the number they rolled. 
-3. If two characters achieve the same number, they must each roll a **D10** again, until one of the numbers is higher. The character with the higher number gets to act before the other. 
-4. The result, is their place in the **initiative order**.
-5. A higher **initiative** results in an earlier **turn** while lower **initiative** results in a later **turn**. 
+3. If a character enters the **initiative order** more than once, then every consecutive **initiative roll** of theirs is divided by its order. So the first **initiative roll** is the same as for other characters. But the second **initiative roll** is halved (= divided by 2), the third is divided by 3 and so on. The resulting number is rounded up. There is no need for fractions here. 
+4. If two characters achieve the same number, they must each roll a `D20` again, until one of the numbers is higher. The character with the higher number gets to act before the other. 
+5. The result, is their place in the **initiative order**.
+6. A higher **initiative** results in an earlier **turn** while lower **initiative** results in a later **turn**. 
 
 The point in time when a character gets to act (or abstain from their action) is called their **turn**. When all characters have had their **turn**, a **round** is concluded. After that, the first person in the **initiative order** gets to act again and a new **round** is begun. This cycle continues, until **initiative order** is no longer needed. 
 
 A character can abstain from their action willingly. They get a final chance to act at the end of the **round**. They can abstain from that action, too, which ends the **round** for them. Then, in the next **round**, their time to act is back to what the **initiative order** dictates. If multiple characters abstain from their action, they'll get another chance at the end of a **round**, in the same order they normally would have. In other words, the last character to abstain from their action is the last person to get another chance at the end of a **round**. 
 
 Most prominently, **initiative order** is used during [combat](#combat). But it could also find application during other times, such as a chase-sequence, negotiations, or during [down-time](#down-time). **Initiative** could even be used on a more abstract level, to determine in what order characters get to try out their political schemes. The concrete instances when **initiative** is to be used, will be up to the **GM** to decide. 
+
+Some characters may be granted the ability to enter the **initiative order** multiple times, meaning they get to make multiple **initiative rolls** for a **round**. 
 
 ### Surprise Round
 If one party is surprised, for example during an ambush, then the ambushing party gets to act for a full **round**, without the ambushed party getting a chance to act. This is called a **surprise round**. After the **surprise round** **initiative** is handled as normal. Additionally, any surprised characters **do not** get their starting [AP](#action-points-ap), until the end of the surprise round! 
@@ -1386,6 +1391,30 @@ Performing an **attack of opportunity** costs 1 [AP](#action-points-ap) at a **-
 
 An **attack of opportunity** is a **combat action** and a **reaction**. 
 
+### Flanking
+In a normal duel situation, a person in armor or with a shield will always have an advantage over the person without. There are still ways to get around these defenses, but they usually involve managing to throw the opponent to the ground or using specific [expertises](#expertise). Simply continuing trying to hit someone in armor in a straight fight will not yield you the results you seek. 
+
+This circumstance changes, when the opponent is flanked and surrounded. Most armor and all shields are designed to protect the most from frontal attacks and even the more masterful armors must still allow some cracks in between armor plates. Also, armor is usually thinner on the back, which means it's easier to find a spot where the material is weak. Therefore, by flanking an armored opponent, you can negate at least some of the armor's effect. 
+
+To **flank** an opponent, two allies must be within their weapons' range to and on **opposite sides** of the opponent. If both are attacking from the same side, then the armor and shield will continue protecting fully. This appplies both for melee and ranged attacks. 
+
+Three allies can **surround** the opponent, further reducing their armor's and shield's effectiveness. Four or more allies can **overwhelm** the opponent, rendering their defenses completely useless. The third and fourth (or any beyond that number) ally can **freely** choose a spot within weapon's reach. 
+
+* When **unthreatened**, the armor and shield protects fully. 
+* When **flanked**, the armor and shield protects only half (rounded up) as much. 
+* When **surrounded**, the armor and shield protects only one fourth (rounded up) as much. 
+* When **overwhelmed**, the armor and shield no longer protects **at all**. 
+
+If one of the allies is using a weapon with a property to increase its reach, for example [long reach](#weapon-properties), then they need not be adjacent to the enemy to count towards the flanking effect (but still within their weapon's reach to the enemy). 
+
+The following two graphics illustrate valid spots for a second ally to enter, to **flank** the character in the center. 
+
+<img src="../../img/flanking-chart_1.png" width="349px" height="264px"></img> <img src="../../img/flanking-chart_2.png" width="349px" height="349px"></img>
+
+The following graphic illustrates valid spots for a third ally to enter, to **surround** the character in the center (not shown here is that the third ally could also approach from the south. In that case, the valid spots would simply be mirrored on the opposite side). 
+
+<img src="../../img/flanking-chart_3.png" width="264px" height="357px"></img>
+
 ### Stealth Attacks
 When attacking another character from stealth, the moment of surprise can make all the difference. An attack from stealth counts as an automatic success and you may go on to roll damage right away. 
 
@@ -1411,34 +1440,12 @@ The defender must *choose* how to defend themselves, if no specific "opposed by"
 
 Defending against [area of effect](#area-of-effect) attacks is *only* possible as a **passive defense** and can *not* negate the attack. It can only halve (rounded up) its [damage](#damage). 
 
-### Armor
+### Armor & Shields
 Armor serves as life insurance, because it can negate or at least reduce the damage taken, after a defense test has failed. 
 
-In a normal duel situation, the person in armor will always have an advantage over the person without armor. There are still ways to get around armor, but they usually involve managing to throw the armored opponent to the ground or using [expertises](#expertise) designed to circumvent armor. Simply continuing trying to hit someone in armor in a straight fight will not yield you the results you seek. 
+Shields on the other hand provide bonuses to defense, making it harder for an enemy to succesfully land a hit in the first place. 
 
-This circumstance changes, when the armored person is flanked and surrounded. Most armor is designed to protect the most from frontal attacks and even the more masterful armors must still allow some cracks in between armor plates. Also, armor is usually thinner on the back, which means it's easier to find a spot where the material is weak. Therefore, by flanking an armored opponent, you can negate at least some of the armor's effect. 
-
-To **flank** an opponent, two allies must be within their weapons' range to the armored opponent and the two allies **must** be on opposite sides of the opponent. If both are attacking from the same side, then the armor will continue protecting fully. This appplies both for melee and ranged attacks. 
-
-Three allies can **surround** the opponent, further reducing their armor's effectiveness. Four or more allies can **overwhelm** the opponent, rendering their armor completely useless. The third and fourth (or any beyond that number) ally can **freely** choose a spot within weapon's reach. 
-
-* When **unthreatened**, the armor protects fully. 
-* When **flanked**, the armor protects only half (rounded up) as much. 
-* When **surrounded**, the armor protects only one fourth (rounded up) as much. 
-* When **overwhelmed**, the armor no longer protects **at all**. 
-
-If one of the allies is using a weapon with a property to increase its reach, for example [long reach](#weapon-properties), then they need not be adjacent to the enemy to count towards the flanking effect (but still within their weapon's reach to the enemy). 
-
-The following two graphics illustrate valid spots for a second ally to enter, to **flank** the character in the center. 
-
-<img src="../../img/flanking-chart_1.png" width="349px" height="264px"></img> <img src="../../img/flanking-chart_2.png" width="349px" height="349px"></img>
-
-The following graphic illustrates valid spots for a third ally to enter, to **surround** the character in the center (not shown here is that the third ally could also approach from the south. In that case, the valid spots would simply be mirrored on the opposite side). 
-
-<img src="../../img/flanking-chart_3.png" width="264px" height="357px"></img>
-
-
-The specific armors and their values can be found asset appendix of whatever module you're using. 
+The specifics of armors and shields can be found asset appendix of whatever module you're using. 
 
 ### Defending an Ally
 It is possible for a character to defend an adjacent ally when they're being attacked. This costs `1` [AP](#action-points-ap) and results in the ally taking over the defense being forced to roll the defense test, instead of the originally attacked character. 
@@ -1835,7 +1842,7 @@ Performing acrobatic feats, such as jumping, tumbling and climbing, without inju
 
 | Level | Name                 | AP | **Ob**  | Effect(s)          | Condition(s) |
 | ----- | -------------------- | -- | ------- | ------------------ | ------------ |
-| 0     | Deft Evasion         | /  | /       | Passive: While not wearing any [armor](#armor) and not wielding a shield of bulk 2 or more, gain `+1` [compensation point](#compensation-points) to any [defense test](#defending) made using this skill. | / |
+| 1     | Deft Evasion         | /  | /       | Passive: While not wearing any [armor](#armor) and not wielding a shield of bulk 2 or more, gain `+1` [compensation point](#compensation-points) to any [defense test](#defending) made using this skill. | / |
 | 2     | Wind Out Of It       | 1  | 2       | When hit by a [single-target](#single-target-st) attack, wind out of the hit and suffer only half the damage. Can be used even when a much bulkier weapon is breaking through your successful defense, to halve the damage *again*, effectively resulting in you suffering only 1/4th (rounded up) of the damage. | Once per combat. |
 | 3     | Bob, Weave, Jab      | 1  | Opposed | When succeeding a defense test, launch a [counter-attack](#defense-stunts) against the enemy who attacked you, but for your weapon's **full damage** and without suffering any [exhaustion](#exhaustion)! | Once per round. |
 
@@ -1846,7 +1853,7 @@ However, the price for this strength is steep. The chance of death is greatly in
 
 | Level | Name                 | AP | **Ob**  | Effect(s)          | Condition(s) |
 | ----- | -------------------- | -- | ------- | ------------------ | ------------ |
-| 0     | Reckless Assault     | 1  | /       | Deal half of the damage (rounded up) as additional damage on your next successful attack. Suffer a **-1D** penalty to all [defense tests](#defending) until the start of your next turn. |  |
+| 0     | Reckless Assault     | 1  | /       | Deal half of the damage (rounded up) as additional damage on your next successful attack. Suffer a **-1D** penalty to all [defense tests](#defending) until the start of your next turn. | / |
 | 1     | Grit Your Teeth      | 1  | /       | Reaction: Upon suffering an [injury](#injury), gain an *additional* [grit point](#grit-points-gp). | / |
 | 2     | Pain is Strength     | 3  | Opposed | Perform a [single-target](#single-target-st) melee attack against an opponent of choice. For every active [injury](#injury) you currently have, deal one extra **D6** of [bludgeoning](#damage-types) damage. You suffer one point of [exhaustion](#exhaustion). | Cooldown: 3 turns. |
 | 4     | Injury Collector     | 0  | 3       | Reaction: Upon suffering an [injury](#injury), with a successful test of this Expertise, remove all additional [penalties](#boons--penalties) (i. e. everything but the [HP](#hit-points-hp) malus) from the [injury](#injury). | / |
@@ -2053,7 +2060,7 @@ The following is a list of all [conditions](#condition) present in the core rule
 A character who is in **berserk**, **must** attack the creature nearest to them, regardless of whether it is friend or foe, until it is dead or unconscious. The **berserked** character **must** then move on to the next available and closest victim. 
 
 * Graded
-* Shrug off: 1 *point* with an [awareness](#awareness-awar) [test](#tests) with **Ob** equal to the current *degree*. 
+* Shrug off: 1 *point* with a [self-control](#self-control-toughtough) [test](#tests) with **Ob** equal to the current *degree*. 
 * Immediate cancel: When the character is made [unconscious](#unconscious) or no other creatures remain alive and/or conscious.
 
 ### Burning
@@ -2117,7 +2124,7 @@ A **frostbitten** character suffers -1 [AP](#action-points-ap) during combat and
 * Immediate cancel: After a minute of last suffering one *point* of **frostbitten** or at the end of combat. 
 
 ### Grappled
-A **grappled** character is unable to move and suffers **-1D** to all defense [tests](#tests), for as long as they are **grappled**. A **grappled** character can break free, by **completely succeeding** a [unarmed combat](#unarmed-combat-agistr) [tests](#tests) against the other character grappling them. 
+A **grappled** character is unable to move and suffers **-1D** to all defense [tests](#tests), for as long as they are **grappled**. A **grappled** character can break free, by **completely succeeding** an [unarmed combat](#unarmed-combat-agistr) [test](#tests) against the other character grappling them. 
 
 ### Hasted
 A **hasted** character has an additional [AP](#action-points-ap) to spend and an additional 9'/3m of [movement](#combat-movement) per [AP](#action-points-ap) or every 5 seconds. 
@@ -2126,14 +2133,14 @@ A **hasted** character has an additional [AP](#action-points-ap) to spend and an
 A character who has been made unnaturally **jealous**, will do anything in their power to take, whatever it may be, from whoever might have *it*. 
 
 * Graded
-* Shrug off: 1 *point* with an [awareness](#awareness-awar) [test](#tests) with **Ob** equal to the current *degree*. 
+* Shrug off: 1 *point* with a [self-control](#self-control-toughtough) [test](#tests) with **Ob** equal to the current *degree*. 
 * Immediate cancel: When the character is made [unconscious](#unconscious), the source of the jealousy is removed or the character acquires that which they covet. 
 
 ### Pacified
 A character who is **pacified**, is unable to *willingly* take any action that would directly or indirectly harm any other creature. Note, the character is not physically unable to cause harm, but they **really** don't want to. 
 
 * Graded
-* Shrug off: 1 *point* with a [toughness](#toughness-tough) [test](#tests) with **Ob** equal to the current *degree*. 
+* Shrug off: 1 *point* with a [self-control](#self-control-toughtough) [test](#tests) with **Ob** equal to the current *degree*. 
 * Immediate cancel: When the character is made [unconscious](#unconscious) or the source of the pacification is removed.
 
 ### Poisoned
@@ -2144,7 +2151,7 @@ A **poisoned** character suffers **1 D4** points of [poison](#damage-types) dama
 * Immediate cancel: With proper [treatment](#poison-injuries). 
 
 ### Prone
-A character who is prone, is harder to hit with ranged attacks, but easier to hit with melee attacks. A character who is prone, counts as [flanked](#armor) in melee. If they're *also* [grappled](#grappled), they count as [surrounded](#armor). 
+A character who is prone, is harder to hit with ranged attacks, but easier to hit with melee attacks. A character who is prone, counts as [flanked](#flanking) in melee. If they're *also* [grappled](#grappled), they count as [surrounded](#armor). 
 
 * **-1D** to melee defense tests. 
 * **-1D** to any melee attack tests. 
@@ -2167,7 +2174,7 @@ A **stunned** character is unable to act, at all. During combat, their turn is s
 A **terrified** character suffers **-2D** to defense tests and **has to** flee from whatever it is that terrified them, until they can no longer perceive it. 
 
 * Graded
-* Shrug off: 1 *point* with a [wit](#wit-wit) [test](#tests) with **Ob** equal to the current *degree*. 
+* Shrug off: 1 *point* with a [self-control](#self-control-toughtough) [test](#tests) with **Ob** equal to the current *degree*. 
 * Immediate cancel: When the character is made [unconscious](#unconscious), the source of terror is removed or the character can no longer perceive the source of terror in any way for a short wile (1-2 turns or 5-10 seconds).
 
 ### Unconscious
@@ -2191,6 +2198,7 @@ Note that "Cosmic Fortune" is not an actual **injury**. When it is rolled for, *
 * Required supplies: 1 [medical supplies](#list-of-general-assets)
 * **Ob**: 1D6
 * Time to heal: 4D4 weeks
+* Treated heal time reduction: 3D4 weeks
 
 | Range D100 | Injury              | Limit     | Description                      | Scar                |
 | ---------  | ------------------- | --------- | -------------------------------- | ------------------- |
@@ -2205,6 +2213,7 @@ Note that "Cosmic Fortune" is not an actual **injury**. When it is rolled for, *
 * Required supplies: 1 [medical supplies](#list-of-general-assets)
 * **Ob**: 1D4
 * Time to heal: 1D4 days
+* Treated heal time reduction: 1D4 days
 
 | Range D100 | Injury              | Limit     | Description                      | Scar                |
 | ---------  | ------------------- | --------- | -------------------------------- | ------------------- |
@@ -2218,6 +2227,7 @@ Note that "Cosmic Fortune" is not an actual **injury**. When it is rolled for, *
 * Required supplies: 1 [medical supplies](#list-of-general-assets)
 * **Ob**: 1D6
 * Time to heal: 4D4 weeks
+* Treated heal time reduction: 3D4 weeks
 
 | Range D100 | Injury              | Limit     | Description                      | Scar                |
 | ---------  | ------------------- | --------- | -------------------------------- | ------------------- |
@@ -2227,11 +2237,12 @@ Note that "Cosmic Fortune" is not an actual **injury**. When it is rolled for, *
 | 76 - 100   | Molten Muscles      | /         | +1 [burning](./core-rules.md#burning); -1 [strength](#strength-str). Heat induced atrophy. | / |
 
 ### Bludgeoning Injuries
-* Automatic treatment: Impossible
+* Automatic treatment: [Toughness](#toughness-tough) at **Ob** 3 every day.
 * Treatment skill: [surgery](#surgery-agiwit)
 * Required supplies: 1 [medical supplies](#list-of-general-assets)
 * **Ob**: 1D4
 * Time to heal: 4D6 weeks
+* Treated heal time reduction: 3D6 weeks
 
 | Range D100 | Injury              | Limit     | Description                      | Scar                |
 | ---------  | ------------------- | --------- | -------------------------------- | ------------------- |
@@ -2252,6 +2263,7 @@ Note that "Cosmic Fortune" is not an actual **injury**. When it is rolled for, *
 * Required supplies: 1 [medical supplies](#list-of-general-assets)
 * **Ob**: 1D6
 * Time to heal: 4D4 weeks
+* Treated heal time reduction: 3D4 weeks
 
 | Range D100 | Injury              | Limit     | Description                      | Scar                |
 | ---------  | ------------------- | --------- | -------------------------------- | ------------------- |
@@ -2267,6 +2279,7 @@ Note that "Cosmic Fortune" is not an actual **injury**. When it is rolled for, *
 * Required supplies: 1 [medical supplies](#list-of-general-assets)
 * **Ob**: 1D4
 * Time to heal: 2D4 weeks
+* Treated heal time reduction: 2D4 weeks
 
 | Range D100 | Injury              | Limit     | Description                      | Scar                |
 | ---------  | ------------------- | --------- | -------------------------------- | ------------------- |
@@ -2281,6 +2294,7 @@ Note that "Cosmic Fortune" is not an actual **injury**. When it is rolled for, *
 * Required supplies: 1 [medical supplies](#list-of-general-assets)
 * **Ob**: 1D4
 * Time to heal: 3D4 weeks
+* Treated heal time reduction: 2D4 weeks
 
 | Range D100 | Injury              | Limit     | Description                      | Scar                |
 | ---------  | ------------------- | --------- | -------------------------------- | ------------------- |
@@ -2293,11 +2307,12 @@ Note that "Cosmic Fortune" is not an actual **injury**. When it is rolled for, *
 | 87 - 100   | Pierced Eye         | Eye Count | -1 [awareness](#awareness-awar); If incurred *limit* times, cannot see. | Scarred eye |
 
 ### Poison Injuries
-* Automatic treatment: [Toughness](#toughness-tough) with **Ob** at level of [poisoned](#poisoned) at end of every turn / every minute. 
+* Automatic treatment: [Toughness](#toughness-tough) at **Ob** 3 every day. 
 * Treatment skill: [medicine](#medicine-agiwit)
 * Required supplies: 1 [antidote](#list-of-general-assets)
 * **Ob**: 1D4
 * Time to heal: 2D4 days
+* Treated heal time reduction: 1D4 + 1 days
 
 | Range D100 | Injury              | Limit     | Description                      | Scar                |
 | ---------  | ------------------- | --------- | -------------------------------- | ------------------- |
@@ -2309,11 +2324,12 @@ Note that "Cosmic Fortune" is not an actual **injury**. When it is rolled for, *
 | 84 - 100   | Frenzy              | /         | +1 [poisoned](#poisoned). Become [berserked](#berserk). To some, this may be a fun afternoon, but to you, the pain of the fire in your veins is unbearable, causing unquenchable rage to broil within you. | / |
 
 ### Slashing Injuries
-* Automatic treatment: [Toughness](#toughness-tough) at **Ob** 1 at end of every turn / every minute. 
+* Automatic treatment: [Toughness](#toughness-tough) at **Ob** 3 every day. 
 * Treatment skill: [surgery](#surgery-agiwit)
 * Required supplies: 1 [medical supplies](#list-of-general-assets)
 * **Ob**: 1D4
 * Time to heal: 2D4 weeks
+* Treated heal time reduction: 1D4 weeks
 
 | Range D100 | Injury              | Limit     | Description                      | Scar                |
 | ---------  | ------------------- | --------- | -------------------------------- | ------------------- |
