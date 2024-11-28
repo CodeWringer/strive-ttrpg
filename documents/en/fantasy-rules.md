@@ -20,10 +20,12 @@
     - [Abyssalite](#abyssalite)
     - [Amberite](#amberite)
     - [Ambersteel](#ambersteel)
+    - [Arcane Engine](#arcane-engine)
     - [Cerebillium](#cerebillium)
     - [Runes](#runes)
     - [Magic Scrolls](#magic-scrolls)
     - [Malevite](#malevite)
+      - [Malevite Side-Effects](#malevite-side-effects)
 - [Assets](#assets)
   - [Weapon Properties](#weapon-properties)
 - [Appendix](#appendix)
@@ -274,6 +276,9 @@ Due to the length of the process and the difficulty in keeping the right tempera
 
 **Ambersteel** is also a fairly heavy material, albeit slightly lighter than [Amberite](#amberite). A fist-sized chunk has a [bulk](./core-rules.md#carrying-capacity) of 2. Weapons, shields and armor made from this material are +1 [bulkier](./core-rules.md#carrying-capacity). 
 
+### Arcane Engine
+A man-sized device that can channel and direct the power of a [Malevite Orb](#malevite) or [rune](#runes). Can be activated through [rune-using](#rune-using-agiwit). 
+
 ### Cerebillium
 **Cerebillium** is an odd material, that resembles white marble, with faintly glowing veins of green and turqoise running through it. This material is unique in that it always creates a small magical current on its own, which flows back and forth through the veins. 
 
@@ -329,15 +334,59 @@ In order to invoke a **magic scroll**:
 * It costs no [magic stamina](#magic-stamina), but the **magic scroll** is immediately destroyed upon use. It burns up magically (even if the material itself is fire-proof). 
 
 ### Malevite
-Also known as blood jewel, Malevite is an entirely artificial material, made from the blood of mages, by use of great pressure, a constant arcanic charge and much patience. The more blood it is infused with and the stronger the mage it was gathered from, the purer the color and the stronger the artifact. 
+Also known as blood jewel, Malevite is an entirely artificial material, made from the blood of mages, by use of great pressure, a constant arcanic charge and much patience. The more blood it is infused with, the purer the color and more powerful the artifact. 
 
-A blood jewel is a perfectly smooth sphere, with coloration ranging from a muddy black, to a swirly muddy crimson or at its purest, to a pure crimson.
+A blood jewel is a perfectly smooth sphere, with coloration ranging from a foggy and muddy black, to a swirly crimson or at its purest, to a pure and bright crimson.
 
 Once formed, a Malevite orb can not be infused further. It rejects any more mage blood. 
 
 Destroying such an artifact is not an easy feat. It requires a spike of pure [Abyssalite](#abyssalite) driven through it with great force. But doing so may tear a temporary hole in the fabric of reality. 
 
 A Malevite orb is an artifact of very great power that can change the very fabric of reality. To direct this power, requires an arcane apparatus, wherein the orb functions like a super-charged battery. To build such a device require a deep understanding of the arcanosphere and how it interacts with Malevite.
+
+There are four quality levels. Impure Malevite has side-effects and is not nearly as strong or long-lasting as a purer blood jewel. Once its time is up, the Malevite Orb de-compresses, releasing the blood it was made from in a spectacular hurricane of crimson. 
+
+| Quality | Description | Side-Effects | Longevity |
+| ------- | ----------- | ------------ | --------- |
+| Foggy   | Contains a single spell, at `SI 10`, which can only be controlled with an [Arcane Engine](#arcane-engine). | 3 | 1 Month |
+| Murky   | Contains up to two spells, at `SI 30`, which can only be controlled with an [Arcane Engine](#arcane-engine). | 2 | 1 Year |
+| Swirly  | Contains a weak reality-altering power, which can only be controlled with an [Arcane Engine](#arcane-engine). Can be almost anything, within reason. Things such as a low gravity field, anti-magic field, constant fog-emitter, elemental spewer and similar. | 1 | 100 Years |
+| Pure    | Contains a reality-altering power. Practically anything is possible. The crowning achievement the power hungry and the insane. The closest you can get to god-hood. Requires no [Arcane Engine](#arcane-engine). It has transcended the need for such a paltry shackle. | 0 | Indefinite |
+
+#### Malevite Side-Effects
+
+All of the following is kept vague, because it would be hard to list all possible combinations in a way that makes sense while remaining concise. See the following as inspiration for the **GM**, who will finalize the side-effects. 
+
+Side-effects (`1D6`):
+
+1. Gravity
+2. Time
+3. Souls
+4. Elemental
+5. Psychic
+6. Alteration
+
+| Roll | Gravity                 | Time                     | Souls                    | Elemental                | Psychic                  | Alteration               |
+| ---- | ----------------------- | ------------------------ | ------------------------ | ------------------------ | ------------------------ | ------------------------ |
+| 1    | High Gravity            | Slowed                   | Evicted                  | Acid                     | Terror                   | Create mutations         |
+| 2    | Low Gravity             | Accelerated              | Attracted                | Frost                    | Confusion                | Restore purity           |
+| 3    | Sideways Gravity        | Repeating                | Bound                    | Lightning                | Madness                  | Imbue with magic         |
+| 4    | Attraction (Black-Hole) | Jump forward             | Evicted                  | Fire                     | Clairvoyance             | Nullify magic            |
+| 5    | Repulsion               | Jump backward            | Attracted                | Light                    | Emotion cleanse          | Remove magic             |
+| 6    | Anti-Gravity            | From alternate dimension | Bound                    | Sound                    | Pacified                 | Alter shape              |
+
+Area of Effect: `1D20 * 9'/3m` radius
+
+Trigger (`1D6`):
+
+1. Constant (no trigger, always active)
+2. Periodic
+   1. `1D4`: 1: Minutes, 2: Hours, 3: Days, 4: Weeks
+   2. `1D100`: how many of the above
+3. Vicinity `1D10 * 9'/3m` radius
+4. Sound `1D4`: 1: Perfectly still, 2: Quiet, 3: Loud, 4: Deafening
+5. Light `1D4`: 1: Perfectly dark, 2: Dim, 3: Bright, 4: Blinding
+6. Blood
 
 # Assets
 
@@ -992,11 +1041,21 @@ In all the following tables, note the following:
 * Whenever the effect is unleashed in a **cone**, then at every point it has traveled, it is as wide as far as it has traveled. So for example, at 3'/1m distance, it is 3'/1m wide. At 9'/3m distance, it is 9'/3m wide. 
 
 ### Artificing (Arc/Wit)
-The setting of arcane traps and creation of arcane artifacts. 
+The setting of arcane traps and creation of arcane artifacts and materials. 
+
+[Crafting](./core-rules.md#crafting)
+| Product                              | Complexity | Workload  | Ob         | Materials                              | Quality Bonus   |
+| ------------------------------------ | ---------- | --------- | ---------- | -------------------------------------- | --------------- | 
+| Imbued Object, works just like "Place Arcane Charge" | High | Moderate | / | An object to "enchant".                | / |
+| Foggy [Malevite Orb](#malevite)      | Very High  | Very High | 3          | 30 liters / 7 gallons of Mage blood    | / |
+| Murky [Malevite Orb](#malevite)      | Very High  | Very High | 6          | 300 liters / 66 gallons of Mage blood  | / |
+| Swirly [Malevite Orb](#malevite)     | Very High  | Very High | 8          | 3000 liters / 660 gallons of Mage blood | / |
+| Pure [Malevite Orb](#malevite)       | Very High  | Very High | 10         | 30000 liters / 6600 gallons of Mage blood | / |
+| [Arcane Engine](#arcane-engine)      | Very High  | High      | 3          | [Abyssalite](#abyssalite) and a frame-material, like steel. | -1 side-effect for [Malevite Orbs](#malevite). |
 
 | Level | Name                 | AP | Distance | Ob                           | Effect(s)                      | Backfire Effect(s) |
 | ----- | -------------------- | -- | -------- | ---------------------------- | ------------------------------ | ------------------ |
-| 0     |  | 3  | 3'/1m    | Opposed + SI                 | A **ST** (object or creature) is altered as the mage desires. The complexity and size of the re-shaping depends on the **SI**. 1-3 are for simple and small, 4-6 for tricky and medium, 7-8 for complex and large and 9+ for very complex and very large alterations. Consult your **GM**! | The intended alteration occurs only on the caster. |
+| 0     | Place Arcane Charge  | 3  | 3'/1m    | SI                           | Concentrate arcane energy on a point in hand's reach. The surface begins to glow and feels receptive. Any other spell that is then cast at the same spot, charges the arcane charge. A trigger defined by the mage will then unleash the stored spell. Note only simple triggers are possible. The charge cannot make distinctions like friend or foe. Example triggers: on touch, on detection of movement in front of the charge, on detection of sound, on the utterance of a specific word. The arcane charge lasts `SI D4` hours. After that, it harmlessly dissipates. The charge is stationary. It cannot be moved. For every `3 SI`, the spell it holds may be `+1 SI` stronger. | The arcane charge becomes unstable. Roll a `D4` to determine in what way. On a 1: the stored spell loses half its `SI` in strength. 2: the charge triggers in `1D6` minutes. 3: the charge immediately dissipates. 4: the stored spell is overriden. Instead, upon triggering, the charge now emits an excruciatingly loud noise. |
 
 ### Alteration (Arc/Wit)
 The alteration of physical things, to change their shape and purpose, permanently. 
