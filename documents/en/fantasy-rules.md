@@ -96,6 +96,7 @@
     - [Alteration (Arc/Wit)](#alteration-arcwit)
     - [Cryomancy (Arc/Arc)](#cryomancy-arcarc)
     - [Electromancy (Agi/Arc)](#electromancy-agiarc)
+    - [Hexing (Arc/Arc)](#hexing-arcarc)
     - [Illusion (Arc/Awar)](#illusion-arcawar)
     - [Psionics (Arc/Wit)](#psionics-arcwit)
     - [Pyromancy (Arc/Arc)](#pyromancy-arcarc)
@@ -1089,6 +1090,17 @@ The summoning and control of lightning. Electricity is fairly versatile - it can
 | 2     | Stunning Shock        | 2  | SI * 15'/5m  | Opposed - SI                 | An aimed arc of lightning strikes a **ST** and adds one stack of [stunned](./core-rules.md#stunned). | The caster is affected, instead. |
 | 5     | UNLIMITED POWER       | 3  | SI * 30'/10m | Opposed                      | A cone of lightning spews forth from the mage's finger tips. Up to `SI + 1` **MST** can be hit with the shock, dealing `SI D6` **electrical** damage. | The caster and anyone next to them is affected, instead. |
 | 5     | Mass Stunning Shock   | 3  | SI * 30'/10m | Opposed                      | Several arcs of aimed lightning spew forth from the mage's finger tips, striking up to `SI + 1` **MST** and adding 3 stacks of [stunned](./core-rules.md#stunned). | The caster and anyone next to them is affected, instead. |
+
+### Hexing (Arc/Arc)
+The casting of curses to weaken others. 
+
+| Level | Name                 | AP | Distance     | Ob                           | Effect(s)                      | Backfire Effect(s) |
+| ----- | -------------------- | -- | ------------ | ---------------------------- | ------------------------------ | ------------------ |
+| 0     | Instill Fear         | 2  | SI * 15'/5m  | Opposed by [self-control](./core-rules.md#self-control-toughtough) | Terrify a victim for `SI` turns. | The caster suffers the effect, instead. |
+| 0     | Slow Down            | 2  | SI * 9'/3m   | Opposed by [self-control](./core-rules.md#self-control-toughtough) | Reduce a target's [AP](./core-rules.md#action-points-ap) per turn by `1` for `SI` turns and reduce their current [AP](./core-rules.md#action-points-ap) by `2`. Does not stack. | The caster suffers the effect, instead. |
+| 1     | Weaken               | 2  | SI * 15'/5m  | Opposed by [toughness](./core-rules.md#toughness-tough) | Cause a target to take twice as much damage from a chosen damage type for `SI` turns. Does not stack. | The caster suffers the effect, instead. |
+| 2     | Atrophy              | 2  | SI * 9'/3m   | Opposed by [toughness](./core-rules.md#toughness-tough) | Weaken a target. They lose `SI` levels of [strength](./core-rules.md#strength-str) and deal `SI` less points of damage per physical attack, for `SI` turns. Does not stack. | The caster suffers the effect, instead. |
+| 2     | Spray Acid           | 2  | SI * 9'/3m   | Opposed                      | Spray acid in a cone, for `SI D6` points of acid damage. | The caster suffers `1D10` points of acid damage. |
 
 ### Illusion (Arc/Awar)
 Creation of non-physical influences on the senses. That includes images, sounds and odors. The illusions cannot cause direct harm, although they can drive an individual to acts that may put them in danger. 
