@@ -1341,7 +1341,7 @@ Under normal circumstances, a character (an average human) can move up to **12'/
 
 **Difficult terrain** is any space that slows movement, but does not prevent it outright. Examples would be waist-high water, a surface of glue or a slowing force field. 
 
-It is also possible to **sprint**, increasing the distance one can move per **AP** spent, at the cost of 1 point of [exhaustion](#exhaustion) for every **AP** spent **sprinting**. The movement distance is increased by 3'/1m per level in [agility](#agility-agi), per **AP**. Every time a character **sprints**, they progress this **attribute** (but only once per turn). 
+It is also possible to **sprint**, increasing the distance one can move per **AP** spent, at the cost of 1 point of [exhaustion](#exhaustion) for every **AP** spent **sprinting**. The movement distance is increased by `3'/1m` per level in [running](#running-strtough), per **AP**. Every time a character **sprints**, they progress this **skill** (but only once per turn). 
 
 ### Disengage
 It is possible to move out of an enemy's [range of opportunity](#attacks-of-opportunity) without provoking an [attack of opportunity](#attacks-of-opportunity). This action costs 2 [AP](#action-points-ap) and the disengaging character **must** move in a direction that will get them out of the [range of opportunity](#attacks-of-opportunity) the fastest and safest, as far as 1 **AP** of movement would get them. 
@@ -1865,6 +1865,16 @@ The ability to efficiently catch fish.
 Playing an instrument of choice. 
 
 The instrument in question must be noted. 
+
+#### Running (Str/Tough)
+Running at speed, for extended periods of time. 
+
+For every level in this skill, the [sprinting distance](#combat-movement) is increased by `3'/1m` per **AP** spent. This skill is progressed every time you sprint. 
+
+| Level | Name                 | AP | **Ob**  | Effect(s)          | Condition(s) |
+| ----- | -------------------- | -- | ------- | ------------------ | ------------ |
+| 1     | Grapple from Sprint  | 2  | Opposed | Lunge at someone from full sprint and grapple them, pulling them to the ground, rendering them [proned](#prone). | You must know Unarmed Combat at level 1+; You must be [sprinting](#combat-movement). |
+| 2     | Seasoned Runner      | 0  | 2       | Resist the exhaustion cost from sprinting. | Once per rest. |
 
 #### Stealth (Agi/Awar)
 Moving silently and performing actions undetected. 
