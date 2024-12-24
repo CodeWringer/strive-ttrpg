@@ -110,7 +110,6 @@
     - [Throwing-Distance](#throwing-distance)
     - [Throwing-Accuracy](#throwing-accuracy)
     - [Throwing-Damage](#throwing-damage)
-  - [Unarmed Combat (Agi/Str)](#unarmed-combat-agistr)
 - [General Interactions](#general-interactions)
   - [Appraisal](#appraisal)
   - [Persuasion, Intimidation \& Deception](#persuasion-intimidation--deception)
@@ -147,6 +146,7 @@
       - [Berserking (Tough/Tough)](#berserking-toughtough)
       - [Fishing (Agi/Awar)](#fishing-agiawar)
       - [Instrument-Playing \< instrument \> (Agi/Awar)](#instrument-playing--instrument--agiawar)
+      - [Running (Str/Tough)](#running-strtough)
       - [Stealth (Agi/Awar)](#stealth-agiawar)
       - [Swimming (Agi/Tough)](#swimming-agitough)
       - [Thievery (Agi/Awar)](#thievery-agiawar)
@@ -154,6 +154,7 @@
       - [Path-finding (Awar/Wit)](#path-finding-awarwit)
       - [Shield (Str/Tough)](#shield-strtough)
       - [Throwing (Agi/Agi)](#throwing-agiagi)
+      - [Unarmed Combat (Agi/Str)](#unarmed-combat-agistr)
       - [Weapon \< weapon type \> (\< attribute \>)](#weapon--weapon-type---attribute-)
     - [Social Skills](#social-skills)
       - [Acting (Awar/Wit)](#acting-awarwit)
@@ -1537,20 +1538,6 @@ The [damage type](#damage-types) to use, depends on the type of object and how i
 
 > A character with [strength](#strength-str) 5, throwing a [bulk](#bulk) 3 object, can deal 5 * (3 - 1) = 10 points of damage. 
 
-## Unarmed Combat (Agi/Str)
-Sometimes, your own body is your greatest weapon. Fists and feet can cause a surprising amount of damage. 
-
-* Melee
-* This is a skill
-
-| Level | Name                       | AP | **Ob**                               | Damage/Effect         | Condition |
-| ----- | -------------------------- | -- | ------------------------------------ | --------------------- | --------- |
-| 0     | Punch, Kick, Headbutt      | 2  | Opposed                              | `Str * 2` Bludgeoning |  |
-| 0     | Shove                      | 2  | Opposed by [strength](#strength-str) | Push an enemy away from you for 3'/1m * *N*, where *N* is the number of **hits** more than the opponent achieved. |  |
-| 1     | Grapple                    | 2  | Opposed by **Unarmed Combat**        | If **completely successful**, the target is unable to move and suffers **-1D** to their defense tests, for as long as they're grappled. Someone grappled can attempt to break free with an opposed **Unarmed Combat** test, on their turn. The grappler can not use at least one of their hands for as long as they're grappling. |  |
-| 2     | Wrestle and Disarm         | 2  | Opposed by **Unarmed Combat**        | Disarm your opponent and wrestle them to the ground, making them [prone](#prone), if you so choose. | Disarm only if enemy is using detachable weapon. |
-| 3     | Barge In                   | 3  | Opposed by [strength](#strength-str) | Push an enemy away from you for 3'/1m * *N*, where *N* is the number of **hits** more than the opponent achieved. Take their previous position and do **not** provoke **attacks of opportunity**. |  | 
-
 # General Interactions
 These are rules pertaining to specific social interactions or otherwise non-combat interactions that aren't immediately covered by a single [skill](#skills). 
 
@@ -1910,6 +1897,19 @@ For any ally next to you, who's also using a shield, you both gain **+1D** on yo
 General expertise at throwing things. This includes weapons as well as non-weapon objects. 
 
 See [throwing](#throwing). 
+
+#### Unarmed Combat (Agi/Str)
+Sometimes, your own body is your greatest weapon. Fists and feet can cause a surprising amount of damage. 
+
+* Melee
+
+| Level | Name                       | AP | **Ob**                               | Damage/Effect         | Condition |
+| ----- | -------------------------- | -- | ------------------------------------ | --------------------- | --------- |
+| 0     | Punch, Kick, Headbutt      | 2  | Opposed                              | `Str * 2` Bludgeoning |  |
+| 0     | Shove                      | 2  | Opposed by [strength](#strength-str) | Push an enemy away from you for 3'/1m * *N*, where *N* is the number of **hits** more than the opponent achieved. |  |
+| 1     | Grapple                    | 2  | Opposed by **Unarmed Combat**        | If **completely successful**, the target is unable to move and suffers **-1D** to their defense tests, for as long as they're grappled. Someone grappled can attempt to break free with an opposed **Unarmed Combat** test, on their turn. The grappler can not use at least one of their hands for as long as they're grappling. |  |
+| 2     | Wrestle and Disarm         | 2  | Opposed by **Unarmed Combat**        | Disarm your opponent and wrestle them to the ground, making them [prone](#prone), if you so choose. | Disarm only if enemy is using detachable weapon. |
+| 3     | Barge In                   | 3  | Opposed by [strength](#strength-str) | Push an enemy away from you for 3'/1m * *N*, where *N* is the number of **hits** more than the opponent achieved. Take their previous position and do **not** provoke **attacks of opportunity**. |  | 
 
 #### Weapon < [weapon type](#weapon-types) > (< attribute >)
 Expertise at handling a close-quarters or ranged weapon of a specific [weapon type](#weapon-types). 
