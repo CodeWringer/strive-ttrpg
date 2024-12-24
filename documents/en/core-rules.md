@@ -110,7 +110,6 @@
     - [Throwing-Distance](#throwing-distance)
     - [Throwing-Accuracy](#throwing-accuracy)
     - [Throwing-Damage](#throwing-damage)
-  - [Unarmed Combat (Agi/Str)](#unarmed-combat-agistr)
 - [General Interactions](#general-interactions)
   - [Appraisal](#appraisal)
   - [Persuasion, Intimidation \& Deception](#persuasion-intimidation--deception)
@@ -147,6 +146,7 @@
       - [Berserking (Tough/Tough)](#berserking-toughtough)
       - [Fishing (Agi/Awar)](#fishing-agiawar)
       - [Instrument-Playing \< instrument \> (Agi/Awar)](#instrument-playing--instrument--agiawar)
+      - [Running (Str/Tough)](#running-strtough)
       - [Stealth (Agi/Awar)](#stealth-agiawar)
       - [Swimming (Agi/Tough)](#swimming-agitough)
       - [Thievery (Agi/Awar)](#thievery-agiawar)
@@ -154,6 +154,7 @@
       - [Path-finding (Awar/Wit)](#path-finding-awarwit)
       - [Shield (Str/Tough)](#shield-strtough)
       - [Throwing (Agi/Agi)](#throwing-agiagi)
+      - [Unarmed Combat (Agi/Str)](#unarmed-combat-agistr)
       - [Weapon \< weapon type \> (\< attribute \>)](#weapon--weapon-type---attribute-)
     - [Social Skills](#social-skills)
       - [Acting (Awar/Wit)](#acting-awarwit)
@@ -1337,11 +1338,9 @@ It may be possible to go past this limit via some [expertises](#expertise) or [b
 > At the start of their next **turn**, they get to keep 2 of those unspent **AP** and are forced to discard the third **AP**. They get 3 more **AP** because it is the start of their turn. Thus, they begin their turn with 5 **AP** available to them. 
 
 ## Combat Movement
-Under normal circumstances, a character (an average human) can move up to **12'/4m** (= 4 fields on a grid) per **AP** spent. In **difficult terrain**, the distance moved per **AP** is half that, at **6'/2m** (= 2 fields on a grid). It may be possible to increase the distance moved per **AP**, by **sprinting** (see below) or through the use of [skills](#skills). 
+Under normal circumstances, a character (an average human) can move up to `12'/4m` (= 4 fields on a grid) per **AP** spent. In **difficult terrain**, the distance moved per **AP** is half that, at `6'/2m` (= 2 fields on a grid). **Difficult terrain** is any space that slows movement, but does not prevent it outright. Examples would be waist-high water, a surface of glue or a slowing force field. 
 
-**Difficult terrain** is any space that slows movement, but does not prevent it outright. Examples would be waist-high water, a surface of glue or a slowing force field. 
-
-It is also possible to **sprint**, increasing the distance one can move per **AP** spent, at the cost of 1 point of [exhaustion](#exhaustion) for every **AP** spent **sprinting**. The movement distance is increased by 3'/1m per level in [agility](#agility-agi), per **AP**. Every time a character **sprints**, they progress this **attribute** (but only once per turn). 
+It is also possible to **sprint**, increasing the distance one can move per **AP** spent, at the cost of 1 point of [exhaustion](#exhaustion) for every **AP** spent **sprinting**. The movement distance is increased by `3'/1m` for every level in [running](#running-strtough), per **AP**. 
 
 ### Disengage
 It is possible to move out of an enemy's [range of opportunity](#attacks-of-opportunity) without provoking an [attack of opportunity](#attacks-of-opportunity). This action costs 2 [AP](#action-points-ap) and the disengaging character **must** move in a direction that will get them out of the [range of opportunity](#attacks-of-opportunity) the fastest and safest, as far as 1 **AP** of movement would get them. 
@@ -1536,20 +1535,6 @@ Even if the `bulk - 1` formula would result in 0, instead use 1. The resulting m
 The [damage type](#damage-types) to use, depends on the type of object and how it hits the target. For most non-weapons, **bludgeoning** should be appropriate. 
 
 > A character with [strength](#strength-str) 5, throwing a [bulk](#bulk) 3 object, can deal 5 * (3 - 1) = 10 points of damage. 
-
-## Unarmed Combat (Agi/Str)
-Sometimes, your own body is your greatest weapon. Fists and feet can cause a surprising amount of damage. 
-
-* Melee
-* This is a skill
-
-| Level | Name                       | AP | **Ob**                               | Damage/Effect         | Condition |
-| ----- | -------------------------- | -- | ------------------------------------ | --------------------- | --------- |
-| 0     | Punch, Kick, Headbutt      | 2  | Opposed                              | `Str * 2` Bludgeoning |  |
-| 0     | Shove                      | 2  | Opposed by [strength](#strength-str) | Push an enemy away from you for 3'/1m * *N*, where *N* is the number of **hits** more than the opponent achieved. |  |
-| 1     | Grapple                    | 2  | Opposed by **Unarmed Combat**        | If **completely successful**, the target is unable to move and suffers **-1D** to their defense tests, for as long as they're grappled. Someone grappled can attempt to break free with an opposed **Unarmed Combat** test, on their turn. The grappler can not use at least one of their hands for as long as they're grappling. |  |
-| 2     | Wrestle and Disarm         | 2  | Opposed by **Unarmed Combat**        | Disarm your opponent and wrestle them to the ground, making them [prone](#prone), if you so choose. | Disarm only if enemy is using detachable weapon. |
-| 3     | Barge In                   | 3  | Opposed by [strength](#strength-str) | Push an enemy away from you for 3'/1m * *N*, where *N* is the number of **hits** more than the opponent achieved. Take their previous position and do **not** provoke **attacks of opportunity**. |  | 
 
 # General Interactions
 These are rules pertaining to specific social interactions or otherwise non-combat interactions that aren't immediately covered by a single [skill](#skills). 
@@ -1866,6 +1851,16 @@ Playing an instrument of choice.
 
 The instrument in question must be noted. 
 
+#### Running (Str/Tough)
+Running at speed, for extended periods of time. 
+
+For every level in this skill, the [sprinting distance](#combat-movement) is increased by `3'/1m` per **AP** spent. 
+
+| Level | Name                 | AP | **Ob**  | Effect(s)          | Condition(s) |
+| ----- | -------------------- | -- | ------- | ------------------ | ------------ |
+| 1     | Grapple from Sprint  | 2  | Opposed | Lunge at someone from full sprint and grapple them, pulling them to the ground, rendering them [proned](#prone). | You must know Unarmed Combat at level 1+; You must be [sprinting](#combat-movement). |
+| 2     | Seasoned Runner      | 0  | /       | Resist the exhaustion cost from sprinting. | Once per rest. |
+
 #### Stealth (Agi/Awar)
 Moving silently and performing actions undetected. 
 
@@ -1910,6 +1905,19 @@ For any ally next to you, who's also using a shield, you both gain **+1D** on yo
 General expertise at throwing things. This includes weapons as well as non-weapon objects. 
 
 See [throwing](#throwing). 
+
+#### Unarmed Combat (Agi/Str)
+Sometimes, your own body is your greatest weapon. Fists and feet can cause a surprising amount of damage. 
+
+* Melee
+
+| Level | Name                       | AP | **Ob**                               | Damage/Effect         | Condition |
+| ----- | -------------------------- | -- | ------------------------------------ | --------------------- | --------- |
+| 0     | Punch, Kick, Headbutt      | 2  | Opposed                              | `Str * 2` Bludgeoning |  |
+| 0     | Shove                      | 2  | Opposed by [strength](#strength-str) | Push an enemy away from you for 3'/1m * *N*, where *N* is the number of **hits** more than the opponent achieved. |  |
+| 1     | Grapple                    | 2  | Opposed by **Unarmed Combat**        | If **completely successful**, the target is unable to move and suffers **-1D** to their defense tests, for as long as they're grappled. Someone grappled can attempt to break free with an opposed **Unarmed Combat** test, on their turn. The grappler can not use at least one of their hands for as long as they're grappling. |  |
+| 2     | Wrestle and Disarm         | 2  | Opposed by **Unarmed Combat**        | Disarm your opponent and wrestle them to the ground, making them [prone](#prone), if you so choose. | Disarm only if enemy is using detachable weapon. |
+| 3     | Barge In                   | 3  | Opposed by [strength](#strength-str) | Push an enemy away from you for 3'/1m * *N*, where *N* is the number of **hits** more than the opponent achieved. Take their previous position and do **not** provoke **attacks of opportunity**. |  | 
 
 #### Weapon < [weapon type](#weapon-types) > (< attribute >)
 Expertise at handling a close-quarters or ranged weapon of a specific [weapon type](#weapon-types). 
