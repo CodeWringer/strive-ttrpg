@@ -1152,7 +1152,7 @@ The mending of [injuries](./core-rules.md#injury) and treatment of [diseases](./
 | 6     | Revert Mutation      | 4  | 3'/1m    | 6                            | Removes **SI** number of [mutations](./core-rules.md#list-of-mutations) of choice from a **ST** of choice, in hand's reach. | The caster receives **SI** random [mutations](./core-rules.md#list-of-mutations). |
 
 ### Sanguinomancy (Arc/Tough)
-In the common tongue, blood magic, utilizes mage blood to control a deeply unsettling power. 
+In the common tongue, blood magic, utilizes mage blood to control a deeply unsettling power. The used blood must be fresh, although not necessarily from the caster. 
 
 | Level | Name                 | AP | Distance | Ob                           | Effect(s)                      | Backfire Effect(s) |
 | ----- | -------------------- | -- | -------- | ---------------------------- | ------------------------------ | ------------------ |
