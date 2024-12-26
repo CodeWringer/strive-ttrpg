@@ -474,15 +474,23 @@ A large, kite-shaped or rectangular shield, which can protect every part of the 
 ### List of General Assets
 The following is a list of general assets. Of course, the following list is non-exhaustive. Invent more at your own need. 
 
+In the following table, `Q` refers to the quality grade of the asset. See also the [crafting](./core-rules.md#crafting) rules. When in a hurry (as a **GM**), substitute the `Q` with `3`.
+
 | Name                   | Bulk | Max. Stack Size | Description                                                              |
 | ---------------------- | ---- | --------------- | ------------------------------------------------------------------------ |
-| Laudanum Potion        | 1    | 2               | This wonderous substance can quell pain and calm nerves within seconds. Also effective against diarrhea. Upon imbibing, sets one **active** [injury](./core-rules.md#injury) to **treated**. After 24 hours, the [injury](./core-rules.md#injury) is set back to **active**, even if it was also properly **treated** in the meantime. Also, must succeed a [self-control](./core-rules.md#self-control-toughtough) test at **Ob** `3`, or else become [addicted](./core-rules.md#drug-addicted) to the stuff. |
+| Acid Bomb              | 1    | 3               | A small fragile shell with two compartments, filled with two liquids which, when they combine, act as a powerful acid. When shattered, deals `QD6 Acid` damage to whatever it hits. |
+| Blackpowder Bomb       | 1    | 2               | A small iron-shelled bomb, filled with blackpowder. A short fuse sticks out and must be lit to set it off. Once lit, the bomb will detonate after 3 turns or 15 seconds. Deals `QD4 Bludgeoning + QD4 Burning` damage to anyone in a `6'/2m` radius. |
 | Calming Tea            | 1    | 3               | This herbal tea has the ability to calm nerves. Removes [berserk](./core-rules.md#berserk), [jealous](./core-rules.md#jealous) and [terrified](./core-rules.md#terrified). Best enjoyed steaming hot, but not necessarily. |
-| Fire Pot (Potion)      | 1    | 3               | An ancient recipe, this concoction bursts into flame when exposed to air for several seconds. It causes severe burns for `2D8 Burning` damage in a `6'/2m` radius. Consumed on use. |
-| Smoke Bomb             | 1    | 3               | A small fragile shell, filled with a very fine powder which when broken causes an area in a `6'/2m` radius to be covered in smoke. It is impossible to see through and ranged attacks within or through the area suffer `+2` **Ob**. Victims caught in the smoke may be forced to cough. The smoke lasts 6 turns or 30 seconds. |
-| Acid Bomb              | 1    | 3               | A small fragile shell with two compartments, filled with two liquids which, when they combine, act as a powerful acid. When shattered, deals `2D8 Acid` damage to whatever it hits.  |
-| Blackpowder Bomb       | 1    | 2               | A small iron-shelled bomb, filled with blackpowder. A short fuse sticks out and must be lit to set it off. Once lit, the bomb will detonate after 3 turns or 15 seconds. Deals `2D6 Bludgeoning + 2D6 Burning` damage to anyone in a `6'/2m` radius.  |
-| Throwing Blade         | 1    | 6               | A small weighted blade, like a knife or star, well suited to being thrown. Can be used in melee and acts like a [dagger](#dagger-agiawar), but with a penalty of **-2D** to attack and defense. **+1D** when [thrown](./core-rules.md#throwing-accuracy) for a ranged attack. Deals **2D4 + Str** **piercing** damage. |
+| Dragon's Breath Potion | 1    | 3               | Upon drinking this potion, the orange liquid combines with the stomach acid and bursts out of the drinker's throat, igniting and thus causing them to spew fire! Causes `1D8 - Q Burning` damage to the user and `QD6 Burning` damage in a `18'/6m` cone in front of the user. |
+| Fire Pot (Potion)      | 1    | 3               | An ancient recipe, this concoction bursts into flame when exposed to air for several seconds. It causes severe burns for `QD6 Burning` damage in a `6'/2m` radius. Consumed on use. |
+| Invigorating Potion    | 1    | 3               | The drinker of this potion feels refreshed and invigorated! Reduces exhaustion by `Q` and clears the [exhausted](./core-rules.md#exhausted) condition. Beware this potion can only be safely imbibed twice in a 24 hour cycle. If drunk more, roll a `D6`. If it is a **hit**, you're in luck! But if not, you instead suffer `+2` points of [exhaustion](./core-rules.md#exhaustion). |
+| Laudanum Potion        | 1    | 2               | This wonderous substance can quell pain and calm nerves within seconds. Also effective against diarrhea. Upon imbibing, sets one **active** [injury](./core-rules.md#injury) to **treated**. After 24 hours, the [injury](./core-rules.md#injury) is set back to **active**, even if it was also properly **treated** in the meantime. Also, must succeed a [self-control](./core-rules.md#self-control-toughtough) test at `Ob 3`, or else become [addicted](./core-rules.md#drug-addicted) to the stuff. |
+| Love Potion            | 1    | 2               | Anyone drinking this potion will become virtually irresistible to anyone close enough to smell their air. Victims have to succeed a [self-control](./core-rules.md#self-control-toughtough) test at `Ob Q` or else feel **very strongly compelled** to fulfill the user's every wish and desire (provided this wouldn't obviously cause harm to the victim). |
+| Night-Eye Potion       | 1    | 3               | Grants the ability to see reasonably well under low-light conditions, up to `Q * 10'/3m` around them, for an hour. Beware that under the influence of this potion, exposure to bright light is extremely difficult to endure and will cause `+1` [exhaustion](./core-rules.md#exhaustion) for every **minute** of exposure. |
+| Paralyzing Poison      | 1    | 2               | Causes a victim's muscles to seize up. They suffer `-1 AP` each turn and are forced to move sluggishly. If this poison is suffered twice, the victim seizes up completely and is unable to move. This poison can be resisted once upon suffering it, with [toughness](./core-rules.md#toughness-tough), at `Ob Q`. If unsuccessful, the effect will last an hour. |
+| Sleeping Poison        | 1    | 3               | Causes a victim to feel incredibly sleepy. Unless they succeed a [self-control](./core-rules.md#self-control-toughtough) test at `Ob Q`, they will fall asleep the first chance they get. They cannot be woken from this state for at least `6` hours. |
+| Smoke Bomb             | 1    | 3               | A small fragile shell, filled with a very fine powder which when broken causes an area in a `Q * 3'/1m` radius to be covered in smoke. It is impossible to see through and ranged attacks within or through the smoke-covered area suffer `+2` **Ob**. Victims caught in the smoke may be forced to cough. The smoke lasts `6` turns or `30` seconds. |
+| Throwing Blade         | 1    | 6               | A small weighted blade, like a knife or star, well suited to being thrown. Can be used in melee and acts like a [dagger](#dagger-agiawar), but with a penalty of `-2D` to attack and defense. `+1D` when [thrown](./core-rules.md#throwing-accuracy) for a ranged attack. Deals `2D4 + Str piercing` damage. |
 
 ### Weapon Types
 Following are fantasy-themed weapon types. 
@@ -772,13 +780,34 @@ See also [protection from magic](#protection-from-magic).
 #### Alchemy (Arc/Wit)
 The ability to brew alchemical potions, create powders, mixtures and other substances, as well as the ability to tell these things apart. 
 
-Tools: a distillery, mortar and pestle, a fire place
+Tools: a distillery, mortar and pestle, a fire place, small containers made of glass or metal
 
-[Crafting](./core-rules.md#crafting)
-| Product                              | Complexity | Workload  | Materials                              | Quality Bonus   |
-| ------------------------------------ | ---------- | --------- | -------------------------------------- | --------------- | 
-| A simple alchemical concoction (potion or powder)  | Moderate  | Moderate | Small containers, minerals, metals, herbs and water. | / |
-| A complex alchemical concoction (potion or powder) | Very High | High     | Small containers, minerals, metals, herbs and water. | / |
+[Crafting](./core-rules.md#crafting) alchemical products requires the alchemist to add ingredients with the correct components and basis to match the recipe's requirements. A recipe with a noted **Ob** can fail and waste the ingredients, while one without cannot fail. The number of **hits** (past the **Ob**) determine the quality grade, or in other words, the efficacy of the product. 
+
+* Every ingredient has properties it adds or subtracts. The sum of the properties must match those of the recipe, in the end. 
+* Properties can be such as "edible", "inedible", "acidic", "alkaline", "explosive", "catalyst", "binding", "soothing".
+* Every ingredient has a basis, such as "organic", "metallic" or "chemical". 
+* Some ingredients may act as "boosters". Adding these ingredients automatically adds +1 quality to the finished product (on a successful crafting attempt). 
+* Some ingredients may act as "purifiers", which can remove a subtractive component from another ingredient. 
+
+Alchemist's may also try to push their luck. They may try one of the following, at the cost of `+2 Ob`. 
+* Create an extra product from the same amount of materials. Effectively a "2 for the cost of 1" crafting attempt. 
+* Attempt to craft the product while missing **one** component. 
+
+| Product                              | Complexity | Workload  | Components                       | Other Materials                  |
+| ------------------------------------ | ---------- | --------- | -------------------------------- | -------------------------------- |
+| Acid Bomb                            | Moderate   | Moderate  | 2 acidic (organic / chemical); 1 catalyst (metallic) | Small dissolution-safe container |
+| Blackpowder Bomb                     | Moderate   | High      | 2 explosive (chemical); 1 binding (organic) | An ignition mechanism, like a plain cord or rope. |
+| Calming Tea                          | Low        | High      | 2 soothing (organic); 2 edible (organic) | / |
+| Dragon's Breath Potion               | High       | High      | 1 catalyst (organic / chemical); 1 explosive (chemical) | Alcohol |
+| Fire Pot (Potion)                    |    |       |  | / |
+| Invigorating Potion                  |    |       |  | / |
+| Laudanum Potion                      |    |       |  | / |
+| Love Potion                          |    |       |  | / |
+| Night-Eye Potion                     |    |       |  | / |
+| Paralyzing Poison                    |    |       |  | / |
+| Sleeping Poison                      |    |       |  | / |
+| Smoke Bomb                           |    |       |  | / |
 
 #### Brewing (Wit/Wit)
 The brewing of alcoholic beverages. 
