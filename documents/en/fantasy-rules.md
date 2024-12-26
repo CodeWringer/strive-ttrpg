@@ -280,6 +280,8 @@ Due to the length of the process and the difficulty in keeping the right tempera
 ### Arcane Engine
 A man-sized device that can channel and direct the power of a [Malevite Orb](#malevite) or [rune](#runes). Can be activated through [rune-using](#rune-using-agiwit). 
 
+Arcane Engines are mostly useful either as siege engines or as stationary constant magic casters. 
+
 ### Cerebillium
 **Cerebillium** is an odd material, that resembles white marble, with faintly glowing veins of green and turqoise running through it. This material is unique in that it always creates a small magical current on its own, which flows back and forth through the veins. 
 
@@ -341,9 +343,9 @@ A blood jewel is a perfectly smooth sphere, with coloration ranging from a foggy
 
 Once formed, a Malevite orb can not be infused further. It rejects any more mage blood. 
 
-Destroying such an artifact is not an easy feat. It requires a spike of pure [Abyssalite](#abyssalite) driven through it with great force. But doing so may tear a temporary hole in the fabric of reality. 
+Destroying such an artifact is not an easy feat. It requires a spike of pure [Abyssalite](#abyssalite) driven through it with great force and doing so may tear a temporary hole in the fabric of reality. 
 
-A Malevite orb is an artifact of very great power that can change the very fabric of reality. To direct this power, requires an arcane apparatus, wherein the orb functions like a super-charged battery. To build such a device require a deep understanding of the arcanosphere and how it interacts with Malevite.
+A Malevite orb is an artifact of very great power that can change the laws of physics and warp reality around it. To direct this power, requires an arcane apparatus, wherein the orb functions like a super-charged battery. To build such a device require a deep understanding of the arcanosphere and how it interacts with Malevite.
 
 There are four quality levels. Impure Malevite has side-effects and is not nearly as strong or long-lasting as a purer blood jewel. Once its time is up, the Malevite Orb de-compresses, releasing the blood it was made from in a spectacular hurricane of crimson. 
 
@@ -358,16 +360,9 @@ There are four quality levels. Impure Malevite has side-effects and is not nearl
 
 All of the following is kept vague, because it would be hard to list all possible combinations in a way that makes sense while remaining concise. See the following as inspiration for the **GM**, who will finalize the side-effects. 
 
-Side-effects (`1D6`):
+Side-effects (`2D6`):
 
-1. Gravity
-2. Time
-3. Souls
-4. Elemental
-5. Psychic
-6. Alteration
-
-| Roll | Gravity                 | Time                     | Souls                    | Elemental                | Psychic                  | Alteration               |
+| Roll | 1 Gravity               | 2 Time                   | 3 Souls                  | 4 Elemental              | 5 Psychic                | 6 Alteration             |
 | ---- | ----------------------- | ------------------------ | ------------------------ | ------------------------ | ------------------------ | ------------------------ |
 | 1    | High Gravity            | Slowed                   | Evicted                  | Acid                     | Terror                   | Create mutations         |
 | 2    | Low Gravity             | Accelerated              | Attracted                | Frost                    | Confusion                | Restore purity           |
@@ -376,7 +371,14 @@ Side-effects (`1D6`):
 | 5    | Repulsion               | Jump backward            | Attracted                | Light                    | Emotion cleanse          | Remove magic             |
 | 6    | Anti-Gravity            | From alternate dimension | Bound                    | Sound                    | Pacified                 | Alter shape              |
 
-Area of Effect: `1D20 * 9'/3m` radius
+Area of Effect (`1D4`): 
+
+1. radius
+2. wall
+3. cone
+4. line
+
+Distance/radius `1D20 * 9'/3m`
 
 Trigger (`1D6`):
 
