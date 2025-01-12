@@ -993,9 +993,9 @@ Tools: axes, hammers, tongs, (if metal) a forge and anvil
 [Crafting](./core-rules.md#crafting)
 | Product                              | Complexity | Workload  | Materials                              | Quality Bonus   |
 | ------------------------------------ | ---------- | --------- | -------------------------------------- | --------------- | 
-| 1 [light shield](#light-shield)                | Moderate   | High      | Any shapeable sturdy and flexible material, such as wood, metal or chitin. | / |
-| 1 [medium shield](#medium-shield)      | Moderate   | High      | Any shapeable sturdy and flexible material, such as wood, metal or chitin. | For every 3 quality levels, starting at level 2, reduction of bulk by 1 (to a minimum of 1). |
-| 1 [heavy shield](#heavy-shield)        | Moderate   | High      | Any shapeable sturdy and flexible material, such as wood, metal or chitin. | For every 3 quality levels, starting at level 2, reduction of bulk by 1 (to a minimum of 2). |
+| 1 [light shield](#light-shield)      | Moderate   | High      | Any shapeable sturdy and flexible material, such as wood, metal or chitin. | / |
+| 1 [medium shield](#medium-shield)    | Moderate   | High      | Any shapeable sturdy and flexible material, such as wood, metal or chitin. | For every 3 quality levels, starting at level 2, reduction of bulk by 1 (to a minimum of 1). |
+| 1 [heavy shield](#heavy-shield)      | Moderate   | High      | Any shapeable sturdy and flexible material, such as wood, metal or chitin. | For every 3 quality levels, starting at level 2, reduction of bulk by 1 (to a minimum of 2). |
 
 #### Tanning/Skinning (Agi/Tough)
 Taking the hide off a creature undamaged. 
@@ -1147,7 +1147,7 @@ The mending of [injuries](./core-rules.md#injury) and treatment of [diseases](./
 | Level | Name                 | AP | Distance | Ob                           | Effect(s)                      | Backfire Effect(s) |
 | ----- | -------------------- | -- | -------- | ---------------------------- | ------------------------------ | ------------------ |
 | 0     | Treating Touch       | 2  | 3'/1m    | See the injury in question   | An [injury](./core-rules.md#injury) of a **ST** of the mage's choosing, in hand's reach, is magically healed and removed. It may still leave a [scar](./core-rules.md#scar). Restores `SI D10` missing [HP](./core-rules.md#hit-points-hp). | The caster suffers `SI D10` points of [bleeding](./core-rules.md#damage-types) damage. |
-| 2     | Life Leech           | 2  | 3'/1m    | Opposed by [toughness](./core-rules.md#toughness-tough) | Draw the life from a **ST** creature of choice. Deals **SI D4** points of damage while healing another touched creature's or one's own [HP](./core-rules.md#hit-points-hp) for the same amount. Transfers 1 point of [bleeding](./core-rules.md#bleeding) and/or [poisoned](./core-rules.md#poisoned) from the healed creature to the damaged one. | The effect triggers in reverse, drawing **SI** [HP](./core-rules.md#hit-points-hp) from the caster and sending them to their victim. Transfers **SI** points of [bleeding](./core-rules.md#bleeding) and/or [poisoned](./core-rules.md#poisoned) from the target to the caster. |
+| 2     | Life Leech           | 2  | 3'/1m    | Opposed by [toughness](./core-rules.md#toughness-tough) | Draw the life from a **ST** creature of choice. Deals **SI D4** points of damage while healing another touched creature's or one's own [HP](./core-rules.md#hit-points-hp) for the same amount. Transfers 1 point of [bleeding](./core-rules.md#bleeding) and/or [poisoned](./core-rules.md#poisoned) from the healed creature to the damaged one. | The effect triggers in reverse. |
 | 5     | Expel Illness        | 3  | 3'/1m    | 4                            | Removes **SI** number of [illnesses](./core-rules.md#illness) of choice from a **ST** of choice, in hand's reach. | The caster contracts **SI** random [illnesses](./core-rules.md#illness). | 
 | 6     | Revert Mutation      | 4  | 3'/1m    | 6                            | Removes **SI** number of [mutations](./core-rules.md#list-of-mutations) of choice from a **ST** of choice, in hand's reach. | The caster receives **SI** random [mutations](./core-rules.md#list-of-mutations). |
 
