@@ -1207,7 +1207,7 @@ For every 6 hour increment of travel, or in other words, every quarter of a day,
 
 How much distance can be traveled (on foot) in that time, depends on the type of terrain and the character's familiarity with a particular path. You may rule that familiar paths hold no new challenges, or that they hold only half as many (meaning you skip every other challenge). 
 
-For every increment of travel (every 6 hours spent traveling), players must succeed a test of *a relevant skill*, or else suffer a randomly rolled challenge. For this test, think creatively! You don't *have to* always resolve these tests with [Path-Finding](#path-finding-awarwit), you could just as well use any other relevant skill, like [Nature](#nature-awarwit), [Geography](#geography-awarwit), perhaps even [History](#history--subject--witwit) or [Mysticism & Religion](#mysticism-and-religion-witwit) or *any other skill* whose use a player can plausibly explain. 
+For every increment of travel (every 6 hours spent traveling), players must succeed a test of *a relevant skill*, or else suffer a randomly rolled challenge. For this test, think creatively! You don't *have to* always resolve these tests with [Path-Finding](#path-finding-awarwit), you could just as well use any other relevant skill, like [Nature](#nature-awarwit), [Geography](#geography-awarwit), perhaps even [History](#history--subject--witwit) or [Mysticism & Religion](#mysticism-and-religion-witwit) or *any other skill* whose use a player can plausibly explain. And don't forget players may [fork](#skill-forking) and [provide assistance](#providing-assistance)!
 
 The following table is a suggestion of the specifics of distances and challenge Obs. 
 
