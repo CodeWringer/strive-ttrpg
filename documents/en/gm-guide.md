@@ -130,15 +130,15 @@ If it is normal to arrive in a new city safely, find secure lodgings, go to the 
 This is also why **PC**s should be expected to behave as their origin cultures dictate. This point is probably up for contention, as **PC**s are usually somewhat special. They may deviate to an extent, but even so, the "elf in the party" defines the very perception of elves to all the players. The way that **PC** behaves, is the way players will expect all elves to behave, because that is often their first exposure to people of that culture (and yes, elves may also have various differing cultures, which further complicates the issue). 
 
 ## Your Game
-There is an *unspoken social contract* between you, the **GM** and your players. Everyone at the table agrees that you *get to call the shots*. You present every scenario and its challenges, you arbitrate and moderate. You narrate and you listen. 
+There is an *unspoken social contract* between you, the **GM** and your players. Everyone at the table agrees that you *get to call the shots*. You present every scenario and its challenges, you arbitrate and moderate and you narrate and listen. 
 
-When presenting challenges and obstacles to the **PC**s, keep in mind it is **not** your job to think of possible solutions. *That*, is the *players' job*. It is also not your job to come up with **PC** reactions, emotions, thoughts, etc. That is also the players' job and furthermore, *their* prerogative. This point is further explained in [Player Agency](#player-agency). 
+When presenting challenges and obstacles to the **PC**s, keep in mind it is **not** your job to think of possible solutions. *That*, is the *players' job*. It is also not your job to come up with **PC** reactions, emotions, thoughts or goals. That is also the players' job and furthermore, *their* prerogative. This point is further explained in [Player Agency](#player-agency). 
 
-The rules are in your hands. If you find one of **STRIVE**'s rules to not be to agreeable, you may change it, so that it fits your game. This is called *house-ruling* - introducing unofficial rules that are only in effect at your table. In fact, you're hereby strongly encouraged to modify and add to the rules, as you see fit. Especially the list of skills is non-exhaustive, meaning, there is a very high chance one of your players will want their character to do something, for which there isn't a skill defined, yet. You can even allow your players to invent skills. That way, not *all* of the work lies on you, but be mindful that you'll have to ensure the skills *make sense* and don't result in a character *suddenly* becoming an invulnerable power-house. 
+The rules are in your hands. If you find one of **STRIVE**'s rules not to be agreeable, you may change it, so that it fits your game. This is called *house-ruling* - introducing unofficial rules that are only in effect at your table. In fact, you're hereby strongly encouraged to modify and add to the rules, as you see fit. Especially the list of skills is non-exhaustive, meaning, there is a very high chance one of your players will eventually want their character to do something, for which there isn't a skill defined, yet. You can even allow your players to invent skills. That way, not *all* of the work lies on you, but be mindful that you'll have to ensure the skills *make sense* and don't result in a character *suddenly* becoming an invulnerable power-house. 
 
-Keep in mind that with the **authority** to *make decisions*, also comes a certain **responsibility**. It is your task to entertain your players. Not like a comedian or a singer, but something more subtle and complex than that. You agree to keep your players **interested and engaged** in your game. You agree to weave their characters into stories of which even you may have no idea how they'll play out. In your rulings, you must **be fair and consistent**. No player is favored. They're **all** your guests. Abuse your authority, and players will eventually leave your table. 
+Keep in mind that with the **authority** to *make decisions*, also comes a certain **responsibility**. It is your task to entertain your players. Not like a comedian or a singer, but something more subtle and complex than that. You agree to keep your players **interested and engaged** in your game. You agree to weave their characters into stories of which *even you* may have no idea how they'll play out. In your rulings, you must **be fair and consistent**. No player is favored. They're **all** your friends and guests. Abuse your authority, and players will eventually leave your table. 
 
-And you agree to **mediate and moderate**. When players fight, in-person, then there may be a time when you, as the one running the game have to step in and find a resolution. Either you can find a way for them to reconcile, or someone may have to leave the game. When players keep talking over each other, it is your responsibility to moderate. Have them take turns when speaking. Make sure everyone who has something to say, gets to. 
+You agree to **mediate and moderate**. Should players fight, in-person, out-of-character, then there may be a time when you, as the one running the game have to step in and find a resolution. Either you can find a way for them to reconcile, or someone may have to leave the game. When players keep talking over each other, it is your responsibility to moderate. Have them take turns when speaking. Make sure everyone who has something to say, gets to. 
 
 Even if all of these and the following points may sound very dogmatic, see them more as well-intentioned advice, than hard rules for you to follow. Find your style and develop it as you like. 
 
@@ -147,15 +147,9 @@ Of course, the specifics of the *unspoken social contract* can be different for 
 ## Your Players
 The game can only happen, because of your players - the people *willing* to be at your table and engage with your game. Treat them with the same respect you expect from them. 
 
-You're primarily running this game for your players - without them, you might as well write a book, instead. Therefore it should be your top priority to keep them entertained and focused on the game, or else you risk losing them. 
-
 Understand how your players think and how they enjoy their table-top role-playing game experience. If they like combat and loathe interacting with **NPC**s, you can cater to that and present them with lots of *interesting* combat scenarios. On the other hand, if they love to role-play, they'll probably enjoy meeting and interacting with varied **NPC**s. 
 
-Figuring out how to get your players engaged in your game and noticing that engagement, can be a very rewarding sensation. It is a sign of a fun and worth-while experience. 
-
-But not just the conflicts within game itself require your attention. When two players fight, you'll have to step in, if they can't resolve the matter themselves. Try to mediate, when possible. And have the wisdom to tell when reconciliation is impossible. As difficult as it may be, sometimes you'll have to let a player go, if they don't fit into the group. 
-
-Besides the mediator, you're also the moderator. Make sure your players are respectful towards each other. Stop players talking over each other. Ensure everyone gets a chance to react to a given situation and that everyone who has something to say, gets to. 
+Figuring out how to get your players engaged in your game and noticing that engagement, can be a very rewarding sensation. It is a sign of a fun and worth-while experience and will cement their interest in your game! 
 
 # Mastering Your Game
 While the previous sections provide an overview of the expectations of a **GM**, this sections aims to help you fulfill those expectations. 
@@ -166,9 +160,9 @@ There are a few steps to take before diving right back into the action.
 ### Recap The Last Session
 A good start for every session is asking one of your players (volunteers first) to outline what their characters did and experienced in the last session. This refreshes everyone's memory on what they did and should be doing. It also encourages them to take notes during play. 
 
-It is important you only correct them on *crucial* plot points, which they really should get right. Keep in mind that players tend to see the **GM**'s word as **absolute truth**. This is why, when you re-tell the events and those differ from what the players remember, it might alienate them from the world and the story. They thought they understood what was going on, but then you correct them and prove they were wrong all along - that is frustrating and harmful. 
+It is important you only correct them on *crucial* plot points, which they really should get right. Keep in mind that players tend to see the **GM**'s word as **absolute truth**. This is why, when you re-tell the events and those differ from what the players remember, it *might* alienate them from the world and the story. They thought they understood what was going on, but then you correct them and prove they were wrong all along - that can be frustrating. 
 
-In fact, you may even correct some of the details of how events *actually* played out, based on what your players re-tell. Do so silently, though. The last thing you want, is to encourage *meta-gaming*, where your players intentionally recap the last session incorrectly, in a way to make you change details in their characters' favor. 
+In fact, you may even correct some of the details of how events *actually* played out, based on what your players re-tell. This is best done silently. No need to encourage *meta-gaming*, which has your players intentionally recapping the last session incorrectly, in a way to make you change details in their characters' favor. 
 
 ### Personality & Driver Adjustments
 After a recap of the last session, players should have a basis from which to work new [drivers](./core-rules.md#personality) into their character and to shift [personality traits](./core-rules.md#personality-traits). Allow them a few minutes to think and discuss. 
@@ -176,7 +170,7 @@ After a recap of the last session, players should have a basis from which to wor
 Once everyone has their characters figured out, have everyone, one by one, read **drivers** and personality changes out aloud. There are two reasons to do this:
 1. The other players can know, if an aspiration targets their character. So if a **PC** (player) starts acting odd towards another player (their **PC**), that player knows it's part of the role-play and not directed towards them as a person. <br>
 It also allows the player whose character is targeted by the aspiration to form ideas on how to react to it. This serves as [Fair Warning](#fair-warning). 
-1. It familiarizes you with their **drivers**, which you *have to know*, so that you may prepare scenarios that *challenge* or *feed* those **drivers**. It may be wise to take notes on their **drivers** - what the driver is and how you might challenge or feed it.
+1. It familiarizes you with their **drivers**, which ***you have to know***, so that you may prepare scenarios that *challenge* or *feed* those drivers. It may be wise to take notes on their drivers - what the driver is and how you might challenge or feed it.
 
 Be mindful that players knowing the **aspirations** of their fellow **PC**s should not be allowed to meta-game. 
 
@@ -244,7 +238,7 @@ Present the close-quarters warrior **PC** with an opponent who's out of reach. H
 Fights should be winnable - unless you make it **very** clear to the players their characters can **not** win a particular fight. They should be given the option to retreat or circumvent such an encounter. 
 
 Even more interesting fights can occur, if you involve the environment, as well. Introduce both hazards and tools for the **PC**s to be threatened by, or to exploit. These are just some examples of interactive combat environments: 
-* An illegal gunpowder storage. Any careless use of fire could cause a cascade of explosions. Be mindful to not straight-up wipe out the **PC**s if the gunpowder does get set on fire. They should be harmed, but give them a chance to recover or flee from that blunder. 
+* An illegal gunpowder storage. Any careless use of fire could cause a cascade of explosions. Be mindful to not straight-up wipe out the **PC**s if the gunpowder does get set on fire. They should be harmed, but give them a chance to recover or flee from that blunder. It may even be possible to draw out the explosions. One explosion every turn, putting time pressure on the **PC**s to get out and also give them the time to do so. 
 * A giant cave, full of giant spider webs. If anyone should be unfortunate enough to stumble or be knocked into a web, a giant spider descends from the shadowy corners of the ceiling and begins to threaten that character, specifically. If that happens to be a **PC**, their allies have to think quick, to get them free, but also keep their original opponents on their toes. On the other hand, the **PC**s can attempt to knock their foes into the webs. 
 * A burning house, with the **PC**s and their opponents in the thick of it. At the start of every turn, a burning piece of debris falls from the ceiling and you randomly determine where it lands. Could be on a **PC**, could be on one of their opponents. Or it could be in front of and barring their only exit - an open window leading to safety. 
 * A rickety, old bridge, which could collapse if too much force was applied to its support beams. The **PC**s could exploit this to collapse the bridge on purpose. Or their opponents could attempt the same, to put time-pressure on the players. 
@@ -272,11 +266,7 @@ On the other hand, you should only have such specifically targeted tests, if fai
 #### **Driver Challenges**
 You can both *feed* and *challenge* **PC**s' **drivers**. Feeding a driver means giving a **PC** new information or assets that they may use to pursue the driver's goal. Challenging a driver means presenting the character with new information or opponents who contradict the goal - an obstacle to overcome. 
 
-Make sure to regularly feed or challenge **each** **PC**'s **drivers**. 
-
-This keeps the players on their toes and puts pressure on them when they have to make a difficult call. Will they play to their character's **aspiration** - and get them in trouble - or do they refuse and thus contradict the **aspiration**? This is also where a large part of the *easy role-playing* comes from, because it is mechanically supported. 
-
-More interesting and less immediately rewarding, is the **ambition** of a **PC**. These long-term goals guide their character along the way. Make sure to throw them a small plot to advance their own agenda, every once in a while. 
+Make sure to regularly feed or challenge **each** **PC**s' **drivers**. This is important, as it keeps their players interested and attentive. It makes their goals matter and gives them purpose and *direction*, which prevents inactivity and boredom. 
 
 > For example, a **PC** has an old enemy who they've vowed to take revenge on. While the final confrontation is still a ways away, every once in a while, that **PC** finds information regarding their enemy. You could feed that **PC** information on their enemy's current or recent whereabouts and activities. Not enough to give them a trail to follow, but enough to keep them aware and in pursuit of their long-term goal. 
 > 
@@ -284,7 +274,7 @@ More interesting and less immediately rewarding, is the **ambition** of a **PC**
 > 
 > Eventually, some henchmen of the **PC**'s enemy make an appearance. They aim to challenge the player party. This is important - not just the one **PC** is involved, but **all of them**. This makes the **PC**'s *personal concern*, a *party concern*. 
 > 
-> And so it goes on, with continually more escalating scenarios, which all culminate into the final confrontation, potentially many real-world sessions into the future, when the **PC** gets to put the final nail in that **ambition**'s coffin - and earn their [AFP](#ambition-fate-points).
+> And so it goes on, with continually more escalating scenarios, which all culminate into the final confrontation, potentially many real-world sessions into the future, when the **PC** gets to put the final nail in that **ambition**'s coffin - and ***earn*** their [AFP](#ambition-fate-points).
 
 #### **Anchor Your PCs Down**
 Another resource, is a base of operations. This is a very meaningful and powerful tool, to anchor your **PC**s to a particular domain. Expect them to want to return to their base of operations regularly. While this *may* narrow the radius of exploration your players are willing to go, it doesn't necessarily have to. What it is guaranteed to do, however, is make your players care about *that space* in the world, in particular. 
