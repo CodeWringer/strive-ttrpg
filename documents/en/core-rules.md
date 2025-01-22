@@ -1198,6 +1198,12 @@ All creatures that can be tired, require sleep. Some [conditions](#condition) ca
 
 An interruption is any break in the rest, when a character is forced to do something physically or mentally taxing. If in doubt - a test is almost always going to be taxing in some way.
 
+Whenever resting in an unsafe environment, such as out in the wild or on a city's streets, animals, bandits or enemies - given the setting and narrative allow for it - might surprise the resting character(s). Therefore, when traveling in a group, it is advisable to set up a watch. But be careful - those on watch could fall asleep during their watch! To determine whether they fall asleep, they must test their [Self-Control](#self-control-toughtough) once, at the beginning of their watch. The Ob is equal to their current level of exhaustion, `+1` for every `2` hours they need to stay awake for. If multiple characters stay up for the watch at the same time, they can help each other stay awake. Choose whatever skill whose use can be plausibly explained!
+
+> To stand watch for a full rest of 6 hours, a character would need to succeed their Self-Control test at at least Ob 3. Should they also be exhausted already, their Ob may be even higher. 
+>
+> Their ally, who is also staying awake with them, decides to help them stay awake by making use of their Commanding skill. They are a superior officer and their commands carry weight, which helps their underling ally stay awake. 
+
 ## Travel & Terrain
 Whenever players are presented with an overworld map, with distinct locations marked on it and players ask the question, "how do we get from *here* to *there*?", the question of travel comes up. These rules aim to provide an answer, though you may of course substitute your own or even skip travel, if your group *really* loathes it. 
 
