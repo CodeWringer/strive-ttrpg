@@ -77,6 +77,7 @@
 - [Time-Management](#time-management)
   - [Initiative](#initiative)
     - [Surprise Round](#surprise-round)
+  - [Resting](#resting)
   - [Travel \& Terrain](#travel--terrain)
     - [Forced March](#forced-march)
     - [Enduring the Journey](#enduring-the-journey)
@@ -224,14 +225,6 @@
     - [Single Target (ST)](#single-target-st)
     - [Multiple Single Target (MST)](#multiple-single-target-mst)
     - [Area of Effect (AoE)](#area-of-effect-aoe)
-  - [Travel Challenges](#travel-challenges)
-    - [Road Challenges](#road-challenges)
-    - [Plains Challenges](#plains-challenges)
-    - [Savannah/Desert Challenges](#savannahdesert-challenges)
-    - [Sparse Forest Challenges](#sparse-forest-challenges)
-    - [Hill Challenges](#hill-challenges)
-    - [Swamp Challenges](#swamp-challenges)
-    - [Mountain Challenges](#mountain-challenges)
 
 Version 18 (Playtest)
 
@@ -1198,41 +1191,42 @@ To determine whether a **round** is a **surprise round**, determine awareness wi
 
 > **Surprise round** does not apply to opponents standing right in front of each other in conversation, when one of them suddenly draws a dagger and attacks. The attacker can be clearly seen by the defender (assuming they can see) and thus does not result in a **surprise round**. Of course, the specifics are always up to the scenario at hand and to the **GM**'s ruling. 
 
+## Resting
+All creatures that can be tired, require sleep. Some [conditions](#condition) can only be cleared by resting. There are two types of rest:
+* A **full rest**, for which at least `6` uninterrupted hours must be spent *actively resting*. 
+* A **partial rest**, for which at least `30` uninterrupted minutes must be spent *actively resting*. 
+
+An interruption is any break in the rest, when a character is forced to do something physically or mentally taxing. If in doubt - a test is almost always going to be taxing in some way.
+
 ## Travel & Terrain
-Whenever players are presented with an overworld map, with distinct locations marked on it and players ask the question, "how do we get from *here* to *there*?", the question of travel comes up. These rules aim to provide an answer, though you may of course substitute your own or even hand-wave travel, if your group *really* loathes playing out travel. 
+Whenever players are presented with an overworld map, with distinct locations marked on it and players ask the question, "how do we get from *here* to *there*?", the question of travel comes up. These rules aim to provide an answer, though you may of course substitute your own or even skip travel, if your group *really* loathes it. 
 
-For every 6 hour increment of travel, or in other words, every quarter of a day, which is spent traveling any significant distance, characters encounter challenges. Whatever distance you consider significant is up to you and your group, of course. 
+The following table suggests distances per hour of travel. 
 
-> For example, when a group of PCs decides to travel across a mountain range and their distance to travel totals at 61km, then based on the increments, they should have to spend 18 hours traveling. But compared to their previous journey, that one km is not going to present challenges the previous 60 haven't already. It would absolutely be in line with these rules to disregard that last km and only force a 12 hour journey. 
+| Terrain                | Distance (km) (on foot) | Hunting/Foraging Ob |
+| ---------------------- | ----------------------- | ------------------- |
+| Road                   | 25/h                    | 6                   |
+| Plains/Savannah        | 20/h                    | 4                   |
+| Desert                 | 20/h                    | 7                   |
+| Sparse forest          | 15/h                    | 3                   |
+| Hill                   | 10/h                    | 3                   |
+| Jungle/Dense forest    | 10/h                    | 4                   |
+| Swamp                  | 5/h                     | 5                   |
+| Barren Mountain        | 5/h                     | 6                   |
+| Forested Mountain      | 5/h                     | 4                   |
 
-How much distance can be traveled (on foot) in that time, depends on the type of terrain and the character's familiarity with a particular path. You may rule that familiar paths hold no new challenges, or that they hold only half as many (meaning you skip every other challenge). 
-
-For every increment of travel (every 6 hours spent traveling), players must succeed a test of *a relevant skill*, or else suffer a randomly rolled challenge. For this test, think creatively! You don't *have to* always resolve these tests with [Path-Finding](#path-finding-awarwit), you could just as well use any other relevant skill, like [Nature](#nature-awarwit), [Geography](#geography-awarwit), perhaps even [History](#history--subject--witwit) or [Mysticism & Religion](#mysticism-and-religion-witwit) or *any other skill* whose use a player can plausibly explain. And don't forget players may [fork](#skill-forking) and [provide assistance](#providing-assistance)!
-
-The following table is a suggestion of the specifics of distances and challenge Obs. 
-
-| Terrain                | Distance (km) (on foot) | Challenge Ob |
-| ---------------------- | ----------------------- | ------------ |
-| Road                   | **150**/6h (25/h)       | 1 (or 0, if you want roads to be safe) |
-| Plains/Savannah/Desert | **120**/6h (20/h)       | 2 |
-| Sparse forest          | **90**/6h (15/h)        | 3 |
-| Hill                   | **60**/6h (10/h)        | 3 |
-| Jungle/Dense forest    | **60**/6h (10/h)        | 4 |
-| Swamp                  | **30**/6h (5/h)         | 5 |
-| Mountain               | **30**/6h (5/h)         | 5 |
-
-Since, on a map with a grid, the size of one square or hex (measured from one side to its opposing side) is up to you, you will have to do the leg-work of figuring out the distances per square/hex. 
-
-Vehicles or animals as a means of personal transportation may alter these times, of course. By how much, depends on the specifics of your world. What you may also notice, is that travel by sea or by air is completely left out. That is also because under realistic circumstances, most humans wouldn't or couldn't travel significant distances via these mediums without a vehicle or magical ability. The specifics of these are up to your world. 
+Under normal circumstances, characters can spend at most `12` hours traveling (on foot) before they need a [full rest](#resting) to carry on. Whether these hours are spent consecutively or with _short_ breaks in between, makes no difference. 
 
 ### Forced March
-TODO
+It is possible to push on, past the `12` hour threshold. For every hour more, spent traveling, characters suffer `+1` [exhaustion](#exhaustion) and lose `1D6` [HP](#hit-points-hp), which cannot be regained before they've had a [full rest](#resting). A character's [HP](#hit-points-hp) **cannot** be reduced to less than `10` in this way. 
 
 ### Enduring the Journey
-TODO
+For every increment of `6` hours of travel, characters will need to consume one [ration](#list-of-general-assets). If they don't, they suffer `+1` [exhaustion](#exhaustion) which can only be cleared with a [ration](#list-of-general-assets) and a [full rest](#resting). 
 
 ### Foraging/Hunting
-TODO
+It is possible to hunt/forage for food while traveling, without losing time. You may make tests of the related skills as usual, but with a higher Ob. The rationale is that characters are still primarily focused on moving forward, but for a proper hunt or foraging focus is required and the willingness to stray far from the pre-ordained path. 
+
+Of course, travelers could take a break from moving ahead and invest time into hunting and/or foraging, at a lower Ob. 
 
 ## Down-Time
 When not currently dealing with events on a detailed level - there and in the moment - **PC**'s can spend their time on a more abstract level. This applies especially to activities that take greater amounts of time, such as recovering from injuries, travel, engaging in their trade, honing their [skill](#skills) and so on. 
@@ -1845,6 +1839,7 @@ The following is a list of general assets. Of course, the following list is non-
 | Antidote               | 1    | 2               | This unassuming liquid can make the difference between life and death. Is used in the [treatment of poison](#list-of-poison-injuries). |
 | Herbal Remedy Potion   | 1    | 2               | The sickly green tint and strong odor of the liquid within might not seem enticing, but its efficacy is well worth it. Upon imbibing, restores all currently missing [HP](#hit-points-hp) of a character. |
 | Medical Supplies       | 1    | 2               | A small satchel of clean bandages, thread and needle for suturing, a clean and sharp knife, a splint and straps for binding. Is used in the [treatment](#injury-states--treatment) of various [injuries](#injury). |
+| Ration                 | 1    | 3               | Preserved food and drink to last half a day. |
 
 ### Weapon Properties
 Weapon type assets can have the following **traits**:
@@ -2475,87 +2470,3 @@ A **multiple-single-target** (**MST**) action affects at least one and up to a m
 
 ### Area of Effect (AoE)
 **Area of Effect** (**aoe**) actions affect *every* target that is in the area of effect. 
-
-## Travel Challenges
-Keep in mind that for every challenge presented, you can choose to what degree of detail you wish to play these out. Some challenges have the potential to turn into their own mini-adventures! Be mindful that this may interrupt the current flow of the story. Therefore, always make sure everyone in the group is on the same page when it comes to the resolution of these challenges. 
-
-### Road Challenges
-
-| Range `D6`  | Challenge |
-| ----------- | ----------------------- |
-| 1           | The weather worsens - the next challenge you face causes `+2` [exhaustion](#exhaustion)! |
-| 2           | You encounter a turned-over cart, its owner missing. Could it carry some loot worth taking? Or is this a set-up? |
-| 3           | You encounter a creature! The **GM** will decide which. - Sneak past, flee or fight? |
-| 4           | Bandits! Brigands! - Flee, fight, negotiate or pay for your life? |
-| 5           | You encounter someone wounded. - Help, ignore or rob? |
-| 6           | You encounter a fellow traveler. Share stories, trade, ignore or rob? |
-
-### Plains Challenges
-
-| Range `D10` | Challenge |
-| ----------- | ----------------------- |
-| 1-3         | The weather worsens - the next challenge you face causes `+2` [exhaustion](#exhaustion)! |
-| 4           | You encounter a turned-over cart, its owner missing. Could it carry some loot worth taking? Or is this a set-up? |
-| 5-6         | You encounter a creature! The **GM** will decide which. - Sneak past, flee or fight? |
-| 7           | Bandits! Brigands! - Flee, fight, negotiate or pay for your life? |
-| 8           | You encounter someone wounded. - Help, ignore or rob? |
-| 9           | A treacherous ravine separates your path - go around, over or across? Going around will take another travel increment. Going across will require climbing. Going over will require clever thinking. |
-| 10          | A river separates your path - go around, over or across? Going around will take another travel increment. Going across will require swimming. Going over will require clever thinking. |
-
-### Savannah/Desert Challenges
-
-| Range `D6`  | Challenge |
-| ----------- | ----------------------- |
-| 1           | An oasis! - Stop and rest or move on? Resting will take a time increment. But you could refill your water supply here. |
-| 2           | An oasis? Someone will be convinced they have found one! Roll to determine who. - They will want to stop and rest by their imagined isle of paradise. |
-| 3           | You encounter a creature! The **GM** will decide which. - Sneak past, flee or fight? |
-| 4           | Bandits! Brigands! - Flee, fight, negotiate or pay for your life? |
-| 5           | You encounter someone wounded. - Help, ignore or rob? |
-| 6           | A treacherous ravine separates your path - go around, over or across? Going around will take another travel increment. Going across will require climbing. Going over will require clever thinking. |
-
-### Sparse Forest Challenges
-
-| Range `D10` | Challenge |
-| ----------- | ----------------------- |
-| 1           | The weather worsens - the next challenge you face causes `+2` [exhaustion](#exhaustion)! |
-| 2           | You encounter a turned-over cart, its owner missing. Could it carry some loot worth taking? Or is this a set-up? |
-| 3-6         | You encounter a creature! The **GM** will decide which. - Sneak past, flee or fight? |
-| 7           | Bandits! Brigands! - Flee, fight, negotiate or pay for your life? |
-| 8           | You encounter someone wounded. - Help, ignore or rob? |
-| 9           | A treacherous ravine separates your path - go around, over or across? Going around will take another travel increment. Going across will require climbing. Going over will require clever thinking. |
-| 10          | A river separates your path - go around, over or across? Going around will take another travel increment. Going across will require swimming. Going over will require clever thinking. |
-
-### Hill Challenges
-
-| Range `D6`  | Challenge |
-| ----------- | ----------------------- |
-| 1           | The weather worsens - the next challenge you face causes `+2` [exhaustion](#exhaustion)! |
-| 2           | You encounter a creature! The **GM** will decide which. - Sneak past, flee or fight? |
-| 3           | Bandits! Brigands! - Flee, fight, negotiate or pay for your life? |
-| 4           | You encounter someone wounded. - Help, ignore or rob? |
-| 5           | The ground gives - someone falls! Perhaps the leading character or a randomly rolled one. They suffer `2D6` bludgeoning damage and one randomly rolled [bludgeoning injury](#bludgeoning-injuries)! |
-| 6           | A river separates your path - go around, over or across? Going around will take another travel increment. Going across will require swimming. Going over will require clever thinking. |
-
-### Swamp Challenges
-
-| Range `D6`  | Challenge |
-| ----------- | ----------------------- |
-| 1           | The weather worsens - the next challenge you face causes `+2` [exhaustion](#exhaustion)! |
-| 2           | You encounter a creature! The **GM** will decide which. - Sneak past, flee or fight? |
-| 3           | The ground gives - someone falls into the nasty bog! Perhaps the leading character or a randomly rolled one. They suffer an [illness](#illness) from the nasty water! |
-| 4           | The ground gives - someone sinks deeply into the mud! Perhaps the leading character or a randomly rolled one. It will take a strength test at **Ob** `1D4` to safely get them out! If this fails, they twist something and suffer a [broken limb](#bludgeoning-injuries)! |
-| 5           | Toxic fumes! Power through or go around? Going around will cost a time increment. |
-| 6           | A mosquito swarm surprises you! Everyone who cannot protect themselves may suffer an [illness](#illness), if they fail their test to resist! |
-
-### Mountain Challenges
-
-| Range `D10` | Challenge |
-| ----------- | ----------------------- |
-| 1           | The ground gives - someone falls! Perhaps the leading character or a randomly rolled one. They suffer `2D6` bludgeoning damage and one randomly rolled [bludgeoning injury](#bludgeoning-injuries)! |
-| 2           | A treacherous ravine separates your path - go around, over or across? Going around will take another travel increment. Going across will require climbing. Going over will require clever thinking. |
-| 3           | A landslide catches you off guard - everyone is about to get pummeled by the earth! If this cannot be averted, everyone suffers `2D10` bludgeoning damage! |
-| 4-5         | The weather worsens - the next challenge you face causes `+2` [exhaustion](#exhaustion)! |
-| 6           | You encounter a creature! The **GM** will decide which. - Sneak past, flee or fight? |
-| 7           | Bandits! Brigands! - Flee, fight, negotiate or pay for your life? |
-| 8           | A sheer cliff face barrs your path forward - climb or go around? Going around will cost a time increment. |
-| 9-10        | A small cave might be a shortcut - go in or around? Going around will cost a time increment. Going in may cause other challenges. |
