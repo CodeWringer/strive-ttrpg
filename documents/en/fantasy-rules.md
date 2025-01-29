@@ -491,6 +491,7 @@ In the following table, `Q` refers to the quality grade of the asset. See also t
 | Sleeping Poison        | 1    | 3               | Causes a victim to feel incredibly sleepy. Unless they succeed a [self-control](./core-rules.md#self-control-toughtough) test at `Ob Q`, they will fall asleep the first chance they get. They cannot be woken from this state for at least `6` hours. |
 | Smoke Bomb             | 1    | 3               | A small fragile shell, filled with a very fine powder which when broken causes an area in a `Q * 3'/1m` radius to be covered in smoke. It is impossible to see through and ranged attacks within or through the smoke-covered area suffer `+2` **Ob**. Victims caught in the smoke may be forced to cough. The smoke lasts `6` turns or `30` seconds. |
 | Throwing Blade         | 1    | 6               | A small weighted blade, like a knife or star, well suited to being thrown. Can be used in melee and acts like a [dagger](#dagger-agiawar), but with a penalty of `-2D` to attack and defense. `+1D` when [thrown](./core-rules.md#throwing-accuracy) for a ranged attack. Deals `2D4 + Str piercing` damage. |
+| Illusionist's Powder   | 1    | 2               | A small amount of weakly iridescently shimmering powder. When scattered, the dust remains suspended in mid-air and settles in an image of the making alchemist's choosing, which at a distance can seem perfectly real. It takes a successful test at `Ob Q + 1` to see through the ruse. This image lasts `QD10` minutes. |
 
 ### Weapon Types
 Following are fantasy-themed weapon types. 
@@ -785,8 +786,22 @@ Tools: a distillery, mortar and pestle, a fire place, small containers made of g
 [Crafting](./core-rules.md#crafting) alchemical products requires the alchemist to add ingredients with the correct components and basis to match the recipe's requirements. A recipe with a noted **Ob** can fail and waste the ingredients, while one without cannot fail. The number of **hits** (past the **Ob**) determine the quality grade, or in other words, the efficacy of the product. 
 
 * Every ingredient has properties it adds or subtracts. The sum of the properties must match those of the recipe, in the end. 
-* Properties can be such as "edible", "inedible", "acidic", "alkaline", "explosive", "catalyst", "binding", "soothing".
-* Every ingredient has a basis, such as "organic", "metallic" or "chemical". 
+* Properties:
+  * `acidic`
+  * `alkaline`
+  * `arcane`
+  * `binding`
+  * `catalyst`
+  * `edible`
+  * `enhancing`
+  * `explosive`
+  * `soothing`
+  * `toxic`
+* Bases:
+  * `chemical`
+  * `metallic`
+  * `mineral`
+  * `organic`
 * Some ingredients may act as "boosters". Adding these ingredients automatically adds +1 quality to the finished product (on a successful crafting attempt). 
 * Some ingredients may act as "purifiers", which can remove a subtractive component from another ingredient. 
 
@@ -796,18 +811,19 @@ Alchemist's may also try to push their luck. They may try one of the following, 
 
 | Product                              | Complexity | Workload  | Components                       | Other Materials                  |
 | ------------------------------------ | ---------- | --------- | -------------------------------- | -------------------------------- |
-| Acid Bomb                            | Moderate   | Moderate  | 2 acidic (organic / chemical); 1 catalyst (metallic) | Small dissolution-safe container |
-| Blackpowder Bomb                     | Moderate   | High      | 2 explosive (chemical); 1 binding (organic) | An ignition mechanism, like a plain cord or rope. |
-| Calming Tea                          | Low        | High      | 2 soothing (organic); 2 edible (organic) | / |
-| Dragon's Breath Potion               | High       | High      | 1 catalyst (organic / chemical); 1 explosive (chemical) | Alcohol |
-| Fire Pot (Potion)                    |    |       |  | / |
-| Invigorating Potion                  |    |       |  | / |
-| Laudanum Potion                      |    |       |  | / |
-| Love Potion                          |    |       |  | / |
-| Night-Eye Potion                     |    |       |  | / |
-| Paralyzing Poison                    |    |       |  | / |
-| Sleeping Poison                      |    |       |  | / |
-| Smoke Bomb                           |    |       |  | / |
+| Acid Bomb                            | Moderate   | Moderate  | 2 acidic (organic / chemical); 1 catalyst (metallic / mineral) | Small dissolution-safe container |
+| Blackpowder Bomb                     | Moderate   | High      | 4 explosive (chemical); 1 binding (organic) | An ignition mechanism, like a plain cord or rope. |
+| Calming Tea                          | Low        | High      | 2 soothing (organic); 1 edible (organic) | / |
+| Dragon's Breath Potion               | Moderate   | High      | 1 catalyst (organic / chemical); 1 explosive (chemical) | Alcohol |
+| Fire Pot (Potion)                    | Moderate   | Moderate  | 2 explosive (chemical); 1 binding (organic); 1 catalyst (metallic / mineral) | / |
+| Invigorating Potion                  | Moderate   | Moderate  | 2 soothing (organic); 2 enhancing (organic); 1 restorative (any) | / |
+| Laudanum Potion                      | Moderate   | Moderate  | 2 soothing (organic); 2 restorative (any); 1 toxic (any) | / |
+| Love Potion                          | High       | Moderate  | 2 arcane (any); 1 toxic (any); 1 catalyst (organic) | / |
+| Night-Eye Potion                     | High       | Moderate  | 3 enhancing (organic) | / |
+| Paralyzing Poison                    | Very High  | Moderate  | 4 soothing (chemical); 3 toxic (any); 1 restorative (any) | / |
+| Sleeping Poison                      | Moderate   | Moderate  | 3 soothing (chemical); 2 toxic (any) | / |
+| Smoke Bomb                           | Low        | Moderate  | 2 binding (any) | / |
+| Illusionist's Powder                 | High       | High      | 3 arcane (any), 1 binding (any) | / |
 
 #### Brewing (Wit/Wit)
 The brewing of alcoholic beverages. 
