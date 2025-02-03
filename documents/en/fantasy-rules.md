@@ -20,8 +20,12 @@
     - [Abyssalite](#abyssalite)
     - [Amberite](#amberite)
     - [Ambersteel](#ambersteel)
+    - [Arcane Engine](#arcane-engine)
+    - [Cerebillium](#cerebillium)
     - [Runes](#runes)
     - [Magic Scrolls](#magic-scrolls)
+    - [Malevite](#malevite)
+      - [Malevite Side-Effects](#malevite-side-effects)
 - [Assets](#assets)
   - [Weapon Properties](#weapon-properties)
 - [Appendix](#appendix)
@@ -88,13 +92,16 @@
       - [Weapon Smithing (Str/Wit)](#weapon-smithing-strwit)
       - [Woodcarving (Agi/Agi)](#woodcarving-agiagi)
   - [List of Magic Schools](#list-of-magic-schools)
+    - [Artificing (Arc/Wit)](#artificing-arcwit)
     - [Alteration (Arc/Wit)](#alteration-arcwit)
     - [Cryomancy (Arc/Arc)](#cryomancy-arcarc)
     - [Electromancy (Agi/Arc)](#electromancy-agiarc)
+    - [Hexing (Arc/Arc)](#hexing-arcarc)
     - [Illusion (Arc/Awar)](#illusion-arcawar)
     - [Psionics (Arc/Wit)](#psionics-arcwit)
     - [Pyromancy (Arc/Arc)](#pyromancy-arcarc)
     - [Restoration (Arc/Awar)](#restoration-arcawar)
+    - [Sanguinomancy (Arc/Tough)](#sanguinomancy-arctough)
     - [Soul-Binding (Arc/Tough)](#soul-binding-arctough)
     - [Telekinesis (Arc/Agi)](#telekinesis-arcagi)
     - [Telepathy (Arc/Wit)](#telepathy-arcwit)
@@ -244,9 +251,9 @@ Aside from the materials listed below, you are of course free to invent more as 
 
 Its surface is unnaturally smooth and covered in a fine, iridescent shine. Underneath the smooth surface, one searches for depth and color in vain. It is as though the void itself is being contained by that iridescent shell. However, the more magic flows through it, the stronger its shell shines. This means that when any magically gifted creature touches **Abyssalite**, it shines stronger. 
 
-**Abyssalite** is a hard and brittle mineral, prone to shattering if too much force is applied. This makes it difficult to shape. It is also fairly heavy, which makes it difficult to carry long. 
+**Abyssalite** is a hard and brittle mineral, prone to shattering if too much force is applied. This makes it difficult to shape. It is also fairly heavy, which makes it difficult to carry. 
 
-A fist-sized **Abyssalite** chunk has a [bulk](./core-rules.md#carrying-capacity) of 2 and grants one greater level in the respective school of magic, without costing any extra [magic stamina](#magic-stamina). In order to use the **Abyssalite**, the caster **must** be touching it. 
+A fist-sized **Abyssalite** chunk has a [bulk](./core-rules.md#carrying-capacity) of 2 and grants one greater level in the respective [school of magic](#magic-school--school---attribute-), without costing any extra [magic stamina](#magic-stamina). In order to use the **Abyssalite**, the caster **must** be touching it. 
 
 ### Amberite
 As magic is amplified by [Abyssalite](#abyssalite), its antithesis is called **Amberite**, a metal which dulls the effects of magic and slows any magic flow nearby it. The material is also known to affect magic creatures and can cause great pain in magic-users. 
@@ -269,6 +276,22 @@ A fist-sized **Amberite** chunk is fairly heavy, with a [bulk](./core-rules.md#c
 Due to the length of the process and the difficulty in keeping the right temperature, smiths capable of creating **Ambersteel** are rare. 
 
 **Ambersteel** is also a fairly heavy material, albeit slightly lighter than [Amberite](#amberite). A fist-sized chunk has a [bulk](./core-rules.md#carrying-capacity) of 2. Weapons, shields and armor made from this material are +1 [bulkier](./core-rules.md#carrying-capacity). 
+
+### Arcane Engine
+A man-sized device that can channel and direct the power of a [Malevite Orb](#malevite) or [rune](#runes). Can be activated through [rune-using](#rune-using-agiwit). 
+
+Arcane Engines are mostly useful either as siege engines or as stationary constant magic casters. 
+
+### Cerebillium
+**Cerebillium** is an odd material, that resembles white marble, with faintly glowing veins of green and turqoise running through it. This material is unique in that it always creates a small magical current on its own, which flows back and forth through the veins. 
+
+These veins tend to grow more numerous over time and to "connect" with each other, forming an intricate web. This process is slow, however. It may take years for any significant change to become noticeable. 
+
+These webs eventually become complex enough to form something of a "consciousness". Some of the oldest examples of **Cerebillium** slabs are said to have the intelligence of a small child!
+
+When sufficient magic is sent flowing through it, the veins glow strongly and change shape, following the current. This can be used to alter the "brain". Alternate methods of altering the brain include scratching out veins, trimming the slab or - most difficult - "teaching". This process is difficult, as the **Cerebillium** consciousness is rarely advanced enough to understand morals or other subtle implications. Direct commands may work, but that depends on the density of the web. 
+
+The veins do not spread to other materials. Only the bright marble-like substance seems to find their favor. Thus, cultivating greater amounts of **Cerebillium** is very difficult and requires synthesization of a very unique chemical compound, which is then left to crystallize over a long time. 
 
 ### Runes
 Shards of [Abyssalite](#abyssalite) can have **runes** carved into them, which allow magic to flow through the **runes**. This renders **runes** extremely powerful artifacts, as they can allow for near limitless magic-use, even in the hands of a non-mage. 
@@ -312,6 +335,61 @@ In order to create a **magic scroll**:
 In order to invoke a **magic scroll**:
 * One must unfurl and hold it plainly in the direction the spell is to be cast, then trace the painted symbol on the **magic scroll** to "agitate" the primed magic. 
 * It costs no [magic stamina](#magic-stamina), but the **magic scroll** is immediately destroyed upon use. It burns up magically (even if the material itself is fire-proof). 
+
+### Malevite
+Also known as blood jewel, Malevite is an entirely artificial material, made from the blood of mages, by use of great pressure, a constant arcanic charge and much patience. The more blood it is infused with, the purer the color and more powerful the artifact. 
+
+A blood jewel is a perfectly smooth sphere, with coloration ranging from a foggy and muddy black, to a swirly crimson or at its purest, to a pure and bright crimson.
+
+Once formed, a Malevite orb can not be infused further. It rejects any more mage blood. 
+
+Destroying such an artifact is not an easy feat. It requires a spike of pure [Abyssalite](#abyssalite) driven through it with great force and doing so may tear a temporary hole in the fabric of reality. 
+
+A Malevite orb is an artifact of very great power that can change the laws of physics and warp reality around it. To direct this power, requires an arcane apparatus, wherein the orb functions like a super-charged battery. To build such a device require a deep understanding of the arcanosphere and how it interacts with Malevite.
+
+There are four quality levels. Impure Malevite has side-effects and is not nearly as strong or long-lasting as a purer blood jewel. Once its time is up, the Malevite Orb de-compresses, releasing the blood it was made from in a spectacular hurricane of crimson. 
+
+| Quality | Description | Side-Effects | Longevity |
+| ------- | ----------- | ------------ | --------- |
+| Foggy   | Contains a single spell, at `SI 10`, which can only be controlled with an [Arcane Engine](#arcane-engine). | 3 | 1 Month |
+| Murky   | Contains up to two spells, at `SI 30`, which can only be controlled with an [Arcane Engine](#arcane-engine). | 2 | 1 Year |
+| Swirly  | Contains a weak reality-altering power, which can only be controlled with an [Arcane Engine](#arcane-engine). Can be almost anything, within reason. Things such as a low gravity field, anti-magic field, constant fog-emitter, elemental spewer and similar. | 1 | 100 Years |
+| Pure    | Contains a reality-altering power. Practically anything is possible. The crowning achievement the power hungry and the insane. The closest you can get to god-hood. Requires no [Arcane Engine](#arcane-engine). It has transcended the need for such a paltry shackle. | 0 | Indefinite |
+
+#### Malevite Side-Effects
+
+All of the following is kept vague, because it would be hard to list all possible combinations in a way that makes sense while remaining concise. See the following as inspiration for the **GM**, who will finalize the side-effects. 
+
+Side-effects (`2D6`):
+
+| Roll | 1 Gravity               | 2 Time                   | 3 Souls                  | 4 Elemental              | 5 Psychic                | 6 Alteration             |
+| ---- | ----------------------- | ------------------------ | ------------------------ | ------------------------ | ------------------------ | ------------------------ |
+| 1    | High Gravity            | Slowed                   | Evicted                  | Acid                     | Terror                   | Create mutations         |
+| 2    | Low Gravity             | Accelerated              | Attracted                | Frost                    | Confusion                | Restore purity           |
+| 3    | Sideways Gravity        | Repeating                | Bound                    | Lightning                | Madness                  | Imbue with magic         |
+| 4    | Attraction (Black-Hole) | Jump forward             | Evicted                  | Fire                     | Clairvoyance             | Nullify magic            |
+| 5    | Repulsion               | Jump backward            | Attracted                | Light                    | Emotion cleanse          | Remove magic             |
+| 6    | Anti-Gravity            | From alternate dimension | Bound                    | Sound                    | Pacified                 | Alter shape              |
+
+Area of Effect (`1D4`): 
+
+1. radius
+2. wall
+3. cone
+4. line
+
+Distance/radius `1D20 * 9'/3m`
+
+Trigger (`1D6`):
+
+1. Constant (no trigger, always active)
+2. Periodic
+   1. `1D4`: 1: Minutes, 2: Hours, 3: Days, 4: Weeks
+   2. `1D100`: how many of the above
+3. Vicinity `1D10 * 9'/3m` radius
+4. Sound `1D4`: 1: Perfectly still, 2: Quiet, 3: Loud, 4: Deafening
+5. Light `1D4`: 1: Perfectly dark, 2: Dim, 3: Bright, 4: Blinding
+6. Blood
 
 # Assets
 
@@ -978,9 +1056,9 @@ Tools: axes, hammers, tongs, (if metal) a forge and anvil
 [Crafting](./core-rules.md#crafting)
 | Product                              | Complexity | Workload  | Materials                              | Quality Bonus   |
 | ------------------------------------ | ---------- | --------- | -------------------------------------- | --------------- | 
-| 1 [light shield](#light-shield)                | Moderate   | High      | Any shapeable sturdy and flexible material, such as wood, metal or chitin. | / |
-| 1 [medium shield](#medium-shield)      | Moderate   | High      | Any shapeable sturdy and flexible material, such as wood, metal or chitin. | For every 3 quality levels, starting at level 2, reduction of bulk by 1 (to a minimum of 1). |
-| 1 [heavy shield](#heavy-shield)        | Moderate   | High      | Any shapeable sturdy and flexible material, such as wood, metal or chitin. | For every 3 quality levels, starting at level 2, reduction of bulk by 1 (to a minimum of 2). |
+| 1 [light shield](#light-shield)      | Moderate   | High      | Any shapeable sturdy and flexible material, such as wood, metal or chitin. | / |
+| 1 [medium shield](#medium-shield)    | Moderate   | High      | Any shapeable sturdy and flexible material, such as wood, metal or chitin. | For every 3 quality levels, starting at level 2, reduction of bulk by 1 (to a minimum of 1). |
+| 1 [heavy shield](#heavy-shield)      | Moderate   | High      | Any shapeable sturdy and flexible material, such as wood, metal or chitin. | For every 3 quality levels, starting at level 2, reduction of bulk by 1 (to a minimum of 2). |
 
 #### Tanning/Skinning (Agi/Tough)
 Taking the hide off a creature undamaged. 
@@ -1028,6 +1106,23 @@ In all the following tables, note the following:
 * Whenever distances and radii are concerned, a mage may always choose a *shorter* distance or radius. For example, a `SI * 6'/2m` radius definition, sets the **maximum**. The radius may be at most this large, but can be smaller, if the mage so chooses. 
 * Whenever the effect is unleashed in a **cone**, then at every point it has traveled, it is as wide as far as it has traveled. So for example, at 3'/1m distance, it is 3'/1m wide. At 9'/3m distance, it is 9'/3m wide. 
 
+### Artificing (Arc/Wit)
+The setting of arcane traps and creation of arcane artifacts and materials. 
+
+[Crafting](./core-rules.md#crafting)
+| Product                              | Complexity | Workload  | Ob         | Materials                              | Quality Bonus   |
+| ------------------------------------ | ---------- | --------- | ---------- | -------------------------------------- | --------------- | 
+| Imbued Object, works just like "Place Arcane Charge" | High | Moderate | / | An object to "enchant".                | / |
+| Foggy [Malevite Orb](#malevite)      | Very High  | Very High | 3          | 30 liters / 7 gallons of Mage blood    | / |
+| Murky [Malevite Orb](#malevite)      | Very High  | Very High | 6          | 300 liters / 66 gallons of Mage blood  | / |
+| Swirly [Malevite Orb](#malevite)     | Very High  | Very High | 8          | 3000 liters / 660 gallons of Mage blood | / |
+| Pure [Malevite Orb](#malevite)       | Very High  | Very High | 10         | 30000 liters / 6600 gallons of Mage blood | / |
+| [Arcane Engine](#arcane-engine)      | Very High  | High      | 3          | [Abyssalite](#abyssalite) and a frame-material, like steel. | -1 side-effect for [Malevite Orbs](#malevite). |
+
+| Level | Name                 | AP | Distance | Ob                           | Effect(s)                      | Backfire Effect(s) |
+| ----- | -------------------- | -- | -------- | ---------------------------- | ------------------------------ | ------------------ |
+| 0     | Place Arcane Charge  | 3  | 3'/1m    | SI                           | Concentrate arcane energy on a point in hand's reach. The surface begins to glow and feels receptive. Any other spell that is then cast at the same spot, charges the arcane charge. A trigger defined by the mage will then unleash the stored spell. Note only simple triggers are possible. The charge cannot make distinctions like friend or foe. Example triggers: on touch, on detection of movement in front of the charge, on detection of sound, on the utterance of a specific word. The arcane charge lasts `SI D4` hours. After that, it harmlessly dissipates. The charge is stationary. It cannot be moved. For every `3 SI`, the spell it holds may be `+1 SI` stronger. | The arcane charge becomes unstable. Roll a `D4` to determine in what way. On a 1: the stored spell loses half its `SI` in strength. 2: the charge triggers in `1D6` minutes. 3: the charge immediately dissipates. 4: the stored spell is overriden. Instead, upon triggering, the charge now emits an excruciatingly loud noise. |
+
 ### Alteration (Arc/Wit)
 The alteration of physical things, to change their shape and purpose, permanently. 
 
@@ -1060,6 +1155,17 @@ The summoning and control of lightning. Electricity is fairly versatile - it can
 | 2     | Stunning Shock        | 2  | SI * 15'/5m  | Opposed - SI                 | An aimed arc of lightning strikes a **ST** and adds one stack of [stunned](./core-rules.md#stunned). | The caster is affected, instead. |
 | 5     | UNLIMITED POWER       | 3  | SI * 30'/10m | Opposed                      | A cone of lightning spews forth from the mage's finger tips. Up to `SI + 1` **MST** can be hit with the shock, dealing `SI D6` **electrical** damage. | The caster and anyone next to them is affected, instead. |
 | 5     | Mass Stunning Shock   | 3  | SI * 30'/10m | Opposed                      | Several arcs of aimed lightning spew forth from the mage's finger tips, striking up to `SI + 1` **MST** and adding 3 stacks of [stunned](./core-rules.md#stunned). | The caster and anyone next to them is affected, instead. |
+
+### Hexing (Arc/Arc)
+The casting of curses to weaken others. 
+
+| Level | Name                 | AP | Distance     | Ob                           | Effect(s)                      | Backfire Effect(s) |
+| ----- | -------------------- | -- | ------------ | ---------------------------- | ------------------------------ | ------------------ |
+| 0     | Instill Fear         | 2  | SI * 15'/5m  | Opposed by [self-control](./core-rules.md#self-control-toughtough) | Terrify a victim for `SI` turns. | The caster suffers the effect, instead. |
+| 0     | Slow Down            | 2  | SI * 9'/3m   | Opposed by [self-control](./core-rules.md#self-control-toughtough) | Reduce a target's [AP](./core-rules.md#action-points-ap) per turn by `1` for `SI` turns and reduce their current [AP](./core-rules.md#action-points-ap) by `2`. Does not stack. | The caster suffers the effect, instead. |
+| 1     | Weaken               | 2  | SI * 15'/5m  | Opposed by [toughness](./core-rules.md#toughness-tough) | Cause a target to take twice as much damage from a chosen damage type for `SI` turns. Does not stack. | The caster suffers the effect, instead. |
+| 2     | Atrophy              | 2  | SI * 9'/3m   | Opposed by [toughness](./core-rules.md#toughness-tough) | Weaken a target. They lose `SI` levels of [strength](./core-rules.md#strength-str) and deal `SI` less points of damage per physical attack, for `SI` turns. Does not stack. | The caster suffers the effect, instead. |
+| 2     | Spray Acid           | 2  | SI * 9'/3m   | Opposed                      | Spray acid in a cone, for `SI D6` points of acid damage. | The caster suffers `1D10` points of acid damage. |
 
 ### Illusion (Arc/Awar)
 Creation of non-physical influences on the senses. That includes images, sounds and odors. The illusions cannot cause direct harm, although they can drive an individual to acts that may put them in danger. 
@@ -1104,9 +1210,21 @@ The mending of [injuries](./core-rules.md#injury) and treatment of [diseases](./
 | Level | Name                 | AP | Distance | Ob                           | Effect(s)                      | Backfire Effect(s) |
 | ----- | -------------------- | -- | -------- | ---------------------------- | ------------------------------ | ------------------ |
 | 0     | Treating Touch       | 2  | 3'/1m    | See the injury in question   | An [injury](./core-rules.md#injury) of a **ST** of the mage's choosing, in hand's reach, is magically healed and removed. It may still leave a [scar](./core-rules.md#scar). Restores `SI D10` missing [HP](./core-rules.md#hit-points-hp). | The caster suffers `SI D10` points of [bleeding](./core-rules.md#damage-types) damage. |
-| 2     | Life Leech           | 2  | 3'/1m    | Opposed by [toughness](./core-rules.md#toughness-tough) | Draw the life from a **ST** creature of choice. Deals **SI D4** points of damage while healing another touched creature's or one's own [HP](./core-rules.md#hit-points-hp) for the same amount. Transfers 1 point of [bleeding](./core-rules.md#bleeding) and/or [poisoned](./core-rules.md#poisoned) from the healed creature to the damaged one. | The effect triggers in reverse, drawing **SI** [HP](./core-rules.md#hit-points-hp) from the caster and sending them to their victim. Transfers **SI** points of [bleeding](./core-rules.md#bleeding) and/or [poisoned](./core-rules.md#poisoned) from the target to the caster. |
+| 2     | Life Leech           | 2  | 3'/1m    | Opposed by [toughness](./core-rules.md#toughness-tough) | Draw the life from a **ST** creature of choice. Deals **SI D4** points of damage while healing another touched creature's or one's own [HP](./core-rules.md#hit-points-hp) for the same amount. Transfers 1 point of [bleeding](./core-rules.md#bleeding) and/or [poisoned](./core-rules.md#poisoned) from the healed creature to the damaged one. | The effect triggers in reverse. |
 | 5     | Expel Illness        | 3  | 3'/1m    | 4                            | Removes **SI** number of [illnesses](./core-rules.md#illness) of choice from a **ST** of choice, in hand's reach. | The caster contracts **SI** random [illnesses](./core-rules.md#illness). | 
 | 6     | Revert Mutation      | 4  | 3'/1m    | 6                            | Removes **SI** number of [mutations](./core-rules.md#list-of-mutations) of choice from a **ST** of choice, in hand's reach. | The caster receives **SI** random [mutations](./core-rules.md#list-of-mutations). |
+
+### Sanguinomancy (Arc/Tough)
+In the common tongue, blood magic, utilizes mage blood to control a deeply unsettling power. The used blood must be fresh, although not necessarily from the caster. 
+
+| Level | Name                 | AP | Distance | Ob                           | Effect(s)                      | Backfire Effect(s) |
+| ----- | -------------------- | -- | -------- | ---------------------------- | ------------------------------ | ------------------ |
+| 0     | Infusion             | 1  | /        | SI                           | Suffer `1D4` [bleeding](./core-rules.md#damage-types) damage, as you cut a nasty gash into your flesh  to draw blood. This spell costs `SI` less [magic stamina](#magic-stamina). Arcanically charge the blood and smear it on something (like a weapon). The blood begins to boil, causing it to deal `SI D4` [burning](./core-rules.md#damage-types) damage to the touch. This effect lasts `SI` rounds and does not stack with itself. | The caster suffers `SI D4` points of [bleeding](./core-rules.md#damage-types) damage. |
+| 0     | Snap                 | 2  | 30'/10m  | Opposed by [toughness](./core-rules.md#toughness-tough) + 1 | Snap a twig or similar and channel the destructive power into a victim. They suffer a random [bludgeoning injury](./core-rules.md#bludgeoning-injuries) and `SI` points of [bleeding](./core-rules.md#damage-types) damage. | The caster suffers the injury, instead. |
+| 1     | Blood Whip           | 2  | SI * 15'/5m | Opposed                   | Suffer `1D4` [bleeding](./core-rules.md#damage-types) damage, as you cut a nasty gash into your flesh  to draw blood. This spell costs `SI` less [magic stamina](#magic-stamina). Have your blood lash out at a target, dealing `1D8 + SI slashing` and `SI D6 bleeding` damage. | The caster suffers an `1D10 bleeding` damage. |
+| 2     | Blood Boil           | 2  | SI * 6'/2m  | Opposed by [toughness](./core-rules.md#toughness-tough) + 1 | Bring a victim's blood to a boil. They suffer `SI D6 burning` damage, that [armor](./core-rules.md#armor--shields) cannot reduce. | The caster suffers `1D10 burning` damage, instead. |
+| 2     | Bond of Suffering    | 1  | SI * 15'/5m | Opposed by [toughness](./core-rules.md#toughness-tough) | Suffer `1D4` [bleeding](./core-rules.md#damage-types) damage, as you cut a nasty gash into your flesh to draw blood. This spell costs `SI` less [magic stamina](#magic-stamina). Your blood forms a bond between two designated creatures, who then share all damage and healing. Lasts `SI` turns. | The caster suffers twice as much damage from all physical sources, until the start of their next turn. |
+| 2     | Life Leech           | 2  | 3'/1m    | Opposed by [toughness](./core-rules.md#toughness-tough) | Draw the life from a **ST** creature of choice. Deals `SI D4` points of bleeding damage while healing the caster's [HP](./core-rules.md#hit-points-hp) for the same amount. Transfers 1 point of [bleeding](./core-rules.md#bleeding) and/or [poisoned](./core-rules.md#poisoned) from the healed creature to the damaged one. | The effect triggers in reverse. |
 
 ### Soul-Binding (Arc/Tough)
 Also referred to as **necromancy**, this is the art and skill of calling souls from the **plane of the dead** and binding them, to reanimate corpses or animate an otherwise unliving body. 
