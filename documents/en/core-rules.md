@@ -776,7 +776,7 @@ By playing their character either in accordance with their **personality**, or b
 Of course, [NPCs](#non-player-character-npc) have a **personality**, too. But unlike **PC**s, this is not cemented through rules and they **cannot** earn [fate points](#fate-points). 
 
 ### Ambition
-Every **PC** must have one **ambition** - a life-fulfilling long-term goal to pursue. This can be anything from "found a family" to "become king of the world!". No matter how unrealistic, an **ambition** is a primary driver for a character, to guide them onward. The important part is to think *big* and include some sort of "call for adventure". Something easily achievable would make for a dull **ambition** and defeat the point of it. An ideal **ambition** draws your character out of their comfort zone and out of their safe space and gives them a willingness to engage in adventure. 
+Every **PC** must have one **ambition** - a life-fulfilling long-term goal to pursue. This can be anything from "found a family" to "become king of the world!". No matter how unrealistic, an **ambition** is a primary driver for a character, to guide them onward. The important part is to think *big* and include some sort of "call for adventure". Something easily achievable would make for a dull **ambition** and defeat the point of it. An ideal **ambition** draws your character out of their comfort zone and safe space, imbuing them with a willingness to leave home and go out into the world! 
 
 An **ambition** is not *expected* to change often. An ideal **ambition** would accompany a character a long time. But that isn't to say you mustn't ever change it. On the contrary, if events play out that shake up your character's deepest desires, then changing their **ambition** may be a very appropriate action to take.
 
@@ -785,7 +785,7 @@ Whenever a **PC** acts in accordance with their **ambition**, their player earns
 ### Aspiration
 Every **PC** must have three **aspirations** - immediate goals to pursue in the current game session. They're usually born from immediate circumstance and are expected to change frequently. 
 
-**Aspirations** should be written down as a *conviction*, followed by an *actionable* goal to pursue. Any **aspiration** that includes the words "I will ..." is usually *actionable* - the character wants to **do** something, which will possibly achieve their goal. A *conviction* is a statement of *why* the character has set this goal. 
+**Aspirations** should be written down as a *conviction*, followed by an *actionable* goal to pursue. Any **aspiration** that includes the words "I will ..." is usually *actionable* - the character wants to **do** something, which will possibly achieve their goal. A *conviction* is a statement of *why* the character has set this goal. The **action** is the critical piece of information here - what your character *aims to do*. 
 
 > For example, a **PC** learns of a conspiracy against their lord during the session. After the session, they decide they'll change one of their **aspirations** to "My lord's safety is paramount! I will uncover the plot against them!"
 >
@@ -793,13 +793,21 @@ Every **PC** must have three **aspirations** - immediate goals to pursue in the 
 > 
 > With that they set the stage for their character when the next session arrives. The **GM** thus has an idea of what story elements to prepare for and the other players know why the one **PC** suddenly acts more suspiciously and inquisitively. 
 
-**Aspirations** can be directed towards anyone - including the world itself, **NPC**s and even other **PC**s. 
+Whether fulfilling an aspiration is realistic or not, is not as important as making sure it reflects what your character believes in. You may very much have unrealistic goals, but they must be in line with what you expect your character to *want*. 
 
-> For example, a **PC** learns their ally is a member of a secretive and potentially dangerous cult. After the session, the player determines the new **aspiration** "I look out for my allies! I will get my ally to leave that dangerous cult!" 
+> Someone very selfish is unlikely to want to help poor orphans living on the street to find a loving family and new home, without any promise of reward for themselves. Even if helping those orphans would likely be very easy to accomplish in the next session, unless it can be plausibly explained, the character should probably not receive an aspiration to help those orphans. 
+>
+> On the other hand, that same character may want to become president. It is unlikely they will succeed (at least any time soon), but this is what they strongly desire. And so they might receive an aspiration for it, regardless of how unlikely this goal is. 
+
+**Aspirations** can be directed towards anyone - including the world itself, **NPC**s and even other **PC**s - but **only** if their player agrees. Always keep in mind not to do anything *too* drastic or antagonistic towards fellow **PC**s! After all, why should people who actually hate each other's guts stick together as a group? Perhaps you can find a good reason, but this should be a **deliberate decision** that the **entire player group agrees on**. This is why it cannot be overstated how important it is that everyone is on the same page regarding **every character's aspirations**. 
+
+> For example, a **PC** learns their ally is a member of a secretive and potentially dangerous cult. After the session, the player determines the new **aspiration** "I look out for my allies! I will get my ally to leave that dangerous cult!" The player of that other **PC** accepts, because they understand that aspiration to follow a well-meaning conviction. 
 > 
-> Whether successful or not, this **aspiration**, in play, will create an **interesting conflict** between the two **PC**s. But always keep in mind not to do anything *too* drastic or antagonistic towards fellow **PC**s. After all, why should people who actually hate each other's guts stick together as a group? Perhaps you can find a good reason, but this should be a deliberate decision that the entire player group agrees on. 
+> Whether successful or not, this **aspiration**, in play, will create an **interesting conflict** between the two **PC**s, if they so choose. 
 
-If you cannot think of three **aspirations**, don't hesitate to ask the **GM** and the other players for ideas and suggestions! And once you have all three, make sure to run them by your **GM**. After all, your **GM** must be able to understand your **aspirations** to properly run the game. 
+Should anyone feel uncomfortable with an aspiration someone has chosen, then do not hesitate to bring it up. Perhaps the aspiration is crossing a line, touching on a taboo-subject for you. Everyone should be able to agree with the aspirations the players have chosen. If that is ever not the case, then the problematic aspirations must be changed! 
+
+If you cannot think of three **aspirations**, don't hesitate to ask the **GM** and the other players for ideas and suggestions! Once you have all three **aspirations**, make sure to run them by your **GM** and fellow players. Again, this is to ensure that everyone understands and agrees with the aspirations that have been chosen. If an aspiration seems unclear, then pose the question "does it contain a **clear action** that **PC** is going to try and take?". If you cannot answer that question without doubt, then the phrasing of the aspiration may need some refinement. This is especially important for the  **GM**, who must be able to understand your **aspirations** to properly run the game. 
 
 Whenever a **PC** acts in accordance with their **aspirations**, their player earns [fate points](#fate-points). 
 
@@ -1081,10 +1089,7 @@ Non-player characters (**NPC**s) are all the people, animals and monsters of a w
 **NPC**s are built differently from **PC**s. Not all the same rules apply to them as **PC**s. The following differences exist:
 * **NPCs** **cannot** earn [fate points](#fate-points). 
 * **NPC**s don't *need* the [personality](#personality) section. A **GM** *may choose* to include it for the *main actor* **NPC**s, but for your average animal or passing acquaintance, no personality need be marked down. 
-* [Challenge ratings](./gm-guide.md#challenge-ratings-cr) abstract away the need to explicitly fill out [attribute](#attributes) or [skill](#skills) levels. 
 * **NPC**s don't *need* advancement progress to be tracked. Thus, [learning skills](#learning-skills) are also optional. 
-
-The rules about [Challenge ratings](./gm-guide.md#challenge-ratings-cr) can be looked up in the **GM** guide. Keep in mind the **GM** guide is mostly reserved for the **GM**. Regardless, **challenge ratings** are mentioned here to let both players and **GM** know of this tool, which can speed up the flow of the game *significantly*. 
 
 # Fate Points
 Fate points (**FP**) represent a meta-currency that *players* can earn and use to buy boons for their character or the group as a whole. At the end of every session, players and the **GM** should discuss who earned which **FP**, followed by awarding those **FP**. 
