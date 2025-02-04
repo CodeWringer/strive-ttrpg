@@ -1210,7 +1210,7 @@ Whenever resting in an unsafe environment, such as out in the wild or on a city'
 > Their ally, who is also staying awake with them, decides to help them stay awake by making use of their Commanding skill. They are a superior officer and their commands carry weight, which helps their underling ally stay awake. 
 
 ## Travel & Terrain
-Whenever players are presented with an overworld map, with distinct locations marked on it and players ask the question, "how do we get from *here* to *there*?", the question of travel comes up. These rules aim to provide an answer, though you may of course substitute your own or even skip travel, if your group *really* loathes it. 
+Whenever players are presented with an overworld map, with distinct locations marked on it and players ask, "how do we get from *here* to *there*?", the question of travel comes up. These rules aim to provide an answer, though you may of course substitute your own or even skip travel, if your group *really* loathes it. 
 
 The following table suggests distances per hour of travel. 
 
@@ -1232,7 +1232,7 @@ Under normal circumstances, characters can spend at most `12` hours traveling (o
 It is possible to push on, past the `12` hour threshold. For every hour more, spent traveling, characters suffer `+1` [exhaustion](#exhaustion) and lose `1D6` [HP](#hit-points-hp), which cannot be regained before they've had a [full rest](#resting). A character's [HP](#hit-points-hp) **cannot** be reduced to less than `10` in this way. 
 
 ### Enduring the Journey
-For every increment of `6` hours of travel, characters will need to consume one [ration](#list-of-general-assets). If they don't, they suffer `+1` [exhaustion](#exhaustion) which can only be cleared with a [ration](#list-of-general-assets) and a [full rest](#resting). 
+For every increment of `6` hours of travel, characters will need to consume one [ration](#list-of-general-assets). If they don't, they suffer `+1` [exhaustion](#exhaustion) which can only be cleared with a [ration](#list-of-general-assets) during a [full rest](#resting). 
 
 ### Foraging/Hunting
 It is possible to hunt/forage for food while traveling, without losing time. You may make tests of the related skills as usual, but with a higher Ob. The rationale is that characters are still primarily focused on moving forward, but for a proper hunt or foraging focus is required and the willingness to stray far from the pre-ordained path. 
