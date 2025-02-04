@@ -4,7 +4,6 @@
   - [Getting a Game Together](#getting-a-game-together)
   - [Your World](#your-world)
     - [Non-Player Character (NPC)](#non-player-character-npc)
-      - [Challenge Ratings (CR)](#challenge-ratings-cr)
       - [Bring NPCs To Life](#bring-npcs-to-life)
     - [First Impressions Are Definitive](#first-impressions-are-definitive)
   - [Your Game](#your-game)
@@ -78,28 +77,6 @@ Non-player characters (**NPC**s) are all the people, animals and monsters of you
 However, there is a distinction made between "proper" **NPC**s and "simple" type **NPC**s. 
 * A "proper" **NPC** has a fully filled out character sheet, with distinct values for each attribute and every skill. These are main actors in the story that aren't **PC**s. They will be the key figures that hand out quests, help or hinder the **PC**s' progress and follow defined agendas of their own. 
 * A "simple" **NPC** is only a passing acquaintance, an animal or a faceless enemy in a conflict. They serve as temporary obstacles or "padding" in a scene, to give it liveliness without the bureaucratic overhead of creating proper **NPC**s. 
-
-#### Challenge Ratings (CR)
-**Challenge ratings** (**CR**) simplify **NPC** creation tremendously. Instead of distinct values for every attribute and skill, you can define *just one* **CR** for all the attributes and skills of the **NPC**. 
-
-**Every** [opposed test](./core-rules.md#opposed-test) targeting this **NPC** is answered with this **CR**. And every test initiated by this **NPC** uses the **CR** number of dice. 
-
-E. g., for any [attribute](./core-rules.md#attributes) or [skill](./core-rules.md#skills), every [opposed test](./core-rules.md#opposed-test) is made with the same number of dice. This allows you to delegate [opposed tests](./core-rules.md#opposed-test) entirely to your players. Simply name them the **CR**s for the **NPC**s they face - perhaps with a small note or card that can be placed on the table - and they can roll their **Ob** on their own, without your involvement. 
-
-> For example, a **NPC** with a **CR** of 3 would answer **all** skill or attribute tests with **3D6**. The rolled **hits** then determine the **Ob** for the **PC**. 
-
-Of course, such **NPC**s may still suffer [injuries](./core-rules.md#injury), which may impose penalties to their skills and attributes. Since **NPC**s with active **CR** don't allow for the granularity that injuries would normally expect, all penalties (and boons) apply directly to the **CR**. This means **CR**s themselves also allow for a modifier to apply to them, which results in a **modified CR**, which dictates the number of dice they actually have available in tests. 
-
-> Back to the **NPC** with a **CR** of 3. If they suffered an injury that reduced their **agility** by 1, then this would reduce their **CR** to 2. 
-> 
-> Granularity is lost, but the trade-off is far less bureaucratic overhead. 
-
-When picking a **CR**, consult the following guideline:
-* 1-2 results in a fairly easy opponent.
-* 3-4 results in a manageable opponent.
-* 5-6 results in a difficult opponent. 
-* 7+ results in a masterful opponent. 
-  * At this point, we enter the territory of unique characters and creatures. Consider if maybe a fully fledged **NPC** might be preferable to **CR**, as granularity may make such opponents much more interesting and give your players more specific tactical options. 
 
 #### Bring NPCs To Life
 Much like the **PC**s, or in fact real people, *proper* **NPC**s lead their own lives, with their own ambitions, aspirations, reactions, strengths and weaknesses. Keeping track of all of the numbers that implies, can become quite the challenge. But you won't have to come up with all those numbers right away or track them all the time.
