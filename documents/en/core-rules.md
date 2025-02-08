@@ -2089,15 +2089,24 @@ The ability to paint and draw well, as well as a general sense of aesthetics.
 | 1 painting or sculpture.             | Moderate   | Moderate  | Any paintable or shapeable object, such as a canvas or chunk of marble. | / |
 
 #### Cooking (Awar/Wit)
-The ability to cook well. Poor cooks are prone to losing ingredients due to burning them or overcooking them to the point of inedibility. 
+The ability to cook hearty and sweet meals that can strengthen and invigorate. Poor cooks are prone to losing ingredients due to burning them or overcooking them to the point of inedibility. 
 
-Tools: cooking utensils, a pot or pan, a fire place
+Tools: cooking utensils, a pot or pan, a strong heat source
+
+A cook may choose to make the meal confer certain boons, at the expense of increasing the Ob by `+1`, once for each of the following boons:
+* Increase maximum HP by `Q D4`, for an hour. 
+* Increase [base initiative](#base-initiative) by `Q`, for an hour. 
+* Increase [strength](#strength-str) or [toughness](#toughness-tough) by `Q / 2 (rounded up)`, for an hour. 
+* Resist half of all [freezing](#damage-types) or [burning](#damage-types) or [bleeding](#damage-types), for an hour. 
+
+All meals always restore `Q HP` and reduce exhaustion by `Q`. 
+
+The boons from meals do not stack. Eating a second meal will have it override all of a previous meal's boons. The strength of boons is determined at the time of creation and are the same for all characters who share in the meal. 
 
 [Crafting](#crafting)
-| Product                              | Complexity | Workload  | Materials                              | Quality Bonus   |
-| ------------------------------------ | ---------- | --------- | -------------------------------------- | --------------- | 
-| A meal for a few people              | Low        | Moderate  | Foodstuffs                             | / |
-| A meal for many people               | Moderate   | High      | Plenty of foodstuffs                   | / |
+| Product                              | Complexity | Workload  | Ob | Materials                              | Quality Bonus   |
+| ------------------------------------ | ---------- | --------- | -- | -------------------------------------- | --------------- | 
+| Meal                                 | Low        | High      | 1  | Foodstuffs                             | Restores `Q HP` and reduces exhaustion by `Q`. |
 
 ### Specializations
 These skills always require other skills to be **known** at a given level or at least at level 1, before they can be learned. 
