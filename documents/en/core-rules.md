@@ -1831,6 +1831,7 @@ Many Expertises will be most useful in combat scenarios, but you are encouraged 
 When reading through the Expertises, some terminology is involved:
 * A **passive** Expertise is always active, when certain conditions are met. 
 * A **reaction** Expertise either automatically or optionally activates when certain conditions are met. If the reaction is not automatic, you may *choose* to activate it, or abstain from its use. 
+* The **primary damage** is that damage of an attack which is the highest, before any modifications are applied to it. For example, if by default a weapon deals `1D8 slashing + 1D4 bludgeoning`, then the slashing damage is considered its primary damage. 
 
 ### Physical Skills
 These skills have a dominant physical aspect and are directly tied to a character's *physical attributes*. 
