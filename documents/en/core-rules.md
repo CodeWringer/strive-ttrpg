@@ -266,10 +266,10 @@ In some places, where distances are concerned, both feet and meters are noted as
 
 The following types of dice come into play:
 * **D4** - four-sided dice. Four of these will be enough for most situations. 
-* **D6** - six-sided dice. You will need a lot of these. One dozen should suffice. 
-* **D8** - eight-sided dice. Four of these will be enough for most situations. 
-* **D10** - ten-sided dice. Four of these will be enough for most situations. 
-* **D20** - twenty-sided dice. Just one of these will be enough. Can also be substituted with `2 D20`s. 
+* **D6** - six-sided dice. You will need a lot of these. Ten should be enough for most situations. 
+* **D8** - eight-sided dice. Three of these will be enough for most situations. 
+* **D10** - ten-sided dice. Three of these will be enough for most situations. 
+* **D20** - twenty-sided dice. Just one of these will be enough. Can also be substituted with `2 D10`s. 
 
 ## Before the Game
 The very first step of preparing for play, is to decide on a theme, world and setting of the game. Ideally, the players and **GM** decide together, but ultimately, the **GM**'s preferences should hold a greater weight. When a **GM** isn't really interested in the theme, world and setting, the game will quickly start feeling like a chore to them. The result is they lose motivation to keep running the game. No one wants that. But not to worry! As long as you communicate and respect your **GM**'s wishes, you'll have no problem finding common ground. 
