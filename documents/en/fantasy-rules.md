@@ -635,6 +635,7 @@ This weapon requires masterful precision and rewards its user with great versati
 
 Requires knowing [Acrobatics](#acrobatics-agistr) and another bladed [weapon skill](#weapon--weapon-type---attribute-), each at least at level 3. 
 
+* Melee
 * Ranged
 * Bulk: 3
 * All ranged attacks [Prefer Range](core-rules.md#weapon-properties)
