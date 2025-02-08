@@ -906,8 +906,8 @@ Alchemist's may also try to push their luck when crafting. They may try one of t
 
 Pure alchemical ingredients, which only add one type of component are very rare. It is an alchemist's reality that they mostly deal with impure ingedients, which add and subtract various components. Ingredients may be acquired in a variety of ways. 
 
-* Out in the wild, it is possible to *forage* for them. With **any skill** whose use can be plausibly explained, for **every hour** spent foraging, at `Ob 4`, you may acquire **one** `organic` ingredient. 
-* When *gutting* an animal or monster carcass, with **any skill** whose use can be plausibly explained, at `Ob 2`, you may acquire `1 organic` ingredient. 
+* Out in the wild, it is possible to *forage* for them. With **any skill** whose use can be plausibly explained, for **every hour** spent foraging, at `Ob 4`, you may acquire **one** ingredient. 
+* When *gutting* an animal or monster carcass, with **any skill** whose use can be plausibly explained, at `Ob 2`, you may acquire `1` ingredient. 
 * By finding specific sources of specific types of ingredients, which are guaranteed to have certain components on them. 
 * Purchasing ingredients is not as straight-forward as one might expect. Even the suppliers of such goods won't have many pure - if any - ingredients. Depending on how well supplied the vendor is, the **GM** may choose to let you roll for your ingredients (as outlined below) or let you purchase exactly what you want - at a premium, of course. 
 
