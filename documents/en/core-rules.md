@@ -166,6 +166,8 @@
       - [Self-Control (Tough/Tough)](#self-control-toughtough)
     - [Knowledge Skills](#knowledge-skills)
       - [Architecture (Awar/Wit)](#architecture-awarwit)
+      - [Archeology (Awar/Wit)](#archeology-awarwit)
+      - [Creature-Lore \<category?\> (Awar/Wit)](#creature-lore-category-awarwit)
       - [Geography (Awar/Wit)](#geography-awarwit)
       - [Geology (Awar/Wit)](#geology-awarwit)
       - [History \< subject \> (Wit/Wit)](#history--subject--witwit)
@@ -1997,6 +1999,23 @@ These skills have a dominant mental aspect and are strongly related to a charact
 
 #### Architecture (Awar/Wit)
 Analysing and planning buildings. Discerning weak points in a structure. 
+
+#### Archeology (Awar/Wit)
+An eye for historic detail, the ability to date such things and the capacity to plan and lead archeological digs and expeditions. 
+
+| Level | Name                 | AP | **Ob**  | Effect(s)          | Condition(s) |
+| ----- | -------------------- | -- | ------- | ------------------ | ------------ |
+| 2     | Look For Curios      | 1  | 2       | Look around for curios - things from a bygone age - and if successful, then the number of hits past the Ob you score, determine its significane and worth. Can only be used in places lost to time and only once per location. Your **GM** will determine the specifics in terms of money value and [bulk](#bulk). |  |
+
+#### Creature-Lore <category?> (Awar/Wit)
+Knowledge about a specific type/family of creature. You can recollect knowledge regarding the strengths and weaknesses, as well as behavior, origin and occurrence. 
+
+Types/families are the broad terms that describe multiple specific creatures as sharing many similarities. These will be specific to the world and setting and examples could be such as "undead", "human", "abomination", "beast" and so on.
+
+| Level | Name                 | AP | **Ob**  | Effect(s)          | Condition(s) |
+| ----- | -------------------- | -- | ------- | ------------------ | ------------ |
+| 1     | I Know Your Weakness | /  | /       | Passive/Reaction: Every creature has weak-points. You know how to aim for them and deal `+1D4` points of your primary damage on a successful attack, *if* this is a creature of the category you are familar with. |  |
+| 2     | I Know Your Strength | /  | /       | Passive/Reaction: When you are hit by a creature you are familiar with, you suffer `1D4` fewer points of their primary damage. Their effective damage against you cannot be reduced to less than `1` by this. |  |
 
 #### Geography (Awar/Wit)
 Knowledge about the geography of the world. Used to recall the location of places in relation to each other. 
