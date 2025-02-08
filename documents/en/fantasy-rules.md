@@ -52,6 +52,7 @@
       - [Light Blade (Agi/Str)](#light-blade-agistr)
       - [Long Blade (Agi/Str)](#long-blade-agistr)
       - [Great Blade (Str/Tough)](#great-blade-strtough)
+      - [Chained-Blade (Agi)](#chained-blade-agi)
       - [Axe (Str/Str)](#axe-strstr)
       - [Great Axe (Str/Str)](#great-axe-strstr)
       - [Spear (Agi/Str)](#spear-agistr)
@@ -560,7 +561,7 @@ The following is a list of general assets. Of course, the following list is non-
 | Smoke Bomb             | 1    | 3               | A small fragile shell, filled with a very fine powder which when broken causes an area in a `6'/2m` radius to be covered in smoke. It is impossible to see through and ranged attacks within or through the area suffer `+2` **Ob**. Victims caught in the smoke may be forced to cough. The smoke lasts 6 turns or 30 seconds. |
 | Acid Bomb              | 1    | 3               | A small fragile shell with two compartments, filled with two liquids which, when they combine, act as a powerful acid. When shattered, deals `2D8 Acid` damage to whatever it hits.  |
 | Blackpowder Bomb       | 1    | 2               | A small iron-shelled bomb, filled with blackpowder. A short fuse sticks out and must be lit to set it off. Once lit, the bomb will detonate after 3 turns or 15 seconds. Deals `2D6 Bludgeoning + 2D6 Burning` damage to anyone in a `6'/2m` radius.  |
-| Throwing Blade         | 1    | 6               | A small weighted blade, like a knife or star, well suited to being thrown. Can be used in melee and acts like a [dagger](#dagger-agiawar), but with a penalty of **-2D** to attack and defense. **+1D** when [thrown](./core-rules.md#throwing-accuracy) for a ranged attack. Deals **2D4 + Str** **piercing** damage. |
+| Throwing Blade         | 1    | 6               | A small weighted blade, like a knife or star, well suited to being thrown. Can be used in melee and acts like a [dagger](#dagger-agiawar), but with a penalty of **-2D** to attack and defense. **+1D** when [thrown](./core-rules.md#throwing-accuracy) for a ranged attack. Deals `2D4 + Str Piercing` damage. |
 
 ### Weapon Types
 Following are fantasy-themed weapon types. 
@@ -626,6 +627,29 @@ Any very long and heavy two-handed blade. Examples: great-sword, sword of war, g
 | 0     | Stab                 | 2  | Opposed     | `2D8 + Agi` Piercing             | / |
 | 2     | Blade Barrier        | 2  | Opposed     | /                                | Whenever any character moves **into** a spot within reach, can attack that character with a **slash** at `Ob + 1` and always force them back `3'/1m`, until the start of your next turn. These attacks do not cost any additional **AP**. |
 | 3     | Heavy Blow           | 3  | Opposed + 2 | `3D8` Slashing                   | Defending against this attack costs 2 [AP](./core-rules.md#action-points-ap). |
+
+#### Chained-Blade (Agi)
+A down-angled, weighted blade, with a spike forwards, perfect for throwing and connected to a very light chain or rope, for easy retrieval. 
+
+This weapon requires masterful precision and rewards its user with great versatility. 
+
+Requires knowing [Acrobatics](#acrobatics-agistr) and another bladed [weapon skill](#weapon--weapon-type---attribute-), each at least at level 3. 
+
+* Melee
+* Ranged
+* Bulk: 3
+* All ranged attacks [Prefer Range](core-rules.md#weapon-properties)
+
+| Level | Name                 | AP | **Ob**      | Max. Distance       | Damage                           | Notes  |
+| ----- | -------------------- | -- | ----------- | ------------------- | -------------------------------- | ------ |
+| 0     | Slash                | 2  | Opposed     | Melee (Adjacent)    | `2D6 + Str` Slashing    | / |
+| 0     | Stab                 | 2  | Opposed     | Melee (Adjacent)    | `1D8 + Agi` Piercing    | / |
+| 0     | Curved Toss          | 2  | Opposed     | 24'/8m              | `2D6 + Agi` Slashing    | Throw the weapon just past a target and then with a flick, make it jump at their back and upon impact, immediately retrieve it. |
+| 0     | Straight Toss        | 2  | Opposed     | 24'/8m              | `2D4 + Agi` Piercing    | Throw the weapon straight at a target and upon impact, immediately retrieve it. |
+| 0     | Whip                 | 2  | Opposed     | 24'/8m              | `2D6 + Str` Bludgeoning | Swing the chain/rope at a target and whip it with it, then immediately retrieve it. |
+| 1     | Leg Sweep            | 2  | Opposed     | 24'/8m              | `2D4 + Agi` Slashing    | Swing the weapon at length and low, to sweep for an opponent's legs. Upon impact, yank the chain/rope to sweep them off their feet, rendering them [prone](./core-rules.md#prone) and then immediately retrieve your weapon. |
+| 1     | Think Twice          | 1  | Opposed + 1 | 24'/8m              | `2D4 + Agi` Piercing    | Reaction: Upon one of your allies attacking an enemy, you also throw your weapon straight at that enemy. Your ally's attack is `-1` Ob easier as the enemy is confused by the two simultaneous attacks and instead focuses on you! Your attack does **not** cost the enemy any additional AP to defend. Upon impact, immediately retrieve your weapon. |
+| 1     | Come Closer          | 2  | Opposed     | 24'/8m              | `2D4 + Agi` Slashing    | Throw the weapon just past a target and then yank it back, catching them with it and pulling them `9'/3m` closer to you. If the target is much larger and/or heavier than you, then you may pull *yourself* closer to them, for the same distance. Then immediately retrieve your weapon. |
 
 #### Axe (Str/Str)
 Small and light axes. Examples: hatchet, woodcutter's axe
@@ -725,6 +749,7 @@ A short distance ranged weapon, shooting arrows.
 | Level | Name                 | AP | **Ob**      | Distance increments | Damage                     | Notes  |
 | ----- | -------------------- | -- | ----------- | ------------------- | -------------------------- | ------ |
 | 0     | Loose                | 2  | Opposed     | 30'/10m             | `3D4` Piercing             | / |
+| 1     | Pin                  | 2  | Opposed + 1 | 30'/10m             | `2D4` Piercing             | Shoot the enemy in their foot. If the attack is successful, they are considered [rooted](./core-rules.md#rooted) until the end of their next turn. |
 | 1     | Heavy Shot           | 3  | Opposed + 1 | 30'/10m             | `3D4 + Str` Piercing       | / |
 | 2     | Double Shot          | 3  | Opposed     | 30'/10m             | `2D4` Piercing             | Can attack twice and thus deal its damage to two different targets, or the same target twice.  |
 
@@ -739,6 +764,7 @@ A long distance ranged weapon, shooting arrows.
 | Level | Name                 | AP | **Ob**      | Distance increments | Damage                     | Notes  |
 | ----- | -------------------- | -- | ----------- | ------------------- | -------------------------- | ------ |
 | 0     | Loose                | 2  | Opposed     | 45'/15m             | `3D6` Piercing             | / |
+| 1     | Pin                  | 2  | Opposed + 1 | 45'/15m             | `2D6` Piercing             | Shoot the enemy in their foot. If the attack is successful, they are considered [rooted](./core-rules.md#rooted) until the end of their next turn. |
 | 1     | Heavy Shot           | 3  | Opposed + 1 | 45'/15m             | `3D6 + Str` Piercing       | / |
 
 #### War-Bow (Str/Tough)
@@ -765,6 +791,7 @@ A deadly medium distance ranged weapon, shooting quarrels. Beware its slow reloa
 | Level | Name                 | AP | **Ob**      | Distance increments | Damage                     | Notes  |
 | ----- | -------------------- | -- | ----------- | ------------------- | -------------------------- | ------ |
 | 0     | Loose                | 2  | Opposed     | 60'/20m             | `3D8` Piercing             |  |
+| 1     | Pin                  | 2  | Opposed + 1 | 60'/20m             | `2D8` Piercing             | Shoot the enemy in their foot. If the attack is successful, they are considered [rooted](./core-rules.md#rooted) until the end of their next turn. |
 
 #### Firearm (Awar/Awar)
 A very deadly short to medium distance ranged weapon, shooting musket balls that are likely to penetrate armor. Beware its slow reload. 
@@ -1101,7 +1128,7 @@ The casting of curses to weaken others.
 | 0     | Instill Fear         | 2  | SI * 15'/5m  | Opposed by [self-control](./core-rules.md#self-control-toughtough) | Terrify a victim for `SI` turns. | The caster suffers the effect, instead. |
 | 0     | Slow Down            | 2  | SI * 9'/3m   | Opposed by [self-control](./core-rules.md#self-control-toughtough) | Reduce a target's [AP](./core-rules.md#action-points-ap) per turn by `1` for `SI` turns and reduce their current [AP](./core-rules.md#action-points-ap) by `2`. Does not stack. | The caster suffers the effect, instead. |
 | 1     | Weaken               | 2  | SI * 15'/5m  | Opposed by [toughness](./core-rules.md#toughness-tough) | Cause a target to take twice as much damage from a chosen damage type for `SI` turns. Does not stack. | The caster suffers the effect, instead. |
-| 2     | Atrophy              | 2  | SI * 9'/3m   | Opposed by [toughness](./core-rules.md#toughness-tough) | Weaken a target. They lose `SI` levels of [strength](./core-rules.md#strength-str) and deal `SI` less points of damage per physical attack, for `SI` turns. Does not stack. | The caster suffers the effect, instead. |
+| 2     | Atrophy              | 2  | SI * 9'/3m   | Opposed by [toughness](./core-rules.md#toughness-tough) | Weaken a target. They lose `SI` levels of [strength](./core-rules.md#strength-str) and deal `SI` fewer points of damage per physical attack, for `SI` turns. Does not stack. | The caster suffers the effect, instead. |
 | 2     | Spray Acid           | 2  | SI * 9'/3m   | Opposed                      | Spray acid in a cone, for `SI D6` points of acid damage. | The caster suffers `1D10` points of acid damage. |
 
 ### Illusion (Arc/Awar)

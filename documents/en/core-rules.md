@@ -166,6 +166,8 @@
       - [Self-Control (Tough/Tough)](#self-control-toughtough)
     - [Knowledge Skills](#knowledge-skills)
       - [Architecture (Awar/Wit)](#architecture-awarwit)
+      - [Archeology (Awar/Wit)](#archeology-awarwit)
+      - [Creature-Lore \<category?\> (Awar/Wit)](#creature-lore-category-awarwit)
       - [Geography (Awar/Wit)](#geography-awarwit)
       - [Geology (Awar/Wit)](#geology-awarwit)
       - [History \< subject \> (Wit/Wit)](#history--subject--witwit)
@@ -183,6 +185,8 @@
     - [Craftsmanship Skills](#craftsmanship-skills)
       - [Artistry (Agi/Awar)](#artistry-agiawar)
       - [Cooking (Awar/Wit)](#cooking-awarwit)
+    - [Specializations](#specializations)
+      - [Warcrobatics (Agi/Awar)](#warcrobatics-agiawar)
   - [List of Conditions](#list-of-conditions)
     - [Berserk](#berserk)
     - [Burning](#burning)
@@ -264,10 +268,10 @@ In some places, where distances are concerned, both feet and meters are noted as
 
 The following types of dice come into play:
 * **D4** - four-sided dice. Four of these will be enough for most situations. 
-* **D6** - six-sided dice. You will need a lot of these. One dozen should suffice. 
-* **D8** - eight-sided dice. Four of these will be enough for most situations. 
-* **D10** - ten-sided dice. Four of these will be enough for most situations. 
-* **D20** - twenty-sided dice. Just one of these will be enough. Can also be substituted with `2 D20`s. 
+* **D6** - six-sided dice. You will need a lot of these. Ten should be enough for most situations. 
+* **D8** - eight-sided dice. Three of these will be enough for most situations. 
+* **D10** - ten-sided dice. Three of these will be enough for most situations. 
+* **D20** - twenty-sided dice. Just one of these will be enough. Can also be substituted with `2 D10`s. 
 
 ## Before the Game
 The very first step of preparing for play, is to decide on a theme, world and setting of the game. Ideally, the players and **GM** decide together, but ultimately, the **GM**'s preferences should hold a greater weight. When a **GM** isn't really interested in the theme, world and setting, the game will quickly start feeling like a chore to them. The result is they lose motivation to keep running the game. No one wants that. But not to worry! As long as you communicate and respect your **GM**'s wishes, you'll have no problem finding common ground. 
@@ -1822,7 +1826,14 @@ Weapon type assets can have the following **traits**:
 * A **counter-attack** is a *reaction* that allows a fighter being attacked to attack their attacker, at the cost of 1 [AP](#action-points-ap). 
 
 ## Lists of Skills
-The following list does not and cannot aim to be a complete listing of all possible skills in game. Adding new skills as necessary will have to be done by the **GM**. 
+The following list does not and cannot aim to be a complete listing of all possible skills in game. Adding new skills as necessary will have to be done by the **GM**. Nevertheless, most general scenarios should be covered by these skills. 
+
+Many Expertises will be most useful in combat scenarios, but you are encouraged to find uses for them outside of combat! 
+
+When reading through the Expertises, some terminology is involved:
+* A **passive** Expertise is always active, when certain conditions are met. 
+* A **reaction** Expertise either automatically or optionally activates when certain conditions are met. If the reaction is not automatic, you may *choose* to activate it, or abstain from its use. 
+* The **primary damage** is that damage of an attack which is the highest, before any modifications are applied to it. For example, if by default a weapon deals `1D8 slashing + 1D4 bludgeoning`, then the slashing damage is considered its primary damage. 
 
 ### Physical Skills
 These skills have a dominant physical aspect and are directly tied to a character's *physical attributes*. 
@@ -1833,8 +1844,9 @@ Performing acrobatic feats, such as jumping, tumbling and climbing, without inju
 | Level | Name                 | AP | **Ob**  | Effect(s)          | Condition(s) |
 | ----- | -------------------- | -- | ------- | ------------------ | ------------ |
 | 1     | Deft Evasion         | /  | /       | Passive: While not wearing any [armor](#armor) and not wielding a shield of bulk 2 or more, gain `+1` [compensation point](#compensation-points) to any [defense test](#defending) made using this skill. | / |
-| 2     | Wind Out Of It       | 1  | 2       | When hit by a [single-target](#single-target-st) attack, wind out of the hit and suffer only half the damage. Can be used even when a much bulkier weapon is breaking through your successful defense, to halve the damage *again*, effectively resulting in you suffering only 1/4th (rounded up) of the damage. | Once per combat. |
-| 3     | Bob, Weave, Jab      | 1  | Opposed | When succeeding a defense test, launch a [counter-attack](#defense-stunts) against the enemy who attacked you, but for your weapon's **full damage** and without suffering any [exhaustion](#exhaustion)! | Once per round. |
+| 2     | Wind Out Of It       | 1  | 2       | When hit by a [single-target](#single-target-st) attack, wind out of the hit and suffer only half the damage. Can be used even when a much bulkier weapon is breaking through your successful defense, to halve the damage *again*, effectively resulting in you suffering only 1/4th (rounded up) of the damage. | / |
+| 3     | Bob, Weave, Jab      | 1  | Opposed | When succeeding a defense test, launch a [counter-attack](#defense-stunts) against the enemy who attacked you, but for your weapon's **full damage** and without suffering any [exhaustion](#exhaustion)! | / |
+| 3     | Be My Shield         | 2  | /       | Reaction: If grappling an enemy and being hit with an attack, make *them* take the hit, instead. The grappled enemy gets **no chance** to defend themself. | Grappling an enemy. |
 
 #### Berserking (Tough/Tough)
 Whether as a well-honed skill and way of life, or through a disappointing childhood of misery and pain, berserking is a talent for fighting angrily and recklessly. It allows a fighter to keep fighting at surprising strength, even when wounded. 
@@ -1978,7 +1990,7 @@ In and outside of [combat](#combat), a rider will inherit the [speed](#combat-mo
 
 | Level | Name                 | AP | **Ob** | Effect(s)          | Condition(s) |
 | ----- | -------------------- | -- | ------ | ------------------ | ------------ |
-| 1     | Spur                 | 1  | 2      | Gain an additional 2 **AP** worth of movement from your mount. The mount suffers +1 exhaustion. | At most once per turn. |
+| 1     | Spur                 | 1  | 2      | Gain an additional 2 **AP** worth of movement from your mount. The mount suffers +1 exhaustion. | At most once per round. |
 | 3     | Mounted Charge       | 3  | 3      | Perform a mounted charge attack, dealing **2D4** extra damage of whatever weapon type you are using. | Mounted on a fast and strong animal; Must have enough distance to target to gain enough speed - refer to **GM**'s judgement. |
 
 #### Self-Control (Tough/Tough)
@@ -1989,6 +2001,23 @@ These skills have a dominant mental aspect and are strongly related to a charact
 
 #### Architecture (Awar/Wit)
 Analysing and planning buildings. Discerning weak points in a structure. 
+
+#### Archeology (Awar/Wit)
+An eye for historic detail, the ability to date such things and the capacity to plan and lead archeological digs and expeditions. 
+
+| Level | Name                 | AP | **Ob**  | Effect(s)          | Condition(s) |
+| ----- | -------------------- | -- | ------- | ------------------ | ------------ |
+| 2     | Look For Curios      | 1  | 2       | Look around for curios - things from a bygone age - and if successful, then the number of hits past the Ob you score, determine its significane and worth. Can only be used in places lost to time and only once per location. Your **GM** will determine the specifics in terms of money value and [bulk](#bulk). |  |
+
+#### Creature-Lore <category?> (Awar/Wit)
+Knowledge about a specific type/family of creature. You can recollect knowledge regarding the strengths and weaknesses, as well as behavior, origin and occurrence. 
+
+Types/families are the broad terms that describe multiple specific creatures as sharing many similarities. These will be specific to the world and setting and examples could be such as "undead", "human", "abomination", "beast" and so on.
+
+| Level | Name                 | AP | **Ob**  | Effect(s)          | Condition(s) |
+| ----- | -------------------- | -- | ------- | ------------------ | ------------ |
+| 1     | I Know Your Weakness | /  | /       | Passive/Reaction: Every creature has weak-points. You know how to aim for them and deal `+1D4` points of your primary damage on a successful attack, *if* this is a creature of the category you are familar with. |  |
+| 2     | I Know Your Strength | /  | /       | Passive/Reaction: When you are hit by a creature you are familiar with, you suffer `1D4` fewer points of their primary damage. Their effective damage against you cannot be reduced to less than `1` by this. |  |
 
 #### Geography (Awar/Wit)
 Knowledge about the geography of the world. Used to recall the location of places in relation to each other. 
@@ -2023,14 +2052,16 @@ The ability to tell flora and fauna apart and to know of their attributes, such 
 
 | Level | Name                 | AP | **Ob** | Effect(s)          | Condition(s) |
 | ----- | -------------------- | -- | ------ | ------------------ | ------------ |
-| 2     | Dirty Weapon         | 2  | 2      | Grab some dirt or filth and rub it on a melee weapon. When an [attack](#attacking) with that weapon inflicts an [injury](#injury), the victim suffers 2 points of [poisoned](#poisoned) and the **injury** is always an [infection](#list-of-injuries). | Dirt or filth nearby. |
-| 2     | Dirty Ammo           | 2  | 2      | Grab some dirt or filth and rub it on a select amount of kinetic ammunition (such as arrows or bullets). When an [attack](#attacking) with that ammunition inflicts an **injury**, the victim suffers 1 point of [poisoned](#poisoned) and the [injury](#injury) is always an [infection](#list-of-injuries). | Dirt or filth nearby; Ammunition easily accessible during combat. |
+| 1     | Dirty Weapon         | 2  | 2      | Grab some dirt or filth and rub it on a melee weapon. When an [attack](#attacking) with that weapon inflicts an [injury](#injury), the victim suffers 2 points of [poisoned](#poisoned) and the **injury** is always an [infection](#list-of-injuries). | Dirt or filth nearby. |
+| 1     | Dirty Ammo           | 2  | 2      | Grab some dirt or filth and rub it on a select amount of kinetic ammunition (such as arrows or bullets). When an [attack](#attacking) with that ammunition inflicts an **injury**, the victim suffers 1 point of [poisoned](#poisoned) and the [injury](#injury) is always an [infection](#list-of-injuries). | Dirt or filth nearby; Ammunition easily accessible during combat. |
 
 #### Mysticism and Religion (Wit/Wit)
 Knowledge about religions, legends and myths. May be used to recall knowledge about mythical creatures, artifacts and locations, as well as understand the local religion more easily. 
 
 #### Medicine (Agi/Wit)
-Diagnosing and treating mundane [injuries](#injury). 
+Diagnosing and treating mundane [injuries](#injury), [illnesses](#illness) and [poisons](#poisoned). 
+
+This skill may also find use in forensics, to identify poisons or the type of weapon that inflicted a wound. The Ob will depend on the rarity of the poison/weapon. 
 
 #### Reading and Writing < language > (Awar/Wit)
 The ability to both read and write in a specific language. 
@@ -2039,6 +2070,8 @@ The language in question must be noted in addition to this skill.
 
 #### Surgery (Agi/Wit)
 The ability to invasively treat ailments without making things worse for the patient. 
+
+This skill may also find use in forensics, to identify poisons or the type of weapon that inflicted a wound. The Ob will depend on the rarity of the poison/weapon. At the cost of `1` [medical supplies](#list-of-general-assets), finger prints, organic samples like blood and similar can be retrieved and identified. 
 
 #### Warfare (Tough/Wit)
 The ability to understand and direct large-scale combat movements, the logistics and psychology of war. 
@@ -2063,8 +2096,25 @@ Tools: cooking utensils, a pot or pan, a fire place
 [Crafting](#crafting)
 | Product                              | Complexity | Workload  | Materials                              | Quality Bonus   |
 | ------------------------------------ | ---------- | --------- | -------------------------------------- | --------------- | 
-| A meal for a few people              | Low        | Low       | Foodstuffs                             | / |
-| A meal for many people               | Moderate   | Moderate  | Plenty of foodstuffs                   | / |
+| A meal for a few people              | Low        | Moderate  | Foodstuffs                             | / |
+| A meal for many people               | Moderate   | High      | Plenty of foodstuffs                   | / |
+
+### Specializations
+These skills always require other skills to be **known** at a given level or at least at level 1, before they can be learned. 
+
+Additionally, it may be impossible to learn these without a teacher, at the **GM**'s discretion.
+
+#### Warcrobatics (Agi/Awar)
+Combining agility with deadliness, elevating mere skill at arms to an elegant art. 
+
+Requires knowing [Acrobatics](#acrobatics-agistr) and a [weapon skill](#weapon--weapon-type---attribute-), each at least at level 3. 
+
+| Level | Name                 | AP | **Ob**      | Effect(s)          | Condition(s) |
+| ----- | -------------------- | -- | ----------- | ------------------ | ------------ |
+| 0     | Vault & Jab          | 2  | Opposed - 1 | Vault over an enemy, placing yourself directly behind them, and strike them with a weapon, for half (rounded up) of its damage and pushing them back `3'/1m`. | / |
+| 1     | Bounce Back          | /  | /           | Reaction: When knocked down immediately get back up, at no AP cost. You must not be wearing armor. | / |
+| 1     | Area Evasion         | /  | /           | Passive/Reaction: When succeeding a defense test against an [aoe](#area-of-effect-aoe), you suffer only 1/4th (rounded up) of the damage. | / |
+| 3     | Shield Breaker       | /  | /           | Passive: You know to exploit the lethargy of shields and can circumvent their defensive bonuses. Against you, shields always count as [overwhelmed](#flanking)! | / |
 
 ## List of Conditions
 The following is a list of all [conditions](#condition) present in the core rules. 
