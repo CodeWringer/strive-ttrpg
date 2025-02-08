@@ -2058,7 +2058,9 @@ The ability to tell flora and fauna apart and to know of their attributes, such 
 Knowledge about religions, legends and myths. May be used to recall knowledge about mythical creatures, artifacts and locations, as well as understand the local religion more easily. 
 
 #### Medicine (Agi/Wit)
-Diagnosing and treating mundane [injuries](#injury). 
+Diagnosing and treating mundane [injuries](#injury), [illnesses](#illness) and [poisons](#poisoned). 
+
+This skill may also find use in forensics, to identify poisons or the type of weapon that inflicted a wound. The Ob will depend on the rarity of the poison/weapon. 
 
 #### Reading and Writing < language > (Awar/Wit)
 The ability to both read and write in a specific language. 
@@ -2067,6 +2069,8 @@ The language in question must be noted in addition to this skill.
 
 #### Surgery (Agi/Wit)
 The ability to invasively treat ailments without making things worse for the patient. 
+
+This skill may also find use in forensics, to identify poisons or the type of weapon that inflicted a wound. The Ob will depend on the rarity of the poison/weapon. At the cost of `1` [medical supplies](#list-of-general-assets), finger prints, organic samples like blood and similar can be retrieved and identified. 
 
 #### Warfare (Tough/Wit)
 The ability to understand and direct large-scale combat movements, the logistics and psychology of war. 
