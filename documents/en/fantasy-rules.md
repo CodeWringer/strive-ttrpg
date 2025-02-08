@@ -725,6 +725,7 @@ A short distance ranged weapon, shooting arrows.
 | Level | Name                 | AP | **Ob**      | Distance increments | Damage                     | Notes  |
 | ----- | -------------------- | -- | ----------- | ------------------- | -------------------------- | ------ |
 | 0     | Loose                | 2  | Opposed     | 30'/10m             | `3D4` Piercing             | / |
+| 1     | Pin                  | 2  | Opposed + 1 | 30'/10m             | `2D4` Piercing             | Shoot the enemy in their foot. If the attack is successful, they are considered [rooted](./core-rules.md#rooted) until the end of their next turn. |
 | 1     | Heavy Shot           | 3  | Opposed + 1 | 30'/10m             | `3D4 + Str` Piercing       | / |
 | 2     | Double Shot          | 3  | Opposed     | 30'/10m             | `2D4` Piercing             | Can attack twice and thus deal its damage to two different targets, or the same target twice.  |
 
@@ -739,6 +740,7 @@ A long distance ranged weapon, shooting arrows.
 | Level | Name                 | AP | **Ob**      | Distance increments | Damage                     | Notes  |
 | ----- | -------------------- | -- | ----------- | ------------------- | -------------------------- | ------ |
 | 0     | Loose                | 2  | Opposed     | 45'/15m             | `3D6` Piercing             | / |
+| 1     | Pin                  | 2  | Opposed + 1 | 45'/15m             | `2D6` Piercing             | Shoot the enemy in their foot. If the attack is successful, they are considered [rooted](./core-rules.md#rooted) until the end of their next turn. |
 | 1     | Heavy Shot           | 3  | Opposed + 1 | 45'/15m             | `3D6 + Str` Piercing       | / |
 
 #### War-Bow (Str/Tough)
@@ -765,6 +767,7 @@ A deadly medium distance ranged weapon, shooting quarrels. Beware its slow reloa
 | Level | Name                 | AP | **Ob**      | Distance increments | Damage                     | Notes  |
 | ----- | -------------------- | -- | ----------- | ------------------- | -------------------------- | ------ |
 | 0     | Loose                | 2  | Opposed     | 60'/20m             | `3D8` Piercing             |  |
+| 1     | Pin                  | 2  | Opposed + 1 | 60'/20m             | `2D8` Piercing             | Shoot the enemy in their foot. If the attack is successful, they are considered [rooted](./core-rules.md#rooted) until the end of their next turn. |
 
 #### Firearm (Awar/Awar)
 A very deadly short to medium distance ranged weapon, shooting musket balls that are likely to penetrate armor. Beware its slow reload. 
