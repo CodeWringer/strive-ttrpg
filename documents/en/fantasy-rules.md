@@ -552,15 +552,25 @@ A large, kite-shaped or rectangular shield, which can protect every part of the 
 ### List of General Assets
 The following is a list of general assets. Of course, the following list is non-exhaustive. Invent more at your own need. 
 
-| Name                   | Bulk | Max. Stack Size | Description                                                              |
-| ---------------------- | ---- | --------------- | ------------------------------------------------------------------------ |
-| Laudanum Potion        | 1    | 2               | This wonderous substance can quell pain and calm nerves within seconds. Also effective against diarrhea. Upon imbibing, sets one **active** [injury](./core-rules.md#injury) to **treated**. After 24 hours, the [injury](./core-rules.md#injury) is set back to **active**, even if it was also properly **treated** in the meantime. Also, must succeed a [self-control](./core-rules.md#self-control-toughtough) test at **Ob** `3`, or else become [addicted](./core-rules.md#drug-addicted) to the stuff. |
-| Calming Tea            | 1    | 3               | This herbal tea has the ability to calm nerves. Removes [berserk](./core-rules.md#berserk), [jealous](./core-rules.md#jealous) and [terrified](./core-rules.md#terrified). Best enjoyed steaming hot, but not necessarily. |
-| Fire Pot (Potion)      | 1    | 3               | An ancient recipe, this concoction bursts into flame when exposed to air for several seconds. It causes severe burns for `2D8 Burning` damage in a `6'/2m` radius. Consumed on use. |
-| Smoke Bomb             | 1    | 3               | A small fragile shell, filled with a very fine powder which when broken causes an area in a `6'/2m` radius to be covered in smoke. It is impossible to see through and ranged attacks within or through the area suffer `+2` **Ob**. Victims caught in the smoke may be forced to cough. The smoke lasts 6 turns or 30 seconds. |
-| Acid Bomb              | 1    | 3               | A small fragile shell with two compartments, filled with two liquids which, when they combine, act as a powerful acid. When shattered, deals `2D8 Acid` damage to whatever it hits.  |
-| Blackpowder Bomb       | 1    | 2               | A small iron-shelled bomb, filled with blackpowder. A short fuse sticks out and must be lit to set it off. Once lit, the bomb will detonate after 3 turns or 15 seconds. Deals `2D6 Bludgeoning + 2D6 Burning` damage to anyone in a `6'/2m` radius.  |
-| Throwing Blade         | 1    | 6               | A small weighted blade, like a knife or star, well suited to being thrown. Can be used in melee and acts like a [dagger](#dagger-agiawar), but with a penalty of **-2D** to attack and defense. **+1D** when [thrown](./core-rules.md#throwing-accuracy) for a ranged attack. Deals **2D4 + Str** **piercing** damage. |
+In the following table, `Q` refers to the quality grade of the asset. See also the [crafting](./core-rules.md#crafting) rules. When in a hurry (as a **GM**), substitute the `Q` with `3`.
+
+| Name                     | Bulk | Max. Stack Size | Description                                                              |
+| ------------------------ | ---- | --------------- | ------------------------------------------------------------------------ |
+| Acid Bomb                | 1    | 3               | A small fragile shell with two compartments, filled with two liquids which, when they combine, act as a powerful acid. When shattered, deals `QD6 Acid` damage to whatever it hits. |
+| Blackpowder Bomb         | 1    | 2               | A small iron-shelled bomb, filled with blackpowder. A short fuse sticks out and must be lit to set it off. Once lit, the bomb will detonate after 3 turns or 15 seconds. Deals `QD4 Bludgeoning + QD4 Burning` damage to anyone in a `6'/2m` radius. |
+| Calming Tea              | 1    | 3               | This herbal tea has the ability to calm nerves. Removes [berserk](./core-rules.md#berserk), [jealous](./core-rules.md#jealous) and [terrified](./core-rules.md#terrified). Best enjoyed steaming hot, but not necessarily. |
+| Dragon's Breath Potion   | 1    | 3               | Upon drinking this potion, the orange liquid combines with the stomach acid and bursts out of the drinker's throat, igniting and thus causing them to spew fire! Causes `1D8 - Q Burning` damage to the user and `QD6 Burning` damage in a `18'/6m` cone in front of the user. |
+| Fire Pot (Potion)        | 1    | 3               | An ancient recipe, this concoction bursts into flame when exposed to air for several seconds. It causes severe burns for `QD6 Burning` damage in a `6'/2m` radius. Consumed on use. |
+| Illusionist's Powder     | 1    | 2               | A small amount of weakly iridescently shimmering powder. When scattered, the dust remains suspended in mid-air and settles in an image of the making alchemist's choosing, which at a distance can seem perfectly real. It takes a successful test at `Ob Q + 1` to see through the ruse. This image lasts `QD10` minutes. |
+| Invigorating Potion      | 1    | 3               | The drinker of this potion feels refreshed and invigorated! Reduces exhaustion by `Q` and clears the [exhausted](./core-rules.md#exhausted) condition. Beware this potion can only be safely imbibed twice in a 24 hour cycle. If drunk more, roll a `D6`. If it is a **hit**, you're in luck! But if not, you instead suffer `+2` points of [exhaustion](./core-rules.md#exhaustion). |
+| Laudanum Potion          | 1    | 2               | This wonderous substance can quell pain and calm nerves within seconds. Also effective against diarrhea. Upon imbibing, sets one **active** [injury](./core-rules.md#injury) to **treated**. After 24 hours, the [injury](./core-rules.md#injury) is set back to **active**, even if it was also properly **treated** in the meantime. Also, must succeed a [self-control](./core-rules.md#self-control-toughtough) test at `Ob 3`, or else become [addicted](./core-rules.md#drug-addicted) to the stuff. |
+| Love Potion              | 1    | 2               | Anyone drinking this potion will become virtually irresistible to anyone close enough to smell their air. Victims have to succeed a [self-control](./core-rules.md#self-control-toughtough) test at `Ob Q` or else feel **very strongly compelled** to fulfill the user's every wish and desire (provided this wouldn't obviously cause harm to the victim). |
+| Night-Eye Potion         | 1    | 3               | Grants the ability to see reasonably well under low-light conditions, up to `Q * 10'/3m` around them, for an hour. Beware that under the influence of this potion, exposure to bright light is extremely difficult to endure and will cause `+1` [exhaustion](./core-rules.md#exhaustion) for every **minute** of exposure. |
+| Paralyzing Poison        | 1    | 2               | Causes a victim's muscles to seize up. They suffer `-1 AP` each turn and are forced to move sluggishly. If this poison is suffered twice, the victim seizes up completely and is unable to move. This poison can be resisted once upon suffering it, with [toughness](./core-rules.md#toughness-tough), at `Ob Q`. If unsuccessful, the effect will last an hour. |
+| Poison Resistance Potion | 1    | 2               | Once imbibed, halves all incurred poison damage, for up to `Q` hours. |
+| Sleeping Poison          | 1    | 3               | Causes a victim to feel incredibly sleepy. Unless they succeed a [self-control](./core-rules.md#self-control-toughtough) test at `Ob Q`, they will fall asleep the first chance they get. They cannot be woken from this state for at least `6` hours. |
+| Smoke Bomb               | 1    | 3               | A small fragile shell, filled with a very fine powder which when broken causes an area in a `Q * 3'/1m` radius to be covered in smoke. It is impossible to see through and ranged attacks within or through the smoke-covered area suffer `+2` **Ob**. Victims caught in the smoke may be forced to cough. The smoke lasts `6` turns or `30` seconds. |
+| Throwing Blade           | 1    | 6               | A small weighted blade, like a knife or star, well suited to being thrown. Can be used in melee and acts like a [dagger](#dagger-agiawar), but with a penalty of `-2D` to attack and defense. `+1D` when [thrown](./core-rules.md#throwing-accuracy) for a ranged attack. Deals `2D4 + Str piercing` damage. |
 
 ### Weapon Types
 Following are fantasy-themed weapon types. 
@@ -850,13 +860,64 @@ See also [protection from magic](#protection-from-magic).
 #### Alchemy (Arc/Wit)
 The ability to brew alchemical potions, create powders, mixtures and other substances, as well as the ability to tell these things apart. 
 
-Tools: a distillery, mortar and pestle, a fire place
+Tools: a distillery, mortar and pestle, a fire place, small containers made of glass or metal
 
-[Crafting](./core-rules.md#crafting)
-| Product                              | Complexity | Workload  | Materials                              | Quality Bonus   |
-| ------------------------------------ | ---------- | --------- | -------------------------------------- | --------------- | 
-| A simple alchemical concoction (potion or powder)  | Moderate  | Moderate | Small containers, minerals, metals, herbs and water. | / |
-| A complex alchemical concoction (potion or powder) | Very High | High     | Small containers, minerals, metals, herbs and water. | / |
+[Crafting](./core-rules.md#crafting) alchemical products require the alchemist to choose **ingredients** with the correct components to match a chosen recipe's requirements. The number of **hits** (past the **Ob**) determine the quality level, or in other words, the efficacy and value of the product. 
+
+Every ingredient has **properties** it **adds or subtracts**. The **sum** of the properties must add at least the stated number of components of the recipe, in the end. It is possible to add *more* of a component, although this will **not** increase the product's quality level. In fact, for every `2` points of a given component that is **more** than the recipe requires, the **Ob** increases by `+1`. Also note that the **sum must not** contain any errant components that the recipe does not list! That means ingredients *may* add components the recipe doesn't list, as long as those components are then removed by another ingredient. 
+
+It is only possible to add as many ingredients (that includes *boosters* and *purifiers*, see below) as the alchemist has as their current modified level in this skill. The minimum number of ingredients that can be added is always `2`. 
+
+Ingredients can have the following **properties**:
+1. `acidic`
+2. `alkaline`
+3. `arcane`
+4. `binding`
+5. `catalyst`
+6. `edible`
+7. `enhancing`
+8. `explosive`
+9. `soothing`
+10. `toxic`
+
+**Booster** ingredients automatically add `+1` quality to the finished product (on a successful crafting attempt). <br>
+**Purifier** ingredients can remove a chosen component from another ingredient. 
+
+Alchemist's may also try to push their luck when crafting. They may try one of the following, at the cost of `+2 Ob`. 
+* Create an extra product from the same amount of materials. Effectively a "2 for the cost of 1" crafting attempt. 
+* Attempt to craft the product while missing **one** component. 
+
+| Product                              | Complexity | Workload  | Ob | Components                             | Other Materials                  |
+| ------------------------------------ | ---------- | --------- | -- | -------------------------------------- | -------------------------------- |
+| Acid Bomb                            | Moderate   | Moderate  |    | 2 acidic; 1 catalyst                   | Small dissolution-safe container |
+| Blackpowder Bomb                     | Moderate   | High      | 2  | 4 explosive; 1 binding                 | An ignition mechanism, like a plain cord or rope. |
+| Calming Tea                          | Low        | High      |    | 2 soothing; 1 edible                   | / |
+| Dragon's Breath Potion               | Moderate   | High      |    | 1 catalyst; 1 explosive                | Alcohol |
+| Fire Pot (Potion)                    | Moderate   | Moderate  | 2  | 2 explosive; 1 binding; 1 catalyst     | / |
+| Illusionist's Powder                 | High       | High      | 2  | 3 arcane; 1 binding                    | / |
+| Invigorating Potion                  | Moderate   | Moderate  |    | 2 soothing; 2 enhancing; 1 restorative | / |
+| Laudanum Potion                      | Moderate   | Moderate  |    | 2 soothing; 2 restorative; 1 toxic     | / |
+| Love Potion                          | High       | Moderate  | 3  | 2 arcane; 1 toxic; 1 catalyst          | / |
+| Night-Eye Potion                     | High       | Moderate  | 2  | 3 enhancing                            | / |
+| Paralyzing Poison                    | Very High  | Moderate  | 4  | 4 soothing; 3 toxic; 1 restorative     | / |
+| Poison Resistance Potion             | High       | Moderate  | 2  | 2 soothing; 1 enhancing; 2 restorative | / |
+| Sleeping Poison                      | Moderate   | Moderate  | 3  | 3 soothing; 2 toxic                    | / |
+| Smoke Bomb                           | Low        | Moderate  |    | 2 binding                              | / |
+
+Pure alchemical ingredients, which only add one type of component are very rare. It is an alchemist's reality that they mostly deal with impure ingedients, which add and subtract various components. Ingredients may be acquired in a variety of ways. 
+
+* Out in the wild, it is possible to *forage* for them. With **any skill** whose use can be plausibly explained, for **every hour** spent foraging, at `Ob 4`, you may acquire **one** `organic` ingredient. 
+* When *gutting* an animal or monster carcass, with **any skill** whose use can be plausibly explained, at `Ob 2`, you may acquire `1 organic` ingredient. 
+* By finding specific sources of specific types of ingredients, which are guaranteed to have certain components on them. 
+* Purchasing ingredients is not as straight-forward as one might expect. Even the suppliers of such goods won't have many pure - if any - ingredients. Depending on how well supplied the vendor is, the **GM** may choose to let you roll for your ingredients (as outlined below) or let you purchase exactly what you want - at a premium, of course. 
+
+Whenever you acquire a new ingredient, you must determine the components it adds and subtracts. 
+1. You may specifically look for one type of component - the ingredient is **guaranteed** to add it. `1D4` determines by how much. 
+2. Roll `1D6`. If it comes up as a **hit**, the ingredient has no additional components. The process ends here. 
+3. Roll `1D10` to determine a new component. Pick the component from the list above, where the number matches. If the rolled component already exists on the ingredient, pick the next component after that (until finally reaching a component that is new or you reach the end of the list, at which point you again start by looking at the beginning of the list).
+4. Roll `1D4` - on a `1` and `2`, the component is **additive**. Otherwise, it is **subtractive**. 
+5. Roll `1D4` to determine by how much.
+6. Repeat the process, from step 2, until there are at most 3 components on the ingredient. 
 
 #### Brewing (Wit/Wit)
 The brewing of alcoholic beverages. 
