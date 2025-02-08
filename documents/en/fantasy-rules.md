@@ -880,12 +880,6 @@ Ingredients can have the following **properties**:
 9. `soothing`
 10. `toxic`
 
-Properties have one of the following **bases**:
-1. `chemical`
-2. `metallic`
-3. `mineral`
-4. `organic`
-
 **Booster** ingredients automatically add `+1` quality to the finished product (on a successful crafting attempt). <br>
 **Purifier** ingredients can remove a chosen component from another ingredient. 
 
@@ -893,22 +887,22 @@ Alchemist's may also try to push their luck when crafting. They may try one of t
 * Create an extra product from the same amount of materials. Effectively a "2 for the cost of 1" crafting attempt. 
 * Attempt to craft the product while missing **one** component. 
 
-| Product                              | Complexity | Workload  | Ob | Components                       | Other Materials                  |
-| ------------------------------------ | ---------- | --------- | -- | -------------------------------- | -------------------------------- |
-| Acid Bomb                            | Moderate   | Moderate  |    | 2 acidic (organic / chemical); 1 catalyst (metallic / mineral) | Small dissolution-safe container |
-| Blackpowder Bomb                     | Moderate   | High      | 2  | 4 explosive (chemical); 1 binding (organic) | An ignition mechanism, like a plain cord or rope. |
-| Calming Tea                          | Low        | High      |    | 2 soothing (organic); 1 edible (organic) | / |
-| Dragon's Breath Potion               | Moderate   | High      |    | 1 catalyst (organic / chemical); 1 explosive (chemical) | Alcohol |
-| Fire Pot (Potion)                    | Moderate   | Moderate  | 2  | 2 explosive (chemical); 1 binding (organic); 1 catalyst (metallic / mineral) | / |
-| Illusionist's Powder                 | High       | High      | 2  | 3 arcane (any), 1 binding (any) | / |
-| Invigorating Potion                  | Moderate   | Moderate  |    | 2 soothing (organic); 2 enhancing (organic); 1 restorative (any) | / |
-| Laudanum Potion                      | Moderate   | Moderate  |    | 2 soothing (organic); 2 restorative (any); 1 toxic (any) | / |
-| Love Potion                          | High       | Moderate  | 3  | 2 arcane (any); 1 toxic (any); 1 catalyst (organic) | / |
-| Night-Eye Potion                     | High       | Moderate  | 2  | 3 enhancing (organic) | / |
-| Paralyzing Poison                    | Very High  | Moderate  | 4  | 4 soothing (chemical); 3 toxic (any); 1 restorative (any) | / |
-| Poison Resistance Potion             | High       | Moderate  | 2  | 2 soothing (chemical); 1 enhancing (any); 2 restorative (any) | / |
-| Sleeping Poison                      | Moderate   | Moderate  | 3  | 3 soothing (chemical); 2 toxic (any) | / |
-| Smoke Bomb                           | Low        | Moderate  |    | 2 binding (any) | / |
+| Product                              | Complexity | Workload  | Ob | Components                             | Other Materials                  |
+| ------------------------------------ | ---------- | --------- | -- | -------------------------------------- | -------------------------------- |
+| Acid Bomb                            | Moderate   | Moderate  |    | 2 acidic; 1 catalyst                   | Small dissolution-safe container |
+| Blackpowder Bomb                     | Moderate   | High      | 2  | 4 explosive; 1 binding                 | An ignition mechanism, like a plain cord or rope. |
+| Calming Tea                          | Low        | High      |    | 2 soothing; 1 edible                   | / |
+| Dragon's Breath Potion               | Moderate   | High      |    | 1 catalyst; 1 explosive                | Alcohol |
+| Fire Pot (Potion)                    | Moderate   | Moderate  | 2  | 2 explosive; 1 binding; 1 catalyst     | / |
+| Illusionist's Powder                 | High       | High      | 2  | 3 arcane; 1 binding                    | / |
+| Invigorating Potion                  | Moderate   | Moderate  |    | 2 soothing; 2 enhancing; 1 restorative | / |
+| Laudanum Potion                      | Moderate   | Moderate  |    | 2 soothing; 2 restorative; 1 toxic     | / |
+| Love Potion                          | High       | Moderate  | 3  | 2 arcane; 1 toxic; 1 catalyst          | / |
+| Night-Eye Potion                     | High       | Moderate  | 2  | 3 enhancing                            | / |
+| Paralyzing Poison                    | Very High  | Moderate  | 4  | 4 soothing; 3 toxic; 1 restorative     | / |
+| Poison Resistance Potion             | High       | Moderate  | 2  | 2 soothing; 1 enhancing; 2 restorative | / |
+| Sleeping Poison                      | Moderate   | Moderate  | 3  | 3 soothing; 2 toxic                    | / |
+| Smoke Bomb                           | Low        | Moderate  |    | 2 binding                              | / |
 
 Pure alchemical ingredients, which only add one type of component are very rare. It is an alchemist's reality that they mostly deal with impure ingedients, which add and subtract various components. Ingredients may be acquired in a variety of ways. 
 
@@ -917,11 +911,13 @@ Pure alchemical ingredients, which only add one type of component are very rare.
 * By finding specific sources of specific types of ingredients, which are guaranteed to have certain components on them. 
 * Purchasing ingredients is not as straight-forward as one might expect. Even the suppliers of such goods won't have many pure - if any - ingredients. Depending on how well supplied the vendor is, the **GM** may choose to let you roll for your ingredients (as outlined below) or let you purchase exactly what you want - at a premium, of course. 
 
-Whenever you acquire a new ingredient, you must determine the components it adds and subtracts. You may specifically look for one type of component - the ingredient is **guaranteed** to add it. `1D4` determines by how much. 
-
-Then roll `1D10` to determine a new component. Pick the component from the list above, where the number matches. If the rolled component already exists on the ingredient, pick the next component after that (until finally reaching a component that is new or you reach the end of the list, at which point you again start by looking at the beginning of the list). Roll another `D10`. If the rolled number is a `5` or lower, then the compononent is **subtractive**, otherwise, at a `6` or above, then it is **additive**. `1D4` determines by how much. 
-
-Then roll `1D6`. If it comes up as a **hit**, the ingredient has no additional components. If it comes up as a **miss**, you repeat the process of adding components, until either the `D6` results in a **hit** or until there are `4` components on the ingredient. 
+Whenever you acquire a new ingredient, you must determine the components it adds and subtracts. 
+1. You may specifically look for one type of component - the ingredient is **guaranteed** to add it. `1D4` determines by how much. 
+2. Roll `1D6`. If it comes up as a **hit**, the ingredient has no additional components. The process ends here. 
+3. Roll `1D10` to determine a new component. Pick the component from the list above, where the number matches. If the rolled component already exists on the ingredient, pick the next component after that (until finally reaching a component that is new or you reach the end of the list, at which point you again start by looking at the beginning of the list).
+4. Roll `1D4` - on a `1` and `2`, the component is **additive**. Otherwise, it is **subtractive**. 
+5. Roll `1D4` to determine by how much.
+6. Repeat the process, from step 2, until there are at most 3 components on the ingredient. 
 
 #### Brewing (Wit/Wit)
 The brewing of alcoholic beverages. 
