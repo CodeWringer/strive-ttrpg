@@ -33,6 +33,7 @@
       - [Advancing Attributes](#advancing-attributes)
         - [Practicing Attributes](#practicing-attributes)
       - [Base Initiative](#base-initiative)
+      - [Sprinting Speed](#sprinting-speed)
     - [Skills](#skills)
       - [Skill Forking](#skill-forking)
       - [Learning Skills](#learning-skills)
@@ -146,7 +147,6 @@
       - [Berserking (Tough/Tough)](#berserking-toughtough)
       - [Fishing (Agi/Awar)](#fishing-agiawar)
       - [Instrument-Playing \< instrument \> (Agi/Awar)](#instrument-playing--instrument--agiawar)
-      - [Running (Str/Tough)](#running-strtough)
       - [Stealth (Agi/Awar)](#stealth-agiawar)
       - [Swimming (Agi/Tough)](#swimming-agitough)
       - [Thievery (Agi/Awar)](#thievery-agiawar)
@@ -590,11 +590,20 @@ A **cycle** is 1 month, regardless of attribute being practiced.
 #### Base Initiative
 Whenever the order in which characters act matters, their **base initiative** comes into play. It, together with a die roll, determines how early a character gets to take action in a given scenario. 
 
-The **base initiative** of a character is **not an attribute** in the pure sense. It *cannot* be improved directly and is instead derived from the sum of the character's [agility](#agility-agi), [wit](#wit-wit) and [awareness](#awareness-awar). 
+The **base initiative** of a character is **not an attribute** in the same way as the others. It *cannot* be improved directly and is instead derived from the sum of the character's [agility](#agility-agi), [wit](#wit-wit) and [awareness](#awareness-awar). 
 
-> A character with an **agility** of 3, **wit** of 4 and **awareness** of 5, has a **base initiative** of (3 + 4 + 5 =) 12. 
+> A character with an **agility** of 3, **wit** of 4 and **awareness** of 5, has a **base initiative** of `3 + 4 + 5 = 12`. 
 
 See also [initiative](#initiative). 
+
+#### Sprinting Speed
+The **sprinting speed** of a character is **not an attribute** in the same way as the others. It *cannot* be improved directly and is instead derived from the sum of the character's [agility](#agility-agi) and [toughness](#toughness-tough), divided by two and rounded up. 
+
+> A character with an **agility** of 3 and **toughness** of 5, has a **sprinting speed** of `(3 + 5) / 2 (rounded up) = 4`. 
+
+This attribute can also be used to determine whether a character can outrun another. For that, both characters roll via this derived attribute. Whoever achieves more **hits**, succeeds at outrunning the other character. 
+
+See also [combat movement](#combat-movement). 
 
 ### Skills
 A **skill** is any acquired knowledge and experience regarding a specific subject. 
@@ -1349,7 +1358,7 @@ It may be possible to go past this limit via some [expertises](#expertise) or [b
 ## Combat Movement
 Under normal circumstances, a character (an average human) can move up to `12'/4m` (= 4 fields on a grid) per **AP** spent. In **difficult terrain**, the distance moved per **AP** is half that, at `6'/2m` (= 2 fields on a grid). **Difficult terrain** is any space that slows movement, but does not prevent it outright. Examples would be waist-high water, a surface of glue or a slowing force field. 
 
-It is also possible to **sprint**, increasing the distance one can move per **AP** spent, at the cost of 1 point of [exhaustion](#exhaustion) for every **AP** spent **sprinting**. The movement distance is increased by `3'/1m` for every level in [running](#running-strtough), per **AP**. 
+It is also possible to **sprint**, increasing the distance one can move per **AP** spent, at the cost of 1 point of [exhaustion](#exhaustion) for every **AP** spent **sprinting**. The movement distance is increased by `3'/1m` for every level in [sprinting speed](#sprinting-speed), per **AP**. 
 
 ### Disengage
 It is possible to move out of an enemy's [range of opportunity](#attacks-of-opportunity) without provoking an [attack of opportunity](#attacks-of-opportunity). This action costs 2 [AP](#action-points-ap) and the disengaging character **must** move in a direction that will get them out of the [range of opportunity](#attacks-of-opportunity) the fastest and safest, as far as 1 **AP** of movement would get them. 
@@ -1867,16 +1876,6 @@ The ability to efficiently catch fish.
 Playing an instrument of choice. 
 
 The instrument in question must be noted. 
-
-#### Running (Str/Tough)
-Running at speed, for extended periods of time. 
-
-For every level in this skill, the [sprinting distance](#combat-movement) is increased by `3'/1m` per **AP** spent. 
-
-| Level | Name                 | AP | **Ob**  | Effect(s)          | Condition(s) |
-| ----- | -------------------- | -- | ------- | ------------------ | ------------ |
-| 1     | Grapple from Sprint  | 2  | Opposed | Lunge at someone from full sprint and grapple them, pulling them to the ground, rendering them [proned](#prone). | You must know Unarmed Combat at level 1+; You must be [sprinting](#combat-movement). |
-| 2     | Seasoned Runner      | 0  | /       | Resist the exhaustion cost from sprinting. | Once per rest. |
 
 #### Stealth (Agi/Awar)
 Moving silently and performing actions undetected. 
