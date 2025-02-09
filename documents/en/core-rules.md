@@ -33,6 +33,7 @@
       - [Advancing Attributes](#advancing-attributes)
         - [Practicing Attributes](#practicing-attributes)
       - [Base Initiative](#base-initiative)
+      - [Sprinting Speed](#sprinting-speed)
     - [Skills](#skills)
       - [Skill Forking](#skill-forking)
       - [Learning Skills](#learning-skills)
@@ -110,7 +111,6 @@
     - [Throwing-Distance](#throwing-distance)
     - [Throwing-Accuracy](#throwing-accuracy)
     - [Throwing-Damage](#throwing-damage)
-  - [Unarmed Combat (Agi/Str)](#unarmed-combat-agistr)
 - [General Interactions](#general-interactions)
   - [Appraisal](#appraisal)
   - [Persuasion, Intimidation \& Deception](#persuasion-intimidation--deception)
@@ -154,6 +154,7 @@
       - [Path-finding (Awar/Wit)](#path-finding-awarwit)
       - [Shield (Str/Tough)](#shield-strtough)
       - [Throwing (Agi/Agi)](#throwing-agiagi)
+      - [Unarmed Combat (Agi/Str)](#unarmed-combat-agistr)
       - [Weapon \< weapon type \> (\< attribute \>)](#weapon--weapon-type---attribute-)
     - [Social Skills](#social-skills)
       - [Acting (Awar/Wit)](#acting-awarwit)
@@ -165,6 +166,8 @@
       - [Self-Control (Tough/Tough)](#self-control-toughtough)
     - [Knowledge Skills](#knowledge-skills)
       - [Architecture (Awar/Wit)](#architecture-awarwit)
+      - [Archeology (Awar/Wit)](#archeology-awarwit)
+      - [Creature-Lore \<category?\> (Awar/Wit)](#creature-lore-category-awarwit)
       - [Geography (Awar/Wit)](#geography-awarwit)
       - [Geology (Awar/Wit)](#geology-awarwit)
       - [History \< subject \> (Wit/Wit)](#history--subject--witwit)
@@ -182,6 +185,8 @@
     - [Craftsmanship Skills](#craftsmanship-skills)
       - [Artistry (Agi/Awar)](#artistry-agiawar)
       - [Cooking (Awar/Wit)](#cooking-awarwit)
+    - [Specializations](#specializations)
+      - [Warcrobatics (Agi/Awar)](#warcrobatics-agiawar)
   - [List of Conditions](#list-of-conditions)
     - [Berserk](#berserk)
     - [Burning](#burning)
@@ -263,10 +268,10 @@ In some places, where distances are concerned, both feet and meters are noted as
 
 The following types of dice come into play:
 * **D4** - four-sided dice. Four of these will be enough for most situations. 
-* **D6** - six-sided dice. You will need a lot of these. One dozen should suffice. 
-* **D8** - eight-sided dice. Four of these will be enough for most situations. 
-* **D10** - ten-sided dice. Four of these will be enough for most situations. 
-* **D20** - twenty-sided dice. Just one of these will be enough. Can also be substituted with `2 D20`s. 
+* **D6** - six-sided dice. You will need a lot of these. Ten should be enough for most situations. 
+* **D8** - eight-sided dice. Three of these will be enough for most situations. 
+* **D10** - ten-sided dice. Three of these will be enough for most situations. 
+* **D20** - twenty-sided dice. Just one of these will be enough. Can also be substituted with `2 D10`s. 
 
 ## Before the Game
 The very first step of preparing for play, is to decide on a theme, world and setting of the game. Ideally, the players and **GM** decide together, but ultimately, the **GM**'s preferences should hold a greater weight. When a **GM** isn't really interested in the theme, world and setting, the game will quickly start feeling like a chore to them. The result is they lose motivation to keep running the game. No one wants that. But not to worry! As long as you communicate and respect your **GM**'s wishes, you'll have no problem finding common ground. 
@@ -585,11 +590,20 @@ A **cycle** is 1 month, regardless of attribute being practiced.
 #### Base Initiative
 Whenever the order in which characters act matters, their **base initiative** comes into play. It, together with a die roll, determines how early a character gets to take action in a given scenario. 
 
-The **base initiative** of a character is **not an attribute** in the pure sense. It *cannot* be improved directly and is instead derived from the sum of the character's [agility](#agility-agi), [wit](#wit-wit) and [awareness](#awareness-awar). 
+The **base initiative** of a character is **not an attribute** in the same way as the others. It *cannot* be improved directly and is instead derived from the sum of the character's [agility](#agility-agi), [wit](#wit-wit) and [awareness](#awareness-awar). 
 
-> A character with an **agility** of 3, **wit** of 4 and **awareness** of 5, has a **base initiative** of (3 + 4 + 5 =) 12. 
+> A character with an **agility** of 3, **wit** of 4 and **awareness** of 5, has a **base initiative** of `3 + 4 + 5 = 12`. 
 
 See also [initiative](#initiative). 
+
+#### Sprinting Speed
+The **sprinting speed** of a character is **not an attribute** in the same way as the others. It *cannot* be improved directly and is instead derived from the sum of the character's [agility](#agility-agi) and [toughness](#toughness-tough), divided by two and rounded up. 
+
+> A character with an **agility** of 3 and **toughness** of 5, has a **sprinting speed** of `(3 + 5) / 2 (rounded up) = 4`. 
+
+This attribute can also be used to determine whether a character can outrun another. For that, both characters roll via this derived attribute. Whoever achieves more **hits**, succeeds at outrunning the other character. 
+
+See also [combat movement](#combat-movement). 
 
 ### Skills
 A **skill** is any acquired knowledge and experience regarding a specific subject. 
@@ -775,7 +789,7 @@ By playing their character either in accordance with their **personality**, or b
 Of course, [NPCs](#non-player-character-npc) have a **personality**, too. But unlike **PC**s, this is not cemented through rules and they **cannot** earn [fate points](#fate-points). 
 
 ### Ambition
-Every **PC** must have one **ambition** - a life-fulfilling long-term goal to pursue. This can be anything from "found a family" to "become king of the world!". No matter how unrealistic, an **ambition** is a primary driver for a character, to guide them onward. The important part is to think *big* and include some sort of "call for adventure". Something easily achievable would make for a dull **ambition** and defeat the point of it. An ideal **ambition** draws your character out of their comfort zone and out of their safe space and gives them a willingness to engage in adventure. 
+Every **PC** must have one **ambition** - a life-fulfilling long-term goal to pursue. This can be anything from "found a family" to "become king of the world!". No matter how unrealistic, an **ambition** is a primary driver for a character, to guide them onward. The important part is to think *big* and include some sort of "call for adventure". Something easily achievable would make for a dull **ambition** and defeat the point of it. An ideal **ambition** draws your character out of their comfort zone and safe space, imbuing them with a willingness to leave home and go out into the world! 
 
 An **ambition** is not *expected* to change often. An ideal **ambition** would accompany a character a long time. But that isn't to say you mustn't ever change it. On the contrary, if events play out that shake up your character's deepest desires, then changing their **ambition** may be a very appropriate action to take.
 
@@ -784,7 +798,7 @@ Whenever a **PC** acts in accordance with their **ambition**, their player earns
 ### Aspiration
 Every **PC** must have three **aspirations** - immediate goals to pursue in the current game session. They're usually born from immediate circumstance and are expected to change frequently. 
 
-**Aspirations** should be written down as a *conviction*, followed by an *actionable* goal to pursue. Any **aspiration** that includes the words "I will ..." is usually *actionable* - the character wants to **do** something, which will possibly achieve their goal. A *conviction* is a statement of *why* the character has set this goal. 
+**Aspirations** should be written down as a *conviction*, followed by an *actionable* goal to pursue. Any **aspiration** that includes the words "I will ..." is usually *actionable* - the character wants to **do** something, which will possibly achieve their goal. A *conviction* is a statement of *why* the character has set this goal. The **action** is the critical piece of information here - what your character *aims to do*. 
 
 > For example, a **PC** learns of a conspiracy against their lord during the session. After the session, they decide they'll change one of their **aspirations** to "My lord's safety is paramount! I will uncover the plot against them!"
 >
@@ -792,13 +806,21 @@ Every **PC** must have three **aspirations** - immediate goals to pursue in the 
 > 
 > With that they set the stage for their character when the next session arrives. The **GM** thus has an idea of what story elements to prepare for and the other players know why the one **PC** suddenly acts more suspiciously and inquisitively. 
 
-**Aspirations** can be directed towards anyone - including the world itself, **NPC**s and even other **PC**s. 
+Whether fulfilling an aspiration is realistic or not, is not as important as making sure it reflects what your character believes in. You may very much have unrealistic goals, but they must be in line with what you expect your character to *want*. 
 
-> For example, a **PC** learns their ally is a member of a secretive and potentially dangerous cult. After the session, the player determines the new **aspiration** "I look out for my allies! I will get my ally to leave that dangerous cult!" 
+> Someone very selfish is unlikely to want to help poor orphans living on the street to find a loving family and new home, without any promise of reward for themselves. Even if helping those orphans would likely be very easy to accomplish in the next session, unless it can be plausibly explained, the character should probably not receive an aspiration to help those orphans. 
+>
+> On the other hand, that same character may want to become president. It is unlikely they will succeed (at least any time soon), but this is what they strongly desire. And so they might receive an aspiration for it, regardless of how unlikely this goal is. 
+
+**Aspirations** can be directed towards anyone - including the world itself, **NPC**s and even other **PC**s - but **only** if their player agrees. Always keep in mind not to do anything *too* drastic or antagonistic towards fellow **PC**s! After all, why should people who actually hate each other's guts stick together as a group? Perhaps you can find a good reason, but this should be a **deliberate decision** that the **entire player group agrees on**. This is why it cannot be overstated how important it is that everyone is on the same page regarding **every character's aspirations**. 
+
+> For example, a **PC** learns their ally is a member of a secretive and potentially dangerous cult. After the session, the player determines the new **aspiration** "I look out for my allies! I will get my ally to leave that dangerous cult!" The player of that other **PC** accepts, because they understand that aspiration to follow a well-meaning conviction. 
 > 
-> Whether successful or not, this **aspiration**, in play, will create an **interesting conflict** between the two **PC**s. But always keep in mind not to do anything *too* drastic or antagonistic towards fellow **PC**s. After all, why should people who actually hate each other's guts stick together as a group? Perhaps you can find a good reason, but this should be a deliberate decision that the entire player group agrees on. 
+> Whether successful or not, this **aspiration**, in play, will create an **interesting conflict** between the two **PC**s, if they so choose. 
 
-If you cannot think of three **aspirations**, don't hesitate to ask the **GM** and the other players for ideas and suggestions! And once you have all three, make sure to run them by your **GM**. After all, your **GM** must be able to understand your **aspirations** to properly run the game. 
+Should anyone feel uncomfortable with an aspiration someone has chosen, then do not hesitate to bring it up. Perhaps the aspiration is crossing a line, touching on a taboo-subject for you. Everyone should be able to agree with the aspirations the players have chosen. If that is ever not the case, then the problematic aspirations must be changed! 
+
+If you cannot think of three **aspirations**, don't hesitate to ask the **GM** and the other players for ideas and suggestions! Once you have all three **aspirations**, make sure to run them by your **GM** and fellow players. Again, this is to ensure that everyone understands and agrees with the aspirations that have been chosen. If an aspiration seems unclear, then pose the question "does it contain a **clear action** that **PC** is going to try and take?". If you cannot answer that question without doubt, then the phrasing of the aspiration may need some refinement. This is especially important for the  **GM**, who must be able to understand your **aspirations** to properly run the game. 
 
 Whenever a **PC** acts in accordance with their **aspirations**, their player earns [fate points](#fate-points). 
 
@@ -1080,10 +1102,7 @@ Non-player characters (**NPC**s) are all the people, animals and monsters of a w
 **NPC**s are built differently from **PC**s. Not all the same rules apply to them as **PC**s. The following differences exist:
 * **NPCs** **cannot** earn [fate points](#fate-points). 
 * **NPC**s don't *need* the [personality](#personality) section. A **GM** *may choose* to include it for the *main actor* **NPC**s, but for your average animal or passing acquaintance, no personality need be marked down. 
-* [Challenge ratings](./gm-guide.md#challenge-ratings-cr) abstract away the need to explicitly fill out [attribute](#attributes) or [skill](#skills) levels. 
 * **NPC**s don't *need* advancement progress to be tracked. Thus, [learning skills](#learning-skills) are also optional. 
-
-The rules about [Challenge ratings](./gm-guide.md#challenge-ratings-cr) can be looked up in the **GM** guide. Keep in mind the **GM** guide is mostly reserved for the **GM**. Regardless, **challenge ratings** are mentioned here to let both players and **GM** know of this tool, which can speed up the flow of the game *significantly*. 
 
 # Fate Points
 Fate points (**FP**) represent a meta-currency that *players* can earn and use to buy boons for their character or the group as a whole. At the end of every session, players and the **GM** should discuss who earned which **FP**, followed by awarding those **FP**. 
@@ -1337,11 +1356,9 @@ It may be possible to go past this limit via some [expertises](#expertise) or [b
 > At the start of their next **turn**, they get to keep 2 of those unspent **AP** and are forced to discard the third **AP**. They get 3 more **AP** because it is the start of their turn. Thus, they begin their turn with 5 **AP** available to them. 
 
 ## Combat Movement
-Under normal circumstances, a character (an average human) can move up to **12'/4m** (= 4 fields on a grid) per **AP** spent. In **difficult terrain**, the distance moved per **AP** is half that, at **6'/2m** (= 2 fields on a grid). It may be possible to increase the distance moved per **AP**, by **sprinting** (see below) or through the use of [skills](#skills). 
+Under normal circumstances, a character (an average human) can move up to `12'/4m` (= 4 fields on a grid) per **AP** spent. In **difficult terrain**, the distance moved per **AP** is half that, at `6'/2m` (= 2 fields on a grid). **Difficult terrain** is any space that slows movement, but does not prevent it outright. Examples would be waist-high water, a surface of glue or a slowing force field. 
 
-**Difficult terrain** is any space that slows movement, but does not prevent it outright. Examples would be waist-high water, a surface of glue or a slowing force field. 
-
-It is also possible to **sprint**, increasing the distance one can move per **AP** spent, at the cost of 1 point of [exhaustion](#exhaustion) for every **AP** spent **sprinting**. The movement distance is increased by 3'/1m per level in [agility](#agility-agi), per **AP**. Every time a character **sprints**, they progress this **attribute** (but only once per turn). 
+It is also possible to **sprint**, increasing the distance one can move per **AP** spent, at the cost of 1 point of [exhaustion](#exhaustion) for every **AP** spent **sprinting**. The movement distance is increased by `3'/1m` for every level in [sprinting speed](#sprinting-speed), per **AP**. 
 
 ### Disengage
 It is possible to move out of an enemy's [range of opportunity](#attacks-of-opportunity) without provoking an [attack of opportunity](#attacks-of-opportunity). This action costs 2 [AP](#action-points-ap) and the disengaging character **must** move in a direction that will get them out of the [range of opportunity](#attacks-of-opportunity) the fastest and safest, as far as 1 **AP** of movement would get them. 
@@ -1536,20 +1553,6 @@ Even if the `bulk - 1` formula would result in 0, instead use 1. The resulting m
 The [damage type](#damage-types) to use, depends on the type of object and how it hits the target. For most non-weapons, **bludgeoning** should be appropriate. 
 
 > A character with [strength](#strength-str) 5, throwing a [bulk](#bulk) 3 object, can deal 5 * (3 - 1) = 10 points of damage. 
-
-## Unarmed Combat (Agi/Str)
-Sometimes, your own body is your greatest weapon. Fists and feet can cause a surprising amount of damage. 
-
-* Melee
-* This is a skill
-
-| Level | Name                       | AP | **Ob**                               | Damage/Effect         | Condition |
-| ----- | -------------------------- | -- | ------------------------------------ | --------------------- | --------- |
-| 0     | Punch, Kick, Headbutt      | 2  | Opposed                              | `Str * 2` Bludgeoning |  |
-| 0     | Shove                      | 2  | Opposed by [strength](#strength-str) | Push an enemy away from you for 3'/1m * *N*, where *N* is the number of **hits** more than the opponent achieved. |  |
-| 1     | Grapple                    | 2  | Opposed by **Unarmed Combat**        | If **completely successful**, the target is unable to move and suffers **-1D** to their defense tests, for as long as they're grappled. Someone grappled can attempt to break free with an opposed **Unarmed Combat** test, on their turn. The grappler can not use at least one of their hands for as long as they're grappling. |  |
-| 2     | Wrestle and Disarm         | 2  | Opposed by **Unarmed Combat**        | Disarm your opponent and wrestle them to the ground, making them [prone](#prone), if you so choose. | Disarm only if enemy is using detachable weapon. |
-| 3     | Barge In                   | 3  | Opposed by [strength](#strength-str) | Push an enemy away from you for 3'/1m * *N*, where *N* is the number of **hits** more than the opponent achieved. Take their previous position and do **not** provoke **attacks of opportunity**. |  | 
 
 # General Interactions
 These are rules pertaining to specific social interactions or otherwise non-combat interactions that aren't immediately covered by a single [skill](#skills). 
@@ -1832,7 +1835,14 @@ Weapon type assets can have the following **traits**:
 * A **counter-attack** is a *reaction* that allows a fighter being attacked to attack their attacker, at the cost of 1 [AP](#action-points-ap). 
 
 ## Lists of Skills
-The following list does not and cannot aim to be a complete listing of all possible skills in game. Adding new skills as necessary will have to be done by the **GM**. 
+The following list does not and cannot aim to be a complete listing of all possible skills in game. Adding new skills as necessary will have to be done by the **GM**. Nevertheless, most general scenarios should be covered by these skills. 
+
+Many Expertises will be most useful in combat scenarios, but you are encouraged to find uses for them outside of combat! 
+
+When reading through the Expertises, some terminology is involved:
+* A **passive** Expertise is always active, when certain conditions are met. 
+* A **reaction** Expertise either automatically or optionally activates when certain conditions are met. If the reaction is not automatic, you may *choose* to activate it, or abstain from its use. 
+* The **primary damage** is that damage of an attack which is the highest, before any modifications are applied to it. For example, if by default a weapon deals `1D8 slashing + 1D4 bludgeoning`, then the slashing damage is considered its primary damage. 
 
 ### Physical Skills
 These skills have a dominant physical aspect and are directly tied to a character's *physical attributes*. 
@@ -1843,8 +1853,9 @@ Performing acrobatic feats, such as jumping, tumbling and climbing, without inju
 | Level | Name                 | AP | **Ob**  | Effect(s)          | Condition(s) |
 | ----- | -------------------- | -- | ------- | ------------------ | ------------ |
 | 1     | Deft Evasion         | /  | /       | Passive: While not wearing any [armor](#armor) and not wielding a shield of bulk 2 or more, gain `+1` [compensation point](#compensation-points) to any [defense test](#defending) made using this skill. | / |
-| 2     | Wind Out Of It       | 1  | 2       | When hit by a [single-target](#single-target-st) attack, wind out of the hit and suffer only half the damage. Can be used even when a much bulkier weapon is breaking through your successful defense, to halve the damage *again*, effectively resulting in you suffering only 1/4th (rounded up) of the damage. | Once per combat. |
-| 3     | Bob, Weave, Jab      | 1  | Opposed | When succeeding a defense test, launch a [counter-attack](#defense-stunts) against the enemy who attacked you, but for your weapon's **full damage** and without suffering any [exhaustion](#exhaustion)! | Once per round. |
+| 2     | Wind Out Of It       | 1  | 2       | When hit by a [single-target](#single-target-st) attack, wind out of the hit and suffer only half the damage. Can be used even when a much bulkier weapon is breaking through your successful defense, to halve the damage *again*, effectively resulting in you suffering only 1/4th (rounded up) of the damage. | / |
+| 3     | Bob, Weave, Jab      | 1  | Opposed | When succeeding a defense test, launch a [counter-attack](#defense-stunts) against the enemy who attacked you, but for your weapon's **full damage** and without suffering any [exhaustion](#exhaustion)! | / |
+| 3     | Be My Shield         | 2  | /       | Reaction: If grappling an enemy and being hit with an attack, make *them* take the hit, instead. The grappled enemy gets **no chance** to defend themself. | Grappling an enemy. |
 
 #### Berserking (Tough/Tough)
 Whether as a well-honed skill and way of life, or through a disappointing childhood of misery and pain, berserking is a talent for fighting angrily and recklessly. It allows a fighter to keep fighting at surprising strength, even when wounded. 
@@ -1911,6 +1922,19 @@ General expertise at throwing things. This includes weapons as well as non-weapo
 
 See [throwing](#throwing). 
 
+#### Unarmed Combat (Agi/Str)
+Sometimes, your own body is your greatest weapon. Fists and feet can cause a surprising amount of damage. 
+
+* Melee
+
+| Level | Name                       | AP | **Ob**                               | Damage/Effect         | Condition |
+| ----- | -------------------------- | -- | ------------------------------------ | --------------------- | --------- |
+| 0     | Punch, Kick, Headbutt      | 2  | Opposed                              | `Str * 2` Bludgeoning |  |
+| 0     | Shove                      | 2  | Opposed by [strength](#strength-str) | Push an enemy away from you for 3'/1m * *N*, where *N* is the number of **hits** more than the opponent achieved. |  |
+| 1     | Grapple                    | 2  | Opposed by **Unarmed Combat**        | If **completely successful**, the target is unable to move and suffers **-1D** to their defense tests, for as long as they're grappled. Someone grappled can attempt to break free with an opposed **Unarmed Combat** test, on their turn. The grappler can not use at least one of their hands for as long as they're grappling. |  |
+| 2     | Wrestle and Disarm         | 2  | Opposed by **Unarmed Combat**        | Disarm your opponent and wrestle them to the ground, making them [prone](#prone), if you so choose. | Disarm only if enemy is using detachable weapon. |
+| 3     | Barge In                   | 3  | Opposed by [strength](#strength-str) | Push an enemy away from you for 3'/1m * *N*, where *N* is the number of **hits** more than the opponent achieved. Take their previous position and do **not** provoke **attacks of opportunity**. |  | 
+
 #### Weapon < [weapon type](#weapon-types) > (< attribute >)
 Expertise at handling a close-quarters or ranged weapon of a specific [weapon type](#weapon-types). 
 
@@ -1965,7 +1989,7 @@ In and outside of [combat](#combat), a rider will inherit the [speed](#combat-mo
 
 | Level | Name                 | AP | **Ob** | Effect(s)          | Condition(s) |
 | ----- | -------------------- | -- | ------ | ------------------ | ------------ |
-| 1     | Spur                 | 1  | 2      | Gain an additional 2 **AP** worth of movement from your mount. The mount suffers +1 exhaustion. | At most once per turn. |
+| 1     | Spur                 | 1  | 2      | Gain an additional 2 **AP** worth of movement from your mount. The mount suffers +1 exhaustion. | At most once per round. |
 | 3     | Mounted Charge       | 3  | 3      | Perform a mounted charge attack, dealing **2D4** extra damage of whatever weapon type you are using. | Mounted on a fast and strong animal; Must have enough distance to target to gain enough speed - refer to **GM**'s judgement. |
 
 #### Self-Control (Tough/Tough)
@@ -1976,6 +2000,23 @@ These skills have a dominant mental aspect and are strongly related to a charact
 
 #### Architecture (Awar/Wit)
 Analysing and planning buildings. Discerning weak points in a structure. 
+
+#### Archeology (Awar/Wit)
+An eye for historic detail, the ability to date such things and the capacity to plan and lead archeological digs and expeditions. 
+
+| Level | Name                 | AP | **Ob**  | Effect(s)          | Condition(s) |
+| ----- | -------------------- | -- | ------- | ------------------ | ------------ |
+| 2     | Look For Curios      | 1  | 2       | Look around for curios - things from a bygone age - and if successful, then the number of hits past the Ob you score, determine its significane and worth. Can only be used in places lost to time and only once per location. Your **GM** will determine the specifics in terms of money value and [bulk](#bulk). |  |
+
+#### Creature-Lore <category?> (Awar/Wit)
+Knowledge about a specific type/family of creature. You can recollect knowledge regarding the strengths and weaknesses, as well as behavior, origin and occurrence. 
+
+Types/families are the broad terms that describe multiple specific creatures as sharing many similarities. These will be specific to the world and setting and examples could be such as "undead", "human", "abomination", "beast" and so on.
+
+| Level | Name                 | AP | **Ob**  | Effect(s)          | Condition(s) |
+| ----- | -------------------- | -- | ------- | ------------------ | ------------ |
+| 1     | I Know Your Weakness | /  | /       | Passive/Reaction: Every creature has weak-points. You know how to aim for them and deal `+1D4` points of your primary damage on a successful attack, *if* this is a creature of the category you are familar with. |  |
+| 2     | I Know Your Strength | /  | /       | Passive/Reaction: When you are hit by a creature you are familiar with, you suffer `1D4` fewer points of their primary damage. Their effective damage against you cannot be reduced to less than `1` by this. |  |
 
 #### Geography (Awar/Wit)
 Knowledge about the geography of the world. Used to recall the location of places in relation to each other. 
@@ -2010,14 +2051,16 @@ The ability to tell flora and fauna apart and to know of their attributes, such 
 
 | Level | Name                 | AP | **Ob** | Effect(s)          | Condition(s) |
 | ----- | -------------------- | -- | ------ | ------------------ | ------------ |
-| 2     | Dirty Weapon         | 2  | 2      | Grab some dirt or filth and rub it on a melee weapon. When an [attack](#attacking) with that weapon inflicts an [injury](#injury), the victim suffers 2 points of [poisoned](#poisoned) and the **injury** is always an [infection](#list-of-injuries). | Dirt or filth nearby. |
-| 2     | Dirty Ammo           | 2  | 2      | Grab some dirt or filth and rub it on a select amount of kinetic ammunition (such as arrows or bullets). When an [attack](#attacking) with that ammunition inflicts an **injury**, the victim suffers 1 point of [poisoned](#poisoned) and the [injury](#injury) is always an [infection](#list-of-injuries). | Dirt or filth nearby; Ammunition easily accessible during combat. |
+| 1     | Dirty Weapon         | 2  | 2      | Grab some dirt or filth and rub it on a melee weapon. When an [attack](#attacking) with that weapon inflicts an [injury](#injury), the victim suffers 2 points of [poisoned](#poisoned) and the **injury** is always an [infection](#list-of-injuries). | Dirt or filth nearby. |
+| 1     | Dirty Ammo           | 2  | 2      | Grab some dirt or filth and rub it on a select amount of kinetic ammunition (such as arrows or bullets). When an [attack](#attacking) with that ammunition inflicts an **injury**, the victim suffers 1 point of [poisoned](#poisoned) and the [injury](#injury) is always an [infection](#list-of-injuries). | Dirt or filth nearby; Ammunition easily accessible during combat. |
 
 #### Mysticism and Religion (Wit/Wit)
 Knowledge about religions, legends and myths. May be used to recall knowledge about mythical creatures, artifacts and locations, as well as understand the local religion more easily. 
 
 #### Medicine (Agi/Wit)
-Diagnosing and treating mundane [injuries](#injury). 
+Diagnosing and treating mundane [injuries](#injury), [illnesses](#illness) and [poisons](#poisoned). 
+
+This skill may also find use in forensics, to identify poisons or the type of weapon that inflicted a wound. The Ob will depend on the rarity of the poison/weapon. 
 
 #### Reading and Writing < language > (Awar/Wit)
 The ability to both read and write in a specific language. 
@@ -2026,6 +2069,8 @@ The language in question must be noted in addition to this skill.
 
 #### Surgery (Agi/Wit)
 The ability to invasively treat ailments without making things worse for the patient. 
+
+This skill may also find use in forensics, to identify poisons or the type of weapon that inflicted a wound. The Ob will depend on the rarity of the poison/weapon. At the cost of `1` [medical supplies](#list-of-general-assets), finger prints, organic samples like blood and similar can be retrieved and identified. 
 
 #### Warfare (Tough/Wit)
 The ability to understand and direct large-scale combat movements, the logistics and psychology of war. 
@@ -2043,15 +2088,41 @@ The ability to paint and draw well, as well as a general sense of aesthetics.
 | 1 painting or sculpture.             | Moderate   | Moderate  | Any paintable or shapeable object, such as a canvas or chunk of marble. | / |
 
 #### Cooking (Awar/Wit)
-The ability to cook well. Poor cooks are prone to losing ingredients due to burning them or overcooking them to the point of inedibility. 
+The ability to cook hearty and sweet meals that can strengthen and invigorate. Poor cooks are prone to losing ingredients due to burning them or overcooking them to the point of inedibility. 
 
-Tools: cooking utensils, a pot or pan, a fire place
+Tools: cooking utensils, a pot or pan, a strong heat source
+
+A cook may choose to make the meal confer certain boons, at the expense of increasing the Ob by `+1`, once for each of the following boons:
+* Increase maximum HP by `Q D4`, for an hour. 
+* Increase [base initiative](#base-initiative) by `Q`, for an hour. 
+* Increase [strength](#strength-str) or [toughness](#toughness-tough) by `Q / 2 (rounded up)`, for an hour. 
+* Resist half of all [freezing](#damage-types) or [burning](#damage-types) or [bleeding](#damage-types), for an hour. 
+
+All meals always restore `Q HP` and reduce exhaustion by `Q`. 
+
+The boons from meals do not stack. Eating a second meal will have it override all of a previous meal's boons. The strength of boons is determined at the time of creation and are the same for all characters who share in the meal. 
 
 [Crafting](#crafting)
-| Product                              | Complexity | Workload  | Materials                              | Quality Bonus   |
-| ------------------------------------ | ---------- | --------- | -------------------------------------- | --------------- | 
-| A meal for a few people              | Low        | Low       | Foodstuffs                             | / |
-| A meal for many people               | Moderate   | Moderate  | Plenty of foodstuffs                   | / |
+| Product                              | Complexity | Workload  | Ob | Materials                              | Quality Bonus   |
+| ------------------------------------ | ---------- | --------- | -- | -------------------------------------- | --------------- | 
+| Meal                                 | Low        | High      | 1  | Foodstuffs                             | Restores `Q HP` and reduces exhaustion by `Q`. |
+
+### Specializations
+These skills always require other skills to be **known** at a given level or at least at level 1, before they can be learned. 
+
+Additionally, it may be impossible to learn these without a teacher, at the **GM**'s discretion.
+
+#### Warcrobatics (Agi/Awar)
+Combining agility with deadliness, elevating mere skill at arms to an elegant art. 
+
+Requires knowing [Acrobatics](#acrobatics-agistr) and a [weapon skill](#weapon--weapon-type---attribute-), each at least at level 3. 
+
+| Level | Name                 | AP | **Ob**      | Effect(s)          | Condition(s) |
+| ----- | -------------------- | -- | ----------- | ------------------ | ------------ |
+| 0     | Vault & Jab          | 2  | Opposed - 1 | Vault over an enemy, placing yourself directly behind them, and strike them with a weapon, for half (rounded up) of its damage and pushing them back `3'/1m`. | / |
+| 1     | Bounce Back          | /  | /           | Reaction: When knocked down immediately get back up, at no AP cost. You must not be wearing armor. | / |
+| 1     | Area Evasion         | /  | /           | Passive/Reaction: When succeeding a defense test against an [aoe](#area-of-effect-aoe), you suffer only 1/4th (rounded up) of the damage. | / |
+| 3     | Shield Breaker       | /  | /           | Passive: You know to exploit the lethargy of shields and can circumvent their defensive bonuses. Against you, shields always count as [overwhelmed](#flanking)! | / |
 
 ## List of Conditions
 The following is a list of all [conditions](#condition) present in the core rules. 
