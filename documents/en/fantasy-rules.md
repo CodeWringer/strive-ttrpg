@@ -199,9 +199,9 @@ A **spell-backfire** occurs in the following two cases:
 > Another example. This time, the mage has only 2 **magic stamina** left and rolls a cost of 3. This would result in them reaching negative **magic stamina** (= -1) and thus **does** cause a **spell-backfire**! Note, that the current magic stamina cannot be negative and instead is simply set to "0". 
 
 ## Concentration Spells
-Some magic can be upheld for as long as the casting mage *concentrates* on their spell. Such spells will be marked with **"Concentration"**. The effects of a concentration spell last for as long as the mage *chooses* or *manages* to keep their concentration. They need only test for the spell only *once*, when they first cast it. 
+Some magic can be upheld for as long as the casting mage *concentrates* on their spell. Such spells will be marked with **"Concentration"**. The effects of a concentration spell last for as long as the mage *chooses* or *manages* to keep their concentration. They need only test for the spell only *once*, when they first cast it. After that, during combat, it costs `1` AP at the start of every turn to uphold it. 
 
-A mage can only upkeep **one** concentration spell at a time. 
+Under normal circumstances, a mage can only upkeep **one** concentration spell at a time. 
 
 Concentration can be broken! Concentration is automatically broken, if the mage is incapacitated, for example by having been knocked unconscious. Otherwise, whenever the mage is *forced* to roll a [test](./core-rules.md#tests), they must **also** succeed another test of their concentration spell's magic school, at the same **Ob** as the test they were just forced to roll. 
 
