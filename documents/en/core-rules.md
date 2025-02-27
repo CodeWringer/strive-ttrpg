@@ -833,6 +833,7 @@ As such, there are two types of **reactions**:
 * **Troublemaker**: A detrimental **reaction**, that will get the character in *trouble*.
   * A **troublemaker** allows earning [fate points](#fate-points). 
   * *Trouble* is defined as any situation in which a mild conflict arises, from the **PC**'s **reaction**. This conflict does not have to be violent, mind you. It should be preferable for a social conflict to arise, that is entirely non-violent. Things could always escalate, of course.
+  * A **troublemaker** may also represent a character's *fears*. Things they will want to avoid, even to the detriment of their other goals. Like a fear of the open sea, of fire, of space and so on. 
 * **Assurance**: A beneficial **reaction** that acts as *insurance*, that the character won't be caught by surprise. 
   * An **assurance** does not allow earning [fate points](#fate-points). 
   * *Insurance* is defined as a *behavior* that allows entering a given situation under more favorable circumstances. An *insurance* can also help prevent or resolve a conflict. 
