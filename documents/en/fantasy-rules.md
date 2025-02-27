@@ -560,6 +560,7 @@ In the following table, `Q` refers to the quality grade of the asset. See also t
 | Blackpowder Bomb         | 1    | 2               | A small iron-shelled bomb, filled with blackpowder. A short fuse sticks out and must be lit to set it off. Once lit, the bomb will detonate after 3 turns or 15 seconds. Deals `QD4 Bludgeoning + QD4 Burning` damage to anyone in a `6'/2m` radius. |
 | Calming Tea              | 1    | 3               | This herbal tea has the ability to calm nerves. Removes [berserk](./core-rules.md#berserk), [jealous](./core-rules.md#jealous) and [terrified](./core-rules.md#terrified). Best enjoyed steaming hot, but not necessarily. |
 | Dragon's Breath Potion   | 1    | 3               | Upon drinking this potion, the orange liquid combines with the stomach acid and bursts out of the drinker's throat, igniting and thus causing them to spew fire! Causes `1D8 - Q Burning` damage to the user and `QD6 Burning` damage in a `18'/6m` cone in front of the user. |
+| Death Fog                | 1    | 1               | An extremely rare and deadly gas. Once exposed to air, covers an area of `Q*3'/Qm` in impenetrable, eerily glowing, blue fog. Deals `6D10 + 40` **pure** damage to all **organic** things it touches, per tick. Metal and mineral are unaffected, while plant and flesh are stricken from existence. |
 | Fire Pot (Potion)        | 1    | 3               | An ancient recipe, this concoction bursts into flame when exposed to air for several seconds. It causes severe burns for `QD6 Burning` damage in a `6'/2m` radius. Consumed on use. |
 | Illusionist's Powder     | 1    | 2               | A small amount of weakly iridescently shimmering powder. When scattered, the dust remains suspended in mid-air and settles in an image of the making alchemist's choosing, which at a distance can seem perfectly real. It takes a successful test at `Ob Q + 1` to see through the ruse. This image lasts `QD10` minutes. |
 | Invigorating Potion      | 1    | 3               | The drinker of this potion feels refreshed and invigorated! Reduces exhaustion by `Q` and clears the [exhausted](./core-rules.md#exhausted) condition. Beware this potion can only be safely imbibed twice in a 24 hour cycle. If drunk more, roll a `D6`. If it is a **hit**, you're in luck! But if not, you instead suffer `+2` points of [exhaustion](./core-rules.md#exhaustion). |
@@ -879,6 +880,7 @@ Ingredients can have the following **properties**:
 8. `explosive`
 9. `soothing`
 10. `toxic`
+11. `annihilating`
 
 **Booster** ingredients automatically add `+1` quality to the finished product (on a successful crafting attempt). <br>
 **Purifier** ingredients can remove a chosen component from another ingredient. 
@@ -893,6 +895,7 @@ Alchemist's may also try to push their luck when crafting. They may try one of t
 | Blackpowder Bomb                     | Moderate   | High      | 2  | 4 explosive; 1 binding                 | An ignition mechanism, like a plain cord or rope. |
 | Calming Tea                          | Low        | High      |    | 2 soothing; 1 edible                   | / |
 | Dragon's Breath Potion               | Moderate   | High      |    | 1 catalyst; 1 explosive                | Alcohol |
+| Death Fog                            | Very High  | Very High | 4  | 5 annihilating; 3 binding              | / |
 | Fire Pot (Potion)                    | Moderate   | Moderate  | 2  | 2 explosive; 1 binding; 1 catalyst     | / |
 | Illusionist's Powder                 | High       | High      | 2  | 3 arcane; 1 binding                    | / |
 | Invigorating Potion                  | Moderate   | Moderate  |    | 2 soothing; 2 enhancing; 1 restorative | / |
