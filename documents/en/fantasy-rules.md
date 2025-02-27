@@ -93,6 +93,7 @@
       - [Weapon Smithing (Str/Wit)](#weapon-smithing-strwit)
       - [Woodcarving (Agi/Agi)](#woodcarving-agiagi)
   - [List of Magic Schools](#list-of-magic-schools)
+    - [Aeromancy (Arc/Agi)](#aeromancy-arcagi)
     - [Artificing (Arc/Wit)](#artificing-arcwit)
     - [Alteration (Arc/Wit)](#alteration-arcwit)
     - [Cryomancy (Arc/Arc)](#cryomancy-arcarc)
@@ -1069,6 +1070,19 @@ In all the following tables, note the following:
 * *Level* is the prerequisite level of the **magic school skill**, at which a given spell becomes available for use. 
 * Whenever distances and radii are concerned, a mage may always choose a *shorter* distance or radius. For example, a `SI * 6'/2m` radius definition, sets the **maximum**. The radius may be at most this large, but can be smaller, if the mage so chooses. 
 * Whenever the effect is unleashed in a **cone**, then at every point it has traveled, it is as wide as far as it has traveled. So for example, at 3'/1m distance, it is 3'/1m wide. At 9'/3m distance, it is 9'/3m wide. 
+
+### Aeromancy (Arc/Agi)
+The control of air, to create and change its flow, for benefit and detriment. 
+
+| Level | Name                 | AP | Distance    | Ob                           | Effect(s)                      | Backfire Effect(s) |
+| ----- | -------------------- | -- | ----------- | ---------------------------- | ------------------------------ | ------------------ |
+| 0     | Wind Tunnel          | 2  | SI * 9'/3m  | SI                           | Conjures up an unnatural stream of air that speeds the step of all creatures moving in its direction and slowing down all creatures that move in the opposite direction, by `6'/2m`. This gust originates from the caster lasts 3 turns. Can clear away gases and the like. | The caster loses control and is tossed `15'/5m` in a random direction! |
+| 0     | Wind Lance           | 2  | SI * 9'/3m  | Opposed                      | Hurls a directed, compacted bolt of air towards a victim, dealing `1D10 + SI` **bludgeoning** damage. | The attack is launched in a random direction, instead. |
+| 0     | Breathing Bubble     | 2  | 3'/1m       | SI                           | **Concentration**: Form a stationary bubble of clean air, up to `SI * 3'/1m` large in diameter, that will last for as long as you concentrate on it. | The caster loses control and is tossed `15'/5m` in a random direction! |
+| 2     | Updraft              | 1  | 3'/1m       | SI                           | Create a gust of wind to help you reach greater heights, by jumping or flying up to `SI * 6'/2m` higher. | The effect is instead the inverse, pushing down on you and forcing you [prone](./core-rules.md#prone). |
+| 2     | Vacuumize            | 2  | 24'/8m      | SI                           | **Concentration**: Drive all air out of a stationary area of choice, within *distance*, up to `SI * 3'/1m` large in diameter. All creatures caught in the anti-air bubble start suffocating, as all air is driven from their lungs, as well. | The air around the caster is displaced, instead of the spot of their choosing. |
+| 5     | Tornado              | 2  | SI * 18'/6m | SI                           | **Concentration**: Call forth a tornado and control its movements. It is up to `SI * 3'/1m` wide and tall, and can displace creatures and objects up to `SI * 2` bulk, throwing them up to `SI * 6'/2m` far. Upon landing and impacting with a surface, victims suffer `SI D6` points of bludgeoning damage. The tornado can clear away gases and the like. | The air compresses around the caster, crushing them for `SI D6 + SI` points of bludgeoning damage. |
+| 5     | Crushing Compression | 2  | SI * 18'/6m | SI                           | Compress the air around a victim, crushing them for `SI D6` points of bludgeoning damage. | The air compresses around the caster instead, crushing them for `SI D6 + SI` points of bludgeoning damage. |
 
 ### Artificing (Arc/Wit)
 The setting of arcane traps and creation of arcane artifacts and materials. 
