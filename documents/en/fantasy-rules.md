@@ -16,6 +16,7 @@
   - [Magic Negation](#magic-negation)
   - [Protection From Magic](#protection-from-magic)
   - [Testing Magic](#testing-magic)
+  - [Magic Echoes](#magic-echoes)
   - [Magic Things](#magic-things)
     - [Abyssalite](#abyssalite)
     - [Amberite](#amberite)
@@ -26,6 +27,7 @@
     - [Magic Scrolls](#magic-scrolls)
     - [Malevite](#malevite)
       - [Malevite Side-Effects](#malevite-side-effects)
+  - [Memorum](#memorum)
 - [Assets](#assets)
   - [Weapon Properties](#weapon-properties)
 - [Appendix](#appendix)
@@ -87,7 +89,7 @@
       - [Goldsmithing (Agi/Agi)](#goldsmithing-agiagi)
       - [Leatherworking (Agi/Wit)](#leatherworking-agiwit)
       - [Masonry (Str/Tough)](#masonry-strtough)
-      - [Rune Carving (Arc/Wit)](#rune-carving-arcwit)
+      - [Rune-Smithing (Arc/Wit)](#rune-smithing-arcwit)
       - [Shield-Making (Str/Wit)](#shield-making-strwit)
       - [Tanning/Skinning (Agi/Tough)](#tanningskinning-agitough)
       - [Weapon Smithing (Str/Wit)](#weapon-smithing-strwit)
@@ -243,6 +245,13 @@ Damage from magical sources is reduced by the quality level + a number of dice. 
 >
 > Now, they determine their **Ob** to be 2. They roll their 4 available D6, but achieve only 1 **hit**. Their spell fizzles and fails without any effect! 
 
+## Magic Echoes
+Whenever magic is cast, a pale reflection of it remains, invisible to the naked eye, lingering for `SI * 4` hours, based on the magic spell's [intensity](#spell-intensity-si) when it was cast. 
+
+Those sensitive to magic can detect it and if they know the [magic school](#magic-school--school---attribute-) whence the spell stems, they instinctively recognize the echo. Otherwise, they may need to succeed an [Arcana](#arcana-arc) test at Ob `2` to determine the type of magic that was cast. With another test, also at Ob `2`, they may also determine a rough estimate of how old the echo is. 
+
+Each echo has a unique aspect to it, like a finger-print. It is possible to capture a magic echo's finger-print, as well as some of the context when it was cast, in special devices, called [Magic Recorders](#list-of-general-assets). 
+
 ## Magic Things
 No fantasy world would be complete without materials with uses for the supernatural or artifacts of immense power. This section introduces the basics of these things. 
 
@@ -300,7 +309,7 @@ Shards of [Abyssalite](#abyssalite) can have **runes** carved into them, which a
 
 To activate such a **rune**, is a difficult skill to learn, however. Even if no innate magical ability is required, an understanding of the flow of magic is. The **rune** must be touched in the right spots, at the right intervals, to activate successfully. Mistakes in this procedure can have disastrous results. 
 
-What's more, it takes great skill to carve the right **runes**, as each **rune's** shape and complexity depends in part on the size and shape of the [Abyssalite](#abyssalite) shard. The only way to get it right, is to *feel* the way the **rune** must be shaped. Alternatively, the shard can be adjusted to be of equivalent size and shape as another **rune**, but this requires considerable effort, as [Abyssalite](#abyssalite) is a brittle material, prone to shattering if too much force is applied. Thus, it must be carefully filed down to size. This would double the time it takes to [craft](#rune-carving-arcwit) the **rune**.
+What's more, it takes great skill to carve the right **runes**, as each **rune's** shape and complexity depends in part on the size and shape of the [Abyssalite](#abyssalite) shard. The only way to get it right, is to *feel* the way the **rune** must be shaped. Alternatively, the shard can be adjusted to be of equivalent size and shape as another **rune**, but this requires considerable effort, as [Abyssalite](#abyssalite) is a brittle material, prone to shattering if too much force is applied. Thus, it must be carefully filed down to size. This would double the time it takes to [craft](#rune-smithing-arcwit) the **rune**.
 
 Due to how **runes** are always magically charged, they cannot be in the vicinity of any other **runes**. This works a bit like how magnets with the same polarity repulse each other, but a lot more dangerous. This condition applies regardless of the type of magic each of the **runes** hold. 
 
@@ -311,7 +320,7 @@ It may be possible to circumvent this repulsion behavior by placing the **runes*
 In order to craft a **rune**:
 * A **rune** can only be made to cast one type of magic. So the carver has to pick one of the [magic schools](#list-of-magic-schools). 
 * The maximum **level** at which a **rune** can be created, depends on the carver's skill. The **level** of the **rune** dictates the level of the respective magic it will cast at. 
-* The carver has to succeed a [rune carving](#rune-carving-arcwit) skill test. 
+* The carver has to succeed a [rune smithing](#rune-smithing-arcwit) skill test. 
 * Then, the **rune** must be "primed" by a mage. This requires a **complete success** of a test of the same [school of magic](#list-of-magic-schools) as the **rune** holds, with **Ob** equal to the spell's [intensity level](#spell-intensity-si). 
 * If any of the tests are not a **complete success**, the **rune** is botched and the material cannot be used for another attempt. There is no room for mistakes. 
 
@@ -392,6 +401,11 @@ Trigger (`1D6`):
 4. Sound `1D4`: 1: Perfectly still, 2: Quiet, 3: Loud, 4: Deafening
 5. Light `1D4`: 1: Perfectly dark, 2: Dim, 3: Bright, 4: Blinding
 6. Blood
+
+## Memorum
+A unique material, grown by a very specific family of fungus that thrives only in the deepest recesses of the world. 
+
+It has found practical use as a means of preserving the immaterial - thoughts, emotions, [magic echoes](#magic-echoes) and even raw knowledge. 
 
 # Assets
 
@@ -556,12 +570,13 @@ The following is a list of general assets. Of course, the following list is non-
 
 | Name                   | Bulk | Max. Stack Size | Description                                                              |
 | ---------------------- | ---- | --------------- | ------------------------------------------------------------------------ |
-| Laudanum Potion        | 1    | 2               | This wonderous substance can quell pain and calm nerves within seconds. Also effective against diarrhea. Upon imbibing, sets one **active** [injury](./core-rules.md#injury) to **treated**. After 24 hours, the [injury](./core-rules.md#injury) is set back to **active**, even if it was also properly **treated** in the meantime. Also, must succeed a [self-control](./core-rules.md#self-control-toughtough) test at **Ob** `3`, or else become [addicted](./core-rules.md#drug-addicted) to the stuff. |
-| Calming Tea            | 1    | 3               | This herbal tea has the ability to calm nerves. Removes [berserk](./core-rules.md#berserk), [jealous](./core-rules.md#jealous) and [terrified](./core-rules.md#terrified). Best enjoyed steaming hot, but not necessarily. |
-| Fire Pot (Potion)      | 1    | 3               | An ancient recipe, this concoction bursts into flame when exposed to air for several seconds. It causes severe burns for `2D8 Burning` damage in a `6'/2m` radius. Consumed on use. |
-| Smoke Bomb             | 1    | 3               | A small fragile shell, filled with a very fine powder which when broken causes an area in a `6'/2m` radius to be covered in smoke. It is impossible to see through and ranged attacks within or through the area suffer `+2` **Ob**. Victims caught in the smoke may be forced to cough. The smoke lasts 6 turns or 30 seconds. |
 | Acid Bomb              | 1    | 3               | A small fragile shell with two compartments, filled with two liquids which, when they combine, act as a powerful acid. When shattered, deals `2D8 Acid` damage to whatever it hits.  |
 | Blackpowder Bomb       | 1    | 2               | A small iron-shelled bomb, filled with blackpowder. A short fuse sticks out and must be lit to set it off. Once lit, the bomb will detonate after 3 turns or 15 seconds. Deals `2D6 Bludgeoning + 2D6 Burning` damage to anyone in a `6'/2m` radius.  |
+| Calming Tea            | 1    | 3               | This herbal tea has the ability to calm nerves. Removes [berserk](./core-rules.md#berserk), [jealous](./core-rules.md#jealous) and [terrified](./core-rules.md#terrified). Best enjoyed steaming hot, but not necessarily. |
+| Fire Pot (Potion)      | 1    | 3               | An ancient recipe, this concoction bursts into flame when exposed to air for several seconds. It causes severe burns for `2D8 Burning` damage in a `6'/2m` radius. Consumed on use. |
+| Laudanum Potion        | 1    | 2               | This wonderous substance can quell pain and calm nerves within seconds. Also effective against diarrhea. Upon imbibing, sets one **active** [injury](./core-rules.md#injury) to **treated**. After 24 hours, the [injury](./core-rules.md#injury) is set back to **active**, even if it was also properly **treated** in the meantime. Also, must succeed a [self-control](./core-rules.md#self-control-toughtough) test at **Ob** `3`, or else become [addicted](./core-rules.md#drug-addicted) to the stuff. |
+| Magic Recorder         | 1    | 1               | A small spherical device, overtly made from various metals with intricate patterns on its surface. This device can capture [magic echoes](#magic-echoes) and record magic as it is being cast. Also captures fragments of thoughts from its bearer while it is active. |
+| Smoke Bomb             | 1    | 3               | A small fragile shell, filled with a very fine powder which when broken causes an area in a `6'/2m` radius to be covered in smoke. It is impossible to see through and ranged attacks within or through the area suffer `+2` **Ob**. Victims caught in the smoke may be forced to cough. The smoke lasts 6 turns or 30 seconds. |
 | Throwing Blade         | 1    | 6               | A small weighted blade, like a knife or star, well suited to being thrown. Can be used in melee and acts like a [dagger](#dagger-agiawar), but with a penalty of **-2D** to attack and defense. **+1D** when [thrown](./core-rules.md#throwing-accuracy) for a ranged attack. Deals `2D4 + Str Piercing` damage. |
 
 ### Weapon Types
@@ -1000,10 +1015,10 @@ Tools: a hammer and chisels of varying sizes
 | A small stone-hewn object            | Low        | Very High | Stone                                  | / |
 | A large stone-hewn object            | Low        | Very High | Stone                                  | / |
 
-#### Rune Carving (Arc/Wit)
-The ability to carve [magic runes](#runes).
+#### Rune-Smithing (Arc/Wit)
+The ability to carve [magic runes](#runes) and embed them in arcane devices.
 
-The level of this skill dictates the maximum intensity level of the respective magic the carved rune can hold. The number of **hits** achieved in a test then sets the actual level the rune will hold, but limited by the maximum. 
+The level of this skill dictates the maximum [intensity](#spell-intensity-si) of the respective magic the carved rune can hold. The number of **hits** achieved in a test then sets the actual level the rune will hold, but limited by the maximum. 
 
 Tools: a hammer and chisels of varying sizes, tongs, tweezer, a fine brush
 
@@ -1012,6 +1027,7 @@ Tools: a hammer and chisels of varying sizes, tongs, tweezer, a fine brush
 | ------------------------------------ | ---------- | --------- | -- | -------------------------------------- | --------------- | 
 | A blank rune                         | High       | Moderate  | /  | [Abyssalite](#abyssalite)              | / |
 | A magic rune                         | Very High  | High      | 2  | A blank rune; thin-leaf metal          | +1 [spell intensity level](#magic) |
+| [Magic Recorder](#list-of-general-assets) | Very High  | High      | 3  | 1 bulk of [Abyssalite](#abyssalite); 1 bulk of [Ambersteel](#ambersteel); 1 bulk of [Memorum](#memorum); any other, malleable metal | / |
 
 #### Shield-Making (Str/Wit)
 The ability to make shields from conventional materials, such as wood and metal. 
