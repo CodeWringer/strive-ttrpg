@@ -339,33 +339,33 @@ It may be possible to circumvent this repulsion behavior by placing the **magic 
 
 In order to create a **magic scroll**:
 * Powdered [Abyssalite](#abyssalite) must be painted onto the parchment, paper or other such material, in a shape specific to the magic spell the **magic scroll** will be able to cast. 
-  * This requires a **complete success** of an [artistry](./core-rules.md#artistry-agiawar) test, at **Ob** equal to the spell's [intensity level](#spell-intensity-si). 
+  * This requires a **complete success** of an [artistry](./core-rules.md#artistry-agiawar) or [artificing](#artificing-arcwit) test, at **Ob** equal to the spell's [intensity level](#spell-intensity-si). 
 * Then, the **magic scroll** must be "primed" by a mage. This requires a **complete success** of a test of the same [school of magic](#list-of-magic-schools) as the **magic scroll** holds, with **Ob** equal to the spell's [intensity level](#spell-intensity-si). 
 * If any of the tests are not a **complete success**, the **magic scroll** is botched and the material cannot be used for another attempt. There is no room for mistakes. 
 
 In order to invoke a **magic scroll**:
-* One must unfurl and hold it plainly in the direction the spell is to be cast, then trace the painted symbol on the **magic scroll** to "agitate" the primed magic. 
+* One must unfurl and hold it plainly in the direction the spell is to be cast, then trace the painted symbol on the **magic scroll** to "agitate" the primed magic. This costs `2` AP in combat. 
 * It costs no [magic stamina](#magic-stamina), but the **magic scroll** is immediately destroyed upon use. It burns up magically (even if the material itself is fire-proof). 
 
 ### Malevite
 Also known as blood jewel, Malevite is an entirely artificial material, made from the blood of mages, by use of great pressure, a constant arcanic charge and much patience. The more blood it is infused with, the purer the color and more powerful the artifact. 
 
-A blood jewel is a perfectly smooth sphere, with coloration ranging from a foggy and muddy black, to a swirly crimson or at its purest, to a pure and bright crimson.
+A blood jewel is a perfectly smooth sphere, with coloration ranging from a foggy and muddy black, to a swirly crimson or at its purest, to a radiant crimson.
 
 Once formed, a Malevite orb can not be infused further. It rejects any more mage blood. 
 
-Destroying such an artifact is not an easy feat. It requires a spike of pure [Abyssalite](#abyssalite) driven through it with great force and doing so may tear a temporary hole in the fabric of reality. 
+Destroying such an artifact is not an easy feat. It requires a spike of pure [Ambersteel](#ambersteel) driven through it with great force. Doing so *may* tear a temporary hole in the fabric of reality. 
 
-A Malevite orb is an artifact of very great power that can change the laws of physics and warp reality around it. To direct this power, requires an arcane apparatus, wherein the orb functions like a super-charged battery. To build such a device require a deep understanding of the arcanosphere and how it interacts with Malevite.
+A Malevite orb is an artifact of very great power that can change the laws of physics and warp reality around it. To direct this power, requires an arcane apparatus, wherein the orb functions like a super-charged battery. To build such a device require a deep understanding of the arcane. When destroyed, the Malevite Orb de-compresses, releasing the blood it was made from in a spectacular hurricane of crimson. 
 
-There are four quality levels. Impure Malevite has side-effects and is not nearly as strong or long-lasting as a purer blood jewel. Once its time is up, the Malevite Orb de-compresses, releasing the blood it was made from in a spectacular hurricane of crimson. 
+There are four quality levels. Impure Malevite has side-effects and is not nearly as powerful as a purer blood jewel. 
 
-| Quality | Description | Side-Effects | Longevity |
-| ------- | ----------- | ------------ | --------- |
-| Foggy   | Contains a single spell, at `SI 10`, which can only be controlled with an [Arcane Engine](#arcane-engine). | 3 | 1 Month |
-| Murky   | Contains up to two spells, at `SI 30`, which can only be controlled with an [Arcane Engine](#arcane-engine). | 2 | 1 Year |
-| Swirly  | Contains a weak reality-altering power, which can only be controlled with an [Arcane Engine](#arcane-engine). Can be almost anything, within reason. Things such as a low gravity field, anti-magic field, constant fog-emitter, elemental spewer and similar. | 1 | 100 Years |
-| Pure    | Contains a reality-altering power. Practically anything is possible. The crowning achievement the power hungry and the insane. The closest you can get to god-hood. Requires no [Arcane Engine](#arcane-engine). It has transcended the need for such a paltry shackle. | 0 | Indefinite |
+| Quality | Description | Side-Effects |
+| ------- | ----------- | ------------ |
+| Foggy   | Contains a single spell, at `SI 10`, which can only be controlled with an [Arcane Engine](#arcane-engine). | 3 |
+| Murky   | Contains up to two spells, at `SI 30`, which can only be controlled with an [Arcane Engine](#arcane-engine). | 2 |
+| Swirly  | Contains a weak reality-altering power, which can only be controlled with an [Arcane Engine](#arcane-engine). Can be almost anything, within reason. Things such as a low gravity field, anti-magic field, constant fog-emitter, elemental spewer and similar. | 1 |
+| Pure    | Contains a reality-altering power. Practically anything is possible. The crowning achievement the power hungry and the insane. The closest you can get to god-hood. Requires no [Arcane Engine](#arcane-engine). It has transcended the need for such a paltry shackle. | 0 |
 
 #### Malevite Side-Effects
 
@@ -1106,19 +1106,19 @@ The setting of arcane traps and creation of arcane artifacts and materials.
 [Crafting](./core-rules.md#crafting)
 | Product                              | Complexity | Workload  | Ob         | Materials                              | Quality Bonus   |
 | ------------------------------------ | ---------- | --------- | ---------- | -------------------------------------- | --------------- | 
-| Imbued Object, works just like "Place Arcane Charge" | High | Moderate | / | An object to "enchant".                | / |
-| Foggy [Malevite Orb](#malevite)      | Very High  | Very High | 3          | 30 liters / 7 gallons of Mage blood    | / |
-| Murky [Malevite Orb](#malevite)      | Very High  | Very High | 6          | 300 liters / 66 gallons of Mage blood  | / |
-| Swirly [Malevite Orb](#malevite)     | Very High  | Very High | 8          | 3000 liters / 660 gallons of Mage blood | / |
-| Pure [Malevite Orb](#malevite)       | Very High  | Very High | 10         | 30000 liters / 6600 gallons of Mage blood | / |
-| [Arcane Engine](#arcane-engine)      | Very High  | High      | 3          | [Abyssalite](#abyssalite) and a frame-material, like steel. | -1 side-effect for [Malevite Orbs](#malevite). |
+| Imbued Object - works just like "Place Arcane Charge" | High | Moderate | / | An object to "enchant".                | / |
+| [Arcane Engine](#arcane-engine)      | Very High  | High      | 3          | 3 bulk of [Abyssalite](#abyssalite); A sturdy frame-material, like steel. | -1 side-effect for [Malevite Orbs](#malevite). |
+| [Malevite Orb](#malevite)            | Very High  | Very High | purity * 5 | A lot of Mage blood; 3 or 9 or 27 or 81 bulk of [Abyssalite](#abyssalite) (graded per purity level) | / |
+| [Magic Scroll](#magic-scrolls)       | High       | Moderate  | 3          | A lot of Mage blood; 1 bulk of [Abyssalite](#abyssalite) | The imbued/primed spell can have at most the same [SI](#spell-intensity-si), as the achieved `Q`. |
 
 | Level | Name                 | AP | Distance | Ob                           | Effect(s)                      | Backfire Effect(s) |
 | ----- | -------------------- | -- | -------- | ---------------------------- | ------------------------------ | ------------------ |
 | 0     | Place Arcane Charge  | 3  | 3'/1m    | SI                           | Concentrate arcane energy on a point in hand's reach. The surface begins to glow and feels receptive. Any other spell that is then cast at the same spot, charges the arcane charge. A trigger defined by the mage will then unleash the stored spell. Note only simple triggers are possible. The charge cannot make distinctions like friend or foe. Example triggers: on touch, on detection of movement in front of the charge, on detection of sound, on the utterance of a specific word. The arcane charge lasts `SI D4` hours. After that, it harmlessly dissipates. The charge is stationary. It cannot be moved. For every `3 SI`, the spell it holds may be `+1 SI` stronger. | The arcane charge becomes unstable. Roll a `D4` to determine in what way. On a 1: the stored spell loses half its `SI` in strength. 2: the charge triggers in `1D6` minutes. 3: the charge immediately dissipates. 4: the stored spell is overriden. Instead, upon triggering, the charge now emits an excruciatingly loud noise. |
+| 0     | Imitate Arcane Echo  | 2  | 30'/10m  | Imitated spell's SI, divided by 2 and rounded up | Draw from a [magic echo](#magic-echoes) located up to `30'/10m` away and re-new it, casting it again at the SI it once had when it was originally cast. | The caster suffers the full back-fire of the spell that was imitated. |
+| 1     | Elemental Shield     | 2  | 3'/1m    | SI                           | **Concentration**: Arcane energy envelops your skin, to counter one specific element of your choosing. You or a single target of your choice, within hand's reach, suffer `SI * 2` less damage of that element's type of damage. Available elements are: [Acid, Bleeding, Burning, Electrical, Freezing, Poison](./core-rules.md#damage-types). |  |
 
 ### Alteration (Arc/Wit)
-The alteration of physical things, to change their shape and purpose, permanently. 
+The alteration of physical things, to change their shape and purpose. 
 
 Note that altering the shape of creatures poses a particular challenge. Unless if the test is a **complete success**, the target creature may mutate, horribly. When failing a test, consult the [list of mutations](./core-rules.md#list-of-mutations), to determine the type of mutation. 
 
