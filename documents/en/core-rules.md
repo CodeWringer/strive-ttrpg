@@ -1855,7 +1855,7 @@ Performing acrobatic feats, such as jumping, tumbling and climbing, without inju
 | ----- | -------------------- | -- | ------- | ------------------ | ------------ |
 | 1     | Deft Evasion         | /  | /       | Passive: While not wearing any [armor](#armor) and not wielding a shield of bulk 2 or more, gain `+1` [compensation point](#compensation-points) to any [defense test](#defending) made using this skill. | / |
 | 2     | Wind Out Of It       | 1  | 2       | When hit by a [single-target](#single-target-st) attack, wind out of the hit and suffer only half the damage. Can be used even when a much bulkier weapon is breaking through your successful defense, to halve the damage *again*, effectively resulting in you suffering only 1/4th (rounded up) of the damage. | / |
-| 3     | Bob, Weave, Jab      | 1  | Opposed | When succeeding a defense test, launch a [counter-attack](#defense-stunts) against the enemy who attacked you, but for your weapon's **full damage** and without suffering any [exhaustion](#exhaustion)! | / |
+| 3     | Bob, Weave, Jab      | 1  | Opposed | When succeeding a defense test, launch a [counter-attack](#defense-stunts) against the enemy who attacked you, without any penalties to damage and without suffering any [exhaustion](#exhaustion)! | / |
 | 3     | Be My Shield         | 2  | /       | Reaction: If grappling an enemy and being hit with an attack, make *them* take the hit, instead. The grappled enemy gets **no chance** to defend themself. | Grappling an enemy. |
 
 #### Berserking (Tough/Tough)
