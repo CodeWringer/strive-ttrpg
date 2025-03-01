@@ -1173,7 +1173,8 @@ Contact with **magically fouled water** will always cause [illness](./core-rules
 | 0     | Evaporate Surface    | 2  | SI * 15'/5m  | SI                           | Instantaneously cause all water to evaporate, in a `SI * 3'/1m` radius. | The water turns foul! |
 | 0     | Separate Fluids      | 1  | SI * 15'/5m  | SI                           | Turn one liquid into two distinct liquids, each containing a specific aspect, and which **cannot mix**, in a `SI * 3'/1m` radius. Could be used to separate foul water from pure water. | / |
 | 1     | Fluid Whip           | 2  | SI * 9'/3m   | Opposed                      | Cause a fluid to lash out at a target, like a whip, dealing `SI D6 slashing` damage. | The caster loses control and the whip strikes in a random direction. |
-| 3     | Summon Rain          | 3  | SI * 15'/5m  | SI                           | Cause rain to fall in `SI * 15'/5m` radius. | Foul water rains from the sky! Anyone caught in it will suffer an [illness](./core-rules.md#illness)! |
+| 3     | Summon Rain          | 3  | SI * 15'/5m  | SI                           | Cause rain to fall in `SI * 15'/5m` radius, in a spot of the mage's choosing. | Foul water rains from the sky! Anyone caught in it will suffer an [illness](./core-rules.md#illness)! |
+| 3     | Summon Fog           | 3  | SI * 15'/5m  | SI                           | Cause fog to form in a `SI * 9'/3m` radius, in a spot of the mage's choosing. The fog imposes a `-2` penalty to all ranged attacks through or within it. | The fog forms around the mage, instead of their chosen location. |
 
 ### Illusion (Arc/Awar)
 Creation of non-physical influences on the senses. That includes images, sounds and odors. The illusions cannot cause direct harm, although they can drive an individual to acts that may put them in danger. 
