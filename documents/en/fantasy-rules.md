@@ -101,6 +101,7 @@
     - [Cryomancy (Arc/Arc)](#cryomancy-arcarc)
     - [Electromancy (Agi/Arc)](#electromancy-agiarc)
     - [Hexing (Arc/Arc)](#hexing-arcarc)
+    - [Hydromancy (Agi/Arc)](#hydromancy-agiarc)
     - [Illusion (Arc/Awar)](#illusion-arcawar)
     - [Psionics (Arc/Wit)](#psionics-arcwit)
     - [Pyromancy (Arc/Arc)](#pyromancy-arcarc)
@@ -1160,6 +1161,20 @@ The casting of curses to weaken others.
 | 1     | Weaken               | 2  | SI * 15'/5m  | Opposed by [toughness](./core-rules.md#toughness-tough) | Cause a target to take twice as much damage from a chosen damage type for `SI` turns. Does not stack. | The caster suffers the effect, instead. |
 | 2     | Atrophy              | 2  | SI * 9'/3m   | Opposed by [toughness](./core-rules.md#toughness-tough) | Weaken a target. They lose `SI` levels of [strength](./core-rules.md#strength-str) and deal `SI` fewer points of damage per physical attack, for `SI` turns. Does not stack. | The caster suffers the effect, instead. |
 | 2     | Spray Acid           | 2  | SI * 9'/3m   | Opposed                      | Spray acid in a cone, for `SI D6` points of acid damage. | The caster suffers `1D10` points of acid damage. |
+
+### Hydromancy (Agi/Arc)
+The control of directly accessible water. Blood and creatures cannot be affected by this school. 
+
+Contact with **magically fouled water** will always cause [illness](./core-rules.md#illness)! Fortunately, fouled water does not mix with pure water. But it also cannot be purified - it is, under normal circumstances, **irreversibly** fouled! 
+
+| Level | Name                 | AP | Distance     | Ob                           | Effect(s)                      | Backfire Effect(s) |
+| ----- | -------------------- | -- | ------------ | ---------------------------- | ------------------------------ | ------------------ |
+| 0     | Purify Water         | 2  | SI * 15'/5m  | SI                           | Cleanse a body of water in a `SI * 3'/1m` radius to rid itself of all unhealthy impurities, *except* when **magically fouled**! | The water turns foul! |
+| 0     | Evaporate Surface    | 2  | SI * 15'/5m  | SI                           | Instantaneously cause all water to evaporate, in a `SI * 3'/1m` radius. | The water turns foul! |
+| 0     | Separate Fluids      | 1  | SI * 15'/5m  | SI                           | Turn one liquid into two distinct liquids, each containing a specific aspect, and which **cannot mix**, in a `SI * 3'/1m` radius. Could be used to separate foul water from pure water. | / |
+| 1     | Fluid Whip           | 2  | SI * 9'/3m   | Opposed                      | Cause a fluid to lash out at a target, like a whip, dealing `SI D6 slashing` damage. | The caster loses control and the whip strikes in a random direction. |
+| 3     | Summon Rain          | 3  | SI * 15'/5m  | SI                           | Cause rain to fall in `SI * 15'/5m` radius, in a spot of the mage's choosing. | Foul water rains from the sky! Anyone caught in it will suffer an [illness](./core-rules.md#illness)! |
+| 3     | Summon Fog           | 3  | SI * 15'/5m  | SI                           | Cause fog to form in a `SI * 9'/3m` radius, in a spot of the mage's choosing. The fog imposes a `-2` penalty to all ranged attacks through or within it. | The fog forms around the mage, instead of their chosen location. |
 
 ### Illusion (Arc/Awar)
 Creation of non-physical influences on the senses. That includes images, sounds and odors. The illusions cannot cause direct harm, although they can drive an individual to acts that may put them in danger. 
