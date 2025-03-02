@@ -100,6 +100,7 @@
     - [Alteration (Arc/Wit)](#alteration-arcwit)
     - [Cryomancy (Arc/Arc)](#cryomancy-arcarc)
     - [Electromancy (Agi/Arc)](#electromancy-agiarc)
+    - [Geomancy (Arc/Tough)](#geomancy-arctough)
     - [Hexing (Arc/Arc)](#hexing-arcarc)
     - [Hydromancy (Agi/Arc)](#hydromancy-agiarc)
     - [Illusion (Arc/Awar)](#illusion-arcawar)
@@ -1150,6 +1151,17 @@ The summoning and control of lightning. Electricity is fairly versatile - it can
 | 2     | Stunning Shock        | 2  | SI * 15'/5m  | Opposed - SI                 | An aimed arc of lightning strikes a **ST** and adds one stack of [stunned](./core-rules.md#stunned). | The caster is affected, instead. |
 | 5     | UNLIMITED POWER       | 3  | SI * 30'/10m | Opposed                      | A cone of lightning spews forth from the mage's finger tips. Up to `SI + 1` **MST** can be hit with the shock, dealing `SI D6` **electrical** damage. | The caster and anyone next to them is affected, instead. |
 | 5     | Mass Stunning Shock   | 3  | SI * 30'/10m | Opposed                      | Several arcs of aimed lightning spew forth from the mage's finger tips, striking up to `SI + 1` **MST** and adding 3 stacks of [stunned](./core-rules.md#stunned). | The caster and anyone next to them is affected, instead. |
+
+### Geomancy (Arc/Tough)
+Command over the very earth and stone. 
+
+| Level | Name                 | AP | Distance     | Ob                           | Effect(s)                      | Backfire Effect(s) |
+| ----- | -------------------- | -- | ------------ | ---------------------------- | ------------------------------ | ------------------ |
+| 0     | Tremors              | 2  | SI * 15'/5m  | Opposed by [self-control](./core-rules.md#self-control-toughtough) | Send tremors through the earth that cannot shake foundations, but will reverberate in all creatures' bodies caught in a line, originating from the mage. If they fail to oppose, they suffer `-1D` to their next test or until the end of their turn. | The caster suffers `-2D` to their next test or until the end of their next turn. |
+| 1     | Shape Earth          | 3  | SI * 9'/3m   | SI                           | Cause earth in a `SI * 6'/2m` radius, at a spot of the mage's choosing to change shape, as the mage wills it. The shape cannot exceed its original size. Could be used to create a wall, close up a door way, quickly create a trench and so on. | / |
+| 1     | Ear To The Ground    | 1  | SI * 150'/50m | SI                          | Place an ear to the ground and listen. You pick up on the faintest vibrations and instinctively understand the geological markup. Can be used to detect underground caves and structures and imprecisely detect the movements of creatures. | / |
+| 2     | Earth Spike Trail    | 3  | SI * 9'/3m   | SI                           | Cause spikes of earth to shoot out of a surface that they can lay their hands on. Everyone caught in a straight line, originating from the mage, suffers `1D8 + SI` piercing damage. | The mage loses control and the spell unleashes in a random direction. |
+| 5     | Earthquake           | 4  | SI * 15'/5m  | SI                           | Cause rock and stone in a `SI * 3/1m` radius, at a spot of the mages choosing, to crumble. Can open or close passages and even cause structurally unsound buildings to collapse! This process is very noisy and cause creatures in the **aoe** to fall [prone](./core-rules.md#prone), if they fail an [Acrobatics](./core-rules.md#acrobatics-agistr) test at `SI` Ob. | The caster falls prone, as the ground beneath them crumbles. |
 
 ### Hexing (Arc/Arc)
 The casting of curses to weaken others. 
