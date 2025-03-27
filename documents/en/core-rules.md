@@ -1820,9 +1820,9 @@ The following is a list of general assets. Of course, the following list is non-
 
 | Name                   | Bulk | Max. Stack Size | Description                                                              |
 | ---------------------- | ---- | --------------- | ------------------------------------------------------------------------ |
-| Antidote               | 1    | 2               | This unassuming liquid can make the difference between life and death. Is used in the [treatment of poison](#list-of-poison-injuries). |
-| Herbal Remedy Potion   | 1    | 2               | The sickly green tint and strong odor of the liquid within might not seem enticing, but its efficacy is well worth it. Upon imbibing, restores all currently missing [HP](#hit-points-hp) of a character. |
-| Medical Supplies       | 1    | 2               | A small satchel of clean bandages, thread and needle for suturing, a clean and sharp knife, a splint and straps for binding. Is used in the [treatment](#injury-states--treatment) of various [injuries](#injury). |
+| Antidote               | 1    | 4               | This unassuming liquid can make the difference between life and death. Is used in the [treatment of poison](#list-of-poison-injuries). |
+| Medical Supplies       | 1    | 5               | A small satchel of clean bandages, thread and needle for suturing, a clean and sharp knife, a splint and straps for binding. Is used in the [treatment](#injury-states--treatment) of various [injuries](#injury). |
+| Ration                 | 1    | 10              | A ration of preserved food, enough for a whole day. |
 
 ### Weapon Properties
 Weapon type assets can have the following **traits**:
