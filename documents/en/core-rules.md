@@ -2093,11 +2093,11 @@ The ability to cook hearty and sweet meals that can strengthen and invigorate. P
 
 Tools: cooking utensils, a pot or pan, a strong heat source
 
-A cook may choose to make the meal confer certain boons, at the expense of increasing the Ob by `+1`, once for each of the following boons:
-* Increase maximum HP by `Q D4`, for an hour. 
-* Increase [base initiative](#base-initiative) by `Q`, for an hour. 
-* Increase [strength](#strength-str) or [toughness](#toughness-tough) by `Q / 2 (rounded up)`, for an hour. 
-* Resist half of all [freezing](#damage-types) or [burning](#damage-types) or [bleeding](#damage-types), for an hour. 
+A cook may choose to make the meal confer certain boons, for `Q * 2` hours, at the expense of increasing the Ob by `+1`, once for each of the following boons:
+* Increase maximum HP by `Q D4`. 
+* Increase [base initiative](#base-initiative) by `Q`. 
+* Increase [strength](#strength-str) or [toughness](#toughness-tough) by `Q / 2 (rounded up)`. 
+* Resist `Q` [freezing](#damage-types) or [burning](#damage-types) or [bleeding](#damage-types). 
 
 All meals always restore `Q HP` and reduce exhaustion by `Q`. 
 
