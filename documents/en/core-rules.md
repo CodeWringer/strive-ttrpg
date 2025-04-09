@@ -2200,6 +2200,8 @@ A **frostbitten** character suffers -1 [AP](#action-points-ap) and **-1D** to al
 ### Grappled
 A **grappled** character is unable to move and suffers **-1D** to all defense [tests](#tests), for as long as they are **grappled**. A **grappled** character can break free, by **completely succeeding** an [unarmed combat](#unarmed-combat-agistr) [test](#tests) against the other character grappling them. 
 
+A character who is grappled, counts as [flanked](#flanking) (to one additional degree). 
+
 ### Hasted
 A **hasted** character has an additional [AP](#action-points-ap) to spend and an additional 9'/3m of [movement](#combat-movement) per [AP](#action-points-ap) or every 5 seconds. 
 
@@ -2225,7 +2227,7 @@ A **poisoned** character suffers **1 D4** points of [poison](#damage-types) dama
 * Immediate cancel: With proper [treatment](#poison-injuries). 
 
 ### Prone
-A character who is prone, is harder to hit with ranged attacks, but easier to hit with melee attacks. A character who is prone, counts as [flanked](#flanking) in melee. If they're *also* [grappled](#grappled), they count as [surrounded](#armor). 
+A character who is prone, is harder to hit with ranged attacks, but easier to hit with melee attacks. A character who is prone, counts as [flanked](#flanking) (to one additional degree), in melee. 
 
 * **-1D** to melee defense tests. 
 * **-1D** to any melee attack tests. 
