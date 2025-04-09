@@ -1414,14 +1414,14 @@ In a normal duel situation, a person in armor or with a shield will always have 
 
 This circumstance changes, when the opponent is flanked and surrounded. Most armor and all shields are designed to protect the most from frontal attacks and even the more masterful armors must still allow some cracks in between armor plates. Also, armor is usually thinner on the back, which means it's easier to find a spot where the material is weak. Therefore, by flanking an armored opponent, you can negate at least some of the armor's effect. 
 
-To **flank** an opponent, two allies must be within their weapons' range to and on **opposite sides** of the opponent. If both are attacking from the same side, then the armor and shield will continue protecting fully. This appplies both for melee and ranged attacks. 
+To **flank** an opponent, two allies must be within their weapons' range to and on **opposite sides** of the opponent. If both are attacking from the same side, then the armor and shield will continue protecting fully. This applies to melee and ranged attacks. 
 
 Three allies can **surround** the opponent, further reducing their armor's and shield's effectiveness. Four or more allies can **overwhelm** the opponent, rendering their defenses completely useless. The third and fourth (or any beyond that number) ally can **freely** choose a spot within weapon's reach. 
 
-* When **unthreatened**, the armor and shield protects fully. 
-* When **flanked**, the armor and shield protects only half (rounded up) as much. 
-* When **surrounded**, the armor and shield protects only one fourth (rounded up) as much. 
-* When **overwhelmed**, the armor and shield no longer protects **at all**. 
+* When **unthreatened**, the armor and shield protects fully. No defense penalties. 
+* When **flanked**, the armor and shield protects only half (rounded up) as much. `-1D` to any defense test. 
+* When **surrounded**, the armor and shield protects only one fourth (rounded up) as much. `-2D` to any defense test. 
+* When **overwhelmed**, the armor and shield no longer protects **at all**. `-3D` to any defense test. 
 
 If one of the allies is using a weapon with a property to increase its reach, for example [long reach](#weapon-properties), then they need not be adjacent to the enemy to count towards the flanking effect (but still within their weapon's reach to the enemy). 
 
