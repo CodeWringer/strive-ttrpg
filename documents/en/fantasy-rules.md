@@ -169,7 +169,7 @@ A mage can fail their [test](./core-rules.md#tests) and thus suffer a [spell-bac
 [Spell intensity](#spell-intensity-si) adjusts the strength of a magic spell, as well as its cost in [magic stamina](#magic-stamina). 
 
 ## Spell Intensity (SI)
-**Spell intensity** (shorthand **SI**) is the strength at which a magic spell is being cast. A higher number causes stronger and further reaching effects, at greater [magic stamina](#magic-stamina) cost. A spell's maximum intensity is dictated by the level in the corresponding [magic school skill](#magic-school--school---attribute-).
+**Spell intensity** (shorthand **SI**) is the strength at which a magic spell is being cast. A higher number causes stronger and further reaching effects, at greater [magic stamina](#magic-stamina) cost. A spell's maximum intensity is dictated by the level in the corresponding [magic school skill](#magic-school--school---attribute-). However, the minimum SI for a spell cast is always `1`. 
 
 For every point of a spell's chosen **spell intensity**, **1 D4** must be rolled. The sum of these rolls is the resulting [magic stamina](#magic-stamina) cost.
 
