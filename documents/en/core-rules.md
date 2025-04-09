@@ -2200,7 +2200,7 @@ A **frostbitten** character suffers -1 [AP](#action-points-ap) and **-1D** to al
 ### Grappled
 A **grappled** character is unable to move and suffers **-1D** to all defense [tests](#tests), for as long as they are **grappled**. A **grappled** character can break free, by **completely succeeding** an [unarmed combat](#unarmed-combat-agistr) [test](#tests) against the other character grappling them. 
 
-A character who is grappled, counts as [flanked](#flanking) (to one additional degree), in melee. 
+A character who is grappled, counts as [flanked](#flanking) (to one additional degree). 
 
 ### Hasted
 A **hasted** character has an additional [AP](#action-points-ap) to spend and an additional 9'/3m of [movement](#combat-movement) per [AP](#action-points-ap) or every 5 seconds. 
