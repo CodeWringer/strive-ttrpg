@@ -2071,9 +2071,9 @@ The language in question must be noted in addition to this skill.
 #### Surgery (Agi/Wit)
 The ability to invasively treat ailments without making things worse for the patient. 
 
-When failing a test of this skill while treating a patient, causes `N D8` points of pure damage, where *N* is the number of **hits** that were still needed.
+Failing a test of this skill while treating a patient, causes the patient to suffer `N` [slashing injuries](#slashing-injuries), where *N* is the number of **hits** that were still needed to reach the **Ob**.
 
-> Failing a test at Ob `3`, by having achieved only `1` hit, means the patient now takes `2D8` points of damage that cannot be reduced in any way. 
+> Failing a test at Ob `3`, by having achieved only `1` hit, means the patient now suffers `2` slashing injuries. 
 
 This skill may also find use in forensics, to identify poisons or the type of weapon that inflicted a wound. The Ob will depend on the rarity of the poison/weapon. At the cost of `1` [medical supplies](#list-of-general-assets), finger prints, organic samples like blood and similar can be retrieved and identified. 
 
