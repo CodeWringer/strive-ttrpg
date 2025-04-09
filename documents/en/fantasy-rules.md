@@ -505,6 +505,7 @@ A set of medium armor with a good balance of protection and weight. Example: ful
 
 * Bulk: 3
 * `+1` permanent [exhaustion](./core-rules.md#exhaustion) while worn. 
+* `-1` to [stealth](./core-rules.md#stealth-agiawar) while worn. 
 * `-1D` to any defense tests while worn. 
 
 | Protections          | Unthreatened | Flanked | Surrounded | Overwhelmed | 
@@ -520,6 +521,7 @@ A set of heavy armor with excellent protection, at the cost of encumbering the w
 
 * Bulk: 4
 * `+2` permanent [exhaustion](./core-rules.md#exhaustion) while worn. 
+* `-3` to [stealth](./core-rules.md#stealth-agiawar) while worn. 
 * `-2D` to any defense tests while worn. 
 
 | Protections          | Unthreatened | Flanked | Surrounded | Overwhelmed | 
