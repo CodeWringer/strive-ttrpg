@@ -2126,21 +2126,22 @@ Requires knowing [Acrobatics](#acrobatics-agistr) and a [weapon skill](#weapon--
 | 3     | Shield Breaker       | /  | /           | Passive: You know to exploit the lethargy of shields and can circumvent their defensive bonuses. Against you, shields always count as [overwhelmed](#flanking)! | / |
 
 ## List of Conditions
-The following is a list of all [conditions](#condition) present in the core rules. 
+The following is a list of all [conditions](#condition) of the core rules. 
 
 ### Berserk
 A character who is in **berserk**, **must** attack the creature nearest to them, regardless of whether it is friend or foe, until it is dead or unconscious. The **berserked** character **must** then move on to the next available and closest victim. 
 
 * Graded
-* Shrug off: 1 *point* with a [self-control](#self-control-toughtough) [test](#tests) with **Ob** equal to the current *degree*. 
+* Shrug off: 1 *point* with a [self-control](#self-control-toughtough) [test](#tests) with **Ob** `1`. 
 * Immediate cancel: When the character is made [unconscious](#unconscious) or no other creatures remain alive and/or conscious.
 
 ### Burning
 For every *point* in **burning**, a character suffers **1 D4** points of [burning](#damage-types) damage every *tick*. 
 
 * Graded
-* Greedy
-* Shrug off: 1 *point* per [AP](#action-points-ap) spent actively patting out flames, rolling on the floor, dousing oneself in water and so on. 
+* Greedy: automatically increases in *degree* by 1 *point* **after** every *tick*. 
+* Shrug off: 2 *points* per [AP](#action-points-ap) spent actively patting out flames, rolling on the floor and so on. 
+* Immediate cancel: When the flames are starved for oxygen (if the flames require oxygen) or otherwise extinguished (for example with an extinguisher). 
 
 Adjacent allies can also help pat out the flames, by spending an [AP](#action-points-ap) for every point reduction of **burning**. 
 
@@ -2148,7 +2149,8 @@ Adjacent allies can also help pat out the flames, by spending an [AP](#action-po
 For every *point* in **bleeding**, a character suffers **1 D4** points of [bleeding](#damage-types) damage every *tick*. 
 
 * Graded
-* Shrug off: 1 *point* with a [toughness](#toughness-tough) [test](#tests) with **Ob** equal to the current *degree*. 
+* Shrug off: 1 *point* with a [toughness](#toughness-tough) [test](#tests) with **Ob** `1`. 
+* Automatic shrug-off: half (rounded up) *points* at the end of the turn. 
 * Immediate cancel: With a successful [medicine](#medicine-agiwit) [test](#tests), requiring 1 [medical supplies](#list-of-general-assets) with **Ob** at the current *degree*.
 
 ### Death's Door
@@ -2164,7 +2166,7 @@ A character can be helped out of the **death's door** **condition**, if their [H
 For every point in **dissolving**, a character suffers **1 D4** points of [acid](#damage-types) damage every *tick*. 
 
 * Graded
-* Shrug off: 1 *point* is automatically removed after every *tick*. 
+* Automatic shrug-off: half (rounded up) *points* at the end of the turn. 
 * Immediate cancel: With a successful [medicine](#medicine-agiwit) [test](#tests), requiring 1 [medical supplies](#list-of-general-assets) with **Ob** at the current *degree*.
 
 ### Drug-Addicted
@@ -2178,7 +2180,7 @@ After 72 consecutive hours (= 3 full days) of having being in **withdrawal**, th
 An **electrified** character suffers **-1D** for their every [test](#tests) requiring [agility](#agility-agi). That means [attribute](#attributes) and [skills](#skills). 
 
 * Graded
-* Shrug off: 1 *point* is automatically removed after the character's next *action*. 
+* Automatic shrug-off: half (rounded up) *points* at the end of the turn. 
 * Immediate cancel: After a minute of last suffering one *point* of **electrified** or at the end of combat. 
 
 ### Exhausted
@@ -2189,10 +2191,10 @@ While **exhausted**, a character suffering further [exhaustion](#exhaustion), mu
 This **condition** can be recovered from by **actively resting** for at least **six uninterrupted hours**. 
 
 ### Frostbitten
-A **frostbitten** character suffers -1 [AP](#action-points-ap) during combat and **-1D** to all [tests](#tests) outside of combat. 
+A **frostbitten** character suffers -1 [AP](#action-points-ap) and **-1D** to all [tests](#tests). 
 
 * Graded
-* Shrug off: 1 *point* is automatically removed after the character's turn or next *action*. 
+* Automatic shrug-off: half (rounded up) *points* at the end of the turn. 
 * Immediate cancel: After a minute of last suffering one *point* of **frostbitten** or at the end of combat. 
 
 ### Grappled
@@ -2205,21 +2207,21 @@ A **hasted** character has an additional [AP](#action-points-ap) to spend and an
 A character who has been made unnaturally **jealous**, will do anything in their power to take, whatever it may be, from whoever might have *it*. 
 
 * Graded
-* Shrug off: 1 *point* with a [self-control](#self-control-toughtough) [test](#tests) with **Ob** equal to the current *degree*. 
+* Shrug off: 1 *point* with a [self-control](#self-control-toughtough) [test](#tests) with **Ob** `1`. 
 * Immediate cancel: When the character is made [unconscious](#unconscious), the source of the jealousy is removed or the character acquires that which they covet. 
 
 ### Pacified
 A character who is **pacified**, is unable to *willingly* take any action that would directly or indirectly harm any other creature. Note, the character is not physically unable to cause harm, but they **really** don't want to. 
 
 * Graded
-* Shrug off: 1 *point* with a [self-control](#self-control-toughtough) [test](#tests) with **Ob** equal to the current *degree*. 
+* Shrug off: 1 *point* with a [self-control](#self-control-toughtough) [test](#tests) with **Ob** `1`. 
 * Immediate cancel: When the character is made [unconscious](#unconscious) or the source of the pacification is removed.
 
 ### Poisoned
 A **poisoned** character suffers **1 D4** points of [poison](#damage-types) damage every *tick*. 
 
 * Graded
-* Shrug off: 1 *point* with a [toughness](#toughness-tough) [test](#tests) with **Ob** equal to the current *degree*. 
+* Shrug off: 1 *point* with a [toughness](#toughness-tough) [test](#tests) with **Ob** `1`. 
 * Immediate cancel: With proper [treatment](#poison-injuries). 
 
 ### Prone
@@ -2240,13 +2242,13 @@ This **condition** is usually tied to some condition, before it is removed.
 A **stunned** character is unable to act, at all. During combat, their turn is skipped. 
 
 * Graded
-* Shrug off: 1 *point* at the end of every turn or every 5 seconds. 
+* Shrug off: 1 *point* at the end of every turn. 
 
 ### Terrified
 A **terrified** character suffers **-2D** to defense tests and **has to** flee from whatever it is that terrified them, until they can no longer perceive it. 
 
 * Graded
-* Shrug off: 1 *point* with a [self-control](#self-control-toughtough) [test](#tests) with **Ob** equal to the current *degree*. 
+* Shrug off: 1 *point* with a [self-control](#self-control-toughtough) [test](#tests) with **Ob** `1`. 
 * Immediate cancel: When the character is made [unconscious](#unconscious), the source of terror is removed or the character can no longer perceive the source of terror in any way for a short wile (1-2 turns or 5-10 seconds).
 
 ### Unconscious
