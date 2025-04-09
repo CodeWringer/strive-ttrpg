@@ -463,8 +463,8 @@ Not all tests are created equal - some actions require more time than others.
 While the **GM** decides on how much time a given test will need, the following guidelines should provide a good basis. 
 
 * (Near) instantaneous: Combat actions, recalling knowledge, noticing things in passing. 
-* A matter of minutes: inspecting an environment, quickly skimming the contents of a book, a short conversation, first aid. 
-* A matter of hours: Simple crafts, surgery, scrutinizing an environment, researching something simple and common, engaging in lengthy and difficult negotiations.
+* A matter of minutes: inspecting an environment, quickly skimming the contents of a book, a short conversation, first aid, superficial surgery. 
+* A matter of hours: Simple crafts, complicated surgery, scrutinizing an environment, researching something simple and common, engaging in lengthy and difficult negotiations.
 * A matter of days and months: Complex crafts and artistry, researching a complex or obscure subject. 
 
 ### Compensation Points
@@ -2070,6 +2070,10 @@ The language in question must be noted in addition to this skill.
 
 #### Surgery (Agi/Wit)
 The ability to invasively treat ailments without making things worse for the patient. 
+
+When failing a test of this skill while treating a patient, causes `N D8` points of pure damage, where *N* is the number of **hits** that were still needed.
+
+> Failing a test at Ob `3`, by having achieved only `1` hit, means the patient now takes `2D8` points of damage that cannot be reduced in any way. 
 
 This skill may also find use in forensics, to identify poisons or the type of weapon that inflicted a wound. The Ob will depend on the rarity of the poison/weapon. At the cost of `1` [medical supplies](#list-of-general-assets), finger prints, organic samples like blood and similar can be retrieved and identified. 
 
