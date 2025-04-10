@@ -2195,7 +2195,7 @@ While **exhausted**, a character suffering further [exhaustion](#exhaustion), mu
 This **condition** can be recovered from by **actively resting** for at least **six uninterrupted hours**. 
 
 ### Frostbitten
-A **frostbitten** character suffers -1 [AP](#action-points-ap) and **-1D** to all [tests](#tests). 
+For every *point* in **frostbitten**, a character suffers `-1` [AP](#action-points-ap) and `-1D` to all [tests](#tests). 
 
 * Graded
 * Automatic shrug-off: half (rounded up) *points* at the end of the turn. 
@@ -2210,7 +2210,7 @@ A character who is grappled, counts as [flanked](#flanking) (to one additional d
 A **hasted** character has an additional [AP](#action-points-ap) to spend and an additional 9'/3m of [movement](#combat-movement) per [AP](#action-points-ap) or every 5 seconds. 
 
 ### Jealous
-A character who has been made unnaturally **jealous**, will do anything in their power to take, whatever it may be, from whoever might have *it*. 
+A character who has been made unnaturally **jealous**, will do anything in their power to take a thing, whatever *it* may be, from whoever might have *it*. 
 
 * Graded
 * Shrug off: 1 *point* with a [self-control](#self-control-toughtough) [test](#tests) with **Ob** `1`. 
@@ -2231,31 +2231,32 @@ A **poisoned** character suffers **1 D4** points of [poison](#damage-types) dama
 * Immediate cancel: With proper [treatment](#poison-injuries). 
 
 ### Prone
-A character who is prone, is harder to hit with ranged attacks, but easier to hit with melee attacks. A character who is prone, counts as [flanked](#flanking) (to one additional degree), in melee. 
+A character who is prone, is harder to hit with ranged attacks, easier to hit with melee attacks and counts as [flanked](#flanking) (to one additional degree), in melee. 
 
-* **-1D** to melee defense tests. 
-* **-1D** to any melee attack tests. 
-* **+1D** to ranged defense tests. 
+* **-2D** to melee defense tests. 
+* **+2D** to ranged defense tests. 
+* **-2D** to any melee attack tests. 
+* **-2D** to any ranged attack tests with a bow, sling, thrown, or similar weapon. 
 
 It costs 1 [AP](#action-points-ap) to stand up. 
 
 ### Rooted
 A **rooted** character can no longer move their legs. They cannot move from the spot, but can still move their upper body freely. 
 
-This **condition** is usually tied to some condition, before it is removed. 
+This **condition** is usually tied to some condition, before it is removed. If there is no condition, it is automatically shrugged off at the end of the turn. 
 
 ### Stunned
 A **stunned** character is unable to act, at all. During combat, their turn is skipped. 
 
 * Graded
-* Shrug off: 1 *point* at the end of every turn. 
+* Automatic shrug-off: 1 *point* at the end of the turn. 
 
 ### Terrified
 A **terrified** character suffers **-2D** to defense tests and **has to** flee from whatever it is that terrified them, until they can no longer perceive it. 
 
 * Graded
 * Shrug off: 1 *point* with a [self-control](#self-control-toughtough) [test](#tests) with **Ob** `1`. 
-* Immediate cancel: When the character is made [unconscious](#unconscious), the source of terror is removed or the character can no longer perceive the source of terror in any way for a short wile (1-2 turns or 5-10 seconds).
+* Immediate cancel: When the character is made [unconscious](#unconscious), the source of terror is removed or the character can no longer perceive the source of terror in any way for a short time (1-2 turns or 5-10 seconds).
 
 ### Unconscious
 An **unconscious** character is unable to act and is unaware of their surroundings. 
