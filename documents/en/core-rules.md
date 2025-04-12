@@ -1362,11 +1362,11 @@ Under normal circumstances, a character (an average human) can move up to `12'/4
 It is also possible to **sprint**, increasing the distance one can move per **AP** spent, at the cost of 1 point of [exhaustion](#exhaustion) for every **AP** spent **sprinting**. The movement distance is increased by `3'/1m` for every level in [sprinting speed](#sprinting-speed), per **AP**. 
 
 ### Disengage
-It is possible to move out of an enemy's [range of opportunity](#attacks-of-opportunity) without provoking an [attack of opportunity](#attacks-of-opportunity). This action costs 2 [AP](#action-points-ap) and the disengaging character **must** move in a direction that will get them out of the [range of opportunity](#attacks-of-opportunity) the fastest and safest, as far as 1 **AP** of movement would get them. 
+It is possible to move out of an enemy's [Range of Opportunity](#attacks-of-opportunity) without provoking an [Attack of Opportunity](#attacks-of-opportunity). This action costs 2 [AP](#action-points-ap) and the disengaging character **must** move in a direction that will get them out of the [Range of Opportunity](#attacks-of-opportunity) the fastest and safest, as far as 1 **AP** of movement would get them. 
 
-> Just because jumping off a cliff would be the fastest way out of a **range of opportunity**, doesn't mean this is the safest direction to go. A character trying to disengage is trying to move safely, after all. If the safest direction is through the **range of opportunity**, then so be it. 
+> Just because jumping off a cliff would be the fastest way out of a **Range of Opportunity**, doesn't mean this is the safest direction to go. A character trying to disengage is trying to move safely, after all. If the safest direction is through the **Range of Opportunity**, then so be it. 
 
-When disengaging from more than one [range of opportunity](#attacks-of-opportunity) in the same action, every additional [range of opportunity](#attacks-of-opportunity) past the first adds a cost of 1 [AP](#action-points-ap). 
+When disengaging from more than one [Range of Opportunity](#attacks-of-opportunity) in the same action, every additional [Range of Opportunity](#attacks-of-opportunity) past the first adds a cost of 1 [AP](#action-points-ap). 
 
 ### Flee Combat
 When [combat](#combat) is a decidedly bad idea, one can try to flee from it. A fleeing character can no longer perform any *hostile actions*. That means, they can no longer attack or hinder any other characters until the end of [combat](#combat). 
@@ -1374,10 +1374,10 @@ When [combat](#combat) is a decidedly bad idea, one can try to flee from it. A f
 In turn for giving up their offensive capacity, they gain +50% of movement (for an average human on foot, that is +6'/2m) per [AP](#action-points-ap) spent. Rules for [difficult terrain](#combat-movement) still apply. 
 
 ### Push Through
-It is possible to **push through** a [range of opportunity](#attacks-of-opportunity), without spending any [AP](#action-points-ap), but in doing so, the [attack of opportunity](#attacks-of-opportunity) is **guaranteed** to land successfully, without any attack [test](#tests) necessary (this counts as an automatic success for the attacker). 
+It is possible to **push through** a [Range of Opportunity](#attacks-of-opportunity), without spending any [AP](#action-points-ap), but in doing so, the [Attack of Opportunity](#attacks-of-opportunity) is **guaranteed** to land successfully, without any attack [test](#tests) necessary (this counts as an automatic success for the attacker). 
 
 ### Swap-Out
-It is possible to swap positions with an adjacent ally, without provoking an [attack of opportunity](#attacks-of-opportunity) for either character. 
+It is possible to swap positions with an adjacent ally, without provoking an [Attack of Opportunity](#attacks-of-opportunity) for either character. 
 
 This **action** costs 2 [AP](#action-points-ap). 
 
@@ -1403,11 +1403,11 @@ Damage dealt to an opponent reduces their [HP](#hit-points-hp). When their **HP*
 [Armor](#armor) can reduce the amount of damage that is actually applied. 
 
 ### Attacks of Opportunity
-When a character is within weapon's reach of another hostile character, they're considered within the other's **range of opportunity**. Whenever a character in an enemy's **range of opportunity** moves away from or more than 6'/2m *around* that enemy, that enemy can *choose* to perform an **attack of opportunity**. It is possible to avoid an **attack of opportunity** with a [disengage](#disengage) combat action. 
+When a character is within weapon's reach of another hostile character, they're considered within the other's **Range of Opportunity**. Whenever a character in an enemy's **Range of Opportunity** moves away from or more than 6'/2m *around* that enemy, that enemy can *choose* to perform an **Attack of Opportunity**. It is possible to avoid an **Attack of Opportunity** with a [disengage](#disengage) combat action. 
 
-Performing an **attack of opportunity** costs 1 [AP](#action-points-ap) at a **-1D** penalty and will **halt** the enemy in question, preventing their movement, regardless of whether the attack lands. The attacked party can still choose to [push through](#push-through), thus still getting to move, but if they do, the **attack of opportunity** is **guaranteed** to land successfully, without any attack [test](#tests) necessary (this counts as an automatic success for the attacker). 
+Performing an **Attack of Opportunity** costs 1 [AP](#action-points-ap) at a **-1D** penalty and will **halt** the enemy in question, preventing their movement, regardless of whether the attack lands. The attacked party can still choose to [push through](#push-through), thus still getting to move, but if they do, the **Attack of Opportunity** is **guaranteed** to land successfully, without any attack [test](#tests) necessary (this counts as an automatic success for the attacker). 
 
-An **attack of opportunity** is a **combat action** and a **reaction**. 
+An **Attack of Opportunity** is a **combat action** and a **reaction**. 
 
 ### Flanking
 In a normal duel situation, a person in armor or with a shield will always have an advantage over the person without. There are still ways to get around these defenses, but they usually involve managing to throw the opponent to the ground or using specific [expertises](#expertise). Simply continuing trying to hit someone in armor in a straight fight will not yield you the results you seek. 
@@ -1418,10 +1418,10 @@ To **flank** an opponent, two allies must be within their weapons' range to and 
 
 Three allies can **surround** the opponent, further reducing their armor's and shield's effectiveness. Four or more allies can **overwhelm** the opponent, rendering their defenses completely useless. The third and fourth (or any beyond that number) ally can **freely** choose a spot within weapon's reach. 
 
-* When **unthreatened**, the armor and shield protects fully. No defense penalties. 
-* When **flanked**, the armor and shield protects only half (rounded up) as much. `-1D` to any defense test. 
-* When **surrounded**, the armor and shield protects only one fourth (rounded up) as much. `-2D` to any defense test. 
-* When **overwhelmed**, the armor and shield no longer protects **at all**. `-3D` to any defense test. 
+* When **unthreatened**, the armor and shield protect fully. No defense penalties. 
+* When **flanked**, the armor and shield protect only half (rounded up) as much. `-1D` to any defense test. 
+* When **surrounded**, the armor and shield protect only one fourth (rounded up) as much. `-2D` to any defense test. 
+* When **overwhelmed**, the armor and shield no longer protect **at all**. `-3D` to any defense test. 
 
 If one of the allies is using a weapon with a property to increase its reach, for example [long reach](#weapon-properties), then they need not be adjacent to the enemy to count towards the flanking effect (but still within their weapon's reach to the enemy). 
 
@@ -1474,11 +1474,11 @@ Defending an ally is a **combat action** and a **reaction**.
 If you succeed an **active defense** and achieve at least 2 **hits** over your attacker, then you may perform one of the following stunts, at the cost of `+1` [exhaustion](#exhaustion) (but only if that won't bring you to your [exhaustion limit](#exhaustion)): 
 
 * **Disarm** your opponent (if they have a detachable weapon).
-* **Displace your opponent**. They are forced to stumble backwards by `6'/2m` in a direction of your choosing. This may provoke [attacks of opportunity](#attacks-of-opportunity). 
-* **Displace yourself**. You move `6'/2m` in a direction of your choosing. This does **not** provoke [attacks of opportunity](#attacks-of-opportunity). 
+* **Displace your opponent**. They are forced to stumble backwards by `6'/2m` in a direction of your choosing. This may provoke [Attacks of Opportunity](#attacks-of-opportunity). 
+* **Displace yourself**. You move `6'/2m` in a direction of your choosing. This does **not** provoke [Attacks of Opportunity](#attacks-of-opportunity). 
 * **Throw your opponent to the ground**, making them [proned](#prone). 
 * Launch a **counter-attack**, for half your weapon's regular damage (rounded up). You'll have to roll a regular attack, which your opponent can choose to defend against. This attack does not cost you any additional [AP](#action-points-ap). 
-* If defending against a ranged attack, you catch the projectile (if such a feat could be "reasonably" done). You may immediately throw it back at the attacker, for no additional cost. Normal [throwing](#throwing) rules apply. 
+* If defending against a ranged attack, you **catch the projectile** (if such a feat could be "reasonably" done). You may immediately throw it back at the attacker, for no additional cost. Normal [throwing](#throwing) rules apply. 
 
 ### Cover
 It is possible for characters to hide behind stationary things to make it harder to hit them. This mostly applies to ranged combat, but may also find use in melee, depending on circumstance. 
@@ -1934,7 +1934,7 @@ Sometimes, your own body is your greatest weapon. Fists and feet can cause a sur
 | 0     | Shove                      | 2  | Opposed by [strength](#strength-str) | Push an enemy away from you for 3'/1m * *N*, where *N* is the number of **hits** more than the opponent achieved. |  |
 | 1     | Grapple                    | 2  | Opposed by **Unarmed Combat**        | If **completely successful**, the target is unable to move and suffers **-1D** to their defense tests, for as long as they're grappled. Someone grappled can attempt to break free with an opposed **Unarmed Combat** test, on their turn. The grappler can not use at least one of their hands for as long as they're grappling. |  |
 | 2     | Wrestle and Disarm         | 2  | Opposed by **Unarmed Combat**        | Disarm your opponent and wrestle them to the ground, making them [prone](#prone), if you so choose. | Disarm only if enemy is using detachable weapon. |
-| 3     | Barge In                   | 3  | Opposed by [strength](#strength-str) | Push an enemy away from you for 3'/1m * *N*, where *N* is the number of **hits** more than the opponent achieved. Take their previous position and do **not** provoke **attacks of opportunity**. |  | 
+| 3     | Barge In                   | 3  | Opposed by [strength](#strength-str) | Push an enemy away from you for 3'/1m * *N*, where *N* is the number of **hits** more than the opponent achieved. Take their previous position and do **not** provoke **Attacks of Opportunity**. |  | 
 
 #### Weapon < [weapon type](#weapon-types) > (< attribute >)
 Expertise at handling a close-quarters or ranged weapon of a specific [weapon type](#weapon-types). 
@@ -2351,7 +2351,7 @@ Note that "Cosmic Fortune" is not an actual **injury**. When it is rolled for, *
 | 1  - 20    | Burned Skin         | /         | -1 [awareness](#awareness-awar). The rage of electricity has ravaged your skin. | Burned skin |
 | 21 - 40    | Short-Circuited     | /         | -1 [wit](#wit-wit). Your mind dulls and thoughts are difficult to grasp. | / |
 | 41 - 60    | Tremors             | /         | -1 [agility](#agility-agi). Your muscles escape your control. | / |
-| 61 - 80    | Spasms              | /         | Move 3'/1m in a random direction for 3 turns or 15 seconds. To determine where, you may use the [throwing accuracy](#throwing-accuracy) rules for misses. This movement can trigger [attacks of opportunity](#attacks-of-opportunity). | / |
+| 61 - 80    | Spasms              | /         | Move 3'/1m in a random direction for 3 turns or 15 seconds. To determine where, you may use the [throwing accuracy](#throwing-accuracy) rules for misses. This movement can trigger [Attacks of Opportunity](#attacks-of-opportunity). | / |
 | 81 - 100   | Distracted          | /         | -1 [awareness](#awareness-awar). It has become difficult to focus on what is happening around you. | / |
 
 ### Freezing Injuries
