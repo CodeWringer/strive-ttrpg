@@ -1476,7 +1476,7 @@ If you succeed an **active defense** and achieve at least 2 **hits** over your a
 * **Disarm** your opponent (if they have a detachable weapon).
 * **Displace your opponent**. They are forced to stumble backwards by `6'/2m` in a direction of your choosing. This may provoke [attacks of opportunity](#attacks-of-opportunity). 
 * **Displace yourself**. You move `6'/2m` in a direction of your choosing. This does **not** provoke [attacks of opportunity](#attacks-of-opportunity). 
-* Throw your opponent to the ground, making them [proned](#prone). This may provoke [attacks of opportunity](#attacks-of-opportunity). 
+* **Throw your opponent to the ground**, making them [proned](#prone). 
 * Launch a **counter-attack**, for half your weapon's regular damage (rounded up). You'll have to roll a regular attack, which your opponent can choose to defend against. This attack does not cost you any additional [AP](#action-points-ap). 
 * If defending against a ranged attack, you catch the projectile (if such a feat could be "reasonably" done). You may immediately throw it back at the attacker, for no additional cost. Normal [throwing](#throwing) rules apply. 
 
