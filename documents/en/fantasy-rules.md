@@ -113,7 +113,7 @@
   - [List of Injuries](#list-of-injuries)
   - [List of Illnesses](#list-of-illnesses)
 
-Version 8 (Playtest)
+Version 9 (Playtest)
 
 A role-playing game by Nicolas H.
 
@@ -169,7 +169,7 @@ A mage can fail their [test](./core-rules.md#tests) and thus suffer a [spell-bac
 [Spell intensity](#spell-intensity-si) adjusts the strength of a magic spell, as well as its cost in [magic stamina](#magic-stamina). 
 
 ## Spell Intensity (SI)
-**Spell intensity** (shorthand **SI**) is the strength at which a magic spell is being cast. A higher number causes stronger and further reaching effects, at greater [magic stamina](#magic-stamina) cost. A spell's maximum intensity is dictated by the level in the corresponding [magic school skill](#magic-school--school---attribute-).
+**Spell intensity** (shorthand **SI**) is the strength at which a magic spell is being cast. A higher number causes stronger and further reaching effects, at greater [magic stamina](#magic-stamina) cost. A spell's maximum intensity is dictated by the level in the corresponding [magic school skill](#magic-school--school---attribute-). However, the minimum SI for a spell cast is always `1`. 
 
 For every point of a spell's chosen **spell intensity**, **1 D4** must be rolled. The sum of these rolls is the resulting [magic stamina](#magic-stamina) cost.
 
@@ -505,6 +505,7 @@ A set of medium armor with a good balance of protection and weight. Example: ful
 
 * Bulk: 3
 * `+1` permanent [exhaustion](./core-rules.md#exhaustion) while worn. 
+* `-1` to [stealth](./core-rules.md#stealth-agiawar) while worn. 
 * `-1D` to any defense tests while worn. 
 
 | Protections          | Unthreatened | Flanked | Surrounded | Overwhelmed | 
@@ -520,6 +521,7 @@ A set of heavy armor with excellent protection, at the cost of encumbering the w
 
 * Bulk: 4
 * `+2` permanent [exhaustion](./core-rules.md#exhaustion) while worn. 
+* `-3` to [stealth](./core-rules.md#stealth-agiawar) while worn. 
 * `-2D` to any defense tests while worn. 
 
 | Protections          | Unthreatened | Flanked | Surrounded | Overwhelmed | 
@@ -581,6 +583,7 @@ In the following table, `Q` refers to the quality grade of the asset. See also t
 | Invigorating Potion      | 1    | 3               | The drinker of this potion feels refreshed and invigorated! Reduces exhaustion by `Q` and clears the [exhausted](./core-rules.md#exhausted) condition. Beware this potion can only be safely imbibed twice in a 24 hour cycle. If drunk more, roll a `D6`. If it is a **hit**, you're in luck! But if not, you instead suffer `+2` points of [exhaustion](./core-rules.md#exhaustion). |
 | Laudanum Potion          | 1    | 2               | This wonderous substance can quell pain and calm nerves within seconds. Also effective against diarrhea. Upon imbibing, sets one **active** [injury](./core-rules.md#injury) to **treated**. After 24 hours, the [injury](./core-rules.md#injury) is set back to **active**, even if it was also properly **treated** in the meantime. Also, must succeed a [self-control](./core-rules.md#self-control-toughtough) test at `Ob 3`, or else become [addicted](./core-rules.md#drug-addicted) to the stuff. |
 | Love Potion              | 1    | 2               | Anyone drinking this potion will become virtually irresistible to anyone close enough to smell their air. Victims have to succeed a [self-control](./core-rules.md#self-control-toughtough) test at `Ob Q` or else feel **very strongly compelled** to fulfill the user's every wish and desire (provided this wouldn't obviously cause harm to the victim). |
+| Magic Recorder           | 1    | 3               | A small spherical device, overtly made from various metals with intricate patterns on its surface. This device can capture [Magic Echoes](#magic-echoes) and record magic as it is being cast. Also captures fragments of thoughts from its bearer while it is active. |
 | Night-Eye Potion         | 1    | 3               | Grants the ability to see reasonably well under low-light conditions, up to `Q * 10'/3m` around them, for an hour. Beware that under the influence of this potion, exposure to bright light is extremely difficult to endure and will cause `+1` [exhaustion](./core-rules.md#exhaustion) for every **minute** of exposure. |
 | Paralyzing Poison        | 1    | 2               | Causes a victim's muscles to seize up. They suffer `-1 AP` each turn and are forced to move sluggishly. If this poison is suffered twice, the victim seizes up completely and is unable to move. This poison can be resisted once upon suffering it, with [toughness](./core-rules.md#toughness-tough), at `Ob Q`. If unsuccessful, the effect will last an hour. |
 | Poison Resistance Potion | 1    | 2               | Once imbibed, halves all incurred poison damage, for up to `Q` hours. |
