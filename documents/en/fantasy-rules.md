@@ -614,7 +614,7 @@ For all attacks made with a dagger, the following rules apply:
 | 0     | Slash                | 2  | Opposed     | `1D6 + Agi` Slashing             | / |
 | 0     | Stab                 | 2  | Opposed     | `1D10 + Agi` Piercing            | / |
 | 0     | Artery Cut           | 2  | Opposed + 1 | `2D6` Slashing                   | +2 [bleeding](./core-rules.md#bleeding) to the target (if it can bleed).  |
-| 0     | Target Weak-Spot     | 2  | Opposed + 2 | `2D6 + Agi` Piercing             | / |
+| 0     | Target Weak-Spot     | 2  | Opposed + 2 | `2D6 + Agi` Pure                 | / |
 
 #### Light Blade (Agi/Str)
 Any light blade. Most commonly (but not restricted to) one-handed weapons. Examples: short-sword, Langes Messer, arming sword, falchion, saber
