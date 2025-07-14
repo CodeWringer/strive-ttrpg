@@ -1360,7 +1360,9 @@ It may be possible to go past this limit via some [expertises](#expertise) or [b
 ## Combat Movement
 Under normal circumstances, a character (an average human) can move up to `12'/4m` (= 4 fields on a grid) per **AP** spent. In **difficult terrain**, the distance moved per **AP** is half that, at `6'/2m` (= 2 fields on a grid). **Difficult terrain** is any space that slows movement, but does not prevent it outright. Examples would be waist-high water, a surface of glue or a slowing force field. 
 
-It is also possible to **sprint**, increasing the distance one can move per **AP** spent, at the cost of 1 point of [exhaustion](#exhaustion) for every **AP** spent **sprinting**. The movement distance is increased by `3'/1m` for every level in [sprinting speed](#sprinting-speed), per **AP**. 
+It is also possible to **sprint**, increasing the distance one can move per **AP** spent, at the cost of `1` point of [exhaustion](#exhaustion) for every **AP** spent **sprinting**. The movement distance is increased by `3'/1m` for every level in [sprinting speed](#sprinting-speed), per **AP**. 
+
+> A character with a sprinting speed of `3` can increase their movement distance to `21'7m`, at the cost of `1` AP and `1` point of exhaustion. 
 
 ### Disengage
 It is possible to move out of an enemy's [Range of Opportunity](#attacks-of-opportunity) without provoking an [Attack of Opportunity](#attacks-of-opportunity). This action costs 2 [AP](#action-points-ap) and the disengaging character **must** move in a direction that will get them out of the [Range of Opportunity](#attacks-of-opportunity) the fastest and safest, as far as 1 **AP** of movement would get them. 
@@ -1372,7 +1374,7 @@ When disengaging from more than one [Range of Opportunity](#attacks-of-opportuni
 ### Flee Combat
 When [combat](#combat) is a decidedly bad idea, one can try to flee from it. A fleeing character can no longer perform any *hostile actions*. That means, they can no longer attack or hinder any other characters until the end of [combat](#combat). 
 
-In turn for giving up their offensive capacity, they gain +50% of movement (for an average human on foot, that is +6'/2m) per [AP](#action-points-ap) spent. Rules for [difficult terrain](#combat-movement) still apply. 
+In turn for giving up their offensive capacity, they gain double their [sprinting speed](#sprinting-speed) per [AP](#action-points-ap) spent. Rules for [difficult terrain](#combat-movement) and the exhaustion cost for sprinting still apply. 
 
 ### Push Through
 It is possible to **push through** a [Range of Opportunity](#attacks-of-opportunity), without spending any [AP](#action-points-ap), but in doing so, the [Attack of Opportunity](#attacks-of-opportunity) is **guaranteed** to land successfully, without any attack [test](#tests) necessary (this counts as an automatic success for the attacker). 
