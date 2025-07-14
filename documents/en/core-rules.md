@@ -78,6 +78,7 @@
 - [Time-Management](#time-management)
   - [Initiative](#initiative)
     - [Surprise Round](#surprise-round)
+  - [Ticks](#ticks)
   - [Down-Time](#down-time)
     - [Travel](#travel)
     - [Crafting](#crafting)
@@ -969,13 +970,12 @@ Exhaustion gained from **exhausting equipment**, can be reduced, by dropping the
 A **character** can have positive or negative effects on them, represented by **conditions**. They can have any number of **conditions** applying to them simultaneously. 
 
 A bit of terminology to keep in mind about health **conditions**:
-* A **tick** is the instant in time, when a health **condition's** effects (such as the damage from [bleeding](#bleeding)) is suffered by the character. 
-  * This is always the **start of a character's turn** during combat or every 5 seconds outside of combat. This also applies to characters whose turn is skipped (for example, because they're [unconscious](#unconscious)). 
+* A health condition applies on a [Tick](#ticks). 
 * A **graded** **condition** has a *degree*, which is a number that represents how strong the **condition's** effects are/will be. A *point* of a **condition** is one such *degree*. 
 * To *shrug off* a *point* of a **condition** means to reduce the *degree* through a [test](#tests) performed by the affected character. It may often be possible to immediately cancel out a **condition** with external help (e. g. an antidote against [poison](#poisoned)).
   * Keep in mind that an attempt to *shrug off* counts as an [action](#action-points-ap) during combat. 
-  * An attempt to *shrug off* can only be made *after* the **tick** of the effect. 
-* A **greedy condition** automatically increases in *degree* by 1 *point* **after** every *tick*. 
+  * An attempt to *shrug off* can only be made *after* the [Tick](#ticks) of the effect. 
+* A **greedy condition** automatically increases in *degree* by 1 *point* **after** every [Tick](#ticks). 
 
 Even outside of combat, for as long as a character in the current scene is suffering one of these **conditions**, it is advisable to use very fine and [discrete time-slices](#scenario-time). 
 
@@ -1205,6 +1205,13 @@ If one party is surprised, for example during an ambush, then the ambushing part
 To determine whether a **round** is a **surprise round**, determine awareness with [stealth](#stealth-agiawar) opposed by [observation](#observation-awarawar) [tests](#tests). 
 
 > **Surprise round** does not apply to opponents standing right in front of each other in conversation, when one of them suddenly draws a dagger and attacks. The attacker can be clearly seen by the defender (assuming they can see) and thus does not result in a **surprise round**. Of course, the specifics are always up to the scenario at hand and to the **GM**'s ruling. 
+
+## Ticks
+A **Tick** is the instant in time, at the **start of a character's turn** during combat or every `5` seconds outside of combat. 
+
+This is the point in time when a health [condition](#condition)'s effects (such as the damage from [bleeding](#bleeding)) is suffered by the character, before other turn effects (whatever those may be) apply. 
+
+A **Tick** always occurs for a character, even when skipping their turn. 
 
 ## Down-Time
 When not currently dealing with events on a detailed level - there and in the moment - **PC**'s can spend their time on a more abstract level. This applies especially to activities that take greater amounts of time, such as recovering from injuries, travel, engaging in their trade, honing their [skill](#skills) and so on. 
@@ -2143,17 +2150,17 @@ A character who is in **berserk**, **must** attack the creature nearest to them,
 * Immediate cancel: When the character is made [unconscious](#unconscious) or no other creatures remain alive and/or conscious.
 
 ### Burning
-For every *point* in **burning**, a character suffers **1 D4** points of [burning](#damage-types) damage every *tick*. 
+For every *point* in **burning**, a character suffers **1 D4** points of [burning](#damage-types) damage every [Tick](#ticks). 
 
 * Graded
-* Greedy: automatically increases in *degree* by 1 *point* **after** every *tick*. 
+* Greedy: automatically increases in *degree* by 1 *point* **after** every [Tick](#ticks). 
 * Shrug off: 2 *points* per [AP](#action-points-ap) spent actively patting out flames, rolling on the floor and so on. 
 * Immediate cancel: When the flames are starved for oxygen (if the flames require oxygen) or otherwise extinguished (for example with an extinguisher). 
 
 Adjacent allies can also help pat out the flames, by spending an [AP](#action-points-ap) for every point reduction of **burning**. 
 
 ### Bleeding
-For every *point* in **bleeding**, a character suffers **1 D4** points of [bleeding](#damage-types) damage every *tick*. 
+For every *point* in **bleeding**, a character suffers **1 D4** points of [bleeding](#damage-types) damage every [Tick](#ticks). 
 
 * Graded
 * Shrug off: 1 *point* with a [toughness](#toughness-tough) [test](#tests) with **Ob** `1`. 
@@ -2170,7 +2177,7 @@ A **PC** at **death's door** must succeed at least one [toughness](#toughness-to
 A character can be helped out of the **death's door** **condition**, if their [HP](#hit-points-hp) are brought back up to at least `1`. 
 
 ### Dissolving
-For every point in **dissolving**, a character suffers **1 D4** points of [acid](#damage-types) damage every *tick*. 
+For every point in **dissolving**, a character suffers **1 D4** points of [acid](#damage-types) damage every [Tick](#ticks). 
 
 * Graded
 * Automatic shrug-off: half (rounded up) *points* at the end of the turn. 
@@ -2227,7 +2234,7 @@ A character who is **pacified**, is unable to *willingly* take any action that w
 * Immediate cancel: When the character is made [unconscious](#unconscious) or the source of the pacification is removed.
 
 ### Poisoned
-A **poisoned** character suffers **1 D4** points of [poison](#damage-types) damage every *tick*. 
+A **poisoned** character suffers **1 D4** points of [poison](#damage-types) damage every [Tick](#ticks). 
 
 * Graded
 * Shrug off: 1 *point* with a [toughness](#toughness-tough) [test](#tests) with **Ob** `1`. 
