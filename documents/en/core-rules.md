@@ -1022,6 +1022,7 @@ All damage inflicted, is inflicted with one of these types, which dictate the ty
 | Freezing    | Inflicted by extreme cold. Causes [freezing injuries](#freezing-injuries). |
 | Piercing    | Usually inflicted by any sort of stabbing weapon, like a spear, or an animal's stinger. Causes [piercing injuries](#piercing-injuries). |
 | Poison      | Inflicted over time, by imbibed or injected substances. Causes [poison injuries](#poison-injuries). Beware, poison quickly grows more potent. |
+| Pure        | A special damage type that cannot be reduced by [armor](#armor--shields). Causes injuries appropriate to the context wherein the damage was inflicted and is ultimately up to the **GM** to determine. |
 | Slashing    | Usually inflicted by any sort of cutting/slashing weapon, like a blade, or a talon. Causes [slashing injuries](#slashing-injuries). |
 
 ### Damage Resistances
