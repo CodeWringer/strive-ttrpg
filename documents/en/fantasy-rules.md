@@ -11,7 +11,7 @@
 - [Magic](#magic)
   - [Testing Magic](#testing-magic)
   - [Spell Intensity (SI)](#spell-intensity-si)
-  - [Magic Overheat](#magic-overheat)
+  - [Arcane Overheat](#arcane-overheat)
   - [Spell-Backfire](#spell-backfire)
   - [Concentration Spells](#concentration-spells)
   - [Magic Negation](#magic-negation)
@@ -37,7 +37,7 @@
         - [Manual Attribute Assignment](#manual-attribute-assignment)
         - [Semi-Random Attribute Assignment](#semi-random-attribute-assignment)
       - [Choosing Skills](#choosing-skills)
-    - [Determine Magic Overheat Thresholds](#determine-magic-overheat-thresholds)
+    - [Determine Arcane Overheat Thresholds](#determine-arcane-overheat-thresholds)
   - [List of Assets](#list-of-assets)
     - [Armor](#armor)
       - [Armor Properties](#armor-properties)
@@ -164,7 +164,7 @@ A *magic spell* is the intended effect of using a [magic school's](#magic-school
 
 A mage can fail their [test](./core-rules.md#tests) and thus suffer a [spell-backfire](#spell-backfire), which usually results in negative effects for the caster, instead of their intended target. 
 
-[Spell Intensity](#spell-intensity-si) sets the strength of a magic spell and how much [Magic Overheat](#magic-overheat) it causes. 
+[Spell Intensity](#spell-intensity-si) sets the strength of a magic spell and how much [Arcane Overheat](#arcane-overheat) it causes. 
 
 ## Testing Magic
 [Testing](./core-rules.md#tests) a [magic school skill](#magic-school--school---attribute-), in order to cast a *magic spell*, works as follows:
@@ -175,24 +175,24 @@ A mage can fail their [test](./core-rules.md#tests) and thus suffer a [spell-bac
 2. Determine the test's **Ob**. 
    1. Some spells require an [opposed test](./core-rules.md#opposed-test), while others impose a fixed **Ob** and yet others have a dynamic **Ob**, based on some formula. 
 3. The dice for the test are rolled. 
-4. The [SI](#spell-intensity-si) is added to the [Magic Overheat](#magic-overheat). 
-   1. If this brings the mage to a new [Magic Overheat](#magic-overheat) threshold, its effects now apply (but only to future tests). 
+4. The [SI](#spell-intensity-si) is added to the [Arcane Overheat](#arcane-overheat). 
+   1. If this brings the mage to a new [Arcane Overheat](#arcane-overheat) threshold, its effects now apply (but only to future tests). 
 
 ## Spell Intensity (SI)
-**Spell Intensity (SI)** is the strength at which a magic spell is being cast. A higher number causes stronger and further reaching effects, but also more [Magic Overheat](#magic-overheat). 
+**Spell Intensity (SI)** is the strength at which a magic spell is being cast. A higher number causes stronger and further reaching effects, but also more [Arcane Overheat](#arcane-overheat). 
 
 A spell's **maximum intensity** is dictated by the level in the corresponding [magic school skill](#magic-school--school---attribute-). However, the minimum **SI** for a spell cast is **always** `1`. 
 
-For every point of the chosen **Spell Intensity**, the mage's [Magic Overheat](#magic-overheat) increases by the same amount. 
+For every point of the chosen **Spell Intensity**, the mage's [Arcane Overheat](#arcane-overheat) increases by the same amount. 
 
-> = A spell cast at **SI** `3` causes `+3` **Magic Overheat**. 
+> = A spell cast at **SI** `3` causes `+3` **Arcane Overheat**. 
 
-## Magic Overheat
-Magic takes a toll on the caster's body and mind. As magic currents flow through their body, **Magic Overheat** builds up within them. Too much **Magic Overheat**, and the mage will suffer various negative effects. 
+## Arcane Overheat
+Magic takes a toll on the caster's body and mind. As magic currents flow through their body, **Arcane Overheat** builds up within them. Too much **Arcane Overheat**, and the mage will suffer various negative effects. 
 
-When a mage casts magic, the [Spell Intensity](#spell-intensity-si) they choose equals the amount of **Magic Overheat** that builds up within them. 
+When a mage casts magic, the [Spell Intensity](#spell-intensity-si) they choose equals the amount of **Arcane Overheat** that builds up within them. 
 
-> = A spell cast at **SI** `3` causes `+3` **Magic Overheat**. 
+> = A spell cast at **SI** `3` causes `+3` **Arcane Overheat**. 
 
 The [Arcana](#arcana-arc) attribute determines several thresholds:
 * **Cold**: Up to and including the `modified Arcana` is **mostly safe**. There are no negative effects. 
@@ -204,12 +204,12 @@ The [Arcana](#arcana-arc) attribute determines several thresholds:
   * For **all** *other* tests, the mage suffers `-1D`. 
 * **Consuming**: Anything past the point of **Broiling** is **mortally perilous**. 
   * The mage suffers `1D8 + 2` [Pure damage](./core-rules.md#damage-types) every [Tick](./core-rules.md#ticks). 
-  * **Every** further attempt to cast a spell instantly **fails**. The mage simply cannot cast magic for as long as their **Magic Overheat** is ***Consuming*** them. That means there is no [Spell-Backfire](#spell-backfire), either. 
+  * **Every** further attempt to cast a spell instantly **fails**. The mage simply cannot cast magic for as long as their **Arcane Overheat** is ***Consuming*** them. That means there is no [Spell-Backfire](#spell-backfire), either. 
   * For **all** *other* tests, the mage suffers `-2D`. 
 
 > The thresholds of a mage with an Arcana of `3` are: `0-3` Cold, `4-6` Smoldering, `7-9` Broiling and `10+` Consuming. 
 
-At the start of every turn, or every `5` seconds outside combat, a mage automatically reduces their **Magic Overheat** by one point. They can actively **vent** their **Magic Overheat** further - one point per [AP](./core-rules.md#action-points-ap) spent. 
+At the start of every turn, or every `5` seconds outside combat, a mage automatically reduces their **Arcane Overheat** by one point. They can actively **vent** their **Arcane Overheat** further - one point per [AP](./core-rules.md#action-points-ap) spent. 
 
 ## Spell-Backfire
 A **spell-backfire** causes a spell to affect the caster, instead of their intended target. The mage suffers the negative effects of the spell.
@@ -220,7 +220,7 @@ It is possible for another nearby mage to prevent the **spell-backfire**, if the
 
 A **spell-backfire** occurs in the following two cases: 
 1. The [magic school skill test](#testing-magic) is a **complete failure**. 
-2. The mage suffers from [Magic Overheat](#magic-overheat) and rolls a failure. 
+2. The mage suffers from [Arcane Overheat](#arcane-overheat) and rolls a failure. 
 
 ## Concentration Spells
 Some magic can be upheld for as long as the casting mage *concentrates* on their spell. Such spells will be marked with **"Concentration"**. The effects of a concentration spell last for as long as the mage *chooses* or *manages* to keep their concentration. They need only test for the spell only *once*, when they first cast it. After that, during combat, it costs `1` AP at the start of every turn to uphold it. 
@@ -262,7 +262,7 @@ Its surface is unnaturally smooth and covered in a fine, iridescent shine. Under
 
 **Abyssalite** is a hard and brittle mineral, prone to shattering if too much force is applied. This makes it difficult to shape. It is also fairly heavy, which makes it difficult to carry. 
 
-A fist-sized **Abyssalite** chunk has a [bulk](./core-rules.md#carrying-capacity) of 2 and grants one greater level in the respective [school of magic](#magic-school--school---attribute-), without causing any additional [Magic Overheat](#magic-overheat). In order to use the **Abyssalite**, the caster **must** be touching it. 
+A fist-sized **Abyssalite** chunk has a [bulk](./core-rules.md#carrying-capacity) of 2 and grants one greater level in the respective [school of magic](#magic-school--school---attribute-), without causing any additional [Arcane Overheat](#arcane-overheat). In order to use the **Abyssalite**, the caster **must** be touching it. 
 
 ### Amberite
 As magic is amplified by [Abyssalite](#abyssalite), its antithesis is called **Amberite**, a metal which dulls the effects of magic and slows any magic flow nearby it. The material is also known to affect magic creatures and can cause great pain in magic-users. 
@@ -343,7 +343,7 @@ In order to create a **magic scroll**:
 
 In order to invoke a **magic scroll**:
 * One must unfurl and hold it plainly in the direction the spell is to be cast, then trace the painted symbol on the **magic scroll** to "agitate" the primed magic. This costs `2` AP in combat. 
-* This causes no [Magic Overheat](#magic-overheat), but the **magic scroll** is immediately destroyed upon use. It burns up magically (even if the material itself is fire-proof). 
+* This causes no [Arcane Overheat](#arcane-overheat), but the **magic scroll** is immediately destroyed upon use. It burns up magically (even if the material itself is fire-proof). 
 
 ### Malevite
 Also known as blood jewel, Malevite is an entirely artificial material, made from the blood of mages, by use of great pressure, a constant arcanic charge and much patience. The more blood it is infused with, the purer the color and more powerful the artifact. 
@@ -417,7 +417,7 @@ Weapon type assets can have the following **properties**:
 The appendix contains important and less important lists, for reference only when needed. 
 
 ## Character Creation
-Character creation is now supplemented by step `9` - [Determine Magic Overheat thresholds](#magic-overheat). 
+Character creation is now supplemented by step `9` - [Determine Arcane Overheat thresholds](#arcane-overheat). 
 
 The new procedure of creating a character consists of the following steps:
 1. [Determine life path](./core-rules.md#determine-life-path). 
@@ -427,7 +427,7 @@ The new procedure of creating a character consists of the following steps:
 6. [Determine **carrying capacity** and **assets**](./core-rules.md#determine-assets).
 7. [Determine **Max HP** and **Injury Maximum**](./core-rules.md#determine-max-hp--injury-maximum)
 8. [Determine exhaustion limit](./core-rules.md#determine-exhaustion-threshold).
-9. [Determine Magic Overheat thresholds](#determine-magic-overheat-thresholds).
+9. [Determine Arcane Overheat thresholds](#determine-magic-overheat-thresholds).
 
 ### Determine Abilities
 Supplements to abilities in character creation. 
@@ -467,8 +467,8 @@ This section replaces its core rule counter-part.
 #### Choosing Skills
 If playing a **mage**, keep in mind you need to have at least level 1 in a [magic school skill](#magic-school--school---attribute-) to be able to cast magic. You are also advised to have your strongest magic be at least level 3 or 4, to be able to reliably use it. 
 
-### Determine Magic Overheat Thresholds
-Determine your character's [Magic Overheat thresholds](#magic-overheat). 
+### Determine Arcane Overheat Thresholds
+Determine your character's [Arcane Overheat thresholds](#arcane-overheat). 
 
 ## List of Assets
 The following list does not and cannot aim to be a complete listing of all possible assets in game. Adding new assets as necessary will have to be done by the **GM**. 
@@ -1234,11 +1234,11 @@ In the common tongue, blood magic, utilizes mage blood to control a deeply unset
 
 | Level | Name                 | AP | Distance    | Ob                           | Effect(s)                      | Backfire Effect(s) |
 | ----- | -------------------- | -- | ----------- | ---------------------------- | ------------------------------ | ------------------ |
-| 0     | Infusion             | 1  | /           | SI                           | Suffer `1D4` [bleeding](./core-rules.md#damage-types) damage, as you cut a nasty gash into your flesh  to draw blood. This spell causes `SI` less [Magic Overheat](#magic-overheat) (down to at most `1`). Arcanically charge the blood and smear it on something (like a weapon). The blood begins to boil, causing it to deal `SI D4` [burning](./core-rules.md#damage-types) damage to the touch. This effect lasts `SI` rounds and does not stack with itself. | The caster suffers `SI D4` points of [bleeding](./core-rules.md#damage-types) damage. |
+| 0     | Infusion             | 1  | /           | SI                           | Suffer `1D4` [bleeding](./core-rules.md#damage-types) damage, as you cut a nasty gash into your flesh  to draw blood. This spell causes `SI` less [Arcane Overheat](#arcane-overheat) (down to at most `1`). Arcanically charge the blood and smear it on something (like a weapon). The blood begins to boil, causing it to deal `SI D4` [burning](./core-rules.md#damage-types) damage to the touch. This effect lasts `SI` rounds and does not stack with itself. | The caster suffers `SI D4` points of [bleeding](./core-rules.md#damage-types) damage. |
 | 0     | Snap                 | 2  | 30'/10m     | Opposed by [toughness](./core-rules.md#toughness-tough) + 1 | Snap a twig or similar and channel the destructive power into a victim. They suffer a random [bludgeoning injury](./core-rules.md#bludgeoning-injuries) and `SI` points of [bleeding](./core-rules.md#damage-types) damage. | The caster suffers the injury, instead. |
-| 1     | Blood Whip           | 2  | SI * 15'/5m | Opposed                      | Suffer `1D4` [bleeding](./core-rules.md#damage-types) damage, as you cut a nasty gash into your flesh  to draw blood. This spell causes `SI` less [Magic Overheat](#magic-overheat) (down to at most `1`). Have your blood lash out at a target, dealing `1D8 + SI slashing` and `SI D6 bleeding` damage. | The caster suffers an `1D10 bleeding` damage. |
+| 1     | Blood Whip           | 2  | SI * 15'/5m | Opposed                      | Suffer `1D4` [bleeding](./core-rules.md#damage-types) damage, as you cut a nasty gash into your flesh  to draw blood. This spell causes `SI` less [Arcane Overheat](#arcane-overheat) (down to at most `1`). Have your blood lash out at a target, dealing `1D8 + SI slashing` and `SI D6 bleeding` damage. | The caster suffers an `1D10 bleeding` damage. |
 | 2     | Blood Boil           | 2  | SI * 6'/2m  | Opposed by [toughness](./core-rules.md#toughness-tough) + 1 | Bring a victim's blood to a boil. They suffer `SI D6 burning` damage, that [armor](./core-rules.md#armor--shields) cannot reduce. | The caster suffers `1D10 burning` damage, instead. |
-| 2     | Bond of Suffering    | 1  | SI * 15'/5m | Opposed by [toughness](./core-rules.md#toughness-tough) | Suffer `1D4` [bleeding](./core-rules.md#damage-types) damage, as you cut a nasty gash into your flesh to draw blood. This spell causes `SI` less [Magic Overheat](#magic-overheat) (down to at most `1`). Your blood forms a bond between two designated creatures, who then share all damage and healing. Lasts `SI` turns. | The caster suffers twice as much damage from all physical sources, until the start of their next turn. |
+| 2     | Bond of Suffering    | 1  | SI * 15'/5m | Opposed by [toughness](./core-rules.md#toughness-tough) | Suffer `1D4` [bleeding](./core-rules.md#damage-types) damage, as you cut a nasty gash into your flesh to draw blood. This spell causes `SI` less [Arcane Overheat](#arcane-overheat) (down to at most `1`). Your blood forms a bond between two designated creatures, who then share all damage and healing. Lasts `SI` turns. | The caster suffers twice as much damage from all physical sources, until the start of their next turn. |
 | 2     | Life Leech           | 2  | 3'/1m       | Opposed by [toughness](./core-rules.md#toughness-tough) | Draw the life from a **ST** creature of choice. Deals `SI D4` points of bleeding damage while healing the caster's [HP](./core-rules.md#hit-points-hp) for the same amount. Transfers 1 point of [bleeding](./core-rules.md#bleeding) and/or [poisoned](./core-rules.md#poisoned) from the healed creature to the damaged one. | The effect triggers in reverse. |
 | 3     | Crimson Tracks       | 1  | SI * 150'/50m | SI                         | If you have someone's blood, use it to track them. If successful, you get a general sense of how far away and in what direction relative to your facing they are. You also glimpse a momentary fragment of their current emotional state. | The victim is overcome with an odd premonition and becomes aware someone attempted to track them. |
 | 5     | Puppeteer            | 3  | SI * 15'/5m | Opposed by [Self-Control](./core-rules.md#self-control-toughtough) | **Concentration**: Command the blood of a victim to obey you. You control their actions, like a puppeteer. Any action you make them take, costs *their* AP. They may try to resist at the beginning of their every turn, or once every minute. | You lose control and are [stunned](./core-rules.md#stunned) for until the end of your next turn, or the end of a minute. |
