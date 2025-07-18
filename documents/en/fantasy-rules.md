@@ -12,6 +12,7 @@
   - [Testing Magic](#testing-magic)
   - [Spell Intensity (SI)](#spell-intensity-si)
   - [Arcane Overheat](#arcane-overheat)
+  - [Arcane Slag](#arcane-slag)
   - [Spell-Backfire](#spell-backfire)
   - [Concentration Spells](#concentration-spells)
   - [Magic Negation](#magic-negation)
@@ -188,14 +189,14 @@ For every point of the chosen **Spell Intensity**, the mage's [Arcane Overheat](
 > = A spell cast at **SI** `3` causes `+3` **Arcane Overheat**. 
 
 ## Arcane Overheat
-Magic takes a toll on the caster's body and mind. As magic currents flow through their body, **Arcane Overheat** builds up within them. Too much **Arcane Overheat**, and the mage will suffer various negative effects. 
+Magic takes a toll on the caster's body and mind. As magic currents flow through their body, **Arcane Overheat** and [Arcane Slag](#arcane-slag) build up within them. Too much **Arcane Overheat**, and the mage will suffer various negative effects. 
 
-When a mage casts magic, the [Spell Intensity](#spell-intensity-si) they choose equals the amount of **Arcane Overheat** that builds up within them. 
+When a mage casts magic, the [Spell Intensity](#spell-intensity-si) they choose equals the amount of **Arcane Overheat** that builds up within them. Additionally, every time the mage casts magic - after they have cast it -, they build up their [Arcane Slag](#arcane-slag) by `1` point. 
 
 > = A spell cast at **SI** `3` causes `+3` **Arcane Overheat**. 
 
 The [Arcana](#arcana-arc) attribute determines several thresholds:
-* **Cold**: Up to and including the `modified Arcana` is **mostly safe**. There are no negative effects. 
+* **Cold**: Up to and including the `modified Arcana` is **mostly safe**. 
   * Every time the mage casts a spell, if they don't achieve at least `1` **hit**, a [Spell-Backfire](#spell-backfire) occurs. In other words, only a **complete failure** of the [test](#testing-magic) results in a [Spell-Backfire](#spell-backfire). 
 * **Smoldering**: Up to and including the `modified Arcana * 2` is **risky**. 
   * Every time the mage casts a spell, their **Ob** is always increased by `+1`. If they don't achieve at least `2` **hits**, a [Spell-Backfire](#spell-backfire) occurs. 
@@ -210,6 +211,15 @@ The [Arcana](#arcana-arc) attribute determines several thresholds:
 > The thresholds of a mage with an Arcana of `3` are: `0-3` Cold, `4-6` Smoldering, `7-9` Broiling and `10+` Consuming. 
 
 At the start of every turn, or every `5` seconds outside combat, a mage automatically reduces their **Arcane Overheat** by one point. They can actively **vent** their **Arcane Overheat** further - one point per [AP](./core-rules.md#action-points-ap) spent. 
+
+## Arcane Slag
+**Arcane Slag** is the build-up of residual magical currents within the character's body. You can think of these like residual radioactive particles, that only slowly escape the body, albeit less immediately harmful. 
+
+For every point of **Arcane Slag** that has built up within a character, their base [Arcane Overheat](#arcane-overheat) is increased by the same amount. They cannot reduce their [Arcane Overheat](#arcane-overheat) to less than this amount. 
+
+`1` point of **Arcane Slag** automatically leaves the character's body, every `6` hours. If that time is spent in active rest or meditation - that means doing *nothing* besides rest -, then `2` points leave the body, instead. 
+
+**Arcane Slag** *can* affect non-mages, too! That implies they can also suffer [Arcane Overheat](#arcane-overheat) (but that doesn't make them mages)! 
 
 ## Spell-Backfire
 A **spell-backfire** causes a spell to affect the caster, instead of their intended target. The mage suffers the negative effects of the spell.
