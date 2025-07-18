@@ -157,7 +157,7 @@ Scars may be removed through successful application of [alteration](#alteration-
 # Magic
 For this supplement, magic is assumed to be a mostly invisible force that runs all throughout, like a magnetosphere. Perhaps it could be called the *Arcanosphere*. Individuals gifted with a sensitivity to this force may learn to manipulate and "shape" it. Thus, magical ability is intuitive. Those born without the gift, cannot learn magic. Of course, you may want to relax this rule, if you prefer anyone should have the chance to learn magic. 
 
-Only a character with [arcana](#arcana-arc) can cast intuitive magic. What kind of magic, depends on the [magic schools](#list-of-magic-schools) the character knows. There are offensive, defensive and manipulative [schools of magic](#list-of-magic-schools). 
+Only a character with [Arcana](#arcana-arc) can cast intuitive magic. What kind of magic, depends on the [magic schools](#list-of-magic-schools) the character knows. There are offensive, defensive and manipulative [schools of magic](#list-of-magic-schools). 
 
 There may also be magic artifacts that can either cause magical effects on their own, or through character interaction. With such artifacts, it may be possible for non-mages to cast magic. For that, see [runes](#runes) and [scrolls](#magic-scrolls). 
 
@@ -165,35 +165,39 @@ A *magic spell* is the intended effect of using a [magic school's](#magic-school
 
 A mage can fail their [test](./core-rules.md#tests) and thus suffer a [spell-backfire](#spell-backfire), which usually results in negative effects for the caster, instead of their intended target. 
 
-[Spell Intensity](#spell-intensity-si) sets the strength of a magic spell and how much [Arcane Overheat](#arcane-overheat) it causes. 
+[Spell Intensity](#spell-intensity-si) sets the strength of a magic spell and how much [Arcane Slag](#arcane-slag) and [Arcane Overheat](#arcane-overheat) it causes. 
 
 ## Testing Magic
 [Testing](./core-rules.md#tests) a [magic school skill](#magic-school--school---attribute-), in order to cast a *magic spell*, works as follows:
 
-1. The mage determines the [Spell Intensity](#spell-intensity-si) (SI) they're going to use. 
-   1. Their level in the corresponding [magic school skill](#magic-school--school---attribute-) determines the maximum [SI](#spell-intensity-si) they can pick. 
+1. Determine the [Spell Intensity](#spell-intensity-si) (SI) to use. 
+   1. The level in the corresponding [magic school skill](#magic-school--school---attribute-) determines the maximum [SI](#spell-intensity-si) that can be picked. 
    1. Note that any spell **must** be cast with a [SI](#spell-intensity-si) of *at least* `1`. This includes **learning skills**. 
 2. Determine the test's **Ob**. 
    1. Some spells require an [opposed test](./core-rules.md#opposed-test), while others impose a fixed **Ob** and yet others have a dynamic **Ob**, based on some formula. 
 3. The dice for the test are rolled. 
-4. The [SI](#spell-intensity-si) is added to the [Arcane Overheat](#arcane-overheat). 
-   1. If this brings the mage to a new [Arcane Overheat](#arcane-overheat) threshold, its effects now apply (but only to future tests). 
+4. Convert the [SI](#spell-intensity-si) to [Arcane Slag](#arcane-slag) and [Arcane Overheat](#arcane-overheat). 
+   1. If this brings the mage to a new [Arcane Overheat](#arcane-overheat) threshold, its effects now apply. 
 
 ## Spell Intensity (SI)
-**Spell Intensity (SI)** is the strength at which a magic spell is being cast. A higher number causes stronger and further reaching effects, but also more [Arcane Overheat](#arcane-overheat). 
+**Spell Intensity (SI)** is the strength at which a magic spell is being cast. A higher number causes stronger and further reaching effects, but also more [Arcane Slag](#arcane-slag) and [Arcane Overheat](#arcane-overheat). 
 
 A spell's **maximum intensity** is dictated by the level in the corresponding [magic school skill](#magic-school--school---attribute-). However, the minimum **SI** for a spell cast is **always** `1`. 
 
-For every point of the chosen **Spell Intensity**, the mage's [Arcane Overheat](#arcane-overheat) increases by the same amount. 
+When a mage casts magic, **half** (rounded up) of the [Spell Intensity](#spell-intensity-si) they choose equals the amount of [Arcane Slag](#arcane-slag) that builds up within them. The other half turns into [Arcane Overheat](#arcane-overheat). 
 
-> = A spell cast at **SI** `3` causes `+3` **Arcane Overheat**. 
+> = A spell cast at **SI** `3` causes `+2` **Arcane Slag** and `+1` **Arcane Overheat**. 
+> 
+> = A spell cast at **SI** `6` causes `+3` **Arcane Slag** and `+3` **Arcane Overheat**. 
 
 ## Arcane Overheat
-Magic takes a toll on the caster's body and mind. As magic currents flow through their body, **Arcane Overheat** and [Arcane Slag](#arcane-slag) build up within them. Too much **Arcane Overheat**, and the mage will suffer various negative effects. 
+Magic takes a toll on the caster's body and mind. As magic currents flow through their body, **Arcane Overheat** and [Arcane Slag](#arcane-slag) build up within them. Too much **Arcane Overheat**, and the mage will suffer various negative effects! 
 
-When a mage casts magic, the [Spell Intensity](#spell-intensity-si) they choose equals the amount of **Arcane Overheat** that builds up within them. Additionally, every time the mage casts magic - after they have cast it -, they build up their [Arcane Slag](#arcane-slag) by `1` point. 
+When a mage casts magic, **half** (rounded up) of the [Spell Intensity](#spell-intensity-si) they choose equals the amount of [Arcane Slag](#arcane-slag) that builds up within them. The other half turns into [Arcane Overheat](#arcane-overheat). 
 
-> = A spell cast at **SI** `3` causes `+3` **Arcane Overheat** and `+1` **Arcane Slag**. 
+> = A spell cast at **SI** `3` causes `+2` **Arcane Slag** and `+1` **Arcane Overheat**. 
+> 
+> = A spell cast at **SI** `6` causes `+3` **Arcane Slag** and `+3` **Arcane Overheat**. 
 
 [Arcane Slag](#arcane-slag) represents the base **Arcane Overheat** of a character, which can not be reduced as quickly as the more fleeting **Arcane Overheat**. Note that non-mages may be affected by this, too!
 
@@ -222,9 +226,15 @@ At the start of every turn, or every `5` seconds outside combat, a mage automati
 
 For every point of **Arcane Slag** that has built up within a character, their base [Arcane Overheat](#arcane-overheat) is increased by the same amount. They cannot reduce their [Arcane Overheat](#arcane-overheat) to less than this amount. 
 
+When a mage casts magic, **half** (rounded up) of the [Spell Intensity](#spell-intensity-si) they choose equals the amount of [Arcane Slag](#arcane-slag) that builds up within them. The other half turns into [Arcane Overheat](#arcane-overheat). 
+
+> = A spell cast at **SI** `3` causes `+2` **Arcane Slag** and `+1` **Arcane Overheat**. 
+> 
+> = A spell cast at **SI** `6` causes `+3` **Arcane Slag** and `+3` **Arcane Overheat**. 
+
 `1` point of **Arcane Slag** automatically leaves the character's body, every `6` hours. If that time is spent in active rest or meditation - that means doing *nothing* besides rest -, then `2` points leave the body, instead. 
 
-**Arcane Slag** *can* affect non-mages, too! That implies they can also suffer [Arcane Overheat](#arcane-overheat) (but that doesn't make them mages)! 
+**Arcane Slag** *can* affect non-mages, too! That implies they can also suffer [Arcane Overheat](#arcane-overheat) (although that does not make them mages)! 
 
 ## Spell-Backfire
 A **spell-backfire** causes a spell to affect the caster, instead of their intended target. The mage suffers the negative effects of the spell.
