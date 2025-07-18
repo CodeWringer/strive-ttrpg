@@ -199,7 +199,8 @@ When a mage casts magic, the [Spell Intensity](#spell-intensity-si) they choose 
 
 > A character with an **Arcane Slag** of `3`, always has at least `3` **Arcane Overheat**!
 
-The [Arcana](#arcana-arc) attribute determines several thresholds:
+The [Arcana](#arcana-arc) attribute determines several thresholds. If the character has an [Arcana](#arcana-arc) level of less than `1`, calculate the thresholds as if it was level `1`. 
+
 * **Cold**: Up to and including the `modified Arcana` is **mostly safe**. 
   * Every time the mage casts a spell, if they don't achieve at least `1` **hit**, a [Spell-Backfire](#spell-backfire) occurs. In other words, only a **complete failure** of the [test](#testing-magic) results in a [Spell-Backfire](#spell-backfire). 
 * **Smoldering**: Up to and including the `modified Arcana * 2` is **risky**. 
