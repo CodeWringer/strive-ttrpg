@@ -193,7 +193,11 @@ Magic takes a toll on the caster's body and mind. As magic currents flow through
 
 When a mage casts magic, the [Spell Intensity](#spell-intensity-si) they choose equals the amount of **Arcane Overheat** that builds up within them. Additionally, every time the mage casts magic - after they have cast it -, they build up their [Arcane Slag](#arcane-slag) by `1` point. 
 
-> = A spell cast at **SI** `3` causes `+3` **Arcane Overheat**. 
+> = A spell cast at **SI** `3` causes `+3` **Arcane Overheat** and `+1` **Arcane Slag**. 
+
+[Arcane Slag](#arcane-slag) represents the base **Arcane Overheat** of a character, which can not be reduced as quickly as the more fleeting **Arcane Overheat**. Note that non-mages may be affected by this, too!
+
+> A character with an **Arcane Slag** of `3`, always has at least `3` **Arcane Overheat**!
 
 The [Arcana](#arcana-arc) attribute determines several thresholds:
 * **Cold**: Up to and including the `modified Arcana` is **mostly safe**. 
