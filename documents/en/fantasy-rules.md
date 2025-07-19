@@ -184,18 +184,22 @@ A mage can fail their [test](./core-rules.md#tests) and thus suffer a [spell-bac
 
 A spell's **maximum intensity** is dictated by the level in the corresponding [magic school skill](#magic-school--school---attribute-). However, the minimum **SI** for a spell cast is **always** `1`. 
 
-When a mage casts magic, **half** (rounded up) of the [Spell Intensity](#spell-intensity-si) they choose equals the amount of [Arcane Slag](#arcane-slag) that builds up within them. The other half turns into [Arcane Overheat](#arcane-overheat). 
+When a mage casts magic, **half** (rounded down and minimum `1`) of the [Spell Intensity](#spell-intensity-si) they choose equals the amount of [Arcane Slag](#arcane-slag) that builds up within them. The other half turns into [Arcane Overheat](#arcane-overheat). 
 
-> = A spell cast at **SI** `3` causes `+2` **Arcane Slag** and `+1` **Arcane Overheat**. 
+> = A spell cast at **SI** `1` causes `+1` **Arcane Slag** and *no* **Arcane Overheat**. 
+> 
+> = A spell cast at **SI** `3` causes `+1` **Arcane Slag** and `+2` **Arcane Overheat**. 
 > 
 > = A spell cast at **SI** `6` causes `+3` **Arcane Slag** and `+3` **Arcane Overheat**. 
 
 ## Arcane Overheat
 Magic takes a toll on the caster's body and mind. As magic currents flow through their body, **Arcane Overheat** and [Arcane Slag](#arcane-slag) build up within them. Too much **Arcane Overheat**, and the mage will suffer various negative effects! 
 
-When a mage casts magic, **half** (rounded up) of the [Spell Intensity](#spell-intensity-si) they choose equals the amount of [Arcane Slag](#arcane-slag) that builds up within them. The other half turns into [Arcane Overheat](#arcane-overheat). 
+When a mage casts magic, **half** (rounded down and minimum `1`) of the [Spell Intensity](#spell-intensity-si) they choose equals the amount of [Arcane Slag](#arcane-slag) that builds up within them. The other half turns into [Arcane Overheat](#arcane-overheat). 
 
-> = A spell cast at **SI** `3` causes `+2` **Arcane Slag** and `+1` **Arcane Overheat**. 
+> = A spell cast at **SI** `1` causes `+1` **Arcane Slag** and *no* **Arcane Overheat**. 
+> 
+> = A spell cast at **SI** `3` causes `+1` **Arcane Slag** and `+2` **Arcane Overheat**. 
 > 
 > = A spell cast at **SI** `6` causes `+3` **Arcane Slag** and `+3` **Arcane Overheat**. 
 
@@ -226,9 +230,11 @@ At the start of every turn, or every `5` seconds outside combat, a mage automati
 
 For every point of **Arcane Slag** that has built up within a character, their base [Arcane Overheat](#arcane-overheat) is increased by the same amount. They cannot reduce their [Arcane Overheat](#arcane-overheat) to less than this amount. 
 
-When a mage casts magic, **half** (rounded up) of the [Spell Intensity](#spell-intensity-si) they choose equals the amount of [Arcane Slag](#arcane-slag) that builds up within them. The other half turns into [Arcane Overheat](#arcane-overheat). 
+When a mage casts magic, **half** (rounded down and minimum `1`) of the [Spell Intensity](#spell-intensity-si) they choose equals the amount of [Arcane Slag](#arcane-slag) that builds up within them. The other half turns into [Arcane Overheat](#arcane-overheat). 
 
-> = A spell cast at **SI** `3` causes `+2` **Arcane Slag** and `+1` **Arcane Overheat**. 
+> = A spell cast at **SI** `1` causes `+1` **Arcane Slag** and *no* **Arcane Overheat**. 
+> 
+> = A spell cast at **SI** `3` causes `+1` **Arcane Slag** and `+2` **Arcane Overheat**. 
 > 
 > = A spell cast at **SI** `6` causes `+3` **Arcane Slag** and `+3` **Arcane Overheat**. 
 
