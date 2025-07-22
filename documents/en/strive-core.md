@@ -1,4 +1,6 @@
 - [Introduction](#introduction)
+  - [Tactical Combat](#tactical-combat)
+  - [Character Evolution](#character-evolution)
 - [How to Play](#how-to-play)
   - [Dice](#dice)
   - [Before the Game](#before-the-game)
@@ -226,7 +228,7 @@
     - [Multiple Single Target (MST)](#multiple-single-target-mst)
     - [Area of Effect (AoE)](#area-of-effect-aoe)
 
-Version 21 (Playtest)
+Version 22 (Playtest)
 
 A role-playing game by Nicolas H.
 
@@ -252,6 +254,12 @@ More details about the system:
 * Combat is a risky affair and requires tactical and strategic thinking, or the readiness to retreat, when things go awry. 
   * When a character suffers **injuries**, they are in *serious trouble*. 
   * Recovery from injuries is expected to take time. This implies plenty of down-time for combat-heavy parties, which is time that can be spent on professions, hobbies and scheming. 
+
+## Tactical Combat
+
+
+## Character Evolution
+
 
 # How to Play
 As **STRIVE** is a **roleplaying game**, there are certain rules to follow and expectations made of both players and **GM**. 

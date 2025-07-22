@@ -107,7 +107,7 @@
     - [Telepathy (Arc/Wit)](#telepathy-arcwit)
   - [List of Illnesses](#list-of-illnesses)
 
-Version 9 (Playtest)
+Version 10 (Playtest)
 
 A role-playing game by Nicolas H.
 
