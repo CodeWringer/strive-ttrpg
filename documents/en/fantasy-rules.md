@@ -9,13 +9,14 @@
       - [Poisoned](#poisoned)
     - [Scars](#scars)
 - [Magic](#magic)
+  - [Testing Magic](#testing-magic)
   - [Spell Intensity (SI)](#spell-intensity-si)
-  - [Magic Stamina](#magic-stamina)
+  - [Arcane Overheat](#arcane-overheat)
+  - [Arcane Slag](#arcane-slag)
   - [Spell-Backfire](#spell-backfire)
   - [Concentration Spells](#concentration-spells)
   - [Magic Negation](#magic-negation)
   - [Protection From Magic](#protection-from-magic)
-  - [Testing Magic](#testing-magic)
   - [Magic Echoes](#magic-echoes)
   - [Magic Things](#magic-things)
     - [Abyssalite](#abyssalite)
@@ -37,7 +38,7 @@
         - [Manual Attribute Assignment](#manual-attribute-assignment)
         - [Semi-Random Attribute Assignment](#semi-random-attribute-assignment)
       - [Choosing Skills](#choosing-skills)
-    - [Determine Magic Stamina](#determine-magic-stamina)
+    - [Determine Arcane Overheat Thresholds](#determine-arcane-overheat-thresholds)
   - [List of Assets](#list-of-assets)
     - [Armor](#armor)
       - [Armor Properties](#armor-properties)
@@ -120,11 +121,9 @@ A role-playing game by Nicolas H.
 # Introduction
 This is the module containing the rules enabling play in a medieval fantasy game world, which includes supernatural monsters and magic. As such, only the differences and additions to the core rules are included in this document. 
 
-This module is best suited for a low to medium fantasy setting. Adapting it to high or heroic fantasy will require extensive additions to the lists of **skills** and **expertises**. 
+As such, this document introduces Magic, which is a **powerful** tool, that comes with great risk. Mages who exert themselves too much may fail their spell cast, which results in a back-fire. The chance of failure is controllable. 
 
-More details about the module:
-* Magic is a **powerful** tool, but comes with great risk, with a chance for a spell to fail and back-fire. The chance of failure is manageable, however. 
-  * Magic stamina is a new resource, that mages have to manage. 
+This module is best suited for a low to medium fantasy setting. Adapting it to high or heroic fantasy may require extensive work on your part. 
 
 # Character
 New in this module, is the attribute [arcana](#arcana-arc), which governs a character's capacity for magic. 
@@ -156,50 +155,103 @@ This **condition** can also be removed with [restoration magic](#restoration-arc
 Scars may be removed through successful application of [alteration](#alteration-arcwit) magic. 
 
 # Magic
-For this supplement, magic is assumed to be a mostly invisible force that runs all throughout, like a magnetosphere. Perhaps it could be called the *arcanosphere*. Individuals gifted with a sensitivity to this force may learn to manipulate and "shape" it. Thus, magical ability is intuitive. Those born without the gift, cannot learn magic. Of course, you may want to relax this rule, if you prefer anyone should have the chance to learn magic. 
+For this supplement, magic is assumed to be a mostly invisible force that runs all throughout, like a magnetosphere. Perhaps it could be called the *Arcanosphere*. Individuals gifted with a sensitivity to this force may learn to manipulate and "shape" it. Thus, magical ability is intuitive. Those born without the gift, cannot learn magic. Of course, you may want to relax this rule, if you prefer anyone should have the chance to learn magic. 
 
-Only a character with [arcana](#arcana-arc) can cast intuitive magic. What kind of magic, depends on the [magic schools](#list-of-magic-schools) the character knows. There are offensive, defensive and manipulative [schools of magic](#list-of-magic-schools). 
+Only a character with [Arcana](#arcana-arc) can cast intuitive magic. What kind of magic, depends on the [magic schools](#list-of-magic-schools) the character knows. There are offensive, defensive and manipulative [schools of magic](#list-of-magic-schools). 
 
 There may also be magic artifacts that can either cause magical effects on their own, or through character interaction. With such artifacts, it may be possible for non-mages to cast magic. For that, see [runes](#runes) and [scrolls](#magic-scrolls). 
 
-A *magic spell* is the intended effect of using a [magic school's](#magic-school--school---attribute-) [expertise](./core-rules.md#expertise). This is also referred to as *casting magic*, *casting a spell* or other similar wordings. In mechanical terms, every [expertise](./core-rules.md#expertise) noted on a [school of magic](#list-of-magic-schools) is a *magic spell*.
+A *magic spell* is the intended effect of using a [magic school's](#magic-school--school---attribute-) [Expertises](./core-rules.md#expertise). Using such an Expertise is also referred to as *casting magic*, *casting a spell* or other similar wordings. In mechanical terms, the [Expertises](./core-rules.md#expertise) are the *spells* of a [school of magic](#list-of-magic-schools).
 
 A mage can fail their [test](./core-rules.md#tests) and thus suffer a [spell-backfire](#spell-backfire), which usually results in negative effects for the caster, instead of their intended target. 
 
-[Spell intensity](#spell-intensity-si) adjusts the strength of a magic spell, as well as its cost in [magic stamina](#magic-stamina). 
+[Spell Intensity](#spell-intensity-si) sets the strength of a magic spell and how much [Arcane Slag](#arcane-slag) and [Arcane Overheat](#arcane-overheat) it causes. 
+
+## Testing Magic
+[Testing](./core-rules.md#tests) a [magic school skill](#magic-school--school---attribute-), in order to cast a *magic spell*, works as follows:
+
+1. Determine the [Spell Intensity](#spell-intensity-si) (SI) to use. 
+   1. The level in the corresponding [magic school skill](#magic-school--school---attribute-) determines the maximum [SI](#spell-intensity-si) that can be picked. 
+   1. Note that any spell **must** be cast with a [SI](#spell-intensity-si) of *at least* `1`. This includes **learning skills**. 
+2. Determine the test's **Ob**. 
+   1. Some spells require an [opposed test](./core-rules.md#opposed-test), while others impose a fixed **Ob** and yet others have a dynamic **Ob**, based on some formula. 
+3. The dice for the test are rolled. 
+4. Convert the [SI](#spell-intensity-si) to [Arcane Slag](#arcane-slag) and [Arcane Overheat](#arcane-overheat). 
+   1. If this brings the mage to a new [Arcane Overheat](#arcane-overheat) threshold, its effects now apply. 
 
 ## Spell Intensity (SI)
-**Spell intensity** (shorthand **SI**) is the strength at which a magic spell is being cast. A higher number causes stronger and further reaching effects, at greater [magic stamina](#magic-stamina) cost. A spell's maximum intensity is dictated by the level in the corresponding [magic school skill](#magic-school--school---attribute-). However, the minimum SI for a spell cast is always `1`. 
+**Spell Intensity (SI)** is the strength at which a magic spell is being cast. A higher number causes stronger and further reaching effects, but also more [Arcane Slag](#arcane-slag) and [Arcane Overheat](#arcane-overheat). 
 
-For every point of a spell's chosen **spell intensity**, **1 D4** must be rolled. The sum of these rolls is the resulting [magic stamina](#magic-stamina) cost.
+A spell's **maximum intensity** is dictated by the level in the corresponding [magic school skill](#magic-school--school---attribute-). However, the minimum **SI** for a spell cast is **always** `1`. 
 
-> For a spell at a chosen SI of 3, **3 D4** must be rolled. The sum of these rolls, which is at least 3 and at most could be 9, is the **magic stamina** to deduct after the spell's **test** is made. 
+When a mage casts magic, **half** (rounded down and minimum `1`) of the [Spell Intensity](#spell-intensity-si) they choose equals the amount of [Arcane Slag](#arcane-slag) that builds up within them. The other half turns into [Arcane Overheat](#arcane-overheat). 
 
-## Magic Stamina
-Magic takes a toll on the caster's body, as it takes great mental effort to properly cast magic. **Magic stamina** represents a mage's capacity for casting magic without risk to themselves. It is a replenishable resource that is used up faster with [stronger spells](#spell-intensity-si). 
+> = A spell cast at **SI** `1` causes `+1` **Arcane Slag** and *no* **Arcane Overheat**. 
+> 
+> = A spell cast at **SI** `3` causes `+1` **Arcane Slag** and `+2` **Arcane Overheat**. 
+> 
+> = A spell cast at **SI** `6` causes `+3` **Arcane Slag** and `+3` **Arcane Overheat**. 
 
-Mechanically speaking, every mage has two values to track: their **maximum magic stamina** and their **current magic stamina**. 
-* The **maximum magic stamina** of a mage is derived from the (**sum** of their [arcana](#arcana-arc) attribute plus the **raw levels** of all their known [magic school skills](#magic-school--school---attribute-) + 4) * 2. 
-* The **current magic stamina** can not be less than 0 or more than their **maximum magic stamina**. Every time a mage casts a spell, they incur a **magic stamina** cost, based on the chosen [spell intensity](#spell-intensity-si), which is deducted from this number. 
+## Arcane Overheat
+Magic takes a toll on the caster's body and mind. As magic currents flow through their body, **Arcane Overheat** and [Arcane Slag](#arcane-slag) build up within them. Too much **Arcane Overheat**, and the mage will suffer various negative effects! 
 
-> If a mage has an **arcana** of 3 and has the **magic school skills** **pyromancy** at level 3, **cryomancy** at level 2 and **illusion** at level 1, that means they have (4 + 3 + 3 + 2 + 1) * 2 = 26 **maximum magic stamina**. 
+When a mage casts magic, **half** (rounded down and minimum `1`) of the [Spell Intensity](#spell-intensity-si) they choose equals the amount of [Arcane Slag](#arcane-slag) that builds up within them. The other half turns into [Arcane Overheat](#arcane-overheat). 
 
-Once spent, **magic stamina** can only be regained through **active rest or meditation**. For every **half hour** spent in *active rest or meditation*, a mage regains **1 D4** **magic stamina**. Active rest or meditation implies not engaging in any physical or mental strains. If in doubt - if you have to do a test for it, it's probably a strain. 
+> = A spell cast at **SI** `1` causes `+1` **Arcane Slag** and *no* **Arcane Overheat**. 
+> 
+> = A spell cast at **SI** `3` causes `+1` **Arcane Slag** and `+2` **Arcane Overheat**. 
+> 
+> = A spell cast at **SI** `6` causes `+3` **Arcane Slag** and `+3` **Arcane Overheat**. 
 
-Reaching negative **magic stamina** while casting a spell, results in an automatic [spell-backfire](#spell-backfire)! 
+[Arcane Slag](#arcane-slag) represents the base **Arcane Overheat** of a character, which can not be reduced as quickly as the more fleeting **Arcane Overheat**. Note that non-mages may be affected by this, too!
+
+> A character with an **Arcane Slag** of `3`, always has at least `3` **Arcane Overheat**!
+
+The [Arcana](#arcana-arc) attribute determines several thresholds. If the character has an [Arcana](#arcana-arc) level of less than `1`, calculate the thresholds as if it was level `1`. 
+
+* **Cold**: Up to and including the `modified Arcana` is **mostly safe**. 
+  * Every time the mage casts a spell, if they don't achieve at least `1` **hit**, a [Spell-Backfire](#spell-backfire) occurs. In other words, only a **complete failure** of the [test](#testing-magic) results in a [Spell-Backfire](#spell-backfire). 
+* **Smoldering**: Up to and including the `modified Arcana * 2` is **risky**. 
+  * Every time the mage casts a spell, their **Ob** is always increased by `+1`. If they don't achieve at least `2` **hits**, a [Spell-Backfire](#spell-backfire) occurs. 
+* **Broiling**: Up to and including the `modified Arcana * 3` is **perilous**. 
+  * Every time the mage casts a spell, their **Ob** is always increased by `+2`. If they don't achieve at least `3` **hits**, a [Spell-Backfire](#spell-backfire) occurs. 
+  * For **all** *other* tests, the mage suffers `-1D`. 
+* **Consuming**: Anything past the point of **Broiling** is **mortally perilous**. 
+  * The mage suffers `1D8 + 2` [Pure damage](./core-rules.md#damage-types) every [Tick](./core-rules.md#ticks). 
+  * **Every** further attempt to cast a spell instantly **fails**. The mage simply cannot cast magic for as long as their **Arcane Overheat** is ***Consuming*** them. That means there is no [Spell-Backfire](#spell-backfire), either. 
+  * For **all** *other* tests, the mage suffers `-2D`. 
+
+> The thresholds of a mage with an Arcana of `3` are: `0-3` Cold, `4-6` Smoldering, `7-9` Broiling and `10+` Consuming. 
+
+At the start of every turn, or every `5` seconds outside combat, a mage automatically reduces their **Arcane Overheat** by one point. They can actively **vent** their **Arcane Overheat** further - one point per [AP](./core-rules.md#action-points-ap) spent. 
+
+## Arcane Slag
+**Arcane Slag** is the build-up of residual magical currents within the character's body. You can think of these like residual radioactive particles, that only slowly escape the body, albeit less immediately harmful. 
+
+For every point of **Arcane Slag** that has built up within a character, their base [Arcane Overheat](#arcane-overheat) is increased by the same amount. They cannot reduce their [Arcane Overheat](#arcane-overheat) to less than this amount. 
+
+When a mage casts magic, **half** (rounded down and minimum `1`) of the [Spell Intensity](#spell-intensity-si) they choose equals the amount of [Arcane Slag](#arcane-slag) that builds up within them. The other half turns into [Arcane Overheat](#arcane-overheat). 
+
+> = A spell cast at **SI** `1` causes `+1` **Arcane Slag** and *no* **Arcane Overheat**. 
+> 
+> = A spell cast at **SI** `3` causes `+1` **Arcane Slag** and `+2` **Arcane Overheat**. 
+> 
+> = A spell cast at **SI** `6` causes `+3` **Arcane Slag** and `+3` **Arcane Overheat**. 
+
+`1` point of **Arcane Slag** automatically leaves the character's body, every `6` hours. If that time is spent in active rest or meditation - that means doing *nothing* besides rest -, then `2` points leave the body, instead. 
+
+**Arcane Slag** *can* affect non-mages, too! That implies they can also suffer [Arcane Overheat](#arcane-overheat) (although that does not make them mages)! 
 
 ## Spell-Backfire
-A **spell-backfire** causes a spell to affect the caster, instead of their intended target. The mage suffers the negative effects of the spell. In case of an [aoe](./core-rules.md#area-of-effect-aoe) attack spell, anyone or anything nearby the mage, in range, is also affected. Additionally, the mage suffers one point of [exhaustion](./core-rules.md#exhaustion). 
+A **spell-backfire** causes a spell to affect the caster, instead of their intended target. The mage suffers the negative effects of the spell.
 
-It is possible for another nearby mage to prevent the **spell-backfire**, if they [negate the spell](#magic-negation) as a **reaction**. This also applies even if the spell wouldn't affect them. If the other mage's attempt to negate the spell *also* **backfires**, then both of the mages suffer the effect at one greater [intensity](#spell-intensity-si) level. 
+In case of an [aoe](./core-rules.md#area-of-effect-aoe) attack spell, anyone or anything nearby the mage, in range, is also affected. Additionally, the mage suffers one point of [exhaustion](./core-rules.md#exhaustion). 
+
+It is possible for another nearby mage to prevent the **spell-backfire**, if they [negate the spell](#magic-negation) as a **reaction**. This also applies even if the spell wouldn't affect them. If the other mage's attempt to negate the spell *also* **backfires**, then both of the mages suffer the spell's effect at one greater [intensity](#spell-intensity-si) level. 
 
 A **spell-backfire** occurs in the following two cases: 
 1. The [magic school skill test](#testing-magic) is a **complete failure**. 
-2. The spell costs more [magic stamina](#magic-stamina), than the mage has available. 
-
-> A mage has 3 **magic stamina** left, casts a spell at **SI** 1 and rolls a cost of 3 **magic stamina**. They reach 0 **magic stamina**, but do **not** suffer a **spell-backfire**. 
-
-> Another example. This time, the mage has only 2 **magic stamina** left and rolls a cost of 3. This would result in them reaching negative **magic stamina** (= -1) and thus **does** cause a **spell-backfire**! Note, that the current magic stamina cannot be negative and instead is simply set to "0". 
+2. The mage suffers from [Arcane Overheat](#arcane-overheat) and rolls a failure. 
 
 ## Concentration Spells
 Some magic can be upheld for as long as the casting mage *concentrates* on their spell. Such spells will be marked with **"Concentration"**. The effects of a concentration spell last for as long as the mage *chooses* or *manages* to keep their concentration. They need only test for the spell only *once*, when they first cast it. After that, during combat, it costs `1` AP at the start of every turn to uphold it. 
@@ -216,35 +268,11 @@ If the defense fails, the full effect is applied. If the defense attempt causes 
 **Magic negation** can also be used to prevent another mage's [spell-backfire](#spell-backfire).
 
 ## Protection From Magic
-Armor made from [Ambersteel](#ambersteel) can reduce the damage suffered through magical sources and reduce the [spell intensity](#spell-intensity-si) of non-damaging spells. 
+Armor made from [Ambersteel](#ambersteel) can reduce the damage suffered through magical sources and reduce the [SI](#spell-intensity-si) of non-damaging spells. 
 
 The [quality](./core-rules.md#crafting) of an armor or shield determines how much it protects the wearer. See [ambersmithing](#ambersmithing-strwit) for the specific numbers. 
 
-Damage from magical sources is reduced by the quality level + a number of dice. Non-damaging spells have their [spell intensity](#spell-intensity-si) reduced by *only* the quality level. 
-
-## Testing Magic
-[Testing](./core-rules.md#tests) a [magic school skill](#magic-school--school---attribute-), in order to cast a *magic spell*, works as follows:
-1. The mage determines the [spell intensity](#spell-intensity-si) they're going to use. Their level in the corresponding [magic school skill](#magic-school--school---attribute-) determines the maximum [spell intensity](#spell-intensity-si) they can pick. 
-  1. Note that any spell **must** be cast with a [spell intensity](#spell-intensity-si) of *at least* 1. This includes **learning skills**. 
-2. The [magic stamina](#magic-stamina) cost is determined. Roll **1 D4** for every point of the chosen [spell intensity](#spell-intensity-si). 
-  1. If more magic stamina is used up, than the mage has left available, they suffer a [spell-backfire](#spell-backfire).
-  2. The [magic stamina](#magic-stamina) is reduced by the rolled sum. This happens regardless of a [spell-backfire](#spell-backfire).
-3. Proceed only if there was no [spell-backfire](#spell-backfire).
-4. Determine the test's **Ob**. Some spells require an [opposed test](./core-rules.md#opposed-test), while others impose a fixed **Ob** and yet others have a dynamic **Ob**, based on some formula. 
-5. The dice for the test are rolled. 
-  1. If the test is a **complete success**, the spell is cast as intended. 
-  2. If the test is a **partial success/failure**, the spell fizzles and nothing happens.
-  3. If the test is a **complete failure**, the spell [back-fires](#spell-backfire). 
-
-> A mage wants to cast an [illusion](#illusion-arcawar) spell, at SI 2. Their level in the corresponding magic school skill is 4 and they have 4 magic stamina left. 
->
-> They roll **2 D4**, yielding them a 3 and a 2. The sum (5) is one point more magic stamina, than the mage had left. They suffer a spell-backfire and their intended target is left unaffected!
-
-> A mage wants to cast an [illusion](#illusion-arcawar) spell, at SI 2. Their level in the corresponding magic school skill is 4 and they have 4 magic stamina left. 
->
-> They roll **2 D4**, yielding them a 1 and a 2. The sum (3) is within their available magic stamina (which is now reduced to 1). 
->
-> Now, they determine their **Ob** to be 2. They roll their 4 available D6, but achieve only 1 **hit**. Their spell fizzles and fails without any effect! 
+Damage from magical sources is reduced by the quality level + a number of dice. Non-damaging spells have their [SI](#spell-intensity-si) reduced by *only* the quality level. 
 
 ## Magic Echoes
 Whenever magic is cast, a pale reflection of it remains, invisible to the naked eye, lingering for `SI * 4` hours, based on the magic spell's [intensity](#spell-intensity-si) when it was cast. 
@@ -265,7 +293,7 @@ Its surface is unnaturally smooth and covered in a fine, iridescent shine. Under
 
 **Abyssalite** is a hard and brittle mineral, prone to shattering if too much force is applied. This makes it difficult to shape. It is also fairly heavy, which makes it difficult to carry. 
 
-A fist-sized **Abyssalite** chunk has a [bulk](./core-rules.md#carrying-capacity) of 2 and grants one greater level in the respective [school of magic](#magic-school--school---attribute-), without costing any extra [magic stamina](#magic-stamina). In order to use the **Abyssalite**, the caster **must** be touching it. 
+A fist-sized **Abyssalite** chunk has a [bulk](./core-rules.md#carrying-capacity) of 2 and grants one greater level in the respective [school of magic](#magic-school--school---attribute-), without causing any additional [Arcane Overheat](#arcane-overheat). In order to use the **Abyssalite**, the caster **must** be touching it. 
 
 ### Amberite
 As magic is amplified by [Abyssalite](#abyssalite), its antithesis is called **Amberite**, a metal which dulls the effects of magic and slows any magic flow nearby it. The material is also known to affect magic creatures and can cause great pain in magic-users. 
@@ -306,47 +334,46 @@ When sufficient magic is sent flowing through it, the veins glow strongly and ch
 The veins do not spread to other materials. Only the bright marble-like substance seems to find their favor. Thus, cultivating greater amounts of **Cerebillium** is very difficult and requires synthesization of a very unique chemical compound, which is then left to crystallize over a long time. 
 
 ### Runes
-Shards of [Abyssalite](#abyssalite) can have **runes** carved into them, which allow magic to flow through the **runes**. This renders **runes** extremely powerful artifacts, as they can allow for near limitless magic-use, even in the hands of a non-mage. 
+Shards of [Abyssalite](#abyssalite) can be carved into **runes**, which allow magic to flow through them in particular ways. Mechanically, they allow the casting of a particular spell of one of the [schools of magic](#list-of-magic-schools), at a constant [Spell Intensity](#spell-intensity-si). 
 
-To activate such a **rune**, is a difficult skill to learn, however. Even if no innate magical ability is required, an understanding of the flow of magic is. The **rune** must be touched in the right spots, at the right intervals, to activate successfully. Mistakes in this procedure can have disastrous results. 
+To activate such a **rune**, is a difficult skill to learn, however. The **rune** must be touched in the right spots, at the right intervals, to activate successfully. Mistakes in this procedure can have disastrous results. 
 
-What's more, it takes great skill to carve the right **runes**, as each **rune's** shape and complexity depends in part on the size and shape of the [Abyssalite](#abyssalite) shard. The only way to get it right, is to *feel* the way the **rune** must be shaped. Alternatively, the shard can be adjusted to be of equivalent size and shape as another **rune**, but this requires considerable effort, as [Abyssalite](#abyssalite) is a brittle material, prone to shattering if too much force is applied. Thus, it must be carefully filed down to size. This would double the time it takes to [craft](#rune-smithing-arcwit) the **rune**.
+It also takes great skill to carve **runes**, as each **rune's** shape and complexity depends in part on the size and shape of the [Abyssalite](#abyssalite) shard. The only way to get it right, is to *feel* the way the **rune** must be shaped. Alternatively, the shard can be adjusted to be of equivalent size and shape as another **rune**, but this requires considerable effort, as [Abyssalite](#abyssalite) is a brittle material, prone to shattering if too much force is applied. Thus, it must be carefully filed down to size. This would double the time it takes to [craft](#rune-smithing-arcwit) the **rune**.
 
-Due to how **runes** are always magically charged, they cannot be in the vicinity of any other **runes**. This works a bit like how magnets with the same polarity repulse each other, but a lot more dangerous. This condition applies regardless of the type of magic each of the **runes** hold. 
+Due to how **runes** are always magically charged, they cannot be in the vicinity of any other **runes**. This works a bit like how magnets with the same polarity repulse each other, but a lot more dangerous. This condition applies regardless of the type of magic each of the **runes** hold. If two **runes** are brought to a distance of `60'/20m` or less to each other, they begin to glow, hum and rumble, as if to warn their bearers. Should they be brought to a distance of `45'/15m` or less to each other, they both discharge the magic they hold and repulse each other. This means anyone immediately nearby suffers `3D6` **Bludgeoning** damage. The **runes** are flung away from each other far enough to be at least `63'/21m` apart. *Also*, the **runes** may be **destroyed** in the process. Roll a `D6` for each of the **runes** - if the result is a `1` or `2`, the **rune** is **destroyed**! 
 
-If two **runes** are brought to a distance of 20m/60' or less to each other, they begin to glow, hum and rumble, as if to warn their bearers. Should they be brought to a distance of 15m/45' or less to each other, they both discharge the magic they hold and repulse each other. This means anyone immediately nearby suffers `3D6` **Bludgeoning** damage. The **runes** are flung away from each other far enough to be at least 21m/63' apart. *Also*, the **runes** may be **destroyed** in the process. There is a 1 in 3 chance of this occurring. Roll 1D6 for each of the **runes**. If the result is a 1 or 2, the **rune** is **destroyed**! 
-
-It may be possible to circumvent this repulsion behavior by placing the **runes** in a container made of [Ambersteel](#ambersteel). This requires the container to be of a [quality](./core-rules.md#crafting) level equal to the highest of the **runes'** [spell intensity](#spell-intensity-si).
+It may be possible to circumvent this repulsion behavior by placing the **runes** in a container made of [Ambersteel](#ambersteel). This requires the container to be of a [quality](./core-rules.md#crafting) level equal to the highest of the **runes'** [Spell Intensity](#spell-intensity-si).
 
 In order to craft a **rune**:
 * A **rune** can only be made to cast one type of magic. So the carver has to pick one of the [magic schools](#list-of-magic-schools). 
 * The maximum **level** at which a **rune** can be created, depends on the carver's skill. The **level** of the **rune** dictates the level of the respective magic it will cast at. 
 * The carver has to succeed a [rune smithing](#rune-smithing-arcwit) skill test. 
-* Then, the **rune** must be "primed" by a mage. This requires a **complete success** of a test of the same [school of magic](#list-of-magic-schools) as the **rune** holds, with **Ob** equal to the spell's [intensity level](#spell-intensity-si). 
+* Then, the **rune** must be "primed" by a mage. This requires a **complete success** of a test of the same [school of magic](#list-of-magic-schools) as the **rune** holds, with **Ob** equal to the [Spell Intensity](#spell-intensity-si) of the **rune**. 
 * If any of the tests are not a **complete success**, the **rune** is botched and the material cannot be used for another attempt. There is no room for mistakes. 
 
 In order to invoke a **rune**:
-* A **complete success** of a [rune-using](#rune-using-agiwit) skill test will invoke the spell of the **rune** as expected.
+* A **complete success** of a [rune-using](#rune-using-agiwit) skill test will invoke the spell of the **rune** as expected. This costs `2` AP in combat. 
 * A **partial success** or **complete failure** results in a [spell-backfire](#spell-backfire). 
+* The user accumulates one third (rounded down, but to no less than `1`) of the rune's [Spell Intensity](#spell-intensity-si) as [Arcane Slag](#arcane-slag). 
 
 ### Magic Scrolls
-**Magic scrolls** allow a single, specific spell to be cast by both mages and non-mages, at no cost of [magic stamina](#magic-stamina). Once used, the **magic scroll** burns up from the flow of magic and cannot be used again (even if the bearer material is fire-proof). Thus, these are single-use tools. 
+**Magic scrolls** allow a single, specific spell to be cast by both mages and non-mages. Once used, the **magic scroll** burns up from the flow of magic and cannot be used again (even if the bearer material is fire-proof). Thus, these are single-use tools. 
 
 Due to how **magic scrolls** are always magically charged, they cannot be in the vicinity of any other **magic scrolls**. This works a bit like how magnets with the same polarity repulse each other, but a lot more dangerous. This condition applies *only* to **magic scrolls** of **same the type of magic**. 
 
-If two **magic scrolls** **of the same type** are brought to a distance of 20m/60' or less to each other, they begin to glow, hum and rumble, as if to warn their bearers. Should they be brought to a distance of 15m/45' or less to each other, they both discharge the magic they hold and repulse each other. This means anyone immediately nearby suffers `3D6` **Bludgeoning** damage. The **magic scrolls** are destroyed in the process! 
+If two **magic scrolls** **of the same type** are brought to a distance of `60'/20m` or less to each other, they begin to glow, hum and rumble, as if to warn their bearers. Should they be brought to a distance of `45'/15m` or less to each other, they both discharge the magic they hold and repulse each other. This means anyone immediately nearby suffers `3D6` **Bludgeoning** damage. The **magic scrolls** are destroyed in the process! 
 
-It may be possible to circumvent this repulsion behavior by placing the **magic scrolls** in a container made of [Ambersteel](#ambersteel). This requires the container to be of a [quality](./core-rules.md#crafting) level equal to the highest of the **magic scrolls'** [spell intensity](#spell-intensity-si).
+It may be possible to circumvent this repulsion behavior by placing the **magic scrolls** in a container made of [Ambersteel](#ambersteel). This requires the container to be of a [quality](./core-rules.md#crafting) level equal to the highest of the **magic scrolls'** [Spell Intensity](#spell-intensity-si).
 
 In order to create a **magic scroll**:
 * Powdered [Abyssalite](#abyssalite) must be painted onto the parchment, paper or other such material, in a shape specific to the magic spell the **magic scroll** will be able to cast. 
-  * This requires a **complete success** of an [artistry](./core-rules.md#artistry-agiawar) or [artificing](#artificing-arcwit) test, at **Ob** equal to the spell's [intensity level](#spell-intensity-si). 
-* Then, the **magic scroll** must be "primed" by a mage. This requires a **complete success** of a test of the same [school of magic](#list-of-magic-schools) as the **magic scroll** holds, with **Ob** equal to the spell's [intensity level](#spell-intensity-si). 
+  * This requires a **complete success** of an [artistry](./core-rules.md#artistry-agiawar) or [artificing](#artificing-arcwit) test, at **Ob** equal to the intended [Spell Intensity](#spell-intensity-si) of the **magic scroll**. 
+* Then, the **magic scroll** must be "primed" by a mage. This requires a **complete success** of a test of the same [school of magic](#list-of-magic-schools) as the **magic scroll** holds, with **Ob** equal to the [Spell Intensity](#spell-intensity-si) of the **magic scroll**. 
 * If any of the tests are not a **complete success**, the **magic scroll** is botched and the material cannot be used for another attempt. There is no room for mistakes. 
 
 In order to invoke a **magic scroll**:
 * One must unfurl and hold it plainly in the direction the spell is to be cast, then trace the painted symbol on the **magic scroll** to "agitate" the primed magic. This costs `2` AP in combat. 
-* It costs no [magic stamina](#magic-stamina), but the **magic scroll** is immediately destroyed upon use. It burns up magically (even if the material itself is fire-proof). 
+* This causes no [Arcane Overheat](#arcane-overheat), but the **magic scroll** is immediately destroyed upon use. It burns up magically (even if the material itself is fire-proof). 
 
 ### Malevite
 Also known as blood jewel, Malevite is an entirely artificial material, made from the blood of mages, by use of great pressure, a constant arcanic charge and much patience. The more blood it is infused with, the purer the color and more powerful the artifact. 
@@ -420,7 +447,7 @@ Weapon type assets can have the following **properties**:
 The appendix contains important and less important lists, for reference only when needed. 
 
 ## Character Creation
-Character creation is now supplemented by the step to determine [magic stamina](#magic-stamina), which follows determining the **exhaustion limit**. 
+Character creation is now supplemented by step `9` - [Determine Arcane Overheat thresholds](#arcane-overheat). 
 
 The new procedure of creating a character consists of the following steps:
 1. [Determine life path](./core-rules.md#determine-life-path). 
@@ -430,7 +457,7 @@ The new procedure of creating a character consists of the following steps:
 6. [Determine **carrying capacity** and **assets**](./core-rules.md#determine-assets).
 7. [Determine **Max HP** and **Injury Maximum**](./core-rules.md#determine-max-hp--injury-maximum)
 8. [Determine exhaustion limit](./core-rules.md#determine-exhaustion-threshold).
-9. [Determine magic stamina](#determine-magic-stamina).
+9. [Determine Arcane Overheat thresholds](#determine-magic-overheat-thresholds).
 
 ### Determine Abilities
 Supplements to abilities in character creation. 
@@ -470,10 +497,8 @@ This section replaces its core rule counter-part.
 #### Choosing Skills
 If playing a **mage**, keep in mind you need to have at least level 1 in a [magic school skill](#magic-school--school---attribute-) to be able to cast magic. You are also advised to have your strongest magic be at least level 3 or 4, to be able to reliably use it. 
 
-### Determine Magic Stamina
-Determine your character's **maximum magic stamina**, by referring to the [magic stamina](#magic-stamina) section. 
-
-You'll need to track **current magic stamina** separately. To start with, set your current to your maximum **magic stamina**. 
+### Determine Arcane Overheat Thresholds
+Determine your character's [Arcane Overheat thresholds](#arcane-overheat). 
 
 ## List of Assets
 The following list does not and cannot aim to be a complete listing of all possible assets in game. Adding new assets as necessary will have to be done by the **GM**. 
@@ -1127,7 +1152,9 @@ The setting of arcane traps and creation of arcane artifacts and materials.
 | ----- | -------------------- | -- | -------- | ---------------------------- | ------------------------------ | ------------------ |
 | 0     | Place Arcane Charge  | 3  | 3'/1m    | SI                           | Concentrate arcane energy on a point in hand's reach. The surface begins to glow and feels receptive. Any other spell that is then cast at the same spot, charges the arcane charge. A trigger defined by the mage will then unleash the stored spell. Note only simple triggers are possible. The charge cannot make distinctions like friend or foe. Example triggers: on touch, on detection of movement in front of the charge, on detection of sound, on the utterance of a specific word. The arcane charge lasts `SI D4` hours. After that, it harmlessly dissipates. The charge is stationary. It cannot be moved. For every `3 SI`, the spell it holds may be `+1 SI` stronger. | The arcane charge becomes unstable. Roll a `D4` to determine in what way. On a 1: the stored spell loses half its `SI` in strength. 2: the charge triggers in `1D6` minutes. 3: the charge immediately dissipates. 4: the stored spell is overriden. Instead, upon triggering, the charge now emits an excruciatingly loud noise. |
 | 0     | Imitate Arcane Echo  | 2  | 30'/10m  | Imitated spell's SI, divided by 2 and rounded up | Draw from a [magic echo](#magic-echoes) located up to `30'/10m` away and re-new it, casting it again at the SI it once had when it was originally cast. | The caster suffers the full back-fire of the spell that was imitated. |
-| 1     | Elemental Shield     | 2  | 3'/1m    | SI                           | **Concentration**: Arcane energy envelops your skin, to counter one specific element of your choosing. You or a single target of your choice, within hand's reach, suffer `SI * 2` less damage of that element's type of damage. Available elements are: [Acid, Bleeding, Burning, Electrical, Freezing, Poison](./core-rules.md#damage-types). | You instead become twice as vulnerable to the element you chose, causing you to take twice as much damage! |
+| 1     | Elemental Shield     | 2  | 3'/1m    | SI                           | **Concentration**: Arcane energy envelops your skin, to counter one specific element of your choosing. You or a **ST** of your choice, within hand's reach, suffer `SI * 2` less damage of that element's type of damage. Available elements are: [Acid, Bleeding, Burning, Electrical, Freezing, Poison](./core-rules.md#damage-types). | You instead become twice as vulnerable to the element you chose, causing you to take twice as much damage! This effect lasts 3 turns, or 15 seconds. |
+| 1     | Slag Bomb            | 2  | 18'/6m + SI * 3'/1m | SI                | Cause `+SI` [Arcane Slag](#arcane-slag) to all targets within a `9'/3m` radius at a spot of your choosing. | Instead of the intended spot, the Slag Bomb detonates right in your face. |
+| 1     | Detonate Slag        | 2  | 18'/6m + SI * 3'/1m | SI                | Remove `SI` points of [Arcane Slag](#arcane-slag) from a **ST**, within reach and cause them to explode with arcane energy, dealing `N D4` points of pure damage, where *N* is the number of [Arcane Slag](#arcane-slag) points that were removed. | Instead of the intended target, your own [Arcane Slag](#arcane-slag) detonates! |
 
 ### Alteration (Arc/Wit)
 The alteration of physical things, to change their shape and purpose. 
@@ -1171,7 +1198,8 @@ The casting of curses to weaken others.
 | 0     | Slow Down            | 2  | SI * 9'/3m   | Opposed by [self-control](./core-rules.md#self-control-toughtough) | Reduce a target's [AP](./core-rules.md#action-points-ap) per turn by `1` for `SI` turns and reduce their current [AP](./core-rules.md#action-points-ap) by `2`. Does not stack. | The caster suffers the effect, instead. |
 | 1     | Weaken               | 2  | SI * 15'/5m  | Opposed by [toughness](./core-rules.md#toughness-tough) | Cause a target to take twice as much damage from a chosen damage type for `SI` turns. Does not stack. | The caster suffers the effect, instead. |
 | 2     | Atrophy              | 2  | SI * 9'/3m   | Opposed by [toughness](./core-rules.md#toughness-tough) | Weaken a target. They lose `SI` levels of [strength](./core-rules.md#strength-str) and deal `SI` fewer points of damage per physical attack, for `SI` turns. Does not stack. | The caster suffers the effect, instead. |
-| 2     | Spray Acid           | 2  | SI * 9'/3m   | Opposed                      | Spray acid in a cone, for `SI D6` points of acid damage. | The caster suffers `1D10` points of acid damage. |
+| 2     | Spray Acid           | 2  | SI * 9'/3m   | Opposed                      | Spray acid in a cone, for `SI D4` points of acid damage. | The caster instead suffers half of the acid damage. |
+| 3     | Slag to Acid         | 2  | SI * 18'/6m  | Opposed - SI                 | Convert the [Arcane Slag](#arcane-slag) of a **ST** within reach into acid! They lose `SI` points of [Arcane Slag](#arcane-slag), which convert into `N D6` points of acid damage, where *N* is the number of [Arcane Slag](#arcane-slag) points removed! | The caster suffers the effect, instead! |
 
 ### Hydromancy (Agi/Arc)
 The control of directly accessible water. Blood and creatures cannot be affected by this school. 
@@ -1227,25 +1255,26 @@ The summoning and control of fire. The flame being a destructive force, pyromanc
 ### Restoration (Arc/Awar)
 The mending of [injuries](./core-rules.md#injury) and treatment of [diseases](./core-rules.md#illness). 
 
-| Level | Name                 | AP | Distance | Ob                           | Effect(s)                      | Backfire Effect(s) |
-| ----- | -------------------- | -- | -------- | ---------------------------- | ------------------------------ | ------------------ |
-| 0     | Treating Touch       | 2  | 3'/1m    | See the injury in question   | An [injury](./core-rules.md#injury) of a **ST** of the mage's choosing, in hand's reach, is magically healed and removed. It may still leave a [scar](./core-rules.md#scar). Restores `SI D10` missing [HP](./core-rules.md#hit-points-hp). | The caster suffers `SI D10` points of [bleeding](./core-rules.md#damage-types) damage. |
-| 2     | Life Leech           | 2  | 3'/1m    | Opposed by [toughness](./core-rules.md#toughness-tough) | Draw the life from a **ST** creature of choice. Deals **SI D4** points of damage while healing another touched creature's or one's own [HP](./core-rules.md#hit-points-hp) for the same amount. Transfers 1 point of [bleeding](./core-rules.md#bleeding) and/or [poisoned](./core-rules.md#poisoned) from the healed creature to the damaged one. | The effect triggers in reverse. |
-| 5     | Expel Illness        | 3  | 3'/1m    | 4                            | Removes **SI** number of [illnesses](./core-rules.md#illness) of choice from a **ST** of choice, in hand's reach. | The caster contracts **SI** random [illnesses](./core-rules.md#illness). | 
-| 6     | Revert Mutation      | 4  | 3'/1m    | 6                            | Removes **SI** number of [mutations](./core-rules.md#list-of-mutations) of choice from a **ST** of choice, in hand's reach. | The caster receives **SI** random [mutations](./core-rules.md#list-of-mutations). |
+| Level | Name                 | AP | Distance | Ob                              | Effect(s)                      | Backfire Effect(s) |
+| ----- | -------------------- | -- | -------- | ------------------------------- | ------------------------------ | ------------------ |
+| 0     | Treating Touch       | 2  | 3'/1m    | See the injury in question - SI | An [injury](./core-rules.md#injury) of a **ST** of the mage's choosing, in hand's reach, is magically healed and removed. It may still leave a [scar](./core-rules.md#scar). Also restores `SI D10` missing [HP](./core-rules.md#hit-points-hp). Only one such treatment can safely be made, per creature, every `6` hours. If a treatment is made within that time, roll a `D6` - a `1` or `2` will cause the patient to suffer a mutation, while a `3` through `5` will cause them `+2` [Arcane Slag](#arcane-slag). | The caster suffers `SI D10` points of [bleeding](./core-rules.md#damage-types) damage. |
+| 2     | Life Leech           | 2  | 3'/1m    | Opposed by [toughness](./core-rules.md#toughness-tough) | Draw the life from a **ST** creature of choice. Deals `SI D4` points of pure damage while healing another touched creature's or one's own [HP](./core-rules.md#hit-points-hp) for the same amount. Transfers `SI` points of [bleeding](./core-rules.md#bleeding) and/or [poisoned](./core-rules.md#poisoned) from the healed creature to the damaged one. | The effect triggers in reverse. |
+| 5     | Expel Illness        | 3  | 3'/1m    | 4 - SI                          | Removes one [illness](./core-rules.md#illness) of choice from a **ST** of choice, in hand's reach. | The caster contracts **SI** random [illnesses](./core-rules.md#illness). | 
+| 6     | Revert Mutation      | 4  | 3'/1m    | 6 - SI                          | Removes one [mutation](./core-rules.md#list-of-mutations) of choice from a **ST** of choice, in hand's reach. | The caster receives **SI** random [mutations](./core-rules.md#list-of-mutations). |
 
 ### Sanguinomancy (Arc/Tough)
 In the common tongue, blood magic, utilizes mage blood to control a deeply unsettling power. The used blood must be fresh, although not necessarily from the caster. 
 
 | Level | Name                 | AP | Distance    | Ob                           | Effect(s)                      | Backfire Effect(s) |
 | ----- | -------------------- | -- | ----------- | ---------------------------- | ------------------------------ | ------------------ |
-| 0     | Infusion             | 1  | /           | SI                           | Suffer `1D4` [bleeding](./core-rules.md#damage-types) damage, as you cut a nasty gash into your flesh  to draw blood. This spell costs `SI` less [magic stamina](#magic-stamina). Arcanically charge the blood and smear it on something (like a weapon). The blood begins to boil, causing it to deal `SI D4` [burning](./core-rules.md#damage-types) damage to the touch. This effect lasts `SI` rounds and does not stack with itself. | The caster suffers `SI D4` points of [bleeding](./core-rules.md#damage-types) damage. |
+| 0     | Infusion             | 1  | /           | SI                           | Suffer `1D4` [bleeding](./core-rules.md#damage-types) damage, as you cut a nasty gash into your flesh  to draw blood. This spell causes `SI` less [Arcane Overheat](#arcane-overheat) (down to at most `1`). Arcanically charge the blood and smear it on something (like a weapon). The blood begins to boil, causing it to deal `SI D4` [burning](./core-rules.md#damage-types) damage to the touch. This effect lasts `SI` rounds and does not stack with itself. | The caster suffers `SI D4` points of [bleeding](./core-rules.md#damage-types) damage. |
 | 0     | Snap                 | 2  | 30'/10m     | Opposed by [toughness](./core-rules.md#toughness-tough) + 1 | Snap a twig or similar and channel the destructive power into a victim. They suffer a random [bludgeoning injury](./core-rules.md#bludgeoning-injuries) and `SI` points of [bleeding](./core-rules.md#damage-types) damage. | The caster suffers the injury, instead. |
-| 1     | Blood Whip           | 2  | SI * 15'/5m | Opposed                      | Suffer `1D4` [bleeding](./core-rules.md#damage-types) damage, as you cut a nasty gash into your flesh  to draw blood. This spell costs `SI` less [magic stamina](#magic-stamina). Have your blood lash out at a target, dealing `1D8 + SI slashing` and `SI D6 bleeding` damage. | The caster suffers an `1D10 bleeding` damage. |
+| 1     | Blood Whip           | 2  | SI * 15'/5m | Opposed                      | Suffer `1D4` [bleeding](./core-rules.md#damage-types) damage, as you cut a nasty gash into your flesh  to draw blood. This spell causes `SI` less [Arcane Overheat](#arcane-overheat) (down to at most `1`). Have your blood lash out at a target, dealing `1D8 + SI slashing` and `SI D6 bleeding` damage. | The caster suffers an `1D10 bleeding` damage. |
 | 2     | Blood Boil           | 2  | SI * 6'/2m  | Opposed by [toughness](./core-rules.md#toughness-tough) + 1 | Bring a victim's blood to a boil. They suffer `SI D6 burning` damage, that [armor](./core-rules.md#armor--shields) cannot reduce. | The caster suffers `1D10 burning` damage, instead. |
-| 2     | Bond of Suffering    | 1  | SI * 15'/5m | Opposed by [toughness](./core-rules.md#toughness-tough) | Suffer `1D4` [bleeding](./core-rules.md#damage-types) damage, as you cut a nasty gash into your flesh to draw blood. This spell costs `SI` less [magic stamina](#magic-stamina). Your blood forms a bond between two designated creatures, who then share all damage and healing. Lasts `SI` turns. | The caster suffers twice as much damage from all physical sources, until the start of their next turn. |
+| 2     | Bond of Suffering    | 1  | SI * 15'/5m | Opposed by [toughness](./core-rules.md#toughness-tough) | Suffer `1D4` [bleeding](./core-rules.md#damage-types) damage, as you cut a nasty gash into your flesh to draw blood. This spell causes `SI` less [Arcane Overheat](#arcane-overheat) (down to at most `1`). Your blood forms a bond between two designated creatures, who then share all damage and healing. Lasts `SI` turns. | The caster suffers twice as much damage from all physical sources, until the start of their next turn. |
 | 2     | Life Leech           | 2  | 3'/1m       | Opposed by [toughness](./core-rules.md#toughness-tough) | Draw the life from a **ST** creature of choice. Deals `SI D4` points of bleeding damage while healing the caster's [HP](./core-rules.md#hit-points-hp) for the same amount. Transfers 1 point of [bleeding](./core-rules.md#bleeding) and/or [poisoned](./core-rules.md#poisoned) from the healed creature to the damaged one. | The effect triggers in reverse. |
 | 3     | Crimson Tracks       | 1  | SI * 150'/50m | SI                         | If you have someone's blood, use it to track them. If successful, you get a general sense of how far away and in what direction relative to your facing they are. You also glimpse a momentary fragment of their current emotional state. | The victim is overcome with an odd premonition and becomes aware someone attempted to track them. |
+| 4     | Slagletting          | 2  | /           | SI + 1                       | Remove `SI` points of [Arcane Slag](#arcane-slag) from yourself, but suffer `3` points of bleeding damage for each point of [Arcane Slag](#arcane-slag) that is removed! If successful, this spell does not cause [Arcane Slag](#arcane-slag). | Instead of removing any [Arcane Slag](#arcane-slag), you gain `+2` points of it and suffer `6` points of bleeding damage! |
 | 5     | Puppeteer            | 3  | SI * 15'/5m | Opposed by [Self-Control](./core-rules.md#self-control-toughtough) | **Concentration**: Command the blood of a victim to obey you. You control their actions, like a puppeteer. Any action you make them take, costs *their* AP. They may try to resist at the beginning of their every turn, or once every minute. | You lose control and are [stunned](./core-rules.md#stunned) for until the end of your next turn, or the end of a minute. |
 
 ### Soul-Binding (Arc/Tough)
