@@ -2,12 +2,6 @@
 - [Character](#character)
   - [Attributes](#attributes)
     - [Arcana \[Arc\]](#arcana-arc)
-  - [Health \& Exhaustion](#health--exhaustion)
-    - [Hit Points (HP)](#hit-points-hp)
-    - [Condition](#condition)
-      - [Exhausted](#exhausted)
-      - [Poisoned](#poisoned)
-    - [Scars](#scars)
 - [Magic](#magic)
   - [Testing Magic](#testing-magic)
   - [Spell Intensity (SI)](#spell-intensity-si)
@@ -111,7 +105,6 @@
     - [Soul-Binding (Arc/Tough)](#soul-binding-arctough)
     - [Telekinesis (Arc/Agi)](#telekinesis-arcagi)
     - [Telepathy (Arc/Wit)](#telepathy-arcwit)
-  - [List of Injuries](#list-of-injuries)
   - [List of Illnesses](#list-of-illnesses)
 
 Version 9 (Playtest)
@@ -119,11 +112,14 @@ Version 9 (Playtest)
 A role-playing game by Nicolas H.
 
 # Introduction
-This is the module containing the rules enabling play in a medieval fantasy game world, which includes supernatural monsters and magic. As such, only the differences and additions to the core rules are included in this document. 
+This is the module containing the rules enabling play in a medieval fantasy game world, which includes supernatural monsters and magic. Only the differences and additions to the core rules are included in this document. 
 
-As such, this document introduces Magic, which is a **powerful** tool, that comes with great risk. Mages who exert themselves too much may fail their spell cast, which results in a back-fire. The chance of failure is controllable. 
+This module is best suited for a medium fantasy setting. It introduces magic, which is a **powerful** tool, that comes with great risk. Mages who exert themselves too much may fail their spell cast, which results in a back-fire. But the likelihood of failure is manageable.
 
-This module is best suited for a low to medium fantasy setting. Adapting it to high or heroic fantasy may require extensive work on your part. 
+The module introduces:
+* The [Arcana](#arcana-arc) attribute.
+* [Magic](#magic) rules.
+* Medieval/fantasy themed [armors](#armor), [shields](#shield-types), [general assets](#list-of-general-assets), [weapons](#weapon-types) and [skills](#lists-of-skills).
 
 # Character
 New in this module, is the attribute [arcana](#arcana-arc), which governs a character's capacity for magic. 
@@ -132,32 +128,14 @@ New in this module, is the attribute [arcana](#arcana-arc), which governs a char
 Supplements to the [core attributes](./core-rules.md#attributes). 
 
 ### Arcana [Arc]
-Governs a character's ability to control and sense magic flow, thus casting magic spells or detecting lingering magic. 
+Governs a character's ability to control and sense magic flow, casting magic spells or detecting lingering magic. 
 
-This is the only attribute that can have a level of 0. Magical ability is innate and cannot be learned. If a character doesn't have a level of at least 1 in this attribute, they will be unable to advance it, at all. A non-mage will remain a non-mage (usually). 
-
-## Health & Exhaustion
-Supplements to specific health and exhaustion. 
-
-### Hit Points (HP)
-[Restoration magic](#restoration-arcawar) can restore all currently missing **HP** of a character, without the need for medical supplies. 
-
-### Condition
-Supplements to specific **conditions**. 
-
-#### Exhausted
-An **exhausted** mage can no longer attempt to cast any magic. 
-
-#### Poisoned
-This **condition** can also be removed with [restoration magic](#restoration-arcawar).
-
-### Scars
-Scars may be removed through successful application of [alteration](#alteration-arcwit) magic. 
+This is the only attribute that can have a level of `0`, meaning playing a mage is a deliberate choice. 
 
 # Magic
-For this supplement, magic is assumed to be a mostly invisible force that runs all throughout, like a magnetosphere. Perhaps it could be called the *Arcanosphere*. Individuals gifted with a sensitivity to this force may learn to manipulate and "shape" it. Thus, magical ability is intuitive. Those born without the gift, cannot learn magic. Of course, you may want to relax this rule, if you prefer anyone should have the chance to learn magic. 
+For this supplement, magic is assumed to be a mostly invisible supernatural force that runs all throughout, like a magnetosphere. Perhaps it could be called the *Arcanosphere*. How magic manifests itself, is up to the world the **GM** is running. Is there a verbal component? Must the mage trace arcane symbols into the air or onto some surface? Are the magical currents visible and glow eerily? This supplement makes no assumptions in this regard. 
 
-Only a character with [Arcana](#arcana-arc) can cast intuitive magic. What kind of magic, depends on the [magic schools](#list-of-magic-schools) the character knows. There are offensive, defensive and manipulative [schools of magic](#list-of-magic-schools). 
+Only a character with [Arcana](#arcana-arc) can cast magic at will. What kind of magic, depends on the [magic schools](#list-of-magic-schools) the character knows. There are offensive, defensive and manipulative [schools of magic](#list-of-magic-schools). 
 
 There may also be magic artifacts that can either cause magical effects on their own, or through character interaction. With such artifacts, it may be possible for non-mages to cast magic. For that, see [runes](#runes) and [scrolls](#magic-scrolls). 
 
@@ -1323,9 +1301,6 @@ The ability to communicate wordlessly, to alter emotions and even issue compelli
 | 4     | Pressing Thought       | 3  | SI * 30'/10m | SI + 2                       | [Hasten](./core-rules.md#hasted) up to **SI** **MST** of choice for **SI** turns of combat or **SI** * 5 seconds out of combat. | The caster suffers +1 [exhaustion](./core-rules.md#exhaustion). |
 | 6     | Quiet Command          | 3  | SI * 30'/10m | Opposed by [wit](./core-rules.md#wit-wit) - SI | Issue a command to another creature, which they feel **strongly** compelled to follow. | The caster is affected, instead. |
 | 7     | Confer Knowledge       | 4  | 3'/1m        | 7 - SI                       | Confer +1 level of a **known skill** to another creature. | The caster loses 1 level in the chosen skill. |
-
-## List of Injuries
-* New description of "Tremors": -1 [Arcana](#arcana-arc); -1 [Agility](./core-rules.md#agility-agi)
 
 ## List of Illnesses
 This list supplements the list of **injuries** of the [core module](./core-rules.md#list-of-injuries). 
