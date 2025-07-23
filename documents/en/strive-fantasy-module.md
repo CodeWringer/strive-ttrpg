@@ -109,7 +109,7 @@
 
 Version 10 (Playtest)
 
-A role-playing game by Nicolas H.
+A role-playing game by Nicolas 'Krubi' H.
 
 # Introduction
 This is the module containing the rules enabling play in a medieval fantasy game world, which includes supernatural monsters and magic. Only the differences and additions to the core rules are included in this document. 
@@ -162,7 +162,7 @@ A mage can fail their [test](./core-rules.md#tests) and thus suffer a [spell-bac
 
 A spell's **maximum intensity** is dictated by the level in the corresponding [magic school skill](#magic-school--school---attribute-). However, the minimum **SI** for a spell cast is **always** `1`. 
 
-When a mage casts magic, **half** (rounded down and minimum `1`) of the [Spell Intensity](#spell-intensity-si) they choose equals the amount of [Arcane Slag](#arcane-slag) that builds up within them. The other half turns into [Arcane Overheat](#arcane-overheat). 
+When a mage casts magic, **one third** (rounded down and minimum `1`) of the [Spell Intensity](#spell-intensity-si) they choose equals the amount of [Arcane Slag](#arcane-slag) that builds up within them. The other half turns into [Arcane Overheat](#arcane-overheat). 
 
 > = A spell cast at **SI** `1` causes `+1` **Arcane Slag** and *no* **Arcane Overheat**. 
 > 
@@ -173,7 +173,7 @@ When a mage casts magic, **half** (rounded down and minimum `1`) of the [Spell I
 ## Arcane Overheat
 Magic takes a toll on the caster's body and mind. As magic currents flow through their body, **Arcane Overheat** and [Arcane Slag](#arcane-slag) build up within them. Too much **Arcane Overheat**, and the mage will suffer various negative effects! 
 
-When a mage casts magic, **half** (rounded down and minimum `1`) of the [Spell Intensity](#spell-intensity-si) they choose equals the amount of [Arcane Slag](#arcane-slag) that builds up within them. The other half turns into [Arcane Overheat](#arcane-overheat). 
+When a mage casts magic, **one third** (rounded down and minimum `1`) of the [Spell Intensity](#spell-intensity-si) they choose equals the amount of [Arcane Slag](#arcane-slag) that builds up within them. The other half turns into [Arcane Overheat](#arcane-overheat). 
 
 > = A spell cast at **SI** `1` causes `+1` **Arcane Slag** and *no* **Arcane Overheat**. 
 > 
@@ -195,7 +195,7 @@ The [Arcana](#arcana-arc) attribute determines several thresholds. If the charac
   * Every time the mage casts a spell, their **Ob** is always increased by `+2`. If they don't achieve at least `3` **hits**, a [Spell-Backfire](#spell-backfire) occurs. 
   * For **all** *other* tests, the mage suffers `-1D`. 
 * **Consuming**: Anything past the point of **Broiling** is **mortally perilous**. 
-  * The mage suffers `1D8 + 2` [Pure damage](./core-rules.md#damage-types) every [Tick](./core-rules.md#ticks). 
+  * Suffer `1D8 + 2` [Pure damage](./core-rules.md#damage-types) every [Tick](./core-rules.md#ticks). At the end of every tick, reduces [Arcane Slag](#arcane-slag) by `-1` point. 
   * **Every** further attempt to cast a spell instantly **fails**. The mage simply cannot cast magic for as long as their **Arcane Overheat** is ***Consuming*** them. That means there is no [Spell-Backfire](#spell-backfire), either. 
   * For **all** *other* tests, the mage suffers `-2D`. 
 
@@ -208,7 +208,7 @@ At the start of every turn, or every `5` seconds outside combat, a mage automati
 
 For every point of **Arcane Slag** that has built up within a character, their base [Arcane Overheat](#arcane-overheat) is increased by the same amount. They cannot reduce their [Arcane Overheat](#arcane-overheat) to less than this amount. 
 
-When a mage casts magic, **half** (rounded down and minimum `1`) of the [Spell Intensity](#spell-intensity-si) they choose equals the amount of [Arcane Slag](#arcane-slag) that builds up within them. The other half turns into [Arcane Overheat](#arcane-overheat). 
+When a mage casts magic, **one third** (rounded down and minimum `1`) of the [Spell Intensity](#spell-intensity-si) they choose equals the amount of [Arcane Slag](#arcane-slag) that builds up within them. The other half turns into [Arcane Overheat](#arcane-overheat). 
 
 > = A spell cast at **SI** `1` causes `+1` **Arcane Slag** and *no* **Arcane Overheat**. 
 > 
@@ -742,7 +742,7 @@ Flexible polearms with a focus on slashing. Examples: halberd, bardiche, poleaxe
 
 | Level | Name                 | AP | **Ob**      | Damage                           | Notes  |
 | ----- | -------------------- | -- | ----------- | -------------------------------- | ------ |
-| 0     | Slash                | 2  | Opposed     | `2D10 + Str` Slashing            | / |
+| 0     | Slash                | 2  | Opposed     | `2D8 + Str` Slashing             | / |
 | 0     | Stab                 | 2  | Opposed     | `2D6 + Agi` Piercing             | / |
 | 1     | Blade Barrier        | 2  | /           | /                                | Whenever any character moves **into** a spot within reach, can attack that character with a **stab** at `Ob + 1` and always force them back `3'/1m`, until the start of your next turn. The attacks cost no additional **AP**. |
 | 2     | Cleave               | 2  | Opposed + 2 | `2D8 + Str` Slashing             | Deals damage to up to two targets adjacent to each other and within reach. |
@@ -755,8 +755,8 @@ Small bludgeoning weapons. Examples: any improvised weapon, any club, any mace
 
 | Level | Name                 | AP | **Ob**      | Damage                           | Notes  |
 | ----- | -------------------- | -- | ----------- | -------------------------------- | ------ |
-| 0     | Smash                | 2  | Opposed     | `1D8 + 1D6 + Str` Bludgeoning    | / |
-| 0     | Knockout Blow        | 2  | Opposed + 1 | `1D6 + 1D4 + Str` Bludgeoning    | +2 [exhaustion](./core-rules.md#exhaustion) to target. |
+| 0     | Smash                | 2  | Opposed     | `2D6 + Str` Bludgeoning          | / |
+| 0     | Knockout Blow        | 2  | Opposed + 1 | `2D6 + Str` Bludgeoning          | If successful, causes `+2` [exhaustion](./core-rules.md#exhaustion) to the target. |
 
 #### Large Crusher (Str/Tough)
 Large bludgeoning weapons with a dedicated *impact zone* on the weapon head which directs more force into the target. Examples: grand-mace, polehammer, two-handed flail
@@ -766,8 +766,8 @@ Large bludgeoning weapons with a dedicated *impact zone* on the weapon head whic
 
 | Level | Name                 | AP | **Ob**      | Damage                           | Notes  |
 | ----- | -------------------- | -- | ----------- | -------------------------------- | ------ |
-| 0     | Smash                | 2  | Opposed     | `1D10 + 1D8 + Str` Bludgeoning   | / |
-| 1     | Mighty Smash         | 2  | Opposed + 2 | `2D10 + Str` Bludgeoning         | Defending against this attack costs 2 [AP](./core-rules.md#action-points-ap) and causes `+1` [exhaustion](./core-rules.md#exhaustion) to the target. |
+| 0     | Smash                | 2  | Opposed     | `1D10 + 4 + Str` Bludgeoning     | / |
+| 1     | Mighty Smash         | 2  | Opposed + 2 | `1D10 + 4 + Str` Bludgeoning     | Defending against this attack costs `2` [AP](./core-rules.md#action-points-ap) and causes `+1` [exhaustion](./core-rules.md#exhaustion) to the target. |
 
 #### Short-Bow (Awar/Awar)
 A short distance ranged weapon, shooting arrows.

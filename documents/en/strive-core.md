@@ -230,7 +230,7 @@
 
 Version 22 (Playtest)
 
-A role-playing game by Nicolas H.
+A role-playing game by Nicolas 'Krubi' H.
 
 # Introduction
 **STRIVE** is a table-top role-playing game (**TTRPG**), requiring a **game master** (**GM**) and at least one **player** to play and at its core, is about **emergent storytelling** and **tactical combat**. Players experience the **evolution** of their characters by defining convictions that **drive** them to action, based on the events they experience. In that way, players also **drive** the story forward and guide the evolution of the world. 
@@ -243,23 +243,25 @@ On the spectrum of *narrative-driven*, *game-y* and *simulationist*, **STRIVE** 
 
 Most rules have a certain degree of vagueness to them. This is at least partially deliberate. The situations that can come up during play are simply too varied and numerous to be possible to completely cover with rules, without requiring epic tomes filled to the brim with highly specific rulings for highly specific situations. Instead, the game relies on the **GM** to arbitrate in most situations. The descriptions in the rules here should serve as a point of orientation for the **GM**. How *they* interpret the rules, is how the rules are to be understood. 
 
-More details about the system:
-* Tests are rolled with a pool of `D6`, against variable target numbers, which determine whether a character succeeds at a particular task. 
-* Player character evolution is baked into the rules. 
-  * Characters have long-term and short-term goals, which drive them onward and which change over time. 
-  * Characters learn and improve their abilities (**attributes** and **skills**) as they are used. Generalist characters benefit from varied knowledge, while specialists enjoy unique abilities. 
-* Role-playing is encouraged by game mechanics. 
-  * A meta-currency, called **fate points** is earned by *players*, based on what they and their character do in a session. 
-  * Characters can help each other in game mechanical ways, encouraging co-operative play. 
-* Combat is a risky affair and requires tactical and strategic thinking, or the readiness to retreat, when things go awry. 
-  * When a character suffers **injuries**, they are in *serious trouble*. 
-  * Recovery from injuries is expected to take time. This implies plenty of down-time for combat-heavy parties, which is time that can be spent on professions, hobbies and scheming. 
-
 ## Tactical Combat
+First of all, STRIVE is **not** a wargame. It is not about coordinating large troop movements, supply lines or chains of command (although you can feature such things in your game if you like). 
 
+Secondly, the game is not *about* tactics, either. However, the combat *is tactical* in the sense that **PC**s stand and move on a grid, act in turns and that actions per turn are limited. Players will need to coordinate what their characters do. They have time to think about their current and next actions. To overserve and learn, what their own character and the other characters in the encounter are capable of. 
+
+And it's the capabilities of characters, that in themselves are a puzzle. There are many options to choose from. There are multiple choices available for deciding *how* a character will move, how they will attack or defend. This also adds another layer of "tactics". 
+
+Lastly, while the game features hit points, it also features injuries. When a character suffers enough hit point loss, an injury is inflicted upon them. And injuries spell *serious trouble* that reduce that character's efficacy. Recovery from injuries is expected to take time. This implies plenty of down-time for combat-heavy parties, which is time that can be spent on professions, hobbies and scheming. 
 
 ## Character Evolution
+Players define long-term and short-term goals for their characters. It is then the **GM**'s job to work those goals into the story. Thus, players directly influence the narrative on a meta-level that is guaranteed to be interesting to them and their character. 
 
+Of course, a **GM**'s capabilities may be limited, either by experience, theme or setting of the game they've set up. And so, they don't *have* to make unreasonable goals be realisticaly achievable. In fact, unrealistic goals are just as acceptable, as achievable ones. 
+
+And regardless of *what* the goals are, they are sure to drive the **PCs** into action. Every goal they pursue, is sure to leave an impact on the characters. What's more, recent and upcoming events of the narrative may also be picked up by **PCs** and become the basis of their goals and affect their personality. In this way, players and **GM** never quite know what direction the **PCs** will develop. They're like a book you start writing from the beginning - not the ending. 
+
+Another aspect of character evolution, is manifested by their **attributes** and the **skills** they possess. These abilities are learned and improved over time. Generalist characters benefit from varied knowledge, while specialists enjoy unique abilities. Over the course of a long-running game, the abilities the characters have learned would be capable of telling stories, themselves. 
+
+Furthermore, a meta-currency, called **Fate Points** is earned by *players*, based on what they and their character do in a session. These allow buying Fate Cards, which give players access to powerful meta-powers that can be enacted at any time, allowing for truly decisive achievements. 
 
 # How to Play
 As **STRIVE** is a **roleplaying game**, there are certain rules to follow and expectations made of both players and **GM**. 
