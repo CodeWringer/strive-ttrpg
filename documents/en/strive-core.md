@@ -2232,11 +2232,9 @@ For every 24 hours that a character is in **withdrawal**, they suffer **-1D** to
 After 72 consecutive hours (= 3 full days) of having being in **withdrawal**, the character breaks free from their addiction, removing this **condition**.
 
 ### Electrified
-An **electrified** character suffers **-1D** for their every [test](#tests) requiring [agility](#agility-agi). That means [attribute](#attributes) and [skills](#skills). 
+An **electrified** character spasms, uncontrollably. They are force moved in a random direction by `3'/1m`. 
 
-* Graded
-* Automatic shrug-off: half (RU) *points* at the end of the turn. 
-* Immediate cancel: After a minute of last suffering one *point* of **electrified** or at the end of combat. 
+* Automatic shrug-off: At the end of the turn. 
 
 ### Exhausted
 An **exhausted** character begins their turn with -2 **AP** and can run at most only half the distance they normally could. [Sprinting](#combat-movement) is impossible. In addition, they suffer a penalty of **-1D** to all [tests](#tests). The number of dice for a [test](#tests) cannot be reduced to less than 1 by this penalty. 
@@ -2266,9 +2264,10 @@ A character who has been made unnaturally **jealous**, will do anything in their
 * Graded
 * Shrug off: 1 *point* with a [self-control](#self-control-toughtough) [test](#tests) with **Ob** `1`. 
 * Immediate cancel: When the character is made [unconscious](#unconscious), the source of the jealousy is removed or the character acquires that which they covet. 
+* Difficult repeats: Whenever shrugging off this Condition, you become **guarded** against it until the start of your next turn, making any attack or effect enacted against you that would cause you to suffer it again `+1` Ob harder for your foes. 
 
 ### Marked
-A Marked character suffers `-1D` to all defense tests and `+50%` damage (RU) from all direct sources (meaning damage from Bleeding, Burning, Poisoned and so on is excluded). 
+A Marked character suffers `-1D` to all defense tests and `+50%` damage (RU) from all **direct** sources (meaning damage from [Bleeding](#bleeding), [Burning](#burning) and [Poisoned](#poisoned) is excluded). 
 
 ### Pacified
 A character who is **pacified**, is unable to *willingly* take any action that would directly or indirectly harm any other creature. Note, the character is not physically unable to cause harm, but they **really** don't want to. 
@@ -2276,6 +2275,7 @@ A character who is **pacified**, is unable to *willingly* take any action that w
 * Graded
 * Shrug off: 1 *point* with a [self-control](#self-control-toughtough) [test](#tests) with **Ob** `1`. 
 * Immediate cancel: When the character is made [unconscious](#unconscious) or the source of the pacification is removed.
+* Difficult repeats: Whenever shrugging off this Condition, you become **guarded** against it until the start of your next turn, making any attack or effect enacted against you that would cause you to suffer it again `+1` Ob harder for your foes. 
 
 ### Poisoned
 A **poisoned** character suffers **1 D4** points of [poison](#damage-types) damage every [Tick](#ticks). 
@@ -2302,8 +2302,8 @@ This **condition** is usually tied to some condition, before it is removed. If t
 ### Stunned
 A **stunned** character is unable to act, at all. During combat, their turn is skipped. 
 
-* Graded
 * Automatic shrug-off: 1 *point* at the end of the turn. 
+* Difficult repeats: Whenever shrugging off this Condition, you become **guarded** against it until the start of your next turn, making any attack or effect enacted against you that would cause you to suffer it again `+1` Ob harder for your foes. 
 
 ### Terrified
 A **terrified** character suffers **-2D** to defense tests and **has to** flee from whatever it is that terrified them, until they can no longer perceive it. 
@@ -2311,9 +2311,12 @@ A **terrified** character suffers **-2D** to defense tests and **has to** flee f
 * Graded
 * Shrug off: 1 *point* with a [self-control](#self-control-toughtough) [test](#tests) with **Ob** `1`. 
 * Immediate cancel: When the character is made [unconscious](#unconscious), the source of terror is removed or the character can no longer perceive the source of terror in any way for a short time (1-2 turns or 5-10 seconds).
+* Difficult repeats: Whenever shrugging off this Condition, you become **guarded** against it until the start of your next turn, making any attack or effect enacted against you that would cause you to suffer it again `+1` Ob harder for your foes. 
 
 ### Unconscious
 An **unconscious** character is unable to act and is unaware of their surroundings. 
+
+* Difficult repeats: Whenever shrugging off this Condition, you become **guarded** against it until the start of your next turn, making any attack or effect enacted against you that would cause you to suffer it again `+1` Ob harder for your foes. 
 
 ## List of Injuries
 How many times a specific type of **injury** can be suffered, can be limited. In the table below, the *limit* is the maximum number of times the **injury** can be suffered by the same character. If there is a slash (/), there is no limit. If a roll would result in an already maxed out **injury**, pick the next **injury** below it, instead or roll again. 
