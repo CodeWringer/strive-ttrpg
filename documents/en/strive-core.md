@@ -95,6 +95,8 @@
   - [Action Points (AP)](#action-points-ap)
     - [Action Point Saving](#action-point-saving)
   - [Combat Movement](#combat-movement)
+    - [Forced Movement](#forced-movement)
+    - [Gravity Hurts](#gravity-hurts)
     - [Disengage](#disengage)
     - [Flee Combat](#flee-combat)
     - [Push Through](#push-through)
@@ -1377,9 +1379,25 @@ It may be possible to go past this limit via some [expertises](#expertise) or [b
 ## Combat Movement
 Under normal circumstances, a character (an average human) can move up to `12'/4m` (= 4 fields on a grid) per **AP** spent. In **difficult terrain**, the distance moved per **AP** is half that, at `6'/2m` (= 2 fields on a grid). **Difficult terrain** is any space that slows movement, but does not prevent it outright. Examples would be waist-high water, a surface of glue or a slowing force field. 
 
-It is also possible to **sprint**, increasing the distance one can move per **AP** spent, at the cost of `1` point of [exhaustion](#exhaustion) for every **AP** spent **sprinting**. The movement distance is increased by `3'/1m` for every level in [sprinting speed](#sprinting-speed), per **AP**. 
+It is also possible to **sprint**, increasing the distance one can move per **AP** spent, at the cost of `1` point of [exhaustion](#exhaustion) for every **AP** spent **sprinting**. The movement distance is increased by a character's [sprinting speed](#sprinting-speed), per **AP**. 
 
 > A character with a sprinting speed of `3` can increase their movement distance to `21'7m`, at the cost of `1` AP and `1` point of exhaustion. 
+
+### Forced Movement
+There are abilities and circumstances that can force a character to be moved against their will. When this happens, the character in question does not spend any [AP](#action-points-ap) on the movement, as they didn't initiate it. 
+
+If a forced movement ends abruptly, meaning before the full distance to move was reached, for example by slamming into a wall, then this causes `N D6` points of bludgeoning damage, where *N* is the remaining movement (in `3'/1m` increments) that could not be reached. 
+
+> A character is thrown with enough force to move them `15'/5m`, but a wall stops them short of reaching that distance, after they were moved `6'/2m`. The remainder of `9'/3m` causes them to suffer `3 D6` points of bludgeoning damage, as they slam into the wall!
+
+If a character slams into another when force moved, they both suffer half of the damage (RU). 
+
+### Gravity Hurts
+When a character falls more than `9'/3m` and impacts with the ground, then they suffer `N * 6` points of bludgeoning damage, where *N* is the number of `15'/5m` increments that they fell. The damage that is suffered may be reduced with an [Acrobatics](#acrobatics-agistr) test. Every **hit** achieved, reduces the damage by `D4` points. 
+
+> A character falls of a suspension bridge, down a shallow ravine. They fall for `48'16m`. Upon impacting the ground, the would suffer `4 * 6 = 24` points of bludgeoning damage. They try to dampen the impact with an Acrobatics test and achieve `2` hits, which allow them to ignore `2D4` points of bludgeoning damage from the fall. They roll a `2` and a `3`, meaning they reduce the damage by `5` points. As a result, they suffer only `19` points of bludgeoning damage. 
+
+> A character is shoved down a ditch and falls `12'/4m`. This is more than the minimum, and they will suffer `1 * 6 = 6` points of bludgeoning damage upon impact, unless they can reduce that amount with an Acrobatics test. 
 
 ### Disengage
 It is possible to move out of an enemy's [Range of Opportunity](#attacks-of-opportunity) without provoking an [Attack of Opportunity](#attacks-of-opportunity). This action costs 2 [AP](#action-points-ap) and the disengaging character **must** move in a direction that will get them out of the [Range of Opportunity](#attacks-of-opportunity) the fastest and safest, as far as 1 **AP** of movement would get them. 
