@@ -45,7 +45,7 @@ As the **GM**, you are the one person at the table playing a slightly different 
 
 You're the host of the game. This means you'll have to organize everything. Invite players or make a post detailling the game you want to host, set the time and place and interview players who show interest. 
 
-You prepare maps, **NPC**s, stories and plot hooks. You involve the **PC**s in the world, offer them incentives to act and feed their [drivers](./core-rules.md#personality). 
+You prepare maps, **NPC**s, stories and plot hooks. You involve the **PC**s in the world, offer them incentives to act and feed their [drivers](./strive-core.md#personality). 
 
 You moderate and mediate. When there is conflict between players, you help with reconciliation. You ensure every player gets a chance to speak and ensure players are comfortable being at your table. Ask for and hear their feedback. Criticism is a chance to improve. 
 
@@ -142,7 +142,7 @@ It is important you only correct them on *crucial* plot points, which they reall
 In fact, you may even correct some of the details of how events *actually* played out, based on what your players re-tell. This is best done silently. No need to encourage *meta-gaming*, which has your players intentionally recapping the last session incorrectly, in a way to make you change details in their characters' favor. 
 
 ### Personality & Driver Adjustments
-After a recap of the last session, players should have a basis from which to work new [drivers](./core-rules.md#personality) into their character and to shift [personality traits](./core-rules.md#personality-traits). Allow them a few minutes to think and discuss. 
+After a recap of the last session, players should have a basis from which to work new [drivers](./strive-core.md#personality) into their character and to shift [personality traits](./strive-core.md#personality-traits). Allow them a few minutes to think and discuss. 
 
 Once everyone has their characters figured out, have everyone, one by one, read **drivers** and personality changes out aloud. There are two reasons to do this:
 1. The other players can know, if an aspiration targets their character. So if a **PC** (player) starts acting odd towards another player (their **PC**), that player knows it's part of the role-play and not directed towards them as a person. <br>
