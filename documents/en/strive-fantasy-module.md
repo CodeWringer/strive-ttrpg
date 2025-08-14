@@ -1118,25 +1118,27 @@ The skills listed in this chapter cannot be learned *by just anyone*. Special re
 #### Psionics (Arc/Wit)
 A psionic awareness grants access to supernatural abilities beyond those of mere magics. See also [The Veil](#the-veil). 
 
+The psion may choose how much they wish to open up to The Veil. This is represented by their Openness, abbreviated as **OPN**. The OPN they choose may be at most their level in Psionics. 
+
 * Obvious: The psion's eyes glow with the inscrutable light of the stars, when they use their psionic abilities.
 * [Prerequisites](./core-rules.md#specialization-skills): 
   * Wit 5 OR innate.
   * Arcana 5 OR innate.
   * An event that causes a psychic awakening. Consult your **GM**. 
 
-| Level | Name                 | AP | Distance        | Ob                              | Effect(s)                      |
-| ----- | -------------------- | -- | --------------- | ------------------------------- | ------------------------------ |
-| 0     | Emotional Connection | 1  | `OPN * 30'/10m` | Opposed by `Self-Control - OPN` | Read and/or alter another creature's emotional state. |
-| 0     | Telekinesis          | 2  | `OPN * 15'/5m`  | Opposed by `Self-Control - OPN` | Move a **ST** at great velocity (if desired), which allows it to receive and deal `SI D4` **variant** (depending on the type of object) damage upon impact. |
-| 0     | Telepathy            | 1  | `OPN * 45'/15m` | Opposed by `Self-Control - OPN` | **Concentration**: Communicate wordlessly with `OPN` targets. Language barriers do not apply to this form of communication. |
-| 0     | Slow Down            | 2  | `OPN * 18'/6m`  | `OPN`                           | **Concentration**: Up to `OPN` targets are slowed. They are pushed back one rank in the initiative order and they can move `3'/1m` less per **AP** spent! |
-| 1     | Repulse              | 1  | `60'/20m`       | `OPN`                           | **Reaction**: Upon having been attacked successfully, repulse your attacker psionically. They are pushed back `OPN * 3'/1m`. |
-| 1     | Levitate             | 1  | `OPN * 18'/6m`  | `OPN`                           | **Concentration**: Cause yourself or one other **ST** of choice, within *distance* to levitate up to `OPN * 18'/6m` above the ground. |
-| 1     | "Vanish"             | 1  | `OPN * 18'/6m`  | Opposed by `Self-Control - OPN` | **Concentration**: Cause yourself or one other **ST** of choice, within *distance* to become invisible to `OPN` targets of choice, within distance. |
-| 3     | Veil Hop             | 3  | `OPN * 9'/3m`   | `OPN`                           | Cause a dimensional rift to open and swallow a **ST** of choice, which another rift releases at a location of your choosing, a moment later. |
-| 3     | Join The Veil        | 2  | `OPN * 9'/3m`   | Opposed by `Self-Control - OPN` | Shroud a **ST** in the inscrutable darkness of The Beyond. They become [Terrified](strive-core.md#terrified) of the psion and [Marked](./strive-core.md#marked). |
-| 4     | Try Again            | 1  | /               | /                               | **Reaction**: When you or someone else resolves a test, create a minute overlap of timelines, and displace a snippet of your own timeline with a hopefully better one. You or they must now repeat the test. The new result is final. This can only be attempted once for a given test. |
-| 4     | Memory Re-write      | 3  | `OPN * 9'/3m`   | Opposed by `Self-Control - OPN` | Re-write the memory of a **ST**. Make them forget, or implant in them a memory they never had. |
+| Level | Name                 | AP | Distance        | Ob                              | Veil Degradation | Effect(s)                      |
+| ----- | -------------------- | -- | --------------- | ------------------------------- | ---------------- | ------------------------------ |
+| 0     | Emotional Connection | 1  | `OPN * 30'/10m` | Opposed by `Self-Control - OPN` | `OPN * 2`        | Read and/or alter another creature's emotional state. |
+| 0     | Telekinesis          | 2  | `OPN * 15'/5m`  | Opposed by `Self-Control - OPN` | `OPN * 2`        | Force move a **ST** by `OPN * 6'/2m`. |
+| 0     | Telepathy            | 1  | `OPN * 45'/15m` | `OPN`                           | `OPN * 2`        | **Concentration**: Communicate wordlessly with `OPN` targets. Language barriers do not apply to this form of communication. |
+| 0     | Slow Down            | 2  | `OPN * 18'/6m`  | `OPN`                           | `OPN * 2`        | **Concentration**: Up to `OPN` targets are slowed. They move `6'/2m` less per **AP** spent! |
+| 1     | Repulse              | 1  | `60'/20m`       | `OPN`                           | `OPN * 3`        | **Reaction**: Upon having been attacked successfully, repulse your attacker psionically. They are force moved backwards by `OPN * 6'/2m`. |
+| 1     | Levitate             | 1  | `OPN * 18'/6m`  | `OPN`                           | `OPN * 3`        | **Concentration**: Cause yourself or one other **ST** of choice, within *distance* to levitate up to `OPN * 18'/6m` above the ground. |
+| 1     | "Vanish"             | 1  | `OPN * 18'/6m`  | `OPN`                           | `OPN * 4`        | **Concentration**: Cause up to `OPN` targets of choice, within *distance* to become *unperceivable* to `OPN` other targets of choice, within distance. |
+| 3     | Veil Hop             | 3  | `OPN * 9'/3m`   | `OPN`                           | `OPN * 5`        | Cause a dimensional rift to open and swallow a **ST** of choice, which another rift releases at a location of your choosing, a moment later. |
+| 3     | Join The Veil        | 2  | `OPN * 9'/3m`   | Opposed by `Self-Control - OPN` | `OPN * 3`        | Shroud a **ST** in the inscrutable darkness of The Beyond. They become [Terrified](strive-core.md#terrified) of the psion and [Marked](./strive-core.md#marked). |
+| 4     | Try Again            | 1  | /               | /                               | `25`             | **Reaction**: When you or someone else resolves a test, create a minute overlap of timelines, and displace a snippet of your own timeline with a hopefully better one. You or they must now repeat the test. The new result is final. This can only be attempted once for a given test. |
+| 4     | Memory Re-write      | 3  | `OPN * 9'/3m`   | Opposed by `Self-Control - OPN` | `OPN * 3`        | Re-write the memory of a **ST**. Make them forget, or implant in them a memory they never had. |
 
 ## List of Magic Schools
 The capabilities of the various magic schools are described by the [expertise](./core-rules.md#expertise) associated with each of them. The concrete effects are kept vague on purpose, to allow a certain freedom when choosing how the magic is expressed. But the intensity or strength of a casting is tied to the level of the [magic school skill](#magic-school--school---attribute-). 
