@@ -428,10 +428,14 @@ As The Veil degrades, the very air begins to hum and buzz. There are voices on t
 
 | Veil Degradation | Effect                              | 
 | ---------------- | ----------------------------------- |
-| 0-10             | Doubts that aren't the psion's own gnaw at their mind. They suffer `-1D` for their next test. |
-| 11-30            | Every creature in the scene is moved in a random direction by `6'/2m`. |
-| 31-50            | Every creature in the scene is suffers a random [illness](strive-core.md#illness). |
+| 0-10             | Foreign doubts gnaw at the mind. All psions in the scene suffer `-1D` for their next test. |
+| 11-20            | All psions in the scene are overcome with terror and rendered [Terrified](./strive-core.md#terrified). |
+| 21-30            | Every creature in the scene is force moved in a random direction by `15'/5m`. |
+| 31-40            | All psions in the scene suffer `+3` [Arcane Slag](#arcane-slag)! |
+| 41-50            | Every creature in the scene suffers a random [illness](strive-core.md#illness). |
 | 51-60            | Every creature in the scene suffers `+1` [Bleeding](strive-core.md#bleeding). |
+| 61-70            | All characters in the scene suffer `+3` [Arcane Slag](#arcane-slag)! |
+| 71-80            | Time reverses momentarily. The current round's initiative order reverses. Or outside combat, the last few minutes play back in reverse. |
 | 81-90            | The flesh is malleable. All creatures in the scene suffer a random mutation. Or they could resist the transformation, and instead suffer `20` [pure](strive-core.md#damage-types) damage and `+2` [Bleeding](strive-core.md#bleeding)! |
 | 91-100           | A *thing* from beyond The Veil is pulled through to your world. As a **GM**, see [Veil Entities](./strive-fantasy-game-masters-resource.md#veil-entities). |
 
