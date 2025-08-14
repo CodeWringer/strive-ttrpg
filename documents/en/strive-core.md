@@ -206,6 +206,7 @@
     - [Grappled](#grappled)
     - [Hasted](#hasted)
     - [Jealous](#jealous)
+    - [Marked](#marked)
     - [Pacified](#pacified)
     - [Poisoned](#poisoned)
     - [Prone](#prone)
@@ -2257,6 +2258,9 @@ A character who has been made unnaturally **jealous**, will do anything in their
 * Graded
 * Shrug off: 1 *point* with a [self-control](#self-control-toughtough) [test](#tests) with **Ob** `1`. 
 * Immediate cancel: When the character is made [unconscious](#unconscious), the source of the jealousy is removed or the character acquires that which they covet. 
+
+### Marked
+A Marked character suffers `-1D` to all defense tests and `+50%` damage (RU) from all direct sources (meaning damage from Bleeding, Burning, Poisoned and so on is excluded). 
 
 ### Pacified
 A character who is **pacified**, is unable to *willingly* take any action that would directly or indirectly harm any other creature. Note, the character is not physically unable to cause harm, but they **really** don't want to. 
