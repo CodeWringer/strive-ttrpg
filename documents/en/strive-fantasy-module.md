@@ -96,6 +96,8 @@
     - [Aeromancy (Arc/Agi)](#aeromancy-arcagi)
     - [Artificing (Arc/Wit)](#artificing-arcwit)
     - [Alteration (Arc/Wit)](#alteration-arcwit)
+      - [Werewolf-Shape](#werewolf-shape)
+      - [Werebear-Shape](#werebear-shape)
     - [Cryomancy (Arc/Arc)](#cryomancy-arcarc)
     - [Electromancy (Agi/Arc)](#electromancy-agiarc)
     - [Hexing (Arc/Arc)](#hexing-arcarc)
@@ -1189,15 +1191,37 @@ The setting of arcane traps and creation of arcane artifacts and materials.
 | 1     | Detonate Slag        | 2  | `18'/6m + (SI * 3'/1m)` | `SI`                           | Remove `SI` points of [Arcane Slag](#arcane-slag) from a **ST**, within reach and cause them to explode with arcane energy, dealing `N D4` points of pure damage, where *N* is the number of [Arcane Slag](#arcane-slag) points that were removed. | Instead of the intended target, your own [Arcane Slag](#arcane-slag) detonates! |
 
 ### Alteration (Arc/Wit)
-The alteration of physical things, to change their shape and purpose. 
+The alteration of physical things, to change their shape and purpose. And the ability to transform yourself, temporarily. 
 
-Note that altering the shape of creatures poses a particular challenge. Unless if the test is a **complete success**, the target creature may mutate, horribly. When failing a test, consult the [list of mutations](./core-rules.md#list-of-mutations), to determine the type of mutation. 
+| Level | Name                 | AP | Distance       | Ob              | Effect(s)                      | Backfire Effect(s) |
+| ----- | -------------------- | -- | -------------- | --------------- | ------------------------------ | ------------------ |
+| 0     | Shape Earth          | 2  | `SI * 9'/3m`   | `SI`            | Cause earth in a `SI * 6'/2m` radius, at a spot of the mage's choosing to change shape, as the mage wills it. The shape cannot exceed the radius in size. Could be used to create or tear down an earthen wall, close up a door way, quickly create a trench and so on. | Instead of the intended shape, the earth takes on an "inverse" form of what they want. If they wanted a wall, they get a trench. If they wanted a stair leading up, they get one leading down, and so on. |
+| 1     | Arm Blade            | 2  | /              | `SI`            | **Concentration**: Change your arm into a sharp blade of bone, in a disgusting and painful transformation. All unarmed attacks may now deal an additional `SI * 2` Slashing damage. | You suffer a random mutation, instead! |
+| 1     | Wings                | 2  | /              | `SI`            | **Concentration**: Grow wings! You may now fly up to `SI * 30'/10m` high at a speed of `SI * 6'/2m`. | You suffer a random mutation, instead! |
+| 1     | Feel the Shape       | 1  | `SI * 60'/20m` | `SI`            | Place a hand to a surface. You can feel the faintest vibrations and reverberations within and beneath. Can be used to detect underground caves and structures and imprecisely detect the movements of creatures along a given surface, such as the ground. | / |
+| 2     | Alter Shape          | 3  | `3'/1m`        | `SI`            | A **ST** (object or creature) is altered as the mage desires, permanently. The Ob depends on the complexity and size of the re-shaping. Ob `2` for simple and small, `3` for tricky and medium, `4` for complex and large and `5+` for very complex and very large alterations. Consult your **GM**! | Instead of the intended alteration, a random mutation occurs! |
+| 2     | Aspect of the Bull   | 2  | /              | `SI`            | **Concentration**: Grow bull horns and bestial legs! You may now run at a speed of `12'/4m + (SI * 3'/1m)`. You may now charge at targets and gore them for `SI D6` points of Piercing damage, but you must run at least `12'/4m` in order to make use of this ability. | You suffer a random mutation, instead! |
+| 4     | Wereshape            | 3  | /              | `4`             | **Concentration**: Assume a were-beast shape. See the list below. Your attributes will be **modified** as noted on each were-shape. | Instead of transforming, your body goes into shock! You are [Stunned](./strive-core.md#stunned) for `1` round! |
 
-Creatures can resist the change with [toughness](./core-rules.md#toughness-tough). Inanimate objects don't resist. 
+#### Werewolf-Shape
+A bipedal wolf armed with wicked claws and deadly teeth, driven by wit and a thirst for blood!
 
-| Level | Name                 | AP | Distance | Ob                           | Effect(s)                      | Backfire Effect(s) |
-| ----- | -------------------- | -- | -------- | ---------------------------- | ------------------------------ | ------------------ |
-| 0     | Alter Shape          | 3  | 3'/1m    | Opposed + SI                 | A **ST** (object or creature) is altered as the mage desires. The complexity and size of the re-shaping depends on the **SI**. 1-3 are for simple and small, 4-6 for tricky and medium, 7-8 for complex and large and 9+ for very complex and very large alterations. Consult your **GM**! | The intended alteration occurs only on the caster. |
+Attributes: `+2` Agi, `+4` Str, `+2` Tough, `-2` Wit
+
+| Skill                | Level | AP | **Ob**      | Damage                           | Notes  |
+| -------------------- | ----- | -- | ----------- | -------------------------------- | ------ |
+| Bite                 | 3     | 2  | `Opposed`   | `1D6 + Str` Piercing             | Tear into a victim with wicked fangs! Causes `+1` [Bleeding](./strive-core.md#bleeding)! |
+| Rend                 | 4     | 2  | `Opposed`   | `1D10 + Str` Slashing            | Tear a victim to shreds! Causes `+1` [Bleeding](./strive-core.md#bleeding)! |
+
+#### Werebear-Shape
+A bipedal bear armed with massive claws and protected by a mass of muscle!
+
+Attributes: `-1` Agi, `+4` Str, `+5` Tough, `-2` Wit
+
+| Skill                | Level | AP | **Ob**        | Damage                           | Notes  |
+| -------------------- | ----- | -- | ------------- | -------------------------------- | ------ |
+| Rend                 | 3     | 2  | `Opposed`     | `1D10 + Str` Slashing            | Tear a victim to shreds! |
+| Bear-Hug             | 3     | 2  | `Opposed + 1` | `Str * 2` Bludgeoning            | Squeeze the life out of a victim! If successful, the victim is considered [Grappled](./strive-core.md#grappled)! |
 
 ### Cryomancy (Arc/Arc)
 The summoning and control of ice. Cryomancer's can freeze things, so they're heavier and harder to break. 
