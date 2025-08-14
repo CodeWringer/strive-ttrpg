@@ -131,7 +131,7 @@ There is a [compendium document](./strive-fantasy-game-masters-resource.md) rese
 New in this module, is the attribute [arcana](#arcana-arc), which governs a character's capacity for magic. 
 
 ## Attributes
-Supplements to the [core attributes](./core-rules.md#attributes). 
+Supplements to the [core attributes](./strive-core.md#attributes). 
 
 ### Arcana [Arc]
 Governs a character's ability to control and sense magic flow, casting magic spells or detecting lingering magic. 
@@ -145,20 +145,20 @@ Only a character with [Arcana](#arcana-arc) can cast magic at will. What kind of
 
 There may also be magic artifacts that can either cause magical effects on their own, or through character interaction. With such artifacts, it may be possible for non-mages to cast magic. For that, see [runes](#runes) and [scrolls](#magic-scrolls). 
 
-A *magic spell* is the intended effect of using a [magic school's](#magic-school--school---attribute-) [Expertises](./core-rules.md#expertise). Using such an Expertise is also referred to as *casting magic*, *casting a spell* or other similar wordings. In mechanical terms, the [Expertises](./core-rules.md#expertise) are the *spells* of a [school of magic](#list-of-magic-schools).
+A *magic spell* is the intended effect of using a [magic school's](#magic-school--school---attribute-) [Expertises](./strive-core.md#expertise). Using such an Expertise is also referred to as *casting magic*, *casting a spell* or other similar wordings. In mechanical terms, the [Expertises](./strive-core.md#expertise) are the *spells* of a [school of magic](#list-of-magic-schools).
 
-A mage can fail their [test](./core-rules.md#tests) and thus suffer a [spell-backfire](#spell-backfire), which usually results in negative effects for the caster, instead of their intended target. 
+A mage can fail their [test](./strive-core.md#tests) and thus suffer a [spell-backfire](#spell-backfire), which usually results in negative effects for the caster, instead of their intended target. 
 
 [Spell Intensity](#spell-intensity-si) sets the strength of a magic spell and how much [Arcane Slag](#arcane-slag) and [Arcane Overheat](#arcane-overheat) it causes. 
 
 ## Testing Magic
-[Testing](./core-rules.md#tests) a [magic school skill](#magic-school--school---attribute-), in order to cast a *magic spell*, works as follows:
+[Testing](./strive-core.md#tests) a [magic school skill](#magic-school--school---attribute-), in order to cast a *magic spell*, works as follows:
 
 1. Determine the [Spell Intensity](#spell-intensity-si) (SI) to use. 
    1. The level in the corresponding [magic school skill](#magic-school--school---attribute-) determines the maximum [SI](#spell-intensity-si) that can be picked. 
    1. Note that any spell **must** be cast with a [SI](#spell-intensity-si) of *at least* `1`. This includes **learning skills**. 
 2. Determine the test's **Ob**. 
-   1. Some spells require an [opposed test](./core-rules.md#opposed-test), while others impose a fixed **Ob** and yet others have a dynamic **Ob**, based on some formula. 
+   1. Some spells require an [opposed test](./strive-core.md#opposed-test), while others impose a fixed **Ob** and yet others have a dynamic **Ob**, based on some formula. 
 3. The dice for the test are rolled. 
 4. Convert the [SI](#spell-intensity-si) to [Arcane Slag](#arcane-slag) and [Arcane Overheat](#arcane-overheat). 
    1. If this brings the mage to a new [Arcane Overheat](#arcane-overheat) threshold, its effects now apply. 
@@ -201,13 +201,13 @@ The [Arcana](#arcana-arc) attribute determines several thresholds. If the charac
   * Every time the mage casts a spell, their **Ob** is always increased by `+2`. If they don't achieve at least `3` **hits**, a [Spell-Backfire](#spell-backfire) occurs. 
   * For **all** *other* tests, the mage suffers `-1D`. 
 * **Consuming**: Anything past the point of **Broiling** is **mortally perilous**. 
-  * Suffer `1D8 + 2` [Pure damage](./core-rules.md#damage-types) every [Tick](./core-rules.md#ticks). At the end of every tick, reduces [Arcane Slag](#arcane-slag) by `-1` point. 
+  * Suffer `1D8 + 2` [Pure damage](./strive-core.md#damage-types) every [Tick](./strive-core.md#ticks). At the end of every tick, reduces [Arcane Slag](#arcane-slag) by `-1` point. 
   * **Every** further attempt to cast a spell instantly **fails**. The mage simply cannot cast magic for as long as their **Arcane Overheat** is ***Consuming*** them. That means there is no [Spell-Backfire](#spell-backfire), either. 
   * For **all** *other* tests, the mage suffers `-2D`. 
 
 > The thresholds of a mage with an Arcana of `3` are: `0-3` Cold, `4-6` Smoldering, `7-9` Broiling and `10+` Consuming. 
 
-At the start of every turn, or every `5` seconds outside combat, a mage automatically reduces their **Arcane Overheat** by one point. They can actively **vent** their **Arcane Overheat** further - one point per [AP](./core-rules.md#action-points-ap) spent. 
+At the start of every turn, or every `5` seconds outside combat, a mage automatically reduces their **Arcane Overheat** by one point. They can actively **vent** their **Arcane Overheat** further - one point per [AP](./strive-core.md#action-points-ap) spent. 
 
 ## Arcane Slag
 **Arcane Slag** is the build-up of residual magical currents within the character's body. You can think of these like residual radioactive particles, that only slowly escape the body, albeit less immediately harmful. 
@@ -229,7 +229,7 @@ When a mage casts magic, **one third** (RD and minimum `1`) of the [Spell Intens
 ## Spell-Backfire
 A **spell-backfire** causes a spell to affect the caster, instead of their intended target. The mage suffers the negative effects of the spell.
 
-In case of an [aoe](./core-rules.md#area-of-effect-aoe) attack spell, anyone or anything nearby the mage, in range, is also affected. Additionally, the mage suffers one point of [exhaustion](./core-rules.md#exhaustion). 
+In case of an [aoe](./strive-core.md#area-of-effect-aoe) attack spell, anyone or anything nearby the mage, in range, is also affected. Additionally, the mage suffers `+1` point of [exhaustion](./strive-core.md#exhaustion). 
 
 It is possible for another nearby mage to prevent the **spell-backfire**, if they [negate the spell](#magic-negation) as a **reaction**. This also applies even if the spell wouldn't affect them. If the other mage's attempt to negate the spell *also* **backfires**, then both of the mages suffer the spell's effect at one greater [intensity](#spell-intensity-si) level. 
 
@@ -242,10 +242,10 @@ Some magic can be upheld for as long as the casting mage *concentrates* on their
 
 Under normal circumstances, a mage can only upkeep **one** concentration spell at a time. 
 
-Concentration can be broken! Concentration is automatically broken, if the mage is incapacitated, for example by having been knocked unconscious. Otherwise, whenever the mage is *forced* to roll a [test](./core-rules.md#tests), they must **also** succeed another test of their concentration spell's magic school, at the same **Ob** as the test they were just forced to roll. 
+Concentration can be broken! Concentration is automatically broken, if the mage is incapacitated, for example by having been knocked unconscious. Otherwise, whenever the mage is *forced* to roll a [test](./strive-core.md#tests), they must **also** succeed another test of their concentration spell's magic school, at the same **Ob** as the test they were just forced to roll. 
 
 ## Magic Negation
-It is possible to negate a magical attack entirely, by using the same **school of magic** **skill** and achieving more **hits**, than the attacker. The defender has to perform a [test](#testing-magic) of the same magic school, at the **Ob** equal to the number of **hits + 1** the attacker achieved. The defender does not get to use a [expertise](./core-rules.md#expertise) of the magic school in question. This is a purely defensive action, which benefits everyone who might be hit with the spell of the attacker, as no one will be hit, if the defense is successful. 
+It is possible to negate a magical attack entirely, by using the same **school of magic** **skill** and achieving more **hits**, than the attacker. The defender has to perform a [test](#testing-magic) of the same magic school, at the **Ob** equal to the number of **hits + 1** the attacker achieved. The defender does not get to use a [expertise](./strive-core.md#expertise) of the magic school in question. This is a purely defensive action, which benefits everyone who might be hit with the spell of the attacker, as no one will be hit, if the defense is successful. 
 
 If the defense fails, the full effect is applied. If the defense attempt causes a [spell-backfire](#spell-backfire) on the defender, they suffer the attacker's spell at one greater [intensity](#spell-intensity-si) level. 
 
@@ -254,7 +254,7 @@ If the defense fails, the full effect is applied. If the defense attempt causes 
 ## Protection From Magic
 Armor made from [Ambersteel](#ambersteel) can reduce the damage suffered through magical sources and reduce the [SI](#spell-intensity-si) of non-damaging spells. 
 
-The [quality](./core-rules.md#crafting) of an armor or shield determines how much it protects the wearer. See [ambersmithing](#ambersmithing-strwit) for the specific numbers. 
+The [quality](./strive-core.md#crafting) of an armor or shield determines how much it protects the wearer. See [ambersmithing](#ambersmithing-strwit) for the specific numbers. 
 
 Damage from magical sources is reduced by the quality level + a number of dice. Non-damaging spells have their [SI](#spell-intensity-si) reduced by *only* the quality level. 
 
@@ -277,7 +277,7 @@ Its surface is unnaturally smooth and covered in a fine, iridescent shine. Under
 
 **Abyssalite** is a hard and brittle mineral, prone to shattering if too much force is applied. This makes it difficult to shape. It is also fairly heavy, which makes it difficult to carry. 
 
-A fist-sized **Abyssalite** chunk has a [bulk](./core-rules.md#carrying-capacity) of 2 and grants one greater level in the respective [school of magic](#magic-school--school---attribute-), without causing any additional [Arcane Overheat](#arcane-overheat). In order to use the **Abyssalite**, the caster **must** be touching it. 
+A fist-sized **Abyssalite** chunk has a [bulk](./strive-core.md#carrying-capacity) of 2 and grants one greater level in the respective [school of magic](#magic-school--school---attribute-), without causing any additional [Arcane Overheat](#arcane-overheat). In order to use the **Abyssalite**, the caster **must** be touching it. 
 
 ### Amberite
 As magic is amplified by [Abyssalite](#abyssalite), its antithesis is called **Amberite**, a metal which dulls the effects of magic and slows any magic flow nearby it. The material is also known to affect magic creatures and can cause great pain in magic-users. 
@@ -290,7 +290,7 @@ It only occurs naturally in a few select places in the world, where the ground o
 
 Prolonged exposure to **Amberite** can cause severe ill-effects with nausea and migranes being common symptoms. 
 
-A fist-sized **Amberite** chunk is fairly heavy, with a [bulk](./core-rules.md#carrying-capacity) of 3. 
+A fist-sized **Amberite** chunk is fairly heavy, with a [bulk](./strive-core.md#carrying-capacity) of 3. 
 
 ### Ambersteel
 **Ambersteel** is a strictly anti-magic material. It should enjoy great attention in any fantasy world, where magic is a real and recognizable force. Magic is powerful and fearsome and thus, if not under control, can threaten to cause great pain and destruction. **Ambersteel** dampens that power and puts shackles on it. 
@@ -299,7 +299,7 @@ A fist-sized **Amberite** chunk is fairly heavy, with a [bulk](./core-rules.md#c
 
 Due to the length of the process and the difficulty in keeping the right temperature, smiths capable of creating **Ambersteel** are rare. 
 
-**Ambersteel** is also a fairly heavy material, albeit slightly lighter than [Amberite](#amberite). A fist-sized chunk has a [bulk](./core-rules.md#carrying-capacity) of 2. Weapons, shields and armor made from this material are +1 [bulkier](./core-rules.md#carrying-capacity). 
+**Ambersteel** is also a fairly heavy material, albeit slightly lighter than [Amberite](#amberite). A fist-sized chunk has a [bulk](./strive-core.md#carrying-capacity) of 2. Weapons, shields and armor made from this material are +1 [bulkier](./strive-core.md#carrying-capacity). 
 
 ### Arcane Engine
 A man-sized device that can channel and direct the power of a [Malevite Orb](#malevite) or [rune](#runes). Can be activated through [rune-using](#rune-using-agiwit). 
@@ -326,7 +326,7 @@ It also takes great skill to carve **runes**, as each **rune's** shape and compl
 
 Due to how **runes** are always magically charged, they cannot be in the vicinity of any other **runes**. This works a bit like how magnets with the same polarity repulse each other, but a lot more dangerous. This condition applies regardless of the type of magic each of the **runes** hold. If two **runes** are brought to a distance of `60'/20m` or less to each other, they begin to glow, hum and rumble, as if to warn their bearers. Should they be brought to a distance of `45'/15m` or less to each other, they both discharge the magic they hold and repulse each other. This means anyone immediately nearby suffers `3D6` **Bludgeoning** damage. The **runes** are flung away from each other far enough to be at least `63'/21m` apart. *Also*, the **runes** may be **destroyed** in the process. Roll a `D6` for each of the **runes** - if the result is a `1` or `2`, the **rune** is **destroyed**! 
 
-It may be possible to circumvent this repulsion behavior by placing the **runes** in a container made of [Ambersteel](#ambersteel). This requires the container to be of a [quality](./core-rules.md#crafting) level equal to the highest of the **runes'** [Spell Intensity](#spell-intensity-si).
+It may be possible to circumvent this repulsion behavior by placing the **runes** in a container made of [Ambersteel](#ambersteel). This requires the container to be of a [quality](./strive-core.md#crafting) level equal to the highest of the **runes'** [Spell Intensity](#spell-intensity-si).
 
 In order to craft a **rune**:
 * A **rune** can only be made to cast one type of magic. So the carver has to pick one of the [magic schools](#list-of-magic-schools). 
@@ -347,11 +347,11 @@ Due to how **magic scrolls** are always magically charged, they cannot be in the
 
 If two **magic scrolls** **of the same type** are brought to a distance of `60'/20m` or less to each other, they begin to glow, hum and rumble, as if to warn their bearers. Should they be brought to a distance of `45'/15m` or less to each other, they both discharge the magic they hold and repulse each other. This means anyone immediately nearby suffers `3D6` **Bludgeoning** damage. The **magic scrolls** are destroyed in the process! 
 
-It may be possible to circumvent this repulsion behavior by placing the **magic scrolls** in a container made of [Ambersteel](#ambersteel). This requires the container to be of a [quality](./core-rules.md#crafting) level equal to the highest of the **magic scrolls'** [Spell Intensity](#spell-intensity-si).
+It may be possible to circumvent this repulsion behavior by placing the **magic scrolls** in a container made of [Ambersteel](#ambersteel). This requires the container to be of a [quality](./strive-core.md#crafting) level equal to the highest of the **magic scrolls'** [Spell Intensity](#spell-intensity-si).
 
 In order to create a **magic scroll**:
 * Powdered [Abyssalite](#abyssalite) must be painted onto the parchment, paper or other such material, in a shape specific to the magic spell the **magic scroll** will be able to cast. 
-  * This requires a **complete success** of an [artistry](./core-rules.md#artistry-agiawar) or [artificing](#artificing-arcwit) test, at **Ob** equal to the intended [Spell Intensity](#spell-intensity-si) of the **magic scroll**. 
+  * This requires a **complete success** of an [artistry](./strive-core.md#artistry-agiawar) or [artificing](#artificing-arcwit) test, at **Ob** equal to the intended [Spell Intensity](#spell-intensity-si) of the **magic scroll**. 
 * Then, the **magic scroll** must be "primed" by a mage. This requires a **complete success** of a test of the same [school of magic](#list-of-magic-schools) as the **magic scroll** holds, with **Ob** equal to the [Spell Intensity](#spell-intensity-si) of the **magic scroll**. 
 * If any of the tests are not a **complete success**, the **magic scroll** is botched and the material cannot be used for another attempt. There is no room for mistakes. 
 
@@ -457,13 +457,13 @@ The appendix contains important and less important lists, for reference only whe
 Character creation is now supplemented by step `9` - [Determine Arcane Overheat thresholds](#arcane-overheat). 
 
 The new procedure of creating a character consists of the following steps:
-1. [Determine life path](./core-rules.md#determine-life-path). 
-2. [Determine species, sex & appearance](./core-rules.md#species-sex--appearance).
-3. [Determine name](./core-rules.md#determine-name).
-4. [Determine abilities](./core-rules.md#determine-abilities).
-6. [Determine **carrying capacity** and **assets**](./core-rules.md#determine-assets).
-7. [Determine **Max HP** and **Injury Maximum**](./core-rules.md#determine-max-hp--injury-maximum)
-8. [Determine exhaustion limit](./core-rules.md#determine-exhaustion-threshold).
+1. [Determine life path](./strive-core.md#determine-life-path). 
+2. [Determine species, sex & appearance](./strive-core.md#species-sex--appearance).
+3. [Determine name](./strive-core.md#determine-name).
+4. [Determine abilities](./strive-core.md#determine-abilities).
+6. [Determine **carrying capacity** and **assets**](./strive-core.md#determine-assets).
+7. [Determine **Max HP** and **Injury Maximum**](./strive-core.md#determine-max-hp--injury-maximum)
+8. [Determine exhaustion limit](./strive-core.md#determine-exhaustion-threshold).
 9. [Determine Arcane Overheat thresholds](#determine-magic-overheat-thresholds).
 
 ### Determine Abilities
@@ -536,8 +536,8 @@ A set of light armor that doesn't impede the wearer much. Example: cloth armor l
 A set of medium armor with a good balance of protection and weight. Example: full chain mail armor, with or without a helmet. 
 
 * Bulk: 3
-* `+1` permanent [exhaustion](./core-rules.md#exhaustion) while worn. 
-* `-1` to [stealth](./core-rules.md#stealth-agiawar) while worn. 
+* `+1` permanent [exhaustion](./strive-core.md#exhaustion) while worn. 
+* `-1` to [stealth](./strive-core.md#stealth-agiawar) while worn. 
 * `-1D` to any defense tests while worn. 
 
 | Protections          | Unthreatened | Flanked | Surrounded | Overwhelmed | 
@@ -552,8 +552,8 @@ A set of medium armor with a good balance of protection and weight. Example: ful
 A set of heavy armor with excellent protection, at the cost of encumbering the wearer greatly. Example: full plate armor. 
 
 * Bulk: 4
-* `+2` permanent [exhaustion](./core-rules.md#exhaustion) while worn. 
-* `-3` to [stealth](./core-rules.md#stealth-agiawar) while worn. 
+* `+2` permanent [exhaustion](./strive-core.md#exhaustion) while worn. 
+* `-3` to [stealth](./strive-core.md#stealth-agiawar) while worn. 
 * `-2D` to any defense tests while worn. 
 
 | Protections          | Unthreatened | Flanked | Surrounded | Overwhelmed | 
@@ -584,7 +584,7 @@ A small round or oblong shield commonly held as far from the body as possible, t
 A medium-sized, round or kite-shaped shield made from tough wood and leather or even metal, which offers good protection against most attacks, while not encumbering the wielder too much. 
 
 * Bulk: 2
-* `+1` permanent [exhaustion](./core-rules.md#exhaustion) while wielded. 
+* `+1` permanent [exhaustion](./strive-core.md#exhaustion) while wielded. 
 
 | Unthreatened           | Flanked           | Surrounded           | Overwhelmed           |
 | ---------------------- | ----------------- | -------------------- | --------------------- |
@@ -594,34 +594,34 @@ A medium-sized, round or kite-shaped shield made from tough wood and leather or 
 A large, kite-shaped or rectangular shield, which can protect every part of the fighter, from the shoulder down to the feet. Its weight is very tiring. 
 
 * Bulk: 4
-* `+2` permanent [exhaustion](./core-rules.md#exhaustion) while wielded. 
+* `+2` permanent [exhaustion](./strive-core.md#exhaustion) while wielded. 
 
 | Unthreatened           | Flanked           | Surrounded           | Overwhelmed           |
 | ---------------------- | ----------------- | -------------------- | --------------------- |
 | `+2` [compensation points](core-rules.md#compensation-points) for any defense. | `+1` [compensation point](core-rules.md#compensation-points) for any defense. | `+1D` for any defense. | / |
 
 ### List of General Assets
-In the following table, `Q` refers to the quality grade of the asset. See also the [crafting](./core-rules.md#crafting) rules. When in a hurry (as a **GM**), substitute the `Q` with `3`.
+In the following table, `Q` refers to the quality grade of the asset. See also the [crafting](./strive-core.md#crafting) rules. When in a hurry (as a **GM**), substitute the `Q` with `3`.
 
 | Name                     | Bulk | Max. Stack Size | Description                                                              |
 | ------------------------ | ---- | --------------- | ------------------------------------------------------------------------ |
 | Acid Bomb                | 1    | 3               | A small fragile shell with two compartments, filled with two liquids which, when they combine, act as a powerful acid. When shattered, deals `QD6 Acid` damage to whatever it hits. |
 | Blackpowder Bomb         | 1    | 2               | A small iron-shelled bomb, filled with blackpowder. A short fuse sticks out and must be lit to set it off. Once lit, the bomb will detonate after 3 turns or 15 seconds. Deals `QD4 Bludgeoning + QD4 Burning` damage to anyone in a `6'/2m` radius. |
-| Calming Tea              | 1    | 3               | This herbal tea has the ability to calm nerves. Removes [berserk](./core-rules.md#berserk), [jealous](./core-rules.md#jealous) and [terrified](./core-rules.md#terrified). Best enjoyed steaming hot, but not necessarily. |
+| Calming Tea              | 1    | 3               | This herbal tea has the ability to calm nerves. Removes [berserk](./strive-core.md#berserk), [jealous](./strive-core.md#jealous) and [terrified](./strive-core.md#terrified). Best enjoyed steaming hot, but not necessarily. |
 | Dragon's Breath Potion   | 1    | 3               | Upon drinking this potion, the orange liquid combines with the stomach acid and bursts out of the drinker's throat, igniting and thus causing them to spew fire! Causes `1D8 - Q Burning` damage to the user and `QD6 Burning` damage in a `18'/6m` cone in front of the user. |
 | Death Fog                | 1    | 1               | An extremely rare and deadly gas. Once exposed to air, covers an area of `Q*6'/Q*2m` in impenetrable, eerily glowing, blue fog. Deals `6D10 + 40` **pure** damage to all **organic** things it touches, per tick. Metal and mineral are unaffected, while plant and flesh are struck from existence. |
 | Fire Pot (Potion)        | 1    | 3               | An ancient recipe, this concoction bursts into flame when exposed to air for several seconds. It causes severe burns for `QD6 Burning` damage in a `6'/2m` radius. Consumed on use. |
 | Illusionist's Powder     | 1    | 2               | A small amount of weakly iridescently shimmering powder. When scattered, the dust remains suspended in mid-air and settles in an image of the making alchemist's choosing, which at a distance can seem perfectly real. It takes a successful test at `Ob Q + 1` to see through the ruse. This image lasts `QD10` minutes. |
-| Invigorating Potion      | 1    | 3               | The drinker of this potion feels refreshed and invigorated! Reduces exhaustion by `Q` and clears the [exhausted](./core-rules.md#exhausted) condition. Beware this potion can only be safely imbibed twice in a 24 hour cycle. If drunk more, roll a `D6`. If it is a **hit**, you're in luck! But if not, you instead suffer `+2` points of [exhaustion](./core-rules.md#exhaustion). |
-| Laudanum Potion          | 1    | 2               | This wonderous substance can quell pain and calm nerves within seconds. Also effective against diarrhea. Upon imbibing, sets one **active** [injury](./core-rules.md#injury) to **treated**. After 24 hours, the [injury](./core-rules.md#injury) is set back to **active**, even if it was also properly **treated** in the meantime. Also, must succeed a [self-control](./core-rules.md#self-control-toughtough) test at `Ob 3`, or else become [addicted](./core-rules.md#drug-addicted) to the stuff. |
-| Love Potion              | 1    | 2               | Anyone drinking this potion will become virtually irresistible to anyone close enough to smell their air. Victims have to succeed a [self-control](./core-rules.md#self-control-toughtough) test at `Ob Q` or else feel **very strongly compelled** to fulfill the user's every wish and desire (provided this wouldn't obviously cause harm to the victim). |
+| Invigorating Potion      | 1    | 3               | The drinker of this potion feels refreshed and invigorated! Reduces exhaustion by `Q` and clears the [exhausted](./strive-core.md#exhausted) condition. Beware this potion can only be safely imbibed twice in a 24 hour cycle. If drunk more, roll a `D6`. If it is a **hit**, you're in luck! But if not, you instead suffer `+2` points of [exhaustion](./strive-core.md#exhaustion). |
+| Laudanum Potion          | 1    | 2               | This wonderous substance can quell pain and calm nerves within seconds. Also effective against diarrhea. Upon imbibing, sets one **active** [injury](./strive-core.md#injury) to **treated**. After 24 hours, the [injury](./strive-core.md#injury) is set back to **active**, even if it was also properly **treated** in the meantime. Also, must succeed a [self-control](./strive-core.md#self-control-toughtough) test at `Ob 3`, or else become [addicted](./strive-core.md#drug-addicted) to the stuff. |
+| Love Potion              | 1    | 2               | Anyone drinking this potion will become virtually irresistible to anyone close enough to smell their air. Victims have to succeed a [self-control](./strive-core.md#self-control-toughtough) test at `Ob Q` or else feel **very strongly compelled** to fulfill the user's every wish and desire (provided this wouldn't obviously cause harm to the victim). |
 | Magic Recorder           | 1    | 3               | A small spherical device, overtly made from various metals with intricate patterns on its surface. This device can capture [Magic Echoes](#magic-echoes) and record magic as it is being cast. Also captures fragments of thoughts from its bearer while it is active. |
-| Night-Eye Potion         | 1    | 3               | Grants the ability to see reasonably well under low-light conditions, up to `Q * 10'/3m` around them, for an hour. Beware that under the influence of this potion, exposure to bright light is extremely difficult to endure and will cause `+1` [exhaustion](./core-rules.md#exhaustion) for every **minute** of exposure. |
-| Paralyzing Poison        | 1    | 2               | Causes a victim's muscles to seize up. They suffer `-1 AP` each turn and are forced to move sluggishly. If this poison is suffered twice, the victim seizes up completely and is unable to move. This poison can be resisted once upon suffering it, with [toughness](./core-rules.md#toughness-tough), at `Ob Q`. If unsuccessful, the effect will last an hour. |
+| Night-Eye Potion         | 1    | 3               | Grants the ability to see reasonably well under low-light conditions, up to `Q * 10'/3m` around them, for an hour. Beware that under the influence of this potion, exposure to bright light is extremely difficult to endure and will cause `+1` [exhaustion](./strive-core.md#exhaustion) for every **minute** of exposure. |
+| Paralyzing Poison        | 1    | 2               | Causes a victim's muscles to seize up. They suffer `-1 AP` each turn and are forced to move sluggishly. If this poison is suffered twice, the victim seizes up completely and is unable to move. This poison can be resisted once upon suffering it, with [toughness](./strive-core.md#toughness-tough), at `Ob Q`. If unsuccessful, the effect will last an hour. |
 | Poison Resistance Potion | 1    | 2               | Once imbibed, halves all incurred poison damage, for up to `Q` hours. |
-| Sleeping Poison          | 1    | 3               | Causes a victim to feel incredibly sleepy. Unless they succeed a [self-control](./core-rules.md#self-control-toughtough) test at `Ob Q`, they will fall asleep the first chance they get. They cannot be woken from this state for at least `6` hours. |
+| Sleeping Poison          | 1    | 3               | Causes a victim to feel incredibly sleepy. Unless they succeed a [self-control](./strive-core.md#self-control-toughtough) test at `Ob Q`, they will fall asleep the first chance they get. They cannot be woken from this state for at least `6` hours. |
 | Smoke Bomb               | 1    | 3               | A small fragile shell, filled with a very fine powder which when broken causes an area in a `Q * 3'/1m` radius to be covered in smoke. It is impossible to see through and ranged attacks within or through the smoke-covered area suffer `+2` **Ob**. Victims caught in the smoke may be forced to cough. The smoke lasts `6` turns or `30` seconds. |
-| Throwing Blade           | 1    | 6               | A small weighted blade, like a knife or star, well suited to being thrown. Can be used in melee and acts like a [dagger](#dagger-agiawar), but with a penalty of `-2D` to attack and defense. `+1D` when [thrown](./core-rules.md#throwing-accuracy) for a ranged attack. Deals `2D4 + Str piercing` damage. |
+| Throwing Blade           | 1    | 6               | A small weighted blade, like a knife or star, well suited to being thrown. Can be used in melee and acts like a [dagger](#dagger-agiawar), but with a penalty of `-2D` to attack and defense. `+1D` when [thrown](./strive-core.md#throwing-accuracy) for a ranged attack. Deals `2D4 + Str piercing` damage. |
 
 ### Weapon Types
 Following are fantasy-themed weapon types. 
@@ -634,8 +634,8 @@ For ranged weapons there is note made of a value called the "distance increment"
 Any very short, one-handed blade. Examples: shiv, dagger, rondel-dagger
 
 For all attacks made with a dagger, the following rules apply:
-* If the target is unaware or [grappled](./core-rules.md#grappled), then the target's armor does **not** reduce the dagger's damage.
-* `-1 Ob` against [proned](./core-rules.md#prone) and/or [grappled](./core-rules.md#grappled) targets.
+* If the target is unaware or [grappled](./strive-core.md#grappled), then the target's armor does **not** reduce the dagger's damage.
+* `-1 Ob` against [proned](./strive-core.md#prone) and/or [grappled](./strive-core.md#grappled) targets.
 
 * Melee
 * Bulk: 1
@@ -645,7 +645,7 @@ For all attacks made with a dagger, the following rules apply:
 | ----- | -------------------- | -- | ----------- | -------------------------------- | ------ |
 | 0     | Slash                | 2  | Opposed     | `1D6 + Agi` Slashing             | / |
 | 0     | Stab                 | 2  | Opposed     | `1D10 + Agi` Piercing            | / |
-| 0     | Artery Cut           | 2  | Opposed + 1 | `2D6` Slashing                   | +2 [bleeding](./core-rules.md#bleeding) to the target (if it can bleed).  |
+| 0     | Artery Cut           | 2  | Opposed + 1 | `2D6` Slashing                   | +2 [bleeding](./strive-core.md#bleeding) to the target (if it can bleed).  |
 | 0     | Target Weak-Spot     | 2  | Opposed + 2 | `2D6 + Agi` Pure                 | / |
 
 #### Light Blade (Agi/Str)
@@ -659,7 +659,7 @@ Any light blade. Most commonly (but not restricted to) one-handed weapons. Examp
 | ----- | -------------------- | -- | ----------- | -------------------------------- | ------ |
 | 0     | Slash                | 2  | Opposed     | `2D6 + Str` Slashing             | / |
 | 0     | Stab                 | 2  | Opposed     | `1D8 + Agi` Piercing             | / |
-| 0     | Grappling Feint      | 2  | Opposed - 1 | /                                | Attack with a feint, immediately close the distance and [grapple](./core-rules.md#grappled) your opponent. |
+| 0     | Grappling Feint      | 2  | Opposed - 1 | /                                | Attack with a feint, immediately close the distance and [grapple](./strive-core.md#grappled) your opponent. |
 
 #### Long Blade (Agi/Str)
 Any long and heavier blade, including heavy one-handed blades. Examples: longsword, rapier, Kriegsmesser
@@ -672,7 +672,7 @@ Any long and heavier blade, including heavy one-handed blades. Examples: longswo
 | 0     | Slash                | 2  | Opposed     | `2D8 + Str` Slashing             | / |
 | 0     | Stab                 | 2  | Opposed     | `2D6 + Agi` Piercing             | / |
 | 2     | Mord-Strike          | 2  | Opposed     | `1D8 + Str` Bludgeoning          | / |
-| 3     | Fencer-Stance        | 2  | /           | /                                | Enter a defensive fencing stance. Gain `+1D` for melee defense and can [counter-attack](./core-rules.md#defense-stunts) **every** attack, until the start of your next turn. |
+| 3     | Fencer-Stance        | 2  | /           | /                                | Enter a defensive fencing stance. Gain `+1D` for melee defense and can [counter-attack](./strive-core.md#defense-stunts) **every** attack, until the start of your next turn. |
 
 #### Great Blade (Str/Tough)
 Any very long and heavy two-handed blade. Examples: great-sword, sword of war, great-saber
@@ -686,7 +686,7 @@ Any very long and heavy two-handed blade. Examples: great-sword, sword of war, g
 | 0     | Slash                | 2  | Opposed     | `2D10 + Str` Slashing            | / |
 | 0     | Stab                 | 2  | Opposed     | `2D8 + Agi` Piercing             | / |
 | 2     | Blade Barrier        | 2  | Opposed     | /                                | Whenever any character moves **into** a spot within reach, can attack that character with a **slash** at `Ob + 1` and always force them back `3'/1m`, until the start of your next turn. These attacks do not cost any additional **AP**. |
-| 3     | Heavy Blow           | 3  | Opposed + 2 | `3D8` Slashing                   | Defending against this attack costs 2 [AP](./core-rules.md#action-points-ap). |
+| 3     | Heavy Blow           | 3  | Opposed + 2 | `3D8` Slashing                   | Defending against this attack costs 2 [AP](./strive-core.md#action-points-ap). |
 
 #### Chained-Blade (Agi)
 A down-angled, weighted blade, with a spike forwards, perfect for throwing and connected to a very light chain or rope, for easy retrieval. 
@@ -707,7 +707,7 @@ Requires knowing [Acrobatics](#acrobatics-agistr) and another bladed [weapon ski
 | 0     | Curved Toss          | 2  | Opposed     | 24'/8m              | `2D6 + Agi` Slashing    | Throw the weapon just past a target and then with a flick, make it jump at their back and upon impact, immediately retrieve it. |
 | 0     | Straight Toss        | 2  | Opposed     | 24'/8m              | `2D4 + Agi` Piercing    | Throw the weapon straight at a target and upon impact, immediately retrieve it. |
 | 0     | Whip                 | 2  | Opposed     | 24'/8m              | `2D6 + Str` Bludgeoning | Swing the chain/rope at a target and whip it with it, then immediately retrieve it. |
-| 1     | Leg Sweep            | 2  | Opposed     | 24'/8m              | `2D4 + Agi` Slashing    | Swing the weapon at length and low, to sweep for an opponent's legs. Upon impact, yank the chain/rope to sweep them off their feet, rendering them [prone](./core-rules.md#prone) and then immediately retrieve your weapon. |
+| 1     | Leg Sweep            | 2  | Opposed     | 24'/8m              | `2D4 + Agi` Slashing    | Swing the weapon at length and low, to sweep for an opponent's legs. Upon impact, yank the chain/rope to sweep them off their feet, rendering them [prone](./strive-core.md#prone) and then immediately retrieve your weapon. |
 | 1     | Think Twice          | 1  | Opposed + 1 | 24'/8m              | `2D4 + Agi` Piercing    | Reaction: Upon one of your allies attacking an enemy, you also throw your weapon straight at that enemy. Your ally's attack is `-1` Ob easier as the enemy is confused by the two simultaneous attacks and instead focuses on you! Your attack does **not** cost the enemy any additional AP to defend. Upon impact, immediately retrieve your weapon. |
 | 1     | Come Closer          | 2  | Opposed     | 24'/8m              | `2D4 + Agi` Slashing    | Throw the weapon just past a target and then yank it back, catching them with it and pulling them `9'/3m` closer to you. If the target is much larger and/or heavier than you, then you may pull *yourself* closer to them, for the same distance. Then immediately retrieve your weapon. |
 
@@ -721,7 +721,7 @@ Small and light axes. Examples: hatchet, woodcutter's axe
 | Level | Name                 | AP | **Ob**      | Damage                                    | Notes  |
 | ----- | -------------------- | -- | ----------- | ----------------------------------------- | ------ |
 | 0     | Hack                 | 2  | Opposed     |  `1D8` Slashing + `1D4 + Str` Bludgeoning | / |
-| 1     | Savage Slash         | 2  | Opposed + 1 |  `1D10 + Str` Slashing                    | +1 [bleeding](./core-rules.md#bleeding) to the target (if it can bleed). |
+| 1     | Savage Slash         | 2  | Opposed + 1 |  `1D10 + Str` Slashing                    | +1 [bleeding](./strive-core.md#bleeding) to the target (if it can bleed). |
 
 #### Great Axe (Str/Str)
 Large and heavy axes. Examples: bearded axe, double-sided axe
@@ -732,8 +732,8 @@ Large and heavy axes. Examples: bearded axe, double-sided axe
 | Level | Name                 | AP | **Ob**      | Damage                                           | Notes  |
 | ----- | -------------------- | -- | ----------- | ------------------------------------------------ | ------ |
 | 0     | Hack                 | 2  | Opposed     | `1D10` Slashing + `1D6 + Str` Bludgeoning        | / |
-| 2     | Savage Slash         | 2  | Opposed + 1 | `2D6 + Str` Slashing                             | +2 [bleeding](./core-rules.md#bleeding) to the target (if it can bleed). |
-| 3     | Heavy Blow           | 3  | Opposed + 2 | `1D10 + 1D6` Slashing + `1D8 + Str` Bludgeoning  | Defending against this attack costs 2 [AP](./core-rules.md#action-points-ap). |
+| 2     | Savage Slash         | 2  | Opposed + 1 | `2D6 + Str` Slashing                             | +2 [bleeding](./strive-core.md#bleeding) to the target (if it can bleed). |
+| 3     | Heavy Blow           | 3  | Opposed + 2 | `1D10 + 1D6` Slashing + `1D8 + Str` Bludgeoning  | Defending against this attack costs 2 [AP](./strive-core.md#action-points-ap). |
 
 #### Spear (Agi/Str)
 Any one or two-handed short piercing polearms. Examples: short-spear, boar-spear
@@ -785,7 +785,7 @@ Small bludgeoning weapons. Examples: any improvised weapon, any club, any mace
 | Level | Name                 | AP | **Ob**      | Damage                           | Notes  |
 | ----- | -------------------- | -- | ----------- | -------------------------------- | ------ |
 | 0     | Smash                | 2  | Opposed     | `2D6 + Str` Bludgeoning          | / |
-| 0     | Knockout Blow        | 2  | Opposed + 1 | `2D6 + Str` Bludgeoning          | If successful, causes `+2` [exhaustion](./core-rules.md#exhaustion) to the target. |
+| 0     | Knockout Blow        | 2  | Opposed + 1 | `2D6 + Str` Bludgeoning          | If successful, causes `+2` [exhaustion](./strive-core.md#exhaustion) to the target. |
 
 #### Large Crusher (Str/Tough)
 Large bludgeoning weapons with a dedicated *impact zone* on the weapon head which directs more force into the target. Examples: grand-mace, polehammer, two-handed flail
@@ -796,7 +796,7 @@ Large bludgeoning weapons with a dedicated *impact zone* on the weapon head whic
 | Level | Name                 | AP | **Ob**      | Damage                           | Notes  |
 | ----- | -------------------- | -- | ----------- | -------------------------------- | ------ |
 | 0     | Smash                | 2  | Opposed     | `1D10 + 4 + Str` Bludgeoning     | / |
-| 1     | Mighty Smash         | 2  | Opposed + 2 | `1D10 + 4 + Str` Bludgeoning     | Defending against this attack costs `2` [AP](./core-rules.md#action-points-ap) and causes `+1` [exhaustion](./core-rules.md#exhaustion) to the target. |
+| 1     | Mighty Smash         | 2  | Opposed + 2 | `1D10 + 4 + Str` Bludgeoning     | Defending against this attack costs `2` [AP](./strive-core.md#action-points-ap) and causes `+1` [exhaustion](./strive-core.md#exhaustion) to the target. |
 
 #### Short-Bow (Awar/Awar)
 A short distance ranged weapon, shooting arrows.
@@ -809,7 +809,7 @@ A short distance ranged weapon, shooting arrows.
 | Level | Name                 | AP | **Ob**      | Distance increments | Damage                     | Notes  |
 | ----- | -------------------- | -- | ----------- | ------------------- | -------------------------- | ------ |
 | 0     | Loose                | 2  | Opposed     | 30'/10m             | `3D4` Piercing             | / |
-| 1     | Pin                  | 2  | Opposed + 1 | 30'/10m             | `2D4` Piercing             | Shoot the enemy in their foot. If the attack is successful, they are considered [rooted](./core-rules.md#rooted) until the end of their next turn. |
+| 1     | Pin                  | 2  | Opposed + 1 | 30'/10m             | `2D4` Piercing             | Shoot the enemy in their foot. If the attack is successful, they are considered [rooted](./strive-core.md#rooted) until the end of their next turn. |
 | 1     | Heavy Shot           | 3  | Opposed + 1 | 30'/10m             | `3D4 + Str` Piercing       | / |
 | 2     | Double Shot          | 3  | Opposed     | 30'/10m             | `2D4` Piercing             | Can attack twice and thus deal its damage to two different targets, or the same target twice.  |
 
@@ -824,7 +824,7 @@ A long distance ranged weapon, shooting arrows.
 | Level | Name                 | AP | **Ob**      | Distance increments | Damage                     | Notes  |
 | ----- | -------------------- | -- | ----------- | ------------------- | -------------------------- | ------ |
 | 0     | Loose                | 2  | Opposed     | 45'/15m             | `3D6` Piercing             | / |
-| 1     | Pin                  | 2  | Opposed + 1 | 45'/15m             | `2D6` Piercing             | Shoot the enemy in their foot. If the attack is successful, they are considered [rooted](./core-rules.md#rooted) until the end of their next turn. |
+| 1     | Pin                  | 2  | Opposed + 1 | 45'/15m             | `2D6` Piercing             | Shoot the enemy in their foot. If the attack is successful, they are considered [rooted](./strive-core.md#rooted) until the end of their next turn. |
 | 1     | Heavy Shot           | 3  | Opposed + 1 | 45'/15m             | `3D6 + Str` Piercing       | / |
 
 #### War-Bow (Str/Tough)
@@ -837,7 +837,7 @@ A very deadly long distance ranged weapon, shooting arrows. Beware its exhaustin
 
 | Level | Name                 | AP | **Ob**      | Distance increments | Damage                     | Notes  |
 | ----- | -------------------- | -- | ----------- | ------------------- | -------------------------- | ------ |
-| 0     | Loose                | 2  | Opposed     | 60'/20m             | `3D10` Piercing            | +1 [exhaustion](./core-rules.md#exhaustion) to self.  |
+| 0     | Loose                | 2  | Opposed     | 60'/20m             | `3D10` Piercing            | +1 [exhaustion](./strive-core.md#exhaustion) to self.  |
 
 #### Crossbow (Awar/Awar)
 A deadly medium distance ranged weapon, shooting quarrels. Beware its slow reload. 
@@ -851,7 +851,7 @@ A deadly medium distance ranged weapon, shooting quarrels. Beware its slow reloa
 | Level | Name                 | AP | **Ob**      | Distance increments | Damage                     | Notes  |
 | ----- | -------------------- | -- | ----------- | ------------------- | -------------------------- | ------ |
 | 0     | Loose                | 2  | Opposed     | 60'/20m             | `3D8` Piercing             |  |
-| 1     | Pin                  | 2  | Opposed + 1 | 60'/20m             | `2D8` Piercing             | Shoot the enemy in their foot. If the attack is successful, they are considered [rooted](./core-rules.md#rooted) until the end of their next turn. |
+| 1     | Pin                  | 2  | Opposed + 1 | 60'/20m             | `2D8` Piercing             | Shoot the enemy in their foot. If the attack is successful, they are considered [rooted](./strive-core.md#rooted) until the end of their next turn. |
 
 #### Firearm (Awar/Awar)
 A very deadly short to medium distance ranged weapon, shooting musket balls that are likely to penetrate armor. Beware its slow reload. 
@@ -899,7 +899,7 @@ All craftsmanship requires a mix of physical and mental attributes, for the purp
 #### Armor Smithing (Str/Wit)
 The ability to make armor from conventional materials, such as metal and leather. 
 
-[Crafting](./core-rules.md#crafting)
+[Crafting](./strive-core.md#crafting)
 | Product                              | Complexity | Workload  | Materials                              | Quality Bonus   |
 | ------------------------------------ | ---------- | --------- | -------------------------------------- | --------------- | 
 | 1 [light armor](#light-armor)        | High       | High      | Any shapeable sturdy and flexible material, such as iron, steel, leather or chitin. | Every **hit**: +1 **Slashing**; Every 2 **hits**: +1 **Piercing**; Every 3 **hits**: +1 **Bludgeoning** |
@@ -913,7 +913,7 @@ Lining or plating an existing object with [Ambersteel](#ambersteel) acts as an i
 
 The product effects do not stack, but they can be overridden. This means that the same object cannot be lined with [Ambersteel](#ambersteel) twice, for cumulative effects. But it can be upgraded to [Ambersteel](#ambersteel)-plated. 
 
-[Crafting](./core-rules.md#crafting)
+[Crafting](./strive-core.md#crafting)
 | Product                              | Complexity | Workload  | Materials                              | Quality Bonus   |
 | ------------------------------------ | ---------- | --------- | -------------------------------------- | --------------- | 
 | Ambersteel-lined weapon              | High       | High      | [Ambersteel](#ambersteel); A weapon        | Bonus damage against mages and magical creatures: **+1** for every quality level. **+1D4** for every two **quality levels**, starting at level 2. |
@@ -939,7 +939,7 @@ The ability to brew alchemical potions, create powders, mixtures and other subst
 
 Tools: a distillery, mortar and pestle, a fire place
 
-[Crafting](./core-rules.md#crafting)
+[Crafting](./strive-core.md#crafting)
 | Product                              | Complexity | Workload  | Materials                              | Quality Bonus   |
 | ------------------------------------ | ---------- | --------- | -------------------------------------- | --------------- | 
 | A simple alchemical concoction (potion or powder)  | Moderate  | Moderate | Small containers, minerals, metals, herbs and water. | / |
@@ -950,7 +950,7 @@ The brewing of alcoholic beverages.
 
 Tools: a fire place, a distillery
 
-[Crafting](./core-rules.md#crafting)
+[Crafting](./strive-core.md#crafting)
 | Product                              | Complexity | Workload  | Materials                              | Quality Bonus   |
 | ------------------------------------ | ---------- | --------- | -------------------------------------- | --------------- | 
 | A small keg worth of alcohol         | Moderate   | Very High | Any closeable container; Any fermentable fruit or distillable plant matter. | / |
@@ -960,7 +960,7 @@ The ability to create every-day items from metal.
 
 Tools: a hammer, an anvil or other resilient surface, tongs, a forge
 
-[Crafting](./core-rules.md#crafting)
+[Crafting](./strive-core.md#crafting)
 | Product                              | Complexity | Workload  | Materials                              | Quality Bonus   |
 | ------------------------------------ | ---------- | --------- | -------------------------------------- | --------------- | 
 | A large item, such as a handheld tool               | Moderate | High     | Any shapeable metal; (Wood). | / |
@@ -971,7 +971,7 @@ The ability to craft bows and crossbows.
 
 Tools: a carving knife
 
-[Crafting](./core-rules.md#crafting)
+[Crafting](./strive-core.md#crafting)
 | Product                              | Complexity | Workload  | Materials                              | Quality Bonus   |
 | ------------------------------------ | ---------- | --------- | -------------------------------------- | --------------- | 
 | Bow                                  | Low        | Moderate  | A piece of sturdy and flexible wood; A piece of string or sinew. | Every 3 **hits**: +1 **Piercing** |
@@ -982,7 +982,7 @@ The ability to shape wood to craft predominantly wooden things.
 
 Tools: an axe, a wood plane, a hand drill, a workbench
 
-[Crafting](./core-rules.md#crafting)
+[Crafting](./strive-core.md#crafting)
 | Product                              | Complexity | Workload  | Materials                              | Quality Bonus   |
 | ------------------------------------ | ---------- | --------- | -------------------------------------- | --------------- | 
 | A small piece of furniture           | Moderate   | Moderate  | Wood                                   | / |
@@ -993,7 +993,7 @@ The ability to make comfortable, well-fitting and decorated clothes.
 
 Tools: scissors, needles, yarn, thread
 
-[Crafting](./core-rules.md#crafting)
+[Crafting](./strive-core.md#crafting)
 | Product                              | Complexity | Workload  | Materials                              | Quality Bonus   |
 | ------------------------------------ | ---------- | --------- | -------------------------------------- | --------------- | 
 | A piece of clothing                  | Moderate   | Moderate  | Cloth                                  | / |
@@ -1001,7 +1001,7 @@ Tools: scissors, needles, yarn, thread
 #### Engineering (Agi/Wit)
 The ability to plan and construct complex mechanisms and devices. 
 
-[Crafting](./core-rules.md#crafting)
+[Crafting](./strive-core.md#crafting)
 | Product                              | Complexity | Workload  | Materials                              | Quality Bonus   |
 | ------------------------------------ | ---------- | --------- | -------------------------------------- | --------------- | 
 | A simple mechanism                   | High       | Low       | Any suitable material                  | / |
@@ -1012,7 +1012,7 @@ The ability to efficiently craft arrows, bolts and javelins.
 
 Tools: a carving knife, a brush
 
-[Crafting](./core-rules.md#crafting)
+[Crafting](./strive-core.md#crafting)
 | Product                              | Complexity | Workload  | Materials                              | Quality Bonus   |
 | ------------------------------------ | ---------- | --------- | -------------------------------------- | --------------- | 
 | 5 Arrow shafts                       | Low        | Moderate  | Wood; feathers; glue                   | / | 
@@ -1022,7 +1022,7 @@ The ability to make objects from glass.
 
 Tools: a fire place, a glass-blower, various shaping tools
 
-[Crafting](./core-rules.md#crafting)
+[Crafting](./strive-core.md#crafting)
 | Product                              | Complexity | Workload  | Materials                              | Quality Bonus   |
 | ------------------------------------ | ---------- | --------- | -------------------------------------- | --------------- | 
 | A small glass object                 | High       | Moderate  | Quartz; sand                           | / | 
@@ -1032,7 +1032,7 @@ The ability to make jewelry from precious metals and stones.
 
 Tools: hammers, tweezer, chisels, a workbench, magnifying glasses
 
-[Crafting](./core-rules.md#crafting)
+[Crafting](./strive-core.md#crafting)
 | Product                              | Complexity | Workload  | Materials                              | Quality Bonus   |
 | ------------------------------------ | ---------- | --------- | -------------------------------------- | --------------- | 
 | A small piece of jewelry             | High       | High      | Quartz; sand                           | / | 
@@ -1042,7 +1042,7 @@ The ability to create leather objects.
 
 Tools: scissors, needles, hole punchers and a hammer
 
-[Crafting](./core-rules.md#crafting)
+[Crafting](./strive-core.md#crafting)
 | Product                              | Complexity | Workload  | Materials                              | Quality Bonus   |
 | ------------------------------------ | ---------- | --------- | -------------------------------------- | --------------- | 
 | 5 Small leather objects              | Low        | Moderate  | A tanned hide                          | / | 
@@ -1053,7 +1053,7 @@ The ability to shape stone to craft predominantly stone-based things.
 
 Tools: a hammer and chisels of varying sizes
 
-[Crafting](./core-rules.md#crafting)
+[Crafting](./strive-core.md#crafting)
 | Product                              | Complexity | Workload  | Materials                              | Quality Bonus   |
 | ------------------------------------ | ---------- | --------- | -------------------------------------- | --------------- | 
 | A small stone-hewn object            | Low        | Very High | Stone                                  | / |
@@ -1066,7 +1066,7 @@ The level of this skill dictates the maximum [intensity](#spell-intensity-si) of
 
 Tools: a hammer and chisels of varying sizes, tongs, tweezer, a fine brush
 
-[Crafting](./core-rules.md#crafting)
+[Crafting](./strive-core.md#crafting)
 | Product                              | Complexity | Workload  | Ob | Materials                              | Quality Bonus   |
 | ------------------------------------ | ---------- | --------- | -- | -------------------------------------- | --------------- | 
 | A blank rune                         | High       | Moderate  | /  | [Abyssalite](#abyssalite)              | / |
@@ -1078,7 +1078,7 @@ The ability to make shields from conventional materials, such as wood and metal.
 
 Tools: axes, hammers, tongs, (if metal) a forge and anvil
 
-[Crafting](./core-rules.md#crafting)
+[Crafting](./strive-core.md#crafting)
 | Product                              | Complexity | Workload  | Materials                              | Quality Bonus   |
 | ------------------------------------ | ---------- | --------- | -------------------------------------- | --------------- | 
 | 1 [light shield](#light-shield)      | Moderate   | High      | Any shapeable sturdy and flexible material, such as wood, metal or chitin. | / |
@@ -1090,7 +1090,7 @@ Taking the hide off a creature undamaged.
 
 Tools: a knife, a scraping blade, a bucket, a brush
 
-[Crafting](./core-rules.md#crafting)
+[Crafting](./strive-core.md#crafting)
 | Product                              | Complexity | Workload  | Materials                              | Quality Bonus   |
 | ------------------------------------ | ---------- | --------- | -------------------------------------- | --------------- | 
 | A small skin                         | Low        | Low       | A skinnable creature                   | / |
@@ -1102,7 +1102,7 @@ The ability to make weapons from metal.
 
 Tools: a hammer, an anvil or other resilient surface, tongs, a forge
 
-[Crafting](./core-rules.md#crafting)
+[Crafting](./strive-core.md#crafting)
 | Product                              | Complexity | Workload  | Materials                              | Quality Bonus   |
 | ------------------------------------ | ---------- | --------- | -------------------------------------- | --------------- | 
 | A weapon                             | High       | High      | Any suitable metal, wood and/or similar material | / |
@@ -1112,7 +1112,7 @@ Creating small things from carved wood.
 
 Tools: a carving knife
 
-[Crafting](./core-rules.md#crafting)
+[Crafting](./strive-core.md#crafting)
 | Product                              | Complexity | Workload  | Materials                              | Quality Bonus   |
 | ------------------------------------ | ---------- | --------- | -------------------------------------- | --------------- | 
 | A small wood-carved object           | Low        | Moderate  | Wood                                   | / |
@@ -1127,7 +1127,7 @@ A psionic awareness grants access to supernatural abilities beyond those of mere
 The psion may choose how much they wish to open up to The Veil. This is represented by their Openness, abbreviated as **OPN**. The OPN they choose may be at most their level in Psionics. 
 
 * Obvious: The psion's eyes glow with the inscrutable light of the stars, when they use their psionic abilities.
-* [Prerequisites](./core-rules.md#specialization-skills): 
+* [Prerequisites](./strive-core.md#specialization-skills): 
   * Wit 5 OR innate.
   * Arcana 5 OR innate.
   * An event that causes a psychic awakening. Consult your **GM**. 
@@ -1147,7 +1147,7 @@ The psion may choose how much they wish to open up to The Veil. This is represen
 | 4     | Memory Re-write      | 3  | `OPN * 9'/3m`   | Opposed by `Self-Control - OPN` | `OPN * 3`        | Re-write the memory of a **ST**. Make them forget, or implant in them a memory they never had. |
 
 ## List of Magic Schools
-The capabilities of the various magic schools are described by the [expertise](./core-rules.md#expertise) associated with each of them. The concrete effects are kept vague on purpose, to allow a certain freedom when choosing how the magic is expressed. But the intensity or strength of a casting is tied to the level of the [magic school skill](#magic-school--school---attribute-). 
+The capabilities of the various magic schools are described by the [expertise](./strive-core.md#expertise) associated with each of them. The concrete effects are kept vague on purpose, to allow a certain freedom when choosing how the magic is expressed. But the intensity or strength of a casting is tied to the level of the [magic school skill](#magic-school--school---attribute-). 
 
 The levels noted for each magic school represent the effects a mage can achieve, when casting that particular type of magic. Stronger effects generally require a higher level. 
 
@@ -1372,7 +1372,7 @@ The ability to communicate wordlessly, to alter emotions and even issue compelli
 | 6     | Confer Knowledge       | 4  | `3'/1m`        | `6 - SI`                     | Confer `+1` level of a **known skill** to another creature. | The caster loses `1` level in the chosen skill, permanently! |
 
 ## List of Illnesses
-This list supplements the list of **injuries** of the [core module](./core-rules.md#list-of-injuries). 
+This list supplements the list of **injuries** of the [core module](./strive-core.md#list-of-injuries). 
 
 | Name              | Duration          | Effect      | Treatment |
 | ----------------- | ----------------- | ----------- | --------- |
