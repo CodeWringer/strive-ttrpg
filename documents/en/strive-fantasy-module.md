@@ -23,6 +23,7 @@
     - [Malevite](#malevite)
       - [Malevite Side-Effects](#malevite-side-effects)
   - [Memorum](#memorum)
+- [The Veil](#the-veil)
 - [Assets](#assets)
   - [Weapon Properties](#weapon-properties)
 - [Appendix](#appendix)
@@ -89,6 +90,8 @@
       - [Tanning/Skinning (Agi/Tough)](#tanningskinning-agitough)
       - [Weapon Smithing (Str/Wit)](#weapon-smithing-strwit)
       - [Woodcarving (Agi/Agi)](#woodcarving-agiagi)
+    - [Special Skills](#special-skills)
+      - [Psionics (Arc/Wit)](#psionics-arcwit)
   - [List of Magic Schools](#list-of-magic-schools)
     - [Aeromancy (Arc/Agi)](#aeromancy-arcagi)
     - [Artificing (Arc/Wit)](#artificing-arcwit)
@@ -98,7 +101,6 @@
     - [Hexing (Arc/Arc)](#hexing-arcarc)
     - [Hydromancy (Agi/Arc)](#hydromancy-agiarc)
     - [Illusion (Arc/Awar)](#illusion-arcawar)
-    - [Psionics (Arc/Wit)](#psionics-arcwit)
     - [Pyromancy (Arc/Arc)](#pyromancy-arcarc)
     - [Restoration (Arc/Awar)](#restoration-arcawar)
     - [Sanguinomancy (Arc/Tough)](#sanguinomancy-arctough)
@@ -120,6 +122,8 @@ The module introduces:
 * The [Arcana](#arcana-arc) attribute.
 * [Magic](#magic) rules.
 * Medieval/fantasy themed [armors](#armor), [shields](#shield-types), [general assets](#list-of-general-assets), [weapons](#weapon-types) and [skills](#lists-of-skills).
+
+There is a [compendium document](./strive-fantasy-game-masters-resource.md) reserved solely for the **GM**, containing additional resources for them to draw from.
 
 # Character
 New in this module, is the attribute [arcana](#arcana-arc), which governs a character's capacity for magic. 
@@ -162,7 +166,7 @@ A mage can fail their [test](./core-rules.md#tests) and thus suffer a [spell-bac
 
 A spell's **maximum intensity** is dictated by the level in the corresponding [magic school skill](#magic-school--school---attribute-). However, the minimum **SI** for a spell cast is **always** `1`. 
 
-When a mage casts magic, **one third** (rounded down and minimum `1`) of the [Spell Intensity](#spell-intensity-si) they choose equals the amount of [Arcane Slag](#arcane-slag) that builds up within them. The other half turns into [Arcane Overheat](#arcane-overheat). 
+When a mage casts magic, **one third** (RD and minimum `1`) of the [Spell Intensity](#spell-intensity-si) they choose equals the amount of [Arcane Slag](#arcane-slag) that builds up within them. The other half turns into [Arcane Overheat](#arcane-overheat). 
 
 > = A spell cast at **SI** `1` causes `+1` **Arcane Slag** and *no* **Arcane Overheat**. 
 > 
@@ -173,7 +177,7 @@ When a mage casts magic, **one third** (rounded down and minimum `1`) of the [Sp
 ## Arcane Overheat
 Magic takes a toll on the caster's body and mind. As magic currents flow through their body, **Arcane Overheat** and [Arcane Slag](#arcane-slag) build up within them. Too much **Arcane Overheat**, and the mage will suffer various negative effects! 
 
-When a mage casts magic, **one third** (rounded down and minimum `1`) of the [Spell Intensity](#spell-intensity-si) they choose equals the amount of [Arcane Slag](#arcane-slag) that builds up within them. The other half turns into [Arcane Overheat](#arcane-overheat). 
+When a mage casts magic, **one third** (RD and minimum `1`) of the [Spell Intensity](#spell-intensity-si) they choose equals the amount of [Arcane Slag](#arcane-slag) that builds up within them. The other half turns into [Arcane Overheat](#arcane-overheat). 
 
 > = A spell cast at **SI** `1` causes `+1` **Arcane Slag** and *no* **Arcane Overheat**. 
 > 
@@ -208,7 +212,7 @@ At the start of every turn, or every `5` seconds outside combat, a mage automati
 
 For every point of **Arcane Slag** that has built up within a character, their base [Arcane Overheat](#arcane-overheat) is increased by the same amount. They cannot reduce their [Arcane Overheat](#arcane-overheat) to less than this amount. 
 
-When a mage casts magic, **one third** (rounded down and minimum `1`) of the [Spell Intensity](#spell-intensity-si) they choose equals the amount of [Arcane Slag](#arcane-slag) that builds up within them. The other half turns into [Arcane Overheat](#arcane-overheat). 
+When a mage casts magic, **one third** (RD and minimum `1`) of the [Spell Intensity](#spell-intensity-si) they choose equals the amount of [Arcane Slag](#arcane-slag) that builds up within them. The other half turns into [Arcane Overheat](#arcane-overheat). 
 
 > = A spell cast at **SI** `1` causes `+1` **Arcane Slag** and *no* **Arcane Overheat**. 
 > 
@@ -232,7 +236,7 @@ A **spell-backfire** occurs in the following two cases:
 2. The mage suffers from [Arcane Overheat](#arcane-overheat) and rolls a failure. 
 
 ## Concentration Spells
-Some magic can be upheld for as long as the casting mage *concentrates* on their spell. Such spells will be marked with **"Concentration"**. The effects of a concentration spell last for as long as the mage *chooses* or *manages* to keep their concentration. They need only test for the spell only *once*, when they first cast it. After that, during combat, it costs `1` AP at the start of every turn to uphold it. 
+Some magic can be upheld for as long as the casting mage *concentrates* on their spell. Such spells will be marked with **"Concentration"**. The effects of a concentration spell last for as long as the mage *chooses* or *manages* to keep their concentration. They need only test for the spell only *once*, when they first cast it. 
 
 Under normal circumstances, a mage can only upkeep **one** concentration spell at a time. 
 
@@ -332,7 +336,7 @@ In order to craft a **rune**:
 In order to invoke a **rune**:
 * A **complete success** of a [rune-using](#rune-using-agiwit) skill test will invoke the spell of the **rune** as expected. This costs `2` AP in combat. 
 * A **partial success** or **complete failure** results in a [spell-backfire](#spell-backfire). 
-* The user accumulates one third (rounded down, but to no less than `1`) of the rune's [Spell Intensity](#spell-intensity-si) as [Arcane Slag](#arcane-slag). 
+* The user accumulates one third (RD, but to no less than `1`) of the rune's [Spell Intensity](#spell-intensity-si) as [Arcane Slag](#arcane-slag). 
 
 ### Magic Scrolls
 **Magic scrolls** allow a single, specific spell to be cast by both mages and non-mages. Once used, the **magic scroll** burns up from the flow of magic and cannot be used again (even if the bearer material is fire-proof). Thus, these are single-use tools. 
@@ -413,7 +417,30 @@ A unique material, grown by a very specific family of fungus that thrives only i
 
 It has found practical use as a means of preserving the immaterial - thoughts, emotions, [magic echoes](#magic-echoes) and even raw knowledge. 
 
+# The Veil
+Whenever a psion uses their ability, they mentally reach out to the forces *beyond* The Veil, which causes **Veil Degradation**. When Veil Degradation becomes too great, strange and horrible things ensue. 
+
+The limits for Veil Degradation are `0` and `100`. Unlike mages, who manage only their own resource, Veil Degradation is shared by **all** characters in the current scene and follows the psion wherever they go. It automatically lowers by `10` every `6` hour interval or resets to `0` when The Veil *shatters*. 
+
+Whenever the psion uses their ability and Veil Degradation is above `0`, roll a percentile die (`2D10`, of which one is the "tenth" die and one is the "singles" die). If the result is above the current Veil Degradation, nothing happens. You were fortunate! But if it was below or equal to the current Veil Degradation, The Veil is lifted, momentarily. When that happens, one of the following effects ensue, based on the current Veil Degradation. Afterwards, Veil Degradation is lowered by `20`. However, if Veil Degradation reaches `100+`, the Veil *shatters*, causing it to reset to `0` and always results in a **Veil Entity** following the psion into their world.
+
+As The Veil degrades, the very air begins to hum and buzz. There are voices on the wind, spoken in unfamiliar tongue and too subtle to hear. The light twists and occasionally shows visions from The Beyond, but too alien to comprehend. 
+
+| Veil Degradation | Effect                              | 
+| ---------------- | ----------------------------------- |
+| 0-10             | Foreign doubts gnaw at the mind. All psions in the scene suffer `-1D` for their next test. |
+| 11-20            | All psions in the scene are overcome with terror and rendered [Terrified](./strive-core.md#terrified). |
+| 21-30            | Every creature in the scene is force moved in a random direction by `15'/5m`. |
+| 31-40            | All psions in the scene suffer `+3` [Arcane Slag](#arcane-slag)! |
+| 41-50            | Every creature in the scene suffers a random [illness](strive-core.md#illness). |
+| 51-60            | Every creature in the scene suffers `+1` [Bleeding](strive-core.md#bleeding). |
+| 61-70            | All characters in the scene suffer `+3` [Arcane Slag](#arcane-slag)! |
+| 71-80            | Time reverses momentarily. The current round's initiative order reverses. Or outside combat, the last few minutes play back in reverse. |
+| 81-90            | The flesh is malleable. All creatures in the scene suffer a random mutation. Or they could resist the transformation, and instead suffer `20` [pure](strive-core.md#damage-types) damage and `+2` [Bleeding](strive-core.md#bleeding)! |
+| 91-100           | A *thing* from beyond The Veil is pulled through to your world. As a **GM**, see [Veil Entities](./strive-fantasy-game-masters-resource.md#veil-entities). |
+
 # Assets
+This section complements the same section from the [core rules](strive-core.md#assets).
 
 ## Weapon Properties
 Weapon type assets can have the following **properties**:
@@ -1089,6 +1116,34 @@ Tools: a carving knife
 | A small wood-carved object           | Low        | Moderate  | Wood                                   | / |
 | A large wood-carved object           | Low        | High      | Wood                                   | / |
 
+### Special Skills
+The skills listed in this chapter cannot be learned *by just anyone*. Special requirements are made of those who aspire to learn them.
+
+#### Psionics (Arc/Wit)
+A psionic awareness grants access to supernatural abilities beyond those of mere magics. See also [The Veil](#the-veil). 
+
+The psion may choose how much they wish to open up to The Veil. This is represented by their Openness, abbreviated as **OPN**. The OPN they choose may be at most their level in Psionics. 
+
+* Obvious: The psion's eyes glow with the inscrutable light of the stars, when they use their psionic abilities.
+* [Prerequisites](./core-rules.md#specialization-skills): 
+  * Wit 5 OR innate.
+  * Arcana 5 OR innate.
+  * An event that causes a psychic awakening. Consult your **GM**. 
+
+| Level | Name                 | AP | Distance        | Ob                              | Veil Degradation | Effect(s)                      |
+| ----- | -------------------- | -- | --------------- | ------------------------------- | ---------------- | ------------------------------ |
+| 0     | Emotional Connection | 1  | `OPN * 30'/10m` | Opposed by `Self-Control - OPN` | `OPN * 2`        | Read and/or alter another creature's emotional state. |
+| 0     | Telekinesis          | 2  | `OPN * 15'/5m`  | Opposed by `Self-Control - OPN` | `OPN * 2`        | Force move a **ST** by `OPN * 6'/2m`. |
+| 0     | Telepathy            | 1  | `OPN * 45'/15m` | `OPN`                           | `OPN * 2`        | **Concentration**: Communicate wordlessly with `OPN` targets. Language barriers do not apply to this form of communication. |
+| 0     | Slow Down            | 2  | `OPN * 18'/6m`  | `OPN`                           | `OPN * 2`        | **Concentration**: Up to `OPN` targets are slowed. They move `6'/2m` less per **AP** spent! |
+| 1     | Repulse              | 1  | `60'/20m`       | `OPN`                           | `OPN * 3`        | **Reaction**: Upon having been attacked successfully, repulse your attacker psionically. They are force moved backwards by `OPN * 6'/2m`. |
+| 1     | Levitate             | 1  | `OPN * 18'/6m`  | `OPN`                           | `OPN * 3`        | **Concentration**: Cause yourself or one other **ST** of choice, within *distance* to levitate up to `OPN * 18'/6m` above the ground. |
+| 1     | "Vanish"             | 1  | `OPN * 18'/6m`  | `OPN`                           | `OPN * 4`        | **Concentration**: Cause up to `OPN` targets of choice, within *distance* to become *unperceivable* to `OPN` other targets of choice, within distance. |
+| 3     | Veil Hop             | 3  | `OPN * 9'/3m`   | `OPN`                           | `OPN * 5`        | Cause a dimensional rift to open and swallow a **ST** of choice, which another rift releases at a location of your choosing, a moment later. |
+| 3     | Join The Veil        | 2  | `OPN * 9'/3m`   | Opposed by `Self-Control - OPN` | `OPN * 3`        | Shroud a **ST** in the inscrutable darkness of The Beyond. They become [Terrified](strive-core.md#terrified) of the psion and [Marked](./strive-core.md#marked). |
+| 4     | Try Again            | 1  | /               | /                               | `25`             | **Reaction**: When you or someone else resolves a test, create a minute overlap of timelines, and displace a snippet of your own timeline with a hopefully better one. You or they must now repeat the test. The new result is final. This can only be attempted once for a given test. |
+| 4     | Memory Re-write      | 3  | `OPN * 9'/3m`   | Opposed by `Self-Control - OPN` | `OPN * 3`        | Re-write the memory of a **ST**. Make them forget, or implant in them a memory they never had. |
+
 ## List of Magic Schools
 The capabilities of the various magic schools are described by the [expertise](./core-rules.md#expertise) associated with each of them. The concrete effects are kept vague on purpose, to allow a certain freedom when choosing how the magic is expressed. But the intensity or strength of a casting is tied to the level of the [magic school skill](#magic-school--school---attribute-). 
 
@@ -1196,28 +1251,11 @@ Contact with **magically fouled water** will always cause [illness](./core-rules
 ### Illusion (Arc/Awar)
 Creation of non-physical influences on the senses. That includes images, sounds and odors. The illusions cannot cause direct harm, although they can drive an individual to acts that may put them in danger. 
 
-A victim reaching their [exhaustion limit](./core-rules.md#exhaustion) by effect of this magic, while [terrified](./core-rules.md#terrified), must succeed a [toughness](./core-rules.md#toughness-tough) test, or else suffer a heart-attack and **die** outright. The **Ob** is a third of the **attribute**, rounded up. 
+A victim reaching their [exhaustion limit](./core-rules.md#exhaustion) by effect of this magic, while [terrified](./core-rules.md#terrified), must succeed a [toughness](./core-rules.md#toughness-tough) test, or else suffer a heart-attack and **die** outright. The **Ob** is a third of the **attribute** (RU). 
 
 | Level | Name                 | AP | Distance     | Ob                           | Effect(s)                      | Backfire Effect(s) |
 | ----- | -------------------- | -- | ------------ | ---------------------------- | ------------------------------ | ------------------ |
-| 0     | Illusion             | 2  | SI * 30'/10m | Opposed by [wit](./core-rules.md#wit-wit) + SI | **Concentration**: The affected **ST** *sees*, *hears* or *smells* an illusory image/sound/odor. The intensity of the illusion is determined by the **SI**. 1 for a weak and small, 2 for a moderate and 3-4 for a large and intense, 5-6 for a giant and 7+ for a titanic illusion. *Can* be used to inflict [terror](./core-rules.md#terrified) or intense [jealousy](./core-rules.md#jealous). The victim suffers +1 [exhaustion](./core-rules.md#exhaustion). | The caster suffers +1 [exhaustion](./core-rules.md#exhaustion). |
-
-### Psionics (Arc/Wit)
-Mind over matter! Psionics grants powerful abilities to manipulate objects, influence others and even wield magic as a weapon or shield. 
-
-* Obvious: A purple flame lights within the mage's eyes, when they use their psionic abilities.
-* [Prerequisites](./core-rules.md#specialization-skills): [Telepathy](#telepathy-arcwit) (3), [telekinesis](#telekinesis-arcagi) (3)
-
-Only targets within and up to the given *distance* can be moved and only within and up to that *distance* from the mage. 
-
-| Level | Name                 | AP | Distance     | Ob                           | Effect(s)                      | Backfire Effect(s) |
-| ----- | -------------------- | -- | ------------ | ---------------------------- | ------------------------------ | ------------------ |
-| 0     | Psionic Telekinesis  | 3  | SI * 30'/10m | Opposed                      | Move a **ST** at great velocity (if desired), which allows it to deal `SI D6` **variant** (depends on the type of object, if it is an object) damage upon impact. Alternatively, **bludgeon** or restrain the object or creature. Can target yourself. | The caster is affected, instead. |
-| 0     | Psionic Missile      | 2  | SI * 15'/5m  | Opposed                      | Using psionics, extend the force of a punch, to hurl a focused psionic shockwave towards a **ST**, dealing `SI D6` **bludgeoning** damage. | The caster is affected, instead. |
-| 1     | Psionic Shield       | 2  | SI * 9'/3m   | SI                           | As a **reaction** to you or an ally being hit with an attack, cast a shield of psionic energy to erupt around yourself or an ally within distance, which absorbs up to `SI * 10` points of any damage. | Instead of absorbing damage, the target instead suffers an additional `SI * 3` points of **bludgeoning** damage. |
-| 1     | Psionic Hasten       | 2  | SI * 36'/18m | 3 + SI                       | **Concentration**: [Hasten](./core-rules.md#hasted) up to `SI` creatures of choice. | The caster suffers +1 [exhaustion](./core-rules.md#exhaustion). |
-| 1     | Levitate             | 1  | SI * 9'/3m   | Opposed                      | **Concentration**: Cause yourself or one other **ST** of choice, within *distance* to levitate a short distance above the ground. | The caster suffers +1 [exhaustion](./core-rules.md#exhaustion). |
-| 3     | Dimensional Shift    | 3  | SI * 30'/10m | Opposed                      | Cause a dimensional rift to open and swallow a **ST** of choice, which another rift releases at a location of your choosing, a moment later. | The caster is instead swallowed by a rift, immediately tossed back out in the same spot and suffers `1D10` points of **bludgeoning** damage. |
+| 0     | Illusion             | 2  | SI * 30'/10m | SI                           | **Concentration**: The affected **ST** *sees*, *hears* or *smells* an illusory image/sound/odor. The intensity of the illusion is determined by the **SI**. 1 for a weak and small, 2 for a moderate and 3-4 for a large and intense, 5-6 for a giant and 7+ for a titanic illusion. *Can* be used to inflict [terror](./core-rules.md#terrified) or intense [jealousy](./core-rules.md#jealous). The victim suffers +1 [exhaustion](./core-rules.md#exhaustion). | The caster suffers +1 [exhaustion](./core-rules.md#exhaustion). |
 
 ### Pyromancy (Arc/Arc)
 The summoning and control of fire. The flame being a destructive force, pyromancers enjoy little utility from their magic, beyond the ability to create light and heat. 

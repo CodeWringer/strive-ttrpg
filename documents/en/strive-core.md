@@ -11,6 +11,7 @@
     - [Spending Time](#spending-time)
   - [After the Session](#after-the-session)
   - [Tests](#tests)
+    - [Rounded Up \& Rounded Down](#rounded-up--rounded-down)
     - [Testing an Attribute](#testing-an-attribute)
     - [Testing a Skill](#testing-a-skill)
     - [Types of Test](#types-of-test)
@@ -95,6 +96,8 @@
   - [Action Points (AP)](#action-points-ap)
     - [Action Point Saving](#action-point-saving)
   - [Combat Movement](#combat-movement)
+    - [Forced Movement](#forced-movement)
+    - [Gravity Hurts](#gravity-hurts)
     - [Disengage](#disengage)
     - [Flee Combat](#flee-combat)
     - [Push Through](#push-through)
@@ -204,6 +207,7 @@
     - [Grappled](#grappled)
     - [Hasted](#hasted)
     - [Jealous](#jealous)
+    - [Marked](#marked)
     - [Pacified](#pacified)
     - [Poisoned](#poisoned)
     - [Prone](#prone)
@@ -357,6 +361,9 @@ For every **test**, one of three outcomes is possible:
 * **Complete Success**: There are enough or more than enough required **hits**.
 * **Partial Failure**: There are not enough **hits**, but more than none. 
 * **Complete Failure**: There are no **hits**, only **misses**. 
+
+### Rounded Up & Rounded Down
+Often times, numbers are to be rounded up or down. To keep formulae short, these terms are often abbreviated as **RU** (= rounded up) and **RD** (= rounded down). 
 
 ### Testing an Attribute
 To resolve an **attribute test**, the number of **D6** determined by the **attribute's modified level** must be rolled. 
@@ -593,7 +600,7 @@ It is possible to advance attributes *passively*. Whenever a large period of tim
 
 A **PC** can only actively practice one **attribute**. Furthermore, a **PC** can not both be actively practicing an **attribute** *and* a **skill**. They must choose - either practice an **attribute** *or* a **skill**. 
 
-For every **cycle** that passes of active practice, the **PC** can roll a [test](#tests) for the chosen **attribute** with **Ob** at half of their **raw attribute** (rounded up). 
+For every **cycle** that passes of active practice, the **PC** can roll a [test](#tests) for the chosen **attribute** with **Ob** at half of their **raw attribute** (RU). 
 
 A **cycle** is 1 month, regardless of attribute being practiced. 
 
@@ -611,7 +618,7 @@ See also [initiative](#initiative).
 #### Sprinting Speed
 The **sprinting speed** of a character is **not an attribute** in the same way as the others. It *cannot* be improved directly and is instead derived from the sum of the character's [agility](#agility-agi) and [toughness](#toughness-tough), divided by two and rounded up. 
 
-> A character with an **agility** of 3 and **toughness** of 5, has a **sprinting speed** of `(3 + 5) / 2 (rounded up) = 4`. 
+> A character with an **agility** of 3 and **toughness** of 5, has a **sprinting speed** of `(3 + 5) / 2 (RU) = 4`. 
 
 This attribute can also be used to determine whether a character can outrun another. For that, both characters roll via this derived attribute. Whoever achieves more **hits**, succeeds at outrunning the other character. 
 
@@ -704,7 +711,7 @@ It is possible to advance **skills** *passively*. Whenever a large period of tim
 
 A **PC** can only actively practice one **category of skills**. For every **cycle** that passes of active practice, the **PC** can roll a [test](#tests) of a skill of the corresponding category. Furthermore, a **PC** can not both be actively practicing a **skill** *and* an **attribute**. They must choose - either practice a **skill** *or* an **attribute**. 
 
-The **Ob** for such practice [tests](#tests) is always half of the **skill's raw level** (rounded up). 
+The **Ob** for such practice [tests](#tests) is always half of the **skill's raw level** (RU). 
 
 | Skill Category | Cycle    |
 | -------------- | -------- |
@@ -862,7 +869,7 @@ As such, there are two types of **reactions**:
 ### Personality Traits
 Every **PC** has several values that help inform their player what their character is like - how they act. 
 
-This personality is codified by the following matrix. Each row is a scale, with two opposing traits. Whenever A trait reaches the "signature" column, a **PC** is *known* for that trait! In fact, they can hardly *not* act that way! In order for behaviour to deviate from a signature trait, a [self-control](#self-control-toughtough) test at **Ob** 2 or half of of its raw level (rounded up) - take the higher number - must be made. Only if it is a **success**, can the player choose to deviate from the signature trait's dictated behavior. 
+This personality is codified by the following matrix. Each row is a scale, with two opposing traits. Whenever A trait reaches the "signature" column, a **PC** is *known* for that trait! In fact, they can hardly *not* act that way! In order for behaviour to deviate from a signature trait, a [self-control](#self-control-toughtough) test at **Ob** 2 or half of of its raw level (RU) - take the higher number - must be made. Only if it is a **success**, can the player choose to deviate from the signature trait's dictated behavior. 
 
 Whenever **PC**s very strongly act in a certain way, their value in a **personality trait** may change. Take note during play, how the characters have acted. After the session, discuss whether any of the **PC**s have shown a very strong drift towards either side of the scale. And if everyone agrees, a personality change is in order!
 
@@ -1380,9 +1387,25 @@ It may be possible to go past this limit via some [expertises](#expertise) or [b
 ## Combat Movement
 Under normal circumstances, a character (an average human) can move up to `12'/4m` (= 4 fields on a grid) per **AP** spent. In **difficult terrain**, the distance moved per **AP** is half that, at `6'/2m` (= 2 fields on a grid). **Difficult terrain** is any space that slows movement, but does not prevent it outright. Examples would be waist-high water, a surface of glue or a slowing force field. 
 
-It is also possible to **sprint**, increasing the distance one can move per **AP** spent, at the cost of `1` point of [exhaustion](#exhaustion) for every **AP** spent **sprinting**. The movement distance is increased by `3'/1m` for every level in [sprinting speed](#sprinting-speed), per **AP**. 
+It is also possible to **sprint**, increasing the distance one can move per **AP** spent, at the cost of `1` point of [exhaustion](#exhaustion) for every **AP** spent **sprinting**. The movement distance is increased by a character's [sprinting speed](#sprinting-speed), per **AP**. 
 
 > A character with a sprinting speed of `3` can increase their movement distance to `21'7m`, at the cost of `1` AP and `1` point of exhaustion. 
+
+### Forced Movement
+There are abilities and circumstances that can force a character to be moved against their will. When this happens, the character in question does not spend any [AP](#action-points-ap) on the movement, as they didn't initiate it. 
+
+If a forced movement ends abruptly, meaning before the full distance to move was reached, for example by slamming into a wall, then this causes `N D6` points of bludgeoning damage, where *N* is the remaining movement (in `3'/1m` increments) that could not be reached. 
+
+> A character is thrown with enough force to move them `15'/5m`, but a wall stops them short of reaching that distance, after they were moved `6'/2m`. The remainder of `9'/3m` causes them to suffer `3 D6` points of bludgeoning damage, as they slam into the wall!
+
+If a character slams into another when force moved, they both suffer half of the damage (RU). 
+
+### Gravity Hurts
+When a character falls more than `9'/3m` and impacts with the ground, then they suffer `N * 6` points of bludgeoning damage, where *N* is the number of `15'/5m` increments that they fell. The damage that is suffered may be reduced with an [Acrobatics](#acrobatics-agistr) test. Every **hit** achieved, reduces the damage by `D4` points. 
+
+> A character falls of a suspension bridge, down a shallow ravine. They fall for `48'16m`. Upon impacting the ground, the would suffer `4 * 6 = 24` points of bludgeoning damage. They try to dampen the impact with an Acrobatics test and achieve `2` hits, which allow them to ignore `2D4` points of bludgeoning damage from the fall. They roll a `2` and a `3`, meaning they reduce the damage by `5` points. As a result, they suffer only `19` points of bludgeoning damage. 
+
+> A character is shoved down a ditch and falls `12'/4m`. This is more than the minimum, and they will suffer `1 * 6 = 6` points of bludgeoning damage upon impact, unless they can reduce that amount with an Acrobatics test. 
 
 ### Disengage
 It is possible to move out of an enemy's [Range of Opportunity](#attacks-of-opportunity) without provoking an [Attack of Opportunity](#attacks-of-opportunity). This action costs 2 [AP](#action-points-ap) and the disengaging character **must** move in a direction that will get them out of the [Range of Opportunity](#attacks-of-opportunity) the fastest and safest, as far as 1 **AP** of movement would get them. 
@@ -1409,12 +1432,12 @@ The ally in question can **oppose** this action with [strength](#strength-str) (
 ## Attacking
 Attacks are made with an [expertise](#expertise) of a [weapon](#weapon--weapon-type--str), the [unarmed](#unarmed-combat-agistr) or the [throwing](#throwing-agiagi) [skill](#skills). 
 
-An attack generally requires an [opposed test](#opposed-test) to be made. If the attacker wins, [damage](#damage) is determined and applied to the defender. If the defender wins, they suffer no damage, **unless** if they're parrying in melee with a weapon that has 2 bulk less than the weapon they've parried. In such a case, half the damage (rounded up) still goes through, regardless of the successful parry.  
+An attack generally requires an [opposed test](#opposed-test) to be made. If the attacker wins, [damage](#damage) is determined and applied to the defender. If the defender wins, they suffer no damage, **unless** if they're parrying in melee with a weapon that has 2 bulk less than the weapon they've parried. In such a case, half the damage (RU) still goes through, regardless of the successful parry.  
 * A defender must *choose* how to defend, if no a specific skill is required. The defender may choose to defend with a [weapon skill](#weapon--weapon-type---attribute), [acrobatics](#acrobatics-agistr) or a [shield](#shield-strtough). 
-* Defending against a ranged attack with a melee weapon skill or vice-versa is possible, but at a penalty of only being able to use half the dice, rounded down. 
+* Defending against a ranged attack with a melee weapon skill or vice-versa is possible, but at a penalty of only being able to use half the dice (RD). 
   * Depending on the projectile's speed or other properties, it may even be impossible to defend against it with a melee weapon skill. 
 
-In case of an [aoe](#area-of-effect-aoe) attack, a defender may be able to halve the [damage](#damage) (rounded up), if they win the [opposed test](#opposed-test). 
+In case of an [aoe](#area-of-effect-aoe) attack, a defender may be able to halve the [damage](#damage) (RU), if they win the [opposed test](#opposed-test). 
 
 Sometimes, special circumstances apply, which make certain attacks easier or harder to land. These are at the **GM's** discretion. They can impose an **Ob** penalty or boon whenever appropriate. 
 
@@ -1442,8 +1465,8 @@ To **flank** an opponent, two allies must be within their weapons' range to and 
 Three allies can **surround** the opponent, further reducing their armor's and shield's effectiveness. Four or more allies can **overwhelm** the opponent, rendering their defenses completely useless. The third and fourth (or any beyond that number) ally can **freely** choose a spot within weapon's reach. 
 
 * When **unthreatened**, the armor and shield protect fully. No defense penalties. 
-* When **flanked**, the armor and shield protect only half (rounded up) as much. `-1D` to any defense test. 
-* When **surrounded**, the armor and shield protect only one fourth (rounded up) as much. `-2D` to any defense test. 
+* When **flanked**, the armor and shield protect only half (RU) as much. `-1D` to any defense test. 
+* When **surrounded**, the armor and shield protect only one fourth (RU) as much. `-2D` to any defense test. 
 * When **overwhelmed**, the armor and shield no longer protect **at all**. `-3D` to any defense test. 
 
 If one of the allies is using a weapon with a property to increase its reach, for example [long reach](#weapon-properties), then they need not be adjacent to the enemy to count towards the flanking effect (but still within their weapon's reach to the enemy). 
@@ -1459,7 +1482,7 @@ The following graphic illustrates valid spots for a third ally to enter, to **su
 ### Stealth Attacks
 When attacking another character from stealth, the moment of surprise can make all the difference. An attack from stealth counts as an automatic success and you may go on to roll damage right away. 
 
-In addition to an automatic success, add half of the damage (rounded up) to be dealt as additional damage. In the case of multiple damage types in one attack, add half of *each* (and each rounded up). 
+In addition to an automatic success, add half of the damage (RU) to be dealt as additional damage. In the case of multiple damage types in one attack, add half of *each* (RU). 
 
 When attacking with [bludgeoning](#damage-types), you may knock another character [unconscious](#unconscious) with one fell swoop. For this, their [toughness](#toughness-tough) must not be more than 2 levels greater than your [strength](#strength-str). Otherwise, the normal stealth damage bonus applies. 
 
@@ -1471,15 +1494,15 @@ When attacking with [bludgeoning](#damage-types), you may knock another characte
 There are two types of defense:
 * **Active defense**: Costs 1 [AP](#action-points-ap) and uses all available dice for the [test](#tests). 
   * This defense can only happen as a *reaction* and a deliberate choice, during another character's turn. 
-* **Passive defense**: Does not cost any [AP](#action-points-ap), but uses only half (rounded down, minimum 1) of the available dice for the [test](#tests).
+* **Passive defense**: Does not cost any [AP](#action-points-ap), but uses only half (RD, minimum 1) of the available dice for the [test](#tests).
   * This defense happens automatically as a *reaction*, if no **active defense** is attempted. 
   * This defense can *not* be used against attacks that cost more than 1 [AP](#action-points-ap) to defend against. 
 
-To defend, an [opposed test](#opposed-test) must be made. If successful, the attack is negated, entirely, **unless** if you're parrying in melee with a weapon that has 2 [bulk](#bulk) less than the weapon you've parried. In such a case, half the damage (rounded up) still goes through, regardless of the successful parry.  
+To defend, an [opposed test](#opposed-test) must be made. If successful, the attack is negated, entirely, **unless** if you're parrying in melee with a weapon that has 2 [bulk](#bulk) less than the weapon you've parried. In such a case, half the damage (RU) still goes through, regardless of the successful parry.  
 
 The defender must *choose* how to defend themselves, if no specific "opposed by" skill is noted. They can use a [weapon skill](#weapon--weapon-type---attribute), [acrobatics](#acrobatics-agistr) or [shield skill](#shield-strtough). 
 
-Defending against [area of effect](#area-of-effect) attacks is *only* possible as a **passive defense** and can *not* negate the attack. It can only halve (rounded up) its [damage](#damage). 
+Defending against [area of effect](#area-of-effect) attacks is *only* possible as a **passive defense** and can *not* negate the attack. It can only halve (RU) its [damage](#damage). 
 
 ### Armor & Shields
 Armor serves as life insurance, because it can negate or at least reduce the damage taken, after a defense test has failed. 
@@ -1500,7 +1523,7 @@ If you succeed an **active defense** and achieve at least 2 **hits** over your a
 * **Displace your opponent**. They are forced to stumble backwards by `6'/2m` in a direction of your choosing. This may provoke [Attacks of Opportunity](#attacks-of-opportunity). 
 * **Displace yourself**. You move `6'/2m` in a direction of your choosing. This does **not** provoke [Attacks of Opportunity](#attacks-of-opportunity). 
 * **Throw your opponent to the ground**, making them [proned](#prone). 
-* Launch a **counter-attack**, for half your weapon's regular damage (rounded up). You'll have to roll a regular attack, which your opponent can choose to defend against. This attack does not cost you any additional [AP](#action-points-ap). 
+* Launch a **counter-attack**, for half your weapon's regular damage (RU). You'll have to roll a regular attack, which your opponent can choose to defend against. This attack does not cost you any additional [AP](#action-points-ap). 
 * If defending against a ranged attack, you **catch the projectile** (if such a feat could be "reasonably" done). You may immediately throw it back at the attacker, for no additional cost. Normal [throwing](#throwing) rules apply. 
 
 ### Cover
@@ -1568,7 +1591,7 @@ For your convenience, you can refer to the following chart:
 <img src="../../img/miss-chart.png" width="384px" height="384px"></img>
 
 ### Throwing-Damage
-If throwing a weapon that isn't specifically made or especially suitable to throwing, then the damage that is dealt on successful hit is halved (rounded down). 
+If throwing a weapon that isn't specifically made or especially suitable to throwing, then the damage that is dealt on successful hit is halved (RD). 
 
 When throwing non-weapons, the damage dealt is calculated the following way: [strength](#strength-str) * ([bulk](#bulk) - 1). Note if [bulk](#bulk) were to be less than 1, use 1 instead. 
 
@@ -1877,7 +1900,7 @@ Performing acrobatic feats, such as jumping, tumbling and climbing, without inju
 | Level | Name                 | AP | **Ob**  | Effect(s)          | Condition(s) |
 | ----- | -------------------- | -- | ------- | ------------------ | ------------ |
 | 1     | Deft Evasion         | /  | /       | Passive: While not wearing any [armor](#armor) and not wielding a shield of bulk 2 or more, gain `+1` [compensation point](#compensation-points) to any [defense test](#defending) made using this skill. | / |
-| 2     | Wind Out Of It       | 1  | 2       | When hit by a [single-target](#single-target-st) attack, wind out of the hit and suffer only half the damage. Can be used even when a much bulkier weapon is breaking through your successful defense, to halve the damage *again*, effectively resulting in you suffering only 1/4th (rounded up) of the damage. | / |
+| 2     | Wind Out Of It       | 1  | 2       | When hit by a [single-target](#single-target-st) attack, wind out of the hit and suffer only half the damage. Can be used even when a much bulkier weapon is breaking through your successful defense, to halve the damage *again*, effectively resulting in you suffering only 1/4th (RU) of the damage. | / |
 | 3     | Bob, Weave, Jab      | 1  | Opposed | When succeeding a defense test, launch a [counter-attack](#defense-stunts) against the enemy who attacked you, without any penalties to damage and without suffering any [exhaustion](#exhaustion)! | / |
 | 3     | Be My Shield         | 2  | /       | Reaction: If grappling an enemy and being hit with an attack, make *them* take the hit, instead. The grappled enemy gets **no chance** to defend themself. | Grappling an enemy. |
 
@@ -1888,7 +1911,7 @@ However, the price for this strength is steep. The chance of death is greatly in
 
 | Level | Name                 | AP | **Ob**  | Effect(s)          | Condition(s) |
 | ----- | -------------------- | -- | ------- | ------------------ | ------------ |
-| 0     | Reckless Assault     | 1  | /       | Deal half of the damage (rounded up) as additional damage on your next successful attack. Suffer a **-1D** penalty to all [defense tests](#defending) until the start of your next turn. | / |
+| 0     | Reckless Assault     | 1  | /       | Deal half of the damage (RU) as additional damage on your next successful attack. Suffer a **-1D** penalty to all [defense tests](#defending) until the start of your next turn. | / |
 | 1     | Grit Your Teeth      | 1  | /       | Reaction: Upon suffering an [injury](#injury), gain an *additional* [grit point](#grit-points-gp). | / |
 | 2     | Pain is Strength     | 3  | Opposed | Perform a [single-target](#single-target-st) melee attack against an opponent of choice. For every active [injury](#injury) you currently have, deal one extra **D6** of [bludgeoning](#damage-types) damage. You suffer one point of [exhaustion](#exhaustion). | Cooldown: 3 turns. |
 | 4     | Injury Collector     | 0  | 3       | Reaction: Upon suffering an [injury](#injury), with a successful test of this Expertise, remove all additional [penalties](#boons--penalties) (i. e. everything but the [HP](#hit-points-hp) malus) from the [injury](#injury). | / |
@@ -2128,7 +2151,7 @@ Tools: cooking utensils, a pot or pan, a strong heat source
 A cook may choose to make the meal confer certain boons, for `Q * 2` hours, at the expense of increasing the Ob by `+1`, once for each of the following boons:
 * Increase maximum HP by `Q D4`. 
 * Increase [base initiative](#base-initiative) by `Q`. 
-* Increase [strength](#strength-str) or [toughness](#toughness-tough) by `Q / 2 (rounded up)`. 
+* Increase [strength](#strength-str) or [toughness](#toughness-tough) by `Q / 2 (RU)`. 
 * Resist `Q` [freezing](#damage-types) or [burning](#damage-types) or [bleeding](#damage-types). 
 
 All meals always restore `Q HP` and reduce exhaustion by `Q`. 
@@ -2152,9 +2175,9 @@ Requires knowing [Acrobatics](#acrobatics-agistr) and a [weapon skill](#weapon--
 
 | Level | Name                 | AP | **Ob**      | Effect(s)          | Condition(s) |
 | ----- | -------------------- | -- | ----------- | ------------------ | ------------ |
-| 0     | Vault & Jab          | 2  | Opposed - 1 | Vault over an enemy, placing yourself directly behind them, and strike them with a weapon, for half (rounded up) of its damage and pushing them back `3'/1m`. | / |
+| 0     | Vault & Jab          | 2  | Opposed - 1 | Vault over an enemy, placing yourself directly behind them, and strike them with a weapon, for half (RU) of its damage and pushing them back `3'/1m`. | / |
 | 1     | Bounce Back          | /  | /           | Reaction: When knocked down immediately get back up, at no AP cost. You must not be wearing armor. | / |
-| 1     | Area Evasion         | /  | /           | Passive/Reaction: When succeeding a defense test against an [aoe](#area-of-effect-aoe), you suffer only 1/4th (rounded up) of the damage. | / |
+| 1     | Area Evasion         | /  | /           | Passive/Reaction: When succeeding a defense test against an [aoe](#area-of-effect-aoe), you suffer only 1/4th (RU) of the damage. | / |
 | 3     | Shield Breaker       | /  | /           | Passive: You know to exploit the lethargy of shields and can circumvent their defensive bonuses. Against you, shields always count as [overwhelmed](#flanking)! | / |
 
 ## List of Conditions
@@ -2182,7 +2205,7 @@ For every *point* in **bleeding**, a character suffers **1 D4** points of [bleed
 
 * Graded
 * Shrug off: 1 *point* with a [toughness](#toughness-tough) [test](#tests) with **Ob** `1`. 
-* Automatic shrug-off: half (rounded up) *points* at the end of the turn. 
+* Automatic shrug-off: half (RU) *points* at the end of the turn. 
 * Immediate cancel: With a successful [medicine](#medicine-agiwit) [test](#tests), requiring 1 [medical supplies](#list-of-general-assets) with **Ob** at the current *degree*.
 
 ### Death's Door
@@ -2198,7 +2221,7 @@ A character can be helped out of the **death's door** **condition**, if their [H
 For every point in **dissolving**, a character suffers **1 D4** points of [acid](#damage-types) damage every [Tick](#ticks). 
 
 * Graded
-* Automatic shrug-off: half (rounded up) *points* at the end of the turn. 
+* Automatic shrug-off: half (RU) *points* at the end of the turn. 
 * Immediate cancel: With a successful [medicine](#medicine-agiwit) [test](#tests), requiring 1 [medical supplies](#list-of-general-assets) with **Ob** at the current *degree*.
 
 ### Drug-Addicted
@@ -2212,7 +2235,7 @@ After 72 consecutive hours (= 3 full days) of having being in **withdrawal**, th
 An **electrified** character suffers **-1D** for their every [test](#tests) requiring [agility](#agility-agi). That means [attribute](#attributes) and [skills](#skills). 
 
 * Graded
-* Automatic shrug-off: half (rounded up) *points* at the end of the turn. 
+* Automatic shrug-off: half (RU) *points* at the end of the turn. 
 * Immediate cancel: After a minute of last suffering one *point* of **electrified** or at the end of combat. 
 
 ### Exhausted
@@ -2226,7 +2249,7 @@ This **condition** can be recovered from by **actively resting** for at least **
 For every *point* in **frostbitten**, a character suffers `-1` [AP](#action-points-ap) and `-1D` to all [tests](#tests). 
 
 * Graded
-* Automatic shrug-off: half (rounded up) *points* at the end of the turn. 
+* Automatic shrug-off: half (RU) *points* at the end of the turn. 
 * Immediate cancel: After a minute of last suffering one *point* of **frostbitten** or at the end of combat. 
 
 ### Grappled
@@ -2243,6 +2266,9 @@ A character who has been made unnaturally **jealous**, will do anything in their
 * Graded
 * Shrug off: 1 *point* with a [self-control](#self-control-toughtough) [test](#tests) with **Ob** `1`. 
 * Immediate cancel: When the character is made [unconscious](#unconscious), the source of the jealousy is removed or the character acquires that which they covet. 
+
+### Marked
+A Marked character suffers `-1D` to all defense tests and `+50%` damage (RU) from all direct sources (meaning damage from Bleeding, Burning, Poisoned and so on is excluded). 
 
 ### Pacified
 A character who is **pacified**, is unable to *willingly* take any action that would directly or indirectly harm any other creature. Note, the character is not physically unable to cause harm, but they **really** don't want to. 
