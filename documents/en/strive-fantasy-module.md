@@ -1381,6 +1381,8 @@ This list supplements the list of **injuries** of the [core module](./strive-cor
 
 # Glossary
 
+See also the [Core Glossary](strive-core.md#glossary). 
+
 | Term                                         | Meaning / Description  |
 | -------------------------------------------- | ---------------------- |
 | [OPN](#psionics-arcwit)                      | Openness to [The Veil](#the-veil) |

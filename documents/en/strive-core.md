@@ -2559,9 +2559,10 @@ A **multiple-single-target** (**MST**) action affects at least one and up to a m
 
 | Term                                         | Meaning / Description  |
 | -------------------------------------------- | ---------------------- |
-| [AP](#action-points-ap)                      | Action Point           |
 | [AOE](#area-of-effect-aoe)                   | Area of Effect         |
+| [AP](#action-points-ap)                      | Action Point           |
 | [MST](#multiple-single-target-mst)           | Multiple Single Target |
+| [Ob](#tests)                                 | Obstacle               |
 | [RD](#rounded-up--rounded-down)              | Rounded down           |
 | [RU](#rounded-up--rounded-down)              | Rounded up             |
 | [ST](#single-target-st)                      | Single-Target          |
