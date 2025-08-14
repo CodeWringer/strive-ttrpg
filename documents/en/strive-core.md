@@ -1965,9 +1965,9 @@ For any ally next to you, who's also using a shield, you both gain **+1D** on yo
 | 2     | Shield Slam          | 2  | Opposed | Perform a [single-target](#single-target-st) melee attack to knock your opponent down with your shield. | Using shield. |
 
 #### Trapping (Awar/Wit)
-Setting traps in places where they're difficult to detect, such as bear traps, pits filled with spikes and the like. And the ability to disarm them. 
+Setting traps in places where they're difficult to detect and the ability to disarm them. Used to set traps such as bear traps, pits filled with spikes, land mines and so on.
 
-When setting a trap, roll an Ob 0 test. The number of **hits** represent the quality level of the trap, which determine how hard it is to detect and disarm. `0` **hits** means the trap isn't at all concealed and the test is considered a **failure**. Even just `1` **hit** means the test is considered a **success**. 
+When setting a trap, roll an Ob `0` test. The number of **hits** represent the quality level of the trap, which determines how hard it is to detect and disarm. `0` **hits** means the trap isn't at all concealed and the test is considered a **failure**. Even just `1` **hit** means the test is considered a **success**. 
 
 #### Throwing (Agi/Agi)
 General expertise at throwing things. This includes weapons as well as non-weapon objects. 
