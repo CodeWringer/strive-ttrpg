@@ -232,6 +232,7 @@
     - [Single Target (ST)](#single-target-st)
     - [Multiple Single Target (MST)](#multiple-single-target-mst)
     - [Area of Effect (AoE)](#area-of-effect-aoe)
+- [Glossary](#glossary)
 
 Version 22 (Playtest)
 
@@ -2550,3 +2551,14 @@ A **multiple-single-target** (**MST**) action affects at least one and up to a m
 
 ### Area of Effect (AoE)
 **Area of Effect** (**aoe**) actions affect *every* target that is in the area of effect. 
+
+# Glossary
+
+| Term                                         | Meaning / Description  |
+| -------------------------------------------- | ---------------------- |
+| [AP](#action-points-ap)                      | Action Point           |
+| [AOE](#area-of-effect-aoe)                   | Area of Effect         |
+| [MST](#multiple-single-target-mst)           | Multiple Single Target |
+| [RD](#rounded-up--rounded-down)              | Rounded down           |
+| [RU](#rounded-up--rounded-down)              | Rounded up             |
+| [ST](#single-target-st)                      | Single-Target          |
