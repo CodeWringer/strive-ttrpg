@@ -2232,11 +2232,9 @@ For every 24 hours that a character is in **withdrawal**, they suffer **-1D** to
 After 72 consecutive hours (= 3 full days) of having being in **withdrawal**, the character breaks free from their addiction, removing this **condition**.
 
 ### Electrified
-An **electrified** character suffers **-1D** for their every [test](#tests) requiring [agility](#agility-agi). That means [attribute](#attributes) and [skills](#skills). 
+An **electrified** character spasms, uncontrollably. They are force moved in a random direction by `3'/1m`. 
 
-* Graded
-* Automatic shrug-off: half (RU) *points* at the end of the turn. 
-* Immediate cancel: After a minute of last suffering one *point* of **electrified** or at the end of combat. 
+* Automatic shrug-off: At the end of the turn. 
 
 ### Exhausted
 An **exhausted** character begins their turn with -2 **AP** and can run at most only half the distance they normally could. [Sprinting](#combat-movement) is impossible. In addition, they suffer a penalty of **-1D** to all [tests](#tests). The number of dice for a [test](#tests) cannot be reduced to less than 1 by this penalty. 
