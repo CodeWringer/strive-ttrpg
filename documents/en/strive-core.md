@@ -232,6 +232,7 @@
     - [Single Target (ST)](#single-target-st)
     - [Multiple Single Target (MST)](#multiple-single-target-mst)
     - [Area of Effect (AoE)](#area-of-effect-aoe)
+- [Glossary](#glossary)
 
 Version 22 (Playtest)
 
@@ -2553,3 +2554,36 @@ A **multiple-single-target** (**MST**) action affects at least one and up to a m
 
 ### Area of Effect (AoE)
 **Area of Effect** (**aoe**) actions affect *every* target that is in the area of effect. 
+
+# Glossary
+
+| Term                                         | Meaning / Description   |
+| -------------------------------------------- | ----------------------- |
+| [AP](#action-points-ap)                      | Action Point            |
+| [AFP](#ambition-fate-points)                 | Ambitions Fate-Point    |
+| [Agi](#agility-agi)                          | The Agility attribute   |
+| [AOE](#area-of-effect-aoe)                   | Area of Effect          |
+| [AP](#action-points-ap)                      | Action Point            |
+| [Awar](#awareness-awar)                      | The Awareness attribute |
+| [D10](#dice)                                 | A ten-sided die         |
+| [D20](#dice)                                 | A twenty-sided die      |
+| [D4](#dice)                                  | A four-sided die        |
+| [D6](#dice)                                  | A six-sided die         |
+| [D8](#dice)                                  | An eight-sided die      |
+| [FP](#fate-points)                           | Fate-Point              |
+| [GM](#introduction)                          | Game-Master             |
+| [hit](#tests)                                | Result of an individual die-roll |
+| [HP](#hit-points-hp)                         | Hit-Points              |
+| [MaFP](#major-fate-points)                   | Major Fate-Point        |
+| [MiFP](#minor-fate-points)                   | Minor Fate-Point        |
+| [miss](#tests)                               | Result of an individual die-roll |
+| [MST](#multiple-single-target-mst)           | Multiple Single Target  |
+| [NPC](#non-player-character-npc)             | Non-Player Character    |
+| [Ob](#tests)                                 | Obstacle                |
+| [PC](#introduction)                          | Player Character        |
+| [RD](#rounded-up--rounded-down)              | Rounded down            |
+| [RU](#rounded-up--rounded-down)              | Rounded up              |
+| [ST](#single-target-st)                      | Single-Target           |
+| [Str](#strength-str)                         | The Strength attribute  |
+| [Tough](#toughness-tough)                    | The Toughness attribute |
+| [Wit](#wit-wit)                              | The Wit attribute       |

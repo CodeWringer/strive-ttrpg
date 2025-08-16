@@ -111,6 +111,7 @@
     - [Telekinesis (Arc/Agi)](#telekinesis-arcagi)
     - [Telepathy (Arc/Wit)](#telepathy-arcwit)
   - [List of Illnesses](#list-of-illnesses)
+- [Glossary](#glossary)
 
 Version 10 (Playtest)
 
@@ -1390,3 +1391,13 @@ This list supplements the list of **injuries** of the [core module](./strive-cor
 | Name              | Duration          | Effect      | Treatment |
 | ----------------- | ----------------- | ----------- | --------- |
 | Amber Curse       | **2D10** Days     | The victim finds it difficult to feel the flow of magic through their body. **-1D4** [arcana](#arcana-arc); **-1D4** to any magic skills and [rune-using](#rune-using-agiwit). | Conventional methods cannot treat this illness. It can be treated with a potion of powdered [abyssalite](#abyssalite). |
+
+# Glossary
+
+See also the [Core Glossary](strive-core.md#glossary). 
+
+| Term                                         | Meaning / Description  |
+| -------------------------------------------- | ---------------------- |
+| [Arc](#arcana-arc)                           | The Arcana attribute   |
+| [OPN](#psionics-arcwit)                      | Openness to [The Veil](#the-veil) |
+| [SI](#spell-intensity-si)                    | Spell Intensity        |
