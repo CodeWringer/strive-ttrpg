@@ -54,7 +54,7 @@
   - [Health \& Exhaustion](#health--exhaustion)
     - [Hit Points (HP)](#hit-points-hp)
       - [Bludgeoned to 0 HP](#bludgeoned-to-0-hp)
-    - [Grit Points (GP)](#grit-points-gp)
+    - [Grit Points](#grit-points)
     - [Toughness Progress from Damage](#toughness-progress-from-damage)
     - [Injury](#injury)
       - [Injury States \& Treatment](#injury-states--treatment)
@@ -239,7 +239,7 @@ Version 22 (Playtest)
 A role-playing game by Nicolas 'Krubi' H.
 
 # Introduction
-**STRIVE** is a table-top role-playing game (**TTRPG**), requiring a **game master** (**GM**) and at least one **player** to play and at its core, is about **emergent storytelling** and **tactical combat**. Players experience the **evolution** of their characters by defining convictions that **drive** them to action, based on the events they experience. In that way, players also **drive** the story forward and guide the evolution of the world. 
+**STRIVE** is a table-top role-playing game (**TTRPG**), requiring a **game master** (**GM**) and at least one **player** to play and at its core, is about **emergent storytelling** and **tactical combat**. Players experience the **evolution** of their player character (**PC**) by defining convictions that **drive** them to action, based on the events they experience. In that way, players also **drive** the story forward and guide the evolution of the world. 
 
 Play itself works as a conversation, in which players tell the **GM** what their characters attempt to do and the **GM** determines what happens when they do. Dice and these rules help. 
 
@@ -254,7 +254,7 @@ Most rules have a certain degree of vagueness to them. This is at least partiall
 ## Tactical Combat
 First of all, STRIVE is **not** a wargame. It is not about coordinating large troop movements, supply lines or chains of command (although you can feature such things in your game if you like). 
 
-Secondly, the game is not *about* tactics, either. However, the combat *is tactical* in the sense that **PC**s stand and move on a grid, act in turns and that actions per turn are limited. Players will need to coordinate what their characters do. They have time to think about their current and next actions. To overserve and learn, what their own character and the other characters in the encounter are capable of. 
+Secondly, the game is not *about* tactics, either. However, the combat *is tactical* in the sense that **PC**s stand and move on a grid, act in turns and that actions per turn are limited. Players will need to coordinate what their characters do. They have time to think about their current and next actions, to observe and learn what their own character and the other characters in the encounter are capable of. 
 
 And it's the capabilities of characters, that in themselves are a puzzle. There are many options to choose from. There are multiple choices available for deciding *how* a character will move, how they will attack or defend. This also adds another layer of "tactics". 
 
@@ -323,7 +323,7 @@ A [test](#tests) must be made whenever there is an **obstacle** to overcome - so
 ### Intent & Action
 The players drive the story and the action. They decide what their character will try to do and the **GM** will help them figure out if things will go as planned. 
 
-As a player, when deciding on what to do, make sure you state the **intent** of your action, like "I want to find incriminating evidence against a merchant". Then, the **GM** will need to know *how* you aim to follow up on your intent. Describe the **action** you will take. The clearer, the better. "I will ask around", would allow the **GM** to guide you along. But there are still details left to fill in. Who and where will you ask? What will you ask them? So, a better intent would be "I will ask the other merchants at the market what they think about this one merchant". That leaves no room for doubt *how* you wish to achieve your goal, which makes the **GM**'s job easier and the game flow better. The **GM** could now have each merchant tell the **PC** some rumours or observed past activities and behaviors of that one merchant, some of which may be of a sketchy nature, like "I swear I saw him down at the docks, speaking to some shady looking people" or "He always seems wary of people walking behind him".
+As a player, when deciding on what to do, make sure you state the **intent** of your action, like "I want to find incriminating evidence against a merchant". Then, the **GM** will need to know *how* you aim to follow up on your intent. Describe the **action** you will take. The clearer, the better. "I will ask around", would allow the **GM** to guide you along. But there are still details left to fill in. Who and where will you ask? What will you ask them? So, a better intent would be "I will ask the other merchants at the market what they think about this one merchant". That leaves no room for doubt *how* you wish to achieve your goal, which makes the **GM**'s job easier and the game flow better. The **GM** could now have each merchant tell the **PC** some rumours or observed past activities and behaviors of that one merchant, some of which may be of a sketchy nature, like "I swear I saw him down at the docks, speaking to some shady looking people" or "She always seems wary of people walking behind her".
 
 Of course, how appropriate a certain [attribute](#attributes) or [skill](#skills) is for the resolution of a given situation, is ultimately up to the **GM** and the specifics of the situation itself. 
 
@@ -350,7 +350,7 @@ Whenever the outcome of an action or situation is uncertain, a **test** may be c
 
 As a basis for a **test**, either an [attribute](#attributes) or [skill](#skills) is used. More specifically, their **modified level** determines the number of **D6** available for a **test**. The **modified level** is the result of adding and subtracting [boons and penalties](#boons--penalties) (the sum of which is referred to as **modifier**) to or from the **raw level**. Note that while no [boons or penalties](#boons--penalties) are present on the character, their **modified level** is equal to their **raw level**. 
 
-Either a **six** or a **five** rolled on a single die counts as a **hit**. Other values are considered **misses**. **hits** are required in order to succeed a **test**. 
+Either a `6` or a `5` rolled on a single die counts as a **hit**. Other values are considered **misses**. **hits** are required in order to succeed a **test**. 
 
 How many **hits** are needed to succeed a **test**, is determined by the **GM** or by other characters, via a mechanism called **obstacle** (henceforth referred to as **Ob**). The **test** can only succeed, if at least as many **hits** are rolled, as the given **Ob**. 
 
@@ -781,7 +781,7 @@ Using an **expertise** counts as an **action**.
 ### Innate Abilities
 An **innate ability** is an [attribute](#attributes) or [skill](#skills) unique to a specific species or individual. 
 
-Especially for animals and monsters, **innate abilities** represent natural weapons, such as talons, stingers, sharp teeth and such. They are noted in a special "innate abilities" section on the character sheet. 
+Especially for animals and monsters, **innate abilities** represent natural weapons, such as talons, stingers, sharp teeth and such. They are noted as special "innate skills" on a character sheet. 
 
 An **innate ability** **cannot** be learned and there is no advancement for **innate abilities**. 
 
@@ -917,7 +917,7 @@ When a character was **bludgeoned** to `0` [HP](#hit-points-hp), they might surv
 
 > A character suffers 24 points of **bludgeoning damage** and are brought to 0 **HP**. They must now succeed a **toughness** test at **Ob** 2, if they are to survive (albeit unconscious). 
 
-### Grit Points (GP)
+### Grit Points
 A **grit point** lets a character stand up in defiance of their [injuries](#injury) and make a last-ditch effort to turn the wheel of fate around. Every time a character suffers an [injury](#injury), they gain `1` **grit point**. 
 
 **Grit points** are one-time use and last until they are spent or until an [injury](#injury) has fully healed. 
@@ -949,7 +949,7 @@ Whenever a character loses a `10` [HP](#hit-points-hp) segment (whether from a s
 >
 > Thus, their Ob for their toughness test is `0 (current injury count) + 1 (always) + 1 (from an earlier shrugged off injury) = 2`. 
 
-For every **injury** incurred, a character's maximum [HP](#hit-points-hp) is reduced - by how much is determined by their [toughness](#toughness-tough) - and a [grit point](#grit-points-gp) is earned. An **injury** can also apply further [penalties](#boons--penalties). A penalty to [toughness](#toughness-tough) **does not** further reduce the current maximum [HP](#hit-points-hp)! The reduction from the **injury** is enough penalty. 
+For every **injury** incurred, a character's maximum [HP](#hit-points-hp) is reduced - by how much is determined by their [toughness](#toughness-tough) - and a [grit point](#grit-points) is earned. An **injury** can also apply further [penalties](#boons--penalties). A penalty to [toughness](#toughness-tough) **does not** further reduce the current maximum [HP](#hit-points-hp)! The reduction from the **injury** is enough penalty. 
 
 > A character with toughness 4, suffering an injury, loses `8` maximum **HP**. 
 
@@ -1404,7 +1404,7 @@ If a character slams into another when force moved, they both suffer half of the
 ### Gravity Hurts
 When a character falls more than `9'/3m` and impacts with the ground, then they suffer `N * 6` points of bludgeoning damage, where *N* is the number of `15'/5m` increments that they fell. The damage that is suffered may be reduced with an [Acrobatics](#acrobatics-agistr) test. Every **hit** achieved, reduces the damage by `D4` points. 
 
-> A character falls of a suspension bridge, down a shallow ravine. They fall for `48'16m`. Upon impacting the ground, the would suffer `4 * 6 = 24` points of bludgeoning damage. They try to dampen the impact with an Acrobatics test and achieve `2` hits, which allow them to ignore `2D4` points of bludgeoning damage from the fall. They roll a `2` and a `3`, meaning they reduce the damage by `5` points. As a result, they suffer only `19` points of bludgeoning damage. 
+> A character falls of a suspension bridge, down a shallow ravine. They fall for `48'16m`. Upon impacting the ground, they would suffer `4 * 6 = 24` points of bludgeoning damage, which they try to dampen with an Acrobatics test and achieve `2` hits, which allow them to ignore `2D4` points of bludgeoning damage from the fall. They roll a `2` and a `3`, meaning they reduce the damage by `5` points. As a result, they suffer only `19` points of bludgeoning damage. 
 
 > A character is shoved down a ditch and falls `12'/4m`. This is more than the minimum, and they will suffer `1 * 6 = 6` points of bludgeoning damage upon impact, unless they can reduce that amount with an Acrobatics test. 
 
@@ -1450,7 +1450,7 @@ Damage dealt to an opponent reduces their [HP](#hit-points-hp). When their **HP*
 [Armor](#armor) can reduce the amount of damage that is actually applied. 
 
 ### Attacks of Opportunity
-When a character is within weapon's reach of another hostile character, they're considered within the other's **Range of Opportunity**. Whenever a character in an enemy's **Range of Opportunity** moves away from or more than 6'/2m *around* that enemy, that enemy can *choose* to perform an **Attack of Opportunity**. It is possible to avoid an **Attack of Opportunity** with a [disengage](#disengage) combat action. 
+When a character is within weapon's reach of another hostile character, they're considered within the other's **Range of Opportunity**. Whenever a character in an enemy's **Range of Opportunity** moves away from or more than `6'/2m` *around* that enemy, that enemy can *choose* to perform an **Attack of Opportunity**. It is possible to avoid an **Attack of Opportunity** with a [disengage](#disengage) combat action. 
 
 Performing an **Attack of Opportunity** costs 1 [AP](#action-points-ap) at a **-1D** penalty and will **halt** the enemy in question, preventing their movement, regardless of whether the attack lands. The attacked party can still choose to [push through](#push-through), thus still getting to move, but if they do, the **Attack of Opportunity** is **guaranteed** to land successfully, without any attack [test](#tests) necessary (this counts as an automatic success for the attacker). 
 
@@ -1531,16 +1531,16 @@ If you succeed an **active defense** and achieve at least 2 **hits** over your a
 It is possible for characters to hide behind stationary things to make it harder to hit them. This mostly applies to ranged combat, but may also find use in melee, depending on circumstance. 
 
 There are two categories of cover: 
-* **Low cover**: +1 **Ob** against a target that is behind low cover. 
+* **Low cover**: `+1` **Ob** against a target that is behind low cover. 
   * Low cover is any static object to hide behind that doesn't fully cover the body, like a tree stump or low wall. 
   * If the type of cover allows (like a low wall), going [prone](#prone) may turn your low cover to high cover. 
-* **High cover**: +2 **Ob** against a target that is behind high cover. 
+* **High cover**: `+2` **Ob** against a target that is behind high cover. 
   * High cover is any static object to hide behind that fully covers the body, like a tall wall or large boulder. 
 
 ### Speed aids Defense
 It is possible for a victim of an attack to be moving too fast for the attacker's ability to keep tracking them effectively. 
 
-What speed exactly that is, depends heavily on circumstance. As always, the **GM**'s estimate determines whether a bonus can apply to a defense [test](#tests). A fast moving target may increase the attacker's **Ob** by 1, up to 3, depending on _how many degrees of too fast_ they are moving. 
+What speed exactly that is, depends heavily on circumstance. As always, the **GM**'s estimate determines whether a bonus can apply to a defense [test](#tests). A fast moving target may increase the attacker's **Ob** by `1`, up to `3`, depending on _how many degrees of too fast_ they are moving. 
 
 > In a sci-fi setting, an automated turret may have a tracking system that can easily keep up with targets moving at high speeds, which will only fail if the target performs some extreme maneuvers. 
 > 
@@ -1551,39 +1551,38 @@ Throwing things is a special type of action, that follows the rules outlined bel
 
 ### Throwing-Distance
 **The maximum distance** something can be thrown is determined by the object's [bulk](#bulk) and the character's [strength](#strength-str):
-* For every point in [strength](#strength-str), an object can be thrown an additional **15'/5m**. 
-* For every point in bulk past 1, the [strength](#strength-str) value for throwing is reduced by 1. 
+* For every point in [strength](#strength-str), an object can be thrown an additional `15'/5m`. 
+* For every point in bulk past `1`, the [strength](#strength-str) value for throwing is reduced by `1`. 
 
 The steps to determine **distance** to throw are as follows:
-1. Reduce the object's [bulk](#bulk) by 1. 
+1. Reduce the object's [bulk](#bulk) by `1`. 
 2. Reduce [strength](#strength-str) by the remaining [bulk](#bulk). 
-3. Multiply by 15'/5m. 
+3. Multiply by `15'/5m`. 
 
-> A character with **strength** 1 can throw an object of [bulk](#bulk) 1 up to 15'/5m and cannot throw an object of bulk 2 or higher, at all. 
+> A character with **strength** `1` can throw an object of bulk `1` up to `15'/5m` and cannot throw an object of bulk `2` or higher, at all. 
 > 
-> A character with **strength** 5 can throw an object of [bulk](#bulk) 1 up to 75'/25m and an object of [bulk](#bulk) 3 up to 45'/15m. 
+> A character with **strength** `5` can throw an object of bulk `1` up to `75'/25m` and an object of bulk`3` up to `45'/15m`. 
 
 ### Throwing-Accuracy
 How likely the object is to impact where intended is determined by the object's [bulk](#bulk), the distance to throw and the character's skill in the [throwing](#throwing-agiagi) skill. If throwing _at_ another character, then their defense also factors into the chance to hit. 
-* For every **15'/5m** interval, the **Ob** increases by 1. 
-  * That means up to 15'/5m is **Ob** 1. Starting at 18'/6m, up to and including 30'/10m it's **Ob** 2. Starting at 33'/11m, it's **Ob** 3, and so on.
+* For every `15'/5m` interval, the **Ob** increases by `1`. 
+  * That means up to `15'/5m` is **Ob** `1`. Starting at `18'/6m`, up to and including `30'/10m` it's **Ob** `2`. Starting at `33'/11m`, it's **Ob** `3`, and so on.
 
 The steps to determine **Ob** to throw are as follows:
-1. Divide distance to throw by 15'/5m.
-  1. Round up.
+1. Divide distance to throw by `15'/5m` and round up.
 2. If throwing _at_ another character, add the **hits** of the defender's defense [test](#tests).
 
-> A character must succeed a test at **Ob** 1 for a distance of 15'/5m. They must succeed a test at **Ob** 2 for a distance of 18'/6m and a test at **Ob** 3 for a distance of 33'/11m. 
+> A character must succeed a test at **Ob** `1` for a distance of `15'/5m`. They must succeed a test at **Ob** `2` for a distance of `18'/6m` and a test at **Ob** `3` for a distance of `33'/11m`. 
 
-> A character is throwing their weapon at an enemy standing 24'/8m away. The distance sets the base **Ob** to 2. Additionally, the defender gets to roll their defense test and achieves 1 **hit**. This raises the **Ob** to hit to 3. 
+> A character is throwing their weapon at an enemy standing `24'/8m` away. The distance sets the base **Ob** to `2`. Additionally, the defender gets to roll their defense test and achieves `1` **hit**. This raises the **Ob** to hit to `3`. 
 
-In case of an unsuccessful throw, the object lands only near the intended spot, instead of on it. In order to determine where a missed throw lands, roll a **D8**. A 1 designates the object landed north-west of the intended spot. Then, going clock-wise, a 2 would designate north, 3 north-east and so on. 
+In case of an unsuccessful throw, the object lands only near the intended spot, instead of on it. In order to determine where a missed throw lands, roll a `D8`. A `1` designates the object landed north-west of the intended spot. Then, going clock-wise, a `2` would designate north, `3` north-east and so on. 
 
-A roll of **1D4** determines how far along that axis, measured from the intended spot, the object lands. 
+A roll of `1D4` determines how far along that axis, measured from the intended spot, the object lands. 
 
-> A character missed their throw. They roll **1D8**, yielding a 4, which means east of the intended spot. Then they roll **1D4**, yielding a 3, which means a distance of 9'/3m (= 3 fields). 
+> A character missed their throw. They roll `1D8`, yielding a `4`, which means east of the intended spot. Then they roll `1D4`, yielding a `3`, which means a distance of `9'/3m`. 
 >
-> So, the object lands 9'/3m (= 3 fields) east of the intended spot. 
+> So, the object lands `9'/3m` east of the intended spot. 
 
 Note, that in case a spot determined this way would be farther than the character can throw, you must correct the distance by moving it closer towards the character that threw the object, until it is within their allowed distance. 
 
@@ -1594,13 +1593,11 @@ For your convenience, you can refer to the following chart:
 ### Throwing-Damage
 If throwing a weapon that isn't specifically made or especially suitable to throwing, then the damage that is dealt on successful hit is halved (RD). 
 
-When throwing non-weapons, the damage dealt is calculated the following way: [strength](#strength-str) * ([bulk](#bulk) - 1). Note if [bulk](#bulk) were to be less than 1, use 1 instead. 
+When throwing non-weapons, the damage dealt is calculated the following way: `strength * (bulk - 1)`. Note if [bulk](#bulk) were to be less than `1`, use `1` instead. 
 
-Even if the `bulk - 1` formula would result in 0, instead use 1. The resulting multiplicator must not be less than 1. 
+The [damage type](#damage-types) to use, depends on the type of object and how it hits the target. For most non-weapons, **Bludgeoning** should be appropriate. 
 
-The [damage type](#damage-types) to use, depends on the type of object and how it hits the target. For most non-weapons, **bludgeoning** should be appropriate. 
-
-> A character with [strength](#strength-str) 5, throwing a [bulk](#bulk) 3 object, can deal 5 * (3 - 1) = 10 points of damage. 
+> A character with strength `5`, throwing a bulk `3` object, can deal `5 * (3 - 1) = 10` points of damage. 
 
 # General Interactions
 These are rules pertaining to specific social interactions or otherwise non-combat interactions that aren't immediately covered by a single [skill](#skills). 
@@ -1608,11 +1605,11 @@ These are rules pertaining to specific social interactions or otherwise non-comb
 ## Appraisal
 In order to appraise the value, weight, size or other properties of something, a [test](#tests) with a [skill](#skills) pertaining to _what_ is being appraised must be made. 
 
-> For example, to determine the value and weight of a gold-nugget, one could test [metallurgy](#metallurgy-awarwit). 
+> For example, to determine the value and weight of a gold-nugget, one could test [Metallurgy](#metallurgy-awarwit). 
 
 The **Ob** depends on circumstance. How much time is available to appraise? How unusual or uncommon is the thing being appraised? How easy is it to appraise such things? 
 
-Of course, a trader may be experienced in the goods and wares they peddle. [Mercantilism](#mercantilism-awarwit) may be used as a catch-all for appraisal, but at a penalty of increased **Ob**, as a pure trader will never be able to ascertain the quality as well as a craftsperson could. As such, when using **mercantilism** for appraisal, the **Ob** is increased by 1. 
+Of course, a trader may be experienced in the goods and wares they peddle. [Mercantilism](#mercantilism-awarwit) may be used as a catch-all for appraisal, but at a penalty of increased **Ob**, as a pure trader will never be able to ascertain the quality as well as a craftsperson could. As such, when using [Mercantilism](#mercantilism-awarwit) for appraisal, the **Ob** is always increased by `1`. 
 
 ## Persuasion, Intimidation & Deception
 There are no dedicated "social interaction" [skills](#skills) for the purposes of persuading people. Instead, characters *choose* one of their known **skills** relevant to the topic they wish to change another character's view about. 
@@ -1625,9 +1622,9 @@ That is the difference to combat. Combat cannot be played out in reality and wil
 
 Despite that, sometimes you may not clearly know how a **NPC** will react. That is when dice rolls may help to resolve the situation. 
 
-To ***persuade*** someone to see your point, you choose a *known* **skill** pertaining to the subject and make a roll. If you have no *known* **skill** to roll with, you may fall back to rolling your [wit](#wit-wit) or [awareness](#awareness-awar). The other character may [oppose](#opposed-test) your roll with the same **skill** or **attribute**.  
+To ***persuade*** someone to see your point, you choose a *known* **skill** pertaining to the subject and make a roll. If you have no *known* **skill** to roll with, you may fall back to rolling your [Wit](#wit-wit) or [Awareness](#awareness-awar). The other character may [oppose](#opposed-test) your roll with the same **skill** or **attribute**.  
 
-> For example, to convince another character that their methods for treating an ailment are incorrect, you might try to *persuade* with an opposed **medicine** test. 
+> For example, to convince another character that their methods for treating an ailment are incorrect, you might try to *persuade* with an opposed Medicine test. 
 > 
 > If you achieve more **hits** than them, they should understand you might be correct in your assessment and begin to doubt their own opinion. But if you don't, then they may just as well stick with their beliefs. 
 
@@ -1913,7 +1910,7 @@ However, the price for this strength is steep. The chance of death is greatly in
 | Level | Name                 | AP | **Ob**  | Effect(s)          | Condition(s) |
 | ----- | -------------------- | -- | ------- | ------------------ | ------------ |
 | 0     | Reckless Assault     | 1  | /       | Deal half of the damage (RU) as additional damage on your next successful attack. Suffer a **-1D** penalty to all [defense tests](#defending) until the start of your next turn. | / |
-| 1     | Grit Your Teeth      | 1  | /       | Reaction: Upon suffering an [injury](#injury), gain an *additional* [grit point](#grit-points-gp). | / |
+| 1     | Grit Your Teeth      | 1  | /       | Reaction: Upon suffering an [injury](#injury), gain an *additional* [grit point](#grit-points). | / |
 | 2     | Pain is Strength     | 3  | Opposed | Perform a [single-target](#single-target-st) melee attack against an opponent of choice. For every active [injury](#injury) you currently have, deal one extra **D6** of [bludgeoning](#damage-types) damage. You suffer one point of [exhaustion](#exhaustion). | Cooldown: 3 turns. |
 | 4     | Injury Collector     | 0  | 3       | Reaction: Upon suffering an [injury](#injury), with a successful test of this Expertise, remove all additional [penalties](#boons--penalties) (i. e. everything but the [HP](#hit-points-hp) malus) from the [injury](#injury). | / |
 
