@@ -1398,5 +1398,6 @@ See also the [Core Glossary](strive-core.md#glossary).
 
 | Term                                         | Meaning / Description  |
 | -------------------------------------------- | ---------------------- |
+| [Arc](#arcana-arc)                           | The Arcana attribute   |
 | [OPN](#psionics-arcwit)                      | Openness to [The Veil](#the-veil) |
 | [SI](#spell-intensity-si)                    | Spell Intensity        |
