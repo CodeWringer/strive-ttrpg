@@ -1225,8 +1225,8 @@ Attributes: `+2` Agi, `+4` Str, `+2` Tough, `-2` Wit
 
 | Skill                | Level | AP | **Ob**      | Damage                           | Notes  |
 | -------------------- | ----- | -- | ----------- | -------------------------------- | ------ |
-| Bite                 | 3     | 2  | `Opposed`   | `1D6 + Str` Piercing             | Tear into a victim with wicked fangs! Causes `+1` [Bleeding](./strive-core.md#bleeding)! |
-| Rend                 | 4     | 2  | `Opposed`   | `1D10 + Str` Slashing            | Tear a victim to shreds! Causes `+1` [Bleeding](./strive-core.md#bleeding)! |
+| Bite(Agi/Str)        | 3     | 2  | `Opposed`   | `1D6 + Str` Piercing             | Tear into a victim with wicked fangs! Causes `+1` [Bleeding](./strive-core.md#bleeding)! |
+| Rend(Agi/Str)        | 4     | 2  | `Opposed`   | `1D10 + Str` Slashing            | Tear a victim to shreds! Causes `+1` [Bleeding](./strive-core.md#bleeding)! |
 
 #### Werebear-Shape
 A bipedal bear armed with massive claws and protected by a mass of muscle!
@@ -1235,8 +1235,8 @@ Attributes: `-1` Agi, `+4` Str, `+5` Tough, `-2` Wit
 
 | Skill                | Level | AP | **Ob**        | Damage                           | Notes  |
 | -------------------- | ----- | -- | ------------- | -------------------------------- | ------ |
-| Rend                 | 3     | 2  | `Opposed`     | `1D10 + Str` Slashing            | Tear a victim to shreds! |
-| Bear-Hug             | 3     | 2  | `Opposed + 1` | `Str * 2` Bludgeoning            | Bear-hug and squeeze the life out of a victim! If successful, the victim is considered [Grappled](./strive-core.md#grappled)! |
+| Rend(Agi/Str)        | 3     | 2  | `Opposed`     | `1D10 + Str` Slashing            | Tear a victim to shreds! |
+| Bear-Hug(Tough/Str)  | 3     | 2  | `Opposed + 1` | `Str * 2` Bludgeoning            | Bear-hug and squeeze the life out of a victim! If successful, the victim is considered [Grappled](./strive-core.md#grappled)! |
 
 ### Cryomancy (Arc/Arc)
 The summoning and control of ice. Cryomancer's can freeze things, so they're heavier and harder to break. 
