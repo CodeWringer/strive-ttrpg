@@ -7,6 +7,7 @@
   - [Spell Intensity (SI)](#spell-intensity-si)
   - [Arcane Overheat](#arcane-overheat)
   - [Arcane Slag](#arcane-slag)
+  - [Casting Time](#casting-time)
   - [Spell-Backfire](#spell-backfire)
   - [Concentration Spells](#concentration-spells)
   - [Magic Negation](#magic-negation)
@@ -162,6 +163,7 @@ A mage can fail their [test](./strive-core.md#tests) and thus suffer a [spell-ba
 3. The dice for the test are rolled. 
 4. Convert the [SI](#spell-intensity-si) to [Arcane Slag](#arcane-slag) and [Arcane Overheat](#arcane-overheat). 
    1. If this brings the mage to a new [Arcane Overheat](#arcane-overheat) threshold, its effects now apply. 
+5. Once the [time to cast](#casting-time) is up, the spell is cast!
 
 ## Spell Intensity (SI)
 **Spell Intensity (SI)** is the strength at which a magic spell is being cast. A higher number causes stronger and further reaching effects, but also more [Arcane Slag](#arcane-slag) and [Arcane Overheat](#arcane-overheat). 
@@ -226,6 +228,17 @@ When a mage casts magic, **one third** (RD and minimum `1`) of the [Spell Intens
 
 **Arcane Slag** *can* affect non-mages, too! That implies they can also suffer [Arcane Overheat](#arcane-overheat) (although that does not make them mages)! 
 
+## Casting Time
+It takes time to cast powerful magics. How much time, depends primarily on the chosen [SI](#spell-intensity-si), as detailed below. Additionally, some spells may have a further increased casting time, noted as `Time(+*N*)`, where *N* is the increase, in rounds. 
+
+At the start of the mage's next turn, one increment of the casting time is considered elapsed. If by this, the time has elapsed fully and the spell is cast, the mage may still choose a different target, location or direction for their spell, as a means to adjust for changed battlefield conditions.
+
+* `SI 0-4`: immediate
+* `SI 5-7`: 1 rounds
+* `SI 8+`: 2 rounds
+
+The casting of spells can be interrupted! Either automatically, if the mage is incapacitated, or when the mage is *attacked*, they must succeed another test of their spell's magic school, at **Ob** equal to one third (RU) of the chosen [SI](#spell-intensity-si). If interrupted thusly, the spell may result in a [back-fire](#spell-backfire), if the test was failed completely. Otherwise, it fizzles harmlessly. 
+
 ## Spell-Backfire
 A **spell-backfire** causes a spell to affect the caster, instead of their intended target. The mage suffers the negative effects of the spell.
 
@@ -242,7 +255,7 @@ Some magic can be upheld for as long as the casting mage *concentrates* on their
 
 Under normal circumstances, a mage can only upkeep **one** concentration spell at a time. 
 
-Concentration can be broken! Concentration is automatically broken, if the mage is incapacitated, for example by having been knocked unconscious. Otherwise, whenever the mage is *forced* to roll a [test](./strive-core.md#tests), they must **also** succeed another test of their concentration spell's magic school, at the same **Ob** as the test they were just forced to roll. 
+Concentration can be broken! Either automatically, if the mage is incapacitated, or when the mage is *attacked*, they must succeed another test of their spell's magic school, at **Ob** equal to half (RU) of the chosen [SI](#spell-intensity-si). If concentration is broken, the spell ends. 
 
 ## Magic Negation
 It is possible to negate a magical attack entirely, by using the same **school of magic** **skill** and achieving more **hits**, than the attacker. The defender has to perform a [test](#testing-magic) of the same magic school, at the **Ob** equal to the number of **hits + 1** the attacker achieved. The defender does not get to use a [expertise](./strive-core.md#expertise) of the magic school in question. This is a purely defensive action, which benefits everyone who might be hit with the spell of the attacker, as no one will be hit, if the defense is successful. 
@@ -1142,9 +1155,9 @@ The psion may choose how much they wish to open up to The Veil. This is represen
 | 1     | Levitate             | 1  | `OPN * 18'/6m`  | `OPN`                           | `OPN * 3`        | **Concentration**: Cause yourself or one other **ST** of choice, within *distance* to levitate up to `OPN * 18'/6m` above the ground. |
 | 1     | "Vanish"             | 1  | `OPN * 18'/6m`  | `OPN`                           | `OPN * 4`        | **Concentration**: Cause up to `OPN` targets of choice, within *distance* to become *unperceivable* to `OPN` other targets of choice, within distance. |
 | 3     | Veil Hop             | 3  | `OPN * 9'/3m`   | `OPN`                           | `OPN * 5`        | Cause a dimensional rift to open and swallow a **ST** of choice, which another rift releases at a location of your choosing, a moment later. |
-| 3     | Join The Veil        | 2  | `OPN * 9'/3m`   | Opposed by `Self-Control - OPN` | `OPN * 3`        | Shroud a **ST** in the inscrutable darkness of The Beyond. They become [Terrified](strive-core.md#terrified) of the psion and [Marked](./strive-core.md#marked). |
+| 3     | Join The Veil        | 2  | `OPN * 9'/3m`   | Opposed by `Self-Control - OPN` | `OPN * 3`        | **Time(+1)**: Shroud a **ST** in the inscrutable darkness of The Beyond. They become [Terrified](strive-core.md#terrified) of the psion and [Marked](./strive-core.md#marked). |
 | 4     | Try Again            | 1  | /               | /                               | `25`             | **Reaction**: When you or someone else resolves a test, create a minute overlap of timelines, and displace a snippet of your own timeline with a hopefully better one. You or they must now repeat the test. The new result is final. This can only be attempted once for a given test. |
-| 4     | Memory Re-write      | 3  | `OPN * 9'/3m`   | Opposed by `Self-Control - OPN` | `OPN * 3`        | Re-write the memory of a **ST**. Make them forget, or implant in them a memory they never had. |
+| 4     | Memory Re-write      | 3  | `OPN * 9'/3m`   | Opposed by `Self-Control - OPN` | `OPN * 3`        | **Time(+1)**: Re-write the memory of a **ST**. Make them forget, or implant in them a memory they never had. |
 
 ## List of Magic Schools
 The capabilities of the various magic schools are described by the [expertise](./strive-core.md#expertise) associated with each of them. The concrete effects are kept vague on purpose, to allow a certain freedom when choosing how the magic is expressed. But the intensity or strength of a casting is tied to the level of the [magic school skill](#magic-school--school---attribute-). 
@@ -1169,7 +1182,7 @@ The control of air, to create and change its flow, for benefit and detriment.
 | 1     | Breathing Bubble     | 2  | `3'/1m`       | `SI`        | **Concentration**: Form a stationary bubble of clean air, up to `SI * 3'/1m` large in diameter, that will last for as long as you concentrate on it. | The caster loses control and is tossed `SI 3'/1m` in a random direction! |
 | 2     | Vacuumize            | 2  | `24'/8m`      | `SI`        | **Concentration**: Drive all air out of a stationary area of choice, within *distance*, up to `SI * 3'/1m` large in diameter. All creatures caught in the anti-air bubble start suffocating, as all air is driven from their lungs, as well. | The air around the caster is displaced, instead of the spot of their choosing. The effect lasts `1` round and the caster cannot concentrate on any other spell, for as long as it lasts. |
 | 3     | Crushing Compression | 2  | `SI * 18'/6m` | `SI`        | Compress the air around a target, crushing it with `SI D6` points of Bludgeoning damage. | The air compresses around the caster instead. |
-| 4     | Tornado              | 2  | `SI * 18'/6m` | `SI`        | **Concentration**: Call forth a tornado and control its movements. It is up to `SI * 3'/1m` wide and tall, and can displace creatures and objects up to `SI * 2` bulk, throwing them up to `SI * 6'/2m` far, in a random direction. The tornado can clear away gases and the like. | The tornado forms at the caster's location and moves randomly. It lasts `1` round and the caster cannot concentrate on any other spell until the tornado expires. |
+| 4     | Tornado              | 2  | `SI * 18'/6m` | `SI`        | **Concentration, Time(+1)**: Call forth a tornado and control its movements. It is up to `SI * 3'/1m` wide and tall, and can displace creatures and objects up to `SI * 2` bulk, throwing them up to `SI * 6'/2m` far, in a random direction. The tornado can clear away gases and the like. | The tornado forms at the caster's location and moves randomly. It lasts `1` round and the caster cannot concentrate on any other spell until the tornado expires. |
 
 ### Artificing (Arc/Wit)
 The setting of arcane traps and creation of arcane artifacts and materials. 
@@ -1199,10 +1212,10 @@ The alteration of physical things, to change their shape and purpose. And the ab
 | 1     | Arm Blade            | 2  | /              | `SI`            | **Concentration**: Change your arm into a sharp blade of bone, in a disgusting and painful transformation. All unarmed attacks may now deal an additional `SI * 2` Slashing damage. | You suffer a random mutation, instead! |
 | 1     | Wings                | 2  | /              | `SI`            | **Concentration**: Grow wings! You may now fly up to `SI * 30'/10m` high at a speed of `SI * 6'/2m`. | You suffer a random mutation, instead! |
 | 1     | Feel the Shape       | 1  | `SI * 60'/20m` | `SI`            | Place a hand to a surface. You can feel the faintest vibrations and reverberations within and beneath. Can be used to detect underground caves and structures and imprecisely detect the movements of creatures along a given surface, such as the ground. | / |
-| 2     | Alter Shape          | 3  | `3'/1m`        | `SI`            | A **ST** (object or creature) is altered as the mage desires, permanently. The Ob depends on the complexity and size of the re-shaping. Ob `2` for simple and small, `3` for tricky and medium, `4` for complex and large and `5+` for very complex and very large alterations. Consult your **GM**! | Instead of the intended alteration, a random mutation occurs! |
+| 2     | Alter Shape          | 3  | `3'/1m`        | `SI`            | **Time(+1)**: A **ST** (object or creature) is altered as the mage desires, permanently. The Ob depends on the complexity and size of the re-shaping. Ob `2` for simple and small, `3` for tricky and medium, `4` for complex and large and `5+` for very complex and very large alterations. Consult your **GM**! | Instead of the intended alteration, a random mutation occurs! |
 | 2     | Earth Spike Trail    | 3  | `SI * 9'/3m`   | `SI`            | Cause spikes of earth to shoot out of a surface that they can lay their hands on. Everyone caught in a straight line of up to `SI * 9'/3m` in length, originating from the mage, suffers `1D8 + SI` points of Piercing damage. The area of the spikes is then considered difficult terrain. The spikes crumble after `3` turns. | The mage loses control and the spell unleashes in a random direction. |
 | 2     | Aspect of the Bull   | 2  | /              | `SI`            | **Concentration**: Grow bull horns and bestial legs! You may now run at a speed of `12'/4m + (SI * 3'/1m)`. You may now charge at targets and gore them for `SI D6` points of Piercing damage, but you must run at least `12'/4m` in order to make use of this ability. | You suffer a random mutation, instead! |
-| 4     | Wereshape            | 3  | /              | `4`             | **Concentration**: Assume a were-beast shape. See the list below. Your attributes will be **modified** as noted on each were-shape. | Instead of transforming, your body goes into shock! You are [Stunned](./strive-core.md#stunned)! |
+| 4     | Wereshape            | 3  | /              | `4`             | **Concentration, Time(+1)**: Assume a were-beast shape. See the list below. Your attributes will be **modified** as noted on each were-shape. | Instead of transforming, your body goes into shock! You are [Stunned](./strive-core.md#stunned)! |
 
 #### Werewolf-Shape
 A bipedal wolf armed with wicked claws and deadly teeth, driven by wit and a thirst for blood!
@@ -1233,7 +1246,7 @@ The summoning and control of ice. Cryomancer's can freeze things, so they're hea
 | 1     | Cold Finger Gun       | 2  | `SI * 15'/5m` | `Opposed`                    | The mage shoots an ice spike at a **ST** from their hand, dealing `1D10 + SI` points of Freezing damage. Causes `+1` [frostbitten](./strive-core.md#frostbitten). | The caster is affected, instead. |
 | 2     | Ice Shape             | 2  | `SI * 15'/5m` | `SI`                         | Turn humidity into ice, in the shape of your choosing, in an area the size of up to `SI * 9'/3m`. | The caster suffers `+1` [frostbitten](./strive-core.md#frostbitten)! |
 | 3     | Ice Armor             | 1  | /             | `SI`                         | **Reaction**: Upon being successfully attacked, turn surrounding humidity into armor, that absorbs up to `SI * 3` points of Slashing, Piercing, Bludgeoning and Burning damage, before shattering immediately afterwards! The damage the armor absorbs, is the damage you do not suffer! | The caster suffers `+1` [frostbitten](./strive-core.md#frostbitten)! |
-| 4     | Rooting Freeze        | 3  | `SI * 15'/5m` | `SI + 1`                     | A spot of the mage's choosing freezes over. Anyone caught within the **AOE** radius of up to `SI * 9'/3m`, will be frozen to the spot and thus [Rooted](./strive-core.md#rooted) and also suffer `SI D4` points of Freezing damage. They can break free via a successful [strength](./strive-core.md#strength-str) test at Ob `SI`. Or wait, until the ice thaws, which, under normal conditions, will take `SI` rounds. | The spot beneath the caster is affected, instead. |
+| 4     | Rooting Freeze        | 3  | `SI * 15'/5m` | `SI + 1`                     | **Time(+1)**: A spot of the mage's choosing freezes over. Anyone caught within the **AOE** radius of up to `SI * 9'/3m`, will be frozen to the spot and thus [Rooted](./strive-core.md#rooted) and also suffer `SI D4` points of Freezing damage. They can break free via a successful [strength](./strive-core.md#strength-str) test at Ob `SI`. Or wait, until the ice thaws, which, under normal conditions, will take `SI` rounds. | The spot beneath the caster is affected, instead. |
 
 ### Electromancy (Agi/Arc)
 The summoning and control of lightning. Electricity is fairly versatile - it can injure or stun and power or trigger electrical and electronic devices. 
@@ -1243,7 +1256,7 @@ The summoning and control of lightning. Electricity is fairly versatile - it can
 | 0     | Shocking Touch        | 2  | `3'/1m`        | `Opposed - SI`               | A small area, about the size of the mage's hand is burned on touch by an electrical shock, dealing `SI * 3` points of Electrical damage to a **ST**. Causes [Electrified](./strive-core.md#electrified) in the victim. | The caster is affected, instead. |
 | 1     | Shock                 | 2  | `SI * 9'/3m`   | `Opposed`                    | An arc of lightning strikes the vulnerable internals of a **ST**, dealing `SI D4` points of Electrical damage. Causes [Electrified](./strive-core.md#electrified) in the victim. | The caster is affected, instead. |
 | 1     | Power-Up              | 2  | `SI * 3'/1m`   | `SI`                         | An electrical device is powered up for `SI * 5` minutes. | The device breaks or otherwise seizes up and becomes unusable. |
-| 3     | Stunning Shock        | 2  | `SI * 9'/3m`   | `Opposed`                    | An aimed arc of lightning strikes a **ST**'s nervous system and makes them [Stunned](./strive-core.md#stunned). | The caster is affected, instead. |
+| 3     | Stunning Shock        | 2  | `SI * 9'/3m`   | `Opposed`                    | **Time(+1)**: An aimed arc of lightning strikes a **ST**'s nervous system and makes them [Stunned](./strive-core.md#stunned). | The caster is affected, instead. |
 | 4     | UNLIMITED POWER       | 2  | `SI * 30'/10m` | `SI + 1`                     | A cone of lightning spews forth from the mage's finger tips. Up to `SI + 1` **MST** can be hit with the shock, dealing `SI D8` points of Electrical damage. Causes [Electrified](./strive-core.md#electrified) in the victims. | The caster and anyone next to them is affected, instead. |
 
 ### Hexing (Arc/Arc)
@@ -1251,7 +1264,7 @@ The casting of curses to weaken others.
 
 | Level | Name                  | AP | Distance      | Ob                        | Effect(s)                      | Backfire Effect(s) |
 | ----- | --------------------- | -- | ------------- | ------------------------- | ------------------------------ | ------------------ |
-| 0     | Instill Fear          | 2  | `SI * 15'/5m` | Opposed by `Self-Control` | [Terrify](strive-core.md#terrified) a victim for `SI` turns. | The caster is affected, instead. |
+| 0     | Instill Fear          | 2  | `SI * 15'/5m` | Opposed by `Self-Control` | **Time(+1)**: [Terrify](strive-core.md#terrified) a victim for `SI` turns. | The caster is affected, instead. |
 | 0     | Slow Down             | 2  | `SI * 9'/3m`  | Opposed by `Self-Control` | Reduce a target's [AP](./strive-core.md#action-points-ap) regain per turn by `1` for `SI` turns and reduce their current [AP](./strive-core.md#action-points-ap) by `1`. Does not stack. | The caster is affected, instead. |
 | 1     | Weaken                | 2  | `SI * 15'/5m` | Opposed by `Toughness`    | **Concentration**: Cause a target to take `SI * 2` more points of damage from a chosen damage type. | The caster is affected, instead. The effect lasts for `1` round and the mage **cannot** concentrate on any other spell for that duration. |
 | 2     | Atrophy               | 2  | `SI * 9'/3m`  | Opposed by `Toughness`    | **Concentration**: Weaken a target's Strength by `SI` levels. Also, they deal `SI * 2` fewer points of damage per physical attack. | The caster is affected, instead. The effect lasts for `1` round and the mage **cannot** concentrate on any other spell for that duration. |
@@ -1270,8 +1283,8 @@ Contact with **magically fouled water** will always cause [illness](./strive-cor
 | 0     | Separate Fluids      | 1  | `SI * 15'/5m` | `SI`                      | Turn one liquid into two distinct liquids, each containing a specific aspect, and which **cannot mix**, in a `SI * 9'/3m` radius. Could be used to separate foul water from pure water. | / |
 | 1     | Fluid Whip           | 2  | `SI * 9'/3m`  | `Opposed`                 | Cause a fluid to lash out at a target, like a whip, dealing `SI D6` points of Slashing damage. | The caster loses control and the whip strikes in a random direction. |
 | 2     | Harden Fluid         | 2  | `SI * 9'/3m`  | `SI`                      | **Concentration**: Cause a fluid in a radius or line of up to `SI * 15'/5m` to become semi-solid. Solid enough to walk on it and for it to keep its current shape! | The water turns magically foul! |
-| 3     | Conjure Rain         | 3  | `SI * 15'/5m` | `SI`                      | **Concentration**: Cause rain to fall in a radius or line of up to `SI * 15'/5m`. | Foul water rains from the sky! Anyone caught in it will suffer an [illness](./strive-core.md#illness)! |
-| 3     | Conjure Fog          | 3  | `SI * 15'/5m` | `SI`                      | **Concentration**: Cause fog to form in a radius or line of up to `SI * 9'/3m`. The fog imposes a `-2` penalty to all tests through or within it that rely on sight. | The fog forms around the mage, instead of their chosen location and lasts for `1` round. The mage **cannot** concentrate on any other spell for that duration. |
+| 3     | Conjure Rain         | 3  | `SI * 15'/5m` | `SI`                      | **Concentration, Time(+1)**: Cause rain to fall in a radius or line of up to `SI * 15'/5m`. | Foul water rains from the sky! Anyone caught in it will suffer an [illness](./strive-core.md#illness)! |
+| 3     | Conjure Fog          | 3  | `SI * 15'/5m` | `SI`                      | **Concentration, Time(+1)**: Cause fog to form in a radius or line of up to `SI * 9'/3m`. The fog imposes a `-2` penalty to all tests through or within it that rely on sight. | The fog forms around the mage, instead of their chosen location and lasts for `1` round. The mage **cannot** concentrate on any other spell for that duration. |
 
 ### Illusion (Arc/Awar)
 Creation of non-physical influences on the senses. That includes images, sounds and odors. The illusions cannot cause direct harm, although they can drive an individual to acts that may put them in danger. 
@@ -1292,9 +1305,9 @@ The summoning and control of fire. The flame being a destructive force, pyromanc
 | 1     | Flame Whip           | 2  | `SI * 9'/3m`   | `Opposed`                 | Lash out at a **ST** with a whip made of pure fire, dealing `SI D6` points of Burning damage and `+1` [Burning](./strive-core.md#burning) to them! | The caster loses control and the whip lashes out in a random direction, instead! |
 | 1     | Imbue Flame          | 2  | `SI * 9'/3m`   | `SI`                      | **Concentration**: Cover an object in flames that do not burn it, but rather anything else! All attacks made with that object deal an additional `SI * 2` points of Burning damage! | The flames *do* consume the object they cover! The object *can* still be carried or wielded, but will deal `SI * 2` points of Burning damage to whoever does, at the start of their every turn! |
 | 2     | Cone of Fire         | 3  | `SI * 6'/2m`   | `SI + 1`                  | The mage shoots a burst of fire in a cone in front of them, dealing `SI D6` points of Burning damage and inflicting `+1` [Burning](./strive-core.md#burning) to all in the victims in the cone. | The effect triggers in reverse, pointing the cone backwards, through the mage's face. |
-| 3     | Fire Ball            | 2  | `SI * 45'/15m` | `SI`                      | The mage forms a large ball of flame between their hands, ready to be flung at a target location, dealing `SI D6 + 4` points of Burning damage and inflicting `+1` [Burning](./strive-core.md#burning) in a radius of up to `SI * 3'/1m`. | The fire ball instead launches in a random direction, impacting with the first obstacle it comes across! |
-| 5     | Flame Jet            | 3  | `SI * 30'/10m` | `SI + 1`                  | A steady stream of flame shoots from the mage's hands, dealing `SI D6` points of Burning damage and inflicting `+2` [Burning](./strive-core.md#burning) to anything caught by it, in a straight line.  | The line of fire erupts backwards, through the mage. They and anyone behind them, in the line's range is affected. |
-| 7     | Rain of Fire         | 4  | `SI * 60'/20m` | `SI + 3`                  | **Concentration**: The mage makes fire rain from the sky! At the start of every turn, a ball of fire falls from the sky, dealing `6D6 + SI` points of Burning damage and inflicting `+2` [burning](./strive-core.md#burning) in a `24'/8m` radius, at a location of choice. | No fire falls from the sky, instead the caster explodes, dealing `SI D10` points of Burning damage and `+2` [Burning](./strive-core.md#burning) to themselves and anything in a `24'/8m` radius around them! |
+| 3     | Fire Ball            | 2  | `SI * 45'/15m` | `SI`                      | **Time(+1)**: The mage forms a large ball of flame between their hands, ready to be flung at a target location, dealing `SI D6 + 4` points of Burning damage and inflicting `+1` [Burning](./strive-core.md#burning) in a radius of up to `SI * 3'/1m`. | The fire ball instead launches in a random direction, impacting with the first obstacle it comes across! |
+| 5     | Flame Jet            | 3  | `SI * 9'/3m`   | `SI + 1`                  | A steady stream of flame shoots from the mage's hands, dealing `SI D6` points of Burning damage and inflicting `+2` [Burning](./strive-core.md#burning) to anything caught by it, in a straight line.  | The line of fire erupts backwards, through the mage. They and anyone behind them, in the line's range is affected. |
+| 7     | Rain of Fire         | 4  | `SI * 60'/20m` | `SI + 3`                  | **Concentration, Time(+1)**: The mage makes fire rain from the sky! At the start of every turn, a ball of fire falls from the sky, dealing `(SI D6) + (SI * 2)` points of Burning damage and inflicting `+2` [burning](./strive-core.md#burning) in a `SI * 6'/2m` radius, at a location of choice. | No fire falls from the sky, instead the fire explodes in the caster's hands, dealing `SI D6` points of Burning damage and `+2` [Burning](./strive-core.md#burning) to themselves and anything in a `24'/8m` radius around them! |
 
 ### Restoration (Arc/Awar)
 The mending of the body and mind.
@@ -1321,7 +1334,7 @@ In the common tongue, blood magic, utilizes mage blood to control a deeply unset
 | 2     | Life Leech           | 2  | `3'/1m`         | Opposed by `Toughness`     | Draw the life from a **ST** creature of choice. Deals `SI D4` points of [Bleeding](./strive-core.md#damage-types) damage while healing the caster's [HP](./strive-core.md#hit-points-hp) for the same amount. May transfer `SI` points of [Bleeding](./strive-core.md#bleeding) or [Poisoned](./strive-core.md#poisoned) from the healed creature to the damaged one, if the mage so chooses. | The effect triggers in reverse. |
 | 3     | Crimson Tracks       | 1  | `SI * 150'/50m` | `SI`                       | If you have someone's blood, use it to track them. If successful, you get a general sense of how far away and in what direction relative to your facing they are. You also glimpse a momentary fragment of their current emotional state. | The victim is overcome with an odd premonition and becomes aware someone attempted to track them. |
 | 4     | Slagletting          | 2  | /               | `SI + 1`                   | Remove `SI` points of [Arcane Slag](#arcane-slag) from yourself, but suffer `3` points of [Bleeding](./strive-core.md#damage-types) damage for each point of [Arcane Slag](#arcane-slag) that is removed! If successful, this spell does not cause [Arcane Slag](#arcane-slag). | Instead of removing any [Arcane Slag](#arcane-slag), you gain `+2` points of it and suffer `6` points of bleeding damage! |
-| 5     | Puppeteer            | 3  | `SI * 15'/5m`   | Opposed by `Self-Control`  | **Concentration**: Command the blood of a victim to obey you. You control their actions, like a puppeteer. Any action you make them take, costs *their* AP. They may try to resist at the beginning of their every turn, or once every minute. | You lose control and are [Stunned](./strive-core.md#stunned)! |
+| 5     | Puppeteer            | 3  | `SI * 15'/5m`   | Opposed by `Self-Control`  | **Concentration, Time(+1)**: Command the blood of a victim to obey you. You control their actions, like a puppeteer. Any action you make them take, costs *their* AP. They may try to resist at the beginning of their every turn, or once every minute. | You lose control and are [Stunned](./strive-core.md#stunned)! |
 
 ### Soul-Binding (Arc/Tough)
 Also referred to as **necromancy**, this is the art and skill of calling souls from the **plane of the dead** and binding them, to reanimate corpses or animate an otherwise unliving body. 
@@ -1369,7 +1382,7 @@ The ability to communicate wordlessly, to alter emotions and even issue compelli
 | 2     | Change a Mind          | 2  | `SI * 12'/4m`  | Opposed by `Wit - SI`        | Alter a creature's current state of mind and emotion. | The caster is affected, instead. |
 | 3     | Pressing Thought       | 3  | `SI * 30'/10m` | `SI + 2`                     | [Hasten](./strive-core.md#hasted) up to `SI` **MST** of choice for `SI` turns. | / |
 | 4     | Quiet Command          | 3  | `SI * 30'/10m` | Opposed by `Wit - SI`        | Issue a command to another creature, which they feel **strongly** compelled to follow. | The caster is affected, instead. |
-| 6     | Confer Knowledge       | 4  | `3'/1m`        | `6 - SI`                     | Confer `+1` level of a **known skill** to another creature. | The caster loses `1` level in the chosen skill, permanently! |
+| 6     | Confer Knowledge       | 4  | `3'/1m`        | `6 - SI`                     | **Time(+2)**: Confer `+1` level of a **known skill** to another creature. | The caster loses `1` level in the chosen skill, permanently! |
 
 ## List of Illnesses
 This list supplements the list of **injuries** of the [core module](./strive-core.md#list-of-injuries). 
