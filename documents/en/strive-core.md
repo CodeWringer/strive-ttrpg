@@ -2267,6 +2267,9 @@ A character who has been made unnaturally **jealous**, will do anything in their
 ### Marked
 A Marked character suffers `-1D` to all defense tests and `+50%` damage (RU) from all **direct** sources (meaning damage from [Bleeding](#bleeding), [Burning](#burning) and [Poisoned](#poisoned) is excluded). 
 
+* Automatic shrug-off: After `1` round.
+* Immediate cancel: Upon suffering damage.
+
 ### Pacified
 A character who is **pacified**, is unable to *willingly* take any action that would directly or indirectly harm any other creature. Note, the character is not physically unable to cause harm, but they **really** don't want to. 
 
