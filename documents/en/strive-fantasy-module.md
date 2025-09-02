@@ -716,13 +716,13 @@ Requires knowing [Acrobatics](#acrobatics-agistr) and another bladed [weapon ski
 
 | Level | Name                 | AP | **Ob**      | Max. Distance       | Damage                           | Notes  |
 | ----- | -------------------- | -- | ----------- | ------------------- | -------------------------------- | ------ |
-| 0     | Slash                | 2  | Opposed     | Melee (Adjacent)    | `2D6 + Str` Slashing    | / |
-| 0     | Stab                 | 2  | Opposed     | Melee (Adjacent)    | `1D8 + Agi` Piercing    | / |
+| 0     | Slash                | 2  | Opposed     | 3'/1m               | `1D6 + Str` Slashing    | Slash at an adjacent **ST**. |
+| 0     | Stab                 | 2  | Opposed     | 3'/1m               | `1D4 + Agi` Piercing    | Stab at an adjacent **ST**. |
 | 0     | Curved Toss          | 2  | Opposed     | 24'/8m              | `2D6 + Agi` Slashing    | Throw the weapon just past a target and then with a flick, make it jump at their back and upon impact, immediately retrieve it. |
 | 0     | Straight Toss        | 2  | Opposed     | 24'/8m              | `2D4 + Agi` Piercing    | Throw the weapon straight at a target and upon impact, immediately retrieve it. |
-| 0     | Whip                 | 2  | Opposed     | 24'/8m              | `2D6 + Str` Bludgeoning | Swing the chain/rope at a target and whip it with it, then immediately retrieve it. |
-| 1     | Leg Sweep            | 2  | Opposed     | 24'/8m              | `2D4 + Agi` Slashing    | Swing the weapon at length and low, to sweep for an opponent's legs. Upon impact, yank the chain/rope to sweep them off their feet, rendering them [prone](./strive-core.md#prone) and then immediately retrieve your weapon. |
-| 1     | Think Twice          | 1  | Opposed + 1 | 24'/8m              | `2D4 + Agi` Piercing    | Reaction: Upon one of your allies attacking an enemy, you also throw your weapon straight at that enemy. Your ally's attack is `-1` Ob easier as the enemy is confused by the two simultaneous attacks and instead focuses on you! Your attack does **not** cost the enemy any additional AP to defend. Upon impact, immediately retrieve your weapon. |
+| 0     | Whip                 | 2  | Opposed     | 24'/8m              | `1D6 + Str` Bludgeoning | Swing the chain at a target and whip it with it, then immediately retrieve it. |
+| 1     | Leg Sweep            | 2  | Opposed     | 24'/8m              | `2D4 + Agi` Slashing    | Swing the weapon at length and low, to sweep for an opponent's legs. Upon impact, yank the chain to sweep them off their feet, rendering them [prone](./strive-core.md#prone) and then immediately retrieve your weapon. |
+| 1     | Think Twice          | 1  | /           | 24'/8m              | `1D6 + Agi` Piercing    | **Reaction**: Upon one of your allies attacking an enemy, you also throw your weapon straight at that enemy. Your ally's attack is `-1` Ob easier as the enemy is confused by the two simultaneous attacks! Your attack does **not** cost the enemy any additional AP to defend and is successful only if your ally's attack is successful. Upon impact, immediately retrieve your weapon. |
 | 1     | Come Closer          | 2  | Opposed     | 24'/8m              | `2D4 + Agi` Slashing    | Throw the weapon just past a target and then yank it back, catching them with it and pulling them `9'/3m` closer to you. If the target is much larger and/or heavier than you, then you may pull *yourself* closer to them, for the same distance. Then immediately retrieve your weapon. |
 
 #### Axe (Str/Str)
