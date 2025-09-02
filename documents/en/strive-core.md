@@ -2012,15 +2012,20 @@ Is opposed by [self-control](#self-control-toughtough).
 | 2     | Calm Animal          | 2  | Opposed by [self-control](#self-control-toughtough) | Calm an aggressive/hostile/frightened animal down. | Once per scene. |
 
 #### Commanding (Tough/Wit)
-Speaking commands others will respect and follow to the letter. 
+Speaking commands with booming authority.
 
-| Level | Name                   | AP | **Ob** | Effect(s)          | Condition(s) |
-| ----- | ---------------------- | -- | ------ | ------------------ | ------------ |
-| 1     | Inspire                | 1  | 1      | Grant another character **+1D** for their next test. |  |
-| 3     | Pep Talk               | 2  | 3      | Remove another character's [exhausted](#exhausted) or [terrified](#terrified) [condition](#condition). |  |
-| 3     | War Cry                | 1  | 2      | All allies who can hear it, gain **+1D** on their next attack test. | Ally can hear the command. |
-| 5     | Unquestionable Command | 2  | 3      | An ally of choice, gains **+2D** on their next test. | Ally can hear the command. |
-| 6     | Spur                   | 2  | 2      | An ally of choice, is [hastened](#hasted) for one turn of combat, or five seconds out of combat. | Ally can hear the command. |
+| Level | Name                   | AP | **Ob**  | Effect(s)          | Condition(s) |
+| ----- | ---------------------- | -- | ------- | ------------------ | ------------ |
+| 0     | Focus!                 | 1  | 1       | Grant another character `+1D` for their next test. |  |
+| 0     | Shake It Off!          | 2  | 2       | Remove another character's [Exhausted](#exhausted) or [Terrified](#terrified) [Condition](#condition). |  |
+| 1     | Hit That One!          | 1  | 2       | [Mark](#marked) a **ST** of choice. |  |
+| 2     | Deep Lungs             | /  | 2       | Immediately grant yourself `+1` [AP](#action-points-ap). | Only once per round. |
+| 3     | Protect Me!            | 1  | /       | **Reaction**: Upon being attacked, force an ally adjacent to you to defend to defend in your stead and grant them `+1` [Compensation Point](#compensation-points) for the defense test. | Ally can hear the command. |
+| 3     | Put Your Back Into It! | 1  | 2       | **Reaction**: Upon an ally [force moving](#forced-movement) another character, increase the distance by `N * 3'/1m`, where *N* is the **hits** past the **Ob** you achieve. | Ally can hear the command. |
+| 3     | You Pathetic Worm!     | 1  | Opposed by [Toughness](#toughness-tough) | Intimidate a **ST** of choice, within ear-shot. They suffer `-1D` for their next defense test, for `1` round, and have to back away from you, by `6'/2m`! | Victim can hear it. |
+| 4     | You! Attack Already!   | 1  | 3       | An ally of choice gains `+1D` on their next attack test, which they must immediately make against a **ST**, within reach. You may choose the target in question, or let your ally decide. But they *must* attack! This attack does **not** cost your ally any additional [AP](#action-points-ap)! | Ally can hear the command. |
+| 5     | Faster, You Slouch!    | 2  | 2       | An ally of choice is [Hasted](#hasted) for `1` round. | Ally can hear the command. |
+| 6     | You Die When I Say!    | 2  | /       | **Reaction**: An ally whose HP are about to be reduced to `0` are instead reduced to your number of **hits** achieved. Your ally does not die, but now suffers the [Exhausted](#exhausted) [Condition](#condition)! | Ally can hear the command. |
 
 #### Entertainment (Agi/Wit)
 The ability to juggle, perform tricks with cards, to perform "magic" tricks and such - anything requiring nimble fingers and flashy presentation, for the entertainment of others. 
