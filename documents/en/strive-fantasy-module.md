@@ -230,20 +230,16 @@ When a mage casts magic, **one third** (RD and minimum `1`) of the [Spell Intens
 **Arcane Slag** *can* affect non-mages, too! That implies they can also suffer [Arcane Overheat](#arcane-overheat) (although that does not make them mages)! 
 
 ## Casting Time
-It takes time to cast powerful magics. How much time, depends primarily on the chosen [SI](#spell-intensity-si), as detailed below. Additionally, some spells may have a further increased casting time, noted as `Time(+*N*)`, where *N* is the increase, in rounds. 
+Usually, spells are cast immediately. Some spells may have an increased casting time, noted as `Time(+N)`, where *N* is the increase, in rounds. 
 
 At the start of the mage's next turn, one increment of the casting time is considered elapsed. If by this, the time has elapsed fully and the spell is cast, the mage may still choose a different target, location or direction for their spell, as a means to adjust for changed battlefield conditions.
 
-* `SI 0-4`: immediate
-* `SI 5-7`: 1 rounds
-* `SI 8+`: 2 rounds
-
-The casting of spells can be interrupted! Either automatically, if the mage is incapacitated, or when the mage is *attacked*, they must succeed another test of their spell's magic school, at **Ob** equal to one third (RU) of the chosen [SI](#spell-intensity-si). If interrupted thusly, the spell may result in a [back-fire](#spell-backfire), if the test was failed completely. Otherwise, it fizzles harmlessly. 
+The casting of spells can be interrupted! Either automatically, if the mage is incapacitated, or when the mage is successfully *attacked*. If interrupted thusly, the spell fizzles harmlessly. 
 
 ## Spell-Backfire
-A **spell-backfire** causes a spell to affect the caster, instead of their intended target. The mage suffers the negative effects of the spell.
+A **Spell-Backfire** is a critical blunder of a mage! They suffer negative effects and their spell does not get cast the way they intended!
 
-In case of an [aoe](./strive-core.md#area-of-effect-aoe) attack spell, anyone or anything nearby the mage, in range, is also affected. Additionally, the mage suffers `+1` point of [exhaustion](./strive-core.md#exhaustion). 
+Usually, a spell notes the effects that happen when a Backfire occurs. In case there are no specific effects, the mage suffers `+1` point of [exhaustion](./strive-core.md#exhaustion). 
 
 It is possible for another nearby mage to prevent the **spell-backfire**, if they [negate the spell](#magic-negation) as a **reaction**. This also applies even if the spell wouldn't affect them. If the other mage's attempt to negate the spell *also* **backfires**, then both of the mages suffer the spell's effect at one greater [intensity](#spell-intensity-si) level. 
 
