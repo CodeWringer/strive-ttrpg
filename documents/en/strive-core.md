@@ -112,6 +112,9 @@
     - [Defense Stunts](#defense-stunts)
     - [Cover](#cover)
     - [Speed aids Defense](#speed-aids-defense)
+  - [Tensions Rise](#tensions-rise)
+    - [Momentum](#momentum)
+    - [Hostility](#hostility)
   - [Throwing](#throwing)
     - [Throwing-Distance](#throwing-distance)
     - [Throwing-Accuracy](#throwing-accuracy)
@@ -1532,6 +1535,37 @@ What speed exactly that is, depends heavily on circumstance. As always, the **GM
 > In a sci-fi setting, an automated turret may have a tracking system that can easily keep up with targets moving at high speeds, which will only fail if the target performs some extreme maneuvers. 
 > 
 > In a medieval fantasy setting, even just someone in a full sprint may be fast enough to throw off an archer's aim. Someone on horse back, riding at speed may be very hard to hit with an arrow or melee weapon. 
+
+## Tensions Rise
+As victories mount, so too will resistance. As combat or other tense situations progress, two resources - Momentum and Hostility - rise and fall. 
+
+When the **PCs** enter combat, or the **GM** decides another type of situation warrants it, Momentum and Hostility become available. 
+
+### Momentum
+Momentum is a resource that benefits **PCs**. It ranges from `-20` to `+20` and always starts at `0`. As the **PCs** make progress, they gain Momentum and as they suffer setbacks, they lose it. 
+
+When Momentum reaches `+18`, **Heroic Acts** become available. Inversely, when Momentum reaches `-18`, **Desperate Measures** become available. 
+
+| Gaining Momentum                 | Losing Momentum                                     |
+| -------------------------------- | --------------------------------------------------- |
+| Damaging a foe: `+1`             | **PC** Being damaged: `-2`                          |
+| Causing an injury in a foe: `+5` | **PC** Suffering an injury: `-10`                   |
+| Slaying a foe: `+10`             | **PC** Brought to Death's Door or struck down `-20` |
+
+| Heroic Act              | Heroic Act Description | Desperate Measure Description | Desperate Measure           |
+| ----------------------- | ---------------------- | ----------------------------- | --------------------------- |
+| Death Whisper           | Until the end of combat, a chosen enemy is [Marked](#marked). This [Condition](#condition) cannot be removed normally. Reduces Momentum by `-10`. | Until the end of combat, a chosen enemy **and** **PC** are [Marked](#marked). This [Condition](#condition) cannot be removed normally. Increases Momentum by `+5`. | Death Pact |
+| Finest Hour             | A **PC** of choice gets an immediate turn, with `5` [AP](#action-points-ap). Decreases Momentum by `-20`. | A **PC** of choice gets an immediate turn, with `5` [AP](#action-points-ap), but they suffer `+6` degrees of [Bleeding](#bleeding). Increases Momentum by `+5`. | Final Hour |
+| Finish It!              | A chosen **PC** launches an immediate attack against a chosen foe, with `2` [Compensation Points](#compensation-points). If successful, that foe suffers `(Injury count * 10) + 10` points of additional Pure damage. Resets Momentum to `0`. | A chosen **PC** launches an immediate attack against a chosen foe. If successful, the foe suffers `(Injury count * 10) + 10` points of additional Pure damage. If unsuccessful, the **PC** instead suffers `(Injury count * 10) + 10` points of Pure damage. Increases Momentum by `+10`. | You or Me |
+| Pre-Emptive Strikes     | Until the end of combat, a chosen **PC's** first attack every round costs no [AP](#action-points-ap)! Decreases Momentum by `-20`. | All **PCs** may immediately make one attack against a chosen foe. This attack costs no [AP](#action-points-ap), but every foe hit may launch a free [Counter-Attack](#defense-stunts), after all **PCs** have acted. Increases Momentum by `+10`. | Breakout Strikes |
+| Tactical Repositioning  | All **PCs** may immediately re-position, moving up to `30'/10m`, without triggering any [Opportunity Attacks](#attacks-of-opportunity). Decreases Momentum by `-10`. | All **PCs** may immediately re-position, moving up to `30'/10m`, but also triggering *free* [Opportunity Attacks](#attacks-of-opportunity). Increases Momentum by `+5`. | Desperate Repositioning |
+| Take and Hold!          | Designate an area up to `9'/3m` in radius. Until the end of combat, any **PC** inside this zone receives `+1` [AP](#action-points-ap) at turn start and `+1` [Compensation Point](#compensation-points) for every test. If such a zone already exists, it is replaced with the new one. Decreases Momentum by `-30`. | Designate an area up to `9'/3m` in radius. Until the end of combat, any **PC** inside this zone receives `+1` [Compensation Point](#compensation-points) for every test, but every **PC** *outside* this zone suffers `+1` **Ob** for every test. If such a zone already exists, it is replaced with the new one. Increases Momentum by `+10`. | Not An Inch Back! |
+| Unyielding              | A **PC** of choice gets `+1` [Compensation Point](#compensation-points) for all defense tests and may freely [Counter-Attack](#defense-stunts) all attacks directed against them or an adjacent ally, for `1` round. Decreases Momentum by `-10`. | A **PC** of choice gets may freely [Counter-Attack](#defense-stunts) all attacks directed against them or an adjacent ally, for `1` round. However, they suffer `+1` **Ob** for all defense tests. Increases Momentum by `+5`. | Cornered |
+
+### Hostility
+Hostility is a resource for use only by the **GM**, that benefits the **PCs'** enemies and introduces new complications to a scenario. It ranges from and starts at `0` to `10`. 
+
+At the start of every combat round, or other time increment of the **GM's** choosing, Hostility increases by `+1`. 
 
 ## Throwing
 Throwing things is a special type of action, that follows the rules outlined below. 
