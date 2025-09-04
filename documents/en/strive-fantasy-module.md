@@ -204,7 +204,7 @@ The [Arcana](#arcana-arc) attribute determines several thresholds. If the charac
   * Every time the mage casts a spell, their **Ob** is always increased by `+2`. If they don't achieve at least `3` **hits**, a [Spell-Backfire](#spell-backfire) occurs. 
   * For **all** *other* tests, the mage suffers `-1D`. 
 * **Consuming**: Anything past the point of **Broiling** is **mortally perilous**. 
-  * Suffer `1D8 + 2` [Pure damage](./strive-core.md#damage-types) every [Tick](./strive-core.md#ticks). At the end of every tick, reduces [Arcane Slag](#arcane-slag) by `-1` point. 
+  * Suffer `1D8 + 2` [Pure damage](./strive-core.md#damage-types) every [Tick](./strive-core.md#ticks). At the end of every tick, reduces [Arcane Slag](#arcane-slag) and [Arcane Overheat](#arcane-overheat) by `-1` point, each. 
   * **Every** further attempt to cast a spell instantly **fails**. The mage simply cannot cast magic for as long as their **Arcane Overheat** is ***Consuming*** them. That means there is no [Spell-Backfire](#spell-backfire), either. 
   * For **all** *other* tests, the mage suffers `-2D`. 
 

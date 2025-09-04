@@ -55,7 +55,6 @@
     - [Hit Points (HP)](#hit-points-hp)
       - [Bludgeoned to 0 HP](#bludgeoned-to-0-hp)
     - [Grit Points](#grit-points)
-    - [Toughness Progress from Damage](#toughness-progress-from-damage)
     - [Injury](#injury)
       - [Injury States \& Treatment](#injury-states--treatment)
     - [Exhaustion](#exhaustion)
@@ -425,9 +424,13 @@ On the other hand, even a **complete failure** doesn't have to be *absolute*. Th
 > Seeing such a low **degree of failure**, the **GM** rules that the PC *does* succeed their test, but also loses more materials in the process than a **complete success** would have cost them. 
 
 #### Creative Test
-This type of test asks the player(s) to pick and justify the [skill(s)](#skills) or [attribute](#attributes) to use in a given situation. Players are encouraged to think creatively, come up with and describe their solutions. 
+For this type of test, a scenario is played through fairly abstractly. The **GM** outlines various challenges that must be overcome and what consequences the players may expect if they succeed or fail in overcoming these challenges. Then, the players pick a [Skill](#skills) or [Attribute](#attributes) with which they will solve one of the challenges. Every player can solve only one challenge. Players are encouraged to think creatively! If the proposed solution to a challenge sounds reasonable, it should be possible. 
 
-Whether the [attribute](#attributes) or [skill(s)](#skills) in question can apply to resolve the situation at hand, lies at the **GM**'s discretion. 
+The solutions are then [Tested](#tests). Successful tests help the **PCs** resolve the scenario in their favor. Failures introduce new complications. You may play out each solution in detail, if you wish, but aren't required to. 
+
+Creative Tests are a great solution to quickly handle chase sequences or travel across perilous terrain. 
+
+> For example, when crossing a bog, the **GM** may outline the challenges: the PCs may get lost in the trackless mire, sink into and get stuck in the mud, fall into the bog, contract an illness from the dirty water or pesky insects or similar such challenges. If the **PCs** succeed, they arrive at their destination in a timely fashion and without too much trouble. If they fail, they may accrue Exhaustion, illnesses, end up in a different location, and so on.
 
 #### Opposed Test
 This type of test occurs, when two characters come into opposition. Who wins, and by how much, is determined by comparing the number of **hits** each achieves. The one with the most **hits** is the winner. But if there is a tie, the **defending** character is considered the winner. 
@@ -491,6 +494,8 @@ While the **GM** decides on how much time a given test will need, the following 
 **Compensation points** allow turning the faces of dice that came up as **misses** up to the next higher number, until they become a **hit**, instead. 
 
 > When rolling 3D6, with 2 **compensation points** and achieving 5, 3, 4 in the roll, then 1 of those **compensation points** can be used to turn the 4 into a 5 or both of the **compensation points** could turn the 3 into a 5. There are not enough **compensation points** to turn all **misses** into **hits**, but at least one die is guaranteed to become a **hit**! 
+
+They may not sound grandiose, but make no mistake, Compensation Points are a ***big deal***! Always seek to earn yourself as many of these as possible! 
 
 # Character
 A character is a representation of a sentient creature in the game world. They're an amalgam of their [abilities](#abilities), [personality](#personality), [health](#health--exhaustion) and [assets](#assets). 
@@ -929,15 +934,6 @@ You may spend **grit points** at any time during a round for the following effec
 * On your attack, deal `+1D6` points of additional damage of your weapon's strongest [type of damage](#damage-types). 
 * Gain `+1D4` [AP](#action-points-ap). 
 
-### Toughness Progress from Damage
-Every time a character suffers at least 10 [HP](#hit-points-hp) of damage **in a single attack**, they gain +1 [advancement progress](#advancing-attributes). For 20 or more [HP](#hit-points-hp) of damage, they gain +2 [advancement progress](#advancing-attributes). 
-
-> A character suffering 15 points of damage **in a single attack**, gains +1 advancement progress to their toughness automatically. 
->
-> A character suffering 22 points of damage **in a single attack**, gains +2 advancement progress to their toughness automatically. 
-> 
-> A character suffering 41 points of damage **in a single attack**, still only gains +2 advancement progress to their toughness automatically. 
-
 ### Injury
 An **injury** is a serious health impediment of a character. It reduces the maximum [HP](#hit-points-hp) and imposes other [penalties](#boons--penalties). 
 
@@ -973,9 +969,9 @@ An [injury](#injury) can be properly **treated** via a successful [test](#tests)
 ### Exhaustion
 **Exhaustion** is the measure of a character's maximum physical and mental strain they can endure. 
 
-For every point in [toughness](#toughness-tough), a character raises their [exhaustion limit](#exhaustion) by 1. All characters have a base [exhaustion limit](#exhaustion) of 1. 
+For every point in [toughness](#toughness-tough), a character raises their [exhaustion limit](#exhaustion) by `1`. All characters have a base [exhaustion limit](#exhaustion) of `1`. 
 
-> At **toughness** 1, you already have an **exhaustion limit** of 2. 
+> At **toughness** `1`, you already have an **exhaustion limit** of `2`. 
 
 If a character's exhaustion reaches their threshold, they become [exhausted](#exhausted) from over-exertion. While **exhausted**, a character suffering further [exhaustion](#exhaustion), must succeed a [self-control](#self-control-toughtough) [test](#tests) at **Ob** equal to their current level of [exhaustion](#exhaustion), or else fall [unconscious](#unconscious).
 
@@ -1431,18 +1427,11 @@ This **action** costs 2 [AP](#action-points-ap).
 The ally in question can **oppose** this action with [strength](#strength-str) (both characters will have to compete with this **attribute**). 
 
 ## Attacking
-Attacks are made with an [expertise](#expertise) of a [weapon](#weapon--weapon-type--str), the [unarmed](#unarmed-combat-agistr) or the [throwing](#throwing-agiagi) [skill](#skills). 
+Attacks are made with an [Expertise](#expertise) of a [Weapon](#weapon--weapon-type--str), the [Unarmed Combat](#unarmed-combat-agistr) or the [Throwing](#throwing-agiagi) [Skill](#skills). 
 
-An attack generally requires an [opposed test](#opposed-test) to be made. If the attacker wins, [damage](#damage) is determined and applied to the defender. If the defender wins, they suffer no damage, **unless** if they're parrying in melee with a weapon that has 2 bulk less than the weapon they've parried. In such a case, half the damage (RU) still goes through, regardless of the successful parry.  
-* A defender must *choose* how to defend, if no a specific skill is required. The defender may choose to defend with a [weapon skill](#weapon--weapon-type---attribute), [acrobatics](#acrobatics-agistr) or a [shield](#shield-strtough). 
-* Defending against a ranged attack with a melee weapon skill or vice-versa is possible, but at a penalty of only being able to use half the dice (RD). 
-  * Depending on the projectile's speed or other properties, it may even be impossible to defend against it with a melee weapon skill. 
+An attack generally requires an [opposed test](#opposed-test) to be made. If the attacker wins, [damage](#damage) is determined and applied to the defender. If the defender wins, they suffer no damage. A defender must *choose* how to defend, unless a specific skill is required. Defense is possible with [weapon](#weapon--weapon-type---attribute), the [Acrobatics](#acrobatics-agistr) or the [Shield](#shield-strtough) Skills. 
 
-In case of an [aoe](#area-of-effect-aoe) attack, a defender may be able to halve the [damage](#damage) (RU), if they win the [opposed test](#opposed-test). 
-
-Sometimes, special circumstances apply, which make certain attacks easier or harder to land. These are at the **GM's** discretion. They can impose an **Ob** penalty or boon whenever appropriate. 
-
-Also keep in mind there may be times when rolling for an attack is entirely unnecessary, such as against a helpless victim. In such a case, you may apply your malevolence with impunity, to the extent of your choosing. 
+Sometimes, special circumstances apply, which make certain attacks easier or harder to land. These are at the **GM's** discretion. They can impose an **Ob** penalty or boon whenever appropriate. Also keep in mind there may be times when rolling for an attack is entirely unnecessary, such as against a helpless victim. In such a case, you may apply your malevolence with impunity, to the extent of your choosing. 
 
 ### Damage
 Damage dealt to an opponent reduces their [HP](#hit-points-hp). When their **HP** reaches `0`, they die. Damage can also inflict [injuries](#injury). 
@@ -1483,13 +1472,11 @@ The following graphic illustrates valid spots for a third ally to enter, to **su
 ### Stealth Attacks
 When attacking another character from stealth, the moment of surprise can make all the difference. An attack from stealth counts as an automatic success and you may go on to roll damage right away. 
 
-In addition to an automatic success, add half of the damage (RU) to be dealt as additional damage. In the case of multiple damage types in one attack, add half of *each* (RU). 
+When attacking with [Bludgeoning](#damage-types), you may knock another character [Unconscious](#unconscious) with one fell swoop. For this, their [Toughness](#toughness-tough) must not be more than `2` levels greater than your [Strength](#strength-str). 
 
-When attacking with [bludgeoning](#damage-types), you may knock another character [unconscious](#unconscious) with one fell swoop. For this, their [toughness](#toughness-tough) must not be more than 2 levels greater than your [strength](#strength-str). Otherwise, the normal stealth damage bonus applies. 
-
-> For example, two ordinary humans: one is attacking from stealth with a club and has **strength** 2, while the victim has **toughness** 4. The victim is knocked unconscious right away. 
+> For example, two ordinary humans: one is attacking from stealth with a club and has Strength `2`, while the victim has Toughness `4`. The victim is knocked unconscious right away. 
 >
-> On the other hand, the same human attacking a giant from stealth with a club cannot knock that giant unconscious, assuming that giant to have a **toughness** of 10. The difference of 8 levels is simply too great. 
+> On the other hand, the same human attacking a giant from stealth with a club cannot knock that giant unconscious, assuming that giant to have a Toughness of `10`. The difference of `8` levels is simply too great. 
 
 ## Defending
 There are two types of defense:
@@ -1499,11 +1486,11 @@ There are two types of defense:
   * This defense happens automatically as a *reaction*, if no **active defense** is attempted. 
   * This defense can *not* be used against attacks that cost more than 1 [AP](#action-points-ap) to defend against. 
 
-To defend, an [opposed test](#opposed-test) must be made. If successful, the attack is negated, entirely, **unless** if you're parrying in melee with a weapon that has 2 [bulk](#bulk) less than the weapon you've parried. In such a case, half the damage (RU) still goes through, regardless of the successful parry.  
+To defend, an [opposed test](#opposed-test) must be made. If successful, the attack is negated, entirely.  
 
 The defender must *choose* how to defend themselves, if no specific "opposed by" skill is noted. They can use a [weapon skill](#weapon--weapon-type---attribute), [acrobatics](#acrobatics-agistr) or [shield skill](#shield-strtough). 
 
-Defending against [area of effect](#area-of-effect) attacks is *only* possible as a **passive defense** and can *not* negate the attack. It can only halve (RU) its [damage](#damage). 
+Defending against [area of effect](#area-of-effect) attacks is not possible. 
 
 ### Armor & Shields
 Armor serves as life insurance, because it can negate or at least reduce the damage taken, after a defense test has failed. 
@@ -1524,8 +1511,8 @@ If you succeed an **active defense** and achieve at least 2 **hits** over your a
 * **Displace your opponent**. They are forced to stumble backwards by `6'/2m` in a direction of your choosing. This may provoke [Attacks of Opportunity](#attacks-of-opportunity). 
 * **Displace yourself**. You move `6'/2m` in a direction of your choosing. This does **not** provoke [Attacks of Opportunity](#attacks-of-opportunity). 
 * **Throw your opponent to the ground**, making them [proned](#prone). 
-* Launch a **counter-attack**, for half your weapon's regular damage (RU). You'll have to roll a regular attack, which your opponent can choose to defend against. This attack does not cost you any additional [AP](#action-points-ap). 
-* If defending against a ranged attack, you **catch the projectile** (if such a feat could be "reasonably" done). You may immediately throw it back at the attacker, for no additional cost. Normal [throwing](#throwing) rules apply. 
+* Launch an immediate **Counter-Attack**, for half your weapon's regular damage (RU). This attack does not cost you any additional [AP](#action-points-ap). 
+* If defending against a ranged attack, you **catch the projectile** (if such a feat could be "reasonably" done). You may immediately throw it back at the attacker, for a guaranteed success. 
 
 ### Cover
 It is possible for characters to hide behind stationary things to make it harder to hit them. This mostly applies to ranged combat, but may also find use in melee, depending on circumstance. 
@@ -1609,7 +1596,7 @@ In order to appraise the value, weight, size or other properties of something, a
 
 The **Ob** depends on circumstance. How much time is available to appraise? How unusual or uncommon is the thing being appraised? How easy is it to appraise such things? 
 
-Of course, a trader may be experienced in the goods and wares they peddle. [Mercantilism](#mercantilism-awarwit) may be used as a catch-all for appraisal, but at a penalty of increased **Ob**, as a pure trader will never be able to ascertain the quality as well as a craftsperson could. As such, when using [Mercantilism](#mercantilism-awarwit) for appraisal, the **Ob** is always increased by `1`. 
+Of course, a trader may be experienced in the goods and wares they peddle. [Mercantilism](#mercantilism-awarwit) may be used as a catch-all for appraisal, but at a penalty of `+1` **Ob**, as a pure trader will never be able to ascertain the quality as well as a craftsperson could.
 
 ## Persuasion, Intimidation & Deception
 There are no dedicated "social interaction" [skills](#skills) for the purposes of persuading people. Instead, characters *choose* one of their known **skills** relevant to the topic they wish to change another character's view about. 
