@@ -1542,30 +1542,33 @@ As victories mount, so too will resistance. As combat or other tense situations 
 When the **PCs** enter combat, or the **GM** decides another type of situation warrants it, Momentum and Hostility become available. 
 
 ### Momentum
-Momentum is a resource that benefits **PCs**. It ranges from `-20` to `+20` and always starts at `0`. As the **PCs** make progress, they gain Momentum and as they suffer setbacks, they lose it. 
+Momentum is a resource that benefits **PCs**. It ranges from `-20` to `+20` and always starts at `0`. As the **PCs** make progress, they gain Momentum and as they suffer setbacks, they lose it. It is a resource that represents the **PCs** superiority - or the inverse - and is expected to be constantly in flux, like in a tug-of-war. 
 
 When Momentum reaches `+18`, **Heroic Acts** become available. Inversely, when Momentum reaches `-18`, **Desperate Measures** become available. 
 
-| Gaining Momentum                 | Losing Momentum                                     |
-| -------------------------------- | --------------------------------------------------- |
-| Damaging a foe: `+1`             | **PC** Being damaged: `-2`                          |
-| Causing an injury in a foe: `+5` | **PC** Suffering an injury: `-10`                   |
-| Slaying a foe: `+10`             | **PC** Brought to Death's Door or struck down `-20` |
+| Gaining Momentum                 | Losing Momentum                                     | Notes |
+| -------------------------------- | --------------------------------------------------- | ----- |
+| Damaging a foe: `+1`             | **PC** Being damaged: `-2`                          | This only counts damage that is actually applied to HP! |
+| Helping an ally: `+2`            | A foe helping *their* ally: `-1`                    | Help is any action that gets an ally out of a sticky situation, or grants them any kind of advantage. Heroic Acts do not count towards this. |
+| Causing an injury in a foe: `+5` | **PC** Suffering an injury: `-10`                   | |
+| Slaying a foe: `+10`             | **PC** Brought to Death's Door or struck down `-20` | When a **PC** is brought to Death's Door and *then* struck down, the momentum loss is only caused once. |
 
 | Heroic Act <br><img src="../../img/heroic_acts.svg" width="64px" height="64px"></img> | Heroic Act Description | Desperate Measure Description | Desperate Measure <br><img src="../../img/desperate_measures.svg" width="64px" height="64px"></img> |
 | ----------------------- | ---------------------- | ----------------------------- | --------------------------- |
-| Death Whisper           | Until the end of combat, a chosen enemy is [Marked](#marked). This [Condition](#condition) cannot be removed normally. Reduces Momentum by `-10`. | Until the end of combat, a chosen enemy **and** **PC** are [Marked](#marked). This [Condition](#condition) cannot be removed normally. Increases Momentum by `+5`. | Death Pact |
+| Death Mark <br><img src="../../img/heroic_act_death-mark.svg" width="64px" height="64px"></img>| Until the end of combat, a chosen enemy is [Marked](#marked). This [Condition](#condition) cannot be removed normally. Reduces Momentum by `-10`. | Until the end of combat, a chosen enemy **and** **PC** are [Marked](#marked). This [Condition](#condition) cannot be removed normally. Increases Momentum by `+5`. | Death Pact <br><img src="../../img/desperate_measure_death-pact.svg" width="64px" height="64px"></img> |
 | Finest Hour             | A **PC** of choice gets an immediate turn, with `5` [AP](#action-points-ap). Decreases Momentum by `-20`. | A **PC** of choice gets an immediate turn, with `5` [AP](#action-points-ap), but they suffer `+6` degrees of [Bleeding](#bleeding). Increases Momentum by `+5`. | Final Hour |
-| Finish It!              | A chosen **PC** launches an immediate attack against a chosen foe, with `2` [Compensation Points](#compensation-points). If successful, that foe suffers `(Injury count * 10) + 10` points of additional Pure damage. Resets Momentum to `0`. | A chosen **PC** launches an immediate attack against a chosen foe. If successful, the foe suffers `(Injury count * 10) + 10` points of additional Pure damage. If unsuccessful, the **PC** instead suffers `(Injury count * 10) + 10` points of Pure damage. Increases Momentum by `+10`. | You or Me |
+| Finish It!              | A chosen **PC** launches an immediate attack against a chosen foe, with `2` [Compensation Points](#compensation-points). If successful, that foe suffers `(Injury count * 10) + 10` points of additional Pure damage. Resets Momentum to `0`. | A chosen **PC** launches an immediate attack against a chosen foe. If successful, the foe suffers `(Injury count * 10) + 10` points of additional Pure damage. If unsuccessful, the **PC** instead suffers `(Injury count * 10) + 10` points of Pure damage. Increases Momentum by `+10`. | You or Me <br><img src="../../img/desperate_measure_you-or-me.svg" width="64px" height="64px"></img> |
 | Pre-Emptive Strikes     | Until the end of combat, a chosen **PC's** first attack every round costs no [AP](#action-points-ap)! Decreases Momentum by `-20`. | All **PCs** may immediately make one attack against a chosen foe. This attack costs no [AP](#action-points-ap), but every foe hit may launch a free [Counter-Attack](#defense-stunts), after all **PCs** have acted. Increases Momentum by `+10`. | Breakout Strikes |
 | Tactical Repositioning  | All **PCs** may immediately re-position, moving up to `30'/10m`, without triggering any [Opportunity Attacks](#attacks-of-opportunity). Decreases Momentum by `-10`. | All **PCs** may immediately re-position, moving up to `30'/10m`, but also triggering *free* [Opportunity Attacks](#attacks-of-opportunity). Increases Momentum by `+5`. | Desperate Repositioning |
 | Take and Hold! <br><img src="../../img/heroic_act_take-and-hold.svg" width="64px" height="64px"></img> | Designate an area up to `9'/3m` in radius. Until the end of combat, any **PC** inside this zone receives `+1` [AP](#action-points-ap) at turn start and `+1` [Compensation Point](#compensation-points) for every test. If such a zone already exists, it is replaced with the new one. Decreases Momentum by `-30`. | Designate an area up to `9'/3m` in radius. Until the end of combat, any **PC** inside this zone receives `+1` [Compensation Point](#compensation-points) for every test, but every **PC** *outside* this zone suffers `+1` **Ob** for every test. If such a zone already exists, it is replaced with the new one. Increases Momentum by `+10`. | Not A Step Back! <br><img src="../../img/desperate_measure_not-a-step-back.svg" width="64px" height="64px"></img> |
 | Unyielding              | A **PC** of choice gets `+1` [Compensation Point](#compensation-points) for all defense tests and may freely [Counter-Attack](#defense-stunts) all attacks directed against them or an adjacent ally, for `1` round. Decreases Momentum by `-10`. | A **PC** of choice may freely [Counter-Attack](#defense-stunts) all attacks directed against them or an adjacent ally, for `1` round. However, they suffer `+1` **Ob** for all defense tests. Increases Momentum by `+5`. | Cornered |
 
 ### Hostility
-Hostility is a resource for use only by the **GM**, that benefits the **PCs'** enemies and introduces new complications to a scenario. It ranges from and starts at `0` to `10`. 
+Hostility is a resource for use only by the **GM**, that benefits the **PCs'** enemies and introduces new complications to a scenario. It ranges from `0` to `10`. At the start of **every combat round**, or other time increment of the **GM's** choosing, Hostility increases by `+1`. 
 
-At the start of every combat round, or other time increment of the **GM's** choosing, Hostility increases by `+1`. 
+When Hostility is spent on special creature abilities, that creature performs a so-called **Malicious Act**. When it is spent on environmental challenges, it is called an **Arising Complication**.
+
+Hostility may be spent whenever it becomes available, or saved up and spent in bulk. The **GM** is free to choose when and how to spend Hostility. As a **GM**, be mindful that Hostility is a *tool*, to be applied judiciously. Use it to make combat more fun, by making it more interesting or challenging, as you deem suited to your group of **PCs** and players. Also keep in mind that it is impossible for every possible application of Hostility to fit every narrative situation. 
 
 ## Throwing
 Throwing things is a special type of action, that follows the rules outlined below. 
