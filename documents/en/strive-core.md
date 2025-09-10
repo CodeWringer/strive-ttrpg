@@ -1,6 +1,7 @@
 - [Introduction](#introduction)
   - [Tactical Combat](#tactical-combat)
   - [Character Evolution](#character-evolution)
+- [Credits](#credits)
 - [How to Play](#how-to-play)
   - [Dice](#dice)
   - [Before the Game](#before-the-game)
@@ -176,7 +177,7 @@
       - [Creature-Lore \<category?\> (Awar/Wit)](#creature-lore-category-awarwit)
       - [Geography (Awar/Wit)](#geography-awarwit)
       - [Geology (Awar/Wit)](#geology-awarwit)
-      - [History \< subject \> (Wit/Wit)](#history--subject--witwit)
+      - [History (Wit/Wit)](#history-witwit)
       - [Language \< language \> (Wit/Wit)](#language--language--witwit)
       - [Law and politics (Wit/Wit)](#law-and-politics-witwit)
       - [Mathematics (Wit/Wit)](#mathematics-witwit)
@@ -185,7 +186,7 @@
       - [Nature (Awar/Wit)](#nature-awarwit)
       - [Mysticism and Religion (Wit/Wit)](#mysticism-and-religion-witwit)
       - [Medicine (Agi/Wit)](#medicine-agiwit)
-      - [Reading and Writing \< language \> (Awar/Wit)](#reading-and-writing--language--awarwit)
+      - [Reading and Writing (Awar/Wit)](#reading-and-writing-awarwit)
       - [Surgery (Agi/Wit)](#surgery-agiwit)
       - [Warfare (Tough/Wit)](#warfare-toughwit)
     - [Craftsmanship Skills](#craftsmanship-skills)
@@ -235,12 +236,10 @@
 
 Version 22 (Playtest)
 
-A role-playing game by Nicolas 'Krubi' H.
-
 # Introduction
 **STRIVE** is a table-top role-playing game (**TTRPG**), requiring a **game master** (**GM**) and at least one **player** to play and at its core, is about **emergent storytelling** and **tactical combat**. Players experience the **evolution** of their player character (**PC**) by defining convictions that **drive** them to action, based on the events they experience. In that way, players also **drive** the story forward and guide the evolution of the world. 
 
-Play itself works as a conversation, in which players tell the **GM** what their characters attempt to do and the **GM** determines what happens when they do. Dice and these rules help. 
+Play itself works as a conversation, in which players tell the **GM** what their characters attempt to do and the **GM** determines what happens when they do. These rules outlined in this document and supplementary documents and dice are used to determine whether things play out as the players have planned. 
 
 **STRIVE** understands itself first and foremost as a rule system. *This* document is designed as an unobtrusive reference which you are expected to read once, and after that only open to quickly look up whatever rule you currently need to refamiliarize yourself with. The system is aimed at **GM**s who enjoy doing their own world-building or who want to bring a particular world they like to the table. As such, no setting or theme is imposed, so that you may choose your own. Of course, this implies that adaptability and extensibility are a key ingredient. You are expressly encouraged to hack the system, to make it fit whatever setting and theme you decide on. And if you'd like some guidance or inspiration along the way, one of the supplemental modules may provide what you seek. 
 
@@ -269,6 +268,11 @@ And regardless of *what* the goals are, they are sure to drive the **PCs** into 
 Another aspect of character evolution, is manifested by their **attributes** and the **skills** they possess. These abilities are learned and improved over time. Generalist characters benefit from varied knowledge, while specialists enjoy unique abilities. Over the course of a long-running game, the abilities the characters have learned would be capable of telling stories, themselves. 
 
 Furthermore, a meta-currency, called **Fate Points** is earned by *players*, based on what they and their character do in a session. These allow buying Fate Cards, which give players access to powerful meta-powers that can be enacted at any time, allowing for truly decisive achievements. 
+
+# Credits
+**Designer**: Nicolas 'Krubi' H.
+
+My two small, yet inexorable groups of playtesters, whose feedback has been invaluable, without whom this game would not be any where near where it is now and who keep me motivated!
 
 # How to Play
 As **STRIVE** is a **roleplaying game**, there are certain rules to follow and expectations made of both players and **GM**. 
@@ -2068,7 +2072,7 @@ Knowledge about minerals, sediments, rock and geothermal activity. Useful to fin
 
 Every miner will have at least some amount of geological knowledge, even if they're not explicitly aware of it. 
 
-#### History < subject > (Wit/Wit)
+#### History (Wit/Wit)
 Knowledge about past events and locations. 
 
 Specific historical knowledge should be noted. 
@@ -2104,10 +2108,8 @@ Diagnosing and treating mundane [injuries](#injury), [illnesses](#illness) and [
 
 This skill may also find use in forensics, to identify poisons or the type of weapon that inflicted a wound. The Ob will depend on the rarity of the poison/weapon. 
 
-#### Reading and Writing < language > (Awar/Wit)
-The ability to both read and write in a specific language. 
-
-The language in question must be noted in addition to this skill. 
+#### Reading and Writing (Awar/Wit)
+The ability to both read and write, in general.
 
 #### Surgery (Agi/Wit)
 The ability to invasively treat ailments without making things worse for the patient. 
