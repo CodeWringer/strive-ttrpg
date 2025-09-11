@@ -34,18 +34,21 @@
       - [Strength \[Str\]](#strength-str)
       - [Toughness \[Tough\]](#toughness-tough)
       - [Wit \[Wit\]](#wit-wit)
-      - [Advancing Attributes](#advancing-attributes)
-        - [Practicing Attributes](#practicing-attributes)
+    - [Derived Characteristics](#derived-characteristics)
       - [Base Initiative](#base-initiative)
       - [Sprinting Speed](#sprinting-speed)
     - [Skills](#skills)
       - [Skill Forking](#skill-forking)
       - [Learning Skills](#learning-skills)
+      - [Specialization Skills](#specialization-skills)
+      - [Expertise](#expertise)
+    - [Advancement](#advancement)
+      - [Experience Points \[XP\]](#experience-points-xp)
+      - [Advancing Attributes](#advancing-attributes)
+        - [Practicing Attributes](#practicing-attributes)
       - [Advancing Skills](#advancing-skills)
         - [Practicing Skills](#practicing-skills)
         - [Teaching Skills](#teaching-skills)
-      - [Specialization Skills](#specialization-skills)
-      - [Expertise](#expertise)
     - [Innate Abilities](#innate-abilities)
   - [Personality](#personality)
     - [Ambition](#ambition)
@@ -254,7 +257,7 @@ First of all, STRIVE is **not** a wargame. It is not about coordinating large tr
 
 Secondly, the game is not *about* tactics, either. However, the combat *is tactical* in the sense that **PC**s stand and move on a grid, act in turns and that actions per turn are limited. Players will need to coordinate what their characters do. They have time to think about their current and next actions, to observe and learn what their own character and the other characters in the encounter are capable of. 
 
-And it's the capabilities of characters, that in themselves are a puzzle. There are many options to choose from. There are multiple choices available for deciding *how* a character will move, how they will attack or defend. This also adds another layer of "tactics". 
+And it's the capabilities of characters, that in themselves are a puzzle. There are many options to choose from. There are multiple choices available for deciding *how* a character will move, how they will attack or defend. The position of enemies and allies matters and the battlefield itself may have an impact on the decisions to be made.
 
 Lastly, while the game features hit points, it also features injuries. When a character suffers enough hit point loss, an injury is inflicted upon them. And injuries spell *serious trouble* that reduce that character's efficacy. Recovery from injuries is expected to take time. This implies plenty of down-time for combat-heavy parties, which is time that can be spent on professions, hobbies and scheming. 
 
@@ -265,7 +268,7 @@ Of course, a **GM**'s capabilities may be limited, either by experience, theme o
 
 And regardless of *what* the goals are, they are sure to drive the **PCs** into action. Every goal they pursue, is sure to leave an impact on the characters. What's more, recent and upcoming events of the narrative may also be picked up by **PCs** and become the basis of their goals and affect their personality. In this way, players and **GM** never quite know what direction the **PCs** will develop. They're like a book you start writing from the beginning - not the ending. 
 
-Another aspect of character evolution, is manifested by their **attributes** and the **skills** they possess. These abilities are learned and improved over time. Generalist characters benefit from varied knowledge, while specialists enjoy unique abilities. Over the course of a long-running game, the abilities the characters have learned would be capable of telling stories, themselves. 
+Another aspect of character evolution, is manifested by their Attributes and Skills. These abilities are learned and improved over time. Generalist characters benefit from varied knowledge, while specialists enjoy unique abilities. Over the course of a long-running game, the abilities the characters have learned would be capable of telling stories of their own. 
 
 Furthermore, a meta-currency, called **Fate Points** is earned by *players*, based on what they and their character do in a session. These allow buying Fate Cards, which give players access to powerful meta-powers that can be enacted at any time, allowing for truly decisive achievements. 
 
@@ -460,17 +463,19 @@ The defender **cannot** [fork](#skill-forking) other skills into their test, whe
 If a tie occurs in which a **defender** cannot be clearly determined, the result is a deadlock and neither side gains anything. Mind you, this shouldn't normally happen. Avoid this type of situation to the best of your ability. 
 
 ### Tests Bring about Learning
-Whenever a [skill](#skills) or [attribute](#attributes) is tested, its outcome must be noted. Once a certain threshold number is reached, the [skill](#skills) or [attribute](#attributes) advances to a higher level. 
+TODO
+Whenever a [Skill](#skills) or [Attribute](#base-characteristics) is tested, 
 
-For [skills](#skills), whether the test was a success or failure matters. But for [attributes](#attributes), only the number of tests matters. 
+For [skills](#skills), whether the test was a success or failure matters. But for [attributes](#base-characteristics), only the number of tests matters. 
 
-When a [skill](#skills) is tested, both it **and** its base [attributes](#attributes) are progressed. See also:
+When a [skill](#skills) is tested, both it **and** its base [attributes](#base-characteristics) are progressed. See also:
 * [advancing skills](#advancing-skills)
 * [advancing attributes](#advancing-attributes)
 
 **Ob** 0 tests only count towards progression, if they are made in an [opposed test](#opposed-test). 
 
 ### Providing Assistance
+TODO
 Characters can help each other in tests. In order to help with a test, a character must know a relevant [skill](#skills) and the one being helped must accept the help. 
 
 Helping in a test works similar to [forking](#skill-forking) a [skill](#skills). The character being helped receives **+1D6** to roll for each *character* helping them. The number of relevant [skills](#skills) a helping character has is irrelevant, as is the level of those [skills](#skills). Just one [skill](#skills) and one level in it are enough to allow them to help and only one **+1D6** is granted by the helping character. However, *which* [skill](#skills) is used to help with, matters. 
@@ -480,7 +485,8 @@ If a **PC** is helping another, their player must describe *how* they're using t
 > For example, a **PC** is currently using their [thievery](#thievery-agiawar) to lockpick a door. Their allied **PC** is *helping*, by using their [observation](#observation-awarawar) [skill](#skills) to *keep an eye out for guards*, which allows the one on the door to work without having to constantly look over their shoulder. The **GM** finds that description agreeable and allows the use of the [skill](#skills) to help. 
 
 #### Helpers Learn
-A character helping in a test, also gains [progress](#advancing-skills) towards the [skill](#skills) and [attribute](#attributes) they've helped with. The outcome of the test for the character they've helped, is their own outcome. 
+TODO
+A character helping in a test, also gains [progress](#advancing-skills) towards the [skill](#skills) and [attribute](#base-characteristics) they've helped with. The outcome of the test for the character they've helped, is their own outcome. 
 
 > If the character who was helped succeeded their test, the helper also gains a success to mark on their [skill](#skills). 
 
@@ -502,135 +508,78 @@ While the **GM** decides on how much time a given test will need, the following 
 They may not sound grandiose, but make no mistake, Compensation Points are a ***big deal***! Always seek to earn yourself as many of these as possible! 
 
 # Character
-A character is a representation of a sentient creature in the game world. They're an amalgam of their [abilities](#abilities), [personality](#personality), [health](#health--exhaustion) and [assets](#assets). 
+A character is a representation of a sentient creature in the game world. They're an amalgam of their [abilities](#abilities), [personality](#personality), [health](#health--exhaustion) and [assets](#assets). These rules apply to all Player Characters (PCs). 
 
 A guide on character creation can be found [in the appendix](#character-creation). It has been placed there based on the assumption you won't have to look up character creation as often as the other core rules. 
 
 ## Abilities
-All characters have innate and learned abilities. These are described as [attributes](#attributes) and [skills](#skills). 
+All characters have innate and learned abilities. These are described as [Base Characteristics](#base-characteristics) and [Skills](#skills). 
 
-These abilities determine the chance a character will succeed at the tasks they perform and improve as they're used. 
+These abilities determine the chance a character will succeed at the tasks they perform. 
+
+**Base Characteristics** describe a character's basic, inherent abilities. These are made up of the [Attributes](#attributes) and [Derived Characteristics](#derived-characteristics). 
+
+Two values must be tracked for every **Attribute**: Its **raw level** and its current **modifier**, which results from the sum of [boons and penalties](#boons--penalties) affecting it. The result of adding or subtracting the modifier to/from the **raw level** yields the **modified level**, which is used in [tests](#tests). The higher the **level**, whether **raw** or **modified**, the better. 
+
+For [testing](#tests) an **Attribute**, see the [Testing an attribute](#testing-an-attribute) section. 
 
 ### Attributes
-**Attributes** describe a character's basic, inherent abilities. 
-
-Two values must be tracked for every **attribute**: Its **raw level** and its current **modifier**, which results from the sum of [boons and penalties](#boons--penalties) affecting it. The result of adding or subtracting the modifier to/from the **raw level** yields the **modified level**, which is used in [tests](#tests). The higher the **level**, whether **raw** or **modified**, the better. 
-
-For [testing](#tests) an **attribute**, see the [Testing an attribute](#testing-an-attribute) section. 
-
-**Attributes** [advance](#advancing-attributes), as they or [skills](#skills) that depend on them are [tested](#tests). It is also possible to [practice](#practicing-attributes) **attributes**, but **not** to teach them. 
 
 #### Agility [Agi]
-Nimbleness, swiftness and hand-eye coordination. 
-
-For every point in this **attribute**, a character can [sprint](#combat-movement) an additional 3'/1m per [AP](#action-points-ap) spent or every 5 seconds. 
+<img src="../../img/agility.svg" style="width: 3rem; height: 3rem;"></img> Nimbleness, swiftness and hand-eye coordination. 
 
 #### Awareness [Awar]
-Keen senses and empathic understanding. 
+<img src="../../img/awareness.svg" style="width: 3rem; height: 3rem;"></img> Keen senses and empathic understanding. 
 
 #### Strength [Str]
-Strength of limb. 
+<img src="../../img/strength.svg" style="width: 3rem; height: 3rem;"> Physical strength. 
 
-Governs the [carrying capacity](#carrying-capacity) of a character. Each point in this **attribute** raises the [carrying capacity](#carrying-capacity) of the character by 3. 
+Governs the [carrying capacity](#carrying-capacity) of a character. Each point in this **Attribute** raises the [carrying capacity](#carrying-capacity) of the character by 3. 
 
-For every 3 points in this **attribute**, past the initial **modified level**, every [asset slot](#worn--equipped) of a character can hold **assets** of one bulk higher. 
+For every 3 points in this **Attribute**, past the initial **modified level**, every [asset slot](#worn--equipped) of a character can hold **assets** of one bulk higher. 
 
-> At **modified level** 3 in this **attribute**, a character can still only hold **assets** of bulk 2 in each hand. 
+> At **modified level** 3 in this **Attribute**, a character can still only hold **assets** of bulk 2 in each hand. 
 > 
-> Starting at **modified level** 4 in this **attribute**, a character can hold **assets** of bulk 3 in each hand. Then, the next increase is at level 7, then level 10 and so on.
+> Starting at **modified level** 4 in this **Attribute**, a character can hold **assets** of bulk 3 in each hand. Then, the next increase is at level 7, then level 10 and so on.
 
 #### Toughness [Tough]
-Enduring physical and mental strains. 
+<img src="../../img/toughness.svg" style="width: 3rem; height: 3rem;"> Enduring physical and mental strains. 
 
-For **every** level in **toughness**, a character...
+For every level in **Toughness**, a character...
 * ...gains `+10` maximum [HP](#hit-points-hp). All characters have base [HP](#hit-points-hp) of `10`. 
 * ...raises their [exhaustion limit](#exhaustion) by `+1`. All characters have a base limit of `1`. 
 * ...gains around `3` minutes of holding their breath. 
 * ...gains one additional die with which to try and shrug off an [injury](#injury).
 
-For **every second** level in **toughness**, a character...
-* ...reduces the maximum [HP](#hit-points-hp) penalty from [injuries](#injury) by `1`. 
-
-For your convenience, the table below lists the numbers per level.
-
 | Level                        | 1   | 2   | 3   | 4   | 5   | 6   | 7   | 8   | 9   | 10  |
 | ---------------------------- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | Max. HP                      | 20  | 30  | 40  | 50  | 60  | 70  | 80  | 90  | 100 | 110 |
-| Max. HP reduction per injury | 10  | 9   | 9   | 8   | 8   | 7   | 7   | 6   | 6   | 5   |
 | Exhaustion Limit             | 2   | 3   | 4   | 5   | 6   | 7   | 8   | 9   | 10  | 11  |
 
-Every time a character suffers at least 10 [HP](#hit-points-hp) of damage **in a single attack**, they gain +1 [advancement progress](#advancing-attributes) to **toughness**. For 20 or more [HP](#hit-points-hp) of damage, they gain +2 [advancement progress](#advancing-attributes). There is no greater progression past this point. 
-
-> A character suffering 15 points of damage **in a single attack**, gains +1 advancement progress to their **toughness** automatically. 
->
-> A character suffering 22 points of damage **in a single attack**, gains +2 advancement progress to their **toughness** automatically. 
-> 
-> A character suffering 41 points of damage **in a single attack**, still only gains +2 advancement progress to their **toughness** automatically. 
-
 #### Wit [Wit]
-Sharpness of mind and tongue. 
+<img src="../../img/wit.svg" style="width: 3rem; height: 3rem;"> Sharpness of mind and tongue. 
 
-#### Advancing Attributes
-Whenever a **PC** [tests](#tests) an [attribute](#attributes) or a [skill](#skills) that depends on it, progress towards advancing the [attribute](#attributes) must be noted. See also: [Tests Bring about Learning](#tests-bring-about-learning)
-
-Note that *level* in this section refers to the **raw level** of an **attribute**. That is, the level as it is **before** [boons and penalties](#boons--penalties) are applied to it. 
-
-**Attribute** levels and advancement are divided into three tiers: **Underdeveloped**, **Average** and **Exceptional**. 
-* Attributes are considered **underdeveloped** at level 1 and 2. 
-* Attributes are considered **average** at level 3 and 4. 
-* Attributes are considered **exceptional** starting from level 5. 
-
-The advancement formulae are shown in the following table. *N* is the current level in the **attribute** and the resulting number is the number of [tests](#tests) required to advance. Successes and failures are not tracked for **attributes** and thus irrelevant for **attribute advancement**. 
-
-| underdeveloped | average             | exceptional         |
-| -------------- | ------------------- | ------------------- |
-| `N * 10`       | `N * 7`             | `N * 8`             |
-
-For your convenience, the following table contains the precalculated requirements to advance an **attribute** level. 
-* In the table, 'Level' is the character's *current level* in the **attribute**. 
-* Note it is possible to go past level 10, but you shouldn't hope for it any time soon. 
-
-| Level | Tests |
-| ----- | ----- |
-| 1     | 10    |
-| 2     | 20    |
-| 3     | 21    |
-| 4     | 28    |
-| 5     | 40    |
-| 6     | 48    |
-| 7     | 56    |
-| 8     | 64    |
-| 9     | 72    |
-| 10    | 80    |
-
-Whenever an **attribute** advances (= its level increases), its advancement progress must be reset to `0` and it must be marked as "advanced" this session. Once it has advanced, no more progress can be noted for it, for at least the remainder of the session and at most an in-game week (although you may wish to relax the in-game time requirement if it doesn't work at your table). The body and mind need time to adjust and to rest after all that exercise. 
-
-##### Practicing Attributes
-It is possible to advance attributes *passively*. Whenever a large period of time is spent outside of active adventure, **PC**s can practice an attribute of choice. 
-
-A **PC** can only actively practice one **attribute**. Furthermore, a **PC** can not both be actively practicing an **attribute** *and* a **skill**. They must choose - either practice an **attribute** *or* a **skill**. 
-
-For every **cycle** that passes of active practice, the **PC** can roll a [test](#tests) for the chosen **attribute** with **Ob** at half of their **raw attribute** (RU). 
-
-A **cycle** is 1 month, regardless of attribute being practiced. 
-
-> A **PC** spends 3 months practicing their [wit](#wit-wit). In this case, 3 tests can be made and the progress noted. 
+### Derived Characteristics
 
 #### Base Initiative
-Whenever the order in which characters act matters, their **base initiative** comes into play. It, together with a die roll, determines how early a character gets to take action in a given scenario. 
+<img src="../../img/base-initiative.svg" style="width: 3rem; height: 3rem;">
 
-The **base initiative** of a character is **not an attribute** in the same way as the others. It *cannot* be improved directly and is instead derived from the sum of the character's [agility](#agility-agi), [wit](#wit-wit) and [awareness](#awareness-awar). 
+Whenever the order in which characters act matters, their Base Initiative comes into play. It, together with a die roll, determines how early a character gets to take action in a given scenario. 
 
-> A character with an **agility** of 3, **wit** of 4 and **awareness** of 5, has a **base initiative** of `3 + 4 + 5 = 12`. 
+Base Initiative is derived from the sum of the character's [Agility](#agility-agi), [Awareness](#awareness-awar) and [Wit](#wit-wit). 
+
+> A character with an Agility of `3`, Awareness of `4` and Wit of `5`, has a Base Initiative of `3 + 4 + 5 = 12`. 
 
 See also [initiative](#initiative). 
 
 #### Sprinting Speed
-The **sprinting speed** of a character is **not an attribute** in the same way as the others. It *cannot* be improved directly and is instead derived from the sum of the character's [agility](#agility-agi) and [toughness](#toughness-tough), divided by two and rounded up. 
+<img src="../../img/sprinting-speed.svg" style="width: 3rem; height: 3rem;">
 
-> A character with an **agility** of 3 and **toughness** of 5, has a **sprinting speed** of `(3 + 5) / 2 (RU) = 4`. 
+The Sprinting Speed of a character is derived from the sum of the character's [Agility](#agility-agi) and [Toughness](#toughness-tough), divided by two and rounded up. 
 
-This attribute can also be used to determine whether a character can outrun another. For that, both characters roll via this derived attribute. Whoever achieves more **hits**, succeeds at outrunning the other character. 
+> A character with an Agility of `3` and Toughness of `5`, has a Sprinting Speed of `(3 + 5) / 2 (RU) = 4`. 
+
+This Characteristic can also be used to determine whether a character can outrun another. For that, both characters roll via this derived Characteristic. Whoever achieves more **hits**, succeeds at outrunning the other character. 
 
 See also [combat movement](#combat-movement). 
 
@@ -674,6 +623,96 @@ A **skill** in learning can only be tested with its base [attributes](#attribute
 > A player is asked to test their character's [cooking](#cooking-awarwit) at **Ob** 2. Their character lacks that skill and thus adds it to the *currently learning* section on their character sheet. Assuming their character has the **base attributes** at level 2 and 3, they get to roll `2 + 3 = 5` **D6**. 
 
 [Forking](#skill-forking) **learning skills** into [tests](#tests) is **not** allowed. But **forking** *into* [tests](#tests) of **learning skills** **is** allowed. [Specialization skills](#specialization-skills) *always* and *automatically* receive **forking** from their **prerequisite skills**. 
+
+#### Specialization Skills
+Some **Skills** can only be learned, if other *prerequisite* **skills** are known. Such **skills** represent a further direction of *specialization*, which can in some circumstances replace usage of one of the prerequisite **skills**, or provide a new set of [expertises](#expertise) to extend what the prerequisites were capable of. Furthermore, the prerequisites may be required to be known at *at least* a certain given level. Unless the prerequisite **skills** are *known* at that level, the specialization **skill cannot** be learned. 
+
+A **specialization skill** [advances](#advancing-skills) as any other **skill**. Their prerequisite **skills** do **not** [advance](#advancing-skills) along with the **specialization skill**! 
+
+For a [test](#tests), any prerequisite **skills** are *always automatically* [forked](#skill-forking) into the [test](#tests). 
+
+> A character knows skill A and skill B. These are prerequisite skills for skill C, which the character has just begun learning and has at level 0. 
+>
+> For a test of skill C, they get to roll **+2D6** from their prerequisite skills.
+
+#### Expertise
+**Skills** can offer **expertises**, which further define what the **skill** may be used for. An **expertise** is either a *passive* [boon](#boons--penalties) or an *active* **action**, with effects that apply when used.  
+
+**Expertises** incentivize specialization, by granting special abilities at higher **skill** levels. 
+
+"*Owning* **skill**" refers to the **skill** an **expertise** belongs to. 
+
+Every **expertise** can have the following properties:
+* A **required level** at which they unlock. This is the **modified level** of their *owning* **skill**. 
+  * An **expertise** may only be used, if the character has the *owning* **skill** with at least this level. 
+  * An **expertise** noting level 0 or no level at all, can be used right away, even without any levels in the **skill** it belongs to. 
+* An [AP](#action-points-ap) cost. 
+  * During [combat](#combat) how often **expertises** may be used is restricted by how much a character can do in a single **turn**. 
+  * A cost of 0 implies the use of the **expertise** is free and can potentially be repeated multiple times in a single **turn**. 
+* A **condition** which restricts when and how often they can be used. Some **expertises** can only be used as a *reaction* to another character's **action**, while others can only be used once per scenario, once per day or only when other specific circumstances align. 
+* An **Ob**. 
+  * When an **Ob** is noted, the *owning* skill must be [tested](#tests) at this **Ob**. It is also possible that instead of a fixed **Ob**, a dynamic number is used. For example, whenever an [opposed test](#opposed-test) is required. In case of an [opposed test](#opposed-test), the opposing **skill** will also be noted. The opposing character must use that **skill** to oppose the use of this **expertise**. In some cases, the opposing character may abstain from resisting. 
+  * An **expertise** without a noted **Ob** does *not* require a [test](#tests) to be made. 
+* A [targeting-type](#targeting-types), which restricts how many targets may be affected at once. 
+* A **maximum distance** at which it may apply to targets. 
+* One or more **damage** values of a specified [type](#damage-types). 
+  * When successfully used, damage can be applied to the [HP](#hit-points-hp) of one or more targets. 
+  * Damage can be noted either as a *flat* value, or a formula, which may involve dice rolls for variable damage. E. g. "3D4 + 5". 
+
+Using an **expertise** counts as an **action**. 
+
+[Weapon skills](#weapon--weapon-type--str) use **expertises** to denote the ways one can attack with them. 
+
+### Advancement
+
+#### Experience Points [XP]
+TODO
+
+#### Advancing Attributes
+Whenever a **PC** [tests](#tests) an [attribute](#base-characteristics) or a [skill](#skills) that depends on it, progress towards advancing the [attribute](#base-characteristics) must be noted. See also: [Tests Bring about Learning](#tests-bring-about-learning)
+
+Note that *level* in this section refers to the **raw level** of an **attribute**. That is, the level as it is **before** [boons and penalties](#boons--penalties) are applied to it. 
+
+**Attribute** levels and advancement are divided into three tiers: **Underdeveloped**, **Average** and **Exceptional**. 
+* Attributes are considered **underdeveloped** at level 1 and 2. 
+* Attributes are considered **average** at level 3 and 4. 
+* Attributes are considered **exceptional** starting from level 5. 
+
+The advancement formulae are shown in the following table. *N* is the current level in the **attribute** and the resulting number is the number of [tests](#tests) required to advance. Successes and failures are not tracked for **attributes** and thus irrelevant for **attribute advancement**. 
+
+| underdeveloped | average             | exceptional         |
+| -------------- | ------------------- | ------------------- |
+| `N * 10`       | `N * 7`             | `N * 8`             |
+
+For your convenience, the following table contains the precalculated requirements to advance an **attribute** level. 
+* In the table, 'Level' is the character's *current level* in the **attribute**. 
+* Note it is possible to go past level 10, but you shouldn't hope for it any time soon. 
+
+| Level | Tests |
+| ----- | ----- |
+| 1     | 10    |
+| 2     | 20    |
+| 3     | 21    |
+| 4     | 28    |
+| 5     | 40    |
+| 6     | 48    |
+| 7     | 56    |
+| 8     | 64    |
+| 9     | 72    |
+| 10    | 80    |
+
+Whenever an **attribute** advances (= its level increases), its advancement progress must be reset to `0` and it must be marked as "advanced" this session. Once it has advanced, no more progress can be noted for it, for at least the remainder of the session and at most an in-game week (although you may wish to relax the in-game time requirement if it doesn't work at your table). The body and mind need time to adjust and to rest after all that exercise. 
+
+##### Practicing Attributes
+It is possible to advance attributes *passively*. Whenever a large period of time is spent outside of active adventure, **PC**s can practice an attribute of choice. 
+
+A **PC** can only actively practice one **attribute**. Furthermore, a **PC** can not both be actively practicing an **attribute** *and* a **skill**. They must choose - either practice an **attribute** *or* a **skill**. 
+
+For every **cycle** that passes of active practice, the **PC** can roll a [test](#tests) for the chosen **attribute** with **Ob** at half of their **raw attribute** (RU). 
+
+A **cycle** is 1 month, regardless of attribute being practiced. 
+
+> A **PC** spends 3 months practicing their [wit](#wit-wit). In this case, 3 tests can be made and the progress noted. 
 
 #### Advancing Skills
 Whenever a **PC** uses a **skill** in a [test](#tests), the outcome must be noted, both on the skill **and** its associated [attribute](#attributes). See also: [Tests Bring about Learning](#tests-bring-about-learning)
@@ -719,7 +758,7 @@ Whenever a **skill** advances, its associated successes and failures must each b
 ##### Practicing Skills
 It is possible to advance **skills** *passively*. Whenever a large period of time is spent outside of active adventure, **PC**'s can practice a skill of choice. 
 
-A **PC** can only actively practice one **category of skills**. For every **cycle** that passes of active practice, the **PC** can roll a [test](#tests) of a skill of the corresponding category. Furthermore, a **PC** can not both be actively practicing a **skill** *and* an **attribute**. They must choose - either practice a **skill** *or* an **attribute**. 
+A **PC** can only actively practice one **category of skills**. For every **cycle** that passes of active practice, the **PC** can roll a [test](#tests) of a skill of the corresponding category. Furthermore, a **PC** can not both be actively practicing a **skill** *and* an **Attribute**. They must choose - either practice a **skill** *or* an **Attribute**. 
 
 The **Ob** for such practice [tests](#tests) is always half of the **skill's raw level** (RU). 
 
@@ -747,45 +786,6 @@ Pupils benefit from getting twice the amount of advancement progress to note, pe
 | Social         | 1 Week   |
 | Craftsmanship  | 3 Weeks  |
 | Knowledge      | 1 Month  |
-
-#### Specialization Skills
-Some **Skills** can only be learned, if other *prerequisite* **skills** are known. Such **skills** represent a further direction of *specialization*, which can in some circumstances replace usage of one of the prerequisite **skills**, or provide a new set of [expertises](#expertise) to extend what the prerequisites were capable of. Furthermore, the prerequisites may be required to be known at *at least* a certain given level. Unless the prerequisite **skills** are *known* at that level, the specialization **skill cannot** be learned. 
-
-A **specialization skill** [advances](#advancing-skills) as any other **skill**. Their prerequisite **skills** do **not** [advance](#advancing-skills) along with the **specialization skill**! 
-
-For a [test](#tests), any prerequisite **skills** are *always automatically* [forked](#skill-forking) into the [test](#tests). 
-
-> A character knows skill A and skill B. These are prerequisite skills for skill C, which the character has just begun learning and has at level 0. 
->
-> For a test of skill C, they get to roll **+2D6** from their prerequisite skills.
-
-#### Expertise
-**Skills** can offer **expertises**, which further define what the **skill** may be used for. An **expertise** is either a *passive* [boon](#boons--penalties) or an *active* **action**, with effects that apply when used.  
-
-**Expertises** incentivize specialization, by granting special abilities at higher **skill** levels. 
-
-"*Owning* **skill**" refers to the **skill** an **expertise** belongs to. 
-
-Every **expertise** can have the following properties:
-* A **required level** at which they unlock. This is the **modified level** of their *owning* **skill**. 
-  * An **expertise** may only be used, if the character has the *owning* **skill** with at least this level. 
-  * An **expertise** noting level 0 or no level at all, can be used right away, even without any levels in the **skill** it belongs to. 
-* An [AP](#action-points-ap) cost. 
-  * During [combat](#combat) how often **expertises** may be used is restricted by how much a character can do in a single **turn**. 
-  * A cost of 0 implies the use of the **expertise** is free and can potentially be repeated multiple times in a single **turn**. 
-* A **condition** which restricts when and how often they can be used. Some **expertises** can only be used as a *reaction* to another character's **action**, while others can only be used once per scenario, once per day or only when other specific circumstances align. 
-* An **Ob**. 
-  * When an **Ob** is noted, the *owning* skill must be [tested](#tests) at this **Ob**. It is also possible that instead of a fixed **Ob**, a dynamic number is used. For example, whenever an [opposed test](#opposed-test) is required. In case of an [opposed test](#opposed-test), the opposing **skill** will also be noted. The opposing character must use that **skill** to oppose the use of this **expertise**. In some cases, the opposing character may abstain from resisting. 
-  * An **expertise** without a noted **Ob** does *not* require a [test](#tests) to be made. 
-* A [targeting-type](#targeting-types), which restricts how many targets may be affected at once. 
-* A **maximum distance** at which it may apply to targets. 
-* One or more **damage** values of a specified [type](#damage-types). 
-  * When successfully used, damage can be applied to the [HP](#hit-points-hp) of one or more targets. 
-  * Damage can be noted either as a *flat* value, or a formula, which may involve dice rolls for variable damage. E. g. "3D4 + 5". 
-
-Using an **expertise** counts as an **action**. 
-
-[Weapon skills](#weapon--weapon-type--str) use **expertises** to denote the ways one can attack with them. 
 
 ### Innate Abilities
 An **innate ability** is an [attribute](#attributes) or [skill](#skills) unique to a specific species or individual. 
@@ -949,16 +949,18 @@ Whenever a character loses a `10` [HP](#hit-points-hp) segment (whether from a s
 >
 > Thus, their Ob for their toughness test is `0 (current injury count) + 1 (always) + 1 (from an earlier shrugged off injury) = 2`. 
 
-For every **injury** incurred, a character's maximum [HP](#hit-points-hp) is reduced - by how much is determined by their [toughness](#toughness-tough) - and a [grit point](#grit-points) is earned. An **injury** can also apply further [penalties](#boons--penalties). A penalty to [toughness](#toughness-tough) **does not** further reduce the current maximum [HP](#hit-points-hp)! The reduction from the **injury** is enough penalty. 
+For every **injury** incurred, a character's [maximum HP](#hit-points-hp) is reduced by `10` points! An **injury** can also apply further [penalties](#boons--penalties). A penalty to [toughness](#toughness-tough) **does not** further reduce the current maximum [HP](#hit-points-hp)! The reduction from the **injury** is enough penalty. Only by treating and fully healing an Injury, is the [maximum HP](#hit-points-hp) penalty from it removed. 
 
-> A character with toughness 4, suffering an injury, loses `8` maximum **HP**. 
+Whenever a **PC** suffers an injury, they earn a [Grit Point](#grit-points)! 
 
-An **injury** must be [treated](#injury-states--treatment) to reduce its negative effects and begin the healing process. [Treatment](#injury-states--treatment) is made with a [skill](#skills) noted on the **injury**. The difficulty of [treatment](#injury-states--treatment) is determined by the type of **injury**, that is to say, by the [type of damage](#damage-types) that inflicted it. The time to heal depends on its type. When an **injury** is fully healed and removed, it may leave behind a [scar](#scar), which can also impose [boons & penalties](#boons--penalties). 
+**Injuries** apply their penalties only once, upon being suffered. 
 
-**Injuries** apply their penalties only once, upon being suffered. That means that if an **injury** applies a penalty of +1 [bleeding](#bleeding), the [bleeding](#bleeding) [condition](#condition) can be removed separately from the **injury**, after it has been suffered. Treating such an **injury** would only remove the 1 point of [bleeding](#bleeding) it inflicted. [Bleeding](#bleeding) suffered from other sources would remain. 
+> An Injury applies a penalty of `+1` [bleeding](#bleeding). This [Condition](#condition) is suffered only once, as the Injury is applied. The [Bleeding](#bleeding) [Condition](#condition) can be removed separately from the Injury, after it has been suffered. 
 
 #### Injury States & Treatment
 There are two possible states of an [injury](#injury): **active** or **treated**. Note that regardless of current state, **all** [injuries](#injury) **always** reduce the **maximum HP**! 
+
+An **injury** must be [treated](#injury-states--treatment) to reduce its negative effects and begin the healing process. [Treatment](#injury-states--treatment) is made with a [skill](#skills) noted on the **injury**. The difficulty of [treatment](#injury-states--treatment) is determined by the type of **injury**, that is to say, by the [type of damage](#damage-types) that inflicted it. The time to heal depends on its type. When an **injury** is fully healed and removed, it may leave behind a [scar](#scar) - something to remember your past adventures. 
 
 The type of [injury](#injury) dictates various aspects of treatment:
 * The [skill](#skills) to use.
@@ -1181,8 +1183,8 @@ There are no limits to how many of a given card a player can own, but they may o
 | 2 MiFP  | Single Re-Roll      | Repeat a single test you just made. |
 | 6 MiFP  | Clotter             | One **active** [injury](#injury) of choice is now **treated**. |
 | 8 MiFP  | Cascading Re-Roll   | Repeat a single test you just made. With this card, you keep any **hits** you achieved from the previously made test and add them to the **hits** rolled when you repeat the test. Exclusive with "Double the Fun". |
-| 8 MiFP  | Learning Boost      | For the duration of the session, you gain **twice** the [progress](#advancing-skills) towards your [skills](#skills) and [attributes](#attributes) whenever you test them. |
-| 8 MiFP  | Hastened            | +1 **AP** during your turns for the entirety of a [combat](#combat) encounter. |
+| 8 MiFP  | Learning Boost      | For the duration of the session, you gain **twice** the [progress](#advancing-skills) towards your [skills](#skills) and twice the [XP](#experience-points-xp) every test. |
+| 8 MiFP  | Hastened            | `+1` **AP** during your turns for the entirety of a [combat](#combat) encounter. |
 | 3 MaFP  | Double the Fun      | Double the number of dice to roll on your next/current test and every rolled **hit** counts double - which means every rolled **hit** actually counts as 2 **hits**! Exclusive with "Cascading Re-Roll". |
 | 3 MaFP  | Scar? What Scar?    | Remove one scar [scar](#scar) of choice. |
 | 5 MaFP  | Fact Check          | Change a minor plot point in a way you prefer. Work with your **GM** to make sure it fits the narrative, but they should respect your wish. This could be something like avoiding an **NPC** death or changing a fact about the plot. |
