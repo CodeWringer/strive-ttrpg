@@ -118,6 +118,7 @@
   - [Tensions Rise](#tensions-rise)
     - [Momentum](#momentum)
     - [Hostility](#hostility)
+    - [Hostily by Environment](#hostily-by-environment)
   - [Throwing](#throwing)
     - [Throwing-Distance](#throwing-distance)
     - [Throwing-Accuracy](#throwing-accuracy)
@@ -1474,15 +1475,15 @@ When Momentum reaches `+18`, **Heroic Acts** become available. Inversely, when M
 
 | Gaining Momentum                 | Losing Momentum                                     | Notes |
 | -------------------------------- | --------------------------------------------------- | ----- |
-| Damaging a foe: `+1`             | **PC** Being damaged: `-2`                          | This only counts damage that is actually applied to HP! |
+| Damaging a foe: `+1`             | **PC** being damaged: `-2`                          | Only applies if any damage is actually applied to HP! |
 | Helping an ally: `+2`            | A foe helping *their* ally: `-1`                    | Help is any action that gets an ally out of a sticky situation, or grants them any kind of advantage. Heroic Acts do not count towards this. |
-| Causing an injury in a foe: `+5` | **PC** Suffering an injury: `-10`                   | |
-| Slaying a foe: `+10`             | **PC** Brought to Death's Door or struck down `-20` | When a **PC** is brought to Death's Door and *then* struck down, the momentum loss is only caused once. |
+| Causing an injury in a foe: `+10` | **PC** suffering an injury: `-10`                   | |
+| Slaying a foe: `+15`             | **PC** brought to Death's Door or struck down `-40` | When a **PC** is brought to Death's Door and *then* struck down, the Momentum loss does not occur again. |
 
 | Heroic Act <br><img src="../../img/heroic_acts.svg" width="64px" height="64px"></img> | Heroic Act Description | Desperate Measure Description | Desperate Measure <br><img src="../../img/desperate_measures.svg" width="64px" height="64px"></img> |
 | ----------------------- | ---------------------- | ----------------------------- | --------------------------- |
-| Death Mark <br><img src="../../img/heroic_act_death-mark.svg" width="64px" height="64px"></img>| Until the end of combat, a chosen enemy is [Marked](#marked). All damage they suffer causes them `+1` point of [Bleeding](#bleeding). This [Condition](#condition) cannot be removed normally. Decreases Momentum by `-15`. | Until the end of combat, a chosen enemy **and** **PC** are [Marked](#marked). All damage the **PC** suffers causes them `+1` point of [Bleeding](#bleeding). This [Condition](#condition) cannot be removed normally. Increases Momentum by `+5`. | Death Pact <br><img src="../../img/desperate_measure_death-pact.svg" width="64px" height="64px"></img> |
-| Finest Hour             | A **PC** of choice gets an immediate turn, with `5` [AP](#action-points-ap). Decreases Momentum by `-30`. | A **PC** of choice gets an immediate turn, with `5` [AP](#action-points-ap), but they suffer `+6` degrees of [Bleeding](#bleeding). Increases Momentum by `+5`. | Final Hour |
+| Death Mark <br><img src="../../img/heroic_act_death-mark.svg" width="64px" height="64px"></img>| Until the end of combat, a chosen enemy is [Marked](#marked). All damage they suffer causes them `+1` point of [Bleeding](#bleeding). This [Condition](#condition) cannot be removed normally. Decreases Momentum by `-15`. | Until the end of combat, a chosen enemy **and** **PC** are [Marked](#marked). All damage either suffers causes them `+1` point of [Bleeding](#bleeding). This [Condition](#condition) cannot be removed normally. Increases Momentum by `+5`. | Death Pact <br><img src="../../img/desperate_measure_death-pact.svg" width="64px" height="64px"></img> |
+| Finest Hour <br><img src="../../img/heroic_act_finest-hour.svg" width="64px" height="64px"></img>| A **PC** of choice gets an immediate turn, with `5` [AP](#action-points-ap). Decreases Momentum by `-30`. | A **PC** of choice gets an immediate turn, with `5` [AP](#action-points-ap), but they suffer `+6` degrees of [Bleeding](#bleeding). Increases Momentum by `+5`. | Final Hour <br><img src="../../img/desperate_measure_final-hour.svg" width="64px" height="64px"></img> |
 | Finish It!              | A chosen **PC** launches an immediate attack against a chosen foe, with `2` [Compensation Points](#compensation-points). If successful, that foe suffers `(Injury count * 10) + 10` points of additional Pure damage. Decreases Momentum by `-30`. | A chosen **PC** launches an immediate attack against a chosen foe. If successful, the foe suffers `(Injury count * 10) + 10` points of additional Pure damage. If unsuccessful, the **PC** instead suffers `(Injury count * 10) + 10` points of Pure damage. Increases Momentum by `+10`. | You or Me <br><img src="../../img/desperate_measure_you-or-me.svg" width="64px" height="64px"></img> |
 | Pre-Emptive Strikes     | Until the end of combat, a chosen **PC's** first attack every round costs no [AP](#action-points-ap)! Decreases Momentum by `-30`. | All **PCs** may immediately make one attack against a chosen foe. This attack costs no [AP](#action-points-ap), but every foe hit may launch a free [Counter-Attack](#defense-stunts), after all **PCs** have acted. Increases Momentum by `+10`. | Breakout Strikes |
 | Tactical Repositioning  | All **PCs** may immediately re-position, moving up to `30'/10m`, without triggering any [Opportunity Attacks](#attacks-of-opportunity). Decreases Momentum by `-10`. | All **PCs** may immediately re-position, moving up to `30'/10m`, but also triggering *free* [Opportunity Attacks](#attacks-of-opportunity). Increases Momentum by `+5`. | Desperate Repositioning |
@@ -1497,6 +1498,15 @@ Hostility is a resource for use only by the **GM**, that benefits the **PCs'** e
 When Hostility is spent on special creature abilities, that creature performs a so-called **Malicious Act**. When it is spent on environmental challenges, this is called a **Hostile Complication**.
 
 Hostility may be spent whenever it becomes available, or saved up and spent in bulk, at the **GM's** discretion. However, as a **GM**, be mindful that Hostility is a *tool*, to be applied judiciously. Use it to make combat more fun, by making it more interesting or challenging, as you deem suited to your group of **PCs** and players. Also keep in mind that not every possible application of Hostility may fit every situation, narratively. 
+
+| Hostility Cost | Hostile Action        | Description |
+| -------------- | --------------------- | ----------- |
+| 2              | Driven by Malice      | A foe gains `+1` [Action Point](#action-points-ap) |
+| 5              | Hate the Flank        | A foe may immediately move up to `30'/10m`, without provoking [Opportunity Attacks](#attacks-of-opportunity) and make an attack against a **PC** or their allies. |
+| 5              | Zealous Strength      | A foe gains `+3` to an Attribute of choice, until the end of combat. |
+
+### Hostily by Environment
+TODO
 
 ## Throwing
 Throwing things is a special type of action, that follows the rules outlined below. 
@@ -1658,14 +1668,16 @@ If you need inspiration, the following tables might help a spark along:
 | 10 | You were taught by a wealthy and successful merchant (perhaps your parent) and helped with running their business for a few years. |
 
 #### The Last Few Years
-| Range **D6** | The Last Few Years | 
+| Range **D8** | The Last Few Years | 
 | -------- | --------- |
 | 1 | You made an enemy you couldn't beat and were thus forced to leave town. Since then, you've been on the run. |
-| 2 | You've been given an important task to carry out in secret. A piece of parchment holds your orders, but the task is simply too great for you to complete on your own. |
+| 2 | You've been given an important task to carry out in secret. A piece of writing holds your orders, but the task is simply too great for you to complete on your own. |
 | 3 | You've found yourself with an insatiable curiosity and decided to go see the world and its wonders. |
 | 4 | You decided to go on a pilgrimage, but were distracted from your path. |
 | 5 | You swore an oath and intend to keep it. You swore to rescue someone, or bring honor to your clan, or perhaps to bring justice to a known criminal. |
 | 6 | You lost someone or something you held dear. Now, you're on a quest to get it back, or your revenge. |
+| 7 | Through your actions, or those of someone close to you, you've brought dishonor and shame upon your name. Now you've been looking for ways to wipe away the stain. |
+| 8 | You took on a job, but after its completion, your employed bailed on you, without paying up. Now, you're looking for new work and perhaps a means of tracking down your prior employer. |
 
 ### Determine Name
 Any interesting character should have an interesting name. Whether you set a name or personality first, is entirely up to you. Although, you might prefer to delay this step until much later, once you've determined the other aspects of your character. Whichever you find easier is fine. 
