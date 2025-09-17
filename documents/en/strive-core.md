@@ -1473,12 +1473,13 @@ Momentum is a resource that benefits **PCs**. It ranges from `-20` to `+20` and 
 
 When Momentum reaches `+18`, **Heroic Acts** become available. Inversely, when Momentum reaches `-18`, **Desperate Measures** become available. 
 
-| Gaining Momentum                 | Losing Momentum                                     | Notes |
-| -------------------------------- | --------------------------------------------------- | ----- |
-| Damaging a foe: `+1`             | **PC** being damaged: `-2`                          | Only applies if any damage is actually applied to HP! |
-| Helping an ally: `+2`            | A foe helping *their* ally: `-1`                    | Help is any action that gets an ally out of a sticky situation, or grants them any kind of advantage. Heroic Acts do not count towards this. |
-| Causing an injury in a foe: `+10` | **PC** suffering an injury: `-10`                   | |
-| Slaying a foe: `+15`             | **PC** brought to Death's Door or struck down `-40` | When a **PC** is brought to Death's Door and *then* struck down, the Momentum loss does not occur again. |
+| Gaining Momentum                       | Losing Momentum                                             |
+| -------------------------------------- | ----------------------------------------------------------- |
+| Successfully attacking a foe: `+2`     | PC or ally being successfully attacked: `-2`                |
+| Helping another PC or ally: `+2`       | A foe helping *their* ally: `-2`                            |
+| Causing an Injury in a foe: `+5`       | PC or ally suffering an Injury: `-5`                        |
+| Slaying a feeble foe: `+5`             | Ally struck down or PC brought to Death's Door: `-15`       |
+| Slaying a non-feeble foe: `+15`        | PC struck down `-40`                                        |
 
 | Heroic Act <br><img src="../../img/heroic_acts.svg" width="64px" height="64px"></img> | Heroic Act Description | Desperate Measure Description | Desperate Measure <br><img src="../../img/desperate_measures.svg" width="64px" height="64px"></img> |
 | ----------------------- | ---------------------- | ----------------------------- | --------------------------- |
