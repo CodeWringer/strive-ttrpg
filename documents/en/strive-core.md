@@ -1473,7 +1473,7 @@ Momentum is a resource that benefits **PCs**. It ranges from `-20` to `+20` and 
 
 When Momentum reaches `+18`, **Heroic Acts** become available. Inversely, when Momentum reaches `-18`, **Desperate Measures** become available. 
 
-| Gaining Momentum                       | Losing Momentum                                             |
+| Gaining Momentum <img src="../../img/momentum-shift_heroism.svg" width="48px" height="48px"></img> | Losing Momentum <img src="../../img/momentum-shift_desperation.svg" width="48px" height="48px"></img> |
 | -------------------------------------- | ----------------------------------------------------------- |
 | Successfully attacking a foe: `+2`     | PC or ally being successfully attacked: `-2`                |
 | Helping another PC or ally: `+2`       | A foe helping *their* ally: `-2`                            |
