@@ -117,8 +117,6 @@
     - [Speed aids Defense](#speed-aids-defense)
   - [Tensions Rise](#tensions-rise)
     - [Momentum](#momentum)
-    - [Hostility](#hostility)
-    - [Hostily by Environment](#hostily-by-environment)
   - [Throwing](#throwing)
     - [Throwing-Distance](#throwing-distance)
     - [Throwing-Accuracy](#throwing-accuracy)
@@ -1490,24 +1488,6 @@ When Momentum reaches `+18`, **Heroic Acts** become available. Inversely, when M
 | Tactical Repositioning  | All **PCs** may immediately re-position, moving up to `30'/10m`, without triggering any [Opportunity Attacks](#attacks-of-opportunity). Decreases Momentum by `-10`. | All **PCs** may immediately re-position, moving up to `30'/10m`, but also triggering *free* [Opportunity Attacks](#attacks-of-opportunity). Increases Momentum by `+5`. | Desperate Repositioning |
 | Take and Hold! <br><img src="../../img/heroic_act_take-and-hold.svg" width="64px" height="64px"></img> | Designate an area up to `9'/3m` in radius. Until the end of combat, any **PC** inside this zone receives `+1` [AP](#action-points-ap) at turn start and `+1` [Compensation Point](#compensation-points) for every test. If such a zone already exists, it is replaced with the new one. Decreases Momentum by `-30`. | Designate an area up to `9'/3m` in radius. Until the end of combat, any **PC** inside this zone receives `+1` [Compensation Point](#compensation-points) for every test, but every **PC** *outside* this zone suffers `+1` **Ob** for every test. If such a zone already exists, it is replaced with the new one. Increases Momentum by `+10`. | Not A Step Back! <br><img src="../../img/desperate_measure_not-a-step-back.svg" width="64px" height="64px"></img> |
 | Unyielding              | A **PC** of choice gets `+1` [Compensation Point](#compensation-points) for all defense tests and may freely [Counter-Attack](#defense-stunts) all attacks directed against them or an adjacent ally, for `1` round. Decreases Momentum by `-10`. | A **PC** of choice may freely [Counter-Attack](#defense-stunts) all attacks directed against them or an adjacent ally, for `1` round. However, they suffer `+1` **Ob** for all defense tests. Increases Momentum by `+5`. | Cornered |
-
-### Hostility
-Hostility is a resource for use only by the **GM**, that benefits the **PCs'** enemies and introduces new complications to a scenario. It ranges from `0` to `30`. At the start of **every combat round**, or other time increment of the **GM's** choosing, Hostility increases by the number of **PCs**, plus the number of their allies. 
-
-> `4` PCs, with a retainer NPC enter combat. Starting at round `1`, `5` Hostility accumulates.
-
-When Hostility is spent on special creature abilities, that creature performs a so-called **Malicious Act**. When it is spent on environmental challenges, this is called a **Hostile Complication**.
-
-Hostility may be spent whenever it becomes available, or saved up and spent in bulk, at the **GM's** discretion. However, as a **GM**, be mindful that Hostility is a *tool*, to be applied judiciously. Use it to make combat more fun, by making it more interesting or challenging, as you deem suited to your group of **PCs** and players. Also keep in mind that not every possible application of Hostility may fit every situation, narratively. 
-
-| Hostility Cost | Hostile Action        | Description |
-| -------------- | --------------------- | ----------- |
-| 2              | Driven by Malice      | A foe gains `+1` [Action Point](#action-points-ap) |
-| 5              | Hate the Flank        | A foe may immediately move up to `30'/10m`, without provoking [Opportunity Attacks](#attacks-of-opportunity) and make an attack against a **PC** or their allies. |
-| 5              | Zealous Strength      | A foe gains `+3` to an Attribute of choice, until the end of combat. |
-
-### Hostily by Environment
-TODO
 
 ## Throwing
 Throwing things is a special type of action, that follows the rules outlined below. 
