@@ -115,6 +115,9 @@
     - [Defense Stunts](#defense-stunts)
     - [Cover](#cover)
     - [Speed aids Defense](#speed-aids-defense)
+  - [Tensions Rise](#tensions-rise)
+    - [Hostility](#hostility)
+    - [Hostily by Environment](#hostily-by-environment)
   - [Throwing](#throwing)
     - [Throwing-Distance](#throwing-distance)
     - [Throwing-Accuracy](#throwing-accuracy)
@@ -1458,6 +1461,29 @@ What speed exactly that is, depends heavily on circumstance. As always, the **GM
 > In a sci-fi setting, an automated turret may have a tracking system that can easily keep up with targets moving at high speeds, which will only fail if the target performs some extreme maneuvers. 
 > 
 > In a medieval fantasy setting, even just someone in a full sprint may be fast enough to throw off an archer's aim. Someone on horse back, riding at speed may be very hard to hit with an arrow or melee weapon. 
+
+## Tensions Rise
+As victories mount, so too will resistance. As combat or other tense situations progress, two resources - Momentum and Hostility - rise and fall.
+
+When the PCs enter combat, or the GM decides another type of situation warrants it, Momentum and Hostility become available.
+
+### Hostility
+Hostility is a resource for use only by the **GM**, that benefits the **PCs'** enemies and introduces new complications to a scenario. It ranges from `0` to `30`. At the start of **every combat round**, or other time increment of the **GM's** choosing, Hostility increases by the number of **PCs**, plus the number of their allies. 
+
+> `4` PCs, with a retainer NPC enter combat. Starting at round `1`, `5` Hostility accumulates.
+
+When Hostility is spent on special creature abilities, that creature performs a so-called **Malicious Act**. When it is spent on environmental challenges, this is called a **Hostile Complication**.
+
+Hostility may be spent whenever it becomes available, or saved up and spent in bulk, at the **GM's** discretion. However, as a **GM**, be mindful that Hostility is a *tool*, to be applied judiciously. Use it to make combat more fun, by making it more interesting or challenging, as you deem suited to your group of **PCs** and players. Also keep in mind that not every possible application of Hostility may fit every situation, narratively. 
+
+| Hostility Cost | Hostile Action        | Description |
+| -------------- | --------------------- | ----------- |
+| 2              | Driven by Malice      | A foe gains `+1` [Action Point](#action-points-ap) |
+| 5              | Hate the Flank        | A foe may immediately move up to `30'/10m`, without provoking [Opportunity Attacks](#attacks-of-opportunity) and make an attack against a **PC** or their allies. |
+| 5              | Zealous Strength      | A foe gains `+3` to an Attribute of choice, until the end of combat. |
+
+### Hostily by Environment
+TODO
 
 ## Throwing
 Throwing things is a special type of action, that follows the rules outlined below. 
