@@ -901,7 +901,7 @@ For every point in [toughness](#toughness-tough), a character raises their [exha
 
 > At **toughness** `1`, you already have an **exhaustion limit** of `2`. 
 
-If a character's exhaustion reaches their threshold, they become [exhausted](#exhausted) from over-exertion. While **exhausted**, a character suffering further [exhaustion](#exhaustion), must succeed a [self-control](#self-control-toughtough) [test](#tests) at **Ob** equal to their current level of [exhaustion](#exhaustion), or else fall [unconscious](#unconscious).
+If a character's exhaustion exceeds their limit, they become [exhausted](#exhausted) from over-exertion. While **exhausted**, a character suffering further [exhaustion](#exhaustion), must succeed a [self-control](#self-control-toughtough) [test](#tests) at **Ob** equal to their current level of [exhaustion](#exhaustion), or else fall [unconscious](#unconscious).
 
 Exhaustion is gained through performing **exhausting actions** and **exhausting equipment**. 
 
