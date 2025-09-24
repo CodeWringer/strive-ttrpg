@@ -37,12 +37,14 @@
     - [Derived Characteristics](#derived-characteristics)
       - [Base Initiative](#base-initiative)
       - [Sprinting Speed](#sprinting-speed)
+      - [Stability](#stability)
     - [Skills](#skills)
       - [Skill Forking](#skill-forking)
       - [Learning Skills](#learning-skills)
       - [Specialization Skills](#specialization-skills)
       - [Expertise](#expertise)
       - [Momentum Action](#momentum-action)
+      - [Concentration](#concentration)
     - [Advancement](#advancement)
       - [Experience Points \[XP\]](#experience-points-xp)
       - [Advancing Attributes](#advancing-attributes)
@@ -503,11 +505,9 @@ A character is a representation of a sentient creature in the game world. They'r
 A guide on character creation can be found [in the appendix](#character-creation). It has been placed there based on the assumption you won't have to look up character creation as often as the other core rules. 
 
 ## Abilities
-All characters have innate and learned abilities. These are described as [Base Characteristics](#base-characteristics) and [Skills](#skills). 
+All characters have innate and learned abilities. These are described as **Base Characteristics** and [Skills](#skills). The values assigned to them represent a character's level of mastery - how likely they are to succeed tests and what [Expertises](#expertise) they have access to. 
 
-These abilities determine the chance a character will succeed at the tasks they perform. 
-
-**Base Characteristics** describe a character's basic, inherent abilities. These are made up of the [Attributes](#attributes) and [Derived Characteristics](#derived-characteristics). 
+**Base Characteristics** are a character's [Attributes](#attributes) and [Derived Characteristics](#derived-characteristics). 
 
 Two values must be tracked for every **Attribute**: Its **raw level** and its current **modifier**, which results from the sum of [boons and penalties](#boons--penalties) affecting it. The result of adding or subtracting the modifier to/from the **raw level** yields the **modified level**, which is used in [tests](#tests). The higher the **level**, whether **raw** or **modified**, the better. 
 
@@ -567,13 +567,20 @@ See also [initiative](#initiative).
 #### Sprinting Speed
 <img src="../../img/sprinting-speed.svg" style="width: 3rem; height: 3rem;">
 
-The Sprinting Speed of a character is derived from the sum of the character's [Agility](#agility-agi) and [Toughness](#toughness-tough), divided by two and rounded up. 
+The Sprinting Speed of a character represents the additional distance they can move, per [AP](#action-points-ap) spent, when [sprinting in combat](#combat-movement). 
+
+It is derived from the sum of their [Agility](#agility-agi) and [Toughness](#toughness-tough), divided by two and rounded up. 
 
 > A character with an Agility of `3` and Toughness of `5`, has a Sprinting Speed of `(3 + 5) / 2 (RU) = 4`. 
 
 This Characteristic can also be used to determine whether a character can outrun another. For that, both characters roll via this derived Characteristic. Whoever achieves more **hits**, succeeds at outrunning the other character. 
 
-See also [combat movement](#combat-movement). 
+#### Stability
+<img src="../../img/stability.svg" style="width: 3rem; height: 3rem;">
+
+The Stability of a character represents their resistance to [forced movement](#forced-movement). For every point in this derived Characteristic, a character is moved `3'/1m` less and suffers this amount fewer points of damage from the impact. 
+
+It is derived from the sum of their [Strength](#strength-str) and [Toughness](#toughness-tough), divided by three and rounded up. 
 
 ### Skills
 A **skill** is any acquired knowledge and experience regarding a specific subject. You will predominantly [test](#tests) these. 
@@ -660,6 +667,9 @@ Every **expertise** can have the following properties:
 A Heroic Act always has a counter-part - a Desperate Measure. This pairing is called a **Momentum Action**. Skills may allow access to a Momentum Action, if the character knows the Skill at the required level. 
 
 See also [Momentum](#momentum).
+
+#### Concentration
+A **Concentration** Skill or Expertise upholds its effect(s) once successfully enacted, for as long as the user desires or is conscious. Under normal circumstances, a character may only have one active Concentration effect at a time. On such Skills and Expertises "Concentration" will be noted. 
 
 ### Advancement
 Through [tests](#tests), characters learn and improve. For every [test](#tests), `+1` [XP](#experience-points-xp) is earned. If testing a Skill, then *additionally*, the advancement progress of that Skill is incremented by `+1`. 
@@ -840,11 +850,11 @@ Every character has **Hit Points (HP)** and a maximum number of **injuries** the
 ### Hit Points (HP)
 Whenever a character is hurt, the **damage** that has been inflicted upon them is deducted from their **HP**. When their **HP** reach `0`, they **die**. <br>
 An exception to this rule applies when the [damage type](#damage-types) that brought them to `0` **HP** was [bludgeoning](#damage-types). For that, see [bludgeoned to 0 HP](#bludgeoned-to-0-hp). <br>
-A further exception applies, but only for player characters, who upon reaching `0` **HP** are brought to [death's door](#deaths-door) (unless they are knocked unconscious). 
+A further exception applies, but only for PCs, who upon reaching `0` **HP** are brought to [Death's Door](#deaths-door) (unless they are knocked unconscious). 
 
 Whenever a `10` **HP** segment threshold is reached, an [injury](#injury) *may* be suffered. For more details, see the [injury](#injury) section. **HP** segments are always based on the character's maximum **HP**. 
 
-> A character with 30 maximum **HP** has 3 **HP** segments. The current **HP** do not factor into the segments, at all. 
+> A character with `30` **maximum HP** has `3` **HP** segments. The *current* **HP** do not factor into the segments, at all. 
 
 A [graduated](#graduated-test) [medicine](#medicine-agiwit) test can restore `hits * D8` **HP**. This test requires and consumes one unit of [medical supplies](#list-of-general-assets)! 
 
@@ -852,7 +862,7 @@ A [graduated](#graduated-test) [medicine](#medicine-agiwit) test can restore `hi
 
 **HP** also replenish on their own, albeit much slower. For every hour outside of combat, **1 D4** **HP** are regained, up to the current maximum. 
 
-See the [toughness attribute](#toughness-tough) to determine the **maximum HP**. 
+See the [toughness attribute](#toughness-tough) to determine the **maximum HP**. Also, the **maximum HP** cannot be reduced to less than `10`, for any reason. 
 
 #### Bludgeoned to 0 HP
 When a character was **bludgeoned** to `0` [HP](#hit-points-hp), they might survive and fall [unconscious](#unconscious), instead of dying. For that, they must succeed a [toughness](#toughness-tough) [test](#tests) at **Ob** equal to the the number of times that `10` fits in the damage that was inflicted. If they succeed the [test](#tests), they immediately fall [unconscious](#unconscious). If they fail, they die.
@@ -912,7 +922,7 @@ For every point in [toughness](#toughness-tough), a character raises their [exha
 
 > At **toughness** `1`, you already have an **exhaustion limit** of `2`. 
 
-If a character's exhaustion reaches their threshold, they become [exhausted](#exhausted) from over-exertion. While **exhausted**, a character suffering further [exhaustion](#exhaustion), must succeed a [self-control](#self-control-toughtough) [test](#tests) at **Ob** equal to their current level of [exhaustion](#exhaustion), or else fall [unconscious](#unconscious).
+If a character's exhaustion exceeds their limit, they become [exhausted](#exhausted) from over-exertion. While **exhausted**, a character suffering further [exhaustion](#exhaustion), must succeed a [self-control](#self-control-toughtough) [test](#tests) at **Ob** equal to their current level of [exhaustion](#exhaustion), or else fall [unconscious](#unconscious).
 
 Exhaustion is gained through performing **exhausting actions** and **exhausting equipment**. 
 
@@ -1326,11 +1336,11 @@ It is also possible to **sprint**, increasing the distance one can move per **AP
 > A character with a sprinting speed of `3` can increase their movement distance to `21'7m`, at the cost of `1` AP and `1` point of exhaustion. 
 
 ### Forced Movement
-There are abilities and circumstances that can force a character to be moved against their will. When this happens, the character in question does not spend any [AP](#action-points-ap) on the movement, as they didn't initiate it. 
+There are abilities and circumstances that can force a character to be moved against their will. When this happens, the character in question does not spend any [AP](#action-points-ap) on the movement, as they didn't initiate it. A character automatically reduces the distance they are moved by their `Stability * 3'/1m`. 
 
-If a forced movement ends abruptly, meaning before the full distance to move was reached, for example by slamming into a wall, then this causes `N D6` points of bludgeoning damage, where *N* is the remaining movement (in `3'/1m` increments) that could not be reached. 
+If a forced movement ends abruptly, meaning before the full distance to move was reached, for example by slamming into a wall, then this causes `N D4` points of bludgeoning damage, where *N* is the remaining movement (in `3'/1m` increments) that could not be reached. Each character then reduces the damage they suffer by their [Stability](#stability). 
 
-> A character is thrown with enough force to move them `15'/5m`, but a wall stops them short of reaching that distance, after they were moved `6'/2m`. The remainder of `9'/3m` causes them to suffer `3 D6` points of bludgeoning damage, as they slam into the wall!
+> A character is thrown with enough force to move them `15'/5m`, but a wall stops them short of reaching that distance, after they were moved `6'/2m`. The remainder of `9'/3m` causes them to suffer `3 D4` points of bludgeoning damage, as they slam into the wall!
 
 If a character slams into another when force moved, they both suffer half of the damage (RU). 
 
@@ -1837,7 +1847,7 @@ Performing acrobatic feats, such as jumping, tumbling and climbing, without inju
 
 | Level | Name                 | AP | **Ob**  | Effect(s)          | Condition(s) |
 | ----- | -------------------- | -- | ------- | ------------------ | ------------ |
-| 1     | Deft Evasion         | /  | /       | Passive: While not wearing any [armor](#armor) and not wielding a shield of bulk `2` or more, gain `+1` [compensation point](#compensation-points) to any [defense test](#defending) made using this skill. | / |
+| 1     | Deft Evasion         | /  | /       | **Passive**: While not wearing any [armor](#armor) and not wielding a shield of bulk `2` or more, gain `+1` [compensation point](#compensation-points) to any [defense test](#defending) made using this skill. | / |
 | 2     | Wind Out Of It       | 1  | 2       | When hit by an attack, wind out of the hit and suffer only half the damage (RU). | / |
 | 3     | Bob, Weave, Jab      | 1  | Opposed | **Reaction**: When succeeding a defense test, launch a [Counter-Attack](#defense-stunts) against the enemy who attacked you, without any penalties to damage and without suffering any [Exhaustion](#exhaustion)! | / |
 
@@ -1868,7 +1878,7 @@ Moving silently and performing actions undetected.
 
 | Level | Name                 | AP | **Ob**  | Effect(s)          | Condition(s) |
 | ----- | -------------------- | -- | ------- | ------------------ | ------------ |
-| 2     | Pocket-Sand          | 2  | Opposed | Disappear a **ST**'s sight and run up to 2 **AP** worth of distance. This does not provoke Opportunity Attacks from that **ST**. | Once per rest. |
+| 2     | Pocket-Sand          | 2  | Opposed | Disappear from a **ST**'s sight, up to `6'/2m` away and run up to `2` **AP** worth of distance. This does not provoke Opportunity Attacks from that **ST**. | Once per rest. |
 
 #### Swimming (Agi/Tough)
 The ability to safely stay afloat and move around in water. 
@@ -1990,7 +2000,7 @@ In and outside of [combat](#combat), a rider will inherit the [speed](#combat-mo
 | Level | Name                 | AP | **Ob** | Effect(s)          | Condition(s) |
 | ----- | -------------------- | -- | ------ | ------------------ | ------------ |
 | 1     | Spur                 | 1  | 2      | Gain an additional 2 **AP** worth of movement from your mount. You and your mount suffer `+1` [Exhaustion](#exhaustion). | Only once per round. |
-| 3     | Mounted Charge       | 3  | 3      | Perform a mounted charge attack, dealing **2D4** extra damage of whatever weapon type you are using. | Mounted on a fast and strong animal; Must have enough distance to target to gain enough speed - refer to **GM**'s judgement. |
+| 3     | Mounted Charge       | 3  | 3      | Perform a mounted charge attack, dealing `2D4` extra damage of whatever weapon type you are using. | Mounted on a fast and strong animal; Must have enough distance to target to gain enough speed - refer to **GM**'s judgement. |
 
 #### Self-Control (Tough/Tough)
 Mastery of one's own impulses. Used to stay awake past the point of exhaustion and to not act on emotional impulse. 
@@ -2083,7 +2093,7 @@ This governs the understanding of what makes defensive structures effective and 
 | ----- | ---------------------- | -- | ------ | ------------------ | ------------ |
 | 0     | Blitz Stratagem        | 1  | 1      | If you have placed a Key Zone, turn it into a Zone of Mobility, replacing all its effects. You and all allies beginning their movement from within this zone may move an additional `18'6m` per [AP](#action-points-ap) spent. | / |
 | 0     | Breakthrough Stratagem | 1  | 2      | If you have placed a Key Zone, turn it into a Breakthrough Zone, replacing all its effects. All enemies inside the zone, who are damaged, may also be [Force Moved](#forced-movement) up to `hits * 3'/1m` back. If damaged by an ally's attack, that ally may also follow their opponent, to stay near them. | / |
-| 0     | Designate Key Zone     | 1  | /      | Designate a zone up to `6'/2m` in radius. If such a zone already exists, it is replaced with this one. The zone lasts for as long as you desire. You instruct your allies, to get the most out of this area. Once you designate a type for it, they *will* know what to do. Effects from allies' zones do not stack with this one, if their zone is of the same type. | / |
+| 0     | Designate Key Zone     | 1  | /      | **Concentration**: Designate a zone up to `6'/2m` in radius. If such a zone already exists, it is replaced with this one. The zone lasts for as long as you desire. You instruct your allies, to get the most out of this area. Once you designate a type for it, they *will* know what to do. Effects from allies' zones do not stack with this one, if their zone is of the same type. | / |
 | 1     | Killzone Stratagem     | 1  | 2      | If you have placed a Key Zone, turn it into a Killzone, replacing all its effects. All enemies inside the zone, who are damaged immediately die if their [HP](#hit-points-hp) are brought to `2 * your Toughness + hits` or less. | / |
 | 1     | Trenchline Stratagem   | 1  | 2      | If you have placed a Key Zone, turn it into a Trenchline Zone, replacing all its effects. All [AOE](#area-of-effect-aoe) damage that applies to you and/or your allies is reduced by `hits * 4`. | / |
 | 2     | Fear Stratagem         | 1  | 1      | If you have placed a Key Zone, turn it into a Zone of Fear, replacing all its effects. All enemies inside this zone, who suffer damage must succeed a [Self-Control](#self-control-toughtough) test at **Ob** equal to your number of **hits**, or else become [Terrified](#terrified) of the zone. | / |
@@ -2197,7 +2207,7 @@ An **electrified** character spasms, uncontrollably. They are force moved in a r
 * Automatic shrug-off: At the end of the turn. 
 
 ### Exhausted
-An **exhausted** character begins their turn with -2 **AP** and can run at most only half the distance they normally could. [Sprinting](#combat-movement) is impossible. In addition, they suffer a penalty of **-1D** to all [tests](#tests). The number of dice for a [test](#tests) cannot be reduced to less than 1 by this penalty. 
+An **exhausted** character begins their turn with -2 **AP** and can run at most only half the distance they normally could. [Sprinting](#combat-movement) is impossible. 
 
 While **exhausted**, a character suffering further [exhaustion](#exhaustion), must succeed a [self-control](#self-control-toughtough) [test](#tests) at **Ob** equal to their current level of [exhaustion](#exhaustion), or else fall [unconscious](#unconscious).
 
@@ -2527,6 +2537,7 @@ A **multiple-single-target** (**MST**) action affects at least one and up to a m
 | [AOE](#area-of-effect-aoe)                   | Area of Effect          |
 | [AP](#action-points-ap)                      | Action Point            |
 | [Awar](#awareness-awar)                      | The Awareness attribute |
+| [Concentration](#concentration)              | A Skill or Expertise whose effects last as long as desired |
 | [D10](#dice)                                 | A ten-sided die         |
 | [D20](#dice)                                 | A twenty-sided die      |
 | [D4](#dice)                                  | A four-sided die        |
