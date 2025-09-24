@@ -162,7 +162,7 @@ A mage can fail their [test](./strive-core.md#tests) and thus suffer a [spell-ba
 2. Determine the test's **Ob**. 
    1. Some spells require an [opposed test](./strive-core.md#opposed-test), while others impose a fixed **Ob** and yet others have a dynamic **Ob**, based on some formula. 
 3. The dice for the test are rolled. 
-4. Convert the [SI](#spell-intensity-si) to [Arcane Slag](#arcane-slag) and [Arcane Overheat](#arcane-overheat). 
+4. Convert the [SI](#spell-intensity-si) to [Arcane Slag](#arcane-slag) and [Arcane Overheat](#arcane-overheat). This **always** happens *after* the spell is cast!
    1. If this brings the mage to a new [Arcane Overheat](#arcane-overheat) threshold, its effects now apply. 
 5. Once the [time to cast](#casting-time) is up, the spell is cast!
 
