@@ -86,8 +86,11 @@
   - [Ticks](#ticks)
   - [Down-Time](#down-time)
     - [Travel](#travel)
-    - [Crafting](#crafting)
-      - [Crafting Time Chart](#crafting-time-chart)
+    - [Crafting \& Projects](#crafting--projects)
+      - [Project Prerequisites](#project-prerequisites)
+      - [Project Progress](#project-progress)
+      - [Project Quality](#project-quality)
+      - [OBSOLETE](#obsolete)
     - [Trade](#trade)
       - [Seller's Chart](#sellers-chart)
       - [Buyer's Chart](#buyers-chart)
@@ -1166,9 +1169,27 @@ How much time it takes, exactly, to get from *A* to *B*, depends heavily on the 
 
 If there is a world map, the **GM** could overlay it with tiles of squares or hexagons, which may help with determining distance. If your group desires, you could even play it so that your characters only travel from tile to tile. Moving from one tile to another may then always take a set time, unless faster means of travel are available. That way, travel would be simplified and abstract. But discuss with your group, whether you want to play it this way. Travel may also provide interesting opportunities for role-playing and *conflicts*. The abstract level draws attention away from these opportunities. 
 
-### Crafting
-All [craftsmanship skills](#craftsmanship) require a time investment proportional to the *quality* and *complexity* of the desired product, as well as the innate *effort* required to create it. 
+### Crafting & Projects
+In their own free time, characters can spend time and resources to create [Assets](#assets), research obscure subjects or make new scientific discoveries, through the use of certain Skills. 
 
+#### Project Prerequisites
+Typically, a project can only be worked on with access to necessary resources and know-how. Skills that detail how they can be used for crafting will also note the prerequisites required. However, as always, the **GM** has the final word. 
+
+#### Project Progress
+Every project, be it to create an [Asset](#assets) or not, is tracked numerically. All progress begins at `0` and is increased through tests of the appropriate Skill. The progress required to complete the project is primarily determined by the quality you set out to achieve. As the mastery of a product or result increases, so too, do its requirements. 
+
+When rolling the dice to add progress, every die that comes up as a **hit** adds `+1` to the progress. How often a test to advance progress can be made, should be determined by the Skill in question. If it isn't, a test can be made every `24` hours. If you are aided by other characters, you can add `+1 D6` for each, up to a limit of `3`. 
+
+For every level of Quality (Q), the required progress increases by `10`. For your convenience, see the table below for the pre-calculated requirements. 
+
+| Quality           | 1   | 2   | 3   | 4   | 5   | 6   | 7   | 8   | 9   | 10  |
+| ----------------- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Required Progress | 20  | 40  | 60  | 80  | 100 | 120 | 140 | 160 | 180 | 200 |
+
+#### Project Quality
+The maximum quality a product can achieve, is dictated by a character's level in the relevant Skill(s). A mediocre craftsman will never be able to create a mastery-level work. However, several artisans can pool their knowledge, to improve the maximum quality by `+1` for everyone helping on the project. However, those characters can not engage in their own projects in the meantime. And the number of assistants is limited to `3`. Too many cooks, and the soup will end up *dry*, if you will. 
+
+#### OBSOLETE
 Making use of a [craftsmanship skill](#craftsmanship) to create something requires a [graduated test](#graduated-test) be made. The number of dice in play dictate both the time required and the maximum achievable quality. Each [skill](#skills) in question notes how much time one die "costs". It is possible to roll with fewer dice, than would be available for the [graduated test](#graduated-test). [Forked skills](#skill-forking) can also provide a die each, but note that *every* die, including those from [forked skills](#skill-forking), increase the time required. The number of **hits** and **misses** achieved has no effect on the time taken. Merely the *number* of dice that were rolled matters. 
 
 Most **skills** do not allow for failure and the outcome of the test simply denotes the achieved quality of the product. But there are some **skills**, which can be failed, entirely. In such a case, an **Ob** threshold will be noted. Failing to achieve **Ob** number of **hits**, will result in a **complete failure** of the test - there is no resulting product and the materials used are wasted. 
@@ -1181,7 +1202,6 @@ Depending on how easy to acquire the materials are, you may act on a more abstra
 
 > For example, a **PC** might have decided they want to create an elaborately decorated piece of furniture, with bands of gold and colored glass inlays. Even though the corresponding skill does not list gold as a material for its product, the **PC** should have to procure the gold, if they are to finish their piece of furniture. 
 
-#### Crafting Time Chart
 The following matrix denotes the time that work will take, based on its inherent *complexity* and *workload*. 
 
 | **Complexity >** <br> **Workload v** | **Low** | **Moderate** | **High** | **Very High** | 
@@ -2074,7 +2094,7 @@ All meals always restore `Q HP` and reduce exhaustion by `Q`.
 
 The boons from meals do not stack. Eating a second meal will have it override all of a previous meal's boons. The strength of boons is determined at the time of creation and are the same for all characters who share in the meal. 
 
-[Crafting](#crafting)
+[Crafting](#crafting--projects)
 | Product                              | Complexity | Workload  | Ob | Materials                              | Quality Bonus   |
 | ------------------------------------ | ---------- | --------- | -- | -------------------------------------- | --------------- | 
 | Meal                                 | Low        | High      | 1  | Foodstuffs                             | Restores `Q HP` and reduces exhaustion by `Q`. |
