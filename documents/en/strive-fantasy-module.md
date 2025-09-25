@@ -264,7 +264,7 @@ If the defense fails, the full effect is applied. If the defense attempt causes 
 ## Protection From Magic
 Armor made from [Ambersteel](#ambersteel) can reduce the damage suffered through magical sources and reduce the [SI](#spell-intensity-si) of non-damaging spells. 
 
-The [quality](./strive-core.md#crafting--projects) of an armor or shield determines how much it protects the wearer. See [ambersmithing](#ambersmithing-strwit) for the specific numbers. 
+The [quality](./strive-core.md#crafting--research-projects) of an armor or shield determines how much it protects the wearer. See [ambersmithing](#ambersmithing-strwit) for the specific numbers. 
 
 Damage from magical sources is reduced by the quality level + a number of dice. Non-damaging spells have their [SI](#spell-intensity-si) reduced by *only* the quality level. 
 
@@ -336,7 +336,7 @@ It also takes great skill to carve **runes**, as each **rune's** shape and compl
 
 Due to how **runes** are always magically charged, they cannot be in the vicinity of any other **runes**. This works a bit like how magnets with the same polarity repulse each other, but a lot more dangerous. This condition applies regardless of the type of magic each of the **runes** hold. If two **runes** are brought to a distance of `60'/20m` or less to each other, they begin to glow, hum and rumble, as if to warn their bearers. Should they be brought to a distance of `45'/15m` or less to each other, they both discharge the magic they hold and repulse each other. This means anyone immediately nearby suffers `3D6` **Bludgeoning** damage. The **runes** are flung away from each other far enough to be at least `63'/21m` apart. *Also*, the **runes** may be **destroyed** in the process. Roll a `D6` for each of the **runes** - if the result is a `1` or `2`, the **rune** is **destroyed**! 
 
-It may be possible to circumvent this repulsion behavior by placing the **runes** in a container made of [Ambersteel](#ambersteel). This requires the container to be of a [quality](./strive-core.md#crafting--projects) level equal to the highest of the **runes'** [Spell Intensity](#spell-intensity-si).
+It may be possible to circumvent this repulsion behavior by placing the **runes** in a container made of [Ambersteel](#ambersteel). This requires the container to be of a [quality](./strive-core.md#crafting--research-projects) level equal to the highest of the **runes'** [Spell Intensity](#spell-intensity-si).
 
 In order to craft a **rune**:
 * A **rune** can only be made to cast one type of magic. So the carver has to pick one of the [magic schools](#list-of-magic-schools). 
@@ -357,7 +357,7 @@ Due to how **magic scrolls** are always magically charged, they cannot be in the
 
 If two **magic scrolls** **of the same type** are brought to a distance of `60'/20m` or less to each other, they begin to glow, hum and rumble, as if to warn their bearers. Should they be brought to a distance of `45'/15m` or less to each other, they both discharge the magic they hold and repulse each other. This means anyone immediately nearby suffers `3D6` **Bludgeoning** damage. The **magic scrolls** are destroyed in the process! 
 
-It may be possible to circumvent this repulsion behavior by placing the **magic scrolls** in a container made of [Ambersteel](#ambersteel). This requires the container to be of a [quality](./strive-core.md#crafting--projects) level equal to the highest of the **magic scrolls'** [Spell Intensity](#spell-intensity-si).
+It may be possible to circumvent this repulsion behavior by placing the **magic scrolls** in a container made of [Ambersteel](#ambersteel). This requires the container to be of a [quality](./strive-core.md#crafting--research-projects) level equal to the highest of the **magic scrolls'** [Spell Intensity](#spell-intensity-si).
 
 In order to create a **magic scroll**:
 * Powdered [Abyssalite](#abyssalite) must be painted onto the parchment, paper or other such material, in a shape specific to the magic spell the **magic scroll** will be able to cast. 
@@ -611,7 +611,7 @@ A large, kite-shaped or rectangular shield, which can protect every part of the 
 | `+2` [compensation points](core-rules.md#compensation-points) for any defense. | `+1` [compensation point](core-rules.md#compensation-points) for any defense. | `+1D` for any defense. | / |
 
 ### List of General Assets
-In the following table, `Q` refers to the quality grade of the asset. See also the [crafting](./strive-core.md#crafting--projects) rules. When in a hurry (as a **GM**), substitute the `Q` with `3`.
+In the following table, `Q` refers to the quality grade of the asset. See also the [crafting](./strive-core.md#crafting--research-projects) rules. When in a hurry (as a **GM**), substitute the `Q` with `3`.
 
 | Name                     | Bulk | Max. Stack Size | Description                                                              |
 | ------------------------ | ---- | --------------- | ------------------------------------------------------------------------ |
@@ -908,7 +908,7 @@ All craftsmanship requires a mix of physical and mental attributes, for the purp
 #### Armor Smithing (Str/Wit)
 The ability to make armor from conventional materials, such as metal and leather. 
 
-[Crafting](./strive-core.md#crafting--projects)
+[Crafting](./strive-core.md#crafting--research-projects)
 | Product                              | Complexity | Workload  | Materials                              | Quality Bonus   |
 | ------------------------------------ | ---------- | --------- | -------------------------------------- | --------------- | 
 | 1 [light armor](#light-armor)        | High       | High      | Any shapeable sturdy and flexible material, such as iron, steel, leather or chitin. | Every **hit**: +1 **Slashing**; Every 2 **hits**: +1 **Piercing**; Every 3 **hits**: +1 **Bludgeoning** |
@@ -922,7 +922,7 @@ Lining or plating an existing object with [Ambersteel](#ambersteel) acts as an i
 
 The product effects do not stack, but they can be overridden. This means that the same object cannot be lined with [Ambersteel](#ambersteel) twice, for cumulative effects. But it can be upgraded to [Ambersteel](#ambersteel)-plated. 
 
-[Crafting](./strive-core.md#crafting--projects)
+[Crafting](./strive-core.md#crafting--research-projects)
 | Product                              | Complexity | Workload  | Materials                              | Quality Bonus   |
 | ------------------------------------ | ---------- | --------- | -------------------------------------- | --------------- | 
 | Ambersteel-lined weapon              | High       | High      | [Ambersteel](#ambersteel); A weapon        | Bonus damage against mages and magical creatures: **+1** for every quality level. **+1D4** for every two **quality levels**, starting at level 2. |
@@ -948,7 +948,7 @@ The ability to brew alchemical potions, create powders, mixtures and other subst
 
 Tools: a distillery, mortar and pestle, a fire place
 
-[Crafting](./strive-core.md#crafting--projects)
+[Crafting](./strive-core.md#crafting--research-projects)
 | Product                              | Complexity | Workload  | Materials                              | Quality Bonus   |
 | ------------------------------------ | ---------- | --------- | -------------------------------------- | --------------- | 
 | A simple alchemical concoction (potion or powder)  | Moderate  | Moderate | Small containers, minerals, metals, herbs and water. | / |
@@ -959,7 +959,7 @@ The brewing of alcoholic beverages.
 
 Tools: a fire place, a distillery
 
-[Crafting](./strive-core.md#crafting--projects)
+[Crafting](./strive-core.md#crafting--research-projects)
 | Product                              | Complexity | Workload  | Materials                              | Quality Bonus   |
 | ------------------------------------ | ---------- | --------- | -------------------------------------- | --------------- | 
 | A small keg worth of alcohol         | Moderate   | Very High | Any closeable container; Any fermentable fruit or distillable plant matter. | / |
@@ -969,7 +969,7 @@ The ability to create every-day items from metal.
 
 Tools: a hammer, an anvil or other resilient surface, tongs, a forge
 
-[Crafting](./strive-core.md#crafting--projects)
+[Crafting](./strive-core.md#crafting--research-projects)
 | Product                              | Complexity | Workload  | Materials                              | Quality Bonus   |
 | ------------------------------------ | ---------- | --------- | -------------------------------------- | --------------- | 
 | A large item, such as a handheld tool               | Moderate | High     | Any shapeable metal; (Wood). | / |
@@ -980,7 +980,7 @@ The ability to craft bows and crossbows.
 
 Tools: a carving knife
 
-[Crafting](./strive-core.md#crafting--projects)
+[Crafting](./strive-core.md#crafting--research-projects)
 | Product                              | Complexity | Workload  | Materials                              | Quality Bonus   |
 | ------------------------------------ | ---------- | --------- | -------------------------------------- | --------------- | 
 | Bow                                  | Low        | Moderate  | A piece of sturdy and flexible wood; A piece of string or sinew. | Every 3 **hits**: +1 **Piercing** |
@@ -991,7 +991,7 @@ The ability to shape wood to craft predominantly wooden things.
 
 Tools: an axe, a wood plane, a hand drill, a workbench
 
-[Crafting](./strive-core.md#crafting--projects)
+[Crafting](./strive-core.md#crafting--research-projects)
 | Product                              | Complexity | Workload  | Materials                              | Quality Bonus   |
 | ------------------------------------ | ---------- | --------- | -------------------------------------- | --------------- | 
 | A small piece of furniture           | Moderate   | Moderate  | Wood                                   | / |
@@ -1002,7 +1002,7 @@ The ability to make comfortable, well-fitting and decorated clothes.
 
 Tools: scissors, needles, yarn, thread
 
-[Crafting](./strive-core.md#crafting--projects)
+[Crafting](./strive-core.md#crafting--research-projects)
 | Product                              | Complexity | Workload  | Materials                              | Quality Bonus   |
 | ------------------------------------ | ---------- | --------- | -------------------------------------- | --------------- | 
 | A piece of clothing                  | Moderate   | Moderate  | Cloth                                  | / |
@@ -1010,7 +1010,7 @@ Tools: scissors, needles, yarn, thread
 #### Engineering (Agi/Wit)
 The ability to plan and construct complex mechanisms and devices. 
 
-[Crafting](./strive-core.md#crafting--projects)
+[Crafting](./strive-core.md#crafting--research-projects)
 | Product                              | Complexity | Workload  | Materials                              | Quality Bonus   |
 | ------------------------------------ | ---------- | --------- | -------------------------------------- | --------------- | 
 | A simple mechanism                   | High       | Low       | Any suitable material                  | / |
@@ -1021,7 +1021,7 @@ The ability to efficiently craft arrows, bolts and javelins.
 
 Tools: a carving knife, a brush
 
-[Crafting](./strive-core.md#crafting--projects)
+[Crafting](./strive-core.md#crafting--research-projects)
 | Product                              | Complexity | Workload  | Materials                              | Quality Bonus   |
 | ------------------------------------ | ---------- | --------- | -------------------------------------- | --------------- | 
 | 5 Arrow shafts                       | Low        | Moderate  | Wood; feathers; glue                   | / | 
@@ -1031,7 +1031,7 @@ The ability to make objects from glass.
 
 Tools: a fire place, a glass-blower, various shaping tools
 
-[Crafting](./strive-core.md#crafting--projects)
+[Crafting](./strive-core.md#crafting--research-projects)
 | Product                              | Complexity | Workload  | Materials                              | Quality Bonus   |
 | ------------------------------------ | ---------- | --------- | -------------------------------------- | --------------- | 
 | A small glass object                 | High       | Moderate  | Quartz; sand                           | / | 
@@ -1041,7 +1041,7 @@ The ability to make jewelry from precious metals and stones.
 
 Tools: hammers, tweezer, chisels, a workbench, magnifying glasses
 
-[Crafting](./strive-core.md#crafting--projects)
+[Crafting](./strive-core.md#crafting--research-projects)
 | Product                              | Complexity | Workload  | Materials                              | Quality Bonus   |
 | ------------------------------------ | ---------- | --------- | -------------------------------------- | --------------- | 
 | A small piece of jewelry             | High       | High      | Quartz; sand                           | / | 
@@ -1051,7 +1051,7 @@ The ability to create leather objects.
 
 Tools: scissors, needles, hole punchers and a hammer
 
-[Crafting](./strive-core.md#crafting--projects)
+[Crafting](./strive-core.md#crafting--research-projects)
 | Product                              | Complexity | Workload  | Materials                              | Quality Bonus   |
 | ------------------------------------ | ---------- | --------- | -------------------------------------- | --------------- | 
 | 5 Small leather objects              | Low        | Moderate  | A tanned hide                          | / | 
@@ -1062,7 +1062,7 @@ The ability to shape stone to craft predominantly stone-based things.
 
 Tools: a hammer and chisels of varying sizes
 
-[Crafting](./strive-core.md#crafting--projects)
+[Crafting](./strive-core.md#crafting--research-projects)
 | Product                              | Complexity | Workload  | Materials                              | Quality Bonus   |
 | ------------------------------------ | ---------- | --------- | -------------------------------------- | --------------- | 
 | A small stone-hewn object            | Low        | Very High | Stone                                  | / |
@@ -1075,7 +1075,7 @@ The level of this skill dictates the maximum [intensity](#spell-intensity-si) of
 
 Tools: a hammer and chisels of varying sizes, tongs, tweezer, a fine brush
 
-[Crafting](./strive-core.md#crafting--projects)
+[Crafting](./strive-core.md#crafting--research-projects)
 | Product                              | Complexity | Workload  | Ob | Materials                              | Quality Bonus   |
 | ------------------------------------ | ---------- | --------- | -- | -------------------------------------- | --------------- | 
 | A blank rune                         | High       | Moderate  | /  | [Abyssalite](#abyssalite)              | / |
@@ -1087,7 +1087,7 @@ The ability to make shields from conventional materials, such as wood and metal.
 
 Tools: axes, hammers, tongs, (if metal) a forge and anvil
 
-[Crafting](./strive-core.md#crafting--projects)
+[Crafting](./strive-core.md#crafting--research-projects)
 | Product                              | Complexity | Workload  | Materials                              | Quality Bonus   |
 | ------------------------------------ | ---------- | --------- | -------------------------------------- | --------------- | 
 | 1 [light shield](#light-shield)      | Moderate   | High      | Any shapeable sturdy and flexible material, such as wood, metal or chitin. | / |
@@ -1099,7 +1099,7 @@ Taking the hide off a creature undamaged.
 
 Tools: a knife, a scraping blade, a bucket, a brush
 
-[Crafting](./strive-core.md#crafting--projects)
+[Crafting](./strive-core.md#crafting--research-projects)
 | Product                              | Complexity | Workload  | Materials                              | Quality Bonus   |
 | ------------------------------------ | ---------- | --------- | -------------------------------------- | --------------- | 
 | A small skin                         | Low        | Low       | A skinnable creature                   | / |
@@ -1111,7 +1111,7 @@ The ability to make weapons from metal.
 
 Tools: a hammer, an anvil or other resilient surface, tongs, a forge
 
-[Crafting](./strive-core.md#crafting--projects)
+[Crafting](./strive-core.md#crafting--research-projects)
 | Product                              | Complexity | Workload  | Materials                              | Quality Bonus   |
 | ------------------------------------ | ---------- | --------- | -------------------------------------- | --------------- | 
 | A weapon                             | High       | High      | Any suitable metal, wood and/or similar material | / |
@@ -1121,7 +1121,7 @@ Creating small things from carved wood.
 
 Tools: a carving knife
 
-[Crafting](./strive-core.md#crafting--projects)
+[Crafting](./strive-core.md#crafting--research-projects)
 | Product                              | Complexity | Workload  | Materials                              | Quality Bonus   |
 | ------------------------------------ | ---------- | --------- | -------------------------------------- | --------------- | 
 | A small wood-carved object           | Low        | Moderate  | Wood                                   | / |
@@ -1183,7 +1183,7 @@ The control of air, to create and change its flow, for benefit and detriment.
 ### Artificing (Arc/Wit)
 The setting of arcane traps and creation of arcane artifacts and materials. 
 
-[Crafting](./strive-core.md#crafting--projects)
+[Crafting](./strive-core.md#crafting--research-projects)
 | Product                                               | Complexity | Workload  | Ob         | Materials                              | Quality Bonus   |
 | ----------------------------------------------------- | ---------- | --------- | ---------- | -------------------------------------- | --------------- | 
 | Imbued Object - works just like "Place Arcane Charge" | High       | Moderate  | /          | An object to "enchant".                | / |

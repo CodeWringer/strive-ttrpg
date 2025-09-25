@@ -89,11 +89,12 @@
   - [Ticks](#ticks)
   - [Down-Time](#down-time)
     - [Travel](#travel)
-    - [Crafting \& Projects](#crafting--projects)
+    - [Crafting \& Research Projects](#crafting--research-projects)
       - [Project Prerequisites](#project-prerequisites)
-      - [Project Progress](#project-progress)
+      - [Project Progress \& Milestones](#project-progress--milestones)
+      - [Project Boosters](#project-boosters)
       - [Project Quality](#project-quality)
-      - [OBSOLETE](#obsolete)
+      - [Research Projects](#research-projects)
     - [Trade](#trade)
       - [Seller's Chart](#sellers-chart)
       - [Buyer's Chart](#buyers-chart)
@@ -1187,51 +1188,50 @@ How much time it takes, exactly, to get from *A* to *B*, depends heavily on the 
 
 If there is a world map, the **GM** could overlay it with tiles of squares or hexagons, which may help with determining distance. If your group desires, you could even play it so that your characters only travel from tile to tile. Moving from one tile to another may then always take a set time, unless faster means of travel are available. That way, travel would be simplified and abstract. But discuss with your group, whether you want to play it this way. Travel may also provide interesting opportunities for role-playing and *conflicts*. The abstract level draws attention away from these opportunities. 
 
-### Crafting & Projects
+### Crafting & Research Projects
 In their own free time, characters can spend time and resources to create [Assets](#assets), research obscure subjects or make new scientific discoveries, through the use of certain Skills. 
 
 #### Project Prerequisites
 Typically, a project can only be worked on with access to necessary resources and know-how. Skills that detail how they can be used for crafting will also note the prerequisites required. However, as always, the **GM** has the final word. 
 
-#### Project Progress
-Every project, be it to create an [Asset](#assets) or not, is tracked numerically. All progress begins at `0` and is increased through tests of the appropriate Skill. The progress required to complete the project is primarily determined by the quality you set out to achieve. As the mastery of a product or result increases, so too, do its requirements. 
+#### Project Progress & Milestones
+Every Project's progress is tracked numerically. All progress begins at `0` and is increased through tests of an appropriate Skill. The progress required to complete the project is primarily determined by the Quality (Q) you set out to achieve. A better product requires more effort. 
 
-When rolling the dice to add progress, every die that comes up as a **hit** adds `+1` to the progress. How often a test to advance progress can be made, should be determined by the Skill in question. If it isn't, a test can be made every `24` hours. If you are aided by other characters, you can add `+1 D6` for each, up to a limit of `3`. 
+When you begin a Project, you must first determine the level Quality that you wish to achieve. The maximum level you *can* achieve, is determined by your level in the corresponding Skill. The level of Quality you choose then equals the number of Milestones you will need to complete. The crafting Skill you use will note its "Progress Increment". This is the amount of progress you need, per Milestone. 
 
-For every level of Quality (Q), the required progress increases by `10`. For your convenience, see the table below for the pre-calculated requirements. 
+> A character is starting a Project. They want to create a product of Quality `3`, which means they will need to complete `3` Milestones. The Skill they need to use for this Project, notes "Progress Increment" of `25`. This means a total progress of `3 (Milestones) * 25 (Progress Increment) = 75` is required to complete the Project. 
 
-| Quality           | 1   | 2   | 3   | 4   | 5   | 6   | 7   | 8   | 9   | 10  |
-| ----------------- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Required Progress | 20  | 40  | 60  | 80  | 100 | 120 | 140 | 160 | 180 | 200 |
+In addition to the Progress Increment, a crafting Skill will note a Time Increment. This determines *how often* progress towards the Project can be made. 
+
+> Time Increments could for example be "every `6` hours", "every day", "every `10` minutes", and so forth. 
+
+To make progress, you do an **Ob** `0` test of the corresponding crafting Skill. Note that for this Project progress test, you ***do not earn*** [advancement progress](#advancement)! When rolling the dice to add progress, every die that comes up as a **hit** adds `+1` to the Project's progress. If you are aided by other characters, you can add `+1D6` for each, up to a limit of `3`. 
+
+Every time a Project's progress passes a Milestone, a so-called **Milestone test** must immediately be made. As before, every **hit** adds `+1` to the Project's progress. However, if there is not a single **hit**, *or* there is an **Ob** defined and *not enough* **hits** have been achieved, the final product's Quality degrades by `-1`. If, once the Project is complete, the final Quality is `0`, the Project is botched. Your resources are lost and you get nothing to show for it. There is no product. Note that for Milestone tests, you ***do earn*** [advancement progress](#advancement)!
+
+#### Project Boosters
+During their adventures, or while perusing the market or library, **PCs** may find things that can boost the progress of their Project. These **Project Boosters** can be varied - schematics, specialized tools, a rare artefact, advice from a knowledgeable **NPC**, and so on. 
+
+These things can add progress to a Project. How much they boost the Project, will be determined by the **GM**. A good baseline should be that a common booster adds `+10`, a rare adds `+30` and a legendary adds `+60`. But of course, these numbers are only suggestions. 
+
+Typically, Project Boosters are one-time use. Once they have been used to add progress to the Project, they cannot be used again. 
 
 #### Project Quality
-The maximum quality a product can achieve, is dictated by a character's level in the relevant Skill(s). A mediocre craftsman will never be able to create a mastery-level work. However, several artisans can pool their knowledge, to improve the maximum quality by `+1` for everyone helping on the project. However, those characters can not engage in their own projects in the meantime. And the number of assistants is limited to `3`. Too many cooks, and the soup will end up *dry*, if you will. 
+The maximum Quality a product can achieve, is dictated by a character's level in the relevant Skill. A mediocre craftsman will never be able to create a mastery-level work. However, several artisans can pool their knowledge, to improve the maximum Quality by `+1` for everyone helping on the project. However, those characters can not engage in their own projects in the meantime. And the number of assistants is limited to `3`. Too many cooks, and the soup will end up *dry*, if you will. 
 
-#### OBSOLETE
-Making use of a [craftsmanship skill](#craftsmanship) to create something requires a [graduated test](#graduated-test) be made. The number of dice in play dictate both the time required and the maximum achievable quality. Each [skill](#skills) in question notes how much time one die "costs". It is possible to roll with fewer dice, than would be available for the [graduated test](#graduated-test). [Forked skills](#skill-forking) can also provide a die each, but note that *every* die, including those from [forked skills](#skill-forking), increase the time required. The number of **hits** and **misses** achieved has no effect on the time taken. Merely the *number* of dice that were rolled matters. 
+#### Research Projects
+A Project can be about the research of knowledge. The progress required will depend on the degree of obscurity of the knowledge that you seek. 
 
-Most **skills** do not allow for failure and the outcome of the test simply denotes the achieved quality of the product. But there are some **skills**, which can be failed, entirely. In such a case, an **Ob** threshold will be noted. Failing to achieve **Ob** number of **hits**, will result in a **complete failure** of the test - there is no resulting product and the materials used are wasted. 
+Unlike with normal Projects, you do not determine the Quality yourself. Instead, the **GM** will determine the level of obscurity of the knowledge you seek. That will then tell you how much effort it will be to acquire said knowledge. In the table below, the Milestones are listed as `M * P`, where *M* is the number of Milestones and *P* is the Progress Increment, per Milestone. The **Ob** noted is the **Ob** your Milestone tests will require. 
 
-The number of **hits** achieved denote the quality that has been achieved. Note this number on the product. 1-2 **hits** result in a **poor**, 3-4 in an **average**, 5 in a **good**, 6 in an **excellent** and 7+ in a **masterwork** product.
+Since there is no Quality when it comes to research Projects, failing a Milestone test does not reduce any Quality, but instead causes you to suffer a **Setback**, which in turn increases the required progress by one Progress Increment. 
 
-Also keep in mind that to craft anything, you must have the materials required. The [craftsmanship skill](#craftsmanship) in question will provide an overview of the kinds of products you can make and what they require. Note, however, that things are kept vague on purpose. No encyclopedic listing of all possible products and required materials can be found, because such lists could never completely encompass the full spectrum of creativity available. The things listed on the skills are only meant to provide guidance. So, be creative and have your **GM** help you figure out what you need to make your product. 
-
-Depending on how easy to acquire the materials are, you may act on a more abstract level and "go shopping", simply spending the time and money required up front, without turning it into a scene or adventure of its own, that must be played out. Of course, the more difficult to acquire materials may require you to *actually* go and find them. 
-
-> For example, a **PC** might have decided they want to create an elaborately decorated piece of furniture, with bands of gold and colored glass inlays. Even though the corresponding skill does not list gold as a material for its product, the **PC** should have to procure the gold, if they are to finish their piece of furniture. 
-
-The following matrix denotes the time that work will take, based on its inherent *complexity* and *workload*. 
-
-| **Complexity >** <br> **Workload v** | **Low** | **Moderate** | **High** | **Very High** | 
-| ------------- | ---------- | ---------- | ---------- | ---------- | 
-| **Low**       | 5 Minutes  | 15 Minutes | 1 Hour     | 1 Week     | 
-| **Moderate**  | 10 Minutes | 1 Hour     | 1 Day      | 2 Weeks    | 
-| **High**      | 30 Minutes | 12 Hours   | 3 Days     | 3 Weeks    | 
-| **Very High** | 1 Hour     | 1 Day      | 1 Week     | 1 Month    | 
-
-A **very high** complexity requires the work to be done in a highly specialized environment, with equally specialized tools. The other end of the spectrum is a **low** complexity, which describes work that can be done practically anywhere - even on the road - and with any tool at least somewhat fit for the job. 
-
-Workload is the result of processes that naturally take a long time, the difficulty in processing materials and the amount of work that has to be done. A **very high** workload will take months to complete, while a **low** workload may be finished in a matter of minutes. 
+| Obscurity   | Milestones | Total Progress | Ob | Description | 
+| ----------- | ---------- | -------------- | -- | ----------- | 
+| Common      | 2 * 10     | 20             | 0  | Common knowledge can be easily researched. Even so, it's not so common that everyone knows it already. It may still take some effort to find the right pieces of writing or piece together what you need from questioning several other people. |
+| Specialized | 2 * 25     | 50             | 1  | Only few individuals have deeper knowledge regarding the topic you seek to understand. Only few pieces of writing even make note of your topic. It will require substantial effort to track down sources of knowledge and then puzzle the pieces together. |
+| Obscure     | 4 * 25     | 100            | 2  | Barely anyone, if anyone at all, even knows of this esoteric subject. Tracking down anyone with knowledge will be a considerable challenge. And whatever writing exists, may be stowed away, hidden in private collections, not easily accessible and not easily parted with. And even if access to these sources of knowledge can be secured, making sense of it all will be a challenge. |
+| Lost        | 8 * 25     | 200            | 3  | No one alive still knows anything about this subject. Whatever writing may exist, is manifested in a long dead language, on a medium hidden in a remote and forgotten place. Even if you find this remnant of knowledge, how could you possibly make sense of it? |
 
 ### Trade
 Selling and buying things can take a surprising amount of time. If prices are too high and demand or reputation too low, chances are, you won't be able to sell your goods. But even when people do show interest in your wares, you still have to *sell it* to them. An uncharismatic merchant will have a difficult time making a pretty profit, regardless of the quality of their goods. On the other hand, buying things may prove equally difficult, when what you're looking for isn't really available. 
@@ -2109,7 +2109,7 @@ All meals always restore `Q HP` and reduce exhaustion by `Q`.
 
 The boons from meals do not stack. Eating a second meal will have it override all of a previous meal's boons. The strength of boons is determined at the time of creation and are the same for all characters who share in the meal. 
 
-[Crafting](#crafting--projects)
+[Crafting](#crafting--research-projects)
 | Product                              | Complexity | Workload  | Ob | Materials                              | Quality Bonus   |
 | ------------------------------------ | ---------- | --------- | -- | -------------------------------------- | --------------- | 
 | Meal                                 | Low        | High      | 1  | Foodstuffs                             | Restores `Q HP` and reduces exhaustion by `Q`. |
