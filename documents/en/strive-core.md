@@ -859,7 +859,7 @@ Whenever a character loses a `10` [HP](#hit-points-hp) segment, they *may* suffe
 
 For every rest of at least six uninterrupted hours, the Shrug-Off counter is reduced by `1`.
 
-> A PC with `23` HP, has just suffered `4` points of damage. They should now suffer an Injury, if they fail to shrug it off. They have already successfully shrugged off an Injury once before. 
+> A PC with `23` HP, has just suffered `4` points of damage, bringing them down to `19` HP. They should now suffer an Injury, if they fail to shrug it off. They have already successfully shrugged off an Injury once before. 
 >
 > Thus, their Ob for their Toughness test is `1 (from an earlier shrugged off injury) + 1 (always) = 2`. 
 
