@@ -60,6 +60,7 @@
   - [Health \& Exhaustion](#health--exhaustion)
     - [Hit Points (HP)](#hit-points-hp)
       - [Bludgeoned to 0 HP](#bludgeoned-to-0-hp)
+      - [Temporary Hit-Points](#temporary-hit-points)
     - [Grit Points](#grit-points)
     - [Injury](#injury)
       - [Injury States \& Treatment](#injury-states--treatment)
@@ -869,6 +870,11 @@ When a character was **bludgeoned** to `0` [HP](#hit-points-hp), they might surv
 
 > A character suffers 24 points of **bludgeoning damage** and are brought to 0 **HP**. They must now succeed a **toughness** test at **Ob** 2, if they are to survive (albeit unconscious). 
 
+#### Temporary Hit-Points
+Temporary HP are added to the current HP of a character. The difference to regular HP is, that Temporary HP may exceed the maximum HP limit!
+
+> A character with 28 current and 30 maximum HP, is awarded 10 Temporary HP. This takes their current HP to 38, thus exceeding their limit of 30. 
+
 ### Grit Points
 A **grit point** lets a character stand up in defiance of their [injuries](#injury) and make a last-ditch effort to turn the wheel of fate around. Every time a character suffers an [injury](#injury), they gain `1` **grit point**. 
 
@@ -1505,9 +1511,11 @@ A Heroic Act always has a counter-part - a Desperate Measure. This pairing is ca
 | Death Mark <br><img src="../../img/heroic_act_death-mark.svg" width="64px" height="64px"></img>| Until the end of combat, a chosen enemy is [Marked](#marked). All damage they suffer causes them `+1` point of [Bleeding](#bleeding). This [Condition](#condition) cannot be removed normally. Decreases Momentum by `-15`. | Until the end of combat, a chosen enemy **and** **PC** are [Marked](#marked). All damage either suffers causes them `+1` point of [Bleeding](#bleeding). This [Condition](#condition) cannot be removed normally. Increases Momentum by `+5`. | Death Pact <br><img src="../../img/desperate_measure_death-pact.svg" width="64px" height="64px"></img> |
 | Finest Hour <br><img src="../../img/heroic_act_finest-hour.svg" width="64px" height="64px"></img>| A **PC** of choice gets an immediate turn, with `5` [AP](#action-points-ap). Decreases Momentum by `-30`. | A **PC** of choice gets an immediate turn, with `5` [AP](#action-points-ap), but they suffer `+6` degrees of [Bleeding](#bleeding). Increases Momentum by `+5`. | Final Hour <br><img src="../../img/desperate_measure_final-hour.svg" width="64px" height="64px"></img> |
 | Finish It! <br><img src="../../img/heroic_act_finish-it.svg" width="64px" height="64px"></img>| A chosen **PC** launches an immediate attack against a chosen foe, with `2` [Compensation Points](#compensation-points). If successful, that foe suffers `(Injury count * 10) + 10` points of additional Pure damage. Decreases Momentum by `-30`. | A chosen **PC** launches an immediate attack against a chosen foe. If successful, the foe suffers `(Injury count * 10) + 10` points of additional Pure damage. If unsuccessful, the **PC** instead suffers `(Injury count * 10) + 10` points of Pure damage. Increases Momentum by `+10`. | You or Me <br><img src="../../img/desperate_measure_you-or-me.svg" width="64px" height="64px"></img> |
-| Pre-Emptive Strikes     | Until the end of combat, a chosen **PC's** first attack every round costs no [AP](#action-points-ap)! Decreases Momentum by `-30`. | All **PCs** may immediately make one attack against a chosen foe. This attack costs no [AP](#action-points-ap), but every foe hit may launch a free [Counter-Attack](#defense-stunts), after all **PCs** have acted. Increases Momentum by `+10`. | Breakout Strikes |
-| Tactical Repositioning  | All **PCs** may immediately re-position, moving up to `30'/10m`, without triggering any [Opportunity Attacks](#attacks-of-opportunity). Decreases Momentum by `-10`. | All **PCs** may immediately re-position, moving up to `30'/10m`, but also triggering *free* [Opportunity Attacks](#attacks-of-opportunity). Increases Momentum by `+5`. | Desperate Repositioning |
-| Unyielding              | A **PC** of choice gets `+1` [Compensation Point](#compensation-points) for all defense tests and may freely [Counter-Attack](#defense-stunts) all attacks directed against them or an adjacent ally, for `1` round. Decreases Momentum by `-10`. | A **PC** of choice may freely [Counter-Attack](#defense-stunts) all attacks directed against them or an adjacent ally, for `1` round. However, they suffer `+1` **Ob** for all defense tests. Increases Momentum by `+10`. | Cornered |
+| Pre-Emptive Strikes <br><img src="../../img/heroic_act_pre-emptive-strikes.svg" width="64px" height="64px"></img>| Until the end of combat, a chosen **PC's** first attack every round costs no [AP](#action-points-ap)! Decreases Momentum by `-30`. | All **PCs** may immediately make one attack against one or more chosen foes. This attack costs no [AP](#action-points-ap), but every foe hit may launch a free [Counter-Attack](#defense-stunts), after all **PCs** have acted. Increases Momentum by `+10`. | Breakout Strikes <br><img src="../../img/desperate_measure_breakout-strikes.svg" width="64px" height="64px"></img> |
+| Tactical Repositioning <br><img src="../../img/heroic_act_tactical-repositioning.svg" width="64px" height="64px"></img>| All **PCs** may immediately re-position, moving up to `30'/10m`, without triggering any [Opportunity Attacks](#attacks-of-opportunity). Decreases Momentum by `-10`. | All **PCs** may immediately re-position, moving up to `30'/10m`, but also triggering *free* [Opportunity Attacks](#attacks-of-opportunity). Increases Momentum by `+5`. | Desperate Repositioning <br><img src="../../img/desperate_measure_desperate-repositioning.svg" width="64px" height="64px"></img> |
+| Unyielding <br><img src="../../img/heroic_act_unyielding.svg" width="64px" height="64px"></img>| A **PC** of choice gets `+1` [Compensation Point](#compensation-points) for all defense tests and may freely [Counter-Attack](#defense-stunts) all attacks directed against them or an adjacent ally, for `1` round. Decreases Momentum by `-10`. | A **PC** of choice may freely [Counter-Attack](#defense-stunts) all attacks directed against them or an adjacent ally, for `1` round. However, they suffer `+1` **Ob** for all defense tests. Increases Momentum by `+10`. | Cornered |
+| Get Off Me!             | All foes adjacent to a chosen **PC** are pushed back `6'/2m`. That **PC** may then move up to `12'/4m`, without triggering [Opportunity Attacks](#attacks-of-opportunity). Decreases Momentum by `-10`. | A chosen **PC** switches places with an adjacent foe. That foe may launch an immediate free [Counter-Attack](#defense-stunts), but cannot prevent the **PC** from moving. Increases Momentum by `+5`. | Outta My Way! |
+| Battle Hymn             | All **PCs** gain `10` [Temporary HP](#temporary-hit-points). All foes lose `1` [AP](#action-points-ap) and suffer `+1` [Exhaustion](#exhaustion). Decreases Momentum by `-10`. | All **PCs** gain `10` [Temporary HP](#temporary-hit-points) but also suffer `+1` [Exhaustion](#exhaustion). Increases Momentum by `+5`. | Breathless Hymn |
 
 ## Throwing
 Throwing things is a special type of action, that follows the rules outlined below. 
@@ -1938,7 +1946,7 @@ Sometimes, your own body is your greatest weapon. Fists and feet can cause a sur
 
 | Level | <img src="../../img/heroic_acts.svg" width="64px" height="64px"></img> | Heroic Act Description | Desperate Measure Description | <img src="../../img/desperate_measures.svg" width="64px" height="64px"></img> |
 | ----- | ----------------------- | ---------------------- | ----------------------------- | --------------------------- |
-| 4     | Hammer and Anvil        | All **PCs** may immediately attack one adjacent foe, dealing `strength * 3` points of Bludgeoning damage and force moving their foe by `strength * 3'/1m`. Multiple **PCs** may attack the same foe, each increasing the distance. Decreases Momentum by `-15`. | A **PC** may immediately attack one adjacent foe, dealing `strength * 3` points of Bludgeoning damage and force moving their foe by `strength * 6'/2m`, but also pushing themself in the opposite direction by the same distance. Increases Momentum by `+10`. | All Anvil |
+| 4     | Hammer and Anvil        | All **PCs** may immediately attack one foe, dealing `strength * 3` points of Bludgeoning damage and force-moving their foe by `strength * 3'/1m`. Multiple **PCs** may attack the same foe, each increasing the distance. Decreases Momentum by `-15`. | A **PC** may immediately attack one adjacent foe, dealing `strength * 3` points of Bludgeoning damage and force moving their foe by `strength * 6'/2m`, but also pushing themself in the opposite direction by the same distance. Increases Momentum by `+10`. | All Anvil |
 
 #### Weapon < [weapon type](#weapon-types) > (< attribute >)
 Expertise at handling a close-quarters or ranged weapon of a specific [weapon type](#weapon-types). 
@@ -2071,6 +2079,10 @@ Knowledge about religions, legends and myths. May be used to recall knowledge ab
 Diagnosing and treating mundane [injuries](#injury), [illnesses](#illness) and [poisons](#poisoned). 
 
 This skill may also find use in forensics, to identify poisons or the type of weapon that inflicted a wound. The Ob will depend on the rarity of the poison/weapon. 
+
+| Level | <img src="../../img/heroic_acts.svg" width="64px" height="64px"></img> | Heroic Act Description | Desperate Measure Description | <img src="../../img/desperate_measures.svg" width="64px" height="64px"></img> |
+| ----- | ----------------------- | ---------------------- | ----------------------------- | --------------------------- |
+| 4     | Improvised House Call   | A chosen **PC** may immediately move up to `18'/6m` and treat a chosen character without needing [Medical Supplies](#list-of-general-assets) and without triggering [Opportunity Attacks](#attacks-of-opportunity). They may then move on to the next character and do it all once more. Decreases Momentum by `-25`. | A chosen **PC** may immediately move up to `18'/6m` and treat a chosen character without needing [Medical Supplies](#list-of-general-assets), but triggering free [Opportunity Attacks](#attacks-of-opportunity). However, these attacks *cannot* stop their movement. Increases Momentum by `+15`. | Panic Medic |
 
 #### Reading and Writing (Awar/Wit)
 The ability to both read and write, in general.
