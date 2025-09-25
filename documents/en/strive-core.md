@@ -1873,6 +1873,10 @@ However, the price for this strength is steep. The chance of death is greatly in
 | 2     | Pain is Strength     | 3  | Opposed | Perform an attack against a **ST**. For every active [injury](#injury) you currently have, deal one extra `D6` of [Bludgeoning](#damage-types) damage. You suffer one point of [exhaustion](#exhaustion). | / |
 | 3     | Injury Collector     | 0  | 2       | **Reaction**: Upon suffering an [injury](#injury), with a successful test of this Expertise, remove all additional [penalties](#boons--penalties) (i. e. everything but the [HP](#hit-points-hp) malus) from the [injury](#injury). | / |
 
+| Level | <img src="../../img/heroic_acts.svg" width="64px" height="64px"></img> | Heroic Act Description | Desperate Measure Description | <img src="../../img/desperate_measures.svg" width="64px" height="64px"></img> |
+| ----- | ----------------------- | ---------------------- | ----------------------------- | --------------------------- |
+| 4     | Gritty Triumph          | All **PCs** gain `+1` [Grit Point](#grit-points). Decreases Momentum by `-10`. | All **PCs** gain `+2` [Grit Points](#grit-points), but also suffer `+1` [Exhaustion](#exhaustion) and `+1` [Bleeding](#bleeding). Increases Momentum by `+10`. | Defiant Grit |
+
 #### Fishing (Agi/Awar)
 The ability to efficiently catch fish. 
 
