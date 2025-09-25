@@ -1195,19 +1195,21 @@ In their own free time, characters can spend time and resources to create [Asset
 Typically, a project can only be worked on with access to necessary resources and know-how. Skills that detail how they can be used for crafting will also note the prerequisites required. However, as always, the **GM** has the final word. 
 
 #### Project Progress & Milestones
-Every Project's progress is tracked numerically. All progress begins at `0` and is increased through tests of an appropriate Skill. The progress required to complete the project is primarily determined by the Quality (Q) you set out to achieve. A better product requires more effort. 
+Every Project's **progress** is tracked numerically. All progress begins at `0` and is increased through tests of a particular Skill. 
 
-When you begin a Project, you must first determine the level Quality that you wish to achieve. The maximum level you *can* achieve, is determined by your level in the corresponding Skill. The level of Quality you choose then equals the number of Milestones you will need to complete. The crafting Skill you use will note its "Progress Increment". This is the amount of progress you need, per Milestone. 
+When you begin a Project, you must first determine the **Quality level (Q)** that you wish to achieve. The maximum level you *can* achieve, is determined by your level in the corresponding Skill. The level of Quality you choose then equals the number of **Milestones** you will need to complete. The Skill you use will note its "**Progress Increment**". This is the amount of progress you need, per Milestone. A better product requires more effort. 
 
-> A character is starting a Project. They want to create a product of Quality `3`, which means they will need to complete `3` Milestones. The Skill they need to use for this Project, notes "Progress Increment" of `25`. This means a total progress of `3 (Milestones) * 25 (Progress Increment) = 75` is required to complete the Project. 
+> A character is starting a Project. They want to create a product of Quality level `3`, which means they will need to complete `3` Milestones. The Skill they need to use for this Project, notes a "Progress Increment" of `25`. This means a total progress of `3 (Milestones) * 25 (Progress Increment) = 75` is required to complete the Project. 
 
-In addition to the Progress Increment, a crafting Skill will note a Time Increment. This determines *how often* progress towards the Project can be made. 
+In addition to the Progress Increment, the Skill will note a **Time Increment**. This determines *how often* progress towards the Project can be made. 
 
-> Time Increments could for example be "every `6` hours", "every day", "every `10` minutes", and so forth. 
+> For example, Time Increments could be "every `6` hours", "every day", "every `10` minutes", and so forth. 
 
-To make progress, you do an **Ob** `0` test of the corresponding crafting Skill. Note that for this Project progress test, you ***do not earn*** [advancement progress](#advancement)! When rolling the dice to add progress, every die that comes up as a **hit** adds `+1` to the Project's progress. If you are aided by other characters, you can add `+1D6` for each, up to a limit of `3`. 
+To make progress, you roll an **Ob** `0` test of the corresponding Skill. Note that for this Project progress test, you ***do not earn*** [advancement progress](#advancement)! When rolling the dice to add progress, every die that comes up as a **hit** adds `+1` to the Project's progress. If you are aided by other characters, you can add `+1D6` for each, up to a limit of `3`. 
 
-Every time a Project's progress passes a Milestone, a so-called **Milestone test** must immediately be made. As before, every **hit** adds `+1` to the Project's progress. However, if there is not a single **hit**, *or* there is an **Ob** defined and *not enough* **hits** have been achieved, the final product's Quality degrades by `-1`. If, once the Project is complete, the final Quality is `0`, the Project is botched. Your resources are lost and you get nothing to show for it. There is no product. Note that for Milestone tests, you ***do earn*** [advancement progress](#advancement)!
+Every time a Project's progress passes a Milestone, a so-called **Milestone test** must *immediately* be made. Note that for Milestone tests, you ***do earn*** [advancement progress](#advancement)! As before, every **hit** adds `+1` to the Project's progress. However, if there is not a single **hit**, *or* there is an **Ob** defined and *not enough* **hits** have been achieved, the final product's Quality degrades by `-1`. If, once the Project is complete, the final Quality is `0`, the Project is botched. Your resources are lost and you get nothing to show for it. There is no product. 
+
+> A character is working on their Project. Their progress is currently at `9`, they need `3` Milestones, each with a Progress Increment of `10`. For their progress test, they get to roll `5D6` and achieve `2` **hits**. Thus, they add `+2` progress, which gets them to `11` total progress! In doing so, they passed the first Milestone of `10` progress. Now, they must make a Milestone test. Their Project has no **Ob**, and so, when they once again prepare to roll their `5D6`, the *only* thing they have to fear is achieving *no* **hits** at all. 
 
 #### Project Boosters
 During their adventures, or while perusing the market or library, **PCs** may find things that can boost the progress of their Project. These **Project Boosters** can be varied - schematics, specialized tools, a rare artefact, advice from a knowledgeable **NPC**, and so on. 
