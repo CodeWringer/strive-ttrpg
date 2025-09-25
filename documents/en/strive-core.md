@@ -67,7 +67,6 @@
     - [Exhaustion](#exhaustion)
     - [Condition](#condition)
     - [Illness](#illness)
-    - [Scar](#scar)
     - [Damage Types](#damage-types)
     - [Damage Resistances](#damage-resistances)
     - [Boons \& Penalties](#boons--penalties)
@@ -222,7 +221,6 @@
     - [Unconscious](#unconscious)
   - [List of Illnesses](#list-of-illnesses)
   - [List of Mutations](#list-of-mutations)
-  - [List of Scars](#list-of-scars)
   - [Targeting-Types](#targeting-types)
     - [Single Target (ST)](#single-target-st)
     - [Multiple Single Target (MST)](#multiple-single-target-mst)
@@ -828,7 +826,9 @@ Keep your character's **personality traits** in mind and remember to ask your **
 Additionally, playing to or even against their character's **personality traits** allows earning a player [fate points](#fate-points). 
 
 ## Health
-Every character has **Hit Points (HP)** and a maximum number of **Injuries** they can endure (= their **injury limit**), before they die. 
+Every character has **Hit Points (HP)** and may suffer **Injuries**. Additionally, [Health Conditions](#condition) can apply a variety of [boons and penalties](#boons--penalties). 
+
+**PCs** may shrug off Injuries and earn [Grit Points](#grit-points). 
 
 ### Hit Points (HP)
 Whenever a character is hurt, the **damage** that has been inflicted upon them is deducted from their **HP**. When their **HP** reach `0`, they **die**. <br>
@@ -894,8 +894,6 @@ The treatment **Ob** is determined once, by a `D4` roll.
 Only one treatment attempt may be made every `24` hours on a per-character basis. **Every** treatment attempt costs `1` [medical supplies](#list-of-general-assets). 
 
 A `2D10 + 10` roll determines the number of **days** the Injury takes to fully heal, once treated. Every `24` hours the time left to heal is reduced by `-1` day. A **treated** Injury can be treated again, once every `24` hours, reducing the time left to heal by `-2` days, every time the treatment test is successful. However, failing the treatment test increases the time by `+1` day. 
-
-When an Injury is fully healed and thus removed, it may leave behind a [scar](#scar) - something to remember your past adventures. 
 
 #### Injury & Damage Type Table
 
@@ -975,13 +973,6 @@ Any **illness** when treated has its duration reduced and can only have its dura
 
 An **illness** can only be suffered once, at a time. It may be suffered again later, but you could also expect that a certain level of immunity within the body has built up, after the previous time it was suffered through. A character gains **+2D** to any [toughness](#toughness-tough) [test](#tests) for any **illness** they have suffered in the past. Make sure to note past **illnesses** on your character sheet for this reason. 
 
-### Scar
-Some [injuries](#injury), once fully healed and removed, may leave a **scar** behind. If they do, this information will be specified on the [injury](#injury) in question. See also the [list of scars](#list-of-scars). 
-
-Often times, a **scar** is little more than a reminder of past misfortunes, but some **scars** may infer [boons and/or penalties](#boons--penalties). 
-
-Scars may be removed by [surgery](#surgery-agiwit), at the **GM**'s discretion. 
-
 ### Damage Types
 All damage inflicted, is inflicted with one of these types, which dictate the type of [injury](#injury) suffered when brought to 0 [HP](#hit-points-hp). 
 
@@ -1004,7 +995,7 @@ Some creatures can resist certain [types of damage](#damage-types) naturally, wh
 How much **damage** is resisted, depends on the specifics of the creature or character and their [equipment](#worn--equipped). 
 
 ### Boons & Penalties
-Boons and penalties to the level of an [attribute](#attributes) or [skill](#skills) can be incurred from several different sources, such as [injuries](#injury), [illnesses](#illness), [mutations](#list-of-mutations), [scars](#scar) and [conditions](#condition). Boons and penalties may be temporary or permanent, depending on their source. 
+Boons and penalties to the level of an [attribute](#attributes) or [skill](#skills) can be incurred from several different sources, such as [injuries](#injury), [illnesses](#illness), [mutations](#list-of-mutations) and [conditions](#condition). Boons and penalties may be temporary or permanent, depending on their source. 
 
 A boon to an [attribute](#attributes) or [skill](#skills) usually increases their **modified level**. If a boon awards an [attribute](#attributes) or [skill](#skills) that the character does not yet have, they gain it automatically. 
 
@@ -1134,7 +1125,6 @@ There are no limits to how many of a given card a player can own, but they may o
 | 8 MiFP  | Learning Boost      | For the duration of the session, you gain **twice** the [progress](#advancing-skills) towards your [skills](#skills) and twice the [XP](#experience-points-xp) every test. |
 | 8 MiFP  | Hastened            | `+1` **AP** during your turns for the entirety of a [combat](#combat) encounter. |
 | 3 MaFP  | Double the Fun      | Double the number of dice to roll on your next/current test and every rolled **hit** counts double - which means every rolled **hit** actually counts as 2 **hits**! Exclusive with "Cascading Re-Roll". |
-| 3 MaFP  | Scar? What Scar?    | Remove one scar [scar](#scar) of choice. |
 | 5 MaFP  | Fact Check          | Change a minor plot point in a way you prefer. Work with your **GM** to make sure it fits the narrative, but they should respect your wish. This could be something like avoiding an **NPC** death or changing a fact about the plot. |
 | 5 MaFP  | Just a Flesh Wound  | Avoid or remove an [injury](#injury)! |
 | 1 AFP   | Defy Death          | Return from the dead, remove 1 **active** [injury](#injury) of choice and be at 1 **HP**; Alternatively, avoid a narratively-driven death. The **GM** will decide the character's alternative fate. They could be captured, very badly injured or become indebted to someone or something. Note that this card can only be played *after* the character lost their [battle with death](#deaths-door). |
@@ -2300,30 +2290,6 @@ One should always keep in mind that despite the game mechanical effects of a mut
 | 81 - 86    | Special Needs Eyes     | The eyes turn a deep red and go cross-eyed. -1 [awareness](#awareness-awar) (seeing) |
 | 87 - 93    | Fetid Stench           | Whether from the mouth, or in general, a fetid stench emanates from the body, even assaulting the victim's own nose. -1 [awareness](#awareness-awar), -1 [stealth](#stealth-agiawar) (when smell is concerned). |
 | 94 - 100   | Living Cadaver         | The body withers and pales. It is as if it had just risen from the grave. -1 [toughness](#toughness-tough). |
-
-## List of Scars
-An [injury](#injury) may heal, but its [scars](#scar) remain. 
-
-Most [scars](#scar) can only be incurred once, but some may be incurred multiple times, which will be indicated by a slash (/). 
-
-| Name                    | Limit     | Description                       |
-| ----------------------  | --------- | --------------------------------- |
-| Burned skin             | /         | Something has melted parts of the skin. Those areas are irritable and itchy. |
-| Burned face             | /         | Something has melted parts of the face. A powerful reminder of insufferable pain, which cannot be overlooked. |
-| Creaky limb             | /         | Every movement is painful, even if ever so slightly and causes you to halt your movement every once in a while. |
-| Crooked jaw             | 1         | The jaw hangs a little looser than before, causing your speech to sound a little odd. Some may take you for some kind of dullard, because of it. |
-| Crooked limb            | /         | It may have healed, but will never be quite as before. Your limb moves in slightly odd ways. |
-| Crooked rib cage        | 1         | There is a dent in your rib cage where there shouldn't be one. It looks and feels a little odd. |
-| Crooked skull           | 1         | There is a dent in your skull where there shouldn't be one. It looks and feels a little odd. Some may take you for some kind of dullard, because of it. |
-| Discolored skin         | /         | Spots on your skin have permanently discolored. It may be a dark, sickly green or a darkened blue or black color. |
-| Disfigured ear          | Ear Count | The ear is unrecognizable. It may look bad, but the ear still does its job. Mostly. |
-| Disfigured nose         | 1         | An unnaturally crooked nose makes breathing slightly more difficult and is sure to be memorable. |
-| Heavy breathing         | 1         | Your lung doesn't work quite right anymore. The wheezing and occasional coughing is quite distinguishing. |
-| Scarred arm             | Arm Count | A reminder of a past injury to your arm. |
-| Scarred body            | /         | A reminder of a past injury. |
-| Scarred eye             | /         | A rather dashing scar stretching from above to below the eye tells a story of adventure. Or of a really unfortunate accident. |
-| Scarred leg             | /         | A reminder of a past injury to your leg. |
-| Scarred limb            | /         | A reminder of a past injury to a limb. |
 
 ## Targeting-Types
 The number of targets that an [expertise](#expertise) can apply to, with a single use, is defined through the **targeting-types**. 
