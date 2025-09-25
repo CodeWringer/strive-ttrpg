@@ -56,12 +56,14 @@
     - [Aspiration](#aspiration)
     - [Reaction](#reaction)
     - [Personality Traits](#personality-traits)
-  - [Health \& Exhaustion](#health--exhaustion)
+  - [Health](#health)
     - [Hit Points (HP)](#hit-points-hp)
       - [Bludgeoned to 0 HP](#bludgeoned-to-0-hp)
-    - [Grit Points](#grit-points)
     - [Injury](#injury)
+      - [Suffering An Injury](#suffering-an-injury)
       - [Injury States \& Treatment](#injury-states--treatment)
+      - [Injury \& Damage Type Table](#injury--damage-type-table)
+      - [Grit Points](#grit-points)
     - [Exhaustion](#exhaustion)
     - [Condition](#condition)
     - [Illness](#illness)
@@ -497,7 +499,7 @@ While the **GM** decides on how much time a given test will need, the following 
 * A matter of days and months: Complex crafts and artistry, researching a complex or obscure subject. 
 
 # Character
-A character is a representation of a sentient creature in the game world. They're an amalgam of their [abilities](#abilities), [personality](#personality), [health](#health--exhaustion) and [assets](#assets). These rules apply to all Player Characters (PCs). 
+A character is a representation of a sentient creature in the game world. They're an amalgam of their [abilities](#abilities), [personality](#personality), [health](#health) and [assets](#assets). These rules apply to all Player Characters (PCs). 
 
 A guide on character creation can be found [in the appendix](#character-creation). It has been placed there based on the assumption you won't have to look up character creation as often as the other core rules. 
 
@@ -835,8 +837,8 @@ Keep your character's **personality traits** in mind and remember to ask your **
 
 Additionally, playing to or even against their character's **personality traits** allows earning a player [fate points](#fate-points). 
 
-## Health & Exhaustion
-Every character has **Hit Points (HP)** and a maximum number of **injuries** they can endure (= their **injury limit**), before they die. 
+## Health
+Every character has **Hit Points (HP)** and a maximum number of **Injuries** they can endure (= their **injury limit**), before they die. 
 
 ### Hit Points (HP)
 Whenever a character is hurt, the **damage** that has been inflicted upon them is deducted from their **HP**. When their **HP** reach `0`, they **die**. <br>
@@ -856,45 +858,53 @@ A [graduated](#graduated-test) [medicine](#medicine-agiwit) test can restore `hi
 See the [toughness attribute](#toughness-tough) to determine the **maximum HP**. Also, the **maximum HP** cannot be reduced to less than `10`, for any reason. 
 
 #### Bludgeoned to 0 HP
-When a character was **bludgeoned** to `0` [HP](#hit-points-hp), they might survive and fall [unconscious](#unconscious), instead of dying. For that, they must succeed a [toughness](#toughness-tough) [test](#tests) at **Ob** equal to the the number of times that `10` fits in the damage that was inflicted. If they succeed the [test](#tests), they immediately fall [unconscious](#unconscious). If they fail, they die.
-
-> A character suffers 24 points of **bludgeoning damage** and are brought to 0 **HP**. They must now succeed a **toughness** test at **Ob** 2, if they are to survive (albeit unconscious). 
-
-### Grit Points
-A **grit point** lets a character stand up in defiance of their [injuries](#injury) and make a last-ditch effort to turn the wheel of fate around. Every time a character suffers an [injury](#injury), they gain `1` **grit point**. 
-
-**Grit points** are one-time use and last until they are spent or until an [injury](#injury) has fully healed. 
-
-You may spend **grit points** at any time during a round for the following effects (but only one **grit point** per effect, per round): 
-* On a [test](#tests), gain `+2D`. 
-* On a [test](#tests), gain `+1` [compensation point](#compensation-points). 
-* Reduce [exhaustion](#exhaustion) by `1D4`. 
-* On your attack, deal `+1D6` points of additional damage of your weapon's strongest [type of damage](#damage-types). 
-* Gain `+1D4` [AP](#action-points-ap). 
+When a character is **bludgeoned** to `0` [HP](#hit-points-hp), they might survive and fall [Unconscious](#unconscious), instead of dying. For that, they must succeed a [Toughness](#toughness-tough) [test](#tests) at **Ob** `3`. If they fail, they die, after all.
 
 ### Injury
-An **injury** is a serious health impediment of a character. It reduces the maximum [HP](#hit-points-hp) and imposes other [penalties](#boons--penalties). 
+An **Injury** is a serious health impediment of a character. It reduces the maximum [HP](#hit-points-hp) and imposes other [penalties](#boons--penalties). 
 
-Whenever a character loses a `10` [HP](#hit-points-hp) segment (whether from a single or multiple consecutive sources of damage doesn't matter), they *may* suffer an **injury**. To shrug off an injury, they must succeed a [toughness](#toughness-tough) test at **Ob** equal to their current number of **injuries** plus `1` and plus the number of successful shrug offs. 
-* If they succeeded, they suffer no **injury**! They must note this success, as every time an **injury** is shrugged off, it becomes `+1` **Ob** harder to shrug off the next! For every rest of at least six uninterrupted hours, this counter is reduced by `1`.
-* If failed, a **D100** must be rolled and the corresponding result from the [damage type](#damage-types) specific [list of injuries](#list-of-injuries) added to the character. In such a case, if multiple [types of damage](#damage-types) are incurred in the same instant, then the **injury** is based on the type of which the most damage got through armor and thus dealt the most [HP](#hit-points-hp) damage. If there is a tie, the [damage type](#damage-types) that the armor reduces less causes the **injury**. If there is still a tie, a coin flip could decide.
+Whenever a character loses a `10` [HP](#hit-points-hp) segment, they *may* suffer an Injury, if they fail to **shrug it off**. To shrug off an Injury, they must succeed a [Toughness](#toughness-tough) test with **Ob** at `N + 1`, where *N* is the number of successful Shrug-Offs, so far. Note that only **PCs** may shrug off Injuries. 
+* If they succeed, they suffer no Injury! They must note this success, as every time an Injury is shrugged off, it becomes `+1` **Ob** harder to shrug off the next! 
+* If failed, they suffer an Injury! See [Suffering An Injury](#suffering-an-injury), below. Also, a **PC** earns a [Grit Point](#grit-points). 
 
-> A character with no injuries, who has just been brought down to 30 HP from an attack, must now test whether they suffer an injury. They have already successfully shrugged off an attack once before. 
+For every rest of at least six uninterrupted hours, the Shrug-Off counter is reduced by `1`.
+
+> A PC with `23` HP, has just suffered `4` points of damage. They should now suffer an Injury, if they fail to shrug it off. They have already successfully shrugged off an Injury once before. 
 >
-> Thus, their Ob for their toughness test is `0 (current injury count) + 1 (always) + 1 (from an earlier shrugged off injury) = 2`. 
+> Thus, their Ob for their Toughness test is `1 (from an earlier shrugged off injury) + 1 (always) = 2`. 
 
-For every **injury** incurred, a character's [maximum HP](#hit-points-hp) is reduced by `10` points! An **injury** can also apply further [penalties](#boons--penalties). A penalty to [toughness](#toughness-tough) **does not** further reduce the current maximum [HP](#hit-points-hp)! The reduction from the **injury** is enough penalty. Only by treating and fully healing an Injury, is the [maximum HP](#hit-points-hp) penalty from it removed. 
+For every Injury incurred, a character's [maximum HP](#hit-points-hp) are reduced by `-10`! A penalty to [Toughness](#toughness-tough) from an Injury **does not** further reduce the [maximum HP](#hit-points-hp)! Only by treating and fully healing an Injury, is its [maximum HP](#hit-points-hp) penalty removed. 
 
-Whenever a **PC** suffers an injury, they earn a [Grit Point](#grit-points)! 
+#### Suffering An Injury
+An Injury always applies a [penalty](#boons--penalties) of `-1` to a randomly selected attribute. To determine which one, roll a `D10` and see the table below: 
 
-**Injuries** apply their penalties only once, upon being suffered. 
+| D10 Result | Attribute    |
+| ---------- | ------------ |
+| 1 - 2      | Agility      |
+| 3 - 4      | Awareness    |
+| 5 - 6      | Strength     |
+| 7 - 8      | Toughness    |
+| 9 - 10     | Wit          |
 
-> An Injury applies a penalty of `+1` [bleeding](#bleeding). This [Condition](#condition) is suffered only once, as the Injury is applied. The [Bleeding](#bleeding) [Condition](#condition) can be removed separately from the Injury, after it has been suffered. 
+Additionally, the primary [Damage Type](#damage-types) that caused the Injury may apply further penalties. See the [Injury & Damage Type Table](#injury--damage-type-table) below. The primary Damage Type is the one of which most got through [armor](#armor--shields) and reduced [HP](#hit-points-hp) the most. If there is a tie, the Damage Type that the armor reduces less is the primary one. If there is still a tie, a coin flip could decide.
+
+Note that Injuries apply their penalties only once, upon being suffered! 
+
+Also keep in mind that whenever a **PC** suffers an Injury, they earn a [Grit Point](#grit-points)! 
 
 #### Injury States & Treatment
-There are two possible states of an [injury](#injury): **active** or **treated**. Note that regardless of current state, **all** [injuries](#injury) **always** reduce the **maximum HP**! 
+There are two possible states of an Injury: **active** or **treated**. Note that regardless of current state, **all** Injuries **always** reduce the **maximum HP**! 
 
-An **injury** must be [treated](#injury-states--treatment) to reduce its negative effects and begin the healing process. [Treatment](#injury-states--treatment) is made with a [skill](#skills) noted on the **injury**. The difficulty of [treatment](#injury-states--treatment) is determined by the type of **injury**, that is to say, by the [type of damage](#damage-types) that inflicted it. The time to heal depends on its type. When an **injury** is fully healed and removed, it may leave behind a [scar](#scar) - something to remember your past adventures. 
+TODO: 366
+
+* Automatic treatment: [Toughness](#toughness-tough) at **Ob** 3 every day. 
+* Treatment skill: [medicine](#medicine-agiwit)
+* Required supplies: 1 [medical supplies](#list-of-general-assets)
+* **Ob**: 1D4
+* Time to heal: 4D4 weeks
+* Treated heal time reduction: 3D4 weeks
+
+An Injury must be [treated](#injury-states--treatment) to reduce its negative effects and begin the healing process. [Treatment](#injury-states--treatment) is made with a [skill](#skills) noted on the Injury. The difficulty of [treatment](#injury-states--treatment) is determined by the type of Injury, that is to say, by the [type of damage](#damage-types) that inflicted it. The time to heal depends on its type. When an Injury is fully healed and removed, it may leave behind a [scar](#scar) - something to remember your past adventures. 
 
 The type of [injury](#injury) dictates various aspects of treatment:
 * The [skill](#skills) to use.
@@ -906,22 +916,47 @@ Only an **active** [injury](#injury) imposes negative effects *in addition* to t
 
 An [injury](#injury) can be properly **treated** via a successful [test](#tests) of the required treatment skill at the noted **Ob**. A **treated** [injury](#injury)'s time to heal is reduced significantly (minimum 1 time increment). Only one **treatment** attempt can be made every 24 hours on a per-character basis. 
 
+#### Injury & Damage Type Table
+
+| Damage Type | Treatment Skill              | Additional Penalty |
+| ----------- | ---------------------------- | ------------------ |
+| Acid        | [Medicine](#medicine-agiwit) | `-1` [AP](#action-points-ap) |
+| Bleeding    | [Medicine](#medicine-agiwit) | `+1` [Bleeding](#bleeding) |
+| Bludgeoning | [Surgery](#surgery-agiwit)   | `+1` [Exhaustion](#exhaustion) |
+| Burning     | [Surgery](#surgery-agiwit)   | `+1` [Burning](#burning) |
+| Electrical  | [Medicine](#medicine-agiwit) | `+1` [Electrified](#electrified) |
+| Freezing    | [Medicine](#medicine-agiwit) | `+1` [Frostbitten](#frostbitten) |
+| Piercing    | [Surgery](#surgery-agiwit)   | `+1` [Bleeding](#bleeding) |
+| Poison      | [Medicine](#medicine-agiwit) | Flip a coin. On heads - `+1` [Berserk](#berserk), on tails - `+1` [Terrified](#terrified) |
+| Pure        | [Surgery](#surgery-agiwit)   | / |
+| Slashing    | [Medicine](#medicine-agiwit) | `+1` [Bleeding](#bleeding) |
+
+#### Grit Points
+A **Grit Point** lets a character stand up in defiance of their [Injuries](#injury) and make a last-ditch effort to turn the wheel of fate around. 
+
+Every time a character suffers an [Injury](#injury), they gain `+1` Grit Point. They are a one-time use resource and last until they are spent or until *any* [Injury](#injury) has fully healed. 
+
+You may spend Grit Points at any time during a round for the following effects (but only one Grit Point per effect, per round): 
+* On a [test](#tests), gain `+2D`. 
+* On a [test](#tests), gain `+1` [compensation point](#compensation-points). 
+* Reduce [Exhaustion](#exhaustion) by `1D4`. 
+* On your next attack, deal `+8` points of [Pure damage](#damage-types). 
+* Gain `+1D4` [AP](#action-points-ap). 
+
 ### Exhaustion
-**Exhaustion** is the measure of a character's maximum physical and mental strain they can endure. 
+**Exhaustion** is the measure of a character's maximum **physical and mental strain** they can endure. 
 
-For every point in [toughness](#toughness-tough), a character raises their [exhaustion limit](#exhaustion) by `1`. All characters have a base [exhaustion limit](#exhaustion) of `1`. 
+For every point in [Toughness](#toughness-tough), a character raises their Exhaustion limit by `+1`. All characters have a base Exhaustion limit of `1`. 
 
-> At **toughness** `1`, you already have an **exhaustion limit** of `2`. 
+> At Toughness `1`, you already have an Exhaustion limit of `2`. 
 
-If a character's exhaustion exceeds their limit, they become [exhausted](#exhausted) from over-exertion. While **exhausted**, a character suffering further [exhaustion](#exhaustion), must succeed a [self-control](#self-control-toughtough) [test](#tests) at **Ob** equal to their current level of [exhaustion](#exhaustion), or else fall [unconscious](#unconscious).
+If a character's exhaustion **exceeds** their limit, they become [Exhausted](#exhausted) from over-exertion. While Exhausted, a character suffering further Exhaustion, must succeed a [Self-Control](#self-control-toughtough) [test](#tests) at **Ob** equal to their current level of Exhaustion, or else fall [Unconscious](#unconscious).
 
-Exhaustion is gained through performing **exhausting actions** and **exhausting equipment**. 
+Exhaustion is gained through performing **exhausting actions** and by wearing **exhausting equipment**. Exhaustion gained from **exhausting actions** can be reduced by resting. **An hour of uninterrupted rest** will remove `1` point of Exhaustion. Once Exhaustion is back **at or below** the limit, the [Exhausted](#exhausted) [Condition](#condition) is automatically removed. 
 
-Exhaustion gained from **exhausting actions** can be reduced by resting. An hour of uninterrupted rest will remove `1` point of exhaustion. The [exhausted](#exhausted) [condition](#condition) is automatically removed, once **exhaustion** is **below** the limit. 
+> If a character has an Exhaustion limit of `3` and current Exhaustion of `5`, then they must rest for at least `2` hours to clear their Exhausted Condition.  
 
-> If a character has a limit of 3 and exhaustion of 4, then they must rest for at least 2 hours to clear their **exhausted condition**. 
-
-Exhaustion gained from **exhausting equipment**, can be reduced, by dropping the equipment in question. A character trying to carry more than they can endure, should not immediately fall [unconscious](#unconscious), mind you. Apply common sense - the character in question would probably try to carry the extra equipment, only find out right away it is simply too much for them and thus drop the equipment. 
+Exhaustion gained from **exhausting equipment**, can be reduced, by dropping the equipment in question. It is not possible to put on exhausting equipment that would push your character past their limit. 
 
 ### Condition
 A **character** can have positive or negative effects on them, represented by **conditions**. They can have any number of **conditions** applying to them simultaneously. 
@@ -2023,8 +2058,8 @@ The ability to tell flora and fauna apart and to know of their attributes, such 
 
 | Level | Name                 | AP | **Ob** | Effect(s)          | Condition(s) |
 | ----- | -------------------- | -- | ------ | ------------------ | ------------ |
-| 1     | Dirty Weapon         | 2  | 2      | Grab some dirt or filth and rub it on a melee weapon. When an [attack](#attacking) with that weapon inflicts an [injury](#injury), the victim suffers 2 points of [poisoned](#poisoned) and the **injury** is always an [infection](#list-of-injuries). | Dirt or filth nearby. |
-| 1     | Dirty Ammo           | 2  | 2      | Grab some dirt or filth and rub it on a select amount of kinetic ammunition (such as arrows or bullets). When an [attack](#attacking) with that ammunition inflicts an **injury**, the victim suffers 1 point of [poisoned](#poisoned) and the [injury](#injury) is always an [infection](#list-of-injuries). | Dirt or filth nearby; Ammunition easily accessible during combat. |
+| 1     | Dirty Weapon         | 2  | 2      | Grab some dirt or filth and rub it on a melee weapon. When an [attack](#attacking) with that weapon inflicts an [injury](#injury), the victim suffers 2 points of [poisoned](#poisoned) and the Injury is always an [infection](#list-of-injuries). | Dirt or filth nearby. |
+| 1     | Dirty Ammo           | 2  | 2      | Grab some dirt or filth and rub it on a select amount of kinetic ammunition (such as arrows or bullets). When an [attack](#attacking) with that ammunition inflicts an Injury, the victim suffers 1 point of [poisoned](#poisoned) and the [injury](#injury) is always an [infection](#list-of-injuries). | Dirt or filth nearby; Ammunition easily accessible during combat. |
 
 #### Mysticism and Religion (Wit/Wit)
 Knowledge about religions, legends and myths. May be used to recall knowledge about mythical creatures, artifacts and locations, as well as understand the local religion more easily. 
@@ -2223,7 +2258,7 @@ A character who is prone, is harder to hit with ranged attacks, easier to hit wi
 * **-2D** to any melee attack tests. 
 * **-2D** to any ranged attack tests with a bow, sling, thrown, or similar weapon. 
 
-It costs 1 [AP](#action-points-ap) to stand up. 
+It costs `1` [AP](#action-points-ap) to stand up. 
 
 ### Rooted
 A **rooted** character can no longer move their legs. They cannot move from the spot, but can still move their upper body freely. 
@@ -2237,7 +2272,7 @@ A **stunned** character is unable to act, at all. During combat, their turn is s
 * Difficult repeats: Whenever shrugging off this Condition, you become **guarded** against it until the start of your next turn, making any attack or effect enacted against you that would cause you to suffer it again `+1` Ob harder for your foes. 
 
 ### Terrified
-A **terrified** character suffers **-2D** to defense tests and **has to** flee from whatever it is that terrified them, until they can no longer perceive it. 
+A **terrified** character **has to** flee from whatever it is that terrified them, until they can no longer perceive it, for at least one round. 
 
 * Graded
 * Shrug off: 1 *point* with a [self-control](#self-control-toughtough) [test](#tests) with **Ob** `1`. 
@@ -2250,16 +2285,16 @@ An **unconscious** character is unable to act and is unaware of their surroundin
 * Difficult repeats: Whenever shrugging off this Condition, you become **guarded** against it until the start of your next turn, making any attack or effect enacted against you that would cause you to suffer it again `+1` Ob harder for your foes. 
 
 ## List of Injuries
-How many times a specific type of **injury** can be suffered, can be limited. In the table below, the *limit* is the maximum number of times the **injury** can be suffered by the same character. If there is a slash (/), there is no limit. If a roll would result in an already maxed out **injury**, pick the next **injury** below it, instead or roll again. 
+How many times a specific type of Injury can be suffered, can be limited. In the table below, the *limit* is the maximum number of times the Injury can be suffered by the same character. If there is a slash (/), there is no limit. If a roll would result in an already maxed out Injury, pick the next Injury below it, instead or roll again. 
 
-Also noted below for each group of **injuries** are: 
+Also noted below for each group of Injuries are: 
 * The [treatment skill](#injury-states--treatment).
 * The treatment **Ob**.
 * The time to heal and reduction in time to heal when [treated](#injury-states--treatment).
 * The **Ob** for a self (= automatic) treatment and the interval for such a test, if at all possible.
 * The supplies required to be able to make a treatment test.
 
-Note that "Cosmic Fortune" is not an actual **injury**. When it is rolled for, **do not** add it to the character sheet! 
+Note that "Cosmic Fortune" is not an actual Injury. When it is rolled for, **do not** add it to the character sheet! 
 
 ### Acid Injuries
 * Automatic treatment: [Toughness](#toughness-tough) at **Ob** 3 every day. 
