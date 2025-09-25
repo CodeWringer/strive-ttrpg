@@ -220,16 +220,6 @@
     - [Stunned](#stunned)
     - [Terrified](#terrified)
     - [Unconscious](#unconscious)
-  - [List of Injuries](#list-of-injuries)
-    - [Acid Injuries](#acid-injuries)
-    - [Bleeding Injuries](#bleeding-injuries)
-    - [Burning Injuries](#burning-injuries)
-    - [Bludgeoning Injuries](#bludgeoning-injuries)
-    - [Electrical Injuries](#electrical-injuries)
-    - [Freezing Injuries](#freezing-injuries)
-    - [Piercing Injuries](#piercing-injuries)
-    - [Poison Injuries](#poison-injuries)
-    - [Slashing Injuries](#slashing-injuries)
   - [List of Illnesses](#list-of-illnesses)
   - [List of Mutations](#list-of-mutations)
   - [List of Scars](#list-of-scars)
@@ -997,16 +987,16 @@ All damage inflicted, is inflicted with one of these types, which dictate the ty
 
 | Damage Type | Description |
 | ----------- | ----------- |
-| Acid        | Dissolves anything it touches, depending on circumstance. Causes [acid injuries](#acid-injuries). |
-| Bleeding    | Inflicted by [bleeding](#bleeding). The result of open wounds. Causes [bleeding injuries](#bleeding-injuries). |
-| Bludgeoning | Inflicted by blunt weapons and [unarmed](#unarmed-combat-agistr) attacks. Can cause a character to fall [unconscious](#unconscious), for that, see [bludgeoned to 0 HP](#bludgeoned-to-0-hp). |
-| Burning     | Inflicted by extreme heat. Causes [burning injuries](#burning-injuries). |
-| Electrical  | Inflicted by eletrical shock. Causes [electrical injuries](#electrical-injuries). |
-| Freezing    | Inflicted by extreme cold. Causes [freezing injuries](#freezing-injuries). |
-| Piercing    | Usually inflicted by any sort of stabbing weapon, like a spear, or an animal's stinger. Causes [piercing injuries](#piercing-injuries). |
-| Poison      | Inflicted over time, by imbibed or injected substances. Causes [poison injuries](#poison-injuries). Beware, poison quickly grows more potent. |
-| Pure        | A special damage type that cannot be reduced by [armor](#armor--shields). Causes injuries appropriate to the context wherein the damage was inflicted and is ultimately up to the **GM** to determine. |
-| Slashing    | Usually inflicted by any sort of cutting/slashing weapon, like a blade, or a talon. Causes [slashing injuries](#slashing-injuries). |
+| Acid        | Dissolves anything it touches, depending on circumstance. |
+| Bleeding    | Inflicted by [bleeding](#bleeding). The result of open wounds. |
+| Bludgeoning | Inflicted by blunt weapons and [unarmed](#unarmed-combat-agistr) attacks. Can cause a character to fall [Unconscious](#unconscious), for that, see [bludgeoned to 0 HP](#bludgeoned-to-0-hp). |
+| Burning     | Inflicted by extreme heat. |
+| Electrical  | Inflicted by eletrical shock. |
+| Freezing    | Inflicted by extreme cold. |
+| Piercing    | Usually inflicted by any sort of stabbing weapon, like a spear, or an animal's stinger. |
+| Poison      | Inflicted over time, by imbibed or injected substances. |
+| Pure        | A special damage type that cannot be reduced by [armor](#armor--shields). |
+| Slashing    | Usually inflicted by any sort of cutting/slashing weapon, like a blade, or a talon. |
 
 ### Damage Resistances
 Some creatures can resist certain [types of damage](#damage-types) naturally, while others may cover themselves in armor to the same effect. 
@@ -1807,8 +1797,8 @@ The following is a list of general assets. Of course, the following list is non-
 
 | Name                   | Bulk | Max. Stack Size | Description                                                              |
 | ---------------------- | ---- | --------------- | ------------------------------------------------------------------------ |
-| Antidote               | 1    | 4               | This unassuming liquid can make the difference between life and death. Is used in the [treatment of poison](#list-of-poison-injuries). |
-| Medical Supplies       | 1    | 5               | A small satchel of clean bandages, thread and needle for suturing, a clean and sharp knife, a splint and straps for binding. Is used in the [treatment](#injury-states--treatment) of various [injuries](#injury). |
+| Antidote               | 1    | 4               | This unassuming liquid can make the difference between life and death. Immediately treats an [Injury](#injury) caused by [Poison](#damage-types) and removes all points of [Poisoned](#poisoned). |
+| Medical Supplies       | 1    | 5               | A small satchel of clean bandages, thread and needle for suturing, a clean and sharp knife, a splint and straps for binding. Is used in the [treatment](#injury-states--treatment) of various [Injuries](#injury). |
 | Ration                 | 1    | 10              | A ration of preserved food, enough for a whole day. |
 
 ### Weapon Properties
@@ -2049,8 +2039,7 @@ The ability to tell flora and fauna apart and to know of their attributes, such 
 
 | Level | Name                 | AP | **Ob** | Effect(s)          | Condition(s) |
 | ----- | -------------------- | -- | ------ | ------------------ | ------------ |
-| 1     | Dirty Weapon         | 2  | 2      | Grab some dirt or filth and rub it on a melee weapon. When an [attack](#attacking) with that weapon inflicts an [injury](#injury), the victim suffers 2 points of [poisoned](#poisoned) and the Injury is always an [infection](#list-of-injuries). | Dirt or filth nearby. |
-| 1     | Dirty Ammo           | 2  | 2      | Grab some dirt or filth and rub it on a select amount of kinetic ammunition (such as arrows or bullets). When an [attack](#attacking) with that ammunition inflicts an Injury, the victim suffers 1 point of [poisoned](#poisoned) and the [injury](#injury) is always an [infection](#list-of-injuries). | Dirt or filth nearby; Ammunition easily accessible during combat. |
+| 1     | Dirty Weapon/Ammo    | 2  | 2      | Grab some dirt or filth and rub it on a melee weapon or some ammo. When an [attack](#attacking) with that weapon or the ammo inflicts an [injury](#injury), the victim suffers `+4` points of [poisoned](#poisoned). | Dirt or filth nearby. |
 
 #### Mysticism and Religion (Wit/Wit)
 Knowledge about religions, legends and myths. May be used to recall knowledge about mythical creatures, artifacts and locations, as well as understand the local religion more easily. 
@@ -2058,7 +2047,7 @@ Knowledge about religions, legends and myths. May be used to recall knowledge ab
 #### Medicine (Agi/Wit)
 Diagnosing and treating mundane [injuries](#injury), [illnesses](#illness) and [poisons](#poisoned). 
 
-This skill may also find use in forensics, to identify poisons or the type of weapon that inflicted a wound. The Ob will depend on the rarity of the poison/weapon. 
+This skill may also find use in forensics, to identify poisons or the type of weapon that inflicted a wound. The Ob will depend on the rarity of the poison/weapon and will be determined by the **GM**. 
 
 #### Reading and Writing (Awar/Wit)
 The ability to both read and write, in general.
@@ -2066,11 +2055,11 @@ The ability to both read and write, in general.
 #### Surgery (Agi/Wit)
 The ability to invasively treat ailments without making things worse for the patient. 
 
-Failing a test of this skill while treating a patient, causes the patient to suffer `N` [slashing injuries](#slashing-injuries), where *N* is the number of **hits** that were still needed to reach the **Ob**.
+Failing a test of this skill while treating a patient, causes the patient to suffer `N` [Slashing based Injuries](#injury--damage-type-table), where *N* is the number of **hits** that were still needed to reach the **Ob**.
 
-> Failing a test at Ob `3`, by having achieved only `1` hit, means the patient now suffers `2` slashing injuries. 
+> Failing a test at Ob `3`, by having achieved only `1` hit, means the patient now suffers `2` Injuries. 
 
-This skill may also find use in forensics, to identify poisons or the type of weapon that inflicted a wound. The Ob will depend on the rarity of the poison/weapon. At the cost of `1` [medical supplies](#list-of-general-assets), finger prints, organic samples like blood and similar can be retrieved and identified. 
+This skill may also find use in forensics, to identify poisons or the type of weapon that inflicted a wound. The Ob will depend on the rarity of the poison/weapon and will be determined by the **GM**. At the cost of `1` [medical supplies](#list-of-general-assets), finger prints, organic samples like blood and similar can be retrieved and identified. 
 
 #### Warfare (Tough/Wit)
 The ability to understand and direct large-scale combat movements, the logistics and psychology of war. Identifying and creating key strategic locations to exploit against enemies. 
@@ -2239,7 +2228,7 @@ A **poisoned** character suffers **1 D4** points of [poison](#damage-types) dama
 
 * Graded
 * Shrug off: 1 *point* with a [toughness](#toughness-tough) [test](#tests) with **Ob** `1`. 
-* Immediate cancel: With proper [treatment](#poison-injuries). 
+* Immediate cancel: With an [antidote](#list-of-general-assets). 
 
 ### Prone
 A character who is prone, is harder to hit with ranged attacks, easier to hit with melee attacks and counts as [flanked](#flanking) (to one additional degree), in melee. 
@@ -2274,169 +2263,6 @@ A **terrified** character **has to** flee from whatever it is that terrified the
 An **unconscious** character is unable to act and is unaware of their surroundings. 
 
 * Difficult repeats: Whenever shrugging off this Condition, you become **guarded** against it until the start of your next turn, making any attack or effect enacted against you that would cause you to suffer it again `+1` Ob harder for your foes. 
-
-## List of Injuries
-How many times a specific type of Injury can be suffered, can be limited. In the table below, the *limit* is the maximum number of times the Injury can be suffered by the same character. If there is a slash (/), there is no limit. If a roll would result in an already maxed out Injury, pick the next Injury below it, instead or roll again. 
-
-Also noted below for each group of Injuries are: 
-* The [treatment skill](#injury-states--treatment).
-* The treatment **Ob**.
-* The time to heal and reduction in time to heal when [treated](#injury-states--treatment).
-* The **Ob** for a self (= automatic) treatment and the interval for such a test, if at all possible.
-* The supplies required to be able to make a treatment test.
-
-Note that "Cosmic Fortune" is not an actual Injury. When it is rolled for, **do not** add it to the character sheet! 
-
-### Acid Injuries
-* Automatic treatment: [Toughness](#toughness-tough) at **Ob** 3 every day. 
-* Treatment skill: [medicine](#medicine-agiwit)
-* Required supplies: 1 [medical supplies](#list-of-general-assets)
-* **Ob**: 1D6
-* Time to heal: 4D4 weeks
-* Treated heal time reduction: 3D4 weeks
-
-| Range D100 | Injury              | Limit     | Description                      | Scar                |
-| ---------  | ------------------- | --------- | -------------------------------- | ------------------- |
-| 1 - 25     | Molten Skin         | /         | -1 [awareness](#awareness-awar). Acid has laid part of you bare. | Burned skin |
-| 26 - 50    | Dissolved Arm       | Arm Count | -1 [strength](#strength-str); Actions and equipment requiring two hands cannot be used. If incurred *limit* times, any actions requiring arm movement is impossible. | Scarred arm |
-| 51 - 75    | Dissolved Leg       | Leg Count | -6'/2m of [movement](#combat-movement). If incurred *limit* times, any actions requiring leg movement is impossible. | Scarred leg |
-| 76 - 100   | Molten Muscles      | /         | -1 [toughness](#toughness-tough). | / |
-
-### Bleeding Injuries
-* Automatic treatment: [Toughness](#toughness-tough) with **Ob** at level of [bleeding](#bleeding) at end of every turn / every minute. 
-* Treatment skill: [medicine](#medicine-agiwit)
-* Required supplies: 1 [medical supplies](#list-of-general-assets)
-* **Ob**: 1D4
-* Time to heal: 1D4 days
-* Treated heal time reduction: 1D4 days
-
-| Range D100 | Injury              | Limit     | Description                      | Scar                |
-| ---------  | ------------------- | --------- | -------------------------------- | ------------------- |
-| 1 - 33     | Infection           | /         | Within a day, the character will contract an [illness](#illness). This can be avoided, but only if the [injury](#injury) is properly [treated](#injury-states--treatment) within 24 hours. | / |
-| 34 - 66    | Exsanguinated       | /         | -1 [strength](#strength-str); -1 [wit](#wit-wit). The skin is pale and the body feels heavy. | / |
-| 67 - 100   | Weakened            | /         | -1 [strength](#strength-str); -1 [toughness](#toughness-tough). You feel weak. | / |
-
-### Burning Injuries
-* Automatic treatment: [Toughness](#toughness-tough) at **Ob** 3 every day. 
-* Treatment skill: [medicine](#medicine-agiwit)
-* Required supplies: 1 [medical supplies](#list-of-general-assets)
-* **Ob**: 1D6
-* Time to heal: 4D4 weeks
-* Treated heal time reduction: 3D4 weeks
-
-| Range D100 | Injury              | Limit     | Description                      | Scar                |
-| ---------  | ------------------- | --------- | -------------------------------- | ------------------- |
-| 1 - 25     | Molten Skin         | /         | +1 [burning](#burning); -1 [awareness](#awareness-awar). Flame's greed has laid part of you bare. | Burned skin |
-| 26 - 50    | Ash Lung            | /         | +1 [burning](#burning); -1 [toughness](#toughness-tough). The heat and stench of your own self burning cause difficulty breathing. | / |
-| 51 - 75    | Burned Face         | /         | +1 [burning](#burning); -1 [awareness](#awareness-awar). Involuntarily, you close your eyes in hopes of protecting them from the fire. In vain. Speech is impaired from your pain contorted face. | Burned face |
-| 76 - 100   | Molten Muscles      | /         | +1 [burning](#burning); -1 [strength](#strength-str). Heat induced atrophy. | / |
-
-### Bludgeoning Injuries
-* Automatic treatment: [Toughness](#toughness-tough) at **Ob** 3 every day.
-* Treatment skill: [surgery](#surgery-agiwit)
-* Required supplies: 1 [medical supplies](#list-of-general-assets)
-* **Ob**: 1D4
-* Time to heal: 4D6 weeks
-* Treated heal time reduction: 3D6 weeks
-
-| Range D100 | Injury              | Limit     | Description                      | Scar                |
-| ---------  | ------------------- | --------- | -------------------------------- | ------------------- |
-| 1  - 10    | Battered Head       | /         | +1 [exhaustion](#exhaustion); -1 [wit](#wit-wit). Headache plagues you and pain dulls your mind. | / |
-| 11 - 20    | Broken Bone         | /         | -1 [strength](#strength-str). _Some_ bone is broken. And the pain causes you to tensen up, weakening you. | / |
-| 21 - 30    | Broken Nose         | 1         | -1 [awareness](#awareness-awar); Cannot smell. | Disfigured nose |
-| 31 - 40    | Bruise              | /         | +1 [exhaustion](#exhaustion); -1 [agility](#agility-agi). A bruised limb is harder to control, due to pain. | / |
-| 41 - 50    | Concussion          | /         | -1 [awareness](#awareness-awar). The pain and the impact disorient you. | / |
-| 51 - 60    | Dizzy               | /         | +1 [exhaustion](#exhaustion); -1 [awareness](#awareness-awar). You feel dizzy. Focusing is difficult. | / |
-| 61 - 70    | Fractured Rib       | /         | -1 [toughness](#toughness-tough). A rib has cracked and is now pointing the wrong way. | Crooked rib cage |
-| 71 - 80    | Shaken              | /         | +1 [exhaustion](#exhaustion); -1 [toughness](#toughness-tough). Rattled and shaken, it is harder to control yourself. | / |
-| 81 - 90    | Skull Fracture      | /         | -1 [wit](#wit-wit). Thoughts come to you slower than before. | / |
-| 91 - 100   | Smashed Jaw         | /         | -1 [wit](#wit-wit). Your jaw no longer hinges the way it should and speech is impaired. | Crooked jaw |
-
-### Electrical Injuries
-* Automatic treatment: [Toughness](#toughness-tough) at **Ob** 3 every day. 
-* Treatment skill: [medicine](#medicine-agiwit)
-* Required supplies: 1 [medical supplies](#list-of-general-assets)
-* **Ob**: 1D6
-* Time to heal: 4D4 weeks
-* Treated heal time reduction: 3D4 weeks
-
-| Range D100 | Injury              | Limit     | Description                      | Scar                |
-| ---------  | ------------------- | --------- | -------------------------------- | ------------------- |
-| 1  - 20    | Burned Skin         | /         | -1 [awareness](#awareness-awar). The rage of electricity has ravaged your skin. | Burned skin |
-| 21 - 40    | Short-Circuited     | /         | -1 [wit](#wit-wit). Your mind dulls and thoughts are difficult to grasp. | / |
-| 41 - 60    | Tremors             | /         | -1 [agility](#agility-agi). Your muscles escape your control. | / |
-| 61 - 80    | Spasms              | /         | Move 3'/1m in a random direction for 3 turns or 15 seconds. To determine where, you may use the [throwing accuracy](#throwing-accuracy) rules for misses. This movement can trigger [Attacks of Opportunity](#attacks-of-opportunity). | / |
-| 81 - 100   | Distracted          | /         | -1 [awareness](#awareness-awar). It has become difficult to focus on what is happening around you. | / |
-
-### Freezing Injuries
-* Automatic treatment: [Toughness](#toughness-tough) at **Ob** 1 every day. 
-* Treatment skill: [medicine](#medicine-agiwit)
-* Required supplies: 1 [medical supplies](#list-of-general-assets)
-* **Ob**: 1D4
-* Time to heal: 2D4 weeks
-* Treated heal time reduction: 2D4 weeks
-
-| Range D100 | Injury              | Limit     | Description                      | Scar                |
-| ---------  | ------------------- | --------- | -------------------------------- | ------------------- |
-| 1  - 25    | Frostbitten Skin    | /         | -1 [toughness](#toughness-tough). The cold bites. The pain is unbearable. | Discolored skin |
-| 26 - 50    | Deep Freeze         | /         | -1 [toughness](#toughness-tough). Chilled to the bone! Every movement hurts and causes difficulty breathing. | / |
-| 51 - 75    | Arresting Cold      | /         | -1 [agility](#agility-agi). Your limbs have to fight for every movement, as the cold causes them to seize up. | / |
-| 76 - 100   | Brain Freeze        | /         | -1 [wit](#wit-wit). Like too much ice cream, the cold shoots to your head and slows your thoughts. | / |
-
-### Piercing Injuries
-* Automatic treatment: [Toughness](#toughness-tough) at **Ob** 3 every day. 
-* Treatment skill: [surgery](#surgery-agiwit)
-* Required supplies: 1 [medical supplies](#list-of-general-assets)
-* **Ob**: 1D4
-* Time to heal: 3D4 weeks
-* Treated heal time reduction: 2D4 weeks
-
-| Range D100 | Injury              | Limit     | Description                      | Scar                |
-| ---------  | ------------------- | --------- | -------------------------------- | ------------------- |
-| 1  - 14    | Pierced Limb        | /         | -1 [agility](#agility-agi). Pain causes difficulty moving. | Scarred limb |
-| 15 - 29    | Pierced Body        | /         | -1 [strength](#strength-str). An invader has injured something within. You feel weaker. | Scarred body |
-| 30 - 43    | Punctured Lung      | /         | -1 [toughness](#toughness-tough); Whenever [exhaustion](#exhaustion) is suffered, it is added +1 times. Breathing has become difficult. | Heavy breathing |
-| 44 - 57    | Bone Fracture       | /         | -1 [strength](#strength-str). A bone has been cracked, causing it to buckle under the weight of the flesh it once carried. | Crooked limb |
-| 58 - 71    | Torn Artery         | /         | +1 [bleeding](#bleeding). The blood is everywhere. | Scarred body |
-| 72 - 86    | Infection           | /         | Within a day, the character will contract an [illness](#illness). This can be avoided, but only if the [injury](#injury) is properly [treated](#injury-states--treatment) within 24 hours. | / |
-| 87 - 100   | Pierced Eye         | Eye Count | -1 [awareness](#awareness-awar); If incurred *limit* times, cannot see. | Scarred eye |
-
-### Poison Injuries
-* Automatic treatment: [Toughness](#toughness-tough) at **Ob** 3 every day. 
-* Treatment skill: [medicine](#medicine-agiwit)
-* Required supplies: 1 [antidote](#list-of-general-assets)
-* **Ob**: 1D4
-* Time to heal: 2D4 days
-* Treated heal time reduction: 1D4 + 1 days
-
-| Range D100 | Injury              | Limit     | Description                      | Scar                |
-| ---------  | ------------------- | --------- | -------------------------------- | ------------------- |
-| 1  - 17    | Sickly Color        | /         | +1 [poisoned](#poisoned). -1 [toughness](#toughness-tough). Your skin turns a sickly green. | Discolored skin |
-| 18 - 33    | Vomiting            | /         | +1 [poisoned](#poisoned). -1 [toughness](#toughness-tough). Your body convulses, as you involuntarily bend over and vomit. | / |
-| 34 - 50    | Poisoned Thoughts   | /         | +1 [poisoned](#poisoned). -1 [wit](#wit-wit). Your mind dulls and thoughts are difficult to grasp. | / |
-| 51 - 67    | Distracted          | /         | +1 [poisoned](#poisoned). -1 [awareness](#awareness-awar). It has become difficult to focus on what is happening around you. | / |
-| 68 - 83    | Panic               | /         | +1 [poisoned](#poisoned). Become [terrified](#terrified). The inevitability of what is to come has dawned upon you. But you cannot let it end like this! | / |
-| 84 - 100   | Frenzy              | /         | +1 [poisoned](#poisoned). Become [berserked](#berserk). To some, this may be a fun afternoon, but to you, the pain of the fire in your veins is unbearable, causing unquenchable rage to broil within you. | / |
-
-### Slashing Injuries
-* Automatic treatment: [Toughness](#toughness-tough) at **Ob** 3 every day. 
-* Treatment skill: [surgery](#surgery-agiwit)
-* Required supplies: 1 [medical supplies](#list-of-general-assets)
-* **Ob**: 1D4
-* Time to heal: 2D4 weeks
-* Treated heal time reduction: 1D4 weeks
-
-| Range D100 | Injury              | Limit     | Description                      | Scar                |
-| ---------  | ------------------- | --------- | -------------------------------- | ------------------- |
-| 1  - 11    | Butchered Arm       | Arm Count | +1 [Bleeding](#bleeding). -1 [strength](#strength-str); Actions and equipment requiring two hands cannot be used. If incurred *limit* times, any actions requiring arm movement is impossible. | Scarred arm |
-| 12 - 22    | Butchered Leg       | Leg Count | +1 [Bleeding](#bleeding). -6'/2m of [movement](#combat-movement). If incurred *limit* times, any actions requiring leg movement is impossible. | Scarred leg |
-| 23 - 33    | Butchered Body      | /         | +1 [Bleeding](#bleeding). -1 [toughness](#toughness-tough); | Scarred body |
-| 34 - 44    | Maimed Ear          | Ear Count | +1 [Bleeding](#bleeding). -1 [awareness](#awareness-awar); If incurred *limit* times, cannot hear. | Disfigured ear |
-| 45 - 56    | Maimed Nose         | 1         | +1 [Bleeding](#bleeding). -1 [awareness](#awareness-awar); Cannot smell. | Disfigured nose |
-| 57 - 67    | Slashed Eye         | Eye Count | +1 [Bleeding](#bleeding). -1 [awareness](#awareness-awar); If incurred *limit* times, cannot see. A surface-level cut has grazed your eye, forcing you to keep it shut from pain. | Scarred eye |
-| 68 - 78    | Torn Tendon         | /         | +1 [Bleeding](#bleeding). -1 [agility](#agility-agi). A tendon has abandoned its duty to you. The limb it once controlled loses strength. | Creaky limb |
-| 79 - 89    | Deep Cut            | /         | +2 [Bleeding](#bleeding). The blood is everywhere. | Scarred body |
-| 90 - 100   | Infection           | /         | +1 [Bleeding](#bleeding). Within a day, the character will contract an [illness](#illness). This can be avoided, but only if the [injury](#injury) is properly [treated](#injury-states--treatment) within 24 hours. | / |
 
 ## List of Illnesses
 | Range D100 | Name              | Duration          | Effect      | Treatment |
