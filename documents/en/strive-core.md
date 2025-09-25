@@ -886,50 +886,41 @@ An Injury always applies a [penalty](#boons--penalties) of `-1` to a randomly se
 | 7 - 8      | Toughness    |
 | 9 - 10     | Wit          |
 
-Additionally, the primary [Damage Type](#damage-types) that caused the Injury may apply further penalties. See the [Injury & Damage Type Table](#injury--damage-type-table) below. The primary Damage Type is the one of which most got through [armor](#armor--shields) and reduced [HP](#hit-points-hp) the most. If there is a tie, the Damage Type that the armor reduces less is the primary one. If there is still a tie, a coin flip could decide.
-
-Note that Injuries apply their penalties only once, upon being suffered! 
+Additionally, the primary [Damage Type](#damage-types) that caused the Injury may apply further penalties. See the [Injury & Damage Type Table](#injury--damage-type-table) below. The primary Damage Type is the one of which most got through [armor](#armor--shields) and reduced [HP](#hit-points-hp) the most. If there is a tie, the Damage Type that the armor reduces less is the primary one. If there is still a tie, a coin flip could decide. Note that Injuries apply their **additional penalties only once, upon being suffered**! 
 
 Also keep in mind that whenever a **PC** suffers an Injury, they earn a [Grit Point](#grit-points)! 
 
 #### Injury States & Treatment
-There are two possible states of an Injury: **active** or **treated**. Note that regardless of current state, **all** Injuries **always** reduce the **maximum HP**! 
+There are two possible states of an Injury: **active** or **treated**. 
+* An **active** Injury reduces [maximum HP](#hit-points-hp) *and* imposes additional penalites, such as to [Attributes](#attributes). 
+* A **treated** Injury *only* imposes a penalty to maximum HP.
 
-TODO: 366
+An Injury **must** be treated, if it is to begin healing. There are two ways to treat an Injury:
+1. Through use of a treatment Skill, as dictated by the Damage Type that caused the Injury. See the [Injury & Damage Type Table](#injury--damage-type-table) below. The injured character or another character may attempt this treatment. 
+2. The injured character may do a test of their [Toughness](#toughness-tough), against the treatment **Ob**, however, this test is `+1` **Ob** harder. 
 
-* Automatic treatment: [Toughness](#toughness-tough) at **Ob** 3 every day. 
-* Treatment skill: [medicine](#medicine-agiwit)
-* Required supplies: 1 [medical supplies](#list-of-general-assets)
-* **Ob**: 1D4
-* Time to heal: 4D4 weeks
-* Treated heal time reduction: 3D4 weeks
+The treatment **Ob** is determined once, by a `D4` roll. 
 
-An Injury must be [treated](#injury-states--treatment) to reduce its negative effects and begin the healing process. [Treatment](#injury-states--treatment) is made with a [skill](#skills) noted on the Injury. The difficulty of [treatment](#injury-states--treatment) is determined by the type of Injury, that is to say, by the [type of damage](#damage-types) that inflicted it. The time to heal depends on its type. When an Injury is fully healed and removed, it may leave behind a [scar](#scar) - something to remember your past adventures. 
+Only one treatment attempt may be made every `24` hours on a per-character basis. **Every** treatment attempt costs `1` [medical supplies](#list-of-general-assets). 
 
-The type of [injury](#injury) dictates various aspects of treatment:
-* The [skill](#skills) to use.
-* The [required supplies](#list-of-general-assets) for a treatment attempt. These supplies are consumed on every treatment attempt! 
-* The **Ob** for the treatment [test](#tests). Note that the minimum **Ob** is always 1. 
-* The time to heal and the reduction in time to heal when properly treated. The reduction is subtracted from the time to heal, but cannot be reduced to less than one time increment. E. g. a time to heal of 2 weeks, reduced by 3 weeks, results in 1 week of actual time to heal. 
+A `2D10 + 10` roll determines the number of **days** the Injury takes to fully heal, once treated. Every `24` hours the time left to heal is reduced by `-1` day. A **treated** Injury can be treated again, once every `24` hours, reducing the time left to heal by `-2` days, every time the treatment test is successful. However, failing the treatment test increases the time by `+1` day. 
 
-Only an **active** [injury](#injury) imposes negative effects *in addition* to the reduction of **maximum HP**. This is the initial state for any newly added [injury](#injury). Some [injuries](#injury) may become **treated** on their own, with a successful [test](#tests) of a specific [attribute](#attributes) or [skill](#skills), made at a specific interval and **Ob**.
-
-An [injury](#injury) can be properly **treated** via a successful [test](#tests) of the required treatment skill at the noted **Ob**. A **treated** [injury](#injury)'s time to heal is reduced significantly (minimum 1 time increment). Only one **treatment** attempt can be made every 24 hours on a per-character basis. 
+When an Injury is fully healed and thus removed, it may leave behind a [scar](#scar) - something to remember your past adventures. 
 
 #### Injury & Damage Type Table
 
-| Damage Type | Treatment Skill              | Additional Penalty |
-| ----------- | ---------------------------- | ------------------ |
-| Acid        | [Medicine](#medicine-agiwit) | `-1` [AP](#action-points-ap) |
-| Bleeding    | [Medicine](#medicine-agiwit) | `+1` [Bleeding](#bleeding) |
-| Bludgeoning | [Surgery](#surgery-agiwit)   | `+1` [Exhaustion](#exhaustion) |
-| Burning     | [Surgery](#surgery-agiwit)   | `+1` [Burning](#burning) |
+| Damage Type | Treatment Skill              | Additional Penalty               |
+| ----------- | ---------------------------- | -------------------------------- |
+| Acid        | [Medicine](#medicine-agiwit) | `-1` [AP](#action-points-ap)     |
+| Bleeding    | [Medicine](#medicine-agiwit) | `+1` [Bleeding](#bleeding)       |
+| Bludgeoning | [Surgery](#surgery-agiwit)   | `+1` [Exhaustion](#exhaustion)   |
+| Burning     | [Surgery](#surgery-agiwit)   | `+1` [Burning](#burning)         |
 | Electrical  | [Medicine](#medicine-agiwit) | `+1` [Electrified](#electrified) |
 | Freezing    | [Medicine](#medicine-agiwit) | `+1` [Frostbitten](#frostbitten) |
-| Piercing    | [Surgery](#surgery-agiwit)   | `+1` [Bleeding](#bleeding) |
+| Piercing    | [Surgery](#surgery-agiwit)   | `+1` [Bleeding](#bleeding)       |
 | Poison      | [Medicine](#medicine-agiwit) | Flip a coin. On heads - `+1` [Berserk](#berserk), on tails - `+1` [Terrified](#terrified) |
-| Pure        | [Surgery](#surgery-agiwit)   | / |
-| Slashing    | [Medicine](#medicine-agiwit) | `+1` [Bleeding](#bleeding) |
+| Pure        | [Surgery](#surgery-agiwit)   | /                                |
+| Slashing    | [Medicine](#medicine-agiwit) | `+1` [Bleeding](#bleeding)       |
 
 #### Grit Points
 A **Grit Point** lets a character stand up in defiance of their [Injuries](#injury) and make a last-ditch effort to turn the wheel of fate around. 
