@@ -59,6 +59,7 @@
   - [Health](#health)
     - [Hit Points (HP)](#hit-points-hp)
       - [Bludgeoned to 0 HP](#bludgeoned-to-0-hp)
+      - [Temporary Hit-Points](#temporary-hit-points)
     - [Injury](#injury)
       - [Suffering An Injury](#suffering-an-injury)
       - [Injury States \& Treatment](#injury-states--treatment)
@@ -853,6 +854,11 @@ See the [toughness attribute](#toughness-tough) to determine the **maximum HP**.
 
 #### Bludgeoned to 0 HP
 When a character is **bludgeoned** to `0` [HP](#hit-points-hp), they might survive and fall [Unconscious](#unconscious), instead of dying. For that, they must succeed a [Toughness](#toughness-tough) [test](#tests) at **Ob** `3`. If they fail, they die, after all.
+
+#### Temporary Hit-Points
+**Temporary HP** are added to the current HP of a character. The difference to regular HP is, that Temporary HP may exceed the maximum HP limit!
+
+> A character with `28` current and `30` maximum HP, is awarded `10` Temporary HP. This takes their current HP to `38`, thus exceeding their limit of `30`. 
 
 ### Injury
 An **Injury** is a serious health impediment of a character. It reduces the maximum [HP](#hit-points-hp) and imposes other [penalties](#boons--penalties). 
