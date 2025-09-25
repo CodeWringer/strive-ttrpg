@@ -1298,19 +1298,17 @@ Reactions during combat are:
 Combat ends, when neither side has the ability or will left to fight. 
 
 ## Action Points (AP)
-Every **turn**, every character gets 3 **Action Points (AP)** to spend on actions during their **turn**. Some [skills](#skills), [boons and penalties](#boons--penalties) can alter this number. 
+Every **turn**, every character gets `+3` **Action Points (AP)** to spend on actions during their **turn**. 
 
-At the start of a combat encounter, **all non-surprised characters** start with 3 **AP**. After that, **AP** are only regained per-character, upon the start of their turn. 
+At the start of a combat encounter, **all non-surprised characters** start with `3` **AP**. After that, **AP** are only regained per-character, upon the start of their turn. 
 
-* Any basic action, that is, any action not requiring a [test](#tests), costs 1 **AP**. 
+* Any basic action, that is, any action not requiring a [test](#tests), costs `1` **AP**. 
   * Speaking or shouting a short phrase is free. If you want to have a proper conversation, that will cost you more **AP**, depending on how much you have to say. 
   * [Basic movement](#combat-movement) counts as a basic action. 
   * Handing an object over to a character adjacent to you, is a basic action (assuming you don't have to force it on them). 
-  * Pulling something from your bag or getting a weapon ready (from your back, scabbard or wherever you keep it) also counts as a movement action and costs 1 **AP**. 
-* Any action requiring a [test](#tests), costs 2 **AP**. 
-* [Expertises](#expertise) can cost varying amounts of **AP**. The exact number will be noted on the [expertise](#expertise) in question. 
-
-Once per turn, it is possible to **push yourself** to gain +1 **AP**, at the cost of +1 [exhaustion](#exhaustion). **Pushing yourself** when the additional point of [exhaustion](#exhaustion) would bring you to your threshold is not allowed. 
+  * Pulling something from your bag or getting a weapon ready (from your back, scabbard or wherever you keep it) also counts as a movement action and costs `1` **AP**. 
+* Any action requiring a [test](#tests), usually costs `2` **AP**. 
+* [Expertises](#expertise) can cost varying amounts of **AP**. The exact number will be noted on the [Expertise](#expertise) in question. 
 
 ### Action Point Saving
 If a character ends their **turn** with any **AP** unspent, those **AP** will be saved up and be available as additional **AP** at the start of their next **turn**. 
