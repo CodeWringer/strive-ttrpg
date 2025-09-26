@@ -93,9 +93,10 @@
     - [Crafting \& Research Projects](#crafting--research-projects)
       - [Project Prerequisites](#project-prerequisites)
       - [Project Progress \& Milestones](#project-progress--milestones)
-      - [Project Boosters](#project-boosters)
       - [Project Quality](#project-quality)
+      - [Project Boosters](#project-boosters)
       - [Research Projects](#research-projects)
+      - [Invention Projects](#invention-projects)
     - [Trade](#trade)
       - [Seller's Chart](#sellers-chart)
       - [Buyer's Chart](#buyers-chart)
@@ -1195,7 +1196,7 @@ How much time it takes, exactly, to get from *A* to *B*, depends heavily on the 
 If there is a world map, the **GM** could overlay it with tiles of squares or hexagons, which may help with determining distance. If your group desires, you could even play it so that your characters only travel from tile to tile. Moving from one tile to another may then always take a set time, unless faster means of travel are available. That way, travel would be simplified and abstract. But discuss with your group, whether you want to play it this way. Travel may also provide interesting opportunities for role-playing and *conflicts*. The abstract level draws attention away from these opportunities. 
 
 ### Crafting & Research Projects
-In their own free time, characters can spend time and resources to create [Assets](#assets), research obscure subjects or make new scientific discoveries, through the use of certain Skills. 
+In their own free time, characters can spend time and resources to create [Assets](#assets), research obscure subjects, make new scientific discoveries or create new inventions. 
 
 #### Project Prerequisites
 Typically, a project can only be worked on with access to necessary resources and know-how. Skills that detail how they can be used for crafting will also note the prerequisites required. However, as always, the **GM** has the final word. 
@@ -1213,9 +1214,20 @@ In addition to the Progress Increment, the Skill will note a **Time Increment**.
 
 To make progress, you roll an **Ob** `0` test of the corresponding Skill. Note that for this Project progress test, you ***do not earn*** [advancement progress](#advancement)! When rolling the dice to add progress, every die that comes up as a **hit** adds `+1` to the Project's progress. If you are aided by other characters, you can add `+1D6` for each, up to a limit of `3`. 
 
-Every time a Project's progress passes a Milestone, a so-called **Milestone test** must *immediately* be made. Note that for Milestone tests, you ***do earn*** [advancement progress](#advancement)! As before, every **hit** adds `+1` to the Project's progress. However, if there is not a single **hit**, *or* there is an **Ob** defined and *not enough* **hits** have been achieved, the final product's Quality degrades by `-1`. If, once the Project is complete, the final Quality is `0`, the Project is botched. Your resources are lost and you get nothing to show for it. There is no product. 
+At the start of a Project, the first and so-called **Milestone test** must *immediately* be made. As before, every **hit** adds `+1` to the Project's progress. However, if there is not a single **hit**, *or* there is an **Ob** defined and *not enough* **hits** have been achieved, the final product's Quality degrades by `-1`. If, once the Project is or would be complete, the final Quality is or would be `0`, the Project is botched. Your resources are lost and you get nothing to show for it. There is no product. After botching a Project, you must wait one Time Increment before another attempt can be made, as even when you fail, you'll still have to invest some time in the attempt. This ensures you can break off a failed Project early, without having to first accrue, e. g. `200` or more progress, which could take a *long time*, only find out in the end it was all in vain. 
+
+After the first, every time the Project's progress passes a Milestone, another Milestone test must *immediately* be made. Note that the starting Milestone test counts towards the number of Milestones. 
+
+> A Project of Quality level `1` only requires a single Milestone test - at the very start of the Project - to succeed. If the character succeeds the test, they can rest assured that their Project can no longer fail. All that is left to do, is to accrue progress until completion. 
+
+Note that for Milestone tests, you ***do earn*** [advancement progress](#advancement)! And every other **PC** who's helping earns `+1` [XP](#experience-points-xp)!
 
 > A character is working on their Project. Their progress is currently at `9`, they need `3` Milestones, each with a Progress Increment of `10`. For their progress test, they get to roll `5D6` and achieve `2` **hits**. Thus, they add `+2` progress, which gets them to `11` total progress! In doing so, they passed the first Milestone of `10` progress. Now, they must make a Milestone test. Their Project has no **Ob**, and so, when they once again prepare to roll their `5D6`, the *only* thing they have to fear is achieving *no* **hits** at all. 
+
+Note that it is not allowed to keep repeating the same Project again and again, ad infinitum, if you keep botching it. After the third attempt, your character has to admit that the Project is too much for them alone and that they need help. The **GM** will decide whether you've found enough help or the circumstances changed enough to allow you another attempt. 
+
+#### Project Quality
+The maximum Quality a product can achieve, is dictated by a character's level in the relevant Skill. A mediocre craftsman will never be able to create a mastery-level work. However, several artisans can pool their knowledge, to improve the maximum Quality by `+1` for everyone helping on the project. While they're helping, these characters **can not** engage in their own Projects. And the number of assistants is limited to `3`. Too many cooks, and the soup will end up *dry*, if you will. 
 
 #### Project Boosters
 During their adventures, or while perusing the market or library, **PCs** may find things that can boost the progress of their Project. These **Project Boosters** can be varied - schematics, specialized tools, a rare artefact, advice from a knowledgeable **NPC**, and so on. 
@@ -1224,9 +1236,6 @@ These things can add progress to a Project. How much they boost the Project, wil
 
 Typically, Project Boosters are one-time use. Once they have been used to add progress to the Project, they cannot be used again. 
 
-#### Project Quality
-The maximum Quality a product can achieve, is dictated by a character's level in the relevant Skill. A mediocre craftsman will never be able to create a mastery-level work. However, several artisans can pool their knowledge, to improve the maximum Quality by `+1` for everyone helping on the project. However, those characters can not engage in their own projects in the meantime. And the number of assistants is limited to `3`. Too many cooks, and the soup will end up *dry*, if you will. 
-
 #### Research Projects
 A Project can be about the research of knowledge. The progress required will depend on the degree of obscurity of the knowledge that you seek. 
 
@@ -1234,12 +1243,30 @@ Unlike with normal Projects, you do not determine the Quality yourself. Instead,
 
 Since there is no Quality when it comes to research Projects, failing a Milestone test does not reduce any Quality, but instead causes you to suffer a **Setback**, which in turn increases the required progress by one Progress Increment. 
 
+When you finish the research Project, you'll have the answers you seek and may gain the title "Loremaster of *X*", where you replace *X* with the subject you researched, at the **GM's** discretion. With this title, you are henceforth an expert on the subject matter. You know *everything* about the subject. 
+
 | Obscurity   | Milestones | Total Progress | Ob | Description | 
 | ----------- | ---------- | -------------- | -- | ----------- | 
 | Common      | 2 * 10     | 20             | 0  | Common knowledge can be easily researched. Even so, it's not so common that everyone knows it already. It may still take some effort to find the right pieces of writing or piece together what you need from questioning several other people. |
 | Specialized | 2 * 25     | 50             | 1  | Only few individuals have deeper knowledge regarding the topic you seek to understand. Only few pieces of writing even make note of your topic. It will require substantial effort to track down sources of knowledge and then puzzle the pieces together. |
 | Obscure     | 4 * 25     | 100            | 2  | Barely anyone, if anyone at all, even knows of this esoteric subject. Tracking down anyone with knowledge will be a considerable challenge. And whatever writing exists, may be stowed away, hidden in private collections, not easily accessible and not easily parted with. And even if access to these sources of knowledge can be secured, making sense of it all will be a challenge. |
-| Lost        | 8 * 25     | 200            | 3  | No one alive still knows anything about this subject. Whatever writing may exist, is manifested in a long dead language, on a medium hidden in a remote and forgotten place. Even if you find this remnant of knowledge, how could you possibly make sense of it? |
+| Lost        | 6 * 50     | 300            | 3  | No one alive still knows anything about this subject. Whatever writing may exist, is manifested in a long dead language, on a medium hidden in a remote and forgotten place. Even if you find this remnant of knowledge, how could you possibly make sense of it? |
+
+#### Invention Projects
+A Project can be about the invention of completely unique and new [Assets](#assets). The progress required will depend on the degree of complexity. 
+
+Unlike with normal Projects, you do not determine the Quality yourself. Instead, the **GM** will determine the degree of complexity of your Project. That will then tell you how much effort it will be to succeed in your invention. In the table below, the Milestones are listed as `M * P`, where *M* is the number of Milestones and *P* is the Progress Increment, per Milestone. The **Ob** noted is the **Ob** your Milestone tests will require. 
+
+Just as normal Projects, your invention Project has a Quality level. However, which Quality level you must aim for is dictated by the complexity of your Project. 
+
+Unique to invention Projects, whenever you reach a Milestone past the first, you may get a prototype model of your invention. This is a much smaller and/or simpler and much less potent/functional version of your actual invention, at the **GM's** discretion. 
+
+| Complexity  | Milestones | Total Progress | Ob | Description | 
+| ----------- | ---------- | -------------- | -- | ----------- | 
+| Simple      | 2 * 20     | 40             | 1  | How did no one come up with this, before? It's so simple! This is typically a variation of something else that already exists, but with a minor modification. Given your current access to tools and resources, it is easy to imagine how you might complete this Project. |
+| Specialized | 4 * 25     | 100            | 2  | A fairly unique idea, that is within the realm of the imaginable. This is typically a major variation or modification of something that already exists. It will require specialized tools and resources and some effort to achieve. |
+| Complex     | 4 * 50     | 200            | 3  | A highly challenging invention, that will require highly specialized tools, resources and knowledge to achieve. What you're trying to create is outside your world's current technological or arcanic level of progress, but not unimaginable. |
+| Fantastical | 5 * 100    | 500            | 4  | What you're trying to create simply doesn't exist. No one has ever thought of this idea before and it's difficult to imagine how such a feat could even be achieved. But should it be possible, you'll have a lot of groundwork to cover. You will need to make your own tools, gain access to very particular resources, double-crunch the numbers and make several prototypes before the real thing could possibly be manifested. |
 
 ### Trade
 Selling and buying things can take a surprising amount of time. If prices are too high and demand or reputation too low, chances are, you won't be able to sell your goods. But even when people do show interest in your wares, you still have to *sell it* to them. An uncharismatic merchant will have a difficult time making a pretty profit, regardless of the quality of their goods. On the other hand, buying things may prove equally difficult, when what you're looking for isn't really available. 
