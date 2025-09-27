@@ -264,7 +264,7 @@ If the defense fails, the full effect is applied. If the defense attempt causes 
 ## Protection From Magic
 Armor made from [Ambersteel](#ambersteel) can reduce the damage suffered through magical sources and reduce the [SI](#spell-intensity-si) of non-damaging spells. 
 
-The [quality](./strive-core.md#crafting--research-projects) of an armor or shield determines how much it protects the wearer. See [ambersmithing](#ambersmithing-strwit) for the specific numbers. 
+The [Quality level](./strive-core.md#crafting--research-projects) of an armor or shield determines how much it protects the wearer. See [Ambersmithing](#ambersmithing-strwit) for the specific numbers. 
 
 Damage from magical sources is reduced by the quality level + a number of dice. Non-damaging spells have their [SI](#spell-intensity-si) reduced by *only* the quality level. 
 
@@ -336,7 +336,7 @@ It also takes great skill to carve **runes**, as each **rune's** shape and compl
 
 Due to how **runes** are always magically charged, they cannot be in the vicinity of any other **runes**. This works a bit like how magnets with the same polarity repulse each other, but a lot more dangerous. This condition applies regardless of the type of magic each of the **runes** hold. If two **runes** are brought to a distance of `60'/20m` or less to each other, they begin to glow, hum and rumble, as if to warn their bearers. Should they be brought to a distance of `45'/15m` or less to each other, they both discharge the magic they hold and repulse each other. This means anyone immediately nearby suffers `3D6` **Bludgeoning** damage. The **runes** are flung away from each other far enough to be at least `63'/21m` apart. *Also*, the **runes** may be **destroyed** in the process. Roll a `D6` for each of the **runes** - if the result is a `1` or `2`, the **rune** is **destroyed**! 
 
-It may be possible to circumvent this repulsion behavior by placing the **runes** in a container made of [Ambersteel](#ambersteel). This requires the container to be of a [quality](./strive-core.md#crafting--research-projects) level equal to the highest of the **runes'** [Spell Intensity](#spell-intensity-si).
+It may be possible to circumvent this repulsion behavior by placing the **runes** in a container made of [Ambersteel](#ambersteel). This requires the container to be of a [Quality level](./strive-core.md#crafting--research-projects) equal to the highest of the **runes'** [Spell Intensity](#spell-intensity-si).
 
 In order to craft a **rune**:
 * A **rune** can only be made to cast one type of magic. So the carver has to pick one of the [magic schools](#list-of-magic-schools). 
@@ -357,7 +357,7 @@ Due to how **magic scrolls** are always magically charged, they cannot be in the
 
 If two **magic scrolls** **of the same type** are brought to a distance of `60'/20m` or less to each other, they begin to glow, hum and rumble, as if to warn their bearers. Should they be brought to a distance of `45'/15m` or less to each other, they both discharge the magic they hold and repulse each other. This means anyone immediately nearby suffers `3D6` **Bludgeoning** damage. The **magic scrolls** are destroyed in the process! 
 
-It may be possible to circumvent this repulsion behavior by placing the **magic scrolls** in a container made of [Ambersteel](#ambersteel). This requires the container to be of a [quality](./strive-core.md#crafting--research-projects) level equal to the highest of the **magic scrolls'** [Spell Intensity](#spell-intensity-si).
+It may be possible to circumvent this repulsion behavior by placing the **magic scrolls** in a container made of [Ambersteel](#ambersteel). This requires the container to be of a [Quality level](./strive-core.md#crafting--research-projects) equal to the highest of the **magic scrolls'** [Spell Intensity](#spell-intensity-si).
 
 In order to create a **magic scroll**:
 * Powdered [Abyssalite](#abyssalite) must be painted onto the parchment, paper or other such material, in a shape specific to the magic spell the **magic scroll** will be able to cast. 

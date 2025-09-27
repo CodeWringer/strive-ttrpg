@@ -2147,9 +2147,9 @@ All meals always restore `Q HP` and reduce exhaustion by `Q`.
 The boons from meals do not stack. Eating a second meal will have it override all of a previous meal's boons. The strength of boons is determined at the time of creation and are the same for all characters who share in the meal. 
 
 [Crafting](#crafting--research-projects)
-| Product                              | Complexity | Workload  | Ob | Materials                              | Quality Bonus   |
-| ------------------------------------ | ---------- | --------- | -- | -------------------------------------- | --------------- | 
-| Meal                                 | Low        | High      | 1  | Foodstuffs                             | Restores `Q HP` and reduces exhaustion by `Q`. |
+| Product                              | Progress Increment | Time Increment | Ob | Materials                              | Quality Bonus   |
+| ------------------------------------ | ------------------ | -------------- | -- | -------------------------------------- | --------------- | 
+| Meal                                 | 5                  | 10 Minutes     | 1  | Foodstuffs                             | Restores `Q HP` and reduces exhaustion by `Q`. |
 
 ### Specializations
 These skills always require other skills to be **known** at a given level or at least at level 1, before they can be learned. 
