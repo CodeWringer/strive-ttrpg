@@ -1196,6 +1196,8 @@ How much time it takes, exactly, to get from *A* to *B*, depends heavily on the 
 If there is a world map, the **GM** could overlay it with tiles of squares or hexagons, which may help with determining distance. If your group desires, you could even play it so that your characters only travel from tile to tile. Moving from one tile to another may then always take a set time, unless faster means of travel are available. That way, travel would be simplified and abstract. But discuss with your group, whether you want to play it this way. Travel may also provide interesting opportunities for role-playing and *conflicts*. The abstract level draws attention away from these opportunities. 
 
 ### Crafting & Research Projects
+<img src="../../img/crafting.svg" style="width: 3rem; height: 3rem;"></img>
+
 In their own free time, characters can spend time and resources to create [Assets](#assets), research obscure subjects, make new scientific discoveries or create new inventions. 
 
 #### Project Prerequisites
