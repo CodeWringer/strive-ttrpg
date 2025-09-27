@@ -178,7 +178,7 @@
     - [Knowledge Skills](#knowledge-skills)
       - [Architecture (Awar/Wit)](#architecture-awarwit)
       - [Archeology (Awar/Wit)](#archeology-awarwit)
-      - [Creature-Lore \<category?\> (Awar/Wit)](#creature-lore-category-awarwit)
+      - [Creature-Lore \< category? \> (Awar/Wit)](#creature-lore--category--awarwit)
       - [Geography (Awar/Wit)](#geography-awarwit)
       - [Geology (Awar/Wit)](#geology-awarwit)
       - [History (Wit/Wit)](#history-witwit)
@@ -1984,15 +1984,15 @@ An eye for historic detail, the ability to date such things and the capacity to 
 | ----- | -------------------- | -- | ------- | ------------------ | ------------ |
 | 2     | Look For Curios      | 1  | 2       | Look around for curios - things from a bygone age - and if successful, then the number of hits past the Ob you score, determine its significane and worth. Can only be used in places lost to time and only once per location. Your **GM** will determine the specifics in terms of money value and [bulk](#bulk). |  |
 
-#### Creature-Lore <category?> (Awar/Wit)
+#### Creature-Lore < category? > (Awar/Wit)
 Knowledge about a specific type/family of creature. You can recollect knowledge regarding the strengths and weaknesses, as well as behavior, origin and occurrence. 
 
 Types/families are the broad terms that describe multiple specific creatures as sharing many similarities. These will be specific to the world and setting and examples could be such as "undead", "human", "abomination", "beast" and so on.
 
 | Level | Name                 | AP | **Ob**  | Effect(s)          | Condition(s) |
 | ----- | -------------------- | -- | ------- | ------------------ | ------------ |
-| 1     | I Know Your Weakness | /  | /       | Passive/Reaction: Every creature has weak-points. You know how to aim for them and deal `+1D4` points of your primary damage on a successful attack, *if* this is a creature of the category you are familar with. |  |
-| 2     | I Know Your Strength | /  | /       | Passive/Reaction: When you are hit by a creature you are familiar with, you suffer `1D4` fewer points of their primary damage. Their effective damage against you cannot be reduced to less than `1` by this. |  |
+| 1     | I Know Your Weakness | /  | /       | **Passive/Reaction**: Every creature has weak-points. You know how to aim for them and deal `+3` points of Pure damage on a successful attack, *if* this is a creature of the category you are familar with. |  |
+| 2     | I Know Your Strength | /  | /       | **Passive/Reaction**: When you are hit by a creature you are familiar with, you suffer `3` fewer points of their primary damage. Their effective damage against you cannot be reduced to less than `1` by this. |  |
 
 #### Geography (Awar/Wit)
 Knowledge about the geography of the world. Used to recall the location of places in relation to each other. 
@@ -2077,13 +2077,13 @@ The ability to paint and draw well, as well as a general sense of aesthetics.
 #### Cooking (Awar/Wit)
 The ability to cook hearty and sweet meals that can strengthen and invigorate. Poor cooks are prone to losing ingredients due to burning them or overcooking them to the point of inedibility. 
 
-Tools: cooking utensils, a pot or pan, a strong heat source
+Tools: cooking utensils; a pot, pan, spitroast or similar; a strong heat source
 
 A cook may choose to make the meal confer certain boons, for `Q * 2` hours, at the expense of increasing the Ob by `+1`, once for each of the following boons:
-* Increase maximum HP by `Q D4`. 
+* Grant `Q D4` [Temporary HP](#temporary-hit-points). 
 * Increase [base initiative](#base-initiative) by `Q`. 
 * Increase [strength](#strength-str) or [toughness](#toughness-tough) by `Q / 2 (RU)`. 
-* Resist `Q` [freezing](#damage-types) or [burning](#damage-types) or [bleeding](#damage-types). 
+* Resist `Q` [freezing](#damage-types) or [burning](#damage-types) or [bleeding](#damage-types) damage. 
 
 All meals always restore `Q HP` and reduce exhaustion by `Q`. 
 
