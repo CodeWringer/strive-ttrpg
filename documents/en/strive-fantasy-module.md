@@ -611,7 +611,7 @@ A large, kite-shaped or rectangular shield, which can protect every part of the 
 | `+2` [compensation points](core-rules.md#compensation-points) for any defense. | `+1` [compensation point](core-rules.md#compensation-points) for any defense. | `+1D` for any defense. | / |
 
 ### List of General Assets
-In the following table, `Q` refers to the quality grade of the asset. See also the [crafting](./strive-core.md#crafting--research-projects) rules. When in a hurry (as a **GM**), substitute the `Q` with `3`.
+In the following table, `Q` refers to the quality grade of the asset. See also the [crafting](./strive-core.md#crafting--research-projects) rules. When in a hurry (as a **GM**), substitute the `Q` with `2`.
 
 | Name                     | Bulk | Max. Stack Size | Description                                                              |
 | ------------------------ | ---- | --------------- | ------------------------------------------------------------------------ |
@@ -624,10 +624,10 @@ In the following table, `Q` refers to the quality grade of the asset. See also t
 | Illusionist's Powder     | 1    | 2               | A small amount of weakly iridescently shimmering powder. When scattered, the dust remains suspended in mid-air and settles in an image of the making alchemist's choosing, which at a distance can seem perfectly real. It takes a successful test at `Ob Q + 1` to see through the ruse. This image lasts `QD10` minutes. |
 | Invigorating Potion      | 1    | 3               | The drinker of this potion feels refreshed and invigorated! Reduces exhaustion by `Q` and clears the [exhausted](./strive-core.md#exhausted) condition. Beware this potion can only be safely imbibed twice in a 24 hour cycle. If drunk more, roll a `D6`. If it is a **hit**, you're in luck! But if not, you instead suffer `+2` points of [exhaustion](./strive-core.md#exhaustion). |
 | Laudanum Potion          | 1    | 2               | This wonderous substance can quell pain and calm nerves within seconds. Also effective against diarrhea. Upon imbibing, sets one **active** [injury](./strive-core.md#injury) to **treated**. After 24 hours, the [injury](./strive-core.md#injury) is set back to **active**, even if it was also properly **treated** in the meantime. Also, must succeed a [self-control](./strive-core.md#self-control-toughtough) test at `Ob 3`, or else become [addicted](./strive-core.md#drug-addicted) to the stuff. |
-| Love Potion              | 1    | 2               | Anyone drinking this potion will become virtually irresistible to anyone close enough to smell their air. Victims have to succeed a [self-control](./strive-core.md#self-control-toughtough) test at `Ob Q` or else feel **very strongly compelled** to fulfill the user's every wish and desire (provided this wouldn't obviously cause harm to the victim). |
+| Love Potion              | 1    | 2               | Anyone drinking this potion will become virtually irresistible to anyone close enough to smell their air. Victims have to succeed a [self-control](./strive-core.md#self-control-toughtough) test at **Ob** `Q` or else feel **very strongly compelled** to fulfill the user's every wish and desire (provided this wouldn't obviously cause harm to the victim). |
 | Magic Recorder           | 1    | 3               | A small spherical device, overtly made from various metals with intricate patterns on its surface. This device can capture [Magic Echoes](#magic-echoes) and record magic as it is being cast. Also captures fragments of thoughts from its bearer while it is active. |
 | Night-Eye Potion         | 1    | 3               | Grants the ability to see reasonably well under low-light conditions, up to `Q * 10'/3m` around them, for an hour. Beware that under the influence of this potion, exposure to bright light is extremely difficult to endure and will cause `+1` [exhaustion](./strive-core.md#exhaustion) for every **minute** of exposure. |
-| Paralyzing Poison        | 1    | 2               | Causes a victim's muscles to seize up. They suffer `-1 AP` each turn and are forced to move sluggishly. If this poison is suffered twice, the victim seizes up completely and is unable to move. This poison can be resisted once upon suffering it, with [toughness](./strive-core.md#toughness-tough), at `Ob Q`. If unsuccessful, the effect will last an hour. |
+| Paralyzing Poison        | 1    | 2               | Causes a victim's muscles to seize up. They suffer `-1 AP` each turn and are forced to move sluggishly. If this poison is suffered twice, the victim seizes up completely and is unable to move. This poison can be resisted once upon suffering it, with [toughness](./strive-core.md#toughness-tough), at `Ob Q`. If unsuccessful, the effect will last `Q` hours. |
 | Poison Resistance Potion | 1    | 2               | Once imbibed, halves all incurred poison damage, for up to `Q` hours. |
 | Sleeping Poison          | 1    | 3               | Causes a victim to feel incredibly sleepy. Unless they succeed a [self-control](./strive-core.md#self-control-toughtough) test at `Ob Q`, they will fall asleep the first chance they get. They cannot be woken from this state for at least `6` hours. |
 | Smoke Bomb               | 1    | 3               | A small fragile shell, filled with a very fine powder which when broken causes an area in a `Q * 3'/1m` radius to be covered in smoke. It is impossible to see through and ranged attacks within or through the smoke-covered area suffer `+2` **Ob**. Victims caught in the smoke may be forced to cough. The smoke lasts `6` turns or `30` seconds. |
@@ -946,13 +946,27 @@ See also [protection from magic](#protection-from-magic).
 #### Alchemy (Arc/Wit)
 The ability to brew alchemical potions, create powders, mixtures and other substances, as well as the ability to tell these things apart. 
 
-Tools: a distillery, mortar and pestle, a fire place
+Tools: a distillery, mortar and pestle, a heat source, beakers
 
 [Crafting](./strive-core.md#crafting--research-projects)
-| Product                              | Complexity | Workload  | Materials                              | Quality Bonus   |
-| ------------------------------------ | ---------- | --------- | -------------------------------------- | --------------- | 
-| A simple alchemical concoction (potion or powder)  | Moderate  | Moderate | Small containers, minerals, metals, herbs and water. | / |
-| A complex alchemical concoction (potion or powder) | Very High | High     | Small containers, minerals, metals, herbs and water. | / |
+
+| Product                              | Progress Increment | Time Increment | Ob |
+| ------------------------------------ | ------------------ | -------------- | -- |
+| Acid Bomb (3)                        | 10                 | 1 Hour         | 0  |
+| Blackpowder Bomb (2)                 | 20                 | 1 Hour         | 1  |
+| Calming Tea (3)                      | 10                 | 10 Minutes     | 0  |
+| Death Fog (1)                        | 50                 | 6 Hours        | 3  |
+| Dragon's Breath Potion (2)           | 20                 | 1 Hour         | 1  |
+| Fire Pot (2)                         | 20                 | 1 Hour         | 1  |
+| Illusionist's Powder (2)             | 30                 | 10 Minutes     | 1  |
+| Invigorating Potion (2)              | 20                 | 1 Hour         | 0  |
+| Laudanum Potion (3)                  | 10                 | 1 Hour         | 0  |
+| Love Potion (1)                      | 20                 | 1 Hour         | 2  |
+| Night-Eye Potion (2)                 | 10                 | 1 Hour         | 0  |
+| Paralyzing Poison (1)                | 50                 | 6 Hours        | 2  |
+| Poison Resistance Potion (2)         | 20                 | 1 Hour         | 1  |
+| Sleeping Poison (1)                  | 30                 | 1 Hour         | 1  |
+| Smoke Bomb (3)                       | 10                 | 10 Minutes     | 0  |
 
 #### Brewing (Wit/Wit)
 The brewing of alcoholic beverages. 

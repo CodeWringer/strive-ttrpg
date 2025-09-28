@@ -93,6 +93,8 @@
     - [Crafting \& Research Projects](#crafting--research-projects)
       - [Project Prerequisites](#project-prerequisites)
       - [Project Progress \& Milestones](#project-progress--milestones)
+        - [Complexity to Progress Increments](#complexity-to-progress-increments)
+        - [Workload to Time Increments](#workload-to-time-increments)
       - [Project Quality](#project-quality)
       - [Project Boosters](#project-boosters)
       - [Research Projects](#research-projects)
@@ -1226,7 +1228,31 @@ Note that for Milestone tests, you ***do earn*** [advancement progress](#advance
 
 > A character is working on their Project. Their progress is currently at `9`, they need `3` Milestones, each with a Progress Increment of `10`. For their progress test, they get to roll `5D6` and achieve `2` **hits**. Thus, they add `+2` progress, which gets them to `11` total progress! In doing so, they passed the first Milestone of `10` progress. Now, they must make a Milestone test. Their Project has no **Ob**, and so, when they once again prepare to roll their `5D6`, the *only* thing they have to fear is achieving *no* **hits** at all. 
 
-Note that it is not allowed to keep repeating the same Project again and again, ad infinitum, if you keep botching it. After the third attempt, your character has to admit that the Project is too much for them alone and that they need help. The **GM** will decide whether you've found enough help or the circumstances changed enough to allow you another attempt. 
+Note that it is not allowed to keep repeating the same Project again and again, ad infinitum, if you keep botching it. After the second attempt, your character has to admit that the Project is too much for them alone and that they need help. The **GM** will decide when you've found enough help or whether the circumstances changed enough to allow you another attempt. 
+
+When there is a lot of long-term down-time, a character working on the same Project continuously may be simplified a bit. Instead of doing dozens of rolls for progress, simply do two rolls, take the better result and then multiply it with the number of Time Increments the character gets to spend on the Project. 
+
+> The **GM** explains for narrative reasons, nothing interesting happens for the next in-game week. Characters are free to work on Projects. One of the **PCs** does just that - for the entire week! They choose a Project with Quality `2`, Progress Increments of `30` and Time Increments of `6` hours. 
+>
+> They make two rolls. In the first, they achieve only `1` hit - an unlucky roll! In the second, they fare much better, and achieve `4` hits. Every day, they can make progress `4` times. That means they make `4 * 7 (days in a week) = 28` progress!
+
+If you enjoy inventing your own unique types of [Assets](#assets) that you wish to add to the game, chances are, some of them will be craftable by **PCs**. But how to choose the Progress Increment, **Ob** and Time Increment? The tables below aim to guide you in this endeavour. 
+
+##### Complexity to Progress Increments
+Think about complexity in terms of *how difficult is it to make the thing?*, *are specialized tools needed?*, *are special resources required?* and *does the task have any tolerance for failure?*
+
+| Complexity ->      | Trivial     | Routine     | Specialized | Complex     | Enigmatic   |
+| ------------------ | ----------- | ----------- | ----------- | ----------- | ----------- |
+| Progress Increment | 5           | 10          | 20          | 30          | 50          |
+| Ob                 | 0           | 0           | 1           | 2           | 3           |
+|                    | A trivial craft can be done at any time, anywhere - even on the road. It barely requires any resources and you can improvise the tools you need. | A routine craft is routine only to a learned and experienced craftsperson. While the work won't put your skills to the test, it still requires some effort and experience to achieve. Improvised tools may still do, and some resources may still be substituted. But the work does demand focus. | A specialized craft is a bit more challenging. You need to sit down and actually focus on the work and need the proper tools and resources to get it done. But provided you bring those, your work can be done anywhere. | A complex craft requires specialized tools and rare resources, which may not be readily accessible to just anyone and the work must be done in a specialized environment. | An enigmatic craft requires tools that simply don't exist, anywhere. You will have to create them, yourself. The resources you need will require substantial effort to track down. Perhaps you'll even be the first discover their existence. The work can be done only in a highly specialized environment, to minimize the risk of delicate machinery getting dusty, aerosols mixing or vibrations in the earth agitating the wrong powder and so forth. |
+
+##### Workload to Time Increments
+Workload is the result of processes that naturally take a long time, the difficulty in processing materials and the amount of work that has to be done. A very high workload will take very long to complete, while a low workload may be finished in a matter of moments.
+
+| Workload       | Low         | Moderate    | High        | Very High   |
+| -------------- | ----------- | ----------- | ----------- | ----------- |
+| Time Increment | 10 Minutes  | 1 Hour      | 6 Hours     | 24 Hours    |
 
 #### Project Quality
 The maximum Quality a product can achieve, is dictated by a character's level in the relevant Skill. A mediocre craftsman will never be able to create a mastery-level work. However, several artisans can pool their knowledge, to improve the maximum Quality by `+1` for everyone helping on the project. While they're helping, these characters **can not** engage in their own Projects. And the number of assistants is limited to `3`. Too many cooks, and the soup will end up *dry*, if you will. 
@@ -2148,7 +2174,7 @@ The boons from meals do not stack. Eating a second meal will have it override al
 
 [Crafting](#crafting--research-projects)
 | Product                              | Progress Increment | Time Increment | Ob | Materials                              | Quality Bonus   |
-| ------------------------------------ | ------------------ | -------------- | -- | -------------------------------------- | --------------- | 
+| ------------------------------------ | ------------------ | -------------- | -- | -------------------------------------- | --------------- |
 | Meal                                 | 5                  | 10 Minutes     | 1  | Foodstuffs                             | Restores `Q HP` and reduces exhaustion by `Q`. |
 
 ### Specializations
