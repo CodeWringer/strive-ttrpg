@@ -1686,7 +1686,7 @@ If you need inspiration, the following tables might help a spark along:
 | 5 | You swore an oath and intend to keep it. You swore to rescue someone, or bring honor to your clan, or perhaps to bring justice to a known criminal. |
 | 6 | You lost someone or something you held dear. Now, you're on a quest to get it back, or your revenge. |
 | 7 | Through your actions, or those of someone close to you, you've brought dishonor and shame upon your name. Now you've been looking for ways to wipe away the stain. |
-| 8 | You took on a job, but after its completion, your employed bailed on you, without paying up. Now, you're looking for new work and perhaps a means of tracking down your prior employer. |
+| 8 | You took on a job, but after its completion, your employer bailed on you, without paying up. Now, you're looking for new work. And, perhaps, a means of getting revenge. |
 
 ### Determine Name
 Any interesting character should have an interesting name. Whether you set a name or personality first, is entirely up to you. Although, you might prefer to delay this step until much later, once you've determined the other aspects of your character. Whichever you find easier is fine. 
