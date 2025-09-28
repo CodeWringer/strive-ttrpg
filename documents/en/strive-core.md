@@ -120,8 +120,7 @@
     - [Defense Stunts](#defense-stunts)
     - [Cover](#cover)
     - [Speed aids Defense](#speed-aids-defense)
-  - [Tensions Rise](#tensions-rise)
-    - [Momentum](#momentum)
+  - [Momentum](#momentum)
   - [Throwing](#throwing)
     - [Throwing-Distance](#throwing-distance)
     - [Throwing-Accuracy](#throwing-accuracy)
@@ -1492,12 +1491,7 @@ What speed exactly that is, depends heavily on circumstance. As always, the **GM
 > 
 > In a medieval fantasy setting, even just someone in a full sprint may be fast enough to throw off an archer's aim. Someone on horse back, riding at speed may be very hard to hit with an arrow or melee weapon. 
 
-## Tensions Rise
-As victories mount, so too will resistance. As combat or other tense situations progress, two resources - Momentum and Hostility - rise and fall. 
-
-When the **PCs** enter combat, or the **GM** decides another type of situation warrants it, Momentum and Hostility become available. 
-
-### Momentum
+## Momentum
 Momentum is a resource that benefits **PCs**. It ranges from `-20` to `+20` and always starts at `0`. As the **PCs** make progress, they gain Momentum and as they suffer setbacks, they lose it. It is a resource that represents the **PCs** superiority - or the inverse - and is expected to be constantly in flux, like in a tug-of-war. 
 
 When Momentum reaches `+18`, **Heroic Acts** become available. Inversely, when Momentum reaches `-18`, **Desperate Measures** become available. Any available Heroic Act and Desperate Measure may be enacted the moment they become available. 
