@@ -2190,16 +2190,16 @@ The following is a list of all [Traits](#traits) of the core rules.
 ### Warcrobat
 Combining agility with deadliness, elevating mere skill at arms to an elegant art. 
 
-**Prerequisites**: [Acrobatics](#acrobatics-agistr) level `3+` and a [weapon skill](#weapon--weapon-type---attribute-) at level `3+`. Costs `30` [XP](#experience-points-xp). 
+**Prerequisites**: [Acrobatics](#acrobatics-agistr) level `3+` and a [weapon skill](#weapon--weapon-type---attribute-) at level `3+`. Costs `30` [XP](#experience-points-xp) to unlock. 
 
 Adds the following Expertises to [Acrobatics](#acrobatics-agistr):
 
-| Name                 | AP | **Ob**      | Effect(s)          | Condition(s) |
-| -------------------- | -- | ----------- | ------------------ | ------------ |
-| Vault & Jab          | 2  | Opposed - 1 | Vault over an enemy, placing yourself directly behind them, and strike them with a weapon, for half (RU) of its damage and pushing them back `3'/1m`. | / |
-| Bounce Back          | /  | /           | Reaction: When knocked down immediately get back up, at no AP cost. You must not be wearing armor. | / |
-| Area Evasion         | /  | /           | Passive/Reaction: When succeeding a defense test against an [aoe](#area-of-effect-aoe), you suffer only 1/4th (RU) of the damage. | / |
-| Shield Breaker       | /  | /           | Passive: You know to exploit the lethargy of shields and can circumvent their defensive bonuses. Against you, shields always count as [overwhelmed](#flanking)! | / |
+| Name                 | AP | **Ob**      | Effect(s)          |
+| -------------------- | -- | ----------- | ------------------ |
+| Vault & Jab          | 2  | Opposed - 1 | Vault over an enemy, placing yourself directly behind them, and strike them with a weapon, for half (RU) of its damage and pushing them back `3'/1m`. |
+| Bounce Back          | /  | /           | **Reaction**: When knocked down immediately get back up, at no [AP](#action-points-ap) cost. You must not be wearing armor. |
+| Area Evasion         | 1  | /           | **Reaction**: Suffer only half (RU) [aoe](#area-of-effect-aoe) damage. |
+| Shield Breaker       | /  | /           | **Passive**: You know to exploit the lethargy of shields and can circumvent their defensive bonuses. Against you, shields always count as [overwhelmed](#flanking)! |
 
 ## List of Titles of Renown
 The following is a list of all [Titles of Renown](#titles-of-renown) of the core rules, a special type of [Trait](#traits). 
