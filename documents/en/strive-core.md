@@ -41,7 +41,6 @@
     - [Skills](#skills)
       - [Skill Forking](#skill-forking)
       - [Learning Skills](#learning-skills)
-      - [Specialization Skills](#specialization-skills)
       - [Expertise](#expertise)
       - [Momentum Action](#momentum-action)
       - [Concentration](#concentration)
@@ -52,6 +51,8 @@
       - [Practice](#practice)
       - [Teaching](#teaching)
     - [Innate Abilities](#innate-abilities)
+    - [Traits](#traits)
+      - [Titles of Renown](#titles-of-renown)
   - [Personality](#personality)
     - [Ambition](#ambition)
     - [Aspiration](#aspiration)
@@ -199,8 +200,8 @@
     - [Craftsmanship Skills](#craftsmanship-skills)
       - [Artistry (Agi/Awar)](#artistry-agiawar)
       - [Cooking (Awar/Wit)](#cooking-awarwit)
-    - [Specializations](#specializations)
-      - [Warcrobatics (Agi/Awar)](#warcrobatics-agiawar)
+  - [List of Traits](#list-of-traits)
+    - [Warcrobat](#warcrobat)
   - [List of Conditions](#list-of-conditions)
     - [Berserk](#berserk)
     - [Burning](#burning)
@@ -609,18 +610,7 @@ Whenever asked to test a skill a **PC** does not yet *know*, it will be added or
 
 > A player is asked to test their character's [cooking](#cooking-awarwit) at **Ob** `2`. Their character lacks that skill and thus adds it at level `0` and marks it as a Learning Skill. Assuming their character has the corresponding Base Attributes at level `2` and `3`, they get to roll `2 + 3 = 5D6`. 
 
-[Forking](#skill-forking) Learning Skills into other [tests](#tests) is **not** allowed. But **forking** *into* [tests](#tests) of Learning Skills **is** allowed. [Specialization skills](#specialization-skills) *always* and *automatically* receive **forking** from their **prerequisite skills**. 
-
-#### Specialization Skills
-Some **Skills** can only be learned, if other *prerequisite* **skills** are known. Such **skills** represent a further direction of *specialization*, which can in some circumstances replace usage of one of the prerequisite **skills**, or provide a new set of [expertises](#expertise) to extend what the prerequisites were capable of. Furthermore, the prerequisites may be required to be known *at least* at a certain given level. Unless the prerequisite **skills** are *known* at that level, the specialization skill **cannot** be learned. 
-
-A **specialization skill** [advances](#advancing-skills) as any other **skill**. Their prerequisite **skills** do **not** [advance](#advancing-skills) along with the **specialization skill**. 
-
-For a [test](#tests), any prerequisite **skills** are *always automatically* [forked](#skill-forking) into the [test](#tests). 
-
-> A character knows skill A and skill B. These are prerequisite skills for skill C, which the character has just begun learning and has at level 0. 
->
-> For a test of skill C, they get to roll `+2D6` from their prerequisite skills.
+[Forking](#skill-forking) Learning Skills into other [tests](#tests) is **not** allowed. But **forking** *into* [tests](#tests) of Learning Skills **is** allowed. 
 
 #### Expertise
 **Skills** can offer **Expertises**, which further define what the **skill** may be used for. An **Expertise** is either a *passive* [boon](#boons--penalties) or an *active* **action**, with effects that apply when used. Many Expertises will be most useful in combat scenarios, but you are encouraged to find uses for them outside of combat! 
@@ -730,6 +720,24 @@ Especially for animals and monsters, Innate Abilities represent natural weapons,
 An Innate Ability **cannot** be learned through regular means. Only a **GM** may decide whether a character may acquire such an ability. 
 
 Even **PC**s might receive Innate Abilities, based on their chosen ancestry, or through events that unfold during play.
+
+### Traits
+A Trait is an entirely passive characteristic, that may grant access to unique abilities, affect other abilities of the character or grant an advantage in certain narrative situations. 
+
+Traits may be inherent to a character, based on their ancestry and background, may be awarded by Skills, purchased from the [list of Traits](#list-of-traits) or awarded through events in the story.
+
+Unlike [Skills](#skills), it is **not possible** to test Traits. 
+
+#### Titles of Renown
+As the **PCs** adventure, they are bound to eventually achieve great and terrible things. When they do, they may be rewarded with a **Title of Renown**, which, as a Trait, can award them certain [boons and penalites](#boons--penalties). All Titles of Renown are granted by the **GM**, when they deem it deserved. 
+
+Titles of Renown are great achievements. They should not be handed out, lightly. They're both a testament to the **PCs'** deeds, as well as their reputation! 
+
+> In a world that features vicious little green-skinned humanoids, called, *Goblins*, if the **PCs** were to slay *a lot* of them, they may be awarded the *Goblin Slayer* Title. Henceforth, their reputation preceeds them. They will find it easier to intimidate and scare Goblins. Even just the mere presence of the **PCs** may send a whole tribe of Goblins running for their lives, thus quickly resolving any threat those creatures may have been to the nearby village. 
+
+Titles of Renown can also be used to declare a character an expert in a certain field of knowledge. Having researched long lost lore on an obscure subject may grant them the *Lorekeeper of X* title, where *X* is the subject they researched. 
+
+No matter how much a **PC** adventures, there is a limit to how much of a reputation they can build. A **PC** may hold at most `5` Titles of Renown. When they are granted another, they may choose to reject it, or replace one of their existing Titles with it. After all, at the end of the day, the people won't remember every single deed of a great hero or villain. And so, old deeds - and their Title - fade into obscurity. 
 
 ## Personality
 All **PC**s have a **personality**, which is an expression of their [personality traits](#personality-traits), [ambition](#ambition), [aspirations](#aspiration) and [reactions](#reaction). 
@@ -2168,22 +2176,22 @@ The boons from meals do not stack. Eating a second meal will have it override al
 | ----- | ----------------------- | ---------------------- | ----------------------------- | --------------------------- |
 | 4     | Spiked Your Food        | All *other* **PCs** reduce their [Exhaustion](#exhaustion) by `-2`. Decreases Momentum by `-10`. | All *other* **PCs** reduce their [Exhaustion](#exhaustion) by `-5` and they gain `+5` [Temporary HP](#temporary-hit-points), but also suffer `+1` [Poisoned](#poisoned). Increases Momentum by `+15`. | Spiked Your Food A LOT |
 
-### Specializations
-These skills always require other skills to be **known** at a given level or at least at level 1, before they can be learned. 
+## List of Traits
+The following is a list of all [Traits](#traits) of the core rules. 
 
-Additionally, it may be impossible to learn these without a teacher, at the **GM**'s discretion.
-
-#### Warcrobatics (Agi/Awar)
+### Warcrobat
 Combining agility with deadliness, elevating mere skill at arms to an elegant art. 
 
-Requires knowing [Acrobatics](#acrobatics-agistr) and a [weapon skill](#weapon--weapon-type---attribute-), each at least at level 3. 
+Prerequisites: [Acrobatics](#acrobatics-agistr) level `3+` and a [weapon skill](#weapon--weapon-type---attribute-) at level `3+`. Costs `30` [XP](#experience-points-xp). 
 
-| Level | Name                 | AP | **Ob**      | Effect(s)          | Condition(s) |
-| ----- | -------------------- | -- | ----------- | ------------------ | ------------ |
-| 0     | Vault & Jab          | 2  | Opposed - 1 | Vault over an enemy, placing yourself directly behind them, and strike them with a weapon, for half (RU) of its damage and pushing them back `3'/1m`. | / |
-| 1     | Bounce Back          | /  | /           | Reaction: When knocked down immediately get back up, at no AP cost. You must not be wearing armor. | / |
-| 1     | Area Evasion         | /  | /           | Passive/Reaction: When succeeding a defense test against an [aoe](#area-of-effect-aoe), you suffer only 1/4th (RU) of the damage. | / |
-| 3     | Shield Breaker       | /  | /           | Passive: You know to exploit the lethargy of shields and can circumvent their defensive bonuses. Against you, shields always count as [overwhelmed](#flanking)! | / |
+Adds the following Expertises to [Acrobatics](#acrobatics-agistr):
+
+| Name                 | AP | **Ob**      | Effect(s)          | Condition(s) |
+| -------------------- | -- | ----------- | ------------------ | ------------ |
+| Vault & Jab          | 2  | Opposed - 1 | Vault over an enemy, placing yourself directly behind them, and strike them with a weapon, for half (RU) of its damage and pushing them back `3'/1m`. | / |
+| Bounce Back          | /  | /           | Reaction: When knocked down immediately get back up, at no AP cost. You must not be wearing armor. | / |
+| Area Evasion         | /  | /           | Passive/Reaction: When succeeding a defense test against an [aoe](#area-of-effect-aoe), you suffer only 1/4th (RU) of the damage. | / |
+| Shield Breaker       | /  | /           | Passive: You know to exploit the lethargy of shields and can circumvent their defensive bonuses. Against you, shields always count as [overwhelmed](#flanking)! | / |
 
 ## List of Conditions
 The following is a list of all [conditions](#condition) of the core rules. 
