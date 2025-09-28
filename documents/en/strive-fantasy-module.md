@@ -1136,9 +1136,9 @@ A psionic awareness grants access to supernatural abilities beyond those of mere
 The psion may choose how much they wish to open up to The Veil. This is represented by their Openness, abbreviated as **OPN**. The OPN they choose may be at most their level in Psionics. 
 
 * Obvious: The psion's eyes glow with the inscrutable light of the stars, when they use their psionic abilities.
-* [Prerequisites](./strive-core.md#specialization-skills): 
-  * Wit 5 OR innate.
-  * Arcana 5 OR innate.
+* Prerequisites:
+  * Wit `5+` OR innate.
+  * Arcana `5+` OR innate.
   * An event that causes a psychic awakening. Consult your **GM**. 
 
 | Level | Name                 | AP | Distance        | Ob                              | Veil Degradation | Effect(s)                      |
