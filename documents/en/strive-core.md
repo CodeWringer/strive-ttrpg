@@ -202,6 +202,14 @@
       - [Cooking (Awar/Wit)](#cooking-awarwit)
   - [List of Traits](#list-of-traits)
     - [Warcrobat](#warcrobat)
+  - [List of Titles of Renown](#list-of-titles-of-renown)
+    - [Heart of Stone](#heart-of-stone)
+    - [Hero of Many Victories](#hero-of-many-victories)
+    - [Loremaster of X](#loremaster-of-x)
+    - [Monster Hunter](#monster-hunter)
+    - [Quite The Mercenary](#quite-the-mercenary)
+    - [Savior Of The People](#savior-of-the-people)
+    - [Zealot](#zealot)
   - [List of Conditions](#list-of-conditions)
     - [Berserk](#berserk)
     - [Burning](#burning)
@@ -2182,7 +2190,7 @@ The following is a list of all [Traits](#traits) of the core rules.
 ### Warcrobat
 Combining agility with deadliness, elevating mere skill at arms to an elegant art. 
 
-Prerequisites: [Acrobatics](#acrobatics-agistr) level `3+` and a [weapon skill](#weapon--weapon-type---attribute-) at level `3+`. Costs `30` [XP](#experience-points-xp). 
+**Prerequisites**: [Acrobatics](#acrobatics-agistr) level `3+` and a [weapon skill](#weapon--weapon-type---attribute-) at level `3+`. Costs `30` [XP](#experience-points-xp). 
 
 Adds the following Expertises to [Acrobatics](#acrobatics-agistr):
 
@@ -2192,6 +2200,62 @@ Adds the following Expertises to [Acrobatics](#acrobatics-agistr):
 | Bounce Back          | /  | /           | Reaction: When knocked down immediately get back up, at no AP cost. You must not be wearing armor. | / |
 | Area Evasion         | /  | /           | Passive/Reaction: When succeeding a defense test against an [aoe](#area-of-effect-aoe), you suffer only 1/4th (RU) of the damage. | / |
 | Shield Breaker       | /  | /           | Passive: You know to exploit the lethargy of shields and can circumvent their defensive bonuses. Against you, shields always count as [overwhelmed](#flanking)! | / |
+
+## List of Titles of Renown
+The following is a list of all [Titles of Renown](#titles-of-renown) of the core rules, a special type of [Trait](#traits). 
+
+### Heart of Stone
+> They should have died in that moment! I saw them get hit! But they merely grunted with discomfort!
+
+**Prerequisites**: Survive an attack only because you have [Temporary HP](#temporary-hit-points). 
+
+Every time you earn [Temporary HP](#temporary-hit-points), you earn `+5` more!
+
+### Hero of Many Victories
+> With you on our side, the battle's as good as won!
+
+**Prerequisites**: Finish `3` combat encounters through the use of [Heroic Acts](#momentum).
+
+Every combat you enter starts your side with `+10` [Momentum](#momentum). 
+
+### Loremaster of X
+> What do you wish to know? Oh, yes, I do remember reading about that. I'll gladly explain it all to you in excruciating detail. 
+
+**Prerequisites**: Researched obscure or forgotten lore about a particular subject. 
+
+Replace *X* with the subject you're knowledgeable about. You know *everything* about this topic. 
+
+### Monster Hunter
+> You should *see* my trophy wall - there isn't a beast's head I haven't collected!
+
+**Prerequisites**: Hunt at least `3` very dangerous beasts and take their trophies. 
+
+When in combat with a non-sapient creature you have defeated before, you may, once in that combat encounter, activate the following ability.
+
+| Name                 | AP | **Ob**      | Effect(s)          | Condition(s) |
+| -------------------- | -- | ----------- | ------------------ | ------------ |
+| Collect The Trophy   | /  | /           | [Mark](#marked) a **ST** and immediately make a free attack against it, with `+1` [Compensation Point](#compensation-points). | / |
+
+### Quite The Mercenary
+> How much? I'll pay anything, I know you're good for it!
+
+**Prerequisites**: Successfully complete at least `3` deeply immoral jobs. 
+
+You find it much easier to haggle for better payment conditions with potential contractors and to intimidate those who know your name. 
+
+### Savior Of The People
+> Our eternal gratitude is yours! Oh, if only we could properly repay you...
+
+**Prerequisites**: Saved an entire community from certain doom.
+
+The people you saved will gladly help you in all your endeavours, if they can. You will find food and bedding for free and may even be gifted the odd family heirloom as thanks. 
+
+### Zealot
+> Unfazed by heresy, unbowed by adversity, unfaltering in my resolve - I am the torch in the dark!
+
+**Prerequisites**: Proved your conviction through incredible acts of faith. And eliminated all opposition to the faith you come across. 
+
+Your [Self-Control](#self-control-toughtough) is increased by `+1`, but you suffer `+1` **Ob** when trying to restrain yourself in the face of enemies of your faith. 
 
 ## List of Conditions
 The following is a list of all [conditions](#condition) of the core rules. 
