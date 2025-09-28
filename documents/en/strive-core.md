@@ -181,7 +181,7 @@
     - [Knowledge Skills](#knowledge-skills)
       - [Architecture (Awar/Wit)](#architecture-awarwit)
       - [Archeology (Awar/Wit)](#archeology-awarwit)
-      - [Creature-Lore \<category?\> (Awar/Wit)](#creature-lore-category-awarwit)
+      - [Creature-Lore \< category \> (Awar/Wit)](#creature-lore--category--awarwit)
       - [Geography (Awar/Wit)](#geography-awarwit)
       - [Geology (Awar/Wit)](#geology-awarwit)
       - [History (Wit/Wit)](#history-witwit)
@@ -1494,7 +1494,7 @@ When the **PCs** enter combat, or the **GM** decides another type of situation w
 ### Momentum
 Momentum is a resource that benefits **PCs**. It ranges from `-20` to `+20` and always starts at `0`. As the **PCs** make progress, they gain Momentum and as they suffer setbacks, they lose it. It is a resource that represents the **PCs** superiority - or the inverse - and is expected to be constantly in flux, like in a tug-of-war. 
 
-When Momentum reaches `+18`, **Heroic Acts** become available. Inversely, when Momentum reaches `-18`, **Desperate Measures** become available. 
+When Momentum reaches `+18`, **Heroic Acts** become available. Inversely, when Momentum reaches `-18`, **Desperate Measures** become available. Any available Heroic Act and Desperate Measure may be enacted the moment they become available. 
 
 A Heroic Act always has a counter-part - a Desperate Measure. This pairing is called a [Momentum Action](#momentum-action). 
 
@@ -1515,7 +1515,7 @@ A Heroic Act always has a counter-part - a Desperate Measure. This pairing is ca
 | Tactical Repositioning <br><img src="../../img/heroic_act_tactical-repositioning.svg" width="64px" height="64px"></img>| All **PCs** may immediately re-position, moving up to `30'/10m`, without triggering any [Opportunity Attacks](#attacks-of-opportunity). Decreases Momentum by `-10`. | All **PCs** may immediately re-position, moving up to `30'/10m`, without triggering any [Opportunity Attacks](#attacks-of-opportunity). However, up to three foes immediately gain `+1`, or one foe `+3` [AP](#action-points-ap). Increases Momentum by `+5`. | Desperate Repositioning <br><img src="../../img/desperate_measure_desperate-repositioning.svg" width="64px" height="64px"></img> |
 | Unyielding <br><img src="../../img/heroic_act_unyielding.svg" width="64px" height="64px"></img>| A **PC** of choice gets `+1` [Compensation Point](#compensation-points) for all defense tests and may freely [Counter-Attack](#defense-stunts) all attacks directed against them or an adjacent ally, for `1` round. Decreases Momentum by `-10`. | Until the end of combat, a chosen **PC** may freely [Counter-Attack](#defense-stunts) all attacks directed against them or an adjacent ally. However, they suffer `+1` **Ob** for all attack tests. Increases Momentum by `+10`. | Cornered <br><img src="../../img/desperate_measure_cornered.svg" width="64px" height="64px"></img> |
 | Get Off Me!             | All foes adjacent to a chosen **PC** are pushed back `6'/2m`. That **PC** may then move up to `12'/4m`, without triggering [Opportunity Attacks](#attacks-of-opportunity). Decreases Momentum by `-10`. | A chosen **PC** switches places with an adjacent foe, and may then move up to `12'/4m`. Only the foe they switched with may react and launch an immediate free [Counter-Attack](#defense-stunts), with `+1` [Compensation Point](#compensation-points), but cannot prevent the **PC** from moving. Increases Momentum by `+10`. | Outta My Way! |
-| Toughened Up            | All **PCs** gain up to `10` [Temporary HP](#temporary-hit-points), limited to them having at most this amount. All foes lose `1` [AP](#action-points-ap) and suffer `+1` [Exhaustion](#exhaustion). Decreases Momentum by `-10`. | All **PCs** gain `20` [Temporary HP](#temporary-hit-points), limited to them having at most this amount, but also suffer `+1` [Exhaustion](#exhaustion). Increases Momentum by `+5`. | Scarred Up |
+| Toughened Up            | All **PCs** gain up to `10` [Temporary HP](#temporary-hit-points), limited to them having at most this amount. All foes lose `1` [AP](#action-points-ap) and suffer `+1` [Exhaustion](#exhaustion). Decreases Momentum by `-15`. | All **PCs** gain `20` [Temporary HP](#temporary-hit-points), limited to them having at most this amount, but also suffer `+1` [Exhaustion](#exhaustion). Increases Momentum by `+10`. | Scarred Up |
 
 ## Throwing
 Throwing things is a special type of action, that follows the rules outlined below. 
@@ -1857,7 +1857,7 @@ Performing acrobatic feats, such as jumping, tumbling and climbing, without inju
 | ----- | -------------------- | -- | ------- | ------------------ | ------------ |
 | 1     | Deft Evasion         | /  | /       | **Passive**: While not wearing any [armor](#armor) and not wielding a shield of bulk `2` or more, gain `+1` [compensation point](#compensation-points) to any [defense test](#defending) made using this skill. | / |
 | 2     | Wind Out Of It       | 1  | 2       | When hit by an attack, wind out of the hit and suffer only half the damage (RU). | / |
-| 3     | Bob, Weave, Jab      | 1  | Opposed | **Reaction**: When succeeding a defense test, launch a [Counter-Attack](#defense-stunts) against the enemy who attacked you, without any penalties to damage and without suffering any [Exhaustion](#exhaustion)! | / |
+| 3     | Bob, Weave, Jab      | 1  | /       | **Reaction**: When succeeding a defense test, launch a [Counter-Attack](#defense-stunts) against the enemy who attacked you, without any penalties to damage and without suffering any [Exhaustion](#exhaustion)! | / |
 
 #### Berserking (Tough/Tough)
 Whether as a well-honed skill and way of life, or through a disappointing childhood of misery and pain, berserking is a talent for fighting angrily and recklessly. It allows a fighter to keep fighting at surprising strength, even when wounded. 
@@ -1867,11 +1867,11 @@ However, the price for this strength is steep. The chance of death is greatly in
 | Level | Name                 | AP | **Ob**  | Effect(s)          | Condition(s) |
 | ----- | -------------------- | -- | ------- | ------------------ | ------------ |
 | 0     | Reckless Assault     | 1  | /       | Deal half of the damage (RU) as additional damage on your next successful attack. Suffer a `-1D` penalty to all [defense tests](#defending) until the start of your next turn. | / |
-| 1     | Grit Your Teeth      | 0  | /       | **Reaction**: Upon suffering an [injury](#injury), gain an *additional* [grit point](#grit-points), but at the cost of `1` point of [Exhaustion](#exhaustion)! | Not at Exhaustion limit. |
+| 1     | Grit Your Teeth      | 0  | /       | **Reaction**: Upon suffering an [Injury](#injury), gain an *additional* [grit point](#grit-points), but at the cost of `1` point of [Exhaustion](#exhaustion)! | Not at Exhaustion limit. |
 | 1     | Hit me? Hit you!     | 1  | /       | **Reaction**: Upon suffering damage, immediately launch a counter-attack and if successful, add half (RU) of the damage that was dealt to you as Bludgeoning damage. Suffer `+1` point of [Exhaustion](#exhaustion)! | Not at Exhaustion limit. |
 | 1     | The Blood Quickens!  | 1  | /       | Reduce your [Exhaustion](#exhaustion) by `1` for every point in [Bleeding](#bleeding) you currently have. | / |
-| 2     | Pain is Strength     | 3  | Opposed | Perform an attack against a **ST**. For every active [injury](#injury) you currently have, deal one extra `D6` of [Bludgeoning](#damage-types) damage. You suffer one point of [exhaustion](#exhaustion). | / |
-| 3     | Injury Collector     | 0  | 2       | **Reaction**: Upon suffering an [injury](#injury), with a successful test of this Expertise, remove all additional [penalties](#boons--penalties) (i. e. everything but the [HP](#hit-points-hp) malus) from the [injury](#injury). | / |
+| 2     | Pain is Strength     | 3  | Opposed | Perform an attack against a **ST**. For every active [Injury](#injury) you currently have, deal one extra `D6` of [Bludgeoning](#damage-types) damage. You suffer one point of [exhaustion](#exhaustion). | / |
+| 3     | Injury Collector     | 0  | 2       | **Reaction**: Upon suffering an [Injury](#injury), with a successful test of this Expertise, remove all additional [penalties](#boons--penalties) (i. e. everything but the [HP](#hit-points-hp) malus) from the [Injury](#injury). | / |
 
 | Level | <img src="../../img/heroic_acts.svg" width="64px" height="64px"></img> | Heroic Act Description | Desperate Measure Description | <img src="../../img/desperate_measures.svg" width="64px" height="64px"></img> |
 | ----- | ----------------------- | ---------------------- | ----------------------------- | --------------------------- |
@@ -1924,6 +1924,10 @@ For any ally next to you, who's also using a shield, you both gain **+1D** on yo
 | ----- | -------------------- | -- | ------- | ------------------ | ------------ |
 | 2     | Shield Slam          | 2  | Opposed | Perform a [single-target](#single-target-st) melee attack to knock your opponent down with your shield. | Using shield. |
 
+| Level | <img src="../../img/heroic_acts.svg" width="64px" height="64px"></img> | Heroic Act Description | Desperate Measure Description | <img src="../../img/desperate_measures.svg" width="64px" height="64px"></img> |
+| ----- | ----------------------- | ---------------------- | ----------------------------- | --------------------------- |
+| 4     | Launch! | An adjacent ally jumps onto your shield, as you brace yourself and then, in a fluid motion, launch them behind you. This way, your ally may travel up to `N * 3'/1m`, where *N* is your [Strength](#strength-str), without provoking [Attacks of Opportunity](#attacks-of-opportunity). If they land on or near a foe, they may make an immediate free attack against that foe. Decreases Momentum by `-15`. | An adjacent ally jumps onto your shield, as you brace yourself and then, with all your might, in a fluid motion, launch them behind you. This way, your ally may travel up to `N * 6'/2m`, where *N* is your [Strength](#strength-str), without provoking [Attacks of Opportunity](#attacks-of-opportunity). If they land on or near a foe, they may make an immediate free attack against that foe, with `+1` [Compensation Point](#compensation-points). *However*, **you** suffer `+3` [Exhaustion](#exhaustion). Increases Momentum by `+15`. | Strained Launch |
+
 #### Trapping (Awar/Wit)
 Setting traps in places where they're difficult to detect and the ability to disarm them. Used to set traps such as bear traps, pits filled with spikes, land mines and so on.
 
@@ -1950,7 +1954,7 @@ Sometimes, your own body is your greatest weapon. Fists and feet can cause a sur
 
 | Level | <img src="../../img/heroic_acts.svg" width="64px" height="64px"></img> | Heroic Act Description | Desperate Measure Description | <img src="../../img/desperate_measures.svg" width="64px" height="64px"></img> |
 | ----- | ----------------------- | ---------------------- | ----------------------------- | --------------------------- |
-| 4     | Hammer and Anvil        | All **PCs** may immediately attack one foe, dealing `strength * 3` points of Bludgeoning damage and force-moving their foe by `strength * 3'/1m`. Multiple **PCs** may attack the same foe, each increasing the distance. Decreases Momentum by `-15`. | A **PC** may immediately attack one adjacent foe, dealing `strength * 3` points of Bludgeoning damage and force moving their foe by `strength * 6'/2m`, but also pushing themself in the opposite direction by the same distance. Increases Momentum by `+10`. | All Anvil |
+| 4     | Hammer and Anvil        | All **PCs** may immediately attack one foe, dealing `strength * 3` points of Bludgeoning damage and force-moving their foe by `strength * 3'/1m`. Multiple **PCs** may attack the same foe, each increasing the distance. Decreases Momentum by `-15`. | A **PC** may immediately attack one adjacent foe, dealing `strength * 3` points of Bludgeoning damage and force moving their foe by `strength * 6'/2m`, but also pushing themself in the opposite direction by the same distance. Increases Momentum by `+15`. | All Anvil |
 
 #### Weapon < [weapon type](#weapon-types) > (< attribute >)
 Expertise at handling a close-quarters or ranged weapon of a specific [weapon type](#weapon-types). 
@@ -2030,15 +2034,19 @@ An eye for historic detail, the ability to date such things and the capacity to 
 | ----- | -------------------- | -- | ------- | ------------------ | ------------ |
 | 2     | Look For Curios      | 1  | 2       | Look around for curios - things from a bygone age - and if successful, then the number of hits past the Ob you score, determine its significane and worth. Can only be used in places lost to time and only once per location. Your **GM** will determine the specifics in terms of money value and [bulk](#bulk). |  |
 
-#### Creature-Lore <category?> (Awar/Wit)
+#### Creature-Lore < category > (Awar/Wit)
 Knowledge about a specific type/family of creature. You can recollect knowledge regarding the strengths and weaknesses, as well as behavior, origin and occurrence. 
 
 Types/families are the broad terms that describe multiple specific creatures as sharing many similarities. These will be specific to the world and setting and examples could be such as "undead", "human", "abomination", "beast" and so on.
 
 | Level | Name                 | AP | **Ob**  | Effect(s)          | Condition(s) |
 | ----- | -------------------- | -- | ------- | ------------------ | ------------ |
-| 1     | I Know Your Weakness | /  | /       | Passive/Reaction: Every creature has weak-points. You know how to aim for them and deal `+1D4` points of your primary damage on a successful attack, *if* this is a creature of the category you are familar with. |  |
-| 2     | I Know Your Strength | /  | /       | Passive/Reaction: When you are hit by a creature you are familiar with, you suffer `1D4` fewer points of their primary damage. Their effective damage against you cannot be reduced to less than `1` by this. |  |
+| 1     | I Know Your Weakness | /  | /       | **Passive**: Every creature has weak-points. You know how to aim for them and deal `+4` points of Pure damage on a successful attack, *if* this is a creature of the category you are familar with. |  |
+| 2     | I Know Your Strength | 1  | /       | **Reaction**: When you are hit by a creature you are familiar with, you suffer `1D10` fewer points of damage, *if* this is a creature of the category you are familar with. Their effective damage against you cannot be reduced to less than `1` by this. |  |
+
+| Level | <img src="../../img/heroic_acts.svg" width="64px" height="64px"></img> | Heroic Act Description | Desperate Measure Description | <img src="../../img/desperate_measures.svg" width="64px" height="64px"></img> |
+| ----- | ----------------------- | ---------------------- | ----------------------------- | --------------------------- |
+| 3     | No You Don't! | Until the end of combat, as a reaction once per round, **you** may interrupt a single chosen foe's current action, at the cost of `1` [AP](#action-points-ap). The foe's action never comes to pass, yet their [AP](#action-points-ap) are wasted. *However*, you can only choose foes of the category you are familiar with. Decreases Momentum by `-30`. | Until the end of combat, as a reaction once per round, **you** may redirect *any* single foe's current action, at no [AP](#action-points-ap) cost. The foe's action **must** target **you**, but they suffer `+1` **Ob**. *However*, you can only choose foes of the category you are familiar with. Increases Momentum by `+15`. | Hey! Try Me! |
 
 #### Geography (Awar/Wit)
 Knowledge about the geography of the world. Used to recall the location of places in relation to each other. 
@@ -2055,7 +2063,7 @@ Specific historical knowledge should be noted.
 
 | Level | <img src="../../img/heroic_acts.svg" width="64px" height="64px"></img> | Heroic Act Description | Desperate Measure Description | <img src="../../img/desperate_measures.svg" width="64px" height="64px"></img> |
 | ----- | ----------------------- | ---------------------- | ----------------------------- | --------------------------- |
-| 4     | I Have Read Your Doom | Recite, with zealous ferocity, ancient lore that strikingly paints the doom of a single, chosen foe. *If* they are a sentient being that can understand you, they become [Terrified](#terrified) of you, for `1` round. *If not*, then your calamitous prognostications inspire your allies. All *other* **PCs** and allies gain `+1` [Compensation Point](#compensation-points) to their next test, until the end of the round. Decreases Momentum by `-20`. | Recite, with zealous ferocity, ancient lore that strikingly paints the doom of **all**. *Any* sentient being that can understand you and who is not an ally, becomes [Terrified](#terrified) of you, for `1` round. *However*, your calamitous prognostications dampen your allies' spirits. They suffer `+1` **Ob** for their next test, until the end of the round. Increases Momentum by `+10`. | Doom Is Upon Us! |
+| 3     | I Have Read Your Doom | Recite, with zealous ferocity, ancient lore that strikingly paints the doom of a single, chosen foe. *If* they are a sentient being that can understand you, they become [Terrified](#terrified) of you, for `1` round. *If not*, then your calamitous prognostications inspire your allies. All *other* **PCs** and allies gain `+1` [Compensation Point](#compensation-points) to their next test, until the end of the round. Decreases Momentum by `-20`. | Recite, with zealous ferocity, ancient lore that strikingly paints the doom of **all**. *Any* sentient being that can understand you and who is not an ally, becomes [Terrified](#terrified) of you, for `1` round. *However*, your calamitous prognostications dampen your allies' spirits. They suffer `+1` **Ob** for their next test, until the end of the round. Increases Momentum by `+10`. | Doom Is Upon Us! |
 
 #### Language < language > (Wit/Wit)
 Speaking and understanding a specific language. The language in question must be noted. 
