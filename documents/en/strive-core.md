@@ -207,8 +207,11 @@
     - [Hero of Many Victories](#hero-of-many-victories)
     - [Loremaster of X](#loremaster-of-x)
     - [Monster Hunter](#monster-hunter)
+    - [Paragon](#paragon)
+    - [Pugilist](#pugilist)
     - [Quite The Mercenary](#quite-the-mercenary)
     - [Savior Of The People](#savior-of-the-people)
+    - [Wanted](#wanted)
     - [Zealot](#zealot)
   - [List of Conditions](#list-of-conditions)
     - [Berserk](#berserk)
@@ -2236,6 +2239,20 @@ When in combat with a non-sapient creature you have defeated before, you may, on
 | -------------------- | -- | ----------- | ------------------ | ------------ |
 | Collect The Trophy   | /  | /           | [Mark](#marked) a **ST** and immediately make a free attack against it, with `+1` [Compensation Point](#compensation-points). | / |
 
+### Paragon
+> Just yesterday alone, they rescued a kitten from a tree, helped me do my taxes and then bagged a dangerous wanted criminal!
+
+**Prerequisites**: Apprehended a dangerous criminal and stood as a beacon of morality in at least one community that was plagued by the criminal. 
+
+The local authorities will be much more open to the idea of assisting you in your own endeavours. 
+
+### Pugilist
+> Ey you! I don' much like de cut o' yo' jib! I think I'mma change dat!
+
+**Prerequisites**: Constantly starting tavern/bar brawls. Get banned from at least `3` taverns/bars by starting brawls at them. 
+
+`+1` to [Unarmed Combat](#unarmed-combat-agistr), but only when fighting in a tavern/bar. 
+
 ### Quite The Mercenary
 > How much? I'll pay anything, I know you're good for it!
 
@@ -2249,6 +2266,13 @@ You find it much easier to haggle for better payment conditions with potential c
 **Prerequisites**: Saved an entire community from certain doom.
 
 The people you saved will gladly help you in all your endeavours, if they can. You will find food and bedding for free and may even be gifted the odd family heirloom as thanks. 
+
+### Wanted
+> Yeah, I got a bounty in over 17 places you've never even heard of. So don't mess with me!
+
+**Prerequisites**: You've become a wanted criminal. 
+
+While you should avoid the authorities, you've some clout with the criminal underworld. You may be approached with job offers of a shady nature, or a way to clear your name. `+1` to [Stealth](#stealth-agiawar).
 
 ### Zealot
 > Unfazed by heresy, unbowed by adversity, unfaltering in my resolve - I am the torch in the dark!
