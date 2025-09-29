@@ -1,4 +1,21 @@
-- [Introduction](#introduction)
+# STRIVE Fantasy Module
+This is the module containing the rules enabling play in a medieval fantasy game world, which includes supernatural monsters and magic. Only the differences and additions to the core rules are included in this document. 
+
+This module is best suited for a medium fantasy setting. It introduces magic, which is a **powerful** tool, that comes with great risk. Mages who exert themselves too much may fail their spell cast, which results in a back-fire. But the likelihood of failure is manageable.
+
+The module introduces:
+* The [Arcana](#arcana-arc) attribute.
+* [Magic](#magic) rules.
+* Medieval/fantasy themed [armors](#armor), [shields](#shield-types), [general assets](#list-of-general-assets), [weapons](#weapon-types) and [skills](#lists-of-skills).
+
+There is a [compendium document](./strive-fantasy-game-masters-resource.md) reserved solely for the **GM**, containing additional resources for them to draw from.
+
+Version 10 (Playtest)
+
+# Table of Contents
+- [STRIVE Fantasy Module](#strive-fantasy-module)
+- [Table of Contents](#table-of-contents)
+- [Credits](#credits)
 - [Character](#character)
   - [Attributes](#attributes)
     - [Arcana \[Arc\]](#arcana-arc)
@@ -113,21 +130,10 @@
   - [List of Illnesses](#list-of-illnesses)
 - [Glossary](#glossary)
 
-Version 10 (Playtest)
+# Credits
+**Designer**: Nicolas 'Krubi' H.
 
-A role-playing game by Nicolas 'Krubi' H.
-
-# Introduction
-This is the module containing the rules enabling play in a medieval fantasy game world, which includes supernatural monsters and magic. Only the differences and additions to the core rules are included in this document. 
-
-This module is best suited for a medium fantasy setting. It introduces magic, which is a **powerful** tool, that comes with great risk. Mages who exert themselves too much may fail their spell cast, which results in a back-fire. But the likelihood of failure is manageable.
-
-The module introduces:
-* The [Arcana](#arcana-arc) attribute.
-* [Magic](#magic) rules.
-* Medieval/fantasy themed [armors](#armor), [shields](#shield-types), [general assets](#list-of-general-assets), [weapons](#weapon-types) and [skills](#lists-of-skills).
-
-There is a [compendium document](./strive-fantasy-game-masters-resource.md) reserved solely for the **GM**, containing additional resources for them to draw from.
+My two small, yet inexorable groups of playtesters, whose feedback has been invaluable, without whom this game would not be any where near where it is now and who keep me motivated!
 
 # Character
 New in this module, is the attribute [arcana](#arcana-arc), which governs a character's capacity for magic. 
@@ -1150,9 +1156,9 @@ A psionic awareness grants access to supernatural abilities beyond those of mere
 The psion may choose how much they wish to open up to The Veil. This is represented by their Openness, abbreviated as **OPN**. The OPN they choose may be at most their level in Psionics. 
 
 * Obvious: The psion's eyes glow with the inscrutable light of the stars, when they use their psionic abilities.
-* [Prerequisites](./strive-core.md#specialization-skills): 
-  * Wit 5 OR innate.
-  * Arcana 5 OR innate.
+* Prerequisites:
+  * Wit `5+` OR innate.
+  * Arcana `5+` OR innate.
   * An event that causes a psychic awakening. Consult your **GM**. 
 
 | Level | Name                 | AP | Distance        | Ob                              | Veil Degradation | Effect(s)                      |
