@@ -1,4 +1,21 @@
+# Introduction
+**STRIVE** is a table-top role-playing game (**TTRPG**), requiring a **game master** (**GM**) and at least one **player** to play and at its core, is about **emergent storytelling** and **tactical combat**. Players experience the **evolution** of their player character (**PC**) by defining convictions that **drive** them to action, based on the events they experience. In that way, players also **drive** the story forward and guide the evolution of the world. 
+
+Play itself works as a conversation, in which players tell the **GM** what their characters attempt to do and the **GM** determines what happens when they do. These rules outlined in this document and supplementary documents and dice are used to determine whether things play out as the players have planned. 
+
+**STRIVE** understands itself first and foremost as a rule system. *This* document is designed as an unobtrusive reference which you are expected to read once, and after that only open to quickly look up whatever rule you currently need to refamiliarize yourself with. The system is aimed at **GM**s who enjoy doing their own world-building or who want to bring a particular world they like to the table. As such, no setting or theme is imposed, so that you may choose your own. Of course, this implies that adaptability and extensibility are a key ingredient. You are expressly encouraged to hack the system, to make it fit whatever setting and theme you decide on. And if you'd like some guidance or inspiration along the way, one of the supplemental modules may provide what you seek. 
+
+The system is best suited for long-term "sandbox" style games, running indefinitely. One-shots are possible but may not provide the best experience, as several of the system's mechanics require breaks in play. More narrowly directed experiences are possible, but may require some shortcuts to be taken when it comes to *time* - how long it takes to recover from injuries and illnesses, how long it takes to craft and to practice, and so on. 
+
+On the spectrum of *narrative-driven*, *game-y* and *simulationist*, **STRIVE** aims for the region between *game-y* and *narrative-driven*, while leaning heavily towards *game-y*. It understands itself as a *game* and the rules contained herein will often reflect that by making broad abstractions and even some unrealistic assertions - all for the goal of keeping the game easier to learn and more fun to experience. 
+
+Most rules have a certain degree of vagueness to them. This is at least partially deliberate. The situations that can come up during play are simply too varied and numerous to be possible to completely cover with rules, without requiring epic tomes filled to the brim with highly specific rulings for highly specific situations. Instead, the game relies on the **GM** to arbitrate in most situations. The descriptions in the rules here should serve as a point of orientation for the **GM**. How *they* interpret the rules, is how the rules are to be understood. 
+
+Version 22 (Playtest)
+
+# Table of Contents
 - [Introduction](#introduction)
+- [Table of Contents](#table-of-contents)
   - [Tactical Combat](#tactical-combat)
   - [Character Evolution](#character-evolution)
 - [Credits](#credits)
@@ -241,21 +258,6 @@
     - [Multiple Single Target (MST)](#multiple-single-target-mst)
     - [Area of Effect (AoE)](#area-of-effect-aoe)
 - [Glossary](#glossary)
-
-Version 22 (Playtest)
-
-# Introduction
-**STRIVE** is a table-top role-playing game (**TTRPG**), requiring a **game master** (**GM**) and at least one **player** to play and at its core, is about **emergent storytelling** and **tactical combat**. Players experience the **evolution** of their player character (**PC**) by defining convictions that **drive** them to action, based on the events they experience. In that way, players also **drive** the story forward and guide the evolution of the world. 
-
-Play itself works as a conversation, in which players tell the **GM** what their characters attempt to do and the **GM** determines what happens when they do. These rules outlined in this document and supplementary documents and dice are used to determine whether things play out as the players have planned. 
-
-**STRIVE** understands itself first and foremost as a rule system. *This* document is designed as an unobtrusive reference which you are expected to read once, and after that only open to quickly look up whatever rule you currently need to refamiliarize yourself with. The system is aimed at **GM**s who enjoy doing their own world-building or who want to bring a particular world they like to the table. As such, no setting or theme is imposed, so that you may choose your own. Of course, this implies that adaptability and extensibility are a key ingredient. You are expressly encouraged to hack the system, to make it fit whatever setting and theme you decide on. And if you'd like some guidance or inspiration along the way, one of the supplemental modules may provide what you seek. 
-
-The system is best suited for long-term "sandbox" style games, running indefinitely. One-shots are possible but may not provide the best experience, as several of the system's mechanics require breaks in play. More narrowly directed experiences are possible, but may require some shortcuts to be taken when it comes to *time* - how long it takes to recover from injuries and illnesses, how long it takes to craft and to practice, and so on. 
-
-On the spectrum of *narrative-driven*, *game-y* and *simulationist*, **STRIVE** aims for the region between *game-y* and *narrative-driven*, while leaning heavily towards *game-y*. It understands itself as a *game* and the rules contained herein will often reflect that by making broad abstractions and even some unrealistic assertions - all for the goal of keeping the game easier to learn and more fun to experience. 
-
-Most rules have a certain degree of vagueness to them. This is at least partially deliberate. The situations that can come up during play are simply too varied and numerous to be possible to completely cover with rules, without requiring epic tomes filled to the brim with highly specific rulings for highly specific situations. Instead, the game relies on the **GM** to arbitrate in most situations. The descriptions in the rules here should serve as a point of orientation for the **GM**. How *they* interpret the rules, is how the rules are to be understood. 
 
 ## Tactical Combat
 First of all, STRIVE is **not** a wargame. It is not about coordinating large troop movements, supply lines or chains of command (although you can feature such things in your game if you like). 
