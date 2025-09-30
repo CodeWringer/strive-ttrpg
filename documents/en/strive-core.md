@@ -1258,25 +1258,25 @@ Note that even through a Quality level `1` Project, for which you needn't roll a
 #### Project Boosters
 During their adventures, or while perusing the market or library, **PCs** may find things that can boost the progress of their Project. These **Project Boosters** can be varied - schematics, specialized tools, a rare artefact, advice from a knowledgeable **NPC**, and so on. 
 
-These things can add progress to a Project or raise the base Quality level. How much they boost the Project, will be determined by the **GM**. A good baseline should be that a common booster adds `+10`, a rare adds `+30` and a legendary adds `+60`. But of course, these numbers are only suggestions. 
+These things can add progress to a Project or raise the base Quality level. How much they boost the Project, will be determined by the **GM**. A good baseline should be that a common booster adds `+10`, a rare adds `+30` and an enigmatic adds `+60`. But of course, these numbers are only suggestions. Boosters that increase base Quality level should be very rare and most valuable. Acquiring them should be an adventure of its own, or the reward for great deeds well performed. 
 
 Typically, Project Boosters are one-time use. Once they have been used to add progress to the Project, they cannot be used again. However, this is not a hard-set rule. Some things, like a magic cauldron or high-tech lab equipment may of course be used again, provided no narrative reasons forbid it. 
 
 #### Research Projects
-A Project can be about the research of knowledge. The progress required will depend on the degree of obscurity of the knowledge that you seek. 
+A Project can be about the research of knowledge, but not about mundane every-day things. You must visit various libraries, study dusty old tomes or comb countless digital archives, go on archeological digs and so forth. This is a task requiring substantial effort. 
 
-Unlike with normal Projects, you do not determine the Quality yourself. Instead, the **GM** will determine the level of obscurity of the knowledge you seek. That will then tell you how much effort it will be to acquire said knowledge. In the table below, the Milestones are listed as `M * P`, where *M* is the number of Milestones and *P* is the Progress Increment, per Milestone. The **Ob** noted is the **Ob** your Milestone tests will require. 
+For all Research Projects, the Progress Increment is `25` and the Time Increment is `6` Hours. The Quality level you achieve in the end dictates the degree of knowledge you learned about your subject. You may always try to gain even deeper understanding of your topic, by researching the same subject matter again. Your previous knowledge will accelerate further studies by the listed **Progress Bonus**.
 
-Since there is no Quality when it comes to research Projects, failing a Milestone test does not reduce any Quality, but instead causes you to suffer a **Setback**, which in turn increases the required progress by one Progress Increment. 
+As a prerequisite to begin your studies, you must have access to the number of research objects as listed below. This can be anything, from old scrolls to data sticks, from shattered pieces of ancient machinery to intact but completely alien devices and of course **NPCs** who hold knowledge they might be willing to share. 
 
-When you finish the research Project, you'll have the answers you seek and may gain the title "Loremaster of *X*", where you replace *X* with the subject you researched, at the **GM's** discretion. With this title, you are henceforth an expert on the subject matter. You know *everything* about the subject. 
+| Obscurity   | Quality Level | Progress Bonus | Research Objects | Description | 
+| ----------- | ------------- | -------------- | ---------------- | ----------- | 
+| Common      | 1 - 2         | /              | 0                | Common knowledge can be easily researched. Even so, it's not so common that everyone knows it already. It may still take some effort to find the right pieces of writing or piece together what you need from questioning several other people. |
+| Specialized | 3 - 4         | 2              | 1                | Only few individuals have deeper knowledge regarding the topic you seek to understand. Only few pieces of writing even make note of your topic. It will require substantial effort to track down sources of knowledge and then puzzle the pieces together. |
+| Obscure     | 5 - 6         | 5              | 2                | Barely anyone, if anyone at all, even knows of this esoteric subject. Tracking down anyone with knowledge will be a considerable challenge. And whatever writing exists, may be stowed away, hidden in private collections, not easily accessible and not easily parted with. And even if access to these sources of knowledge can be secured, making sense of it all will be a challenge. |
+| Lost        | 7 - 8         | 10             | 3                | No one alive still knows anything about this subject. Whatever writing may exist, is manifested in a long dead language, on a medium hidden in a remote and forgotten place. Even if you find this remnant of knowledge, how could you possibly make sense of it? |
 
-| Obscurity   | Milestones | Total Progress | Ob | Description | 
-| ----------- | ---------- | -------------- | -- | ----------- | 
-| Common      | 2 * 10     | 20             | 0  | Common knowledge can be easily researched. Even so, it's not so common that everyone knows it already. It may still take some effort to find the right pieces of writing or piece together what you need from questioning several other people. |
-| Specialized | 2 * 25     | 50             | 1  | Only few individuals have deeper knowledge regarding the topic you seek to understand. Only few pieces of writing even make note of your topic. It will require substantial effort to track down sources of knowledge and then puzzle the pieces together. |
-| Obscure     | 4 * 25     | 100            | 2  | Barely anyone, if anyone at all, even knows of this esoteric subject. Tracking down anyone with knowledge will be a considerable challenge. And whatever writing exists, may be stowed away, hidden in private collections, not easily accessible and not easily parted with. And even if access to these sources of knowledge can be secured, making sense of it all will be a challenge. |
-| Lost        | 6 * 50     | 300            | 3  | No one alive still knows anything about this subject. Whatever writing may exist, is manifested in a long dead language, on a medium hidden in a remote and forgotten place. Even if you find this remnant of knowledge, how could you possibly make sense of it? |
+When you finish the research Project, you'll have the answers you seek and may gain the title "Loremaster of *X* (degree)", where you replace *X* with the subject you researched and *degree* with the Quality level. 
 
 #### Invention Projects
 A Project can be about the invention of completely unique and new [Assets](#assets). The progress required will depend on the degree of complexity. 
@@ -1287,12 +1287,12 @@ Just as normal Projects, your invention Project has a Quality level. However, wh
 
 Unique to invention Projects, whenever you reach a Milestone past the first, you may get a prototype model of your invention. This is a much smaller and/or simpler and much less potent/functional version of your actual invention, at the **GM's** discretion. 
 
-| Complexity  | Milestones | Total Progress | Ob | Description | 
-| ----------- | ---------- | -------------- | -- | ----------- | 
-| Simple      | 2 * 20     | 40             | 1  | How did no one come up with this, before? It's so simple! This is typically a variation of something else that already exists, but with a minor modification. Given your current access to tools and resources, it is easy to imagine how you might complete this Project. |
-| Specialized | 4 * 25     | 100            | 2  | A fairly unique idea, that is within the realm of the imaginable. This is typically a major variation or modification of something that already exists. It will require specialized tools and resources and some effort to achieve. |
-| Complex     | 4 * 50     | 200            | 3  | A highly challenging invention, that will require highly specialized tools, resources and knowledge to achieve. What you're trying to create is outside your world's current technological or arcanic level of progress, but not unimaginable. |
-| Fantastical | 5 * 100    | 500            | 4  | What you're trying to create simply doesn't exist. No one has ever thought of this idea before and it's difficult to imagine how such a feat could even be achieved. But should it be possible, you'll have a lot of groundwork to cover. You will need to make your own tools, gain access to very particular resources, double-crunch the numbers and make several prototypes before the real thing could possibly be manifested. |
+| Complexity  | Progress Increment | Time Increment | Description | 
+| ----------- | ------------------ | -------------- | ----------- | 
+| Simple      | 20                 | 1 Hour         | How did no one come up with this, before? It's so simple! This is typically a variation of something else that already exists, but with a minor modification. Given your current access to tools and resources, it is easy to imagine how you might complete this Project. |
+| Specialized | 25                 | 6 Hours        | A fairly unique idea, that is within the realm of the imaginable. This is typically a major variation or modification of something that already exists. It will require specialized tools and resources and some effort to achieve. |
+| Complex     | 50                 | 6 Hours        | A highly challenging invention, that will require highly specialized tools, resources and knowledge to achieve. What you're trying to create is outside your world's current technological or arcanic level of progress, but not unimaginable. |
+| Fantastical | 100                | 1 Day          | What you're trying to create simply doesn't exist. No one has ever thought of this idea before and it's difficult to imagine how such a feat could even be achieved. But should it be possible, you'll have a lot of groundwork to cover. You will need to make your own tools, gain access to very particular resources, double-crunch the numbers and make several prototypes before the real thing could possibly be manifested. |
 
 #### Complexity to Progress Increments
 Think about complexity in terms of *how difficult is it to make the thing?*, *are specialized tools needed?*, *are special resources required?* and *does the task have any tolerance for failure?*
