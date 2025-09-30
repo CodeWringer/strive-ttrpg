@@ -111,10 +111,9 @@ Version 22 (Playtest)
     - [Travel](#travel)
     - [Crafting \& Research Projects](#crafting--research-projects)
       - [Project Prerequisites](#project-prerequisites)
-      - [Project Progress \& Milestones](#project-progress--milestones)
+      - [Progressing a Project](#progressing-a-project)
         - [Complexity to Progress Increments](#complexity-to-progress-increments)
         - [Workload to Time Increments](#workload-to-time-increments)
-      - [Project Quality](#project-quality)
       - [Project Boosters](#project-boosters)
       - [Research Projects](#research-projects)
       - [Invention Projects](#invention-projects)
@@ -229,7 +228,7 @@ Version 22 (Playtest)
   - [List of Titles of Renown](#list-of-titles-of-renown)
     - [Heart of Stone](#heart-of-stone)
     - [Hero of Many Victories](#hero-of-many-victories)
-    - [Loremaster of X](#loremaster-of-x)
+    - [Loremaster of X (degree)](#loremaster-of-x-degree)
     - [Monster Hunter](#monster-hunter)
     - [Paragon](#paragon)
     - [Pugilist](#pugilist)
@@ -1233,67 +1232,35 @@ If there is a world map, the **GM** could overlay it with tiles of squares or he
 
 In their own free time, characters can spend time and resources to create [Assets](#assets), research obscure subjects, make new scientific discoveries or create new inventions. 
 
+If you enjoy inventing your own unique types of [Assets](#assets) that you wish to add to the game, chances are, some of them will be craftable by **PCs**. But how to choose the Progress Increment and Time Increment? For that, see the [Complexity to Progress Increments](#complexity-to-progress-increments) and [Workload to Time Increments](#workload-to-time-increments) sections below. 
+
 #### Project Prerequisites
-Typically, a project can only be worked on with access to necessary resources and know-how. Skills that detail how they can be used for crafting will also note the prerequisites required. However, as always, the **GM** has the final word. 
+Typically, a project can only be worked on with access to necessary resources and know-how. Skills that detail how they can be used for crafting will also note the prerequisites required. As always, the **GM** has the final word. 
 
-#### Project Progress & Milestones
-Every Project's **progress** is tracked numerically. All progress begins at `0` and is increased through tests of a particular Skill. 
+#### Progressing a Project
+Every Project's **progress** is tracked numerically. All progress begins at `0` and is increased through use of a particular Skill, further called the Project Skill. 
 
-When you begin a Project, you must first determine the **Quality level (Q)** that you wish to achieve. The maximum level you *can* achieve, is determined by your level in the corresponding Skill. The level of Quality you choose then equals the number of **Milestones** you will need to complete. The Skill you use will note its "**Progress Increment**". This is the amount of progress you need, per Milestone. A better product requires more effort. 
+Every Project has a **Progress Increment** and a **Time Increment**. The Progress Increment tells you how much progress is needed to finish the Project. For every Time Increment worth of time you spend on the Project, you may add your **Project Skill level plus its Base Attribute** as points of progress. In other words, the number of dice you get to roll for a test of the Project Skill equals the progress you can make. Up to `3` assisting characters may also add `+1` point of progress every time, along with you. But of course, in the meantime, these characters cannot work on their own Projects. Note that progress isn't rolled for, it is simply added, when the Time Increment's worth of minutes/hours/days has been spent. 
 
-> A character is starting a Project. They want to create a product of Quality level `3`, which means they will need to complete `3` Milestones. The Skill they need to use for this Project, notes a "Progress Increment" of `25`. This means a total progress of `3 (Milestones) * 25 (Progress Increment) = 75` is required to complete the Project. 
+By default, your finished Project will have Quality level `1`. Every time you have arrive at full progress, you must make a choice. **Finish** the Project and accept its current Quality level, or **push on**. If you push on, the total required progress of your Project is increased by another Progress Increment, but you also give yourself a chance to further improve the resulting Quality level. Once you yet again arrive at full progress, a **test of your Project Skill** is required of you. The **Ob** is `N + 1`, where *N* is the current number of times you have already pushed on. If you succeed the test, the resulting Quality level of your Project increases by `+1`. But if you fail, it loses `-1` Quality level, *unless* you instead accept a **Complication**, see below. Note that failure cannot reduce the Quality level to less than `1`. Then you may yet again decide to finish the Project, or push on. 
 
-In addition to the Progress Increment, the Skill will note a **Time Increment**. This determines *how often* progress towards the Project can be made. 
+You can continue this cycle any number of times, but if you **fail twice in succession**, your Project is **botched**. You lose all resources and all progress towards it. This is a critical blunder. 
 
-> For example, Time Increments could be "every `6` hours", "every day", "every `10` minutes", and so forth. 
+| D4 | Complication |
+| -- | ------------ |
+| 1  | Setback: you lose half of all your progress (RU). |
+| 2  | Blockade: you realize you need to fulfill another prerequisite to continue your work. Consult your **GM**. |
+| 3  | Overthinking it: from now on, the Progress Increment is **doubled**. |
+| 4  | Drawback: once finished, the result of your Project will contain a drawback. Consult your **GM**. |
 
-To make progress, you roll an **Ob** `0` test of the corresponding Skill. Note that for this Project progress test, you ***do not earn*** [advancement progress](#advancement)! When rolling the dice to add progress, every die that comes up as a **hit** adds `+1` to the Project's progress. If you are aided by other characters, you can add `+1D6` for each, up to a limit of `3`. 
-
-At the start of a Project, the first and so-called **Milestone test** must *immediately* be made. As before, every **hit** adds `+1` to the Project's progress. However, if there is not a single **hit**, *or* there is an **Ob** defined and *not enough* **hits** have been achieved, the final product's Quality degrades by `-1`. If, once the Project is or would be complete, the final Quality is or would be `0`, the Project is botched. Your resources are lost and you get nothing to show for it. There is no product. After botching a Project, you must wait one Time Increment before another attempt can be made, as even when you fail, you'll still have to invest some time in the attempt. This ensures you can break off a failed Project early, without having to first accrue, e. g. `200` or more progress, which could take a *long time*, only find out in the end it was all in vain. 
-
-After the first, every time the Project's progress passes a Milestone, another Milestone test must *immediately* be made. Note that the starting Milestone test counts towards the number of Milestones. 
-
-> A Project of Quality level `1` only requires a single Milestone test - at the very start of the Project - to succeed. If the character succeeds the test, they can rest assured that their Project can no longer fail. All that is left to do, is to accrue progress until completion. 
-
-Note that for Milestone tests, you ***do earn*** [advancement progress](#advancement)! And every other **PC** who's helping earns `+1` [XP](#experience-points-xp)!
-
-> A character is working on their Project. Their progress is currently at `9`, they need `3` Milestones, each with a Progress Increment of `10`. For their progress test, they get to roll `5D6` and achieve `2` **hits**. Thus, they add `+2` progress, which gets them to `11` total progress! In doing so, they passed the first Milestone of `10` progress. Now, they must make a Milestone test. Their Project has no **Ob**, and so, when they once again prepare to roll their `5D6`, the *only* thing they have to fear is achieving *no* **hits** at all. 
-
-Note that it is not allowed to keep repeating the same Project again and again, ad infinitum, if you keep botching it. After the second attempt, your character has to admit that the Project is too much for them alone and that they need help. The **GM** will decide when you've found enough help or whether the circumstances changed enough to allow you another attempt. 
-
-When there is a lot of long-term down-time, a character working on the same Project continuously may be simplified a bit. Instead of doing dozens of rolls for progress, simply do two rolls, take the better result and then multiply it with the number of Time Increments the character gets to spend on the Project. 
-
-> The **GM** explains for narrative reasons, nothing interesting happens for the next in-game week. Characters are free to work on Projects. One of the **PCs** does just that - for the entire week! They choose a Project with Quality `2`, Progress Increments of `30` and Time Increments of `6` hours. 
->
-> They make two rolls. In the first, they achieve only `1` hit - an unlucky roll! In the second, they fare much better, and achieve `4` hits. Every day, they can make progress `4` times. That means they make `4 * 7 (days in a week) = 28` progress!
-
-If you enjoy inventing your own unique types of [Assets](#assets) that you wish to add to the game, chances are, some of them will be craftable by **PCs**. But how to choose the Progress Increment, **Ob** and Time Increment? The tables below aim to guide you in this endeavour. 
-
-##### Complexity to Progress Increments
-Think about complexity in terms of *how difficult is it to make the thing?*, *are specialized tools needed?*, *are special resources required?* and *does the task have any tolerance for failure?*
-
-| Complexity ->      | Trivial     | Routine     | Specialized | Complex     | Enigmatic   |
-| ------------------ | ----------- | ----------- | ----------- | ----------- | ----------- |
-| Progress Increment | 5           | 10          | 20          | 30          | 50          |
-| Ob                 | 0           | 0           | 1           | 2           | 3           |
-|                    | A trivial craft can be done at any time, anywhere - even on the road. It barely requires any resources and you can improvise the tools you need. | A routine craft is routine only to a learned and experienced craftsperson. While the work won't put your skills to the test, it still requires some effort and experience to achieve. Improvised tools may still do, and some resources may still be substituted. But the work does demand focus. | A specialized craft is a bit more challenging. You need to sit down and actually focus on the work and need the proper tools and resources to get it done. But provided you bring those, your work can be done anywhere. | A complex craft requires specialized tools and rare resources, which may not be readily accessible to just anyone and the work must be done in a specialized environment. | An enigmatic craft requires tools that simply don't exist, anywhere. You will have to create them, yourself. The resources you need will require substantial effort to track down. Perhaps you'll even be the first discover their existence. The work can be done only in a highly specialized environment, to minimize the risk of delicate machinery getting dusty, aerosols mixing or vibrations in the earth agitating the wrong powder and so forth. |
-
-##### Workload to Time Increments
-Workload is the result of processes that naturally take a long time, the difficulty in processing materials and the amount of work that has to be done. A very high workload will take very long to complete, while a low workload may be finished in a matter of moments.
-
-| Workload       | Low         | Moderate    | High        | Very High   |
-| -------------- | ----------- | ----------- | ----------- | ----------- |
-| Time Increment | 10 Minutes  | 1 Hour      | 6 Hours     | 24 Hours    |
-
-#### Project Quality
-The maximum Quality a product can achieve, is dictated by a character's level in the relevant Skill. A mediocre craftsman will never be able to create a mastery-level work. However, several artisans can pool their knowledge, to improve the maximum Quality by `+1` for everyone helping on the project. While they're helping, these characters **can not** engage in their own Projects. And the number of assistants is limited to `3`. Too many cooks, and the soup will end up *dry*, if you will. 
+Note that even through a Quality level `1` Project, for which you needn't roll anything for, you get [advancement progress](#advancement)! And of course, for your Project Skill test, you may [fork](#skill-forking) and accept [help](#providing-assistance)!
 
 #### Project Boosters
 During their adventures, or while perusing the market or library, **PCs** may find things that can boost the progress of their Project. These **Project Boosters** can be varied - schematics, specialized tools, a rare artefact, advice from a knowledgeable **NPC**, and so on. 
 
-These things can add progress to a Project. How much they boost the Project, will be determined by the **GM**. A good baseline should be that a common booster adds `+10`, a rare adds `+30` and a legendary adds `+60`. But of course, these numbers are only suggestions. 
+These things can add progress to a Project or raise the base Quality level. How much they boost the Project, will be determined by the **GM**. A good baseline should be that a common booster adds `+10`, a rare adds `+30` and a legendary adds `+60`. But of course, these numbers are only suggestions. 
 
-Typically, Project Boosters are one-time use. Once they have been used to add progress to the Project, they cannot be used again. 
+Typically, Project Boosters are one-time use. Once they have been used to add progress to the Project, they cannot be used again. However, this is not a hard-set rule. Some things, like a magic cauldron or high-tech lab equipment may of course be used again, provided no narrative reasons forbid it. 
 
 #### Research Projects
 A Project can be about the research of knowledge. The progress required will depend on the degree of obscurity of the knowledge that you seek. 
@@ -1326,6 +1293,21 @@ Unique to invention Projects, whenever you reach a Milestone past the first, you
 | Specialized | 4 * 25     | 100            | 2  | A fairly unique idea, that is within the realm of the imaginable. This is typically a major variation or modification of something that already exists. It will require specialized tools and resources and some effort to achieve. |
 | Complex     | 4 * 50     | 200            | 3  | A highly challenging invention, that will require highly specialized tools, resources and knowledge to achieve. What you're trying to create is outside your world's current technological or arcanic level of progress, but not unimaginable. |
 | Fantastical | 5 * 100    | 500            | 4  | What you're trying to create simply doesn't exist. No one has ever thought of this idea before and it's difficult to imagine how such a feat could even be achieved. But should it be possible, you'll have a lot of groundwork to cover. You will need to make your own tools, gain access to very particular resources, double-crunch the numbers and make several prototypes before the real thing could possibly be manifested. |
+
+#### Complexity to Progress Increments
+Think about complexity in terms of *how difficult is it to make the thing?*, *are specialized tools needed?*, *are special resources required?* and *does the task have any tolerance for failure?*
+
+| Complexity ->      | Trivial     | Routine     | Specialized | Complex     | Monumental  |
+| ------------------ | ----------- | ----------- | ----------- | ----------- | ----------- |
+| Progress Increment | 5           | 10          | 25          | 50          | 100         |
+|                    | A trivial craft can be done at any time, anywhere - even on the road. It barely requires any resources and you can improvise the tools you need. | A routine craft is routine only to a learned and experienced craftsperson. While the work won't put your skills to the test, it still requires some effort and experience to achieve. Improvised tools may still do, and some resources may still be substituted. But the work does demand focus. | A specialized craft is a bit more challenging. You need to sit down and actually focus on the work and need the proper tools and resources to get it done. But provided you bring those, your work can be done anywhere. | A complex craft requires specialized tools and rare resources, which may not be readily accessible to just anyone and the work must be done in a specialized environment. | A monumental craft requires tools that simply don't exist, anywhere. You will have to create them, yourself. The resources you need will require substantial effort to track down. Perhaps you'll even be the first discover their existence. The work can be done only in a highly specialized environment, to minimize the risk of delicate machinery getting dusty, aerosols mixing or vibrations in the earth agitating the wrong powder and so forth. |
+
+#### Workload to Time Increments
+Workload is the result of processes that naturally take a long time, the difficulty in processing materials and the amount of work that has to be done. A very high workload will take very long to complete, while a low workload may be finished in a matter of moments.
+
+| Workload       | Low         | Moderate    | High        | Very High   |
+| -------------- | ----------- | ----------- | ----------- | ----------- |
+| Time Increment | 10 Minutes  | 1 Hour      | 6 Hours     | 24 Hours    |
 
 ### Trade
 Selling and buying things can take a surprising amount of time. If prices are too high and demand or reputation too low, chances are, you won't be able to sell your goods. But even when people do show interest in your wares, you still have to *sell it* to them. An uncharismatic merchant will have a difficult time making a pretty profit, regardless of the quality of their goods. On the other hand, buying things may prove equally difficult, when what you're looking for isn't really available. 
@@ -2245,9 +2227,11 @@ The ability to paint and draw well, as well as a general sense of aesthetics.
 #### Cooking (Awar/Wit)
 The ability to cook hearty and sweet meals that can strengthen and invigorate. Poor cooks are prone to losing ingredients due to burning them or overcooking them to the point of inedibility. 
 
+[Crafting](#crafting--research-projects)
+
 Tools: cooking utensils; a pot, pan, spitroast or similar; a strong heat source
 
-A cook may choose to make the meal confer certain boons, for `Q * 2` hours, at the expense of increasing the Ob by `+1`, once for each of the following boons:
+For every `Q` past `1`, the meal may confer certain boons, for `Q * 2` hours. Each of the following boons can be picked only once:
 * Grant `Q D4` [Temporary HP](#temporary-hit-points). 
 * Increase [base initiative](#base-initiative) by `Q`. 
 * Increase [strength](#strength-str) or [toughness](#toughness-tough) by `Q / 2 (RU)`. 
@@ -2257,10 +2241,9 @@ All meals always restore `Q HP` and reduce exhaustion by `Q`.
 
 The boons from meals do not stack. Eating a second meal will have it override all of a previous meal's boons. The strength of boons is determined at the time of creation and are the same for all characters who share in the meal. 
 
-[Crafting](#crafting--research-projects)
-| Product                              | Progress Increment | Time Increment | Ob | Materials                              | Quality Bonus   |
-| ------------------------------------ | ------------------ | -------------- | -- | -------------------------------------- | --------------- |
-| Meal                                 | 5                  | 10 Minutes     | 1  | Foodstuffs                             | Restores `Q HP` and reduces exhaustion by `Q`. |
+| Product                              | Progress Increment | Time Increment | Materials                              | Quality Bonus   |
+| ------------------------------------ | ------------------ | -------------- | -------------------------------------- | --------------- |
+| Meal                                 | 5                  | 10 Minutes     | Foodstuffs                             | Restores `Q HP` and reduces exhaustion by `Q`. |
 
 | Level | <img src="../../img/heroic-acts.svg" width="64px" height="64px"></img> | Heroic Act Description | Desperate Measure Description | <img src="../../img/desperate-measures.svg" width="64px" height="64px"></img> |
 | ----- | ----------------------- | ---------------------- | ----------------------------- | --------------------------- |
@@ -2300,12 +2283,16 @@ Every time you earn [Temporary HP](#temporary-hit-points), you earn `+5` more!
 
 Every combat you enter starts your side with `+10` [Momentum](#momentum). 
 
-### Loremaster of X
+### Loremaster of X (degree)
 > What do you wish to know? Oh, yes, I do remember reading about that. I'll gladly explain it all to you in excruciating detail. 
 
 **Prerequisites**: Researched obscure or forgotten lore about a particular subject. 
 
-Replace *X* with the subject you're knowledgeable about. You know *everything* about this topic. 
+Replace *X* with the subject you're knowledgeable about. Then replace *degree* with the depth of your knowledge:
+1. You have surface-level understanding of the topic. You know as much as anyone could, if they did a little more digging. 
+2. You have a deeper understanding and can recall details your peers didn't know existed. But even you find your limit early when it comes to the more obscure details. 
+3. You know even the more obscure details. But your knowledge is still incomplete. The long lost secrets remain a mystery even to you. 
+4. You know *everything* about this topic. No detail is too obscure, no secret left buried. 
 
 ### Monster Hunter
 > You should *see* my trophy wall - there isn't a beast's head I haven't collected!
@@ -2556,10 +2543,11 @@ A **multiple-single-target** (**MST**) action affects at least one and up to a m
 | -------------------------------------------- | ----------------------- |
 | [AP](#action-points-ap)                      | Action Point            |
 | [AFP](#ambition-fate-points)                 | Ambitions Fate-Point    |
-| [Agi](#agility-agi)                          | The Agility attribute   |
+| [Agi](#agility-agi)                          | The Agility Attribute   |
 | [AOE](#area-of-effect-aoe)                   | Area of Effect          |
 | [AP](#action-points-ap)                      | Action Point            |
-| [Awar](#awareness-awar)                      | The Awareness attribute |
+| [Awar](#awareness-awar)                      | The Awareness Attribute |
+| [Base Attribute](#skills)                    | One of the two Attributes a Skill relies on. |
 | [Concentration](#concentration)              | A Skill or Expertise whose effects last as long as desired |
 | [D10](#dice)                                 | A ten-sided die         |
 | [D20](#dice)                                 | A twenty-sided die      |
