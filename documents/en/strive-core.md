@@ -1271,21 +1271,15 @@ As a prerequisite to begin your studies, you must have access to the number of r
 
 | Obscurity   | Quality Level | Progress Bonus | Research Objects | Description | 
 | ----------- | ------------- | -------------- | ---------------- | ----------- | 
-| Common      | 1 - 2         | /              | 0                | Common knowledge can be easily researched. Even so, it's not so common that everyone knows it already. It may still take some effort to find the right pieces of writing or piece together what you need from questioning several other people. |
-| Specialized | 3 - 4         | 2              | 1                | Only few individuals have deeper knowledge regarding the topic you seek to understand. Only few pieces of writing even make note of your topic. It will require substantial effort to track down sources of knowledge and then puzzle the pieces together. |
-| Obscure     | 5 - 6         | 5              | 2                | Barely anyone, if anyone at all, even knows of this esoteric subject. Tracking down anyone with knowledge will be a considerable challenge. And whatever writing exists, may be stowed away, hidden in private collections, not easily accessible and not easily parted with. And even if access to these sources of knowledge can be secured, making sense of it all will be a challenge. |
-| Lost        | 7 - 8         | 10             | 3                | No one alive still knows anything about this subject. Whatever writing may exist, is manifested in a long dead language, on a medium hidden in a remote and forgotten place. Even if you find this remnant of knowledge, how could you possibly make sense of it? |
+| Common      | 1 - 2         | 2              | 0                | Common knowledge can be easily researched. Even so, it's not so common that everyone knows it already. It may still take some effort to find the right pieces of writing or piece together what you need from questioning several other people. |
+| Specialized | 3 - 4         | 5              | 1                | Only few individuals have deeper knowledge regarding the topic you seek to understand. Only few pieces of writing even make note of your topic. It will require substantial effort to track down sources of knowledge and then puzzle the pieces together. |
+| Obscure     | 5 - 6         | 10             | 2                | Barely anyone, if anyone at all, even knows of this esoteric subject. Tracking down anyone with knowledge will be a considerable challenge. And whatever writing exists, may be stowed away, hidden in private collections, not easily accessible and not easily parted with. And even if access to these sources of knowledge can be secured, making sense of it all will be a challenge. |
+| Lost        | 7 - 8         | 20             | 3                | No one alive still knows anything about this subject. Whatever writing may exist, is manifested in a long dead language, on a medium hidden in a remote and forgotten place. Even if you find this remnant of knowledge, how could you possibly make sense of it? |
 
 When you finish the research Project, you'll have the answers you seek and may gain the title "Loremaster of *X* (degree)", where you replace *X* with the subject you researched and *degree* with the Quality level. 
 
 #### Invention Projects
-A Project can be about the invention of completely unique and new [Assets](#assets). The progress required will depend on the degree of complexity. 
-
-Unlike with normal Projects, you do not determine the Quality yourself. Instead, the **GM** will determine the degree of complexity of your Project. That will then tell you how much effort it will be to succeed in your invention. In the table below, the Milestones are listed as `M * P`, where *M* is the number of Milestones and *P* is the Progress Increment, per Milestone. The **Ob** noted is the **Ob** your Milestone tests will require. 
-
-Just as normal Projects, your invention Project has a Quality level. However, which Quality level you must aim for is dictated by the complexity of your Project. 
-
-Unique to invention Projects, whenever you reach a Milestone past the first, you may get a prototype model of your invention. This is a much smaller and/or simpler and much less potent/functional version of your actual invention, at the **GM's** discretion. 
+A Project can be about the invention of completely unique and new [Assets](#assets). The progress required will depend on the degree of complexity, as the **GM** will determine.  
 
 | Complexity  | Progress Increment | Time Increment | Description | 
 | ----------- | ------------------ | -------------- | ----------- | 
@@ -1294,12 +1288,14 @@ Unique to invention Projects, whenever you reach a Milestone past the first, you
 | Complex     | 50                 | 6 Hours        | A highly challenging invention, that will require highly specialized tools, resources and knowledge to achieve. What you're trying to create is outside your world's current technological or arcanic level of progress, but not unimaginable. |
 | Fantastical | 100                | 1 Day          | What you're trying to create simply doesn't exist. No one has ever thought of this idea before and it's difficult to imagine how such a feat could even be achieved. But should it be possible, you'll have a lot of groundwork to cover. You will need to make your own tools, gain access to very particular resources, double-crunch the numbers and make several prototypes before the real thing could possibly be manifested. |
 
+For every Quality level you achieve, your invention may have one additional function or an existing function is one degree more potent. 
+
 #### Complexity to Progress Increments
 Think about complexity in terms of *how difficult is it to make the thing?*, *are specialized tools needed?*, *are special resources required?* and *does the task have any tolerance for failure?*
 
-| Complexity ->      | Trivial     | Routine     | Specialized | Complex     | Monumental  |
+| Complexity         | Trivial     | Routine     | Specialized | Complex     | Monumental  |
 | ------------------ | ----------- | ----------- | ----------- | ----------- | ----------- |
-| Progress Increment | 5           | 10          | 25          | 50          | 100         |
+| Progress Increment | 5 - 10      | 10 - 20     | 25 - 40     | 50 - 75     | 100         |
 |                    | A trivial craft can be done at any time, anywhere - even on the road. It barely requires any resources and you can improvise the tools you need. | A routine craft is routine only to a learned and experienced craftsperson. While the work won't put your skills to the test, it still requires some effort and experience to achieve. Improvised tools may still do, and some resources may still be substituted. But the work does demand focus. | A specialized craft is a bit more challenging. You need to sit down and actually focus on the work and need the proper tools and resources to get it done. But provided you bring those, your work can be done anywhere. | A complex craft requires specialized tools and rare resources, which may not be readily accessible to just anyone and the work must be done in a specialized environment. | A monumental craft requires tools that simply don't exist, anywhere. You will have to create them, yourself. The resources you need will require substantial effort to track down. Perhaps you'll even be the first discover their existence. The work can be done only in a highly specialized environment, to minimize the risk of delicate machinery getting dusty, aerosols mixing or vibrations in the earth agitating the wrong powder and so forth. |
 
 #### Workload to Time Increments
@@ -2229,7 +2225,7 @@ The ability to cook hearty and sweet meals that can strengthen and invigorate. P
 
 [Crafting](#crafting--research-projects)
 
-Tools: cooking utensils; a pot, pan, spitroast or similar; a strong heat source
+**Tools**: cooking utensils; a pot, pan, spitroast or similar; a strong heat source
 
 For every `Q` past `1`, the meal may confer certain boons, for `Q * 2` hours. Each of the following boons can be picked only once:
 * Grant `Q D4` [Temporary HP](#temporary-hit-points). 
@@ -2241,9 +2237,9 @@ All meals always restore `Q HP` and reduce exhaustion by `Q`.
 
 The boons from meals do not stack. Eating a second meal will have it override all of a previous meal's boons. The strength of boons is determined at the time of creation and are the same for all characters who share in the meal. 
 
-| Product                              | Progress Increment | Time Increment | Materials                              | Quality Bonus   |
-| ------------------------------------ | ------------------ | -------------- | -------------------------------------- | --------------- |
-| Meal                                 | 5                  | 10 Minutes     | Foodstuffs                             | Restores `Q HP` and reduces exhaustion by `Q`. |
+| Product                              | Progress Increment | Time Increment | Quality Bonus   |
+| ------------------------------------ | ------------------ | -------------- | --------------- |
+| Meal                                 | 5                  | 10 Minutes     | Restores `Q HP` and reduces exhaustion by `Q`. |
 
 | Level | <img src="../../img/heroic-acts.svg" width="64px" height="64px"></img> | Heroic Act Description | Desperate Measure Description | <img src="../../img/desperate-measures.svg" width="64px" height="64px"></img> |
 | ----- | ----------------------- | ---------------------- | ----------------------------- | --------------------------- |

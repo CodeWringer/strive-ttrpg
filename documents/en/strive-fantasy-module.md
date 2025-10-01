@@ -915,31 +915,28 @@ All craftsmanship requires a mix of physical and mental attributes, for the purp
 The ability to make armor from conventional materials, such as metal and leather. 
 
 [Crafting](./strive-core.md#crafting--research-projects)
-| Product                              | Complexity | Workload  | Materials                              | Quality Bonus   |
-| ------------------------------------ | ---------- | --------- | -------------------------------------- | --------------- | 
-| 1 [light armor](#light-armor)        | High       | High      | Any shapeable sturdy and flexible material, such as iron, steel, leather or chitin. | Every **hit**: +1 **Slashing**; Every 2 **hits**: +1 **Piercing**; Every 3 **hits**: +1 **Bludgeoning** |
-| 1 [medium armor](#medium-armor)      | High       | Very High | Any shapeable sturdy and flexible material, such as iron, steel, leather or chitin. | Every **hit**: +1 **Slashing**; Every 2 **hits**: +1 **Piercing**; Every 3 **hits**: +1 **Bludgeoning** |
-| 1 [heavy armor](#heavy-armor)        | High       | Very High | Any shapeable sturdy and flexible material, such as iron, steel, leather or chitin. | Every **hit**: +1 **Slashing**; Every 2 **hits**: +1 **Piercing**; Every 3 **hits**: +1 **Bludgeoning** |
+| Product                              | Progress Increment | Time Increment |
+| ------------------------------------ | ------------------ | -------------- |
+| 1 [light armor](#light-armor)        | 20                 | 6 Hours        |
+| 1 [medium armor](#medium-armor)      | 30                 | 6 Hours        |
+| 1 [heavy armor](#heavy-armor)        | 40                 | 6 Hours        |
 
 #### Ambersmithing (Str/Wit)
 The ability to make things from [Amberite](#amberite). 
 
-Lining or plating an existing object with [Ambersteel](#ambersteel) acts as an improvement, whereas an [Ambersteel](#ambersteel)-forged object is an entirely new object, completely made out of [Ambersteel](#ambersteel). 
+Plating an existing object with [Ambersteel](#ambersteel) acts as an improvement, whereas an [Ambersteel](#ambersteel)-forged object is an entirely new object, completely made out of this material. 
 
-The product effects do not stack, but they can be overridden. This means that the same object cannot be lined with [Ambersteel](#ambersteel) twice, for cumulative effects. But it can be upgraded to [Ambersteel](#ambersteel)-plated. 
+The product effects do not stack. 
 
 [Crafting](./strive-core.md#crafting--research-projects)
-| Product                              | Complexity | Workload  | Materials                              | Quality Bonus   |
-| ------------------------------------ | ---------- | --------- | -------------------------------------- | --------------- | 
-| Ambersteel-lined weapon              | High       | High      | [Ambersteel](#ambersteel); A weapon        | Bonus damage against mages and magical creatures: **+1** for every quality level. **+1D4** for every two **quality levels**, starting at level 2. |
-| Ambersteel-plated weapon             | High       | Very High | [Ambersteel](#ambersteel); A weapon        | Bonus damage against mages and magical creatures: **+1** for every quality level. **+1D6** for every two **quality levels**, starting at level 2. |
-| Ambersteel-forged weapon             | Very High  | Very High | [Ambersteel](#ambersteel)                  | Bonus damage against mages and magical creatures: **+2** for every quality level. **+1D8** for every two **quality levels**, starting at level 2. The weapon is +1 **bulkier** than an equivalent weapon that is not **Ambersteel** forged. |
-| Ambersteel-lined armor               | High       | High      | [Ambersteel](#ambersteel); A set of armor  | Bonus protection from magic: **+1** for every quality level. **+1D4** for every two **quality levels**, starting at level 2. |
-| Ambersteel-plated armor              | High       | Very High | [Ambersteel](#ambersteel); A set of armor  | Bonus protection from magic: **+1** for every quality level. **+1D6** for every two **quality levels**, starting at level 2. |
-| Ambersteel-forged armor              | Very High  | Very High | [Ambersteel](#ambersteel)                  | Bonus protection from magic: **+2** for every quality level. **+1D8** for every two **quality levels**, starting at level 2. The armor is +1 **bulkier** than an equivalent armor that is not **Ambersteel** forged. |
-| Ambersteel-lined shield              | High       | High      | [Ambersteel](#ambersteel); A shield        | Bonus protection from magic: **+1** for every quality level. **+1D4** for every two **quality levels**, starting at level 2. |
-| Ambersteel-plated shield             | High       | Very High | [Ambersteel](#ambersteel); A shield        | Bonus protection from magic: **+1** for every quality level. **+1D6** for every two **quality levels**, starting at level 2. |
-| Ambersteel-forged shield             | Very High  | Very High | [Ambersteel](#ambersteel)                  | Bonus protection from magic: **+2** for every quality level. **+1D8** for every two **quality levels**, starting at level 2. The shield is +1 **bulkier** than an equivalent shield that is not **Ambersteel** forged. |
+| Product                              | Progress Increment | Time Increment | Materials                                 | Quality Bonus   |
+| ------------------------------------ | ------------------ | -------------- | ----------------------------------------- | --------------- | 
+| Ambersteel-plated weapon             |                    |                | [Ambersteel](#ambersteel); A weapon       | Bonus damage against mages and magical creatures: **+1** for every quality level. **+1D6** for every two **quality levels**, starting at level 2. |
+| Ambersteel-forged weapon             |                    |                | [Ambersteel](#ambersteel)                 | Bonus damage against mages and magical creatures: **+2** for every quality level. **+1D8** for every two **quality levels**, starting at level 2. The weapon is +1 **bulkier** than an equivalent weapon that is not **Ambersteel** forged. |
+| Ambersteel-plated armor              |                    |                | [Ambersteel](#ambersteel); A set of armor | Bonus protection from magic: **+1** for every quality level. **+1D6** for every two **quality levels**, starting at level 2. |
+| Ambersteel-forged armor              |                    |                | [Ambersteel](#ambersteel)                 | Bonus protection from magic: **+2** for every quality level. **+1D8** for every two **quality levels**, starting at level 2. The armor is +1 **bulkier** than an equivalent armor that is not **Ambersteel** forged. |
+| Ambersteel-plated shield             |                    |                | [Ambersteel](#ambersteel); A shield       | Bonus protection from magic: **+1** for every quality level. **+1D6** for every two **quality levels**, starting at level 2. |
+| Ambersteel-forged shield             |                    |                | [Ambersteel](#ambersteel)                 | Bonus protection from magic: **+2** for every quality level. **+1D8** for every two **quality levels**, starting at level 2. The shield is +1 **bulkier** than an equivalent shield that is not **Ambersteel** forged. |
 
 > An **Ambersteel**-lined weapon at quality level 3 would have +(3 + **2D4**) damage against mages and magical creatures. 
 
@@ -952,99 +949,113 @@ See also [protection from magic](#protection-from-magic).
 #### Alchemy (Arc/Wit)
 The ability to brew alchemical potions, create powders, mixtures and other substances, as well as the ability to tell these things apart. 
 
-Tools: a distillery, mortar and pestle, a heat source, beakers
-
 [Crafting](./strive-core.md#crafting--research-projects)
+
+**Tools**: a distillery, mortar and pestle, a heat source, beakers
+
+For every `Q` past `2`, choose one of the following:
+* Gain `+1` amount of your product. 
+* Gain a secondary product whose Progress Increment is smaller, with amount `1`. 
 
 | Product                              | Progress Increment | Time Increment | Ob |
 | ------------------------------------ | ------------------ | -------------- | -- |
-| Acid Bomb (3)                        | 10                 | 1 Hour         | 0  |
-| Blackpowder Bomb (2)                 | 20                 | 1 Hour         | 1  |
-| Calming Tea (3)                      | 10                 | 10 Minutes     | 0  |
-| Death Fog (1)                        | 50                 | 6 Hours        | 3  |
-| Dragon's Breath Potion (2)           | 20                 | 1 Hour         | 1  |
-| Fire Pot (2)                         | 20                 | 1 Hour         | 1  |
-| Illusionist's Powder (2)             | 30                 | 10 Minutes     | 1  |
-| Invigorating Potion (2)              | 20                 | 1 Hour         | 0  |
-| Laudanum Potion (3)                  | 10                 | 1 Hour         | 0  |
-| Love Potion (1)                      | 20                 | 1 Hour         | 2  |
-| Night-Eye Potion (2)                 | 10                 | 1 Hour         | 0  |
-| Paralyzing Poison (1)                | 50                 | 6 Hours        | 2  |
-| Poison Resistance Potion (2)         | 20                 | 1 Hour         | 1  |
-| Sleeping Poison (1)                  | 30                 | 1 Hour         | 1  |
-| Smoke Bomb (3)                       | 10                 | 10 Minutes     | 0  |
+| Acid Bomb (3)                        | 10                 | 1 Hour         |    |
+| Blackpowder Bomb (2)                 | 20                 | 1 Hour         | +1 |
+| Calming Tea (3)                      | 10                 | 10 Minutes     |    |
+| Death Fog (1)                        | 50                 | 6 Hours        | +2 |
+| Dragon's Breath Potion (2)           | 20                 | 1 Hour         | +1 |
+| Fire Pot (2)                         | 20                 | 1 Hour         | +1 |
+| Illusionist's Powder (2)             | 30                 | 10 Minutes     | +1 |
+| Invigorating Potion (2)              | 20                 | 1 Hour         |    |
+| Laudanum Potion (3)                  | 10                 | 1 Hour         |    |
+| Love Potion (1)                      | 20                 | 1 Hour         | +1 |
+| Night-Eye Potion (2)                 | 10                 | 1 Hour         |    |
+| Paralyzing Poison (1)                | 50                 | 6 Hours        | +1 |
+| Poison Resistance Potion (2)         | 20                 | 1 Hour         | +1 |
+| Sleeping Poison (1)                  | 30                 | 1 Hour         | +1 |
+| Smoke Bomb (3)                       | 10                 | 10 Minutes     |    |
 
 #### Brewing (Wit/Wit)
 The brewing of alcoholic beverages. 
 
-Tools: a fire place, a distillery
-
 [Crafting](./strive-core.md#crafting--research-projects)
-| Product                              | Complexity | Workload  | Materials                              | Quality Bonus   |
-| ------------------------------------ | ---------- | --------- | -------------------------------------- | --------------- | 
-| A small keg worth of alcohol         | Moderate   | Very High | Any closeable container; Any fermentable fruit or distillable plant matter. | / |
+
+**Tools**: a heat source, a distillery, barrels or caskets for fermenting
+
+| Product                              | Progress Increment | Time Increment |
+| ------------------------------------ | ------------------ | -------------- |
+| A small keg worth of alcohol         | 30                 | 1 Day          |
 
 #### Blacksmithing (Agi/Str)
 The ability to create every-day items from metal. 
 
-Tools: a hammer, an anvil or other resilient surface, tongs, a forge
-
 [Crafting](./strive-core.md#crafting--research-projects)
-| Product                              | Complexity | Workload  | Materials                              | Quality Bonus   |
-| ------------------------------------ | ---------- | --------- | -------------------------------------- | --------------- | 
-| A large item, such as a handheld tool               | Moderate | High     | Any shapeable metal; (Wood). | / |
-| Several smaller items, such as nails or arrow-heads | Moderate | Moderate | Any shapeable metal. | / |
+
+**Tools**: a hammer, an anvil or other resilient surface, tongs, a forge
+
+The achieved `Q` dictates the possible size, amount and complexity of the crafted object(s). 
+
+| Product                              | Progress Increment | Time Increment |
+| ------------------------------------ | ------------------ | -------------- |
+| Metal product(s)                     | 20                 | 6 Hours        |
 
 #### Bow-Making (Agi/Awar)
 The ability to craft bows and crossbows. 
 
-Tools: a carving knife
-
 [Crafting](./strive-core.md#crafting--research-projects)
-| Product                              | Complexity | Workload  | Materials                              | Quality Bonus   |
-| ------------------------------------ | ---------- | --------- | -------------------------------------- | --------------- | 
-| Bow                                  | Low        | Moderate  | A piece of sturdy and flexible wood; A piece of string or sinew. | Every 3 **hits**: +1 **Piercing** |
-| Crossbow                             | High       | High      | Sturdy pieces of wood; Metal arms; a piece of string or sinew. | Every 3 **hits**: +1 **Piercing** |
+
+**Tools**: a carving knife
+
+| Product                              | Progress Increment | Time Increment |
+| ------------------------------------ | ------------------ | -------------- |
+| Bow                                  | 20                 | 1 Hour         |
+| Crossbow                             | 30                 | 1 Hour         |
 
 #### Carpentry (Agi/Str)
 The ability to shape wood to craft predominantly wooden things. 
 
-Tools: an axe, a wood plane, a hand drill, a workbench
-
 [Crafting](./strive-core.md#crafting--research-projects)
-| Product                              | Complexity | Workload  | Materials                              | Quality Bonus   |
-| ------------------------------------ | ---------- | --------- | -------------------------------------- | --------------- | 
-| A small piece of furniture           | Moderate   | Moderate  | Wood                                   | / |
-| A large piece of furniture           | Moderate   | High      | Wood                                   | / |
+
+**Tools**: an axe, a wood plane, a hand drill, a workbench
+
+The achieved `Q` dictates the possible size, amount and complexity of the crafted object(s). 
+
+| Product                              | Progress Increment | Time Increment |
+| ------------------------------------ | ------------------ | -------------- |
+| A piece of furniture                 | 30                 | 6 Hours        |
 
 #### Clothesmaking (Agi/Wit)
 The ability to make comfortable, well-fitting and decorated clothes. 
 
-Tools: scissors, needles, yarn, thread
-
 [Crafting](./strive-core.md#crafting--research-projects)
-| Product                              | Complexity | Workload  | Materials                              | Quality Bonus   |
-| ------------------------------------ | ---------- | --------- | -------------------------------------- | --------------- | 
-| A piece of clothing                  | Moderate   | Moderate  | Cloth                                  | / |
+
+**Tools**: scissors, needles, yarn, thread
+
+| Product                              | Progress Increment | Time Increment |
+| ------------------------------------ | ------------------ | -------------- |
+| A piece of clothing                  | 30                 | 6 Hours        |
 
 #### Engineering (Agi/Wit)
 The ability to plan and construct complex mechanisms and devices. 
 
 [Crafting](./strive-core.md#crafting--research-projects)
-| Product                              | Complexity | Workload  | Materials                              | Quality Bonus   |
-| ------------------------------------ | ---------- | --------- | -------------------------------------- | --------------- | 
-| A simple mechanism                   | High       | Low       | Any suitable material                  | / |
-| A complex mechanism                  | High       | Moderate  | Any suitable material                  | / |
+
+The achieved `Q` dictates the possible size, amount and complexity of the crafted object(s). 
+
+| Product                              | Progress Increment | Time Increment |
+| ------------------------------------ | ------------------ | -------------- |
+| A mechanism                          | 40                 | 1 Hour         |
 
 #### Fletching (Agi/Awar)
 The ability to efficiently craft arrows, bolts and javelins. 
 
-Tools: a carving knife, a brush
-
 [Crafting](./strive-core.md#crafting--research-projects)
-| Product                              | Complexity | Workload  | Materials                              | Quality Bonus   |
-| ------------------------------------ | ---------- | --------- | -------------------------------------- | --------------- | 
-| 5 Arrow shafts                       | Low        | Moderate  | Wood; feathers; glue                   | / | 
+
+**Tools**: a carving knife, a brush
+
+| Product                              | Progress Increment | Time Increment |
+| ------------------------------------ | ------------------ | -------------- |
+| 10 Arrows/Bolts                      | Low        | Moderate  |
 
 #### Glass-Blowing (Agi/Agi)
 The ability to make objects from glass. 
