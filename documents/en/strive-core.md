@@ -109,8 +109,14 @@ Version 22 (Playtest)
   - [Ticks](#ticks)
   - [Down-Time](#down-time)
     - [Travel](#travel)
-    - [Crafting](#crafting)
-      - [Crafting Time Chart](#crafting-time-chart)
+    - [Crafting \& Research Projects](#crafting--research-projects)
+      - [Project Prerequisites](#project-prerequisites)
+      - [Progressing a Project](#progressing-a-project)
+        - [Complexity to Progress Increments](#complexity-to-progress-increments)
+        - [Workload to Time Increments](#workload-to-time-increments)
+      - [Project Boosters](#project-boosters)
+      - [Research Projects](#research-projects)
+      - [Invention Projects](#invention-projects)
     - [Trade](#trade)
       - [Seller's Chart](#sellers-chart)
       - [Buyer's Chart](#buyers-chart)
@@ -222,7 +228,7 @@ Version 22 (Playtest)
   - [List of Titles of Renown](#list-of-titles-of-renown)
     - [Heart of Stone](#heart-of-stone)
     - [Hero of Many Victories](#hero-of-many-victories)
-    - [Loremaster of X](#loremaster-of-x)
+    - [Loremaster of X (degree)](#loremaster-of-x-degree)
     - [Monster Hunter](#monster-hunter)
     - [Paragon](#paragon)
     - [Pugilist](#pugilist)
@@ -883,7 +889,7 @@ See the [toughness attribute](#toughness-tough) to determine the **maximum HP**.
 When a character is **bludgeoned** to `0` [HP](#hit-points-hp), they might survive and fall [Unconscious](#unconscious), instead of dying. For that, they must succeed a [Toughness](#toughness-tough) [test](#tests) at **Ob** `3`. If they fail, they die, after all.
 
 #### Temporary Hit-Points
-Temporary HP are added to the current HP of a character. The difference to regular HP is, that Temporary HP may exceed the maximum HP limit!
+**Temporary HP** are added to the current HP of a character. The difference to regular HP is, that Temporary HP may exceed the maximum HP limit!
 
 > A character with `28` current and `30` maximum HP, is awarded `10` Temporary HP. This takes their current HP to `38`, thus exceeding their limit of `30`. 
 
@@ -1221,34 +1227,83 @@ How much time it takes, exactly, to get from *A* to *B*, depends heavily on the 
 
 If there is a world map, the **GM** could overlay it with tiles of squares or hexagons, which may help with determining distance. If your group desires, you could even play it so that your characters only travel from tile to tile. Moving from one tile to another may then always take a set time, unless faster means of travel are available. That way, travel would be simplified and abstract. But discuss with your group, whether you want to play it this way. Travel may also provide interesting opportunities for role-playing and *conflicts*. The abstract level draws attention away from these opportunities. 
 
-### Crafting
-All [craftsmanship skills](#craftsmanship) require a time investment proportional to the *quality* and *complexity* of the desired product, as well as the innate *effort* required to create it. 
+### Crafting & Research Projects
+<img src="../../img/crafting.svg" style="width: 3rem; height: 3rem;"></img>
 
-Making use of a [craftsmanship skill](#craftsmanship) to create something requires a [graduated test](#graduated-test) be made. The number of dice in play dictate both the time required and the maximum achievable quality. Each [skill](#skills) in question notes how much time one die "costs". It is possible to roll with fewer dice, than would be available for the [graduated test](#graduated-test). [Forked skills](#skill-forking) can also provide a die each, but note that *every* die, including those from [forked skills](#skill-forking), increase the time required. The number of **hits** and **misses** achieved has no effect on the time taken. Merely the *number* of dice that were rolled matters. 
+In their own free time, characters can spend time and resources to create [Assets](#assets), research obscure subjects, make new scientific discoveries or create new inventions. 
 
-Most **skills** do not allow for failure and the outcome of the test simply denotes the achieved quality of the product. But there are some **skills**, which can be failed, entirely. In such a case, an **Ob** threshold will be noted. Failing to achieve **Ob** number of **hits**, will result in a **complete failure** of the test - there is no resulting product and the materials used are wasted. 
+If you enjoy inventing your own unique types of [Assets](#assets) that you wish to add to the game, chances are, some of them will be craftable by **PCs**. But how to choose the Progress Increment and Time Increment? For that, see the [Complexity to Progress Increments](#complexity-to-progress-increments) and [Workload to Time Increments](#workload-to-time-increments) sections below. 
 
-The number of **hits** achieved denote the quality that has been achieved. Note this number on the product. 1-2 **hits** result in a **poor**, 3-4 in an **average**, 5 in a **good**, 6 in an **excellent** and 7+ in a **masterwork** product.
+#### Project Prerequisites
+Typically, a project can only be worked on with access to necessary resources and know-how. Skills that detail how they can be used for crafting will also note the prerequisites required. As always, the **GM** has the final word. 
 
-Also keep in mind that to craft anything, you must have the materials required. The [craftsmanship skill](#craftsmanship) in question will provide an overview of the kinds of products you can make and what they require. Note, however, that things are kept vague on purpose. No encyclopedic listing of all possible products and required materials can be found, because such lists could never completely encompass the full spectrum of creativity available. The things listed on the skills are only meant to provide guidance. So, be creative and have your **GM** help you figure out what you need to make your product. 
+#### Progressing a Project
+Every Project's **progress** is tracked numerically. All progress begins at `0` and is increased through use of a particular Skill, further called the Project Skill. 
 
-Depending on how easy to acquire the materials are, you may act on a more abstract level and "go shopping", simply spending the time and money required up front, without turning it into a scene or adventure of its own, that must be played out. Of course, the more difficult to acquire materials may require you to *actually* go and find them. 
+Every Project has a **Progress Increment** and a **Time Increment**. The Progress Increment tells you how much progress is needed to finish the Project. For every Time Increment worth of time you spend on the Project, you may add your **Project Skill level plus its Base Attribute** as points of progress. In other words, the number of dice you get to roll for a test of the Project Skill equals the progress you can make. Up to `3` assisting characters may also add `+1` point of progress every time, along with you. But of course, in the meantime, these characters cannot work on their own Projects. Note that progress isn't rolled for, it is simply added, when the Time Increment's worth of minutes/hours/days has been spent. 
 
-> For example, a **PC** might have decided they want to create an elaborately decorated piece of furniture, with bands of gold and colored glass inlays. Even though the corresponding skill does not list gold as a material for its product, the **PC** should have to procure the gold, if they are to finish their piece of furniture. 
+By default, your finished Project will have Quality level `1`. Every time you have arrive at full progress, you must make a choice. **Finish** the Project and accept its current Quality level, or **push on**. If you push on, the total required progress of your Project is increased by another Progress Increment, but you also give yourself a chance to further improve the resulting Quality level. Once you yet again arrive at full progress, a **test of your Project Skill** is required of you. The **Ob** is `N + 1`, where *N* is the current number of times you have already pushed on. If you succeed the test, the resulting Quality level of your Project increases by `+1`. But if you fail, it loses `-1` Quality level, *unless* you instead accept a **Complication**, see below. Note that failure cannot reduce the Quality level to less than `1`. Then you may yet again decide to finish the Project, or push on. 
 
-#### Crafting Time Chart
-The following matrix denotes the time that work will take, based on its inherent *complexity* and *workload*. 
+You can continue this cycle any number of times, but if you **fail twice in succession**, your Project is **botched**. You lose all resources and all progress towards it. This is a critical blunder. 
 
-| **Complexity >** <br> **Workload v** | **Low** | **Moderate** | **High** | **Very High** | 
-| ------------- | ---------- | ---------- | ---------- | ---------- | 
-| **Low**       | 5 Minutes  | 15 Minutes | 1 Hour     | 1 Week     | 
-| **Moderate**  | 10 Minutes | 1 Hour     | 1 Day      | 2 Weeks    | 
-| **High**      | 30 Minutes | 12 Hours   | 3 Days     | 3 Weeks    | 
-| **Very High** | 1 Hour     | 1 Day      | 1 Week     | 1 Month    | 
+| D4 | Complication |
+| -- | ------------ |
+| 1  | Setback: you lose half of all your progress (RU). |
+| 2  | Blockade: you realize you need to fulfill another prerequisite to continue your work. Consult your **GM**. |
+| 3  | Overthinking it: from now on, the Progress Increment is **doubled**. |
+| 4  | Drawback: once finished, the result of your Project will contain a drawback. Consult your **GM**. |
 
-A **very high** complexity requires the work to be done in a highly specialized environment, with equally specialized tools. The other end of the spectrum is a **low** complexity, which describes work that can be done practically anywhere - even on the road - and with any tool at least somewhat fit for the job. 
+Note that even through a Quality level `1` Project, for which you needn't roll anything for, you get [advancement progress](#advancement)! And of course, for your Project Skill test, you may [fork](#skill-forking) and accept [help](#providing-assistance)!
 
-Workload is the result of processes that naturally take a long time, the difficulty in processing materials and the amount of work that has to be done. A **very high** workload will take months to complete, while a **low** workload may be finished in a matter of minutes. 
+#### Project Boosters
+During their adventures, or while perusing the market or library, **PCs** may find things that can boost the progress of their Project. These **Project Boosters** can be varied - schematics, specialized tools, a rare artefact, advice from a knowledgeable **NPC**, and so on. 
+
+These things can add progress to a Project or raise the base Quality level. How much they boost the Project, will be determined by the **GM**. A good baseline should be that a common booster adds `+10`, a rare adds `+30` and an enigmatic adds `+60`. But of course, these numbers are only suggestions. Boosters that increase base Quality level should be very rare and most valuable. Acquiring them should be an adventure of its own, or the reward for great deeds well performed. 
+
+Typically, Project Boosters are one-time use. Once they have been used to add progress to the Project, they cannot be used again. However, this is not a hard-set rule. Some things, like a magic cauldron or high-tech lab equipment may of course be used again, provided no narrative reasons forbid it. 
+
+#### Research Projects
+A Project can be about the research of knowledge, but not about mundane every-day things. You must visit various libraries, study dusty old tomes or comb countless digital archives, go on archeological digs and so forth. This is a task requiring substantial effort. 
+
+For all Research Projects, the Progress Increment is `25` and the Time Increment is `6` Hours. The Quality level you achieve in the end dictates the degree of knowledge you learned about your subject. You may always try to gain even deeper understanding of your topic, by researching the same subject matter again. Your previous knowledge will accelerate further studies by the listed **Progress Bonus**.
+
+As a prerequisite to begin your studies, you must have access to the number of research objects as listed below. This can be anything, from old scrolls to data sticks, from shattered pieces of ancient machinery to intact but completely alien devices and of course **NPCs** who hold knowledge they might be willing to share. 
+
+| Obscurity   | Quality Level | Progress Bonus | Research Objects | Description | 
+| ----------- | ------------- | -------------- | ---------------- | ----------- | 
+| Common      | 1 - 2         | 2              | 0                | Common knowledge can be easily researched. Even so, it's not so common that everyone knows it already. It may still take some effort to find the right pieces of writing or piece together what you need from questioning several other people. |
+| Specialized | 3 - 4         | 5              | 1                | Only few individuals have deeper knowledge regarding the topic you seek to understand. Only few pieces of writing even make note of your topic. It will require substantial effort to track down sources of knowledge and then puzzle the pieces together. |
+| Obscure     | 5 - 6         | 10             | 2                | Barely anyone, if anyone at all, even knows of this esoteric subject. Tracking down anyone with knowledge will be a considerable challenge. And whatever writing exists, may be stowed away, hidden in private collections, not easily accessible and not easily parted with. And even if access to these sources of knowledge can be secured, making sense of it all will be a challenge. |
+| Lost        | 7 - 8         | 20             | 3                | No one alive still knows anything about this subject. Whatever writing may exist, is manifested in a long dead language, on a medium hidden in a remote and forgotten place. Even if you find this remnant of knowledge, how could you possibly make sense of it? |
+
+When you finish the research Project, you'll have the answers you seek and may gain the title "Loremaster of *X* (degree)", where you replace *X* with the subject you researched and *degree* with the Quality level. 
+
+#### Invention Projects
+A Project can be about the invention of completely unique and new [Assets](#assets). The progress required will depend on the degree of complexity, as the **GM** will determine.  
+
+| Complexity  | Progress Increment | Time Increment | Description | 
+| ----------- | ------------------ | -------------- | ----------- | 
+| Simple      | 20                 | 1 Hour         | How did no one come up with this, before? It's so simple! This is typically a variation of something else that already exists, but with a minor modification. Given your current access to tools and resources, it is easy to imagine how you might complete this Project. |
+| Specialized | 25                 | 6 Hours        | A fairly unique idea, that is within the realm of the imaginable. This is typically a major variation or modification of something that already exists. It will require specialized tools and resources and some effort to achieve. |
+| Complex     | 50                 | 6 Hours        | A highly challenging invention, that will require highly specialized tools, resources and knowledge to achieve. What you're trying to create is outside your world's current technological or arcanic level of progress, but not unimaginable. |
+| Fantastical | 100                | 1 Day          | What you're trying to create simply doesn't exist. No one has ever thought of this idea before and it's difficult to imagine how such a feat could even be achieved. But should it be possible, you'll have a lot of groundwork to cover. You will need to make your own tools, gain access to very particular resources, double-crunch the numbers and make several prototypes before the real thing could possibly be manifested. |
+
+For every Quality level you achieve, your invention may have one additional function or an existing function is one degree more potent. 
+
+#### Complexity to Progress Increments
+Think about complexity in terms of *how difficult is it to make the thing?*, *are specialized tools needed?*, *are special resources required?* and *does the task have any tolerance for failure?*
+
+| Complexity         | Trivial     | Routine     | Specialized | Complex     | Monumental  |
+| ------------------ | ----------- | ----------- | ----------- | ----------- | ----------- |
+| Progress Increment | 5 - 10      | 10 - 20     | 25 - 40     | 50 - 75     | 100         |
+|                    | A trivial craft can be done at any time, anywhere - even on the road. It barely requires any resources and you can improvise the tools you need. | A routine craft is routine only to a learned and experienced craftsperson. While the work won't put your skills to the test, it still requires some effort and experience to achieve. Improvised tools may still do, and some resources may still be substituted. But the work does demand focus. | A specialized craft is a bit more challenging. You need to sit down and actually focus on the work and need the proper tools and resources to get it done. But provided you bring those, your work can be done anywhere. | A complex craft requires specialized tools and rare resources, which may not be readily accessible to just anyone and the work must be done in a specialized environment. | A monumental craft requires tools that simply don't exist, anywhere. You will have to create them, yourself. The resources you need will require substantial effort to track down. Perhaps you'll even be the first discover their existence. The work can be done only in a highly specialized environment, to minimize the risk of delicate machinery getting dusty, aerosols mixing or vibrations in the earth agitating the wrong powder and so forth. |
+
+#### Workload to Time Increments
+Workload is the result of processes that naturally take a long time, the difficulty in processing materials and the amount of work that has to be done. A very high workload will take very long to complete, while a low workload may be finished in a matter of moments.
+
+| Workload       | Low         | Moderate    | High        | Very High   |
+| -------------- | ----------- | ----------- | ----------- | ----------- |
+| Time Increment | 10 Minutes  | 1 Hour      | 6 Hours     | 24 Hours    |
 
 ### Trade
 Selling and buying things can take a surprising amount of time. If prices are too high and demand or reputation too low, chances are, you won't be able to sell your goods. But even when people do show interest in your wares, you still have to *sell it* to them. An uncharismatic merchant will have a difficult time making a pretty profit, regardless of the quality of their goods. On the other hand, buying things may prove equally difficult, when what you're looking for isn't really available. 
@@ -2168,9 +2223,13 @@ The ability to paint and draw well, as well as a general sense of aesthetics.
 #### Cooking (Awar/Wit)
 The ability to cook hearty and sweet meals that can strengthen and invigorate. Poor cooks are prone to losing ingredients due to burning them or overcooking them to the point of inedibility. 
 
-Tools: cooking utensils; a pot, pan, spitroast or similar; a strong heat source
+[Crafting](#crafting--research-projects)
 
-A cook may choose to make the meal confer certain boons, for `Q * 2` hours, at the expense of increasing the Ob by `+1`, once for each of the following boons:
+**Tools**: cooking utensils; a pot, pan, spitroast or similar; a strong heat source
+
+**Resources**: Foodstuffs; Better quality can act as [booster](#project-boosters)
+
+For every `Q` past `1`, the meal may confer certain boons, for `Q * 2` hours. Each of the following boons can be picked only once:
 * Grant `Q D4` [Temporary HP](#temporary-hit-points). 
 * Increase [base initiative](#base-initiative) by `Q`. 
 * Increase [strength](#strength-str) or [toughness](#toughness-tough) by `Q / 2 (RU)`. 
@@ -2180,10 +2239,9 @@ All meals always restore `Q HP` and reduce exhaustion by `Q`.
 
 The boons from meals do not stack. Eating a second meal will have it override all of a previous meal's boons. The strength of boons is determined at the time of creation and are the same for all characters who share in the meal. 
 
-[Crafting](#crafting)
-| Product                              | Complexity | Workload  | Ob | Materials                              | Quality Bonus   |
-| ------------------------------------ | ---------- | --------- | -- | -------------------------------------- | --------------- | 
-| Meal                                 | Low        | High      | 1  | Foodstuffs                             | Restores `Q HP` and reduces exhaustion by `Q`. |
+| Product                              | Progress Increment | Time Increment | Quality Bonus   |
+| ------------------------------------ | ------------------ | -------------- | --------------- |
+| Meal                                 | 5                  | 10 Minutes     | Restores `Q HP` and reduces exhaustion by `Q`. |
 
 | Level | <img src="../../img/heroic-acts.svg" width="64px" height="64px"></img> | Heroic Act Description | Desperate Measure Description | <img src="../../img/desperate-measures.svg" width="64px" height="64px"></img> |
 | ----- | ----------------------- | ---------------------- | ----------------------------- | --------------------------- |
@@ -2223,12 +2281,16 @@ Every time you earn [Temporary HP](#temporary-hit-points), you earn `+5` more!
 
 Every combat you enter starts your side with `+10` [Momentum](#momentum). 
 
-### Loremaster of X
+### Loremaster of X (degree)
 > What do you wish to know? Oh, yes, I do remember reading about that. I'll gladly explain it all to you in excruciating detail. 
 
 **Prerequisites**: Researched obscure or forgotten lore about a particular subject. 
 
-Replace *X* with the subject you're knowledgeable about. You know *everything* about this topic. 
+Replace *X* with the subject you're knowledgeable about. Then replace *degree* with the depth of your knowledge:
+1. You have surface-level understanding of the topic. You know as much as anyone could, if they did a little more digging. 
+2. You have a deeper understanding and can recall details your peers didn't know existed. But even you find your limit early when it comes to the more obscure details. 
+3. You know even the more obscure details. But your knowledge is still incomplete. The long lost secrets remain a mystery even to you. 
+4. You know *everything* about this topic. No detail is too obscure, no secret left buried. 
 
 ### Monster Hunter
 > You should *see* my trophy wall - there isn't a beast's head I haven't collected!
@@ -2479,10 +2541,11 @@ A **multiple-single-target** (**MST**) action affects at least one and up to a m
 | -------------------------------------------- | ----------------------- |
 | [AP](#action-points-ap)                      | Action Point            |
 | [AFP](#ambition-fate-points)                 | Ambitions Fate-Point    |
-| [Agi](#agility-agi)                          | The Agility attribute   |
+| [Agi](#agility-agi)                          | The Agility Attribute   |
 | [AOE](#area-of-effect-aoe)                   | Area of Effect          |
 | [AP](#action-points-ap)                      | Action Point            |
-| [Awar](#awareness-awar)                      | The Awareness attribute |
+| [Awar](#awareness-awar)                      | The Awareness Attribute |
+| [Base Attribute](#skills)                    | One of the two Attributes a Skill relies on. |
 | [Concentration](#concentration)              | A Skill or Expertise whose effects last as long as desired |
 | [D10](#dice)                                 | A ten-sided die         |
 | [D20](#dice)                                 | A twenty-sided die      |
