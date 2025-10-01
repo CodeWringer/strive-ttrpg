@@ -2227,6 +2227,8 @@ The ability to cook hearty and sweet meals that can strengthen and invigorate. P
 
 **Tools**: cooking utensils; a pot, pan, spitroast or similar; a strong heat source
 
+**Resources**: Foodstuffs; Better quality can act as [booster](#project-boosters)
+
 For every `Q` past `1`, the meal may confer certain boons, for `Q * 2` hours. Each of the following boons can be picked only once:
 * Grant `Q D4` [Temporary HP](#temporary-hit-points). 
 * Increase [base initiative](#base-initiative) by `Q`. 
