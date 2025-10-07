@@ -211,7 +211,7 @@ Furthermore, a meta-currency, called **Fate Points** is earned by *players*, bas
       - [Path-finding (Awar/Wit)](#path-finding-awarwit)
       - [Shield (Str/Tough)](#shield-strtough)
       - [Trapping (Awar/Wit)](#trapping-awarwit)
-      - [Throwing (Agi/Agi)](#throwing-agiagi)
+      - [Throwing (Agi/Agi)](#throwing-agistr)
       - [Unarmed Combat (Agi/Str)](#unarmed-combat-agistr)
       - [Weapon \< weapon type \> (\< attribute \>)](#weapon--weapon-type---attribute-)
     - [Social Skills](#social-skills)
@@ -954,15 +954,15 @@ A `2D10 + 10` roll determines the number of **days** the Injury takes to fully h
 | Slashing    | [Medicine](#medicine-agiwit) | `+1` [Bleeding](#bleeding)       |
 
 #### Grit Points
-A **Grit Point** lets a character stand up in defiance of their [Injuries](#injury) and make a last-ditch effort to turn the wheel of fate around. 
+**Grit Points** let a character stand up in defiance of their [Injuries](#injury) and make a last-ditch effort to turn the wheel of fate around. 
 
-Every time a character suffers an [Injury](#injury), they gain `+1` Grit Point. They are a one-time use resource and last until they are spent or until *any* [Injury](#injury) has fully healed. 
+Every time a character suffers an [Injury](#injury), they gain `+1` Grit Point. These are a one-time use resource and last until they are spent or until *any* [Injury](#injury) has fully healed. 
 
 You may spend Grit Points at any time during a round for the following effects (but only one Grit Point per effect, per round): 
 * On a [test](#tests), gain `+2D`. 
 * On a [test](#tests), gain `+1` [compensation point](#compensation-points). 
 * Reduce [Exhaustion](#exhaustion) by `1D4`. 
-* On your next attack, deal `+8` points of [Pure damage](#damage-types). 
+* On your next successful attack, deal `+8` points of [Pure damage](#damage-types). 
 * Gain `+1D4` [AP](#action-points-ap). 
 
 ### Exhaustion
@@ -1461,7 +1461,7 @@ This **action** costs 2 [AP](#action-points-ap).
 The ally in question can **oppose** this action with [strength](#strength-str) (both characters will have to compete with this **attribute**). 
 
 ## Attacking
-Attacks are made with an [Expertise](#expertise) of a [Weapon](#weapon--weapon-type--str), the [Unarmed Combat](#unarmed-combat-agistr) or the [Throwing](#throwing-agiagi) [Skill](#skills). 
+Attacks are made with an [Expertise](#expertise) of a [Weapon](#weapon--weapon-type--str), the [Unarmed Combat](#unarmed-combat-agistr) or the [Throwing](#throwing-agistr) [Skill](#skills). 
 
 An attack generally requires an [opposed test](#opposed-test) to be made. If the attacker wins, [damage](#damage) is determined and applied to the defender. If the defender wins, they suffer no damage. A defender must *choose* how to defend, unless a specific skill is required. Defense is possible with [weapon](#weapon--weapon-type---attribute), the [Acrobatics](#acrobatics-agistr) or the [Shield](#shield-strtough) Skills. 
 
@@ -1611,7 +1611,7 @@ The steps to determine **distance** to throw are as follows:
 > A character with **strength** `5` can throw an object of bulk `1` up to `75'/25m` and an object of bulk`3` up to `45'/15m`. 
 
 ### Throwing-Accuracy
-How likely the object is to impact where intended is determined by the object's [bulk](#bulk), the distance to throw and the character's skill in the [throwing](#throwing-agiagi) skill. If throwing _at_ another character, then their defense also factors into the chance to hit. 
+How likely the object is to impact where intended is determined by the object's [bulk](#bulk), the distance to throw and the character's skill in the [throwing](#throwing-agistr) skill. If throwing _at_ another character, then their defense also factors into the chance to hit. 
 * For every `15'/5m` interval, the **Ob** increases by `1`. 
   * That means up to `15'/5m` is **Ob** `1`. Starting at `18'/6m`, up to and including `30'/10m` it's **Ob** `2`. Starting at `33'/11m`, it's **Ob** `3`, and so on.
 
@@ -1971,7 +1971,7 @@ Moving silently and performing actions undetected.
 #### Swimming (Agi/Tough)
 The ability to safely stay afloat and move around in water. 
 
-For every point in **swimming**, a character can move an additional 3'/1m per [AP](#action-points-ap) spent or every 5 seconds. 
+For every point in **swimming**, a character can move an additional `3'/1m` per [AP](#action-points-ap) spent or every `5` seconds. 
 
 #### Thievery (Agi/Awar)
 Pickpocketing and lockpicking. 
@@ -1979,7 +1979,7 @@ Pickpocketing and lockpicking.
 | Level | Name                 | AP | **Ob**  | Effect(s)          | Condition(s) |
 | ----- | -------------------- | -- | ------- | ------------------ | ------------ |
 | 3     | Nimble Recovery      | 2  | Opposed | When failing a **thievery test**, roll another **thievery test**, against the target's [observation](#observation-awarawar) to see if you've been found out. If you win, you're not discovered, but you don't succeed at pick-pocketing, either. | Once per rest. |
-| 4     | Feel the Mechanism   | 2  | 4       | Instantly succeed at picking even a very difficult lock. | Once per rest. |
+| 4     | Feel the Mechanism   | 2  | 1       | Instantly succeed at picking even a very difficult lock. | Once per rest. |
 
 #### Observation (Awar/Awar)
 Actively looking out for and detecting hidden things or characters. 
@@ -2009,7 +2009,7 @@ Setting traps in places where they're difficult to detect and the ability to dis
 
 When setting a trap, roll an Ob `0` test. The number of **hits** represent the quality level of the trap, which determines how hard it is to detect and disarm. `0` **hits** means the trap isn't at all concealed and the test is considered a **failure**. Even just `1` **hit** means the test is considered a **success**. 
 
-#### Throwing (Agi/Agi)
+#### Throwing (Agi/Str)
 General expertise at throwing things. This includes weapons as well as non-weapon objects. 
 
 See [throwing](#throwing). 
@@ -2092,7 +2092,7 @@ In and outside of [combat](#combat), a rider will inherit the [speed](#combat-mo
 | Level | Name                 | AP | **Ob** | Effect(s)          | Condition(s) |
 | ----- | -------------------- | -- | ------ | ------------------ | ------------ |
 | 1     | Spur                 | 1  | 2      | Gain an additional 2 **AP** worth of movement from your mount. You and your mount suffer `+1` [Exhaustion](#exhaustion). | Only once per round. |
-| 3     | Mounted Charge       | 3  | 3      | Perform a mounted charge attack, dealing `2D4` extra damage of whatever weapon type you are using. | Mounted on a fast and strong animal; Must have enough distance to target to gain enough speed - refer to **GM**'s judgement. |
+| 3     | Mounted Charge       | 3  | 3      | Perform a mounted charge attack, dealing `2D4` additional points of bludgeoning damage. | Mounted on a fast and strong animal; Must have enough distance to target to gain enough speed - refer to **GM**'s judgement. |
 
 #### Self-Control (Tough/Tough)
 Mastery of one's own impulses. Used to stay awake past the point of exhaustion and to not act on emotional impulse. 
@@ -2216,9 +2216,9 @@ All craftsmanship requires a mix of physical and mental attributes, for the purp
 #### Artistry (Agi/Awar)
 The ability to paint and draw well, as well as a general sense of aesthetics. 
 
-| Product                              | Complexity | Workload  | Materials                              | Quality Bonus   |
-| ------------------------------------ | ---------- | --------- | -------------------------------------- | --------------- | 
-| 1 painting or sculpture.             | Moderate   | Moderate  | Any paintable or shapeable object, such as a canvas or chunk of marble. | / |
+| Product                              | Progress Increment | Time Increment | Materials                              | Quality Bonus   |
+| ------------------------------------ | ------------------ | -------------- | -------------------------------------- | --------------- | 
+| A painting or sculpture.             | 20                 | 10 Minutes     | Any paintable or shapeable object, such as a canvas or chunk of marble. | / |
 
 #### Cooking (Awar/Wit)
 The ability to cook hearty and sweet meals that can strengthen and invigorate. Poor cooks are prone to losing ingredients due to burning them or overcooking them to the point of inedibility. 
@@ -2474,7 +2474,7 @@ A **stunned** character is unable to act, at all. During combat, their turn is s
 * Difficult repeats: Whenever shrugging off this Condition, you become **guarded** against it until the start of your next turn, making any attack or effect enacted against you that would cause you to suffer it again `+1` Ob harder for your foes. 
 
 ### Terrified
-A **terrified** character **has to** flee from whatever it is that terrified them, until they can no longer perceive it, for at least one round. 
+A **terrified** character **must** flee from whatever it is that terrified them, until they can no longer perceive it, for at least one round. 
 
 * Graded
 * Shrug off: 1 *point* with a [self-control](#self-control-toughtough) [test](#tests) with **Ob** `1`. 
