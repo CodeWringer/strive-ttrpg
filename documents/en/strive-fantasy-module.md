@@ -139,7 +139,7 @@ My two small, yet inexorable groups of playtesters, whose feedback has been inva
 New in this module, is the attribute [arcana](#arcana-arc), which governs a character's capacity for magic. 
 
 ## Attributes
-Supplements to the [core attributes](./strive-core.md#base-characteristics). 
+Supplements to the [core attributes](./strive-core.md#attributes). 
 
 ### Arcana [Arc]
 Governs a character's ability to control and sense magic flow, casting magic spells or detecting lingering magic. 
