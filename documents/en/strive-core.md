@@ -2066,7 +2066,7 @@ Speaking commands with booming authority.
 | 0     | Focus!                 | 1  | 1       | Grant another character `+1D` for their next test. |  |
 | 0     | Shake It Off!          | 2  | 2       | Remove another character's [Exhausted](#exhausted) or [Terrified](#terrified) [Condition](#condition). |  |
 | 1     | Hit That One!          | 1  | 2       | [Mark](#marked) a **ST** of choice. |  |
-| 2     | Deep Lungs             | /  | 2       | Immediately grant yourself `+1` [AP](#action-points-ap). | Only once per round. |
+| 2     | Deep Lungs             | /  | 2       | Immediately grant yourself `+1` [AP](#action-points-ap), but suffer `+1` [Exhaustion](#exhaustion). | Only once per round. |
 | 3     | Protect Me!            | 1  | /       | **Reaction**: Upon being attacked, force an ally adjacent to you to defend to defend in your stead and grant them `+1` [Compensation Point](#compensation-points) for the defense test. | Ally can hear the command. |
 | 3     | Put Your Back Into It! | 1  | 2       | **Reaction**: Upon an ally [force moving](#forced-movement) another character, increase the distance by `N * 3'/1m`, where *N* is the **hits** past the **Ob** you achieve. | Ally can hear the command. |
 | 3     | You Pathetic Worm!     | 1  | Opposed by [Toughness](#toughness-tough) | Intimidate a **ST** of choice, within ear-shot. They suffer `-1D` for their next defense test, for `1` round, and have to back away from you, by `6'/2m`! | Victim can hear it. |
