@@ -2221,7 +2221,7 @@ The ability to paint and draw well, as well as a general sense of aesthetics.
 | A painting or sculpture.             | 20                 | 10 Minutes     | Any paintable or shapeable object, such as a canvas or chunk of marble. | / |
 
 #### Cooking (Awar/Wit)
-The ability to cook hearty and sweet meals that can strengthen and invigorate. Poor cooks are prone to losing ingredients due to burning them or overcooking them to the point of inedibility. 
+The ability to cook hearty and sweet meals that can strengthen and invigorate. 
 
 [Crafting](#crafting--research-projects)
 
