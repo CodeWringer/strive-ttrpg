@@ -97,6 +97,7 @@ Furthermore, a meta-currency, called **Fate Points** is earned by *players*, bas
     - [Personality Traits](#personality-traits)
   - [Health](#health)
     - [Hit Points (HP)](#hit-points-hp)
+      - [Recovering HP](#recovering-hp)
       - [Bludgeoned to 0 HP](#bludgeoned-to-0-hp)
       - [Temporary Hit-Points](#temporary-hit-points)
     - [Injury](#injury)
@@ -211,7 +212,7 @@ Furthermore, a meta-currency, called **Fate Points** is earned by *players*, bas
       - [Path-finding (Awar/Wit)](#path-finding-awarwit)
       - [Shield (Str/Tough)](#shield-strtough)
       - [Trapping (Awar/Wit)](#trapping-awarwit)
-      - [Throwing (Agi/Agi)](#throwing-agistr)
+      - [Throwing (Agi/Str)](#throwing-agistr)
       - [Unarmed Combat (Agi/Str)](#unarmed-combat-agistr)
       - [Weapon \< weapon type \> (\< attribute \>)](#weapon--weapon-type---attribute-)
     - [Social Skills](#social-skills)
@@ -869,21 +870,24 @@ Every character has **Hit Points (HP)** and may suffer **Injuries**. Additionall
 **PCs** may shrug off Injuries and earn [Grit Points](#grit-points). 
 
 ### Hit Points (HP)
+**Hit Points (HP)** are a broad abstraction for the overall healthiness of a character. 
+
 Whenever a character is hurt, the **damage** that has been inflicted upon them is deducted from their **HP**. When their **HP** reach `0`, they **die**. <br>
 An exception to this rule applies when the [damage type](#damage-types) that brought them to `0` **HP** was [bludgeoning](#damage-types). For that, see [bludgeoned to 0 HP](#bludgeoned-to-0-hp). <br>
 A further exception applies, but only for PCs, who upon reaching `0` **HP** are brought to [Death's Door](#deaths-door) (unless they are knocked unconscious). 
 
 Whenever a `10` **HP** segment threshold is reached, an [injury](#injury) *may* be suffered. For more details, see the [injury](#injury) section. **HP** segments are always based on the character's maximum **HP**. 
 
-> A character with `30` **maximum HP** has `3` **HP** segments. The *current* **HP** do not factor into the segments, at all. 
+> A character with `30` **maximum HP** has `3` **HP** segments. The thresholds are: `0` (death), `10` (Injury) and `20` (Injury). The *current* **HP** do not factor into the segments, at all. 
 
-A [graduated](#graduated-test) [medicine](#medicine-agiwit) test can restore `hits * D8` **HP**. This test requires and consumes one unit of [medical supplies](#list-of-general-assets)! 
+See the [toughness attribute](#toughness-tough) to determine the **maximum HP**. Also, the **maximum HP** cannot be reduced to less than `10`, for any reason. 
+
+#### Recovering HP
+A [graduated](#graduated-test) [medicine](#medicine-agiwit) test can restore `hits * D8` **HP**, up to the current maximum. This test requires and consumes one unit of [medical supplies](#list-of-general-assets)! 
 
 > For `3` hits out of `7` rolled dice, a medic can restore `3D8` **HP** for themselves or an ally. 
 
-**HP** also replenish on their own, albeit much slower. For every hour outside of combat, **1 D4** **HP** are regained, up to the current maximum. 
-
-See the [toughness attribute](#toughness-tough) to determine the **maximum HP**. Also, the **maximum HP** cannot be reduced to less than `10`, for any reason. 
+**HP** also replenish on their own, albeit much slower. For every hour outside of combat, `1 D4` **HP** are regained, up to the current maximum. 
 
 #### Bludgeoned to 0 HP
 When a character is **bludgeoned** to `0` [HP](#hit-points-hp), they might survive and fall [Unconscious](#unconscious), instead of dying. For that, they must succeed a [Toughness](#toughness-tough) [test](#tests) at **Ob** `3`. If they fail, they die, after all.
@@ -891,7 +895,7 @@ When a character is **bludgeoned** to `0` [HP](#hit-points-hp), they might survi
 #### Temporary Hit-Points
 **Temporary HP** are added to the current HP of a character. The difference to regular HP is, that Temporary HP may exceed the maximum HP limit!
 
-> A character with `28` current and `30` maximum HP, is awarded `10` Temporary HP. This takes their current HP to `38`, thus exceeding their limit of `30`. 
+> A character with `28` current and `30` maximum HP, is awarded `10` Temporary HP. This takes their current HP to `38`, thus exceeding their limit of `30`, but which is permissive for Temporary HP. 
 
 ### Injury
 An **Injury** is a serious health impediment of a character. It reduces the maximum [HP](#hit-points-hp) and imposes other [penalties](#boons--penalties). 
