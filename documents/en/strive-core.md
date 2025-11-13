@@ -102,6 +102,7 @@ Furthermore, a meta-currency, called **Fate Points** is earned by *players*, bas
       - [Temporary Hit-Points](#temporary-hit-points)
     - [Injury](#injury)
       - [Suffering An Injury](#suffering-an-injury)
+      - [Crippling Injury Count](#crippling-injury-count)
       - [Injury States \& Treatment](#injury-states--treatment)
       - [Injury \& Damage Type Table](#injury--damage-type-table)
       - [Grit Points](#grit-points)
@@ -932,6 +933,11 @@ An Injury always applies a [penalty](#boons--penalties) of `-1` to a randomly se
 Additionally, the primary [Damage Type](#damage-types) that caused the Injury may apply further penalties. See the [Injury & Damage Type Table](#injury--damage-type-table) below. The primary Damage Type is the one of which most got through [armor](#armor--shields) and reduced [HP](#hit-points-hp) the most. If there is a tie, the Damage Type that the armor reduces less is the primary one. If there is still a tie, a coin flip could decide. Note that Injuries apply their **additional penalties only once, upon being suffered**! 
 
 Also keep in mind that whenever a **PC** suffers an Injury, they earn a [Grit Point](#grit-points)! 
+
+#### Crippling Injury Count
+Once accruing more Injuries than your `Toughness + 1` will result in your character getting crippled. Every Injury past this threshold will impose a penalty of **Ob** `+1` to **ALL** tests!
+
+> A character with Toughness `1`, suffers their third Injury. This now cripples their character, meaning **all** their tests are now `+1` **Ob** harder to succeed. If they get yet another Injury - their fourth - they suffer `+2` **Ob**!
 
 #### Injury States & Treatment
 There are two possible states of an Injury: **active** or **treated**. 
