@@ -680,7 +680,7 @@ Note that *level* in this and section and its sub-sections refers to the **raw l
 Also note that advancement is open ended. It technically never stops, although it should slow down considerably, the higher you climb. 
 
 #### Experience Points [XP]
-Experience Points (XP) are a meta-currency that characters earn through [tests](#tests). For **every** [test](#tests), `+1` XP is earned, no questions asked. 
+<img src="../../img/experience-points.svg" style="width: 3rem; height: 3rem;"></img> Experience Points (XP) are a meta-currency that characters earn through [tests](#tests). For **every** [test](#tests), `+1` XP is earned, no questions asked. 
 
 XP may be spent on advancing (i. e. "leveling up") [Attributes](#attributes) and on Skill advancement progress. The conversion rate is `1 to 1`, meaning for every XP spent, a Skill's advancement progress is incremented by the same amount. **But**, XP may only be spent **before or after the session**! 
 
