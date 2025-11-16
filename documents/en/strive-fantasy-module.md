@@ -142,7 +142,7 @@ New in this module, is the attribute [arcana](#arcana-arc), which governs a char
 Supplements to the [core attributes](./strive-core.md#attributes). 
 
 ### Arcana [Arc]
-Governs a character's ability to control and sense magic flow, casting magic spells or detecting lingering magic. 
+<img src="../../img/arcana.svg" style="width: 3rem; height: 3rem;"></img> Governs a character's ability to control and sense magic flow, casting magic spells or detecting lingering magic. 
 
 This is the only attribute that can have a level of `0`, meaning playing a mage is a deliberate choice. 
 
