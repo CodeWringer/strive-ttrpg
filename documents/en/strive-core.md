@@ -52,6 +52,7 @@ Furthermore, a meta-currency, called **Fate Points** is earned by *players*, bas
     - [Rounded Up \& Rounded Down](#rounded-up--rounded-down)
     - [Testing an Attribute](#testing-an-attribute)
     - [Testing a Skill](#testing-a-skill)
+    - [Raw vs. Modified Level](#raw-vs-modified-level)
     - [Types of Test](#types-of-test)
       - [Binary Test](#binary-test)
       - [Stepped Test](#stepped-test)
@@ -369,53 +370,52 @@ Players may now spend earned [fate points](#fate-points) to buy cards (boons) fr
 ## Tests
 Whenever the outcome of an action or situation is uncertain, a **test** may be called for by the **GM**, in order to resolve it. 
 
-As a basis for a **test**, either an [attribute](#attributes) or [skill](#skills) is used. More specifically, their **modified level** determines the number of **D6** available for a **test**. The **modified level** is the result of adding and subtracting [boons and penalties](#boons--penalties) (the sum of which is referred to as **modifier**) to or from the **raw level**. Note that while no [boons or penalties](#boons--penalties) are present on the character, their **modified level** is equal to their **raw level**. 
+Either a `6` or a `5` rolled on a single die counts as a **hit**. Other values are considered **misses**. **Hits** are required in order to succeed a **test**. 
 
-Either a `6` or a `5` rolled on a single die counts as a **hit**. Other values are considered **misses**. **hits** are required in order to succeed a **test**. 
+How many **hits** are needed to succeed a **test**, is determined by the **GM** or by other characters, via a mechanism called **Obstacle** (henceforth referred to as **Ob**). The **test** can only succeed, if at least as many **hits** are rolled, as the given **Ob**. 
 
-How many **hits** are needed to succeed a **test**, is determined by the **GM** or by other characters, via a mechanism called **obstacle** (henceforth referred to as **Ob**). The **test** can only succeed, if at least as many **hits** are rolled, as the given **Ob**. 
-
-> For example, to succeed a **test** at **Ob 3**, at least three **hits** must be rolled to succeed the **test**. Any less, and outcome is a failure. 
+> For example, to succeed a **test** at **Ob** `3`, at least `3` **hits** must be rolled to succeed the **test**. Any less, and outcome is a failure. 
 
 The **Ob** isn't always determined directly by the **GM**. Whenever an [opposed test](#opposed-test) must be made, the **Ob** is determined by another character. 
 
 For every **test**, one of three outcomes is possible: 
 * **Complete Success**: There are enough or more than enough required **hits**.
-* **Partial Failure**: There are not enough **hits**, but more than none. 
+* **Partial Failure**: There are not enough **hits**, but more than none. Most of the time, this is the same as a Complete Failure, but can also imply a "failing forward", at the **GM's** discretion. 
 * **Complete Failure**: There are no **hits**, only **misses**. 
 
 ### Rounded Up & Rounded Down
 Often times, numbers are to be rounded up or down. To keep formulae short, these terms are often abbreviated as **RU** (= rounded up) and **RD** (= rounded down). 
 
 ### Testing an Attribute
-To resolve an **attribute test**, the number of **D6** determined by the **attribute's modified level** must be rolled. 
+To resolve an **Attribute test**, roll `ND6`, where *N* is the **Attribute's [Modified Level](#raw-vs-modified-level)**. 
 
-> A **PC** has an [agility](#agility-agi) of 3 and an [injury](#injury) that imposes a [penalty](#boons--penalties) of -1 to their **agility**. 
->
-> When asked to test their **agility**, their player takes their **raw level** (3), subtracts the **penalty** (1) and thus knows their **modified level** to be 2. 
->
-> This means they get to roll 2 **D6** for their **test**. 
-
-Unlike with [skills](#skills), it is **not** possible to [fork](#skill-forking) **attributes**, *at all*. 
+It is **not** possible to [fork](#skill-forking) into Attribute tests, *at all*. 
 
 ### Testing a Skill
-To resolve a **skill test**, the number of **D6** indicated by the **skill's modified level**, plus *one* of its two **base attributes' modified level** as additional **D6** must be rolled. You must choose, which of the two base attributes to roll. 
+To resolve a **Skill test**, roll `ND6`, where *N* is the sum of both **Base Attributes' [Modified Levels](#raw-vs-modified-level)**. The [Modified Level](#raw-vs-modified-level) of the Skill dictates the maximum number of **hits** that may count towards the result. Only that many of the achieved **hits** may, at most, factor into the test's outcome. This is called the **Hit Limit**.
 
-The **modified level** is the result of adding and subtracting [boons and penalties](#boons--penalties) from the **raw level**. 
+All Skills have two Attributes they're based on / rely on, noted in parentheses next to the Skill's name. These are called the Base Attributes. 
 
-> A **PC** has an [agility](#agility-agi) at **modified level** 3 and [strength](#strength-str) at **modified level** 1. 
+A special exception is made for **hits** that are yielded by [Compensation Points](#compensation-points) - these do **not** count toward the Hit Limit! Or, even if the Compensation Points don't yield a **hit**, they can then be used to raise the Hit Limit! 
+
+It possible to [fork](#skill-forking) Skills, allowing even more dice to be used in a test. **Do not forget to fork your skills in tests!**
+
+> A character is asked to test a Skill, which is level `3`. The two Base Attributes have the Modified Levels of `3` and `4`. The sum of `7`, is the number of **D6** available for the test. 
 > 
-> In order to test their [acrobatics](#acrobatics-agistr) skill at **modified level** 2, they get to roll (3 or 1) + 2 = 5 or 3 **D6**, if they don't have any other skills to [fork](#skill-forking) into the test. 
+> They roll `1`, `1`, `5`, `2`, `5`, `6` and `5`, of which `4` are **hits**! But because their Skill is only level `3`, they may only take `3` of those **hits** for the test's result. 
+>
+> *However*, they are afforded `1` Compensation Point for the test. While the Compensation Point would not be enough to turn one of the **misses** into a **hit**, it can then instead be used to raise the Hit Limit by `+1`. Thus, all `4` **hits** may factor into the result, after all! 
 
-It possible to [fork](#skill-forking) **skills**, allowing even more dice to be used in a test. **Do not forget to fork your skills in tests!**
+### Raw vs. Modified Level
+Attributes and Skills have two level numbers. One is the **Raw Level**, while the other is the **Modified Level**. 
 
-> A **PC** has an [agility](#agility-agi) at **modified level** 2, **awareness** at **modified level** 1 and [thievery](#thievery-agiawar) at **modified level** 1. 
+The **Modified Level** results from adding and subtracting [boons and penalties](#boons--penalties) - the sum of which is referred to as **modifier** - to/from the **Raw Level**. It is **always** the Modified Level that is used in tests!
+
+> A **PC** has an Agility with level `3`. That is its Raw Level. 
 >
-> They are asked to roll a test for their [thievery](#thievery-agiawar) at **Ob** 4. With their **base attributes** and [thievery](#thievery-agiawar) combined, they can only roll (2 or 1) + 1 = 3 or 2 **D6** for the test, which means the **Ob** 4 test would be impossible to succeed. 
->
-> But since they also *know* [stealth](#stealth-agiawar), they can petition the **GM** to allow them to [fork](#skill-forking) their [stealth](#stealth-agiawar) into their [thievery](#thievery-agiawar) test. The **GM** agrees and thus allows an additional **D6** to be added to the roll. 
->
-> Thus, the **PC** gets to roll 4 **D6** for their test. While still difficult to succeed, the test _can_ now be succeeded, where before such a feat was impossible. 
+> From a Trait, they gain a boon of `+2` to the Attribute. 
+> 
+> However, they also suffered an Injury, which imposes a `-1` penalty to the Attribute. The sum of boons and penalties (`+2` from the Trait, `-1` from the Injury), results in the **modifier** of `+1`. Applying that modifier yields the Modified Level of `4`. This is the number to use in tests! 
 
 ### Types of Test
 There are the following types of tests. The **GM** decides when to use which. 
@@ -495,9 +495,9 @@ If a **PC** is helping another, their player must describe *how* they're using t
 A character helping in a test, gains `+1` [XP](#experience-points-xp). 
 
 ### Compensation Points
-**Compensation points** allow turning the faces of dice that came up as **misses** up to the next higher number, until they become a **hit**, instead. 
+**Compensation points** allow turning the faces of dice that came up as **misses** up to the next higher number, until they become a **hit**, instead. Any **hit** achieved through a Compensation Point **always** factors into a test's result! They circumvent the **hit** limit imposed by a Skill's level! 
 
-> When rolling `3D6`, with `2` **compensation points** and achieving `5`, `3` and `4` in the roll, then `1` of those **compensation points** can be used to turn the `4` into a `5` or both of the **compensation points** could turn the `3` into a `5`. There are not enough **compensation points** to turn all **misses** into **hits**, but at least one die is guaranteed to become a **hit**! 
+> When rolling `3D6`, with `2` Compensation Points and achieving `5`, `3` and `4` in the roll, then `1` Compensation Point can be used to turn the `4` into a `5` or both Compensation Points could turn the `3` into a `5`. There are not enough Compensation Points to turn all **misses** into **hits**, but at least one die is guaranteed to become a **hit**! 
 
 They may not sound grandiose, but make no mistake, Compensation Points are a ***big deal***! Always seek to earn yourself as many of these as possible! 
 
@@ -521,7 +521,7 @@ All characters have innate and learned abilities. These are described as **Base 
 
 **Base Characteristics** are a character's [Attributes](#attributes) and [Derived Characteristics](#derived-characteristics). 
 
-Two values must be tracked for every **Attribute**: Its **raw level** and its current **modifier**, which results from the sum of [boons and penalties](#boons--penalties) affecting it. The result of adding or subtracting the modifier to/from the **raw level** yields the **modified level**, which is used in [tests](#tests). The higher the **level**, whether **raw** or **modified**, the better. 
+Two values must be tracked for every **Attribute**: Its **raw level** and its current **modifier**, which results from the sum of [boons and penalties](#boons--penalties) affecting it. The result of adding or subtracting the modifier to/from the **raw level** yields the [Modified Level](#raw-vs-modified-level), which is used in [tests](#tests). The higher the **level**, whether **raw** or **modified**, the better. 
 
 For [testing](#tests) an **Attribute**, see the [Testing an attribute](#testing-an-attribute) section. 
 
@@ -539,11 +539,11 @@ Attributes represent a character's most basic abilities.
 
 Governs the [carrying capacity](#carrying-capacity) of a character. Each point in this **Attribute** raises the [carrying capacity](#carrying-capacity) of the character by 3. 
 
-For every 3 points in this **Attribute**, past the initial **modified level**, every [asset slot](#worn--equipped) of a character can hold **assets** of one bulk higher. 
+For every `3` points in this **Attribute**, past the initial [Modified Level](#raw-vs-modified-level), every [asset slot](#worn--equipped) of a character can hold **assets** of one bulk higher. 
 
-> At **modified level** 3 in this **Attribute**, a character can still only hold **assets** of bulk 2 in each hand. 
+> At Modified Level `3` in this **Attribute**, a character can still only hold **assets** of bulk `2` in each hand. 
 > 
-> Starting at **modified level** 4 in this **Attribute**, a character can hold **assets** of bulk 3 in each hand. Then, the next increase is at level 7, then level 10 and so on.
+> Starting at Modified Level `4` in this **Attribute**, a character can hold **assets** of bulk `3` in each hand. Then, the next increase is at level `7`, then level `10` and so on.
 
 #### Toughness [Tough]
 <img src="../../img/toughness.svg" style="width: 3rem; height: 3rem;"> Enduring physical and mental strains. 
@@ -597,7 +597,7 @@ It is derived from the sum of their [Strength](#strength-str) and [Toughness](#t
 ### Skills
 A **skill** is any acquired knowledge and experience regarding a specific subject. You will predominantly [test](#tests) these. 
 
-Two values must be tracked for every **skill**: Its **raw level** and its current **modifier**, which results from the sum of [boons and penalties](#boons--penalties) affecting it. The result of adding or subtracting the modifier to/from the **raw level** yields the **modified level**, which is used in [tests](#testing-a-skill). The higher the **level**, whether **raw** or **modified**, the better. 
+Two values must be tracked for every **skill**: Its **raw level** and its current **modifier**, which results from the sum of [boons and penalties](#boons--penalties) affecting it. The result of adding or subtracting the modifier to/from the **raw level** yields the [Modified Level](#raw-vs-modified-level), which is used in [tests](#testing-a-skill). The higher the **level**, whether **raw** or **modified**, the better. 
 
 Every skill has two [attributes](#attributes) it relies on - its so-called *base* [attributes](#attributes). The level of a chosen one of these base [attributes](#attributes) also factors into [tests](#testing-a-skill) of the **skill**. 
 
@@ -627,7 +627,7 @@ Always keep in mind that *players* lobby for **skill forking**, not the **GM**! 
 > Anothery thievery example. Let's assume a **PC** is trying to quickly unlock a door using their [thievery](#thievery-agiawar), because they're being chased by guards and desperately need to get away. They could argue to fork their [stealth](#stealth-agiawar) skill into the test, but ultimately, what use is stealth when you've already been detected? Unless you can make yourself *unseen* somehow, the **GM** should rule that stealth cannot apply in that situation. 
 
 #### Learning Skills
-Whenever asked to test a skill a **PC** does not yet *know*, it will be added or progressed and noted as a *Learning Skill*. A Learning Skill can only be tested with its [Base Attributes](#attributes). A Skill is considered *known* when its raw level is at least `1`. Inversely, a level `0` Skill is a *Learning Skill*. 
+Whenever asked to test a skill a **PC** does not yet *know*, it will be added or progressed and noted as a *Learning Skill*. A Learning Skill can only be tested with its Base Attributes. A Skill is considered *known* when its raw level is at least `1`. Inversely, a level `0` Skill is a *Learning Skill*. 
 
 > A player is asked to test their character's [cooking](#cooking-awarwit) at **Ob** `2`. Their character lacks that skill and thus adds it at level `0` and marks it as a Learning Skill. Assuming their character has the corresponding Base Attributes at level `2` and `3`, they get to roll `2 + 3 = 5D6`. 
 
@@ -641,7 +641,7 @@ Whenever asked to test a skill a **PC** does not yet *know*, it will be added or
 "*Owning* **skill**" refers to the **skill** an **expertise** belongs to. 
 
 Every **expertise** can have the following properties:
-* A **required level** at which they unlock. This is the **modified level** of their *owning* **skill**. 
+* A **required level** at which they unlock. This is the [Modified Level](#raw-vs-modified-level) of their *owning* **skill**. 
   * An **expertise** may only be used, if the character has the *owning* **skill** with at least this level. 
   * An **expertise** noting level `0` or no level at all, can be used right away, even without any levels in the **skill** it belongs to. 
 * An [AP](#action-points-ap) cost. 
@@ -675,7 +675,7 @@ A **Concentration** Skill or Expertise upholds its effect(s) once successfully e
 ### Advancement
 Through [tests](#tests), characters learn and improve. For every [test](#tests), `+1` [XP](#experience-points-xp) is earned. If testing a Skill, then *additionally*, the advancement progress of that Skill is incremented by `+1`. 
 
-Note that *level* in this and section and its sub-sections refers to the **raw level** - that is the level as it is **before** [Boons and Penalties](#boons--penalties) are applied to it. Whenever advancement thresholds are concerned, then always assume them to be based on the raw level. [Boons and Penalties](#boons--penalties) may increase the **modified level** - that is, the _effective level_ -, but will **never** affect any advancement thresholds! 
+Note that *level* in this and section and its sub-sections refers to the [Raw Level](#raw-vs-modified-level). Whenever advancement thresholds are concerned, then always assume them to be based on the [Raw Level](#raw-vs-modified-level).
 
 Also note that advancement is open ended. It technically never stops, although it should slow down considerably, the higher you climb. 
 
@@ -1056,9 +1056,9 @@ How much **damage** is resisted, depends on the specifics of the creature or cha
 ### Boons & Penalties
 Boons and penalties to the level of an [attribute](#attributes) or [skill](#skills) can be incurred from several different sources, such as [injuries](#injury), [illnesses](#illness), [mutations](#list-of-mutations) and [conditions](#condition). Boons and penalties may be temporary or permanent, depending on their source. 
 
-A boon to an [attribute](#attributes) or [skill](#skills) usually increases their **modified level**. If a boon awards an [attribute](#attributes) or [skill](#skills) that the character does not yet have, they gain it automatically. 
+A boon to an [attribute](#attributes) or [skill](#skills) usually increases their [Modified Level](#raw-vs-modified-level). If a boon awards an [attribute](#attributes) or [skill](#skills) that the character does not yet have, they gain it automatically. 
 
-A penalty to an [attribute](#attributes) or [skill](#skills) decreases their **modified level**. A penalty **cannot** reduce an [attribute](#attributes) or [skill](#skills) to `0` - the minimum reduction is to `1`. But there is an exception - when the character's only reason for having the [attribute](#attributes) or [skill](#skills) is a boon, in the first place. In that case, the penalty **can** reduce the **modified level** to `0`, effectively removing the [attribute](#attributes) or [skill](#skills). 
+A penalty to an [attribute](#attributes) or [skill](#skills) decreases their [Modified Level](#raw-vs-modified-level). A penalty **cannot** reduce an [attribute](#attributes) or [skill](#skills) to `0` - the minimum reduction is to `1`. But there is an exception - when the character's only reason for having the [attribute](#attributes) or [skill](#skills) is a boon, in the first place. In that case, the penalty **can** reduce the [Modified Level](#raw-vs-modified-level) to `0`, effectively removing the [attribute](#attributes) or [skill](#skills). 
 
 ## Assets
 A character may *have* things, such as [worn equipment](#worn--equipped) and [luggage](#luggage), as well as the things they *own*, but don't have on person. Collectively, all of these things are referred to as **assets**. 
@@ -1256,7 +1256,7 @@ Typically, a project can only be worked on with access to necessary resources an
 #### Progressing a Project
 Every Project's **progress** is tracked numerically. All progress begins at `0` and is increased through use of a particular Skill, further called the Project Skill. 
 
-Every Project has a **Progress Increment** and a **Time Increment**. The Progress Increment tells you how much progress is needed to finish the Project. For every Time Increment worth of time you spend on the Project, you may add your **Project Skill level plus its Base Attribute** as points of progress. In other words, the number of dice you get to roll for a test of the Project Skill equals the progress you can make. Up to `3` assisting characters may also add `+1` point of progress every time, along with you. But of course, in the meantime, these characters cannot work on their own Projects. Note that progress isn't rolled for, it is simply added, when the Time Increment's worth of minutes/hours/days has been spent. 
+Every Project has a **Progress Increment** and a **Time Increment**. The Progress Increment tells you how much progress is needed to finish the Project. For every Time Increment worth of time you spend on the Project, you may add your **Project Skill's level** as points of progress. In other words, the number of dice you get to roll for a test of the Project Skill equals the progress you can make. Up to `3` assisting characters may also add `+1` point of progress every time, along with you. But of course, in the meantime, these characters cannot work on their own Projects. Note that progress isn't rolled for, it is simply added, when the Time Increment's worth of minutes/hours/days has been spent. 
 
 Initially, your Project will begin with Quality level `1` and requires a total progress of the `Progress Increment * 2`. Every time you have arrive at full progress, you must make a choice. **Finish** the Project and accept its current Quality level, or **push on**. 
 
