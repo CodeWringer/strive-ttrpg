@@ -1408,9 +1408,9 @@ Reactions during combat are:
 Combat ends, when neither side has the ability or will left to fight. 
 
 ## Action Points (AP)
-Every **turn**, every character gets `+3` **Action Points (AP)** to spend on actions during their **turn**. 
+Every **turn**, every character gets `+4` **Action Points (AP)** to spend on actions during their **turn**. 
 
-At the start of a combat encounter, **all non-surprised characters** start with `3` **AP**. After that, **AP** are only regained per-character, upon the start of their turn. 
+At the start of a combat encounter, **all non-surprised characters** start with `4` **AP**. After that, **AP** are only regained per-character, upon the start of their turn. 
 
 * Any basic action, that is, any action not requiring a [test](#tests), costs `1` **AP**. 
   * Speaking or shouting a short phrase is free. If you want to have a proper conversation, that will cost you more **AP**, depending on how much you have to say. 
@@ -1423,15 +1423,15 @@ At the start of a combat encounter, **all non-surprised characters** start with 
 ### Action Point Saving
 If a character ends their **turn** with any **AP** unspent, those **AP** will be saved up and be available as additional **AP** at the start of their next **turn**. 
 
-Until the start of their next **turn**, they can keep up to 5 **AP**, which they can use for [active defense](#defending) or *reactions* during the turns of other characters. 
+Until the start of their next **turn**, they can keep up to `5` **AP**, which they can use for [defense](#defending) or *reactions* during the turns of other characters. 
 
-At the start of their next **turn**, only up to 2 of the saved **AP** transfer to this next **turn**. This means a character can normally start their next **turn** with at most 5 **AP**. 
+At the start of their next **turn**, only up to `2` of the saved **AP** transfer to this next **turn**. This means a character can normally start their next **turn** with at most `5` **AP**. 
 
 It may be possible to go past this limit via some [expertises](#expertise) or [boons](#boons--penalties). 
 
-> Assuming a character has 4 unspent **AP** at the end of their **turn**, and they are attacked, they can use one of those **AP** to actively defend themselves. This costs them 1 **AP**, meaning they still have 3 unspent **AP**. 
+> Assuming a character has `4` unspent **AP** at the end of their **turn**, and they are attacked, they can use one of those **AP** to actively defend themselves. This costs them `1` **AP**, meaning they still have `3` unspent **AP**. 
 >
-> At the start of their next **turn**, they get to keep 2 of those unspent **AP** and are forced to discard the third **AP**. They get 3 more **AP** because it is the start of their turn. Thus, they begin their turn with 5 **AP** available to them. 
+> At the start of their next **turn**, they get to keep `2` of those unspent **AP** and are forced to discard the third **AP**. They get `3` more **AP** because it is the start of their turn. Thus, they begin their turn with `5` **AP** available to them. 
 
 ## Combat Movement
 Under normal circumstances, a character (an average human) can move up to `12'/4m` (= 4 fields on a grid) per **AP** spent. In **difficult terrain**, the distance moved per **AP** is half that, at `6'/2m` (= 2 fields on a grid). **Difficult terrain** is any space that slows movement, but does not prevent it outright. Examples would be waist-high water, a surface of glue or a slowing force field. 
@@ -1531,18 +1531,13 @@ When attacking with [Bludgeoning](#damage-types), you may knock another characte
 > On the other hand, the same human attacking a giant from stealth with a club cannot knock that giant unconscious, assuming that giant to have a Toughness of `10`. The difference of `8` levels is simply too great. 
 
 ## Defending
-There are two types of defense:
-* **Active defense**: Costs 1 [AP](#action-points-ap) and uses all available dice for the [test](#tests). 
-  * This defense can only happen as a *reaction* and a deliberate choice, during another character's turn. 
-* **Passive defense**: Does not cost any [AP](#action-points-ap), but uses only half (RD, minimum 1) of the available dice for the [test](#tests).
-  * This defense happens automatically as a *reaction*, if no **active defense** is attempted. 
-  * This defense can *not* be used against attacks that cost more than 1 [AP](#action-points-ap) to defend against. 
+A character being targeted with any other Skill may choose, as a *reaction*, to defend against it. Doing so costs `1` [AP](#action-points-ap) and calls for an [opposed test](#opposed-test). The attacker must achieve **more hits** than the defender, or else the defender wins and the attack is negated, entirely. 
 
-To defend, an [opposed test](#opposed-test) must be made. If successful, the attack is negated, entirely.  
+A character without any, or not enough [AP](#action-points-ap) left to spend, **can not defend**. In this case, the attacker's Ob is simply `1` (plus any potential modifier from the Expertise or Skill they're attacking with). 
 
-The defender must *choose* how to defend themselves, if no specific "opposed by" skill is noted. They can use a [weapon skill](#weapon--weapon-type---attribute), [acrobatics](#acrobatics-agistr) or [shield skill](#shield-strtough). 
+The defender must *choose* how to defend themselves, if no specific "opposed by" skill is noted. They can use a [weapon skill](#weapon--weapon-type---attribute), [acrobatics](#acrobatics-agistr) or the [shield skill](#shield-strtough). 
 
-Defending against [area of effect](#area-of-effect) attacks is not possible. 
+Defending against [area of effect](#area-of-effect) attacks costs `2` [AP](#action-points-ap) and causes the attack to deal only half (RD) damage. No test is made, simply spending the [AP](#action-points-ap) is sufficient. 
 
 ### Armor & Shields
 Armor serves as life insurance, because it can negate or at least reduce the damage taken, after a defense test has failed. 
@@ -1557,7 +1552,7 @@ It is possible for a character to defend an adjacent ally when they're being att
 Defending an ally is a **combat action** and a **reaction**. 
 
 ### Defense Stunts
-If you succeed an **active defense** and achieve at least 2 **hits** over your attacker, then you may perform one of the following stunts, at the cost of `+1` [exhaustion](#exhaustion) (but only if that won't bring you to your [exhaustion limit](#exhaustion)): 
+If you succeed a **defense** and achieve at least `2` **hits** over your attacker, then you may perform one of the following stunts, at the cost of `+1` [exhaustion](#exhaustion) (but only if that won't bring you to your [exhaustion limit](#exhaustion)): 
 
 * **Disarm** your opponent (if they have a detachable weapon).
 * **Displace your opponent**. They are forced to stumble backwards by `6'/2m` in a direction of your choosing. This may provoke [Attacks of Opportunity](#attacks-of-opportunity). 
