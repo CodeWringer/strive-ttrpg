@@ -72,6 +72,7 @@ Furthermore, a meta-currency, called **Fate Points** is earned by *players*, bas
       - [Strength \[Str\]](#strength-str)
       - [Toughness \[Tough\]](#toughness-tough)
       - [Wit \[Wit\]](#wit-wit)
+    - [Core, Favored, Secondary \& Penalized Attributes](#core-favored-secondary--penalized-attributes)
     - [Derived Characteristics](#derived-characteristics)
       - [Base Initiative](#base-initiative)
       - [Sprinting Speed](#sprinting-speed)
@@ -562,6 +563,11 @@ For every level in **Toughness**, a character...
 #### Wit [Wit]
 <img src="../../img/wit.svg" style="width: 3rem; height: 3rem;"> Sharpness of mind and tongue. 
 
+### Core, Favored, Secondary & Penalized Attributes
+All **PCs** have **two Core Attributes**. These define the strengths of these characters and are easier to [advance](#advancing-attributes). All other Attributes are considered Secondary Attributes. 
+
+A character may have Traits, such as ancestral heritages, which impose a boon or penalty to the advancement cost. A boon results in a Favored Attribute, which means it is easier to advance, same as Core Attributes. A Penalized Attribute is harder to advance, as its cost is calculated as if its [Raw Level](#raw-vs-modified-level) were one higher. 
+
 ### Derived Characteristics
 These characteristics depend on others, such as [Attributes](#attributes). They cannot be improved directly. 
 
@@ -687,31 +693,35 @@ XP may be spent on advancing (i. e. "leveling up") [Attributes](#attributes) and
 It is only possible to spend XP at the start or end of a session, or in times of calm, like when characters are resting, or during [Down-Time](#down-time). 
 
 #### Advancing Attributes
-[Attributes](#attributes) can only be advanced (i. e. "leveled up"), by spending [XP](#experience-points-xp). The cost of advancing an Attribute depends on its current raw level. The formula is as follows: `10 + (N * 5)`, where *N* is the current raw level. 
+[Attributes](#attributes) can only be advanced (i. e. "leveled up"), by spending [XP](#experience-points-xp). The cost of advancing an Attribute depends on its current raw level, whether it is a [Core Attribute](#core-favored-secondary--penalized-attributes) and whether any ancestral boons or penalties apply. 
+
+The formula to calculate the [XP](#experience-points-xp) cost of advancing is as follows: `20 + (N * N)`, Where *N* is the current level. 
+
+A **Core** and **Favored** Attribute's advancement cost is always calculated as if one level lower (minimum `1`). **Secondary Attributes** follow the normal cost. **Penalized** Attributes are always one and a half times (RU) as expensive (in other words, `150%` of the normal cost). 
 
 For your convenience, the following table contains the precalculated requirements to advance an Attribute to the next level. 
 * In the table, 'Level' is the character's *current level* in the Attribute. 
-* Note it is possible to go past level 10, but you shouldn't hope for it any time soon. 
+* Note it is technically possible to go past level `10`, but you shouldn't hope for it any time soon. 
 
-| Level | XP    |
-| ----- | ----- |
-| 1     | 15    |
-| 2     | 20    |
-| 3     | 25    |
-| 4     | 30    |
-| 5     | 35    |
-| 6     | 40    |
-| 7     | 45    |
-| 8     | 50    |
-| 9     | 55    |
-| 10    | 60    |
+| Level | XP    | Core/Favored | Penalized |
+| ----- | ----- | ------------ | --------- |
+| 1     | 21    | 21           | 32        |
+| 2     | 24    | 21           | 36        |
+| 3     | 29    | 24           | 44        |
+| 4     | 36    | 29           | 54        |
+| 5     | 45    | 36           | 68        |
+| 6     | 56    | 45           | 84        |
+| 7     | 69    | 56           | 104       |
+| 8     | 84    | 69           | 126       |
+| 9     | 101   | 84           | 152       |
+| 10    | 120   | 101          | 180       |
 
 #### Advancing Skills
 Whenever a Skill is [tested](#tests), its current advancement progress must be incremented by `+1`. When it reaches a certain threshold, it advances (= "levels up"), thereby increasing its raw level by `+1` and resetting all its advancement progress to `0`. The formula to determine the threshold is as follows: `8 + (N * 3)`, where *N* is the current raw level. Note an exception applies to [Learning Skills](#learning-skills), whose threshold to advance is instead always `15`. 
 
 For your convenience, the following table contains the precalculated requirements to advance a **skill** level. 
 * In the table, 'Level' is the character's *current level* in the **skill**. 
-* Note it is possible to go past level `10`, but you shouldn't hope for it any time soon. 
+* Note it is technically possible to go past level `10`, but you shouldn't hope for it any time soon. 
 
 | Level | Threshold |
 | ----- | --------- |
@@ -1861,16 +1871,18 @@ There are two methods for determining your character's attributes: manual and se
 Please keep in mind the values here are representative for an ordinary human about to enter an adventuring life. Other species may have modifiers on their attributes, making them better or worse in some of them. But that depends on the world your **GM** is running. 
 
 ##### Manual Attribute Assignment
-* You can spend **`8 points`** on your attributes. 
-* All attributes start at level `1`. 
-* Your attribute-total must not be greater than `13`.
-* No attribute may have a level less than `1` nor higher than `4`.
-* Only two attributes may have a level of `4`. 
+* You can spend **`8 points`** on your Attributes. 
+* All Attributes start at level `1`. 
+* Your Attribute-total must not be greater than `13`.
+* No Attribute may have a level less than `1` nor higher than `4`.
+* Choose two [Core Attributes](#core-favored-secondary--penalized-attributes). These **must** each have a level of `4`. 
 
 ##### Semi-Random Attribute Assignment
 1. Roll `5 D4`. 
 2. Row up your dice to form a line, then read them from one end to the other and note each value. The order in which they are written down, is the order in which they'll be applied to the attributes. 
-3. If there is more than two `4`s, start lowering their value by one, starting from the left or the right, until there is only two `4`s left. 
+3. Ensure there are two `4`s. 
+   1. If there is more than two `4`s, start lowering their value by one, starting from the left or the right, until there are only two `4`s left. 
+   2. If there are less than two `4`s, raise the two highest values up to `4`, starting either from the left or right. 
 4. Count up the total of your values. 
    1. Subtract your total from `13`.
    2. If the number is negative, that's the number of levels you'll have to go down. <br>
@@ -1878,8 +1890,9 @@ Please keep in mind the values here are representative for an ordinary human abo
 5. Starting from the left or right, start adjusting each value.
    1. If your levels have to go down, subtract one from each value. **But** skip `1`s. 
    2. If your levels have to go up, add one to each value. **But** skip `4`s. 
-6. Repeat from the step of counting up your total and adjusting as necessary, until no more adjustments are necessary. 
-7. Lastly, apply the adjusted values to your attributes. 
+6. Repeat from the step of counting up your total and adjusting as necessary, until your Attribute-total is `13`. 
+7. Lastly, apply the adjusted values to your Attributes. 
+8. Take note which two Attributes have a value of `4`. These are your Core Attributes. 
 
 #### Choosing Skills
 When choosing skills, consider your character's background. What are their core competences? What fields of knowledge might they be well versed in? Which have they only dabbled in?
