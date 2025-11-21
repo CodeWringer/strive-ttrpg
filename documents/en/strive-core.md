@@ -568,6 +568,8 @@ All **PCs** have **two Core Attributes**. These define the strengths of these ch
 
 A character may have Traits, such as ancestral heritages, which impose a boon or penalty to the advancement cost. A boon results in a Favored Attribute, which means it is easier to advance, same as Core Attributes. A Penalized Attribute is harder to advance, as its cost is calculated as if its [Raw Level](#raw-vs-modified-level) were one higher. 
 
+A Penalized Attribute **may not** be set as a Core Attribute. 
+
 ### Derived Characteristics
 These characteristics depend on others, such as [Attributes](#attributes). They cannot be improved directly. 
 
@@ -1876,6 +1878,7 @@ Please keep in mind the values here are representative for an ordinary human abo
 * Your Attribute-total must not be greater than `13`.
 * No Attribute may have a level less than `1` nor higher than `4`.
 * Choose two [Core Attributes](#core-favored-secondary--penalized-attributes). These **must** each have a level of `4`. 
+  * Note that if you should have [Penalized Attributes](#core-favored-secondary--penalized-attributes), those **cannot** be [Core Attributes](#core-favored-secondary--penalized-attributes). 
 
 ##### Semi-Random Attribute Assignment
 1. Roll `5 D4`. 
@@ -1883,6 +1886,7 @@ Please keep in mind the values here are representative for an ordinary human abo
 3. Ensure there are two `4`s. 
    1. If there is more than two `4`s, start lowering their value by one, starting from the left or the right, until there are only two `4`s left. 
    2. If there are less than two `4`s, raise the two highest values up to `4`, starting either from the left or right. 
+   3. Note that if you should have [Penalized Attributes](#core-favored-secondary--penalized-attributes), those **cannot** have a level of `4`. Lower their value, as well, while raising another to ensure you still have two `4`s. 
 4. Count up the total of your values. 
    1. Subtract your total from `13`.
    2. If the number is negative, that's the number of levels you'll have to go down. <br>
