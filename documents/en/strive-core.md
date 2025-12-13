@@ -11,7 +11,7 @@ On the spectrum of *narrative-driven*, *game-y* and *simulationist*, **STRIVE** 
 
 Most rules have a certain degree of vagueness to them. This is at least partially deliberate. The situations that can come up during play are simply too varied and numerous to be possible to completely cover with rules, without requiring epic tomes filled to the brim with highly specific rulings for highly specific situations. Instead, the game relies on the **GM** to arbitrate in most situations. The descriptions in the rules here should serve as a point of orientation for the **GM**. How *they* interpret the rules, is how the rules are to be understood. 
 
-Version 24 (Playtest)
+Version 25 (Playtest)
 
 ## Tactical Combat
 First of all, STRIVE is **not** a wargame. It is not about coordinating large troop movements, supply lines or chains of command (although you can feature such things in your game if you like). 

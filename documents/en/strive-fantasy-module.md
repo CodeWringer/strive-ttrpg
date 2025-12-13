@@ -10,7 +10,7 @@ The module introduces:
 
 There is a [compendium document](./strive-fantasy-game-masters-resource.md) reserved solely for the **GM**, containing additional resources for them to draw from.
 
-Version 10 (Playtest)
+Version 11 (Playtest)
 
 # Table of Contents
 - [STRIVE Fantasy Module](#strive-fantasy-module)
