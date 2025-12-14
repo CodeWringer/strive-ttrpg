@@ -10,7 +10,7 @@ The module introduces:
 
 There is a [compendium document](./strive-fantasy-game-masters-resource.md) reserved solely for the **GM**, containing additional resources for them to draw from.
 
-Version 10 (Playtest)
+Version 11 (Playtest)
 
 # Table of Contents
 - [STRIVE Fantasy Module](#strive-fantasy-module)
@@ -142,7 +142,7 @@ New in this module, is the attribute [arcana](#arcana-arc), which governs a char
 Supplements to the [core attributes](./strive-core.md#attributes). 
 
 ### Arcana [Arc]
-Governs a character's ability to control and sense magic flow, casting magic spells or detecting lingering magic. 
+<img src="../../img/arcana.svg" style="width: 3rem; height: 3rem;"></img> Governs a character's ability to control and sense magic flow, casting magic spells or detecting lingering magic. 
 
 This is the only attribute that can have a level of `0`, meaning playing a mage is a deliberate choice. 
 
@@ -205,14 +205,14 @@ The [Arcana](#arcana-arc) attribute determines several thresholds. If the charac
 * **Cold**: Up to and including the `modified Arcana` is **mostly safe**. 
   * Every time the mage casts a spell, if they don't achieve at least `1` **hit**, a [Spell-Backfire](#spell-backfire) occurs. In other words, only a **complete failure** of the [test](#testing-magic) results in a [Spell-Backfire](#spell-backfire). 
 * **Smoldering**: Up to and including the `modified Arcana * 2` is **risky**. 
-  * Every time the mage casts a spell, their **Ob** is always increased by `+1`. If they don't achieve at least `2` **hits**, a [Spell-Backfire](#spell-backfire) occurs. 
+  * Every time the mage casts a spell, their **Ob** is always increased by `+1`. Less than `2` **hits** causes a [Spell-Backfire](#spell-backfire). 
 * **Broiling**: Up to and including the `modified Arcana * 3` is **perilous**. 
-  * Every time the mage casts a spell, their **Ob** is always increased by `+2`. If they don't achieve at least `3` **hits**, a [Spell-Backfire](#spell-backfire) occurs. 
-  * For **all** *other* tests, the mage suffers `-1D`. 
+  * The **Ob** for **all** tests is always increased by `+1`. Less than `3` **hits** causes a [Spell-Backfire](#spell-backfire). 
+  * All spells are super-charged, with an automatic and free `+1` SI. 
 * **Consuming**: Anything past the point of **Broiling** is **mortally perilous**. 
   * Suffer `1D8 + 2` [Pure damage](./strive-core.md#damage-types) every [Tick](./strive-core.md#ticks). At the end of every tick, reduces [Arcane Slag](#arcane-slag) and [Arcane Overheat](#arcane-overheat) by `-1` point, each. 
-  * **Every** further attempt to cast a spell instantly **fails**. The mage simply cannot cast magic for as long as their **Arcane Overheat** is ***Consuming*** them. That means there is no [Spell-Backfire](#spell-backfire), either. 
-  * For **all** *other* tests, the mage suffers `-2D`. 
+  * The **Ob** for **all** tests is always increased by `+2`. Less than `4` **hits** causes a [Spell-Backfire](#spell-backfire). 
+  * All spells are super-charged, with an automatic and free `+2` SI. 
 
 > The thresholds of a mage with an Arcana of `3` are: `0-3` Cold, `4-6` Smoldering, `7-9` Broiling and `10+` Consuming. 
 
