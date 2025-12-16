@@ -701,18 +701,18 @@ For your convenience, the following table contains the precalculated requirement
 * In the table, 'Level' is the character's *current level* in the Attribute. 
 * Note it is technically possible to go past level `10`, but you shouldn't hope for it any time soon. 
 
-| Level | XP    | Core/Favored | Penalized |
-| ----- | ----- | ------------ | --------- |
-| 1     | 21    | 21           | 32        |
-| 2     | 24    | 21           | 36        |
-| 3     | 29    | 24           | 44        |
-| 4     | 36    | 29           | 54        |
-| 5     | 45    | 36           | 68        |
-| 6     | 56    | 45           | 84        |
-| 7     | 69    | 56           | 104       |
-| 8     | 84    | 69           | 126       |
-| 9     | 101   | 84           | 152       |
-| 10    | 120   | 101          | 180       |
+| Level | Secondary | Core/Favored | Penalized |
+| ----- | --------- | ------------ | --------- |
+| 1     | 21        | 21           | 32        |
+| 2     | 24        | 21           | 36        |
+| 3     | 29        | 24           | 44        |
+| 4     | 36        | 29           | 54        |
+| 5     | 45        | 36           | 68        |
+| 6     | 56        | 45           | 84        |
+| 7     | 69        | 56           | 104       |
+| 8     | 84        | 69           | 126       |
+| 9     | 101       | 84           | 152       |
+| 10    | 120       | 101          | 180       |
 
 #### Advancing Skills
 Whenever a Skill is [tested](#tests), its current advancement progress must be incremented by `+1`. When it reaches a certain threshold, it advances (= "levels up"), thereby increasing its raw level by `+1` and resetting all its advancement progress to `0`. The formula to determine the threshold is as follows: `8 + (N * 3)`, where *N* is the current raw level. Note an exception applies to [Learning Skills](#learning-skills), whose threshold to advance is instead always `15`. 
