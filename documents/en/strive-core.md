@@ -375,7 +375,7 @@ Either a `6` or a `5` rolled on a single die counts as a **hit**. Other values a
 
 How many **hits** are needed to succeed a **test**, is determined by the **GM** or by other characters, via a mechanism called **Obstacle** (henceforth referred to as **Ob**). The **test** can only succeed, if at least as many **hits** are rolled, as the given **Ob**. 
 
-> For example, to succeed a **test** at **Ob** `3`, at least `3` **hits** must be rolled to succeed the **test**. Any less, and outcome is a failure. 
+> For example, to succeed a **test** at **Ob** `3`, at least `3` **hits** must be rolled to succeed the **test**. Any less, and the outcome is a failure. 
 
 The **Ob** isn't always determined directly by the **GM**. Whenever an [opposed test](#opposed-test) must be made, the **Ob** is determined by another character. 
 
@@ -393,19 +393,17 @@ To resolve an **Attribute test**, roll `ND6`, where *N* is the **Attribute's [Mo
 It is **not** possible to [fork](#skill-forking) into Attribute tests, *at all*. 
 
 ### Testing a Skill
-To resolve a **Skill test**, roll `ND6`, where *N* is the sum of both **Base Attributes' [Modified Levels](#raw-vs-modified-level)**. The [Modified Level](#raw-vs-modified-level) of the Skill dictates the maximum number of **hits** that may count towards the result. Only that many of the achieved **hits** may, at most, factor into the test's outcome. This is called the **Hit Limit**.
+To resolve a **Skill test**, roll `ND6`, where *N* is the sum of both **Base Attributes' [Modified Levels](#raw-vs-modified-level)**. All Skills have two Attributes they're based on / rely on, noted in parentheses next to the Skill's name. They are called the Skill's **Base Attributes**. 
 
-All Skills have two Attributes they're based on / rely on, noted in parentheses next to the Skill's name. These are called the Base Attributes. 
+The [Modified Level](#raw-vs-modified-level) of the Skill itself governs the maximum number of **hits** that may count towards the result. Only that many of the achieved **hits** may, at most, factor into the test's outcome. This is called the **Hit Limit**. However, this limit can be temporarily raised through [Compensation Points](#compensation-points). Every Compensation Point raises the Hit Limit by `+1`!
 
-A special exception is made for **hits** that are yielded by [Compensation Points](#compensation-points) - these do **not** count toward the Hit Limit! Or, even if the Compensation Points don't yield a **hit**, they can then be used to raise the Hit Limit! 
+It is possible to [fork](#skill-forking) into Skill tests, granting more dice. **Do not forget to fork your skills in tests!**
 
-It possible to [fork](#skill-forking) Skills, allowing even more dice to be used in a test. **Do not forget to fork your skills in tests!**
-
-> A character is asked to test a Skill, which is level `3`. The two Base Attributes have the Modified Levels of `3` and `4`. The sum of `7`, is the number of **D6** available for the test. 
+> A character is asked to test a Skill, which is level `3`. Its two Base Attributes have the Modified Levels of `3` and `4`. Their sum of `7`, is the number of **D6** available for the test. 
 > 
 > They roll `1`, `1`, `5`, `2`, `5`, `6` and `5`, of which `4` are **hits**! But because their Skill is only level `3`, they may only take `3` of those **hits** for the test's result. 
 >
-> *However*, they are afforded `1` Compensation Point for the test. While the Compensation Point would not be enough to turn one of the **misses** into a **hit**, it can then instead be used to raise the Hit Limit by `+1`. Thus, all `4` **hits** may factor into the result, after all! 
+> *However*, they are afforded `1` Compensation Point for the test. While the Compensation Point would not be enough to turn one of the **misses** into a **hit**, it raises the Hit Limit by `+1`. Thus allowing all `4` rolled **hits** to factor into the result, after all! 
 
 ### Raw vs. Modified Level
 Attributes and Skills have two level numbers. One is the **Raw Level**, while the other is the **Modified Level**. 
@@ -496,7 +494,7 @@ If a **PC** is helping another, their player must describe *how* they're using t
 A character helping in a test, gains `+1` [XP](#experience-points-xp). 
 
 ### Compensation Points
-**Compensation points** allow turning the faces of dice that came up as **misses** up to the next higher number, until they become a **hit**, instead. Any **hit** achieved through a Compensation Point **always** factors into a test's result! They circumvent the **hit** limit imposed by a Skill's level! 
+**Compensation points** allow turning the faces of dice that came up as **misses** up to the next higher number, until they become a **hit**, instead. Also, Compensation Points **always** raise the Hit Limit for the test, by `+1` for each! 
 
 > When rolling `3D6`, with `2` Compensation Points and achieving `5`, `3` and `4` in the roll, then `1` Compensation Point can be used to turn the `4` into a `5` or both Compensation Points could turn the `3` into a `5`. There are not enough Compensation Points to turn all **misses** into **hits**, but at least one die is guaranteed to become a **hit**! 
 
@@ -566,9 +564,7 @@ For every level in **Toughness**, a character...
 ### Core, Favored, Secondary & Penalized Attributes
 All **PCs** have **two Core Attributes**. These define the strengths of these characters and are easier to [advance](#advancing-attributes). All other Attributes are considered Secondary Attributes. 
 
-A character may have Traits, such as ancestral heritages, which impose a boon or penalty to the advancement cost. A boon results in a Favored Attribute, which means it is easier to advance, same as Core Attributes. A Penalized Attribute is harder to advance, as its cost is calculated as if its [Raw Level](#raw-vs-modified-level) were one higher. 
-
-A Penalized Attribute **may not** be set as a Core Attribute. 
+A character may have Traits, such as ancestral heritages, which impose a boon or penalty to the advancement cost. A boon results in a **Favored** Attribute, which means it is easier to advance, same as Core Attributes. A **Penalized** Attribute is harder to advance. A Penalized Attribute **may not** also be a Core Attribute. 
 
 ### Derived Characteristics
 These characteristics depend on others, such as [Attributes](#attributes). They cannot be improved directly. 
@@ -690,16 +686,16 @@ Also note that advancement is open ended. It technically never stops, although i
 #### Experience Points [XP]
 <img src="../../img/experience-points.svg" style="width: 3rem; height: 3rem;"></img> Experience Points (XP) are a meta-currency that characters earn through [tests](#tests). For **every** [test](#tests), `+1` XP is earned, no questions asked. 
 
-XP may be spent on advancing (i. e. "leveling up") [Attributes](#attributes) and on Skill advancement progress. The conversion rate is `1 to 1`, meaning for every XP spent, a Skill's advancement progress is incremented by the same amount. **But**, XP may only be spent **before or after the session**! 
+XP may be spent on advancing (i. e. "leveling up") [Attributes](#attributes) and on Skill advancement progress. The conversion rate is `1` to `1`, meaning for every XP spent, a Skill's advancement progress is incremented by the same amount. **But**, XP may only be spent **before or after the session**! 
 
 It is only possible to spend XP at the start or end of a session, or in times of calm, like when characters are resting, or during [Down-Time](#down-time). 
 
 #### Advancing Attributes
-[Attributes](#attributes) can only be advanced (i. e. "leveled up"), by spending [XP](#experience-points-xp). The cost of advancing an Attribute depends on its current raw level, whether it is a [Core Attribute](#core-favored-secondary--penalized-attributes) and whether any ancestral boons or penalties apply. 
+[Attributes](#attributes) can only be advanced (i. e. "leveled up"), by spending [XP](#experience-points-xp). 
 
-The formula to calculate the [XP](#experience-points-xp) cost of advancing is as follows: `20 + (N * N)`, Where *N* is the current level. 
+The cost of advancing an Attribute depends on its current raw level and whether it is a [Core, Favored, Secondary or Penalized Attribute](#core-favored-secondary--penalized-attributes). The formula to calculate the [XP](#experience-points-xp) cost of advancing is as follows: `20 + (N * N)`, Where *N* is the current level. 
 
-A **Core** and **Favored** Attribute's advancement cost is always calculated as if one level lower (minimum `1`). **Secondary Attributes** follow the normal cost. **Penalized** Attributes are always one and a half times (RU) as expensive (in other words, `150%` of the normal cost). 
+A **Core** and **Favored** Attribute's advancement cost is always calculated as if one level lower (minimum `1`). **Secondary Attributes** follow the normal cost. **Penalized** Attributes are always one and a half times (= `150%` RU) as expensive. 
 
 For your convenience, the following table contains the precalculated requirements to advance an Attribute to the next level. 
 * In the table, 'Level' is the character's *current level* in the Attribute. 
@@ -1422,13 +1418,13 @@ Reactions during combat are:
 Combat ends, when neither side has the ability or will left to fight. 
 
 ## Action Points (AP)
-Every **turn**, every character gets `+4` **Action Points (AP)** to spend on actions during their **turn**. 
+Every **turn**, every character gets `+4` **Action Points (AP)** to spend on actions during their **turn**. If they do not have enough **AP** for an action, they may not perform it. 
 
 At the start of a combat encounter, **all non-surprised characters** start with `4` **AP**. After that, **AP** are only regained per-character, upon the start of their turn. 
 
-* Any basic action, that is, any action not requiring a [test](#tests), costs `1` **AP**. 
-  * Speaking or shouting a short phrase is free. If you want to have a proper conversation, that will cost you more **AP**, depending on how much you have to say. 
-  * [Basic movement](#combat-movement) counts as a basic action. 
+* Any **basic action**, that is, any action not requiring a [test](#tests), costs `1` **AP**. 
+  * Speaking or shouting a short phrase is free. If you want to have a proper conversation, that will cost you more **AP**, depending on how much you have to say, at the **GM's** discretion. 
+  * [Normal movement](#combat-movement) counts as a basic action. 
   * Handing an object over to a character adjacent to you, is a basic action (assuming you don't have to force it on them). 
   * Pulling something from your bag or getting a weapon ready (from your back, scabbard or wherever you keep it) also counts as a movement action and costs `1` **AP**. 
 * Any action requiring a [test](#tests), usually costs `2` **AP**. 
@@ -1437,22 +1433,16 @@ At the start of a combat encounter, **all non-surprised characters** start with 
 ### Action Point Saving
 If a character ends their **turn** with any **AP** unspent, those **AP** will be saved up and be available as additional **AP** at the start of their next **turn**. 
 
-Until the start of their next **turn**, they can keep up to `5` **AP**, which they can use for [defense](#defending) or *reactions* during the turns of other characters. 
-
-At the start of their next **turn**, only up to `2` of the saved **AP** transfer to this next **turn**. This means a character can normally start their next **turn** with at most `5` **AP**. 
-
-It may be possible to go past this limit via some [expertises](#expertise) or [boons](#boons--penalties). 
-
-> Assuming a character has `4` unspent **AP** at the end of their **turn**, and they are attacked, they can use one of those **AP** to actively defend themselves. This costs them `1` **AP**, meaning they still have `3` unspent **AP**. 
->
-> At the start of their next **turn**, they get to keep `2` of those unspent **AP** and are forced to discard the third **AP**. They get `3` more **AP** because it is the start of their turn. Thus, they begin their turn with `5` **AP** available to them. 
+However, even with saved-up **AP**, the maximum a character may **begin their turn with** remains `5`. 
 
 ## Combat Movement
-Under normal circumstances, a character (an average human) can move up to `12'/4m` (= 4 fields on a grid) per **AP** spent. In **difficult terrain**, the distance moved per **AP** is half that, at `6'/2m` (= 2 fields on a grid). **Difficult terrain** is any space that slows movement, but does not prevent it outright. Examples would be waist-high water, a surface of glue or a slowing force field. 
+Under normal circumstances, a character (an average human) can move up to `12'/4m` (= `4` fields on a grid) per **AP** spent. 
+
+On **difficult terrain**, the distance moved per **AP** is half that, at `6'/2m` (= `2` fields on a grid). **Difficult terrain** is any space that slows movement, but does not prevent it outright. Examples would be waist-high water, a surface of glue or a slowing force field. 
 
 It is also possible to **sprint**, increasing the distance one can move per **AP** spent, at the cost of `1` point of [exhaustion](#exhaustion) for every **AP** spent **sprinting**. The movement distance is increased by a character's [sprinting speed](#sprinting-speed), per **AP**. 
 
-> A character with a sprinting speed of `3` can increase their movement distance to `21'7m`, at the cost of `1` AP and `1` point of exhaustion. 
+> A character with a sprinting speed of `3` can increase their total movement distance to `21'/7m`, at the cost of `1` AP and `1` point of exhaustion. 
 
 ### Forced Movement
 There are abilities and circumstances that can force a character to be moved against their will. When this happens, the character in question does not spend any [AP](#action-points-ap) on the movement, as they didn't initiate it. A character automatically reduces the distance they are moved by their `Stability * 3'/1m`. 
