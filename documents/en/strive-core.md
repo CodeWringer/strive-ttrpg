@@ -562,9 +562,9 @@ For every level in **Toughness**, a character...
 <img src="../../img/wit.svg" style="width: 3rem; height: 3rem;"> Sharpness of mind and tongue. 
 
 ### Core, Favored, Secondary & Penalized Attributes
-All **PCs** have **two Core Attributes**. These define the strengths of these characters and are easier to [advance](#advancing-attributes). All other Attributes are considered Secondary Attributes. 
+All **PCs** have **one Core Attribute**, which defines their main strength, by being easier to [advance](#advancing-attributes). All other Attributes are considered **Secondary** Attributes, by default. 
 
-A character may have Traits, such as ancestral heritages, which impose a boon or penalty to the advancement cost. A boon results in a **Favored** Attribute, which means it is easier to advance, same as Core Attributes. A **Penalized** Attribute is harder to advance. A Penalized Attribute **may not** also be a Core Attribute. 
+A character may have Traits, such as ancestral heritages, which may impose boons or penalties to the advancement cost. A boon results in a **Favored** Attribute, which means it is easier to advance, same as their Core Attribute. A **Penalized** Attribute is harder to advance. A PC may define a Penalized Attribute as their Core, which **neutralizes the Penalty**, elevating the Attribute to Secondary. 
 
 ### Derived Characteristics
 These characteristics depend on others, such as [Attributes](#attributes). They cannot be improved directly. 
@@ -1869,16 +1869,16 @@ Please keep in mind the values here are representative for an ordinary human abo
 * All Attributes start at level `1`. 
 * Your Attribute-total must not be greater than `13`.
 * No Attribute may have a level less than `1` nor higher than `4`.
-* Choose two [Core Attributes](#core-favored-secondary--penalized-attributes). These **must** each have a level of `4`. 
-  * Note that if you should have [Penalized Attributes](#core-favored-secondary--penalized-attributes), those **cannot** be [Core Attributes](#core-favored-secondary--penalized-attributes). 
+* Choose one [Core Attribute](#core-favored-secondary--penalized-attributes). This one **must** have a level of `4`. 
+  * Note that if you should have a [Penalized Attribute](#core-favored-secondary--penalized-attributes), you can neutralize the penalty by defining it as your [Core Attribute](#core-favored-secondary--penalized-attributes). 
 
 ##### Semi-Random Attribute Assignment
 1. Roll `5 D4`. 
 2. Row up your dice to form a line, then read them from one end to the other and note each value. The order in which they are written down, is the order in which they'll be applied to the attributes. 
-3. Ensure there are two `4`s. 
-   1. If there is more than two `4`s, start lowering their value by one, starting from the left or the right, until there are only two `4`s left. 
-   2. If there are less than two `4`s, raise the two highest values up to `4`, starting either from the left or right. 
-   3. Note that if you should have [Penalized Attributes](#core-favored-secondary--penalized-attributes), those **cannot** have a level of `4`. Lower their value, as well, while raising another to ensure you still have two `4`s. 
+3. Ensure there is one `4`. 
+   1. If there is more than one `4`, start lowering their value by one, starting from the left or the right, until there is only one `4` left. 
+   2. If there are less than one `4`, raise the highest value up to `4`, starting either from the left or right. 
+   3. Note that if you should have [Penalized Attributes](#core-favored-secondary--penalized-attributes), those cannot have a level of `4`, *unless* you define one of them as your [Core Attribute](#core-favored-secondary--penalized-attributes). 
 4. Count up the total of your values. 
    1. Subtract your total from `13`.
    2. If the number is negative, that's the number of levels you'll have to go down. <br>
@@ -1888,7 +1888,7 @@ Please keep in mind the values here are representative for an ordinary human abo
    2. If your levels have to go up, add one to each value. **But** skip `4`s. 
 6. Repeat from the step of counting up your total and adjusting as necessary, until your Attribute-total is `13`. 
 7. Lastly, apply the adjusted values to your Attributes. 
-8. Take note which two Attributes have a value of `4`. These are your Core Attributes. 
+8. Take note which Attribute has a value of `4`. This is your [Core Attribute](#core-favored-secondary--penalized-attributes). 
 
 #### Choosing Skills
 When choosing skills, consider your character's background. What are their core competences? What fields of knowledge might they be well versed in? Which have they only dabbled in?
