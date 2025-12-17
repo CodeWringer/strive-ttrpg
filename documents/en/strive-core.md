@@ -2371,6 +2371,8 @@ Your [Self-Control](#self-control-toughtough) is increased by `+1`, but you suff
 The following is a list of all [conditions](#condition) of the core rules. 
 
 ### Berserk
+<img src="../../img/health-condition-berserk.svg" style="width: 3rem; height: 3rem;"></img>
+
 A character who is in **Berserk** Condition, **must** attack the creature nearest to them, regardless of whether it is friend or foe, until it is either dead or unconscious. The **Berserked** character **must** then move on to the next available and closest victim. 
 
 * Graded
@@ -2380,6 +2382,8 @@ A character who is in **Berserk** Condition, **must** attack the creature neares
 * Difficult repeats: Whenever shrugging off this Condition, you become **guarded** against it until the start of your next turn, making any attack or effect enacted against you that would cause you to suffer it again `+1` Ob harder for your foes. 
 
 ### Burning
+<img src="../../img/health-condition-burning.svg" style="width: 3rem; height: 3rem;"></img>
+
 For every *point* in the **Burning** Condition, a character suffers `1D4` points of [burning](#damage-types) damage every [Tick](#ticks). 
 
 * Graded
@@ -2390,6 +2394,8 @@ For every *point* in the **Burning** Condition, a character suffers `1D4` points
 Adjacent allies can also help pat out the flames, by spending an [AP](#action-points-ap) for every point reduction of **Burning**. 
 
 ### Bleeding
+<img src="../../img/health-condition-bleeding.svg" style="width: 3rem; height: 3rem;"></img>
+
 For every *point* in the **Bleeding** Condition, a character suffers `1 D4` points of [bleeding](#damage-types) damage every [Tick](#ticks). 
 
 * Graded
@@ -2406,6 +2412,8 @@ A **PC** at **Death's Door** must succeed at least one [Toughness](#toughness-to
 A character can be helped out of the **Death's Door** Condition, if their [HP](#hit-points-hp) are brought back up to at least `1`. 
 
 ### Dissolving
+<img src="../../img/health-condition-dissolving.svg" style="width: 3rem; height: 3rem;"></img>
+
 For every point in the **Dissolving** Condition, a character suffers `1D4` points of [acid](#damage-types) damage every [Tick](#ticks). 
 
 * Graded
@@ -2413,6 +2421,8 @@ For every point in the **Dissolving** Condition, a character suffers `1D4` point
 * Immediate cancel: With a successful [Medicine](#medicine-agiwit) [test](#tests), requiring `1` [medical supplies](#list-of-general-assets) with **Ob** `2`.
 
 ### Drug-Addicted
+<img src="../../img/health-condition-drug-addicted.svg" style="width: 3rem; height: 3rem;"></img>
+
 A **drug-addicted** character must take their drug once every `24` hours, or else enter **withdrawal**. 
 
 For every `24` hours that a character is in **withdrawal**, they suffer `-1D` to **all** tests. For every `12` hours that they are in **withdrawal** they have to pass a [toughness](#toughness-tough) test at **Ob** `2`, or else be forced to dedicate their every bit of strength into acquiring and taking a new dose of the drug. 
@@ -2420,11 +2430,15 @@ For every `24` hours that a character is in **withdrawal**, they suffer `-1D` to
 After `72` consecutive hours (= `3` full days) of having being in **withdrawal**, the character breaks free from their addiction, removing this **condition**.
 
 ### Electrified
+<img src="../../img/health-condition-electrified.svg" style="width: 3rem; height: 3rem;"></img>
+
 An **electrified** character spasms, uncontrollably. They are force moved in a random direction by `3'/1m`, which may trigger [Opportunity Attacks](#attacks-of-opportunity). 
 
 * Automatic shrug-off: At the end of the turn. 
 
 ### Exhausted
+<img src="../../img/health-condition-exhausted.svg" style="width: 3rem; height: 3rem;"></img>
+
 An **exhausted** character begins their turn with `-2` **AP** and can run at most only half the distance they normally could. [Sprinting](#combat-movement) is impossible. 
 
 While **exhausted**, a character suffering further [Exhaustion](#exhaustion), must succeed a [Self-Control](#self-control-toughtough) [test](#tests) at **Ob** equal to their current level of [Exhaustion](#exhaustion), or else fall [Unconscious](#unconscious).
@@ -2432,6 +2446,8 @@ While **exhausted**, a character suffering further [Exhaustion](#exhaustion), mu
 This Condition can be recovered from by reducing [Exhaustion](#exhaustion) to below the limit. 
 
 ### Frostbitten
+<img src="../../img/health-condition-frostbitten.svg" style="width: 3rem; height: 3rem;"></img>
+
 For every *point* in **frostbitten**, a character suffers `-1` [AP](#action-points-ap) and `-1D` to all [tests](#tests). 
 
 * Graded
@@ -2439,14 +2455,20 @@ For every *point* in **frostbitten**, a character suffers `-1` [AP](#action-poin
 * Immediate cancel: When thawed, for example through [Burning](#burning).
 
 ### Grappled
+<img src="../../img/health-condition-grappled.svg" style="width: 3rem; height: 3rem;"></img>
+
 A **grappled** character is unable to move freely and suffers `-1D` to all defense [tests](#tests), for as long as they are **grappled**. A **grappled** character can break free, by **completely succeeding** an [Unarmed Combat](#unarmed-combat-agistr) [test](#tests) against the other character grappling them. 
 
 A character who is grappled, counts as [flanked](#flanking) (to one additional degree). 
 
 ### Hasted
+<img src="../../img/health-condition-hasted.svg" style="width: 3rem; height: 3rem;"></img>
+
 A **hasted** character has an additional [AP](#action-points-ap) to spend and an additional `9'/3m` of [movement](#combat-movement) per [AP](#action-points-ap). 
 
 ### Jealous
+<img src="../../img/health-condition-jealous.svg" style="width: 3rem; height: 3rem;"></img>
+
 A character who has been made unnaturally **Jealous**, will do anything in their power to take a thing, whatever *it* may be, from whoever might have *it*. 
 
 * Graded
@@ -2455,11 +2477,15 @@ A character who has been made unnaturally **Jealous**, will do anything in their
 * Difficult repeats: Whenever shrugging off this Condition, you become **guarded** against it until the start of your next turn, making any attack or effect enacted against you that would cause you to suffer it again `+1` Ob harder for your foes. 
 
 ### Marked
+<img src="../../img/health-condition-marked.svg" style="width: 3rem; height: 3rem;"></img>
+
 A Marked character suffers `-1D` to all defense tests and `+50%` damage (RU) from all **direct** sources (meaning damage from [Bleeding](#bleeding), [Burning](#burning) and [Poisoned](#poisoned) is excluded). 
 
 * Automatic shrug-off: After `1` round.
 
 ### Pacified
+<img src="../../img/health-condition-pacified.svg" style="width: 3rem; height: 3rem;"></img>
+
 A character who is **Pacified**, is unable to *willingly* take any action that would directly or indirectly harm any other creature. Note, the character is not physically unable to cause harm, but they **really** don't want to. 
 
 * Graded
@@ -2468,6 +2494,8 @@ A character who is **Pacified**, is unable to *willingly* take any action that w
 * Difficult repeats: Whenever shrugging off this Condition, you become **guarded** against it until the start of your next turn, making any attack or effect enacted against you that would cause you to suffer it again `+1` Ob harder for your foes. 
 
 ### Poisoned
+<img src="../../img/health-condition-poisoned.svg" style="width: 3rem; height: 3rem;"></img>
+
 A **Poisoned** character suffers `1D4` points of [poison](#damage-types) damage every [Tick](#ticks). 
 
 * Graded
@@ -2475,22 +2503,30 @@ A **Poisoned** character suffers `1D4` points of [poison](#damage-types) damage 
 * Immediate cancel: With an [antidote](#list-of-general-assets). 
 
 ### Prone
+<img src="../../img/health-condition-prone.svg" style="width: 3rem; height: 3rem;"></img>
+
 A character who is prone, is harder to hit with ranged attacks, easier to hit with melee attacks and counts as [flanked](#flanking) (to one additional degree), in melee. However, they are `+1` **Ob** harder to hit with a ranged attack. 
 
 It costs `1` [AP](#action-points-ap) to stand up. 
 
 ### Rooted
+<img src="../../img/health-condition-rooted.svg" style="width: 3rem; height: 3rem;"></img>
+
 A **Rooted** character can no longer move their legs. They cannot move from the spot, but can still move their upper body freely. 
 
 This Condition is usually tied to some condition, before it is removed. If there is no condition, it is automatically shrugged off at the end of the turn. 
 
 ### Stunned
+<img src="../../img/health-condition-stunned.svg" style="width: 3rem; height: 3rem;"></img>
+
 A **Stunned** character is unable to act, at all. During combat, their turn is skipped. 
 
 * Automatic shrug-off: At the end of the turn. 
 * Difficult repeats: Whenever shrugging off this Condition, you become **guarded** against it until the start of your next turn, making any attack or effect enacted against you that would cause you to suffer it again `+1` Ob harder for your foes. 
 
 ### Terrified
+<img src="../../img/health-condition-terrified.svg" style="width: 3rem; height: 3rem;"></img>
+
 A **Terrified** character **must** flee from whatever it is that terrified them, until they can no longer perceive it, for at least one round. 
 
 * Graded
@@ -2499,6 +2535,8 @@ A **Terrified** character **must** flee from whatever it is that terrified them,
 * Difficult repeats: Whenever shrugging off this Condition, you become **guarded** against it until the start of your next turn, making any attack or effect enacted against you that would cause you to suffer it again `+1` Ob harder for your foes. 
 
 ### Unconscious
+<img src="../../img/health-condition-unconscious.svg" style="width: 3rem; height: 3rem;"></img>
+
 An **Unconscious** character is unable to act and is unaware of their surroundings. 
 
 * Difficult repeats: Whenever shrugging off this Condition, you become **guarded** against it until the start of your next turn, making any attack or effect enacted against you that would cause you to suffer it again `+1` Ob harder for your foes. 
