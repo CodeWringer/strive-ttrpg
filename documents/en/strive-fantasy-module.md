@@ -139,7 +139,7 @@ My two small, yet inexorable groups of playtesters, whose feedback has been inva
 New in this module, is the attribute [arcana](#arcana-arc), which governs a character's capacity for magic. 
 
 ## Attributes
-Supplements to the [core attributes](./strive-core.md#attributes). 
+Supplements to the [core attribute rules](./strive-core.md#attributes). 
 
 ### Arcana [Arc]
 <img src="../../img/arcana.svg" style="width: 3rem; height: 3rem;"></img> Governs a character's ability to control and sense magic flow, casting magic spells or detecting lingering magic. 
@@ -495,27 +495,16 @@ Please keep in mind the values here are representative for an ordinary human abo
 This section replaces its core rule counter-part. 
 
 ##### Manual Attribute Assignment
-* You can spend **9 points** on your attributes. 
-* All attributes **except arcana** start at level `1`. Arcana starts at `0`. 
-* Your attribute-total cannot be greater than **14**.
-* No attribute may have a level less than `1` (except **arcana**) nor higher than `4` (including **arcana**).
-* Only one attribute may have a level of `4`. 
+1. Decide if you want to play a mage.
+   1. As a mage, you **must** put at least `1` point into Arcana.
+   2. As a non-mage, you **may not** put *any* points into Arcana.
+2. The rest of the procedure follows the same steps as outlined in the [core rules](strive-core.md#manual-attribute-assignment), starting from step `1` therein. 
 
 ##### Semi-Random Attribute Assignment
 1. Decide if you want to play a mage.
-   1. As a mage, roll **6 D4** and **include** **arcana** in the following steps. 
-   2. As a non-mage, roll **5 D4** and **exclude** **arcana** in the following steps. 
-2. Row up your dice to form a line, then read them from one end to the other and note each value. The order in which they are written down, is the order in which they'll be applied to the attributes. 
-3. If there is more than one `4`, start lowering their value by one, starting from the left or the right, until there is only one `4` left. 
-4. Count up the total of your values. 
-   1. Subtract your total from **14**.
-   2. If the number is negative, that's the number of levels you'll have to go down. <br>
-   If the number is positive, that's the number of levels you'll have to go up. 
-5. Starting from the left or right, start adjusting each value.
-   1. If your levels have to go down, subtract one from each value. **But** skip `1`s. 
-   2. If your levels have to go up, add one to each value. **But** skip `4`s. 
-6. Repeat from the step of counting up your total and adjusting as necessary, until no more adjustments are necessary. 
-7. Lastly, apply the adjusted values to your attributes. 
+   1. As a mage, roll `6 D4` and **include** Arcana in the following steps. 
+   2. As a non-mage, roll `5 D4` and **exclude** Arcana in the following steps. 
+2. The rest of the procedure follows the same steps as outlined in the [core rules](strive-core.md#semi-random-attribute-assignment), starting from step `2` therein. 
 
 #### Choosing Skills
 If playing a **mage**, keep in mind you need to have at least level 1 in a [magic school skill](#magic-school--school---attribute-) to be able to cast magic. You are also advised to have your strongest magic be at least level 3 or 4, to be able to reliably use it. 
