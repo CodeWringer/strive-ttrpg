@@ -1,3 +1,6 @@
+<div style="text-align: center; font-size: 6rem">STRIVE</div>
+<div style="text-align: center; font-size: 1rem">Version 25 (Playtest)</div>
+
 # Introduction
 **STRIVE** is a table-top role-playing game (**TTRPG**), requiring a **game master** (**GM**) and at least one **player** to play and at its core, is about **emergent storytelling** and **tactical combat**. Players experience the **evolution** of their player character (**PC**) by defining convictions that **drive** them to action, based on the events they experience. In that way, players also **drive** the story forward and guide the evolution of the world. 
 
@@ -10,8 +13,6 @@ The system is best suited for long-term "sandbox" style games, running indefinit
 On the spectrum of *narrative-driven*, *game-y* and *simulationist*, **STRIVE** aims for the region between *game-y* and *narrative-driven*, while leaning heavily towards *game-y*. It understands itself as a *game* and the rules contained herein will often reflect that by making broad abstractions and even some unrealistic assertions - all for the goal of keeping the game easier to learn and more fun to experience. 
 
 Most rules have a certain degree of vagueness to them. This is at least partially deliberate. The situations that can come up during play are simply too varied and numerous to be possible to completely cover with rules, without requiring epic tomes filled to the brim with highly specific rulings for highly specific situations. Instead, the game relies on the **GM** to arbitrate in most situations. The descriptions in the rules here should serve as a point of orientation for the **GM**. How *they* interpret the rules, is how the rules are to be understood. 
-
-Version 25 (Playtest)
 
 ## Tactical Combat
 First of all, STRIVE is **not** a wargame. It is not about coordinating large troop movements, supply lines or chains of command (although you can feature such things in your game if you like). 
@@ -395,13 +396,13 @@ It is **not** possible to [fork](#skill-forking) into Attribute tests, *at all*.
 ### Testing a Skill
 To resolve a **Skill test**, roll `ND6`, where *N* is the sum of both **Base Attributes' [Modified Levels](#raw-vs-modified-level)**. All Skills have two Attributes they're based on / rely on, noted in parentheses next to the Skill's name. They are called the Skill's **Base Attributes**. 
 
-The [Modified Level](#raw-vs-modified-level) of the Skill itself governs the maximum number of **hits** that may count towards the result. Only that many of the achieved **hits** may, at most, factor into the test's outcome. This is called the **Hit Limit**. However, this limit can be temporarily raised through [Compensation Points](#compensation-points). Every Compensation Point raises the Hit Limit by `+1`!
+The [Modified Level](#raw-vs-modified-level) of the Skill itself, plus `1`, governs the maximum number of **hits** that may count towards the result. Only that many of the achieved **hits** may, at most, factor into the test's outcome. This is called the **Hit Limit**. If [Compensation Points](#compensation-points) are used in the test, each of them always and automatically raises the Hit Limit by `+1`!
 
-It is possible to [fork](#skill-forking) into Skill tests, granting more dice. **Do not forget to fork your skills in tests!**
+It is possible to [fork](#skill-forking) into Skill tests, granting more dice and raising the Hit Limit by `+1`, for **each** forked Skill! **Do not forget to fork your Skills into your tests!**
 
-> A character is asked to test a Skill, which is level `3`. Its two Base Attributes have the Modified Levels of `3` and `4`. Their sum of `7`, is the number of **D6** available for the test. 
+> A character is asked to test a Skill, which is level `2`. Its two Base Attributes have the Modified Levels of `3` and `4`. Their sum of `7`, is the number of **D6** available for the test. 
 > 
-> They roll `1`, `1`, `5`, `2`, `5`, `6` and `5`, of which `4` are **hits**! But because their Skill is only level `3`, they may only take `3` of those **hits** for the test's result. 
+> They roll `6`, `6`, `5`, `5`, `3`, `2` and `1`, of which `4` are **hits**! But because their Skill is only level `2`, they may only take `2 (from the Skill's level) + 1 (always) = 3` of those **hits** for the test's result. 
 >
 > *However*, they are afforded `1` Compensation Point for the test. While the Compensation Point would not be enough to turn one of the **misses** into a **hit**, it raises the Hit Limit by `+1`. Thus allowing all `4` rolled **hits** to factor into the result, after all! 
 
@@ -610,9 +611,9 @@ Every skill has two [attributes](#attributes) it relies on - its so-called *base
 Characters may also be granted "innate" skills, which cannot be learned the normal way, but rather are inherited from a character's ancestry (such as species) or are granted by superior powers (such as gods or ancient alien machines). 
 
 #### Skill Forking
-When [testing](#testing-a-skill) a **skill**, it is possible to **fork** other *related* **skills** into the test, granting more dice to roll and thus a better chance of succeeding. 
+When [testing](#testing-a-skill) a **skill**, it is possible to **fork** other *related* **skills** into the test, granting more dice to roll and raising the Hit Limit, thus granting a better chance of succeeding. 
 
-For every other **skill** you **fork** into a test, you always receive `+1D6`. The level of the **skill** being **forked** into a test does **not** matter!
+For every other **skill** you **fork** into a test, you always receive `+1D6` and raise the Hit Limit by `+1`. The levels of the **skills** being **forked** into a test do **not** matter!
 
 It is possible to **fork** as many other **skills** as you want into a test. But:
 * The **skills** you wish to **fork** into the test must be *known*.
@@ -2594,7 +2595,6 @@ A **multiple-single-target** (**MST**) action affects at least one and up to a m
 
 | Term                                         | Meaning / Description   |
 | -------------------------------------------- | ----------------------- |
-| [AP](#action-points-ap)                      | Action Point            |
 | [AFP](#ambition-fate-points)                 | Ambitions Fate-Point    |
 | [Agi](#agility-agi)                          | The Agility Attribute   |
 | [AOE](#area-of-effect-aoe)                   | Area of Effect          |
@@ -2609,6 +2609,7 @@ A **multiple-single-target** (**MST**) action affects at least one and up to a m
 | [D8](#dice)                                  | An eight-sided die      |
 | [FP](#fate-points)                           | Fate-Point              |
 | [GM](#introduction)                          | Game-Master             |
+| [Hit Limit](#testing-a-skill)                | Determines how many rolled **hits** may actually factor into the result of a test. |
 | [hit](#tests)                                | Result of an individual die-roll |
 | [HP](#hit-points-hp)                         | Hit-Points              |
 | [MaFP](#major-fate-points)                   | Major Fate-Point        |

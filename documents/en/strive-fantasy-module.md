@@ -1,4 +1,8 @@
-# STRIVE Fantasy Module
+<div style="text-align: center; font-size: 6rem; line-height: 4rem; margin-top: 2.5rem;">STRIVE</div>
+<div style="text-align: center; font-size: 4rem">Fantasy Module</div>
+<div style="text-align: center; font-size: 1rem">Version 11 (Playtest)</div>
+
+# Introduction
 This is the module containing the rules enabling play in a medieval fantasy game world, which includes supernatural monsters and magic. Only the differences and additions to the core rules are included in this document. 
 
 This module is best suited for a medium fantasy setting. It introduces magic, which is a **powerful** tool, that comes with great risk. Mages who exert themselves too much may fail their spell cast, which results in a back-fire. But the likelihood of failure is manageable.
@@ -10,10 +14,8 @@ The module introduces:
 
 There is a [compendium document](./strive-fantasy-game-masters-resource.md) reserved solely for the **GM**, containing additional resources for them to draw from.
 
-Version 11 (Playtest)
-
 # Table of Contents
-- [STRIVE Fantasy Module](#strive-fantasy-module)
+- [Introduction](#introduction)
 - [Table of Contents](#table-of-contents)
 - [Credits](#credits)
 - [Character](#character)
