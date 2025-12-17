@@ -1869,8 +1869,8 @@ Please keep in mind the values here are representative for an ordinary human abo
 * All Attributes start at level `1`. 
 * Your Attribute-total must not be greater than `13`.
 * No Attribute may have a level less than `1` nor higher than `4`.
-* Choose one [Core Attribute](#core-favored-secondary--penalized-attributes). This one **must** have a level of `4`. 
-  * Note that if you should have a [Penalized Attribute](#core-favored-secondary--penalized-attributes), you can neutralize the penalty by defining it as your [Core Attribute](#core-favored-secondary--penalized-attributes). 
+* Choose one [Core Attribute](#core-favored-secondary--penalized-attributes). It **must** have a level of `4`. 
+  * Note that if you should have a [Penalized Attribute](#core-favored-secondary--penalized-attributes), you can neutralize the penalty by defining it as your [Core Attribute](#core-favored-secondary--penalized-attributes). However, this only makes it a Secondary Attribute, meaning its level cannot be higher than `3`. 
 
 ##### Semi-Random Attribute Assignment
 1. Roll `5 D4`. 
@@ -1878,7 +1878,7 @@ Please keep in mind the values here are representative for an ordinary human abo
 3. Ensure there is one `4`. 
    1. If there is more than one `4`, start lowering their value by one, starting from the left or the right, until there is only one `4` left. 
    2. If there are less than one `4`, raise the highest value up to `4`, starting either from the left or right. 
-   3. Note that if you should have [Penalized Attributes](#core-favored-secondary--penalized-attributes), those cannot have a level of `4`, *unless* you define one of them as your [Core Attribute](#core-favored-secondary--penalized-attributes). 
+   3. Note that if you should have [Penalized Attributes](#core-favored-secondary--penalized-attributes), those cannot have a level of `4`. However, you can neutralize **one** such penalty by defining the Attribute as your Core. Note this only makes it a Secondary Attribute, meaning its level cannot be higher than `3`. 
 4. Count up the total of your values. 
    1. Subtract your total from `13`.
    2. If the number is negative, that's the number of levels you'll have to go down. <br>
