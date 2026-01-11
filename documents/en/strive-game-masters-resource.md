@@ -1,4 +1,10 @@
-## Table of Contents <!-- omit in toc -->
+<div style="text-align: center; font-size: 6rem">STRIVE</div>
+<div style="text-align: center; font-size: 4rem">Game-Master's Resource</div>
+
+# Introduction
+This document is directed at (and somewhat reserved for) the Game Master (**GM**) - the one person at the table who everyone agrees has the **authority** and **burden** to run the game. It will outline all the must-knows and present ideas on how to run the game. While most of the information is hopefully useful, not all of it has to be read and internalized, right away. 
+
+# Table of Contents <!-- omit in toc -->
 - [Introduction](#introduction)
 - [The Role Of a Game Master](#the-role-of-a-game-master)
   - [Getting a Game Together](#getting-a-game-together)
@@ -17,12 +23,12 @@
     - [Use The Senses](#use-the-senses)
     - [Choosing **Ob**](#choosing-ob)
     - [The Tools](#the-tools)
-      - [**Combat Challenges**](#combat-challenges)
-      - [**Social Challenges**](#social-challenges)
-      - [**Driver Challenges**](#driver-challenges)
-      - [**Anchor Your PCs Down**](#anchor-your-pcs-down)
-      - [**Limit \& Threaten Resources**](#limit--threaten-resources)
-      - [**Allow World-Change**](#allow-world-change)
+      - [Combat Challenges](#combat-challenges)
+      - [Social Challenges](#social-challenges)
+      - [Driver Challenges](#driver-challenges)
+      - [Anchor Your PCs Down](#anchor-your-pcs-down)
+      - [Limit \& Threaten Resources](#limit--threaten-resources)
+      - [Allow World-Change](#allow-world-change)
     - [Keep Them Engaged](#keep-them-engaged)
       - [Keep That Spotlight On a Swivel](#keep-that-spotlight-on-a-swivel)
       - [Player Agency](#player-agency)
@@ -33,12 +39,7 @@
     - [Hand Out Fate Points](#hand-out-fate-points)
     - [Gather Feedback](#gather-feedback)
 
-Version 9 (Playtest)
-
 A role-playing game by Nicolas H.
-
-# Introduction
-This document is directed at (and somewhat reserved for) the Game Master (**GM**) - the one person at the table who everyone agrees has the **authority** and **burden** to run the game. It will outline all the must-knows and present ideas on how to run the game. While most of the information is hopefully useful, not all of it has to be read and internalized, right away. 
 
 # The Role Of a Game Master
 As the **GM**, you are the one person at the table playing a slightly different game than the others. Instead of controlling a single character in a given world, you are in control of the world itself and determine what the characters within it get to do. 
@@ -199,7 +200,7 @@ This section outlines the tools - methods - of engaging your players. Usually, t
 
 **Narrative challenges** are your *role-playing* tools to engage your players. They utilize the strength of the medium. You can resolve all narrative challenges through role-playing. Dice may not be needed, at all. 
 
-#### **Combat Challenges**
+#### Combat Challenges
 Challenging **PC**s through combat encounters is most fun to players who enjoy strategic and tactical thinking. 
 
 **STRIVE** expects combat to be occasional, with ample breaks in-between. The game isn't well suited to prolonged dungeon-crawls. Injuries put a character out of commission for a good while. For this reason, you should always plan to provide a means of escape and retreat for the **PC**s. 
@@ -220,7 +221,7 @@ Even more interesting fights can occur, if you involve the environment, as well.
 * A burning house, with the **PC**s and their opponents in the thick of it. At the start of every turn, a burning piece of debris falls from the ceiling and you randomly determine where it lands. Could be on a **PC**, could be on one of their opponents. Or it could be in front of and barring their only exit - an open window leading to safety. 
 * A rickety, old bridge, which could collapse if too much force was applied to its support beams. The **PC**s could exploit this to collapse the bridge on purpose. Or their opponents could attempt the same, to put time-pressure on the players. 
 
-#### **Social Challenges**
+#### Social Challenges
 Outside of combat, you can challenge your **PC**s' with social encounters, opportunities to exercise their skills and pursue their **drivers**. 
 
 Present opportunities for the **PC**s to learn new things. Present them with tests for skills they don't have. But do so sparingly. It is frustrating for a player to never get to play to their character's strengths. Give players that satisfaction of having *the right skill at the right time*. 
@@ -240,7 +241,7 @@ On the other hand, you should only have such specifically targeted tests, if fai
 > 
 > Had the **PC** failed their test, the **GM** would have told them to move on. Perhaps even given them a different piece of information, like hearing noises outside the room they're in, but without a clear direction. The player might not think much of it, and decide to stay. That's when the guards walk in and surprise the **PC**. They can still make their get-away, albeit involving more running in blind panic, than sneaking calmly. 
 
-#### **Driver Challenges**
+#### Driver Challenges
 You can both *feed* and *challenge* **PC**s' **drivers**. Feeding a driver means giving a **PC** new information or assets that they may use to pursue the driver's goal. Challenging a driver means presenting the character with new information or opponents who contradict the goal - an obstacle to overcome. 
 
 Make sure to regularly feed or challenge **each** **PC**s' **drivers**. This is important, as it keeps their players interested and attentive. It makes their goals matter and gives them purpose and *direction*, which prevents inactivity and boredom. 
@@ -253,12 +254,12 @@ Make sure to regularly feed or challenge **each** **PC**s' **drivers**. This is 
 > 
 > And so it goes on, with continually more escalating scenarios, which all culminate into the final confrontation, potentially many real-world sessions into the future, when the **PC** gets to put the final nail in that **ambition**'s coffin - and ***earn*** their [AFP](#ambition-fate-points).
 
-#### **Anchor Your PCs Down**
+#### Anchor Your PCs Down
 Another resource, is a base of operations. This is a very meaningful and powerful tool, to anchor your **PC**s to a particular domain. Expect them to want to return to their base of operations regularly. While this *may* narrow the radius of exploration your players are willing to go, it doesn't necessarily have to. What it is guaranteed to do, however, is make your players care about *that space* in the world, in particular. 
 
 Be mindful *where* in the world you give them such a resource, because that is where the players will want to spend a lot of time. Make sure it is a location where quests can easily come to them. Damsels in distress, kings in need and robbed merchants all require a reachable door to knock at. A very remote location might not see a lot of *action* or *visitors*. 
 
-#### **Limit & Threaten Resources**
+#### Limit & Threaten Resources
 Assets exist to create mechanical challenges. Limit the **PC**'s access to the resources they tend to hoard and dangle the proverbial carrot in front of them to motivate them through greed. 
 
 Although your players could also be clever and find narrative solutions to their lack of *item vaccuuming*. If they can afford one or two carriages with the horses and drivers, perhaps even guards, they should be allowed to transport a lot more stuff around. Within the confines of their solution, of course. Those wagons full of ammunition, medical supplies and spare daggers will have to stay outside the cave/dungeon/ruin/etc. - unless your players can find a solution for that, too. 
@@ -275,7 +276,7 @@ Once they've fended off the attackers, they'll really start caring about everyth
 
 In order to avoid frustrating your players, you shouldn't threaten their more valuable resources often. Used sparingly, this tool can cause great tension and players scrambling to find a creative solution. But used too frequently, your players might start getting frustrated, because you harm their sense of progression. If they never truly gain anything, why *should* they care if it is threatened? 
 
-#### **Allow World-Change**
+#### Allow World-Change
 Have your players change your world. No matter what they do, the **PC**s' actions are going to leave ripples running through the world. 
 
 If they ruthlessly slaughter a tribe of non-humans, they might inadvertently cause an increased radicalization among the other tribes of those same non-humans. Likewise, if the **PC**s go around protecting villages against raids, those villages might prosper and the villagers might offer gifts (like a warm meal and bed) to the **PC**s. 
