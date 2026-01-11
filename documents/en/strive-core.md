@@ -537,13 +537,9 @@ Attributes represent a character's most basic abilities.
 #### Strength [Str]
 <img src="../../img/strength.svg" style="width: 3rem; height: 3rem;"> Physical strength. 
 
-Governs the [carrying capacity](#carrying-capacity) of a character. Each point in this **Attribute** raises the [carrying capacity](#carrying-capacity) of the character by 3. 
+Governs the [carrying capacity](#carrying-capacity) of a character. Each level in this **Attribute** raises the [carrying capacity](#carrying-capacity) of the character by `+3`. 
 
-For every `3` points in this **Attribute**, past the initial [Modified Level](#raw-vs-modified-level), every [asset slot](#worn--equipped) of a character can hold **assets** of one bulk higher. 
-
-> At Modified Level `3` in this **Attribute**, a character can still only hold **assets** of bulk `2` in each hand. 
-> 
-> Starting at Modified Level `4` in this **Attribute**, a character can hold **assets** of bulk `3` in each hand. Then, the next increase is at level `7`, then level `10` and so on.
+For every `2` levels in this **Attribute**, past level `2` (i. e. starting at level `4`, then continuing at levels `6`, `8` and `10`), every [asset slot](#worn--equipped) of a character can hold **assets** of `+1` bulk higher. 
 
 #### Toughness [Tough]
 <img src="../../img/toughness.svg" style="width: 3rem; height: 3rem;"> Enduring physical and mental strains. 
@@ -1095,11 +1091,11 @@ Every character can have **assets** they wear or carry on person. These things d
 Every **asset slot** has a maximum **bulk** it can hold. Two or more **slots** of the **same type** can be combined to hold a single asset that is too bulky for just one slot. The amount of **bulk** each slot can hold can be increased with greater [strength](#strength-str). 
 
 Every humanoid character has the following **slots** for worn & equipped **assets** available:
-* One slot for clothing of up to 4 **bulk**. 
-* One slot for armor of up to 4 **bulk**. 
-* A slot for every hand of up to 2 **bulk**. 
+* One slot for clothing of up to `4` **bulk**. 
+* One slot for armor of up to `4` **bulk**. 
+* A slot for every hand of up to `2` **bulk**. 
   * This would allow creatures with more than two appendages to potentially hold a lot more things. 
-* One slot for a back-strapped thing of up to 3 **bulk**. 
+* One slot for a back-strapped thing of up to `3` **bulk**. 
   * A backpack or similar thing need not be listed, as it is implied by the ability to have [luggage](#luggage) on person. 
 * Slots for any number of worn jewelry or other ornaments.
   * This only considers *light* jewelry and ornaments. Things that wouldn't encumber their wearer noticeably. Such as rings, bracelets, amulets or similar. 
@@ -1114,7 +1110,7 @@ How much **luggage** a character can have on them, is determined by their [carry
 #### Carrying Capacity
 How much [luggage](#luggage) a character can comfortably have on them, is determined by their **carrying capacity**, which is a **bulk** limit of **assets** that a person can be carrying around on their person. [Worn & equipped](#worn--equipped) **assets** are *excluded* and don't count towards this limit. 
 
-A character's **carrying capacity** is determined by their [strength](#strength-str). For each point in this **attribute**, a character raises their **carrying capacity** by 3. 
+A character's **carrying capacity** is determined by their [strength](#strength-str). For each point in this **attribute**, a character raises their **carrying capacity** by `3`. 
 
 #### Overweight
 A character *may* carry more than their [carrying capacity](#carrying-capacity) comfortably allows, *if* they succeed a [strength](#strength-str) test, once every 6 hours. The **Ob** is equal to the number of increments of 3 of **bulk** that they're over their limit. If they fail, they must drop some of their [luggage](#luggage). If they succeed, they may proceed, but suffer a penalty of **-1D** to all [tests](#tests) (except the [strength](#strength-str) test) for every 3 **bulk** increment over the limit. 
