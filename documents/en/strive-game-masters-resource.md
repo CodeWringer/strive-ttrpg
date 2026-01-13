@@ -2,7 +2,7 @@
 <div style="text-align: center; font-size: 4rem">Game-Master's Resource</div>
 
 # Introduction
-This document is directed at (and somewhat reserved for) the Game Master (**GM**) - the one person at the table who everyone agrees has the **authority** and **burden** to run the game. It will outline all the must-knows and present ideas on how to run the game. While most of the information is hopefully useful, not all of it has to be read and internalized, right away. 
+This document is directed at (and somewhat reserved for) the Game Master (**GM**) - the one person at the table who everyone agrees has the **authority** and **burden** to run the game. It will outline all the must-knows and present ideas on how to run the game. While most of the information is hopefully useful, keep in mind these are not hard rules, but rather well-intentioned advice. 
 
 # Table of Contents <!-- omit in toc -->
 - [Introduction](#introduction)
@@ -46,27 +46,31 @@ As the **GM**, you are the one person at the table playing a slightly different 
 
 You're the host of the game. This means you'll have to organize everything. Invite players or make a post detailling the game you want to host, set the time and place and interview players who show interest. 
 
-You prepare maps, **NPC**s, stories and plot hooks. You involve the **PC**s in the world, offer them incentives to act and feed their [drivers](./strive-core.md#personality). 
+You prepare maps, **NPCs**, stories and plot hooks. You involve the **PCs** in the world, offer them incentives to act and feed their [Drivers](./strive-core.md#personality). 
 
 You moderate and mediate. When there is conflict between players, you help with reconciliation. You ensure every player gets a chance to speak and ensure players are comfortable being at your table. Ask for and hear their feedback. Criticism is a chance to improve. 
 
 Players may help with all of these tasks, but that may not be commonplace. These are foremost *your* tasks and are much the reason why running the game can be a lot of fun. It is a very demanding and very rewarding process. 
 
-It is *your world* and *your game*, but the other people at the table are *your players*. Find the right players for your game and ***make*** your game right for your players. They are your guests and will only stay for as long as they feel welcome. 
+It is *your world* and *your game*, but the other people at the table are *your players*. Find the right players for your game and *make* your game right for your players. They are your guests and will only stay for as long as they feel welcome. 
 
 ## Getting a Game Together
 Before inviting or interviewing your first player, you'll have to define a few parameters. 
 * What theme and setting will the game have? A grimdark campaign of desperate survival? A heroic war against evil gods? A Cthulean horror mystery? An epic space opera in a galaxy full of conflict? Or something else entirely? 
-  * Will you be following a pre-defined narrative (the railroad) or throw the **PC**s in a sandbox and let them find their way? 
+  * Will you be following a pre-defined narrative (the railroad) or throw the **PCs** in a sandbox and let them go wherever they will? 
 * How may sessions will you host? A one-shot, two-shot or other number? Perhaps you don't want to place a limit and simply keep running the game for as long as it remains fun. 
 * If the game is online, do you expect everyone to be using webcams or do you make that optional?
-* Are there any taboo subjects that you will dodge during play and expect your players to avoid? Torture, racism, sexism and such? Make sure to respect your players' taboo subjects, as well. 
+* Are there any taboo subjects that you will dodge during play and expect your players to avoid? Torture, racism, sexism and such? Your players should get a say in this, too.
 * Do you expect people at the table to always act in-character? Do you expect players to speak as their character would? Or do you see such behavior as entirely optional? Forcing it may make players uncomfortable very quickly, so be careful with this one. 
 
 In a running game, when inviting additional players, always make sure to involve the players already in your group in the interview and decision-making process. After all, they'll be interacting with any newcomers as much as you. 
 
 ## Your World
-While **STRIVE** is best suited to a medieval-fantasy world, it doesn't dictate the type of world you have to employ. 
+STRIVE doesn't impose a world on you. You are not forced to play with any pre-defined theme or setting. This frees you up to play in whatever world you prefer, with whatever theme you prefer. But it also places the burden of such decisions on you. 
+
+STRIVE's modules can help you answer the question of theme. For example, if you want to play in a medieval fantasy world, STRIVE's fantasy module may get you started faster. 
+
+But setting - the world - is entirely up to you. You may choose an existing world from another RPG, or craft an entirely new one. Creating a world is no small feat and a hobby in itself, but luckily, you don't need the entire world to be perfectly fleshed out before you begin running the game.
 
 You are encouraged to craft your own world to play in. You decide what species (like humans) exist, what nations and cultures vie for supremacy and what fantastical landscapes exist. Are there supernatural forces at work? How often and to what extent? You decide. This world is yours. 
 
