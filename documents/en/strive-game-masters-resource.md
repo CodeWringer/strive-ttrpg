@@ -37,6 +37,39 @@ This document is directed at (and somewhat reserved for) the Game Master (**GM**
   - [Ending the Session](#ending-the-session)
     - [Hand Out Fate Points](#hand-out-fate-points)
     - [Gather Feedback](#gather-feedback)
+- [NPC Builder](#npc-builder)
+  - [Monster Builder](#monster-builder)
+    - [Mobility Traits](#mobility-traits)
+      - [Burrower (-2 points)](#burrower--2-points)
+      - [Climber (-2 points)](#climber--2-points)
+      - [Fast (-2 points)](#fast--2-points)
+      - [Glider (-1 points)](#glider--1-points)
+      - [Leaper (-2 points)](#leaper--2-points)
+      - [Swimmer (-1 point)](#swimmer--1-point)
+    - [Defensive Traits](#defensive-traits)
+      - [Acid Blood (-1 point)](#acid-blood--1-point)
+      - [Armored (-2 points)](#armored--2-points)
+      - [Camouflage (-3 points)](#camouflage--3-points)
+      - [Death Rattle (-2 points)](#death-rattle--2-points)
+      - [Immovable (-2 points)](#immovable--2-points)
+      - [Insurmountable (-4 points)](#insurmountable--4-points)
+      - [Unstoppable (-2 points)](#unstoppable--2-points)
+      - [Regenerator (-5 points)](#regenerator--5-points)
+      - [Thorny (-3 points)](#thorny--3-points)
+      - [Toxiferous (-3 points)](#toxiferous--3-points)
+    - [Offensive Traits](#offensive-traits)
+      - [Disease-Ridden (-1 point)](#disease-ridden--1-point)
+    - [Weakness Traits](#weakness-traits)
+      - [Drowner (+1 point)](#drowner-1-point)
+      - [Shambler (+2 points)](#shambler-2-points)
+      - [Sluggish (+4 points)](#sluggish-4-points)
+      - [Vulnerable (+2 points)](#vulnerable-2-points)
+    - [Legendary Traits](#legendary-traits)
+      - [Gritty (-5 points)](#gritty--5-points)
+      - [Hyperactive (-7 points)](#hyperactive--7-points)
+      - [Inexorable (-5 points)](#inexorable--5-points)
+      - [Moon Affinity (-7 points)](#moon-affinity--7-points)
+- [Encounter Builder](#encounter-builder)
 
 A role-playing game by Nicolas H.
 
@@ -93,18 +126,25 @@ STRIVE doesn't impose a world on you. You are not forced to play with any pre-de
 
 STRIVE's modules can help you answer the question of theme. For example, if you want to play in a medieval fantasy world, STRIVE's fantasy module may get you started faster. 
 
-But setting - the world - is entirely up to you. You may choose an existing world from another RPG, or craft an entirely new one. Creating a world is no small feat and a hobby in itself, but luckily, you don't need the entire world to be perfectly fleshed out before you begin running the game. All you really need, is a rough idea of *what's where* and a detailled idea of where the PCs are *now*. Starting with a village in the woods and a nearby goblin lair, is a classic example. 
+But setting - the world - is entirely up to you. You may choose an existing world from another RPG, or craft an entirely new one. Creating a world is no small feat and a hobby in itself, but luckily, you don't need the entire world to be perfectly fleshed out before you begin running the game. All you really need, is a rough idea of *what's where* and a detailed idea of where the PCs are *now*. Starting with a village in the woods and a nearby goblin lair, is a classic example. 
 
 Your players may aid you in crafting the world and will usually prefer doing so during play, rather than outside of it. If you allow them to change your world through their actions, it becomes a much more dynamic and almost life-like beast. If they defend the village from the goblins and destroy their lair, the village might start to prosper. More trade might come in, and through the traders, the PCs might learn about other places they could visit and acquire more and better supplies.
 
 ## Non-Player Characters (NPCs)
-Non-player characters (NPCs) are all the **people, animals and monsters** of your world, that aren't the player characters. NPCs are one of your most important tools to bring your world to life and make it interesting and engaging to your players. More often than not, the most interesting sessions involve heavy or mindful use of NPCs. See them as you do real people. There are no rules or mechanics dictating how they should behave, but they are *expected* to engage with the PCs and to react to the PCs' actions. 
+Non-player characters (NPCs) are all the **people, animals and monsters** of your world, that aren't the player characters. NPCs are one of your most important tools to bring your world to life and make it interesting and engaging to your players. More often than not, the most interesting sessions involve heavy or mindful use of NPCs. 
+
+There are three types of NPCs:
+* **People**: These are sentient, sapient and civilized folk, who can be reasoned with and interacted with on the same level as the PCs. See them as you do real people. There are no rules or mechanics dictating how they should behave, but they are *expected* to engage with the PCs and to react to the PCs' actions. 
+* **Animals**: Sentient, but not sapient, these are creatures driven by animalistic instinct. They are neither inherently evil, nor good, and mostly care only about their base needs. Think wolves, bears, dogs and the like. But this may also be fantastical creatures, such as dragons, gryphons, space-whales and so on. 
+* **Monsters**: Possibly sentient and/or sapient, these creatures can be of natural or unnatural origin and are usually irredeemably evil and destructive. Examples might be demons from an abyssal plane of existence, undead, constructs, robots and such. These are the natural antagonists of the PCs and their origin cultures. 
 
 There is a distinction to be made between "proper" NPCs and "simple" NPCs:
-* A "proper" NPC has a fully filled out character sheet, with distinct values for each Attribute and every Skill. These are **main actors** in the story that aren't PCs. They will be the **key figures** that hand out quests, help or hinder the PCs' progress and follow defined agendas of their own. 
+* A "proper" NPC has a fully filled out character sheet, with distinct values for each Attribute and every Skill. These are **main actors** in the story that aren't PCs. They will be the **key figures** that hand out quests, help or hinder the PCs' progress and possibly follow agendas of their own. 
 * A "simple" NPC is only a **passing acquaintance**, an animal or a faceless enemy in a conflict. They serve as temporary obstacles or "padding" in a scene, to give it liveliness without the bureaucratic overhead of a whole character sheet. 
 
 You may begin introducing most NPCs as simple and flesh out their character sheets only as necessary. Sometimes, you may be surprised which NPCs the players take interst in, almost forcing you to flesh out what you expected to be only a passing acquaintance. 
+
+To keep this chapter brief, and because you might decide you don't need it, the mechanical process of creating NPCs is detailed in a later chapter, the [NPC-Builder](#npc-builder). 
 
 ### Bring NPCs To Life
 Much like the PCs, or in fact real people, *proper* NPCs lead their own lives, with their own ambitions, aspirations, reactions, strengths and weaknesses. Keeping track of all of the numbers that implies, can become quite the challenge. But you won't need all of that data from the start, or even to track it all the time. Flesh out and update only as needed, to keep the work-load on your end low. You have enough work on your plate, as it is.
@@ -355,3 +395,147 @@ You could ask them the following:
 * Was the balance of combat vs. role-play to your liking?
 * (If there was NPC-interaction) What was your favorite NPC interaction today?
   * Take note - that is an NPC you can *threaten* later, and have that player *care*. 
+
+# NPC Builder
+A Module may provide you with some pre-defined NPCs to work with, but you will most likely have to, and perhaps desire to, invent your own, too. This chapter aims to provide a step-by-step process for NPC creation, based on several parameters that you get to pick from. 
+
+First, you must decide whether you need a **person**, an **animal** or a **monster**. A reminder from the [NPC](#non-player-characters-npcs) chapter:
+* **People**: These are sentient, sapient and civilized folk, who can be reasoned with and interacted with on the same level as the PCs. See them as you do real people. There are no rules or mechanics dictating how they should behave, but they are *expected* to engage with the PCs and to react to the PCs' actions. 
+* **Animals**: Sentient, but not sapient, these are creatures driven by animalistic instinct. They are neither inherently evil, nor good, and mostly care only about their base needs. Think wolves, bears, dogs and the like. But this may also be fantastical creatures, such as dragons, gryphons, space-whales and so on. 
+* **Monsters**: Possibly sentient and/or sapient, these creatures can be of natural or unnatural origin and are usually irredeemably evil and destructive. Examples might be demons from an abyssal plane of existence, undead, constructs, robots and such. These are the natural antagonists of the PCs and their origin cultures. 
+
+Secondly, you must choose a **power-level**: 
+**feeble**: `4` points
+**regular**: `6` points
+**elite**: `10` points
+**legendary**: `20` points
+
+## Monster Builder
+When choosing Traits from the lists below, keep in mind all of them are really just suggestions, to quickly get you started designing your own creatures. Once you get a feel for the numbers, for what *feels* like a balanced creature, you can easily expand the lists with your own Traits. In fact, you don't need to use the point-buy-system, at all, if you think you know how to make an interesting creature that won't hopelessly overwhelm the PCs.
+
+Ultimately, what makes a creature *balanced* in terms of power and ability, so that it can reasonable be defeated, is to always give it some significant weakness. A creature that can easily deal lots of damage should be pretty weak itself, forcing it to take a cautious approach. A creature that can survive a lot of damage without batting an eye should probably not deal much damage itself. If you combine such strengths, make sure to give it some other weakness, like tying its ability to act to an environmental effect that triggers only once every other round or to another NPC which controls it. Perhaps its strength is only temporary or only effective when supported by allies. There are many ways in which a creature can have significant weaknesses for the PCs to find and exploit, which will please their players when they do. 
+
+However, you are not limited to creating balanced creatures. You can also design deliberately *unfair* creatures, who are god-like in their powers. But if you do, be aware that the PCs should probably not be allowed to try and fight such a being. Or if you do allow them to try, have the creature put a "gentle" stop to it, like a parent scolding their child. Or perhaps the god-creature is so powerful it simply needn't care about what the PCs do, anyway. Such a being should likely result in a narrative challenge, rather than a combat one. This could also be the villain of the campaign, who starts off unfairly strong, but as the PCs progress through the campaign, they destroy the villain's sources of power and eliminate their allies, causing the villain to weaken and finally become defeatable. 
+
+### Mobility Traits
+
+#### Burrower (-2 points)
+The creature can burrow, moving up to `6'/2m`, at a depth of up to `9'/3m`, per AP spent. While burrowed, it cannot be targeted or make attacks. 
+
+`-N` points: Can burrow an additional `N * 6'/2m`, per AP spent. 
+
+#### Climber (-2 points)
+The creature is a natural climber, and can move at full speed while climbing, without tests required. But this only applies to easily climbable surfaces that provide some actual grip, like a tree's bark, a rough cliff face or rope. It cannot climb perfectly flat surfaces or 
+
+`-1` point: **Sticky**: The creature can cling to any surface, without restriction. 
+
+#### Fast (-2 points)
+This creature moves an additional `6'/2m`, per AP spent. Exclusive with [Shambler](#shambler-2-points). 
+
+`-N` points: Can move an additional `N * 3'/1m` per AP spent. 
+
+#### Glider (-1 points)
+The creature can glide for up to `30'/10m`, but only from higher to lower elevation. 
+
+`-1` point: **Floater**: Can also hover in mid-air. 
+`-4` point: **Flyer**: Can move at full speed mid-air, as far and as long as it wants. 
+
+#### Leaper (-2 points)
+The creature can jump up to `15'/5m` in a high arc, without provoking [Attacks of Opportunity](./strive-core.md#attacks-of-opportunity), over the heads of its foes. 
+
+`-2` points: **Dervish**: When leaping over opponents, this creature may also launch free attacks against each of them, but with **Ob** `+1`.
+
+#### Swimmer (-1 point)
+The creature is at home in the water. They can move at full speed while swimming, without tests required. Exclusive with [Drowner](#swimming-averse-1-point)
+
+`-1` point: **Aquatic**: The creature can breathe underwater. 
+`-1` point: In one massive burst of energy, the creature may lunge out of the water, travelling up to `30'/10m`. 
+
+### Defensive Traits
+
+#### Acid Blood (-1 point)
+When injured, acidic blood squirts out of the wound, causing `1D6` acid damage to all adjacent creatures. 
+
+#### Armored (-2 points)
+The creature is naturally armored. You can spend up to `8` points on a damage type it protects against. Cannot be armored against a damage type it is also [Vulnerable](#vulnerable-2-points) against. 
+
+`-N` points: **Heavily Armored**: You can spend an additional `N * 4` points on damage protections. 
+
+#### Camouflage (-3 points)
+The creature can become invisible, even in plain sight, at the cost of `3` AP. It will stay invisible for as long as it takes no offensive action. It can be detected with a successful [Observation](./strive-core.md#observation-awarawar) or [Path-Finding](./strive-core.md#path-finding-awarwit) test, at **Ob** `3`. 
+
+#### Death Rattle (-2 points)
+Upon dying, the creature can invoke one of the following effects (you must choose one now):
+* Explode: Cause damage to all adjacent creatures. Choose one: `2D6 + 2 Slashing`, `2D6 Piercing`, or `2D4` of any other damage type. 
+* Terrifying Screech: All foes in a `30'/10m` radius around the creature must succeed a [Self-Control](./strive-core.md#self-control-toughtough) test at Ob `3`, or else become [Terrified](strive-core.md#terrified) for one round. 
+* Reprisal: Move up to `24'/8m` and launch a final, desperate and free attack against a foe, with **Ob** `-1`. 
+
+#### Immovable (-2 points)
+This creature cannot be [Force-Moved](strive-core.md#forced-movement). 
+
+#### Insurmountable (-4 points)
+This creature does not suffer [Flanking](strive-core.md#flanking). 
+
+#### Unstoppable (-2 points)
+The creature cannot be stopped by [Opportunity Attacks](strive-core.md#attacks-of-opportunity). 
+
+#### Regenerator (-5 points)
+At the start of its turn, the creature regains `6` HP.
+
+#### Thorny (-3 points)
+All melee attackers against this creature suffer `6` points of Piercing damage, even if they miss. 
+
+#### Toxiferous (-3 points)
+All melee attackers against this creature suffer `4` points of Poison damage, even if they miss. 
+
+### Offensive Traits
+
+#### Disease-Ridden (-1 point)
+Any damage this creature deals on another that can contract diseases, will force a test to resist disease from that creature. The victim must succeed a Toughness test at **Ob** equal to half their Toughness, rounded up, or else suffer a random Illness. 
+
+Useful for: Any type of undead, rats and swamp creatures.
+
+### Weakness Traits
+
+#### Drowner (+1 point)
+If thrown in the water, the creature will drop like a rock. If it can drown, it will, unless rescued from such a horrible demise. Exclusive with [Swimmer](#swimmer--2-points)
+
+#### Shambler (+2 points)
+The creature lacks finer motor skill and can move at most `6'/2m` per AP spent. Exclusive with [Fast](#fast--2-points). 
+
+#### Sluggish (+4 points)
+The creature is slow to think, move and act. It starts its turn with only `+2` AP, instead of the default. Exclusive with [Hyperactive](#hyperactive--7-points). 
+
+#### Vulnerable (+2 points)
+The creature is especially susceptible to a specific type of damage, and will suffer an additional `6` points thereof, whenever it is suffered. Whatever damage type it is vulnerable to, it cannot be [Armored](#armored--2-points) against. 
+
+`+N` points: It is vulnerable to `N` additional types of damage. 
+
+### Legendary Traits
+
+#### Gritty (-5 points)
+This creature starts with and can use `5` [Grit Points](./strive-core.md#grit-points), and regains `+1` Grit Point at the start of its turn. 
+
+#### Hyperactive (-7 points)
+This creature regains `+5` AP per turn, instead of the default. Exclusive with [Sluggish](#sluggish-4-points). 
+
+`-3` points: **Disruptive**: Gets to act once after every foe's turn and regains `1` AP each time.
+`-3` points: **Multi-Initiative**: Gets to act twice in a round. The second initiative roll's result must be halved (rounded down). 
+
+Useful for: Elites and boss enemies who typically face many enemies at once. This balances out the action economy. 
+
+#### Inexorable (-5 points)
+This creature cannot gain [Exhaustion](./strive-core.md#exhaustion) through its own actions (i. e. sprinting, Skills or Expertises). 
+
+Useful for: Creatures that would *break* and be uninteresting to deal with, if they tired. Zombies, for example. But this can only be useful for particularly tough foes, especially if they make heavy use of Exhaustion causing abilities. 
+
+#### Moon Affinity (-7 points)
+When basking in a full moon, the creature regains `6` HP at the start of its turn. 
+When basking in a full moon, all attacks deal an additional `8` points of Slashing damage.
+
+Gain the ability: **Moon Step**: At the cost of `1` AP, the creature can vanish into the moon light and re-appear in a spot also basked in moon light, up to `45'/15m` away. It does not need line of sight to that spot. 
+
+Useful for: Creatures of the night, such as werewolves, vampires and ghosts. 
+
+# Encounter Builder
+TODO
