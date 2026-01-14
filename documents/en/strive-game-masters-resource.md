@@ -38,13 +38,14 @@ This document is directed at (and somewhat reserved for) the Game Master (**GM**
     - [Hand Out Fate Points](#hand-out-fate-points)
     - [Gather Feedback](#gather-feedback)
 - [NPC Builder](#npc-builder)
+  - [Creature Roles](#creature-roles)
   - [Monster Builder](#monster-builder)
     - [Mobility Traits](#mobility-traits)
       - [Burrower (-2 points)](#burrower--2-points)
       - [Climber (-2 points)](#climber--2-points)
       - [Fast (-2 points)](#fast--2-points)
       - [Glider (-1 points)](#glider--1-points)
-      - [Leaper (-2 points)](#leaper--2-points)
+      - [Leaper (-3 points)](#leaper--3-points)
       - [Swimmer (-1 point)](#swimmer--1-point)
     - [Defensive Traits](#defensive-traits)
       - [Acid Blood (-1 point)](#acid-blood--1-point)
@@ -410,6 +411,19 @@ Secondly, you must choose a **power-level**:
 **elite**: `10` points
 **legendary**: `20` points
 
+## Creature Roles
+
+* **Ambusher**: Surprises foes, striking from stealth and tries to flank. Stays in the back-line or at their enemies' flanks. 
+* **Artillery**: A back-liner who prefers to rain damage upon foes from afar. Usually very weak in melee. 
+* **Brawler**: A front-liner that can hold their own, but relies on allies to finish the job. 
+* **Commander**: A leader that lesser allies will rally around. Can improve their allies capabilities and will direct them to improve their efficacy. 
+* **Guardian**: Protects allies. 
+* **Sentry**: Observant and often stands guard. Willy call for aid, as soon as it notices anything out of the ordinary. 
+* **Shock-Trooper**: Deals lots of damage, preferring to flank enemies. 
+* **Supporter**: Improves the capabilities of their allies and/or weakens foes. 
+* **Tank**: Draws attention to itself and can survive a lot of punishment. Prefers the front-line. 
+* **Trapper**: Lays traps and prepares the battlefield. 
+
 ## Monster Builder
 When choosing Traits from the lists below, keep in mind all of them are really just suggestions, to quickly get you started designing your own creatures. Once you get a feel for the numbers, for what *feels* like a balanced creature, you can easily expand the lists with your own Traits. In fact, you don't need to use the point-buy-system, at all, if you think you know how to make an interesting creature that won't hopelessly overwhelm the PCs.
 
@@ -435,13 +449,14 @@ This creature moves an additional `6'/2m`, per AP spent. Exclusive with [Shamble
 `-N` points: Can move an additional `N * 3'/1m` per AP spent. 
 
 #### Glider (-1 points)
-The creature can glide for up to `30'/10m`, but only from higher to lower elevation. 
+The creature can glide, but only from higher to lower elevation. 
 
 `-1` point: **Floater**: Can also hover in mid-air. 
-`-4` point: **Flyer**: Can move at full speed mid-air, as far and as long as it wants. 
 
-#### Leaper (-2 points)
-The creature can jump up to `15'/5m` in a high arc, without provoking [Attacks of Opportunity](./strive-core.md#attacks-of-opportunity), over the heads of its foes. 
+`-3` point: **Flyer**: Can move at full speed mid-air, as far and as long as it wants and at any elevation. 
+
+#### Leaper (-3 points)
+The creature can jump up to `18'/6m` far, in a high arc, without provoking [Attacks of Opportunity](./strive-core.md#attacks-of-opportunity), over the heads of its foes. This causes `+1` Exhaustion to the creature. 
 
 `-2` points: **Dervish**: When leaping over opponents, this creature may also launch free attacks against each of them, but with **Ob** `+1`.
 
@@ -449,6 +464,7 @@ The creature can jump up to `15'/5m` in a high arc, without provoking [Attacks o
 The creature is at home in the water. They can move at full speed while swimming, without tests required. Exclusive with [Drowner](#swimming-averse-1-point)
 
 `-1` point: **Aquatic**: The creature can breathe underwater. 
+
 `-1` point: In one massive burst of energy, the creature may lunge out of the water, travelling up to `30'/10m`. 
 
 ### Defensive Traits
