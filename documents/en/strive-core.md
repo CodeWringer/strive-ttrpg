@@ -296,6 +296,15 @@ Furthermore, a meta-currency, called **Fate Points** is earned by *players*, bas
 
 My two small, yet inexorable groups of playtesters, whose feedback has been invaluable, without whom this game would not be any where near where it is now and who keep me motivated!
 
+And of course, such a project did not come into existence in a vacuum. Inspiration and lessons were found in a variety of places, such as other TTRPGs. Each of them deserves an honorable mention and in what ways they differ from STRIVE. 
+
+* If you are interested in a medieval fantasy world and enjoy the Aspiration, Reaction and Fate-Card systems, but care little for tactical combat, **Burning Wheel** may be what you seek. 
+* For heroic medieval fantasy, where combat is the core, check out **Draw Steel**. In a way, this is **Dungeons & Dragons**, with all the extraneous fat trimmed away. Its unique Malice mechanic and how combatants are constantly moved around keeps combat interesting all throughout.
+* Symbaroum offers haunting and marvelous artworks in an equally fascinating dark medieval fantasy world. The way in which you can customize your character builds are plentiful and really fun to experiment with!
+* For grim dark fantasy, with a more complex injury system, take a look at **Zweihänder**, which in turn appears inspired by **Warhammer Fantasy**. Its list of professions and skills offers an incredible wealth of character customization! 
+
+Also worth mentioning is the RPG Design subreddit, where one can find many in-depth analyses about game mechanics. Much inspiration may be found here which, with some effort, can be molded into concrete mechanics for your own rpg.
+
 # How to Play
 As **STRIVE** is a **roleplaying game**, there are certain rules to follow and expectations made of both players and **GM**. 
 
