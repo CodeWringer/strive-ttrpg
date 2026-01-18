@@ -303,6 +303,8 @@ And of course, such a project did not come into existence in a vacuum. Inspirati
 * Symbaroum offers haunting and marvelous artworks in an equally fascinating dark medieval fantasy world. The way in which you can customize your character builds are plentiful and really fun to experiment with!
 * For grim dark fantasy, with a more complex injury system, take a look at **Zweihänder**, which in turn appears inspired by **Warhammer Fantasy**. Its list of professions and skills offers an incredible wealth of character customization! 
 
+The Momentum system was inspired by a video-game RPG, **Rogue Trader**, which has its own version of such a system. 
+
 Also worth mentioning is the RPG Design subreddit, where one can find many in-depth analyses about game mechanics. Much inspiration may be found here which, with some effort, can be molded into concrete mechanics for your own rpg.
 
 # How to Play
