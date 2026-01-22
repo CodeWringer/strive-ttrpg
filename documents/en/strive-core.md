@@ -1257,14 +1257,14 @@ There are no limits to how many of a given card a player can own, but they may o
 | Cost    | Name                | Effect             |
 | ------- | ------------------- | ------------------ |
 | 2 MiFP  | Single Re-Roll      | Repeat a single test you just made. |
-| 6 MiFP  | Clotter             | One **active** [injury](#injury) of choice is now **treated**. |
-| 8 MiFP  | Cascading Re-Roll   | Repeat a single test you just made. With this card, you keep any **hits** you achieved from the previously made test and add them to the **hits** rolled when you repeat the test. Exclusive with "Double the Fun". |
+| 6 MiFP  | Clotter             | One **active** [Injury](#injury) of choice is now **treated**. |
+| 8 MiFP  | Cascading Re-Roll   | Repeat a single test you just made. With this card, you keep any **hits** you achieved from the previously made test and add them to the **hits** rolled when you repeat the test. This also doubles your Hit Limit. Exclusive with "Double the Fun". |
 | 8 MiFP  | Learning Boost      | For the duration of the session, you gain **twice** the [progress](#advancing-skills) towards your [skills](#skills) and twice the [XP](#experience-points-xp) every test. |
 | 8 MiFP  | Hastened            | `+1` **AP** during your turns for the entirety of a [combat](#combat) encounter. |
-| 3 MaFP  | Double the Fun      | Double the number of dice to roll on your next/current test and every rolled **hit** counts double - which means every rolled **hit** actually counts as 2 **hits**! Exclusive with "Cascading Re-Roll". |
+| 3 MaFP  | Double the Fun      | Double the number of dice to roll on your next/current test and every rolled **hit** counts double - which means every rolled **hit** actually counts as `2` **hits**! This also doubles your Hit Limit. Exclusive with "Cascading Re-Roll". |
 | 5 MaFP  | Fact Check          | Change a minor plot point in a way you prefer. Work with your **GM** to make sure it fits the narrative, but they should respect your wish. This could be something like avoiding an **NPC** death or changing a fact about the plot. |
-| 5 MaFP  | Just a Flesh Wound  | Avoid or remove an [injury](#injury)! |
-| 1 AFP   | Defy Death          | Return from the dead, remove 1 **active** [injury](#injury) of choice and be at 1 **HP**; Alternatively, avoid a narratively-driven death. The **GM** will decide the character's alternative fate. They could be captured, very badly injured or become indebted to someone or something. Note that this card can only be played *after* the character lost their [battle with death](#deaths-door). |
+| 5 MaFP  | Just a Flesh Wound  | Avoid or remove an [Injury](#injury)! |
+| 1 AFP   | Defy Death          | Return from the dead, remove `1` **active** [Injury](#injury) of choice and be at `1` **HP**; Alternatively, avoid a narratively-driven death. The **GM** will decide the character's alternative fate. They could be captured, very badly injured or become indebted to someone or something. Note that this card can only be played *after* the character lost their [battle with death](#deaths-door). |
 | 1 AFP   | Yes, my liege       | Work with your **GM** to create a follower/hireling who will now be at your command/employ. |
 
 # Time-Management
@@ -1508,7 +1508,7 @@ However, even with saved-up **AP**, the maximum a character may **begin their tu
 ## Combat Movement
 Under normal circumstances, a character (an average human) can move up to `12'/4m` (= `4` fields on a grid) per **AP** spent. 
 
-On **difficult terrain**, the distance moved per **AP** is half that, at `6'/2m` (= `2` fields on a grid). **Difficult terrain** is any space that slows movement, but does not prevent it outright. Examples would be waist-high water, a surface of glue or a slowing force field. 
+On **Difficult Terrain**, the distance moved per **AP** is half that, at `6'/2m` (= `2` fields on a grid). Difficult Terrain is any space that slows movement, but does not prevent it outright. Examples would be waist-high water, a surface of glue or a slowing force field. 
 
 It is also possible to **sprint**, increasing the distance one can move per **AP** spent, at the cost of `1` point of [exhaustion](#exhaustion) for every **AP** spent **sprinting**. The movement distance is increased by a character's [sprinting speed](#sprinting-speed), per **AP**. 
 
@@ -1540,7 +1540,7 @@ When disengaging from more than one [Range of Opportunity](#attacks-of-opportuni
 ### Flee Combat
 When [combat](#combat) is a decidedly bad idea, one can try to flee from it. A fleeing character can no longer perform any *hostile actions*. That means, they can no longer attack or hinder any other characters until the end of [combat](#combat). 
 
-In turn for giving up their offensive capacity, they gain double their [sprinting speed](#sprinting-speed) per [AP](#action-points-ap) spent. Rules for [difficult terrain](#combat-movement) and the exhaustion cost for sprinting still apply. 
+In turn for giving up their offensive capacity, they gain double their [sprinting speed](#sprinting-speed) per [AP](#action-points-ap) spent. Rules for [Difficult Terrain](#combat-movement) and the exhaustion cost for sprinting still apply. 
 
 ### Push Through
 It is possible to **push through** a [Range of Opportunity](#attacks-of-opportunity), without spending any [AP](#action-points-ap), but in doing so, the [Attack of Opportunity](#attacks-of-opportunity) is **guaranteed** to land successfully, without any attack [test](#tests) necessary (this counts as an automatic success for the attacker). 
@@ -2676,6 +2676,7 @@ A **multiple-single-target** (**MST**) action affects at least one and up to a m
 | [D4](#dice)                                  | A four-sided die        |
 | [D6](#dice)                                  | A six-sided die         |
 | [D8](#dice)                                  | An eight-sided die      |
+| [Difficult Terrain](#combat-movement)        | Halves movement per AP  |
 | [FP](#fate-points)                           | Fate-Point              |
 | [GM](#introduction)                          | Game-Master             |
 | [Hit Limit](#testing-a-skill)                | Determines how many rolled **hits** may actually factor into the result of a test. |

@@ -38,42 +38,57 @@ This document is directed at (and somewhat reserved for) the Game Master (**GM**
     - [Hand Out Fate Points](#hand-out-fate-points)
     - [Gather Feedback](#gather-feedback)
 - [NPC Builder](#npc-builder)
-  - [Roles](#roles)
+  - [Combat Roles](#combat-roles)
   - [Traits](#traits)
     - [Mobility Traits](#mobility-traits)
-      - [Burrower (-2 points)](#burrower--2-points)
-      - [Climber (-2 points)](#climber--2-points)
-      - [Fast (-2 points)](#fast--2-points)
-      - [Glider (-1 points)](#glider--1-points)
-      - [Leaper (-3 points)](#leaper--3-points)
-      - [Swimmer (-1 point)](#swimmer--1-point)
+      - [Burrower (-2 points; +2 CR)](#burrower--2-points-2-cr)
+      - [Climber (-2 points; +1 CR)](#climber--2-points-1-cr)
+      - [Fast (-2 points; +1 CR)](#fast--2-points-1-cr)
+      - [Glider (-1 points; +1 CR)](#glider--1-points-1-cr)
+      - [Leaper (-3 points; +2 CR)](#leaper--3-points-2-cr)
+      - [Swimmer (-1 point; +1 CR)](#swimmer--1-point-1-cr)
     - [Defensive Traits](#defensive-traits)
-      - [Acid Blood (-1 point)](#acid-blood--1-point)
-      - [Armored (-2 points)](#armored--2-points)
-      - [Camouflage (-3 points)](#camouflage--3-points)
-      - [Death Rattle (-2 points)](#death-rattle--2-points)
-      - [Immovable (-2 points)](#immovable--2-points)
-      - [Insurmountable (-4 points)](#insurmountable--4-points)
-      - [Unstoppable (-2 points)](#unstoppable--2-points)
-      - [Regenerator (-5 points)](#regenerator--5-points)
-      - [Thorny (-3 points)](#thorny--3-points)
-      - [Toxiferous (-3 points)](#toxiferous--3-points)
+      - [Armored (-2 points; +3 CR)](#armored--2-points-3-cr)
+      - [Camouflage (-3 points; +3 CR)](#camouflage--3-points-3-cr)
+      - [Danger Blood (-1 point; +1 CR)](#danger-blood--1-point-1-cr)
+      - [Danger-Touch (-3 points; +2 CR)](#danger-touch--3-points-2-cr)
+      - [Death Rattle (-2 points; +2 CR)](#death-rattle--2-points-2-cr)
+      - [Fortified Mind (-4 points; +1 CR)](#fortified-mind--4-points-1-cr)
+      - [Immovable (-2 points; +1 CR)](#immovable--2-points-1-cr)
+      - [Insurmountable (-4 points; +3 CR)](#insurmountable--4-points-3-cr)
+      - [Unstoppable (-2 points; +1 CR)](#unstoppable--2-points-1-cr)
+      - [Unstunnable (-3 points; +1 CR)](#unstunnable--3-points-1-cr)
+      - [Regenerator (-5 points; +3 CR)](#regenerator--5-points-3-cr)
     - [Offensive Traits](#offensive-traits)
-      - [Cannot Miss (-3 points)](#cannot-miss--3-points)
-      - [Disease-Ridden (-1 point)](#disease-ridden--1-point)
-      - [Forceful (-2 points)](#forceful--2-points)
+      - [Cannot Miss (-3 points; +3 CR)](#cannot-miss--3-points-3-cr)
+      - [Disease-Ridden (-1 point; +1 CR)](#disease-ridden--1-point-1-cr)
+      - [Forceful (-2 points; +1 CR)](#forceful--2-points-1-cr)
     - [Weakness Traits](#weakness-traits)
-      - [Drowner (+1 point)](#drowner-1-point)
-      - [Light-weight (+2 points)](#light-weight-2-points)
-      - [Shambler (+2 points)](#shambler-2-points)
-      - [Sluggish (+4 points)](#sluggish-4-points)
-      - [Vulnerable (+2 points)](#vulnerable-2-points)
+      - [Drowner (+1 point; -1 CR)](#drowner-1-point--1-cr)
+      - [Light-weight (+2 points; -1 CR)](#light-weight-2-points--1-cr)
+      - [Shambler (+2 points; -2 CR)](#shambler-2-points--2-cr)
+      - [Sluggish (+4 points; -3 CR)](#sluggish-4-points--3-cr)
+      - [Vulnerable (+2 points; -2 CR)](#vulnerable-2-points--2-cr)
     - [Legendary Traits](#legendary-traits)
-      - [Gritty (-5 points)](#gritty--5-points)
-      - [Hyperactive (-7 points)](#hyperactive--7-points)
-      - [Inexorable (-5 points)](#inexorable--5-points)
-      - [Moon Affinity (-7 points)](#moon-affinity--7-points)
+      - [Gritty (-5 points; +4 CR)](#gritty--5-points-4-cr)
+      - [Hyperactive (-7 points; +4 CR)](#hyperactive--7-points-4-cr)
+      - [Inexorable (-5 points; +4 CR)](#inexorable--5-points-4-cr)
+      - [Moon Affinity (-7 points; +4 CR)](#moon-affinity--7-points-4-cr)
   - [Skills](#skills)
+    - [Bite (Agi/Str)](#bite-agistr)
+    - [Create Sticky Surface (Tough/Tough)](#create-sticky-surface-toughtough)
+    - [Charge (Str/Tough)](#charge-strtough)
+  - [Hostility Actions](#hostility-actions)
+    - [Advance! (-4 points; +2 CR)](#advance--4-points-2-cr)
+    - [Collect Bounty (-4 points; +3 CR)](#collect-bounty--4-points-3-cr)
+    - [Get Off Me! (-5 points; +3 CR)](#get-off-me--5-points-3-cr)
+    - [Resonance Cascade (-4 points; +2 CR)](#resonance-cascade--4-points-2-cr)
+    - [Slip Away (-5 points; +3 CR)](#slip-away--5-points-3-cr)
+    - [Seething Hatred (-5 points; +2 CR)](#seething-hatred--5-points-2-cr)
+    - [Sinkhole (-8 points; +2 CR)](#sinkhole--8-points-2-cr)
+    - [Trap Storm (-4 points; +3 CR)](#trap-storm--4-points-3-cr)
+    - [I Don't Bleed (-5 points; +4 CR)](#i-dont-bleed--5-points-4-cr)
+    - [No, I Am The Hero! (-10 points; +6 CR)](#no-i-am-the-hero--10-points-6-cr)
 - [Encounter Builder](#encounter-builder)
 
 A role-playing game by Nicolas H.
@@ -140,7 +155,7 @@ Non-player characters (NPCs) are all the **people, animals and monsters** of you
 
 There are three types of NPCs:
 * **People**: These are sentient, sapient and civilized folk, who can be reasoned with and interacted with on the same level as the PCs. See them as you do real people. There are no rules or mechanics dictating how they should behave, but they are *expected* to engage with the PCs and to react to the PCs' actions. 
-* **Animals**: Sentient, but not sapient, these are creatures driven by animalistic instinct. They are neither inherently evil, nor good, and mostly care only about their base needs. Think wolves, bears, dogs and the like. But this may also be fantastical creatures, such as dragons, gryphons, space-whales and so on. 
+* **Animals**: Sentient, but not sapient, these are creatures driven by animalistic instinct. They are neither inherently evil, nor good, and mostly care only about their base needs. Think: wolves, bears, dogs and the like. But these may also be fantastical creatures, such as dragons, gryphons, space-whales and so on. 
 * **Monsters**: Possibly sentient and/or sapient, these creatures can be of natural or unnatural origin and are usually irredeemably evil and destructive. Examples might be demons from an abyssal plane of existence, undead, constructs, robots and such. These are natural antagonists of the PCs and their origin cultures. 
 
 There is a distinction to be made between "proper" NPCs and "simple" NPCs:
@@ -404,19 +419,23 @@ You could ask them the following:
 # NPC Builder
 A Module may provide you with some pre-defined NPCs to work with, but you will most likely have to, and perhaps desire to, invent your own, too. This chapter aims to provide a step-by-step process for NPC creation, based on several parameters that you get to pick from. 
 
+Every choice you make, will affect a creature's **Challenge Rating (CR)**, which serves as a **broad abstraction** of how challenging to deal with it will be. Note that when preparing a combat encounter, more than just the sum of the opponents' CR values will be a factor. For more on this, see the chapter [Enounter Builder](#encounter-builder). Even when you assign weaknesses, CR cannot be less than `1`. 
+
 First, you must decide whether you need a **person**, an **animal** or a **monster**. A reminder from the [NPC](#non-player-characters-npcs) chapter:
+
 * **People**: These are sentient, sapient and civilized folk, who can be reasoned with and interacted with on the same level as the PCs. See them as you do real people. There are no rules or mechanics dictating how they should behave, but they are *expected* to engage with the PCs and to react to the PCs' actions. 
-* **Animals**: Sentient, but not sapient, these are creatures driven by animalistic instinct. They are neither inherently evil, nor good, and mostly care only about their base needs. Think wolves, bears, dogs and the like. But this may also be fantastical creatures, such as dragons, gryphons, space-whales and so on. 
+* **Animals**: Sentient, but not sapient, these are creatures driven by animalistic instinct. They are neither inherently evil, nor good, and mostly care only about their base needs. Think: wolves, bears, dogs and the like. But these may also be fantastical creatures, such as dragons, gryphons, space-whales and so on. 
 * **Monsters**: Possibly sentient and/or sapient, these creatures can be of natural or unnatural origin and are usually irredeemably evil and destructive. Examples might be demons from an abyssal plane of existence, undead, constructs, robots and such. These are natural antagonists of the PCs and their origin cultures. 
 
 Secondly, you must choose a **power-level**: 
-**feeble**: `4` points
-**regular**: `6` points
-**elite**: `10` points
-**legendary**: `20` points
 
-## Roles
-A creature's role informs you about how to best employ it in a combat encounter. When used within their role, they will perform better and be a more challenging foe. 
+* **Feeble**: Start with `8` points and a CR of `1`. A feeble creature is cannon-fodder, a minion that serves as faceless padding around a bigger villain. It always has **`10` maximum HP**, regardless of its Toughness level or other Traits. This makes it easy to eliminate and allows the PCs to feel heroic, for example by cutting a path through a horde of lesser zombies. 
+* **Regular**: Start with `12` points and a CR of `1`. A regular creature has no particular advantages or disadvantages. Often times, two or three of these will be enough to occupy a PC group for a while. Also expect most people NPCs to be regular creatures. 
+* **Elite**: Start with `20` points and a CR of `2`. An elite is highly trained or naturally talented. Just one of these may suffice to challenge a PC group. When coupled with other NPCs, this one should probably assume a supporting or leading role and instead of engaging the PCs to the same extent as its minions, hangs back a bit, to ensure it won't overwhelm the PCs. 
+* **Legendary**: Start with `30` points and a CR of `3`. A legendary creature is expected to be a boss encounter, which can easily challenge the entire PC group on its own. Be careful not to design it as too powerful. Instead, for an epic boss fight, split up its abilities into two or three stages. 
+
+## Combat Roles
+A creature's role informs you about how to best employ it in a combat encounter. When used within their role, they will perform better and be a more challenging foe. You can also purposefully use a creature contra to their role, to make them easier to deal with. 
 
 * **Ambusher**: Surprises foes, striking from stealth and tries to flank. Stays in the back-line or at their enemies' flanks. 
 * **Artillery**: A back-liner who prefers to rain damage upon foes from afar. Usually very weak in melee. 
@@ -429,43 +448,46 @@ A creature's role informs you about how to best employ it in a combat encounter.
 * **Tank**: Draws attention to itself and can survive a lot of punishment. Prefers the front-line. Tends to deal little damage, but may be good at disrupting enemy formations, for example by moving opponents around a lot. 
 * **Trapper**: Lays traps and prepares the battlefield in advance or manipulates it during combat. 
 
+You may assign as many or as few roles to a creature as you like, but you should be careful to only assign those that make sense. You may begin by choosing a role and building around that or start from the opposite direction and first design Skills, pick Traits and only when finished assign fitting roles. 
+
 ## Traits
-When choosing Traits from the lists below, keep in mind all of them are really just suggestions, to quickly get you started designing your own creatures. Once you get a feel for the numbers, for what *feels* like a balanced creature, you can easily expand the lists with your own Traits. In fact, you don't need to use the point-buy-system, at all, if you think you know how to make an interesting creature that won't hopelessly overwhelm the PCs.
+When choosing Traits from the lists below, keep in mind all of them are really just suggestions, to quickly get you started designing your own creatures. Once you get a feel for the numbers, for what *feels* like a balanced creature, you can easily expand the lists with your own Traits. In fact, you don't need to use the point-buy-system, at all, if you have experience in creature design.
 
 Ultimately, what makes a creature *balanced* in terms of power and ability, so that it can reasonable be defeated, is to always give it some significant weakness. A creature that can easily deal lots of damage should be pretty weak itself, forcing it to take a cautious approach. A creature that can survive a lot of damage without batting an eye should probably not deal much damage itself. If you combine such strengths, make sure to give it some other weakness, like tying its ability to act to an environmental effect that triggers only once every other round or to another NPC which controls it. Perhaps its strength is only temporary or only effective when supported by allies. There are many ways in which a creature can have significant weaknesses for the PCs to find and exploit, which will please their players when they do. 
 
 However, you are not limited to creating balanced creatures. You can also design deliberately *unfair* creatures, who are god-like in their powers. But if you do, be aware that the PCs should probably not be allowed to try and fight such a being. Or if you do allow them to try, have the creature put a "gentle" stop to it, like a parent scolding their child. Or perhaps the god-creature is so powerful it simply needn't care about what the PCs do, anyway. Such a being should likely result in a narrative challenge, rather than a combat one. This could also be the villain of the campaign, who starts off unfairly strong, but as the PCs progress through the campaign, they destroy the villain's sources of power and eliminate their allies, causing the villain to weaken and finally become defeatable. 
 
 ### Mobility Traits
+These Traits can change up how a creature may engage the PCs, may allow them to circumvent hazards, quickly flee an encounter or reposition around the PCs. 
 
-#### Burrower (-2 points)
+#### Burrower (-2 points; +2 CR)
 The creature can burrow, moving up to `6'/2m`, at a depth of up to `9'/3m`, per AP spent. While burrowed, it cannot be targeted or make attacks. 
 
 `-N` points: Can burrow an additional `N * 6'/2m`, per AP spent. 
 
-#### Climber (-2 points)
+#### Climber (-2 points; +1 CR)
 The creature is a natural climber, and can move at full speed while climbing, without tests required. But this only applies to easily climbable surfaces that provide some actual grip, like a tree's bark, a rough cliff face or rope. It cannot climb perfectly flat surfaces or 
 
 `-1` point: **Sticky**: The creature can cling to any surface, without restriction. 
 
-#### Fast (-2 points)
+#### Fast (-2 points; +1 CR)
 This creature moves an additional `6'/2m`, per AP spent. Exclusive with [Shambler](#shambler-2-points). 
 
 `-N` points: Can move an additional `N * 3'/1m` per AP spent. 
 
-#### Glider (-1 points)
+#### Glider (-1 points; +1 CR)
 The creature can glide, but only from higher to lower elevation. 
 
 `-1` point: **Floater**: Can also hover in mid-air. 
 
 `-3` point: **Flyer**: Can move at full speed mid-air, as far and as long as it wants and at any elevation. 
 
-#### Leaper (-3 points)
+#### Leaper (-3 points; +2 CR)
 The creature can jump up to `18'/6m` far, in a high arc, without provoking [Attacks of Opportunity](./strive-core.md#attacks-of-opportunity), over the heads of its foes. This causes `+1` Exhaustion to the creature. 
 
 `-2` points: **Dervish**: When leaping over opponents, this creature may also launch free attacks against each of them, but with **Ob** `+1`.
 
-#### Swimmer (-1 point)
+#### Swimmer (-1 point; +1 CR)
 The creature is at home in the water. They can move at full speed while swimming, without tests required. Exclusive with [Drowner](#swimming-averse-1-point)
 
 `-1` point: **Aquatic**: The creature can breathe underwater. 
@@ -475,73 +497,80 @@ The creature is at home in the water. They can move at full speed while swimming
 ### Defensive Traits
 These Traits help a creature survive longer or at least deter certain forms of attack against it. 
 
-#### Acid Blood (-1 point)
-When injured, acidic blood squirts out of the wound, causing `1D6` acid damage to all adjacent creatures. 
-
-#### Armored (-2 points)
+#### Armored (-2 points; +3 CR)
 The creature is naturally armored. You can spend up to `8` points on a damage type it protects against. Cannot be armored against a damage type it is also [Vulnerable](#vulnerable-2-points) against. 
 
 `-N` points: **Heavily Armored**: You can spend an additional `N * 4` points on damage protections. 
 
-#### Camouflage (-3 points)
+#### Camouflage (-3 points; +3 CR)
 The creature can become invisible, even in plain sight, at the cost of `3` AP. It will stay invisible for as long as it takes no offensive action. It can be detected with a successful [Observation](./strive-core.md#observation-awarawar) or [Path-Finding](./strive-core.md#path-finding-awarwit) test, at **Ob** `3`. 
 
-#### Death Rattle (-2 points)
+#### Danger Blood (-1 point; +1 CR)
+When injured, strange-colored blood squirts out of the wound, causing `1D6` acid/poison/burning/freezing (choose one) damage to all other, adjacent creatures. 
+
+#### Danger-Touch (-3 points; +2 CR)
+All melee attackers against this creature suffer `6` points of a chosen type of damage, even if they miss. 
+
+#### Death Rattle (-2 points; +2 CR)
 Upon dying, the creature can invoke one of the following effects (you must choose one now):
 * Explode: Cause damage to all adjacent creatures. Choose one: `2D6 + 2 Slashing`, `2D6 Piercing`, or `2D4` of any other damage type. 
 * Terrifying Screech: All foes in a `30'/10m` radius around the creature must succeed a [Self-Control](./strive-core.md#self-control-toughtough) test at Ob `3`, or else become [Terrified](strive-core.md#terrified) for one round. 
 * Reprisal: Move up to `24'/8m` and launch a final, desperate and free attack against a foe, with **Ob** `-1`. 
 
-#### Immovable (-2 points)
+#### Fortified Mind (-4 points; +1 CR)
+The creature cannot be [Terrified](./strive-core.md#terrified), [Berserked](./strive-core.md#berserk), made [Jealous](./strive-core.md#jealous) or [Pacified](./strive-core.md#pacified). 
+
+#### Immovable (-2 points; +1 CR)
 This creature cannot be [Force-Moved](strive-core.md#forced-movement). 
 
-#### Insurmountable (-4 points)
+#### Insurmountable (-4 points; +3 CR)
 This creature does not suffer [Flanking](strive-core.md#flanking). 
 
-#### Unstoppable (-2 points)
+#### Unstoppable (-2 points; +1 CR)
 The creature cannot be stopped by [Opportunity Attacks](strive-core.md#attacks-of-opportunity). 
 
-#### Regenerator (-5 points)
+#### Unstunnable (-3 points; +1 CR)
+The creature cannot be [Stunned](strive-core.md#stunned). 
+
+#### Regenerator (-5 points; +3 CR)
 At the start of its turn, the creature regains `6` HP.
-
-#### Thorny (-3 points)
-All melee attackers against this creature suffer `6` points of Piercing damage, even if they miss. 
-
-#### Toxiferous (-3 points)
-All melee attackers against this creature suffer `4` points of Poison damage, even if they miss. 
 
 ### Offensive Traits
 A creature can make use of these Traits when it attacks. 
 
-#### Cannot Miss (-3 points)
+#### Cannot Miss (-3 points; +3 CR)
 Even when this creature misses with a damage-causing attack, it will always deal `4` points of the attack's primary damage, anyway. If the creature does succeed in attacking, this Trait does not trigger.
 
 `-3` points: **Precise**: Always deals `8` points of damage, instead.
 
-#### Disease-Ridden (-1 point)
+#### Disease-Ridden (-1 point; +1 CR)
 Any damage this creature deals on another that can contract diseases, will force a test to resist disease from that creature. The victim must succeed a Toughness test at **Ob** equal to half their Toughness, rounded up, or else suffer a random Illness. 
 
 Useful for: Any type of undead, rats and swamp creatures.
 
-#### Forceful (-2 points)
+#### Forceful (-2 points; +1 CR)
 Attacks that cause forced movement, have increased moving-distance by `6'/2m`. 
 
 ### Weakness Traits
 These Traits grant a creature weaknesses that make it easier to defeat. 
 
-#### Drowner (+1 point)
+#### Drowner (+1 point; -1 CR)
 If thrown in the water, the creature will drop like a rock. If it can drown, it will, unless rescued from such a horrible demise. Exclusive with [Swimmer](#swimmer--2-points)
 
-#### Light-weight (+2 points)
+#### Light-weight (+2 points; -1 CR)
 The creature is easier to force move and can be pushed an additional `6'/2m` per instance of being moved. 
 
-#### Shambler (+2 points)
+#### Shambler (+2 points; -2 CR)
 The creature lacks finer motor skill and can move at most `6'/2m` per AP spent. Exclusive with [Fast](#fast--2-points). 
 
-#### Sluggish (+4 points)
+Useful for: Zombies, heavy robots, primitive armored vehicles (e.g. very early tanks)
+
+#### Sluggish (+4 points; -3 CR)
 The creature is slow to think, move and act. It starts its turn with only `+2` AP, instead of the default. Exclusive with [Hyperactive](#hyperactive--7-points). 
 
-#### Vulnerable (+2 points)
+Useful for: Creatures you wish to employ en masse, such as zombies, or powerful creatures whose action economy you wish to limit
+
+#### Vulnerable (+2 points; -2 CR)
 The creature is especially susceptible to a specific type of damage, and will suffer an additional `6` points thereof, whenever it is suffered. Whatever damage type it is vulnerable to, it cannot be [Armored](#armored--2-points) against. 
 
 `+N` points: It is vulnerable to `N` additional types of damage. 
@@ -549,10 +578,10 @@ The creature is especially susceptible to a specific type of damage, and will su
 ### Legendary Traits
 These are very powerful Traits that should be reserved for special creatures who should pose a considerable challenge. 
 
-#### Gritty (-5 points)
+#### Gritty (-5 points; +4 CR)
 This creature starts with and can use `5` [Grit Points](./strive-core.md#grit-points), and regains `+1` Grit Point at the start of its turn. 
 
-#### Hyperactive (-7 points)
+#### Hyperactive (-7 points; +4 CR)
 This creature regains `+5` AP per turn, instead of the default. Exclusive with [Sluggish](#sluggish-4-points). 
 
 `-3` points: **Disruptive**: Gets to act once after every foe's turn and regains `1` AP each time.
@@ -560,12 +589,12 @@ This creature regains `+5` AP per turn, instead of the default. Exclusive with [
 
 Useful for: Elites and boss enemies who typically face many enemies at once. This balances out the action economy. 
 
-#### Inexorable (-5 points)
+#### Inexorable (-5 points; +4 CR)
 This creature cannot gain [Exhaustion](./strive-core.md#exhaustion) through its own actions (i. e. sprinting, Skills or Expertises). 
 
 Useful for: Creatures that would *break* and be uninteresting to deal with, if they tired. Zombies, for example. But this can only be useful for particularly tough foes, especially if they make heavy use of Exhaustion causing abilities. 
 
-#### Moon Affinity (-7 points)
+#### Moon Affinity (-7 points; +4 CR)
 When basking in a full moon, the creature regains `6` HP at the start of its turn. 
 When basking in a full moon, all attacks deal an additional `8` points of Slashing damage.
 
@@ -574,9 +603,66 @@ Gain the ability: **Moon Step**: At the cost of `1` AP, the creature can vanish 
 Useful for: Creatures of the night, such as werewolves, vampires and ghosts. 
 
 ## Skills
-Custom Skills are that which brings the spice to every NPC. For people, you may simply give them Skills from the same lists as are available to the PCs. When choosing Skills to add to a NPC, you needn't add every single Skill they could potentially use at some point. You only need to give them those Skills that form their core strengths. The more Skills you add, the harder to manage a NPC becomes. 
+Custom Skills are that which brings the spice to every NPC. 
+
+For people, you may simply give them Skills from the same lists as are available to the PCs. When choosing Skills to add to a NPC, you needn't add every single Skill they could potentially use at some point. You only need to give them those Skills that form their core strengths. The more Skills you add, the harder to manage a NPC becomes. 
 
 Every Skill chosen should be at least level `2`. 
 
+### Bite (Agi/Str)
+Bite a target for `1D4 + Strength` points of piercing damage.
+
+### Create Sticky Surface (Tough/Tough)
+Create a sticky, adhesive surface within hand's reach. This surface now counts as [Difficult Terrain](strive-core.md#combat-movement). Objects can also be stuck to this surface and require `2` AP to break loose.
+
+### Charge (Str/Tough)
+Run at a target, up to `12'/4m` away and slam into them with your body, dealing `Toughness` points of damage and knocking your opponent back by `Strength * 3'/1m`. 
+
+## Hostility Actions
+PCs have access to [Momentum Actions](strive-core.md#momentum) and earn or lose Momentum with the tides in combat. But you as the GM earn **Hostility**, regardless of how the combat is going. At the start of every **combat round**, you earn `1`, plus the number of PCs and their allies in the encounter. 
+
+> Given `3` PCs and one ally, you earn `1 + 3 + 1 = 5` Hostility at the start of every round. 
+
+Hostility can be spent on powerful special abilities, called **Hostility Actions**, that certain NPCs may have access to. These abilities will allow you to spice up combat, by throwing surprises at or putting pressure on the PCs (and by extension their players). Note that just like Momentum Actions, Hostility Actions can be activated **whenever appropriate**, even when it's currently another creature's turn. 
+
+Unlike Momentum, **Hostility is not lost** when a combat encounter ends. It simply keeps building up, until you deem the time is right to spend. Of course, with such great power comes great responsibility, as you may have guessed. There may be times when it might be easy to overwhelm the PCs through the use of Hostility Actions. Just because you could spend the Hostility, doesn't mean you should. After all, your job is to keep combat interesting, not to outright kill the PCs. If the PCs have their hands full already, then there should be no need to spend Hostility. 
+
+As Hostility Actions can really mix up combat, it would be wise to refrain from employing too many creatures with such abilities. These should be reserved for elite and legendary creatures. Although you could also break this expectation and explicitly give a regular or even feeble creature a Hostility Action. But always keep in mind that every creature with a Hostility Action is another level of complexity to the combat encounter. This causes more work for you and more things to keep track of for everyone. Used sparingly and effectively, Hostility Actions can elicit gasps of surprise from your players, ensuring a memorable encounter!
+
+### Advance! (-4 points; +2 CR)
+**`-3` Hostility**: The creature and up to `3` of its allies may immediately and freely move up to `15'/5m` far. These movements may provoke [Opportunity Attacks](./strive-core.md#attacks-of-opportunity)!
+
+### Collect Bounty (-4 points; +3 CR)
+**`-5` Hostility**: The creature moves up to `45'/15m` and makes an immediate and free attack against a chosen foe. Until the end of combat, or until a new victim is chosen with this ability, that foe is [Marked](strive-core.md#marked)!
+
+### Get Off Me! (-5 points; +3 CR)
+**`-5` Hostility**: The creature pushes back all other, adjacent creatures by `9'/3m`. 
+
+### Resonance Cascade (-4 points; +2 CR)
+**`-5` Hostility**: The creature and its allies begin to hum or thrum in the same cadence, as if one, with dizzying intensity. All other creatures, within a distance of `30'/10m` to any of the resonating ones, lose `-1` AP!
+
+Useful for: Any creature that could reasonably emit such a thrumming sound, such as bats, frogs or machines
+
+### Slip Away (-5 points; +3 CR)
+**`-5` Hostility**: When a foe moves into a space adjacent to this creature, as a **reaction**, it may immediately move away, for up to `10'/5m`, without provoking [Opportunity Attacks](strive-core.md#attacks-of-opportunity)!
+
+### Seething Hatred (-5 points; +2 CR)
+**`-8` Hostility**: The creature immediately becomes [Berserked](strive-core.md#berserk) and deals an additional `5` points of bludgeoning damage on all their attacks, until the end of the round. 
+
+### Sinkhole (-8 points; +2 CR)
+**`-8` Hostility**: The ground gives and in a `30'/10m` radius around the creature, drops by `15'/5m`. All creatures with `Stability < 2` are covered by earth, become [Prone](strive-core.md#prone) and suffer `6` points of bludgeoning damage. All creatures with `Stability < 4` become [Prone](strive-core.md#prone). 
+
+### Trap Storm (-4 points; +3 CR)
+**`-8` Hostility**: The creature throws or lays or spews forth `3` traps, up to `30'/10m` far, that now litter the battlefield. Each of these will deal `1D6 + 2` points of damage. The damage type should be chosen according to the nature of the traps. E. g. piercing for bear traps, acid for pools of acid, burning for bombs and so on. 
+
+### I Don't Bleed (-5 points; +4 CR)
+**`-10` Hostility**: Immediately clears all points of [Bleeding](./strive-core.md#bleeding), [Burning](./strive-core.md#burning) and [Frostbitten](strive-core.md#frostbitten). 
+
+### No, I Am The Hero! (-10 points; +6 CR)
+**`-20` Hostility**: Immediately after the PCs have activated a [Heroic Act](./strive-core.md#momentum), this creature activates it again, but for itself and its allies, instead of the PCs!
+
 # Encounter Builder
-TODO
+When preparing a combat encounter, there are several factors to consider, such as whether the PCs are currently injured, what hazards the battlefield will hold in store, how many enemies and how strong they should be, whether the PCs have allies with them, how combat focused the PCs' Skills are and whether you want it to be a challenging or perhaps slightly easier encounter. 
+
+* PC armor
+* PC Traits
