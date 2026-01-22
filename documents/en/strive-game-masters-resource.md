@@ -38,8 +38,8 @@ This document is directed at (and somewhat reserved for) the Game Master (**GM**
     - [Hand Out Fate Points](#hand-out-fate-points)
     - [Gather Feedback](#gather-feedback)
 - [NPC Builder](#npc-builder)
-  - [Creature Roles](#creature-roles)
-  - [Monster Builder](#monster-builder)
+  - [Roles](#roles)
+  - [Traits](#traits)
     - [Mobility Traits](#mobility-traits)
       - [Burrower (-2 points)](#burrower--2-points)
       - [Climber (-2 points)](#climber--2-points)
@@ -59,9 +59,12 @@ This document is directed at (and somewhat reserved for) the Game Master (**GM**
       - [Thorny (-3 points)](#thorny--3-points)
       - [Toxiferous (-3 points)](#toxiferous--3-points)
     - [Offensive Traits](#offensive-traits)
+      - [Cannot Miss (-3 points)](#cannot-miss--3-points)
       - [Disease-Ridden (-1 point)](#disease-ridden--1-point)
+      - [Forceful (-2 points)](#forceful--2-points)
     - [Weakness Traits](#weakness-traits)
       - [Drowner (+1 point)](#drowner-1-point)
+      - [Light-weight (+2 points)](#light-weight-2-points)
       - [Shambler (+2 points)](#shambler-2-points)
       - [Sluggish (+4 points)](#sluggish-4-points)
       - [Vulnerable (+2 points)](#vulnerable-2-points)
@@ -70,6 +73,7 @@ This document is directed at (and somewhat reserved for) the Game Master (**GM**
       - [Hyperactive (-7 points)](#hyperactive--7-points)
       - [Inexorable (-5 points)](#inexorable--5-points)
       - [Moon Affinity (-7 points)](#moon-affinity--7-points)
+  - [Skills](#skills)
 - [Encounter Builder](#encounter-builder)
 
 A role-playing game by Nicolas H.
@@ -137,7 +141,7 @@ Non-player characters (NPCs) are all the **people, animals and monsters** of you
 There are three types of NPCs:
 * **People**: These are sentient, sapient and civilized folk, who can be reasoned with and interacted with on the same level as the PCs. See them as you do real people. There are no rules or mechanics dictating how they should behave, but they are *expected* to engage with the PCs and to react to the PCs' actions. 
 * **Animals**: Sentient, but not sapient, these are creatures driven by animalistic instinct. They are neither inherently evil, nor good, and mostly care only about their base needs. Think wolves, bears, dogs and the like. But this may also be fantastical creatures, such as dragons, gryphons, space-whales and so on. 
-* **Monsters**: Possibly sentient and/or sapient, these creatures can be of natural or unnatural origin and are usually irredeemably evil and destructive. Examples might be demons from an abyssal plane of existence, undead, constructs, robots and such. These are the natural antagonists of the PCs and their origin cultures. 
+* **Monsters**: Possibly sentient and/or sapient, these creatures can be of natural or unnatural origin and are usually irredeemably evil and destructive. Examples might be demons from an abyssal plane of existence, undead, constructs, robots and such. These are natural antagonists of the PCs and their origin cultures. 
 
 There is a distinction to be made between "proper" NPCs and "simple" NPCs:
 * A "proper" NPC has a fully filled out character sheet, with distinct values for each Attribute and every Skill. These are **main actors** in the story that aren't PCs. They will be the **key figures** that hand out quests, help or hinder the PCs' progress and possibly follow agendas of their own. 
@@ -403,7 +407,7 @@ A Module may provide you with some pre-defined NPCs to work with, but you will m
 First, you must decide whether you need a **person**, an **animal** or a **monster**. A reminder from the [NPC](#non-player-characters-npcs) chapter:
 * **People**: These are sentient, sapient and civilized folk, who can be reasoned with and interacted with on the same level as the PCs. See them as you do real people. There are no rules or mechanics dictating how they should behave, but they are *expected* to engage with the PCs and to react to the PCs' actions. 
 * **Animals**: Sentient, but not sapient, these are creatures driven by animalistic instinct. They are neither inherently evil, nor good, and mostly care only about their base needs. Think wolves, bears, dogs and the like. But this may also be fantastical creatures, such as dragons, gryphons, space-whales and so on. 
-* **Monsters**: Possibly sentient and/or sapient, these creatures can be of natural or unnatural origin and are usually irredeemably evil and destructive. Examples might be demons from an abyssal plane of existence, undead, constructs, robots and such. These are the natural antagonists of the PCs and their origin cultures. 
+* **Monsters**: Possibly sentient and/or sapient, these creatures can be of natural or unnatural origin and are usually irredeemably evil and destructive. Examples might be demons from an abyssal plane of existence, undead, constructs, robots and such. These are natural antagonists of the PCs and their origin cultures. 
 
 Secondly, you must choose a **power-level**: 
 **feeble**: `4` points
@@ -411,20 +415,21 @@ Secondly, you must choose a **power-level**:
 **elite**: `10` points
 **legendary**: `20` points
 
-## Creature Roles
+## Roles
+A creature's role informs you about how to best employ it in a combat encounter. When used within their role, they will perform better and be a more challenging foe. 
 
 * **Ambusher**: Surprises foes, striking from stealth and tries to flank. Stays in the back-line or at their enemies' flanks. 
 * **Artillery**: A back-liner who prefers to rain damage upon foes from afar. Usually very weak in melee. 
-* **Brawler**: A front-liner that can hold their own, but relies on allies to finish the job. 
+* **Brawler**: A front-liner that can hold their own, but relies on allies to finish the job. A solid middle-ground between Tank and Shock-Trooper. 
 * **Commander**: A leader that lesser allies will rally around. Can improve their allies capabilities and will direct them to improve their efficacy. 
 * **Guardian**: Protects allies. 
 * **Sentry**: Observant and often stands guard. Willy call for aid, as soon as it notices anything out of the ordinary. 
-* **Shock-Trooper**: Deals lots of damage, preferring to flank enemies. 
+* **Shock-Trooper**: Deals lots of damage, preferring to flank enemies. Doesn't usually survive much damage. 
 * **Supporter**: Improves the capabilities of their allies and/or weakens foes. 
-* **Tank**: Draws attention to itself and can survive a lot of punishment. Prefers the front-line. 
-* **Trapper**: Lays traps and prepares the battlefield. 
+* **Tank**: Draws attention to itself and can survive a lot of punishment. Prefers the front-line. Tends to deal little damage, but may be good at disrupting enemy formations, for example by moving opponents around a lot. 
+* **Trapper**: Lays traps and prepares the battlefield in advance or manipulates it during combat. 
 
-## Monster Builder
+## Traits
 When choosing Traits from the lists below, keep in mind all of them are really just suggestions, to quickly get you started designing your own creatures. Once you get a feel for the numbers, for what *feels* like a balanced creature, you can easily expand the lists with your own Traits. In fact, you don't need to use the point-buy-system, at all, if you think you know how to make an interesting creature that won't hopelessly overwhelm the PCs.
 
 Ultimately, what makes a creature *balanced* in terms of power and ability, so that it can reasonable be defeated, is to always give it some significant weakness. A creature that can easily deal lots of damage should be pretty weak itself, forcing it to take a cautious approach. A creature that can survive a lot of damage without batting an eye should probably not deal much damage itself. If you combine such strengths, make sure to give it some other weakness, like tying its ability to act to an environmental effect that triggers only once every other round or to another NPC which controls it. Perhaps its strength is only temporary or only effective when supported by allies. There are many ways in which a creature can have significant weaknesses for the PCs to find and exploit, which will please their players when they do. 
@@ -468,6 +473,7 @@ The creature is at home in the water. They can move at full speed while swimming
 `-1` point: In one massive burst of energy, the creature may lunge out of the water, travelling up to `30'/10m`. 
 
 ### Defensive Traits
+These Traits help a creature survive longer or at least deter certain forms of attack against it. 
 
 #### Acid Blood (-1 point)
 When injured, acidic blood squirts out of the wound, causing `1D6` acid damage to all adjacent creatures. 
@@ -505,16 +511,29 @@ All melee attackers against this creature suffer `6` points of Piercing damage, 
 All melee attackers against this creature suffer `4` points of Poison damage, even if they miss. 
 
 ### Offensive Traits
+A creature can make use of these Traits when it attacks. 
+
+#### Cannot Miss (-3 points)
+Even when this creature misses with a damage-causing attack, it will always deal `4` points of the attack's primary damage, anyway. If the creature does succeed in attacking, this Trait does not trigger.
+
+`-3` points: **Precise**: Always deals `8` points of damage, instead.
 
 #### Disease-Ridden (-1 point)
 Any damage this creature deals on another that can contract diseases, will force a test to resist disease from that creature. The victim must succeed a Toughness test at **Ob** equal to half their Toughness, rounded up, or else suffer a random Illness. 
 
 Useful for: Any type of undead, rats and swamp creatures.
 
+#### Forceful (-2 points)
+Attacks that cause forced movement, have increased moving-distance by `6'/2m`. 
+
 ### Weakness Traits
+These Traits grant a creature weaknesses that make it easier to defeat. 
 
 #### Drowner (+1 point)
 If thrown in the water, the creature will drop like a rock. If it can drown, it will, unless rescued from such a horrible demise. Exclusive with [Swimmer](#swimmer--2-points)
+
+#### Light-weight (+2 points)
+The creature is easier to force move and can be pushed an additional `6'/2m` per instance of being moved. 
 
 #### Shambler (+2 points)
 The creature lacks finer motor skill and can move at most `6'/2m` per AP spent. Exclusive with [Fast](#fast--2-points). 
@@ -528,6 +547,7 @@ The creature is especially susceptible to a specific type of damage, and will su
 `+N` points: It is vulnerable to `N` additional types of damage. 
 
 ### Legendary Traits
+These are very powerful Traits that should be reserved for special creatures who should pose a considerable challenge. 
 
 #### Gritty (-5 points)
 This creature starts with and can use `5` [Grit Points](./strive-core.md#grit-points), and regains `+1` Grit Point at the start of its turn. 
@@ -552,6 +572,11 @@ When basking in a full moon, all attacks deal an additional `8` points of Slashi
 Gain the ability: **Moon Step**: At the cost of `1` AP, the creature can vanish into the moon light and re-appear in a spot also basked in moon light, up to `45'/15m` away. It does not need line of sight to that spot. 
 
 Useful for: Creatures of the night, such as werewolves, vampires and ghosts. 
+
+## Skills
+Custom Skills are that which brings the spice to every NPC. For people, you may simply give them Skills from the same lists as are available to the PCs. When choosing Skills to add to a NPC, you needn't add every single Skill they could potentially use at some point. You only need to give them those Skills that form their core strengths. The more Skills you add, the harder to manage a NPC becomes. 
+
+Every Skill chosen should be at least level `2`. 
 
 # Encounter Builder
 TODO
