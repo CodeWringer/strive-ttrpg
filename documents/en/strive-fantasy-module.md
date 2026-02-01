@@ -134,6 +134,10 @@ There is a [compendium document](./strive-fantasy-game-masters-resource.md) rese
   - [List of Illnesses](#list-of-illnesses)
 - [Fantasy Game-Masters Resource](#fantasy-game-masters-resource)
   - [Creature Compendium](#creature-compendium)
+    - [Swine-Beasts](#swine-beasts)
+      - [Swine Belcher](#swine-belcher)
+        - [Bite (Agi/Str)](#bite-agistr)
+        - [Putrid Vomit (Agi/Awar)](#putrid-vomit-agiawar)
     - [Veil Entities](#veil-entities)
       - [The Monolith](#the-monolith)
       - [Perfection](#perfection)
@@ -1442,17 +1446,57 @@ This and the following sections are reserved solely for the **GM**'s eyes. Readi
 ## Creature Compendium
 A by no means exhaustive list of medieval-fantasy themed creatures for the **GM** to draw from. 
 
+### Swine-Beasts
+Created in a vain and immoral conjuring of demons from another place, the Swine-Beasts themselves represent a cruel parody of man, molded from the flesh of pigs. All the worst properties of humanity are manifested in these unsavory creatures. 
+
+A morphed and twisted union of human and swine flesh which stands on two legs, shorter than humans and in a perpetual hunch. They have boney claws instead of fingers and cloven swine-hooves instead of feet. Large tusks protrude aggressively from the jaw, as if reaching for victims. 
+
+Beware the cesspits, the sewers, the bogs and marshes - any place where filth is abundant, for this is where the Swine thrive. They themselves are either impervious to the filth, or die too fast for it to matter, and will eat *anything*, with a particular appetite for flesh. They make it a particular point to bleed their victims, while skinning them alive and gloating at their pain. They are semi-demonic and live out the inherent cruelty that stems from that. 
+
+They multiply quickly and often stay localized to their den. But they occasionally venture into more civilized areas to acquire food - which is often the inhabitants of those places - and plunder. They keep regular pigs as both livestock and as a means of reproducing, as when they have need of more of their foul kind, their shamans will perform the same wicked rituals to turn those harmless pigs into Swine-Beasts. 
+
+#### Swine Belcher
+This variant is small and stunted. Its legs are too short and deformed to be useful, so it stands on and walks with its hands, instead. But don't be fooled, this creature is not defenceless. Vile residue runs down its maw, hinting at its repugnant weaponry. 
+
+* Power: Feeble
+* CR: `2`
+* Roles: Sentry, Artillery
+  * These disgusting little things are the sentries of the den. They are the ones who watch out for approaching enemies and will cause a terrible noise when they notice anything out of the ordinary. 
+* Behavior: 
+  * Curious and investigative. 
+  * Noisy - squeals and grunts to itself frequently. 
+  * Underdog - avoids other Swine and tends to get pushed around by them. 
+
+| Agi   | Awar  | Str   | Tough | Wit   | Arc   | BI | Sprint | Stab |
+| ----- | ----- | ----- | ----- | ----- | ----- | -- | ------ | ---- |
+| 4     | 4     | 2     | 1     | 0     | 0     | 9  | 3      | 1    |
+
+Traits: [Disease-Ridden](strive-core.md#disease-ridden--1-point-1-cr), [Light-weight](strive-core.md#light-weight-2-points--1-cr)
+
+Skills:
+* Observation: Level: `3`
+
+##### Bite (Agi/Str)
+Chomp down on a target. 
+
+Level: `2`, AP: `2`, Ob: Opposed, `1D4 + Strength` Piercing damage
+
+##### Putrid Vomit (Agi/Awar)
+Throw up a projectile of lumpy stomach acid and 'shoot' it at a target. 
+
+Level: `4`, AP: `2`, Ob: Opposed, Distance: `30'/10m`, `2D4` Acid damage, [Prefer Range](strive-core.md#weapon-properties)
+
 ### Veil Entities
 Veil Entities are unlike any other. They are strange and unfathomable things from a dimension, or other form of existence unlike any we know. These entities aren't necessarily evil, nor are they particularly interested in causing harm, if indeed they are capable of sentience at all. It is their very nature that is harmful to ours. Fortunately, The Veil reclaims its denizens diligently. 
 
 #### The Monolith
-A rough-hewn, crystalline monolith of obsidian color. Crimson veins pulsate gently, just beneath the surface. It draws every gaze towards it, whispering unknowable secrets and beckoning with malignity. Everyone within a `30'/10m` radius around it is affected and suffers `+1` [Bleeding](strive-core.md#bleeding) at the start of their turn and **cannot** look away, for as long as they have line of sight to it. The Monolith lasts for `5` rounds or `5` minutes, before The Veil reclaims it. When that happens, it explodes, dealing `1D10` [bludgeoning](strive-core.md#damage-types) damage and inflicting `+3` [Bleeding](strive-core.md#bleeding) to all within its radius.
+A rough-hewn, crystalline monolith of obsidian color. Crimson veins pulsate gently, just beneath the surface. It draws every gaze towards it, whispering unknowable secrets and beckoning with malignity. Everyone within a `90'/30m` radius around it is affected and suffers `+1` [Bleeding](strive-core.md#bleeding) at the start of their turn and **cannot** look away, for as long as they have line of sight to it. The Monolith lasts for `5` rounds or `5` minutes, before The Veil reclaims it. When that happens, it explodes, dealing `1D8` [bludgeoning](strive-core.md#damage-types) damage and inflicting `+2` [Bleeding](strive-core.md#bleeding) to all within its radius.
 
 #### Perfection
-A giant sphere of pure white light. Its surface is infinitely smooth. Nothing can stick to it, nothing can touch it. Everything that touches it, is thrown back, by `24'/8m`. And yet, every living thing in a `90'/30m` radius around it desires nothing more than to touch it, unless they succeed a Self-Control test at Ob `5` at the start of their turn. The Sphere lasts for `5` rounds or `5` minutes, before it vanishes, leaving behind darkness and emptiness that fills all hearts with unconsolable sorrow. Every creature in range is [Pacified](strive-core.md#pacified) for `1` round or minute.
+A giant sphere of pure white light. Its surface is infinitely smooth. Nothing can stick to it, nothing can touch it. Everything that touches it, is thrown back, by `24'/8m`. And yet, every living thing in a `90'/30m` radius around it desires nothing more than to touch it, unless they succeed a Self-Control test at Ob `4` at the start of their turn. The Sphere lasts for `5` rounds or `5` minutes, before it vanishes, leaving behind darkness and emptiness that fills all hearts with unconsolable sorrow. Every creature in range is [Pacified](strive-core.md#pacified) for `1` round or minute.
 
 #### The Tar Mycelium
-The entire scene is covered in a black, slimy web of tiny pulsating strands of a massive mycelium. This fungus grows quickly, rapidly enveloping everything it touches. All movement is slowed by `3'/1m` per **AP** spent. If a creature stands still for `2` turns, the fungus envelops them and begins devouring them alive. They suffer `2D4` [Acid](strive-core.md#damage-types) damage at the end of their second turn and after that, at the start of every turn they haven't yet moved.
+The entire scene is covered in a black, slimy web of tiny pulsating strands of a massive mycelium. This fungus grows quickly, rapidly enveloping everything it touches. The entire scene is considered Difficult Terrain. If a creature stands still for `2` turns, the fungus envelops them and begins devouring them alive. They suffer `1D4` [Acid](strive-core.md#damage-types) damage at the end of their second turn and after that, at the start of every turn they haven't yet moved.
 
 #### Cacophony of Flesh
 An abominable mound of misshapen flesh, with countless tiny and several massive ragged tentacles protruding from it. As soon as it is able, it will violently thrash about, trying *desperately* to inflict vengeful violence upon all in its path. Lasts for `5` rounds or `5` minutes, before it melts away gruesomely. 

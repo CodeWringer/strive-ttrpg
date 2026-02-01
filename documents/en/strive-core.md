@@ -78,9 +78,9 @@ Furthermore, a meta-currency, called **Fate Points** is earned by *players*, bas
       - [Wit \[Wit\]](#wit-wit)
     - [Core, Favored, Secondary \& Penalized Attributes](#core-favored-secondary--penalized-attributes)
     - [Derived Characteristics](#derived-characteristics)
-      - [Base Initiative](#base-initiative)
-      - [Sprinting Speed](#sprinting-speed)
-      - [Stability](#stability)
+      - [Base Initiative \[BI\]](#base-initiative-bi)
+      - [Sprinting Speed \[Sprint\]](#sprinting-speed-sprint)
+      - [Stability \[Stab\]](#stability-stab)
     - [Skills](#skills)
       - [Skill Forking](#skill-forking)
       - [Learning Skills](#learning-skills)
@@ -361,6 +361,7 @@ Furthermore, a meta-currency, called **Fate Points** is earned by *players*, bas
       - [Hyperactive (-7 points; +4 CR)](#hyperactive--7-points-4-cr)
       - [Inexorable (-5 points; +4 CR)](#inexorable--5-points-4-cr)
       - [Moon Affinity (-7 points; +4 CR)](#moon-affinity--7-points-4-cr)
+  - [Attributes](#attributes-1)
   - [Skills](#skills-1)
     - [Bite (Agi/Str)](#bite-agistr)
     - [Create Sticky Surface (Tough/Tough)](#create-sticky-surface-toughtough)
@@ -390,6 +391,7 @@ As STRIVE is meant primarily as a rule-book to help you quickly find what you ne
 | [AP](#action-points-ap)                      | Action Point            |
 | [Awar](#awareness-awar)                      | The Awareness Attribute |
 | [Base Attribute](#skills)                    | One of the two Attributes a Skill relies on. |
+| [Base Initiative / BI](#base-initiative-bi)  | Determines the order in which characters act in combat. |
 | [Concentration](#concentration)              | A Skill or Expertise whose effects last as long as desired |
 | [D10](#dice)                                 | A ten-sided die         |
 | [D20](#dice)                                 | A twenty-sided die      |
@@ -412,7 +414,9 @@ As STRIVE is meant primarily as a rule-book to help you quickly find what you ne
 | [RD](#rounded-up--rounded-down)              | Rounded down            |
 | [RU](#rounded-up--rounded-down)              | Rounded up              |
 | [ST](#single-target-st)                      | Single-Target           |
+| [Stability / Stab](#stability-stab)          | Counter-acts forced movement. |
 | [Str](#strength-str)                         | The Strength attribute  |
+| [Sprinting Speed / Sprint](#sprinting-speed-sprint) | Can extend a character's movement per AP. |
 | [Tough](#toughness-tough)                    | The Toughness attribute |
 | [Temporary HP](#temporary-hit-points)        | Hit Points that may exceed the character's limit, but only for a limited time.  |
 | [Wit](#wit-wit)                              | The Wit attribute       |
@@ -787,7 +791,7 @@ A character may have Traits, such as ancestral heritages, which may impose boons
 ### Derived Characteristics
 These characteristics depend on others, such as [Attributes](#attributes). They cannot be improved directly. 
 
-#### Base Initiative
+#### Base Initiative [BI]
 <img src="../../img/base-initiative.svg" style="width: 3rem; height: 3rem;">
 
 Whenever the order in which characters act matters, their Base Initiative comes into play. It, together with a die roll, determines how early a character gets to take action in a given scenario. 
@@ -798,7 +802,7 @@ Base Initiative is derived from the sum of the character's [Agility](#agility-ag
 
 See also [initiative](#initiative). 
 
-#### Sprinting Speed
+#### Sprinting Speed [Sprint]
 <img src="../../img/sprinting-speed.svg" style="width: 3rem; height: 3rem;">
 
 The Sprinting Speed of a character represents the additional distance they can move, per [AP](#action-points-ap) spent, when [sprinting in combat](#combat-movement). 
@@ -809,7 +813,7 @@ It is derived from the sum of their [Agility](#agility-agi) and [Toughness](#tou
 
 This Characteristic can also be used to determine whether a character can outrun another. For that, both characters roll via this derived Characteristic. Whoever achieves more **hits**, succeeds at outrunning the other character. 
 
-#### Stability
+#### Stability [Stab]
 <img src="../../img/stability.svg" style="width: 3rem; height: 3rem;">
 
 The Stability of a character represents their resistance to [forced movement](#forced-movement). For every point in this derived Characteristic, a character is moved `3'/1m` less and suffers this amount fewer points of damage from the impact. 
@@ -1431,7 +1435,7 @@ The **initiative** of all involved parties is collected and sorted, which forms 
 
 The steps to determine the **initiatve order** are as follows: 
 1. Every character who rolls for **initiative**, must do so with a `D20`. 
-2. They add their [base initiative](#base-initiative) to the number they rolled. 
+2. They add their [base initiative](#base-initiative-bi) to the number they rolled. 
 3. If a character enters the **initiative order** more than once, then every consecutive **initiative roll** of theirs is divided by its order. So the first **initiative roll** is the same as for other characters. But the second **initiative roll** is halved (= divided by 2), the third is divided by 3 and so on. The resulting number is rounded up. There is no need for fractions here. 
 4. If two characters achieve the same number, they must each roll a `D20` again, until one of the numbers is higher. The character with the higher number gets to act before the other. 
 5. The result, is their place in the **initiative order**.
@@ -1658,14 +1662,14 @@ Under normal circumstances, a character (an average human) can move up to `12'/4
 
 On **Difficult Terrain**, the distance moved per **AP** is half that, at `6'/2m` (= `2` fields on a grid). Difficult Terrain is any space that slows movement, but does not prevent it outright. Examples would be waist-high water, a surface of glue or a slowing force field. 
 
-It is also possible to **sprint**, increasing the distance one can move per **AP** spent, at the cost of `1` point of [exhaustion](#exhaustion) for every **AP** spent **sprinting**. The movement distance is increased by a character's [sprinting speed](#sprinting-speed), per **AP**. 
+It is also possible to **sprint**, increasing the distance one can move per **AP** spent, at the cost of `1` point of [exhaustion](#exhaustion) for every **AP** spent **sprinting**. The movement distance is increased by a character's [sprinting speed](#sprinting-speed-sprint), per **AP**. 
 
 > A character with a sprinting speed of `3` can increase their total movement distance to `21'/7m`, at the cost of `1` AP and `1` point of exhaustion. 
 
 ### Forced Movement
 There are abilities and circumstances that can force a character to be moved against their will. When this happens, the character in question does not spend any [AP](#action-points-ap) on the movement, as they didn't initiate it. A character automatically reduces the distance they are moved by their `Stability * 3'/1m`. 
 
-If a forced movement ends abruptly, meaning before the full distance to move was reached, for example by slamming into a wall, then this causes `N D4` points of bludgeoning damage, where *N* is the remaining movement (in `3'/1m` increments) that could not be reached. Each character then reduces the damage they suffer by their [Stability](#stability). 
+If a forced movement ends abruptly, meaning before the full distance to move was reached, for example by slamming into a wall, then this causes `N D4` points of bludgeoning damage, where *N* is the remaining movement (in `3'/1m` increments) that could not be reached. Each character then reduces the damage they suffer by their [Stability](#stability-stab). 
 
 > A character is thrown with enough force to move them `15'/5m`, but a wall stops them short of reaching that distance, after they were moved `6'/2m`. The remainder of `9'/3m` causes them to suffer `3 D4` points of bludgeoning damage, as they slam into the wall!
 
@@ -1688,7 +1692,7 @@ When disengaging from more than one [Range of Opportunity](#attacks-of-opportuni
 ### Flee Combat
 When [combat](#combat) is a decidedly bad idea, one can try to flee from it. A fleeing character can no longer perform any *hostile actions*. That means, they can no longer attack or hinder any other characters until the end of [combat](#combat). 
 
-In turn for giving up their offensive capacity, they gain double their [sprinting speed](#sprinting-speed) per [AP](#action-points-ap) spent. Rules for [Difficult Terrain](#combat-movement) and the exhaustion cost for sprinting still apply. 
+In turn for giving up their offensive capacity, they gain double their [sprinting speed](#sprinting-speed-sprint) per [AP](#action-points-ap) spent. Rules for [Difficult Terrain](#combat-movement) and the exhaustion cost for sprinting still apply. 
 
 ### Push Through
 It is possible to **push through** a [Range of Opportunity](#attacks-of-opportunity), without spending any [AP](#action-points-ap), but in doing so, the [Attack of Opportunity](#attacks-of-opportunity) is **guaranteed** to land successfully, without any attack [test](#tests) necessary (this counts as an automatic success for the attacker). 
@@ -2153,14 +2157,14 @@ The following is a list of general assets. Of course, the following list is non-
 
 ### Weapon Properties
 Weapon type assets can have the following **traits**:
-* **Long Reach**: Allows attacking a target two fields (6'/2m) away. 
-* **Very long Reach**: Allows attacking a target three fields (9'/3m) away. 
+* **Long Reach**: Allows attacking a target two fields (`6'/2m`) away. 
+* **Very long Reach**: Allows attacking a target three fields (`9'/3m`) away. 
 * **Range Only**: Implies a weapon cannot be used against any targets adjacent to self. 
-* **Prefer Range**: +2 **Ob** to using the weapon against an adjacent target.
-* **Slow Reload**: Reloading the weapon costs 2 [AP](#action-points-ap).
-* **Very Slow Reload**: Reloading the weapon costs 3 [AP](#action-points-ap).
+* **Prefer Range**: `+2` **Ob** to using the weapon against an adjacent target.
+* **Slow Reload**: Reloading the weapon costs `2` [AP](#action-points-ap).
+* **Very Slow Reload**: Reloading the weapon costs `3` [AP](#action-points-ap).
 * **Ranged (throwable: < attack name >)**: No damage penalty is incurred when throwing this type of weapon. The damage formula for the given attack is to be used on hit. 
-* A **counter-attack** is a *reaction* that allows a fighter being attacked to attack their attacker, at the cost of 1 [AP](#action-points-ap). 
+* A **counter-attack** is a *reaction* that allows a fighter being attacked to attack their attacker, at the cost of `1` [AP](#action-points-ap). 
 
 ## Lists of Skills
 The following list does not and cannot aim to be a complete listing of all possible skills in game. Adding new skills as necessary will have to be done by the **GM**. Nevertheless, most general scenarios should be covered by these skills. 
@@ -2473,7 +2477,7 @@ The ability to cook hearty and sweet meals that can strengthen and invigorate.
 
 For every `Q` past `1`, the meal may confer certain boons, for `Q * 2` hours. Each of the following boons can be picked only once:
 * Grant `Q D4` [Temporary HP](#temporary-hit-points). 
-* Increase [base initiative](#base-initiative) by `Q`. 
+* Increase [base initiative](#base-initiative-bi) by `Q`. 
 * Increase [strength](#strength-str) or [toughness](#toughness-tough) by `Q / 2 (RU)`. 
 * Resist `Q` [freezing](#damage-types) or [burning](#damage-types) or [bleeding](#damage-types) damage. 
 
@@ -3156,8 +3160,8 @@ First, you must decide whether you need a **person**, an **animal** or a **monst
 
 Secondly, you must choose a **power-level**: 
 
-* **Feeble**: Start with `8` points and a CR of `1`. A feeble creature is cannon-fodder, a minion that serves as faceless padding around a bigger villain. It always has **`10` maximum HP**, regardless of its Toughness level or other Traits. This makes it easy to eliminate and allows the PCs to feel heroic, for example by cutting a path through a horde of lesser zombies. 
-* **Regular**: Start with `12` points and a CR of `1`. A regular creature has no particular advantages or disadvantages. Often times, two or three of these will be enough to occupy a PC group for a while. Also expect most people NPCs to be regular creatures. 
+* **Feeble**: Start with `10` points and a CR of `1`. A feeble creature is cannon-fodder, a minion that serves as faceless padding around a bigger villain. It always has **`10` maximum HP**, regardless of its Toughness level or other Traits. This makes it easy to eliminate and allows the PCs to feel heroic, for example by cutting a path through a horde of lesser zombies. 
+* **Regular**: Start with `15` points and a CR of `1`. A regular creature has no particular advantages or disadvantages. Often times, two or three of these will be enough to occupy a PC group for a while. Also expect most people NPCs to be regular creatures. 
 * **Elite**: Start with `20` points and a CR of `2`. An elite is highly trained or naturally talented. Just one of these may suffice to challenge a PC group. When coupled with other NPCs, this one should probably assume a supporting or leading role and instead of engaging the PCs to the same extent as its minions, hangs back a bit, to ensure it won't overwhelm the PCs. 
 * **Legendary**: Start with `30` points and a CR of `3`. A legendary creature is expected to be a boss encounter, which can easily challenge the entire PC group on its own. Be careful not to design it as too powerful. Instead, for an epic boss fight, split up its abilities into two or three stages. 
 
@@ -3329,8 +3333,14 @@ Gain the ability: **Moon Step**: At the cost of `1` AP, the creature can vanish 
 
 Suitable for: Creatures of the night, such as werewolves, vampires and ghosts. 
 
+## Attributes
+Just like PCs, NPCs make use of Attributes. All Attributes (that exist in this document) start at level `1`. You may increase increase each Attribute `+1` at the cost of `-1` point. 
+
 ## Skills
-Custom Skills are that which brings the spice to every NPC. 
+Custom Skills are that which brings the spice to every NPC and you are free to build them however you like, but keep the following guidelines in mind:
+* A regular combat Skill should deal at most `1D8` points of damage per damage type and should at most deal two types of damage. 
+* AP costs for attacks should be at least `2`. 
+* A Feeble and Regular creature should at most have `2` main Skills. These creatures should be easy and quick to run, so overburdening them with Skills will counteract this goal. 
 
 For people, you may simply give them Skills from the same lists as are available to the PCs. When choosing Skills to add to a NPC, you needn't add every single Skill they could potentially use at some point. You only need to give them those Skills that form their core strengths. The more Skills you add, the harder to manage a NPC becomes. 
 
