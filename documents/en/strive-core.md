@@ -357,6 +357,7 @@ Furthermore, a meta-currency, called **Fate Points** is earned by *players*, bas
       - [Cannot Miss (-3 points; +3 CR)](#cannot-miss--3-points-3-cr)
       - [Disease-Ridden (-1 point; +1 CR)](#disease-ridden--1-point-1-cr)
       - [Forceful (-2 points; +1 CR)](#forceful--2-points-1-cr)
+      - [Poisoner (-4 points; +2 CR)](#poisoner--4-points-2-cr)
     - [Weakness Traits](#weakness-traits)
       - [Drowner (+1 point; -1 CR)](#drowner-1-point--1-cr)
       - [Light-weight (+2 points; -1 CR)](#light-weight-2-points--1-cr)
@@ -2891,6 +2892,7 @@ NPCs are built differently from PCs. Not all the same rules apply to them. The f
 * NPCs **cannot** earn [fate points](#fate-points). 
 * NPCs don't *need* the [personality](#personality) section. A **GM** *may choose* to include it for the *main actor* NPCs, but for your average animal or passing acquaintance, no personality should be noted down. 
 * NPCs don't *need* advancement progress to be tracked. Thus, they cannot have [learning skills](#learning-skills). 
+* NPCs don't have a base HP of `10`, thus, their max. HP values will always be `10` points lower than of PCs with the same Toughness level. 
 * NPCs have additional characteristics: [Defense](#defense-def) and [Free Strike](#free-strike-fs).
 * NPC [Stability](#stability-stabil) isn't derived from [Attributes](#attributes). 
 
@@ -3252,6 +3254,7 @@ A creature's role informs you about how to best employ it in a combat encounter.
 * **Artillery**: A back-liner who prefers to rain damage upon foes from afar. Usually very weak in melee. 
 * **Brawler**: A front-liner that can hold their own, but relies on allies to finish the job. A solid middle-ground between Tank and Shock-Trooper. 
 * **Commander**: A leader that lesser allies will rally around. Can improve their allies capabilities and will direct them to improve their efficacy. 
+* **Disruptor**: Disturbs enemy formations, by force moving foes around or inserting themself into an enemy formation. 
 * **Guardian**: Protects allies. 
 * **Multiplier**: May create copies of itself or another type of creature, as a means of reinforcing its own side of the conflict. 
 * **Sentry**: Observant and often stands guard. Willy call for aid, as soon as it notices anything out of the ordinary. 
@@ -3362,6 +3365,9 @@ Suitable for: Any type of undead, rats and swamp creatures.
 
 #### Forceful (-2 points; +1 CR)
 Attacks that cause forced movement, have increased moving-distance by `6'/2m`. 
+
+#### Poisoner (-4 points; +2 CR)
+Successful attacks deal an additional `6` points of poison damage. 
 
 ### Weakness Traits
 These Traits grant a creature weaknesses that make it easier to defeat. 
