@@ -162,7 +162,12 @@ There is a [compendium document](./strive-fantasy-game-masters-resource.md) rese
       - [Drums Of Terror](#drums-of-terror)
       - [You Die When I Let You!](#you-die-when-i-let-you-1)
     - [Swine Skewerer](#swine-skewerer)
-    - [Throw Javelin (Agi/Str)](#throw-javelin-agistr)
+      - [Throw Javelin (Agi/Str)](#throw-javelin-agistr)
+    - [Swine Slasher](#swine-slasher)
+    - [Swine Stomper](#swine-stomper)
+    - [Tusked Maw (Agi/Str)](#tusked-maw-agistr-1)
+      - [Bite](#bite-1)
+      - [Gore](#gore-1)
   - [Veil Entities](#veil-entities)
     - [The Monolith](#the-monolith)
     - [Perfection](#perfection)
@@ -1751,10 +1756,84 @@ Skills:
 * Observation, level: `3`
 * Stealth, level: `5`
 
-### Throw Javelin (Agi/Str)
+#### Throw Javelin (Agi/Str)
 Throw a javelin at a **ST**. 
 
 Level: `4`, Ob: Opposed, Ranged: `30'/10m`, ST, `1D8` Piercing damage
+
+### Swine Slasher
+This variant is lanky and sways a little. 
+
+* Power: Regular, CR: `4`
+* Roles: Brawler, Shock-Trooper
+  * Employ as a front line fighter and cannon-fodder. Not meant to be particularly challenging, but rather as a wall of flesh in the way of high value targets. 
+* Behavior: 
+  * Noisy - squeals and grunts to itself frequently. 
+  * Dislikes bright light and can see well in the dark.
+
+| Agi   | Awar  | Str   | Tough | Wit   | Arc   |
+| ----- | ----- | ----- | ----- | ----- | ----- |
+| 2     | 2     | 4     | 3     | 1     | 0     |
+
+| BI     | Sprint | Stabil | Def    | FS         | HP  | Exhaustion |
+| ------ | ------ | ------ | ------ | ---------- | --- | ---------- |
+| 5      | 3      | 1      | 2      | 3 Slashing | 30  | 4          |
+
+Traits: [Vulnerable](strive-core.md#vulnerable-2-points--2-cr) to Bleeding `+6`
+
+Assets:
+* Clothing: Tattered Rags, Axe, Light Shield
+
+Skills:
+* Shield, level: `3`
+* Weapon \<Axe\>, level: `3`
+
+### Swine Stomper
+This variant is massive and strong. Most of its body is covered in dark, dirty clumped up fur. The tusks are menacing weapons of their own. 
+
+* Power: Regular, CR: `5`
+* Roles: Brawler, Disruptor
+  * These hulking beasts represent the swine-folks front line fighters. They protect the squalid den and stomp intruders who threaten the shaman. 
+  * Employ as a front line fighter. May be taken down quickly, as it will not dodge, so consider using more than one in a fight. Intended to be a wall of flesh in the way toward high value targets. 
+* Behavior: 
+  * Very aggressively pushes enemies around. 
+  * Bullies other Swine who aren't champions or shamans. 
+  * Noisy - squeals and grunts to itself frequently. 
+  * Dislikes bright light and can see well in the dark.
+
+| Agi   | Awar  | Str   | Tough | Wit   | Arc   |
+| ----- | ----- | ----- | ----- | ----- | ----- |
+| 2     | 1     | 6     | 4     | 1     | 0     |
+
+| BI     | Sprint | Stabil | Def    | FS         | HP  | Exhaustion |
+| ------ | ------ | ------ | ------ | ---------- | --- | ---------- |
+| 4      | 3      | 3      | 1      | 3 Slashing | 40  | 5          |
+
+Traits: [Vulnerable](strive-core.md#vulnerable-2-points--2-cr) to Bleeding `+6`
+
+Assets:
+* Clothing: Swine Armored Rags, Large Crusher
+
+Swine Armored Rags: Slashing `6`, Piercing `4`, Bludgeoning `3`, Acid `6`
+
+Skills:
+* Unarmed Combat, level: `4`
+* Weapon \<Large Crusher\>, level: `3`
+
+### Tusked Maw (Agi/Str)
+As a last ditch defence, teeth and strength of jaw may serve. 
+
+Level: `3`
+
+#### Bite
+Chomp down on a target. 
+
+AP: `2`, Ob: Opposed, Melee, `1D4 + Strength` Piercing damage
+
+#### Gore
+Slam into a target with your massive tusks. 
+
+AP: `2`, Ob: Opposed, Melee, `1D6 + Strength` Bludgeoning damage
 
 ## Veil Entities
 Veil Entities are unlike any other. They are strange and unfathomable things from a dimension, or other form of existence unlike any we know. These entities aren't necessarily evil, nor are they particularly interested in causing harm, if indeed they are capable of sentience at all. It is their very nature that is harmful to ours. Fortunately, The Veil reclaims its denizens diligently. 
