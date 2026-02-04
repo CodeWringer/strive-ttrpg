@@ -306,6 +306,7 @@ Furthermore, a meta-currency, called **Fate Points** is earned by *players*, bas
     - [Squad Cohesion](#squad-cohesion)
     - [Squad Actions](#squad-actions)
     - [Squad Captains](#squad-captains)
+    - [Squad On Squad Violence](#squad-on-squad-violence)
   - [Bring NPCs To Life](#bring-npcs-to-life)
 - [Running The Game](#running-the-game)
   - [Starting the Session](#starting-the-session)
@@ -386,7 +387,7 @@ Furthermore, a meta-currency, called **Fate Points** is earned by *players*, bas
     - [Trap Storm (-4 points; +3 CR)](#trap-storm--4-points-3-cr)
     - [I Don't Bleed (-5 points; +4 CR)](#i-dont-bleed--5-points-4-cr)
     - [No, I Am The Hero! (-10 points; +6 CR)](#no-i-am-the-hero--10-points-6-cr)
-- [Encounter Builder](#encounter-builder)
+- [Combat Encounter Builder](#combat-encounter-builder)
 
 # Glossary
 As STRIVE is meant primarily as a rule-book to help you quickly find what you need, the glossary is intentionally placed here, prominently. If you know what term you are looking for, this will help you find its description. 
@@ -2946,6 +2947,8 @@ When preparing an encounter with a Squad, it may help to write down the threshol
 
 > When preparing the zombies encounter, it may help to write down that one zombie dies once the shared HP reah `40`, the next at `30`, then `20`, `10` and finally `0`. This way, you don't need to do this math once damage starts rolling in, you can simply check if after the damage is subtracted from the shared HP, if one of these thresholds was reached. If so, a member of the Squad is felled. 
 
+To keep Squads simple to run, they do not suffer [Injuries](#injury). 
+
 ### Squad Cohesion
 It is imperative that all members of the Squad be within a distance of at most `9'/3m` to at least one other member of the Squad. If a member should be farther away than this distance, for example because their nearest peer was killed or they were force moved away, then the next time the Squad acts, this member will move closer towards the Squad, until they rejoin its cohesion. 
 
@@ -2980,6 +2983,13 @@ A Squad with an attached Captain enjoys one of the following benefits for you to
 If the Captain is felled, the Squad loses the bonus immediately. 
 
 A Captain can but does not have to be a tactical leader. It could simply be a creature that bullies others into obedience, is so powerful and respected others simply flock to it or has some other power with which it may influence the will of others to obey it. 
+
+### Squad On Squad Violence
+Sometimes, the PCs are involved in a combat encounter that has two groups battling each other. The PCs might be a third party trying to cross a battlefield, or they may have brought allies. 
+
+Under such circumstances, the turns involving Squad vs. Squad should go by very quickly. Don't bother rolling any damage, at all. Simply count the number of Squad members that are in weapon's range, sum their Free Strike value, and subtract that number from their enemy Squad's HP pool. This also implies defense tests aren't rolled. Simply assume they hit each other. The specifics of whether they would realistically hit are of no interest, least of all to your players. 
+
+Ultimately, your players won't care about the potential correctness of the numbers, as long as their own characters aren't involved. It may even bore them watching the GM play the game alone for a while. Therefore, to re-iterate - keep turns that don't involve the PCs as short as possible. After all, the PCs are the stars of the show! 
 
 ## Bring NPCs To Life
 Much like the PCs, or in fact real people, *proper* NPCs lead their own lives, with their own ambitions, aspirations, reactions, strengths and weaknesses. Keeping track of all of the numbers that implies, can become quite the challenge. But you won't need all of that data from the start, or even to track it all the time. Flesh out and update only as needed, to keep the work-load on your end low. You have enough work on your plate, as it is.
@@ -3232,7 +3242,7 @@ Once appropriate numbers have been assigned, the new character needs to be intro
 # NPC Builder
 A Module may provide you with some pre-defined NPCs to work with, but you will most likely have to, and perhaps desire to, invent your own, too. This chapter aims to provide a step-by-step process for NPC creation, based on several parameters that you get to pick from. 
 
-Every choice you make, will affect a creature's [Challenge Rating (CR)](#challenge-rating-cr), which serves as a **broad abstraction** of how challenging to deal with it will be. Note that when preparing a combat encounter, more than just the sum of the opponents' CR values will be a factor. For more on this, see the chapter [Enounter Builder](#encounter-builder). Even when you assign weaknesses, CR cannot be less than `1`. 
+Every choice you make, will affect a creature's [Challenge Rating (CR)](#challenge-rating-cr), which serves as a **broad abstraction** of how challenging to deal with it will be. Note that when preparing a combat encounter, more than just the sum of the opponents' CR values will be a factor. For more on this, see the chapter [Enounter Builder](#combat-encounter-builder). Even when you assign weaknesses, CR cannot be less than `1`. 
 
 First, you must decide whether you need a **person**, an **animal** or a **monster**. A reminder from the [NPC](#non-player-characters-npcs) chapter:
 
@@ -3246,6 +3256,8 @@ Secondly, you must choose a **power-level**:
 * **Regular**: Start with `15` points and a CR of `2`. A regular creature has no particular advantages or disadvantages. Often times, two or three of these will be enough to occupy a PC group for a while. Also expect most people NPCs to be regular creatures. 
 * **Elite**: Start with `20` points and a CR of `3`. An elite is highly trained or naturally talented. Just one of these may suffice to challenge a PC group. When coupled with other NPCs, this one should probably assume a supporting or leading role and instead of engaging the PCs to the same extent as its minions, hangs back a bit, to ensure it won't overwhelm the PCs. 
 * **Legendary**: Start with `30` points and a CR of `4`. A legendary creature is expected to be a boss encounter, which can easily challenge the entire PC group on its own. Be careful not to design it as too powerful. Instead, for an epic boss fight, split up its abilities into two or three stages. 
+
+The next steps after this are to pick a combat role, traits, Attributes and Skills. 
 
 ## Combat Roles
 A creature's role informs you about how to best employ it in a combat encounter. When used within their role, they will perform better and be a more challenging foe. You can also purposefully use a creature contra to their role, to make them easier to deal with. 
@@ -3493,12 +3505,34 @@ Suitable for: Any creature that could reasonably emit such a thrumming sound, su
 
 Suitable for: Legendary villains
 
-# Encounter Builder
-When preparing a combat encounter, there are several factors to consider, such as whether the PCs are currently injured, what hazards the battlefield will hold in store, how many enemies and how strong they should be, whether the PCs have allies with them, how combat focused the PCs' Skills are and whether you want it to be a challenging or perhaps slightly easier encounter. 
+# Combat Encounter Builder
+Preparing a combat encounter is not a simple matter, though it will get easier, as your *sense* for the *right* amount of challenge develops. This chapter aims to get you started down that road. 
 
-TODO
+Before deciding on the battlefield, the types and number of foes, you should assess your PCs' strength, which is represented by the so-called **Encounter Safety (ES)**. 
 
-* PC armor
-* PC Traits
+To **determine ES**, starting at `0`: 
+* For every PC, and each of their allies, increase the ES by `+2`.
+  * Ally [Squads](#npc-squads) are only counted as a whole, not every member individually.
+* For every combat-oriented Skill of the PCs that is at least at level `3`, increase ES by `+1`. 
 
-* Each PC + allies: `+2` CR they can handle.
+Once you have the ES, you have a broad idea of what the PCs' capabilities are. Note that even a "safe" encounter may turn deadly for the PCs. The reasons for this may be numerous and complex. Causes could be NPCs or battlefield hazards that effectively exploit the PCs' weaknesses, players feeling tired or generally not very tactically minded, whether you employ the [Momentum](#momentum) rules or just plain unlucky dice rolls. The rating does not and cannot account for these factors, as they are not predictable. 
+
+While not an exact science, the following guideline aims to aid you in deciding on the right difficulty sweet-spot, which is represented as the so-called **Encounter Rating (ER)**. 
+
+To **decide ER**, starting at `0`:
+* Decide on the battlefield. For every feature that will likely hinder the PCs, increase ER by `+1`. For any feature that will likely aid the PCs, decrease the ER by `-1`. 
+  * Does it have difficult to reach spaces or difficult terrain? 
+  * Are there hazards that cause damage? 
+  * Are there choke-points? Such as tight corridors or easy to hold doorways?
+* Will there be objectives besides defeating all enemies? How easy to complete will they be?
+  * Examples might be: escorting someone or something to safety, holding a certain location for a certain time, destroying to disabling a machine under time pressure, capture someone or something before it gets away, and so on.
+  * For every objective, increase ER by `+3`. 
+* Questions on armor:
+  * Do the enemies have armor that the PCs cannot easily circumvent? Increase ER by `+2`. 
+  * Do the PCs have armor that will likely prove effective? Decrease ER by `-1`. 
+* Do the PCs have Traits that will help them in the encounter? Decrease ER by `-1`. 
+* Once all the previous questions have been answered, you may add NPCs. Each you add increases the ER by their [Challenge Rating](#challenge-rating-cr) - yet another number to juggle. Think of the CR the same way as the ER, but for an individual NPC, instead of the whole encounter. 
+
+In the end, the ER should be balanced against the ES. The higher the ER, the more challenging the scenario will likely be. An easier encounter should have an ER lower than the ES, while for a more challenging encounter, the ER should be higher. 
+
+Both the ES and ER are a clinical approach to immeasurable and unpredictable circumstances. They are an imperfect translation of what challenge your players and their PCs will face. But even so, they may help you develop a *sense* for an appropriate challenge, especially once you know your players and how they play. 
