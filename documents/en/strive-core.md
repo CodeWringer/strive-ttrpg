@@ -1,5 +1,5 @@
 <div style="text-align: center; font-size: 6rem">STRIVE</div>
-<div style="text-align: center; font-size: 1rem">Version 25 (Playtest)</div>
+<div style="text-align: center; font-size: 1rem">Version 26 (Playtest)</div>
 
 # Introduction
 **STRIVE** is a table-top role-playing game (**TTRPG**), requiring a **game master** (**GM**) and at least one **player** to play and at its core, is about **emergent storytelling** and **tactical combat**. Players experience the **evolution** of their player character (**PC**) by defining convictions that **drive** them to action, based on the events they experience. In that way, players also **drive** the story forward and guide the evolution of the world. 
@@ -39,7 +39,9 @@ Furthermore, a meta-currency, called **Fate Points** is earned by *players*, bas
   - [Tactical Combat](#tactical-combat)
   - [Character Evolution](#character-evolution)
 - [Table of Contents](#table-of-contents)
+- [Glossary](#glossary)
 - [Credits](#credits)
+- [License](#license)
 - [How to Play](#how-to-play)
   - [Dice](#dice)
   - [Before the Game](#before-the-game)
@@ -76,9 +78,9 @@ Furthermore, a meta-currency, called **Fate Points** is earned by *players*, bas
       - [Wit \[Wit\]](#wit-wit)
     - [Core, Favored, Secondary \& Penalized Attributes](#core-favored-secondary--penalized-attributes)
     - [Derived Characteristics](#derived-characteristics)
-      - [Base Initiative](#base-initiative)
-      - [Sprinting Speed](#sprinting-speed)
-      - [Stability](#stability)
+      - [Base Initiative \[BI\]](#base-initiative-bi)
+      - [Sprinting Speed \[Sprint\]](#sprinting-speed-sprint)
+      - [Stability \[Stabil\]](#stability-stabil)
     - [Skills](#skills)
       - [Skill Forking](#skill-forking)
       - [Learning Skills](#learning-skills)
@@ -123,7 +125,6 @@ Furthermore, a meta-currency, called **Fate Points** is earned by *players*, bas
       - [Carrying Capacity](#carrying-capacity)
       - [Overweight](#overweight)
     - [Property](#property)
-  - [Non-Player Character (NPC)](#non-player-character-npc)
 - [Fate Points](#fate-points)
   - [Minor Fate Points](#minor-fate-points)
   - [Major Fate Points](#major-fate-points)
@@ -161,7 +162,7 @@ Furthermore, a meta-currency, called **Fate Points** is earned by *players*, bas
     - [Swap-Out](#swap-out)
   - [Attacking](#attacking)
     - [Damage](#damage)
-    - [Attacks of Opportunity](#attacks-of-opportunity)
+    - [Opportunity Attacks](#opportunity-attacks)
     - [Flanking](#flanking)
     - [Stealth Attacks](#stealth-attacks)
   - [Defending](#defending)
@@ -289,12 +290,172 @@ Furthermore, a meta-currency, called **Fate Points** is earned by *players*, bas
     - [Single Target (ST)](#single-target-st)
     - [Multiple Single Target (MST)](#multiple-single-target-mst)
     - [Area of Effect (AoE)](#area-of-effect-aoe)
-- [Glossary](#glossary)
+- [Game Mastery](#game-mastery)
+  - [The Role Of a Game Master](#the-role-of-a-game-master)
+    - [Getting a Game Together](#getting-a-game-together)
+    - [Your Game](#your-game)
+    - [Your Players](#your-players)
+- [Your World](#your-world)
+  - [First Impressions Are Definitive](#first-impressions-are-definitive)
+- [Non-Player Character (NPC)](#non-player-character-npc)
+  - [Defense \[Def\]](#defense-def)
+  - [Free Strike \[FS\]](#free-strike-fs)
+  - [Challenge Rating \[CR\]](#challenge-rating-cr)
+  - [NPC Squads](#npc-squads)
+    - [Squad HP Pool](#squad-hp-pool)
+    - [Squad Cohesion](#squad-cohesion)
+    - [Squad Actions](#squad-actions)
+    - [Squad Captains](#squad-captains)
+    - [Squad On Squad Violence](#squad-on-squad-violence)
+  - [Bring NPCs To Life](#bring-npcs-to-life)
+- [Running The Game](#running-the-game)
+  - [Starting the Session](#starting-the-session)
+    - [Recap The Last Session](#recap-the-last-session)
+    - [Personality \& Driver Adjustments](#personality--driver-adjustments)
+    - [Read Out Fate Point Purchases](#read-out-fate-point-purchases)
+  - [During the Session](#during-the-session-1)
+    - [Use The Senses](#use-the-senses)
+    - [The Tools](#the-tools)
+      - [Combat Challenges](#combat-challenges)
+      - [Social Challenges](#social-challenges)
+      - [Driver Challenges](#driver-challenges)
+      - [Anchor Your PCs Down](#anchor-your-pcs-down)
+      - [Limit \& Threaten Resources](#limit--threaten-resources)
+      - [Allow World-Change](#allow-world-change)
+    - [Keep Them Engaged](#keep-them-engaged)
+      - [Keep That Spotlight On a Swivel](#keep-that-spotlight-on-a-swivel)
+      - [Player Agency](#player-agency)
+      - [Rewards!](#rewards)
+      - [Fair Warning](#fair-warning)
+    - [To Rule or Not To Rule](#to-rule-or-not-to-rule)
+  - [Ending the Session](#ending-the-session)
+    - [Hand Out Fate Points](#hand-out-fate-points)
+    - [Gather Feedback](#gather-feedback)
+  - [Introducing New Player Characters](#introducing-new-player-characters)
+- [NPC Builder](#npc-builder)
+  - [Combat Roles](#combat-roles)
+  - [Traits](#traits-1)
+    - [Mobility Traits](#mobility-traits)
+      - [Burrower (-2 points; +2 CR)](#burrower--2-points-2-cr)
+      - [Climber (-2 points; +1 CR)](#climber--2-points-1-cr)
+      - [Fast (-2 points; +1 CR)](#fast--2-points-1-cr)
+      - [Glider (-1 points; +1 CR)](#glider--1-points-1-cr)
+      - [Leaper (-3 points; +2 CR)](#leaper--3-points-2-cr)
+      - [Swimmer (-1 point; +1 CR)](#swimmer--1-point-1-cr)
+    - [Defensive Traits](#defensive-traits)
+      - [Armored (-2 points; +3 CR)](#armored--2-points-3-cr)
+      - [Camouflage (-3 points; +3 CR)](#camouflage--3-points-3-cr)
+      - [Danger Blood (-1 point; +1 CR)](#danger-blood--1-point-1-cr)
+      - [Danger-Touch (-3 points; +2 CR)](#danger-touch--3-points-2-cr)
+      - [Death Rattle (-2 points; +2 CR)](#death-rattle--2-points-2-cr)
+      - [Fortified Mind (-4 points; +1 CR)](#fortified-mind--4-points-1-cr)
+      - [Immovable (-2 points; +1 CR)](#immovable--2-points-1-cr)
+      - [Insurmountable (-4 points; +3 CR)](#insurmountable--4-points-3-cr)
+      - [Unstoppable (-2 points; +1 CR)](#unstoppable--2-points-1-cr)
+      - [Unstunnable (-3 points; +1 CR)](#unstunnable--3-points-1-cr)
+      - [Regenerator (-5 points; +3 CR)](#regenerator--5-points-3-cr)
+    - [Offensive Traits](#offensive-traits)
+      - [Cannot Miss (-3 points; +3 CR)](#cannot-miss--3-points-3-cr)
+      - [Disease-Ridden (-1 point; +1 CR)](#disease-ridden--1-point-1-cr)
+      - [Forceful (-2 points; +1 CR)](#forceful--2-points-1-cr)
+      - [Poisoner (-4 points; +2 CR)](#poisoner--4-points-2-cr)
+    - [Weakness Traits](#weakness-traits)
+      - [Drowner (+1 point; -1 CR)](#drowner-1-point--1-cr)
+      - [Light-weight (+2 points; -1 CR)](#light-weight-2-points--1-cr)
+      - [Shambler (+2 points; -2 CR)](#shambler-2-points--2-cr)
+      - [Sluggish (+4 points; -2 CR)](#sluggish-4-points--2-cr)
+      - [Vulnerable (+2 points; -1 CR)](#vulnerable-2-points--1-cr)
+    - [Legendary Traits](#legendary-traits)
+      - [Gritty (-5 points; +4 CR)](#gritty--5-points-4-cr)
+      - [Hyperactive (-7 points; +4 CR)](#hyperactive--7-points-4-cr)
+      - [Inexorable (-5 points; +4 CR)](#inexorable--5-points-4-cr)
+      - [Moon Affinity (-7 points; +4 CR)](#moon-affinity--7-points-4-cr)
+  - [Choosing NPC Characteristics](#choosing-npc-characteristics)
+  - [Choosing NPC Skills](#choosing-npc-skills)
+    - [Bite (Agi/Str)](#bite-agistr)
+    - [Create Sticky Surface (Tough/Tough)](#create-sticky-surface-toughtough)
+    - [Charge (Str/Tough)](#charge-strtough)
+    - [Obscure Vision (Awar/Tough)](#obscure-vision-awartough)
+  - [Hostility Actions](#hostility-actions)
+    - [Advance! (-4 points; +2 CR)](#advance--4-points-2-cr)
+    - [Collect Bounty (-4 points; +3 CR)](#collect-bounty--4-points-3-cr)
+    - [Get Off Me! (-5 points; +3 CR)](#get-off-me--5-points-3-cr)
+    - [Resonance Cascade (-4 points; +2 CR)](#resonance-cascade--4-points-2-cr)
+    - [Slip Away (-5 points; +3 CR)](#slip-away--5-points-3-cr)
+    - [Seething Hatred (-5 points; +2 CR)](#seething-hatred--5-points-2-cr)
+    - [Sinkhole (-8 points; +2 CR)](#sinkhole--8-points-2-cr)
+    - [Trap Storm (-4 points; +3 CR)](#trap-storm--4-points-3-cr)
+    - [I Don't Bleed (-5 points; +4 CR)](#i-dont-bleed--5-points-4-cr)
+    - [No, I Am The Hero! (-10 points; +6 CR)](#no-i-am-the-hero--10-points-6-cr)
+- [Combat Encounter Builder](#combat-encounter-builder)
+
+# Glossary
+As STRIVE is meant primarily as a rule-book to help you quickly find what you need, the glossary is intentionally placed here, prominently. If you know what term you are looking for, this will help you find its description. 
+
+| Term                                         | Meaning / Description   |
+| -------------------------------------------- | ----------------------- |
+| [AFP](#ambition-fate-points)                 | Ambitions Fate-Point    |
+| [Agi](#agility-agi)                          | The Agility Attribute   |
+| [AOE](#area-of-effect-aoe)                   | Area of Effect          |
+| [AP](#action-points-ap)                      | Action Point            |
+| [Awar](#awareness-awar)                      | The Awareness Attribute |
+| [Base Attribute](#skills)                    | One of the two Attributes a Skill relies on. |
+| [Base Initiative / BI](#base-initiative-bi)  | Determines the order in which characters act in combat. |
+| [Concentration](#concentration)              | A Skill or Expertise whose effects last as long as desired |
+| [D10](#dice)                                 | A ten-sided die         |
+| [D20](#dice)                                 | A twenty-sided die      |
+| [D4](#dice)                                  | A four-sided die        |
+| [D6](#dice)                                  | A six-sided die         |
+| [D8](#dice)                                  | An eight-sided die      |
+| [Difficult Terrain](#combat-movement)        | Halves movement per AP  |
+| [FP](#fate-points)                           | Fate-Point              |
+| [GM](#introduction)                          | Game-Master             |
+| [Hit Limit](#testing-a-skill)                | Determines how many rolled **hits** may actually factor into the result of a test. |
+| [hit](#tests)                                | Positive result of an individual die-roll |
+| [HP](#hit-points-hp)                         | Hit-Points              |
+| [MaFP](#major-fate-points)                   | Major Fate-Point        |
+| [MiFP](#minor-fate-points)                   | Minor Fate-Point        |
+| [miss](#tests)                               | Negative result of an individual die-roll |
+| [MST](#multiple-single-target-mst)           | Multiple Single Target  |
+| [NPC](#non-player-character-npc)             | Non-Player Character    |
+| [Ob](#tests)                                 | Obstacle                |
+| [PC](#introduction)                          | Player Character        |
+| [RD](#rounded-up--rounded-down)              | Rounded down            |
+| [RU](#rounded-up--rounded-down)              | Rounded up              |
+| [ST](#single-target-st)                      | Single-Target           |
+| [Stability / Stab](#stability-stabil)          | Counter-acts forced movement. |
+| [Str](#strength-str)                         | The Strength attribute  |
+| [Sprinting Speed / Sprint](#sprinting-speed-sprint) | Can extend a character's movement per AP. |
+| [Tough](#toughness-tough)                    | The Toughness attribute |
+| [Temporary HP](#temporary-hit-points)        | Hit Points that may exceed the character's limit, but only for a limited time.  |
+| [Wit](#wit-wit)                              | The Wit attribute       |
+| [XP](#experience-points-xp)                  | Experience Point(s)     |
 
 # Credits
 **Designer**: Nicolas 'Krubi' H.
 
 My two small, yet inexorable groups of playtesters, whose feedback has been invaluable, without whom this game would not be any where near where it is now and who keep me motivated!
+
+# License
+STRIVE may be freely available, but that does not mean you may do everything you want with it. If you only want to play STRIVE, this license needn't worry you too much (you should still read and know it) and while I still stand by my claim that STRIVE lives off its extensibility and that you are absolutely encouraged to create your own works based on STRIVE, also know that STRIVE has been a lot of work and a labor of love that I ask to be respected. Basically, the license outlined below (this paragragh is not part thereof) covers my butt legally, while stating I want STRIVE to be credited in your own works based upon it. What's not covered by the license is that I would love to hear about your own works based on STRIVE! Whether it be adventures, themes, settings, more Skills, more mechanics or what you consider improvements or corrections for existing mechanics would be most interesting to hear about! Now be careful, there be *Legalese* ahead.
+
+By using STRIVE (that includes but is not limited to viewing, reading, referencing and playing it), for whatever purpose, you agree to the following terms:
+
+* By adhering to these terms, you are allowed to publish your own original works based upon and/or compatible with STRIVE, without requiring express permission from the designer ("Nicolas 'Krubi' H.", "Me", "I", "My" or "Mine"), both for personal and commercial use. 
+* You may only use and/or reference STRIVE starting from version 26 and onward. Older versions of this document may still be available for viewing only, but you may not base your own works upon or declare them compatible with such versions. 
+* You agree not to copy or reproduce any art, icon, illustration or font contained in this document without My explicit permission in writing. 
+  * However, you may produce your own original art, icons, illustrations and fonts in the same style, without requiring permission.
+* You may freely reuse and reference any gameplay mechanics (= rules) in this document and even use the same names and terminology. 
+  * You may even reuse the text describing the mechanics. However, in doing so, you also agree to place the following text in a visible location of your product (e. g. the website where you promote it or in the credits section of your own product): "This product uses and/or references mechanics from the STRIVE-TTRPG, version 26"
+* You may not claim or give the impression that your product is an official STRIVE product, that I endorse or sponsor it or that it is in any other way affiliated with Me.  
+  * You may however freely state your product to be compatible with or based upon STRIVE. 
+* I take no responsibility for any legal claims against your product. You agree not to bring any claim against Me based upon or arising from your use of STRIVE and its content. 
+* Any legal disputes, controversies or claims related to this license shall be governed and construed in accordance with the laws of Hamburg and be heard before a court in Germany.
+* You agree to defend, indemnify, and hold Me and My afilliates harmless from and against any liability, claims, actions, demands, and damages (including attorney's fees and costs) arising from or relating to your product or your exercise of any rights granted in this license. 
+* You agree that your product will not violate or infringe the intellectual property rights of any third party. 
+* I may modify or revise this license at any time at My sole discretion, and by posting a notice about the change in a visible place (i. e. the Releases section https://github.com/CodeWringer/strive-ttrpg/releases). The modification or revision will become effective immediately upon such a posting. You are responsible for checking the license regularly for changes, and you waive any right to receive specific notice of changes. 
+  * License amendments or modifications will not become effective retroactively. They become effective immediately upon posting, but only for the version of this document they were posted with. If you do not agree to a newer version of the license, your work may continue to be based on an older version of STRIVE, but only starting from STRIVE version 26, and in doing so, you also agree to visibly state which version of STRIVE your work is based on. 
+* If you fail to comply with this license, your rights under this license terminate automatically and without notice. On termination of this license, you agree to immediately stop sharing or distributing any product created under this license. 
 
 # How to Play
 As **STRIVE** is a **roleplaying game**, there are certain rules to follow and expectations made of both players and **GM**. 
@@ -639,7 +800,7 @@ A character may have Traits, such as ancestral heritages, which may impose boons
 ### Derived Characteristics
 These characteristics depend on others, such as [Attributes](#attributes). They cannot be improved directly. 
 
-#### Base Initiative
+#### Base Initiative [BI]
 <img src="../../img/base-initiative.svg" style="width: 3rem; height: 3rem;">
 
 Whenever the order in which characters act matters, their Base Initiative comes into play. It, together with a die roll, determines how early a character gets to take action in a given scenario. 
@@ -650,7 +811,7 @@ Base Initiative is derived from the sum of the character's [Agility](#agility-ag
 
 See also [initiative](#initiative). 
 
-#### Sprinting Speed
+#### Sprinting Speed [Sprint]
 <img src="../../img/sprinting-speed.svg" style="width: 3rem; height: 3rem;">
 
 The Sprinting Speed of a character represents the additional distance they can move, per [AP](#action-points-ap) spent, when [sprinting in combat](#combat-movement). 
@@ -661,7 +822,7 @@ It is derived from the sum of their [Agility](#agility-agi) and [Toughness](#tou
 
 This Characteristic can also be used to determine whether a character can outrun another. For that, both characters roll via this derived Characteristic. Whoever achieves more **hits**, succeeds at outrunning the other character. 
 
-#### Stability
+#### Stability [Stabil]
 <img src="../../img/stability.svg" style="width: 3rem; height: 3rem;">
 
 The Stability of a character represents their resistance to [forced movement](#forced-movement). For every point in this derived Characteristic, a character is moved `3'/1m` less and suffers this amount fewer points of damage from the impact. 
@@ -972,7 +1133,7 @@ A [graduated](#graduated-test) [medicine](#medicine-agiwit) test can restore `hi
 When a character is **bludgeoned** to `0` [HP](#hit-points-hp), they might survive and fall [Unconscious](#unconscious), instead of dying. For that, they must succeed a [Toughness](#toughness-tough) [test](#tests) at **Ob** `3`. If they fail, they die, after all.
 
 #### Temporary Hit-Points
-**Temporary HP** are added to the current HP of a character. The difference to regular HP is, that Temporary HP may exceed the maximum HP limit!
+**Temporary HP** are added to the current HP of a character. The difference to regular HP is, that Temporary HP may exceed the maximum HP limit, but last only for the current scene or session!
 
 > A character with `28` current and `30` maximum HP, is awarded `10` Temporary HP. This takes their current HP to `38`, thus exceeding their limit of `30`, but which is permissive for Temporary HP. 
 
@@ -1197,14 +1358,6 @@ Things such as an owned plot of land, a house, money in the bank, equipment and 
 
 There is no limit for how much **property** a character can have. Except, perhaps, how much they can keep safe from greedy hands. 
 
-## Non-Player Character (NPC)
-Non-player characters (**NPC**s) are all the people, animals and monsters of a world, that aren't the player characters (**PC**s) and are controlled by the **GM**. 
-
-**NPC**s are built differently from **PC**s. Not all the same rules apply to them as **PC**s. The following differences exist:
-* **NPCs** **cannot** earn [fate points](#fate-points). 
-* **NPC**s don't *need* the [personality](#personality) section. A **GM** *may choose* to include it for the *main actor* **NPC**s, but for your average animal or passing acquaintance, no personality need be marked down. 
-* **NPC**s don't *need* advancement progress to be tracked. Thus, [learning skills](#learning-skills) are also optional. 
-
 # Fate Points
 Fate points (**FP**) represent a meta-currency that *players* can earn and use to buy boons for their character or the group as a whole. At the end of every session, players and the **GM** should discuss who earned which **FP**, followed by awarding those **FP**. 
 
@@ -1257,14 +1410,14 @@ There are no limits to how many of a given card a player can own, but they may o
 | Cost    | Name                | Effect             |
 | ------- | ------------------- | ------------------ |
 | 2 MiFP  | Single Re-Roll      | Repeat a single test you just made. |
-| 6 MiFP  | Clotter             | One **active** [injury](#injury) of choice is now **treated**. |
-| 8 MiFP  | Cascading Re-Roll   | Repeat a single test you just made. With this card, you keep any **hits** you achieved from the previously made test and add them to the **hits** rolled when you repeat the test. Exclusive with "Double the Fun". |
+| 6 MiFP  | Clotter             | One **active** [Injury](#injury) of choice is now **treated**. |
+| 8 MiFP  | Cascading Re-Roll   | Repeat a single test you just made. With this card, you keep any **hits** you achieved from the previously made test and add them to the **hits** rolled when you repeat the test. This also doubles your Hit Limit. Exclusive with "Double the Fun". |
 | 8 MiFP  | Learning Boost      | For the duration of the session, you gain **twice** the [progress](#advancing-skills) towards your [skills](#skills) and twice the [XP](#experience-points-xp) every test. |
 | 8 MiFP  | Hastened            | `+1` **AP** during your turns for the entirety of a [combat](#combat) encounter. |
-| 3 MaFP  | Double the Fun      | Double the number of dice to roll on your next/current test and every rolled **hit** counts double - which means every rolled **hit** actually counts as 2 **hits**! Exclusive with "Cascading Re-Roll". |
+| 3 MaFP  | Double the Fun      | Double the number of dice to roll on your next/current test and every rolled **hit** counts double - which means every rolled **hit** actually counts as `2` **hits**! This also doubles your Hit Limit. Exclusive with "Cascading Re-Roll". |
 | 5 MaFP  | Fact Check          | Change a minor plot point in a way you prefer. Work with your **GM** to make sure it fits the narrative, but they should respect your wish. This could be something like avoiding an **NPC** death or changing a fact about the plot. |
-| 5 MaFP  | Just a Flesh Wound  | Avoid or remove an [injury](#injury)! |
-| 1 AFP   | Defy Death          | Return from the dead, remove 1 **active** [injury](#injury) of choice and be at 1 **HP**; Alternatively, avoid a narratively-driven death. The **GM** will decide the character's alternative fate. They could be captured, very badly injured or become indebted to someone or something. Note that this card can only be played *after* the character lost their [battle with death](#deaths-door). |
+| 5 MaFP  | Just a Flesh Wound  | Avoid or remove an [Injury](#injury)! |
+| 1 AFP   | Defy Death          | Return from the dead, remove `1` **active** [Injury](#injury) of choice and be at `1` **HP**; Alternatively, avoid a narratively-driven death. The **GM** will decide the character's alternative fate. They could be captured, very badly injured or become indebted to someone or something. Note that this card can only be played *after* the character lost their [battle with death](#deaths-door). |
 | 1 AFP   | Yes, my liege       | Work with your **GM** to create a follower/hireling who will now be at your command/employ. |
 
 # Time-Management
@@ -1283,7 +1436,7 @@ The **initiative** of all involved parties is collected and sorted, which forms 
 
 The steps to determine the **initiatve order** are as follows: 
 1. Every character who rolls for **initiative**, must do so with a `D20`. 
-2. They add their [base initiative](#base-initiative) to the number they rolled. 
+2. They add their [base initiative](#base-initiative-bi) to the number they rolled. 
 3. If a character enters the **initiative order** more than once, then every consecutive **initiative roll** of theirs is divided by its order. So the first **initiative roll** is the same as for other characters. But the second **initiative roll** is halved (= divided by 2), the third is divided by 3 and so on. The resulting number is rounded up. There is no need for fractions here. 
 4. If two characters achieve the same number, they must each roll a `D20` again, until one of the numbers is higher. The character with the higher number gets to act before the other. 
 5. The result, is their place in the **initiative order**.
@@ -1481,7 +1634,7 @@ Active actions during combat are:
 * Waiting (= abstaining from an action)
 
 Reactions during combat are:
-* [Attacks of Opportunity](#attacks-of-opportunity)
+* [Attacks of Opportunity](#opportunity-attacks)
 * [Defending](#defending)
   * [Defending an ally](#defending-an-ally)
 
@@ -1508,16 +1661,16 @@ However, even with saved-up **AP**, the maximum a character may **begin their tu
 ## Combat Movement
 Under normal circumstances, a character (an average human) can move up to `12'/4m` (= `4` fields on a grid) per **AP** spent. 
 
-On **difficult terrain**, the distance moved per **AP** is half that, at `6'/2m` (= `2` fields on a grid). **Difficult terrain** is any space that slows movement, but does not prevent it outright. Examples would be waist-high water, a surface of glue or a slowing force field. 
+On **Difficult Terrain**, the distance moved per **AP** is half that, at `6'/2m` (= `2` fields on a grid). Difficult Terrain is any space that slows movement, but does not prevent it outright. Examples would be waist-high water, a surface of glue or a slowing force field. 
 
-It is also possible to **sprint**, increasing the distance one can move per **AP** spent, at the cost of `1` point of [exhaustion](#exhaustion) for every **AP** spent **sprinting**. The movement distance is increased by a character's [sprinting speed](#sprinting-speed), per **AP**. 
+It is also possible to **sprint**, increasing the distance one can move per **AP** spent, at the cost of `1` point of [exhaustion](#exhaustion) for every **AP** spent **sprinting**. The movement distance is increased by a character's [sprinting speed](#sprinting-speed-sprint), per **AP**. 
 
 > A character with a sprinting speed of `3` can increase their total movement distance to `21'/7m`, at the cost of `1` AP and `1` point of exhaustion. 
 
 ### Forced Movement
 There are abilities and circumstances that can force a character to be moved against their will. When this happens, the character in question does not spend any [AP](#action-points-ap) on the movement, as they didn't initiate it. A character automatically reduces the distance they are moved by their `Stability * 3'/1m`. 
 
-If a forced movement ends abruptly, meaning before the full distance to move was reached, for example by slamming into a wall, then this causes `N D4` points of bludgeoning damage, where *N* is the remaining movement (in `3'/1m` increments) that could not be reached. Each character then reduces the damage they suffer by their [Stability](#stability). 
+If a forced movement ends abruptly, meaning before the full distance to move was reached, for example by slamming into a wall, then this causes `N D4` points of bludgeoning damage, where *N* is the remaining movement (in `3'/1m` increments) that could not be reached. Each character then reduces the damage they suffer by their [Stability](#stability-stabil). 
 
 > A character is thrown with enough force to move them `15'/5m`, but a wall stops them short of reaching that distance, after they were moved `6'/2m`. The remainder of `9'/3m` causes them to suffer `3 D4` points of bludgeoning damage, as they slam into the wall!
 
@@ -1531,22 +1684,22 @@ When a character falls more than `9'/3m` and impacts with the ground, then they 
 > A character is shoved down a ditch and falls `12'/4m`. This is more than the minimum, and they will suffer `1 * 6 = 6` points of bludgeoning damage upon impact, unless they can reduce that amount with an Acrobatics test. 
 
 ### Disengage
-It is possible to move out of an enemy's [Range of Opportunity](#attacks-of-opportunity) without provoking an [Attack of Opportunity](#attacks-of-opportunity). This action costs 2 [AP](#action-points-ap) and the disengaging character **must** move in a direction that will get them out of the [Range of Opportunity](#attacks-of-opportunity) the fastest and safest, as far as 1 **AP** of movement would get them. 
+It is possible to move out of an enemy's [Range of Opportunity](#opportunity-attacks) without provoking an [Opportunity Attack](#opportunity-attacks). This action costs 2 [AP](#action-points-ap) and the disengaging character **must** move in a direction that will get them out of the [Range of Opportunity](#opportunity-attacks) the fastest and safest, as far as 1 **AP** of movement would get them. 
 
 > Just because jumping off a cliff would be the fastest way out of a **Range of Opportunity**, doesn't mean this is the safest direction to go. A character trying to disengage is trying to move safely, after all. If the safest direction is through the **Range of Opportunity**, then so be it. 
 
-When disengaging from more than one [Range of Opportunity](#attacks-of-opportunity) in the same action, every additional [Range of Opportunity](#attacks-of-opportunity) past the first adds a cost of 1 [AP](#action-points-ap). 
+When disengaging from more than one [Range of Opportunity](#opportunity-attacks) in the same action, every additional [Range of Opportunity](#opportunity-attacks) past the first adds a cost of 1 [AP](#action-points-ap). 
 
 ### Flee Combat
 When [combat](#combat) is a decidedly bad idea, one can try to flee from it. A fleeing character can no longer perform any *hostile actions*. That means, they can no longer attack or hinder any other characters until the end of [combat](#combat). 
 
-In turn for giving up their offensive capacity, they gain double their [sprinting speed](#sprinting-speed) per [AP](#action-points-ap) spent. Rules for [difficult terrain](#combat-movement) and the exhaustion cost for sprinting still apply. 
+In turn for giving up their offensive capacity, they gain double their [sprinting speed](#sprinting-speed-sprint) per [AP](#action-points-ap) spent. Rules for [Difficult Terrain](#combat-movement) and the exhaustion cost for sprinting still apply. 
 
 ### Push Through
-It is possible to **push through** a [Range of Opportunity](#attacks-of-opportunity), without spending any [AP](#action-points-ap), but in doing so, the [Attack of Opportunity](#attacks-of-opportunity) is **guaranteed** to land successfully, without any attack [test](#tests) necessary (this counts as an automatic success for the attacker). 
+It is possible to **push through** a [Range of Opportunity](#opportunity-attacks), without spending any [AP](#action-points-ap), but in doing so, the [Opportunity Attack](#opportunity-attacks) is **guaranteed** to land successfully, without any attack [test](#tests) necessary (this counts as an automatic success for the attacker). 
 
 ### Swap-Out
-It is possible to swap positions with an adjacent ally, without provoking an [Attack of Opportunity](#attacks-of-opportunity) for either character. 
+It is possible to swap positions with an adjacent ally, without provoking an [Opportunity Attack](#opportunity-attacks) for either character. 
 
 This **action** costs 2 [AP](#action-points-ap). 
 
@@ -1564,12 +1717,12 @@ Damage dealt to an opponent reduces their [HP](#hit-points-hp). When their **HP*
 
 [Armor](#armor) can reduce the amount of damage that is actually applied. 
 
-### Attacks of Opportunity
-When a character is within weapon's reach of another hostile character, they're considered within the other's **Range of Opportunity**. Whenever a character in an enemy's **Range of Opportunity** moves away from or more than `6'/2m` *around* that enemy, that enemy can *choose* to perform an **Attack of Opportunity**. It is possible to avoid an **Attack of Opportunity** with a [disengage](#disengage) combat action. 
+### Opportunity Attacks
+When a character is within weapon's reach of another hostile character, they're considered within the other's **Range of Opportunity**. Whenever a character in an enemy's **Range of Opportunity** moves away from or more than `6'/2m` *around* that enemy, that enemy can *choose* to perform an **Opportunity Attack**. It is possible to avoid an **Opportunity Attack** with a [disengage](#disengage) combat action. 
 
-Performing an **Attack of Opportunity** costs 1 [AP](#action-points-ap) at a **-1D** penalty and will **halt** the enemy in question, preventing their movement, regardless of whether the attack lands. The attacked party can still choose to [push through](#push-through), thus still getting to move, but if they do, the **Attack of Opportunity** is **guaranteed** to land successfully, without any attack [test](#tests) necessary (this counts as an automatic success for the attacker). 
+Performing an **Opportunity Attack** costs `-1` [AP](#action-points-ap) at a `-1D` penalty and will **halt** the enemy in question, preventing their movement, regardless of whether the attack lands. The attacked party can still choose to [push through](#push-through), thus still getting to move, but if they do, the **Opportunity Attack** is **guaranteed** to land successfully, without any attack [test](#tests) necessary (this counts as an automatic success for the attacker). 
 
-An **Attack of Opportunity** is a **combat action** and a **reaction**. 
+An **Opportunity Attack** is a **combat action** and a **reaction**. 
 
 ### Flanking
 In a normal duel situation, a person in armor or with a shield will always have an advantage over the person without. There are still ways to get around these defenses, but they usually involve managing to throw the opponent to the ground or using specific [expertises](#expertise). Simply continuing trying to hit someone in armor in a straight fight will not yield you the results you seek. 
@@ -1629,8 +1782,8 @@ Defending an ally is a **combat action** and a **reaction**.
 If you succeed a **defense** and achieve at least `2` **hits** over your attacker, then you may perform one of the following stunts, at the cost of `+1` [exhaustion](#exhaustion) (but only if that won't bring you to your [exhaustion limit](#exhaustion)): 
 
 * **Disarm** your opponent (if they have a detachable weapon).
-* **Displace your opponent**. They are forced to stumble backwards by `6'/2m` in a direction of your choosing. This may provoke [Attacks of Opportunity](#attacks-of-opportunity). 
-* **Displace yourself**. You move `6'/2m` in a direction of your choosing. This does **not** provoke [Attacks of Opportunity](#attacks-of-opportunity). 
+* **Displace your opponent**. They are forced to stumble backwards by `6'/2m` in a direction of your choosing. This may provoke [Attacks of Opportunity](#opportunity-attacks). 
+* **Displace yourself**. You move `6'/2m` in a direction of your choosing. This does **not** provoke [Attacks of Opportunity](#opportunity-attacks). 
 * **Throw your opponent to the ground**, making them [proned](#prone). 
 * Launch an immediate **Counter-Attack**, for half your weapon's regular damage (RU). This attack does not cost you any additional [AP](#action-points-ap). 
 * If defending against a ranged attack, you **catch the projectile** (if such a feat could be "reasonably" done). You may immediately throw it back at the attacker, for a guaranteed success. 
@@ -1661,6 +1814,8 @@ When Momentum reaches `+18`, **Heroic Acts** become available. Inversely, when M
 
 A Heroic Act always has a counter-part - a Desperate Measure. This pairing is called a [Momentum Action](#momentum-action). 
 
+The Momentum mechanics can make PCs feel very heroic! They allow them to finish a fight or turn the wheel of fate around, with decisive action and careful planning. If you desire a less heroic game, you may consider not using the Momentum rules, or perhaps weakening the power of Momentum Actions. 
+
 | Gaining Momentum <img src="../../img/momentum-shift_heroism.svg" width="48px" height="48px"></img> | Losing Momentum <img src="../../img/momentum-shift_desperation.svg" width="48px" height="48px"></img> |
 | -------------------------------------- | ----------------------------------------------------------- |
 | Successfully attacking a foe: `+2`     | PC or ally being successfully attacked: `-2`                |
@@ -1675,9 +1830,9 @@ A Heroic Act always has a counter-part - a Desperate Measure. This pairing is ca
 | Finest Hour <br><img src="../../img/heroic-act_finest-hour.svg" width="64px" height="64px"></img>| A **PC** of choice gets an immediate turn, with `5` [AP](#action-points-ap). Decreases Momentum by `-30`. | All **PCs** get an immediate turn, with `2` [AP](#action-points-ap), but also suffer `+3` degrees of [Bleeding](#bleeding). Increases Momentum by `+20`. | Final Hour <br><img src="../../img/desperate-measure_final-hour.svg" width="64px" height="64px"></img> |
 | Finish It! <br><img src="../../img/heroic-act_finish-it.svg" width="64px" height="64px"></img>| A chosen **PC** launches an immediate attack against a chosen foe, with `1` [Compensation Point](#compensation-points). If successful, that foe suffers `(Injury count * 10) + 5` points of additional Pure damage. Decreases Momentum by `-30`. | A chosen **PC** launches an immediate attack against a chosen foe, with `1` [Compensation Point](#compensation-points). If successful, the foe suffers `(Injury count * 10) + 20` points of additional Pure damage. If unsuccessful, the **PC** instead suffers `(Injury count * 10) + 10` points of Pure damage. Increases Momentum by `+10`. | You or Me <br><img src="../../img/desperate-measure_you-or-me.svg" width="64px" height="64px"></img> |
 | Pre-Emptive Strikes <br><img src="../../img/heroic-act_pre-emptive-strikes.svg" width="64px" height="64px"></img>| Until the end of combat, a chosen **PC's** first attack every round costs no [AP](#action-points-ap)! Decreases Momentum by `-30`. | All **PCs** may immediately make one attack against one or more chosen foes, with `1` [Compensation Point](#compensation-points). This attack costs no [AP](#action-points-ap), but every foe hit may launch a free [Counter-Attack](#defense-stunts), with `1` [Compensation Point](#compensation-points), after all **PCs** have acted. Increases Momentum by `+10`. | Breakout Strikes <br><img src="../../img/desperate-measure_breakout-strikes.svg" width="64px" height="64px"></img> |
-| Tactical Repositioning <br><img src="../../img/heroic-act_tactical-repositioning.svg" width="64px" height="64px"></img>| All **PCs** may immediately re-position, moving up to `30'/10m`, without triggering any [Opportunity Attacks](#attacks-of-opportunity). Decreases Momentum by `-10`. | All **PCs** may immediately re-position, moving up to `30'/10m`, without triggering any [Opportunity Attacks](#attacks-of-opportunity). However, up to three foes immediately gain `+1`, or one foe `+3` [AP](#action-points-ap). Increases Momentum by `+5`. | Desperate Repositioning <br><img src="../../img/desperate-measure_desperate-repositioning.svg" width="64px" height="64px"></img> |
+| Tactical Repositioning <br><img src="../../img/heroic-act_tactical-repositioning.svg" width="64px" height="64px"></img>| All **PCs** may immediately re-position, moving up to `30'/10m`, without triggering any [Opportunity Attacks](#opportunity-attacks). Decreases Momentum by `-10`. | All **PCs** may immediately re-position, moving up to `30'/10m`, without triggering any [Opportunity Attacks](#opportunity-attacks). However, up to three foes immediately gain `+1`, or one foe `+3` [AP](#action-points-ap). Increases Momentum by `+5`. | Desperate Repositioning <br><img src="../../img/desperate-measure_desperate-repositioning.svg" width="64px" height="64px"></img> |
 | Unyielding <br><img src="../../img/heroic-act_unyielding.svg" width="64px" height="64px"></img>| A **PC** of choice gets `+1` [Compensation Point](#compensation-points) for all defense tests and may freely [Counter-Attack](#defense-stunts) all attacks directed against them or an adjacent ally, for `1` round. Decreases Momentum by `-10`. | Until the end of combat, a chosen **PC** may freely [Counter-Attack](#defense-stunts) all attacks directed against them or an adjacent ally. However, they suffer `+1` **Ob** for all attack tests. Increases Momentum by `+10`. | Cornered <br><img src="../../img/desperate-measure_cornered.svg" width="64px" height="64px"></img> |
-| Get Off Me!             | All foes adjacent to a chosen **PC** are pushed back `6'/2m`. That **PC** may then move up to `12'/4m`, without triggering [Opportunity Attacks](#attacks-of-opportunity). Decreases Momentum by `-10`. | A chosen **PC** switches places with an adjacent foe, and may then move up to `12'/4m`. Only the foe they switched with may react and launch an immediate free [Counter-Attack](#defense-stunts), with `+1` [Compensation Point](#compensation-points), but cannot prevent the **PC** from moving. Increases Momentum by `+10`. | Outta My Way! |
+| Get Off Me!             | All foes adjacent to a chosen **PC** are pushed back `6'/2m`. That **PC** may then move up to `12'/4m`, without triggering [Opportunity Attacks](#opportunity-attacks). Decreases Momentum by `-10`. | A chosen **PC** switches places with an adjacent foe, and may then move up to `12'/4m`. Only the foe they switched with may react and launch an immediate free [Counter-Attack](#defense-stunts), with `+1` [Compensation Point](#compensation-points), but cannot prevent the **PC** from moving. Increases Momentum by `+10`. | Outta My Way! |
 | Toughened Up            | All **PCs** gain up to `10` [Temporary HP](#temporary-hit-points), limited to them having at most this amount. All foes lose `1` [AP](#action-points-ap) and suffer `+1` [Exhaustion](#exhaustion). Decreases Momentum by `-15`. | All **PCs** gain `20` [Temporary HP](#temporary-hit-points), limited to them having at most this amount, but also suffer `+1` [Exhaustion](#exhaustion). Increases Momentum by `+10`. | Scarred Up |
 
 ## Throwing
@@ -2003,14 +2158,14 @@ The following is a list of general assets. Of course, the following list is non-
 
 ### Weapon Properties
 Weapon type assets can have the following **traits**:
-* **Long Reach**: Allows attacking a target two fields (6'/2m) away. 
-* **Very long Reach**: Allows attacking a target three fields (9'/3m) away. 
+* **Long Reach**: Allows attacking a target two fields (`6'/2m`) away. 
+* **Very long Reach**: Allows attacking a target three fields (`9'/3m`) away. 
 * **Range Only**: Implies a weapon cannot be used against any targets adjacent to self. 
-* **Prefer Range**: +2 **Ob** to using the weapon against an adjacent target.
-* **Slow Reload**: Reloading the weapon costs 2 [AP](#action-points-ap).
-* **Very Slow Reload**: Reloading the weapon costs 3 [AP](#action-points-ap).
+* **Prefer Range**: `+2` **Ob** to using the weapon against an adjacent target.
+* **Slow Reload**: Reloading the weapon costs `2` [AP](#action-points-ap).
+* **Very Slow Reload**: Reloading the weapon costs `3` [AP](#action-points-ap).
 * **Ranged (throwable: < attack name >)**: No damage penalty is incurred when throwing this type of weapon. The damage formula for the given attack is to be used on hit. 
-* A **counter-attack** is a *reaction* that allows a fighter being attacked to attack their attacker, at the cost of 1 [AP](#action-points-ap). 
+* A **counter-attack** is a *reaction* that allows a fighter being attacked to attack their attacker, at the cost of `1` [AP](#action-points-ap). 
 
 ## Lists of Skills
 The following list does not and cannot aim to be a complete listing of all possible skills in game. Adding new skills as necessary will have to be done by the **GM**. Nevertheless, most general scenarios should be covered by these skills. 
@@ -2094,7 +2249,7 @@ For any ally next to you, who's also using a shield, you both gain **+1D** on yo
 
 | Level | <img src="../../img/heroic-acts.svg" width="64px" height="64px"></img> | Heroic Act Description | Desperate Measure Description | <img src="../../img/desperate-measures.svg" width="64px" height="64px"></img> |
 | ----- | ----------------------- | ---------------------- | ----------------------------- | --------------------------- |
-| 4     | Launch! | An adjacent ally jumps onto your shield, as you brace yourself and then, in a fluid motion, launch them behind you. This way, your ally may travel up to `N * 3'/1m`, where *N* is your [Strength](#strength-str), without provoking [Attacks of Opportunity](#attacks-of-opportunity). If they land on or near a foe, they may make an immediate free attack against that foe. Decreases Momentum by `-15`. | An adjacent ally jumps onto your shield, as you brace yourself and then, with all your might, in a fluid motion, launch them behind you. This way, your ally may travel up to `N * 6'/2m`, where *N* is your [Strength](#strength-str), without provoking [Attacks of Opportunity](#attacks-of-opportunity). If they land on or near a foe, they may make an immediate free attack against that foe, with `+1` [Compensation Point](#compensation-points). *However*, **you** suffer `+3` [Exhaustion](#exhaustion). Increases Momentum by `+15`. | Strained Launch |
+| 4     | Launch! | An adjacent ally jumps onto your shield, as you brace yourself and then, in a fluid motion, launch them behind you. This way, your ally may travel up to `N * 3'/1m`, where *N* is your [Strength](#strength-str), without provoking [Attacks of Opportunity](#opportunity-attacks). If they land on or near a foe, they may make an immediate free attack against that foe. Decreases Momentum by `-15`. | An adjacent ally jumps onto your shield, as you brace yourself and then, with all your might, in a fluid motion, launch them behind you. This way, your ally may travel up to `N * 6'/2m`, where *N* is your [Strength](#strength-str), without provoking [Attacks of Opportunity](#opportunity-attacks). If they land on or near a foe, they may make an immediate free attack against that foe, with `+1` [Compensation Point](#compensation-points). *However*, **you** suffer `+3` [Exhaustion](#exhaustion). Increases Momentum by `+15`. | Strained Launch |
 
 #### Trapping (Awar/Wit)
 Setting traps in places where they're difficult to detect and the ability to disarm them. Used to set traps such as bear traps, pits filled with spikes, land mines and so on.
@@ -2117,7 +2272,7 @@ Sometimes, your own body is your greatest weapon. Fists and feet can cause a sur
 | 0     | Shove                      | 2  | Opposed by [strength](#strength-str) | Push an enemy away from you for `3'/1m` * *N*, where *N* is the number of **hits** more than the opponent achieved. |  |
 | 1     | Grapple                    | 2  | Opposed by **Unarmed Combat**        | If **completely successful**, the target is [Grappled](#grappled). The grappler can not use at least one of their hands for as long as they're grappling. |  |
 | 2     | Wrestle and Disarm         | 2  | Opposed by **Unarmed Combat**        | Disarm your opponent and wrestle them to the ground, making them [prone](#prone), if you so choose. | Disarm only if enemy is using detachable weapon. |
-| 3     | Barge In                   | 3  | Opposed by [strength](#strength-str) | Push an enemy away from you for `3'/1m` * *N*, where *N* is the number of **hits** more than the opponent achieved. Take their previous position and do **not** provoke [Attacks of Opportunity](#attacks-of-opportunity). |  |
+| 3     | Barge In                   | 3  | Opposed by [strength](#strength-str) | Push an enemy away from you for `3'/1m` * *N*, where *N* is the number of **hits** more than the opponent achieved. Take their previous position and do **not** provoke [Attacks of Opportunity](#opportunity-attacks). |  |
 | 3     | Be My Shield!              | 1  | /                                    | **Reaction**: If grappling an enemy and being hit with an attack, make *them* take the hit, instead. The grappled enemy gets **no chance** to defend themself. | Grappling an enemy. |
 
 | Level | <img src="../../img/heroic-acts.svg" width="64px" height="64px"></img> | Heroic Act Description | Desperate Measure Description | <img src="../../img/desperate-measures.svg" width="64px" height="64px"></img> |
@@ -2269,7 +2424,7 @@ This skill may also find use in forensics, to identify poisons or the type of we
 
 | Level | <img src="../../img/heroic-acts.svg" width="64px" height="64px"></img> | Heroic Act Description | Desperate Measure Description | <img src="../../img/desperate-measures.svg" width="64px" height="64px"></img> |
 | ----- | ----------------------- | ---------------------- | ----------------------------- | --------------------------- |
-| 4     | Immediate Response      | **You** may immediately move up to `15'/5m` and treat a chosen character without needing [Medical Supplies](#list-of-general-assets) and without triggering [Opportunity Attacks](#attacks-of-opportunity). You get `+1` [Compensation Point](#compensation-points) for the treatment attempt. This does not cost you any [AP](#action-points-ap). Decreases Momentum by `-25`. | **You** may immediately move up to `30'/10m` and treat a chosen character without needing [Medical Supplies](#list-of-general-assets) and without triggering [Opportunity Attacks](#attacks-of-opportunity). You get `+2` [Compensation Points](#compensation-points) for the treatment attempt. This does not cost you any [AP](#action-points-ap). *However*, **you** suffer `+1` [Injury](#injury). Increases Momentum by `+15`. | Panic Medic |
+| 4     | Immediate Response      | **You** may immediately move up to `15'/5m` and treat a chosen character without needing [Medical Supplies](#list-of-general-assets) and without triggering [Opportunity Attacks](#opportunity-attacks). You get `+1` [Compensation Point](#compensation-points) for the treatment attempt. This does not cost you any [AP](#action-points-ap). Decreases Momentum by `-25`. | **You** may immediately move up to `30'/10m` and treat a chosen character without needing [Medical Supplies](#list-of-general-assets) and without triggering [Opportunity Attacks](#opportunity-attacks). You get `+2` [Compensation Points](#compensation-points) for the treatment attempt. This does not cost you any [AP](#action-points-ap). *However*, **you** suffer `+1` [Injury](#injury). Increases Momentum by `+15`. | Panic Medic |
 
 #### Reading and Writing (Awar/Wit)
 The ability to both read and write, in general.
@@ -2323,7 +2478,7 @@ The ability to cook hearty and sweet meals that can strengthen and invigorate.
 
 For every `Q` past `1`, the meal may confer certain boons, for `Q * 2` hours. Each of the following boons can be picked only once:
 * Grant `Q D4` [Temporary HP](#temporary-hit-points). 
-* Increase [base initiative](#base-initiative) by `Q`. 
+* Increase [base initiative](#base-initiative-bi) by `Q`. 
 * Increase [strength](#strength-str) or [toughness](#toughness-tough) by `Q / 2 (RU)`. 
 * Resist `Q` [freezing](#damage-types) or [burning](#damage-types) or [bleeding](#damage-types) damage. 
 
@@ -2502,7 +2657,7 @@ After `72` consecutive hours (= `3` full days) of having being in **withdrawal**
 ### Electrified
 <img src="../../img/health-condition-electrified.svg" style="width: 3rem; height: 3rem;"></img>
 
-An **electrified** character spasms, uncontrollably. They are force moved in a random direction by `3'/1m`, which may trigger [Opportunity Attacks](#attacks-of-opportunity). 
+An **electrified** character spasms, uncontrollably. They are force moved in a random direction by `3'/1m`, which may trigger [Opportunity Attacks](#opportunity-attacks). 
 
 * Automatic shrug-off: At the end of the turn. 
 
@@ -2660,38 +2815,724 @@ A **multiple-single-target** (**MST**) action affects at least one and up to a m
 ### Area of Effect (AoE)
 **Area of Effect** (**aoe**) actions affect *every* target that is in the area of effect. 
 
-# Glossary
+# Game Mastery
+This and the following sections are reserved solely for the **GM**'s eyes. It aims to help you prepare and run the game. 
 
-| Term                                         | Meaning / Description   |
-| -------------------------------------------- | ----------------------- |
-| [AFP](#ambition-fate-points)                 | Ambitions Fate-Point    |
-| [Agi](#agility-agi)                          | The Agility Attribute   |
-| [AOE](#area-of-effect-aoe)                   | Area of Effect          |
-| [AP](#action-points-ap)                      | Action Point            |
-| [Awar](#awareness-awar)                      | The Awareness Attribute |
-| [Base Attribute](#skills)                    | One of the two Attributes a Skill relies on. |
-| [Concentration](#concentration)              | A Skill or Expertise whose effects last as long as desired |
-| [D10](#dice)                                 | A ten-sided die         |
-| [D20](#dice)                                 | A twenty-sided die      |
-| [D4](#dice)                                  | A four-sided die        |
-| [D6](#dice)                                  | A six-sided die         |
-| [D8](#dice)                                  | An eight-sided die      |
-| [FP](#fate-points)                           | Fate-Point              |
-| [GM](#introduction)                          | Game-Master             |
-| [Hit Limit](#testing-a-skill)                | Determines how many rolled **hits** may actually factor into the result of a test. |
-| [hit](#tests)                                | Result of an individual die-roll |
-| [HP](#hit-points-hp)                         | Hit-Points              |
-| [MaFP](#major-fate-points)                   | Major Fate-Point        |
-| [MiFP](#minor-fate-points)                   | Minor Fate-Point        |
-| [miss](#tests)                               | Result of an individual die-roll |
-| [MST](#multiple-single-target-mst)           | Multiple Single Target  |
-| [NPC](#non-player-character-npc)             | Non-Player Character    |
-| [Ob](#tests)                                 | Obstacle                |
-| [PC](#introduction)                          | Player Character        |
-| [RD](#rounded-up--rounded-down)              | Rounded down            |
-| [RU](#rounded-up--rounded-down)              | Rounded up              |
-| [ST](#single-target-st)                      | Single-Target           |
-| [Str](#strength-str)                         | The Strength attribute  |
-| [Tough](#toughness-tough)                    | The Toughness attribute |
-| [Wit](#wit-wit)                              | The Wit attribute       |
-| [XP](#experience-points-xp)                  | Experience Point(s)     |
+## The Role Of a Game Master
+As the **GM**, you are the one person at the table playing a slightly different game than the others. Instead of controlling a single character in a given world, you are in control of the world itself and determine what the characters within it get to do. 
+
+You're the host of the game. This means you'll have to organize everything. Invite players or make a post detailling the game you want to host, set the time and place and interview players who show interest. 
+
+You prepare maps, NPCs, stories and plot hooks. You involve the PCs in the world, offer them incentives to act and feed their [Drivers](./strive-core.md#personality). 
+
+You moderate and mediate. When there is conflict between players, you help with reconciliation. You ensure every player gets a chance to speak and ensure players are comfortable being at your table. Ask for and hear their feedback. Criticism is a chance to improve. 
+
+Players may help with all of these tasks, but that may not be commonplace. These are foremost *your* tasks and are much the reason why running the game can be a challenge, but also great fun. It is a very demanding, but also very rewarding process. 
+
+It is *your world* and *your game*, but the other people at the table are *your players*. Find the right players for your game and *make* your game *right* for your players. They are your guests and will only stay for as long as they feel welcome. 
+
+### Getting a Game Together
+Before inviting or interviewing your first player, you'll have to define a few parameters. 
+* What theme and setting will the game have? A grimdark campaign of desperate survival? A heroic war against evil gods? A Cthulean horror mystery? An epic space opera in a galaxy full of conflict? Or something else entirely? 
+  * Will you be following a pre-defined narrative (e. g. an adventure book) or throw the PCs in a sandbox and let them go wherever they will? 
+* How may sessions will you host? A one-shot, two-shot or other number? Perhaps you don't want to place a limit and simply keep running the game for as long as it remains fun. 
+* If the game is online, do you expect everyone to be using webcams or do you make that optional?
+* Are there any taboo subjects that you will dodge during play and expect your players to avoid? Torture, racism, sexism and such? Your players should get a say in this, too.
+* Do you expect people at the table to always act in-character? Do you expect players to speak as their character would? Or do you see such behavior as entirely optional? Forcing it may make players uncomfortable very quickly, so be careful with this one. 
+
+After having determined these parameters, classically comes the so-called session zero. This is the first time you and your players get together for the game, but you won't be playing yet. 
+
+In a running game, when inviting additional players, always make sure to involve the players already in your group in the interview and decision-making process. After all, they'll be interacting with any newcomers as much as you. 
+
+### Your Game
+There is an *unspoken social contract* between you, the **GM** and your players. Everyone at the table agrees that you *get to call the shots*. You present every scenario and its challenges, you arbitrate and moderate and you narrate and listen. 
+
+When presenting challenges and obstacles to the PCs, keep in mind it is **not** your job to think of possible solutions. *That*, is the *players' job*. It is also not your job to come up with PC reactions, emotions, thoughts or goals. That is also the players' job and furthermore, *their* prerogative. This point is further explained in [Player Agency](#player-agency). 
+
+The rules are in your hands. If you find one of **STRIVE**'s rules not to be agreeable, you may change it, so that it fits your game. This is called *house-ruling* - introducing unofficial rules that are only in effect at your table. In fact, you're hereby strongly encouraged to modify and add to the rules, as you see fit. Especially the list of skills is non-exhaustive, meaning, there is a very high chance one of your players will eventually want their character to do something, for which there isn't a skill defined, yet. You can even allow your players to invent skills. That way, not *all* of the work lies on you, but be mindful that you'll have to ensure the skills *make sense* and don't result in a character *suddenly* becoming an invulnerable power-house. 
+
+With the **authority** to *make decisions*, also comes a certain **responsibility**. It is your task to entertain your players. Not like a comedian or a singer, but something more subtle and complex than that. You agree to keep your players **interested and engaged** in your game. You agree to weave their characters into stories of which *even you* may have no idea how they'll play out. In your rulings, you must **be fair and consistent**. No player is favored. They're **all** your friends and guests. Abuse your authority, and players will eventually leave your table. 
+
+You agree to **mediate and moderate**. Should players fight, in-person, out-of-character, then there may be a time when you, as the one running the game have to step in and find a resolution. Either you can find a way for them to reconcile, or someone may have to leave the game. When players keep talking over each other, it is your responsibility to moderate. Have them take turns when speaking. Make sure everyone who has something to say, gets to. 
+
+Even if all of these and the following points may sound very dogmatic, see them more as well-intentioned advice, than hard rules for you to follow. Find your style and develop it as you like. 
+
+Of course, the specifics of the *unspoken social contract* can be different for you and your group. And perhaps the social contract doesn't *have* to remain unspoken. It might be a good idea to ensure everyone is on the same page, in regards to what is expected of **GM** and players. In session zero, when you first introduce the game you wish to run, you could bring up this social contract as a point on the agenda. 
+
+### Your Players
+The game can only happen, because of your players - the people *willing* to be at your table and engage with your game. Treat them with the same respect you expect from them and always consider this - they are offering you the most valuable commodity they have - their time. Of course, *your time* is just as valuable!
+
+Understand how your players think and how they enjoy their table-top role-playing game experience. If they like combat and loathe interacting with NPCs, you can cater to that, by presenting them with lots of *interesting* combat scenarios. On the other hand, if they love to role-play, they'll probably enjoy meeting and interacting with varied and quirky NPCs. 
+
+Figuring out how to get your players engaged in your game and noticing that engagement, can be a very rewarding sensation. It is a sign of a fun and worth-while experience and will cement their interest in your game! 
+
+# Your World
+STRIVE doesn't impose a world on you. You are not forced to play with any pre-defined theme or setting. This frees you up to play in whatever world you prefer, with whatever theme you prefer. But it also places the burden of such decisions on you. 
+
+STRIVE's modules can help you answer the question of theme. For example, if you want to play in a medieval fantasy world, STRIVE's fantasy module may get you started faster. 
+
+But setting - the world - is entirely up to you. You may choose an existing world from another RPG, or craft an entirely new one. Creating a world is no small feat and a hobby in itself, but luckily, you don't need the entire world to be perfectly fleshed out before you begin running the game. All you really need, is a rough idea of *what's where* and a detailed idea of where the PCs are *now*. Starting with a village in the woods and a nearby goblin lair, is a classic example. 
+
+Your players may aid you in crafting the world and will usually prefer doing so during play, rather than outside of it. If you allow them to change your world through their actions, it becomes a much more dynamic and almost life-like beast. If they defend the village from the goblins and destroy their lair, the village might start to prosper. More trade might come in, and through the traders, the PCs might learn about other places they could visit and acquire more and better supplies.
+
+## First Impressions Are Definitive
+Whenever you introduce a new aspect of your world, that introduction will stick. In whatever way you portray an aspect of your world, *that*, is how players will remember it. A first impression tends to teach us **fundamental expectations**. 
+
+For this reason, it is often wise to introduce **normality first**, instead of the exception. If you have the PCs get robbed the first time they enter a city, they'll henceforth expect to be robbed *every* time they enter a city. Especially when faced with hostile experiences, the first time PCs interact with a new aspect of the world, that aspect will seem more hostile in general. Combine many such experiences, and you end up with a world that seems extremely hostile. Unless if you're playing a grimdark campaign, you should be wary of arriving at such a state. 
+
+If it is normal to arrive in a new city safely, find secure lodgings, go to the market or inn and *not* be robbed or molested, then that should be the first impression the PCs get to experience. Unless, of course, there is solid narrative reason why that shouldn't be the case. Even so, it *will* paint a picture the players won't soon forget. 
+
+This is also why PCs should be expected to behave as their origin cultures dictate. This point is probably up for contention, as PCs are usually somewhat special. They may deviate to an extent, but even so, the "elf in the party" defines the very perception of elves to all the players. The way that PC behaves, is the way players will expect all elves to behave, because that is often their first exposure to people of that culture (and yes, elves most certainly also have various differing cultures, which further complicates the issue). However, this is not to say you should step in whenever the PC "misbehaves" and prevent their action outright. After all, *you* do not decide the PC's actions. Their player does. But you may offer counsel and inform them that their PC probably *knows* they're currently acting atypical. And perhaps the player just doesn't enjoy the cultural background of their PC. If so, you may want to let them change it. There is little point in forcing a player to play a PC they don't enjoy playing. 
+
+# Non-Player Character (NPC)
+Non-player characters (**NPCs**) are all the **people, animals and monsters** of your world, that aren't the PCs. 
+
+NPCs are one of your most important tools to bring your world to life and make it interesting and engaging to your players. More often than not, the most interesting sessions involve heavy or mindful use of NPCs. 
+
+NPCs are built differently from PCs. Not all the same rules apply to them. The following differences exist:
+* NPCs **cannot** earn [fate points](#fate-points). 
+* NPCs don't *need* the [personality](#personality) section. A **GM** *may choose* to include it for the *main actor* NPCs, but for your average animal or passing acquaintance, no personality should be noted down. 
+* NPCs don't *need* advancement progress to be tracked. Thus, they cannot have [learning skills](#learning-skills). 
+* NPCs don't have a base HP of `10`, thus, their max. HP values will always be `10` points lower than of PCs with the same Toughness level. 
+* NPCs have additional characteristics: [Defense](#defense-def) and [Free Strike](#free-strike-fs).
+* NPC [Stability](#stability-stabil) isn't derived from [Attributes](#attributes). 
+
+You may begin introducing most NPCs as simple and flesh out their character sheets only as necessary. Sometimes, you may be surprised which NPCs the players take interest in, inviting you to flesh out what you expected to be only a passing acquaintance. 
+
+There are three types of NPCs:
+* **People**: These are sentient, sapient and civilized folk, who can be reasoned with and interacted with on the same level as the PCs. See them as you do real people. There are no rules or mechanics dictating how they should behave, but they are *expected* to engage with the PCs and to react to the PCs' actions. 
+* **Animals**: Sentient, but not sapient, these are creatures driven by animalistic instinct. They are neither inherently evil, nor good, and mostly care only about their base needs. Think: wolves, bears, dogs and the like. But these may also be fantastical creatures, such as dragons, gryphons, space-whales and so on. 
+* **Monsters**: Possibly sentient and/or sapient, these creatures can be of natural or unnatural origin and are usually irredeemably evil and destructive. Examples might be demons from an abyssal plane of existence, undead, golems, robots and such. These are natural antagonists of the PCs and their origin cultures. 
+
+To keep this chapter brief, and because you might decide you don't need it, the mechanical process of creating NPCs is detailed in a later chapter, the [NPC-Builder](#npc-builder). 
+
+## Defense [Def]
+The **Defense (Def)** characteristic is reserved solely for NPCs and is the number of hits an attacker against them must achieve in order to hit the NPC. This ensures NPCs don't have to roll for their defense, which allows you to tell your players the creature's Defense value and they can determine themselves whether they hit. This accelerates the game and alleviates some of the work in running NPCs. 
+
+Of course, in order for the NPC to defend, they require [AP](#action-points-ap). If they have no AP left over, treat their Defense as `1`. 
+
+The Defense characteristic should be reserved for Feeble and Regular creatures or those creatures you wish to employ en masse. 
+
+## Free Strike [FS]
+The **Free Strike (FS)** characteristic is reserved solely for NPCs and is the damage value used when multiple of the same type of NPC launch an attack at the same time, as a [squad](#npc-squads).
+
+This way, instead of having to roll many dice to determine damage, you only roll the main aggressor's damage and then **add the sum of every assisting ally's Free Strike value**. 
+
+Whether allies can join in to deal more damage, depends on whether they are in their weapon's range to attack and are part of the aggressor's [squad](#npc-squads). 
+
+## Challenge Rating [CR]
+The overall power-level of a NPC is **broadly abstracted** as **Challenge Rating (CR)**. It is a tool designed to let you make an *educated guess* about the difficulty a given NPC might pose to the PCs. 
+
+## NPC Squads
+Squads are groups of NPCs who are all of the same type, who will act as a single unit. They share the same [AP](#action-points-ap), [Exhaustion](#exhaustion) and [HP](#hit-points-hp) pools and always act together, as a cohesive group. 
+
+Squads are useful in two ways. Firstly, they allow PCs to feel more heroic, by quickly felling many foes before them. Secondly, it allows you to more easily challenge your players tactically, as the higher number of foes lets you control the battlefield easier, but without too much bureaucratic overhead. For example, a Squad with a lot of members should find it easy to surround the PCs, or to block off their access to some strategic location. 
+
+The recommended minimum number of NPCs in the same squad is `3`, while at most, it should be `8`. The specifics of this depend on the type of NPC you are using. Very weak creatures can be safely used in higher numbers, than more powerful foes. For every creature in the Squad, the sum of their CR, halved (RU) results in their Squad CR. 
+
+As NPC Squads mechanically behave in their own special way, be sure to share the information in this chapter with your players! They should understand the basics of how Squads work, which will enable them to make tactically sound decisions around this knowledge! 
+
+### Squad HP Pool
+When in a Squad, every NPC in the Squad is treated as if it had only half (RU) of its actual maximum HP. The total HP pool is comprised of the sum of their individual maximum HP numbers (which, again, are treated as half their actual value). 
+
+> `5` monsters all of the same type - for the example, let's say zombies - normally have `20` HP each. They are organized as a Squad and thus have a shared HP pool of `5 * (20 / 2) = 50` HP. 
+
+Every time any of the NPCs in the Squad suffers damage, it is applied to the shared HP pool. When more than an individual's maximum HP is dealt in damage, one of the Squad members perishes. The member directly attacked always dies first. If enough damage has been dealt to kill more than one, the next closest Squad member perishes, too. 
+
+> Back to the zombies example. A PC deals `12` points of damage to the Squad. As an individual zombie normally has `20` maximum HP, half of which is `10`, that is enough to kill one of the zombies. The zombie Squad's shared HP are now at `50 - 12 = 38`. 
+
+If the Squad suffers an instance of [AoE](#area-of-effect-aoe) damage, which hits multiple Squad members, the maximum damage that can be dealt is limited to the sum of the maximum HP of those members affected. In other words, an AoE attack can only kill those Squad members actually affected. 
+
+When preparing an encounter with a Squad, it may help to write down the thresholds when members of the Squad die, in advance.
+
+> When preparing the zombies encounter, it may help to write down that one zombie dies once the shared HP reah `40`, the next at `30`, then `20`, `10` and finally `0`. This way, you don't need to do this math once damage starts rolling in, you can simply check if after the damage is subtracted from the shared HP, if one of these thresholds was reached. If so, a member of the Squad is felled. 
+
+To keep Squads simple to run, they do not suffer [Injuries](#injury). 
+
+### Squad Cohesion
+It is imperative that all members of the Squad be within a distance of at most `9'/3m` to at least one other member of the Squad. If a member should be farther away than this distance, for example because their nearest peer was killed or they were force moved away, then the next time the Squad acts, this member will move closer towards the Squad, until they rejoin its cohesion. 
+
+This implies you may in fact snake the Squad along, each member at the maximum distance allowed from one another. But also be aware that if you do, the PCs may take advantage of this by killing a member in the middle of the snake and thus forcing at least one half of the Squad to spend the next action getting back to the other half, to restore cohesion. 
+
+However, this doesn't imply the inverse, either. You aren't required to blob up your Squad, as this will make them easy to bombard with AoE attacks. Try to have them assume some formation that would be reasonable for the creatures involved. While zombies might just blob up without any sense of the peril they are in, combat robots may assume a spread out wedge formation that would allow all members to fire their weapons, while minimizing AoE damage threat and ensuring cohesion may be quickly restored. 
+
+To make Squads easier to manage, be sure to mark every member of a Squad somehow. Assign them a color or icon, or label that you and your players can easily distinguish and reference during play. 
+
+### Squad Actions
+When adding the Squad to combat initiative, only add the Squad as a whole. Do not bother tracking the initiative of individual members of the Squad, because they **always** act at the same time, with the same shared Action Point pool. 
+
+The Squad (re-)gains AP only as a whole. You do not track AP for each member, and the Squad only regains as many AP as a single individual would, if they weren't in a Squad. 
+
+When a Squad spends AP to move, **all** members of the Squad get to move, at the same time. And they **must** try to move to maintain [cohesion](#squad-cohesion), if required. These movements can trigger [Opportunity Attacks](#opportunity-attacks), for each member of the Squad. *However* they **cannot** be halted this way. If the Squad member survives, they get to finish their movement, so that cohesion may be maintained. 
+
+When a Squad spends AP to attack, **all** members of the Squad get to attack, at the same time. The Squad may have multiple targets for the attack, but only **one roll** is made **for each target** attacked by the Squad. All members **within reach** of one target may aid the attack roll, with `+1D` each. Damage works similarly. If the attack is successful, a **single damage roll** is made. For every other member that aided the attack roll, their [Free Strike](#free-strike-fs) value is added as additional damage, that is simply **added on top**, without any roll!
+
+When a Squad spends AP to defend, **all** members of the Squad defend. When defending, no roll is made. The defender's [Def](#defense-def) value equals the Ob for the attacker. While usually, only a single member is attacked and will be the defender, all **adjacent allies** may add `+1` to their [Def](#defense-def), provided the Squad has AP left to defend with. 
+
+Every time a Squad acts, members may be skipped (i. e. they do nothing), if reasonable. For example, in a tight corridor, not all members of an all melee fighter Squad may be able to reach their foes. They cannot reasonably attack and thus, simply do nothing, instead. 
+
+### Squad Captains
+A Squad may or may not have an assigned Captain. The Squad will follow the Captain and treat it as part of the Squad in terms of [cohesion](#squad-cohesion). A Squad Captain is treated as a separate entity. It does not share the HP, Exhaustion or AP pools. However, the Captain and their Squad will always act at the same time. For purposes of tracking the initiative ladder, you may use the Captain as the tracker for the Squad. 
+
+A Squad with an attached Captain enjoys one of the following benefits for you to choose from when you create the Squad:
+* **Spurred**: All members of the Squad may move an additional `6'/2m` for every AP spent. 
+* **Hardened**: The Squad starts with an additional `10` Temporary HP. These must be depleted before members of the Squad may take damage. 
+* **Drilled**: The Squad's Exhaustion pool has `+4` points.
+* **Indoctrinated**: The Squad receives `+1` AP at the start of its turn, but all members lose `-1` Def. 
+
+If the Captain is felled, the Squad loses the bonus immediately. 
+
+A Captain can but does not have to be a tactical leader. It could simply be a creature that bullies others into obedience, is so powerful and respected others simply flock to it or has some other power with which it may influence the will of others to obey it. 
+
+### Squad On Squad Violence
+Sometimes, the PCs are involved in a combat encounter that has two groups battling each other. The PCs might be a third party trying to cross a battlefield, or they may have brought allies. 
+
+Under such circumstances, the turns involving Squad vs. Squad should go by very quickly. Don't bother rolling any damage, at all. Simply count the number of Squad members that are in weapon's range, sum their Free Strike value, and subtract that number from their enemy Squad's HP pool. This also implies defense tests aren't rolled. Simply assume they hit each other. The specifics of whether they would realistically hit are of no interest, least of all to your players. 
+
+Ultimately, your players won't care about the potential correctness of the numbers, as long as their own characters aren't involved. It may even bore them watching the GM play the game alone for a while. Therefore, to re-iterate - keep turns that don't involve the PCs as short as possible. After all, the PCs are the stars of the show! 
+
+## Bring NPCs To Life
+Much like the PCs, or in fact real people, *proper* NPCs lead their own lives, with their own ambitions, aspirations, reactions, strengths and weaknesses. Keeping track of all of the numbers that implies, can become quite the challenge. But you won't need all of that data from the start, or even to track it all the time. Flesh out and update only as needed, to keep the work-load on your end low. You have enough work on your plate, as it is.
+
+Whenever the PCs encounter someone new, all you really need, is a **rough idea** of *who* that NPC *is* and how you *expect* them to interact with the PCs. You don't have to know all their history right away, nor all of their strengths, weaknesses or even their agenda. Invent those as needed. 
+
+And *who* an NPC is, depends on several factors, such as:
+* their social status (e. g. a noble vs. a peasant)
+* their cultural background
+* their physique
+* their occupation (e. g. a carpenter vs. a professional soldier)
+* their financial status
+* what you *think* their agenda *should be*, based on the above
+
+While putting on an accent and visibly acting out the quirks of an NPC certainly helps in bringing them to life, what's more important is how they interact with the PCs. Are they supportive of the PCs? Do they offer a warm meal whenever they see the PCs or do they bar their door and close the window curtains? Do they stand up defiantly or cower meekly? In fact, even something as simple as ignoring the PCs can say a lot about what the NPC thinks about them. 
+
+More often than not, you'll have NPCs be the source of quests and adventures for the PCs. But you can also have some NPCs that work for the PCs. This, especially, gives players a greater sense of agency in your world. It allows them to "move pieces on the board", to enact schemes and have some passive interaction happening, in the background. These retainer NPCs can be used to great effect, to drive PCs to action, or feed them information which they may then choose to act on.
+
+You also get to use NPCs as a tool to feed players information or false rumors. Be careful how you approach rumors and lies. Players have a tendency to assume everything the **GM** says is true. So when an NPC feeds them false information, they tend not to question it. Before you can effectively use false information as a tool, you'll have to establish that NPCs will not always speak the truth. Perhaps by introducing an NPC, who will tell the most outrageous, but obvious, lies. Maybe even about the PCs. That would certainly make your players sceptical. The specifics of this are entirely up to you and your specific game, of course. 
+
+# Running The Game
+While the previous sections provide an overview of the expectations of a **GM**, this sections aims to help you fulfill those expectations. 
+
+## Starting the Session
+There are a few steps to take before diving right back into the action. 
+
+### Recap The Last Session
+A good start for every session is asking one of your players (volunteers first) to outline what their characters did and experienced in the last session. This refreshes everyone's memory on what they did and should be doing. It also encourages them to take notes during play. 
+
+It is important you only correct them on *crucial* plot points, which they really should get right. Keep in mind that players tend to see the **GM**'s word as **absolute truth**. This is why, when you re-tell the events and those differ from what the players remember, it *might* alienate them from the world and the story. They thought they understood what was going on, but then you correct them and prove they were wrong all along - that can be frustrating. 
+
+In fact, you may even correct some of the details of how events *actually* played out, based on what your players re-tell. This is best done silently. No need to encourage *meta-gaming*, which has your players intentionally recapping the last session incorrectly, in a way to make you change details in their characters' favor. 
+
+### Personality & Driver Adjustments
+After a recap of the last session, players should have a basis from which to work new [drivers](./strive-core.md#personality) into their character and to shift [personality traits](./strive-core.md#personality-traits). Allow them a few minutes to think and discuss. 
+
+Once everyone has their characters figured out, have everyone, one by one, read **drivers** and personality changes out aloud. There are two reasons to do this:
+1. The other players can know, if an aspiration targets their character. So if a PC (player) starts acting odd towards another player (their PC), that player knows it's part of the role-play and not directed towards them as a person. <br>
+It also allows the player whose character is targeted by the aspiration to form ideas on how to react to it. This serves as [Fair Warning](#fair-warning). 
+1. It familiarizes you with their **drivers**, which ***you have to know***, so that you may prepare scenarios that *challenge* or *feed* those drivers. It may be wise to take notes on their drivers - what the driver is and how you might challenge or feed it.
+
+Be mindful that players knowing the **aspirations** of their fellow PCs should not be allowed to meta-game. 
+
+> If a PC has an aspiration to the detriment of their fellow PC and this is a fresh aspiration, the targeted PC shouldn't *suddenly* become more suspicious towards their ally. At least not without sufficient reason. Of course, a PC can figure out another's intentions, but not by virtue of their owning *player* knowing. 
+
+### Read Out Fate Point Purchases
+Once **drivers** are handled, move on to what meta-powers players purchased with their [fate points](#fate-points). 
+
+Especially since these are strictly meta-game powers, everyone should be clear on this. 
+
+## During the Session
+While running the session, you'll have the most work and the toughest job. Listen to your players attentively, react and prompt as needed. 
+
+You'll have to keep a lot in mind. This section aims to provide a set of reminders. 
+
+### Use The Senses
+When you describe scenes, not just what one can see is of relevance. What are the PCs' other senses picking up? What about hearing? Smell? Do the mages sense the flow of magic? What's the temperature like? Is the air damp or dry? Is the ground trembling from a giant's heavy footfalls?
+
+Try to pick only the most significant and most symbolic influences on the senses for your scene. There is little point in describing the gentle rustle of the wind in the leaves, whenever the PCs enter a forest. But if there is a strong stench of decay in the air, which wasn't there before, then that's probably noteworthy. 
+
+More often than not, PCs would be on the look-out for anything out of the ordinary in a given scene. So anything *obvious* to the PCs, anything that *should* stand out to them, you should describe unprompted. 
+
+Of course, sometimes, describing a peaceful and soothing scene can be a welcome and effective change. After a harrowing fight, the PCs might enter a safe area, where you describe it as a peaceful meadow, serene village or anything along those lines. In that case, the gentle rustle of leaves in the wind may actually be a welcome reprieve. 
+
+### The Tools
+This section outlines the tools - methods - of engaging your players. Usually, that means challenging their characters, sometimes even the players themselves - to think creatively. 
+
+**Mechanical challenges** are your *game-y* tools to engage your players. Dice are usually involved. Injuries and illnesses, combat and asset management belong to this category. 
+
+**Narrative challenges** are your *role-playing* tools to engage your players. They utilize the strength of the medium. You can resolve all narrative challenges through role-playing. Dice may not be needed, at all. 
+
+#### Combat Challenges
+Challenging PCs through combat encounters is most fun to players who enjoy strategic and tactical thinking. 
+
+**STRIVE** expects combat to be occasional, with ample breaks in-between. The game isn't well suited to prolonged dungeon-crawls. Injuries put a character out of commission for a good while. For this reason, you should always plan to provide a means of escape and retreat for the PCs. 
+
+To make combat encounters challenging, you may play around with the number of opponents, as well as their capabilities. 
+
+Present the close-quarters warrior PC with an opponent who's out of reach. Have the blood-letting fanatic PC deal with a foe that can't bleed. Present the mage PC with an opponent clad in magic resistant material. But always keep in mind one thing - the foes your players engage should always have weaknesses which the PCs can discover. And ideally, one party member should be able to help another. 
+
+> The player party's mage is ambushed by an anti-mage fanatic. The mage shoots fire at their assailant, but finds the fire dissipate into nothing more than hot smoke right before the fanatic's eyes. But the mage's ally, a halberd-wielding ex-footsoldier jumps in and lands a devastating blow, severly injuring the fanatic. 
+> 
+> The wounded fanatic cannot fight on and attempts to flee. The PCs can now attempt to attack the fleeing fanatic with conventional means, or let them go. The mage alone might not have had such an easy time of it. But thanks to their ally, they didn't have to fear that foe. 
+
+Fights should be winnable - unless you make it **very** clear to the players their characters can **not** win a particular fight. They should be given the option to retreat or circumvent such an encounter. 
+
+Even more interesting fights can occur, if you involve the environment, as well. Introduce both hazards and tools for the PCs to be threatened by, or to exploit. These are just some examples of interactive combat environments: 
+* An illegal gunpowder storage. Any careless use of fire could cause a cascade of explosions. Be mindful to not straight-up wipe out the PCs if the gunpowder does get set on fire. They should be harmed, but give them a chance to recover or flee from that blunder. It may even be possible to draw out the explosions. One explosion every turn, putting time pressure on the PCs to get out and also give them the time to do so. 
+* A giant cave, full of giant spider webs. If anyone should be unfortunate enough to stumble or be knocked into a web, a giant spider descends from the shadowy corners of the ceiling and begins to threaten that character, specifically. If that happens to be a PC, their allies have to think quick, to get them free, but also keep their original opponents on their toes. On the other hand, the PCs can attempt to knock their foes into the webs. 
+* A burning house, with the PCs and their opponents in the thick of it. At the start of every turn, a burning piece of debris falls from the ceiling and you randomly determine where it lands. Could be on a PC, could be on one of their opponents. Or it could be in front of and barring their only exit - an open window leading to safety. 
+* A rickety, old bridge, which could collapse if too much force was applied to its support beams. The PCs could exploit this to collapse the bridge on purpose. Or their opponents could attempt the same, to put time-pressure on the players. 
+
+#### Social Challenges
+Outside of combat, you can challenge your PCs' with social encounters, opportunities to exercise their skills and pursue their **drivers**. 
+
+Present opportunities for the PCs to learn new things. Present them with tests for skills they don't have. But do so sparingly. It is frustrating for a player to never get to play to their character's strengths. Give players that satisfaction of having *the right skill at the right time*. 
+
+When it comes to skill tests, it is prudent to be wary of *test band-wagon'ing*. When you ask a specific player (or rather, their character) to do a test in a certain skill or attribute and if they fail, another player jumps in and asks, if they can try, consider well how you answer. <br>
+If you allow it, you make the player you first asked feel less special and important. After all, you must have had a good reason why *only their character* could do the test, to begin with. If you found that only that one PC had a chance at even attempting the test, you shouldn't allow other PCs to make the test. 
+
+> A classic example is asking one of your players to test their character's observation. They fail and the other players immediately ask if they can try, as well. If they could, you shouldn't have asked just the one player, but instead asked all of them to begin with. 
+> 
+> But if you think only the one character could have succeeded that test, you shouldn't allow the others to try. 
+
+On the other hand, you should only have such specifically targeted tests, if failure doesn't result in a dead-end for the PCs. Try to aim more towards tests that can result in the players being informed of a potential challenge ahead of time. 
+
+> For example, a sneaky PC might have successfully infiltrated a palace, where they aim to gather intelligence on their political enemies. The **GM** asks them to do a observation test, which they succeed. As a result, the **GM** informs the player, that their character overhears voices from a room next door. 
+> 
+> The PC walks up to the door leading to the other room, and eavedrops. They overhear two men talking about increased patrols and sightings of an intruder. The player decides, based on that information, to leave the palace early, as things are getting too risky for them to stay. 
+> 
+> Had the PC failed their test, the **GM** would have told them to move on. Perhaps even given them a different piece of information, like hearing noises outside the room they're in, but without a clear direction. The player might not think much of it, and decide to stay. That's when the guards walk in and surprise the PC. They can still make their get-away, albeit involving more running in blind panic, than sneaking calmly. 
+
+#### Driver Challenges
+You can both *feed* and *challenge* PCs' **drivers**. Feeding a driver means giving a PC new information or assets that they may use to pursue the driver's goal. Challenging a driver means presenting the character with new information or opponents who contradict the goal - an obstacle to overcome. 
+
+Make sure to regularly feed or challenge **each** PCs' **drivers**. This is important, as it keeps their players interested and attentive. It makes their goals matter and gives them purpose and *direction*, which prevents inactivity and boredom. 
+
+> For example, a PC has an old enemy who they've vowed to take revenge on. While the final confrontation is still a ways away, every once in a while, that PC finds information regarding their enemy. You could feed that PC information on their enemy's current or recent whereabouts and activities. Not enough to give them a trail to follow, but enough to keep them aware and in pursuit of their long-term goal. 
+> 
+> Then, you present them with an opportunity to steal some asset from their enemy. Be it a valuable item, person or political power - something is within reach. This will likely be its own small adventure for the player party to engage with - if they so choose. 
+> 
+> Eventually, some henchmen of the PC's enemy make an appearance. They aim to challenge the player party. This is important - not just the one PC is involved, but **all of them**. This makes the PC's *personal concern*, a *party concern*. 
+> 
+> And so it goes on, with continually more escalating scenarios, which all culminate into the final confrontation, potentially many real-world sessions into the future, when the PC gets to put the final nail in that **ambition**'s coffin - and ***earn*** their [AFP](#ambition-fate-points).
+
+#### Anchor Your PCs Down
+Another resource, is a base of operations. This is a very meaningful and powerful tool, to anchor your PCs to a particular domain. Expect them to want to return to their base of operations regularly. While this *may* narrow the radius of exploration your players are willing to go, it doesn't necessarily have to. What it is guaranteed to do, however, is make your players care about *that space* in the world, in particular. 
+
+Be mindful *where* in the world you give them such a resource, because that is where the players will want to spend a lot of time. Make sure it is a location where quests can easily come to them. Damsels in distress, kings in need and robbed merchants all require a reachable door to knock at. A very remote location might not see a lot of *action* or *visitors*. 
+
+#### Limit & Threaten Resources
+Assets exist to create mechanical challenges. Limit the PC's access to the resources they tend to hoard and dangle the proverbial carrot in front of them to motivate them through greed. 
+
+Although your players could also be clever and find narrative solutions to their lack of *item vaccuuming*. If they can afford one or two carriages with the horses and drivers, perhaps even guards, they should be allowed to transport a lot more stuff around. Within the confines of their solution, of course. Those wagons full of ammunition, medical supplies and spare daggers will have to stay outside the cave/dungeon/ruin/etc. - unless your players can find a solution for that, too. 
+
+Possessions in the form of coin and steel are not the only type of resource you can give your PCs. Keep in mind that servants, hirelings, close friends and family are *also a resource*. PCs can refer to them, when they have need of information, coin or political support. 
+
+Of course, allow players to actually earn their rewards. When well deserved, they should be handed the proverbial carrot. 
+
+Any resource you let a PC have, can be *threatened*. This is a powerful tool to raise tension among your players. Threaten their possessions, family or holdings - all the things they hold dear. 
+
+If you have given them a small castle in a sparsely populated area, make sure to have someone threaten to take away that castle at least (and at most) **once**. By the time that happens, the players should have grown accustomed to having that safe space to return and haul loot to. Suddenly, their top-priority will be protecting that place. 
+
+Once they've fended off the attackers, they'll really start caring about everything that's happening on or near their home turf. This is when wars and rumors become of much greater relevance to your players, as they don't want their assets (which they before took for granted) threatened *again*. 
+
+In order to avoid frustrating your players, you shouldn't threaten their more valuable resources often. Used sparingly, this tool can cause great tension and players scrambling to find a creative solution. But used too frequently, your players might start getting frustrated, because you harm their sense of progression. If they never truly gain anything, why *should* they care if it is threatened? 
+
+#### Allow World-Change
+Have your players change your world. No matter what they do, the PCs' actions are going to leave ripples running through the world. 
+
+If they ruthlessly slaughter a tribe of non-humans, they might inadvertently cause an increased radicalization among the other tribes of those same non-humans. Likewise, if the PCs go around protecting villages against raids, those villages might prosper and the villagers might offer gifts (like a warm meal and bed) to the PCs. 
+
+On the other hand, if the players are actively trying to change a major aspect of the world, like the political structure in a neighboring country, allow it - but make it difficult. The players will have to work a bit to achieve that goal. Not just in terms of time invested, but in terms of creative preparation. 
+
+This is the most powerful way to narratively challenge players. It helps them see your fictional world as *real* and they start thinking about the consequences of their actions more often. This encourages peaceful and creative solutions, where before they might have preferred blunt violence. 
+
+### Keep Them Engaged
+There is nothing worse than getting your players to "clock out" and stop paying attention to your game! This means they're not having fun and may even start wondering why they're even spending time at your table. If that keeps up, they'll inevitably leave. 
+
+To avoid such a fate for your game, you must keep your players *hooked*! Keep them thinking that at any moment, they might get a chance to jump in and contribute just the right question, defuse a conflict or otherwise play out their character's strengths. 
+
+#### Keep That Spotlight On a Swivel
+It is only natural that some of your players may speak up before others. Whether they've simply got a dominant voice or immediately start talking, by doing so they'll probably discourage the others from speaking. 
+
+Once you've identified which of your players tend to remain quiet, make sure **you give them the spotlight** every once in a while. 
+
+Make sure to get a sense of who will **grab the spotlight** and who won't. Sometimes, you may even have to stop someone from grabbing it and instead allow one of the quieter players to act **first**. If the quieter player relinquishes the spotlight, let them. Don't force anyone into a situation they're uncomfortable with! 
+
+Whenever you present your players with a new situation, especially with moments intended to *surprise* them, make sure to ask their characters' reactions! Go through each of your players and ask them, "how does your character react to this?" This allows each of them to play out their character and to breathe *life* into them. 
+
+Also, when a decision must be made, like where the party will go and what they'll do next, make sure to ask **every** player. Nothing is worse than a player character being dragged along, even though their player isn't the least bit interested in the plot hook the others want to follow. By asking everyone, you may expose that some of them may have different plans. The goal then is to find a **compromise**! Do not let the one side of players force their will upon the others! Instead, encourage your players to find a way to motivate each other to follow the plot hook. Encourage them to find some reason or to be persuaded to go along. This way, no player feels left out in the decision-making process. 
+
+Some players may not be interested in talking much. They might simply enjoy participating in your game a bit more passively than the others. However, if they're simply uncomfortable with improvisation, you may give them [Fair Warning](#fair-warning) and let them prepare an answer ahead of time. 
+
+If you have any very passive players, you can still keep them engaged, by providing them other opportunities to shine. A skill test that only their character can even attempt, for example. Still, be observant of their reaction. Are they participating only reluctantly? If so, to re-iterate - don't force them to do anything they're uncomfortable with. Perhaps they're really having a good time just being there, enjoying the social aspect of being at your table, rather than the game itself. And that doesn't have to be a bad thing. If they're having a good time, then your efforts are well spent. 
+
+#### Player Agency
+A very important thing to remember is that **all decisions** are made **by your players**, not *you*. This is understood as "player-agency" - a player's ability to make a meaningful decision, which impacts your world and the story plot, even when in collision with your own expectations or plans. And their ability to dictate their own character's behavior. This may be one of *the most important* pieces of advice contained in this document. Their character, is a player's most valuable possession, at your table. Let them keep it. 
+
+Ask your players, whenever there is a choice to be made, what their decision will be. *They* decide. You may of course make suggestions, based on the information you have given them. Suggestions that would be obvious to their characters, such as avoiding a confrontation that they should know they cannot win. But if the players decide to head into the confrontation regardless of your advice against it, let them. It is their choice to make. 
+
+While it is certainly *work* to keep track of what everyone wants to do, the benefits of that work are significant. Your players are engaged, because they have agency in your world. This is where the beauty of role-playing games shines through. You're telling a story together, where the outcome is uncertain and surprises may happen at any time. 
+
+Of course, there is an exception to every rule. You *can* take player-agency away, but there are conditions for doing so. Firstly, you must make it **absolutely clear** to your players, that for the given situation for a set amount of time, you'll dictate what happens. Secondly, you must have sound reason for dictating what happens. Whatever that reason is, it should be a rare instance, something that only happens as a special occasion. 
+
+Even when a PC is mind-controlled by an enemy, you might still let the player control that character, but with goals that you (i. e. the enemy) dictate. If you trust the player to handle the situation well, playing the new role you have just given them, this can make for a very interesting and fun break from the usual line of thinking they'd subscribed to up to that point. 
+
+For example, there may be times, when for storytelling purposes you may want to narrate something. Perhaps an event far away from the player characters. The term "cut-scene" is applicable. It's a moment when you take over as the narrator and narrate something that happens, that the players couldn't possibly have agency over. You *cut* into the current narrative by injecting another. Whenever doing so is appropriate, depends strongly on the story and your style of game. If done well, this can serve as a tool for world-building (investing your players in your world) and/or tension-building (drama!)
+
+#### Rewards!
+Nothing motivates players (and humans in general) more, than the promise of reward!
+
+If you want your players to be curious about and engage with your world, then reward them for it! When a PC goes poking in ancient ruins seeping with lore, let them find some cool artifact. <br> 
+If you want your players to kill monsters and defeat the "bad guys", reward them for it! Contractual monster-slaying is a classic hook. Money for pest control. 
+
+Exactly how you present the promise of reward is up to you. Whether you hand out cards, in the format of goal - reward, or simply have NPCs that tell your player characters about rewards, will depend on what works best for you and your players. 
+
+When presenting multiple options, avoid overloading your players with *too many* promises of reward. That could lead to analysis paralysis - the inability to prioritise and commit to a goal. This problem is exacerbated by timed rewards - rewards that will expire after a certain amount of time. If too many of those timed rewards exist, your players will find it very difficult to pick one, for fear of losing out on the other ones. 
+
+To re-iterate - **reward behaviors** you wish to **encourage**. 
+
+#### Fair Warning
+Another tool in your bag, is the ability to give a player *fair warning* of something that will come up during the next session. 
+
+This means telling a player well ahead of time that during the next session a situation may crop up in which they'll have to react. 
+
+This is especially effective at allowing those players who're uncomfortable with improvisation to prepare themselves ahead of time. This helps them alleviate the feeling of nervousness and give them space to think. They may even surprise you with the answer they've cooked up! 
+
+When giving such a *heads-up*, try to omit any details. Only give your player a basic prompt to work with. Just how much information the prompt should contain, will be up to you. 
+
+> A prompt for a player could look like the following: "During the next session, an NPC will offer you a position of responsibility. Your character may decline, but their family may suffer a reputation loss as consequence."<br>
+> Omit details about who that NPC is and what the position of responsibility will be. Even the consequences could be omitted. 
+>
+> Hopefully, this gives the player enough time to prepare an answer and a decision. If they require more information, you may of course give it, but try to avoid giving away *too* much about the planned narrative. Surprises should remain surprising, after all! 
+
+### To Rule or Not To Rule
+The rules serve to facilitate the resolution of uncertain outcomes, to add tension and drama and introduce challenges for the players to overcome. 
+
+Obviously, as the **GM**, you have to know the rules well, so that you may make rulings. But you are not expected to know every single rule's details off the top of your head. You may have to look up rules, as you need them. 
+
+When looking up rules, limit the time you take. If you take too long, players start getting bored and lose interest. If you cannot find the rule you're looking for quickly, skip the process and instead make a ruling, to the best of your knowledge and understanding of the situation at hand. This ensures you keep the game's pacing. A solid, fluent pace ensures your players stay interested. 
+
+Rules *discussions* are best kept for after the game. When a player tries to argue a ruling, they're violating the unspoken social contract and are harming the game's pacing. It should be wise to move such discussions to a later point in time. But of course, there is an exception. When you find there is a rule of **STRIVE**, which really doesn't work out in the given situation, that's when you may need to consult your players to figure out how you'll house-rule it. Such breaks in play may not always be avoidable. Make sure to write down your house-rule, so that you may look it up quickly, the next time you encounter a similar situation. 
+
+## Ending the Session
+Finally, before parting ways, you and your players should stick around for some wind-down steps. 
+
+### Hand Out Fate Points
+You end every session by nominating players for [fate points](#fate-points) they earned during play. Players should also nominate and vote for each other. Whether someone gets their **FP** is based on majority vote. 
+
+If you're short on time and have to end the session without voting for [fate points](#fate-points), make sure to do so at the start of the next session!
+
+### Gather Feedback
+While entirely up to you, it is always a good idea to gather feedback from your players. 
+
+You could ask them the following:
+* What was your favorite moment of today's session?
+* What was your least favorite moment of today's session?
+* Was the balance of combat vs. role-play to your liking?
+* (If there was NPC-interaction) What was your favorite NPC interaction today?
+  * Take note - that is an NPC you could *threaten* later, and have players *care*. 
+
+## Introducing New Player Characters
+There may be times when a new player joins your game or a long-term player wants to switch to a new character. When this happens, you will have to help the player design their character and then introduce them narratively. 
+
+A concern regarding new PCs is that a new character may lack much of the experience and mechanical development of their older peers. In other words, their Attribute and Skill levels will likely seem low by comparison. You may compensate for this, by granting the player more points to assign on Attributes and Skill levels. To find the right number, you could pick the average or median sum of the total levels of the older PCs. If you dislike this option, you may simply hand out XP as you see fit, or instead of higher numbers for character creation, you could give that character free learning boosts, which could get them up to the same power-level faster. 
+
+Once appropriate numbers have been assigned, the new character needs to be introduced to the group. This is all your job. There is no mechanical or rule supporting this procedure, as it is also a matter of personal taste. Some GMs dislike long introductions and instead simply throw the new PC in the group, ready to go on adventures with them right away. On the other hand, such an unceremonious act may seem boring and could be replaced with an inciting incident that gets that new PC to join them, with introductions played out in person. 
+
+# NPC Builder
+A Module may provide you with some pre-defined NPCs to work with, but you will most likely have to, and perhaps desire to, invent your own, too. This chapter aims to provide a step-by-step process for NPC creation, based on several parameters that you get to pick from. 
+
+Every choice you make, will affect a creature's [Challenge Rating (CR)](#challenge-rating-cr), which serves as a **broad abstraction** of how challenging to deal with it will be. Note that when preparing a combat encounter, more than just the sum of the opponents' CR values will be a factor. For more on this, see the chapter [Enounter Builder](#combat-encounter-builder). Even when you assign weaknesses, CR cannot be less than `1`. 
+
+First, you must decide whether you need a **person**, an **animal** or a **monster**. A reminder from the [NPC](#non-player-characters-npcs) chapter:
+
+* **People**: These are sentient, sapient and civilized folk, who can be reasoned with and interacted with on the same level as the PCs. See them as you do real people. There are no rules or mechanics dictating how they should behave, but they are *expected* to engage with the PCs and to react to the PCs' actions. 
+* **Animals**: Sentient, but not sapient, these are creatures driven by animalistic instinct. They are neither inherently evil, nor good, and mostly care only about their base needs. Think: wolves, bears, dogs and the like. But these may also be fantastical creatures, such as dragons, gryphons, space-whales and so on. 
+* **Monsters**: Possibly sentient and/or sapient, these creatures can be of natural or unnatural origin and are usually irredeemably evil and destructive. Examples might be demons from an abyssal plane of existence, undead, constructs, robots and such. These are natural antagonists of the PCs and their origin cultures. 
+
+Secondly, you must choose a **power-level**: 
+
+* **Feeble**: Start with `10` points and a CR of `1`. A feeble creature is cannon-fodder, a minion that serves as faceless padding around a bigger villain. It always has **`10` maximum HP**, regardless of its Toughness level or other Traits. This makes it easy to eliminate and allows the PCs to feel heroic, for example by cutting a path through a horde of lesser zombies. 
+* **Regular**: Start with `15` points and a CR of `2`. A regular creature has no particular advantages or disadvantages. Often times, two or three of these will be enough to occupy a PC group for a while. Also expect most people NPCs to be regular creatures. 
+* **Elite**: Start with `20` points and a CR of `3`. An elite is highly trained or naturally talented. Just one of these may suffice to challenge a PC group. When coupled with other NPCs, this one should probably assume a supporting or leading role and instead of engaging the PCs to the same extent as its minions, hangs back a bit, to ensure it won't overwhelm the PCs. 
+* **Legendary**: Start with `30` points and a CR of `4`. A legendary creature is expected to be a boss encounter, which can easily challenge the entire PC group on its own. Be careful not to design it as too powerful. Instead, for an epic boss fight, split up its abilities into two or three stages. 
+
+The next steps after this are to pick a combat role, traits, Attributes and Skills. 
+
+## Combat Roles
+A creature's role informs you about how to best employ it in a combat encounter. When used within their role, they will perform better and be a more challenging foe. You can also purposefully use a creature contra to their role, to make them easier to deal with. 
+
+* **Ambusher**: Surprises foes, striking from stealth and tries to flank. Stays in the back-line or at their enemies' flanks. 
+* **Artillery**: A back-liner who prefers to rain damage upon foes from afar. Usually very weak in melee. 
+* **Brawler**: A front-liner that can hold their own, but relies on allies to finish the job. A solid middle-ground between Tank and Shock-Trooper. 
+* **Commander**: A leader that lesser allies will rally around. Can improve their allies capabilities and will direct them to improve their efficacy. 
+* **Disruptor**: Disturbs enemy formations, by force moving foes around or inserting themself into an enemy formation. 
+* **Guardian**: Protects allies. 
+* **Multiplier**: May create copies of itself or another type of creature, as a means of reinforcing its own side of the conflict. 
+* **Sentry**: Observant and often stands guard. Willy call for aid, as soon as it notices anything out of the ordinary. 
+* **Shock-Trooper**: Deals lots of damage, preferring to flank enemies. Doesn't usually survive much damage. 
+* **Supporter**: Improves the capabilities of their allies and/or weakens foes. 
+* **Tank**: Draws attention to itself and can survive a lot of punishment. Prefers the front-line. Tends to deal little damage, but may be good at disrupting enemy formations, for example by moving opponents around a lot. 
+* **Trapper**: Lays traps and prepares the battlefield in advance or manipulates it during combat. 
+
+You may assign as many or as few roles to a creature as you like, but you should be careful to only assign those that make sense. You may begin by choosing a role and building around that or start from the opposite direction and first design Skills, pick Traits and only when finished assign fitting roles. 
+
+## Traits
+When choosing Traits from the lists below, keep in mind all of them are really just suggestions, to quickly get you started designing your own creatures. Once you get a feel for the numbers, for what *feels* like a balanced creature, you can easily expand the lists with your own Traits. In fact, you don't need to use the point-buy-system, at all, if you have experience in creature design.
+
+Ultimately, what makes a creature *balanced* in terms of power and ability, so that it can reasonable be defeated, is to always give it some significant weakness. A creature that can easily deal lots of damage should be pretty weak itself, forcing it to take a cautious approach. A creature that can survive a lot of damage without batting an eye should probably not deal much damage itself. If you combine such strengths, make sure to give it some other weakness, like tying its ability to act to an environmental effect that triggers only once every other round or to another NPC which controls it. Perhaps its strength is only temporary or only effective when supported by allies. There are many ways in which a creature can have significant weaknesses for the PCs to find and exploit, which will please their players when they do. 
+
+However, you are not limited to creating balanced creatures. You can also design deliberately *unfair* creatures, who are god-like in their powers. But if you do, be aware that the PCs should probably not be allowed to try and fight such a being. Or if you do allow them to try, have the creature put a "gentle" stop to it, like a parent scolding their child. Or perhaps the god-creature is so powerful it simply needn't care about what the PCs do, anyway. Such a being should likely result in a narrative challenge, rather than a combat one. This could also be the villain of the campaign, who starts off unfairly strong, but as the PCs progress through the campaign, they destroy the villain's sources of power and eliminate their allies, causing the villain to weaken and finally become defeatable. 
+
+### Mobility Traits
+These Traits can change up how a creature may engage the PCs, may allow them to circumvent hazards, quickly flee an encounter or reposition around the PCs. 
+
+#### Burrower (-2 points; +2 CR)
+The creature can burrow, moving up to `6'/2m`, at a depth of up to `9'/3m`, per AP spent. While burrowed, it cannot be targeted or make attacks. 
+
+`-N` points: Can burrow an additional `N * 6'/2m`, per AP spent. 
+
+#### Climber (-2 points; +1 CR)
+The creature is a natural climber, and can move at full speed while climbing, without tests required. But this only applies to easily climbable surfaces that provide some actual grip, like a tree's bark, a rough cliff face or rope. It cannot climb perfectly flat surfaces or 
+
+`-1` point: **Sticky**: The creature can cling to any surface, without restriction. 
+
+#### Fast (-2 points; +1 CR)
+This creature moves an additional `6'/2m`, per AP spent. Exclusive with [Shambler](#shambler-2-points). 
+
+`-N` points: Can move an additional `N * 3'/1m` per AP spent. 
+
+#### Glider (-1 points; +1 CR)
+The creature can glide, but only from higher to lower elevation. 
+
+`-1` point: **Floater**: Can also hover in mid-air. 
+
+`-3` point: **Flyer**: Can move at full speed mid-air, as far and as long as it wants and at any elevation. 
+
+#### Leaper (-3 points; +2 CR)
+The creature can jump up to `18'/6m` far, in a high arc, without provoking [Attacks of Opportunity](./strive-core.md#opportunity-attacks), over the heads of its foes. This causes `+1` Exhaustion to the creature. 
+
+`-2` points: **Dervish**: When leaping over opponents, this creature may also launch free attacks against each of them, but with **Ob** `+1`.
+
+#### Swimmer (-1 point; +1 CR)
+The creature is at home in the water. They can move at full speed while swimming, without tests required. Exclusive with [Drowner](#swimming-averse-1-point)
+
+`-1` point: **Aquatic**: The creature can breathe underwater. 
+
+`-1` point: In one massive burst of energy, the creature may lunge out of the water, travelling up to `30'/10m`. 
+
+### Defensive Traits
+These Traits help a creature survive longer or at least deter certain forms of attack against it. 
+
+#### Armored (-2 points; +3 CR)
+The creature is naturally armored. You can spend up to `8` points on a damage type it protects against. Cannot be armored against a damage type it is also [Vulnerable](#vulnerable-2-points) against. 
+
+`-N` points: **Heavily Armored**: You can spend an additional `N * 4` points on damage protections. 
+
+#### Camouflage (-3 points; +3 CR)
+The creature can become invisible, even in plain sight, at the cost of `3` AP. It will stay invisible for as long as it takes no offensive action. It can be detected with a successful [Observation](./strive-core.md#observation-awarawar) or [Path-Finding](./strive-core.md#path-finding-awarwit) test, at **Ob** `3`. 
+
+#### Danger Blood (-1 point; +1 CR)
+When injured, strange-colored blood squirts out of the wound, causing `1D6` acid/poison/burning/freezing (choose one) damage to all other, adjacent creatures. 
+
+#### Danger-Touch (-3 points; +2 CR)
+All melee attackers against this creature suffer `6` points of a chosen type of damage, even if they miss. 
+
+#### Death Rattle (-2 points; +2 CR)
+Upon dying, the creature can invoke one of the following effects (you must choose one now):
+* Explode: Cause damage to all adjacent creatures. Choose one: `2D6 + 2 Slashing`, `2D6 Piercing`, or `2D4` of any other damage type. 
+* Terrifying Screech: All foes in a `30'/10m` radius around the creature must succeed a [Self-Control](./strive-core.md#self-control-toughtough) test at Ob `3`, or else become [Terrified](strive-core.md#terrified) for one round. 
+* Reprisal: Move up to `24'/8m` and launch a final, desperate and free attack against a foe, with **Ob** `-1`. 
+
+#### Fortified Mind (-4 points; +1 CR)
+The creature cannot be [Terrified](./strive-core.md#terrified), [Berserked](./strive-core.md#berserk), made [Jealous](./strive-core.md#jealous) or [Pacified](./strive-core.md#pacified). 
+
+#### Immovable (-2 points; +1 CR)
+This creature cannot be [Force-Moved](strive-core.md#forced-movement). 
+
+#### Insurmountable (-4 points; +3 CR)
+This creature does not suffer [Flanking](strive-core.md#flanking). 
+
+#### Unstoppable (-2 points; +1 CR)
+The creature cannot be stopped by [Opportunity Attacks](strive-core.md#opportunity-attacks). 
+
+#### Unstunnable (-3 points; +1 CR)
+The creature cannot be [Stunned](strive-core.md#stunned). 
+
+#### Regenerator (-5 points; +3 CR)
+At the start of its turn, the creature regains `6` HP.
+
+### Offensive Traits
+A creature can make use of these Traits when it attacks. 
+
+#### Cannot Miss (-3 points; +3 CR)
+Even when this creature misses with a damage-causing attack, it will always deal `4` points of the attack's primary damage, anyway. If the creature does succeed in attacking, this Trait does not trigger.
+
+`-3` points: **Precise**: Always deals `8` points of damage, instead.
+
+#### Disease-Ridden (-1 point; +1 CR)
+Any damage this creature deals on another that can contract diseases, will force a test to resist disease from that creature. The victim must succeed a Toughness test at **Ob** equal to half their Toughness, rounded up, or else suffer a random Illness. 
+
+Suitable for: Any type of undead, rats and swamp creatures.
+
+#### Forceful (-2 points; +1 CR)
+Attacks that cause forced movement, have increased moving-distance by `6'/2m`. 
+
+#### Poisoner (-4 points; +2 CR)
+Successful attacks deal an additional `6` points of poison damage. 
+
+### Weakness Traits
+These Traits grant a creature weaknesses that make it easier to defeat. 
+
+#### Drowner (+1 point; -1 CR)
+If thrown in the water, the creature will drop like a rock. If it can drown, it will, unless rescued from such a horrible demise. Exclusive with [Swimmer](#swimmer--2-points)
+
+#### Light-weight (+2 points; -1 CR)
+The creature is easier to force move and can be pushed an additional `6'/2m` per instance of being moved. 
+
+#### Shambler (+2 points; -2 CR)
+The creature lacks finer motor skill and can move at most `6'/2m` per AP spent. Exclusive with [Fast](#fast--2-points). 
+
+Suitable for: Zombies, heavy robots, primitive armored vehicles (e.g. very early tanks)
+
+#### Sluggish (+4 points; -2 CR)
+The creature is slow to think, move and act. It starts its turn with only `+2` AP, instead of the default. Exclusive with [Hyperactive](#hyperactive--7-points). 
+
+Suitable for: Creatures you wish to employ en masse, such as zombies, or powerful creatures whose action economy you wish to limit
+
+#### Vulnerable (+2 points; -1 CR)
+The creature is especially susceptible to a specific type of damage, and will suffer an additional `6` points thereof, whenever it is suffered. Whatever damage type it is vulnerable to, it cannot be [Armored](#armored--2-points) against. 
+
+`+N` points: It is vulnerable to `N` additional types of damage. 
+
+### Legendary Traits
+These are very powerful Traits that should be reserved for special creatures who should pose a considerable challenge. 
+
+#### Gritty (-5 points; +4 CR)
+This creature starts with and can use `5` [Grit Points](./strive-core.md#grit-points), and regains `+1` Grit Point at the start of its turn. 
+
+#### Hyperactive (-7 points; +4 CR)
+This creature regains `+5` AP per turn, instead of the default. Exclusive with [Sluggish](#sluggish-4-points). 
+
+`-3` points: **Disruptive**: Gets to act once after every foe's turn and regains `1` AP each time.
+`-3` points: **Multi-Initiative**: Gets to act twice in a round. The second initiative roll's result must be halved (rounded down). 
+
+Suitable for: Elites and boss enemies who typically face many enemies at once. This balances out the action economy. 
+
+#### Inexorable (-5 points; +4 CR)
+This creature cannot gain [Exhaustion](./strive-core.md#exhaustion) through its own actions (i. e. sprinting, Skills or Expertises). 
+
+Suitable for: Creatures that would *break* and be uninteresting to deal with, if they tired. Zombies, for example. But this can only be Suitable for particularly tough foes, especially if they make heavy use of Exhaustion causing abilities. 
+
+#### Moon Affinity (-7 points; +4 CR)
+When basking in a full moon, the creature regains `6` HP at the start of its turn. 
+When basking in a full moon, all attacks deal an additional `8` points of Slashing damage.
+
+Gain the ability: **Moon Step**: At the cost of `1` AP, the creature can vanish into the moon light and re-appear in a spot also basked in moon light, up to `45'/15m` away. It does not need line of sight to that spot. 
+
+Suitable for: Creatures of the night, such as werewolves, vampires and ghosts. 
+
+## Choosing NPC Characteristics
+* You may increase each Attribute `+1` at the cost of `-1` point. 
+* You may increase Stability, Defense or Free Strike `+1` at the cost of `-2` points. 
+
+## Choosing NPC Skills
+Custom Skills are that which brings the spice to every NPC and you are free to build them however you like, but keep the following guidelines in mind:
+* A regular combat Skill should deal at most `1D8` points of damage per damage type and should at most deal two types of damage. If you decide it needs to deal higher damage, it should probably have a higher AP cost. 
+* AP costs for attacks should be at least `2`. Supporting Skills may only cost `1` AP or even be free, if some other limitation applies. 
+* A Feeble and Regular creature should at most have `2` main Skills. These creatures should be easy and quick to run, so overburdening them with Skills will counteract this goal. 
+
+Every Skill you add costs `-1` point and adds `+1` CR. 
+
+For people, you may simply give them Skills from the same lists as are available to the PCs. When choosing Skills to add to a NPC, you needn't add every single Skill they could potentially use at some point. You only need to give them those Skills that form their core strengths. The more Skills you add, the harder to manage a NPC becomes. 
+
+Every Skill should be at least level `2`. Increase the CR by half the Skill's level (RU). 
+
+### Bite (Agi/Str)
+Bite a target for `1D4 + Strength` points of piercing damage.
+
+### Create Sticky Surface (Tough/Tough)
+Create a sticky, adhesive surface within hand's reach. This surface now counts as [Difficult Terrain](strive-core.md#combat-movement). Objects can also be stuck to this surface and require `2` AP to break loose.
+
+### Charge (Str/Tough)
+Run at a target, up to `12'/4m` away and slam into them with your body, dealing `Toughness` points of damage and knocking your opponent back by `Strength * 3'/1m`. 
+
+### Obscure Vision (Awar/Tough)
+Kick up dust, spray a cloud of ink or spew spores that heavily obscure vision, in a `9'/3m` radius around you. All ranged attacks within or through the area suffer `+2` Ob. 
+
+## Hostility Actions
+PCs have access to [Momentum Actions](strive-core.md#momentum) and earn or lose Momentum with the tides in combat. But you as the GM earn **Hostility**, regardless of how the combat is going. At the start of every **combat round**, you earn `1`, plus the number of PCs and their allies in the encounter. 
+
+> Given `3` PCs and one ally, you earn `3 (number of PCs) + 1 (number of allies) + 1 (always) = 5` Hostility at the start of every round. 
+
+Hostility can be spent on powerful special abilities, called **Hostility Actions**, that certain NPCs may have access to. These abilities will allow you to spice up combat, by throwing surprises at or putting pressure on the PCs (and by extension their players). Note that just like Momentum Actions, Hostility Actions can be activated **whenever appropriate**, even when it's currently another creature's turn. 
+
+Unlike Momentum, **Hostility is not lost** when a combat encounter ends. It simply keeps building up, until you deem the time is right to spend. Of course, with such great power comes great responsibility, as you may have guessed. There may be times when it might be easy to overwhelm the PCs through the use of Hostility Actions. Just because you could spend the Hostility, doesn't mean you should. After all, your job is to keep combat interesting, not to outright kill the PCs. If the PCs have their hands full already, then there should be no need to spend Hostility. 
+
+As Hostility Actions can really mix up combat, it would be wise to refrain from employing too many creatures with such abilities. These should be reserved for elite and legendary creatures. Although you could also break this expectation and explicitly give a regular or even feeble creature a Hostility Action. But always keep in mind that every creature with a Hostility Action is another level of complexity to the combat encounter. This causes more work for you and more things to keep track of for everyone. Used sparingly and effectively, Hostility Actions can elicit gasps of surprise from your players, ensuring a memorable encounter!
+
+### Advance! (-4 points; +2 CR)
+**`-3` Hostility**: The creature and up to `3` of its allies may immediately and freely move up to `15'/5m` far. These movements may provoke [Opportunity Attacks](./strive-core.md#opportunity-attacks)!
+
+### Collect Bounty (-4 points; +3 CR)
+**`-5` Hostility**: The creature moves up to `45'/15m` and makes an immediate and free attack against a chosen foe. Until the end of combat, or until a new victim is chosen with this ability, that foe is [Marked](strive-core.md#marked)!
+
+### Get Off Me! (-5 points; +3 CR)
+**`-5` Hostility**: The creature pushes back all other, adjacent creatures by `9'/3m`. 
+
+### Resonance Cascade (-4 points; +2 CR)
+**`-5` Hostility**: The creature and its allies begin to hum or thrum in the same cadence, as if one, with dizzying intensity. All other creatures, within a distance of `30'/10m` to any of the resonating ones, lose `-1` AP!
+
+Suitable for: Any creature that could reasonably emit such a thrumming sound, such as bats, frogs or machines
+
+### Slip Away (-5 points; +3 CR)
+**`-5` Hostility**: When a foe moves into a space adjacent to this creature, as a **reaction**, it may immediately move away, for up to `10'/5m`, without provoking [Opportunity Attacks](strive-core.md#opportunity-attacks)!
+
+### Seething Hatred (-5 points; +2 CR)
+**`-8` Hostility**: The creature immediately becomes [Berserked](strive-core.md#berserk) and deals an additional `5` points of bludgeoning damage on all their attacks, until the end of the round. 
+
+### Sinkhole (-8 points; +2 CR)
+**`-8` Hostility**: The ground gives and in a `30'/10m` radius around the creature, drops by `15'/5m`. All creatures with `Stability < 2` are covered by earth, become [Prone](strive-core.md#prone) and suffer `6` points of bludgeoning damage. All creatures with `Stability < 4` become [Prone](strive-core.md#prone). 
+
+### Trap Storm (-4 points; +3 CR)
+**`-8` Hostility**: The creature throws or lays or spews forth `3` traps, up to `30'/10m` far, that now litter the battlefield. Each of these will deal `1D6 + 2` points of damage. The damage type should be chosen according to the nature of the traps. E. g. piercing for bear traps, acid for pools of acid, burning for bombs and so on. 
+
+### I Don't Bleed (-5 points; +4 CR)
+**`-10` Hostility**: Immediately clears all points of [Bleeding](./strive-core.md#bleeding), [Burning](./strive-core.md#burning) and [Frostbitten](strive-core.md#frostbitten) and awards `+10` Temporary HP. 
+
+### No, I Am The Hero! (-10 points; +6 CR)
+**`-20` Hostility**: Immediately after the PCs have activated a [Heroic Act](./strive-core.md#momentum), this creature activates it again, but for itself and its allies, instead of the PCs!
+
+Suitable for: Legendary villains
+
+# Combat Encounter Builder
+Preparing a combat encounter is not a simple matter, though it will get easier, as your *sense* for the *right* amount of challenge develops. This chapter aims to get you started down that road. 
+
+Before deciding on the battlefield, the types and number of foes, you should assess your PCs' strength, which is represented by the so-called **Encounter Safety (ES)**. 
+
+To **determine ES**, starting at `0`: 
+* For every PC, and each of their allies, increase the ES by `+2`.
+  * Ally [Squads](#npc-squads) are only counted as a whole, not every member individually.
+* For every combat-oriented Skill of the PCs that is at least at level `3`, increase ES by `+1`. 
+
+Once you have the ES, you have a broad idea of what the PCs' capabilities are. Note that even a "safe" encounter may turn deadly for the PCs. The reasons for this may be numerous and complex. Causes could be NPCs or battlefield hazards that effectively exploit the PCs' weaknesses, players feeling tired or generally not very tactically minded, whether you employ the [Momentum](#momentum) rules or just plain unlucky dice rolls. The rating does not and cannot account for these factors, as they are not predictable. 
+
+While not an exact science, the following guideline aims to aid you in deciding on the right difficulty sweet-spot, which is represented as the so-called **Encounter Rating (ER)**. 
+
+To **decide ER**, starting at `0`:
+* Decide on the battlefield. For every feature that will likely hinder the PCs, increase ER by `+1`. For any feature that will likely aid the PCs, decrease the ER by `-1`. 
+  * Does it have difficult to reach spaces or difficult terrain? 
+  * Are there hazards that cause damage? 
+  * Are there choke-points? Such as tight corridors or easy to hold doorways?
+* Will there be objectives besides defeating all enemies? How easy to complete will they be?
+  * Examples might be: escorting someone or something to safety, holding a certain location for a certain time, destroying to disabling a machine under time pressure, capture someone or something before it gets away, and so on.
+  * For every objective, increase ER by `+3`. 
+* Questions on armor:
+  * Do the enemies have armor that the PCs cannot easily circumvent? Increase ER by `+2`. 
+  * Do the PCs have armor that will likely prove effective? Decrease ER by `-1`. 
+* Do the PCs have Traits that will help them in the encounter? Decrease ER by `-1`. 
+* Once all the previous questions have been answered, you may add NPCs. Each you add increases the ER by their [Challenge Rating](#challenge-rating-cr) - yet another number to juggle. Think of the CR the same way as the ER, but for an individual NPC, instead of the whole encounter. 
+
+In the end, the ER should be balanced against the ES. The higher the ER, the more challenging the scenario will likely be. An easier encounter should have an ER lower than the ES, while for a more challenging encounter, the ER should be higher. 
+
+Both the ES and ER are a clinical approach to immeasurable and unpredictable circumstances. They are an imperfect translation of what challenge your players and their PCs will face. But even so, they may help you develop a *sense* for an appropriate challenge, especially once you know your players and how they play. 

@@ -17,7 +17,9 @@ There is a [compendium document](./strive-fantasy-game-masters-resource.md) rese
 # Table of Contents
 - [Introduction](#introduction)
 - [Table of Contents](#table-of-contents)
+- [Glossary](#glossary)
 - [Credits](#credits)
+- [License](#license)
 - [Character](#character)
   - [Attributes](#attributes)
     - [Arcana \[Arc\]](#arcana-arc)
@@ -130,12 +132,47 @@ There is a [compendium document](./strive-fantasy-game-masters-resource.md) rese
     - [Telekinesis (Arc/Agi)](#telekinesis-arcagi)
     - [Telepathy (Arc/Wit)](#telepathy-arcwit)
   - [List of Illnesses](#list-of-illnesses)
-- [Glossary](#glossary)
+- [Fantasy Game-Masters Resource](#fantasy-game-masters-resource)
+- [Creature Compendium](#creature-compendium)
+  - [Swine-Beasts](#swine-beasts)
+    - [Swine Hostility](#swine-hostility)
+      - [Demonic Blood](#demonic-blood)
+      - [Filth \& Darkness](#filth--darkness)
+    - [Swine Belcher](#swine-belcher)
+    - [Swine Champion](#swine-champion)
+    - [Swine Lunger](#swine-lunger)
+    - [Swine Ogre](#swine-ogre)
+    - [Swine Shaman](#swine-shaman)
+    - [Swine Skewerer](#swine-skewerer)
+    - [Swine Slasher](#swine-slasher)
+    - [Swine Stomper](#swine-stomper)
+  - [Veil Entities](#veil-entities)
+    - [The Monolith](#the-monolith)
+    - [Perfection](#perfection)
+    - [The Tar Mycelium](#the-tar-mycelium)
+    - [Cacophony of Flesh](#cacophony-of-flesh)
+    - [The Puppeteer](#the-puppeteer)
+  - [Undead](#undead)
+    - [Alp](#alp)
+  - [Void Demons](#void-demons)
+    - [Void Stalker](#void-stalker)
+
+# Glossary
+
+| Term                                         | Meaning / Description  |
+| -------------------------------------------- | ---------------------- |
+| [Arc](#arcana-arc)                           | The Arcana attribute   |
+| [OPN](#psionics-arcwit)                      | Openness to [The Veil](#the-veil) |
+| [SI](#spell-intensity-si)                    | Spell Intensity        |
 
 # Credits
 **Designer**: Nicolas 'Krubi' H.
 
 My two small, yet inexorable groups of playtesters, whose feedback has been invaluable, without whom this game would not be any where near where it is now and who keep me motivated!
+
+# License
+This official STRIVE Fantasy Module is licensed unter the same license as the STRIVE Core rules, which can be found at the following link. 
+* https://github.com/CodeWringer/strive-ttrpg/blob/develop/documents/en/strive-core.md#license
 
 # Character
 New in this module, is the attribute [arcana](#arcana-arc), which governs a character's capacity for magic. 
@@ -651,10 +688,10 @@ For all attacks made with a dagger, the following rules apply:
 
 | Level | Name                 | AP | **Ob**      | Damage                           | Notes  |
 | ----- | -------------------- | -- | ----------- | -------------------------------- | ------ |
-| 0     | Slash                | 2  | Opposed     | `1D6 + Agi` Slashing             | / |
-| 0     | Stab                 | 2  | Opposed     | `1D10 + Agi` Piercing            | / |
-| 0     | Artery Cut           | 2  | Opposed + 1 | `2D6` Slashing                   | +2 [bleeding](./strive-core.md#bleeding) to the target (if it can bleed).  |
-| 0     | Target Weak-Spot     | 2  | Opposed + 2 | `2D6 + Agi` Pure                 | / |
+| 0     | Slash                | 2  | Opposed     | `1D4 + Agi` Slashing             | / |
+| 0     | Stab                 | 2  | Opposed     | `1D6 + Agi` Piercing             | / |
+| 0     | Artery Cut           | 2  | Opposed + 1 | `1D6 + Agi` Slashing             | +2 [bleeding](./strive-core.md#bleeding) to the target (if it can bleed).  |
+| 0     | Target Weak-Spot     | 2  | Opposed + 2 | `1D8 + Agi` Pure                 | / |
 
 #### Light Blade (Agi/Str)
 Any light blade. Most commonly (but not restricted to) one-handed weapons. Examples: short-sword, Langes Messer, arming sword, falchion, saber
@@ -665,8 +702,8 @@ Any light blade. Most commonly (but not restricted to) one-handed weapons. Examp
 
 | Level | Name                 | AP | **Ob**      | Damage                           | Notes  |
 | ----- | -------------------- | -- | ----------- | -------------------------------- | ------ |
-| 0     | Slash                | 2  | Opposed     | `2D6 + Str` Slashing             | / |
-| 0     | Stab                 | 2  | Opposed     | `1D8 + Agi` Piercing             | / |
+| 0     | Slash                | 2  | Opposed     | `1D6 + 2 + Str` Slashing             | / |
+| 0     | Stab                 | 2  | Opposed     | `1D4 + 2 + Agi` Piercing             | / |
 | 0     | Grappling Feint      | 2  | Opposed - 1 | /                                | Attack with a feint, immediately close the distance and [grapple](./strive-core.md#grappled) your opponent. |
 
 #### Long Blade (Agi/Str)
@@ -677,10 +714,10 @@ Any long and heavier blade, including heavy one-handed blades. Examples: longswo
 
 | Level | Name                 | AP | **Ob**      | Damage                           | Notes  |
 | ----- | -------------------- | -- | ----------- | -------------------------------- | ------ |
-| 0     | Slash                | 2  | Opposed     | `2D8 + Str` Slashing             | / |
-| 0     | Stab                 | 2  | Opposed     | `2D6 + Agi` Piercing             | / |
-| 2     | Mord-Strike          | 2  | Opposed     | `1D8 + Str` Bludgeoning          | / |
-| 3     | Fencer-Stance        | 2  | /           | /                                | Enter a defensive fencing stance. Gain `+1D` for melee defense and can [counter-attack](./strive-core.md#defense-stunts) **every** attack, until the start of your next turn. |
+| 0     | Slash                | 2  | Opposed     | `1D8 + Str` Slashing             | / |
+| 0     | Stab                 | 2  | Opposed     | `1D6 + Agi` Piercing             | / |
+| 2     | Mord-Strike          | 2  | Opposed     | `1D6 + Str` Bludgeoning          | / |
+| 3     | Fencer-Stance        | 3  | /           | /                                | Enter a defensive fencing stance. Gain `+1D` for melee defense and can [counter-attack](./strive-core.md#defense-stunts) **every** attack, until the start of your next turn, at no additional AP cost. |
 
 #### Great Blade (Str/Tough)
 Any very long and heavy two-handed blade. Examples: great-sword, sword of war, great-saber
@@ -691,10 +728,10 @@ Any very long and heavy two-handed blade. Examples: great-sword, sword of war, g
 
 | Level | Name                 | AP | **Ob**      | Damage                           | Notes  |
 | ----- | -------------------- | -- | ----------- | -------------------------------- | ------ |
-| 0     | Slash                | 2  | Opposed     | `2D10 + Str` Slashing            | / |
-| 0     | Stab                 | 2  | Opposed     | `2D8 + Agi` Piercing             | / |
+| 0     | Slash                | 2  | Opposed     | `2D6 + Str` Slashing             | / |
+| 0     | Stab                 | 2  | Opposed     | `1D8 + Agi` Piercing             | / |
 | 2     | Blade Barrier        | 2  | Opposed     | /                                | Whenever any character moves **into** a spot within reach, can attack that character with a **slash** at `Ob + 1` and always force them back `3'/1m`, until the start of your next turn. These attacks do not cost any additional **AP**. |
-| 3     | Heavy Blow           | 3  | Opposed + 2 | `3D8` Slashing                   | Defending against this attack costs 2 [AP](./strive-core.md#action-points-ap). |
+| 3     | Heavy Blow           | 3  | Opposed + 2 | `1D6` Slashing + `Strength` Bludgeoning | Defending against this attack costs 2 [AP](./strive-core.md#action-points-ap). Causes `+1` Exhaustion to self. If successful, the target is knocked Prone. |
 
 #### Chained-Blade (Agi)
 A down-angled, weighted blade, with a spike forwards, perfect for throwing and connected to a very light chain or rope, for easy retrieval. 
@@ -710,13 +747,12 @@ Requires knowing [Acrobatics](#acrobatics-agistr) and another bladed [weapon ski
 
 | Level | Name                 | AP | **Ob**      | Max. Distance       | Damage                           | Notes  |
 | ----- | -------------------- | -- | ----------- | ------------------- | -------------------------------- | ------ |
-| 0     | Curved Toss          | 2  | Opposed     | 24'/8m              | `2D6 + Agi` Slashing    | Throw the weapon just past a target and then with a flick, make it jump at their back and upon impact, immediately retrieve it. |
-| 0     | Slash                | 2  | Opposed     | 3'/1m               | `1D6 + Str` Slashing    | Slash at an adjacent **ST**. |
-| 0     | Stab                 | 2  | Opposed     | 3'/1m               | `1D4 + Agi` Piercing    | Stab at an adjacent **ST**. |
-| 0     | Whip                 | 2  | Opposed     | 24'/8m              | `1D6 + Str` Bludgeoning | Swing the chain at a target and whip it with it, then immediately retrieve it. |
-| 1     | Come Closer          | 2  | Opposed     | 24'/8m              | `2D4 + Agi` Slashing    | Throw the weapon just past a target and then yank it back, catching them with it and pulling them `9'/3m` closer to you. If the target is much larger and/or heavier than you, then you may pull *yourself* closer to them, for the same distance. Then immediately retrieve your weapon. |
-| 1     | Leg Sweep            | 2  | Opposed     | 24'/8m              | `2D4 + Agi` Slashing    | Swing the weapon at length and low, to sweep for an opponent's legs. Upon impact, yank the chain to sweep them off their feet, rendering them [prone](./strive-core.md#prone) and then immediately retrieve your weapon. |
-| 1     | Think Twice          | 1  | /           | 24'/8m              | `1D4 + Agi` Piercing    | **Reaction**: Upon one of your allies attacking an enemy, you also throw your weapon straight at that enemy. Your ally's attack is `-1` Ob easier as the enemy is confused by the two simultaneous attacks! Your attack does **not** cost the enemy any additional AP to defend and is successful only if your ally's attack is successful. Upon impact, immediately retrieve your weapon. |
+| 0     | Curved Toss          | 2  | Opposed     | 24'/8m              | `1D6 + Agi` Slashing    | Throw the weapon just past a target and then with a flick, make it jump at their back and upon impact, immediately retrieve it. |
+| 0     | Slash                | 2  | Opposed     | 3'/1m               | `1D4 + Str` Slashing    | Slash at an adjacent **ST**. |
+| 0     | Whip                 | 2  | Opposed     | 24'/8m              | `1D4 + Str` Bludgeoning | Swing the chain at a target and whip it with it, then immediately retrieve it. Causes `+1` [Exhaustion](strive-core.md#exhaustion) in the target. |
+| 1     | Come Closer          | 2  | Opposed     | 24'/8m              | `1D4` Slashing          | Throw the weapon just past a target and then yank it back, catching them with it and pulling them `9'/3m` closer to you. If the target is much larger and/or heavier than you, then you may pull *yourself* closer to them, for the same distance. Then immediately retrieve your weapon. |
+| 3     | Leg Sweep            | 2  | Opposed     | 24'/8m              | /                       | Swing the weapon at length and low, to sweep for an opponent's legs. Upon impact, yank the chain to sweep them off their feet, rendering them [prone](./strive-core.md#prone) and then immediately retrieve your weapon. |
+| 4     | Think Twice          | 1  | /           | 24'/8m              | `Agi` Piercing    | **Reaction**: Upon one of your allies attacking an enemy, you also throw your weapon straight at that enemy. Your ally's attack is `-1` Ob easier as the enemy is confused by the two simultaneous attacks! Your attack does **not** cost the enemy any additional AP to defend and is successful only if your ally's attack is successful. Upon impact, immediately retrieve your weapon. Only possible once per round. |
 
 #### Axe (Str/Str)
 Small and light axes. Examples: hatchet, woodcutter's axe
@@ -727,8 +763,8 @@ Small and light axes. Examples: hatchet, woodcutter's axe
 
 | Level | Name                 | AP | **Ob**      | Damage                                    | Notes  |
 | ----- | -------------------- | -- | ----------- | ----------------------------------------- | ------ |
-| 0     | Hack                 | 2  | Opposed     |  `1D8` Slashing + `1D4 + Str` Bludgeoning | / |
-| 1     | Savage Slash         | 2  | Opposed + 1 |  `1D10 + Str` Slashing                    | +1 [bleeding](./strive-core.md#bleeding) to the target (if it can bleed). |
+| 0     | Hack                 | 2  | Opposed     |  `1D6` Slashing + `1D4 + Str` Bludgeoning | / |
+| 1     | Savage Slash         | 2  | Opposed + 1 |  `1D8` Slashing                    | `+2` [Bleeding](./strive-core.md#bleeding) to the target (if it can bleed). |
 
 #### Great Axe (Str/Str)
 Large and heavy axes. Examples: bearded axe, double-sided axe
@@ -738,9 +774,8 @@ Large and heavy axes. Examples: bearded axe, double-sided axe
 
 | Level | Name                 | AP | **Ob**      | Damage                                           | Notes  |
 | ----- | -------------------- | -- | ----------- | ------------------------------------------------ | ------ |
-| 0     | Hack                 | 2  | Opposed     | `1D10` Slashing + `1D6 + Str` Bludgeoning        | / |
-| 2     | Savage Slash         | 2  | Opposed + 1 | `2D6 + Str` Slashing                             | +2 [bleeding](./strive-core.md#bleeding) to the target (if it can bleed). |
-| 3     | Heavy Blow           | 3  | Opposed + 2 | `1D10 + 1D6` Slashing + `1D8 + Str` Bludgeoning  | Defending against this attack costs 2 [AP](./strive-core.md#action-points-ap). |
+| 0     | Hack                 | 2  | Opposed     | `1D6` Slashing + `1D6 + Str` Bludgeoning        | / |
+| 1     | Heavy Blow           | 3  | Opposed + 2 | `1D10` Slashing + `Str` Bludgeoning  | Defending against this attack costs 2 [AP](./strive-core.md#action-points-ap). Causes `+1` Exhaustion to self. If successful, the target is knocked Prone. |
 
 #### Spear (Agi/Str)
 Any one or two-handed short piercing polearms. Examples: short-spear, boar-spear
@@ -752,8 +787,8 @@ Any one or two-handed short piercing polearms. Examples: short-spear, boar-spear
 
 | Level | Name                 | AP | **Ob**      | Damage                           | Notes  |
 | ----- | -------------------- | -- | ----------- | -------------------------------- | ------ |
-| 0     | Stab                 | 2  | Opposed     | `2D6 + Agi` Piercing             | / |
-| 0     | Spear Wall           | 2  | /           | /                                | Whenever any character moves **into** a spot within reach, can attack that character with a **stab** at `Ob + 1` and always force them back `3'/1m`, until the start of your next turn. The attacks cost no additional **AP**. |
+| 0     | Stab                 | 2  | Opposed     | `2D4 + Agi` Piercing             | / |
+| 0     | Spear Wall           | 2  | /           | /                                | Whenever any character moves **into** a spot within reach, can attack that character with a **Stab** at `Ob + 1` and if successful, force them back `3'/1m`, until the start of your next turn. The attacks cost no additional **AP**. |
 
 #### Lance (Awar/Str)
 Any one or two-handed long piercing polearms. Examples: pike, lance
@@ -765,7 +800,7 @@ Any one or two-handed long piercing polearms. Examples: pike, lance
 
 | Level | Name                 | AP | **Ob**      | Damage                           | Notes  |
 | ----- | -------------------- | -- | ----------- | -------------------------------- | ------ |
-| 0     | Stab                 | 2  | Opposed     | `2D6 + Agi` Piercing             | / |
+| 0     | Stab                 | 2  | Opposed     | `2D4 + Agi` Piercing             | / |
 | 0     | Couched Lancing      | 2  | Opposed     | `3D10` Piercing                  | Requires self to be mounted on horse-back (or similar creature). Self must move at least 15'/5m in a straight line, past the target. |
 
 #### Polearm (Str/Tough)
@@ -778,8 +813,8 @@ Flexible polearms with a focus on slashing. Examples: halberd, bardiche, poleaxe
 
 | Level | Name                 | AP | **Ob**      | Damage                           | Notes  |
 | ----- | -------------------- | -- | ----------- | -------------------------------- | ------ |
-| 0     | Slash                | 2  | Opposed     | `2D8 + Str` Slashing             | / |
-| 0     | Stab                 | 2  | Opposed     | `2D6 + Agi` Piercing             | / |
+| 0     | Slash                | 2  | Opposed     | `2D6 + Str` Slashing             | / |
+| 0     | Stab                 | 2  | Opposed     | `2D4 + Agi` Piercing             | / |
 | 1     | Blade Barrier        | 2  | /           | /                                | Whenever any character moves **into** a spot within reach, can attack that character with a **stab** at `Ob + 1` and always force them back `3'/1m`, until the start of your next turn. The attacks cost no additional **AP**. |
 | 2     | Cleave               | 2  | Opposed + 2 | `2D8 + Str` Slashing             | Deals damage to up to two targets adjacent to each other and within reach. |
 
@@ -791,8 +826,8 @@ Small bludgeoning weapons. Examples: any improvised weapon, any club, any mace
 
 | Level | Name                 | AP | **Ob**      | Damage                           | Notes  |
 | ----- | -------------------- | -- | ----------- | -------------------------------- | ------ |
-| 0     | Smash                | 2  | Opposed     | `2D6 + Str` Bludgeoning          | / |
-| 0     | Knockout Blow        | 2  | Opposed + 1 | `2D6 + Str` Bludgeoning          | If successful, causes `+2` [exhaustion](./strive-core.md#exhaustion) to the target. |
+| 0     | Smash                | 2  | Opposed     | `1D6 + Str` Bludgeoning          | / |
+| 0     | Knockout Blow        | 2  | Opposed + 1 | `1D4 + Str` Bludgeoning          | If successful, causes `+2` [exhaustion](./strive-core.md#exhaustion) to the target. |
 
 #### Large Crusher (Str/Tough)
 Large bludgeoning weapons with a dedicated *impact zone* on the weapon head which directs more force into the target. Examples: grand-mace, polehammer, two-handed flail
@@ -802,76 +837,68 @@ Large bludgeoning weapons with a dedicated *impact zone* on the weapon head whic
 
 | Level | Name                 | AP | **Ob**      | Damage                           | Notes  |
 | ----- | -------------------- | -- | ----------- | -------------------------------- | ------ |
-| 0     | Smash                | 2  | Opposed     | `1D10 + 4 + Str` Bludgeoning     | / |
-| 1     | Mighty Smash         | 2  | Opposed + 2 | `1D10 + 4 + Str` Bludgeoning     | Defending against this attack costs `2` [AP](./strive-core.md#action-points-ap) and causes `+1` [exhaustion](./strive-core.md#exhaustion) to the target. |
+| 0     | Smash                | 2  | Opposed     | `1D8 + Str` Bludgeoning     | / |
+| 0     | Mighty Smash         | 2  | Opposed + 2 | `1D10 + Str` Bludgeoning     | Defending against this attack costs `2` [AP](./strive-core.md#action-points-ap) and causes `+1` [Exhaustion](./strive-core.md#exhaustion) to the target. |
 
 #### Short-Bow (Awar/Awar)
 A short distance ranged weapon, shooting arrows.
 
-* Ranged
-  * For every attack: +1 **Ob** and **-1D** damage for every distance increment past the initial.
+* Ranged: For every attack: `+1` **Ob** and `-1` damage for every distance increment past the initial.
 * Bulk: 1
 * [Range Only](core-rules.md#weapon-properties)
 
 | Level | Name                 | AP | **Ob**      | Distance increments | Damage                     | Notes  |
 | ----- | -------------------- | -- | ----------- | ------------------- | -------------------------- | ------ |
-| 0     | Loose                | 2  | Opposed     | 30'/10m             | `3D4` Piercing             | / |
-| 1     | Pin                  | 2  | Opposed + 1 | 30'/10m             | `2D4` Piercing             | Shoot the enemy in their foot. If the attack is successful, they are considered [rooted](./strive-core.md#rooted) until the end of their next turn. |
-| 1     | Heavy Shot           | 3  | Opposed + 1 | 30'/10m             | `3D4 + Str` Piercing       | / |
-| 2     | Double Shot          | 3  | Opposed     | 30'/10m             | `2D4` Piercing             | Can attack twice and thus deal its damage to two different targets, or the same target twice.  |
+| 0     | Loose                | 2  | Opposed     | 30'/10m             | `2D4` Piercing             | / |
+| 1     | Pin                  | 2  | Opposed     | 30'/10m             | `1D4 + 2` Piercing             | Shoot the enemy in their foot. If the attack is successful, they target is considered [Rooted](./strive-core.md#rooted) until the end of their next turn. |
+| 2     | Double Shot          | 3  | Opposed + 1 | 30'/10m             | `2D4` Piercing             | Can attack twice and thus deal its damage to two different targets, or the same target twice.  |
 
 #### Longbow (Awar/Str)
 A long distance ranged weapon, shooting arrows.
 
-* Ranged
-  * For every attack: +1 **Ob** and **-1D** damage for every distance increment past the initial.
+* Ranged: For every attack: `+1` **Ob** and `-1` damage for every distance increment past the initial.
 * Bulk: 2
 * [Range Only](core-rules.md#weapon-properties)
 
 | Level | Name                 | AP | **Ob**      | Distance increments | Damage                     | Notes  |
 | ----- | -------------------- | -- | ----------- | ------------------- | -------------------------- | ------ |
-| 0     | Loose                | 2  | Opposed     | 45'/15m             | `3D6` Piercing             | / |
-| 1     | Pin                  | 2  | Opposed + 1 | 45'/15m             | `2D6` Piercing             | Shoot the enemy in their foot. If the attack is successful, they are considered [rooted](./strive-core.md#rooted) until the end of their next turn. |
-| 1     | Heavy Shot           | 3  | Opposed + 1 | 45'/15m             | `3D6 + Str` Piercing       | / |
+| 0     | Loose                | 2  | Opposed     | 45'/15m             | `2D6` Piercing             | / |
+| 1     | Heavy Shot           | 3  | Opposed     | 45'/15m             | `2D6 + Str` Piercing       | Causes `+1` [Exhaustion](./strive-core.md#exhaustion) to self. |
 
 #### War-Bow (Str/Tough)
 A very deadly long distance ranged weapon, shooting arrows. Beware its exhausting strength of draw. 
 
-* Ranged
-  * For every attack: +1 **Ob** and **-1D** damage for every distance increment past the initial.
+* Ranged: For every attack: `+1` **Ob** and `-1` damage for every distance increment past the initial.
 * Bulk: 2
 * [Range Only](core-rules.md#weapon-properties)
 
 | Level | Name                 | AP | **Ob**      | Distance increments | Damage                     | Notes  |
 | ----- | -------------------- | -- | ----------- | ------------------- | -------------------------- | ------ |
-| 0     | Loose                | 2  | Opposed     | 60'/20m             | `3D10` Piercing            | +1 [exhaustion](./strive-core.md#exhaustion) to self.  |
+| 0     | Loose                | 2  | Opposed     | 60'/20m             | `2D10` Piercing            | Causes `+1` [Exhaustion](./strive-core.md#exhaustion) to self.  |
 
 #### Crossbow (Awar/Awar)
 A deadly medium distance ranged weapon, shooting quarrels. Beware its slow reload. 
 
-* Ranged
-  * For every attack: +1 **Ob** and **-1D** damage for every distance increment past the initial.
+* Ranged: For every attack: `+1` **Ob** and `-1` damage for every distance increment past the initial.
 * Bulk: 2
 * [Prefer Range](core-rules.md#weapon-properties)
 * [Slow Reload](core-rules.md#weapon-properties)
 
 | Level | Name                 | AP | **Ob**      | Distance increments | Damage                     | Notes  |
 | ----- | -------------------- | -- | ----------- | ------------------- | -------------------------- | ------ |
-| 0     | Loose                | 2  | Opposed     | 60'/20m             | `3D8` Piercing             |  |
-| 1     | Pin                  | 2  | Opposed + 1 | 60'/20m             | `2D8` Piercing             | Shoot the enemy in their foot. If the attack is successful, they are considered [rooted](./strive-core.md#rooted) until the end of their next turn. |
+| 0     | Loose                | 2  | Opposed     | 60'/20m             | `3D8` Piercing             | / |
 
 #### Firearm (Awar/Awar)
 A very deadly short to medium distance ranged weapon, shooting musket balls that are likely to penetrate armor. Beware its slow reload. 
 
-* Ranged
-  * For every attack: +2 **Ob** for every distance increment past the initial.
+* Ranged: For every attack: `+1` **Ob** and `-1` damage for every distance increment past the initial.
 * Bulk: 2
 * [Prefer Range](core-rules.md#weapon-properties)
 * [Very Slow Reload](core-rules.md#weapon-properties)
 
 | Level | Name                 | AP | **Ob**      | Distance increments | Damage                     | Notes  |
 | ----- | -------------------- | -- | ----------- | ------------------- | -------------------------- | ------ |
-| 0     | Fire                 | 2  | Opposed     | 30'/10m             | `3D10 + 5` Piercing         |  |
+| 0     | Fire                 | 2  | Opposed     | 30'/10m             | `2D10 + Awar` Piercing     | / |
 
 ## Lists of Skills
 The following list does not and cannot aim to be a complete listing of all possible skills in game. Adding new skills as necessary will have to be done by the **GM**. 
@@ -1237,7 +1264,7 @@ The alteration of physical things, to change their shape and purpose. And the ab
 | 1     | Wings                | 2  | /              | `SI`            | **Concentration**: Grow wings! You may now fly up to `SI * 30'/10m` high at a speed of `SI * 6'/2m`. | You suffer a random mutation, instead! |
 | 1     | Feel the Shape       | 1  | `SI * 60'/20m` | `SI`            | Place a hand to a surface. You can feel the faintest vibrations and reverberations within and beneath. Can be used to detect underground caves and structures and imprecisely detect the movements of creatures along a given surface, such as the ground. | / |
 | 2     | Alter Shape          | 3  | `3'/1m`        | `SI`            | **Time(+1)**: A **ST** (object or creature) is altered as the mage desires, permanently. The Ob depends on the complexity and size of the re-shaping. Ob `2` for simple and small, `3` for tricky and medium, `4` for complex and large and `5+` for very complex and very large alterations. Consult your **GM**! | Instead of the intended alteration, a random mutation occurs! |
-| 2     | Earth Spike Trail    | 3  | `SI * 9'/3m`   | `SI`            | Cause spikes of earth to shoot out of a surface that they can lay their hands on. Everyone caught in a straight line of up to `SI * 9'/3m` in length, originating from the mage, suffers `1D8 + SI` points of Piercing damage. The area of the spikes is then considered difficult terrain. The spikes crumble after `3` turns. | The mage loses control and the spell unleashes in a random direction. |
+| 2     | Earth Spike Trail    | 3  | `SI * 9'/3m`   | `SI`            | Cause spikes of earth to shoot out of a surface that they can lay their hands on. Everyone caught in a straight line of up to `SI * 9'/3m` in length, originating from the mage, suffers `1D8 + SI` points of Piercing damage. The area of the spikes is then considered Difficult Terrain. The spikes crumble after `3` turns. | The mage loses control and the spell unleashes in a random direction. |
 | 2     | Aspect of the Bull   | 2  | /              | `SI`            | **Concentration**: Grow bull horns and bestial legs! You may now run at a speed of `12'/4m + (SI * 3'/1m)`. You may now charge at targets and gore them for `SI D6` points of Piercing damage, but you must run at least `12'/4m` in order to make use of this ability. | You suffer a random mutation, instead! |
 | 4     | Wereshape            | 3  | /              | `4`             | **Concentration, Time(+1)**: Assume a were-beast shape. See the list below. Your attributes will be **modified** as noted on each were-shape. | Instead of transforming, your body goes into shock! You are [Stunned](./strive-core.md#stunned)! |
 
@@ -1414,12 +1441,445 @@ This list supplements the list of **injuries** of the [core module](./strive-cor
 | ----------------- | ----------------- | ----------- | --------- |
 | Amber Curse       | **2D10** Days     | The victim finds it difficult to feel the flow of magic through their body. **-1D4** [arcana](#arcana-arc); **-1D4** to any magic skills and [rune-using](#rune-using-agiwit). | Conventional methods cannot treat this illness. It can be treated with a potion of powdered [abyssalite](#abyssalite). |
 
-# Glossary
+# Fantasy Game-Masters Resource
+This and the following sections are reserved solely for the **GM**'s eyes. Reading on as a player may spoil many surprises and the fun of discovery for you. 
 
-See also the [Core Glossary](strive-core.md#glossary). 
+# Creature Compendium
+A by no means exhaustive list of medieval-fantasy themed creatures for the **GM** to draw from. 
 
-| Term                                         | Meaning / Description  |
-| -------------------------------------------- | ---------------------- |
-| [Arc](#arcana-arc)                           | The Arcana attribute   |
-| [OPN](#psionics-arcwit)                      | Openness to [The Veil](#the-veil) |
-| [SI](#spell-intensity-si)                    | Spell Intensity        |
+## Swine-Beasts
+Created in a vain and immoral conjuring of demons from another place, the Swine-Beasts themselves represent a cruel parody of man, molded from the flesh of pigs. All the worst properties of humanity are manifested in these unsavory creatures. 
+
+A morphed and twisted union of human and swine flesh which stands on two legs, shorter than humans and in a perpetual hunch. They have boney claws instead of fingers and cloven swine-hooves instead of feet. Large tusks protrude aggressively from the jaw, as if reaching for victims. Red glowing, narrowed eyes glinting in the dark with malice. 
+
+Beware the cesspits, the sewers, the bogs and marshes - any place where filth is abundant, for this is where the Swine thrive. They themselves are either impervious to the filth, or die too fast for it to matter, and will eat *anything*, with a particular appetite for flesh. They make it a particular point to bleed their victims, while skinning them alive and gloating at their pain. They are semi-demonic and live out the inherent cruelty that stems from that. 
+
+They multiply quickly and often stay localized to their den. But they occasionally venture into more civilized areas to acquire food - which is often the inhabitants of those places - and plunder. They keep regular pigs as both livestock and as a means of reproducing, as when they have need of more of their foul kind, their shamans will perform the same wicked rituals to turn those harmless pigs into Swine-Beasts. 
+
+Due to the demon bound inside them, they are inherently and irredeemably evil. Cruelty amuses them, injustice means nothing to them. They exist solely to mulitply, feed and destroy. 
+
+### Swine Hostility
+
+#### Demonic Blood
+**`-20` Hostility**: Suddenly, a Swine stops dead in its tracks, clawing at its skull and squealing in distorted pain, as demon horns spring from its forehead and the veins beneath its skin begin to glow in bright crimson. It grows to twice its size and hungrily peers around. 
+* It gains `+30` maximum and current HP.
+* It becomes [Berserked](strive-core.md#berserk).
+* Its attacks deal an additional `+6` points of Bleeding damage. 
+
+#### Filth & Darkness
+**`-10` Hostility**: The foul Swine have prepared a trap! The battlefield is flooded with a nauseating miasma and covered in unnatural darkness! 
+* All non-Swine with normal vision can only see up to `9'/3m` far.
+* All non-Swine suffer `-1D` to all tests.
+
+### Swine Belcher
+This variant is small and stunted. Its legs are too short and deformed to be useful, so it stands on and walks with its hands, instead. But don't be fooled, this creature is not defenceless. Vile residue runs down its maw, hinting at its repugnant weaponry. 
+
+* Power: Feeble, CR: `2`
+* Roles: Sentry, Artillery
+  * These disgusting little things are the sentries of the den. They are the ones who watch out for approaching enemies and will cause a terrible noise when they notice anything out of the ordinary, calling allies over to come take a look. 
+  * By itself, this creature is a very low challenge. Employ it with allies nearby who it can alert, should the PCs fail to eliminate it quickly. 
+* Behavior: 
+  * Curious and investigative. 
+  * Noisy - squeals and grunts to itself frequently. 
+  * Underdog - avoids other Swine and tends to get pushed around by them. 
+  * Dislikes bright light and can see well in the dark.
+
+| Agi   | Awar  | Str   | Tough | Wit   | Arc   |
+| ----- | ----- | ----- | ----- | ----- | ----- |
+| 4     | 4     | 2     | 1     | 1     | 0     |
+
+| BI     | Sprint | Stabil | Def    | FS     | HP  | Exhaustion |
+| ------ | ------ | ------ | ------ | ------ | --- | ---------- |
+| 9      | 3      | 0      | 2      | 2 Acid | 10  | 2          |
+
+Traits: [Disease-Ridden](strive-core.md#disease-ridden--1-point-1-cr), [Light-weight](strive-core.md#light-weight-2-points--1-cr), [Vulnerable](strive-core.md#vulnerable-2-points--2-cr) to Bleeding `+6`
+
+Assets: Tattered Rags (Clothing)
+
+Skills:
+* Observation, level: `3`
+* Bite (Agi/Str):
+  * Chomp down on a target. 
+  * Level: `2`, AP: `2`, Ob: Opposed, Melee, `1D4 + Strength` Piercing damage, Innate
+* Putrid Vomit (Agi/Awar):
+  * Throw up a projectile of lumpy stomach acid and 'shoot' it at a target. 
+  * Level: `4`, AP: `2`, Ob: Opposed, Ranged: `30'/10m`, `2D4` Acid damage, [Prefer Range](strive-core.md#weapon-properties), Innate
+
+### Swine Champion
+This variant stands tall and proud, its wrinkled skin riddled with scars. Its tusks curl proudly, like a jaw-borne crest. 
+
+* Power: Elite, CR: `7`
+* Roles: Commander, Guardian
+  * The strongest and toughest of the swine. A defender and conqueror. It has grit and wit at its disposal. Very rare and a very dangerous creature that will defend allies and inspire confidence in them. 
+  * Employ this enemy to guard high value allies, like a shaman. 
+* Behavior: 
+  * Roams around whomever it is protecting, which is usually expected to be a shaman. 
+  * Noisy - squeals and grunts to itself frequently. 
+  * Usually the second in command, it demands respect from its lesser brethren, and will enforce its will if necessary. 
+  * Dislikes bright light and can see well in the dark.
+
+| Agi   | Awar  | Str   | Tough | Wit   | Arc   |
+| ----- | ----- | ----- | ----- | ----- | ----- |
+| 3     | 2     | 4     | 5     | 3     | 0     |
+
+| BI     | Sprint | Stabil | Def    | FS         | HP  | Exhaustion |
+| ------ | ------ | ------ | ------ | ---------- | --- | ---------- |
+| 8      | 4      | 2      | 4      | 3 Piercing | 50  | 5          |
+
+Traits: [Vulnerable](strive-core.md#vulnerable-2-points--2-cr) to Bleeding `+6`, [Hyperactive](strive-core.md#hyperactive--7-points-4-cr) + Disruptive
+
+Assets: Spear, Medium Shield, Light Armor
+
+Skills:
+* Shield, level: `5`
+* Unarmed Combat, level: `3`
+* Weapon \<Spear\>, level: `5`
+* Tusked Maw (Agi/Str):
+  * As a last ditch defence, teeth and strength of jaw may serve. 
+  * Level: `3`, Innate
+    * Bite:
+      * Chomp down on a target. 
+      * AP: `2`, Ob: Opposed, Melee, `1D4 + Strength` Piercing damage
+    * Gore:
+      * Slam into a target with your massive tusks. 
+      * AP: `2`, Ob: Opposed, Melee, `1D6 + Strength` Bludgeoning damage
+* Swine Commanding (Tough/Wit):
+  * A champion commands respect and obedience.
+  * Level: `4`, Innate
+    * Bestial Roar:
+      * Instill fear and doubt into your victims' hearts. All within `30'/10m` of you suffer `-1` AP and are Terrified of you.
+      * AP: `2`, Ob: Opposed by [Self-Control](strive-core.md#self-control-toughtough), Ranged, Vocal
+    * Hit That One!:
+      * [Mark](strive-core.md#marked) a ST of choice, for `2` rounds, up to `30'/10m` away.
+      * AP: `1`, Ob: 2, Ranged, Vocal
+    * You Die When I Let You!:
+      * **Reaction**: Once in a battle, when an ally's HP are reduced to `0`, they are instead reduced to your achieved number of hits. 
+      * AP: `1`, Ranged, Vocal
+
+### Swine Lunger
+This variant is as almost as small as a Belcher, and has atypically short tusks. Perhaps a youngling? It is also quite lean and moves with uncanny precision, for a Swine. 
+
+* Power: Regular, CR: `3`
+* Roles: Ambusher, Disruptor, Shock-Trooper
+  * A reckless fighter who will happily leap into a group of enemies and begin causing chaos amidst their ranks. 
+  * Employ as a disruptor of tight formations. 
+* Behavior: 
+  * Tends to stick to the shadows, from which to jump enemies. 
+  * Noisy - squeals and grunts to itself frequently. 
+  * Dislikes bright light and can see well in the dark.
+
+| Agi   | Awar  | Str   | Tough | Wit   | Arc   |
+| ----- | ----- | ----- | ----- | ----- | ----- |
+| 6     | 2     | 3     | 2     | 2     | 0     |
+
+| BI     | Sprint | Stabil | Def    | FS         | HP  | Exhaustion |
+| ------ | ------ | ------ | ------ | ---------- | --- | ---------- |
+| 10     | 4      | 0      | 3      | 4 Slashing | 20  | 1          |
+
+Traits: [Vulnerable](strive-core.md#vulnerable-2-points--2-cr) to Bleeding `+6`
+
+Assets: Tattered Rags (Clothing), Dagger x2
+
+Skills:
+* Stealth, level: `4`
+* Weapon \<Dagger\>, level: `5`
+* Lunge (Agi/Agi):
+  * Lunge up to `21'/7m`, dealing damage to all foes in your path with your weapons. Does not provoke [Opportunity Attacks](strive-core.md#opportunity-attacks). Causes `+1` Exhaustion to self. 
+  * Level: `5`, AP: `3`, Ob: Opposed, Melee, MST, `1D4 + Strength` Slashing damage, Innate
+* Vault & Jab (Agi/Agi):
+  * Jump over an adjacent enemy, landing behind them, and attack them. Does not provoke [Opportunity Attacks](strive-core.md#opportunity-attacks). Causes `+1` Exhaustion to self. 
+  * Level: `4`, AP: `3`, Ob: Opposed, Melee, ST, `1D6 + Strength` Slashing damage, Innate
+
+### Swine Ogre
+A hulking mass of Swine and muscle, towering above all around. Despite its imposing nature, it frequently looks to the other Swine for guidance. It almost looks sleepy, except in moments of violence. 
+
+* Power: Regular, CR: `5`
+* Roles: Disruptor, Tank
+  * Too dumb to realize any peril it might be in, it will happily stride straight into the middle of an enemy formation and is quite capable of staying there for a while. 
+  * Employ as a distraction - a meat shield to draw the fire of enemies. 
+* Behavior: 
+  * Tends to sit around lazily, almost absent-mindedly. A dullard only excited by the prospects of violence. 
+  * Noisy - squeals and grunts to itself frequently. 
+  * Dislikes bright light and can see well in the dark.
+
+| Agi   | Awar  | Str   | Tough | Wit   | Arc   |
+| ----- | ----- | ----- | ----- | ----- | ----- |
+| 1     | 1     | 6     | 6     | 1     | 0     |
+
+| BI     | Sprint | Stabil | Def    | FS         | HP  | Exhaustion |
+| ------ | ------ | ------ | ------ | ---------- | --- | ---------- |
+| 3      | 4      | 4      | 1      | 2 Bludgeoning | 60  | 7          |
+
+Traits: [Vulnerable](strive-core.md#vulnerable-2-points--2-cr) to Bleeding `+6`
+
+Assets: Tattered Rags (Clothing), Large Crusher
+
+Skills:
+* Weapon \<Large Crusher\>, level: `2`
+* Slam (Str/Tough):
+  * Slam into a victim, knocking them `Strength * 3'/1m` backwards.
+  * Level: `4`, AP: `2`, Ob: Opposed, Melee, ST, `Strength` Bludgeoning damage, Innate
+* Tusk Thrust (Agi/Str):
+  * Slam into a **ST** with your enormous tusks, imapling your victim upon them. 
+  * Level: `3`, AP: `2`, Ob: Opposed, Melee, ST, `1D6 + Agility` Piercing damage, Innate
+
+### Swine Shaman
+An intelligent and cruel leader among the Swine. Its gaze attentively surveys all, as it stands proudly, in relatively clean clothes and at the center of Swine society. The bright crimson in its surface-level veins glows faintly. Elaborate arrangements of bones sewn to its clothes lend it an air of dark majesty. 
+
+* Power: Regular, CR: `7`
+* Roles: Commander, Supporter
+  * It hangs back and lets its lesser brethren do the dirty work for it. But it will also ensure they succeed, as you cannot trust those buffoons with anything on their own.
+  * Employ as a boss encounter, coupled with several other Swine, most notably at least one Swine Champion. 
+* Behavior: 
+  * Can usually be found in its den, scheming and plotting, mistreating 'life-stock' and making clothes from 'people-skin'. Or, found leading raids on the territories of 'civilized' folk. 
+  * Noisy - squeals and grunts to itself frequently. 
+  * Dislikes bright light and can see well in the dark.
+
+| Agi   | Awar  | Str   | Tough | Wit   | Arc   |
+| ----- | ----- | ----- | ----- | ----- | ----- |
+| 2     | 2     | 3     | 4     | 5     | 6     |
+
+| BI     | Sprint | Stabil | Def    | FS         | HP  | Exhaustion |
+| ------ | ------ | ------ | ------ | ---------- | --- | ---------- |
+| 9      | 3      | 0      | 2      | 2 Piercing | 40  | 4          |
+
+Traits: [Vulnerable](strive-core.md#vulnerable-2-points--2-cr) to Bleeding `+6`
+
+Assets: Fine Rags (Clothing), Large Crusher
+
+Skills:
+* Magic School \<Hexing\>, level: `5`
+* Medicine, level: `3`
+* Bite (Str/Tough):
+  * Chomp down on a target. 
+  * Level `2`, AP: `2`, Ob: Opposed, ST, Melee, `1D4 + Strength` Piercing damage, Innate
+* A Leader Of Swine (Wit/Wit):
+  * A shaman commands respect and terror.
+  * Level: `5`, Innate
+    * Fire Up The Blood:
+      * Strike up a haunting chant, in demonic language, stirring the blood of your fellow Swine. One of of them, up to `45'/15m` away is enraged, and overwhelmed with their demoic blood, which starts leaking out of their eyes and nostrils. Until the end of combat, every tick, they suffer `5` points of bleeding damage (the Swine's vulnerability to bleeding damage does not get triggered by this), but also deal an additional `8` points of bludgeoning damage on every successful attack. 
+      * AP: `3`, Ob: `2`, ST (ally Swine), Ranged: `45'/15m`, Vocal
+    * Drums Of Terror:
+      * Beating on a drum with a... face... stretched across it, instill terror in your foes. Every non-Swine in a `45'/15m` radius around must succeed a Self-Control test, or else become [Terrified](strive-core.md#terrified) of the shaman. 
+      * AP: `2`, Ob: Opposed by Self-Control + 1, MST, Ranged: `45'/15m`, Auditory
+    * You Die When I Let You!:
+      * **Reaction**: Once in a battle, when an ally's HP are reduced to `0`, they are instead reduced to your achieved number of hits. 
+      * AP: `1`, Ranged, Vocal
+
+### Swine Skewerer
+This variant has full dark-red fur and much shorter tusks. It moves deftly, albeit sloppily. 
+
+* Power: Regular, CR: `5`
+* Roles: Artillery, Trapper
+  * A hunter and trapper, it tends to prefer indirect confrontation. 
+  * Employ as a back-liner and ambusher, who will prepare the battlefield with dangerous traps ahead of time. 
+* Behavior: 
+  * Usually looking for and stalking prey, until finally striking from concealment. 
+  * Dislikes bright light and can see well in the dark.
+
+| Agi   | Awar  | Str   | Tough | Wit   | Arc   |
+| ----- | ----- | ----- | ----- | ----- | ----- |
+| 5     | 3     | 4     | 3     | 2     | 0     |
+
+| BI     | Sprint | Stabil | Def    | FS         | HP  | Exhaustion |
+| ------ | ------ | ------ | ------ | ---------- | --- | ---------- |
+| 10     | 4      | 0      | 2      | 4 Piercing | 30  | 4          |
+
+Traits: [Vulnerable](strive-core.md#vulnerable-2-points--2-cr) to Bleeding `+6`, [Poisoner](strive-core.md#poisoner--4-points-2-cr)
+
+Assets: Tattered Rags (Clothing), Javelin x8, Bear Trap x3
+
+Skills:
+* Observation, level: `3`
+* Stealth, level: `5`
+* Throw Javelin (Agi/Str):
+  * Throw a javelin at a **ST**. 
+  * Level: `4`, Ob: Opposed, Ranged: `30'/10m`, ST, `1D8` Piercing damage, Innate
+
+### Swine Slasher
+This variant is lanky and sways a little. 
+
+* Power: Regular, CR: `4`
+* Roles: Brawler, Shock-Trooper
+  * Employ as a front line fighter and cannon-fodder. Not meant to be particularly challenging, but rather as a wall of flesh in the way of high value targets. 
+* Behavior: 
+  * Noisy - squeals and grunts to itself frequently. 
+  * Dislikes bright light and can see well in the dark.
+
+| Agi   | Awar  | Str   | Tough | Wit   | Arc   |
+| ----- | ----- | ----- | ----- | ----- | ----- |
+| 2     | 2     | 4     | 3     | 1     | 0     |
+
+| BI     | Sprint | Stabil | Def    | FS         | HP  | Exhaustion |
+| ------ | ------ | ------ | ------ | ---------- | --- | ---------- |
+| 5      | 3      | 1      | 2      | 3 Slashing | 30  | 4          |
+
+Traits: [Vulnerable](strive-core.md#vulnerable-2-points--2-cr) to Bleeding `+6`
+
+Assets: Tattered Rags (Clothing), Axe, Light Shield
+
+Skills:
+* Shield, level: `3`
+* Weapon \<Axe\>, level: `3`
+
+### Swine Stomper
+This variant is massive and strong. Most of its body is covered in dark, dirty clumped up fur. The tusks are menacing weapons of their own. 
+
+* Power: Regular, CR: `5`
+* Roles: Brawler, Disruptor
+  * These hulking beasts represent the swine-folks front line fighters. They protect the squalid den and stomp intruders who threaten the shaman. 
+  * Employ as a front line fighter. May be taken down quickly, as it will not dodge, so consider using more than one in a fight. Intended to be a wall of flesh in the way toward high value targets. 
+* Behavior: 
+  * Very aggressively pushes enemies around. 
+  * Bullies other Swine who aren't champions or shamans. 
+  * Noisy - squeals and grunts to itself frequently. 
+  * Dislikes bright light and can see well in the dark.
+
+| Agi   | Awar  | Str   | Tough | Wit   | Arc   |
+| ----- | ----- | ----- | ----- | ----- | ----- |
+| 2     | 1     | 6     | 4     | 1     | 0     |
+
+| BI     | Sprint | Stabil | Def    | FS         | HP  | Exhaustion |
+| ------ | ------ | ------ | ------ | ---------- | --- | ---------- |
+| 4      | 3      | 3      | 1      | 3 Slashing | 40  | 5          |
+
+Traits: [Vulnerable](strive-core.md#vulnerable-2-points--2-cr) to Bleeding `+6`
+
+Assets:
+* Clothing: Swine Armored Rags, Large Crusher
+
+Swine Armored Rags: Slashing `6`, Piercing `4`, Bludgeoning `3`, Acid `6`
+
+Skills:
+* Unarmed Combat, level: `4`
+* Weapon \<Large Crusher\>, level: `3`
+* Tusked Maw (Agi/Str):
+  * As a last ditch defence, teeth and strength of jaw may serve. 
+  * Level: `3`, Innate
+* Bite:
+  * Chomp down on a target. 
+  * AP: `2`, Ob: Opposed, Melee, `1D4 + Strength` Piercing damage, Innate
+* Gore:
+  * Slam into a target with your massive tusks. 
+  * AP: `2`, Ob: Opposed, Melee, `1D6 + Strength` Bludgeoning damage, Innate
+
+## Veil Entities
+Veil Entities are unlike any other. They are strange and unfathomable things from a dimension, or other form of existence unlike any we know. These entities aren't necessarily evil, nor are they particularly interested in causing harm, if indeed they are capable of sentience at all. It is their very nature that is harmful to ours. Fortunately, The Veil reclaims its denizens diligently. 
+
+### The Monolith
+A rough-hewn, crystalline monolith of obsidian color. Crimson veins pulsate gently, just beneath the surface. It draws every gaze towards it, whispering unknowable secrets and beckoning with malignity. Everyone within a `90'/30m` radius around it is affected and suffers `+1` [Bleeding](strive-core.md#bleeding) at the start of their turn and **cannot** look away, for as long as they have line of sight to it. The Monolith lasts for `5` rounds or `5` minutes, before The Veil reclaims it. When that happens, it explodes, dealing `1D8` [bludgeoning](strive-core.md#damage-types) damage and inflicting `+2` [Bleeding](strive-core.md#bleeding) to all within its radius.
+
+### Perfection
+A giant sphere of pure white light. Its surface is infinitely smooth. Nothing can stick to it, nothing can touch it. Everything that touches it, is thrown back, by `24'/8m`. And yet, every living thing in a `90'/30m` radius around it desires nothing more than to touch it, unless they succeed a Self-Control test at Ob `4` at the start of their turn. The Sphere lasts for `5` rounds or `5` minutes, before it vanishes, leaving behind darkness and emptiness that fills all hearts with unconsolable sorrow. Every creature in range is [Pacified](strive-core.md#pacified) for `1` round or minute.
+
+### The Tar Mycelium
+The entire scene is covered in a black, slimy web of tiny pulsating strands of a massive mycelium. This fungus grows quickly, rapidly enveloping everything it touches. The entire scene is considered Difficult Terrain. If a creature stands still for `2` turns, the fungus envelops them and begins devouring them alive. They suffer `1D4` [Acid](strive-core.md#damage-types) damage at the end of their second turn and after that, at the start of every turn they haven't yet moved.
+
+### Cacophony of Flesh
+An abominable mound of misshapen flesh, with countless tiny and several massive ragged tentacles protruding from it. As soon as it is able, it will violently thrash about, trying *desperately* to inflict vengeful violence upon all in its path. Lasts for `5` rounds or `5` minutes, before it melts away gruesomely. 
+
+* Power: Regular, CR: `20`
+* Roles: Tank, Brawler
+  * This aberration is not your average foe. It is not to be engaged, as trying to slay it would be far too perilous.
+* Behavior: 
+  * Hungrily seeks and lurches towards victims to devour. 
+
+| Agi   | Awar  | Str   | Tough | Wit   | Arc   |
+| ----- | ----- | ----- | ----- | ----- | ----- |
+| 5     | 5     | 20    | 20    | 1     | 0     |
+
+| BI     | Sprint | Stabil | Def    | FS         | HP  | Exhaustion |
+| ------ | ------ | ------ | ------ | ---------- | --- | ---------- |
+| 4      | 1      | 5      | 1      | 5 Bludgeoning | 200 | 5          |
+
+Traits: [Climber + Sticky](strive-core.md#climber--2-points-1-cr)
+
+Skills: 
+* Unarmed Combat: Level `5`, Innate
+* Cacophony of Flesh (Agi/Agi):
+  * Countless tiny and several massive ragged tentacles writhe and twitch with violent intent and an indescribable mound of flesh stands suspended above the ground, menacingly. 
+    * Slam:
+      * Slam down on a target with your entire body, enveloping them in a tentacled mass. They are rendered [Prone](./strive-core.md#prone) and [Grappled](./strive-core.md#grappled).
+      * AP: 2, Ob: Opposed, `Strength` bludgeoning damage
+    * Thrash:
+      * Everything in a `9'/3m` radius around you is thrown backwards by `30'/10m` as your tentacles flail about, wildly.
+      * AP:2
+    * Devour:
+      * Devour a **ST** creature in one swoop. As they enter your stomach, they are considered [Grappled](./strive-core.md#grappled) and cannot move on their own. They suffer `1D10` Acid damage at the start of your every turn. Only one creature may be devoured, at a time. You can spit out a creature you devoured, at no AP cost.
+      * AP: 2, Ob: Opposed
+
+### The Puppeteer
+A giant stick-figure, shrouded in swirling darkness and blurred edges. All corpses, no matter how old, within `900'/300m` around the Puppeteer begin to move again. They arise from their tombs, graves and battlefields, to enact terrible vengeance on the living. The Puppeteer lasts for several days. Should The Puppeteer be called again from The Veil in the time it is already present, then several more days will be added to the time it may escape The Veil. 
+
+## Undead
+Whether they occur naturally or unnaturally, both your typical undead and some more unusual specimen may haunt your world. While the Fantasy Module assumes them to be mindless monsters, you may of course decide for your world that they may in fact retain some if not all of their sapience. 
+
+### Alp
+The Alp is a predator, yet it preys not on flesh, but on raw fear itself. For this reason, it often encroaches on civilization, where it causes streaks of never ending nightmares for the people. They can take this spiel so far as to drive their victims insane. Suicides in villages haunted by Alps are not uncommon.
+
+This hunched humanoid is pale and haggard. Its face is featureless, devoid of eyes and mouth. Long claws at the ends of its three fingers clarify its hostile intent. 
+
+Alps are a fairly common occurence throughout the world. How they reproduce is a bit of a mystery, though it is assumed to be related victims taking their own lives. In a way, the Alp's condition might be carried like a self-perpetuating curse. Fact is that the graves of suicides often end up empty just a few days later. Although such graves are often regarded as sacrilegious and are ill-favored by the locals, which may simply have decided they have a better use for the space or valuables the victim was buried with. 
+
+* Power: Regular, CR: `6`
+* Roles: Ambusher
+  * Employ as an investigation and moderate combat challenge. 
+  * If you want to ramp up the challenge, have the encounter begin near a civilian victim which the Alp is about to or already has put to sleep, so it can immediately use "Nightmare". 
+* Behavior: 
+  * Stays close to civilization. May sometimes even hide inside towns and cities. 
+  * Only active at night. Tends to hibernate during the day, in a well hidden location. 
+
+| Agi   | Awar  | Str   | Tough | Wit   | Arc   |
+| ----- | ----- | ----- | ----- | ----- | ----- |
+| 4     | 3     | 3     | 3     | 3     | 5     |
+
+| BI     | Sprint | Stabil | Def    | FS         | HP  | Exhaustion |
+| ------ | ------ | ------ | ------ | ---------- | --- | ---------- |
+| 10     | 4      | 0      | 3      | 2 Slashing | 30  | 2          |
+
+Skills: 
+* Stealth: Level `3`
+* Alp Powers (Wit/Arc):
+  * Level: `7`
+  * Innate telepathic powers that only an Alp has. 
+    * Induce Nightmare:
+      * Induces nightmares on all nearby (`60'/20m` radius around the Alp) sleeping characters. This strengthens the Alp, removing any active Injuries from it and granting it unnatural strength and toughness. It gains `+3` strength, `+3` toughness and `+2` bonus dice to "Rend" and regains `1D10` HP for every nightmare it induces, for `6` turns or `6` minutes. Any creature with a nightmare can be woken up (in any way you like), at Ob `3`. 
+      * Does not stack: Every sleeping character can only be affected once. This resets when they wake up.
+      * AP: `1`
+    * Induce Sleep:
+      * Forces the victim to fall asleep, on the spot. They become unconscious, but can be woken through physical harm or a very strong shaking. The number of `hits + 1` achieved over the victim dictates the Ob for tests to wake them up. 
+      * AP: `1`, Ob: Opposed by Self-Control, ST, Ranged: `60'/20m`, Psionic
+* Rend (Agi/Str): 
+  * Tear a victim to shreds. 
+  * Level: `3`, AP: `2`, Ob: Opposed, ST, Melee, `1D8 + Strength` Slashing damage
+
+## Void Demons
+When a soul is thrust into the void between realities, it is stretched infinitely thin. Unable to fill the void, it snaps and implodes, bouncing back into reality, but broken. It cannot function as it once did and furthermore, keeps open a tear to the void. It apparates as a monster of swirling shadow, not quite corporeal, yet not fully ethereal. 
+
+Desperate to fill the void within them, they seek out any source of heat and light and try to absorb them. The souls of living things are of particular interest, as a Void Demon desires to be made whole again. The only way it knows how, is by trying to merge its soul with another. As souls generally occupy a host and will not budge, the host must first be eliminated. As such, Void Demons act with utmost hostility towards living things and will stop at nothing to kill them. 
+
+A Void Demon does not speak and is neither sapient, nor sentient. Trying to reason with such a thing would be folly, as it would not answer with anything but violence. 
+
+### Void Stalker
+This variant of Void Demon is vaguely humanoid, its amorphous face stretched out like a beak and its arms ending in spikes of hardened darkness. 
+
+* Power: Feeble, CR: `1`
+* Roles: Ambusher, Multiplier
+  * A simple, yet tricky foe, which is difficult to harm with mundane means and which will try to spawn more of its own kind, by inflicting damage to its victims. A challenge for the careless. Employ as a challenge that can increase its own intensity if left alive too long. 
+* Behavior: 
+  * Curious and investigative. 
+  * Noisy - squeals and grunts to itself frequently. 
+  * Underdog - avoids other Swine and tends to get pushed around by them. 
+
+| Agi   | Awar  | Str   | Tough | Wit   | Arc   |
+| ----- | ----- | ----- | ----- | ----- | ----- |
+| 4     | 4     | 2     | 1     | 0     | 0     |
+
+| BI     | Sprint | Stabil | Def    | FS     |
+| ------ | ------ | ------ | ------ | ------ |
+| 9      | 3      | 0      | 1      | 2 Acid |
+
+Traits: 
+
+Skills:
+* 
