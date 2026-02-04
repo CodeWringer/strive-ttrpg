@@ -1821,8 +1821,8 @@ This hunched humanoid is pale and haggard. Its face is featureless, devoid of ey
 
 Alps are a fairly common occurence throughout the world. How they reproduce is a bit of a mystery, though it is assumed to be related victims taking their own lives. In a way, the Alp's condition might be carried like a self-perpetuating curse. Fact is that the graves of suicides often end up empty just a few days later. Although such graves are often regarded as sacrilegious and are ill-favored by the locals, which may simply have decided they have a better use for the space or valuables the victim was buried with. 
 
-* Power: Regular, CR: `4`
-* Roles: 
+* Power: Regular, CR: `6`
+* Roles: Ambusher
   * Employ as an investigation and moderate combat challenge. 
   * If you want to ramp up the challenge, have the encounter begin near a civilian victim which the Alp is about to or already has put to sleep, so it can immediately use "Nightmare". 
 * Behavior: 
@@ -1831,15 +1831,27 @@ Alps are a fairly common occurence throughout the world. How they reproduce is a
 
 | Agi   | Awar  | Str   | Tough | Wit   | Arc   |
 | ----- | ----- | ----- | ----- | ----- | ----- |
-| 4     | 1     | 3     | 3     | 3     | 5     |
+| 4     | 3     | 3     | 3     | 3     | 5     |
 
 | BI     | Sprint | Stabil | Def    | FS         | HP  | Exhaustion |
 | ------ | ------ | ------ | ------ | ---------- | --- | ---------- |
-| 8      | 3      | 0      | 2      | 2 Slashing | 30  | 2          |
-
-Traits: 
+| 10     | 4      | 0      | 3      | 2 Slashing | 30  | 2          |
 
 Skills: 
+* Stealth: Level `3`
+* Alp Powers (Wit/Arc):
+  * Level: `7`
+  * Innate telepathic powers that only an Alp has. 
+    * Induce Nightmare:
+      * Induces nightmares on all nearby (`60'/20m` radius around the Alp) sleeping characters. This strengthens the Alp, removing any active Injuries from it and granting it unnatural strength and toughness. It gains `+3` strength, `+3` toughness and `+2` bonus dice to "Rend" and regains `1D10` HP for every nightmare it induces, for `6` turns or `6` minutes. Any creature with a nightmare can be woken up (in any way you like), at Ob `3`. 
+      * Does not stack: Every sleeping character can only be affected once. This resets when they wake up.
+      * AP: `1`
+    * Induce Sleep:
+      * Forces the victim to fall asleep, on the spot. They become unconscious, but can be woken through physical harm or a very strong shaking. The number of `hits + 1` achieved over the victim dictates the Ob for tests to wake them up. 
+      * AP: `1`, Ob: Opposed by Self-Control, ST, Ranged: `60'/20m`, Psionic
+* Rend (Agi/Str): 
+  * Tear a victim to shreds. 
+  * Level: `3`, AP: `2`, Ob: Opposed, ST, Melee, `1D8 + Strength` Slashing damage
 
 ## Void Demons
 When a soul is thrust into the void between realities, it is stretched infinitely thin. Unable to fill the void, it snaps and implodes, bouncing back into reality, but broken. It cannot function as it once did and furthermore, keeps open a tear to the void. It apparates as a monster of swirling shadow, not quite corporeal, yet not fully ethereal. 
