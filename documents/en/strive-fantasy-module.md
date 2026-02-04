@@ -139,42 +139,21 @@ There is a [compendium document](./strive-fantasy-game-masters-resource.md) rese
       - [Demonic Blood](#demonic-blood)
       - [Filth \& Darkness](#filth--darkness)
     - [Swine Belcher](#swine-belcher)
-      - [Bite (Agi/Str)](#bite-agistr)
-      - [Putrid Vomit (Agi/Awar)](#putrid-vomit-agiawar)
     - [Swine Champion](#swine-champion)
-    - [Tusked Maw (Agi/Str)](#tusked-maw-agistr)
-      - [Bite](#bite)
-      - [Gore](#gore)
-    - [Swine Commanding (Tough/Wit)](#swine-commanding-toughwit)
-      - [Bestial Roar](#bestial-roar)
-      - [Hit That One!](#hit-that-one)
-      - [You Die When I Let You!](#you-die-when-i-let-you)
     - [Swine Lunger](#swine-lunger)
-      - [Lunge (Agi/Agi)](#lunge-agiagi)
-        - [Vault \& Jab (Agi/Agi)](#vault--jab-agiagi)
     - [Swine Ogre](#swine-ogre)
-      - [Slam (Str/Tough)](#slam-strtough)
-      - [Tusk Thrust (Agi/Str)](#tusk-thrust-agistr)
     - [Swine Shaman](#swine-shaman)
-      - [Bite (Str/Tough)](#bite-strtough)
-    - [A Leader Of Swine (Wit/Wit)](#a-leader-of-swine-witwit)
-      - [Fire Up The Blood](#fire-up-the-blood)
-      - [Drums Of Terror](#drums-of-terror)
-      - [You Die When I Let You!](#you-die-when-i-let-you-1)
     - [Swine Skewerer](#swine-skewerer)
-      - [Throw Javelin (Agi/Str)](#throw-javelin-agistr)
     - [Swine Slasher](#swine-slasher)
     - [Swine Stomper](#swine-stomper)
-    - [Tusked Maw (Agi/Str)](#tusked-maw-agistr-1)
-      - [Bite](#bite-1)
-      - [Gore](#gore-1)
   - [Veil Entities](#veil-entities)
     - [The Monolith](#the-monolith)
     - [Perfection](#perfection)
     - [The Tar Mycelium](#the-tar-mycelium)
     - [Cacophony of Flesh](#cacophony-of-flesh)
-      - [Cacophony of Flesh](#cacophony-of-flesh-1)
     - [The Puppeteer](#the-puppeteer)
+  - [Undead](#undead)
+    - [Alp](#alp)
   - [Void Demons](#void-demons)
     - [Void Stalker](#void-stalker)
 
@@ -1485,7 +1464,7 @@ Due to the demon bound inside them, they are inherently and irredeemably evil. C
 **`-20` Hostility**: Suddenly, a Swine stops dead in its tracks, clawing at its skull and squealing in distorted pain, as demon horns spring from its forehead and the veins beneath its skin begin to glow in bright crimson. It grows to twice its size and hungrily peers around. 
 * It gains `+30` maximum and current HP.
 * It becomes [Berserked](strive-core.md#berserk).
-* Its attacks deal an additional `+4` points of Bleeding damage. 
+* Its attacks deal an additional `+6` points of Bleeding damage. 
 
 #### Filth & Darkness
 **`-10` Hostility**: The foul Swine have prepared a trap! The battlefield is flooded with a nauseating miasma and covered in unnatural darkness! 
@@ -1515,21 +1494,16 @@ This variant is small and stunted. Its legs are too short and deformed to be use
 
 Traits: [Disease-Ridden](strive-core.md#disease-ridden--1-point-1-cr), [Light-weight](strive-core.md#light-weight-2-points--1-cr), [Vulnerable](strive-core.md#vulnerable-2-points--2-cr) to Bleeding `+6`
 
-Assets:
-* Clothing: Tattered Rags
+Assets: Tattered Rags (Clothing)
 
 Skills:
 * Observation, level: `3`
-
-#### Bite (Agi/Str)
-Chomp down on a target. 
-
-Level: `2`, AP: `2`, Ob: Opposed, Melee, `1D4 + Strength` Piercing damage
-
-#### Putrid Vomit (Agi/Awar)
-Throw up a projectile of lumpy stomach acid and 'shoot' it at a target. 
-
-Level: `4`, AP: `2`, Ob: Opposed, Ranged: `30'/10m`, `2D4` Acid damage, [Prefer Range](strive-core.md#weapon-properties)
+* Bite (Agi/Str):
+  * Chomp down on a target. 
+  * Level: `2`, AP: `2`, Ob: Opposed, Melee, `1D4 + Strength` Piercing damage, Innate
+* Putrid Vomit (Agi/Awar):
+  * Throw up a projectile of lumpy stomach acid and 'shoot' it at a target. 
+  * Level: `4`, AP: `2`, Ob: Opposed, Ranged: `30'/10m`, `2D4` Acid damage, [Prefer Range](strive-core.md#weapon-properties), Innate
 
 ### Swine Champion
 This variant stands tall and proud, its wrinkled skin riddled with scars. Its tusks curl proudly, like a jaw-borne crest. 
@@ -1554,48 +1528,33 @@ This variant stands tall and proud, its wrinkled skin riddled with scars. Its tu
 
 Traits: [Vulnerable](strive-core.md#vulnerable-2-points--2-cr) to Bleeding `+6`, [Hyperactive](strive-core.md#hyperactive--7-points-4-cr) + Disruptive
 
-Assets:
-* Spear, Medium Shield, Light Armor
+Assets: Spear, Medium Shield, Light Armor
 
 Skills:
 * Shield, level: `5`
 * Unarmed Combat, level: `3`
 * Weapon \<Spear\>, level: `5`
-
-### Tusked Maw (Agi/Str)
-As a last ditch defence, teeth and strength of jaw may serve. 
-
-Level: `3`
-
-#### Bite
-Chomp down on a target. 
-
-AP: `2`, Ob: Opposed, Melee, `1D4 + Strength` Piercing damage
-
-#### Gore
-Slam into a target with your massive tusks. 
-
-AP: `2`, Ob: Opposed, Melee, `1D6 + Strength` Bludgeoning damage
-
-### Swine Commanding (Tough/Wit)
-A champion commands respect and obedience.
-
-Level: `4`
-
-#### Bestial Roar
-Instill fear and doubt into your victims' hearts. All within `30'/10m` of you suffer `-1` AP and are Terrified of you.
-
-AP: `2`, Ob: Opposed by [Self-Control](strive-core.md#self-control-toughtough), Ranged, Vocal
-
-#### Hit That One!
-[Mark](strive-core.md#marked) a ST of choice, for `2` rounds, up to `30'/10m` away.
-
-AP: `1`, Ob: 2, Ranged, Vocal
-
-#### You Die When I Let You!
-**Reaction**: Once in a battle, when an ally's HP are reduced to `0`, they are instead reduced to your achieved number of hits. 
-
-AP: `1`, Ranged, Vocal
+* Tusked Maw (Agi/Str):
+  * As a last ditch defence, teeth and strength of jaw may serve. 
+  * Level: `3`, Innate
+    * Bite:
+      * Chomp down on a target. 
+      * AP: `2`, Ob: Opposed, Melee, `1D4 + Strength` Piercing damage
+    * Gore:
+      * Slam into a target with your massive tusks. 
+      * AP: `2`, Ob: Opposed, Melee, `1D6 + Strength` Bludgeoning damage
+* Swine Commanding (Tough/Wit):
+  * A champion commands respect and obedience.
+  * Level: `4`, Innate
+    * Bestial Roar:
+      * Instill fear and doubt into your victims' hearts. All within `30'/10m` of you suffer `-1` AP and are Terrified of you.
+      * AP: `2`, Ob: Opposed by [Self-Control](strive-core.md#self-control-toughtough), Ranged, Vocal
+    * Hit That One!:
+      * [Mark](strive-core.md#marked) a ST of choice, for `2` rounds, up to `30'/10m` away.
+      * AP: `1`, Ob: 2, Ranged, Vocal
+    * You Die When I Let You!:
+      * **Reaction**: Once in a battle, when an ally's HP are reduced to `0`, they are instead reduced to your achieved number of hits. 
+      * AP: `1`, Ranged, Vocal
 
 ### Swine Lunger
 This variant is as almost as small as a Belcher, and has atypically short tusks. Perhaps a youngling? It is also quite lean and moves with uncanny precision, for a Swine. 
@@ -1619,22 +1578,17 @@ This variant is as almost as small as a Belcher, and has atypically short tusks.
 
 Traits: [Vulnerable](strive-core.md#vulnerable-2-points--2-cr) to Bleeding `+6`
 
-Assets:
-* Clothing: Tattered Rags, Dagger x2
+Assets: Tattered Rags (Clothing), Dagger x2
 
 Skills:
 * Stealth, level: `4`
 * Weapon \<Dagger\>, level: `5`
-
-#### Lunge (Agi/Agi)
-Lunge up to `21'/7m`, dealing damage to all foes in your path with your weapons. Does not provoke [Opportunity Attacks](strive-core.md#opportunity-attacks). Causes `+1` Exhaustion to self. 
-
-Level: `5`, AP: `3`, Ob: Opposed, Melee, MST, `1D4 + Strength` Slashing damage
-
-##### Vault & Jab (Agi/Agi)
-Jump over an adjacent enemy, landing behind them, and attack them. Does not provoke [Opportunity Attacks](strive-core.md#opportunity-attacks). Causes `+1` Exhaustion to self. 
-
-Level: `4`, AP: `3`, Ob: Opposed, Melee, ST, `1D6 + Strength` Slashing damage
+* Lunge (Agi/Agi):
+  * Lunge up to `21'/7m`, dealing damage to all foes in your path with your weapons. Does not provoke [Opportunity Attacks](strive-core.md#opportunity-attacks). Causes `+1` Exhaustion to self. 
+  * Level: `5`, AP: `3`, Ob: Opposed, Melee, MST, `1D4 + Strength` Slashing damage, Innate
+* Vault & Jab (Agi/Agi):
+  * Jump over an adjacent enemy, landing behind them, and attack them. Does not provoke [Opportunity Attacks](strive-core.md#opportunity-attacks). Causes `+1` Exhaustion to self. 
+  * Level: `4`, AP: `3`, Ob: Opposed, Melee, ST, `1D6 + Strength` Slashing damage, Innate
 
 ### Swine Ogre
 A hulking mass of Swine and muscle, towering above all around. Despite its imposing nature, it frequently looks to the other Swine for guidance. It almost looks sleepy, except in moments of violence. 
@@ -1658,21 +1612,16 @@ A hulking mass of Swine and muscle, towering above all around. Despite its impos
 
 Traits: [Vulnerable](strive-core.md#vulnerable-2-points--2-cr) to Bleeding `+6`
 
-Assets:
-* Clothing: Tattered Rags, Large Crusher
+Assets: Tattered Rags (Clothing), Large Crusher
 
 Skills:
 * Weapon \<Large Crusher\>, level: `2`
-
-#### Slam (Str/Tough)
-Slam into a victim, knocking them `Strength * 3'/1m` backwards.
-
-Level: `4`, AP: `2`, Ob: Opposed, Melee, ST, `Strength` Bludgeoning damage
-
-#### Tusk Thrust (Agi/Str)
-Slam into a **ST** with your enormous tusks, imapling your victim upon them. 
-
-Level: `3`, AP: `2`, Ob: Opposed, Melee, ST, `1D6 + Agility` Piercing damage
+* Slam (Str/Tough):
+  * Slam into a victim, knocking them `Strength * 3'/1m` backwards.
+  * Level: `4`, AP: `2`, Ob: Opposed, Melee, ST, `Strength` Bludgeoning damage, Innate
+* Tusk Thrust (Agi/Str):
+  * Slam into a **ST** with your enormous tusks, imapling your victim upon them. 
+  * Level: `3`, AP: `2`, Ob: Opposed, Melee, ST, `1D6 + Agility` Piercing damage, Innate
 
 ### Swine Shaman
 An intelligent and cruel leader among the Swine. Its gaze attentively surveys all, as it stands proudly, in relatively clean clothes and at the center of Swine society. The bright crimson in its surface-level veins glows faintly. Elaborate arrangements of bones sewn to its clothes lend it an air of dark majesty. 
@@ -1688,45 +1637,34 @@ An intelligent and cruel leader among the Swine. Its gaze attentively surveys al
 
 | Agi   | Awar  | Str   | Tough | Wit   | Arc   |
 | ----- | ----- | ----- | ----- | ----- | ----- |
-| 2     | 2     | 3     | 3     | 5     | 6     |
+| 2     | 2     | 3     | 4     | 5     | 6     |
 
 | BI     | Sprint | Stabil | Def    | FS         | HP  | Exhaustion |
 | ------ | ------ | ------ | ------ | ---------- | --- | ---------- |
-| 9      | 3      | 0      | 2      | 2 Piercing | 30  | 4          |
+| 9      | 3      | 0      | 2      | 2 Piercing | 40  | 4          |
 
 Traits: [Vulnerable](strive-core.md#vulnerable-2-points--2-cr) to Bleeding `+6`
 
-Assets:
-* Clothing: Fine Rags, Large Crusher
+Assets: Fine Rags (Clothing), Large Crusher
 
 Skills:
 * Magic School \<Hexing\>, level: `5`
 * Medicine, level: `3`
-
-#### Bite (Str/Tough)
-Chomp down on a target. 
-
-Level `2`, AP: `2`, Ob: Opposed, ST, Melee, `1D4 + Strength` Piercing damage
-
-### A Leader Of Swine (Wit/Wit)
-A shaman commands respect and terror.
-
-Level: `5`
-
-#### Fire Up The Blood
-Strike up a haunting chant, in demonic language, stirring the blood of your fellow Swine. One of of them, up to `45'/15m` away is enraged, and overwhelmed with their demoic blood, which starts leaking out of their eyes and nostrils. Until the end of combat, every tick, they suffer `5` points of bleeding damage, but also deal an additional `8` points of bludgeoning damage on every successful attack. 
-
-AP: `3`, Ob: `2`, ST (ally Swine), Ranged: `45'/15m`, Vocal
-
-#### Drums Of Terror
-Beating on a drum with a... face... stretched across it, instill terror in your foes. Every non-Swine in a `45'/15m` radius around must succeed a Self-Control test, or else become [Terrified](strive-core.md#terrified) of the shaman. 
-
-AP: `2`, Ob: Opposed by Self-Control + 1, MST, Ranged: `45'/15m`, Auditory
-
-#### You Die When I Let You!
-**Reaction**: Once in a battle, when an ally's HP are reduced to `0`, they are instead reduced to your achieved number of hits. 
-
-AP: `1`, Ranged, Vocal
+* Bite (Str/Tough):
+  * Chomp down on a target. 
+  * Level `2`, AP: `2`, Ob: Opposed, ST, Melee, `1D4 + Strength` Piercing damage, Innate
+* A Leader Of Swine (Wit/Wit):
+  * A shaman commands respect and terror.
+  * Level: `5`, Innate
+    * Fire Up The Blood:
+      * Strike up a haunting chant, in demonic language, stirring the blood of your fellow Swine. One of of them, up to `45'/15m` away is enraged, and overwhelmed with their demoic blood, which starts leaking out of their eyes and nostrils. Until the end of combat, every tick, they suffer `5` points of bleeding damage (the Swine's vulnerability to bleeding damage does not get triggered by this), but also deal an additional `8` points of bludgeoning damage on every successful attack. 
+      * AP: `3`, Ob: `2`, ST (ally Swine), Ranged: `45'/15m`, Vocal
+    * Drums Of Terror:
+      * Beating on a drum with a... face... stretched across it, instill terror in your foes. Every non-Swine in a `45'/15m` radius around must succeed a Self-Control test, or else become [Terrified](strive-core.md#terrified) of the shaman. 
+      * AP: `2`, Ob: Opposed by Self-Control + 1, MST, Ranged: `45'/15m`, Auditory
+    * You Die When I Let You!:
+      * **Reaction**: Once in a battle, when an ally's HP are reduced to `0`, they are instead reduced to your achieved number of hits. 
+      * AP: `1`, Ranged, Vocal
 
 ### Swine Skewerer
 This variant has full dark-red fur and much shorter tusks. It moves deftly, albeit sloppily. 
@@ -1749,17 +1687,14 @@ This variant has full dark-red fur and much shorter tusks. It moves deftly, albe
 
 Traits: [Vulnerable](strive-core.md#vulnerable-2-points--2-cr) to Bleeding `+6`, [Poisoner](strive-core.md#poisoner--4-points-2-cr)
 
-Assets:
-* Clothing: Tattered Rags, Javelin x8, Bear Trap x3
+Assets: Tattered Rags (Clothing), Javelin x8, Bear Trap x3
 
 Skills:
 * Observation, level: `3`
 * Stealth, level: `5`
-
-#### Throw Javelin (Agi/Str)
-Throw a javelin at a **ST**. 
-
-Level: `4`, Ob: Opposed, Ranged: `30'/10m`, ST, `1D8` Piercing damage
+* Throw Javelin (Agi/Str):
+  * Throw a javelin at a **ST**. 
+  * Level: `4`, Ob: Opposed, Ranged: `30'/10m`, ST, `1D8` Piercing damage, Innate
 
 ### Swine Slasher
 This variant is lanky and sways a little. 
@@ -1781,8 +1716,7 @@ This variant is lanky and sways a little. 
 
 Traits: [Vulnerable](strive-core.md#vulnerable-2-points--2-cr) to Bleeding `+6`
 
-Assets:
-* Clothing: Tattered Rags, Axe, Light Shield
+Assets: Tattered Rags (Clothing), Axe, Light Shield
 
 Skills:
 * Shield, level: `3`
@@ -1819,21 +1753,15 @@ Swine Armored Rags: Slashing `6`, Piercing `4`, Bludgeoning `3`, Acid `6`
 Skills:
 * Unarmed Combat, level: `4`
 * Weapon \<Large Crusher\>, level: `3`
-
-### Tusked Maw (Agi/Str)
-As a last ditch defence, teeth and strength of jaw may serve. 
-
-Level: `3`
-
-#### Bite
-Chomp down on a target. 
-
-AP: `2`, Ob: Opposed, Melee, `1D4 + Strength` Piercing damage
-
-#### Gore
-Slam into a target with your massive tusks. 
-
-AP: `2`, Ob: Opposed, Melee, `1D6 + Strength` Bludgeoning damage
+* Tusked Maw (Agi/Str):
+  * As a last ditch defence, teeth and strength of jaw may serve. 
+  * Level: `3`, Innate
+* Bite:
+  * Chomp down on a target. 
+  * AP: `2`, Ob: Opposed, Melee, `1D4 + Strength` Piercing damage, Innate
+* Gore:
+  * Slam into a target with your massive tusks. 
+  * AP: `2`, Ob: Opposed, Melee, `1D6 + Strength` Bludgeoning damage, Innate
 
 ## Veil Entities
 Veil Entities are unlike any other. They are strange and unfathomable things from a dimension, or other form of existence unlike any we know. These entities aren't necessarily evil, nor are they particularly interested in causing harm, if indeed they are capable of sentience at all. It is their very nature that is harmful to ours. Fortunately, The Veil reclaims its denizens diligently. 
@@ -1850,35 +1778,68 @@ The entire scene is covered in a black, slimy web of tiny pulsating strands of a
 ### Cacophony of Flesh
 An abominable mound of misshapen flesh, with countless tiny and several massive ragged tentacles protruding from it. As soon as it is able, it will violently thrash about, trying *desperately* to inflict vengeful violence upon all in its path. Lasts for `5` rounds or `5` minutes, before it melts away gruesomely. 
 
-| Attributes | Level |
-| ---------- | ----- |
-| Agi        | 5     |
-| Awar       | 5     |
-| Str        | 20    |
-| Tough      | 20    |
-| Wit        | 1     |
+* Power: Regular, CR: `20`
+* Roles: Tank, Brawler
+  * This aberration is not your average foe. It is not to be engaged, as trying to slay it would be far too perilous.
+* Behavior: 
+  * Hungrily seeks and lurches towards victims to devour. 
 
-| Skills                     | Level |
-| -------------------------- | ----- |
-| Acrobatics                 | 2     |
-| Observation                | 1     |
-| Cacophony of Flesh         | 5     |
-| Unarmed Combat             | 5     |
+| Agi   | Awar  | Str   | Tough | Wit   | Arc   |
+| ----- | ----- | ----- | ----- | ----- | ----- |
+| 5     | 5     | 20    | 20    | 1     | 0     |
 
-#### Cacophony of Flesh
-Countless tiny and several massive ragged tentacles writhe and twitch with violent intent and an indescribable mound of flesh stands suspended above the ground, menacingly. 
+| BI     | Sprint | Stabil | Def    | FS         | HP  | Exhaustion |
+| ------ | ------ | ------ | ------ | ---------- | --- | ---------- |
+| 4      | 1      | 5      | 1      | 5 Bludgeoning | 200 | 5          |
 
-* **Innate** - cannot be learned.
-* **Passive**: Sticky - can climb and stick to any surface. 
+Traits: [Climber + Sticky](strive-core.md#climber--2-points-1-cr)
 
-| Level | Expertise            | AP | **Ob**      | Damage                           | Notes  |
-| ----- | -------------------- | -- | ----------- | -------------------------------- | ------ |
-| 0     | Slam                 | 2  | Opposed     | `Str` Bludgeoning                | Slam down on a target with your entire body, enveloping them in a tentacled mass. They are rendered [Prone](./strive-core.md#prone) and [Grappled](./strive-core.md#grappled). |
-| 0     | Thrash               | 2  | /           | /                                | Everything in a `9'/3m` radius around you is thrown backwards by `hits * 3'/1m` as your tentacles flail about, wildly. |
-| 0     | Devour               | 2  | Opposed     | /                                | Devour a **ST** creature in one swoop. As they enter your stomach, they are considered [Grappled](./strive-core.md#grappled) and cannot move on their own. They suffer `1D10` Acid damage at the start of your every turn. Only one creature may be devoured, at a time. You can spit out a creature you devoured, at no AP cost. |
+Skills: 
+* Unarmed Combat: Level `5`, Innate
+* Cacophony of Flesh (Agi/Agi):
+  * Countless tiny and several massive ragged tentacles writhe and twitch with violent intent and an indescribable mound of flesh stands suspended above the ground, menacingly. 
+    * Slam:
+      * Slam down on a target with your entire body, enveloping them in a tentacled mass. They are rendered [Prone](./strive-core.md#prone) and [Grappled](./strive-core.md#grappled).
+      * AP: 2, Ob: Opposed, `Strength` bludgeoning damage
+    * Thrash:
+      * Everything in a `9'/3m` radius around you is thrown backwards by `30'/10m` as your tentacles flail about, wildly.
+      * AP:2
+    * Devour:
+      * Devour a **ST** creature in one swoop. As they enter your stomach, they are considered [Grappled](./strive-core.md#grappled) and cannot move on their own. They suffer `1D10` Acid damage at the start of your every turn. Only one creature may be devoured, at a time. You can spit out a creature you devoured, at no AP cost.
+      * AP: 2, Ob: Opposed
 
 ### The Puppeteer
-A giant stick-figure, shrouded in swirling darkness and blurred edges. All corpses, no matter how old, within `900'300m` around the Puppeteer begin to move again. They arise from their tombs, graves and battlefields, to enact terrible vengeance on the living. The Puppeteer lasts for several days. Should The Puppeteer be called again from The Veil in the time it is already present, then several more days will be added to the time it may escape The Veil. 
+A giant stick-figure, shrouded in swirling darkness and blurred edges. All corpses, no matter how old, within `900'/300m` around the Puppeteer begin to move again. They arise from their tombs, graves and battlefields, to enact terrible vengeance on the living. The Puppeteer lasts for several days. Should The Puppeteer be called again from The Veil in the time it is already present, then several more days will be added to the time it may escape The Veil. 
+
+## Undead
+Whether they occur naturally or unnaturally, both your typical undead and some more unusual specimen may haunt your world. While the Fantasy Module assumes them to be mindless monsters, you may of course decide for your world that they may in fact retain some if not all of their sapience. 
+
+### Alp
+The Alp is a predator, yet it preys not on flesh, but on raw fear itself. For this reason, it often encroaches on civilization, where it causes streaks of never ending nightmares for the people. They can take this spiel so far as to drive their victims insane. Suicides in villages haunted by Alps are not uncommon.
+
+This hunched humanoid is pale and haggard. Its face is featureless, devoid of eyes and mouth. Long claws at the ends of its three fingers clarify its hostile intent. 
+
+Alps are a fairly common occurence throughout the world. How they reproduce is a bit of a mystery, though it is assumed to be related victims taking their own lives. In a way, the Alp's condition might be carried like a self-perpetuating curse. Fact is that the graves of suicides often end up empty just a few days later. Although such graves are often regarded as sacrilegious and are ill-favored by the locals, which may simply have decided they have a better use for the space or valuables the victim was buried with. 
+
+* Power: Regular, CR: `4`
+* Roles: 
+  * Employ as an investigation and moderate combat challenge. 
+  * If you want to ramp up the challenge, have the encounter begin near a civilian victim which the Alp is about to or already has put to sleep, so it can immediately use "Nightmare". 
+* Behavior: 
+  * Stays close to civilization. May sometimes even hide inside towns and cities. 
+  * Only active at night. Tends to hibernate during the day, in a well hidden location. 
+
+| Agi   | Awar  | Str   | Tough | Wit   | Arc   |
+| ----- | ----- | ----- | ----- | ----- | ----- |
+| 4     | 1     | 3     | 3     | 3     | 5     |
+
+| BI     | Sprint | Stabil | Def    | FS         | HP  | Exhaustion |
+| ------ | ------ | ------ | ------ | ---------- | --- | ---------- |
+| 8      | 3      | 0      | 2      | 2 Slashing | 30  | 2          |
+
+Traits: 
+
+Skills: 
 
 ## Void Demons
 When a soul is thrust into the void between realities, it is stretched infinitely thin. Unable to fill the void, it snaps and implodes, bouncing back into reality, but broken. It cannot function as it once did and furthermore, keeps open a tear to the void. It apparates as a monster of swirling shadow, not quite corporeal, yet not fully ethereal. 
