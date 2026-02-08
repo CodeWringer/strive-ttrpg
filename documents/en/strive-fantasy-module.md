@@ -132,6 +132,12 @@ There is a [compendium document](./strive-fantasy-game-masters-resource.md) rese
     - [Telekinesis (Arc/Agi)](#telekinesis-arcagi)
     - [Telepathy (Arc/Wit)](#telepathy-arcwit)
   - [List of Illnesses](#list-of-illnesses)
+  - [Archetype Characters](#archetype-characters)
+    - [The Arcaenologist](#the-arcaenologist)
+    - [The Performer](#the-performer)
+    - [The Surgeon](#the-surgeon)
+    - [The Tired Monster Hunter](#the-tired-monster-hunter)
+    - [The Warboss](#the-warboss)
 - [Fantasy Game-Masters Resource](#fantasy-game-masters-resource)
 - [Creature Compendium](#creature-compendium)
   - [Swine-Beasts](#swine-beasts)
@@ -1440,6 +1446,209 @@ This list supplements the list of **injuries** of the [core module](./strive-cor
 | Name              | Duration          | Effect      | Treatment |
 | ----------------- | ----------------- | ----------- | --------- |
 | Amber Curse       | **2D10** Days     | The victim finds it difficult to feel the flow of magic through their body. **-1D4** [arcana](#arcana-arc); **-1D4** to any magic skills and [rune-using](#rune-using-agiwit). | Conventional methods cannot treat this illness. It can be treated with a potion of powdered [abyssalite](#abyssalite). |
+
+## Archetype Characters
+This section contains some pre-defined archetypal characters. These are mostly ready to play and serve as instructional references on how to build your own characters. 
+
+Their name, species, gender, age and other details are left up to you to fill out, with the help of your GM, as such details must fit their world and cannot be predicted here. Also, the initial drivers are designed you get these characters to come together and co-operate. There is no point in playing lone wolves. You are very much expected to replace the drivers and come up with your own after the first session of play. 
+
+### The Arcaenologist
+After so many years of study and dedication to dusty tomes and repeated lectures, you realize the world cannot be found in books and scrolls - it is *out there*. Perhaps it is not yet too late to experience it all?
+
+Ambition: Perhaps I could leave a lasting legacy, as well? I will craft a legendary magical artifact!
+
+Drivers:
+1. I wish to see all the world's wonders! 
+2. I know there are many private collections full of magical marvels. I will gain access to them!
+3. I have never traveled much before. I will need guidance and perhaps a group to tag along to my next destination.
+
+Reactions:
+1. Troublemaker: When frightened, I tend to have outbursts of my pyromanic magic. 
+2. Troublemaker: I tend to drone on and ramble, testing the patience of others, especially in negotiations. 
+3. Assurance: The world of magic practicioners is small enough and well connected - I know most others who engage in my craft. 
+
+| Agi          | Awar         | Str          | Tough        | Wit          | Arc (Core)   |
+| ------------ | ------------ | ------------ | ------------ | ------------ | ------------ |
+| 1            | 3            | 1            | 1            | 3            | 4            |
+
+| BI     | Sprint | Stabil | HP  | Exhaustion |
+| ------ | ------ | ------ | --- | ---------- |
+| 7      | 1      | 0      | 20  | 2          |
+
+Titles of Renown:
+* Loremaster of *X* (3) - at the cost of `2` points that would have gone to Skills. Replace *X* with something befitting your GM's world - make sure to consult them!
+
+Skills:
+* Alchemy, Level `3`
+* History, Level `3`
+* Magic School \<Artificing\>, Level `4`
+* Magic School \<Pyromancy\>, Level `3`
+* Magic School \<Restoration\>, Level `3`
+* Reading and Writing, Level `2`
+* Rune-Smithing, Level `1`
+
+Assets:
+* 1x Scholar's noble garb
+* 2x Illusionist's Powder
+* 3x Dragon's Breath Potion
+
+### The Performer
+All the world's a stage! Life is a performance! And yours will be the greatest performance of all, in one way or another! You live for the stage - whether it be made of wood and curtains, or dust and blood. You seek to be excited, to excite and to support those who do either. After all, a good actor knows when to leave the stage to others...
+
+The Performer may seem like a chaotic troublemaker, but if you pick them, don't play them like a nuisance. They're a **connoisseur of art and drama**, not some hateful *idiot*. Fan the flames only when it is *really dramatic*. And be supportive of others - they have a part in this play, too, after all!
+
+Ambition: Become world renowned, in any way I might! If all life is to end, then I shall make mine **such** an end!
+
+Drivers:
+1. Renown doesn't come from inaction - I will fulfill a job that is sure to make me known to the world!
+2. I seek thrill and excitement! And what greater thrill is there to be found, than in blood sport? I will participate!
+3. Great works live on - I will invent the world's most outrageous, exciting and inspiring stage play! 
+
+Reactions:
+1. Troublemaker: I cannot help but fan the flames - a heated situation is always *so much more interesting*!
+2. Troublemaker: I love when the blood pumps - and I seek such moments voraciously!
+3. Assurance/Troublemaker: It takes one to know one - I can always recognize an actor, a charlatan and a visionary. But I *might* keep such wisdom to myself...
+
+| Agi (Core)   | Awar         | Str          | Tough        | Wit          | Arc          |
+| ------------ | ------------ | ------------ | ------------ | ------------ | ------------ |
+| 4            | 3            | 3            | 2            | 1            | 0            |
+
+| BI     | Sprint | Stabil | HP  | Exhaustion |
+| ------ | ------ | ------ | --- | ---------- |
+| 8      | 3      | 1      | 30  | 3          |
+
+Traits:
+* Warcrobat - at the cost of `2` points that would have gone to Skills.
+
+Skills:
+* Acrobatics, Level: `3`
+* Acting, Level: `3`
+* Entertainment, Level: `3`
+* History, Level: `1`
+* Self-Control, Level: `2`
+* Throwing, Level: `3`
+* Weapon \<Chained-Blade\>, Level `4`
+
+Assets:
+* 1x Performer's garb
+* 1x Chained-Blade
+* 6x Throwing Blade
+
+### The Surgeon
+Everyone needs a good doctor and everyone wants to be friends with one. Whether out of altruistic instinct, or for coin, your skills with a short blade and your academic expertise will always come in useful. 
+
+Ambition: Establish a hospital and make it house the world's finest medics and surgeons. My name shall live on through it!
+
+Drivers:
+1. I will travel the world and seek out the most renowned medics and surgeons, to convince them of my hospital. 
+2. I will find a group of foolhardy adventurers to travel with, as I will need protection and coin. And to keep honing my art. 
+3. A hospital is expensive - I will convince someone influential and wealthy to fund my hospital for me. 
+
+Reactions:
+1. Troublemaker: If someone is in need, I will always help. Afterwards I may still ask to be paid, though.
+2. Troublemaker: If someone else tries to treat Injuries, I will always push them aside and take over. Can't have the laity play doctor!
+3. Troublemaker: I do not kill people. I may hurt them, though.
+
+| Agi (Core)   | Awar         | Str          | Tough        | Wit          | Arc          |
+| ------------ | ------------ | ------------ | ------------ | ------------ | ------------ |
+| 4            | 1            | 2            | 2            | 4            | 0            |
+
+| BI     | Sprint | Stabil | HP  | Exhaustion |
+| ------ | ------ | ------ | --- | ---------- |
+| 9      | 3      | 0      | 30  | 3          |
+
+Skills:
+* History, Level: `3`
+* Medicine, Level: `3`
+* Reading and Writing, Level: `2`
+* Observation, Level: `2`
+* Self-Control, Level: `2`
+* Surgery, Level: `4`
+* Unarmed Combat, Level: `2`
+* Weapon \<Dagger\>, Level: `3`
+
+Assets:
+* 1x Dagger
+* 1x Surgeon's apron above fine white clothes
+* 5x Medical Supplies
+
+### The Tired Monster Hunter
+The many years of crawling through mud, delving into filth-filled sewers, getting lost in treacherous caverns and ambushed in haunted forests have left their marks on you. Countless scars each have a story to tell, but you are far too tired to recount them all. You would love nothing more than to settle down and retire, but you also realize the world needs you to keep up the good work, for there are still many monsters more, but not enough of *your* kind to oppose them. 
+
+Ambition: Learn a simple craft and ultimately retire. But only after making sure there are enough others to follow in your foot-steps. 
+
+Drivers:
+1. The world is perilous and in need of heroes. I will ensure many others will successfully take up my profession. 
+2. My current quarry is a particular threat. I will find allies to help me track and ultimately take it down. 
+3. Others view me with unjust suspicion. I will earn the trust of a community I wish to settle down in!
+
+Reactions:
+1. Troublemaker: I must help others in need - life is tough enough as it is. But I refuse coin for good deeds. 
+2. Assurance: I have a reputation. Others know my work and will gladly point me towards more, even offer supplies and financial aid, albeit no helping hand. 
+3. Troublemaker/Assurance: Whenever I am unsure of my path, I take out my - supposedly broken - compass. Its needle always points where I am needed. I think. 
+
+| Agi          | Awar (Core)  | Str          | Tough        | Wit          | Arc          |
+| ------------ | ------------ | ------------ | ------------ | ------------ | ------------ |
+| 2            | 4            | 1            | 3            | 3            | 0            |
+
+| BI     | Sprint | Stabil | HP  | Exhaustion |
+| ------ | ------ | ------ | --- | ---------- |
+| 9      | 3      | 0      | 40  | 4          |
+
+Titles of Renown:
+* Monster Hunter - at the cost of `2` points that would have gone to Skills. Consult your GM to determine which three kinds of beasts you have slain before. 
+
+Skills:
+* Creature-Lore, Level `3` - Consult your GM to determine the category of creature. 
+* Nature, Level `3`
+* Observation, Level `3`
+* Path-Finding, Level `3`
+* Stealth, Level `2`
+* Trapping, Level `3`
+* Weapon \<Crossbow\>, Level `4`
+
+Assets:
+* 1x Light Armor
+* 1x Crossbow
+* 2x Blackpowder Bomb
+
+### The Warboss
+Times may have been tough for you, but you'll come back from your setbacks. Thanks to your wit and skill, you always do. That usurper who took over your mercenary company won't even know what hit him once you get to him! Those many long years with your company have been the best of your life. The bonds forged in war and feasts *should* have been unbreakable. But perhaps, such bonds could be forged anew?
+
+Ambition: That usurper may have my mercenary company for now, but I will take it back!
+
+Drivers:
+1. I need capable allies to aid my quest for revenge. I hear adventurers are always ready to work for coin, as am I. I will make friends with some of them. 
+2. My allies are spent and stolen. I will earn a favor from someone influential and wealthy, to call upon later. 
+3. My old company has made themselves scarce. I know they fear me. I will find out where they currently are and what their plans are.
+
+Reactions:
+1. Troublemaker: Whenever I get the chance, I will boast wholeheartedly of my exploits and those of my company! Who cares if not everything we did was *legal*?
+2. Assurance: Many negotiations in the past have taught me valuable people skills. I can always tell if *something* seems off in an offered deal. 
+3. Troublemaker/Assurance: You never know where the enemy lurks. I always have a weapon and my armor ready. 
+
+| Agi          | Awar         | Str          | Tough        | Wit (Core)   | Arc          |
+| ------------ | ------------ | ------------ | ------------ | ------------ | ------------ |
+| 2            | 1            | 2            | 4            | 4            | 0            |
+
+| BI     | Sprint | Stabil | HP  | Exhaustion |
+| ------ | ------ | ------ | --- | ---------- |
+| 7      | 3      | 0      | 50  | 5          |
+
+Skills:
+* Commanding, Level: `3`
+* Medicine, Level: `2`
+* Mercantilism, Level: `2`
+* Path-Finding, Level: `2`
+* Self-Control, Level: `2`
+* Shield, Level: `3`
+* Warfare, Level: `4`
+* Weapon \<Light Blade\>, Level: `3`
+
+Assets:
+* 1x Light Blade
+* 1x Shield
+* 1x Medium Armor
 
 # Fantasy Game-Masters Resource
 This and the following sections are reserved solely for the **GM**'s eyes. Reading on as a player may spoil many surprises and the fun of discovery for you. 
