@@ -303,6 +303,7 @@ Furthermore, a meta-currency, called **Fate Points** is earned by *players*, bas
     - [Your Players](#your-players)
 - [Your World](#your-world)
   - [First Impressions Are Definitive](#first-impressions-are-definitive)
+  - [Character Background Matters](#character-background-matters)
 - [Non-Player Character (NPC)](#non-player-character-npc)
   - [Defense \[Def\]](#defense-def)
   - [Free Strike \[FS\]](#free-strike-fs)
@@ -791,7 +792,7 @@ For every `2` levels in this **Attribute**, past level `2` (i. e. starting at le
 <img src="../../img/toughness.svg" style="width: 3rem; height: 3rem;"> Enduring physical and mental strains. 
 
 For every level in **Toughness**, a character...
-* ...gains `+10` maximum [HP](#hit-points-hp). All characters have base [HP](#hit-points-hp) of `10`. 
+* ...gains `+10` maximum [HP](#hit-points-hp). All PCs have base [HP](#hit-points-hp) of `10`. 
 * ...raises their [exhaustion limit](#exhaustion) by `+1`. All characters have a base limit of `1`. 
 * ...gains around `3` minutes of holding their breath. 
 * ...gains one additional die with which to try and shrug off an [injury](#injury).
@@ -2919,6 +2920,13 @@ For this reason, it is often wise to introduce **normality first**, instead of t
 If it is normal to arrive in a new city safely, find secure lodgings, go to the market or inn and *not* be robbed or molested, then that should be the first impression the PCs get to experience. Unless, of course, there is solid narrative reason why that shouldn't be the case. Even so, it *will* paint a picture the players won't soon forget. 
 
 This is also why PCs should be expected to behave as their origin cultures dictate. This point is probably up for contention, as PCs are usually somewhat special. They may deviate to an extent, but even so, the "elf in the party" defines the very perception of elves to all the players. The way that PC behaves, is the way players will expect all elves to behave, because that is often their first exposure to people of that culture (and yes, elves most certainly also have various differing cultures, which further complicates the issue). However, this is not to say you should step in whenever the PC "misbehaves" and prevent their action outright. After all, *you* do not decide the PC's actions. Their player does. But you may offer counsel and inform them that their PC probably *knows* they're currently acting atypical. And perhaps the player just doesn't enjoy the cultural background of their PC. If so, you may want to let them change it. There is little point in forcing a player to play a PC they don't enjoy playing. 
+
+## Character Background Matters
+There may be times when a player may choose a specific species and cultural background, only because they know it will grant their character a specific boon at character creation. They might not have any interest in experiencing the character as would be appropriate. They might pick an unfitting name or have their character act in a very atypical fashion for members of that species and cultural background. 
+
+It is times like these that you may strongly want to consider stepping in and denying that player the right to create that particular character. In the end, this make-believe world can only feel real, and *the magic* can only happen, if both players and GM are willing to engage with it in earnest. This doesn't mean you mustn't joke and have fun at the table! But, for example, the player picks a cultural background of an ex-slave, whose species was only recently liberated and who are known as very submissive, cautious and humble, then when the player doesn't have their character at all act in line with that background, you may have to step in and seriously ask the player if they're interested in actually playing that species.
+
+Of course, PCs are always a bit special, but even so, in the end, the choice of species and culture shouldn't be irrelevant. Variety is the spice of life and it may be exciting to actually try and get into the appropriate mindset of the character. To an extent, empathy is a learned skill and not everyone may be good at it, right away. Coach your players and help them play in-character. While you should never tell your player what their character will actually think or do, you should inform them how their character should think and what they would be expected to do, in-line with their background. 
 
 # Non-Player Character (NPC)
 Non-player characters (**NPCs**) are all the **people, animals and monsters** of your world, that aren't the PCs. 

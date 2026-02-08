@@ -72,7 +72,7 @@ There is a [compendium document](./strive-fantasy-game-masters-resource.md) rese
       - [Light Blade (Agi/Str)](#light-blade-agistr)
       - [Long Blade (Agi/Str)](#long-blade-agistr)
       - [Great Blade (Str/Tough)](#great-blade-strtough)
-      - [Chained-Blade (Agi)](#chained-blade-agi)
+      - [Chained-Blade (Agi/Agi)](#chained-blade-agiagi)
       - [Axe (Str/Str)](#axe-strstr)
       - [Great Axe (Str/Str)](#great-axe-strstr)
       - [Spear (Agi/Str)](#spear-agistr)
@@ -739,7 +739,7 @@ Any very long and heavy two-handed blade. Examples: great-sword, sword of war, g
 | 2     | Blade Barrier        | 2  | Opposed     | /                                | Whenever any character moves **into** a spot within reach, can attack that character with a **slash** at `Ob + 1` and always force them back `1`, until the start of your next turn. These attacks do not cost any additional **AP**. |
 | 3     | Heavy Blow           | 3  | Opposed + 2 | `1D6` Slashing + `Strength` Bludgeoning | Defending against this attack costs 2 [AP](./strive-core.md#action-points-ap). Causes `+1` Exhaustion to self. If successful, the target is knocked Prone. |
 
-#### Chained-Blade (Agi)
+#### Chained-Blade (Agi/Agi)
 A down-angled, weighted blade, with a spike forwards, perfect for throwing and connected to a very light chain or rope, for easy retrieval. 
 
 This weapon requires masterful precision and rewards its user with great versatility. 
@@ -1697,7 +1697,7 @@ This variant is small and stunted. Its legs are too short and deformed to be use
 | ----- | ----- | ----- | ----- | ----- | ----- |
 | 4     | 4     | 2     | 1     | 1     | 0     |
 
-| BI     | Sprint | Stabil | Def    | FS     | HP  | Exhaustion |
+| BI     | Sprint | Stabil | Def    | FS (Ranged: 10) | HP  | Exhaustion |
 | ------ | ------ | ------ | ------ | ------ | --- | ---------- |
 | 9      | 3      | 0      | 2      | 2 Acid | 10  | 2          |
 
@@ -1731,7 +1731,7 @@ This variant stands tall and proud, its wrinkled skin riddled with scars. Its tu
 | ----- | ----- | ----- | ----- | ----- | ----- |
 | 3     | 2     | 4     | 5     | 3     | 0     |
 
-| BI     | Sprint | Stabil | Def    | FS         | HP  | Exhaustion |
+| BI     | Sprint | Stabil | Def    | FS (Melee) | HP  | Exhaustion |
 | ------ | ------ | ------ | ------ | ---------- | --- | ---------- |
 | 8      | 4      | 2      | 4      | 3 Piercing | 50  | 5          |
 
@@ -1781,7 +1781,7 @@ This variant is as almost as small as a Belcher, and has atypically short tusks.
 | ----- | ----- | ----- | ----- | ----- | ----- |
 | 6     | 2     | 3     | 2     | 2     | 0     |
 
-| BI     | Sprint | Stabil | Def    | FS         | HP  | Exhaustion |
+| BI     | Sprint | Stabil | Def    | FS (Melee) | HP  | Exhaustion |
 | ------ | ------ | ------ | ------ | ---------- | --- | ---------- |
 | 10     | 4      | 0      | 3      | 4 Slashing | 20  | 1          |
 
@@ -1815,7 +1815,7 @@ A hulking mass of Swine and muscle, towering above all around. Despite its impos
 | ----- | ----- | ----- | ----- | ----- | ----- |
 | 1     | 1     | 6     | 6     | 1     | 0     |
 
-| BI     | Sprint | Stabil | Def    | FS         | HP  | Exhaustion |
+| BI     | Sprint | Stabil | Def    | FS (Melee) | HP  | Exhaustion |
 | ------ | ------ | ------ | ------ | ---------- | --- | ---------- |
 | 3      | 4      | 4      | 1      | 2 Bludgeoning | 60  | 7          |
 
@@ -1848,7 +1848,7 @@ An intelligent and cruel leader among the Swine. Its gaze attentively surveys al
 | ----- | ----- | ----- | ----- | ----- | ----- |
 | 2     | 2     | 3     | 4     | 5     | 6     |
 
-| BI     | Sprint | Stabil | Def    | FS         | HP  | Exhaustion |
+| BI     | Sprint | Stabil | Def    | FS (Melee) | HP  | Exhaustion |
 | ------ | ------ | ------ | ------ | ---------- | --- | ---------- |
 | 9      | 3      | 0      | 2      | 2 Piercing | 40  | 4          |
 
@@ -1890,9 +1890,9 @@ This variant has full dark-red fur and much shorter tusks. It moves deftly, albe
 | ----- | ----- | ----- | ----- | ----- | ----- |
 | 5     | 3     | 4     | 3     | 2     | 0     |
 
-| BI     | Sprint | Stabil | Def    | FS         | HP  | Exhaustion |
-| ------ | ------ | ------ | ------ | ---------- | --- | ---------- |
-| 10     | 4      | 0      | 2      | 4 Piercing | 30  | 4          |
+| BI     | Sprint | Stabil | Def    | FS (Ranged: 10) | HP  | Exhaustion |
+| ------ | ------ | ------ | ------ | --------------- | --- | ---------- |
+| 10     | 4      | 0      | 2      | 4 Piercing      | 30  | 4          |
 
 Traits: [Vulnerable](strive-core.md#vulnerable-2-points--2-cr) to Bleeding `+6`, [Poisoner](strive-core.md#poisoner--4-points-2-cr)
 
@@ -1948,7 +1948,7 @@ This variant is massive and strong. Most of its body is covered in dark, dirty c
 | ----- | ----- | ----- | ----- | ----- | ----- |
 | 2     | 1     | 6     | 4     | 1     | 0     |
 
-| BI     | Sprint | Stabil | Def    | FS         | HP  | Exhaustion |
+| BI     | Sprint | Stabil | Def    | FS (Melee) | HP  | Exhaustion |
 | ------ | ------ | ------ | ------ | ---------- | --- | ---------- |
 | 4      | 3      | 3      | 1      | 3 Slashing | 40  | 5          |
 
@@ -1997,8 +1997,8 @@ An abominable mound of misshapen flesh, with countless tiny and several massive 
 | ----- | ----- | ----- | ----- | ----- | ----- |
 | 5     | 5     | 20    | 20    | 1     | 0     |
 
-| BI     | Sprint | Stabil | Def    | FS         | HP  | Exhaustion |
-| ------ | ------ | ------ | ------ | ---------- | --- | ---------- |
+| BI     | Sprint | Stabil | Def    | FS (Melee)    | HP  | Exhaustion |
+| ------ | ------ | ------ | ------ | ------------- | --- | ---------- |
 | 4      | 1      | 5      | 1      | 5 Bludgeoning | 200 | 5          |
 
 Traits: [Climber + Sticky](strive-core.md#climber--2-points-1-cr)
@@ -2042,7 +2042,7 @@ Alps are a fairly common occurence throughout the world. How they reproduce is a
 | ----- | ----- | ----- | ----- | ----- | ----- |
 | 4     | 3     | 3     | 3     | 3     | 5     |
 
-| BI     | Sprint | Stabil | Def    | FS         | HP  | Exhaustion |
+| BI     | Sprint | Stabil | Def    | FS (Melee) | HP  | Exhaustion |
 | ------ | ------ | ------ | ------ | ---------- | --- | ---------- |
 | 10     | 4      | 0      | 3      | 2 Slashing | 30  | 2          |
 
@@ -2084,9 +2084,9 @@ This variant of Void Demon is vaguely humanoid, its amorphous face stretched out
 | ----- | ----- | ----- | ----- | ----- | ----- |
 | 4     | 4     | 2     | 1     | 0     | 0     |
 
-| BI     | Sprint | Stabil | Def    | FS     |
-| ------ | ------ | ------ | ------ | ------ |
-| 9      | 3      | 0      | 1      | 2 Acid |
+| BI     | Sprint | Stabil | Def    | FS (Melee) |
+| ------ | ------ | ------ | ------ | ---------- |
+| 9      | 3      | 0      | 1      | 2 Piercing |
 
 Traits: 
 
