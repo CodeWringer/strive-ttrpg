@@ -156,6 +156,8 @@ Furthermore, a meta-currency, called **Fate Points** is earned by *players*, bas
     - [Action Point Saving](#action-point-saving)
   - [Combat Movement](#combat-movement)
     - [Forced Movement](#forced-movement)
+      - [Forced Collision](#forced-collision)
+      - [Hurled Through The Obstacle](#hurled-through-the-obstacle)
     - [Gravity Hurts](#gravity-hurts)
     - [Disengage](#disengage)
     - [Flee Combat](#flee-combat)
@@ -252,6 +254,9 @@ Furthermore, a meta-currency, called **Fate Points** is earned by *players*, bas
       - [Artistry (Agi/Awar)](#artistry-agiawar)
       - [Cooking (Awar/Wit)](#cooking-awarwit)
   - [List of Traits](#list-of-traits)
+    - [Breath Weapon](#breath-weapon)
+    - [Innate Armor](#innate-armor)
+    - [Steadfast](#steadfast)
     - [Warcrobat](#warcrobat)
   - [List of Titles of Renown](#list-of-titles-of-renown)
     - [Heart of Stone](#heart-of-stone)
@@ -410,6 +415,7 @@ As STRIVE is meant primarily as a rule-book to help you quickly find what you ne
 | [D8](#dice)                                  | An eight-sided die      |
 | [Difficult Terrain](#combat-movement)        | Halves movement per AP  |
 | [FP](#fate-points)                           | Fate-Point              |
+| [Forced Movement](#forced-movement)          | When a character is moved against their will, by being pushed or thrown. |
 | [GM](#introduction)                          | Game-Master             |
 | [Hit Limit](#testing-a-skill)                | Determines how many rolled **hits** may actually factor into the result of a test. |
 | [hit](#tests)                                | Positive result of an individual die-roll |
@@ -424,7 +430,7 @@ As STRIVE is meant primarily as a rule-book to help you quickly find what you ne
 | [RD](#rounded-up--rounded-down)              | Rounded down            |
 | [RU](#rounded-up--rounded-down)              | Rounded up              |
 | [ST](#single-target-st)                      | Single-Target           |
-| [Stability / Stab](#stability-stabil)          | Counter-acts forced movement. |
+| [Stability / Stab](#stability-stabil)        | Counter-acts Forced Movement. |
 | [Str](#strength-str)                         | The Strength attribute  |
 | [Sprinting Speed / Sprint](#sprinting-speed-sprint) | Can extend a character's movement per AP. |
 | [Tough](#toughness-tough)                    | The Toughness attribute |
@@ -831,9 +837,9 @@ This Characteristic can also be used to determine whether a character can outrun
 #### Stability [Stabil]
 <img src="../../img/stability.svg" style="width: 3rem; height: 3rem;">
 
-The Stability of a character represents their resistance to [forced movement](#forced-movement). For every point in this derived Characteristic, a character is moved `-1` less. 
+The Stability of a character represents their resistance to [Forced Movement](#forced-movement). For every point in this derived Characteristic, a character is moved `-1` square less. 
 
-By default, all characters start with Stability `0`, which can be increased only through [Traits](#traits) or certain [Skills](#skills). 
+By default, all characters start with Stability `0`, which can be increased only through [Traits](#traits) or certain [Skills](#skills). Stability can never be less than `0`. 
 
 ### Skills
 A **skill** is any acquired knowledge and experience regarding a specific subject. You will predominantly [test](#tests) these. 
@@ -1674,18 +1680,32 @@ It is also possible to **sprint**, increasing the distance one can move per **AP
 > A character with a sprinting speed of `3` can increase their total movement distance to `7`, at the cost of `1` AP and `1` point of exhaustion. 
 
 ### Forced Movement
-There are abilities and circumstances that can force a character to be moved against their will. When this happens, the character in question does not spend any [AP](#action-points-ap) on the movement, as they didn't initiate it. A character automatically reduces the distance they are moved by an amount equal to their Stability. 
+There are abilities and circumstances that can force a character to be moved against their will. When this happens, the character in question does not spend any [AP](#action-points-ap) on the movement, as they didn't initiate it, but they cannot stop it, either.
 
-If a forced movement ends abruptly, meaning before the full distance to move was reached, for example by slamming into a wall, then this causes `N D4` points of bludgeoning damage, where *N* is the remaining movement (in `1` increments) that could not be reached. Each character then reduces the damage they suffer by their [Stability](#stability-stabil). 
+A character always automatically reduces the distance they are moved by an amount equal to their [Stability](#stability-stabil). 
 
-> A character is thrown with enough force to move them `5`, but a wall stops them short of reaching that distance, after they were moved `2`. The remainder of `3` causes them to suffer `3 D4` points of bludgeoning damage, as they slam into the wall!
+#### Forced Collision
+If a Forced Movement forces a character into an obstacle, then the victim suffers `N * 3` points of bludgeoning damage, where *N* is the remaining squares of movement at the time of collision. 
+
+> A character is thrown with enough force to move them `5` and they slam into a barrel after flying a distance of `2`. At this point, the remaining distance of `3` causes them to suffer `3 * 3 = 9` points of bludgeoning damage, as they slam into the barrel!
 
 If a character slams into another when force moved, they both suffer half of the damage (RU). 
 
-### Gravity Hurts
-When a character falls more than `3` and impacts with the ground, then they suffer `N * 6` points of bludgeoning damage, where *N* is the number of `5` increments that they fell. The damage that is suffered may be reduced with an [Acrobatics](#acrobatics-agistr) test. Every **hit** achieved, reduces the damage by `D4` points. 
+#### Hurled Through The Obstacle
+An obstacle does not necessarily have to stop the unfortunate soul being thrown. Depending on the remaining distance at the time of collision, they may break or push aside the obstacle and keep going:
+* `2+` through a square of **glass**
+* `3+` through a square of **wood**
+* `5+` through a square of **stone**
+* `8+` through a square of **metal**
 
-> A character falls of a suspension bridge, down a shallow ravine. They fall for `48'16m`. Upon impacting the ground, they would suffer `4 * 6 = 24` points of bludgeoning damage, which they try to dampen with an Acrobatics test and achieve `2` hits, which allow them to ignore `2D4` points of bludgeoning damage from the fall. They roll a `2` and a `3`, meaning they reduce the damage by `5` points. As a result, they suffer only `19` points of bludgeoning damage. 
+"A square of [...]" means there is an obstacle large enough to actually be an obstacle, like a wall, a large barrel, a column, a car and such. 
+
+At the time of collision, the character **always** suffers the usual [Forced Collision](#forced-collision) damage of `N * 3` points of bludgeoning damage, where *N* is the remaining squares of movement at the time of collision. 
+
+### Gravity Hurts
+When a character falls more than `3` squares and impacts with the ground, then they suffer `(N * 5) - Acrobatics` points of bludgeoning damage, where *N* is the number of `5` square increments that they fell and `Acrobatics` is the character's current level in [Acrobatics](#acrobatics-agistr).
+
+> A character falls of a suspension bridge, down a shallow ravine. They fall a distance of `11`. Upon impacting the ground, they fell `3` increments of `5` squares and will suffer `3 * 5 = 15` points of bludgeoning damage. Their level in Acrobatics is `3`, which reduces the damage they finally suffer to `12`. 
 
 > A character is shoved down a ditch and falls `4`. This is more than the minimum, and they will suffer `1 * 6 = 6` points of bludgeoning damage upon impact, unless they can reduce that amount with an Acrobatics test. 
 
@@ -2184,7 +2204,7 @@ Performing acrobatic feats, such as jumping, tumbling and climbing, without inju
 
 | Level | Name                 | AP | **Ob**  | Effect(s)          | Condition(s) |
 | ----- | -------------------- | -- | ------- | ------------------ | ------------ |
-| 1     | Deft Evasion         | /  | /       | **Passive**: While not wearing any [armor](#armor) and not wielding a shield of bulk `2` or more, gain `+1` [compensation point](#compensation-points) to any [defense test](#defending) made using this skill. | / |
+| 1     | Deft Evasion         | /  | /       | **Passive**: While not wearing any [armor](#armor) and not wielding a shield of bulk `2` or more, gain `+1` [Compensation Point](#compensation-points) to any [defense test](#defending) made using this Skill and increase your [Stability](#stability-stabil) by `+1`! | / |
 | 2     | Wind Out Of It       | 1  | 2       | When hit by an attack, wind out of the hit and suffer only half the damage (RU). | / |
 | 3     | Bob, Weave, Jab      | 1  | /       | **Reaction**: When succeeding a defense test, launch a [Counter-Attack](#defense-stunts) against the enemy who attacked you, without any penalties to damage and without suffering any [Exhaustion](#exhaustion)! | / |
 
@@ -2251,6 +2271,7 @@ For any ally next to you, who's also using a shield, you both gain **+1D** on yo
 
 | Level | Name                 | AP | **Ob**  | Effect(s)          | Condition(s) |
 | ----- | -------------------- | -- | ------- | ------------------ | ------------ |
+| 1     | Steady Shield        | /  | /       | **Passive**: While wielding a shield, increase your [Stability](#stability-stabil) by `+1`. | Using shield. |
 | 2     | Shield Slam          | 2  | Opposed | Perform a [single-target](#single-target-st) melee attack to knock your opponent down with your shield. | Using shield. |
 
 | Level | <img src="../../img/heroic-acts.svg" width="64px" height="64px"></img> | Heroic Act Description | Desperate Measure Description | <img src="../../img/desperate-measures.svg" width="64px" height="64px"></img> |
@@ -2451,11 +2472,11 @@ This governs the understanding of what makes defensive structures effective and 
 
 | Level | Name                   | AP | **Ob** | Effect(s)          | Condition(s) |
 | ----- | ---------------------- | -- | ------ | ------------------ | ------------ |
-| 0     | Blitz Stratagem        | 1  | 1      | If you have placed a Key Zone, turn it into a Zone of Mobility, replacing all its effects. You and all allies beginning their movement from within this zone may move an additional `18'6m` per [AP](#action-points-ap) spent. | / |
-| 0     | Breakthrough Stratagem | 1  | 2      | If you have placed a Key Zone, turn it into a Breakthrough Zone, replacing all its effects. All enemies inside the zone, who are damaged, may also be [Force Moved](#forced-movement) up to `hits * 1` back. If damaged by an ally's attack, that ally may also follow their opponent, to stay near them. | / |
+| 0     | Blitz Stratagem        | 1  | 1      | If you have placed a Key Zone, turn it into a Zone of Mobility, replacing all its effects. You and all allies beginning their movement from within this zone may move an additional `6` squares per [AP](#action-points-ap) spent. | / |
+| 0     | Breakthrough Stratagem | 1  | 2      | If you have placed a Key Zone, turn it into a Breakthrough Zone, replacing all its effects. All enemies inside the zone, who are attacked, may also be [Force Moved](#forced-movement) back, by a number of squares equal to your achieved `hits`. | / |
 | 0     | Designate Key Zone     | 1  | /      | **Concentration**: Designate a zone up to `2` in radius. If such a zone already exists, it is replaced with this one. The zone lasts for as long as you desire. You instruct your allies, to get the most out of this area. Once you designate a type for it, they *will* know what to do. Effects from allies' zones do not stack with this one, if their zone is of the same type. | / |
 | 1     | Killzone Stratagem     | 1  | 2      | If you have placed a Key Zone, turn it into a Killzone, replacing all its effects. All enemies inside the zone, who are damaged immediately die if their [HP](#hit-points-hp) are brought to `2 * your Toughness + hits` or less. | / |
-| 1     | Trenchline Stratagem   | 1  | 2      | If you have placed a Key Zone, turn it into a Trenchline Zone, replacing all its effects. All [AOE](#area-of-effect-aoe) damage that applies to you and/or your allies is reduced by `hits * 4`. | / |
+| 1     | Trenchline Stratagem   | 1  | 2      | If you have placed a Key Zone, turn it into a Trenchline Zone, replacing all its effects. All [AoE](#area-of-effect-aoe) damage that applies to you and/or your allies is reduced by `hits * 3`. Also, your and your allies' [Stability](#stability-stabil) is increased by `+2` while in the zone. | / |
 | 2     | Fear Stratagem         | 1  | 1      | If you have placed a Key Zone, turn it into a Zone of Fear, replacing all its effects. All enemies inside this zone, who suffer damage must succeed a [Self-Control](#self-control-toughtough) test at **Ob** equal to your number of **hits**, or else become [Terrified](#terrified) of the zone. | / |
 | 2     | Recovery Stratagem     | 1  | 2      | If you have placed a Key Zone, turn it into a Recovery Zone, replacing all its effects. You and all allies inside this zone reduce their [Exhaustion](#exhaustion) by `-1` and regain `hits * 2` [HP](#hit-points-hp), at the start of the turn. | / |
 
@@ -2502,6 +2523,15 @@ The boons from meals do not stack. Eating a second meal will have it override al
 
 ## List of Traits
 The following is a list of all [Traits](#traits) of the core rules. 
+
+### Breath Weapon
+Obvious jokes aside, your breath can deal some tangible damage. `1D8` of either Acid, Burning, Freezing or Poison damage (choose one when receiving the Trait). This costs `3` AP and launches an AoE ranged attack with a distance of `3`.
+
+### Innate Armor
+Whether naturally tough-skinned or artificially enhanced, your hide proves especially resistant against a chosen type or damage, with `6` points of armor. 
+
+### Steadfast
+Increases [Stability](#stability-stabil) by `+1`. 
 
 ### Warcrobat
 Combining agility with deadliness, elevating mere skill at arms to an elegant art. 
@@ -3381,7 +3411,7 @@ Any damage this creature deals on another that can contract diseases, will force
 Suitable for: Any type of undead, rats and swamp creatures.
 
 #### Forceful (-2 points; +1 CR)
-Attacks that cause forced movement, have increased moving-distance by `2`. 
+Attacks that cause [Forced Movement](#forced-movement), have increased moving-distance by `2`. 
 
 #### Poisoner (-4 points; +2 CR)
 Successful attacks deal an additional `6` points of poison damage. 
