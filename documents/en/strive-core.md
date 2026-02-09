@@ -136,7 +136,6 @@ Furthermore, a meta-currency, called **Fate Points** is earned by *players*, bas
     - [Surprise Round](#surprise-round)
   - [Ticks](#ticks)
   - [Down-Time](#down-time)
-    - [Travel](#travel)
     - [Crafting \& Research Projects](#crafting--research-projects)
       - [Project Prerequisites](#project-prerequisites)
       - [Progressing a Project](#progressing-a-project)
@@ -150,6 +149,7 @@ Furthermore, a meta-currency, called **Fate Points** is earned by *players*, bas
       - [Buyer's Chart](#buyers-chart)
     - [Recovery](#recovery)
     - [Training](#training)
+  - [Resting](#resting)
   - [Scenario-Time](#scenario-time)
 - [Combat](#combat)
   - [Action Points (AP)](#action-points-ap)
@@ -179,6 +179,10 @@ Furthermore, a meta-currency, called **Fate Points** is earned by *players*, bas
     - [Throwing-Distance](#throwing-distance)
     - [Throwing-Accuracy](#throwing-accuracy)
     - [Throwing-Damage](#throwing-damage)
+- [Travel \& Terrain](#travel--terrain)
+  - [Forced March](#forced-march)
+  - [Enduring the Journey](#enduring-the-journey)
+  - [Foraging \& Hunting](#foraging--hunting)
 - [General Interactions](#general-interactions)
   - [Appraisal](#appraisal)
   - [Persuasion, Intimidation \& Deception](#persuasion-intimidation--deception)
@@ -212,6 +216,7 @@ Furthermore, a meta-currency, called **Fate Points** is earned by *players*, bas
     - [Physical Skills](#physical-skills)
       - [Acrobatics (Agi/Str)](#acrobatics-agistr)
       - [Berserking (Tough/Tough)](#berserking-toughtough)
+      - [Driving (Awar/Wit)](#driving-awarwit)
       - [Fishing (Agi/Awar)](#fishing-agiawar)
       - [Instrument-Playing \< instrument \> (Agi/Awar)](#instrument-playing--instrument--agiawar)
       - [Stealth (Agi/Awar)](#stealth-agiawar)
@@ -1480,13 +1485,6 @@ A **Tick** always occurs for a character, even when skipping their turn.
 ## Down-Time
 When not currently dealing with events on a detailed level - there and in the moment - **PC**'s can spend their time on a more abstract level. This applies especially to activities that take greater amounts of time, such as recovering from injuries, travel, engaging in their trade, honing their [skill](#skills) and so on. 
 
-### Travel
-People travel around the world all the time, for the most diverse reasons. Be they a trade caravan on the move between cities, a pilgrim on the way to a holy site, a craftsman going to town to sell their crafts, a roaming mercenary or a mother visiting their children - everyone has to spend time, travelling. 
-
-How much time it takes, exactly, to get from *A* to *B*, depends heavily on the *distance* to and the *means* of travel. If horses are the fastest means of transportation, expect to be travelling across countries for days if not weeks. But if means of instantaneous teleportation makes travel a trivial issue, then you might not even need to consider it, at all. These details are strongly tied to your **GM**'s world, so they'll ultimately be the one to determine your travel times. 
-
-If there is a world map, the **GM** could overlay it with tiles of squares or hexagons, which may help with determining distance. If your group desires, you could even play it so that your characters only travel from tile to tile. Moving from one tile to another may then always take a set time, unless faster means of travel are available. That way, travel would be simplified and abstract. But discuss with your group, whether you want to play it this way. Travel may also provide interesting opportunities for role-playing and *conflicts*. The abstract level draws attention away from these opportunities. 
-
 ### Crafting & Research Projects
 <img src="../../img/crafting.svg" style="width: 3rem; height: 3rem;"></img>
 
@@ -1611,6 +1609,17 @@ When [injured](#injury), a character should prepare to spend time away from adve
 
 ### Training
 When not busy with work and adventure, **PC**s may train, in order to passively improve their [attributes](#practicing-attributes) or [skills](#practice). This time is usually best handled abstractly, by not playing out the details of the training. 
+
+## Resting
+All creatures that can be tired, require sleep. Some [Conditions](#condition) can only be cleared by resting. A **Full Rest** requires at least `6` uninterrupted hours of *active resting*. That implies not doing anything besides sleeping or meditating. Anything less than a Full Rest is a **Partial Rest**. 
+
+An interruption of a Full Rest is any break in the rest, when a character is forced to do something physically or mentally taxing that keeps them from sleep. If in doubt - a test is almost always going to be taxing in some way.
+
+Whenever resting in an **unsafe environment**, such as out in the wild or on a city's streets, animals, bandits or monsters - given the setting and narrative allow for it - might surprise the resting character(s). Therefore, it is advisable to set up a watch. But be careful - the characters on watch could fall asleep during their vigil! To determine whether they fall asleep, they must test their [Self-Control](#self-control-toughtough) once, at the beginning of their watch. The Ob is equal to their current level of exhaustion, `+1` for every `2` hours they need to stay awake for. If multiple characters stay up for the watch at the same time, they can help each other stay awake, reducing the Ob by `-1` for each who stay awake. The Ob to stay awake can never be reduced to less than `1`. 
+
+> To stand watch for a Full Rest of `6` hours, a character would need to succeed their Self-Control test at at least Ob `3`. Should they also be exhausted already, their Ob may be even higher. 
+>
+> Their ally, who is also staying awake with them, decides to help them stay awake by making use of their Commanding skill. They are a superior officer and their commands carry weight, which helps their underling ally stay awake. 
 
 ## Scenario-Time
 In contrast to [down-time](#down-time), scenario-time describes the point in the narrative when the PCs are dealing with a specific situation on a fine-grained level, where the amount of time that is spent matters. 
@@ -1914,6 +1923,36 @@ When throwing non-weapons, the damage dealt is calculated the following way: `st
 The [damage type](#damage-types) to use, depends on the type of object and how it hits the target. For most non-weapons, **Bludgeoning** should be appropriate. 
 
 > A character with strength `5`, throwing a bulk `3` object, can deal `5 * (3 - 1) = 10` points of damage. 
+
+# Travel & Terrain
+Whenever players are presented with an overworld map, with distinct locations marked on it and players ask, "how do we get from *here* to *there*?", the question of travel comes up. The exact specifics will depend on the GM's world, and their forms of travel. Walking there on foot is sure to be slower than flying by plane. Or perhaps travel can even be instantaneous, through magic and technology, in which case this chapter will be irrelevant. 
+
+For the purposes of this chapter, the overworld map is expected to have a grid of either squares or hexagons overlaid on top of it, segmenting it into manageable chunks. You may choose an appropriate chunk-size yourself or take the suggested size of a `10km²` or `6 mile²` square or hexagon. 
+
+The following table suggests how long it might take to traverse a particular square of terrain, on foot, depending on the dominant terrain feature of that square. The suggested durations may not be realistic, but they are easy to manage. Also suggested are Obs for [hunting and foraging](#foraging--hunting).
+
+| Terrain                | Time (on foot) | Hunting/Foraging Ob |
+| ---------------------- | -------------- | ------------------- |
+| Road                   | 6 hours        | 4                   |
+| Plains/Savannah        | 6 hours        | 3                   |
+| Desert                 | 6 hours        | 5                   |
+| Sparse forest          | 12 hours       | 2                   |
+| Hill                   | 12 hours       | 2                   |
+| Jungle/Dense forest    | 1 day          | 2                   |
+| Swamp                  | 1 day          | 3                   |
+| Barren Mountain        | 1 day          | 5                   |
+| Forested Mountain      | 1 day          | 2                   |
+
+Under normal circumstances, characters may spend at most `12` hours traveling (on foot) before they need a [Full Rest](#resting) to carry on. Whether these hours are spent consecutively or with _short_ breaks in between, makes no difference. 
+
+## Forced March
+It is possible to push on, past the `12` hour threshold, for another `12` hours. After that, all characters become [Exhausted](#exhausted), which can only be cleared through a [Full Rest](#resting). 
+
+## Enduring the Journey
+For every increment of `6` hours of travel, characters will need to consume one [ration](#list-of-general-assets). If they don't, they suffer `+1` [exhaustion](#exhaustion) which can only be cleared with a [ration](#list-of-general-assets) during a [Full Rest](#resting). 
+
+## Foraging & Hunting
+It is possible to hunt/forage for food while traveling, without losing time. You may make tests of an approproately chosen Skill, with an Ob appropriate to the current square of terrain. If successful, the number of hits you achieve equals the number of [rations](#list-of-general-assets) you gain. 
 
 # General Interactions
 These are rules pertaining to specific social interactions or otherwise non-combat interactions that aren't immediately covered by a single [skill](#skills). 
@@ -2227,6 +2266,15 @@ However, the price for this strength is steep. The chance of death is greatly in
 | ----- | ----------------------- | ---------------------- | ----------------------------- | --------------------------- |
 | 4     | I LOVE PAIN             | **You** gain `+1` [Grit Point](#grit-points) for every [Injury](#injury) **you** currently have. Decreases Momentum by `-15`. | **You** and one chosen **PC** gain `+1` [Grit Point](#grit-points) for every [Injury](#injury) you currently have. You both suffer `1D10` points of Pure damage. Increases Momentum by `+15`. | SHARE THE PAIN |
 
+#### Driving (Awar/Wit)
+The ability to drive a motorized vehicle. 
+
+| Level | Name                 | AP | **Ob**  | Effect(s)          | Condition(s) |
+| ----- | -------------------- | -- | ------- | ------------------ | ------------ |
+| 2     | Stunt Drive          | /  | 2       | **Reaction**: Upon crashing the vehicle, pull it around to negate some of the forces involved. You and your by-seaters get out of the crash with only an [Injury](#injury). | / |
+
+See also [Travel & Terrain](#travel--terrain).
+
 #### Fishing (Agi/Awar)
 The ability to efficiently catch fish. 
 
@@ -2263,7 +2311,7 @@ Orienting oneself in the world and finding and following tracks.
 
 | Level | Name                 | AP | **Ob** | Effect(s)          | Condition(s) |
 | ----- | -------------------- | -- | ------ | ------------------ | ------------ |
-| 3     | Find your Bearings   | 1  | 2      | Figure out your current heading and time of day, even when in complete darkness or in a place without landmarks. | Once per rest. |
+| 2     | Find your Bearings   | 1  | 2      | Figure out your current heading and time of day, even when in complete darkness or in a place without landmarks. | Once per location. |
 
 #### Shield (Str/Tough)
 Expertise at defending oneself using a shield. 
