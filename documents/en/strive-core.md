@@ -4,7 +4,7 @@
 # Introduction
 **STRIVE** is a table-top role-playing game (**TTRPG**), requiring a **game master** (**GM**) and at least one **player** to play and at its core, is about **emergent storytelling** and **tactical combat**. Players experience the **evolution** of their player character (**PC**) by defining convictions that **drive** them to action, based on the events they experience. In that way, players also **drive** the story forward and guide the evolution of the world. 
 
-Play itself works as a conversation, in which players tell the **GM** what their characters attempt to do and the **GM** determines what happens when they do. These rules outlined in this document and supplementary documents and dice are used to determine whether things play out as the players have planned. 
+Play itself works as a conversation, in which players tell the **GM** what their characters attempt to do and the **GM** determines what happens when they do. The rules outlined in this document, supplementary documents and a set of dice are used to determine whether things play out as the players have envisioned. 
 
 **STRIVE** understands itself first and foremost as a rule system. *This* document is designed as an unobtrusive reference which you are expected to read once, and after that only open to quickly look up whatever rule you currently need to refamiliarize yourself with. The system is aimed at **GM**s who enjoy doing their own world-building or who want to bring a particular world they like to the table. As such, no setting or theme is imposed, so that you may choose your own. Of course, this implies that adaptability and extensibility are a key ingredient. You are expressly encouraged to hack the system, to make it fit whatever setting and theme you decide on. And if you'd like some guidance or inspiration along the way, one of the supplemental modules may provide what you seek. 
 
@@ -12,7 +12,7 @@ The system is best suited for long-term "sandbox" style games, running indefinit
 
 On the spectrum of *narrative-driven*, *game-y* and *simulationist*, **STRIVE** aims for the region between *game-y* and *narrative-driven*, while leaning heavily towards *game-y*. It understands itself as a *game* and the rules contained herein will often reflect that by making broad abstractions and even some unrealistic assertions - all for the goal of keeping the game easier to learn and more fun to experience. 
 
-Most rules have a certain degree of vagueness to them. This is at least partially deliberate. The situations that can come up during play are simply too varied and numerous to be possible to completely cover with rules, without requiring epic tomes filled to the brim with highly specific rulings for highly specific situations. Instead, the game relies on the **GM** to arbitrate in most situations. The descriptions in the rules here should serve as a point of orientation for the **GM**. How *they* interpret the rules, is how the rules are to be understood. 
+Most rules have a certain degree of vagueness to them. This is at least partially deliberate. The situations that can come up during play are simply too varied and numerous to possibly cover completely with rules, without requiring epic tomes filled to the brim with highly specific rulings for highly specific situations. Instead, the game relies on the **GM** to arbitrate in most situations. The descriptions in the rules here should serve as a point of orientation for the **GM**. How *they* interpret the rules, is how the rules are to be understood. 
 
 ## Tactical Combat
 First of all, STRIVE is **not** a wargame. It is not about coordinating large troop movements, supply lines or chains of command (although you can feature such things in your game if you like). 
@@ -28,9 +28,9 @@ Players define long-term and short-term goals for their characters. It is then t
 
 Of course, a **GM**'s capabilities may be limited, either by experience, theme or setting of the game they've set up. And so, they don't *have* to make unreasonable goals be realisticaly achievable. In fact, unrealistic goals are just as acceptable, as achievable ones. 
 
-And regardless of *what* the goals are, they are sure to drive the **PCs** into action. Every goal they pursue, is sure to leave an impact on the characters. What's more, recent and upcoming events of the narrative may also be picked up by **PCs** and become the basis of their goals and affect their personality. In this way, players and **GM** never quite know what direction the **PCs** will develop. They're like a book you start writing from the beginning - not the ending. 
+And regardless of *what* the goals are, they are sure to drive the **PCs** into action. Every goal they pursue, is sure to leave an impact on them. What's more, recent and upcoming events of the narrative may also be picked up by **PCs** and become the basis of their goals and affect their personality. In this way, players and **GM** never quite know what direction the **PCs** will develop. They're like a book you start writing from the beginning - not the ending. 
 
-Another aspect of character evolution, is manifested by their Attributes and Skills. These abilities are learned and improved over time. Generalist characters benefit from varied knowledge, while specialists enjoy unique abilities. Over the course of a long-running game, the abilities the characters have learned would be capable of telling stories of their own. 
+Another aspect of character evolution is manifested by their Attributes and Skills. These abilities are learned and improved over time. Generalist characters benefit from varied knowledge, while specialists enjoy unique abilities. Over the course of a long-running game, the abilities the characters have learned would be capable of telling stories of their own. 
 
 Furthermore, a meta-currency, called **Fate Points** is earned by *players*, based on what they and their character do in a session. These allow buying Fate Cards, which give players access to powerful meta-powers that can be enacted at any time, allowing for truly decisive achievements. 
 
@@ -40,7 +40,7 @@ Furthermore, a meta-currency, called **Fate Points** is earned by *players*, bas
   - [Character Evolution](#character-evolution)
 - [Table of Contents](#table-of-contents)
 - [Glossary](#glossary)
-- [Credits](#credits)
+- [Credits \& Honorable Mentions](#credits--honorable-mentions)
 - [License](#license)
 - [How to Play](#how-to-play)
   - [Distances \& The Grid](#distances--the-grid)
@@ -444,10 +444,21 @@ As STRIVE is meant primarily as a rule-book to help you quickly find what you ne
 | [Wit](#wit-wit)                              | The Wit attribute       |
 | [XP](#experience-points-xp)                  | Experience Point(s)     |
 
-# Credits
+# Credits & Honorable Mentions
 **Designer**: Nicolas 'Krubi' H.
 
-My two small, yet inexorable groups of playtesters, whose feedback has been invaluable, without whom this game would not be any where near where it is now and who keep me motivated!
+There are my two small, yet inexorable groups of playtesters, whose feedback has been invaluable and without whom this game would not be any where near as complte! It is them who keep me motivated and whose excitement for STRIVE is reflected in me!
+
+And of course, such a project did not come into existence in a vacuum. Inspiration and lessons were found in a variety of places, such as other TTRPGs. Each of them deserves an honorable mention and in what ways they differ from STRIVE. It bears stating here that neither STRIVE, nor I as its designer, are in any way affiliated with, sponsored or endorsed by the products and website mentioned below. These are simply honorable mentions of other RPGs and sources for inspiration. 
+
+* If you are interested in a medieval fantasy world and enjoy the Aspiration, Reaction and Fate-Card systems, but care little for tactical combat, **Burning Wheel** may be what you seek. 
+* For heroic medieval fantasy, where combat is the core, check out **Draw Steel**. In a way, this is **Dungeons & Dragons**, with all the extraneous fat trimmed away. Its unique Malice mechanic and how combatants are constantly moved around keeps combat interesting all throughout.
+* **Symbaroum** offers haunting and marvelous artworks in an equally fascinating dark medieval fantasy world. The way in which you can customize your character builds are plentiful and really fun to experiment with!
+* For grim dark fantasy, with a more complex injury system, take a look at **Zweihänder**, which in turn appears inspired by **Warhammer Fantasy**. Its list of professions and skills offers an incredible wealth of character customization! 
+* **The Black Eye**, or **Das Schwarze Auge** in German, which leans very heavily into the simulationist spectrum, with intricate systems for almost everything, a fully worked out world in a medieval fantasy setting and with a unique way of handling skill tests. Rolling three dice and letting the skill's level compensate for bad rolls partly inspired the skill system of STRIVE. 
+* The Momentum system was inspired by the video-game **Rogue Trader**, which has its own version of such a system. It is a very competent Classic RPG set in the Warhammer 40K universe. 
+
+Also worth mentioning is the RPG Design subreddit, where one can find many in-depth analyses about game mechanics. Many lessons may be found here, which, with some effort, can be molded into concrete mechanics for your own rpg.
 
 # License
 STRIVE may be freely available, but that does not mean you may do everything you want with it. If you only want to play STRIVE, this license needn't worry you too much (you should still read and know it) and while I still stand by my claim that STRIVE lives off its extensibility and that you are absolutely encouraged to create your own works based on STRIVE, also know that STRIVE has been a lot of work and a labor of love that I ask to be respected. Basically, the license outlined below (this paragragh is not part thereof) covers my butt legally, while stating I want STRIVE to be credited in your own works based upon it. What's not covered by the license is that I would love to hear about your own works based on STRIVE! Whether it be adventures, themes, settings, more Skills, more mechanics or what you consider improvements or corrections for existing mechanics would be most interesting to hear about! Now be careful, there be *Legalese* ahead.
