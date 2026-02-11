@@ -2272,11 +2272,14 @@ The following list does not and cannot aim to be a complete listing of all possi
 ### List of General Assets
 The following is a list of general assets. Of course, the following list is non-exhaustive. Invent more at your own need. 
 
-| Name                   | Bulk | Max. Stack Size | Description                                                              |
-| ---------------------- | ---- | --------------- | ------------------------------------------------------------------------ |
-| Antidote               | 1    | 4               | This unassuming liquid can make the difference between life and death. Immediately treats an [Injury](#injury) caused by [Poison](#damage-types) and removes all points of [Poisoned](#poisoned). |
-| Medical Supplies       | 1    | 5               | A small satchel of clean bandages, thread and needle for suturing, a clean and sharp knife, a splint and straps for binding. Is used in the [treatment](#injury-states--treatment) of various [Injuries](#injury). |
-| Ration                 | 1    | 10              | A ration of preserved food, enough for a whole day. |
+When looking up products for crafting, the tools and materials required for the craft are not noted here. The materials and resources available to you, and which exist in your world simply cannot be predicted here. Instead, think creatively - what *could* you use to make the thing? What do you have available? Find a creative way to use what you have, to make what you want and ask your GM for the final go-ahead. However, the [Progress Increment (PI)](#progressing-a-project) and [Time Increment (TI)](#progressing-a-project) are noted. Particularly rare, valuable and suitable materials may act as [Project Boosters](#project-boosters).
+
+| Name                   | Bulk | Max. Stack Size | Description                                                              | PI  | TI         |
+| ---------------------- | ---- | --------------- | ------------------------------------------------------------------------ | --- | ---------- |
+| Antidote               | 1    | 4               | This unassuming liquid can make the difference between life and death. Removes `Q` points of [Poisoned](#poisoned). If no points remain, instead immediately [treats](#injury-states--treatment) an [Injury](#injury) caused by [Poison](#damage-types) | 20 | 1 Hour |
+| Medical Supplies       | 1    | 5               | A small satchel of clean bandages, thread and needle for suturing, a clean and sharp knife, a splint and straps for binding. Is used in the [treatment](#injury-states--treatment) of various [Injuries](#injury). | 20 | 10 Minutes |
+| Objet d'art            | 1    | 1               | A painting, sculpture or other art piece. | 20 | 10 Minutes |
+| Ration                 | 1    | 10              | A ration of preserved food and drink, enough for a whole day. | 10 | 30 Minutes |
 
 ### Weapon Properties
 Weapon type assets can have the following **traits**:
@@ -2590,37 +2593,28 @@ This governs the understanding of what makes defensive structures effective and 
 | 4     | Take and Hold! <br><img src="../../img/heroic-act_take-and-hold.svg" width="64px" height="64px"></img> | Designate an area up to `3` in radius. Until the end of combat, any **PC** and ally inside this zone receives `+1` [AP](#action-points-ap) at turn start and `+1` [Compensation Point](#compensation-points) for every test. If such a zone already exists, it is replaced with the new one. Decreases Momentum by `-30`. | Designate an area up to `3` in radius. Until the end of combat, any **PC** and ally inside this zone receives `+1` [Compensation Point](#compensation-points) for every test and may **freely** [Counter-Attack](#defense-stunts) *every* attack, but every **PC** *outside* this zone suffers `+1` **Ob** for **every test**. If such a zone already exists, it is replaced with the new one. Increases Momentum by `+15`. | Not A Step Back! <br><img src="../../img/desperate-measure_not-a-step-back.svg" width="64px" height="64px"></img> |
 
 ### Artisan Skills
-All artisan requires a mix of physical and mental attributes, for the purpose of creating a wide variety of things.
+All artisan Skills require a mix of physical and mental attributes, for the purpose of creating a wide variety of things. Mechanically speaking, these are [crafting](#crafting--research-projects) Skills.
 
 #### Artistry (Agi/Awar)
 The ability to paint and draw well, as well as a general sense of aesthetics. 
 
-| Product                              | Progress Increment | Time Increment | Materials                              | Quality Bonus   |
-| ------------------------------------ | ------------------ | -------------- | -------------------------------------- | --------------- | 
-| A painting or sculpture.             | 20                 | 10 Minutes     | Any paintable or shapeable object, such as a canvas or chunk of marble. | / |
+[Crafting](#crafting--research-projects):
+* [Objet d'art](#list-of-general-assets)
 
 #### Cooking (Awar/Wit)
 The ability to cook hearty and sweet meals that can strengthen and invigorate. 
 
-[Crafting](#crafting--research-projects)
-
-**Tools**: cooking utensils; a pot, pan, spitroast or similar; a strong heat source
-
-**Resources**: Foodstuffs; Better quality can act as [booster](#project-boosters)
-
-For every `Q` past `1`, the meal may confer certain boons, for `Q * 2` hours. Each of the following boons can be picked only once:
-* Grant `Q D4` [Temporary HP](#temporary-hit-points). 
-* Increase [base initiative](#base-initiative-bi) by `Q`. 
-* Increase [strength](#strength-str) or [toughness](#toughness-tough) by `Q / 2 (RU)`. 
-* Resist `Q` [freezing](#damage-types) or [burning](#damage-types) or [bleeding](#damage-types) damage. 
-
-All meals always restore `Q HP` and reduce exhaustion by `Q`. 
+[Crafting](#crafting--research-projects):
+* Meal: PI: `5`, TI: `10` Minutes
+  * A meal that you have to eat while it's still fresh. The meal does **not** go in your inventory. This is **not** the same as a ration! 
+  * Restores `Q HP` and reduces exhaustion by `Q`.
+  * For every `Q` past `1`, the meal may confer certain boons, for `Q * 2` hours. Each of the following boons can be picked only once:
+    * Grant `Q D4` [Temporary HP](#temporary-hit-points). 
+    * Increase [base initiative](#base-initiative-bi) by `Q`. 
+    * Increase [strength](#strength-str) or [toughness](#toughness-tough) by `Q / 2 (RU)`. 
+    * Resist `Q` [freezing](#damage-types) or [burning](#damage-types) or [bleeding](#damage-types) damage. 
 
 The boons from meals do not stack. Eating a second meal will have it override all of a previous meal's boons. The strength of boons is determined at the time of creation and are the same for all characters who share in the meal. 
-
-| Product                              | Progress Increment | Time Increment | Quality Bonus   |
-| ------------------------------------ | ------------------ | -------------- | --------------- |
-| Meal                                 | 5                  | 10 Minutes     | Restores `Q HP` and reduces exhaustion by `Q`. |
 
 | Level | <img src="../../img/heroic-acts.svg" width="64px" height="64px"></img> | Heroic Act Description | Desperate Measure Description | <img src="../../img/desperate-measures.svg" width="64px" height="64px"></img> |
 | ----- | ----------------------- | ---------------------- | ----------------------------- | --------------------------- |
