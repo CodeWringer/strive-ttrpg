@@ -143,6 +143,7 @@ Furthermore, a meta-currency, called **Fate Points** is earned by *players*, bas
       - [Quality Level Reference](#quality-level-reference)
       - [Project Boosters](#project-boosters)
       - [Crafting It Again](#crafting-it-again)
+        - [Crafting It In Bulk](#crafting-it-in-bulk)
       - [Research Projects](#research-projects)
       - [Invention Projects](#invention-projects)
       - [Complexity to Progress Increments](#complexity-to-progress-increments)
@@ -259,7 +260,7 @@ Furthermore, a meta-currency, called **Fate Points** is earned by *players*, bas
       - [Reading and Writing (Awar/Wit)](#reading-and-writing-awarwit)
       - [Surgery (Agi/Wit)](#surgery-agiwit)
       - [Warfare (Tough/Wit)](#warfare-toughwit)
-    - [Craftsmanship Skills](#craftsmanship-skills)
+    - [Artisan Skills](#artisan-skills)
       - [Artistry (Agi/Awar)](#artistry-agiawar)
       - [Cooking (Awar/Wit)](#cooking-awarwit)
   - [List of Traits](#list-of-traits)
@@ -1552,13 +1553,18 @@ These things can add progress to a Project or raise the base Quality level. How 
 Typically, Project Boosters are one-time use. Once they have been used to add progress to the Project, they cannot be used again. However, this is not a hard-set rule. Some things, like a magic cauldron or high-tech lab equipment may of course be used again, provided no narrative reasons forbid it. 
 
 #### Crafting It Again
-Whenever a crafting or [invention](#invention-projects) Project is finished, its product becomes the **recipe** for further crafts of **identical products**. If you wish to craft the same product again, at the Quality level and with the complications it possibly has, you need no longer roll Project Skill tests. You now *know* how to make the thing, in that Quality. 
+Whenever a crafting or [invention](#invention-projects) Project is finished, its product becomes the **recipe** for further crafts of **identical products**. If you wish to craft the same product again, at the same Quality level and with any complications it possibly has, you need no longer roll Project Skill tests. You now *know* how to make the thing, in that Quality. 
 
-But you will still need to spend time on it. Multiply the Quality level of the recipe product with the Progress Increment it originally had. That is the total Progress to achieve for that product. 
+But you will still need to spend time on it. Multiply the Quality level of the recipe product with the Progress Increment it originally had. That is the total Progress to achieve for that product. When finished, your new product will have the same Quality level and Complications as the original.
 
-When finished, your new product will have the same Quality level and Complications as the original. But if you decide you can do better, you may begin your Project again, at the original's Quality level, *minus* its number of Complications. The resulting Quality level will also be used as the basis to multiply the Progress Increments with. 
+But you may also decide you can do better. You may begin your Project again, at the original's Quality level, *minus* its number of Complications. The resulting Quality level will also be used as the basis to multiply the Progress Increments with. Once the total required progress is reached again, you need to roll for Project Skill tests, as normal. In this case, the base Ob will be the new Quality level, plus one. At this point, you go back to the normal rules for [progressing a Project](#progressing-a-project). 
 
-> A product with a Quality level of `3` and one complication would begin at Quality level `2`, but no Complications! Assuming its Progress Increment is `10`, then multiplying that with the new starting Quality of `2`, yields an initial total required Progress of `20`. 
+> A product with a Quality level of `3` and one complication would begin at Quality level `2`, but no Complications! Assuming its Progress Increment is `10`, then multiplying that with the new starting Quality of `2`, yields an initial total required Progress of `20`. Once that progress is reached, a Project Skill test is required, at Ob `2 (the new Quality level) + 1 (always) = 3`. If successful, the new Quality level is `3`!
+
+##### Crafting It In Bulk
+For every **recipe** that you know, you may also decide to craft the same product in bulk. This is very efficient method to create more products of the same kind, in less time than individual crafts. For each additional instance of the product you wish to create, with the same crafting Project, will add half (RU) of the Progress Increment. 
+
+> Given you have a recipe for a product with Quality level `3` and a Progress Increment of `10` and you want to make `5` instances of this same product, then the first instance of the product sets the initial required total progress at `3 (Quality) * 10 (Progress Increment) = 30`. Each of the `4` *additional* instances of the product now add `5` points of required progress. So, for all `5` instances of the product to be finished, the final total progress is `30 + (4 * 5) = 50`. This is much faster, than creating those `5` instances individually, as that *would* take `5 * 30 = 150` points of total required progress!
 
 #### Research Projects
 A Project can be about the research of knowledge, but not about mundane every-day things. You must visit various libraries, study dusty old tomes or comb countless digital archives, go on archeological digs and so forth. This is a task requiring substantial effort. 
@@ -1577,7 +1583,7 @@ As a prerequisite to begin your studies, you must have access to the number of r
 When you finish the research Project, you'll have the answers you seek and may gain the title "Loremaster of *X* (degree)", where you replace *X* with the subject you researched and *degree* with the Quality level. 
 
 #### Invention Projects
-A Project can be about the invention of completely unique and new [Assets](#assets). Describe your idea to the GM, who will determine the Progress Increment (see [Complexity to Progress Increments](#complexity-to-progress-increments)) and Time Increment (see [Workload to Time Increments](#workload-to-time-increments)). 
+A Project can be about the invention of completely unique and new [Assets](#assets). Describe your idea to the GM, who will determine how feasible your idea is. If it seems reasonable, they will also estimate the  Progress Increment (see [Complexity to Progress Increments](#complexity-to-progress-increments)) and Time Increment (see [Workload to Time Increments](#workload-to-time-increments)). 
 
 As a difference to regular Projects, whenever you choose to push on, you may also get a less effective prototype of your invention, if you score a hit on a single `D6` roll, at the GM's discretion. Your prototype receives the Project's current Quality level. 
 
@@ -1608,11 +1614,11 @@ Project Events are random events that may occur during long-lasting, significant
 | 2    | A competitor appears, under pretense of offering help, but in truth seeking to sabotage the Project. But they might go about it clumsily, allowing the PC some time to react. |
 | 3    | A competitor appears, offering help, but for a price. Perhaps not simply for money, but for the PC to let them take all the credit for the product or to lend the product to the competitor, for a time. Or perhaps they ask help, in return. |
 | 4    | A competitor appears, offering help and in turn begging the PC for help. The competitor screwed with the wrong people and their life is now in danger! Will the PC help? |
-| 5    | A NPC arrives, offering help, for a price. They are willing to add `+5` progress the next time progress is added. |
-| 6    | A NPC arrives, offering help, but is also in need of help, themself. They are willing to add `+5` progress the next time progress is added and after that, the PC is required to come help. |
-| 7    | An anonymous piece of writing found its way into the PC's belongings. It offers solid advice on the Project, instantly boosting the Project by `+15` points of progress. But who could be the mysterious benefactor? And why? |
-| 8    | Suddenly, monsters or pests surprise the PC, assaulting them! If not dispatched quickly, they will damage the Project, causing a loss of `-15` points of progress! |
-| 9    | The PC is overcome with a burst of inspiration! They instantly gain `+15` points of progress! |
+| 5    | A NPC arrives, offering help, for a price. They are willing to add `+10` progress the next time progress is added. |
+| 6    | A NPC arrives, offering help, but is also in need of help, themself. They are willing to add `+10` progress the next time progress is added and after that, the PC is required to come help. |
+| 7    | An anonymous piece of writing found its way into the PC's belongings. It offers solid advice on the Project, instantly boosting the Project by `+15` points of progress. But who could the mysterious benefactor be? And why? |
+| 8    | Suddenly, monsters or pests surprise the PC, assaulting them! If not dispatched quickly, they will damage the Project, causing a loss of half the current progress! |
+| 9    | The PC is overcome with a burst of inspiration! They instantly gain `+15` points of progress! This causes them to work feverishly, neglecting their own well-being. They start the next scenario with `+2` [Exhaustion](#exhaustion)! |
 | 10   | A group of NPCs appear and demand the Project be stopped! Out of superstition or fear, they don't want the PC to succeed. Can they be pacified? |
 | 11   | A NPC who the PC helped in the past appears, offering to help on the Project. Surprisingly, they know exactly what to do, boosting the Project by `+10` points of progress. |
 | 12   | After so much time on the Project, the PC digs themself into a hole, mentally. They can no longer make sense of their own work and someone else has to help them regain their footing in the Project. The helper needs to make the next Project Skill test. |
@@ -2583,8 +2589,8 @@ This governs the understanding of what makes defensive structures effective and 
 | ----- | ----------------------- | ---------------------- | ----------------------------- | --------------------------- |
 | 4     | Take and Hold! <br><img src="../../img/heroic-act_take-and-hold.svg" width="64px" height="64px"></img> | Designate an area up to `3` in radius. Until the end of combat, any **PC** and ally inside this zone receives `+1` [AP](#action-points-ap) at turn start and `+1` [Compensation Point](#compensation-points) for every test. If such a zone already exists, it is replaced with the new one. Decreases Momentum by `-30`. | Designate an area up to `3` in radius. Until the end of combat, any **PC** and ally inside this zone receives `+1` [Compensation Point](#compensation-points) for every test and may **freely** [Counter-Attack](#defense-stunts) *every* attack, but every **PC** *outside* this zone suffers `+1` **Ob** for **every test**. If such a zone already exists, it is replaced with the new one. Increases Momentum by `+15`. | Not A Step Back! <br><img src="../../img/desperate-measure_not-a-step-back.svg" width="64px" height="64px"></img> |
 
-### Craftsmanship Skills
-All craftsmanship requires a mix of physical and mental attributes, for the purpose of creating a wide variety of things.
+### Artisan Skills
+All artisan requires a mix of physical and mental attributes, for the purpose of creating a wide variety of things.
 
 #### Artistry (Agi/Awar)
 The ability to paint and draw well, as well as a general sense of aesthetics. 
