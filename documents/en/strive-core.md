@@ -34,10 +34,16 @@ Another aspect of character evolution is manifested by their Attributes and Skil
 
 Furthermore, a meta-currency, called **Fate Points** is earned by *players*, based on what they and their character do in a session. These allow buying Fate Cards, which give players access to powerful meta-powers that can be enacted at any time, allowing for truly decisive achievements. 
 
+## Heroic
+Many of the systems of STRIVE promote a distinctly heroic style of play. There are buffers between death and full strength. And when characters are hurt, they can fully recover, given enough time. Your characters are expected to keep advancing, potentially outgrowing threats and becoming capable of achieving legendary feats. Bad luck and poor rolls are very unlikely to kill a character - the Fate and Momentum systems allow you to exert a strong influence over a roll's or fight's outcome. 
+
+You may choose to play without the Momentum system for a less heroic style of game. If you want any other experience, such as horror or grimdark, you will need to adjust how Injury recovery works. Or play a different game. STRIVE aims for long-running campaigns, wherein players and their characters form strong bonds with NPCs and shape parts of the world to their own whims. This requires PCs to last a long time, or otherwise the bonds they form become meaningless and their achievements disconnected from their player. PCs may still perish, if they get in way over their heads. But the end will be a defiant struggle, with lots of room for dramatic moments. 
+
 # Table of Contents
 - [Introduction](#introduction)
   - [Tactical Combat](#tactical-combat)
   - [Character Evolution](#character-evolution)
+  - [Heroic](#heroic)
 - [Table of Contents](#table-of-contents)
 - [Glossary](#glossary)
 - [Credits \& Honorable Mentions](#credits--honorable-mentions)
@@ -409,45 +415,51 @@ Furthermore, a meta-currency, called **Fate Points** is earned by *players*, bas
 # Glossary
 As STRIVE is meant primarily as a rule-book to help you quickly find what you need, the glossary is intentionally placed here, prominently. If you know what term you are looking for, this will help you find its description. 
 
-| Term                                         | Meaning / Description   |
-| -------------------------------------------- | ----------------------- |
-| [AFP](#ambition-fate-points)                 | Ambitions Fate-Point    |
-| [Agi](#agility-agi)                          | The Agility Attribute   |
-| [AOE](#area-of-effect-aoe)                   | Area of Effect          |
-| [AP](#action-points-ap)                      | Action Point            |
-| [Awar](#awareness-awar)                      | The Awareness Attribute |
-| [Base Attribute](#skills)                    | One of the two Attributes a Skill relies on. |
-| [Base Initiative / BI](#base-initiative-bi)  | Determines the order in which characters act in combat. |
-| [Concentration](#concentration)              | A Skill or Expertise whose effects last as long as desired |
-| [D10](#dice)                                 | A ten-sided die         |
-| [D20](#dice)                                 | A twenty-sided die      |
-| [D4](#dice)                                  | A four-sided die        |
-| [D6](#dice)                                  | A six-sided die         |
-| [D8](#dice)                                  | An eight-sided die      |
-| [Difficult Terrain](#combat-movement)        | Halves movement per AP  |
-| [FP](#fate-points)                           | Fate-Point              |
-| [Forced Movement](#forced-movement)          | When a character is moved against their will, by being pushed or thrown. |
-| [GM](#introduction)                          | Game-Master             |
-| [Hit Limit](#testing-a-skill)                | Determines how many rolled **hits** may actually factor into the result of a test. |
-| [hit](#tests)                                | Positive result of an individual die-roll |
-| [HP](#hit-points-hp)                         | Hit-Points              |
-| [MaFP](#major-fate-points)                   | Major Fate-Point        |
-| [MiFP](#minor-fate-points)                   | Minor Fate-Point        |
-| [miss](#tests)                               | Negative result of an individual die-roll |
-| [MST](#multiple-single-target-mst)           | Multiple Single Target  |
-| [NPC](#non-player-character-npc)             | Non-Player Character    |
-| [Ob](#tests)                                 | Obstacle                |
-| [PC](#introduction)                          | Player Character        |
-| [RD](#rounded-up--rounded-down)              | Rounded down            |
-| [RU](#rounded-up--rounded-down)              | Rounded up              |
-| [ST](#single-target-st)                      | Single-Target           |
-| [Stability / Stab](#stability-stabil)        | Counter-acts Forced Movement. |
-| [Str](#strength-str)                         | The Strength attribute  |
-| [Sprinting Speed / Sprint](#sprinting-speed-sprint) | Can extend a character's movement per AP. |
-| [Tough](#toughness-tough)                    | The Toughness attribute |
-| [Temporary HP](#temporary-hit-points)        | Hit Points that may exceed the character's limit, but only for a limited time.  |
-| [Wit](#wit-wit)                              | The Wit attribute       |
-| [XP](#experience-points-xp)                  | Experience Point(s)     |
+| Term                                                        | Meaning / Description   |
+| ----------------------------------------------------------- | ----------------------- |
+| [Action Point(s) (AP)](#action-points-ap)                   | A temporary resource that limits how much characters can do on their turn. |
+| [Agility (Agi)](#agility-agi)                               | The Agility Attribute. Determines how dexterous, nimble and fast a character is. |
+| [Ambition Fate-Point (AFP)](#ambition-fate-points)          | A Fate-Point earned for the greatest of achievements. |
+| [Area of Effect (AoE)](#area-of-effect-aoe)                 | Indicates an attack will affect multiple targets in an area, which could be a cone, a radius, line, or similar shape. |
+| [Awareness (Awar)](#awareness-awar)                         | The Awareness Attribute. Determines how generally attentive and empathic a character is. |
+| [Base Attribute](#skills)                                   | One of the two Attributes a Skill relies on. |
+| [Base Initiative / BI](#base-initiative-bi)                 | Determines the order in which characters act in combat. |
+| [Concentration](#concentration)                             | A Skill or Expertise whose effects last as long as desired |
+| [D10](#dice)                                                | A ten-sided die         |
+| [D20](#dice)                                                | A twenty-sided die      |
+| [D4](#dice)                                                 | A four-sided die        |
+| [D6](#dice)                                                 | A six-sided die         |
+| [D8](#dice)                                                 | An eight-sided die      |
+| [Difficult Terrain](#combat-movement)                       | Halves movement per AP. |
+| [Exhaustion](#exhaustion)                                   | A resource that indicates how physically exerted a character is. Limits some abilities if it becomes too much. |
+| [Experience Point(s) (XP)](#experience-points-xp)           | Allow fully unrestricted character advancement. |
+| [Expertise](#expertise)                                     | A sub-ability of a Skill. |
+| [Fate-Point (FP)](#fate-points)                             | A powerful meta-currency that allows you to change dice rolls and even influence the narrative. |
+| [Forced Movement](#forced-movement)                         | When a character is moved against their will, by being pushed or thrown. |
+| [Game-Master (GM)](#introduction)                           | The person running the game. |
+| [Hit Limit](#testing-a-skill)                               | Determines how many rolled Hits may actually factor into the result of a test. |
+| [Hit-Point(s) (HP)](#hit-points-hp)                         | The resource that separates a character from death. |
+| [Hit](#tests)                                               | Positive result of an individual die-roll in a test. |
+| [Major Fate-Point (MaFP)](#major-fate-points)               | A Fate-Point earned for a major achievement and great role-play. |
+| [Minor Fate-Point (MiFP)](#minor-fate-points)               | An easily earned Fate-Point, supported by mostly mechanics. |
+| [Miss](#tests)                                              | Negative result of an individual die-roll in a test. |
+| [Multiple Single Target (MST)](#multiple-single-target-mst) | Indicates that an attack affects multiple targets, each of which is handled individually, for example for rolling defense tests. |
+| [Non-Player Character (NPC)](#non-player-character-npc)     | Represents all the people, animals and monsters of a world, that are controlled by the GM. |
+| [Obstacle (Ob)](#tests)                                     | Determines the target number of Hits you must roll to succeed a test. |
+| [Player Character (PC)](#introduction)                      | The type of character that players are in control of. |
+| [Progress Increment (PI)](#progressing-a-project)           | Determines how much work a Project takes. |
+| [Project](#crafting--research-projects)                     | A Project is a down-time activity to create a product or research lore. |
+| [Rounded Down (RD)](#rounded-up--rounded-down)              | Indicates a step or result of a calculation is supposed to be rounded down. |
+| [Rounded Up (RU)](#rounded-up--rounded-down)                | Indicates a step or result of a calculation is supposed to be rounded up. |
+| [Single-Target (ST)](#single-target-st)                     | Indicates an attack will only affect a single target. |
+| [Skill](#skills)                                            | A learned ability of a character. These are used in the vast majority of cases to resolve tests. |
+| [Sprinting Speed / Sprint](#sprinting-speed-sprint)         | Can extend a character's movement per AP, at the cost of Exhaustion. |
+| [Stability / Stab](#stability-stabil)                       | Counter-acts Forced Movement. |
+| [Strength (Str)](#strength-str)                             | The Strength attribute. Determines how much a character can lift and carry, and how far they may throw things. |
+| [Temporary HP](#temporary-hit-points)                       | Hit Points that may exceed the character's limit, but only for a limited time.  |
+| [Time Increment (TI)](#progressing-a-project)               | Determines how often progress may be added to a Project. |
+| [Toughness (Tough)](#toughness-tough)                       | The Toughness attribute. Determines how much physical and mental strain a character can endure. |
+| [Wit (Wit)](#wit-wit)                                       | The Wit attribute. Determines a character's capacity to reason and understand. |
 
 # Credits & Honorable Mentions
 **Designer**: Nicolas 'Krubi' H.
