@@ -214,8 +214,8 @@ Furthermore, a meta-currency, called **Fate Points** is earned by *players*, bas
     - [Determine Assets](#determine-assets)
     - [Determine Max HP \& Injury Maximum](#determine-max-hp--injury-maximum)
     - [Determine Exhaustion Limit](#determine-exhaustion-limit)
-  - [Asset Appendix](#asset-appendix)
-    - [List of General Assets](#list-of-general-assets)
+  - [Assets Appendix](#assets-appendix)
+    - [General Assets](#general-assets)
     - [Weapon Properties](#weapon-properties)
   - [Lists of Skills](#lists-of-skills)
     - [Physical Skills](#physical-skills)
@@ -1157,7 +1157,7 @@ Whenever a `10` **HP** segment threshold is reached, an [injury](#injury) *may* 
 See the [toughness attribute](#toughness-tough) to determine the **maximum HP**. Also, the **maximum HP** cannot be reduced to less than `10`, for any reason. 
 
 #### Recovering HP
-A [graduated](#graduated-test) [medicine](#medicine-agiwit) test can restore `hits * D8` **HP**, up to the current maximum. This test requires and consumes one unit of [medical supplies](#list-of-general-assets)! 
+A [graduated](#graduated-test) [medicine](#medicine-agiwit) test can restore `hits * D8` **HP**, up to the current maximum. This test requires and consumes one unit of [medical supplies](#general-assets)! 
 
 > For `3` hits out of `7` rolled dice, a medic can restore `3D8` **HP** for themselves or an ally. 
 
@@ -1223,7 +1223,7 @@ An Injury **must** be treated, if it is to begin healing. There are two ways to 
 
 The treatment **Ob** is determined once, by a `D4` roll. 
 
-Only one treatment attempt may be made every `24` hours on a per-character basis. **Every** treatment attempt costs `1` [medical supplies](#list-of-general-assets). 
+Only one treatment attempt may be made every `24` hours on a per-character basis. **Every** treatment attempt costs `1` [medical supplies](#general-assets). 
 
 A `2D10 + 10` roll determines the number of **days** the Injury takes to fully heal, once treated. Every `24` hours the time left to heal is reduced by `-1` day. A **treated** Injury can be treated again, once every `24` hours, reducing the time left to heal by `-2` days, every time the treatment test is successful. However, failing the treatment test increases the time by `+1` day. 
 
@@ -2005,10 +2005,10 @@ Under normal circumstances, characters may spend at most `12` hours traveling (o
 It is possible to push on, past the `12` hour threshold, for another `12` hours. After that, all characters become [Exhausted](#exhausted), which can only be cleared through a [Full Rest](#resting). 
 
 ## Enduring the Journey
-For every increment of `6` hours of travel, characters will need to consume one [ration](#list-of-general-assets). If they don't, they suffer `+1` [exhaustion](#exhaustion) which can only be cleared with a [ration](#list-of-general-assets) during a [Full Rest](#resting). 
+For every increment of `6` hours of travel, characters will need to consume one [ration](#general-assets). If they don't, they suffer `+1` [exhaustion](#exhaustion) which can only be cleared with a [ration](#general-assets) during a [Full Rest](#resting). 
 
 ## Foraging & Hunting
-It is possible to hunt/forage for food while traveling, without losing time. You may make tests of an approproately chosen Skill, with an Ob appropriate to the current square of terrain. If successful, the number of hits you achieve equals the number of [rations](#list-of-general-assets) you gain. 
+It is possible to hunt/forage for food while traveling, without losing time. You may make tests of an approproately chosen Skill, with an Ob appropriate to the current square of terrain. If successful, the number of hits you achieve equals the number of [rations](#general-assets) you gain. 
 
 # General Interactions
 These are rules pertaining to specific social interactions or otherwise non-combat interactions that aren't immediately covered by a single [skill](#skills). 
@@ -2266,20 +2266,22 @@ Determine your character's **max HP** and **injury limit**, by referring to the 
 ### Determine Exhaustion Limit
 Determine your character's [exhaustion limit](#exhaustion), by referring to the [toughness](#toughness-tough) attribute. 
 
-## Asset Appendix
+## Assets Appendix
 The following list does not and cannot aim to be a complete listing of all possible assets in game. Adding new assets as necessary will have to be done by the **GM**. 
 
-### List of General Assets
-The following is a list of general assets. Of course, the following list is non-exhaustive. Invent more at your own need. 
+### General Assets
+The following is a non-exhaustive list of general assets. Just because an asset you're looking for isn't listed here, doesn't mean it cannot exist! You are encouraged to think creatively and [invent](strive-core.md#invention-projects) your own!
 
-When looking up products for crafting, the tools and materials required for the craft are not noted here. The materials and resources available to you, and which exist in your world simply cannot be predicted here. Instead, think creatively - what *could* you use to make the thing? What do you have available? Find a creative way to use what you have, to make what you want and ask your GM for the final go-ahead. However, the [Progress Increment (PI)](#progressing-a-project) and [Time Increment (TI)](#progressing-a-project) are noted. Particularly rare, valuable and suitable materials may act as [Project Boosters](#project-boosters).
+In the following table, `Q` refers to the quality grade of the asset. See also the [crafting](./strive-core.md#crafting--research-projects) rules. When in a hurry (as a **GM**), substitute the `Q` with `2`.
 
-| Name                   | Bulk | Max. Stack Size | Description                                                              | PI  | TI         |
-| ---------------------- | ---- | --------------- | ------------------------------------------------------------------------ | --- | ---------- |
-| Antidote               | 1    | 4               | This unassuming liquid can make the difference between life and death. Removes `Q` points of [Poisoned](#poisoned). If no points remain, instead immediately [treats](#injury-states--treatment) an [Injury](#injury) caused by [Poison](#damage-types) | 20 | 1 Hour |
-| Medical Supplies       | 1    | 5               | A small satchel of clean bandages, thread and needle for suturing, a clean and sharp knife, a splint and straps for binding. Is used in the [treatment](#injury-states--treatment) of various [Injuries](#injury). | 20 | 10 Minutes |
-| Objet d'art            | 1    | 1               | A painting, sculpture or other art piece. | 20 | 10 Minutes |
-| Ration                 | 1    | 10              | A ration of preserved food and drink, enough for a whole day. | 10 | 30 Minutes |
+When looking up products for crafting, the tools and materials required for the craft are not noted here. The materials and resources available to you, and which exist in your world simply cannot be predicted here. Instead, think creatively - what *could* you use to make the thing? What do you have available? Find a creative way to use what you have, to make what you want and ask your GM for the final go-ahead. However, the [Progress Increment (PI)](#progressing-a-project) and [Time Increment (TI)](#progressing-a-project) are noted. Particularly rare, valuable and suitable materials may act as [Project Boosters](#project-boosters). Some assets may harder or easier to make at higher qualities, as noted by the *Crafting Ob*, which, if noted, is the modifier applied to *every* [Project Skill Test](#progressing-a-project).
+
+| Name                   | Bulk | Max. Stack Size | Description                                                              | PI  | TI         | Crafting Ob |
+| ---------------------- | ---- | --------------- | ------------------------------------------------------------------------ | --- | ---------- | ----------- |
+| Antidote               | 1    | 4               | This unassuming liquid can make the difference between life and death. Removes `Q` points of [Poisoned](#poisoned). If no points remain, instead immediately [treats](#injury-states--treatment) an [Injury](#injury) caused by [Poison](#damage-types) | 20 | 1 Hour |  |
+| Medical Supplies       | 1    | 5               | A small satchel of clean bandages, thread and needle for suturing, a clean and sharp knife, a splint and straps for binding. Is used in the [treatment](#injury-states--treatment) of various [Injuries](#injury). | 20 | 10 Minutes |  |
+| Objet d'art            | 1    | 1               | A painting, sculpture or other art piece. | 20 | 10 Minutes |  |
+| Ration                 | 1    | 10              | A ration of preserved food and drink, enough for a whole day. | 10 | 30 Minutes |  |
 
 ### Weapon Properties
 Weapon type assets can have the following **traits**:
@@ -2335,7 +2337,10 @@ The ability to drive a motorized vehicle.
 See also [Travel & Terrain](#travel--terrain).
 
 #### Fishing (Agi/Awar)
-The ability to efficiently catch fish. 
+The ability to efficiently catch and process fish. 
+
+[Crafting](#crafting--research-projects):
+* [Ration](#general-assets) (3x)
 
 #### Instrument-Playing < instrument > (Agi/Awar)
 Playing an instrument of choice. 
@@ -2389,7 +2394,7 @@ For any ally next to you, who's also using a shield, you both gain **+1D** on yo
 #### Trapping (Awar/Wit)
 Setting traps in places where they're difficult to detect and the ability to disarm them. Used to set traps such as bear traps, pits filled with spikes, land mines and so on.
 
-When setting a trap, roll an Ob `0` test. The number of **hits** represent the quality level of the trap, which determines how hard it is to detect and disarm. `0` **hits** means the trap isn't at all concealed and the test is considered a **failure**. Even just `1` **hit** means the test is considered a **success**. 
+When setting a trap, roll an Ob `0` test. The number of **hits** represent the quality level of the trap, which determines how hard it is to detect and disarm. `0` **hits** means the trap isn't at all concealed. 
 
 #### Throwing (Agi/Str)
 General expertise at throwing things. This includes weapons as well as non-weapon objects. 
@@ -2541,6 +2546,11 @@ Knowledge of metallurgical processes and the qualities (such as weight, conducti
 #### Nature (Awar/Wit)
 The ability to tell flora and fauna apart and to know of their attributes, such as what is edible or poisonous or how to hunt a deer, and so on. 
 
+[Crafting](#crafting--research-projects):
+* [Medical Supplies](#general-assets) (1x)
+* [Antidote](#general-assets) (1x)
+* [Ration](#general-assets) (5x)
+
 | Level | Name                 | AP | **Ob** | Effect(s)          | Condition(s) |
 | ----- | -------------------- | -- | ------ | ------------------ | ------------ |
 | 1     | Dirty Weapon/Ammo    | 2  | 2      | Grab some dirt or filth and rub it on a melee weapon or some ammo. When an [attack](#attacking) with that weapon or the ammo inflicts an [injury](#injury), the victim suffers `+1` point of [Poisoned](#poisoned). | Dirt or filth nearby. |
@@ -2557,9 +2567,13 @@ Diagnosing and treating mundane [injuries](#injury), [illnesses](#illness) and [
 
 This skill may also find use in forensics, to identify poisons or the type of weapon that inflicted a wound. The Ob will depend on the rarity of the poison/weapon and will be determined by the **GM**. 
 
+[Crafting](#crafting--research-projects):
+* [Medical Supplies](#general-assets) (5x)
+* [Antidote](#general-assets) (4x)
+
 | Level | <img src="../../img/heroic-acts.svg" width="64px" height="64px"></img> | Heroic Act Description | Desperate Measure Description | <img src="../../img/desperate-measures.svg" width="64px" height="64px"></img> |
 | ----- | ----------------------- | ---------------------- | ----------------------------- | --------------------------- |
-| 4     | Immediate Response      | **You** may immediately move up to `5` and treat a chosen character without needing [Medical Supplies](#list-of-general-assets) and without triggering [Opportunity Attacks](#opportunity-attacks). You get `+1` [Compensation Point](#compensation-points) for the treatment attempt. This does not cost you any [AP](#action-points-ap). Decreases Momentum by `-25`. | **You** may immediately move up to `10` and treat a chosen character without needing [Medical Supplies](#list-of-general-assets) and without triggering [Opportunity Attacks](#opportunity-attacks). You get `+2` [Compensation Points](#compensation-points) for the treatment attempt. This does not cost you any [AP](#action-points-ap). *However*, **you** suffer `+1` [Injury](#injury). Increases Momentum by `+15`. | Panic Medic |
+| 4     | Immediate Response      | **You** may immediately move up to `5` and treat a chosen character without needing [Medical Supplies](#general-assets) and without triggering [Opportunity Attacks](#opportunity-attacks). You get `+1` [Compensation Point](#compensation-points) for the treatment attempt. This does not cost you any [AP](#action-points-ap). Decreases Momentum by `-25`. | **You** may immediately move up to `10` and treat a chosen character without needing [Medical Supplies](#general-assets) and without triggering [Opportunity Attacks](#opportunity-attacks). You get `+2` [Compensation Points](#compensation-points) for the treatment attempt. This does not cost you any [AP](#action-points-ap). *However*, **you** suffer `+1` [Injury](#injury). Increases Momentum by `+15`. | Panic Medic |
 
 #### Reading and Writing (Awar/Wit)
 The ability to both read and write, in general.
@@ -2571,7 +2585,10 @@ Failing a test of this skill while treating a patient, causes the patient to suf
 
 > Failing a test at Ob `3`, by having achieved only `1` hit, means the patient now suffers `2` Injuries. 
 
-This skill may also find use in forensics, to identify poisons or the type of weapon that inflicted a wound. The Ob will depend on the rarity of the poison/weapon and will be determined by the **GM**. At the cost of `1` [medical supplies](#list-of-general-assets), finger prints, organic samples like blood and similar can be retrieved and identified. 
+This skill may also find use in forensics, to identify poisons or the type of weapon that inflicted a wound. The Ob will depend on the rarity of the poison/weapon and will be determined by the **GM**. At the cost of `1` [medical supplies](#general-assets), finger prints, organic samples like blood and similar can be retrieved and identified. 
+
+[Crafting](#crafting--research-projects):
+* [Medical Supplies](#general-assets) (2x)
 
 #### Warfare (Tough/Wit)
 The ability to understand and direct large-scale combat movements, the logistics and psychology of war. Identifying and creating key strategic locations to exploit against enemies. 
@@ -2599,12 +2616,13 @@ All artisan Skills require a mix of physical and mental attributes, for the purp
 The ability to paint and draw well, as well as a general sense of aesthetics. 
 
 [Crafting](#crafting--research-projects):
-* [Objet d'art](#list-of-general-assets)
+* [Objet d'art](#general-assets) (1x)
 
 #### Cooking (Awar/Wit)
 The ability to cook hearty and sweet meals that can strengthen and invigorate. 
 
 [Crafting](#crafting--research-projects):
+* [Ration](#general-assets) (5x)
 * Meal: PI: `5`, TI: `10` Minutes
   * A meal that you have to eat while it's still fresh. The meal does **not** go in your inventory. This is **not** the same as a ration! 
   * Restores `Q HP` and reduces exhaustion by `Q`.
@@ -2760,7 +2778,7 @@ For every *point* in the **Bleeding** Condition, a character suffers `1 D4` poin
 
 * Graded
 * Shrug off: `-1` *point* with a [Toughness](#toughness-tough) [test](#tests) with **Ob** `1`. 
-* Immediate cancel: With a successful [Medicine](#medicine-agiwit) [test](#tests), requiring `1` [medical supplies](#list-of-general-assets) with **Ob** `2`.
+* Immediate cancel: With a successful [Medicine](#medicine-agiwit) [test](#tests), requiring `1` [medical supplies](#general-assets) with **Ob** `2`.
 
 ### Death's Door
 **Death's Door** is a Condition only a **PC** can have and represents their final battle with death. 
@@ -2778,7 +2796,7 @@ For every point in the **Dissolving** Condition, a character suffers `1D4` point
 
 * Graded
 * Automatic shrug-off: `-2` *points* at the end of the turn. 
-* Immediate cancel: With a successful [Medicine](#medicine-agiwit) [test](#tests), requiring `1` [medical supplies](#list-of-general-assets) with **Ob** `2`.
+* Immediate cancel: With a successful [Medicine](#medicine-agiwit) [test](#tests), requiring `1` [medical supplies](#general-assets) with **Ob** `2`.
 
 ### Drug-Addicted
 <img src="../../img/health-condition-drug-addicted.svg" style="width: 3rem; height: 3rem;"></img>
@@ -2860,7 +2878,7 @@ A **Poisoned** character suffers `1D4` points of [poison](#damage-types) damage 
 
 * Graded
 * Shrug off: `-1` *point* with a [toughness](#toughness-tough) [test](#tests) with **Ob** `1`. 
-* Immediate cancel: With an [antidote](#list-of-general-assets). 
+* Immediate cancel: With an [antidote](#general-assets). 
 
 ### Prone
 <img src="../../img/health-condition-prone.svg" style="width: 3rem; height: 3rem;"></img>
