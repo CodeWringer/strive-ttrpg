@@ -139,11 +139,16 @@ Furthermore, a meta-currency, called **Fate Points** is earned by *players*, bas
     - [Crafting \& Research Projects](#crafting--research-projects)
       - [Project Prerequisites](#project-prerequisites)
       - [Progressing a Project](#progressing-a-project)
+      - [Complications](#complications)
+      - [Quality Level Reference](#quality-level-reference)
       - [Project Boosters](#project-boosters)
+      - [Crafting It Again](#crafting-it-again)
+        - [Crafting It In Bulk](#crafting-it-in-bulk)
       - [Research Projects](#research-projects)
       - [Invention Projects](#invention-projects)
       - [Complexity to Progress Increments](#complexity-to-progress-increments)
       - [Workload to Time Increments](#workload-to-time-increments)
+      - [Project Events](#project-events)
     - [Trade](#trade)
       - [Seller's Chart](#sellers-chart)
       - [Buyer's Chart](#buyers-chart)
@@ -209,8 +214,8 @@ Furthermore, a meta-currency, called **Fate Points** is earned by *players*, bas
     - [Determine Assets](#determine-assets)
     - [Determine Max HP \& Injury Maximum](#determine-max-hp--injury-maximum)
     - [Determine Exhaustion Limit](#determine-exhaustion-limit)
-  - [Asset Appendix](#asset-appendix)
-    - [List of General Assets](#list-of-general-assets)
+  - [Assets Appendix](#assets-appendix)
+    - [General Assets](#general-assets)
     - [Weapon Properties](#weapon-properties)
   - [Lists of Skills](#lists-of-skills)
     - [Physical Skills](#physical-skills)
@@ -255,7 +260,7 @@ Furthermore, a meta-currency, called **Fate Points** is earned by *players*, bas
       - [Reading and Writing (Awar/Wit)](#reading-and-writing-awarwit)
       - [Surgery (Agi/Wit)](#surgery-agiwit)
       - [Warfare (Tough/Wit)](#warfare-toughwit)
-    - [Craftsmanship Skills](#craftsmanship-skills)
+    - [Artisan Skills](#artisan-skills)
       - [Artistry (Agi/Awar)](#artistry-agiawar)
       - [Cooking (Awar/Wit)](#cooking-awarwit)
   - [List of Traits](#list-of-traits)
@@ -1152,7 +1157,7 @@ Whenever a `10` **HP** segment threshold is reached, an [injury](#injury) *may* 
 See the [toughness attribute](#toughness-tough) to determine the **maximum HP**. Also, the **maximum HP** cannot be reduced to less than `10`, for any reason. 
 
 #### Recovering HP
-A [graduated](#graduated-test) [medicine](#medicine-agiwit) test can restore `hits * D8` **HP**, up to the current maximum. This test requires and consumes one unit of [medical supplies](#list-of-general-assets)! 
+A [graduated](#graduated-test) [medicine](#medicine-agiwit) test can restore `hits * D8` **HP**, up to the current maximum. This test requires and consumes one unit of [medical supplies](#general-assets)! 
 
 > For `3` hits out of `7` rolled dice, a medic can restore `3D8` **HP** for themselves or an ally. 
 
@@ -1218,7 +1223,7 @@ An Injury **must** be treated, if it is to begin healing. There are two ways to 
 
 The treatment **Ob** is determined once, by a `D4` roll. 
 
-Only one treatment attempt may be made every `24` hours on a per-character basis. **Every** treatment attempt costs `1` [medical supplies](#list-of-general-assets). 
+Only one treatment attempt may be made every `24` hours on a per-character basis. **Every** treatment attempt costs `1` [medical supplies](#general-assets). 
 
 A `2D10 + 10` roll determines the number of **days** the Injury takes to fully heal, once treated. Every `24` hours the time left to heal is reduced by `-1` day. A **treated** Injury can be treated again, once every `24` hours, reducing the time left to heal by `-2` days, every time the treatment test is successful. However, failing the treatment test increases the time by `+1` day. 
 
@@ -1499,34 +1504,46 @@ When not currently dealing with events on a detailed level - there and in the mo
 ### Crafting & Research Projects
 <img src="../../img/crafting.svg" style="width: 3rem; height: 3rem;"></img>
 
-In their own free time, characters can spend time and resources to create [Assets](#assets), research obscure subjects, make new scientific discoveries or create new inventions. 
+In their own free time, characters can spend time and resources to create [Assets](#assets), [research obscure subjects, make scientific discoveries](#research-projects) or entirely new [inventions](#invention-projects). 
 
-If you enjoy inventing your own unique types of [Assets](#assets) that you wish to add to the game, chances are, some of them will be craftable by **PCs**. But how to choose the Progress Increment and Time Increment? For that, see the [Complexity to Progress Increments](#complexity-to-progress-increments) and [Workload to Time Increments](#workload-to-time-increments) sections below. 
+Some crafts may be possible while travelling, but most are assumed to be done during down-time, when the PCs aren't currently travelling or on adventures. Research will always require down-time. 
 
 #### Project Prerequisites
-Typically, a project can only be worked on with access to necessary resources and know-how. Skills that detail how they can be used for crafting will also note the prerequisites required. As always, the **GM** has the final word. 
+Typically, a project can only be worked on with access to necessary resources and know-how. Skills that detail how they can be used for crafting will also note the prerequisites required. As always, the GM has the final word. 
 
 #### Progressing a Project
-Every Project's **progress** is tracked numerically. All progress begins at `0` and is increased through use of a particular Skill, further called the Project Skill. 
+Every Project's **progress** is tracked numerically. All progress begins at `0` and is increased through use of a particular Skill, further called the **Project Skill**. 
 
-Every Project has a **Progress Increment** and a **Time Increment**. The Progress Increment tells you how much progress is needed to finish the Project. For every Time Increment worth of time you spend on the Project, you may add your **Project Skill's level** as points of progress. Up to `3` assisting characters may also add `+1` point of progress every time, along with you. But of course, in the meantime, these characters cannot work on their own Projects. Note that progress isn't rolled for, it is simply added, when the Time Increment's worth of minutes/hours/days has been reached. 
+Every Project has a **Progress Increment** and a **Time Increment**. The Progress Increment tells you how much progress is needed to finish the next step of the Project. For every Time Increment worth of time you spend on the Project, you may add your **Project Skill's level** as points of progress. Up to `5` assisting characters may also add `+1` point of progress every time, along with you. But of course, in the meantime, these characters cannot work on their own Projects. Note that progress isn't rolled for, it is simply added, when the next Time Increment has been reached. Note that you get [advancement progress](#advancement), but no [XP](#experience-points-xp), for every `5` points of progress made! 
 
-Initially, your Project will begin with Quality level `1` and requires a total progress of the `Progress Increment * 2`. Every time you have arrive at full progress, you must make a choice. **Finish** the Project and accept its current Quality level, or **push on**. 
+Initially, your Project will begin with **Quality level** `1`. Every time you arrive at the current total required progress, you must make a choice. **Finish** the Project and accept its current Quality level, or **push on**. 
 
-If you push on, the total required progress of your Project is increased by another Progress Increment and your current progress is reset to `0`, but you also give yourself a chance to further improve the resulting Quality level. After you have decided to push on, the next time you arrive at full progress, a **test of your Project Skill** is required of you. The **Ob** is `N + 1`, where *N* is the current number of times you have already pushed on. If you succeed the test, the resulting Quality level of your Project increases by `+1`. But if you fail, it loses `-1` Quality level, *unless* you accept a random **Complication** instead, see below. 
-
-Note that failure cannot reduce the Quality level to less than `1`. After the test you may yet again decide to finish the Project, or push on. 
+If you push on, the total required progress of your Project is increased by another Progress Increment and your current progress is reset to `0`, but you also give yourself a chance to further improve the resulting Quality level. After you have decided to push on, the next time you arrive at full progress, a **test of your Project Skill** is required of you. The **Ob** is `N + 1`, where *N* is the current number of times you have already pushed on. And of course, for your Project Skill test, you may [fork](#skill-forking) and accept [help](#providing-assistance)! If you succeed the test, the resulting Quality level of your Project increases by `+1`. But if you fail, it loses `-1` Quality level, *unless* you accept a random **Complication** instead, see [Complications](#complications). If you accept a Complication, the Project's Quality level remains unchanged. You neither lose, nor gain a Quality level. Note that if you accept the Quality loss, the Quality level cannot be reduced to less than `1`. 
 
 You can continue this cycle any number of times, but if you **fail twice in succession**, your Project is **botched**. You lose all resources and all progress towards it. This is a critical blunder. 
 
+When you push on, the GM may choose to employ a [Project Event](#project-events), possibly even instead of a Complication. Project Events should be an occasional occurrence at best, employed only for long-lasting and significant Projects, to shake things up a bit when appropriate. 
+
+#### Complications
+When accepting a random Complication for a Project, roll for one of the results from the table below.
+
 | D4 | Complication |
 | -- | ------------ |
-| 1  | Setback: you lose half of all your progress (RU). |
-| 2  | Blockade: you realize you need to fulfill another prerequisite to continue your work. Consult your **GM**. |
-| 3  | Overthinking it: from now on, the Progress Increment is **doubled**. |
-| 4  | Drawback: once finished, the result of your Project will contain a drawback. Consult your **GM**. |
+| 1  | **Blockade**: you realize you need to fulfill another prerequisite to continue your work. Consult your GM. |
+| 2  | **Drawback**: once finished, the result of your Project will contain a drawback. E. g. it might not work reliably, require more fuel, take longer to use, be so complicated only an expert can use it or only works in conjunction with another highly specific thing. Consult your GM. |
+| 3  | **Overthinking it**: from now on, the Progress Increment increases by another `10` points! |
+| 4  | **Work-Accident**: in a moment of carelessness, you hurt yourself accidentally. You suffer an [Injury](#injury)! Consult your GM to determine which. |
 
-Note that even through a Quality level `1` Project, for which you needn't roll anything for, you get [advancement progress](#advancement)! And of course, for your Project Skill test, you may [fork](#skill-forking) and accept [help](#providing-assistance)!
+#### Quality Level Reference
+And how much is a Quality level worth? This will ultimately be up to the GM to estimate, but the table below may provide guidance.
+
+| Quality Level | Description |
+| ------------- | ----------- |
+| 1 - 2         | A simple and plain product. It has a simple function, nothing more. Its potency is lacking. Made by a beginner. |
+| 3 - 4         | A slightly decorated or just well made product. It fulfills its function and is ergonomic. It is moderately potent. A routine work. |
+| 5 - 6         | A well made and decorated product, potent and respectable. An adept's care flowed into this. |
+| 7 - 8         | An expertly made product. Highly potent, potentially with multiple functions. An expert's work. |
+| 9+            | A legendary product. Its potency and function may even be fantastical - something never before seen! A true master of their craft spent all their expertise and time on it. |
 
 #### Project Boosters
 During their adventures, or while perusing the market or library, **PCs** may find things that can boost the progress of their Project. These **Project Boosters** can be varied - schematics, specialized tools, a rare artefact, advice from a knowledgeable **NPC**, and so on. 
@@ -1535,48 +1552,76 @@ These things can add progress to a Project or raise the base Quality level. How 
 
 Typically, Project Boosters are one-time use. Once they have been used to add progress to the Project, they cannot be used again. However, this is not a hard-set rule. Some things, like a magic cauldron or high-tech lab equipment may of course be used again, provided no narrative reasons forbid it. 
 
+#### Crafting It Again
+Whenever a crafting or [invention](#invention-projects) Project is finished, its product becomes the **recipe** for further crafts of **identical products**. If you wish to craft the same product again, at the same Quality level and with any complications it possibly has, you need no longer roll Project Skill tests. You now *know* how to make the thing, in that Quality. 
+
+But you will still need to spend time on it. Multiply the Quality level of the recipe product with the Progress Increment it originally had. That is the total Progress to achieve for that product. When finished, your new product will have the same Quality level and Complications as the original.
+
+But you may also decide you can do better. You may begin your Project again, at the original's Quality level, *minus* its number of Complications. The resulting Quality level will also be used as the basis to multiply the Progress Increments with. Once the total required progress is reached again, you need to roll for Project Skill tests, as normal. In this case, the base Ob will be the new Quality level, plus one. At this point, you go back to the normal rules for [progressing a Project](#progressing-a-project). 
+
+> A product with a Quality level of `3` and one complication would begin at Quality level `2`, but no Complications! Assuming its Progress Increment is `10`, then multiplying that with the new starting Quality of `2`, yields an initial total required Progress of `20`. Once that progress is reached, a Project Skill test is required, at Ob `2 (the new Quality level) + 1 (always) = 3`. If successful, the new Quality level is `3`!
+
+##### Crafting It In Bulk
+For every **recipe** that you know, you may also decide to craft the same product in bulk. This is very efficient method to create more products of the same kind, in less time than individual crafts. For each additional instance of the product you wish to create, with the same crafting Project, will add half (RU) of the Progress Increment. 
+
+> Given you have a recipe for a product with Quality level `3` and a Progress Increment of `10` and you want to make `5` instances of this same product, then the first instance of the product sets the initial required total progress at `3 (Quality) * 10 (Progress Increment) = 30`. Each of the `4` *additional* instances of the product now add `5` points of required progress. So, for all `5` instances of the product to be finished, the final total progress is `30 + (4 * 5) = 50`. This is much faster, than creating those `5` instances individually, as that *would* take `5 * 30 = 150` points of total required progress!
+
 #### Research Projects
 A Project can be about the research of knowledge, but not about mundane every-day things. You must visit various libraries, study dusty old tomes or comb countless digital archives, go on archeological digs and so forth. This is a task requiring substantial effort. 
 
-For all Research Projects, the Progress Increment is `25` and the Time Increment is `6` Hours. The Quality level you achieve in the end dictates the degree of knowledge you learned about your subject. You may always try to gain even deeper understanding of your topic, by researching the same subject matter again. Your previous knowledge will accelerate further studies by the listed **Progress Bonus**.
+For all Research Projects, the Progress Increment is `25` and the Time Increment is `6` Hours. The Quality level you achieve in the end dictates the degree of knowledge you learned about your subject. You may always try to gain even deeper understanding of your topic, by researching the same subject matter again. Your previous knowledge will accelerate further studies by the listed **Progress Bonus**, every time you gain a Progress Increment.
 
-As a prerequisite to begin your studies, you must have access to the number of research objects as listed below. This can be anything, from old scrolls to data sticks, from shattered pieces of ancient machinery to intact but completely alien devices and of course **NPCs** who hold knowledge they might be willing to share. 
+As a prerequisite to begin your studies, you must have access to the number of research objects as listed below. This can be anything, from old scrolls to data sticks, from shattered pieces of ancient machinery to intact but completely alien devices and of course NPCs who hold knowledge they might be willing to share. 
 
 | Obscurity   | Quality Level | Progress Bonus | Research Objects | Description | 
 | ----------- | ------------- | -------------- | ---------------- | ----------- | 
 | Common      | 1 - 2         | 2              | 0                | Common knowledge can be easily researched. Even so, it's not so common that everyone knows it already. It may still take some effort to find the right pieces of writing or piece together what you need from questioning several other people. |
 | Specialized | 3 - 4         | 5              | 1                | Only few individuals have deeper knowledge regarding the topic you seek to understand. Only few pieces of writing even make note of your topic. It will require substantial effort to track down sources of knowledge and then puzzle the pieces together. |
 | Obscure     | 5 - 6         | 10             | 2                | Barely anyone, if anyone at all, even knows of this esoteric subject. Tracking down anyone with knowledge will be a considerable challenge. And whatever writing exists, may be stowed away, hidden in private collections, not easily accessible and not easily parted with. And even if access to these sources of knowledge can be secured, making sense of it all will be a challenge. |
-| Lost        | 7 - 8         | 20             | 3                | No one alive still knows anything about this subject. Whatever writing may exist, is manifested in a long dead language, on a medium hidden in a remote and forgotten place. Even if you find this remnant of knowledge, how could you possibly make sense of it? |
+| Unfathomable | 7 - 8+        | 20             | 3                | No one alive still knows anything about this subject. Whatever writing may exist, is manifested in a long dead language, on a medium hidden in a remote and forgotten place. Even if you find this remnant of knowledge, how could you possibly make sense of it? |
 
 When you finish the research Project, you'll have the answers you seek and may gain the title "Loremaster of *X* (degree)", where you replace *X* with the subject you researched and *degree* with the Quality level. 
 
 #### Invention Projects
-A Project can be about the invention of completely unique and new [Assets](#assets). The progress required will depend on the degree of complexity, as the **GM** will determine.  
+A Project can be about the invention of completely unique and new [Assets](#assets). Describe your idea to the GM, who will determine how feasible your idea is. If it seems reasonable, they will also estimate the  Progress Increment (see [Complexity to Progress Increments](#complexity-to-progress-increments)) and Time Increment (see [Workload to Time Increments](#workload-to-time-increments)). 
 
-| Complexity  | Progress Increment | Time Increment | Description | 
-| ----------- | ------------------ | -------------- | ----------- | 
-| Simple      | 20                 | 1 Hour         | How did no one come up with this, before? It's so simple! This is typically a variation of something else that already exists, but with a minor modification. Given your current access to tools and resources, it is easy to imagine how you might complete this Project. |
-| Specialized | 25                 | 6 Hours        | A fairly unique idea, that is within the realm of the imaginable. This is typically a major variation or modification of something that already exists. It will require specialized tools and resources and some effort to achieve. |
-| Complex     | 50                 | 6 Hours        | A highly challenging invention, that will require highly specialized tools, resources and knowledge to achieve. What you're trying to create is outside your world's current technological or arcanic level of progress, but not unimaginable. |
-| Fantastical | 100                | 1 Day          | What you're trying to create simply doesn't exist. No one has ever thought of this idea before and it's difficult to imagine how such a feat could even be achieved. But should it be possible, you'll have a lot of groundwork to cover. You will need to make your own tools, gain access to very particular resources, double-crunch the numbers and make several prototypes before the real thing could possibly be manifested. |
-
-For every Quality level you achieve, your invention may have one additional function or an existing function is one degree more potent. 
+As a difference to regular Projects, whenever you choose to push on, you may also get a less effective prototype of your invention, if you score a hit on a single `D6` roll, at the GM's discretion. Your prototype receives the Project's current Quality level. 
 
 #### Complexity to Progress Increments
-Think about complexity in terms of *how difficult is it to make the thing?*, *are specialized tools needed?*, *are special resources required?* and *does the task have any tolerance for failure?*
+Think about complexity in terms of *how difficult is it to make the thing?*, *are specialized tools needed?*, *are special resources required?* and *does the task have any tolerance for carelessness?*
 
-| Complexity         | Trivial     | Routine     | Specialized | Complex     | Monumental  |
-| ------------------ | ----------- | ----------- | ----------- | ----------- | ----------- |
-| Progress Increment | 5 - 10      | 10 - 20     | 25 - 40     | 50 - 75     | 100         |
-|                    | A trivial craft can be done at any time, anywhere - even on the road. It barely requires any resources and you can improvise the tools you need. | A routine craft is routine only to a learned and experienced craftsperson. While the work won't put your skills to the test, it still requires some effort and experience to achieve. Improvised tools may still do, and some resources may still be substituted. But the work does demand focus. | A specialized craft is a bit more challenging. You need to sit down and actually focus on the work and need the proper tools and resources to get it done. But provided you bring those, your work can be done anywhere. | A complex craft requires specialized tools and rare resources, which may not be readily accessible to just anyone and the work must be done in a specialized environment. | A monumental craft requires tools that simply don't exist, anywhere. You will have to create them, yourself. The resources you need will require substantial effort to track down. Perhaps you'll even be the first discover their existence. The work can be done only in a highly specialized environment, to minimize the risk of delicate machinery getting dusty, aerosols mixing or vibrations in the earth agitating the wrong powder and so forth. |
+| Complexity         | Progress Increment | Description        |
+| ------------------ | ------------------ | ------------------ |
+| Trivial            | 5 or 10            | A trivial craft can be done at any time, anywhere - even on the road. It barely requires any resources and you can improvise the tools you need. It takes no special knowledge. |
+| Routine            | 10, 15 or 20       | A routine craft is routine only to a learned and experienced craftsperson. While the work won't put your skills to the test, it still requires some effort and experience to achieve. Improvised tools may still do, and some resources may still be substituted. But the work does demand focus. It takes some experience. |
+| Specialized        | 20, 30 or 40       | A specialized craft is a bit more challenging. You need to sit down and actually focus on the work and need the proper tools and resources to get it done. But provided you bring those, your work can be done in any suitable place. Deeper understanding of the subject matter is required. |
+| Complex            | 50 or 75           | A complex craft requires specialized tools and rare resources, which may not be readily accessible to just anyone and the work must be done in a specialized environment. Specialized and obscure knowledge is required. |
+| Monumental         | 100                | A monumental craft requires tools that simply don't exist, anywhere. You will have to create them, yourself. The resources you need will require substantial effort to track down. Perhaps you'll even be the first discover their existence. The work can be done only in a highly specialized environment, to minimize the risk of delicate machinery getting dusty, aerosols mixing or vibrations in the earth agitating the wrong powder and so forth. There may not be anyone alive, nor any writing detailing the work. You will have to be the first to (re-)discover the knowledge required. |
 
 #### Workload to Time Increments
-Workload is the result of processes that naturally take a long time, the difficulty in processing materials and the amount of work that has to be done. A very high workload will take very long to complete, while a low workload may be finished in a matter of moments.
+Workload is the result of processes that naturally take a long time, the difficulty in processing materials and the amount of work that has to be done. A very high workload will take very long to complete, while a low workload may be finished in a matter of minutes.
 
 | Workload       | Low         | Moderate    | High        | Very High   |
 | -------------- | ----------- | ----------- | ----------- | ----------- |
-| Time Increment | 10 Minutes  | 1 Hour      | 6 Hours     | 24 Hours    |
+| Time Increment | 10 Minutes  | 1 Hour      | 6 Hours     | 1 Day       |
+
+#### Project Events
+Project Events are random events that may occur during long-lasting, significant Projects. The details of these should be reserved for the GM's eyes, only. 
+
+| D12  | Event |
+| ---- | ----- |
+| 1    | A thief enters the place the Project is kept, at night, seeking to steal the Project or components thereof. But someone notices them. Can the thief be stopped in time? |
+| 2    | A competitor appears, under pretense of offering help, but in truth seeking to sabotage the Project. But they might go about it clumsily, allowing the PC some time to react. |
+| 3    | A competitor appears, offering help, but for a price. Perhaps not simply for money, but for the PC to let them take all the credit for the product or to lend the product to the competitor, for a time. Or perhaps they ask help, in return. |
+| 4    | A competitor appears, offering help and in turn begging the PC for help. The competitor screwed with the wrong people and their life is now in danger! Will the PC help? |
+| 5    | A NPC arrives, offering help, for a price. They are willing to add `+10` progress the next time progress is added. |
+| 6    | A NPC arrives, offering help, but is also in need of help, themself. They are willing to add `+10` progress the next time progress is added and after that, the PC is required to come help. |
+| 7    | An anonymous piece of writing found its way into the PC's belongings. It offers solid advice on the Project, instantly boosting the Project by `+15` points of progress. But who could the mysterious benefactor be? And why? |
+| 8    | Suddenly, monsters or pests surprise the PC, assaulting them! If not dispatched quickly, they will damage the Project, causing a loss of half the current progress! |
+| 9    | The PC is overcome with a burst of inspiration! They instantly gain `+15` points of progress! This causes them to work feverishly, neglecting their own well-being. They start the next scenario with `+2` [Exhaustion](#exhaustion)! |
+| 10   | A group of NPCs appear and demand the Project be stopped! Out of superstition or fear, they don't want the PC to succeed. Can they be pacified? |
+| 11   | A NPC who the PC helped in the past appears, offering to help on the Project. Surprisingly, they know exactly what to do, boosting the Project by `+10` points of progress. |
+| 12   | After so much time on the Project, the PC digs themself into a hole, mentally. They can no longer make sense of their own work and someone else has to help them regain their footing in the Project. The helper needs to make the next Project Skill test. |
 
 ### Trade
 Selling and buying things can take a surprising amount of time. If prices are too high and demand or reputation too low, chances are, you won't be able to sell your goods. But even when people do show interest in your wares, you still have to *sell it* to them. An uncharismatic merchant will have a difficult time making a pretty profit, regardless of the quality of their goods. On the other hand, buying things may prove equally difficult, when what you're looking for isn't really available. 
@@ -1960,10 +2005,10 @@ Under normal circumstances, characters may spend at most `12` hours traveling (o
 It is possible to push on, past the `12` hour threshold, for another `12` hours. After that, all characters become [Exhausted](#exhausted), which can only be cleared through a [Full Rest](#resting). 
 
 ## Enduring the Journey
-For every increment of `6` hours of travel, characters will need to consume one [ration](#list-of-general-assets). If they don't, they suffer `+1` [exhaustion](#exhaustion) which can only be cleared with a [ration](#list-of-general-assets) during a [Full Rest](#resting). 
+For every increment of `6` hours of travel, characters will need to consume one [ration](#general-assets). If they don't, they suffer `+1` [exhaustion](#exhaustion) which can only be cleared with a [ration](#general-assets) during a [Full Rest](#resting). 
 
 ## Foraging & Hunting
-It is possible to hunt/forage for food while traveling, without losing time. You may make tests of an approproately chosen Skill, with an Ob appropriate to the current square of terrain. If successful, the number of hits you achieve equals the number of [rations](#list-of-general-assets) you gain. 
+It is possible to hunt/forage for food while traveling, without losing time. You may make tests of an approproately chosen Skill, with an Ob appropriate to the current square of terrain. If successful, the number of hits you achieve equals the number of [rations](#general-assets) you gain. 
 
 # General Interactions
 These are rules pertaining to specific social interactions or otherwise non-combat interactions that aren't immediately covered by a single [skill](#skills). 
@@ -2221,17 +2266,22 @@ Determine your character's **max HP** and **injury limit**, by referring to the 
 ### Determine Exhaustion Limit
 Determine your character's [exhaustion limit](#exhaustion), by referring to the [toughness](#toughness-tough) attribute. 
 
-## Asset Appendix
+## Assets Appendix
 The following list does not and cannot aim to be a complete listing of all possible assets in game. Adding new assets as necessary will have to be done by the **GM**. 
 
-### List of General Assets
-The following is a list of general assets. Of course, the following list is non-exhaustive. Invent more at your own need. 
+### General Assets
+The following is a non-exhaustive list of general assets. Just because an asset you're looking for isn't listed here, doesn't mean it cannot exist! You are encouraged to think creatively and [invent](strive-core.md#invention-projects) your own!
 
-| Name                   | Bulk | Max. Stack Size | Description                                                              |
-| ---------------------- | ---- | --------------- | ------------------------------------------------------------------------ |
-| Antidote               | 1    | 4               | This unassuming liquid can make the difference between life and death. Immediately treats an [Injury](#injury) caused by [Poison](#damage-types) and removes all points of [Poisoned](#poisoned). |
-| Medical Supplies       | 1    | 5               | A small satchel of clean bandages, thread and needle for suturing, a clean and sharp knife, a splint and straps for binding. Is used in the [treatment](#injury-states--treatment) of various [Injuries](#injury). |
-| Ration                 | 1    | 10              | A ration of preserved food, enough for a whole day. |
+In the following table, `Q` refers to the quality grade of the asset. See also the [crafting](./strive-core.md#crafting--research-projects) rules. When in a hurry (as a **GM**), substitute the `Q` with `2`.
+
+When looking up products for crafting, the tools and materials required for the craft are not noted here. The materials and resources available to you, and which exist in your world simply cannot be predicted here. Instead, think creatively - what *could* you use to make the thing? What do you have available? Find a creative way to use what you have, to make what you want and ask your GM for the final go-ahead. However, the [Progress Increment (PI)](#progressing-a-project) and [Time Increment (TI)](#progressing-a-project) are noted. Particularly rare, valuable and suitable materials may act as [Project Boosters](#project-boosters). Some assets may harder or easier to make at higher qualities, as noted by the *Crafting Ob*, which, if noted, is the modifier applied to *every* [Project Skill Test](#progressing-a-project).
+
+| Name                   | Bulk | Max. Stack Size | Description                                                              | PI  | TI         | Crafting Ob |
+| ---------------------- | ---- | --------------- | ------------------------------------------------------------------------ | --- | ---------- | ----------- |
+| Antidote               | 1    | 4               | This unassuming liquid can make the difference between life and death. Removes `Q` points of [Poisoned](#poisoned). If no points remain, instead immediately [treats](#injury-states--treatment) an [Injury](#injury) caused by [Poison](#damage-types) | 20 | 1 Hour |  |
+| Medical Supplies       | 1    | 5               | A small satchel of clean bandages, thread and needle for suturing, a clean and sharp knife, a splint and straps for binding. Is used in the [treatment](#injury-states--treatment) of various [Injuries](#injury). | 20 | 10 Minutes |  |
+| Objet d'art            | 1    | 1               | A painting, sculpture or other art piece. | 20 | 10 Minutes |  |
+| Ration                 | 1    | 10              | A ration of preserved food and drink, enough for a whole day. | 10 | 30 Minutes |  |
 
 ### Weapon Properties
 Weapon type assets can have the following **traits**:
@@ -2287,7 +2337,10 @@ The ability to drive a motorized vehicle.
 See also [Travel & Terrain](#travel--terrain).
 
 #### Fishing (Agi/Awar)
-The ability to efficiently catch fish. 
+The ability to efficiently catch and process fish. 
+
+[Crafting](#crafting--research-projects):
+* [Ration](#general-assets) (3x)
 
 #### Instrument-Playing < instrument > (Agi/Awar)
 Playing an instrument of choice. 
@@ -2341,7 +2394,7 @@ For any ally next to you, who's also using a shield, you both gain **+1D** on yo
 #### Trapping (Awar/Wit)
 Setting traps in places where they're difficult to detect and the ability to disarm them. Used to set traps such as bear traps, pits filled with spikes, land mines and so on.
 
-When setting a trap, roll an Ob `0` test. The number of **hits** represent the quality level of the trap, which determines how hard it is to detect and disarm. `0` **hits** means the trap isn't at all concealed and the test is considered a **failure**. Even just `1` **hit** means the test is considered a **success**. 
+When setting a trap, roll an Ob `0` test. The number of **hits** represent the quality level of the trap, which determines how hard it is to detect and disarm. `0` **hits** means the trap isn't at all concealed. 
 
 #### Throwing (Agi/Str)
 General expertise at throwing things. This includes weapons as well as non-weapon objects. 
@@ -2493,6 +2546,11 @@ Knowledge of metallurgical processes and the qualities (such as weight, conducti
 #### Nature (Awar/Wit)
 The ability to tell flora and fauna apart and to know of their attributes, such as what is edible or poisonous or how to hunt a deer, and so on. 
 
+[Crafting](#crafting--research-projects):
+* [Medical Supplies](#general-assets) (1x)
+* [Antidote](#general-assets) (1x)
+* [Ration](#general-assets) (5x)
+
 | Level | Name                 | AP | **Ob** | Effect(s)          | Condition(s) |
 | ----- | -------------------- | -- | ------ | ------------------ | ------------ |
 | 1     | Dirty Weapon/Ammo    | 2  | 2      | Grab some dirt or filth and rub it on a melee weapon or some ammo. When an [attack](#attacking) with that weapon or the ammo inflicts an [injury](#injury), the victim suffers `+1` point of [Poisoned](#poisoned). | Dirt or filth nearby. |
@@ -2509,9 +2567,13 @@ Diagnosing and treating mundane [injuries](#injury), [illnesses](#illness) and [
 
 This skill may also find use in forensics, to identify poisons or the type of weapon that inflicted a wound. The Ob will depend on the rarity of the poison/weapon and will be determined by the **GM**. 
 
+[Crafting](#crafting--research-projects):
+* [Medical Supplies](#general-assets) (5x)
+* [Antidote](#general-assets) (4x)
+
 | Level | <img src="../../img/heroic-acts.svg" width="64px" height="64px"></img> | Heroic Act Description | Desperate Measure Description | <img src="../../img/desperate-measures.svg" width="64px" height="64px"></img> |
 | ----- | ----------------------- | ---------------------- | ----------------------------- | --------------------------- |
-| 4     | Immediate Response      | **You** may immediately move up to `5` and treat a chosen character without needing [Medical Supplies](#list-of-general-assets) and without triggering [Opportunity Attacks](#opportunity-attacks). You get `+1` [Compensation Point](#compensation-points) for the treatment attempt. This does not cost you any [AP](#action-points-ap). Decreases Momentum by `-25`. | **You** may immediately move up to `10` and treat a chosen character without needing [Medical Supplies](#list-of-general-assets) and without triggering [Opportunity Attacks](#opportunity-attacks). You get `+2` [Compensation Points](#compensation-points) for the treatment attempt. This does not cost you any [AP](#action-points-ap). *However*, **you** suffer `+1` [Injury](#injury). Increases Momentum by `+15`. | Panic Medic |
+| 4     | Immediate Response      | **You** may immediately move up to `5` and treat a chosen character without needing [Medical Supplies](#general-assets) and without triggering [Opportunity Attacks](#opportunity-attacks). You get `+1` [Compensation Point](#compensation-points) for the treatment attempt. This does not cost you any [AP](#action-points-ap). Decreases Momentum by `-25`. | **You** may immediately move up to `10` and treat a chosen character without needing [Medical Supplies](#general-assets) and without triggering [Opportunity Attacks](#opportunity-attacks). You get `+2` [Compensation Points](#compensation-points) for the treatment attempt. This does not cost you any [AP](#action-points-ap). *However*, **you** suffer `+1` [Injury](#injury). Increases Momentum by `+15`. | Panic Medic |
 
 #### Reading and Writing (Awar/Wit)
 The ability to both read and write, in general.
@@ -2523,7 +2585,10 @@ Failing a test of this skill while treating a patient, causes the patient to suf
 
 > Failing a test at Ob `3`, by having achieved only `1` hit, means the patient now suffers `2` Injuries. 
 
-This skill may also find use in forensics, to identify poisons or the type of weapon that inflicted a wound. The Ob will depend on the rarity of the poison/weapon and will be determined by the **GM**. At the cost of `1` [medical supplies](#list-of-general-assets), finger prints, organic samples like blood and similar can be retrieved and identified. 
+This skill may also find use in forensics, to identify poisons or the type of weapon that inflicted a wound. The Ob will depend on the rarity of the poison/weapon and will be determined by the **GM**. At the cost of `1` [medical supplies](#general-assets), finger prints, organic samples like blood and similar can be retrieved and identified. 
+
+[Crafting](#crafting--research-projects):
+* [Medical Supplies](#general-assets) (2x)
 
 #### Warfare (Tough/Wit)
 The ability to understand and direct large-scale combat movements, the logistics and psychology of war. Identifying and creating key strategic locations to exploit against enemies. 
@@ -2544,38 +2609,30 @@ This governs the understanding of what makes defensive structures effective and 
 | ----- | ----------------------- | ---------------------- | ----------------------------- | --------------------------- |
 | 4     | Take and Hold! <br><img src="../../img/heroic-act_take-and-hold.svg" width="64px" height="64px"></img> | Designate an area up to `3` in radius. Until the end of combat, any **PC** and ally inside this zone receives `+1` [AP](#action-points-ap) at turn start and `+1` [Compensation Point](#compensation-points) for every test. If such a zone already exists, it is replaced with the new one. Decreases Momentum by `-30`. | Designate an area up to `3` in radius. Until the end of combat, any **PC** and ally inside this zone receives `+1` [Compensation Point](#compensation-points) for every test and may **freely** [Counter-Attack](#defense-stunts) *every* attack, but every **PC** *outside* this zone suffers `+1` **Ob** for **every test**. If such a zone already exists, it is replaced with the new one. Increases Momentum by `+15`. | Not A Step Back! <br><img src="../../img/desperate-measure_not-a-step-back.svg" width="64px" height="64px"></img> |
 
-### Craftsmanship Skills
-All craftsmanship requires a mix of physical and mental attributes, for the purpose of creating a wide variety of things.
+### Artisan Skills
+All artisan Skills require a mix of physical and mental attributes, for the purpose of creating a wide variety of things. Mechanically speaking, these are [crafting](#crafting--research-projects) Skills.
 
 #### Artistry (Agi/Awar)
 The ability to paint and draw well, as well as a general sense of aesthetics. 
 
-| Product                              | Progress Increment | Time Increment | Materials                              | Quality Bonus   |
-| ------------------------------------ | ------------------ | -------------- | -------------------------------------- | --------------- | 
-| A painting or sculpture.             | 20                 | 10 Minutes     | Any paintable or shapeable object, such as a canvas or chunk of marble. | / |
+[Crafting](#crafting--research-projects):
+* [Objet d'art](#general-assets) (1x)
 
 #### Cooking (Awar/Wit)
 The ability to cook hearty and sweet meals that can strengthen and invigorate. 
 
-[Crafting](#crafting--research-projects)
-
-**Tools**: cooking utensils; a pot, pan, spitroast or similar; a strong heat source
-
-**Resources**: Foodstuffs; Better quality can act as [booster](#project-boosters)
-
-For every `Q` past `1`, the meal may confer certain boons, for `Q * 2` hours. Each of the following boons can be picked only once:
-* Grant `Q D4` [Temporary HP](#temporary-hit-points). 
-* Increase [base initiative](#base-initiative-bi) by `Q`. 
-* Increase [strength](#strength-str) or [toughness](#toughness-tough) by `Q / 2 (RU)`. 
-* Resist `Q` [freezing](#damage-types) or [burning](#damage-types) or [bleeding](#damage-types) damage. 
-
-All meals always restore `Q HP` and reduce exhaustion by `Q`. 
+[Crafting](#crafting--research-projects):
+* [Ration](#general-assets) (5x)
+* Meal: PI: `5`, TI: `10` Minutes
+  * A meal that you have to eat while it's still fresh. The meal does **not** go in your inventory. This is **not** the same as a ration! 
+  * Restores `Q HP` and reduces exhaustion by `Q`.
+  * For every `Q` past `1`, the meal may confer certain boons, for `Q * 2` hours. Each of the following boons can be picked only once:
+    * Grant `Q D4` [Temporary HP](#temporary-hit-points). 
+    * Increase [base initiative](#base-initiative-bi) by `Q`. 
+    * Increase [strength](#strength-str) or [toughness](#toughness-tough) by `Q / 2 (RU)`. 
+    * Resist `Q` [freezing](#damage-types) or [burning](#damage-types) or [bleeding](#damage-types) damage. 
 
 The boons from meals do not stack. Eating a second meal will have it override all of a previous meal's boons. The strength of boons is determined at the time of creation and are the same for all characters who share in the meal. 
-
-| Product                              | Progress Increment | Time Increment | Quality Bonus   |
-| ------------------------------------ | ------------------ | -------------- | --------------- |
-| Meal                                 | 5                  | 10 Minutes     | Restores `Q HP` and reduces exhaustion by `Q`. |
 
 | Level | <img src="../../img/heroic-acts.svg" width="64px" height="64px"></img> | Heroic Act Description | Desperate Measure Description | <img src="../../img/desperate-measures.svg" width="64px" height="64px"></img> |
 | ----- | ----------------------- | ---------------------- | ----------------------------- | --------------------------- |
@@ -2721,7 +2778,7 @@ For every *point* in the **Bleeding** Condition, a character suffers `1 D4` poin
 
 * Graded
 * Shrug off: `-1` *point* with a [Toughness](#toughness-tough) [test](#tests) with **Ob** `1`. 
-* Immediate cancel: With a successful [Medicine](#medicine-agiwit) [test](#tests), requiring `1` [medical supplies](#list-of-general-assets) with **Ob** `2`.
+* Immediate cancel: With a successful [Medicine](#medicine-agiwit) [test](#tests), requiring `1` [medical supplies](#general-assets) with **Ob** `2`.
 
 ### Death's Door
 **Death's Door** is a Condition only a **PC** can have and represents their final battle with death. 
@@ -2739,7 +2796,7 @@ For every point in the **Dissolving** Condition, a character suffers `1D4` point
 
 * Graded
 * Automatic shrug-off: `-2` *points* at the end of the turn. 
-* Immediate cancel: With a successful [Medicine](#medicine-agiwit) [test](#tests), requiring `1` [medical supplies](#list-of-general-assets) with **Ob** `2`.
+* Immediate cancel: With a successful [Medicine](#medicine-agiwit) [test](#tests), requiring `1` [medical supplies](#general-assets) with **Ob** `2`.
 
 ### Drug-Addicted
 <img src="../../img/health-condition-drug-addicted.svg" style="width: 3rem; height: 3rem;"></img>
@@ -2821,7 +2878,7 @@ A **Poisoned** character suffers `1D4` points of [poison](#damage-types) damage 
 
 * Graded
 * Shrug off: `-1` *point* with a [toughness](#toughness-tough) [test](#tests) with **Ob** `1`. 
-* Immediate cancel: With an [antidote](#list-of-general-assets). 
+* Immediate cancel: With an [antidote](#general-assets). 
 
 ### Prone
 <img src="../../img/health-condition-prone.svg" style="width: 3rem; height: 3rem;"></img>

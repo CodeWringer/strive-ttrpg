@@ -10,7 +10,7 @@ This module is best suited for a medium fantasy setting. It introduces magic, wh
 The module introduces:
 * The [Arcana](#arcana-arc) attribute.
 * [Magic](#magic) rules.
-* Medieval/fantasy themed [armors](#armor), [shields](#shield-types), [general assets](#list-of-general-assets), [weapons](#weapon-types) and [skills](#lists-of-skills).
+* Medieval/fantasy themed [armors](#armor), [shields](#shield-types), [general assets](#general-assets), [weapons](#weapon-types) and [skills](#lists-of-skills).
 
 There is a [compendium document](./strive-fantasy-game-masters-resource.md) reserved solely for the **GM**, containing additional resources for them to draw from.
 
@@ -47,7 +47,6 @@ There is a [compendium document](./strive-fantasy-game-masters-resource.md) rese
   - [Memorum](#memorum)
 - [The Veil](#the-veil)
 - [Assets](#assets)
-  - [Weapon Properties](#weapon-properties)
 - [Appendix](#appendix)
   - [Character Creation](#character-creation)
     - [Determine Abilities](#determine-abilities)
@@ -56,18 +55,20 @@ There is a [compendium document](./strive-fantasy-game-masters-resource.md) rese
         - [Semi-Random Attribute Assignment](#semi-random-attribute-assignment)
       - [Choosing Skills](#choosing-skills)
     - [Determine Arcane Overheat Thresholds](#determine-arcane-overheat-thresholds)
-  - [List of Assets](#list-of-assets)
+  - [Assets Appendix](#assets-appendix)
+    - [General Assets](#general-assets)
     - [Armor](#armor)
       - [Armor Properties](#armor-properties)
       - [Light Armor](#light-armor)
       - [Medium Armor](#medium-armor)
       - [Heavy Armor](#heavy-armor)
     - [Shield Types](#shield-types)
-        - [Light Shield](#light-shield)
-        - [Medium Shield](#medium-shield)
-        - [Heavy Shield](#heavy-shield)
-    - [List of General Assets](#list-of-general-assets)
+      - [Shield Properties](#shield-properties)
+      - [Light Shield](#light-shield)
+      - [Medium Shield](#medium-shield)
+      - [Heavy Shield](#heavy-shield)
     - [Weapon Types](#weapon-types)
+      - [Weapon Properties](#weapon-properties)
       - [Dagger (Agi/Awar)](#dagger-agiawar)
       - [Light Blade (Agi/Str)](#light-blade-agistr)
       - [Long Blade (Agi/Str)](#long-blade-agistr)
@@ -92,7 +93,7 @@ There is a [compendium document](./strive-fantasy-game-masters-resource.md) rese
     - [Knowledge Skills](#knowledge-skills)
       - [Heraldry (Awar/Wit)](#heraldry-awarwit)
       - [Magic School \< School \> (\< Attribute \>)](#magic-school--school---attribute-)
-    - [Craftsmanship Skills](#craftsmanship-skills)
+    - [Artisan Skills](#artisan-skills)
       - [Armor Smithing (Str/Wit)](#armor-smithing-strwit)
       - [Ambersmithing (Str/Wit)](#ambersmithing-strwit)
       - [Alchemy (Arc/Wit)](#alchemy-arcwit)
@@ -325,7 +326,7 @@ Whenever magic is cast, a pale reflection of it remains, invisible to the naked 
 
 Those sensitive to magic can detect it and if they know the [magic school](#magic-school--school---attribute-) whence the spell stems, they instinctively recognize the echo. Otherwise, they may need to succeed an [Arcana](#arcana-arc) test at Ob `2` to determine the type of magic that was cast. With another test, also at Ob `2`, they may also determine a rough estimate of how old the echo is. 
 
-Each echo has a unique aspect to it, like a finger-print. It is possible to capture a magic echo's finger-print, as well as some of the context when it was cast, in special devices, called [Magic Recorders](#list-of-general-assets). 
+Each echo has a unique aspect to it, like a finger-print. It is possible to capture a magic echo's finger-print, as well as some of the context when it was cast, in special devices, called [Magic Recorders](#general-assets). 
 
 ## Magic Things
 No fantasy world would be complete without materials with uses for the supernatural or artifacts of immense power. This section introduces the basics of these things. 
@@ -364,9 +365,15 @@ Due to the length of the process and the difficulty in keeping the right tempera
 **Ambersteel** is also a fairly heavy material, albeit slightly lighter than [Amberite](#amberite). A fist-sized chunk has a [bulk](./strive-core.md#carrying-capacity) of 2. Weapons, shields and armor made from this material are +1 [bulkier](./strive-core.md#carrying-capacity). 
 
 ### Arcane Engine
-A man-sized device that can channel and direct the power of a [Malevite Orb](#malevite) or [rune](#runes). Can be activated through [rune-using](#rune-using-agiwit). 
+A device that can channel and direct the power of a [Malevite Orb](#malevite) or [rune](#runes). Can be activated through [rune-using](#rune-using-agiwit). 
 
-Arcane Engines are mostly useful either as siege engines or as stationary constant magic casters. 
+Arcane Engines are mostly useful either as siege engines or as stationary constant magic casters. The more powerful the used [Malevite Orb](#malevite), the larger the engine. 
+
+PI: `50`, TI: `1` Day, Ob: `+1`, requires:
+* [Abyssalite](#abyssalite)
+* A sturdy frame-material, like steel
+
+The engine negates `Q` side-effect of the [Malevite Orb](#malevite).
 
 ### Cerebillium
 **Cerebillium** is an odd material, that resembles white marble, with faintly glowing veins of green and turqoise running through it. This material is unique in that it always creates a small magical current on its own, which flows back and forth through the veins. 
@@ -403,46 +410,50 @@ In order to invoke a **rune**:
 * The user accumulates one third (RD, but to no less than `1`) of the rune's [Spell Intensity](#spell-intensity-si) as [Arcane Slag](#arcane-slag). 
 
 ### Magic Scrolls
-**Magic scrolls** allow a single, specific spell to be cast by both mages and non-mages. Once used, the **magic scroll** burns up from the flow of magic and cannot be used again (even if the bearer material is fire-proof). Thus, these are single-use tools. 
+**Magic Scrolls** allow a single, specific spell to be cast by both mages and non-mages. Once used, the Magic Scroll burns up from the flow of magic and cannot be used again (even if the bearer material is fire-proof). Thus, these are single-use tools. 
 
-Due to how **magic scrolls** are always magically charged, they cannot be in the vicinity of any other **magic scrolls**. This works a bit like how magnets with the same polarity repulse each other, but a lot more dangerous. This condition applies *only* to **magic scrolls** of **same the type of magic**. 
+Due to how Magic Scrolls are always magically charged, they cannot be in the vicinity of any other Magic Scrolls. This works a bit like how magnets with the same polarity repulse each other, but a lot more dangerous. This condition applies *only* to Magic Scrolls of **same the type of magic**. 
 
-If two **magic scrolls** **of the same type** are brought to a distance of `20` or less to each other, they begin to glow, hum and rumble, as if to warn their bearers. Should they be brought to a distance of `15` or less to each other, they both discharge the magic they hold and repulse each other. This means anyone immediately nearby suffers `3D6` **Bludgeoning** damage. The **magic scrolls** are destroyed in the process! 
+If two Magic Scrolls **of the same type** are brought to a distance of `20` or less to each other, they begin to glow, hum and rumble, as if to warn their bearers. Should they be brought to a distance of `15` or less to each other, they both discharge the magic they hold and repulse each other. This means anyone immediately nearby suffers `3D6` Bludgeoning damage. The Magic Scrolls are destroyed in the process! 
 
-It may be possible to circumvent this repulsion behavior by placing the **magic scrolls** in a container made of [Ambersteel](#ambersteel). This requires the container to be of a [Quality level](./strive-core.md#crafting--research-projects) equal to the highest of the **magic scrolls'** [Spell Intensity](#spell-intensity-si).
+It may be possible to circumvent this repulsion behavior by placing the Magic Scrolls in a container made of [Ambersteel](#ambersteel). This requires the container to be of a [Quality level](./strive-core.md#crafting--research-projects) equal to the highest of the Magic Scrolls' [Spell Intensity](#spell-intensity-si).
 
-In order to create a **magic scroll**:
-* Powdered [Abyssalite](#abyssalite) must be painted onto the parchment, paper or other such material, in a shape specific to the magic spell the **magic scroll** will be able to cast. 
-  * This requires a **complete success** of an [artistry](./strive-core.md#artistry-agiawar) or [artificing](#artificing-arcwit) test, at **Ob** equal to the intended [Spell Intensity](#spell-intensity-si) of the **magic scroll**. 
-* Then, the **magic scroll** must be "primed" by a mage. This requires a **complete success** of a test of the same [school of magic](#list-of-magic-schools) as the **magic scroll** holds, with **Ob** equal to the [Spell Intensity](#spell-intensity-si) of the **magic scroll**. 
-* If any of the tests are not a **complete success**, the **magic scroll** is botched and the material cannot be used for another attempt. There is no room for mistakes. 
+In order to create a Magic Scroll:
+* PI: `50`, TI: `1` Hour
+* Powdered [Abyssalite](#abyssalite) must be painted onto the parchment, paper or other such material, in a shape specific to the magic spell the Magic Scroll will be able to cast. 
+  * This requires a **complete success** of an [artistry](./strive-core.md#artistry-agiawar) or [artificing](#artificing-arcwit) test, at Ob equal to the intended [Spell Intensity](#spell-intensity-si) of the Magic Scroll. 
+* Then, the Magic Scroll must be "primed" by a mage. This requires a **complete success** of a test of the same [school of magic](#list-of-magic-schools) as the Magic Scroll holds, with Ob equal to the [Spell Intensity](#spell-intensity-si) of the Magic Scroll. 
+* If any of the tests are not a **complete success**, the Magic Scroll is botched and the material cannot be used for another attempt. There is no room for mistakes. 
 
-In order to invoke a **magic scroll**:
-* One must unfurl and hold it plainly in the direction the spell is to be cast, then trace the painted symbol on the **magic scroll** to "agitate" the primed magic. This costs `2` AP in combat. 
-* This causes no [Arcane Overheat](#arcane-overheat), but the **magic scroll** is immediately destroyed upon use. It burns up magically (even if the material itself is fire-proof). 
+In order to invoke a Magic Scroll:
+* One must unfurl and hold it plainly in the direction the spell is to be cast, then trace the painted symbol on the Magic Scroll to "agitate" the primed magic. This costs `2` AP in combat. 
+* This causes no [Arcane Overheat](#arcane-overheat), but the Magic Scroll is immediately destroyed upon use. It burns up magically (even if the material itself is fire-proof). 
 
 ### Malevite
-Also known as blood jewel, Malevite is an entirely artificial material, made from the blood of mages, by use of great pressure, a constant arcanic charge and much patience. The more blood it is infused with, the purer the color and more powerful the artifact. 
+Also known as blood jewel, Malevite is an entirely artificial material, made from the blood of mages or magical creatures, by use of great pressure, a constant arcanic charge and much patience. The more blood it is infused with, the purer the color and more powerful the artifact. 
 
 A blood jewel is a perfectly smooth sphere, with coloration ranging from a foggy and muddy black, to a swirly crimson or at its purest, to a radiant crimson.
 
-Once formed, a Malevite orb can not be infused further. It rejects any more mage blood. 
+Once formed, a Malevite orb can not be infused further. It rejects any more blood. 
 
 Destroying such an artifact is not an easy feat. It requires a spike of pure [Ambersteel](#ambersteel) driven through it with great force. Doing so *may* tear a temporary hole in the fabric of reality. 
 
-A Malevite orb is an artifact of very great power that can change the laws of physics and warp reality around it. To direct this power, requires an arcane apparatus, wherein the orb functions like a super-charged battery. To build such a device require a deep understanding of the arcane. When destroyed, the Malevite Orb de-compresses, releasing the blood it was made from in a spectacular hurricane of crimson. 
+A Malevite orb is an artifact of very great power that can change the laws of physics and warp reality around it. To direct this power, requires an [Arcane Engine](#arcane-engine), wherein the orb functions like a super-charged battery. To build such a device require a deep understanding of the arcane. When destroyed, the Malevite Orb de-compresses, releasing the blood it was made from in a spectacular hurricane of crimson. 
 
 There are four quality levels. Impure Malevite has side-effects and is not nearly as powerful as a purer blood jewel. 
 
+PI: `300`, TI: `1` Day, Ob: `+2`, requires:
+* A lot of Mage blood
+* `3`, `9`, `27` or `81` bulk of [Abyssalite](#abyssalite) (graded per purity level)
+
 | Quality | Description | Side-Effects |
 | ------- | ----------- | ------------ |
-| Foggy   | Contains a single spell, at `SI 10`, which can only be controlled with an [Arcane Engine](#arcane-engine). | 3 |
-| Murky   | Contains up to two spells, at `SI 30`, which can only be controlled with an [Arcane Engine](#arcane-engine). | 2 |
-| Swirly  | Contains a weak reality-altering power, which can only be controlled with an [Arcane Engine](#arcane-engine). Can be almost anything, within reason. Things such as a low gravity field, anti-magic field, constant fog-emitter, elemental spewer and similar. | 1 |
-| Pure    | Contains a reality-altering power. Practically anything is possible. The crowning achievement the power hungry and the insane. The closest you can get to god-hood. Requires no [Arcane Engine](#arcane-engine). It has transcended the need for such a paltry shackle. | 0 |
+| Foggy   | Contains a single spell, at `SI 10`, which can only be controlled with an [Arcane Engine](#arcane-engine). | 5 |
+| Murky   | Contains up to two spells, at `SI 30`, which can only be controlled with an [Arcane Engine](#arcane-engine). | 4 |
+| Swirly  | Contains a weak reality-altering power, which can only be controlled with an [Arcane Engine](#arcane-engine). Can be almost anything, within reason. Things such as a low gravity field, anti-magic field, constant fog-emitter, elemental spewer and similar. | 3 |
+| Pure    | Contains a reality-altering power. Practically anything is possible. The crowning achievement the power hungry and insane. The closest you can get to god-hood. Requires no [Arcane Engine](#arcane-engine). It has transcended the need for such a paltry shackle. | 0 |
 
 #### Malevite Side-Effects
-
 All of the following is kept vague, because it would be hard to list all possible combinations in a way that makes sense while remaining concise. See the following as inspiration for the **GM**, who will finalize the side-effects. 
 
 Side-effects (`2D6`):
@@ -506,12 +517,6 @@ As The Veil degrades, the very air begins to hum and buzz. There are voices on t
 # Assets
 This section complements the same section from the [core rules](strive-core.md#assets).
 
-## Weapon Properties
-Weapon type assets can have the following **properties**:
-* **Ambersteel-Lined**: Bonus damage against mages and magical creatures: **+1** for every quality level. **+1D4** for every two **quality levels**, starting at level 1.
-* **Ambersteel-Plated**: Bonus damage against mages and magical creatures: **+1** for every quality level. **+1D6** for every two **quality levels**, starting at level 1.
-* **Ambersteel-Forged**: Bonus damage against mages and magical creatures: **+2** for every quality level. **+1D8** for every two **quality levels**, starting at level 1.
-
 # Appendix
 The appendix contains important and less important lists, for reference only when needed. 
 
@@ -558,128 +563,147 @@ If playing a **mage**, keep in mind you need to have at least level 1 in a [magi
 ### Determine Arcane Overheat Thresholds
 Determine your character's [Arcane Overheat thresholds](#arcane-overheat). 
 
-## List of Assets
+## Assets Appendix
 The following list does not and cannot aim to be a complete listing of all possible assets in game. Adding new assets as necessary will have to be done by the **GM**. 
+
+### General Assets
+The following is a non-exhaustive list of general assets. Just because an asset you're looking for isn't listed here, doesn't mean it cannot exist! You are encouraged to think creatively and [invent](strive-core.md#invention-projects) your own!
+
+In the following table, `Q` refers to the quality grade of the asset. See also the [crafting](./strive-core.md#crafting--research-projects) rules. When in a hurry (as a **GM**), substitute the `Q` with `2`.
+
+When looking up products for crafting, the tools and materials required for the craft are not noted here. The materials and resources available to you, and which exist in your world simply cannot be predicted here. Instead, think creatively - what *could* you use to make the thing? What do you have available? Find a creative way to use what you have, to make what you want and ask your GM for the final go-ahead. However, the [Progress Increment (PI)](./strive-core.md#progressing-a-project) and [Time Increment (TI)](./strive-core.md#progressing-a-project) are noted. Particularly rare, valuable and suitable materials may act as [Project Boosters](./strive-core.md#project-boosters). Some assets may harder or easier to make at higher qualities, as noted by the *Crafting Ob*, which, if noted, is the modifier applied to *every* [Project Skill Test](./strive-core.md#progressing-a-project).
+
+| Name                     | Bulk | Max. Stack Size | Description                                                              | PI  | TI         | Crafting Ob |
+| ------------------------ | ---- | --------------- | ------------------------------------------------------------------------ | --- | ---------- | ----------- |
+| Acid Bomb                | 1    | 3               | A small fragile shell with two compartments, filled with two liquids which, when they combine, act as a powerful acid. When shattered, deals `QD6 Acid` damage to whatever it hits. | 15 | 10 Minutes |  |
+| Arrows                   | 1    | 20              | Ammunition for a bow. | 20 | 10 Minutes |  |
+| Bear Trap                | 1    | 3               | A metal-jawed trap, capable of breaking bone and flesh. Deals `Q * 2` Bludgeoning and `Q` Piercing damage. | 45 | 1 Hour |  |
+| Blackpowder Bomb         | 1    | 2               | A small iron-shelled bomb, filled with blackpowder. A short fuse sticks out and must be lit to set it off. Once lit, the bomb will detonate after 3 turns or 15 seconds. Deals `QD4 Bludgeoning + QD4 Burning` damage to anyone in a `2` radius. | 15 | 1 Hour | +1 |
+| Bolts                    | 1    | 20              | Ammunition for a crossbow. | 20 | 10 Minutes |  |
+| Calming Tea              | 1    | 3               | This herbal tea has the ability to calm nerves. Removes [berserk](./strive-core.md#berserk), [jealous](./strive-core.md#jealous) and [terrified](./strive-core.md#terrified). Best enjoyed steaming hot, but not necessarily. | 5 | 10 Minutes |  |
+| Clothing                 | 1    | 2               | A full set of clothes, head to toe. | 30 | 1 Hour |  |
+| Death Fog                | 1    | 1               | An extremely rare and deadly gas. Once exposed to air, covers an area of `Q * 2` squares in impenetrable, eerily glowing, blue fog. Deals `QD10 + 10` **pure** damage to all **organic** things it touches, per tick. Metal and mineral are unaffected, while plant and flesh are struck from existence. | 75 | 6 Hours | +1 |
+| Dragon's Breath Potion   | 1    | 3               | Upon drinking this potion, the orange liquid combines with the stomach acid and bursts out of the drinker's throat, igniting and thus causing them to spew fire! Causes `1D8 - Q Burning` damage to the user and `QD6 Burning` damage in a `6` cone in front of the user. | 30 | 1 Hour | +1 |
+| Fire Pot (Potion)        | 1    | 3               | An ancient recipe, this concoction bursts into flame when exposed to air for several seconds. It causes severe burns for `QD6 Burning` damage in a `2` radius. Consumed on use. | 30 | 1 Hour |  |
+| Illusionist's Powder     | 1    | 2               | A small amount of weakly iridescently shimmering powder. When scattered, the dust remains suspended in mid-air and settles in an image of the making alchemist's choosing, which at a distance can seem perfectly real. It takes a successful test at `Ob Q + 1` to see through the ruse. This image lasts `QD10` minutes. | 30 | 1 Hour |  |
+| Invigorating Potion      | 1    | 3               | The drinker of this potion feels refreshed and invigorated! Reduces exhaustion by `Q` and clears the [exhausted](./strive-core.md#exhausted) condition. Beware this potion can only be safely imbibed twice in a `24` hour cycle. If drunk more, roll a `D6`. If it is a **hit**, you're in luck! But if not, you instead suffer `+2` points of [exhaustion](./strive-core.md#exhaustion). | 20 | 1 Hour |  |
+| Jewelry                  | 1    | 2               | Precious apparel. | 50 | 1 Hour |  |
+| Keg Of Alcohol           | 2    | 1               | A small keg of alcohol. | 30 | 1 Day |  |
+| Laudanum Potion          | 1    | 2               | This wonderous substance can quell pain and calm nerves within seconds. Also effective against diarrhea. Upon imbibing, sets one **active** [injury](./strive-core.md#injury) to **treated**. After `24` hours, the [injury](./strive-core.md#injury) is set back to **active**, even if it was also properly **treated** in the meantime. Also, must succeed a [self-control](./strive-core.md#self-control-toughtough) test at `Ob 3`, or else become [addicted](./strive-core.md#drug-addicted) to the stuff. | 20 | 1 Hour |  |
+| Love Potion              | 1    | 2               | Anyone drinking this potion will become virtually irresistible to anyone close enough to smell their air. Victims have to succeed a [self-control](./strive-core.md#self-control-toughtough) test at **Ob** `Q` or else feel **very strongly compelled** to fulfill the user's every wish and desire (provided this wouldn't obviously cause harm to the victim). | 50 | 1 Hour | +1 |
+| Magic Recorder           | 1    | 3               | A small spherical device, overtly made from various metals with intricate patterns on its surface. This device can capture [Magic Echoes](#magic-echoes) and record magic as it is being cast. Also captures fragments of thoughts from its bearer while it is active. | 50 | 6 Hours |  |
+| Night-Eye Potion         | 1    | 3               | Grants the ability to see reasonably well under low-light conditions, up to `Q * 3` around them, for an hour. Beware that under the influence of this potion, exposure to bright light is extremely difficult to endure and will cause `+1` [exhaustion](./strive-core.md#exhaustion) for every **minute** of exposure. | 30 | 1 Hour |  |
+| Paralyzing Poison        | 1    | 2               | Causes a victim's muscles to seize up. They suffer `-1 AP` each turn and are forced to move sluggishly. If this poison is suffered twice, the victim seizes up completely and is unable to move. This poison can be resisted once upon suffering it, with [toughness](./strive-core.md#toughness-tough), at `Ob Q`. If unsuccessful, the effect will last `Q` hours. | 75 | 1 Hour | +2 |
+| Poison Resistance Potion | 1    | 2               | Once imbibed, halves all incurred poison damage, for up to `Q` hours. | 30 | 1 Hour |  |
+| Sleeping Poison          | 1    | 3               | Causes a victim to feel incredibly sleepy. Unless they succeed a [self-control](./strive-core.md#self-control-toughtough) test at `Ob Q`, they will fall asleep the first chance they get. They cannot be woken from this state for at least `6` hours. | 50 | 1 Hour | +1 |
+| Smoke Bomb               | 1    | 3               | A small fragile shell, filled with a very fine powder which when broken causes an area in a `Q * 1` radius to be covered in smoke. It is impossible to see through and ranged attacks within or through the smoke-covered area suffer `+2` **Ob**. Victims caught in the smoke may be forced to cough. The smoke lasts `6` turns or `30` seconds. | 20 | 10 Minutes |  |
+| Throwing Blade           | 1    | 6               | A small weighted blade, like a knife or star, well suited to being thrown. Can be used in melee and acts like a [dagger](#dagger-agiawar), but with a penalty of `-2D` to attack and defense. `+1D` when [thrown](./strive-core.md#throwing-accuracy) for a ranged attack. Deals `2D4 + Str piercing` damage. | 20 | 1 Hour |  |
+| Tools                    | 1    | 2               | Various metal-made, proper tools. | 30 | 1 Hour |  |
 
 ### Armor
 
 #### Armor Properties
 Armor can have the following **properties**:
-* **Ambersteel-Lined**: Bonus protection against magic. `+1` **Ob** for the attacker and reduces magic damage by `+1D4` for every quality level. 
-* **Ambersteel-Plated**: Bonus protection against magic. `+1` **Ob** for the attacker and reduces magic damage by `+1D6` for every quality level. 
-* **Ambersteel-Forged**: Bonus protection against magic. `+2` **Ob** for the attacker and reduces magic damage by `+1D8` for every quality level. 
 
-> An **Ambersteel**-lined armor at quality level 3 would make magic attacks `+3` **Ob** harder for the attacker and reduces incoming magical damage by `3D4`. 
+* **Ambersteel**: Bonus protection against magic. `+Q` Ob for the attacker and reduces damage by `Q * 2` from a magic source. 
 
 #### Light Armor
 A set of light armor that doesn't impede the wearer much. Example: cloth armor like a gambeson. Might also be leather armor, if the leather comes from a creature whose skin is particularly tough and well suited to being used as armor. 
 
-* Bulk: 2
+* Bulk: `2`, PI: `50`, TI: `6 Hours`
 
 | Protections          | Unthreatened | Flanked | Surrounded | Overwhelmed | 
 | -------------------- | ------------ | ------- | ---------- | ----------- | 
-| **Slashing**         | 8            | 4       | 2          | 0           | 
-| **Piercing**         | 6            | 3       | 2          | 0           | 
-| **Bludgeoning**      | 4            | 2       | 1          | 0           | 
-| **Acid**             | 4            | 2       | 1          | 0           | 
+| **Slashing**         | 4            | 2       | 1          | 0           | 
+| **Piercing**         | 3            | 2       | 1          | 0           | 
+| **Bludgeoning**      | 2            | 1       | 1          | 0           | 
+| **Acid**             | 2            | 1       | 1          | 0           | 
 
 #### Medium Armor
 A set of medium armor with a good balance of protection and weight. Example: full chain mail armor, with or without a helmet. 
 
-* Bulk: 3
 * `+1` permanent [exhaustion](./strive-core.md#exhaustion) while worn. 
 * `-1` to [stealth](./strive-core.md#stealth-agiawar) while worn. 
 * `-1D` to any defense tests while worn. 
+* Bulk: `3`, PI: `75`, TI: `6 Hours`
 
 | Protections          | Unthreatened | Flanked | Surrounded | Overwhelmed | 
 | -------------------- | ------------ | ------- | ---------- | ----------- | 
-| **Slashing**         | 11           | 6       | 3          | 0           | 
-| **Piercing**         | 9            | 5       | 3          | 0           | 
-| **Bludgeoning**      | 7            | 4       | 2          | 0           | 
-| **Acid**             | 7            | 4       | 2          | 0           | 
-| **Electrical**       | 12           | 6       | 3          | 0           |
+| **Slashing**         | 6            | 3       | 2          | 0           | 
+| **Piercing**         | 4            | 2       | 1          | 0           | 
+| **Bludgeoning**      | 3            | 2       | 1          | 0           | 
+| **Acid**             | 3            | 2       | 1          | 0           | 
+| **Electrical**       | 6            | 3       | 2          | 0           |
 
 #### Heavy Armor
 A set of heavy armor with excellent protection, at the cost of encumbering the wearer greatly. Example: full plate armor. 
 
-* Bulk: 4
 * `+2` permanent [exhaustion](./strive-core.md#exhaustion) while worn. 
 * `-3` to [stealth](./strive-core.md#stealth-agiawar) while worn. 
 * `-2D` to any defense tests while worn. 
+* Bulk: `4`, PI: `100`, TI: `6 Hours`
 
 | Protections          | Unthreatened | Flanked | Surrounded | Overwhelmed | 
 | -------------------- | ------------ | ------- | ---------- | ----------- | 
-| **Slashing**         | 15           | 8       | 4          | 0           | 
-| **Piercing**         | 13           | 7       | 4          | 0           | 
-| **Bludgeoning**      | 11           | 6       | 3          | 0           | 
-| **Acid**             | 11           | 6       | 3          | 0           | 
-| **Electrical**       | 12           | 6       | 3          | 0           | 
+| **Slashing**         | 10           | 5       | 3          | 0           | 
+| **Piercing**         | 8            | 4       | 2          | 0           | 
+| **Bludgeoning**      | 6            | 3       | 2          | 0           | 
+| **Acid**             | 6            | 3       | 2          | 0           | 
+| **Electrical**       | 8            | 4       | 2          | 0           | 
 
 ### Shield Types
 Shields are items that provide passive bonuses to defense against melee and ranged attacks and require one free hand to use. This implies they cannot be used at the same time as a two-handed weapon (unless of course if you have more than two arms). 
 
-Shields can only be used in defense tests via the [shield](core-rules.md#shield-strtough) skill.
+Shields can only be used in defense tests via the [shield](./strive-core.md#shield-strtough) skill.
 
-##### Light Shield
+#### Shield Properties
+Shields can have the following **properties**:
+
+* **Ambersteel**: Bonus protection against magic. `+Q` Ob for the attacker and reduces damage by `Q * 2` from a magic source. 
+
+#### Light Shield
 A small round or oblong shield commonly held as far from the body as possible, to deflect small or stabbing weapons with ease. Helps only little against heavy blows and don't expect to deflect arrows with this, either. 
 
-* Bulk: 1
+* Bulk: `1`, PI: `50`, TI: `6 Hours`
 
 | Unthreatened           | Flanked           | Surrounded           | Overwhelmed           |
 | ---------------------- | ----------------- | -------------------- | --------------------- |
-| `+1` [compensation point](core-rules.md#compensation-points) for melee defense. | `+1D` for melee defense. | / | / |
-| `+2` [compensation points](core-rules.md#compensation-points) for melee defense against **stabbing** attacks. | `+2D` for melee defense against **stabbing** attacks. | `+1D` for melee defense against **stabbing** attacks. | / |
+| `+1` [compensation point](./strive-core.md#compensation-points) for melee defense. | `+1D` for melee defense. | / | / |
+| `+2` [compensation points](./strive-core.md#compensation-points) for melee defense against **stabbing** attacks. | `+2D` for melee defense against **stabbing** attacks. | `+1D` for melee defense against **stabbing** attacks. | / |
 | `-1D` for ranged defense. | `-2D` for ranged defense. | `-2D` for ranged defense. | `-2D` for ranged defense. |
 
-##### Medium Shield
+#### Medium Shield
 A medium-sized, round or kite-shaped shield made from tough wood and leather or even metal, which offers good protection against most attacks, while not encumbering the wielder too much. 
 
-* Bulk: 2
 * `+1` permanent [exhaustion](./strive-core.md#exhaustion) while wielded. 
+* Bulk: `2`, PI: `60`, TI: `6 Hours`
 
 | Unthreatened           | Flanked           | Surrounded           | Overwhelmed           |
 | ---------------------- | ----------------- | -------------------- | --------------------- |
-| `+1` [compensation point](core-rules.md#compensation-points) for any defense. | `+1D` for any defense. | / | `-1D` for any defense. |
+| `+1` [compensation point](./strive-core.md#compensation-points) for any defense. | `+1D` for any defense. | / | `-1D` for any defense. |
 
-##### Heavy Shield
+#### Heavy Shield
 A large, kite-shaped or rectangular shield, which can protect every part of the fighter, from the shoulder down to the feet. Its weight is very tiring. 
 
-* Bulk: 4
 * `+2` permanent [exhaustion](./strive-core.md#exhaustion) while wielded. 
+* Bulk: `4`, PI: `75`, TI: `6 Hours`
 
 | Unthreatened           | Flanked           | Surrounded           | Overwhelmed           |
 | ---------------------- | ----------------- | -------------------- | --------------------- |
-| `+2` [compensation points](core-rules.md#compensation-points) for any defense. | `+1` [compensation point](core-rules.md#compensation-points) for any defense. | `+1D` for any defense. | / |
-
-### List of General Assets
-In the following table, `Q` refers to the quality grade of the asset. See also the [crafting](./strive-core.md#crafting--research-projects) rules. When in a hurry (as a **GM**), substitute the `Q` with `2`.
-
-| Name                     | Bulk | Max. Stack Size | Description                                                              |
-| ------------------------ | ---- | --------------- | ------------------------------------------------------------------------ |
-| Acid Bomb                | 1    | 3               | A small fragile shell with two compartments, filled with two liquids which, when they combine, act as a powerful acid. When shattered, deals `QD6 Acid` damage to whatever it hits. |
-| Blackpowder Bomb         | 1    | 2               | A small iron-shelled bomb, filled with blackpowder. A short fuse sticks out and must be lit to set it off. Once lit, the bomb will detonate after 3 turns or 15 seconds. Deals `QD4 Bludgeoning + QD4 Burning` damage to anyone in a `2` radius. |
-| Calming Tea              | 1    | 3               | This herbal tea has the ability to calm nerves. Removes [berserk](./strive-core.md#berserk), [jealous](./strive-core.md#jealous) and [terrified](./strive-core.md#terrified). Best enjoyed steaming hot, but not necessarily. |
-| Dragon's Breath Potion   | 1    | 3               | Upon drinking this potion, the orange liquid combines with the stomach acid and bursts out of the drinker's throat, igniting and thus causing them to spew fire! Causes `1D8 - Q Burning` damage to the user and `QD6 Burning` damage in a `6` cone in front of the user. |
-| Death Fog                | 1    | 1               | An extremely rare and deadly gas. Once exposed to air, covers an area of `Q * 2` squares in impenetrable, eerily glowing, blue fog. Deals `6D10 + 40` **pure** damage to all **organic** things it touches, per tick. Metal and mineral are unaffected, while plant and flesh are struck from existence. |
-| Fire Pot (Potion)        | 1    | 3               | An ancient recipe, this concoction bursts into flame when exposed to air for several seconds. It causes severe burns for `QD6 Burning` damage in a `2` radius. Consumed on use. |
-| Illusionist's Powder     | 1    | 2               | A small amount of weakly iridescently shimmering powder. When scattered, the dust remains suspended in mid-air and settles in an image of the making alchemist's choosing, which at a distance can seem perfectly real. It takes a successful test at `Ob Q + 1` to see through the ruse. This image lasts `QD10` minutes. |
-| Invigorating Potion      | 1    | 3               | The drinker of this potion feels refreshed and invigorated! Reduces exhaustion by `Q` and clears the [exhausted](./strive-core.md#exhausted) condition. Beware this potion can only be safely imbibed twice in a 24 hour cycle. If drunk more, roll a `D6`. If it is a **hit**, you're in luck! But if not, you instead suffer `+2` points of [exhaustion](./strive-core.md#exhaustion). |
-| Laudanum Potion          | 1    | 2               | This wonderous substance can quell pain and calm nerves within seconds. Also effective against diarrhea. Upon imbibing, sets one **active** [injury](./strive-core.md#injury) to **treated**. After 24 hours, the [injury](./strive-core.md#injury) is set back to **active**, even if it was also properly **treated** in the meantime. Also, must succeed a [self-control](./strive-core.md#self-control-toughtough) test at `Ob 3`, or else become [addicted](./strive-core.md#drug-addicted) to the stuff. |
-| Love Potion              | 1    | 2               | Anyone drinking this potion will become virtually irresistible to anyone close enough to smell their air. Victims have to succeed a [self-control](./strive-core.md#self-control-toughtough) test at **Ob** `Q` or else feel **very strongly compelled** to fulfill the user's every wish and desire (provided this wouldn't obviously cause harm to the victim). |
-| Magic Recorder           | 1    | 3               | A small spherical device, overtly made from various metals with intricate patterns on its surface. This device can capture [Magic Echoes](#magic-echoes) and record magic as it is being cast. Also captures fragments of thoughts from its bearer while it is active. |
-| Night-Eye Potion         | 1    | 3               | Grants the ability to see reasonably well under low-light conditions, up to `Q * 3` around them, for an hour. Beware that under the influence of this potion, exposure to bright light is extremely difficult to endure and will cause `+1` [exhaustion](./strive-core.md#exhaustion) for every **minute** of exposure. |
-| Paralyzing Poison        | 1    | 2               | Causes a victim's muscles to seize up. They suffer `-1 AP` each turn and are forced to move sluggishly. If this poison is suffered twice, the victim seizes up completely and is unable to move. This poison can be resisted once upon suffering it, with [toughness](./strive-core.md#toughness-tough), at `Ob Q`. If unsuccessful, the effect will last `Q` hours. |
-| Poison Resistance Potion | 1    | 2               | Once imbibed, halves all incurred poison damage, for up to `Q` hours. |
-| Sleeping Poison          | 1    | 3               | Causes a victim to feel incredibly sleepy. Unless they succeed a [self-control](./strive-core.md#self-control-toughtough) test at `Ob Q`, they will fall asleep the first chance they get. They cannot be woken from this state for at least `6` hours. |
-| Smoke Bomb               | 1    | 3               | A small fragile shell, filled with a very fine powder which when broken causes an area in a `Q * 1` radius to be covered in smoke. It is impossible to see through and ranged attacks within or through the smoke-covered area suffer `+2` **Ob**. Victims caught in the smoke may be forced to cough. The smoke lasts `6` turns or `30` seconds. |
-| Throwing Blade           | 1    | 6               | A small weighted blade, like a knife or star, well suited to being thrown. Can be used in melee and acts like a [dagger](#dagger-agiawar), but with a penalty of `-2D` to attack and defense. `+1D` when [thrown](./strive-core.md#throwing-accuracy) for a ranged attack. Deals `2D4 + Str piercing` damage. |
+| `+2` [compensation points](./strive-core.md#compensation-points) for any defense. | `+1` [compensation point](./strive-core.md#compensation-points) for any defense. | `+1D` for any defense. | / |
 
 ### Weapon Types
 Following are fantasy-themed weapon types. 
 
-For ranged weapons there is note made of a value called the "distance increment". This describes the distance within which the weapon can be used optimally, for no penalty to **Ob** and damage. As soon as a shooter wants to hit a target past their initial (= optimal) distance increment, they incur a penalty as noted on the attack in question. This penalty is multiplied by every increment past the initial. 
+For ranged weapons there is note made of a value called the "distance increment". This describes the distance within which the weapon can be used optimally, for no penalty to Ob and damage. As soon as a shooter wants to hit a target past their initial (= optimal) distance increment, they incur a penalty as noted on the attack in question. This penalty is multiplied by every increment past the initial. 
 
-> For example, when a distance increment of 10 has been noted, then shooting anything within and up to that distance incurs no penalties. But as soon as the shooter wants to hit something at 11 distance, they incur their first penalty. The next penalty is incurred at 21 and so on. 
+> For example, when a distance increment of `10` has been noted, then shooting anything within and up to that distance incurs no penalties. But as soon as the shooter wants to hit something at `11` distance, they incur their first penalty. The next penalty would be incurred at `21`, and so on.
+
+#### Weapon Properties
+Weapons can have the following **properties**:
+
+* **Ambersteel**: Bonus `+(Q * 2)` Pure damage against mages and magical creatures. 
+* Imbued: Like [Artificing - Arcane Charge](#artificing-arcwit), but applied to a weapon.
 
 #### Dagger (Agi/Awar)
 Any very short, one-handed blade. Examples: shiv, dagger, rondel-dagger
@@ -689,8 +713,8 @@ For all attacks made with a dagger, the following rules apply:
 * `-1 Ob` against [proned](./strive-core.md#prone) and/or [grappled](./strive-core.md#grappled) targets.
 
 * Melee
-* Bulk: 1
 * Ranged (throwable: stab)
+* Bulk: `1`, PI: `30`, TI: `1 Hour`
 
 | Level | Name                 | AP | **Ob**      | Damage                           | Notes  |
 | ----- | -------------------- | -- | ----------- | -------------------------------- | ------ |
@@ -703,8 +727,8 @@ For all attacks made with a dagger, the following rules apply:
 Any light blade. Most commonly (but not restricted to) one-handed weapons. Examples: short-sword, Langes Messer, arming sword, falchion, saber
 
 * Melee
-* Bulk: 1
 * Ranged (throwable: stab)
+* Bulk: `1`, PI: `40`, TI: `1 Hour`
 
 | Level | Name                 | AP | **Ob**      | Damage                           | Notes  |
 | ----- | -------------------- | -- | ----------- | -------------------------------- | ------ |
@@ -716,7 +740,7 @@ Any light blade. Most commonly (but not restricted to) one-handed weapons. Examp
 Any long and heavier blade, including heavy one-handed blades. Examples: longsword, rapier, Kriegsmesser
 
 * Melee
-* Bulk: 2
+* Bulk: `2`, PI: `50`, TI: `1 Hour`
 
 | Level | Name                 | AP | **Ob**      | Damage                           | Notes  |
 | ----- | -------------------- | -- | ----------- | -------------------------------- | ------ |
@@ -729,8 +753,8 @@ Any long and heavier blade, including heavy one-handed blades. Examples: longswo
 Any very long and heavy two-handed blade. Examples: great-sword, sword of war, great-saber
 
 * Melee
-* Bulk: 3
-* [Long Reach](core-rules.md#weapon-properties)
+* [Long Reach](./strive-core.md#weapon-properties)
+* Bulk: `3`, PI: `60`, TI: `1 Hour`
 
 | Level | Name                 | AP | **Ob**      | Damage                           | Notes  |
 | ----- | -------------------- | -- | ----------- | -------------------------------- | ------ |
@@ -748,8 +772,8 @@ Requires knowing [Acrobatics](#acrobatics-agistr) and another bladed [weapon ski
 
 * Melee
 * Ranged
-* Bulk: 3
-* All ranged attacks [Prefer Range](core-rules.md#weapon-properties)
+* All ranged attacks [Prefer Range](./strive-core.md#weapon-properties)
+* Bulk: `3`, PI: `75`, TI: `1 Hour`
 
 | Level | Name                 | AP | **Ob**      | Max. Distance       | Damage                           | Notes  |
 | ----- | -------------------- | -- | ----------- | ------------------- | -------------------------------- | ------ |
@@ -764,8 +788,8 @@ Requires knowing [Acrobatics](#acrobatics-agistr) and another bladed [weapon ski
 Small and light axes. Examples: hatchet, woodcutter's axe
 
 * Melee
-* Bulk: 1
 * Ranged (throwable: hack)
+* Bulk: `1`, PI: `30`, TI: `1 Hour`
 
 | Level | Name                 | AP | **Ob**      | Damage                                    | Notes  |
 | ----- | -------------------- | -- | ----------- | ----------------------------------------- | ------ |
@@ -776,7 +800,7 @@ Small and light axes. Examples: hatchet, woodcutter's axe
 Large and heavy axes. Examples: bearded axe, double-sided axe
 
 * Melee
-* Bulk: 3
+* Bulk: `3`, PI: `45`, TI: `1 Hour`
 
 | Level | Name                 | AP | **Ob**      | Damage                                           | Notes  |
 | ----- | -------------------- | -- | ----------- | ------------------------------------------------ | ------ |
@@ -787,9 +811,9 @@ Large and heavy axes. Examples: bearded axe, double-sided axe
 Any one or two-handed short piercing polearms. Examples: short-spear, boar-spear
 
 * Melee
-* Bulk: 2
 * Ranged (throwable: stab)
-* [Long Reach](core-rules.md#weapon-properties)
+* [Long Reach](./strive-core.md#weapon-properties)
+* Bulk: `2`, PI: `30`, TI: `1 Hour`
 
 | Level | Name                 | AP | **Ob**      | Damage                           | Notes  |
 | ----- | -------------------- | -- | ----------- | -------------------------------- | ------ |
@@ -800,9 +824,9 @@ Any one or two-handed short piercing polearms. Examples: short-spear, boar-spear
 Any one or two-handed long piercing polearms. Examples: pike, lance
 
 * Melee
-* Bulk: 4
-* [Long Reach](core-rules.md#weapon-properties)
-* [Prefer Range](core-rules.md#weapon-properties)
+* [Long Reach](./strive-core.md#weapon-properties)
+* [Prefer Range](./strive-core.md#weapon-properties)
+* Bulk: `4`, PI: `50`, TI: `1 Hour`
 
 | Level | Name                 | AP | **Ob**      | Damage                           | Notes  |
 | ----- | -------------------- | -- | ----------- | -------------------------------- | ------ |
@@ -813,9 +837,9 @@ Any one or two-handed long piercing polearms. Examples: pike, lance
 Flexible polearms with a focus on slashing. Examples: halberd, bardiche, poleaxe
 
 * Melee
-* Bulk: 4
-* [Long Reach](core-rules.md#weapon-properties)
-* [Prefer Range](core-rules.md#weapon-properties)
+* [Long Reach](./strive-core.md#weapon-properties)
+* [Prefer Range](./strive-core.md#weapon-properties)
+* Bulk: `4`, PI: `50`, TI: `1 Hour`
 
 | Level | Name                 | AP | **Ob**      | Damage                           | Notes  |
 | ----- | -------------------- | -- | ----------- | -------------------------------- | ------ |
@@ -828,7 +852,7 @@ Flexible polearms with a focus on slashing. Examples: halberd, bardiche, poleaxe
 Small bludgeoning weapons. Examples: any improvised weapon, any club, any mace
 
 * Melee
-* Bulk: 2
+* Bulk: `2`, PI: `40`, TI: `1 Hour`
 
 | Level | Name                 | AP | **Ob**      | Damage                           | Notes  |
 | ----- | -------------------- | -- | ----------- | -------------------------------- | ------ |
@@ -839,7 +863,7 @@ Small bludgeoning weapons. Examples: any improvised weapon, any club, any mace
 Large bludgeoning weapons with a dedicated *impact zone* on the weapon head which directs more force into the target. Examples: grand-mace, polehammer, two-handed flail
 
 * Melee
-* Bulk: 3
+* Bulk: `3`, PI: `60`, TI: `1 Hour`
 
 | Level | Name                 | AP | **Ob**      | Damage                           | Notes  |
 | ----- | -------------------- | -- | ----------- | -------------------------------- | ------ |
@@ -850,8 +874,8 @@ Large bludgeoning weapons with a dedicated *impact zone* on the weapon head whic
 A short distance ranged weapon, shooting arrows.
 
 * Ranged: For every attack: `+1` **Ob** and `-1` damage for every distance increment past the initial.
-* Bulk: 1
-* [Range Only](core-rules.md#weapon-properties)
+* [Range Only](./strive-core.md#weapon-properties)
+* Bulk: `1`, PI: `40`, TI: `1 Hour`
 
 | Level | Name                 | AP | **Ob**      | Distance increments | Damage                     | Notes  |
 | ----- | -------------------- | -- | ----------- | ------------------- | -------------------------- | ------ |
@@ -863,8 +887,8 @@ A short distance ranged weapon, shooting arrows.
 A long distance ranged weapon, shooting arrows.
 
 * Ranged: For every attack: `+1` **Ob** and `-1` damage for every distance increment past the initial.
-* Bulk: 2
-* [Range Only](core-rules.md#weapon-properties)
+* [Range Only](./strive-core.md#weapon-properties)
+* Bulk: `2`, PI: `50`, TI: `1 Hour`
 
 | Level | Name                 | AP | **Ob**      | Distance increments | Damage                     | Notes  |
 | ----- | -------------------- | -- | ----------- | ------------------- | -------------------------- | ------ |
@@ -875,8 +899,8 @@ A long distance ranged weapon, shooting arrows.
 A very deadly long distance ranged weapon, shooting arrows. Beware its exhausting strength of draw. 
 
 * Ranged: For every attack: `+1` **Ob** and `-1` damage for every distance increment past the initial.
-* Bulk: 2
-* [Range Only](core-rules.md#weapon-properties)
+* [Range Only](./strive-core.md#weapon-properties)
+* Bulk: `2`, PI: `60`, TI: `1 Hour`
 
 | Level | Name                 | AP | **Ob**      | Distance increments | Damage                     | Notes  |
 | ----- | -------------------- | -- | ----------- | ------------------- | -------------------------- | ------ |
@@ -886,9 +910,9 @@ A very deadly long distance ranged weapon, shooting arrows. Beware its exhaustin
 A deadly medium distance ranged weapon, shooting quarrels. Beware its slow reload. 
 
 * Ranged: For every attack: `+1` **Ob** and `-1` damage for every distance increment past the initial.
-* Bulk: 2
-* [Prefer Range](core-rules.md#weapon-properties)
-* [Slow Reload](core-rules.md#weapon-properties)
+* [Prefer Range](./strive-core.md#weapon-properties)
+* [Slow Reload](./strive-core.md#weapon-properties)
+* Bulk: `2`, PI: `60`, TI: `1 Hour`
 
 | Level | Name                 | AP | **Ob**      | Distance increments | Damage                     | Notes  |
 | ----- | -------------------- | -- | ----------- | ------------------- | -------------------------- | ------ |
@@ -898,9 +922,9 @@ A deadly medium distance ranged weapon, shooting quarrels. Beware its slow reloa
 A very deadly short to medium distance ranged weapon, shooting musket balls that are likely to penetrate armor. Beware its slow reload. 
 
 * Ranged: For every attack: `+1` **Ob** and `-1` damage for every distance increment past the initial.
-* Bulk: 2
-* [Prefer Range](core-rules.md#weapon-properties)
-* [Very Slow Reload](core-rules.md#weapon-properties)
+* [Prefer Range](./strive-core.md#weapon-properties)
+* [Very Slow Reload](./strive-core.md#weapon-properties)
+* Bulk: `2`, PI: `75`, TI: `1 Hour`
 
 | Level | Name                 | AP | **Ob**      | Distance increments | Damage                     | Notes  |
 | ----- | -------------------- | -- | ----------- | ------------------- | -------------------------- | ------ |
@@ -933,259 +957,162 @@ Knowledge and experience in a specific [magic school](#list-of-magic-schools).
 
 See also [testing magic](#testing-magic). 
 
-### Craftsmanship Skills
-All craftsmanship requires a mix of physical and mental attributes, for the purpose of creating a wide variety of things.
+### Artisan Skills
+All artisan Skills require a mix of physical and mental attributes, for the purpose of creating a wide variety of things. Mechanically speaking, these are [crafting](#crafting--research-projects) Skills.
 
 #### Armor Smithing (Str/Wit)
 The ability to make armor from conventional materials, such as metal and leather. 
 
-[Crafting](./strive-core.md#crafting--research-projects)
-
-| Product                              | Progress Increment | Time Increment |
-| ------------------------------------ | ------------------ | -------------- |
-| 1 [light armor](#light-armor)        | 20                 | 6 Hours        |
-| 1 [medium armor](#medium-armor)      | 30                 | 6 Hours        |
-| 1 [heavy armor](#heavy-armor)        | 40                 | 6 Hours        |
+[Crafting](./strive-core.md#crafting--research-projects):
+* [light armor](#light-armor) (1x)
+* [medium armor](#medium-armor) (1x)
+* [heavy armor](#heavy-armor) (1x)
 
 #### Ambersmithing (Str/Wit)
-The ability to make things from [Amberite](#amberite). 
+The ability to make things from [Amberite](#amberite) and [Ambersteel](#ambersteel). 
 
-[Crafting](./strive-core.md#crafting--research-projects)
-
-**Tools**: Specialized
-
-Plating an existing object with [Ambersteel](#ambersteel) acts as an improvement, whereas an [Ambersteel](#ambersteel)-forged object is an entirely new object, completely made out of this material. Improvement effects do not stack. 
-
-| Product                              | Progress Increment | Time Increment | Materials                                 | Quality Bonus   |
-| ------------------------------------ | ------------------ | -------------- | ----------------------------------------- | --------------- | 
-| Ambersteel-plated weapon             | 40                 | 6 Hours        | [Ambersteel](#ambersteel); A weapon       | Bonus damage against mages and magical creatures: **+1** for every quality level. **+1D6** for every two **quality levels**, starting at level 2. |
-| Ambersteel-forged weapon             | 50                 | 6 Hours        | [Ambersteel](#ambersteel)                 | Bonus damage against mages and magical creatures: **+2** for every quality level. **+1D8** for every two **quality levels**, starting at level 2. The weapon is +1 **bulkier** than an equivalent weapon that is not **Ambersteel** forged. |
-| Ambersteel-plated armor              | 60                 | 6 Hours        | [Ambersteel](#ambersteel); A set of armor | Bonus protection from magic: **+1** for every quality level. **+1D6** for every two **quality levels**, starting at level 2. |
-| Ambersteel-forged armor              | 85                 | 6 Hours        | [Ambersteel](#ambersteel)                 | Bonus protection from magic: **+2** for every quality level. **+1D8** for every two **quality levels**, starting at level 2. The armor is +1 **bulkier** than an equivalent armor that is not **Ambersteel** forged. |
-| Ambersteel-plated shield             | 50                 | 6 Hours        | [Ambersteel](#ambersteel); A shield       | Bonus protection from magic: **+1** for every quality level. **+1D6** for every two **quality levels**, starting at level 2. |
-| Ambersteel-forged shield             | 70                 | 6 Hours        | [Ambersteel](#ambersteel)                 | Bonus protection from magic: **+2** for every quality level. **+1D8** for every two **quality levels**, starting at level 2. The shield is +1 **bulkier** than an equivalent shield that is not **Ambersteel** forged. |
+[Crafting](./strive-core.md#crafting--research-projects):
+* Adding [Ambersteel](#ambersteel) to [armor](#armor-properties) and [weapons](#weapon-properties).
 
 #### Alchemy (Arc/Wit)
 The ability to brew alchemical potions, create powders, mixtures and other substances, as well as the ability to tell these things apart. 
 
-[Crafting](./strive-core.md#crafting--research-projects)
-
-**Tools**: a distillery, mortar and pestle, a heat source, beakers
-
-For every `Q` past `2`, choose one of the following:
-* Gain `+1` amount of your product. 
-* Gain a secondary product whose Progress Increment is smaller, with amount `1`. 
-
-| Product                              | Progress Increment | Time Increment | Ob |
-| ------------------------------------ | ------------------ | -------------- | -- |
-| Acid Bomb (3)                        | 10                 | 1 Hour         |    |
-| Blackpowder Bomb (2)                 | 20                 | 1 Hour         | +1 |
-| Calming Tea (3)                      | 10                 | 10 Minutes     |    |
-| Death Fog (1)                        | 50                 | 6 Hours        | +2 |
-| Dragon's Breath Potion (2)           | 20                 | 1 Hour         | +1 |
-| Fire Pot (2)                         | 20                 | 1 Hour         | +1 |
-| Illusionist's Powder (2)             | 30                 | 10 Minutes     | +1 |
-| Invigorating Potion (2)              | 20                 | 1 Hour         |    |
-| Laudanum Potion (3)                  | 10                 | 1 Hour         |    |
-| Love Potion (1)                      | 20                 | 1 Hour         | +1 |
-| Night-Eye Potion (2)                 | 10                 | 1 Hour         |    |
-| Paralyzing Poison (1)                | 50                 | 6 Hours        | +1 |
-| Poison Resistance Potion (2)         | 20                 | 1 Hour         | +1 |
-| Sleeping Poison (1)                  | 30                 | 1 Hour         | +1 |
-| Smoke Bomb (3)                       | 10                 | 10 Minutes     |    |
+[Crafting](./strive-core.md#crafting--research-projects):
+* For every `Q` past `2`, choose one of the following:
+  * Gain `+1` amount of your product. 
+  * Gain a secondary product whose Progress Increment is smaller, with amount `1`. 
+* [Acid Bomb](#general-assets) (3x)
+* [Blackpowder Bomb](#general-assets) (2x)
+* [Calming Tea](#general-assets) (3x)
+* [Death Fog](#general-assets) (1x)
+* [Dragon's Breath Potion](#general-assets) (2x)
+* [Fire Pot](#general-assets) (2x)
+* [Illusionist's Powder](#general-assets) (2x)
+* [Invigorating Potion](#general-assets) (2x)
+* [Laudanum Potion](#general-assets) (3x)
+* [Love Potion](#general-assets) (1x)
+* [Night-Eye Potion](#general-assets) (2x)
+* [Paralyzing Poison](#general-assets) (1x)
+* [Poison Resistance Potion](#general-assets) (2x)
+* [Sleeping Poison](#general-assets) (1x)
+* [Smoke Bomb](#general-assets) (3x)
 
 #### Brewing (Wit/Wit)
 The brewing of alcoholic beverages. 
 
-[Crafting](./strive-core.md#crafting--research-projects)
-
-**Tools**: a heat source, a distillery, barrels or caskets for fermenting
-
-| Product                              | Progress Increment | Time Increment |
-| ------------------------------------ | ------------------ | -------------- |
-| A small keg worth of alcohol         | 30                 | 1 Day          |
+[Crafting](./strive-core.md#crafting--research-projects):
+* [Keg Of Alcohol](#general-assets) (1x)
 
 #### Blacksmithing (Agi/Str)
-The ability to create every-day items from metal. 
+The ability to create every-day items and tools from metal. 
 
-[Crafting](./strive-core.md#crafting--research-projects)
-
-**Tools**: a hammer, an anvil or other resilient surface, tongs, a forge
-
-The achieved `Q` dictates the possible size, amount and complexity of the crafted object(s). 
-
-| Product                              | Progress Increment | Time Increment |
-| ------------------------------------ | ------------------ | -------------- |
-| Metal product(s)                     | 20                 | 6 Hours        |
+[Crafting](./strive-core.md#crafting--research-projects):
+* [Tools](#general-assets) (2x)
 
 #### Bow-Making (Agi/Awar)
 The ability to craft bows and crossbows. 
 
-[Crafting](./strive-core.md#crafting--research-projects)
-
-**Tools**: a carving knife
-
-| Product                              | Progress Increment | Time Increment |
-| ------------------------------------ | ------------------ | -------------- |
-| Bow                                  | 20                 | 1 Hour         |
-| Crossbow                             | 30                 | 1 Hour         |
+[Crafting](./strive-core.md#crafting--research-projects):
+* [Short-Bow](#short-bow-awarawar) (1x)
+* [Longbow](#longbow-awarstr) (1x)
+* [Warbow](#war-bow-strtough) (1x)
+* [Crossbow](#crossbow-awarawar) (1x)
 
 #### Carpentry (Agi/Str)
 The ability to shape wood to craft predominantly wooden things. 
 
-[Crafting](./strive-core.md#crafting--research-projects)
-
-**Tools**: an axe, a wood plane, a hand drill, a workbench
-
-The achieved `Q` dictates the possible size, amount and complexity of the crafted object(s). 
-
-| Product                              | Progress Increment | Time Increment |
-| ------------------------------------ | ------------------ | -------------- |
-| A piece of furniture                 | 30                 | 6 Hours        |
+[Crafting](./strive-core.md#crafting--research-projects):
+* Furniture (1x): A unique piece, PI: `40`, TI: `1` Hour
 
 #### Clothesmaking (Agi/Wit)
 The ability to make comfortable, well-fitting and decorated clothes. 
 
-[Crafting](./strive-core.md#crafting--research-projects)
-
-**Tools**: scissors, needles, yarn, thread
-
-| Product                              | Progress Increment | Time Increment |
-| ------------------------------------ | ------------------ | -------------- |
-| A piece of clothing                  | 30                 | 6 Hours        |
+[Crafting](./strive-core.md#crafting--research-projects):
+* [Clothing](#general-assets) (1x)
 
 #### Engineering (Agi/Wit)
 The ability to plan and construct complex mechanisms and devices. 
 
-[Crafting](./strive-core.md#crafting--research-projects)
-
-The achieved `Q` dictates the possible size, amount and complexity of the crafted object(s). 
-
-| Product                              | Progress Increment | Time Increment |
-| ------------------------------------ | ------------------ | -------------- |
-| A mechanism                          | 40                 | 1 Hour         |
+[Crafting](./strive-core.md#crafting--research-projects):
+* [Bear Trap](#general-assets) (1x)
+* [Magic Recorder](#general-assets) (1x)
 
 #### Fletching (Agi/Awar)
 The ability to efficiently craft arrows, bolts and javelins. 
 
-[Crafting](./strive-core.md#crafting--research-projects)
-
-**Tools**: a carving knife, a brush
-
-For every `Q` past `1`, you get the amount of ammunition you already produced, as *additional* products. 
-
-| Product                              | Progress Increment | Time Increment |
-| ------------------------------------ | ------------------ | -------------- |
-| 10 Arrows/Bolts                      | 30                 | 10 Minutes     |
+[Crafting](./strive-core.md#crafting--research-projects):
+* [Arrows](#general-assets) (20x)
+* [Bolts](#general-assets) (20x)
 
 #### Glass-Blowing (Agi/Agi)
 The ability to make objects from glass. 
 
 [Crafting](./strive-core.md#crafting--research-projects)
 
-**Tools**: a fire place, a glass-blower, various shaping tools
-
-| Product                              | Progress Increment | Time Increment |
-| ------------------------------------ | ------------------ | -------------- |
-| A glass object                       | 50                 | 1 Hour         |
-
 #### Goldsmithing (Agi/Agi)
 The ability to make jewelry from precious metals and stones. 
 
-[Crafting](./strive-core.md#crafting--research-projects)
-
-**Tools**: hammers, tweezer, chisels, a workbench, magnifying glasses
-
-| Product                              | Progress Increment | Time Increment |
-| ------------------------------------ | ------------------ | -------------- |
-| Jewelry                              | 50                 | 1 Hour         |
+[Crafting](./strive-core.md#crafting--research-projects):
+* [Objet d'art](strive-core.md#general-assets)
+* [Jewelry](#general-assets)
 
 #### Leatherworking (Agi/Wit)
 The ability to create leather objects. 
 
-[Crafting](./strive-core.md#crafting--research-projects)
-
-**Tools**: scissors, needles, hole punchers and a hammer
-
-| Product                              | Progress Increment | Time Increment |
-| ------------------------------------ | ------------------ | -------------- |
-| Leather object                       | 20                 | 1 Hour         |
+[Crafting](./strive-core.md#crafting--research-projects):
+* [light armor](#light-armor) (1x)
 
 #### Masonry (Str/Tough)
 The ability to shape stone to craft predominantly stone-based things. 
 
 [Crafting](./strive-core.md#crafting--research-projects)
 
-**Tools**: a hammer and chisels of varying sizes
-
-| Product                              | Progress Increment | Time Increment |
-| ------------------------------------ | ------------------ | -------------- |
-| A stone-hewn object                  | 50                 | 1 Hour         |
-
 #### Rune-Smithing (Arc/Wit)
 The ability to carve [magic runes](#runes) and embed them in arcane devices.
 
 The level of this skill dictates the maximum [intensity](#spell-intensity-si) of the respective magic the carved rune can hold. The number of **hits** achieved in a test then sets the actual level the rune will hold, but limited by the maximum. 
 
-[Crafting](./strive-core.md#crafting--research-projects)
-
-**Tools**: a hammer and chisels of varying sizes, tongs, tweezer, a fine brush
-
-| Product                                   | Progress Increment | Time Increment | Ob | Materials                              | Quality Bonus   |
-| ----------------------------------------- | ------------------ | -------------- | -- | -------------------------------------- | --------------- | 
-| A blank rune                              | 50                 | 1 Hour         | /  | [Abyssalite](#abyssalite)              | / |
-| A magic rune                              | 50                 | 1 Hour         | +1 | A blank rune; thin-leaf metal          | +1 [spell intensity level](#magic) |
-| [Magic Recorder](#list-of-general-assets) | 50                 | 1 Hour         | +1 | 1 bulk of [Abyssalite](#abyssalite); 1 bulk of [Ambersteel](#ambersteel); 1 bulk of [Memorum](#memorum); any other, malleable metal | / |
+[Crafting](./strive-core.md#crafting--research-projects):
+* [Rune](#runes) (1x)
+* [Magic Recorder](#general-assets) (1x)
 
 #### Shield-Making (Str/Wit)
 The ability to make shields from conventional materials, such as wood and metal. 
 
-[Crafting](./strive-core.md#crafting--research-projects)
-
-**Tools**: axes, hammers, tongs, (if metal) a forge and anvil
-
-**Resources**: Any shapeable sturdy and flexible material
-
-| Product                              | Progress Increment | Time Increment | Quality Bonus   |
-| ------------------------------------ | ------------------ | -------------- | --------------- | 
-| 1 [light shield](#light-shield)      | 30                 | 1 Hour         | / |
-| 1 [medium shield](#medium-shield)    | 40                 | 1 Hour         | For every 3 quality levels, starting at level 2, reduction of bulk by 1 (to a minimum of 1). |
-| 1 [heavy shield](#heavy-shield)      | 50                 | 1 Hour         | For every 3 quality levels, starting at level 2, reduction of bulk by 1 (to a minimum of 2). |
+[Crafting](./strive-core.md#crafting--research-projects):
+* [light shield](#light-shield) (1x)
+* [medium shield](#medium-shield) (1x)
+* [heavy shield](#heavy-shield) (1x)
 
 #### Tanning/Skinning (Agi/Tough)
 Taking the hide off a creature undamaged. 
 
 [Crafting](./strive-core.md#crafting--research-projects)
 
-**Tools**: a knife, a scraping blade, a bucket, a brush
-
-| Product                              | Progress Increment | Time Increment | Materials                              | Quality Bonus   |
-| ------------------------------------ | ------------------ | -------------- | -------------------------------------- | --------------- | 
-| A small skin                         | 10                 | 10 Minutes     | A skinnable creature                   | / |
-| A large skin                         | 20                 | 10 Minutes     | A skinnable creature                   | / |
-| A tanned hide                        | 20                 | 6 Hours        | A tannable skin                        | / |
-
 #### Weapon Smithing (Str/Wit)
 The ability to make weapons from metal. 
 
-[Crafting](./strive-core.md#crafting--research-projects)
-
-**Tools**: a hammer, an anvil or other resilient surface, tongs, a forge
-
-| Product                              | Progress Increment | Time Increment | Materials                              | Quality Bonus   |
-| ------------------------------------ | ------------------ | -------------- | -------------------------------------- | --------------- | 
-| A weapon                             | 50                 | 1 Hour         | Any suitable metal, wood and/or similar material | / |
+[Crafting](./strive-core.md#crafting--research-projects):
+* [Dagger](#dagger-agiawar) (1x)
+* [Light Blade](#light-blade-agistr) (1x)
+* [Long Blade](#long-blade-agistr) (1x)
+* [Great Blade](#great-blade-strtough) (1x)
+* [Great Blade](#great-blade-strtough) (1x)
+* [Chained-Blade](#chained-blade-agiagi) (1x)
+* [Axe](#axe-strstr) (1x)
+* [Great Axe](#great-axe-strstr) (1x)
+* [Spear](#spear-agistr) (1x)
+* [Lance](#lance-awarstr) (1x)
+* [Polearm](#polearm-strtough) (1x)
+* [Small Crusher](#small-crusher-strtough) (1x)
+* [Large Crusher](#large-crusher-strtough) (1x)
+* [Firearm](#firearm-awarawar) (1x)
 
 #### Woodcarving (Agi/Agi)
 Creating small things from carved wood. 
 
-[Crafting](./strive-core.md#crafting--research-projects)
-
-**Tools**: a carving knife
-
-| Product                              | Progress Increment | Time Increment | Materials                              | Quality Bonus   |
-| ------------------------------------ | ------------------ | -------------- | -------------------------------------- | --------------- | 
-| A wood-carved object                 | 30                 | 10 Minutes     | Wood                                   | / |
+[Crafting](./strive-core.md#crafting--research-projects):
+* [Objet d'art](strive-core.md#general-assets) (1x)
 
 ### Special Skills
 The skills listed in this chapter cannot be learned *by just anyone*. Special requirements are made of those who aspire to learn them.
@@ -1243,14 +1170,10 @@ The control of air, to create and change its flow, for benefit and detriment.
 ### Artificing (Arc/Wit)
 The setting of arcane traps and creation of arcane artifacts and materials. 
 
-[Crafting](./strive-core.md#crafting--research-projects)
-
-| Product                                               | Progress Increment | Time Increment | Ob | Materials                              | Quality Bonus   |
-| ----------------------------------------------------- | ------------------ | -------------- | -- | -------------------------------------- | --------------- | 
-| Imbued Object - works just like "Place Arcane Charge" | 50                 | 1 Hour         |    | An object to "enchant".                | / |
-| [Arcane Engine](#arcane-engine)                       | 100                | 1 Day          | +1 | 3 bulk of [Abyssalite](#abyssalite); A sturdy frame-material, like steel. | -1 side-effect for [Malevite Orbs](#malevite). |
-| [Malevite Orb](#malevite)                             | 300                | 1 Day          | +2 | A lot of Mage blood; 3 or 9 or 27 or 81 bulk of [Abyssalite](#abyssalite) (graded per purity level) | / |
-| [Magic Scroll](#magic-scrolls)                        | 50                 | 1 Hour         |    | A lot of Mage blood; 1 bulk of [Abyssalite](#abyssalite) | The imbued/primed spell can have at most the same [SI](#spell-intensity-si), as the achieved `Q`. |
+[Crafting](./strive-core.md#crafting--research-projects):
+* [Arcane Engine](#arcane-engine) (1x)
+* [Imbued weapon](#weapon-properties) (1x)
+* [Magic Scroll](#magic-scrolls) (1x)
 
 | Level | Name                 | AP | Distance                | Ob                             | Effect(s)                      | Backfire Effect(s) |
 | ----- | -------------------- | -- | ----------------------- | ------------------------------ | ------------------------------ | ------------------ |
