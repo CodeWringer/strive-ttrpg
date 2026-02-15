@@ -223,6 +223,17 @@ You may choose to play without the Momentum system for a less heroic style of ga
   - [Assets Appendix](#assets-appendix)
     - [General Assets](#general-assets)
     - [Weapon Properties](#weapon-properties)
+      - [Melee](#melee)
+      - [Long Reach](#long-reach)
+      - [Very Long Reach](#very-long-reach)
+      - [Range Only](#range-only)
+      - [Prefer Range](#prefer-range)
+      - [Slow Reload](#slow-reload)
+      - [Very Slow Reload](#very-slow-reload)
+      - [Ranged](#ranged)
+      - [Counter-Attack](#counter-attack)
+      - [Serrated](#serrated)
+      - [Poison-Chamber](#poison-chamber)
   - [Lists of Skills](#lists-of-skills)
     - [Physical Skills](#physical-skills)
       - [Acrobatics (Agi/Str)](#acrobatics-agistr)
@@ -431,6 +442,7 @@ As STRIVE is meant primarily as a rule-book to help you quickly find what you ne
 | [D6](#dice)                                                 | A six-sided die         |
 | [D8](#dice)                                                 | An eight-sided die      |
 | [Difficult Terrain](#combat-movement)                       | Halves movement per AP. |
+| [Distance Increment (DI)](#ranged)                          | Indicates a ranged weapon's/attack's range increments. Attacking past this number of squares incurs penalties to the attack. |
 | [Exhaustion](#exhaustion)                                   | A resource that indicates how physically exerted a character is. Limits some abilities if it becomes too much. |
 | [Experience Point(s) (XP)](#experience-points-xp)           | Allow fully unrestricted character advancement. |
 | [Expertise](#expertise)                                     | A sub-ability of a Skill. |
@@ -2296,15 +2308,46 @@ When looking up products for crafting, the tools and materials required for the 
 | Ration                 | 1    | 10              | A ration of preserved food and drink, enough for a whole day. | 10 | 30 Minutes |  |
 
 ### Weapon Properties
-Weapon type assets can have the following **traits**:
-* **Long Reach**: Allows attacking a target two fields (`2`) away. 
-* **Very long Reach**: Allows attacking a target three fields (`3`) away. 
-* **Range Only**: Implies a weapon cannot be used against any targets adjacent to self. 
-* **Prefer Range**: `+2` **Ob** to using the weapon against an adjacent target.
-* **Slow Reload**: Reloading the weapon costs `2` [AP](#action-points-ap).
-* **Very Slow Reload**: Reloading the weapon costs `3` [AP](#action-points-ap).
-* **Ranged (throwable: < attack name >)**: No damage penalty is incurred when throwing this type of weapon. The damage formula for the given attack is to be used on hit. 
-* A **counter-attack** is a *reaction* that allows a fighter being attacked to attack their attacker, at the cost of `1` [AP](#action-points-ap). 
+Weapon type assets can have the following traits:
+
+#### Melee
+Allows attacking an adjacent target.
+
+#### Long Reach
+Allows attacking a target two squares (`2`) away. 
+
+#### Very Long Reach
+Allows attacking a target three squares (`3`) away. 
+
+#### Range Only
+Implies a weapon cannot be used against any targets adjacent to self. 
+
+#### Prefer Range
+`+2` Ob to using the weapon against an adjacent target.
+
+#### Slow Reload
+Reloading the weapon costs `2` [AP](#action-points-ap).
+
+#### Very Slow Reload
+Reloading the weapon costs `3` [AP](#action-points-ap).
+
+#### Ranged
+The weapon can be used against targets up to a noted distance away from the user. The range, in squares, is noted in parentheses. This can either indicate a maximum distance, which cannot be exceeded, or a so-called **Distance Increment**, which may be exceeded, but at increasing penalties.
+
+For every Distance Increment past the initial, an attack suffers `+1` Ob and `-2` points of damage. In other words, the farther you shoot, the harder it becomes to score an effective hit. 
+
+> A weapon with this property noted as `(max. 8)` can at most be used up to `8` squares away. 
+
+> A weapon with this property noted as `(10 DI)` has a Distance Increment of `10` squares. Any attack up to and including `10` squares incurs no penalties, but starting from the `11`th square, the attack suffers `+1` Ob and if successful, deals `-2` points of damage less. 
+
+#### Counter-Attack
+A *reaction* that allows a fighter being attacked to attack their attacker, at the cost of `1` [AP](#action-points-ap). 
+
+#### Serrated
+Melee attacks with this weapon cause an additional `+Q` points of Bleeding.
+
+#### Poison-Chamber
+Melee attacks with this weapon cause an additional `+Q` points of Poison damage.
 
 ## Lists of Skills
 The following list does not and cannot aim to be a complete listing of all possible skills in game. Adding new skills as necessary will have to be done by the **GM**. Nevertheless, most general scenarios should be covered by these skills. 
