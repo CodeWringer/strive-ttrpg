@@ -69,27 +69,32 @@ There is a [compendium document](./strive-fantasy-game-masters-resource.md) rese
       - [Heavy Shield](#heavy-shield)
     - [Weapon Types](#weapon-types)
       - [Weapon Properties](#weapon-properties)
-      - [Dagger (Agi/Awar)](#dagger-agiawar)
-      - [Light Blade (Agi/Str)](#light-blade-agistr)
-      - [Long Blade (Agi/Str)](#long-blade-agistr)
-      - [Great Blade (Str/Tough)](#great-blade-strtough)
-      - [Chained-Blade (Agi/Agi)](#chained-blade-agiagi)
-      - [Axe (Str/Str)](#axe-strstr)
-      - [Great Axe (Str/Str)](#great-axe-strstr)
-      - [Spear (Agi/Str)](#spear-agistr)
-      - [Lance (Awar/Str)](#lance-awarstr)
-      - [Polearm (Str/Tough)](#polearm-strtough)
-      - [Small Crusher (Str/Tough)](#small-crusher-strtough)
-      - [Large Crusher (Str/Tough)](#large-crusher-strtough)
-      - [Short-Bow (Awar/Awar)](#short-bow-awarawar)
-      - [Longbow (Awar/Str)](#longbow-awarstr)
-      - [War-Bow (Str/Tough)](#war-bow-strtough)
-      - [Crossbow (Awar/Awar)](#crossbow-awarawar)
-      - [Firearm (Awar/Awar)](#firearm-awarawar)
+      - [Axe](#axe)
+      - [Chained Blade](#chained-blade)
+      - [Crusher](#crusher)
+      - [Light Blade](#light-blade)
+      - [Long Blade](#long-blade)
+      - [Spear](#spear)
+      - [Polearm](#polearm)
+      - [Short-Bow](#short-bow)
+      - [Longbow](#longbow)
+      - [Crossbow](#crossbow)
+      - [Firearm](#firearm)
   - [Lists of Skills](#lists-of-skills)
     - [Physical Skills](#physical-skills)
       - [Rune-Using (Agi/Wit)](#rune-using-agiwit)
       - [Sailing (Awar/Wit)](#sailing-awarwit)
+      - [Weapon \<Axe\> (Str/Str)](#weapon-axe-strstr)
+      - [Weapon \<Light Blade\> (Agi/Str)](#weapon-light-blade-agistr)
+      - [Weapon \<Long Blade\> (Agi/Str)](#weapon-long-blade-agistr)
+      - [Weapon \<Chained Blade\> (Agi/Agi)](#weapon-chained-blade-agiagi)
+      - [Weapon \<Crusher\> (Str/Tough)](#weapon-crusher-strtough)
+      - [Weapon \<Spear\> (Agi/Str)](#weapon-spear-agistr)
+      - [Weapon \<Polearm\> (Str/Tough)](#weapon-polearm-strtough)
+      - [Weapon \<Short-Bow\> (Agi/Awar)](#weapon-short-bow-agiawar)
+      - [Weapon \<Longbow\> (Awar/Str)](#weapon-longbow-awarstr)
+      - [Weapon \<Crossbow\> (Awar/Awar)](#weapon-crossbow-awarawar)
+      - [Weapon \<Firearm\> (Awar/Tough)](#weapon-firearm-awartough)
     - [Knowledge Skills](#knowledge-skills)
       - [Heraldry (Awar/Wit)](#heraldry-awarwit)
       - [Magic School \< School \> (\< Attribute \>)](#magic-school--school---attribute-)
@@ -597,7 +602,7 @@ When looking up products for crafting, the tools and materials required for the 
 | Poison Resistance Potion | 1    | 2               | Once imbibed, halves all incurred poison damage, for up to `Q` hours. | 30 | 1 Hour |  |
 | Sleeping Poison          | 1    | 3               | Causes a victim to feel incredibly sleepy. Unless they succeed a [self-control](./strive-core.md#self-control-toughtough) test at `Ob Q`, they will fall asleep the first chance they get. They cannot be woken from this state for at least `6` hours. | 50 | 1 Hour | +1 |
 | Smoke Bomb               | 1    | 3               | A small fragile shell, filled with a very fine powder which when broken causes an area in a `Q * 1` radius to be covered in smoke. It is impossible to see through and ranged attacks within or through the smoke-covered area suffer `+2` **Ob**. Victims caught in the smoke may be forced to cough. The smoke lasts `6` turns or `30` seconds. | 20 | 10 Minutes |  |
-| Throwing Blade           | 1    | 6               | A small weighted blade, like a knife or star, well suited to being thrown. Can be used in melee and acts like a [dagger](#dagger-agiawar), but with a penalty of `-2D` to attack and defense. `+1D` when [thrown](./strive-core.md#throwing-accuracy) for a ranged attack. Deals `2D4 + Str piercing` damage. | 20 | 1 Hour |  |
+| Throwing Blade           | 1    | 6               | A small weighted blade, like a knife or star, well suited to being thrown. Can be used in melee and acts like a [dagger](#light-blade), but with a penalty of `-2D` to attack and defense. `+1D` when [thrown](./strive-core.md#throwing-accuracy) for a ranged attack. Deals `2D4 + Str piercing` damage. | 20 | 1 Hour |  |
 | Tools                    | 1    | 2               | Various metal-made, proper tools. | 30 | 1 Hour |  |
 
 ### Armor
@@ -638,7 +643,8 @@ A set of medium armor with a good balance of protection and weight. Example: ful
 #### Heavy Armor
 A set of heavy armor with excellent protection, at the cost of encumbering the wearer greatly. Example: full plate armor. 
 
-* `+2` permanent [exhaustion](./strive-core.md#exhaustion) while worn. 
+* `+2` permanent [exhaustion](./strive-core.md#exhaustion) while worn.
+* `+1` [Stability](./strive-core.md#stability-stabil) while worn.
 * `-3` to [stealth](./strive-core.md#stealth-agiawar) while worn. 
 * `-2D` to any defense tests while worn. 
 * Bulk: `4`, PI: `100`, TI: `6 Hours`
@@ -685,7 +691,8 @@ A medium-sized, round or kite-shaped shield made from tough wood and leather or 
 #### Heavy Shield
 A large, kite-shaped or rectangular shield, which can protect every part of the fighter, from the shoulder down to the feet. Its weight is very tiring. 
 
-* `+2` permanent [exhaustion](./strive-core.md#exhaustion) while wielded. 
+* `+2` permanent [exhaustion](./strive-core.md#exhaustion) while wielded.
+* `+1` [Stability](./strive-core.md#stability-stabil) while wielded.
 * Bulk: `4`, PI: `75`, TI: `6 Hours`
 
 | Unthreatened           | Flanked           | Surrounded           | Overwhelmed           |
@@ -700,235 +707,78 @@ For ranged weapons there is note made of a value called the "distance increment"
 > For example, when a distance increment of `10` has been noted, then shooting anything within and up to that distance incurs no penalties. But as soon as the shooter wants to hit something at `11` distance, they incur their first penalty. The next penalty would be incurred at `21`, and so on.
 
 #### Weapon Properties
-Weapons can have the following **properties**:
+Weapons can have the following **properties** (see also the [core weapon properties](./strive-core.md#weapon-properties)):
 
 * **Ambersteel**: Bonus `+(Q * 2)` Pure damage against mages and magical creatures. 
 * Imbued: Like [Artificing - Arcane Charge](#artificing-arcwit), but applied to a weapon.
 
-#### Dagger (Agi/Awar)
-Any very short, one-handed blade. Examples: shiv, dagger, rondel-dagger
+#### Axe
+One and two-handed axes.
 
-For all attacks made with a dagger, the following rules apply:
-* If the target is unaware or [grappled](./strive-core.md#grappled), then the target's armor does **not** reduce the dagger's damage.
-* `-1 Ob` against [proned](./strive-core.md#prone) and/or [grappled](./strive-core.md#grappled) targets.
+* [Melee](./strive-core.md#melee)
+* Bulk: `2`, PI: `45`, TI: `1 Hour`
 
-* Melee
-* Ranged (throwable: stab)
-* Bulk: `1`, PI: `30`, TI: `1 Hour`
+#### Chained Blade
+An exotic weighted, down-angled blade, perfect for throwing and connected to a very light chain or rope, for easy retrieval. Such a weapon requires masterful precision and rewards its user with great versatility. 
 
-| Level | Name                 | AP | **Ob**      | Damage                           | Notes  |
-| ----- | -------------------- | -- | ----------- | -------------------------------- | ------ |
-| 0     | Slash                | 2  | Opposed     | `1D4 + Agi` Slashing             | / |
-| 0     | Stab                 | 2  | Opposed     | `1D6 + Agi` Piercing             | / |
-| 0     | Artery Cut           | 2  | Opposed + 1 | `1D6 + Agi` Slashing             | +2 [bleeding](./strive-core.md#bleeding) to the target (if it can bleed).  |
-| 0     | Target Weak-Spot     | 2  | Opposed + 2 | `1D8 + Agi` Pure                 | / |
+Requires knowing [Acrobatics](#acrobatics-agistr) and [Throwing](./strive-core.md#throwing), each at level `3+`. 
 
-#### Light Blade (Agi/Str)
-Any light blade. Most commonly (but not restricted to) one-handed weapons. Examples: short-sword, Langes Messer, arming sword, falchion, saber
-
-* Melee
-* Ranged (throwable: stab)
-* Bulk: `1`, PI: `40`, TI: `1 Hour`
-
-| Level | Name                 | AP | **Ob**      | Damage                           | Notes  |
-| ----- | -------------------- | -- | ----------- | -------------------------------- | ------ |
-| 0     | Slash                | 2  | Opposed     | `1D6 + 2 + Str` Slashing             | / |
-| 0     | Stab                 | 2  | Opposed     | `1D4 + 2 + Agi` Piercing             | / |
-| 0     | Grappling Feint      | 2  | Opposed - 1 | /                                | Attack with a feint, immediately close the distance and [grapple](./strive-core.md#grappled) your opponent. |
-
-#### Long Blade (Agi/Str)
-Any long and heavier blade, including heavy one-handed blades. Examples: longsword, rapier, Kriegsmesser
-
-* Melee
-* Bulk: `2`, PI: `50`, TI: `1 Hour`
-
-| Level | Name                 | AP | **Ob**      | Damage                           | Notes  |
-| ----- | -------------------- | -- | ----------- | -------------------------------- | ------ |
-| 0     | Slash                | 2  | Opposed     | `1D8 + Str` Slashing             | / |
-| 0     | Stab                 | 2  | Opposed     | `1D6 + Agi` Piercing             | / |
-| 2     | Mord-Strike          | 2  | Opposed     | `1D6 + Str` Bludgeoning          | / |
-| 3     | Fencer-Stance        | 3  | /           | /                                | Enter a defensive fencing stance. Gain `+1D` for melee defense and can [counter-attack](./strive-core.md#defense-stunts) **every** attack, until the start of your next turn, at no additional AP cost. |
-
-#### Great Blade (Str/Tough)
-Any very long and heavy two-handed blade. Examples: great-sword, sword of war, great-saber
-
-* Melee
-* [Long Reach](./strive-core.md#weapon-properties)
-* Bulk: `3`, PI: `60`, TI: `1 Hour`
-
-| Level | Name                 | AP | **Ob**      | Damage                           | Notes  |
-| ----- | -------------------- | -- | ----------- | -------------------------------- | ------ |
-| 0     | Slash                | 2  | Opposed     | `2D6 + Str` Slashing             | / |
-| 0     | Stab                 | 2  | Opposed     | `1D8 + Agi` Piercing             | / |
-| 2     | Blade Barrier        | 2  | Opposed     | /                                | Whenever any character moves **into** a spot within reach, can attack that character with a **slash** at `Ob + 1` and always force them back `1`, until the start of your next turn. These attacks do not cost any additional **AP**. |
-| 3     | Heavy Blow           | 3  | Opposed + 2 | `1D6` Slashing + `Strength` Bludgeoning | Defending against this attack costs 2 [AP](./strive-core.md#action-points-ap). Causes `+1` Exhaustion to self. If successful, the target is knocked Prone. |
-
-#### Chained-Blade (Agi/Agi)
-A down-angled, weighted blade, with a spike forwards, perfect for throwing and connected to a very light chain or rope, for easy retrieval. 
-
-This weapon requires masterful precision and rewards its user with great versatility. 
-
-Requires knowing [Acrobatics](#acrobatics-agistr) and another bladed [weapon skill](#weapon--weapon-type---attribute-), each at least at level 3. 
-
-* Melee
-* Ranged
-* All ranged attacks [Prefer Range](./strive-core.md#weapon-properties)
+* [Melee](./strive-core.md#melee), [Ranged (max. 8)](./strive-core.md#ranged), [Prefer Range](./strive-core.md#prefer-range)
 * Bulk: `3`, PI: `75`, TI: `1 Hour`
 
-| Level | Name                 | AP | **Ob**      | Max. Distance       | Damage                           | Notes  |
-| ----- | -------------------- | -- | ----------- | ------------------- | -------------------------------- | ------ |
-| 0     | Curved Toss          | 2  | Opposed     | 8              | `1D6 + Agi` Slashing    | Throw the weapon just past a target and then with a flick, make it jump at their back and upon impact, immediately retrieve it. |
-| 0     | Slash                | 2  | Opposed     | 1               | `1D4 + Str` Slashing    | Slash at an adjacent **ST**. |
-| 0     | Whip                 | 2  | Opposed     | 8              | `1D4 + Str` Bludgeoning | Swing the chain at a target and whip it with it, then immediately retrieve it. Causes `+1` [Exhaustion](strive-core.md#exhaustion) in the target. |
-| 1     | Come Closer          | 2  | Opposed     | 8              | `1D4` Slashing          | Throw the weapon just past a target and then yank it back, catching them with it and pulling them `3` closer to you. If the target is much larger and/or heavier than you, then you may pull *yourself* closer to them, for the same distance. Then immediately retrieve your weapon. |
-| 3     | Leg Sweep            | 2  | Opposed     | 8              | /                       | Swing the weapon at length and low, to sweep for an opponent's legs. Upon impact, yank the chain to sweep them off their feet, rendering them [prone](./strive-core.md#prone) and then immediately retrieve your weapon. |
-| 4     | Think Twice          | 1  | /           | 8              | `Agi` Piercing    | **Reaction**: Upon one of your allies attacking an enemy, you also throw your weapon straight at that enemy. Your ally's attack is `-1` Ob easier as the enemy is confused by the two simultaneous attacks! Your attack does **not** cost the enemy any additional AP to defend and is successful only if your ally's attack is successful. Upon impact, immediately retrieve your weapon. Only possible once per round. |
-
-#### Axe (Str/Str)
-Small and light axes. Examples: hatchet, woodcutter's axe
-
-* Melee
-* Ranged (throwable: hack)
-* Bulk: `1`, PI: `30`, TI: `1 Hour`
-
-| Level | Name                 | AP | **Ob**      | Damage                                    | Notes  |
-| ----- | -------------------- | -- | ----------- | ----------------------------------------- | ------ |
-| 0     | Hack                 | 2  | Opposed     |  `1D6` Slashing + `1D4 + Str` Bludgeoning | / |
-| 1     | Savage Slash         | 2  | Opposed + 1 |  `1D8` Slashing                    | `+2` [Bleeding](./strive-core.md#bleeding) to the target (if it can bleed). |
-
-#### Great Axe (Str/Str)
-Large and heavy axes. Examples: bearded axe, double-sided axe
-
-* Melee
-* Bulk: `3`, PI: `45`, TI: `1 Hour`
-
-| Level | Name                 | AP | **Ob**      | Damage                                           | Notes  |
-| ----- | -------------------- | -- | ----------- | ------------------------------------------------ | ------ |
-| 0     | Hack                 | 2  | Opposed     | `1D6` Slashing + `1D6 + Str` Bludgeoning        | / |
-| 1     | Heavy Blow           | 3  | Opposed + 2 | `1D10` Slashing + `Str` Bludgeoning  | Defending against this attack costs 2 [AP](./strive-core.md#action-points-ap). Causes `+1` Exhaustion to self. If successful, the target is knocked Prone. |
-
-#### Spear (Agi/Str)
-Any one or two-handed short piercing polearms. Examples: short-spear, boar-spear
-
-* Melee
-* Ranged (throwable: stab)
-* [Long Reach](./strive-core.md#weapon-properties)
-* Bulk: `2`, PI: `30`, TI: `1 Hour`
-
-| Level | Name                 | AP | **Ob**      | Damage                           | Notes  |
-| ----- | -------------------- | -- | ----------- | -------------------------------- | ------ |
-| 0     | Stab                 | 2  | Opposed     | `2D4 + Agi` Piercing             | / |
-| 0     | Spear Wall           | 2  | /           | /                                | Whenever any character moves **into** a spot within reach, can attack that character with a **Stab** at `Ob + 1` and if successful, force them back `1`, until the start of your next turn. The attacks cost no additional **AP**. |
-
-#### Lance (Awar/Str)
-Any one or two-handed long piercing polearms. Examples: pike, lance
-
-* Melee
-* [Long Reach](./strive-core.md#weapon-properties)
-* [Prefer Range](./strive-core.md#weapon-properties)
-* Bulk: `4`, PI: `50`, TI: `1 Hour`
-
-| Level | Name                 | AP | **Ob**      | Damage                           | Notes  |
-| ----- | -------------------- | -- | ----------- | -------------------------------- | ------ |
-| 0     | Stab                 | 2  | Opposed     | `2D4 + Agi` Piercing             | / |
-| 0     | Couched Lancing      | 2  | Opposed     | `3D10` Piercing                  | Requires self to be mounted on horse-back (or similar creature). Self must move at least 5 in a straight line, past the target. |
-
-#### Polearm (Str/Tough)
-Flexible polearms with a focus on slashing. Examples: halberd, bardiche, poleaxe
-
-* Melee
-* [Long Reach](./strive-core.md#weapon-properties)
-* [Prefer Range](./strive-core.md#weapon-properties)
-* Bulk: `4`, PI: `50`, TI: `1 Hour`
-
-| Level | Name                 | AP | **Ob**      | Damage                           | Notes  |
-| ----- | -------------------- | -- | ----------- | -------------------------------- | ------ |
-| 0     | Slash                | 2  | Opposed     | `2D6 + Str` Slashing             | / |
-| 0     | Stab                 | 2  | Opposed     | `2D4 + Agi` Piercing             | / |
-| 1     | Blade Barrier        | 2  | /           | /                                | Whenever any character moves **into** a spot within reach, can attack that character with a **stab** at `Ob + 1` and always force them back `1`, until the start of your next turn. The attacks cost no additional **AP**. |
-| 2     | Cleave               | 2  | Opposed + 2 | `2D8 + Str` Slashing             | Deals damage to up to two targets adjacent to each other and within reach. |
-
-#### Small Crusher (Str/Tough)
+#### Crusher
 Small bludgeoning weapons. Examples: any improvised weapon, any club, any mace
 
-* Melee
-* Bulk: `2`, PI: `40`, TI: `1 Hour`
-
-| Level | Name                 | AP | **Ob**      | Damage                           | Notes  |
-| ----- | -------------------- | -- | ----------- | -------------------------------- | ------ |
-| 0     | Smash                | 2  | Opposed     | `1D6 + Str` Bludgeoning          | / |
-| 0     | Knockout Blow        | 2  | Opposed + 1 | `1D4 + Str` Bludgeoning          | If successful, causes `+2` [exhaustion](./strive-core.md#exhaustion) to the target. |
-
-#### Large Crusher (Str/Tough)
-Large bludgeoning weapons with a dedicated *impact zone* on the weapon head which directs more force into the target. Examples: grand-mace, polehammer, two-handed flail
-
-* Melee
+* [Melee](./strive-core.md#melee)
 * Bulk: `3`, PI: `60`, TI: `1 Hour`
 
-| Level | Name                 | AP | **Ob**      | Damage                           | Notes  |
-| ----- | -------------------- | -- | ----------- | -------------------------------- | ------ |
-| 0     | Smash                | 2  | Opposed     | `1D8 + Str` Bludgeoning     | / |
-| 0     | Mighty Smash         | 2  | Opposed + 2 | `1D10 + Str` Bludgeoning     | Defending against this attack costs `2` [AP](./strive-core.md#action-points-ap) and causes `+1` [Exhaustion](./strive-core.md#exhaustion) to the target. |
+#### Light Blade
+Any short and/or light blade, such as daggers and one-handed swords. 
 
-#### Short-Bow (Awar/Awar)
-A short distance ranged weapon, shooting arrows.
-
-* Ranged: For every attack: `+1` **Ob** and `-1` damage for every distance increment past the initial.
-* [Range Only](./strive-core.md#weapon-properties)
+* [Melee](./strive-core.md#melee)
 * Bulk: `1`, PI: `40`, TI: `1 Hour`
 
-| Level | Name                 | AP | **Ob**      | Distance increments | Damage                     | Notes  |
-| ----- | -------------------- | -- | ----------- | ------------------- | -------------------------- | ------ |
-| 0     | Loose                | 2  | Opposed     | 10             | `2D4` Piercing             | / |
-| 1     | Pin                  | 2  | Opposed     | 10             | `1D4 + 2` Piercing             | Shoot the enemy in their foot. If the attack is successful, they target is considered [Rooted](./strive-core.md#rooted) until the end of their next turn. |
-| 2     | Double Shot          | 3  | Opposed + 1 | 10             | `2D4` Piercing             | Can attack twice and thus deal its damage to two different targets, or the same target twice.  |
+#### Long Blade
+Any long and heavier blade, such as longswords and great-swords.
 
-#### Longbow (Awar/Str)
+* [Melee](./strive-core.md#melee), [Long Reach](./strive-core.md#weapon-properties)
+* Bulk: `3`, PI: `60`, TI: `1 Hour`
+
+#### Spear
+Spears and lances.
+
+* [Melee](./strive-core.md#melee), [Long Reach](./strive-core.md#weapon-properties)
+* Bulk: `3`, PI: `45`, TI: `1 Hour`
+
+#### Polearm
+Flexible polearms with a focus on slashing. Examples: halberd, bardiche, poleaxe
+
+* [Melee](./strive-core.md#melee), [Long Reach](./strive-core.md#weapon-properties), [Prefer Range](./strive-core.md#weapon-properties)
+* Bulk: `4`, PI: `50`, TI: `1 Hour`
+
+#### Short-Bow
+A short distance ranged weapon, shooting arrows.
+
+* [Ranged (10 DI)](./strive-core.md#ranged), [Range Only](./strive-core.md#weapon-properties)
+* Bulk: `1`, PI: `40`, TI: `1 Hour`
+
+#### Longbow
 A long distance ranged weapon, shooting arrows.
 
-* Ranged: For every attack: `+1` **Ob** and `-1` damage for every distance increment past the initial.
-* [Range Only](./strive-core.md#weapon-properties)
+* [Ranged (20 DI)](./strive-core.md#ranged), [Range Only](./strive-core.md#weapon-properties)
 * Bulk: `2`, PI: `50`, TI: `1 Hour`
 
-| Level | Name                 | AP | **Ob**      | Distance increments | Damage                     | Notes  |
-| ----- | -------------------- | -- | ----------- | ------------------- | -------------------------- | ------ |
-| 0     | Loose                | 2  | Opposed     | 15             | `2D6` Piercing             | / |
-| 1     | Heavy Shot           | 3  | Opposed     | 15             | `2D6 + Str` Piercing       | Causes `+1` [Exhaustion](./strive-core.md#exhaustion) to self. |
+#### Crossbow
+A deadly medium distance ranged weapon, shooting bolts. Beware its slow reload. 
 
-#### War-Bow (Str/Tough)
-A very deadly long distance ranged weapon, shooting arrows. Beware its exhausting strength of draw. 
-
-* Ranged: For every attack: `+1` **Ob** and `-1` damage for every distance increment past the initial.
-* [Range Only](./strive-core.md#weapon-properties)
+* [Ranged (15 DI)](./strive-core.md#ranged), [Prefer Range](./strive-core.md#weapon-properties), [Slow Reload](./strive-core.md#weapon-properties)
 * Bulk: `2`, PI: `60`, TI: `1 Hour`
 
-| Level | Name                 | AP | **Ob**      | Distance increments | Damage                     | Notes  |
-| ----- | -------------------- | -- | ----------- | ------------------- | -------------------------- | ------ |
-| 0     | Loose                | 2  | Opposed     | 20             | `2D10` Piercing            | Causes `+1` [Exhaustion](./strive-core.md#exhaustion) to self.  |
+#### Firearm
+A very deadly short to medium distance ranged weapon, shooting small metal balls that are partially able to penetrate armor. Beware its slow reload. 
 
-#### Crossbow (Awar/Awar)
-A deadly medium distance ranged weapon, shooting quarrels. Beware its slow reload. 
-
-* Ranged: For every attack: `+1` **Ob** and `-1` damage for every distance increment past the initial.
-* [Prefer Range](./strive-core.md#weapon-properties)
-* [Slow Reload](./strive-core.md#weapon-properties)
-* Bulk: `2`, PI: `60`, TI: `1 Hour`
-
-| Level | Name                 | AP | **Ob**      | Distance increments | Damage                     | Notes  |
-| ----- | -------------------- | -- | ----------- | ------------------- | -------------------------- | ------ |
-| 0     | Loose                | 2  | Opposed     | 20             | `3D8` Piercing             | / |
-
-#### Firearm (Awar/Awar)
-A very deadly short to medium distance ranged weapon, shooting musket balls that are likely to penetrate armor. Beware its slow reload. 
-
-* Ranged: For every attack: `+1` **Ob** and `-1` damage for every distance increment past the initial.
-* [Prefer Range](./strive-core.md#weapon-properties)
-* [Very Slow Reload](./strive-core.md#weapon-properties)
-* Bulk: `2`, PI: `75`, TI: `1 Hour`
-
-| Level | Name                 | AP | **Ob**      | Distance increments | Damage                     | Notes  |
-| ----- | -------------------- | -- | ----------- | ------------------- | -------------------------- | ------ |
-| 0     | Fire                 | 2  | Opposed     | 10             | `2D10 + Awar` Piercing     | / |
+* [Ranged (10 DI)](./strive-core.md#ranged), [Prefer Range](./strive-core.md#weapon-properties), [Very Slow Reload](./strive-core.md#weapon-properties)
+* Bulk: `3`, PI: `75`, TI: `1 Hour`
 
 ## Lists of Skills
 The following list does not and cannot aim to be a complete listing of all possible skills in game. Adding new skills as necessary will have to be done by the **GM**. 
@@ -939,12 +789,132 @@ These skills have a dominant physical aspect and are directly tied to a characte
 #### Rune-Using (Agi/Wit)
 Skill at using [magic runes](#runes). 
 
-| Level | Name                 | AP | **Ob** | Effect(s)          | Condition(s) |
+| Level | Name                 | AP | Ob     | Effect(s)          | Condition(s) |
 | ----- | -------------------- | -- | ------ | ------------------ | ------------ |
 | 4     | Hot Potato           | 1  | 3      | If using a rune would fail and result in a [spell-backfire](#spell-backfire), drop the rune, jump away and suffer only half the damage. | Caused a [spell-backfire](#spell-backfire) using a rune; Once per rest. |
 
 #### Sailing (Awar/Wit)
 Steering and maintaining a naval vessel. 
+
+#### Weapon \<Axe\> (Str/Str)
+Skill for [Axe](#axe) type weapons, both one and two-handed. 
+
+Properties: [Melee](./strive-core.md#melee)
+
+| Level | Name                 | AP | Ob          | Damage                                    | Notes  |
+| ----- | -------------------- | -- | ----------- | ----------------------------------------- | ------ |
+| 0     | Hack                 | 2  | Opposed     | `1D6` Slashing + `1D4 + Str` Bludgeoning  |  |
+| 0     | Cleave               | 3  | Opposed + 1 | `1D8 + Q` Slashing                        | Attack up to `3` MST at once, in a cone on front of you. |
+| 1     | Savage Slash         | 2  | Opposed + 1 | `1D8` Slashing                            | `+2` [Bleeding](./strive-core.md#bleeding) to the target (if it can bleed). |
+
+#### Weapon \<Light Blade\> (Agi/Str)
+Skill for any [Light Blade](#light-blade) type weapons, such as daggers and one-handed swords. 
+
+Properties: [Melee](./strive-core.md#melee)
+
+| Level | Name                 | AP | Ob          | Damage                           | Notes  |
+| ----- | -------------------- | -- | ----------- | -------------------------------- | ------ |
+| 0     | Slash                | 2  | Opposed     | `1D4 + Q` Slashing               |  |
+| 0     | Stab                 | 2  | Opposed     | `1D6 + Q` Piercing               |  |
+| 0     | Artery Cut           | 2  | Opposed + 1 | `1D6 + Q` Slashing               | `+1` [Bleeding](./strive-core.md#bleeding) to the target (if it can bleed).  |
+| 0     | Grappling Feint      | 2  | Opposed - 1 |                                  | Attack with a feint, immediately close the distance and [grapple](./strive-core.md#grappled) your opponent. |
+| 0     | Target Weak-Spot     | 2  | Opposed + 2 | `1D8 + Q` Pure                   | `-2 Ob` against [Proned](./strive-core.md#prone) and/or [Grappled](./strive-core.md#grappled) targets. |
+
+#### Weapon \<Long Blade\> (Agi/Str)
+Skill for any [Long Blade](#long-blade) type weapons, such as longswords and great-swords.
+
+Properties: [Melee](./strive-core.md#melee), [Long Reach](./strive-core.md#weapon-properties)
+
+| Level | Name                 | AP | Ob          | Damage                           | Notes  |
+| ----- | -------------------- | -- | ----------- | -------------------------------- | ------ |
+| 0     | Slash                | 2  | Opposed     | `1D8 + Q` Slashing               |  |
+| 0     | Stab                 | 2  | Opposed     | `1D6 + Q` Piercing               |  |
+| 0     | Cleave               | 3  | Opposed + 1 | `1D8 + Q` Slashing               | Attack up to `3` MST at once, in a cone on front of you. |
+| 2     | Blade Barrier        | 3  |             |                                  | Whenever any character moves **into** a spot within reach, you may attack that character with a **Slash** at `Ob + 1` and always force them back `1`, until the start of your next turn. These attacks do not cost any additional AP. |
+| 2     | Mord-Strike          | 2  | Opposed     | `1D6 + Q` Bludgeoning            | Flip your weapon around and hit a target on the head with the weight of the pommel. |
+
+#### Weapon \<Chained Blade\> (Agi/Agi)
+Skill for [Chained Blade](#chained-blade) type weapons, an exotic and fantastical weapon type that uses an angled blade on a light chain. 
+
+Properties: [Melee](./strive-core.md#melee), [Ranged (max. `8`)](./strive-core.md#ranged), [Prefer Range](./strive-core.md#weapon-properties)
+
+| Level | Name                 | AP | Ob          | Damage                           | Notes  |
+| ----- | -------------------- | -- | ----------- | -------------------------------- | ------ |
+| 0     | Curved Toss          | 2  | Opposed     | `1D6 + Q` Slashing               | Throw the weapon just past a target and then with a flick, make it jump at their back and upon impact, immediately retrieve it. |
+| 0     | Come Closer          | 2  | Opposed     | `1D4 + Q` Slashing               | Throw the weapon just past a target and then yank it back, catching them with it and pulling them `3` squares closer to you. If the target is much larger and/or heavier than you, then you may pull *yourself* closer to them, for the same distance. Then immediately retrieve your weapon. |
+| 2     | Leg Sweep            | 2  | Opposed     |                                  | Swing the weapon at length and low, to sweep for an opponent's legs. Upon impact, yank the chain to sweep them off their feet, rendering them [prone](./strive-core.md#prone) and then immediately retrieve your weapon. |
+| 4     | Think Twice          | 1  |             | `Q + Agi` Piercing               | **Reaction**: Upon one of your allies attacking an enemy, you also throw your weapon straight at that enemy. Your ally's attack is `-1` Ob easier as the enemy is confused by the two simultaneous attacks! Your attack does **not** cost the enemy any additional AP to defend and is successful only if your ally's attack is successful. Upon impact, immediately retrieve your weapon. Only possible once per round. |
+
+#### Weapon \<Crusher\> (Str/Tough)
+Skill for [Crusher](#crusher) type weapons, with a dedicated *impact zone*, such as clubs and maces.
+
+Properties: [Melee](./strive-core.md#melee)
+
+| Level | Name                 | AP | Ob          | Damage                           | Notes  |
+| ----- | -------------------- | -- | ----------- | -------------------------------- | ------ |
+| 0     | Smash                | 2  | Opposed     | `1D6 + Q` Bludgeoning            |  |
+| 0     | Knockout Blow        | 2  | Opposed + 1 | `1D4 + Q` Bludgeoning            | If successful, causes `+2` [exhaustion](./strive-core.md#exhaustion) to the target. |
+| 0     | Mighty Smash         | 2  | Opposed + 2 | `1D10 + Q` Bludgeoning           | Defending against this attack costs `2` [AP](./strive-core.md#action-points-ap) and causes `+1` [Exhaustion](./strive-core.md#exhaustion) to the target. |
+
+#### Weapon \<Spear\> (Agi/Str)
+Skill for [Spear](#spear) type weapons and for lances. 
+
+Properties: [Melee](./strive-core.md#melee), [Long Reach](./strive-core.md#weapon-properties), [Prefer Range](./strive-core.md#weapon-properties)
+
+| Level | Name                 | AP | Ob          | Damage                           | Notes  |
+| ----- | -------------------- | -- | ----------- | -------------------------------- | ------ |
+| 0     | Stab                 | 2  | Opposed     | `2D4 + Q` Piercing               |  |
+| 0     | Spear Wall           | 2  |             |                                  | Whenever any character moves **into** a spot within reach, can attack that character with a **Stab** at `Ob + 1` and if successful, force them back `1`, until the start of your next turn. The attacks cost no additional **AP**. |
+
+#### Weapon \<Polearm\> (Str/Tough)
+Skill for [Polearm](#polearm) type weapons, like halberds, voulges, bardiches and pollaxes. 
+
+Properties: [Melee](./strive-core.md#melee), [Long Reach](./strive-core.md#weapon-properties), [Prefer Range](./strive-core.md#weapon-properties)
+
+| Level | Name                 | AP | Ob          | Damage                           | Notes  |
+| ----- | -------------------- | -- | ----------- | -------------------------------- | ------ |
+| 0     | Slash                | 2  | Opposed     | `2D6 + Q` Slashing               |  |
+| 0     | Stab                 | 2  | Opposed     | `2D4 + Q` Piercing               |  |
+| 0     | Cleave               | 2  | Opposed + 2 | `2D8 + Q` Slashing               | Attack up to `2` MST at once, in a line on front of you. |
+
+#### Weapon \<Short-Bow\> (Agi/Awar)
+Skill for [Short-Bow](#short-bow) type weapons. 
+
+Properties: [Ranged (10 DI)](./strive-core.md#ranged), [Range Only](./strive-core.md#weapon-properties)
+
+| Level | Name                 | AP | Ob          | Damage                     | Notes  |
+| ----- | -------------------- | -- | ----------- | -------------------------- | ------ |
+| 0     | Loose                | 2  | Opposed     | `2D4 + Q` Piercing         |  |
+| 1     | Pin                  | 2  | Opposed     | `1D4 + Q` Piercing         | Shoot the enemy in their foot. If the attack is successful, they target is considered [Rooted](./strive-core.md#rooted) until the end of their next turn. |
+| 2     | Double Shot          | 2  | Opposed + 1 | `2D4 + Q` Piercing         | Attack up to `2` MST at once. |
+
+#### Weapon \<Longbow\> (Awar/Str)
+Skill for [Longbow](#longbow) type weapons. 
+
+Properties: [Ranged (20 DI)](./strive-core.md#ranged), [Range Only](./strive-core.md#weapon-properties)
+
+| Level | Name                 | AP | Ob          | Damage                     | Notes  |
+| ----- | -------------------- | -- | ----------- | -------------------------- | ------ |
+| 0     | Loose                | 2  | Opposed     | `2D6 + Q` Piercing         |  |
+| 2     | Heavy Shot           | 2  | Opposed + 1 | `2D6 + Q + Str` Piercing   | Causes `+1` [Exhaustion](./strive-core.md#exhaustion) to self. |
+
+#### Weapon \<Crossbow\> (Awar/Awar)
+Skill for [Crossbow](#crossbow) type weapons. 
+
+Properties: [Ranged (15 DI)](./strive-core.md#ranged), [Prefer Range](./strive-core.md#weapon-properties), [Slow Reload](./strive-core.md#weapon-properties)
+
+| Level | Name                 | AP | Ob          | Damage                     | Notes  |
+| ----- | -------------------- | -- | ----------- | -------------------------- | ------ |
+| 0     | Loose                | 2  | Opposed     | `3D6 * Q` Piercing         |  |
+
+#### Weapon \<Firearm\> (Awar/Tough)
+Skill for [Firearm](#firearm) type weapons. It takes great discipline to not flinch at the sparks and smoke upon ignition. 
+
+Properties: [Ranged (10 DI)](./strive-core.md#ranged), [Prefer Range](./strive-core.md#weapon-properties), [Very Slow Reload](./strive-core.md#weapon-properties)
+
+| Level | Name                 | AP | Ob          | Damage                     | Notes  |
+| ----- | -------------------- | -- | ----------- | -------------------------- | ------ |
+| 0     | Fire                 | 2  | Opposed     | `2D8` Piercing + `Q` Pure  |  |
 
 ### Knowledge Skills
 These skills have a dominant mental aspect and are strongly related to a character's *mental attributes*. 
@@ -1013,10 +983,10 @@ The ability to create every-day items and tools from metal.
 The ability to craft bows and crossbows. 
 
 [Crafting](./strive-core.md#crafting--research-projects):
-* [Short-Bow](#short-bow-awarawar) (1x)
+* [Short-Bow](#short-bow) (1x)
 * [Longbow](#longbow-awarstr) (1x)
 * [Warbow](#war-bow-strtough) (1x)
-* [Crossbow](#crossbow-awarawar) (1x)
+* [Crossbow](#crossbow) (1x)
 
 #### Carpentry (Agi/Str)
 The ability to shape wood to craft predominantly wooden things. 
@@ -1093,20 +1063,23 @@ Taking the hide off a creature undamaged.
 The ability to make weapons from metal. 
 
 [Crafting](./strive-core.md#crafting--research-projects):
-* [Dagger](#dagger-agiawar) (1x)
+* [Dagger](#light-blade) (1x)
 * [Light Blade](#light-blade-agistr) (1x)
 * [Long Blade](#long-blade-agistr) (1x)
 * [Great Blade](#great-blade-strtough) (1x)
 * [Great Blade](#great-blade-strtough) (1x)
-* [Chained-Blade](#chained-blade-agiagi) (1x)
-* [Axe](#axe-strstr) (1x)
+* [Chained-Blade](#chained-blade) (1x)
+* [Axe](#axe) (1x)
 * [Great Axe](#great-axe-strstr) (1x)
-* [Spear](#spear-agistr) (1x)
+* [Spear](#spear) (1x)
 * [Lance](#lance-awarstr) (1x)
 * [Polearm](#polearm-strtough) (1x)
-* [Small Crusher](#small-crusher-strtough) (1x)
+* [Small Crusher](#crusher) (1x)
 * [Large Crusher](#large-crusher-strtough) (1x)
-* [Firearm](#firearm-awarawar) (1x)
+* [Firearm](#firearm) (1x)
+* At the cost one `-1 Q`, it is possible to add each of the following to a weapon (the weapon **must** have at least `Q 2`):
+  * [Serrated](./strive-core.md#serrated)
+  * [Poison-Chamber](./strive-core.md#poison-chamber)
 
 #### Woodcarving (Agi/Agi)
 Creating small things from carved wood. 
@@ -1202,7 +1175,7 @@ A bipedal wolf armed with wicked claws and deadly teeth!
 
 Attributes: `+2` Agi, `+4` Str, `+2` Tough, `-2` Wit
 
-| Skill                | Level | AP | **Ob**      | Damage                           | Notes  |
+| Skill                | Level | AP | Ob          | Damage                           | Notes  |
 | -------------------- | ----- | -- | ----------- | -------------------------------- | ------ |
 | Bite(Agi /Str)       | 2     | 2  | `Opposed`   | `1D6 + Str` Piercing             | Tear into a victim with wicked fangs! Causes `+1` [Bleeding](./strive-core.md#bleeding)! |
 | Rend (Agi/Str)       | 3     | 2  | `Opposed`   | `1D10 + Str` Slashing            | Tear a victim to shreds! Causes `+1` [Bleeding](./strive-core.md#bleeding)! |
@@ -1212,7 +1185,7 @@ A bipedal bear armed with massive claws and protected by a mass of muscle!
 
 Attributes: `-1` Agi, `+4` Str, `+5` Tough, `-2` Wit
 
-| Skill                | Level | AP | **Ob**        | Damage                           | Notes  |
+| Skill                | Level | AP | Ob            | Damage                           | Notes  |
 | -------------------- | ----- | -- | ------------- | -------------------------------- | ------ |
 | Rend (Agi/Str)       | 1     | 2  | `Opposed`     | `1D10 + Str` Slashing            | Tear a victim to shreds! |
 | Bear-Hug (Tough/Str) | 2     | 2  | `Opposed + 1` | `Str * 2` Bludgeoning            | Bear-hug and squeeze the life out of a victim! If successful, the victim is considered [Grappled](./strive-core.md#grappled)! |
