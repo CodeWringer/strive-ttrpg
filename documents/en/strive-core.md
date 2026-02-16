@@ -2339,9 +2339,9 @@ The weapon can be used against targets up to a noted distance away from the user
 
 For every Distance Increment past the initial, an attack suffers `+1` Ob and `-2` points of damage. In other words, the farther you shoot, the harder it becomes to score an effective hit. 
 
-> A weapon with this property noted as `(max. 8)` can at most be used up to `8` squares away. 
+> A weapon with this property noted as `(max. 8)` can attack a target up to a maximum of `8` squares away. 
 
-> A weapon with this property noted as `(10 DI)` has a Distance Increment of `10` squares. Any attack up to and including `10` squares incurs no penalties, but starting from the `11`th square, the attack suffers `+1` Ob and if successful, deals `-2` points of damage less. 
+> A weapon with this property noted as `(10 DI)` has a Distance Increment of `10` squares. Any attack up to and including `10` squares incurs no penalties, but starting from the `11`th square, the attack suffers `+1` Ob and if successful, deals `-2` points of damage less. Starting from the `21`st square, `+2` Ob and `-4` points of damage, and so on.
 
 #### Serrated
 Melee attacks with this weapon cause an additional `+Q` points of Bleeding.
