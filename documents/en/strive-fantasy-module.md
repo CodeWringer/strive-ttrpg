@@ -74,7 +74,6 @@ There is a [compendium document](./strive-fantasy-game-masters-resource.md) rese
       - [Crusher](#crusher)
       - [Light Blade](#light-blade)
       - [Long Blade](#long-blade)
-      - [Spear](#spear)
       - [Polearm](#polearm)
       - [Short-Bow](#short-bow)
       - [Longbow](#longbow)
@@ -89,7 +88,6 @@ There is a [compendium document](./strive-fantasy-game-masters-resource.md) rese
       - [Weapon \<Long Blade\> (Agi/Str)](#weapon-long-blade-agistr)
       - [Weapon \<Chained Blade\> (Agi/Agi)](#weapon-chained-blade-agiagi)
       - [Weapon \<Crusher\> (Str/Tough)](#weapon-crusher-strtough)
-      - [Weapon \<Spear\> (Agi/Str)](#weapon-spear-agistr)
       - [Weapon \<Polearm\> (Str/Tough)](#weapon-polearm-strtough)
       - [Weapon \<Short-Bow\> (Agi/Awar)](#weapon-short-bow-agiawar)
       - [Weapon \<Longbow\> (Awar/Str)](#weapon-longbow-awarstr)
@@ -580,15 +578,17 @@ When looking up products for crafting, the tools and materials required for the 
 
 | Name                     | Bulk | Max. Stack Size | Description                                                              | PI  | TI         | Crafting Ob |
 | ------------------------ | ---- | --------------- | ------------------------------------------------------------------------ | --- | ---------- | ----------- |
+| Acid Arrows              | 1    | 20              | Ammunition for a bow that deals `Q * 2` additional points of Acid damge. A small acid-filled vial tips these arrows, ready to burst upon impact. | 30  | 30 Minutes |  |
 | Acid Bomb                | 1    | 3               | A small fragile shell with two compartments, filled with two liquids which, when they combine, act as a powerful acid. When shattered, deals `QD6 Acid` damage to whatever it hits. | 15 | 10 Minutes |  |
 | Arrows                   | 1    | 20              | Ammunition for a bow. | 20 | 10 Minutes |  |
 | Bear Trap                | 1    | 3               | A metal-jawed trap, capable of breaking bone and flesh. Deals `Q * 2` Bludgeoning and `Q` Piercing damage. | 45 | 1 Hour |  |
-| Blackpowder Bomb         | 1    | 2               | A small iron-shelled bomb, filled with blackpowder. A short fuse sticks out and must be lit to set it off. Once lit, the bomb will detonate after 3 turns or 15 seconds. Deals `QD4 Bludgeoning + QD4 Burning` damage to anyone in a `2` radius. | 15 | 1 Hour | +1 |
+| Blackpowder Bomb         | 1    | 2               | A small iron-shelled bomb, filled with blackpowder. A short fuse sticks out and must be lit to set it off. Once lit, the bomb will detonate after `3` turns or `15` seconds. Deals `QD4 Bludgeoning + QD4 Burning` damage to anyone in a `2` radius. | 15 | 1 Hour | +1 |
 | Bolts                    | 1    | 20              | Ammunition for a crossbow. | 20 | 10 Minutes |  |
 | Calming Tea              | 1    | 3               | This herbal tea has the ability to calm nerves. Removes [berserk](./strive-core.md#berserk), [jealous](./strive-core.md#jealous) and [terrified](./strive-core.md#terrified). Best enjoyed steaming hot, but not necessarily. | 5 | 10 Minutes |  |
 | Clothing                 | 1    | 2               | A full set of clothes, head to toe. | 30 | 1 Hour |  |
 | Death Fog                | 1    | 1               | An extremely rare and deadly gas. Once exposed to air, covers an area of `Q * 2` squares in impenetrable, eerily glowing, blue fog. Deals `QD10 + 10` **pure** damage to all **organic** things it touches, per tick. Metal and mineral are unaffected, while plant and flesh are struck from existence. | 75 | 6 Hours | +1 |
 | Dragon's Breath Potion   | 1    | 3               | Upon drinking this potion, the orange liquid combines with the stomach acid and bursts out of the drinker's throat, igniting and thus causing them to spew fire! Causes `1D8 - Q Burning` damage to the user and `QD6 Burning` damage in a `6` cone in front of the user. | 30 | 1 Hour | +1 |
+| Explosive Arrows         | 1    | 10              | Ammunition for a bow that causes bow attacks to only deal `1D4 Bludgeoning + (1D4 + Q) Burning`.  | 45 | 1 Hour |  |
 | Fire Pot (Potion)        | 1    | 3               | An ancient recipe, this concoction bursts into flame when exposed to air for several seconds. It causes severe burns for `QD6 Burning` damage in a `2` radius. Consumed on use. | 30 | 1 Hour |  |
 | Illusionist's Powder     | 1    | 2               | A small amount of weakly iridescently shimmering powder. When scattered, the dust remains suspended in mid-air and settles in an image of the making alchemist's choosing, which at a distance can seem perfectly real. It takes a successful test at `Ob Q + 1` to see through the ruse. This image lasts `QD10` minutes. | 30 | 1 Hour |  |
 | Invigorating Potion      | 1    | 3               | The drinker of this potion feels refreshed and invigorated! Reduces exhaustion by `Q` and clears the [exhausted](./strive-core.md#exhausted) condition. Beware this potion can only be safely imbibed twice in a `24` hour cycle. If drunk more, roll a `D6`. If it is a **hit**, you're in luck! But if not, you instead suffer `+2` points of [exhaustion](./strive-core.md#exhaustion). | 20 | 1 Hour |  |
@@ -599,6 +599,7 @@ When looking up products for crafting, the tools and materials required for the 
 | Magic Recorder           | 1    | 3               | A small spherical device, overtly made from various metals with intricate patterns on its surface. This device can capture [Magic Echoes](#magic-echoes) and record magic as it is being cast. Also captures fragments of thoughts from its bearer while it is active. | 50 | 6 Hours |  |
 | Night-Eye Potion         | 1    | 3               | Grants the ability to see reasonably well under low-light conditions, up to `Q * 3` around them, for an hour. Beware that under the influence of this potion, exposure to bright light is extremely difficult to endure and will cause `+1` [exhaustion](./strive-core.md#exhaustion) for every **minute** of exposure. | 30 | 1 Hour |  |
 | Paralyzing Poison        | 1    | 2               | Causes a victim's muscles to seize up. They suffer `-1 AP` each turn and are forced to move sluggishly. If this poison is suffered twice, the victim seizes up completely and is unable to move. This poison can be resisted once upon suffering it, with [toughness](./strive-core.md#toughness-tough), at `Ob Q`. If unsuccessful, the effect will last `Q` hours. | 75 | 1 Hour | +2 |
+| Poison Arrows            | 1    | 20              | Ammunition for a bow that deals `Q * 2` additional points of Poison damge. A small poison-filled vial tips these arrows, ready to burst upon impact. | 30  | 30 Minutes |  |
 | Poison Resistance Potion | 1    | 2               | Once imbibed, halves all incurred poison damage, for up to `Q` hours. | 30 | 1 Hour |  |
 | Sleeping Poison          | 1    | 3               | Causes a victim to feel incredibly sleepy. Unless they succeed a [self-control](./strive-core.md#self-control-toughtough) test at `Ob Q`, they will fall asleep the first chance they get. They cannot be woken from this state for at least `6` hours. | 50 | 1 Hour | +1 |
 | Smoke Bomb               | 1    | 3               | A small fragile shell, filled with a very fine powder which when broken causes an area in a `Q * 1` radius to be covered in smoke. It is impossible to see through and ranged attacks within or through the smoke-covered area suffer `+2` **Ob**. Victims caught in the smoke may be forced to cough. The smoke lasts `6` turns or `30` seconds. | 20 | 10 Minutes |  |
@@ -744,14 +745,8 @@ Any long and heavier blade, such as longswords and great-swords.
 * [Melee](./strive-core.md#melee), [Long Reach](./strive-core.md#weapon-properties)
 * Bulk: `3`, PI: `60`, TI: `1 Hour`
 
-#### Spear
-Spears and lances.
-
-* [Melee](./strive-core.md#melee), [Long Reach](./strive-core.md#weapon-properties)
-* Bulk: `3`, PI: `45`, TI: `1 Hour`
-
 #### Polearm
-Flexible polearms with a focus on slashing. Examples: halberd, bardiche, poleaxe
+Polearms and spears. Examples: boar-spear, halberd, bardiche, poleaxe.
 
 * [Melee](./strive-core.md#melee), [Long Reach](./strive-core.md#weapon-properties), [Prefer Range](./strive-core.md#weapon-properties)
 * Bulk: `4`, PI: `50`, TI: `1 Hour`
@@ -803,9 +798,9 @@ Properties: [Melee](./strive-core.md#melee)
 
 | Level | Name                 | AP | Ob          | Damage                                    | Notes  |
 | ----- | -------------------- | -- | ----------- | ----------------------------------------- | ------ |
-| 0     | Hack                 | 2  | Opposed     | `1D6` Slashing + `1D4 + Str` Bludgeoning  |  |
-| 0     | Cleave               | 3  | Opposed + 1 | `1D8 + Q` Slashing                        | Attack up to `3` MST at once, in a cone on front of you. |
-| 1     | Savage Slash         | 2  | Opposed + 1 | `1D8` Slashing                            | `+2` [Bleeding](./strive-core.md#bleeding) to the target (if it can bleed). |
+| 0     | Hack                 | 2  | Opposed     | `1D6 + Q` Slashing + `Str` Bludgeoning    |  |
+| 0     | Cleave               | 3  | Opposed + 1 | `1D4 + Q` Slashing + `Str` Bludgeoning    | Attack up to `3` MST at once, in a cone on front of you. |
+| 2     | Savage Slash         | 2  | Opposed + 1 | `1D6 + Q` Slashing                        | `+2` [Bleeding](./strive-core.md#bleeding) to the target (if it can bleed). |
 
 #### Weapon \<Light Blade\> (Agi/Str)
 Skill for any [Light Blade](#light-blade) type weapons, such as daggers and one-handed swords. 
@@ -815,8 +810,8 @@ Properties: [Melee](./strive-core.md#melee)
 | Level | Name                 | AP | Ob          | Damage                           | Notes  |
 | ----- | -------------------- | -- | ----------- | -------------------------------- | ------ |
 | 0     | Slash                | 2  | Opposed     | `1D4 + Q` Slashing               |  |
-| 0     | Stab                 | 2  | Opposed     | `1D6 + Q` Piercing               |  |
-| 0     | Artery Cut           | 2  | Opposed + 1 | `1D6 + Q` Slashing               | `+1` [Bleeding](./strive-core.md#bleeding) to the target (if it can bleed).  |
+| 0     | Stab                 | 2  | Opposed     | `1D6 + Q + Agi` Piercing         |  |
+| 0     | Artery Cut           | 2  | Opposed + 1 | `1D4 + Q` Slashing               | `+1` [Bleeding](./strive-core.md#bleeding) to the target (if it can bleed).  |
 | 0     | Grappling Feint      | 2  | Opposed - 1 |                                  | Attack with a feint, immediately close the distance and [grapple](./strive-core.md#grappled) your opponent. |
 | 0     | Target Weak-Spot     | 2  | Opposed + 2 | `1D8 + Q` Pure                   | `-2 Ob` against [Proned](./strive-core.md#prone) and/or [Grappled](./strive-core.md#grappled) targets. |
 
@@ -829,19 +824,19 @@ Properties: [Melee](./strive-core.md#melee), [Long Reach](./strive-core.md#weapo
 | ----- | -------------------- | -- | ----------- | -------------------------------- | ------ |
 | 0     | Slash                | 2  | Opposed     | `1D8 + Q` Slashing               |  |
 | 0     | Stab                 | 2  | Opposed     | `1D6 + Q` Piercing               |  |
-| 0     | Cleave               | 3  | Opposed + 1 | `1D8 + Q` Slashing               | Attack up to `3` MST at once, in a cone on front of you. |
-| 2     | Blade Barrier        | 3  |             |                                  | Whenever any character moves **into** a spot within reach, you may attack that character with a **Slash** at `Ob + 1` and always force them back `1`, until the start of your next turn. These attacks do not cost any additional AP. |
-| 2     | Mord-Strike          | 2  | Opposed     | `1D6 + Q` Bludgeoning            | Flip your weapon around and hit a target on the head with the weight of the pommel. |
+| 0     | Cleave               | 3  | Opposed + 1 | `1D6 + Q` Slashing               | Attack up to `3` MST at once, in a cone on front of you. |
+| 2     | Blade Barrier        | 3  |             |                                  | Whenever any character moves **into** a spot within reach, you may attack that character with a **Slash** with Ob `+1` and, if successful, force them back `1` square. Blade Barrier lasts until the start of your next turn. These attacks do not cost any additional AP. |
+| 2     | Mord-Strike          | 2  | Opposed     | `1D6 + Str` Bludgeoning          | Flip your weapon around and hit a target on the head with the weight of the pommel. |
 
 #### Weapon \<Chained Blade\> (Agi/Agi)
-Skill for [Chained Blade](#chained-blade) type weapons, an exotic and fantastical weapon type that uses an angled blade on a light chain. 
+Skill for [Chained Blade](#chained-blade) type weapons, an exotic and fantastical weapon type that uses an angled blade at the end of a light chain. 
 
 Properties: [Melee](./strive-core.md#melee), [Ranged (max. `8`)](./strive-core.md#ranged), [Prefer Range](./strive-core.md#weapon-properties)
 
 | Level | Name                 | AP | Ob          | Damage                           | Notes  |
 | ----- | -------------------- | -- | ----------- | -------------------------------- | ------ |
 | 0     | Curved Toss          | 2  | Opposed     | `1D6 + Q` Slashing               | Throw the weapon just past a target and then with a flick, make it jump at their back and upon impact, immediately retrieve it. |
-| 0     | Come Closer          | 2  | Opposed     | `1D4 + Q` Slashing               | Throw the weapon just past a target and then yank it back, catching them with it and pulling them `3` squares closer to you. If the target is much larger and/or heavier than you, then you may pull *yourself* closer to them, for the same distance. Then immediately retrieve your weapon. |
+| 0     | Come Closer          | 2  | Opposed     | `Q` Slashing                     | Throw the weapon just past a target and then yank it back, catching them with it and pulling them `3` squares closer to you. If the target is much larger and/or heavier than you, then you may pull *yourself* closer to them, for the same distance. Then immediately retrieve your weapon. |
 | 2     | Leg Sweep            | 2  | Opposed     |                                  | Swing the weapon at length and low, to sweep for an opponent's legs. Upon impact, yank the chain to sweep them off their feet, rendering them [prone](./strive-core.md#prone) and then immediately retrieve your weapon. |
 | 4     | Think Twice          | 1  |             | `Q + Agi` Piercing               | **Reaction**: Upon one of your allies attacking an enemy, you also throw your weapon straight at that enemy. Your ally's attack is `-1` Ob easier as the enemy is confused by the two simultaneous attacks! Your attack does **not** cost the enemy any additional AP to defend and is successful only if your ally's attack is successful. Upon impact, immediately retrieve your weapon. Only possible once per round. |
 
@@ -852,19 +847,9 @@ Properties: [Melee](./strive-core.md#melee)
 
 | Level | Name                 | AP | Ob          | Damage                           | Notes  |
 | ----- | -------------------- | -- | ----------- | -------------------------------- | ------ |
-| 0     | Smash                | 2  | Opposed     | `1D6 + Q` Bludgeoning            |  |
-| 0     | Knockout Blow        | 2  | Opposed + 1 | `1D4 + Q` Bludgeoning            | If successful, causes `+2` [exhaustion](./strive-core.md#exhaustion) to the target. |
-| 0     | Mighty Smash         | 2  | Opposed + 2 | `1D10 + Q` Bludgeoning           | Defending against this attack costs `2` [AP](./strive-core.md#action-points-ap) and causes `+1` [Exhaustion](./strive-core.md#exhaustion) to the target. |
-
-#### Weapon \<Spear\> (Agi/Str)
-Skill for [Spear](#spear) type weapons and for lances. 
-
-Properties: [Melee](./strive-core.md#melee), [Long Reach](./strive-core.md#weapon-properties), [Prefer Range](./strive-core.md#weapon-properties)
-
-| Level | Name                 | AP | Ob          | Damage                           | Notes  |
-| ----- | -------------------- | -- | ----------- | -------------------------------- | ------ |
-| 0     | Stab                 | 2  | Opposed     | `2D4 + Q` Piercing               |  |
-| 0     | Spear Wall           | 2  |             |                                  | Whenever any character moves **into** a spot within reach, can attack that character with a **Stab** at `Ob + 1` and if successful, force them back `1`, until the start of your next turn. The attacks cost no additional **AP**. |
+| 0     | Smash                | 2  | Opposed     | `1D6 + Q + Str` Bludgeoning      |  |
+| 0     | Knockout Blow        | 2  | Opposed + 1 | `1D6` Bludgeoning                | If successful, causes `+2` [exhaustion](./strive-core.md#exhaustion) to the target. |
+| 0     | Mighty Smash         | 2  | Opposed + 1 | `1D6 + Q + Str` Bludgeoning      | Defending against this attack costs `2` [AP](./strive-core.md#action-points-ap) and causes `+1` [Exhaustion](./strive-core.md#exhaustion) to the target. |
 
 #### Weapon \<Polearm\> (Str/Tough)
 Skill for [Polearm](#polearm) type weapons, like halberds, voulges, bardiches and pollaxes. 
@@ -874,8 +859,9 @@ Properties: [Melee](./strive-core.md#melee), [Long Reach](./strive-core.md#weapo
 | Level | Name                 | AP | Ob          | Damage                           | Notes  |
 | ----- | -------------------- | -- | ----------- | -------------------------------- | ------ |
 | 0     | Slash                | 2  | Opposed     | `2D6 + Q` Slashing               |  |
-| 0     | Stab                 | 2  | Opposed     | `2D4 + Q` Piercing               |  |
-| 0     | Cleave               | 2  | Opposed + 2 | `2D8 + Q` Slashing               | Attack up to `2` MST at once, in a line on front of you. |
+| 0     | Stab                 | 2  | Opposed     | `2D6 + Q` Piercing               |  |
+| 0     | Cleave               | 2  | Opposed + 2 | `2D6 + Q` Slashing               | Attack up to `2` MST at once, in a line on front of you. |
+| 2     | Blade Barrier        | 3  |             |                                  | Whenever any character moves **into** a spot within reach, can attack that character with a **Stab** with Ob `+1` and if successful, force them back `1` square. Blade Barrier lasts until the start of your next turn. These attacks cost no additional **AP**. |
 
 #### Weapon \<Short-Bow\> (Agi/Awar)
 Skill for [Short-Bow](#short-bow) type weapons. 
@@ -884,7 +870,7 @@ Properties: [Ranged (10 DI)](./strive-core.md#ranged), [Range Only](./strive-cor
 
 | Level | Name                 | AP | Ob          | Damage                     | Notes  |
 | ----- | -------------------- | -- | ----------- | -------------------------- | ------ |
-| 0     | Loose                | 2  | Opposed     | `2D4 + Q` Piercing         |  |
+| 0     | Loose                | 2  | Opposed     | `2D4 + Q + Awar` Piercing  |  |
 | 1     | Pin                  | 2  | Opposed     | `1D4 + Q` Piercing         | Shoot the enemy in their foot. If the attack is successful, they target is considered [Rooted](./strive-core.md#rooted) until the end of their next turn. |
 | 2     | Double Shot          | 2  | Opposed + 1 | `2D4 + Q` Piercing         | Attack up to `2` MST at once. |
 
@@ -1011,7 +997,10 @@ The ability to plan and construct complex mechanisms and devices.
 The ability to efficiently craft arrows, bolts and javelins. 
 
 [Crafting](./strive-core.md#crafting--research-projects):
+* [Acid Arrows](#general-assets) (10x)
 * [Arrows](#general-assets) (20x)
+* [Explosive Arrows](#general-assets) (5x)
+* [Poison Arrows](#general-assets) (10x)
 * [Bolts](#general-assets) (20x)
 
 #### Glass-Blowing (Agi/Agi)
