@@ -1901,11 +1901,11 @@ If you succeed a **defense** and achieve at least `2` **hits** over your attacke
 * **Displace your opponent**. They are forced to stumble backwards by `2` in a direction of your choosing. This may provoke [Attacks of Opportunity](#opportunity-attacks). 
 * **Displace yourself**. You move `2` in a direction of your choosing. This does **not** provoke [Attacks of Opportunity](#opportunity-attacks). 
 * **Throw your opponent to the ground**, making them [proned](#prone). 
-* Launch an immediate **Counter-Attack**, for half your weapon's regular damage (RU). This attack does not cost you any additional [AP](#action-points-ap). 
+* Launch an immediate [Counter-Attack](#counter-attack), at the cost of `1` [AP](#action-points-ap). 
 * If defending against a ranged attack, you **catch the projectile** (if such a feat could be "reasonably" done). You may immediately throw it back at the attacker, for a guaranteed success. 
 
 #### Counter-Attack
-A *reaction* that allows a fighter being attacked to attack their attacker, at the cost of `1` [AP](#action-points-ap). 
+A *reaction* that allows a victim being attacked to immediately retaliate against their attacker. 
 
 ### Cover
 It is possible for characters to hide behind stationary things to make it harder to hit them. This mostly applies to ranged combat, but may also find use in melee, depending on circumstance. 
@@ -2362,7 +2362,6 @@ Performing acrobatic feats, such as jumping, tumbling and climbing, without inju
 | ----- | -------------------- | -- | ------- | ------------------ | ------------ |
 | 1     | Deft Evasion         | /  | /       | **Passive**: While not wearing any [armor](#armor) and not wielding a shield of bulk `2` or more, gain `+1` [Compensation Point](#compensation-points) to any [defense test](#defending) made using this Skill and increase your [Stability](#stability-stabil) by `+1`! | / |
 | 2     | Wind Out Of It       | 1  | 2       | When hit by an attack, wind out of the hit and suffer only half the damage (RU). | / |
-| 3     | Bob, Weave, Jab      | 1  | /       | **Reaction**: When succeeding a defense test, launch a [Counter-Attack](#defense-stunts) against the enemy who attacked you, without any penalties to damage and without suffering any [Exhaustion](#exhaustion)! | / |
 
 #### Berserking (Tough/Tough)
 Whether as a well-honed skill and way of life, or through a disappointing childhood of misery and pain, berserking is a talent for fighting angrily and recklessly. It allows a fighter to keep fighting at surprising strength, even when wounded. 
@@ -2373,7 +2372,7 @@ However, the price for this strength is steep. The chance of death is greatly in
 | ----- | -------------------- | -- | ------- | ------------------ | ------------ |
 | 0     | Reckless Assault     | 1  | /       | Deal half of the damage (RU) as additional damage on your next successful attack. Suffer a `-1D` penalty to all [defense tests](#defending) until the start of your next turn. | / |
 | 1     | Grit Your Teeth      | 0  | /       | **Reaction**: Upon suffering an [Injury](#injury), gain an *additional* [grit point](#grit-points), but at the cost of `1` point of [Exhaustion](#exhaustion)! | Not at Exhaustion limit. |
-| 1     | Hit me? Hit you!     | 1  | /       | **Reaction**: Upon suffering damage, immediately launch a counter-attack and if successful, add half (RU) of the damage that was dealt to you as Bludgeoning damage. Suffer `+1` point of [Exhaustion](#exhaustion)! | Not at Exhaustion limit. |
+| 1     | Hit me? Hit you!     | 1  | /       | **Reaction**: Upon suffering damage, immediately launch a counter-attack and if successful, add half (RU) of the damage that was dealt to you as additional Bludgeoning damage. Suffer `+1` point of [Exhaustion](#exhaustion)! | Not at Exhaustion limit. |
 | 1     | The Blood Quickens!  | 1  | /       | Reduce your [Exhaustion](#exhaustion) by `1` for every point in [Bleeding](#bleeding) you currently have. | / |
 | 2     | Pain is Strength     | 3  | Opposed | Perform an attack against a **ST**. For every active [Injury](#injury) you currently have, deal one extra `D6` of [Bludgeoning](#damage-types) damage. You suffer one point of [exhaustion](#exhaustion). | / |
 | 3     | Injury Collector     | 0  | 2       | **Reaction**: Upon suffering an [Injury](#injury), with a successful test of this Expertise, remove all additional [penalties](#boons--penalties) (i. e. everything but the [HP](#hit-points-hp) malus) from the [Injury](#injury). | / |
@@ -2662,7 +2661,7 @@ This governs the understanding of what makes defensive structures effective and 
 
 | Level | <img src="../../img/heroic-acts.svg" width="64px" height="64px"></img> | Heroic Act Description | Desperate Measure Description | <img src="../../img/desperate-measures.svg" width="64px" height="64px"></img> |
 | ----- | ----------------------- | ---------------------- | ----------------------------- | --------------------------- |
-| 4     | Take and Hold! <br><img src="../../img/heroic-act_take-and-hold.svg" width="64px" height="64px"></img> | Designate an area up to `3` in radius. Until the end of combat, any **PC** and ally inside this zone receives `+1` [AP](#action-points-ap) at turn start and `+1` [Compensation Point](#compensation-points) for every test. If such a zone already exists, it is replaced with the new one. Decreases Momentum by `-30`. | Designate an area up to `3` in radius. Until the end of combat, any **PC** and ally inside this zone receives `+1` [Compensation Point](#compensation-points) for every test and may **freely** [Counter-Attack](#defense-stunts) *every* attack, but every **PC** *outside* this zone suffers `+1` **Ob** for **every test**. If such a zone already exists, it is replaced with the new one. Increases Momentum by `+15`. | Not A Step Back! <br><img src="../../img/desperate-measure_not-a-step-back.svg" width="64px" height="64px"></img> |
+| 4     | Take and Hold! <br><img src="../../img/heroic-act_take-and-hold.svg" width="64px" height="64px"></img> | Designate an area up to `3` in radius. Until the end of combat, any **PC** and ally inside this zone receives `+1` [AP](#action-points-ap) at turn start and `+1` [Compensation Point](#compensation-points) for every test. If such a zone already exists, it is replaced with the new one. Decreases Momentum by `-30`. | Designate an area up to `3` in radius. Until the end of combat, any **PC** and ally inside this zone receives `+1` [Compensation Point](#compensation-points) for every test and may freely [Counter-Attack](#defense-stunts) *every* attack, but every **PC** *outside* this zone suffers `+1` **Ob** for **every test**. If such a zone already exists, it is replaced with the new one. Increases Momentum by `+15`. | Not A Step Back! <br><img src="../../img/desperate-measure_not-a-step-back.svg" width="64px" height="64px"></img> |
 
 ### Artisan Skills
 All artisan Skills require a mix of physical and mental attributes, for the purpose of creating a wide variety of things. Mechanically speaking, these are [crafting](#crafting--research-projects) Skills.
