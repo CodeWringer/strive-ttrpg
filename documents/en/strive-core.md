@@ -183,6 +183,7 @@ You may choose to play without the Momentum system for a less heroic style of ga
     - [Armor \& Shields](#armor--shields)
     - [Defending an Ally](#defending-an-ally)
     - [Defense Stunts](#defense-stunts)
+      - [Counter-Attack](#counter-attack)
     - [Cover](#cover)
     - [Speed aids Defense](#speed-aids-defense)
   - [Momentum](#momentum)
@@ -223,6 +224,16 @@ You may choose to play without the Momentum system for a less heroic style of ga
   - [Assets Appendix](#assets-appendix)
     - [General Assets](#general-assets)
     - [Weapon Properties](#weapon-properties)
+      - [Melee](#melee)
+      - [Long Reach](#long-reach)
+      - [Very Long Reach](#very-long-reach)
+      - [Range Only](#range-only)
+      - [Prefer Range](#prefer-range)
+      - [Slow Reload](#slow-reload)
+      - [Very Slow Reload](#very-slow-reload)
+      - [Ranged](#ranged)
+      - [Serrated](#serrated)
+      - [Poison-Chamber](#poison-chamber)
   - [Lists of Skills](#lists-of-skills)
     - [Physical Skills](#physical-skills)
       - [Acrobatics (Agi/Str)](#acrobatics-agistr)
@@ -431,6 +442,7 @@ As STRIVE is meant primarily as a rule-book to help you quickly find what you ne
 | [D6](#dice)                                                 | A six-sided die         |
 | [D8](#dice)                                                 | An eight-sided die      |
 | [Difficult Terrain](#combat-movement)                       | Halves movement per AP. |
+| [Distance Increment (DI)](#ranged)                          | Indicates a ranged weapon's/attack's range increments. Attacking past this number of squares incurs penalties to the attack. |
 | [Exhaustion](#exhaustion)                                   | A resource that indicates how physically exerted a character is. Limits some abilities if it becomes too much. |
 | [Experience Point(s) (XP)](#experience-points-xp)           | Allow fully unrestricted character advancement. |
 | [Expertise](#expertise)                                     | A sub-ability of a Skill. |
@@ -1889,8 +1901,11 @@ If you succeed a **defense** and achieve at least `2` **hits** over your attacke
 * **Displace your opponent**. They are forced to stumble backwards by `2` in a direction of your choosing. This may provoke [Attacks of Opportunity](#opportunity-attacks). 
 * **Displace yourself**. You move `2` in a direction of your choosing. This does **not** provoke [Attacks of Opportunity](#opportunity-attacks). 
 * **Throw your opponent to the ground**, making them [proned](#prone). 
-* Launch an immediate **Counter-Attack**, for half your weapon's regular damage (RU). This attack does not cost you any additional [AP](#action-points-ap). 
+* Launch an immediate [Counter-Attack](#counter-attack), at the cost of `1` [AP](#action-points-ap). 
 * If defending against a ranged attack, you **catch the projectile** (if such a feat could be "reasonably" done). You may immediately throw it back at the attacker, for a guaranteed success. 
+
+#### Counter-Attack
+A *reaction* that allows a victim being attacked to immediately retaliate against their attacker. 
 
 ### Cover
 It is possible for characters to hide behind stationary things to make it harder to hit them. This mostly applies to ranged combat, but may also find use in melee, depending on circumstance. 
@@ -2296,15 +2311,43 @@ When looking up products for crafting, the tools and materials required for the 
 | Ration                 | 1    | 10              | A ration of preserved food and drink, enough for a whole day. | 10 | 30 Minutes |  |
 
 ### Weapon Properties
-Weapon type assets can have the following **traits**:
-* **Long Reach**: Allows attacking a target two fields (`2`) away. 
-* **Very long Reach**: Allows attacking a target three fields (`3`) away. 
-* **Range Only**: Implies a weapon cannot be used against any targets adjacent to self. 
-* **Prefer Range**: `+2` **Ob** to using the weapon against an adjacent target.
-* **Slow Reload**: Reloading the weapon costs `2` [AP](#action-points-ap).
-* **Very Slow Reload**: Reloading the weapon costs `3` [AP](#action-points-ap).
-* **Ranged (throwable: < attack name >)**: No damage penalty is incurred when throwing this type of weapon. The damage formula for the given attack is to be used on hit. 
-* A **counter-attack** is a *reaction* that allows a fighter being attacked to attack their attacker, at the cost of `1` [AP](#action-points-ap). 
+Weapon type assets can have the following traits:
+
+#### Melee
+Allows attacking an adjacent target.
+
+#### Long Reach
+Allows attacking a target two squares (`2`) away. 
+
+#### Very Long Reach
+Allows attacking a target three squares (`3`) away. 
+
+#### Range Only
+Implies a weapon cannot be used against any targets adjacent to self. 
+
+#### Prefer Range
+`+2` Ob to using the weapon against an adjacent target.
+
+#### Slow Reload
+Reloading the weapon costs `2` [AP](#action-points-ap).
+
+#### Very Slow Reload
+Reloading the weapon costs `3` [AP](#action-points-ap).
+
+#### Ranged
+The weapon can be used against targets up to a noted distance away from the user. The range, in squares, is noted in parentheses. This can either indicate a maximum distance, which cannot be exceeded, or a so-called **Distance Increment**, which may be exceeded, but at increasing penalties.
+
+For every Distance Increment past the initial, an attack suffers `+1` Ob and `-2` points of damage. In other words, the farther you shoot, the harder it becomes to score an effective hit. 
+
+> A weapon with this property noted as `(max. 8)` can attack a target up to a maximum of `8` squares away. 
+
+> A weapon with this property noted as `(10 DI)` has a Distance Increment of `10` squares. Any attack up to and including `10` squares incurs no penalties, but starting from the `11`th square, the attack suffers `+1` Ob and if successful, deals `-2` points of damage less. Starting from the `21`st square, `+2` Ob and `-4` points of damage, and so on.
+
+#### Serrated
+Melee attacks with this weapon cause an additional `+Q` points of Bleeding.
+
+#### Poison-Chamber
+Melee attacks with this weapon cause an additional `+Q` points of Poison damage.
 
 ## Lists of Skills
 The following list does not and cannot aim to be a complete listing of all possible skills in game. Adding new skills as necessary will have to be done by the **GM**. Nevertheless, most general scenarios should be covered by these skills. 
@@ -2319,7 +2362,6 @@ Performing acrobatic feats, such as jumping, tumbling and climbing, without inju
 | ----- | -------------------- | -- | ------- | ------------------ | ------------ |
 | 1     | Deft Evasion         | /  | /       | **Passive**: While not wearing any [armor](#armor) and not wielding a shield of bulk `2` or more, gain `+1` [Compensation Point](#compensation-points) to any [defense test](#defending) made using this Skill and increase your [Stability](#stability-stabil) by `+1`! | / |
 | 2     | Wind Out Of It       | 1  | 2       | When hit by an attack, wind out of the hit and suffer only half the damage (RU). | / |
-| 3     | Bob, Weave, Jab      | 1  | /       | **Reaction**: When succeeding a defense test, launch a [Counter-Attack](#defense-stunts) against the enemy who attacked you, without any penalties to damage and without suffering any [Exhaustion](#exhaustion)! | / |
 
 #### Berserking (Tough/Tough)
 Whether as a well-honed skill and way of life, or through a disappointing childhood of misery and pain, berserking is a talent for fighting angrily and recklessly. It allows a fighter to keep fighting at surprising strength, even when wounded. 
@@ -2330,7 +2372,7 @@ However, the price for this strength is steep. The chance of death is greatly in
 | ----- | -------------------- | -- | ------- | ------------------ | ------------ |
 | 0     | Reckless Assault     | 1  | /       | Deal half of the damage (RU) as additional damage on your next successful attack. Suffer a `-1D` penalty to all [defense tests](#defending) until the start of your next turn. | / |
 | 1     | Grit Your Teeth      | 0  | /       | **Reaction**: Upon suffering an [Injury](#injury), gain an *additional* [grit point](#grit-points), but at the cost of `1` point of [Exhaustion](#exhaustion)! | Not at Exhaustion limit. |
-| 1     | Hit me? Hit you!     | 1  | /       | **Reaction**: Upon suffering damage, immediately launch a counter-attack and if successful, add half (RU) of the damage that was dealt to you as Bludgeoning damage. Suffer `+1` point of [Exhaustion](#exhaustion)! | Not at Exhaustion limit. |
+| 1     | Hit me? Hit you!     | 1  | /       | **Reaction**: Upon suffering damage, immediately launch a counter-attack and if successful, add half (RU) of the damage that was dealt to you as additional Bludgeoning damage. Suffer `+1` point of [Exhaustion](#exhaustion)! | Not at Exhaustion limit. |
 | 1     | The Blood Quickens!  | 1  | /       | Reduce your [Exhaustion](#exhaustion) by `1` for every point in [Bleeding](#bleeding) you currently have. | / |
 | 2     | Pain is Strength     | 3  | Opposed | Perform an attack against a **ST**. For every active [Injury](#injury) you currently have, deal one extra `D6` of [Bludgeoning](#damage-types) damage. You suffer one point of [exhaustion](#exhaustion). | / |
 | 3     | Injury Collector     | 0  | 2       | **Reaction**: Upon suffering an [Injury](#injury), with a successful test of this Expertise, remove all additional [penalties](#boons--penalties) (i. e. everything but the [HP](#hit-points-hp) malus) from the [Injury](#injury). | / |
@@ -2619,7 +2661,7 @@ This governs the understanding of what makes defensive structures effective and 
 
 | Level | <img src="../../img/heroic-acts.svg" width="64px" height="64px"></img> | Heroic Act Description | Desperate Measure Description | <img src="../../img/desperate-measures.svg" width="64px" height="64px"></img> |
 | ----- | ----------------------- | ---------------------- | ----------------------------- | --------------------------- |
-| 4     | Take and Hold! <br><img src="../../img/heroic-act_take-and-hold.svg" width="64px" height="64px"></img> | Designate an area up to `3` in radius. Until the end of combat, any **PC** and ally inside this zone receives `+1` [AP](#action-points-ap) at turn start and `+1` [Compensation Point](#compensation-points) for every test. If such a zone already exists, it is replaced with the new one. Decreases Momentum by `-30`. | Designate an area up to `3` in radius. Until the end of combat, any **PC** and ally inside this zone receives `+1` [Compensation Point](#compensation-points) for every test and may **freely** [Counter-Attack](#defense-stunts) *every* attack, but every **PC** *outside* this zone suffers `+1` **Ob** for **every test**. If such a zone already exists, it is replaced with the new one. Increases Momentum by `+15`. | Not A Step Back! <br><img src="../../img/desperate-measure_not-a-step-back.svg" width="64px" height="64px"></img> |
+| 4     | Take and Hold! <br><img src="../../img/heroic-act_take-and-hold.svg" width="64px" height="64px"></img> | Designate an area up to `3` in radius. Until the end of combat, any **PC** and ally inside this zone receives `+1` [AP](#action-points-ap) at turn start and `+1` [Compensation Point](#compensation-points) for every test. If such a zone already exists, it is replaced with the new one. Decreases Momentum by `-30`. | Designate an area up to `3` in radius. Until the end of combat, any **PC** and ally inside this zone receives `+1` [Compensation Point](#compensation-points) for every test and may freely [Counter-Attack](#defense-stunts) *every* attack, but every **PC** *outside* this zone suffers `+1` **Ob** for **every test**. If such a zone already exists, it is replaced with the new one. Increases Momentum by `+15`. | Not A Step Back! <br><img src="../../img/desperate-measure_not-a-step-back.svg" width="64px" height="64px"></img> |
 
 ### Artisan Skills
 All artisan Skills require a mix of physical and mental attributes, for the purpose of creating a wide variety of things. Mechanically speaking, these are [crafting](#crafting--research-projects) Skills.
