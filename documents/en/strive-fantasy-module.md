@@ -938,20 +938,26 @@ The ability to brew alchemical potions, create powders, mixtures and other subst
   * Gain `+1` amount of your product. 
   * Gain a secondary product whose Progress Increment is smaller, with amount `1`. 
 * [Acid Bomb](#general-assets) (3x)
-* [Blackpowder Bomb](#general-assets) (2x)
 * [Calming Tea](#general-assets) (3x)
-* [Death Fog](#general-assets) (1x)
 * [Dragon's Breath Potion](#general-assets) (2x)
 * [Fire Pot](#general-assets) (2x)
-* [Illusionist's Powder](#general-assets) (2x)
 * [Invigorating Potion](#general-assets) (2x)
 * [Laudanum Potion](#general-assets) (3x)
-* [Love Potion](#general-assets) (1x)
 * [Night-Eye Potion](#general-assets) (2x)
-* [Paralyzing Poison](#general-assets) (1x)
 * [Poison Resistance Potion](#general-assets) (2x)
-* [Sleeping Poison](#general-assets) (1x)
 * [Smoke Bomb](#general-assets) (3x)
+
+At level `4+`, you may also craft the following:
+* [Blackpowder Bomb](#general-assets) (2x)
+* [Illusionist's Powder](#general-assets) (2x)
+* [Love Potion](#general-assets) (1x)
+
+At level `5+`, you may also craft the following:
+* [Sleeping Poison](#general-assets) (1x)
+
+At level `6+`, you may also craft the following:
+* [Death Fog](#general-assets) (1x)
+* [Paralyzing Poison](#general-assets) (1x)
 
 #### Brewing (Wit/Wit)
 The brewing of alcoholic beverages. 
@@ -970,8 +976,7 @@ The ability to craft bows and crossbows.
 
 [Crafting](./strive-core.md#crafting--research-projects):
 * [Short-Bow](#short-bow) (1x)
-* [Longbow](#longbow-awarstr) (1x)
-* [Warbow](#war-bow-strtough) (1x)
+* [Longbow](#longbow) (1x)
 * [Crossbow](#crossbow) (1x)
 
 #### Carpentry (Agi/Str)
@@ -997,11 +1002,13 @@ The ability to plan and construct complex mechanisms and devices.
 The ability to efficiently craft arrows, bolts and javelins. 
 
 [Crafting](./strive-core.md#crafting--research-projects):
-* [Acid Arrows](#general-assets) (10x)
 * [Arrows](#general-assets) (20x)
+* [Bolts](#general-assets) (20x)
+
+At level `4+`, you may also craft the following:
+* [Acid Arrows](#general-assets) (10x)
 * [Explosive Arrows](#general-assets) (5x)
 * [Poison Arrows](#general-assets) (10x)
-* [Bolts](#general-assets) (20x)
 
 #### Glass-Blowing (Agi/Agi)
 The ability to make objects from glass. 
@@ -1052,23 +1059,20 @@ Taking the hide off a creature undamaged.
 The ability to make weapons from metal. 
 
 [Crafting](./strive-core.md#crafting--research-projects):
-* [Dagger](#light-blade) (1x)
-* [Light Blade](#light-blade-agistr) (1x)
-* [Long Blade](#long-blade-agistr) (1x)
-* [Great Blade](#great-blade-strtough) (1x)
-* [Great Blade](#great-blade-strtough) (1x)
-* [Chained-Blade](#chained-blade) (1x)
 * [Axe](#axe) (1x)
-* [Great Axe](#great-axe-strstr) (1x)
-* [Spear](#spear) (1x)
-* [Lance](#lance-awarstr) (1x)
-* [Polearm](#polearm-strtough) (1x)
-* [Small Crusher](#crusher) (1x)
-* [Large Crusher](#large-crusher-strtough) (1x)
-* [Firearm](#firearm) (1x)
+* [Crusher](#crusher) (1x)
+* [Light Blade](#light-blade) (1x)
+* [Long Blade](#long-blade) (1x)
+* [Polearm](#polearm) (1x)
+
+At level `4+`, you may also craft the following:
 * At the cost one `-1 Q`, it is possible to add each of the following to a weapon (the weapon **must** have at least `Q 2`):
   * [Serrated](./strive-core.md#serrated)
   * [Poison-Chamber](./strive-core.md#poison-chamber)
+
+At level `5+`, you may also craft the following:
+* [Chained-Blade](#chained-blade) (1x)
+* [Firearm](#firearm) (1x)
 
 #### Woodcarving (Agi/Agi)
 Creating small things from carved wood. 
