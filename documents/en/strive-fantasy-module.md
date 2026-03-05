@@ -620,10 +620,10 @@ A set of light armor that doesn't impede the wearer much. Example: cloth armor l
 
 | Protections          | Unthreatened | Flanked | Surrounded | Overwhelmed | 
 | -------------------- | ------------ | ------- | ---------- | ----------- | 
-| **Slashing**         | 4            | 2       | 1          | 0           | 
-| **Piercing**         | 3            | 2       | 1          | 0           | 
-| **Bludgeoning**      | 2            | 1       | 1          | 0           | 
-| **Acid**             | 2            | 1       | 1          | 0           | 
+| **Slashing**         | 4 + Q        | 2 + Q   | 1          | 0           | 
+| **Piercing**         | 3 + Q        | 2 + Q   | 1          | 0           | 
+| **Bludgeoning**      | 2 + Q        | 1 + Q   | 1          | 0           | 
+| **Acid**             | 2 + Q        | 1 + Q   | 1          | 0           | 
 
 #### Medium Armor
 A set of medium armor with a good balance of protection and weight. Example: full chain mail armor, with or without a helmet. 
@@ -635,11 +635,11 @@ A set of medium armor with a good balance of protection and weight. Example: ful
 
 | Protections          | Unthreatened | Flanked | Surrounded | Overwhelmed | 
 | -------------------- | ------------ | ------- | ---------- | ----------- | 
-| **Slashing**         | 6            | 3       | 2          | 0           | 
-| **Piercing**         | 4            | 2       | 1          | 0           | 
-| **Bludgeoning**      | 3            | 2       | 1          | 0           | 
-| **Acid**             | 3            | 2       | 1          | 0           | 
-| **Electrical**       | 6            | 3       | 2          | 0           |
+| **Slashing**         | 6 + Q        | 3 + Q   | 2          | 0           | 
+| **Piercing**         | 4 + Q        | 2 + Q   | 1          | 0           | 
+| **Bludgeoning**      | 3 + Q        | 2 + Q   | 1          | 0           | 
+| **Acid**             | 3 + Q        | 2 + Q   | 1          | 0           | 
+| **Electrical**       | 4 + Q        | 2 + Q   | 1          | 0           |
 
 #### Heavy Armor
 A set of heavy armor with excellent protection, at the cost of encumbering the wearer greatly. Example: full plate armor. 
@@ -652,11 +652,11 @@ A set of heavy armor with excellent protection, at the cost of encumbering the w
 
 | Protections          | Unthreatened | Flanked | Surrounded | Overwhelmed | 
 | -------------------- | ------------ | ------- | ---------- | ----------- | 
-| **Slashing**         | 10           | 5       | 3          | 0           | 
-| **Piercing**         | 8            | 4       | 2          | 0           | 
-| **Bludgeoning**      | 6            | 3       | 2          | 0           | 
-| **Acid**             | 6            | 3       | 2          | 0           | 
-| **Electrical**       | 8            | 4       | 2          | 0           | 
+| **Slashing**         | 8 + Q        | 4 + Q   | 2          | 0           | 
+| **Piercing**         | 8 + Q        | 4 + Q   | 2          | 0           | 
+| **Bludgeoning**      | 6 + Q        | 3 + Q   | 2          | 0           | 
+| **Acid**             | 6 + Q        | 3 + Q   | 2          | 0           | 
+| **Electrical**       | 4 + Q        | 2 + Q   | 1          | 0           | 
 
 ### Shield Types
 Shields are items that provide passive bonuses to defense against melee and ranged attacks and require one free hand to use. This implies they cannot be used at the same time as a two-handed weapon (unless of course if you have more than two arms). 
