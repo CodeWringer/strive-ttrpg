@@ -975,7 +975,7 @@ Characters know languages that allow them to communicate. Each language a charac
 
 > A character with Wit `3`, who is a Native speaker, tries understand some ancient lore written in their language. They get to roll `(3 (from Wit) * 2) + 5 (from Native language grade) = 11` dice for the test. The Ob will be chosen by the GM, based on _just how ancient and obscure_ the text is, meaning, how difficult to read it is. 
 
-New languages may be learned. Treat this like a [Research Project](#research-projects), with a PI of `25`, TI of `1 day`, but instead of a Project Skill, use your [Wit](#wit-wit) to add progress. 
+Languages may be learned. Treat this like a [Research Project](#research-projects), with a PI of `25`, TI of `1 day`, but instead of a Project Skill, use your [Wit](#wit-wit) to add progress. The achieved Q equals the language grade, up to a maximum of `3`. So, effectively, Q `1` results in a Dabbling, `2` in a Proficient and `3` in a Native language grade. There is no grade past Proficient. 
 
 ### Advancement
 Through [tests](#tests), characters learn and improve. For every [test](#tests), `+1` [XP](#experience-points-xp) is earned. If testing a Skill, then *additionally*, the advancement progress of that Skill is incremented by `+1`. 
