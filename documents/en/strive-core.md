@@ -94,6 +94,7 @@ You may choose to play without the Momentum system for a less heroic style of ga
       - [Expertise](#expertise)
       - [Momentum Action](#momentum-action)
       - [Concentration](#concentration)
+    - [Languages](#languages)
     - [Advancement](#advancement)
       - [Experience Points \[XP\]](#experience-points-xp)
       - [Advancing Attributes](#advancing-attributes)
@@ -266,7 +267,6 @@ You may choose to play without the Momentum system for a less heroic style of ga
       - [Geography (Awar/Wit)](#geography-awarwit)
       - [Geology (Awar/Wit)](#geology-awarwit)
       - [History (Wit/Wit)](#history-witwit)
-      - [Language \< language \> (Wit/Wit)](#language--language--witwit)
       - [Law and politics (Wit/Wit)](#law-and-politics-witwit)
       - [Mathematics (Wit/Wit)](#mathematics-witwit)
       - [Mechanics (Agi/Wit)](#mechanics-agiwit)
@@ -274,7 +274,6 @@ You may choose to play without the Momentum system for a less heroic style of ga
       - [Nature (Awar/Wit)](#nature-awarwit)
       - [Mysticism and Religion (Wit/Wit)](#mysticism-and-religion-witwit)
       - [Medicine (Agi/Wit)](#medicine-agiwit)
-      - [Reading and Writing (Awar/Wit)](#reading-and-writing-awarwit)
       - [Surgery (Agi/Wit)](#surgery-agiwit)
       - [Warfare (Tough/Wit)](#warfare-toughwit)
     - [Artisan Skills](#artisan-skills)
@@ -964,6 +963,19 @@ See also [Momentum](#momentum).
 
 #### Concentration
 A **Concentration** Skill or Expertise upholds its effect(s) once successfully enacted, for as long as the user desires or is conscious. Under normal circumstances, a character may only have one active Concentration effect at a time. On such Skills and Expertises "Concentration" will be noted. 
+
+### Languages
+Characters know languages that allow them to communicate. Each language a character knows is graded and may optionally also allow reading and writing in it. Outside of mundane, every-day communication, when a character tries to understand more advanced speech or writing in a given language, they may roll a [test](#tests) for it. For the test, your number of dice is composed of your Wit, times two, summed with the number of bonus dice your degree of proficiency allows. 
+
+| Grade      | Bonus Test Dice | Description    |
+| ---------- | --------------- | -------------- |
+| Dabbling   | 1               | Rudimentary skill that allows basic every-day interaction. Academic or archaic words and grammar may prove a challenge, however. |
+| Proficient | 3               | Only the more obscure words and archaic grammar cause you difficulty. |
+| Native     | 5               | Near perfect knowledge of the language allows you to understand almost everything. Only the most obscure and archaic words and phrasings may cause you pause. |
+
+> A character with Wit `3`, who is a Native speaker, tries understand some ancient lore written in their language. They get to roll `(3 (from Wit) * 2) + 5 (from Native language grade) = 11` dice for the test. The Ob will be chosen by the GM, based on _just how ancient and obscure_ the text is, meaning, how difficult to read it is. 
+
+New languages may be learned. Treat this like a [Research Project](#research-projects), with a PI of `25`, TI of `1 day`, but instead of a Project Skill, use your [Wit](#wit-wit) to add progress. 
 
 ### Advancement
 Through [tests](#tests), characters learn and improve. For every [test](#tests), `+1` [XP](#experience-points-xp) is earned. If testing a Skill, then *additionally*, the advancement progress of that Skill is incremented by `+1`. 
@@ -2269,7 +2281,7 @@ When choosing skills, consider your character's background. What are their core 
 * Choose `1` skill at level `4`. This is your character's strongest skill. 
 * Choose `2` skills at level `3`. These complement your character's strength. 
 * Choose `1` [social](#social-skills) or [knowledge](#knowledge-skills) skill at level `3`. This is something your character is particularly knowledgable about. 
-* Choose `1` universal [language](#language--language--witwit) that will allow you to communicate with the other **PCs**. But you need only worry about this, *if your **GM** does*. 
+* Choose `1` universal [language](#languages) that will allow you to communicate with the other **PCs**. Although you need only worry about this, *if your **GM** does*. 
 * You can now spend **`8`** points to freely *learn* additional skills and raise their level, with the following limitations:
   * No skill can be higher level than `3`. 
   * You can add at most `7` skills. 
@@ -2582,9 +2594,6 @@ Specific historical knowledge should be noted.
 | ----- | ----------------------- | ---------------------- | ----------------------------- | --------------------------- |
 | 3     | I Have Read Your Doom | Recite, with zealous ferocity, ancient lore that strikingly paints the doom of a single, chosen foe. *If* they are a sentient being that can understand you, they become [Terrified](#terrified) of you, for `1` round. *If not*, then your calamitous prognostications inspire your allies. All *other* **PCs** and allies gain `+1` [Compensation Point](#compensation-points) to their next test, until the end of the round. Decreases Momentum by `-20`. | Recite, with zealous ferocity, ancient lore that strikingly paints the doom of **all**. *Any* sentient being that can understand you and who is not an ally, becomes [Terrified](#terrified) of you, for `1` round. *However*, your calamitous prognostications dampen your allies' spirits. They suffer `+1` **Ob** for their next test, until the end of the round. Increases Momentum by `+10`. | Doom Is Upon Us! |
 
-#### Language < language > (Wit/Wit)
-Speaking and understanding a specific language. The language in question must be noted. 
-
 #### Law and politics (Wit/Wit)
 The ability to understand laws and politics, as well as the ability to direct politics. 
 
@@ -2628,9 +2637,6 @@ This skill may also find use in forensics, to identify poisons or the type of we
 | Level | <img src="../../img/heroic-acts.svg" width="64px" height="64px"></img> | Heroic Act Description | Desperate Measure Description | <img src="../../img/desperate-measures.svg" width="64px" height="64px"></img> |
 | ----- | ----------------------- | ---------------------- | ----------------------------- | --------------------------- |
 | 4     | Immediate Response      | **You** may immediately move up to `5` and treat a chosen character without needing [Medical Supplies](#general-assets) and without triggering [Opportunity Attacks](#opportunity-attacks). You get `+1` [Compensation Point](#compensation-points) for the treatment attempt. This does not cost you any [AP](#action-points-ap). Decreases Momentum by `-25`. | **You** may immediately move up to `10` and treat a chosen character without needing [Medical Supplies](#general-assets) and without triggering [Opportunity Attacks](#opportunity-attacks). You get `+2` [Compensation Points](#compensation-points) for the treatment attempt. This does not cost you any [AP](#action-points-ap). *However*, **you** suffer `+1` [Injury](#injury). Increases Momentum by `+15`. | Panic Medic |
-
-#### Reading and Writing (Awar/Wit)
-The ability to both read and write, in general.
 
 #### Surgery (Agi/Wit)
 The ability to invasively treat ailments without making things worse for the patient. 
