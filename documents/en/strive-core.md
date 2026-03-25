@@ -1191,9 +1191,9 @@ A [graduated](#graduated-test) [medicine](#medicine-agiwit) test can restore `hi
 When a character is **bludgeoned** to `0` [HP](#hit-points-hp), they might survive and fall [Unconscious](#unconscious), instead of dying. For that, they must succeed a [Toughness](#toughness-tough) [test](#tests) at **Ob** `3`. If they fail, they die, after all.
 
 #### Temporary Hit-Points
-**Temporary HP** are added to the current HP of a character. The difference to regular HP is, that Temporary HP may exceed the maximum HP limit, but last only for the current scene or session!
+**Temporary HP** are separate HP whose loss **cannot cause** [**Injuries**](#injury). Temporary HP are reduced by damage before regular HP. Only once all Temporary HP are depleted, can regular HP be recued. Damage overflows from Temporary to regular HP. 
 
-> A character with `28` current and `30` maximum HP, is awarded `10` Temporary HP. This takes their current HP to `38`, thus exceeding their limit of `30`, but which is permissive for Temporary HP. 
+> A character with `22` HP and `5` Temporary HP suffers 6 points of damage. After subtractions, the `1` point of damage overflows and reduces the regular HP to `21`. 
 
 ### Injury
 An **Injury** is a serious health impediment of a character. It reduces the maximum [HP](#hit-points-hp) and imposes other [penalties](#boons--penalties), such as temporary reductions to [Attributes](#attributes).
