@@ -460,7 +460,7 @@ As STRIVE is meant primarily as a rule-book to help you quickly find what you ne
 | [Obstacle (Ob)](#tests)                                     | Determines the target number of Hits you must roll to succeed a test. |
 | [Player Character (PC)](#introduction)                      | The type of character that players are in control of. |
 | [Progress Increment (PI)](#progressing-a-project)           | Determines how much work a Project takes. |
-| [Project](#crafting--research-projects)                     | A Project is a down-time activity to create a product or research lore. |
+| [Project](#crafting--research-projects)                     | A long-term and abstract side-activity of a PC to craft or research something. |
 | [Rounded Down (RD)](#rounded-up--rounded-down)              | Indicates a step or result of a calculation is supposed to be rounded down. |
 | [Rounded Up (RU)](#rounded-up--rounded-down)                | Indicates a step or result of a calculation is supposed to be rounded up. |
 | [Single-Target (ST)](#single-target-st)                     | Indicates an attack will only affect a single target. |
@@ -1538,7 +1538,7 @@ Typically, a project can only be worked on with access to necessary resources an
 #### Progressing a Project
 Every Project's **progress** is tracked numerically. All progress begins at `0` and is increased through use of a particular Skill, further called the **Project Skill**. 
 
-Every Project has a **Progress Increment** and a **Time Increment**. The Progress Increment tells you how much progress is needed to finish the next step of the Project. For every Time Increment worth of time you spend on the Project, you may add your **Project Skill's level** as points of progress. Up to `5` assisting characters may also add `+1` point of progress every time, along with you. But of course, in the meantime, these characters cannot work on their own Projects. Note that progress isn't rolled for, it is simply added, when the next Time Increment has been reached. Note that you get [advancement progress](#advancement), but no [XP](#experience-points-xp), for every `5` points of progress made! 
+Every Project has a **Progress Increment** and a **Time Increment**. The Progress Increment tells you how much progress is needed to finish the next step of the Project. For every Time Increment worth of time you spend on the Project, you may add your **Project Skill's level** as points of progress. Up to `5` assisting characters may also add `+1` point of progress every time, along with you. But of course, in the meantime, these characters cannot work on their own Projects. Note that progress isn't rolled for, it is simply added, when the next Time Increment has been reached. Note that you get [advancement progress](#advancement), but no [XP](#experience-points-xp), for every `5` points of progress made! Assistants to Projects earn `+1` [XP](#experience-points-xp), instead. 
 
 Initially, your Project will begin with **Quality level** `1`. Every time you arrive at the current total required progress, you must make a choice. **Finish** the Project and accept its current Quality level, or **push on**. 
 
