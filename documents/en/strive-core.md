@@ -1025,10 +1025,10 @@ For your convenience, the following table contains the precalculated requirement
 | 10    | 38  |
 
 #### Practice
-Whenever the character's enjoy some down-time, away from adventuring, they may spend that time practicing. For every week (or day, or whatever time increment works best for your group), of practice, they gain `+1` [XP]. 
+Whenever the character's enjoy some down-time, away from adventuring, they may spend that time practicing. For every week (or day, or whatever time increment works best for your group), of practice, they gain `+1` [advancement progress](#advancement). 
 
 #### Teaching
-Much like it is possible for a character to [practice](#practice) on their own, they can also be taught by another, who knows more than them. Only [Skills](#skills) can be taught and the teacher's raw [Skill](#skills) level must be at least one level greater than that of their pupil. For every week (or day, or whatever time increment works best for your group), of tutoring, the pupil gains `+2` advancement progress to the [Skill](#skills) in question. 
+Much like it is possible for a character to [practice](#practice) on their own, they can also be taught by another, who knows more than them. Only [Skills](#skills) can be taught and the teacher's raw [Skill](#skills) level must be at least one level greater than that of their pupil. For every week (or day, or whatever time increment works best for your group), of tutoring, the pupil gains `+2` [advancement progress](#advancement) to the [Skill](#skills) in question. 
 
 ### Innate Abilities
 An Innate Ability is an [Attribute](#attributes) or [Skill](#skills) unique to a specific ancestry, based on species, profession, culture and so on. 
