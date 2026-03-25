@@ -1586,9 +1586,9 @@ This variant is small and stunted. Its legs are too short and deformed to be use
 | ----- | ----- | ----- | ----- | ----- | ----- |
 | 4     | 4     | 2     | 1     | 1     | 0     |
 
-| BI     | Sprint | Stabil | Def    | FS (Ranged: 10) | HP  | Exhaustion |
-| ------ | ------ | ------ | ------ | ------ | --- | ---------- |
-| 9      | 3      | 0      | 2      | 2 Acid | 10  | 2          |
+| BI     | Sprint | Stabil | Def    | Armor | FS (Ranged: 10) | HP  | Exhaustion |
+| ------ | ------ | ------ | ------ | ----- | ------ | --- | ---------- |
+| 9      | 3      | 0      | 2      | 0     | 2 Acid | 10  | 2          |
 
 Traits: [Disease-Ridden](strive-core.md#disease-ridden--1-point-1-cr), [Light-weight](strive-core.md#light-weight-2-points--1-cr), [Vulnerable](strive-core.md#vulnerable-2-points--2-cr) to Bleeding `+6`
 
@@ -1620,9 +1620,9 @@ This variant stands tall and proud, its wrinkled skin riddled with scars. Its tu
 | ----- | ----- | ----- | ----- | ----- | ----- |
 | 3     | 2     | 4     | 5     | 3     | 0     |
 
-| BI     | Sprint | Stabil | Def    | FS (Melee) | HP  | Exhaustion |
-| ------ | ------ | ------ | ------ | ---------- | --- | ---------- |
-| 8      | 4      | 2      | 4      | 3 Piercing | 50  | 5          |
+| BI     | Sprint | Stabil | Def    | Armor | FS (Melee) | HP  | Exhaustion |
+| ------ | ------ | ------ | ------ | ----- | ---------- | --- | ---------- |
+| 8      | 4      | 2      | 4      | 4     | 3 Piercing | 50  | 5          |
 
 Traits: [Vulnerable](strive-core.md#vulnerable-2-points--2-cr) to Bleeding `+6`, [Hyperactive](strive-core.md#hyperactive--7-points-4-cr) + Disruptive
 
@@ -1670,9 +1670,9 @@ This variant is as almost as small as a Belcher, and has atypically short tusks.
 | ----- | ----- | ----- | ----- | ----- | ----- |
 | 6     | 2     | 3     | 2     | 2     | 0     |
 
-| BI     | Sprint | Stabil | Def    | FS (Melee) | HP  | Exhaustion |
-| ------ | ------ | ------ | ------ | ---------- | --- | ---------- |
-| 10     | 4      | 0      | 3      | 4 Slashing | 20  | 1          |
+| BI     | Sprint | Stabil | Def    | Armor | FS (Melee) | HP  | Exhaustion |
+| ------ | ------ | ------ | ------ | ----- | ---------- | --- | ---------- |
+| 10     | 4      | 0      | 3      | 0     | 4 Slashing | 20  | 1          |
 
 Traits: [Vulnerable](strive-core.md#vulnerable-2-points--2-cr) to Bleeding `+6`
 
@@ -1704,9 +1704,9 @@ A hulking mass of Swine and muscle, towering above all around. Despite its impos
 | ----- | ----- | ----- | ----- | ----- | ----- |
 | 1     | 1     | 6     | 6     | 1     | 0     |
 
-| BI     | Sprint | Stabil | Def    | FS (Melee) | HP  | Exhaustion |
-| ------ | ------ | ------ | ------ | ---------- | --- | ---------- |
-| 3      | 4      | 4      | 1      | 2 Bludgeoning | 60  | 7          |
+| BI     | Sprint | Stabil | Def    | Armor | FS (Melee) | HP  | Exhaustion |
+| ------ | ------ | ------ | ------ | ----- | ---------- | --- | ---------- |
+| 3      | 4      | 4      | 1      | 0     | 2 Bludgeoning | 60  | 7          |
 
 Traits: [Vulnerable](strive-core.md#vulnerable-2-points--2-cr) to Bleeding `+6`
 
@@ -1737,9 +1737,9 @@ An intelligent and cruel leader among the Swine. Its gaze attentively surveys al
 | ----- | ----- | ----- | ----- | ----- | ----- |
 | 2     | 2     | 3     | 4     | 5     | 6     |
 
-| BI     | Sprint | Stabil | Def    | FS (Melee) | HP  | Exhaustion |
-| ------ | ------ | ------ | ------ | ---------- | --- | ---------- |
-| 9      | 3      | 0      | 2      | 2 Piercing | 40  | 4          |
+| BI     | Sprint | Stabil | Def    | Armor | FS (Melee) | HP  | Exhaustion |
+| ------ | ------ | ------ | ------ | ----- | ---------- | --- | ---------- |
+| 9      | 3      | 0      | 2      | 0     | 2 Piercing | 40  | 4          |
 
 Traits: [Vulnerable](strive-core.md#vulnerable-2-points--2-cr) to Bleeding `+6`
 
@@ -1779,9 +1779,9 @@ This variant has full dark-red fur and much shorter tusks. It moves deftly, albe
 | ----- | ----- | ----- | ----- | ----- | ----- |
 | 5     | 3     | 4     | 3     | 2     | 0     |
 
-| BI     | Sprint | Stabil | Def    | FS (Ranged: 10) | HP  | Exhaustion |
-| ------ | ------ | ------ | ------ | --------------- | --- | ---------- |
-| 10     | 4      | 0      | 2      | 4 Piercing      | 30  | 4          |
+| BI     | Sprint | Stabil | Def    | Armor | FS (Ranged: 10) | HP  | Exhaustion |
+| ------ | ------ | ------ | ------ | ----- | --------------- | --- | ---------- |
+| 10     | 4      | 0      | 2      | 0     | 4 Piercing      | 30  | 4          |
 
 Traits: [Vulnerable](strive-core.md#vulnerable-2-points--2-cr) to Bleeding `+6`, [Poisoner](strive-core.md#poisoner--4-points-2-cr)
 
@@ -1808,9 +1808,9 @@ This variant is lanky and sways a little. 
 | ----- | ----- | ----- | ----- | ----- | ----- |
 | 2     | 2     | 4     | 3     | 1     | 0     |
 
-| BI     | Sprint | Stabil | Def    | FS         | HP  | Exhaustion |
-| ------ | ------ | ------ | ------ | ---------- | --- | ---------- |
-| 5      | 3      | 1      | 2      | 3 Slashing | 30  | 4          |
+| BI     | Sprint | Stabil | Def    | Armor | FS         | HP  | Exhaustion |
+| ------ | ------ | ------ | ------ | ----- | ---------- | --- | ---------- |
+| 5      | 3      | 1      | 2      | 0     | 3 Slashing | 30  | 4          |
 
 Traits: [Vulnerable](strive-core.md#vulnerable-2-points--2-cr) to Bleeding `+6`
 
@@ -1837,9 +1837,9 @@ This variant is massive and strong. Most of its body is covered in dark, dirty c
 | ----- | ----- | ----- | ----- | ----- | ----- |
 | 2     | 1     | 6     | 4     | 1     | 0     |
 
-| BI     | Sprint | Stabil | Def    | FS (Melee) | HP  | Exhaustion |
-| ------ | ------ | ------ | ------ | ---------- | --- | ---------- |
-| 4      | 3      | 3      | 1      | 3 Slashing | 40  | 5          |
+| BI     | Sprint | Stabil | Def    | Armor | FS (Melee) | HP  | Exhaustion |
+| ------ | ------ | ------ | ------ | ----- | ---------- | --- | ---------- |
+| 4      | 3      | 3      | 1      | 3     | 3 Slashing | 40  | 5          |
 
 Traits: [Vulnerable](strive-core.md#vulnerable-2-points--2-cr) to Bleeding `+6`
 
@@ -1886,9 +1886,9 @@ An abominable mound of misshapen flesh, with countless tiny and several massive 
 | ----- | ----- | ----- | ----- | ----- | ----- |
 | 5     | 5     | 20    | 20    | 1     | 0     |
 
-| BI     | Sprint | Stabil | Def    | FS (Melee)    | HP  | Exhaustion |
-| ------ | ------ | ------ | ------ | ------------- | --- | ---------- |
-| 4      | 1      | 5      | 1      | 5 Bludgeoning | 200 | 5          |
+| BI     | Sprint | Stabil | Def    | Armor | FS (Melee)    | HP  | Exhaustion |
+| ------ | ------ | ------ | ------ | ----- | ------------- | --- | ---------- |
+| 4      | 1      | 5      | 1      | 0     | 5 Bludgeoning | 200 | 5          |
 
 Traits: [Climber + Sticky](strive-core.md#climber--2-points-1-cr)
 
@@ -1931,9 +1931,9 @@ Alps are a fairly common occurence throughout the world. How they reproduce is a
 | ----- | ----- | ----- | ----- | ----- | ----- |
 | 4     | 3     | 3     | 3     | 3     | 5     |
 
-| BI     | Sprint | Stabil | Def    | FS (Melee) | HP  | Exhaustion |
-| ------ | ------ | ------ | ------ | ---------- | --- | ---------- |
-| 10     | 4      | 0      | 3      | 2 Slashing | 30  | 2          |
+| BI     | Sprint | Stabil | Def    | Armor | FS (Melee) | HP  | Exhaustion |
+| ------ | ------ | ------ | ------ | ----- | ---------- | --- | ---------- |
+| 10     | 4      | 0      | 3      | 0     | 2 Slashing | 30  | 2          |
 
 Skills: 
 * Stealth: Level `3`
@@ -1973,9 +1973,9 @@ This variant of Void Demon is vaguely humanoid, its amorphous face stretched out
 | ----- | ----- | ----- | ----- | ----- | ----- |
 | 4     | 4     | 2     | 1     | 0     | 0     |
 
-| BI     | Sprint | Stabil | Def    | FS (Melee) |
-| ------ | ------ | ------ | ------ | ---------- |
-| 9      | 3      | 0      | 1      | 2 Piercing |
+| BI     | Sprint | Stabil | Def    | Armor | FS (Melee) |
+| ------ | ------ | ------ | ------ | ----- | ---------- |
+| 9      | 3      | 0      | 1      | 0     | 2 Piercing |
 
 Traits: 
 
