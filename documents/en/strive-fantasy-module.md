@@ -1973,11 +1973,20 @@ This variant of Void Demon is vaguely humanoid, its amorphous face stretched out
 | ----- | ----- | ----- | ----- | ----- | ----- |
 | 4     | 4     | 2     | 1     | 0     | 0     |
 
-| BI     | Sprint | Stabil | Def    | Armor | FS (Melee) |
-| ------ | ------ | ------ | ------ | ----- | ---------- |
-| 9      | 3      | 0      | 1      | 0     | 2 Piercing |
+| BI     | Sprint | Stabil | Def    | Armor | FS (Melee) | HP  | Exhaustion |
+| ------ | ------ | ------ | ------ | ----- | ---------- | --- | ---------- |
+| 8      | 4      | 0      | 2      | All but Burning damage halved; Burning damage doubled | 4 Freezing | 20  | 2 |
 
 Traits: 
+* **Ethereal Nature**: Its shadowy form isn't quite corporeal and barely suffers physical damage. But it burns well.
 
 Skills:
-* 
+* **Breath Of The Void** (Arc/Arc):
+  * Draw the energy out of a cone in front of you. Everything caught in the AoE, up to `5` squares away, suffers `1D8 + 3` points of Freezing damage. Every living creature also suffers `+1` stack of the **Voidcalled** Condition. Once it reaches `5` stacks, it resets zo `0` and spawns another Voidstalker. It decreases by `-1` automatically, at the end of the turn. 
+  * AP: `4`, AoE, Ranged
+* **Cold Spike** (Agi/Arc):
+  * Strike at a ST with a spike of hardened shadow, which causes `1D4` Piercing + `1D8` Freezing damage. 
+  * AP: `3`, Ob: Opposed, ST, Melee
+* **Shadow Step** (Arc/Arc):
+  * Disappear into the shadows and re-appear in another shadowy location, up to `15` squares away. 
+  * AP: `1`
