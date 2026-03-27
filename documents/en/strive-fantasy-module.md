@@ -125,6 +125,7 @@ There is a [compendium document](./strive-fantasy-game-masters-resource.md) rese
       - [Werewolf-Shape](#werewolf-shape)
       - [Werebear-Shape](#werebear-shape)
     - [Cryomancy (Arc/Arc)](#cryomancy-arcarc)
+    - [Divination (Arc/Wit)](#divination-arcwit)
     - [Electromancy (Agi/Arc)](#electromancy-agiarc)
     - [Hexing (Arc/Arc)](#hexing-arcarc)
     - [Hydromancy (Agi/Arc)](#hydromancy-agiarc)
@@ -1193,6 +1194,19 @@ The summoning and control of ice. Cryomancer's can freeze things, so they're hea
 | 2     | Ice Shape             | 2  | `SI * 5` | `SI`                         | Turn humidity into ice, in the shape of your choosing, in an area the size of up to `SI * 3`. | The caster suffers `+1` [frostbitten](./strive-core.md#frostbitten)! |
 | 3     | Ice Armor             | 1  | /             | `SI`                         | **Reaction**: Upon being successfully attacked, turn surrounding humidity into armor, that absorbs up to `SI * 3` points of Slashing, Piercing, Bludgeoning and Burning damage, before shattering immediately afterwards! The damage the armor absorbs, is the damage you do not suffer! | The caster suffers `+1` [frostbitten](./strive-core.md#frostbitten)! |
 | 4     | Rooting Freeze        | 3  | `SI * 5` | `SI + 1`                     | **Time(+1)**: A spot of the mage's choosing freezes over. Anyone caught within the **AOE** radius of up to `SI * 3`, will be frozen to the spot and thus [Rooted](./strive-core.md#rooted) and also suffer `SI D4` points of Freezing damage. They can break free via a successful [strength](./strive-core.md#strength-str) test at Ob `SI`. Or wait, until the ice thaws, which, under normal conditions, will take `SI` rounds. | The spot beneath the caster is affected, instead. |
+
+### Divination (Arc/Wit)
+Catching glimpses of the unknowable and nudging fate. A Divination mage prefers to stay out of harms way - which their power makes easy. 
+
+| Level | Name                  | AP | Distance      | Ob                           | Effect(s)                      | Backfire Effect(s) |
+| ----- | --------------------- | -- | ------------- | ---------------------------- | ------------------------------ | ------------------ |
+| 0     | I Saw It Coming       | 1  | `9`           | `SI`                         | **Reaction**: When the mage or an ally is successfully attacked, subtract `SI` Hits from the attacker's roll. This may cause the attack to fail. | The attacker instead gains `SI` Hits to their roll! |
+| 0     | Direct Success        | 2  | `9`           | `SI`                         | **Reaction**: When an ally rolls a test, add `SI` dice to it, and raise their Hit Limit by `+1`. | Your ally instead loses `SI` dice! |
+| 0     | Look Ahead            | 2  |               | `1`                          | Glimpse a short vision of the future, to predict the movements of others and immediate events. Consult your GM. | You glimpse a vision, but you cannot be certain of whether it is the future or past or of your or another universe. |
+| 1     | Boost Project         | 4  |               | `SI`                         | Once a day, boost the progress of your own or an ally's Project, by `SI * 3` points! | The Project instead loses `SI * 2` points! |
+| 2     | Scry Defense          | 4  |               | `SI`                         | **Concentration**: Up to `SI` targets cannot be scried on. |  |
+| 3     | Scry                  | 4  |               | `3`                          | Glimpse a short vision of a person or object, no matter where they are. But only your target is clearly visible. Your peripheral vision is blurred and foggy. | The target becomes aware that the winds of magic swirled in agitation around them. They might not know *who* scried on them, but they may figure out *that* they were scried on. |
+| 4     | Calamitous Prognostication | 3  | `SI * 3` | `3`                          | In one round, something bad happens to a chosen target. Something might fall on them, they might stumble and fall prone, they might be mistaken for a foe by their allies or they might mistake their allies for foes. You choose one such event to occur. | The caster is affected, instead! |
 
 ### Electromancy (Agi/Arc)
 The summoning and control of lightning. Electricity is fairly versatile - it can injure or stun and power or trigger electrical and electronic devices. 
