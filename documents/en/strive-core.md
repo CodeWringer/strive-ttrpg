@@ -234,6 +234,7 @@ You may choose to play without the Momentum system for a less heroic style of ga
       - [Very Slow Reload](#very-slow-reload)
       - [Ranged](#ranged)
       - [Serrated](#serrated)
+      - [Perfectly Balanced](#perfectly-balanced)
       - [Poison-Chamber](#poison-chamber)
   - [Lists of Skills](#lists-of-skills)
     - [Physical Skills](#physical-skills)
@@ -2357,6 +2358,9 @@ For every Distance Increment past the initial, an attack suffers `+1` Ob and `-2
 
 #### Serrated
 Melee attacks with this weapon cause an additional `+Q` points of Bleeding.
+
+#### Perfectly Balanced
+Melee attacks with this weapon receive `+1` [Compensation Point](#compensation-points). 
 
 #### Poison-Chamber
 Melee attacks with this weapon cause an additional `+Q` points of Poison damage.
