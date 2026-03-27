@@ -79,6 +79,7 @@ There is a [compendium document](./strive-fantasy-game-masters-resource.md) rese
       - [Longbow](#longbow)
       - [Crossbow](#crossbow)
       - [Firearm](#firearm)
+    - [Magical Assets](#magical-assets)
   - [Lists of Skills](#lists-of-skills)
     - [Physical Skills](#physical-skills)
       - [Rune-Using (Agi/Wit)](#rune-using-agiwit)
@@ -774,6 +775,21 @@ A very deadly short to medium distance ranged weapon, shooting small metal balls
 
 * [Ranged (10 DI)](./strive-core.md#ranged), [Prefer Range](./strive-core.md#weapon-properties), [Very Slow Reload](./strive-core.md#weapon-properties)
 * Bulk: `3`, PI: `75`, TI: `1 Hour`
+
+### Magical Assets
+In the table below, only assets with a given PI and TI can be crafted. If these values are absent, they can only be found in-world. 
+
+| Name                     | Bulk | Max. Stack Size | Description                                                              | Ingredients | PI  | TI         | Crafting Ob |
+| ------------------------ | ---- | --------------- | ------------------------------------------------------------------------ | ----------- | --- | ---------- | ----------- |
+| Cloak of Concealment     | 1    | 1               | Renders the wearer invisible. | Must be imbued with [Illusion](#illusion-arcawar) and [Divination](#divination-arcwit) magic. | 20 | 6 Hours | 3 |
+| Demon's Tongue           | 1    | 1               | A trophy taken from a demon. When dipped in fresh blood, begins to burn with unholy fire, causing `5` pure damage upon touch, and then extinguishing. | May be obtained as a trophy from a dead [demon](#demons). | /  | / |  |
+| Mind Scrounger           | 2    | 2               | Like a crown, this many-pronged metal circlet is to be worn on the head. Its prongs dig into the scalp and project the thoughts of the wearer into a visible hologram a short distance ahead of them. Can also be used on the deceased, as long as the brain remains intact. | Requires some crown-shaped object with small prongs that dig a little into the scalp. Requires a [rune](#runes) imbued with [Divination](#divination-arcwit) or [Telepathy](#telepathy-arcwit) magic. | 60 | 1 Day |  |
+| Saint's Tongue           | 1    | 1               | Allows the wielder to speak and understand any language. | /  | / |  |
+| Saint's War Horn         | 1    | 1               | When blown into, its deep, sonorous voice bolsters the hearts and minds of the wielder and their allies, while demoralizing their foes. Upon use, increases [Momentum](./strive-core.md#momentum) by `+30`. If used while Momentum is in the positive, its tone changes into an agonizing screech, that reduces Momentum by `-30`. After that, its voice turns mute, for `3` days. | 30  | 1 Day |  |
+| Star Fragment            | 1    | 1               | A fist-sized, brilliant topaz, which shines with the radiance of a star. Its light is stopped by neither wall nor creature, in a `15` square radius. When a creature in its radius of influence suffers at least `5` points of damage, its beams pulsate with blinding intensity, restoring `8` HP to **all** creatures nearby and clearing the [Bleeding](./strive-core.md#bleeding), [Poisoned](./strive-core.md#poisoned), [Terrified](./strive-core.md#terrified), [Berserk](./strive-core.md#berserk) and [Jealous](./strive-core.md#jealous) Conditions. Then, its light dims, to a mere `2` square radius and the effect cannot trigger again, until `3` days later when its strength returns.  | /  | / |  |
+| Voidstone Mask           | 1    | 1               | Carved from Voidstone and imbued with illusion magic, this mask causes anyone who looks into its eyes to feel a strong affection toward the wearer. This effect lasts a day, after which the victim returns to their senses - often with anger and disappointment in their heart. | 30  | 1 Day |  |
+| Whistling Jar            | 1    | 1               | When blown into, the otherworldly whistle from this odd-shaped bone-made jar can summon ghosts from nearby corpses. Though they may be less than thrilled about their return to the plane of the living. | 30  | 1 Day |  |
+| Scrying Mirror           | 1    | 1               | Once a day, allows querying for a single person or object, which it then shows, no matter where they are. However, only its target is clearly visible, and everything in the peripheral blurred and foggy. | 60  | 1 Day |  |
 
 ## Lists of Skills
 The following list does not and cannot aim to be a complete listing of all possible skills in game. Adding new skills as necessary will have to be done by the **GM**. 
