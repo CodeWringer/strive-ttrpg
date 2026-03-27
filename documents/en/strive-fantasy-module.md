@@ -125,6 +125,7 @@ There is a [compendium document](./strive-fantasy-game-masters-resource.md) rese
       - [Werewolf-Shape](#werewolf-shape)
       - [Werebear-Shape](#werebear-shape)
     - [Cryomancy (Arc/Arc)](#cryomancy-arcarc)
+    - [Demonology (Arc/Tough)](#demonology-arctough)
     - [Divination (Arc/Wit)](#divination-arcwit)
     - [Electromancy (Agi/Arc)](#electromancy-agiarc)
     - [Hexing (Arc/Arc)](#hexing-arcarc)
@@ -145,6 +146,7 @@ There is a [compendium document](./strive-fantasy-game-masters-resource.md) rese
     - [The Warboss](#the-warboss)
 - [Fantasy Game-Masters Resource](#fantasy-game-masters-resource)
 - [Creature Compendium](#creature-compendium)
+  - [Demons](#demons)
   - [Swine-Beasts](#swine-beasts)
     - [Swine Hostility](#swine-hostility)
       - [Demonic Blood](#demonic-blood)
@@ -1195,6 +1197,20 @@ The summoning and control of ice. Cryomancer's can freeze things, so they're hea
 | 3     | Ice Armor             | 1  | /             | `SI`                         | **Reaction**: Upon being successfully attacked, turn surrounding humidity into armor, that absorbs up to `SI * 3` points of Slashing, Piercing, Bludgeoning and Burning damage, before shattering immediately afterwards! The damage the armor absorbs, is the damage you do not suffer! | The caster suffers `+1` [frostbitten](./strive-core.md#frostbitten)! |
 | 4     | Rooting Freeze        | 3  | `SI * 5` | `SI + 1`                     | **Time(+1)**: A spot of the mage's choosing freezes over. Anyone caught within the **AOE** radius of up to `SI * 3`, will be frozen to the spot and thus [Rooted](./strive-core.md#rooted) and also suffer `SI D4` points of Freezing damage. They can break free via a successful [strength](./strive-core.md#strength-str) test at Ob `SI`. Or wait, until the ice thaws, which, under normal conditions, will take `SI` rounds. | The spot beneath the caster is affected, instead. |
 
+### Demonology (Arc/Tough)
+The summoning and control of [demons](#demons). At least as far as those *can* be controlled. 
+
+At level `3`, your [Concentration](#concentration-spells) limit increases by `+1`!
+
+| Level | Name                  | AP | Distance      | Ob                           | Effect(s)                      | Backfire Effect(s) |
+| ----- | --------------------- | -- | ------------- | ---------------------------- | ------------------------------ | ------------------ |
+| 0     | Bind Demon            | 2  | `9 + SI`      | `(The demon's Toughness) - SI` | **Concentration**: Bind a demon to your will. An ethereal magical chain forms a bond from you to it. The demon can no longer act independently and will follow every command you give to the letter, but is only capable of *simple* commands, like 'kill that', 'go there', 'fetch that' and so on. This effect lasts `SI` hours. After that, the demon is free again. | You are instead bound to the demon's will, for `1D3` rounds. |
+| 0     | Summon Minor Demon    | 3  | `SI * 3`      | `1`                          | **Time(+1)**: Summon a minor demon to a chosen location. Note it is not yet bound - it may act unpredictably, yet certainly violently. | You are [Stunned](./strive-core.md#stunned)! |
+| 1     | Assimilate Demon      | 1  | `SI * 3`      | `(The demon's Toughness) - SI` | Destroy the demon in a violent zap of magic, and in doing so, regain HP equal to its `Toughness * 2` and gain a `+1` boon to an Attribute of choice, for `SI` rounds - but only if the demon's same Attribute is equal or higher to yours! | Instead of assimilating the demon, it splits in two! Both halves re-form to a complete form, but each of them now only have half their Attributes and HP! Also, the copy is neither bound to you, nor overly thrilled by your existence. |
+| 1     | Bolster Demon         | 1  | `SI * 3`      | `SI`                         | Suffer a penalty of `-SI` to one of your Attributes - but only if that Attribute's level is at least `2` - and award a chosen demon a boon of `+SI` to **all** its Attributes! This effect lasts `SI` rounds. | The demon **loses** `-SI` points to **all** Attributes, instead! |
+
+TODO #418 with rituals, comes **major demon** summoning!
+
 ### Divination (Arc/Wit)
 Catching glimpses of the unknowable and nudging fate. A Divination mage prefers to stay out of harms way - which their power makes easy. 
 
@@ -1559,6 +1575,9 @@ This and the following sections are reserved solely for the **GM**'s eyes. Readi
 
 # Creature Compendium
 A by no means exhaustive list of medieval-fantasy themed creatures for the **GM** to draw from. 
+
+## Demons
+TODO
 
 ## Swine-Beasts
 Created in a vain and immoral conjuring of demons from another place, the Swine-Beasts themselves represent a cruel parody of man, molded from the flesh of pigs. All the worst properties of humanity are manifested in these unsavory creatures. 
