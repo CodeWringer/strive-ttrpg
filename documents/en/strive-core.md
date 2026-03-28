@@ -1496,7 +1496,8 @@ There are no limits to how many of a given card a player can own, but they may o
 | 5 MaFP  | Fact Check          | Change a minor plot point in a way you prefer. Work with your **GM** to make sure it fits the narrative, but they should respect your wish. This could be something like avoiding an **NPC** death or changing a fact about the plot. |
 | 5 MaFP  | Just a Flesh Wound  | Avoid or remove an [Injury](#injury)! |
 | 1 AFP   | Defy Death          | Return from the dead, remove `1` **active** [Injury](#injury) of choice and be at `1` **HP**; Alternatively, avoid a narratively-driven death. The **GM** will decide the character's alternative fate. They could be captured, very badly injured or become indebted to someone or something. Note that this card can only be played *after* the character lost their [battle with death](#deaths-door). |
-| 1 AFP   | Yes, my liege       | Work with your **GM** to create a follower/hireling who will now be at your command/employ. |
+| 1 AFP   | Retainer Boost      | Immediately advance `2` Attributes of a Retainer. |
+| 1 AFP   | Retainer Gainer     | Work with your **GM** to create a new Retainer who your character will now be Mentor to. |
 
 # Time-Management
 The speed at which time flows, in-game, is variable and depends on the current circumstances of the narrative. 
@@ -3483,7 +3484,7 @@ At any time, a Mentor can decide to let their Retainer go. Depending on circumst
 ### Retainers In Combat
 During combat encounters, it is the **players' duty to run their Retainer NPCs**. As such, they must be given a character sheet with all the numeric details of their Retainer NPC. Keep in mind that even though players run their Retainers for the purposes of alleviating some of your burden, *you* are still the one who dictates the Retainer's personality. Keep a watchful eye on what the players want their Retainer to do. If it doesn't fit the personality of the Retainer, you *should* intervene. If you don't, and the players decide the personality, then in actuality, you have simply given them a secondary PC to run. And one should be plenty enough for any player already.
 
-Additionally, Retainers adhere these rules:
+Additionally, Retainers adhere to these rules in combat:
 * They always share the same [initiative order](#initiative) as their Mentor and thus act on the same turn! However, even if their Mentor is incapacitated, but their Retainer is not, then the Retainer may still act!
 * Upon reaching `0` [HP](#hit-points-hp) they **die**! They do not get to [Death's Door](#deaths-door) as PCs do.
 * They count as an ally when incrementing [Hostility](#hostility).
@@ -3494,9 +3495,11 @@ While Retainers may be useful allies that aid the PCs in whatever capacity they 
 To further reinforce the fact they're secondary actors, Retainers should be kept simple. Give them at most two combat Skills and only one Artisan or Knowledge Skill. Of course, they should still be able contribute to the tactics of the party, but as a supporter of the PCs' abilities. 
 
 ### Retainer Advancement
-Just as their own character, players take care of advancing the Attributes and Skills of their Retainer. However, Retainers advance at a much slower rate, ensuring the PCs stay ahead of them in terms of abilities. Again, this serves to reinforce them as sidekicks, not main actors.
+Just as their own character, players take care of advancing the Attributes and Skills of their Retainer. However, Retainers advance at a much slower rate, ensuring the PCs stay ahead of them in terms of abilities. Again, this serves to reinforce their role as sidekicks instead of main actors.
 
-TODO #408
+Retainers have **their own [XP](#experience-points-xp) to track**. Whenever and only when their Mentor earns an [XP](#experience-points-xp), so does their Retainer, and only if the Retainer is actively traveling with them. Retainers currently abroad earn `+1` [XP](#experience-points-xp) every day or week, or in whatever time increment works best for you and your group, but should never be any more granular than a day. 
+
+Advancing their Attributes and Skills is **only possible** through spending their [XP](#experience-points-xp). Retainers **cannot** gain advancement progress, as PCs do. Also, advancing their Attributes **always costs double the [XP](#experience-points-xp)** and they cannot have any [Core Attribute](#core-favored-normal--penalized-attributes)! This means, to advance an Attribute or Skill, you have to pay the entire [XP](#experience-points-xp) cost at once. 
 
 # Hostility
 PCs have access to [Momentum Actions](strive-core.md#momentum) and earn or lose Momentum with the tides in combat. But you as the GM earn **Hostility**, regardless of how the combat is going. At the start of every **combat round**, you earn `1`, plus the number of PCs and their allies in the encounter. 
