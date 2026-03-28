@@ -83,7 +83,7 @@ You may choose to play without the Momentum system for a less heroic style of ga
       - [Strength \[Str\]](#strength-str)
       - [Toughness \[Tough\]](#toughness-tough)
       - [Wit \[Wit\]](#wit-wit)
-    - [Core, Favored, Secondary \& Penalized Attributes](#core-favored-secondary--penalized-attributes)
+    - [Core, Favored, Normal \& Penalized Attributes](#core-favored-normal--penalized-attributes)
     - [Derived Characteristics](#derived-characteristics)
       - [Base Initiative \[BI\]](#base-initiative-bi)
       - [Sprinting Speed \[Sprint\]](#sprinting-speed-sprint)
@@ -857,10 +857,10 @@ For every level in **Toughness**, a character...
 #### Wit [Wit]
 <img src="../../img/wit.svg" style="width: 3rem; height: 3rem;"> Sharpness of mind and tongue. 
 
-### Core, Favored, Secondary & Penalized Attributes
-All **PCs** have **one Core Attribute**, which defines their main strength, by being easier to [advance](#advancing-attributes). All other Attributes are considered **Secondary** Attributes, by default. 
+### Core, Favored, Normal & Penalized Attributes
+All **PCs** have **one Core Attribute**, which defines their main strength, by being easier to [advance](#advancing-attributes). All other Attributes are considered **Normal** Attributes, by default. 
 
-A character may have Traits, such as ancestral heritages, which may impose boons or penalties to the advancement cost. A boon results in a **Favored** Attribute, which means it is easier to advance, same as their Core Attribute. A **Penalized** Attribute is harder to advance. A PC may define a Penalized Attribute as their Core, which **neutralizes the Penalty**, elevating the Attribute to Secondary. 
+A character may have Traits, such as ancestral heritages, which may impose boons or penalties to the advancement cost. A boon results in a **Favored** Attribute, which means it is easier to advance, same as their Core Attribute. A **Penalized** Attribute is harder to advance. A PC may define a Penalized Attribute as their Core, which **neutralizes the Penalty**, elevating the Attribute to Normal. 
 
 ### Derived Characteristics
 These characteristics depend on others, such as [Attributes](#attributes). They cannot be improved directly. 
@@ -1002,15 +1002,15 @@ It is only possible to spend XP at the start or end of a session, or in times of
 #### Advancing Attributes
 [Attributes](#attributes) can only be advanced (i. e. "leveled up"), by spending [XP](#experience-points-xp). 
 
-The cost of advancing an Attribute depends on its current raw level and whether it is a [Core, Favored, Secondary or Penalized Attribute](#core-favored-secondary--penalized-attributes). The formula to calculate the [XP](#experience-points-xp) cost of advancing is as follows: `20 + (N * N)`, Where *N* is the current level. 
+The cost of advancing an Attribute depends on its current raw level and whether it is a [Core, Favored, Normal or Penalized Attribute](#core-favored-normal--penalized-attributes). The formula to calculate the [XP](#experience-points-xp) cost of advancing is as follows: `20 + (N * N)`, Where *N* is the current level. 
 
-A **Core** and **Favored** Attribute's advancement cost is always calculated as if one level lower (minimum `1`). **Secondary Attributes** follow the normal cost. **Penalized** Attributes are always one and a half times (= `150%` RU) as expensive. 
+A **Core** and **Favored** Attribute's advancement cost is always calculated as if one level lower (minimum `1`). **Normal Attributes** follow the normal cost. **Penalized** Attributes are always one and a half times (= `150%` RU) as expensive. 
 
 For your convenience, the following table contains the precalculated requirements to advance an Attribute to the next level. 
 * In the table, 'Level' is the character's *current level* in the Attribute. 
 * Note it is technically possible to go past level `10`, but you shouldn't hope for it any time soon. 
 
-| Level | Secondary | Core/Favored | Penalized |
+| Level | Normal    | Core/Favored | Penalized |
 | ----- | --------- | ------------ | --------- |
 | 1     | 21        | 21           | 32        |
 | 2     | 24        | 21           | 36        |
@@ -2264,8 +2264,8 @@ Please keep in mind the values here are representative for an ordinary human abo
 * All Attributes start at level `1`. 
 * Your Attribute-total must not be greater than `13`.
 * No Attribute may have a level less than `1` nor higher than `4`.
-* Choose one [Core Attribute](#core-favored-secondary--penalized-attributes). It **must** have a level of `4`. 
-  * Note that if you should have a [Penalized Attribute](#core-favored-secondary--penalized-attributes), you can neutralize the penalty by defining it as your [Core Attribute](#core-favored-secondary--penalized-attributes). However, this only makes it a Secondary Attribute, meaning its level cannot be higher than `3`. 
+* Choose one [Core Attribute](#core-favored-normal--penalized-attributes). It **must** have a level of `4`. 
+  * Note that if you should have a [Penalized Attribute](#core-favored-normal--penalized-attributes), you can neutralize the penalty by defining it as your [Core Attribute](#core-favored-normal--penalized-attributes). However, this only makes it a Normal Attribute, meaning its level cannot be higher than `3`. 
 
 ##### Semi-Random Attribute Assignment
 1. Roll `5 D4`. 
@@ -2273,7 +2273,7 @@ Please keep in mind the values here are representative for an ordinary human abo
 3. Ensure there is one `4`. 
    1. If there is more than one `4`, start lowering their value by one, starting from the left or the right, until there is only one `4` left. 
    2. If there are less than one `4`, raise the highest value up to `4`, starting either from the left or right. 
-   3. Note that if you should have [Penalized Attributes](#core-favored-secondary--penalized-attributes), those cannot have a level of `4`. However, you can neutralize **one** such penalty by defining the Attribute as your Core. Note this only makes it a Secondary Attribute, meaning its level cannot be higher than `3`. 
+   3. Note that if you should have [Penalized Attributes](#core-favored-normal--penalized-attributes), those cannot have a level of `4`. However, you can neutralize **one** such penalty by defining the Attribute as your Core. Note this only makes it a Normal Attribute, meaning its level cannot be higher than `3`. 
 4. Count up the total of your values. 
    1. Subtract your total from `13`.
    2. If the number is negative, that's the number of levels you'll have to go down. <br>
@@ -2283,7 +2283,7 @@ Please keep in mind the values here are representative for an ordinary human abo
    2. If your levels have to go up, add one to each value. **But** skip `4`s. 
 6. Repeat from the step of counting up your total and adjusting as necessary, until your Attribute-total is `13`. 
 7. Lastly, apply the adjusted values to your Attributes. 
-8. Take note which Attribute has a value of `4`. This is your [Core Attribute](#core-favored-secondary--penalized-attributes). 
+8. Take note which Attribute has a value of `4`. This is your [Core Attribute](#core-favored-normal--penalized-attributes). 
 
 #### Choosing Skills
 When choosing skills, consider your character's background. What are their core competences? What fields of knowledge might they be well versed in? Which have they only dabbled in?
