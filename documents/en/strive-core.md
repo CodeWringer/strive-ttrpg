@@ -328,20 +328,6 @@ You may choose to play without the Momentum system for a less heroic style of ga
     - [Getting a Game Together](#getting-a-game-together)
     - [Your Game](#your-game)
     - [Your Players](#your-players)
-- [Your World](#your-world)
-  - [First Impressions Are Definitive](#first-impressions-are-definitive)
-  - [Character Background Matters](#character-background-matters)
-- [Non-Player Character (NPC)](#non-player-character-npc)
-  - [Defense \[Def\]](#defense-def)
-  - [Free Strike \[FS\]](#free-strike-fs)
-  - [Challenge Rating \[CR\]](#challenge-rating-cr)
-  - [NPC Squads](#npc-squads)
-    - [Squad HP Pool](#squad-hp-pool)
-    - [Squad Cohesion](#squad-cohesion)
-    - [Squad Actions](#squad-actions)
-    - [Squad Captains](#squad-captains)
-    - [Squad On Squad Violence](#squad-on-squad-violence)
-  - [Bring NPCs To Life](#bring-npcs-to-life)
 - [Running The Game](#running-the-game)
   - [Starting the Session](#starting-the-session)
     - [Recap The Last Session](#recap-the-last-session)
@@ -366,6 +352,27 @@ You may choose to play without the Momentum system for a less heroic style of ga
     - [Hand Out Fate Points](#hand-out-fate-points)
     - [Gather Feedback](#gather-feedback)
   - [Introducing New Player Characters](#introducing-new-player-characters)
+- [Your World](#your-world)
+  - [First Impressions Are Definitive](#first-impressions-are-definitive)
+  - [Character Background Matters](#character-background-matters)
+- [Non-Player Character (NPC)](#non-player-character-npc)
+  - [Defense \[Def\]](#defense-def)
+  - [Free Strike \[FS\]](#free-strike-fs)
+  - [Challenge Rating \[CR\]](#challenge-rating-cr)
+  - [NPC Squads](#npc-squads)
+    - [Squad HP Pool](#squad-hp-pool)
+    - [Squad Cohesion](#squad-cohesion)
+    - [Squad Actions](#squad-actions)
+    - [Squad Captains](#squad-captains)
+    - [Squad On Squad Violence](#squad-on-squad-violence)
+  - [Bring NPCs To Life](#bring-npcs-to-life)
+  - [Retainers \& Pets](#retainers--pets)
+    - [Gaining Retainers](#gaining-retainers)
+    - [Letting Retainers Go](#letting-retainers-go)
+    - [Retainers In Combat](#retainers-in-combat)
+    - [Retainers Are Sidekicks](#retainers-are-sidekicks)
+    - [Retainer Advancement](#retainer-advancement)
+- [Hostility](#hostility)
 - [NPC Builder](#npc-builder)
   - [Combat Roles](#combat-roles)
   - [Traits](#traits-1)
@@ -410,7 +417,7 @@ You may choose to play without the Momentum system for a less heroic style of ga
     - [Create Sticky Surface (Tough/Tough)](#create-sticky-surface-toughtough)
     - [Charge (Str/Tough)](#charge-strtough)
     - [Obscure Vision (Awar/Tough)](#obscure-vision-awartough)
-  - [Hostility Actions](#hostility-actions)
+  - [General Hostility Actions](#general-hostility-actions)
     - [Advance! (-4 points; +2 CR)](#advance--4-points-2-cr)
     - [Collect Bounty (-4 points; +3 CR)](#collect-bounty--4-points-3-cr)
     - [Get Off Me! (-5 points; +3 CR)](#get-off-me--5-points-3-cr)
@@ -1489,7 +1496,8 @@ There are no limits to how many of a given card a player can own, but they may o
 | 5 MaFP  | Fact Check          | Change a minor plot point in a way you prefer. Work with your **GM** to make sure it fits the narrative, but they should respect your wish. This could be something like avoiding an **NPC** death or changing a fact about the plot. |
 | 5 MaFP  | Just a Flesh Wound  | Avoid or remove an [Injury](#injury)! |
 | 1 AFP   | Defy Death          | Return from the dead, remove `1` **active** [Injury](#injury) of choice and be at `1` **HP**; Alternatively, avoid a narratively-driven death. The **GM** will decide the character's alternative fate. They could be captured, very badly injured or become indebted to someone or something. Note that this card can only be played *after* the character lost their [battle with death](#deaths-door). |
-| 1 AFP   | Yes, my liege       | Work with your **GM** to create a follower/hireling who will now be at your command/employ. |
+| 1 AFP   | Retainer Boost      | Immediately advance `2` Attributes of a Retainer. |
+| 1 AFP   | Retainer Gainer     | Work with your **GM** to create a new Retainer who your character will now be Mentor to. |
 
 # Time-Management
 The speed at which time flows, in-game, is variable and depends on the current circumstances of the narrative. 
@@ -3083,156 +3091,6 @@ Understand how your players think and how they enjoy their table-top role-playin
 
 Figuring out how to get your players engaged in your game and noticing that engagement, can be a very rewarding sensation. It is a sign of a fun and worth-while experience and will cement their interest in your game! 
 
-# Your World
-STRIVE doesn't impose a world on you. You are not forced to play with any pre-defined theme or setting. This frees you up to play in whatever world you prefer, with whatever theme you prefer. But it also places the burden of such decisions on you. 
-
-STRIVE's modules can help you answer the question of theme. For example, if you want to play in a medieval fantasy world, STRIVE's fantasy module may get you started faster. 
-
-But setting - the world - is entirely up to you. You may choose an existing world from another RPG, or craft an entirely new one. Creating a world is no small feat and a hobby in itself, but luckily, you don't need the entire world to be perfectly fleshed out before you begin running the game. All you really need, is a rough idea of *what's where* and a detailed idea of where the PCs are *now*. Starting with a village in the woods and a nearby goblin lair, is a classic example. 
-
-Your players may aid you in crafting the world and will usually prefer doing so during play, rather than outside of it. If you allow them to change your world through their actions, it becomes a much more dynamic and almost life-like beast. If they defend the village from the goblins and destroy their lair, the village might start to prosper. More trade might come in, and through the traders, the PCs might learn about other places they could visit and acquire more and better supplies.
-
-## First Impressions Are Definitive
-Whenever you introduce a new aspect of your world, that introduction will stick. In whatever way you portray an aspect of your world, *that*, is how players will remember it. A first impression tends to teach us **fundamental expectations**. 
-
-For this reason, it is often wise to introduce **normality first**, instead of the exception. If you have the PCs get robbed the first time they enter a city, they'll henceforth expect to be robbed *every* time they enter a city. Especially when faced with hostile experiences, the first time PCs interact with a new aspect of the world, that aspect will seem more hostile in general. Combine many such experiences, and you end up with a world that seems extremely hostile. Unless if you're playing a grimdark campaign, you should be wary of arriving at such a state. 
-
-If it is normal to arrive in a new city safely, find secure lodgings, go to the market or inn and *not* be robbed or molested, then that should be the first impression the PCs get to experience. Unless, of course, there is solid narrative reason why that shouldn't be the case. Even so, it *will* paint a picture the players won't soon forget. 
-
-This is also why PCs should be expected to behave as their origin cultures dictate. This point is probably up for contention, as PCs are usually somewhat special. They may deviate to an extent, but even so, the "elf in the party" defines the very perception of elves to all the players. The way that PC behaves, is the way players will expect all elves to behave, because that is often their first exposure to people of that culture (and yes, elves most certainly also have various differing cultures, which further complicates the issue). However, this is not to say you should step in whenever the PC "misbehaves" and prevent their action outright. After all, *you* do not decide the PC's actions. Their player does. But you may offer counsel and inform them that their PC probably *knows* they're currently acting atypical. And perhaps the player just doesn't enjoy the cultural background of their PC. If so, you may want to let them change it. There is little point in forcing a player to play a PC they don't enjoy playing. 
-
-## Character Background Matters
-There may be times when a player may choose a specific species and cultural background, only because they know it will grant their character a specific boon at character creation. They might not have any interest in experiencing the character as would be appropriate. They might pick an unfitting name or have their character act in a very atypical fashion for members of that species and cultural background. 
-
-It is times like these that you may strongly want to consider stepping in and denying that player the right to create that particular character. In the end, this make-believe world can only feel real, and *the magic* can only happen, if both players and GM are willing to engage with it in earnest. This doesn't mean you mustn't joke and have fun at the table! But, for example, the player picks a cultural background of an ex-slave, whose species was only recently liberated and who are known as very submissive, cautious and humble, then when the player doesn't have their character at all act in line with that background, you may have to step in and seriously ask the player if they're interested in actually playing that species.
-
-Of course, PCs are always a bit special, but even so, in the end, the choice of species and culture shouldn't be irrelevant. Variety is the spice of life and it may be exciting to actually try and get into the appropriate mindset of the character. To an extent, empathy is a learned skill and not everyone may be good at it, right away. Coach your players and help them play in-character. While you should never tell your player what their character will actually think or do, you should inform them how their character should think and what they would be expected to do, in-line with their background. 
-
-# Non-Player Character (NPC)
-Non-player characters (**NPCs**) are all the **people, animals and monsters** of your world, that aren't the PCs. 
-
-NPCs are one of your most important tools to bring your world to life and make it interesting and engaging to your players. More often than not, the most interesting sessions involve heavy or mindful use of NPCs. 
-
-NPCs are built differently from PCs. Not all the same rules apply to them. The following differences exist:
-* NPCs **cannot** earn [fate points](#fate-points). 
-* NPCs don't *need* the [personality](#personality) section. A **GM** *may choose* to include it for the *main actor* NPCs, but for your average animal or passing acquaintance, no personality should be noted down. 
-* NPCs don't *need* advancement progress to be tracked. Thus, they cannot have [learning skills](#learning-skills). 
-* NPCs don't have a base HP of `10`, thus, their max. HP values will always be `10` points lower than of PCs with the same Toughness level. 
-* NPCs have additional characteristics: [Defense](#defense-def) and [Free Strike](#free-strike-fs).
-
-You may begin introducing most NPCs as simple and flesh out their character sheets only as necessary. Sometimes, you may be surprised which NPCs the players take interest in, inviting you to flesh out what you expected to be only a passing acquaintance. 
-
-There are three types of NPCs:
-* **People**: These are sentient, sapient and civilized folk, who can be reasoned with and interacted with on the same level as the PCs. See them as you do real people. There are no rules or mechanics dictating how they should behave, but they are *expected* to engage with the PCs and to react to the PCs' actions. 
-* **Animals**: Sentient, but not sapient, these are creatures driven by animalistic instinct. They are neither inherently evil, nor good, and mostly care only about their base needs. Think: wolves, bears, dogs and the like. But these may also be fantastical creatures, such as dragons, gryphons, space-whales and so on. 
-* **Monsters**: Possibly sentient and/or sapient, these creatures can be of natural or unnatural origin and are usually irredeemably evil and destructive. Examples might be demons from an abyssal plane of existence, undead, golems, robots and such. These are natural antagonists of the PCs and their origin cultures. 
-
-To keep this chapter brief, and because you might decide you don't need it, the mechanical process of creating NPCs is detailed in a later chapter, the [NPC-Builder](#npc-builder). 
-
-## Defense [Def]
-The **Defense (Def)** characteristic is reserved solely for NPCs and is the number of hits an attacker against them must achieve in order to hit the NPC. This ensures NPCs don't have to roll for their defense, which allows you to tell your players the creature's Defense value and they can determine themselves whether they hit. This accelerates the game and alleviates some of the work in running NPCs. 
-
-Of course, in order for the NPC to defend, they require [AP](#action-points-ap). If they have no AP left over, treat their Defense as `1`. 
-
-The Defense characteristic should be reserved for Feeble and Regular creatures or those creatures you wish to employ en masse. 
-
-## Free Strike [FS]
-The **Free Strike (FS)** characteristic is reserved solely for NPCs and is the damage value used when multiple of the same type of NPC launch an attack at the same time, as a [squad](#npc-squads).
-
-This way, instead of having to roll many dice to determine damage, you only roll the main aggressor's damage and then **add the sum of every assisting ally's Free Strike value**. 
-
-Whether allies can join in to deal more damage, depends on whether they are in their weapon's range to attack and are part of the aggressor's [squad](#npc-squads). 
-
-## Challenge Rating [CR]
-The overall power-level of a NPC is **broadly abstracted** as **Challenge Rating (CR)**. It is a tool designed to let you make an *educated guess* about the difficulty a given NPC might pose to the PCs. 
-
-## NPC Squads
-Squads are groups of NPCs who are all of the same type, who will act as a single unit. They share the same [AP](#action-points-ap), [Exhaustion](#exhaustion) and [HP](#hit-points-hp) pools and always act together, as a cohesive group. 
-
-Squads are useful in two ways. Firstly, they allow PCs to feel more heroic, by quickly felling many foes before them. Secondly, it allows you to more easily challenge your players tactically, as the higher number of foes lets you control the battlefield easier, but without too much bureaucratic overhead. For example, a Squad with a lot of members should find it easy to surround the PCs, or to block off their access to some strategic location. 
-
-The recommended minimum number of NPCs in the same squad is `3`, while at most, it should be `8`. The specifics of this depend on the type of NPC you are using. Very weak creatures can be safely used in higher numbers, than more powerful foes. For every creature in the Squad, the sum of their CR, halved (RU) results in their Squad CR. 
-
-As NPC Squads mechanically behave in their own special way, be sure to share the information in this chapter with your players! They should understand the basics of how Squads work, which will enable them to make tactically sound decisions around this knowledge! 
-
-### Squad HP Pool
-When in a Squad, every NPC in the Squad is treated as if it had only half (RU) of its actual maximum HP. The total HP pool is comprised of the sum of their individual maximum HP numbers (which, again, are treated as half their actual value). 
-
-> `5` monsters all of the same type - for the example, let's say zombies - normally have `20` HP each. They are organized as a Squad and thus have a shared HP pool of `5 * (20 / 2) = 50` HP. 
-
-Every time any of the NPCs in the Squad suffers damage, it is applied to the shared HP pool. When more than an individual's maximum HP is dealt in damage, one of the Squad members perishes. The member directly attacked always dies first. If enough damage has been dealt to kill more than one, the next closest Squad member perishes, too. 
-
-> Back to the zombies example. A PC deals `12` points of damage to the Squad. As an individual zombie normally has `20` maximum HP, half of which is `10`, that is enough to kill one of the zombies. The zombie Squad's shared HP are now at `50 - 12 = 38`. 
-
-If the Squad suffers an instance of [AoE](#area-of-effect-aoe) damage, which hits multiple Squad members, the maximum damage that can be dealt is limited to the sum of the maximum HP of those members affected. In other words, an AoE attack can only kill those Squad members actually affected. 
-
-When preparing an encounter with a Squad, it may help to write down the thresholds when members of the Squad die, in advance.
-
-> When preparing the zombies encounter, it may help to write down that one zombie dies once the shared HP reah `40`, the next at `30`, then `20`, `10` and finally `0`. This way, you don't need to do this math once damage starts rolling in, you can simply check if after the damage is subtracted from the shared HP, if one of these thresholds was reached. If so, a member of the Squad is felled. 
-
-To keep Squads simple to run, they do not suffer [Injuries](#injury). 
-
-### Squad Cohesion
-It is imperative that all members of the Squad be within a distance of at most `3` to at least one other member of the Squad. If a member should be farther away than this distance, for example because their nearest peer was killed or they were force moved away, then the next time the Squad acts, this member will move closer towards the Squad, until they rejoin its cohesion. 
-
-This implies you may in fact snake the Squad along, each member at the maximum distance allowed from one another. But also be aware that if you do, the PCs may take advantage of this by killing a member in the middle of the snake and thus forcing at least one half of the Squad to spend the next action getting back to the other half, to restore cohesion. 
-
-However, this doesn't imply the inverse, either. You aren't required to blob up your Squad, as this will make them easy to bombard with AoE attacks. Try to have them assume some formation that would be reasonable for the creatures involved. While zombies might just blob up without any sense of the peril they are in, combat robots may assume a spread out wedge formation that would allow all members to fire their weapons, while minimizing AoE damage threat and ensuring cohesion may be quickly restored. 
-
-To make Squads easier to manage, be sure to mark every member of a Squad somehow. Assign them a color or icon, or label that you and your players can easily distinguish and reference during play. 
-
-### Squad Actions
-When adding the Squad to combat initiative, only add the Squad as a whole. Do not bother tracking the initiative of individual members of the Squad, because they **always** act at the same time, with the same shared Action Point pool. 
-
-The Squad (re-)gains AP only as a whole. You do not track AP for each member, and the Squad only regains as many AP as a single individual would, if they weren't in a Squad. 
-
-When a Squad spends AP to move, **all** members of the Squad get to move, at the same time. And they **must** try to move to maintain [cohesion](#squad-cohesion), if required. These movements can trigger [Opportunity Attacks](#opportunity-attacks), for each member of the Squad. *However* they **cannot** be halted this way. If the Squad member survives, they get to finish their movement, so that cohesion may be maintained. 
-
-When a Squad spends AP to attack, **all** members of the Squad get to attack, at the same time. The Squad may have multiple targets for the attack, but only **one roll** is made **for each target** attacked by the Squad. All members **within reach** of one target may aid the attack roll, with `+1D` each. Damage works similarly. If the attack is successful, a **single damage roll** is made. For every other member that aided the attack roll, their [Free Strike](#free-strike-fs) value is added as additional damage, that is simply **added on top**, without any roll!
-
-When a Squad spends AP to defend, **all** members of the Squad defend. When defending, no roll is made. The defender's [Def](#defense-def) value equals the Ob for the attacker. While usually, only a single member is attacked and will be the defender, all **adjacent allies** may add `+1` to their [Def](#defense-def), provided the Squad has AP left to defend with. 
-
-Every time a Squad acts, members may be skipped (i. e. they do nothing), if reasonable. For example, in a tight corridor, not all members of an all melee fighter Squad may be able to reach their foes. They cannot reasonably attack and thus, simply do nothing, instead. 
-
-### Squad Captains
-A Squad may or may not have an assigned Captain. The Squad will follow the Captain and treat it as part of the Squad in terms of [cohesion](#squad-cohesion). A Squad Captain is treated as a separate entity. It does not share the HP, Exhaustion or AP pools. However, the Captain and their Squad will always act at the same time. For purposes of tracking the initiative ladder, you may use the Captain as the tracker for the Squad. 
-
-A Squad with an attached Captain enjoys one of the following benefits for you to choose from when you create the Squad:
-* **Spurred**: All members of the Squad may move an additional `2` for every AP spent. 
-* **Hardened**: The Squad starts with an additional `10` Temporary HP. These must be depleted before members of the Squad may take damage. 
-* **Drilled**: The Squad's Exhaustion pool has `+4` points.
-* **Indoctrinated**: The Squad receives `+1` AP at the start of its turn, but all members lose `-1` Def. 
-
-If the Captain is felled, the Squad loses the bonus immediately. 
-
-A Captain can but does not have to be a tactical leader. It could simply be a creature that bullies others into obedience, is so powerful and respected others simply flock to it or has some other power with which it may influence the will of others to obey it. 
-
-### Squad On Squad Violence
-Sometimes, the PCs are involved in a combat encounter that has two groups battling each other. The PCs might be a third party trying to cross a battlefield, or they may have brought allies. 
-
-Under such circumstances, the turns involving Squad vs. Squad should go by very quickly. Don't bother rolling any damage, at all. Simply count the number of Squad members that are in weapon's range, sum their Free Strike value, and subtract that number from their enemy Squad's HP pool. This also implies defense tests aren't rolled. Simply assume they hit each other. The specifics of whether they would realistically hit are of no interest, least of all to your players. 
-
-Ultimately, your players won't care about the potential correctness of the numbers, as long as their own characters aren't involved. It may even bore them watching the GM play the game alone for a while. Therefore, to re-iterate - keep turns that don't involve the PCs as short as possible. After all, the PCs are the stars of the show! 
-
-## Bring NPCs To Life
-Much like the PCs, or in fact real people, *proper* NPCs lead their own lives, with their own ambitions, aspirations, reactions, strengths and weaknesses. Keeping track of all of the numbers that implies, can become quite the challenge. But you won't need all of that data from the start, or even to track it all the time. Flesh out and update only as needed, to keep the work-load on your end low. You have enough work on your plate, as it is.
-
-Whenever the PCs encounter someone new, all you really need, is a **rough idea** of *who* that NPC *is* and how you *expect* them to interact with the PCs. You don't have to know all their history right away, nor all of their strengths, weaknesses or even their agenda. Invent those as needed. 
-
-And *who* an NPC is, depends on several factors, such as:
-* their social status (e. g. a noble vs. a peasant)
-* their cultural background
-* their physique
-* their occupation (e. g. a carpenter vs. a professional soldier)
-* their financial status
-* what you *think* their agenda *should be*, based on the above
-
-While putting on an accent and visibly acting out the quirks of an NPC certainly helps in bringing them to life, what's more important is how they interact with the PCs. Are they supportive of the PCs? Do they offer a warm meal whenever they see the PCs or do they bar their door and close the window curtains? Do they stand up defiantly or cower meekly? In fact, even something as simple as ignoring the PCs can say a lot about what the NPC thinks about them. 
-
-More often than not, you'll have NPCs be the source of quests and adventures for the PCs. But you can also have some NPCs that work for the PCs. This, especially, gives players a greater sense of agency in your world. It allows them to "move pieces on the board", to enact schemes and have some passive interaction happening, in the background. These retainer NPCs can be used to great effect, to drive PCs to action, or feed them information which they may then choose to act on.
-
-You also get to use NPCs as a tool to feed players information or false rumors. Be careful how you approach rumors and lies. Players have a tendency to assume everything the **GM** says is true. So when an NPC feeds them false information, they tend not to question it. Before you can effectively use false information as a tool, you'll have to establish that NPCs will not always speak the truth. Perhaps by introducing an NPC, who will tell the most outrageous, but obvious, lies. Maybe even about the PCs. That would certainly make your players sceptical. The specifics of this are entirely up to you and your specific game, of course. 
-
 # Running The Game
 While the previous sections provide an overview of the expectations of a **GM**, this sections aims to help you fulfill those expectations. 
 
@@ -3462,6 +3320,198 @@ A concern regarding new PCs is that a new character may lack much of the experie
 
 Once appropriate numbers have been assigned, the new character needs to be introduced to the group. This is all your job. There is no mechanical or rule supporting this procedure, as it is also a matter of personal taste. Some GMs dislike long introductions and instead simply throw the new PC in the group, ready to go on adventures with them right away. On the other hand, such an unceremonious act may seem boring and could be replaced with an inciting incident that gets that new PC to join them, with introductions played out in person. 
 
+# Your World
+STRIVE doesn't impose a world on you. You are not forced to play with any pre-defined theme or setting. This frees you up to play in whatever world you prefer, with whatever theme you prefer. But it also places the burden of such decisions on you. 
+
+STRIVE's modules can help you answer the question of theme. For example, if you want to play in a medieval fantasy world, STRIVE's fantasy module may get you started faster. 
+
+But setting - the world - is entirely up to you. You may choose an existing world from another RPG, or craft an entirely new one. Creating a world is no small feat and a hobby in itself, but luckily, you don't need the entire world to be perfectly fleshed out before you begin running the game. All you really need, is a rough idea of *what's where* and a detailed idea of where the PCs are *now*. Starting with a village in the woods and a nearby goblin lair, is a classic example. 
+
+Your players may aid you in crafting the world and will usually prefer doing so during play, rather than outside of it. If you allow them to change your world through their actions, it becomes a much more dynamic and almost life-like beast. If they defend the village from the goblins and destroy their lair, the village might start to prosper. More trade might come in, and through the traders, the PCs might learn about other places they could visit and acquire more and better supplies.
+
+## First Impressions Are Definitive
+Whenever you introduce a new aspect of your world, that introduction will stick. In whatever way you portray an aspect of your world, *that*, is how players will remember it. A first impression tends to teach us **fundamental expectations**. 
+
+For this reason, it is often wise to introduce **normality first**, instead of the exception. If you have the PCs get robbed the first time they enter a city, they'll henceforth expect to be robbed *every* time they enter a city. Especially when faced with hostile experiences, the first time PCs interact with a new aspect of the world, that aspect will seem more hostile in general. Combine many such experiences, and you end up with a world that seems extremely hostile. Unless if you're playing a grimdark campaign, you should be wary of arriving at such a state. 
+
+If it is normal to arrive in a new city safely, find secure lodgings, go to the market or inn and *not* be robbed or molested, then that should be the first impression the PCs get to experience. Unless, of course, there is solid narrative reason why that shouldn't be the case. Even so, it *will* paint a picture the players won't soon forget. 
+
+This is also why PCs should be expected to behave as their origin cultures dictate. This point is probably up for contention, as PCs are usually somewhat special. They may deviate to an extent, but even so, the "elf in the party" defines the very perception of elves to all the players. The way that PC behaves, is the way players will expect all elves to behave, because that is often their first exposure to people of that culture (and yes, elves most certainly also have various differing cultures, which further complicates the issue). However, this is not to say you should step in whenever the PC "misbehaves" and prevent their action outright. After all, *you* do not decide the PC's actions. Their player does. But you may offer counsel and inform them that their PC probably *knows* they're currently acting atypical. And perhaps the player just doesn't enjoy the cultural background of their PC. If so, you may want to let them change it. There is little point in forcing a player to play a PC they don't enjoy playing. 
+
+## Character Background Matters
+There may be times when a player may choose a specific species and cultural background, only because they know it will grant their character a specific boon at character creation. They might not have any interest in experiencing the character as would be appropriate. They might pick an unfitting name or have their character act in a very atypical fashion for members of that species and cultural background. 
+
+It is times like these that you may strongly want to consider stepping in and denying that player the right to create that particular character. In the end, this make-believe world can only feel real, and *the magic* can only happen, if both players and GM are willing to engage with it in earnest. This doesn't mean you mustn't joke and have fun at the table! But, for example, the player picks a cultural background of an ex-slave, whose species was only recently liberated and who are known as very submissive, cautious and humble, then when the player doesn't have their character at all act in line with that background, you may have to step in and seriously ask the player if they're interested in actually playing that species.
+
+Of course, PCs are always a bit special, but even so, in the end, the choice of species and culture shouldn't be irrelevant. Variety is the spice of life and it may be exciting to actually try and get into the appropriate mindset of the character. To an extent, empathy is a learned skill and not everyone may be good at it, right away. Coach your players and help them play in-character. While you should never tell your player what their character will actually think or do, you should inform them how their character should think and what they would be expected to do, in-line with their background. 
+
+# Non-Player Character (NPC)
+Non-player characters (**NPCs**) are all the **people, animals and monsters** of your world, that aren't the PCs. 
+
+NPCs are one of your most important tools to bring your world to life and make it interesting and engaging to your players. More often than not, the most interesting sessions involve heavy or mindful use of NPCs. 
+
+NPCs are built differently from PCs. Not all the same rules apply to them. The following differences exist:
+* NPCs **cannot** earn [fate points](#fate-points). 
+* NPCs don't *need* the [personality](#personality) section. A **GM** *may choose* to include it for the *main actor* NPCs, but for your average animal or passing acquaintance, no personality should be noted down. 
+* NPCs don't *need* advancement progress to be tracked. Thus, they cannot have [learning skills](#learning-skills). 
+* NPCs don't have a base HP of `10`, thus, their max. HP values will always be `10` points lower than of PCs with the same Toughness level. 
+* NPCs have additional characteristics: [Defense](#defense-def) and [Free Strike](#free-strike-fs).
+
+You may begin introducing most NPCs as simple and flesh out their character sheets only as necessary. Sometimes, you may be surprised which NPCs the players take interest in, inviting you to flesh out what you expected to be only a passing acquaintance. 
+
+There are three types of NPCs:
+* **People**: These are sentient, sapient and civilized folk, who can be reasoned with and interacted with on the same level as the PCs. See them as you do real people. There are no rules or mechanics dictating how they should behave, but they are *expected* to engage with the PCs and to react to the PCs' actions. 
+* **Animals**: Sentient, but not sapient, these are creatures driven by animalistic instinct. They are neither inherently evil, nor good, and mostly care only about their base needs. Think: wolves, bears, dogs and the like. But these may also be fantastical creatures, such as dragons, gryphons, space-whales and so on. 
+* **Monsters**: Possibly sentient and/or sapient, these creatures can be of natural or unnatural origin and are usually irredeemably evil and destructive. Examples might be demons from an abyssal plane of existence, undead, golems, robots and such. These are natural antagonists of the PCs and their origin cultures. 
+
+To keep this chapter brief, and because you might decide you don't need it, the mechanical process of creating NPCs is detailed in a later chapter, the [NPC-Builder](#npc-builder). 
+
+## Defense [Def]
+The **Defense (Def)** characteristic is reserved solely for NPCs and is the number of hits an attacker against them must achieve in order to hit the NPC. This ensures NPCs don't have to roll for their defense, which allows you to tell your players the creature's Defense value and they can determine themselves whether they hit. This accelerates the game and alleviates some of the work in running NPCs. 
+
+Of course, in order for the NPC to defend, they require [AP](#action-points-ap). If they have no AP left over, treat their Defense as `1`. 
+
+The Defense characteristic should be reserved for Feeble and Regular creatures or those creatures you wish to employ en masse. 
+
+## Free Strike [FS]
+The **Free Strike (FS)** characteristic is reserved solely for NPCs and is the damage value used when multiple of the same type of NPC launch an attack at the same time, as a [squad](#npc-squads).
+
+This way, instead of having to roll many dice to determine damage, you only roll the main aggressor's damage and then **add the sum of every assisting ally's Free Strike value**. 
+
+Whether allies can join in to deal more damage, depends on whether they are in their weapon's range to attack and are part of the aggressor's [squad](#npc-squads). 
+
+## Challenge Rating [CR]
+The overall power-level of a NPC is **broadly abstracted** as **Challenge Rating (CR)**. It is a tool designed to let you make an *educated guess* about the difficulty a given NPC might pose to the PCs. 
+
+## NPC Squads
+Squads are groups of NPCs who are all of the same type, who will act as a single unit. They share the same [AP](#action-points-ap), [Exhaustion](#exhaustion) and [HP](#hit-points-hp) pools and always act together, as a cohesive group. 
+
+Squads are useful in two ways. Firstly, they allow PCs to feel more heroic, by quickly felling many foes before them. Secondly, it allows you to more easily challenge your players tactically, as the higher number of foes lets you control the battlefield easier, but without too much bureaucratic overhead. For example, a Squad with a lot of members should find it easy to surround the PCs, or to block off their access to some strategic location. 
+
+The recommended minimum number of NPCs in the same squad is `3`, while at most, it should be `8`. The specifics of this depend on the type of NPC you are using. Very weak creatures can be safely used in higher numbers, than more powerful foes. For every creature in the Squad, the sum of their CR, halved (RU) results in their Squad CR. 
+
+As NPC Squads mechanically behave in their own special way, be sure to share the information in this chapter with your players! They should understand the basics of how Squads work, which will enable them to make tactically sound decisions around this knowledge! 
+
+### Squad HP Pool
+When in a Squad, every NPC in the Squad is treated as if it had only half (RU) of its actual maximum HP. The total HP pool is comprised of the sum of their individual maximum HP numbers (which, again, are treated as half their actual value). 
+
+> `5` monsters all of the same type - for the example, let's say zombies - normally have `20` HP each. They are organized as a Squad and thus have a shared HP pool of `5 * (20 / 2) = 50` HP. 
+
+Every time any of the NPCs in the Squad suffers damage, it is applied to the shared HP pool. When more than an individual's maximum HP is dealt in damage, one of the Squad members perishes. The member directly attacked always dies first. If enough damage has been dealt to kill more than one, the next closest Squad member perishes, too. 
+
+> Back to the zombies example. A PC deals `12` points of damage to the Squad. As an individual zombie normally has `20` maximum HP, half of which is `10`, that is enough to kill one of the zombies. The zombie Squad's shared HP are now at `50 - 12 = 38`. 
+
+If the Squad suffers an instance of [AoE](#area-of-effect-aoe) damage, which hits multiple Squad members, the maximum damage that can be dealt is limited to the sum of the maximum HP of those members affected. In other words, an AoE attack can only kill those Squad members actually affected. 
+
+When preparing an encounter with a Squad, it may help to write down the thresholds when members of the Squad die, in advance.
+
+> When preparing the zombies encounter, it may help to write down that one zombie dies once the shared HP reah `40`, the next at `30`, then `20`, `10` and finally `0`. This way, you don't need to do this math once damage starts rolling in, you can simply check if after the damage is subtracted from the shared HP, if one of these thresholds was reached. If so, a member of the Squad is felled. 
+
+To keep Squads simple to run, they do not suffer [Injuries](#injury). 
+
+### Squad Cohesion
+It is imperative that all members of the Squad be within a distance of at most `3` to at least one other member of the Squad. If a member should be farther away than this distance, for example because their nearest peer was killed or they were force moved away, then the next time the Squad acts, this member will move closer towards the Squad, until they rejoin its cohesion. 
+
+This implies you may in fact snake the Squad along, each member at the maximum distance allowed from one another. But also be aware that if you do, the PCs may take advantage of this by killing a member in the middle of the snake and thus forcing at least one half of the Squad to spend the next action getting back to the other half, to restore cohesion. 
+
+However, this doesn't imply the inverse, either. You aren't required to blob up your Squad, as this will make them easy to bombard with AoE attacks. Try to have them assume some formation that would be reasonable for the creatures involved. While zombies might just blob up without any sense of the peril they are in, combat robots may assume a spread out wedge formation that would allow all members to fire their weapons, while minimizing AoE damage threat and ensuring cohesion may be quickly restored. 
+
+To make Squads easier to manage, be sure to mark every member of a Squad somehow. Assign them a color or icon, or label that you and your players can easily distinguish and reference during play. 
+
+### Squad Actions
+When adding the Squad to combat initiative, only add the Squad as a whole. Do not bother tracking the initiative of individual members of the Squad, because they **always** act at the same time, with the same shared Action Point pool. 
+
+The Squad (re-)gains AP only as a whole. You do not track AP for each member, and the Squad only regains as many AP as a single individual would, if they weren't in a Squad. 
+
+When a Squad spends AP to move, **all** members of the Squad get to move, at the same time. And they **must** try to move to maintain [cohesion](#squad-cohesion), if required. These movements can trigger [Opportunity Attacks](#opportunity-attacks), for each member of the Squad. *However* they **cannot** be halted this way. If the Squad member survives, they get to finish their movement, so that cohesion may be maintained. 
+
+When a Squad spends AP to attack, **all** members of the Squad get to attack, at the same time. The Squad may have multiple targets for the attack, but only **one roll** is made **for each target** attacked by the Squad. All members **within reach** of one target may aid the attack roll, with `+1D` each. Damage works similarly. If the attack is successful, a **single damage roll** is made. For every other member that aided the attack roll, their [Free Strike](#free-strike-fs) value is added as additional damage, that is simply **added on top**, without any roll!
+
+When a Squad spends AP to defend, **all** members of the Squad defend. When defending, no roll is made. The defender's [Def](#defense-def) value equals the Ob for the attacker. While usually, only a single member is attacked and will be the defender, all **adjacent allies** may add `+1` to their [Def](#defense-def), provided the Squad has AP left to defend with. 
+
+Every time a Squad acts, members may be skipped (i. e. they do nothing), if reasonable. For example, in a tight corridor, not all members of an all melee fighter Squad may be able to reach their foes. They cannot reasonably attack and thus, simply do nothing, instead. 
+
+### Squad Captains
+A Squad may or may not have an assigned Captain. The Squad will follow the Captain and treat it as part of the Squad in terms of [cohesion](#squad-cohesion). A Squad Captain is treated as a separate entity. It does not share the HP, Exhaustion or AP pools. However, the Captain and their Squad will always act at the same time. For purposes of tracking the initiative ladder, you may use the Captain as the tracker for the Squad. 
+
+A Squad with an attached Captain enjoys one of the following benefits for you to choose from when you create the Squad:
+* **Spurred**: All members of the Squad may move an additional `2` for every AP spent. 
+* **Hardened**: The Squad starts with an additional `10` Temporary HP. These must be depleted before members of the Squad may take damage. 
+* **Drilled**: The Squad's Exhaustion pool has `+4` points.
+* **Indoctrinated**: The Squad receives `+1` AP at the start of its turn, but all members lose `-1` Def. 
+
+If the Captain is felled, the Squad loses the bonus immediately. 
+
+A Captain can but does not have to be a tactical leader. It could simply be a creature that bullies others into obedience, is so powerful and respected others simply flock to it or has some other power with which it may influence the will of others to obey it. 
+
+### Squad On Squad Violence
+Sometimes, the PCs are involved in a combat encounter that has two groups battling each other. The PCs might be a third party trying to cross a battlefield, or they may have brought allies. 
+
+Under such circumstances, the turns involving Squad vs. Squad should go by very quickly. Don't bother rolling any damage, at all. Simply count the number of Squad members that are in weapon's range, sum their Free Strike value, and subtract that number from their enemy Squad's HP pool. This also implies defense tests aren't rolled. Simply assume they hit each other. The specifics of whether they would realistically hit are of no interest, least of all to your players. 
+
+Ultimately, your players won't care about the potential correctness of the numbers, as long as their own characters aren't involved. It may even bore them watching the GM play the game alone for a while. Therefore, to re-iterate - keep turns that don't involve the PCs as short as possible. After all, the PCs are the stars of the show! 
+
+## Bring NPCs To Life
+Much like the PCs, or in fact real people, *proper* NPCs lead their own lives, with their own ambitions, aspirations, reactions, strengths and weaknesses. Keeping track of all of the numbers that implies, can become quite the challenge. But you won't need all of that data from the start, or even to track it all the time. Flesh out and update only as needed, to keep the work-load on your end low. You have enough work on your plate, as it is. Another way to think about NPCs is such: they are actors, who are born when they walk on stage, and who die, when they walk off stage. Every time they appear, you and your players may learn more about them and such knowledge comes gradually, bit by bit, over a long time. You'll only ever learn more than mere surface-level knowledge about the long-term actors. 
+
+Whenever the PCs encounter someone new, all you really need, is a **rough idea** of *who* that NPC *is* and how you *expect* them to interact with the PCs. You don't have to know all their history, nor all of their strengths, weaknesses or even their agenda. Discover those only as needed. 
+
+And *who* an NPC is, depends on several factors, such as:
+* their social status (e. g. a noble vs. a peasant)
+* their cultural background
+* their physique - species, age, fitness, gender
+* their occupation (e. g. a carpenter vs. a professional soldier)
+* their financial status
+* what you *think* their agenda *should be*, based on the above
+
+While putting on an accent and visibly acting out the quirks of an NPC certainly helps in bringing them to life, what's more important is how they interact with the PCs. Are they supportive of the PCs? Do they offer a warm meal whenever they see the PCs or do they bar their door and close the window curtains? Do they stand up defiantly or cower meekly? In fact, even something as simple as ignoring the PCs can say a lot about what the NPC thinks about them. This, especially, helps the players learn how their character fits into your world and how they're perceived within in.
+
+You also get to use NPCs as a tool to feed players information and rumors. Be careful how you approach false rumors and lies. Players have a tendency to assume everything the GM says is true. So when an NPC feeds them false information, they tend not to question it. Before you can effectively use false information as a tool, you'll have to establish that NPCs will not always speak the truth. Perhaps by introducing an NPC, who will tell the most outrageous, but obvious, lies. Maybe even about the PCs. That would certainly make your players sceptical. The specifics of this are entirely up to you and your specific game, of course. 
+
+## Retainers & Pets
+More often than not, you'll have NPCs be the source of quests, adventures and troubles for the PCs. But you can also have some NPCs that work for the PCs. This, especially, gives players a greater sense of agency in your world. It allows them to "move pieces on the board", to enact schemes and have some passive interaction happening, in the background. These NPCs are called **Retainers** and the PC they follow is their **Mentor**. Pets are considered another form of Retainer. 
+
+Until the PCs gain some sort of Stronghold or home base, each PC may be Mentor to only **one** Retainer. That is because PCs may only ever take one Retainer into the field with them. Any more, and your players may start building an army of secondary characters, which will slow the game down tremendously. Therefore, once the PCs have such a place, they may send their excess Retainers there, where they will perform background tasks, such as tending to the Stronghold or working in their profession. 
+
+Make sure to share the Retainer rules with your players. They should understand the constraints that apply, and what options they have regarding their Retainers. 
+
+### Gaining Retainers
+There are two ways to gain Retainers. First, Titles of Renown may attract them. One day, a NPC knocks on the door and wishes to pledge their allegiance to the PCs, who may of course accept or refuse as their players desire. Secondly, they may be gained through the PCs' actions. Rescuing a prisoner, befriending a rival, showing mercy to an enemy or doing heroic deeds in service to a community may all attract Retainers. As always, the specifics of this are up to you and your game. 
+
+### Letting Retainers Go
+At any time, a Mentor can decide to let their Retainer go. Depending on circumstance, Retainers may also choose to leave of their own volition. Events set in motion by the story may naturally conclude the Retainer's service, or the actions of their Mentor have seeded animosity that has pitted them against one another. Once they left the party, the former Retainer goes back to leading their own life. 
+
+### Retainers In Combat
+During combat encounters, it is the **players' duty to run their Retainer NPCs**. As such, they must be given a character sheet with all the numeric details of their Retainer NPC. Keep in mind that even though players run their Retainers for the purposes of alleviating some of your burden, *you* are still the one who dictates the Retainer's personality. Keep a watchful eye on what the players want their Retainer to do. If it doesn't fit the personality of the Retainer, you *should* intervene. If you don't, and the players decide the personality, then in actuality, you have simply given them a secondary PC to run. And one should be plenty enough for any player already.
+
+Additionally, Retainers adhere to these rules in combat:
+* They always share the same [initiative order](#initiative) as their Mentor and thus act on the same turn! However, even if their Mentor is incapacitated, but their Retainer is not, then the Retainer may still act!
+* Upon reaching `0` [HP](#hit-points-hp) they **die**! They do not get to [Death's Door](#deaths-door) as PCs do.
+* They count as an ally when incrementing [Hostility](#hostility).
+
+### Retainers Are Sidekicks
+While Retainers may be useful allies that aid the PCs in whatever capacity they might, always ensure they remain secondary characters. They are **not main actors** - the PCs are. Players may often feel tempted to ask their Retainers for advice, hoping for the GM to slip in some of their omniscient wisdom. Be careful of how you answer. Retainers may of course provide advice, but ensure it remains grounded in what the Retainer actually knows and how they *think*. When they offer advice, what they say needn't be realistic nor truthful. But you *can* use Retainers to list some of the **obvious** options available to the PCs. In the end the decision on what to do should always lie with the PCs. 
+
+To further reinforce the fact they're secondary actors, Retainers should be kept simple. Give them at most two combat Skills and only one Artisan or Knowledge Skill. Of course, they should still be able contribute to the tactics of the party, but as a supporter of the PCs' abilities. 
+
+### Retainer Advancement
+Just as their own character, players take care of advancing the Attributes and Skills of their Retainer. However, Retainers advance at a much slower rate, ensuring the PCs stay ahead of them in terms of abilities. Again, this serves to reinforce their role as sidekicks instead of main actors.
+
+Retainers have **their own [XP](#experience-points-xp) to track**. Whenever and only when their Mentor earns an [XP](#experience-points-xp), so does their Retainer, and only if the Retainer is actively traveling with them. Retainers currently abroad earn `+1` [XP](#experience-points-xp) every day or week, or in whatever time increment works best for you and your group, but should never be any more granular than a day. 
+
+Advancing their Attributes and Skills is **only possible** through spending their [XP](#experience-points-xp). Retainers **cannot** gain advancement progress, as PCs do. Also, advancing their Attributes **always costs double the [XP](#experience-points-xp)** and they cannot have any [Core Attribute](#core-favored-normal--penalized-attributes)! This means, to advance an Attribute or Skill, you have to pay the entire [XP](#experience-points-xp) cost at once. 
+
+# Hostility
+PCs have access to [Momentum Actions](strive-core.md#momentum) and earn or lose Momentum with the tides in combat. But you as the GM earn **Hostility**, regardless of how the combat is going. At the start of every **combat round**, you earn `1`, plus the number of PCs and their allies in the encounter. 
+
+> Given `3` PCs and one ally, you earn `3 (number of PCs) + 1 (number of allies) + 1 (always) = 5` Hostility at the start of every round. 
+
+Hostility can be spent on powerful special abilities, called [Hostility Actions](#general-hostility-actions), that certain NPCs may have access to. These abilities will allow you to spice up combat, by throwing surprises at or putting pressure on the PCs (and by extension their players). Note that just like Momentum Actions, Hostility Actions can be activated **whenever appropriate**, even when it's currently another creature's turn. 
+
+Unlike Momentum, **Hostility is not lost** when a combat encounter ends. It simply keeps building up, until you deem the time is right to spend. Of course, with such great power comes great responsibility, as you may have guessed. There may be times when it might be easy to overwhelm the PCs through the use of Hostility Actions. Just because you could spend the Hostility, doesn't mean you should. After all, your job is to keep combat interesting, not to outright kill the PCs. If the PCs have their hands full already, then there should be no need to spend Hostility. 
+
+As Hostility Actions can really mix up combat, it would be wise to refrain from employing too many creatures with such abilities. These should be reserved for elite and legendary creatures. Although you could also break this expectation and explicitly give a regular or even feeble creature a Hostility Action. But always keep in mind that every creature with a Hostility Action is another level of complexity to the combat encounter. This causes more work for you and more things to keep track of for everyone. Used sparingly and effectively, Hostility Actions can elicit gasps of surprise from your players, ensuring a memorable encounter!
+
 # NPC Builder
 A Module may provide you with some pre-defined NPCs to work with, but you will most likely have to, and perhaps desire to, invent your own, too. This chapter aims to provide a step-by-step process for NPC creation, based on several parameters that you get to pick from. 
 
@@ -3684,16 +3734,8 @@ Run at a target, up to `4` away and slam into them with your body, dealing `Toug
 ### Obscure Vision (Awar/Tough)
 Kick up dust, spray a cloud of ink or spew spores that heavily obscure vision, in a `3` radius around you. All ranged attacks within or through the area suffer `+2` Ob. 
 
-## Hostility Actions
-PCs have access to [Momentum Actions](strive-core.md#momentum) and earn or lose Momentum with the tides in combat. But you as the GM earn **Hostility**, regardless of how the combat is going. At the start of every **combat round**, you earn `1`, plus the number of PCs and their allies in the encounter. 
-
-> Given `3` PCs and one ally, you earn `3 (number of PCs) + 1 (number of allies) + 1 (always) = 5` Hostility at the start of every round. 
-
-Hostility can be spent on powerful special abilities, called **Hostility Actions**, that certain NPCs may have access to. These abilities will allow you to spice up combat, by throwing surprises at or putting pressure on the PCs (and by extension their players). Note that just like Momentum Actions, Hostility Actions can be activated **whenever appropriate**, even when it's currently another creature's turn. 
-
-Unlike Momentum, **Hostility is not lost** when a combat encounter ends. It simply keeps building up, until you deem the time is right to spend. Of course, with such great power comes great responsibility, as you may have guessed. There may be times when it might be easy to overwhelm the PCs through the use of Hostility Actions. Just because you could spend the Hostility, doesn't mean you should. After all, your job is to keep combat interesting, not to outright kill the PCs. If the PCs have their hands full already, then there should be no need to spend Hostility. 
-
-As Hostility Actions can really mix up combat, it would be wise to refrain from employing too many creatures with such abilities. These should be reserved for elite and legendary creatures. Although you could also break this expectation and explicitly give a regular or even feeble creature a Hostility Action. But always keep in mind that every creature with a Hostility Action is another level of complexity to the combat encounter. This causes more work for you and more things to keep track of for everyone. Used sparingly and effectively, Hostility Actions can elicit gasps of surprise from your players, ensuring a memorable encounter!
+## General Hostility Actions
+The following Hostility Actions are a general offering for you to pick and choose from, as you deem fit for a combat encounter. You are free to invent your own, with these as a reference and STRIVE Modules may also offer more of these. 
 
 ### Advance! (-4 points; +2 CR)
 **`-3` Hostility**: The creature and up to `3` of its allies may immediately and freely move up to `5` far. These movements may provoke [Opportunity Attacks](./strive-core.md#opportunity-attacks)!
