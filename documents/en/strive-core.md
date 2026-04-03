@@ -176,7 +176,7 @@ You may choose to play without the Momentum system for a less heroic style of ga
     - [Push Through](#push-through)
     - [Swap-Out](#swap-out)
   - [Attacking](#attacking)
-    - [Damage](#damage)
+    - [Damage \& Effects](#damage--effects)
     - [Opportunity Attacks](#opportunity-attacks)
     - [Flanking](#flanking)
     - [Stealth Attacks](#stealth-attacks)
@@ -368,6 +368,7 @@ You may choose to play without the Momentum system for a less heroic style of ga
   - [Bring NPCs To Life](#bring-npcs-to-life)
   - [Retainers \& Pets](#retainers--pets)
     - [Gaining Retainers](#gaining-retainers)
+      - [Creating Retainers](#creating-retainers)
     - [Letting Retainers Go](#letting-retainers-go)
     - [Retainers In Combat](#retainers-in-combat)
     - [Retainers Are Sidekicks](#retainers-are-sidekicks)
@@ -1637,11 +1638,11 @@ Think about complexity in terms of *how difficult is it to make the thing?*, *ar
 
 | Complexity         | Progress Increment | Description        |
 | ------------------ | ------------------ | ------------------ |
-| Trivial            | 5 or 10            | A trivial craft can be done at any time, anywhere - even on the road. It barely requires any resources and you can improvise the tools you need. It takes no special knowledge. |
-| Routine            | 10, 15 or 20       | A routine craft is routine only to a learned and experienced craftsperson. While the work won't put your skills to the test, it still requires some effort and experience to achieve. Improvised tools may still do, and some resources may still be substituted. But the work does demand focus. It takes some experience. |
-| Specialized        | 20, 30 or 40       | A specialized craft is a bit more challenging. You need to sit down and actually focus on the work and need the proper tools and resources to get it done. But provided you bring those, your work can be done in any suitable place. Deeper understanding of the subject matter is required. |
-| Complex            | 50 or 75           | A complex craft requires specialized tools and rare resources, which may not be readily accessible to just anyone and the work must be done in a specialized environment. Specialized and obscure knowledge is required. |
-| Monumental         | 100                | A monumental craft requires tools that simply don't exist, anywhere. You will have to create them, yourself. The resources you need will require substantial effort to track down. Perhaps you'll even be the first discover their existence. The work can be done only in a highly specialized environment, to minimize the risk of delicate machinery getting dusty, aerosols mixing or vibrations in the earth agitating the wrong powder and so forth. There may not be anyone alive, nor any writing detailing the work. You will have to be the first to (re-)discover the knowledge required. |
+| Trivial            | 5                  | A trivial craft can be done at any time, anywhere - even on the road. It barely requires any resources and you can improvise the tools you need. It takes no special knowledge. |
+| Routine            | 8                  | A routine craft is routine only to a learned and experienced craftsperson. While the work won't put your skills to the test, it still requires some effort and experience to achieve. Improvised tools may still do, and some resources may still be substituted. But the work does demand focus. It takes some experience. |
+| Specialized        | 15                 | A specialized craft is a bit more challenging. You need to sit down and actually focus on the work and need the proper tools and resources to get it done. But provided you bring those, your work can be done in any suitable place. Deeper understanding of the subject matter is required. |
+| Complex            | 25                 | A complex craft requires specialized tools and rare resources, which may not be readily accessible to just anyone and the work must be done in a specialized environment. Specialized and obscure knowledge is required. |
+| Monumental         | 50                 | A monumental craft requires tools that simply don't exist, anywhere. You will have to create them, yourself. The resources you need will require substantial effort to track down. Perhaps you'll even be the first discover their existence. The work can be done only in a highly specialized environment, to minimize the risk of delicate machinery getting dusty, aerosols mixing or vibrations in the earth agitating the wrong powder and so forth. There may not be anyone alive, nor any writing detailing the work. You will have to be the first to (re-)discover the knowledge required. |
 
 #### Workload to Time Increments
 Workload is the result of processes that naturally take a long time, the difficulty in processing materials and the amount of work that has to be done. A very high workload will take very long to complete, while a low workload may be finished in a matter of minutes.
@@ -1845,21 +1846,24 @@ The ally in question can **oppose** this action with [strength](#strength-str) (
 ## Attacking
 Attacks are made with an [Expertise](#expertise) of a [Weapon](#weapon--weapon-type--str), the [Unarmed Combat](#unarmed-combat-agistr) or the [Throwing](#throwing-agistr) [Skill](#skills). 
 
-An attack generally requires an [opposed test](#opposed-test) to be made. If the attacker wins, [damage](#damage) is determined and applied to the defender. If the defender wins, they suffer no damage. A defender must *choose* how to defend, unless a specific skill is required. Defense is possible with [weapon](#weapon--weapon-type---attribute), the [Acrobatics](#acrobatics-agistr) or the [Shield](#shield-strtough) Skills. 
+An attack generally requires an [opposed test](#opposed-test) to be made. If the attacker wins, [damage](#damage--effects) is determined and applied to the defender. If the defender wins, they suffer no damage. A defender must *choose* how to defend, unless a specific skill is required. Defense is possible with [weapon](#weapon--weapon-type---attribute), the [Acrobatics](#acrobatics-agistr) or the [Shield](#shield-strtough) Skills. 
 
 Sometimes, special circumstances apply, which make certain attacks easier or harder to land. These are at the **GM's** discretion. They can impose an **Ob** penalty or boon whenever appropriate. Also keep in mind there may be times when rolling for an attack is entirely unnecessary, such as against a helpless victim. In such a case, you may apply your malevolence with impunity, to the extent of your choosing. 
 
-### Damage
-Damage dealt to an opponent reduces their [HP](#hit-points-hp). When their **HP** reaches `0`, they die. Damage can also inflict [injuries](#injury). 
+### Damage & Effects
+Damage dealt to an opponent reduces their [HP](#hit-points-hp). When their **HP** reaches `0`, they die. Damage can also inflict [Injuries](#injury). [Armor](#armor) can reduce the amount of damage that is actually applied. 
 
-[Armor](#armor) can reduce the amount of damage that is actually applied. 
+The attack roll also determines how much damage an attack will deal and how severe its effects will be. Thus, damage is **not** rolled separately. There are three gradings, based on the number of Hits achieved over the defender/Ob:
+* **Glancing**: On `≤ 1` Hit. A fairly weak hit.
+* **Solid**: On `= 2` Hits. A strong hit.
+* **Masterful**: On `≥ 3` Hits. Applies the most severe damage and effects.
 
 ### Opportunity Attacks
-When a character is within weapon's reach of another hostile character, they're considered within the other's **Range of Opportunity**. Whenever a character in an enemy's **Range of Opportunity** moves away from or more than `2` *around* that enemy, that enemy can *choose* to perform an **Opportunity Attack**. It is possible to avoid an **Opportunity Attack** with a [disengage](#disengage) combat action. 
+When a character is within weapon's reach of another hostile character, they're considered within the other's **Range of Opportunity**. Whenever a character in an enemy's Range of Opportunity moves away from or more than `2` squares *around* that enemy, that enemy can *choose* to perform an **Opportunity Attack**. It is possible to avoid an Opportunity Attack with a [disengage](#disengage) combat action. 
 
-Performing an **Opportunity Attack** costs `-1` [AP](#action-points-ap) at a `-1D` penalty and will **halt** the enemy in question, preventing their movement, regardless of whether the attack lands. The attacked party can still choose to [push through](#push-through), thus still getting to move, but if they do, the **Opportunity Attack** is **guaranteed** to land successfully, without any attack [test](#tests) necessary (this counts as an automatic success for the attacker). 
+Performing an Opportunity Attack costs `-1` [AP](#action-points-ap) at a `-1D` penalty and will **halt** the enemy in question, preventing their movement, regardless of whether the attack hits. When an Opportunity Attack against them is declared, the attacked character may choose to [push through](#push-through), thus getting to move after all, but if they do, the attacker instead of losing a die, gains `+1` [Compensation Point](#compensation-points) for their Opportunity Attack!
 
-An **Opportunity Attack** is a **combat action** and a **reaction**. 
+An Opportunity Attack is a **combat action** and a **reaction**. 
 
 ### Flanking
 In a normal duel situation, a person in armor or with a shield will always have an advantage over the person without. There are still ways to get around these defenses, but they usually involve managing to throw the opponent to the ground or using specific [expertises](#expertise). Simply continuing trying to hit someone in armor in a straight fight will not yield you the results you seek. 
@@ -2371,10 +2375,12 @@ Melee attacks with this weapon cause an additional `+Q` points of Bleeding.
 Melee attacks with this weapon receive `+1` [Compensation Point](#compensation-points). 
 
 #### Poison-Chamber
-Melee attacks with this weapon cause an additional `+Q` points of Poison damage.
+Melee attacks with this weapon cause an additional `+Q` points of Poison damage. The poison-chamber must be regularly refilled. 
 
 ## Lists of Skills
 The following list does not and cannot aim to be a complete listing of all possible skills in game. Adding new skills as necessary will have to be done by the **GM**. Nevertheless, most general scenarios should be covered by these skills. 
+
+Keep in mind that some Expertises may have graded effects. For more on this, see [Damage & Effects](#damage--effects). 
 
 ### Physical Skills
 These skills have a dominant physical aspect and are directly tied to a character's *physical attributes*. 
@@ -2385,7 +2391,7 @@ Performing acrobatic feats, such as jumping, tumbling and climbing, without inju
 | Level | Name                 | AP | **Ob**  | Effect(s)          | Condition(s) |
 | ----- | -------------------- | -- | ------- | ------------------ | ------------ |
 | 1     | Deft Evasion         | /  | /       | **Passive**: While not wearing any [armor](#armor) and not wielding a shield of bulk `2` or more, gain `+1` [Compensation Point](#compensation-points) to any [defense test](#defending) made using this Skill and increase your [Stability](#stability-stabil) by `+1`! | / |
-| 2     | Wind Out Of It       | 1  | 2       | When hit by an attack, wind out of the hit and suffer only half the damage (RU). | / |
+| 2     | Wind Out Of It       | 2  | 2       | When hit by an attack, suffer `+1` [Exhaustion](#exhaustion), wind out of the hit and... <br> `≤ 1` Hit: suffer `3` points of damage less. <br> `= 2` Hits: suffer `5` points of damage less <br> `≥ 3` Hits: suffer `8 or half (RU)` damage less, picking whichever number is higher. | Not [Exhausted](#exhausted) |
 
 #### Berserking (Tough/Tough)
 Whether as a well-honed skill and way of life, or through a disappointing childhood of misery and pain, berserking is a talent for fighting angrily and recklessly. It allows a fighter to keep fighting at surprising strength, even when wounded. 
@@ -2394,23 +2400,19 @@ However, the price for this strength is steep. The chance of death is greatly in
 
 | Level | Name                 | AP | **Ob**  | Effect(s)          | Condition(s) |
 | ----- | -------------------- | -- | ------- | ------------------ | ------------ |
-| 0     | Reckless Assault     | 1  | /       | Deal half of the damage (RU) as additional damage on your next successful attack. Suffer a `-1D` penalty to all [defense tests](#defending) until the start of your next turn. | / |
+| 0     | Reckless Assault     | 1  | /       | Gain `+1` [Compensation Point](#compensation-points) for your next attack. Suffer a `-1D` penalty to all [defense tests](#defending) until the start of your next turn. | / |
 | 1     | Grit Your Teeth      | 0  | /       | **Reaction**: Upon suffering an [Injury](#injury), gain an *additional* [grit point](#grit-points), but at the cost of `1` point of [Exhaustion](#exhaustion)! | Not at Exhaustion limit. |
-| 1     | Hit me? Hit you!     | 1  | /       | **Reaction**: Upon suffering damage, immediately launch a counter-attack and if successful, add half (RU) of the damage that was dealt to you as additional Bludgeoning damage. Suffer `+1` point of [Exhaustion](#exhaustion)! | Not at Exhaustion limit. |
+| 1     | Hit me? Hit you!     | 1  | /       | **Reaction**: Upon suffering damage, immediately hit your attacker back, dealing `Str` Bludgeoning damage to them. Suffer `+1` point of [Exhaustion](#exhaustion)! | Not at Exhaustion limit. |
 | 1     | The Blood Quickens!  | 1  | /       | Reduce your [Exhaustion](#exhaustion) by `1` for every point in [Bleeding](#bleeding) you currently have. | / |
-| 2     | Pain is Strength     | 3  | Opposed | Perform an attack against a **ST**. For every active [Injury](#injury) you currently have, deal one extra `D6` of [Bludgeoning](#damage-types) damage. You suffer one point of [exhaustion](#exhaustion). | / |
-| 3     | Injury Collector     | 0  | 2       | **Reaction**: Upon suffering an [Injury](#injury), with a successful test of this Expertise, remove all additional [penalties](#boons--penalties) (i. e. everything but the [HP](#hit-points-hp) malus) from the [Injury](#injury). | / |
+| 2     | Pain is Strength     | 2  | Opposed | Perform an attack against a **ST**. You suffer one point of [exhaustion](#exhaustion). For every active [Injury](#injury) you currently have, deal <br> `≤ 1` Hit: `2` Bludgeoning <br> `= 2` Hits: `4` Bludgeoning <br> `≥ 3` Hits: `6` Bludgeoning | / |
+| 3     | Injury Collector     | 0  | 2       | **Reaction**: Upon suffering an [Injury](#injury), with a successful test, remove all additional [penalties](#boons--penalties) (i. e. everything but the [HP](#hit-points-hp) malus) from the [Injury](#injury). | / |
 
 | Level | <img src="../../img/heroic-acts.svg" width="64px" height="64px"></img> | Heroic Act Description | Desperate Measure Description | <img src="../../img/desperate-measures.svg" width="64px" height="64px"></img> |
 | ----- | ----------------------- | ---------------------- | ----------------------------- | --------------------------- |
-| 4     | I LOVE PAIN             | **You** gain `+1` [Grit Point](#grit-points) for every [Injury](#injury) **you** currently have. Decreases Momentum by `-15`. | **You** and one chosen **PC** gain `+1` [Grit Point](#grit-points) for every [Injury](#injury) you currently have. You both suffer `1D10` points of Pure damage. Increases Momentum by `+15`. | SHARE THE PAIN |
+| 4     | I LOVE PAIN             | **You** gain `+1` [Grit Point](#grit-points) for every [Injury](#injury) **you** currently have. Decreases Momentum by `-15`. | **You** and one chosen **PC** gain `+1` [Grit Point](#grit-points) for every [Injury](#injury) you currently have. You both suffer `1D8` points of Pure damage. Increases Momentum by `+15`. | SHARE THE PAIN |
 
 #### Driving (Awar/Wit)
-The ability to drive a motorized vehicle. 
-
-| Level | Name                 | AP | **Ob**  | Effect(s)          | Condition(s) |
-| ----- | -------------------- | -- | ------- | ------------------ | ------------ |
-| 2     | Stunt Drive          | /  | 2       | **Reaction**: Upon crashing the vehicle, pull it around to negate some of the forces involved. You and your by-seaters get out of the crash with only an [Injury](#injury). | / |
+The ability to drive a (motorized) vehicle. 
 
 See also [Travel & Terrain](#travel--terrain).
 
@@ -2430,7 +2432,7 @@ Moving silently and performing actions undetected.
 
 | Level | Name                 | AP | **Ob**  | Effect(s)          | Condition(s) |
 | ----- | -------------------- | -- | ------- | ------------------ | ------------ |
-| 2     | Pocket-Sand          | 2  | Opposed | Disappear from a **ST**'s sight, up to `2` away and run up to `2` **AP** worth of distance. This does not provoke Opportunity Attacks from that **ST**. | Once per rest. |
+| 2     | Pocket-Sand          | 2  | Opposed | Disappear from a ST's sight, who is up to `2` squares away and run up to... <br> `≤ 1` Hit: `1` AP worth of distance  <br> `= 2` Hits: `2` AP worth of distance <br> `≥ 3` Hits: `3` AP worth of distance. <br> This does not provoke Opportunity Attacks from that ST. Every time you use this Expertise, your next use is `+1` Ob harder, until the next scene. |  |
 
 #### Swimming (Agi/Tough)
 The ability to safely stay afloat and move around in water. 
@@ -2442,8 +2444,7 @@ Pickpocketing and lockpicking.
 
 | Level | Name                 | AP | **Ob**  | Effect(s)          | Condition(s) |
 | ----- | -------------------- | -- | ------- | ------------------ | ------------ |
-| 3     | Nimble Recovery      | 2  | Opposed | When failing a **thievery test**, roll another **thievery test**, against the target's [observation](#observation-awarawar) to see if you've been found out. If you win, you're not discovered, but you don't succeed at pick-pocketing, either. | Once per rest. |
-| 4     | Feel the Mechanism   | 2  | 1       | Instantly succeed at picking even a very difficult lock. | Once per rest. |
+| 2     | Exploit Distraction  | 1  | 2       | When a foe is attacked by an ally, and you are adjacent to that foe, you may exploit the moment to steal something from their pockets. | Foe *has* pockets. |
 
 #### Observation (Awar/Awar)
 Actively looking out for and detecting hidden things or characters. 
@@ -2453,7 +2454,7 @@ Orienting oneself in the world and finding and following tracks.
 
 | Level | Name                 | AP | **Ob** | Effect(s)          | Condition(s) |
 | ----- | -------------------- | -- | ------ | ------------------ | ------------ |
-| 2     | Find your Bearings   | 1  | 2      | Figure out your current heading and time of day, even when in complete darkness or in a place without landmarks. | Once per location. |
+| 2     | Find your Bearings   | 1  | 2      | Figure out your current heading and time of day, even when in complete darkness or in a place without landmarks. | Once per location or scene. |
 
 #### Shield (Str/Tough)
 Expertise at defending oneself using a shield. 
@@ -2462,17 +2463,17 @@ For any ally next to you, who's also using a shield, you both gain **+1D** on yo
 
 | Level | Name                 | AP | **Ob**  | Effect(s)          | Condition(s) |
 | ----- | -------------------- | -- | ------- | ------------------ | ------------ |
-| 1     | Steady Shield        | /  | /       | **Passive**: While wielding a shield, increase your [Stability](#stability-stabil) by `+1`. | Using shield. |
-| 2     | Shield Slam          | 2  | Opposed | Perform a [single-target](#single-target-st) melee attack to knock your opponent down with your shield. | Using shield. |
+| 0     | Steady Shield        | /  | /       | **Passive**: While wielding a shield, increase your [Stability](#stability-stabil) by `+1`. | Using shield. |
+| 2     | Shield Slam          | 2  | Opposed | `≤ 1` Hit: Push the target back by `1` square. <br> `= 2` Hits: `Str` Bludgeoning damage; Push the target back by `1` square. <br> `≥ 3` Hits: `Str * 2` Bludgeoning damage; Knock the target [Prone](#prone) or push them `2` squares back. | Using shield. |
 
 | Level | <img src="../../img/heroic-acts.svg" width="64px" height="64px"></img> | Heroic Act Description | Desperate Measure Description | <img src="../../img/desperate-measures.svg" width="64px" height="64px"></img> |
 | ----- | ----------------------- | ---------------------- | ----------------------------- | --------------------------- |
-| 4     | Launch! | An adjacent ally jumps onto your shield, as you brace yourself and then, in a fluid motion, launch them behind you. This way, your ally may travel up to `N * 1`, where *N* is your [Strength](#strength-str), without provoking [Attacks of Opportunity](#opportunity-attacks). If they land on or near a foe, they may make an immediate free attack against that foe. Decreases Momentum by `-15`. | An adjacent ally jumps onto your shield, as you brace yourself and then, with all your might, in a fluid motion, launch them behind you. This way, your ally may travel up to `N * 2`, where *N* is your [Strength](#strength-str), without provoking [Attacks of Opportunity](#opportunity-attacks). If they land on or near a foe, they may make an immediate free attack against that foe, with `+1` [Compensation Point](#compensation-points). *However*, **you** suffer `+3` [Exhaustion](#exhaustion). Increases Momentum by `+15`. | Strained Launch |
+| 4     | Launch! | An adjacent ally jumps onto your shield, as you brace yourself and then, in a fluid motion, launch them over you. This way, your ally may travel up to `N * 1`, where *N* is your [Strength](#strength-str), without provoking [Attacks of Opportunity](#opportunity-attacks). If they land on or near a foe, they may make an immediate free attack against that foe. Decreases Momentum by `-15`. | An adjacent ally jumps onto your shield, as you brace yourself and then, with all your might, in a fluid motion, launch them over you. This way, your ally may travel up to `N * 2`, where *N* is your [Strength](#strength-str), without provoking [Attacks of Opportunity](#opportunity-attacks). If they land on or near a foe, they may make an immediate free attack against that foe, with `+1` [Compensation Point](#compensation-points). *However*, **you** suffer `+3` [Exhaustion](#exhaustion). Increases Momentum by `+15`. | Strained Launch |
 
 #### Trapping (Awar/Wit)
 Setting traps in places where they're difficult to detect and the ability to disarm them. Used to set traps such as bear traps, pits filled with spikes, land mines and so on.
 
-When setting a trap, roll an Ob `0` test. The number of **hits** represent the quality level of the trap, which determines how hard it is to detect and disarm. `0` **hits** means the trap isn't at all concealed. 
+When setting a trap, roll an Ob `0` test. The number of **hits** represent the quality level of the trap, which determines how hard it is to detect and disarm. `0` **hits** means the trap isn't at all concealed. You may also place traps during combat, and as long as some foe can see you, your trap will never be concealed. 
 
 #### Throwing (Agi/Str)
 General expertise at throwing things. This includes weapons as well as non-weapon objects. 
@@ -2486,16 +2487,14 @@ Sometimes, your own body is your greatest weapon. Fists and feet can cause a sur
 
 | Level | Name                       | AP | **Ob**                               | Damage/Effect         | Condition |
 | ----- | -------------------------- | -- | ------------------------------------ | --------------------- | --------- |
-| 0     | Punch, Kick, Headbutt      | 2  | Opposed                              | `Str * 2` Bludgeoning |  |
-| 0     | Shove                      | 2  | Opposed by [strength](#strength-str) | Push an enemy away from you for `1` * *N*, where *N* is the number of **hits** more than the opponent achieved. |  |
-| 1     | Grapple                    | 2  | Opposed by **Unarmed Combat**        | If **completely successful**, the target is [Grappled](#grappled). The grappler can not use at least one of their hands for as long as they're grappling. |  |
-| 2     | Wrestle and Disarm         | 2  | Opposed by **Unarmed Combat**        | Disarm your opponent and wrestle them to the ground, making them [prone](#prone), if you so choose. | Disarm only if enemy is using detachable weapon. |
-| 3     | Barge In                   | 3  | Opposed by [strength](#strength-str) | Push an enemy away from you for `1` * *N*, where *N* is the number of **hits** more than the opponent achieved. Take their previous position and do **not** provoke [Attacks of Opportunity](#opportunity-attacks). |  |
-| 3     | Be My Shield!              | 1  | /                                    | **Reaction**: If grappling an enemy and being hit with an attack, make *them* take the hit, instead. The grappled enemy gets **no chance** to defend themself. | Grappling an enemy. |
+| 0     | Punch, Kick, Headbutt      | 2  | Opposed                              | `≤ 1` Hit: `Str` Bludgeoning <br> `= 2` Hits: `Str * 2` Bludgeoning <br> `≥ 3` Hits: `Str * 2` Bludgeoning; Knock your opponent [Prone](#prone) |  |
+| 0     | Shove                      | 2  | Opposed by [Strength](#strength-str) | `≤ 1` Hit: Push a target `1` square. <br> `= 2` Hits: Push a target `2` squares and take their place, if you desire. Does not provoke [Opportunity Attacks](#opportunity-attacks). <br> `≥ 3` Hits: Push a target `1 + Str` squares and take their place, if you desire. Does not provoke [Opportunity Attacks](#opportunity-attacks). |  |
+| 1     | Grapple                    | 2  | Opposed by Unarmed Combat            | [Grapple](#grappled) a target. The grappler can not use at least one of their hands for as long as they're grappling. <br> `≤ 1` Hit: The target is [Grappled](#grappled). <br> `= 2` Hits: The target is [Grappled](#grappled) and knocked [Prone](#prone) or disarmed, if possible. <br> `≥ 3` Hits: The target is [Grappled](#grappled), knocked [Prone](#prone) and disarmed, if possible. |  |
+| 3     | Be My Shield!              | 2  | /                                    | **Reaction**: If grappling an enemy and being hit with an attack, make *them* take the hit, instead. The grappled enemy gets **no chance** to defend themself. | Grappling an enemy. |
 
 | Level | <img src="../../img/heroic-acts.svg" width="64px" height="64px"></img> | Heroic Act Description | Desperate Measure Description | <img src="../../img/desperate-measures.svg" width="64px" height="64px"></img> |
 | ----- | ----------------------- | ---------------------- | ----------------------------- | --------------------------- |
-| 4     | Hammer and Anvil        | All **PCs** may immediately attack one foe, dealing `strength * 3` points of Bludgeoning damage and force-moving their foe by `strength * 1`. Multiple **PCs** may attack the same foe, each increasing the distance. Decreases Momentum by `-15`. | A **PC** may immediately attack one adjacent foe, dealing `strength * 3` points of Bludgeoning damage and force moving their foe by `strength * 2`, but also pushing themself in the opposite direction by the same distance. Increases Momentum by `+15`. | All Anvil |
+| 4     | Hammer and Anvil        | All **PCs** may immediately attack one foe, dealing `Strength * 3` points of Bludgeoning damage and force-moving their foe by `Strength * 1`. Multiple **PCs** may attack the same foe, each increasing the distance. Decreases Momentum by `-15`. | A **PC** may immediately attack one adjacent foe, dealing `Strength * 3` points of Bludgeoning damage and force moving their foe by `Strength * 2`, but also pushing themself in the opposite direction by the same distance. Increases Momentum by `+15`. | All Anvil |
 
 #### Weapon < [weapon type](#weapon-types) > (< attribute >)
 Expertise at handling a close-quarters or ranged weapon of a specific [weapon type](#weapon-types). 
@@ -3477,6 +3476,12 @@ Make sure to share the Retainer rules with your players. They should understand 
 
 ### Gaining Retainers
 There are two ways to gain Retainers. First, Titles of Renown may attract them. One day, a NPC knocks on the door and wishes to pledge their allegiance to the PCs, who may of course accept or refuse as their players desire. Secondly, they may be gained through the PCs' actions. Rescuing a prisoner, befriending a rival, showing mercy to an enemy or doing heroic deeds in service to a community may all attract Retainers. As always, the specifics of this are up to you and your game. 
+
+#### Creating Retainers
+You or your players may create new Retainers from scratch, as you would a PC. But they're not PCs, and if they're people and not animals, keep the following penalties in mind when [creating](#character-creation) them:
+* `-2` Attribute points and either:
+  * One level `4` Skill and two level `2` Skills or
+  * Two level `3` Skills and one level `2` Skill.
 
 ### Letting Retainers Go
 At any time, a Mentor can decide to let their Retainer go. Depending on circumstance, Retainers may also choose to leave of their own volition. Events set in motion by the story may naturally conclude the Retainer's service, or the actions of their Mentor have seeded animosity that has pitted them against one another. Once they left the party, the former Retainer goes back to leading their own life. 

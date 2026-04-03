@@ -1337,12 +1337,12 @@ The ability to communicate wordlessly, to alter emotions and even issue compelli
 
 | Level | Name                   | AP | Distance       | Ob                           | Effect(s)                      | Backfire Effect(s) |
 | ----- | ---------------------- | -- | -------------- | ---------------------------- | ------------------------------ | ------------------ |
-| 0     | Wordless Communication | 2  | `SI * 4`  | `SI`                         | **Concentration**: Communicate wordlessly with `SI` **MST**. Language barriers do not apply to this form of communication. | / |
-| 0     | Read Thoughts          | 2  | `SI * 4`  | Opposed by `Wit - SI`        | Glimpse into the thoughts of **ST** for a short time. | The target instead catches a glimpse into the caster's thoughts. |
-| 2     | Change a Mind          | 2  | `SI * 4`  | Opposed by `Wit - SI`        | Alter a creature's current state of mind and emotion. | The caster is affected, instead. |
-| 3     | Pressing Thought       | 2  | `SI * 10` | `SI + 1`                     | **Concentration**: [Hasten](./strive-core.md#hasted) up to `SI` **MST** of choice. | The caster and their targets suffer `+1` [Exhaustion](./strive-core.md#exhaustion). |
-| 4     | Quiet Command          | 2  | `SI * 10` | Opposed by `Wit - SI`        | Issue a command to another creature, which they feel **strongly** compelled to follow. | `+1` [Exhaustion](./strive-core.md#exhaustion) to self. |
-| 5     | Confer Knowledge       | 4  | `1`        | `6 - SI`                     | **Time(+1)**: Confer `+1` level of a **known skill** to another creature. | The caster loses `1` level in the chosen skill, for `24` hours! |
+| 0     | Wordless Communication | 2  | `SI * 4`       | `SI`                         | **Concentration**: Communicate wordlessly with `SI` **MST**. Language barriers do not apply to this form of communication. | / |
+| 0     | Read Thoughts          | 2  | `SI * 4`       | Opposed by `Wit - SI`        | Glimpse into the thoughts of **ST** for a short time. | The target instead catches a glimpse into the caster's thoughts. |
+| 2     | Change a Mind          | 2  | `SI * 4`       | Opposed by `Wit - SI`        | Alter a creature's current state of mind and emotion. | The caster is affected, instead. |
+| 3     | Pressing Thought       | 2  | `SI * 10`      | `SI + 1`                     | **Concentration**: [Hasten](./strive-core.md#hasted) up to `SI` **MST** of choice. | The caster and their targets suffer `+1` [Exhaustion](./strive-core.md#exhaustion). |
+| 4     | Quiet Command          | 2  | `SI * 10`      | Opposed by `Wit - SI`        | Issue a command to another creature, which they feel **strongly** compelled to follow. | `+1` [Exhaustion](./strive-core.md#exhaustion) to self. |
+| 5     | Confer Knowledge       | 4  | `1`            | `6 - SI`                     | **Time(+1)**: Confer `+1` level of a known Skill to another creature, but only up to the caster's level, minus one, in the Skill. The caster's level in the Skill is unaffected. | The caster loses `1` level in the chosen skill, for `24` hours! |
 
 ## List of Illnesses
 This list supplements the list of **injuries** of the [core module](./strive-core.md#list-of-injuries). 
@@ -1560,6 +1560,8 @@ This and the following sections are reserved solely for the **GM**'s eyes. Readi
 # Creature Compendium
 A by no means exhaustive list of medieval-fantasy themed creatures for the **GM** to draw from. 
 
+In the Characteristics blocks below, when armor is concerned, it may be noted in the form `U/F/S/O`, which are simply the pre-calculated values the armor provides under consideration of the degrees of [Flanking](./strive-core.md#flanking). The order is always: unthreatened, flanked, surrounded and overwhelmed. However, armor may also be noted as a plain value, e. g. `5`, which implies the creature does not suffer [Flanking](./strive-core.md#flanking).
+
 ## Swine-Beasts
 Created in a vain and immoral conjuring of demons from another place, the Swine-Beasts themselves represent a cruel parody of man, molded from the flesh of pigs. All the worst properties of humanity are manifested in these unsavory creatures. 
 
@@ -1601,9 +1603,9 @@ This variant is small and stunted. Its legs are too short and deformed to be use
 | ----- | ----- | ----- | ----- | ----- | ----- |
 | 4     | 4     | 2     | 1     | 1     | 0     |
 
-| BI     | Sprint | Stabil | Def    | FS (Ranged: 10) | HP  | Exhaustion |
-| ------ | ------ | ------ | ------ | ------ | --- | ---------- |
-| 9      | 3      | 0      | 2      | 2 Acid | 10  | 2          |
+| BI     | Sprint | Stabil | HP  | Exhaustion | FS (Ranged: 10) | Def    | Armor             |
+| ------ | ------ | ------ | --- | ---------- | --------------- | ------ | ----------------- |
+| 9      | 3      | 0      | 10  | 2          | 2 Acid          | 2      | 0                 |
 
 Traits: [Disease-Ridden](strive-core.md#disease-ridden--1-point-1-cr), [Light-weight](strive-core.md#light-weight-2-points--1-cr), [Vulnerable](strive-core.md#vulnerable-2-points--2-cr) to Bleeding `+6`
 
@@ -1635,18 +1637,18 @@ This variant stands tall and proud, its wrinkled skin riddled with scars. Its tu
 | ----- | ----- | ----- | ----- | ----- | ----- |
 | 3     | 2     | 4     | 5     | 3     | 0     |
 
-| BI     | Sprint | Stabil | Def    | FS (Melee) | HP  | Exhaustion |
-| ------ | ------ | ------ | ------ | ---------- | --- | ---------- |
-| 8      | 4      | 2      | 4      | 3 Piercing | 50  | 5          |
+| BI     | Sprint | Stabil | HP  | Exhaustion | FS (Melee)      | Def    | Armor             |
+| ------ | ------ | ------ | --- | ---------- | --------------- | ------ | ----------------- |
+| 8      | 4      | 2      | 50  | 5          | 3 Piercing      | 4      | 8/4/2/1 Slashing <br> 6/3/2/1 Piercing <br> 4/2/1/1 Bludgeoning |
 
-Traits: [Vulnerable](strive-core.md#vulnerable-2-points--2-cr) to Bleeding `+6`, [Hyperactive](strive-core.md#hyperactive--7-points-4-cr) + Disruptive
+Traits: [Vulnerable](strive-core.md#vulnerable-2-points--2-cr) to Bleeding `+6`, [Hyperactive + Disruptive](strive-core.md#hyperactive--7-points-4-cr)
 
-Assets: Spear, Medium Shield, Light Armor
+Assets: Spear, Medium Shield, Swine Champion Armor
 
 Skills:
 * Shield, level: `5`
 * Unarmed Combat, level: `3`
-* Weapon \<Spear\>, level: `5`
+* Weapon \<Polearm\>, level: `5`
 * Tusked Maw (Agi/Str):
   * As a last ditch defence, teeth and strength of jaw may serve. 
   * Level: `3`, Innate
@@ -1685,9 +1687,9 @@ This variant is as almost as small as a Belcher, and has atypically short tusks.
 | ----- | ----- | ----- | ----- | ----- | ----- |
 | 6     | 2     | 3     | 2     | 2     | 0     |
 
-| BI     | Sprint | Stabil | Def    | FS (Melee) | HP  | Exhaustion |
-| ------ | ------ | ------ | ------ | ---------- | --- | ---------- |
-| 10     | 4      | 0      | 3      | 4 Slashing | 20  | 1          |
+| BI     | Sprint | Stabil | HP  | Exhaustion | FS (Melee)      | Def    | Armor             |
+| ------ | ------ | ------ | --- | ---------- | --------------- | ------ | ----------------- |
+| 10     | 4      | 0      | 20  | 2          | 4 Slashing      | 3      | 0                 |
 
 Traits: [Vulnerable](strive-core.md#vulnerable-2-points--2-cr) to Bleeding `+6`
 
@@ -1719,16 +1721,16 @@ A hulking mass of Swine and muscle, towering above all around. Despite its impos
 | ----- | ----- | ----- | ----- | ----- | ----- |
 | 1     | 1     | 6     | 6     | 1     | 0     |
 
-| BI     | Sprint | Stabil | Def    | FS (Melee) | HP  | Exhaustion |
-| ------ | ------ | ------ | ------ | ---------- | --- | ---------- |
-| 3      | 4      | 4      | 1      | 2 Bludgeoning | 60  | 7          |
+| BI     | Sprint | Stabil | HP  | Exhaustion | FS (Melee)      | Def    | Armor             |
+| ------ | ------ | ------ | --- | ---------- | --------------- | ------ | ----------------- |
+| 3      | 4      | 4      | 60  | 7          | 4 Bludgeoning   | 1      | 0                 |
 
 Traits: [Vulnerable](strive-core.md#vulnerable-2-points--2-cr) to Bleeding `+6`
 
-Assets: Tattered Rags (Clothing), Large Crusher
+Assets: Tattered Rags (Clothing), Crusher
 
 Skills:
-* Weapon \<Large Crusher\>, level: `2`
+* Weapon \<Crusher\>, level: `2`
 * Slam (Str/Tough):
   * Slam into a victim, knocking them `Strength * 1` backwards.
   * Level: `4`, AP: `2`, Ob: Opposed, Melee, ST, `Strength` Bludgeoning damage, Innate
@@ -1752,13 +1754,13 @@ An intelligent and cruel leader among the Swine. Its gaze attentively surveys al
 | ----- | ----- | ----- | ----- | ----- | ----- |
 | 2     | 2     | 3     | 4     | 5     | 6     |
 
-| BI     | Sprint | Stabil | Def    | FS (Melee) | HP  | Exhaustion |
-| ------ | ------ | ------ | ------ | ---------- | --- | ---------- |
-| 9      | 3      | 0      | 2      | 2 Piercing | 40  | 4          |
+| BI     | Sprint | Stabil | HP  | Exhaustion | FS (Ranged: 10) | Def    | Armor             |
+| ------ | ------ | ------ | --- | ---------- | --------------- | ------ | ----------------- |
+| 9      | 3      | 0      | 40  | 4          | 4 Acid          | 2      | 0                 |
 
 Traits: [Vulnerable](strive-core.md#vulnerable-2-points--2-cr) to Bleeding `+6`
 
-Assets: Fine Rags (Clothing), Large Crusher
+Assets: Fine Rags (Clothing)
 
 Skills:
 * Magic School \<Hexing\>, level: `5`
@@ -1794,9 +1796,9 @@ This variant has full dark-red fur and much shorter tusks. It moves deftly, albe
 | ----- | ----- | ----- | ----- | ----- | ----- |
 | 5     | 3     | 4     | 3     | 2     | 0     |
 
-| BI     | Sprint | Stabil | Def    | FS (Ranged: 10) | HP  | Exhaustion |
-| ------ | ------ | ------ | ------ | --------------- | --- | ---------- |
-| 10     | 4      | 0      | 2      | 4 Piercing      | 30  | 4          |
+| BI     | Sprint | Stabil | HP  | Exhaustion | FS (Ranged: 10) | Def    | Armor             |
+| ------ | ------ | ------ | --- | ---------- | --------------- | ------ | ----------------- |
+| 10     | 4      | 0      | 30  | 4          | 4 Piercing      | 2      | 0                 |
 
 Traits: [Vulnerable](strive-core.md#vulnerable-2-points--2-cr) to Bleeding `+6`, [Poisoner](strive-core.md#poisoner--4-points-2-cr)
 
@@ -1823,9 +1825,9 @@ This variant is lanky and sways a little. 
 | ----- | ----- | ----- | ----- | ----- | ----- |
 | 2     | 2     | 4     | 3     | 1     | 0     |
 
-| BI     | Sprint | Stabil | Def    | FS         | HP  | Exhaustion |
-| ------ | ------ | ------ | ------ | ---------- | --- | ---------- |
-| 5      | 3      | 1      | 2      | 3 Slashing | 30  | 4          |
+| BI     | Sprint | Stabil | HP  | Exhaustion | FS (Ranged: 10) | Def    | Armor             |
+| ------ | ------ | ------ | --- | ---------- | --------------- | ------ | ----------------- |
+| 5      | 3      | 1      | 30  | 4          | 3 Slashing      | 2      | 0                 |
 
 Traits: [Vulnerable](strive-core.md#vulnerable-2-points--2-cr) to Bleeding `+6`
 
@@ -1852,20 +1854,20 @@ This variant is massive and strong. Most of its body is covered in dark, dirty c
 | ----- | ----- | ----- | ----- | ----- | ----- |
 | 2     | 1     | 6     | 4     | 1     | 0     |
 
-| BI     | Sprint | Stabil | Def    | FS (Melee) | HP  | Exhaustion |
-| ------ | ------ | ------ | ------ | ---------- | --- | ---------- |
-| 4      | 3      | 3      | 1      | 3 Slashing | 40  | 5          |
+| BI     | Sprint | Stabil | HP  | Exhaustion | FS (Melee)      | Def    | Armor             |
+| ------ | ------ | ------ | --- | ---------- | --------------- | ------ | ----------------- |
+| 4      | 3      | 3      | 40  | 4          | 3 Slashing      | 1      | 0                 |
 
 Traits: [Vulnerable](strive-core.md#vulnerable-2-points--2-cr) to Bleeding `+6`
 
 Assets:
-* Clothing: Swine Armored Rags, Large Crusher
+* Clothing: Swine Armored Rags, Crusher
 
 Swine Armored Rags: Slashing `6`, Piercing `4`, Bludgeoning `3`, Acid `6`
 
 Skills:
 * Unarmed Combat, level: `4`
-* Weapon \<Large Crusher\>, level: `3`
+* Weapon \<Crusher\>, level: `3`
 * Tusked Maw (Agi/Str):
   * As a last ditch defence, teeth and strength of jaw may serve. 
   * Level: `3`, Innate
@@ -1901,9 +1903,9 @@ An abominable mound of misshapen flesh, with countless tiny and several massive 
 | ----- | ----- | ----- | ----- | ----- | ----- |
 | 5     | 5     | 20    | 20    | 1     | 0     |
 
-| BI     | Sprint | Stabil | Def    | FS (Melee)    | HP  | Exhaustion |
-| ------ | ------ | ------ | ------ | ------------- | --- | ---------- |
-| 4      | 1      | 5      | 1      | 5 Bludgeoning | 200 | 5          |
+| BI     | Sprint | Stabil | HP  | Exhaustion | FS (Melee)      | Def    | Armor             |
+| ------ | ------ | ------ | --- | ---------- | --------------- | ------ | ----------------- |
+| 4      | 1      | 5      | 200 | 5          | 5 Bludgeoning   | 1      | 0                 |
 
 Traits: [Climber + Sticky](strive-core.md#climber--2-points-1-cr)
 
@@ -1946,9 +1948,9 @@ Alps are a fairly common occurence throughout the world. How they reproduce is a
 | ----- | ----- | ----- | ----- | ----- | ----- |
 | 4     | 3     | 3     | 3     | 3     | 5     |
 
-| BI     | Sprint | Stabil | Def    | FS (Melee) | HP  | Exhaustion |
-| ------ | ------ | ------ | ------ | ---------- | --- | ---------- |
-| 10     | 4      | 0      | 3      | 2 Slashing | 30  | 2          |
+| BI     | Sprint | Stabil | HP  | Exhaustion | FS (Melee)      | Def    | Armor             |
+| ------ | ------ | ------ | --- | ---------- | --------------- | ------ | ----------------- |
+| 10     | 4      | 0      | 30  | 3          | 3 Slashing      | 3      | 0                 |
 
 Skills: 
 * Stealth: Level `3`
@@ -1991,6 +1993,10 @@ This variant of Void Demon is vaguely humanoid, its amorphous face stretched out
 | BI     | Sprint | Stabil | Def    | FS (Melee) |
 | ------ | ------ | ------ | ------ | ---------- |
 | 9      | 3      | 0      | 1      | 2 Piercing |
+
+| BI     | Sprint | Stabil | HP  | Exhaustion | FS (Melee)      | Def    | Armor             |
+| ------ | ------ | ------ | --- | ---------- | --------------- | ------ | ----------------- |
+| 9      | 3      | 0      | 10  | 1          | 2 Piercing      | 1      | Half (RU) against all but Burning <br> `-50%` against Burning |
 
 Traits: 
 
