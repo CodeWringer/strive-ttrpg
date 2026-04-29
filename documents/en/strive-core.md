@@ -2484,7 +2484,7 @@ See [throwing](#throwing).
 #### Unarmed Combat (Agi/Str)
 Sometimes, your own body is your greatest weapon. Fists and feet can cause a surprising amount of damage. 
 
-* Melee
+Properties: [Melee](#melee), [FS](#free-strike-fs): `Str`
 
 | Level | Name                       | AP | **Ob**                               | Damage/Effect         | Condition |
 | ----- | -------------------------- | -- | ------------------------------------ | --------------------- | --------- |
@@ -2528,7 +2528,7 @@ Speaking commands with booming authority.
 | 0     | Taunt                  | 2  | Opposed by [self-control](#self-control-toughtough) | <br> `≤ 1` Hit: Force a designated target to attack *you* on their next turn. <br> `= 2` Hits: Force a designated target to attack *you* on their next turn, at Ob `+1`. <br> `≥ 3` Hits: Force up to two designated targets to attack *you* on their next turn, at Ob `+1`. | |
 | 1     | Hit That One!          | 1  |         | [Mark](#marked) a **ST** of choice. | Only one foe may be marked this way. |
 | 1     | Back Off, Fool!        | 1  | Opposed by [Toughness](#toughness-tough) | <br> `≤ 1` Hit: Force a designated target to back away from you for `1` square. <br> `= 2` Hits: Force a designated target to back away from you for `2` squares. <br> `≥ 3` Hits: Force up to two designated targets to back away from you for `2` squares. |  |
-| 2     | Deep Lungs             | /  | 2       | Immediately grant yourself `+1` [AP](#action-points-ap), but suffer `+1` [Exhaustion](#exhaustion). | Only once per round. |
+| 2     | Deep Lungs             |    | 2       | Immediately grant yourself `+1` [AP](#action-points-ap), but suffer `+1` [Exhaustion](#exhaustion). | Only once per round. |
 
 ##### Commanding Specialization - Taskmaster
 Ensuring others perform to expectation - regardless of whether they want to.
@@ -3379,11 +3379,11 @@ Of course, in order for the NPC to defend, they require [AP](#action-points-ap).
 The Defense characteristic should be reserved for Feeble and Regular creatures or those creatures you wish to employ en masse. 
 
 ## Free Strike [FS]
-The **Free Strike (FS)** characteristic is reserved solely for NPCs and is the damage value used when multiple of the same type of NPC launch an attack at the same time, as a [squad](#npc-squads).
+The **Free Strike (FS)** characteristic is reserved solely for NPCs and is the damage value used when multiple of the same type of NPC launch an attack at the same time, as a [Squad](#npc-squads).
 
-This way, instead of having to roll many dice to determine damage, you only roll the main aggressor's damage and then **add the sum of every assisting ally's Free Strike value**. 
+This way, instead of having to roll many dice to determine damage, you only roll the main aggressor's damage and then **add the sum of all assisting allies' Free Strike value**. 
 
-Whether allies can join in to deal more damage, depends on whether they are in their weapon's range to attack and are part of the aggressor's [squad](#npc-squads). 
+Whether allies can join in to deal more damage, depends on whether they are in their weapon's range to attack and are part of the aggressor's [Squad](#npc-squads). 
 
 ## Challenge Rating [CR]
 The overall power-level of a NPC is **broadly abstracted** as **Challenge Rating (CR)**. It is a tool designed to let you make an *educated guess* about the difficulty a given NPC might pose to the PCs. 

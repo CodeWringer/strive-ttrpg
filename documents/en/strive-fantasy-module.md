@@ -594,7 +594,7 @@ When looking up products for crafting, the tools and materials required for the 
 | Illusionist's Powder     | 1    | 2               | A small amount of weakly iridescently shimmering powder. When scattered, the dust remains suspended in mid-air and settles in an image of the making alchemist's choosing, which at a distance can seem perfectly real. It takes a successful test at `Ob Q + 1` to see through the ruse. This image lasts `QD10` minutes. | 30 | 1 Hour |  |
 | Invigorating Potion      | 1    | 3               | The drinker of this potion feels refreshed and invigorated! Reduces exhaustion by `Q` and clears the [exhausted](./strive-core.md#exhausted) condition. Beware this potion can only be safely imbibed twice in a `24` hour cycle. If drunk more, roll a `D6`. If it is a **hit**, you're in luck! But if not, you instead suffer `+2` points of [exhaustion](./strive-core.md#exhaustion). | 20 | 1 Hour |  |
 | Jewelry                  | 1    | 2               | Precious apparel. | 50 | 1 Hour |  |
-| Keg Of Alcohol           | 2    | 1               | A small keg of alcohol. | 30 | 1 Day |  |
+| Keg Of Alcohol           | 2    | 1               | A keg of alcohol. Highly flammable. If set fire to, will explode in a small torrent of flame, dealing `Q * 3` Burning damage to all in a `2` square AoE radius. | 30 | 1 Day |  |
 | Laudanum Potion          | 1    | 2               | This wonderous substance can quell pain and calm nerves within seconds. Also effective against diarrhea. Upon imbibing, sets one **active** [injury](./strive-core.md#injury) to **treated**. After `24` hours, the [injury](./strive-core.md#injury) is set back to **active**, even if it was also properly **treated** in the meantime. Also, must succeed a [self-control](./strive-core.md#self-control-toughtough) test at `Ob 3`, or else become [addicted](./strive-core.md#drug-addicted) to the stuff. | 20 | 1 Hour |  |
 | Love Potion              | 1    | 2               | Anyone drinking this potion will become virtually irresistible to anyone close enough to smell their air. Victims have to succeed a [self-control](./strive-core.md#self-control-toughtough) test at **Ob** `Q` or else feel **very strongly compelled** to fulfill the user's every wish and desire (provided this wouldn't obviously cause harm to the victim). | 50 | 1 Hour | +1 |
 | Magic Recorder           | 1    | 3               | A small spherical device, overtly made from various metals with intricate patterns on its surface. This device can capture [Magic Echoes](#magic-echoes) and record magic as it is being cast. Also captures fragments of thoughts from its bearer while it is active. | 50 | 6 Hours |  |
@@ -801,7 +801,7 @@ Steering and maintaining a naval vessel.
 #### Weapon \<Axe\> (Str/Str)
 Skill for [Axe](#axe) type weapons, both one and two-handed. 
 
-Properties: [Melee](./strive-core.md#melee)
+Properties: [Melee](./strive-core.md#melee), [FS](./strive-core.md#free-strike-fs): `4` Slashing + `2` Bludgeoning
 
 | Level | Name                 | AP | Ob          | Description <br> Damage                   |
 | ----- | -------------------- | -- | ----------- | ----------------------------------------- |
@@ -812,7 +812,7 @@ Properties: [Melee](./strive-core.md#melee)
 #### Weapon \<Light Blade\> (Agi/Str)
 Skill for any [Light Blade](#light-blade) type weapons, such as daggers and one-handed swords. 
 
-Properties: [Melee](./strive-core.md#melee)
+Properties: [Melee](./strive-core.md#melee), [FS](./strive-core.md#free-strike-fs): `4` Slashing
 
 | Level | Name                 | AP | Ob          | Description <br> Damage                   |
 | ----- | -------------------- | -- | ----------- | ----------------------------------------- |
@@ -825,7 +825,7 @@ Properties: [Melee](./strive-core.md#melee)
 #### Weapon \<Long Blade\> (Agi/Str)
 Skill for any [Long Blade](#long-blade) type weapons, such as longswords and great-swords.
 
-Properties: [Melee](./strive-core.md#melee), [Long Reach](./strive-core.md#weapon-properties)
+Properties: [Melee](./strive-core.md#melee), [Long Reach](./strive-core.md#weapon-properties), [FS](./strive-core.md#free-strike-fs): `5` Slashing
 
 | Level | Name                 | AP | Ob          | Description <br> Damage                   |
 | ----- | -------------------- | -- | ----------- | ----------------------------------------- |
@@ -838,7 +838,7 @@ Properties: [Melee](./strive-core.md#melee), [Long Reach](./strive-core.md#weapo
 #### Weapon \<Chained Blade\> (Agi/Agi)
 Skill for [Chained Blade](#chained-blade) type weapons, an exotic and fantastical weapon type that uses an angled blade at the end of a light chain. 
 
-Properties: [Melee](./strive-core.md#melee), [Ranged (max. `8`)](./strive-core.md#ranged), [Prefer Range](./strive-core.md#weapon-properties)
+Properties: [Melee](./strive-core.md#melee), [Ranged (max. `8`)](./strive-core.md#ranged), [Prefer Range](./strive-core.md#weapon-properties), [FS](./strive-core.md#free-strike-fs): `4` Slashing
 
 | Level | Name                 | AP | Ob          | Description <br> Damage                   |
 | ----- | -------------------- | -- | ----------- | ----------------------------------------- |
@@ -850,7 +850,7 @@ Properties: [Melee](./strive-core.md#melee), [Ranged (max. `8`)](./strive-core.m
 #### Weapon \<Crusher\> (Str/Tough)
 Skill for [Crusher](#crusher) type weapons, with a dedicated *impact zone*, such as clubs and maces.
 
-Properties: [Melee](./strive-core.md#melee)
+Properties: [Melee](./strive-core.md#melee), [FS](./strive-core.md#free-strike-fs): `5` Bludgeoning
 
 | Level | Name                 | AP | Ob          | Description <br> Damage                   |
 | ----- | -------------------- | -- | ----------- | ----------------------------------------- |
@@ -861,7 +861,7 @@ Properties: [Melee](./strive-core.md#melee)
 #### Weapon \<Polearm\> (Str/Tough)
 Skill for [Polearm](#polearm) type weapons, like halberds, voulges, bardiches and pollaxes. 
 
-Properties: [Melee](./strive-core.md#melee), [Long Reach](./strive-core.md#weapon-properties), [Prefer Range](./strive-core.md#weapon-properties)
+Properties: [Melee](./strive-core.md#melee), [Long Reach](./strive-core.md#weapon-properties), [Prefer Range](./strive-core.md#weapon-properties), [FS](./strive-core.md#free-strike-fs): `5` Piercing
 
 | Level | Name                 | AP | Ob          | Description <br> Damage                   |
 | ----- | -------------------- | -- | ----------- | ----------------------------------------- |
@@ -874,7 +874,7 @@ Properties: [Melee](./strive-core.md#melee), [Long Reach](./strive-core.md#weapo
 #### Weapon \<Short-Bow\> (Agi/Awar)
 Skill for [Short-Bow](#short-bow) type weapons. 
 
-Properties: [Ranged (10 DI)](./strive-core.md#ranged), [Range Only](./strive-core.md#weapon-properties)
+Properties: [Ranged (10 DI)](./strive-core.md#ranged), [Range Only](./strive-core.md#weapon-properties), [FS](./strive-core.md#free-strike-fs): `4` Piercing
 
 | Level | Name                 | AP | Ob          | Description <br> Damage                   |
 | ----- | -------------------- | -- | ----------- | ----------------------------------------- |
@@ -885,7 +885,7 @@ Properties: [Ranged (10 DI)](./strive-core.md#ranged), [Range Only](./strive-cor
 #### Weapon \<Longbow\> (Awar/Str)
 Skill for [Longbow](#longbow) type weapons. 
 
-Properties: [Ranged (20 DI)](./strive-core.md#ranged), [Range Only](./strive-core.md#weapon-properties)
+Properties: [Ranged (20 DI)](./strive-core.md#ranged), [Range Only](./strive-core.md#weapon-properties), [FS](./strive-core.md#free-strike-fs): `5` Piercing
 
 | Level | Name                 | AP | Ob          | Description <br> Damage                   |
 | ----- | -------------------- | -- | ----------- | ----------------------------------------- |
@@ -895,7 +895,7 @@ Properties: [Ranged (20 DI)](./strive-core.md#ranged), [Range Only](./strive-cor
 #### Weapon \<Crossbow\> (Awar/Awar)
 Skill for [Crossbow](#crossbow) type weapons. 
 
-Properties: [Ranged (15 DI)](./strive-core.md#ranged), [Prefer Range](./strive-core.md#weapon-properties), [Slow Reload](./strive-core.md#weapon-properties)
+Properties: [Ranged (15 DI)](./strive-core.md#ranged), [Prefer Range](./strive-core.md#weapon-properties), [Slow Reload](./strive-core.md#weapon-properties), [FS](./strive-core.md#free-strike-fs): `7` Piercing
 
 | Level | Name                 | AP | Ob          | Description <br> Damage                   |
 | ----- | -------------------- | -- | ----------- | ----------------------------------------- |
@@ -904,7 +904,7 @@ Properties: [Ranged (15 DI)](./strive-core.md#ranged), [Prefer Range](./strive-c
 #### Weapon \<Firearm\> (Awar/Tough)
 Skill for [Firearm](#firearm) type weapons. It takes great discipline to not flinch at the sparks and smoke upon ignition. 
 
-Properties: [Ranged (10 DI)](./strive-core.md#ranged), [Prefer Range](./strive-core.md#weapon-properties), [Very Slow Reload](./strive-core.md#weapon-properties)
+Properties: [Ranged (10 DI)](./strive-core.md#ranged), [Prefer Range](./strive-core.md#weapon-properties), [Very Slow Reload](./strive-core.md#weapon-properties), [FS](./strive-core.md#free-strike-fs): `8` Piercing
 
 | Level | Name                 | AP | Ob          | Description <br> Damage                   |
 | ----- | -------------------- | -- | ----------- | ----------------------------------------- |
@@ -1102,19 +1102,19 @@ The psion may choose how much they wish to open up to The Veil. This is represen
   * Arcana `5+` OR innate.
   * An event that causes a psychic awakening. Consult your **GM**. 
 
-| Level | Name                 | AP | Distance        | Ob                              | Veil Degradation | Effect(s)                      |
-| ----- | -------------------- | -- | --------------- | ------------------------------- | ---------------- | ------------------------------ |
-| 0     | Emotional Connection | 1  | `OPN * 10` | Opposed by `Self-Control - OPN` | `OPN * 2`        | Read and/or alter another creature's emotional state. |
-| 0     | Telekinesis          | 2  | `OPN * 5`  | Opposed by `Self-Control - OPN` | `OPN * 2`        | Force move a **ST** by `OPN * 2`. |
-| 0     | Telepathy            | 1  | `OPN * 15` | `OPN`                           | `OPN * 2`        | **Concentration**: Communicate wordlessly with `OPN` targets. Language barriers do not apply to this form of communication. |
-| 0     | Slow Down            | 2  | `OPN * 6`  | `OPN`                           | `OPN * 2`        | **Concentration**: Up to `OPN` targets are slowed. They move `2` less per **AP** spent! |
-| 1     | Repulse              | 1  | `20`       | `OPN`                           | `OPN * 3`        | **Reaction**: Upon having been attacked successfully, repulse your attacker psionically. They are force moved backwards by `OPN * 2`. |
-| 1     | Levitate             | 1  | `OPN * 6`  | `OPN`                           | `OPN * 3`        | **Concentration**: Cause yourself or one other **ST** of choice, within *distance* to levitate up to `OPN * 6` above the ground. |
-| 1     | "Vanish"             | 1  | `OPN * 6`  | `OPN`                           | `OPN * 4`        | **Concentration**: Cause up to `OPN` targets of choice, within *distance* to become *unperceivable* to `OPN` other targets of choice, within distance. |
-| 3     | Veil Hop             | 3  | `OPN * 3`   | `OPN`                           | `OPN * 5`        | Cause a dimensional rift to open and swallow a **ST** of choice, which another rift releases at a location of your choosing, a moment later. |
-| 3     | Join The Veil        | 2  | `OPN * 3`   | Opposed by `Self-Control - OPN` | `OPN * 3`        | Shroud a **ST** in the inscrutable darkness of The Beyond. They become [Terrified](strive-core.md#terrified) of the psion and [Marked](./strive-core.md#marked). |
-| 4     | Try Again            | 1  | /               | /                               | `25`             | **Reaction**: When you or someone else resolves a test, create a minute overlap of timelines, and displace a snippet of your own timeline with a hopefully better one. You or they must now repeat the test. The new result is final. This can only be attempted once for a given test. |
-| 4     | Memory Re-write      | 3  | `OPN * 3`   | Opposed by `Self-Control - OPN` | `OPN * 3`        | **Time(+1)**: Re-write the memory of a **ST**. Make them forget, or implant in them a memory they never had. |
+| Level | Name                 | AP | Distance | Ob                              | Veil Degradation | Effect(s)                      |
+| ----- | -------------------- | -- | -------- | ------------------------------- | ---------------- | ------------------------------ |
+| 0     | Emotional Connection | 1  | OPN * 10 | Opposed by Self-Control - OPN   | OPN * 2          | Read and/or alter another creature's emotional state. |
+| 0     | Telekinesis          | 2  | OPN * 5  | Opposed by Self-Control - OPN   | OPN * 2          | Force move a **ST** by `OPN * 2`. |
+| 0     | Telepathy            | 1  | OPN * 15 | OPN                             | OPN * 2          | **Concentration**: Communicate wordlessly with `OPN` targets. Language barriers do not apply to this form of communication. |
+| 0     | Slow Down            | 2  | OPN * 6  | OPN                             | OPN * 2          | **Concentration**: Up to `OPN` targets are slowed. They move `2` less per **AP** spent! |
+| 1     | Repulse              | 1  | 20       | OPN                             | OPN * 3          | **Reaction**: Upon having been attacked successfully, repulse your attacker psionically. They are force moved backwards by `OPN * 2`. |
+| 1     | Levitate             | 1  | OPN * 6  | OPN                             | OPN * 3          | **Concentration**: Cause yourself or one other **ST** of choice, within *distance* to levitate up to `OPN * 6` above the ground. |
+| 1     | "Vanish"             | 1  | OPN * 6  | OPN                             | OPN * 4          | **Concentration**: Cause up to `OPN` targets of choice, within *distance* to become *unperceivable* to `OPN` other targets of choice, within distance. |
+| 3     | Veil Hop             | 3  | OPN * 3  | OPN                             | OPN * 5          | Cause a dimensional rift to open and swallow a **ST** of choice, which another rift releases at a location of your choosing, a moment later. |
+| 3     | Join The Veil        | 2  | OPN * 3  | Opposed by Self-Control - OPN   | OPN * 3          | Shroud a **ST** in the inscrutable darkness of The Beyond. They become [Terrified](strive-core.md#terrified) of the psion and [Marked](./strive-core.md#marked). |
+| 4     | Try Again            | 1  |          |                                 | 25               | **Reaction**: When you or someone else resolves a test, create a minute overlap of timelines, and displace a snippet of your own timeline with a hopefully better one. You or they must now repeat the test. The new result is final. This can only be attempted once for a given test. |
+| 4     | Memory Re-write      | 3  | OPN * 3  | Opposed by Self-Control - OPN   | OPN * 3          | **Time(+1)**: Re-write the memory of a **ST**. Make them forget, or implant in them a memory they never had. |
 
 ## List of Magic Schools
 The capabilities of the various magic schools are described by the [expertise](./strive-core.md#expertise) associated with each of them. The concrete effects are kept vague on purpose, to allow a certain freedom when choosing how the magic is expressed. But the intensity or strength of a casting is tied to the level of the [magic school skill](#magic-school--school---attribute-). 
@@ -1124,8 +1124,8 @@ The levels noted for each magic school represent the effects a mage can achieve,
 See also [testing magic](#testing-magic). 
 
 In all the following tables, note the following:
-* Replace *SI* with the chosen [spell intensity](#spell-intensity-si). 
-* *Level* is the prerequisite level of the **magic school skill**, at which a given spell becomes available for use. 
+* Replace *SI* with the chosen [Spell Intensity](#spell-intensity-si). 
+* *Level* is the prerequisite level of the **magic school Skill**, at which a given spell becomes available for use. 
 * Whenever distances and radii are concerned, a mage may always choose a *shorter* distance or radius. For example, a `SI * 2` radius definition, sets the **maximum**. The radius may be at most this large, but can be smaller, if the mage so chooses. 
 * Whenever the effect is unleashed in a **cone**, then at every point it has traveled, it is as wide as far as it has traveled. So for example, at 1 distance, it is 1 wide. At 3 distance, it is 3 wide. 
 
@@ -1134,12 +1134,12 @@ The control of air, to create and change its flow, for benefit and detriment.
 
 | Level | Name                 | AP | Distance      | Ob          | Effect(s)                      | Backfire Effect(s) |
 | ----- | -------------------- | -- | ------------- | ----------- | ------------------------------ | ------------------ |
-| 0     | Wind Tunnel          | 2  | `SI * 3`  | `SI`        | Conjures up a stream of air that [force moves](strive-core.md#forced-movement) all creatures and objects of bulk less than `SI * 2` in its direction, by `SI * 3`. This gust originates from the caster. The wind tunnel can also point up, down or any other direction. Can clear away gases and the like. | The caster loses control and is tossed `SI * 3` in a random direction! |
-| 0     | Wind Lance           | 2  | `SI * 3`  | `Opposed`   | Hurls a directed, compacted bolt of air towards a target, dealing `1D10 + (SI * 2)` points of Bludgeoning damage. Upon impact, creates a loud whipping noise. | The attack is launched in a random direction, instead. |
-| 1     | Breathing Bubble     | 2  | `1`       | `SI`        | **Concentration**: Form a stationary bubble of clean air, up to `SI * 1` large in diameter, that will last for as long as you concentrate on it. | The air is displaced from the caster's lungs for `1` round, making them unable to speak and they suffer `+1` [Exhaustion](./strive-core.md#exhaustion)! |
-| 2     | Vacuumize            | 2  | `8`      | `SI`        | **Concentration**: Drive all air out of a stationary area of choice, within *distance*, up to `SI * 1` large in diameter. All creatures caught in the anti-air bubble start suffocating, as all air is driven from their lungs, as well. | The air around the caster is displaced, instead of the spot of their choosing. The effect lasts `1` round and the caster cannot concentrate on any other spell, for as long as it lasts. |
-| 3     | Crushing Compression | 2  | `SI * 6` | `SI`        | Compress the air around a target, crushing it with `SI D6` points of Bludgeoning damage. | The air compresses around the caster instead. |
-| 4     | Tornado              | 2  | `SI * 6` | `SI`        | **Concentration, Time(+1)**: Call forth a tornado and control its movements. It is up to `SI * 1` wide and tall, and can displace creatures and objects up to `SI * 2` bulk, throwing them up to `SI * 2` far, in a random direction. The tornado can clear away gases and the like. | The tornado forms at the caster's location and moves randomly. It lasts `1` round and the caster cannot concentrate on any other spell until the tornado expires. |
+| 0     | Wind Tunnel          | 2  | `SI * 3`      | SI          | Conjures up a stream of air, that [force moves](strive-core.md#forced-movement) all creatures and objects of bulk less than `SI * 2` in its direction, by `SI * 3`. This gust originates from the caster. The wind tunnel can also point up, down or any other direction. Can clear away gases and the like. | The caster loses control and is tossed `SI * 3` in a random direction! |
+| 0     | Wind Lance           | 2  | `SI * 3`      | Opposed     | Hurls a directed, compacted bolt of air towards a ST. Upon impact, creates a loud whipping noise. <br> `≤ 1` Hit: `2 + SI` Bludgeoning <br> `= 2` Hits: `5 + (SI * 2)` Bludgeoning <br> `≥ 3` Hits: `10 + (SI * 2)` Bludgeoning | The attack is launched in a random direction, instead. |
+| 1     | Breathing Bubble     | 2  | `1`           | SI          | **Concentration**: Form a stationary bubble of clean air, up to `SI * 2` large in diameter, that will last for as long as you concentrate on it. | The air is displaced from the caster's lungs for `1` round, making them unable to speak and they suffer `+1` [Exhaustion](./strive-core.md#exhaustion)! |
+| 2     | Vacuumize            | 2  | `8`           | SI          | **Concentration**: Drive all air out of a stationary area of choice, within *distance*, up to `SI * 2` large in diameter. All creatures caught in the anti-air bubble start suffocating, as all air is driven from their lungs, as well. | The air around the caster is displaced, instead of the spot of their choosing. The effect lasts `1` round and the caster cannot concentrate on any other spell, for as long as it lasts. |
+| 3     | Crushing Compression | 2  | `SI * 6`      | SI          | Compress the air around a ST, crushing it with `SI * 5` points of Bludgeoning damage. | The air compresses around the caster instead. |
+| 4     | Tornado              | 2  | `SI * 6`      | SI          | **Concentration, Time(+1)**: Call forth a tornado and control its movements. It is up to `SI * 2` squares wide and tall, and can displace creatures and objects up to `SI * 2` bulk, throwing them up to `SI * 2` far, in a random direction. The tornado can clear away gases and the like. | The tornado forms at the caster's location and moves randomly. It lasts `1` round and the caster cannot concentrate on any other spell until the tornado expires. |
 
 ### Artificing (Arc/Wit)
 The setting of arcane traps and creation of arcane artifacts and materials. 
