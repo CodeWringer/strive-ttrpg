@@ -2934,7 +2934,7 @@ A character who has been made unnaturally **Jealous**, will do anything in their
 ### Marked
 <img src="../../img/health-condition-marked.svg" style="width: 3rem; height: 3rem;"></img>
 
-A Marked character suffers `-1D` to all defense tests and `+50%` damage (RU) from all **direct** sources (meaning damage from [Bleeding](#bleeding), [Burning](#burning) and [Poisoned](#poisoned) is excluded). 
+A Marked character suffers `-1D` to all defense tests and `+5` Pure damage from all **direct** sources (meaning damage from environmental hazards is excluded). 
 
 * Automatic shrug-off: After `1` round.
 
