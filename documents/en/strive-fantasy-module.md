@@ -1328,20 +1328,20 @@ Only targets within and up to the given *distance* can be moved and only within 
 | Level | Name                   | AP | Distance      | Ob                           | Effect(s)                      | Backfire Effect(s) |
 | ----- | ---------------------- | -- | ------------- | ---------------------------- | ------------------------------ | ------------------ |
 | 0     | Telekinesis            | 2  | `SI * 5`      | `SI`                         | Move an inanimate **ST** object at great velocity (if desired). | The caster loses control! The object is instead flung in a random direction! |
-| 1     | Hold Fluid             | 2  | `SI * 5`      | `SI`                         | **Concentration**: Cause an up to `SI * 3` large body of water to levitate. | / |
+| 1     | Hold Fluid             | 2  | `SI * 5`      | `SI`                         | **Concentration**: Cause an up to `SI * 3` large body of water to levitate. |  |
 | 3     | Creature Telekinesis   | 3  | `SI * 5`      | `Opposed`                    | Force move a **ST** creature up to `SI * 3`. | The caster is thrown backwards by `SI * 3`. |
 
 ### Telepathy (Arc/Wit)
 The ability to communicate wordlessly, to alter emotions and even issue compelling commands against another's will. 
 
-| Level | Name                   | AP | Distance       | Ob                           | Effect(s)                      | Backfire Effect(s) |
-| ----- | ---------------------- | -- | -------------- | ---------------------------- | ------------------------------ | ------------------ |
-| 0     | Wordless Communication | 2  | `SI * 4`       | `SI`                         | **Concentration**: Communicate wordlessly with `SI` **MST**. Language barriers do not apply to this form of communication. | / |
-| 0     | Read Thoughts          | 2  | `SI * 4`       | Opposed by `Wit - SI`        | Glimpse into the thoughts of **ST** for a short time. | The target instead catches a glimpse into the caster's thoughts. |
-| 2     | Change a Mind          | 2  | `SI * 4`       | Opposed by `Wit - SI`        | Alter a creature's current state of mind and emotion. | The caster is affected, instead. |
-| 3     | Pressing Thought       | 2  | `SI * 10`      | `SI + 1`                     | **Concentration**: [Hasten](./strive-core.md#hasted) up to `SI` **MST** of choice. | The caster and their targets suffer `+1` [Exhaustion](./strive-core.md#exhaustion). |
-| 4     | Quiet Command          | 2  | `SI * 10`      | Opposed by `Wit - SI`        | Issue a command to another creature, which they feel **strongly** compelled to follow. | `+1` [Exhaustion](./strive-core.md#exhaustion) to self. |
-| 5     | Confer Knowledge       | 4  | `1`            | `6 - SI`                     | **Time(+1)**: Confer `+1` level of a known Skill to another creature, but only up to the caster's level, minus one, in the Skill. The caster's level in the Skill is unaffected. | The caster loses `1` level in the chosen skill, for `24` hours! |
+| Level | Name                   | AP | Distance       | Ob                             | Effect(s)                      | Backfire Effect(s) |
+| ----- | ---------------------- | -- | -------------- | ------------------------------ | ------------------------------ | ------------------ |
+| 0     | Wordless Communication | 2  | `SI * 4`       | `SI`                           | **Concentration**: Communicate wordlessly with `SI` **MST**. Language barriers do not apply to this form of communication. |  |
+| 0     | Read Thoughts          | 2  | `SI * 4`       | Opposed by `Self-Control - SI` | Glimpse into the thoughts of **ST** for a short time. | The target instead catches a glimpse into the caster's thoughts. |
+| 2     | Change a Mind          | 2  | `SI * 4`       | Opposed by `Self-Control - SI` | Alter a creature's current state of mind and emotion. | The caster is affected, instead. |
+| 3     | Pressing Thought       | 2  | `SI * 10`      | `SI + 1`                       | **Concentration**: [Hasten](./strive-core.md#hasted) up to `SI` **MST** of choice. | The caster and their targets suffer `+1` [Exhaustion](./strive-core.md#exhaustion). |
+| 4     | Quiet Command          | 2  | `SI * 10`      | Opposed by `Self-Control - SI` | Issue a command to another creature, which they feel **strongly** compelled to follow. | `+1` [Exhaustion](./strive-core.md#exhaustion) to self. |
+| 5     | Confer Knowledge       | 4  | `1`            | `6 - SI`                       | **Time(+1)**: Permanently confer `+1` level of a known Skill to another creature, but only up to the caster's level, minus two, in the Skill. The caster's level in the Skill is unaffected. | The caster loses `1` level in the chosen skill, for `24` hours! |
 
 ## List of Illnesses
 This list supplements the list of **injuries** of the [core module](./strive-core.md#list-of-injuries). 
