@@ -176,7 +176,7 @@ You may choose to play without the Momentum system for a less heroic style of ga
     - [Push Through](#push-through)
     - [Swap-Out](#swap-out)
   - [Attacking](#attacking)
-    - [Damage](#damage)
+    - [Damage \& Effects](#damage--effects)
     - [Opportunity Attacks](#opportunity-attacks)
     - [Flanking](#flanking)
     - [Stealth Attacks](#stealth-attacks)
@@ -257,6 +257,7 @@ You may choose to play without the Momentum system for a less heroic style of ga
       - [Acting (Awar/Wit)](#acting-awarwit)
       - [Animal Handling (Awar/Awar)](#animal-handling-awarawar)
       - [Commanding (Tough/Wit)](#commanding-toughwit)
+        - [Commanding Specialization - Taskmaster](#commanding-specialization---taskmaster)
       - [Entertainment (Agi/Wit)](#entertainment-agiwit)
       - [Mercantilism (Awar/Wit)](#mercantilism-awarwit)
       - [Riding (Agi/Awar)](#riding-agiawar)
@@ -368,6 +369,7 @@ You may choose to play without the Momentum system for a less heroic style of ga
   - [Bring NPCs To Life](#bring-npcs-to-life)
   - [Retainers \& Pets](#retainers--pets)
     - [Gaining Retainers](#gaining-retainers)
+      - [Creating Retainers](#creating-retainers)
     - [Letting Retainers Go](#letting-retainers-go)
     - [Retainers In Combat](#retainers-in-combat)
     - [Retainers Are Sidekicks](#retainers-are-sidekicks)
@@ -1637,11 +1639,11 @@ Think about complexity in terms of *how difficult is it to make the thing?*, *ar
 
 | Complexity         | Progress Increment | Description        |
 | ------------------ | ------------------ | ------------------ |
-| Trivial            | 5 or 10            | A trivial craft can be done at any time, anywhere - even on the road. It barely requires any resources and you can improvise the tools you need. It takes no special knowledge. |
-| Routine            | 10, 15 or 20       | A routine craft is routine only to a learned and experienced craftsperson. While the work won't put your skills to the test, it still requires some effort and experience to achieve. Improvised tools may still do, and some resources may still be substituted. But the work does demand focus. It takes some experience. |
-| Specialized        | 20, 30 or 40       | A specialized craft is a bit more challenging. You need to sit down and actually focus on the work and need the proper tools and resources to get it done. But provided you bring those, your work can be done in any suitable place. Deeper understanding of the subject matter is required. |
-| Complex            | 50 or 75           | A complex craft requires specialized tools and rare resources, which may not be readily accessible to just anyone and the work must be done in a specialized environment. Specialized and obscure knowledge is required. |
-| Monumental         | 100                | A monumental craft requires tools that simply don't exist, anywhere. You will have to create them, yourself. The resources you need will require substantial effort to track down. Perhaps you'll even be the first discover their existence. The work can be done only in a highly specialized environment, to minimize the risk of delicate machinery getting dusty, aerosols mixing or vibrations in the earth agitating the wrong powder and so forth. There may not be anyone alive, nor any writing detailing the work. You will have to be the first to (re-)discover the knowledge required. |
+| Trivial            | 5                  | A trivial craft can be done at any time, anywhere - even on the road. It barely requires any resources and you can improvise the tools you need. It takes no special knowledge. |
+| Routine            | 8                  | A routine craft is routine only to a learned and experienced craftsperson. While the work won't put your skills to the test, it still requires some effort and experience to achieve. Improvised tools may still do, and some resources may still be substituted. But the work does demand focus. It takes some experience. |
+| Specialized        | 15                 | A specialized craft is a bit more challenging. You need to sit down and actually focus on the work and need the proper tools and resources to get it done. But provided you bring those, your work can be done in any suitable place. Deeper understanding of the subject matter is required. |
+| Complex            | 25                 | A complex craft requires specialized tools and rare resources, which may not be readily accessible to just anyone and the work must be done in a specialized environment. Specialized and obscure knowledge is required. |
+| Monumental         | 50                 | A monumental craft requires tools that simply don't exist, anywhere. You will have to create them, yourself. The resources you need will require substantial effort to track down. Perhaps you'll even be the first discover their existence. The work can be done only in a highly specialized environment, to minimize the risk of delicate machinery getting dusty, aerosols mixing or vibrations in the earth agitating the wrong powder and so forth. There may not be anyone alive, nor any writing detailing the work. You will have to be the first to (re-)discover the knowledge required. |
 
 #### Workload to Time Increments
 Workload is the result of processes that naturally take a long time, the difficulty in processing materials and the amount of work that has to be done. A very high workload will take very long to complete, while a low workload may be finished in a matter of minutes.
@@ -1845,21 +1847,24 @@ The ally in question can **oppose** this action with [strength](#strength-str) (
 ## Attacking
 Attacks are made with an [Expertise](#expertise) of a [Weapon](#weapon--weapon-type--str), the [Unarmed Combat](#unarmed-combat-agistr) or the [Throwing](#throwing-agistr) [Skill](#skills). 
 
-An attack generally requires an [opposed test](#opposed-test) to be made. If the attacker wins, [damage](#damage) is determined and applied to the defender. If the defender wins, they suffer no damage. A defender must *choose* how to defend, unless a specific skill is required. Defense is possible with [weapon](#weapon--weapon-type---attribute), the [Acrobatics](#acrobatics-agistr) or the [Shield](#shield-strtough) Skills. 
+An attack generally requires an [opposed test](#opposed-test) to be made. If the attacker wins, [damage](#damage--effects) is determined and applied to the defender. If the defender wins, they suffer no damage. A defender must *choose* how to defend, unless a specific skill is required. Defense is possible with [weapon](#weapon--weapon-type---attribute), the [Acrobatics](#acrobatics-agistr) or the [Shield](#shield-strtough) Skills. 
 
 Sometimes, special circumstances apply, which make certain attacks easier or harder to land. These are at the **GM's** discretion. They can impose an **Ob** penalty or boon whenever appropriate. Also keep in mind there may be times when rolling for an attack is entirely unnecessary, such as against a helpless victim. In such a case, you may apply your malevolence with impunity, to the extent of your choosing. 
 
-### Damage
-Damage dealt to an opponent reduces their [HP](#hit-points-hp). When their **HP** reaches `0`, they die. Damage can also inflict [injuries](#injury). 
+### Damage & Effects
+Damage dealt to an opponent reduces their [HP](#hit-points-hp). When their **HP** reaches `0`, they die. Damage can also inflict [Injuries](#injury). [Armor](#armor) can reduce the amount of damage that is actually applied. 
 
-[Armor](#armor) can reduce the amount of damage that is actually applied. 
+The attack roll also determines how much damage an attack will deal and how severe its effects will be. Thus, damage is **not** rolled separately. There are three gradings, based on the number of Hits achieved over the defender/Ob:
+* **Glancing**: On `≤ 1` Hit. A fairly weak hit.
+* **Solid**: On `= 2` Hits. A strong hit.
+* **Masterful**: On `≥ 3` Hits. Applies the most severe damage and effects.
 
 ### Opportunity Attacks
-When a character is within weapon's reach of another hostile character, they're considered within the other's **Range of Opportunity**. Whenever a character in an enemy's **Range of Opportunity** moves away from or more than `2` *around* that enemy, that enemy can *choose* to perform an **Opportunity Attack**. It is possible to avoid an **Opportunity Attack** with a [disengage](#disengage) combat action. 
+When a character is within weapon's reach of another hostile character, they're considered within the other's **Range of Opportunity**. Whenever a character in an enemy's Range of Opportunity moves away from or more than `2` squares *around* that enemy, that enemy can *choose* to perform an **Opportunity Attack**. It is possible to avoid an Opportunity Attack with a [disengage](#disengage) combat action. 
 
-Performing an **Opportunity Attack** costs `-1` [AP](#action-points-ap) at a `-1D` penalty and will **halt** the enemy in question, preventing their movement, regardless of whether the attack lands. The attacked party can still choose to [push through](#push-through), thus still getting to move, but if they do, the **Opportunity Attack** is **guaranteed** to land successfully, without any attack [test](#tests) necessary (this counts as an automatic success for the attacker). 
+Performing an Opportunity Attack costs `-1` [AP](#action-points-ap) at a `-1D` penalty and will **halt** the enemy in question, preventing their movement, regardless of whether the attack hits. When an Opportunity Attack against them is declared, the attacked character may choose to [push through](#push-through), thus getting to move after all, but if they do, the attacker instead of losing a die, gains `+1` [Compensation Point](#compensation-points) for their Opportunity Attack!
 
-An **Opportunity Attack** is a **combat action** and a **reaction**. 
+An Opportunity Attack is a **combat action** and a **reaction**. 
 
 ### Flanking
 In a normal duel situation, a person in armor or with a shield will always have an advantage over the person without. There are still ways to get around these defenses, but they usually involve managing to throw the opponent to the ground or using specific [expertises](#expertise). Simply continuing trying to hit someone in armor in a straight fight will not yield you the results you seek. 
@@ -2356,9 +2361,9 @@ Reloading the weapon costs `2` [AP](#action-points-ap).
 Reloading the weapon costs `3` [AP](#action-points-ap).
 
 #### Ranged
-The weapon can be used against targets up to a noted distance away from the user. The range, in squares, is noted in parentheses. This can either indicate a maximum distance, which cannot be exceeded, or a so-called **Distance Increment**, which may be exceeded, but at increasing penalties.
+The weapon can be used against targets up to a noted distance away from the user. The range, in squares, is noted in parentheses. This can either indicate a maximum distance, which cannot be exceeded, or a so-called **Distance Increment**, abbreviated **DI**, which may be exceeded, but with penalties.
 
-For every Distance Increment past the initial, an attack suffers `+1` Ob and `-2` points of damage. In other words, the farther you shoot, the harder it becomes to score an effective hit. 
+For every Distance Increment past the initial, an attack suffers `+1` Ob and deals `-2` points of damage. In other words, the farther you shoot, the harder it becomes to score an effective hit. 
 
 > A weapon with this property noted as `(max. 8)` can attack a target up to a maximum of `8` squares away. 
 
@@ -2371,10 +2376,12 @@ Melee attacks with this weapon cause an additional `+Q` points of Bleeding.
 Melee attacks with this weapon receive `+1` [Compensation Point](#compensation-points). 
 
 #### Poison-Chamber
-Melee attacks with this weapon cause an additional `+Q` points of Poison damage.
+Melee attacks with this weapon cause an additional `+Q` points of Poison damage. The poison-chamber must be regularly refilled. 
 
 ## Lists of Skills
 The following list does not and cannot aim to be a complete listing of all possible skills in game. Adding new skills as necessary will have to be done by the **GM**. Nevertheless, most general scenarios should be covered by these skills. 
+
+Keep in mind that some Expertises may have graded effects. For more on this, see [Damage & Effects](#damage--effects). 
 
 ### Physical Skills
 These skills have a dominant physical aspect and are directly tied to a character's *physical attributes*. 
@@ -2385,7 +2392,7 @@ Performing acrobatic feats, such as jumping, tumbling and climbing, without inju
 | Level | Name                 | AP | **Ob**  | Effect(s)          | Condition(s) |
 | ----- | -------------------- | -- | ------- | ------------------ | ------------ |
 | 1     | Deft Evasion         | /  | /       | **Passive**: While not wearing any [armor](#armor) and not wielding a shield of bulk `2` or more, gain `+1` [Compensation Point](#compensation-points) to any [defense test](#defending) made using this Skill and increase your [Stability](#stability-stabil) by `+1`! | / |
-| 2     | Wind Out Of It       | 1  | 2       | When hit by an attack, wind out of the hit and suffer only half the damage (RU). | / |
+| 2     | Wind Out Of It       | 2  | 2       | When hit by an attack, suffer `+1` [Exhaustion](#exhaustion), wind out of the hit and... <br> `≤ 1` Hit: suffer `3` points of damage less. <br> `= 2` Hits: suffer `5` points of damage less <br> `≥ 3` Hits: suffer `8 or half (RU)` damage less, picking whichever number is higher. | Not [Exhausted](#exhausted) |
 
 #### Berserking (Tough/Tough)
 Whether as a well-honed skill and way of life, or through a disappointing childhood of misery and pain, berserking is a talent for fighting angrily and recklessly. It allows a fighter to keep fighting at surprising strength, even when wounded. 
@@ -2394,23 +2401,19 @@ However, the price for this strength is steep. The chance of death is greatly in
 
 | Level | Name                 | AP | **Ob**  | Effect(s)          | Condition(s) |
 | ----- | -------------------- | -- | ------- | ------------------ | ------------ |
-| 0     | Reckless Assault     | 1  | /       | Deal half of the damage (RU) as additional damage on your next successful attack. Suffer a `-1D` penalty to all [defense tests](#defending) until the start of your next turn. | / |
+| 0     | Reckless Assault     | 1  | /       | Gain `+1` [Compensation Point](#compensation-points) for your next attack. Suffer a `-1D` penalty to all [defense tests](#defending) until the start of your next turn. | / |
 | 1     | Grit Your Teeth      | 0  | /       | **Reaction**: Upon suffering an [Injury](#injury), gain an *additional* [grit point](#grit-points), but at the cost of `1` point of [Exhaustion](#exhaustion)! | Not at Exhaustion limit. |
-| 1     | Hit me? Hit you!     | 1  | /       | **Reaction**: Upon suffering damage, immediately launch a counter-attack and if successful, add half (RU) of the damage that was dealt to you as additional Bludgeoning damage. Suffer `+1` point of [Exhaustion](#exhaustion)! | Not at Exhaustion limit. |
+| 1     | Hit me? Hit you!     | 1  | /       | **Reaction**: Upon suffering damage, immediately hit your attacker back, dealing `Str` Bludgeoning damage to them. Suffer `+1` point of [Exhaustion](#exhaustion)! | Not at Exhaustion limit. |
 | 1     | The Blood Quickens!  | 1  | /       | Reduce your [Exhaustion](#exhaustion) by `1` for every point in [Bleeding](#bleeding) you currently have. | / |
-| 2     | Pain is Strength     | 3  | Opposed | Perform an attack against a **ST**. For every active [Injury](#injury) you currently have, deal one extra `D6` of [Bludgeoning](#damage-types) damage. You suffer one point of [exhaustion](#exhaustion). | / |
-| 3     | Injury Collector     | 0  | 2       | **Reaction**: Upon suffering an [Injury](#injury), with a successful test of this Expertise, remove all additional [penalties](#boons--penalties) (i. e. everything but the [HP](#hit-points-hp) malus) from the [Injury](#injury). | / |
+| 2     | Pain is Strength     | 2  | Opposed | Perform an attack against a **ST**. You suffer one point of [exhaustion](#exhaustion). For every active [Injury](#injury) you currently have, deal <br> `≤ 1` Hit: `2` Bludgeoning <br> `= 2` Hits: `4` Bludgeoning <br> `≥ 3` Hits: `6` Bludgeoning | / |
+| 3     | Injury Collector     | 0  | 2       | **Reaction**: Upon suffering an [Injury](#injury), with a successful test, remove all additional [penalties](#boons--penalties) (i. e. everything but the [HP](#hit-points-hp) malus) from the [Injury](#injury). | / |
 
 | Level | <img src="../../img/heroic-acts.svg" width="64px" height="64px"></img> | Heroic Act Description | Desperate Measure Description | <img src="../../img/desperate-measures.svg" width="64px" height="64px"></img> |
 | ----- | ----------------------- | ---------------------- | ----------------------------- | --------------------------- |
-| 4     | I LOVE PAIN             | **You** gain `+1` [Grit Point](#grit-points) for every [Injury](#injury) **you** currently have. Decreases Momentum by `-15`. | **You** and one chosen **PC** gain `+1` [Grit Point](#grit-points) for every [Injury](#injury) you currently have. You both suffer `1D10` points of Pure damage. Increases Momentum by `+15`. | SHARE THE PAIN |
+| 4     | I LOVE PAIN             | **You** gain `+1` [Grit Point](#grit-points) for every [Injury](#injury) **you** currently have. Decreases Momentum by `-15`. | **You** and one chosen **PC** gain `+1` [Grit Point](#grit-points) for every [Injury](#injury) you currently have. You both suffer `1D8` points of Pure damage. Increases Momentum by `+15`. | SHARE THE PAIN |
 
 #### Driving (Awar/Wit)
-The ability to drive a motorized vehicle. 
-
-| Level | Name                 | AP | **Ob**  | Effect(s)          | Condition(s) |
-| ----- | -------------------- | -- | ------- | ------------------ | ------------ |
-| 2     | Stunt Drive          | /  | 2       | **Reaction**: Upon crashing the vehicle, pull it around to negate some of the forces involved. You and your by-seaters get out of the crash with only an [Injury](#injury). | / |
+The ability to drive a (motorized) vehicle. 
 
 See also [Travel & Terrain](#travel--terrain).
 
@@ -2430,7 +2433,7 @@ Moving silently and performing actions undetected.
 
 | Level | Name                 | AP | **Ob**  | Effect(s)          | Condition(s) |
 | ----- | -------------------- | -- | ------- | ------------------ | ------------ |
-| 2     | Pocket-Sand          | 2  | Opposed | Disappear from a **ST**'s sight, up to `2` away and run up to `2` **AP** worth of distance. This does not provoke Opportunity Attacks from that **ST**. | Once per rest. |
+| 2     | Pocket-Sand          | 2  | Opposed | Disappear from a ST's sight, who is up to `2` squares away and run up to... <br> `≤ 1` Hit: `1` AP worth of distance  <br> `= 2` Hits: `2` AP worth of distance <br> `≥ 3` Hits: `3` AP worth of distance. <br> This does not provoke Opportunity Attacks from that ST. Every time you use this Expertise, your next use is `+1` Ob harder, until the next scene. |  |
 
 #### Swimming (Agi/Tough)
 The ability to safely stay afloat and move around in water. 
@@ -2442,8 +2445,7 @@ Pickpocketing and lockpicking.
 
 | Level | Name                 | AP | **Ob**  | Effect(s)          | Condition(s) |
 | ----- | -------------------- | -- | ------- | ------------------ | ------------ |
-| 3     | Nimble Recovery      | 2  | Opposed | When failing a **thievery test**, roll another **thievery test**, against the target's [observation](#observation-awarawar) to see if you've been found out. If you win, you're not discovered, but you don't succeed at pick-pocketing, either. | Once per rest. |
-| 4     | Feel the Mechanism   | 2  | 1       | Instantly succeed at picking even a very difficult lock. | Once per rest. |
+| 2     | Exploit Distraction  | 1  | 2       | When a foe is attacked by an ally, and you are adjacent to that foe, you may exploit the moment to steal something from their pockets. | Foe *has* pockets. |
 
 #### Observation (Awar/Awar)
 Actively looking out for and detecting hidden things or characters. 
@@ -2453,7 +2455,7 @@ Orienting oneself in the world and finding and following tracks.
 
 | Level | Name                 | AP | **Ob** | Effect(s)          | Condition(s) |
 | ----- | -------------------- | -- | ------ | ------------------ | ------------ |
-| 2     | Find your Bearings   | 1  | 2      | Figure out your current heading and time of day, even when in complete darkness or in a place without landmarks. | Once per location. |
+| 2     | Find your Bearings   | 1  | 2      | Figure out your current heading and time of day, even when in complete darkness or in a place without landmarks. | Once per location or scene. |
 
 #### Shield (Str/Tough)
 Expertise at defending oneself using a shield. 
@@ -2462,17 +2464,16 @@ For any ally next to you, who's also using a shield, you both gain **+1D** on yo
 
 | Level | Name                 | AP | **Ob**  | Effect(s)          | Condition(s) |
 | ----- | -------------------- | -- | ------- | ------------------ | ------------ |
-| 1     | Steady Shield        | /  | /       | **Passive**: While wielding a shield, increase your [Stability](#stability-stabil) by `+1`. | Using shield. |
-| 2     | Shield Slam          | 2  | Opposed | Perform a [single-target](#single-target-st) melee attack to knock your opponent down with your shield. | Using shield. |
+| 2     | Shield Slam          | 2  | Opposed | `≤ 1` Hit: Push the target back by `1` square. <br> `= 2` Hits: `Str` Bludgeoning damage; Push the target back by `1` square. <br> `≥ 3` Hits: `Str * 2` Bludgeoning damage; Knock the target [Prone](#prone) or push them `2` squares back. | Using shield. |
 
 | Level | <img src="../../img/heroic-acts.svg" width="64px" height="64px"></img> | Heroic Act Description | Desperate Measure Description | <img src="../../img/desperate-measures.svg" width="64px" height="64px"></img> |
 | ----- | ----------------------- | ---------------------- | ----------------------------- | --------------------------- |
-| 4     | Launch! | An adjacent ally jumps onto your shield, as you brace yourself and then, in a fluid motion, launch them behind you. This way, your ally may travel up to `N * 1`, where *N* is your [Strength](#strength-str), without provoking [Attacks of Opportunity](#opportunity-attacks). If they land on or near a foe, they may make an immediate free attack against that foe. Decreases Momentum by `-15`. | An adjacent ally jumps onto your shield, as you brace yourself and then, with all your might, in a fluid motion, launch them behind you. This way, your ally may travel up to `N * 2`, where *N* is your [Strength](#strength-str), without provoking [Attacks of Opportunity](#opportunity-attacks). If they land on or near a foe, they may make an immediate free attack against that foe, with `+1` [Compensation Point](#compensation-points). *However*, **you** suffer `+3` [Exhaustion](#exhaustion). Increases Momentum by `+15`. | Strained Launch |
+| 4     | Launch! | An adjacent ally jumps onto your shield, as you brace yourself and then, in a fluid motion, launch them over you. This way, your ally may travel up to `N * 1`, where *N* is your [Strength](#strength-str), without provoking [Attacks of Opportunity](#opportunity-attacks). If they land on or near a foe, they may make an immediate free attack against that foe. Decreases Momentum by `-15`. | An adjacent ally jumps onto your shield, as you brace yourself and then, with all your might, in a fluid motion, launch them over you. This way, your ally may travel up to `N * 2`, where *N* is your [Strength](#strength-str), without provoking [Attacks of Opportunity](#opportunity-attacks). If they land on or near a foe, they may make an immediate free attack against that foe, with `+1` [Compensation Point](#compensation-points). *However*, **you** suffer `+3` [Exhaustion](#exhaustion). Increases Momentum by `+15`. | Strained Launch |
 
 #### Trapping (Awar/Wit)
 Setting traps in places where they're difficult to detect and the ability to disarm them. Used to set traps such as bear traps, pits filled with spikes, land mines and so on.
 
-When setting a trap, roll an Ob `0` test. The number of **hits** represent the quality level of the trap, which determines how hard it is to detect and disarm. `0` **hits** means the trap isn't at all concealed. 
+When setting a trap, roll an Ob `0` test. The number of **hits** represent the quality level of the trap, which determines how hard it is to detect and disarm. `0` **hits** means the trap isn't at all concealed. You may also place traps during combat, and as long as some foe can see you, your trap will never be concealed. 
 
 #### Throwing (Agi/Str)
 General expertise at throwing things. This includes weapons as well as non-weapon objects. 
@@ -2482,20 +2483,18 @@ See [throwing](#throwing).
 #### Unarmed Combat (Agi/Str)
 Sometimes, your own body is your greatest weapon. Fists and feet can cause a surprising amount of damage. 
 
-* Melee
+Properties: [Melee](#melee), [FS](#free-strike-fs): `Str`
 
 | Level | Name                       | AP | **Ob**                               | Damage/Effect         | Condition |
 | ----- | -------------------------- | -- | ------------------------------------ | --------------------- | --------- |
-| 0     | Punch, Kick, Headbutt      | 2  | Opposed                              | `Str * 2` Bludgeoning |  |
-| 0     | Shove                      | 2  | Opposed by [strength](#strength-str) | Push an enemy away from you for `1` * *N*, where *N* is the number of **hits** more than the opponent achieved. |  |
-| 1     | Grapple                    | 2  | Opposed by **Unarmed Combat**        | If **completely successful**, the target is [Grappled](#grappled). The grappler can not use at least one of their hands for as long as they're grappling. |  |
-| 2     | Wrestle and Disarm         | 2  | Opposed by **Unarmed Combat**        | Disarm your opponent and wrestle them to the ground, making them [prone](#prone), if you so choose. | Disarm only if enemy is using detachable weapon. |
-| 3     | Barge In                   | 3  | Opposed by [strength](#strength-str) | Push an enemy away from you for `1` * *N*, where *N* is the number of **hits** more than the opponent achieved. Take their previous position and do **not** provoke [Attacks of Opportunity](#opportunity-attacks). |  |
-| 3     | Be My Shield!              | 1  | /                                    | **Reaction**: If grappling an enemy and being hit with an attack, make *them* take the hit, instead. The grappled enemy gets **no chance** to defend themself. | Grappling an enemy. |
+| 0     | Punch, Kick, Headbutt      | 2  | Opposed                              | `≤ 1` Hit: `Str` Bludgeoning <br> `= 2` Hits: `Str * 2` Bludgeoning <br> `≥ 3` Hits: `Str * 2` Bludgeoning; Knock your opponent [Prone](#prone) |  |
+| 0     | Shove                      | 2  | Opposed by [Strength](#strength-str) | `≤ 1` Hit: Push a target `1` square. <br> `= 2` Hits: Push a target `2` squares and take their place, if you desire. Does not provoke [Opportunity Attacks](#opportunity-attacks). <br> `≥ 3` Hits: Push a target `1 + Str` squares and take their place, if you desire. Does not provoke [Opportunity Attacks](#opportunity-attacks). |  |
+| 1     | Grapple                    | 2  | Opposed by Unarmed Combat            | [Grapple](#grappled) a target. The grappler can not use at least one of their hands for as long as they're grappling. <br> `≤ 1` Hit: The target is [Grappled](#grappled). <br> `= 2` Hits: The target is [Grappled](#grappled) and knocked [Prone](#prone) or disarmed, if possible. <br> `≥ 3` Hits: The target is [Grappled](#grappled), knocked [Prone](#prone) and disarmed, if possible. |  |
+| 3     | Be My Shield!              | 2  | /                                    | **Reaction**: If grappling an enemy and being hit with an attack, make *them* take the hit, instead. The grappled enemy gets **no chance** to defend themself. | Grappling an enemy. |
 
 | Level | <img src="../../img/heroic-acts.svg" width="64px" height="64px"></img> | Heroic Act Description | Desperate Measure Description | <img src="../../img/desperate-measures.svg" width="64px" height="64px"></img> |
 | ----- | ----------------------- | ---------------------- | ----------------------------- | --------------------------- |
-| 4     | Hammer and Anvil        | All **PCs** may immediately attack one foe, dealing `strength * 3` points of Bludgeoning damage and force-moving their foe by `strength * 1`. Multiple **PCs** may attack the same foe, each increasing the distance. Decreases Momentum by `-15`. | A **PC** may immediately attack one adjacent foe, dealing `strength * 3` points of Bludgeoning damage and force moving their foe by `strength * 2`, but also pushing themself in the opposite direction by the same distance. Increases Momentum by `+15`. | All Anvil |
+| 4     | Hammer and Anvil        | All **PCs** may immediately attack one foe, dealing `Strength * 3` points of Bludgeoning damage and force-moving their foe by `Strength * 1`. Multiple **PCs** may attack the same foe, each increasing the distance. Decreases Momentum by `-15`. | A **PC** may immediately attack one adjacent foe, dealing `Strength * 3` points of Bludgeoning damage and force moving their foe by `Strength * 2`, but also pushing themself in the opposite direction by the same distance. Increases Momentum by `+15`. | All Anvil |
 
 #### Weapon < [weapon type](#weapon-types) > (< attribute >)
 Expertise at handling a close-quarters or ranged weapon of a specific [weapon type](#weapon-types). 
@@ -2508,11 +2507,6 @@ Changing one's visual language, mannerisms, tone of voice and forms of speech to
 
 A vital skill in stage-play for honest entertainment and just as important to liars and cheats who prefer to entertain only themselves. 
 
-| Level | Name                 | AP | **Ob**  | Effect(s)          | Condition(s) |
-| ----- | -------------------- | -- | ------- | ------------------ | ------------ |
-| 0     | Taunt                | 2  | Opposed by [self-control](#self-control-toughtough) | Force a designated target to attack *you* on their next turn. | |
-| 3     | Vicious Mockery      | 2  | Opposed by [self-control](#self-control-toughtough) | Lower a designated target's defense by **-1D** until the end of their next turn and force them to attack *you*. | |
-
 #### Animal Handling (Awar/Awar)
 Gaining an animal's trust, directing it and training it to obey simple commands. 
 
@@ -2520,7 +2514,7 @@ Is opposed by [self-control](#self-control-toughtough).
 
 | Level | Name                 | AP | **Ob**  | Effect(s)          | Condition(s) |
 | ----- | -------------------- | -- | ------- | ------------------ | ------------ |
-| 0     | Command Animal       | 2  | Opposed by [self-control](#self-control-toughtough) | Issue a *simple* command to a tamed/friendly animal. | / |
+| 0     | Command Animal       | 2  | 1       | Issue a *simple* command to a tamed/friendly animal. | |
 | 2     | Calm Animal          | 2  | Opposed by [self-control](#self-control-toughtough) | Calm an aggressive/hostile/frightened animal down. | Once per scene. |
 
 #### Commanding (Tough/Wit)
@@ -2528,16 +2522,28 @@ Speaking commands with booming authority.
 
 | Level | Name                   | AP | **Ob**  | Effect(s)          | Condition(s) |
 | ----- | ---------------------- | -- | ------- | ------------------ | ------------ |
-| 0     | Focus!                 | 1  | 1       | Grant another character `+1D` for their next test. |  |
+| 0     | Focus!                 | 1  | 1       | <br> `≤ 1` Hit: Grant another character `+1D` for their next test. <br> `= 2` Hits: Grant another character `+2D` for their next test. <br> `≥ 3` Hits: Grant another character `+1` Compensation Point for their next test. <br> Causes `+1` [Exhaustion](#exhaustion) to self. |  |
 | 0     | Shake It Off!          | 2  | 2       | Remove another character's [Exhausted](#exhausted) or [Terrified](#terrified) [Condition](#condition). |  |
-| 1     | Hit That One!          | 1  | 2       | [Mark](#marked) a **ST** of choice. |  |
-| 2     | Deep Lungs             | /  | 2       | Immediately grant yourself `+1` [AP](#action-points-ap), but suffer `+1` [Exhaustion](#exhaustion). | Only once per round. |
-| 3     | Protect Me!            | 1  | /       | **Reaction**: Upon being attacked, force an ally adjacent to you to defend to defend in your stead and grant them `+1` [Compensation Point](#compensation-points) for the defense test. | Ally can hear the command. |
-| 3     | Put Your Back Into It! | 1  | 2       | **Reaction**: Upon an ally [force moving](#forced-movement) another character, increase the distance by `N * 1`, where *N* is the **hits** past the **Ob** you achieve. | Ally can hear the command. |
-| 3     | You Pathetic Worm!     | 1  | Opposed by [Toughness](#toughness-tough) | Intimidate a **ST** of choice, within ear-shot. They suffer `-1D` for their next defense test, for `1` round, and have to back away from you, by `2`! | Victim can hear it. |
-| 4     | You! Attack Already!   | 1  | 3       | An ally of choice gains `+1D` on their next attack test, which they must immediately make against a **ST**, within reach. You may choose the target in question, or let your ally decide. But they *must* attack! This attack does **not** cost your ally any additional [AP](#action-points-ap)! | Ally can hear the command. |
-| 5     | Faster, You Slouch!    | 2  | 2       | An ally of choice is [Hasted](#hasted) for `1` round. | Ally can hear the command. |
-| 6     | You Die When I Say!    | 2  | /       | **Reaction**: An ally whose HP are about to be reduced to `0` are instead reduced to your number of **hits** achieved. Your ally does not die, but now suffers the [Exhausted](#exhausted) [Condition](#condition)! | Ally can hear the command. Ally is not Exhausted. |
+| 0     | Taunt                  | 2  | Opposed by [self-control](#self-control-toughtough) | <br> `≤ 1` Hit: Force a designated target to attack *you* on their next turn. <br> `= 2` Hits: Force a designated target to attack *you* on their next turn, at Ob `+1`. <br> `≥ 3` Hits: Force up to two designated targets to attack *you* on their next turn, at Ob `+1`. | |
+| 1     | Hit That One!          | 1  |         | [Mark](#marked) a **ST** of choice. | Only one foe may be marked this way. |
+| 1     | Back Off, Fool!        | 1  | Opposed by [Toughness](#toughness-tough) | <br> `≤ 1` Hit: Force a designated target to back away from you for `1` square. <br> `= 2` Hits: Force a designated target to back away from you for `2` squares. <br> `≥ 3` Hits: Force up to two designated targets to back away from you for `2` squares. |  |
+| 2     | Deep Lungs             |    | 2       | Immediately grant yourself `+1` [AP](#action-points-ap), but suffer `+1` [Exhaustion](#exhaustion). | Only once per round. |
+
+##### Commanding Specialization - Taskmaster
+Ensuring others perform to expectation - regardless of whether they want to.
+
+Requirement: Commanding level `4`; A position of authority. 
+
+| Level | Name                   | AP | **Ob**  | Effect(s)          | Condition(s) |
+| ----- | ---------------------- | -- | ------- | ------------------ | ------------ |
+| 0     | Put Your Back Into It! | 1  | 2       | **Reaction**: Upon an ally [force moving](#forced-movement) another character, increase the distance by `N * 1`, where *N* is the **hits** past the **Ob** you achieve. | Ally can hear the command. |
+| 0     | Protect Me!            | 1  | /       | **Reaction**: Upon being attacked, force an ally adjacent to you to defend to defend in your stead and grant them `+1` [Compensation Point](#compensation-points) for the defense test. | Ally can hear the command. |
+| 1     | You! Attack Already!   | 1  | 3       | An ally of choice gains `+1D` on their next attack test, which they must immediately make against a **ST**, within reach. You may choose the target in question, or let your ally decide. But they *must* attack! This attack does **not** cost your ally any additional [AP](#action-points-ap)! | Ally can hear the command. |
+| 2     | Faster, You Slouch!    | 2  | 2       | An ally of choice is [Hasted](#hasted) for `1` round. | Ally can hear the command. |
+
+| Level | <img src="../../img/heroic-acts.svg" width="64px" height="64px"></img> | Heroic Act Description | Desperate Measure Description | <img src="../../img/desperate-measures.svg" width="64px" height="64px"></img> |
+| ----- | ----------------------- | ---------------------- | ----------------------------- | --------------------------- |
+| 4     | You Die When I Say! | An ally of choice is marked. When their HP are about to be reduced to `0`, they are instead reduced to `1`. Your ally does not die, but now suffers the [Exhausted](#exhausted) [Condition](#condition)! Decreases Momentum by `-35`. | An ally of choice is marked. When their HP are about to be reduced to `0`, they are instead set to your own current HP, plus `10` [Temporary HP](#temporary-hit-points) and yours are reduced to `1`. Increases Momentum by `+10`. | I Take The Fall! |
 
 #### Entertainment (Agi/Wit)
 The ability to juggle, perform tricks with cards, to perform "magic" tricks and such - anything requiring nimble fingers and flashy presentation, for the entertainment of others. 
@@ -2550,14 +2556,12 @@ See [trade](#trade) on how to use this **skill** on a more abstract level.
 Can also be used as a sort of catch-all **skill** for [appraisal](#appraisal), but at a penalty of +1 **Ob**. 
 
 #### Riding (Agi/Awar)
-Riding and controling a mount.
-
-In and outside of [combat](#combat), a rider will inherit the [speed](#combat-movement) of the mount they're on. 
+Riding and controling a mount. In and outside of [combat](#combat), a rider will inherit the [speed](#combat-movement) of the mount they're on. 
 
 | Level | Name                 | AP | **Ob** | Effect(s)          | Condition(s) |
 | ----- | -------------------- | -- | ------ | ------------------ | ------------ |
-| 1     | Spur                 | 1  | 2      | Gain an additional 2 **AP** worth of movement from your mount. You and your mount suffer `+1` [Exhaustion](#exhaustion). | Only once per round. |
-| 3     | Mounted Charge       | 3  | 3      | Perform a mounted charge attack, dealing `2D4` additional points of bludgeoning damage. | Mounted on a fast and strong animal; Must have enough distance to target to gain enough speed - refer to **GM**'s judgement. |
+| 1     | Spur                 | 1  | 1      | Your mount gains `+2` AP. You and your mount suffer `+1` [Exhaustion](#exhaustion). | Only once per round. |
+| 3     | Mounted Charge       | 3  | 3      | Perform a mounted charge attack, moving up to `3` AP worth of distance, launch a free attack on a ST along the path and deal an additional... <br> `≤ 1` Hit: `3` points of Bludgeoning damage. <br> `= 2` Hits: `6` points of Bludgeoning damage. <br> `≥ 3` Hits: `10` points of Bludgeoning damage. |  |
 
 #### Self-Control (Tough/Tough)
 Mastery of one's own impulses. Used to stay awake past the point of exhaustion and to not act on emotional impulse. 
@@ -2573,7 +2577,7 @@ An eye for historic detail, the ability to date such things and the capacity to 
 
 | Level | Name                 | AP | **Ob**  | Effect(s)          | Condition(s) |
 | ----- | -------------------- | -- | ------- | ------------------ | ------------ |
-| 2     | Look For Curios      | 1  | 2       | Look around for curios - things from a bygone age - and if successful, then the number of hits past the Ob you score, determine its significane and worth. Can only be used in places lost to time and only once per location. Your **GM** will determine the specifics in terms of money value and [bulk](#bulk). |  |
+| 2     | Look For Curios      | 1  | 2       | Look around for curios - things from a bygone age. Your **GM** will determine the specifics in terms of money value and [bulk](#bulk). <br> `≤ 1` Hit: You find a simple trinket, worth little. <br> `= 2` Hits: You find a significant trinket, worth a tidy sum. <br> `≥ 3` Hits: You find something extraordinary, easily valued at a small fortune. | Can only be used in places lost to time and only once per location. |
 
 #### Creature-Lore < category > (Awar/Wit)
 Knowledge about a specific type/family of creature. You can recollect knowledge regarding the strengths and weaknesses, as well as behavior, origin and occurrence. 
@@ -2583,7 +2587,7 @@ Types/families are the broad terms that describe multiple specific creatures as 
 | Level | Name                 | AP | **Ob**  | Effect(s)          | Condition(s) |
 | ----- | -------------------- | -- | ------- | ------------------ | ------------ |
 | 1     | I Know Your Weakness | /  | /       | **Passive**: Every creature has weak-points. You know how to aim for them and deal `+4` points of Pure damage on a successful attack, *if* this is a creature of the category you are familar with. |  |
-| 2     | I Know Your Strength | 1  | /       | **Reaction**: When you are hit by a creature you are familiar with, you suffer `1D10` fewer points of damage, *if* this is a creature of the category you are familar with. Their effective damage against you cannot be reduced to less than `1` by this. |  |
+| 2     | I Know Your Strength | 1  | 2       | **Reaction**: When you are hit by a creature you are familiar with, you suffer...<br> `≤ 1` Hit: `2` <br> `= 2` Hits: `3` <br> `≥ 3` Hits: `5` <br>...fewer points of damage, *if* this is a creature of the category you are familar with. Their effective damage against you cannot be reduced to less than `1` by this. |  |
 
 | Level | <img src="../../img/heroic-acts.svg" width="64px" height="64px"></img> | Heroic Act Description | Desperate Measure Description | <img src="../../img/desperate-measures.svg" width="64px" height="64px"></img> |
 | ----- | ----------------------- | ---------------------- | ----------------------------- | --------------------------- |
@@ -2604,7 +2608,7 @@ Specific historical knowledge should be noted.
 
 | Level | <img src="../../img/heroic-acts.svg" width="64px" height="64px"></img> | Heroic Act Description | Desperate Measure Description | <img src="../../img/desperate-measures.svg" width="64px" height="64px"></img> |
 | ----- | ----------------------- | ---------------------- | ----------------------------- | --------------------------- |
-| 3     | I Have Read Your Doom | Recite, with zealous ferocity, ancient lore that strikingly paints the doom of a single, chosen foe. *If* they are a sentient being that can understand you, they become [Terrified](#terrified) of you, for `1` round. *If not*, then your calamitous prognostications inspire your allies. All *other* **PCs** and allies gain `+1` [Compensation Point](#compensation-points) to their next test, until the end of the round. Decreases Momentum by `-20`. | Recite, with zealous ferocity, ancient lore that strikingly paints the doom of **all**. *Any* sentient being that can understand you and who is not an ally, becomes [Terrified](#terrified) of you, for `1` round. *However*, your calamitous prognostications dampen your allies' spirits. They suffer `+1` **Ob** for their next test, until the end of the round. Increases Momentum by `+10`. | Doom Is Upon Us! |
+| 3     | I Have Read Your Doom | Recite, with zealous ferocity, ancient lore that strikingly paints the doom of a single, chosen foe. *If* they are a sapient being that can understand you, they become [Terrified](#terrified) of you, for `1` round. *If not*, then your calamitous prognostications inspire your allies. All *other* **PCs** and allies gain `+1` [Compensation Point](#compensation-points) to their next test, until the end of the round. Decreases Momentum by `-20`. | Recite, with zealous ferocity, ancient lore that strikingly paints the doom of **all**. *Any* sapient being that can understand you and who is not an ally, becomes [Terrified](#terrified) of you, for `1` round. *However*, your calamitous prognostications dampen your allies' spirits. They suffer `+1` **Ob** for their next test, until the end of the round. Increases Momentum by `+10`. | Doom Is Upon Us! |
 
 #### Law and politics (Wit/Wit)
 The ability to understand laws and politics, as well as the ability to direct politics. 
@@ -2671,7 +2675,7 @@ This governs the understanding of what makes defensive structures effective and 
 | ----- | ---------------------- | -- | ------ | ------------------ | ------------ |
 | 0     | Blitz Stratagem        | 1  | 1      | If you have placed a Key Zone, turn it into a Zone of Mobility, replacing all its effects. You and all allies beginning their movement from within this zone may move an additional `6` squares per [AP](#action-points-ap) spent. | / |
 | 0     | Breakthrough Stratagem | 1  | 2      | If you have placed a Key Zone, turn it into a Breakthrough Zone, replacing all its effects. All enemies inside the zone, who are attacked, may also be [Force Moved](#forced-movement) back, by a number of squares equal to your achieved `hits`. | / |
-| 0     | Designate Key Zone     | 1  | /      | **Concentration**: Designate a zone up to `2` in radius. If such a zone already exists, it is replaced with this one. The zone lasts for as long as you desire. You instruct your allies, to get the most out of this area. Once you designate a type for it, they *will* know what to do. Effects from allies' zones do not stack with this one, if their zone is of the same type. | / |
+| 0     | Designate Key Zone     | 1  | /      | **Concentration**: Designate a zone up to `2` squares in radius. If such a zone already exists, it is replaced with this one. The zone lasts for as long as you desire. You instruct your allies, to get the most out of this area. Once you designate a type for it, they *will* know what to do. Effects from allies' zones do not stack with this one, if their zone is of the same type. | / |
 | 1     | Killzone Stratagem     | 1  | 2      | If you have placed a Key Zone, turn it into a Killzone, replacing all its effects. All enemies inside the zone, who are damaged immediately die if their [HP](#hit-points-hp) are brought to `2 * your Toughness + hits` or less. | / |
 | 1     | Trenchline Stratagem   | 1  | 2      | If you have placed a Key Zone, turn it into a Trenchline Zone, replacing all its effects. All [AoE](#area-of-effect-aoe) damage that applies to you and/or your allies is reduced by `hits * 3`. Also, your and your allies' [Stability](#stability-stabil) is increased by `+2` while in the zone. | / |
 | 2     | Fear Stratagem         | 1  | 1      | If you have placed a Key Zone, turn it into a Zone of Fear, replacing all its effects. All enemies inside this zone, who suffer damage must succeed a [Self-Control](#self-control-toughtough) test at **Ob** equal to your number of **hits**, or else become [Terrified](#terrified) of the zone. | / |
@@ -2679,7 +2683,7 @@ This governs the understanding of what makes defensive structures effective and 
 
 | Level | <img src="../../img/heroic-acts.svg" width="64px" height="64px"></img> | Heroic Act Description | Desperate Measure Description | <img src="../../img/desperate-measures.svg" width="64px" height="64px"></img> |
 | ----- | ----------------------- | ---------------------- | ----------------------------- | --------------------------- |
-| 4     | Take and Hold! <br><img src="../../img/heroic-act_take-and-hold.svg" width="64px" height="64px"></img> | Designate an area up to `3` in radius. Until the end of combat, any **PC** and ally inside this zone receives `+1` [AP](#action-points-ap) at turn start and `+1` [Compensation Point](#compensation-points) for every test. If such a zone already exists, it is replaced with the new one. Decreases Momentum by `-30`. | Designate an area up to `3` in radius. Until the end of combat, any **PC** and ally inside this zone receives `+1` [Compensation Point](#compensation-points) for every test and may freely [Counter-Attack](#defense-stunts) *every* attack, but every **PC** *outside* this zone suffers `+1` **Ob** for **every test**. If such a zone already exists, it is replaced with the new one. Increases Momentum by `+15`. | Not A Step Back! <br><img src="../../img/desperate-measure_not-a-step-back.svg" width="64px" height="64px"></img> |
+| 4     | Take and Hold! <br><img src="../../img/heroic-act_take-and-hold.svg" width="64px" height="64px"></img> | Designate an area up to `3` squares in radius. Until the end of combat, any **PC** and ally inside this zone receives `+1` [AP](#action-points-ap) at turn start and `+1` [Compensation Point](#compensation-points) for every test. If such a zone already exists, it is replaced with the new one. Decreases Momentum by `-30`. | Designate an area up to `3` squares in radius. Until the end of combat, any **PC** and ally inside this zone receives `+1` [Compensation Point](#compensation-points) for every test and may freely [Counter-Attack](#defense-stunts) *every* attack, but every **PC** *outside* this zone suffers `+1` **Ob** for **every test**. If such a zone already exists, it is replaced with the new one. Increases Momentum by `+15`. | Not A Step Back! <br><img src="../../img/desperate-measure_not-a-step-back.svg" width="64px" height="64px"></img> |
 
 ### Artisan Skills
 All artisan Skills require a mix of physical and mental attributes, for the purpose of creating a wide variety of things. Mechanically speaking, these are [crafting](#crafting--research-projects) Skills.
@@ -2714,7 +2718,7 @@ The boons from meals do not stack. Eating a second meal will have it override al
 The following is a list of all [Traits](#traits) of the core rules. 
 
 ### Breath Weapon
-Obvious jokes aside, your breath can deal some tangible damage. `1D8` of either Acid, Burning, Freezing or Poison damage (choose one when receiving the Trait). This costs `3` AP and launches an AoE ranged attack with a distance of `3`.
+Obvious jokes aside, your breath can deal some tangible damage. `1D8 + 2` of either Acid, Burning, Freezing or Poison damage (choose one when receiving the Trait). This costs `1` AP and launches an AoE ranged attack with a distance of `3` squares. Can only be used once per turn. 
 
 ### Innate Armor
 Whether naturally tough-skinned or artificially enhanced, your hide proves especially resistant against a chosen type or damage, with `6` points of armor. 
@@ -2731,9 +2735,9 @@ Adds the following Expertises to [Acrobatics](#acrobatics-agistr):
 
 | Name                 | AP | **Ob**      | Effect(s)          |
 | -------------------- | -- | ----------- | ------------------ |
-| Vault & Jab          | 2  | Opposed - 1 | Vault over an enemy, placing yourself directly behind them, and strike them with a weapon, for half (RU) of its damage and pushing them back `1`. |
+| Vault & Jab          | 2  | Opposed - 1 | Vault over an enemy, placing yourself directly behind them, launch a free attack against them and push them away... <br> `≤ 1` Hit: `1` square. <br> `= 2` Hits: `2` squares. <br> `≥ 3` Hits: `3` squares. |
 | Bounce Back          | /  | /           | **Reaction**: When knocked down immediately get back up, at no [AP](#action-points-ap) cost. You must not be wearing armor. |
-| Area Evasion         | 1  | /           | **Reaction**: Suffer only half (RU) [aoe](#area-of-effect-aoe) damage. |
+| Area Evasion         | 1  | 1           | **Reaction**: Suffer... <br> `≤ 1` Hit: `2` fewer points of AoE damage. <br> `= 2` Hits: `4` fewer points of AoE damage. <br> `≥ 3` Hits: `6` fewer points of AoE damage. |
 | Shield Breaker       | /  | /           | **Passive**: You know to exploit the lethargy of shields and can circumvent their defensive bonuses. Against you, shields always count as `+1` degree of [Flanked](#flanking)! |
 
 ## List of Titles of Renown
@@ -2790,14 +2794,14 @@ The local authorities will be much more open to the idea of assisting you in you
 `+1` to [Unarmed Combat](#unarmed-combat-agistr), but only when fighting in a tavern/bar. 
 
 ### Quite The Mercenary
-> How much? I'll pay anything, I know you're good for it!
+> Offer me a good price, and I'll get you good results, regardless of what needs doin'.
 
 **Prerequisites**: Successfully complete at least `3` deeply immoral jobs. 
 
 You find it much easier to haggle for better payment conditions with potential contractors and to intimidate those who know your name. 
 
 ### Savior Of The People
-> Our eternal gratitude is yours! Oh, if only we could properly repay you...
+> Our eternal gratitude is yours! Oh, if only we could ever properly repay you...
 
 **Prerequisites**: Saved an entire community from certain doom.
 
@@ -2811,7 +2815,7 @@ The people you saved will gladly help you in all your endeavours, if they can. Y
 While you should avoid the authorities, you've some clout with the criminal underworld. You may be approached with job offers of a shady nature, or a way to clear your name. `+1` to [Stealth](#stealth-agiawar).
 
 ### Zealot
-> Unfazed by heresy, unbowed by adversity, unfaltering in my resolve - I am the torch in the dark!
+> Unfazed by heresy, unbowed by adversity, unfaltering in my resolve - I am the torch in the dark! I think.
 
 **Prerequisites**: Proved your conviction through incredible acts of faith. And eliminated all opposition to the faith you come across. 
 
@@ -2929,7 +2933,7 @@ A character who has been made unnaturally **Jealous**, will do anything in their
 ### Marked
 <img src="../../img/health-condition-marked.svg" style="width: 3rem; height: 3rem;"></img>
 
-A Marked character suffers `-1D` to all defense tests and `+50%` damage (RU) from all **direct** sources (meaning damage from [Bleeding](#bleeding), [Burning](#burning) and [Poisoned](#poisoned) is excluded). 
+A Marked character suffers `-1D` to all defense tests and `+5` Pure damage from all **direct** sources (meaning damage from environmental hazards is excluded). 
 
 * Automatic shrug-off: After `1` round.
 
@@ -2994,18 +2998,18 @@ An **Unconscious** character is unable to act and is unaware of their surroundin
 ## List of Illnesses
 | Range D100 | Name              | Duration          | Effect      | Treatment |
 | ---------- | ----------------- | ----------------- | ----------- | --------- |
-| 1 - 8      | Strength Sap      | **1D10 + 3** Days | The muscles atrophy, despite any physical exercise. If not treated quickly, the victim will quickly find themselves unable to move, at all. **-1D4** [strength](#strength-str); Max 2 movement distance. | [Medicine](#medicine-agiwit) **Ob** 1D4; Reduces the duration by **2D4** days. |
-| 9 - 16     | Lung Fever        | **1D10 + 1** Days | The victim finds themselves easily winded, even by simple acts, such as walking to the privy at night. **-(1D4 + 1)** [toughness](#toughness-tough). | [Medicine](#medicine-agiwit) **Ob** 1; The ill-effects are suspended for 24 hours. |
-| 17 - 24    | Water's Curse     | **1D10 + 1** Days | The victim sweats uncontrollably and has watery stools, thus dehydrating rapidly and losing consciousness frequently. **-1D4** [toughness](#toughness-tough); [exhausted](#exhausted). | [Medicine](#medicine-agiwit) **Ob** 1D4; Reduces the duration by **1D10** days and suspends the ill-effects for 24 hours. |
-| 25 - 32    | Jazz-Hands        | **1D10 + 3** Days | The victim can't stop the tremors in their arms. Any action requiring precise movements is impossible. **-1D4** [agility](#agility-agi). | [Medicine](#medicine-agiwit) **Ob** 1; The ill-effects are suspended for 24 hours. |
-| 33 - 40    | Brain Rot         | **2D10** Days     | The victim's mind dulls. They find it difficult to form coherent thoughts. **-1D4** [wit](#wit-wit). | [Medicine](#medicine-agiwit) **Ob** 1; The ill-effects are suspended for 24 hours. |
-| 41 - 48    | Feeble Tounge     | **1D10 + 3** Days | The tounge flops and waggles around uncontrollably. Speech is impaired. **-1D4** [wit](#wit-wit). | [Medicine](#medicine-agiwit) **Ob** 1D4; Reduces the duration by **2D4** days. |
-| 49 - 56    | Wound Fever       | Until cured       | [Injuries](#injury) of the victim refuse *any* **treatment**. | [Medicine](#medicine-agiwit) **Ob** 2; Sets the duration to **1D10** days. |
-| 57 - 64    | Filth Fever       | **1D10 + 1** Days | The victim coughs uncontrollably and violently, with awful-smelling breath. **-1D4** [toughness](#toughness-tough). | [Medicine](#medicine-agiwit) **Ob** 1D4 + 1; Removes the illness on the next day. |
-| 65 - 80    | Coldness of Heart | **1D10 + 1** Days | The victim feels distant, as if they were only spectators in their own body. **-1D4** [awareness](#awareness-awar). | [Medicine](#medicine-agiwit) **Ob** 1D4; Reduces the duration by **2D4** days. |
-| 81 - 88    | Rot Plague        | **4D10** Days     | The skin starts developing a nasty rash, before flaking off. Not only unsightly, the bare flesh underneath smells like it's rotting. **-(1D4 + 1)** [toughness](#toughness-tough). | [Surgery](#surgery-agiwit) **Ob** 2; The ill-effects are suspended for 24 hours. |
-| 89 - 95    | Organ Mold        | Until cured       | Causes an [injury](#injury) every day it is active. | [Surgery](#surgery-agiwit) **Ob** 1D4 + 1; The illness is removed within a day. |
-| 96 - 100   | Red Death         | Until cured       | The victim starts bleeding from all of their orifices, with no end in sight. Causes 3 points of [bleeding](#bleeding) every day it is active. | [Surgery](#surgery-agiwit) **Ob** 2; The illness is removed within a day. |
+| 1 - 8      | Strength Sap      | `1D10 + 3` Days   | The muscles atrophy, despite any physical exercise. If not treated quickly, the victim will quickly find themselves unable to move, at all. `-1D4` [strength](#strength-str); Max. `2` squares movement. | [Medicine](#medicine-agiwit) Ob `1D4`; Reduces the duration by `2D4` days. |
+| 9 - 16     | Lung Fever        | `1D10 + 1` Days   | The victim finds themselves easily winded, even by simple acts, such as walking to the privy at night. `-(1D4 + 1)` [toughness](#toughness-tough). | [Medicine](#medicine-agiwit) Ob `1`; The ill-effects are suspended for `24` hours. |
+| 17 - 24    | Water's Curse     | `1D10 + 1` Days   | The victim sweats uncontrollably and has watery stools, thus dehydrating rapidly and losing consciousness frequently. `-1D4` [toughness](#toughness-tough); [exhausted](#exhausted). | [Medicine](#medicine-agiwit) Ob `1D4`; Reduces the duration by `1D10` days and suspends the ill-effects for `24` hours. |
+| 25 - 32    | Jazz-Hands        | `1D10 + 3` Days   | The victim can't stop the tremors in their arms. Any action requiring precise movements is impossible. `-1D4` [agility](#agility-agi). | [Medicine](#medicine-agiwit) Ob `1`; The ill-effects are suspended for `24` hours. |
+| 33 - 40    | Brain Rot         | `2D10` Days       | The victim's mind dulls. They find it difficult to form coherent thoughts. `-1D4` [wit](#wit-wit). | [Medicine](#medicine-agiwit) Ob `1`; The ill-effects are suspended for `24` hours. |
+| 41 - 48    | Feeble Tounge     | `1D10 + 3` Days   | The tounge flops and waggles around uncontrollably. Speech is impaired. `-1D4` [wit](#wit-wit). | [Medicine](#medicine-agiwit) Ob `1D4`; Reduces the duration by `2D4` days. |
+| 49 - 56    | Wound Fever       | Until cured       | [Injuries](#injury) of the victim refuse *any* **treatment**. | [Medicine](#medicine-agiwit) Ob `2`; Sets the duration to `1D10` days. |
+| 57 - 64    | Filth Fever       | `1D10 + 1` Days   | The victim coughs uncontrollably and violently, with awful-smelling breath. `-1D4` [toughness](#toughness-tough). | [Medicine](#medicine-agiwit) Ob `1D4 + 1`; Removes the illness on the next day. |
+| 65 - 80    | Coldness of Heart | `1D10 + 1` Days   | The victim feels distant, as if they were only spectators in their own body. `-1D4` [awareness](#awareness-awar). | [Medicine](#medicine-agiwit) Ob `1D4`; Reduces the duration by `2D4` days. |
+| 81 - 88    | Rot Plague        | `4D10` Days       | The skin starts developing a nasty rash, before flaking off. Not only unsightly, the bare flesh underneath smells like it's rotting. `-(1D4 + 1)` [toughness](#toughness-tough). | [Surgery](#surgery-agiwit) Ob `2`; The ill-effects are suspended for `24` hours. |
+| 89 - 95    | Organ Mold        | Until cured       | Causes an [Injury](#injury) every day it is active. | [Surgery](#surgery-agiwit) Ob `1D4 + 1`; The illness is removed within a day. |
+| 96 - 100   | Red Death         | Until cured       | The victim starts bleeding from all of their orifices, with no end in sight. Causes `3` points of [Bleeding](#bleeding) every day it is active. | [Surgery](#surgery-agiwit) Ob `2`; The illness is removed within a day. |
 
 ## List of Mutations
 One should always keep in mind that despite the game mechanical effects of a mutation, the appearance of an affected individual will also be severly altered. Other characters and creatures may react with disgust, fear, disdain, pity, and so on. 
@@ -3013,20 +3017,20 @@ One should always keep in mind that despite the game mechanical effects of a mut
 | Range D100 | Name                   | Effect                            |
 | ---------- | ---------------------- | --------------------------------- |
 | 1 - 5      | Cosmic Fortune         | Suffer no mutation! |
-| 6 - 12     | Deformed Arm           | The arm deforms and bends in ways it was never meant to. -1 [agility](#agility-agi). |
-| 13 - 19    | Grotesque Claws        | The entire lower arm morphs into three large claws. Unable to hold *anything* with that arm, but able to perform claw attacks that deal **3D6** **slashing** damage. |
-| 20 - 25    | Deformed Leg           | The leg deforms and bends in ways it was never meant to. -1 [agility](#agility-agi). |
-| 26 - 32    | Deformed Face          | A morphed visage, forever stuck in agony, horror and anger. +1 [commanding](#commanding-toughwit), -1 [acting](#acting-awarwit). |
-| 33 - 39    | Internal Changes       | Something deep within isn't quite right. -1 [toughness](#toughness-tough). |
-| 40 - 46    | Bulbous Head           | Part of the cranium grows tumurously. The brain is weighed down and slowed down. -1 [wit](#wit-wit). |
-| 47 - 53    | Animal Ears            | The ears morph into something resembling animal ears (or another animal's ears). Despite the obvious reason for ridicule, there are no penalties. +1 [awareness](#awareness-awar) (hearing). |
-| 54 - 59    | Animal Tail            | A tail sprouts where there was perhaps never meant to be one. Or an additional tail sprouts. Despite the obvious reason for ridicule, there are no penalties. +1 [acrobatics](#acrobatics-agistr). |
-| 60 - 66    | Atrophy                | The muscles deflate and unnatural weakness takes hold. -2 [strength](#strength-str) |
+| 6 - 12     | Deformed Arm           | The arm deforms and bends in ways it was never meant to. `-1` [Agility](#agility-agi). |
+| 13 - 19    | Grotesque Claws        | The entire lower arm morphs into three large claws. Unable to hold *anything* with that arm, but Unarmed Combat attacks deal an additional `6` Slashing damage. |
+| 20 - 25    | Deformed Leg           | The leg deforms and bends in ways it was never meant to. `-1` [Agility](#agility-agi). |
+| 26 - 32    | Deformed Face          | A morphed visage, forever stuck in agony, horror and anger. `+1` [Commanding](#commanding-toughwit), `-1` [Acting](#acting-awarwit). |
+| 33 - 39    | Internal Changes       | Something deep within isn't quite right. `-1` [Toughness](#toughness-tough). |
+| 40 - 46    | Bulbous Head           | Part of the cranium grows tumurously. The brain is weighed and slowed down. `-1` [Wit](#wit-wit). |
+| 47 - 53    | Animal Ears            | The ears morph into something resembling animal ears (or another animal's ears). Despite the obvious reason for ridicule, there are no penalties. `+1` [Awareness](#awareness-awar) (hearing). |
+| 54 - 59    | Animal Tail            | A tail sprouts where there was perhaps never meant to be one. Or an additional tail sprouts. Despite the obvious reason for ridicule, there are no penalties. `+1` [Acrobatics](#acrobatics-agistr). |
+| 60 - 66    | Atrophy                | The muscles deflate and unnatural weakness takes hold. `-2` [Strength](#strength-str) |
 | 67 - 73    | Blackened Nails        | Every finger and toe nail turns a goth black. That's about it. |
 | 74 - 80    | Hairless               | Every single hair falls from the body. A terminal case of baldness ensues. |
-| 81 - 86    | Special Needs Eyes     | The eyes turn a deep red and go cross-eyed. -1 [awareness](#awareness-awar) (seeing) |
-| 87 - 93    | Fetid Stench           | Whether from the mouth, or in general, a fetid stench emanates from the body, even assaulting the victim's own nose. -1 [awareness](#awareness-awar), -1 [stealth](#stealth-agiawar) (when smell is concerned). |
-| 94 - 100   | Living Cadaver         | The body withers and pales. It is as if it had just risen from the grave. -1 [toughness](#toughness-tough). |
+| 81 - 86    | Special Needs Eyes     | The eyes turn a deep red and go cross-eyed. `-1` [Awareness](#awareness-awar) (seeing) |
+| 87 - 93    | Fetid Stench           | Whether from the mouth, or in general, a fetid stench emanates from the body, even assaulting the victim's own nose. `-1` [Awareness](#awareness-awar), `-1` [Stealth](#stealth-agiawar) (when smell is concerned). |
+| 94 - 100   | Living Cadaver         | The body withers and pales. It is as if it had just risen from the grave. `-1` [Toughness](#toughness-tough). |
 
 ## Targeting-Types
 The number of targets that an [expertise](#expertise) can apply to, with a single use, is defined through the **targeting-types**. 
@@ -3374,11 +3378,11 @@ Of course, in order for the NPC to defend, they require [AP](#action-points-ap).
 The Defense characteristic should be reserved for Feeble and Regular creatures or those creatures you wish to employ en masse. 
 
 ## Free Strike [FS]
-The **Free Strike (FS)** characteristic is reserved solely for NPCs and is the damage value used when multiple of the same type of NPC launch an attack at the same time, as a [squad](#npc-squads).
+The **Free Strike (FS)** characteristic is reserved solely for NPCs and is the damage value used when multiple of the same type of NPC launch an attack at the same time, as a [Squad](#npc-squads).
 
-This way, instead of having to roll many dice to determine damage, you only roll the main aggressor's damage and then **add the sum of every assisting ally's Free Strike value**. 
+This way, instead of having to roll many dice to determine damage, you only roll the main aggressor's damage and then **add the sum of all assisting allies' Free Strike value**. 
 
-Whether allies can join in to deal more damage, depends on whether they are in their weapon's range to attack and are part of the aggressor's [squad](#npc-squads). 
+Whether allies can join in to deal more damage, depends on whether they are in their weapon's range to attack and are part of the aggressor's [Squad](#npc-squads). 
 
 ## Challenge Rating [CR]
 The overall power-level of a NPC is **broadly abstracted** as **Challenge Rating (CR)**. It is a tool designed to let you make an *educated guess* about the difficulty a given NPC might pose to the PCs. 
@@ -3477,6 +3481,12 @@ Make sure to share the Retainer rules with your players. They should understand 
 
 ### Gaining Retainers
 There are two ways to gain Retainers. First, Titles of Renown may attract them. One day, a NPC knocks on the door and wishes to pledge their allegiance to the PCs, who may of course accept or refuse as their players desire. Secondly, they may be gained through the PCs' actions. Rescuing a prisoner, befriending a rival, showing mercy to an enemy or doing heroic deeds in service to a community may all attract Retainers. As always, the specifics of this are up to you and your game. 
+
+#### Creating Retainers
+You or your players may create new Retainers from scratch, as you would a PC. But they're not PCs, and if they're people and not animals, keep the following penalties in mind when [creating](#character-creation) them:
+* `-2` Attribute points and either:
+  * One level `4` Skill and two level `2` Skills or
+  * Two level `3` Skills and one level `2` Skill.
 
 ### Letting Retainers Go
 At any time, a Mentor can decide to let their Retainer go. Depending on circumstance, Retainers may also choose to leave of their own volition. Events set in motion by the story may naturally conclude the Retainer's service, or the actions of their Mentor have seeded animosity that has pitted them against one another. Once they left the party, the former Retainer goes back to leading their own life. 
@@ -3695,7 +3705,7 @@ Suitable for: Elites and boss enemies who typically face many enemies at once. T
 #### Inexorable (-5 points; +4 CR)
 This creature cannot gain [Exhaustion](./strive-core.md#exhaustion) through its own actions (i. e. sprinting, Skills or Expertises). 
 
-Suitable for: Creatures that would *break* and be uninteresting to deal with, if they tired. Zombies, for example. But this can only be Suitable for particularly tough foes, especially if they make heavy use of Exhaustion causing abilities. 
+Suitable for: Creatures that would *break* and be uninteresting to deal with, if they tired. Zombies, for example. Particularly suitable for foes that make heavy use of Exhaustion causing abilities. 
 
 #### Moon Affinity (-7 points; +4 CR)
 When basking in a full moon, the creature regains `6` HP at the start of its turn. 

@@ -328,7 +328,7 @@ Damage from magical sources is reduced by the quality level + a number of dice. 
 ## Magic Echoes
 Whenever magic is cast, a pale reflection of it remains, invisible to the naked eye, lingering for `SI * 4` hours, based on the magic spell's [intensity](#spell-intensity-si) when it was cast. 
 
-Those sensitive to magic can detect it and if they know the [magic school](#magic-school--school---attribute-) whence the spell stems, they instinctively recognize the echo. Otherwise, they may need to succeed an [Arcana](#arcana-arc) test at Ob `2` to determine the type of magic that was cast. With another test, also at Ob `2`, they may also determine a rough estimate of how old the echo is. 
+Those sensitive to magic can detect it and if they know the [magic school](#magic-school--school---attribute-) whence the spell stems, they instinctively recognize the echo. Otherwise, they may need to succeed an [Arcana](#arcana-arc) test at Ob `2` to determine the type of magic that was cast. The same test may also determine an estimate of how old the echo is. 
 
 Each echo has a unique aspect to it, like a finger-print. It is possible to capture a magic echo's finger-print, as well as some of the context when it was cast, in special devices, called [Magic Recorders](#general-assets). 
 
@@ -455,7 +455,7 @@ PI: `300`, TI: `1` Day, Ob: `+2`, requires:
 | Foggy   | Contains a single spell, at `SI 10`, which can only be controlled with an [Arcane Engine](#arcane-engine). | 5 |
 | Murky   | Contains up to two spells, at `SI 30`, which can only be controlled with an [Arcane Engine](#arcane-engine). | 4 |
 | Swirly  | Contains a weak reality-altering power, which can only be controlled with an [Arcane Engine](#arcane-engine). Can be almost anything, within reason. Things such as a low gravity field, anti-magic field, constant fog-emitter, elemental spewer and similar. | 3 |
-| Pure    | Contains a reality-altering power. Practically anything is possible. The crowning achievement the power hungry and insane. The closest you can get to god-hood. Requires no [Arcane Engine](#arcane-engine). It has transcended the need for such a paltry shackle. | 0 |
+| Pure    | Contains a reality-altering power. Practically anything is possible. The crowning achievement the power hungry and the insane. The closest you can get to god-hood. Requires no [Arcane Engine](#arcane-engine). It has transcended the need for such a paltry shackle. | 0 |
 
 #### Malevite Side-Effects
 All of the following is kept vague, because it would be hard to list all possible combinations in a way that makes sense while remaining concise. See the following as inspiration for the **GM**, who will finalize the side-effects. 
@@ -594,7 +594,7 @@ When looking up products for crafting, the tools and materials required for the 
 | Illusionist's Powder     | 1    | 2               | A small amount of weakly iridescently shimmering powder. When scattered, the dust remains suspended in mid-air and settles in an image of the making alchemist's choosing, which at a distance can seem perfectly real. It takes a successful test at `Ob Q + 1` to see through the ruse. This image lasts `QD10` minutes. | 30 | 1 Hour |  |
 | Invigorating Potion      | 1    | 3               | The drinker of this potion feels refreshed and invigorated! Reduces exhaustion by `Q` and clears the [exhausted](./strive-core.md#exhausted) condition. Beware this potion can only be safely imbibed twice in a `24` hour cycle. If drunk more, roll a `D6`. If it is a **hit**, you're in luck! But if not, you instead suffer `+2` points of [exhaustion](./strive-core.md#exhaustion). | 20 | 1 Hour |  |
 | Jewelry                  | 1    | 2               | Precious apparel. | 50 | 1 Hour |  |
-| Keg Of Alcohol           | 2    | 1               | A small keg of alcohol. | 30 | 1 Day |  |
+| Keg Of Alcohol           | 2    | 1               | A keg of alcohol. Highly flammable. If set fire to, will explode in a small torrent of flame, dealing `Q * 3` Burning damage to all in a `2` square AoE radius. | 30 | 1 Day |  |
 | Laudanum Potion          | 1    | 2               | This wonderous substance can quell pain and calm nerves within seconds. Also effective against diarrhea. Upon imbibing, sets one **active** [injury](./strive-core.md#injury) to **treated**. After `24` hours, the [injury](./strive-core.md#injury) is set back to **active**, even if it was also properly **treated** in the meantime. Also, must succeed a [self-control](./strive-core.md#self-control-toughtough) test at `Ob 3`, or else become [addicted](./strive-core.md#drug-addicted) to the stuff. | 20 | 1 Hour |  |
 | Love Potion              | 1    | 2               | Anyone drinking this potion will become virtually irresistible to anyone close enough to smell their air. Victims have to succeed a [self-control](./strive-core.md#self-control-toughtough) test at **Ob** `Q` or else feel **very strongly compelled** to fulfill the user's every wish and desire (provided this wouldn't obviously cause harm to the victim). | 50 | 1 Hour | +1 |
 | Magic Recorder           | 1    | 3               | A small spherical device, overtly made from various metals with intricate patterns on its surface. This device can capture [Magic Echoes](#magic-echoes) and record magic as it is being cast. Also captures fragments of thoughts from its bearer while it is active. | 50 | 6 Hours |  |
@@ -617,46 +617,50 @@ Armor can have the following **properties**:
 #### Light Armor
 A set of light armor that doesn't impede the wearer much. Example: cloth armor like a gambeson. Might also be leather armor, if the leather comes from a creature whose skin is particularly tough and well suited to being used as armor. 
 
-* Bulk: `2`, PI: `50`, TI: `6 Hours`
+* Bulk: `2`
+* PI: `50`, TI: `6 Hours`
 
 | Protections          | Unthreatened | Flanked | Surrounded | Overwhelmed | 
 | -------------------- | ------------ | ------- | ---------- | ----------- | 
-| **Slashing**         | 4 + Q        | 2 + Q   | 1          | 0           | 
-| **Piercing**         | 3 + Q        | 2 + Q   | 1          | 0           | 
+| **Slashing**         | 3 + Q        | 2 + Q   | 1          | 0           | 
+| **Piercing**         | 2 + Q        | 1 + Q   | 1          | 0           | 
 | **Bludgeoning**      | 2 + Q        | 1 + Q   | 1          | 0           | 
-| **Acid**             | 2 + Q        | 1 + Q   | 1          | 0           | 
+| **Acid**             | 4 + Q        | 2 + Q   | 1          | 0           | 
 
 #### Medium Armor
 A set of medium armor with a good balance of protection and weight. Example: full chain mail armor, with or without a helmet. 
 
-* `+1` permanent [exhaustion](./strive-core.md#exhaustion) while worn. 
+* `+1` permanent [Exhaustion](./strive-core.md#exhaustion) while worn. 
+* `+1` [Stability](./strive-core.md#stability-stabil) while worn.
 * `-1` to [stealth](./strive-core.md#stealth-agiawar) while worn. 
 * `-1D` to any defense tests while worn. 
-* Bulk: `3`, PI: `75`, TI: `6 Hours`
+* Bulk: `3`
+* PI: `75`, TI: `6 Hours`
 
 | Protections          | Unthreatened | Flanked | Surrounded | Overwhelmed | 
 | -------------------- | ------------ | ------- | ---------- | ----------- | 
-| **Slashing**         | 6 + Q        | 3 + Q   | 2          | 0           | 
+| **Slashing**         | 4 + Q        | 2 + Q   | 1          | 0           | 
 | **Piercing**         | 4 + Q        | 2 + Q   | 1          | 0           | 
-| **Bludgeoning**      | 3 + Q        | 2 + Q   | 1          | 0           | 
-| **Acid**             | 3 + Q        | 2 + Q   | 1          | 0           | 
+| **Bludgeoning**      | 2 + Q        | 1 + Q   | 1          | 0           | 
+| **Acid**             | 2 + Q        | 1 + Q   | 1          | 0           | 
 | **Electrical**       | 4 + Q        | 2 + Q   | 1          | 0           |
 
 #### Heavy Armor
 A set of heavy armor with excellent protection, at the cost of encumbering the wearer greatly. Example: full plate armor. 
 
-* `+2` permanent [exhaustion](./strive-core.md#exhaustion) while worn.
-* `+1` [Stability](./strive-core.md#stability-stabil) while worn.
+* `+2` permanent [Exhaustion](./strive-core.md#exhaustion) while worn.
+* `+2` [Stability](./strive-core.md#stability-stabil) while worn.
 * `-3` to [stealth](./strive-core.md#stealth-agiawar) while worn. 
 * `-2D` to any defense tests while worn. 
-* Bulk: `4`, PI: `100`, TI: `6 Hours`
+* Bulk: `4`
+* PI: `100`, TI: `6 Hours`
 
 | Protections          | Unthreatened | Flanked | Surrounded | Overwhelmed | 
 | -------------------- | ------------ | ------- | ---------- | ----------- | 
-| **Slashing**         | 8 + Q        | 4 + Q   | 2          | 0           | 
-| **Piercing**         | 8 + Q        | 4 + Q   | 2          | 0           | 
-| **Bludgeoning**      | 6 + Q        | 3 + Q   | 2          | 0           | 
-| **Acid**             | 6 + Q        | 3 + Q   | 2          | 0           | 
+| **Slashing**         | 6 + Q        | 3 + Q   | 2          | 0           | 
+| **Piercing**         | 6 + Q        | 3 + Q   | 2          | 0           | 
+| **Bludgeoning**      | 4 + Q        | 2 + Q   | 1          | 0           | 
+| **Acid**             | 4 + Q        | 2 + Q   | 1          | 0           | 
 | **Electrical**       | 4 + Q        | 2 + Q   | 1          | 0           | 
 
 ### Shield Types
@@ -683,8 +687,10 @@ A small round or oblong shield commonly held as far from the body as possible, t
 #### Medium Shield
 A medium-sized, round or kite-shaped shield made from tough wood and leather or even metal, which offers good protection against most attacks, while not encumbering the wielder too much. 
 
-* `+1` permanent [exhaustion](./strive-core.md#exhaustion) while wielded. 
-* Bulk: `2`, PI: `60`, TI: `6 Hours`
+* `+1` permanent [Exhaustion](./strive-core.md#exhaustion) while wielded. 
+* `+1` [Stability](./strive-core.md#stability-stabil) while wielded.
+* Bulk: `2`
+* PI: `60`, TI: `6 Hours`
 
 | Unthreatened           | Flanked           | Surrounded           | Overwhelmed           |
 | ---------------------- | ----------------- | -------------------- | --------------------- |
@@ -693,9 +699,10 @@ A medium-sized, round or kite-shaped shield made from tough wood and leather or 
 #### Heavy Shield
 A large, kite-shaped or rectangular shield, which can protect every part of the fighter, from the shoulder down to the feet. Its weight is very tiring. 
 
-* `+2` permanent [exhaustion](./strive-core.md#exhaustion) while wielded.
-* `+1` [Stability](./strive-core.md#stability-stabil) while wielded.
-* Bulk: `4`, PI: `75`, TI: `6 Hours`
+* `+2` permanent [Exhaustion](./strive-core.md#exhaustion) while wielded.
+* `+2` [Stability](./strive-core.md#stability-stabil) while wielded.
+* Bulk: `4`
+* PI: `75`, TI: `6 Hours`
 
 | Unthreatened           | Flanked           | Surrounded           | Overwhelmed           |
 | ---------------------- | ----------------- | -------------------- | --------------------- |
@@ -704,10 +711,6 @@ A large, kite-shaped or rectangular shield, which can protect every part of the 
 ### Weapon Types
 Following are fantasy-themed weapon types. 
 
-For ranged weapons there is note made of a value called the "distance increment". This describes the distance within which the weapon can be used optimally, for no penalty to Ob and damage. As soon as a shooter wants to hit a target past their initial (= optimal) distance increment, they incur a penalty as noted on the attack in question. This penalty is multiplied by every increment past the initial. 
-
-> For example, when a distance increment of `10` has been noted, then shooting anything within and up to that distance incurs no penalties. But as soon as the shooter wants to hit something at `11` distance, they incur their first penalty. The next penalty would be incurred at `21`, and so on.
-
 #### Weapon Properties
 Weapons can have the following **properties** (see also the [core weapon properties](./strive-core.md#weapon-properties)):
 
@@ -715,13 +718,13 @@ Weapons can have the following **properties** (see also the [core weapon propert
 * Imbued: Like [Artificing - Arcane Charge](#artificing-arcwit), but applied to a weapon.
 
 #### Axe
-One and two-handed axes.
+One and two-handed axes. See also its corresponding [Skill](#weapon-axe-strstr).
 
 * [Melee](./strive-core.md#melee)
 * Bulk: `2`, PI: `45`, TI: `1 Hour`
 
-#### Chained Blade
-An exotic weighted, down-angled blade, perfect for throwing and connected to a very light chain or rope, for easy retrieval. Such a weapon requires masterful precision and rewards its user with great versatility. 
+#### Chained Blade 
+An exotic weighted, down-angled blade, perfect for throwing and connected to a very light chain or rope, for easy retrieval. Such a weapon requires masterful precision and rewards its user with great versatility. See also its corresponding [Skill](#weapon-chained-blade-agiagi).
 
 Requires knowing [Acrobatics](#acrobatics-agistr) and [Throwing](./strive-core.md#throwing), each at level `3+`. 
 
@@ -729,49 +732,49 @@ Requires knowing [Acrobatics](#acrobatics-agistr) and [Throwing](./strive-core.m
 * Bulk: `3`, PI: `75`, TI: `1 Hour`
 
 #### Crusher
-Small bludgeoning weapons. Examples: any improvised weapon, any club, any mace
+Small bludgeoning weapons. Examples: any improvised weapon, any club, any mace. See also its corresponding [Skill](#weapon-crusher-strtough).
 
 * [Melee](./strive-core.md#melee)
 * Bulk: `3`, PI: `60`, TI: `1 Hour`
 
 #### Light Blade
-Any short and/or light blade, such as daggers and one-handed swords. 
+Any short and/or light blade, such as daggers and one-handed swords. See also its corresponding [Skill](#weapon-light-blade-agistr).
 
 * [Melee](./strive-core.md#melee)
 * Bulk: `1`, PI: `40`, TI: `1 Hour`
 
 #### Long Blade
-Any long and heavier blade, such as longswords and great-swords.
+Any long and heavier blade, such as longswords and great-swords. See also its corresponding [Skill](#weapon-long-blade-agistr).
 
 * [Melee](./strive-core.md#melee), [Long Reach](./strive-core.md#weapon-properties)
 * Bulk: `3`, PI: `60`, TI: `1 Hour`
 
 #### Polearm
-Polearms and spears. Examples: boar-spear, halberd, bardiche, poleaxe.
+Polearms and spears. Examples: boar-spear, halberd, bardiche, poleaxe. See also its corresponding [Skill](#weapon-polearm-strtough).
 
 * [Melee](./strive-core.md#melee), [Long Reach](./strive-core.md#weapon-properties), [Prefer Range](./strive-core.md#weapon-properties)
 * Bulk: `4`, PI: `50`, TI: `1 Hour`
 
 #### Short-Bow
-A short distance ranged weapon, shooting arrows.
+A short distance ranged weapon, shooting arrows. See also its corresponding [Skill](#weapon-short-bow-agiawar).
 
 * [Ranged (10 DI)](./strive-core.md#ranged), [Range Only](./strive-core.md#weapon-properties)
 * Bulk: `1`, PI: `40`, TI: `1 Hour`
 
 #### Longbow
-A long distance ranged weapon, shooting arrows.
+A long distance ranged weapon, shooting arrows. See also its corresponding [Skill](#weapon-longbow-awarstr).
 
 * [Ranged (20 DI)](./strive-core.md#ranged), [Range Only](./strive-core.md#weapon-properties)
 * Bulk: `2`, PI: `50`, TI: `1 Hour`
 
 #### Crossbow
-A deadly medium distance ranged weapon, shooting bolts. Beware its slow reload. 
+A deadly medium distance ranged weapon, shooting bolts. Beware its slow reload. See also its corresponding [Skill](#weapon-crossbow-awarawar).
 
 * [Ranged (15 DI)](./strive-core.md#ranged), [Prefer Range](./strive-core.md#weapon-properties), [Slow Reload](./strive-core.md#weapon-properties)
 * Bulk: `2`, PI: `60`, TI: `1 Hour`
 
 #### Firearm
-A very deadly short to medium distance ranged weapon, shooting small metal balls that are partially able to penetrate armor. Beware its slow reload. 
+A very deadly short to medium distance ranged weapon, shooting small metal balls that are partially able to penetrate armor. Beware its slow reload. See also its corresponding [Skill](#weapon-firearm-awartough).
 
 * [Ranged (10 DI)](./strive-core.md#ranged), [Prefer Range](./strive-core.md#weapon-properties), [Very Slow Reload](./strive-core.md#weapon-properties)
 * Bulk: `3`, PI: `75`, TI: `1 Hour`
@@ -795,113 +798,114 @@ Steering and maintaining a naval vessel.
 #### Weapon \<Axe\> (Str/Str)
 Skill for [Axe](#axe) type weapons, both one and two-handed. 
 
-Properties: [Melee](./strive-core.md#melee)
+Properties: [Melee](./strive-core.md#melee), [FS](./strive-core.md#free-strike-fs): `4` Slashing + `2` Bludgeoning
 
-| Level | Name                 | AP | Ob          | Damage                                    | Notes  |
-| ----- | -------------------- | -- | ----------- | ----------------------------------------- | ------ |
-| 0     | Hack                 | 2  | Opposed     | `1D6 + Q` Slashing + `Str` Bludgeoning    |  |
-| 0     | Cleave               | 3  | Opposed + 1 | `1D4 + Q` Slashing + `Str` Bludgeoning    | Attack up to `3` MST at once, in a cone on front of you. |
-| 2     | Savage Slash         | 2  | Opposed + 1 | `1D6 + Q` Slashing                        | `+2` [Bleeding](./strive-core.md#bleeding) to the target (if it can bleed). |
+| Level | Name                 | AP | Ob          | Description <br> Damage                   |
+| ----- | -------------------- | -- | ----------- | ----------------------------------------- |
+| 0     | Hack                 | 2  | Opposed     | Strike a ST. <br> `≤ 1` Hit: `2 + Q` Slashing + `2` Bludgeoning <br> `= 2` Hits: `4 + Q` Slashing + `3` Bludgeoning <br> `≥ 3` Hits:  `6 + Q` Slashing + `2 + Str` Bludgeoning |
+| 0     | Savage Slash         | 2  | Opposed + 1 | Strike a ST. <br> `≤ 1` Hit: `2 + Q` Slashing; `+2` [Bleeding](./strive-core.md#bleeding) to the target (if it can bleed) <br> `= 2` Hits: `4 + Q` Slashing; `+2` [Bleeding](./strive-core.md#bleeding) to the target (if it can bleed) <br> `≥ 3` Hits:  `6 + Q` Slashing; `+3` [Bleeding](./strive-core.md#bleeding) to the target (if it can bleed) |
+| 2     | Cleave               | 3  | 2           | Attack up to `3` targets at once, in a `2` square AoE cone in front of you. <br> `≤ 1` Hit: `2 + Q` Slashing + `1` Bludgeoning <br> `= 2` Hits: `3 + Q` Slashing + `2` Bludgeoning <br> `≥ 3` Hits:  `4 + Q` Slashing + `2 + Str` Bludgeoning |
 
 #### Weapon \<Light Blade\> (Agi/Str)
 Skill for any [Light Blade](#light-blade) type weapons, such as daggers and one-handed swords. 
 
-Properties: [Melee](./strive-core.md#melee)
+Properties: [Melee](./strive-core.md#melee), [FS](./strive-core.md#free-strike-fs): `4` Slashing
 
-| Level | Name                 | AP | Ob          | Damage                           | Notes  |
-| ----- | -------------------- | -- | ----------- | -------------------------------- | ------ |
-| 0     | Slash                | 2  | Opposed     | `1D4 + Q` Slashing               |  |
-| 0     | Stab                 | 2  | Opposed     | `1D6 + Q + Agi` Piercing         |  |
-| 0     | Artery Cut           | 2  | Opposed + 1 | `1D4 + Q` Slashing               | `+1` [Bleeding](./strive-core.md#bleeding) to the target (if it can bleed).  |
-| 0     | Grappling Feint      | 2  | Opposed - 1 |                                  | Attack with a feint, immediately close the distance and [grapple](./strive-core.md#grappled) your opponent. |
-| 0     | Target Weak-Spot     | 2  | Opposed + 2 | `1D8 + Q` Pure                   | `-2 Ob` against [Proned](./strive-core.md#prone) and/or [Grappled](./strive-core.md#grappled) targets. |
+| Level | Name                 | AP | Ob          | Description <br> Damage                   |
+| ----- | -------------------- | -- | ----------- | ----------------------------------------- |
+| 0     | Slash                | 2  | Opposed     | Strike a ST. <br> `≤ 1` Hit: `2 + Q` Slashing <br> `= 2` Hits: `4 + Q` Slashing <br> `≥ 3` Hits: `6 + Q` Slashing |
+| 0     | Stab                 | 2  | Opposed     | Strike a ST. <br> `≤ 1` Hit: `2 + Q` Piercing <br> `= 2` Hits: `4 + Q` Piercing <br> `≥ 3` Hits: `6 + Q` Piercing |
+| 0     | Grappling Feint      | 2  | Opposed - 1 | Attack a ST with a feint, immediately close the distance and [Grapple](./strive-core.md#grappled) them. |
+| 1     | Artery Cut           | 2  | Opposed + 1 | Strike a ST. <br> `≤ 1` Hit: `2 + Q` Slashing; `+1` [Bleeding](./strive-core.md#bleeding) to the target (if it can bleed). <br> `= 2` Hits: `3 + Q` Slashing; `+2` [Bleeding](./strive-core.md#bleeding) to the target (if it can bleed). <br> `≥ 3` Hits: `4 + Q` Slashing; `+2` [Bleeding](./strive-core.md#bleeding) to the target (if it can bleed). |
+| 2     | Target Weak-Spot     | 2  | Opposed + 2 | Strike a ST. `-2 Ob` against [Proned](./strive-core.md#prone) and/or [Grappled](./strive-core.md#grappled) targets. <br> `≤ 1` Hit: `4 + Q` Pure <br> `= 2` Hits: `6 + Q` Pure <br> `≥ 3` Hits: `8 + Q` Pure |
 
 #### Weapon \<Long Blade\> (Agi/Str)
 Skill for any [Long Blade](#long-blade) type weapons, such as longswords and great-swords.
 
-Properties: [Melee](./strive-core.md#melee), [Long Reach](./strive-core.md#weapon-properties)
+Properties: [Melee](./strive-core.md#melee), [Long Reach](./strive-core.md#weapon-properties), [FS](./strive-core.md#free-strike-fs): `5` Slashing
 
-| Level | Name                 | AP | Ob          | Damage                           | Notes  |
-| ----- | -------------------- | -- | ----------- | -------------------------------- | ------ |
-| 0     | Slash                | 2  | Opposed     | `1D8 + Q` Slashing               |  |
-| 0     | Stab                 | 2  | Opposed     | `1D6 + Q` Piercing               |  |
-| 0     | Cleave               | 3  | Opposed + 1 | `1D6 + Q` Slashing               | Attack up to `3` MST at once, in a cone on front of you. |
-| 2     | Blade Barrier        | 3  |             |                                  | Whenever any character moves **into** a spot within reach, you may attack that character with a **Slash** with Ob `+1` and, if successful, force them back `1` square. Blade Barrier lasts until the start of your next turn. These attacks do not cost any additional AP. |
-| 2     | Mord-Strike          | 2  | Opposed     | `1D6 + Str` Bludgeoning          | Flip your weapon around and hit a target on the head with the weight of the pommel. |
+| Level | Name                 | AP | Ob          | Description <br> Damage                   |
+| ----- | -------------------- | -- | ----------- | ----------------------------------------- |
+| 0     | Slash                | 2  | Opposed     | `≤ 1` Hit: `3 + Q` Slashing <br> `= 2` Hits: `5 + Q` Slashing <br> `≥ 3` Hits: `8 + Q` Slashing |
+| 0     | Stab                 | 2  | Opposed     | `≤ 1` Hit: `2 + Q` Piercing <br> `= 2` Hits: `4 + Q` Piercing <br> `≥ 3` Hits: `6 + Q` Piercing |
+| 1     | Blade Barrier        | 3  |             | Until the start of your next turn, whenever any character moves **into** a spot within reach, you may **freely** attack that character with a **Slash** at Ob `+1` and, if successful, force them back `1` square. |
+| 2     | Cleave               | 3  | 2           | Attack up to `3` targets at once, in a `2` square AoE cone in front of you. <br> `≤ 1` Hit: `2 + Q` Slashing <br> `= 2` Hits: `4 + Q` Slashing <br> `≥ 3` Hits:  `6 + Q` Slashing |
+| 2     | Mord-Strike          | 2  | Opposed + 1 | Flip your weapon around and strike a ST on the head with the weight of the pommel. <br> `≤ 1` Hit: `1 + Str` bludgeoning <br> `= 2` Hits: `3 + Str` bludgeoning <br> `≥ 3` Hits: `6 + Str` bludgeoning |
 
 #### Weapon \<Chained Blade\> (Agi/Agi)
 Skill for [Chained Blade](#chained-blade) type weapons, an exotic and fantastical weapon type that uses an angled blade at the end of a light chain. 
 
-Properties: [Melee](./strive-core.md#melee), [Ranged (max. `8`)](./strive-core.md#ranged), [Prefer Range](./strive-core.md#weapon-properties)
+Properties: [Melee](./strive-core.md#melee), [Ranged (max. `8`)](./strive-core.md#ranged), [Prefer Range](./strive-core.md#weapon-properties), [FS](./strive-core.md#free-strike-fs): `4` Slashing
 
-| Level | Name                 | AP | Ob          | Damage                           | Notes  |
-| ----- | -------------------- | -- | ----------- | -------------------------------- | ------ |
-| 0     | Curved Toss          | 2  | Opposed     | `1D6 + Q` Slashing               | Throw the weapon just past a target and then with a flick, make it jump at their back and upon impact, immediately retrieve it. |
-| 0     | Come Closer          | 2  | Opposed     | `Q` Slashing                     | Throw the weapon just past a target and then yank it back, catching them with it and pulling them `3` squares closer to you. If the target is much larger and/or heavier than you, then you may pull *yourself* closer to them, for the same distance. Then immediately retrieve your weapon. |
-| 2     | Leg Sweep            | 2  | Opposed     |                                  | Swing the weapon at length and low, to sweep for an opponent's legs. Upon impact, yank the chain to sweep them off their feet, rendering them [prone](./strive-core.md#prone) and then immediately retrieve your weapon. |
-| 4     | Think Twice          | 1  |             | `Q + Agi` Piercing               | **Reaction**: Upon one of your allies attacking an enemy, you also throw your weapon straight at that enemy. Your ally's attack is `-1` Ob easier as the enemy is confused by the two simultaneous attacks! Your attack does **not** cost the enemy any additional AP to defend and is successful only if your ally's attack is successful. Upon impact, immediately retrieve your weapon. Only possible once per round. |
+| Level | Name                 | AP | Ob          | Description <br> Damage                   |
+| ----- | -------------------- | -- | ----------- | ----------------------------------------- |
+| 0     | Curved Toss          | 2  | Opposed     | Throw the weapon just past a ST and then with a flick, make it jump at their back. <br> `≤ 1` Hit: `2 + Q` Slashing <br> `= 2` Hits: `4 + Q` Slashing <br> `≥ 3` Hits: `6 + Q` Slashing |
+| 0     | Come Closer          | 2  | Opposed     | Throw the weapon just past a ST and then yank it back, catching them with it and pulling them closer to you. If the target is much larger and/or heavier than you, then you may pull *yourself* closer to them, for the same distance. <br> `≤ 1` Hit: `2` squares; `Q` Slashing <br> `= 2` Hits: `3` squares; `Q + 1` Slashing <br> `≥ 3` Hits: `4` squares; `Q + 2` Slashing |
+| 2     | Leg Sweep            | 2  | Opposed     | Swing the weapon at length and low, to sweep for an opponent's legs. Upon impact, yank the chain to sweep them off their feet, rendering them [Prone](./strive-core.md#prone). |
+| 4     | Think Twice          | 1  |             | **Reaction**: Upon one of your allies attacking an enemy, you also throw your weapon straight at that enemy. Your ally's attack is `-1` Ob easier as the enemy is confused by the two simultaneous attacks! Your attack does **not** cost the enemy any additional AP to defend against and is successful only if your ally's attack is successful. Only possible once per round. <br> `Q + Agi` Piercing |
 
 #### Weapon \<Crusher\> (Str/Tough)
 Skill for [Crusher](#crusher) type weapons, with a dedicated *impact zone*, such as clubs and maces.
 
-Properties: [Melee](./strive-core.md#melee)
+Properties: [Melee](./strive-core.md#melee), [FS](./strive-core.md#free-strike-fs): `5` Bludgeoning
 
-| Level | Name                 | AP | Ob          | Damage                           | Notes  |
-| ----- | -------------------- | -- | ----------- | -------------------------------- | ------ |
-| 0     | Smash                | 2  | Opposed     | `1D6 + Q + Str` Bludgeoning      |  |
-| 0     | Knockout Blow        | 2  | Opposed + 1 | `1D6` Bludgeoning                | If successful, causes `+2` [exhaustion](./strive-core.md#exhaustion) to the target. |
-| 0     | Mighty Smash         | 2  | Opposed + 1 | `1D6 + Q + Str` Bludgeoning      | Defending against this attack costs `2` [AP](./strive-core.md#action-points-ap) and causes `+1` [Exhaustion](./strive-core.md#exhaustion) to the target. |
+| Level | Name                 | AP | Ob          | Description <br> Damage                   |
+| ----- | -------------------- | -- | ----------- | ----------------------------------------- |
+| 0     | Smash                | 2  | Opposed     | Strike a ST. <br> `≤ 1` Hit: `3 + Q + Str` Bludgeoning <br> `= 2` Hits: `5 + Q + Str` Bludgeoning <br> `≥ 3` Hits: `7 + Q + Str` Bludgeoning |
+| 0     | Knockout Blow        | 2  | Oppose      | Strike a ST. <br> `≤ 1` Hit: `2 + Q + Str` Bludgeoning; `+1` [Exhaustion](./strive-core.md#exhaustion) to the target. <br> `= 2` Hits: `4 + Q + Str` Bludgeoning; `+2` [Exhaustion](./strive-core.md#exhaustion) to the target. <br> `≥ 3` Hits: `6 + Q + Str` Bludgeoning; `+3` [Exhaustion](./strive-core.md#exhaustion) to the target. |
+| 0     | Mighty Smash         | 2  | Opposed + 1 | Strike a ST. Costs `2` AP to defend against! <br> `≤ 1` Hit: `2 + Q + Str` Bludgeoning <br> `= 2` Hits: `4 + Q + Str` Bludgeoning <br> `≥ 3` Hits: `6 + Q + Str` Bludgeoning |
 
 #### Weapon \<Polearm\> (Str/Tough)
 Skill for [Polearm](#polearm) type weapons, like halberds, voulges, bardiches and pollaxes. 
 
-Properties: [Melee](./strive-core.md#melee), [Long Reach](./strive-core.md#weapon-properties), [Prefer Range](./strive-core.md#weapon-properties)
+Properties: [Melee](./strive-core.md#melee), [Long Reach](./strive-core.md#weapon-properties), [Prefer Range](./strive-core.md#weapon-properties), [FS](./strive-core.md#free-strike-fs): `5` Piercing
 
-| Level | Name                 | AP | Ob          | Damage                           | Notes  |
-| ----- | -------------------- | -- | ----------- | -------------------------------- | ------ |
-| 0     | Slash                | 2  | Opposed     | `2D6 + Q` Slashing               |  |
-| 0     | Stab                 | 2  | Opposed     | `2D6 + Q` Piercing               |  |
-| 0     | Cleave               | 2  | Opposed + 2 | `2D6 + Q` Slashing               | Attack up to `2` MST at once, in a line on front of you. |
-| 2     | Blade Barrier        | 3  |             |                                  | Whenever any character moves **into** a spot within reach, can attack that character with a **Stab** with Ob `+1` and if successful, force them back `1` square. Blade Barrier lasts until the start of your next turn. These attacks cost no additional **AP**. |
+| Level | Name                 | AP | Ob          | Description <br> Damage                   |
+| ----- | -------------------- | -- | ----------- | ----------------------------------------- |
+| 0     | Slash                | 2  | Opposed     | Strike a ST. <br> `≤ 1` Hit: `4 + Q` Slashing <br> `= 2` Hits: `7 + Q` Slashing <br> `≥ 3` Hits: `10 + Q` Slashing |
+| 0     | Stab                 | 2  | Opposed     | Strike a ST. <br> `≤ 1` Hit: `3 + Q` Piercing <br> `= 2` Hits: `5 + Q` Piercing <br> `≥ 3` Hits: `8 + Q` Piercing |
+| 2     | Blade Barrier        | 3  |             | Until the start of your next turn, whenever any character moves **into** a spot within reach, can **freely** attack that character with a **Stab** at Ob `+1` and if successful, force them back `1` square. |
+| 2     | Breakthrough         | 3  | 2           | Attack up to `2` targets at once, in a `3` square AoE line in front of you. <br> `≤ 1` Hit: `2 + Q` Piercing <br> `= 2` Hits: `4 + Q` Piercing <br> `≥ 3` Hits:  `6 + Q` Piercing |
+| 2     | Cleave               | 3  | 2           | Attack up to `4` targets at once, in a `3` square AoE cone in front of you. <br> `≤ 1` Hit: `2 + Q` Slashing <br> `= 2` Hits: `3 + Q` Slashing <br> `≥ 3` Hits:  `5 + Q` Slashing |
 
 #### Weapon \<Short-Bow\> (Agi/Awar)
 Skill for [Short-Bow](#short-bow) type weapons. 
 
-Properties: [Ranged (10 DI)](./strive-core.md#ranged), [Range Only](./strive-core.md#weapon-properties)
+Properties: [Ranged (10 DI)](./strive-core.md#ranged), [Range Only](./strive-core.md#weapon-properties), [FS](./strive-core.md#free-strike-fs): `4` Piercing
 
-| Level | Name                 | AP | Ob          | Damage                     | Notes  |
-| ----- | -------------------- | -- | ----------- | -------------------------- | ------ |
-| 0     | Loose                | 2  | Opposed     | `2D4 + Q + Awar` Piercing  |  |
-| 1     | Pin                  | 2  | Opposed     | `1D4 + Q` Piercing         | Shoot the enemy in their foot. If the attack is successful, they target is considered [Rooted](./strive-core.md#rooted) until the end of their next turn. |
-| 2     | Double Shot          | 2  | Opposed + 1 | `2D4 + Q` Piercing         | Attack up to `2` MST at once. |
+| Level | Name                 | AP | Ob          | Description <br> Damage                   |
+| ----- | -------------------- | -- | ----------- | ----------------------------------------- |
+| 0     | Loose                | 2  | Opposed     | Shoot a ST. <br> `≤ 1` Hit: `2 + Q + Awar` Piercing <br> `= 2` Hits: `4 + Q + Awar` Piercing <br> `≥ 3` Hits: `6 + Q + Awar` Piercing  |
+| 1     | Pin                  | 2  | Opposed     | Shoot a ST in their foot, [Rooting](./strive-core.md#rooted) them in-place until the end of their next turn. <br> `≤ 1` Hit: `2 + Q` Piercing <br> `= 2` Hits: `3 + Q` Piercing <br> `≥ 3` Hits: `4 + Q` Piercing |
+| 2     | Double Shot          | 2  | Opposed + 1 | Shoot up to `2` MST at once. <br> `≤ 1` Hit: `2 + Q` Piercing <br> `= 2` Hits: `4 + Q` Piercing <br> `≥ 3` Hits: `6 + Q` Piercing |
 
 #### Weapon \<Longbow\> (Awar/Str)
 Skill for [Longbow](#longbow) type weapons. 
 
-Properties: [Ranged (20 DI)](./strive-core.md#ranged), [Range Only](./strive-core.md#weapon-properties)
+Properties: [Ranged (20 DI)](./strive-core.md#ranged), [Range Only](./strive-core.md#weapon-properties), [FS](./strive-core.md#free-strike-fs): `5` Piercing
 
-| Level | Name                 | AP | Ob          | Damage                     | Notes  |
-| ----- | -------------------- | -- | ----------- | -------------------------- | ------ |
-| 0     | Loose                | 2  | Opposed     | `2D6 + Q` Piercing         |  |
-| 2     | Heavy Shot           | 2  | Opposed + 1 | `2D6 + Q + Str` Piercing   | Causes `+1` [Exhaustion](./strive-core.md#exhaustion) to self. |
+| Level | Name                 | AP | Ob          | Description <br> Damage                   |
+| ----- | -------------------- | -- | ----------- | ----------------------------------------- |
+| 0     | Loose                | 2  | Opposed     | Shoot a ST. <br> `≤ 1` Hit: `4 + Q` Piercing <br> `= 2` Hits: `6 + Q` Piercing <br> `≥ 3` Hits: `8 + Q` Piercing |
+| 2     | Heavy Shot           | 2  | Opposed + 1 | Shoot a ST. `+1` [Exhaustion](./strive-core.md#exhaustion) to self. <br> `≤ 1` Hit: `6 + Q + Str` Piercing <br> `= 2` Hits: `8 + Q + Str` Piercing <br> `≥ 3` Hits: `10 + Q + Str` Piercing   |
 
 #### Weapon \<Crossbow\> (Awar/Awar)
 Skill for [Crossbow](#crossbow) type weapons. 
 
-Properties: [Ranged (15 DI)](./strive-core.md#ranged), [Prefer Range](./strive-core.md#weapon-properties), [Slow Reload](./strive-core.md#weapon-properties)
+Properties: [Ranged (15 DI)](./strive-core.md#ranged), [Prefer Range](./strive-core.md#weapon-properties), [Slow Reload](./strive-core.md#weapon-properties), [FS](./strive-core.md#free-strike-fs): `7` Piercing
 
-| Level | Name                 | AP | Ob          | Damage                     | Notes  |
-| ----- | -------------------- | -- | ----------- | -------------------------- | ------ |
-| 0     | Loose                | 2  | Opposed     | `3D6 * Q` Piercing         |  |
+| Level | Name                 | AP | Ob          | Description <br> Damage                   |
+| ----- | -------------------- | -- | ----------- | ----------------------------------------- |
+| 0     | Loose                | 2  | Opposed     | Shoot a ST. <br> `≤ 1` Hit: `6 * Q` Piercing <br> `= 2` Hits: `9 * Q` Piercing <br> `≥ 3` Hits: `12 * Q` Piercing |
 
 #### Weapon \<Firearm\> (Awar/Tough)
 Skill for [Firearm](#firearm) type weapons. It takes great discipline to not flinch at the sparks and smoke upon ignition. 
 
-Properties: [Ranged (10 DI)](./strive-core.md#ranged), [Prefer Range](./strive-core.md#weapon-properties), [Very Slow Reload](./strive-core.md#weapon-properties)
+Properties: [Ranged (10 DI)](./strive-core.md#ranged), [Prefer Range](./strive-core.md#weapon-properties), [Very Slow Reload](./strive-core.md#weapon-properties), [FS](./strive-core.md#free-strike-fs): `8` Piercing
 
-| Level | Name                 | AP | Ob          | Damage                     | Notes  |
-| ----- | -------------------- | -- | ----------- | -------------------------- | ------ |
-| 0     | Fire                 | 2  | Opposed     | `2D8` Piercing + `Q` Pure  |  |
+| Level | Name                 | AP | Ob          | Description <br> Damage                   |
+| ----- | -------------------- | -- | ----------- | ----------------------------------------- |
+| 0     | Fire                 | 2  | Opposed     | Shoot a ST. <br> `≤ 1` Hit: `8` Piercing + `Q` Pure <br> `= 2` Hits: `12` Piercing + `Q` Pure <br> `≥ 3` Hits: `16` Piercing + `Q` Pure |
 
 ### Knowledge Skills
 These skills have a dominant mental aspect and are strongly related to a character's *mental attributes*. 
@@ -1095,19 +1099,19 @@ The psion may choose how much they wish to open up to The Veil. This is represen
   * Arcana `5+` OR innate.
   * An event that causes a psychic awakening. Consult your **GM**. 
 
-| Level | Name                 | AP | Distance        | Ob                              | Veil Degradation | Effect(s)                      |
-| ----- | -------------------- | -- | --------------- | ------------------------------- | ---------------- | ------------------------------ |
-| 0     | Emotional Connection | 1  | `OPN * 10` | Opposed by `Self-Control - OPN` | `OPN * 2`        | Read and/or alter another creature's emotional state. |
-| 0     | Telekinesis          | 2  | `OPN * 5`  | Opposed by `Self-Control - OPN` | `OPN * 2`        | Force move a **ST** by `OPN * 2`. |
-| 0     | Telepathy            | 1  | `OPN * 15` | `OPN`                           | `OPN * 2`        | **Concentration**: Communicate wordlessly with `OPN` targets. Language barriers do not apply to this form of communication. |
-| 0     | Slow Down            | 2  | `OPN * 6`  | `OPN`                           | `OPN * 2`        | **Concentration**: Up to `OPN` targets are slowed. They move `2` less per **AP** spent! |
-| 1     | Repulse              | 1  | `20`       | `OPN`                           | `OPN * 3`        | **Reaction**: Upon having been attacked successfully, repulse your attacker psionically. They are force moved backwards by `OPN * 2`. |
-| 1     | Levitate             | 1  | `OPN * 6`  | `OPN`                           | `OPN * 3`        | **Concentration**: Cause yourself or one other **ST** of choice, within *distance* to levitate up to `OPN * 6` above the ground. |
-| 1     | "Vanish"             | 1  | `OPN * 6`  | `OPN`                           | `OPN * 4`        | **Concentration**: Cause up to `OPN` targets of choice, within *distance* to become *unperceivable* to `OPN` other targets of choice, within distance. |
-| 3     | Veil Hop             | 3  | `OPN * 3`   | `OPN`                           | `OPN * 5`        | Cause a dimensional rift to open and swallow a **ST** of choice, which another rift releases at a location of your choosing, a moment later. |
-| 3     | Join The Veil        | 2  | `OPN * 3`   | Opposed by `Self-Control - OPN` | `OPN * 3`        | Shroud a **ST** in the inscrutable darkness of The Beyond. They become [Terrified](strive-core.md#terrified) of the psion and [Marked](./strive-core.md#marked). |
-| 4     | Try Again            | 1  | /               | /                               | `25`             | **Reaction**: When you or someone else resolves a test, create a minute overlap of timelines, and displace a snippet of your own timeline with a hopefully better one. You or they must now repeat the test. The new result is final. This can only be attempted once for a given test. |
-| 4     | Memory Re-write      | 3  | `OPN * 3`   | Opposed by `Self-Control - OPN` | `OPN * 3`        | **Time(+1)**: Re-write the memory of a **ST**. Make them forget, or implant in them a memory they never had. |
+| Level | Name                 | AP | Distance | Ob                              | Veil Degradation | Effect(s)                      |
+| ----- | -------------------- | -- | -------- | ------------------------------- | ---------------- | ------------------------------ |
+| 0     | Emotional Connection | 1  | OPN * 10 | Opposed by Self-Control - OPN   | OPN * 2          | Read and/or alter another creature's emotional state. |
+| 0     | Telekinesis          | 2  | OPN * 5  | Opposed by Self-Control - OPN   | OPN * 2          | Force move a **ST** by `OPN * 2`. |
+| 0     | Telepathy            | 1  | OPN * 15 | OPN                             | OPN * 2          | **Concentration**: Communicate wordlessly with `OPN` targets. Language barriers do not apply to this form of communication. |
+| 0     | Slow Down            | 2  | OPN * 6  | OPN                             | OPN * 2          | **Concentration**: Up to `OPN` targets are slowed. They move `2` less per **AP** spent! |
+| 1     | Repulse              | 1  | 20       | OPN                             | OPN * 3          | **Reaction**: Upon having been attacked successfully, repulse your attacker psionically. They are force moved backwards by `OPN * 2`. |
+| 1     | Levitate             | 1  | OPN * 6  | OPN                             | OPN * 3          | **Concentration**: Cause yourself or one other **ST** of choice, within *distance* to levitate up to `OPN * 6` above the ground. |
+| 1     | "Vanish"             | 1  | OPN * 6  | OPN                             | OPN * 4          | **Concentration**: Cause up to `OPN` targets of choice, within *distance* to become *unperceivable* to `OPN` other targets of choice, within distance. |
+| 3     | Veil Hop             | 3  | OPN * 3  | OPN                             | OPN * 5          | Cause a dimensional rift to open and swallow a **ST** of choice, which another rift releases at a location of your choosing, a moment later. |
+| 3     | Join The Veil        | 2  | OPN * 3  | Opposed by Self-Control - OPN   | OPN * 3          | Shroud a **ST** in the inscrutable darkness of The Beyond. They become [Terrified](strive-core.md#terrified) of the psion and [Marked](./strive-core.md#marked). |
+| 4     | Try Again            | 1  |          |                                 | 25               | **Reaction**: When you or someone else resolves a test, create a minute overlap of timelines, and displace a snippet of your own timeline with a hopefully better one. You or they must now repeat the test. The new result is final. This can only be attempted once for a given test. |
+| 4     | Memory Re-write      | 3  | OPN * 3  | Opposed by Self-Control - OPN   | OPN * 3          | **Time(+1)**: Re-write the memory of a **ST**. Make them forget, or implant in them a memory they never had. |
 
 ## List of Magic Schools
 The capabilities of the various magic schools are described by the [expertise](./strive-core.md#expertise) associated with each of them. The concrete effects are kept vague on purpose, to allow a certain freedom when choosing how the magic is expressed. But the intensity or strength of a casting is tied to the level of the [magic school skill](#magic-school--school---attribute-). 
@@ -1117,8 +1121,8 @@ The levels noted for each magic school represent the effects a mage can achieve,
 See also [testing magic](#testing-magic). 
 
 In all the following tables, note the following:
-* Replace *SI* with the chosen [spell intensity](#spell-intensity-si). 
-* *Level* is the prerequisite level of the **magic school skill**, at which a given spell becomes available for use. 
+* Replace *SI* with the chosen [Spell Intensity](#spell-intensity-si). 
+* *Level* is the prerequisite level of the **magic school Skill**, at which a given spell becomes available for use. 
 * Whenever distances and radii are concerned, a mage may always choose a *shorter* distance or radius. For example, a `SI * 2` radius definition, sets the **maximum**. The radius may be at most this large, but can be smaller, if the mage so chooses. 
 * Whenever the effect is unleashed in a **cone**, then at every point it has traveled, it is as wide as far as it has traveled. So for example, at 1 distance, it is 1 wide. At 3 distance, it is 3 wide. 
 
@@ -1127,12 +1131,12 @@ The control of air, to create and change its flow, for benefit and detriment.
 
 | Level | Name                 | AP | Distance      | Ob          | Effect(s)                      | Backfire Effect(s) |
 | ----- | -------------------- | -- | ------------- | ----------- | ------------------------------ | ------------------ |
-| 0     | Wind Tunnel          | 2  | `SI * 3`  | `SI`        | Conjures up a stream of air that [force moves](strive-core.md#forced-movement) all creatures and objects of bulk less than `SI * 2` in its direction, by `SI * 3`. This gust originates from the caster. The wind tunnel can also point up, down or any other direction. Can clear away gases and the like. | The caster loses control and is tossed `SI * 3` in a random direction! |
-| 0     | Wind Lance           | 2  | `SI * 3`  | `Opposed`   | Hurls a directed, compacted bolt of air towards a target, dealing `1D10 + (SI * 2)` points of Bludgeoning damage. Upon impact, creates a loud whipping noise. | The attack is launched in a random direction, instead. |
-| 1     | Breathing Bubble     | 2  | `1`       | `SI`        | **Concentration**: Form a stationary bubble of clean air, up to `SI * 1` large in diameter, that will last for as long as you concentrate on it. | The air is displaced from the caster's lungs for `1` round, making them unable to speak and they suffer `+1` [Exhaustion](./strive-core.md#exhaustion)! |
-| 2     | Vacuumize            | 2  | `8`      | `SI`        | **Concentration**: Drive all air out of a stationary area of choice, within *distance*, up to `SI * 1` large in diameter. All creatures caught in the anti-air bubble start suffocating, as all air is driven from their lungs, as well. | The air around the caster is displaced, instead of the spot of their choosing. The effect lasts `1` round and the caster cannot concentrate on any other spell, for as long as it lasts. |
-| 3     | Crushing Compression | 2  | `SI * 6` | `SI`        | Compress the air around a target, crushing it with `SI D6` points of Bludgeoning damage. | The air compresses around the caster instead. |
-| 4     | Tornado              | 2  | `SI * 6` | `SI`        | **Concentration, Time(+1)**: Call forth a tornado and control its movements. It is up to `SI * 1` wide and tall, and can displace creatures and objects up to `SI * 2` bulk, throwing them up to `SI * 2` far, in a random direction. The tornado can clear away gases and the like. | The tornado forms at the caster's location and moves randomly. It lasts `1` round and the caster cannot concentrate on any other spell until the tornado expires. |
+| 0     | Wind Tunnel          | 2  | `SI * 3`      | `SI`        | Conjures up a stream of air, that [force moves](strive-core.md#forced-movement) all creatures and objects of bulk less than `SI * 2` in its direction, by `SI * 3`. This gust originates from the caster. The wind tunnel can also point up, down or any other direction. Can clear away gases and the like. | The caster loses control and is tossed `SI * 3` in a random direction! |
+| 0     | Wind Lance           | 2  | `SI * 3`      | `Opposed`   | Hurls a directed, compacted bolt of air towards a ST. Upon impact, creates a loud whipping noise. <br> `≤ 1` Hit: `2 + SI` Bludgeoning <br> `= 2` Hits: `5 + (SI * 2)` Bludgeoning <br> `≥ 3` Hits: `10 + (SI * 2)` Bludgeoning | The attack is launched in a random direction, instead. |
+| 1     | Breathing Bubble     | 2  | `1`           | `SI`        | **Concentration**: Form a stationary bubble of clean air, up to `SI * 2` large in diameter, that will last for as long as you concentrate on it. | The air is displaced from the caster's lungs for `1` round, making them unable to speak and they suffer `+1` [Exhaustion](./strive-core.md#exhaustion)! |
+| 2     | Vacuumize            | 2  | `8`           | `SI`        | **Concentration**: Drive all air out of a stationary `SI * 2` radius. All creatures caught in the anti-air bubble start suffocating, as all air is driven from their lungs. They suffer `+1` [Exhaustion](strive-core.md#exhaustion) at the start of every turn. | The air around the caster is displaced, instead of the spot of their choosing. The effect lasts `1` round and the caster cannot concentrate on any other spell, for as long as it lasts. |
+| 3     | Crushing Compression | 2  | `SI * 6`      | `SI`        | Compress the air around a ST, crushing it with `SI * 5` points of Bludgeoning damage. | The air compresses around the caster instead. |
+| 4     | Tornado              | 2  | `SI * 6`      | `SI`        | **Concentration, Time(+1)**: Call forth a tornado and control its movements. It is up to `SI` radius wide and tall, and can displace creatures and objects up to `SI * 2` bulk, throwing them up to `SI * 2` far, in a random direction. The tornado can clear away gases and the like. | The tornado forms at the caster's location and moves randomly. It lasts `1` round and the caster cannot concentrate on any other spell until the tornado expires. |
 
 ### Artificing (Arc/Wit)
 The setting of arcane traps and creation of arcane artifacts and materials. 
@@ -1144,80 +1148,80 @@ The setting of arcane traps and creation of arcane artifacts and materials.
 
 | Level | Name                 | AP | Distance                | Ob                             | Effect(s)                      | Backfire Effect(s) |
 | ----- | -------------------- | -- | ----------------------- | ------------------------------ | ------------------------------ | ------------------ |
-| 0     | Place Arcane Charge  | 2  | `1`                 | `SI`                           | Focus arcane energy on a point in hand's reach. The surface begins to glow and become magically receptive. Any other spell that is then cast at the same spot, fills the arcane charge. A trigger defined by the mage will then unleash the stored spell. Note only simple triggers are possible. The charge cannot make distinctions like friend or foe. Example triggers: on touch, on detection of movement in front of the charge, on detection of sound, on the utterance of a specific word. The arcane charge lasts `SI * 4` hours. After that, it harmlessly dissipates. The charge is stationary. It cannot be moved. For every `3 SI` of the Arcane Charge, the spell it holds may be `+1 SI` stronger. | The arcane charge becomes unstable. Roll a `D4` to determine in what way. On a 1: the stored spell loses half its `SI` in strength. 2: the charge triggers in `1D6` minutes. 3: the charge immediately dissipates. 4: the stored spell is overriden. Instead, upon triggering, the charge now emits an excruciatingly loud noise. |
-| 0     | Imitate Arcane Echo  | 2  | `10`               | `Imitated spell's SI / 2 (RU)` | Draw from a [magic echo](#magic-echoes) located up to `10` away and re-new it, casting it again at the SI it once had when it was originally cast. This can only be done once per Echo and cannot be used to re-cast *this* spell. The Echo is destroyed by this action. | The caster suffers the full back-fire of the spell that was imitated. |
-| 1     | Elemental Shield     | 2  | `1`                 | `SI`                           | **Concentration**: Arcane energy envelops your skin, to counter one specific element of your choosing. You or a **ST** of your choice, within hand's reach, suffer `SI * 2` less damage of that element's type of damage. Available elements are: [Acid, Bleeding, Burning, Electrical, Freezing, Poison](./strive-core.md#damage-types). | You instead become twice as vulnerable to the element you chose, causing you to take twice as much damage! This effect lasts `3` turns, or `15` seconds. |
-| 1     | Slag Bomb            | 2  | `6 + (SI * 1)` | `SI`                           | Cause `+SI` [Arcane Slag](#arcane-slag) to all targets within a `3` radius at a spot of your choosing. | Instead of the intended spot, the Slag Bomb detonates right in your face. |
-| 1     | Detonate Slag        | 2  | `6 + (SI * 1)` | `SI`                           | Remove `SI` points of [Arcane Slag](#arcane-slag) from a **ST**, within reach and cause them to explode with arcane energy, dealing `N D4` points of Pure damage, where *N* is the number of [Arcane Slag](#arcane-slag) points that were removed. | Instead of the intended target, your own [Arcane Slag](#arcane-slag) detonates! |
+| 0     | Place Arcane Charge  | 2  | `1`            | `SI`                 | Focus arcane energy on a point in hand's reach. The surface begins to glow and become magically receptive. Any other spell that is then cast at the same spot, fills the arcane charge. A trigger defined by the mage will then unleash the stored spell. Note only simple triggers are possible. The charge cannot make distinctions like friend or foe. Example triggers: on touch, on detection of movement in front of the charge, on detection of sound, on the utterance of a specific word. The arcane charge lasts `SI * 4` hours. After that, it harmlessly dissipates. The charge is stationary. It cannot be moved. For every `3 SI` of the Arcane Charge, the spell it holds may be `+1 SI` stronger. | The arcane charge becomes unstable. Roll a `D4` to determine in what way. On a 1: the stored spell loses half (RD) its `SI` in strength. 2: the charge triggers in `1D10` minutes. 3: the charge now only triggers on touch. 4: the stored spell is overriden. Instead, upon triggering, the charge now emits an excruciatingly loud noise. |
+| 0     | Imitate Arcane Echo  | 2  | `10`           | `Echo's SI / 2 (RU)` | Draw from a [magic echo](#magic-echoes) located up to `10` away and re-new it, casting it again at the SI it once had when it was originally cast. This can only be done once per Echo and cannot be used to re-cast *this* spell. The Echo is destroyed by this action. | The caster suffers the full back-fire of the spell that was imitated. |
+| 1     | Elemental Shield     | 2  | `1`            | `SI`                 | **Concentration**: Arcane energy envelops your skin, to counter one specific element of your choosing. You or a ST of your choice, within hand's reach, suffer `SI * 2` less damage of that element's type of damage. Available elements are: [Acid, Burning, Electrical, Freezing, Poison](./strive-core.md#damage-types). | You instead become twice as vulnerable to the element you chose, causing you to take twice as much damage! This effect lasts `3` turns, or `15` seconds. |
+| 1     | Slag Bomb            | 2  | `6 + SI`       | `SI`                 | Cause `+SI` [Arcane Slag](#arcane-slag) to all targets within a `3` radius at a spot of your choosing. | Instead of the intended spot, the Slag Bomb detonates right in your face. |
+| 1     | Detonate Slag        | 2  | `6 + SI`       | `SI`                 | Remove `SI` points of [Arcane Slag](#arcane-slag) from a ST, within reach and cause them to explode with arcane energy, dealing `N * 4` points of Pure damage to the ST, and `N` points of Pure damage to all adjacent creatures, where *N* is the number of [Arcane Slag](#arcane-slag) points that were actually removed. | Instead of the intended target's, your own [Arcane Slag](#arcane-slag) detonates! |
 
 ### Alteration (Arc/Wit)
 The alteration of physical things, to change their shape and purpose. And the ability to transform yourself, temporarily. 
 
 | Level | Name                 | AP | Distance       | Ob              | Effect(s)                      | Backfire Effect(s) |
 | ----- | -------------------- | -- | -------------- | --------------- | ------------------------------ | ------------------ |
-| 0     | Shape Earth          | 2  | `SI * 3`   | `SI`            | Cause earth in a `SI * 2` radius, at a spot of the mage's choosing to change shape, as the mage wills it. The shape cannot exceed the radius in size. Could be used to create or tear down an earthen wall, close up a door way, quickly create a trench and so on. | Instead of the intended shape, the earth takes on an "inverse" form of what they want. If they wanted a wall, they get a trench. If they wanted a stair leading up, they get one leading down, and so on. |
-| 1     | Arm Blade            | 2  | /              | `SI`            | **Concentration**: Change your arm into a sharp blade of bone, in a disgusting and painful transformation. All unarmed attacks may now deal an additional `SI * 2` Slashing damage. | You suffer a random mutation, instead! |
-| 1     | Wings                | 2  | /              | `SI`            | **Concentration**: Grow wings! You may now fly up to `SI * 10` high at a speed of `SI * 2`. | You suffer a random mutation, instead! |
-| 1     | Feel the Shape       | 1  | `SI * 20` | `SI`            | Place a hand to a surface. You can feel the faintest vibrations and reverberations within and beneath. Can be used to detect underground caves and structures and imprecisely detect the movements of creatures along a given surface, such as the ground. | / |
-| 2     | Alter Shape          | 3  | `1`        | `SI`            | **Time(+1)**: A **ST** (object or creature) is altered as the mage desires, permanently. The Ob depends on the complexity and size of the re-shaping. Ob `2` for simple and small, `3` for tricky and medium, `4` for complex and large and `5+` for very complex and very large alterations. Consult your **GM**! | Instead of the intended alteration, a random mutation occurs! |
-| 2     | Earth Spike Trail    | 3  | `SI * 3`   | `SI`            | Cause spikes of earth to shoot out of a surface that they can lay their hands on. Everyone caught in a straight line of up to `SI * 3` in length, originating from the mage, suffers `1D8 + SI` points of Piercing damage. The area of the spikes is then considered Difficult Terrain. The spikes crumble after `3` turns. | The mage loses control and the spell unleashes in a random direction. |
-| 2     | Aspect of the Bull   | 2  | /              | `SI`            | **Concentration**: Grow bull horns and bestial legs! You may now run at a speed of `4 + (SI * 1)`. You may now charge at targets and gore them for `SI D6` points of Piercing damage, but you must run at least `4` in order to make use of this ability. | You suffer a random mutation, instead! |
-| 4     | Wereshape            | 3  | /              | `4`             | **Concentration, Time(+1)**: Assume a were-beast shape. See the list below. Your attributes will be **modified** as noted on each were-shape. | Instead of transforming, your body goes into shock! You are [Stunned](./strive-core.md#stunned)! |
+| 0     | Arm Blade            | 2  |                | `SI`            | **Concentration**: Change your arm into a sharp blade of bone. All unarmed attacks may now deal an additional `SI * 5` Slashing damage. | You suffer a random mutation, instead! |
+| 0     | Shape Earth          | 2  | `SI * 3`       | `SI`            | Cause earth in a `SI * 2` radius, at a spot of the mage's choosing to change shape, as the mage wills it. The shape cannot exceed the radius in size. Could be used to create or tear down an earthen wall, close up a door way, quickly create a trench and so on. | Instead of the intended shape, the earth takes on an "inverse" form of what they want. If they wanted a wall, they get a trench. If they wanted a stair leading up, they get one leading down, and so on. |
+| 1     | Wings                | 2  |                | `SI`            | **Concentration**: Grow wings! You may now fly up to `SI * 5` high at a speed of `SI * 2`. | You suffer a random mutation, instead! |
+| 1     | Feel the Shape       | 1  | `SI * 20`      | `SI`            | Place a hand to a surface. You can feel the faintest vibrations and reverberations within and beneath. Can be used to detect underground caves and structures and imprecisely detect the movements of creatures along a given surface, such as the ground. | / |
+| 2     | Alter Flesh          | 3  | `1`            | `SI`            | **Time(+1)**: A **ST** creature is altered as the mage desires, permanently. The Ob depends on the complexity and size of the re-shaping. Ob `2` for simple and small, `3` for tricky and medium, `4` for complex and large and `5+` for very complex and very large alterations. Consult your **GM**! | Instead of the intended alteration, a random mutation occurs! |
+| 2     | Earth Spike Trail    | 3  | `SI * 3`       | `SI`            | Cause spikes of earth to shoot out of a surface that they can lay their hands on. Everyone caught in a straight line of up to `SI * 3` in length, originating from the mage, suffers `SI * 3` points of Piercing damage. The area of the spikes is then considered Difficult Terrain. The spikes crumble after `3` turns. | The mage loses control and the spell unleashes in a random direction. |
+| 2     | Aspect of the Bull   | 2  |                | `SI`            | **Concentration**: Grow bull horns and bestial legs! You may now run at a speed of `4 + SI`. You may now charge at targets and gore them for `SI * 3` points of Piercing damage, but you must run at least `2` squares in order to make use of this ability. | You suffer a random mutation, instead! |
+| 4     | Wereshape            | 3  |                | `3`             | **Concentration, Time(+1)**: Assume a were-beast shape. See the list below. Your attributes will be **modified** as noted on each were-shape. | Instead of transforming, your body goes into shock! You are [Stunned](./strive-core.md#stunned)! |
 
 #### Werewolf-Shape
 A bipedal wolf armed with wicked claws and deadly teeth!
 
-Attributes: `+2` Agi, `+4` Str, `+2` Tough, `-2` Wit
+Attributes: `+2` Agi, `+3` Str, `+1` Tough, `-2` Wit; Below, *Level* is the level of the Skill you get.
 
-| Skill                | Level | AP | Ob          | Damage                           | Notes  |
-| -------------------- | ----- | -- | ----------- | -------------------------------- | ------ |
-| Bite(Agi /Str)       | 2     | 2  | `Opposed`   | `1D6 + Str` Piercing             | Tear into a victim with wicked fangs! Causes `+1` [Bleeding](./strive-core.md#bleeding)! |
-| Rend (Agi/Str)       | 3     | 2  | `Opposed`   | `1D10 + Str` Slashing            | Tear a victim to shreds! Causes `+1` [Bleeding](./strive-core.md#bleeding)! |
+| Skill                | Level | AP | Ob          | Description <br> Damage                |
+| -------------------- | ----- | -- | ----------- | -------------------------------------- |
+| Bite (Agi /Str)      | 3     | 2  | Opposed     | Bite a ST. <br> `≤ 1` Hit: `4` Piercing <br> `= 2` Hits: `6` Piercing <br> `≥ 3` Hits: `8` Piercing |
+| Rend (Agi/Str)       | 4     | 2  | Opposed     | Tear a ST to shreds! <br> `≤ 1` Hit: `Str + 3` Slashing; `+1` [Bleeding](./strive-core.md#bleeding) <br> `= 2` Hits: `Str + 4` Slashing; `+2` [Bleeding](./strive-core.md#bleeding) <br> `≥ 3` Hits: `Str + 6` Slashing; `+3` [Bleeding](./strive-core.md#bleeding) |
 
 #### Werebear-Shape
-A bipedal bear armed with massive claws and protected by a mass of muscle!
+A bipedal bear armed with terrifying claws and protected by a mass of muscle!
 
-Attributes: `-1` Agi, `+4` Str, `+5` Tough, `-2` Wit
+Attributes: `-1` Agi, `+4` Str, `+3` Tough, `-2` Wit; Below, *Level* is the level of the Skill you get.
 
-| Skill                | Level | AP | Ob            | Damage                           | Notes  |
-| -------------------- | ----- | -- | ------------- | -------------------------------- | ------ |
-| Rend (Agi/Str)       | 1     | 2  | `Opposed`     | `1D10 + Str` Slashing            | Tear a victim to shreds! |
-| Bear-Hug (Tough/Str) | 2     | 2  | `Opposed + 1` | `Str * 2` Bludgeoning            | Bear-hug and squeeze the life out of a victim! If successful, the victim is considered [Grappled](./strive-core.md#grappled)! |
+| Skill                | Level | AP | Ob            | Description <br> Damage          |
+| -------------------- | ----- | -- | ------------- | -------------------------------- |
+| Rend (Agi/Str)       | 3     | 2  | Opposed       | Tear a ST to shreds! <br> `≤ 1` Hit: `Str` Slashing <br> `= 2` Hits: `Str + 2` Slashing <br> `≥ 3` Hits: `Str + 4` Slashing |
+| Bear-Hug (Tough/Str) | 4     | 2  | Opposed + 1   | Bear-hug and squeeze the life out of a ST, who is considered [Grappled](./strive-core.md#grappled)! <br> `≤ 1` Hit: `Str * 2` Bludgeoning <br> `= 2` Hits: `(Str * 2) + 2` Bludgeoning <br> `≥ 3` Hits: `(Str * 2) + 4` Bludgeoning |
 
 ### Cryomancy (Arc/Arc)
 The summoning and control of ice. Cryomancer's can freeze things, so they're heavier and harder to break. 
 
 | Level | Name                  | AP | Distance      | Ob                           | Effect(s)                      | Backfire Effect(s) |
 | ----- | --------------------- | -- | ------------- | ---------------------------- | ------------------------------ | ------------------ |
-| 0     | Freezing Touch        | 2  | `1`       | `Opposed - SI`               | A fist-sized spot on a **ST**, that the mage's hand touches, freezes over and deals `SI * 3` points of Freezing damage. Causes `+1` [frostbitten](./strive-core.md#frostbitten) | The caster is affected, instead. |
-| 1     | Cold Finger Gun       | 2  | `SI * 5` | `Opposed`                    | The mage shoots an ice spike at a **ST** from their hand, dealing `1D10 + SI` points of Freezing damage. Causes `+1` [frostbitten](./strive-core.md#frostbitten). | The caster is affected, instead. |
-| 2     | Ice Shape             | 2  | `SI * 5` | `SI`                         | Turn humidity into ice, in the shape of your choosing, in an area the size of up to `SI * 3`. | The caster suffers `+1` [frostbitten](./strive-core.md#frostbitten)! |
-| 3     | Ice Armor             | 1  | /             | `SI`                         | **Reaction**: Upon being successfully attacked, turn surrounding humidity into armor, that absorbs up to `SI * 3` points of Slashing, Piercing, Bludgeoning and Burning damage, before shattering immediately afterwards! The damage the armor absorbs, is the damage you do not suffer! | The caster suffers `+1` [frostbitten](./strive-core.md#frostbitten)! |
-| 4     | Rooting Freeze        | 3  | `SI * 5` | `SI + 1`                     | **Time(+1)**: A spot of the mage's choosing freezes over. Anyone caught within the **AOE** radius of up to `SI * 3`, will be frozen to the spot and thus [Rooted](./strive-core.md#rooted) and also suffer `SI D4` points of Freezing damage. They can break free via a successful [strength](./strive-core.md#strength-str) test at Ob `SI`. Or wait, until the ice thaws, which, under normal conditions, will take `SI` rounds. | The spot beneath the caster is affected, instead. |
+| 0     | Freezing Touch        | 2  | `1`           | `Opposed - SI`               | A fist-sized spot on a **ST**, that the mage's hand touches, freezes over and deals `SI * 3` points of Freezing damage. Causes `+1` [Frostbitten](./strive-core.md#frostbitten) | The caster is affected, instead. |
+| 1     | Cold Finger Gun       | 2  | `SI * 5`      | `Opposed`                    | The mage shoots an ice spike at a **ST** from their hand. <br> `≤ 1` Hit: `2 + SI` Freezing; `+1` [Frostbitten](./strive-core.md#frostbitten) <br> `= 2` Hits: `6 + SI` Freezing; `+2` [Frostbitten](./strive-core.md#frostbitten) <br> `≥ 3` Hits: `10 + SI` Freezing; `+3` [Frostbitten](./strive-core.md#frostbitten) | The caster is affected, instead. |
+| 2     | Ice Shape             | 2  | `SI * 5`      | `SI`                         | Turn humidity into ice, in the shape of your choosing, in a radius of up to `SI` squares. | The caster suffers `+1` [Frostbitten](./strive-core.md#frostbitten)! |
+| 3     | Ice Armor             | 1  |               | `SI`                         | **Reaction**: Upon being successfully attacked, turn surrounding humidity into armor, that absorbs up to `SI * 3` points of Slashing, Piercing, Bludgeoning and Burning damage, before shattering immediately afterwards! The damage the armor absorbs, is the damage you do not suffer! | The caster suffers `+1` [Frostbitten](./strive-core.md#frostbitten)! |
+| 4     | Rooting Freeze        | 3  | `SI * 5`      | `SI + 1`                     | **Time(+1)**: A spot of the mage's choosing freezes over. Anyone caught within the **AOE** radius of up to `SI * 3`, will be frozen to the spot and thus [Rooted](./strive-core.md#rooted) and also suffer `SI * 4` points of Freezing damage. They can break free via a successful [Strength](./strive-core.md#strength-str) test at Ob `SI`. Or wait, until the ice thaws, which, under normal conditions, will take `2` rounds. | The spot beneath the caster is affected, instead. |
 
 ### Divination (Arc/Wit)
-Catching glimpses of the unknowable and nudging fate. A Divination mage prefers to stay out of harms way - which their power makes easy. 
+Catching glimpses of the unknowable and nudging fate. A Divination mage prefers to stay out of harms way - which their power facilitates. 
 
 | Level | Name                  | AP | Distance      | Ob                           | Effect(s)                      | Backfire Effect(s) |
 | ----- | --------------------- | -- | ------------- | ---------------------------- | ------------------------------ | ------------------ |
 | 0     | I Saw It Coming       | 1  | `9`           | `SI`                         | **Reaction**: When the mage or an ally is successfully attacked, subtract `SI` Hits from the attacker's roll. This may cause the attack to fail. | The attacker instead gains `SI` Hits to their roll! |
 | 0     | Direct Success        | 2  | `9`           | `SI`                         | **Reaction**: When an ally rolls a test, add `SI` dice to it, and raise their Hit Limit by `+1`. | Your ally instead loses `SI` dice! |
-| 0     | Look Ahead            | 2  |               | `1`                          | Glimpse a short vision of the future, to predict the movements of others and immediate events. Consult your GM. | You glimpse a vision, but you cannot be certain of whether it is the future or past or of your or another universe. |
-| 1     | Boost Project         | 4  |               | `SI`                         | Once a day, boost the progress of your own or an ally's Project, by `SI * 3` points! | The Project instead loses `SI * 2` points! |
-| 2     | Scry Defense          | 4  |               | `SI`                         | **Concentration**: Up to `SI` targets cannot be scried on. |  |
-| 3     | Scry                  | 4  |               | `3`                          | Glimpse a short vision of a person or object, no matter where they are. But only your target is clearly visible. Your peripheral vision is blurred and foggy. | The target becomes aware that the winds of magic swirled in agitation around them. They might not know *who* scried on them, but they may figure out *that* they were scried on. |
-| 4     | Calamitous Prognostication | 3  | `SI * 3` | `3`                          | In one round, something bad happens to a chosen target. Something might fall on them, they might stumble and fall prone, they might be mistaken for a foe by their allies or they might mistake their allies for foes. You choose one such event to occur. | The caster is affected, instead! |
+| 1     | Look Ahead            | 2  |               | `1`                          | Glimpse into the future. Consult your GM. <br> `≤ 1` Hit: A momentary glimpse into the immediate future. <br> `= 2` Hits: A brief glimpse of a near future. <br> `≥ 3` Hits: A detailed vision of a *possible* future event. | You glimpse a vision, but you cannot be certain of whether it is the future or past or of your or another universe. |
+| 1     | Boost Project         | 4  |               | `SI`                         | Once a day, boost the progress of a [Project](./strive-core.md#crafting--research-projects), by `SI * 3` points! | The Project instead loses `SI * 2` points! |
+| 2     | Watch Defense         | 4  |               | `SI`                         | **Concentration**: Up to `SI` targets cannot be Watched. |  |
+| 2     | Watch                 | 4  |               | `3`                          | Glimpse a short vision of a person or object, no matter where they are. But only your target is clearly visible. Your peripheral vision is blurred and foggy. | The target becomes aware that the winds of magic swirled in agitation around them. They might not know *who* Watched them, but they may figure out *that* they were Watched. |
+| 4     | Calamitous Prognostication | 3  | `SI * 3` | `3`                          | In one round, something bad happens to a ST. Choose: 1: Something falls on their head or they stumble and fall prone. 2: They are mistaken for a foe by their allies or they might mistake their allies for foes. 3: They drop something they are holding or which is on their person. 4: The winds of magic are agitated, causing `+1` [Arcane Slag](#arcane-slag). | The caster is affected, instead! |
 
 ### Electromancy (Agi/Arc)
-The summoning and control of lightning. Electricity is fairly versatile - it can injure or stun and power or trigger electrical and electronic devices. 
+The summoning and control of lightning. Electricity is fairly versatile - it can injure, revive and power or trigger electrical and electronic devices. 
 
 | Level | Name                  | AP | Distance       | Ob                           | Effect(s)                      | Backfire Effect(s) |
 | ----- | --------------------- | -- | -------------- | ---------------------------- | ------------------------------ | ------------------ |
 | 0     | Shocking Touch        | 2  | `1`        | `Opposed - SI`               | A small area, about the size of the mage's hand is burned on touch by an electrical shock, dealing `SI * 3` points of Electrical damage to a **ST**. Causes [Electrified](./strive-core.md#electrified) in the victim. | The caster is affected, instead. |
-| 1     | Shock                 | 2  | `SI * 3`   | `Opposed`                    | An arc of lightning strikes the vulnerable internals of a **ST**, dealing `SI D4` points of Electrical damage. Causes [Electrified](./strive-core.md#electrified) in the victim. | The caster is affected, instead. |
-| 1     | Power-Up              | 2  | `SI * 1`   | `SI`                         | An electrical device is powered up for `SI * 5` minutes. | The device breaks or otherwise seizes up and becomes unusable. |
-| 3     | Stunning Shock        | 2  | `SI * 3`   | `Opposed`                    | **Time(+1)**: An aimed arc of lightning strikes a **ST**'s nervous system and makes them [Stunned](./strive-core.md#stunned). | The caster is affected, instead. |
-| 4     | UNLIMITED POWER       | 2  | `SI * 10` | `SI + 1`                     | A cone of lightning spews forth from the mage's finger tips. Up to `SI + 1` **MST** can be hit with the shock, dealing `SI D8` points of Electrical damage. Causes [Electrified](./strive-core.md#electrified) in the victims. | The caster and anyone next to them is affected, instead. |
+| 1     | Shock                 | 2  | `SI * 3`   | `Opposed`                    | An arc of lightning strikes the vulnerable internals of a **ST**, dealing `SI * 4` points of Electrical damage. Causes [Electrified](./strive-core.md#electrified) in the victim. | The caster is affected, instead. |
+| 1     | Power-Up              | 2  | `SI * 2`   | `SI`                         | An electrical device is powered up for `SI * 5` minutes. | The device breaks or otherwise seizes up and becomes unusable. |
+| 2     | Defibrillate          | 2  | `SI * 2`   | `Opposed`                    | An [Unconscious](./strive-core.md#unconscious) ST is jolted back to consciousness! This includes characters at [Death's Door](./strive-core.md#deaths-door). They still have to succeed tests to end the [Death's Door](./strive-core.md#deaths-door) Condition. | The caster is [Stunned](./strive-core.md#stunned) for `1` round. |
+| 4     | UNLIMITED POWER       | 2  | `SI * 5`   | `SI + 1`                     | A cone of lightning spews forth from the mage's finger tips. Up to `SI + 1` targets can be hit with the shock. Causes [Electrified](./strive-core.md#electrified) in the victims. <br> `≤ 1` Hit: `3` Electrical <br> `= 2` Hits: `5` Electrical <br> `≥ 3` Hits: `8` Electrical | The caster and anyone next to them is affected, instead. |
 
 ### Hexing (Arc/Arc)
 The casting of curses to weaken others. 
@@ -1228,8 +1232,8 @@ The casting of curses to weaken others.
 | 0     | Slow Down             | 2  | `SI * 3`  | Opposed by `Self-Control` | Reduce a target's [AP](./strive-core.md#action-points-ap) regain per turn by `1` for `SI` turns and reduce their current [AP](./strive-core.md#action-points-ap) by `1`. Does not stack. | The caster is affected, instead. |
 | 1     | Weaken                | 2  | `SI * 5` | Opposed by `Toughness`    | **Concentration**: Cause a target to take `SI * 2` more points of damage from a chosen damage type. | The caster is affected, instead. The effect lasts for `1` round and the mage **cannot** concentrate on any other spell for that duration. |
 | 2     | Atrophy               | 2  | `SI * 3`  | Opposed by `Toughness`    | **Concentration**: Weaken a target's Strength by `SI` levels. Also, they deal `SI * 2` fewer points of damage per physical attack. | The caster is affected, instead. The effect lasts for `1` round and the mage **cannot** concentrate on any other spell for that duration. |
-| 2     | Spray Acid            | 2  | `SI * 3`  | `SI`                      | Spray acid in a cone, for `SI D4` points of Acid damage. | The effect triggers in reverse, pointing the cone straight through the caster and backwards. They and anyone in the cone behind them suffers the damage! |
-| 3     | Slag to Acid          | 2  | `SI * 5` | Opposed by `Toughness`    | Convert the [Arcane Slag](#arcane-slag) of a **ST** within reach into acid! They lose `SI` points of [Arcane Slag](#arcane-slag), which convert into `N D6` points of Acid damage, where *N* is the number of [Arcane Slag](#arcane-slag) points removed! | The caster is affected, instead! |
+| 2     | Spray Acid            | 2  | `SI * 3`  | `SI`                      | Spray acid in a cone, for `SI * 4` points of Acid damage. | The effect triggers in reverse, pointing the cone straight through the caster and backwards. They and anyone in the cone behind them suffers the damage! |
+| 3     | Slag to Acid          | 2  | `SI * 5` | Opposed by `Toughness`    | Convert the [Arcane Slag](#arcane-slag) of a **ST** within reach into acid! They lose `SI` points of [Arcane Slag](#arcane-slag), which convert into `N * 6` points of Acid damage, where *N* is the number of [Arcane Slag](#arcane-slag) points removed! | The caster is affected, instead! |
 
 ### Hydromancy (Agi/Arc)
 The control of directly accessible water. Blood and creatures cannot be affected by this school. 
@@ -1240,9 +1244,9 @@ Contact with **magically fouled water** will always cause [illness](./strive-cor
 | ----- | -------------------- | -- | ------------- | ------------------------- | ------------------------------ | ------------------ |
 | 0     | Purify Water         | 2  | `SI * 5` | `SI`                      | Cleanse a body of water in up to a `SI * 3` radius to rid itself of all unhealthy impurities, *except* when **magically fouled**! | The water turns magically foul! |
 | 0     | Evaporate Surface    | 2  | `SI * 5` | `SI`                      | Instantaneously cause all water to evaporate, in up to a `SI * 3` radius. | The water turns magically foul! |
-| 0     | Separate Fluids      | 1  | `SI * 5` | `SI`                      | Turn one liquid into two distinct liquids, each containing a specific aspect, and which **cannot mix**, in a `SI * 3` radius. Could be used to separate foul water from pure water. | / |
-| 1     | Fluid Whip           | 2  | `SI * 3`  | `Opposed`                 | Cause a fluid to lash out at a target, like a whip, dealing `SI D6` points of Slashing damage. | The caster loses control and the whip strikes in a random direction. |
-| 2     | Harden Fluid         | 2  | `SI * 3`  | `SI`                      | **Concentration**: Cause a fluid in a radius or line of up to `SI * 5` to become semi-solid. Solid enough to walk on it and for it to keep its current shape! | The water turns magically foul! |
+| 0     | Separate Fluids      | 1  | `SI * 5` | `SI`                      | Turn one liquid into two distinct liquids, each containing a specific aspect, and which **cannot mix**, in a `SI * 3` radius. Could be used to separate foul water from pure water. |  |
+| 1     | Fluid Whip           | 2  | `SI * 3` | `Opposed`                 | Cause a fluid to lash out at a target, like a whip. <br> `≤ 1` Hit: `SI * 4` Slashing <br> `= 2` Hits: `SI * 6` Slashing <br> `≥ 3` Hits: `SI * 8` Slashing | The caster loses control and the whip strikes in a random direction. |
+| 2     | Harden Fluid         | 2  | `SI * 3` | `SI`                      | **Concentration**: Cause a fluid in a radius or line of up to `SI * 5` to become semi-solid. Solid enough to walk on it and for it to keep its current shape! | The water turns magically foul! |
 | 3     | Conjure Rain         | 3  | `SI * 5` | `SI`                      | **Concentration, Time(+1)**: Cause rain to fall in a radius or line of up to `SI * 5`. | Foul water rains from the sky! Anyone caught in it will suffer an [illness](./strive-core.md#illness)! |
 | 3     | Conjure Fog          | 3  | `SI * 5` | `SI`                      | **Concentration, Time(+1)**: Cause fog to form in a radius or line of up to `SI * 3`. The fog imposes a `-2` penalty to all tests through or within it that rely on sight. | The fog forms around the mage, instead of their chosen location and lasts for `1` round. The mage **cannot** concentrate on any other spell for that duration. |
 
@@ -1253,7 +1257,7 @@ Creation of non-physical influences on the senses. That includes images, sounds 
 | ----- | -------------------- | -- | -------------- | ------------------------- | ------------------------------ | ------------------ |
 | 0     | Stationary Illusion  | 2  | `SI * 10`      | `SI`                      | **Concentration**: Create a stationary illusory image, sound and/or smell in a radius of up to `SI * 3`. The illusion can be debunked, with an [Observation](./strive-core.md#observation-awarawar) test at Ob equal to `SI + 1`. | The mage loses control and their worst fear manifests in front of them. They become [Terrified](./strive-core.md#terrified) of this errant illusion, for `1` round! |
 | 0     | Disguise             | 2  | `10`           | `SI`                      | **Concentration**: Up to `SI` **MST** creatures' appearance, sound of voice, even smell, is changed as the mage desires. Note this is only an illusion and represents no *actual* change! The illusion can be debunked, with an [Observation](./strive-core.md#observation-awarawar) test at Ob equal to `SI + 1`. | The mage loses control and their worst fear manifests in front of them. They become [Terrified](./strive-core.md#terrified) of this errant illusion, for `1` round! |
-| 1     | Illusory Duplicates  | 2  | `5`            | `SI`                      | **Concentration**: `SI` number of illusory copies of a **ST** emerge. The distracting images move around the the **ST** and make it `SI Ob` harder to hit them. Every time the **ST** is attacked, one of the illusory duplicates is removed. When no duplicates remain, the spell ends automatically. | The mage loses control and their worst fear manifests in front of them. They become [Terrified](./strive-core.md#terrified) of this errant illusion, for `1` round! |
+| 1     | Illusory Duplicates  | 2  | `SI * 3`       | `SI`                      | **Concentration**: `SI` number of illusory copies of a **ST** emerge. The distracting images move around the the **ST** and each of them makes it `+1` Ob harder to hit them. Every time the **ST** is attacked, one of the illusory duplicates is removed. When no duplicates remain, the spell ends automatically. | The mage loses control and their worst fear manifests in front of them. They become [Terrified](./strive-core.md#terrified) of this errant illusion, for `1` round! |
 | 2     | Conceal              | 3  | `SI * 3`       | `SI`                      | **Concentration**: Up to `SI` targets become invisible. The light bends around them, but doesn't make them ethereal. | The mage loses control and instead of becoming invisible, a terrible noise emanates from them and their targets, for `SI` rounds! |
 
 ### Pyromancy (Arc/Arc)
@@ -1262,60 +1266,52 @@ The summoning and control of fire. The flame being a destructive force, pyromanc
 | Level | Name                 | AP | Distance       | Ob                        | Effect(s)                      | Backfire Effect(s) |
 | ----- | -------------------- | -- | -------------- | ------------------------- | ------------------------------ | ------------------ |
 | 0     | Burning Touch        | 2  | `1`        | `Opposed - SI`            | A controlled flame erupts and stays in the mage's hand, inflicting `SI * 3` points of Burning damage and `+1` [Burning](./strive-core.md#burning) on touch, to a **ST**. | The caster is affected, instead. |
-| 1     | Flame Whip           | 2  | `SI * 3`   | `Opposed`                 | Lash out at a **ST** with a whip made of pure fire, dealing `SI D6` points of Burning damage and `+1` [Burning](./strive-core.md#burning) to them! | The caster loses control and the whip lashes out in a random direction, instead! |
+| 1     | Flame Whip           | 2  | `SI * 3`   | `Opposed`                 | Lash out at a **ST** with a whip made of pure fire. <br> `≤ 1` Hit: `SI * 2` Burning; `+1` [Burning](./strive-core.md#burning) <br> `= 2` Hits: `SI * 4` Burning; `+2` [Burning](./strive-core.md#burning) <br> `≥ 3` Hits: `SI * 6` Burning; `+3` [Burning](./strive-core.md#burning) | The caster loses control and the whip lashes out in a random direction, instead! |
 | 1     | Imbue Flame          | 2  | `SI * 3`   | `SI`                      | **Concentration**: Cover an object in flames that do not burn it, but rather anything else! All attacks made with that object deal an additional `SI * 2` points of Burning damage! | The flames *do* consume the object they cover! The object *can* still be carried or wielded, but will deal `SI * 2` points of Burning damage to whoever does, at the start of their every turn! |
-| 2     | Cone of Fire         | 3  | `SI * 2`   | `SI`                      | The mage shoots a burst of fire in a cone in front of them, dealing `SI D6` points of Burning damage and inflicting `+1` [Burning](./strive-core.md#burning) to all in the victims in the cone. | The effect triggers in reverse, pointing the cone backwards, through the mage's face. |
-| 3     | Fire Ball            | 2  | `SI * 15` | `SI`                      | **Time(+1)**: The mage forms a large ball of flame between their hands, ready to be flung at a target location, dealing `SI D6 + 4` points of Burning damage and inflicting `+1` [Burning](./strive-core.md#burning) in a radius of up to `SI * 1`. | The fire ball instead launches in a random direction, impacting with the first obstacle it comes across! |
-| 4     | Flame Jet            | 3  | `SI * 3`   | `SI + 1`                  | A steady stream of flame shoots from the mage's hands, dealing `SI D6` points of Burning damage and inflicting `+2` [Burning](./strive-core.md#burning) to anything caught by it, in a straight line.  | The line of fire erupts backwards, through the mage. They and anyone behind them, in the line's range is affected. |
-| 5     | Rain of Fire         | 4  | `SI * 20` | `SI + 2`                  | **Concentration, Time(+1)**: The mage makes fire rain from the sky! At the start of every turn, a ball of fire falls from the sky, dealing `(SI D6) + (SI * 2)` points of Burning damage and inflicting `+2` [burning](./strive-core.md#burning) in a `SI * 2` radius, at a location of choice. | No fire falls from the sky, instead the fire explodes in the caster's hands, dealing `SI D6` points of Burning damage and `+2` [Burning](./strive-core.md#burning) to themselves and anything in a `8` radius around them! |
+| 2     | Cone of Fire         | 3  | `SI * 2`   | `SI + 1`                  | The mage shoots a burst of fire in an AoE cone in front of them. <br> `≤ 1` Hit: `SI * 2` Burning; `+1` [Burning](./strive-core.md#burning) <br> `= 2` Hits: `SI * 4` Burning; `+2` [Burning](./strive-core.md#burning) <br> `≥ 3` Hits: `SI * 6` Burning; `+3` [Burning](./strive-core.md#burning) | The effect triggers in reverse, pointing the cone backwards, through the mage's face. |
+| 3     | Fire Ball            | 2  | `SI * 15`  | `SI`                      | **Time(+1)**: The mage forms a large ball of flame between their hands, ready to be flung at a target location, affecting an AoE with radius `SI`. <br> `≤ 1` Hit: `SI` Burning; `+1` [Burning](./strive-core.md#burning) <br> `= 2` Hits: `SI * 2` Burning; `+1` [Burning](./strive-core.md#burning) <br> `≥ 3` Hits: `SI * 3` Burning; `+2` [Burning](./strive-core.md#burning) | The fire ball instead launches in a random direction, impacting with the first obstacle it comes across! |
+| 4     | Flame Jet            | 3  | `SI * 3`   | `SI + 1`                  | **Concentration**: A steady stream of flame shoots from the mage's hands, dealing `SI * 2` points of Burning damage and inflicting `+1` [Burning](./strive-core.md#burning) to anything caught by it, in a straight line.  | The line of fire erupts backwards, through the mage. They and anyone behind them, in the line's range is affected. This lasts `1` round and the mage **cannot** concentrate on any other spells in the meantime! |
+| 5     | Rain of Fire         | 4  | `SI * 10`  | `SI + 2`                  | **Concentration, Time(+1)**: The mage makes fire rain from the sky! At the start of every turn, a ball of fire falls from the sky affecting all in an Aoe radius of `SI * 2`, at a location of choice.  <br> `≤ 1` Hit: `SI * 3` Burning; `+1` [Burning](./strive-core.md#burning) <br> `= 2` Hits: `SI * 4` Burning; `+1` [Burning](./strive-core.md#burning) <br> `≥ 3` Hits: `SI * 5` Burning; `+2` [Burning](./strive-core.md#burning) | No fire falls from the sky, instead the fire explodes in the caster's hands, dealing `SI * 6` points of Burning damage and `+2` [Burning](./strive-core.md#burning) to themselves and anything in a `SI * 2` radius around them! |
 
 ### Restoration (Arc/Awar)
 The mending of the body and mind.
 
 | Level | Name                 | AP | Distance   | Ob                           | Effect(s)                      | Backfire Effect(s) |
 | ----- | -------------------- | -- | ---------- | ---------------------------- | ------------------------------ | ------------------ |
-| 0     | Treating Touch       | 2  | `1`    | `Injury Ob - SI`             | An [injury](./strive-core.md#injury) of a **ST** of the mage's choosing, in hand's reach, is magically healed and removed. It may still leave a [scar](./strive-core.md#scar). Also restores `SI D10` missing [HP](./strive-core.md#hit-points-hp). Only one such treatment can safely be made, per creature, every `6` hours. If a treatment is made before the waiting time is up, roll a `D6` - a `1` will cause the patient to suffer a mutation, while a `2` through `5` will cause them and the mage `+2` [Arcane Slag](#arcane-slag). A `6` is lucky and will cause no negative effects. | The caster suffers `SI D10` points of [Bleeding](./strive-core.md#damage-types) damage. |
+| 0     | Treating Touch       | 2  | `1`    | `Injury Ob - SI`             | An [Injury](./strive-core.md#injury) of a **ST** of the mage's choosing, in hand's reach, is magically healed and removed. Only one such treatment can safely be made, per creature, every `6` hours. If a treatment is made before the waiting time is up, roll a `D6` - a `1` will cause the patient to suffer a mutation, while a `2` through `5` will cause them and the mage `+2` [Arcane Slag](#arcane-slag). A `6` is lucky and will cause no negative effects. <br> `≤ 1` Hit: Also restores `SI * 2` [HP](./strive-core.md#hit-points-hp) <br> `= 2` Hits: Also restores `SI * 3` [HP](./strive-core.md#hit-points-hp) <br> `≥ 3` Hits: Also restores `SI * 4` [HP](./strive-core.md#hit-points-hp) | The caster suffers `SI * 5` points of [Bleeding](./strive-core.md#damage-types) damage. |
 | 2     | Clear Mind           | 2  | `SI 3` | `2`                          | Removes the [Terrified](strive-core.md#terrified), [Jealous](strive-core.md#jealous), [Pacified](./strive-core.md#pacified), [Marked](./strive-core.md#marked) and [Stunned](./strive-core.md#stunned) Conditions from a **ST** in reach. | The caster becomes [Stunned](./strive-core.md#stunned)! |
-| 2     | Life Leech           | 2  | `1`    | Opposed by `Toughness`       | Draw the life from a **ST** creature of choice. Deals `SI D4` points of bleeding damage while healing the caster's [HP](./strive-core.md#hit-points-hp) for the same amount. May transfer `SI` points of [Bleeding](./strive-core.md#bleeding) or [Poisoned](./strive-core.md#poisoned) from the healed creature to the damaged one, if the mage so chooses. | The effect triggers in reverse. |
+| 2     | Life Leech           | 2  | `1`    | Opposed by `Toughness`       | Draw the life from a **ST** creature. Deals damage while healing the caster's [HP](./strive-core.md#hit-points-hp) for the same amount. May transfer `SI` points of [Bleeding](./strive-core.md#bleeding) or [Poisoned](./strive-core.md#poisoned) to the damaged creature, if the mage so chooses. <br> `≤ 1` Hit: `SI * 2` Bleeding <br> `= 2` Hits: `SI * 3` Bleeding <br> `≥ 3` Hits: `SI * 4` Bleeding | The effect triggers in reverse. |
 | 2     | Expel Illness        | 3  | `1`    | `Illness Ob - SI`            | Removes one [Illness](./strive-core.md#illness) of choice from a **ST** of choice, in hand's reach. | The caster contracts a random [Illness](./strive-core.md#illness). | 
-| 4     | Reduce Slag          | 3  | `1`    | `SI + 1`                     | Remove `SI` points of [Arcane Slag](#arcane-slag) from a **ST**! If successful, this spell does not cause [Arcane Slag](#arcane-slag). | Instead of removing any [Arcane Slag](#arcane-slag), you gain `+2` points of it and suffer `6` points of [Bleeding](./strive-core.md#damage-types) damage! |
+| 4     | Reduce Slag          | 3  | `1`    | `SI + 1`                     | Remove `SI` points of [Arcane Slag](#arcane-slag) from a **ST**! If successful, this spell does not cause [Arcane Slag](#arcane-slag). | Instead of removing any [Arcane Slag](#arcane-slag), you gain `+2` points of it! |
 | 4     | Revert Mutation      | 4  | `1`    | `6 - SI`                     | Removes one [Mutation](./strive-core.md#list-of-mutations) of choice from a **ST** of choice, in hand's reach. | The caster suffers a random [Mutation](./strive-core.md#list-of-mutations). |
 
 ### Sanguinomancy (Arc/Tough)
-In the common tongue, blood magic, utilizes mage blood to control a deeply unsettling power. The used blood must be fresh, although not necessarily from the caster. 
+In the common tongue, blood magic, utilizes fresh mage blood to disturbing effect. 
 
 | Level | Name                 | AP | Distance        | Ob                         | Effect(s)                      | Backfire Effect(s) |
 | ----- | -------------------- | -- | --------------- | -------------------------- | ------------------------------ | ------------------ |
-| 0     | Infusion             | 1  | /               | `SI`                       | **Concentration**: Suffer `1D4` [Bleeding](./strive-core.md#damage-types) damage, as you cut a nasty gash into your flesh to draw blood. This spell causes `SI` less [Arcane Overheat](#arcane-overheat) (down to at most `1`). Arcanically charge the blood and smear it on something (like a weapon). The blood begins to boil, causing it to deal an additional `SI * 3` [Burning](./strive-core.md#damage-types) damage. | The caster suffers `SI D4` points of [Bleeding](./strive-core.md#damage-types) damage. |
-| 0     | Snap                 | 2  | `10`       | Opposed by `Toughness + 1` | Snap a twig or similar and channel the destructive power into a victim. They suffer a random [bludgeoning injury](./strive-core.md#bludgeoning-injuries) and `SI * 3` points of [Bleeding](./strive-core.md#damage-types) damage. | The caster suffers the injury, instead. |
-| 1     | Blood Whip           | 2  | `SI * 5`   | `Opposed`                  | Suffer `1D8` [Bleeding](./strive-core.md#damage-types) damage, as you cut a nasty gash into your flesh to draw blood. This spell causes `SI` less [Arcane Overheat](#arcane-overheat) (down to at most `1`). Have your blood lash out at a target, dealing `1D8 + SI` [Slashing](./strive-core.md#damage-types) and `SI D6` [Bleeding](./strive-core.md#damage-types) damage. | The caster suffers `1D10` points of [Bleeding](./strive-core.md#damage-types) damage. |
-| 2     | Blood Boil           | 2  | `SI * 2`    | Opposed by `Toughness + 1` | Bring a victim's blood to a boil. They suffer `SI D6 burning` damage, that [armor](./strive-core.md#armor--shields) cannot reduce. | The caster suffers `1D10 burning` damage, instead. |
-| 2     | Bond of Suffering    | 1  | `SI * 5`   | `SI`                       | **Concentration**: Suffer `2D6` [Bleeding](./strive-core.md#damage-types) damage, as you cut a nasty gash into your flesh to draw blood. This spell causes `SI` less [Arcane Overheat](#arcane-overheat) (down to at most `1`). Your blood forms a bond between two designated creatures, who then share all damage and healing. | The caster suffers twice as much damage from all physical sources, until the start of their next turn. |
-| 2     | Life Leech           | 2  | `1`         | Opposed by `Toughness`     | Draw the life from a **ST** creature of choice. Deals `SI D4` points of [Bleeding](./strive-core.md#damage-types) damage while healing the caster's [HP](./strive-core.md#hit-points-hp) for the same amount. May transfer `SI` points of [Bleeding](./strive-core.md#bleeding) or [Poisoned](./strive-core.md#poisoned) from the healed creature to the damaged one, if the mage so chooses. | The effect triggers in reverse. |
+| 0     | Infusion             | 1  |                 | `SI`                       | **Concentration**: Cut a gash into your skin, arcanically charge your blood and smear it on something (like a weapon). The blood begins to boil, causing it to deal an additional `SI * 3` [Burning](./strive-core.md#damage-types) damage. You may avoid suffering [Arcane Overheat](#arcane-overheat) if you choose to suffer `1D10` [Bleeding](./strive-core.md#damage-types) damage, instead. | The caster suffers `SI D4` points of [Bleeding](./strive-core.md#damage-types) damage. |
+| 0     | Snap                 | 2  | `10`       | Opposed by `Toughness + 1` | Snap a twig or similar and channel the destructive power into a victim. They suffer a random [Bludgeoning Injury](./strive-core.md#bludgeoning-injuries) and `SI * 3` points of [Bleeding](./strive-core.md#damage-types) damage. | The caster suffers the injury, instead. |
+| 1     | Blood Whip           | 2  | `SI * 5`   | `Opposed`                  | Have your blood lash out at a ST. You may avoid suffering [Arcane Overheat](#arcane-overheat) if you choose to suffer `1D10` [Bleeding](./strive-core.md#damage-types) damage, instead. <br> `≤ 1` Hit: `3 + SI` [Slashing](./strive-core.md#damage-types) + `SI * 2` [Bleeding](./strive-core.md#damage-types) <br> `= 2` Hits: `5 + SI` [Slashing](./strive-core.md#damage-types) + `SI * 2` [Bleeding](./strive-core.md#damage-types) <br> `≥ 3` Hits: `8 + SI` [Slashing](./strive-core.md#damage-types) + `SI * 3` [Bleeding](./strive-core.md#damage-types) | The caster suffers `1D10` points of [Bleeding](./strive-core.md#damage-types) damage. |
+| 2     | Blood Boil           | 2  | `SI * 2`    | Opposed by `Toughness + 1` | Bring a ST's blood to a boil. <br> `≤ 1` Hit: `SI * 2` Pure <br> `= 2` Hits: `SI * 3` Pure <br> `≥ 3` Hits: `SI * 4` Pure | The caster suffers `1D10 burning` damage, instead. |
+| 2     | Bond of Suffering    | 1  | `SI * 5`   | `SI`                       | **Concentration**: Your blood forms a bond between two designated creatures, who then share all damage and healing. You may avoid suffering [Arcane Overheat](#arcane-overheat) if you choose to suffer `1D10` [Bleeding](./strive-core.md#damage-types) damage, instead. | The caster suffers twice as much damage from all physical sources, until the start of their next turn. |
+| 2     | Life Leech           | 2  | `1`         | Opposed by `Toughness`     | Draw the life from a ST creature of choice. Deals `SI * 3` points of [Bleeding](./strive-core.md#damage-types) damage while healing the caster's [HP](./strive-core.md#hit-points-hp) for the same amount. May transfer `SI` points of [Bleeding](./strive-core.md#bleeding) or [Poisoned](./strive-core.md#poisoned) from to the creature, if the mage so chooses. | The effect triggers in reverse. |
 | 3     | Crimson Tracks       | 1  | `SI * 150` | `SI`                       | If you have someone's blood, use it to track them. If successful, you get a general sense of how far away and in what direction relative to your facing they are. You also glimpse a momentary fragment of their current emotional state. | The victim is overcome with an odd premonition and becomes aware someone attempted to track them. |
-| 4     | Slagletting          | 2  | /               | `SI + 1`                   | Remove `SI` points of [Arcane Slag](#arcane-slag) from yourself, but suffer `3` points of [Bleeding](./strive-core.md#damage-types) damage for each point of [Arcane Slag](#arcane-slag) that is removed! If successful, this spell does not cause [Arcane Slag](#arcane-slag). | Instead of removing any [Arcane Slag](#arcane-slag), you gain `+2` points of it and suffer `6` points of bleeding damage! |
-| 5     | Puppeteer            | 3  | `SI * 5`   | Opposed by `Self-Control`  | **Concentration, Time(+1)**: Command the blood of a victim to obey you. You control their actions, like a puppeteer. Any action you make them take, costs *their* AP. They may try to resist at the beginning of their every turn, or once every minute. | You lose control and are [Stunned](./strive-core.md#stunned)! |
+| 4     | Slagletting          | 2  |                 | `SI + 1`                   | Remove `SI` points of [Arcane Slag](#arcane-slag) from yourself or a ST, but suffer `3` points of [Bleeding](./strive-core.md#damage-types) damage for each point of [Arcane Slag](#arcane-slag) that is removed! If successful, this spell does not cause [Arcane Slag](#arcane-slag). | Instead of removing any [Arcane Slag](#arcane-slag), you gain `+2` points of it and suffer `6` points of Bleeding damage! |
+| 5     | Puppeteer            | 3  | `SI * 5`   | Opposed by `Self-Control`  | **Concentration, Time(+1)**: Command the blood of a victim to obey you. You control their actions, like a puppeteer. Any action you make them take, costs *their* AP. They may try to resist at the beginning of their every turn, or once every minute, with a [Self-Control](./strive-core.md#self-control-toughtough) test at Ob equal to the number of Hits you achieved. | You lose control and are [Stunned](./strive-core.md#stunned)! |
 
 ### Soul-Binding (Arc/Tough)
-Also referred to as **necromancy**, this is the art and skill of calling souls from the **plane of the dead** and binding them, to reanimate corpses or animate an otherwise unliving body. 
+Also referred to as **necromancy**, this is the art and skill of calling souls from the Plane Of The Dead and binding them, to reanimate corpses or animate an otherwise unliving body. 
 
-In order to bind a soul, a **soul-seal** is required. This seal has to take the form of a pentagram. The medium doesn't matter, although if the seal is destroyed, the soul binding is broken. So, if a mage wants to create a lasting soul-binding, an enduring medium for the seal is advisable. 
+In order to bind a soul, a Soul-Seal is required. This seal has to take the form of a pentagram. The medium doesn't matter, although if the seal is destroyed, the soul binding is broken. So, if a mage wants to create a lasting soul-binding, an enduring medium for the seal is advisable. A mage can only ever issue commands to a soul that they themself have bound. It is not possible to command souls bound by other mages. 
 
-A mage can only ever issue commands to a soul that they've bound. It is not possible to command souls bound by other mages. 
-
-A **soul-binding** can be broken, but it in order to do so, a **soul-binding** test at **Ob** equal to the strength of the **soul-binding** must be **completely succeeded**. It is possible to lift a **soul-binding** made by another mage. 
-
-An important note about **completely failing** a **soul-binding** attempt - a **complete failure** results in the spell-backfiring and displacing the mage's soul with the one they were trying to bind. Their soul is essentially evicted from their own body and sent to the **plane of the dead**. The soul they tried to bind then takes over their body. 
-
-Another important note about targeting a specific soul. It is easier to recall the soul that previously inhabited a body, the shorter the time of death has been. However, targeting a specific soul is an immensely difficult undertaking and shouldn't be taken lightly. For every day past the original time of death, the Ob of recalling the soul increases by `+1`. 
-
-| Level | Name                 | AP | Distance      | Ob                           | Effect(s)                      | Backfire Effect(s) |
-| ----- | -------------------- | -- | ------------- | ---------------------------- | ------------------------------ | ------------------ |
-| 0     | Call and Bind a Soul | 3  | `1`       | `SI`                         | Create a **soul-binding** at the strength of the chosen level. The larger, heavier and more complex a body is, the harder it is to create a binding. Anything larger than, heavier or more complex than a human will make the **soul-binding** harder. `2` for a small and simple, `3` for a moderate and `4` for a large and `5+` for a huge and complex binding. Consult your **GM**. Requires a **soul-seal**. Replacing an existing binding is possible, but the test must exceed the original soul-seals strength. | The caster's soul is displaced from their body. They suffer `1D10 + 5` points of Pure damage! |
-| 0     | Soul Blast           | 2  | `SI * 10`| `Opposed - SI`               | Blast the soul from a **ST**'s body. They suffer `SI D4` [Pure](strive-core.md#damage-types) damage. The experience weakens them, rendering them [Marked](strive-core.md#marked). | The caster is affected, instead. |
-| 1     | Command Bound Soul   | 1  | `SI * 3`  | Opposed by `Wit - SI`        | Issue a single command that the bound soul **must** follow. | / |
-| 1     | Break Binding        | 3  | `1`       | `SI of the seal`             | Break a **soul-binding** and send the soul back to the **plane of the dead**, leaving its former body inanimate and soulless. | The caster's soul is displaced from their body. They suffer `1D10 + 5` points of Pure damage! |
-| 5     | Call back a Soul     | 3  | `1`       | `SI + days since death`      | Target a specific soul and recall them into their prior body. This isn't, strictly speaking, the same as binding a soul. | The caster's soul is evicted from their body and another soul takes place. The caster's character is effectively removed from the world. |
+| Level | Name                 | AP | Distance      | Ob                     | Effect(s)                      | Backfire Effect(s) |
+| ----- | -------------------- | -- | ------------- | ---------------------- | ------------------------------ | ------------------ |
+| 0     | Call and Bind a Soul | 3  | `SI * 3`      | `SI`                   | Create a Soul-Binding at the strength of the chosen level. The larger, heavier and more complex a body is, the harder it is to create a binding. Anything larger than, heavier or more complex than a human will make the Soul-Binding harder. `2` for a small and simple, `3` for a moderate and `4` for a large and `5+` for a huge and complex binding. Consult your **GM**. Requires a Soul-Seal. Replacing an existing binding is possible, but the test must exceed the original soul-seal's strength. | The caster's soul is momentarily displaced from their body. They suffer `10` points of Pure damage! |
+| 0     | Soul Blast           | 2  | `SI * 5`      | Opposed by `Tough + 1` | Blast the soul from a **ST**'s body. The experience weakens them, rendering them [Marked](strive-core.md#marked). <br> `≤ 1` Hit: `SI * 2` Pure <br> `= 2` Hits: `SI * 3` Pure <br> `≥ 3` Hits: `SI * 4` Pure | The caster is affected, instead. |
+| 1     | Command Bound Soul   | 1  | `SI * 3`      | Opposed by `Wit - SI`  | Issue a single command that the bound soul **must** follow. |  |
+| 1     | Break Binding        | 3  |               | `SI of the seal`       | Break a Soul-Binding and send the soul back to the Plane Of The Dead, leaving its former body inanimate and soulless. | The caster's soul is momentarily displaced from their body. They suffer `10` points of Pure damage! |
+| 5     | Call back a Soul     | 3  |               | `5`                    | Target a specific soul and recall them into their prior body. This isn't, strictly speaking, the same as binding a soul. It is easier to recall the soul that previously inhabited a body, the shorter the time of death has been. However, targeting a specific soul is an immensely difficult undertaking and shouldn't be taken lightly.  | The caster's soul is evicted from their body and another soul takes place. The caster's character is effectively removed from the world. |
 
 ### Telekinesis (Arc/Agi)
 The ability to affect things and even creatures from afar, using magic instead of muscles or tools. 
@@ -1328,21 +1324,21 @@ Only targets within and up to the given *distance* can be moved and only within 
 
 | Level | Name                   | AP | Distance      | Ob                           | Effect(s)                      | Backfire Effect(s) |
 | ----- | ---------------------- | -- | ------------- | ---------------------------- | ------------------------------ | ------------------ |
-| 0     | Telekinesis            | 2  | `SI * 5` | `SI`                         | Move an inanimate **ST** object at great velocity (if desired), up to `SI * 5` far. | The caster loses control! The object is instead flung in a random direction! |
-| 1     | Hold Fluid             | 2  | `SI * 5` | `SI`                         | **Concentration**: Cause an up to `SI * 3` large body of water to levitate. | / |
-| 3     | Creature Telekinesis   | 3  | `SI * 5` | `Opposed`                    | Force move a **ST** creature up to `SI * 3`. | The caster is thrown backwards by `SI * 3`. |
+| 0     | Telekinesis            | 2  | `SI * 5`      | `SI`                         | Move an inanimate **ST** object at great velocity (if desired). | The caster loses control! The object is instead flung in a random direction! |
+| 1     | Hold Fluid             | 2  | `SI * 5`      | `SI`                         | **Concentration**: Cause an up to `SI * 3` large body of water to levitate. |  |
+| 3     | Creature Telekinesis   | 3  | `SI * 5`      | `Opposed`                    | Force move a **ST** creature up to `SI * 3`. | The caster is thrown backwards by `SI * 3`. |
 
 ### Telepathy (Arc/Wit)
 The ability to communicate wordlessly, to alter emotions and even issue compelling commands against another's will. 
 
-| Level | Name                   | AP | Distance       | Ob                           | Effect(s)                      | Backfire Effect(s) |
-| ----- | ---------------------- | -- | -------------- | ---------------------------- | ------------------------------ | ------------------ |
-| 0     | Wordless Communication | 2  | `SI * 4`  | `SI`                         | **Concentration**: Communicate wordlessly with `SI` **MST**. Language barriers do not apply to this form of communication. | / |
-| 0     | Read Thoughts          | 2  | `SI * 4`  | Opposed by `Wit - SI`        | Glimpse into the thoughts of **ST** for a short time. | The target instead catches a glimpse into the caster's thoughts. |
-| 2     | Change a Mind          | 2  | `SI * 4`  | Opposed by `Wit - SI`        | Alter a creature's current state of mind and emotion. | The caster is affected, instead. |
-| 3     | Pressing Thought       | 2  | `SI * 10` | `SI + 1`                     | **Concentration**: [Hasten](./strive-core.md#hasted) up to `SI` **MST** of choice. | The caster and their targets suffer `+1` [Exhaustion](./strive-core.md#exhaustion). |
-| 4     | Quiet Command          | 2  | `SI * 10` | Opposed by `Wit - SI`        | Issue a command to another creature, which they feel **strongly** compelled to follow. | `+1` [Exhaustion](./strive-core.md#exhaustion) to self. |
-| 5     | Confer Knowledge       | 4  | `1`        | `6 - SI`                     | **Time(+1)**: Confer `+1` level of a **known skill** to another creature. | The caster loses `1` level in the chosen skill, for `24` hours! |
+| Level | Name                   | AP | Distance       | Ob                             | Effect(s)                      | Backfire Effect(s) |
+| ----- | ---------------------- | -- | -------------- | ------------------------------ | ------------------------------ | ------------------ |
+| 0     | Wordless Communication | 2  | `SI * 4`       | `SI`                           | **Concentration**: Communicate wordlessly with `SI` **MST**. Language barriers do not apply to this form of communication. |  |
+| 0     | Read Thoughts          | 2  | `SI * 4`       | Opposed by `Self-Control - SI` | Glimpse into the thoughts of **ST** for a short time. | The target instead catches a glimpse into the caster's thoughts. |
+| 2     | Change a Mind          | 2  | `SI * 4`       | Opposed by `Self-Control - SI` | Alter a creature's current state of mind and emotion. | The caster is affected, instead. |
+| 3     | Pressing Thought       | 2  | `SI * 10`      | `SI + 1`                       | **Concentration**: [Hasten](./strive-core.md#hasted) up to `SI` **MST** of choice. | The caster and their targets suffer `+1` [Exhaustion](./strive-core.md#exhaustion). |
+| 4     | Quiet Command          | 2  | `SI * 10`      | Opposed by `Self-Control - SI` | Issue a command to another creature, which they feel **strongly** compelled to follow. | `+1` [Exhaustion](./strive-core.md#exhaustion) to self. |
+| 5     | Confer Knowledge       | 4  | `1`            | `6 - SI`                       | **Time(+1)**: Permanently confer `+1` level of a known Skill to another creature, but only up to the caster's level, minus two, in the Skill. The caster's level in the Skill is unaffected. | The caster loses `1` level in the chosen skill, for `24` hours! |
 
 ## List of Illnesses
 This list supplements the list of **injuries** of the [core module](./strive-core.md#list-of-injuries). 
@@ -1444,14 +1440,14 @@ Everyone needs a good doctor and everyone wants to be friends with one. Whether 
 Ambition: Establish a hospital and make it house the world's finest medics and surgeons. My name shall live on through it!
 
 Drivers:
-1. I will travel the world and seek out the most renowned medics and surgeons, to convince them of my hospital. 
+1. I will travel the world and seek out the most renowned medics and surgeons, to convince them to join my hospital. 
 2. I will find a group of foolhardy adventurers to travel with, as I will need protection and coin. And to keep honing my art. 
 3. A hospital is expensive - I will convince someone influential and wealthy to fund my hospital for me. 
 
 Reactions:
 1. Troublemaker: If someone is in need, I will always help. Afterwards I may still ask to be paid, though.
 2. Troublemaker: If someone else tries to treat Injuries, I will always push them aside and take over. Can't have the laity play doctor!
-3. Troublemaker: I do not kill people. I may hurt them, though.
+3. Troublemaker: I **do not kill** people. I *may* hurt them, though.
 
 | Agi (Core)   | Awar         | Str          | Tough        | Wit          | Arc          |
 | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ |
@@ -1528,7 +1524,7 @@ Drivers:
 
 Reactions:
 1. Troublemaker: Whenever I get the chance, I will boast wholeheartedly of my exploits and those of my company! Who cares if not everything we did was *legal*?
-2. Assurance: Many negotiations in the past have taught me valuable people skills. I can always tell if *something* seems off in an offered deal. 
+2. Assurance: Many negotiations in the past have taught me valuable appraisal skills. I can always tell if *something seems off* in an offered deal. 
 3. Troublemaker/Assurance: You never know where the enemy lurks. I always have a weapon and my armor ready. 
 
 | Agi          | Awar         | Str          | Tough        | Wit (Core)   | Arc          |
@@ -1559,6 +1555,8 @@ This and the following sections are reserved solely for the **GM**'s eyes. Readi
 
 # Creature Compendium
 A by no means exhaustive list of medieval-fantasy themed creatures for the **GM** to draw from. 
+
+In the Characteristics blocks below, when armor is concerned, it may be noted in the form `U/F/S/O`, which are simply the pre-calculated values the armor provides under consideration of the degrees of [Flanking](./strive-core.md#flanking). The order is always: unthreatened, flanked, surrounded and overwhelmed. However, armor may also be noted as a plain value, e. g. `5`, which implies the creature does not suffer [Flanking](./strive-core.md#flanking).
 
 ## Swine-Beasts
 Created in a vain and immoral conjuring of demons from another place, the Swine-Beasts themselves represent a cruel parody of man, molded from the flesh of pigs. All the worst properties of humanity are manifested in these unsavory creatures. 
@@ -1601,22 +1599,28 @@ This variant is small and stunted. Its legs are too short and deformed to be use
 | ----- | ----- | ----- | ----- | ----- | ----- |
 | 4     | 4     | 2     | 1     | 1     | 0     |
 
-| BI     | Sprint | Stabil | Def    | FS (Ranged: 10) | HP  | Exhaustion |
-| ------ | ------ | ------ | ------ | ------ | --- | ---------- |
-| 9      | 3      | 0      | 2      | 2 Acid | 10  | 2          |
+| BI     | Sprint | Stabil | HP  | Exhaustion | FS (Ranged: 10) | Def    | Armor             |
+| ------ | ------ | ------ | --- | ---------- | --------------- | ------ | ----------------- |
+| 9      | 3      | 0      | 10  | 2          | 2 Acid          | 2      | 0                 |
 
-Traits: [Disease-Ridden](strive-core.md#disease-ridden--1-point-1-cr), [Light-weight](strive-core.md#light-weight-2-points--1-cr), [Vulnerable](strive-core.md#vulnerable-2-points--2-cr) to Bleeding `+6`
+**Traits**: [Disease-Ridden](strive-core.md#disease-ridden--1-point-1-cr), [Light-weight](strive-core.md#light-weight-2-points--1-cr), [Vulnerable](strive-core.md#vulnerable-2-points--2-cr) to Bleeding `+6`
 
-Assets: Tattered Rags (Clothing)
+**Assets**: Tattered Rags (Clothing)
 
-Skills:
+**Skills**:
 * Observation, level: `3`
 * Bite (Agi/Str):
-  * Chomp down on a target. 
-  * Level: `2`, AP: `2`, Ob: Opposed, Melee, `1D4 + Strength` Piercing damage, Innate
+  * Chomp down on a ST. 
+  * Level: `2`, AP: `2`, Ob: `Opposed`, Melee, ST, Innate
+  * `≤ 1` Hit: `2` Piercing
+  * `= 2` Hits: `3` Piercing
+  * `≥ 3` Hits: `4` Piercing
 * Putrid Vomit (Agi/Awar):
   * Throw up a projectile of lumpy stomach acid and 'shoot' it at a target. 
-  * Level: `4`, AP: `2`, Ob: Opposed, Ranged: `10`, `2D4` Acid damage, [Prefer Range](strive-core.md#weapon-properties), Innate
+  * Level: `4`, AP: `2`, Ob: `Opposed`, Ranged: `10`, ST, [Prefer Range](strive-core.md#weapon-properties), Innate
+  * `≤ 1` Hit: `4` Acid
+  * `= 2` Hits: `6` Acid
+  * `≥ 3` Hits: `8` Acid
 
 ### Swine Champion
 This variant stands tall and proud, its wrinkled skin riddled with scars. Its tusks curl proudly, like a jaw-borne crest. 
@@ -1635,42 +1639,45 @@ This variant stands tall and proud, its wrinkled skin riddled with scars. Its tu
 | ----- | ----- | ----- | ----- | ----- | ----- |
 | 3     | 2     | 4     | 5     | 3     | 0     |
 
-| BI     | Sprint | Stabil | Def    | FS (Melee) | HP  | Exhaustion |
-| ------ | ------ | ------ | ------ | ---------- | --- | ---------- |
-| 8      | 4      | 2      | 4      | 3 Piercing | 50  | 5          |
+| BI     | Sprint | Stabil | HP  | Exhaustion | FS (Melee)      | Def    | Armor             |
+| ------ | ------ | ------ | --- | ---------- | --------------- | ------ | ----------------- |
+| 8      | 4      | 2      | 50  | 5          | 3 Piercing      | 4      | 8/4/2/1 Slashing <br> 6/3/2/1 Piercing <br> 4/2/1/1 Bludgeoning |
 
-Traits: [Vulnerable](strive-core.md#vulnerable-2-points--2-cr) to Bleeding `+6`, [Hyperactive](strive-core.md#hyperactive--7-points-4-cr) + Disruptive
+**Traits**: [Vulnerable](strive-core.md#vulnerable-2-points--2-cr) to Bleeding `+6`, [Hyperactive + Disruptive](strive-core.md#hyperactive--7-points-4-cr)
 
-Assets: Spear, Medium Shield, Light Armor
+**Assets**: Spear, Medium Shield, Swine Champion Armor
 
-Skills:
+**Skills**:
 * Shield, level: `5`
 * Unarmed Combat, level: `3`
-* Weapon \<Spear\>, level: `5`
-* Tusked Maw (Agi/Str):
-  * As a last ditch defence, teeth and strength of jaw may serve. 
-  * Level: `3`, Innate
-    * Bite:
-      * Chomp down on a target. 
-      * AP: `2`, Ob: Opposed, Melee, `1D4 + Strength` Piercing damage
-    * Gore:
-      * Slam into a target with your massive tusks. 
-      * AP: `2`, Ob: Opposed, Melee, `1D6 + Strength` Bludgeoning damage
+* Weapon \<Polearm\>, level: `5`
+* Bite (Agi/Str):
+  * Chomp down on a ST. 
+  * Level: `3`, AP: `2`, Ob: `Opposed`, Melee, ST, Innate
+  * `≤ 1` Hit: `2` Piercing
+  * `= 2` Hits: `3` Piercing
+  * `≥ 3` Hits: `4` Piercing
+* Gore:
+  * Slam into a ST with your massive tusks. 
+  * AP: `4`, Ob: `Opposed`, Melee, ST
+  * `≤ 1` Hit: `Str + 2 (= 6)` Bludgeoning; Force-move `1`
+  * `= 2` Hits: `Str + 4 (= 8)` Bludgeoning; Force-move `2`
+  * `≥ 3` Hits: `Str + 6 (= 10)` Bludgeoning; Force-move `3`
 * Swine Commanding (Tough/Wit):
   * A champion commands respect and obedience.
   * Level: `4`, Innate
-    * Bestial Roar:
-      * Instill fear and doubt into your victims' hearts. All within `10` of you suffer `-1` AP and are Terrified of you.
-      * AP: `2`, Ob: Opposed by [Self-Control](strive-core.md#self-control-toughtough), Ranged, Vocal
-    * Hit That One!:
-      * [Mark](strive-core.md#marked) a ST of choice, for `2` rounds, up to `10` away.
-      * AP: `1`, Ob: 2, Ranged, Vocal
-    * You Die When I Let You!:
-      * **Reaction**: Once in a battle, when an ally's HP are reduced to `0`, they are instead reduced to your achieved number of hits. 
-      * AP: `1`, Ranged, Vocal
+  * Bestial Roar:
+    * Instill fear and doubt into your victims' hearts. All within `10` squares of you suffer `-1` AP and are [Terrified](./strive-core.md#terrified) of you.
+    * AP: `2`, Ob: `Opposed` by [Self-Control](./strive-core.md#self-control-toughtough), Ranged, Vocal
+  * Hit That One!:
+    * [Mark](./strive-core.md#marked) a ST of choice, up to `10` squares away.
+    * AP: `1`, Ob: `2`, Ranged, Vocal
+  * You Die When I Let You!:
+    * **Reaction**: Once in a battle, when an ally's HP are reduced to `0`, they are instead reduced to your `Hits * 3`. 
+    * AP: `1`, Ranged, Vocal
 
 ### Swine Lunger
-This variant is as almost as small as a Belcher, and has atypically short tusks. Perhaps a youngling? It is also quite lean and moves with uncanny precision, for a Swine. 
+This variant is as almost as small as a Belcher, but with strong legs and arms, with atypically short tusks. Perhaps a youngling? It moves with uncanny precision, for a Swine. 
 
 * Power: Regular, CR: `3`
 * Roles: Ambusher, Disruptor, Shock-Trooper
@@ -1685,26 +1692,32 @@ This variant is as almost as small as a Belcher, and has atypically short tusks.
 | ----- | ----- | ----- | ----- | ----- | ----- |
 | 6     | 2     | 3     | 2     | 2     | 0     |
 
-| BI     | Sprint | Stabil | Def    | FS (Melee) | HP  | Exhaustion |
-| ------ | ------ | ------ | ------ | ---------- | --- | ---------- |
-| 10     | 4      | 0      | 3      | 4 Slashing | 20  | 1          |
+| BI     | Sprint | Stabil | HP  | Exhaustion | FS (Melee)      | Def    | Armor             |
+| ------ | ------ | ------ | --- | ---------- | --------------- | ------ | ----------------- |
+| 10     | 4      | 0      | 20  | 2          | 4 Slashing      | 3      | 0                 |
 
-Traits: [Vulnerable](strive-core.md#vulnerable-2-points--2-cr) to Bleeding `+6`
+**Traits**: [Vulnerable](strive-core.md#vulnerable-2-points--2-cr) to Bleeding `+6`
 
-Assets: Tattered Rags (Clothing), Dagger x2
+**Assets**: Tattered Rags (Clothing), Dagger x2
 
-Skills:
+**Skills**:
 * Stealth, level: `4`
 * Weapon \<Dagger\>, level: `5`
 * Lunge (Agi/Agi):
-  * Lunge up to `7`, dealing damage to all foes in your path with your weapons. Does not provoke [Opportunity Attacks](strive-core.md#opportunity-attacks). Causes `+1` Exhaustion to self. 
-  * Level: `5`, AP: `3`, Ob: Opposed, Melee, MST, `1D4 + Strength` Slashing damage, Innate
+  * Lunge up to `7` squares far, dealing damage to all foes in your path with your weapons. Does not provoke [Opportunity Attacks](strive-core.md#opportunity-attacks). 
+  * Level: `4`, AP: `3`, Ob: `3`, Melee, AoE (line), Innate
+  * `≤ 1` Hit: `2` Slashing
+  * `= 2` Hits: `4` Slashing
+  * `≥ 3` Hits: `6` Slashing
 * Vault & Jab (Agi/Agi):
-  * Jump over an adjacent enemy, landing behind them, and attack them. Does not provoke [Opportunity Attacks](strive-core.md#opportunity-attacks). Causes `+1` Exhaustion to self. 
-  * Level: `4`, AP: `3`, Ob: Opposed, Melee, ST, `1D6 + Strength` Slashing damage, Innate
+  * Jump over an adjacent enemy, landing behind them, and attack them. Does not provoke [Opportunity Attacks](strive-core.md#opportunity-attacks). 
+  * Level: `5`, AP: `2`, Ob: `Opposed`, Melee, ST, Innate
+  * `≤ 1` Hit: `Agi - 2 (= 4)` Slashing; Force-move `1`
+  * `= 2` Hits: `Agi (= 6)` Slashing; Force-move `2`
+  * `≥ 3` Hits: `Agi + 2 (= 8)` Slashing; Force-move `3`
 
 ### Swine Ogre
-A hulking mass of Swine and muscle, towering above all around. Despite its imposing nature, it frequently looks to the other Swine for guidance. It almost looks sleepy, except in moments of violence. 
+A hulking mass of Swine and muscle, towering above its lesser brethren. Despite its imposing nature, it frequently looks to the other Swine for guidance. Outside moments of violence, it appears lethargic. 
 
 * Power: Regular, CR: `5`
 * Roles: Disruptor, Tank
@@ -1717,24 +1730,30 @@ A hulking mass of Swine and muscle, towering above all around. Despite its impos
 
 | Agi   | Awar  | Str   | Tough | Wit   | Arc   |
 | ----- | ----- | ----- | ----- | ----- | ----- |
-| 1     | 1     | 6     | 6     | 1     | 0     |
+| 1     | 1     | 8     | 6     | 1     | 0     |
 
-| BI     | Sprint | Stabil | Def    | FS (Melee) | HP  | Exhaustion |
-| ------ | ------ | ------ | ------ | ---------- | --- | ---------- |
-| 3      | 4      | 4      | 1      | 2 Bludgeoning | 60  | 7          |
+| BI     | Sprint | Stabil | HP  | Exhaustion | FS (Melee)      | Def    | Armor             |
+| ------ | ------ | ------ | --- | ---------- | --------------- | ------ | ----------------- |
+| 3      | 4      | 4      | 60  | 7          | 4 Bludgeoning   | 1      | 0                 |
 
-Traits: [Vulnerable](strive-core.md#vulnerable-2-points--2-cr) to Bleeding `+6`
+**Traits**: [Vulnerable](strive-core.md#vulnerable-2-points--2-cr) to Bleeding `+6`
 
-Assets: Tattered Rags (Clothing), Large Crusher
+**Assets**: Tattered Rags (Clothing), Crusher
 
-Skills:
-* Weapon \<Large Crusher\>, level: `2`
+**Skills**:
+* Weapon \<Crusher\>, level: `2`
 * Slam (Str/Tough):
-  * Slam into a victim, knocking them `Strength * 1` backwards.
-  * Level: `4`, AP: `2`, Ob: Opposed, Melee, ST, `Strength` Bludgeoning damage, Innate
+  * Slam into a ST.
+  * Level: `4`, AP: `2`, Ob: `Opposed`, Melee, ST, `Strength` Bludgeoning damage, Innate
+  * `≤ 1` Hit: `Strength - 2 (= 6)` Bludgeoning; Force-move `1`
+  * `= 2` Hits: `Strength (= 8)` Bludgeoning; Force-move `2`
+  * `≥ 3` Hits: `Strength + 2 (= 10)` Bludgeoning; Force-move `3`
 * Tusk Thrust (Agi/Str):
   * Slam into a **ST** with your enormous tusks, imapling your victim upon them. 
-  * Level: `3`, AP: `2`, Ob: Opposed, Melee, ST, `1D6 + Agility` Piercing damage, Innate
+  * Level: `3`, AP: `2`, Ob: `Opposed`, Melee, ST, Innate
+  * `≤ 1` Hit: `2` Piercing; Force-move `1`
+  * `= 2` Hits: `4` Piercing; Force-move `2`
+  * `≥ 3` Hits: `6` Piercing; Force-move `3`
 
 ### Swine Shaman
 An intelligent and cruel leader among the Swine. Its gaze attentively surveys all, as it stands proudly, in relatively clean clothes and at the center of Swine society. The bright crimson in its surface-level veins glows faintly. Elaborate arrangements of bones sewn to its clothes lend it an air of dark majesty. 
@@ -1752,32 +1771,35 @@ An intelligent and cruel leader among the Swine. Its gaze attentively surveys al
 | ----- | ----- | ----- | ----- | ----- | ----- |
 | 2     | 2     | 3     | 4     | 5     | 6     |
 
-| BI     | Sprint | Stabil | Def    | FS (Melee) | HP  | Exhaustion |
-| ------ | ------ | ------ | ------ | ---------- | --- | ---------- |
-| 9      | 3      | 0      | 2      | 2 Piercing | 40  | 4          |
+| BI     | Sprint | Stabil | HP  | Exhaustion | FS (Ranged: 10) | Def    | Armor             |
+| ------ | ------ | ------ | --- | ---------- | --------------- | ------ | ----------------- |
+| 9      | 3      | 0      | 40  | 4          | 4 Acid          | 2      | 0                 |
 
-Traits: [Vulnerable](strive-core.md#vulnerable-2-points--2-cr) to Bleeding `+6`
+**Traits**: [Vulnerable](strive-core.md#vulnerable-2-points--2-cr) to Bleeding `+6`
 
-Assets: Fine Rags (Clothing), Large Crusher
+**Assets**: Fine Rags (Clothing)
 
-Skills:
+**Skills**:
 * Magic School \<Hexing\>, level: `5`
 * Medicine, level: `3`
 * Bite (Str/Tough):
-  * Chomp down on a target. 
-  * Level `2`, AP: `2`, Ob: Opposed, ST, Melee, `1D4 + Strength` Piercing damage, Innate
+  * Chomp down on a ST. 
+  * Level `2`, AP: `2`, Ob: `Opposed`, ST, Melee, Innate
+  * `≤ 1` Hit: `2` Piercing
+  * `= 2` Hits: `3` Piercing
+  * `≥ 3` Hits: `4` Piercing
 * A Leader Of Swine (Wit/Wit):
   * A shaman commands respect and terror.
   * Level: `5`, Innate
-    * Fire Up The Blood:
-      * Strike up a haunting chant, in demonic language, stirring the blood of your fellow Swine. One of of them, up to `15` away is enraged, and overwhelmed with their demoic blood, which starts leaking out of their eyes and nostrils. Until the end of combat, every tick, they suffer `5` points of bleeding damage (the Swine's vulnerability to bleeding damage does not get triggered by this), but also deal an additional `8` points of bludgeoning damage on every successful attack. 
-      * AP: `3`, Ob: `2`, ST (ally Swine), Ranged: `15`, Vocal
-    * Drums Of Terror:
-      * Beating on a drum with a... face... stretched across it, instill terror in your foes. Every non-Swine in a `15` radius around must succeed a Self-Control test, or else become [Terrified](strive-core.md#terrified) of the shaman. 
-      * AP: `2`, Ob: Opposed by Self-Control + 1, MST, Ranged: `15`, Auditory
-    * You Die When I Let You!:
-      * **Reaction**: Once in a battle, when an ally's HP are reduced to `0`, they are instead reduced to your achieved number of hits. 
-      * AP: `1`, Ranged, Vocal
+  * Fire Up The Blood:
+    * Strike up a haunting chant, in demonic language, stirring the blood of your fellow Swine. One of of them, up to `15` squares away is enraged, and overwhelmed with their demoic blood beginning to boil, which starts leaking out of their eyes and nostrils. Until the end of combat, every tick, they suffer `5` points of bleeding damage (the Swine's vulnerability to bleeding damage does not get triggered by this), but also deal an additional `8` points of bludgeoning damage on every successful attack. 
+    * AP: `3`, Ob: `2`, ST (ally Swine), Ranged: `15`, Vocal
+  * Drums Of Terror:
+    * Beating on a drum with a... face... stretched across it, instill terror in your foes. Every non-Swine in a `15` square radius around must succeed a Self-Control test, or else become [Terrified](strive-core.md#terrified) of the shaman. 
+    * AP: `2`, Ob: `Opposed by Self-Control + 1`, MST, Ranged: `15`, Auditory
+  * You Die When I Let You!:
+    * **Reaction**: Once in a battle, when an ally's HP are reduced to `0`, they are instead reduced to your `Hits * 3`. 
+    * AP: `1`, Ranged, Vocal
 
 ### Swine Skewerer
 This variant has full dark-red fur and much shorter tusks. It moves deftly, albeit sloppily. 
@@ -1794,23 +1816,26 @@ This variant has full dark-red fur and much shorter tusks. It moves deftly, albe
 | ----- | ----- | ----- | ----- | ----- | ----- |
 | 5     | 3     | 4     | 3     | 2     | 0     |
 
-| BI     | Sprint | Stabil | Def    | FS (Ranged: 10) | HP  | Exhaustion |
-| ------ | ------ | ------ | ------ | --------------- | --- | ---------- |
-| 10     | 4      | 0      | 2      | 4 Piercing      | 30  | 4          |
+| BI     | Sprint | Stabil | HP  | Exhaustion | FS (Ranged: 10) | Def    | Armor             |
+| ------ | ------ | ------ | --- | ---------- | --------------- | ------ | ----------------- |
+| 10     | 4      | 0      | 30  | 4          | 4 Piercing      | 2      | 0                 |
 
-Traits: [Vulnerable](strive-core.md#vulnerable-2-points--2-cr) to Bleeding `+6`, [Poisoner](strive-core.md#poisoner--4-points-2-cr)
+**Traits**: [Vulnerable](strive-core.md#vulnerable-2-points--2-cr) to Bleeding `+6`, [Poisoner](strive-core.md#poisoner--4-points-2-cr)
 
-Assets: Tattered Rags (Clothing), Javelin x8, Bear Trap x3
+**Assets**: Tattered Rags (Clothing), Javelin x8, Bear Trap x3
 
-Skills:
+**Skills**:
 * Observation, level: `3`
 * Stealth, level: `5`
 * Throw Javelin (Agi/Str):
   * Throw a javelin at a **ST**. 
-  * Level: `4`, Ob: Opposed, Ranged: `10`, ST, `1D8` Piercing damage, Innate
+  * Level: `4`, Ob: `Opposed`, Ranged: `10`, ST, Innate
+  * `≤ 1` Hit: `4` Piercing
+  * `= 2` Hits: `6` Piercing
+  * `≥ 3` Hits: `8` Piercing
 
 ### Swine Slasher
-This variant is lanky and sways a little. 
+This variant is lanky, lacking much of the bulk of its brethren. 
 
 * Power: Regular, CR: `4`
 * Roles: Brawler, Shock-Trooper
@@ -1823,15 +1848,15 @@ This variant is lanky and sways a little. 
 | ----- | ----- | ----- | ----- | ----- | ----- |
 | 2     | 2     | 4     | 3     | 1     | 0     |
 
-| BI     | Sprint | Stabil | Def    | FS         | HP  | Exhaustion |
-| ------ | ------ | ------ | ------ | ---------- | --- | ---------- |
-| 5      | 3      | 1      | 2      | 3 Slashing | 30  | 4          |
+| BI     | Sprint | Stabil | HP  | Exhaustion | FS (Ranged: 10) | Def    | Armor             |
+| ------ | ------ | ------ | --- | ---------- | --------------- | ------ | ----------------- |
+| 5      | 3      | 1      | 30  | 4          | 3 Slashing      | 2      | 0                 |
 
-Traits: [Vulnerable](strive-core.md#vulnerable-2-points--2-cr) to Bleeding `+6`
+**Traits**: [Vulnerable](strive-core.md#vulnerable-2-points--2-cr) to Bleeding `+6`
 
-Assets: Tattered Rags (Clothing), Axe, Light Shield
+**Assets**: Tattered Rags (Clothing), Axe, Light Shield
 
-Skills:
+**Skills**:
 * Shield, level: `3`
 * Weapon \<Axe\>, level: `3`
 
@@ -1840,7 +1865,7 @@ This variant is massive and strong. Most of its body is covered in dark, dirty c
 
 * Power: Regular, CR: `5`
 * Roles: Brawler, Disruptor
-  * These hulking beasts represent the swine-folks front line fighters. They protect the squalid den and stomp intruders who threaten the shaman. 
+  * These hulking beasts represent the swine-folks front line fighters. They protect the squalid den and impede intruders who threaten the shaman. 
   * Employ as a front line fighter. May be taken down quickly, as it will not dodge, so consider using more than one in a fight. Intended to be a wall of flesh in the way toward high value targets. 
 * Behavior: 
   * Very aggressively pushes enemies around. 
@@ -1852,32 +1877,35 @@ This variant is massive and strong. Most of its body is covered in dark, dirty c
 | ----- | ----- | ----- | ----- | ----- | ----- |
 | 2     | 1     | 6     | 4     | 1     | 0     |
 
-| BI     | Sprint | Stabil | Def    | FS (Melee) | HP  | Exhaustion |
-| ------ | ------ | ------ | ------ | ---------- | --- | ---------- |
-| 4      | 3      | 3      | 1      | 3 Slashing | 40  | 5          |
+| BI     | Sprint | Stabil | HP  | Exhaustion | FS (Melee)      | Def    | Armor             |
+| ------ | ------ | ------ | --- | ---------- | --------------- | ------ | ----------------- |
+| 4      | 3      | 3      | 40  | 4          | 3 Slashing      | 1      | 0                 |
 
 Traits: [Vulnerable](strive-core.md#vulnerable-2-points--2-cr) to Bleeding `+6`
 
 Assets:
-* Clothing: Swine Armored Rags, Large Crusher
+* Clothing: Swine Armored Rags, Crusher
 
 Swine Armored Rags: Slashing `6`, Piercing `4`, Bludgeoning `3`, Acid `6`
 
 Skills:
 * Unarmed Combat, level: `4`
-* Weapon \<Large Crusher\>, level: `3`
-* Tusked Maw (Agi/Str):
-  * As a last ditch defence, teeth and strength of jaw may serve. 
-  * Level: `3`, Innate
-* Bite:
-  * Chomp down on a target. 
-  * AP: `2`, Ob: Opposed, Melee, `1D4 + Strength` Piercing damage, Innate
+* Weapon \<Crusher\>, level: `3`
+* Bite (Agi/Str):
+  * Chomp down on a ST. 
+  * Level: `3`, AP: `2`, Ob: `Opposed`, Melee, ST, Innate
+  * `≤ 1` Hit: `2` Piercing
+  * `= 2` Hits: `3` Piercing
+  * `≥ 3` Hits: `4` Piercing
 * Gore:
-  * Slam into a target with your massive tusks. 
-  * AP: `2`, Ob: Opposed, Melee, `1D6 + Strength` Bludgeoning damage, Innate
+  * Slam into a ST with your massive tusks. 
+  * Level: `3`, AP: `2`, Ob: `Opposed`, Melee, ST
+  * `≤ 1` Hit: `Str (= 6)` Bludgeoning; Force-move `1`
+  * `= 2` Hits: `Str + 2 (= 8)` Bludgeoning; Force-move `2`
+  * `≥ 3` Hits: `Str + 4 (= 10)` Bludgeoning; Force-move `3`
 
 ## Veil Entities
-Veil Entities are unlike any other. They are strange and unfathomable things from a dimension, or other form of existence unlike any we know. These entities aren't necessarily evil, nor are they particularly interested in causing harm, if indeed they are capable of sentience at all. It is their very nature that is harmful to ours. Fortunately, The Veil reclaims its denizens diligently. 
+Veil Entities are unlike any other. They are strange and unfathomable things from a dimension, or other form of existence unlike any we know. These entities aren't necessarily evil, nor are they particularly interested in causing harm, if indeed they are capable of sapience at all. It is their very nature that is harmful to ours. Fortunately, The Veil reclaims its denizens diligently. 
 
 ### The Monolith
 A rough-hewn, crystalline monolith of obsidian color. Crimson veins pulsate gently, just beneath the surface. It draws every gaze towards it, whispering unknowable secrets and beckoning with malignity. Everyone within a `30` radius around it is affected and suffers `+1` [Bleeding](strive-core.md#bleeding) at the start of their turn and **cannot** look away, for as long as they have line of sight to it. The Monolith lasts for `5` rounds or `5` minutes, before The Veil reclaims it. When that happens, it explodes, dealing `1D8` [bludgeoning](strive-core.md#damage-types) damage and inflicting `+2` [Bleeding](strive-core.md#bleeding) to all within its radius.
@@ -1888,8 +1916,10 @@ A giant sphere of pure white light. Its surface is infinitely smooth. Nothing ca
 ### The Tar Mycelium
 The entire scene is covered in a black, slimy web of tiny pulsating strands of a massive mycelium. This fungus grows quickly, rapidly enveloping everything it touches. The entire scene is considered Difficult Terrain. If a creature stands still for `2` turns, the fungus envelops them and begins devouring them alive. They suffer `1D4` [Acid](strive-core.md#damage-types) damage at the end of their second turn and after that, at the start of every turn they haven't yet moved.
 
+The mycelium dissipates into black smoke after `3` rounds. 
+
 ### Cacophony of Flesh
-An abominable mound of misshapen flesh, with countless tiny and several massive ragged tentacles protruding from it. As soon as it is able, it will violently thrash about, trying *desperately* to inflict vengeful violence upon all in its path. Lasts for `5` rounds or `5` minutes, before it melts away gruesomely. 
+An abominable mound of misshapen flesh, with countless ragged tentacles of various sizes protruding from it. As soon as it is able, it will violently thrash about, trying *desperately* to inflict vengeful violence upon all in its path. Lasts for `5` rounds or `5` minutes, before it melts away gruesomely. 
 
 * Power: Regular, CR: `20`
 * Roles: Tank, Brawler
@@ -1899,27 +1929,31 @@ An abominable mound of misshapen flesh, with countless tiny and several massive 
 
 | Agi   | Awar  | Str   | Tough | Wit   | Arc   |
 | ----- | ----- | ----- | ----- | ----- | ----- |
-| 5     | 5     | 20    | 20    | 1     | 0     |
+| 5     | 5     | 10    | 10    | 1     | 0     |
 
-| BI     | Sprint | Stabil | Def    | FS (Melee)    | HP  | Exhaustion |
-| ------ | ------ | ------ | ------ | ------------- | --- | ---------- |
-| 4      | 1      | 5      | 1      | 5 Bludgeoning | 200 | 5          |
+| BI     | Sprint | Stabil | HP  | Exhaustion | FS (Melee)      | Def    | Armor             |
+| ------ | ------ | ------ | --- | ---------- | --------------- | ------ | ----------------- |
+| 4      | 1      | 5      | 200 | 5          | 5 Bludgeoning   | 1      | 0                 |
 
-Traits: [Climber + Sticky](strive-core.md#climber--2-points-1-cr)
+**Traits**: [Climber + Sticky](strive-core.md#climber--2-points-1-cr)
 
-Skills: 
+**Skills**: 
 * Unarmed Combat: Level `5`, Innate
-* Cacophony of Flesh (Agi/Agi):
-  * Countless tiny and several massive ragged tentacles writhe and twitch with violent intent and an indescribable mound of flesh stands suspended above the ground, menacingly. 
-    * Slam:
-      * Slam down on a target with your entire body, enveloping them in a tentacled mass. They are rendered [Prone](./strive-core.md#prone) and [Grappled](./strive-core.md#grappled).
-      * AP: 2, Ob: Opposed, `Strength` bludgeoning damage
-    * Thrash:
-      * Everything in a `3` radius around you is thrown backwards by `10` as your tentacles flail about, wildly.
-      * AP:2
-    * Devour:
-      * Devour a **ST** creature in one swoop. As they enter your stomach, they are considered [Grappled](./strive-core.md#grappled) and cannot move on their own. They suffer `1D10` Acid damage at the start of your every turn. Only one creature may be devoured, at a time. You can spit out a creature you devoured, at no AP cost.
-      * AP: 2, Ob: Opposed
+* Slam (Str/Tough):
+  * Slam down with your entire body, enveloping all within reach in a tentacled mass. They are rendered [Prone](./strive-core.md#prone) and [Grappled](./strive-core.md#grappled).
+  * Level: `4`, AP: `2`, Ob: `4`, Ranged: `2`, AoE (radius): `2`
+  * `≤ 1` Hit: `8` Bludgeoning
+  * `= 2` Hits: `10` Bludgeoning
+  * `≥ 3` Hits: `12` Bludgeoning
+* Thrash (Agi/Str):
+  * Everything in a `3` radius around you is thrown away from you as your tentacles flail about, wildly.
+  * Level: `4`, AP: `3`, Ob: `4`, Ranged: `2`, AoE (radius): `2`
+  * `≤ 1` Hit: Force-move `2`
+  * `= 2` Hits: Force-move `4`
+  * `≥ 3` Hits: Force-move `6`
+* Devour (Agi/Str):
+  * Devour a ST creature in one swoop. As they enter your stomach, they are considered [Grappled](./strive-core.md#grappled) and cannot move on their own. They suffer `6` Acid damage at the start of your every turn. Only one creature may be devoured, at a time. You can spit out a creature you devoured, at no AP cost.
+  * Level: `3` AP: `2`, Ob: `Opposed`
 
 ### The Puppeteer
 A giant stick-figure, shrouded in swirling darkness and blurred edges. All corpses, no matter how old, within `300` squares around the Puppeteer begin to move again. They arise from their tombs, graves and battlefields, to enact terrible vengeance on the living. The Puppeteer lasts for several days. Should The Puppeteer be called again from The Veil in the time it is already present, then several more days will be added to the time it may escape The Veil. 
@@ -1937,7 +1971,7 @@ Alps are a fairly common occurence throughout the world. How they reproduce is a
 * Power: Regular, CR: `6`
 * Roles: Ambusher
   * Employ as an investigation and moderate combat challenge. 
-  * If you want to ramp up the challenge, have the encounter begin near a civilian victim which the Alp is about to or already has put to sleep, so it can immediately use "Nightmare". 
+  * If you want to ramp up the challenge, have the encounter begin near a civilian victim which the Alp is about to or already has put to sleep, so it can immediately use "Induce Nightmare". 
 * Behavior: 
   * Stays close to civilization. May sometimes even hide inside towns and cities. 
   * Only active at night. Tends to hibernate during the day, in a well hidden location. 
@@ -1946,25 +1980,25 @@ Alps are a fairly common occurence throughout the world. How they reproduce is a
 | ----- | ----- | ----- | ----- | ----- | ----- |
 | 4     | 3     | 3     | 3     | 3     | 5     |
 
-| BI     | Sprint | Stabil | Def    | FS (Melee) | HP  | Exhaustion |
-| ------ | ------ | ------ | ------ | ---------- | --- | ---------- |
-| 10     | 4      | 0      | 3      | 2 Slashing | 30  | 2          |
+| BI     | Sprint | Stabil | HP  | Exhaustion | FS (Melee)      | Def    | Armor             |
+| ------ | ------ | ------ | --- | ---------- | --------------- | ------ | ----------------- |
+| 10     | 4      | 0      | 30  | 3          | 3 Slashing      | 3      | 0                 |
 
-Skills: 
+**Skills**: 
 * Stealth: Level `3`
-* Alp Powers (Wit/Arc):
-  * Level: `7`
-  * Innate telepathic powers that only an Alp has. 
-    * Induce Nightmare:
-      * Induces nightmares on all nearby (`20` radius around the Alp) sleeping characters. This strengthens the Alp, removing any active Injuries from it and granting it unnatural strength and toughness. It gains `+3` strength, `+3` toughness and `+2` bonus dice to "Rend" and regains `1D10` HP for every nightmare it induces, for `6` turns or `6` minutes. Any creature with a nightmare can be woken up (in any way you like), at Ob `3`. 
-      * Does not stack: Every sleeping character can only be affected once. This resets when they wake up.
-      * AP: `1`
-    * Induce Sleep:
-      * Forces the victim to fall asleep, on the spot. They become unconscious, but can be woken through physical harm or a very strong shaking. The number of `hits + 1` achieved over the victim dictates the Ob for tests to wake them up. 
-      * AP: `1`, Ob: Opposed by Self-Control, ST, Ranged: `20`, Psionic
+* Induce Nightmare (Wit/Arc):
+  * Induces nightmares on all nearby (`20` radius around the Alp) sleeping characters. This strengthens the Alp, removing `1` active Injury for every induced nightmare. The Alp gains `+3` to Strength and `+1` to Toughness. While nightmare lasts, every turn it regains `5` HP for every nightmare and every victim suffers `5` Pure damage. Nightmare lasts for `6` turns or `6` minutes. Any creature with a nightmare can be woken up (in any way you like), at Ob `3`. This ability does not stack with itself. After the time is up, the affected creatures automatically wake up. 
+  * Does not stack: Every sleeping character can only be affected once. 
+  * Level: `7`, AP: `2`
+* Induce Sleep (Wit/Arc):
+  * Forces the victim to fall asleep, on the spot. They become [Unconscious](./strive-core.md#unconscious), but can be woken through physical harm or a very strong shaking, at Ob `3` for tests to wake them up. 
+  * Level: `7`, AP: `2`, Ob: `Opposed by Self-Control`, ST, Ranged: `20`, Psionic
 * Rend (Agi/Str): 
   * Tear a victim to shreds. 
-  * Level: `3`, AP: `2`, Ob: Opposed, ST, Melee, `1D8 + Strength` Slashing damage
+  * Level: `3`, AP: `2`, Ob: `Opposed`, ST, Melee
+  * `≤ 1` Hit: `Str + 2 (= 5)` Slashing
+  * `= 2` Hits: `Str + 4 (= 7)` Slashing
+  * `≥ 3` Hits: `Str + 6 (= 9)` Slashing
 
 ## Void Demons
 When a soul is thrust into the void between realities, it is stretched infinitely thin. Unable to fill the void, it snaps and implodes, bouncing back into reality, but broken. It cannot function as it once did and furthermore, keeps open a tear to the void. It apparates as a monster of swirling shadow, not quite corporeal, yet not fully ethereal. 
@@ -1988,11 +2022,11 @@ This variant of Void Demon is vaguely humanoid, its amorphous face stretched out
 | ----- | ----- | ----- | ----- | ----- | ----- |
 | 4     | 4     | 2     | 1     | 0     | 0     |
 
-| BI     | Sprint | Stabil | Def    | FS (Melee) |
-| ------ | ------ | ------ | ------ | ---------- |
-| 9      | 3      | 0      | 1      | 2 Piercing |
+| BI     | Sprint | Stabil | HP  | Exhaustion | FS (Melee)      | Def    | Armor             |
+| ------ | ------ | ------ | --- | ---------- | --------------- | ------ | ----------------- |
+| 9      | 3      | 0      | 10  | 1          | 2 Piercing      | 1      | Half (RU) against all but Burning <br> `-50%` against Burning |
 
-Traits: 
+**Traits**: WIP
 
-Skills:
-* 
+**Skills**: WIP
+* WIP
