@@ -2464,7 +2464,6 @@ For any ally next to you, who's also using a shield, you both gain **+1D** on yo
 
 | Level | Name                 | AP | **Ob**  | Effect(s)          | Condition(s) |
 | ----- | -------------------- | -- | ------- | ------------------ | ------------ |
-| 0     | Steady Shield        | /  | /       | **Passive**: While wielding a shield, increase your [Stability](#stability-stabil) by `+1`. | Using shield. |
 | 2     | Shield Slam          | 2  | Opposed | `≤ 1` Hit: Push the target back by `1` square. <br> `= 2` Hits: `Str` Bludgeoning damage; Push the target back by `1` square. <br> `≥ 3` Hits: `Str * 2` Bludgeoning damage; Knock the target [Prone](#prone) or push them `2` squares back. | Using shield. |
 
 | Level | <img src="../../img/heroic-acts.svg" width="64px" height="64px"></img> | Heroic Act Description | Desperate Measure Description | <img src="../../img/desperate-measures.svg" width="64px" height="64px"></img> |

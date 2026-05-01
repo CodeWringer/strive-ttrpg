@@ -688,6 +688,7 @@ A small round or oblong shield commonly held as far from the body as possible, t
 A medium-sized, round or kite-shaped shield made from tough wood and leather or even metal, which offers good protection against most attacks, while not encumbering the wielder too much. 
 
 * `+1` permanent [Exhaustion](./strive-core.md#exhaustion) while wielded. 
+* `+1` [Stability](./strive-core.md#stability-stabil) while wielded.
 * Bulk: `2`
 * PI: `60`, TI: `6 Hours`
 
@@ -699,7 +700,7 @@ A medium-sized, round or kite-shaped shield made from tough wood and leather or 
 A large, kite-shaped or rectangular shield, which can protect every part of the fighter, from the shoulder down to the feet. Its weight is very tiring. 
 
 * `+2` permanent [Exhaustion](./strive-core.md#exhaustion) while wielded.
-* `+1` [Stability](./strive-core.md#stability-stabil) while wielded.
+* `+2` [Stability](./strive-core.md#stability-stabil) while wielded.
 * Bulk: `4`
 * PI: `75`, TI: `6 Hours`
 
