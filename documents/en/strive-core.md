@@ -2718,7 +2718,7 @@ The boons from meals do not stack. Eating a second meal will have it override al
 The following is a list of all [Traits](#traits) of the core rules. 
 
 ### Breath Weapon
-Obvious jokes aside, your breath can deal some tangible damage. `1D8 + 2` of either Acid, Burning, Freezing or Poison damage (choose one when receiving the Trait). This costs `1` AP and launches an AoE ranged attack with a distance of `3` squares.
+Obvious jokes aside, your breath can deal some tangible damage. `1D8 + 2` of either Acid, Burning, Freezing or Poison damage (choose one when receiving the Trait). This costs `1` AP and launches an AoE ranged attack with a distance of `3` squares. Can only be used once per turn. 
 
 ### Innate Armor
 Whether naturally tough-skinned or artificially enhanced, your hide proves especially resistant against a chosen type or damage, with `6` points of armor. 
