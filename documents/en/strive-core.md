@@ -3706,7 +3706,7 @@ Suitable for: Elites and boss enemies who typically face many enemies at once. T
 #### Inexorable (-5 points; +4 CR)
 This creature cannot gain [Exhaustion](./strive-core.md#exhaustion) through its own actions (i. e. sprinting, Skills or Expertises). 
 
-Suitable for: Creatures that would *break* and be uninteresting to deal with, if they tired. Zombies, for example. But this can only be Suitable for particularly tough foes, especially if they make heavy use of Exhaustion causing abilities. 
+Suitable for: Creatures that would *break* and be uninteresting to deal with, if they tired. Zombies, for example. Particularly suitable for foes that make heavy use of Exhaustion causing abilities. 
 
 #### Moon Affinity (-7 points; +4 CR)
 When basking in a full moon, the creature regains `6` HP at the start of its turn. 
