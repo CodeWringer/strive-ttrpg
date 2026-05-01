@@ -3018,7 +3018,7 @@ One should always keep in mind that despite the game mechanical effects of a mut
 | ---------- | ---------------------- | --------------------------------- |
 | 1 - 5      | Cosmic Fortune         | Suffer no mutation! |
 | 6 - 12     | Deformed Arm           | The arm deforms and bends in ways it was never meant to. `-1` [Agility](#agility-agi). |
-| 13 - 19    | Grotesque Claws        | The entire lower arm morphs into three large claws. Unable to hold *anything* with that arm, but able to perform claw attacks that deal `3D6` Slashing damage. |
+| 13 - 19    | Grotesque Claws        | The entire lower arm morphs into three large claws. Unable to hold *anything* with that arm, but Unarmed Combat attacks deal an additional `6` Slashing damage. |
 | 20 - 25    | Deformed Leg           | The leg deforms and bends in ways it was never meant to. `-1` [Agility](#agility-agi). |
 | 26 - 32    | Deformed Face          | A morphed visage, forever stuck in agony, horror and anger. `+1` [Commanding](#commanding-toughwit), `-1` [Acting](#acting-awarwit). |
 | 33 - 39    | Internal Changes       | Something deep within isn't quite right. `-1` [Toughness](#toughness-tough). |
