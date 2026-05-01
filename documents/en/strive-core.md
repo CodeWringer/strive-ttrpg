@@ -2361,9 +2361,9 @@ Reloading the weapon costs `2` [AP](#action-points-ap).
 Reloading the weapon costs `3` [AP](#action-points-ap).
 
 #### Ranged
-The weapon can be used against targets up to a noted distance away from the user. The range, in squares, is noted in parentheses. This can either indicate a maximum distance, which cannot be exceeded, or a so-called **Distance Increment**, which may be exceeded, but at increasing penalties.
+The weapon can be used against targets up to a noted distance away from the user. The range, in squares, is noted in parentheses. This can either indicate a maximum distance, which cannot be exceeded, or a so-called **Distance Increment**, abbreviated **DI**, which may be exceeded, but with penalties.
 
-For every Distance Increment past the initial, an attack suffers `+1` Ob and `-2` points of damage. In other words, the farther you shoot, the harder it becomes to score an effective hit. 
+For every Distance Increment past the initial, an attack suffers `+1` Ob and deals `-2` points of damage. In other words, the farther you shoot, the harder it becomes to score an effective hit. 
 
 > A weapon with this property noted as `(max. 8)` can attack a target up to a maximum of `8` squares away. 
 

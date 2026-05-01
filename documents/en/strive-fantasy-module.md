@@ -711,10 +711,6 @@ A large, kite-shaped or rectangular shield, which can protect every part of the 
 ### Weapon Types
 Following are fantasy-themed weapon types. 
 
-For ranged weapons there is note made of a value called the "Distance Increment", abbreviated DI. This describes the distance within which the weapon can be used optimally, for no penalty to Ob and damage. As soon as a shooter wants to hit a target past their initial (= optimal) Distance Increment, they incur a penalty as noted on the attack in question. This penalty is multiplied by every increment past the initial. 
-
-> For example, when a Distance Increment of `10` has been noted, then shooting anything within and up to that distance incurs no penalties. But as soon as the shooter wants to hit something at `11` distance, they incur their first penalty. The next penalty would be incurred at `21`, and so on.
-
 #### Weapon Properties
 Weapons can have the following **properties** (see also the [core weapon properties](./strive-core.md#weapon-properties)):
 
