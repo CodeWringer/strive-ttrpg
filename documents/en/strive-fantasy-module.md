@@ -194,14 +194,14 @@ Supplements to the [Core Attribute rules](./strive-core.md#attributes).
 ### Arcana [Arc]
 <img src="../../img/arcana.svg" style="width: 3rem; height: 3rem;"></img> Governs a character's ability to control and sense magic flow, casting magic spells or detecting lingering magic. 
 
-This is the only attribute that can have a level of `0`, meaning playing a mage is a deliberate choice. 
+This is the only attribute that can have a Level of `0`, meaning playing a mage is a deliberate choice. 
 
 # Magic
 For this supplement, magic is assumed to be a mostly invisible supernatural force that runs all throughout, like a magnetosphere. Perhaps it could be called the *Arcanosphere*. How magic manifests itself, is up to the world the GM is running. Is there a verbal component? Must the mage trace arcane symbols into the air or onto some surface? Are the magical currents visible and glow eerily? This supplement makes no assumptions in this regard. 
 
-Only a character with [Arcana](#arcana-arc) can cast magic at will. What kind of magic, depends on the [Magic Schools](#list-of-magic-schools) the character knows. There are offensive, defensive and manipulative [Schools Of Magic](#list-of-magic-schools). 
+Only a Character with [Arcana](#arcana-arc) can cast magic at will. What kind of magic, depends on the [Magic Schools](#list-of-magic-schools) the Character knows. There are offensive, defensive and manipulative [Schools Of Magic](#list-of-magic-schools). 
 
-There may also be magic artifacts that can either cause magical effects on their own, or through character interaction. With such artifacts, it may be possible for non-mages to cast magic. For that, see [Runes](#runes) and [Scrolls](#magic-scrolls). 
+There may also be magic artifacts that can either cause magical effects on their own, or through Character interaction. With such artifacts, it may be possible for non-mages to cast magic. For that, see [Runes](#runes) and [Scrolls](#magic-scrolls). 
 
 A *magic spell* is the intended effect of using a [Magic School's](#magic-school--school---attribute-) [Expertises](./strive-core.md#expertise). Using such an Expertise is also referred to as *casting magic*, *casting a spell* or other similar wordings. In mechanical terms, the [Expertises](./strive-core.md#expertise) are the *spells* of a [School Of Magic](#list-of-magic-schools).
 
@@ -213,10 +213,10 @@ A mage can fail their [Test](./strive-core.md#tests) and thus suffer a [Spell-Ba
 [Testing](./strive-core.md#tests) a [Magic School Skill](#magic-school--school---attribute-), in order to cast a *magic spell*, works as follows:
 
 1. Determine the [Spell Intensity](#spell-intensity-si) (SI) to use. 
-   1. The level in the corresponding [Magic School Skill](#magic-school--school---attribute-) determines the maximum [SI](#spell-intensity-si) that can be picked. 
-   1. Note that any spell **must** be cast with a [SI](#spell-intensity-si) of *at least* `1`. This includes **learning skills**. 
-2. Determine the test's **Ob**. 
-   1. Some spells require an [Opposed Test](./strive-core.md#opposed-test), while others impose a fixed **Ob** and yet others have a dynamic **Ob**, based on some formula. 
+   1. The Level in the corresponding [Magic School Skill](#magic-school--school---attribute-) determines the maximum [SI](#spell-intensity-si) that can be picked. 
+   1. Note that any spell **must** be cast with a [SI](#spell-intensity-si) of *at least* `1`. This includes Learning Skills. 
+2. Determine the test's Ob. 
+   1. Some spells require an [Opposed Test](./strive-core.md#opposed-test), while others impose a fixed Ob and yet others have a dynamic Ob, based on some formula. 
 3. The dice for the test are rolled. 
 4. Convert the [SI](#spell-intensity-si) to [Arcane Slag](#arcane-slag) and [Arcane Overheat](#arcane-overheat). This **always** happens *after* the spell is cast!
    1. If this brings the mage to a new [Arcane Overheat](#arcane-overheat) threshold, its effects now apply. 
@@ -225,7 +225,7 @@ A mage can fail their [Test](./strive-core.md#tests) and thus suffer a [Spell-Ba
 ## Spell Intensity (SI)
 **Spell Intensity (SI)** is the strength at which a magic spell is being cast. A higher number causes stronger and further reaching effects, but also more [Arcane Slag](#arcane-slag) and [Arcane Overheat](#arcane-overheat). 
 
-A spell's **maximum intensity** is dictated by the level in the corresponding [Magic School Skill](#magic-school--school---attribute-). However, the minimum **SI** for a spell cast is **always** `1`. 
+A spell's **maximum intensity** is dictated by the Level in the corresponding [Magic School Skill](#magic-school--school---attribute-). However, the minimum **SI** for a spell cast is **always** `1`. 
 
 When a mage casts magic, **one third** (RD and minimum `1`) of the [Spell Intensity](#spell-intensity-si) they choose equals the amount of [Arcane Slag](#arcane-slag) that builds up within them. The other half turns into [Arcane Overheat](#arcane-overheat). 
 
@@ -248,21 +248,21 @@ When a mage casts magic, **one third** (RD and minimum `1`) of the [Spell Intens
 
 [Arcane Slag](#arcane-slag) represents the base **Arcane Overheat** of a character, which can not be reduced as quickly as the more fleeting **Arcane Overheat**. Note that non-mages may be affected by this, too!
 
-> A character with an **Arcane Slag** of `3`, always has at least `3` **Arcane Overheat**!
+> A Character with an **Arcane Slag** of `3`, always has at least `3` **Arcane Overheat**!
 
-The [Arcana](#arcana-arc) attribute determines several thresholds. If the character has an [Arcana](#arcana-arc) level of less than `1`, calculate the thresholds as if it was level `1`. 
+The [Arcana](#arcana-arc) attribute determines several thresholds. If the Character has an [Arcana](#arcana-arc) Level of less than `1`, calculate the thresholds as if it was Level `1`. 
 
 * **Cold**: Up to and including the `modified Arcana` is **mostly safe**. 
-  * Every time the mage casts a spell, if they don't achieve at least `1` **hit**, a [Spell-Backfire](#spell-backfire) occurs. In other words, only a **complete failure** of the [Test](#testing-magic) results in a [Spell-Backfire](#spell-backfire). 
+  * Every time the mage casts a spell, if they don't achieve at least `1` Hit, a [Spell-Backfire](#spell-backfire) occurs. In other words, only a Complete Failure of the [Test](#testing-magic) results in a [Spell-Backfire](#spell-backfire). 
 * **Smoldering**: Up to and including the `modified Arcana * 2` is **risky**. 
-  * Every time the mage casts a spell, their **Ob** is always increased by `+1`. Less than `2` **hits** causes a [Spell-Backfire](#spell-backfire). 
+  * Every time the mage casts a spell, their Ob is always increased by `+1`. Less than `2` Hits causes a [Spell-Backfire](#spell-backfire). 
   * All spells are super-charged, with an automatic and free `+1` SI. 
 * **Broiling**: Up to and including the `modified Arcana * 3` is **perilous**. 
-  * The **Ob** for **all** tests is always increased by `+1`. Less than `3` **hits** causes a [Spell-Backfire](#spell-backfire). 
+  * The Ob for **all** Tests is always increased by `+1`. Less than `3` Hits causes a [Spell-Backfire](#spell-backfire). 
   * All spells are super-charged, with an automatic and free `+2` SI. 
 * **Consuming**: Anything past the point of **Broiling** is **mortally perilous**. 
   * Suffer `1D8 + 2` [Pure damage](./strive-core.md#damage-types) every [Tick](./strive-core.md#ticks). At the end of every tick, reduces [Arcane Slag](#arcane-slag) and [Arcane Overheat](#arcane-overheat) by `-1` point, each. 
-  * The **Ob** for **all** tests is always increased by `+2`. Less than `4` **hits** causes a [Spell-Backfire](#spell-backfire). 
+  * The Ob for **all** Tests is always increased by `+2`. Less than `4` Hits causes a [Spell-Backfire](#spell-backfire). 
   * All spells are super-charged, with an automatic and free `+3` SI. 
 
 > The thresholds of a mage with an Arcana of `3` are: `0-3` Cold, `4-6` Smoldering, `7-9` Broiling and `10+` Consuming. 
@@ -301,7 +301,7 @@ Usually, a spell notes the effects that happen when a Backfire occurs. In case t
 It is possible for another nearby mage to prevent the **spell-backfire**, if they [negate the Spell](#magic-negation) as a **reaction**. This also applies even if the spell wouldn't affect them. If the other mage's attempt to negate the spell *also* **backfires**, then both of the mages suffer the spell's effect at one greater [Intensity](#spell-intensity-si) level. 
 
 A **spell-backfire** occurs in the following two cases: 
-1. The [Magic School Skill Test](#testing-magic) is a **complete failure**. 
+1. The [Magic School Skill Test](#testing-magic) is a Complete Failure. 
 2. The mage suffers from [Arcane Overheat](#arcane-overheat) and rolls a failure. 
 
 ## Concentration Spells
@@ -309,21 +309,21 @@ Some magic can be upheld for as long as the casting mage *concentrates* on their
 
 Under normal circumstances, a mage can only upkeep only **one** concentration spell at a time. 
 
-Concentration can be broken! Either automatically, if the mage is incapacitated, or when the mage is *attacked*, they must succeed another test of their spell's magic school, at **Ob** equal to half (RU) of the chosen [SI](#spell-intensity-si). If concentration is broken, the spell ends. 
+Concentration can be broken! Either automatically, if the mage is incapacitated, or when the mage is *attacked*, they must succeed another test of their spell's magic school, at Ob equal to half (RU) of the chosen [SI](#spell-intensity-si). If concentration is broken, the spell ends. 
 
 ## Magic Negation
-It is possible to negate a magical attack entirely, by using the same **school of magic** **skill** and achieving more **hits**, than the attacker. The defender has to perform a [Test](#testing-magic) of the same magic school, at the **Ob** equal to the number of **hits + 1** the attacker achieved. The defender does not get to use a [Expertise](./strive-core.md#expertise) of the magic school in question. This is a purely defensive action, which benefits everyone who might be hit with the spell of the attacker, as no one will be hit, if the defense is successful. 
+It is possible to negate a magical attack entirely, by using the same **school of magic** Skill and achieving more Hits, than the attacker. The defender has to perform a [Test](#testing-magic) of the same magic school, at the Ob equal to the number of **hits + 1** the attacker achieved. The defender does not get to use a [Expertise](./strive-core.md#expertise) of the magic school in question. This is a purely defensive action, which benefits everyone who might be hit with the spell of the attacker, as no one will be hit, if the Defense is successful. 
 
-If the defense fails, the full effect is applied. If the defense attempt causes a [Spell-Backfire](#spell-backfire) on the defender, they suffer the attacker's spell at one greater [Intensity](#spell-intensity-si) level. 
+If the Defense fails, the full effect is applied. If it causes a [Spell-Backfire](#spell-backfire) on the defender, they suffer the attacker's spell at one greater [Intensity](#spell-intensity-si) level. 
 
 **Magic negation** can also be used to prevent another mage's [Spell-Backfire](#spell-backfire).
 
 ## Protection From Magic
 Armor made from [Ambersteel](#ambersteel) can reduce the damage suffered through magical sources and reduce the [SI](#spell-intensity-si) of non-damaging spells. 
 
-The [Quality level](./strive-core.md#crafting--research-projects) of an armor or shield determines how much it protects the wearer. See [Ambersmithing](#ambersmithing-strwit) for the specific numbers. 
+The [Quality Level](./strive-core.md#crafting--research-projects) of an armor or shield determines how much it protects the wearer. See [Ambersmithing](#ambersmithing-strwit) for the specific numbers. 
 
-Damage from magical sources is reduced by the quality level + a number of dice. Non-damaging spells have their [SI](#spell-intensity-si) reduced by *only* the quality level. 
+Damage from magical sources is reduced by the Quality Level + a number of dice. Non-damaging spells have their [SI](#spell-intensity-si) reduced by *only* the Quality Level. 
 
 ## Magic Echoes
 Whenever magic is cast, a pale reflection of it remains, invisible to the naked eye, lingering for `SI * 4` hours, based on the magic spell's [Intensity](#spell-intensity-si) when it was cast. 
@@ -344,7 +344,7 @@ Its surface is unnaturally smooth and covered in a fine, iridescent shine. Under
 
 **Abyssalite** is a hard and brittle mineral, prone to shattering if too much force is applied. This makes it difficult to shape. It is also fairly heavy, which makes it difficult to carry. 
 
-A fist-sized **Abyssalite** chunk has a [Bulk](./strive-core.md#carrying-capacity) of 2 and grants one greater level in the respective [School Of Magic](#magic-school--school---attribute-), without causing any additional [Arcane Overheat](#arcane-overheat). In order to use the **Abyssalite**, the caster **must** be touching it. 
+A fist-sized **Abyssalite** chunk has a [Bulk](./strive-core.md#carrying-capacity) of 2 and grants one greater Level in the respective [School Of Magic](#magic-school--school---attribute-), without causing any additional [Arcane Overheat](#arcane-overheat). In order to use the **Abyssalite**, the caster **must** be touching it. 
 
 ### Amberite
 As magic is amplified by [Abyssalite](#abyssalite), its antithesis is called **Amberite**, a metal which dulls the effects of magic and slows any magic flow nearby it. The material is also known to affect magic creatures and can cause great pain in magic-users. 
@@ -362,7 +362,7 @@ A fist-sized **Amberite** chunk is fairly heavy, with a [Bulk](./strive-core.md#
 ### Ambersteel
 **Ambersteel** is a strictly anti-magic material. It should enjoy great attention in any fantasy world, where magic is a real and recognizable force. Magic is powerful and fearsome and thus, if not under control, can threaten to cause great pain and destruction. **Ambersteel** dampens that power and puts shackles on it. 
 
-[Amberite](#amberite) can be processed into **Ambersteel**, which makes it a hard and flexible metal. The raw material heats slowly and must be heated over the course of several days and nights, without interruption. When it finally reaches the right temperature, it will glow white, with a purple sheen. At that point, it can be hammered into shape. Constant re-heating ensures it stays at the right temperature and a final quenching in oil mixed with powdered [Abyssalite](#abyssalite) ensures it retains its flexibility. If processed outside the optimal temperature, the material quickly grows brittle and will shatter if any stress is put on it. The skill to use is [Ambersmithing](#ambersmithing-strwit). 
+[Amberite](#amberite) can be processed into **Ambersteel**, which makes it a hard and flexible metal. The raw material heats slowly and must be heated over the course of several days and nights, without interruption. When it finally reaches the right temperature, it will glow white, with a purple sheen. At that point, it can be hammered into shape. Constant re-heating ensures it stays at the right temperature and a final quenching in oil mixed with powdered [Abyssalite](#abyssalite) ensures it retains its flexibility. If processed outside the optimal temperature, the material quickly grows brittle and will shatter if any stress is put on it. The Skill to use is [Ambersmithing](#ambersmithing-strwit). 
 
 Due to the length of the process and the difficulty in keeping the right temperature, smiths capable of creating **Ambersteel** are rare. 
 
@@ -399,18 +399,18 @@ It also takes great skill to carve **runes**, as each **rune's** shape and compl
 
 Due to how **runes** are always magically charged, they cannot be in the vicinity of any other **runes**. This works a bit like how magnets with the same polarity repulse each other, but a lot more dangerous. This condition applies regardless of the type of magic each of the **runes** hold. If two **runes** are brought to a distance of `20` or less to each other, they begin to glow, hum and rumble, as if to warn their bearers. Should they be brought to a distance of `15` or less to each other, they both discharge the magic they hold and repulse each other. This means anyone immediately nearby suffers `3D6` **Bludgeoning** damage. The **runes** are flung away from each other far enough to be at least `21` apart. *Also*, the **runes** may be **destroyed** in the process. Roll a `D6` for each of the **runes** - if the result is a `1` or `2`, the **rune** is **destroyed**! 
 
-It may be possible to circumvent this repulsion behavior by placing the **runes** in a container made of [Ambersteel](#ambersteel). This requires the container to be of a [Quality level](./strive-core.md#crafting--research-projects) equal to the highest of the **runes'** [Spell Intensity](#spell-intensity-si).
+It may be possible to circumvent this repulsion behavior by placing the **runes** in a container made of [Ambersteel](#ambersteel). This requires the container to be of a [Quality Level](./strive-core.md#crafting--research-projects) equal to the highest of the **runes'** [Spell Intensity](#spell-intensity-si).
 
 In order to craft a **rune**:
 * A **rune** can only be made to cast one type of magic. So the carver has to pick one of the [Magic Schools](#list-of-magic-schools). 
-* The maximum **level** at which a **rune** can be created, depends on the carver's skill. The **level** of the **rune** dictates the level of the respective magic it will cast at. 
-* The carver has to succeed a [Rune Smithing](#rune-smithing-arcwit) skill test. 
-* Then, the **rune** must be "primed" by a mage. This requires a **complete success** of a test of the same [School Of Magic](#list-of-magic-schools) as the **rune** holds, with **Ob** equal to the [Spell Intensity](#spell-intensity-si) of the **rune**. 
-* If any of the tests are not a **complete success**, the **rune** is botched and the material cannot be used for another attempt. There is no room for mistakes. 
+* The maximum Level at which a **rune** can be created, depends on the carver's skill. The Level of the **rune** dictates the Level of the respective magic it will cast at. 
+* The carver has to succeed a [Rune Smithing](#rune-smithing-arcwit) Skill Test. 
+* Then, the **rune** must be "primed" by a mage. This requires a Complete Success of a test of the same [School Of Magic](#list-of-magic-schools) as the **rune** holds, with Ob equal to the [Spell Intensity](#spell-intensity-si) of the **rune**. 
+* If any of the Tests are not a Complete Success, the **rune** is botched and the material cannot be used for another attempt. There is no room for mistakes. 
 
 In order to invoke a **rune**:
-* A **complete success** of a [Rune-Using](#rune-using-agiwit) skill test will invoke the spell of the **rune** as expected. This costs `2` AP in combat. 
-* A **partial success** or **complete failure** results in a [Spell-Backfire](#spell-backfire). 
+* A Complete Success of a [Rune-Using](#rune-using-agiwit) Skill Test will invoke the spell of the **rune** as expected. This costs `2` AP in combat. 
+* A **partial success** or Complete Failure results in a [Spell-Backfire](#spell-backfire). 
 * The user accumulates one third (RD, but to no less than `1`) of the rune's [Spell Intensity](#spell-intensity-si) as [Arcane Slag](#arcane-slag). 
 
 ### Magic Scrolls
@@ -420,14 +420,14 @@ Due to how Magic Scrolls are always magically charged, they cannot be in the vic
 
 If two Magic Scrolls **of the same type** are brought to a distance of `20` or less to each other, they begin to glow, hum and rumble, as if to warn their bearers. Should they be brought to a distance of `15` or less to each other, they both discharge the magic they hold and repulse each other. This means anyone immediately nearby suffers `3D6` Bludgeoning damage. The Magic Scrolls are destroyed in the process! 
 
-It may be possible to circumvent this repulsion behavior by placing the Magic Scrolls in a container made of [Ambersteel](#ambersteel). This requires the container to be of a [Quality level](./strive-core.md#crafting--research-projects) equal to the highest of the Magic Scrolls' [Spell Intensity](#spell-intensity-si).
+It may be possible to circumvent this repulsion behavior by placing the Magic Scrolls in a container made of [Ambersteel](#ambersteel). This requires the container to be of a [Quality Level](./strive-core.md#crafting--research-projects) equal to the highest of the Magic Scrolls' [Spell Intensity](#spell-intensity-si).
 
 In order to create a Magic Scroll:
 * PI: `50`, TI: `1` Hour
 * Powdered [Abyssalite](#abyssalite) must be painted onto the parchment, paper or other such material, in a shape specific to the magic spell the Magic Scroll will be able to cast. 
-  * This requires a **complete success** of an [Artistry](./strive-core.md#artistry-agiawar) or [Artificing](#artificing-arcwit) test, at Ob equal to the intended [Spell Intensity](#spell-intensity-si) of the Magic Scroll. 
-* Then, the Magic Scroll must be "primed" by a mage. This requires a **complete success** of a test of the same [School Of Magic](#list-of-magic-schools) as the Magic Scroll holds, with Ob equal to the [Spell Intensity](#spell-intensity-si) of the Magic Scroll. 
-* If any of the tests are not a **complete success**, the Magic Scroll is botched and the material cannot be used for another attempt. There is no room for mistakes. 
+  * This requires a Complete Success of an [Artistry](./strive-core.md#artistry-agiawar) or [Artificing](#artificing-arcwit) test, at Ob equal to the intended [Spell Intensity](#spell-intensity-si) of the Magic Scroll. 
+* Then, the Magic Scroll must be "primed" by a mage. This requires a Complete Success of a test of the same [School Of Magic](#list-of-magic-schools) as the Magic Scroll holds, with Ob equal to the [Spell Intensity](#spell-intensity-si) of the Magic Scroll. 
+* If any of the Tests are not a Complete Success, the Magic Scroll is botched and the material cannot be used for another attempt. There is no room for mistakes. 
 
 In order to invoke a Magic Scroll:
 * One must unfurl and hold it plainly in the direction the spell is to be cast, then trace the painted symbol on the Magic Scroll to "agitate" the primed magic. This costs `2` AP in combat. 
@@ -444,7 +444,7 @@ Destroying such an artifact is not an easy feat. It requires a spike of pure [Am
 
 A Malevite orb is an artifact of very great power that can change the laws of physics and warp reality around it. To direct this power, requires an [Arcane Engine](#arcane-engine), wherein the orb functions like a super-charged battery. To build such a device require a deep understanding of the arcane. When destroyed, the Malevite Orb de-compresses, releasing the blood it was made from in a spectacular hurricane of crimson. 
 
-There are four quality levels. Impure Malevite has side-effects and is not nearly as powerful as a purer blood jewel. 
+There are four Quality Levels. Impure Malevite has side-effects and is not nearly as powerful as a purer blood jewel. 
 
 PI: `300`, TI: `1` Day, Ob: `+2`, requires:
 * A lot of Mage blood
@@ -499,7 +499,7 @@ It has found practical use as a means of preserving the immaterial - thoughts, e
 # The Veil
 Whenever a psion uses their ability, they mentally reach out to the forces *beyond* The Veil, which causes **Veil Degradation**. When Veil Degradation becomes too great, strange and horrible things ensue. 
 
-The limits for Veil Degradation are `0` and `100`. Unlike mages, who manage only their own resource, Veil Degradation is shared by **all** characters in the current scene and follows the psion wherever they go. It automatically lowers by `10` every `6` hour interval or resets to `0` when The Veil *shatters*. 
+The limits for Veil Degradation are `0` and `100`. Unlike mages, who manage only their own resource, Veil Degradation is shared by **all** Characters in the current scene and follows the psion wherever they go. It automatically lowers by `10` every `6` hour interval or resets to `0` when The Veil *shatters*. 
 
 Whenever the psion uses their ability and Veil Degradation is above `0`, roll a percentile die (`2D10`, of which one is the "tenth" die and one is the "singles" die). If the result is above the current Veil Degradation, nothing happens. You were fortunate! But if it was below or equal to the current Veil Degradation, The Veil is lifted, momentarily. When that happens, one of the following effects ensue, based on the current Veil Degradation. Afterwards, Veil Degradation is lowered by `20`. However, if Veil Degradation reaches `100+`, the Veil *shatters*, causing it to reset to `0` and always results in a **Veil Entity** following the psion into their world.
 
@@ -513,7 +513,7 @@ As The Veil degrades, the very air begins to hum and buzz. There are voices on t
 | 31-40            | All psions in the scene suffer `+3` [Arcane Slag](#arcane-slag)! |
 | 41-50            | Every creature in the scene suffers a random [Illness](strive-core.md#illness). |
 | 51-60            | Every creature in the scene suffers `+1` [Bleeding](strive-core.md#bleeding). |
-| 61-70            | All characters in the scene suffer `+3` [Arcane Slag](#arcane-slag)! |
+| 61-70            | All Characters in the scene suffer `+3` [Arcane Slag](#arcane-slag)! |
 | 71-80            | Time reverses momentarily. The current round's initiative order reverses. Or outside combat, the last few minutes play back in reverse. |
 | 81-90            | The flesh is malleable. All creatures in the scene suffer a random mutation. Or they could resist the transformation, and instead suffer `20` [Pure](strive-core.md#damage-types) damage and `+2` [Bleeding](strive-core.md#bleeding)! |
 | 91-100           | A *thing* from beyond The Veil is pulled through to your world. As a GM, see [Veil Entities](./strive-fantasy-game-masters-resource.md#veil-entities). |
@@ -527,23 +527,23 @@ The appendix contains important and less important lists, for reference only whe
 ## Character Creation
 Character creation is now supplemented by step `9` - [Determine Arcane Overheat thresholds](#arcane-overheat). 
 
-The new procedure of creating a character consists of the following steps:
+The new procedure of creating a Character consists of the following steps:
 1. [Determine life path](./strive-core.md#determine-life-path). 
 2. [Determine species, sex & appearance](./strive-core.md#species-sex--appearance).
 3. [Determine name](./strive-core.md#determine-name).
 4. [Determine abilities](./strive-core.md#determine-abilities).
-6. [Determine **carrying capacity** and **assets**](./strive-core.md#determine-assets).
+6. [Determine **carrying capacity** and Assets](./strive-core.md#determine-assets).
 7. [Determine **Max HP** and **Injury Maximum**](./strive-core.md#determine-max-hp--injury-maximum)
 8. [Determine exhaustion limit](./strive-core.md#determine-exhaustion-threshold).
 9. [Determine Arcane Overheat thresholds](#determine-magic-overheat-thresholds).
 
 ### Determine Abilities
-Supplements to abilities in character creation. 
+Supplements to abilities in Character creation. 
 
 #### Choosing Attributes
 There are two methods for determining your character's attributes: manual and semi-random. 
 
-You'll have to decide on whether your character will be a mage or not. Mages have the new, 6th attribute to spend points on, so this decision can affect your character's initial overall competence. 
+You'll have to decide on whether your Character will be a mage or not. Mages have the new, 6th attribute to spend points on, so this decision can affect your character's initial overall competence. 
 
 Please keep in mind the values here are representative for an ordinary human about to enter an adventuring life. Other species may have modifiers on their attributes, making them better or worse in some of them. But that depends on the world your GM is running. 
 
@@ -562,7 +562,7 @@ This section replaces its core rule counter-part.
 2. The rest of the procedure follows the same steps as outlined in the [Core rules](strive-core.md#semi-random-attribute-assignment), starting from step `2` therein. 
 
 #### Choosing Skills
-If playing a **mage**, keep in mind you need to have at least level 1 in a [Magic School Skill](#magic-school--school---attribute-) to be able to cast magic. You are also advised to have your strongest magic be at least level 3 or 4, to be able to reliably use it. 
+If playing a **mage**, keep in mind you need to have at least Level `1` in a [Magic School Skill](#magic-school--school---attribute-) to be able to cast magic. You are also advised to have your strongest magic be at least Level `3` or `4`, to be able to reliably use it. 
 
 ### Determine Arcane Overheat Thresholds
 Determine your character's [Arcane Overheat thresholds](#arcane-overheat). 
@@ -592,19 +592,19 @@ When looking up products for crafting, the tools and materials required for the 
 | Explosive Arrows         | 1    | 10              | Ammunition for a bow that causes bow attacks to only deal `1D4 Bludgeoning + (1D4 + Q) Burning`.  | 45 | 1 Hour |  |
 | Fire Pot (Potion)        | 1    | 3               | An ancient recipe, this concoction bursts into flame when exposed to air for several seconds. It causes severe burns for `QD6 Burning` damage in a `2` radius. Consumed on use. | 30 | 1 Hour |  |
 | Illusionist's Powder     | 1    | 2               | A small amount of weakly iridescently shimmering powder. When scattered, the dust remains suspended in mid-air and settles in an image of the making alchemist's choosing, which at a distance can seem perfectly real. It takes a successful test at `Ob Q + 1` to see through the ruse. This image lasts `QD10` minutes. | 30 | 1 Hour |  |
-| Invigorating Potion      | 1    | 3               | The drinker of this potion feels refreshed and invigorated! Reduces exhaustion by `Q` and clears the [Exhausted](./strive-core.md#exhausted) condition. Beware this potion can only be safely imbibed twice in a `24` hour cycle. If drunk more, roll a `D6`. If it is a **hit**, you're in luck! But if not, you instead suffer `+2` points of [Exhaustion](./strive-core.md#exhaustion). | 20 | 1 Hour |  |
+| Invigorating Potion      | 1    | 3               | The drinker of this potion feels refreshed and invigorated! Reduces exhaustion by `Q` and clears the [Exhausted](./strive-core.md#exhausted) condition. Beware this potion can only be safely imbibed twice in a `24` hour cycle. If drunk more, roll a `D6`. If it is a Hit, you're in luck! But if not, you instead suffer `+2` points of [Exhaustion](./strive-core.md#exhaustion). | 20 | 1 Hour |  |
 | Jewelry                  | 1    | 2               | Precious apparel. | 50 | 1 Hour |  |
 | Keg Of Alcohol           | 2    | 1               | A keg of alcohol. Highly flammable. If set fire to, will explode in a small torrent of flame, dealing `Q * 3` Burning damage to all in a `2` square AoE radius. | 30 | 1 Day |  |
 | Laudanum Potion          | 1    | 2               | This wonderous substance can quell pain and calm nerves within seconds. Also effective against diarrhea. Upon imbibing, sets one **active** [Injury](./strive-core.md#injury) to **treated**. After `24` hours, the [Injury](./strive-core.md#injury) is set back to **active**, even if it was also properly **treated** in the meantime. Also, must succeed a [Self-Control](./strive-core.md#self-control-toughtough) test at `Ob 3`, or else become [Addicted](./strive-core.md#drug-addicted) to the stuff. | 20 | 1 Hour |  |
-| Love Potion              | 1    | 2               | Anyone drinking this potion will become virtually irresistible to anyone close enough to smell their air. Victims have to succeed a [Self-Control](./strive-core.md#self-control-toughtough) test at **Ob** `Q` or else feel **very strongly compelled** to fulfill the user's every wish and desire (provided this wouldn't obviously cause harm to the victim). | 50 | 1 Hour | +1 |
+| Love Potion              | 1    | 2               | Anyone drinking this potion will become virtually irresistible to anyone close enough to smell their air. Victims have to succeed a [Self-Control](./strive-core.md#self-control-toughtough) test at Ob `Q` or else feel **very strongly compelled** to fulfill the user's every wish and desire (provided this wouldn't obviously cause harm to the victim). | 50 | 1 Hour | +1 |
 | Magic Recorder           | 1    | 3               | A small spherical device, overtly made from various metals with intricate patterns on its surface. This device can capture [Magic Echoes](#magic-echoes) and record magic as it is being cast. Also captures fragments of thoughts from its bearer while it is active. | 50 | 6 Hours |  |
 | Night-Eye Potion         | 1    | 3               | Grants the ability to see reasonably well under low-light conditions, up to `Q * 3` around them, for an hour. Beware that under the influence of this potion, exposure to bright light is extremely difficult to endure and will cause `+1` [Exhaustion](./strive-core.md#exhaustion) for every **minute** of exposure. | 30 | 1 Hour |  |
 | Paralyzing Poison        | 1    | 2               | Causes a victim's muscles to seize up. They suffer `-1 AP` each turn and are forced to move sluggishly. If this poison is suffered twice, the victim seizes up completely and is unable to move. This poison can be resisted once upon suffering it, with [Toughness](./strive-core.md#toughness-tough), at `Ob Q`. If unsuccessful, the effect will last `Q` hours. | 75 | 1 Hour | +2 |
 | Poison Arrows            | 1    | 20              | Ammunition for a bow that deals `Q * 2` additional points of Poison damge. A small poison-filled vial tips these arrows, ready to burst upon impact. | 30  | 30 Minutes |  |
 | Poison Resistance Potion | 1    | 2               | Once imbibed, halves all incurred poison damage, for up to `Q` hours. | 30 | 1 Hour |  |
 | Sleeping Poison          | 1    | 3               | Causes a victim to feel incredibly sleepy. Unless they succeed a [Self-Control](./strive-core.md#self-control-toughtough) test at `Ob Q`, they will fall asleep the first chance they get. They cannot be woken from this state for at least `6` hours. | 50 | 1 Hour | +1 |
-| Smoke Bomb               | 1    | 3               | A small fragile shell, filled with a very fine powder which when broken causes an area in a `Q * 1` radius to be covered in smoke. It is impossible to see through and ranged attacks within or through the smoke-covered area suffer `+2` **Ob**. Victims caught in the smoke may be forced to cough. The smoke lasts `6` turns or `30` seconds. | 20 | 10 Minutes |  |
-| Throwing Blade           | 1    | 6               | A small weighted blade, like a knife or star, well suited to being thrown. Can be used in melee and acts like a [Dagger](#light-blade), but with a penalty of `-2D` to attack and defense. `+1D` when [Thrown](./strive-core.md#throwing-accuracy) for a ranged attack. <br> `≤ 1` Hit: `4 + Str` Piercing <br> `= 2` Hits: `6 + Str` Piercing <br> `≥ 3` Hits: `8 + Str` Piercing | 20 | 1 Hour |  |
+| Smoke Bomb               | 1    | 3               | A small fragile shell, filled with a very fine powder which when broken causes an area in a `Q * 1` radius to be covered in smoke. It is impossible to see through and ranged attacks within or through the smoke-covered area suffer `+2` Ob. Victims caught in the smoke may be forced to cough. The smoke lasts `6` turns or `30` seconds. | 20 | 10 Minutes |  |
+| Throwing Blade           | 1    | 6               | A small weighted blade, like a knife or star, well suited to being thrown. Can be used in melee and acts like a [Dagger](#light-blade), but with a penalty of `-2D` to attack and Defense. `+1D` when [Thrown](./strive-core.md#throwing-accuracy) for a ranged attack. <br> `≤ 1` Hit: `4 + Str` Piercing <br> `= 2` Hits: `6 + Str` Piercing <br> `≥ 3` Hits: `8 + Str` Piercing | 20 | 1 Hour |  |
 | Tools                    | 1    | 2               | Various metal-made, proper tools. | 30 | 1 Hour |  |
 
 ### Armor
@@ -633,7 +633,7 @@ A set of medium armor with a good balance of protection and weight. Example: ful
 * `+1` permanent [Exhaustion](./strive-core.md#exhaustion) while worn. 
 * `+1` [Stability](./strive-core.md#stability-stabil) while worn.
 * `-1` to [Stealth](./strive-core.md#stealth-agiawar) while worn. 
-* `-1D` to any defense tests while worn. 
+* `-1D` to any Defense Tests while worn. 
 * Bulk: `3`
 * PI: `75`, TI: `6 Hours`
 
@@ -651,7 +651,7 @@ A set of heavy armor with excellent protection, at the cost of encumbering the w
 * `+2` permanent [Exhaustion](./strive-core.md#exhaustion) while worn.
 * `+2` [Stability](./strive-core.md#stability-stabil) while worn.
 * `-3` to [Stealth](./strive-core.md#stealth-agiawar) while worn. 
-* `-2D` to any defense tests while worn. 
+* `-2D` to any Defense Tests while worn. 
 * Bulk: `4`
 * PI: `100`, TI: `6 Hours`
 
@@ -664,9 +664,9 @@ A set of heavy armor with excellent protection, at the cost of encumbering the w
 | **Electrical**       | 4 + Q        | 2 + Q   | 1          | 0           | 
 
 ### Shield Types
-Shields are items that provide passive bonuses to defense against melee and ranged attacks and require one free hand to use. This implies they cannot be used at the same time as a two-handed weapon (unless of course if you have more than two arms). 
+Shields are items that provide passive bonuses to Defense against melee and ranged attacks and require one free hand to use. This implies they cannot be used at the same time as a two-handed weapon (unless of course if you have more than two arms). 
 
-Shields can only be used in defense tests via the [Shield](./strive-core.md#shield-strtough) skill.
+Shields can only be used in Defense Tests via the [Shield](./strive-core.md#shield-strtough) Skill.
 
 #### Shield Properties
 Shields can have the following **properties**:
@@ -680,9 +680,9 @@ A small round or oblong shield commonly held as far from the body as possible, t
 
 | Unthreatened           | Flanked           | Surrounded           | Overwhelmed           |
 | ---------------------- | ----------------- | -------------------- | --------------------- |
-| `+1` [Compensation Point](./strive-core.md#compensation-points) for melee defense. | `+1D` for melee defense. | / | / |
-| `+2` [Compensation Points](./strive-core.md#compensation-points) for melee defense against **stabbing** attacks. | `+2D` for melee defense against **stabbing** attacks. | `+1D` for melee defense against **stabbing** attacks. | / |
-| `-1D` for ranged defense. | `-2D` for ranged defense. | `-2D` for ranged defense. | `-2D` for ranged defense. |
+| `+1` [Compensation Point](./strive-core.md#compensation-points) for melee Defense. | `+1D` for melee Defense. | / | / |
+| `+2` [Compensation Points](./strive-core.md#compensation-points) for melee Defense against **stabbing** attacks. | `+2D` for melee Defense against **stabbing** attacks. | `+1D` for melee Defense against **stabbing** attacks. | / |
+| `-1D` for ranged Defense. | `-2D` for ranged Defense. | `-2D` for ranged Defense. | `-2D` for ranged Defense. |
 
 #### Medium Shield
 A medium-sized, round or kite-shaped shield made from tough wood and leather or even metal, which offers good protection against most attacks, while not encumbering the wielder too much. 
@@ -694,7 +694,7 @@ A medium-sized, round or kite-shaped shield made from tough wood and leather or 
 
 | Unthreatened           | Flanked           | Surrounded           | Overwhelmed           |
 | ---------------------- | ----------------- | -------------------- | --------------------- |
-| `+1` [Compensation Point](./strive-core.md#compensation-points) for any defense. | `+1D` for any defense. | / | `-1D` for any defense. |
+| `+1` [Compensation Point](./strive-core.md#compensation-points) for any Defense. | `+1D` for any Defense. | / | `-1D` for any Defense. |
 
 #### Heavy Shield
 A large, kite-shaped or rectangular shield, which can protect every part of the fighter, from the shoulder down to the feet. Its weight is very tiring. 
@@ -706,7 +706,7 @@ A large, kite-shaped or rectangular shield, which can protect every part of the 
 
 | Unthreatened           | Flanked           | Surrounded           | Overwhelmed           |
 | ---------------------- | ----------------- | -------------------- | --------------------- |
-| `+2` [Compensation Points](./strive-core.md#compensation-points) for any defense. | `+1` [Compensation Point](./strive-core.md#compensation-points) for any defense. | `+1D` for any defense. | / |
+| `+2` [Compensation Points](./strive-core.md#compensation-points) for any Defense. | `+1` [Compensation Point](./strive-core.md#compensation-points) for any Defense. | `+1D` for any Defense. | / |
 
 ### Weapon Types
 Following are fantasy-themed weapon types. 
@@ -726,7 +726,7 @@ One and two-handed axes. See also its corresponding [Skill](#weapon-axe-strstr).
 #### Chained Blade 
 An exotic weighted, down-angled blade, perfect for throwing and connected to a very light chain or rope, for easy retrieval. Such a weapon requires masterful precision and rewards its user with great versatility. See also its corresponding [Skill](#weapon-chained-blade-agiagi).
 
-Requires knowing [Acrobatics](#acrobatics-agistr) and [Throwing](./strive-core.md#throwing), each at level `3+`. 
+Requires knowing [Acrobatics](#acrobatics-agistr) and [Throwing](./strive-core.md#throwing), each at Level `3+`. 
 
 * [Melee](./strive-core.md#melee), [Ranged (max. 8)](./strive-core.md#ranged), [Prefer Range](./strive-core.md#prefer-range)
 * Bulk: `3`, PI: `75`, TI: `1 Hour`
@@ -780,10 +780,10 @@ A very deadly short to medium distance ranged weapon, shooting small metal balls
 * Bulk: `3`, PI: `75`, TI: `1 Hour`
 
 ## Lists of Skills
-The following list does not and cannot aim to be a complete listing of all possible skills in game. Adding new skills as necessary will have to be done by the GM. 
+The following list does not and cannot aim to be a complete listing of all possible Skills in game. Adding new Skills as necessary will have to be done by the GM. 
 
 ### Physical Skills
-These skills have a dominant physical aspect and are directly tied to a character's *physical attributes*. 
+These Skills have a dominant physical aspect and are directly tied to a character's *physical attributes*. 
 
 #### Rune-Using (Agi/Wit)
 Skill at using [Magic Runes](#runes). 
@@ -828,7 +828,7 @@ Properties: [Melee](./strive-core.md#melee), [Long Reach](./strive-core.md#weapo
 | ----- | -------------------- | -- | ----------- | ----------------------------------------- |
 | 0     | Slash                | 2  | Opposed     | `≤ 1` Hit: `3 + Q` Slashing <br> `= 2` Hits: `5 + Q` Slashing <br> `≥ 3` Hits: `8 + Q` Slashing |
 | 0     | Stab                 | 2  | Opposed     | `≤ 1` Hit: `2 + Q` Piercing <br> `= 2` Hits: `4 + Q` Piercing <br> `≥ 3` Hits: `6 + Q` Piercing |
-| 1     | Blade Barrier        | 3  |             | Until the start of your next turn, whenever any character moves **into** a spot within reach, you may **freely** attack that character with a **Slash** at Ob `+1` and, if successful, force them back `1` square. |
+| 1     | Blade Barrier        | 3  |             | Until the start of your next turn, whenever any Character moves **into** a spot within reach, you may **freely** attack that Character with a **Slash** at Ob `+1` and, if successful, force them back `1` square. |
 | 2     | Cleave               | 3  | 2           | Attack up to `3` targets at once, in a `2` square AoE cone in front of you. <br> `≤ 1` Hit: `2 + Q` Slashing <br> `= 2` Hits: `4 + Q` Slashing <br> `≥ 3` Hits:  `6 + Q` Slashing |
 | 2     | Mord-Strike          | 2  | Opposed + 1 | Flip your weapon around and strike a ST on the head with the weight of the pommel. <br> `≤ 1` Hit: `1 + Str` bludgeoning <br> `= 2` Hits: `3 + Str` bludgeoning <br> `≥ 3` Hits: `6 + Str` bludgeoning |
 
@@ -864,7 +864,7 @@ Properties: [Melee](./strive-core.md#melee), [Long Reach](./strive-core.md#weapo
 | ----- | -------------------- | -- | ----------- | ----------------------------------------- |
 | 0     | Slash                | 2  | Opposed     | Strike a ST. <br> `≤ 1` Hit: `4 + Q` Slashing <br> `= 2` Hits: `7 + Q` Slashing <br> `≥ 3` Hits: `10 + Q` Slashing |
 | 0     | Stab                 | 2  | Opposed     | Strike a ST. <br> `≤ 1` Hit: `3 + Q` Piercing <br> `= 2` Hits: `5 + Q` Piercing <br> `≥ 3` Hits: `8 + Q` Piercing |
-| 2     | Blade Barrier        | 3  |             | Until the start of your next turn, whenever any character moves **into** a spot within reach, can **freely** attack that character with a **Stab** at Ob `+1` and if successful, force them back `1` square. |
+| 2     | Blade Barrier        | 3  |             | Until the start of your next turn, whenever any Character moves **into** a spot within reach, can **freely** attack that Character with a **Stab** at Ob `+1` and if successful, force them back `1` square. |
 | 2     | Breakthrough         | 3  | 2           | Attack up to `2` targets at once, in a `3` square AoE line in front of you. <br> `≤ 1` Hit: `2 + Q` Piercing <br> `= 2` Hits: `4 + Q` Piercing <br> `≥ 3` Hits:  `6 + Q` Piercing |
 | 2     | Cleave               | 3  | 2           | Attack up to `4` targets at once, in a `3` square AoE cone in front of you. <br> `≤ 1` Hit: `2 + Q` Slashing <br> `= 2` Hits: `3 + Q` Slashing <br> `≥ 3` Hits:  `5 + Q` Slashing |
 
@@ -908,7 +908,7 @@ Properties: [Ranged (10 DI)](./strive-core.md#ranged), [Prefer Range](./strive-c
 | 0     | Fire                 | 2  | Opposed     | Shoot a ST. <br> `≤ 1` Hit: `8` Piercing + `Q` Pure <br> `= 2` Hits: `12` Piercing + `Q` Pure <br> `≥ 3` Hits: `16` Piercing + `Q` Pure |
 
 ### Knowledge Skills
-These skills have a dominant mental aspect and are strongly related to a character's *mental attributes*. 
+These Skills have a dominant mental aspect and are strongly related to a character's *mental attributes*. 
 
 #### Heraldry (Awar/Wit)
 The ability to tell noble houses apart and to know their heraldry. 
@@ -952,15 +952,15 @@ The ability to brew alchemical potions, create powders, mixtures and other subst
 * [Poison Resistance Potion](#general-assets) (2x)
 * [Smoke Bomb](#general-assets) (3x)
 
-At level `4+`, you may also craft the following:
+At Level `4+`, you may also craft the following:
 * [Blackpowder Bomb](#general-assets) (2x)
 * [Illusionist's Powder](#general-assets) (2x)
 * [Love Potion](#general-assets) (1x)
 
-At level `5+`, you may also craft the following:
+At Level `5+`, you may also craft the following:
 * [Sleeping Poison](#general-assets) (1x)
 
-At level `6+`, you may also craft the following:
+At Level `6+`, you may also craft the following:
 * [Death Fog](#general-assets) (1x)
 * [Paralyzing Poison](#general-assets) (1x)
 
@@ -1010,7 +1010,7 @@ The ability to efficiently craft arrows, bolts and javelins.
 * [Arrows](#general-assets) (20x)
 * [Bolts](#general-assets) (20x)
 
-At level `4+`, you may also craft the following:
+At Level `4+`, you may also craft the following:
 * [Acid Arrows](#general-assets) (10x)
 * [Explosive Arrows](#general-assets) (5x)
 * [Poison Arrows](#general-assets) (10x)
@@ -1041,7 +1041,7 @@ The ability to shape stone to craft predominantly stone-based things.
 #### Rune-Smithing (Arc/Wit)
 The ability to carve [Magic Runes](#runes) and embed them in arcane devices.
 
-The level of this skill dictates the maximum [Intensity](#spell-intensity-si) of the respective magic the carved rune can hold. The number of **hits** achieved in a test then sets the actual level the rune will hold, but limited by the maximum. 
+The Level of this Skill dictates the maximum [Intensity](#spell-intensity-si) of the respective magic the carved rune can hold. The number of Hits achieved in a test then sets the actual Level the rune will hold, but limited by the maximum. 
 
 [Crafting](./strive-core.md#crafting--research-projects):
 * [Rune](#runes) (1x)
@@ -1070,12 +1070,12 @@ The ability to make weapons from metal.
 * [Long Blade](#long-blade) (1x)
 * [Polearm](#polearm) (1x)
 
-At level `4+`, you may also craft the following:
+At Level `4+`, you may also craft the following:
 * At the cost one `-1 Q`, it is possible to add each of the following to a weapon (the weapon **must** have at least `Q 2`):
   * [Serrated](./strive-core.md#serrated)
   * [Poison-Chamber](./strive-core.md#poison-chamber)
 
-At level `5+`, you may also craft the following:
+At Level `5+`, you may also craft the following:
 * [Chained-Blade](#chained-blade) (1x)
 * [Firearm](#firearm) (1x)
 
@@ -1086,12 +1086,12 @@ Creating small things from carved wood.
 * [Objet d'art](strive-core.md#general-assets) (1x)
 
 ### Special Skills
-The skills listed in this chapter cannot be learned *by just anyone*. Special requirements are made of those who aspire to learn them.
+The Skills listed in this chapter cannot be learned *by just anyone*. Special requirements are made of those who aspire to learn them.
 
 #### Psionics (Arc/Wit)
 A psionic awareness grants access to supernatural abilities beyond those of mere magics. See also [The Veil](#the-veil). 
 
-The psion may choose how much they wish to open up to The Veil. This is represented by their Openness, abbreviated as **OPN**. The OPN they choose may be at most their level in Psionics. 
+The psion may choose how much they wish to open up to The Veil. This is represented by their Openness, abbreviated as **OPN**. The OPN they choose may be at most their Level in Psionics. 
 
 * Obvious: The psion's eyes glow with the inscrutable light of the stars, when they use their psionic abilities.
 * Prerequisites:
@@ -1111,18 +1111,18 @@ The psion may choose how much they wish to open up to The Veil. This is represen
 | 3     | Veil Hop             | 3  | OPN * 3  | OPN                             | OPN * 5          | Cause a dimensional rift to open and swallow a **ST** of choice, which another rift releases at a location of your choosing, a moment later. |
 | 3     | Join The Veil        | 2  | OPN * 3  | Opposed by Self-Control - OPN   | OPN * 3          | Shroud a **ST** in the inscrutable darkness of The Beyond. They become [Terrified](strive-core.md#terrified) of the psion and [Marked](./strive-core.md#marked). |
 | 4     | Try Again            | 1  |          |                                 | 25               | **Reaction**: When you or someone else resolves a test, create a minute overlap of timelines, and displace a snippet of your own timeline with a hopefully better one. You or they must now repeat the test. The new result is final. This can only be attempted once for a given test. |
-| 4     | Memory Re-write      | 3  | OPN * 3  | Opposed by Self-Control - OPN   | OPN * 3          | **Time(+1)**: Re-write the memory of a **ST**. Make them forget, or implant in them a memory they never had. |
+| 4     | Memory Re-write      | 3  | OPN * 3  | Opposed by Self-Control - OPN   | OPN * 3          | **Time(`+1`)**: Re-write the memory of a **ST**. Make them forget, or implant in them a memory they never had. |
 
 ## List of Magic Schools
-The capabilities of the various magic schools are described by the [Expertise](./strive-core.md#expertise) associated with each of them. The concrete effects are kept vague on purpose, to allow a certain freedom when choosing how the magic is expressed. But the intensity or strength of a casting is tied to the level of the [Magic School Skill](#magic-school--school---attribute-). 
+The capabilities of the various magic schools are described by the [Expertise](./strive-core.md#expertise) associated with each of them. The concrete effects are kept vague on purpose, to allow a certain freedom when choosing how the magic is expressed. But the intensity or strength of a casting is tied to the Level of the [Magic School Skill](#magic-school--school---attribute-). 
 
-The levels noted for each magic school represent the effects a mage can achieve, when casting that particular type of magic. Stronger effects generally require a higher level. 
+The Levels noted for each magic school represent the effects a mage can achieve, when casting that particular type of magic. Stronger effects generally require a higher Level. 
 
 See also [Testing Magic](#testing-magic). 
 
 In all the following tables, note the following:
 * Replace *SI* with the chosen [Spell Intensity](#spell-intensity-si). 
-* *Level* is the prerequisite level of the **magic school Skill**, at which a given spell becomes available for use. 
+* *Level* is the prerequisite Level of the **magic school Skill**, at which a given spell becomes available for use. 
 * Whenever distances and radii are concerned, a mage may always choose a *shorter* distance or radius. For example, a `SI * 2` radius definition, sets the **maximum**. The radius may be at most this large, but can be smaller, if the mage so chooses. 
 * Whenever the effect is unleashed in a **cone**, then at every point it has traveled, it is as wide as far as it has traveled. So for example, at 1 distance, it is 1 wide. At 3 distance, it is 3 wide. 
 
@@ -1136,7 +1136,7 @@ The control of air, to create and change its flow, for benefit and detriment.
 | 1     | Breathing Bubble     | 2  | `1`           | `SI`        | **Concentration**: Form a stationary bubble of clean air, up to `SI * 2` large in diameter, that will last for as long as you concentrate on it. | The air is displaced from the caster's lungs for `1` round, making them unable to speak and they suffer `+1` [Exhaustion](./strive-core.md#exhaustion)! |
 | 2     | Vacuumize            | 2  | `8`           | `SI`        | **Concentration**: Drive all air out of a stationary `SI * 2` radius. All creatures caught in the anti-air bubble start suffocating, as all air is driven from their lungs. They suffer `+1` [Exhaustion](strive-core.md#exhaustion) at the start of every turn. | The air around the caster is displaced, instead of the spot of their choosing. The effect lasts `1` round and the caster cannot concentrate on any other spell, for as long as it lasts. |
 | 3     | Crushing Compression | 2  | `SI * 6`      | `SI`        | Compress the air around a ST, crushing it with `SI * 5` points of Bludgeoning damage. | The air compresses around the caster instead. |
-| 4     | Tornado              | 2  | `SI * 6`      | `SI`        | **Concentration, Time(+1)**: Call forth a tornado and control its movements. It is up to `SI` radius wide and tall, and can displace creatures and objects up to `SI * 2` bulk, throwing them up to `SI * 2` far, in a random direction. The tornado can clear away gases and the like. | The tornado forms at the caster's location and moves randomly. It lasts `1` round and the caster cannot concentrate on any other spell until the tornado expires. |
+| 4     | Tornado              | 2  | `SI * 6`      | `SI`        | **Concentration, Time(`+1`)**: Call forth a tornado and control its movements. It is up to `SI` radius wide and tall, and can displace creatures and objects up to `SI * 2` bulk, throwing them up to `SI * 2` far, in a random direction. The tornado can clear away gases and the like. | The tornado forms at the caster's location and moves randomly. It lasts `1` round and the caster cannot concentrate on any other spell until the tornado expires. |
 
 ### Artificing (Arc/Wit)
 The setting of arcane traps and creation of arcane artifacts and materials. 
@@ -1163,15 +1163,15 @@ The alteration of physical things, to change their shape and purpose. And the ab
 | 0     | Shape Earth          | 2  | `SI * 3`       | `SI`            | Cause earth in a `SI * 2` radius, at a spot of the mage's choosing to change shape, as the mage wills it. The shape cannot exceed the radius in size. Could be used to create or tear down an earthen wall, close up a door way, quickly create a trench and so on. | Instead of the intended shape, the earth takes on an "inverse" form of what they want. If they wanted a wall, they get a trench. If they wanted a stair leading up, they get one leading down, and so on. |
 | 1     | Wings                | 2  |                | `SI`            | **Concentration**: Grow wings! You may now fly up to `SI * 5` high at a speed of `SI * 2`. | You suffer a random mutation, instead! |
 | 1     | Feel the Shape       | 1  | `SI * 20`      | `SI`            | Place a hand to a surface. You can feel the faintest vibrations and reverberations within and beneath. Can be used to detect underground caves and structures and imprecisely detect the movements of creatures along a given surface, such as the ground. | / |
-| 2     | Alter Flesh          | 3  | `1`            | `SI`            | **Time(+1)**: A **ST** creature is altered as the mage desires, permanently. The Ob depends on the complexity and size of the re-shaping. Ob `2` for simple and small, `3` for tricky and medium, `4` for complex and large and `5+` for very complex and very large alterations. Consult your GM! | Instead of the intended alteration, a random mutation occurs! |
+| 2     | Alter Flesh          | 3  | `1`            | `SI`            | **Time(`+1`)**: A **ST** creature is altered as the mage desires, permanently. The Ob depends on the complexity and size of the re-shaping. Ob `2` for simple and small, `3` for tricky and medium, `4` for complex and large and `5+` for very complex and very large alterations. Consult your GM! | Instead of the intended alteration, a random mutation occurs! |
 | 2     | Earth Spike Trail    | 3  | `SI * 3`       | `SI`            | Cause spikes of earth to shoot out of a surface that they can lay their hands on. Everyone caught in a straight line of up to `SI * 3` in length, originating from the mage, suffers `SI * 3` points of Piercing damage. The area of the spikes is then considered Difficult Terrain. The spikes crumble after `3` turns. | The mage loses control and the spell unleashes in a random direction. |
 | 2     | Aspect of the Bull   | 2  |                | `SI`            | **Concentration**: Grow bull horns and bestial legs! You may now run at a speed of `4 + SI`. You may now charge at targets and gore them for `SI * 3` points of Piercing damage, but you must run at least `2` squares in order to make use of this ability. | You suffer a random mutation, instead! |
-| 4     | Wereshape            | 3  |                | `3`             | **Concentration, Time(+1)**: Assume a were-beast shape. See the list below. Your attributes will be **modified** as noted on each were-shape. | Instead of transforming, your body goes into shock! You are [Stunned](./strive-core.md#stunned)! |
+| 4     | Wereshape            | 3  |                | `3`             | **Concentration, Time(`+1`)**: Assume a were-beast shape. See the list below. Your attributes will be Modified as noted on each were-shape. | Instead of transforming, your body goes into shock! You are [Stunned](./strive-core.md#stunned)! |
 
 #### Werewolf-Shape
 A bipedal wolf armed with wicked claws and deadly teeth!
 
-Attributes: `+2` Agi, `+3` Str, `+1` Tough, `-2` Wit; Below, *Level* is the level of the Skill you get.
+Attributes: `+2` Agi, `+3` Str, `+1` Tough, `-2` Wit; Below, *Level* is the Level of the Skill you get.
 
 | Skill                | Level | AP | Ob          | Description <br> Damage                |
 | -------------------- | ----- | -- | ----------- | -------------------------------------- |
@@ -1181,7 +1181,7 @@ Attributes: `+2` Agi, `+3` Str, `+1` Tough, `-2` Wit; Below, *Level* is the leve
 #### Werebear-Shape
 A bipedal bear armed with terrifying claws and protected by a mass of muscle!
 
-Attributes: `-1` Agi, `+4` Str, `+3` Tough, `-2` Wit; Below, *Level* is the level of the Skill you get.
+Attributes: `-1` Agi, `+4` Str, `+3` Tough, `-2` Wit; Below, *Level* is the Level of the Skill you get.
 
 | Skill                | Level | AP | Ob            | Description <br> Damage          |
 | -------------------- | ----- | -- | ------------- | -------------------------------- |
@@ -1197,7 +1197,7 @@ The summoning and control of ice. Cryomancer's can freeze things, so they're hea
 | 1     | Cold Finger Gun       | 2  | `SI * 5`      | `Opposed`                    | The mage shoots an ice spike at a **ST** from their hand. <br> `≤ 1` Hit: `2 + SI` Freezing; `+1` [Frostbitten](./strive-core.md#frostbitten) <br> `= 2` Hits: `6 + SI` Freezing; `+2` [Frostbitten](./strive-core.md#frostbitten) <br> `≥ 3` Hits: `10 + SI` Freezing; `+3` [Frostbitten](./strive-core.md#frostbitten) | The caster is affected, instead. |
 | 2     | Ice Shape             | 2  | `SI * 5`      | `SI`                         | Turn humidity into ice, in the shape of your choosing, in a radius of up to `SI` squares. | The caster suffers `+1` [Frostbitten](./strive-core.md#frostbitten)! |
 | 3     | Ice Armor             | 1  |               | `SI`                         | **Reaction**: Upon being successfully attacked, turn surrounding humidity into armor, that absorbs up to `SI * 3` points of Slashing, Piercing, Bludgeoning and Burning damage, before shattering immediately afterwards! The damage the armor absorbs, is the damage you do not suffer! | The caster suffers `+1` [Frostbitten](./strive-core.md#frostbitten)! |
-| 4     | Rooting Freeze        | 3  | `SI * 5`      | `SI + 1`                     | **Time(+1)**: A spot of the mage's choosing freezes over. Anyone caught within the **AOE** radius of up to `SI * 3`, will be frozen to the spot and thus [Rooted](./strive-core.md#rooted) and also suffer `SI * 4` points of Freezing damage. They can break free via a successful [Strength](./strive-core.md#strength-str) test at Ob `SI`. Or wait, until the ice thaws, which, under normal conditions, will take `2` rounds. | The spot beneath the caster is affected, instead. |
+| 4     | Rooting Freeze        | 3  | `SI * 5`      | `SI + 1`                     | **Time(`+1`)**: A spot of the mage's choosing freezes over. Anyone caught within the **AOE** radius of up to `SI * 3`, will be frozen to the spot and thus [Rooted](./strive-core.md#rooted) and also suffer `SI * 4` points of Freezing damage. They can break free via a successful [Strength](./strive-core.md#strength-str) test at Ob `SI`. Or wait, until the ice thaws, which, under normal conditions, will take `2` rounds. | The spot beneath the caster is affected, instead. |
 
 ### Divination (Arc/Wit)
 Catching glimpses of the unknowable and nudging fate. A Divination mage prefers to stay out of harms way - which their power facilitates. 
@@ -1220,7 +1220,7 @@ The summoning and control of lightning. Electricity is fairly versatile - it can
 | 0     | Shocking Touch        | 2  | `1`        | `Opposed - SI`               | A small area, about the size of the mage's hand is burned on touch by an electrical shock, dealing `SI * 3` points of Electrical damage to a **ST**. Causes [Electrified](./strive-core.md#electrified) in the victim. | The caster is affected, instead. |
 | 1     | Shock                 | 2  | `SI * 3`   | `Opposed`                    | An arc of lightning strikes the vulnerable internals of a **ST**, dealing `SI * 4` points of Electrical damage. Causes [Electrified](./strive-core.md#electrified) in the victim. | The caster is affected, instead. |
 | 1     | Power-Up              | 2  | `SI * 2`   | `SI`                         | An electrical device is powered up for `SI * 5` minutes. | The device breaks or otherwise seizes up and becomes unusable. |
-| 2     | Defibrillate          | 2  | `SI * 2`   | `Opposed`                    | An [Unconscious](./strive-core.md#unconscious) ST is jolted back to consciousness! This includes characters at [Death's Door](./strive-core.md#deaths-door). They still have to succeed tests to end the [Death's Door](./strive-core.md#deaths-door) Condition. | The caster is [Stunned](./strive-core.md#stunned) for `1` round. |
+| 2     | Defibrillate          | 2  | `SI * 2`   | `Opposed`                    | An [Unconscious](./strive-core.md#unconscious) ST is jolted back to consciousness! This includes Characters at [Death's Door](./strive-core.md#deaths-door). They still have to succeed Tests to end the [Death's Door](./strive-core.md#deaths-door) Condition. | The caster is [Stunned](./strive-core.md#stunned) for `1` round. |
 | 4     | UNLIMITED POWER       | 2  | `SI * 5`   | `SI + 1`                     | A cone of lightning spews forth from the mage's finger tips. Up to `SI + 1` targets can be hit with the shock. Causes [Electrified](./strive-core.md#electrified) in the victims. <br> `≤ 1` Hit: `3` Electrical <br> `= 2` Hits: `5` Electrical <br> `≥ 3` Hits: `8` Electrical | The caster and anyone next to them is affected, instead. |
 
 ### Hexing (Arc/Arc)
@@ -1228,10 +1228,10 @@ The casting of curses to weaken others.
 
 | Level | Name                  | AP | Distance      | Ob                        | Effect(s)                      | Backfire Effect(s) |
 | ----- | --------------------- | -- | ------------- | ------------------------- | ------------------------------ | ------------------ |
-| 0     | Instill Fear          | 2  | `SI * 5` | Opposed by `Self-Control` | **Time(+1)**: [Terrify](strive-core.md#terrified) a victim for `SI` turns. | The caster is affected, instead. |
+| 0     | Instill Fear          | 2  | `SI * 5` | Opposed by `Self-Control` | **Time(`+1`)**: [Terrify](strive-core.md#terrified) a victim for `SI` turns. | The caster is affected, instead. |
 | 0     | Slow Down             | 2  | `SI * 3`  | Opposed by `Self-Control` | Reduce a target's [AP](./strive-core.md#action-points-ap) regain per turn by `1` for `SI` turns and reduce their current [AP](./strive-core.md#action-points-ap) by `1`. Does not stack. | The caster is affected, instead. |
 | 1     | Weaken                | 2  | `SI * 5` | Opposed by `Toughness`    | **Concentration**: Cause a target to take `SI * 2` more points of damage from a chosen damage type. | The caster is affected, instead. The effect lasts for `1` round and the mage **cannot** concentrate on any other spell for that duration. |
-| 2     | Atrophy               | 2  | `SI * 3`  | Opposed by `Toughness`    | **Concentration**: Weaken a target's Strength by `SI` levels. Also, they deal `SI * 2` fewer points of damage per physical attack. | The caster is affected, instead. The effect lasts for `1` round and the mage **cannot** concentrate on any other spell for that duration. |
+| 2     | Atrophy               | 2  | `SI * 3`  | Opposed by `Toughness`    | **Concentration**: Weaken a target's Strength by `SI` Levels. Also, they deal `SI * 2` fewer points of damage per physical attack. | The caster is affected, instead. The effect lasts for `1` round and the mage **cannot** concentrate on any other spell for that duration. |
 | 2     | Spray Acid            | 2  | `SI * 3`  | `SI`                      | Spray acid in a cone, for `SI * 4` points of Acid damage. | The effect triggers in reverse, pointing the cone straight through the caster and backwards. They and anyone in the cone behind them suffers the damage! |
 | 3     | Slag to Acid          | 2  | `SI * 5` | Opposed by `Toughness`    | Convert the [Arcane Slag](#arcane-slag) of a **ST** within reach into acid! They lose `SI` points of [Arcane Slag](#arcane-slag), which convert into `N * 6` points of Acid damage, where *N* is the number of [Arcane Slag](#arcane-slag) points removed! | The caster is affected, instead! |
 
@@ -1247,8 +1247,8 @@ Contact with **magically fouled water** will always cause [Illness](./strive-cor
 | 0     | Separate Fluids      | 1  | `SI * 5` | `SI`                      | Turn one liquid into two distinct liquids, each containing a specific aspect, and which **cannot mix**, in a `SI * 3` radius. Could be used to separate foul water from pure water. |  |
 | 1     | Fluid Whip           | 2  | `SI * 3` | `Opposed`                 | Cause a fluid to lash out at a target, like a whip. <br> `≤ 1` Hit: `SI * 4` Slashing <br> `= 2` Hits: `SI * 6` Slashing <br> `≥ 3` Hits: `SI * 8` Slashing | The caster loses control and the whip strikes in a random direction. |
 | 2     | Harden Fluid         | 2  | `SI * 3` | `SI`                      | **Concentration**: Cause a fluid in a radius or line of up to `SI * 5` to become semi-solid. Solid enough to walk on it and for it to keep its current shape! | The water turns magically foul! |
-| 3     | Conjure Rain         | 3  | `SI * 5` | `SI`                      | **Concentration, Time(+1)**: Cause rain to fall in a radius or line of up to `SI * 5`. | Foul water rains from the sky! Anyone caught in it will suffer an [Illness](./strive-core.md#illness)! |
-| 3     | Conjure Fog          | 3  | `SI * 5` | `SI`                      | **Concentration, Time(+1)**: Cause fog to form in a radius or line of up to `SI * 3`. The fog imposes a `-2` penalty to all tests through or within it that rely on sight. | The fog forms around the mage, instead of their chosen location and lasts for `1` round. The mage **cannot** concentrate on any other spell for that duration. |
+| 3     | Conjure Rain         | 3  | `SI * 5` | `SI`                      | **Concentration, Time(`+1`)**: Cause rain to fall in a radius or line of up to `SI * 5`. | Foul water rains from the sky! Anyone caught in it will suffer an [Illness](./strive-core.md#illness)! |
+| 3     | Conjure Fog          | 3  | `SI * 5` | `SI`                      | **Concentration, Time(`+1`)**: Cause fog to form in a radius or line of up to `SI * 3`. The fog imposes a `-2` penalty to all Tests through or within it that rely on sight. | The fog forms around the mage, instead of their chosen location and lasts for `1` round. The mage **cannot** concentrate on any other spell for that duration. |
 
 ### Illusion (Arc/Awar)
 Creation of non-physical influences on the senses. That includes images, sounds and odors. The illusions cannot cause direct harm, although they can drive an individual to acts that may put them in danger. 
@@ -1269,9 +1269,9 @@ The summoning and control of fire. The flame being a destructive force, pyromanc
 | 1     | Flame Whip           | 2  | `SI * 3`   | `Opposed`                 | Lash out at a **ST** with a whip made of pure fire. <br> `≤ 1` Hit: `SI * 2` Burning; `+1` [Burning](./strive-core.md#burning) <br> `= 2` Hits: `SI * 4` Burning; `+2` [Burning](./strive-core.md#burning) <br> `≥ 3` Hits: `SI * 6` Burning; `+3` [Burning](./strive-core.md#burning) | The caster loses control and the whip lashes out in a random direction, instead! |
 | 1     | Imbue Flame          | 2  | `SI * 3`   | `SI`                      | **Concentration**: Cover an object in flames that do not burn it, but rather anything else! All attacks made with that object deal an additional `SI * 2` points of Burning damage! | The flames *do* consume the object they cover! The object *can* still be carried or wielded, but will deal `SI * 2` points of Burning damage to whoever does, at the start of their every turn! |
 | 2     | Cone of Fire         | 3  | `SI * 2`   | `SI + 1`                  | The mage shoots a burst of fire in an AoE cone in front of them. <br> `≤ 1` Hit: `SI * 2` Burning; `+1` [Burning](./strive-core.md#burning) <br> `= 2` Hits: `SI * 4` Burning; `+2` [Burning](./strive-core.md#burning) <br> `≥ 3` Hits: `SI * 6` Burning; `+3` [Burning](./strive-core.md#burning) | The effect triggers in reverse, pointing the cone backwards, through the mage's face. |
-| 3     | Fire Ball            | 2  | `SI * 15`  | `SI`                      | **Time(+1)**: The mage forms a large ball of flame between their hands, ready to be flung at a target location, affecting an AoE with radius `SI`. <br> `≤ 1` Hit: `SI` Burning; `+1` [Burning](./strive-core.md#burning) <br> `= 2` Hits: `SI * 2` Burning; `+1` [Burning](./strive-core.md#burning) <br> `≥ 3` Hits: `SI * 3` Burning; `+2` [Burning](./strive-core.md#burning) | The fire ball instead launches in a random direction, impacting with the first obstacle it comes across! |
+| 3     | Fire Ball            | 2  | `SI * 15`  | `SI`                      | **Time(`+1`)**: The mage forms a large ball of flame between their hands, ready to be flung at a target location, affecting an AoE with radius `SI`. <br> `≤ 1` Hit: `SI` Burning; `+1` [Burning](./strive-core.md#burning) <br> `= 2` Hits: `SI * 2` Burning; `+1` [Burning](./strive-core.md#burning) <br> `≥ 3` Hits: `SI * 3` Burning; `+2` [Burning](./strive-core.md#burning) | The fire ball instead launches in a random direction, impacting with the first obstacle it comes across! |
 | 4     | Flame Jet            | 3  | `SI * 3`   | `SI + 1`                  | **Concentration**: A steady stream of flame shoots from the mage's hands, dealing `SI * 2` points of Burning damage and inflicting `+1` [Burning](./strive-core.md#burning) to anything caught by it, in a straight line.  | The line of fire erupts backwards, through the mage. They and anyone behind them, in the line's range is affected. This lasts `1` round and the mage **cannot** concentrate on any other spells in the meantime! |
-| 5     | Rain of Fire         | 4  | `SI * 10`  | `SI + 2`                  | **Concentration, Time(+1)**: The mage makes fire rain from the sky! At the start of every turn, a ball of fire falls from the sky affecting all in an Aoe radius of `SI * 2`, at a location of choice.  <br> `≤ 1` Hit: `SI * 3` Burning; `+1` [Burning](./strive-core.md#burning) <br> `= 2` Hits: `SI * 4` Burning; `+1` [Burning](./strive-core.md#burning) <br> `≥ 3` Hits: `SI * 5` Burning; `+2` [Burning](./strive-core.md#burning) | No fire falls from the sky, instead the fire explodes in the caster's hands, dealing `SI * 6` points of Burning damage and `+2` [Burning](./strive-core.md#burning) to themselves and anything in a `SI * 2` radius around them! |
+| 5     | Rain of Fire         | 4  | `SI * 10`  | `SI + 2`                  | **Concentration, Time(`+1`)**: The mage makes fire rain from the sky! At the start of every turn, a ball of fire falls from the sky affecting all in an Aoe radius of `SI * 2`, at a location of choice.  <br> `≤ 1` Hit: `SI * 3` Burning; `+1` [Burning](./strive-core.md#burning) <br> `= 2` Hits: `SI * 4` Burning; `+1` [Burning](./strive-core.md#burning) <br> `≥ 3` Hits: `SI * 5` Burning; `+2` [Burning](./strive-core.md#burning) | No fire falls from the sky, instead the fire explodes in the caster's hands, dealing `SI * 6` points of Burning damage and `+2` [Burning](./strive-core.md#burning) to themselves and anything in a `SI * 2` radius around them! |
 
 ### Restoration (Arc/Awar)
 The mending of the body and mind.
@@ -1298,7 +1298,7 @@ In the common tongue, blood magic, utilizes fresh mage blood to disturbing effec
 | 2     | Life Leech           | 2  | `1`         | Opposed by `Toughness`     | Draw the life from a ST creature of choice. Deals `SI * 3` points of [Bleeding](./strive-core.md#damage-types) damage while healing the caster's [HP](./strive-core.md#hit-points-hp) for the same amount. May transfer `SI` points of [Bleeding](./strive-core.md#bleeding) or [Poisoned](./strive-core.md#poisoned) from to the creature, if the mage so chooses. | The effect triggers in reverse. |
 | 3     | Crimson Tracks       | 1  | `SI * 150` | `SI`                       | If you have someone's blood, use it to track them. If successful, you get a general sense of how far away and in what direction relative to your facing they are. You also glimpse a momentary fragment of their current emotional state. | The victim is overcome with an odd premonition and becomes aware someone attempted to track them. |
 | 4     | Slagletting          | 2  |                 | `SI + 1`                   | Remove `SI` points of [Arcane Slag](#arcane-slag) from yourself or a ST, but suffer `3` points of [Bleeding](./strive-core.md#damage-types) damage for each point of [Arcane Slag](#arcane-slag) that is removed! If successful, this spell does not cause [Arcane Slag](#arcane-slag). | Instead of removing any [Arcane Slag](#arcane-slag), you gain `+2` points of it and suffer `6` points of Bleeding damage! |
-| 5     | Puppeteer            | 3  | `SI * 5`   | Opposed by `Self-Control`  | **Concentration, Time(+1)**: Command the blood of a victim to obey you. You control their actions, like a puppeteer. Any action you make them take, costs *their* AP. They may try to resist at the beginning of their every turn, or once every minute, with a [Self-Control](./strive-core.md#self-control-toughtough) test at Ob equal to the number of Hits you achieved. | You lose control and are [Stunned](./strive-core.md#stunned)! |
+| 5     | Puppeteer            | 3  | `SI * 5`   | Opposed by `Self-Control`  | **Concentration, Time(`+1`)**: Command the blood of a victim to obey you. You control their actions, like a puppeteer. Any action you make them take, costs *their* AP. They may try to resist at the beginning of their every turn, or once every minute, with a [Self-Control](./strive-core.md#self-control-toughtough) test at Ob equal to the number of Hits you achieved. | You lose control and are [Stunned](./strive-core.md#stunned)! |
 
 ### Soul-Binding (Arc/Tough)
 Also referred to as **necromancy**, this is the art and skill of calling souls from the Plane Of The Dead and binding them, to reanimate corpses or animate an otherwise unliving body. 
@@ -1307,11 +1307,11 @@ In order to bind a soul, a Soul-Seal is required. This seal has to take the form
 
 | Level | Name                 | AP | Distance      | Ob                     | Effect(s)                      | Backfire Effect(s) |
 | ----- | -------------------- | -- | ------------- | ---------------------- | ------------------------------ | ------------------ |
-| 0     | Call and Bind a Soul | 3  | `SI * 3`      | `SI`                   | Create a Soul-Binding at the strength of the chosen level. The larger, heavier and more complex a body is, the harder it is to create a binding. Anything larger than, heavier or more complex than a human will make the Soul-Binding harder. `2` for a small and simple, `3` for a moderate and `4` for a large and `5+` for a huge and complex binding. Consult your GM. Requires a Soul-Seal. Replacing an existing binding is possible, but the test must exceed the original soul-seal's strength. | The caster's soul is momentarily displaced from their body. They suffer `10` points of Pure damage! |
+| 0     | Call and Bind a Soul | 3  | `SI * 3`      | `SI`                   | Create a Soul-Binding at the strength of the chosen `SI`. The larger, heavier and more complex a body is, the harder it is to create a binding. Anything larger than, heavier or more complex than a human will make the Soul-Binding harder. `2` for a small and simple, `3` for a moderate and `4` for a large and `5+` for a huge and complex binding. Consult your GM. Requires a Soul-Seal. Replacing an existing binding is possible, but the test must exceed the original soul-seal's strength. | The caster's soul is momentarily displaced from their body. They suffer `10` points of Pure damage! |
 | 0     | Soul Blast           | 2  | `SI * 5`      | Opposed by `Tough + 1` | Blast the soul from a **ST**'s body. The experience weakens them, rendering them [Marked](strive-core.md#marked). <br> `≤ 1` Hit: `SI * 2` Pure <br> `= 2` Hits: `SI * 3` Pure <br> `≥ 3` Hits: `SI * 4` Pure | The caster is affected, instead. |
 | 1     | Command Bound Soul   | 1  | `SI * 3`      | Opposed by `Wit - SI`  | Issue a single command that the bound soul **must** follow. |  |
 | 1     | Break Binding        | 3  |               | `SI of the seal`       | Break a Soul-Binding and send the soul back to the Plane Of The Dead, leaving its former body inanimate and soulless. | The caster's soul is momentarily displaced from their body. They suffer `10` points of Pure damage! |
-| 5     | Call back a Soul     | 3  |               | `5`                    | Target a specific soul and recall them into their prior body. This isn't, strictly speaking, the same as binding a soul. It is easier to recall the soul that previously inhabited a body, the shorter the time of death has been. However, targeting a specific soul is an immensely difficult undertaking and shouldn't be taken lightly.  | The caster's soul is evicted from their body and another soul takes place. The caster's character is effectively removed from the world. |
+| 5     | Call back a Soul     | 3  |               | `5`                    | Target a specific soul and recall them into their prior body. This isn't, strictly speaking, the same as binding a soul. It is easier to recall the soul that previously inhabited a body, the shorter the time of death has been. However, targeting a specific soul is an immensely difficult undertaking and shouldn't be taken lightly.  | The caster's soul is evicted from their body and another soul takes place. The caster's Character is effectively removed from the world. |
 
 ### Telekinesis (Arc/Agi)
 The ability to affect things and even creatures from afar, using magic instead of muscles or tools. 
@@ -1338,19 +1338,19 @@ The ability to communicate wordlessly, to alter emotions and even issue compelli
 | 2     | Change a Mind          | 2  | `SI * 4`       | Opposed by `Self-Control - SI` | Alter a creature's current state of mind and emotion. | The caster is affected, instead. |
 | 3     | Pressing Thought       | 2  | `SI * 10`      | `SI + 1`                       | **Concentration**: [Hasten](./strive-core.md#hasted) up to `SI` **MST** of choice. | The caster and their targets suffer `+1` [Exhaustion](./strive-core.md#exhaustion). |
 | 4     | Quiet Command          | 2  | `SI * 10`      | Opposed by `Self-Control - SI` | Issue a command to another creature, which they feel **strongly** compelled to follow. | `+1` [Exhaustion](./strive-core.md#exhaustion) to self. |
-| 5     | Confer Knowledge       | 4  | `1`            | `6 - SI`                       | **Time(+1)**: Permanently confer `+1` level of a known Skill to another creature, but only up to the caster's level, minus two, in the Skill. The caster's level in the Skill is unaffected. | The caster loses `1` level in the chosen skill, for `24` hours! |
+| 5     | Confer Knowledge       | 4  | `1`            | `6 - SI`                       | **Time(`+1`)**: Permanently confer `+1` Level of a known Skill to another creature, but only up to the caster's Level, minus two, in the Skill. The caster's Level in the Skill is unaffected. | The caster loses `1` Level in the chosen Skill, for `24` hours! |
 
 ## List of Illnesses
 This list supplements the list of **injuries** of the [Core rules](./strive-core.md#list-of-injuries). 
 
 | Name              | Duration          | Effect      | Treatment |
 | ----------------- | ----------------- | ----------- | --------- |
-| Amber Curse       | `2D10` Days     | The victim finds it difficult to feel the flow of magic through their body. `-1D4` [Arcana](#arcana-arc); `-1D4` to any magic skills and [Rune-Using](#rune-using-agiwit). | Conventional methods cannot treat this illness. It can be treated with a potion of powdered [Abyssalite](#abyssalite). |
+| Amber Curse       | `2D10` Days     | The victim finds it difficult to feel the flow of magic through their body. `-1D4` [Arcana](#arcana-arc); `-1D4` to any magic Skills and [Rune-Using](#rune-using-agiwit). | Conventional methods cannot treat this illness. It can be treated with a potion of powdered [Abyssalite](#abyssalite). |
 
 ## Archetype Characters
-This section contains some pre-defined archetypal characters. These are mostly ready to play and serve as instructional references on how to build your own characters. 
+This section contains some pre-defined archetypal Characters. These are mostly ready to play and serve as instructional references on how to build your own Characters. 
 
-Their name, species, gender, age and other details are left up to you to fill out, with the help of your GM, as such details must fit their world and cannot be predicted here. Also, the initial drivers are designed you get these characters to come together and co-operate. There is no point in playing lone wolves. You are very much expected to replace the drivers and come up with your own after the first session of play. 
+Their name, species, gender, age and other details are left up to you to fill out, with the help of your GM, as such details must fit their world and cannot be predicted here. Also, the initial drivers are designed you get these Characters to come together and co-operate. There is no point in playing lone wolves. You are very much expected to replace the drivers and come up with your own after the first session of play. 
 
 ### The Arcaenologist
 After so many years of study and dedication to dusty tomes and repeated lectures, you realize the world cannot be found in books and scrolls - it is *out there*. Perhaps it is not yet too late to experience it all?
@@ -1376,7 +1376,7 @@ Reactions:
 | 7      | 1      | 0      | 20  | 2          |
 
 Titles of Renown:
-* Loremaster of *X* (3) - at the cost of `2` points that would have gone to Skills. Replace *X* with something befitting your GM's world - make sure to consult them!
+* Loremaster of *X* (`3`) - at the cost of `2` points that would have gone to Skills. Replace *X* with something befitting your GM's world - make sure to consult them!
 
 Skills:
 * Alchemy, Level `3`
@@ -1580,7 +1580,7 @@ Due to the demon bound inside them, they are inherently and irredeemably evil. C
 #### Filth & Darkness
 **`-10` Hostility**: The foul Swine have prepared a trap! The battlefield is flooded with a nauseating miasma and covered in unnatural darkness! 
 * All non-Swine with normal vision can only see up to `3` far.
-* All non-Swine suffer `-1D` to all tests.
+* All non-Swine suffer `-1D` to all Tests.
 
 ### Swine Belcher
 This variant is small and stunted. Its legs are too short and deformed to be useful, so it stands on and walks with its hands, instead. But don't be fooled, this creature is not defenceless. Vile residue runs down its maw, hinting at its repugnant weaponry. 
@@ -1608,7 +1608,7 @@ This variant is small and stunted. Its legs are too short and deformed to be use
 **Assets**: Tattered Rags (Clothing)
 
 **Skills**:
-* Observation, level: `3`
+* Observation, Level: `3`
 * Bite (Agi/Str):
   * Chomp down on a ST. 
   * Level: `2`, AP: `2`, Ob: `Opposed`, Melee, ST, Innate
@@ -1648,9 +1648,9 @@ This variant stands tall and proud, its wrinkled skin riddled with scars. Its tu
 **Assets**: Spear, Medium Shield, Swine Champion Armor
 
 **Skills**:
-* Shield, level: `5`
-* Unarmed Combat, level: `3`
-* Weapon \<Polearm\>, level: `5`
+* Shield, Level: `5`
+* Unarmed Combat, Level: `3`
+* Weapon \<Polearm\>, Level: `5`
 * Bite (Agi/Str):
   * Chomp down on a ST. 
   * Level: `3`, AP: `2`, Ob: `Opposed`, Melee, ST, Innate
@@ -1701,8 +1701,8 @@ This variant is as almost as small as a Belcher, but with strong legs and arms, 
 **Assets**: Tattered Rags (Clothing), Dagger x2
 
 **Skills**:
-* Stealth, level: `4`
-* Weapon \<Dagger\>, level: `5`
+* Stealth, Level: `4`
+* Weapon \<Dagger\>, Level: `5`
 * Lunge (Agi/Agi):
   * Lunge up to `7` squares far, dealing damage to all foes in your path with your weapons. Does not provoke [Opportunity Attacks](strive-core.md#opportunity-attacks). 
   * Level: `4`, AP: `3`, Ob: `3`, Melee, AoE (line), Innate
@@ -1741,7 +1741,7 @@ A hulking mass of Swine and muscle, towering above its lesser brethren. Despite 
 **Assets**: Tattered Rags (Clothing), Crusher
 
 **Skills**:
-* Weapon \<Crusher\>, level: `2`
+* Weapon \<Crusher\>, Level: `2`
 * Slam (Str/Tough):
   * Slam into a ST.
   * Level: `4`, AP: `2`, Ob: `Opposed`, Melee, ST, `Strength` Bludgeoning damage, Innate
@@ -1780,8 +1780,8 @@ An intelligent and cruel leader among the Swine. Its gaze attentively surveys al
 **Assets**: Fine Rags (Clothing)
 
 **Skills**:
-* Magic School \<Hexing\>, level: `5`
-* Medicine, level: `3`
+* Magic School \<Hexing\>, Level: `5`
+* Medicine, Level: `3`
 * Bite (Str/Tough):
   * Chomp down on a ST. 
   * Level `2`, AP: `2`, Ob: `Opposed`, ST, Melee, Innate
@@ -1825,8 +1825,8 @@ This variant has full dark-red fur and much shorter tusks. It moves deftly, albe
 **Assets**: Tattered Rags (Clothing), Javelin x8, Bear Trap x3
 
 **Skills**:
-* Observation, level: `3`
-* Stealth, level: `5`
+* Observation, Level: `3`
+* Stealth, Level: `5`
 * Throw Javelin (Agi/Str):
   * Throw a javelin at a **ST**. 
   * Level: `4`, Ob: `Opposed`, Ranged: `10`, ST, Innate
@@ -1857,8 +1857,8 @@ This variant is lanky, lacking much of the bulk of its brethren. 
 **Assets**: Tattered Rags (Clothing), Axe, Light Shield
 
 **Skills**:
-* Shield, level: `3`
-* Weapon \<Axe\>, level: `3`
+* Shield, Level: `3`
+* Weapon \<Axe\>, Level: `3`
 
 ### Swine Stomper
 This variant is massive and strong. Most of its body is covered in dark, dirty clumped up fur. The tusks are menacing weapons of their own. 
@@ -1889,8 +1889,8 @@ Assets:
 Swine Armored Rags: Slashing `6`, Piercing `4`, Bludgeoning `3`, Acid `6`
 
 Skills:
-* Unarmed Combat, level: `4`
-* Weapon \<Crusher\>, level: `3`
+* Unarmed Combat, Level: `4`
+* Weapon \<Crusher\>, Level: `3`
 * Bite (Agi/Str):
   * Chomp down on a ST. 
   * Level: `3`, AP: `2`, Ob: `Opposed`, Melee, ST, Innate
@@ -1987,11 +1987,11 @@ Alps are a fairly common occurence throughout the world. How they reproduce is a
 **Skills**: 
 * Stealth: Level `3`
 * Induce Nightmare (Wit/Arc):
-  * Induces nightmares on all nearby (`20` radius around the Alp) sleeping characters. This strengthens the Alp, removing `1` active Injury for every induced nightmare. The Alp gains `+3` to Strength and `+1` to Toughness. While nightmare lasts, every turn it regains `5` HP for every nightmare and every victim suffers `5` Pure damage. Nightmare lasts for `6` turns or `6` minutes. Any creature with a nightmare can be woken up (in any way you like), at Ob `3`. This ability does not stack with itself. After the time is up, the affected creatures automatically wake up. 
-  * Does not stack: Every sleeping character can only be affected once. 
+  * Induces nightmares on all nearby (`20` radius around the Alp) sleeping Characters. This strengthens the Alp, removing `1` active Injury for every induced nightmare. The Alp gains `+3` to Strength and `+1` to Toughness. While nightmare lasts, every turn it regains `5` HP for every nightmare and every victim suffers `5` Pure damage. Nightmare lasts for `6` turns or `6` minutes. Any creature with a nightmare can be woken up (in any way you like), at Ob `3`. This ability does not stack with itself. After the time is up, the affected creatures automatically wake up. 
+  * Does not stack: Every sleeping Character can only be affected once. 
   * Level: `7`, AP: `2`
 * Induce Sleep (Wit/Arc):
-  * Forces the victim to fall asleep, on the spot. They become [Unconscious](./strive-core.md#unconscious), but can be woken through physical harm or a very strong shaking, at Ob `3` for tests to wake them up. 
+  * Forces the victim to fall asleep, on the spot. They become [Unconscious](./strive-core.md#unconscious), but can be woken through physical harm or a very strong shaking, at Ob `3` for Tests to wake them up. 
   * Level: `7`, AP: `2`, Ob: `Opposed by Self-Control`, ST, Ranged: `20`, Psionic
 * Rend (Agi/Str): 
   * Tear a victim to shreds. 
