@@ -146,7 +146,7 @@ You may choose to play without the Momentum system for a less heroic style of ga
     - [Crafting \& Research Projects](#crafting--research-projects)
       - [Project Prerequisites](#project-prerequisites)
       - [Progressing a Project](#progressing-a-project)
-      - [Complications](#complications)
+      - [Project Complications](#project-complications)
       - [Quality Level Reference](#quality-level-reference)
       - [Project Boosters](#project-boosters)
       - [Crafting It Again](#crafting-it-again)
@@ -159,8 +159,6 @@ You may choose to play without the Momentum system for a less heroic style of ga
     - [Trade](#trade)
       - [Seller's Chart](#sellers-chart)
       - [Buyer's Chart](#buyers-chart)
-    - [Recovery](#recovery)
-    - [Training](#training)
   - [Resting](#resting)
   - [Scenario-Time](#scenario-time)
 - [Combat](#combat)
@@ -169,7 +167,7 @@ You may choose to play without the Momentum system for a less heroic style of ga
   - [Combat Movement](#combat-movement)
     - [Forced Movement](#forced-movement)
       - [Forced Collision](#forced-collision)
-      - [Hurled Through The Obstacle](#hurled-through-the-obstacle)
+      - [Hurled Through An Obstacle](#hurled-through-an-obstacle)
     - [Gravity Hurts](#gravity-hurts)
     - [Disengage](#disengage)
     - [Flee Combat](#flee-combat)
@@ -441,17 +439,18 @@ As STRIVE is meant primarily as a rule-book to help you quickly find what you ne
 | [Agility (Agi)](#agility-agi)                               | The Agility Attribute. Determines how dexterous, nimble and fast a Character is. |
 | [Ambition Fate-Point (AFP)](#ambition-fate-points)          | A Fate-Point earned for the greatest of achievements. |
 | [Area of Effect (AoE)](#area-of-effect-aoe)                 | Indicates an attack will affect multiple targets in an area, which could be a cone, a radius, line, or similar shape. |
-| [Attack Test](#attacking)                                   | A test made to harm or hinder another Character. |
+| [Attack Test](#attacking)                                   | A Test made to harm or hinder another Character. |
 | [Awareness (Awar)](#awareness-awar)                         | The Awareness Attribute. Determines how generally attentive and empathic a Character is. |
 | [Base Attribute](#skills)                                   | One of the two Attributes a Skill relies on. |
 | [Base Initiative / BI](#base-initiative-bi)                 | Determines the order in which Characters act in combat. |
+| [Basic Action](#action-points-ap)                           | An action (during combat) that doesn't require a Test, such as moving. |
 | [Concentration](#concentration)                             | A Skill or Expertise whose effects last as long as desired |
 | [D10](#dice)                                                | A ten-sided die         |
 | [D20](#dice)                                                | A twenty-sided die      |
 | [D4](#dice)                                                 | A four-sided die        |
 | [D6](#dice)                                                 | A six-sided die         |
 | [D8](#dice)                                                 | An eight-sided die      |
-| [Defense Test](#attacking)                                  | A test made to oppose the attack of another Character. |
+| [Defense Test](#attacking)                                  | A Test made to oppose the attack of another Character. |
 | [Difficult Terrain](#combat-movement)                       | Halves movement per AP. |
 | [Distance Increment (DI)](#ranged)                          | Indicates a ranged weapon's/attack's range increments. Attacking past this number of squares incurs penalties to the attack. |
 | [Exhaustion](#exhaustion)                                   | A resource that indicates how physically exerted a Character is. Limits usage of abilities if it becomes too much. |
@@ -460,15 +459,15 @@ As STRIVE is meant primarily as a rule-book to help you quickly find what you ne
 | [Fate-Point (FP)](#fate-points)                             | A powerful meta-currency that allows you to change dice rolls and even influence the narrative. |
 | [Forced Movement](#forced-movement)                         | When a Character is moved against their will, by being pushed or thrown. |
 | [Game-Master (GM)](#introduction)                           | The person running the game. |
-| [Hit Limit](#testing-a-skill)                               | Determines how many rolled Hits may actually factor into the result of a test. |
+| [Hit Limit](#testing-a-skill)                               | Determines how many rolled Hits may actually factor into the result of a Test. |
 | [Hit-Point(s) (HP)](#hit-points-hp)                         | The resource that separates a Character from death. |
-| [Hit](#tests)                                               | Positive result of an individual die-roll in a test. |
+| [Hit](#tests)                                               | Positive result of an individual die-roll in a Test. |
 | [Major Fate-Point (MaFP)](#major-fate-points)               | A Fate-Point earned for a major achievement and great role-play. |
 | [Minor Fate-Point (MiFP)](#minor-fate-points)               | An easily earned Fate-Point, supported by mostly mechanics. |
-| [Miss](#tests)                                              | Negative result of an individual die-roll in a test. |
+| [Miss](#tests)                                              | Negative result of an individual die-roll in a Test. |
 | [Multiple Single Target (MST)](#multiple-single-target-mst) | Indicates that an attack affects multiple targets, each of which is handled individually, for example for rolling Defense Tests. |
 | [Non-Player Character (NPC)](#non-player-character-npc)     | Represents all the people, animals and monsters of a world, that are controlled by the GM. |
-| [Obstacle (Ob)](#tests)                                     | Determines the target number of Hits you must roll to succeed a test. |
+| [Obstacle (Ob)](#tests)                                     | Determines the target number of Hits you must roll to succeed a Test. |
 | [Player Character (PC)](#introduction)                      | The type of Character that players are in control of. |
 | [Progress Increment (PI)](#progressing-a-project)           | Determines how much work a Project takes. |
 | [Project](#crafting--research-projects)                     | A long-term and abstract side-activity of a PC to craft or research something. |
@@ -541,7 +540,7 @@ The following types of dice come into play:
 * `D6` - six-sided dice. You will need a lot of these. Ten should be enough for most situations. 
 * `D8` - eight-sided dice. Three of these will be enough for most situations. 
 * `D10` - ten-sided dice. Three of these will be enough for most situations. 
-* `D20` - twenty-sided dice. Just one of these will be enough. Can also be substituted with two `D10`s. 
+* `D20` - twenty-sided dice. Just one of these will be enough. 
 
 ## Before the Game
 The very first step of preparing for play, is to decide on a theme, world and setting of the game. Ideally, the players and GM decide together, but ultimately, the GM's preferences should hold a greater weight. When a GM isn't really interested in the theme, world and setting, the game will quickly start feeling like a chore to them. The result is they lose motivation to keep running the game. No one wants that. But not to worry! As long as you communicate and respect your GM's wishes, you'll have no problem finding common ground. 
@@ -561,26 +560,24 @@ At the start of a session, one of the players, or perhaps the GM, should recall 
 This is also the time when players choose new [Aspirations](#aspiration) for their Character and to buy [Fate-Cards](#hand-of-fate). 
 
 ### During the Session
-[Fate Points](#fate-points) cannot be awarded during play and neither can cards be bought from the [Hand Of Fate](#hand-of-fate). However, players and the GM should take note of every situation they believe a PC (their own included) could have earned a [Fate Point](#fate-points).
+[Fate Points](#fate-points) cannot be awarded during play and neither can cards be bought from the [Hand Of Fate](#hand-of-fate). However, players and the GM should take note of every situation they believe a PC (their own included) could have earned a Fate Point.
 
 It is up to the GM to get the ball rolling. They first frame the local area of the world the PCs find themselves in. They describe the scenario at hand - where the PCs are, what they can see, hear, smell and feel - and then ask "who does what?"
 
 Then, the players must keep the ball rolling. In a given scenario, every PC should have something they wish to do. You could take turns or rely on first-come-first-serve, as long as everyone gets to state their Character's [intent and action](#intent--action). Every action taken is then resolved, either formally through a [Test](#tests) or informally with a direct description of what happens. 
 
-A [Test](#tests) must be made whenever there is an **obstacle** to overcome - some **action** whose outcome is uncertain. 
+A Test must be made whenever there is an **Obstacle** to overcome - some **action** whose outcome is uncertain. 
 
-> For example, stating your Character will leave the room shouldn't warrant a [Test](#tests), if there is no obstacle to overcome. Opening an unlocked door in a calm situation should be a "risk-free" thing to do. 
+> For example, stating your Character will leave the room shouldn't warrant a Test, if there is no obstacle to overcome. Opening an unlocked door in a calm situation should be a "risk-free" thing to do. 
 >
-> However, when the same situation takes place during a time-critical phase, for example in a burning house and the door being locked, then a [Test](#tests) to quickly force the lock or break down the door would be warranted. 
+> However, when the same situation takes place during a time-critical phase, for example in a burning house and the door being locked, then a Test to quickly force the lock or break down the door would be warranted. 
 
 ### Intent & Action
 The players drive the story and the action. They decide what their Character will try to do and the GM will help them figure out if things will go as planned. 
 
 As a player, when deciding on what to do, make sure you state the **intent** of your action, like "I want to find incriminating evidence against a merchant". Then, the GM will need to know *how* you aim to follow up on your intent. Describe the **action** you will take. The clearer, the better. "I will ask around", would allow the GM to guide you along. But there are still details left to fill in. Who and where will you ask? What will you ask them? So, a better intent would be "I will ask the other merchants at the market what they think about this one merchant". That leaves no room for doubt *how* you wish to achieve your goal, which makes the GM's job easier and the game flow better. The GM could now have each merchant tell the PC some rumours or observed past activities and behaviors of that one merchant, some of which may be of a sketchy nature, like "I swear I saw him down at the docks, speaking to some shady looking people" or "She always seems wary of people walking behind her".
 
-Of course, how appropriate a certain [Attribute](#attributes) or [Skill](#skills) is for the resolution of a given situation, is ultimately up to the GM and the specifics of the situation itself. 
-
-When deciding on what to do, keep in mind your Character's [Personality](#personality) as that should inform you of the kinds of actions they might take. 
+When deciding on what to do and how to do it, also keep in mind your Character's [Personality](#personality) as that should inform you of the kinds of actions they might take. 
 
 ### Spending Time
 Everything the PCs do takes time. How much time, exactly, is variable and depends on the point in the narrative the PCs are in. There are two levels of time-management. 
@@ -592,11 +589,11 @@ In contrast, on the more concrete level, PCs only commit to fine-grained short-t
 Typically in RPGs, a fight is considered a **[Combat](#combat) encounter**. Non-bloody interaction that involves speaking to [NPCs](#non-player-character-npc) or the PCs amongst themselves is considered a **social encounter**. There are also scenarios of exploration, investigation and survival. 
 
 ## After the Session
-After a session is done, the players and GM stick around to discuss which players earned [Fate Points](#fate-points). This is where players are nominated for [Fate Points](#fate-points), by each other and by the GM. If everyone agrees, the [Fate Points](#fate-points) are awarded. Players can and should lobby for their [Fate Points](#fate-points), but shouldn't beg. If most everyone else says no, then that decision stands. 
+After a session is done, the players and GM stick around to discuss which players earned [Fate Points](#fate-points). This is where players are nominated for Fate Points, by each other and by the GM. If everyone agrees, the Fate Points are awarded. Players can and should lobby for their Fate Points, but shouldn't beg. If most everyone else says no, then that decision stands. 
 
 Also after the session, players and the GM discuss whether a PC should lose a [Reaction](#reaction), because they have acted against it or haven't gotten to play it out at all. 
 
-Players may now spend earned [Fate Points](#fate-points) to buy cards (boons) from the [Hand Of Fate](#hand-of-fate) and adjust their Character's [Personality](#personality) and [Aspirations](#aspiration). This may also be postponed to the start of the next session. 
+Players may now spend earned Fate Points to buy cards (boons) from the [Hand Of Fate](#hand-of-fate) and adjust their Character's [Personality](#personality) and [Aspirations](#aspiration). This may also be postponed to the start of the next session. 
 
 ## Tests
 Whenever the outcome of an action or situation is uncertain, a Test may be called for by the GM, in order to resolve it. 
@@ -625,18 +622,18 @@ It is **not** possible to [Fork](#skill-forking) into Attribute Tests, *at all*.
 ### Testing a Skill
 All Skills have two Attributes they're based on / rely on, noted in parentheses next to the Skill's name. They are called the Skill's **Base Attributes**. To resolve a Skill Test, roll `ND6`, where *N* is the sum of both Base Attributes' [Modified Level](#raw-vs-modified-level).
 
-The [Modified Level](#raw-vs-modified-level) of the Skill itself, plus `1`, governs the maximum number of Hits that may count towards the result. Only that many of the achieved Hits may, at most, factor into the test's outcome. This is called the **Hit Limit**. If [Compensation Points](#compensation-points) are used in the test, each of them always and automatically raises the Hit Limit by `+1`!
+The Modified Level of the Skill itself, plus `1`, governs the maximum number of Hits that may count towards the result. Only that many of the achieved Hits may, at most, factor into the Test's outcome. This is called the **Hit Limit**. If [Compensation Points](#compensation-points) are used in the Test, each of them always and automatically raises the Hit Limit by `+1`!
 
 It is possible to [Fork](#skill-forking) into Skill Tests, granting more dice and raising the Hit Limit by `+1`, for **each** forked Skill! **Do not forget to fork your Skills into your Tests!**
 
-> A Character is asked to test a Skill, which is Level `2`. Its two Base Attributes have the Modified Levels of `3` and `4`. Their sum of `7`, is the number of `D6` available for the test. 
+> A Character is asked to Test a Skill, which is Level `2`. Its two Base Attributes have the Modified Levels of `3` and `4`. Their sum of `7`, is the number of `D6` available for the Test. 
 > 
-> They roll `6`, `6`, `5`, `5`, `3`, `2` and `1`, of which `4` are Hits! But because their Skill is only Level `2`, they may only take `2 (from the Skill's Level) + 1 (always) = 3` of those Hits for the test's result. 
+> They roll `6`, `6`, `5`, `5`, `3`, `2` and `1`, of which `4` are Hits! But because their Skill is only Level `2`, they may only take `2 (from the Skill's Level) + 1 (always) = 3` of those Hits for the Test's result. 
 >
-> *However*, they are afforded `1` Compensation Point for the test. While the Compensation Point would not be enough to turn one of the Misses into a Hit, it raises the Hit Limit by `+1`. Thus allowing all `4` rolled Hits to factor into the result, after all! 
+> *However*, they are afforded `1` Compensation Point for the Test. While the Compensation Point would not be enough to turn one of the Misses into a Hit, it raises the Hit Limit by `+1`. Thus allowing all `4` rolled Hits to factor into the result, after all! 
 
 ### Raw vs. Modified Level
-Attributes and Skills have two Level numbers. One is the Raw Level, while the other is the **Modified Level**. 
+Attributes and Skills have two Level numbers. One is the **Raw Level**, while the other is the **Modified Level**. 
 
 The Modified Level results from adding and subtracting [Boons And Penalties](#boons--penalties) - the sum of which is referred to as Modifier - to/from the Raw Level. It is **always** the Modified Level that is used in Tests!
 
@@ -650,32 +647,32 @@ The Modified Level results from adding and subtracting [Boons And Penalties](#bo
 There are the following types of Tests. The GM decides when to use which. 
 
 #### Binary Test
-The outcome of the test is either a Complete Success or Complete Failure. A Partial Failure is treated as if it were a Complete Failure. 
+The outcome of the Test is either a Complete Success or Complete Failure. A Partial Failure is treated as if it were a Complete Failure. 
 
 #### Stepped Test
-A stepped test is really just a series of [Binary Tests](#binary-test). This allows for finer-grained results, while still not behaving like a [Graduated Test](#graduated-test). 
+A Stepped Test is really just a series of [Binary Tests](#binary-test). This allows for finer-grained results, while still not behaving like a [Graduated Test](#graduated-test). 
 
-This type of test is useful for situations where the GM decides to create very fine *time slices* and allow more chances for success. This makes it easier to allow a PC to *fail forward* or prevent a *one roll to end it all* situation. 
+This type of Test is useful for situations where the GM decides to create very fine *time slices* and allow more chances for success. This makes it easier to allow a PC to *fail forward* or prevent a *one roll to end it all* situation. 
 
-> For example, a PC is attempting to cross a suspension bridge, but upon setting foot on the bridge, the ropes holding it up, suddenly snap. The PC can make an [Acrobatics](#acrobatics-agistr) test, to try and quickly jump off and back onto solid ground. They fail, and get to make another [Acrobatics](#acrobatics-agistr) test at greater Ob, to try and grab a root sticking out of the ground beneath the bridge. They fail again! As a last chance for that PC to survive, the GM asks one of the other players if their Character will attempt an [Acrobatics](#acrobatics-agistr) test at high Ob, to try and grab their falling ally's hand in a daring rescue. Finally, their ally succeeds and the PC's life is saved. 
+> For example, a PC is attempting to cross a suspension bridge, but upon setting foot on the bridge, the ropes holding it up, suddenly snap. The PC can make an [Acrobatics](#acrobatics-agistr) Test, to try and quickly jump off and back onto solid ground. They fail, and get to make another Acrobatics Test at greater Ob, to try and grab a root sticking out of the ground beneath the bridge. They fail again! As a last chance for that PC to survive, the GM asks one of the other players if their Character will attempt an Acrobatics Test at high Ob, to try and grab their falling ally's hand in a daring rescue. Finally, their ally succeeds and the PC's life is saved. 
 > 
 > Obviously, such a situation should not arise often, as Stepped Tests can quickly grow exasperating. 
 
 #### Graduated Test
-The outcome of the test is graduated. That means, the number of Hits rolled during the test factor into the outcome. This is called the Degree Of Success. 
+The outcome of the Test is graduated. That means, the number of Hits rolled factor into the outcome. This is called the **Degree Of Success**. 
 
 > For example, when crafting a work of art, the number of Hits achieved may result in a more impressive piece, which can then be sold at a higher price or which could make for a more impressive gift. 
 
-A Graduated Test can occur in two forms. The first is without an Ob threshold for failure and the second is *with* such a threshold. When a graduated test has an Ob, then at least that number of Hits must be rolled, in order to succeed the test, at all. Any Hits rolled past the Ob, determine the Degree Of Success. However, not achieving at least Ob number of Hits results in the test being counted as a Complete Failure. 
+A Graduated Test can occur in two forms. The first is without an Ob threshold for failure and the second is *with* such a threshold. When a Graduated Test has an Ob, then at least that number of Hits must be rolled, in order to succeed the Test, at all. Any Hits rolled past the Ob, determine the Degree Of Success. However, not achieving at least Ob number of Hits results in the Test being counted as a Complete Failure. 
 
-On the other hand, even a Complete Failure doesn't have to be *absolute*. The number of Hits *missing* to reach the Ob threshold determine the Degree Of Failure. Therefore, there might be a chance to "fail forward" - a success, but with complications, whose severity depends on the Degree Of Failure. 
+On the other hand, even a Complete Failure doesn't have to be *absolute*. The number of Hits *missing* to reach the Ob threshold determine the **Degree Of Failure**. Therefore, there might be a chance to "fail forward" - a success, but with complications, whose severity depends on the Degree Of Failure. 
 
-> For a test, a PC has to do a Graduated Test of one of their craftsmanship Skills, at Ob `3`. They only achieve only `2` Hits, which results in a Degree Of Failure of `1`. 
+> A PC has to do a Graduated Test of one of their craftsmanship Skills, at Ob `3`. They only achieve only `2` Hits, which results in a Degree Of Failure of `1`. 
 > 
-> Seeing such a low Degree Of Failure, the GM rules that the PC *does* succeed their test, but also loses more materials in the process than a Complete Success would have cost them. 
+> Seeing such a low Degree Of Failure, the GM rules that the PC *does* succeed their Test, but also loses more materials in the process than a Complete Success would have cost them. 
 
 #### Creative Test
-For this type of test, a scenario is played through fairly abstractly. The GM outlines various challenges that must be overcome and what consequences the players may expect if they succeed or fail in overcoming these challenges. Then, the players pick a [Skill](#skills) or [Attribute](#attributes) with which they will solve one of the challenges. Every player can solve only one challenge. Players are encouraged to think creatively! If the proposed solution to a challenge sounds reasonable, it should be possible. 
+For this type of Test, a scenario is played through fairly abstractly. The GM outlines various challenges that must be overcome and what consequences the players may expect if they succeed or fail in overcoming these challenges. Then, the players pick a [Skill](#skills) or [Attribute](#attributes) with which they will solve one of the challenges. Every player can solve only one challenge. Players are encouraged to think creatively! If the proposed solution to a challenge sounds reasonable, it should be possible. 
 
 The solutions are then [Tested](#tests). Successful Tests help the PCs resolve the scenario in their favor. Failures introduce new complications. You may play out each solution in detail, if you wish, but aren't required to. 
 
@@ -684,47 +681,37 @@ Creative Tests are a great solution to quickly handle chase sequences or travel 
 > For example, when crossing a bog, the GM may outline the challenges: the PCs may get lost in the trackless mire, sink into and get stuck in the mud, fall into the bog, contract an Illness from the dirty water or pesky insects or similar such challenges. If the PCs succeed, they arrive at their destination in a timely fashion and without too much trouble. If they fail, they may accrue Exhaustion, Illnesses, end up in a different location, and so on.
 
 #### Opposed Test
-This type of test occurs, when two Characters come into opposition. Who wins, and by how much, is determined by comparing the number of Hits each achieves. The one with the most Hits is the winner. But if there is a tie, the **defending** Character is considered the winner. 
+This type of Test occurs, when two Characters come into opposition. 
 
-The Character whose action requires the opposed test to be made is considered the *attacker*. The other Character is considered the *defender*, because they are forced to react. 
+The Character who initiates the Test, requires the Opposed Test to be made and is considered the **Attacker**. The other Character forced into opposition is considered the **Defender**. Who wins, and by how much, is determined by comparing the number of Hits each Character achieves. The one with the **most Hits is the winner**. But if there is a **tie**, the **Defending** Character is considered the winner. 
 
-> For example, a Character tries to sneak past another, the sneaking Character will have to succeed a [Stealth](#stealth-agiawar) test, while the other Character will have to succeed an [Observation](#observation-awarawar) test. In this scenario the Character testing their [Stealth](#stealth-agiawar) is considered the *attacker*, while the passive Character being *forced* to test their [Observation](#observation-awarawar) is considered the defender. 
+> For example, a Character tries to sneak past another, the sneaking Character will have to succeed a [Stealth](#stealth-agiawar) Test, while the other Character will have to succeed an [Observation](#observation-awarawar) Test. In this scenario the Character Testing their Stealth is considered the Attacker, while the passive Character being *forced* to Test their Observation is considered the Defender. 
 
-The defender first rolls a test of their respective Skill, against Ob `0` (this 'automatic success' does **not** count towards Skill progression) and the number of Hits that result, plus one, is the resulting Ob for the attacker to match or exceed. 
+> In combat, a Defender rolls a Defense Test and achieves `3` Hits. Thus, the Attacker must achieve at least `4` Hits, in order to win the Opposed Test. 
 
-> In combat, a defender rolls a Defense Test and achieves `3` Hits. Thus, the attacker must achieve at least `4` Hits, in order to win the opposed test. 
+> In combat, a Defender rolls for Defense and achieves `3` Hits. The Attacker rolls an attack and achieves `3` Hits. The Hits being tied with the defenders', means the Defender wins, by default. 
 
-Whoever actually wins the opposed test, gets to note a success on their respective Skill, while the loser must note a failure on their respective Skill. 
-
-> In combat, a defender rolls for Defense and achieves `3` Hits.
-> 
-> The attacker rolls an attack and achieves `3` Hits. The Hits being tied with the defenders', means the defender wins, by default. 
-> 
-> Thus, the defender notes a success on their respective Defense Skill, while the attacker must note a failure on their respective attack Skill. 
-
-The defender **cannot** [Fork](#skill-forking) other Skills into their test, whereas the attacker **can**.
-
-If a tie occurs in which a **defender** cannot be clearly determined, the result is a deadlock and neither side gains anything. Mind you, this shouldn't normally happen. Avoid this type of situation to the best of your ability. 
+The Defender **may not** [Fork](#skill-forking), whereas the Attacker **may**.
 
 ### Tests Bring about Learning
-Every time a Character's [Skills](#skills) **or** [Attributes](#base-characteristics) are tested, they earn `+1` [XP](#experience-points-xp). *And* [Skills](#skills) progress individually, whenever they are tested. 
+Every time a Character's [Skills](#skills) **or** [Attributes](#base-characteristics) are Tested, they earn `+1` [XP](#experience-points-xp). *And* [Skills](#skills) progress individually, whenever they are Tested. 
 
 See also [Advancement](#advancement). 
 
 ### Providing Assistance
-Characters can help each other in Tests. In order to help with a test, a Character must know a relevant [Skill](#skills) and the one being helped must accept the help. 
+Characters can help each other in Tests. In order to help with a Test, a Character must know a relevant [Skill](#skills) and the one being helped must accept the help. 
 
-Helping in a test works similar to [Forking](#skill-forking) a [Skill](#skills). The Character being helped receives `+1D6` to roll for each *Character* helping them. The number of relevant [Skills](#skills) a helping Character has is irrelevant, as is the Level of those [Skills](#skills). Just one [Skill](#skills) and one Level in it are enough to allow them to help and only one `+1D6` is granted by the helping Character. However, *which* [Skill](#skills) is used to help with, matters. 
+Helping in a Test works similar to [Forking](#skill-forking) a [Skill](#skills). The Character being helped receives `+1D6` to roll for each *Character* helping them. The number of relevant [Skills](#skills) a helping Character has is irrelevant, as is the Level of those [Skills](#skills). Just one [Skill](#skills) and one Level in it are enough to allow them to help and only one `+1D6` is granted by the helping Character. However, *which* [Skill](#skills) is used to help with, matters. 
 
 If a PC is helping another, their player must describe *how* they're using their relevant [Skill](#skills) to help. Only if the GM agrees, may the helping die be granted. 
 
 > For example, a PC is currently using their [Thievery](#thievery-agiawar) to lockpick a door. Their allied PC is *helping*, by using their [Observation](#observation-awarawar) [Skill](#skills) to *keep an eye out for guards*, which allows the one on the door to work without having to constantly look over their shoulder. The GM finds that description agreeable and allows the use of the [Skill](#skills) to help. 
 
 #### Helpers Learn
-A Character helping in a test, gains `+1` [XP](#experience-points-xp). 
+A Character helping in a Test, gains `+1` [XP](#experience-points-xp). 
 
 ### Compensation Points
-**Compensation points** allow turning the faces of dice that came up as Misses up to the next higher number, until they become a Hit, instead. Also, Compensation Points **always** raise the Hit Limit for the test, by `+1` for each! 
+**Compensation points** allow turning the faces of dice that came up as Misses up to the next higher number, until they become a Hit, instead. Also, Compensation Points **always** raise the Hit Limit for the Test, by `+1` for each! 
 
 > When rolling `3D6`, with `2` Compensation Points and achieving `5`, `3` and `4` in the roll, then `1` Compensation Point can be used to turn the `4` into a `5` or both Compensation Points could turn the `3` into a `5`. There are not enough Compensation Points to turn all Misses into Hits, but at least one die is guaranteed to become a Hit! 
 
@@ -733,7 +720,7 @@ They may not sound grandiose, but make no mistake, Compensation Points are a ***
 ### Time
 Not all Tests are created equal - some actions require more time than others. 
 
-While the GM decides on how much time a given test will need, the following guidelines should provide a good basis. 
+While the GM decides on how much time a given Test will need, the following guidelines should provide a good basis. 
 
 * (Near) instantaneous: Combat actions, recalling knowledge, noticing things in passing. 
 * A matter of minutes: inspecting an environment, quickly skimming the contents of a book, a short conversation, first aid, superficial surgery. 
@@ -741,17 +728,17 @@ While the GM decides on how much time a given test will need, the following guid
 * A matter of days and months: Complex crafts and artistry, researching a complex or obscure subject. 
 
 ### Test Success Likelihoods
-As is the nature of dice pool systems, it is difficult to know how many dice you need to 'succeed' a test. While there are stochastic formulae that can help us figure out a mathematical answer, such formulae are often too complex to make use of when playing the game. Instead, the following guidelines and numeric table may help.
+As is the nature of dice pool systems, it is difficult to know how many dice you need to 'succeed' a Test. While there are stochastic formulae that can help us figure out a mathematical answer, such formulae are often too complex to make use of when playing the game. Instead, the following guidelines and numeric table may help.
 
 Before you are overwhelmed by the wealth of numbers below, see this summary, which is really all you need:
-* Ob `1` Tests are **trivially easy**. As a GM, pick this Ob only when you want the PC to succeed their test, but want to leave room for failure in extremely unlucky cases. Or, if you want to find out _how well_ they will succeed. If they do fail, let them fail forward - a success, with a complication!
-* Ob `2` Tests are **still easy**, but require *some* effort. A test which is still expected to be succeeded, but with a realistic chance of failure. 
-* Ob `3` Tests are **challenging**! As a GM, pick this Ob for any test only those proficient in the task should reliably succeed. In practice, this may be the Ob you will use the most. 
-* Ob `4` Tests are **difficult**! As a GM, pick this Ob for any test where even those proficient in the task should *struggle*! 
+* Ob `1` Tests are **trivially easy**. As a GM, pick this Ob only when you want the PC to succeed their Test, but want to leave room for failure in extremely unlucky cases. Or, if you want to find out _how well_ they will succeed. If they do fail, let them fail forward - a success, with a complication!
+* Ob `2` Tests are **still easy**, but require *some* effort. A Test which is still expected to be succeeded, but with a realistic chance of failure. 
+* Ob `3` Tests are **challenging**! As a GM, pick this Ob for any Test only those proficient in the task should reliably succeed. In practice, this may be the Ob you will use the most. 
+* Ob `4` Tests are **difficult**! As a GM, pick this Ob for any Test where even those proficient in the task should *struggle*! 
 * Ob `5+` Tests are **monumental**! Outside of combat, such **Obs** should be reserved for tasks that only masters of their craft should even stand a realistic chance of succeeding. 
 * You can expect **around one third** of your dice to turn up as Hits.
 
-Now stop here and ask yourself, would knowing all the test success rates ruin the experience for you? If so, you may skip reading the rest of this chapter. It's all just nerdy numbers, anyway.
+Now stop here and ask yourself, would knowing all the Test success rates ruin the experience for you? If so, you may skip reading the rest of this chapter. It's all just nerdy numbers, anyway.
 
 ----
 
@@ -903,35 +890,35 @@ Two values must be tracked for every Skill: Its Raw Level and its current Modifi
 
 Every Skill has two [Attributes](#attributes) it relies on - its so-called *base* [Attributes](#attributes). The Level of a chosen one of these base [Attributes](#attributes) also factors into [Tests](#testing-a-skill) of the Skill. 
 
-Skills [Advance](#advancing-skills), as they're tested. It is also possible to [Teach](#teaching) Skills. 
+Skills [Advance](#advancing-skills), as they're Tested. It is also possible to [Teach](#teaching) Skills. 
 
 Characters may also be granted "innate" Skills, which cannot be learned the normal way, but rather are inherited from a Character's ancestry (such as species) or are granted by superior powers (such as gods or ancient alien machines). 
 
 #### Skill Forking
-When [Testing](#testing-a-skill) a Skill, it is possible to Fork other *related* Skills into the test, granting more dice to roll and raising the Hit Limit, thus granting a better chance of succeeding. 
+When [Testing](#testing-a-skill) a Skill, it is possible to Fork other *related* Skills into the Test, granting more dice to roll and raising the Hit Limit, thus granting a better chance of succeeding. 
 
-For every other Skill you Fork into a test, you always receive `+1D6` and raise the Hit Limit by `+1`. The Levels of the Skills being Forked into a test do **not** matter!
+For every other Skill you Fork into a Test, you always receive `+1D6` and raise the Hit Limit by `+1`. The Levels of the Skills being Forked into a Test do **not** matter!
 
-It is possible to Fork as many other Skills as you want into a test. But:
-* The Skills you wish to Fork into the test must be *known*.
-* You must *ask* permission for every Skill you wish to Fork into your test with a plausible explanation of how it may be helpful. Only if the GM agrees, may you Fork that Skill into your test. 
+It is possible to Fork as many other Skills as you want into a Test. But:
+* The Skills you wish to Fork into the Test must be *known*.
+* You must *ask* permission for every Skill you wish to Fork into your Test with a plausible explanation of how it may be helpful. Only if the GM agrees, may you Fork that Skill into your Test. 
 
-> Imagine a large forked rivermouth. One of the forks feeding into it is also a large river, which represents the Skill primarily being tested. The other, smaller forks of the river represent the supporting Skills. They all combine together at the rivermouth. A primary and its supporting Skills flow together into the test! 
+> Imagine a large forked rivermouth. One of the forks feeding into it is also a large river, which represents the Skill primarily being Tested. The other, smaller forks of the river represent the supporting Skills. They all combine together at the rivermouth. A primary and its supporting Skills flow together into the Test! 
 
-Always keep in mind that *players* lobby for Forking, not the GM! When the GM asks you to test a Skill, ***you*** present the Skills *you* wish to Fork. The GM should not tell you which Skills to Fork! That is not their job. 
+Always keep in mind that *players* lobby for Forking, not the GM! When the GM asks you to Test a Skill, ***you*** present the Skills *you* wish to Fork. The GM should not tell you which Skills to Fork! That is not their job. 
 
-> For example, a PC is asked to test their [Thievery](#thievery-agiawar) Skill to pick a lock. They also know [Stealth](#stealth-agiawar) and know a Mechanics Skill. Their player thus asks for permission to fork their Mechanics Skill into their thievery test, explaining their experience with Mechanics helps them understand the lock's mechanism. The GM agrees. 
+> For example, a PC is asked to Test their [Thievery](#thievery-agiawar) Skill to pick a lock. They also know [Stealth](#stealth-agiawar) and know a Mechanics Skill. Their player thus asks for permission to fork their Mechanics Skill into their thievery Test, explaining their experience with Mechanics helps them understand the lock's mechanism. The GM agrees. 
 >
-> Then, the player asks to also fork their stealth into the test. The GM disagrees, as they explain there is currently no need to be stealthy. There are no guards nearby who could possibly perceive the lock-picking attempt. 
+> Then, the player asks to also fork their stealth into the Test. The GM disagrees, as they explain there is currently no need to be stealthy. There are no guards nearby who could possibly perceive the lock-picking attempt. 
 >
-> In the end, the PC gets `+1D6` from their Mechanics Skill for their thievery test. 
+> In the end, the PC gets `+1D6` from their Mechanics Skill for their thievery Test. 
 
-> Anothery thievery example. Let's assume a PC is trying to quickly unlock a door using their [Thievery](#thievery-agiawar), because they're being chased by guards and desperately need to get away. They could argue to fork their [Stealth](#stealth-agiawar) Skill into the test, but ultimately, what use is stealth when you've already been detected? Unless you can make yourself *unseen* somehow, the GM should rule that stealth cannot apply in that situation. 
+> Anothery thievery example. Let's assume a PC is trying to quickly unlock a door using their [Thievery](#thievery-agiawar), because they're being chased by guards and desperately need to get away. They could argue to fork their [Stealth](#stealth-agiawar) Skill into the Test, but ultimately, what use is stealth when you've already been detected? Unless you can make yourself *unseen* somehow, the GM should rule that stealth cannot apply in that situation. 
 
 #### Learning Skills
-Whenever asked to test a Skill a PC does not yet *know*, it will be added or progressed and noted as a *Learning Skill*. A Learning Skill can only be tested with its Base Attributes. A Skill is considered *known* when its Raw Level is at least `1`. Inversely, a Level `0` Skill is a *Learning Skill*. 
+Whenever asked to Test a Skill a PC does not yet *know*, it will be added or progressed and noted as a *Learning Skill*. A Learning Skill can only be Tested with its Base Attributes. A Skill is considered *known* when its Raw Level is at least `1`. Inversely, a Level `0` Skill is a *Learning Skill*. 
 
-> A player is asked to test their Character's [Cooking](#cooking-awarwit) at Ob `2`. Their Character lacks that Skill and thus adds it at Level `0` and marks it as a Learning Skill. Assuming their Character has the corresponding Base Attributes at Level `2` and `3`, they get to roll `2 + 3 = 5D6`. 
+> A player is asked to Test their Character's [Cooking](#cooking-awarwit) at Ob `2`. Their Character lacks that Skill and thus adds it at Level `0` and marks it as a Learning Skill. Assuming their Character has the corresponding Base Attributes at Level `2` and `3`, they get to roll `2 + 3 = 5D6`. 
 
 [Forking](#skill-forking) Learning Skills into other [Tests](#tests) is **not** allowed. But Forking *into* [Tests](#tests) of Learning Skills **is** allowed. 
 
@@ -958,7 +945,7 @@ Every Expertise can have the following properties:
 * One or more Damage values of a specified [Damage Type](#damage-types). 
   * When successfully used, damage can be applied to the [HP](#hit-points-hp) of one or more targets. 
   * Damage can be noted either as a *flat* value, or a formula, which may involve dice rolls for variable damage. E. g. `3D4 + 5`. 
-  * The **primary damage** is that damage of an attack which is the highest, before any modifications are applied to it. For example, if by default a weapon deals `1D8 slashing + 1D4 bludgeoning`, then the slashing damage is considered its primary damage. 
+  * The **primary damage** is that damage of an attack which is the highest, before any modifications are applied to it. For example, if by default a weapon deals `8 Slashing + 4 Bludgeoning`, then the Slashing damage is considered its primary damage. 
 
 * A **passive** Expertise is always active, when certain conditions are met. 
 * A Reaction Expertise either automatically or optionally activates when certain conditions are met. If the reaction is not automatic, you may *choose* to activate it, or abstain from its use. 
@@ -975,7 +962,7 @@ See also [Momentum](#momentum).
 A **Concentration** Skill or Expertise upholds its effect(s) once successfully enacted, for as long as the user desires or is conscious. Under normal circumstances, a Character may only have one active Concentration effect at a time. On such Skills and Expertises "Concentration" will be noted. 
 
 ### Languages
-Characters know languages that allow them to communicate. Each language a Character knows is graded and may optionally also allow reading and writing in it. Outside of mundane, every-day communication, when a Character tries to understand more advanced speech or writing in a given language, they may roll a [Test](#tests) for it. For the test, your number of dice is composed of your Wit, times two, summed with the number of bonus dice your degree of proficiency allows. 
+Characters know languages that allow them to communicate. Each language a Character knows is graded and may optionally also allow reading and writing in it. Outside of mundane, every-day communication, when a Character tries to understand more advanced speech or writing in a given language, they may roll a [Test](#tests) for it. For the Test, your number of dice is composed of your Wit, times two, summed with the number of bonus dice your degree of proficiency allows. 
 
 | Grade      | Bonus Test Dice | Description    |
 | ---------- | --------------- | -------------- |
@@ -983,12 +970,12 @@ Characters know languages that allow them to communicate. Each language a Charac
 | Proficient | `+3`            | Only the more obscure words and archaic grammar cause you difficulty. |
 | Native     | `+5`            | Near perfect knowledge of the language allows you to understand almost everything. Only the most obscure and archaic words and phrasings may cause you pause. |
 
-> A Character with Wit `3`, who is a Native speaker, tries understand some ancient lore written in their language. They get to roll `(3 (from Wit) * 2) + 5 (from Native language grade) = 11` dice for the test. The Ob will be chosen by the GM, based on _just how ancient and obscure_ the text is, meaning, how difficult to read it is. 
+> A Character with Wit `3`, who is a Native speaker, tries understand some ancient lore written in their language. They get to roll `(3 (from Wit) * 2) + 5 (from Native language grade) = 11` dice for the Test. The Ob will be chosen by the GM, based on _just how ancient and obscure_ the text is, meaning, how difficult to read it is. 
 
 Languages may be learned. Treat this like a [Research Project](#research-projects), with a PI of `25`, TI of `1 day`, but instead of a Project Skill, use your [Wit](#wit-wit) to add progress. The achieved Q equals the language grade, up to a maximum of `3`. So, effectively, Q `1` results in a Dabbling, `2` in a Proficient and `3` in a Native language grade. There is no grade past Proficient. 
 
 ### Advancement
-Through [Tests](#tests), Characters learn and improve. For every [Test](#tests), `+1` [XP](#experience-points-xp) is earned. If testing a Skill, then *additionally*, the advancement progress of that Skill is incremented by `+1`. 
+Through [Tests](#tests), Characters learn and improve. For every [Test](#tests), `+1` [XP](#experience-points-xp) is earned. If Testing a Skill, then *additionally*, the advancement progress of that Skill is incremented by `+1`. 
 
 Note that *Level* in this and section and its sub-sections refers to the [Raw Level](#raw-vs-modified-level). Whenever advancement thresholds are concerned, then always assume them to be based on the [Raw Level](#raw-vs-modified-level).
 
@@ -1066,7 +1053,7 @@ A Trait is an entirely passive characteristic, that may grant access to unique a
 
 Traits may be inherent to a Character, based on their ancestry and background, may be awarded by Skills, purchased from the [list of Traits](#list-of-traits) or awarded through events in the story.
 
-Unlike [Skills](#skills), it is **not possible** to test Traits. 
+Unlike [Skills](#skills), it is **not possible** to Test Traits. 
 
 #### Titles of Renown
 As the PCs adventure, they are bound to eventually achieve great and terrible things. When they do, they may be rewarded with a **Title of Renown**, which, as a Trait, can award them certain [Boons And Penalties](#boons--penalties). All Titles of Renown are granted by the GM, when they deem it deserved. 
@@ -1100,7 +1087,7 @@ It is the GM's job to present the PCs with conflicts that will challenge their P
 
 By playing their Character either in accordance with their Personality, or by dramatically breaking with it, players can earn a meta-currency called [Fate Points](#fate-points). With this meta-currency, they can buy [Fate-Cards](#hand-of-fate), which are powerful meta-abilities that may help shift the odds in a tough situation. 
 
-Of course, [NPCs](#non-player-character-npc) have a Personality, too. But unlike PCs, this is not cemented through rules and they **cannot** earn [Fate Points](#fate-points). 
+Of course, [NPCs](#non-player-character-npc) have a Personality, too. But unlike PCs, this is not cemented through rules and they **cannot** earn Fate Points. 
 
 ### Ambition
 Every PC must have one Ambition - a life-fulfilling long-term goal to pursue. This can be anything from "found a family" to "become king of the world!". No matter how unrealistic, an Ambition is a primary driver for a Character, to guide them onward. The important part is to think *big* and include some sort of "call for adventure". Something easily achievable would make for a dull Ambition and defeat the point of it. An ideal Ambition draws your Character out of their comfort zone and safe space, imbuing them with a willingness to leave home and go out into the world! 
@@ -1162,7 +1149,7 @@ Reactions are expected to change whenever a Character (decides) to act against t
 ### Personality Traits
 Every PC has several values that help inform their player what their Character is like - how they act. 
 
-This personality is codified by the following matrix. Each row is a scale, with two opposing traits. Whenever A trait reaches the "signature" column, a PC is *known* for that trait! In fact, they can hardly *not* act that way! In order for behaviour to deviate from a signature trait, a [Self-Control](#self-control-toughtough) test at Ob `2` or half of of its Raw Level (RU) - take the higher number - must be made. Only if it is a **success**, can the player choose to deviate from the signature trait's dictated behavior. 
+This personality is codified by the following matrix. Each row is a scale, with two opposing traits. Whenever A trait reaches the "signature" column, a PC is *known* for that trait! In fact, they can hardly *not* act that way! In order for behaviour to deviate from a signature trait, a [Self-Control](#self-control-toughtough) Test at Ob `2` or half of of its Raw Level (RU) - take the higher number - must be made. Only if it is a **success**, can the player choose to deviate from the signature trait's dictated behavior. 
 
 Whenever PCs very strongly act in a certain way, their value in a Personality Trait may change. Take note during play, how the Characters have acted. After the session, discuss whether any of the PCs have shown a very strong drift towards either side of the scale. And if everyone agrees, a personality change is in order!
 
@@ -1203,7 +1190,7 @@ Whenever a `10` HP segment threshold is reached, an [Injury](#injury) *may* be s
 See the [Toughness](#toughness-tough) Attribute to determine the Maximum HP. Also, the Maximum HP cannot be reduced to less than `10`, for any reason. 
 
 #### Recovering HP
-A [Graduated](#graduated-test) [Medicine](#medicine-agiwit) test can restore `hits * D8` HP, up to the current maximum. This test requires and consumes one unit of [Medical Supplies](#general-assets)! 
+A [Graduated](#graduated-test) [Medicine](#medicine-agiwit) Test can restore `hits * D8` HP, up to the current maximum. This Test requires and consumes one unit of [Medical Supplies](#general-assets)! 
 
 > For `3` hits out of `7` rolled dice, a medic can restore `3D8` HP for themselves or an ally. 
 
@@ -1220,13 +1207,13 @@ When a Character is **bludgeoned** to `0` [HP](#hit-points-hp), they might survi
 ### Injury
 An **Injury** is a serious health impediment of a Character. It reduces the maximum [HP](#hit-points-hp) and imposes other [Penalties](#boons--penalties), such as temporary reductions to [Attributes](#attributes).
 
-Whenever a Character loses a `10` [HP](#hit-points-hp) segment, they *may* suffer an Injury, if they fail to **shrug it off**. Note that **does not** require `10+` damage dealt in a single stroke! In fact, even just losing `1` HP can cause an Injury, if it happens to take HP below a segment of `10`, for example from `40` down to `39`. At most `2` Injuries can be suffered from a single source of damage. 
+Whenever a Character loses a `10` [HP](#hit-points-hp) segment, they *may* suffer an Injury, if they fail to **shrug it off**. Note this **does not** require `10+` damage dealt in a single stroke! In fact, even just losing `1` HP can cause an Injury, if it happens to take HP below a segment of `10`, for example from `40` down to `39`. At most `2` Injuries can be suffered from a single instance of damage. 
 
 > For example, someone unfortunate enough to suffer `30+` points of damage in a single attack need only fear suffering at most `2` Injuries from it. 
 
 Note that only PCs may shrug off Injuries. NPCs simply suffer Injuries, no shrug-offs are rolled. 
 
-To shrug off an Injury, they must succeed a [Toughness](#toughness-tough) test with Ob at `N + 1`, where *N* is the number of successful Shrug-Offs, so far. 
+To shrug off an Injury, they must succeed a [Toughness](#toughness-tough) Test with Ob at `N + 1`, where *N* is the number of successful Shrug-Offs, so far. 
 * If they succeed, they suffer no Injury! They must note this success, as every time an Injury is shrugged off, it becomes `+1` Ob harder to shrug off the next! 
 * If failed, they suffer an Injury! See [Suffering An Injury](#suffering-an-injury), below. Also, a PC earns a [Grit Point](#grit-points). 
 
@@ -1234,7 +1221,7 @@ For every rest of at least six uninterrupted hours, the Shrug-Off counter is red
 
 > A PC with `23` HP, has just suffered `4` points of damage, bringing them down to `19` HP. They should now suffer an Injury, if they fail to shrug it off. They have already successfully shrugged off an Injury once before. 
 >
-> Thus, their Ob for their Toughness test is `1 (from an earlier shrugged off Injury) + 1 (always) = 2`. 
+> Thus, their Ob for their Toughness Test is `1 (from an earlier shrugged off Injury) + 1 (always) = 2`. 
 
 For every Injury incurred, a Character's [Maximum Hp](#hit-points-hp) are reduced by `-10`! A penalty to [Toughness](#toughness-tough) from an Injury **does not** further reduce the [Maximum Hp](#hit-points-hp)! Only by treating and fully healing an Injury, is its [Maximum Hp](#hit-points-hp) penalty removed, along with the Injury. A treated Injury still applies the [Maximum Hp](#hit-points-hp) penalty!
 
@@ -1265,13 +1252,13 @@ There are two possible states of an Injury: **Active** or **Treated**.
 
 An Injury **must** be treated, if it is to begin healing. There are two ways to treat an Injury:
 1. Through use of a treatment Skill, as dictated by the Damage Type that caused the Injury. See the [Injury & Damage Type Table](#injury--damage-type-table) below. The injured Character or another Character may attempt this treatment. 
-2. The injured Character may do a test of their [Toughness](#toughness-tough), against the treatment Ob, however, this test is `+1` Ob harder. 
+2. The injured Character may do a Test of their [Toughness](#toughness-tough), against the treatment Ob, however, this Test is `+1` Ob harder. 
 
 The treatment Ob is determined once, by a `D4` roll. 
 
 Only one treatment attempt may be made every `24` hours on a per-Character basis. **Every** treatment attempt costs `1` [Medical Supplies](#general-assets). 
 
-A `2D10 + 10` roll determines the number of **days** the Injury takes to fully heal, once treated. Every `24` hours the time left to heal is reduced by `-1` day. A Treated Injury can be treated again, once every `24` hours, reducing the time left to heal by `-2` days, every time the treatment test is successful. However, failing the treatment test increases the time by `+1` day. 
+A `2D10 + 10` roll determines the number of **days** the Injury takes to fully heal, once treated. Every `24` hours the time left to heal is reduced by `-1` day. A Treated Injury can be treated again, once every `24` hours, reducing the time left to heal by `-2` days, every time the treatment Test is successful. However, failing the treatment Test increases the time by `+1` day. 
 
 #### Injury & Damage Type Table
 
@@ -1427,9 +1414,9 @@ How much [Luggage](#luggage) a Character can comfortably have on them, is determ
 A Character's Carrying Capacity is determined by their [Strength](#strength-str). For each point in this Attribute, a Character raises their Carrying Capacity by `3`. 
 
 #### Overweight
-A Character *may* carry more than their [Carrying Capacity](#carrying-capacity) comfortably allows, *if* they succeed a [Strength](#strength-str) test, once every `6` hours. The Ob is equal to the number of increments of `3` of Bulk that they're over their limit. If they fail, they must drop some of their [Luggage](#luggage). If they succeed, they may proceed, but suffer a penalty of `-1D` to all [Tests](#tests) (except the [Strength](#strength-str) test) for every `3` Bulk increment over the limit. 
+A Character *may* carry more than their [Carrying Capacity](#carrying-capacity) comfortably allows, *if* they succeed a [Strength](#strength-str) Test, once every `6` hours. The Ob is equal to the number of increments of `3` of Bulk that they're over their limit. If they fail, they must drop some of their [Luggage](#luggage). If they succeed, they may proceed, but suffer a penalty of `-1D` to all [Tests](#tests) (except the [Strength](#strength-str) Test) for every `3` Bulk increment over the limit. 
 
-> A Character with a Carrying Capacity of `6` and currently with `5` Bulk in their Luggage, tries to pick up a Bulk `5` Asset. This brings them to a current Bulk of `10` in their luggage, which is `4` points over their limit. This represents two increments of 3. Thus they must succeed a [Strength](#strength-str) at Ob `2` and suffer `-2D` to all Tests (except *this* [Strength](#strength-str) test). 
+> A Character with a Carrying Capacity of `6` and currently with `5` Bulk in their Luggage, tries to pick up a Bulk `5` Asset. This brings them to a current Bulk of `10` in their luggage, which is `4` points over their limit. This represents two increments of 3. Thus they must succeed a [Strength](#strength-str) at Ob `2` and suffer `-2D` to all Tests (except *this* [Strength](#strength-str) Test). 
 
 ### Property
 Often times, Characters will also own things they don't currently have on their person, or which they couldn't reasonably carry on person. 
@@ -1489,12 +1476,12 @@ There are no limits to how many of a given card a player can own, but they may o
 
 | Cost    | Name                | Effect             |
 | ------- | ------------------- | ------------------ |
-| 2 MiFP  | Single Re-Roll      | Repeat a single test you just made. |
+| 2 MiFP  | Single Re-Roll      | Repeat a single Test you just made. |
 | 6 MiFP  | Clotter             | One Active [Injury](#injury) of choice is now Treated. |
-| 8 MiFP  | Cascading Re-Roll   | Repeat a single test you just made. With this card, you keep any Hits you achieved from the previously made test and add them to the Hits rolled when you repeat the test. This also doubles your Hit Limit. Exclusive with "Double the Fun". |
-| 8 MiFP  | Learning Boost      | For the duration of the session, you gain **twice** the [Progress](#advancing-skills) towards your [Skills](#skills) and twice the [XP](#experience-points-xp) every test. |
+| 8 MiFP  | Cascading Re-Roll   | Repeat a single Test you just made. With this card, you keep any Hits you achieved from the previously made Test and add them to the Hits rolled when you repeat the Test. This also doubles your Hit Limit. Exclusive with "Double the Fun". |
+| 8 MiFP  | Learning Boost      | For the duration of the session, you gain **twice** the [Progress](#advancing-skills) towards your [Skills](#skills) and twice the [XP](#experience-points-xp) every Test. |
 | 8 MiFP  | Hastened            | `+1` AP during your Turns for the entirety of a [Combat](#combat) encounter. |
-| 3 MaFP  | Double the Fun      | Double the number of dice to roll on your next/current test and every rolled Hit counts double - which means every rolled Hit actually counts as `2` Hits! This also doubles your Hit Limit. Exclusive with "Cascading Re-Roll". |
+| 3 MaFP  | Double the Fun      | Double the number of dice to roll on your next/current Test and every rolled Hit counts double - which means every rolled Hit actually counts as `2` Hits! This also doubles your Hit Limit. Exclusive with "Cascading Re-Roll". |
 | 5 MaFP  | Fact Check          | Change a minor plot point in a way you prefer. Work with your GM to make sure it fits the narrative, but they should respect your wish. This could be something like avoiding an NPC death or changing a fact about the plot. |
 | 5 MaFP  | Just a Flesh Wound  | Avoid or remove an [Injury](#injury)! |
 | 1 AFP   | Defy Death          | Return from the dead, remove `1` Active [Injury](#injury) of choice and be at `1` HP; Alternatively, avoid a narratively-driven death. The GM will decide the Character's alternative fate. They could be captured, very badly injured or become indebted to someone or something. Note that this card can only be played *after* the Character lost their [battle with death](#deaths-door). |
@@ -1546,7 +1533,7 @@ This is the point in time when a health [Condition](#condition)'s effects (such 
 A Tick always occurs for a Character, even when skipping their Turn. 
 
 ## Down-Time
-When not currently dealing with events on a detailed level - there and in the moment - PC's can spend their time on a more abstract level. This applies especially to activities that take greater amounts of time, such as recovering from Injuries, travel, engaging in their trade, honing their [Skill](#skills) and so on. 
+When not currently dealing with events on a detailed level - there and in the moment - PC's can spend their time on a more abstract level. This applies especially to activities that take greater amounts of time, such as recovering from Injuries, travel, engaging in their trade, honing their [Skill](#skills) and such. 
 
 ### Crafting & Research Projects
 <img src="../../img/crafting.svg" style="width: 3rem; height: 3rem;"></img>
@@ -1565,20 +1552,20 @@ Every Project has a **Progress Increment** and a **Time Increment**. The Progres
 
 Initially, your Project will begin with **Quality Level** `1`. Every time you arrive at the current total required progress, you must make a choice. **Finish** the Project and accept its current Quality Level, or **push on**. 
 
-If you push on, the total required progress of your Project is increased by another Progress Increment and your current progress is reset to `0`, but you also give yourself a chance to further improve the resulting Quality Level. After you have decided to push on, the next time you arrive at full progress, a **test of your Project Skill** is required of you. The Ob is `N + 1`, where *N* is the current number of times you have already pushed on. And of course, for your Project Skill test, you may [Fork](#skill-forking) and accept [Help](#providing-assistance)! If you succeed the test, the resulting Quality Level of your Project increases by `+1`. But if you fail, it loses `-1` Quality Level, *unless* you accept a random **Complication** instead, see [Complications](#complications). If you accept a Complication, the Project's Quality Level remains unchanged. You neither lose, nor gain a Quality Level. Note that if you accept the Quality loss, the Quality Level cannot be reduced to less than `1`. 
+If you push on, the total required progress of your Project is increased by another Progress Increment and your current progress is reset to `0`, but you also give yourself a chance to further improve the resulting Quality Level. After you have decided to push on, the next time you arrive at full progress, a **Test of your Project Skill** is required of you. The Ob is `N + 1`, where *N* is the current number of times you have already pushed on. And of course, for your Project Skill Test, you may [Fork](#skill-forking) and accept [Help](#providing-assistance)! If you succeed the Test, the resulting Quality Level of your Project increases by `+1`. But if you fail, it loses `-1` Quality Level, *unless* you accept a random **Complication** instead, see [Complications](#project-complications). If you accept a Complication, the Project's Quality Level remains unchanged. You neither lose, nor gain a Quality Level. Note that if you accept the Quality loss, the Quality Level cannot be reduced to less than `1`. 
 
 You can continue this cycle any number of times, but if you **fail twice in succession**, your Project is **botched**. You lose all resources and all progress towards it. This is a critical blunder. 
 
 When you push on, the GM may choose to employ a [Project Event](#project-events), possibly even instead of a Complication. Project Events should be an occasional occurrence at best, employed only for long-lasting and significant Projects, to shake things up a bit when appropriate. 
 
-#### Complications
+#### Project Complications
 When accepting a random Complication for a Project, roll for one of the results from the table below.
 
 | D4 | Complication |
 | -- | ------------ |
 | 1  | **Blockade**: you realize you need to fulfill another prerequisite to continue your work. Consult your GM. |
 | 2  | **Drawback**: once finished, the result of your Project will contain a drawback. E. g. it might not work reliably, require more fuel, take longer to use, be so complicated only an expert can use it or only works in conjunction with another highly specific thing. Consult your GM. |
-| 3  | **Overthinking it**: from now on, the Progress Increment increases by another `10` points! |
+| 3  | **Overthinking it**: from now on, every time you push on, the Progress Increment increases by another `10` points! |
 | 4  | **Work-Accident**: in a moment of carelessness, you hurt yourself accidentally. You suffer an [Injury](#injury)! Consult your GM to determine which. |
 
 #### Quality Level Reference
@@ -1589,36 +1576,36 @@ And how much is a Quality Level worth? This will ultimately be up to the GM to e
 | 1 - 2         | A simple and plain product. It has a simple function, nothing more. Its potency is lacking. Made by a beginner. |
 | 3 - 4         | A slightly decorated or just well made product. It fulfills its function and is ergonomic. It is moderately potent. A routine work. |
 | 5 - 6         | A well made and decorated product, potent and respectable. An adept's care flowed into this. |
-| 7 - 8         | An expertly made product. Highly potent, potentially with multiple functions. An expert's work. |
-| 9+            | A legendary product. Its potency and function may even be fantastical - something never before seen! A true master of their craft spent all their expertise and time on it. |
+| 7 - 8         | An exceptionally well made product. Highly potent, potentially with multiple functions. An expert's work. |
+| 9+            | A legendary product. Its potency and function may even be fantastical - something never before seen! A true master of their craft made this. |
 
 #### Project Boosters
-During their adventures, or while perusing the market or library, PCs may find things that can boost the progress of their Project. These **Project Boosters** can be varied - schematics, specialized tools, a rare artefact, advice from a knowledgeable NPC, and so on. 
+During their adventures, or while perusing the market or library, PCs may find things that can boost the progress of their Project. These **Project Boosters** can be varied - schematics, specialized tools, a rare artefact, advice from a knowledgeable NPC, and so on. But they always either increase the Project's current Progress or Quality Level.
 
-These things can add progress to a Project or raise the base Quality Level. How much they boost the Project, will be determined by the GM. A good baseline should be that a common booster adds `+10`, a rare adds `+30` and an enigmatic adds `+60`. But of course, these numbers are only suggestions. Boosters that increase base Quality Level should be very rare and most valuable. Acquiring them should be an adventure of its own, or the reward for great deeds well performed. 
+These things can add progress to a Project or raise the base Quality Level. How much they boost the Project, will be determined by the GM. A good baseline should be that a common Project Boosters adds `+10`, a rare adds `+30` and an enigmatic adds `+60`. But of course, these numbers are only suggestions. Project Boosters that increase base Quality Level should be very rare and most valuable. Acquiring them should be an adventure of its own, or the reward for great deeds well performed. 
 
 Typically, Project Boosters are one-time use. Once they have been used to add progress to the Project, they cannot be used again. However, this is not a hard-set rule. Some things, like a magic cauldron or high-tech lab equipment may of course be used again, provided no narrative reasons forbid it. 
 
 #### Crafting It Again
-Whenever a crafting or [Invention](#invention-projects) Project is finished, its product becomes the **recipe** for further crafts of **identical products**. If you wish to craft the same product again, at the same Quality Level and with any complications it possibly has, you need no longer roll Project Skill Tests. You now *know* how to make the thing, in that Quality. 
+Whenever a crafting or [Invention](#invention-projects) Project is finished, its product becomes the **Recipe** for further crafts of **identical products**. If you wish to craft the same product again, at the same Quality Level and with any complications it possibly has, you need no longer roll Project Skill Tests. You now *know* how to make the thing, in that Quality. 
 
 But you will still need to spend time on it. Multiply the Quality Level of the recipe product with the Progress Increment it originally had. That is the total Progress to achieve for that product. When finished, your new product will have the same Quality Level and Complications as the original.
 
 But you may also decide you can do better. You may begin your Project again, at the original's Quality Level, *minus* its number of Complications. The resulting Quality Level will also be used as the basis to multiply the Progress Increments with. Once the total required progress is reached again, you need to roll for Project Skill Tests, as normal. In this case, the base Ob will be the new Quality Level, plus one. At this point, you go back to the normal rules for [progressing a Project](#progressing-a-project). 
 
-> A product with a Quality Level of `3` and one complication would begin at Quality Level `2`, but no Complications! Assuming its Progress Increment is `10`, then multiplying that with the new starting Quality of `2`, yields an initial total required Progress of `20`. Once that progress is reached, a Project Skill test is required, at Ob `2 (the new Quality Level) + 1 (always) = 3`. If successful, the new Quality Level is `3`!
+> A product with a Quality Level of `3` and one complication would begin at Quality Level `2`, but no Complications! Assuming its Progress Increment is `10`, then multiplying that with the new starting Quality of `2`, yields an initial total required Progress of `20`. Once that progress is reached, a Project Skill Test is required, at Ob `2 (the new Quality Level) + 1 (always) = 3`. If successful, the new Quality Level is `3`!
 
 ##### Crafting It In Bulk
-For every **recipe** that you know, you may also decide to craft the same product in bulk. This is very efficient method to create more products of the same kind, in less time than individual crafts. For each additional instance of the product you wish to create, with the same crafting Project, will add half (RU) of the Progress Increment. 
+For every Recipe that you know, you may also decide to craft the same product in bulk. This is very efficient method to create more products of the same kind, in less time than individual crafts. For each additional instance of the product you wish to create, with the same crafting Project, will add half (RU) of the Progress Increment. 
 
 > Given you have a recipe for a product with Quality Level `3` and a Progress Increment of `10` and you want to make `5` instances of this same product, then the first instance of the product sets the initial required total progress at `3 (Quality) * 10 (Progress Increment) = 30`. Each of the `4` *additional* instances of the product now add `5` points of required progress. So, for all `5` instances of the product to be finished, the final total progress is `30 + (4 * 5) = 50`. This is much faster, than creating those `5` instances individually, as that *would* take `5 * 30 = 150` points of total required progress!
 
 #### Research Projects
-A Project can be about the research of knowledge, but not about mundane every-day things. You must visit various libraries, study dusty old tomes or comb countless digital archives, go on archeological digs and so forth. This is a task requiring substantial effort. 
+A Project can be about the research of knowledge, but not about mundane every-day things. You must visit various libraries, study dusty old tomes or comb countless digital archives, go on archeological digs and question other scholars. This is a task requiring substantial effort. 
 
 For all Research Projects, the Progress Increment is `25` and the Time Increment is `6` Hours. The Quality Level you achieve in the end dictates the degree of knowledge you learned about your subject. You may always try to gain even deeper understanding of your topic, by researching the same subject matter again. Your previous knowledge will accelerate further studies by the listed **Progress Bonus**, every time you gain a Progress Increment.
 
-As a prerequisite to begin your studies, you must have access to the number of research objects as listed below. This can be anything, from old scrolls to data sticks, from shattered pieces of ancient machinery to intact but completely alien devices and of course NPCs who hold knowledge they might be willing to share. 
+As a prerequisite to begin your studies, you must have access to the number of research objects as listed below. This can be anything, from old scrolls to data sticks, from shattered pieces of ancient machinery to intact but completely alien devices and even NPCs who hold knowledge they might be willing to share. 
 
 | Obscurity   | Quality Level | Progress Bonus | Research Objects | Description | 
 | ----------- | ------------- | -------------- | ---------------- | ----------- | 
@@ -1630,7 +1617,7 @@ As a prerequisite to begin your studies, you must have access to the number of r
 When you finish the research Project, you'll have the answers you seek and may gain the title "Loremaster of *X* (degree)", where you replace *X* with the subject you researched and *degree* with the Quality Level. 
 
 #### Invention Projects
-A Project can be about the invention of completely unique and new [Assets](#assets). Describe your idea to the GM, who will determine how feasible your idea is. If it seems reasonable, they will also estimate the  Progress Increment (see [Complexity to Progress Increments](#complexity-to-progress-increments)) and Time Increment (see [Workload to Time Increments](#workload-to-time-increments)). 
+A Project can be about the invention of completely unique and new [Assets](#assets). Describe your idea to the GM, who will determine how feasible your idea is. If it seems reasonable, they will also estimate the Progress Increment (see [Complexity to Progress Increments](#complexity-to-progress-increments)) and Time Increment (see [Workload to Time Increments](#workload-to-time-increments)). 
 
 As a difference to regular Projects, whenever you choose to push on, you may also get a less effective prototype of your invention, if you score a hit on a single `D6` roll, at the GM's discretion. Your prototype receives the Project's current Quality Level. 
 
@@ -1668,18 +1655,18 @@ Project Events are random events that may occur during long-lasting, significant
 | 9    | The PC is overcome with a burst of inspiration! They instantly gain `+15` points of progress! This causes them to work feverishly, neglecting their own well-being. They start the next scenario with `+2` [Exhaustion](#exhaustion)! |
 | 10   | A group of NPCs appear and demand the Project be stopped! Out of superstition or fear, they don't want the PC to succeed. Can they be pacified? |
 | 11   | A NPC who the PC helped in the past appears, offering to help on the Project. Surprisingly, they know exactly what to do, boosting the Project by `+10` points of progress. |
-| 12   | After so much time on the Project, the PC digs themself into a hole, mentally. They can no longer make sense of their own work and someone else has to help them regain their footing in the Project. The helper needs to make the next Project Skill test. |
+| 12   | After so much time on the Project, the PC digs themself into a hole, mentally. They can no longer make sense of their own work and someone else has to help them regain their footing in the Project. The helper needs to make the next Project Skill Test. |
 
 ### Trade
 Selling and buying things can take a surprising amount of time. If prices are too high and demand or reputation too low, chances are, you won't be able to sell your goods. But even when people do show interest in your wares, you still have to *sell it* to them. An uncharismatic merchant will have a difficult time making a pretty profit, regardless of the quality of their goods. On the other hand, buying things may prove equally difficult, when what you're looking for isn't really available. 
 
-For trade, there is really only one [Skill](#skills) - the [Mercantilism](#mercantilism-awarwit) Skill. Using this [Skill](#skills) requires a [Graduated Test](#graduated-test) with an Ob threshold to be made. The Degree Of Success factors into getting a better price.
+For trade, there is really only the [Mercantilism](#mercantilism-awarwit) [Skill](#skills). Using this Skill requires a [Graduated Test](#graduated-test) with an Ob threshold to be made. The Degree Of Success factors into getting a better price.
 
-The number of dice in play for a [Graduated Test](#graduated-test) of this Skill determine both the chance to successfully trade something and the time it takes to trade it. It is the GM's duty to determine demand and supply of the thing being sold on the market, as well as how well known the PC is as a reputable trader. A low demand, coupled with a low reputation as a trader, should result in a high Ob for the test (such as a `4` or even `5`). On the other hand, if demand is high, reputation might not matter much and result in a much lower Ob. 
+The number of dice in play for a [Graduated Test](#graduated-test) of this Skill determine both the chance to successfully trade something and the time it takes to trade it. It is the GM's duty to determine demand and supply of the thing being sold on the market, as well as how well known the PC is as a reputable trader. A low demand, coupled with a low reputation as a trader, should result in a high Ob for the Test (such as a `4` or even `5`). On the other hand, if demand is high, reputation might not matter much and result in a much lower Ob. 
 
 It is possible to roll with fewer dice, than would be available for the [Graduated Test](#graduated-test). [Forked Skills](#skill-forking) can also provide a die each, but note that *every* die, including those from [Forked Skills](#skill-forking), increase the time required. The number of Hits and Misses achieved has no effect on the time taken. Merely the *number* of dice that were rolled matters. 
 
-To get an ear on the ground and figure out what the local market is like, a Character can spend time to walk around, talk to people, ask for prices of common goods and get a feel for the wealth of the local populace. How long that will take, depends on circumstance, of course. The more technologically advanced a society is, the less time it will take to figure out the market's condition. 
+To get an ear on the ground and figure out what the local market is like, a Character can spend time to walk around, talk to people, ask for prices of common goods and get a feel for the wealth of the local populace. 
 
 #### Seller's Chart
 The following matrix provides an overview of how long it may take to sell things on the market. Note that the GM has the final say on how long it will actually take and on how difficult it will be. 
@@ -1707,29 +1694,23 @@ The supply is assumed to be relative to the demand. The more something is in dem
 | **High**      | 6 Days <br> Ob 2 <br> 110%     | 8 Hours <br> Ob 3 <br> 120%  | 10 Hours <br> Ob 4 <br> 130%  | 12 Hours <br> Ob 5 <br> 140% | 
 | **Very High** | 30 Minutes <br> Ob 3 <br> 140% | 1 Hour  <br> Ob 4 <br> 160%  | 2 Hours <br> Ob 5 <br> 180%   | 4 Hours <br> Ob 6 <br> 200%  | 
 
-### Recovery
-When [Injured](#injury), a Character should prepare to spend time away from adventure for a while. Since the process of healing can take several weeks, this time is best handled abstractly with the other PCs going about their business during the same time. 
-
-### Training
-When not busy with work and adventure, PCs may train, in order to passively improve their [Attributes](#practicing-attributes) or [Skills](#practice). This time is usually best handled abstractly, by not playing out the details of the training. 
-
 ## Resting
 All creatures that can be tired, require sleep. Some [Conditions](#condition) can only be cleared by resting. A **Full Rest** requires at least `6` uninterrupted hours of *active resting*. That implies not doing anything besides sleeping or meditating. Anything less than a Full Rest is a **Partial Rest**. 
 
-An interruption of a Full Rest is any break in the rest, when a Character is forced to do something physically or mentally taxing that keeps them from sleep. If in doubt - a test is almost always going to be taxing in some way.
+An interruption of a Full Rest is any break in the rest, when a Character is forced to do something physically or mentally taxing that keeps them from sleep. If in doubt - a Test is almost always going to be taxing in some way.
 
-Whenever resting in an **unsafe environment**, such as out in the wild or on a city's streets, animals, bandits or monsters - given the setting and narrative allow for it - might surprise the resting Character(s). Therefore, it is advisable to set up a watch. But be careful - the Characters on watch could fall asleep during their vigil! To determine whether they fall asleep, they must test their [Self-Control](#self-control-toughtough) once, at the beginning of their watch. The Ob is equal to their current level of Exhaustion, `+1` for every `2` hours they need to stay awake for. If multiple Characters stay up for the watch at the same time, they can help each other stay awake, reducing the Ob by `-1` for each who stay awake. The Ob to stay awake can never be reduced to less than `1`. 
+Whenever resting in an **unsafe environment**, such as out in the wild or on a city's streets, animals, bandits or monsters - given the setting and narrative allow for it - might surprise the resting Character(s). Therefore, it is advisable to set up a watch. But be careful - the Characters on watch could fall asleep during their vigil! To determine whether they fall asleep, they must Test their [Self-Control](#self-control-toughtough) once, at the beginning of their watch. The Ob is equal to their current level of Exhaustion, `+1` for every `3` hour increment they need to stay awake for. If multiple Characters stay up for the watch at the same time, they can help each other stay awake, reducing the Ob by `-1` for each who stay awake. The Ob to stay awake can never be reduced to less than `1`. 
 
-> To stand watch for a Full Rest of `6` hours, a Character would need to succeed their Self-Control test at at least Ob `3`. Should they also be exhausted already, their Ob may be even higher. 
+> To stand watch for a Full Rest of `6` hours, a Character would need to succeed their Self-Control Test at at least Ob `2`. Should they also be exhausted already, their Ob may be higher. 
 >
-> Their ally, who is also staying awake with them, decides to help them stay awake by making use of their Commanding Skill. They are a superior officer and their commands carry weight, which helps their underling ally stay awake. 
+> Their ally, who is also staying awake with them, decides to help them stay awake by making use of their Commanding Skill. They are a superior officer and their commands carry weight, which helps their underling ally stay awake, reducing the Ob to `1`. 
 
 ## Scenario-Time
 In contrast to [Down-Time](#down-time), scenario-time describes the point in the narrative when the PCs are dealing with a specific situation on a fine-grained level, where the amount of time that is spent matters. 
 
-This is especially the case in scenarios of [Combat](#combat), tense negotiation, risky exploration, survival and the like, where each individual step on the path matters as much as the path itself. 
+This is especially the case in scenarios of [Combat](#combat), tense negotiation, perilous exploration, survival and the like, where each individual step on the path matters as much as the path itself. 
 
-There is also the distinction to be made whether the order in which Characters act in matters. If it does, then the rules for [Initiative](#initiative) must be used. [Combat](#combat) is the most prominent example of such a case. 
+There is also the distinction to be made whether the order in which Characters act in matters. If it does, then the rules for [Initiative](#initiative) must be used. [Combat](#combat) is the most prominent - but not the only - example of such a case. 
 
 # Combat
 When diplomacy fails, hostilities ensue. This is when the game enters into a state that is handled very carefully. How time is *sliced* and when Characters get to act, is crucial. 
@@ -1738,11 +1719,11 @@ The steps to *prepare* for combat are as follows:
 1. Determine a [Surprise Round](#surprise-round), if required, with [Stealth](#stealth-agiawar) versus [Observation](#observation-awarawar) [Opposed Tests](#opposed-test). 
    1. Sometimes, not everyone may be immediately aware of a fight breaking out. This is usually the case when Characters cannot clearly see, hear or perhaps even smell a fight breaking out. In every other case, this step can be skipped. 
    2. Only the first Round of combat can be a [Surprise Round](#surprise-round). 
-   3. In a [Surprise Round](#surprise-round), any surprised Characters **do not** get their starting [AP](#action-points-ap), until the end of the [Surprise Round](#surprise-round). 
+   3. In a [Surprise Round](#surprise-round), any surprised Characters **do not** get their starting [AP](#action-points-ap), until the end of the [Surprise Round](#surprise-round) and they don't get a turn, either.
 3. Determine [Initiative order](#initiative). 
    1. Before any action during a combat scenario can be taken, [Initiative order](#initiative) must first be determined. 
    2. This includes *everyone*, not just the active combatants. This way, should anyone join the fight, they're easier to work into the [Initiative Order](#initiative). Or, if they stay out of the fight, it's easier to determine when they get to act out-of-combat. 
-4. Any not surprised Characters start with their initial amount of [AP](#action-points-ap). 
+4. Any non-surprised Characters start with their initial amount of [AP](#action-points-ap). 
 
 During combat, when a Character gets their Turn, they can choose to perform an action. How many actions they get to perform, depends on the [Action Points](#action-points-ap) they have available for that Turn. 
 
@@ -1770,13 +1751,13 @@ Every Turn, every Character gets `+4` **Action Points (AP)** to spend on actions
 
 At the start of a combat encounter, **all non-surprised Characters** start with `4` AP. After that, AP are only regained per-Character, upon the start of their Turn. 
 
-* Any **basic action**, that is, any action not requiring a [Test](#tests), costs `1` AP. 
+* Any **Basic Action**, that is, any action not requiring a [Test](#tests), costs `1` AP. 
   * Speaking or shouting a short phrase is free. If you want to have a proper conversation, that will cost you more AP, depending on how much you have to say, at the GM's discretion. 
-  * [Normal movement](#combat-movement) counts as a basic action. 
-  * Handing an object over to a Character adjacent to you, is a basic action (assuming you don't have to force it on them). 
+  * [Normal movement](#combat-movement) counts as a Basic Action. 
+  * Handing an object over to a Character adjacent to you, is a Basic Action (assuming you don't have to force it on them). 
   * Pulling something from your bag or getting a weapon ready (from your back, scabbard or wherever you keep it) also counts as a movement action and costs `1` AP. 
-* Any action requiring a [Test](#tests), usually costs `2` AP. 
-* [Expertises](#expertise) can cost varying amounts of AP. The exact number will be noted on the [Expertise](#expertise) in question. 
+* Any action requiring a Test, usually costs `2` AP. 
+* [Expertises](#expertise) can cost varying amounts of AP. The exact number will be noted on the Expertise in question. 
 
 ### Action Point Saving
 If a Character ends their Turn with any AP unspent, those AP will be saved up and be available as additional AP at the start of their next Turn. 
@@ -1784,27 +1765,25 @@ If a Character ends their Turn with any AP unspent, those AP will be saved up an
 However, even with saved-up AP, the maximum a Character may **begin their Turn with** remains `5`. 
 
 ## Combat Movement
-Under normal circumstances, a Character (an average human) can move up to `4` per AP spent. 
+Under normal circumstances, a Character (an average human) can move up to `4` squares per AP spent. 
 
-On **Difficult Terrain**, the distance moved per AP is half that, at `2`. Difficult Terrain is any space that slows movement, but does not prevent it outright. Examples would be waist-high water, a surface of glue or a slowing force field. 
+On **Difficult Terrain**, the distance moved per AP is half that, at `2` squares. Difficult Terrain is any space that slows movement, but does not prevent it outright. Examples would be waist-high water, a surface of glue or a slowing force field. 
 
 It is also possible to **sprint**, increasing the distance one can move per AP spent, at the cost of `1` point of [Exhaustion](#exhaustion) for every AP spent **sprinting**. The movement distance is increased by a Character's [Sprinting Speed](#sprinting-speed-sprint), per AP. 
 
 > A Character with a sprinting speed of `3` can increase their total movement distance to `7`, at the cost of `1` AP and `1` point of Exhaustion. 
 
 ### Forced Movement
-There are abilities and circumstances that can force a Character to be moved against their will. When this happens, the Character in question does not spend any [AP](#action-points-ap) on the movement, as they didn't initiate it, but they cannot stop it, either.
-
-A Character always automatically reduces the distance they are moved by an amount equal to their [Stability](#stability-stabil). 
+There are abilities and circumstances that can force a Character to be moved against their will. When this happens, the Character in question does not spend any [AP](#action-points-ap) on the movement, as they didn't initiate it. The distance they are moved is reduced by an amount equal to their [Stability](#stability-stabil). 
 
 #### Forced Collision
-If a Forced Movement forces a Character into an obstacle, then the victim suffers `N * 3` points of bludgeoning damage, where *N* is the remaining squares of movement at the time of collision. 
+If a Forced Movement forces a Character into an obstacle, then the victim suffers `N * 3` points of Bludgeoning damage, where *N* is the remaining squares of movement at the time of collision. 
 
-> A Character is thrown with enough force to move them `5` and they slam into a barrel after flying a distance of `2`. At this point, the remaining distance of `3` causes them to suffer `3 * 3 = 9` points of bludgeoning damage, as they slam into the barrel!
+> A Character is thrown with enough force to move them `5` and they slam into a barrel after flying a distance of `2`. At this point, the remaining distance of `3` causes them to suffer `3 * 3 = 9` points of Bludgeoning damage, as they slam into the barrel!
 
 If a Character slams into another when force moved, they both suffer half of the damage (RU). 
 
-#### Hurled Through The Obstacle
+#### Hurled Through An Obstacle
 An obstacle does not necessarily have to stop the unfortunate soul being thrown. Depending on the remaining distance at the time of collision, they may break or push aside the obstacle and keep going:
 * `2+` through a square of **glass**
 * `3+` through a square of **wood**
@@ -1813,26 +1792,24 @@ An obstacle does not necessarily have to stop the unfortunate soul being thrown.
 
 "A square of [...]" means there is an obstacle large enough to actually be an obstacle, like a wall, a large barrel, a column, a car and such. 
 
-At the time of collision, the Character **always** suffers the usual [Forced Collision](#forced-collision) damage of `N * 3` points of bludgeoning damage, where *N* is the remaining squares of movement at the time of collision. 
+At the time of collision, the Character **always** suffers the usual [Forced Collision](#forced-collision) damage of `N * 3` points of Bludgeoning damage, where *N* is the **remaining squares of movement** at the time of collision. 
 
 ### Gravity Hurts
-When a Character falls more than `3` squares and impacts with the ground, then they suffer `(N * 5) - Acrobatics` points of bludgeoning damage, where *N* is the number of `5` square increments that they fell and `Acrobatics` is the Character's current Level in [Acrobatics](#acrobatics-agistr).
+When a Character falls more than `3` squares and impacts with the ground, then they suffer `(N * 5) - Acrobatics` points of Bludgeoning damage, where *N* is the number of `5` square increments that they fell and `Acrobatics` is the Character's current Level in [Acrobatics](#acrobatics-agistr).
 
-> A Character falls of a suspension bridge, down a shallow ravine. They fall a distance of `11`. Upon impacting the ground, they fell `3` increments of `5` squares and will suffer `3 * 5 = 15` points of bludgeoning damage. Their Level in Acrobatics is `3`, which reduces the damage they finally suffer to `12`. 
-
-> A Character is shoved down a ditch and falls `4`. This is more than the minimum, and they will suffer `1 * 6 = 6` points of bludgeoning damage upon impact, unless they can reduce that amount with an Acrobatics test. 
+> A Character falls of a suspension bridge, down a shallow ravine. They fall a distance of `11` squares. Upon impacting the ground, they fell `3` increments of `5` squares and thus will suffer `3 * 5 = 15` points of Bludgeoning damage. Their Level in Acrobatics is `3`, which reduces the damage they finally suffer to `12`. 
 
 ### Disengage
-It is possible to move out of an enemy's [Range of Opportunity](#opportunity-attacks) without provoking an [Opportunity Attack](#opportunity-attacks). This action costs 2 [AP](#action-points-ap) and the disengaging Character **must** move in a direction that will get them out of the [Range of Opportunity](#opportunity-attacks) the fastest and safest, as far as 1 AP of movement would get them. 
+It is possible to move out of an enemy's [Range of Opportunity](#opportunity-attacks) without provoking an [Opportunity Attack](#opportunity-attacks). This action costs `2` [AP](#action-points-ap) and the disengaging Character **must** move in a direction that will get them out of the Range of Opportunity the fastest and safest, as far as `1` AP of movement would get them. 
 
-> Just because jumping off a cliff would be the fastest way out of a **Range of Opportunity**, doesn't mean this is the safest direction to go. A Character trying to disengage is trying to move safely, after all. If the safest direction is through the **Range of Opportunity**, then so be it. 
+> Just because jumping off a cliff would be the fastest way out of a Range of Opportunity, doesn't mean this is the safest direction to go. A Character trying to disengage is trying to move safely, after all. If the safest direction is through the Range of Opportunity, then so be it. 
 
-When disengaging from more than one [Range of Opportunity](#opportunity-attacks) in the same action, every additional [Range of Opportunity](#opportunity-attacks) past the first adds a cost of 1 [AP](#action-points-ap). 
+When disengaging from more than one Range of Opportunity in the same action, every additional Range of Opportunity past the first adds a cost of `1` AP. 
 
 ### Flee Combat
 When [Combat](#combat) is a decidedly bad idea, one can try to flee from it. A fleeing Character can no longer perform any *hostile actions*. That means, they can no longer attack or hinder any other Characters until the end of [Combat](#combat). 
 
-In turn for giving up their offensive capacity, they gain double their [Sprinting Speed](#sprinting-speed-sprint) per [AP](#action-points-ap) spent. Rules for [Difficult Terrain](#combat-movement) and the Exhaustion cost for sprinting still apply. 
+In turn for giving up their offensive capacity, they gain their [Sprinting Speed](#sprinting-speed-sprint) per [AP](#action-points-ap) spent, **at no Exhaustion cost**. Rules for [Difficult Terrain](#combat-movement) and the Exhaustion cost for sprinting still apply. 
 
 ### Push Through
 It is possible to **push through** a [Range of Opportunity](#opportunity-attacks), without spending any [AP](#action-points-ap), but in doing so, the [Opportunity Attack](#opportunity-attacks) is **guaranteed** to land successfully, without any attack [Test](#tests) necessary (this counts as an automatic success for the attacker). 
@@ -1860,7 +1837,7 @@ The attack roll also determines how much damage an attack will deal and how seve
 * **Masterful**: On `≥ 3` Hits. Applies the most severe damage and effects.
 
 ### Opportunity Attacks
-When a Character is within weapon's reach of another hostile Character, they're considered within the other's **Range of Opportunity**. Whenever a Character in an enemy's Range of Opportunity moves away from or more than `2` squares *around* that enemy, that enemy can *choose* to perform an **Opportunity Attack**. It is possible to avoid an Opportunity Attack with a [Disengage](#disengage) combat action. 
+When a Character is within weapon's reach of another hostile Character, they're considered within the other's Range of Opportunity. Whenever a Character in an enemy's Range of Opportunity moves away from or more than `2` squares *around* that enemy, that enemy can *choose* to perform an **Opportunity Attack**. It is possible to avoid an Opportunity Attack with a [Disengage](#disengage) combat action. 
 
 Performing an Opportunity Attack costs `-1` [AP](#action-points-ap) at a `-1D` penalty and will **halt** the enemy in question, preventing their movement, regardless of whether the attack hits. When an Opportunity Attack against them is declared, the attacked Character may choose to [Push Through](#push-through), thus getting to move after all, but if they do, the attacker instead of losing a die, gains `+1` [Compensation Point](#compensation-points) for their Opportunity Attack!
 
@@ -1906,7 +1883,7 @@ A Character without any, or not enough [AP](#action-points-ap) left to spend, **
 
 The defender must *choose* how to defend themselves, if no specific "opposed by" Skill is noted. They can use a [Weapon Skill](#weapon--weapon-type---attribute), [Acrobatics](#acrobatics-agistr) or the [Shield Skill](#shield-strtough). 
 
-Defending against [Area Of Effect](#area-of-effect) attacks costs `2` [AP](#action-points-ap) and causes the attack to deal only half (RD) damage. No test is made, simply spending the [AP](#action-points-ap) is sufficient. 
+Defending against [Area Of Effect](#area-of-effect) attacks costs `2` [AP](#action-points-ap) and causes the attack to deal only half (RD) damage. No Test is made, simply spending the [AP](#action-points-ap) is sufficient. 
 
 ### Armor & Shields
 Armor serves as life insurance, because it can negate or at least reduce the damage taken, after a Defense Test has failed. 
@@ -2006,7 +1983,7 @@ The steps to determine Ob to throw are as follows:
 1. Divide distance to throw by `5` and round up.
 2. If throwing _at_ another Character, add the Hits of the defender's Defense [Test](#tests).
 
-> A Character must succeed a test at Ob `1` for a distance of `5`. They must succeed a test at Ob `2` for a distance of `6` and a test at Ob `3` for a distance of `11`. 
+> A Character must succeed a Test at Ob `1` for a distance of `5`. They must succeed a Test at Ob `2` for a distance of `6` and a Test at Ob `3` for a distance of `11`. 
 
 > A Character is throwing their weapon at an enemy standing `8` away. The distance sets the base Ob to `2`. Additionally, the defender gets to roll their Defense Test and achieves `1` Hit. This raises the Ob to hit to `3`. 
 
@@ -2069,7 +2046,7 @@ These are rules pertaining to specific social interactions or otherwise non-comb
 ## Appraisal
 In order to appraise the value, weight, size or other properties of something, a [Test](#tests) with a [Skill](#skills) pertaining to _what_ is being appraised must be made. 
 
-> For example, to determine the value and weight of a gold-nugget, one could test [Metallurgy](#metallurgy-awarwit). 
+> For example, to determine the value and weight of a gold-nugget, one could Test [Metallurgy](#metallurgy-awarwit). 
 
 The Ob depends on circumstance. How much time is available to appraise? How unusual or uncommon is the thing being appraised? How easy is it to appraise such things? 
 
@@ -2088,7 +2065,7 @@ Despite that, sometimes you may not clearly know how a NPC will react. That is w
 
 To ***persuade*** someone to see your point, you choose a *known* Skill pertaining to the subject and make a roll. If you have no *known* Skill to roll with, you may fall back to rolling your [Wit](#wit-wit) or [Awareness](#awareness-awar). The other Character may [Oppose](#opposed-test) your roll with the same Skill or Attribute.  
 
-> For example, to convince another Character that their methods for treating an ailment are incorrect, you might try to *persuade* with an opposed Medicine test. 
+> For example, to convince another Character that their methods for treating an ailment are incorrect, you might try to *persuade* with an opposed Medicine Test. 
 > 
 > If you achieve more Hits than them, they should understand you might be correct in your assessment and begin to doubt their own opinion. But if you don't, then they may just as well stick with their beliefs. 
 
@@ -2113,7 +2090,7 @@ Always be mindful about when to use which of the three methods.
 ### Are they lying?
 Of course, all of this begs the question - how to know if another Character is lying? "Does my Character believe them?" Barring any evidence or knowledge to determine the answer, Characters can only determine whether they believe the *act* of the other Character. Does it *seem* like they're speaking the truth?
 
-At that point an [Opposed Test](#opposed-test) may be made. The defender is the Character being scrutinized. The defender Tests [Acting](#acting-awarwit) versus the attacker testing [Observation](#observation-awarawar). For this procedure it does not matter, whether the defender was actually lying. Someone speaking the truth is tested the same way as someone speaking a lie. That is because the attacker can only go by whether it *looks*, *sounds* or *feels* like they're being deceived. 
+At that point an [Opposed Test](#opposed-test) may be made. The defender is the Character being scrutinized. The defender Tests [Acting](#acting-awarwit) versus the attacker Testing [Observation](#observation-awarawar). For this procedure it does not matter, whether the defender was actually lying. Someone speaking the truth is Tested the same way as someone speaking a lie. That is because the attacker can only go by whether it *looks*, *sounds* or *feels* like they're being deceived. 
 
 * If the attacker wins...
   * ...and the other Character was lying, they are given a hint that the other Character doesn't seem trustworthy. They are **not** told how exactly it was a lie, only that it *seems* that something is off about *what* was said or *how* it was said. 
@@ -2406,7 +2383,7 @@ However, the price for this strength is steep. The chance of death is greatly in
 | 1     | Hit me? Hit you!     | 1  | /       | **Reaction**: Upon suffering damage, immediately hit your attacker back, dealing `Str` Bludgeoning damage to them. Suffer `+1` point of [Exhaustion](#exhaustion)! | Not at Exhaustion limit. |
 | 1     | The Blood Quickens!  | 1  | /       | Reduce your [Exhaustion](#exhaustion) by `1` for every point in [Bleeding](#bleeding) you currently have. | / |
 | 2     | Pain is Strength     | 2  | Opposed | Perform an attack against a **ST**. You suffer one point of [Exhaustion](#exhaustion). For every active [Injury](#injury) you currently have, deal <br> `≤ 1` Hit: `2` Bludgeoning <br> `= 2` Hits: `4` Bludgeoning <br> `≥ 3` Hits: `6` Bludgeoning | / |
-| 3     | Injury Collector     | 0  | 2       | **Reaction**: Upon suffering an [Injury](#injury), with a successful test, remove all additional [Penalties](#boons--penalties) (i. e. everything but the [HP](#hit-points-hp) malus) from the [Injury](#injury). | / |
+| 3     | Injury Collector     | 0  | 2       | **Reaction**: Upon suffering an [Injury](#injury), with a successful Test, remove all additional [Penalties](#boons--penalties) (i. e. everything but the [HP](#hit-points-hp) malus) from the [Injury](#injury). | / |
 
 | Level | <img src="../../img/heroic-acts.svg" width="64px" height="64px"></img> | Heroic Act Description | Desperate Measure Description | <img src="../../img/desperate-measures.svg" width="64px" height="64px"></img> |
 | ----- | ----------------------- | ---------------------- | ----------------------------- | --------------------------- |
@@ -2473,7 +2450,7 @@ For any ally next to you, who's also using a shield, you both gain `+1D` on your
 #### Trapping (Awar/Wit)
 Setting traps in places where they're difficult to detect and the ability to disarm them. Used to set traps such as bear traps, pits filled with spikes, land mines and so on.
 
-When setting a trap, roll an Ob `0` test. The number of Hits represent the quality Level of the trap, which determines how hard it is to detect and disarm. `0` Hits means the trap isn't at all concealed. You may also place traps during combat, and as long as some foe can see you, your trap will never be concealed. 
+When setting a trap, roll an Ob `0` Test. The number of Hits represent the quality Level of the trap, which determines how hard it is to detect and disarm. `0` Hits means the trap isn't at all concealed. You may also place traps during combat, and as long as some foe can see you, your trap will never be concealed. 
 
 #### Throwing (Agi/Str)
 General expertise at throwing things. This includes weapons as well as non-weapon objects. 
@@ -2522,7 +2499,7 @@ Speaking commands with booming authority.
 
 | Level | Name                   | AP | Ob  | Effect(s)          | Condition(s) |
 | ----- | ---------------------- | -- | ------- | ------------------ | ------------ |
-| 0     | Focus!                 | 1  | 1       | <br> `≤ 1` Hit: Grant another Character `+1D` for their next test. <br> `= 2` Hits: Grant another Character `+2D` for their next test. <br> `≥ 3` Hits: Grant another Character `+1` Compensation Point for their next test. <br> Causes `+1` [Exhaustion](#exhaustion) to self. |  |
+| 0     | Focus!                 | 1  | 1       | <br> `≤ 1` Hit: Grant another Character `+1D` for their next Test. <br> `= 2` Hits: Grant another Character `+2D` for their next Test. <br> `≥ 3` Hits: Grant another Character `+1` Compensation Point for their next Test. <br> Causes `+1` [Exhaustion](#exhaustion) to self. |  |
 | 0     | Shake It Off!          | 2  | 2       | Remove another Character's [Exhausted](#exhausted) or [Terrified](#terrified) [Condition](#condition). |  |
 | 0     | Taunt                  | 2  | Opposed by [Self-Control](#self-control-toughtough) | <br> `≤ 1` Hit: Force a designated target to attack *you* on their next Turn. <br> `= 2` Hits: Force a designated target to attack *you* on their next Turn, at Ob `+1`. <br> `≥ 3` Hits: Force up to two designated targets to attack *you* on their next Turn, at Ob `+1`. | |
 | 1     | Hit That One!          | 1  |         | [Mark](#marked) a **ST** of choice. | Only one foe may be marked this way. |
@@ -2608,7 +2585,7 @@ Specific historical knowledge should be noted.
 
 | Level | <img src="../../img/heroic-acts.svg" width="64px" height="64px"></img> | Heroic Act Description | Desperate Measure Description | <img src="../../img/desperate-measures.svg" width="64px" height="64px"></img> |
 | ----- | ----------------------- | ---------------------- | ----------------------------- | --------------------------- |
-| 3     | I Have Read Your Doom | Recite, with zealous ferocity, ancient lore that strikingly paints the doom of a single, chosen foe. *If* they are a sapient being that can understand you, they become [Terrified](#terrified) of you, for `1` round. *If not*, then your calamitous prognostications inspire your allies. All *other* PCs and allies gain `+1` [Compensation Point](#compensation-points) to their next test, until the end of the round. Decreases Momentum by `-20`. | Recite, with zealous ferocity, ancient lore that strikingly paints the doom of **all**. *Any* sapient being that can understand you and who is not an ally, becomes [Terrified](#terrified) of you, for `1` round. *However*, your calamitous prognostications dampen your allies' spirits. They suffer `+1` Ob for their next test, until the end of the round. Increases Momentum by `+10`. | Doom Is Upon Us! |
+| 3     | I Have Read Your Doom | Recite, with zealous ferocity, ancient lore that strikingly paints the doom of a single, chosen foe. *If* they are a sapient being that can understand you, they become [Terrified](#terrified) of you, for `1` round. *If not*, then your calamitous prognostications inspire your allies. All *other* PCs and allies gain `+1` [Compensation Point](#compensation-points) to their next Test, until the end of the round. Decreases Momentum by `-20`. | Recite, with zealous ferocity, ancient lore that strikingly paints the doom of **all**. *Any* sapient being that can understand you and who is not an ally, becomes [Terrified](#terrified) of you, for `1` round. *However*, your calamitous prognostications dampen your allies' spirits. They suffer `+1` Ob for their next Test, until the end of the round. Increases Momentum by `+10`. | Doom Is Upon Us! |
 
 #### Law and politics (Wit/Wit)
 The ability to understand laws and politics, as well as the ability to direct politics. 
@@ -2657,9 +2634,9 @@ This Skill may also find use in forensics, to identify poisons or the type of we
 #### Surgery (Agi/Wit)
 The ability to invasively treat ailments without making things worse for the patient. 
 
-Failing a test of this Skill while treating a patient, causes the patient to suffer `N` [Slashing based Injuries](#injury--damage-type-table), where *N* is the number of Hits that were still needed to reach the Ob.
+Failing a Test of this Skill while treating a patient, causes the patient to suffer `N` [Slashing based Injuries](#injury--damage-type-table), where *N* is the number of Hits that were still needed to reach the Ob.
 
-> Failing a test at Ob `3`, by having achieved only `1` hit, means the patient now suffers `2` Injuries. 
+> Failing a Test at Ob `3`, by having achieved only `1` hit, means the patient now suffers `2` Injuries. 
 
 This Skill may also find use in forensics, to identify poisons or the type of weapon that inflicted a wound. The Ob will depend on the rarity of the poison/weapon and will be determined by the GM. At the cost of `1` [medical supplies](#general-assets), finger prints, organic samples like blood and similar can be retrieved and identified. 
 
@@ -2678,12 +2655,12 @@ This governs the understanding of what makes defensive structures effective and 
 | 0     | Designate Key Zone     | 1  | /      | **Concentration**: Designate a zone up to `2` squares in radius. If such a zone already exists, it is replaced with this one. The zone lasts for as long as you desire. You instruct your allies, to get the most out of this area. Once you designate a type for it, they *will* know what to do. Effects from allies' zones do not stack with this one, if their zone is of the same type. | / |
 | 1     | Killzone Stratagem     | 1  | 2      | If you have placed a Key Zone, turn it into a Killzone, replacing all its effects. All enemies inside the zone, who are damaged immediately die if their [HP](#hit-points-hp) are brought to `2 * your Toughness + hits` or less. | / |
 | 1     | Trenchline Stratagem   | 1  | 2      | If you have placed a Key Zone, turn it into a Trenchline Zone, replacing all its effects. All [AoE](#area-of-effect-aoe) damage that applies to you and/or your allies is reduced by `hits * 3`. Also, your and your allies' [Stability](#stability-stabil) is increased by `+2` while in the zone. | / |
-| 2     | Fear Stratagem         | 1  | 1      | If you have placed a Key Zone, turn it into a Zone of Fear, replacing all its effects. All enemies inside this zone, who suffer damage must succeed a [Self-Control](#self-control-toughtough) test at Ob equal to your number of Hits, or else become [Terrified](#terrified) of the zone. | / |
+| 2     | Fear Stratagem         | 1  | 1      | If you have placed a Key Zone, turn it into a Zone of Fear, replacing all its effects. All enemies inside this zone, who suffer damage must succeed a [Self-Control](#self-control-toughtough) Test at Ob equal to your number of Hits, or else become [Terrified](#terrified) of the zone. | / |
 | 2     | Recovery Stratagem     | 1  | 2      | If you have placed a Key Zone, turn it into a Recovery Zone, replacing all its effects. You and all allies inside this zone reduce their [Exhaustion](#exhaustion) by `-1` and regain `hits * 2` [HP](#hit-points-hp), at the start of the Turn. | / |
 
 | Level | <img src="../../img/heroic-acts.svg" width="64px" height="64px"></img> | Heroic Act Description | Desperate Measure Description | <img src="../../img/desperate-measures.svg" width="64px" height="64px"></img> |
 | ----- | ----------------------- | ---------------------- | ----------------------------- | --------------------------- |
-| 4     | Take and Hold! <br><img src="../../img/heroic-act_take-and-hold.svg" width="64px" height="64px"></img> | Designate an area up to `3` squares in radius. Until the end of combat, any PC and ally inside this zone receives `+1` [AP](#action-points-ap) at Turn start and `+1` [Compensation Point](#compensation-points) for every test. If such a zone already exists, it is replaced with the new one. Decreases Momentum by `-30`. | Designate an area up to `3` squares in radius. Until the end of combat, any PC and ally inside this zone receives `+1` [Compensation Point](#compensation-points) for every test and may freely [Counter-Attack](#defense-stunts) *every* attack, but every PC *outside* this zone suffers `+1` Ob for **every test**. If such a zone already exists, it is replaced with the new one. Increases Momentum by `+15`. | Not A Step Back! <br><img src="../../img/desperate-measure_not-a-step-back.svg" width="64px" height="64px"></img> |
+| 4     | Take and Hold! <br><img src="../../img/heroic-act_take-and-hold.svg" width="64px" height="64px"></img> | Designate an area up to `3` squares in radius. Until the end of combat, any PC and ally inside this zone receives `+1` [AP](#action-points-ap) at Turn start and `+1` [Compensation Point](#compensation-points) for every Test. If such a zone already exists, it is replaced with the new one. Decreases Momentum by `-30`. | Designate an area up to `3` squares in radius. Until the end of combat, any PC and ally inside this zone receives `+1` [Compensation Point](#compensation-points) for every Test and may freely [Counter-Attack](#defense-stunts) *every* attack, but every PC *outside* this zone suffers `+1` Ob for **every Test**. If such a zone already exists, it is replaced with the new one. Increases Momentum by `+15`. | Not A Step Back! <br><img src="../../img/desperate-measure_not-a-step-back.svg" width="64px" height="64px"></img> |
 
 ### Artisan Skills
 All artisan Skills require a mix of physical and mental attributes, for the purpose of creating a wide variety of things. Mechanically speaking, these are [Crafting](#crafting--research-projects) Skills.
@@ -2859,9 +2836,9 @@ For every *point* in the **Bleeding** Condition, a Character suffers `1D4` point
 ### Death's Door
 **Death's Door** is a Condition only a PC can have and represents their final battle with death. 
 
-A PC at **Death's Door** must succeed at least one [Toughness](#toughness-tough) test out of a possible of three. If they never succeed, they perish, irrevocably. The Ob is determined as half of the Character's [Toughness](#toughness-tough), rounded up. 
-* If the Character is at **Death's Door** during [Combat](#combat), they must make a [Toughness](#toughness-tough) test at the end of every Round. 
-* If the Character is at **Death's Door** out of [Combat](#combat), they must make a test every minute. 
+A PC at **Death's Door** must succeed at least one [Toughness](#toughness-tough) Test out of a possible of three. If they never succeed, they perish, irrevocably. The Ob is determined as half of the Character's [Toughness](#toughness-tough), rounded up. 
+* If the Character is at **Death's Door** during [Combat](#combat), they must make a [Toughness](#toughness-tough) Test at the end of every Round. 
+* If the Character is at **Death's Door** out of [Combat](#combat), they must make a Test every minute. 
 
 A Character can be helped out of the **Death's Door** Condition, if their [HP](#hit-points-hp) are brought back up to at least `1`. 
 
@@ -2879,7 +2856,7 @@ For every point in the **Dissolving** Condition, a Character suffers `1D4` point
 
 A **drug-addicted** Character must take their drug once every `24` hours, or else enter **withdrawal**. 
 
-For every `24` hours that a Character is in **withdrawal**, they suffer `-1D` to **all** Tests. For every `12` hours that they are in **withdrawal** they have to pass a [Toughness](#toughness-tough) test at Ob `2`, or else be forced to dedicate their every bit of strength into acquiring and taking a new dose of the drug. 
+For every `24` hours that a Character is in **withdrawal**, they suffer `-1D` to **all** Tests. For every `12` hours that they are in **withdrawal** they have to pass a [Toughness](#toughness-tough) Test at Ob `2`, or else be forced to dedicate their every bit of strength into acquiring and taking a new dose of the drug. 
 
 After `72` consecutive hours (= `3` full days) of having being in **withdrawal**, the Character breaks free from their addiction, removing this Condition.
 
@@ -3172,20 +3149,20 @@ Outside of combat, you can challenge your PCs' with social encounters, opportuni
 
 Present opportunities for the PCs to learn new things. Present them with Tests for Skills they don't have. But do so sparingly. It is frustrating for a player to never get to play to their Character's strengths. Give players that satisfaction of having *the right Skill at the right time*. 
 
-When it comes to Skill Tests, it is prudent to be wary of *test band-wagon'ing*. When you ask a specific player (or rather, their Character) to do a test in a certain Skill or attribute and if they fail, another player jumps in and asks, if they can try, consider well how you answer. <br>
-If you allow it, you make the player you first asked feel less special and important. After all, you must have had a good reason why *only their Character* could do the test, to begin with. If you found that only that one PC had a chance at even attempting the test, you shouldn't allow other PCs to make the test. 
+When it comes to Skill Tests, it is prudent to be wary of *Test band-wagon'ing*. When you ask a specific player (or rather, their Character) to do a Test in a certain Skill or attribute and if they fail, another player jumps in and asks, if they can try, consider well how you answer. <br>
+If you allow it, you make the player you first asked feel less special and important. After all, you must have had a good reason why *only their Character* could do the Test, to begin with. If you found that only that one PC had a chance at even attempting the Test, you shouldn't allow other PCs to make the Test. 
 
-> A classic example is asking one of your players to test their Character's observation. They fail and the other players immediately ask if they can try, as well. If they could, you shouldn't have asked just the one player, but instead asked all of them to begin with. 
+> A classic example is asking one of your players to Test their Character's Observation. They fail and the other players immediately ask if they can try, as well. If they could, you shouldn't have asked just the one player, but instead asked all of them to begin with. 
 > 
-> But if you think only the one Character could have succeeded that test, you shouldn't allow the others to try. 
+> But if you think only the one Character could have succeeded that Test, you shouldn't allow the others to try. 
 
 On the other hand, you should only have such specifically targeted Tests, if failure doesn't result in a dead-end for the PCs. Try to aim more towards Tests that can result in the players being informed of a potential challenge ahead of time. 
 
-> For example, a sneaky PC might have successfully infiltrated a palace, where they aim to gather intelligence on their political enemies. The GM asks them to do a observation test, which they succeed. As a result, the GM informs the player, that their Character overhears voices from a room next door. 
+> For example, a sneaky PC might have successfully infiltrated a palace, where they aim to gather intelligence on their political enemies. The GM asks them to do a Observation Test, which they succeed. As a result, the GM informs the player, that their Character overhears voices from a room next door. 
 > 
 > The PC walks up to the door leading to the other room, and eavedrops. They overhear two men talking about increased patrols and sightings of an intruder. The player decides, based on that information, to leave the palace early, as things are getting too risky for them to stay. 
 > 
-> Had the PC failed their test, the GM would have told them to move on. Perhaps even given them a different piece of information, like hearing noises outside the room they're in, but without a clear direction. The player might not think much of it, and decide to stay. That's when the guards walk in and surprise the PC. They can still make their get-away, albeit involving more running in blind panic, than sneaking calmly. 
+> Had the PC failed their Test, the GM would have told them to move on. Perhaps even given them a different piece of information, like hearing noises outside the room they're in, but without a clear direction. The player might not think much of it, and decide to stay. That's when the guards walk in and surprise the PC. They can still make their get-away, albeit involving more running in blind panic, than sneaking calmly. 
 
 #### Driver Challenges
 You can both *feed* and *challenge* PCs' Drivers. Feeding a driver means giving a PC new information or assets that they may use to pursue the driver's goal. Challenging a driver means presenting the Character with new information or opponents who contradict the goal - an obstacle to overcome. 
@@ -3249,7 +3226,7 @@ Also, when a decision must be made, like where the party will go and what they'l
 
 Some players may not be interested in talking much. They might simply enjoy participating in your game a bit more passively than the others. However, if they're simply uncomfortable with improvisation, you may give them [Fair Warning](#fair-warning) and let them prepare an answer ahead of time. 
 
-If you have any very passive players, you can still keep them engaged, by providing them other opportunities to shine. A Skill test that only their Character can even attempt, for example. Still, be observant of their reaction. Are they participating only reluctantly? If so, to re-iterate - don't force them to do anything they're uncomfortable with. Perhaps they're really having a good time just being there, enjoying the social aspect of being at your table, rather than the game itself. And that doesn't have to be a bad thing. If they're having a good time, then your efforts are well spent. 
+If you have any very passive players, you can still keep them engaged, by providing them other opportunities to shine. A Skill Test that only their Character can even attempt, for example. Still, be observant of their reaction. Are they participating only reluctantly? If so, to re-iterate - don't force them to do anything they're uncomfortable with. Perhaps they're really having a good time just being there, enjoying the social aspect of being at your table, rather than the game itself. And that doesn't have to be a bad thing. If they're having a good time, then your efforts are well spent. 
 
 #### Player Agency
 A very important thing to remember is that **all decisions** are made **by your players**, not *you*. This is understood as "player-agency" - a player's ability to make a meaningful decision, which impacts your world and the story plot, even when in collision with your own expectations or plans. And their ability to dictate their own Character's behavior. This may be one of *the most important* pieces of advice contained in this document. Their Character, is a player's most valuable possession, at your table. Let them keep it. 
@@ -3613,7 +3590,7 @@ The creature is naturally armored. You can spend up to `8` points on a damage ty
 `-N` points: **Heavily Armored**: You can spend an additional `N * 4` points on damage protections. 
 
 #### Camouflage (-3 points; +3 CR)
-The creature can become invisible, even in plain sight, at the cost of `3` AP. It will stay invisible for as long as it takes no offensive action. It can be detected with a successful [Observation](./strive-core.md#observation-awarawar) or [Path-Finding](./strive-core.md#path-finding-awarwit) test, at Ob `3`. 
+The creature can become invisible, even in plain sight, at the cost of `3` AP. It will stay invisible for as long as it takes no offensive action. It can be detected with a successful [Observation](./strive-core.md#observation-awarawar) or [Path-Finding](./strive-core.md#path-finding-awarwit) Test, at Ob `3`. 
 
 #### Danger Blood (-1 point; +1 CR)
 When injured, strange-colored blood squirts out of the wound, causing `1D6` acid/poison/burning/freezing (choose one) damage to all other, adjacent creatures. 
@@ -3624,7 +3601,7 @@ All melee attackers against this creature suffer `6` points of a chosen type of 
 #### Death Rattle (-2 points; +2 CR)
 Upon dying, the creature can invoke one of the following effects (you must choose one now):
 * Explode: Cause damage to all adjacent creatures. Choose one: `2D6 + 2 Slashing`, `2D6 Piercing`, or `2D4` of any other damage type. 
-* Terrifying Screech: All foes in a `10` radius around the creature must succeed a [Self-Control](./strive-core.md#self-control-toughtough) test at Ob `3`, or else become [Terrified](strive-core.md#terrified) for one round. 
+* Terrifying Screech: All foes in a `10` radius around the creature must succeed a [Self-Control](./strive-core.md#self-control-toughtough) Test at Ob `3`, or else become [Terrified](strive-core.md#terrified) for one round. 
 * Reprisal: Move up to `8` and launch a final, desperate and free attack against a foe, with Ob `-1`. 
 
 #### Fortified Mind (-4 points; +1 CR)
@@ -3654,7 +3631,7 @@ Even when this creature misses with a damage-causing attack, it will always deal
 `-3` points: **Precise**: Always deals `8` points of damage, instead.
 
 #### Disease-Ridden (-1 point; +1 CR)
-Any damage this creature deals on another that can contract diseases, will force a test to resist disease from that creature. The victim must succeed a Toughness test at Ob equal to half their Toughness, rounded up, or else suffer a random Illness. 
+Any damage this creature deals on another that can contract diseases, will force a Test to resist disease from that creature. The victim must succeed a Toughness Test at Ob equal to half their Toughness, rounded up, or else suffer a random Illness. 
 
 Suitable for: Any type of undead, rats and swamp creatures.
 
@@ -3722,7 +3699,7 @@ Suitable for: Creatures of the night, such as werewolves, vampires and ghosts.
 
 ## Choosing NPC Skills
 Custom Skills are that which brings the spice to every NPC and you are free to build them however you like, but keep the following guidelines in mind:
-* A regular combat Skill should deal at most `1D8` points of damage per damage type and should at most deal two types of damage. If you decide it needs to deal higher damage, it should probably have a higher AP cost. 
+* A regular combat Skill should deal at most `8` points of damage per damage type and should at most deal two types of damage. If you decide it needs to deal higher damage, it should probably have a higher AP cost. 
 * AP costs for attacks should be at least `2`. Supporting Skills may only cost `1` AP or even be free, if some other limitation applies. 
 * A Feeble and Regular creature should at most have `2` main Skills. These creatures should be easy and quick to run, so overburdening them with Skills will counteract this goal. 
 
@@ -3765,10 +3742,10 @@ Suitable for: Any creature that could reasonably emit such a thrumming sound, su
 **`-5` Hostility**: When a foe moves into a space adjacent to this creature, as a Reaction, it may immediately move away, for up to `5`, without provoking [Opportunity Attacks](strive-core.md#opportunity-attacks)!
 
 ### Seething Hatred (-5 points; +2 CR)
-**`-8` Hostility**: The creature immediately becomes [Berserked](strive-core.md#berserk) and deals an additional `5` points of bludgeoning damage on all their attacks, until the end of the round. 
+**`-8` Hostility**: The creature immediately becomes [Berserked](strive-core.md#berserk) and deals an additional `5` points of Bludgeoning damage on all their attacks, until the end of the round. 
 
 ### Sinkhole (-8 points; +2 CR)
-**`-8` Hostility**: The ground gives and in a `10` radius around the creature, drops by `5`. All creatures with `Stability < 2` are covered by earth, become [Prone](strive-core.md#prone) and suffer `6` points of bludgeoning damage. All creatures with `Stability < 4` become [Prone](strive-core.md#prone). 
+**`-8` Hostility**: The ground gives and in a `10` radius around the creature, drops by `5`. All creatures with `Stability < 2` are covered by earth, become [Prone](strive-core.md#prone) and suffer `6` points of Bludgeoning damage. All creatures with `Stability < 4` become [Prone](strive-core.md#prone). 
 
 ### Trap Storm (-4 points; +3 CR)
 **`-8` Hostility**: The creature throws or lays or spews forth `3` traps, up to `10` far, that now litter the battlefield. Each of these will deal `1D6 + 2` points of damage. The damage type should be chosen according to the nature of the traps. E. g. piercing for bear traps, acid for pools of acid, burning for bombs and so on. 
