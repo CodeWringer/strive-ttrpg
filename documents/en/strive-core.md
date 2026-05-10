@@ -78,25 +78,24 @@ You may choose to play without the Momentum system for a less heroic style of ga
 - [Character](#character)
   - [Abilities](#abilities)
     - [Attributes](#attributes)
-      - [Agility \[Agi\]](#agility-agi)
-      - [Awareness \[Awar\]](#awareness-awar)
-      - [Strength \[Str\]](#strength-str)
-      - [Toughness \[Tough\]](#toughness-tough)
-      - [Wit \[Wit\]](#wit-wit)
+      - [Agility (Agi)](#agility-agi)
+      - [Awareness (Awar)](#awareness-awar)
+      - [Strength (Str)](#strength-str)
+      - [Toughness (Tough)](#toughness-tough)
+      - [Wit (Wit)](#wit-wit)
     - [Core, Favored, Normal \& Penalized Attributes](#core-favored-normal--penalized-attributes)
     - [Derived Characteristics](#derived-characteristics)
-      - [Base Initiative \[BI\]](#base-initiative-bi)
-      - [Sprinting Speed \[Sprint\]](#sprinting-speed-sprint)
-      - [Stability \[Stabil\]](#stability-stabil)
+      - [Base Initiative (BI)](#base-initiative-bi)
+      - [Sprinting Speed (Sprint)](#sprinting-speed-sprint)
+      - [Stability (Stabil)](#stability-stabil)
     - [Skills](#skills)
       - [Skill Forking](#skill-forking)
       - [Learning Skills](#learning-skills)
       - [Expertise](#expertise)
-      - [Momentum Action](#momentum-action)
       - [Concentration](#concentration)
     - [Languages](#languages)
     - [Advancement](#advancement)
-      - [Experience Points \[XP\]](#experience-points-xp)
+      - [Experience Points (XP)](#experience-points-xp)
       - [Advancing Attributes](#advancing-attributes)
       - [Advancing Skills](#advancing-skills)
       - [Practice](#practice)
@@ -175,6 +174,7 @@ You may choose to play without the Momentum system for a less heroic style of ga
     - [Swap-Out](#swap-out)
   - [Attacking](#attacking)
     - [Damage \& Effects](#damage--effects)
+      - [Primary Damage](#primary-damage)
     - [Opportunity Attacks](#opportunity-attacks)
     - [Flanking](#flanking)
     - [Stealth Attacks](#stealth-attacks)
@@ -186,6 +186,7 @@ You may choose to play without the Momentum system for a less heroic style of ga
     - [Cover](#cover)
     - [Speed aids Defense](#speed-aids-defense)
   - [Momentum](#momentum)
+      - [Momentum Actions](#momentum-actions)
   - [Throwing](#throwing)
     - [Throwing-Distance](#throwing-distance)
     - [Throwing-Accuracy](#throwing-accuracy)
@@ -355,9 +356,9 @@ You may choose to play without the Momentum system for a less heroic style of ga
   - [First Impressions Are Definitive](#first-impressions-are-definitive)
   - [Character Background Matters](#character-background-matters)
 - [Non-Player Character (NPC)](#non-player-character-npc)
-  - [Defense \[Def\]](#defense-def)
-  - [Free Strike \[FS\]](#free-strike-fs)
-  - [Challenge Rating \[CR\]](#challenge-rating-cr)
+  - [Defense (Def)](#defense-def)
+  - [Free Strike (FS)](#free-strike-fs)
+  - [Challenge Rating (CR)](#challenge-rating-cr)
   - [NPC Squads](#npc-squads)
     - [Squad HP Pool](#squad-hp-pool)
     - [Squad Cohesion](#squad-cohesion)
@@ -454,7 +455,7 @@ As STRIVE is meant primarily as a rule-book to help you quickly find what you ne
 | [Difficult Terrain](#combat-movement)                       | Halves movement per AP. |
 | [Distance Increment (DI)](#ranged)                          | Indicates a ranged weapon's/attack's range increments. Attacking past this number of squares incurs penalties to the attack. |
 | [Exhaustion](#exhaustion)                                   | A resource that indicates how physically exerted a Character is. Limits usage of abilities if it becomes too much. |
-| [Experience Point(s) (XP)](#experience-points-xp)           | Allows unrestricted Character advancement. |
+| [Experience Point(s) (XP)](#experience-points-xp)           | Allows unrestricted Character Advancement. |
 | [Expertise](#expertise)                                     | A sub-ability of a Skill. |
 | [Fate-Point (FP)](#fate-points)                             | A powerful meta-currency that allows you to change dice rolls and even influence the narrative. |
 | [Forced Movement](#forced-movement)                         | When a Character is moved against their will, by being pushed or thrown. |
@@ -469,6 +470,7 @@ As STRIVE is meant primarily as a rule-book to help you quickly find what you ne
 | [Non-Player Character (NPC)](#non-player-character-npc)     | Represents all the people, animals and monsters of a world, that are controlled by the GM. |
 | [Obstacle (Ob)](#tests)                                     | Determines the target number of Hits you must roll to succeed a Test. |
 | [Player Character (PC)](#introduction)                      | The type of Character that players are in control of. |
+| [Primary Damage](#primary-damage)                           | An attack's greatest damage value, if it deals multiple types. |
 | [Progress Increment (PI)](#progressing-a-project)           | Determines how much work a Project takes. |
 | [Project](#crafting--research-projects)                     | A long-term and abstract side-activity of a PC to craft or research something. |
 | [Rounded Down (RD)](#rounded-up--rounded-down)              | Indicates a step or result of a calculation is supposed to be rounded down. |
@@ -624,7 +626,7 @@ All Skills have two Attributes they're based on / rely on, noted in parentheses 
 
 The Modified Level of the Skill itself, plus `1`, governs the maximum number of Hits that may count towards the result. Only that many of the achieved Hits may, at most, factor into the Test's outcome. This is called the **Hit Limit**. If [Compensation Points](#compensation-points) are used in the Test, each of them always and automatically raises the Hit Limit by `+1`!
 
-It is possible to [Fork](#skill-forking) into Skill Tests, granting more dice and raising the Hit Limit by `+1`, for **each** forked Skill! **Do not forget to fork your Skills into your Tests!**
+It is possible to Fork into Skill Tests, granting more dice and raising the Hit Limit by `+1`, for **each** Forked Skill! **Do not forget to Fork your Skills into your Tests!**
 
 > A Character is asked to Test a Skill, which is Level `2`. Its two Base Attributes have the Modified Levels of `3` and `4`. Their sum of `7`, is the number of `D6` available for the Test. 
 > 
@@ -656,7 +658,7 @@ This type of Test is useful for situations where the GM decides to create very f
 
 > For example, a PC is attempting to cross a suspension bridge, but upon setting foot on the bridge, the ropes holding it up, suddenly snap. The PC can make an [Acrobatics](#acrobatics-agistr) Test, to try and quickly jump off and back onto solid ground. They fail, and get to make another Acrobatics Test at greater Ob, to try and grab a root sticking out of the ground beneath the bridge. They fail again! As a last chance for that PC to survive, the GM asks one of the other players if their Character will attempt an Acrobatics Test at high Ob, to try and grab their falling ally's hand in a daring rescue. Finally, their ally succeeds and the PC's life is saved. 
 > 
-> Obviously, such a situation should not arise often, as Stepped Tests can quickly grow exasperating. 
+> Obviously, such a situation should not arise often, as Stepped Tests can quickly grow tiring. 
 
 #### Graduated Test
 The outcome of the Test is graduated. That means, the number of Hits rolled factor into the outcome. This is called the **Degree Of Success**. 
@@ -672,13 +674,17 @@ On the other hand, even a Complete Failure doesn't have to be *absolute*. The nu
 > Seeing such a low Degree Of Failure, the GM rules that the PC *does* succeed their Test, but also loses more materials in the process than a Complete Success would have cost them. 
 
 #### Creative Test
-For this type of Test, a scenario is played through fairly abstractly. The GM outlines various challenges that must be overcome and what consequences the players may expect if they succeed or fail in overcoming these challenges. Then, the players pick a [Skill](#skills) or [Attribute](#attributes) with which they will solve one of the challenges. Every player can solve only one challenge. Players are encouraged to think creatively! If the proposed solution to a challenge sounds reasonable, it should be possible. 
+For this type of Test, a scenario is played through fairly abstractly. The GM outlines various challenges that must be overcome and what consequences the players may expect if they succeed or fail in overcoming these challenges. Also, they set a number of successes that the PCs must accrue, in order to succeed this Test. A good base number should be slightly lower than or even just half the number of PCs in the group. But particularly challenging Creative Tests may have a higher number. 
 
-The solutions are then [Tested](#tests). Successful Tests help the PCs resolve the scenario in their favor. Failures introduce new complications. You may play out each solution in detail, if you wish, but aren't required to. 
+Then, **each player picks one of the challenges** they would like to solve. They pick a [Skill](#skills) or [Attribute](#attributes) and explain *how* they will solve the challenge. Players are encouraged to think creatively - if the proposed solution to a challenge sounds reasonable, it should be possible! 
 
-Creative Tests are a great solution to quickly handle chase sequences or travel across perilous terrain. 
+The solutions are then [Tested](#tests) individually. Successful Tests accrue successes. You may play out each solution in detail, if you wish, but aren't required to. 
 
-> For example, when crossing a bog, the GM may outline the challenges: the PCs may get lost in the trackless mire, sink into and get stuck in the mud, fall into the bog, contract an Illness from the dirty water or pesky insects or similar such challenges. If the PCs succeed, they arrive at their destination in a timely fashion and without too much trouble. If they fail, they may accrue Exhaustion, Illnesses, end up in a different location, and so on.
+Creative Tests can be a great solution to quickly handle chase sequences or travel across perilous terrain. 
+
+> For example, when crossing a bog, the GM may outline the challenges: the PCs may get lost in the trackless mire, sink into and get stuck in the mud, fall into the bog, contract an Illness from the dirty water or pesky insects or similar such challenges. For their four PCs, they set the required number of successes to `3`. Difficult, but possible.
+> 
+> Then, each PC picks one of the challenges and proposes a solution for it. Two of their tests fail, meaning they fail the Creative Test. They still reach their destination, but with complications. They suffer Illnesses and end up in a slightly different location than they hoped. 
 
 #### Opposed Test
 This type of Test occurs, when two Characters come into opposition. 
@@ -689,7 +695,7 @@ The Character who initiates the Test, requires the Opposed Test to be made and i
 
 > In combat, a Defender rolls a Defense Test and achieves `3` Hits. Thus, the Attacker must achieve at least `4` Hits, in order to win the Opposed Test. 
 
-> In combat, a Defender rolls for Defense and achieves `3` Hits. The Attacker rolls an attack and achieves `3` Hits. The Hits being tied with the defenders', means the Defender wins, by default. 
+> In combat, a Defender rolls for Defense and achieves `3` Hits. The Attacker rolls an attack and achieves `3` Hits. The Hits being tied with the Defenders', means the Defender wins, by default. 
 
 The Defender **may not** [Fork](#skill-forking), whereas the Attacker **may**.
 
@@ -701,11 +707,11 @@ See also [Advancement](#advancement).
 ### Providing Assistance
 Characters can help each other in Tests. In order to help with a Test, a Character must know a relevant [Skill](#skills) and the one being helped must accept the help. 
 
-Helping in a Test works similar to [Forking](#skill-forking) a [Skill](#skills). The Character being helped receives `+1D6` to roll for each *Character* helping them. The number of relevant [Skills](#skills) a helping Character has is irrelevant, as is the Level of those [Skills](#skills). Just one [Skill](#skills) and one Level in it are enough to allow them to help and only one `+1D6` is granted by the helping Character. However, *which* [Skill](#skills) is used to help with, matters. 
+Helping in a Test works similar to [Forking](#skill-forking) a Skill. The Character being helped receives `+1D6` to roll for each *Character* helping them. The number of relevant Skills a helping Character has is irrelevant, as is the Level of those Skills. Just one Skill and one Level in it are enough to allow them to help and only one `+1D6` is granted by the helping Character. However, *which* Skill is used to help with, matters. 
 
-If a PC is helping another, their player must describe *how* they're using their relevant [Skill](#skills) to help. Only if the GM agrees, may the helping die be granted. 
+If a PC is helping another, their player must describe *how* they're using their relevant Skill to help. Only if the GM agrees, may the helping die be granted. 
 
-> For example, a PC is currently using their [Thievery](#thievery-agiawar) to lockpick a door. Their allied PC is *helping*, by using their [Observation](#observation-awarawar) [Skill](#skills) to *keep an eye out for guards*, which allows the one on the door to work without having to constantly look over their shoulder. The GM finds that description agreeable and allows the use of the [Skill](#skills) to help. 
+> For example, a PC is currently using their [Thievery](#thievery-agiawar) to lockpick a door. Their allied PC is *helping*, by using their [Observation](#observation-awarawar) Skill to *keep an eye out for guards*, which allows the one on the door to work without having to constantly look over their shoulder. The GM finds that description agreeable and allows the use of the Skill to help. 
 
 #### Helpers Learn
 A Character helping in a Test, gains `+1` [XP](#experience-points-xp). 
@@ -735,14 +741,14 @@ Before you are overwhelmed by the wealth of numbers below, see this summary, whi
 * Ob `2` Tests are **still easy**, but require *some* effort. A Test which is still expected to be succeeded, but with a realistic chance of failure. 
 * Ob `3` Tests are **challenging**! As a GM, pick this Ob for any Test only those proficient in the task should reliably succeed. In practice, this may be the Ob you will use the most. 
 * Ob `4` Tests are **difficult**! As a GM, pick this Ob for any Test where even those proficient in the task should *struggle*! 
-* Ob `5+` Tests are **monumental**! Outside of combat, such **Obs** should be reserved for tasks that only masters of their craft should even stand a realistic chance of succeeding. 
+* Ob `5+` Tests are **monumental**! Outside of combat, such Obs should be reserved for tasks that only masters of their craft should even stand a realistic chance of succeeding. 
 * You can expect **around one third** of your dice to turn up as Hits.
 
 Now stop here and ask yourself, would knowing all the Test success rates ruin the experience for you? If so, you may skip reading the rest of this chapter. It's all just nerdy numbers, anyway.
 
 ----
 
-To keep in mind for the table: noted in percentile are the odds of success and `~N` notes the *average* number of Hits you can expect. For any mathematically impossible (e. g. Ob `2` with only `1` die) result, the cell is left empty. These numbers were generated by a program that rolled the dice `1000` times, for each cell in the table. Therefore, **do not rely on these numbers** as a **hard and fast rule!** These are *guidelines*. In actual play, the dice will often find a way to surprise you!
+To keep in mind for the table: noted in percentile are the odds of success and `~N` notes the *average* number of Hits you can expect. For any mathematically impossible (e. g. Ob `2` with only `1` die) result, the cell is left empty. These numbers were generated by a program that rolled the dice `1000` times, for each cell in the table. Therefore, **do not rely on these numbers** as a hard and fast rule! These are ***guidelines***. In actual play, the dice will often find a way to surprise you!
 
 | Dice | Hits | Ob 1   | Ob 2   | Ob 3   | Ob 4   | Ob 5   | Ob 6   | Ob 7   | Ob 8   | Ob 9   | Ob 0  |
 | ---- | ---- | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ |
@@ -779,25 +785,25 @@ Interesting key points that can be observed are:
 
 Looking at these numbers, it is easy to believe Ob `4` and `5` Tests to be impossibly difficult. And under normal circumstances, this may be true. However, aside [Skill Forking](#skill-forking) and [helpers](#providing-assistance) granting more dice, there is another major factor - [Compensation Points](#compensation-points). Just one of these can have a huge impact on these Test success rates.
 
-With `1` [Compensation Point](#compensation-points):
+With `1` Compensation Point:
   * Ob `1`: `1` die for `50%` and `2` dice for `74%` success rates.
   * Ob `2`: `4` dice for `63%` and `5` for `76%` success rates.
   * Ob `3`: `6` dice for `54%` and `8` for `76%` success rates.
   * Ob `4`: `9` dice for `56%` and `11` for `75%` success rates.
   * Ob `5`: `11` dice for `49%` and `14` for `72%` success rates.
 
-With `2` [Compensation Points](#compensation-points):
+With `2` Compensation Points:
   * Ob `1`: `1` die for `66%` and `2` dice for `89%` success rates.
   * Ob `2`: `3` dice for `65%` and `4` for `80%` success rates.
   * Ob `3`: `5` dice for `58%` and `6` for `72%` success rates.
   * Ob `4`: `7` dice for `48%` and `9` for `74%` success rates.
   * Ob `5`: `9` dice for `47%` and `12` for `75%` success rates.
 
-As you can see, [Compensation Points](#compensation-points) decrease the number of dice you need to reach significant thresholds. But this is not the same as lowering the Ob, as on average, each [Compensation Point](#compensation-points) grants `+1` average number of Hits. For Tests where the number of Hits matters, this is a big deal!
+As you can see, Compensation Points decrease the number of dice you need to reach significant thresholds. But this is not the same as lowering the Ob, as on average, each Compensation Point grants `+1` average number of Hits. For Tests where the number of Hits matters, this is a big deal!
 
 And then there are the [Fate-Cards](#hand-of-fate), which can also provide significant boosts to odds of success, for those Tests where success *really* matters!
 
-In conclusion, what can be said is, dice pool systems are complex, but also flexible. While the exact numbers are too plentiful to remember and the success likelihoods concealed by the number of dice, you rarely actually need to know them. What you need to know are the Ob thresholds and that you *really should* seek out [Compensation Points](#compensation-points). 
+In conclusion, what can be said is, dice pool systems are complex, but also flexible. While the exact numbers are too plentiful to remember and the success likelihoods concealed by the number of dice, you rarely actually need to know them. What you need to know are the Ob thresholds and that you *really should* seek out Compensation Points. 
 
 # Character
 A Character is a representation of a sentient creature in the game world. They're an amalgam of their [Abilities](#abilities), [Personality](#personality), [Health](#health) and [Assets](#assets). These rules apply to all Player Characters (PCs). 
@@ -811,50 +817,52 @@ Base Characteristics are a Character's [Attributes](#attributes) and [Derived Ch
 
 Two values must be tracked for every Attribute: Its Raw Level and its current Modifier, which results from the sum of [Boons And Penalties](#boons--penalties) affecting it. The result of adding or subtracting the modifier to/from the Raw Level yields the [Modified Level](#raw-vs-modified-level), which is used in [Tests](#tests). The higher the Level, whether Raw or Modified, the better. 
 
-For [Testing](#tests) an Attribute, see the [Testing an attribute](#testing-an-attribute) section. 
-
 ### Attributes
-Attributes represent a Character's most basic abilities. 
+Attributes represent a Character's most basic abilities. These are the primary source of dice for [Tests](#tests). 
 
-#### Agility [Agi]
+Attributes *may* be [Tested](#testing-an-attribute). 
+
+#### Agility (Agi)
 <img src="../../img/agility.svg" style="width: 3rem; height: 3rem;"></img> Nimbleness, swiftness and hand-eye coordination. 
 
-#### Awareness [Awar]
+#### Awareness (Awar)
 <img src="../../img/awareness.svg" style="width: 3rem; height: 3rem;"></img> Keen senses and empathic understanding. 
 
-#### Strength [Str]
+#### Strength (Str)
 <img src="../../img/strength.svg" style="width: 3rem; height: 3rem;"> Physical strength. 
 
 Governs the [Carrying Capacity](#carrying-capacity) of a Character. Each Level in this Attribute raises the [Carrying Capacity](#carrying-capacity) of the Character by `+3`. 
 
 For every `2` Levels in this Attribute, past Level `2` (i. e. starting at Level `4`, then continuing at Levels `6`, `8` and `10`), every [Asset Slot](#worn--equipped) of a Character can hold Assets of `+1` Bulk higher. 
 
-#### Toughness [Tough]
+#### Toughness (Tough)
 <img src="../../img/toughness.svg" style="width: 3rem; height: 3rem;"> Enduring physical and mental strains. 
 
 For every Level in Toughness, a Character...
-* ...gains `+10` maximum [HP](#hit-points-hp). All PCs have base [HP](#hit-points-hp) of `10`. 
+* ...gains `+10` [Maximum HP](#hit-points-hp). All PCs have `10` Base HP. 
 * ...raises their [Exhaustion Limit](#exhaustion) by `+1`. All Characters have a base limit of `1`. 
 * ...gains around `3` minutes of holding their breath. 
 * ...gains one additional die with which to try and shrug off an [Injury](#injury).
 
 | Level                        | 1   | 2   | 3   | 4   | 5   | 6   | 7   | 8   | 9   | 10  |
 | ---------------------------- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Max. HP                      | 20  | 30  | 40  | 50  | 60  | 70  | 80  | 90  | 100 | 110 |
+| PC Maximum HP                | 20  | 30  | 40  | 50  | 60  | 70  | 80  | 90  | 100 | 110 |
 | Exhaustion Limit             | 2   | 3   | 4   | 5   | 6   | 7   | 8   | 9   | 10  | 11  |
 
-#### Wit [Wit]
+#### Wit (Wit)
 <img src="../../img/wit.svg" style="width: 3rem; height: 3rem;"> Sharpness of mind and tongue. 
 
 ### Core, Favored, Normal & Penalized Attributes
 All PCs have **one Core Attribute**, which defines their main strength, by being easier to [Advance](#advancing-attributes). All other Attributes are considered **Normal** Attributes, by default. 
 
-A Character may have Traits, such as ancestral heritages, which may impose boons or penalties to the advancement cost. A boon results in a **Favored** Attribute, which means it is easier to advance, same as their Core Attribute. A **Penalized** Attribute is harder to advance. A PC may define a Penalized Attribute as their Core, which **neutralizes the Penalty**, elevating the Attribute to Normal. 
+A Character may have Traits, such as ancestral heritages, which may impose boons or penalties to the Advancement cost. A boon results in a **Favored** Attribute, which means it is easier to advance, same as their Core Attribute. A **Penalized** Attribute is harder to advance. A PC may define a Penalized Attribute as their Core, which **neutralizes the Penalty**, elevating the Attribute to Normal. 
+
+A Core or Favored Attribute are treated as if one Level lower, for the purposes of calculating Advancement costs. A Penalized Attribute costs `+50%` RU more.
 
 ### Derived Characteristics
 These characteristics depend on others, such as [Attributes](#attributes). They cannot be improved directly. 
 
-#### Base Initiative [BI]
+#### Base Initiative (BI)
 <img src="../../img/base-initiative.svg" style="width: 3rem; height: 3rem;">
 
 Whenever the order in which Characters act matters, their Base Initiative comes into play. It, together with a die roll, determines how early a Character gets to take action in a given scenario. 
@@ -865,7 +873,7 @@ Base Initiative is derived from the sum of the Character's [Agility](#agility-ag
 
 See also [Initiative](#initiative). 
 
-#### Sprinting Speed [Sprint]
+#### Sprinting Speed (Sprint)
 <img src="../../img/sprinting-speed.svg" style="width: 3rem; height: 3rem;">
 
 The Sprinting Speed of a Character represents the additional distance they can move, per [AP](#action-points-ap) spent, when [Sprinting in combat](#combat-movement). 
@@ -876,7 +884,7 @@ It is derived from the sum of their [Agility](#agility-agi) and [Toughness](#tou
 
 This Characteristic can also be used to determine whether a Character can outrun another. For that, both Characters roll via this derived Characteristic. Whoever achieves more Hits, succeeds at outrunning the other Character. 
 
-#### Stability [Stabil]
+#### Stability (Stabil)
 <img src="../../img/stability.svg" style="width: 3rem; height: 3rem;">
 
 The Stability of a Character represents their resistance to [Forced Movement](#forced-movement). For every point in this derived Characteristic, a Character is moved `-1` square less. 
@@ -886,13 +894,15 @@ By default, all Characters start with Stability `0`, which can be increased only
 ### Skills
 A Skill is any acquired knowledge and experience regarding a specific subject. You will predominantly [Test](#tests) these. 
 
-Two values must be tracked for every Skill: Its Raw Level and its current Modifier, which results from the sum of [Boons And Penalties](#boons--penalties) affecting it. The result of adding or subtracting the modifier to/from the Raw Level yields the [Modified Level](#raw-vs-modified-level), which is used in [Tests](#testing-a-skill). The higher the Level, whether Raw or Modified, the better. 
+Every Skill has two [Attributes](#attributes) it relies on - its so-called **Base Attributes**. The sum of their Levels results in the dice pool for Tests of the Skill. Base Attributes are always noted in parentheses after a Skill's name.
 
-Every Skill has two [Attributes](#attributes) it relies on - its so-called *base* [Attributes](#attributes). The Level of a chosen one of these base [Attributes](#attributes) also factors into [Tests](#testing-a-skill) of the Skill. 
+Two values must be tracked for every Skill: Its Raw Level and its current Modifier, which results from the sum of [Boons And Penalties](#boons--penalties) affecting it. The result of adding or subtracting the modifier to/from the Raw Level yields the [Modified Level](#raw-vs-modified-level), which is used in Tests. The higher the Level, whether Raw or Modified, the better. 
 
-Skills [Advance](#advancing-skills), as they're Tested. It is also possible to [Teach](#teaching) Skills. 
+Skills [Advance](#advancing-skills), as they're Tested. It is also possible to [Teach](#teaching) and [Practice](#practice) Skills. 
 
 Characters may also be granted "innate" Skills, which cannot be learned the normal way, but rather are inherited from a Character's ancestry (such as species) or are granted by superior powers (such as gods or ancient alien machines). 
+
+Skills may grant access to [Momentum Actions](#momentum-actions), if the Character knows the Skill at the required Level. 
 
 #### Skill Forking
 When [Testing](#testing-a-skill) a Skill, it is possible to Fork other *related* Skills into the Test, granting more dice to roll and raising the Hit Limit, thus granting a better chance of succeeding. 
@@ -907,93 +917,75 @@ It is possible to Fork as many other Skills as you want into a Test. But:
 
 Always keep in mind that *players* lobby for Forking, not the GM! When the GM asks you to Test a Skill, ***you*** present the Skills *you* wish to Fork. The GM should not tell you which Skills to Fork! That is not their job. 
 
-> For example, a PC is asked to Test their [Thievery](#thievery-agiawar) Skill to pick a lock. They also know [Stealth](#stealth-agiawar) and know a Mechanics Skill. Their player thus asks for permission to fork their Mechanics Skill into their thievery Test, explaining their experience with Mechanics helps them understand the lock's mechanism. The GM agrees. 
+> For example, a PC is asked to Test their [Thievery](#thievery-agiawar) Skill to pick a lock. They also know [Stealth](#stealth-agiawar) and know a Mechanics Skill. Their player thus asks for permission to Fork their Mechanics Skill into their thievery Test, explaining their experience with Mechanics helps them understand the lock's mechanism. The GM agrees. 
 >
-> Then, the player asks to also fork their stealth into the Test. The GM disagrees, as they explain there is currently no need to be stealthy. There are no guards nearby who could possibly perceive the lock-picking attempt. 
+> Then, the player asks to also Fork their stealth into the Test. The GM disagrees, as they explain there is currently no need to be stealthy. There are no guards nearby who could possibly perceive the lock-picking attempt. 
 >
 > In the end, the PC gets `+1D6` from their Mechanics Skill for their thievery Test. 
 
-> Anothery thievery example. Let's assume a PC is trying to quickly unlock a door using their [Thievery](#thievery-agiawar), because they're being chased by guards and desperately need to get away. They could argue to fork their [Stealth](#stealth-agiawar) Skill into the Test, but ultimately, what use is stealth when you've already been detected? Unless you can make yourself *unseen* somehow, the GM should rule that stealth cannot apply in that situation. 
+> Anothery thievery example. Let's assume a PC is trying to quickly unlock a door using their Thievery, because they're being chased by guards and desperately need to get away. They could argue to Fork their Stealth Skill into the Test, but ultimately, what use is stealth when you've already been detected? Unless you can make yourself *unseen* somehow, the GM should rule that stealth cannot apply in that situation. 
 
 #### Learning Skills
-Whenever asked to Test a Skill a PC does not yet *know*, it will be added or progressed and noted as a *Learning Skill*. A Learning Skill can only be Tested with its Base Attributes. A Skill is considered *known* when its Raw Level is at least `1`. Inversely, a Level `0` Skill is a *Learning Skill*. 
+Whenever asked to Test a Skill a PC does not yet *know*, it will be added or progressed and noted as a **Learning Skill**. A Learning Skill can only be Tested with its Base Attributes. A Skill is considered *known* when its Raw Level is at least `1`. Essentially this means: a Level `0` Skill is a Learning Skill, all others are **Known Skills**. 
 
 > A player is asked to Test their Character's [Cooking](#cooking-awarwit) at Ob `2`. Their Character lacks that Skill and thus adds it at Level `0` and marks it as a Learning Skill. Assuming their Character has the corresponding Base Attributes at Level `2` and `3`, they get to roll `2 + 3 = 5D6`. 
 
-[Forking](#skill-forking) Learning Skills into other [Tests](#tests) is **not** allowed. But Forking *into* [Tests](#tests) of Learning Skills **is** allowed. 
+[Forking](#skill-forking) Learning Skills into other [Tests](#tests) is **not** allowed. But Forking *into* Tests of Learning Skills **is** allowed. 
 
 #### Expertise
-Skills can offer **Expertises**, which further define what the Skill may be used for. An **Expertise** is either a *passive* [Boon](#boons--penalties) or an *active* **action**, with effects that apply when used. Many Expertises will be most useful in combat scenarios, but you are encouraged to find uses for them outside of combat! 
+Skills can offer **Expertises**, which further incentivize specialization, by granting special abilities or [Boons](#boons--penalties), at higher Skill Levels. Many Expertises will be most useful in combat scenarios, but you are encouraged to find uses for them outside of combat! The Skill an Expertise belongs to is referred to as its **Owning Skill**. 
 
-Expertises incentivize specialization, by granting special abilities at higher Skill Levels. 
+There are three types of Expertise:
+1. An **Action**, whose effects apply when activated.
+2. A **passive Boon**, which is always active, as long as its conditions are met.
+3. A **Reaction**, which may either automatically or optionally be activated, when its conditions are met. 
 
-"*Owning* Skill" refers to the Skill an Expertise belongs to. 
+All Expertises note a required Level of their Owning Skill. Once the Skill reaches *that* Level, the Expertises of that Level unlock automatically. Only unlocked Expertises may be used. 
 
-Every Expertise can have the following properties:
-* A **required Level** at which they unlock. This is the [Modified Level](#raw-vs-modified-level) of their *owning* Skill. 
-  * An Expertise may only be used, if the Character has the *owning* Skill with at least this Level. 
-  * An Expertise noting Level `0` or no Level at all, can be used right away, even without any Levels in the Skill it belongs to. 
-* An [AP](#action-points-ap) cost. 
-  * During [Combat](#combat) how often Expertises may be used is restricted by how much a Character can do in a single Turn. 
-  * A cost of `0` implies the use of the Expertise is free and can potentially be repeated multiple times in a single Turn. 
-* A Condition which restricts when and how often they can be used. Some Expertises can only be used as a *reaction* to another Character's **action**, while others can only be used once per scenario, once per day or only when other specific circumstances align. 
-* An Ob. 
-  * When an Ob is noted, the *owning* Skill must be [Tested](#tests) at this Ob. It is also possible that instead of a fixed Ob, a dynamic number is used. For example, whenever an [Opposed Test](#opposed-test) is required. An opposing Skill may also be noted. If so, then the opposing Character must use that Skill to oppose the use of this Expertise. In some cases, the opposing Character may abstain from resisting. 
-  * An Expertise without a noted Ob does *not* require a [Test](#tests) to be made. 
-* A [Targeting-Type](#targeting-types), which restricts how many targets may be affected at once. 
-* A **maximum distance** at which it may apply to targets. 
-* One or more Damage values of a specified [Damage Type](#damage-types). 
-  * When successfully used, damage can be applied to the [HP](#hit-points-hp) of one or more targets. 
-  * Damage can be noted either as a *flat* value, or a formula, which may involve dice rolls for variable damage. E. g. `3D4 + 5`. 
-  * The **primary damage** is that damage of an attack which is the highest, before any modifications are applied to it. For example, if by default a weapon deals `8 Slashing + 4 Bludgeoning`, then the Slashing damage is considered its primary damage. 
+Expertises may cost a variable amount of [AP](#action-points-ap) to activate. A cost of `0` implies the Expertise is free and can potentially be repeated multiple times in a single Turn. However, other limitations may apply. [Exhaustion](#exhaustion) causing Expertises **may not be used** while at the Exhaustion Limit!
 
-* A **passive** Expertise is always active, when certain conditions are met. 
-* A Reaction Expertise either automatically or optionally activates when certain conditions are met. If the reaction is not automatic, you may *choose* to activate it, or abstain from its use. 
-* All other Expertises are **actions** that a Character can choose to use whenever applicable. 
+An Ob may be noted on an Expertise. In order to activate it, a Test of the Owning Skill, at the noted Ob, must succeed. 
 
 [Weapon Skills](#weapon--weapon-type--str) use Expertises to denote the ways one can attack with them. 
 
-#### Momentum Action
-A Heroic Act always has a counter-part - a Desperate Measure. This pairing is called a **Momentum Action**. Skills may allow access to a Momentum Action, if the Character knows the Skill at the required Level. 
-
-See also [Momentum](#momentum).
-
 #### Concentration
-A **Concentration** Skill or Expertise upholds its effect(s) once successfully enacted, for as long as the user desires or is conscious. Under normal circumstances, a Character may only have one active Concentration effect at a time. On such Skills and Expertises "Concentration" will be noted. 
+A **Concentration** Skill or Expertise upholds its effect(s) once successfully enacted, for as long as the user desires or is conscious. 
+
+Under normal circumstances, a Character may only have **one Concentration** ability active at the same time. 
 
 ### Languages
-Characters know languages that allow them to communicate. Each language a Character knows is graded and may optionally also allow reading and writing in it. Outside of mundane, every-day communication, when a Character tries to understand more advanced speech or writing in a given language, they may roll a [Test](#tests) for it. For the Test, your number of dice is composed of your Wit, times two, summed with the number of bonus dice your degree of proficiency allows. 
+Characters know languages that allow them to communicate. Each language a Character knows is graded and may optionally also allow reading and writing in it. Outside of mundane, every-day communication, when a Character tries to understand more advanced speech or writing in a given language, they may roll a [Test](#tests) for it. For the Test, your number of dice is composed of your Wit, summed with the number of bonus dice your degree of proficiency grants. It is impossible to understand a language you do not know. 
 
 | Grade      | Bonus Test Dice | Description    |
 | ---------- | --------------- | -------------- |
-| Dabbling   | `+1`            | Rudimentary skill that allows basic every-day interaction. Academic or archaic words and grammar may prove a challenge, however. |
-| Proficient | `+3`            | Only the more obscure words and archaic grammar cause you difficulty. |
-| Native     | `+5`            | Near perfect knowledge of the language allows you to understand almost everything. Only the most obscure and archaic words and phrasings may cause you pause. |
+| Dabbling   | `+2`            | Rudimentary skill that allows basic every-day interaction. Academic or archaic words and grammar may prove a challenge, however. |
+| Proficient | `+5`            | Only the more obscure words and archaic grammar cause you difficulty. |
+| Native     | `+8`            | Near perfect knowledge of the language allows you to understand almost everything. Only the most obscure and archaic words and phrasings may cause you pause. |
 
-> A Character with Wit `3`, who is a Native speaker, tries understand some ancient lore written in their language. They get to roll `(3 (from Wit) * 2) + 5 (from Native language grade) = 11` dice for the Test. The Ob will be chosen by the GM, based on _just how ancient and obscure_ the text is, meaning, how difficult to read it is. 
+> A Character with Wit `3`, who is a Native speaker, tries understand some ancient lore written in their language. They get to roll `(3 (from Wit) + 8 (from Native language grade) = 11` dice for the Test. The Ob will be chosen by the GM, based on *just how ancient and obscure* the text is, meaning, how difficult to read it is. 
 
-Languages may be learned. Treat this like a [Research Project](#research-projects), with a PI of `25`, TI of `1 day`, but instead of a Project Skill, use your [Wit](#wit-wit) to add progress. The achieved Q equals the language grade, up to a maximum of `3`. So, effectively, Q `1` results in a Dabbling, `2` in a Proficient and `3` in a Native language grade. There is no grade past Proficient. 
+Languages may be learned. Treat this like a [Research Project](#research-projects), with a PI of `25`, TI of `1 day`, but instead of a Project Skill, use your [Wit](#wit-wit) to add progress. The achieved Q equals the language grade, up to a maximum of `3`. So, effectively, Q `1` results in a Dabbling, Q `2` in a Proficient and Q `3` in a Native language grade. 
 
 ### Advancement
-Through [Tests](#tests), Characters learn and improve. For every [Test](#tests), `+1` [XP](#experience-points-xp) is earned. If Testing a Skill, then *additionally*, the advancement progress of that Skill is incremented by `+1`. 
+Through [Tests](#tests), Characters learn and improve. For every Test, `+1` [XP](#experience-points-xp) is earned. If Testing a [Skill](#skills), then *additionally*, the Advancement Progress of that Skill is incremented by `+1`. 
 
-Note that *Level* in this and section and its sub-sections refers to the [Raw Level](#raw-vs-modified-level). Whenever advancement thresholds are concerned, then always assume them to be based on the [Raw Level](#raw-vs-modified-level).
+Note that *Level* in this and section and its sub-sections refers to the [Raw Level](#raw-vs-modified-level). Whenever Advancement thresholds are concerned, then always assume them to be based on the [Raw Level](#raw-vs-modified-level).
 
-Also note that advancement is open ended. It technically never stops, although it should slow down considerably, the higher you climb. 
+Advancement is open ended. It technically never stops, although it will slow down considerably, the higher the Levels climb. 
 
-#### Experience Points [XP]
-<img src="../../img/experience-points.svg" style="width: 3rem; height: 3rem;"></img> Experience Points (XP) are a meta-currency that Characters earn through [Tests](#tests). For **every** [Test](#tests), `+1` XP is earned, no questions asked. 
+#### Experience Points (XP)
+<img src="../../img/experience-points.svg" style="width: 3rem; height: 3rem;"></img> **Experience Points (XP)** are a meta-currency that Characters earn through [Tests](#tests). For **every** Test, `+1` XP is earned, no questions asked. 
 
-XP may be spent on advancing (i. e. "leveling up") [Attributes](#attributes) and on Skill advancement progress. The conversion rate is `1` to `1`, meaning for every XP spent, a Skill's advancement progress is incremented by the same amount. **But**, XP may only be spent **before or after the session**! 
+XP may be spent on advancing (i. e. "Leveling Up") [Attributes](#attributes) and on Skill Advancement Progress, for which the conversion rate is `1` to `1`, meaning for every XP spent, a Skill's Advancement Progress is incremented by the same amount. 
 
-It is only possible to spend XP at the start or end of a session, or in times of calm, like when Characters are resting, or during [Down-Time](#down-time). 
+It is only possible to spend XP at the start or end of a session, when Characters are [resting](#resting), or during [Down-Time](#down-time). 
 
 #### Advancing Attributes
 [Attributes](#attributes) can only be advanced (i. e. "leveled up"), by spending [XP](#experience-points-xp). 
 
 The cost of advancing an Attribute depends on its current Raw Level and whether it is a [Core, Favored, Normal or Penalized Attribute](#core-favored-normal--penalized-attributes). The formula to calculate the [XP](#experience-points-xp) cost of advancing is as follows: `20 + (N * N)`, Where *N* is the current Level. 
 
-A **Core** and **Favored** Attribute's advancement cost is always calculated as if one Level lower (minimum `1`). **Normal Attributes** follow the normal cost. **Penalized** Attributes are always one and a half times (= `150%` RU) as expensive. 
+A **Core** and **Favored** Attribute's Advancement cost is always calculated as if one Level lower (but to no less than `1`). **Normal Attributes** follow the normal cost. **Penalized** Attributes are always one and a half times (= `150%` RU) as expensive. 
 
 For your convenience, the following table contains the precalculated requirements to advance an Attribute to the next Level. 
 * In the table, 'Level' is the Character's *current Level* in the Attribute. 
@@ -1013,7 +1005,7 @@ For your convenience, the following table contains the precalculated requirement
 | 10    | 120       | 101          | 180       |
 
 #### Advancing Skills
-Whenever a Skill is [Tested](#tests), its current advancement progress must be incremented by `+1`. When it reaches a certain threshold, it advances (= "levels up"), thereby increasing its Raw Level by `+1` and resetting all its advancement progress to `0`. The formula to determine the threshold is as follows: `8 + (N * 3)`, where *N* is the current Raw Level. Note an exception applies to [Learning Skills](#learning-skills), whose threshold to advance is instead always `15`. 
+Whenever a Skill is [Tested](#tests), its current Advancement Progress must be incremented by `+1`. When it reaches a certain threshold, it advances (= "Levels Up"), thereby increasing its Raw Level by `+1` and resetting all its Advancement Progress to `0`. The formula to determine the threshold is as follows: `8 + (N * 3)`, where *N* is the current Raw Level. Note an exception applies to [Learning Skills](#learning-skills), whose threshold to advance is instead always `15`. 
 
 For your convenience, the following table contains the precalculated requirements to advance a Skill Level. 
 * In the table, 'Level' is the Character's *current Level* in the Skill. 
@@ -1034,33 +1026,27 @@ For your convenience, the following table contains the precalculated requirement
 | 10    | 38  |
 
 #### Practice
-Whenever the Character's enjoy some down-time, away from adventuring, they may spend that time practicing. For every week (or day, or whatever time increment works best for your group), of practice, they gain `+1` [Advancement Progress](#advancement). 
+Whenever the Character's enjoy some [Down-Time](#down-time), away from adventuring, they may spend that time practicing. For every week (or day, or whatever time increment works best for your group), of practice, they gain `+1` [Advancement Progress](#advancement). 
 
 #### Teaching
-Much like it is possible for a Character to [Practice](#practice) on their own, they can also be taught by another, who knows more than them. Only [Skills](#skills) can be taught and the teacher's Raw [Skill](#skills) Level must be at least one greater than that of their pupil. For every week (or day, or whatever time increment works best for your group), of tutoring, the pupil gains `+2` [Advancement Progress](#advancement) to the [Skill](#skills) in question. 
+Much like it is possible for a Character to [Practice](#practice) on their own, they can also be taught by another, who knows more than them. Only [Skills](#skills) can be taught and the teacher's Raw Skill Level must be at least one greater than that of their pupil. For every week (or day, or whatever time increment works best for your group), of tutoring, the pupil gains `+2` [Advancement Progress](#advancement) to the Skill in question. 
 
 ### Innate Abilities
-An Innate Ability is an [Attribute](#attributes) or [Skill](#skills) unique to a specific ancestry, based on species, profession, culture and so on. 
+An Innate Ability is an [Attribute](#attributes) or [Skill](#skills) unique to a specific ancestry, based on species, profession, culture and so on. An Innate Ability **cannot** be learned through regular means. Only a GM may decide whether a Character may acquire such an ability. Even PCs might receive Innate Abilities, based on their chosen ancestry, or through events that unfold during play.
 
 Especially for animals and monsters, Innate Abilities represent natural weapons, such as talons, stingers, sharp teeth and such. They must be noted as "Innate" on a Character sheet. 
 
-An Innate Ability **cannot** be learned through regular means. Only a GM may decide whether a Character may acquire such an ability. 
-
-Even PCs might receive Innate Abilities, based on their chosen ancestry, or through events that unfold during play.
-
 ### Traits
-A Trait is an entirely passive characteristic, that may grant access to unique abilities, affect other abilities of the Character or grant an advantage in certain narrative situations. 
+A Trait is an entirely passive characteristic, that may grant access to unique abilities, affect other abilities of the Character or grant an advantage in certain narrative situations. Traits may be inherent to a Character, based on their ancestry and background, may be awarded by Skills, purchased from the [list of Traits](#list-of-traits) or awarded through events in the story.
 
-Traits may be inherent to a Character, based on their ancestry and background, may be awarded by Skills, purchased from the [list of Traits](#list-of-traits) or awarded through events in the story.
-
-Unlike [Skills](#skills), it is **not possible** to Test Traits. 
+Traits **cannot** be [Tested](#tests).
 
 #### Titles of Renown
-As the PCs adventure, they are bound to eventually achieve great and terrible things. When they do, they may be rewarded with a **Title of Renown**, which, as a Trait, can award them certain [Boons And Penalties](#boons--penalties). All Titles of Renown are granted by the GM, when they deem it deserved. 
+As the PCs adventure, they are bound to eventually achieve great, and terrible things. When they do, they may be rewarded with a **Title of Renown**, which, as a Trait, can award them certain [Boons And Penalties](#boons--penalties). All Titles of Renown are granted by the GM, when they deem it deserved. 
 
-Titles of Renown are great achievements. They should not be handed out, lightly. They're both a testament to the **PCs'** deeds, as well as their reputation! 
+Titles of Renown are great achievements. They should not be handed out lightly. They're both a testament to the PCs' deeds, and a representation of their reputation! 
 
-> In a world that features vicious little green-skinned humanoids, called, *Goblins*, if the PCs were to slay *a lot* of them, they may be awarded the *Goblin Slayer* Title. Henceforth, their reputation preceeds them. They will find it easier to intimidate and scare Goblins. Even just the mere presence of the PCs may send a whole tribe of Goblins running for their lives, thus quickly resolving any threat those creatures may have been to the nearby village. 
+> In a world that features vicious little green-skinned humanoids, called, *Goblins*, if the PCs were to slay *a lot* of them, they may be awarded the *Goblin Slayer* Title. Henceforth, their reputation preceeds them. They will find it easier to intimidate and scare Goblins. Even just the mere presence of the PCs may send a whole tribe of Goblins running for their lives. On the other hand, the PCs may also find themselves under constant threat of assassination, fueled by the Goblins' lust for vengeance! 
 
 Titles of Renown can also be used to declare a Character an expert in a certain field of knowledge. Having researched long lost lore on an obscure subject may grant them the *Lorekeeper of X* title, where *X* is the subject they researched. 
 
@@ -1069,11 +1055,11 @@ No matter how much a PC adventures, there is a limit to how much of a reputation
 ## Personality
 All PCs have a **Personality**, which is an expression of their [Personality Traits](#personality-traits), [Ambition](#ambition), [Aspirations](#aspiration) and [Reactions](#reaction). 
 
-The [Ambition](#ambition), [Aspirations](#aspiration) and [Reactions](#reaction) are grouped together and referred to as the Character's Drivers. These Drivers prevent inaction and thus also prevent stagnation of the Character's development. That is because the [Ambition](#ambition) and the [Aspirations](#aspiration) define goals for the Character to always work towards. 
+The Ambition, Aspirations and Reactions are grouped together and referred to as the Character's **Drivers**. These Drivers prevent inaction and stagnation of the Character's development, because the Ambition and the Aspirations define goals for the Character to always work towards. 
 
-All aspects of a PC's Personality may change, as the game is played, through their actions and the events of the story. It is from this fluidity, that a Character becomes so interesting to explore, because even as their player, you might not know the paths they'll take. They're a book you start writing from the beginning - not the ending. 
+All aspects of a PC's Personality may change, as the game is played, through their actions and the events of the story. It is from this fluidity, that a Character becomes so interesting to explore, because even as their player, you might not know the paths they'll take. They're a book you start writing from the beginning, instead of the ending. 
 
-This is not to say you have no control. On the contrary - *you* define your Character's [Ambition](#ambition) and [Aspirations](#aspiration). But when you do, keep in mind that priorities may change due to the events of the story. 
+This is not to say you have no control. On the contrary - *you* define your Character's Ambition and Aspirations. But when you do, keep in mind that priorities may change due to the events of the story. 
 
 > A PC might have an Aspiration to create a fantastic work of art. On their way to the market or store, to buy supplies for their craft, they catch a child trying to pickpocket them. 
 >
@@ -1087,7 +1073,7 @@ It is the GM's job to present the PCs with conflicts that will challenge their P
 
 By playing their Character either in accordance with their Personality, or by dramatically breaking with it, players can earn a meta-currency called [Fate Points](#fate-points). With this meta-currency, they can buy [Fate-Cards](#hand-of-fate), which are powerful meta-abilities that may help shift the odds in a tough situation. 
 
-Of course, [NPCs](#non-player-character-npc) have a Personality, too. But unlike PCs, this is not cemented through rules and they **cannot** earn Fate Points. 
+Of course, [NPCs](#non-player-character-npc) have a Personality, too. But unlike for PCs, this is not cemented through rules and NPCs **cannot** earn Fate Points. 
 
 ### Ambition
 Every PC must have one Ambition - a life-fulfilling long-term goal to pursue. This can be anything from "found a family" to "become king of the world!". No matter how unrealistic, an Ambition is a primary driver for a Character, to guide them onward. The important part is to think *big* and include some sort of "call for adventure". Something easily achievable would make for a dull Ambition and defeat the point of it. An ideal Ambition draws your Character out of their comfort zone and safe space, imbuing them with a willingness to leave home and go out into the world! 
@@ -1236,7 +1222,7 @@ An Injury always applies a [Penalty](#boons--penalties) of `-1` to a randomly se
 | 7 - 8      | Toughness    |
 | 9 - 10     | Wit          |
 
-Additionally, the primary [Damage Type](#damage-types) that caused the Injury may apply further penalties. See the [Injury & Damage Type Table](#injury--damage-type-table) below. The primary Damage Type is the one of which most got through [Armor](#armor--shields) and reduced [HP](#hit-points-hp) the most. If there is a tie, the Damage Type that the armor reduces less is the primary one. If there is still a tie, a coin flip could decide. Note that Injuries apply their **additional penalties only once, upon being suffered**! 
+Additionally, the [Primary Damage](#primary-damage) that caused the Injury may apply further penalties. See the [Injury & Damage Type Table](#injury--damage-type-table) below. The Primary Damage Type is the one of which most got through [Armor](#armor--shields) and reduced [HP](#hit-points-hp) the most. If there is a tie, the Damage Type that the armor reduces less is the primary one. If there is still a tie, a coin flip could decide. Note that Injuries apply their **additional penalties only once, upon being suffered**! 
 
 Also keep in mind that whenever a PC suffers an Injury, they earn a [Grit Point](#grit-points)! 
 
@@ -1294,13 +1280,13 @@ For every point in [Toughness](#toughness-tough), a Character raises their Exhau
 
 > At Toughness `1`, you already have an Exhaustion limit of `2`. 
 
-If a Character's Exhaustion **exceeds** their limit, they become [Exhausted](#exhausted) from over-exertion. While Exhausted, a Character suffering further Exhaustion, must succeed a [Self-Control](#self-control-toughtough) [Test](#tests) at Ob equal to their current level of Exhaustion, or else fall [Unconscious](#unconscious).
+If a Character's Exhaustion **exceeds** their limit, they become [Exhausted](#exhausted) from over-exertion. While Exhausted, a Character suffering further Exhaustion, must succeed a [Self-Control](#self-control-toughtough) [Test](#tests) at Ob equal to their current level of Exhaustion, or else fall [Unconscious](#unconscious). Also, it becomes impossible to use *any* [Skill](#skills) or [Expertise](#expertise) that would cause further Exhaustion!
 
-Exhaustion is gained through performing **exhausting actions** and by wearing **exhausting equipment**. Exhaustion gained from exhausting actions can be reduced by resting. **An hour of uninterrupted rest** will remove `1` point of Exhaustion. Once Exhaustion is back **at or below** the limit, the [Exhausted](#exhausted) [Condition](#condition) is automatically removed. 
+Exhaustion is gained through performing **exhausting actions** and by wearing **exhausting equipment**. Exhaustion gained from exhausting actions can be reduced by resting. **An hour of uninterrupted rest** will remove `1` point of Exhaustion. Once Exhaustion is back **at or below** the limit, the Exhausted [Condition](#condition) is automatically removed. 
 
 > If a Character has an Exhaustion limit of `3` and current Exhaustion of `5`, then they must rest for at least `2` hours to clear their Exhausted Condition.  
 
-Exhaustion gained from exhausting equipment, can be reduced, by dropping the equipment in question. It is not possible to put on exhausting equipment that would push your Character past their limit. 
+Exhaustion gained from exhausting equipment can be reduced by dropping the equipment in question. It is not possible to put on exhausting equipment that would push your Character past their limit. 
 
 ### Condition
 A Character can have positive or negative effects on them, represented by Conditions. They can have any number of Conditions applying to them simultaneously. 
@@ -1836,6 +1822,9 @@ The attack roll also determines how much damage an attack will deal and how seve
 * **Solid**: On `= 2` Hits. A strong hit.
 * **Masterful**: On `≥ 3` Hits. Applies the most severe damage and effects.
 
+#### Primary Damage
+Some attacks may inflict more than one type of damage. The greatest of the damage values is considered the attack's **Primary Damage** and its [Damage Type](#damage-types) determines the [Injury](#injury) type.
+
 ### Opportunity Attacks
 When a Character is within weapon's reach of another hostile Character, they're considered within the other's Range of Opportunity. Whenever a Character in an enemy's Range of Opportunity moves away from or more than `2` squares *around* that enemy, that enemy can *choose* to perform an **Opportunity Attack**. It is possible to avoid an Opportunity Attack with a [Disengage](#disengage) combat action. 
 
@@ -1930,13 +1919,13 @@ What speed exactly that is, depends heavily on circumstance. As always, the GM's
 > In a medieval fantasy setting, even just someone in a full sprint may be fast enough to throw off an archer's aim. Someone on horse back, riding at speed may be very hard to hit with an arrow or melee weapon. 
 
 ## Momentum
-Momentum is a resource that benefits PCs. It ranges from `-20` to `+20` and always starts at `0`. As the PCs make progress, they gain Momentum and as they suffer setbacks, they lose it. It is a resource that represents the PCs superiority - or the inverse - and is expected to be constantly in flux, like in a tug-of-war. 
+**Momentum** is a resource that benefits PCs. It ranges from `-20` to `+20` and usually starts at `0`. As the PCs make progress, they gain Momentum and as they suffer setbacks, they lose it. It is a resource that represents the PCs superiority - or the inverse - and is expected to be constantly in flux, like in a tug-of-war. 
 
 When Momentum reaches `+18`, **Heroic Acts** become available. Inversely, when Momentum reaches `-18`, **Desperate Measures** become available. Any available Heroic Act and Desperate Measure may be enacted the moment they become available. 
 
-A Heroic Act always has a counter-part - a Desperate Measure. This pairing is called a [Momentum Action](#momentum-action). 
+The pairing of a Heroic Act and its counter-part, a Desperate Measure, is called a [Momentum Action](#momentum-actions). 
 
-The Momentum mechanics can make PCs feel very heroic! They allow them to finish a fight or turn the wheel of fate around, with decisive action and careful planning. If you desire a less heroic game, you may consider not using the Momentum rules, or perhaps weakening the power of Momentum Actions. 
+The Momentum mechanics can make PCs feel very heroic! They allow them to finish a fight or turn the wheel of fate around, with decisive action and careful planning. If you desire a less heroic game, you may consider not using the Momentum rules, or perhaps weakening the availability of Momentum Actions. 
 
 | Gaining Momentum <img src="../../img/momentum-shift_heroism.svg" width="48px" height="48px"></img> | Losing Momentum <img src="../../img/momentum-shift_desperation.svg" width="48px" height="48px"></img> |
 | -------------------------------------- | ----------------------------------------------------------- |
@@ -1945,6 +1934,9 @@ The Momentum mechanics can make PCs feel very heroic! They allow them to finish 
 | Causing an Injury in a foe: `+5`       | PC or ally suffering an Injury: `-5`                        |
 | Slaying a feeble foe: `+5`             | Ally struck down or PC brought to Death's Door: `-15`       |
 | Slaying a non-feeble foe: `+15`        | PC struck down `-40`                                        |
+
+#### Momentum Actions
+**Momentum Actions** are comprised of a **Heroic Act** and its counter-part, a **Desperate Measure**. The list below contains all the Momentum Actions that are always available to the PCs. 
 
 | Heroic Act <br><img src="../../img/heroic-acts.svg" width="64px" height="64px"></img> | Heroic Act Description | Desperate Measure Description | Desperate Measure <br><img src="../../img/desperate-measures.svg" width="64px" height="64px"></img> |
 | ----------------------- | ---------------------- | ----------------------------- | --------------------------- |
@@ -3334,7 +3326,7 @@ NPCs are one of your most important tools to bring your world to life and make i
 NPCs are built differently from PCs. Not all the same rules apply to them. The following differences exist:
 * NPCs **cannot** earn [Fate Points](#fate-points). 
 * NPCs don't *need* the [Personality](#personality) section. A GM *may choose* to include it for the *main actor* NPCs, but for your average animal or passing acquaintance, no personality should be noted down. 
-* NPCs don't *need* advancement progress to be tracked. Thus, they cannot have [Learning Skills](#learning-skills). 
+* NPCs don't *need* Advancement Progress to be tracked. Thus, they cannot have [Learning Skills](#learning-skills). 
 * NPCs don't have a base HP of `10`, thus, their max. HP values will always be `10` points lower than of PCs with the same Toughness Level. 
 * NPCs have additional characteristics: [Defense](#defense-def) and [Free Strike](#free-strike-fs).
 
@@ -3347,21 +3339,21 @@ There are three types of NPCs:
 
 To keep this chapter brief, and because you might decide you don't need it, the mechanical process of creating NPCs is detailed in a later chapter, the [NPC-Builder](#npc-builder). 
 
-## Defense [Def]
+## Defense (Def)
 The **Defense (Def)** characteristic is reserved solely for NPCs and is the number of hits an attacker against them must achieve in order to hit the NPC. This ensures NPCs don't have to roll for their Defense, which allows you to tell your players the creature's Defense value and they can determine themselves whether they hit. This accelerates the game and alleviates some of the work in running NPCs. 
 
 Of course, in order for the NPC to defend, they require [AP](#action-points-ap). If they have no AP left over, treat their Defense as `1`. 
 
 The Defense characteristic should be reserved for Feeble and Regular creatures or those creatures you wish to employ en masse. 
 
-## Free Strike [FS]
+## Free Strike (FS)
 The **Free Strike (FS)** characteristic is reserved solely for NPCs and is the damage value used when multiple of the same type of NPC launch an attack at the same time, as a [Squad](#npc-squads).
 
 This way, instead of having to roll many dice to determine damage, you only roll the main aggressor's damage and then **add the sum of all assisting allies' Free Strike value**. 
 
 Whether allies can join in to deal more damage, depends on whether they are in their weapon's range to attack and are part of the aggressor's [Squad](#npc-squads). 
 
-## Challenge Rating [CR]
+## Challenge Rating (CR)
 The overall power-level of a NPC is **broadly abstracted** as **Challenge Rating (CR)**. It is a tool designed to let you make an *educated guess* about the difficulty a given NPC might pose to the PCs. 
 
 ## NPC Squads
@@ -3486,7 +3478,7 @@ Just as their own Character, players take care of advancing the Attributes and S
 
 Retainers have **their own [XP](#experience-points-xp) to track**. Whenever and only when their Mentor earns an [XP](#experience-points-xp), so does their Retainer, and only if the Retainer is actively traveling with them. Retainers currently abroad earn `+1` [XP](#experience-points-xp) every day or week, or in whatever time increment works best for you and your group, but should never be any more granular than a day. 
 
-Advancing their Attributes and Skills is **only possible** through spending their [XP](#experience-points-xp). Retainers **cannot** gain advancement progress, as PCs do. Also, advancing their Attributes **always costs double the [XP](#experience-points-xp)** and they cannot have any [Core Attribute](#core-favored-normal--penalized-attributes)! This means, to advance an Attribute or Skill, you have to pay the entire [XP](#experience-points-xp) cost at once. 
+Advancing their Attributes and Skills is **only possible** through spending their [XP](#experience-points-xp). Retainers **cannot** gain Advancement Progress, as PCs do. Also, advancing their Attributes **always costs double the [XP](#experience-points-xp)** and they cannot have any [Core Attribute](#core-favored-normal--penalized-attributes)! This means, to advance an Attribute or Skill, you have to pay the entire [XP](#experience-points-xp) cost at once. 
 
 # Hostility
 PCs have access to [Momentum Actions](strive-core.md#momentum) and earn or lose Momentum with the tides in combat. But you as the GM earn **Hostility**, regardless of how the combat is going. At the start of every **combat round**, you earn `1`, plus the number of PCs and their allies in the encounter. 
@@ -3626,7 +3618,7 @@ At the start of its Turn, the creature regains `6` HP.
 A creature can make use of these Traits when it attacks. 
 
 #### Cannot Miss (-3 points; +3 CR)
-Even when this creature misses with a damage-causing attack, it will always deal `4` points of the attack's primary damage, anyway. If the creature does succeed in attacking, this Trait does not trigger.
+Even when this creature misses with a damage-causing attack, it will always deal `4` points of the attack's Primary Damage, anyway. If the creature does succeed in attacking, this Trait does not trigger.
 
 `-3` points: **Precise**: Always deals `8` points of damage, instead.
 
