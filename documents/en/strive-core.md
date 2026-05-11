@@ -152,7 +152,7 @@ You may choose to play without the Momentum system for a less heroic style of ga
       - [Quality Level Reference](#quality-level-reference)
       - [Project Boosters](#project-boosters)
       - [Crafting It Again](#crafting-it-again)
-        - [Crafting It In Bulk](#crafting-it-in-bulk)
+        - [Crafting It In Batches](#crafting-it-in-batches)
       - [Research Projects](#research-projects)
       - [Invention Projects](#invention-projects)
       - [Complexity to Progress Increments](#complexity-to-progress-increments)
@@ -1533,17 +1533,17 @@ Some crafts may be possible while travelling, but most are assumed to be done wh
 Typically, a project can only be worked on with access to necessary resources and know-how. [Skills](#skills) that detail how they can be used for crafting will also note the prerequisites required. As always, the GM has the final word. 
 
 #### Progressing a Project
-Every Project's **progress** is tracked numerically. All progress begins at `0` and is increased through use of a particular Skill, further called the **Project Skill**. 
+Every Project's **progress** is tracked numerically. All progress begins at `0` and is increased through use of a particular [Skill](#skills), further called the **Project Skill**. 
 
 Every Project has a **Progress Increment** and a **Time Increment**. The Progress Increment tells you how much progress is needed to finish the next step of the Project. For every Time Increment worth of time you spend on the Project, you may add your **Project Skill's Level** as points of progress. Up to `5` assisting Characters may also add `+1` point of progress every time, along with you. But of course, in the meantime, these Characters cannot work on their own Projects. Note that progress isn't rolled for, it is simply added, when the next Time Increment has been reached. Note that you get [Advancement Progress](#advancement), but no [XP](#experience-points-xp), for every `5` points of progress made! Assistants to Projects earn `+1` [XP](#experience-points-xp), instead. 
 
-Initially, your Project will begin with **Quality Level** `1`. Every time you arrive at the current total required progress, you must make a choice. **Finish** the Project and accept its current Quality Level, or **push on**. 
+Initially, your Project will begin with **Quality Level** `1`. Every time you arrive at the current total required progress, you must make a choice. **Finish** the Project and accept its current Quality Level, or **Push On**. 
 
-If you push on, the total required progress of your Project is increased by another Progress Increment and your current progress is reset to `0`, but you also give yourself a chance to further improve the resulting Quality Level. After you have decided to push on, the next time you arrive at full progress, a **Test of your Project Skill** is required of you. The Ob is `N + 1`, where *N* is the current number of times you have already pushed on. And of course, for your Project Skill Test, you may [Fork](#skill-forking) and accept [Help](#providing-assistance)! If you succeed the Test, the resulting Quality Level of your Project increases by `+1`. But if you fail, it loses `-1` Quality Level, *unless* you accept a random **Complication** instead, see [Complications](#project-complications). If you accept a Complication, the Project's Quality Level remains unchanged. You neither lose, nor gain a Quality Level. Note that if you accept the Quality loss, the Quality Level cannot be reduced to less than `1`. 
+If you Push On, the total required progress of your Project is increased by another Progress Increment and your current progress is reset to `0`, but you also give yourself a chance to further improve the resulting Quality Level. After you have decided to Push On, the next time you arrive at full progress, a **Test of your Project Skill** is required of you. The Ob is `N + 1`, where *N* is the current number of times you have already Pushed On. And of course, for your Project Skill Test, you may [Fork](#skill-forking) and accept [Help](#providing-assistance)! If you succeed the Test, the resulting Quality Level of your Project increases by `+1`. But if you fail, it loses `-1` Quality Level, *unless* you accept a random [**Complication**](#project-complications) instead. If you accept a Complication, the Project's Quality Level remains unchanged. You neither lose, nor gain a Quality Level. Note that if you accept the Quality loss, the Quality Level cannot be reduced to less than `1`. 
 
 You can continue this cycle any number of times, but if you **fail twice in succession**, your Project is **botched**. You lose all resources and all progress towards it. This is a critical blunder. 
 
-When you push on, the GM may choose to employ a [Project Event](#project-events), possibly even instead of a Complication. Project Events should be an occasional occurrence at best, employed only for long-lasting and significant Projects, to shake things up a bit when appropriate. 
+When you Push On, the GM may choose to employ a [Project Event](#project-events), possibly even instead of a Complication. Project Events should be an occasional occurrence at best, employed only for long-lasting and significant Projects, to shake things up a bit when appropriate. 
 
 #### Project Complications
 When accepting a random Complication for a Project, roll for one of the results from the table below.
@@ -1552,24 +1552,24 @@ When accepting a random Complication for a Project, roll for one of the results 
 | -- | ------------ |
 | 1  | **Blockade**: you realize you need to fulfill another prerequisite to continue your work. Consult your GM. |
 | 2  | **Drawback**: once finished, the result of your Project will contain a drawback. E. g. it might not work reliably, require more fuel, take longer to use, be so complicated only an expert can use it or only works in conjunction with another highly specific thing. Consult your GM. |
-| 3  | **Overthinking it**: from now on, every time you push on, the Progress Increment increases by another `10` points! |
+| 3  | **Overthinking it**: from now on, every time you Push On, the Progress Increment increases by another `10` points! |
 | 4  | **Work-Accident**: in a moment of carelessness, you hurt yourself accidentally. You suffer an [Injury](#injury)! Consult your GM to determine which. |
 
 #### Quality Level Reference
-And how much is a Quality Level worth? This will ultimately be up to the GM to estimate, but the table below may provide guidance.
+How much is a Quality Level worth? This will ultimately be up to the GM to estimate, but the table below may provide guidance.
 
 | Quality Level | Description |
 | ------------- | ----------- |
-| 1 - 2         | A simple and plain product. It has a simple function, nothing more. Its potency is lacking. Made by a beginner. |
-| 3 - 4         | A slightly decorated or just well made product. It fulfills its function and is ergonomic. It is moderately potent. A routine work. |
+| 1 - 2         | A simple and plain product. It has a simple function, nothing more. Made by a beginner. |
+| 3 - 4         | A slightly decorated or just well made product. It fulfills its function and is ergonomic. A routine work. |
 | 5 - 6         | A well made and decorated product, potent and respectable. An adept's care flowed into this. |
 | 7 - 8         | An exceptionally well made product. Highly potent, potentially with multiple functions. An expert's work. |
 | 9+            | A legendary product. Its potency and function may even be fantastical - something never before seen! A true master of their craft made this. |
 
 #### Project Boosters
-During their adventures, or while perusing the market or library, PCs may find things that can boost the progress of their Project. These **Project Boosters** can be varied - schematics, specialized tools, a rare artefact, advice from a knowledgeable NPC, and so on. But they always either increase the Project's current Progress or Quality Level.
+During their adventures, or while perusing the market or library, PCs may find things that can boost the progress of their Project. These **Project Boosters** can be varied - schematics, specialized tools, a rare artefact, advice from a knowledgeable NPC, and similar. But they always either increase the Project's current Progress or Quality Level.
 
-These things can add progress to a Project or raise the base Quality Level. How much they boost the Project, will be determined by the GM. A good baseline should be that a common Project Boosters adds `+10`, a rare adds `+30` and an enigmatic adds `+60`. But of course, these numbers are only suggestions. Project Boosters that increase base Quality Level should be very rare and most valuable. Acquiring them should be an adventure of its own, or the reward for great deeds well performed. 
+These things can add progress to a Project or raise the base Quality Level. How much they boost the Project, will be determined by the GM. A good baseline should be that a common Project Booster adds `+10`, a rare adds `+30` and an enigmatic adds `+60`. But of course, these numbers are only suggestions. Project Boosters that increase base Quality Level should be very rare and most valuable. Acquiring them should be an adventure of its own, or the reward for great deeds well performed. 
 
 Typically, Project Boosters are one-time use. Once they have been used to add progress to the Project, they cannot be used again. However, this is not a hard-set rule. Some things, like a magic cauldron or high-tech lab equipment may of course be used again, provided no narrative reasons forbid it. 
 
@@ -1578,12 +1578,12 @@ Whenever a crafting or [Invention](#invention-projects) Project is finished, its
 
 But you will still need to spend time on it. Multiply the Quality Level of the recipe product with the Progress Increment it originally had. That is the total Progress to achieve for that product. When finished, your new product will have the same Quality Level and Complications as the original.
 
-But you may also decide you can do better. You may begin your Project again, at the original's Quality Level, *minus* its number of Complications. The resulting Quality Level will also be used as the basis to multiply the Progress Increments with. Once the total required progress is reached again, you need to roll for Project Skill Tests, as normal. In this case, the base Ob will be the new Quality Level, plus one. At this point, you go back to the normal rules for [progressing a Project](#progressing-a-project). 
+But you may also decide you can do better. You may begin your Project again, at the original's Quality Level, *minus* its number of Complications. At that point, things [progress as normal](#progressing-a-project). 
 
-> A product with a Quality Level of `3` and one complication would begin at Quality Level `2`, but no Complications! Assuming its Progress Increment is `10`, then multiplying that with the new starting Quality of `2`, yields an initial total required Progress of `20`. Once that progress is reached, a Project Skill Test is required, at Ob `2 (the new Quality Level) + 1 (always) = 3`. If successful, the new Quality Level is `3`!
+> A product with a Quality Level of `3`, and one complication, would begin at Quality Level `2`, and no Complications! Assuming its Progress Increment is `10`, then multiplying that with the new starting Quality of `2`, yields an initial total required Progress of `20`. Once that progress is reached, a Project Skill Test is required, at Ob `2 (the new Quality Level) + 1 (always) = 3`. If successful, the new Quality Level is `3`!
 
-##### Crafting It In Bulk
-For every Recipe that you know, you may also decide to craft the same product in bulk. This is very efficient method to create more products of the same kind, in less time than individual crafts. For each additional instance of the product you wish to create, with the same crafting Project, will add half (RU) of the Progress Increment. 
+##### Crafting It In Batches
+For every Recipe that you know, you may also decide to craft multiple of the same product in a batch. This is a more efficient than individual crafts. Each additional instance of the same product you wish to create, adds only half (RU) of the Progress Increment. 
 
 > Given you have a recipe for a product with Quality Level `3` and a Progress Increment of `10` and you want to make `5` instances of this same product, then the first instance of the product sets the initial required total progress at `3 (Quality) * 10 (Progress Increment) = 30`. Each of the `4` *additional* instances of the product now add `5` points of required progress. So, for all `5` instances of the product to be finished, the final total progress is `30 + (4 * 5) = 50`. This is much faster, than creating those `5` instances individually, as that *would* take `5 * 30 = 150` points of total required progress!
 
@@ -1606,7 +1606,7 @@ When you finish the research Project, you'll have the answers you seek and may g
 #### Invention Projects
 A Project can be about the invention of completely unique and new [Assets](#assets). Describe your idea to the GM, who will determine how feasible your idea is. If it seems reasonable, they will also estimate the Progress Increment (see [Complexity to Progress Increments](#complexity-to-progress-increments)) and Time Increment (see [Workload to Time Increments](#workload-to-time-increments)). 
 
-As a difference to regular Projects, whenever you choose to push on, you may also get a less effective prototype of your invention, if you score a hit on a single `D6` roll, at the GM's discretion. Your prototype receives the Project's current Quality Level. 
+As a difference to regular Projects, whenever you choose to Push On, you may also get a less effective prototype of your invention, if you score a hit on a single `D6` roll, at the GM's discretion. Your prototype receives the Project's current Quality Level. 
 
 #### Complexity to Progress Increments
 Think about complexity in terms of *how difficult is it to make the thing?*, *are specialized tools needed?*, *are special resources required?* and *does the task have any tolerance for carelessness?*
@@ -1647,11 +1647,11 @@ Project Events are random events that may occur during long-lasting, significant
 ### Trade
 Selling and buying things can take a surprising amount of time. If prices are too high and demand or reputation too low, chances are, you won't be able to sell your goods. But even when people do show interest in your wares, you still have to *sell it* to them. An uncharismatic merchant will have a difficult time making a pretty profit, regardless of the quality of their goods. On the other hand, buying things may prove equally difficult, when what you're looking for isn't really available. 
 
-For trade, there is really only the [Mercantilism](#mercantilism-awarwit) [Skill](#skills). Using this Skill requires a [Graduated Test](#graduated-test) with an Ob threshold to be made. The Degree Of Success factors into getting a better price.
+For trade, there the [Mercantilism](#mercantilism-awarwit) [Skill](#skills) is chief. Using this Skill requires a [Graduated Test](#graduated-test) with an Ob threshold to be made. The Degree Of Success factors into getting a better price.
 
-The number of dice in play for a [Graduated Test](#graduated-test) of this Skill determine both the chance to successfully trade something and the time it takes to trade it. It is the GM's duty to determine demand and supply of the thing being sold on the market, as well as how well known the PC is as a reputable trader. A low demand, coupled with a low reputation as a trader, should result in a high Ob for the Test (such as a `4` or even `5`). On the other hand, if demand is high, reputation might not matter much and result in a much lower Ob. 
+The number of dice in play for a Graduated Test of this Skill determine both the chance to successfully trade something and the time it takes to trade it. It is the GM's duty to determine demand and supply of the thing being sold on the market, as well as how well known the PC is as a reputable trader. A low demand, coupled with a low reputation as a trader, should result in a high Ob for the Test (such as a `4` or even `5`). On the other hand, if demand is high, reputation might not matter much and result in a much lower Ob. 
 
-It is possible to roll with fewer dice, than would be available for the [Graduated Test](#graduated-test). [Forked Skills](#skill-forking) can also provide a die each, but note that *every* die, including those from [Forked Skills](#skill-forking), increase the time required. The number of Hits and Misses achieved has no effect on the time taken. Merely the *number* of dice that were rolled matters. 
+It is possible to roll with fewer dice, than would be available for the Graduated Test. [Forked Skills](#skill-forking) can also provide a die each, but note that *every* die, including those from Forked Skills, increase the time required. The number of Hits and Misses achieved has no effect on the time taken. Merely the *number* of dice that were rolled matters. 
 
 To get an ear on the ground and figure out what the local market is like, a Character can spend time to walk around, talk to people, ask for prices of common goods and get a feel for the wealth of the local populace. 
 
@@ -1684,19 +1684,11 @@ The supply is assumed to be relative to the demand. The more something is in dem
 # Combat
 When diplomacy fails, hostilities ensue. This is when the game enters into a state that is handled very carefully. How time is *sliced* and when Characters get to act, is crucial. 
 
-The steps to *prepare* for combat are as follows:
-1. Determine a [Surprise Round](#surprise-round), if required, with [Stealth](#stealth-agiawar) versus [Observation](#observation-awarawar) [Opposed Tests](#opposed-test). 
-   1. Sometimes, not everyone may be immediately aware of a fight breaking out. This is usually the case when Characters cannot clearly see, hear or perhaps even smell a fight breaking out. In every other case, this step can be skipped. 
-   2. Only the first Round of combat can be a [Surprise Round](#surprise-round). 
-   3. In a [Surprise Round](#surprise-round), any surprised Characters **do not** get their starting [AP](#action-points-ap), until the end of the [Surprise Round](#surprise-round) and they don't get a turn, either.
-3. Determine [Initiative order](#initiative). 
-   1. Before any action during a combat scenario can be taken, [Initiative order](#initiative) must first be determined. 
-   2. This includes *everyone*, not just the active combatants. This way, should anyone join the fight, they're easier to work into the [Initiative Order](#initiative). Or, if they stay out of the fight, it's easier to determine when they get to act out-of-combat. 
-4. Any non-surprised Characters start with their initial amount of [AP](#action-points-ap). 
+At the Start of every Combat, [Initiative Order](#initiative) must be determined. Then, check if a [Surprise Round](#surprise-round) is in order. 
 
-During combat, when a Character gets their Turn, they can choose to perform an action. How many actions they get to perform, depends on the [Action Points](#action-points-ap) they have available for that Turn. 
+During combat, when Characters act one after another. Each gets a Turn, as determined by the Initiative Order. How many actions they get to perform, depends solely on the [Action Points](#action-points-ap) they have available for that Turn. 
 
-Active actions during combat are:
+Actions during combat are:
 * [Attacking](#attacking)
   * [Throwing](#throwing)
   * [Unarmed combat](#unarmed-combat-agistr)
@@ -1709,7 +1701,7 @@ Active actions during combat are:
 * Waiting (= abstaining from an action)
 
 Reactions during combat are:
-* [Attacks of Opportunity](#opportunity-attacks)
+* [Opportunity Attacks](#opportunity-attacks)
 * [Defending](#defending)
   * [Defending an ally](#defending-an-ally)
 
