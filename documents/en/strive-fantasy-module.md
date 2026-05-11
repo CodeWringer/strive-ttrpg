@@ -568,14 +568,14 @@ If playing a **mage**, keep in mind you need to have at least Level `1` in a [Ma
 Determine your Character's [Arcane Overheat thresholds](#arcane-overheat). 
 
 ## Assets Appendix
-The following list does not and cannot aim to be a complete listing of all possible assets in game. Adding new assets as necessary will have to be done by the GM. 
+The following list does not and cannot aim to be a complete listing of all possible Assets in game. Adding new Assets as necessary will have to be done by the GM. 
 
 ### General Assets
-The following is a non-exhaustive list of general assets. Just because an asset you're looking for isn't listed here, doesn't mean it cannot exist! You are encouraged to think creatively and [Invent](strive-core.md#invention-projects) your own!
+The following is a non-exhaustive list of general Assets. Just because an Asset you're looking for isn't listed here, doesn't mean it cannot exist! You are encouraged to think creatively and [Invent](strive-core.md#invention-projects) your own!
 
-In the following table, `Q` refers to the quality grade of the asset. See also the [Crafting](./strive-core.md#crafting--research-projects) rules. When in a hurry (as a GM), substitute the `Q` with `2`.
+In the following table, `Q` refers to the quality grade of the Asset. See also the [Crafting](./strive-core.md#crafting--research-projects) rules. When in a hurry (as a GM), substitute the `Q` with `2`.
 
-When looking up products for crafting, the tools and materials required for the craft are not noted here. The materials and resources available to you, and which exist in your world simply cannot be predicted here. Instead, think creatively - what *could* you use to make the thing? What do you have available? Find a creative way to use what you have, to make what you want and ask your GM for the final go-ahead. However, the [Progress Increment (PI)](./strive-core.md#progressing-a-project) and [Time Increment (TI)](./strive-core.md#progressing-a-project) are noted. Particularly rare, valuable and suitable materials may act as [Project Boosters](./strive-core.md#project-boosters). Some assets may harder or easier to make at higher qualities, as noted by the *Crafting Ob*, which, if noted, is the modifier applied to *every* [Project Skill Test](./strive-core.md#progressing-a-project).
+When looking up products for crafting, the tools and materials required for the craft are not noted here. The materials and resources available to you, and which exist in your world simply cannot be predicted here. Instead, think creatively - what *could* you use to make the thing? What do you have available? Find a creative way to use what you have, to make what you want and ask your GM for the final go-ahead. However, the [Progress Increment (PI)](./strive-core.md#progressing-a-project) and [Time Increment (TI)](./strive-core.md#progressing-a-project) are noted. Particularly rare, valuable and suitable materials may act as [Project Boosters](./strive-core.md#project-boosters). Some Assets may harder or easier to make at higher qualities, as noted by the *Crafting Ob*, which, if noted, is the modifier applied to *every* [Project Skill Test](./strive-core.md#progressing-a-project).
 
 | Name                     | Bulk | Max. Stack Size | Description                                                              | PI  | TI         | Crafting Ob |
 | ------------------------ | ---- | --------------- | ------------------------------------------------------------------------ | --- | ---------- | ----------- |

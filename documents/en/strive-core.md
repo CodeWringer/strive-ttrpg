@@ -114,8 +114,9 @@ You may choose to play without the Momentum system for a less heroic style of ga
       - [Bludgeoned to 0 HP](#bludgeoned-to-0-hp)
       - [Temporary Hit-Points](#temporary-hit-points)
     - [Injury](#injury)
+      - [Shrugging Off An Injury](#shrugging-off-an-injury)
       - [Suffering An Injury](#suffering-an-injury)
-      - [Crippling Injury Count](#crippling-injury-count)
+      - [Crippled By Injuries](#crippled-by-injuries)
       - [Injury States \& Treatment](#injury-states--treatment)
       - [Injury \& Damage Type Table](#injury--damage-type-table)
       - [Grit Points](#grit-points)
@@ -141,6 +142,8 @@ You may choose to play without the Momentum system for a less heroic style of ga
   - [Initiative](#initiative)
     - [Surprise Round](#surprise-round)
   - [Ticks](#ticks)
+  - [Resting](#resting)
+  - [Scenario-Time](#scenario-time)
   - [Down-Time](#down-time)
     - [Crafting \& Research Projects](#crafting--research-projects)
       - [Project Prerequisites](#project-prerequisites)
@@ -158,8 +161,6 @@ You may choose to play without the Momentum system for a less heroic style of ga
     - [Trade](#trade)
       - [Seller's Chart](#sellers-chart)
       - [Buyer's Chart](#buyers-chart)
-  - [Resting](#resting)
-  - [Scenario-Time](#scenario-time)
 - [Combat](#combat)
   - [Action Points (AP)](#action-points-ap)
     - [Action Point Saving](#action-point-saving)
@@ -300,6 +301,7 @@ You may choose to play without the Momentum system for a less heroic style of ga
     - [Berserk](#berserk)
     - [Burning](#burning)
     - [Bleeding](#bleeding)
+    - [Crippled](#crippled)
     - [Death's Door](#deaths-door)
     - [Dissolving](#dissolving)
     - [Drug-Addicted](#drug-addicted)
@@ -579,7 +581,7 @@ The players drive the story and the action. They decide what their Character wil
 
 As a player, when deciding on what to do, make sure you state the **intent** of your action, like "I want to find incriminating evidence against a merchant". Then, the GM will need to know *how* you aim to follow up on your intent. Describe the **action** you will take. The clearer, the better. "I will ask around", would allow the GM to guide you along. But there are still details left to fill in. Who and where will you ask? What will you ask them? So, a better intent would be "I will ask the other merchants at the market what they think about this one merchant". That leaves no room for doubt *how* you wish to achieve your goal, which makes the GM's job easier and the game flow better. The GM could now have each merchant tell the PC some rumours or observed past activities and behaviors of that one merchant, some of which may be of a sketchy nature, like "I swear I saw him down at the docks, speaking to some shady looking people" or "She always seems wary of people walking behind her".
 
-When deciding on what to do and how to do it, also keep in mind your Character's [Personality](#personality) as that should inform you of the kinds of actions they might take. 
+When deciding on what to do and how to do it, also keep in mind your Character's [Personality](#personality-traits) as that should inform you of the kinds of actions they might take. 
 
 ### Spending Time
 Everything the PCs do takes time. How much time, exactly, is variable and depends on the point in the narrative the PCs are in. There are two levels of time-management. 
@@ -595,7 +597,7 @@ After a session is done, the players and GM stick around to discuss which player
 
 Also after the session, players and the GM discuss whether a PC should lose a [Reaction](#reaction), because they have acted against it or haven't gotten to play it out at all. 
 
-Players may now spend earned Fate Points to buy cards (boons) from the [Hand Of Fate](#hand-of-fate) and adjust their Character's [Personality](#personality) and [Aspirations](#aspiration). This may also be postponed to the start of the next session. 
+Players may now spend earned Fate Points to buy cards (boons) from the [Hand Of Fate](#hand-of-fate) and adjust their Character's [Personality](#personality-traits) and [Aspirations](#aspiration). This may also be postponed to the start of the next session. 
 
 ## Tests
 Whenever the outcome of an action or situation is uncertain, a Test may be called for by the GM, in order to resolve it. 
@@ -806,7 +808,7 @@ And then there are the [Fate-Cards](#hand-of-fate), which can also provide signi
 In conclusion, what can be said is, dice pool systems are complex, but also flexible. While the exact numbers are too plentiful to remember and the success likelihoods concealed by the number of dice, you rarely actually need to know them. What you need to know are the Ob thresholds and that you *really should* seek out Compensation Points. 
 
 # Character
-A Character is a representation of a sentient creature in the game world. They're an amalgam of their [Abilities](#abilities), [Personality](#personality), [Health](#health) and [Assets](#assets). These rules apply to all Player Characters (PCs). 
+A Character is a representation of a sentient creature in the game world. They're an amalgam of their [Abilities](#abilities), [Personality](#personality-traits), [Health](#health) and [Assets](#assets). These rules apply to all Player Characters (PCs). 
 
 A guide on Character creation can be found [in the appendix](#character-creation). It has been placed there based on the assumption you won't have to look up Character creation as often as the other core rules. 
 
@@ -839,14 +841,14 @@ For every `2` Levels in this Attribute, past Level `2` (i. e. starting at Level 
 <img src="../../img/toughness.svg" style="width: 3rem; height: 3rem;"> Enduring physical and mental strains. 
 
 For every Level in Toughness, a Character...
-* ...gains `+10` [Maximum HP](#hit-points-hp). All PCs have `10` Base HP. 
+* ...gains `+10` [maximum HP](#hit-points-hp). All PCs have `10` Base HP. 
 * ...raises their [Exhaustion Limit](#exhaustion) by `+1`. All Characters have a base limit of `1`. 
 * ...gains around `3` minutes of holding their breath. 
-* ...gains one additional die with which to try and shrug off an [Injury](#injury).
+* ...gains one additional die with which to try and Shrug Off an [Injury](#injury).
 
 | Level                        | 1   | 2   | 3   | 4   | 5   | 6   | 7   | 8   | 9   | 10  |
 | ---------------------------- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| PC Maximum HP                | 20  | 30  | 40  | 50  | 60  | 70  | 80  | 90  | 100 | 110 |
+| PC maximum HP                | 20  | 30  | 40  | 50  | 60  | 70  | 80  | 90  | 100 | 110 |
 | Exhaustion Limit             | 2   | 3   | 4   | 5   | 6   | 7   | 8   | 9   | 10  | 11  |
 
 #### Wit (Wit)
@@ -1076,16 +1078,16 @@ By playing their Character either in accordance with their Personality, or by dr
 Of course, [NPCs](#non-player-character-npc) have a Personality, too. But unlike for PCs, this is not cemented through rules and NPCs **cannot** earn Fate Points. 
 
 ### Ambition
-Every PC must have one Ambition - a life-fulfilling long-term goal to pursue. This can be anything from "found a family" to "become king of the world!". No matter how unrealistic, an Ambition is a primary driver for a Character, to guide them onward. The important part is to think *big* and include some sort of "call for adventure". Something easily achievable would make for a dull Ambition and defeat the point of it. An ideal Ambition draws your Character out of their comfort zone and safe space, imbuing them with a willingness to leave home and go out into the world! 
+Every PC must have one **Ambition** - a life-fulfilling long-term goal to pursue. This can be anything from "found a family" to "become king of the world!". No matter how unrealistic, an Ambition is a primary driver for a Character, to guide them onward. The important part is to think *big* and include some sort of "call for adventure". Something easily achievable would make for a dull Ambition and defeat the point of it. An ideal Ambition draws your Character out of their comfort zone and safe space, imbuing them with a willingness to leave home and go out into the world! 
 
 An Ambition is not *expected* to change often. An ideal Ambition would accompany a Character a long time. But that isn't to say you mustn't ever change it. On the contrary, if events play out that shake up your Character's deepest desires, then changing their Ambition may be a very appropriate action to take.
 
 Whenever a PC acts in accordance with their Ambition, their player earns [Fate Points](#fate-points). 
 
 ### Aspiration
-Every PC must have three Aspirations - immediate goals to pursue in the current game session. They're usually born from immediate circumstance and are expected to change frequently. 
+Every PC must have three **Aspirations** - immediate goals to pursue in the current game session. They're usually born from immediate circumstance and are expected to change frequently. 
 
-**Aspirations** should be written down as a *conviction*, followed by an *actionable* goal to pursue. Any Aspiration that includes the words "I will ..." is usually *actionable* - the Character wants to **do** something, which will possibly achieve their goal. A *conviction* is a statement of *why* the Character has set this goal. The **action** is the critical piece of information here - what your Character *aims to do*. 
+Aspirations should be written down as a *conviction*, followed by an *actionable* goal to pursue. Any Aspiration that includes the words "I will ..." is usually *actionable* - the Character wants to **do** something, which will possibly achieve their goal. A *conviction* is a statement of *why* the Character has set this goal. The **action** is the critical piece of information here - what your Character *aims to do*. 
 
 > For example, a PC learns of a conspiracy against their lord during the session. After the session, they decide they'll change one of their Aspirations to "My lord's safety is paramount! I will uncover the plot against them!"
 >
@@ -1093,40 +1095,39 @@ Every PC must have three Aspirations - immediate goals to pursue in the current 
 > 
 > With that they set the stage for their Character when the next session arrives. The GM thus has an idea of what story elements to prepare for and the other players know why the one PC suddenly acts more suspiciously and inquisitively. 
 
-Whether fulfilling an aspiration is realistic or not, is not as important as making sure it reflects what your Character believes in. You may very much have unrealistic goals, but they must be in line with what you expect your Character to *want*. 
+Whether fulfilling an Aspiration is realistic or not, is not as important as making sure it reflects what your Character believes in. You may very much have unrealistic goals, but they must be in line with what you expect your Character to *want*. 
 
-> Someone very selfish is unlikely to want to help poor orphans living on the street to find a loving family and new home, without any promise of reward for themselves. Even if helping those orphans would likely be very easy to accomplish in the next session, unless it can be plausibly explained, the Character should probably not receive an aspiration to help those orphans. 
+> Someone very selfish is unlikely to want to help poor orphans living on the street to find a loving family and new home, without any promise of reward for themselves. Even if helping those orphans would likely be very easy to accomplish in the next session, unless it can be plausibly explained, the Character should probably not receive an Aspiration to help those orphans. 
 >
-> On the other hand, that same Character may want to become president. It is unlikely they will succeed (at least any time soon), but this is what they strongly desire. And so they might receive an aspiration for it, regardless of how unlikely this goal is. 
+> On the other hand, that same Character may want to exploit those poor children for their own benefit, by making them work for them, for free. 
 
-Aspirations can be directed towards anyone - including the world itself, NPCs and even other PCs - but **only** if their player agrees. Always keep in mind not to do anything *too* drastic or antagonistic towards fellow PCs! After all, why should people who actually hate each other's guts stick together as a group? Perhaps you can find a good reason, but this should be a **deliberate decision** that the **entire player group agrees on**. This is why it cannot be overstated how important it is that everyone is on the same page regarding **every Character's aspirations**. 
+Aspirations can be directed towards anyone - including the world itself, NPCs and even other PCs - but **only** if their player agrees. Always keep in mind not to do anything *too* drastic or antagonistic towards fellow PCs! After all, why should people who actually hate each other's guts stick together as a group? Perhaps you can find a good reason, but this should be a **deliberate decision** that the **entire player group agrees on**. This is why it cannot be overstated how important it is that everyone is on the same page regarding **every Character's Aspirations**. 
 
-> For example, a PC learns their ally is a member of a secretive and potentially dangerous cult. After the session, the player determines the new Aspiration "I look out for my allies! I will get my ally to leave that dangerous cult!" The player of that other PC accepts, because they understand that aspiration to follow a well-meaning conviction. 
+> For example, a PC learns their ally is a member of a secretive and potentially dangerous cult. After the session, the player determines the new Aspiration "I look out for my allies! I will get my ally to leave that dangerous cult!" The player of that other PC accepts, because they understand that Aspiration to follow a well-meaning conviction. 
 > 
 > Whether successful or not, this Aspiration, in play, will create an **interesting conflict** between the two PCs, if they so choose. 
 
-Should anyone feel uncomfortable with an aspiration someone has chosen, then do not hesitate to bring it up. Perhaps the aspiration is crossing a line, touching on a taboo-subject for you. Everyone should be able to agree with the aspirations the players have chosen. If that is ever not the case, then the problematic aspirations must be changed! 
+Should anyone feel uncomfortable with an Aspiration someone has chosen, then do not hesitate to bring it up. Perhaps the Aspiration is crossing a line, or touching on a taboo-subject for you. Everyone should be able to agree with the Aspirations the players have chosen. If that is ever not the case, then the problematic Aspirations must be changed! 
 
-If you cannot think of three Aspirations, don't hesitate to ask the GM and the other players for ideas and suggestions! Once you have all three Aspirations, make sure to run them by your GM and fellow players. Again, this is to ensure that everyone understands and agrees with the aspirations that have been chosen. If an aspiration seems unclear, then pose the question "does it contain a **clear action** that PC is going to try and take?". If you cannot answer that question without doubt, then the phrasing of the aspiration may need some refinement. This is especially important for the  GM, who must be able to understand your Aspirations to properly run the game. 
+If you cannot think of three Aspirations, don't hesitate to ask the GM and the other players for ideas and suggestions! Once you have all three Aspirations, make sure to run them by your GM and fellow players. Again, this is to ensure that everyone understands and agrees with the Aspirations that have been chosen. If an Aspiration seems unclear, then pose the question "does it contain a **clear action** that PC is going to try and take?". If you cannot answer that question without doubt, then the phrasing of the Aspiration may need some refinement. This is especially important for the  GM, who must be able to understand your Aspirations to properly run the game. 
 
 Whenever a PC acts in accordance with their Aspirations, their player earns [Fate Points](#fate-points). 
 
 ### Reaction
-A player must determine three Reactions for their Character. A Reaction is an automatic behavior - something the Character is *expected* to do *automatically* and without question, when a given situation triggers it. But *expected* doesn't mean *have to*. A player can *choose* to have their Character act against a Reaction - and that may cause them to lose it. 
+A player must determine three **Reactions** for their Character. A Reaction is an automatic behavior - something the Character is *expected* to do *automatically* and without question, when a given situation triggers it. But *expected* doesn't mean *have to*. A player can *choose* to have their Character act against a Reaction - and that may cause them to lose it. 
 
 A Reaction is an "if/then" and "always/never" statement, which can be be beneficial or detrimental to the Character. 
 
 As such, there are two types of Reactions:
 * **Troublemaker**: A detrimental Reaction, that will get the Character in *trouble*.
   * A Troublemaker allows earning [Fate Points](#fate-points). 
-  * *Trouble* is defined as any situation in which a mild conflict arises, from the PC's Reaction. This conflict does not have to be violent, mind you. It should be preferable for a social conflict to arise, that is entirely non-violent. Things could always escalate, of course.
-  * A Troublemaker may also represent a Character's *fears*. Things they will want to avoid, even to the detriment of their other goals. Like a fear of the open sea, of fire, of space and so on. 
-* **Assurance**: A beneficial Reaction that acts as *insurance*, that the Character won't be caught by surprise. 
-  * An Assurance does not allow earning [Fate Points](#fate-points). 
-  * *Insurance* is defined as a *behavior* that allows entering a given situation under more favorable circumstances. An *insurance* can also help prevent or resolve a conflict. 
-  * An Assurance cannot alter the facts of the narrative. It **only** serves to give a PC an advantage in a situation that triggers this Reaction. 
+  * ***Trouble*** is defined as any situation in which a mild conflict arises, from the PC's Reaction. This conflict does not have to be violent. In fact it is preferable for a social conflict to arise, instead. But things could always escalate, of course.
+  * A Troublemaker may also represent a Character's ***fears***. Things they will want to avoid, even to the detriment of their other goals. Like a fear of the open sea, of fire, of space and so on. 
+* **Assurance**: A beneficial Reaction that acts as ***insurance***, that the Character won't be caught by surprise. 
+  * An Assurance does not allow earning Fate Points. 
+  * *Insurance* is defined as a *behavior* that allows entering a given situation under more favorable circumstances. An *insurance* can also help prevent or resolve a conflict, but it cannot alter the facts of the narrative. It **only** serves to give a PC an advantage in a situation that triggers it. 
 
-> For example: "Whenever someone praises the state religion, I start ranting against it." - This is a Troublemaker, as the GM can use it to cause the PC trouble, by presenting them with non-player Characters that praise the state religion while around the PC. 
+> For example: "Whenever someone praises the state religion, I start ranting against it." - This is a Troublemaker, that the GM can challenge with strongly religious NPCs. 
 
 > Another example: "Whenever a violent fight breaks out, I have my weapons in hand!" - This is insurance, that even when the PC narratively might not have their weapons at the ready (for example, when sleeping), they will, in fact, have them at the ready. 
 
@@ -1135,7 +1136,7 @@ Reactions are expected to change whenever a Character (decides) to act against t
 ### Personality Traits
 Every PC has several values that help inform their player what their Character is like - how they act. 
 
-This personality is codified by the following matrix. Each row is a scale, with two opposing traits. Whenever A trait reaches the "signature" column, a PC is *known* for that trait! In fact, they can hardly *not* act that way! In order for behaviour to deviate from a signature trait, a [Self-Control](#self-control-toughtough) Test at Ob `2` or half of of its Raw Level (RU) - take the higher number - must be made. Only if it is a **success**, can the player choose to deviate from the signature trait's dictated behavior. 
+This personality is codified by the following matrix. Each row is a scale, with two opposing traits. Whenever A trait reaches the "Signature" column, a PC is *known* for it! In fact, they can hardly *not* act that way! In order for behaviour to deviate from a Signature Trait, a [Self-Control](#self-control-toughtough) Test at Ob `2` or half of of its Raw Level (RU) - take the higher number - must be made. Only if it is a **success**, can the player choose to deviate from the Signature Trait's dictated behavior. 
 
 Whenever PCs very strongly act in a certain way, their value in a Personality Trait may change. Take note during play, how the Characters have acted. After the session, discuss whether any of the PCs have shown a very strong drift towards either side of the scale. And if everyone agrees, a personality change is in order!
 
@@ -1153,14 +1154,14 @@ Whenever PCs very strongly act in a certain way, their value in a Personality Tr
 
 These values can even have an impact on your [Tests](#tests)! For example, a Character who is known to be merciful may find it easier to convince their enemies to surrender to them. On the other hand, if that same PC tries intimidation, they will find it harder to succeed. 
 
-Keep your Character's Personality Traits in mind and remember to ask your GM for a bonus die to roll in [Tests](#tests), where your "very" strong or "signature" traits might aid you!
+Keep your Character's Personality Traits in mind and remember to ask your GM for a bonus die to roll in Tests, where your "very" strong or "Signature" traits might aid you!
 
 Additionally, playing to or even against their Character's Personality Traits allows earning a player [Fate Points](#fate-points). 
 
 ## Health
-Every Character has **Hit Points (HP)** and may suffer **Injuries**. Additionally, [Conditions](#condition) can apply a variety of [Boons And Penalties](#boons--penalties). 
+Every Character has [Hit Points (HP)](#hit-points-hp) and may suffer [Injuries](#injury). Additionally, [Conditions](#condition) can apply a variety of [Boons And Penalties](#boons--penalties). 
 
-PCs may shrug off Injuries and earn [Grit Points](#grit-points). 
+PCs may Shrug Off Injuries and can earn [Grit Points](#grit-points). 
 
 ### Hit Points (HP)
 **Hit Points (HP)** are a broad abstraction for the overall healthiness of a Character. 
@@ -1169,11 +1170,11 @@ Whenever a Character is hurt, the Damage that has been inflicted upon them is de
 An exception to this rule applies when the [Damage Type](#damage-types) that brought them to `0` HP was [Bludgeoning](#damage-types). For that, see [Bludgeoned To 0 Hp](#bludgeoned-to-0-hp). <br>
 A further exception applies, but only for PCs, who upon reaching `0` HP are brought to [Death's Door](#deaths-door) (unless they are knocked unconscious). 
 
-Whenever a `10` HP segment threshold is reached, an [Injury](#injury) *may* be suffered. For more details, see the [Injury](#injury) section. HP segments are always based on the Character's maximum HP. 
+Whenever HP drop below a segment of `10`, an [Injury](#injury) *may* be suffered. HP segments are always based on the Character's maximum HP. 
 
-> A Character with `30` Maximum HP has `3` HP segments. The thresholds are: `0` (death), `10` (Injury) and `20` (Injury). The *current* HP do not factor into the segments, at all. 
+> A Character with `30` maximum HP has `3` HP segments. The thresholds are: `0` (death), `10` (Injury) and `20` (Injury). The *current* HP do not factor into the segments, at all. 
 
-See the [Toughness](#toughness-tough) Attribute to determine the Maximum HP. Also, the Maximum HP cannot be reduced to less than `10`, for any reason. 
+See the [Toughness](#toughness-tough) Attribute to determine the maximum HP. Also, the maximum HP cannot be reduced to less than `10`, for any reason. 
 
 #### Recovering HP
 A [Graduated](#graduated-test) [Medicine](#medicine-agiwit) Test can restore `hits * D8` HP, up to the current maximum. This Test requires and consumes one unit of [Medical Supplies](#general-assets)! 
@@ -1183,33 +1184,32 @@ A [Graduated](#graduated-test) [Medicine](#medicine-agiwit) Test can restore `hi
 HP also replenish on their own, albeit much slower. For every hour outside of combat, `1D4` HP are regained, up to the current maximum. 
 
 #### Bludgeoned to 0 HP
-When a Character is **bludgeoned** to `0` [HP](#hit-points-hp), they might survive and fall [Unconscious](#unconscious), instead of dying. For that, they must succeed a [Toughness](#toughness-tough) [Test](#tests) at Ob `3`. If they fail, they die, after all.
+When a Character is bludgeoned to `0` [HP](#hit-points-hp), they might survive and fall [Unconscious](#unconscious), instead of dying. For that, they must succeed a [Toughness](#toughness-tough) [Test](#tests) at Ob `3`. If they fail, they die, after all.
 
 #### Temporary Hit-Points
-**Temporary HP** are separate HP whose loss **cannot cause [Injuries](#injury)**. Temporary HP are reduced by damage before regular HP. Only once all Temporary HP are depleted, can regular HP be recued. Damage overflows from Temporary to regular HP. 
+**Temporary HP** are separate HP whose loss **cannot cause [Injuries](#injury)**. Temporary HP are reduced by damage before regular HP. Regular HP only start depleting after all Temporary HP are gone. Damage overflows from Temporary to regular HP. 
 
 > A Character with `22` HP and `5` Temporary HP suffers `6` points of damage. After removing the `5` points of Temporary HP, the remaining `1` point of damage overflows and reduces the regular HP to `21`. 
 
 ### Injury
 An **Injury** is a serious health impediment of a Character. It reduces the maximum [HP](#hit-points-hp) and imposes other [Penalties](#boons--penalties), such as temporary reductions to [Attributes](#attributes).
 
-Whenever a Character loses a `10` [HP](#hit-points-hp) segment, they *may* suffer an Injury, if they fail to **shrug it off**. Note this **does not** require `10+` damage dealt in a single stroke! In fact, even just losing `1` HP can cause an Injury, if it happens to take HP below a segment of `10`, for example from `40` down to `39`. At most `2` Injuries can be suffered from a single instance of damage. 
+Whenever a Character's HP drop below a `10` HP segment, they *may* suffer an Injury, if they fail to **shrug it off**. Note this **does not** require `10+` damage dealt in a single stroke! In fact, even just losing `1` HP can cause an Injury, if it happens to take the HP below a segment of `10`, for example from `40` down to `39`. At most `2` Injuries can be suffered from a single instance of damage. 
 
 > For example, someone unfortunate enough to suffer `30+` points of damage in a single attack need only fear suffering at most `2` Injuries from it. 
 
-Note that only PCs may shrug off Injuries. NPCs simply suffer Injuries, no shrug-offs are rolled. 
+For every Injury incurred, a Character's maximum HP are reduced by `-10`! A penalty to Toughness from an Injury **does not** further reduce the maximum HP! Even a treated Injury still applies the maximum HP penalty, until the moment it is fully healed and removed!
 
-To shrug off an Injury, they must succeed a [Toughness](#toughness-tough) Test with Ob at `N + 1`, where *N* is the number of successful Shrug-Offs, so far. 
-* If they succeed, they suffer no Injury! They must note this success, as every time an Injury is shrugged off, it becomes `+1` Ob harder to shrug off the next! 
-* If failed, they suffer an Injury! See [Suffering An Injury](#suffering-an-injury), below. Also, a PC earns a [Grit Point](#grit-points). 
+#### Shrugging Off An Injury
+To Shrug Off an Injury, they must succeed a [Toughness](#toughness-tough) Test with Ob at `N + 1`, where *N* is the number of successful Shrug-Offs, so far. Note that only PCs may Shrug Off Injuries. NPCs simply suffer Injuries, no Shrug-Offs are rolled. 
+* If successful, no Injury is suffered! They must **note this success**, as every time an Injury is shrugged off, it becomes `+1` Ob harder to Shrug Off the next! 
+* If failed, an Injury is suffered! See [Suffering An Injury](#suffering-an-injury), below. Also, a PC earns a [Grit Point](#grit-points). 
 
-For every rest of at least six uninterrupted hours, the Shrug-Off counter is reduced by `1`.
+Every [Full Rest](#resting), the Shrug-Off counter is reduced by `-1`.
 
 > A PC with `23` HP, has just suffered `4` points of damage, bringing them down to `19` HP. They should now suffer an Injury, if they fail to shrug it off. They have already successfully shrugged off an Injury once before. 
 >
-> Thus, their Ob for their Toughness Test is `1 (from an earlier shrugged off Injury) + 1 (always) = 2`. 
-
-For every Injury incurred, a Character's [Maximum Hp](#hit-points-hp) are reduced by `-10`! A penalty to [Toughness](#toughness-tough) from an Injury **does not** further reduce the [Maximum Hp](#hit-points-hp)! Only by treating and fully healing an Injury, is its [Maximum Hp](#hit-points-hp) penalty removed, along with the Injury. A treated Injury still applies the [Maximum Hp](#hit-points-hp) penalty!
+> Thus, the Ob for their Toughness Test is `1 (from an earlier shrugged off Injury) + 1 (always) = 2`. 
 
 #### Suffering An Injury
 An Injury always applies a [Penalty](#boons--penalties) of `-1` to a randomly selected attribute. To determine which one, roll a `D10` and see the table below: 
@@ -1226,25 +1226,25 @@ Additionally, the [Primary Damage](#primary-damage) that caused the Injury may a
 
 Also keep in mind that whenever a PC suffers an Injury, they earn a [Grit Point](#grit-points)! 
 
-#### Crippling Injury Count
-Accruing more Injuries than your Raw Toughness will result in your Character getting crippled. Every Injury past this threshold will impose a penalty of Ob `+1` to **ALL** Tests!
+#### Crippled By Injuries
+Accruing **more Injuries than your Raw Toughness** will result in your Character getting [Crippled](#crippled). Every Injury past this threshold will impose a penalty of Ob `+1` to **all** Tests!
 
 > A Character with Toughness `1`, suffers their second Injury. This now cripples their Character, meaning **all** their Tests are now `+1` Ob harder to succeed. If they get yet another Injury - their third - they suffer `+2` Ob!
 
 #### Injury States & Treatment
 There are two possible states of an Injury: **Active** or **Treated**. 
-* An Active Injury reduces [Maximum Hp](#hit-points-hp) *and* imposes additional penalites, such as to [Attributes](#attributes). 
-* A Treated Injury *only* imposes a penalty to maximum HP.
+* An Active Injury reduces [Maximum HP](#hit-points-hp) by `-10` *and* imposes additional penalites, such as to [Attributes](#attributes). 
+* A Treated Injury *only* reduces maximum HP by `-10`.
 
 An Injury **must** be treated, if it is to begin healing. There are two ways to treat an Injury:
-1. Through use of a treatment Skill, as dictated by the Damage Type that caused the Injury. See the [Injury & Damage Type Table](#injury--damage-type-table) below. The injured Character or another Character may attempt this treatment. 
-2. The injured Character may do a Test of their [Toughness](#toughness-tough), against the treatment Ob, however, this Test is `+1` Ob harder. 
+1. Through use of a Treatment Skill, as dictated by the Damage Type that caused the Injury. See the [Injury & Damage Type Table](#injury--damage-type-table) below. The Injured Character or another Character may attempt this treatment. 
+2. The Injured Character may do a Test of their [Toughness](#toughness-tough), against the Treatment Ob, however, this Test is `+1` Ob harder. 
 
-The treatment Ob is determined once, by a `D4` roll. 
+The Treatment Ob is determined once, by a `D4` roll. 
 
-Only one treatment attempt may be made every `24` hours on a per-Character basis. **Every** treatment attempt costs `1` [Medical Supplies](#general-assets). 
+Only one Treatment attempt may be made every `24` hours on a per-Character basis. **Every** Treatment attempt costs `1` [Medical Supplies](#general-assets). 
 
-A `2D10 + 10` roll determines the number of **days** the Injury takes to fully heal, once treated. Every `24` hours the time left to heal is reduced by `-1` day. A Treated Injury can be treated again, once every `24` hours, reducing the time left to heal by `-2` days, every time the treatment Test is successful. However, failing the treatment Test increases the time by `+1` day. 
+A `2D10 + 10` roll determines the number of **days** the Injury takes to fully heal, once treated. Every `24` hours the time left to heal is reduced by `-1` day. A Treated Injury can be treated again, once every `24` hours, reducing the time left to heal by `-2` days, every time the Treatment Test is successful. However, failing the Treatment Test increases the time by `+1` day. 
 
 #### Injury & Damage Type Table
 
@@ -1264,7 +1264,7 @@ A `2D10 + 10` roll determines the number of **days** the Injury takes to fully h
 #### Grit Points
 **Grit Points** let a Character stand up in defiance of their [Injuries](#injury) and make a last-ditch effort to turn the wheel of fate around. 
 
-Every time a Character suffers an [Injury](#injury), they gain `+1` Grit Point. These are a one-time use resource and last until they are spent or until *any* [Injury](#injury) has fully healed. 
+Every time a Character suffers an Injury, they gain `+1` Grit Point. These are a one-time use resource and last until they are spent or until *any* Injury has fully healed. Under normal circumstances, only PCs gain Grit Points. 
 
 You may spend Grit Points at any time during a round for the following effects (but only one Grit Point per effect, per round): 
 * On a [Test](#tests), gain `+2D`. 
@@ -1276,32 +1276,26 @@ You may spend Grit Points at any time during a round for the following effects (
 ### Exhaustion
 **Exhaustion** is the measure of a Character's maximum **physical and mental strain** they can endure. 
 
-For every point in [Toughness](#toughness-tough), a Character raises their Exhaustion limit by `+1`. All Characters have a base Exhaustion limit of `1`. 
+For every point in [Toughness](#toughness-tough), a Character raises their Exhaustion Limit by `+1`. All Characters have a base Exhaustion Limit of `1`. 
 
 > At Toughness `1`, you already have an Exhaustion limit of `2`. 
 
-If a Character's Exhaustion **exceeds** their limit, they become [Exhausted](#exhausted) from over-exertion. While Exhausted, a Character suffering further Exhaustion, must succeed a [Self-Control](#self-control-toughtough) [Test](#tests) at Ob equal to their current level of Exhaustion, or else fall [Unconscious](#unconscious). Also, it becomes impossible to use *any* [Skill](#skills) or [Expertise](#expertise) that would cause further Exhaustion!
+If a Character's Exhaustion **exceeds** their Limit, they become [Exhausted](#exhausted) from over-exertion. While Exhausted, a Character suffering further Exhaustion, must succeed a [Self-Control](#self-control-toughtough) [Test](#tests) at Ob equal to their current level of Exhaustion, or else fall [Unconscious](#unconscious). Also, it becomes impossible to use *any* [Skill](#skills) or [Expertise](#expertise) that would cause further Exhaustion!
 
-Exhaustion is gained through performing **exhausting actions** and by wearing **exhausting equipment**. Exhaustion gained from exhausting actions can be reduced by resting. **An hour of uninterrupted rest** will remove `1` point of Exhaustion. Once Exhaustion is back **at or below** the limit, the Exhausted [Condition](#condition) is automatically removed. 
+Exhaustion is gained through performing **exhausting actions** and by wearing **exhausting equipment**. Exhaustion gained from exhausting actions can be reduced by resting. **An hour of uninterrupted rest** will remove `1` point of Exhaustion. Once Exhaustion is back **at or below** the Limit, the Exhausted [Condition](#condition) is automatically removed. 
 
-> If a Character has an Exhaustion limit of `3` and current Exhaustion of `5`, then they must rest for at least `2` hours to clear their Exhausted Condition.  
+> If a Character has an Exhaustion Limit of `3` and current Exhaustion of `5`, then they must rest for at least `2` hours to clear their Exhausted Condition.  
 
-Exhaustion gained from exhausting equipment can be reduced by dropping the equipment in question. It is not possible to put on exhausting equipment that would push your Character past their limit. 
+Exhaustion gained from exhausting equipment can be reduced by dropping the equipment in question. It is not possible to put on exhausting equipment that would push your Character past their Limit. 
 
 ### Condition
 A Character can have positive or negative effects on them, represented by Conditions. They can have any number of Conditions applying to them simultaneously. 
 
-A bit of terminology to keep in mind about health Conditions:
-* A health condition applies on a [Tick](#ticks). 
-* A **graded** Condition has a *degree*, which is a number that represents how strong the Condition's effects are/will be. A *point* of a Condition is one such *degree*. 
-* To *shrug off* a *point* of a Condition means to reduce the *degree* through a [Test](#tests) performed by the affected Character. It may often be possible to immediately cancel out a Condition with external help (e. g. an antidote against [Poison](#poisoned)).
-  * Keep in mind that an attempt to *shrug off* counts as an [Action](#action-points-ap) during combat. 
-  * An attempt to *shrug off* can only be made *after* the [Tick](#ticks) of the effect. 
-* A **greedy Condition** automatically increases in *degree* by `+1` *point* **after** every [Tick](#ticks). 
+All Conditions apply on a [Tick](#ticks) - the start of a Character's Turn. 
+
+Conditions may be **Graded** with a number that represents how strong the Condition's effects are. It may be possible to **Shrug Off** a point through a [Test](#tests). It may also be possible to immediately cancel out a Condition with external help (e. g. an antidote against [Poison](#poisoned)). An attempt to Shrug Off counts as an [Action](#action-points-ap) and can only be made **after** the Tick of the Condition. All Graded Conditions are automatically removed when their points are reduced to `0`. Additionally, some Graded Conditions may be **Greedy** - they automatically increase by `+1` point **after** every [Tick](#ticks). 
 
 Even outside of combat, for as long as a Character in the current scene is suffering one of these Conditions, it is advisable to use very fine and [discrete time-slices](#scenario-time). 
-
-For all **graded** Conditions, keep in mind they last until their *degree* is reduced to 0. 
 
 A listing of all Conditions can be found [in the appendix](#list-of-conditions). 
 
@@ -1310,17 +1304,17 @@ An **Illness** can affect a Character over a perod of time and cause various neg
 
 Illnesses can be contracted in a variety of ways, although most of them involve an open wound exposed to bacterial breeding grounds, such as bogs, sewers, mass graves and trash dumps. Or from something ingested, such as spoiled or poisoned food. 
 
-When a Character is about to contract an Illness, they must make a [Toughness](#toughness-tough) [Test](#tests):
+When a Character is about to contract an Illness, they must make a [Toughness](#toughness-tough) [Test](#tests) with an Ob noted on the Illness:
 * On a Complete Success, the Illness is shrugged off. 
 * On a Partial Failure or Complete Failure, the Illness is contracted and will immediately apply its effects to the Character. 
   * Unless a specific Illness has been contracted, you must determine a random one by rolling a `D100` and picking the corresponding Illness from the [List Of Illnesses](#list-of-illnesses). 
   * Once the Illness has been determined, its duration and severity must also be determined through rolls, as noted on the Illness itself. 
 
-Most illnesses have a duration, during which their effects are active and after which, all ill-effects go away. In some cases, an Illness may have a duration of "until cured", which means it will never go away, if not treated. 
+Most Illnesses have a duration, during which their effects are active and after which, all ill-effects go away. In some cases, an Illness may have a duration of "until cured", which means it will never go away, if not Treated. 
 
 Treatment of an Illness is possible through [Medicine](#medicine-agiwit) or [Surgery](#surgery-agiwit). Which Skill is required, will be noted on the Illness. Treatment will often be able to reduce the ill-effects and sometimes to remove the Illness, altogether. A treatment attempt can only be made once every `24` hours. 
 
-Any Illness when treated has its duration reduced and can only have its duration reduced once. If a treatment would also suspend any ill-effects, that would still be applicable. That way, treating an Illness which already had its duration reduced can still be useful. 
+Any Illness, when Treated, has its duration reduced, but only once. If a treatment would also suspend any ill-effects, that would still be applicable. That way, Treating an Illness which already had its duration reduced can still be useful. 
 
 An Illness can only be suffered once, at a time. It may be suffered again later, but you could also expect that a certain level of immunity within the body has built up, after the previous time it was suffered through. A Character gains `+2D` to any [Toughness](#toughness-tough) [Test](#tests) for any Illness they have suffered in the past. Make sure to note past Illnesses on your Character sheet for this reason. 
 
@@ -1336,33 +1330,33 @@ All damage inflicted, is inflicted with one of these types, which dictate the ty
 | Electrical  | Inflicted by eletrical shock. |
 | Freezing    | Inflicted by extreme cold. |
 | Piercing    | Usually inflicted by any sort of stabbing weapon, like a spear, or an animal's stinger. |
-| Poison      | Inflicted over time, by imbibed or injected substances. |
-| Pure        | A special damage type that cannot be reduced by [Armor](#armor--shields). |
+| Poison      | Inflicted over time, through imbibed or injected substances. |
+| Pure        | A special damage type that **cannot be reduced in any way**. |
 | Slashing    | Usually inflicted by any sort of cutting/slashing weapon, like a blade, or a talon. |
 
 ### Damage Resistances
-Some creatures can resist certain [Damage Types](#damage-types) naturally, while others may cover themselves in armor to the same effect. 
+Some creatures can resist certain [Damage Types](#damage-types) naturally, while others may cover themselves in [Armor](#armor--shields) to the same effect. 
 
 How much Damage is resisted, depends on the specifics of the creature or Character and their [Equipment](#worn--equipped). 
 
 ### Boons & Penalties
 Boons and penalties to the Level of an [Attribute](#attributes) or [Skill](#skills) can be incurred from several different sources, such as [Injuries](#injury), [Illnesses](#illness), [Mutations](#list-of-mutations) and [Conditions](#condition). Boons and penalties may be temporary or permanent, depending on their source. 
 
-A boon to an [Attribute](#attributes) or [Skill](#skills) usually increases their [Modified Level](#raw-vs-modified-level). If a boon awards an [Attribute](#attributes) or [Skill](#skills) that the Character does not yet have, they gain it automatically. 
+A boon to an Attribute or Skill usually increases their [Modified Level](#raw-vs-modified-level). If a boon awards an Attribute or Skill that the Character does not yet have, they gain it automatically. 
 
-A penalty to an [Attribute](#attributes) or [Skill](#skills) decreases their [Modified Level](#raw-vs-modified-level). A penalty **cannot** reduce an [Attribute](#attributes) or [Skill](#skills) to `0` - the minimum reduction is to `1`. But there is an exception - when the Character's only reason for having the [Attribute](#attributes) or [Skill](#skills) is a boon, in the first place. In that case, the penalty **can** reduce the [Modified Level](#raw-vs-modified-level) to `0`, effectively removing the [Attribute](#attributes) or [Skill](#skills). 
+A penalty to an Attribute or Skill decreases their Modified Level. A penalty **cannot** reduce an Attribute or Skill to `0` - the minimum reduction is to `1`. But there is an exception - when the Character's only reason for having the Attribute or Skill is a boon, in the first place. In that case, the penalty **can** reduce the Modified Level to `0`, effectively removing the Attribute or Skill. 
 
 ## Assets
-A Character may *have* things, such as [Worn Equipment](#worn--equipped) and [Luggage](#luggage), as well as the things they *own*, but don't have on person. Collectively, all of these things are referred to as Assets. 
+A Character may *have* things, such as [Worn Equipment](#worn--equipped) and [Luggage](#luggage), as well as the things they *own*, but don't have on person. Collectively, all of these things are referred to as **Assets**. 
 
 An Asset is anything from money, to weapons and ammunition, to food and supplies, to cars and planes, to houses and castles, to space ships and whatever else they might own. 
 
-When choosing the assets to [wear on person](#worn--equipped) and have in your [Luggage](#luggage), keep in mind that *container* type assets **are always implied**. A container type asset is an asset that is dedicated to holding other assets, e. g. a quiver, a sword sheath, a gun holster, a backpack or any type of bag and so on. An archer having a quiver to hold their arrows or a gunman having an ammunition belt or ammunition pouches is implied and need not be tracked explicitly, other than for flavor reasons. This means you *can* still include a sword sheath or a backpack and other such container type assets on your Character sheet, but do **not have to**. You may choose to include a container type asset for flavor reasons, for example when it is especially decorated or has some other unique trait that helps define your Character. **When doing so, set its Bulk to `0`**. You can have as many container type assets as you like, but they will **not** increase your carrying capacity! 
+When choosing the Assets to wear on person and have in your Luggage, keep in mind that *container* type Assets **are always implied**. A container type Asset is an Asset that is dedicated to holding other Assets, e. g. a quiver, a scabbard, a gun holster, a backpack or any type of bag and so on. An archer having a quiver to hold their arrows or a gunman having an ammunition belt or ammunition pouches is implied and need not be tracked explicitly, other than for flavor reasons. This means you *can* still include a scabbard or a backpack and other such container type Assets on your Character sheet, but do **not have to**. You may choose to include a container type Asset for flavor reasons, for example when it is especially decorated or has some other unique trait that helps define your Character. **When doing so, set its Bulk to `0`**. You can have as many container type Assets as you like, but they will **not** increase your [Carrying Capacity](#carrying-capacity)! 
 
 ### Bulk
-Every non-static asset (= any object that can reasonably be picked up) has a Bulk associated with it. This value determines how easy to handle the asset is.
+Every non-static Asset (= any object that can reasonably be picked up) has a Bulk associated with it. This value determines how easy to handle the Asset is.
 
-A lower Bulk means an easier to handle asset. Both weight and size increase an object's Bulk. Bulk can be derived in the following way, but is ultimately up to the situation and GM's discretion. Obviously, not all objects' Bulk can be estimated this way. A truck may have a much higher Bulk than "`7`", just as a huge boulder or even an entire mountain may have way more Bulk than you should even need to discuss. Unless of course if your PCs are super-heroes or gods who reasonably *could* move a mountain. In such a case, you will have to find your own means of estimating Bulk. 
+A lower Bulk means an easier to handle Asset. Both weight and size increase an object's Bulk. Bulk can be derived in the following way, but is ultimately up to the situation and GM's discretion. Obviously, not all objects' Bulk can be estimated this way. A truck may have a much higher Bulk than "`7`", just as a huge boulder or even an entire mountain may have way more Bulk than you should even need to discuss. Unless of course if your PCs are super-heroes or gods who reasonably *could* move a mountain. In such a case, you will have to find your own means of estimating Bulk. 
 
 | weight ><br> size v | low | moderate | high | very high | 
 | --------------- | --- | -------- | ---- | --------- |
@@ -1373,9 +1367,9 @@ A lower Bulk means an easier to handle asset. Both weight and size increase an o
 | huge            | 4   | 5        | 6    | 7         |
 
 ### Worn & Equipped
-Every Character can have Assets they wear or carry on person. These things do not factor into their used [Carrying Capacity](#carrying-capacity) and are listed on their Character sheet in a separate section. Every asset on person has to be placed in a so called Asset Slot. 
+Every Character can have Assets they wear or carry on person. These things do not factor into their used [Carrying Capacity](#carrying-capacity) and are listed on their Character sheet in a separate section. Every Asset on person has to be placed in a so called Asset Slot. 
 
-Every Asset Slot has a maximum Bulk it can hold. Two or more Asset Slots of the **same type** can be combined to hold a single asset that is too Bulky for just one Asset Slot. The amount of Bulk each Asset Slot can hold can be increased with greater [Strength](#strength-str). 
+Every Asset Slot has a maximum Bulk it can hold. Two or more Asset Slots of the **same type** can be combined to hold a single Asset that is too Bulky for just one Asset Slot. The amount of Bulk each Asset Slot can hold can be increased with greater [Strength](#strength-str). 
 
 Every humanoid Character has the following Asset Slot for worn & equipped Assets available:
 * One Asset Slot for clothing of up to `4` Bulk. 
@@ -1384,39 +1378,35 @@ Every humanoid Character has the following Asset Slot for worn & equipped Assets
   * This would allow creatures with more than two appendages to potentially hold a lot more things. 
 * One Asset Slot for a back-strapped thing of up to `3` Bulk. 
   * A backpack or similar thing need not be listed, as it is implied by the ability to have [Luggage](#luggage) on person. 
-* Asset Slots for any number of worn jewelry or other ornaments.
-  * This only considers *light* jewelry and ornaments. Things that wouldn't encumber their wearer noticeably. Such as rings, bracelets, amulets or similar. 
 
 ### Luggage
-In addition to the things a Character can *wear* on their person, they can also carry around things in a backpack, in pouches, slung over the shoulder or using whatever on person storage solution available. These things are considered a Character's Luggage. 
+In addition to the things a Character can *wear* on their person, they can also carry around things in a backpack, in pouches, slung over the shoulder or using whatever on person storage solution available. These things are considered a Character's **Luggage**. 
 
-Things such as money, valuables, camping equipment, tools, provisions, ammunition and so on, all count as Luggage. 
-
-How much Luggage a Character can have on them, is determined by their [Carrying Capacity](#carrying-capacity). For every point of it, a Character gets one *slot* for a piece of Luggage. 
+Things such as money, valuables, camping equipment, tools, provisions, ammunition and so on, all count as Luggage. How much Luggage a Character can have on them, is determined by their [Carrying Capacity](#carrying-capacity). 
 
 #### Carrying Capacity
-How much [Luggage](#luggage) a Character can comfortably have on them, is determined by their Carrying Capacity, which is a Bulk limit of Assets that a person can be carrying around on their person. [Worn & equipped](#worn--equipped) Assets are *excluded* and don't count towards this limit. 
+How much [Luggage](#luggage) a Character can comfortably have on them, is determined by their **Carrying Capacity**, which is a Bulk limit of Assets that a person can be carrying around on their person. [Worn & equipped](#worn--equipped) Assets are *excluded* and don't count towards this limit. 
 
-A Character's Carrying Capacity is determined by their [Strength](#strength-str). For each point in this Attribute, a Character raises their Carrying Capacity by `3`. 
+A Character's Carrying Capacity is determined by their `Strength * 3`. 
 
 #### Overweight
-A Character *may* carry more than their [Carrying Capacity](#carrying-capacity) comfortably allows, *if* they succeed a [Strength](#strength-str) Test, once every `6` hours. The Ob is equal to the number of increments of `3` of Bulk that they're over their limit. If they fail, they must drop some of their [Luggage](#luggage). If they succeed, they may proceed, but suffer a penalty of `-1D` to all [Tests](#tests) (except the [Strength](#strength-str) Test) for every `3` Bulk increment over the limit. 
+A Character *may* carry more than their [Carrying Capacity](#carrying-capacity) comfortably allows, *if* they succeed a [Strength](#strength-str) Test, once every `6` hours. The Ob is equal to the number of increments of `3` of Bulk that they're over their limit. If they fail, they must drop some of their [Luggage](#luggage). If they succeed, they may proceed, but suffer a penalty of `-1D` to all [Tests](#tests) (except the Strength Test) for every `3` Bulk increment over the limit. 
 
-> A Character with a Carrying Capacity of `6` and currently with `5` Bulk in their Luggage, tries to pick up a Bulk `5` Asset. This brings them to a current Bulk of `10` in their luggage, which is `4` points over their limit. This represents two increments of 3. Thus they must succeed a [Strength](#strength-str) at Ob `2` and suffer `-2D` to all Tests (except *this* [Strength](#strength-str) Test). 
+> A Character with a Carrying Capacity of `6` and currently with `5` Bulk in their Luggage, tries to pick up a Bulk `5` Asset. This brings them to a current Bulk of `10` in their luggage, which is `4` points over their limit. This represents two increments of `3`. Thus they must succeed a Strength at Ob `2` and suffer `-2D` to all Tests (except *this* Strength Test). 
 
 ### Property
 Often times, Characters will also own things they don't currently have on their person, or which they couldn't reasonably carry on person. 
 
-Things such as an owned plot of land, a house, money in the bank, equipment and tools left at home and so on, all count as Property. Technically, it wouldn't be incorrect to consider things a Character has on person as Property, as well, but it would bloat up a Character sheet unnecessarily to list those things twice. 
+Things such as an owned plot of land, a house, money in the bank, equipment and tools left at home and so on, all count as **Property**. Technically, it wouldn't be incorrect to consider things a Character has on person as Property, as well, but it would bloat up a Character sheet unnecessarily to list those things twice. 
 
 There is no limit for how much Property a Character can have. Except, perhaps, how much they can keep safe from greedy hands. 
 
 # Fate Points
-Fate points (**FP**) represent a meta-currency that *players* can earn and use to buy boons for their Character or the group as a whole. At the end of every session, players and the GM should discuss who earned which FP, followed by awarding those FP. 
+**Fate points (FP)** represent a meta-currency that *players* can earn and use to buy boons for their Character or the group as a whole. At the end of every session, players and the GM should discuss who earned which FP, followed by awarding those FP. 
 
 There are three types of FP: [Minor](#minor-fate-points), [Major](#major-fate-points) and [Ambition](#ambition-fate-points). 
 
-FP are earned, by playing to the Character's [Personality](#personality). Most FP are earned by a single player, but some may also be earned by the players as a group. 
+Most FP are earned, by playing to the Character's [Personality](#personality) - working towards or concluding their [Ambition](#ambition) and [Aspirations](#aspiration) or by getting into trouble through [Reactions](#reaction). Most FP are earned by a single player, but some may also be earned by the player group. 
 
 FP are downwards-convertible, meaning if you need to, you can turn a single more significant FP into several less significant FP. Note that converting "upwards" is **not** possible. 
 
@@ -1424,8 +1414,8 @@ FP are downwards-convertible, meaning if you need to, you can turn a single more
 **Minor Fate Points (MiFP)** are the least significant and most common type of FP, earned immediately through the mechanics of the game. 
 
 MiFP can be earned in the following ways: 
-* **Aspiration**: Playing to one's Aspirations. This only counts *working towards* an Aspiration. 
-* **Personality**: Playing in accordance to one's signature Personality Traits. 
+* **Driven**: *Working towards* an Ambition or Aspiration. 
+* **Personality**: Playing in accordance to one's Signature Personality Traits. 
 * **Specialist**: Driving the story forward, when no one else could - having the right skill to employ at the right time. 
 * **Trouble**: Playing to one's Reactions - if they get their Character, or their allies, into [Trouble](#reaction). 
 
@@ -1435,8 +1425,8 @@ MiFP can be earned in the following ways:
 A single MaFP can be converted into `5` MiFP. 
 
 MaFP can be earned in the following ways: 
+* **Achieved Aspiration**: Accomplishing an Aspiration, achieving its goal. 
 * **Achievements**: Whenever a major plot point or story arc is concluded - a great journey, uncovering a plot of assassination, fulfilling a contract to clear out a bandit camp or discovering an ancient artifact, all count as *achievements*, which earn this award **for all the players, as a group**. 
-* **Aspiration**: Accomplishing an Aspiration, achieving its goal. 
 * **Collaboration**: Working with the GM to further the world and the story in creative ways and helping the GM out when possible. Secret plots that only one of the players is involved in, which causes gasps and applause from the other players, when the plot is finally revealed, for example. 
 * **Creative Solutions**: Coming up with a very creative way to solve a problem. This may be a diplomatic solution, where the GM thought one impossible. Or, perhaps an unexpected use of the environment during [Combat](#combat), which yielded the PCs a distinct advantage on the battlefield, in a way the GM didn't foresee. 
 * **Embodiment**: Capturing their Character and personifying them, in the moment. For example, by giving a great speech, acting scared, enjoying a bitter revenge with glee or convincingly portraying an inner conflict (for example, when contradicting an Aspiration or Reaction). 
@@ -1449,7 +1439,7 @@ MaFP can be earned in the following ways:
 A single AFP can be converted into `15` MaFP. 
 
 AFP can be earned in the following ways: 
-* **Achiever**: Achieving and thus concluding an Ambition. 
+* **Achieved Ambition**: Achieving and thus concluding an Ambition. 
 * **Selfless**: Going above and beyond to achieve something, a betterment, not for oneself, but for others and at great cost. 
 * **World-Shaper**: Changing the world around oneself in a significant way. 
 
@@ -1484,52 +1474,63 @@ There are two broad disctinctions of time-flow made:
 There will be times when the order in which Characters act matters. For this, see the [Initiative](#initiative) section. Most often, though, PCs will act at irregular times, depending on circumstance. 
 
 ## Initiative
-When the order in which Characters act matters, rolls for Initiative are needed. **Initiative** is the number that determines when a Character should get a chance to act. 
+When the order in which Characters act matters, an **Initiative Order** is needed. **Initiative** is the rolled number that determines when a Character should get a chance to act. To this end, the Initiative of all involved parties is collected and sorted. The Character who rolled the highest number gets to act first and then in descending order, the next Character after them, until all Characters have had their **Turn** to act. 
 
-The Initiative of all involved parties is collected and sorted, which forms the so called Initiative Order. The first Character in the Initiative Order gets to act first, then the Character after them gets to act and so on. Higher Initiative allows for an earlier Turn. 
+The steps to determine the Initiatve Order are as follows: 
+1. Every Character rolls for Initiative with a `D20`. 
+2. Add [Base Initiative](#base-initiative-bi) to the rolled number. 
+3. If two Characters achieve the same number, the one with the higher Base Initiative gets to act first. If those numbers are also the same, a coin flip may decide. 
 
-The steps to determine the **initiatve order** are as follows: 
-1. Every Character who rolls for Initiative, must do so with a `D20`. 
-2. They add their [Base Initiative](#base-initiative-bi) to the number they rolled. 
-3. If a Character enters the Initiative Order more than once, then every consecutive Initiative Roll of theirs is divided by its order. So the first Initiative Roll is the same as for other Characters. But the second Initiative Roll is halved (= divided by `2`), the third is divided by `3` and so on. The resulting number is rounded up. There is no need for fractions here. 
-4. If two Characters achieve the same number, they must each roll a `D20` again, until one of the numbers is higher. The Character with the higher number gets to act before the other. 
-5. The result, is their place in the Initiative Order.
-6. A higher Initiative results in an earlier Turn while lower Initiative results in a later Turn. 
+The point in time when a Character gets to act (or abstain from their action) is called their **Turn**. When all Characters have had their Turn, a **Round** is concluded. After that, the first person in the Initiative Order gets to act again and a new Round is begun. This cycle continues, until Initiative Order is no longer needed. 
 
-The point in time when a Character gets to act (or abstain from their action) is called their Turn. When all Characters have had their Turn, a Round is concluded. After that, the first person in the Initiative Order gets to act again and a new Round is begun. This cycle continues, until Initiative Order is no longer needed. 
+A Character can delay their Turn willingly. They get a final chance to act **at the end of the Round**. If multiple Characters delay their Turn, they'll get another chance at the end of a Round, in the same order they normally would have. In other words, the last Character to delay is also the last to act.
 
-A Character can abstain from their action willingly. They get a final chance to act at the end of the Round. They can abstain from that action, too, which ends the Round for them. Then, in the next Round, their time to act is back to what the Initiative Order dictates. If multiple Characters abstain from their action, they'll get another chance at the end of a Round, in the same order they normally would have. In other words, the last Character to abstain from their action is the last person to get another chance at the end of a Round. 
+Most prominently, Initiative Order is used during [Combat](#combat). But it could also find application during other times, such as a chase-sequence, negotiations, or during [Down-Time](#down-time). Initiative Order could even be used on a more abstract level, to determine in what order Characters get to try out their political schemes. The concrete instances when Initiative Order is to be used, will be up to the GM to decide. 
 
-Most prominently, Initiative Order is used during [Combat](#combat). But it could also find application during other times, such as a chase-sequence, negotiations, or during [Down-Time](#down-time). Initiative could even be used on a more abstract level, to determine in what order Characters get to try out their political schemes. The concrete instances when Initiative is to be used, will be up to the GM to decide. 
-
-Some Characters may be granted the ability to enter the Initiative Order multiple times, meaning they get to make multiple Initiative Rolls for a Round. 
+Some Characters may be granted the ability to enter the Initiative Order multiple times, meaning they get to make multiple Initiative rolls for a Round. If a Character enters the Initiative Order more than once, then every consecutive Initiative of theirs is divided by its order. The first Initiative roll is the same as for other Characters. But the second Initiative roll is halved (= divided by `2`), the third is divided by `3` and so on. The resulting number is rounded up. 
 
 ### Surprise Round
-If one party is surprised, for example during an ambush, then the ambushing party gets to act for a full Round, without the ambushed party getting a chance to act. This is called a Surprise Round. After the Surprise Round Initiative is handled as normal. Additionally, any surprised Characters **do not** get their starting [AP](#action-points-ap), until the end of the surprise round! 
+If one party is surprised, for example during an ambush, then the ambushing party gets to act for a full Round, without the ambushed party getting a chance to act. This is called a **Surprise Round**. After the Surprise Round Initiative Order is handled as normal. Additionally, any surprised Characters **do not** get their starting [AP](#action-points-ap), until the end of the Surprise Round! 
 
-To determine whether a Round is a Surprise Round, determine awareness with [Stealth](#stealth-agiawar) opposed by [Observation](#observation-awarawar) [Tests](#tests). 
+Usually, circumstance may grant a Surprise Round, but in case it doesn't you may Test for it, with [Stealth](#stealth-agiawar) opposed by [Observation](#observation-awarawar). 
 
 > Surprise Round does not apply to opponents standing right in front of each other in conversation, when one of them suddenly draws a dagger and attacks. The attacker can be clearly seen by the defender (assuming they can see) and thus does not result in a Surprise Round. Of course, the specifics are always up to the scenario at hand and to the GM's ruling. 
 
 ## Ticks
-A **Tick** is the instant in time, at the **start of a Character's Turn** during combat or every `5` seconds outside of combat. 
+A **Tick** is the instant in time, at the **start of a Character's Turn** during [Combat](#combat), or every `5` seconds outside of Combat. 
 
-This is the point in time when a health [Condition](#condition)'s effects (such as the damage from [Bleeding](#bleeding)) is suffered by the Character, before other Turn effects (whatever those may be) apply. 
+This is the point in time when a [Conditions](#condition) are suffered by the Character, before other Turn effects (whatever those may be) apply. 
 
-A Tick always occurs for a Character, even when skipping their Turn. 
+A Tick **always** occurs for a Character, even when skipping or delaying their Turn. 
+
+## Resting
+All creatures that can be tired, require sleep. Some [Conditions](#condition) can only be cleared by resting. A **Full Rest** requires at least `6` uninterrupted hours of *active resting*. That implies not doing anything besides sleeping or meditating. Anything less than a Full Rest is a **Partial Rest**. 
+
+An interruption of a Full Rest is any break in the rest, when a Character is forced to do something physically or mentally taxing that keeps them from sleep. If in doubt - a Test is almost always going to be taxing in some way.
+
+Whenever resting in an **unsafe environment**, such as out in the wild or on a city's streets, animals, bandits or monsters - given the setting and narrative allow for it - might surprise any resting Characters. Therefore, it is advisable to set up a watch. But be careful - those on watch could fall asleep during their vigil! To determine whether they succumb to their own exhaustion, they must Test their [Self-Control](#self-control-toughtough) once, at the beginning of their watch. The Ob is equal to their current level of [Exhaustion](#exhaustion), `+1`. If multiple Characters stay up for the watch at the same time, they can help each other stay awake, reducing the Ob by `-1` for each who stay awake. The Ob to stay awake can never be reduced to less than `1`. 
+
+> A Character with an Exhaustion of `3` is tasked with standing watch one night. In order to avoid falling asleep, they must succeed a Self-Control Test at Ob `3 (from their Exhaustion) + 1 (always) = 4`. 
+
+## Scenario-Time
+In contrast to [Down-Time](#down-time), scenario-time describes the point in the narrative when the PCs are dealing with a specific situation on a fine-grained level, where the amount of time that is spent matters. 
+
+This is especially the case in scenarios of [Combat](#combat), tense negotiation, perilous exploration, survival and the like, where each individual step on the path matters as much as the path itself. 
+
+There is also the distinction to be made whether the order in which Characters act in matters. If it does, then the rules for [Initiative](#initiative) must be used. [Combat](#combat) is the most prominent - but not the only - example of such a case. 
 
 ## Down-Time
-When not currently dealing with events on a detailed level - there and in the moment - PC's can spend their time on a more abstract level. This applies especially to activities that take greater amounts of time, such as recovering from Injuries, travel, engaging in their trade, honing their [Skill](#skills) and such. 
+When not currently dealing with events on a detailed level - there and in the moment - PC's can spend their time on a more abstract level. This applies especially to activities that take greater amounts of time, such as recovering from [Injuries](#injury), travel, engaging in their trade, honing their [Skills](#skills) and such. 
 
 ### Crafting & Research Projects
 <img src="../../img/crafting.svg" style="width: 3rem; height: 3rem;"></img>
 
-In their own free time, Characters can spend time and resources to create [Assets](#assets), [research obscure subjects, make scientific discoveries](#research-projects) or entirely new [Inventions](#invention-projects). 
+In their own free time, Characters can spend time and resources to create [Assets](#assets), [research obscure subjects or make scientific discoveries](#research-projects), or devise entirely new [Inventions](#invention-projects). 
 
-Some crafts may be possible while travelling, but most are assumed to be done during down-time, when the PCs aren't currently travelling or on adventures. Research will always require down-time. 
+Some crafts may be possible while travelling, but most are assumed to be done when the PCs aren't currently travelling or on adventures. Research will always require Down-Time. 
 
 #### Project Prerequisites
-Typically, a project can only be worked on with access to necessary resources and know-how. Skills that detail how they can be used for crafting will also note the prerequisites required. As always, the GM has the final word. 
+Typically, a project can only be worked on with access to necessary resources and know-how. [Skills](#skills) that detail how they can be used for crafting will also note the prerequisites required. As always, the GM has the final word. 
 
 #### Progressing a Project
 Every Project's **progress** is tracked numerically. All progress begins at `0` and is increased through use of a particular Skill, further called the **Project Skill**. 
@@ -1679,24 +1680,6 @@ The supply is assumed to be relative to the demand. The more something is in dem
 | **Moderate**  | 14 Hours <br> Ob 1 <br>  80%   | 16 Hours <br> Ob 2 <br>  90% | 20 Hours <br> Ob 3 <br> 100%  | 1 Day <br> Ob 4 <br> 110%    | 
 | **High**      | 6 Days <br> Ob 2 <br> 110%     | 8 Hours <br> Ob 3 <br> 120%  | 10 Hours <br> Ob 4 <br> 130%  | 12 Hours <br> Ob 5 <br> 140% | 
 | **Very High** | 30 Minutes <br> Ob 3 <br> 140% | 1 Hour  <br> Ob 4 <br> 160%  | 2 Hours <br> Ob 5 <br> 180%   | 4 Hours <br> Ob 6 <br> 200%  | 
-
-## Resting
-All creatures that can be tired, require sleep. Some [Conditions](#condition) can only be cleared by resting. A **Full Rest** requires at least `6` uninterrupted hours of *active resting*. That implies not doing anything besides sleeping or meditating. Anything less than a Full Rest is a **Partial Rest**. 
-
-An interruption of a Full Rest is any break in the rest, when a Character is forced to do something physically or mentally taxing that keeps them from sleep. If in doubt - a Test is almost always going to be taxing in some way.
-
-Whenever resting in an **unsafe environment**, such as out in the wild or on a city's streets, animals, bandits or monsters - given the setting and narrative allow for it - might surprise the resting Character(s). Therefore, it is advisable to set up a watch. But be careful - the Characters on watch could fall asleep during their vigil! To determine whether they fall asleep, they must Test their [Self-Control](#self-control-toughtough) once, at the beginning of their watch. The Ob is equal to their current level of Exhaustion, `+1` for every `3` hour increment they need to stay awake for. If multiple Characters stay up for the watch at the same time, they can help each other stay awake, reducing the Ob by `-1` for each who stay awake. The Ob to stay awake can never be reduced to less than `1`. 
-
-> To stand watch for a Full Rest of `6` hours, a Character would need to succeed their Self-Control Test at at least Ob `2`. Should they also be exhausted already, their Ob may be higher. 
->
-> Their ally, who is also staying awake with them, decides to help them stay awake by making use of their Commanding Skill. They are a superior officer and their commands carry weight, which helps their underling ally stay awake, reducing the Ob to `1`. 
-
-## Scenario-Time
-In contrast to [Down-Time](#down-time), scenario-time describes the point in the narrative when the PCs are dealing with a specific situation on a fine-grained level, where the amount of time that is spent matters. 
-
-This is especially the case in scenarios of [Combat](#combat), tense negotiation, perilous exploration, survival and the like, where each individual step on the path matters as much as the path itself. 
-
-There is also the distinction to be made whether the order in which Characters act in matters. If it does, then the rules for [Initiative](#initiative) must be used. [Combat](#combat) is the most prominent - but not the only - example of such a case. 
 
 # Combat
 When diplomacy fails, hostilities ensue. This is when the game enters into a state that is handled very carefully. How time is *sliced* and when Characters get to act, is crucial. 
@@ -1879,7 +1862,7 @@ Armor serves as life insurance, because it can negate or at least reduce the dam
 
 Shields on the other hand provide bonuses to defense, making it harder for an enemy to succesfully land a hit in the first place. 
 
-The specifics of armors and shields can be found asset appendix of whatever module you're using. 
+The specifics of armors and shields can be found Asset appendix of whatever module you're using. 
 
 ### Defending an Ally
 It is possible for a Character to defend an adjacent ally when they're being attacked. This costs `1` [AP](#action-points-ap) and results in the ally taking over the Defense Test, instead of the originally attacked Character. 
@@ -1941,7 +1924,7 @@ The Momentum mechanics can make PCs feel very heroic! They allow them to finish 
 | Heroic Act <br><img src="../../img/heroic-acts.svg" width="64px" height="64px"></img> | Heroic Act Description | Desperate Measure Description | Desperate Measure <br><img src="../../img/desperate-measures.svg" width="64px" height="64px"></img> |
 | ----------------------- | ---------------------- | ----------------------------- | --------------------------- |
 | Death Mark <br><img src="../../img/heroic-act_death-mark.svg" width="64px" height="64px"></img>| Until the end of combat, a chosen enemy is [Marked](#marked). All damage they suffer causes them `+1` point of [Bleeding](#bleeding). This [Condition](#condition) cannot be removed normally. Decreases Momentum by `-15`. | Until the end of combat, a chosen **enemy and** PC are [Marked](#marked). All damage either suffers causes them `+1` point of [Bleeding](#bleeding). This [Condition](#condition) cannot be removed normally, unless either of the two Characters strikes down their pactee. Also, when that happens, the survivor gains `+10` [Temporary HP](#temporary-hit-points). Increases Momentum by `+10`. | Death Pact <br><img src="../../img/desperate-measure_death-pact.svg" width="64px" height="64px"></img> |
-| Finest Hour <br><img src="../../img/heroic-act_finest-hour.svg" width="64px" height="64px"></img>| A PC of choice gets an immediate Turn, with `5` [AP](#action-points-ap). Decreases Momentum by `-30`. | All PCs get an immediate Turn, with `2` [AP](#action-points-ap), but also suffer `+3` degrees of [Bleeding](#bleeding). Increases Momentum by `+20`. | Final Hour <br><img src="../../img/desperate-measure_final-hour.svg" width="64px" height="64px"></img> |
+| Finest Hour <br><img src="../../img/heroic-act_finest-hour.svg" width="64px" height="64px"></img>| A PC of choice gets an immediate Turn, with `5` [AP](#action-points-ap). Decreases Momentum by `-30`. | All PCs get an immediate Turn, with `2` [AP](#action-points-ap), but also suffer `+3` points of [Bleeding](#bleeding). Increases Momentum by `+20`. | Final Hour <br><img src="../../img/desperate-measure_final-hour.svg" width="64px" height="64px"></img> |
 | Finish It! <br><img src="../../img/heroic-act_finish-it.svg" width="64px" height="64px"></img>| A chosen PC launches an immediate attack against a chosen foe, with `1` [Compensation Point](#compensation-points). If successful, that foe suffers `(Injury count * 10) + 5` points of additional Pure damage. Decreases Momentum by `-30`. | A chosen PC launches an immediate attack against a chosen foe, with `1` [Compensation Point](#compensation-points). If successful, the foe suffers `(Injury count * 10) + 20` points of additional Pure damage. If unsuccessful, the PC instead suffers `(Injury count * 10) + 10` points of Pure damage. Increases Momentum by `+10`. | You or Me <br><img src="../../img/desperate-measure_you-or-me.svg" width="64px" height="64px"></img> |
 | Pre-Emptive Strikes <br><img src="../../img/heroic-act_pre-emptive-strikes.svg" width="64px" height="64px"></img>| Until the end of combat, a chosen **PC's** first attack every round costs no [AP](#action-points-ap)! Decreases Momentum by `-30`. | All PCs may immediately make one attack against one or more chosen foes, with `1` [Compensation Point](#compensation-points). This attack costs no [AP](#action-points-ap), but every foe hit may launch a free [Counter-Attack](#defense-stunts), with `1` [Compensation Point](#compensation-points), after all PCs have acted. Increases Momentum by `+10`. | Breakout Strikes <br><img src="../../img/desperate-measure_breakout-strikes.svg" width="64px" height="64px"></img> |
 | Tactical Repositioning <br><img src="../../img/heroic-act_tactical-repositioning.svg" width="64px" height="64px"></img>| All PCs may immediately re-position, moving up to `10`, without triggering any [Opportunity Attacks](#opportunity-attacks). Decreases Momentum by `-10`. | All PCs may immediately re-position, moving up to `10`, without triggering any [Opportunity Attacks](#opportunity-attacks). However, up to three foes immediately gain `+1`, or one foe `+3` [AP](#action-points-ap). Increases Momentum by `+5`. | Desperate Repositioning <br><img src="../../img/desperate-measure_desperate-repositioning.svg" width="64px" height="64px"></img> |
@@ -2178,7 +2161,7 @@ The following table provides appearance traits for you to pick via the roll of a
 ### Determine Personality
 Perhaps more important than a name, is the personality that it represents. Think about what you want your Character to be like - are they very sociable? Or perhaps a taciturn brute who'd rather let their actions speak? A cruel man of science? A socialite with friends everywhere? The options are plentiful!
 
-Refer to the table in the [Personality Traits](#personality-traits) section. You can choose freely, where to place your "x", for every row. You can even leave every trait at "undecided" and find out through play what your Character is like. If you prefer, you can even let chance decide for you! For that, roll a `D6` for every row. A 0 results in a "signature" trait on the left side of the scale, while a 6 results in a "signature" trait on the right side of the scale. Using this method, you will **not** have *any* "undecided" traits in the end. 
+Refer to the table in the [Personality Traits](#personality-matrix) section. You can choose freely, where to place your "x", for every row. You can even leave every trait at "undecided" and find out through play what your Character is like. If you prefer, you can even let chance decide for you! For that, roll a `D6` for every row. A 0 results in a "Signature" trait on the left side of the scale, while a 6 results in a "Signature" trait on the right side of the scale. Using this method, you will **not** have *any* "undecided" traits in the end. 
 
 #### Determine Ambition, Aspirations & Reactions
 This is where things may get a little difficult. Work together with your GM, as they know their world and what kinds of agendas the people in it might have. 
@@ -2224,7 +2207,7 @@ For reactions, you're fairly free to pick and choose, so long as you keep in min
 > An improved version would be "Whenever an ally near me is in trouble, I come to their aid". 
 
 ### Determine Abilities
-Next up, you can reinforce your Character's [Personality](#personality) with the abilities they have. Or even prepare a conflict of what your Character *can* do and what they *think* they can do. 
+Next up, you can reinforce your Character's [Personality](#personality-traits) with the abilities they have. Or even prepare a conflict of what your Character *can* do and what they *think* they can do. 
 
 Note this section implies Raw Level of [Attributes](#attributes) and [Skills](#skills). 
 
@@ -2289,14 +2272,14 @@ Determine your Character's **max HP** and Injury Limit, by referring to the [Tou
 Determine your Character's [Exhaustion Limit](#exhaustion), by referring to the [Toughness](#toughness-tough) attribute. 
 
 ## Assets Appendix
-The following list does not and cannot aim to be a complete listing of all possible assets in game. Adding new assets as necessary will have to be done by the GM. 
+The following list does not and cannot aim to be a complete listing of all possible Assets in game. Adding new Assets as necessary will have to be done by the GM. 
 
 ### General Assets
-The following is a non-exhaustive list of general assets. Just because an asset you're looking for isn't listed here, doesn't mean it cannot exist! You are encouraged to think creatively and [Invent](strive-core.md#invention-projects) your own!
+The following is a non-exhaustive list of general Assets. Just because an Asset you're looking for isn't listed here, doesn't mean it cannot exist! You are encouraged to think creatively and [Invent](strive-core.md#invention-projects) your own!
 
-In the following table, `Q` refers to the quality grade of the asset. See also the [Crafting](./strive-core.md#crafting--research-projects) rules. When in a hurry (as a GM), substitute the `Q` with `2`.
+In the following table, `Q` refers to the quality grade of the Asset. See also the [Crafting](./strive-core.md#crafting--research-projects) rules. When in a hurry (as a GM), substitute the `Q` with `2`.
 
-When looking up products for crafting, the tools and materials required for the craft are not noted here. The materials and resources available to you, and which exist in your world simply cannot be predicted here. Instead, think creatively - what *could* you use to make the thing? What do you have available? Find a creative way to use what you have, to make what you want and ask your GM for the final go-ahead. However, the [Progress Increment (PI)](#progressing-a-project) and [Time Increment (TI)](#progressing-a-project) are noted. Particularly rare, valuable and suitable materials may act as [Project Boosters](#project-boosters). Some assets may harder or easier to make at higher qualities, as noted by the *Crafting Ob*, which, if noted, is the modifier applied to *every* [Project Skill Test](#progressing-a-project).
+When looking up products for crafting, the tools and materials required for the craft are not noted here. The materials and resources available to you, and which exist in your world simply cannot be predicted here. Instead, think creatively - what *could* you use to make the thing? What do you have available? Find a creative way to use what you have, to make what you want and ask your GM for the final go-ahead. However, the [Progress Increment (PI)](#progressing-a-project) and [Time Increment (TI)](#progressing-a-project) are noted. Particularly rare, valuable and suitable materials may act as [Project Boosters](#project-boosters). Some Assets may harder or easier to make at higher qualities, as noted by the *Crafting Ob*, which, if noted, is the modifier applied to *every* [Project Skill Test](#progressing-a-project).
 
 | Name                   | Bulk | Max. Stack Size | Description                                                              | PI  | TI         | Crafting Ob |
 | ---------------------- | ---- | --------------- | ------------------------------------------------------------------------ | --- | ---------- | ----------- |
@@ -2306,7 +2289,7 @@ When looking up products for crafting, the tools and materials required for the 
 | Ration                 | 1    | 10              | A ration of preserved food and drink, enough for a whole day. | 10 | 30 Minutes |  |
 
 ### Weapon Properties
-Weapon type assets can have the following traits:
+Weapon type Assets can have the following traits:
 
 #### Melee
 Allows attacking an adjacent target.
@@ -2799,19 +2782,19 @@ The following is a list of all [Conditions](#condition) of the core rules.
 A Character who is in **Berserk** Condition, **must** attack the creature nearest to them, regardless of whether it is friend or foe, until it is either dead or unconscious. The **Berserked** Character **must** then move on to the next available and closest victim. 
 
 * Graded
-* Shrug off: `-1` *point* with a [Self-Control](#self-control-toughtough) [Test](#tests) with Ob `2`. 
-* Automatic shrug-off: `-1` *point* at the end of the Turn. 
+* Shrug Off: `-1` point with a [Self-Control](#self-control-toughtough) [Test](#tests) with Ob `2`. 
+* Automatic Shrug-Off: `-1` point at the end of the Turn. 
 * Immediate cancel: When the Character is made [Unconscious](#unconscious) or no other creatures remain alive and/or conscious.
 * Difficult repeats: Whenever shrugging off this Condition, you become **guarded** against it until the start of your next Turn, making any attack or effect enacted against you that would cause you to suffer it again `+1` Ob harder for your foes. 
 
 ### Burning
 <img src="../../img/health-condition-burning.svg" style="width: 3rem; height: 3rem;"></img>
 
-For every *point* in the **Burning** Condition, a Character suffers `1D4` points of [Burning](#damage-types) damage every [Tick](#ticks). 
+For every point in the **Burning** Condition, a Character suffers `1D4` points of [Burning](#damage-types) damage every [Tick](#ticks). 
 
 * Graded
-* Greedy: automatically increases in *degree* by `+1` *point* **after** every [Tick](#ticks). 
-* Shrug off: `-1` *point* per [AP](#action-points-ap) spent actively patting out flames, rolling on the floor and so on. 
+* Greedy: automatically increases by `+1` point **after** every [Tick](#ticks). 
+* Shrug Off: `-1` point per [AP](#action-points-ap) spent actively patting out flames, rolling on the floor and so on. 
 * Immediate cancel: When the flames are extinguished through external means. 
 
 Adjacent allies can also help pat out the flames, by spending an [AP](#action-points-ap) for every point reduction of **Burning**. 
@@ -2819,11 +2802,18 @@ Adjacent allies can also help pat out the flames, by spending an [AP](#action-po
 ### Bleeding
 <img src="../../img/health-condition-bleeding.svg" style="width: 3rem; height: 3rem;"></img>
 
-For every *point* in the **Bleeding** Condition, a Character suffers `1D4` points of [Bleeding](#damage-types) damage every [Tick](#ticks). 
+For every point in the **Bleeding** Condition, a Character suffers `1D4` points of [Bleeding](#damage-types) damage every [Tick](#ticks). 
 
 * Graded
-* Shrug off: `-1` *point* with a [Toughness](#toughness-tough) [Test](#tests) with Ob `1`. 
+* Shrug Off: `-1` point with a [Toughness](#toughness-tough) [Test](#tests) with Ob `1`. 
 * Immediate cancel: With a successful [Medicine](#medicine-agiwit) [Test](#tests), requiring `1` [medical supplies](#general-assets) with Ob `2`.
+
+### Crippled
+<img src="../../img/health-condition-crippled.svg" style="width: 3rem; height: 3rem;"></img>
+
+A **Crippled** Character suffers `+1` Ob to **all** Tests, for each [Injury](#injury) more than their Raw [Toughness](#toughness-tough). 
+
+* Immediate cancel: Reducing the number of Injuries to equal or less than the Raw Toughness. 
 
 ### Death's Door
 **Death's Door** is a Condition only a PC can have and represents their final battle with death. 
@@ -2840,7 +2830,7 @@ A Character can be helped out of the **Death's Door** Condition, if their [HP](#
 For every point in the **Dissolving** Condition, a Character suffers `1D4` points of [Acid](#damage-types) damage every [Tick](#ticks). 
 
 * Graded
-* Automatic shrug-off: `-2` *points* at the end of the Turn. 
+* Automatic Shrug-Off: `-2` *points* at the end of the Turn. 
 * Immediate cancel: With a successful [Medicine](#medicine-agiwit) [Test](#tests), requiring `1` [medical supplies](#general-assets) with Ob `2`.
 
 ### Drug-Addicted
@@ -2857,7 +2847,7 @@ After `72` consecutive hours (= `3` full days) of having being in **withdrawal**
 
 An **electrified** Character spasms, uncontrollably. They are force moved in a random direction by `1`, which may trigger [Opportunity Attacks](#opportunity-attacks). 
 
-* Automatic shrug-off: At the end of the Turn. 
+* Automatic Shrug-Off: At the end of the Turn. 
 
 ### Exhausted
 <img src="../../img/health-condition-exhausted.svg" style="width: 3rem; height: 3rem;"></img>
@@ -2871,10 +2861,10 @@ This Condition can be recovered from by reducing [Exhaustion](#exhaustion) to be
 ### Frostbitten
 <img src="../../img/health-condition-frostbitten.svg" style="width: 3rem; height: 3rem;"></img>
 
-For every *point* in **frostbitten**, a Character suffers `-1` [AP](#action-points-ap) and `-1D` to all [Tests](#tests). 
+For every point in **frostbitten**, a Character suffers `-1` [AP](#action-points-ap) and `-1D` to all [Tests](#tests). 
 
 * Graded
-* Automatic shrug-off: `-2` *points* at the end of the Turn. 
+* Automatic Shrug-Off: `-2` *points* at the end of the Turn. 
 * Immediate cancel: When thawed, for example through [Burning](#burning).
 
 ### Grappled
@@ -2895,7 +2885,7 @@ A **hasted** Character has an additional [AP](#action-points-ap) to spend and an
 A Character who has been made unnaturally **Jealous**, will do anything in their power to take a thing, whatever *it* may be, from whoever might have *it*. 
 
 * Graded
-* Shrug off: `-1` *point* with a [Self-Control](#self-control-toughtough) [Test](#tests) with Ob `2`. 
+* Shrug Off: `-1` point with a [Self-Control](#self-control-toughtough) [Test](#tests) with Ob `2`. 
 * Immediate cancel: When the Character is made [Unconscious](#unconscious), the source of the jealousy is removed or the Character acquires that which they covet. 
 * Difficult repeats: Whenever shrugging off this Condition, you become **guarded** against it until the start of your next Turn, making any attack or effect enacted against you that would cause you to suffer it again `+1` Ob harder for your foes. 
 
@@ -2904,7 +2894,7 @@ A Character who has been made unnaturally **Jealous**, will do anything in their
 
 A Marked Character suffers `-1D` to all Defense Tests and `+5` Pure damage from all **direct** sources (meaning damage from environmental hazards is excluded). 
 
-* Automatic shrug-off: After `1` round.
+* Automatic Shrug-Off: After `1` round.
 
 ### Pacified
 <img src="../../img/health-condition-pacified.svg" style="width: 3rem; height: 3rem;"></img>
@@ -2912,7 +2902,7 @@ A Marked Character suffers `-1D` to all Defense Tests and `+5` Pure damage from 
 A Character who is **Pacified**, is unable to *willingly* take any action that would directly or indirectly harm any other creature. Note, the Character is not physically unable to cause harm, but they **really** don't want to. 
 
 * Graded
-* Shrug off: `-1` *point* with a [Self-Control](#self-control-toughtough) [Test](#tests) with Ob `1`. 
+* Shrug Off: `-1` point with a [Self-Control](#self-control-toughtough) [Test](#tests) with Ob `1`. 
 * Immediate cancel: When the Character is made [Unconscious](#unconscious) or the source of the pacification is removed.
 * Difficult repeats: Whenever shrugging off this Condition, you become **guarded** against it until the start of your next Turn, making any attack or effect enacted against you that would cause you to suffer it again `+1` Ob harder for your foes. 
 
@@ -2922,7 +2912,7 @@ A Character who is **Pacified**, is unable to *willingly* take any action that w
 A **Poisoned** Character suffers `1D4` points of [Poison](#damage-types) damage every [Tick](#ticks). 
 
 * Graded
-* Shrug off: `-1` *point* with a [Toughness](#toughness-tough) [Test](#tests) with Ob `1`. 
+* Shrug Off: `-1` point with a [Toughness](#toughness-tough) [Test](#tests) with Ob `1`. 
 * Immediate cancel: With an [Antidote](#general-assets). 
 
 ### Prone
@@ -2944,7 +2934,7 @@ This Condition is usually tied to some condition, before it is removed. If there
 
 A **Stunned** Character is unable to act, at all. During combat, their Turn is skipped. 
 
-* Automatic shrug-off: At the end of the Turn. 
+* Automatic Shrug-Off: At the end of the Turn. 
 * Difficult repeats: Whenever shrugging off this Condition, you become **guarded** against it until the start of your next Turn, making any attack or effect enacted against you that would cause you to suffer it again `+1` Ob harder for your foes. 
 
 ### Terrified
@@ -2953,7 +2943,7 @@ A **Stunned** Character is unable to act, at all. During combat, their Turn is s
 A **Terrified** Character **must** flee from whatever it is that terrified them, until they can no longer perceive it, for at least one round. 
 
 * Graded
-* Shrug off: `-1` *point* with a [Self-Control](#self-control-toughtough) [Test](#tests) with Ob `1`. 
+* Shrug Off: `-1` point with a [Self-Control](#self-control-toughtough) [Test](#tests) with Ob `1`. 
 * Immediate cancel: When the Character is made [Unconscious](#unconscious), the source of terror is removed or the Character can no longer perceive the source of terror in any way for a short time (`2` Turns or half a minute).
 * Difficult repeats: Whenever shrugging off this Condition, you become **guarded** against it until the start of your next Turn, making any attack or effect enacted against you that would cause you to suffer it again `+1` Ob harder for your foes. 
 
@@ -3021,7 +3011,7 @@ As the GM, you are the one person at the table playing a slightly different game
 
 You're the host of the game. This means you'll have to organize everything. Invite players or make a post detailling the game you want to host, set the time and place and interview players who show interest. 
 
-You prepare maps, NPCs, stories and plot hooks. You involve the PCs in the world, offer them incentives to act and feed their [Drivers](./strive-core.md#personality). 
+You prepare maps, NPCs, stories and plot hooks. You involve the PCs in the world, offer them incentives to act and feed their [Drivers](./strive-core.md#personality-traits). 
 
 You moderate and mediate. When there is conflict between players, you help with reconciliation. You ensure every player gets a chance to speak and ensure players are comfortable being at your table. Ask for and hear their feedback. Criticism is a chance to improve. 
 
@@ -3078,16 +3068,16 @@ It is important you only correct them on *crucial* plot points, which they reall
 In fact, you may even correct some of the details of how events *actually* played out, based on what your players re-tell. This is best done silently. No need to encourage *meta-gaming*, which has your players intentionally recapping the last session incorrectly, in a way to make you change details in their Characters' favor. 
 
 ### Personality & Driver Adjustments
-After a recap of the last session, players should have a basis from which to work new [Drivers](./strive-core.md#personality) into their Character and to shift [Personality Traits](./strive-core.md#personality-traits). Allow them a few minutes to think and discuss. 
+After a recap of the last session, players should have a basis from which to work new [Drivers](./strive-core.md#personality-traits) into their Character and to shift [Personality Traits](./strive-core.md#personality-matrix). Allow them a few minutes to think and discuss. 
 
 Once everyone has their Characters figured out, have everyone, one by one, read Drivers and personality changes out aloud. There are two reasons to do this:
-1. The other players can know, if an aspiration targets their Character. So if a PC (player) starts acting odd towards another player (their PC), that player knows it's part of the role-play and not directed towards them as a person. <br>
-It also allows the player whose Character is targeted by the aspiration to form ideas on how to react to it. This serves as [Fair Warning](#fair-warning). 
+1. The other players can know, if an Aspiration targets their Character. So if a PC (player) starts acting odd towards another player (their PC), that player knows it's part of the role-play and not directed towards them as a person. <br>
+It also allows the player whose Character is targeted by the Aspiration to form ideas on how to react to it. This serves as [Fair Warning](#fair-warning). 
 1. It familiarizes you with their Drivers, which ***you have to know***, so that you may prepare scenarios that *challenge* or *feed* those drivers. It may be wise to take notes on their drivers - what the driver is and how you might challenge or feed it.
 
 Be mindful that players knowing the Aspirations of their fellow PCs should not be allowed to meta-game. 
 
-> If a PC has an aspiration to the detriment of their fellow PC and this is a fresh aspiration, the targeted PC shouldn't *suddenly* become more suspicious towards their ally. At least not without sufficient reason. Of course, a PC can figure out another's intentions, but not by virtue of their owning *player* knowing. 
+> If a PC has an Aspiration to the detriment of their fellow PC and this is a fresh Aspiration, the targeted PC shouldn't *suddenly* become more suspicious towards their ally. At least not without sufficient reason. Of course, a PC can figure out another's intentions, but not by virtue of their owning *player* knowing. 
 
 ### Read Out Fate Point Purchases
 Once Drivers are handled, move on to what meta-powers players purchased with their [Fate Points](#fate-points). 
@@ -3111,7 +3101,7 @@ Of course, sometimes, describing a peaceful and soothing scene can be a welcome 
 ### The Tools
 This section outlines the tools - methods - of engaging your players. Usually, that means challenging their Characters, sometimes even the players themselves - to think creatively. 
 
-**Mechanical challenges** are your *game-y* tools to engage your players. Dice are usually involved. Injuries and illnesses, combat and asset management belong to this category. 
+**Mechanical challenges** are your *game-y* tools to engage your players. Dice are usually involved. Injuries and Illnesses, combat and asset management belong to this category. 
 
 **Narrative challenges** are your *role-playing* tools to engage your players. They utilize the strength of the medium. You can resolve all narrative challenges through role-playing. Dice may not be needed, at all. 
 
@@ -3157,13 +3147,13 @@ On the other hand, you should only have such specifically targeted Tests, if fai
 > Had the PC failed their Test, the GM would have told them to move on. Perhaps even given them a different piece of information, like hearing noises outside the room they're in, but without a clear direction. The player might not think much of it, and decide to stay. That's when the guards walk in and surprise the PC. They can still make their get-away, albeit involving more running in blind panic, than sneaking calmly. 
 
 #### Driver Challenges
-You can both *feed* and *challenge* PCs' Drivers. Feeding a driver means giving a PC new information or assets that they may use to pursue the driver's goal. Challenging a driver means presenting the Character with new information or opponents who contradict the goal - an obstacle to overcome. 
+You can both *feed* and *challenge* PCs' Drivers. Feeding a driver means giving a PC new information or Assets that they may use to pursue the driver's goal. Challenging a driver means presenting the Character with new information or opponents who contradict the goal - an obstacle to overcome. 
 
 Make sure to regularly feed or challenge **each** PCs' Drivers. This is important, as it keeps their players interested and attentive. It makes their goals matter and gives them purpose and *direction*, which prevents inactivity and boredom. 
 
 > For example, a PC has an old enemy who they've vowed to take revenge on. While the final confrontation is still a ways away, every once in a while, that PC finds information regarding their enemy. You could feed that PC information on their enemy's current or recent whereabouts and activities. Not enough to give them a trail to follow, but enough to keep them aware and in pursuit of their long-term goal. 
 > 
-> Then, you present them with an opportunity to steal some asset from their enemy. Be it a valuable item, person or political power - something is within reach. This will likely be its own small adventure for the player party to engage with - if they so choose. 
+> Then, you present them with an opportunity to steal some Asset from their enemy. Be it a valuable item, person or political power - something is within reach. This will likely be its own small adventure for the player party to engage with - if they so choose. 
 > 
 > Eventually, some henchmen of the PC's enemy make an appearance. They aim to challenge the player party. This is important - not just the one PC is involved, but **all of them**. This makes the PC's *personal concern*, a *party concern*. 
 > 
@@ -3187,7 +3177,7 @@ Any resource you let a PC have, can be *threatened*. This is a powerful tool to 
 
 If you have given them a small castle in a sparsely populated area, make sure to have someone threaten to take away that castle at least (and at most) **once**. By the time that happens, the players should have grown accustomed to having that safe space to return and haul loot to. Suddenly, their top-priority will be protecting that place. 
 
-Once they've fended off the attackers, they'll really start caring about everything that's happening on or near their home turf. This is when wars and rumors become of much greater relevance to your players, as they don't want their assets (which they before took for granted) threatened *again*. 
+Once they've fended off the attackers, they'll really start caring about everything that's happening on or near their home turf. This is when wars and rumors become of much greater relevance to your players, as they don't want their Assets (which they before took for granted) threatened *again*. 
 
 In order to avoid frustrating your players, you shouldn't threaten their more valuable resources often. Used sparingly, this tool can cause great tension and players scrambling to find a creative solution. But used too frequently, your players might start getting frustrated, because you harm their sense of progression. If they never truly gain anything, why *should* they care if it is threatened? 
 
@@ -3325,7 +3315,7 @@ NPCs are one of your most important tools to bring your world to life and make i
 
 NPCs are built differently from PCs. Not all the same rules apply to them. The following differences exist:
 * NPCs **cannot** earn [Fate Points](#fate-points). 
-* NPCs don't *need* the [Personality](#personality) section. A GM *may choose* to include it for the *main actor* NPCs, but for your average animal or passing acquaintance, no personality should be noted down. 
+* NPCs don't *need* the [Personality](#personality-traits) section. A GM *may choose* to include it for the *main actor* NPCs, but for your average animal or passing acquaintance, no personality should be noted down. 
 * NPCs don't *need* Advancement Progress to be tracked. Thus, they cannot have [Learning Skills](#learning-skills). 
 * NPCs don't have a base HP of `10`, thus, their max. HP values will always be `10` points lower than of PCs with the same Toughness Level. 
 * NPCs have additional characteristics: [Defense](#defense-def) and [Free Strike](#free-strike-fs).
