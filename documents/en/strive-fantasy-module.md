@@ -587,14 +587,14 @@ When looking up products for crafting, the tools and materials required for the 
 | Bolts                    | 1    | 20              | Ammunition for a crossbow. | 20 | 10 Minutes |  |
 | Calming Tea              | 1    | 3               | This herbal tea has the ability to calm nerves. Removes [Berserk](./strive-core.md#berserk), [Jealous](./strive-core.md#jealous) and [Terrified](./strive-core.md#terrified). Best enjoyed steaming hot, but not necessarily. | 5 | 10 Minutes |  |
 | Clothing                 | 1    | 2               | A full set of clothes, head to toe. | 30 | 1 Hour |  |
-| Death Fog                | 1    | 1               | An extremely rare and deadly gas. Once exposed to air, covers an area of `Q * 2` squares in impenetrable, eerily glowing, blue fog. Deals `QD10 + 10` **pure** damage to all **organic** things it touches, per tick. Metal and mineral are unaffected, while plant and flesh are struck from existence. | 75 | 6 Hours | +1 |
-| Dragon's Breath Potion   | 1    | 3               | Upon drinking this potion, the orange liquid combines with the stomach acid and bursts out of the drinker's throat, igniting and thus causing them to spew fire! Causes `5 - Q Burning` damage to the user and `Q * 3 Burning` damage in a `5` squares cone in front of the user. | 30 | 1 Hour | +1 |
+| Death Fog                | 1    | 1               | An extremely rare and deadly gas. Once exposed to air, covers an area of `Q * 2` Squares in impenetrable, eerily glowing, blue fog. Deals `QD10 + 10` **pure** damage to all **organic** things it touches, per tick. Metal and mineral are unaffected, while plant and flesh are struck from existence. | 75 | 6 Hours | +1 |
+| Dragon's Breath Potion   | 1    | 3               | Upon drinking this potion, the orange liquid combines with the stomach acid and bursts out of the drinker's throat, igniting and thus causing them to spew fire! Causes `5 - Q Burning` damage to the user and `Q * 3 Burning` damage in a `5` Squares cone in front of the user. | 30 | 1 Hour | +1 |
 | Explosive Arrows         | 1    | 10              | Ammunition for a bow that causes bow attacks to only deal `1D4 Bludgeoning + (1D4 + Q) Burning`.  | 45 | 1 Hour |  |
 | Fire Pot (Potion)        | 1    | 3               | An ancient recipe, this concoction bursts into flame when exposed to air for several seconds. It causes severe burns for `QD6 Burning` damage in a `2` radius. Consumed on use. | 30 | 1 Hour |  |
 | Illusionist's Powder     | 1    | 2               | A small amount of weakly iridescently shimmering powder. When scattered, the dust remains suspended in mid-air and settles in an image of the making alchemist's choosing, which at a distance can seem perfectly real. It takes a successful Test at `Ob Q + 1` to see through the ruse. This image lasts `QD10` minutes. | 30 | 1 Hour |  |
 | Invigorating Potion      | 1    | 3               | The drinker of this potion feels refreshed and invigorated! Reduces Exhaustion by `Q` and clears the [Exhausted](./strive-core.md#exhausted) condition. Beware this potion can only be safely imbibed twice in a `24` hour cycle. If drunk more, roll a `D6`. If it is a Hit, you're in luck! But if not, you instead suffer `+2` points of [Exhaustion](./strive-core.md#exhaustion). | 20 | 1 Hour |  |
 | Jewelry                  | 1    | 2               | Precious apparel. | 50 | 1 Hour |  |
-| Keg Of Alcohol           | 2    | 1               | A keg of alcohol. Highly flammable. If set fire to, will explode in a small torrent of flame, dealing `Q * 3` Burning damage to all in a `2` square AoE radius. | 30 | 1 Day |  |
+| Keg Of Alcohol           | 2    | 1               | A keg of alcohol. Highly flammable. If set fire to, will explode in a small torrent of flame, dealing `Q * 3` Burning damage to all in a `2` Square AoE radius. | 30 | 1 Day |  |
 | Laudanum Potion          | 1    | 2               | This wonderous substance can quell pain and calm nerves within seconds. Also effective against diarrhea. Upon imbibing, sets one Active [Injury](./strive-core.md#injury) to Treated. After `24` hours, the [Injury](./strive-core.md#injury) is set back to Active, even if it was also properly Treated in the meantime. Also, must succeed a [Self-Control](./strive-core.md#self-control-toughtough) Test at `Ob 3`, or else become [Addicted](./strive-core.md#drug-addicted) to the stuff. | 20 | 1 Hour |  |
 | Love Potion              | 1    | 2               | Anyone drinking this potion will become virtually irresistible to anyone close enough to smell their air. Victims have to succeed a [Self-Control](./strive-core.md#self-control-toughtough) Test at Ob `Q` or else feel **very strongly compelled** to fulfill the user's every wish and desire (provided this wouldn't obviously cause harm to the victim). | 50 | 1 Hour | +1 |
 | Magic Recorder           | 1    | 3               | A small spherical device, overtly made from various metals with intricate patterns on its surface. This device can capture [Magic Echoes](#magic-echoes) and record magic as it is being cast. Also captures fragments of thoughts from its bearer while it is active. | 50 | 6 Hours |  |
@@ -804,7 +804,7 @@ Properties: [Melee](./strive-core.md#melee), [FS](./strive-core.md#free-strike-f
 | ----- | -------------------- | -- | ----------- | ----------------------------------------- |
 | 0     | Hack                 | 2  | Opposed     | Strike a ST. <br> `≤ 1` Hit: `2 + Q` Slashing + `2` Bludgeoning <br> `= 2` Hits: `4 + Q` Slashing + `3` Bludgeoning <br> `≥ 3` Hits:  `6 + Q` Slashing + `2 + Str` Bludgeoning |
 | 0     | Savage Slash         | 2  | Opposed + 1 | Strike a ST. <br> `≤ 1` Hit: `2 + Q` Slashing; `+2` [Bleeding](./strive-core.md#bleeding) to the target (if it can bleed) <br> `= 2` Hits: `4 + Q` Slashing; `+2` [Bleeding](./strive-core.md#bleeding) to the target (if it can bleed) <br> `≥ 3` Hits:  `6 + Q` Slashing; `+3` [Bleeding](./strive-core.md#bleeding) to the target (if it can bleed) |
-| 2     | Cleave               | 3  | 2           | Attack up to `3` targets at once, in a `2` square AoE cone in front of you. <br> `≤ 1` Hit: `2 + Q` Slashing + `1` Bludgeoning <br> `= 2` Hits: `3 + Q` Slashing + `2` Bludgeoning <br> `≥ 3` Hits:  `4 + Q` Slashing + `2 + Str` Bludgeoning |
+| 2     | Cleave               | 3  | 2           | Attack up to `3` targets at once, in a `2` Square AoE cone in front of you. <br> `≤ 1` Hit: `2 + Q` Slashing + `1` Bludgeoning <br> `= 2` Hits: `3 + Q` Slashing + `2` Bludgeoning <br> `≥ 3` Hits:  `4 + Q` Slashing + `2 + Str` Bludgeoning |
 
 #### Weapon \<Light Blade\> (Agi/Str)
 Skill for any [Light Blade](#light-blade) type weapons, such as daggers and one-handed swords. 
@@ -828,8 +828,8 @@ Properties: [Melee](./strive-core.md#melee), [Long Reach](./strive-core.md#weapo
 | ----- | -------------------- | -- | ----------- | ----------------------------------------- |
 | 0     | Slash                | 2  | Opposed     | `≤ 1` Hit: `3 + Q` Slashing <br> `= 2` Hits: `5 + Q` Slashing <br> `≥ 3` Hits: `8 + Q` Slashing |
 | 0     | Stab                 | 2  | Opposed     | `≤ 1` Hit: `2 + Q` Piercing <br> `= 2` Hits: `4 + Q` Piercing <br> `≥ 3` Hits: `6 + Q` Piercing |
-| 1     | Blade Barrier        | 3  |             | Until the start of your next Turn, whenever any Character moves **into** a spot within reach, you may **freely** attack that Character with a **Slash** at Ob `+1` and, if successful, force them back `1` square. |
-| 2     | Cleave               | 3  | 2           | Attack up to `3` targets at once, in a `2` square AoE cone in front of you. <br> `≤ 1` Hit: `2 + Q` Slashing <br> `= 2` Hits: `4 + Q` Slashing <br> `≥ 3` Hits:  `6 + Q` Slashing |
+| 1     | Blade Barrier        | 3  |             | Until the start of your next Turn, whenever any Character moves **into** a spot within reach, you may **freely** attack that Character with a **Slash** at Ob `+1` and, if successful, force them back `1` Square. |
+| 2     | Cleave               | 3  | 2           | Attack up to `3` targets at once, in a `2` Square AoE cone in front of you. <br> `≤ 1` Hit: `2 + Q` Slashing <br> `= 2` Hits: `4 + Q` Slashing <br> `≥ 3` Hits:  `6 + Q` Slashing |
 | 2     | Mord-Strike          | 2  | Opposed + 1 | Flip your weapon around and strike a ST on the head with the weight of the pommel. <br> `≤ 1` Hit: `1 + Str` Bludgeoning <br> `= 2` Hits: `3 + Str` Bludgeoning <br> `≥ 3` Hits: `6 + Str` Bludgeoning |
 
 #### Weapon \<Chained Blade\> (Agi/Agi)
@@ -840,7 +840,7 @@ Properties: [Melee](./strive-core.md#melee), [Ranged (max. `8`)](./strive-core.m
 | Level | Name                 | AP | Ob          | Description <br> Damage                   |
 | ----- | -------------------- | -- | ----------- | ----------------------------------------- |
 | 0     | Curved Toss          | 2  | Opposed     | Throw the weapon just past a ST and then with a flick, make it jump at their back. <br> `≤ 1` Hit: `2 + Q` Slashing <br> `= 2` Hits: `4 + Q` Slashing <br> `≥ 3` Hits: `6 + Q` Slashing |
-| 0     | Come Closer          | 2  | Opposed     | Throw the weapon just past a ST and then yank it back, catching them with it and pulling them closer to you. If the target is much larger and/or heavier than you, then you may pull *yourself* closer to them, for the same distance. <br> `≤ 1` Hit: `2` squares; `Q` Slashing <br> `= 2` Hits: `3` squares; `Q + 1` Slashing <br> `≥ 3` Hits: `4` squares; `Q + 2` Slashing |
+| 0     | Come Closer          | 2  | Opposed     | Throw the weapon just past a ST and then yank it back, catching them with it and pulling them closer to you. If the target is much larger and/or heavier than you, then you may pull *yourself* closer to them, for the same distance. <br> `≤ 1` Hit: `2` Squares; `Q` Slashing <br> `= 2` Hits: `3` Squares; `Q + 1` Slashing <br> `≥ 3` Hits: `4` Squares; `Q + 2` Slashing |
 | 2     | Leg Sweep            | 2  | Opposed     | Swing the weapon at length and low, to sweep for an opponent's legs. Upon impact, yank the chain to sweep them off their feet, rendering them [Prone](./strive-core.md#prone). |
 | 4     | Think Twice          | 1  |             | **Reaction**: Upon one of your allies attacking an enemy, you also throw your weapon straight at that enemy. Your ally's attack is `-1` Ob easier as the enemy is confused by the two simultaneous attacks! Your attack does **not** cost the enemy any additional AP to defend against and is successful only if your ally's attack is successful. Only possible once per round. <br> `Q + Agi` Piercing |
 
@@ -864,9 +864,9 @@ Properties: [Melee](./strive-core.md#melee), [Long Reach](./strive-core.md#weapo
 | ----- | -------------------- | -- | ----------- | ----------------------------------------- |
 | 0     | Slash                | 2  | Opposed     | Strike a ST. <br> `≤ 1` Hit: `4 + Q` Slashing <br> `= 2` Hits: `7 + Q` Slashing <br> `≥ 3` Hits: `10 + Q` Slashing |
 | 0     | Stab                 | 2  | Opposed     | Strike a ST. <br> `≤ 1` Hit: `3 + Q` Piercing <br> `= 2` Hits: `5 + Q` Piercing <br> `≥ 3` Hits: `8 + Q` Piercing |
-| 2     | Blade Barrier        | 3  |             | Until the start of your next Turn, whenever any Character moves **into** a spot within reach, can **freely** attack that Character with a **Stab** at Ob `+1` and if successful, force them back `1` square. |
-| 2     | Breakthrough         | 3  | 2           | Attack up to `2` targets at once, in a `3` square AoE line in front of you. <br> `≤ 1` Hit: `2 + Q` Piercing <br> `= 2` Hits: `4 + Q` Piercing <br> `≥ 3` Hits:  `6 + Q` Piercing |
-| 2     | Cleave               | 3  | 2           | Attack up to `4` targets at once, in a `3` square AoE cone in front of you. <br> `≤ 1` Hit: `2 + Q` Slashing <br> `= 2` Hits: `3 + Q` Slashing <br> `≥ 3` Hits:  `5 + Q` Slashing |
+| 2     | Blade Barrier        | 3  |             | Until the start of your next Turn, whenever any Character moves **into** a spot within reach, can **freely** attack that Character with a **Stab** at Ob `+1` and if successful, force them back `1` Square. |
+| 2     | Breakthrough         | 3  | 2           | Attack up to `2` targets at once, in a `3` Square AoE line in front of you. <br> `≤ 1` Hit: `2 + Q` Piercing <br> `= 2` Hits: `4 + Q` Piercing <br> `≥ 3` Hits:  `6 + Q` Piercing |
+| 2     | Cleave               | 3  | 2           | Attack up to `4` targets at once, in a `3` Square AoE cone in front of you. <br> `≤ 1` Hit: `2 + Q` Slashing <br> `= 2` Hits: `3 + Q` Slashing <br> `≥ 3` Hits:  `5 + Q` Slashing |
 
 #### Weapon \<Short-Bow\> (Agi/Awar)
 Skill for [Short-Bow](#short-bow) type weapons. 
@@ -1165,7 +1165,7 @@ The alteration of physical things, to change their shape and purpose. And the ab
 | 1     | Feel the Shape       | 1  | `SI * 20`      | `SI`            | Place a hand to a surface. You can feel the faintest vibrations and reverberations within and beneath. Can be used to detect underground caves and structures and imprecisely detect the movements of creatures along a given surface, such as the ground. | / |
 | 2     | Alter Flesh          | 3  | `1`            | `SI`            | **Time(`+1`)**: A **ST** creature is altered as the mage desires, permanently. The Ob depends on the complexity and size of the re-shaping. Ob `2` for simple and small, `3` for tricky and medium, `4` for complex and large and `5+` for very complex and very large alterations. Consult your GM! | Instead of the intended alteration, a random mutation occurs! |
 | 2     | Earth Spike Trail    | 3  | `SI * 3`       | `SI`            | Cause spikes of earth to shoot out of a surface that they can lay their hands on. Everyone caught in a straight line of up to `SI * 3` in length, originating from the mage, suffers `SI * 3` points of Piercing damage. The area of the spikes is then considered Difficult Terrain. The spikes crumble after `3` Turns. | The mage loses control and the spell unleashes in a random direction. |
-| 2     | Aspect of the Bull   | 2  |                | `SI`            | **Concentration**: Grow bull horns and bestial legs! You may now run at a speed of `4 + SI`. You may now charge at targets and gore them for `SI * 3` points of Piercing damage, but you must run at least `2` squares in order to make use of this ability. | You suffer a random mutation, instead! |
+| 2     | Aspect of the Bull   | 2  |                | `SI`            | **Concentration**: Grow bull horns and bestial legs! You may now run at a speed of `4 + SI`. You may now charge at targets and gore them for `SI * 3` points of Piercing damage, but you must run at least `2` Squares in order to make use of this ability. | You suffer a random mutation, instead! |
 | 4     | Wereshape            | 3  |                | `3`             | **Concentration, Time(`+1`)**: Assume a were-beast shape. See the list below. Your attributes will be Modified as noted on each were-shape. | Instead of transforming, your body goes into shock! You are [Stunned](./strive-core.md#stunned)! |
 
 #### Werewolf-Shape
@@ -1195,7 +1195,7 @@ The summoning and control of ice. Cryomancer's can freeze things, so they're hea
 | ----- | --------------------- | -- | ------------- | ---------------------------- | ------------------------------ | ------------------ |
 | 0     | Freezing Touch        | 2  | `1`           | `Opposed - SI`               | A fist-sized spot on a **ST**, that the mage's hand touches, freezes over and deals `SI * 3` points of Freezing damage. Causes `+1` [Frostbitten](./strive-core.md#frostbitten) | The caster is affected, instead. |
 | 1     | Cold Finger Gun       | 2  | `SI * 5`      | `Opposed`                    | The mage shoots an ice spike at a **ST** from their hand. <br> `≤ 1` Hit: `2 + SI` Freezing; `+1` [Frostbitten](./strive-core.md#frostbitten) <br> `= 2` Hits: `6 + SI` Freezing; `+2` [Frostbitten](./strive-core.md#frostbitten) <br> `≥ 3` Hits: `10 + SI` Freezing; `+3` [Frostbitten](./strive-core.md#frostbitten) | The caster is affected, instead. |
-| 2     | Ice Shape             | 2  | `SI * 5`      | `SI`                         | Turn humidity into ice, in the shape of your choosing, in a radius of up to `SI` squares. | The caster suffers `+1` [Frostbitten](./strive-core.md#frostbitten)! |
+| 2     | Ice Shape             | 2  | `SI * 5`      | `SI`                         | Turn humidity into ice, in the shape of your choosing, in a radius of up to `SI` Squares. | The caster suffers `+1` [Frostbitten](./strive-core.md#frostbitten)! |
 | 3     | Ice Armor             | 1  |               | `SI`                         | **Reaction**: Upon being successfully attacked, turn surrounding humidity into armor, that absorbs up to `SI * 3` points of Slashing, Piercing, Bludgeoning and Burning damage, before shattering immediately afterwards! The damage the armor absorbs, is the damage you do not suffer! | The caster suffers `+1` [Frostbitten](./strive-core.md#frostbitten)! |
 | 4     | Rooting Freeze        | 3  | `SI * 5`      | `SI + 1`                     | **Time(`+1`)**: A spot of the mage's choosing freezes over. Anyone caught within the **AOE** radius of up to `SI * 3`, will be frozen to the spot and thus [Rooted](./strive-core.md#rooted) and also suffer `SI * 4` points of Freezing damage. They can break free via a successful [Strength](./strive-core.md#strength-str) Test at Ob `SI`. Or wait, until the ice thaws, which, under normal conditions, will take `2` rounds. | The spot beneath the caster is affected, instead. |
 
@@ -1338,7 +1338,7 @@ The ability to communicate wordlessly, to alter emotions and even issue compelli
 | 2     | Change a Mind          | 2  | `SI * 4`       | Opposed by `Self-Control - SI` | Alter a creature's current state of mind and emotion. | The caster is affected, instead. |
 | 3     | Pressing Thought       | 2  | `SI * 10`      | `SI + 1`                       | **Concentration**: [Hasten](./strive-core.md#hasted) up to `SI` **MST** of choice. | The caster and their targets suffer `+1` [Exhaustion](./strive-core.md#exhaustion). |
 | 4     | Quiet Command          | 2  | `SI * 10`      | Opposed by `Self-Control - SI` | Issue a command to another creature, which they feel **strongly** compelled to follow. | `+1` [Exhaustion](./strive-core.md#exhaustion) to self. |
-| 5     | Confer Knowledge       | 4  | `1`            | `6 - SI`                       | **Time(`+1`)**: Permanently confer `+1` Level of a known Skill to another creature, but only up to the caster's Level, minus two, in the Skill. The caster's Level in the Skill is unaffected. | The caster loses `1` Level in the chosen Skill, for `24` hours! |
+| 5     | Confer Knowledge       | 4  | `1`            | `6 - SI`                       | **Time(`+1`)**: Permanently confer `+1` Level of a known Skill to another creature, but only up to the caster's Level, minus two, in the Skill. Also, this costs **you** `10` XP. Your Level in the Skill is unaffected. | The caster loses `1` Level in the chosen Skill, for `24` hours! |
 
 ## List of Illnesses
 This list supplements the list of Injuries of the [Core rules](./strive-core.md#list-of-injuries). 
@@ -1667,10 +1667,10 @@ This variant stands tall and proud, its wrinkled skin riddled with scars. Its tu
   * A champion commands respect and obedience.
   * Level: `4`, Innate
   * Bestial Roar:
-    * Instill fear and doubt into your victims' hearts. All within `10` squares of you suffer `-1` AP and are [Terrified](./strive-core.md#terrified) of you.
+    * Instill fear and doubt into your victims' hearts. All within `10` Squares of you suffer `-1` AP and are [Terrified](./strive-core.md#terrified) of you.
     * AP: `2`, Ob: `Opposed` by [Self-Control](./strive-core.md#self-control-toughtough), Ranged, Vocal
   * Hit That One!:
-    * [Mark](./strive-core.md#marked) a ST of choice, up to `10` squares away.
+    * [Mark](./strive-core.md#marked) a ST of choice, up to `10` Squares away.
     * AP: `1`, Ob: `2`, Ranged, Vocal
   * You Die When I Let You!:
     * **Reaction**: Once in a battle, when an ally's HP are reduced to `0`, they are instead reduced to your `Hits * 3`. 
@@ -1704,7 +1704,7 @@ This variant is as almost as small as a Belcher, but with strong legs and arms, 
 * Stealth, Level: `4`
 * Weapon \<Dagger\>, Level: `5`
 * Lunge (Agi/Agi):
-  * Lunge up to `7` squares far, dealing damage to all foes in your path with your weapons. Does not provoke [Opportunity Attacks](strive-core.md#opportunity-attacks). 
+  * Lunge up to `7` Squares far, dealing damage to all foes in your path with your weapons. Does not provoke [Opportunity Attacks](strive-core.md#opportunity-attacks). 
   * Level: `4`, AP: `3`, Ob: `3`, Melee, AoE (line), Innate
   * `≤ 1` Hit: `2` Slashing
   * `= 2` Hits: `4` Slashing
@@ -1792,10 +1792,10 @@ An intelligent and cruel leader among the Swine. Its gaze attentively surveys al
   * A shaman commands respect and terror.
   * Level: `5`, Innate
   * Fire Up The Blood:
-    * Strike up a haunting chant, in demonic language, stirring the blood of your fellow Swine. One of of them, up to `15` squares away is enraged, and overwhelmed with their demoic blood beginning to boil, which starts leaking out of their eyes and nostrils. Until the end of combat, every tick, they suffer `5` points of bleeding damage (the Swine's vulnerability to bleeding damage does not get triggered by this), but also deal an additional `8` points of Bludgeoning damage on every successful attack. 
+    * Strike up a haunting chant, in demonic language, stirring the blood of your fellow Swine. One of of them, up to `15` Squares away is enraged, and overwhelmed with their demoic blood beginning to boil, which starts leaking out of their eyes and nostrils. Until the end of combat, every tick, they suffer `5` points of bleeding damage (the Swine's vulnerability to bleeding damage does not get triggered by this), but also deal an additional `8` points of Bludgeoning damage on every successful attack. 
     * AP: `3`, Ob: `2`, ST (ally Swine), Ranged: `15`, Vocal
   * Drums Of Terror:
-    * Beating on a drum with a... face... stretched across it, instill terror in your foes. Every non-Swine in a `15` square radius around must succeed a Self-Control Test, or else become [Terrified](strive-core.md#terrified) of the shaman. 
+    * Beating on a drum with a... face... stretched across it, instill terror in your foes. Every non-Swine in a `15` Square radius around must succeed a Self-Control Test, or else become [Terrified](strive-core.md#terrified) of the shaman. 
     * AP: `2`, Ob: `Opposed by Self-Control + 1`, MST, Ranged: `15`, Auditory
   * You Die When I Let You!:
     * **Reaction**: Once in a battle, when an ally's HP are reduced to `0`, they are instead reduced to your `Hits * 3`. 
@@ -1956,7 +1956,7 @@ An abominable mound of misshapen flesh, with countless ragged tentacles of vario
   * Level: `3` AP: `2`, Ob: `Opposed`
 
 ### The Puppeteer
-A giant stick-figure, shrouded in swirling darkness and blurred edges. All corpses, no matter how old, within `300` squares around the Puppeteer begin to move again. They arise from their tombs, graves and battlefields, to enact terrible vengeance on the living. The Puppeteer lasts for several days. Should The Puppeteer be called again from The Veil in the time it is already present, then several more days will be added to the time it may escape The Veil. 
+A giant stick-figure, shrouded in swirling darkness and blurred edges. All corpses, no matter how old, within `300` Squares around the Puppeteer begin to move again. They arise from their tombs, graves and battlefields, to enact terrible vengeance on the living. The Puppeteer lasts for several days. Should The Puppeteer be called again from The Veil in the time it is already present, then several more days will be added to the time it may escape The Veil. 
 
 ## Undead
 Whether they occur naturally or unnaturally, both your typical undead and some more unusual specimen may haunt your world. While the Fantasy Module assumes them to be mindless monsters, you may of course decide for your world that they may in fact retain some if not all of their sapience. 
