@@ -185,7 +185,7 @@ You may choose to play without the Momentum system for a less heroic style of ga
     - [Defense Stunts](#defense-stunts)
       - [Counter-Attack](#counter-attack)
     - [Cover](#cover)
-    - [Speed aids Defense](#speed-aids-defense)
+    - [Speed Aids Defense](#speed-aids-defense)
   - [Momentum](#momentum)
       - [Momentum Actions](#momentum-actions)
   - [Throwing](#throwing)
@@ -207,7 +207,7 @@ You may choose to play without the Momentum system for a less heroic style of ga
       - [Youth](#youth)
       - [The Last Few Years](#the-last-few-years)
     - [Determine Name](#determine-name)
-    - [Species, Sex \& Appearance](#species-sex--appearance)
+    - [Personal Details](#personal-details)
     - [Determine Personality](#determine-personality)
       - [Determine Ambition, Aspirations \& Reactions](#determine-ambition-aspirations--reactions)
         - [Choosing an Ambition](#choosing-an-ambition)
@@ -218,13 +218,12 @@ You may choose to play without the Momentum system for a less heroic style of ga
         - [Manual Attribute Assignment](#manual-attribute-assignment)
         - [Semi-Random Attribute Assignment](#semi-random-attribute-assignment)
       - [Choosing Skills](#choosing-skills)
-      - [Determine Boons from Heritage](#determine-boons-from-heritage)
+      - [Determine Boons from Ancestry](#determine-boons-from-ancestry)
+    - [Determine Derived Characteristics](#determine-derived-characteristics)
     - [Determine Assets](#determine-assets)
-    - [Determine Max HP \& Injury Maximum](#determine-max-hp--injury-maximum)
-    - [Determine Exhaustion Limit](#determine-exhaustion-limit)
   - [Assets Appendix](#assets-appendix)
     - [General Assets](#general-assets)
-    - [Weapon Properties](#weapon-properties)
+    - [Weapon Traits](#weapon-traits)
       - [Melee](#melee)
       - [Long Reach](#long-reach)
       - [Very Long Reach](#very-long-reach)
@@ -1235,7 +1234,7 @@ Accruing **more Injuries than your Raw Toughness** will result in your Character
 
 #### Injury States & Treatment
 There are two possible states of an Injury: **Active** or **Treated**. 
-* An Active Injury reduces [Maximum HP](#hit-points-hp) by `-10` *and* imposes additional penalites, such as to [Attributes](#attributes). 
+* An Active Injury reduces [maximum HP](#hit-points-hp) by `-10` *and* imposes additional penalites, such as to [Attributes](#attributes). 
 * A Treated Injury *only* reduces maximum HP by `-10`.
 
 An Injury **must** be treated, if it is to begin healing. There are two ways to treat an Injury:
@@ -1777,7 +1776,7 @@ The ally in question may oppose this action with [Strength](#strength-str) (both
 ## Attacking
 Attacks are made with an [Expertise](#expertise) of a [Weapon](#weapon--weapon-type--str), the [Unarmed Combat](#unarmed-combat-agistr) or the [Throwing](#throwing-agistr) [Skill](#skills). 
 
-An attack generally requires an [Opposed Test](#opposed-test) to be made. If the Attacker wins, [Damage](#damage--effects) is determined and applied to the Defender. If the Defender wins, they suffer no damage. A Defender must *choose* how to defend, unless a specific Skill is required. Defense is possible with [Weapon](#weapon--weapon-type---attribute), the [Acrobatics](#acrobatics-agistr) or the [Shield](#shield-strtough) Skills. 
+An attack generally requires an [Opposed Test](#opposed-test) to be made. If the Attacker wins, [Damage](#damage--effects) is determined and applied to the Defender. If the Defender wins, they suffer **no damage**. A Defender must *choose* how to defend, unless a specific Skill is required. See also [Defending](#defending).
 
 Sometimes, special circumstances apply, which make certain attacks easier or harder to land. These are at the GM's discretion. They can impose an Ob penalty or boon whenever appropriate. Also keep in mind there may be times when rolling for an attack is entirely unnecessary, such as against a helpless victim. In such a case, you may apply your malevolence with impunity, to the extent of your choosing. 
 
@@ -1795,7 +1794,7 @@ Some attacks may inflict more than one type of damage. The greatest of the damag
 ### Opportunity Attacks
 When a Character is within weapon's reach of another hostile Character, they're considered within the other's **Range of Opportunity**. Whenever a Character in an enemy's Range of Opportunity moves away from or more than `2` Squares *around* that enemy, that enemy can *choose* to perform an **Opportunity Attack**. 
 
-Performing an Opportunity Attack costs `-1` [AP](#action-points-ap) at a `-1D` penalty and will **halt** the enemy in question, preventing their movement, regardless of whether the attack hits. When an Opportunity Attack against them is declared, the attacked Character may choose to [Push Through](#push-through), thus getting to move after all, but if they do, the Attacker instead of losing a die, gains `+1` [Compensation Point](#compensation-points) for their Opportunity Attack!
+Performing an Opportunity Attack costs `-1` [AP](#action-points-ap) at a `-1D` penalty and will **halt** the enemy in question, preventing their movement, regardless of whether the attack hits. When an Opportunity Attack against them is declared, the Defending Character may choose to [Push Through](#push-through), thus getting to move after all, but if they do, the Attacker instead of losing a die, gains `+1` [Compensation Point](#compensation-points) for their Opportunity Attack!
 
 It is possible to avoid an Opportunity Attack with a [Disengage](#disengage) combat action. 
 
@@ -1806,7 +1805,7 @@ It is possible to move out of an enemy's [Range of Opportunity](#opportunity-att
 
 > Just because jumping off a cliff would be the fastest way out of a Range of Opportunity, doesn't mean this is the safest direction to go. A Character trying to Disengage is trying to move safely, after all. If the safest direction is through the Range of Opportunity, then so be it. 
 
-When Disengaging from more than one Range of Opportunity in the same action, every additional Range of Opportunity past the first adds a cost of `1` AP. 
+When Disengaging from more than one Range of Opportunity in the same action, every additional Range of Opportunity past the first adds a cost of `+1` additional AP. 
 
 #### Push Through
 It is possible to **Push Through** a [Range of Opportunity](#opportunity-attacks), which cannot halt movement, but in doing so, grants the Opportunity Attack `+1` [Compensation Point](#compensation-points). 
@@ -1818,14 +1817,14 @@ This circumstance changes, when the opponent is flanked and surrounded. Most arm
 
 To **Flank** an opponent, two allies must be within their weapons' range to and on **opposite sides** of the opponent. If both are attacking from the same side, then the armor and shield will continue protecting fully. This applies to melee and ranged attacks. 
 
-Three allies can **surround** the opponent, further reducing their armor's and shield's effectiveness. Four or more allies can **overwhelm** the opponent, rendering their defenses completely useless. The third and fourth (or any beyond that number) ally can **freely** choose a spot within weapon's reach. 
+Three allies can **Surround** the opponent, further reducing their armor's and shield's effectiveness. Four or more allies can **Overwhelm** the opponent, rendering their defenses completely useless. The third and fourth (or any beyond that number) ally can **freely** choose a spot within weapon's reach. 
 
 * When **Unthreatened**, the armor and shield protect fully. No Defense penalties. 
 * When **Flanked**, the armor and shield protect only half (RU) as much. `-1D` to any Defense Test. 
 * When **Surrounded**, the armor and shield protect only one fourth (RU) as much. `-2D` to any Defense Test. 
 * When **Overwhelmed**, the armor and shield no longer protect **at all**. `-3D` to any Defense Test. 
 
-If one of the allies is using a weapon with a property to increase its reach, for example [Long Reach](#weapon-properties), then they need not be adjacent to the enemy to count towards the Flanking effect (but still within their weapon's reach to the enemy). 
+If one of the allies is using a weapon with a property to increase its reach, for example [Long Reach](#weapon-traits), then they need not be adjacent to the enemy to count towards the Flanking effect (but still within their weapon's reach to the enemy). 
 
 The following two graphics illustrate valid spots for a second ally to enter, to Flank the Character in the center. 
 
@@ -1836,28 +1835,28 @@ The following graphic illustrates valid spots for a third ally to enter, to **Su
 <img src="../../img/flanking-chart_3.png" width="264px" height="357px"></img>
 
 ### Stealth Attacks
-When attacking another Character from stealth, the moment of surprise can make all the difference. An attack from stealth enjoys `+2` [Compensation Points](#compensation-points)! 
+When attacking another Character from stealth, the moment of surprise can make all the difference. An attack from stealth gains `+2` [Compensation Points](#compensation-points)! 
 
 When attacking with [Bludgeoning](#damage-types), you may knock another Character [Unconscious](#unconscious) with one fell swoop. For this, their [Toughness](#toughness-tough) may be at most `2` Levels above your [Strength](#strength-str). 
 
 > For example, two ordinary humans: one is attacking from stealth with a club and has Strength `2`, while the victim has Toughness `4`. The victim is knocked unconscious right away. 
 >
-> On the other hand, the same human attacking a giant from stealth with a club cannot knock that giant unconscious, assuming that giant to have a Toughness of `10`. The difference of `8` Levels is simply too great. 
+> On the other hand, the same stealthy human attacking a giant from stealth with a club cannot knock that giant unconscious, assuming that giant to have a Toughness of `10`. The difference of `8` Levels is simply too great. 
 
 ## Defending
 A Character being targeted with any other Skill may choose, as a Reaction, to defend against it. Doing so costs `1` [AP](#action-points-ap) and calls for an [Opposed Test](#opposed-test). The Attacker must achieve **more Hits** than the Defender, or else the Defender wins and the attack is negated, entirely. The Defender must *choose* how to defend, unless a specific "opposed by" Skill is noted. Valid choices are a [Weapon](#weapon--weapon-type---attribute), the [Acrobatics](#acrobatics-agistr) or the [Shield](#shield-strtough) Skill. 
 
-A Character without any, or not enough [AP](#action-points-ap) left to spend, **can not defend**. In this case, the Attacker's Ob is simply `1` (plus any potential modifier from the Expertise or Skill they're attacking with). 
+A Character without any, or not enough [AP](#action-points-ap) left to spend, **can not defend**. In this case, the Attacker's Ob is simply `1` (plus any potential Modifier from the Expertise or Skill they're attacking with). 
 
 Defending against [Area Of Effect](#area-of-effect) is only possible through some Expertises. 
 
 ### Armor & Shields
-Armor serves as life insurance, because it can negate or at least reduce the damage taken, after a Defense Test has failed. Shields on the other hand provide bonuses to defense, making it harder for an enemy to succesfully land a hit in the first place. 
+Armor serves as life insurance, because it can negate or at least reduce the damage taken, after a Defense Test has failed. Shields on the other hand provide bonuses to Defense, making it harder for an enemy to succesfully land a hit in the first place. 
 
-The specifics of armors and shields can be found Asset appendix of whatever module you're using. 
+The specifics of armors and shields can be found in hhe [Asset appendix](#assets-appendix) of whatever module you're using. 
 
 ### Defending an Ally
-It is possible for a Character to defend an adjacent ally when they're being attacked. This costs `1` [AP](#action-points-ap) and results in the ally taking over the Defense Test, instead of the originally attacked Character. 
+It is possible for a Character to defend an adjacent ally when they're being attacked. This costs `1` [AP](#action-points-ap) and results in the Character taking over the Defense Test, instead of the originally attacked Character. 
 
 Defending an ally is a Reaction. 
 
@@ -1872,26 +1871,26 @@ If you succeed a Defense Test and achieve at least `2` Hits over your attacker, 
 * If defending against a ranged attack, you **catch the projectile** (if such a feat could be "reasonably" done). You may immediately throw it back at the attacker, for a guaranteed success. 
 
 #### Counter-Attack
-A Reaction that allows a victim being attacked to immediately retaliate against their attacker. 
+A Reaction that allows a victim being attacked to immediately retaliate against their attacker. Unless otherwise specified, this costs `1` [AP](#action-points-ap).
 
 ### Cover
 It is possible for Characters to hide behind stationary things to make it harder to hit them. This mostly applies to ranged combat, but may also find use in melee, depending on circumstance. 
 
 There are two categories of cover: 
-* **Low cover**: `+1` Ob against a target that is behind low cover. 
-  * Low cover is any static object to hide behind that doesn't fully cover the body, like a tree stump or low wall. 
-  * If the type of cover allows (like a low wall), going [Prone](#prone) may turn your low cover to high cover. 
-* **High cover**: `+2` Ob against a target that is behind high cover. 
-  * High cover is any static object to hide behind that fully covers the body, like a tall wall or large boulder. 
+* **Low Cover**: `+1` Ob against a target that is behind Low Cover. 
+  * Low Cover is any static object to hide behind that doesn't fully cover the body, like a tree stump or low wall. 
+  * If the type of cover allows (like a low wall), then going [Prone](#prone) may turn your Low Cover to High Cover. 
+* **High Cover**: `+2` Ob against a target that is behind High Cover. 
+  * High Cover is any static object to hide behind that fully covers the body, like a tall wall or large boulder. 
 
-### Speed aids Defense
+### Speed Aids Defense
 It is possible for a victim of an attack to be moving too fast for the attacker's ability to keep tracking them effectively. 
 
 What speed exactly that is, depends heavily on circumstance. As always, the GM's estimate determines whether a bonus can apply to a Defense [Test](#tests). A fast moving target may increase the attacker's Ob by `1`, up to `3`, depending on _how many degrees of too fast_ they are moving. 
 
 > In a sci-fi setting, an automated turret may have a tracking system that can easily keep up with targets moving at high speeds, which will only fail if the target performs some extreme maneuvers. 
 > 
-> In a medieval fantasy setting, even just someone in a full sprint may be fast enough to throw off an archer's aim. Someone on horse back, riding at speed may be very hard to hit with an arrow or melee weapon. 
+> In a medieval fantasy setting, even just someone in a full sprint may be fast enough to throw off an archer's aim. Someone on horse back, riding at speed may be very hard to hit with an arrow or a melee weapon. 
 
 ## Momentum
 **Momentum** is a resource that benefits PCs. It ranges from `-20` to `+20` and usually starts at `0`. As the PCs make progress in a fight, they gain Momentum and as they suffer setbacks, they lose it. It is a resource that represents the PCs superiority - or the inverse - and is expected to be constantly in flux, like in a tug-of-war. 
@@ -1929,40 +1928,38 @@ Throwing things is a special type of Action, that follows the rules outlined bel
 
 ### Throwing-Distance
 **The maximum distance** something can be thrown is determined by the object's [Bulk](#bulk) and the Character's [Strength](#strength-str):
-* For every point in [Strength](#strength-str), an object can be thrown an additional `5`. 
-* For every point in Bulk past `1`, the [Strength](#strength-str) value for throwing is reduced by `1`. 
+* For every point in Strength, an object can be thrown an additional `5` Squares. 
+* For every point in Bulk past `1`, the Strength value for throwing is reduced by `1`. 
 
 The steps to determine **distance** to throw are as follows:
-1. Reduce the object's [Bulk](#bulk) by `1`. 
-2. Reduce [Strength](#strength-str) by the remaining [Bulk](#bulk). 
+1. Reduce the object's Bulk by `1`. 
+2. Reduce Strength by the remaining Bulk. 
 3. Multiply by `5`. 
 
-> A Character with **strength** `1` can throw an object of Bulk `1` up to `5` and cannot throw an object of Bulk `2` or higher, at all. 
+> A Character with Strength `1` can throw an object of Bulk `1` up to `5` Squares far and cannot throw an object of Bulk `2` or higher, at all. 
 > 
-> A Character with **strength** `5` can throw an object of Bulk `1` up to `25` and an object of Bulk`3` up to `15`. 
+> A Character with Strength `5` can throw an object of Bulk `1` up to `25` Squares far and an object of Bulk `3` up to `15` Squares far. 
 
 ### Throwing-Accuracy
-How likely the object is to impact where intended is determined by the object's [Bulk](#bulk), the distance to throw and the Character's Skill in the [Throwing](#throwing-agistr) Skill. If throwing _at_ another Character, then they may Defend against the throw.
-* For every `5` interval, the Ob increases by `1`. 
-  * That means up to `5` is Ob `1`. Starting at `6`, up to and including `10` it's Ob `2`. Starting at `11`, it's Ob `3`, and so on.
+How likely the object is to impact where intended is determined by the distance to throw and the Character's Level in the [Throwing](#throwing-agistr) Skill. If throwing _at_ another Character, then they may Defend against the throw.
+* For every `5` Square interval, the Ob increases by `+1`. 
+  * That means up to `5` Squares the Ob is `1`. Starting at `6` Squares, up to and including `10` Squares the Ob is `2`. Starting at `11` Squares, the Ob is `3`, and so on.
 
 The steps to determine Ob to throw are as follows:
 1. Divide distance to throw by `5` and round up.
 2. If throwing _at_ another Character, add the Hits of the defender's Defense [Test](#tests).
 
-> A Character must succeed a Test at Ob `1` for a distance of `5`. They must succeed a Test at Ob `2` for a distance of `6` and a Test at Ob `3` for a distance of `11`. 
+> A Character must succeed a Test at Ob `1` for a distance of `5` Squares. They must succeed a Test at Ob `2` for a distance of `6` Squares and a Test at Ob `3` for a distance of `11` Squares. 
 
-> A Character is throwing their weapon at an enemy standing `8` away. The distance sets the base Ob to `2`. Additionally, the defender gets to roll their Defense Test and achieves `1` Hit. This raises the Ob to hit to `3`. 
+> A Character is throwing their weapon at an enemy standing `8` Squares away. The distance sets the base Ob to `2`. Additionally, the defender gets to roll their Defense Test and achieves `1` Hit. This raises the Ob to hit to `3`. 
 
-In case of an unsuccessful throw, the object lands only near the intended spot, instead of on it. In order to determine where a missed throw lands, roll a `D8`. A `1` designates the object landed north-west of the intended spot. Then, going clock-wise, a `2` would designate north, `3` north-east and so on. 
+In case of an unsuccessful throw, the object lands only near the intended spot, instead of on it. In order to determine where a missed throw lands, roll a `D8`. A `1` designates the object landed north of the intended spot. Then, going clock-wise, a `2` would designate north-east, `3` east and so on. 
 
 A roll of `1D4` determines how far along that axis, measured from the intended spot, the object lands. 
 
-> A Character missed their throw. They roll `1D8`, yielding a `4`, which means east of the intended spot. Then they roll `1D4`, yielding a `3`, which means a distance of `3`. 
->
-> So, the object lands `3` east of the intended spot. 
+> A Character missed their throw. They roll `1D8`, yielding a `4`, which means south-east of the intended spot. Then they roll `1D4`, yielding a `3`, which means a distance of `3` Squares south-east of the intended spot. 
 
-Note, that in case a spot determined this way would be farther than the Character can throw, you must correct the distance by moving it closer towards the Character that threw the object, until it is within their allowed distance. 
+Note that the object cannot fly farther than the Character's Strength would allow. 
 
 For your convenience, you can refer to the following chart: 
 
@@ -1971,7 +1968,7 @@ For your convenience, you can refer to the following chart:
 ### Throwing-Damage
 If throwing a weapon that isn't specifically made or especially suitable to throwing, then the damage that is dealt on successful hit is halved (RD). 
 
-When throwing non-weapons, the damage dealt is calculated the following way: `Strength * (Bulk - 1)`. Note if [Bulk](#bulk) were to be less than `1`, use `1` instead. 
+When throwing non-weapons, the damage dealt is calculated the following way: `Strength * (Bulk - 1)`. Note the resulting damage cannot be less than `0`.
 
 The [Damage Type](#damage-types) to use, depends on the type of object and how it hits the target. For most non-weapons, **Bludgeoning** should be appropriate. 
 
@@ -1980,9 +1977,9 @@ The [Damage Type](#damage-types) to use, depends on the type of object and how i
 # Travel & Terrain
 Whenever players are presented with an overworld map, with distinct locations marked on it and players ask, "how do we get from *here* to *there*?", the question of travel comes up. The exact specifics will depend on the GM's world, and their forms of travel. Walking there on foot is sure to be slower than flying by plane. Or perhaps travel can even be instantaneous, through magic and technology, in which case this chapter will be irrelevant. 
 
-For the purposes of this chapter, the overworld map is expected to have a grid of either squares or hexagons overlaid on top of it, segmenting it into manageable chunks. You may choose an appropriate chunk-size yourself or take the suggested size of a `10km²` or `6 mile²` square or hexagon. 
+For the purposes of this chapter, the overworld map is expected to have a grid of either squares or hexagons overlaid on top of it, segmenting it into manageable chunks. You may choose an appropriate chunk-size yourself or take the suggested size of a `10km` or `6 mile` diameter square or hexagon. Either way, this unit will henceforth be referred to as a **Square**. 
 
-The following table suggests how long it might take to traverse a particular square of terrain, on foot, depending on the dominant terrain feature of that square. The suggested durations may not be realistic, but they are easy to manage. Also suggested are Obs for [hunting and foraging](#foraging--hunting).
+The following table suggests how long it might take to traverse a particular Square of terrain, on foot, depending on its dominant terrain feature. The suggested durations may not be realistic, but easy to manage. Also suggested are Obs for [hunting and foraging](#foraging--hunting).
 
 | Terrain                | Time (on foot) | Hunting/Foraging Ob |
 | ---------------------- | -------------- | ------------------- |
@@ -2002,10 +1999,10 @@ Under normal circumstances, Characters may spend at most `12` hours traveling (o
 It is possible to push on, past the `12` hour threshold, for another `12` hours. After that, all Characters become [Exhausted](#exhausted), which can only be cleared through a [Full Rest](#resting). 
 
 ## Enduring the Journey
-For every increment of `6` hours of travel, Characters will need to consume one [ration](#general-assets). If they don't, they suffer `+1` [Exhaustion](#exhaustion) which can only be cleared with a [ration](#general-assets) during a [Full Rest](#resting). 
+For every increment of `6` hours of travel, Characters will need to consume one [ration](#general-assets). If they don't, they suffer `+1` [Exhaustion](#exhaustion) which can only be cleared with a [Full Rest](#resting). 
 
 ## Foraging & Hunting
-It is possible to hunt/forage for food while traveling, without losing time. You may make Tests of an approproately chosen Skill, with an Ob appropriate to the current square of terrain. If successful, the number of hits you achieve equals the number of [rations](#general-assets) you gain. 
+It is possible to hunt/forage for food while traveling, without losing time. You may make Tests of an approproately chosen Skill, with an Ob appropriate to the current Square of terrain. If successful, the number of Hits you achieve equals the number of [rations](#general-assets) you gain. 
 
 # General Interactions
 These are rules pertaining to specific social interactions or otherwise non-combat interactions that aren't immediately covered by a single [Skill](#skills). 
@@ -2030,7 +2027,7 @@ That is the difference to combat. Combat cannot be played out in reality and wil
 
 Despite that, sometimes you may not clearly know how a NPC will react. That is when dice rolls may help to resolve the situation. 
 
-To ***persuade*** someone to see your point, you choose a *known* Skill pertaining to the subject and make a roll. If you have no *known* Skill to roll with, you may fall back to rolling your [Wit](#wit-wit) or [Awareness](#awareness-awar). The other Character may [Oppose](#opposed-test) your roll with the same Skill or Attribute.  
+To ***persuade*** someone to see your point, you choose a Known Skill pertaining to the subject and make a roll. If you have no Known Skill to roll with, you may fall back to rolling your [Wit](#wit-wit) or [Awareness](#awareness-awar). The other Character may [Oppose](#opposed-test) your roll with the same Skill or Attribute.  
 
 > For example, to convince another Character that their methods for treating an ailment are incorrect, you might try to *persuade* with an opposed Medicine Test. 
 > 
@@ -2057,12 +2054,12 @@ Always be mindful about when to use which of the three methods.
 ### Are they lying?
 Of course, all of this begs the question - how to know if another Character is lying? "Does my Character believe them?" Barring any evidence or knowledge to determine the answer, Characters can only determine whether they believe the *act* of the other Character. Does it *seem* like they're speaking the truth?
 
-At that point an [Opposed Test](#opposed-test) may be made. The defender is the Character being scrutinized. The defender Tests [Acting](#acting-awarwit) versus the attacker Testing [Observation](#observation-awarawar). For this procedure it does not matter, whether the defender was actually lying. Someone speaking the truth is Tested the same way as someone speaking a lie. That is because the attacker can only go by whether it *looks*, *sounds* or *feels* like they're being deceived. 
+At that point an [Opposed Test](#opposed-test) may be made. The Defender is the Character being scrutinized, who Tests [Acting](#acting-awarwit) versus the Attacker's [Observation](#observation-awarawar). For this procedure it does not matter, whether the Defender was *actually* lying. Someone speaking the truth is Tested the same way as someone speaking a lie. That is because the Attacker can only go by whether it *looks*, *sounds* or *feels* like they're being deceived. 
 
-* If the attacker wins...
-  * ...and the other Character was lying, they are given a hint that the other Character doesn't seem trustworthy. They are **not** told how exactly it was a lie, only that it *seems* that something is off about *what* was said or *how* it was said. 
-  * ...and the other Character wasn't lying, they are told the other Character seems trustworthy. 
-* If the attacker loses, then they're told the other Character seems trustworthy, regardless of whether they were lying. 
+* If the Attacker wins...
+  * ...and the other Character **was** lying, they are given a hint that the other Character doesn't seem trustworthy. They are **not** told how exactly it was a lie, only that it *seems* that something is off about *what* was said or *how* it was said. 
+  * ...and the other Character **wasn't** lying, they are told the other Character seems trustworthy. 
+* If the Attacker loses, then they're told the other Character seems trustworthy, regardless of whether they were lying. 
 
 # Appendix
 The appendix contains important and less important lists, for reference only when needed. 
@@ -2072,23 +2069,23 @@ Imagine for the longest time of their life, your Character has led an ordinary e
 
 Creating an interesting and life-like Character is a challenging, but ultimately, very rewarding task. Thinking of their existence up to the point they start adventuring, can really help with paving the path of their future and give you a good idea of what they're like, and why.
 
-If you don't feel inspired, the following sections can provide tips and randomization tables that allow you write up a Character faster. 
+If you don't feel inspired, the following sections can provide tips and randomization tables to help you write up a Character faster. 
 
 The procedure of creating a Character consists of the following steps:
 1. [Determine life path](#determine-life-path). 
-2. [Determine species, sex & appearance](#species-sex--appearance).
+2. [Determine personal details](#personal-details).
 3. [Determine name](#determine-name).
 4. [Determine abilities](#determine-abilities).
-6. [Determine Carrying Capacity and Assets](#determine-assets).
-7. [Determine **Max HP** and **Injury Maximum**](#determine-max-hp--injury-maximum)
-8. [Determine Exhaustion Limit](#determine-exhaustion-limit).
+5. [Determine Derived Characteristics](#determine-derived-characteristics)
+6. [Determine Assets](#determine-assets).
 
 ### Determine Life Path
 Where and when does the story of your Character begin? Under what circumstances are they born and how were they raised? Until adulthood, did they lead a life of carelessness or did they have to fight for every scrap of food? How did they lead their life up until the point they picked up adventuring? 
 
-Answering these questions will help you figure out what your Character could be like, as a person and what kinds of Ambitions, Aspirations and Reactions they might develop. 
+Answering these questions will help you figure out what your Character could be like as a person and what kinds of Ambitions, Aspirations and Reactions they might develop. 
 
 If you need inspiration, the following tables might help a spark along:
+
 #### Origin
 | Range `D6` | Origin | 
 | -------- | ------ |
@@ -2130,8 +2127,8 @@ Any interesting Character should have an interesting name. Whether you set a nam
 
 If you can't come up with a name, you can ask your GM for inspiration, since they'll likely know the world and the culture(s) your Character can stem from and what kinds of names are common there. 
 
-### Species, Sex & Appearance
-Species is a bit difficult to provide a randomization table for, because the world your GM is running, might have different species available, that could not be anticipated here. For simplicity's sake, it is assumed you are generating a human. 
+### Personal Details
+Species is a bit difficult to provide a randomization table for, because the world your GM is running, might have various species available, that could not possibly be anticipated here. For simplicity's sake, it is assumed you are generating a human. 
 
 Gender is personal preference, but could also be decided by a die. 
 
@@ -2153,19 +2150,17 @@ The following table provides appearance traits for you to pick via the roll of a
 ### Determine Personality
 Perhaps more important than a name, is the personality that it represents. Think about what you want your Character to be like - are they very sociable? Or perhaps a taciturn brute who'd rather let their actions speak? A cruel man of science? A socialite with friends everywhere? The options are plentiful!
 
-Refer to the table in the [Personality Traits](#personality-matrix) section. You can choose freely, where to place your "x", for every row. You can even leave every trait at "undecided" and find out through play what your Character is like. If you prefer, you can even let chance decide for you! For that, roll a `D6` for every row. A 0 results in a "Signature" trait on the left side of the scale, while a 6 results in a "Signature" trait on the right side of the scale. Using this method, you will **not** have *any* "undecided" traits in the end. 
+Refer to the table in the [Personality Traits](#personality-traits) section. You can choose freely, where to place your "x", for every row. You can even leave every trait at "undecided" and find out through play what your Character is like. If you prefer, you can even let chance decide for you! For that, roll a `D6` for every row. A `1` results in a "Signature" trait on the left side of the scale, while a `6` results in a "Signature" trait on the right side of the scale. Using this method, you will **not** have *any* "undecided" traits in the end. 
 
 #### Determine Ambition, Aspirations & Reactions
 This is where things may get a little difficult. Work together with your GM, as they know their world and what kinds of agendas the people in it might have. 
 
-Don't worry too much about your first Aspirations and Reactions, as they're expected to change frequently and through the events your Character has yet to experience. 
+Don't worry too much about your first Aspirations and Reactions, as they're expected to change frequently, through the events your Character has yet to experience. 
 
-Only your Ambition will require some thought beforehand, but even so, you don't have to plan your Character's entire future, at all. But keep in mind that your Character's Ambition tells your GM, what kind of stories you'd like to explore and what's more, how your Character will fit into them. Again, working with your GM to determine a fitting Ambition is paramount. 
+Your Ambition will require most thought beforehand, but even so, you don't have to plan your Character's entire future. But keep in mind that your Character's Ambition tells your GM what kind of stories you'd like to explore and what's more, how your Character will fit into them. Working with your GM to determine a fitting Ambition is paramount to your enjoyment thereof. 
 
 ##### Choosing an Ambition
-At the core of every Character stands their [Ambition](#ambition), which is the primary force driving them. A good Ambition should last you a long time and give the GM a hint what kind of story you want to explore with your Character. 
-
-Talk to your GM about the Ambition you want your Character to have. On the one hand, it allows them to determine the kind of story you want to explore and on the other hand they can guage whether the Ambition is a suitable long-term goal. 
+At the core of every Character stands their [Ambition](#ambition), which is the primary force driving them. A good Ambition should last you a long time and give the GM a hint what kind of story you want to explore. Talk to your GM about the Ambition you want your Character to have. They will help you find a suitable long-term goal. 
 
 Keep in mind the Ambition you can randomly determine here is kept most basic and generic. Work with your GM to fill in the details. 
 
@@ -2185,18 +2180,18 @@ Keep in mind the Ambition you can randomly determine here is kept most basic and
 ##### Choosing Aspirations
 Now, the time to determine your three [Aspirations](#aspiration) has come. Yet again, your GM is integral in finding them. However, the other PCs are also of interest now. You can have Aspirations whose subject is one of the other PCs. You could even have the game begin with two or more of the PCs knowing each other, this way. 
 
-> Two PCs begin the game knowing each other. One starts with a background as a criminal, the other as a former monk. The former monk has an Aspiration stating "Stealing isn't right! I will help my friend pick up honest work!" The thief, on the other hand has the Aspiration "My friend has my back, but they really need to start looking after themselves! I will teach them to be more like me." 
+> Two PCs begin the game knowing each other. One starts with a background as a criminal, the other as a former monk. The former monk has an Aspiration stating "Stealing isn't right! I will help my friend pick up honest work!" The thief, on the other hand has the Aspiration "My friend has my back, but they really need to start looking out for themselves! I will teach them to be more like me." 
 > 
-> These two Aspirations allow these Characters to come into conflict, despite their good intentions. How it will play out, no one can say. And that makes for an interesting conflict!
+> These two Aspirations allow these Characters to come into conflict, despite their good intentions. How it will play out, no one can say. But it is sure to make for an interesting conflict!
 
 ##### Choosing Reactions
 Lastly, you need three [Reactions](#reaction) for your Character. Ideally, at least one of them should allow your GM getting your PC into *trouble*. 
 
-For reactions, you're fairly free to pick and choose, so long as you keep in mind that Reactions cannot alter facts of the narrative. **Reactions** can only allow you to *enter* a situation with an advantage - or to get your Character in trouble in a situation that triggers it. 
+For Reactions, you're fairly free to pick and choose, so long as you keep in mind that Reactions cannot alter facts of the narrative and have easily identifiable triggers. 
 
-> A reaction like "Allies around me don't die" is a bad Reaction, as it tries to alter facts, but isn't allowed to. The GM can't do much with this kind of reaction. 
+> A Reaction like "allies around me don't die" is a bad Reaction, as it tries to alter facts and has an unclear trigger. The GM can't do much with this kind of Reaction. 
 >
-> An improved version would be "Whenever an ally near me is in trouble, I come to their aid". 
+> An improved version would be "whenever an ally near me is in trouble, I come to their aid". 
 
 ### Determine Abilities
 Next up, you can reinforce your Character's [Personality](#personality-traits) with the abilities they have. Or even prepare a conflict of what your Character *can* do and what they *think* they can do. 
@@ -2220,7 +2215,7 @@ Please keep in mind the values here are representative for an ordinary human abo
 1. Roll `5D4`. 
 2. Row up your dice to form a line, then read them from one end to the other and note each value. The order in which they are written down, is the order in which they'll be applied to the attributes. 
 3. Ensure there is one `4`. 
-   1. If there is more than one `4`, start lowering their value by one, starting from the left or the right, until there is only one `4` left. 
+   1. If there is more than one `4`, start lowering values, starting from the left or the right, until there is only one `4` left. 
    2. If there are less than one `4`, raise the highest value up to `4`, starting either from the left or right. 
    3. Note that if you should have [Penalized Attributes](#core-favored-normal--penalized-attributes), those cannot have a Level of `4`. However, you can neutralize **one** such penalty by defining the Attribute as your Core. Note this only makes it a Normal Attribute, meaning its Level cannot be higher than `3`. 
 4. Count up the total of your values. 
@@ -2235,41 +2230,38 @@ Please keep in mind the values here are representative for an ordinary human abo
 8. Take note which Attribute has a value of `4`. This is your [Core Attribute](#core-favored-normal--penalized-attributes). 
 
 #### Choosing Skills
-When choosing Skills, consider your Character's background. What are their core competences? What fields of knowledge might they be well versed in? Which have they only dabbled in?
+When choosing Skills, consider your Character's background. What fields of knowledge might they be well versed in? Which have they only dabbled in? What was their craft?
 * Choose `1` Skill at Level `4`. This is your Character's strongest Skill. 
 * Choose `2` Skills at Level `3`. These complement your Character's strength. 
 * Choose `1` [Social](#social-skills) or [Knowledge](#knowledge-skills) Skill at Level `3`. This is something your Character is particularly knowledgable about. 
 * Choose `1` universal [Language](#languages) that will allow you to communicate with the other PCs. Although you need only worry about this, *if your GM does*. 
 * You can now spend **`8`** points to freely *learn* additional Skills and raise their Level, with the following limitations:
-  * No Skill can be higher Level than `3`. 
+  * No Skill Level can be higher than `3`. 
   * You can add at most `7` Skills. 
-  * No Skills can be set to *learning* (= added at Level `0`).
+  * All Skills added this way but be at least Level `1`.
 
-#### Determine Boons from Heritage
-It is possible for a Character to receive permanent boons or penalties during Character creation, based upon their cultural heritage. This is entirely at the GM's discretion and subject to their world. When choosing heritage-based Skill boons, keep the number low. One or two boons at most. These are narratively based and fairly unique starting conditions for a Character. 
+#### Determine Boons from Ancestry
+It is possible for a Character to receive permanent boons or penalties during Character creation, based upon their ancestry. This is entirely at the GM's discretion and subject to their world. When choosing ancestry-based Skill boons, keep the number low. One or two boons at most. These are narratively based and fairly unique starting conditions for a Character. 
+
+### Determine Derived Characteristics
+Determine your Character's [maximum HP](#hit-points-hp), by referring to the [Toughness](#toughness-tough) attribute. 
+
+Determine your Character's [Exhaustion Limit](#exhaustion), by referring to the [Toughness](#toughness-tough) attribute. 
+
+Determine your Character's [Carrying Capacity](#carrying-capacity). Refer to the [Strength](#strength-str) attribute to do so. Once you have this number, you know how much [Luggage](#luggage) your Character can carry around. 
 
 ### Determine Assets
 In most cases, your Character will have left home with their everyday clothes and some of their Property. 
 
-First, determine your Character's [Worn & Equipped Assets](#worn--equipped). Every slot may be filled, but keep in mind your Character's background. Someone with the background of a peasant is unlikely to wear a crown, for example. 
-
-Then, determine your Character's [Carrying Capacity](#carrying-capacity). Refer to the [Strength](#strength-str) attribute to do so. Once you have this number, you know how much [Luggage](#luggage) your Character can carry around. Again, your Character's background should dictate what kinds of things and how many they should have. 
-
-Always make sure to talk to your GM and fellow players and have them agree to the Assets you want your Character to start with. 
-
-### Determine Max HP & Injury Maximum
-Determine your Character's **max HP** and Injury Limit, by referring to the [Toughness](#toughness-tough) attribute. 
-
-### Determine Exhaustion Limit
-Determine your Character's [Exhaustion Limit](#exhaustion), by referring to the [Toughness](#toughness-tough) attribute. 
+First, determine your Character's [Worn & Equipped Assets](#worn--equipped). Every slot may be filled, but keep in mind your Character's background. Someone with the background of a peasant is unlikely to wear a crown, for example. Always make sure to talk to your GM and fellow players and have them agree to the Assets you want your Character to start with. 
 
 ## Assets Appendix
-The following list does not and cannot aim to be a complete listing of all possible Assets in game. Adding new Assets as necessary will have to be done by the GM. 
+The following list does not and cannot aim to be a complete listing of all possible Assets in game. Adding new Assets as necessary will have to be done by the GM and will also be done by STRIVE Modules. 
 
 ### General Assets
-The following is a non-exhaustive list of general Assets. Just because an Asset you're looking for isn't listed here, doesn't mean it cannot exist! You are encouraged to think creatively and [Invent](strive-core.md#invention-projects) your own!
+The following is a non-exhaustive list of general Assets. Just because an Asset you're looking for isn't listed here, doesn't mean it cannot exist! You are encouraged to think creatively and to [Invent](strive-core.md#invention-projects) your own!
 
-In the following table, `Q` refers to the quality grade of the Asset. See also the [Crafting](./strive-core.md#crafting--research-projects) rules. When in a hurry (as a GM), substitute the `Q` with `2`.
+In the following table, `Q` refers to the quality grade of the Asset. See also the [Crafting](./strive-core.md#crafting--research-projects) rules. For normal every-day Assets, substitute `Q` with `2`.
 
 When looking up products for crafting, the tools and materials required for the craft are not noted here. The materials and resources available to you, and which exist in your world simply cannot be predicted here. Instead, think creatively - what *could* you use to make the thing? What do you have available? Find a creative way to use what you have, to make what you want and ask your GM for the final go-ahead. However, the [Progress Increment (PI)](#progressing-a-project) and [Time Increment (TI)](#progressing-a-project) are noted. Particularly rare, valuable and suitable materials may act as [Project Boosters](#project-boosters). Some Assets may harder or easier to make at higher qualities, as noted by the *Crafting Ob*, which, if noted, is the modifier applied to *every* [Project Skill Test](#progressing-a-project).
 
@@ -2280,17 +2272,17 @@ When looking up products for crafting, the tools and materials required for the 
 | Objet d'art            | 1    | 1               | A painting, sculpture or other art piece. | 20 | 10 Minutes |  |
 | Ration                 | 1    | 10              | A ration of preserved food and drink, enough for a whole day. | 10 | 30 Minutes |  |
 
-### Weapon Properties
+### Weapon Traits
 Weapon type Assets can have the following traits:
 
 #### Melee
 Allows attacking an adjacent target.
 
 #### Long Reach
-Allows attacking a target two Squares (`2`) away. 
+Allows attacking a target two Squares away. 
 
 #### Very Long Reach
-Allows attacking a target three Squares (`3`) away. 
+Allows attacking a target three Squares away. 
 
 #### Range Only
 Implies a weapon cannot be used against any targets adjacent to self. 
@@ -2309,9 +2301,9 @@ The weapon can be used against targets up to a noted distance away from the user
 
 For every Distance Increment past the initial, an attack suffers `+1` Ob and deals `-2` points of damage. In other words, the farther you shoot, the harder it becomes to score an effective hit. 
 
-> A weapon with this property noted as `(max. 8)` can attack a target up to a maximum of `8` Squares away. 
+> A weapon with this Trait noted as `(max. 8)` can attack a target up to a maximum of `8` Squares away. 
 
-> A weapon with this property noted as `(10 DI)` has a Distance Increment of `10` Squares. Any attack up to and including `10` Squares incurs no penalties, but starting from the `11`th Square, the attack suffers `+1` Ob and if successful, deals `-2` points of damage less. Starting from the `21`st Square, `+2` Ob and `-4` points of damage, and so on.
+> A weapon with this Trait noted as `(10 DI)` has a Distance Increment of `10` Squares. Any attack up to and including `10` Squares incurs no penalties, but starting from the `11`th Square, the attack suffers `+1` Ob and if successful, deals `-2` points of damage less. Starting from the `21`st Square, `+2` Ob and `-4` points of damage, and so on.
 
 #### Serrated
 Melee attacks with this weapon cause an additional `+Q` points of Bleeding.
@@ -2320,37 +2312,35 @@ Melee attacks with this weapon cause an additional `+Q` points of Bleeding.
 Melee attacks with this weapon receive `+1` [Compensation Point](#compensation-points). 
 
 #### Poison-Chamber
-Melee attacks with this weapon cause an additional `+Q` points of Poison damage. The poison-chamber must be regularly refilled. 
+Melee attacks with this weapon cause an additional `+Q` points of Poison damage. The poison-chamber must be refilled after every use. 
 
 ## Lists of Skills
-The following list does not and cannot aim to be a complete listing of all possible Skills in game. Adding new Skills as necessary will have to be done by the GM. Nevertheless, most general scenarios should be covered by these Skills. 
+The following list does not and cannot aim to be a complete listing of all possible Skills in game. Adding new Skills as necessary will have to be done by the GM. Nevertheless, most general need should be covered. 
 
 Keep in mind that some Expertises may have graded effects. For more on this, see [Damage & Effects](#damage--effects). 
 
 ### Physical Skills
-These Skills have a dominant physical aspect and are directly tied to a Character's *physical attributes*. 
+These Skills have a dominant physical aspect and are directly tied to a Character's *physical Attributes*. 
 
 #### Acrobatics (Agi/Str)
 Performing acrobatic feats, such as jumping, tumbling and climbing, without injuring oneself in the process. 
 
-| Level | Name                 | AP | Ob  | Effect(s)          | Condition(s) |
-| ----- | -------------------- | -- | ------- | ------------------ | ------------ |
-| 1     | Deft Evasion         | /  | /       | **Passive**: While not wearing any [Armor](#armor) and not wielding a shield of Bulk `2` or more, gain `+1` [Compensation Point](#compensation-points) to any [Defense Test](#defending) made using this Skill and increase your [Stability](#stability-stabil) by `+1`! | / |
-| 2     | Wind Out Of It       | 2  | 2       | When hit by an attack, suffer `+1` [Exhaustion](#exhaustion), wind out of the hit and... <br> `≤ 1` Hit: suffer `3` points of damage less. <br> `= 2` Hits: suffer `5` points of damage less <br> `≥ 3` Hits: suffer `8 or half (RU)` damage less, picking whichever number is higher. | Not [Exhausted](#exhausted) |
+| Level | Name                 | AP | Ob      | Effect(s)          |
+| ----- | -------------------- | -- | ------- | ------------------ |
+| 1     | Deft Evasion         | /  | /       | **Passive**: While not wearing any [Armor](#armor) and not wielding a shield of Bulk `2` or more, gain `+1` [Compensation Point](#compensation-points) to any [Defense Test](#defending) made using this Skill and increase your [Stability](#stability-stabil) by `+1`! |
+| 2     | Wind Out Of It       | 2  | 2       | When hit by an attack, suffer `+1` [Exhaustion](#exhaustion), wind out of the hit and... <br> `≤ 1` Hit: suffer `3` points of damage less. <br> `= 2` Hits: suffer `5` points of damage less <br> `≥ 3` Hits: suffer `8 or half (RU)` damage less, picking whichever number is higher. |
 
 #### Berserking (Tough/Tough)
-Whether as a well-honed skill and way of life, or through a disappointing childhood of misery and pain, berserking is a talent for fighting angrily and recklessly. It allows a fighter to keep fighting at surprising strength, even when wounded. 
+Whether as a well-honed skill and way of life, or through a disappointing childhood of misery and pain, Berserking is a Skill for fighting angrily and recklessly. It allows a fighter to keep fighting at surprising strength, even when wounded. 
 
-However, the price for this strength is steep. The chance of death is greatly increased for anyone who embraces this way of fighting. 
-
-| Level | Name                 | AP | Ob  | Effect(s)          | Condition(s) |
-| ----- | -------------------- | -- | ------- | ------------------ | ------------ |
-| 0     | Reckless Assault     | 1  | /       | Gain `+1` [Compensation Point](#compensation-points) for your next attack. Suffer a `-1D` penalty to all [Defense Tests](#defending) until the start of your next Turn. | / |
-| 1     | Grit Your Teeth      | 0  | /       | **Reaction**: Upon suffering an [Injury](#injury), gain an *additional* [Grit Point](#grit-points), but at the cost of `1` point of [Exhaustion](#exhaustion)! | Not at Exhaustion limit. |
-| 1     | Hit me? Hit you!     | 1  | /       | **Reaction**: Upon suffering damage, immediately hit your attacker back, dealing `Str` Bludgeoning damage to them. Suffer `+1` point of [Exhaustion](#exhaustion)! | Not at Exhaustion limit. |
-| 1     | The Blood Quickens!  | 1  | /       | Reduce your [Exhaustion](#exhaustion) by `1` for every point in [Bleeding](#bleeding) you currently have. | / |
-| 2     | Pain is Strength     | 2  | Opposed | Perform an attack against a **ST**. You suffer one point of [Exhaustion](#exhaustion). For every active [Injury](#injury) you currently have, deal <br> `≤ 1` Hit: `2` Bludgeoning <br> `= 2` Hits: `4` Bludgeoning <br> `≥ 3` Hits: `6` Bludgeoning | / |
-| 3     | Injury Collector     | 0  | 2       | **Reaction**: Upon suffering an [Injury](#injury), with a successful Test, remove all additional [Penalties](#boons--penalties) (i. e. everything but the [HP](#hit-points-hp) malus) from the [Injury](#injury). | / |
+| Level | Name                 | AP | Ob      | Effect(s)          |
+| ----- | -------------------- | -- | ------- | ------------------ |
+| 0     | Reckless Assault     | 1  | /       | Gain `+1` [Compensation Point](#compensation-points) for your next attack. Suffer a `-1D` penalty to all [Defense Tests](#defending) until the start of your next Turn. |
+| 1     | Grit Your Teeth      | 0  | /       | **Reaction**: Upon suffering an [Injury](#injury), gain an *additional* [Grit Point](#grit-points), but at the cost of `+1` point of [Exhaustion](#exhaustion)! |
+| 1     | Hit me? Hit you!     | 1  | /       | **Reaction**: Upon suffering damage, immediately hit your attacker back, dealing `Str` Bludgeoning damage to them. Suffer `+1` point of [Exhaustion](#exhaustion)! |
+| 1     | The Blood Quickens!  | 1  | /       | Reduce your [Exhaustion](#exhaustion) by `1` for every point in [Bleeding](#bleeding) you currently have. |
+| 2     | Pain is Strength     | 2  | Opposed | Perform an attack against a ST. You suffer `+1` [Exhaustion](#exhaustion). For every active [Injury](#injury) you currently have, deal <br> `≤ 1` Hit: `2` Bludgeoning <br> `= 2` Hits: `4` Bludgeoning <br> `≥ 3` Hits: `6` Bludgeoning |
+| 3     | Injury Collector     | 0  | 2       | **Reaction**: Upon suffering an [Injury](#injury), suffer an **additional** Injury and its Grit Point, and immediately set both Injuries to Treated. |
 
 | Level | <img src="../../img/heroic-acts.svg" width="64px" height="64px"></img> | Heroic Act Description | Desperate Measure Description | <img src="../../img/desperate-measures.svg" width="64px" height="64px"></img> |
 | ----- | ----------------------- | ---------------------- | ----------------------------- | --------------------------- |
@@ -2375,9 +2365,9 @@ The instrument in question must be noted.
 #### Stealth (Agi/Awar)
 Moving silently and performing actions undetected. 
 
-| Level | Name                 | AP | Ob  | Effect(s)          | Condition(s) |
-| ----- | -------------------- | -- | ------- | ------------------ | ------------ |
-| 2     | Pocket-Sand          | 2  | Opposed | Disappear from a ST's sight, who is up to `2` Squares away and run up to... <br> `≤ 1` Hit: `1` AP worth of distance  <br> `= 2` Hits: `2` AP worth of distance <br> `≥ 3` Hits: `3` AP worth of distance. <br> This does not provoke Opportunity Attacks from that ST. Every time you use this Expertise, your next use is `+1` Ob harder, until the next scene. |  |
+| Level | Name                 | AP | Ob      | Effect(s)          |
+| ----- | -------------------- | -- | ------- | ------------------ |
+| 2     | Pocket-Sand          | 2  | Opposed | Disappear from a ST's sight, who is up to `2` Squares away and run up to... <br> `≤ 1` Hit: `1` AP worth of distance.  <br> `= 2` Hits: `2` AP worth of distance. <br> `≥ 3` Hits: `3` AP worth of distance. <br> This does not provoke Opportunity Attacks from that ST. Every time you use this Expertise, your next use is `+1` Ob harder, until the next scene. |
 
 #### Swimming (Agi/Tough)
 The ability to safely stay afloat and move around in water. 
