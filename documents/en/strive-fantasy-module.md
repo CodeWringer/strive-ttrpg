@@ -248,7 +248,7 @@ When a mage casts magic, **one third** (RD and minimum `1`) of the [Spell Intens
 The [Arcana](#arcana-arc) Attribute determines several thresholds. If the Character has an [Arcana](#arcana-arc) Level of less than `1`, calculate the thresholds as if it was Level `1`. 
 
 * **Cold**: Up to and including the `modified Arcana` is **mostly safe**. 
-  * Every time the mage casts a spell, if they don't achieve at least `1` Hit, a [Spell-Backfire](#spell-backfire) occurs. In other words, only a Complete Failure of the [Test](#testing-magic) results in a [Spell-Backfire](#spell-backfire). 
+  * Every time the mage casts a spell, if they don't achieve at least `1` Hit, a [Spell-Backfire](#spell-backfire) occurs. In other words, only a failure of the [Test](#testing-magic) results in a [Spell-Backfire](#spell-backfire). 
 * **Smoldering**: Up to and including the `modified Arcana * 2` is **risky**. 
   * Every time the mage casts a spell, their Ob is always increased by `+1`. Less than `2` Hits causes a [Spell-Backfire](#spell-backfire). 
   * All spells are super-charged, with an automatic and free `+1` SI. 
@@ -379,8 +379,8 @@ It may be possible to circumvent this repulsion behavior by placing the Runes in
 To activate a Rune, it must be touched in the right spots and at the right intervals. Mistakes in the procedure can have disastrous results. 
 
 In order to invoke a Rune:
-* A Complete Success of a [Rune-Using](#rune-using-agiwit) Skill Test will invoke the spell of the Rune as expected. This costs `2` AP. 
-* Failing to achieve a Complete Success results in a [Spell-Backfire](#spell-backfire). 
+* A [Rune-Using](#rune-using-agiwit) Test will invoke the spell of the Rune as expected. This costs `2` AP. 
+* Failure in the Test results in a [Spell-Backfire](#spell-backfire). 
 * The user accumulates one third (RD, but to no less than `1`) of the Rune's [Spell Intensity](#spell-intensity-si) as [Arcane Slag](#arcane-overheat--slag). 
 
 #### Creating Runes
@@ -390,9 +390,9 @@ In order to craft a Rune:
 * A Rune can only be made to cast one type of magic. So the carver has to pick one of the [Magic Schools](#list-of-magic-schools). 
 * The carver has to succeed a [Rune Smithing](#rune-smithing-arcwit) Skill Test. 
   * The maximum Level at which a Rune can be created, depends on the carver's Skill Level. The Level of the Rune dictates the Level of the respective magic it will cast at. 
-* After the carving, the Rune must be "primed" by a mage. This requires a Complete Success of a Test of the same [School Of Magic](#list-of-magic-schools) as the Rune holds, with Ob equal to the [Spell Intensity](#spell-intensity-si) of the Rune. 
+* After the carving, the Rune must be "primed" by a mage. This requires a success of a Test of the same [School Of Magic](#list-of-magic-schools) as the Rune holds, with Ob equal to the [Spell Intensity](#spell-intensity-si) of the Rune. 
 
-If any of the Tests are not a Complete Success, the Rune is botched and the material cannot be used for another attempt. There is no room for mistakes. 
+If any of the Tests are not a success, the Rune is botched and the material cannot be used for another attempt. There is no room for mistakes. 
 
 ### Magic Scrolls
 **Magic Scrolls** allow a single, specific spell to be cast by both mages and non-mages. Once used, the Magic Scroll burns up from the flow of magic and cannot be used again (even if the bearer material is fire-proof). Thus, these are single-use tools. 
@@ -412,10 +412,10 @@ In order to invoke a Magic Scroll:
 In order to create a Magic Scroll:
 * PI: `50`, TI: `1` Hour
 * Powdered [Abyssalite](#abyssalite) must be painted onto the parchment, paper or other such material, in a shape specific to the magic spell the Magic Scroll will be able to cast. 
-  * This requires a Complete Success of an [Artistry](./strive-core.md#artistry-agiawar) or [Artificing](#artificing-arcwit) Test, at Ob equal to the intended [Spell Intensity](#spell-intensity-si) of the Magic Scroll. 
-* Then, the Magic Scroll must be "primed" by a mage. This requires a Complete Success of a Test of the same [School Of Magic](#list-of-magic-schools) as the Magic Scroll holds, with Ob equal to the [Spell Intensity](#spell-intensity-si) of the Magic Scroll. 
+  * This requires a success of an [Artistry](./strive-core.md#artistry-agiawar) or [Artificing](#artificing-arcwit) Test, at Ob equal to the intended [Spell Intensity](#spell-intensity-si) of the Magic Scroll. 
+* Then, the Magic Scroll must be "primed" by a mage. This requires a success of a Test of the same [School Of Magic](#list-of-magic-schools) as the Magic Scroll holds, with Ob equal to the [Spell Intensity](#spell-intensity-si) of the Magic Scroll. 
 
-If any of the Tests are not a Complete Success, the Magic Scroll is botched and the material cannot be used for another attempt. There is no room for mistakes. 
+If any of the Tests are not a success, the Magic Scroll is botched and the material cannot be used for another attempt. There is no room for mistakes. 
 
 ### Malevite
 Also known as blood jewel, Malevite is an entirely artificial material, made from the blood of mages or magical creatures, by use of great pressure, a constant arcanic charge and much patience. The more blood it is infused with, the purer the color and more powerful the artifact. 

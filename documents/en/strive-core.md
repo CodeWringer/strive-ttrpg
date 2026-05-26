@@ -84,7 +84,7 @@ You may choose to play without the Momentum system for a less heroic style of ga
       - [Toughness (Tough)](#toughness-tough)
       - [Wit (Wit)](#wit-wit)
     - [Core, Favored, Normal \& Penalized Attributes](#core-favored-normal--penalized-attributes)
-    - [Derived Characteristics](#derived-characteristics)
+    - [Derived Attributes](#derived-attributes)
       - [Base Initiative (BI)](#base-initiative-bi)
       - [Sprinting Speed (Sprint)](#sprinting-speed-sprint)
       - [Stability (Stabil)](#stability-stabil)
@@ -104,9 +104,10 @@ You may choose to play without the Momentum system for a less heroic style of ga
     - [Character Traits](#character-traits)
       - [Titles of Renown](#titles-of-renown)
   - [Personality](#personality)
-    - [Ambition](#ambition)
-    - [Aspiration](#aspiration)
-    - [Reaction](#reaction)
+    - [Drivers](#drivers)
+      - [Ambition](#ambition)
+      - [Aspiration](#aspiration)
+      - [Reaction](#reaction)
     - [Personality Traits](#personality-traits)
   - [Health](#health)
     - [Hit Points (HP)](#hit-points-hp)
@@ -219,7 +220,7 @@ You may choose to play without the Momentum system for a less heroic style of ga
         - [Semi-Random Attribute Assignment](#semi-random-attribute-assignment)
       - [Choosing Skills](#choosing-skills)
       - [Determine Boons from Ancestry](#determine-boons-from-ancestry)
-    - [Determine Derived Characteristics](#determine-derived-characteristics)
+    - [Determine Derived Attributes](#determine-derived-attributes)
     - [Determine Assets](#determine-assets)
   - [Assets Appendix](#assets-appendix)
     - [General Assets](#general-assets)
@@ -438,53 +439,98 @@ As STRIVE is meant primarily as a rule-book to help you quickly find what you ne
 | Term                                                        | Meaning / Description   |
 | ----------------------------------------------------------- | ----------------------- |
 | [Action Point(s) (AP)](#action-points-ap)                   | A temporary resource that limits how much Characters can do on their Turn. |
-| [Agility (Agi)](#agility-agi)                               | The Agility Attribute. Determines how dexterous, nimble and fast a Character is. |
+| [Action](#intent--action)                                   | Something a Character wishes to do. In Combat, this is any self-initiated action that isn't a Reaction. |
+| [Advancement Progress](#advancement)                        | The number that dictates a Skill's current progress towards Advancement. |
+| [Advancement](#advancement)                                 | PCs may raise their Attributes' and Skills' Levels as they exercise them and gain XP. |
+| [Agility (Agi)](#agility-agi)                               | An Attribute that describes a Character's nimbleness, swiftness and hand-eye coordination. Finds use in determining Base Initiative and Sprinting Speed. |
 | [Ambition Fate-Point (AFP)](#ambition-fate-points)          | A Fate-Point earned for the greatest of achievements. |
+| [Ambition](#ambition)                                       | A Character's main and life-fulfilling goal. The primary Driver of a Character. |
 | [Area of Effect (AoE)](#area-of-effect-aoe)                 | Indicates an attack will affect multiple targets in an area, which could be a cone, a radius, line, or similar shape. |
+| [Aspiration](#aspiration)                                   | A Character's secondary and more immediate goal, based on recent events. |
+| [Assurance](#reaction)                                      | A PC's Reaction that ensures the PC may enter a given troublesome situation under more favorable circumstances. |
 | [Attack Test](#attacking)                                   | A Test made to harm or hinder another Character. |
-| [Awareness (Awar)](#awareness-awar)                         | The Awareness Attribute. Determines how generally attentive and empathic a Character is. |
+| [Attacker](#attacking)                                      | A Character performing some Action that targets another. The distinction whether this is a hostile or benign action does not matter. |
+| [Attribute](#attributes)                                    | A Character's most basic ability. Its Level dictates the base number of dice available for a Test. |
+| [Awareness (Awar)](#awareness-awar)                         | An Attribute that describes a Character's keen senses and empathic understanding. Finds use in determining Base Initiative. |
 | [Base Attribute](#skills)                                   | One of the two Attributes a Skill relies on. |
 | [Base Initiative / BI](#base-initiative-bi)                 | Determines the order in which Characters act in combat. |
 | [Basic Action](#action-points-ap)                           | An action (during combat) that doesn't require a Test, such as moving. |
-| [Concentration](#concentration)                             | A Skill or Expertise whose effects last as long as desired |
+| [Binary Test](#binary-test)                                 | A Test that allows no room for failure. |
+| [Carrying Capacity](#carrying-capacity)                     | Limits how much a Character can carry on-person. |
+| [Character Trait](#character-traits)                        | A unique aspect of a Character, such as an exclusive ability or Title of Renown. |
+| [Combat](#combat)                                           | The state the game enters when a fight breaks out. Time is finely sliced and Characters act in Turns, with a limited number of actions they may take. |
+| [Compensation Point](#compensation-points)                  | Greatly improve the odds of achieving a Hit in a Test. |
+| [Concentration](#concentration)                             | A Skill or Expertise whose effects last as long as desired, but which could be interrupted. |
+| [Core Attribute](#core-favored-normal--penalized-attributes)| An Attribute that is easier to Advance. |
+| [Creative Test](#creative-test)                             | A Creative Test offers much freedom in how it is to be resolved. It is commonly a group effort to solve one of these and is a great answer for chase-sequences. |
 | [D10](#dice)                                                | A ten-sided die         |
 | [D20](#dice)                                                | A twenty-sided die      |
 | [D4](#dice)                                                 | A four-sided die        |
 | [D6](#dice)                                                 | A six-sided die         |
 | [D8](#dice)                                                 | An eight-sided die      |
+| [Defender](#defending)                                      | A Character who is target of another's Action. The distinction whether this is a hostile or benign action does not matter. |
 | [Defense Test](#attacking)                                  | A Test made to oppose the attack of another Character. |
+| [Derived Attributes](#derived-attributes)                   | An Attribute whose value stems from other sources. It cannot be Advanced independently. |
 | [Difficult Terrain](#combat-movement)                       | Halves movement per AP. |
 | [Distance Increment (DI)](#ranged)                          | Indicates a ranged weapon's/attack's range increments. Attacking past this number of Squares incurs penalties to the attack. |
+| [Down-Time](#down-time)                                     | Whenever the PCs aren't out actively adventuring, they may have time to themselves, to pursue a craft, hone their abilities or simply relax. |
+| [Drivers](#drivers)                                         | Refers to a Character's Ambition, Aspirations and Reactions - goals to work towards and automatic triggers to get them into trouble. |
 | [Exhaustion](#exhaustion)                                   | A resource that indicates how physically exerted a Character is. Limits usage of abilities if it becomes too much. |
 | [Experience Point(s) (XP)](#experience-points-xp)           | Allows unrestricted Character Advancement. |
 | [Expertise](#expertise)                                     | A sub-ability of a Skill. |
-| [Fate-Point (FP)](#fate-points)                             | A powerful meta-currency that allows you to change dice rolls and even influence the narrative. |
+| [Fate Point(s) (FP)](#fate-points)                          | A meta-currency that players earn through roleplay and great achievements. Can be used to buy powerful Fate-Cards from the Hand Of Fate. |
+| [Fate-Card](#hand-of-fate)                                  | A powerful meta-currency that allows you to change dice rolls and even influence the narrative. |
+| [Favored Attribute](#core-favored-normal--penalized-attributes)| An Attribute that is inherently easier to Advance. |
 | [Forced Movement](#forced-movement)                         | When a Character is moved against their will, by being pushed or thrown. |
+| [Full Rest, Resting](#resting)                              | Spending time asleep or in deep meditation, allowing a Character to recover their health. |
 | [Game-Master (GM)](#introduction)                           | The person running the game. |
-| [Hit Limit](#testing-a-skill)                               | Determines how many rolled Hits may actually factor into the result of a Test. |
+| [Graduated Test](#graduated-test)                           | A Test with a gradation of success or failure. Mostly finds use in crafting. |
+| [Hand Of Fate](#hand-of-fate)                               | Refers to the game's selection of available Fate-Cards. |
+| [Hit Limit](#testing-a-skill)                               | Determines how many rolled Hits may actually factor into the result of a Test. This is equal to your Skill's Level, but can be raised through Compensation Points, Skill Forking and other Characters providing assistance. |
 | [Hit-Point(s) (HP)](#hit-points-hp)                         | The resource that separates a Character from death. |
 | [Hit](#tests)                                               | Positive result of an individual die-roll in a Test. |
+| [Initiative Order](#initiative)                             | Defines the order Characters get to act in during tense situations, like Combat. |
+| [Innate Ability](#innate-abilities)                         | A special ability that a Character has access to based on their ancestry. |
+| [Known Skill](#skills)                                      | A Skill at Level `1+`, which is still considered known to the Character. They can properly utilize such a Skill. |
+| [Language](#languages)                                      | A Character's ability to communicate and potentially read and write in a language that exists in your GM's world. |
+| [Learning Skill](#learning-skills)                          | A Skill at Level `0`, which is still considered unlearned. A Character has not yet gained the ability to properly utilize such a Skill, for example in Skill Forking. |
 | [Major Fate-Point (MaFP)](#major-fate-points)               | A Fate-Point earned for a major achievement and great role-play. |
 | [Minor Fate-Point (MiFP)](#minor-fate-points)               | An easily earned Fate-Point, supported by mostly mechanics. |
 | [Miss](#tests)                                              | Negative result of an individual die-roll in a Test. |
 | [Multiple Single Target (MST)](#multiple-single-target-mst) | Indicates that an attack affects multiple targets, each of which is handled individually, for example for rolling Defense Tests. |
 | [Non-Player Character (NPC)](#non-player-character-npc)     | Represents all the people, animals and monsters of a world, that are controlled by the GM. |
+| [Normal Attribute](#core-favored-normal--penalized-attributes)| An Attribute that is enjoys normal Advancement costs. |
 | [Obstacle (Ob)](#tests)                                     | Determines the target number of Hits you must roll to succeed a Test. |
+| [Opposed Test](#opposed-test)                               | A Test that resolves when two Characters come into opposition. Most commonly finds use in Combat. |
+| [Owning Skill](#expertise)                                  | The Skill an Expertise is part of. |
+| [Penalized Attribute](#core-favored-normal--penalized-attributes)| An Attribute that is much harder to Advance. |
+| [Personality](#personality)                                 | Describes a Character's desires and ways of thinking. |
+| [Personality Trait](#personality-traits)                    | Describes a Character's way of thinking and how they should act, in general. |
+| [Signature Personality Trait](#personality-traits)          | Describes a Character's way of thinking and how they *will* act, in general. In fact, they are *known* to be this way! |
 | [Player Character (PC)](#introduction)                      | The type of Character that players are in control of. |
+| [Practice](#practice)                                       | During Down-Time, Characters may practice for Advancement Progress. |
 | [Primary Damage](#primary-damage)                           | An attack's greatest damage value, if it deals multiple types. |
 | [Progress Increment (PI)](#progressing-a-project)           | Determines how much work a Project takes. |
 | [Project](#crafting--research-projects)                     | A long-term and abstract side-activity of a PC to craft or research something. |
 | [Rounded Down (RD)](#rounded-up--rounded-down)              | Indicates a step or result of a calculation is supposed to be rounded down. |
 | [Rounded Up (RU)](#rounded-up--rounded-down)                | Indicates a step or result of a calculation is supposed to be rounded up. |
 | [Single-Target (ST)](#single-target-st)                     | Indicates an attack will only affect a single target. |
-| [Skill](#skills)                                            | A learned ability of a Character. These are used in the vast majority of cases to resolve Tests. |
+| [Skill Forking](#skill-forking)                             | Allows you to benefit from varied knowledge. You can Fork related Skills into a Test, if you can reasonably explain their use. |
+| [Skill](#skills)                                            | A learned ability of a Character. These are used in the vast majority of cases to resolve Tests and may offer unique abilities, called Expertises. |
 | [Sprinting Speed / Sprint](#sprinting-speed-sprint)         | Can extend a Character's movement per AP, at the cost of Exhaustion. |
-| [Stability / Stab](#stability-stabil)                       | Counter-acts Forced Movement. |
-| [Strength (Str)](#strength-str)                             | The Strength attribute. Determines how much a Character can lift and carry, and how far they may throw things. |
+| [Square](#distances--the-grid)                              | A single field of an encounter or overworld map, representing a `1m`/`3'` or `10km`/`6 mile` square, respectively. |
+| [Stability (Stab)](#stability-stabil)                       | Counter-acts Forced Movement. |
+| [Stepped Test](#stepped-test)                               | A Test that allows failing forward or offers multiple chances at recovery from a critical blunder. |
+| [Strength (Str)](#strength-str)                             | An Attribute that describes a Character's physical strength. Finds use in determining Carrying Capacity. |
+| [Teaching](#teaching)                                       | During Down-Time, Characters may teach others, to help them with Advancement Progress. |
 | [Temporary HP](#temporary-hit-points)                       | Hit Points that may exceed the Character's limit, but only for a limited time.  |
 | [Time Increment (TI)](#progressing-a-project)               | Determines how often progress may be added to a Project. |
-| [Toughness (Tough)](#toughness-tough)                       | The Toughness attribute. Determines how much physical and mental strain a Character can endure. |
-| [Wit (Wit)](#wit-wit)                                       | The Wit attribute. Determines a Character's capacity to reason and understand. |
+| [Title of Renown](#titles-of-renown)                        | A unique reputation that a Character is known for, far and wide. Often earned through great achievements, both good and terrible. |
+| [Toughness (Tough)](#toughness-tough)                       | An Attribute that describes a Character's capacity to withstand physical and mental strains. Finds use in determining maximum HP, the Exhaustion Limit and Sprinting Speed. |
+| [Troublemaker](#reaction)                                   | A PC's Reaction that makes it easy for the GM to get that PC into *trouble* - some minor social conflict to shake things up. |
+| [Turn](#initiative)                                         | The moment in time when a Character gets to act in an Initiative Order. |
+| [Wit (Wit)](#wit-wit)                                       | An Attribute that describes a Character's sharpness of mind and tongue. Finds use in determining Base Initiative. |
+| Reaction                                                    | Something a Character does in reaction to another. Or, refers to one of a Character's triggered behaviors, that are part of their [Drivers](#reaction). |
 
 # Credits & Honorable Mentions
 **Designer**: Nicolas 'Krubi' H.
@@ -537,6 +583,8 @@ These fields of the grid are henceforth referred to as **Squares**.
 
 > A distance of `4` Squares would be equal to `12'` or `4m`. 
 
+In case of an overworld map, a Square may also refer to a segmentation of such a map into manageable chunks. See also [Travel & Terrain](#travel--terrain). 
+
 ## Dice
 **STRIVE** uses a **dice pool** system of **six-sided dice** (henceforth referred to as `D6`) to resolve [Tests](#tests). *Dice pool* means a variable number of dice will be rolled, based on a Character's [Attributes](#attributes), [Skills](#skills), [Boons](#boons--penalties) and circumstance of the situation they're in. 
 
@@ -571,7 +619,7 @@ It is up to the GM to get the ball rolling. They first frame the local area of t
 
 Then, the players must keep the ball rolling. In a given scenario, every PC should have something they wish to do. You could take turns or rely on first-come-first-serve, as long as everyone gets to state their Character's [intent and action](#intent--action). Every action taken is then resolved, either formally through a [Test](#tests) or informally with a direct description of what happens. 
 
-A Test must be made whenever there is an **Obstacle** to overcome - some **action** whose outcome is uncertain. 
+A Test must be made whenever there is an **Obstacle** to overcome - some **Action** whose outcome is uncertain. 
 
 > For example, stating your Character will leave the room shouldn't warrant a Test, if there is no obstacle to overcome. Opening an unlocked door in a calm situation should be a "risk-free" thing to do. 
 >
@@ -580,7 +628,7 @@ A Test must be made whenever there is an **Obstacle** to overcome - some **actio
 ### Intent & Action
 The players drive the story and the action. They decide what their Character will try to do and the GM will help them figure out if things will go as planned. 
 
-As a player, when deciding on what to do, make sure you state the **intent** of your action, like "I want to find incriminating evidence against a merchant". Then, the GM will need to know *how* you aim to follow up on your intent. Describe the **action** you will take. The clearer, the better. "I will ask around", would allow the GM to guide you along. But there are still details left to fill in. Who and where will you ask? What will you ask them? So, a better intent would be "I will ask the other merchants at the market what they think about this one merchant". That leaves no room for doubt *how* you wish to achieve your goal, which makes the GM's job easier and the game flow better. The GM could now have each merchant tell the PC some rumours or observed past activities and behaviors of that one merchant, some of which may be of a sketchy nature, like "I swear I saw him down at the docks, speaking to some shady looking people" or "She always seems wary of people walking behind her".
+As a player, when deciding on what to do, make sure you state the **intent** of your action, like "I want to find incriminating evidence against a merchant". Then, the GM will need to know *how* you aim to follow up on your intent. Describe the Action you will take. The clearer, the better. "I will ask around", would allow the GM to guide you along. But there are still details left to fill in. Who and where will you ask? What will you ask them? So, a better intent would be "I will ask the other merchants at the market what they think about this one merchant". That leaves no room for doubt *how* you wish to achieve your goal, which makes the GM's job easier and the game flow better. The GM could now have each merchant tell the PC some rumours or observed past activities and behaviors of that one merchant, some of which may be of a sketchy nature, like "I swear I saw him down at the docks, speaking to some shady looking people" or "She always seems wary of people walking behind her".
 
 When deciding on what to do and how to do it, also keep in mind your Character's [Personality](#personality-traits) as that should inform you of the kinds of actions they might take. 
 
@@ -610,11 +658,6 @@ How many Hits are needed to succeed a Test, is determined by the GM or by other 
 > For example, to succeed a Test at Ob `3`, at least `3` Hits must be rolled to succeed the Test. Any less, and the outcome is a failure. 
 
 The Ob isn't always determined directly by the GM. Whenever an [Opposed Test](#opposed-test) must be made, the Ob is determined by another Character. 
-
-For every Test, one of three outcomes is possible: 
-* **Complete Success**: There are enough or more than enough required Hits.
-* **Partial Failure**: There are not enough Hits, but more than none. Most of the time, this is the same as a Complete Failure, but can also imply a "failing forward", at the GM's discretion. 
-* **Complete Failure**: There are no Hits, only Misses. 
 
 ### Rounded Up & Rounded Down
 Often times, numbers are to be rounded up or down. To keep formulae short, these terms are often abbreviated as **RU** (= rounded up) and **RD** (= rounded down). 
@@ -652,7 +695,7 @@ The Modified Level results from adding and subtracting [Boons And Penalties](#bo
 There are the following types of Tests. The GM decides when to use which. 
 
 #### Binary Test
-The outcome of the Test is either a Complete Success or Complete Failure. A Partial Failure is treated as if it were a Complete Failure. 
+The outcome of the Test is either a success or failure. There is no room in-between. 
 
 #### Stepped Test
 A Stepped Test is really just a series of [Binary Tests](#binary-test). This allows for finer-grained results, while still not behaving like a [Graduated Test](#graduated-test). 
@@ -664,17 +707,17 @@ This type of Test is useful for situations where the GM decides to create very f
 > Obviously, such a situation should not arise often, as Stepped Tests can quickly grow tiring. 
 
 #### Graduated Test
-The outcome of the Test is graduated. That means, the number of Hits rolled factor into the outcome. This is called the **Degree Of Success**. 
+The outcome of the Test is graduated. That means, the number of Hits rolled factor into the outcome. 
 
 > For example, when crafting a work of art, the number of Hits achieved may result in a more impressive piece, which can then be sold at a higher price or which could make for a more impressive gift. 
 
-A Graduated Test can occur in two forms. The first is without an Ob threshold for failure and the second is *with* such a threshold. When a Graduated Test has an Ob, then at least that number of Hits must be rolled, in order to succeed the Test, at all. Any Hits rolled past the Ob, determine the Degree Of Success. However, not achieving at least Ob number of Hits results in the Test being counted as a Complete Failure. 
+A Graduated Test can occur in two forms. The first is without an Ob threshold for failure and the second is *with* such a threshold. When a Graduated Test has an Ob, then at least that number of Hits must be rolled, in order to succeed the Test, at all. Any Hits rolled past the Ob, determine the **Degree Of Success**. However, not achieving at least Ob number of Hits results in the Test being counted as a failure. 
 
-On the other hand, even a Complete Failure doesn't have to be *absolute*. The number of Hits *missing* to reach the Ob threshold determine the **Degree Of Failure**. Therefore, there might be a chance to "fail forward" - a success, but with complications, whose severity depends on the Degree Of Failure. 
+On the other hand, a failure doesn't have to be *absolute*. The number of Hits *missing* to reach the Ob threshold determine the **Degree Of Failure**. Therefore, there might be a chance to "fail forward" - a success, but with complications, whose severity depends on the Degree Of Failure. 
 
 > A PC has to do a Graduated Test of one of their craftsmanship Skills, at Ob `3`. They only achieve only `2` Hits, which results in a Degree Of Failure of `1`. 
 > 
-> Seeing such a low Degree Of Failure, the GM rules that the PC *does* succeed their Test, but also loses more materials in the process than a Complete Success would have cost them. 
+> Seeing such a low Degree Of Failure, the GM rules that the PC *does* succeed their Test, but also loses more materials in the process than a success would have cost them. 
 
 #### Creative Test
 For this type of Test, a scenario is played through fairly abstractly. The GM outlines various challenges that must be overcome and what consequences the players may expect if they succeed or fail in overcoming these challenges. Also, they set a number of successes that the PCs must accrue, in order to succeed this Test. A good base number should be slightly lower than or even just half the number of PCs in the group. But particularly challenging Creative Tests may have a higher number. 
@@ -814,27 +857,29 @@ A Character is a representation of a sentient creature in the game world. They'r
 A guide on Character creation can be found [in the appendix](#character-creation). It has been placed there based on the assumption you won't have to look up Character creation as often as the other core rules. 
 
 ## Abilities
-All Characters have innate and learned abilities. These are described as **Base Characteristics** and [Skills](#skills). The values assigned to them represent a Character's level of mastery - how likely they are to succeed Tests and what [Expertises](#expertise) they have access to. 
-
-Base Characteristics are a Character's [Attributes](#attributes) and [Derived Characteristics](#derived-characteristics). 
-
-Two values must be tracked for every Attribute: Its Raw Level and its current Modifier, which results from the sum of [Boons And Penalties](#boons--penalties) affecting it. The result of adding or subtracting the modifier to/from the Raw Level yields the [Modified Level](#raw-vs-modified-level), which is used in [Tests](#tests). The higher the Level, whether Raw or Modified, the better. 
+All Characters have innate and learned abilities. These are represented by a Character's [Attributes](#attributes), [Derived Attributes](#derived-attributes) and [Skills](#skills).
 
 ### Attributes
 Attributes represent a Character's most basic abilities. These are the primary source of dice for [Tests](#tests). 
 
 Attributes *may* be [Tested](#testing-an-attribute). 
 
+Two values must be tracked for every Attribute: Its Raw Level and its current Modifier, which results from the sum of [Boons And Penalties](#boons--penalties) affecting it. The result of adding or subtracting the modifier to/from the Raw Level yields the [Modified Level](#raw-vs-modified-level), which is used in [Tests](#tests). The higher the Level, whether Raw or Modified, the better. 
+
 #### Agility (Agi)
 <img src="../../img/agility.svg" style="width: 3rem; height: 3rem;"></img> Nimbleness, swiftness and hand-eye coordination. 
+
+Finds use in determining [Base Initiative](#base-initiative-bi) and [Sprinting Speed](#sprinting-speed-sprint).
 
 #### Awareness (Awar)
 <img src="../../img/awareness.svg" style="width: 3rem; height: 3rem;"></img> Keen senses and empathic understanding. 
 
+Finds use in determining [Base Initiative](#base-initiative-bi).
+
 #### Strength (Str)
 <img src="../../img/strength.svg" style="width: 3rem; height: 3rem;"> Physical strength. 
 
-Governs the [Carrying Capacity](#carrying-capacity) of a Character. Each Level in this Attribute raises the [Carrying Capacity](#carrying-capacity) of the Character by `+3`. 
+Governs the [Carrying Capacity](#carrying-capacity) of a Character. Each Level in this Attribute raises the Carrying Capacity of the Character by `+3`. 
 
 For every `2` Levels in this Attribute, past Level `2` (i. e. starting at Level `4`, then continuing at Levels `6`, `8` and `10`), every [Asset Slot](#worn--equipped) of a Character can hold Assets of `+1` Bulk higher. 
 
@@ -852,8 +897,12 @@ For every Level in Toughness, a Character...
 | PC maximum HP                | 20  | 30  | 40  | 50  | 60  | 70  | 80  | 90  | 100 | 110 |
 | Exhaustion Limit             | 2   | 3   | 4   | 5   | 6   | 7   | 8   | 9   | 10  | 11  |
 
+Finds use in determining [Sprinting Speed](#sprinting-speed-sprint).
+
 #### Wit (Wit)
 <img src="../../img/wit.svg" style="width: 3rem; height: 3rem;"> Sharpness of mind and tongue. 
+
+Finds use in determining [Base Initiative](#base-initiative-bi).
 
 ### Core, Favored, Normal & Penalized Attributes
 All PCs have **one Core Attribute**, which defines their main strength, by being easier to [Advance](#advancing-attributes). All other Attributes are considered **Normal** Attributes, by default. 
@@ -862,8 +911,8 @@ A Character may have Traits, such as ancestral heritages, which may impose boons
 
 A Core or Favored Attribute are treated as if one Level lower, for the purposes of calculating Advancement costs. A Penalized Attribute costs `+50%` RU more.
 
-### Derived Characteristics
-These characteristics depend on others, such as [Attributes](#attributes). They cannot be improved directly. 
+### Derived Attributes
+These Attributes depend on others and cannot be improved directly. They automatically improve as their dependent Attributes Advance. 
 
 #### Base Initiative (BI)
 <img src="../../img/base-initiative.svg" style="width: 3rem; height: 3rem;">
@@ -885,12 +934,12 @@ It is derived from the sum of their [Agility](#agility-agi) and [Toughness](#tou
 
 > A Character with an Agility of `3` and Toughness of `4`, has a Sprinting Speed of `(3 + 4) / 2 (RU) = 4`. 
 
-This Characteristic can also be used to determine whether a Character can outrun another. For that, both Characters roll via this derived Characteristic. Whoever achieves more Hits, succeeds at outrunning the other Character. 
+This Characteristic can also be used to determine whether a Character can outrun another. For that, both Characters roll via this Derived Attribute. Whoever achieves more Hits, succeeds at outrunning the other Character. 
 
 #### Stability (Stabil)
 <img src="../../img/stability.svg" style="width: 3rem; height: 3rem;">
 
-The Stability of a Character represents their resistance to [Forced Movement](#forced-movement). For every point in this derived Characteristic, a Character is moved `-1` Square less. 
+The Stability of a Character represents their resistance to [Forced Movement](#forced-movement). For every point in this Derived Attribute, a Character is moved `-1` Square less. 
 
 By default, all Characters start with Stability `0`, which can be increased only through certain [Character Traits](#character-traits) or [Skills](#skills). Stability can never be less than `0`. 
 
@@ -1056,9 +1105,10 @@ Titles of Renown can also be used to declare a Character an expert in a certain 
 No matter how much a PC adventures, there is a limit to how much of a reputation they can build. A PC may hold at most `5` Titles of Renown. When they are granted another, they may choose to reject it, or replace one of their existing Titles with it. After all, at the end of the day, the people won't remember every single deed of a great hero or villain. And so, old deeds - and their Title - fade into obscurity. 
 
 ## Personality
-All PCs have a **Personality**, which is an expression of their [Personality Traits](#personality-traits), [Ambition](#ambition), [Aspirations](#aspiration) and [Reactions](#reaction). 
+A PC's Personality is comprised of their [Drivers](#drivers) and [Personality Traits](#personality-traits). These help players figure out how to play their Character - how they should *think*, and *react* to events and circumstances. 
 
-The Ambition, Aspirations and Reactions are grouped together and referred to as the Character's **Drivers**. These Drivers prevent inaction and stagnation of the Character's development, because the Ambition and the Aspirations define goals for the Character to always work towards. 
+### Drivers
+All PCs have **Drivers**, which comprise their [Ambition](#ambition), [Aspirations](#aspiration) and [Reactions](#reaction). These Drivers prevent inaction and stagnation of the Character's development, because the Ambition and the Aspirations define goals for the Character to always work towards. 
 
 All aspects of a PC's Personality may change, as the game is played, through their actions and the events of the story. It is from this fluidity, that a Character becomes so interesting to explore, because even as their player, you might not know the paths they'll take. They're a book you start writing from the beginning, instead of the ending. 
 
@@ -1078,14 +1128,14 @@ By playing their Character either in accordance with their Personality, or by dr
 
 Of course, [NPCs](#non-player-character-npc) have a Personality, too. But unlike for PCs, this is not cemented through rules and NPCs **cannot** earn Fate Points. 
 
-### Ambition
+#### Ambition
 Every PC must have one **Ambition** - a life-fulfilling long-term goal to pursue. This can be anything from "found a family" to "become king of the world!". No matter how unrealistic, an Ambition is a primary driver for a Character, to guide them onward. The important part is to think *big* and include some sort of "call for adventure". Something easily achievable would make for a dull Ambition and defeat the point of it. An ideal Ambition draws your Character out of their comfort zone and safe space, imbuing them with a willingness to leave home and go out into the world! 
 
 An Ambition is not *expected* to change often. An ideal Ambition would accompany a Character a long time. But that isn't to say you mustn't ever change it. On the contrary, if events play out that shake up your Character's deepest desires, then changing their Ambition may be a very appropriate action to take.
 
 Whenever a PC acts in accordance with their Ambition, their player earns [Fate Points](#fate-points). 
 
-### Aspiration
+#### Aspiration
 Every PC must have three **Aspirations** - immediate goals to pursue in the current game session. They're usually born from immediate circumstance and are expected to change frequently. 
 
 Aspirations should be written down as a *conviction*, followed by an *actionable* goal to pursue. Any Aspiration that includes the words "I will ..." is usually *actionable* - the Character wants to **do** something, which will possibly achieve their goal. A *conviction* is a statement of *why* the Character has set this goal. The **action** is the critical piece of information here - what your Character *aims to do*. 
@@ -1114,7 +1164,7 @@ If you cannot think of three Aspirations, don't hesitate to ask the GM and the o
 
 Whenever a PC acts in accordance with their Aspirations, their player earns [Fate Points](#fate-points). 
 
-### Reaction
+#### Reaction
 A player must determine three **Reactions** for their Character. A Reaction is an automatic behavior - something the Character is *expected* to do *automatically* and without question, when a given situation triggers it. But *expected* doesn't mean *have to*. A player can *choose* to have their Character act against a Reaction - and that may cause them to lose it. 
 
 A Reaction is an "if/then" and "always/never" statement, which can be be beneficial or detrimental to the Character. 
@@ -1306,8 +1356,8 @@ An **Illness** can affect a Character over a perod of time and cause various neg
 Illnesses can be contracted in a variety of ways, although most of them involve an open wound exposed to bacterial breeding grounds, such as bogs, sewers, mass graves and trash dumps. Or from something ingested, such as spoiled or poisoned food. 
 
 When a Character is about to contract an Illness, they must make a [Toughness](#toughness-tough) [Test](#tests) with an Ob noted on the Illness:
-* On a Complete Success, the Illness is shrugged off. 
-* On a Partial Failure or Complete Failure, the Illness is contracted and will immediately apply its effects to the Character. 
+* On a success, the Illness is shrugged off. 
+* On a failure, the Illness is contracted and will immediately apply its effects to the Character. 
   * Unless a specific Illness has been contracted, you must determine a random one by rolling a `D100` and picking the corresponding Illness from the [List Of Illnesses](#list-of-illnesses). 
   * Once the Illness has been determined, its duration and severity must also be determined through rolls, as noted on the Illness itself. 
 
@@ -1407,7 +1457,7 @@ There is no limit for how much Property a Character can have. Except, perhaps, h
 
 There are three types of FP: [Minor](#minor-fate-points), [Major](#major-fate-points) and [Ambition](#ambition-fate-points). 
 
-Most FP are earned, by playing to the Character's [Personality](#personality) - working towards or concluding their [Ambition](#ambition) and [Aspirations](#aspiration) or by getting into trouble through [Reactions](#reaction). Most FP are earned by a single player, but some may also be earned by the player group. 
+Most FP are earned, by playing to the Character's [Personality](#drivers) - working towards or concluding their [Ambition](#ambition) and [Aspirations](#aspiration) or by getting into trouble through [Reactions](#reaction). Most FP are earned by a single player, but some may also be earned by the player group. 
 
 FP are downwards-convertible, meaning if you need to, you can turn a single more significant FP into several less significant FP. Note that converting "upwards" is **not** possible. 
 
@@ -2076,7 +2126,7 @@ The procedure of creating a Character consists of the following steps:
 2. [Determine personal details](#personal-details).
 3. [Determine name](#determine-name).
 4. [Determine abilities](#determine-abilities).
-5. [Determine Derived Characteristics](#determine-derived-characteristics)
+5. [Determine Derived Attributes](#determine-derived-attributes)
 6. [Determine Assets](#determine-assets).
 
 ### Determine Life Path
@@ -2243,7 +2293,7 @@ When choosing Skills, consider your Character's background. What fields of knowl
 #### Determine Boons from Ancestry
 It is possible for a Character to receive permanent boons or penalties during Character creation, based upon their ancestry. This is entirely at the GM's discretion and subject to their world. When choosing ancestry-based Skill boons, keep the number low. One or two boons at most. These are narratively based and fairly unique starting conditions for a Character. 
 
-### Determine Derived Characteristics
+### Determine Derived Attributes
 Determine your Character's [maximum HP](#hit-points-hp), by referring to the [Toughness](#toughness-tough) attribute. 
 
 Determine your Character's [Exhaustion Limit](#exhaustion), by referring to the [Toughness](#toughness-tough) attribute. 
@@ -2989,7 +3039,7 @@ As the GM, you are the one person at the table playing a slightly different game
 
 You're the host of the game. This means you'll have to organize everything. Invite players or make a post detailling the game you want to host, set the time and place and interview players who show interest. 
 
-You prepare maps, NPCs, stories and plot hooks. You involve the PCs in the world, offer them incentives to act and feed their [Drivers](#personality). 
+You prepare maps, NPCs, stories and plot hooks. You involve the PCs in the world, offer them incentives to act and feed their [Drivers](#drivers). 
 
 You moderate and mediate. When there is conflict between players, you help with reconciliation. You ensure every player gets a chance to speak and ensure players are comfortable being at your table. Ask for and hear their feedback. Criticism is a chance to improve. 
 
@@ -3046,7 +3096,7 @@ It is important you only correct them on *crucial* plot points, which they reall
 In fact, you may even correct some of the details of how events *actually* played out, based on what your players re-tell. This is best done silently. No need to encourage *meta-gaming*, which has your players intentionally recapping the last session incorrectly, in a way to make you change details in their Characters' favor. 
 
 ### Personality & Driver Adjustments
-After a recap of the last session, players should have a basis from which to work new [Drivers](#personality) into their Character and to shift [Personality Traits](#personality-matrix). Allow them a few minutes to think and discuss. 
+After a recap of the last session, players should have a basis from which to work new [Drivers](#drivers) into their Character and to shift [Personality](#personality-traits). Allow them a few minutes to think and discuss. 
 
 Once everyone has their Characters figured out, have everyone, one by one, read Drivers and personality changes out aloud. There are two reasons to do this:
 1. The other players can know, if an Aspiration targets their Character. So if a PC (player) starts acting odd towards another player (their PC), that player knows it's part of the role-play and not directed towards them as a person. <br>
@@ -3293,7 +3343,7 @@ NPCs are one of your most important tools to bring your world to life and make i
 
 NPCs are built differently from PCs. Not all the same rules apply to them. The following differences exist:
 * NPCs **cannot** earn [Fate Points](#fate-points). 
-* NPCs don't *need* the [Personality](#personality-traits) section. A GM *may choose* to include it for the *main actor* NPCs, but for your average animal or passing acquaintance, no personality should be noted down. 
+* NPCs don't *need* [Personality Traits](#personality-traits). A GM *may choose* to include it for the *main actor* NPCs, but for your average animal or passing acquaintance, no personality should be noted down. 
 * NPCs don't *need* Advancement Progress to be tracked. Thus, they cannot have [Learning Skills](#learning-skills). 
 * NPCs don't have a base HP of `10`, thus, their max. HP values will always be `10` points lower than of PCs with the same Toughness Level. 
 * NPCs have additional characteristics: [Defense](#defense-def) and [Free Strike](#free-strike-fs).
