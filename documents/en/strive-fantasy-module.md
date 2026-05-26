@@ -1316,7 +1316,7 @@ This list supplements the list of Injuries of the [Core rules](./strive-core.md#
 ## Archetype Characters
 This section contains some pre-defined archetypal Characters. These are mostly ready to play and serve as instructional references on how to build your own Characters. 
 
-Their name, species, gender, age and other details are left up to you to fill out, with the help of your GM, as such details must fit their world and cannot be predicted here. Also, the initial drivers are designed you get these Characters to come together and co-operate. There is no point in playing lone wolves. You are very much expected to replace the drivers and come up with your own after the first session of play. 
+Their name, species, gender, age and other details are left up to you to fill out, with the help of your GM, as such details must fit their world and cannot be predicted here. Also, the initial drivers are designed to get these Characters to come together and co-operate. There is no point in playing lone wolves. You are very much expected to replace the drivers and come up with your own after the first session of play. 
 
 ### The Arcaenologist
 After so many years of study and dedication to dusty tomes and repeated lectures, you realize the world cannot be found in books and scrolls - it is *out there*. Perhaps it is not yet too late to experience it all?
@@ -1522,7 +1522,7 @@ This and the following sections are reserved solely for the GM's eyes. Reading o
 # Creature Compendium
 A by no means exhaustive list of medieval-fantasy themed creatures for the GM to draw from. 
 
-In the Characteristics blocks below, when armor is concerned, it may be noted in the form `U/F/S/O`, which are simply the pre-calculated values the armor provides under consideration of the degrees of [Flanking](./strive-core.md#flanking). The order is always: unthreatened, flanked, surrounded and overwhelmed. However, armor may also be noted as a plain value, e. g. `5`, which implies the creature does not suffer [Flanking](./strive-core.md#flanking).
+In the Characteristics blocks below, when armor is concerned, it may be noted in the form `U/F/S/O`, which are simply the pre-calculated values the armor provides under consideration of the degrees of [Flanking](./strive-core.md#flanking). The order is always: Unthreatened, Flanked, Surrounded and Overwhelmed. However, armor may also be noted as a plain value, e. g. `5`, which implies the creature does not suffer [Flanking](./strive-core.md#flanking).
 
 ## Swine-Beasts
 Created in a vain and immoral conjuring of demons from another place, the Swine-Beasts themselves represent a cruel parody of man, molded from the flesh of pigs. All the worst properties of humanity are manifested in these unsavory creatures. 
@@ -1538,14 +1538,14 @@ Due to the demon bound inside them, they are inherently and irredeemably evil. C
 ### Swine Hostility
 
 #### Demonic Blood
-**`-20` Hostility**: Suddenly, a Swine stops dead in its tracks, clawing at its skull and squealing in distorted pain, as demon horns spring from its forehead and the veins beneath its skin begin to glow in bright crimson. It grows to twice its size and hungrily peers around. 
-* It gains `+30` maximum and current HP.
+**`-20` Hostility**: Suddenly, a Swine stops dead in its tracks, clawing at its skull and squealing in distorted pain, as demon horns spring from its forehead and the veins beneath its skin begin to glow in bright crimson. It grows to twice its size and peers around hungrily. 
+* It gains `+30` Temporary HP.
 * It becomes [Berserked](strive-core.md#berserk).
 * Its attacks deal an additional `+6` points of Bleeding damage. 
 
 #### Filth & Darkness
 **`-10` Hostility**: The foul Swine have prepared a trap! The battlefield is flooded with a nauseating miasma and covered in unnatural darkness! 
-* All non-Swine with normal vision can only see up to `3` far.
+* All non-Swine with normal vision can only see up to `3` Squares far.
 * All non-Swine suffer `-1D` to all Tests.
 
 ### Swine Belcher
