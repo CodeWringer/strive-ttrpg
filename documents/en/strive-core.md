@@ -440,6 +440,7 @@ As STRIVE is meant primarily as a rule-book to help you quickly find what you ne
 | ----------------------------------------------------------- | ----------------------- |
 | [Action Point(s) (AP)](#action-points-ap)                   | A temporary resource that limits how much Characters can do on their Turn. |
 | [Action](#intent--action)                                   | Something a Character wishes to do. In Combat, this is any self-initiated action that isn't a Reaction. |
+| [Active Injury](#injury-states--treatment)                  | An Active Injury reduces a Character's maximum HP and imposes additional penalties. |
 | [Advancement Progress](#advancement)                        | The number that dictates a Skill's current progress towards Advancement. |
 | [Advancement](#advancement)                                 | PCs may raise their Attributes' and Skills' Levels as they exercise them and gain XP. |
 | [Agility (Agi)](#agility-agi)                               | An Attribute that describes a Character's nimbleness, swiftness and hand-eye coordination. Finds use in determining Base Initiative and Sprinting Speed. |
@@ -447,6 +448,7 @@ As STRIVE is meant primarily as a rule-book to help you quickly find what you ne
 | [Ambition](#ambition)                                       | A Character's main and life-fulfilling goal. The primary Driver of a Character. |
 | [Area of Effect (AoE)](#area-of-effect-aoe)                 | Indicates an attack will affect multiple targets in an area, which could be a cone, a radius, line, or similar shape. |
 | [Aspiration](#aspiration)                                   | A Character's secondary and more immediate goal, based on recent events. |
+| [Asset](#assets)                                            | A *thing* that a Character may own and/or carry on person. May also be an uncarriable piece of Property, such as a castle. |
 | [Assurance](#reaction)                                      | A PC's Reaction that ensures the PC may enter a given troublesome situation under more favorable circumstances. |
 | [Attack Test](#attacking)                                   | A Test made to harm or hinder another Character. |
 | [Attacker](#attacking)                                      | A Character performing some Action that targets another. The distinction whether this is a hostile or benign action does not matter. |
@@ -456,18 +458,23 @@ As STRIVE is meant primarily as a rule-book to help you quickly find what you ne
 | [Base Initiative / BI](#base-initiative-bi)                 | Determines the order in which Characters act in combat. |
 | [Basic Action](#action-points-ap)                           | An action (during combat) that doesn't require a Test, such as moving. |
 | [Binary Test](#binary-test)                                 | A Test that allows no room for failure. |
+| [Boon](#boons--penalties)                                   | A positive effect on a Character, for example one that grants Compensation Points or which awards Temporary HP. |
+| [Bulk](#bulk)                                               | Describes the weight, size and ease of use of an Asset. |
 | [Carrying Capacity](#carrying-capacity)                     | Limits how much a Character can carry on-person. |
 | [Character Trait](#character-traits)                        | A unique aspect of a Character, such as an exclusive ability or Title of Renown. |
 | [Combat](#combat)                                           | The state the game enters when a fight breaks out. Time is finely sliced and Characters act in Turns, with a limited number of actions they may take. |
 | [Compensation Point](#compensation-points)                  | Greatly improve the odds of achieving a Hit in a Test. |
 | [Concentration](#concentration)                             | A Skill or Expertise whose effects last as long as desired, but which could be interrupted. |
+| [Condition](#condition)                                     | A positive or negative effect affecting a Character. |
 | [Core Attribute](#core-favored-normal--penalized-attributes)| An Attribute that is easier to Advance. |
 | [Creative Test](#creative-test)                             | A Creative Test offers much freedom in how it is to be resolved. It is commonly a group effort to solve one of these and is a great answer for chase-sequences. |
+| [Crippled](#crippled)                                       | When a Character suffers enough too many Injuries, they become Crippled, reducing their dice available for Tests. |
 | [D10](#dice)                                                | A ten-sided die         |
 | [D20](#dice)                                                | A twenty-sided die      |
 | [D4](#dice)                                                 | A four-sided die        |
 | [D6](#dice)                                                 | A six-sided die         |
 | [D8](#dice)                                                 | An eight-sided die      |
+| [Damage Type](#damage-types)                                | All damage falls into one of the Damage Types, which also determines the type of Injury such damage may cause. |
 | [Defender](#defending)                                      | A Character who is target of another's Action. The distinction whether this is a hostile or benign action does not matter. |
 | [Defense Test](#attacking)                                  | A Test made to oppose the attack of another Character. |
 | [Derived Attributes](#derived-attributes)                   | An Attribute whose value stems from other sources. It cannot be Advanced independently. |
@@ -475,7 +482,7 @@ As STRIVE is meant primarily as a rule-book to help you quickly find what you ne
 | [Distance Increment (DI)](#ranged)                          | Indicates a ranged weapon's/attack's range increments. Attacking past this number of Squares incurs penalties to the attack. |
 | [Down-Time](#down-time)                                     | Whenever the PCs aren't out actively adventuring, they may have time to themselves, to pursue a craft, hone their abilities or simply relax. |
 | [Drivers](#drivers)                                         | Refers to a Character's Ambition, Aspirations and Reactions - goals to work towards and automatic triggers to get them into trouble. |
-| [Exhaustion](#exhaustion)                                   | A resource that indicates how physically exerted a Character is. Limits usage of abilities if it becomes too much. |
+| [Exhaustion](#exhaustion)                                   | A number that indicates how physically exerted a Character is. Limits usage of abilities if it becomes too much. |
 | [Experience Point(s) (XP)](#experience-points-xp)           | Allows unrestricted Character Advancement. |
 | [Expertise](#expertise)                                     | A sub-ability of a Skill. |
 | [Fate Point(s) (FP)](#fate-points)                          | A meta-currency that players earn through roleplay and great achievements. Can be used to buy powerful Fate-Cards from the Hand Of Fate. |
@@ -485,15 +492,20 @@ As STRIVE is meant primarily as a rule-book to help you quickly find what you ne
 | [Full Rest, Resting](#resting)                              | Spending time asleep or in deep meditation, allowing a Character to recover their health. |
 | [Game-Master (GM)](#introduction)                           | The person running the game. |
 | [Graduated Test](#graduated-test)                           | A Test with a gradation of success or failure. Mostly finds use in crafting. |
+| [Grit Point](#grit-points)                                  | A one-time resource that is earned through Injuries, which can be spent as a last-ditch effort to turn the wheel of fate around. |
 | [Hand Of Fate](#hand-of-fate)                               | Refers to the game's selection of available Fate-Cards. |
 | [Hit Limit](#testing-a-skill)                               | Determines how many rolled Hits may actually factor into the result of a Test. This is equal to your Skill's Level, but can be raised through Compensation Points, Skill Forking and other Characters providing assistance. |
 | [Hit-Point(s) (HP)](#hit-points-hp)                         | The resource that separates a Character from death. |
 | [Hit](#tests)                                               | Positive result of an individual die-roll in a Test. |
+| [Illness](#illness)                                         | A serious long-term health impediment of a Character. |
 | [Initiative Order](#initiative)                             | Defines the order Characters get to act in during tense situations, like Combat. |
+| [Injury Shrug-Off](#shrugging-off-an-injury)                | When a Character suffers enough damage to potentially also suffer an Injury, they may try to shrug it off, thus avoiding the Injury. |
+| [Injury](#injury)                                           | A serious health impediment of a Character, suffered through damage, when failing a Shrug-Off Test. |
 | [Innate Ability](#innate-abilities)                         | A special ability that a Character has access to based on their ancestry. |
 | [Known Skill](#skills)                                      | A Skill at Level `1+`, which is still considered known to the Character. They can properly utilize such a Skill. |
 | [Language](#languages)                                      | A Character's ability to communicate and potentially read and write in a language that exists in your GM's world. |
 | [Learning Skill](#learning-skills)                          | A Skill at Level `0`, which is still considered unlearned. A Character has not yet gained the ability to properly utilize such a Skill, for example in Skill Forking. |
+| [Luggage](#luggage)                                         | The Assets a Character is carrying on-person. |
 | [Major Fate-Point (MaFP)](#major-fate-points)               | A Fate-Point earned for a major achievement and great role-play. |
 | [Minor Fate-Point (MiFP)](#minor-fate-points)               | An easily earned Fate-Point, supported by mostly mechanics. |
 | [Miss](#tests)                                              | Negative result of an individual die-roll in a Test. |
@@ -502,18 +514,27 @@ As STRIVE is meant primarily as a rule-book to help you quickly find what you ne
 | [Normal Attribute](#core-favored-normal--penalized-attributes)| An Attribute that is enjoys normal Advancement costs. |
 | [Obstacle (Ob)](#tests)                                     | Determines the target number of Hits you must roll to succeed a Test. |
 | [Opposed Test](#opposed-test)                               | A Test that resolves when two Characters come into opposition. Most commonly finds use in Combat. |
+| [Overweight](#overweight)                                   | A Condition a Character suffers when they try to carry too much. |
 | [Owning Skill](#expertise)                                  | The Skill an Expertise is part of. |
 | [Penalized Attribute](#core-favored-normal--penalized-attributes)| An Attribute that is much harder to Advance. |
-| [Personality](#personality)                                 | Describes a Character's desires and ways of thinking. |
+| [Penalty](#boons--penalties)                                | A negative effect on a Character, for example one that reduces the dice available for Tests. |
 | [Personality Trait](#personality-traits)                    | Describes a Character's way of thinking and how they should act, in general. |
-| [Signature Personality Trait](#personality-traits)          | Describes a Character's way of thinking and how they *will* act, in general. In fact, they are *known* to be this way! |
+| [Personality](#personality)                                 | Describes a Character's desires and ways of thinking. |
 | [Player Character (PC)](#introduction)                      | The type of Character that players are in control of. |
 | [Practice](#practice)                                       | During Down-Time, Characters may practice for Advancement Progress. |
 | [Primary Damage](#primary-damage)                           | An attack's greatest damage value, if it deals multiple types. |
 | [Progress Increment (PI)](#progressing-a-project)           | Determines how much work a Project takes. |
 | [Project](#crafting--research-projects)                     | A long-term and abstract side-activity of a PC to craft or research something. |
+| [Project Skill](#progressing-a-project)                     | The Skill used to add Progress to a Project. |
+| [Project Complications](#project-complications)             | An alternative to losing Quality Levels when failing a Project Skill Test. |
+| [Project Booster](#project-boosters)                        | May add Progress or Quality Levels to a Project. |
+| [Property](#property)                                       | The Assets a Character owns but is not carrying on-person. |
+| [Quality Level](#crafting--research-projects)               | A numeric value that describes the quality of an Asset or Project. |
+| [Round](#initiative)                                        | A Round comprises all Turns of Characters currently in Initiative Order. When all Characters have had their Turn, a Round is concluded and the next Round begun. |
 | [Rounded Down (RD)](#rounded-up--rounded-down)              | Indicates a step or result of a calculation is supposed to be rounded down. |
 | [Rounded Up (RU)](#rounded-up--rounded-down)                | Indicates a step or result of a calculation is supposed to be rounded up. |
+| [Scenario-Time](#scenario-time)                             | The regular mode of play - time is fairly finely sliced and each Character's actions are handled individually. |
+| [Signature Personality Trait](#personality-traits)          | Describes a Character's way of thinking and how they *will* act, in general. In fact, they are *known* to be this way! |
 | [Single-Target (ST)](#single-target-st)                     | Indicates an attack will only affect a single target. |
 | [Skill Forking](#skill-forking)                             | Allows you to benefit from varied knowledge. You can Fork related Skills into a Test, if you can reasonably explain their use. |
 | [Skill](#skills)                                            | A learned ability of a Character. These are used in the vast majority of cases to resolve Tests and may offer unique abilities, called Expertises. |
@@ -522,11 +543,15 @@ As STRIVE is meant primarily as a rule-book to help you quickly find what you ne
 | [Stability (Stab)](#stability-stabil)                       | Counter-acts Forced Movement. |
 | [Stepped Test](#stepped-test)                               | A Test that allows failing forward or offers multiple chances at recovery from a critical blunder. |
 | [Strength (Str)](#strength-str)                             | An Attribute that describes a Character's physical strength. Finds use in determining Carrying Capacity. |
+| [Surprise Round](#surprise-round)                           | The first Round of Combat, when one side of the conflict are surprised and at a severe disadvantage in the beginning of the fight. |
 | [Teaching](#teaching)                                       | During Down-Time, Characters may teach others, to help them with Advancement Progress. |
+| [Temporary Hit-Points](#temporary-hit-points)               | Separate HP that are reduced before regular HP and whose loss cannot cause Injuries. |
 | [Temporary HP](#temporary-hit-points)                       | Hit Points that may exceed the Character's limit, but only for a limited time.  |
+| [Tick](#ticks)                                              | The immediate moment of time when a Character's Turn begins. This is when Conditions apply their effects. |
 | [Time Increment (TI)](#progressing-a-project)               | Determines how often progress may be added to a Project. |
 | [Title of Renown](#titles-of-renown)                        | A unique reputation that a Character is known for, far and wide. Often earned through great achievements, both good and terrible. |
 | [Toughness (Tough)](#toughness-tough)                       | An Attribute that describes a Character's capacity to withstand physical and mental strains. Finds use in determining maximum HP, the Exhaustion Limit and Sprinting Speed. |
+| [Treated Injury](#injury-states--treatment)                 | A Treated Injury only reduces a Character's maximum HP. |
 | [Troublemaker](#reaction)                                   | A PC's Reaction that makes it easy for the GM to get that PC into *trouble* - some minor social conflict to shake things up. |
 | [Turn](#initiative)                                         | The moment in time when a Character gets to act in an Initiative Order. |
 | [Wit (Wit)](#wit-wit)                                       | An Attribute that describes a Character's sharpness of mind and tongue. Finds use in determining Base Initiative. |
@@ -1576,9 +1601,9 @@ When not currently dealing with events on a detailed level - there and in the mo
 ### Crafting & Research Projects
 <img src="../../img/crafting.svg" style="width: 3rem; height: 3rem;"></img>
 
-In their own free time, Characters can spend time and resources to create [Assets](#assets), [research obscure subjects or make scientific discoveries](#research-projects), or devise entirely new [Inventions](#invention-projects). 
+In their own free time, Characters can spend time and resources to create [Assets](#assets), [research obscure subjects or make scientific discoveries](#research-projects), or devise entirely new [Inventions](#invention-projects). Some crafts may be possible while travelling, but most are assumed to be done when the PCs aren't currently travelling or on adventures. Research will always require Down-Time. 
 
-Some crafts may be possible while travelling, but most are assumed to be done when the PCs aren't currently travelling or on adventures. Research will always require Down-Time. 
+Every Project and Asset has a **Quality Level**. 
 
 #### Project Prerequisites
 Typically, a project can only be worked on with access to necessary resources and know-how. [Skills](#skills) that detail how they can be used for crafting will also note the prerequisites required. As always, the GM has the final word. 
