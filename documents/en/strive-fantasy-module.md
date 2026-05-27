@@ -171,11 +171,35 @@ There is a [compendium document](./strive-fantasy-game-masters-resource.md) rese
 
 # Glossary
 
-| Term                                         | Meaning / Description  |
-| -------------------------------------------- | ---------------------- |
-| [Arc](#arcana-arc)                           | The Arcana Attribute   |
-| [OPN](#psionics-arcwit)                      | Openness to [The Veil](#the-veil) |
-| [SI](#spell-intensity-si)                    | Spell Intensity        |
+| Term                                                        | Meaning / Description  |
+| ----------------------------------------------------------- | ---------------------- |
+| [Abyssalite](#abyssalite)                                   | A material that amplifies the flow of magic. Can be processed into Runes and Magic Scrolls. |
+| [Amberite](#amberite)                                       | A material that dampens the flow of magic. Can be processed into Ambersteel. |
+| [Ambersteel](#ambersteel)                                   | A material that strongly dampens the flow of magic. |
+| [Arcana (Arc)](#arcana-arc)                                 | An Attribute that describes a Character's innate mastery of magic. Finds use in determining Arcane Overheat thresholds. |
+| [Arcane Engine](#arcane-engine)                             | Enables the use of impure Malevite Orbs. |
+| [Arcane Overheat](#arcane-overheat--slag)                   | A number that builds up within a Character as they utilize magic, which is easily reduced. |
+| [Arcane Slag](#arcane-overheat--slag)                       | A number that builds up within a Character as they utilize magic, which lowers only slowly. |
+| [Arcanosphere](#magic)                                      | An invisible force that spans the world, which enables the use of magic. |
+| [Broiling Arcane Overheat](#arcane-overheat--slag)          | The third Arcane Overheat threshold, which is *perilous*. |
+| [Cerebillium](#cerebillium)                                 | A material that can *think*. Commonly used as the brains of golems and other such constructs. |
+| [Cold Arcane Overheat](#arcane-overheat--slag)              | The first Arcane Overheat threshold, which is *mostly safe*. |
+| [Concentration Spell](#concentration-spells)                | A Spell that is active as long as the mage desires, or can manage to keep their Concentration for. |
+| [Consuming Arcane Overheat](#arcane-overheat--slag)         | The fourth and final Arcane Overheat threshold, which is *mortally perilous*. |
+| [Magic Echo](#magic-echoes)                                 | The residual disturbance of the Arcanosphere after the use of a Spell. |
+| [Magic Negation](#magic-negation)                           | The ability to negate another mage's Spell. |
+| [Magic School](#magic-school--school---attribute-)          | A special Skill that enables one type of magic use. |
+| [Magic Scroll](#magic-scrolls)                              | An one-time use Asset that allows even non-mages to cast magic. |
+| [Magic Spell](#magic)                                       | The name of a Magic School Skill's Expertises. Basically: magic Expertise -> Spell. |
+| [Malevite](#arcane-engine)                                  | An artificial material made from the blood of mages or magical creatures. Allows very strong manipulation of the Arcanosphere. |
+| [maximum Intensity](#spell-intensity-si)                    | A Magic School's Level sets the maximum Spell Intensity that a Spell can have. |
+| [Memorum](#memorum)                                         | A fungus that can capture and preserve thoughts, emotions, Magic Echoes and even raw knowledge. |
+| [OPN](#psionics-arcwit)                                     | Openness to [The Veil](#the-veil). |
+| [Rune](#runes)                                              | An Asset that allows even non-mages to cast magic at will. |
+| [SI](#spell-intensity-si)                                   | Spell Intensity dictates the strength of magic use. |
+| [Smoldering Arcane Overheat](#arcane-overheat--slag)        | The second Arcane Overheat threshold, which is *risky*. |
+| [Spell-Backfire](#spell-backfire)                           | Magic is risky. Failing a Test of a Magic School may result in a Spell-Backfire, which always causes some penalty for the mage, instead of their intended target(s). |
+| [The Veil](#the-veil)                                       | The place that transcends this, or any, universe. The path to true enlightenment and absolute madness. |
 
 # Credits
 **Designer**: Nicolas 'Krubi' H.
@@ -196,6 +220,8 @@ Supplements to the [Core Attribute rules](./strive-core.md#attributes).
 <img src="../../img/arcana.svg" style="width: 3rem; height: 3rem;"></img> Governs a Character's ability to control and sense magic flow, casting magic Spells or detecting lingering magic. 
 
 This is the only Attribute that can have a Level of `0`, meaning playing a mage is a deliberate choice. 
+
+Used to determine the [Arcane Overheat](#arcane-overheat--slag) thresholds.
 
 # Magic
 For this supplement, magic is assumed to be a mostly invisible supernatural force that runs all throughout, like a magnetosphere. Perhaps it could be called the *Arcanosphere*. How magic manifests itself, is up to the world the GM is running. Is there a verbal component? Must the mage trace arcane symbols into the air or onto some surface? Are the magical currents visible and glow eerily? This supplement makes no assumptions in this regard. 
