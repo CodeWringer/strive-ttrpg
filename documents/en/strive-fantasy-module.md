@@ -171,11 +171,35 @@ There is a [compendium document](./strive-fantasy-game-masters-resource.md) rese
 
 # Glossary
 
-| Term                                         | Meaning / Description  |
-| -------------------------------------------- | ---------------------- |
-| [Arc](#arcana-arc)                           | The Arcana Attribute   |
-| [OPN](#psionics-arcwit)                      | Openness to [The Veil](#the-veil) |
-| [SI](#spell-intensity-si)                    | Spell Intensity        |
+| Term                                                        | Meaning / Description  |
+| ----------------------------------------------------------- | ---------------------- |
+| [Abyssalite](#abyssalite)                                   | A material that amplifies the flow of magic. Can be processed into Runes and Magic Scrolls. |
+| [Amberite](#amberite)                                       | A material that dampens the flow of magic. Can be processed into Ambersteel. |
+| [Ambersteel](#ambersteel)                                   | A material that strongly dampens the flow of magic. |
+| [Arcana (Arc)](#arcana-arc)                                 | An Attribute that describes a Character's innate mastery of magic. Finds use in determining Arcane Overheat thresholds. |
+| [Arcane Engine](#arcane-engine)                             | Enables the use of impure Malevite Orbs. |
+| [Arcane Overheat](#arcane-overheat--slag)                   | A number that builds up within a Character as they utilize magic, which is easily reduced. |
+| [Arcane Slag](#arcane-overheat--slag)                       | A number that builds up within a Character as they utilize magic, which lowers only slowly. |
+| [Arcanosphere](#magic)                                      | An invisible force that spans the world, which enables the use of magic. |
+| [Broiling Arcane Overheat](#arcane-overheat--slag)          | The third Arcane Overheat threshold, which is *perilous*. |
+| [Cerebillium](#cerebillium)                                 | A material that can *think*. Commonly used as the brains of golems and other such constructs. |
+| [Cold Arcane Overheat](#arcane-overheat--slag)              | The first Arcane Overheat threshold, which is *mostly safe*. |
+| [Concentration Spell](#concentration-spells)                | A Spell that is active as long as the mage desires, or can manage to keep their Concentration for. |
+| [Consuming Arcane Overheat](#arcane-overheat--slag)         | The fourth and final Arcane Overheat threshold, which is *mortally perilous*. |
+| [Magic Echo](#magic-echoes)                                 | The residual disturbance of the Arcanosphere after the use of a Spell. |
+| [Magic Negation](#magic-negation)                           | The ability to negate another mage's Spell. |
+| [Magic School](#magic-school--school---attribute-)          | A special Skill that enables one type of magic use. |
+| [Magic Scroll](#magic-scrolls)                              | An one-time use Asset that allows even non-mages to cast magic. |
+| [Magic Spell](#magic)                                       | The name of a Magic School Skill's Expertises. Basically: magic Expertise -> Spell. |
+| [Malevite](#arcane-engine)                                  | An artificial material made from the blood of mages or magical creatures. Allows very strong manipulation of the Arcanosphere. |
+| [maximum Intensity](#spell-intensity-si)                    | A Magic School's Level sets the maximum Spell Intensity that a Spell can have. |
+| [Memorum](#memorum)                                         | A fungus that can capture and preserve thoughts, emotions, Magic Echoes and even raw knowledge. |
+| [OPN](#psionics-arcwit)                                     | Openness to [The Veil](#the-veil). |
+| [Rune](#runes)                                              | An Asset that allows even non-mages to cast magic at will. |
+| [SI](#spell-intensity-si)                                   | Spell Intensity dictates the strength of magic use. |
+| [Smoldering Arcane Overheat](#arcane-overheat--slag)        | The second Arcane Overheat threshold, which is *risky*. |
+| [Spell-Backfire](#spell-backfire)                           | Magic is risky. Failing a Test of a Magic School may result in a Spell-Backfire, which always causes some penalty for the mage, instead of their intended target(s). |
+| [The Veil](#the-veil)                                       | The place that transcends this, or any, universe. The path to true enlightenment and absolute madness. |
 
 # Credits
 **Designer**: Nicolas 'Krubi' H.
@@ -196,6 +220,8 @@ Supplements to the [Core Attribute rules](./strive-core.md#attributes).
 <img src="../../img/arcana.svg" style="width: 3rem; height: 3rem;"></img> Governs a Character's ability to control and sense magic flow, casting magic Spells or detecting lingering magic. 
 
 This is the only Attribute that can have a Level of `0`, meaning playing a mage is a deliberate choice. 
+
+Used to determine the [Arcane Overheat](#arcane-overheat--slag) thresholds.
 
 # Magic
 For this supplement, magic is assumed to be a mostly invisible supernatural force that runs all throughout, like a magnetosphere. Perhaps it could be called the *Arcanosphere*. How magic manifests itself, is up to the world the GM is running. Is there a verbal component? Must the mage trace arcane symbols into the air or onto some surface? Are the magical currents visible and glow eerily? This supplement makes no assumptions in this regard. 
@@ -248,7 +274,7 @@ When a mage casts magic, **one third** (RD and minimum `1`) of the [Spell Intens
 The [Arcana](#arcana-arc) Attribute determines several thresholds. If the Character has an [Arcana](#arcana-arc) Level of less than `1`, calculate the thresholds as if it was Level `1`. 
 
 * **Cold**: Up to and including the `modified Arcana` is **mostly safe**. 
-  * Every time the mage casts a spell, if they don't achieve at least `1` Hit, a [Spell-Backfire](#spell-backfire) occurs. In other words, only a Complete Failure of the [Test](#testing-magic) results in a [Spell-Backfire](#spell-backfire). 
+  * Every time the mage casts a spell, if they don't achieve at least `1` Hit, a [Spell-Backfire](#spell-backfire) occurs. In other words, only a failure of the [Test](#testing-magic) results in a [Spell-Backfire](#spell-backfire). 
 * **Smoldering**: Up to and including the `modified Arcana * 2` is **risky**. 
   * Every time the mage casts a spell, their Ob is always increased by `+1`. Less than `2` Hits causes a [Spell-Backfire](#spell-backfire). 
   * All spells are super-charged, with an automatic and free `+1` SI. 
@@ -379,8 +405,8 @@ It may be possible to circumvent this repulsion behavior by placing the Runes in
 To activate a Rune, it must be touched in the right spots and at the right intervals. Mistakes in the procedure can have disastrous results. 
 
 In order to invoke a Rune:
-* A Complete Success of a [Rune-Using](#rune-using-agiwit) Skill Test will invoke the spell of the Rune as expected. This costs `2` AP. 
-* Failing to achieve a Complete Success results in a [Spell-Backfire](#spell-backfire). 
+* A [Rune-Using](#rune-using-agiwit) Test will invoke the spell of the Rune as expected. This costs `2` AP. 
+* Failure in the Test results in a [Spell-Backfire](#spell-backfire). 
 * The user accumulates one third (RD, but to no less than `1`) of the Rune's [Spell Intensity](#spell-intensity-si) as [Arcane Slag](#arcane-overheat--slag). 
 
 #### Creating Runes
@@ -390,9 +416,9 @@ In order to craft a Rune:
 * A Rune can only be made to cast one type of magic. So the carver has to pick one of the [Magic Schools](#list-of-magic-schools). 
 * The carver has to succeed a [Rune Smithing](#rune-smithing-arcwit) Skill Test. 
   * The maximum Level at which a Rune can be created, depends on the carver's Skill Level. The Level of the Rune dictates the Level of the respective magic it will cast at. 
-* After the carving, the Rune must be "primed" by a mage. This requires a Complete Success of a Test of the same [School Of Magic](#list-of-magic-schools) as the Rune holds, with Ob equal to the [Spell Intensity](#spell-intensity-si) of the Rune. 
+* After the carving, the Rune must be "primed" by a mage. This requires a success of a Test of the same [School Of Magic](#list-of-magic-schools) as the Rune holds, with Ob equal to the [Spell Intensity](#spell-intensity-si) of the Rune. 
 
-If any of the Tests are not a Complete Success, the Rune is botched and the material cannot be used for another attempt. There is no room for mistakes. 
+If any of the Tests are not a success, the Rune is botched and the material cannot be used for another attempt. There is no room for mistakes. 
 
 ### Magic Scrolls
 **Magic Scrolls** allow a single, specific spell to be cast by both mages and non-mages. Once used, the Magic Scroll burns up from the flow of magic and cannot be used again (even if the bearer material is fire-proof). Thus, these are single-use tools. 
@@ -412,10 +438,10 @@ In order to invoke a Magic Scroll:
 In order to create a Magic Scroll:
 * PI: `50`, TI: `1` Hour
 * Powdered [Abyssalite](#abyssalite) must be painted onto the parchment, paper or other such material, in a shape specific to the magic spell the Magic Scroll will be able to cast. 
-  * This requires a Complete Success of an [Artistry](./strive-core.md#artistry-agiawar) or [Artificing](#artificing-arcwit) Test, at Ob equal to the intended [Spell Intensity](#spell-intensity-si) of the Magic Scroll. 
-* Then, the Magic Scroll must be "primed" by a mage. This requires a Complete Success of a Test of the same [School Of Magic](#list-of-magic-schools) as the Magic Scroll holds, with Ob equal to the [Spell Intensity](#spell-intensity-si) of the Magic Scroll. 
+  * This requires a success of an [Artistry](./strive-core.md#artistry-agiawar) or [Artificing](#artificing-arcwit) Test, at Ob equal to the intended [Spell Intensity](#spell-intensity-si) of the Magic Scroll. 
+* Then, the Magic Scroll must be "primed" by a mage. This requires a success of a Test of the same [School Of Magic](#list-of-magic-schools) as the Magic Scroll holds, with Ob equal to the [Spell Intensity](#spell-intensity-si) of the Magic Scroll. 
 
-If any of the Tests are not a Complete Success, the Magic Scroll is botched and the material cannot be used for another attempt. There is no room for mistakes. 
+If any of the Tests are not a success, the Magic Scroll is botched and the material cannot be used for another attempt. There is no room for mistakes. 
 
 ### Malevite
 Also known as blood jewel, Malevite is an entirely artificial material, made from the blood of mages or magical creatures, by use of great pressure, a constant arcanic charge and much patience. The more blood it is infused with, the purer the color and more powerful the artifact. 
