@@ -284,8 +284,17 @@ You may choose to play without the Momentum system for a less heroic style of ga
       - [Cooking (Awar/Wit)](#cooking-awarwit)
   - [List of Character Traits](#list-of-character-traits)
     - [Breath Weapon](#breath-weapon)
+    - [Competitive Tosser](#competitive-tosser)
+    - [Deep Lungs](#deep-lungs)
+    - [Gritty](#gritty)
+    - [Flows Like Water](#flows-like-water)
     - [Innate Armor](#innate-armor)
+    - [Long Arms](#long-arms)
+    - [Productive](#productive)
+    - [Shrugs-A-Lot](#shrugs-a-lot)
+    - [Substitutional Talent](#substitutional-talent)
     - [Steadfast](#steadfast)
+    - [Tough Skin](#tough-skin)
     - [Warcrobat](#warcrobat)
   - [List of Titles of Renown](#list-of-titles-of-renown)
     - [Heart of Stone](#heart-of-stone)
@@ -1172,7 +1181,7 @@ An Innate Ability is an [Attribute](#attributes) or [Skill](#skills) unique to a
 Especially for animals and monsters, Innate Abilities represent natural weapons, such as talons, stingers, sharp teeth and such. They must be noted as "Innate" on a Character sheet. 
 
 ### Character Traits
-A **Character Trait** is an entirely passive characteristic, that may grant access to unique abilities, affect other abilities of the Character or grant an advantage in certain narrative situations. Traits may be inherent to a Character, based on their ancestry and background, may be awarded by Skills, purchased from the [list of Character Traits](#list-of-character-traits) or awarded through events in the story.
+A **Character Trait** is an entirely passive characteristic, that may grant access to unique abilities, affect other abilities of the Character or grant an advantage in certain narrative situations. Traits may be inherent to a Character, based on their ancestry and background, may be awarded by Skills, purchased from the [list of Character Traits](#list-of-character-traits) or awarded through events in the story. All PCs may receive **one** Trait in [Character Creation](#character-creation).
 
 Traits **cannot** be [Tested](#tests).
 
@@ -2210,7 +2219,8 @@ The procedure of creating a Character consists of the following steps:
 3. [Determine name](#determine-name).
 4. [Determine abilities](#determine-abilities).
 5. [Determine Derived Attributes](#determine-derived-attributes)
-6. [Determine Assets](#determine-assets).
+6. Choose a [Character Trait](#character-traits) from the [list of Traits](#list-of-character-traits).
+7. [Determine Assets](#determine-assets).
 
 ### Determine Life Path
 Where and when does the story of your Character begin? Under what circumstances are they born and how were they raised? Until adulthood, did they lead a life of carelessness or did they have to fight for every scrap of food? How did they lead their life up until the point they picked up adventuring? 
@@ -2783,13 +2793,40 @@ The boons from meals do not stack. Eating a second meal will have it override al
 The following is a list of all [Character Traits](#character-traits) of the core rules. 
 
 ### Breath Weapon
-Obvious jokes aside, your breath can deal some tangible damage. `1D8 + 2` of either Acid, Burning, Freezing or Poison damage (choose one when receiving the Trait). This costs `1` AP and causes `+1` [Exhaustion](#exhaustion) and launches a ranged attack in an AoE cone with a distance of `3` Squares. Can only be used once per Turn. 
+Obvious jokes aside, your breath can deal some tangible damage. `1D8 + 2` of either Acid, Burning, Freezing or Poison damage (choose one when receiving the Trait). This costs `-1` AP and causes `+1` [Exhaustion](#exhaustion) and launches a ranged attack in an AoE cone with a distance of `3` Squares. Can only be used once per Turn. 
+
+### Competitive Tosser
+You can throw objects `+4` Squares far and gain `+1` [Compensation Point](#compensation-points) for all [Throwing](#throwing) Tests.
+
+### Deep Lungs
+Raise your base Exhaustion Limit by `+3`. 
+
+### Gritty
+Whenever you gain Grit Points, gain `+1` more.
+
+### Flows Like Water
+Gain the ability to re-direct a Forced-Movement onto an adjacent Character, at the cost of `-1` AP.
 
 ### Innate Armor
 Whether naturally tough-skinned or artificially enhanced, your hide proves especially resistant against a chosen [type of damage](#damage-types), with `+6` points of armor. 
 
+### Long Arms
+All your Melee Attacks can be used against targets up to two Squares away. You effectively implicitly gain the [Long Reach Weapon Trait](#long-reach) for all Attacks.
+
+### Productive
+Whenever you craft Assets, you produce twice as many.
+
+### Shrugs-A-Lot
+For a Test to Shrug Off a [Condition](#condition), you may add `+1` [Compensation Point](#compensation-points) at the cost of `-1` AP and `+1` [Exhaustion](#exhaustion).
+
+### Substitutional Talent
+For one of your Skills, change one of its Base Attributes to any other Attribute of your choice.
+
 ### Steadfast
 Increases [Stability](#stability-stabil) by `+1`. 
+
+### Tough Skin
+Raise your base HP by `+5`. 
 
 ### Warcrobat
 Combining agility with deadliness, elevating mere skill at arms to an elegant art. 
