@@ -63,6 +63,7 @@ You may choose to play without the Momentum system for a less heroic style of ga
     - [Testing an Attribute](#testing-an-attribute)
     - [Testing a Skill](#testing-a-skill)
     - [Raw vs. Modified Level](#raw-vs-modified-level)
+    - [Test Success Ratings](#test-success-ratings)
     - [Types of Test](#types-of-test)
       - [Binary Test](#binary-test)
       - [Stepped Test](#stepped-test)
@@ -457,9 +458,13 @@ As STRIVE is meant primarily as a rule-book to help you quickly find what you ne
 | [Base Attribute](#skills)                                   | One of the two Attributes a Skill relies on. |
 | [Base Initiative / BI](#base-initiative-bi)                 | Determines the order in which Characters act in combat. |
 | [Basic Action](#action-points-ap)                           | An action (during combat) that doesn't require a Test, such as moving. |
+| [Basic Action](#action-points-ap)                           | Any Action not requiring a Test, such as normal movement. |
+| [Berserk](#berserk)                                         | A Condition that forces a Character to attack anyone they can see, including allies. |
 | [Binary Test](#binary-test)                                 | A Test that allows no room for failure. |
+| [Bleeding](#bleeding)                                       | A Condition that causes Bleeding damage every Tick. |
 | [Boon](#boons--penalties)                                   | A positive effect on a Character, for example one that grants Compensation Points or which awards Temporary HP. |
 | [Bulk](#bulk)                                               | Describes the weight, size and ease of use of an Asset. |
+| [Burning](#burning)                                         | A Condition that causes Burning damage every Tick. |
 | [Carrying Capacity](#carrying-capacity)                     | Limits how much a Character can carry on-person. |
 | [Character Trait](#character-traits)                        | A unique aspect of a Character, such as an exclusive ability or Title of Renown. |
 | [Combat](#combat)                                           | The state the game enters when a fight breaks out. Time is finely sliced and Characters act in Turns, with a limited number of actions they may take. |
@@ -467,7 +472,10 @@ As STRIVE is meant primarily as a rule-book to help you quickly find what you ne
 | [Concentration](#concentration)                             | A Skill or Expertise whose effects last as long as desired, but which could be interrupted. |
 | [Condition](#condition)                                     | A positive or negative effect affecting a Character. |
 | [Core Attribute](#core-favored-normal--penalized-attributes)| An Attribute that is easier to Advance. |
+| [Counter-Attack](#counter-attack)                           | A Combat Reaction that allows an immediate retaliatory Attack. Only possible for certain Skills and Expertises. |
+| [Cover](#cover)                                             | The environment itself may provide Defense boons. There is Low Cover, which provides a Boon and High Cover, which provides a stronger Boon. |
 | [Creative Test](#creative-test)                             | A Creative Test offers much freedom in how it is to be resolved. It is commonly a group effort to solve one of these and is a great answer for chase-sequences. |
+| [Crippled](#crippled)                                       | A Condition suffered when a Character has too many Injuries, making all their Tests harder to succeed. |
 | [Crippled](#crippled)                                       | When a Character suffers enough too many Injuries, they become Crippled, reducing their dice available for Tests. |
 | [D10](#dice)                                                | A ten-sided die         |
 | [D20](#dice)                                                | A twenty-sided die      |
@@ -475,25 +483,41 @@ As STRIVE is meant primarily as a rule-book to help you quickly find what you ne
 | [D6](#dice)                                                 | A six-sided die         |
 | [D8](#dice)                                                 | An eight-sided die      |
 | [Damage Type](#damage-types)                                | All damage falls into one of the Damage Types, which also determines the type of Injury such damage may cause. |
+| [Death's Door](#deaths-door)                                | A Condition only PCs can have. This is their final battle with death. |
 | [Defender](#defending)                                      | A Character who is target of another's Action. The distinction whether this is a hostile or benign action does not matter. |
 | [Defense Test](#attacking)                                  | A Test made to oppose the attack of another Character. |
 | [Derived Attributes](#derived-attributes)                   | An Attribute whose value stems from other sources. It cannot be Advanced independently. |
+| [Desperate Measure](#momentum-actions)                      | When Momentum is low, Desperate Measures become available, and allow PCs to turn around the wheel of fate in a fight. |
 | [Difficult Terrain](#combat-movement)                       | Halves movement per AP. |
+| [Disengage Action](#disengage)                              | A Combat Action that lets a Character safely avoid an Opportunity Attack. |
+| [Dissolving](#dissolving)                                   | A Condition that causes Acid damage every Tick. |
 | [Distance Increment (DI)](#ranged)                          | Indicates a ranged weapon's/attack's range increments. Attacking past this number of Squares incurs penalties to the attack. |
 | [Down-Time](#down-time)                                     | Whenever the PCs aren't out actively adventuring, they may have time to themselves, to pursue a craft, hone their abilities or simply relax. |
 | [Drivers](#drivers)                                         | Refers to a Character's Ambition, Aspirations and Reactions - goals to work towards and automatic triggers to get them into trouble. |
+| [Drug-Addicted](#drug-addicted)                             | A Condition that forces a Character to act compulsively. |
+| [Electrified](#electrified)                                 | A Condition that forces a Character to spasm uncontrollably and thus be Force-Moved. |
+| [Exhausted](#exhausted)                                     | A Condition that Character suffer when they exert themselves too much. It makes them lethargic and their Tests harde to succeed. |
 | [Exhaustion](#exhaustion)                                   | A number that indicates how physically exerted a Character is. Limits usage of abilities if it becomes too much. |
 | [Experience Point(s) (XP)](#experience-points-xp)           | Allows unrestricted Character Advancement. |
 | [Expertise](#expertise)                                     | A sub-ability of a Skill. |
 | [Fate Point(s) (FP)](#fate-points)                          | A meta-currency that players earn through roleplay and great achievements. Can be used to buy powerful Fate-Cards from the Hand Of Fate. |
 | [Fate-Card](#hand-of-fate)                                  | A powerful meta-currency that allows you to change dice rolls and even influence the narrative. |
 | [Favored Attribute](#core-favored-normal--penalized-attributes)| An Attribute that is inherently easier to Advance. |
+| [Flanked](#flanking)                                        | The first degree of Flanking. A Flanked Character's armor is only half (RU) as effective and their Defense Tests are more difficult. |
+| [Flanking](#flanking)                                       | Lets allies work together to circumvent an enemy's defenses in Combat. |
+| [Flee Combat](#flee-combat)                                 | A Combat Action that lets a Character flee Combat faster, but they can no longer fight. |
+| [Forced March](#forced-march)                               | Allows Characters to [Travel](#travel--terrain) longer, at the cost of Exhaustion. |
 | [Forced Movement](#forced-movement)                         | When a Character is moved against their will, by being pushed or thrown. |
+| [Frostbitten](#frostbitten)                                 | A Condition that reduces a Character's AP and makes their Tests harder to succeed. |
 | [Full Rest, Resting](#resting)                              | Spending time asleep or in deep meditation, allowing a Character to recover their health. |
 | [Game-Master (GM)](#introduction)                           | The person running the game. |
+| [Glancing Success](#test-success-ratings)                   | A fairly weak success of a Test. |
 | [Graduated Test](#graduated-test)                           | A Test with a gradation of success or failure. Mostly finds use in crafting. |
+| [Grappled](#grappled)                                       | A Condition for a Character in another's grip. The Grappled Character can not move of their own volition and counts as Flanked to one additional degree. |
 | [Grit Point](#grit-points)                                  | A one-time resource that is earned through Injuries, which can be spent as a last-ditch effort to turn the wheel of fate around. |
 | [Hand Of Fate](#hand-of-fate)                               | Refers to the game's selection of available Fate-Cards. |
+| [Hasted](#hasted)                                           | A Condition that lets a Character who get an additional AP and who may move further per AP spent. |
+| [Heroic Act](#momentum-actions)                             | When Momentum is high, Heroic Acts become available, and allow PCs to dominate a fight. |
 | [Hit Limit](#testing-a-skill)                               | Determines how many rolled Hits may actually factor into the result of a Test. This is equal to your Skill's Level, but can be raised through Compensation Points, Skill Forking and other Characters providing assistance. |
 | [Hit-Point(s) (HP)](#hit-points-hp)                         | The resource that separates a Character from death. |
 | [Hit](#tests)                                               | Positive result of an individual die-roll in a Test. |
@@ -502,51 +526,78 @@ As STRIVE is meant primarily as a rule-book to help you quickly find what you ne
 | [Injury Shrug-Off](#shrugging-off-an-injury)                | When a Character suffers enough damage to potentially also suffer an Injury, they may try to shrug it off, thus avoiding the Injury. |
 | [Injury](#injury)                                           | A serious health impediment of a Character, suffered through damage, when failing a Shrug-Off Test. |
 | [Innate Ability](#innate-abilities)                         | A special ability that a Character has access to based on their ancestry. |
+| [Jealous](#jealous)                                         | A Condition that makes a Character feel desperately compelled acquire *something*. |
 | [Known Skill](#skills)                                      | A Skill at Level `1+`, which is still considered known to the Character. They can properly utilize such a Skill. |
 | [Language](#languages)                                      | A Character's ability to communicate and potentially read and write in a language that exists in your GM's world. |
 | [Learning Skill](#learning-skills)                          | A Skill at Level `0`, which is still considered unlearned. A Character has not yet gained the ability to properly utilize such a Skill, for example in Skill Forking. |
+| [Long Reach](#long-reach)                                   | A weapon Trait for melee weapons that allow Attacking targets up to two Squares away. |
 | [Luggage](#luggage)                                         | The Assets a Character is carrying on-person. |
 | [Major Fate-Point (MaFP)](#major-fate-points)               | A Fate-Point earned for a major achievement and great role-play. |
+| [Marked](#marked)                                           | A Condition that makes a Character easier to harm. |
+| [Masterful Success](#test-success-ratings)                  | A masterful success of a Test. |
+| [Melee](#melee)                                             | A weapon Trait for all weapons that allow Attacking adjacent targets. |
 | [Minor Fate-Point (MiFP)](#minor-fate-points)               | An easily earned Fate-Point, supported by mostly mechanics. |
 | [Miss](#tests)                                              | Negative result of an individual die-roll in a Test. |
+| [Momentum](#momentum)                                       | A special resource that the PCs earn and lose as a group, during Combat. It enables use of Heroic Acts and Desperate Measures. |
 | [Multiple Single Target (MST)](#multiple-single-target-mst) | Indicates that an attack affects multiple targets, each of which is handled individually, for example for rolling Defense Tests. |
 | [Non-Player Character (NPC)](#non-player-character-npc)     | Represents all the people, animals and monsters of a world, that are controlled by the GM. |
 | [Normal Attribute](#core-favored-normal--penalized-attributes)| An Attribute that is enjoys normal Advancement costs. |
 | [Obstacle (Ob)](#tests)                                     | Determines the target number of Hits you must roll to succeed a Test. |
+| [Opportunity Attack](#opportunity-attacks)                  | An Attack that may trigger as a Reaction to a foe moving exiting the Range of Opportunity. This Attack stops the enemy. |
 | [Opposed Test](#opposed-test)                               | A Test that resolves when two Characters come into opposition. Most commonly finds use in Combat. |
 | [Overweight](#overweight)                                   | A Condition a Character suffers when they try to carry too much. |
+| [Overwhelmed](#flanking)                                    | The third and final degree of Flanking. An Overwhelmed Character's armor is no longer protects, at all and their Defense Tests are incredibly dfficult. |
 | [Owning Skill](#expertise)                                  | The Skill an Expertise is part of. |
+| [Pacified](#pacified)                                       | A Condition that cannot *willingly* take any hostile Actions. |
 | [Penalized Attribute](#core-favored-normal--penalized-attributes)| An Attribute that is much harder to Advance. |
 | [Penalty](#boons--penalties)                                | A negative effect on a Character, for example one that reduces the dice available for Tests. |
+| [Perfectly Balanced](#perfectly-balanced)                   | A weapon Trait that indicates a weapon is more effective. |
 | [Personality Trait](#personality-traits)                    | Describes a Character's way of thinking and how they should act, in general. |
 | [Personality](#personality)                                 | Describes a Character's desires and ways of thinking. |
 | [Player Character (PC)](#introduction)                      | The type of Character that players are in control of. |
+| [Poison-Chamber](#poison-chamber)                           | A weapon Trait that indicates a weapon deals additional Poison damage. |
+| [Poisoned](#poisoned)                                       | A Condition that causes Poison damage every Tick. |
 | [Practice](#practice)                                       | During Down-Time, Characters may practice for Advancement Progress. |
+| [Prefer Range](#prefer-range)                               | A weapon Trait that indicates a weapon is harder to use against adjacent targets. |
 | [Primary Damage](#primary-damage)                           | An attack's greatest damage value, if it deals multiple types. |
 | [Progress Increment (PI)](#progressing-a-project)           | Determines how much work a Project takes. |
-| [Project](#crafting--research-projects)                     | A long-term and abstract side-activity of a PC to craft or research something. |
-| [Project Skill](#progressing-a-project)                     | The Skill used to add Progress to a Project. |
-| [Project Complications](#project-complications)             | An alternative to losing Quality Levels when failing a Project Skill Test. |
 | [Project Booster](#project-boosters)                        | May add Progress or Quality Levels to a Project. |
+| [Project Complications](#project-complications)             | An alternative to losing Quality Levels when failing a Project Skill Test. |
+| [Project Skill](#progressing-a-project)                     | The Skill used to add Progress to a Project. |
+| [Project](#crafting--research-projects)                     | A long-term and abstract side-activity of a PC to craft or research something. |
+| [Prone](#prone)                                             | A Condition for a Character currently low to the ground. They are easier to harm in melee, but harder to harm at range. |
 | [Property](#property)                                       | The Assets a Character owns but is not carrying on-person. |
+| [Push Through Action](#push-through)                        | A Character may choose to move despite suffering an Opportunity Attack. |
 | [Quality Level](#crafting--research-projects)               | A numeric value that describes the quality of an Asset or Project. |
+| [Range of Opportunity](#opportunity-attacks)                | The zone around a Character that lets them launch Opportunity Attacks as a Reaction to foes moving around or away from them. |
+| [Range Only](#range-only)                                   | A weapon Trait that indicates a weapon cannot be used against adjacent targets. |
+| [Ranged](#ranged)                                           | A weapon Trait for all ranged weapons. |
+| Reaction                                                    | Something a Character does in reaction to another. Or, refers to one of a Character's triggered behaviors, that are part of their [Drivers](#reaction). |
+| [Rooted](#rooted)                                           | A Condition that disallows a Character from moving of their own volition. |
 | [Round](#initiative)                                        | A Round comprises all Turns of Characters currently in Initiative Order. When all Characters have had their Turn, a Round is concluded and the next Round begun. |
 | [Rounded Down (RD)](#rounded-up--rounded-down)              | Indicates a step or result of a calculation is supposed to be rounded down. |
 | [Rounded Up (RU)](#rounded-up--rounded-down)                | Indicates a step or result of a calculation is supposed to be rounded up. |
 | [Scenario-Time](#scenario-time)                             | The regular mode of play - time is fairly finely sliced and each Character's actions are handled individually. |
+| [Serrated](#serrated)                                       | A weapon Trait that indicates a weapon deals additional Bleeding damage. |
 | [Signature Personality Trait](#personality-traits)          | Describes a Character's way of thinking and how they *will* act, in general. In fact, they are *known* to be this way! |
-| [Single-Target (ST)](#single-target-st)                     | Indicates an attack will only affect a single target. |
+| [Single Target (ST)](#single-target-st)                     | Indicates an attack will only affect a single target. This can be a Character or object. |
 | [Skill Forking](#skill-forking)                             | Allows you to benefit from varied knowledge. You can Fork related Skills into a Test, if you can reasonably explain their use. |
 | [Skill](#skills)                                            | A learned ability of a Character. These are used in the vast majority of cases to resolve Tests and may offer unique abilities, called Expertises. |
+| [Slow Reload](#slow-reload)                                 | A weapon Trait that for a weapon that must be reloaded after every use, at the cost of AP. |
+| [Solid Success](#test-success-ratings)                      | A strong success of a Test. |
 | [Sprinting Speed / Sprint](#sprinting-speed-sprint)         | Can extend a Character's movement per AP, at the cost of Exhaustion. |
 | [Square](#distances--the-grid)                              | A single field of an encounter or overworld map, representing a `1m`/`3'` or `10km`/`6 mile` square, respectively. |
 | [Stability (Stab)](#stability-stabil)                       | Counter-acts Forced Movement. |
 | [Stepped Test](#stepped-test)                               | A Test that allows failing forward or offers multiple chances at recovery from a critical blunder. |
 | [Strength (Str)](#strength-str)                             | An Attribute that describes a Character's physical strength. Finds use in determining Carrying Capacity. |
+| [Stunned](#stunned)                                         | A Condition that prevents a Character from acting at all, during their Turn. |
 | [Surprise Round](#surprise-round)                           | The first Round of Combat, when one side of the conflict are surprised and at a severe disadvantage in the beginning of the fight. |
+| [Surrounded](#flanking)                                     | The second degree of Flanking. A Surrounded Character's armor is only one third (RU) as effective and their Defense Tests are much more difficult. |
+| [Swap-Out Action](#swap-out)                                | A Combat Action that lets two adjacent Characters switch places without provoking Opportunity Attacks. |
 | [Teaching](#teaching)                                       | During Down-Time, Characters may teach others, to help them with Advancement Progress. |
 | [Temporary Hit-Points](#temporary-hit-points)               | Separate HP that are reduced before regular HP and whose loss cannot cause Injuries. |
 | [Temporary HP](#temporary-hit-points)                       | Hit Points that may exceed the Character's limit, but only for a limited time.  |
+| [Terrified](#terrified)                                     | A Condition that forces a Character to flee from whatever the source of their terror is. |
 | [Tick](#ticks)                                              | The immediate moment of time when a Character's Turn begins. This is when Conditions apply their effects. |
 | [Time Increment (TI)](#progressing-a-project)               | Determines how often progress may be added to a Project. |
 | [Title of Renown](#titles-of-renown)                        | A unique reputation that a Character is known for, far and wide. Often earned through great achievements, both good and terrible. |
@@ -554,8 +605,11 @@ As STRIVE is meant primarily as a rule-book to help you quickly find what you ne
 | [Treated Injury](#injury-states--treatment)                 | A Treated Injury only reduces a Character's maximum HP. |
 | [Troublemaker](#reaction)                                   | A PC's Reaction that makes it easy for the GM to get that PC into *trouble* - some minor social conflict to shake things up. |
 | [Turn](#initiative)                                         | The moment in time when a Character gets to act in an Initiative Order. |
+| [Unconscious](#unconscious)                                 | A Condition for a Character who is either asleep or knocked unconscious. |
+| [Unthreatened](#flanking)                                   | The default for all Unflanked Characters in Combat. Their defenses work to the fullest intent. |
+| [Very Long Reach](#very-long-reach)                         | A weapon Trait for melee weapons that allow Attacking targets up to three Squares away. |
+| [Very Slow Reload](#very-slow-reload)                       | A weapon Trait that for a weapon that must be reloaded after every use, at the cost of more AP. |
 | [Wit (Wit)](#wit-wit)                                       | An Attribute that describes a Character's sharpness of mind and tongue. Finds use in determining Base Initiative. |
-| Reaction                                                    | Something a Character does in reaction to another. Or, refers to one of a Character's triggered behaviors, that are part of their [Drivers](#reaction). |
 
 # Credits & Honorable Mentions
 **Designer**: Nicolas 'Krubi' H.
@@ -715,6 +769,12 @@ The Modified Level results from adding and subtracting [Boons And Penalties](#bo
 > From a Character Traits, they gain a boon of `+2` to the Attribute. 
 > 
 > However, they also suffered an Injury, which imposes a `-1` penalty to the Attribute. The sum of boons and penalties (`+2` from the Trait, `-1` from the Injury), results in the Modifier of `+1`. Applying that modifier yields the Modified Level of `4`. This is the number to use in Tests! 
+
+### Test Success Ratings
+Based on the number of Hits achieved, Tests of some Skills and Expertises may offer graded successes:
+* **Glancing**: On `≤ 1` Hit. A fairly weak success.
+* **Solid**: On `= 2` Hits. A strong success.
+* **Masterful**: On `≥ 3` Hits. A masterful success with the strongest effects.
 
 ### Types of Test
 There are the following types of Tests. The GM decides when to use which. 
@@ -1858,7 +1918,7 @@ Sometimes, special circumstances apply, which make certain attacks easier or har
 ### Damage & Effects
 Damage dealt to an opponent reduces their [HP](#hit-points-hp). When their HP reach `0`, they die. Damage can also inflict [Injuries](#injury). [Armor](#armor) can reduce the amount of damage that is actually applied. 
 
-The attack roll also determines how much damage an attack will deal and how severe its effects will be. Thus, damage is **not** rolled separately. There are three gradings, based on the number of Hits achieved over the Defender/Ob:
+The attack roll also determines how much damage an attack will deal and how severe its effects will be. Damage is **not** rolled separately. There are three gradings, based on the number of Hits achieved over the Defender/Ob:
 * **Glancing**: On `≤ 1` Hit. A fairly weak hit.
 * **Solid**: On `= 2` Hits. A strong hit.
 * **Masterful**: On `≥ 3` Hits. Applies the most severe damage and effects.
@@ -2923,9 +2983,7 @@ For every point in **Frostbitten**, a Character suffers `-1` [AP](#action-points
 ### Grappled
 <img src="../../img/health-condition-grappled.svg" style="width: 3rem; height: 3rem;"></img>
 
-A **Grappled** Character is unable to move freely and suffers `-1D` to all Defense [Tests](#tests), for as long as they are Grappled and can break free, by winning an [opposed](#opposed-test) [Unarmed Combat](#unarmed-combat-agistr) [Test](#tests) against the other Character grappling them. 
-
-A Character who is grappled, counts as `+1` degree of [Flanked](#flanking). 
+A **Grappled** Character is unable to move freely and counts as `+1` degree of [Flanked](#flanking). They can break free, by winning an [Opposed](#opposed-test) [Unarmed Combat](#unarmed-combat-agistr) [Test](#tests) against the other Character grappling them. 
 
 ### Hasted
 <img src="../../img/health-condition-hasted.svg" style="width: 3rem; height: 3rem;"></img>
