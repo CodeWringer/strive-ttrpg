@@ -457,7 +457,6 @@ As STRIVE is meant primarily as a rule-book to help you quickly find what you ne
 | [Awareness (Awar)](#awareness-awar)                         | An Attribute that describes a Character's keen senses and empathic understanding. Finds use in determining Base Initiative. |
 | [Base Attribute](#skills)                                   | One of the two Attributes a Skill relies on. |
 | [Base Initiative / BI](#base-initiative-bi)                 | Determines the order in which Characters act in combat. |
-| [Basic Action](#action-points-ap)                           | An action (during combat) that doesn't require a Test, such as moving. |
 | [Basic Action](#action-points-ap)                           | Any Action not requiring a Test, such as normal movement. |
 | [Berserk](#berserk)                                         | A Condition that forces a Character to attack anyone they can see, including allies. |
 | [Binary Test](#binary-test)                                 | A Test that allows no room for failure. |
@@ -476,7 +475,6 @@ As STRIVE is meant primarily as a rule-book to help you quickly find what you ne
 | [Cover](#cover)                                             | The environment itself may provide Defense boons. There is Low Cover, which provides a Boon and High Cover, which provides a stronger Boon. |
 | [Creative Test](#creative-test)                             | A Creative Test offers much freedom in how it is to be resolved. It is commonly a group effort to solve one of these and is a great answer for chase-sequences. |
 | [Crippled](#crippled)                                       | A Condition suffered when a Character has too many Injuries, making all their Tests harder to succeed. |
-| [Crippled](#crippled)                                       | When a Character suffers enough too many Injuries, they become Crippled, reducing their dice available for Tests. |
 | [D10](#dice)                                                | A ten-sided die         |
 | [D20](#dice)                                                | A twenty-sided die      |
 | [D4](#dice)                                                 | A four-sided die        |
