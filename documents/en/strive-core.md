@@ -21,7 +21,7 @@ Secondly, the game is not *about* tactics, either. However, the combat *is tacti
 
 Thirdly, the very capabilities of Characters are in themselves a puzzle. There are many options to choose from for building and playing a Character. There are often multiple choices available for deciding *how* a Character will move, attack or defend. 
 
-Lastly, while the game features hit points, it also features injuries. When a Character suffers enough hit point loss, an injury is inflicted upon them. And injuries spell *serious trouble* that reduce that Character's efficacy. Recovery from injuries is expected to take time. This implies plenty of down-time for combat-heavy parties, which is time that can be spent on professions, hobbies and scheming. 
+Lastly, while the game features Health Points, it also features injuries. When a Character suffers enough damage, an injury is inflicted upon them. And injuries spell *serious trouble* that reduce that Character's efficacy. Recovery from injuries is expected to take time. This implies plenty of down-time for combat-heavy parties, which is time that can be spent on professions, hobbies and scheming. 
 
 ## Character Evolution
 Players define long-term and short-term goals for their Characters. It is then the GM's job to work those goals into the story. Thus, players directly influence the narrative on a meta-level that is guaranteed to be interesting to them and their Character. 
@@ -111,10 +111,10 @@ You may choose to play without the Momentum system for a less heroic style of ga
       - [Reaction](#reaction)
     - [Virtues \& Vices](#virtues--vices)
   - [Health](#health)
-    - [Hit Points (HP)](#hit-points-hp)
+    - [Health Points (HP)](#health-points-hp)
       - [Recovering HP](#recovering-hp)
       - [Bludgeoned to 0 HP](#bludgeoned-to-0-hp)
-      - [Temporary Hit-Points](#temporary-hit-points)
+      - [Temporary Health Points](#temporary-health-points)
     - [Injury](#injury)
       - [Shrugging Off An Injury](#shrugging-off-an-injury)
       - [Suffering An Injury](#suffering-an-injury)
@@ -528,7 +528,7 @@ As STRIVE is meant primarily as a rule-book to help you quickly find what you ne
 | [Hasted](#hasted)                                           | A Condition that lets a Character who get an additional AP and who may move further per AP spent. |
 | [Heroic Act](#momentum-actions)                             | When Momentum is high, Heroic Acts become available, and allow PCs to dominate a fight. |
 | [Hit Limit](#testing-a-skill)                               | Determines how many rolled Hits may actually factor into the result of a Test. This is equal to your Skill's Level, but can be raised through Compensation Points, Skill Forking and other Characters providing assistance. |
-| [Hit-Point(s) (HP)](#hit-points-hp)                         | The resource that separates a Character from death. |
+| [Health Point(s) (HP)](#health-points-hp)                   | The resource that separates a Character from death. |
 | [Hit](#tests)                                               | Positive result of an individual die-roll in a Test. |
 | [Illness](#illness)                                         | A serious long-term health impediment of a Character. |
 | [Initiative Order](#initiative)                             | Defines the order Characters get to act in during tense situations, like Combat. |
@@ -605,8 +605,7 @@ As STRIVE is meant primarily as a rule-book to help you quickly find what you ne
 | [Surrounded](#flanking)                                     | The second degree of Flanking. A Surrounded Character's armor is only one third (RU) as effective and their Defense Tests are much more difficult. |
 | [Swap-Out Action](#swap-out)                                | A Combat Action that lets two adjacent Characters switch places without provoking Opportunity Attacks. |
 | [Teaching](#teaching)                                       | During Down-Time, Characters may teach others, to help them with Advancement Progress. |
-| [Temporary Hit-Points](#temporary-hit-points)               | Separate HP that are reduced before regular HP and whose loss cannot cause Injuries. |
-| [Temporary HP](#temporary-hit-points)                       | Hit Points that may exceed the Character's limit, but only for a limited time.  |
+| [Temporary Health Point(s)](#temporary-health-points)       | A separate Health Point resource that is reduced before regular Health Points and whose loss does not cause Injuries. |
 | [Terrified](#terrified)                                     | A Condition that forces a Character to flee from whatever the source of their terror is. |
 | [Tick](#ticks)                                              | The immediate moment of time when a Character's Turn begins. This is when Conditions apply their effects. |
 | [Time Increment (TI)](#progressing-a-project)               | Determines how often progress may be added to a Project. |
@@ -973,7 +972,7 @@ For every `2` Levels in this Attribute, past Level `2` (i. e. starting at Level 
 <img src="../../img/toughness.svg" style="width: 3rem; height: 3rem;"> Enduring physical and mental strains. 
 
 For every Level in Toughness, a Character...
-* ...gains `+10` [maximum HP](#hit-points-hp). All PCs have `10` Base HP. 
+* ...gains `+10` [maximum HP](#health-points-hp). All PCs have `10` Base HP. 
 * ...raises their [Exhaustion Limit](#exhaustion) by `+1`. All Characters have a base limit of `1`. 
 * ...gains around `3` minutes of holding their breath. 
 * ...gains one additional die with which to try and Shrug Off an [Injury](#injury).
@@ -1294,12 +1293,12 @@ Keep your Character's Virtues & Vices in mind and remember to ask your GM for a 
 Additionally, playing to or even against their Character's Virtues & Vices allows earning a player [Fate Points](#fate-points). 
 
 ## Health
-Every Character has [Hit Points (HP)](#hit-points-hp) and may suffer [Injuries](#injury). Additionally, [Conditions](#condition) can apply a variety of [Boons And Penalties](#boons--penalties). 
+Every Character has [Health Points (HP)](#health-points-hp) and may suffer [Injuries](#injury). Additionally, [Conditions](#condition) can apply a variety of [Boons And Penalties](#boons--penalties). 
 
 PCs may Shrug Off Injuries and can earn [Grit Points](#grit-points). 
 
-### Hit Points (HP)
-**Hit Points (HP)** are a broad abstraction for the overall healthiness of a Character. 
+### Health Points (HP)
+**Health Points (HP)** are a broad abstraction for the overall healthiness of a Character. 
 
 Whenever a Character is hurt, the Damage that has been inflicted upon them is deducted from their HP. When their HP reach `0`, they **die**. <br>
 An exception to this rule applies when the [Damage Type](#damage-types) that brought them to `0` HP was [Bludgeoning](#damage-types). For that, see [Bludgeoned To 0 Hp](#bludgeoned-to-0-hp). <br>
@@ -1319,15 +1318,15 @@ A [Graduated](#graduated-test) [Medicine](#medicine-agiwit) Test can restore `hi
 HP also replenish on their own, albeit much slower. For every hour outside of combat, `1D4` HP are regained, up to the current maximum. 
 
 #### Bludgeoned to 0 HP
-When a Character is bludgeoned to `0` [HP](#hit-points-hp), they might survive and fall [Unconscious](#unconscious), instead of dying. For that, they must succeed a [Toughness](#toughness-tough) [Test](#tests) at Ob `3`. If they fail, they die, after all.
+When a Character is bludgeoned to `0` [HP](#health-points-hp), they might survive and fall [Unconscious](#unconscious), instead of dying. For that, they must succeed a [Toughness](#toughness-tough) [Test](#tests) at Ob `3`. If they fail, they die, after all.
 
-#### Temporary Hit-Points
+#### Temporary Health Points
 **Temporary HP** are separate HP whose loss **cannot cause [Injuries](#injury)**. Temporary HP are reduced by damage before regular HP. Regular HP only start depleting after all Temporary HP are gone. Damage overflows from Temporary to regular HP. 
 
 > A Character with `22` HP and `5` Temporary HP suffers `6` points of damage. After removing the `5` points of Temporary HP, the remaining `1` point of damage overflows and reduces the regular HP to `21`. 
 
 ### Injury
-An **Injury** is a serious health impediment of a Character. It reduces the maximum [HP](#hit-points-hp) and imposes other [Penalties](#boons--penalties), such as temporary reductions to [Attributes](#attributes).
+An **Injury** is a serious health impediment of a Character. It reduces the maximum [HP](#health-points-hp) and imposes other [Penalties](#boons--penalties), such as temporary reductions to [Attributes](#attributes).
 
 Whenever a Character's HP drop below a `10` HP segment, they *may* suffer an Injury, if they fail to **shrug it off**. Note this **does not** require `10+` damage dealt in a single stroke! In fact, even just losing `1` HP can cause an Injury, if it happens to take the HP below a segment of `10`, for example from `40` down to `39`. At most `2` Injuries can be suffered from a single instance of damage. 
 
@@ -1357,7 +1356,7 @@ An Injury always applies a [Penalty](#boons--penalties) of `-1` to a randomly se
 | 7 - 8      | Toughness    |
 | 9 - 10     | Wit          |
 
-Additionally, the [Primary Damage](#primary-damage) that caused the Injury may apply further penalties. See the [Injury & Damage Type Table](#injury--damage-type-table) below. The Primary Damage Type is the one of which most got through [Armor](#armor--shields) and reduced [HP](#hit-points-hp) the most. If there is a tie, the Damage Type that the armor reduces less is the primary one. If there is still a tie, a coin flip could decide. Note that Injuries apply their **additional penalties only once, upon being suffered**! 
+Additionally, the [Primary Damage](#primary-damage) that caused the Injury may apply further penalties. See the [Injury & Damage Type Table](#injury--damage-type-table) below. The Primary Damage Type is the one of which most got through [Armor](#armor--shields) and reduced [HP](#health-points-hp) the most. If there is a tie, the Damage Type that the armor reduces less is the primary one. If there is still a tie, a coin flip could decide. Note that Injuries apply their **additional penalties only once, upon being suffered**! 
 
 Also keep in mind that whenever a PC suffers an Injury, they earn a [Grit Point](#grit-points)! 
 
@@ -1368,7 +1367,7 @@ Accruing **more Injuries than your Toughness** will result in your Character get
 
 #### Injury States & Treatment
 There are two possible states of an Injury: **Active** or **Treated**. 
-* An Active Injury reduces [maximum HP](#hit-points-hp) by `-10` *and* imposes additional penalites, such as to [Attributes](#attributes). 
+* An Active Injury reduces [maximum HP](#health-points-hp) by `-10` *and* imposes additional penalites, such as to [Attributes](#attributes). 
 * A Treated Injury *only* reduces maximum HP by `-10`.
 
 An Injury **must** be treated, if it is to begin healing. There are two ways to treat an Injury:
@@ -1454,7 +1453,7 @@ Any Illness, when Treated, has its duration reduced, but only once. If a treatme
 An Illness can only be suffered once, at a time. It may be suffered again later, but you could also expect that a certain level of immunity within the body has built up, after the previous time it was suffered through. A Character gains `+2D` to any [Toughness](#toughness-tough) [Test](#tests) for any Illness they have suffered in the past. Make sure to note past Illnesses on your Character sheet for this reason. 
 
 ### Damage Types
-All damage inflicted, is inflicted with one of these types, which dictate the type of [Injury](#injury) suffered when brought to `0` [HP](#hit-points-hp). 
+All damage inflicted, is inflicted with one of these types, which dictate the type of [Injury](#injury) suffered when brought to `0` [HP](#health-points-hp). 
 
 | Damage Type | Description |
 | ----------- | ----------- |
@@ -1916,7 +1915,7 @@ An attack generally requires an [Opposed Test](#opposed-test) to be made. If the
 Sometimes, special circumstances apply, which make certain attacks easier or harder to land. These are at the GM's discretion. They can impose an Ob penalty or boon whenever appropriate. Also keep in mind there may be times when rolling for an attack is entirely unnecessary, such as against a helpless victim. In such a case, you may apply your malevolence with impunity, to the extent of your choosing. 
 
 ### Damage & Effects
-Damage dealt to an opponent reduces their [HP](#hit-points-hp). When their HP reach `0`, they die. Damage can also inflict [Injuries](#injury). [Armor](#armor) can reduce the amount of damage that is actually applied. 
+Damage dealt to an opponent reduces their [HP](#health-points-hp). When their HP reach `0`, they die. Damage can also inflict [Injuries](#injury). [Armor](#armor) can reduce the amount of damage that is actually applied. 
 
 The attack roll also determines how much damage an attack will deal and how severe its effects will be. Damage is **not** rolled separately. There are three gradings, based on the number of Hits achieved over the Defender/Ob:
 * **Glancing**: On `≤ 1` Hit. A fairly weak hit.
@@ -2044,14 +2043,14 @@ The Momentum mechanics can make PCs feel very heroic! They allow them to finish 
 
 | Heroic Act <br><img src="../../img/heroic-acts.svg" width="64px" height="64px"></img> | Heroic Act Description | Desperate Measure Description | Desperate Measure <br><img src="../../img/desperate-measures.svg" width="64px" height="64px"></img> |
 | ----------------------- | ---------------------- | ----------------------------- | --------------------------- |
-| Death Mark <br><img src="../../img/heroic-act_death-mark.svg" width="64px" height="64px"></img>| Until the end of combat, a chosen enemy is [Marked](#marked). All damage they suffer causes them `+1` point of [Bleeding](#bleeding). This [Condition](#condition) cannot be removed normally. Decreases Momentum by `-15`. | Until the end of combat, a chosen **enemy and PC** are [Marked](#marked). All damage either suffers causes them `+1` point of [Bleeding](#bleeding). This [Condition](#condition) cannot be removed normally, unless either of the two Characters strikes down their pactee. Also, when that happens, the survivor gains `+10` [Temporary HP](#temporary-hit-points). Increases Momentum by `+10`. | Death Pact <br><img src="../../img/desperate-measure_death-pact.svg" width="64px" height="64px"></img> |
+| Death Mark <br><img src="../../img/heroic-act_death-mark.svg" width="64px" height="64px"></img>| Until the end of combat, a chosen enemy is [Marked](#marked). All damage they suffer causes them `+1` point of [Bleeding](#bleeding). This [Condition](#condition) cannot be removed normally. Decreases Momentum by `-15`. | Until the end of combat, a chosen **enemy and PC** are [Marked](#marked). All damage either suffers causes them `+1` point of [Bleeding](#bleeding). This [Condition](#condition) cannot be removed normally, unless either of the two Characters strikes down their pactee. Also, when that happens, the survivor gains `+10` [Temporary HP](#temporary-health-points). Increases Momentum by `+10`. | Death Pact <br><img src="../../img/desperate-measure_death-pact.svg" width="64px" height="64px"></img> |
 | Finest Hour <br><img src="../../img/heroic-act_finest-hour.svg" width="64px" height="64px"></img>| A PC of choice gets an immediate Turn, with `5` [AP](#action-points-ap). Decreases Momentum by `-30`. | All PCs get an immediate Turn, with `3` [AP](#action-points-ap), but also suffer `+3` points of [Bleeding](#bleeding). Increases Momentum by `+20`. | Final Hour <br><img src="../../img/desperate-measure_final-hour.svg" width="64px" height="64px"></img> |
 | Finish It! <br><img src="../../img/heroic-act_finish-it.svg" width="64px" height="64px"></img>| A chosen PC launches an immediate attack against a chosen foe, with `1` [Compensation Point](#compensation-points). If successful, that foe suffers `Injury count * 5` points of additional Pure damage. Decreases Momentum by `-30`. | A chosen PC launches an immediate attack against a chosen foe, with `1` [Compensation Point](#compensation-points). If successful, the foe suffers `Injury count * 10` points of additional Pure damage. If the foe survives, the PC also suffers `(Injury count * 3) + 5` points of Pure damage. Increases Momentum by `+10`. | You or Me <br><img src="../../img/desperate-measure_you-or-me.svg" width="64px" height="64px"></img> |
 | Pre-Emptive Strikes <br><img src="../../img/heroic-act_pre-emptive-strikes.svg" width="64px" height="64px"></img>| Until the end of combat, a chosen PC's first attack every Round costs no [AP](#action-points-ap)! Decreases Momentum by `-30`. | All PCs may immediately make one attack against one or more chosen foes, with `1` [Compensation Point](#compensation-points). This attack costs no [AP](#action-points-ap), but every foe hit may launch a free [Counter-Attack](#counter-attack), after all the PCs have acted. Increases Momentum by `+10`. | Breakout Strikes <br><img src="../../img/desperate-measure_breakout-strikes.svg" width="64px" height="64px"></img> |
 | Tactical Repositioning <br><img src="../../img/heroic-act_tactical-repositioning.svg" width="64px" height="64px"></img>| All PCs may immediately re-position, moving up to `10` Squares, without triggering any [Opportunity Attacks](#opportunity-attacks). Decreases Momentum by `-10`. | All PCs may immediately re-position, moving up to `10` Squares, without triggering any [Opportunity Attacks](#opportunity-attacks). However, up to three foes immediately gain `+1`, or one foe `+3` [AP](#action-points-ap). Increases Momentum by `+5`. | Desperate Repositioning <br><img src="../../img/desperate-measure_desperate-repositioning.svg" width="64px" height="64px"></img> |
 | Unyielding <br><img src="../../img/heroic-act_unyielding.svg" width="64px" height="64px"></img>| A PC of choice gets `+1` [Compensation Point](#compensation-points) for all Defense Tests and may freely [Counter-Attack](#counter-attack) all attacks directed against them or an adjacent ally, for `1` Round. Decreases Momentum by `-10`. | Until the end of combat, a chosen PC may freely [Counter-Attack](#counter-attack) all attacks directed against them with `+1` [Compensation Point] or an adjacent ally. However, they suffer `+1` Ob for all Attack Tests. Increases Momentum by `+10`. | Cornered <br><img src="../../img/desperate-measure_cornered.svg" width="64px" height="64px"></img> |
 | Get Off Me!             | All foes adjacent to a chosen PC are pushed back `2` Squares. That PC may then move up to `4` Squares, without triggering [Opportunity Attacks](#opportunity-attacks). Decreases Momentum by `-10`. | A chosen PC switches places with an adjacent foe, and may then move up to `4` Squares. Only the foe they switched with may react and launch an immediate free [Counter-Attack](#counter-attack), with `+1` [Compensation Point](#compensation-points), but cannot prevent the PC from moving. Increases Momentum by `+10`. | Outta My Way! |
-| Toughened Up            | All PCs gain up to `10` [Temporary HP](#temporary-hit-points), limited to them having at most this amount. Decreases Momentum by `-15`. | All PCs gain `20` [Temporary HP](#temporary-hit-points), limited to them having at most this amount, but also suffer `+3` [Exhaustion](#exhaustion). Increases Momentum by `+10`. | Scarred Up |
+| Toughened Up            | All PCs gain up to `10` [Temporary HP](#temporary-health-points), limited to them having at most this amount. Decreases Momentum by `-15`. | All PCs gain `20` [Temporary HP](#temporary-health-points), limited to them having at most this amount, but also suffer `+3` [Exhaustion](#exhaustion). Increases Momentum by `+10`. | Scarred Up |
 
 ## Throwing
 Throwing things is a special type of Action, that follows the rules outlined below. 
@@ -2373,7 +2372,7 @@ When choosing Skills, consider your Character's background. What fields of knowl
 It is possible for a Character to receive permanent boons or penalties during Character creation, based upon their ancestry. This is entirely at the GM's discretion and subject to their world. When choosing ancestry-based Skill boons, keep the number low. One or two boons at most. These are narratively based and fairly unique starting conditions for a Character. 
 
 ### Determine Derived Attributes
-Determine your Character's [maximum HP](#hit-points-hp), by referring to the [Toughness](#toughness-tough) attribute. 
+Determine your Character's [maximum HP](#health-points-hp), by referring to the [Toughness](#toughness-tough) attribute. 
 
 Determine your Character's [Exhaustion Limit](#exhaustion), by referring to the [Toughness](#toughness-tough) attribute. 
 
@@ -2606,7 +2605,7 @@ Requirement: Commanding Level `4`; A position of authority.
 
 | Level | <img src="../../img/heroic-acts.svg" width="64px" height="64px"></img> | Heroic Act Description | Desperate Measure Description | <img src="../../img/desperate-measures.svg" width="64px" height="64px"></img> |
 | ----- | ----------------------- | ---------------------- | ----------------------------- | --------------------------- |
-| 4     | You Die When I Say! | An ally of choice is marked. When their HP are about to be reduced to `0`, they are instead reduced to `1`. Your ally does not die, but now suffers the [Exhausted](#exhausted) [Condition](#condition)! Decreases Momentum by `-35`. | An ally of choice is marked. When their HP are about to be reduced to `0`, they are instead set to your own current HP, plus `10` [Temporary HP](#temporary-hit-points) and yours are reduced to `1`. Increases Momentum by `+10`. | I Take The Fall! |
+| 4     | You Die When I Say! | An ally of choice is marked. When their HP are about to be reduced to `0`, they are instead reduced to `1`. Your ally does not die, but now suffers the [Exhausted](#exhausted) [Condition](#condition)! Decreases Momentum by `-35`. | An ally of choice is marked. When their HP are about to be reduced to `0`, they are instead set to your own current HP, plus `10` [Temporary HP](#temporary-health-points) and yours are reduced to `1`. Increases Momentum by `+10`. | I Take The Fall! |
 
 #### Entertainment (Agi/Wit)
 The ability to juggle, perform tricks with cards, to perform "magic" tricks and such - anything requiring nimble fingers and flashy presentation, for the entertainment of others. 
@@ -2737,10 +2736,10 @@ This governs the understanding of what makes defensive structures effective and 
 | 0     | Blitz Stratagem        | 1  | 1      | If you have placed a Key Zone, turn it into a Zone of Mobility, replacing all its effects. You and all allies beginning their movement from within this zone may move an additional `6` Squares per [AP](#action-points-ap) spent. |
 | 0     | Breakthrough Stratagem | 1  | 2      | If you have placed a Key Zone, turn it into a Breakthrough Zone, replacing all its effects. All enemies inside the zone, who are attacked, may also be [Force Moved](#forced-movement) back, by a number of Squares equal to your achieved Hits. |
 | 0     | Designate Key Zone     | 1  | /      | **Concentration**: Designate a zone up to `2` Squares in radius. If such a zone already exists, it is replaced with this one. The zone lasts for as long as you desire. You instruct your allies, to get the most out of this area. Once you designate a type for it, they *will* know what to do. Effects from allies' zones do not stack with this one, if their zone is of the same type. |
-| 1     | Killzone Stratagem     | 1  | 2      | If you have placed a Key Zone, turn it into a Killzone, replacing all its effects. All enemies inside the zone, who are damaged immediately die if their [HP](#hit-points-hp) are brought to `2 * your Toughness + Hits` or less. | / |
+| 1     | Killzone Stratagem     | 1  | 2      | If you have placed a Key Zone, turn it into a Killzone, replacing all its effects. All enemies inside the zone, who are damaged immediately die if their [HP](#health-points-hp) are brought to `2 * your Toughness + Hits` or less. | / |
 | 1     | Trenchline Stratagem   | 1  | 2      | If you have placed a Key Zone, turn it into a Trenchline Zone, replacing all its effects. All [AoE](#area-of-effect-aoe) damage that applies to you and/or your allies is reduced by `Hits * 3`. Also, your and your allies' [Stability](#stability-stabil) is increased by `+2` while in the zone. | / |
 | 2     | Fear Stratagem         | 1  | 1      | If you have placed a Key Zone, turn it into a Zone of Fear, replacing all its effects. All enemies inside this zone, who suffer damage must succeed a [Self-Control](#self-control-toughtough) Test at Ob equal to your number of Hits, or else become [Terrified](#terrified) of you or your allies inside the zone. | / |
-| 2     | Recovery Stratagem     | 1  | 2      | If you have placed a Key Zone, turn it into a Recovery Zone, replacing all its effects. You and all allies inside this zone reduce their [Exhaustion](#exhaustion) by `-1` and regain your Hits as [HP](#hit-points-hp), at the start of the Turn. | / |
+| 2     | Recovery Stratagem     | 1  | 2      | If you have placed a Key Zone, turn it into a Recovery Zone, replacing all its effects. You and all allies inside this zone reduce their [Exhaustion](#exhaustion) by `-1` and regain your Hits as [HP](#health-points-hp), at the start of the Turn. | / |
 
 | Level | <img src="../../img/heroic-acts.svg" width="64px" height="64px"></img> | Heroic Act Description | Desperate Measure Description | <img src="../../img/desperate-measures.svg" width="64px" height="64px"></img> |
 | ----- | ----------------------- | ---------------------- | ----------------------------- | --------------------------- |
@@ -2764,7 +2763,7 @@ The ability to cook hearty and sweet meals that can strengthen and invigorate.
   * A meal that you have to eat while it's still fresh. The meal does **not** go in your inventory. This is **not** the same as a ration! 
   * Restores `Q HP` and reduces Exhaustion by `Q`.
   * For every `Q` past `1`, the meal may confer certain boons, for `Q * 2` hours. Each of the following boons can be picked only once:
-    * Grant `QD4` [Temporary HP](#temporary-hit-points). 
+    * Grant `QD4` [Temporary HP](#temporary-health-points). 
     * Increase [Base Initiative](#base-initiative-bi) by `Q`. 
     * Increase [Strength](#strength-str) or [Toughness](#toughness-tough) by `Q / 2 (RU)`. 
     * Resist `Q` [Freezing](#damage-types) or [Burning](#damage-types) or [Bleeding](#damage-types) damage. 
@@ -2773,7 +2772,7 @@ The boons from meals do not stack. Eating a second meal will have it override al
 
 | Level | <img src="../../img/heroic-acts.svg" width="64px" height="64px"></img> | Heroic Act Description | Desperate Measure Description | <img src="../../img/desperate-measures.svg" width="64px" height="64px"></img> |
 | ----- | ----------------------- | ---------------------- | ----------------------------- | --------------------------- |
-| 4     | Spiked Your Food        | All *other* PCs reduce their [Exhaustion](#exhaustion) by `-2`. Decreases Momentum by `-10`. | All *other* PCs reduce their [Exhaustion](#exhaustion) by `-5` and they gain `+5` [Temporary HP](#temporary-hit-points), but also suffer `+1` [Poisoned](#poisoned). Increases Momentum by `+15`. | Spiked Your Food A LOT |
+| 4     | Spiked Your Food        | All *other* PCs reduce their [Exhaustion](#exhaustion) by `-2`. Decreases Momentum by `-10`. | All *other* PCs reduce their [Exhaustion](#exhaustion) by `-5` and they gain `+5` [Temporary HP](#temporary-health-points), but also suffer `+1` [Poisoned](#poisoned). Increases Momentum by `+15`. | Spiked Your Food A LOT |
 
 ## List of Character Traits
 The following is a list of all [Character Traits](#character-traits) of the core rules. 
@@ -2843,9 +2842,9 @@ The following is a list of all [Titles of Renown](#titles-of-renown) of the core
 ### Heart of Stone
 > They should have died in that moment! I saw them get hit! But they merely grunted with discomfort!
 
-**Prerequisites**: Survive an attack only because you have [Temporary HP](#temporary-hit-points). 
+**Prerequisites**: Survive an attack only because you have [Temporary HP](#temporary-health-points). 
 
-Every time you earn [Temporary HP](#temporary-hit-points), you earn `+5` more!
+Every time you earn [Temporary HP](#temporary-health-points), you earn `+5` more!
 
 ### Hero of Many Victories
 > With you on our side, the battle's as good as won!
@@ -2965,7 +2964,7 @@ A **Crippled** Character suffers `+1` Ob to **all** Tests, for each [Injury](#in
 
 A PC at **Death's Door** must succeed at least one [Toughness](#toughness-tough) Test out of a possible of three. If they never succeed, they perish, irrevocably. The Ob is determined as half of the Character's [Toughness](#toughness-tough), rounded up. Such a Test must be made once at the end of every Round or minute. 
 
-A Character can be helped out of the **Death's Door** Condition, if their [HP](#hit-points-hp) are brought back up to at least `1`. 
+A Character can be helped out of the **Death's Door** Condition, if their [HP](#health-points-hp) are brought back up to at least `1`. 
 
 ### Dissolving
 <img src="../../img/health-condition-dissolving.svg" style="width: 3rem; height: 3rem;"></img>
@@ -3481,7 +3480,7 @@ The Defense characteristic should be reserved for Feeble and Regular creatures o
 The overall power-level of a NPC is **broadly abstracted** as **Challenge Rating (CR)**. It is a tool designed to let you make an *educated guess* about the difficulty a given NPC might pose to the PCs. 
 
 ## NPC Squads
-Squads are groups of NPCs who are all of the same type, who will act as a single unit. They share the same [AP](#action-points-ap), [Exhaustion](#exhaustion) and [HP](#hit-points-hp) pools and always act together, as a cohesive group. 
+Squads are groups of NPCs who are all of the same type, who will act as a single unit. They share the same [AP](#action-points-ap), [Exhaustion](#exhaustion) and [HP](#health-points-hp) pools and always act together, as a cohesive group. 
 
 Squads are useful in two ways. Firstly, they allow PCs to feel more heroic, by quickly felling many foes before them. Secondly, it allows you to more easily challenge your players tactically, as the higher number of foes lets you control the battlefield easier, but without too much bureaucratic overhead. For example, a Squad with a lot of members should find it easy to surround the PCs, or to block off their access to some strategic location. 
 
@@ -3589,7 +3588,7 @@ During combat encounters, it is the **players' duty to run their Retainer NPCs**
 
 Additionally, Retainers adhere to these rules in combat:
 * They always share the same [Initiative Order](#initiative) as their Mentor and thus act on the same Turn! However, even if their Mentor is incapacitated, but their Retainer is not, then the Retainer may still act!
-* Upon reaching `0` [HP](#hit-points-hp) they **die**! They do not get to [Death's Door](#deaths-door) as PCs do.
+* Upon reaching `0` [HP](#health-points-hp) they **die**! They do not get to [Death's Door](#deaths-door) as PCs do.
 * They count as an ally when incrementing [Hostility](#hostility).
 
 ### Retainers Are Sidekicks
