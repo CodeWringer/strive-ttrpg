@@ -140,6 +140,7 @@ There is a [compendium document](./strive-fantasy-game-masters-resource.md) rese
   - [List of Illnesses](#list-of-illnesses)
   - [List of Character Traits](#list-of-character-traits)
     - [Anti-Mage](#anti-mage)
+    - [Breath Weapon](#breath-weapon)
     - [Hot-Head](#hot-head)
     - [Tempered](#tempered)
   - [Archetype Characters](#archetype-characters)
@@ -1348,6 +1349,9 @@ The following is a list of all [Character Traits](#character-traits) of this Mod
 
 ### Anti-Mage
 You are entirely incapable of Magic, to the point that the Arcanosphere slows around you. Your [Arcana](#arcana-arc) Attribute can never be above Level `0`. All Magic used against you loses `-1` [SI](#spell-intensity-si) **or** deals `-5` points of damage less - *you choose*.
+
+### Breath Weapon
+Obvious jokes aside, your breath can deal some tangible damage. `1D8 + 2` of either Acid, Burning, Freezing or Poison damage (choose one when receiving the Trait). This costs `-1` AP and causes `+1` [Exhaustion](#exhaustion) and launches a ranged attack in an AoE cone with a distance of `3` Squares. Can only be used once per Turn. 
 
 ### Hot-Head
 When in the [Consuming Arcane Overheat](#arcane-overheat--slag) threshold, suffer `-5` points of damage (minimum `0`) from it.
