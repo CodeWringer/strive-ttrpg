@@ -278,12 +278,12 @@ When a mage casts magic, **one third** (RD and minimum `1`) of the [Spell Intens
 
 The [Arcana](#arcana-arc) Attribute determines several thresholds. If the Character has an [Arcana](#arcana-arc) Level of less than `1`, calculate the thresholds as if it was Level `1`. 
 
-* **Cold**: Up to and including the `modified Arcana` is **mostly safe**. 
+* **Cold**: Up to and including the `Arcana Level` is **mostly safe**. 
   * Every time the mage casts a spell, if they don't achieve at least `1` Hit, a [Spell-Backfire](#spell-backfire) occurs. In other words, only a failure of the [Test](#testing-magic) results in a [Spell-Backfire](#spell-backfire). 
-* **Smoldering**: Up to and including the `modified Arcana * 2` is **risky**. 
+* **Smoldering**: Up to and including the `Arcana Level * 2` is **risky**. 
   * Every time the mage casts a spell, their Ob is always increased by `+1`. Less than `2` Hits causes a [Spell-Backfire](#spell-backfire). 
   * All spells are super-charged, with an automatic and free `+1` SI. 
-* **Broiling**: Up to and including the `modified Arcana * 3` is **perilous**. 
+* **Broiling**: Up to and including the `Arcana Level * 3` is **perilous**. 
   * The Ob for **all** Tests is always increased by `+1`. Less than `3` Hits causes a [Spell-Backfire](#spell-backfire). 
   * All spells are super-charged, with an automatic and free `+2` SI. 
 * **Consuming**: Anything past the point of **Broiling** is **mortally perilous**. 
@@ -1163,7 +1163,7 @@ The alteration of physical things, to change their shape and purpose. And the ab
 | 2     | Alter Flesh          | 3  | `1`            | `SI`            | **Time(`+1`)**: A ST creature is altered as you desire, **permanently**. The Ob depends on the complexity and size of the re-shaping. Ob `2` for simple and small, `3` for tricky and medium, `4` for complex and large and `5+` for very complex and very large alterations. Consult your GM! | Instead of the intended alteration, a random mutation occurs! |
 | 2     | Earth Spike Trail    | 3  | `SI * 3`       | `SI`            | Cause spikes of earth to shoot out of a surface that you can lay your hands on. Everyone caught in a straight AoE line of up to `SI * 3` Squares in length, originating from you, suffers `SI * 3` points of Piercing damage. The area of the spikes is then considered Difficult Terrain. The spikes crumble after `1` Round. | You lose control and the spell unleashes in a random direction. |
 | 2     | Aspect of the Bull   | 2  |                | `SI`            | **Concentration**: Grow bull horns and bestial legs! You may now run at a speed of `4 + SI` Squares per AP spent. You may now charge at targets and gore them for `SI * 3` points of Piercing damage, but you must run at least `2` Squares in order to make use of this ability. | You suffer a random mutation, instead! |
-| 4     | Wereshape            | 3  |                | `3`             | **Concentration, Time(`+1`)**: Assume a were-beast shape. See the list below. Your Attributes will be Modified as noted on each were-beast shape. | Instead of transforming, your body goes into shock! You are [Stunned](./strive-core.md#stunned)! |
+| 4     | Wereshape            | 3  |                | `3`             | **Concentration, Time(`+1`)**: Assume a were-beast shape. See the list below. Your Attributes will be modified as noted on each were-beast shape. | Instead of transforming, your body goes into shock! You are [Stunned](./strive-core.md#stunned)! |
 
 #### Werewolf-Shape
 A bipedal wolf armed with wicked claws and deadly teeth!
