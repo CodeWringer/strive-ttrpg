@@ -294,6 +294,7 @@ You may choose to play without the Momentum system for a less heroic style of ga
     - [Shrugs-A-Lot](#shrugs-a-lot)
     - [Substitutional Talent](#substitutional-talent)
     - [Steadfast](#steadfast)
+    - [Slippery](#slippery)
     - [Tough Skin](#tough-skin)
     - [Warcrobat](#warcrobat)
   - [List of Titles of Renown](#list-of-titles-of-renown)
@@ -2823,7 +2824,10 @@ For a Test to Shrug Off a [Condition](#condition), you may add `+1` [Compensatio
 For one of your Skills, change one of its Base Attributes to any other Attribute of your choice.
 
 ### Steadfast
-Increases [Stability](#stability-stabil) by `+1`. 
+Increases [Stability](#stability-stabil) by `+2`. 
+
+### Slippery
+[Grappling](#grappled) you is `+1` Ob harder and you receive `+1` Compensation Point for Tests to break free from being Grappled.
 
 ### Tough Skin
 Raise your base HP by `+5`. 
