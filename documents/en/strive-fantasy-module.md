@@ -537,7 +537,7 @@ As The Veil degrades, the very air begins to hum and buzz. There are voices on t
 The appendix contains important and less important lists, for reference only when needed. 
 
 ## Character Creation
-Character creation is now supplemented by step `9` - determine your Character's [Arcane Overheat thresholds](#arcane-overheat--slag). 
+Character creation is now supplemented by a step to determine your Character's [Arcane Overheat thresholds](#arcane-overheat--slag). 
 
 ### Determine Abilities
 Supplements to abilities in Character creation. 
