@@ -2934,7 +2934,7 @@ A Character who is in **Berserk** Condition, **must** attack the creature neares
 ### Burning
 <img src="../../img/health-condition-burning.svg" style="width: 3rem; height: 3rem;"></img>
 
-For every point in the **Burning** Condition, a Character suffers `1D4` points of [Burning](#damage-types) damage every [Tick](#ticks). 
+For every point in the **Burning** Condition, a Character suffers `3` points of [Burning](#damage-types) damage every [Tick](#ticks). 
 
 * Graded
 * Greedy: automatically increases by `+1` point **after** every [Tick](#ticks). 
@@ -2946,7 +2946,7 @@ Adjacent allies can also help pat out the flames, by spending an [AP](#action-po
 ### Bleeding
 <img src="../../img/health-condition-bleeding.svg" style="width: 3rem; height: 3rem;"></img>
 
-For every point in the **Bleeding** Condition, a Character suffers `1D4` points of [Bleeding](#damage-types) damage every [Tick](#ticks). 
+For every point in the **Bleeding** Condition, a Character suffers `3` points of [Bleeding](#damage-types) damage every [Tick](#ticks). 
 
 * Graded
 * Shrug Off: `-1` point with a [Toughness](#toughness-tough) [Test](#tests) with Ob `1`. 
@@ -2969,7 +2969,7 @@ A Character can be helped out of the **Death's Door** Condition, if their [HP](#
 ### Dissolving
 <img src="../../img/health-condition-dissolving.svg" style="width: 3rem; height: 3rem;"></img>
 
-For every point in the **Dissolving** Condition, a Character suffers `1D4` points of [Acid](#damage-types) damage every [Tick](#ticks). 
+For every point in the **Dissolving** Condition, a Character suffers `3` points of [Acid](#damage-types) damage every [Tick](#ticks). 
 
 * Graded
 * Automatic Shrug-Off: `-2` points at the end of the Turn. 
@@ -3049,7 +3049,7 @@ A Character who is **Pacified**, is unable to *willingly* take any action that w
 ### Poisoned
 <img src="../../img/health-condition-poisoned.svg" style="width: 3rem; height: 3rem;"></img>
 
-A **Poisoned** Character suffers `1D4` points of [Poison](#damage-types) damage every [Tick](#ticks). 
+A **Poisoned** Character suffers `3` points of [Poison](#damage-types) damage every [Tick](#ticks). 
 
 * Graded
 * Shrug Off: `-1` point with a [Toughness](#toughness-tough) [Test](#tests) with Ob `1`. 
