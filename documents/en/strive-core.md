@@ -3143,6 +3143,12 @@ A **Multiple-Single-Target** (**MST**) Action affects at least one and up to a c
 ### Area of Effect (AoE)
 **Area of Effect** (**aoe**) Actions affect *every* target that is in the area of effect. The victims can only defend through certain special Skills or Expertises.
 
+There are four types of shapes that AoE effects can have:
+* <img src="../../img/aoe-radius.svg" style="width: 2rem; height: 2rem;"></img> A radius.
+* <img src="../../img/aoe-cube.svg" style="width: 2rem; height: 2rem;"></img> A cube.
+* <img src="../../img/aoe-cone.svg" style="width: 2rem; height: 2rem;"></img> A cone.
+* <img src="../../img/aoe-line.svg" style="width: 2rem; height: 2rem;"></img> A line.
+
 # Game Mastery
 This and the following sections are reserved solely for the GM's eyes. It aims to help you prepare and run the game. 
 
@@ -3716,7 +3722,7 @@ All melee attackers against this creature suffer `6` points of a chosen type of 
 #### Death Rattle (-2 points; +2 CR)
 Upon dying, the creature can invoke one of the following effects (you must choose one now):
 * Explode: Cause damage to all adjacent creatures. Choose one: `2D6 + 2 Slashing`, `2D6 Piercing`, or `2D4` of any other damage type. 
-* Terrifying Screech: All foes in a `10` Square AoE radius around the creature must succeed a [Self-Control](#self-control-toughtough) Test at Ob `3`, or else become [Terrified](strive-core.md#terrified) for one Round. 
+* Terrifying Screech: All foes in a `10` Square AoE radius <img src="../../img/aoe-radius.svg" style="width: 2rem; height: 2rem;"></img> around the creature must succeed a [Self-Control](#self-control-toughtough) Test at Ob `3`, or else become [Terrified](strive-core.md#terrified) for one Round. 
 * Reprisal: Move up to `8` and launch a final, desperate and free attack against a foe, with Ob `-1`. 
 
 #### Fortified Mind (-4 points; +1 CR)
@@ -3833,7 +3839,7 @@ Create a sticky, adhesive surface within hand's reach. This surface now counts a
 Run at a target, up to `4` Squares away and slam into them with your body, dealing `Toughness` points of damage and knocking your opponent back by `Strength` Squares. 
 
 ### Obscure Vision (Awar/Tough)
-Kick up dust, spray a cloud of ink or spew spores that heavily obscure vision, in a `3` Square AoE radius around you. All ranged attacks within or through the area suffer `+2` Ob. 
+Kick up dust, spray a cloud of ink or spew spores that heavily obscure vision, in a `3` Square AoE radius <img src="../../img/aoe-radius.svg" style="width: 2rem; height: 2rem;"></img> around you. All ranged attacks within or through the area suffer `+2` Ob. 
 
 ## General Hostility Actions
 The following Hostility Actions are a general offering for you to pick and choose from, as you deem fit for a combat encounter. You are free to invent your own, with these as a reference and STRIVE Modules may also offer more of these. 
@@ -3859,7 +3865,7 @@ Suitable for: Any creature that could reasonably emit such a thrumming sound, su
 **`-8` Hostility**: The creature immediately becomes [Berserked](strive-core.md#berserk) and deals an additional `5` points of Bludgeoning damage on all their attacks, until the end of the Round. 
 
 ### Sinkhole (-8 points; +2 CR)
-**`-8` Hostility**: The ground gives and in a `5` Square AoE radius around the creature, drops by `5` Squares. All creatures with `Stability ≤ 2` are covered by earth, become [Prone](strive-core.md#prone) and suffer `6` points of Bludgeoning damage. All creatures with `Stability ≤ 3` become [Prone](strive-core.md#prone). 
+**`-8` Hostility**: The ground gives and in a `5` Square AoE radius <img src="../../img/aoe-radius.svg" style="width: 2rem; height: 2rem;"></img> around the creature, drops by `5` Squares. All creatures with `Stability ≤ 2` are covered by earth, become [Prone](strive-core.md#prone) and suffer `6` points of Bludgeoning damage. All creatures with `Stability ≤ 3` become [Prone](strive-core.md#prone). 
 
 ### Trap Storm (-4 points; +3 CR)
 **`-8` Hostility**: The creature throws or lays or spews forth `3` traps, up to `10` Squares far, that now litter the battlefield. Each of these will deal `6` points of damage. The damage type should be chosen according to the nature of the traps. E. g. piercing for bear traps, acid for pools of acid, burning for bombs and so on. 
