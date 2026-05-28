@@ -185,7 +185,6 @@ You may choose to play without the Momentum system for a less heroic style of ga
   - [Defending](#defending)
     - [Armor \& Shields](#armor--shields)
     - [Defending an Ally](#defending-an-ally)
-    - [Defense Stunts](#defense-stunts)
       - [Counter-Attack](#counter-attack)
     - [Cover](#cover)
     - [Speed Aids Defense](#speed-aids-defense)
@@ -2000,16 +1999,6 @@ The specifics of armors and shields can be found in hhe [Asset appendix](#assets
 It is possible for a Character to defend an adjacent ally when they're being attacked. This costs `1` [AP](#action-points-ap) and results in the Character taking over the Defense Test, instead of the originally attacked Character. 
 
 Defending an ally is a Reaction. 
-
-### Defense Stunts
-If you succeed a Defense Test and achieve at least `2` Hits over your attacker, then you may perform one of the following stunts, at the cost of `+1` [Exhaustion](#exhaustion): 
-
-* **Disarm** your opponent (if they have a detachable weapon).
-* **Displace your opponent**. They are forced to stumble backwards by `2` Squares in a direction of your choosing. This may provoke [Attacks of Opportunity](#opportunity-attacks). 
-* **Displace yourself**. You move `2` Squares in a direction of your choosing. This does **not** provoke [Attacks of Opportunity](#opportunity-attacks). 
-* **Throw your opponent to the ground**, making them [Proned](#prone). 
-* Launch an immediate [Counter-Attack](#counter-attack), at the cost of `1` [AP](#action-points-ap). 
-* If defending against a ranged attack, you **catch the projectile** (if such a feat could be "reasonably" done). You may immediately throw it back at the attacker, for a guaranteed success. 
 
 #### Counter-Attack
 A Reaction that allows a victim being attacked to immediately retaliate against their attacker. Unless otherwise specified, this costs `1` [AP](#action-points-ap).
