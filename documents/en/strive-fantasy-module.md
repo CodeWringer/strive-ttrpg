@@ -138,6 +138,11 @@ There is a [compendium document](./strive-fantasy-game-masters-resource.md) rese
     - [Telekinesis (Arc/Agi)](#telekinesis-arcagi)
     - [Telepathy (Arc/Wit)](#telepathy-arcwit)
   - [List of Illnesses](#list-of-illnesses)
+  - [List of Character Traits](#list-of-character-traits)
+    - [Anti-Mage](#anti-mage)
+    - [Breath Weapon](#breath-weapon)
+    - [Hot-Head](#hot-head)
+    - [Tempered](#tempered)
   - [Archetype Characters](#archetype-characters)
     - [The Arcaenologist](#the-arcaenologist)
     - [The Performer](#the-performer)
@@ -532,7 +537,7 @@ As The Veil degrades, the very air begins to hum and buzz. There are voices on t
 The appendix contains important and less important lists, for reference only when needed. 
 
 ## Character Creation
-Character creation is now supplemented by step `9` - determine your Character's [Arcane Overheat thresholds](#arcane-overheat--slag). 
+Character creation is now supplemented by a step to determine your Character's [Arcane Overheat thresholds](#arcane-overheat--slag). 
 
 ### Determine Abilities
 Supplements to abilities in Character creation. 
@@ -1338,6 +1343,21 @@ This list supplements the list of Injuries of the [Core rules](./strive-core.md#
 | Name              | Duration          | Effect      | Treatment |
 | ----------------- | ----------------- | ----------- | --------- |
 | Amber Curse       | `2D10` Days     | The victim finds it difficult to feel the flow of magic through their body. `-1D4` [Arcana](#arcana-arc); `-1D4` to any magic Skills and [Rune-Using](#rune-using-agiwit). | Conventional methods cannot treat this Illness. It can be treated with a potion of powdered [Abyssalite](#abyssalite). |
+
+## List of Character Traits
+The following is a list of all [Character Traits](#character-traits) of this Module.  See also the [Core Character Traits](./strive-core.md#list-of-character-traits).
+
+### Anti-Mage
+You are entirely incapable of Magic, to the point that the Arcanosphere slows around you. Your [Arcana](#arcana-arc) Attribute can never be above Level `0`. All Magic used against you loses `-1` [SI](#spell-intensity-si) **or** deals `-5` points of damage less - *you choose*.
+
+### Breath Weapon
+Obvious jokes aside, your breath can deal some tangible damage. `1D8 + 2` of either Acid, Burning, Freezing or Poison damage (choose one when receiving the Trait). This costs `-1` AP and causes `+1` [Exhaustion](#exhaustion) and launches a ranged attack in an AoE cone with a distance of `3` Squares. Can only be used once per Turn. 
+
+### Hot-Head
+When in the [Consuming Arcane Overheat](#arcane-overheat--slag) threshold, suffer `-5` points of damage (minimum `0`) from it.
+
+### Tempered
+Your [Arcane Overheat](#arcane-overheat--slag) thresholds are calculated as if your Arcana was `+1` Level higher.
 
 ## Archetype Characters
 This section contains some pre-defined archetypal Characters. These are mostly ready to play and serve as instructional references on how to build your own Characters. 

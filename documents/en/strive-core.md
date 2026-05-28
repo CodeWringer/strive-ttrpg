@@ -181,6 +181,7 @@ You may choose to play without the Momentum system for a less heroic style of ga
       - [Push Through](#push-through)
     - [Flanking](#flanking)
     - [Stealth Attacks](#stealth-attacks)
+    - [Free Strike (FS)](#free-strike-fs)
   - [Defending](#defending)
     - [Armor \& Shields](#armor--shields)
     - [Defending an Ally](#defending-an-ally)
@@ -283,9 +284,21 @@ You may choose to play without the Momentum system for a less heroic style of ga
       - [Artistry (Agi/Awar)](#artistry-agiawar)
       - [Cooking (Awar/Wit)](#cooking-awarwit)
   - [List of Character Traits](#list-of-character-traits)
-    - [Breath Weapon](#breath-weapon)
+    - [Competitive Tosser](#competitive-tosser)
+    - [Dual Wielder](#dual-wielder)
+    - [Deep Lungs](#deep-lungs)
+    - [Gritty](#gritty)
+    - [Flows Like Water](#flows-like-water)
     - [Innate Armor](#innate-armor)
+    - [Long Arms](#long-arms)
+    - [Productive](#productive)
+    - [Quick Thinker](#quick-thinker)
+    - [Shrugs-A-Lot](#shrugs-a-lot)
+    - [Substitutional Talent](#substitutional-talent)
     - [Steadfast](#steadfast)
+    - [Slippery](#slippery)
+    - [Thorough Artisan](#thorough-artisan)
+    - [Tough Skin](#tough-skin)
     - [Warcrobat](#warcrobat)
   - [List of Titles of Renown](#list-of-titles-of-renown)
     - [Heart of Stone](#heart-of-stone)
@@ -360,7 +373,6 @@ You may choose to play without the Momentum system for a less heroic style of ga
   - [Character Background Matters](#character-background-matters)
 - [Non-Player Character (NPC)](#non-player-character-npc)
   - [Defense (Def)](#defense-def)
-  - [Free Strike (FS)](#free-strike-fs)
   - [Challenge Rating (CR)](#challenge-rating-cr)
   - [NPC Squads](#npc-squads)
     - [Squad HP Pool](#squad-hp-pool)
@@ -1172,7 +1184,7 @@ An Innate Ability is an [Attribute](#attributes) or [Skill](#skills) unique to a
 Especially for animals and monsters, Innate Abilities represent natural weapons, such as talons, stingers, sharp teeth and such. They must be noted as "Innate" on a Character sheet. 
 
 ### Character Traits
-A **Character Trait** is an entirely passive characteristic, that may grant access to unique abilities, affect other abilities of the Character or grant an advantage in certain narrative situations. Traits may be inherent to a Character, based on their ancestry and background, may be awarded by Skills, purchased from the [list of Character Traits](#list-of-character-traits) or awarded through events in the story.
+A **Character Trait** is an entirely passive characteristic, that may grant access to unique abilities, affect other abilities of the Character or grant an advantage in certain narrative situations. Traits may be inherent to a Character, based on their ancestry and background, may be awarded by Skills, purchased from the [list of Character Traits](#list-of-character-traits) or awarded through events in the story. All PCs may receive **one** Trait in [Character Creation](#character-creation).
 
 Traits **cannot** be [Tested](#tests).
 
@@ -1976,6 +1988,11 @@ When attacking with [Bludgeoning](#damage-types), you may knock another Characte
 >
 > On the other hand, the same stealthy human attacking a giant from stealth with a club cannot knock that giant unconscious, assuming that giant to have a Toughness of `10`. The difference of `8` Levels is simply too great. 
 
+### Free Strike (FS)
+The **Free Strike (FS)** number defines bonus damage that Characters may inflict under certain circumstances. 
+
+This value is mostly reserved for NPCs, as this is the damage value used when multiple of the same type of NPC launch an attack at the same time, as a [Squad](#npc-squads). This way, instead of having to roll determine damage many times individually, the **main aggressor's damage** is summed with **all assisting allies' Free Strike value**. Whether allies can join in to deal more damage, depends on whether they are in their weapon's range to attack and are part of the aggressor's [Squad](#npc-squads). 
+
 ## Defending
 A Character being targeted with any other Skill may choose, as a Reaction, to defend against it. Doing so costs `1` [AP](#action-points-ap) and calls for an [Opposed Test](#opposed-test). The Attacker must achieve **more Hits** than the Defender, or else the Defender wins and the attack is negated, entirely. The Defender must *choose* how to defend, unless a specific "opposed by" Skill is noted. Valid choices are a [Weapon](#weapon--weapon-type---attribute), the [Acrobatics](#acrobatics-agistr) or the [Shield](#shield-strtough) Skill. 
 
@@ -2210,7 +2227,8 @@ The procedure of creating a Character consists of the following steps:
 3. [Determine name](#determine-name).
 4. [Determine abilities](#determine-abilities).
 5. [Determine Derived Attributes](#determine-derived-attributes)
-6. [Determine Assets](#determine-assets).
+6. Choose a [Character Trait](#character-traits) from the [list of Traits](#list-of-character-traits).
+7. [Determine Assets](#determine-assets).
 
 ### Determine Life Path
 Where and when does the story of your Character begin? Under what circumstances are they born and how were they raised? Until adulthood, did they lead a life of carelessness or did they have to fight for every scrap of food? How did they lead their life up until the point they picked up adventuring? 
@@ -2782,14 +2800,50 @@ The boons from meals do not stack. Eating a second meal will have it override al
 ## List of Character Traits
 The following is a list of all [Character Traits](#character-traits) of the core rules. 
 
-### Breath Weapon
-Obvious jokes aside, your breath can deal some tangible damage. `1D8 + 2` of either Acid, Burning, Freezing or Poison damage (choose one when receiving the Trait). This costs `1` AP and causes `+1` [Exhaustion](#exhaustion) and launches a ranged attack in an AoE cone with a distance of `3` Squares. Can only be used once per Turn. 
+### Competitive Tosser
+You can throw objects `+4` Squares far and gain `+1` [Compensation Point](#compensation-points) for all [Throwing](#throwing) Tests.
+
+### Dual Wielder
+Gain the ability to effectively use two weapons at the same time. When making successful Attacks with one weapon, add the [Free Strike](#free-strike-fs) value of the other to the damage and gain `+1D` for Defense Tests made with your weapons.
+
+### Deep Lungs
+Raise your base Exhaustion Limit by `+3`. 
+
+### Gritty
+Whenever you gain Grit Points, gain `+1` more.
+
+### Flows Like Water
+Gain the ability to re-direct a Forced-Movement onto an adjacent Character, at the cost of `-1` AP.
 
 ### Innate Armor
 Whether naturally tough-skinned or artificially enhanced, your hide proves especially resistant against a chosen [type of damage](#damage-types), with `+6` points of armor. 
 
+### Long Arms
+All your Melee Attacks can be used against targets up to two Squares away. You effectively implicitly gain the [Long Reach Weapon Trait](#long-reach) for all Attacks.
+
+### Productive
+Whenever you craft Assets, you produce twice as many.
+
+### Quick Thinker
+Improve your [Base Initiative](#base-initiative-bi) by `+3`
+
+### Shrugs-A-Lot
+For a Test to Shrug Off a [Condition](#condition), you may add `+1` [Compensation Point](#compensation-points) at the cost of `-1` AP and `+1` [Exhaustion](#exhaustion).
+
+### Substitutional Talent
+For one of your Skills, change one of its Base Attributes to any other Attribute of your choice.
+
 ### Steadfast
-Increases [Stability](#stability-stabil) by `+1`. 
+Increases [Stability](#stability-stabil) by `+2`. 
+
+### Slippery
+[Grappling](#grappled) you is `+1` Ob harder and you receive `+1` Compensation Point for Tests to break free from being Grappled.
+
+### Thorough Artisan
+Every Asset you craft starts at Quality Level `2`, instead of `1`. Ignore the first [Project Skill Test](#progressing-a-project) you fail and treat it as a success, instead.
+
+### Tough Skin
+Raise your base HP by `+5`. 
 
 ### Warcrobat
 Combining agility with deadliness, elevating mere skill at arms to an elegant art. 
@@ -3444,13 +3498,6 @@ The **Defense (Def)** characteristic is reserved solely for NPCs and is the numb
 Of course, in order for the NPC to defend, they require [AP](#action-points-ap). If they have no AP left over, treat their Defense as `1`. 
 
 The Defense characteristic should be reserved for Feeble and Regular creatures or those creatures you wish to employ en masse. 
-
-## Free Strike (FS)
-The **Free Strike (FS)** characteristic is reserved solely for NPCs and is the damage value used when multiple of the same type of NPC launch an attack at the same time, as a [Squad](#npc-squads).
-
-This way, instead of having to roll many dice to determine damage, you only roll the main aggressor's damage and then **add the sum of all assisting allies' Free Strike value**. 
-
-Whether allies can join in to deal more damage, depends on whether they are in their weapon's range to attack and are part of the aggressor's [Squad](#npc-squads). 
 
 ## Challenge Rating (CR)
 The overall power-level of a NPC is **broadly abstracted** as **Challenge Rating (CR)**. It is a tool designed to let you make an *educated guess* about the difficulty a given NPC might pose to the PCs. 
