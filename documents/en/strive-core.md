@@ -2054,7 +2054,7 @@ The Momentum mechanics can make PCs feel very heroic! They allow them to finish 
 | Gaining Momentum <img src="../../img/momentum-shift_heroism.svg" width="48px" height="48px"></img> | Losing Momentum <img src="../../img/momentum-shift_desperation.svg" width="48px" height="48px"></img> |
 | -------------------------------------- | ----------------------------------------------------------- |
 | Successfully attacking a foe: `+2`     | PC or ally being successfully attacked: `-2`                |
-| Helping another PC or ally: `+2`       | A foe helping *their* ally: `-2`                            |
+| Helping another PC or ally: `+5`       | A foe helping *their* ally: `-2`                            |
 | Causing an Injury in a foe: `+5`       | PC or ally suffering an Injury: `-5`                        |
 | Slaying a feeble foe: `+5`             | Ally struck down or PC brought to Death's Door: `-15`       |
 | Slaying a non-feeble foe: `+15`        | PC struck down `-40`                                        |
