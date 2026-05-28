@@ -1832,7 +1832,7 @@ When diplomacy fails, hostilities ensue. This is when the game enters into a sta
 
 At the Start of every Combat, [Initiative Order](#initiative) must be determined. Then, check if a [Surprise Round](#surprise-round) is in order. 
 
-During combat, when Characters act one after another. Each gets a Turn, as determined by the Initiative Order. How many actions they get to perform, depends solely on the [Action Points](#action-points-ap) they have available for that Turn. 
+During combat, when Characters act one after another. Each gets a Turn, as determined by the Initiative Order. How many actions they get to perform, depends solely on the [AP](#action-points-ap) they have available for that Turn. Unless it is a [Surprise Round](#surprise-round), all Characters start with their typical amount of AP and only regain AP during the second Round, at the earliest. 
 
 Actions during combat are:
 * [Attacking](#attacking)
