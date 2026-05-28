@@ -109,7 +109,7 @@ You may choose to play without the Momentum system for a less heroic style of ga
       - [Ambition](#ambition)
       - [Aspiration](#aspiration)
       - [Reaction](#reaction)
-    - [Personality Traits](#personality-traits)
+    - [Virtues \& Vices](#virtues--vices)
   - [Health](#health)
     - [Hit Points (HP)](#hit-points-hp)
       - [Recovering HP](#recovering-hp)
@@ -562,7 +562,7 @@ As STRIVE is meant primarily as a rule-book to help you quickly find what you ne
 | [Penalized Attribute](#core-favored-normal--penalized-attributes)| An Attribute that is much harder to Advance. |
 | [Penalty](#boons--penalties)                                | A negative effect on a Character, for example one that reduces the dice available for Tests. |
 | [Perfectly Balanced](#perfectly-balanced)                   | A weapon Trait that indicates a weapon is more effective. |
-| [Personality Trait](#personality-traits)                    | Describes a Character's way of thinking and how they should act, in general. |
+| [Virtue / Vice](#virtues--vices)                            | Describes a Character's way of thinking and how they should act, in general. |
 | [Personality](#personality)                                 | Describes a Character's desires and ways of thinking. |
 | [Player Character (PC)](#introduction)                      | The type of Character that players are in control of. |
 | [Poison-Chamber](#poison-chamber)                           | A weapon Trait that indicates a weapon deals additional Poison damage. |
@@ -589,7 +589,7 @@ As STRIVE is meant primarily as a rule-book to help you quickly find what you ne
 | [Rounded Up (RU)](#rounded-up--rounded-down)                | Indicates a step or result of a calculation is supposed to be rounded up. |
 | [Scenario-Time](#scenario-time)                             | The regular mode of play - time is fairly finely sliced and each Character's actions are handled individually. |
 | [Serrated](#serrated)                                       | A weapon Trait that indicates a weapon deals additional Bleeding damage. |
-| [Signature Personality Trait](#personality-traits)          | Describes a Character's way of thinking and how they *will* act, in general. In fact, they are *known* to be this way! |
+| [Signature Virtues / Vices](#virtues--vices)                | Describes a Character's way of thinking and how they *will* act, in general. In fact, they are *known* to be this way! |
 | [Single Target (ST)](#single-target-st)                     | Indicates an attack will only affect a single target. This can be a Character or object. |
 | [Skill Forking](#skill-forking)                             | Allows you to benefit from varied knowledge. You can Fork related Skills into a Test, if you can reasonably explain their use. |
 | [Skill](#skills)                                            | A learned ability of a Character. These are used in the vast majority of cases to resolve Tests and may offer unique abilities, called Expertises. |
@@ -719,7 +719,7 @@ The players drive the story and the action. They decide what their Character wil
 
 As a player, when deciding on what to do, make sure you state the **intent** of your action, like "I want to find incriminating evidence against a merchant". Then, the GM will need to know *how* you aim to follow up on your intent. Describe the Action you will take. The clearer, the better. "I will ask around", would allow the GM to guide you along. But there are still details left to fill in. Who and where will you ask? What will you ask them? So, a better intent would be "I will ask the other merchants at the market what they think about this one merchant". That leaves no room for doubt *how* you wish to achieve your goal, which makes the GM's job easier and the game flow better. The GM could now have each merchant tell the PC some rumours or observed past activities and behaviors of that one merchant, some of which may be of a sketchy nature, like "I swear I saw him down at the docks, speaking to some shady looking people" or "She always seems wary of people walking behind her".
 
-When deciding on what to do and how to do it, also keep in mind your Character's [Personality](#personality-traits) as that should inform you of the kinds of actions they might take. 
+When deciding on what to do and how to do it, also keep in mind your Character's [Personality](#virtues--vices) as that should inform you of the kinds of actions they might take. 
 
 ### Spending Time
 Everything the PCs do takes time. How much time, exactly, is variable and depends on the point in the narrative the PCs are in. There are two levels of time-management. 
@@ -735,7 +735,7 @@ After a session is done, the players and GM stick around to discuss which player
 
 Also after the session, players and the GM discuss whether a PC should lose a [Reaction](#reaction), because they have acted against it or haven't gotten to play it out at all. 
 
-Players may now spend earned Fate Points to buy cards (boons) from the [Hand Of Fate](#hand-of-fate) and adjust their Character's [Personality](#personality-traits) and [Aspirations](#aspiration). This may also be postponed to the start of the next session. 
+Players may now spend earned Fate Points to buy cards (boons) from the [Hand Of Fate](#hand-of-fate) and adjust their Character's [Personality](#virtues--vices) and [Aspirations](#aspiration). This may also be postponed to the start of the next session. 
 
 ## Tests
 Whenever the outcome of an action or situation is uncertain, a Test may be called for by the GM, in order to resolve it. 
@@ -947,7 +947,7 @@ And then there are the [Fate-Cards](#hand-of-fate), which can also provide signi
 In conclusion, what can be said is, dice pool systems are complex, but also flexible. While the exact numbers are too plentiful to remember and the success likelihoods concealed by the number of dice, you rarely actually need to know them. What you need to know are the Ob thresholds and that you *really should* seek out Compensation Points. 
 
 # Character
-A Character is a representation of a sentient creature in the game world. They're an amalgam of their [Abilities](#abilities), [Personality](#personality-traits), [Health](#health) and [Assets](#assets). These rules apply to all Player Characters (PCs). 
+A Character is a representation of a sentient creature in the game world. They're an amalgam of their [Abilities](#abilities), [Personality](#virtues--vices), [Health](#health) and [Assets](#assets). These rules apply to all Player Characters (PCs). 
 
 A guide on Character creation can be found [in the appendix](#character-creation). It has been placed there based on the assumption you won't have to look up Character creation as often as the other core rules. 
 
@@ -1200,7 +1200,7 @@ Titles of Renown can also be used to declare a Character an expert in a certain 
 No matter how much a PC adventures, there is a limit to how much of a reputation they can build. A PC may hold at most `5` Titles of Renown. When they are granted another, they may choose to reject it, or replace one of their existing Titles with it. After all, at the end of the day, the people won't remember every single deed of a great hero or villain. And so, old deeds - and their Title - fade into obscurity. 
 
 ## Personality
-A PC's Personality is comprised of their [Drivers](#drivers) and [Personality Traits](#personality-traits). These help players figure out how to play their Character - how they should *think*, and *react* to events and circumstances. 
+A PC's Personality is comprised of their [Drivers](#drivers) and [Virtues & Vices](#virtues--vices). These help players figure out how to play their Character - how they should *think*, and *react* to events and circumstances. 
 
 ### Drivers
 All PCs have **Drivers**, which comprise their [Ambition](#ambition), [Aspirations](#aspiration) and [Reactions](#reaction). These Drivers prevent inaction and stagnation of the Character's development, because the Ambition and the Aspirations define goals for the Character to always work towards. 
@@ -1279,12 +1279,12 @@ As such, there are two types of Reactions:
 
 Reactions are expected to change whenever a Character (decides) to act against them. A PC cannot keep a Reaction they keep contradicting. Players and the GM are expected to discuss at the end or beginning of a session, whether anyone should give up one of their Reactions. 
 
-### Personality Traits
+### Virtues & Vices
 Every PC has several values that help inform their player what their Character is like - how they act. 
 
 This personality is codified by the following matrix. Each row is a scale, with two opposing traits. Whenever A trait reaches the "Signature" column, a PC is *known* for it! In fact, they can hardly *not* act that way! In order for behaviour to deviate from a Signature Trait, a [Self-Control](#self-control-toughtough) Test at Ob `2` or half of of its Raw Level (RU) - take the higher number - must be made. Only if it is a **success**, can the player choose to deviate from the Signature Trait's dictated behavior. 
 
-Whenever PCs very strongly act in a certain way, their value in a Personality Trait may change. Take note during play, how the Characters have acted. After the session, discuss whether any of the PCs have shown a very strong drift towards either side of the scale. And if everyone agrees, a personality change is in order!
+Whenever PCs very strongly act in a certain way, their value in a Virtue or Vice may change. Take note during play, how the Characters have acted. After the session, discuss whether any of the PCs have shown a very strong drift towards either side of the scale. And if everyone agrees, a personality change is in order!
 
 | Trait       | Signature | Very | A little | Undecided | A little | Very | Signature |  Trait      |
 | ----------- | --------- | ---- | -------- | --------- | -------- | ---- | --------- | ----------- |
@@ -1300,9 +1300,9 @@ Whenever PCs very strongly act in a certain way, their value in a Personality Tr
 
 These values can even have an impact on your [Tests](#tests)! For example, a Character who is known to be merciful may find it easier to convince their enemies to surrender to them. On the other hand, if that same PC tries intimidation, they will find it harder to succeed. 
 
-Keep your Character's Personality Traits in mind and remember to ask your GM for a bonus die to roll in Tests, where your "very" strong or "Signature" traits might aid you!
+Keep your Character's Virtues & Vices in mind and remember to ask your GM for a bonus die to roll in Tests, where your "very" strong or "Signature" traits might aid you!
 
-Additionally, playing to or even against their Character's Personality Traits allows earning a player [Fate Points](#fate-points). 
+Additionally, playing to or even against their Character's Virtues & Vices allows earning a player [Fate Points](#fate-points). 
 
 ## Health
 Every Character has [Hit Points (HP)](#hit-points-hp) and may suffer [Injuries](#injury). Additionally, [Conditions](#condition) can apply a variety of [Boons And Penalties](#boons--penalties). 
@@ -1563,7 +1563,7 @@ You can spend `1` MiFP to convert into `+1` [XP](#experience-points-xp).
 
 MiFP can be earned in the following ways: 
 * **Driven**: *Working towards* an Ambition or Aspiration. 
-* **Personality**: Playing in accordance to one's Signature Personality Traits. 
+* **Personality**: Playing in accordance to one's Signature Virtue or Vice. 
 * **Specialist**: Driving the story forward, when no one else could - having the right skill to employ at the right time. 
 * **Trouble**: Playing to one's Reactions - if they get their Character, or their allies, into [Trouble](#reaction). 
 
@@ -2302,7 +2302,7 @@ The following table provides appearance traits for you to pick via the roll of a
 ### Determine Personality
 Perhaps more important than a name, is the personality that it represents. Think about what you want your Character to be like - are they very sociable? Or perhaps a taciturn brute who'd rather let their actions speak? A cruel man of science? A socialite with friends everywhere? The options are plentiful!
 
-Refer to the table in the [Personality Traits](#personality-traits) section. You can choose freely, where to place your "x", for every row. You can even leave every trait at "undecided" and find out through play what your Character is like. If you prefer, you can even let chance decide for you! For that, roll a `D6` for every row. A `1` results in a "Signature" trait on the left side of the scale, while a `6` results in a "Signature" trait on the right side of the scale. Using this method, you will **not** have *any* "undecided" traits in the end. 
+Refer to the table in the [Virtues & Vices](#virtues--vices) section. You can choose freely, where to place your "x", for every row. You can even leave every trait at "undecided" and find out through play what your Character is like. If you prefer, you can even let chance decide for you! For that, roll a `D6` for every row. A `1` results in a "Signature" trait on the left side of the scale, while a `6` results in a "Signature" trait on the right side of the scale. Using this method, you will **not** have *any* "undecided" traits in the end. 
 
 #### Determine Ambition, Aspirations & Reactions
 This is where things may get a little difficult. Work together with your GM, as they know their world and what kinds of agendas the people in it might have. 
@@ -2346,7 +2346,7 @@ For Reactions, you're fairly free to pick and choose, so long as you keep in min
 > An improved version would be "whenever an ally near me is in trouble, I come to their aid". 
 
 ### Determine Abilities
-Next up, you can reinforce your Character's [Personality](#personality-traits) with the abilities they have. Or even prepare a conflict of what your Character *can* do and what they *think* they can do. 
+Next up, you can reinforce your Character's [Personality](#virtues--vices) with the abilities they have. Or even prepare a conflict of what your Character *can* do and what they *think* they can do. 
 
 Note this section implies Raw Level of [Attributes](#attributes) and [Skills](#skills). 
 
@@ -3232,7 +3232,7 @@ It is important you only correct them on *crucial* plot points, which they reall
 In fact, you may even correct some of the details of how events *actually* played out, based on what your players re-tell. This is best done silently. No need to encourage *meta-gaming*, which has your players intentionally recapping the last session incorrectly, in a way to make you change details in their Characters' favor. 
 
 ### Personality & Driver Adjustments
-After a recap of the last session, players should have a basis from which to work new [Drivers](#drivers) into their Character and to shift [Personality](#personality-traits). Allow them a few minutes to think and discuss. 
+After a recap of the last session, players should have a basis from which to work new [Drivers](#drivers) into their Character and to shift [Personality](#virtues--vices). Allow them a few minutes to think and discuss. 
 
 Once everyone has their Characters figured out, have everyone, one by one, read Drivers and personality changes out aloud. There are two reasons to do this:
 1. The other players can know, if an Aspiration targets their Character. So if a PC (player) starts acting odd towards another player (their PC), that player knows it's part of the role-play and not directed towards them as a person. <br>
@@ -3479,7 +3479,7 @@ NPCs are one of your most important tools to bring your world to life and make i
 
 NPCs are built differently from PCs. Not all the same rules apply to them. The following differences exist:
 * NPCs **cannot** earn [Fate Points](#fate-points). 
-* NPCs don't *need* [Personality Traits](#personality-traits). A GM *may choose* to include it for the *main actor* NPCs, but for your average animal or passing acquaintance, no personality should be noted down. 
+* NPCs don't *need* [Virtues & Vices](#virtues--vices). A GM *may choose* to include these for the *main actor* NPCs, but for your average animal or passing acquaintance, no personality should be noted down. 
 * NPCs don't *need* Advancement Progress to be tracked. Thus, they cannot have [Learning Skills](#learning-skills). 
 * NPCs don't have a base HP of `10`, thus, their max. HP values will always be `10` points lower than of PCs with the same Toughness Level. 
 * NPCs have additional characteristics: [Defense](#defense-def) and [Free Strike](#free-strike-fs).
