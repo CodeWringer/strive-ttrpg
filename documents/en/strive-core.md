@@ -605,7 +605,7 @@ As STRIVE is meant primarily as a rule-book to help you quickly find what you ne
 | [Surrounded](#flanking)                                     | The second degree of Flanking. A Surrounded Character's armor is only one third (RU) as effective and their Defense Tests are much more difficult. |
 | [Swap-Out Action](#swap-out)                                | A Combat Action that lets two adjacent Characters switch places without provoking Opportunity Attacks. |
 | [Teaching](#teaching)                                       | During Down-Time, Characters may teach others, to help them with Advancement Progress. |
-| [Temporary Health Point(s)](#temporary-health-points)          | A separate Health Point resource that is reduced before regular Health Points and whose loss does not cause Injuries. |
+| [Temporary Health Point(s)](#temporary-health-points)       | A separate Health Point resource that is reduced before regular Health Points and whose loss does not cause Injuries. |
 | [Terrified](#terrified)                                     | A Condition that forces a Character to flee from whatever the source of their terror is. |
 | [Tick](#ticks)                                              | The immediate moment of time when a Character's Turn begins. This is when Conditions apply their effects. |
 | [Time Increment (TI)](#progressing-a-project)               | Determines how often progress may be added to a Project. |
