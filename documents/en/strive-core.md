@@ -1559,6 +1559,8 @@ FP are downwards-convertible, meaning if you need to, you can turn a single more
 ## Minor Fate Points
 **Minor Fate Points (MiFP)** are the least significant and most common type of FP, earned immediately through the mechanics of the game. 
 
+You can spend `1` MiFP to convert into `+1` [XP](#experience-points-xp). 
+
 MiFP can be earned in the following ways: 
 * **Driven**: *Working towards* an Ambition or Aspiration. 
 * **Personality**: Playing in accordance to one's Signature Personality Traits. 
@@ -1568,7 +1570,7 @@ MiFP can be earned in the following ways:
 ## Major Fate Points
 **Major Fate Points (MaFP)** take more effort from the *player* to earn, as they're earned through convincing roleplaying, creative efforts and accomplishing long-term goals. 
 
-A single MaFP can be converted into `5` MiFP. 
+A single MaFP can be converted into `5` MiFP or `+5` [XP](#experience-points-xp). 
 
 MaFP can be earned in the following ways: 
 * **Achieved Aspiration**: Accomplishing an Aspiration, achieving its goal. 
@@ -1601,7 +1603,6 @@ There are no limits to how many of a given card a player can own, but they may o
 | 2 MiFP  | Single Re-Roll      | Repeat a single Test you just made. |
 | 6 MiFP  | Clotter             | One Active [Injury](#injury) of choice is now Treated. |
 | 8 MiFP  | Cascading Re-Roll   | Repeat a single Test you just made. With this card, you keep any Hits you achieved from the previously made Test and add them to the Hits rolled when you repeat the Test. This also doubles your Hit Limit. Exclusive with "Double the Fun". |
-| 8 MiFP  | Learning Boost      | For the duration of the session, you gain **twice** the [Progress](#advancing-skills) towards your [Skills](#skills) and twice the [XP](#experience-points-xp) every Test. |
 | 8 MiFP  | Hastened            | `+1` AP during your Turns for the entirety of a [Combat](#combat) encounter. |
 | 3 MaFP  | Double the Fun      | Double the number of dice to roll on your next/current Test and every rolled Hit counts double - which means every rolled Hit actually counts as `2` Hits! This also doubles your Hit Limit. Exclusive with "Cascading Re-Roll". |
 | 5 MaFP  | Fact Check          | Change a minor plot point in a way you prefer. Work with your GM to make sure it fits the narrative, but they should respect your wish. This could be something like avoiding an NPC death or changing a fact about the plot. |
@@ -3442,7 +3443,7 @@ You could ask them the following:
 ## Introducing New Player Characters
 There may be times when a new player joins your game or a long-term player wants to switch to a new Character. When this happens, you will have to help the player design their Character and then introduce them narratively. 
 
-A concern regarding new PCs is that a new Character may lack much of the experience and mechanical development of their older peers. In other words, their Attribute and Skill Levels will likely seem low by comparison. You may compensate for this, by granting the player more points to assign on Attributes and Skill Levels. To find the right number, you could pick the average or median sum of the total Levels of the older PCs. If you dislike this option, you may simply hand out XP as you see fit, or instead of higher numbers for Character creation, you could give that Character free learning boosts, which could get them up to the same power-level faster. 
+A concern regarding new PCs is that a new Character may lack much of the experience and mechanical development of their older peers. In other words, their Attribute and Skill Levels will likely seem low by comparison. You may compensate for this, by granting the player more points to assign on Attributes and Skill Levels. To find the right number, you could pick the average or median sum of the total Levels of the older PCs. If you dislike this option, you may simply hand out XP as you see fit, or instead of higher numbers for Character creation, you could give that Character free Advancement, which could get them up to the same power-level faster. 
 
 Once appropriate numbers have been assigned, the new Character needs to be introduced to the group. This is all your job. There is no mechanical or rule supporting this procedure, as it is also a matter of personal taste. Some GMs dislike long introductions and instead simply throw the new PC in the group, ready to go on adventures with them right away. On the other hand, such an unceremonious act may seem boring and could be replaced with an inciting incident that gets that new PC to join them, with introductions played out in person. 
 
