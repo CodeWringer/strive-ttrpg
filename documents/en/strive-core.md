@@ -2024,7 +2024,7 @@ What speed exactly that is, depends heavily on circumstance. As always, the GM's
 ## Momentum
 **Momentum** is a resource that benefits PCs. It ranges from `-20` to `+20` and usually starts at `0`. As the PCs make progress in a fight, they gain Momentum and as they suffer setbacks, they lose it. It is a resource that represents the PCs superiority - or the inverse - and is expected to be constantly in flux, like in a tug-of-war. 
 
-When Momentum reaches `+18`, **Heroic Acts** become available. Inversely, when Momentum reaches `-18`, **Desperate Measures** become available. Any available Heroic Act and Desperate Measure may be enacted the moment they become available. 
+When Momentum reaches `+20`, **Heroic Acts** become available. Inversely, when Momentum reaches `-15`, **Desperate Measures** become available. Any available Heroic Act and Desperate Measure may be enacted the moment they become available. 
 
 The pairing of a Heroic Act and its counter-part, a Desperate Measure, is called a [Momentum Action](#momentum-actions). 
 
