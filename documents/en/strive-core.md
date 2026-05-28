@@ -548,6 +548,7 @@ As STRIVE is meant primarily as a rule-book to help you quickly find what you ne
 | [Melee](#melee)                                             | A weapon Trait for all weapons that allow Attacking adjacent targets. |
 | [Minor Fate-Point (MiFP)](#minor-fate-points)               | An easily earned Fate-Point, supported by mostly mechanics. |
 | [Miss](#tests)                                              | Negative result of an individual die-roll in a Test. |
+| [Modified Level](#raw-vs-modified-level)                    | The Level value after Boons and Penalties have been applied to it. |
 | [Momentum](#momentum)                                       | A special resource that the PCs earn and lose as a group, during Combat. It enables use of Heroic Acts and Desperate Measures. |
 | [Multiple Single Target (MST)](#multiple-single-target-mst) | Indicates that an attack affects multiple targets, each of which is handled individually, for example for rolling Defense Tests. |
 | [Non-Player Character (NPC)](#non-player-character-npc)     | Represents all the people, animals and monsters of a world, that are controlled by the GM. |
@@ -562,7 +563,6 @@ As STRIVE is meant primarily as a rule-book to help you quickly find what you ne
 | [Penalized Attribute](#core-favored-normal--penalized-attributes)| An Attribute that is much harder to Advance. |
 | [Penalty](#boons--penalties)                                | A negative effect on a Character, for example one that reduces the dice available for Tests. |
 | [Perfectly Balanced](#perfectly-balanced)                   | A weapon Trait that indicates a weapon is more effective. |
-| [Virtue / Vice](#virtues--vices)                            | Describes a Character's way of thinking and how they should act, in general. |
 | [Personality](#personality)                                 | Describes a Character's desires and ways of thinking. |
 | [Player Character (PC)](#introduction)                      | The type of Character that players are in control of. |
 | [Poison-Chamber](#poison-chamber)                           | A weapon Trait that indicates a weapon deals additional Poison damage. |
@@ -582,6 +582,7 @@ As STRIVE is meant primarily as a rule-book to help you quickly find what you ne
 | [Range of Opportunity](#opportunity-attacks)                | The zone around a Character that lets them launch Opportunity Attacks as a Reaction to foes moving around or away from them. |
 | [Range Only](#range-only)                                   | A weapon Trait that indicates a weapon cannot be used against adjacent targets. |
 | [Ranged](#ranged)                                           | A weapon Trait for all ranged weapons. |
+| [Raw Level](#raw-vs-modified-level)                         | The Level value before Boons and Penalties have been applied to it. |
 | Reaction                                                    | Something a Character does in reaction to another. Or, refers to one of a Character's triggered behaviors, that are part of their [Drivers](#reaction). |
 | [Rooted](#rooted)                                           | A Condition that disallows a Character from moving of their own volition. |
 | [Round](#initiative)                                        | A Round comprises all Turns of Characters currently in Initiative Order. When all Characters have had their Turn, a Round is concluded and the next Round begun. |
@@ -619,6 +620,7 @@ As STRIVE is meant primarily as a rule-book to help you quickly find what you ne
 | [Unthreatened](#flanking)                                   | The default for all Unflanked Characters in Combat. Their defenses work to the fullest intent. |
 | [Very Long Reach](#very-long-reach)                         | A weapon Trait for melee weapons that allow Attacking targets up to three Squares away. |
 | [Very Slow Reload](#very-slow-reload)                       | A weapon Trait that for a weapon that must be reloaded after every use, at the cost of more AP. |
+| [Virtue / Vice](#virtues--vices)                            | Describes a Character's way of thinking and how they should act, in general. |
 | [Wit (Wit)](#wit-wit)                                       | An Attribute that describes a Character's sharpness of mind and tongue. Finds use in determining Base Initiative. |
 
 # Credits & Honorable Mentions
@@ -752,33 +754,27 @@ The Ob isn't always determined directly by the GM. Whenever an [Opposed Test](#o
 Often times, numbers are to be rounded up or down. To keep formulae short, these terms are often abbreviated as **RU** (= rounded up) and **RD** (= rounded down). 
 
 ### Testing an Attribute
-To resolve an Attribute Test, roll `ND6`, where *N* is the Attribute's [Modified Level](#raw-vs-modified-level). 
+To resolve an Attribute Test, roll `ND6`, where *N* is the Attribute's Level. 
 
 It is **not** possible to [Fork](#skill-forking) into Attribute Tests, *at all*. 
 
 ### Testing a Skill
-All Skills have two Attributes they're based on / rely on, noted in parentheses next to the Skill's name. They are called the Skill's **Base Attributes**. To resolve a Skill Test, roll `ND6`, where *N* is the sum of both Base Attributes' [Modified Level](#raw-vs-modified-level).
+All Skills have two Attributes they're based on / rely on, noted in parentheses next to the Skill's name. They are called the Skill's **Base Attributes**. To resolve a Skill Test, roll `ND6`, where *N* is the sum of both Base Attributes' Level.
 
-The Modified Level of the Skill itself, plus `1`, governs the maximum number of Hits that may count towards the result. Only that many of the achieved Hits may, at most, factor into the Test's outcome. This is called the **Hit Limit**. If [Compensation Points](#compensation-points) are used in the Test, each of them always and automatically raises the Hit Limit by `+1`!
+The Level of the Skill itself, plus `1`, governs the maximum number of Hits that may count towards the result. Only that many of the achieved Hits may, at most, factor into the Test's outcome. This is called the **Hit Limit**. If [Compensation Points](#compensation-points) are used in the Test, each of them always and automatically raises the Hit Limit by `+1`!
 
 It is possible to Fork into Skill Tests, granting more dice and raising the Hit Limit by `+1`, for **each** Forked Skill! **Do not forget to Fork your Skills into your Tests!**
 
-> A Character is asked to Test a Skill, which is Level `2`. Its two Base Attributes have the Modified Levels of `3` and `4`. Their sum of `7`, is the number of `D6` available for the Test. 
+> A Character is asked to Test a Skill, which is Level `2`. Its two Base Attributes have the Levels of `3` and `4`. Their sum of `7`, is the number of `D6` available for the Test. 
 > 
 > They roll `6`, `6`, `5`, `5`, `3`, `2` and `1`, of which `4` are Hits! But because their Skill is only Level `2`, they may only take `2 (from the Skill's Level) + 1 (always) = 3` of those Hits for the Test's result. 
 >
 > *However*, they are afforded `1` Compensation Point for the Test. While the Compensation Point would not be enough to turn one of the Misses into a Hit, it raises the Hit Limit by `+1`. Thus allowing all `4` rolled Hits to factor into the result, after all! 
 
 ### Raw vs. Modified Level
-Attributes and Skills have two Level numbers. One is the **Raw Level**, while the other is the **Modified Level**. 
+[Boons And Penalties](#boons--penalties) may apply to Attribute and Skill Levels. For all purposes except [Advancement](#advancement), always use the Level after Boons and Penalties have been applied. 
 
-The Modified Level results from adding and subtracting [Boons And Penalties](#boons--penalties) - the sum of which is referred to as Modifier - to/from the Raw Level. It is **always** the Modified Level that is used in Tests!
-
-> A PC has an Agility with Level `3`. That is its Raw Level. 
->
-> From a Character Traits, they gain a boon of `+2` to the Attribute. 
-> 
-> However, they also suffered an Injury, which imposes a `-1` penalty to the Attribute. The sum of boons and penalties (`+2` from the Trait, `-1` from the Injury), results in the Modifier of `+1`. Applying that modifier yields the Modified Level of `4`. This is the number to use in Tests! 
+When considering Advancement, ignore all Boons and Penalties. The Level with Boond and Penalties is referred to as the Modified Level, whereas without those Modifiers, it is called the Raw Level. 
 
 ### Test Success Ratings
 Based on the number of Hits achieved, Tests of some Skills and Expertises may offer graded successes:
@@ -955,11 +951,7 @@ A guide on Character creation can be found [in the appendix](#character-creation
 All Characters have innate and learned abilities. These are represented by a Character's [Attributes](#attributes), [Derived Attributes](#derived-attributes) and [Skills](#skills).
 
 ### Attributes
-Attributes represent a Character's most basic abilities. These are the primary source of dice for [Tests](#tests). 
-
-Attributes *may* be [Tested](#testing-an-attribute). 
-
-Two values must be tracked for every Attribute: Its Raw Level and its current Modifier, which results from the sum of [Boons And Penalties](#boons--penalties) affecting it. The result of adding or subtracting the modifier to/from the Raw Level yields the [Modified Level](#raw-vs-modified-level), which is used in [Tests](#tests). The higher the Level, whether Raw or Modified, the better. 
+Attributes represent a Character's most basic abilities. These are the primary source of dice for [Tests](#tests). Attributes *may* be [Tested](#testing-an-attribute). 
 
 #### Agility (Agi)
 <img src="../../img/agility.svg" style="width: 3rem; height: 3rem;"></img> Nimbleness, swiftness and hand-eye coordination. 
@@ -1043,8 +1035,6 @@ A Skill is any acquired knowledge and experience regarding a specific subject. Y
 
 Every Skill has two [Attributes](#attributes) it relies on - its so-called **Base Attributes**. The sum of their Levels results in the dice pool for Tests of the Skill. Base Attributes are always noted in parentheses after a Skill's name.
 
-Two values must be tracked for every Skill: Its Raw Level and its current Modifier, which results from the sum of [Boons And Penalties](#boons--penalties) affecting it. The result of adding or subtracting the modifier to/from the Raw Level yields the [Modified Level](#raw-vs-modified-level), which is used in Tests. The higher the Level, whether Raw or Modified, the better. 
-
 Skills [Advance](#advancing-skills), as they're Tested. It is also possible to [Teach](#teaching) and [Practice](#practice) Skills. 
 
 Characters may also be granted "innate" Skills, which cannot be learned the normal way, but rather are inherited from a Character's ancestry (such as species) or are granted by superior powers (such as gods or ancient alien machines). 
@@ -1073,7 +1063,7 @@ Always keep in mind that *players* lobby for Forking, not the GM! When the GM as
 > Anothery thievery example. Let's assume a PC is trying to quickly unlock a door using their Thievery, because they're being chased by guards and desperately need to get away. They could argue to Fork their Stealth Skill into the Test, but ultimately, what use is stealth when you've already been detected? Unless you can make yourself *unseen* somehow, the GM should rule that stealth cannot apply in that situation. 
 
 #### Learning Skills
-Whenever asked to Test a Skill a PC does not yet *know*, it will be added or progressed and noted as a **Learning Skill**. A Learning Skill can only be Tested with its Base Attributes. A Skill is considered *known* when its Raw Level is at least `1`. Essentially this means: a Level `0` Skill is a Learning Skill, all others are **Known Skills**. 
+Whenever asked to Test a Skill a PC does not yet *know*, it will be added or progressed and noted as a **Learning Skill**. A Learning Skill can only be Tested with its Base Attributes. A Skill is considered *known* when its Level is at least `1`. Essentially this means: a Level `0` Skill is a Learning Skill, all others are **Known Skills**. 
 
 > A player is asked to Test their Character's [Cooking](#cooking-awarwit) at Ob `2`. Their Character lacks that Skill and thus adds it at Level `0` and marks it as a Learning Skill. Assuming their Character has the corresponding Base Attributes at Level `2` and `3`, they get to roll `2 + 3 = 5D6`. 
 
@@ -1130,7 +1120,7 @@ It is only possible to spend XP at the start or end of a session, when Character
 #### Advancing Attributes
 [Attributes](#attributes) can only be advanced (i. e. "leveled up"), by spending [XP](#experience-points-xp). 
 
-The cost of advancing an Attribute depends on its current Raw Level and whether it is a [Core, Favored, Normal or Penalized Attribute](#core-favored-normal--penalized-attributes). The formula to calculate the [XP](#experience-points-xp) cost of advancing is as follows: `20 + (N * N)`, Where *N* is the current Level. 
+The cost of advancing an Attribute depends on its current Level and whether it is a [Core, Favored, Normal or Penalized Attribute](#core-favored-normal--penalized-attributes). The formula to calculate the [XP](#experience-points-xp) cost of advancing is as follows: `20 + (N * N)`, Where *N* is the current Level. 
 
 A **Core** and **Favored** Attribute's Advancement cost is always calculated as if one Level lower (but to no less than `1`). **Normal Attributes** follow the normal cost. **Penalized** Attributes are always one and a half times (= `150%` RU) as expensive. 
 
@@ -1152,7 +1142,7 @@ For your convenience, the following table contains the precalculated requirement
 | 10    | 120       | 101          | 180       |
 
 #### Advancing Skills
-Whenever a Skill is [Tested](#tests), its current Advancement Progress must be incremented by `+1`. When it reaches a certain threshold, it advances (= "Levels Up"), thereby increasing its Raw Level by `+1` and resetting all its Advancement Progress to `0`. The formula to determine the threshold is as follows: `8 + (N * 3)`, where *N* is the current Raw Level. Note an exception applies to [Learning Skills](#learning-skills), whose threshold to advance is instead always `15`. 
+Whenever a Skill is [Tested](#tests), its current Advancement Progress must be incremented by `+1`. When it reaches a certain threshold, it advances (= "Levels Up"), thereby increasing its Level by `+1` and resetting all its Advancement Progress to `0`. The formula to determine the threshold is as follows: `8 + (N * 3)`, where *N* is the current Level. Note an exception applies to [Learning Skills](#learning-skills), whose threshold to advance is instead always `15`. 
 
 For your convenience, the following table contains the precalculated requirements to advance a Skill Level. 
 * In the table, 'Level' is the Character's *current Level* in the Skill. 
@@ -1176,7 +1166,7 @@ For your convenience, the following table contains the precalculated requirement
 Whenever the Character's enjoy some [Down-Time](#down-time), away from adventuring, they may spend that time practicing. For every week (or day, or whatever time increment works best for your group), of practice, they gain `+1` [Advancement Progress](#advancement). 
 
 #### Teaching
-Much like it is possible for a Character to [Practice](#practice) on their own, they can also be taught by another, who knows more than them. Only [Skills](#skills) can be taught and the teacher's Raw Skill Level must be at least one greater than that of their pupil. For every week (or day, or whatever time increment works best for your group), of tutoring, the pupil gains `+2` [Advancement Progress](#advancement) to the Skill in question. 
+Much like it is possible for a Character to [Practice](#practice) on their own, they can also be taught by another, who knows more than them. Only [Skills](#skills) can be taught and the teacher's Skill Level must be at least one greater than that of their pupil. For every week (or day, or whatever time increment works best for your group), of tutoring, the pupil gains `+2` [Advancement Progress](#advancement) to the Skill in question. 
 
 ### Innate Abilities
 An Innate Ability is an [Attribute](#attributes) or [Skill](#skills) unique to a specific ancestry, based on species, profession, culture and so on. An Innate Ability **cannot** be learned through regular means. Only a GM may decide whether a Character may acquire such an ability. Even PCs might receive Innate Abilities, based on their chosen ancestry, or through events that unfold during play.
@@ -1282,7 +1272,7 @@ Reactions are expected to change whenever a Character (decides) to act against t
 ### Virtues & Vices
 Every PC has several values that help inform their player what their Character is like - how they act. 
 
-This personality is codified by the following matrix. Each row is a scale, with two opposing traits. Whenever A trait reaches the "Signature" column, a PC is *known* for it! In fact, they can hardly *not* act that way! In order for behaviour to deviate from a Signature Trait, a [Self-Control](#self-control-toughtough) Test at Ob `2` or half of of its Raw Level (RU) - take the higher number - must be made. Only if it is a **success**, can the player choose to deviate from the Signature Trait's dictated behavior. 
+This personality is codified by the following matrix. Each row is a scale, with two opposing traits. Whenever A trait reaches the "Signature" column, a PC is *known* for it! In fact, they can hardly *not* act that way! In order for behaviour to deviate from a Signature Trait, a [Self-Control](#self-control-toughtough) Test at Ob `2` or half of of its Level (RU) - take the higher number - must be made. Only if it is a **success**, can the player choose to deviate from the Signature Trait's dictated behavior. 
 
 Whenever PCs very strongly act in a certain way, their value in a Virtue or Vice may change. Take note during play, how the Characters have acted. After the session, discuss whether any of the PCs have shown a very strong drift towards either side of the scale. And if everyone agrees, a personality change is in order!
 
@@ -1373,7 +1363,7 @@ Additionally, the [Primary Damage](#primary-damage) that caused the Injury may a
 Also keep in mind that whenever a PC suffers an Injury, they earn a [Grit Point](#grit-points)! 
 
 #### Crippled By Injuries
-Accruing **more Injuries than your Raw Toughness** will result in your Character getting [Crippled](#crippled). Every Injury past this threshold will impose a penalty of Ob `+1` to **all** Tests!
+Accruing **more Injuries than your Toughness** will result in your Character getting [Crippled](#crippled). Every Injury past this threshold will impose a penalty of Ob `+1` to **all** Tests!
 
 > A Character with Toughness `1`, suffers their second Injury. This now cripples their Character, meaning **all** their Tests are now `+1` Ob harder to succeed. If they get yet another Injury - their third - they suffer `+2` Ob!
 
@@ -1488,7 +1478,7 @@ How much Damage is resisted, depends on the specifics of the creature or Charact
 ### Boons & Penalties
 Boons and penalties to the Level of an [Attribute](#attributes) or [Skill](#skills) can be incurred from several different sources, such as [Injuries](#injury), [Illnesses](#illness), [Mutations](#list-of-mutations) and [Conditions](#condition). Boons and penalties may be temporary or permanent, depending on their source. 
 
-A boon to an Attribute or Skill usually increases their [Modified Level](#raw-vs-modified-level). If a boon awards an Attribute or Skill that the Character does not yet have, they gain it automatically. 
+A boon to an Attribute or Skill usually increases the [Modified Level](#raw-vs-modified-level). If a boon awards an Attribute or Skill that the Character does not yet have, they gain it automatically. 
 
 A penalty to an Attribute or Skill decreases their Modified Level. A penalty **cannot** reduce an Attribute or Skill to `0` - the minimum reduction is to `1`. But there is an exception - when the Character's only reason for having the Attribute or Skill is a boon, in the first place. In that case, the penalty **can** reduce the Modified Level to `0`, effectively removing the Attribute or Skill. 
 
@@ -2348,8 +2338,6 @@ For Reactions, you're fairly free to pick and choose, so long as you keep in min
 ### Determine Abilities
 Next up, you can reinforce your Character's [Personality](#virtues--vices) with the abilities they have. Or even prepare a conflict of what your Character *can* do and what they *think* they can do. 
 
-Note this section implies Raw Level of [Attributes](#attributes) and [Skills](#skills). 
-
 #### Choosing Attributes
 There are two methods for determining your Character's attributes: manual and semi-random. 
 
@@ -2979,9 +2967,9 @@ For every point in the **Bleeding** Condition, a Character suffers `1D4` points 
 ### Crippled
 <img src="../../img/health-condition-crippled.svg" style="width: 3rem; height: 3rem;"></img>
 
-A **Crippled** Character suffers `+1` Ob to **all** Tests, for each [Injury](#injury) more than their Raw [Toughness](#toughness-tough). 
+A **Crippled** Character suffers `+1` Ob to **all** Tests, for each [Injury](#injury) more than their [Toughness](#toughness-tough). 
 
-* Immediate cancel: Reducing the number of Injuries to equal or less than the Raw Toughness. 
+* Immediate cancel: Reducing the number of Injuries to equal or less than the Toughness. 
 
 ### Death's Door
 **Death's Door** is a Condition only a PC can have and represents their final battle with death. 
