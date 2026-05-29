@@ -666,6 +666,8 @@ The GM and the players work ***together*** to create a unique experience and wea
 Each player only directly controls a single Character. The GM is in control of every single [Non-Player Character (NPC)](#non-player-character-npc), the world and the story. A player Character is abbreviated as **PC**. 
 
 ## Distances & The Grid
+<img src="../../img/distance.svg" style="width: 3rem; height: 3rem;"></img>
+
 In some places, where distances are concerned, a single number is noted. If playing on a grid, this is equal to the number or squares/hexagons that the distance covers. Outside of combat, or if you're not playing with a grid, assume the number to be equal to `1m` or `3'`. Furthermore, a single, ordinary human, should occupy an entire square/hexagon. 
 
 These fields of the grid are henceforth referred to as **Squares**.
@@ -749,7 +751,7 @@ How many Hits are needed to succeed a Test, is determined by the GM or by other 
 The Ob isn't always determined directly by the GM. Whenever an [Opposed Test](#opposed-test) must be made, the Ob is determined by another Character. 
 
 ### Rounded Up & Rounded Down
-Often times, numbers are to be rounded up or down. To keep formulae short, these terms are often abbreviated as **RU** (= rounded up) and **RD** (= rounded down). 
+Often times, numbers are to be rounded up or down. To keep formulae short, these terms are often abbreviated as **RU** (= rounded up) <img src="../../img/round-up.svg" style="width: 3rem; height: 3rem;"></img>  and **RD** (= rounded down) <img src="../../img/round-down.svg" style="width: 3rem; height: 3rem;"></img>. 
 
 ### Testing an Attribute
 To resolve an Attribute Test, roll `ND6`, where *N* is the Attribute's Level. 
@@ -2404,15 +2406,23 @@ When looking up products for crafting, the tools and materials required for the 
 Weapon type Assets can have the following traits:
 
 #### Melee
+<img src="../../img/melee-1.svg" style="width: 3rem; height: 3rem;"></img>
+
 Allows attacking an adjacent target.
 
 #### Long Reach
+<img src="../../img/melee-2.svg" style="width: 3rem; height: 3rem;"></img>
+
 Allows attacking a target two Squares away. 
 
 #### Very Long Reach
+<img src="../../img/melee-3.svg" style="width: 3rem; height: 3rem;"></img>
+
 Allows attacking a target three Squares away. 
 
 #### Range Only
+<img src="../../img/ranged-only.svg" style="width: 3rem; height: 3rem;"></img>
+
 Implies a weapon cannot be used against any targets adjacent to self. 
 
 #### Prefer Range
@@ -2425,6 +2435,8 @@ Reloading the weapon costs `2` [AP](#action-points-ap).
 Reloading the weapon costs `3` [AP](#action-points-ap).
 
 #### Ranged
+<img src="../../img/ranged.svg" style="width: 3rem; height: 3rem;"></img>
+
 The weapon can be used against targets up to a noted distance away from the user. The range, in Squares, is noted in parentheses. This can either indicate a maximum distance, which cannot be exceeded, or a so-called **Distance Increment**, abbreviated **DI**, which may be exceeded, but with penalties.
 
 For every Distance Increment past the initial, an attack suffers `+1` Ob and deals `-2` points of damage. In other words, the farther you shoot, the harder it becomes to score an effective hit. 
@@ -3142,6 +3154,12 @@ A **Multiple-Single-Target** (**MST**) Action affects at least one and up to a c
 
 ### Area of Effect (AoE)
 **Area of Effect** (**aoe**) Actions affect *every* target that is in the area of effect. The victims can only defend through certain special Skills or Expertises.
+
+There are four types of shapes that AoE effects can have:
+* <img src="../../img/aoe-radius.svg" style="width: 2rem; height: 2rem;"></img> A radius.
+* <img src="../../img/aoe-cube.svg" style="width: 2rem; height: 2rem;"></img> A cube.
+* <img src="../../img/aoe-cone.svg" style="width: 2rem; height: 2rem;"></img> A cone.
+* <img src="../../img/aoe-line.svg" style="width: 2rem; height: 2rem;"></img> A line.
 
 # Game Mastery
 This and the following sections are reserved solely for the GM's eyes. It aims to help you prepare and run the game. 
