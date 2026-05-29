@@ -666,6 +666,8 @@ The GM and the players work ***together*** to create a unique experience and wea
 Each player only directly controls a single Character. The GM is in control of every single [Non-Player Character (NPC)](#non-player-character-npc), the world and the story. A player Character is abbreviated as **PC**. 
 
 ## Distances & The Grid
+<img src="../../img/distance.svg" style="width: 3rem; height: 3rem;"></img>
+
 In some places, where distances are concerned, a single number is noted. If playing on a grid, this is equal to the number or squares/hexagons that the distance covers. Outside of combat, or if you're not playing with a grid, assume the number to be equal to `1m` or `3'`. Furthermore, a single, ordinary human, should occupy an entire square/hexagon. 
 
 These fields of the grid are henceforth referred to as **Squares**.
@@ -749,7 +751,7 @@ How many Hits are needed to succeed a Test, is determined by the GM or by other 
 The Ob isn't always determined directly by the GM. Whenever an [Opposed Test](#opposed-test) must be made, the Ob is determined by another Character. 
 
 ### Rounded Up & Rounded Down
-Often times, numbers are to be rounded up or down. To keep formulae short, these terms are often abbreviated as **RU** (= rounded up) and **RD** (= rounded down). 
+Often times, numbers are to be rounded up or down. To keep formulae short, these terms are often abbreviated as **RU** (= rounded up) <img src="../../img/round-up.svg" style="width: 3rem; height: 3rem;"></img>  and **RD** (= rounded down) <img src="../../img/round-down.svg" style="width: 3rem; height: 3rem;"></img>. 
 
 ### Testing an Attribute
 To resolve an Attribute Test, roll `ND6`, where *N* is the Attribute's Level. 
@@ -2404,15 +2406,23 @@ When looking up products for crafting, the tools and materials required for the 
 Weapon type Assets can have the following traits:
 
 #### Melee
+<img src="../../img/melee-1.svg" style="width: 3rem; height: 3rem;"></img>
+
 Allows attacking an adjacent target.
 
 #### Long Reach
+<img src="../../img/melee-2.svg" style="width: 3rem; height: 3rem;"></img>
+
 Allows attacking a target two Squares away. 
 
 #### Very Long Reach
+<img src="../../img/melee-3.svg" style="width: 3rem; height: 3rem;"></img>
+
 Allows attacking a target three Squares away. 
 
 #### Range Only
+<img src="../../img/ranged-only.svg" style="width: 3rem; height: 3rem;"></img>
+
 Implies a weapon cannot be used against any targets adjacent to self. 
 
 #### Prefer Range
@@ -2425,6 +2435,8 @@ Reloading the weapon costs `2` [AP](#action-points-ap).
 Reloading the weapon costs `3` [AP](#action-points-ap).
 
 #### Ranged
+<img src="../../img/ranged.svg" style="width: 3rem; height: 3rem;"></img>
+
 The weapon can be used against targets up to a noted distance away from the user. The range, in Squares, is noted in parentheses. This can either indicate a maximum distance, which cannot be exceeded, or a so-called **Distance Increment**, abbreviated **DI**, which may be exceeded, but with penalties.
 
 For every Distance Increment past the initial, an attack suffers `+1` Ob and deals `-2` points of damage. In other words, the farther you shoot, the harder it becomes to score an effective hit. 
@@ -3722,7 +3734,7 @@ All melee attackers against this creature suffer `6` points of a chosen type of 
 #### Death Rattle (-2 points; +2 CR)
 Upon dying, the creature can invoke one of the following effects (you must choose one now):
 * Explode: Cause damage to all adjacent creatures. Choose one: `2D6 + 2 Slashing`, `2D6 Piercing`, or `2D4` of any other damage type. 
-* Terrifying Screech: All foes in a `10` Square AoE radius <img src="../../img/aoe-radius.svg" style="width: 2rem; height: 2rem;"></img> around the creature must succeed a [Self-Control](#self-control-toughtough) Test at Ob `3`, or else become [Terrified](strive-core.md#terrified) for one Round. 
+* Terrifying Screech: All foes in a `10` Square AoE radius around the creature must succeed a [Self-Control](#self-control-toughtough) Test at Ob `3`, or else become [Terrified](strive-core.md#terrified) for one Round. 
 * Reprisal: Move up to `8` and launch a final, desperate and free attack against a foe, with Ob `-1`. 
 
 #### Fortified Mind (-4 points; +1 CR)
@@ -3839,7 +3851,7 @@ Create a sticky, adhesive surface within hand's reach. This surface now counts a
 Run at a target, up to `4` Squares away and slam into them with your body, dealing `Toughness` points of damage and knocking your opponent back by `Strength` Squares. 
 
 ### Obscure Vision (Awar/Tough)
-Kick up dust, spray a cloud of ink or spew spores that heavily obscure vision, in a `3` Square AoE radius <img src="../../img/aoe-radius.svg" style="width: 2rem; height: 2rem;"></img> around you. All ranged attacks within or through the area suffer `+2` Ob. 
+Kick up dust, spray a cloud of ink or spew spores that heavily obscure vision, in a `3` Square AoE radius around you. All ranged attacks within or through the area suffer `+2` Ob. 
 
 ## General Hostility Actions
 The following Hostility Actions are a general offering for you to pick and choose from, as you deem fit for a combat encounter. You are free to invent your own, with these as a reference and STRIVE Modules may also offer more of these. 
@@ -3865,7 +3877,7 @@ Suitable for: Any creature that could reasonably emit such a thrumming sound, su
 **`-8` Hostility**: The creature immediately becomes [Berserked](strive-core.md#berserk) and deals an additional `5` points of Bludgeoning damage on all their attacks, until the end of the Round. 
 
 ### Sinkhole (-8 points; +2 CR)
-**`-8` Hostility**: The ground gives and in a `5` Square AoE radius <img src="../../img/aoe-radius.svg" style="width: 2rem; height: 2rem;"></img> around the creature, drops by `5` Squares. All creatures with `Stability ≤ 2` are covered by earth, become [Prone](strive-core.md#prone) and suffer `6` points of Bludgeoning damage. All creatures with `Stability ≤ 3` become [Prone](strive-core.md#prone). 
+**`-8` Hostility**: The ground gives and in a `5` Square AoE radius around the creature, drops by `5` Squares. All creatures with `Stability ≤ 2` are covered by earth, become [Prone](strive-core.md#prone) and suffer `6` points of Bludgeoning damage. All creatures with `Stability ≤ 3` become [Prone](strive-core.md#prone). 
 
 ### Trap Storm (-4 points; +3 CR)
 **`-8` Hostility**: The creature throws or lays or spews forth `3` traps, up to `10` Squares far, that now litter the battlefield. Each of these will deal `6` points of damage. The damage type should be chosen according to the nature of the traps. E. g. piercing for bear traps, acid for pools of acid, burning for bombs and so on. 
