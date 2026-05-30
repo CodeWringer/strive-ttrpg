@@ -2,7 +2,7 @@
 **STRIVE** is a table-top role-playing game (**TTRPG**), requiring a **game master** (**GM**) and at least one **player** to play. 
 
 ## Core
-The [STRIVE Core](documents/en/strive-core.md) document contains all the rules that both players and **GM** must know and which form the basis for all play in STRIVE. 
+The [STRIVE Core](documents/en/strive-core.md) document contains all the rules that both players and GM must know and which form the basis for all play in STRIVE. 
 
 ## Modules
 Modules extend or alter the core rules, to fit a specific theme or setting. They are designed to be as light-weight as possible and only serve as supplements to the core rules. They only work in conjunction with the core rules. 
