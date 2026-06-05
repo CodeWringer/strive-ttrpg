@@ -3647,8 +3647,8 @@ Secondly, you must choose a **power-level**:
 
 * **Feeble**: Start with `10` points and a CR of `1`. A feeble creature is cannon-fodder, a minion that serves as faceless padding around a bigger villain. It always has **`10` maximum HP**, regardless of its Toughness Level or other Traits. This makes it easy to eliminate and allows the PCs to feel heroic, for example by cutting a path through a horde of lesser zombies. 
 * **Regular**: Start with `15` points and a CR of `2`. A regular creature has no particular advantages or disadvantages. Often times, two or three of these will be enough to occupy a PC group for a while. Also expect most people NPCs to be regular creatures. 
-* **Elite**: Start with `20` points and a CR of `3`. An elite is highly trained or naturally talented. Just one of these may suffice to challenge a PC group. When coupled with other NPCs, this one should probably assume a supporting or leading role and instead of engaging the PCs to the same extent as its minions, hangs back a bit, to ensure it won't overwhelm the PCs. 
-* **Legendary**: Start with `30` points and a CR of `4`. A legendary creature is expected to be a boss encounter, which can easily challenge the entire PC group on its own. Be careful not to design it as too powerful. Instead, for an epic boss fight, split up its abilities into two or three stages. 
+* **Elite**: Start with `25` points and a CR of `3`. An elite is highly trained or naturally talented. Just one of these may suffice to challenge a PC group. When coupled with other NPCs, this one should probably assume a supporting or leading role and instead of engaging the PCs to the same extent as its minions, hangs back a bit, to ensure it won't overwhelm the PCs. 
+* **Legendary**: Start with `40` points and a CR of `4`. A legendary creature is expected to be a boss encounter, which can easily challenge the entire PC group on its own. Be careful not to design it as too powerful. Instead, for an epic boss fight, split up its abilities into two or three stages. 
 
 The next steps after this are to pick a combat role, traits, Attributes and Skills. 
 
@@ -3826,20 +3826,18 @@ Suitable for: Creatures of the night, such as werewolves, vampires and ghosts.
 
 ## Choosing NPC Characteristics
 * You may increase each Attribute `+1` at the cost of `-1` point. 
-* You may increase Stability, Defense or Free Strike `+1` at the cost of `-2` points. 
+* You may increase Stability, Defense or Free Strike `+1` at the cost of `-1` points. 
   * The damage type for the Free Strike may be freely chosen. 
 
 ## Choosing NPC Skills
 Custom Skills are that which brings the spice to every NPC and you are free to build them however you like, but keep the following guidelines in mind:
 * A regular combat Skill should deal at most `8` points of damage per damage type and should at most deal two types of damage. If you decide it needs to deal higher damage, it should probably have a higher AP cost. 
-* AP costs for attacks should be at least `2`. Supporting Skills may only cost `1` AP or even be free, if some other limitation applies. 
+* AP costs for attacks should be at least `2`. Supporting Skills may cost `1` AP or even be free, if some other limitation applies. 
 * A Feeble and Regular creature should at most have `2` main Skills. These creatures should be easy and quick to run, so overburdening them with Skills will counteract this goal. 
 
-Every Skill you add costs `-1` point and adds `+1` CR. 
+Every Skill you add costs `-1` point and adds `+2` CR. You should avoid Levels less than `1`. 
 
 For people, you may simply give them Skills from the same lists as are available to the PCs. When choosing Skills to add to a NPC, you needn't add every single Skill they could potentially use at some point. You only need to give them those Skills that form their core strengths. The more Skills you add, the harder to manage a NPC becomes. 
-
-Every Skill should be at least Level `2`. Increase the CR by half the Skill's Level (RU). 
 
 ### Bite (Agi/Str)
 Bite a target for `1D4 + Strength` points of piercing damage.

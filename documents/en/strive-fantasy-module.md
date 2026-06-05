@@ -152,6 +152,8 @@ There is a [compendium document](./strive-fantasy-game-masters-resource.md) rese
 - [Fantasy Game-Masters Resource](#fantasy-game-masters-resource)
 - [Creature Compendium](#creature-compendium)
   - [Swine-Beasts](#swine-beasts)
+    - [Swine Do Not Negotiate](#swine-do-not-negotiate)
+    - [Swine Tactics](#swine-tactics)
     - [Swine Hostility](#swine-hostility)
       - [Demonic Blood](#demonic-blood)
       - [Filth \& Darkness](#filth--darkness)
@@ -170,7 +172,10 @@ There is a [compendium document](./strive-fantasy-game-masters-resource.md) rese
     - [Cacophony of Flesh](#cacophony-of-flesh)
     - [The Puppeteer](#the-puppeteer)
   - [Undead](#undead)
+    - [Undead Hostility](#undead-hostility)
+      - [Rise Again](#rise-again)
     - [Alp](#alp)
+    - [Bloated Shambler](#bloated-shambler)
   - [Void Demons](#void-demons)
     - [Void Stalker](#void-stalker)
 
@@ -1579,9 +1584,18 @@ Beware the cesspits, the sewers, the bogs and marshes - any place where filth is
 
 They multiply quickly and often stay localized to their den. But they occasionally venture into more civilized areas to acquire food - which is often the inhabitants of those places - and plunder. They keep regular pigs as both livestock and as a means of reproducing, as when they have need of more of their foul kind, their shamans will perform the same wicked rituals to turn those harmless pigs into Swine-Beasts. 
 
-Due to the demon bound inside them, they are inherently and irredeemably evil. Cruelty amuses them, injustice means nothing to them. They exist solely to mulitply, feed and destroy. 
+### Swine Do Not Negotiate
+Due to the demon bound inside them, they are inherently and irredeemably evil. Cruelty amuses them, injustice means nothing to them. They exist solely to mulitply, feed and destroy. Employ them for combat encounters. They do not negotiate and fight to the last. 
+
+### Swine Tactics
+The Swine's strength lies in their combat tactics. They work together, each precisely aware of their role, to stand united against a world that does not want them. 
+
+Swine raiding parties usually comprise several [Stompers](#swine-stomper) and [Slashers](#swine-slasher) as the front-line, a few [Lungers](#swine-lunger) and several [Skewerers](#swine-skewerer) as support and back-line. If opposed by guardsmen or wannabe heroes, the Stompers and Slashers tie the enemy down and Lungers and Skewerers deal the real damage. Very rarely, raiding parties may be joined by [Champions](#swine-champion) and [Ogres](#swine-ogre). 
+
+Swine war parties are often headed by a [Champion](#swine-champion) and rarely by a [Shaman](#swine-shaman). Many [Stompers](#swine-stomper) and [Slashers](#swine-slasher) and even one or two [Ogres](#swine-ogre) act as the front-line. Many [Belchers](#swine-belcher) and several [Skewerers](#swine-skewerer) act as the back-line. Some [Lungers](#swine-lunger) try to flank and disrupt enemy formations. 
 
 ### Swine Hostility
+The following [Hostility Actions](./strive-core.md#hostility) are available to all Swine.
 
 #### Demonic Blood
 **`-20` Hostility**: Suddenly, a Swine stops dead in its tracks, clawing at its skull and squealing in distorted pain, as demon horns spring from its forehead and the veins beneath its skin begin to glow in bright crimson. It grows to twice its size and peers around hungrily. 
@@ -1657,7 +1671,7 @@ This variant stands tall and proud, its wrinkled skin riddled with scars. Its tu
 
 **Traits**: [Vulnerable](strive-core.md#vulnerable-2-points--2-cr) to Bleeding `+6`, [Hyperactive + Disruptive](strive-core.md#hyperactive--7-points-4-cr)
 
-**Assets**: Spear, Medium Shield, Swine Champion Armor
+**Assets**: Polearm, Medium Shield, Swine Champion Armor
 
 **Skills**:
 * Shield, Level: `5`
@@ -1675,13 +1689,16 @@ This variant stands tall and proud, its wrinkled skin riddled with scars. Its tu
   * `≤ 1` Hit: `Str + 2 (= 6)` Bludgeoning; Force-move `1`
   * `= 2` Hits: `Str + 4 (= 8)` Bludgeoning; Force-move `2`
   * `≥ 3` Hits: `Str + 6 (= 10)` Bludgeoning; Force-move `3`
+* Interrupt:
+  * **Reaction**: Upon an ally within `3` Squares of you being attacked, jump in and take over the Defense Test, with `+1` [Compensation Point](./strive-core.md#compensation-points). 
+  * AP: `2`, Ob: `Opposed`, ST, Innate
 * Swine Commanding (Tough/Wit):
   * A champion commands respect and obedience.
   * Level: `4`, Innate
-  * Bestial Roar:
-    * Instill fear and doubt into your victims' hearts. All within `10` Squares of you suffer `-1` AP and are [Terrified](./strive-core.md#terrified) of you.
-    * AP: `2`, Ob: `Opposed` by [Self-Control](./strive-core.md#self-control-toughtough), Ranged, Vocal
-  * Hit That One!:
+  * You Are Mine!:
+    * Instill fear and doubt into your a ST's heart, who becomes [Terrified](./strive-core.md#terrified) of you.
+    * AP: `2`, Ob: `Opposed` by [Self-Control](./strive-core.md#self-control-toughtough), Ranged: `10`, Vocal
+  * Kill That One!:
     * [Mark](./strive-core.md#marked) a ST of choice, up to `10` Squares away.
     * AP: `1`, Ob: `2`, Ranged, Vocal
   * You Die When I Let You!:
@@ -1973,14 +1990,21 @@ A giant stick-figure, shrouded in swirling darkness and blurred edges. All corps
 ## Undead
 Whether they occur naturally or unnaturally, both your typical undead and some more unusual specimen may haunt your world. While the Fantasy Module assumes them to be mindless monsters, you may of course decide for your world that they may in fact retain some if not all of their sapience. 
 
+### Undead Hostility
+The following [Hostility Actions](./strive-core.md#hostility) are available to most Undead.
+
+#### Rise Again
+**-10 Hostility**: Undead just don't stay down. One of them rises again, rejoined with whatever body parts it may have lost along the way by ghostly tendrils. 
+* The Undead gains `+20` Temporary HP.
+
 ### Alp
-The Alp is a predator, yet it preys not on flesh, but on raw fear itself. For this reason, it often encroaches on civilization, where it causes streaks of never ending nightmares for the people. They can take this spiel so far as to drive their victims insane. Suicides in villages haunted by Alps are not uncommon.
+The Alp is a predator, yet it preys not on flesh, but on raw fear itself. For this reason, it often encroaches on civilization, where it causes streaks of never ending nightmares for the people. They can take this evil spiel so far as to drive their victims insane. Suicides in villages haunted by Alps are not uncommon.
 
 This hunched humanoid is pale and haggard. Its face is featureless, devoid of eyes and mouth. Long claws at the ends of its three fingers clarify its hostile intent. 
 
 Alps are a fairly common occurence throughout the world. How they reproduce is a bit of a mystery, though it is assumed to be related victims taking their own lives. In a way, the Alp's condition might be carried like a self-perpetuating curse. Fact is that the graves of suicides often end up empty just a few days later. Although such graves are often regarded as sacrilegious and are ill-favored by the locals, which may simply have decided they have a better use for the space or valuables the victim was buried with. 
 
-* Power: Regular, CR: `6`
+* Power: Elite, CR: `14`
 * Roles: Ambusher
   * Employ as an investigation and moderate combat challenge. 
   * If you want to ramp up the challenge, have the encounter begin near a civilian victim which the Alp is about to or already has put to sleep, so it can immediately use "Induce Nightmare". 
@@ -1990,16 +2014,20 @@ Alps are a fairly common occurence throughout the world. How they reproduce is a
 
 | Agi   | Awar  | Str   | Tough | Wit   | Arc   |
 | ----- | ----- | ----- | ----- | ----- | ----- |
-| 4     | 3     | 3     | 3     | 3     | 5     |
+| 4     | 2     | 2     | 3     | 5     | 5     |
 
 | BI     | Sprint | Stabil | HP  | Exhaustion | FS (Melee)      | Def    | Armor             |
 | ------ | ------ | ------ | --- | ---------- | --------------- | ------ | ----------------- |
-| 10     | 4      | 0      | 30  | 3          | 3 Slashing      | 3      | 0                 |
+| 11     | 4      | 0      | 30  | 4          | 3 Slashing      | 3      | 0                 |
+
+**Traits**: [Camouflage](./strive-core.md#camouflage--3-points-3-cr)
+
+**Assets**: Usually none, although it may still wear whatever jewelry it had in life.
 
 **Skills**: 
 * Stealth: Level `3`
 * Induce Nightmare (Wit/Arc):
-  * Induces nightmares on all nearby (`20` Square AoE radius around the Alp) sleeping Characters. This strengthens the Alp, removing `1` active Injury for every induced nightmare. The Alp gains `+3` to Strength and `+1` to Toughness. While nightmare lasts, every Turn it regains `5` HP for every nightmare and every victim suffers `5` Pure damage. Nightmare lasts for `6` Turns or `6` minutes. Any creature with a nightmare can be woken up (in any way you like), at Ob `3`. This ability does not stack with itself. After the time is up, the affected creatures automatically wake up. 
+  * Induces nightmares on all nearby (`20` Square AoE radius around the Alp) sleeping Characters. This strengthens the Alp, removing `1` active Injury for every induced nightmare. The Alp gains `+3` to Strength and `+1` to Toughness. While nightmare lasts, every Turn the Alp regains `5` HP for every nightmare and every victim suffers `5` Pure damage. Nightmare lasts for `3` Rounds or `30` minutes. Any creature with a nightmare can be woken up (in any way you like), at Ob `3`. The Alp immediately loses boons for every Character woken up early. This ability does not stack with itself. After the time is up, the affected creatures automatically wake up. 
   * Does not stack: Every sleeping Character can only be affected once. 
   * Level: `7`, AP: `2`
 * Induce Sleep (Wit/Arc):
@@ -2008,9 +2036,41 @@ Alps are a fairly common occurence throughout the world. How they reproduce is a
 * Rend (Agi/Str): 
   * Tear a victim to shreds. 
   * Level: `3`, AP: `2`, Ob: `Opposed`, ST, Melee
-  * `≤ 1` Hit: `Str + 2 (= 5)` Slashing
-  * `= 2` Hits: `Str + 4 (= 7)` Slashing
-  * `≥ 3` Hits: `Str + 6 (= 9)` Slashing
+  * `≤ 1` Hit: `Str + 2 (= 4)` Slashing
+  * `= 2` Hits: `Str + 4 (= 6)` Slashing
+  * `≥ 3` Hits: `Str + 6 (= 8)` Slashing
+
+### Bloated Shambler
+Bloated shamblers are grotesque, hulking masses of bloated undead flesh. They're a type of flesh golem, comprised of multiple bodies sewn together and filled with noxious, rotten air. With a vacant gaze through dulled eyes they waddle towards their goal, struggling to stay on their swollen feet, yet unfaltering in their sinister purpose. 
+
+* Power: Regular, CR: `2` 4
+* Roles: Disruptor, Tank
+  * Employ as a priority target, that will punish foes who neglect it. It tries to get as close to as many enemies as possible and then attempts to grapple and choke the life out of whoever is most accessible. 
+  * If left alive for too long, it will explode in a gory and nauseating display, that will Force-Move foes and deal damage to them.
+* Behavior: 
+  * An unintelligent, [bound](#soul-binding-arctough) Undead, that will follow its master's commands. 
+
+| Agi   | Awar  | Str   | Tough | Wit   | Arc   |
+| ----- | ----- | ----- | ----- | ----- | ----- |
+| 1     | 1     | 5     | 5     | 1     | 0     |
+
+| BI     | Sprint | Stabil | HP  | Exhaustion | FS (Melee)      | Def    | Armor             |
+| ------ | ------ | ------ | --- | ---------- | --------------- | ------ | ----------------- |
+| 3      | 3      | 3      | 50  | 6          | 3 Bludgeoning   | 0      | 0                 |
+
+**Traits**: [Death Rattle](./strive-core.md#death-rattle--2-points-2-cr) (Explode: `2D4` Bludgeoning and Force-Moving `5` Squares, in an AoE radius of `2` Squares), [Shambler](./strive-core.md#shambler-2-points--2-cr)
+
+**Assets**: None
+
+**Skills**: 
+* Unarmed Combat: Level `3`
+* Choke (Str/Tough): 
+  * If grappling a ST, choke the life out of them. 
+  * Level `3`, AP: `1`, Melee, ST, Innate
+  * `≤ 1` Hit: `2` Bludgeoning
+  * `= 2` Hits: `3` Bludgeoning
+  * `≥ 3` Hits: `4` Bludgeoning
+
 
 ## Void Demons
 When a soul is thrust into the void between realities, it is stretched infinitely thin. Unable to fill the void, it snaps and implodes, bouncing back into reality, but broken. It cannot function as it once did and furthermore, keeps open a tear to the void. It apparates as a monster of swirling shadow, not quite corporeal, yet not fully ethereal. 
