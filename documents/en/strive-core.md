@@ -1278,17 +1278,17 @@ This personality is codified by the following matrix. Each row is a scale, with 
 
 Whenever PCs very strongly act in a certain way, their value in a Virtue or Vice may change. Take note during play, how the Characters have acted. After the session, discuss whether any of the PCs have shown a very strong drift towards either side of the scale. And if everyone agrees, a personality change is in order!
 
-| Trait       | Signature | Very | A little | Undecided | A little | Very | Signature |  Trait      |
-| ----------- | --------- | ---- | -------- | --------- | -------- | ---- | --------- | ----------- |
-| Arrogant    |           |      |          |           |          |      |           |  Humble     |
-| Cowardly    |           |      |          |           |          |      |           |  Courageous |
-| Cruel       |           |      |          |           |          |      |           |  Merciful   |
-| Deceitful   |           |      |          |           |          |      |           |  Honest     |
-| Lazy        |           |      |          |           |          |      |           |  Energetic  |
-| Paranoid    |           |      |          |           |          |      |           |  Naive      |
-| Reckless    |           |      |          |           |          |      |           |  Prudent    |
-| Selfish     |           |      |          |           |          |      |           |  Considerate|
-| Vengeful    |           |      |          |           |          |      |           |  Forgiving  |
+| Trait       | < Signature | < Rather | Undecided | Rather > | Signature > |  Trait      |
+| ----------- | ----------- | -------- | --------- | -------- | ----------- | ----------- |
+| Arrogant    |             |          |           |          |             |  Humble     |
+| Cowardly    |             |          |           |          |             |  Courageous |
+| Cruel       |             |          |           |          |             |  Merciful   |
+| Deceitful   |             |          |           |          |             |  Honest     |
+| Lazy        |             |          |           |          |             |  Energetic  |
+| Paranoid    |             |          |           |          |             |  Naive      |
+| Reckless    |             |          |           |          |             |  Prudent    |
+| Selfish     |             |          |           |          |             |  Considerate|
+| Vengeful    |             |          |           |          |             |  Forgiving  |
 
 These values can even have an impact on your [Tests](#tests)! For example, a Character who is known to be merciful may find it easier to convince their enemies to surrender to them. On the other hand, if that same PC tries intimidation, they will find it harder to succeed. 
 
