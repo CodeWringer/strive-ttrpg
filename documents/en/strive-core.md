@@ -3628,9 +3628,11 @@ PCs have access to [Momentum Actions](strive-core.md#momentum) and earn or lose 
 
 > Given `3` PCs and one ally, you earn `3 (number of PCs) + 1 (number of allies) + 1 (always) = 5` Hostility at the start of every Round. 
 
-Hostility can be spent on powerful special abilities, called [Hostility Actions](#general-hostility-actions), that certain NPCs may have access to. These abilities will allow you to spice up combat, by throwing surprises at or putting pressure on the PCs (and by extension their players). Note that just like Momentum Actions, Hostility Actions can be activated **whenever appropriate**, even when it's currently another creature's Turn. 
+Hostility can be spent on powerful special abilities, called **Hostility Actions**, that certain NPCs may have access to. These abilities will allow you to spice up combat, by throwing surprises at or putting pressure on the PCs (and by extension their players). Note that just like Momentum Actions, Hostility Actions can be activated **whenever appropriate**, even when it's currently another creature's Turn. 
 
 Unlike Momentum, **Hostility is not lost** when a combat encounter ends. It simply keeps building up, until you deem the time is right to spend. Of course, with such great power comes great responsibility, as you may have guessed. There may be times when it might be easy to overwhelm the PCs through the use of Hostility Actions. Just because you could spend the Hostility, doesn't mean you should. After all, your job is to keep combat interesting, not to outright kill the PCs. If the PCs have their hands full already, then there should be no need to spend Hostility. 
+
+Hostility Actions can be tied to a particular type of creature or culture or even to a specific creature itself. However, there are also [General Hostility Actions](#general-hostility-actions) that *any* NPC may use.
 
 As Hostility Actions can really mix up combat, it would be wise to refrain from employing too many creatures with such abilities. These should be reserved for elite and legendary creatures. Although you could also break this expectation and explicitly give a regular or even feeble creature a Hostility Action. But always keep in mind that every creature with a Hostility Action is another level of complexity to the combat encounter. This causes more work for you and more things to keep track of for everyone. Used sparingly and effectively, Hostility Actions can elicit gasps of surprise from your players, ensuring a memorable encounter!
 
