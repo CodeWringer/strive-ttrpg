@@ -2831,13 +2831,13 @@ Increases [Stability](#stability-stabil) by `+2`.
 [Grappling](#grappled) you is `+1` Ob harder and you receive `+1` Compensation Point for Tests to break free from being Grappled.
 
 ### Thorough Artisan
-Every Asset you craft starts at Quality Level `2`, instead of `1`. Ignore the first [Project Skill Test](#progressing-a-project) you fail and treat it as a success, instead.
+Every Asset you craft starts with Quality Level `+1`. Ignore the first [Project Skill Test](#progressing-a-project) you fail and treat it as a success, instead.
 
 ### Tough Skin
 Raise your base HP by `+5`. 
 
 ### Warcrobat
-Combining agility with deadliness, elevating mere skill at arms to an elegant art. 
+Combining agility with deadliness, elevating mere skill at arms to an elegant art. Grants `+1` [Compensation Point](#compensation-points) to all Acrobatics Tests.
 
 **Prerequisites**: [Acrobatics](#acrobatics-agistr) Level `3+` and a [Weapon Skill](#weapon--weapon-type---attribute-) at Level `3+`. Costs `30` [XP](#experience-points-xp) to unlock. 
 
