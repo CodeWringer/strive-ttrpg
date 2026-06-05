@@ -526,10 +526,12 @@ As STRIVE is meant primarily as a rule-book to help you quickly find what you ne
 | [Grit Point](#grit-points)                                  | A one-time resource that is earned through Injuries, which can be spent as a last-ditch effort to turn the wheel of fate around. |
 | [Hand Of Fate](#hand-of-fate)                               | Refers to the game's selection of available Fate-Cards. |
 | [Hasted](#hasted)                                           | A Condition that lets a Character who get an additional AP and who may move further per AP spent. |
+| [Health Point(s) (HP)](#health-points-hp)                   | The resource that separates a Character from death. |
 | [Heroic Act](#momentum-actions)                             | When Momentum is high, Heroic Acts become available, and allow PCs to dominate a fight. |
 | [Hit Limit](#testing-a-skill)                               | Determines how many rolled Hits may actually factor into the result of a Test. This is equal to your Skill's Level, but can be raised through Compensation Points, Skill Forking and other Characters providing assistance. |
-| [Health Point(s) (HP)](#health-points-hp)                   | The resource that separates a Character from death. |
 | [Hit](#tests)                                               | Positive result of an individual die-roll in a Test. |
+| [Hostility Action](#hostility)                              | A special event that benefits only the PCs' foes. This is the counter point to Momentum Actions. |
+| [Hostility](#hostility)                                     | A special resource the GM receives to occasionally activate Hostility Actions with, to shake up a Combat encounter. |
 | [Illness](#illness)                                         | A serious long-term health impediment of a Character. |
 | [Initiative Order](#initiative)                             | Defines the order Characters get to act in during tense situations, like Combat. |
 | [Injury Shrug-Off](#shrugging-off-an-injury)                | When a Character suffers enough damage to potentially also suffer an Injury, they may try to shrug it off, thus avoiding the Injury. |
@@ -1276,17 +1278,17 @@ This personality is codified by the following matrix. Each row is a scale, with 
 
 Whenever PCs very strongly act in a certain way, their value in a Virtue or Vice may change. Take note during play, how the Characters have acted. After the session, discuss whether any of the PCs have shown a very strong drift towards either side of the scale. And if everyone agrees, a personality change is in order!
 
-| Trait       | Signature | Very | A little | Undecided | A little | Very | Signature |  Trait      |
-| ----------- | --------- | ---- | -------- | --------- | -------- | ---- | --------- | ----------- |
-| Arrogant    |           |      |          |           |          |      |           |  Humble     |
-| Cowardly    |           |      |          |           |          |      |           |  Courageous |
-| Cruel       |           |      |          |           |          |      |           |  Merciful   |
-| Deceitful   |           |      |          |           |          |      |           |  Honest     |
-| Lazy        |           |      |          |           |          |      |           |  Energetic  |
-| Paranoid    |           |      |          |           |          |      |           |  Naive      |
-| Reckless    |           |      |          |           |          |      |           |  Prudent    |
-| Selfish     |           |      |          |           |          |      |           |  Considerate|
-| Vengeful    |           |      |          |           |          |      |           |  Forgiving  |
+| Trait       | < Signature | < Rather | Undecided | Rather > | Signature > |  Trait      |
+| ----------- | ----------- | -------- | --------- | -------- | ----------- | ----------- |
+| Arrogant    |             |          |           |          |             |  Humble     |
+| Cowardly    |             |          |           |          |             |  Courageous |
+| Cruel       |             |          |           |          |             |  Merciful   |
+| Deceitful   |             |          |           |          |             |  Honest     |
+| Lazy        |             |          |           |          |             |  Energetic  |
+| Paranoid    |             |          |           |          |             |  Naive      |
+| Reckless    |             |          |           |          |             |  Prudent    |
+| Selfish     |             |          |           |          |             |  Considerate|
+| Vengeful    |             |          |           |          |             |  Forgiving  |
 
 These values can even have an impact on your [Tests](#tests)! For example, a Character who is known to be merciful may find it easier to convince their enemies to surrender to them. On the other hand, if that same PC tries intimidation, they will find it harder to succeed. 
 
