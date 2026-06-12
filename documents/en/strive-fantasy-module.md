@@ -581,7 +581,6 @@ See also the [Core rule's Asset appendix](./strive-core.md#assets-appendix).
 | Acid Arrows              | 1    | 20              | Ammunition for a bow that deals `Q * 2` additional points of Acid damge. A small acid-filled vial tips these arrows, ready to burst upon impact. | 30  | 30 Minutes |  |
 | Acid Bomb                | 1    | 3               | A small fragile shell with two compartments, filled with two liquids which, when they combine, act as a powerful acid. When shattered, deals `QD6 Acid` damage to whatever it hits. | 15 | 10 Minutes |  |
 | Arrows                   | 1    | 20              | Ammunition for a bow. | 20 | 10 Minutes |  |
-| Bear Trap                | 1    | 3               | A metal-jawed trap, capable of breaking bone and flesh. Deals `Q * 2` Bludgeoning and `Q * 2` Piercing damage. | 45 | 1 Hour |  |
 | Blackpowder Bomb         | 1    | 2               | A small iron-shelled bomb, filled with blackpowder. A short fuse sticks out and must be lit to set it off. Once lit, the bomb will detonate after `3` Turns or `15` seconds. Deals `QD4 Bludgeoning + QD4 Burning` damage to anyone in a `2` Square AoE radius. | 15 | 1 Hour | +1 |
 | Bolts                    | 1    | 20              | Ammunition for a crossbow. | 20 | 10 Minutes |  |
 | Calming Tea              | 1    | 3               | This herbal tea has the ability to calm nerves. Removes [Berserk](./strive-core.md#berserk), [Jealous](./strive-core.md#jealous) and [Terrified](./strive-core.md#terrified). Best enjoyed steaming hot, but not necessarily. | 5 | 10 Minutes |  |
@@ -605,6 +604,13 @@ See also the [Core rule's Asset appendix](./strive-core.md#assets-appendix).
 | Smoke Bomb               | 1    | 3               | A small fragile shell, filled with a very fine powder which when broken causes an area in a `Q` Square AoE radius to be covered in smoke. It is impossible to see through and ranged attacks within or through the smoke-covered area suffer `+2` Ob. Victims caught in the smoke may be forced to cough. The smoke lasts `6` Turns or `30` seconds. | 20 | 10 Minutes |  |
 | Throwing Blade           | 1    | 6               | A small weighted blade, like a knife or star, well suited to being thrown. Can be used in melee and acts like a [Dagger](#light-blade), but with a penalty of `-2D` to attack and Defense. `+1D` when [Thrown](./strive-core.md#throwing-accuracy) for a ranged attack. <br> `≤ 1` Hit: `4 + Str` Piercing <br> `= 2` Hits: `6 + Str` Piercing <br> `≥ 3` Hits: `8 + Str` Piercing | 20 | 1 Hour |  |
 | Tools                    | 1    | 2               | Various metal-made, proper tools. | 30 | 1 Hour |  |
+| Trap: Acid               | 1    | 3               | A small metal frame with a central pressure pad which, when stepped on, sprays acid upwards at the victim. Causes `(Q * 2) + 6` Acid damage. | 45 | 1 Hour |  |
+| Trap: Bear               | 1    | 3               | A metal-jawed trap, capable of breaking bone and flesh. Deals `Q * 2` Bludgeoning and `Q * 2` Piercing damage. Causes [Rooted](./strive-core.md#rooted) in the victim, which costs `3` AP to clear. | 45 | 1 Hour |  |
+| Trap: Cage/Net           | 1    | 1               | When tripped, a cage springs up around, or a net pulls up over the victim. They are trapped within until they can manage to free themselves. `Q` equals the Ob for Tests to cut or break the cage or net. | 45 | 1 Hour |  |
+| Trap: Powder             | 1    | 3               | When tripped, coughs up a cloud of powder in a up to `Q` Square radius, which will impede all vision through it at a Ob `+2` penalty. The powder may also be flammable, poisonous or Illusionist's Powder. | 45 | 1 Hour |  |
+| Trap: Rune/Scroll        | 1    | 3               | When tripped, a complex mechanism pours vial of mage blood onto the Rune or Scroll, in precise intervals to agitate the magic within. | 45 | 1 Hour |  |
+| Trap: Shooter            | 1    | 3               | A crossbow or firearm is wired to shoot in a set direction by a careless trespasser. The bolt or bullet will travel up to `20` Squares far and deal `Q * 3` Piercing damage. May also shoot poison darts or other types of ammo. | 10 | 5 Minutes |  |
+| Trap: Windfist           | 1    | 2               | A pressure plate or wire opens the seal on a pressurized container. The escaping gas hits the victim with an enormous force, throwing them `Q * 2` Squares far. | 45 | 1 Hour |  |
 
 ### Armor
 
@@ -974,6 +980,7 @@ The ability to create every-day items and tools from metal.
 
 [Crafting](./strive-core.md#crafting--research-projects):
 * [Tools](#general-assets) (2x)
+* [Trap: Bear](#general-assets) (1x)
 
 #### Bow-Making (Agi/Awar)
 The ability to craft bows and crossbows. 
@@ -999,7 +1006,13 @@ The ability to make comfortable, well-fitting and decorated clothes.
 The ability to plan and construct complex mechanisms and devices. 
 
 [Crafting](./strive-core.md#crafting--research-projects):
-* [Bear Trap](#general-assets) (1x)
+* [Trap: Acid](#general-assets) (1x)
+* [Trap: Bear](#general-assets) (1x)
+* [Trap: Cage/Net](#general-assets) (1x)
+* [Trap: Powder](#general-assets) (1x)
+* [Trap: Rune/Scroll](#general-assets) (1x)
+* [Trap: Shooter](#general-assets) (1x)
+* [Trap: Windfist](#general-assets) (1x)
 * [Magic Recorder](#general-assets) (1x)
 
 #### Fletching (Agi/Awar)
@@ -1143,6 +1156,7 @@ The setting of arcane traps and creation of arcane artifacts and materials.
 [Crafting](./strive-core.md#crafting--research-projects):
 * [Arcane Engine](#arcane-engine) (1x)
 * [Imbued weapon](#weapon-traits) (1x)
+* [Magic Recorder](#general-assets) (1x)
 * [Magic Scroll](#magic-scrolls) (1x)
 
 | Level | Name                 | AP | Distance                | Ob                             | Effect(s)                      | Backfire Effect(s) |
@@ -1842,7 +1856,7 @@ This variant has full dark-red fur and much shorter tusks. It moves deftly, albe
 
 **Traits**: [Vulnerable](strive-core.md#vulnerable-2-points--2-cr) to Bleeding `+6`, [Poisoner](strive-core.md#poisoner--4-points-2-cr)
 
-**Assets**: Tattered Rags (Clothing), Javelin x8, Bear Trap x3
+**Assets**: Tattered Rags (Clothing), Javelin x8, Trap: Bear x3
 
 **Skills**:
 * Observation, Level: `3`
