@@ -2549,7 +2549,7 @@ For any ally next to you, who's also using a shield, you both gain `+1D` on your
 #### Trapping (Awar/Wit)
 Setting traps in places where they're difficult to detect and the ability to disarm them. Used to set traps such as bear traps, pits filled with spikes, land mines and so on.
 
-When setting a trap, roll an Ob `0` Test. The number of Hits represent the quality Level of the trap, which determines how hard it is to detect and disarm. `0` Hits means the trap isn't at all concealed. You may also place traps during combat, and as long as some foe can see you, your trap will never be concealed. 
+When setting a trap, roll an Ob `0` Test. The number of Hits results in the Quality Level of the trap, which determines how hard it is to detect and disarm. `0` Hits means the trap isn't at all concealed. You may also place traps during combat, and as long as some foe can see you, your trap will never be concealed, in which case you also don't need to roll. 
 
 #### Throwing (Agi/Str)
 General expertise at throwing things. This includes weapons as well as non-weapon objects. 
