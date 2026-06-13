@@ -200,8 +200,6 @@ You may choose to play without the Momentum system for a less heroic style of ga
   - [Foraging \& Hunting](#foraging--hunting)
 - [General Interactions](#general-interactions)
   - [Appraisal](#appraisal)
-  - [Persuasion, Intimidation \& Deception](#persuasion-intimidation--deception)
-    - [Are they lying?](#are-they-lying)
 - [Appendix](#appendix)
   - [Character Creation](#character-creation)
     - [Determine Life Path](#determine-life-path)
@@ -261,6 +259,7 @@ You may choose to play without the Momentum system for a less heroic style of ga
         - [Commanding Specialization - Taskmaster](#commanding-specialization---taskmaster)
       - [Entertainment (Agi/Wit)](#entertainment-agiwit)
       - [Mercantilism (Awar/Wit)](#mercantilism-awarwit)
+      - [Persuasion (Wit/Wit)](#persuasion-witwit)
       - [Riding (Agi/Awar)](#riding-agiawar)
       - [Self-Control (Tough/Tough)](#self-control-toughtough)
     - [Knowledge Skills](#knowledge-skills)
@@ -299,6 +298,7 @@ You may choose to play without the Momentum system for a less heroic style of ga
     - [Thorough Artisan](#thorough-artisan)
     - [Tough Skin](#tough-skin)
     - [Warcrobat](#warcrobat)
+    - [Wordsmith](#wordsmith)
   - [List of Titles of Renown](#list-of-titles-of-renown)
     - [Heart of Stone](#heart-of-stone)
     - [Hero of Many Victories](#hero-of-many-victories)
@@ -2149,51 +2149,6 @@ The Ob depends on circumstance. How much time is available to appraise? How unus
 
 Of course, a trader may be experienced in the goods and wares they peddle. [Mercantilism](#mercantilism-awarwit) may be used as a catch-all for appraisal, but at a penalty of `+1` Ob, as a pure trader will never be able to ascertain the quality as well as a craftsperson could.
 
-## Persuasion, Intimidation & Deception
-There are no dedicated "social interaction" [Skills](#skills) for the purposes of persuading people. Instead, Characters *choose* one of their known Skills relevant to the topic they wish to change another Character's view about. 
-
-Unlike violent actions (= [Combat](#combat)), where outcomes are clear and binary results (you hit or you miss), social maneuvering is much more complex and varied. Generally, you have three methods available: **persuasion**, **deception** and **intimidation**. Outside influences factor into the success of each of these methods. 
-
-When deciding on whether dice rolls are needed, keep in mind that a roll is only necessary, if the outcome is unclear. Only if the NPC has no clear reason to obey or believe as desired, should a roll be necessary. 
-
-That is the difference to combat. Combat cannot be played out in reality and will always have to be an abstraction, which only the dice can resolve. But social interaction *can* be played out at the table. After all, the medium for social interaction is communication, which is what you're already doing, just by playing the game. 
-
-Despite that, sometimes you may not clearly know how a NPC will react. That is when dice rolls may help to resolve the situation. 
-
-To ***persuade*** someone to see your point, you choose a Known Skill pertaining to the subject and make a roll. If you have no Known Skill to roll with, you may fall back to rolling your [Wit](#wit-wit) or [Awareness](#awareness-awar). The other Character may [Oppose](#opposed-test) your roll with the same Skill or Attribute.  
-
-> For example, to convince another Character that their methods for treating an ailment are incorrect, you might try to *persuade* with an opposed Medicine Test. 
-> 
-> If you achieve more Hits than them, they should understand you might be correct in your assessment and begin to doubt their own opinion. But if you don't, then they may just as well stick with their beliefs. 
-
-Given the circumstances and what you're trying to achieve, the GM may determine that your Ob will be greater or less. Does the other Character know and trust you? Do you have knowledge they do not? Do you have evidence? These and other such questions should affect the difficulty in convincing someone. 
-
-> For example, convincing a guard that accepting a bribe to let you pass may be in their own best interest, because you're about to prevent a plot that could lead to war, may be a lot harder when the guard has no reason to believe you. 
-> 
-> In that case, no matter how well you present your argument, if the guard has absolutely never heard or seen any evidence prior to your visit, then convincing them should be much harder than if the guard already had their suspicions about a secret plot. 
-
-For the purposes of convincing someone, you needn't always speak truthfully. You may ***deceive*** another Character to the same effect as speaking the truth - at least for as long as the lie is not discovered. For this method, the [Acting](#acting-awarwit) Skill may be invaluable. But you could also lie about a subject that you know well. You could invent facts, based on facts that your Character and the other Character may have. 
-
-And lastly, ***intimidation*** is another method to try and get what you want, by forcing another Character to obey. Mechanically, this is no different from persuasion. Pick a Skill and explain how you use it. After all, intimidation isn't always just the threat of violence. Blackmailing also falls into this category. 
-
-Just as with persuasion, how much power you can exert over another Character also depends on circumstance. Can you procure incriminating evidence to make them believe you mean business? Perhaps you can threaten their family, but why should they believe you have the means to follow up on your threats? A GM may and should adjust the Ob as they see fit. 
-
-Always be mindful about when to use which of the three methods. 
-
-* **Persuasion** is the most difficult method and perhaps the slowest, but doesn't harm trust. In fact, in can even help build trust. This is the healthy way to build and maintain relationships.
-* **Deception**, while not easy, may be easier and quicker. Most people don't take kindly to deception. This method is very harmful to trust, but only if the deception is discovered. 
-* **Intimidation** is perhaps the easiest and quickest way to progress, but is also sure to produce **enemies**. 
-
-### Are they lying?
-Of course, all of this begs the question - how to know if another Character is lying? "Does my Character believe them?" Barring any evidence or knowledge to determine the answer, Characters can only determine whether they believe the *act* of the other Character. Does it *seem* like they're speaking the truth?
-
-At that point an [Opposed Test](#opposed-test) may be made. The Defender is the Character being scrutinized, who Tests [Acting](#acting-awarwit) versus the Attacker's [Observation](#observation-awarawar). For this procedure it does not matter, whether the Defender was *actually* lying. Someone speaking the truth is Tested the same way as someone speaking a lie. That is because the Attacker can only go by whether it *looks*, *sounds* or *feels* like they're being deceived. 
-
-* If the Attacker wins...
-  * ...and the other Character **was** lying, they are given a hint that the other Character doesn't seem trustworthy. They are **not** told how exactly it was a lie, only that it *seems* that something is off about *what* was said or *how* it was said. 
-  * ...and the other Character **wasn't** lying, they are told the other Character seems trustworthy. 
-* If the Attacker loses, then they're told the other Character seems trustworthy, regardless of whether they were lying. 
-
 # Appendix
 The appendix contains important and less important lists, for reference only when needed. 
 
@@ -2631,6 +2586,17 @@ See [Trade](#trade) on how to use this Skill on a more abstract level.
 
 Can also be used as a sort of catch-all Skill for [Appraisal](#appraisal), but at a penalty of `+1` Ob. 
 
+#### Persuasion (Wit/Wit)
+Cunning use of words to influence another Character's way of thinking.
+
+Whether you speak truth or falsehood makes no difference to your audience. You want them to believe your words either way - and mechanically speaking, this way your intent isn't telegraphed. Furthermore, you are encouraged to [Fork](#skill-forking) other Skills into your Persuasion Tests that may be related to the topic of conversation. 
+
+Of course, this begs the question - how to know if another Character *is* lying? Barring any evidence or knowledge to the contrary, Characters can only determine whether they believe the *act* of the other Character. Does it *seem* like they're speaking the truth? You may Oppose their Persuasion attempt with [Observation](#observation-awarawar). But even if you succeed, your GM should not outright tell you whether you *are* being deceived. Instead, they should give you hints - faults in the *act* of the other Character - a nervous twitch, a strange pitch in the voice, avoiding eye-contact, visible sweat and similar tells. And even then, *you* will have to figure out whether you are being deceived. 
+
+If you are trying to convince someone else to act or behave a certain way, they may Oppose this with [Self-Control](#self-control-toughtough). You may also try to intimidate someone else to the same effect. Whether you succeed should largely depend on whether circumstance favors your side. You may also intimidate someone by blackmailing them. But whether you succeed depends on whether you can prove your threats aren't empty. 
+
+Successfully persuading someone should rarely yield an absolute result. Even if your attempt has scored many Hits and your words are masterfully spoken, another Character may still remain sceptical. They may believe your words, but you won't change their entire way of thinking *just like that*. Like real people in the real world, the other Character may ponder your words for a while before agreeing or even disagreeing. But they are likely open to further conversation.
+
 #### Riding (Agi/Awar)
 Riding and controling a mount. In and outside of [Combat](#combat), a rider will inherit the [Speed](#combat-movement) of the mount they're on. 
 
@@ -2807,7 +2773,7 @@ Whenever you gain Grit Points, gain `+1` more.
 Gain the ability to re-direct a Forced-Movement onto an adjacent Character, at the cost of `-1` AP.
 
 ### Innate Armor
-Whether naturally tough-skinned or artificially enhanced, your hide proves especially resistant against a chosen [type of damage](#damage-types), with `+6` points of armor. 
+Whether naturally tough-skinned or artificially enhanced, your hide proves especially resistant against a chosen [type of damage](#damage-types), with `+3` points of armor. 
 
 ### Long Arms
 All your Melee Attacks can be used against targets up to two Squares away. You effectively implicitly gain the [Long Reach Weapon Trait](#long-reach) for all Attacks.
@@ -2822,7 +2788,7 @@ Improve your [Base Initiative](#base-initiative-bi) by `+3`
 For a Test to Shrug Off a [Condition](#condition), you may add `+1` [Compensation Point](#compensation-points) at the cost of `-1` AP and `+1` [Exhaustion](#exhaustion).
 
 ### Substitutional Talent
-For one of your Skills, change one of its Base Attributes to any other Attribute of your choice.
+For one of your Skills, change its Base Attributes to any other Attributes of your choice.
 
 ### Steadfast
 Increases [Stability](#stability-stabil) by `+2`. 
@@ -2834,7 +2800,7 @@ Increases [Stability](#stability-stabil) by `+2`.
 Every Asset you craft starts with Quality Level `+1`. Ignore the first [Project Skill Test](#progressing-a-project) you fail and treat it as a success, instead.
 
 ### Tough Skin
-Raise your base HP by `+5`. 
+Raise your base HP by `+10`. 
 
 ### Warcrobat
 Combining agility with deadliness, elevating mere skill at arms to an elegant art. Grants `+1` [Compensation Point](#compensation-points) to all Acrobatics Tests.
@@ -2849,6 +2815,9 @@ Adds the following Expertises to [Acrobatics](#acrobatics-agistr):
 | Bounce Back          | /  | /           | **Reaction**: When knocked down immediately get back up, at no [AP](#action-points-ap) cost. You must not be wearing armor. Can only be used once per Round. |
 | Area Evasion         | 1  | 1           | **Reaction**: Suffer... <br> `≤ 1` Hit: `2` fewer points of AoE damage. <br> `= 2` Hits: `4` fewer points of AoE damage. <br> `≥ 3` Hits: `6` fewer points of AoE damage. |
 | Shield Breaker       | /  | /           | **Passive**: You know to exploit the lethargy of shields and can circumvent their defensive bonuses. Against you, shields always count as `+1` degree of [Flanked](#flanking)! |
+
+### Wordsmith
+Your cunning with words is unmatched. You gain `+1` [Compensation Point](#compensation-points) to [Persuasion](#persuasion-witwit) Tests. 
 
 ## List of Titles of Renown
 The following is a list of all [Titles of Renown](#titles-of-renown) of the core rules, a special type of [Character Trait](#character-traits). 
@@ -2892,9 +2861,9 @@ When in [Combat](#combat) with a non-sapient creature you have defeated before, 
 ### Paragon
 > Just yesterday alone, they rescued a kitten from a tree, helped me do my taxes and then bagged a dangerous wanted criminal!
 
-**Prerequisites**: Apprehended a dangerous criminal and stood as a beacon of morality in at least one community that was plagued by the criminal. 
+**Prerequisites**: Apprehended a dangerous criminal and stood as a beacon of morality in at least one community that was plagued by them. 
 
-The local authorities will be much more open to the idea of assisting you in your own endeavours. 
+The local authorities will be much more open to the idea of assisting you in your own endeavours. You gain `+1` [Compensation Point](#compensation-points) to [Persuasion](#persuasion-witwit) Tests, but not when intimidating.
 
 ### Pugilist
 > Ey you! I don' much like de cut o' yo' jib! I think I'mma change dat!
@@ -2908,28 +2877,28 @@ The local authorities will be much more open to the idea of assisting you in you
 
 **Prerequisites**: Successfully complete at least `3` deeply immoral jobs. 
 
-You find it much easier to haggle for better payment conditions with potential contractors and to intimidate those who know your name. 
+You find it much easier to haggle for better payment conditions with potential contractors and to intimidate those who know your name. You gain `+1` [Compensation Point](#compensation-points) to [Persuasion](#persuasion-witwit) Tests, but only when intimidating.
 
 ### Savior Of The People
 > Our eternal gratitude is yours! Oh, if only we could ever properly repay you...
 
 **Prerequisites**: Saved an entire community from certain doom.
 
-The people you saved will gladly help you in all your endeavours, if they can. You will find food and bedding for free and may even be gifted the odd family heirloom as thanks. 
+The people you saved will gladly help you in all your endeavours, if they can. You will find food and bedding for free and may even be gifted the odd family heirloom as thanks. You gain `+1` [Compensation Point](#compensation-points) to [Persuasion](#persuasion-witwit) Tests, but not when intimidating.
 
 ### Wanted
 > Yeah, I got a bounty in over 17 places you've never even heard of. So don't mess with me!
 
 **Prerequisites**: You've become a wanted criminal. 
 
-While you should avoid the authorities, you've some clout with the criminal underworld. You may be approached with job offers of a shady nature, or a way to clear your name. `+1` to [Stealth](#stealth-agiawar).
+While you should avoid the authorities, you've some clout with the criminal underworld. You may be approached with job offers of a shady nature, or a way to clear your name. `+1` to [Stealth](#stealth-agiawar). You gain `+1` [Compensation Point](#compensation-points) to [Persuasion](#persuasion-witwit) Tests, but only when intimidating.
 
 ### Zealot
 > Unfazed by heresy, unbowed by adversity, unfaltering in my resolve - I am the torch in the dark! I think.
 
 **Prerequisites**: Proved your conviction through incredible acts of faith. And eliminated all opposition to the faith you come across. 
 
-Your [Self-Control](#self-control-toughtough) is increased by `+1`, but you suffer `+1` Ob when trying to restrain yourself in the face of enemies of your faith. 
+Your [Self-Control](#self-control-toughtough) is increased by `+1`, but you suffer `+1` Ob when trying to restrain yourself in the face of enemies of your faith. You gain `+1` [Compensation Point](#compensation-points) to [Persuasion](#persuasion-witwit) Tests, but only when intimidating.
 
 ## List of Conditions
 The following is a list of all [Conditions](#condition) of the core rules. 
