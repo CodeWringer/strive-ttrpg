@@ -200,8 +200,6 @@ You may choose to play without the Momentum system for a less heroic style of ga
   - [Foraging \& Hunting](#foraging--hunting)
 - [General Interactions](#general-interactions)
   - [Appraisal](#appraisal)
-  - [Persuasion, Intimidation \& Deception](#persuasion-intimidation--deception)
-    - [Are they lying?](#are-they-lying)
 - [Appendix](#appendix)
   - [Character Creation](#character-creation)
     - [Determine Life Path](#determine-life-path)
@@ -261,6 +259,7 @@ You may choose to play without the Momentum system for a less heroic style of ga
         - [Commanding Specialization - Taskmaster](#commanding-specialization---taskmaster)
       - [Entertainment (Agi/Wit)](#entertainment-agiwit)
       - [Mercantilism (Awar/Wit)](#mercantilism-awarwit)
+      - [Persuasion (Wit/Wit)](#persuasion-witwit)
       - [Riding (Agi/Awar)](#riding-agiawar)
       - [Self-Control (Tough/Tough)](#self-control-toughtough)
     - [Knowledge Skills](#knowledge-skills)
@@ -2149,51 +2148,6 @@ The Ob depends on circumstance. How much time is available to appraise? How unus
 
 Of course, a trader may be experienced in the goods and wares they peddle. [Mercantilism](#mercantilism-awarwit) may be used as a catch-all for appraisal, but at a penalty of `+1` Ob, as a pure trader will never be able to ascertain the quality as well as a craftsperson could.
 
-## Persuasion, Intimidation & Deception
-There are no dedicated "social interaction" [Skills](#skills) for the purposes of persuading people. Instead, Characters *choose* one of their known Skills relevant to the topic they wish to change another Character's view about. 
-
-Unlike violent actions (= [Combat](#combat)), where outcomes are clear and binary results (you hit or you miss), social maneuvering is much more complex and varied. Generally, you have three methods available: **persuasion**, **deception** and **intimidation**. Outside influences factor into the success of each of these methods. 
-
-When deciding on whether dice rolls are needed, keep in mind that a roll is only necessary, if the outcome is unclear. Only if the NPC has no clear reason to obey or believe as desired, should a roll be necessary. 
-
-That is the difference to combat. Combat cannot be played out in reality and will always have to be an abstraction, which only the dice can resolve. But social interaction *can* be played out at the table. After all, the medium for social interaction is communication, which is what you're already doing, just by playing the game. 
-
-Despite that, sometimes you may not clearly know how a NPC will react. That is when dice rolls may help to resolve the situation. 
-
-To ***persuade*** someone to see your point, you choose a Known Skill pertaining to the subject and make a roll. If you have no Known Skill to roll with, you may fall back to rolling your [Wit](#wit-wit) or [Awareness](#awareness-awar). The other Character may [Oppose](#opposed-test) your roll with the same Skill or Attribute.  
-
-> For example, to convince another Character that their methods for treating an ailment are incorrect, you might try to *persuade* with an opposed Medicine Test. 
-> 
-> If you achieve more Hits than them, they should understand you might be correct in your assessment and begin to doubt their own opinion. But if you don't, then they may just as well stick with their beliefs. 
-
-Given the circumstances and what you're trying to achieve, the GM may determine that your Ob will be greater or less. Does the other Character know and trust you? Do you have knowledge they do not? Do you have evidence? These and other such questions should affect the difficulty in convincing someone. 
-
-> For example, convincing a guard that accepting a bribe to let you pass may be in their own best interest, because you're about to prevent a plot that could lead to war, may be a lot harder when the guard has no reason to believe you. 
-> 
-> In that case, no matter how well you present your argument, if the guard has absolutely never heard or seen any evidence prior to your visit, then convincing them should be much harder than if the guard already had their suspicions about a secret plot. 
-
-For the purposes of convincing someone, you needn't always speak truthfully. You may ***deceive*** another Character to the same effect as speaking the truth - at least for as long as the lie is not discovered. For this method, the [Acting](#acting-awarwit) Skill may be invaluable. But you could also lie about a subject that you know well. You could invent facts, based on facts that your Character and the other Character may have. 
-
-And lastly, ***intimidation*** is another method to try and get what you want, by forcing another Character to obey. Mechanically, this is no different from persuasion. Pick a Skill and explain how you use it. After all, intimidation isn't always just the threat of violence. Blackmailing also falls into this category. 
-
-Just as with persuasion, how much power you can exert over another Character also depends on circumstance. Can you procure incriminating evidence to make them believe you mean business? Perhaps you can threaten their family, but why should they believe you have the means to follow up on your threats? A GM may and should adjust the Ob as they see fit. 
-
-Always be mindful about when to use which of the three methods. 
-
-* **Persuasion** is the most difficult method and perhaps the slowest, but doesn't harm trust. In fact, in can even help build trust. This is the healthy way to build and maintain relationships.
-* **Deception**, while not easy, may be easier and quicker. Most people don't take kindly to deception. This method is very harmful to trust, but only if the deception is discovered. 
-* **Intimidation** is perhaps the easiest and quickest way to progress, but is also sure to produce **enemies**. 
-
-### Are they lying?
-Of course, all of this begs the question - how to know if another Character is lying? "Does my Character believe them?" Barring any evidence or knowledge to determine the answer, Characters can only determine whether they believe the *act* of the other Character. Does it *seem* like they're speaking the truth?
-
-At that point an [Opposed Test](#opposed-test) may be made. The Defender is the Character being scrutinized, who Tests [Acting](#acting-awarwit) versus the Attacker's [Observation](#observation-awarawar). For this procedure it does not matter, whether the Defender was *actually* lying. Someone speaking the truth is Tested the same way as someone speaking a lie. That is because the Attacker can only go by whether it *looks*, *sounds* or *feels* like they're being deceived. 
-
-* If the Attacker wins...
-  * ...and the other Character **was** lying, they are given a hint that the other Character doesn't seem trustworthy. They are **not** told how exactly it was a lie, only that it *seems* that something is off about *what* was said or *how* it was said. 
-  * ...and the other Character **wasn't** lying, they are told the other Character seems trustworthy. 
-* If the Attacker loses, then they're told the other Character seems trustworthy, regardless of whether they were lying. 
-
 # Appendix
 The appendix contains important and less important lists, for reference only when needed. 
 
@@ -2630,6 +2584,17 @@ Skill at knowing or getting to know the value of goods and services. Also useful
 See [Trade](#trade) on how to use this Skill on a more abstract level. 
 
 Can also be used as a sort of catch-all Skill for [Appraisal](#appraisal), but at a penalty of `+1` Ob. 
+
+#### Persuasion (Wit/Wit)
+Cunning use of words to influence another Character's way of thinking.
+
+Whether you speak truth or falsehood makes no difference to your audience. You want them to believe your words either way - and mechanically speaking, this way your intent isn't telegraphed. Furthermore, you are encouraged to [Fork](#skill-forking) other Skills into your Persuasion Tests that may be related to the topic of conversation. 
+
+Of course, this begs the question - how to know if another Character *is* lying? Barring any evidence or knowledge to the contrary, Characters can only determine whether they believe the *act* of the other Character. Does it *seem* like they're speaking the truth? You may Oppose their Persuasion attempt with [Observation](#observation-awarawar). But even if you succeed, your GM should not outright tell you whether you *are* being deceived. Instead, they should give you hints - faults in the *act* of the other Character - a nervous twitch, a strange pitch in the voice, avoiding eye-contact, visible sweat and similar tells. And even then, *you* will have to figure out whether you are being deceived. 
+
+If you are trying to convince someone else to act or behave a certain way, they may Oppose this with [Self-Control](#self-control-toughtough). You may also try to intimidate someone else to the same effect. Whether you succeed should largely depend on whether circumstance favors your side. You may also intimidate someone by blackmailing them. But whether you succeed depends on whether you can prove your threats aren't empty. 
+
+Successfully persuading someone should rarely yield an absolute result. Even if your attempt has scored many Hits and your words are masterfully spoken, another Character may still remain sceptical. They may believe your words, but you won't change their entire way of thinking *just like that*. Like real people in the real world, the other Character may ponder your words for a while before agreeing or even disagreeing. But they are likely open to further conversation.
 
 #### Riding (Agi/Awar)
 Riding and controling a mount. In and outside of [Combat](#combat), a rider will inherit the [Speed](#combat-movement) of the mount they're on. 
