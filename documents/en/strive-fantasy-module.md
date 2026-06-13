@@ -311,7 +311,7 @@ The casting of spells can be interrupted! Either automatically, if the mage is i
 ## Spell-Backfire
 A **Spell-Backfire** is a critical blunder of a mage! They suffer negative effects and their spell does not get cast the way they intended!
 
-Usually, a spell notes the effects that happen when a Backfire occurs. In case there are no specific effects, the mage suffers `+1` point of [Exhaustion](./strive-core.md#exhaustion). 
+Usually, a spell notes the effects that happen when a Backfire occurs. In case there are no specific effects, the mage suffers `+1` [Strain](./strive-core.md#stamina--strain). 
 
 It is possible for another nearby mage to prevent the Spell-Backfire, if they [negate the Spell](#magic-negation) as a Reaction. This also applies even if the spell wouldn't affect them. If the other mage's attempt to negate the spell *also* Backfires, then both of the mages suffer the spell's effect at one greater [Intensity](#spell-intensity-si) level. 
 
@@ -590,13 +590,13 @@ See also the [Core rule's Asset appendix](./strive-core.md#assets-appendix).
 | Explosive Arrows         | 1    | 10              | Ammunition for a bow that causes bow attacks to only deal `1D4 Bludgeoning + (1D4 + Q) Burning`.  | 45 | 1 Hour |  |
 | Fire Pot (Potion)        | 1    | 3               | An ancient recipe, this concoction bursts into flame when exposed to air for several seconds. It causes severe burns for `QD6 Burning` damage in a `2` Square AoE adius. Consumed on use. | 30 | 1 Hour |  |
 | Illusionist's Powder     | 1    | 2               | A small amount of weakly iridescently shimmering powder. When scattered, the dust remains suspended in mid-air and settles in an image of the making alchemist's choosing, which at a distance can seem perfectly real. It takes a successful Test at Ob `Q + 1` to see through the ruse. This image lasts `QD10` minutes. | 30 | 1 Hour |  |
-| Invigorating Potion      | 1    | 3               | The drinker of this potion feels refreshed and invigorated! Reduces Exhaustion by `Q` and clears the [Exhausted](./strive-core.md#exhausted) condition. Beware this potion can only be safely imbibed twice in a `24` hour cycle. If drunk more, roll a `D6`. If it is a Hit, you're in luck! But if not, you instead suffer `+2` points of [Exhaustion](./strive-core.md#exhaustion). | 20 | 1 Hour |  |
+| Invigorating Potion      | 1    | 3               | The drinker of this potion feels refreshed and invigorated! Increases [Stamina](./strive-core.md#stamina--strain) by `Q` and clears the [Exhausted](./strive-core.md#exhausted) condition. Beware this potion can only be safely imbibed twice in a `24` hour cycle. If drunk more, roll a `D6`. If it is a Hit, you're in luck! But if not, you instead suffer `+1` [Strain](./strive-core.md#stamina--strain). | 20 | 1 Hour |  |
 | Jewelry                  | 1    | 2               | Precious apparel. | 50 | 1 Hour |  |
 | Keg Of Alcohol           | 2    | 1               | A keg of alcohol. Highly flammable. If set fire to, will explode in a small torrent of flame, dealing `Q * 3` Burning damage to all in a `2` Square AoE radius. | 30 | 1 Day |  |
 | Laudanum Potion          | 1    | 2               | This wonderous substance can quell pain and calm nerves within seconds. Also effective against diarrhea. Upon imbibing, sets one Active [Injury](./strive-core.md#injury) to Treated. After `24` hours, the [Injury](./strive-core.md#injury) is set back to Active, even if it was also properly Treated in the meantime. Also, must succeed a [Self-Control](./strive-core.md#self-control-toughtough) Test at Ob `3`, or else become [Addicted](./strive-core.md#drug-addicted) to the stuff. | 20 | 1 Hour |  |
 | Love Potion              | 1    | 2               | Anyone drinking this potion will become virtually irresistible to anyone close enough to smell their air. Victims have to succeed a [Self-Control](./strive-core.md#self-control-toughtough) Test at Ob `Q` or else feel **very strongly compelled** to fulfill the user's every wish and desire (provided this wouldn't obviously cause harm to the victim). | 50 | 1 Hour | +1 |
 | Magic Recorder           | 1    | 3               | A small spherical device, made from various metals with intricate patterns on its surface. This device can capture [Magic Echoes](#magic-echoes) and record magic as it is being cast. Also captures fragments of thoughts from its bearer while it is active. | 50 | 6 Hours |  |
-| Night-Eye Potion         | 1    | 3               | Grants the ability to see reasonably well under low-light conditions, up to `Q * 3` Squares around them, for an hour. Beware that under the influence of this potion, exposure to bright light is extremely difficult to endure and will cause `+1` [Exhaustion](./strive-core.md#exhaustion) for every **minute** of exposure. | 30 | 1 Hour |  |
+| Night-Eye Potion         | 1    | 3               | Grants the ability to see reasonably well under low-light conditions, up to `Q * 3` Squares around them, for an hour. Beware that under the influence of this potion, exposure to bright light is extremely difficult to endure and will cause `-1` [Stamina](./strive-core.md#stamina--strain) for every **minute** of exposure. | 30 | 1 Hour |  |
 | Paralyzing Poison        | 1    | 2               | Causes a victim's muscles to seize up. They suffer `-1` AP each Turn and are forced to move sluggishly, at only half their usual movement speed. If this poison is suffered twice, the victim seizes up completely and is unable to move, at all. This poison can be resisted once upon suffering it, with [Toughness](./strive-core.md#toughness-tough), at Ob `Q`. If unsuccessful, the effect will last `Q` hours. | 75 | 1 Hour | +2 |
 | Poison Arrows            | 1    | 20              | Ammunition for a bow that deals `Q * 2` additional points of Poison damge. A small poison-filled vial tips these arrows, ready to burst upon impact. | 30  | 30 Minutes |  |
 | Poison Resistance Potion | 1    | 2               | Once imbibed, reduces all incurred poison damage by `Q * 2`, for up to `Q` hours. | 30 | 1 Hour |  |
@@ -635,7 +635,7 @@ A set of light armor that doesn't impede the wearer much. Example: cloth armor l
 #### Medium Armor
 A set of medium armor with a good balance of protection and weight. Example: full chain mail armor, with or without a helmet. 
 
-* `+1` permanent [Exhaustion](./strive-core.md#exhaustion) while worn. 
+* `+1` [Strain](./strive-core.md#stamina--strain) while worn. 
 * `+1` [Stability](./strive-core.md#stability-stabil) while worn.
 * `-1` to [Stealth](./strive-core.md#stealth-agiawar) while worn. 
 * `-1D` to any Defense Tests while worn. 
@@ -653,7 +653,7 @@ A set of medium armor with a good balance of protection and weight. Example: ful
 #### Heavy Armor
 A set of heavy armor with excellent protection, at the cost of encumbering the wearer greatly. Example: full plate armor. 
 
-* `+2` permanent [Exhaustion](./strive-core.md#exhaustion) while worn.
+* `+2` [Strain](./strive-core.md#stamina--strain) while worn.
 * `+2` [Stability](./strive-core.md#stability-stabil) while worn.
 * `-3` to [Stealth](./strive-core.md#stealth-agiawar) while worn. 
 * `-2D` to any Defense Tests while worn. 
@@ -692,7 +692,7 @@ A small round or oblong shield commonly held as far from the body as possible, t
 #### Medium Shield
 A medium-sized, round or kite-shaped shield made from tough wood and leather or even metal, which offers good protection against most attacks, while not encumbering the wielder too much. 
 
-* `+1` permanent [Exhaustion](./strive-core.md#exhaustion) while wielded. 
+* `+1` [Strain](./strive-core.md#stamina--strain) while wielded. 
 * `+1` [Stability](./strive-core.md#stability-stabil) while wielded.
 * Bulk: `2`
 * PI: `60`, TI: `6 Hours`
@@ -704,7 +704,7 @@ A medium-sized, round or kite-shaped shield made from tough wood and leather or 
 #### Heavy Shield
 A large, kite-shaped or rectangular shield, which can protect every part of the fighter, from the shoulder down to the feet. Its weight is very tiring. 
 
-* `+2` permanent [Exhaustion](./strive-core.md#exhaustion) while wielded.
+* `+2` [Strain](./strive-core.md#stamina--strain) while wielded.
 * `+2` [Stability](./strive-core.md#stability-stabil) while wielded.
 * Bulk: `4`
 * PI: `75`, TI: `6 Hours`
@@ -857,7 +857,7 @@ Traits: [Melee](./strive-core.md#melee), [FS](./strive-core.md#free-strike-fs): 
 | Level | Name                 | AP | Ob          | Description <br> Damage                   |
 | ----- | -------------------- | -- | ----------- | ----------------------------------------- |
 | 0     | Smash                | 2  | Opposed     | Strike a ST. <br> `≤ 1` Hit: `3 + Q + Str` Bludgeoning <br> `= 2` Hits: `5 + Q + Str` Bludgeoning <br> `≥ 3` Hits: `7 + Q + Str` Bludgeoning |
-| 0     | Knockout Blow        | 2  | Oppose      | Strike a ST. <br> `≤ 1` Hit: `2 + Q + Str` Bludgeoning; `+1` [Exhaustion](./strive-core.md#exhaustion) to the target. <br> `= 2` Hits: `4 + Q + Str` Bludgeoning; `+2` [Exhaustion](./strive-core.md#exhaustion) to the target. <br> `≥ 3` Hits: `6 + Q + Str` Bludgeoning; `+3` [Exhaustion](./strive-core.md#exhaustion) to the target. |
+| 0     | Knockout Blow        | 2  | Oppose      | Strike a ST. <br> `≤ 1` Hit: `2 + Q + Str` Bludgeoning; `-1` [Stamina](./strive-core.md#stamina--strain) to the target. <br> `= 2` Hits: `4 + Q + Str` Bludgeoning; `-2` [Stamina](./strive-core.md#stamina--strain) to the target. <br> `≥ 3` Hits: `6 + Q + Str` Bludgeoning; `-3` [Stamina](./strive-core.md#stamina--strain) to the target. |
 | 0     | Mighty Smash         | 2  | Opposed + 1 | Strike a ST. Costs `2` AP to defend against! <br> `≤ 1` Hit: `2 + Q + Str` Bludgeoning <br> `= 2` Hits: `4 + Q + Str` Bludgeoning <br> `≥ 3` Hits: `6 + Q + Str` Bludgeoning |
 
 #### Weapon \<Polearm\> (Str/Tough)
@@ -892,7 +892,7 @@ Traits: [Ranged (20 DI)](./strive-core.md#ranged), [Range Only](./strive-core.md
 | Level | Name                 | AP | Ob          | Description <br> Damage                   |
 | ----- | -------------------- | -- | ----------- | ----------------------------------------- |
 | 0     | Loose                | 2  | Opposed     | Shoot a ST. <br> `≤ 1` Hit: `4 + Q` Piercing <br> `= 2` Hits: `6 + Q` Piercing <br> `≥ 3` Hits: `8 + Q` Piercing |
-| 2     | Heavy Shot           | 2  | Opposed + 1 | Shoot a ST. `+1` [Exhaustion](./strive-core.md#exhaustion) to self. <br> `≤ 1` Hit: `6 + Q + Str` Piercing <br> `= 2` Hits: `8 + Q + Str` Piercing <br> `≥ 3` Hits: `10 + Q + Str` Piercing   |
+| 2     | Heavy Shot           | 2  | Opposed + 1 | Shoot a ST. `-1` [Stamina](./strive-core.md#stamina--strain) to self. <br> `≤ 1` Hit: `6 + Q + Str` Piercing <br> `= 2` Hits: `8 + Q + Str` Piercing <br> `≥ 3` Hits: `10 + Q + Str` Piercing   |
 
 #### Weapon \<Crossbow\> (Awar/Awar)
 Skill for [Crossbow](#crossbow) type weapons. 
@@ -1145,8 +1145,8 @@ The control of air, to create and change its flow, for benefit and detriment.
 | ----- | -------------------- | -- | ------------- | ----------- | ------------------------------ | ------------------ |
 | 0     | Wind Tunnel          | 2  | `SI * 3`      | `SI`        | Conjure up a stream of air, that [Force Moves](strive-core.md#forced-movement) all creatures and objects of Bulk less than `SI * 2` in its direction, by `SI * 3` Squares. This gust originates from you. The wind tunnel can also point up, down or any other direction. Can clear away gases and the like. | You lose control and are tossed `SI * 3` Squares in a random direction! |
 | 0     | Wind Lance           | 2  | `SI * 3`      | `Opposed`   | Hurl a directed, compacted bolt of air towards a ST. Upon impact, creates a loud whipping noise. <br> `≤ 1` Hit: `2 + SI` Bludgeoning <br> `= 2` Hits: `5 + (SI * 2)` Bludgeoning <br> `≥ 3` Hits: `10 + (SI * 2)` Bludgeoning | The attack is launched in a random direction, instead. |
-| 1     | Breathing Bubble     | 2  | `1`           | `SI`        | **Concentration**: Form a stationary bubble of clean air, in a `SI * 2` Squares AoE diameter. | The air is displaced from your lungs for `1` Round, making you unable to speak and you suffer `+1` [Exhaustion](./strive-core.md#exhaustion)! |
-| 2     | Vacuumize            | 2  | `8`           | `SI`        | **Concentration**: Drive all air out of a stationary `SI * 2` Square AoE radius. All creatures caught in the anti-air bubble start suffocating, as all air is driven from their lungs. They suffer `+1` [Exhaustion](strive-core.md#exhaustion) at the start of every Turn. | The air around you is displaced, instead of the spot of their choosing. The effect lasts `1` Round and you cannot concentrate on any other spell, for as long as it lasts. |
+| 1     | Breathing Bubble     | 2  | `1`           | `SI`        | **Concentration**: Form a stationary bubble of clean air, in a `SI * 2` Squares AoE diameter. | The air is displaced from your lungs for `1` Round, making you unable to speak and you suffer `+1` [Strain](./strive-core.md#stamina--strain)! |
+| 2     | Vacuumize            | 2  | `8`           | `SI`        | **Concentration**: Drive all air out of a stationary `SI * 2` Square AoE radius. All creatures caught in the anti-air bubble start suffocating, as all air is driven from their lungs. They suffer `+1` [Strain](strive-core.md#stamina--strain) at the start of every Turn. | The air around you is displaced, instead of the spot of their choosing. The effect lasts `1` Round and you cannot concentrate on any other spell, for as long as it lasts. |
 | 3     | Crushing Compression | 2  | `SI * 6`      | `SI`        | Compress the air around a ST, crushing it with `SI * 5` points of Bludgeoning damage. | The air compresses around you instead. |
 | 4     | Tornado              | 2  | `SI * 6`      | `SI`        | **Concentration, Time(`+1`)**: Call forth a tornado and control its movements. It is up to `SI` AoE radius wide and tall, and can displace creatures and objects up to `SI * 2` Bulk, throwing them up to `SI * 2` Squares far, in a random direction. The tornado can clear away gases and the like. | The tornado forms at your location and moves randomly. It lasts `1` Round and you cannot concentrate on any other spell until the tornado expires. |
 
@@ -1175,7 +1175,7 @@ The alteration of physical things, to change their shape and purpose. And the ab
 | 0     | Arm Blade            | 2  |                | `SI`            | **Concentration**: Change your arm into a sharp blade of bone. All unarmed attacks may now deal an additional `SI * 5` Slashing damage. | You suffer a random mutation, instead! |
 | 0     | Shape Earth          | 2  | `SI * 3`       | `SI`            | Cause earth in a `SI * 2` Square AoE radius, at a spot of the mage's choosing to change shape, as the mage wills it. The shape cannot exceed the radius in size. Could be used to create or tear down an earthen wall, close up a door way, quickly create a trench and so on.<br>If the shaped earth would cause a creature to be crushed, it may stop the earth with an Opposed Strength Test at Ob equal to your chosen SI. Every additional creature being crushed can [assist in the Test](./strive-core.md#providing-assistance). If its Test fails or it cannot resist, it will be pushed aside and suffer `SI * 4` Bludgeoning damage. | Instead of the intended shape, the earth takes on an "inverse" form of what they want. If they wanted a wall, they get a trench. If they wanted a stair leading up, they get one leading down, and so on. |
 | 1     | Wings                | 2  |                | `SI`            | **Concentration**: Grow wings! You may now fly up to `SI * 5` Squares high at a speed of `SI * 2` Squares per AP spent. | You suffer a random mutation, instead! |
-| 1     | Feel the Shape       | 1  | `SI * 20`      | `SI`            | Place a hand to a surface. You can feel the faintest vibrations and reverberations within and beneath. Can be used to detect underground caves and structures and imprecisely detect the movements of creatures along a given surface, such as the ground. | You become numb and cannot feel anything for `2` Rounds. `-1D` to all Tests and `+1` [Exhaustion](./strive-core.md#exhaustion) |
+| 1     | Feel the Shape       | 1  | `SI * 20`      | `SI`            | Place a hand to a surface. You can feel the faintest vibrations and reverberations within and beneath. Can be used to detect underground caves and structures and imprecisely detect the movements of creatures along a given surface, such as the ground. | You become numb and cannot feel anything for `2` Rounds. `-1D` to all Tests and `-1` [Stamina](./strive-core.md#stamina--strain) |
 | 2     | Alter Flesh          | 3  | `1`            | `SI`            | **Time(`+1`)**: A ST creature is altered as you desire, **permanently**. The Ob depends on the complexity and size of the re-shaping. Ob `2` for simple and small, `3` for tricky and medium, `4` for complex and large and `5+` for very complex and very large alterations. Consult your GM! | Instead of the intended alteration, a random mutation occurs! |
 | 2     | Earth Spike Trail    | 3  | `SI * 3`       | `SI`            | Cause spikes of earth to shoot out of a surface that you can lay your hands on. Everyone caught in a straight AoE line of up to `SI * 3` Squares in length, originating from you, suffers `SI * 3` points of Piercing damage. The area of the spikes is then considered Difficult Terrain. The spikes crumble after `1` Round. | You lose control and the spell unleashes in a random direction. |
 | 2     | Aspect of the Bull   | 2  |                | `SI`            | **Concentration**: Grow bull horns and bestial legs! You may now run at a speed of `4 + SI` Squares per AP spent. You may now charge at targets and gore them for `SI * 3` points of Piercing damage, but you must run at least `2` Squares in order to make use of this ability. | You suffer a random mutation, instead! |
@@ -1349,8 +1349,8 @@ The ability to communicate wordlessly, to alter emotions and even issue compelli
 | 0     | Wordless Communication | 2  | `SI * 4`       | `SI`                           | **Concentration**: Communicate wordlessly with `SI` MST. Language barriers do not apply to this form of communication. |  |
 | 0     | Read Thoughts          | 2  | `SI * 4`       | Opposed by `Self-Control - SI` | Glimpse into the thoughts of ST for a short time. | The ST instead catches a glimpse into *your* thoughts. |
 | 2     | Change a Mind          | 2  | `SI * 4`       | Opposed by `Self-Control - SI` | Alter a creature's current state of mind and emotion. | You are affected, instead. |
-| 3     | Pressing Thought       | 2  | `SI * 10`      | `SI + 1`                       | **Concentration**: [Hasten](./strive-core.md#hasted) up to `SI` MST of choice. | You and your targets suffer `+1` [Exhaustion](./strive-core.md#exhaustion). |
-| 4     | Quiet Command          | 2  | `SI * 10`      | Opposed by `Self-Control - SI` | Issue a command to another creature, which they feel **strongly** compelled to follow. | `+1` [Exhaustion](./strive-core.md#exhaustion) to self. |
+| 3     | Pressing Thought       | 2  | `SI * 10`      | `SI + 1`                       | **Concentration**: [Hasten](./strive-core.md#hasted) up to `SI` MST of choice. | You and your targets suffer `+1` [Strain](./strive-core.md#stamina--strain). |
+| 4     | Quiet Command          | 2  | `SI * 10`      | Opposed by `Self-Control - SI` | Issue a command to another creature, which they feel **strongly** compelled to follow. | `+1` [Strain](./strive-core.md#stamina--strain) to self. |
 | 5     | Confer Knowledge       | 4  | `1`            | `6 - SI`                       | **Time(`+1`)**: Permanently confer `+1` Level of a Known Skill to a ST, but only up to your Level, minus two, in the Skill. Also, this costs **you** `-10` XP. Your Level in the Skill is unaffected. This can only be done once a day, to let the mind of the ST process its unnaturally gained knowledge. | You lose `1` Level in the chosen Skill, for `24` hours! |
 
 ## List of Illnesses
@@ -1367,10 +1367,10 @@ The following is a list of all [Character Traits](#character-traits) of this Mod
 You are entirely incapable of Magic, to the point that the Arcanosphere slows around you. Your [Arcana](#arcana-arc) Attribute can never be above Level `0`. All Magic used against you loses `-1` [SI](#spell-intensity-si) **or** deals `-5` points of damage less - *you choose*.
 
 ### Armored Confidence
-When wearing heavy armor, your confidence in it allows you to [Counter-Attack](./strive-core.md#counter-attack) whenever you are hit, at the cost of `+1` [Exhaustion](./strive-core.md#exhaustion).
+When wearing heavy armor, your confidence in it allows you to [Counter-Attack](./strive-core.md#counter-attack) whenever you are hit, at the cost of `-1` [Stamina](./strive-core.md#stamina--strain).
 
 ### Breath Weapon
-Obvious jokes aside, your breath can deal some tangible damage. `1D8 + 2` of either Acid, Burning, Freezing or Poison damage (choose one when receiving the Trait). This costs `-1` AP and causes `+1` [Exhaustion](./strive-core.md#exhaustion) and launches a ranged attack in an AoE cone with a distance of `3` Squares. Can only be used once per Turn. 
+Obvious jokes aside, your breath can deal some tangible damage. `1D8 + 2` of either Acid, Burning, Freezing or Poison damage (choose one when receiving the Trait). This costs `-1` AP and `-1` [Stamina](./strive-core.md#stamina--strain) and launches a ranged attack in an AoE cone with a distance of `3` Squares. Can only be used once per Turn. 
 
 ### Hot-Head
 When in the [Consuming Arcane Overheat](#arcane-overheat--slag) threshold, suffer `-5` points of damage (minimum `0`) from it.
@@ -1405,7 +1405,7 @@ Reactions:
 | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ |
 | 1            | 3            | 1            | 1            | 3            | 4            |
 
-| BI     | Sprint | Stabil | HP  | Exhaustion |
+| BI     | Sprint | Stabil | HP  | Stamina    |
 | ------ | ------ | ------ | --- | ---------- |
 | 7      | 1      | 0      | 20  | 2          |
 
@@ -1447,7 +1447,7 @@ Reactions:
 | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ |
 | 4            | 3            | 3            | 2            | 1            | 0            |
 
-| BI     | Sprint | Stabil | HP  | Exhaustion |
+| BI     | Sprint | Stabil | HP  | Stamina    |
 | ------ | ------ | ------ | --- | ---------- |
 | 8      | 3      | 1      | 30  | 3          |
 
@@ -1487,7 +1487,7 @@ Reactions:
 | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ |
 | 4            | 1            | 2            | 2            | 4            | 0            |
 
-| BI     | Sprint | Stabil | HP  | Exhaustion |
+| BI     | Sprint | Stabil | HP  | Stamina    |
 | ------ | ------ | ------ | --- | ---------- |
 | 9      | 3      | 0      | 30  | 3          |
 
@@ -1525,7 +1525,7 @@ Reactions:
 | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ |
 | 2            | 4            | 1            | 3            | 3            | 0            |
 
-| BI     | Sprint | Stabil | HP  | Exhaustion |
+| BI     | Sprint | Stabil | HP  | Stamina    |
 | ------ | ------ | ------ | --- | ---------- |
 | 9      | 3      | 0      | 40  | 4          |
 
@@ -1565,7 +1565,7 @@ Reactions:
 | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ |
 | 2            | 1            | 2            | 4            | 4            | 0            |
 
-| BI     | Sprint | Stabil | HP  | Exhaustion |
+| BI     | Sprint | Stabil | HP  | Stamina    |
 | ------ | ------ | ------ | --- | ---------- |
 | 7      | 3      | 0      | 50  | 5          |
 
@@ -1633,7 +1633,7 @@ This variant is small and stunted. Its legs are too short and deformed to be use
 | ----- | ----- | ----- | ----- | ----- | ----- |
 | 4     | 4     | 2     | 1     | 1     | 0     |
 
-| BI     | Sprint | Stabil | HP  | Exhaustion | FS (Ranged: 10) | Def    | Armor             |
+| BI     | Sprint | Stabil | HP  | Stamina    | FS (Ranged: 10) | Def    | Armor             |
 | ------ | ------ | ------ | --- | ---------- | --------------- | ------ | ----------------- |
 | 9      | 3      | 0      | 10  | 2          | 2 Acid          | 2      | 0                 |
 
@@ -1673,7 +1673,7 @@ This variant stands tall and proud, its wrinkled skin riddled with scars. Its tu
 | ----- | ----- | ----- | ----- | ----- | ----- |
 | 3     | 2     | 4     | 5     | 3     | 0     |
 
-| BI     | Sprint | Stabil | HP  | Exhaustion | FS (Melee)      | Def    | Armor             |
+| BI     | Sprint | Stabil | HP  | Stamina    | FS (Melee)      | Def    | Armor             |
 | ------ | ------ | ------ | --- | ---------- | --------------- | ------ | ----------------- |
 | 8      | 4      | 2      | 50  | 5          | 3 Piercing      | 4      | 8/4/2/1 Slashing <br> 6/3/2/1 Piercing <br> 4/2/1/1 Bludgeoning |
 
@@ -1726,7 +1726,7 @@ This variant is as almost as small as a Belcher, but with strong legs and arms, 
 | ----- | ----- | ----- | ----- | ----- | ----- |
 | 6     | 2     | 3     | 2     | 2     | 0     |
 
-| BI     | Sprint | Stabil | HP  | Exhaustion | FS (Melee)      | Def    | Armor             |
+| BI     | Sprint | Stabil | HP  | Stamina    | FS (Melee)      | Def    | Armor             |
 | ------ | ------ | ------ | --- | ---------- | --------------- | ------ | ----------------- |
 | 10     | 4      | 0      | 20  | 2          | 4 Slashing      | 3      | 0                 |
 
@@ -1766,7 +1766,7 @@ A hulking mass of Swine and muscle, towering above its lesser brethren. Despite 
 | ----- | ----- | ----- | ----- | ----- | ----- |
 | 1     | 1     | 8     | 6     | 1     | 0     |
 
-| BI     | Sprint | Stabil | HP  | Exhaustion | FS (Melee)      | Def    | Armor             |
+| BI     | Sprint | Stabil | HP  | Stamina    | FS (Melee)      | Def    | Armor             |
 | ------ | ------ | ------ | --- | ---------- | --------------- | ------ | ----------------- |
 | 3      | 4      | 4      | 60  | 7          | 4 Bludgeoning   | 1      | 0                 |
 
@@ -1805,7 +1805,7 @@ An intelligent and cruel leader among the Swine. Its gaze attentively surveys al
 | ----- | ----- | ----- | ----- | ----- | ----- |
 | 2     | 2     | 3     | 4     | 5     | 6     |
 
-| BI     | Sprint | Stabil | HP  | Exhaustion | FS (Ranged: 10) | Def    | Armor             |
+| BI     | Sprint | Stabil | HP  | Stamina    | FS (Ranged: 10) | Def    | Armor             |
 | ------ | ------ | ------ | --- | ---------- | --------------- | ------ | ----------------- |
 | 9      | 3      | 0      | 40  | 4          | 4 Acid          | 2      | 0                 |
 
@@ -1850,7 +1850,7 @@ This variant has full dark-red fur and much shorter tusks. It moves deftly, albe
 | ----- | ----- | ----- | ----- | ----- | ----- |
 | 5     | 3     | 4     | 3     | 2     | 0     |
 
-| BI     | Sprint | Stabil | HP  | Exhaustion | FS (Ranged: 10) | Def    | Armor             |
+| BI     | Sprint | Stabil | HP  | Stamina    | FS (Ranged: 10) | Def    | Armor             |
 | ------ | ------ | ------ | --- | ---------- | --------------- | ------ | ----------------- |
 | 10     | 4      | 0      | 30  | 4          | 4 Piercing      | 2      | 0                 |
 
@@ -1882,7 +1882,7 @@ This variant is lanky, lacking much of the bulk of its brethren. 
 | ----- | ----- | ----- | ----- | ----- | ----- |
 | 2     | 2     | 4     | 3     | 1     | 0     |
 
-| BI     | Sprint | Stabil | HP  | Exhaustion | FS (Ranged: 10) | Def    | Armor             |
+| BI     | Sprint | Stabil | HP  | Stamina    | FS (Ranged: 10) | Def    | Armor             |
 | ------ | ------ | ------ | --- | ---------- | --------------- | ------ | ----------------- |
 | 5      | 3      | 1      | 30  | 4          | 3 Slashing      | 2      | 0                 |
 
@@ -1911,7 +1911,7 @@ This variant is massive and strong. Most of its body is covered in dark, dirty c
 | ----- | ----- | ----- | ----- | ----- | ----- |
 | 2     | 1     | 6     | 4     | 1     | 0     |
 
-| BI     | Sprint | Stabil | HP  | Exhaustion | FS (Melee)      | Def    | Armor             |
+| BI     | Sprint | Stabil | HP  | Stamina    | FS (Melee)      | Def    | Armor             |
 | ------ | ------ | ------ | --- | ---------- | --------------- | ------ | ----------------- |
 | 4      | 3      | 3      | 40  | 4          | 3 Slashing      | 1      | 0                 |
 
@@ -1965,7 +1965,7 @@ An abominable mound of misshapen flesh, with countless ragged tentacles of vario
 | ----- | ----- | ----- | ----- | ----- | ----- |
 | 5     | 5     | 10    | 10    | 1     | 0     |
 
-| BI     | Sprint | Stabil | HP  | Exhaustion | FS (Melee)      | Def    | Armor             |
+| BI     | Sprint | Stabil | HP  | Stamina    | FS (Melee)      | Def    | Armor             |
 | ------ | ------ | ------ | --- | ---------- | --------------- | ------ | ----------------- |
 | 4      | 1      | 5      | 200 | 5          | 5 Bludgeoning   | 1      | 0                 |
 
@@ -2014,7 +2014,7 @@ Alps are a fairly common occurence throughout the world. How they reproduce is a
 | ----- | ----- | ----- | ----- | ----- | ----- |
 | 4     | 3     | 3     | 3     | 3     | 5     |
 
-| BI     | Sprint | Stabil | HP  | Exhaustion | FS (Melee)      | Def    | Armor             |
+| BI     | Sprint | Stabil | HP  | Stamina    | FS (Melee)      | Def    | Armor             |
 | ------ | ------ | ------ | --- | ---------- | --------------- | ------ | ----------------- |
 | 10     | 4      | 0      | 30  | 3          | 3 Slashing      | 3      | 0                 |
 
@@ -2056,7 +2056,7 @@ This variant of Void Demon is vaguely humanoid, its amorphous face stretched out
 | ----- | ----- | ----- | ----- | ----- | ----- |
 | 4     | 4     | 2     | 1     | 0     | 0     |
 
-| BI     | Sprint | Stabil | HP  | Exhaustion | FS (Melee)      | Def    | Armor             |
+| BI     | Sprint | Stabil | HP  | Stamina    | FS (Melee)      | Def    | Armor             |
 | ------ | ------ | ------ | --- | ---------- | --------------- | ------ | ----------------- |
 | 9      | 3      | 0      | 10  | 1          | 2 Piercing      | 1      | Half (RU) against all but Burning <br> `-50%` against Burning |
 
