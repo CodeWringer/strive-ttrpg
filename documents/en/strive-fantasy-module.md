@@ -726,7 +726,6 @@ Following are fantasy-themed weapon types.
 Weapons can have the following **Weapon Traits** (see also the [Core Weapon Traits](./strive-core.md#weapon-traits)):
 
 * **Ambersteel**: Bonus `+(Q * 2)` Pure damage against mages and magical creatures. 
-* **Imbued**: Like [Artificing - Arcane Charge](#artificing-arcwit), but applied to a weapon.
 
 #### Axe
 One and two-handed axes. See also its corresponding [Skill](#weapon-axe-strstr).
@@ -1171,7 +1170,6 @@ The setting of arcane traps and creation of arcane artifacts and materials.
 
 [Crafting](./strive-core.md#crafting--research-projects):
 * [Arcane Engine](#arcane-engine) (1x)
-* [Imbued weapon](#weapon-traits) (1x)
 * [Magic Recorder](#general-assets) (1x)
 * [Magic Scroll](#magic-scrolls) (1x)
 
@@ -1182,6 +1180,12 @@ The setting of arcane traps and creation of arcane artifacts and materials.
 | 1     | Elemental Shield     | 2  | `1`            | `SI`                 | **Concentration**: Arcane energy envelops your skin, to counter one specific element of your choosing. You or a ST of your choice, within hand's reach, suffer `SI * 2` less damage of that element's type of damage. Available elements are: [Acid, Burning, Electrical, Freezing, Poison](./strive-core.md#damage-types). | You instead become vulnerable to the element you chose, causing you to take twice as much damage from it! This effect lasts `2` Rounds. |
 | 1     | Slag Bomb            | 2  | `6 + SI`       | `SI`                 | Cause `+SI` [Arcane Slag](#arcane-overheat--slag) to all targets within a `3` Square AoE radius at a spot of your choosing. | Instead of the intended spot, the Slag Bomb detonates right in your face. |
 | 1     | Detonate Slag        | 2  | `6 + SI`       | `SI`                 | Remove `SI` points of [Arcane Slag](#arcane-overheat--slag) from a ST, within reach and cause them to explode with arcane energy, dealing `N * 4` points of Pure damage to the ST, and `N` points of Pure damage to all adjacent creatures behind it, where *N* is the number of [Arcane Slag](#arcane-overheat--slag) points that were actually removed. | Instead of the intended target's, your own [Arcane Slag](#arcane-overheat--slag) detonates! |
+
+**Rituals**
+
+| Level | Name                 | Time Increment | Ob          | Ritualists | Effect(s)                      | Side-Effect(s)     | Backfire Effect(s) |
+| ----- | -------------------- | -------------- | ----------- | ---------- | ------------------------------ | ------------------ | ------------------ |
+| 4     | Echo-Chamber         | 1 Hour         | `SI`        | 1+         | **Concentration**: All Magic Echoes may be freely re-cast at full strength in a `SI * 5` Square radius. | In the wake of every Magic Echo an Arcane Disturbance forms, which lasts `2` Rounds and causes `+1` Arcane Slag to all who stand within it every Turn. | Ancient Magic Echoes are re-forged and overwhelm the Ritualists, causing them `SI * 5` Pure damage. |
 
 ### Alteration (Arc/Wit)
 The alteration of physical things, to change their shape and purpose. And the ability to transform yourself, temporarily. 
@@ -1248,11 +1252,16 @@ Catching glimpses of the unknowable and nudging fate. A Divination mage prefers 
 | ----- | --------------------- | -- | ------------- | ---------------------------- | ------------------------------ | ------------------ |
 | 0     | I Saw It Coming       | 1  | `9`           | `SI`                         | **Reaction**: When you or an ally is successfully attacked, subtract `SI` Hits from the Attacker's roll. This may cause the attack to fail. | The Attacker instead gains `SI` Hits to their roll! |
 | 0     | Direct Success        | 2  | `9`           | `SI`                         | **Reaction**: When an ally rolls a Test, add `SI` dice to it, and raise their Hit Limit by `+1`. | Your ally instead loses `SI` dice! |
-| 1     | Look Ahead            | 2  |               | `1`                          | Once a day, glimpse into the future. Consult your GM. <br> `≤ 1` Hit: A momentary glimpse into the immediate future. <br> `= 2` Hits: A brief glimpse of a near future. <br> `≥ 3` Hits: A detailed vision of a *possible* future event. | You glimpse a vision, but you cannot be certain of whether it is the future or past or even from which universe. |
 | 1     | Boost Project         | 4  |               | `SI`                         | Once a day, boost the progress of a [Project](./strive-core.md#crafting--research-projects), by `SI * 3` points! | The Project instead loses `SI * 2` points! |
 | 2     | Watch Defense         | 4  |               | `SI`                         | **Concentration**: Up to `SI` MST cannot be Watched. |  |
 | 2     | Watch                 | 4  |               | `3`                          | Glimpse a short vision of a person or object, no matter where they are. But only your target is clearly visible. Your peripheral vision is blurred and foggy. | The target becomes aware that the winds of magic swirled in agitation around them. They might not know *who* Watched them, but they may figure out *that* they were Watched. |
 | 4     | Calamitous Prognostication | 3  | `SI * 3` | `3`                          | In one Round, something bad happens to a ST. Choose: `1`: Something falls on their head or they stumble and fall prone. `2`: They are mistaken for a foe by their allies or they might mistake their allies for foes. `3`: They drop something they are holding or which is on their person. `4`: The winds of magic are agitated, causing `+1` [Arcane Slag](#arcane-overheat--slag). | You are affected, instead! |
+
+**Rituals**
+
+| Level | Name                 | Time Increment | Ob          | Ritualists | Effect(s)                      | Side-Effect(s)     | Backfire Effect(s) |
+| ----- | -------------------- | -------------- | ----------- | ---------- | ------------------------------ | ------------------ | ------------------ |
+| 2     | Look Ahead           | 1 Hour         | `1`         | 1+         | Glimpse into the future. Causes `+2` [Strain](./strive-core.md#stamina--strain). Consult your GM: <br> `≤ 1` Hit: A momentary glimpse into the immediate future. <br> `= 2` Hits: A brief glimpse of a near future. <br> `≥ 3` Hits: A detailed vision of a *possible* future event. | You glimpse a vision, but you cannot be certain of whether it is the future or past or even from which universe. | Instead of a vision of the future, your mind is brought before the attention of an ancient horror, which overwhelms your senses and sends you into shock! You are [Stunned](./strive-core.md#stunned) for `3` hours! |
 
 ### Electromancy (Agi/Arc)
 The summoning and control of lightning. Electricity is fairly versatile - it can injure, revive and power or trigger electrical and electronic devices. 
@@ -1264,6 +1273,12 @@ The summoning and control of lightning. Electricity is fairly versatile - it can
 | 1     | Power-Up              | 2  | `SI * 2`   | `SI`                         | An electrical device is powered up for `SI * 5` minutes. | The device breaks or otherwise seizes up and becomes unusable. |
 | 2     | Defibrillate          | 2  | `SI * 2`   | `Opposed`                    | An [Unconscious](./strive-core.md#unconscious) ST is jolted back to consciousness! This includes Characters at [Death's Door](./strive-core.md#deaths-door). They still have to succeed Tests to end the [Death's Door](./strive-core.md#deaths-door) Condition. | You are [Stunned](./strive-core.md#stunned) for `1` Round. |
 | 4     | UNLIMITED POWER       | 2  | `SI * 5`   | `SI + 1`                     | An AoE cone of lightning spews forth from your finger tips. Up to `SI + 1` targets can be hit with the shock. Causes [Electrified](./strive-core.md#electrified) in the victims. <br> `≤ 1` Hit: `3` Electrical <br> `= 2` Hits: `5` Electrical <br> `≥ 3` Hits: `8` Electrical | You and anyone next to you is affected, instead. |
+
+**Rituals**
+
+| Level | Name                 | Time Increment | Ob          | Ritualists | Effect(s)                      | Side-Effect(s)     | Backfire Effect(s) |
+| ----- | -------------------- | -------------- | ----------- | ---------- | ------------------------------ | ------------------ | ------------------ |
+| 2     | Electric Wall        | 10 Minutes     | `SI`        | 1+         | Creates a wall of pure electricity, up to `SI * 3` Squares in diameter and up to `SI * 3` Squares away. Anything that passes through it is zapped with `SI * 4` Electrical damage. | Occasionally, gaps form in the wall, which the lightning bends around. | The Ritualists are struck with lightning that bounces between them and the environment. They each suffer `SI * 4` Electrical damage. |
 
 ### Hexing (Arc/Arc)
 The casting of curses to weaken others. 
@@ -1343,7 +1358,12 @@ The mending of the body and mind.
 | 2     | Life Leech           | 2  | `1`    | Opposed by `Toughness`       | Draw the life from a ST creature. Deals damage while healing the your own [HP](./strive-core.md#health-points-hp) for the same amount. May transfer `SI` points of [Bleeding](./strive-core.md#bleeding) or [Poisoned](./strive-core.md#poisoned) to the damaged creature, if you so choose. <br> `≤ 1` Hit: `SI * 2` Bleeding <br> `= 2` Hits: `SI * 3` Bleeding <br> `≥ 3` Hits: `SI * 4` Bleeding | The effect triggers in reverse. |
 | 2     | Expel Illness        | 3  | `1`    | `Illness Ob - SI`            | Removes one [Illness](./strive-core.md#illness) of choice from a ST of choice, in hand's reach. | You contract a random [Illness](./strive-core.md#illness). | 
 | 4     | Reduce Slag          | 3  | `1`    | `SI + 1`                     | Remove `SI` points of [Arcane Slag](#arcane-overheat--slag) from a ST! If successful, this spell does not cause [Arcane Slag](#arcane-overheat--slag). | Instead of removing any [Arcane Slag](#arcane-overheat--slag), you gain `+2` points of it! |
-| 4     | Revert Mutation      | 4  | `1`    | `6 - SI`                     | Removes one [Mutation](./strive-core.md#list-of-mutations) of choice from a ST of choice, in hand's reach. | You suffer a random [Mutation](./strive-core.md#list-of-mutations)! |
+
+**Rituals**
+
+| Level | Name                 | Time Increment | Ob          | Ritualists | Effect(s)                      | Side-Effect(s)     | Backfire Effect(s) |
+| ----- | -------------------- | -------------- | ----------- | ---------- | ------------------------------ | ------------------ | ------------------ |
+| 4     | Revert Mutation      | 10 Minutes     | `6 - SI`    | 1+         | Removes `SI` [Mutations](./strive-core.md#list-of-mutations) from a ST of choice, in hand's reach. | Half (RD) of the Mutations are not removed, but randomly replaced with other ones. | The Ritualists suffer a random Mutation. |
 
 ### Sanguinomancy (Arc/Tough)
 In the common tongue, blood magic, utilizes fresh mage blood to disturbing effect. 
@@ -1356,13 +1376,13 @@ In the common tongue, blood magic, utilizes fresh mage blood to disturbing effec
 | 2     | Blood Boil           | 2  | `SI * 2`    | Opposed by `Toughness + 1` | Bring a ST's blood to a boil. <br> `≤ 1` Hit: `SI * 2` Pure <br> `= 2` Hits: `SI * 3` Pure <br> `≥ 3` Hits: `SI * 4` Pure | You suffer `1D10 burning` damage, instead. |
 | 2     | Bond of Suffering    | 1  | `SI * 5`   | `SI`                       | **Concentration**: Your blood forms a bond between two designated creatures, who then share all damage and healing. You may avoid suffering [Arcane Overheat](#arcane-overheat--slag) if you choose to suffer `1D10` [Bleeding](./strive-core.md#damage-types) damage, instead. | You suffer twice as much damage from all physical sources, until the start of your next Turn. |
 | 2     | Life Leech           | 2  | `1`         | Opposed by `Toughness`     | Draw the life from a ST creature of choice. Deals `SI * 3` points of [Bleeding](./strive-core.md#damage-types) damage while healing your own [HP](./strive-core.md#health-points-hp) for the same amount. May transfer `SI` points of [Bleeding](./strive-core.md#bleeding) or [Poisoned](./strive-core.md#poisoned) from to the creature, if you so choose. | The effect triggers in reverse. |
-| 3     | Crimson Tracks       | 1  | `SI * 150` | `SI`                       | If you have someone's blood, use it to track them. If successful, you get a general sense of how far away and in what direction relative to your facing they are. You also glimpse a momentary fragment of their current emotional state. | The victim is overcome with an odd premonition and becomes aware someone attempted to track them. |
 | 4     | Slagletting          | 2  |                 | `SI + 1`                   | Remove `SI` points of [Arcane Slag](#arcane-overheat--slag) from yourself or a ST, but suffer `3` points of [Bleeding](./strive-core.md#damage-types) damage for each point of [Arcane Slag](#arcane-overheat--slag) that is removed! If successful, this spell does not cause [Arcane Slag](#arcane-overheat--slag). | Instead of removing any [Arcane Slag](#arcane-overheat--slag), you gain `+2` points of it and suffer `6` points of Bleeding damage! |
 
 **Rituals**
 
 | Level | Name                 | Time Increment | Ob                        | Ritualists | Effect(s)                      | Side-Effect(s)     | Backfire Effect(s) |
 | ----- | -------------------- | -------------- | ------------------------- | ---------- | ------------------------------ | ------------------ | ------------------ |
+| 3     | Crimson Tracks       | 10 Minutes     | `SI`                      | 1+         | If you have someone's blood, use it to track them up to `SI * 150` Squares far. If successful, you get a general sense of how far away and in what direction relative to your facing they are. You also glimpse a momentary fragment of their current emotional state. | The victim is overcome with an odd premonition and becomes aware *someone* attempted to track them. | Instead of tracking the target, it instead becomes briefly aware of the Ritualists' thoughts and emotions and may figure out *who* was trying to track them. |
 | 5     | Puppeteer            | 1 Hour         | Opposed by `Self-Control` | 1+         | **Concentration**: Command the blood of a victim to obey you. You control their actions, like a puppeteer. Any action you make them take, costs *their* AP. They may try to resist at the beginning of their every Turn, or once every minute, with a [Self-Control](./strive-core.md#self-control-toughtough) Test at Ob equal to the number of Hits you achieved. | While in control of someone else, the head Ritualist cannot move or perceive their own body. | Tendrils of blood burst from the Ritualists' skin. If any of the tendrils is damaged, the Ritualists each suffer `2` Pure damage. |
 
 ### Soul-Binding (Arc/Tough)
@@ -1372,11 +1392,17 @@ In order to bind a soul, a Soul-Seal is required. This seal has to take the form
 
 | Level | Name                 | AP | Distance      | Ob                     | Effect(s)                      | Backfire Effect(s) |
 | ----- | -------------------- | -- | ------------- | ---------------------- | ------------------------------ | ------------------ |
-| 0     | Call and Bind a Soul | 3  | `SI * 3`      | `SI`                   | Create a Soul-Binding at the strength of the chosen `SI`. The larger, heavier and more complex a body is, the harder it is to create a binding. Anything larger than, heavier or more complex than a human will make the Soul-Binding harder. `2` for a small and simple, `3` for a moderate and `4` for a large and `5+` for a huge and complex binding. Consult your GM. Requires a Soul-Seal. Replacing an existing binding is possible, but the Test must exceed the original soul-seal's strength. | Your soul is momentarily displaced from your body. You suffer `1D10` points of Pure damage! |
 | 0     | Soul Blast           | 2  | `SI * 5`      | Opposed by `Tough + 1` | Blast the soul from a ST's body. The experience weakens them, rendering them [Marked](strive-core.md#marked). <br> `≤ 1` Hit: `SI * 2` Pure <br> `= 2` Hits: `SI * 3` Pure <br> `≥ 3` Hits: `SI * 4` Pure | You are affected, instead. |
-| 1     | Command Bound Soul   | 1  | `SI * 3`      | Opposed by `Wit - SI`  | Issue a single command that a bound soul **must** follow. |  |
-| 1     | Break Binding        | 3  |               | `SI of the seal`       | Break a Soul-Binding and send the soul back to the Plane Of The Dead, leaving its former body inanimate and soulless. | Your soul is momentarily displaced from your body. They suffer `10` points of Pure damage! |
-| 5     | Call back a Soul     | 3  |               | `5`                    | Target a specific soul and recall them into their prior body. This isn't, strictly speaking, the same as binding a soul. It is easier to recall the soul that previously inhabited a body, the shorter the time of death has been. However, targeting a specific soul is an immensely difficult undertaking and shouldn't be taken lightly.  | Your soul is evicted from your body and another soul takes its place. Your Character is effectively removed from the world. |
+| 1     | Command Bound Soul   | 1  | `SI * 3`      | Opposed by `Wit - SI`  | Issue a single command that a bound soul **must** follow. | Instead of the intended command, it will hear some other, random order. Consult your GM! |
+| 1     | Break Binding        | 3  |               | `SI of the seal`       | Break a Soul-Binding and send the soul back to the Plane Of The Dead, leaving its former body inanimate and soulless. | Your soul is momentarily displaced from your body. You suffer `10` points of Pure damage! |
+| 2     | Soul Tether          | 1  | `SI * 5`      | `2`                    | **Concentration**: An ethereal tether forms between two designated creatures, who then share all damage and healing. Both creatures are perfectly aware of each other's location and current emotional state and may even exchange thoughts. | You suffer twice as much damage from all physical sources, until the start of your next Turn. |
+
+**Rituals**
+
+| Level | Name                 | Time Increment | Ob          | Ritualists | Effect(s)                      | Side-Effect(s)     | Backfire Effect(s) |
+| ----- | -------------------- | -------------- | ----------- | ---------- | ------------------------------ | ------------------ | ------------------ |
+| 0     | Call and Bind a Soul | 10 Minutes     | `SI`        | 1+         | Create a Soul-Binding at the strength of the chosen `SI`. The larger, heavier and more complex a body is, the harder it is to create a binding. Anything larger than, heavier or more complex than a human will make the Soul-Binding harder. `2` for a small and simple, `3` for a moderate, `4` for a large and `5+` for a huge and complex binding. Consult your GM. Requires a Soul-Seal. Replacing an existing binding is possible, but the Test must exceed the original soul-seal's strength. | The ordeal is particularly difficult and causes `+3` [Strain](./strive-core.md#stamina--strain). | Your soul is momentarily displaced from your body. You suffer `1D10` points of Pure damage! |
+| 5     | Call back a Soul     | 1 Hour         | `5`         | 1+         | Target a specific soul and recall them into their prior body. This isn't, strictly speaking, the same as binding a soul. It is easier to recall the soul that previously inhabited a body, the shorter the time of death has been. However, targeting a specific soul is an immensely difficult undertaking and shouldn't be taken lightly. | The ordeal is particularly difficult and causes `+3` [Strain](./strive-core.md#stamina--strain). | Your soul is evicted from your body and another soul takes its place. Your Character is effectively removed from the world. |
 
 ### Telekinesis (Arc/Agi)
 The ability to affect things and even creatures from afar, using magic instead of muscles or tools. 
