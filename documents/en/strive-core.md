@@ -2139,10 +2139,10 @@ The following table suggests how long it might take to traverse a particular Squ
 Under normal circumstances, Characters may spend at most `12` hours traveling (on foot) before they need a [Full Rest](#resting) to carry on. Whether these hours are spent consecutively or with _short_ breaks in between, makes no difference. 
 
 ## Forced March
-It is possible to push on, past the `12` hour threshold, for another `12` hours, at the cost of `+1` [Strain](#stamina--strain) to all Characters on Forced March. 
+It is possible to push on, past the `12` hour threshold, for another `12` hours, at the cost of `+2` [Strain](#stamina--strain) to all Characters on Forced March. 
 
 ## Enduring the Journey
-For every increment of `6` hours of travel, Characters will need to consume one [ration](#general-assets). If they don't, they suffer `+1` [Strain](#stamina--strain) which can only be cleared with a [Full Rest](#resting). 
+For every increment of `6` hours of travel, Characters will need to consume one [ration](#general-assets). If they don't, they suffer `+1` [Strain](#stamina--strain). 
 
 ## Foraging & Hunting
 It is possible to hunt/forage for food while traveling, without losing time. You may make Tests of an approproately chosen Skill, with an Ob appropriate to the current Square of terrain. If successful, the number of Hits you achieve equals the number of [rations](#general-assets) you gain. 
