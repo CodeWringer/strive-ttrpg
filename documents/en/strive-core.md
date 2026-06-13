@@ -298,6 +298,7 @@ You may choose to play without the Momentum system for a less heroic style of ga
     - [Thorough Artisan](#thorough-artisan)
     - [Tough Skin](#tough-skin)
     - [Warcrobat](#warcrobat)
+    - [Wordsmith](#wordsmith)
   - [List of Titles of Renown](#list-of-titles-of-renown)
     - [Heart of Stone](#heart-of-stone)
     - [Hero of Many Victories](#hero-of-many-victories)
@@ -2772,7 +2773,7 @@ Whenever you gain Grit Points, gain `+1` more.
 Gain the ability to re-direct a Forced-Movement onto an adjacent Character, at the cost of `-1` AP.
 
 ### Innate Armor
-Whether naturally tough-skinned or artificially enhanced, your hide proves especially resistant against a chosen [type of damage](#damage-types), with `+6` points of armor. 
+Whether naturally tough-skinned or artificially enhanced, your hide proves especially resistant against a chosen [type of damage](#damage-types), with `+3` points of armor. 
 
 ### Long Arms
 All your Melee Attacks can be used against targets up to two Squares away. You effectively implicitly gain the [Long Reach Weapon Trait](#long-reach) for all Attacks.
@@ -2787,7 +2788,7 @@ Improve your [Base Initiative](#base-initiative-bi) by `+3`
 For a Test to Shrug Off a [Condition](#condition), you may add `+1` [Compensation Point](#compensation-points) at the cost of `-1` AP and `+1` [Exhaustion](#exhaustion).
 
 ### Substitutional Talent
-For one of your Skills, change one of its Base Attributes to any other Attribute of your choice.
+For one of your Skills, change its Base Attributes to any other Attributes of your choice.
 
 ### Steadfast
 Increases [Stability](#stability-stabil) by `+2`. 
@@ -2799,7 +2800,7 @@ Increases [Stability](#stability-stabil) by `+2`.
 Every Asset you craft starts with Quality Level `+1`. Ignore the first [Project Skill Test](#progressing-a-project) you fail and treat it as a success, instead.
 
 ### Tough Skin
-Raise your base HP by `+5`. 
+Raise your base HP by `+10`. 
 
 ### Warcrobat
 Combining agility with deadliness, elevating mere skill at arms to an elegant art. Grants `+1` [Compensation Point](#compensation-points) to all Acrobatics Tests.
@@ -2814,6 +2815,9 @@ Adds the following Expertises to [Acrobatics](#acrobatics-agistr):
 | Bounce Back          | /  | /           | **Reaction**: When knocked down immediately get back up, at no [AP](#action-points-ap) cost. You must not be wearing armor. Can only be used once per Round. |
 | Area Evasion         | 1  | 1           | **Reaction**: Suffer... <br> `≤ 1` Hit: `2` fewer points of AoE damage. <br> `= 2` Hits: `4` fewer points of AoE damage. <br> `≥ 3` Hits: `6` fewer points of AoE damage. |
 | Shield Breaker       | /  | /           | **Passive**: You know to exploit the lethargy of shields and can circumvent their defensive bonuses. Against you, shields always count as `+1` degree of [Flanked](#flanking)! |
+
+### Wordsmith
+Your cunning with words is unmatched. You gain `+1` [Compensation Point](#compensation-points) to [Persuasion](#persuasion-witwit) Tests. 
 
 ## List of Titles of Renown
 The following is a list of all [Titles of Renown](#titles-of-renown) of the core rules, a special type of [Character Trait](#character-traits). 
@@ -2857,9 +2861,9 @@ When in [Combat](#combat) with a non-sapient creature you have defeated before, 
 ### Paragon
 > Just yesterday alone, they rescued a kitten from a tree, helped me do my taxes and then bagged a dangerous wanted criminal!
 
-**Prerequisites**: Apprehended a dangerous criminal and stood as a beacon of morality in at least one community that was plagued by the criminal. 
+**Prerequisites**: Apprehended a dangerous criminal and stood as a beacon of morality in at least one community that was plagued by them. 
 
-The local authorities will be much more open to the idea of assisting you in your own endeavours. 
+The local authorities will be much more open to the idea of assisting you in your own endeavours. You gain `+1` [Compensation Point](#compensation-points) to [Persuasion](#persuasion-witwit) Tests, but not when intimidating.
 
 ### Pugilist
 > Ey you! I don' much like de cut o' yo' jib! I think I'mma change dat!
@@ -2873,28 +2877,28 @@ The local authorities will be much more open to the idea of assisting you in you
 
 **Prerequisites**: Successfully complete at least `3` deeply immoral jobs. 
 
-You find it much easier to haggle for better payment conditions with potential contractors and to intimidate those who know your name. 
+You find it much easier to haggle for better payment conditions with potential contractors and to intimidate those who know your name. You gain `+1` [Compensation Point](#compensation-points) to [Persuasion](#persuasion-witwit) Tests, but only when intimidating.
 
 ### Savior Of The People
 > Our eternal gratitude is yours! Oh, if only we could ever properly repay you...
 
 **Prerequisites**: Saved an entire community from certain doom.
 
-The people you saved will gladly help you in all your endeavours, if they can. You will find food and bedding for free and may even be gifted the odd family heirloom as thanks. 
+The people you saved will gladly help you in all your endeavours, if they can. You will find food and bedding for free and may even be gifted the odd family heirloom as thanks. You gain `+1` [Compensation Point](#compensation-points) to [Persuasion](#persuasion-witwit) Tests, but not when intimidating.
 
 ### Wanted
 > Yeah, I got a bounty in over 17 places you've never even heard of. So don't mess with me!
 
 **Prerequisites**: You've become a wanted criminal. 
 
-While you should avoid the authorities, you've some clout with the criminal underworld. You may be approached with job offers of a shady nature, or a way to clear your name. `+1` to [Stealth](#stealth-agiawar).
+While you should avoid the authorities, you've some clout with the criminal underworld. You may be approached with job offers of a shady nature, or a way to clear your name. `+1` to [Stealth](#stealth-agiawar). You gain `+1` [Compensation Point](#compensation-points) to [Persuasion](#persuasion-witwit) Tests, but only when intimidating.
 
 ### Zealot
 > Unfazed by heresy, unbowed by adversity, unfaltering in my resolve - I am the torch in the dark! I think.
 
 **Prerequisites**: Proved your conviction through incredible acts of faith. And eliminated all opposition to the faith you come across. 
 
-Your [Self-Control](#self-control-toughtough) is increased by `+1`, but you suffer `+1` Ob when trying to restrain yourself in the face of enemies of your faith. 
+Your [Self-Control](#self-control-toughtough) is increased by `+1`, but you suffer `+1` Ob when trying to restrain yourself in the face of enemies of your faith. You gain `+1` [Compensation Point](#compensation-points) to [Persuasion](#persuasion-witwit) Tests, but only when intimidating.
 
 ## List of Conditions
 The following is a list of all [Conditions](#condition) of the core rules. 
