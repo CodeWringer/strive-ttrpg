@@ -27,7 +27,7 @@ There is a [compendium document](./strive-fantasy-game-masters-resource.md) rese
   - [Testing Magic](#testing-magic)
   - [Spell Intensity (SI)](#spell-intensity-si)
   - [Arcane Overheat \& Slag](#arcane-overheat--slag)
-  - [Casting Time](#casting-time)
+  - [Rituals](#rituals)
   - [Spell-Backfire](#spell-backfire)
   - [Concentration Spells](#concentration-spells)
   - [Magic Negation](#magic-negation)
@@ -143,6 +143,7 @@ There is a [compendium document](./strive-fantasy-game-masters-resource.md) rese
     - [Armored Confidence](#armored-confidence)
     - [Breath Weapon](#breath-weapon)
     - [Hot-Head](#hot-head)
+    - [Hyperattentive](#hyperattentive)
     - [Radiator](#radiator)
     - [Tempered](#tempered)
   - [Archetype Characters](#archetype-characters)
@@ -254,7 +255,6 @@ A mage can fail their [Test](./strive-core.md#tests) and thus suffer a [Spell-Ba
 3. The dice for the Test are rolled. 
 4. Convert the SI to [Arcane Overheat & Slag](#arcane-overheat--slag). This **always** happens *after* the Spell is cast!
    1. If this brings the mage to a new [Arcane Overheat](#arcane-overheat--slag) threshold, its effects now apply. 
-5. Once the [Time To Cast](#casting-time) is up, the Spell is cast!
 
 ## Spell Intensity (SI)
 **Spell Intensity (SI)** is the strength at which a magic spell is being cast. A higher number causes stronger and further reaching effects, but also more [Arcane Overheat & Slag](#arcane-overheat--slag). 
@@ -301,12 +301,18 @@ At the start of every Turn, or every `5` seconds outside combat, a mage automati
 
 Arcane Slag *can* affect non-mages, too! That implies they can also suffer Arcane Overheat (although that does not make them mages)! 
 
-## Casting Time
-Usually, spells are cast immediately. Some spells may have an increased casting time, noted as `Time(+N)`, where *N* is the increase, in Rounds. 
+## Rituals
+While most magic may be cast instantaneously, some requires special preparation and an investment of time. Such Ritual magic is often particularly powerful and requires uninterrupted focus to succeed. 
 
-At the start of the mage's next Turn, one increment of the casting time is considered elapsed. If by this, the time has elapsed fully and the spell is cast, the mage may still choose a different target, location or direction for their spell, as a means to adjust for changed battlefield conditions.
+Some Rituals may require a minimum number of mages to take part, if it is to stand any chance of succeeding, while others may impose a limit of how many may join. Every mage that joins in the Ritual is considered a **Ritualist**, and for each of them, the Ritual's SI automatically increases by `+1`, at no additional cost. However, for Rituals with a minimum number of Ritualists, the SI increase only starts with the next Ritualist after the minimum. Every Ritual has a head Ritualist through whom the magic ultimately flows. They're the one in control of the Ritual's magic. 
 
-The casting of spells can be interrupted! Either automatically, if the mage is incapacitated, or when the mage is successfully Attacked. If interrupted thusly, the spell fizzles harmlessly. 
+All Ritual magic is stationary and must be performed uninterrupted for a certain time in order to succeed. Once the Ritual's time is up, a Test is required, to unleash its magic. If the Test is failed, the Ritual's magic still works, but may be weaker or have **side-effects**. If any Ritualist's [Concentration](#concentration-spells) is broken, the Ritual fails and **Backfires** catastrophically!
+
+When starting the Ritual, you must decide how long it will take, by a multiple of the time increment. Every time increment increases the SI by `+1`.
+
+Once a Ritual is fulfilled, its magic is released and all Ritualists who partook in the Ritual suffer [Arcane Slag and Overheat](#arcane-overheat--slag), same as for normal magic use.
+
+Rituals may be strengthened by [Abyssalite](#abyssalite) and [Malevite Orbs](#malevite), or even require these things to work, at all. Whether a Ritual requires arcane symbols drawn onto a surface or some other medium, is up to the GM and their world. 
 
 ## Spell-Backfire
 A **Spell-Backfire** is a critical blunder of a mage! They suffer negative effects and their spell does not get cast the way they intended!
@@ -1123,7 +1129,12 @@ The psion may choose how much they wish to open up to The Veil. This is represen
 | 3     | Veil Hop             | 3  | OPN * 3  | OPN                             | OPN * 5          | Cause a dimensional rift to open and swallow a ST of choice, which another rift releases at a location of your choosing, a moment later. |
 | 3     | Join The Veil        | 2  | OPN * 3  | Opposed by Self-Control - OPN   | OPN * 3          | Shroud a ST in the inscrutable darkness of The Beyond. They become [Terrified](strive-core.md#terrified) of the psion and [Marked](./strive-core.md#marked). |
 | 4     | Try Again            | 1  |          |                                 | 25               | **Reaction**: When you or someone else resolves a Test, create a minute overlap of timelines, and displace a snippet of your own timeline with a hopefully better one. You or they must now repeat the Test. The new result is final. This can only be attempted once for a given Test. |
-| 4     | Memory Re-write      | 3  | OPN * 3  | Opposed by Self-Control - OPN   | OPN * 3          | **Time(`+1`)**: Re-write the memory of a ST. Make them forget, or implant in them a memory they never had. |
+
+**Rituals**
+
+| Level | Name                 | Time Increment | Ob                              | Veil Degradation | Effect(s)                      |
+| ----- | -------------------- | -------------- | ------------------------------- | ---------------- | ------------------------------ |
+| 4     | Memory Re-write      | 3 Hours        | Opposed by Self-Control - OPN   | OPN * 3          | Re-write the memory of a ST, up to `OPN * 3` Squares away. Make them forget, or implant in them a memory they never had. |
 
 ## List of Magic Schools
 The capabilities of the various magic schools are described by the [Expertise](./strive-core.md#expertise) associated with each of them. The concrete effects are kept vague on purpose, to allow a certain freedom when choosing how the magic is expressed. But the intensity or strength of a casting is tied to the Level of the [Magic School Skill](#magic-school--school---attribute-). 
@@ -1148,7 +1159,12 @@ The control of air, to create and change its flow, for benefit and detriment.
 | 1     | Breathing Bubble     | 2  | `1`           | `SI`        | **Concentration**: Form a stationary bubble of clean air, in a `SI * 2` Squares AoE diameter. | The air is displaced from your lungs for `1` Round, making you unable to speak and you suffer `+1` [Strain](./strive-core.md#stamina--strain)! |
 | 2     | Vacuumize            | 2  | `8`           | `SI`        | **Concentration**: Drive all air out of a stationary `SI * 2` Square AoE radius. All creatures caught in the anti-air bubble start suffocating, as all air is driven from their lungs. They suffer `+1` [Strain](strive-core.md#stamina--strain) at the start of every Turn. | The air around you is displaced, instead of the spot of their choosing. The effect lasts `1` Round and you cannot concentrate on any other spell, for as long as it lasts. |
 | 3     | Crushing Compression | 2  | `SI * 6`      | `SI`        | Compress the air around a ST, crushing it with `SI * 5` points of Bludgeoning damage. | The air compresses around you instead. |
-| 4     | Tornado              | 2  | `SI * 6`      | `SI`        | **Concentration, Time(`+1`)**: Call forth a tornado and control its movements. It is up to `SI` AoE radius wide and tall, and can displace creatures and objects up to `SI * 2` Bulk, throwing them up to `SI * 2` Squares far, in a random direction. The tornado can clear away gases and the like. | The tornado forms at your location and moves randomly. It lasts `1` Round and you cannot concentrate on any other spell until the tornado expires. |
+
+**Rituals**
+
+| Level | Name                 | Time Increment | Ob          | Ritualists | Effect(s)                      | Side-Effect(s)     | Backfire Effect(s) |
+| ----- | -------------------- | -------------- | ----------- | ---------- | ------------------------------ | ------------------ | ------------------ |
+| 4     | Tornado              | 1 Hour         | `SI`        | 1+         | **Concentration**: Call forth a tornado, up to `SI * 6` Squares away, and control its movements. It is up to `SI` AoE radius wide and tall, and can displace creatures and objects up to `SI * 2` Bulk, throwing them up to `SI * 2` Squares far, in a random direction. The tornado can clear away gases and the like. | The Tornado forms, but you lose control. It moves unpredictably and randomly. | The air displaces in a `SI * 2` radius around the Ritualists. Everyone in the AoE is sucked into the vaccuum, which they cannot escape from, for `SI` Rounds. Every turn, they suffer `4` Pure damage and `+1` [Strain](./strive-core.md#stamina--strain) as they suffocate! |
 
 ### Artificing (Arc/Wit)
 The setting of arcane traps and creation of arcane artifacts and materials. 
@@ -1176,10 +1192,16 @@ The alteration of physical things, to change their shape and purpose. And the ab
 | 0     | Shape Earth          | 2  | `SI * 3`       | `SI`            | Cause earth in a `SI * 2` Square AoE radius, at a spot of the mage's choosing to change shape, as the mage wills it. The shape cannot exceed the radius in size. Could be used to create or tear down an earthen wall, close up a door way, quickly create a trench and so on.<br>If the shaped earth would cause a creature to be crushed, it may stop the earth with an Opposed Strength Test at Ob equal to your chosen SI. Every additional creature being crushed can [assist in the Test](./strive-core.md#providing-assistance). If its Test fails or it cannot resist, it will be pushed aside and suffer `SI * 4` Bludgeoning damage. | Instead of the intended shape, the earth takes on an "inverse" form of what they want. If they wanted a wall, they get a trench. If they wanted a stair leading up, they get one leading down, and so on. |
 | 1     | Wings                | 2  |                | `SI`            | **Concentration**: Grow wings! You may now fly up to `SI * 5` Squares high at a speed of `SI * 2` Squares per AP spent. | You suffer a random mutation, instead! |
 | 1     | Feel the Shape       | 1  | `SI * 20`      | `SI`            | Place a hand to a surface. You can feel the faintest vibrations and reverberations within and beneath. Can be used to detect underground caves and structures and imprecisely detect the movements of creatures along a given surface, such as the ground. | You become numb and cannot feel anything for `2` Rounds. `-1D` to all Tests and `-1` [Stamina](./strive-core.md#stamina--strain) |
-| 2     | Alter Flesh          | 3  | `1`            | `SI`            | **Time(`+1`)**: A ST creature is altered as you desire, **permanently**. The Ob depends on the complexity and size of the re-shaping. Ob `2` for simple and small, `3` for tricky and medium, `4` for complex and large and `5+` for very complex and very large alterations. Consult your GM! | Instead of the intended alteration, a random mutation occurs! |
 | 2     | Earth Spike Trail    | 3  | `SI * 3`       | `SI`            | Cause spikes of earth to shoot out of a surface that you can lay your hands on. Everyone caught in a straight AoE line of up to `SI * 3` Squares in length, originating from you, suffers `SI * 3` points of Piercing damage. The area of the spikes is then considered Difficult Terrain. The spikes crumble after `1` Round. | You lose control and the spell unleashes in a random direction. |
 | 2     | Aspect of the Bull   | 2  |                | `SI`            | **Concentration**: Grow bull horns and bestial legs! You may now run at a speed of `4 + SI` Squares per AP spent. You may now charge at targets and gore them for `SI * 3` points of Piercing damage, but you must run at least `2` Squares in order to make use of this ability. | You suffer a random mutation, instead! |
-| 4     | Wereshape            | 3  |                | `3`             | **Concentration, Time(`+1`)**: Assume a were-beast shape. See the list below. Your Attributes will be modified as noted on each were-beast shape. | Instead of transforming, your body goes into shock! You are [Stunned](./strive-core.md#stunned)! |
+| 4     | Wereshape            | 3  |                | `3`             | **Concentration**: Assume a were-beast shape. See the were-beasts below. Your Attributes will be modified as noted on each were-beast shape. | Instead of transforming, your body goes into shock! You are [Stunned](./strive-core.md#stunned)! |
+
+**Rituals**
+
+| Level | Name                 | Time Increment | Ob          | Ritualists | Effect(s)                      | Side-Effect(s)     | Backfire Effect(s) |
+| ----- | -------------------- | -------------- | ----------- | ---------- | ------------------------------ | ------------------ | ------------------ |
+| 2     | Alter Flesh          | 1 Hour         | `SI`        | 1+         | A ST creature is altered as you desire, **permanently**. The Ob depends on the complexity and size of the re-shaping. Ob `2` for simple and small, `3` for tricky and medium, `4` for complex and large and `5+` for very complex and very large alterations. Consult your GM! | In addition to the intended alteration, a random [Mutation](./strive-core.md#list-of-mutations) occurs! | Every Ritualist suffers `+3` random Mutations! |
+| 4     | Shatter Earth        | 2 Hours        | `SI`        | 1+         | Make earth and rock tremble and shatter in a `SI * 4` Squares radius or `SI * 8` Squares line, up to `SI * 10` Squares away. Can be used to create massive sinkholes and make fortifications crumble. | Half of the AoE, instead of shattering the earth, re-shapes it. Roll `1D4`: On a `1`: The earth transforms into a solid sphere. On a `2`: The surface of the area becomes a thorny ridge of spear-like spikes. On a `3`: The earth forms into a tunnel. On a `4`: The earth rises to form a solid plateau. | Every Ritualist suffers `+3` Bludgeoning Injuries as the tremors rattle their innards! |
 
 #### Werewolf-Shape
 A bipedal wolf armed with wicked claws and deadly teeth!
@@ -1210,7 +1232,14 @@ The summoning and control of ice. Cryomancer's can freeze things, so they're hea
 | 1     | Cold Finger Gun       | 2  | `SI * 5`      | `Opposed`                    | Shoot an ice spike at a ST from your hand. <br> `≤ 1` Hit: `2 + SI` Freezing; `+1` [Frostbitten](./strive-core.md#frostbitten) <br> `= 2` Hits: `6 + SI` Freezing; `+2` [Frostbitten](./strive-core.md#frostbitten) <br> `≥ 3` Hits: `10 + SI` Freezing; `+3` [Frostbitten](./strive-core.md#frostbitten) | The attack is launched in a random direction, instead. |
 | 2     | Ice Shape             | 2  | `SI * 5`      | `SI`                         | Turn humidity into ice, in the shape of your choosing, in an AoE radius of up to `SI` Squares. | You suffer `+1` [Frostbitten](./strive-core.md#frostbitten)! |
 | 3     | Ice Armor             | 1  |               | `SI`                         | **Reaction**: Upon being successfully attacked, turn the surrounding humidity into armor, that absorbs up to `SI * 3` points of Slashing, Piercing, Bludgeoning and Burning damage, before shattering immediately afterwards! The damage the armor absorbs, is the damage you do not suffer! | You suffer `+1` [Frostbitten](./strive-core.md#frostbitten)! |
-| 4     | Rooting Freeze        | 3  | `SI * 5`      | `SI + 1`                     | **Time(`+1`)**: A spot of your choosing freezes over. Anyone caught within the AoE radius of up to `SI * 3` Squares will be frozen to the spot and thus [Rooted](./strive-core.md#rooted) and also suffer <br> `≤ 1` Hit: `SI * 2` points of Freezing damage. <br> `= 2` Hits: `SI * 3` points of Freezing damage. <br> `≥ 3` Hits: `SI * 4` points of Freezing damage. <br> They can break free via a successful [Strength](./strive-core.md#strength-str) Test at Ob `SI`. Or wait, until the ice thaws, which, under normal conditions, will take `2` Rounds. | The spot beneath your own feet is affected, instead. |
+| 3     | Ice Heart             | 3  |               | `SI`                         | **Concentration**: Up to `SI` MST are protected from the cold and its effects. They do not suffer any Frostbitten and `SI * 2` less Freezing damage. | You suffer `+1` [Frostbitten](./strive-core.md#frostbitten)! |
+| 4     | Rooting Freeze        | 3  | `SI * 5`      | `SI + 1`                     | A spot of your choosing freezes over. Anyone caught within the AoE radius of up to `SI * 3` Squares will be frozen to the spot and thus [Rooted](./strive-core.md#rooted) and also suffer <br> `≤ 1` Hit: `SI * 2` points of Freezing damage. <br> `= 2` Hits: `SI * 3` points of Freezing damage. <br> `≥ 3` Hits: `SI * 4` points of Freezing damage. <br> They can break free via a successful [Strength](./strive-core.md#strength-str) Test at Ob `SI`. Or wait, until the ice thaws, which, under normal conditions, will take `2` Rounds. | The spot beneath your own feet is affected, instead. |
+
+**Rituals**
+
+| Level | Name                 | Time Increment | Ob          | Ritualists | Effect(s)                      | Side-Effect(s)     | Backfire Effect(s) |
+| ----- | -------------------- | -------------- | ----------- | ---------- | ------------------------------ | ------------------ | ------------------ |
+| 4     | Blizzard             | 3 Hours        | `SI`        | 1+         | **Concentration**: Cause a freezing blizzard in a `SI * 10` Squares radius, up to `SI * 10` Squares away. All creatures caught in the blizzard suffer `+1` [Frostbitten](./strive-core.md#frostbitten) per Tick and suffer `SI * 2` Freezing damage. | Pockets form within the blizzard, within which its effects are nullified. | All Ritualists are frozen solid for `SI` Rounds, rendering them [Rooted](./strive-core.md#rooted) and [Stunned](./strive-core.md#stunned)! |
 
 ### Divination (Arc/Wit)
 Catching glimpses of the unknowable and nudging fate. A Divination mage prefers to stay out of harms way - which their power facilitates. 
@@ -1241,12 +1270,19 @@ The casting of curses to weaken others.
 
 | Level | Name                  | AP | Distance      | Ob                        | Effect(s)                      | Backfire Effect(s) |
 | ----- | --------------------- | -- | ------------- | ------------------------- | ------------------------------ | ------------------ |
-| 0     | Instill Fear          | 2  | `SI * 5`      | Opposed by `Self-Control` | **Time(`+1`)**: [Terrify](strive-core.md#terrified) a ST  for `SI` Turns. | You are affected, instead. |
+| 0     | Instill Fear          | 2  | `SI * 5`      | Opposed by `Self-Control` | **Concentration**: [Terrify](strive-core.md#terrified) `SI` MST. | You are affected, instead. |
 | 0     | Slow Down             | 2  | `SI * 3`      | Opposed by `Self-Control` | Reduce a ST's [AP](./strive-core.md#action-points-ap) regain per Turn by `-1` for `SI` Turns and reduce their current AP by `-1`. Does not stack. | You are affected, instead. |
 | 1     | Weaken                | 2  | `SI * 5`      | Opposed by `Toughness`    | **Concentration**: Cause a ST to take `SI * 2` more points of damage from a chosen damage type. | You are affected, instead. The effect lasts for `1` Round and you **cannot** concentrate on any other spell for that duration. |
 | 2     | Atrophy               | 2  | `SI * 3`      | Opposed by `Toughness`    | **Concentration**: Weaken a ST's Strength by `SI` Levels. Also, they deal `SI * 2` fewer points of damage per physical attack. | You are affected, instead. The effect lasts for `1` Round and you **cannot** concentrate on any other spell for that duration. |
 | 2     | Spray Acid            | 2  | `SI * 3`      | `SI`                      | Spray acid in an AoE cone. <br> `≤ 1` Hit: `SI * 2` Acid <br> `= 2` Hits: `SI * 3` Acid <br> `≥ 3` Hits: `SI * 4` Acid | The effect triggers in reverse, pointing the cone straight through you and backwards! |
 | 3     | Slag to Acid          | 2  | `SI * 5`      | Opposed by `Toughness`    | Convert the [Arcane Slag](#arcane-overheat--slag) of a ST within reach into acid! They lose `SI` points of [Arcane Slag](#arcane-overheat--slag), which convert into `N * 6` points of Acid damage, where *N* is the number of [Arcane Slag](#arcane-overheat--slag) points removed! | You are affected, instead! |
+
+**Rituals**
+
+| Level | Name                 | Time Increment | Ob          | Ritualists | Effect(s)                      | Side-Effect(s)     | Backfire Effect(s) |
+| ----- | -------------------- | -------------- | ----------- | ---------- | ------------------------------ | ------------------ | ------------------ |
+| 2     | Lumbago              | 1 Hour         | `SI`        | 1 - 1      | Cause a ST to become paralyzed and [Stunned](./strive-core.md#stunned) with pain for `SI` hours. | The effect alternates between hours of pain and hours of normality. | Only the Ritualist suffers the Lumbago. |
+| 3     | Acid Tide            | 1 Hour         | `SI`        | 1+         | Create a tidal wave of acid, up to `SI * 5` Squares in diameter and send it up to `SI * 10` Squares far. It causes `SI * 3` Acid damage to all it touches. The acid remains once settled and can be used to fill pits and trenches. | The Ritual loses half its SI. | The acid forms in a tornado around the Ritualists and sucks all within the AoE into it, for `SI` Rounds! |
 
 ### Hydromancy (Agi/Arc)
 The control of directly accessible water. Blood and creatures cannot be affected by this school. 
@@ -1260,8 +1296,8 @@ Contact with **magically fouled water** will always cause [Illnesses](./strive-c
 | 0     | Separate Fluids      | 1  | `SI * 5` | `SI`                      | Turn one liquid into two distinct liquids, each containing a specific aspect, and which **cannot mix**, in a `SI * 3` Square AoE radius. Could be used to separate foul water from pure water. |  |
 | 1     | Fluid Whip           | 2  | `SI * 3` | `Opposed`                 | Cause a fluid to lash out at a ST, like a whip. <br> `≤ 1` Hit: `SI * 4` Slashing <br> `= 2` Hits: `SI * 6` Slashing <br> `≥ 3` Hits: `SI * 8` Slashing | You lose control and the whip strikes in a random direction. |
 | 2     | Harden Fluid         | 2  | `SI * 3` | `SI`                      | **Concentration**: Cause a fluid in an AoE diameter or line of up to `SI * 5` Squares to become semi-solid. Solid enough to walk on it and for it to keep its current shape! | The water turns magically foul! |
-| 3     | Conjure Rain         | 3  | `SI * 5` | `SI`                      | **Concentration, Time(`+1`)**: Cause rain to fall in an AoE diameter or line of up to `SI * 5` Squares. | Foul water rains from the sky! Anyone caught in it will suffer an [Illness](./strive-core.md#illness)! |
-| 3     | Conjure Fog          | 3  | `SI * 5` | `SI`                      | **Concentration, Time(`+1`)**: Cause fog to form in an AoE diameter or line of up to `SI * 3` Squares. The fog imposes a `-2` penalty to all Tests through or within it that rely on sight. | The fog forms around you, instead of your chosen location and lasts for `1` Round. You **cannot** concentrate on any other spell for that duration. |
+| 3     | Conjure Rain         | 3  | `SI * 5` | `SI`                      | **Concentration**: Cause rain to fall in an AoE diameter or line of up to `SI * 5` Squares. | Foul water rains from the sky! Anyone caught in it will suffer an [Illness](./strive-core.md#illness)! |
+| 3     | Conjure Fog          | 3  | `SI * 5` | `SI`                      | **Concentration**: Cause fog to form in an AoE diameter or line of up to `SI * 3` Squares. The fog imposes a `-2` penalty to all Tests through or within it that rely on sight. | The fog forms around you, instead of your chosen location and lasts for `1` Round. You **cannot** concentrate on any other spell for that duration. |
 
 ### Illusion (Arc/Awar)
 Creation of non-physical influences on the senses. That includes images, sounds and odors. The illusions cannot cause direct harm, although they can drive an individual to acts that may put them in danger. 
@@ -1273,6 +1309,12 @@ Creation of non-physical influences on the senses. That includes images, sounds 
 | 1     | Illusory Duplicates  | 2  | `SI * 3`       | `SI`                      | **Concentration**: `SI` number of illusory copies of a ST emerge. The distracting images move around the the ST and each of them makes it `+1` Ob harder to hit the ST. Every time the ST is attacked, one of the illusory duplicates is removed. When no duplicates remain, the spell ends automatically. | Instead of making it harder to hit the ST, the illusory duplicates are faulty and easily debunked. But they are distracting to the ST, making it `-1` Ob easier to hit them! |
 | 2     | Conceal              | 3  | `SI * 3`       | `SI`                      | **Concentration**: Up to `SI` targets become invisible. The light bends around them, but doesn't make them ethereal. | You lose control and instead of becoming invisible, a terrible noise emanates from you and your targets, for `SI` Rounds! |
 
+**Rituals**
+
+| Level | Name                 | Time Increment | Ob          | Ritualists | Effect(s)                      | Side-Effect(s)     | Backfire Effect(s) |
+| ----- | -------------------- | -------------- | ----------- | ---------- | ------------------------------ | ------------------ | ------------------ |
+| 3     | Fake World           | 1 Hour         | `SI`        | 1+         | **Concentration**: Create a stationary illusion of image, sound and smell in a radius of up to `SI * 10` Squares around you. The illusion is flawless and can only be debunked with an Observation Test at Ob `SI + 1`. | The illusion is faulty in places. | The Ritualists' worst fears manifest, haunting them and [Terrifying](./strive-core.md#terrified) them for `SI` Rounds. |
+
 ### Pyromancy (Arc/Arc)
 The summoning and control of fire. The flame being a destructive force, pyromancers enjoy little utility from their magic, beyond the ability to create light and heat. 
 
@@ -1282,9 +1324,14 @@ The summoning and control of fire. The flame being a destructive force, pyromanc
 | 1     | Flame Whip           | 2  | `SI * 3`   | `Opposed`                 | Lash out at a ST with a whip made of pure fire. <br> `≤ 1` Hit: `SI * 2` Burning; `+1` [Burning](./strive-core.md#burning) <br> `= 2` Hits: `SI * 4` Burning; `+2` [Burning](./strive-core.md#burning) <br> `≥ 3` Hits: `SI * 6` Burning; `+3` [Burning](./strive-core.md#burning) | You lose control and the whip lashes out in a random direction, instead! |
 | 1     | Imbue Flame          | 2  | `SI * 3`   | `SI`                      | **Concentration**: Cover an object in flames that do not burn it! All attacks made with that object deal an additional `SI * 2` points of Burning damage! | The flames *do* consume the object they cover! The object *can* still be carried or wielded, but will deal `SI * 2` points of Burning damage to whoever does, at the start of their every Turn! |
 | 2     | Cone of Fire         | 3  | `SI * 2`   | `SI + 1`                  | Shoot a burst of fire in an AoE cone. <br> `≤ 1` Hit: `SI * 2` Burning; `+1` [Burning](./strive-core.md#burning) <br> `= 2` Hits: `SI * 4` Burning; `+2` [Burning](./strive-core.md#burning) <br> `≥ 3` Hits: `SI * 6` Burning; `+3` [Burning](./strive-core.md#burning) | The effect triggers in reverse, pointing the cone backwards, through your face. |
-| 3     | Fire Ball            | 2  | `SI * 15`  | `SI`                      | **Time(`+1`)**: Form a large ball of flame between your hands, ready to be flung at a target location, affecting an AoE radius of `SI` Squares. <br> `≤ 1` Hit: `SI` Burning; `+1` [Burning](./strive-core.md#burning) <br> `= 2` Hits: `SI * 2` Burning; `+1` [Burning](./strive-core.md#burning) <br> `≥ 3` Hits: `SI * 3` Burning; `+2` [Burning](./strive-core.md#burning) | The fire ball instead launches in a random direction, impacting with the first obstacle it comes across! |
+| 3     | Fire Ball            | 2  | `SI * 15`  | `SI`                      | Form a large ball of flame between your hands, ready to be flung at a target location, affecting an AoE radius of `SI` Squares. <br> `≤ 1` Hit: `SI` Burning; `+1` [Burning](./strive-core.md#burning) <br> `= 2` Hits: `SI * 2` Burning; `+1` [Burning](./strive-core.md#burning) <br> `≥ 3` Hits: `SI * 3` Burning; `+2` [Burning](./strive-core.md#burning) | The fire ball instead launches in a random direction, impacting with the first obstacle it comes across! |
 | 4     | Flame Jet            | 3  | `SI * 3`   | `SI + 1`                  | **Concentration**: A steady stream of flame shoots from your hands, dealing `SI * 2` points of Burning damage and inflicting `+1` [Burning](./strive-core.md#burning) to anything caught by it, in a straight AoE line. | The line of fire erupts backwards, through you! This lasts `1` Round and you **cannot** concentrate on any other spells in the meantime! |
-| 5     | Rain of Fire         | 4  | `SI * 10`  | `SI + 2`                  | **Concentration, Time(`+1`)**: Let fire rain from the sky! At the start of every Turn, a ball of fire falls from the sky affecting all in a `SI * 2` Square AoE radius, at a location of choice.  <br> `≤ 1` Hit: `SI * 3` Burning; `+1` [Burning](./strive-core.md#burning) <br> `= 2` Hits: `SI * 4` Burning; `+1` [Burning](./strive-core.md#burning) <br> `≥ 3` Hits: `SI * 5` Burning; `+2` [Burning](./strive-core.md#burning) | No fire falls from the sky, instead the fire explodes in your hands, dealing `SI * 6` points of Burning damage and `+2` [Burning](./strive-core.md#burning) to themselves and anything in a `SI * 2` Square AoE radius around them! |
+
+**Rituals**
+
+| Level | Name                 | Time Increment | Ob          | Ritualists | Effect(s)                      | Side-Effect(s)     | Backfire Effect(s) |
+| ----- | -------------------- | -------------- | ----------- | ---------- | ------------------------------ | ------------------ | ------------------ |
+| 5     | Rain of Fire         | 3 Hours        | `SI`        | 1+         | **Concentration**: Fire rains from the sky in a `SI * 10` Square radius, up to `SI * 15` Squares far away. Everything caught in the falling flames and sparks catches fire, suffering `SI * 3` Burning damage and `+1` [Burning](./strive-core.md#burning) Condition! | The blanket of firery precipitation has holes. | The Ritualists are immolated, suffering `SI * 3` Burning damage and `+3` [Burning](./strive-core.md#burning) Condition! |
 
 ### Restoration (Arc/Awar)
 The mending of the body and mind.
@@ -1311,7 +1358,12 @@ In the common tongue, blood magic, utilizes fresh mage blood to disturbing effec
 | 2     | Life Leech           | 2  | `1`         | Opposed by `Toughness`     | Draw the life from a ST creature of choice. Deals `SI * 3` points of [Bleeding](./strive-core.md#damage-types) damage while healing your own [HP](./strive-core.md#health-points-hp) for the same amount. May transfer `SI` points of [Bleeding](./strive-core.md#bleeding) or [Poisoned](./strive-core.md#poisoned) from to the creature, if you so choose. | The effect triggers in reverse. |
 | 3     | Crimson Tracks       | 1  | `SI * 150` | `SI`                       | If you have someone's blood, use it to track them. If successful, you get a general sense of how far away and in what direction relative to your facing they are. You also glimpse a momentary fragment of their current emotional state. | The victim is overcome with an odd premonition and becomes aware someone attempted to track them. |
 | 4     | Slagletting          | 2  |                 | `SI + 1`                   | Remove `SI` points of [Arcane Slag](#arcane-overheat--slag) from yourself or a ST, but suffer `3` points of [Bleeding](./strive-core.md#damage-types) damage for each point of [Arcane Slag](#arcane-overheat--slag) that is removed! If successful, this spell does not cause [Arcane Slag](#arcane-overheat--slag). | Instead of removing any [Arcane Slag](#arcane-overheat--slag), you gain `+2` points of it and suffer `6` points of Bleeding damage! |
-| 5     | Puppeteer            | 3  | `SI * 5`   | Opposed by `Self-Control`  | **Concentration, Time(`+1`)**: Command the blood of a victim to obey you. You control their actions, like a puppeteer. Any action you make them take, costs *their* AP. They may try to resist at the beginning of their every Turn, or once every minute, with a [Self-Control](./strive-core.md#self-control-toughtough) Test at Ob equal to the number of Hits you achieved. | You lose control and are [Stunned](./strive-core.md#stunned)! |
+
+**Rituals**
+
+| Level | Name                 | Time Increment | Ob                        | Ritualists | Effect(s)                      | Side-Effect(s)     | Backfire Effect(s) |
+| ----- | -------------------- | -------------- | ------------------------- | ---------- | ------------------------------ | ------------------ | ------------------ |
+| 5     | Puppeteer            | 1 Hour         | Opposed by `Self-Control` | 1+         | **Concentration**: Command the blood of a victim to obey you. You control their actions, like a puppeteer. Any action you make them take, costs *their* AP. They may try to resist at the beginning of their every Turn, or once every minute, with a [Self-Control](./strive-core.md#self-control-toughtough) Test at Ob equal to the number of Hits you achieved. | While in control of someone else, the head Ritualist cannot move or perceive their own body. | Tendrils of blood burst from the Ritualists' skin. If any of the tendrils is damaged, the Ritualists each suffer `2` Pure damage. |
 
 ### Soul-Binding (Arc/Tough)
 Also referred to as **necromancy**, this is the art and skill of calling souls from the Plane Of The Dead and binding them, to reanimate corpses or animate an otherwise unliving body. 
@@ -1351,7 +1403,12 @@ The ability to communicate wordlessly, to alter emotions and even issue compelli
 | 2     | Change a Mind          | 2  | `SI * 4`       | Opposed by `Self-Control - SI` | Alter a creature's current state of mind and emotion. | You are affected, instead. |
 | 3     | Pressing Thought       | 2  | `SI * 10`      | `SI + 1`                       | **Concentration**: [Hasten](./strive-core.md#hasted) up to `SI` MST of choice. | You and your targets suffer `+1` [Strain](./strive-core.md#stamina--strain). |
 | 4     | Quiet Command          | 2  | `SI * 10`      | Opposed by `Self-Control - SI` | Issue a command to another creature, which they feel **strongly** compelled to follow. | `+1` [Strain](./strive-core.md#stamina--strain) to self. |
-| 5     | Confer Knowledge       | 4  | `1`            | `6 - SI`                       | **Time(`+1`)**: Permanently confer `+1` Level of a Known Skill to a ST, but only up to your Level, minus two, in the Skill. Also, this costs **you** `-10` XP. Your Level in the Skill is unaffected. This can only be done once a day, to let the mind of the ST process its unnaturally gained knowledge. | You lose `1` Level in the chosen Skill, for `24` hours! |
+
+**Rituals**
+
+| Level | Name                 | Time Increment | Ob          | Ritualists | Effect(s)                      | Side-Effect(s)     | Backfire Effect(s) |
+| ----- | -------------------- | -------------- | ----------- | ---------- | ------------------------------ | ------------------ | ------------------ |
+| 5     | Confer Knowledge     | 1 Hour         | `6 - SI`    | 1 - 1      | Permanently confer `+1` Level of a Known Skill to a ST, but only up to your Level, minus two, in the Skill. Also, this costs **you** `-10` XP. Your Level in the Skill is unaffected. This can only be done once a day, to let the mind of the ST process its unnaturally gained knowledge. | You temporarily lose a Level in the Skill, for `1` day. | You permanently lose a Level in the Skill! |
 
 ## List of Illnesses
 This list supplements the list of Injuries of the [Core rules](./strive-core.md#list-of-injuries). 
@@ -1374,6 +1431,9 @@ Obvious jokes aside, your breath can deal some tangible damage. `1D8 + 2` of eit
 
 ### Hot-Head
 When in the [Consuming Arcane Overheat](#arcane-overheat--slag) threshold, suffer `-5` points of damage (minimum `0`) from it.
+
+### Hyperattentive
+Can [Concentrate](#concentration-spells) on `+1` spell.
 
 ### Radiator
 Whenever your Arcane Slag is reduced, it is reduced by `+1` more.
