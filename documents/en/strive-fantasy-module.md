@@ -168,9 +168,12 @@ There is a [compendium document](./strive-fantasy-game-masters-resource.md) rese
       - [Faceless Hunter](#faceless-hunter)
       - [Lesser Wendigo](#lesser-wendigo)
       - [Possessed Zombie](#possessed-zombie)
+      - [Spineling](#spineling)
       - [Taskmaster](#taskmaster)
     - [Greater Demons](#greater-demons)
       - [Greater Wendigo](#greater-wendigo)
+      - [Doom Bringer](#doom-bringer)
+      - [Hollow Gazer](#hollow-gazer)
       - [Preacher](#preacher)
   - [Swine-Beasts](#swine-beasts)
     - [Swine Hostility](#swine-hostility)
@@ -1914,6 +1917,35 @@ This minor Demon has been forced into the body of a Zombie. It has deformed, as 
   * `= 2` Hits: `3` Poison
   * `≥ 3` Hits: `4` Poison
 
+#### Spineling
+This minor Demon is a canid-esque quadruped covered in countless bony spines, like a porcupine. It lacks fur, its skin is pallid and sunken, stretched taut across its bones. 
+
+* Power: Regular, CR: `8`
+* Roles: Artillery
+  * A damage dealer that stays out of melee as best it can. Besides its ranged attack, it lacks any utility, but it is hard to hit and has great mobility as it can leap. 
+* Behavior: 
+  * Like all Demons, it is bent on the destruction of everything around it. Its hate is pure and inconsolable. 
+
+| Agi   | Awar  | Str   | Tough | Wit   | Arc   |
+| ----- | ----- | ----- | ----- | ----- | ----- |
+| 6     | 4     | 2     | 3     | 2     | 5     |
+
+| BI     | Sprint | Stabil | HP  | Stamina    | FS (Ranged `10`)| Def    | Armor             |
+| ------ | ------ | ------ | --- | ---------- | --------------- | ------ | ----------------- |
+| 12     | 4      | 0      | 30  | 6          | 4 Piercing      | 3      |                   |
+
+**Traits**: [Fortified Mind](./strive-core.md#fortified-mind--4-points-1-cr); [Leaper](./strive-core.md#leaper--3-points-2-cr)
+
+**Assets**: None
+
+**Skills**:
+* Shoot Spine: 
+  * Shoot a spine from your back at a ST, up to `10` Squares away. 
+  * AP: `2`, Ob: `Opposed`, Ranged, ST, Innate
+  * `≤ 1` Hit: `4` Piercing
+  * `= 2` Hits: `5` Piercing
+  * `≥ 3` Hits: `6` Piercing
+
 #### Taskmaster
 This minor Demon appears to be some sort of stone-golem. Molten lava drips from the ridges and cracks in is limbs.
 
@@ -1996,8 +2028,90 @@ This major Demon appears is a massive half-rotted and calcified, large, bipedal 
   * `= 2` Hits: `4` Pure; All victims whose Self-Control is `≤ 2` become Terrified of you! 
   * `≥ 3` Hits: `6` Pure; All victims whose Self-Control is `≤ 3` become Terrified of you! 
 
+#### Doom Bringer
+This major Demon is a pale biped, without a head and many pairs of arms symmetrically sticking out of its body. When it unfolds the last arm, doom is upon us all. 
+
+* Power: Legendary, CR: `30`
+* Roles: Disruptor, Tank, Trapper
+  * This is a legendary Demon that must be stopped before it can finish its Ritual. For if you don't, it will enact a terrible vengeance. This is essentially a timed encounter. If it is not stopped in time, it will cause great harm. 
+  * It can Force-Move foes and litter the battlefield with hazards, which is a deadly combination. 
+* Behavior: 
+  * Like all Demons, it is bent on the destruction of everything around it. Its hate is pure and inconsolable. 
+  * When not agitated, it always keeps its `12` pairs of arms folded. 
+  * In Combat, prepares the battlefield with Prepare For Hell and when enemies get too close, uses Shake Ground to knock them away. Otherwise, always tries to use Count Down or Terrible Reprisal when it is available. 
+
+| Agi   | Awar  | Str   | Tough | Wit   | Arc   |
+| ----- | ----- | ----- | ----- | ----- | ----- |
+| 2     | 2     | 6     | 10    | 2     | 6     |
+
+| BI     | Sprint | Stabil | HP  | Stamina    | FS (Melee)      | Def    | Armor             |
+| ------ | ------ | ------ | --- | ---------- | --------------- | ------ | ----------------- |
+| 6      | 6      | 3      | 100 | 20         | 5 Slashing      | 1      | 0                 |
+
+**Traits**: [Fortified Mind](./strive-core.md#fortified-mind--4-points-1-cr); 
+
+**Legendary Traits**: [Hyperactive + Multi-Initiative](./strive-core.md#hyperactive--7-points-4-cr); [Shambler](./strive-core.md#shambler-2-points--2-cr)
+
+**Assets**: None
+
+**Skills**:
+* Count Down:
+  * Unfold one of your `12` pairs of arms. When all are unfolded, enact Terrible Reprisal.
+  * AP: `3`, Innate
+* Shake Ground (Arc/Arc):
+  * Stomp the ground and make it tremble. All in a `10` Square radius around are knocked into a random direction, ... 
+  * Level: `5`, AP: `4`, Ob: `2`, AoE, Innate
+  * `≤ 1` Hit: ...`3` Squares far
+  * `= 2` Hits: ...`4` Squares far
+  * `≥ 3` Hits: ...`5` Squares far
+* Prepare For Hell (Arc/Arc):
+  * **Concentration**: Place up to `9` columns of flame, up to `20` Squares far away. Each is `1` Square wide and tall and will deal `3` Burning damage.
+  * Level: `4`, AP: `3`, Innate
+* Terrible Reprisal (Arc/Arc):
+  * Another pair of unfolded hands claps together and remains so. The next time this ability is used, the next pair claps together. Each has a different and ever stronger effect. Once all hands have clapped, they fold again and the cycle repeats. 
+  <br> 1st pair: The reverberation of the clap resonates within all in a `100` Square radius around. They suffer `+1` Bludgeoning Injury. 
+  <br> 2nd pair: All in a straight AoE line, up to `20` Squares far, suffer `5` Bleeding damage. 
+  <br> 3rd pair: All in a `100` Square radius around suffer `+1` Strain. 
+  <br> 4th pair: Up to `3` MST become [Berserked](./strive-core.md#berserk), if they fail a Self-Control Ob `2` Test. 
+  <br> 5th pair: All in a `10` Squares radius, suffer `8` Bleeding damage. 
+  <br> 6th pair: All in a `10` Squares radius, suffer `-1` to every Attribute, for `3 Rounds.
+  <br> 7th pair: Reprieve. All in a `30` Squares radius, regain `+10` HP and regain `3` Stamina.
+  <br> 8th pair: All in a `100` Square radius around suffer `+2` Strain. 
+  <br> 9th pair: All in a `20` Square radius around suffer `5` Pure damage.
+  <br> 10th pair: Up to `3` MST become [Pacified](./strive-core.md#berserk), if they fail a Self-Control Ob `3` Test. 
+  <br> 11th pair: All in a `20` Square radius around suffer `10` Pure damage.
+  <br> 12th pair: All in a `100` Square radius around suffer `20` Pure damage.
+  * Level: `4`, AP: `4`, Innate
+
+#### Hollow Gazer
+This major Demon is but a husk of a creature. Its decrepit form can barely stand upright. Yet its piercing, red gaze is unwavering and merciless. 
+
+* Power: Elite, CR: `15`
+* Roles: Artillery, Shock-Trooper
+  * This Demon is particularly deadly. It lacks utility, but makes up for that with its evil gaze, which can quickly turn deadly. 
+  * It is immovable, meaning Force-Moving it around won't work. Its foes will have to come up with smarter solutions.
+* Behavior: 
+  * Like all Demons, it is bent on the destruction of everything around it. Its hate is pure and inconsolable. 
+
+| Agi   | Awar  | Str   | Tough | Wit   | Arc   |
+| ----- | ----- | ----- | ----- | ----- | ----- |
+| 1     | 5     | 1     | 6     | 3     | 8     |
+
+| BI     | Sprint | Stabil | HP  | Stamina    | FS (Ranged `20`)| Def    | Armor             |
+| ------ | ------ | ------ | --- | ---------- | --------------- | ------ | ----------------- |
+| 9      | 3      | 0      | 60  | 12         | 5 Bleeding      | 0      |                   |
+
+**Traits**: [Fortified Mind](./strive-core.md#fortified-mind--4-points-1-cr); [Shambler](./strive-core.md#shambler-2-points--2-cr); [Immovable](./strive-core.md#immovable--2-points-1-cr);
+
+**Assets**: None
+
+**Skills**:
+* Evil Gaze:
+  * **Passive**: All victims it can see, in a `10` Square AoE line from it, begin to bleed incessantly from every orifice, suffering `5` Bleeding damage every Turn. Its maddening gaze is oppressive - its victims feel as though their head is being crushed and suffer `+1` [Strain](./strive-core.md#stamina--strain). This effect is constant and enduring.
+  * Ranged, AoE, Innate
+
 #### Preacher
-This major Demon looks like it is little more than a horned skull attached by chains to a torso of stone. It appears harmless, but this is part of its devious scheme. Dark wings and brightly glowing arcane symbols flank the torso, almost giving it a divine appearance. 
+This major Demon appears as little more than a horned skull attached by chains to a torso of stone. Dark wings and brightly glowing arcane symbols flank the torso, almost giving it a divine appearance. It seems harmless, but this is part of its devious scheme. 
 
 * Power: Elite, CR: `15`
 * Roles: Commander, Disruptor
