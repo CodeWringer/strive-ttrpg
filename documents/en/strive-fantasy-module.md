@@ -274,7 +274,8 @@ A mage can fail their [Test](./strive-core.md#tests) and thus suffer a [Spell-Ba
 2. Determine the Test's Ob. 
    1. Some Spells require an [Opposed Test](./strive-core.md#opposed-test), while others have a fixed or dynamic Ob, based on some formula. 
 3. The dice for the Test are rolled. 
-4. Convert the SI to [Arcane Overheat & Slag](#arcane-overheat--slag). This **always** happens *after* the Spell is cast!
+4. The Arcane Overheat dice are rolled, if necessary. They may cause [Spell-Backfires](#spell-backfire). 
+5. Convert the SI to [Arcane Overheat & Slag](#arcane-overheat--slag). This **always** happens *after* the Spell is cast!
    1. If this brings the mage to a new [Arcane Overheat](#arcane-overheat--slag) threshold, its effects now apply. 
 
 ## Spell Intensity (SI)
@@ -299,26 +300,26 @@ When a mage casts magic, **one third** (RD and minimum `1`) of the [Spell Intens
 > 
 > = A spell cast at SI `7` causes `+2` Arcane Slag and `+5` Arcane Overheat. 
 
-The [Arcana](#arcana-arc) Attribute determines several thresholds. If the Character has an [Arcana](#arcana-arc) Level of less than `1`, calculate the thresholds as if it was Level `1`. 
+The [Arcana](#arcana-arc) Attribute determines several thresholds. If the Character has an [Arcana](#arcana-arc) Level of less than `1`, calculate the thresholds as if it was Level `1`. That means non-mages have such thresholds, too! 
 
-* **Cold**: Up to and including the `Arcana Level` is **mostly safe**. 
-  * Every time the mage casts a spell, if they don't achieve at least `1` Hit, a [Spell-Backfire](#spell-backfire) occurs. In other words, only a failure of the [Test](#testing-magic) results in a [Spell-Backfire](#spell-backfire). 
+* **Cold**: Up to and including the `Arcana Level` is **safe**. 
+  * [Spell-Backfires](#spell-backfire) cannot occur. 
 * **Smoldering**: Up to and including the `Arcana Level * 2` is **risky**. 
-  * Every time the mage casts a spell, their Ob is always increased by `+1`. Less than `2` Hits causes a [Spell-Backfire](#spell-backfire). 
+  * For every Spell, you must roll `1D6`, if the die comes up as a `1`, you suffer a Spell-Backfire!
   * All spells are super-charged, with an automatic and free `+1` SI. 
 * **Broiling**: Up to and including the `Arcana Level * 3` is **perilous**. 
-  * The Ob for **all** Tests is always increased by `+1`. Less than `3` Hits causes a [Spell-Backfire](#spell-backfire). 
+  * For every Spell, you must roll `2D6`, if any die comes up as a `1`, you suffer a Spell-Backfire!
   * All spells are super-charged, with an automatic and free `+2` SI. 
-* **Consuming**: Anything past the point of **Broiling** is **mortally perilous**. 
-  * Suffer `1D8 + 2` [Pure damage](./strive-core.md#damage-types) every [Tick](./strive-core.md#ticks). At the end of every tick, reduces [Arcane Overheat & Slag](#arcane-overheat--slag) by `-1` point, each. 
-  * The Ob for **all** Tests is always increased by `+2`. Less than `4` Hits causes a [Spell-Backfire](#spell-backfire). 
+* **Consuming**: Anything past the point of Broiling is **mortally perilous**. 
+  * For every Spell, you must roll `3D6`, if any die comes up as a `1`, you suffer a Spell-Backfire!
   * All spells are super-charged, with an automatic and free `+3` SI. 
+  * Suffer `1D8 + 2` [Pure damage](./strive-core.md#damage-types) every [Tick](./strive-core.md#ticks). At the end of every tick, reduces [Arcane Overheat & Slag](#arcane-overheat--slag) by `-1` point, each. 
 
 > The thresholds of a mage with an Arcana of `3` are: `0-3` Cold, `4-6` Smoldering, `7-9` Broiling and `10+` Consuming. 
 
-At the start of every Turn, or every `5` seconds outside combat, a mage automatically reduces their Arcane Overheat by one point. They can actively **vent** their Arcane Overheat further - one point per [AP](./strive-core.md#action-points-ap) spent. 
+At the start of every Turn, or every `5` seconds outside combat, a mage automatically reduces their Arcane Overheat by `-1` point. They can actively **vent** their Arcane Overheat further - one point per [AP](./strive-core.md#action-points-ap) spent. 
 
-`1` point of Arcane Slag automatically leaves the Character's body, every `6` hours. If that time is spent in active rest or meditation - that means doing *nothing* besides rest -, then `2` points leave the body, instead. 
+`-1` point of Arcane Slag automatically leaves the Character's body, every `6` hours. If that time is spent in active rest or meditation - that means doing *nothing* besides rest -, then `-2` points leave the body, instead. 
 
 Arcane Slag *can* affect non-mages, too! That implies they can also suffer Arcane Overheat (although that does not make them mages)! 
 
@@ -329,7 +330,7 @@ Some Rituals may require a minimum number of mages to take part, if it is to sta
 
 All Ritual magic is stationary and must be performed uninterrupted for a certain time in order to succeed. Once the Ritual's time is up, a Test is required, to unleash its magic. If the Test is failed, the Ritual's magic still works, but may be weaker or have **side-effects**. If any Ritualist's [Concentration](#concentration-spells) is broken, the Ritual fails and **Backfires** catastrophically!
 
-When starting the Ritual, you must decide how long it will take, by a multiple of the time increment. Every time increment increases the SI by `+1`.
+When starting the Ritual, the SI you choose dictates how many time increments it will take. 
 
 Once a Ritual is fulfilled, its magic is released and all Ritualists who partook in the Ritual suffer [Arcane Slag and Overheat](#arcane-overheat--slag), same as for normal magic use.
 
@@ -342,7 +343,7 @@ Usually, a spell notes the effects that happen when a Backfire occurs. In case t
 
 It is possible for another nearby mage to prevent the Spell-Backfire, if they [negate the Spell](#magic-negation) as a Reaction. This also applies even if the spell wouldn't affect them. If the other mage's attempt to negate the spell *also* Backfires, then both of the mages suffer the spell's effect at one greater [Intensity](#spell-intensity-si) level. 
 
-A Spell-Backfire occurs when an insufficient number of Hits was achieved in a [Magic Test](#testing-magic).
+A Spell-Backfire may occur when a mage suffers from [Arcane Overheat](#arcane-overheat--slag). 
 
 ## Concentration Spells
 Some magic can be upheld for as long as the casting mage **Concentrates** on their spell. Such spells will be marked with **"Concentration"**. The effects of a Concentration spell last for as long as the mage *chooses* or *manages* to keep their Concentration. They need to Test for the spell only *once*, when they first cast it. 
@@ -1283,8 +1284,8 @@ At level `3`, your [Concentration](#concentration-spells) limit increases by `+1
 
 | Level | Name                 | Time Increment | Ob          | Ritualists | Effect(s)                      | Side-Effect(s)     | Backfire Effect(s) |
 | ----- | -------------------- | -------------- | ----------- | ---------- | ------------------------------ | ------------------ | ------------------ |
-| 0     | Summon Minor Demon   | 1 Hour         | `1`         | 1+         | Your Ob is your SI. Summon a minor Demon to a chosen location. Note it is not yet Dominated - it may act unpredictably, yet certainly violently. You have one Round to bind it, before it will properly awaken. | A minor Demon also crosses the threshold. Once it awakens in one Round, its blind rage shall be terrible. | You are briefly consumed by the rift to the Demon's world, before it spits you back out. The ordeal causes you `1D10` Pure damage and `+3` [Strain](./strive-core.md#stamina--strain)! |
-| 3     | Summon Major Demon   | 3 Hours        | `3`         | 1+         | Your Ob is your SI. Summon a major Demon to a chosen location. Note it is not yet Dominated - it may act unpredictably, yet certainly violently. You have one Round to bind it, before it will properly awaken. | A minor Demon also crosses the threshold. Once it awakens in one Round, its blind rage shall be terrible. | You are briefly consumed by the rift to the Demon's world, before it spits you back out. The ordeal causes you `1D10` Pure damage and `+3` [Strain](./strive-core.md#stamina--strain)! |
+| 0     | Summon Minor Demon   | 1 Hour         | Determined by Demon | 1+         | Your Ob is your SI. Summon a minor Demon to a chosen location. Note it is not yet Dominated - it may act unpredictably, yet certainly violently. You have one Round to bind it, before it will properly awaken. | A minor Demon also crosses the threshold. Once it awakens in one Round, its blind rage shall be terrible. | You are briefly consumed by the rift to the Demon's world, before it spits you back out. The ordeal causes you `1D10` Pure damage and `+3` [Strain](./strive-core.md#stamina--strain)! |
+| 3     | Summon Major Demon   | 3 Hours        | Determined by Demon | 1+         | Your Ob is your SI. Summon a major Demon to a chosen location. Note it is not yet Dominated - it may act unpredictably, yet certainly violently. You have one Round to bind it, before it will properly awaken. | A minor Demon also crosses the threshold. Once it awakens in one Round, its blind rage shall be terrible. | You are briefly consumed by the rift to the Demon's world, before it spits you back out. The ordeal causes you `1D10` Pure damage and `+3` [Strain](./strive-core.md#stamina--strain)! |
 
 ### Divination (Arc/Wit)
 Catching glimpses of the unknowable and nudging fate. A Divination mage prefers to stay out of harms way - which their power facilitates. 
@@ -1744,6 +1745,7 @@ Thankfully, these horrid creatures cannot pass into our world easily. They requi
 All Demons are of an Arcane nature and possess powers foreign to this world. 
 
 ### Demon Hostility
+[Dominated](#demonology-arctough) Demons do not have access to Hostility!
 
 #### Consuming Rage
 **`-5` Hostility**: The Demon begins to burn with unconsolable hatred. Its body is covered in unnatural flame that deals `3` Burning damage to all creatures adjacent to it. However, the Demon *also* suffers the damage every Turn. 
@@ -1771,6 +1773,7 @@ All non-Demonic creatures are set on fire and suffer `4` Burning damage every Tu
 This minor Demon towers above and punishes foes with reckless abandon. One of its bony arms morphs into a shield of bone, the other into a wicked blade.
 
 * Power: Regular, CR: `10`
+* Summoning Ob: `3`
 * Roles: Shock-Trooper, Tank
   * Capable of defending itself with its bone shield, it retaliates against any and all foes who attempt to strike it, with astonishing force.
   * When hurt, its blood will harm its attacker.
@@ -1810,6 +1813,7 @@ This minor Demon towers above and punishes foes with reckless abandon. One of it
 This minor Demon looks like a pale, muscular man, but its head is elongated and lacks any facial features, save a teeth-lined maw and reptilian nostrils. Each hand holds a rusty sickle and trophies taken from its victims adorn its body. When it moves, it does so like a beast, rather than a man. 
 
 * Power: Regular, CR: `12`
+* Summoning Ob: `3`
 * Roles: Ambusher, Sentry, Shock-Trooper, Disruptor
   * Though blind, it has excellent senses of smell and hearing. Avoiding it will require clever maneuvering. 
   * Its ability to hide makes it a dangerous foe to be surprised by. 
@@ -1849,6 +1853,7 @@ This minor Demon looks like a pale, muscular man, but its head is elongated and 
 This minor Demon appears like a half-rotted and calcified, large, bipedal Deer. Red eyes and vicious claws plainly demonstrate its rage-filled nature. 
 
 * Power: Regular, CR: `10`
+* Summoning Ob: `3`
 * Roles: Ambusher, Shock-Trooper
   * As it can jump through the shadows, this can be a very unpredictable and dangerous foe. In a moment, it can appear behind a victim and tear into them with its claws. 
 * Behavior: 
@@ -1888,6 +1893,7 @@ This minor Demon appears like a half-rotted and calcified, large, bipedal Deer. 
 This minor Demon has been forced into the body of a Zombie. It has deformed, as if multiple bodies were merged into one, with multiple heads growing out of each other and the torso, and multiple pairs of arms sticking out, grasping at nothing. 
 
 * Power: Regular, CR: `8`
+* Summoning Ob: `2`
 * Roles: Brawler, Multiplier
   * Stronger and more dangerous than a regular Zombie, with a few tricks to surprise foes with. 
 * Behavior: 
@@ -1929,6 +1935,7 @@ This minor Demon has been forced into the body of a Zombie. It has deformed, as 
 This minor Demon is a canid-esque quadruped covered in countless bony spines, like a porcupine. It lacks fur, its skin is pallid and sunken, stretched taut across its bones. 
 
 * Power: Regular, CR: `8`
+* Summoning Ob: `2`
 * Roles: Artillery
   * A damage dealer that stays out of melee as best it can. Besides its ranged attack, it lacks any utility, but it is hard to hit and has great mobility as it can leap. 
 * Behavior: 
@@ -1958,6 +1965,7 @@ This minor Demon is a canid-esque quadruped covered in countless bony spines, li
 This minor Demon appears to be some sort of stone-golem. Molten lava drips from the ridges and cracks in is limbs.
 
 * Power: Regular, CR: `12`
+* Summoning Ob: `3`
 * Roles: Commander, Supporter, Tank
   * Its commands are absolute and it *will* have dominion over all it can. 
   * Thanks to its stone-form it is naturally armored against all but Bludgeoning damage. It does not suffer Flanking. 
@@ -1999,6 +2007,7 @@ This minor Demon appears to be some sort of stone-golem. Molten lava drips from 
 This major Demon appears is a massive half-rotted and calcified, large, bipedal Deer. Multiple pairs of red eyes and vicious claws twitch hungrily, as bony wings contrast the eerily majestic antlers.
 
 * Power: Legendary, CR: `25`
+* Summoning Ob: `5`
 * Roles: Ambusher, Shock-Trooper
   * The Greater Wendigo is a legendary Demon. It does not yield and shows no quarter.
   * As it can jump through the shadows, this can be a very unpredictable and dangerous foe. In a moment, it can appear behind a victim and tear into them with its claws. 
@@ -2040,6 +2049,7 @@ This major Demon appears is a massive half-rotted and calcified, large, bipedal 
 This major Demon is a pale biped, without a head and many pairs of arms symmetrically sticking out of its body. When it unfolds the last arm, doom is upon us all. 
 
 * Power: Legendary, CR: `30`
+* Summoning Ob: `6`
 * Roles: Disruptor, Tank, Trapper
   * This is a legendary Demon that must be stopped before it can finish its Ritual. For if you don't, it will enact a terrible vengeance. This is essentially a timed encounter. If it is not stopped in time, it will cause great harm. 
   * It can Force-Move foes and litter the battlefield with hazards, which is a deadly combination. 
@@ -2095,6 +2105,7 @@ This major Demon is a pale biped, without a head and many pairs of arms symmetri
 This major Demon is but a husk of a creature. Its decrepit form can barely stand upright. Yet its piercing, red gaze is unwavering and merciless. 
 
 * Power: Elite, CR: `15`
+* Summoning Ob: `4`
 * Roles: Artillery, Shock-Trooper
   * This Demon is particularly deadly. It lacks utility, but makes up for that with its evil gaze, which can quickly turn deadly. 
   * It is immovable, meaning Force-Moving it around won't work. Its foes will have to come up with smarter solutions.
@@ -2122,6 +2133,7 @@ This major Demon is but a husk of a creature. Its decrepit form can barely stand
 This major Demon appears as little more than a horned skull attached by chains to a torso of stone. Dark wings and brightly glowing arcane symbols flank the torso, almost giving it a divine appearance. It seems harmless, but this is part of its devious scheme. 
 
 * Power: Elite, CR: `15`
+* Summoning Ob: `5`
 * Roles: Commander, Disruptor
   * One can only endure so much fear and doubt before they break. The Preacher knows this and can look into the heads of its victims. It will drive them mad, drive them to destroy themselves and each other. 
   * This Demon is very hard to reach, as it can freely float wherever it wishes and is difficult to Force-Move.
