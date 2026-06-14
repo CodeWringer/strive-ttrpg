@@ -3666,36 +3666,40 @@ These Traits can change up how a creature may engage the PCs, may allow them to 
 #### Burrower (-2 points; +2 CR)
 The creature can burrow, moving up to `2` Squares, at a depth of up to `3` Squares, per AP spent. While burrowed, it cannot be targeted or make attacks. 
 
-`-N` points: Can burrow an additional `N * 2` Squares, per AP spent. 
+Additions:
+* `-N` points: Can burrow an additional `N * 2` Squares, per AP spent. 
 
 #### Climber (-2 points; +1 CR)
 The creature is a natural climber, and can move at full speed while climbing, without Tests required. But this only applies to easily climbable surfaces that provide some actual grip, like a tree's bark, a rough cliff face or rope. It cannot climb perfectly flat surfaces or 
 
-`-1` point: **Sticky**: The creature can cling to any surface, without restriction. 
+Additions:
+* `-1` point: **Sticky**: The creature can cling to any surface, without restriction. 
 
 #### Fast (-2 points; +1 CR)
 This creature moves an additional `2` Squares, per AP spent. Exclusive with [Shambler](#shambler-2-points). 
 
-`-N` points: Can move an additional `N` Squares per AP spent. 
+Additions:
+* `-N` points: Can move an additional `N` Squares per AP spent. 
 
 #### Glider (-1 points; +1 CR)
 The creature can glide, but only from higher to lower elevation. 
 
-`-1` point: **Floater**: Can also hover in mid-air. 
-
-`-3` point: **Flyer**: Can move at full speed mid-air, as far and as long as it wants and at any elevation. 
+Additions:
+* `-1` point: **Floater**: Can also hover in mid-air. 
+* `-3` point: **Flyer**: Can move at full speed mid-air, as far and as long as it wants and at any elevation. 
 
 #### Leaper (-3 points; +2 CR)
 The creature can jump up to `6` Squares far, in a high arc, without provoking [Attacks of Opportunity](#opportunity-attacks), over the heads of its foes. The creature suffers `-1` [Stamina](#stamina--strain). 
 
-`-2` points: **Dervish**: When leaping over opponents, this creature may also launch free attacks against each of them, but with Ob `+1`.
+Additions:
+* `-2` points: **Dervish**: When leaping over opponents, this creature may also launch free attacks against each of them, but with Ob `+1`.
 
 #### Swimmer (-1 point; +1 CR)
 The creature is at home in the water. They can move at full speed while swimming, without Tests required. Exclusive with [Drowner](#drowner-1-point--1-cr)
 
-`-1` point: **Aquatic**: The creature can breathe underwater. 
-
-`-1` point: In one massive burst of energy, the creature may lunge out of the water, travelling up to `10` Squares. 
+Additions:
+* `-1` point: **Aquatic**: The creature can breathe underwater. 
+* `-1` point: In one massive burst of energy, the creature may lunge out of the water, travelling up to `10` Squares. 
 
 ### Defensive Traits
 These Traits help a creature survive longer or at least deter certain forms of attack against it. 
@@ -3703,7 +3707,8 @@ These Traits help a creature survive longer or at least deter certain forms of a
 #### Armored (-2 points; +3 CR)
 The creature is naturally armored. You can spend up to `8` points on a damage type it protects against. Cannot be armored against a damage type it is also [Vulnerable](#vulnerable-2-points) against. 
 
-`-N` points: **Heavily Armored**: You can spend an additional `N * 4` points on damage protections. 
+Additions:
+* `-N` points: **Heavily Armored**: You can spend an additional `N * 4` points on damage protections. 
 
 #### Camouflage (-3 points; +3 CR)
 The creature can become invisible, even in plain sight, at the cost of `3` AP. It will stay invisible for as long as it takes no offensive action. It can be detected with a successful [Observation](#observation-awarawar) or [Path-Finding](#path-finding-awarwit) Test, at Ob `3`. 
@@ -3716,9 +3721,10 @@ All melee attackers against this creature suffer `6` points of a chosen type of 
 
 #### Death Rattle (-2 points; +2 CR)
 Upon dying, the creature can invoke one of the following effects (you must choose one now):
-* Explode: Cause damage to all adjacent creatures. Choose one: `2D6 + 2 Slashing`, `2D6 Piercing`, or `2D4` of any other damage type. 
-* Terrifying Screech: All foes in a `10` Square AoE radius around the creature must succeed a [Self-Control](#self-control-toughtough) Test at Ob `3`, or else become [Terrified](strive-core.md#terrified) for one Round. 
-* Reprisal: Move up to `8` and launch a final, desperate and free attack against a foe, with Ob `-1`. 
+* **Explode**: Cause damage to all adjacent creatures. Choose one: `2D6 + 2 Slashing`, `2D6 Piercing`, or `2D4` of any other damage type. 
+* **Terrifying** Screech: All foes in a `10` Square AoE radius around the creature must succeed a [Self-Control](#self-control-toughtough) Test at Ob `3`, or else become [Terrified](strive-core.md#terrified) for one Round. 
+* **Reprisal**: Move up to `8` and launch a final, desperate and free attack against a foe, with Ob `-1`. 
+* **Splitter**: Split into two halves, which each reform to a whole shape. They retain half of your Attributes and half your maximum HP and with current HP set to their new maximum. This split can only occur once. 
 
 #### Fortified Mind (-4 points; +1 CR)
 The creature cannot be [Terrified](#terrified), [Berserked](#berserk), made [Jealous](#jealous) or [Pacified](#pacified). 
@@ -3744,7 +3750,8 @@ A creature can make use of these Traits when it attacks.
 #### Cannot Miss (-3 points; +3 CR)
 Even when this creature misses with a damage-causing attack, it will always deal `4` points of the attack's Primary Damage, anyway. If the creature does succeed in attacking, this Trait does not trigger.
 
-`-3` points: **Precise**: Always deals `8` points of damage, instead.
+Additions:
+* `-3` points: **Precise**: Always deals `8` points of damage, instead.
 
 #### Disease-Ridden (-1 point; +1 CR)
 Any damage this creature deals on another that can contract diseases, will force a Test to resist disease from that creature. The victim must succeed a Toughness Test at Ob equal to half their Toughness, rounded up, or else suffer a random [Illness](#illness). 
@@ -3790,8 +3797,9 @@ This creature starts with and can use `5` [Grit Points](#grit-points), regains `
 #### Hyperactive (-7 points; +4 CR)
 This creature regains `+5` AP per Turn, instead of the default. Exclusive with [Sluggish](#sluggish-4-points). 
 
-`-3` points: **Disruptive**: Gets to act once after every foe's Turn and regains `1` AP each time.
-`-3` points: **Multi-Initiative**: Gets to act twice in a Round. The second initiative roll's result must be halved (rounded down). 
+Additions:
+* `-3` points: **Disruptive**: Gets to act once after every foe's Turn and regains `1` AP each time.
+* `-3` points: **Multi-Initiative**: Gets to act twice in a Round. The second initiative roll's result must be halved (rounded down). 
 
 Suitable for: Elites and boss enemies who typically face many enemies at once. This balances out the action economy. 
 

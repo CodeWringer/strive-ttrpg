@@ -126,6 +126,7 @@ There is a [compendium document](./strive-fantasy-game-masters-resource.md) rese
       - [Werewolf-Shape](#werewolf-shape)
       - [Werebear-Shape](#werebear-shape)
     - [Cryomancy (Arc/Arc)](#cryomancy-arcarc)
+    - [Demonology (Arc/Tough)](#demonology-arctough)
     - [Divination (Arc/Wit)](#divination-arcwit)
     - [Electromancy (Agi/Arc)](#electromancy-agiarc)
     - [Hexing (Arc/Arc)](#hexing-arcarc)
@@ -154,6 +155,26 @@ There is a [compendium document](./strive-fantasy-game-masters-resource.md) rese
     - [The Warboss](#the-warboss)
 - [Fantasy Game-Masters Resource](#fantasy-game-masters-resource)
 - [Creature Compendium](#creature-compendium)
+  - [Demons](#demons)
+    - [Demon Hostility](#demon-hostility)
+      - [Consuming Rage](#consuming-rage)
+      - [Molten Envy](#molten-envy)
+    - [Major Demon Hostility](#major-demon-hostility)
+      - [Hell On Earth](#hell-on-earth)
+      - [Darkness Is Coming!](#darkness-is-coming)
+      - [Drown In Grief!](#drown-in-grief)
+    - [Lesser Demons](#lesser-demons)
+      - [Dread Guard](#dread-guard)
+      - [Faceless Hunter](#faceless-hunter)
+      - [Lesser Wendigo](#lesser-wendigo)
+      - [Possessed Zombie](#possessed-zombie)
+      - [Spineling](#spineling)
+      - [Taskmaster](#taskmaster)
+    - [Greater Demons](#greater-demons)
+      - [Greater Wendigo](#greater-wendigo)
+      - [Doom Bringer](#doom-bringer)
+      - [Hollow Gazer](#hollow-gazer)
+      - [Preacher](#preacher)
   - [Swine-Beasts](#swine-beasts)
     - [Swine Hostility](#swine-hostility)
       - [Demonic Blood](#demonic-blood)
@@ -1245,6 +1266,25 @@ The summoning and control of ice. Cryomancer's can freeze things, so they're hea
 | ----- | -------------------- | -------------- | ----------- | ---------- | ------------------------------ | ------------------ | ------------------ |
 | 4     | Blizzard             | 3 Hours        | `SI`        | 1+         | **Concentration**: Cause a freezing blizzard in a `SI * 10` Squares radius, up to `SI * 10` Squares away. All creatures caught in the blizzard suffer `+1` [Frostbitten](./strive-core.md#frostbitten) per Tick and suffer `SI * 2` Freezing damage. | Pockets form within the blizzard, within which its effects are nullified. | All Ritualists are frozen solid for `SI` Rounds, rendering them [Rooted](./strive-core.md#rooted) and [Stunned](./strive-core.md#stunned)! |
 
+### Demonology (Arc/Tough)
+The study, summoning and control of [Demons](#demons) - as far as they *can* be controlled. 
+
+At level `3`, your [Concentration](#concentration-spells) limit increases by `+1`!
+
+| Level | Name                  | AP | Distance      | Ob                           | Effect(s)                      | Backfire Effect(s) |
+| ----- | --------------------- | -- | ------------- | ---------------------------- | ------------------------------ | ------------------ |
+| 0     | Dominate Demon        | 2  | `9 + SI`      | `Opposed by Toughness`       | **Concentration**: Bind a Demon to your will. An ethereal magical chain forms a bond from you to it. The Demon can no longer act independently and will follow every command you give to the letter, but is only capable of *simple* commands, like 'kill that', 'go there', 'fetch that' and so on. | You are instead bound to the Demon's will, for `1D3` Rounds. |
+| 1     | Bolster Demon         | 1  | `SI * 3`      | `SI`                         | **Concentration**: Suffer a penalty of `-SI` to one of your Attributes - but only if that Attribute's level is at least `2` - and award a chosen Demon a boon of `+SI` to **all** its Attributes! This effect lasts `SI` rounds. | The Demon **loses** `-SI` points to **all** Attributes, instead! This effect lasts `3` Rounds. |
+| 2     | Assimilate Demon      | 1  | `SI * 3`      | `2`                          | Destroy a Dominated Demon in a violent zap of magic, and in doing so, regain HP equal to its `Toughness * 2` and gain a `+1` boon to an Attribute of choice, for `SI` rounds! | Instead of assimilating the Demon, it splits in two! Both halves re-form to a complete form, but each of them now only have half their Attributes and HP! Also, neither copy is Dominated by you, nor overly thrilled by your existence. |
+| 3     | Lock Demon            | 3  | `SI * 3`      | `Opposed by Toughness`       | Lock a Dominated Demon into an object. An arcane seal forms across its surface. If the seal is destroyed, the Demon is released. However, it is no longer Dominated and will fully re-awaken in one Round. You have that much time to Dominate it again. | Instead of locking the Demon, it is no longer Dominated and you instead become bound to its will, for `1D3` Rounds. |
+
+**Rituals**
+
+| Level | Name                 | Time Increment | Ob          | Ritualists | Effect(s)                      | Side-Effect(s)     | Backfire Effect(s) |
+| ----- | -------------------- | -------------- | ----------- | ---------- | ------------------------------ | ------------------ | ------------------ |
+| 0     | Summon Minor Demon   | 1 Hour         | `1`         | 1+         | Summon a minor Demon to a chosen location. Note it is not yet Dominated - it may act unpredictably, yet certainly violently. You have one Round to bind it, before it will properly awaken. | A minor Demon also crosses the threshold. Once it awakens in one Round, its blind rage shall be terrible. | You are briefly consumed by the rift to the Demon's world, before it spits you back out. The ordeal causes you `1D10` Pure damage and `+3` [Strain](./strive-core.md#stamina--strain)! |
+| 3     | Summon Major Demon   | 3 Hours        | `3`         | 1+         | Summon a major Demon to a chosen location. Note it is not yet Dominated - it may act unpredictably, yet certainly violently. You have one Round to bind it, before it will properly awaken. | A minor Demon also crosses the threshold. Once it awakens in one Round, its blind rage shall be terrible. | You are briefly consumed by the rift to the Demon's world, before it spits you back out. The ordeal causes you `1D10` Pure damage and `+3` [Strain](./strive-core.md#stamina--strain)! |
+
 ### Divination (Arc/Wit)
 Catching glimpses of the unknowable and nudging fate. A Divination mage prefers to stay out of harms way - which their power facilitates. 
 
@@ -1687,6 +1727,424 @@ This and the following sections are reserved solely for the GM's eyes. Reading o
 A by no means exhaustive list of medieval-fantasy themed creatures for the GM to draw from. 
 
 In the Characteristics blocks below, when armor is concerned, it may be noted in the form `U/F/S/O`, which are simply the pre-calculated values the armor provides under consideration of the degrees of [Flanking](./strive-core.md#flanking). The order is always: Unthreatened, Flanked, Surrounded and Overwhelmed. However, armor may also be noted as a plain value, e. g. `5`, which implies the creature does not suffer [Flanking](./strive-core.md#flanking).
+
+## Demons
+Beings from a hostile world that exists in parallel to our own, Demons are as vile and cruel as their home. These are some of the worst monsters any adventurer may have to face and represent an end-game level threat. 
+
+Thankfully, these horrid creatures cannot pass into our world easily. They require assistance to this end - [Demonologists](#demonology-arctough) may summon them, or wherever violent storms of the Arcanosphere grow too fierce, enough magical potential may tear rifts into our existence, allowing all manner of unspeakable horror to pass through.
+
+All Demons are of an Arcane nature and possess powers foreign to this world. 
+
+### Demon Hostility
+
+#### Consuming Rage
+**`-5` Hostility**: The Demon begins to burn with unconsolable hatred. Its body is covered in unnatural flame that deals `3` Burning damage to all creatures adjacent to it. However, the Demon *also* suffers the damage every Turn. 
+
+#### Molten Envy
+**`-15` Hostility**: All who fail a Self-Control Ob `2` Test in a `5` Square radius around the Demon are struck with a fierce and terrible jealousy. They *alone* are meant to fight and prevail against this foe and will refuse any and all aid and also refuse to assist others!
+
+### Major Demon Hostility
+All major Demons have access to the following Hostility Actions. Theirs is a terrible power.
+
+#### Hell On Earth
+**`-20` Hostility**: The Demon stops and slams into the ground, flames dancing from its body, before the floor beneath it erupts with jets of flame. The environment, in a `20` Square AoE diameter, turns into a Demonic hell pit! The effect lasts `4` Rounds.
+
+All non-Demonic creatures are set on fire and suffer `4` Burning damage every Turn! 
+
+#### Darkness Is Coming!
+**`-20` Hostility**: An unnatural darkness creeps from the Demon, enshrouding all in a `20` Square AoE diameter around it! Seeing in this blackness is impossible and all Tests that rely on sight are `+2` Ob harder to succeed! However, the Demon's eyes glow in the dark, like a sinister beacon. Though its form is hidden in the darkness, its location is always plain to see, as if it wanted its victims to know. The effect lasts `4` Rounds.
+
+#### Drown In Grief!
+**`-20` Hostility**: The environment deforms and grows limbs that grasp blindly, faces contorted in fear and pain and toothy mouths that clatter hungrily, in a `20` Square AoE diameter around the Demon. All terrain is considered Difficult Terrain and anyone who stands still, will be grabbed by the wayward limbs and thus [Rooted](./strive-core.md#rooted), until they free themselves at the cost of `2` AP. At the start of their Turn, when a creature is Rooted by the limbs, they will drag the creature down, making them [Prone](./strive-core.md#prone) and strangling them, for `5` Bludgeoning damage. 
+
+### Lesser Demons
+
+#### Dread Guard
+This minor Demon towers above and punishes foes with reckless abandon. One of its bony arms morphs into a shield of bone, the other into a wicked blade.
+
+* Power: Regular, CR: `10`
+* Roles: Shock-Trooper, Tank
+  * Capable of defending itself with its bone shield, it retaliates against any and all foes who attempt to strike it, with astonishing force.
+  * When hurt, its blood will harm its attacker.
+  * Even when defeated, this Demon's Death Rattle lets them remain a threat, one final time. 
+* Behavior: 
+  * Like all Demons, it is bent on the destruction of everything around it. Its hate is pure and irredeemable. 
+
+| Agi   | Awar  | Str   | Tough | Wit   | Arc   |
+| ----- | ----- | ----- | ----- | ----- | ----- |
+| 3     | 3     | 5     | 5     | 2     | 5     |
+
+| BI     | Sprint | Stabil | HP  | Stamina    | FS (Melee)      | Def    | Armor             |
+| ------ | ------ | ------ | --- | ---------- | --------------- | ------ | ----------------- |
+| 8      | 4      | 3      | 50  | 10         | 5 Slashing      | 3      | 0                 |
+
+**Traits**: [Fortified Mind](./strive-core.md#fortified-mind--4-points-1-cr); [Danger Blood (1D6 Burning)](./strive-core.md#danger-blood--1-point-1-cr); [Death Rattle (Reprisal)](./strive-core.md#death-rattle--2-points-2-cr); 
+
+**Assets**: None
+
+**Skills**:
+* Wicked Blade Strike (Agi/Str):
+  * Strike at a ST with your blade-like arm.
+  * Level: `4`, AP: `2`, Ob: `Opposed`, Melee, ST, Innate
+  * `≤ 1` Hit: `3` Slashing
+  * `= 2` Hits: `4` Slashing
+  * `≥ 3` Hits: `5` Slashing
+* Retaliate:
+  * **Reaction**: When being attacked, immediately launch a free Counter-Attack with your Wicked Blade Strike. But in doing so, allow one *other* Character than the one you're retaliating against to *also* launch a free and immediate Counter-Attack against *you*! You cannot Retaliate against that other Character - the chain of Counter-Attacks ends with them. 
+* Vomit Blood (Agi/Tough):
+  * Cough up a blast of your own blood, its Demonic fire will burn all in a `3` Square AoE cone.
+  * Level: `3`, AP: `3`, Ob: `1`, Ranged, AoE, Innate
+  * `≤ 1` Hit: `2` Burning
+  * `= 2` Hits: `3` Burning
+  * `≥ 3` Hits: `4` Burning
+
+#### Faceless Hunter
+This minor Demon looks like a pale, muscular man, but its head is elongated and lacks any facial features, save a teeth-lined maw and reptilian nostrils. Each hand holds a rusty sickle and trophies taken from its victims adorn its body. When it moves, it does so like a beast, rather than a man. 
+
+* Power: Regular, CR: `12`
+* Roles: Ambusher, Sentry, Shock-Trooper, Disruptor
+  * Though blind, it has excellent senses of smell and hearing. Avoiding it will require clever maneuvering. 
+  * Its ability to hide makes it a dangerous foe to be surprised by. 
+  * It is very agile and fast, can jump over foes and damage them, Leg Sweep them or Drop Kick them. 
+* Behavior: 
+  * Like all Demons, it is bent on the destruction of everything around it. Its hate is pure and irredeemable. 
+
+| Agi   | Awar  | Str   | Tough | Wit   | Arc   |
+| ----- | ----- | ----- | ----- | ----- | ----- |
+| 6     | 6     | 4     | 4     | 3     | 5     |
+
+| BI     | Sprint | Stabil | HP  | Stamina    | FS (Melee)      | Def    | Armor             |
+| ------ | ------ | ------ | --- | ---------- | --------------- | ------ | ----------------- |
+| 15     | 5      | 0      | 40  | 8          | 6 Slashing      | 3      | 0                 |
+
+**Traits**: [Fortified Mind](./strive-core.md#fortified-mind--4-points-1-cr); [Fast (+2)](./strive-core.md#fast--2-points-1-cr); [Hyperactive + Multi-Initiative](./strive-core.md#hyperactive--7-points-4-cr); [Leaper + Dervish](./strive-core.md#leaper--3-points-2-cr)
+
+**Assets**: It may have the odd trinket - still attached to the remains of its former host. 
+
+**Skills**:
+* Observation, Level `5`
+* Stealth, Level `5`
+* Drop Kick (Agi/Tough):
+  * Jump into a ST, up to `3` Squares far, and knock them `Str` Squares away from you.
+  * Level: `4`, AP: `3`, Ob: `Opposed`, Melee, AoE, Innate
+* Leg Sweep (Agi/Str):
+  * Sweep the legs of two adjacent creatures, knocking them [Prone](./strive-core.md#prone). 
+  * Level: `4`, AP: `2`, Ob: `Opposed`, Melee, AoE, Innate
+* Sickle Strike (Agi/Agi):
+  * Strike at a ST with your sickles.
+  * Level: `4`, AP: `2`, Ob: `Opposed`, Melee, ST, Innate
+  * `≤ 1` Hit: `3` Slashing
+  * `= 2` Hits: `4` Slashing; `+1` [Bleeding](./strive-core.md#bleeding)
+  * `≥ 3` Hits: `5` Slashing; `+2` [Bleeding](./strive-core.md#bleeding)
+
+#### Lesser Wendigo
+This minor Demon appears like a half-rotted and calcified, large, bipedal Deer. Red eyes and vicious claws plainly demonstrate its rage-filled nature. 
+
+* Power: Regular, CR: `10`
+* Roles: Ambusher, Shock-Trooper
+  * As it can jump through the shadows, this can be a very unpredictable and dangerous foe. In a moment, it can appear behind a victim and tear into them with its claws. 
+* Behavior: 
+  * Like all Demons, it is bent on the destruction of everything around it. Its hate is pure and inconsolable. 
+  * This variant in particular stalks the shadows and prefers to strike from the deepest, darkest reaches of their environment. 
+
+| Agi   | Awar  | Str   | Tough | Wit   | Arc   |
+| ----- | ----- | ----- | ----- | ----- | ----- |
+| 5     | 3     | 3     | 3     | 2     | 5     |
+
+| BI     | Sprint | Stabil | HP  | Stamina    | FS (Melee)      | Def    | Armor             |
+| ------ | ------ | ------ | --- | ---------- | --------------- | ------ | ----------------- |
+| 10     | 4      | 0      | 30  | 6          | 5 Slashing      | 3      | 0                 |
+
+**Traits**: [Fortified Mind](./strive-core.md#fortified-mind--4-points-1-cr)
+
+**Assets**: None
+
+**Skills**:
+* Claw Strike (Agi/Str):
+  * Strike at two adjacent MST with your claws.
+  * Level: `4`, AP: `3`, Ob: `Opposed`, Melee, MST, Innate
+  * `≤ 1` Hit: `4` Slashing
+  * `= 2` Hits: `4` Slashing
+  * `≥ 3` Hits: `5` Slashing
+* Shadow-Jump:
+  * Diffuse into a burst of darkness, and re-appear in anoter location, up to `10` Squares away.
+  * AP: `1`, Innate
+* Breath Of Death (Tough/Tough):
+  * Breathe darkness in a `3` Square AoE cone. 
+  * Level: `4`, AP: `3`, Ob: `2`, AoE, Innate
+  * `≤ 1` Hit: `1` Pure
+  * `= 2` Hits: `3` Pure; All victims whose Self-Control is `≤ 1` become Terrified of you! 
+  * `≥ 3` Hits: `5` Pure; All victims whose Self-Control is `≤ 3` become Terrified of you! 
+
+#### Possessed Zombie
+This minor Demon has been forced into the body of a Zombie. It has deformed, as if multiple bodies were merged into one, with multiple heads growing out of each other and the torso, and multiple pairs of arms sticking out, grasping at nothing. 
+
+* Power: Regular, CR: `8`
+* Roles: Brawler, Multiplier
+  * Stronger and more dangerous than a regular Zombie, with a few tricks to surprise foes with. 
+* Behavior: 
+  * Like all Demons, it is bent on the destruction of everything around it. Its hate is pure and inconsolable. 
+
+| Agi   | Awar  | Str   | Tough | Wit   | Arc   |
+| ----- | ----- | ----- | ----- | ----- | ----- |
+| 2     | 3     | 6     | 5     | 2     | 5     |
+
+| BI     | Sprint | Stabil | HP  | Stamina    | FS (Melee)      | Def    | Armor             |
+| ------ | ------ | ------ | --- | ---------- | --------------- | ------ | ----------------- |
+| 7      | 3      | 0      | 50  | 10         | 3 Bludgeoning   | 0      | 0                 |
+
+**Traits**: [Fortified Mind](./strive-core.md#fortified-mind--4-points-1-cr); [Regenerator](./strive-core.md#regenerator--5-points-3-cr); [Death Rattle (Splitter)](./strive-core.md#death-rattle--2-points-2-cr); 
+
+**Assets**: None
+
+**Skills**:
+* Batter (Agi/Str):
+  * Strike at two adjacent MST with your fists.
+  * Level: `4`, AP: `3`, Ob: `Opposed`, Melee, MST, Innate
+  * `≤ 1` Hit: `3` Bludgeoning
+  * `= 2` Hits: `4` Bludgeoning
+  * `≥ 3` Hits: `5` Bludgeoning
+* Spew Acid (Agi/Awar): 
+  * Spew acid in a `2` Square AoE cone.
+  * Level: `3`, AP: `2`, Ob: `1`, AoE, Innate
+  * `≤ 1` Hit: `2` Acid
+  * `= 2` Hits: `3` Acid
+  * `≥ 3` Hits: `4` Acid
+* Moldy Breath (Awar/Tough): 
+  * Cough a deathly mold in a `2` Square AoE cone.
+  * Level: `3`, AP: `2`, Ob: `1`, AoE, Innate
+  * `≤ 1` Hit: `2` Poison
+  * `= 2` Hits: `3` Poison
+  * `≥ 3` Hits: `4` Poison
+
+#### Spineling
+This minor Demon is a canid-esque quadruped covered in countless bony spines, like a porcupine. It lacks fur, its skin is pallid and sunken, stretched taut across its bones. 
+
+* Power: Regular, CR: `8`
+* Roles: Artillery
+  * A damage dealer that stays out of melee as best it can. Besides its ranged attack, it lacks any utility, but it is hard to hit and has great mobility as it can leap. 
+* Behavior: 
+  * Like all Demons, it is bent on the destruction of everything around it. Its hate is pure and inconsolable. 
+
+| Agi   | Awar  | Str   | Tough | Wit   | Arc   |
+| ----- | ----- | ----- | ----- | ----- | ----- |
+| 6     | 4     | 2     | 3     | 2     | 5     |
+
+| BI     | Sprint | Stabil | HP  | Stamina    | FS (Ranged `10`)| Def    | Armor             |
+| ------ | ------ | ------ | --- | ---------- | --------------- | ------ | ----------------- |
+| 12     | 4      | 0      | 30  | 6          | 4 Piercing      | 3      |                   |
+
+**Traits**: [Fortified Mind](./strive-core.md#fortified-mind--4-points-1-cr); [Leaper](./strive-core.md#leaper--3-points-2-cr)
+
+**Assets**: None
+
+**Skills**:
+* Shoot Spine: 
+  * Shoot a spine from your back at a ST, up to `10` Squares away. 
+  * AP: `2`, Ob: `Opposed`, Ranged, ST, Innate
+  * `≤ 1` Hit: `4` Piercing
+  * `= 2` Hits: `5` Piercing
+  * `≥ 3` Hits: `6` Piercing
+
+#### Taskmaster
+This minor Demon appears to be some sort of stone-golem. Molten lava drips from the ridges and cracks in is limbs.
+
+* Power: Regular, CR: `12`
+* Roles: Commander, Supporter, Tank
+  * Its commands are absolute and it *will* have dominion over all it can. 
+  * Thanks to its stone-form it is naturally armored against all but Bludgeoning damage. It does not suffer Flanking. 
+* Behavior: 
+  * This peculiar variant seems more interested in dominating its foes, than destroying them. There is a strange, calculating cunning in its actions. 
+
+| Agi   | Awar  | Str   | Tough | Wit   | Arc   |
+| ----- | ----- | ----- | ----- | ----- | ----- |
+| 2     | 3     | 3     | 4     | 5     | 5     |
+
+| BI     | Sprint | Stabil | HP  | Stamina    | FS (Melee)      | Def    | Armor             |
+| ------ | ------ | ------ | --- | ---------- | --------------- | ------ | ----------------- |
+| 10     | 3      | 2      | 40  | 8          | 3 Bludgeoning   | 1      | 8 against all **except** Bludgeoning |
+
+**Traits**: [Fortified Mind](./strive-core.md#fortified-mind--4-points-1-cr); [Insurmountable](./strive-core.md#insurmountable--4-points-3-cr)
+
+**Assets**: None
+
+**Skills**:
+* Obey! (Tough/Wit):
+  * **Concentration**: Command any ST, up to `6` Squares away, to obey you! Their will is no longer their own. Commands are given telepathically, at the cost of `-1` AP. 
+  * Level: `4`, AP: `3`, Ob: `Opposed by Self-Control`, Ranged, ST, Innate
+* Serve Harder!: 
+  * If dominating another creature's mind, bolster it, at the cost of its health.
+  * AP: `3`, Ob: `1`, Ranged, ST, Innate
+  * `≤ 1` Hit: Your servant must move towards a foe, up to `4` Squares far, which may provoke Opportunity Attacks, and also suffers `2` Pure damage.
+  * `= 2` Hits: Your servant gets an immediate Turn, and must fulfill your command, but also suffers `5` Pure damage.
+  * `≥ 3` Hits: Your servant gets an immediate Turn, with `+2` AP, and must fulfill your command, but also suffers `8` Pure damage.
+* Whip Strike (Agi/Str):
+  * Strike a ST, up to `3` Squares away, with your stone-whip. 
+  * Level: `3`, AP: `2`, Ob: `Opposed`, Ranged, ST, Innate
+  * `≤ 1` Hit: `2` Bludgeoning
+  * `= 2` Hits: `4` Bludgeoning
+  * `≥ 3` Hits: `6` Bludgeoning
+
+### Greater Demons
+
+#### Greater Wendigo
+This major Demon appears is a massive half-rotted and calcified, large, bipedal Deer. Multiple pairs of red eyes and vicious claws twitch hungrily, as bony wings contrast the eerily majestic antlers.
+
+* Power: Legendary, CR: `25`
+* Roles: Ambusher, Shock-Trooper
+  * The Greater Wendigo is a legendary Demon. It does not yield and shows no quarter.
+  * As it can jump through the shadows, this can be a very unpredictable and dangerous foe. In a moment, it can appear behind a victim and tear into them with its claws. 
+* Behavior: 
+  * Like all Demons, it is bent on the destruction of everything around it. Its hate is pure and inconsolable. 
+
+| Agi   | Awar  | Str   | Tough | Wit   | Arc   |
+| ----- | ----- | ----- | ----- | ----- | ----- |
+| 5     | 3     | 6     | 8     | 2     | 5     |
+
+| BI     | Sprint | Stabil | HP  | Stamina    | FS (Melee)      | Def    | Armor             |
+| ------ | ------ | ------ | --- | ---------- | --------------- | ------ | ----------------- |
+| 10     | 6      | 3      | 80  | 16         | 5 Slashing      | 1      | 0                 |
+
+**Traits**: [Fortified Mind](./strive-core.md#fortified-mind--4-points-1-cr); [Glider](./strive-core.md#glider--1-points-1-cr); [Leaper](./strive-core.md#leaper--3-points-2-cr); [Danger Blood (1D6 Burning)](./strive-core.md#danger-blood--1-point-1-cr); [Forceful](./strive-core.md#forceful--2-points-1-cr)
+
+**Legendary Traits**: [Hyperactive + Multi-Initiative](./strive-core.md#hyperactive--7-points-4-cr)
+
+**Assets**: None
+
+**Skills**:
+* Claw Strike (Agi/Str):
+  * Strike at everything in a `3` Square AoE cone.
+  * Level: `5`, AP: `3`, Ob: `2`, Melee, AoE, Innate
+  * `≤ 1` Hit: `4` Slashing
+  * `= 2` Hits: `5` Slashing
+  * `≥ 3` Hits: `6` Slashing
+* Shadow-Jump:
+  * Diffuse into a burst of darkness, and re-appear in anoter location, up to `15` Squares away.
+  * AP: `2`, Innate
+* Breath Of Death (Tough/Tough):
+  * Breathe darkness in a `5` Square AoE cone. 
+  * Level: `4`, AP: `4`, Ob: `2`, AoE, Innate
+  * `≤ 1` Hit: `3` Pure
+  * `= 2` Hits: `4` Pure; All victims whose Self-Control is `≤ 2` become Terrified of you! 
+  * `≥ 3` Hits: `6` Pure; All victims whose Self-Control is `≤ 3` become Terrified of you! 
+
+#### Doom Bringer
+This major Demon is a pale biped, without a head and many pairs of arms symmetrically sticking out of its body. When it unfolds the last arm, doom is upon us all. 
+
+* Power: Legendary, CR: `30`
+* Roles: Disruptor, Tank, Trapper
+  * This is a legendary Demon that must be stopped before it can finish its Ritual. For if you don't, it will enact a terrible vengeance. This is essentially a timed encounter. If it is not stopped in time, it will cause great harm. 
+  * It can Force-Move foes and litter the battlefield with hazards, which is a deadly combination. 
+* Behavior: 
+  * Like all Demons, it is bent on the destruction of everything around it. Its hate is pure and inconsolable. 
+  * When not agitated, it always keeps its `12` pairs of arms folded. 
+  * In Combat, prepares the battlefield with Prepare For Hell and when enemies get too close, uses Shake Ground to knock them away. Otherwise, always tries to use Count Down or Terrible Reprisal when it is available. 
+
+| Agi   | Awar  | Str   | Tough | Wit   | Arc   |
+| ----- | ----- | ----- | ----- | ----- | ----- |
+| 2     | 2     | 6     | 10    | 2     | 6     |
+
+| BI     | Sprint | Stabil | HP  | Stamina    | FS (Melee)      | Def    | Armor             |
+| ------ | ------ | ------ | --- | ---------- | --------------- | ------ | ----------------- |
+| 6      | 6      | 3      | 100 | 20         | 5 Slashing      | 1      | 0                 |
+
+**Traits**: [Fortified Mind](./strive-core.md#fortified-mind--4-points-1-cr); 
+
+**Legendary Traits**: [Hyperactive + Multi-Initiative](./strive-core.md#hyperactive--7-points-4-cr); [Shambler](./strive-core.md#shambler-2-points--2-cr)
+
+**Assets**: None
+
+**Skills**:
+* Count Down:
+  * Unfold one of your `12` pairs of arms. When all are unfolded, enact Terrible Reprisal.
+  * AP: `3`, Innate
+* Shake Ground (Arc/Arc):
+  * Stomp the ground and make it tremble. All in a `10` Square radius around are knocked into a random direction, ... 
+  * Level: `5`, AP: `4`, Ob: `2`, AoE, Innate
+  * `≤ 1` Hit: ...`3` Squares far
+  * `= 2` Hits: ...`4` Squares far
+  * `≥ 3` Hits: ...`5` Squares far
+* Prepare For Hell (Arc/Arc):
+  * **Concentration**: Place up to `9` columns of flame, up to `20` Squares far away. Each is `1` Square wide and tall and will deal `3` Burning damage.
+  * Level: `4`, AP: `3`, Innate
+* Terrible Reprisal (Arc/Arc):
+  * Another pair of unfolded hands claps together and remains so. The next time this ability is used, the next pair claps together. Each has a different and ever stronger effect. Once all hands have clapped, they fold again and the cycle repeats. 
+  <br> 1st pair: The reverberation of the clap resonates within all in a `100` Square radius around. They suffer `+1` Bludgeoning Injury. 
+  <br> 2nd pair: All in a straight AoE line, up to `20` Squares far, suffer `5` Bleeding damage. 
+  <br> 3rd pair: All in a `100` Square radius around suffer `+1` Strain. 
+  <br> 4th pair: Up to `3` MST become [Berserked](./strive-core.md#berserk), if they fail a Self-Control Ob `2` Test. 
+  <br> 5th pair: All in a `10` Squares radius, suffer `8` Bleeding damage. 
+  <br> 6th pair: All in a `10` Squares radius, suffer `-1` to every Attribute, for `3 Rounds.
+  <br> 7th pair: Reprieve. All in a `30` Squares radius, regain `+10` HP and regain `3` Stamina.
+  <br> 8th pair: All in a `100` Square radius around suffer `+2` Strain. 
+  <br> 9th pair: All in a `20` Square radius around suffer `5` Pure damage.
+  <br> 10th pair: Up to `3` MST become [Pacified](./strive-core.md#berserk), if they fail a Self-Control Ob `3` Test. 
+  <br> 11th pair: All in a `20` Square radius around suffer `10` Pure damage.
+  <br> 12th pair: All in a `100` Square radius around suffer `20` Pure damage.
+  * Level: `4`, AP: `4`, Innate
+
+#### Hollow Gazer
+This major Demon is but a husk of a creature. Its decrepit form can barely stand upright. Yet its piercing, red gaze is unwavering and merciless. 
+
+* Power: Elite, CR: `15`
+* Roles: Artillery, Shock-Trooper
+  * This Demon is particularly deadly. It lacks utility, but makes up for that with its evil gaze, which can quickly turn deadly. 
+  * It is immovable, meaning Force-Moving it around won't work. Its foes will have to come up with smarter solutions.
+* Behavior: 
+  * Like all Demons, it is bent on the destruction of everything around it. Its hate is pure and inconsolable. 
+
+| Agi   | Awar  | Str   | Tough | Wit   | Arc   |
+| ----- | ----- | ----- | ----- | ----- | ----- |
+| 1     | 5     | 1     | 6     | 3     | 8     |
+
+| BI     | Sprint | Stabil | HP  | Stamina    | FS (Ranged `20`)| Def    | Armor             |
+| ------ | ------ | ------ | --- | ---------- | --------------- | ------ | ----------------- |
+| 9      | 3      | 0      | 60  | 12         | 5 Bleeding      | 0      |                   |
+
+**Traits**: [Fortified Mind](./strive-core.md#fortified-mind--4-points-1-cr); [Shambler](./strive-core.md#shambler-2-points--2-cr); [Immovable](./strive-core.md#immovable--2-points-1-cr);
+
+**Assets**: None
+
+**Skills**:
+* Evil Gaze:
+  * **Passive**: All victims it can see, in a `10` Square AoE line from it, begin to bleed incessantly from every orifice, suffering `5` Bleeding damage every Turn. Its maddening gaze is oppressive - its victims feel as though their head is being crushed and suffer `+1` [Strain](./strive-core.md#stamina--strain). This effect is constant and enduring.
+  * Ranged, AoE, Innate
+
+#### Preacher
+This major Demon appears as little more than a horned skull attached by chains to a torso of stone. Dark wings and brightly glowing arcane symbols flank the torso, almost giving it a divine appearance. It seems harmless, but this is part of its devious scheme. 
+
+* Power: Elite, CR: `15`
+* Roles: Commander, Disruptor
+  * One can only endure so much fear and doubt before they break. The Preacher knows this and can look into the heads of its victims. It will drive them mad, drive them to destroy themselves and each other. 
+  * This Demon is very hard to reach, as it can freely float wherever it wishes and is difficult to Force-Move.
+* Behavior: 
+  * This peculiar variant floats calmly, often placing itself amidst and above settlements, whence its sinister words are carried far by the Arcane winds. And yet, its victims view it as some sort of savior, come to bring them salvation from sin and death. 
+
+| Agi   | Awar  | Str   | Tough | Wit   | Arc   |
+| ----- | ----- | ----- | ----- | ----- | ----- |
+| 1     | 5     | 1     | 4     | 8     | 8     |
+
+| BI     | Sprint | Stabil | HP  | Stamina    | FS (Ranged `20`)| Def    | Armor             |
+| ------ | ------ | ------ | --- | ---------- | --------------- | ------ | ----------------- |
+| 14     | 2      | 4      | 40  | 8          | 1 Pure          | 0      |                   |
+
+**Traits**: [Fortified Mind](./strive-core.md#fortified-mind--4-points-1-cr); [Glider + Floater + Flyer](./strive-core.md#glider--1-points-1-cr); [Shambler](./strive-core.md#shambler-2-points--2-cr)
+
+**Assets**: None
+
+**Skills**:
+* Sinister Sermon (Wit/Arc):
+  * **Concentration**: All in a `20` Square radius around it, who can hear it and whose Self-Control is `≤ 3` begin to doubt their life is just and right. They begin to think of the darkness as a soft embrace, and to long for it. Every victim becomes [Berserked](./strive-core.md#berserk). 
+  * Level: `4`, AP: `4`, Ranged, AoE, Innate
+* Prepare For Salvation (Wit/Arc):
+  * A ST, up to `20` Squares away, becomes [Pacified](./strive-core.md#pacified). 
+  * Level: `4`, AP: `2`, Ob: `Opposed by Self-Control`, Ranged, AoE, Innate
+* Come To Me:
+  * Cause all who have fallen victim to your Sinister Sermon to become [Pacified](./strive-core.md#pacified) and run toward you, seeking your *loving* embrace. 
+  * AP: `1`, Innate
+* Embrace The Flock:
+  * Draw the life from one of the victims to your Sinister Sermon or Come To Me, up to `10` Squares away. They suffer `10` Pure damage and you heal for the same amount. 
+  * AP: `2`, Innate
 
 ## Swine-Beasts
 Created in a vain and immoral conjuring of demons from another place, the Swine-Beasts themselves represent a cruel parody of man, molded from the flesh of pigs. All the worst properties of humanity are manifested in these unsavory creatures. 
