@@ -2362,12 +2362,12 @@ In the following table, `Q` refers to the quality grade of the Asset. See also t
 
 When looking up products for crafting, the tools and materials required for the craft are not noted here. The materials and resources available to you, and which exist in your world simply cannot be predicted here. Instead, think creatively - what *could* you use to make the thing? What do you have available? Find a creative way to use what you have, to make what you want and ask your GM for the final go-ahead. However, the [Progress Increment (PI)](#progressing-a-project) and [Time Increment (TI)](#progressing-a-project) are noted. Particularly rare, valuable and suitable materials may act as [Project Boosters](#project-boosters). Some Assets may harder or easier to make at higher qualities, as noted by the *Crafting Ob*, which, if noted, is the modifier applied to *every* [Project Skill Test](#progressing-a-project).
 
-| Name                   | Bulk | Max. Stack Size | Description                                                              | PI  | TI         | Crafting Ob |
-| ---------------------- | ---- | --------------- | ------------------------------------------------------------------------ | --- | ---------- | ----------- |
-| Antidote               | 1    | 4               | This unassuming liquid can make the difference between life and death. Removes `Q` points of [Poisoned](#poisoned). If no points remain, instead immediately [Treats](#injury-states--treatment) an [Injury](#injury) caused by [Poison](#damage-types) | 20 | 1 Hour |  |
-| Medical Supplies       | 1    | 5               | A small satchel of clean bandages, thread and needle for suturing, a clean and sharp knife, a splint and straps for binding. Is used in the [Treatment](#injury-states--treatment) of various [Injuries](#injury). | 20 | 10 Minutes |  |
-| Objet d'art            | 1    | 1               | A painting, sculpture or other art piece. | 20 | 10 Minutes |  |
-| Ration                 | 1    | 10              | A ration of preserved food and drink, enough for a whole day. | 10 | 30 Minutes |  |
+| Name                   | Bulk | Max. Stack Size | PI  | TI         | Crafting Ob | Description                                                              |
+| ---------------------- | ---- | --------------- | --- | ---------- | ----------- | ------------------------------------------------------------------------ |
+| Antidote               | 1    | 4               | 20  | 1 Hour     |             | This unassuming liquid can make the difference between life and death. Removes `Q` points of [Poisoned](#poisoned). If no points remain, instead immediately [Treats](#injury-states--treatment) an [Injury](#injury) caused by [Poison](#damage-types) |
+| Medical Supplies       | 1    | 5               | 20  | 10 Minutes |             | A small satchel of clean bandages, thread and needle for suturing, a clean and sharp knife, a splint and straps for binding. Is used in the [Treatment](#injury-states--treatment) of various [Injuries](#injury). |
+| Objet d'art            | 1    | 1               | 20  | 10 Minutes |             | A painting, sculpture or other art piece. |
+| Ration                 | 1    | 10              | 10  | 30 Minutes |             | A ration of preserved food and drink, enough for a whole day. |
 
 ### Weapon Traits
 Weapon type Assets can have the following traits:
