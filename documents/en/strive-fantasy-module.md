@@ -1415,9 +1415,19 @@ Only targets within and up to the given *distance* can be moved and only within 
 
 | Level | Name                   | AP | Distance      | Ob                           | Effect(s)                      | Backfire Effect(s) |
 | ----- | ---------------------- | -- | ------------- | ---------------------------- | ------------------------------ | ------------------ |
+| 0     | Force Push             | 2  | `SI * 5`      | `SI`                         | In a `SI * 2` Square AoE cone, push back all, by `SI` Squares. | You lose control and the cone blasts backwards, through you! |
 | 0     | Telekinesis            | 2  | `SI * 5`      | `SI`                         | Move an inanimate ST object at great velocity (if desired). | You lose control and the object is flung in a random direction! |
+| 1     | Force Wall             | 2  | `SI * 5`      | `SI`                         | Create a wall of purple force in a `SI * 2` Squares line that will push anyone who touch it back by `SI` Squares. | You lose control and the wall is formed in a random line, instead. |
 | 1     | Hold Fluid             | 2  | `SI * 5`      | `SI`                         | **Concentration**: Cause an up to `SI * 3` large body of water to levitate. | You lose control and are thrown `SI` Squares in a random direction! |
+| 2     | Forceful Strikes       | 1  | `SI * 5`      | `SI`                         | **Concentration**: Up to `SI` MST's weapons glow purple and are enhanced with unnatural force. Every strike with them deals an additional `SI * 2` Bludgeoning damage. | You lose control and are thrown `SI` Squares in a random direction! |
 | 3     | Creature Telekinesis   | 3  | `SI * 5`      | `Opposed`                    | Force move a ST creature up to `SI * 3`. | You are thrown `SI * 2` Squares in a random direction! |
+| 3     | Force Bubble           | 2  | `SI * 5`      | `Opposed`                    | **Concentration**: Form a purple force bubble around a ST that will move with them. It is up to `SI` Squares in radius large and will prevent anything from entering or leaving it. | The bubble becomes stationary, instead, and stays for `3` Rounds. |
+
+**Rituals**
+
+| Level | Name                 | Time Increment | Ob          | Ritualists | Effect(s)                      | Side-Effect(s)     | Backfire Effect(s) |
+| ----- | -------------------- | -------------- | ----------- | ---------- | ------------------------------ | ------------------ | ------------------ |
+| 4     | Grand Levitation     | 1 Hour         | `SI`        | 1+         | **Concentration**: Everything in a `SI * 10` Square diameter begins to levitate, up to `SI * 5` Squares high above the ground. This may even include the ground, for example to create a levitating island. | Wayward force streams form, which push and pull objects in random directions, by `SI * 3` Squares. | The forces at work form an unstable torrent, `SI * 5` squares in diameter, that crushes everything it comes into contact with, for `SI * 4` Bludgeoning damage. |
 
 ### Telepathy (Arc/Wit)
 The ability to communicate wordlessly, to alter emotions and even issue compelling commands against another's will. 
