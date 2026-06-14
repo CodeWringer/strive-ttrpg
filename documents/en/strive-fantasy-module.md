@@ -582,8 +582,8 @@ The following is a non-exhaustive list of general Assets. Just because an Asset 
 
 See also the [Core rule's Asset appendix](./strive-core.md#assets-appendix). 
 
-| Name                     | Bulk | Max. Stack Size | PI  | TI         | Crafting Ob | Description                                                              
-| ------------------------ | ---- | --------------- | --- | ---------- | ----------- | ------------------------------------------------------------------------ 
+| Name                     | Bulk | Max. Stack Size | PI  | TI         | Crafting Ob | Description                                                              |
+| ------------------------ | ---- | --------------- | --- | ---------- | ----------- | ------------------------------------------------------------------------ |
 | Acid Arrows              | 1    | 20              | 30  | 30 Minutes |             | Ammunition for a bow that deals `Q * 2` additional points of Acid damge. A small acid-filled vial tips these arrows, ready to burst upon impact. |
 | Acid Bomb                | 1    | 3               | 15  | 10 Minutes |             | A small fragile shell with two compartments, filled with two liquids which, when they combine, act as a powerful acid. When shattered, deals `QD6 Acid` damage to whatever it hits. |
 | Arrows                   | 1    | 20              | 20  | 10 Minutes |             | Ammunition for a bow. |
