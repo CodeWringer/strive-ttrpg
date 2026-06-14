@@ -2749,8 +2749,8 @@ The ability to cook hearty and sweet meals that can strengthen and invigorate.
 
 [Crafting](#crafting--research-projects):
 * [Ration](#general-assets) (5x)
-* Meal: PI: `5`, TI: `10` Minutes
-  * A meal that you have to eat while it's still fresh. The meal does **not** go in your inventory. This is **not** the same as a ration! 
+* Special Meal: PI: `5`, TI: `10` Minutes, Requires some *special* ingredients, consult your GM
+  * A special meal that you have to eat while it's still fresh. The meal does **not** go in your inventory - this is **not** the same as a ration! 
   * Restores `Q HP` and `Q` Stamina.
   * For every `Q` past `1`, the meal may confer certain boons, for `Q * 2` hours. Each of the following boons can be picked only once:
     * Grant `QD4` [Temporary HP](#temporary-health-points). 
