@@ -409,7 +409,7 @@ A device that can channel and direct the power of a [Malevite Orb](#malevite) or
 
 Arcane Engines are mostly useful either as siege engines or as stationary constant magic casters. The more powerful the used [Malevite Orb](#malevite), the larger the engine. 
 
-PI: `50`, TI: `1` Day, Ob: `+1`, requires:
+PI: `30`, TI: `1` Day, Ob: `+1`, requires:
 * [Abyssalite](#abyssalite)
 * A sturdy frame-material, like steel
 
@@ -470,7 +470,7 @@ In order to invoke a Magic Scroll:
 
 #### Creating Magic Scrolls
 In order to create a Magic Scroll:
-* PI: `50`, TI: `1` Hour
+* PI: `30`, TI: `1` Hour
 * Powdered [Abyssalite](#abyssalite) must be painted onto the parchment, paper or other such material, in a shape specific to the magic spell the Magic Scroll will be able to cast. 
   * This requires a success of an [Artistry](./strive-core.md#artistry-agiawar) or [Artificing](#artificing-arcwit) Test, at Ob equal to the intended [Spell Intensity](#spell-intensity-si) of the Magic Scroll. 
 * Then, the Magic Scroll must be "primed" by a mage. This requires a success of a Test of the same [School Of Magic](#list-of-magic-schools) as the Magic Scroll holds, with Ob equal to the [Spell Intensity](#spell-intensity-si) of the Magic Scroll. 
@@ -490,7 +490,7 @@ A Malevite orb is an artifact of very great power that can change the laws of ph
 
 There are four Quality Levels. Impure Malevite has side-effects and is not nearly as powerful as a purer blood jewel. 
 
-PI: `300`, TI: `1` Day, Ob: `+2`, requires:
+PI: `100`, TI: `1` Day, Ob: `+2`, requires:
 * A lot of Mage blood
 * `3`, `9`, `27` or `81` Bulk of [Abyssalite](#abyssalite) (graded per purity level)
 
@@ -605,39 +605,39 @@ See also the [Core rule's Asset appendix](./strive-core.md#assets-appendix).
 
 | Name                     | Bulk | Max. Stack Size | PI  | TI         | Crafting Ob | Description                                                              |
 | ------------------------ | ---- | --------------- | --- | ---------- | ----------- | ------------------------------------------------------------------------ |
-| Acid Arrows              | 1    | 20              | 30  | 30 Minutes |             | Ammunition for a bow that deals `Q * 2` additional points of Acid damge. A small acid-filled vial tips these arrows, ready to burst upon impact. |
+| Acid Arrows              | 1    | 20              | 15  | 30 Minutes |             | Ammunition for a bow that deals `Q * 2` additional points of Acid damge. A small acid-filled vial tips these arrows, ready to burst upon impact. |
 | Acid Bomb                | 1    | 3               | 15  | 10 Minutes |             | A small fragile shell with two compartments, filled with two liquids which, when they combine, act as a powerful acid. When shattered, deals `QD6 Acid` damage to whatever it hits. |
 | Arrows                   | 1    | 20              | 20  | 10 Minutes |             | Ammunition for a bow. |
-| Blackpowder Bomb         | 1    | 2               | 15  | 1 Hour     | +1          | A small iron-shelled bomb, filled with blackpowder. A short fuse sticks out and must be lit to set it off. Once lit, the bomb will detonate after `3` Turns or `15` seconds. Deals `QD4 Bludgeoning + QD4 Burning` damage to anyone in a `2` Square AoE radius. |
-| Bolts                    | 1    | 20              | 20  | 10 Minutes |             | Ammunition for a crossbow. |
+| Blackpowder Bomb         | 1    | 2               | 20  | 1 Hour     | +1          | A small iron-shelled bomb, filled with blackpowder. A short fuse sticks out and must be lit to set it off. Once lit, the bomb will detonate after `3` Turns or `15` seconds. Deals `QD4 Bludgeoning + QD4 Burning` damage to anyone in a `2` Square AoE radius. |
+| Bolts                    | 1    | 20              | 10  | 10 Minutes |             | Ammunition for a crossbow. |
 | Calming Tea              | 1    | 3               | 5   | 10 Minutes |             | This herbal tea has the ability to calm nerves. Removes [Berserk](./strive-core.md#berserk), [Jealous](./strive-core.md#jealous) and [Terrified](./strive-core.md#terrified). Best enjoyed steaming hot, but not necessarily. |
-| Clothing                 | 1    | 2               | 30  | 1 Hour     |             | A full set of clothes, head to toe. |
-| Death Fog                | 1    | 1               | 75  | 6 Hours    | +1          | An extremely rare and deadly gas. Once exposed to air, covers an area of `Q * 2` Squares in impenetrable, eerily glowing, blue fog. Deals `QD10 + 10` Pure damage to all **organic** things it touches, per tick. Metal and mineral are unaffected, while plant and flesh are struck from existence. |
-| Dragon's Breath Potion   | 1    | 3               | 30  | 1 Hour     | +1          | Upon drinking this potion, the orange liquid combines with the stomach acid and bursts out of the drinker's throat, igniting and thus causing them to spew fire! Causes `5 - Q Burning` damage to the user and `Q * 3 Burning` damage in a `5` Squares cone in front of the user. |
-| Explosive Arrows         | 1    | 10              | 45  | 1 Hour     |             | Ammunition for a bow that causes bow attacks to only deal `1D4 Bludgeoning + (1D4 + Q) Burning`.  |
-| Fire Pot (Potion)        | 1    | 3               | 30  | 1 Hour     |             | An ancient recipe, this concoction bursts into flame when exposed to air for several seconds. It causes severe burns for `QD6 Burning` damage in a `2` Square AoE adius. Consumed on use. |
-| Illusionist's Powder     | 1    | 2               | 30  | 1 Hour     |             | A small amount of weakly iridescently shimmering powder. When scattered, the dust remains suspended in mid-air and settles in an image of the making alchemist's choosing, which at a distance can seem perfectly real. It takes a successful Test at Ob `Q + 1` to see through the ruse. This image lasts `QD10` minutes. |
-| Invigorating Potion      | 1    | 3               | 20  | 1 Hour     |             | The drinker of this potion feels refreshed and invigorated! Increases [Stamina](./strive-core.md#stamina--strain) by `Q` and clears the [Exhausted](./strive-core.md#exhausted) condition. Beware this potion can only be safely imbibed twice in a `24` hour cycle. If drunk more, roll a `D6`. If it is a Hit, you're in luck! But if not, you instead suffer `+1` [Strain](./strive-core.md#stamina--strain). |
-| Jewelry                  | 1    | 2               | 50  | 1 Hour     |             | Precious apparel. |
-| Keg Of Alcohol           | 2    | 1               | 30  | 1 Day      |             | A keg of alcohol. Highly flammable. If set fire to, will explode in a small torrent of flame, dealing `Q * 3` Burning damage to all in a `2` Square AoE radius. |
+| Clothing                 | 1    | 2               | 20  | 1 Hour     |             | A full set of clothes, head to toe. |
+| Death Fog                | 1    | 1               | 50  | 6 Hours    | +1          | An extremely rare and deadly gas. Once exposed to air, covers an area of `Q * 2` Squares in impenetrable, eerily glowing, blue fog. Deals `QD10 + 10` Pure damage to all **organic** things it touches, per tick. Metal and mineral are unaffected, while plant and flesh are struck from existence. |
+| Dragon's Breath Potion   | 1    | 3               | 20  | 1 Hour     | +1          | Upon drinking this potion, the orange liquid combines with the stomach acid and bursts out of the drinker's throat, igniting and thus causing them to spew fire! Causes `5 - Q Burning` damage to the user and `Q * 3 Burning` damage in a `5` Squares cone in front of the user. |
+| Explosive Arrows         | 1    | 10              | 20  | 1 Hour     |             | Ammunition for a bow that causes bow attacks to only deal `1D4 Bludgeoning + (1D4 + Q) Burning`.  |
+| Fire Pot (Potion)        | 1    | 3               | 20  | 1 Hour     |             | An ancient recipe, this concoction bursts into flame when exposed to air for several seconds. It causes severe burns for `QD6 Burning` damage in a `2` Square AoE adius. Consumed on use. |
+| Illusionist's Powder     | 1    | 2               | 15  | 1 Hour     |             | A small amount of weakly iridescently shimmering powder. When scattered, the dust remains suspended in mid-air and settles in an image of the making alchemist's choosing, which at a distance can seem perfectly real. It takes a successful Test at Ob `Q + 1` to see through the ruse. This image lasts `QD10` minutes. |
+| Invigorating Potion      | 1    | 3               | 10  | 1 Hour     |             | The drinker of this potion feels refreshed and invigorated! Increases [Stamina](./strive-core.md#stamina--strain) by `Q` and clears the [Exhausted](./strive-core.md#exhausted) condition. Beware this potion can only be safely imbibed twice in a `24` hour cycle. If drunk more, roll a `D6`. If it is a Hit, you're in luck! But if not, you instead suffer `+1` [Strain](./strive-core.md#stamina--strain). |
+| Jewelry                  | 1    | 2               | 20  | 1 Hour     |             | Precious apparel. |
+| Keg Of Alcohol           | 2    | 1               | 20  | 1 Day      |             | A keg of alcohol. Highly flammable. If set fire to, will explode in a small torrent of flame, dealing `Q * 3` Burning damage to all in a `2` Square AoE radius. |
 | Laudanum Potion          | 1    | 2               | 20  | 1 Hour     |             | This wonderous substance can quell pain and calm nerves within seconds. Also effective against diarrhea. Upon imbibing, sets one Active [Injury](./strive-core.md#injury) to Treated. After `24` hours, the [Injury](./strive-core.md#injury) is set back to Active, even if it was also properly Treated in the meantime. Also, must succeed a [Self-Control](./strive-core.md#self-control-toughtough) Test at Ob `3`, or else become [Addicted](./strive-core.md#drug-addicted) to the stuff. |
-| Love Potion              | 1    | 2               | 50  | 1 Hour     | +1          | Anyone drinking this potion will become virtually irresistible to anyone close enough to smell their air. Victims have to succeed a [Self-Control](./strive-core.md#self-control-toughtough) Test at Ob `Q` or else feel **very strongly compelled** to fulfill the user's every wish and desire (provided this wouldn't obviously cause harm to the victim). |
-| Magic Recorder           | 1    | 3               | 50  | 6 Hours    |             | A small spherical device, made from various metals with intricate patterns on its surface. This device can capture [Magic Echoes](#magic-echoes) and record magic as it is being cast. Also captures fragments of thoughts from its bearer while it is active. |
-| Night-Eye Potion         | 1    | 3               | 30  | 1 Hour     |             | Grants the ability to see reasonably well under low-light conditions, up to `Q * 3` Squares around them, for an hour. Beware that under the influence of this potion, exposure to bright light is extremely difficult to endure and will cause `-1` [Stamina](./strive-core.md#stamina--strain) for every **minute** of exposure. |
-| Paralyzing Poison        | 1    | 2               | 75  | 1 Hour     | +2          | Causes a victim's muscles to seize up. They suffer `-1` AP each Turn and are forced to move sluggishly, at only half their usual movement speed. If this poison is suffered twice, the victim seizes up completely and is unable to move, at all. This poison can be resisted once upon suffering it, with [Toughness](./strive-core.md#toughness-tough), at Ob `Q`. If unsuccessful, the effect will last `Q` hours. |
-| Poison Arrows            | 1    | 20              | 30  | 30 Minutes |             | Ammunition for a bow that deals `Q * 2` additional points of Poison damge. A small poison-filled vial tips these arrows, ready to burst upon impact. |
-| Poison Resistance Potion | 1    | 2               | 30  | 1 Hour     |             | Once imbibed, reduces all incurred poison damage by `Q * 2`, for up to `Q` hours. |
-| Sleeping Poison          | 1    | 3               | 50  | 1 Hour     | +1          | Causes a victim to feel incredibly sleepy. Unless they succeed a [Self-Control](./strive-core.md#self-control-toughtough) Test at Ob `Q`, they will fall asleep the first chance they get. They cannot be woken from this state for at least `6` hours, except through the use of harmful force. |
-| Smoke Bomb               | 1    | 3               | 20  | 10 Minutes |             | A small fragile shell, filled with a very fine powder which when broken causes an area in a `Q` Square AoE radius to be covered in smoke. It is impossible to see through and ranged attacks within or through the smoke-covered area suffer `+2` Ob. Victims caught in the smoke may be forced to cough. The smoke lasts `6` Turns or `30` seconds. |
-| Throwing Blade           | 1    | 6               | 20  | 1 Hour     |             | A small weighted blade, like a knife or star, well suited to being thrown. Can be used in melee and acts like a [Dagger](#light-blade), but with a penalty of `-2D` to attack and Defense. `+1D` when [Thrown](./strive-core.md#throwing-accuracy) for a ranged attack. <br> `≤ 1` Hit: `4 + Str` Piercing <br> `= 2` Hits: `6 + Str` Piercing <br> `≥ 3` Hits: `8 + Str` Piercing |
-| Tools                    | 1    | 2               | 30  | 1 Hour     |             | Various metal-made, proper tools. |
-| Trap: Acid               | 1    | 3               | 45  | 1 Hour     |             | A small metal frame with a central pressure pad which, when stepped on, sprays acid upwards at the victim. Causes `(Q * 2) + 6` Acid damage. |
-| Trap: Bear               | 1    | 3               | 45  | 1 Hour     |             | A metal-jawed trap, capable of breaking bone and flesh. Deals `Q * 2` Bludgeoning and `Q * 2` Piercing damage. Causes [Rooted](./strive-core.md#rooted) in the victim, which costs `3` AP to clear. |
-| Trap: Cage/Net           | 1    | 1               | 45  | 1 Hour     |             | When tripped, a cage springs up around, or a net pulls up over the victim. They are trapped within until they can manage to free themselves. `Q` equals the Ob for Tests to cut or break the cage or net. |
-| Trap: Powder             | 1    | 3               | 45  | 1 Hour     |             | When tripped, coughs up a cloud of powder in a up to `Q` Square radius, which will impede all vision through it at a Ob `+2` penalty. The powder may also be flammable, poisonous or Illusionist's Powder. |
-| Trap: Rune/Scroll        | 1    | 3               | 45  | 1 Hour     |             | When tripped, a complex mechanism pours vial of mage blood onto the Rune or Scroll, in precise intervals to agitate the magic within. |
-| Trap: Shooter            | 1    | 3               | 10  | 5 Minutes  |             | A crossbow or firearm is wired to shoot in a set direction by a careless trespasser. The bolt or bullet will travel up to `20` Squares far and deal `Q * 3` Piercing damage. May also shoot poison darts or other types of ammo. |
-| Trap: Windfist           | 1    | 2               | 45  | 1 Hour     |             | A pressure plate or wire opens the seal on a pressurized container. The escaping gas hits the victim with an enormous force, throwing them `Q * 2` Squares far. |
+| Love Potion              | 1    | 2               | 25  | 1 Hour     | +1          | Anyone drinking this potion will become virtually irresistible to anyone close enough to smell their air. Victims have to succeed a [Self-Control](./strive-core.md#self-control-toughtough) Test at Ob `Q` or else feel **very strongly compelled** to fulfill the user's every wish and desire (provided this wouldn't obviously cause harm to the victim). |
+| Magic Recorder           | 1    | 3               | 30  | 6 Hours    |             | A small spherical device, made from various metals with intricate patterns on its surface. This device can capture [Magic Echoes](#magic-echoes) and record magic as it is being cast. Also captures fragments of thoughts from its bearer while it is active. |
+| Night-Eye Potion         | 1    | 3               | 15  | 1 Hour     |             | Grants the ability to see reasonably well under low-light conditions, up to `Q * 3` Squares around them, for an hour. Beware that under the influence of this potion, exposure to bright light is extremely difficult to endure and will cause `-1` [Stamina](./strive-core.md#stamina--strain) for every **minute** of exposure. |
+| Paralyzing Poison        | 1    | 2               | 50  | 1 Hour     | +2          | Causes a victim's muscles to seize up. They suffer `-1` AP each Turn and are forced to move sluggishly, at only half their usual movement speed. If this poison is suffered twice, the victim seizes up completely and is unable to move, at all. This poison can be resisted once upon suffering it, with [Toughness](./strive-core.md#toughness-tough), at Ob `Q`. If unsuccessful, the effect will last `Q` hours. |
+| Poison Arrows            | 1    | 20              | 15  | 30 Minutes |             | Ammunition for a bow that deals `Q * 2` additional points of Poison damge. A small poison-filled vial tips these arrows, ready to burst upon impact. |
+| Poison Resistance Potion | 1    | 2               | 15  | 1 Hour     |             | Once imbibed, reduces all incurred poison damage by `Q * 2`, for up to `Q` hours. |
+| Sleeping Poison          | 1    | 3               | 40  | 1 Hour     | +1          | Causes a victim to feel incredibly sleepy. Unless they succeed a [Self-Control](./strive-core.md#self-control-toughtough) Test at Ob `Q`, they will fall asleep the first chance they get. They cannot be woken from this state for at least `6` hours, except through the use of harmful force. |
+| Smoke Bomb               | 1    | 3               | 10  | 10 Minutes |             | A small fragile shell, filled with a very fine powder which when broken causes an area in a `Q` Square AoE radius to be covered in smoke. It is impossible to see through and ranged attacks within or through the smoke-covered area suffer `+2` Ob. Victims caught in the smoke may be forced to cough. The smoke lasts `6` Turns or `30` seconds. |
+| Throwing Blade           | 1    | 6               | 10  | 1 Hour     |             | A small weighted blade, like a knife or star, well suited to being thrown. Can be used in melee and acts like a [Dagger](#light-blade), but with a penalty of `-2D` to attack and Defense. `+1D` when [Thrown](./strive-core.md#throwing-accuracy) for a ranged attack. <br> `≤ 1` Hit: `4 + Str` Piercing <br> `= 2` Hits: `6 + Str` Piercing <br> `≥ 3` Hits: `8 + Str` Piercing |
+| Tools                    | 1    | 2               | 10  | 1 Hour     |             | Various metal-made, proper tools. |
+| Trap: Acid               | 1    | 3               | 15  | 1 Hour     |             | A small metal frame with a central pressure pad which, when stepped on, sprays acid upwards at the victim. Causes `(Q * 2) + 6` Acid damage. |
+| Trap: Bear               | 1    | 3               | 15  | 1 Hour     |             | A metal-jawed trap, capable of breaking bone and flesh. Deals `Q * 2` Bludgeoning and `Q * 2` Piercing damage. Causes [Rooted](./strive-core.md#rooted) in the victim, which costs `3` AP to clear. |
+| Trap: Cage/Net           | 1    | 1               | 15  | 1 Hour     |             | When tripped, a cage springs up around, or a net pulls up over the victim. They are trapped within until they can manage to free themselves. `Q` equals the Ob for Tests to cut or break the cage or net. |
+| Trap: Powder             | 1    | 3               | 15  | 1 Hour     |             | When tripped, coughs up a cloud of powder in a up to `Q` Square radius, which will impede all vision through it at a Ob `+2` penalty. The powder may also be flammable, poisonous or Illusionist's Powder. |
+| Trap: Rune/Scroll        | 1    | 3               | 15  | 1 Hour     |             | When tripped, a complex mechanism pours vial of mage blood onto the Rune or Scroll, in precise intervals to agitate the magic within. |
+| Trap: Shooter            | 1    | 3               | 15  | 5 Minutes  |             | A crossbow or firearm is wired to shoot in a set direction by a careless trespasser. The bolt or bullet will travel up to `20` Squares far and deal `Q * 3` Piercing damage. May also shoot poison darts or other types of ammo. |
+| Trap: Windfist           | 1    | 2               | 15  | 1 Hour     |             | A pressure plate or wire opens the seal on a pressurized container. The escaping gas hits the victim with an enormous force, throwing them `Q * 2` Squares far. |
 
 ### Armor
 
@@ -650,7 +650,7 @@ Armor can have the following **Armor Traits**:
 A set of light armor that doesn't impede the wearer much. Example: cloth armor like a gambeson. Might also be leather armor, if the leather comes from a creature whose skin is particularly tough and well suited to being used as armor. 
 
 * Bulk: `2`
-* PI: `50`, TI: `6 Hours`
+* PI: `30`, TI: `6 Hours`
 
 | Protections          | Unthreatened | Flanked | Surrounded | Overwhelmed | 
 | -------------------- | ------------ | ------- | ---------- | ----------- | 
@@ -667,7 +667,7 @@ A set of medium armor with a good balance of protection and weight. Example: ful
 * `-1` to [Stealth](./strive-core.md#stealth-agiawar) while worn. 
 * `-1D` to any Defense Tests while worn. 
 * Bulk: `3`
-* PI: `75`, TI: `6 Hours`
+* PI: `40`, TI: `6 Hours`
 
 | Protections          | Unthreatened | Flanked | Surrounded | Overwhelmed | 
 | -------------------- | ------------ | ------- | ---------- | ----------- | 
@@ -685,7 +685,7 @@ A set of heavy armor with excellent protection, at the cost of encumbering the w
 * `-3` to [Stealth](./strive-core.md#stealth-agiawar) while worn. 
 * `-2D` to any Defense Tests while worn. 
 * Bulk: `4`
-* PI: `100`, TI: `6 Hours`
+* PI: `50`, TI: `6 Hours`
 
 | Protections          | Unthreatened | Flanked | Surrounded | Overwhelmed | 
 | -------------------- | ------------ | ------- | ---------- | ----------- | 
@@ -708,7 +708,8 @@ Shields can have the following **Shield Traits**:
 #### Light Shield
 A small round or oblong shield commonly held as far from the body as possible, to deflect small or stabbing weapons with ease. Helps only little against heavy blows and don't expect to deflect arrows with this, either. 
 
-* Bulk: `1`, PI: `50`, TI: `6 Hours`
+* Bulk: `1`
+* PI: `20`, TI: `6 Hours`
 
 | Unthreatened           | Flanked           | Surrounded           | Overwhelmed           |
 | ---------------------- | ----------------- | -------------------- | --------------------- |
@@ -722,7 +723,7 @@ A medium-sized, round or kite-shaped shield made from tough wood and leather or 
 * `+1` [Strain](./strive-core.md#stamina--strain) while wielded. 
 * `+1` [Stability](./strive-core.md#stability-stabil) while wielded.
 * Bulk: `2`
-* PI: `60`, TI: `6 Hours`
+* PI: `30`, TI: `6 Hours`
 
 | Unthreatened           | Flanked           | Surrounded           | Overwhelmed           |
 | ---------------------- | ----------------- | -------------------- | --------------------- |
@@ -734,7 +735,7 @@ A large, kite-shaped or rectangular shield, which can protect every part of the 
 * `+2` [Strain](./strive-core.md#stamina--strain) while wielded.
 * `+2` [Stability](./strive-core.md#stability-stabil) while wielded.
 * Bulk: `4`
-* PI: `75`, TI: `6 Hours`
+* PI: `40`, TI: `6 Hours`
 
 | Unthreatened           | Flanked           | Surrounded           | Overwhelmed           |
 | ---------------------- | ----------------- | -------------------- | --------------------- |
@@ -752,7 +753,7 @@ Weapons can have the following **Weapon Traits** (see also the [Core Weapon Trai
 One and two-handed axes. See also its corresponding [Skill](#weapon-axe-strstr).
 
 * [Melee](./strive-core.md#melee)
-* Bulk: `2`, PI: `45`, TI: `1 Hour`
+* Bulk: `2`, PI: `15`, TI: `1 Hour`
 
 #### Chained Blade 
 An exotic weighted, down-angled blade, perfect for throwing and connected to a very light chain or rope, for easy retrieval. Such a weapon requires masterful precision and rewards its user with great versatility. See also its corresponding [Skill](#weapon-chained-blade-agiagi).
@@ -760,55 +761,55 @@ An exotic weighted, down-angled blade, perfect for throwing and connected to a v
 Requires knowing [Acrobatics](#acrobatics-agistr) and [Throwing](./strive-core.md#throwing), each at Level `3+`. 
 
 * [Melee](./strive-core.md#melee), [Ranged (max. 8)](./strive-core.md#ranged), [Prefer Range](./strive-core.md#prefer-range)
-* Bulk: `3`, PI: `75`, TI: `1 Hour`
+* Bulk: `3`, PI: `25`, TI: `1 Hour`
 
 #### Crusher
 Small bludgeoning weapons. Examples: any improvised weapon, any club, any mace. See also its corresponding [Skill](#weapon-crusher-strtough).
 
 * [Melee](./strive-core.md#melee)
-* Bulk: `3`, PI: `60`, TI: `1 Hour`
+* Bulk: `3`, PI: `15`, TI: `1 Hour`
 
 #### Light Blade
 Any short and/or light blade, such as daggers and one-handed swords. See also its corresponding [Skill](#weapon-light-blade-agistr).
 
 * [Melee](./strive-core.md#melee)
-* Bulk: `1`, PI: `40`, TI: `1 Hour`
+* Bulk: `1`, PI: `15`, TI: `1 Hour`
 
 #### Long Blade
 Any long and heavier blade, such as longswords and great-swords. See also its corresponding [Skill](#weapon-long-blade-agistr).
 
 * [Melee](./strive-core.md#melee), [Long Reach](./strive-core.md#weapon-traits)
-* Bulk: `3`, PI: `60`, TI: `1 Hour`
+* Bulk: `3`, PI: `20`, TI: `1 Hour`
 
 #### Polearm
 Polearms and spears. Examples: boar-spear, halberd, bardiche, poleaxe. See also its corresponding [Skill](#weapon-polearm-strtough).
 
 * [Melee](./strive-core.md#melee), [Long Reach](./strive-core.md#weapon-traits), [Prefer Range](./strive-core.md#weapon-traits)
-* Bulk: `4`, PI: `50`, TI: `1 Hour`
+* Bulk: `4`, PI: `20`, TI: `1 Hour`
 
 #### Short-Bow
 A short distance ranged weapon, shooting arrows. See also its corresponding [Skill](#weapon-short-bow-agiawar).
 
 * [Ranged (10 DI)](./strive-core.md#ranged), [Range Only](./strive-core.md#weapon-traits)
-* Bulk: `1`, PI: `40`, TI: `1 Hour`
+* Bulk: `1`, PI: `15`, TI: `1 Hour`
 
 #### Longbow
 A long distance ranged weapon, shooting arrows. See also its corresponding [Skill](#weapon-longbow-awarstr).
 
 * [Ranged (20 DI)](./strive-core.md#ranged), [Range Only](./strive-core.md#weapon-traits)
-* Bulk: `2`, PI: `50`, TI: `1 Hour`
+* Bulk: `2`, PI: `20`, TI: `1 Hour`
 
 #### Crossbow
 A deadly medium distance ranged weapon, shooting bolts. Beware its slow reload. See also its corresponding [Skill](#weapon-crossbow-awarawar).
 
 * [Ranged (15 DI)](./strive-core.md#ranged), [Prefer Range](./strive-core.md#weapon-traits), [Slow Reload](./strive-core.md#weapon-traits)
-* Bulk: `2`, PI: `60`, TI: `1 Hour`
+* Bulk: `2`, PI: `25`, TI: `1 Hour`
 
 #### Firearm
 A very deadly short to medium distance ranged weapon, shooting small metal balls that are partially able to penetrate armor. Beware its slow reload. See also its corresponding [Skill](#weapon-firearm-awartough).
 
 * [Ranged (10 DI)](./strive-core.md#ranged), [Prefer Range](./strive-core.md#weapon-traits), [Very Slow Reload](./strive-core.md#weapon-traits)
-* Bulk: `3`, PI: `75`, TI: `1 Hour`
+* Bulk: `3`, PI: `30`, TI: `1 Hour`
 
 ## Lists of Skills
 The following list does not and cannot aim to be a complete listing of all possible Skills in game. Adding new Skills as necessary will have to be done by the GM. 
@@ -1020,7 +1021,7 @@ The ability to craft bows and crossbows.
 The ability to shape wood to craft predominantly wooden things. 
 
 [Crafting](./strive-core.md#crafting--research-projects):
-* Furniture (1x): A unique piece, PI: `40`, TI: `1` Hour
+* Furniture (1x): A unique piece, PI: `20`, TI: `1` Hour
 
 #### Clothesmaking (Agi/Wit)
 The ability to make comfortable, well-fitting and decorated clothes. 
