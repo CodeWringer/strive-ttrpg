@@ -39,6 +39,8 @@ There is a [compendium document](./strive-fantasy-game-masters-resource.md) rese
     - [Ambersteel](#ambersteel)
     - [Arcane Engine](#arcane-engine)
     - [Cerebillium](#cerebillium)
+    - [Sockets In Assets](#sockets-in-assets)
+    - [Crystal Magic](#crystal-magic)
     - [Runes](#runes)
       - [Using Runes](#using-runes)
       - [Creating Runes](#creating-runes)
@@ -429,6 +431,16 @@ When sufficient magic is sent flowing through it, the veins glow strongly and ch
 The veins do not spread to other materials. Only the bright marble-like substance seems to find their favor. Thus, cultivating greater amounts of Cerebillium is very difficult and requires synthesization of a very unique chemical compound, which is then left to crystallize over a long time. 
 
 However, if done right, a well-trained Cerebillium core can be employed to animate mechanisms, even entire artifical bodies, enabling the creation of golems.
+
+### Sockets In Assets
+Assets can hold up to `Q - 2` number of Sockets, into which [Crystals](#crystal-magic) and [Runes](#runes) may be inserted.
+
+While Crystals may be mixed and matched at will in the same Asset, the rule for Runes repulsing one another remains. Only one Rune may be inserted into an Asset. 
+
+Sockets can be added to Assets at any time, via [Artificing](#artificing-arcwit), [Armor Smithing](#armor-smithing-strwit), [Weapon Smithing](#weapon-smithing-strwit) and [Blacksmithing](#blacksmithing-agistr). This is a Craft, but not a proper Project. Sockets have no Quality Level. The Craft requires a Progress Increment of `20` and a Time Increment of `1` Hour. 
+
+### Crystal Magic
+TODO #396
 
 ### Runes
 Shards of [Abyssalite](#abyssalite) can be carved into **Runes**, which allow magic to flow through them in particular ways. Mechanically, they allow the casting of a particular spell of one of the [Schools Of Magic](#list-of-magic-schools), at a constant [Spell Intensity](#spell-intensity-si). 
@@ -977,6 +989,7 @@ The ability to make armor from conventional materials, such as metal and leather
 * [Light Armor](#light-armor) (1x)
 * [Medium Armor](#medium-armor) (1x)
 * [Heavy Armor](#heavy-armor) (1x)
+* [Asset Socket](#sockets-in-assets) (but only for armor)
 
 #### Ambersmithing (Str/Wit)
 The ability to make things from [Amberite](#amberite) and [Ambersteel](#ambersteel). 
@@ -1025,6 +1038,7 @@ The ability to create every-day items and tools from metal.
 [Crafting](./strive-core.md#crafting--research-projects):
 * [Tools](#general-assets) (2x)
 * [Trap: Bear](#general-assets) (1x)
+* [Asset Socket](#sockets-in-assets) (but only for non-armor and non-weapons)
 
 #### Bow-Making (Agi/Awar)
 The ability to craft bows and crossbows. 
@@ -1125,6 +1139,7 @@ The ability to make weapons from metal.
 * [Light Blade](#light-blade) (1x)
 * [Long Blade](#long-blade) (1x)
 * [Polearm](#polearm) (1x)
+* [Asset Socket](#sockets-in-assets) (but only for weapons)
 
 At Level `4+`, you may also craft the following:
 * At the cost one `-1 Q`, it is possible to add each of the following to a weapon (the weapon **must** have at least `Q 2`):
@@ -1209,6 +1224,7 @@ The setting of arcane traps and creation of arcane artifacts and materials.
 
 [Crafting](./strive-core.md#crafting--research-projects):
 * [Arcane Engine](#arcane-engine) (1x)
+* [Asset Socket](#sockets-in-assets)
 * [Magic Recorder](#general-assets) (1x)
 * [Magic Scroll](#magic-scrolls) (1x)
 
