@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="48"
+   height="48"
+   viewBox="0 0 48 48"
+   version="1.1"
+   id="svg1"
+   xml:space="preserve"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
+   sodipodi:docname="stamina.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><sodipodi:namedview
+     id="namedview1"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     inkscape:document-units="px"
+     inkscape:zoom="18.431918"
+     inkscape:cx="17.496823"
+     inkscape:cy="26.774208"
+     inkscape:window-width="2560"
+     inkscape:window-height="1369"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" /><defs
+     id="defs1" /><g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"><path
+       id="path3"
+       style="color:#000000;fill:#ffffff;stroke-width:0.998533;stroke-linecap:round;-inkscape-stroke:none"
+       d="m 23.997074,4.7037217 c -1.098014,0 -1.98764,0.7900698 -1.98764,1.7622367 v 6.7532896 l -4.455356,3.948934 C 17.456942,12.065311 16.902844,7.8523641 15.607421,6.8991987 7.5679722,6.3742226 3.3884616,15.084363 2.3174591,31.233879 l 0.1317293,10.956898 c 2.7773572,3.445392 7.7539266,-2.238297 12.7191366,-2.508699 0.942679,-0.08745 2.087991,-8.970805 2.341843,-17.496497 l 6.486906,-5.746297 6.49276,5.746297 c 0.253851,8.525692 1.399163,17.409043 2.341843,17.496497 4.965208,0.270402 9.941781,5.954091 12.719136,2.508699 L 45.682541,31.233879 C 44.611535,15.084363 40.432029,6.3742226 32.392581,6.8991987 31.097157,7.8523641 30.543061,12.065311 30.445924,17.168182 L 25.98764,13.219248 V 6.4659584 c 0,-0.9721669 -0.892553,-1.7622367 -1.990566,-1.7622367 z" /></g></svg>

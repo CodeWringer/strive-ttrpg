@@ -122,7 +122,9 @@ You may choose to play without the Momentum system for a less heroic style of ga
       - [Injury States \& Treatment](#injury-states--treatment)
       - [Injury \& Damage Type Table](#injury--damage-type-table)
       - [Grit Points](#grit-points)
-    - [Exhaustion](#exhaustion)
+    - [Stamina \& Strain](#stamina--strain)
+      - [Stamina](#stamina)
+      - [Strain](#strain)
     - [Condition](#condition)
     - [Illness](#illness)
     - [Damage Types](#damage-types)
@@ -200,8 +202,6 @@ You may choose to play without the Momentum system for a less heroic style of ga
   - [Foraging \& Hunting](#foraging--hunting)
 - [General Interactions](#general-interactions)
   - [Appraisal](#appraisal)
-  - [Persuasion, Intimidation \& Deception](#persuasion-intimidation--deception)
-    - [Are they lying?](#are-they-lying)
 - [Appendix](#appendix)
   - [Character Creation](#character-creation)
     - [Determine Life Path](#determine-life-path)
@@ -261,6 +261,7 @@ You may choose to play without the Momentum system for a less heroic style of ga
         - [Commanding Specialization - Taskmaster](#commanding-specialization---taskmaster)
       - [Entertainment (Agi/Wit)](#entertainment-agiwit)
       - [Mercantilism (Awar/Wit)](#mercantilism-awarwit)
+      - [Persuasion (Wit/Wit)](#persuasion-witwit)
       - [Riding (Agi/Awar)](#riding-agiawar)
       - [Self-Control (Tough/Tough)](#self-control-toughtough)
     - [Knowledge Skills](#knowledge-skills)
@@ -299,6 +300,7 @@ You may choose to play without the Momentum system for a less heroic style of ga
     - [Thorough Artisan](#thorough-artisan)
     - [Tough Skin](#tough-skin)
     - [Warcrobat](#warcrobat)
+    - [Wordsmith](#wordsmith)
   - [List of Titles of Renown](#list-of-titles-of-renown)
     - [Heart of Stone](#heart-of-stone)
     - [Hero of Many Victories](#hero-of-many-victories)
@@ -506,7 +508,6 @@ As STRIVE is meant primarily as a rule-book to help you quickly find what you ne
 | [Drug-Addicted](#drug-addicted)                             | A Condition that forces a Character to act compulsively. |
 | [Electrified](#electrified)                                 | A Condition that forces a Character to spasm uncontrollably and thus be Force-Moved. |
 | [Exhausted](#exhausted)                                     | A Condition that Character suffer when they exert themselves too much. It makes them lethargic and their Tests harde to succeed. |
-| [Exhaustion](#exhaustion)                                   | A number that indicates how physically exerted a Character is. Limits usage of abilities if it becomes too much. |
 | [Experience Point(s) (XP)](#experience-points-xp)           | Allows unrestricted Character Advancement. |
 | [Expertise](#expertise)                                     | A sub-ability of a Skill. |
 | [Fate Point(s) (FP)](#fate-points)                          | A meta-currency that players earn through roleplay and great achievements. Can be used to buy powerful Fate-Cards from the Hand Of Fate. |
@@ -515,7 +516,7 @@ As STRIVE is meant primarily as a rule-book to help you quickly find what you ne
 | [Flanked](#flanking)                                        | The first degree of Flanking. A Flanked Character's armor is only half (RU) as effective and their Defense Tests are more difficult. |
 | [Flanking](#flanking)                                       | Lets allies work together to circumvent an enemy's defenses in Combat. |
 | [Flee Combat](#flee-combat)                                 | A Combat Action that lets a Character flee Combat faster, but they can no longer fight. |
-| [Forced March](#forced-march)                               | Allows Characters to [Travel](#travel--terrain) longer, at the cost of Exhaustion. |
+| [Forced March](#forced-march)                               | Allows Characters to [Travel](#travel--terrain) longer, but causes [Strain](#stamina--strain). |
 | [Forced Movement](#forced-movement)                         | When a Character is moved against their will, by being pushed or thrown. |
 | [Frostbitten](#frostbitten)                                 | A Condition that reduces a Character's AP and makes their Tests harder to succeed. |
 | [Full Rest, Resting](#resting)                              | Spending time asleep or in deep meditation, allowing a Character to recover their health. |
@@ -526,10 +527,12 @@ As STRIVE is meant primarily as a rule-book to help you quickly find what you ne
 | [Grit Point](#grit-points)                                  | A one-time resource that is earned through Injuries, which can be spent as a last-ditch effort to turn the wheel of fate around. |
 | [Hand Of Fate](#hand-of-fate)                               | Refers to the game's selection of available Fate-Cards. |
 | [Hasted](#hasted)                                           | A Condition that lets a Character who get an additional AP and who may move further per AP spent. |
+| [Health Point(s) (HP)](#health-points-hp)                   | The resource that separates a Character from death. |
 | [Heroic Act](#momentum-actions)                             | When Momentum is high, Heroic Acts become available, and allow PCs to dominate a fight. |
 | [Hit Limit](#testing-a-skill)                               | Determines how many rolled Hits may actually factor into the result of a Test. This is equal to your Skill's Level, but can be raised through Compensation Points, Skill Forking and other Characters providing assistance. |
-| [Health Point(s) (HP)](#health-points-hp)                   | The resource that separates a Character from death. |
 | [Hit](#tests)                                               | Positive result of an individual die-roll in a Test. |
+| [Hostility Action](#hostility)                              | A special event that benefits only the PCs' foes. This is the counter point to Momentum Actions. |
+| [Hostility](#hostility)                                     | A special resource the GM receives to occasionally activate Hostility Actions with, to shake up a Combat encounter. |
 | [Illness](#illness)                                         | A serious long-term health impediment of a Character. |
 | [Initiative Order](#initiative)                             | Defines the order Characters get to act in during tense situations, like Combat. |
 | [Injury Shrug-Off](#shrugging-off-an-injury)                | When a Character suffers enough damage to potentially also suffer an Injury, they may try to shrug it off, thus avoiding the Injury. |
@@ -595,10 +598,12 @@ As STRIVE is meant primarily as a rule-book to help you quickly find what you ne
 | [Skill](#skills)                                            | A learned ability of a Character. These are used in the vast majority of cases to resolve Tests and may offer unique abilities, called Expertises. |
 | [Slow Reload](#slow-reload)                                 | A weapon Trait that for a weapon that must be reloaded after every use, at the cost of AP. |
 | [Solid Success](#test-success-ratings)                      | A strong success of a Test. |
-| [Sprinting Speed / Sprint](#sprinting-speed-sprint)         | Can extend a Character's movement per AP, at the cost of Exhaustion. |
+| [Sprinting Speed / Sprint](#sprinting-speed-sprint)         | Can extend a Character's movement per AP, at the cost of Stamina. |
 | [Square](#distances--the-grid)                              | A single field of an encounter or overworld map, representing a `1m`/`3'` or `10km`/`6 mile` square, respectively. |
 | [Stability (Stab)](#stability-stabil)                       | Counter-acts Forced Movement. |
+| [Stamina](#stamina--strain)                                 | A resource that represents a Character's capacity for exhausting actions and allows usage of certain abilities until it is depleted. |
 | [Stepped Test](#stepped-test)                               | A Test that allows failing forward or offers multiple chances at recovery from a critical blunder. |
+| [Strain](#stamina--strain)                                  | Reduces maximum Stamina. |
 | [Strength (Str)](#strength-str)                             | An Attribute that describes a Character's physical strength. Finds use in determining Carrying Capacity. |
 | [Stunned](#stunned)                                         | A Condition that prevents a Character from acting at all, during their Turn. |
 | [Surprise Round](#surprise-round)                           | The first Round of Combat, when one side of the conflict are surprised and at a severe disadvantage in the beginning of the fight. |
@@ -610,7 +615,7 @@ As STRIVE is meant primarily as a rule-book to help you quickly find what you ne
 | [Tick](#ticks)                                              | The immediate moment of time when a Character's Turn begins. This is when Conditions apply their effects. |
 | [Time Increment (TI)](#progressing-a-project)               | Determines how often progress may be added to a Project. |
 | [Title of Renown](#titles-of-renown)                        | A unique reputation that a Character is known for, far and wide. Often earned through great achievements, both good and terrible. |
-| [Toughness (Tough)](#toughness-tough)                       | An Attribute that describes a Character's capacity to withstand physical and mental strains. Finds use in determining maximum HP, the Exhaustion Limit and Sprinting Speed. |
+| [Toughness (Tough)](#toughness-tough)                       | An Attribute that describes a Character's capacity to withstand physical and mental strains. Finds use in determining maximum HP, maximum Stamina and Sprinting Speed. |
 | [Treated Injury](#injury-states--treatment)                 | A Treated Injury only reduces a Character's maximum HP. |
 | [Troublemaker](#reaction)                                   | A PC's Reaction that makes it easy for the GM to get that PC into *trouble* - some minor social conflict to shake things up. |
 | [Turn](#initiative)                                         | The moment in time when a Character gets to act in an Initiative Order. |
@@ -974,15 +979,15 @@ For every `2` Levels in this Attribute, past Level `2` (i. e. starting at Level 
 <img src="../../img/toughness.svg" style="width: 3rem; height: 3rem;"> Enduring physical and mental strains. 
 
 For every Level in Toughness, a Character...
-* ...gains `+10` [maximum HP](#health-points-hp). All PCs have `10` Base HP. 
-* ...raises their [Exhaustion Limit](#exhaustion) by `+1`. All Characters have a base limit of `1`. 
+* ...gains `+10` [maximum HP](#health-points-hp). All PCs have `10` base HP. 
+* ...raises their [maximum Stamina](#stamina--strain) by `+2`. 
 * ...gains around `3` minutes of holding their breath. 
 * ...gains one additional die with which to try and Shrug Off an [Injury](#injury).
 
 | Level                        | 1   | 2   | 3   | 4   | 5   | 6   | 7   | 8   | 9   | 10  |
 | ---------------------------- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | PC maximum HP                | 20  | 30  | 40  | 50  | 60  | 70  | 80  | 90  | 100 | 110 |
-| Exhaustion Limit             | 2   | 3   | 4   | 5   | 6   | 7   | 8   | 9   | 10  | 11  |
+| Maximum Stamina              | 2   | 4   | 6   | 8   | 10  | 12  | 14  | 16  | 18  | 20  |
 
 Finds use in determining [Sprinting Speed](#sprinting-speed-sprint).
 
@@ -1079,7 +1084,7 @@ There are three types of Expertise:
 
 All Expertises note a required Level of their Owning Skill. Once the Skill reaches *that* Level, the Expertises of that Level unlock automatically. Only unlocked Expertises may be used. 
 
-Expertises may cost a variable amount of [AP](#action-points-ap) to activate. A cost of `0` implies the Expertise is free and can potentially be repeated multiple times in a single Turn. However, other limitations may apply. [Exhaustion](#exhaustion) causing Expertises **may not be used** while at the Exhaustion Limit!
+Expertises may cost a variable amount of [AP](#action-points-ap) to activate. A cost of `0` implies the Expertise is free and can potentially be repeated multiple times in a single Turn. However, other limitations may apply. [Stamina](#stamina--strain) costing Expertises **may not be used** if out of Stamina!
 
 An Ob may be noted on an Expertise. In order to activate it, a Test of the Owning Skill, at the noted Ob, must succeed. 
 
@@ -1276,17 +1281,17 @@ This personality is codified by the following matrix. Each row is a scale, with 
 
 Whenever PCs very strongly act in a certain way, their value in a Virtue or Vice may change. Take note during play, how the Characters have acted. After the session, discuss whether any of the PCs have shown a very strong drift towards either side of the scale. And if everyone agrees, a personality change is in order!
 
-| Trait       | Signature | Very | A little | Undecided | A little | Very | Signature |  Trait      |
-| ----------- | --------- | ---- | -------- | --------- | -------- | ---- | --------- | ----------- |
-| Arrogant    |           |      |          |           |          |      |           |  Humble     |
-| Cowardly    |           |      |          |           |          |      |           |  Courageous |
-| Cruel       |           |      |          |           |          |      |           |  Merciful   |
-| Deceitful   |           |      |          |           |          |      |           |  Honest     |
-| Lazy        |           |      |          |           |          |      |           |  Energetic  |
-| Paranoid    |           |      |          |           |          |      |           |  Naive      |
-| Reckless    |           |      |          |           |          |      |           |  Prudent    |
-| Selfish     |           |      |          |           |          |      |           |  Considerate|
-| Vengeful    |           |      |          |           |          |      |           |  Forgiving  |
+| Trait       | < Signature | < Rather | Undecided | Rather > | Signature > |  Trait      |
+| ----------- | ----------- | -------- | --------- | -------- | ----------- | ----------- |
+| Arrogant    |             |          |           |          |             |  Humble     |
+| Cowardly    |             |          |           |          |             |  Courageous |
+| Cruel       |             |          |           |          |             |  Merciful   |
+| Deceitful   |             |          |           |          |             |  Honest     |
+| Lazy        |             |          |           |          |             |  Energetic  |
+| Paranoid    |             |          |           |          |             |  Naive      |
+| Reckless    |             |          |           |          |             |  Prudent    |
+| Selfish     |             |          |           |          |             |  Considerate|
+| Vengeful    |             |          |           |          |             |  Forgiving  |
 
 These values can even have an impact on your [Tests](#tests)! For example, a Character who is known to be merciful may find it easier to convince their enemies to surrender to them. On the other hand, if that same PC tries intimidation, they will find it harder to succeed. 
 
@@ -1388,7 +1393,7 @@ A `2D10 + 10` roll determines the number of **days** the Injury takes to fully h
 | ----------- | ---------------------------- | -------------------------------- |
 | Acid        | [Medicine](#medicine-agiwit) | `-1` [AP](#action-points-ap) per Turn |
 | Bleeding    | [Medicine](#medicine-agiwit) | `+1` [Bleeding](#bleeding)       |
-| Bludgeoning | [Surgery](#surgery-agiwit)   | `+1` [Exhaustion](#exhaustion)   |
+| Bludgeoning | [Surgery](#surgery-agiwit)   | `+1` [Strain](#stamina--strain)  |
 | Burning     | [Surgery](#surgery-agiwit)   | `+1` [Burning](#burning)         |
 | Electrical  | [Medicine](#medicine-agiwit) | `+1` [Electrified](#electrified) |
 | Freezing    | [Medicine](#medicine-agiwit) | `+1` [Frostbitten](#frostbitten) |
@@ -1398,31 +1403,38 @@ A `2D10 + 10` roll determines the number of **days** the Injury takes to fully h
 | Slashing    | [Medicine](#medicine-agiwit) | `+1` [Bleeding](#bleeding)       |
 
 #### Grit Points
-**Grit Points** let a Character stand up in defiance of their [Injuries](#injury) and make a last-ditch effort to turn the wheel of fate around. 
+<img src="../../img/grit.svg" style="width: 3rem; height: 3rem;"> **Grit Points** let a Character stand up in defiance of their [Injuries](#injury) and make a last-ditch effort to turn the wheel of fate around. 
 
 Every time a Character suffers an Injury, they gain `+1` Grit Point. These are a one-time use resource and last until they are spent or until *any* Injury has fully healed. Under normal circumstances, only PCs gain Grit Points. 
 
 You may spend Grit Points at any time during a Round for the following effects (but only one Grit Point per effect, per Round): 
 * On a [Test](#tests), gain `+2D`. 
 * On a [Test](#tests), gain `+1` [Compensation Point](#compensation-points). 
-* Reduce [Exhaustion](#exhaustion) by `1D4`. 
+* Increase [Stamina](#stamina--strain) by `1D4`. 
 * On your next successful attack, deal `+8` points of [Pure damage](#damage-types). 
 * Gain `+1D4` [AP](#action-points-ap). 
 
-### Exhaustion
-**Exhaustion** is the measure of a Character's maximum **physical and mental strain** they can endure. 
+### Stamina & Strain
 
-For every point in [Toughness](#toughness-tough), a Character raises their Exhaustion Limit by `+1`. All Characters have a base Exhaustion Limit of `1`. 
+#### Stamina
+<img src="../../img/stamina.svg" style="width: 3rem; height: 3rem;"> **Stamina** is a numeric measure of a Character's maximum **physical and mental strain** they can safely endure. It may go into the negatives, and may not exceed your **maximum Stamina**.
 
-> At Toughness `1`, you already have an Exhaustion limit of `2`. 
+For every point in [Toughness](#toughness-tough), your **maximum Stamina** raises by `+2`.
 
-If a Character's Exhaustion **exceeds** their Limit, they become [Exhausted](#exhausted) from over-exertion. While Exhausted, a Character suffering further Exhaustion, must succeed a [Self-Control](#self-control-toughtough) [Test](#tests) at Ob equal to their current level of Exhaustion, or else fall [Unconscious](#unconscious). Also, it becomes impossible to use *any* Action or Reaction that would cause further Exhaustion!
+> At Toughness `1`, you have a maximum Stamina of `2`. At Toughness `3`, you have a maximum Stamina of `6`. 
 
-Exhaustion is gained through performing **exhausting actions** and by wearing **exhausting equipment**. Exhaustion gained from exhausting actions can be reduced by resting. **An hour of uninterrupted rest** will remove `1` point of Exhaustion. Once Exhaustion is back **at or below** the Limit, the Exhausted [Condition](#condition) is automatically removed. 
+If a Character's Stamina reaches **negative numbers**, they become [Exhausted](#exhausted) from over-exertion. While Exhausted, a Character losing further Stamina, must succeed a [Self-Control](#self-control-toughtough) [Test](#tests) at Ob equal to their current degree of negative Stamina, or else fall [Unconscious](#unconscious). Also, it becomes impossible to use *any* Action or Reaction that would cost further Stamina!
 
-> If a Character has an Exhaustion Limit of `3` and current Exhaustion of `5`, then they must rest for at least `2` hours to clear their Exhausted Condition.  
+`+1` point of Stamina is regained for every **hour of uninterrupted rest**. Once Stamina is **no longer negative**, the Exhausted [Condition](#condition) is removed, automatically. 
 
-Exhaustion gained from exhausting equipment can be reduced by dropping the equipment in question. It is not possible to put on exhausting equipment that would push your Character past their Limit. 
+> If a Character has `-3` Stamina, then they must rest for at least `3` hours to clear their Exhausted Condition.  
+
+#### Strain
+<img src="../../img/strain.svg" style="width: 3rem; height: 3rem;"> **Strain** is a measure of a Character's **current constant** physical and mental strain and **reduces your maximum Stamina**. 
+
+Strain is gained from particularly exhausting equipment, suffering through extreme weather or performing particularly exhausting actions. Strain gained from exhausting equipment can be reduced by dropping the equipment in question. Strain gained through other sources may be cleared by a [Full Rest](#resting), but only if no other restrictions apply. 
+
+> A Character with Toughness `3` has `6` maximum Stamina. But they are wearing heavy armor that puts `+2` Strain on them. Thus, their effective maximum Stamina is only `4`!
 
 ### Condition
 A Character can have positive or negative effects on them, represented by Conditions. They can have any number of Conditions applying to them simultaneously. 
@@ -1490,7 +1502,7 @@ An Asset is anything from money, to weapons and ammunition, to food and supplies
 When choosing the Assets to wear on person and have in your Luggage, keep in mind that *container* type Assets **are always implied**. A container type Asset is an Asset that is dedicated to holding other Assets, e. g. a quiver, a scabbard, a gun holster, a backpack or any type of bag and so on. An archer having a quiver to hold their arrows or a gunman having an ammunition belt or ammunition pouches is implied and need not be tracked explicitly, other than for flavor reasons. This means you *can* still include a scabbard or a backpack and other such container type Assets on your Character sheet, but do **not have to**. You may choose to include a container type Asset for flavor reasons, for example when it is especially decorated or has some other unique trait that helps define your Character. **When doing so, set its Bulk to `0`**. You can have as many container type Assets as you like, but they will **not** increase your [Carrying Capacity](#carrying-capacity)! 
 
 ### Bulk
-Every non-static Asset (= any object that can reasonably be picked up) has a Bulk associated with it. This value determines how easy to handle the Asset is.
+<img src="../../img/bulk.svg" style="width: 3rem; height: 3rem;"> Bulk is a number that represents how easy to handle an Asset is and is an abstract measure of both weight and size. 
 
 A lower Bulk means an easier to handle Asset. Both weight and size increase an object's Bulk. Bulk can be derived in the following way, but is ultimately up to the situation and GM's discretion. Obviously, not all objects' Bulk can be estimated this way. A truck may have a much higher Bulk than "`7`", just as a huge boulder or even an entire mountain may have way more Bulk than you should even need to discuss. Unless of course if your PCs are super-heroes or gods who reasonably *could* move a mountain. In such a case, you will have to find your own means of estimating Bulk. 
 
@@ -1645,9 +1657,9 @@ All creatures that can be tired, require sleep. Some [Conditions](#condition) ca
 
 An interruption of a Full Rest is any break in the rest, when a Character is forced to do something physically or mentally taxing that keeps them from sleep. If in doubt - a Test is almost always going to be taxing in some way.
 
-Whenever resting in an **unsafe environment**, such as out in the wild or on a city's streets, animals, bandits or monsters - given the setting and narrative allow for it - might surprise any resting Characters. Therefore, it is advisable to set up a watch. But be careful - those on watch could fall asleep during their vigil! To determine whether they succumb to their own exhaustion, they must Test their [Self-Control](#self-control-toughtough) once, at the beginning of their watch. The Ob is equal to their current level of [Exhaustion](#exhaustion), `+1`. If multiple Characters stay up for the watch at the same time, they can help each other stay awake, reducing the Ob by `-1` for each who stay awake. The Ob to stay awake can never be reduced to less than `1`. 
+Whenever resting in an **unsafe environment**, such as out in the wild or on a city's streets, animals, bandits or monsters - given the setting and narrative allow for it - might surprise any resting Characters. Therefore, it is advisable to set up a watch. But be careful - those on watch could fall asleep during their vigil! To determine whether they succumb to their own exhaustion, they must Test their [Self-Control](#self-control-toughtough) once, at the beginning of their watch. The Ob is equal to `3`, plus their current negative [Stamina](#stamina--strain), if they have any. If multiple Characters stay up for the watch at the same time, they can help each other stay awake, reducing the Ob by `-1` for each who stay awake. The Ob to stay awake can never be reduced to less than `1`. 
 
-> A Character with an Exhaustion of `3` is tasked with standing watch one night. In order to avoid falling asleep, they must succeed a Self-Control Test at Ob `3 (from their Exhaustion) + 1 (always) = 4`. 
+> A Character with current Stamina of `-1` is tasked with standing watch one night. In order to avoid falling asleep, they must succeed a Self-Control Test at Ob `3 (always) + 1 (negative Stamina) = 4`. 
 
 ## Scenario-Time
 In contrast to [Down-Time](#down-time), scenario-time describes the point in the narrative when the PCs are dealing with a specific situation on a fine-grained level, where the amount of time that is spent matters. 
@@ -1727,16 +1739,16 @@ For every Recipe that you know, you may also decide to craft multiple of the sam
 #### Research Projects
 A Project can be about the research of knowledge, but not about mundane every-day things. You must visit various libraries, study dusty old tomes or comb countless digital archives, go on archeological digs and question other scholars. This is a task requiring substantial effort. 
 
-For all Research Projects, the Progress Increment is `25` and the Time Increment is `6` Hours. The Quality Level you achieve in the end dictates the degree of knowledge you learned about your subject. You may always try to gain even deeper understanding of your topic, by researching the same subject matter again. Your previous knowledge will accelerate further studies by the listed **Progress Bonus**, every time you gain a Progress Increment.
+For all Research Projects, the Progress Increment is `15` and the Time Increment is `1` Hour. The Quality Level you achieve in the end dictates the degree of knowledge you learned about your subject. You may always try to gain even deeper understanding of your topic, by researching the same subject matter again. Your previous knowledge will accelerate further studies by `N * 2`, where *N* is your current degree of knowledge, every time you gain a Progress Increment.
 
 As a prerequisite to begin your studies, you must have access to the number of research objects as listed below. This can be anything, from old scrolls to data sticks, from shattered pieces of ancient machinery to intact but completely alien devices and even NPCs who hold knowledge they might be willing to share. 
 
-| Obscurity   | Quality Level | Progress Bonus | Research Objects | Description | 
-| ----------- | ------------- | -------------- | ---------------- | ----------- | 
-| Common      | 1 - 2         | 2              | 0                | Common knowledge can be easily researched. Even so, it's not so common that everyone knows it already. It may still take some effort to find the right pieces of writing or piece together what you need from questioning several other people. |
-| Specialized | 3 - 4         | 5              | 1                | Only few individuals have deeper knowledge regarding the topic you seek to understand. Only few pieces of writing even make note of your topic. It will require substantial effort to track down sources of knowledge and then puzzle the pieces together. |
-| Obscure     | 5 - 6         | 10             | 2                | Barely anyone, if anyone at all, even knows of this esoteric subject. Tracking down anyone with knowledge will be a considerable challenge. And whatever writing exists, may be stowed away, hidden in private collections, not easily accessible and not easily parted with. And even if access to these sources of knowledge can be secured, making sense of it all will be a challenge. |
-| Unfathomable | 7 - 8+        | 20             | 3                | No one alive still knows anything about this subject. Whatever writing may exist, is manifested in a long dead language, on a medium hidden in a remote and forgotten place. Even if you find this remnant of knowledge, how could you possibly make sense of it? |
+| Obscurity    | Quality Level | Research Objects | Description | 
+| ------------ | ------------- | ---------------- | ----------- | 
+| Common       | 1 - 2         | 0                | Common knowledge can be easily researched. Even so, it's not so common that everyone knows it already. It may still take some effort to find the right pieces of writing or piece together what you need from questioning several other people. |
+| Specialized  | 3 - 4         | 1                | Only few individuals have deeper knowledge regarding the topic you seek to understand. Only few pieces of writing even make note of your topic. It will require substantial effort to track down sources of knowledge and then puzzle the pieces together. |
+| Obscure      | 5 - 6         | 2                | Barely anyone, if anyone at all, even knows of this esoteric subject. Tracking down anyone with knowledge will be a considerable challenge. And whatever writing exists, may be stowed away, hidden in private collections, not easily accessible and not easily parted with. And even if access to these sources of knowledge can be secured, making sense of it all will be a challenge. |
+| Unfathomable | 7 - 8+        | 3                | No one alive still knows anything about this subject. Whatever writing may exist, is manifested in a long dead language, on a medium hidden in a remote and forgotten place. Even if you find this remnant of knowledge, how could you possibly make sense of it? |
 
 When you finish the research Project, you'll have the answers you seek and may gain the title "Loremaster of *X* (degree)", where you replace *X* with the subject you researched and *degree* with the Quality Level. 
 
@@ -1752,9 +1764,9 @@ Think about complexity in terms of *how difficult is it to make the thing?*, *ar
 | ------------------ | ------------------ | ------------------ |
 | Trivial            | 5                  | A trivial craft can be done at any time, anywhere - even on the road. It barely requires any resources and you can improvise the tools you need. It takes no special knowledge. |
 | Routine            | 8                  | A routine craft is routine only to a learned and experienced craftsperson. While the work won't put your skills to the test, it still requires some effort and experience to achieve. Improvised tools may still do, and some resources may still be substituted. But the work does demand focus. It takes some experience. |
-| Specialized        | 15                 | A specialized craft is a bit more challenging. You need to sit down and actually focus on the work and need the proper tools and resources to get it done. But provided you bring those, your work can be done in any suitable place. Deeper understanding of the subject matter is required. |
-| Complex            | 25                 | A complex craft requires specialized tools and rare resources, which may not be readily accessible to just anyone and the work must be done in a specialized environment. Specialized and obscure knowledge is required. |
-| Monumental         | 50                 | A monumental craft requires tools that simply don't exist, anywhere. You will have to create them, yourself. The resources you need will require substantial effort to track down. Perhaps you'll even be the first discover their existence. The work can be done only in a highly specialized environment, to minimize the risk of delicate machinery getting dusty, aerosols mixing or vibrations in the earth agitating the wrong powder and so forth. There may not be anyone alive, nor any writing detailing the work. You will have to be the first to (re-)discover the knowledge required. |
+| Specialized        | 12                 | A specialized craft is a bit more challenging. You need to sit down and actually focus on the work and need the proper tools and resources to get it done. But provided you bring those, your work can be done in any suitable place. Deeper understanding of the subject matter is required. |
+| Complex            | 20                 | A complex craft requires specialized tools and rare resources, which may not be readily accessible to just anyone and the work must be done in a specialized environment. Specialized and obscure knowledge is required. |
+| Monumental         | 40                 | A monumental craft requires tools that simply don't exist, anywhere. You will have to create them, yourself. The resources you need will require substantial effort to track down. Perhaps you'll even be the first discover their existence. The work can be done only in a highly specialized environment, to minimize the risk of delicate machinery getting dusty, aerosols mixing or vibrations in the earth agitating the wrong powder and so forth. There may not be anyone alive, nor any writing detailing the work. You will have to be the first to (re-)discover the knowledge required. |
 
 #### Workload to Time Increments
 Workload is the result of processes that naturally take a long time, the difficulty in processing materials and the amount of work that has to be done. A very high workload will take very long to complete, while a low workload may be finished in a matter of minutes.
@@ -1776,7 +1788,7 @@ Project Events are random events that may occur during long-lasting, significant
 | 6    | A NPC arrives, offering help, but is also in need of help, themself. They are willing to add `+10` progress the next time progress is added and after that, the PC is required to come help. |
 | 7    | An anonymous piece of writing found its way into the PC's belongings. It offers solid advice on the Project, instantly boosting the Project by `+15` points of progress. But who could the mysterious benefactor be? And why? |
 | 8    | Suddenly, monsters or pests surprise the PC, assaulting them! If not dispatched quickly, they will damage the Project, causing a loss of half the current progress! |
-| 9    | The PC is overcome with a burst of inspiration! They instantly gain `+15` points of progress! This causes them to work feverishly, neglecting their own well-being. They start the next scenario with `+2` [Exhaustion](#exhaustion)! |
+| 9    | The PC is overcome with a burst of inspiration! They instantly gain `+15` points of progress! This causes them to work feverishly, neglecting their own well-being. They start the next scenario with `+1` [Strain](#stamina--strain)! |
 | 10   | A group of NPCs appear and demand the Project be stopped! Out of superstition or fear, they don't want the PC to succeed. Can they be pacified? |
 | 11   | A NPC who the PC helped in the past appears, offering to help on the Project. Surprisingly, they know exactly what to do, boosting the Project by `+10` points of progress. |
 | 12   | After so much time on the Project, the PC digs themself into a hole, mentally. They can no longer make sense of their own work and someone else has to help them regain their footing in the Project. The helper needs to make the next Project Skill Test. |
@@ -1867,9 +1879,9 @@ Under normal circumstances, a Character (an average human) can move up to `4` Sq
 
 On **Difficult Terrain**, the distance moved per AP is half that, at `2` Squares. Difficult Terrain is any space that slows movement, but does not prevent it outright. Examples would be waist-high water, a surface of glue or a slowing force field. 
 
-It is also possible to **Sprint**, increasing the distance one can move per AP spent, at the cost of `1` point of [Exhaustion](#exhaustion) for every AP spent Sprinting. The movement distance is increased by a Character's [Sprinting Speed](#sprinting-speed-sprint), per AP. 
+It is also possible to **Sprint**, increasing the distance one can move per AP spent, at the cost of `-1` point of [Stamina](#stamina--strain) for every AP spent Sprinting. The movement distance is increased by a Character's [Sprinting Speed](#sprinting-speed-sprint), per AP. 
 
-> A Character with a Sprinting Speed of `3` can increase their total movement distance to `7`, at the cost of `1` AP and `1` point of Exhaustion. 
+> A Character with a Sprinting Speed of `3` can increase their total movement distance to `7` Squares, at the cost of `-1` AP and `-1` point of Stamina. 
 
 ### Forced Movement
 There are abilities and circumstances that can force a Character to be moved against their will. When this happens, the Character in question does not spend any [AP](#action-points-ap) on the movement, as they didn't initiate it. The distance they are moved is reduced by an amount equal to their [Stability](#stability-stabil). 
@@ -1900,7 +1912,7 @@ When a Character falls more than `3` Squares and impacts with the ground, then t
 ### Flee Combat
 When [Combat](#combat) is a decidedly bad idea, one can try to flee from it. A fleeing Character can no longer perform any *hostile actions*. That means, they can no longer attack or hinder any other Characters until the end of [Combat](#combat). 
 
-In turn for giving up their offensive capacity, they gain their [Sprinting Speed](#sprinting-speed-sprint) per [AP](#action-points-ap) spent, **at no Exhaustion cost**. Rules for [Difficult Terrain](#combat-movement) and the Exhaustion cost for sprinting still apply. 
+In turn for giving up their offensive capacity, they gain their [Sprinting Speed](#sprinting-speed-sprint) per [AP](#action-points-ap) spent, **at no Stamina cost**. Rules for [Difficult Terrain](#combat-movement) still apply. 
 
 ### Swap-Out
 It is possible to swap positions with an adjacent ally, without provoking an [Opportunity Attack](#opportunity-attacks) for either Character. 
@@ -2052,7 +2064,7 @@ The Momentum mechanics can make PCs feel very heroic! They allow them to finish 
 | Tactical Repositioning <br><img src="../../img/heroic-act_tactical-repositioning.svg" width="64px" height="64px"></img>| All PCs may immediately re-position, moving up to `10` Squares, without triggering any [Opportunity Attacks](#opportunity-attacks). Decreases Momentum by `-10`. | All PCs may immediately re-position, moving up to `10` Squares, without triggering any [Opportunity Attacks](#opportunity-attacks). However, up to three foes immediately gain `+1`, or one foe `+3` [AP](#action-points-ap). Increases Momentum by `+5`. | Desperate Repositioning <br><img src="../../img/desperate-measure_desperate-repositioning.svg" width="64px" height="64px"></img> |
 | Unyielding <br><img src="../../img/heroic-act_unyielding.svg" width="64px" height="64px"></img>| A PC of choice gets `+1` [Compensation Point](#compensation-points) for all Defense Tests and may freely [Counter-Attack](#counter-attack) all attacks directed against them or an adjacent ally, for `1` Round. Decreases Momentum by `-10`. | Until the end of combat, a chosen PC may freely [Counter-Attack](#counter-attack) all attacks directed against them with `+1` [Compensation Point] or an adjacent ally. However, they suffer `+1` Ob for all Attack Tests. Increases Momentum by `+10`. | Cornered <br><img src="../../img/desperate-measure_cornered.svg" width="64px" height="64px"></img> |
 | Get Off Me!             | All foes adjacent to a chosen PC are pushed back `2` Squares. That PC may then move up to `4` Squares, without triggering [Opportunity Attacks](#opportunity-attacks). Decreases Momentum by `-10`. | A chosen PC switches places with an adjacent foe, and may then move up to `4` Squares. Only the foe they switched with may react and launch an immediate free [Counter-Attack](#counter-attack), with `+1` [Compensation Point](#compensation-points), but cannot prevent the PC from moving. Increases Momentum by `+10`. | Outta My Way! |
-| Toughened Up            | All PCs gain up to `10` [Temporary HP](#temporary-health-points), limited to them having at most this amount. Decreases Momentum by `-15`. | All PCs gain `20` [Temporary HP](#temporary-health-points), limited to them having at most this amount, but also suffer `+3` [Exhaustion](#exhaustion). Increases Momentum by `+10`. | Scarred Up |
+| Toughened Up            | All PCs gain up to `10` [Temporary HP](#temporary-health-points), limited to them having at most this amount. Decreases Momentum by `-15`. | All PCs gain `20` [Temporary HP](#temporary-health-points), limited to them having at most this amount, but also suffer `-3` [Stamina](#stamina--strain). Increases Momentum by `+10`. | Scarred Up |
 
 ## Throwing
 Throwing things is a special type of Action, that follows the rules outlined below. 
@@ -2127,10 +2139,10 @@ The following table suggests how long it might take to traverse a particular Squ
 Under normal circumstances, Characters may spend at most `12` hours traveling (on foot) before they need a [Full Rest](#resting) to carry on. Whether these hours are spent consecutively or with _short_ breaks in between, makes no difference. 
 
 ## Forced March
-It is possible to push on, past the `12` hour threshold, for another `12` hours. After that, all Characters become [Exhausted](#exhausted), which can only be cleared through a [Full Rest](#resting). 
+It is possible to push on, past the `12` hour threshold, for another `12` hours, at the cost of `+2` [Strain](#stamina--strain) to all Characters on Forced March. 
 
 ## Enduring the Journey
-For every increment of `6` hours of travel, Characters will need to consume one [ration](#general-assets). If they don't, they suffer `+1` [Exhaustion](#exhaustion) which can only be cleared with a [Full Rest](#resting). 
+For every increment of `6` hours of travel, Characters will need to consume one [ration](#general-assets). If they don't, they suffer `+1` [Strain](#stamina--strain). 
 
 ## Foraging & Hunting
 It is possible to hunt/forage for food while traveling, without losing time. You may make Tests of an approproately chosen Skill, with an Ob appropriate to the current Square of terrain. If successful, the number of Hits you achieve equals the number of [rations](#general-assets) you gain. 
@@ -2146,51 +2158,6 @@ In order to appraise the value, weight, size or other properties of something, a
 The Ob depends on circumstance. How much time is available to appraise? How unusual or uncommon is the thing being appraised? How easy is it to appraise such things? 
 
 Of course, a trader may be experienced in the goods and wares they peddle. [Mercantilism](#mercantilism-awarwit) may be used as a catch-all for appraisal, but at a penalty of `+1` Ob, as a pure trader will never be able to ascertain the quality as well as a craftsperson could.
-
-## Persuasion, Intimidation & Deception
-There are no dedicated "social interaction" [Skills](#skills) for the purposes of persuading people. Instead, Characters *choose* one of their known Skills relevant to the topic they wish to change another Character's view about. 
-
-Unlike violent actions (= [Combat](#combat)), where outcomes are clear and binary results (you hit or you miss), social maneuvering is much more complex and varied. Generally, you have three methods available: **persuasion**, **deception** and **intimidation**. Outside influences factor into the success of each of these methods. 
-
-When deciding on whether dice rolls are needed, keep in mind that a roll is only necessary, if the outcome is unclear. Only if the NPC has no clear reason to obey or believe as desired, should a roll be necessary. 
-
-That is the difference to combat. Combat cannot be played out in reality and will always have to be an abstraction, which only the dice can resolve. But social interaction *can* be played out at the table. After all, the medium for social interaction is communication, which is what you're already doing, just by playing the game. 
-
-Despite that, sometimes you may not clearly know how a NPC will react. That is when dice rolls may help to resolve the situation. 
-
-To ***persuade*** someone to see your point, you choose a Known Skill pertaining to the subject and make a roll. If you have no Known Skill to roll with, you may fall back to rolling your [Wit](#wit-wit) or [Awareness](#awareness-awar). The other Character may [Oppose](#opposed-test) your roll with the same Skill or Attribute.  
-
-> For example, to convince another Character that their methods for treating an ailment are incorrect, you might try to *persuade* with an opposed Medicine Test. 
-> 
-> If you achieve more Hits than them, they should understand you might be correct in your assessment and begin to doubt their own opinion. But if you don't, then they may just as well stick with their beliefs. 
-
-Given the circumstances and what you're trying to achieve, the GM may determine that your Ob will be greater or less. Does the other Character know and trust you? Do you have knowledge they do not? Do you have evidence? These and other such questions should affect the difficulty in convincing someone. 
-
-> For example, convincing a guard that accepting a bribe to let you pass may be in their own best interest, because you're about to prevent a plot that could lead to war, may be a lot harder when the guard has no reason to believe you. 
-> 
-> In that case, no matter how well you present your argument, if the guard has absolutely never heard or seen any evidence prior to your visit, then convincing them should be much harder than if the guard already had their suspicions about a secret plot. 
-
-For the purposes of convincing someone, you needn't always speak truthfully. You may ***deceive*** another Character to the same effect as speaking the truth - at least for as long as the lie is not discovered. For this method, the [Acting](#acting-awarwit) Skill may be invaluable. But you could also lie about a subject that you know well. You could invent facts, based on facts that your Character and the other Character may have. 
-
-And lastly, ***intimidation*** is another method to try and get what you want, by forcing another Character to obey. Mechanically, this is no different from persuasion. Pick a Skill and explain how you use it. After all, intimidation isn't always just the threat of violence. Blackmailing also falls into this category. 
-
-Just as with persuasion, how much power you can exert over another Character also depends on circumstance. Can you procure incriminating evidence to make them believe you mean business? Perhaps you can threaten their family, but why should they believe you have the means to follow up on your threats? A GM may and should adjust the Ob as they see fit. 
-
-Always be mindful about when to use which of the three methods. 
-
-* **Persuasion** is the most difficult method and perhaps the slowest, but doesn't harm trust. In fact, in can even help build trust. This is the healthy way to build and maintain relationships.
-* **Deception**, while not easy, may be easier and quicker. Most people don't take kindly to deception. This method is very harmful to trust, but only if the deception is discovered. 
-* **Intimidation** is perhaps the easiest and quickest way to progress, but is also sure to produce **enemies**. 
-
-### Are they lying?
-Of course, all of this begs the question - how to know if another Character is lying? "Does my Character believe them?" Barring any evidence or knowledge to determine the answer, Characters can only determine whether they believe the *act* of the other Character. Does it *seem* like they're speaking the truth?
-
-At that point an [Opposed Test](#opposed-test) may be made. The Defender is the Character being scrutinized, who Tests [Acting](#acting-awarwit) versus the Attacker's [Observation](#observation-awarawar). For this procedure it does not matter, whether the Defender was *actually* lying. Someone speaking the truth is Tested the same way as someone speaking a lie. That is because the Attacker can only go by whether it *looks*, *sounds* or *feels* like they're being deceived. 
-
-* If the Attacker wins...
-  * ...and the other Character **was** lying, they are given a hint that the other Character doesn't seem trustworthy. They are **not** told how exactly it was a lie, only that it *seems* that something is off about *what* was said or *how* it was said. 
-  * ...and the other Character **wasn't** lying, they are told the other Character seems trustworthy. 
-* If the Attacker loses, then they're told the other Character seems trustworthy, regardless of whether they were lying. 
 
 # Appendix
 The appendix contains important and less important lists, for reference only when needed. 
@@ -2376,7 +2343,7 @@ It is possible for a Character to receive permanent boons or penalties during Ch
 ### Determine Derived Attributes
 Determine your Character's [maximum HP](#health-points-hp), by referring to the [Toughness](#toughness-tough) attribute. 
 
-Determine your Character's [Exhaustion Limit](#exhaustion), by referring to the [Toughness](#toughness-tough) attribute. 
+Determine your Character's [maximum Stamina](#stamina--strain), by referring to the [Toughness](#toughness-tough) attribute. 
 
 Determine your Character's [Carrying Capacity](#carrying-capacity). Refer to the [Strength](#strength-str) attribute to do so. Once you have this number, you know how much [Luggage](#luggage) your Character can carry around. 
 
@@ -2395,12 +2362,12 @@ In the following table, `Q` refers to the quality grade of the Asset. See also t
 
 When looking up products for crafting, the tools and materials required for the craft are not noted here. The materials and resources available to you, and which exist in your world simply cannot be predicted here. Instead, think creatively - what *could* you use to make the thing? What do you have available? Find a creative way to use what you have, to make what you want and ask your GM for the final go-ahead. However, the [Progress Increment (PI)](#progressing-a-project) and [Time Increment (TI)](#progressing-a-project) are noted. Particularly rare, valuable and suitable materials may act as [Project Boosters](#project-boosters). Some Assets may harder or easier to make at higher qualities, as noted by the *Crafting Ob*, which, if noted, is the modifier applied to *every* [Project Skill Test](#progressing-a-project).
 
-| Name                   | Bulk | Max. Stack Size | Description                                                              | PI  | TI         | Crafting Ob |
-| ---------------------- | ---- | --------------- | ------------------------------------------------------------------------ | --- | ---------- | ----------- |
-| Antidote               | 1    | 4               | This unassuming liquid can make the difference between life and death. Removes `Q` points of [Poisoned](#poisoned). If no points remain, instead immediately [Treats](#injury-states--treatment) an [Injury](#injury) caused by [Poison](#damage-types) | 20 | 1 Hour |  |
-| Medical Supplies       | 1    | 5               | A small satchel of clean bandages, thread and needle for suturing, a clean and sharp knife, a splint and straps for binding. Is used in the [Treatment](#injury-states--treatment) of various [Injuries](#injury). | 20 | 10 Minutes |  |
-| Objet d'art            | 1    | 1               | A painting, sculpture or other art piece. | 20 | 10 Minutes |  |
-| Ration                 | 1    | 10              | A ration of preserved food and drink, enough for a whole day. | 10 | 30 Minutes |  |
+| Name                   | Bulk | Max. Stack Size | PI  | TI         | Crafting Ob | Description                                                              |
+| ---------------------- | ---- | --------------- | --- | ---------- | ----------- | ------------------------------------------------------------------------ |
+| Antidote               | 1    | 4               | 20  | 10 Minutes |             | This unassuming liquid can make the difference between life and death. Removes `Q` points of [Poisoned](#poisoned). If no points remain, instead immediately [Treats](#injury-states--treatment) an [Injury](#injury) caused by [Poison](#damage-types) |
+| Medical Supplies       | 1    | 5               | 20  | 10 Minutes |             | A small satchel of clean bandages, thread and needle for suturing, a clean and sharp knife, a splint and straps for binding. Is used in the [Treatment](#injury-states--treatment) of various [Injuries](#injury). |
+| Objet d'art            | 1    | 1               | 20  | 10 Minutes |             | A painting, sculpture or other art piece. |
+| Ration                 | 1    | 10              | 10  | 30 Minutes |             | A ration of preserved food and drink, enough for a whole day. |
 
 ### Weapon Traits
 Weapon type Assets can have the following traits:
@@ -2468,7 +2435,7 @@ Performing acrobatic feats, such as jumping, tumbling and climbing, without inju
 | Level | Name                 | AP | Ob      | Description        |
 | ----- | -------------------- | -- | ------- | ------------------ |
 | 1     | Deft Evasion         | /  | /       | **Passive**: While not wearing any [Armor](#armor) and not wielding a shield of Bulk `2` or more, gain `+1` [Compensation Point](#compensation-points) to any [Defense Test](#defending) made using this Skill and increase your [Stability](#stability-stabil) by `+1`! |
-| 2     | Wind Out Of It       | 2  | 2       | When hit by an attack, suffer `+1` [Exhaustion](#exhaustion), wind out of the hit and... <br> `≤ 1` Hit: suffer `3` points of damage less. <br> `= 2` Hits: suffer `5` points of damage less <br> `≥ 3` Hits: suffer `8 or half (RU)` damage less, picking whichever number is higher. |
+| 2     | Wind Out Of It       | 2  | 2       | When hit by an attack, lose `-1` [Stamina](#stamina--strain), wind out of the hit and... <br> `≤ 1` Hit: suffer `3` points of damage less. <br> `= 2` Hits: suffer `5` points of damage less <br> `≥ 3` Hits: suffer `8 or half (RU)` damage less, picking whichever number is higher. |
 
 #### Berserking (Tough/Tough)
 Whether as a well-honed skill and way of life, or through a disappointing childhood of misery and pain, Berserking is a Skill for fighting angrily and recklessly. It allows a fighter to keep fighting at surprising strength, even when wounded. 
@@ -2476,15 +2443,15 @@ Whether as a well-honed skill and way of life, or through a disappointing childh
 | Level | Name                 | AP | Ob      | Description        |
 | ----- | -------------------- | -- | ------- | ------------------ |
 | 0     | Reckless Assault     | 1  | /       | Gain `+1` [Compensation Point](#compensation-points) for your next attack. Suffer a `-1D` penalty to all [Defense Tests](#defending) until the start of your next Turn. |
-| 1     | Grit Your Teeth      | 0  | /       | **Reaction**: Upon suffering an [Injury](#injury), gain an *additional* [Grit Point](#grit-points), but at the cost of `+1` point of [Exhaustion](#exhaustion)! |
-| 1     | Hit me? Hit you!     | 1  | /       | **Reaction**: Upon suffering damage, immediately hit your attacker back, dealing `Str` Bludgeoning damage to them. Suffer `+1` point of [Exhaustion](#exhaustion)! |
-| 1     | The Blood Quickens!  | 1  | /       | Reduce your [Exhaustion](#exhaustion) by `1` for every point in [Bleeding](#bleeding) you currently have. |
-| 2     | Pain is Strength     | 2  | Opposed | Perform an attack against a ST. You suffer `+1` [Exhaustion](#exhaustion). For every active [Injury](#injury) you currently have, deal <br> `≤ 1` Hit: `2` Bludgeoning <br> `= 2` Hits: `4` Bludgeoning <br> `≥ 3` Hits: `6` Bludgeoning |
+| 1     | Grit Your Teeth      | /  | /       | **Reaction**: Upon suffering an [Injury](#injury), gain an *additional* [Grit Point](#grit-points), but at the cost of `+1` [Strain](#stamina--strain)! |
+| 1     | Hit me? Hit you!     | 1  | /       | **Reaction**: Upon suffering damage, immediately hit your attacker back, dealing `Str` Bludgeoning damage to them. Lose `-1` [Stamina](#stamina--strain)! |
+| 1     | The Blood Quickens!  | 1  | /       | Increase your [Stamina](#stamina--strain) by `+1` for every point in [Bleeding](#bleeding) you currently have, but also increase your Bleeding by `+1`! |
+| 2     | Pain is Strength     | 2  | /       | **Reaction** Upon successfully attacking a foe, for every active [Injury](#injury) you currently have, deal <br> `≤ 1` Hit: `2` Bludgeoning <br> `= 2` Hits: `4` Bludgeoning <br> `≥ 3` Hits: `6` Bludgeoning <br> as additional damage. You lose `-1` [Stamina](#stamina--strain). |
 | 3     | Injury Collector     | 0  | 2       | **Reaction**: Upon suffering an [Injury](#injury), suffer an **additional** Injury and its Grit Point, and immediately set both Injuries to Treated. |
 
 | Level | <img src="../../img/heroic-acts.svg" width="64px" height="64px"></img> | Heroic Act Description | Desperate Measure Description | <img src="../../img/desperate-measures.svg" width="64px" height="64px"></img> |
 | ----- | ----------------------- | ---------------------- | ----------------------------- | --------------------------- |
-| 4     | I LOVE PAIN             | **You** gain `+1` [Grit Point](#grit-points) for every [Injury](#injury) **you** currently have. Decreases Momentum by `-15`. | **You** and one chosen PC gain `+1` [Grit Point](#grit-points) for every [Injury](#injury) you currently have. You both suffer `1D8` points of Pure damage. Increases Momentum by `+15`. | SHARE THE PAIN |
+| 4     | I LOVE PAIN             | **You** gain `+1` [Grit Point](#grit-points) for every [Injury](#injury) **you** currently have. Decreases Momentum by `-15`. | **You** and one chosen PC gain `+1` [Grit Point](#grit-points) for every [Injury](#injury) **you** currently have. You both suffer `+1` [Strain](#stamina--strain). Increases Momentum by `+15`. | SHARE THE PAIN |
 
 #### Driving (Awar/Wit)
 The ability to drive a (motorized) vehicle. 
@@ -2542,12 +2509,12 @@ For any ally next to you, who's also using a shield, you both gain `+1D` on your
 
 | Level | <img src="../../img/heroic-acts.svg" width="64px" height="64px"></img> | Heroic Act Description | Desperate Measure Description | <img src="../../img/desperate-measures.svg" width="64px" height="64px"></img> |
 | ----- | ----------------------- | ---------------------- | ----------------------------- | --------------------------- |
-| 4     | Launch! | An adjacent ally jumps onto your shield, as you brace yourself and then, in a fluid motion, launch them over you. This way, your ally may travel up to `N * 1` Squares, where *N* is your [Strength](#strength-str), without provoking [Attacks of Opportunity](#opportunity-attacks). If they land on or near a foe, they may make an immediate free attack against that foe. Decreases Momentum by `-15`. | An adjacent ally jumps onto your shield, as you brace yourself and then, with all your might, in a fluid motion, launch them over you. This way, your ally may travel up to `N * 2`, where *N* is your [Strength](#strength-str), without provoking [Attacks of Opportunity](#opportunity-attacks). If they land on or near a foe, they may make an immediate free attack against that foe, with `+1` [Compensation Point](#compensation-points). *However*, **you** suffer `+3` [Exhaustion](#exhaustion). Increases Momentum by `+15`. | Strained Launch |
+| 4     | Launch! | An adjacent ally jumps onto your shield, as you brace yourself and then, in a fluid motion, launch them over you. This way, your ally may travel up to `N * 1` Squares, where *N* is your [Strength](#strength-str), without provoking [Attacks of Opportunity](#opportunity-attacks). If they land on or near a foe, they may make an immediate free attack against that foe. Decreases Momentum by `-15`. | An adjacent ally jumps onto your shield, as you brace yourself and then, with all your might, in a fluid motion, launch them over you. This way, your ally may travel up to `N * 2`, where *N* is your [Strength](#strength-str), without provoking [Attacks of Opportunity](#opportunity-attacks). If they land on or near a foe, they may make an immediate free attack against that foe, with `+1` [Compensation Point](#compensation-points). *However*, **you** suffer `+1` [Strain](#stamina--strain). Increases Momentum by `+15`. | Strained Launch |
 
 #### Trapping (Awar/Wit)
 Setting traps in places where they're difficult to detect and the ability to disarm them. Used to set traps such as bear traps, pits filled with spikes, land mines and so on.
 
-When setting a trap, roll an Ob `0` Test. The number of Hits represent the quality Level of the trap, which determines how hard it is to detect and disarm. `0` Hits means the trap isn't at all concealed. You may also place traps during combat, and as long as some foe can see you, your trap will never be concealed. 
+When setting a trap, roll an Ob `0` Test. The number of Hits results in the Quality Level of the trap, which determines how hard it is to detect and disarm. `0` Hits means the trap isn't at all concealed. You may also place traps during combat, and as long as some foe can see you, your trap will never be concealed, in which case you also don't need to roll. 
 
 #### Throwing (Agi/Str)
 General expertise at throwing things. This includes weapons as well as non-weapon objects. 
@@ -2596,12 +2563,12 @@ Speaking commands with booming authority.
 
 | Level | Name                   | AP | Ob      | Description        |
 | ----- | ---------------------- | -- | ------- | ------------------ |
-| 0     | Focus!                 | 1  | 1       | <br> `≤ 1` Hit: Grant another Character `+1D` for their next Test. <br> `= 2` Hits: Grant another Character `+2D` for their next Test. <br> `≥ 3` Hits: Grant another Character `+1` Compensation Point for their next Test. <br> Causes `+1` [Exhaustion](#exhaustion) to self. |
+| 0     | Focus!                 | 1  | 1       | <br> `≤ 1` Hit: Grant another Character `+1D` for their next Test. <br> `= 2` Hits: Grant another Character `+2D` for their next Test. <br> `≥ 3` Hits: Grant another Character `+1` Compensation Point for their next Test. <br> Suffer `-1` [Stamina](#stamina--strain). |
 | 0     | Shake It Off!          | 2  | 2       | Remove another Character's [Exhausted](#exhausted) or [Terrified](#terrified) [Condition](#condition). |
 | 0     | Taunt                  | 2  | Opposed by [Self-Control](#self-control-toughtough) | <br> `≤ 1` Hit: Force a designated target to attack *you* on their next Turn. <br> `= 2` Hits: Force a designated target to attack *you* on their next Turn, at Ob `+1`. <br> `≥ 3` Hits: Force up to two designated targets to attack *you* on their next Turn, at Ob `+1`. |
 | 1     | Hit That One!          | 1  |         | [Mark](#marked) a ST of choice. Moving your Mark to a different target, clears it from the previous one. |
 | 1     | Back Off, Fool!        | 1  | Opposed by [Toughness](#toughness-tough) | <br> `≤ 1` Hit: Force a designated target to back away from you for `1` Square. <br> `= 2` Hits: Force a designated target to back away from you for `2` Squares. <br> `≥ 3` Hits: Force up to two designated targets to back away from you for `2` Squares. |
-| 2     | Deep Lungs             |    | 2       | Once per Round, immediately grant yourself `+1` [AP](#action-points-ap), but suffer `+1` [Exhaustion](#exhaustion). |
+| 2     | Deep Lungs             |    | 2       | Once per Round, immediately grant yourself `+1` [AP](#action-points-ap), but suffer `-1` [Stamina](#stamina--strain). |
 
 ##### Commanding Specialization - Taskmaster
 Ensuring others perform to expectation - regardless of whether they want to.
@@ -2617,7 +2584,7 @@ Requirement: Commanding Level `4`; A position of authority.
 
 | Level | <img src="../../img/heroic-acts.svg" width="64px" height="64px"></img> | Heroic Act Description | Desperate Measure Description | <img src="../../img/desperate-measures.svg" width="64px" height="64px"></img> |
 | ----- | ----------------------- | ---------------------- | ----------------------------- | --------------------------- |
-| 4     | You Die When I Say! | An ally of choice is marked. When their HP are about to be reduced to `0`, they are instead reduced to `1`. Your ally does not die, but now suffers the [Exhausted](#exhausted) [Condition](#condition)! Decreases Momentum by `-35`. | An ally of choice is marked. When their HP are about to be reduced to `0`, they are instead set to your own current HP, plus `10` [Temporary HP](#temporary-health-points) and yours are reduced to `1`. Increases Momentum by `+10`. | I Take The Fall! |
+| 4     | You Die When I Say! | An ally of choice is marked. When their HP are about to be reduced to `0`, they are instead reduced to `1`. Your ally does not die, but suffers `+5` [Strain](#stamina--strain)! Decreases Momentum by `-35`. | An ally of choice is marked. When their HP are about to be reduced to `0`, they are instead set to your own current HP, plus `10` [Temporary HP](#temporary-health-points) and yours are reduced to `1`. You suffer `+3` [Strain](#stamina--strain). Increases Momentum by `+10`. | I Take The Fall! |
 
 #### Entertainment (Agi/Wit)
 The ability to juggle, perform tricks with cards, to perform "magic" tricks and such - anything requiring nimble fingers and flashy presentation, for the entertainment of others. 
@@ -2629,12 +2596,23 @@ See [Trade](#trade) on how to use this Skill on a more abstract level.
 
 Can also be used as a sort of catch-all Skill for [Appraisal](#appraisal), but at a penalty of `+1` Ob. 
 
+#### Persuasion (Wit/Wit)
+Cunning use of words to influence another Character's way of thinking.
+
+Whether you speak truth or falsehood makes no difference to your audience. You want them to believe your words either way - and mechanically speaking, this way your intent isn't telegraphed. Furthermore, you are encouraged to [Fork](#skill-forking) other Skills into your Persuasion Tests that may be related to the topic of conversation. 
+
+Of course, this begs the question - how to know if another Character *is* lying? Barring any evidence or knowledge to the contrary, Characters can only determine whether they believe the *act* of the other Character. Does it *seem* like they're speaking the truth? You may Oppose their Persuasion attempt with [Observation](#observation-awarawar). But even if you succeed, your GM should not outright tell you whether you *are* being deceived. Instead, they should give you hints - faults in the *act* of the other Character - a nervous twitch, a strange pitch in the voice, avoiding eye-contact, visible sweat and similar tells. And even then, *you* will have to figure out whether you are being deceived. 
+
+If you are trying to convince someone else to act or behave a certain way, they may Oppose this with [Self-Control](#self-control-toughtough). You may also try to intimidate someone else to the same effect. Whether you succeed should largely depend on whether circumstance favors your side. You may also intimidate someone by blackmailing them. But whether you succeed depends on whether you can prove your threats aren't empty. 
+
+Successfully persuading someone should rarely yield an absolute result. Even if your attempt has scored many Hits and your words are masterfully spoken, another Character may still remain sceptical. They may believe your words, but you won't change their entire way of thinking *just like that*. Like real people in the real world, the other Character may ponder your words for a while before agreeing or even disagreeing. But they are likely open to further conversation.
+
 #### Riding (Agi/Awar)
 Riding and controling a mount. In and outside of [Combat](#combat), a rider will inherit the [Speed](#combat-movement) of the mount they're on. 
 
 | Level | Name                 | AP | Ob     | Description        |
 | ----- | -------------------- | -- | ------ | ------------------ |
-| 1     | Spur                 | 1  | 1      | Your mount gains `+2` AP. You and your mount suffer `+1` [Exhaustion](#exhaustion). May only be used once per Round. |
+| 1     | Spur                 | 1  | 1      | Your mount gains `+2` AP. You and your mount suffer `+1` [Strain](#stamina--strain). May only be used once per Round. |
 | 3     | Mounted Charge       | 3  | 3      | Perform a mounted charge attack, moving up to `3` AP worth of distance, launch a free attack on a ST along the path and deal an additional... <br> `≤ 1` Hit: `3` points of Bludgeoning damage. <br> `= 2` Hits: `6` points of Bludgeoning damage. <br> `≥ 3` Hits: `10` points of Bludgeoning damage. |
 
 #### Self-Control (Tough/Tough)
@@ -2708,7 +2686,7 @@ The ability to tell flora and fauna apart and to know of their attributes, such 
 
 | Level | <img src="../../img/heroic-acts.svg" width="64px" height="64px"></img> | Heroic Act Description | Desperate Measure Description | <img src="../../img/desperate-measures.svg" width="64px" height="64px"></img> |
 | ----- | ----------------------- | ---------------------- | ----------------------------- | --------------------------- |
-| 3     | Pack Tactics | All PCs may immediately and freely attack the same, single chosen foe. If the foe is struck down, all PCs earn `+1` [AP](#action-points-ap). Decreases Momentum by `-30`. | All *other* PCs may immediately and freely attack the same, single chosen foe. If the foe is struck down, all *other* PCs earn `+2` [AP](#action-points-ap). *However*, if the foe survives, then all *other* PCs suffer `+1` [Exhaustion](#exhaustion) and until the end of combat, **you** suffer `+1` Ob to attacks against that foe. Increases Momentum by `+20`. | Hunter's Remorse |
+| 3     | Pack Tactics | All PCs may immediately and freely attack the same, single chosen foe. If the foe is struck down, all PCs earn `+1` [AP](#action-points-ap). Decreases Momentum by `-30`. | All *other* PCs may immediately and freely attack the same, single chosen foe. If the foe is struck down, all *other* PCs earn `+2` [AP](#action-points-ap). *However*, if the foe survives, then all *other* PCs suffer `+1` [Strain](#stamina--strain) and until the end of combat, **you** suffer `+1` Ob to attacks against that foe. Increases Momentum by `+20`. | Hunter's Remorse |
 
 #### Mysticism and Religion (Wit/Wit)
 Knowledge about religions, legends and myths. May be used to recall knowledge about mythical creatures, artifacts and locations, as well as understand the local religion more easily. 
@@ -2751,7 +2729,7 @@ This governs the understanding of what makes defensive structures effective and 
 | 1     | Killzone Stratagem     | 1  | 2      | If you have placed a Key Zone, turn it into a Killzone, replacing all its effects. All enemies inside the zone, who are damaged immediately die if their [HP](#health-points-hp) are brought to `2 * your Toughness + Hits` or less. | / |
 | 1     | Trenchline Stratagem   | 1  | 2      | If you have placed a Key Zone, turn it into a Trenchline Zone, replacing all its effects. All [AoE](#area-of-effect-aoe) damage that applies to you and/or your allies is reduced by `Hits * 3`. Also, your and your allies' [Stability](#stability-stabil) is increased by `+2` while in the zone. | / |
 | 2     | Fear Stratagem         | 1  | 1      | If you have placed a Key Zone, turn it into a Zone of Fear, replacing all its effects. All enemies inside this zone, who suffer damage must succeed a [Self-Control](#self-control-toughtough) Test at Ob equal to your number of Hits, or else become [Terrified](#terrified) of you or your allies inside the zone. | / |
-| 2     | Recovery Stratagem     | 1  | 2      | If you have placed a Key Zone, turn it into a Recovery Zone, replacing all its effects. You and all allies inside this zone reduce their [Exhaustion](#exhaustion) by `-1` and regain your Hits as [HP](#health-points-hp), at the start of the Turn. | / |
+| 2     | Recovery Stratagem     | 1  | 2      | If you have placed a Key Zone, turn it into a Recovery Zone, replacing all its effects. You and all allies inside this zone regain `+1` [Stamina](#stamina--strain) and your Hits as [HP](#health-points-hp), at the start of the Turn. | / |
 
 | Level | <img src="../../img/heroic-acts.svg" width="64px" height="64px"></img> | Heroic Act Description | Desperate Measure Description | <img src="../../img/desperate-measures.svg" width="64px" height="64px"></img> |
 | ----- | ----------------------- | ---------------------- | ----------------------------- | --------------------------- |
@@ -2771,9 +2749,9 @@ The ability to cook hearty and sweet meals that can strengthen and invigorate.
 
 [Crafting](#crafting--research-projects):
 * [Ration](#general-assets) (5x)
-* Meal: PI: `5`, TI: `10` Minutes
-  * A meal that you have to eat while it's still fresh. The meal does **not** go in your inventory. This is **not** the same as a ration! 
-  * Restores `Q HP` and reduces Exhaustion by `Q`.
+* Special Meal: PI: `5`, TI: `10` Minutes, Requires some *special* ingredients, consult your GM
+  * A special meal that you have to eat while it's still fresh. The meal does **not** go in your inventory - this is **not** the same as a ration! 
+  * Restores `Q HP` and `Q` Stamina.
   * For every `Q` past `1`, the meal may confer certain boons, for `Q * 2` hours. Each of the following boons can be picked only once:
     * Grant `QD4` [Temporary HP](#temporary-health-points). 
     * Increase [Base Initiative](#base-initiative-bi) by `Q`. 
@@ -2784,7 +2762,7 @@ The boons from meals do not stack. Eating a second meal will have it override al
 
 | Level | <img src="../../img/heroic-acts.svg" width="64px" height="64px"></img> | Heroic Act Description | Desperate Measure Description | <img src="../../img/desperate-measures.svg" width="64px" height="64px"></img> |
 | ----- | ----------------------- | ---------------------- | ----------------------------- | --------------------------- |
-| 4     | Spiked Your Food        | All *other* PCs reduce their [Exhaustion](#exhaustion) by `-2`. Decreases Momentum by `-10`. | All *other* PCs reduce their [Exhaustion](#exhaustion) by `-5` and they gain `+5` [Temporary HP](#temporary-health-points), but also suffer `+1` [Poisoned](#poisoned). Increases Momentum by `+15`. | Spiked Your Food A LOT |
+| 4     | Spiked Your Food        | All *other* PCs regain `+2` [Stamina](#stamina--strain). Decreases Momentum by `-10`. | All *other* PCs regain `+5` [Stamina](#stamina--strain) and gain `+5` [Temporary HP](#temporary-health-points), but also suffer `+1` [Poisoned](#poisoned). Increases Momentum by `+15`. | Spiked Your Food A LOT |
 
 ## List of Character Traits
 The following is a list of all [Character Traits](#character-traits) of the core rules. 
@@ -2796,7 +2774,7 @@ You can throw objects `+4` Squares far and gain `+1` [Compensation Point](#compe
 Gain the ability to effectively use two weapons at the same time. When making successful Attacks with one weapon, add the [Free Strike](#free-strike-fs) value of the other to the damage and gain `+1D` for Defense Tests made with your weapons.
 
 ### Deep Lungs
-Raise your base Exhaustion Limit by `+3`. 
+Raise your maximum Stamina by `+3`. 
 
 ### Gritty
 Whenever you gain Grit Points, gain `+1` more.
@@ -2805,7 +2783,7 @@ Whenever you gain Grit Points, gain `+1` more.
 Gain the ability to re-direct a Forced-Movement onto an adjacent Character, at the cost of `-1` AP.
 
 ### Innate Armor
-Whether naturally tough-skinned or artificially enhanced, your hide proves especially resistant against a chosen [type of damage](#damage-types), with `+6` points of armor. 
+Whether naturally tough-skinned or artificially enhanced, your hide proves especially resistant against a chosen [type of damage](#damage-types), with `+3` points of armor. 
 
 ### Long Arms
 All your Melee Attacks can be used against targets up to two Squares away. You effectively implicitly gain the [Long Reach Weapon Trait](#long-reach) for all Attacks.
@@ -2817,10 +2795,10 @@ Whenever you craft Assets, you produce twice as many.
 Improve your [Base Initiative](#base-initiative-bi) by `+3`
 
 ### Shrugs-A-Lot
-For a Test to Shrug Off a [Condition](#condition), you may add `+1` [Compensation Point](#compensation-points) at the cost of `-1` AP and `+1` [Exhaustion](#exhaustion).
+For a Test to Shrug Off a [Condition](#condition), you may add `+1` [Compensation Point](#compensation-points) at the cost of `-1` AP and `-1` [Stamina](#stamina--strain).
 
 ### Substitutional Talent
-For one of your Skills, change one of its Base Attributes to any other Attribute of your choice.
+For one of your Skills, change its Base Attributes to any other Attributes of your choice.
 
 ### Steadfast
 Increases [Stability](#stability-stabil) by `+2`. 
@@ -2829,13 +2807,13 @@ Increases [Stability](#stability-stabil) by `+2`.
 [Grappling](#grappled) you is `+1` Ob harder and you receive `+1` Compensation Point for Tests to break free from being Grappled.
 
 ### Thorough Artisan
-Every Asset you craft starts at Quality Level `2`, instead of `1`. Ignore the first [Project Skill Test](#progressing-a-project) you fail and treat it as a success, instead.
+Every Asset you craft starts with Quality Level `+1`. Ignore the first [Project Skill Test](#progressing-a-project) you fail and treat it as a success, instead.
 
 ### Tough Skin
-Raise your base HP by `+5`. 
+Raise your base HP by `+10`. 
 
 ### Warcrobat
-Combining agility with deadliness, elevating mere skill at arms to an elegant art. 
+Combining agility with deadliness, elevating mere skill at arms to an elegant art. Grants `+1` [Compensation Point](#compensation-points) to all Acrobatics Tests.
 
 **Prerequisites**: [Acrobatics](#acrobatics-agistr) Level `3+` and a [Weapon Skill](#weapon--weapon-type---attribute-) at Level `3+`. Costs `30` [XP](#experience-points-xp) to unlock. 
 
@@ -2847,6 +2825,9 @@ Adds the following Expertises to [Acrobatics](#acrobatics-agistr):
 | Bounce Back          | /  | /           | **Reaction**: When knocked down immediately get back up, at no [AP](#action-points-ap) cost. You must not be wearing armor. Can only be used once per Round. |
 | Area Evasion         | 1  | 1           | **Reaction**: Suffer... <br> `≤ 1` Hit: `2` fewer points of AoE damage. <br> `= 2` Hits: `4` fewer points of AoE damage. <br> `≥ 3` Hits: `6` fewer points of AoE damage. |
 | Shield Breaker       | /  | /           | **Passive**: You know to exploit the lethargy of shields and can circumvent their defensive bonuses. Against you, shields always count as `+1` degree of [Flanked](#flanking)! |
+
+### Wordsmith
+Your cunning with words is unmatched. You gain `+1` [Compensation Point](#compensation-points) to [Persuasion](#persuasion-witwit) Tests. 
 
 ## List of Titles of Renown
 The following is a list of all [Titles of Renown](#titles-of-renown) of the core rules, a special type of [Character Trait](#character-traits). 
@@ -2890,9 +2871,9 @@ When in [Combat](#combat) with a non-sapient creature you have defeated before, 
 ### Paragon
 > Just yesterday alone, they rescued a kitten from a tree, helped me do my taxes and then bagged a dangerous wanted criminal!
 
-**Prerequisites**: Apprehended a dangerous criminal and stood as a beacon of morality in at least one community that was plagued by the criminal. 
+**Prerequisites**: Apprehended a dangerous criminal and stood as a beacon of morality in at least one community that was plagued by them. 
 
-The local authorities will be much more open to the idea of assisting you in your own endeavours. 
+The local authorities will be much more open to the idea of assisting you in your own endeavours. You gain `+1` [Compensation Point](#compensation-points) to [Persuasion](#persuasion-witwit) Tests, but not when intimidating.
 
 ### Pugilist
 > Ey you! I don' much like de cut o' yo' jib! I think I'mma change dat!
@@ -2906,28 +2887,28 @@ The local authorities will be much more open to the idea of assisting you in you
 
 **Prerequisites**: Successfully complete at least `3` deeply immoral jobs. 
 
-You find it much easier to haggle for better payment conditions with potential contractors and to intimidate those who know your name. 
+You find it much easier to haggle for better payment conditions with potential contractors and to intimidate those who know your name. You gain `+1` [Compensation Point](#compensation-points) to [Persuasion](#persuasion-witwit) Tests, but only when intimidating.
 
 ### Savior Of The People
 > Our eternal gratitude is yours! Oh, if only we could ever properly repay you...
 
 **Prerequisites**: Saved an entire community from certain doom.
 
-The people you saved will gladly help you in all your endeavours, if they can. You will find food and bedding for free and may even be gifted the odd family heirloom as thanks. 
+The people you saved will gladly help you in all your endeavours, if they can. You will find food and bedding for free and may even be gifted the odd family heirloom as thanks. You gain `+1` [Compensation Point](#compensation-points) to [Persuasion](#persuasion-witwit) Tests, but not when intimidating.
 
 ### Wanted
 > Yeah, I got a bounty in over 17 places you've never even heard of. So don't mess with me!
 
 **Prerequisites**: You've become a wanted criminal. 
 
-While you should avoid the authorities, you've some clout with the criminal underworld. You may be approached with job offers of a shady nature, or a way to clear your name. `+1` to [Stealth](#stealth-agiawar).
+While you should avoid the authorities, you've some clout with the criminal underworld. You may be approached with job offers of a shady nature, or a way to clear your name. `+1` to [Stealth](#stealth-agiawar). You gain `+1` [Compensation Point](#compensation-points) to [Persuasion](#persuasion-witwit) Tests, but only when intimidating.
 
 ### Zealot
 > Unfazed by heresy, unbowed by adversity, unfaltering in my resolve - I am the torch in the dark! I think.
 
 **Prerequisites**: Proved your conviction through incredible acts of faith. And eliminated all opposition to the faith you come across. 
 
-Your [Self-Control](#self-control-toughtough) is increased by `+1`, but you suffer `+1` Ob when trying to restrain yourself in the face of enemies of your faith. 
+Your [Self-Control](#self-control-toughtough) is increased by `+1`, but you suffer `+1` Ob when trying to restrain yourself in the face of enemies of your faith. You gain `+1` [Compensation Point](#compensation-points) to [Persuasion](#persuasion-witwit) Tests, but only when intimidating.
 
 ## List of Conditions
 The following is a list of all [Conditions](#condition) of the core rules. 
@@ -3008,9 +2989,9 @@ An **Electrified** Character spasms, uncontrollably. They are force moved in a r
 
 An **Exhausted** Character begins their Turn with `-2` AP and can run at most only half the distance they normally could. [Sprinting](#combat-movement) is impossible. 
 
-While Exhausted, a Character suffering further [Exhaustion](#exhaustion), must succeed a [Self-Control](#self-control-toughtough) [Test](#tests) at Ob equal to their current level of [Exhaustion](#exhaustion), or else fall [Unconscious](#unconscious).
+While Exhausted, a Character losing further [Stamina](#stamina--strain), must succeed a [Self-Control](#self-control-toughtough) [Test](#tests) at Ob equal to `3` plus their current [negative Stamina](#stamina--strain), or else fall [Unconscious](#unconscious).
 
-This Condition can be recovered from by reducing [Exhaustion](#exhaustion) to below the limit. 
+This Condition can be recovered from by clearing [negative Stamina](#stamina--strain). 
 
 ### Frostbitten
 <img src="../../img/health-condition-frostbitten.svg" style="width: 3rem; height: 3rem;"></img>
@@ -3498,7 +3479,7 @@ The Defense characteristic should be reserved for Feeble and Regular creatures o
 The overall power-level of a NPC is **broadly abstracted** as **Challenge Rating (CR)**. It is a tool designed to let you make an *educated guess* about the difficulty a given NPC might pose to the PCs. 
 
 ## NPC Squads
-Squads are groups of NPCs who are all of the same type, who will act as a single unit. They share the same [AP](#action-points-ap), [Exhaustion](#exhaustion) and [HP](#health-points-hp) pools and always act together, as a cohesive group. 
+Squads are groups of NPCs who are all of the same type, who will act as a single unit. They share the same [AP](#action-points-ap), [Stamina](#stamina--strain) and [HP](#health-points-hp) pools and always act together, as a cohesive group. 
 
 Squads are useful in two ways. Firstly, they allow PCs to feel more heroic, by quickly felling many foes before them. Secondly, it allows you to more easily challenge your players tactically, as the higher number of foes lets you control the battlefield easier, but without too much bureaucratic overhead. For example, a Squad with a lot of members should find it easy to surround the PCs, or to block off their access to some strategic location. 
 
@@ -3546,12 +3527,12 @@ When a Squad spends AP to defend, **all** members of the Squad defend. When defe
 Every time a Squad acts, members may be skipped (i. e. they do nothing), if reasonable. For example, in a tight corridor, not all members of an all melee fighter Squad may be able to reach their foes. They cannot reasonably attack and thus, simply do nothing, instead. 
 
 ### Squad Captains
-A Squad may or may not have an assigned Captain. The Squad will follow the Captain and treat it as part of the Squad in terms of [Cohesion](#squad-cohesion). A Squad Captain is treated as a separate entity. It does not share the HP, Exhaustion or AP pools. However, the Captain and their Squad will always act at the same time. For purposes of tracking the initiative ladder, you may use the Captain as the tracker for the Squad. 
+A Squad may or may not have an assigned Captain. The Squad will follow the Captain and treat it as part of the Squad in terms of [Cohesion](#squad-cohesion). A Squad Captain is treated as a separate entity. It does not share the HP, Stamina or AP pools. However, the Captain and their Squad will always act at the same time. For purposes of tracking the initiative ladder, you may use the Captain as the tracker for the Squad. 
 
 A Squad with an attached Captain enjoys one of the following benefits for you to choose from when you create the Squad:
-* **Spurred**: All members of the Squad may move an additional `2` for every AP spent. 
+* **Spurred**: All members of the Squad may move an additional `2` Squares for every AP spent. 
 * **Hardened**: The Squad starts with an additional `10` Temporary HP. These must be depleted before members of the Squad may take damage. 
-* **Drilled**: The Squad's Exhaustion pool has `+4` points.
+* **Drilled**: The Squad's Stamina pool has `+4` points.
 * **Indoctrinated**: The Squad receives `+1` AP at the start of its Turn, but all members lose `-1` Def. 
 
 If the Captain is felled, the Squad loses the bonus immediately. 
@@ -3626,9 +3607,11 @@ PCs have access to [Momentum Actions](strive-core.md#momentum) and earn or lose 
 
 > Given `3` PCs and one ally, you earn `3 (number of PCs) + 1 (number of allies) + 1 (always) = 5` Hostility at the start of every Round. 
 
-Hostility can be spent on powerful special abilities, called [Hostility Actions](#general-hostility-actions), that certain NPCs may have access to. These abilities will allow you to spice up combat, by throwing surprises at or putting pressure on the PCs (and by extension their players). Note that just like Momentum Actions, Hostility Actions can be activated **whenever appropriate**, even when it's currently another creature's Turn. 
+Hostility can be spent on powerful special abilities, called **Hostility Actions**, that certain NPCs may have access to. These abilities will allow you to spice up combat, by throwing surprises at or putting pressure on the PCs (and by extension their players). Note that just like Momentum Actions, Hostility Actions can be activated **whenever appropriate**, even when it's currently another creature's Turn. 
 
 Unlike Momentum, **Hostility is not lost** when a combat encounter ends. It simply keeps building up, until you deem the time is right to spend. Of course, with such great power comes great responsibility, as you may have guessed. There may be times when it might be easy to overwhelm the PCs through the use of Hostility Actions. Just because you could spend the Hostility, doesn't mean you should. After all, your job is to keep combat interesting, not to outright kill the PCs. If the PCs have their hands full already, then there should be no need to spend Hostility. 
+
+Hostility Actions can be tied to a particular type of creature or culture or even to a specific creature itself. However, there are also [General Hostility Actions](#general-hostility-actions) that *any* NPC may use.
 
 As Hostility Actions can really mix up combat, it would be wise to refrain from employing too many creatures with such abilities. These should be reserved for elite and legendary creatures. Although you could also break this expectation and explicitly give a regular or even feeble creature a Hostility Action. But always keep in mind that every creature with a Hostility Action is another level of complexity to the combat encounter. This causes more work for you and more things to keep track of for everyone. Used sparingly and effectively, Hostility Actions can elicit gasps of surprise from your players, ensuring a memorable encounter!
 
@@ -3683,36 +3666,40 @@ These Traits can change up how a creature may engage the PCs, may allow them to 
 #### Burrower (-2 points; +2 CR)
 The creature can burrow, moving up to `2` Squares, at a depth of up to `3` Squares, per AP spent. While burrowed, it cannot be targeted or make attacks. 
 
-`-N` points: Can burrow an additional `N * 2` Squares, per AP spent. 
+Additions:
+* `-N` points: Can burrow an additional `N * 2` Squares, per AP spent. 
 
 #### Climber (-2 points; +1 CR)
 The creature is a natural climber, and can move at full speed while climbing, without Tests required. But this only applies to easily climbable surfaces that provide some actual grip, like a tree's bark, a rough cliff face or rope. It cannot climb perfectly flat surfaces or 
 
-`-1` point: **Sticky**: The creature can cling to any surface, without restriction. 
+Additions:
+* `-1` point: **Sticky**: The creature can cling to any surface, without restriction. 
 
 #### Fast (-2 points; +1 CR)
 This creature moves an additional `2` Squares, per AP spent. Exclusive with [Shambler](#shambler-2-points). 
 
-`-N` points: Can move an additional `N` Squares per AP spent. 
+Additions:
+* `-N` points: Can move an additional `N` Squares per AP spent. 
 
 #### Glider (-1 points; +1 CR)
 The creature can glide, but only from higher to lower elevation. 
 
-`-1` point: **Floater**: Can also hover in mid-air. 
-
-`-3` point: **Flyer**: Can move at full speed mid-air, as far and as long as it wants and at any elevation. 
+Additions:
+* `-1` point: **Floater**: Can also hover in mid-air. 
+* `-3` point: **Flyer**: Can move at full speed mid-air, as far and as long as it wants and at any elevation. 
 
 #### Leaper (-3 points; +2 CR)
-The creature can jump up to `6` Squares far, in a high arc, without provoking [Attacks of Opportunity](#opportunity-attacks), over the heads of its foes. This causes `+1` Exhaustion to the creature. 
+The creature can jump up to `6` Squares far, in a high arc, without provoking [Attacks of Opportunity](#opportunity-attacks), over the heads of its foes. The creature suffers `-1` [Stamina](#stamina--strain). 
 
-`-2` points: **Dervish**: When leaping over opponents, this creature may also launch free attacks against each of them, but with Ob `+1`.
+Additions:
+* `-2` points: **Dervish**: When leaping over opponents, this creature may also launch free attacks against each of them, but with Ob `+1`.
 
 #### Swimmer (-1 point; +1 CR)
 The creature is at home in the water. They can move at full speed while swimming, without Tests required. Exclusive with [Drowner](#drowner-1-point--1-cr)
 
-`-1` point: **Aquatic**: The creature can breathe underwater. 
-
-`-1` point: In one massive burst of energy, the creature may lunge out of the water, travelling up to `10` Squares. 
+Additions:
+* `-1` point: **Aquatic**: The creature can breathe underwater. 
+* `-1` point: In one massive burst of energy, the creature may lunge out of the water, travelling up to `10` Squares. 
 
 ### Defensive Traits
 These Traits help a creature survive longer or at least deter certain forms of attack against it. 
@@ -3720,7 +3707,8 @@ These Traits help a creature survive longer or at least deter certain forms of a
 #### Armored (-2 points; +3 CR)
 The creature is naturally armored. You can spend up to `8` points on a damage type it protects against. Cannot be armored against a damage type it is also [Vulnerable](#vulnerable-2-points) against. 
 
-`-N` points: **Heavily Armored**: You can spend an additional `N * 4` points on damage protections. 
+Additions:
+* `-N` points: **Heavily Armored**: You can spend an additional `N * 4` points on damage protections. 
 
 #### Camouflage (-3 points; +3 CR)
 The creature can become invisible, even in plain sight, at the cost of `3` AP. It will stay invisible for as long as it takes no offensive action. It can be detected with a successful [Observation](#observation-awarawar) or [Path-Finding](#path-finding-awarwit) Test, at Ob `3`. 
@@ -3733,9 +3721,10 @@ All melee attackers against this creature suffer `6` points of a chosen type of 
 
 #### Death Rattle (-2 points; +2 CR)
 Upon dying, the creature can invoke one of the following effects (you must choose one now):
-* Explode: Cause damage to all adjacent creatures. Choose one: `2D6 + 2 Slashing`, `2D6 Piercing`, or `2D4` of any other damage type. 
-* Terrifying Screech: All foes in a `10` Square AoE radius around the creature must succeed a [Self-Control](#self-control-toughtough) Test at Ob `3`, or else become [Terrified](strive-core.md#terrified) for one Round. 
-* Reprisal: Move up to `8` and launch a final, desperate and free attack against a foe, with Ob `-1`. 
+* **Explode**: Cause damage to all adjacent creatures. Choose one: `2D6 + 2 Slashing`, `2D6 Piercing`, or `2D4` of any other damage type. 
+* **Terrifying** Screech: All foes in a `10` Square AoE radius around the creature must succeed a [Self-Control](#self-control-toughtough) Test at Ob `3`, or else become [Terrified](strive-core.md#terrified) for one Round. 
+* **Reprisal**: Move up to `8` and launch a final, desperate and free attack against a foe, with Ob `-1`. 
+* **Splitter**: Split into two halves, which each reform to a whole shape. They retain half of your Attributes and half your maximum HP and with current HP set to their new maximum. This split can only occur once. 
 
 #### Fortified Mind (-4 points; +1 CR)
 The creature cannot be [Terrified](#terrified), [Berserked](#berserk), made [Jealous](#jealous) or [Pacified](#pacified). 
@@ -3761,7 +3750,8 @@ A creature can make use of these Traits when it attacks.
 #### Cannot Miss (-3 points; +3 CR)
 Even when this creature misses with a damage-causing attack, it will always deal `4` points of the attack's Primary Damage, anyway. If the creature does succeed in attacking, this Trait does not trigger.
 
-`-3` points: **Precise**: Always deals `8` points of damage, instead.
+Additions:
+* `-3` points: **Precise**: Always deals `8` points of damage, instead.
 
 #### Disease-Ridden (-1 point; +1 CR)
 Any damage this creature deals on another that can contract diseases, will force a Test to resist disease from that creature. The victim must succeed a Toughness Test at Ob equal to half their Toughness, rounded up, or else suffer a random [Illness](#illness). 
@@ -3807,15 +3797,16 @@ This creature starts with and can use `5` [Grit Points](#grit-points), regains `
 #### Hyperactive (-7 points; +4 CR)
 This creature regains `+5` AP per Turn, instead of the default. Exclusive with [Sluggish](#sluggish-4-points). 
 
-`-3` points: **Disruptive**: Gets to act once after every foe's Turn and regains `1` AP each time.
-`-3` points: **Multi-Initiative**: Gets to act twice in a Round. The second initiative roll's result must be halved (rounded down). 
+Additions:
+* `-3` points: **Disruptive**: Gets to act once after every foe's Turn and regains `1` AP each time.
+* `-3` points: **Multi-Initiative**: Gets to act twice in a Round. The second initiative roll's result must be halved (rounded down). 
 
 Suitable for: Elites and boss enemies who typically face many enemies at once. This balances out the action economy. 
 
 #### Inexorable (-5 points; +4 CR)
-This creature cannot gain [Exhaustion](#exhaustion) through its own actions (i. e. Sprinting, Skills or Expertises). 
+This creature cannot lose [Stamina](#stamina--strain) through its own actions (i. e. Sprinting, Skills or Expertises). 
 
-Suitable for: Creatures that would *break* and be uninteresting to deal with, if they tired. Zombies, for example. Particularly suitable for foes that make heavy use of Exhaustion causing abilities. 
+Suitable for: Creatures that would *break* and be uninteresting to deal with, if they tired. Zombies, for example. Particularly suitable for foes that make heavy use of Stamina costing abilities. 
 
 #### Moon Affinity (-7 points; +4 CR)
 When basking in a full moon, the creature regains `6` HP at the start of its Turn and all its attacks deal an additional `+4` points of Pure damage.
