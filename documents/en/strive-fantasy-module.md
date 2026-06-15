@@ -171,6 +171,7 @@ There is a [compendium document](./strive-fantasy-game-masters-resource.md) rese
       - [Spineling](#spineling)
       - [Taskmaster](#taskmaster)
     - [Greater Demons](#greater-demons)
+      - [Greater Demon Of Hatred](#greater-demon-of-hatred)
       - [Greater Wendigo](#greater-wendigo)
       - [Doom Bringer](#doom-bringer)
       - [Hollow Gazer](#hollow-gazer)
@@ -1289,8 +1290,8 @@ At level `3`, your [Concentration](#concentration-spells) limit increases by `+1
 
 | Level | Name                 | Time Increment | Ob          | Ritualists | Effect(s)                      | Side-Effect(s)     | Backfire Effect(s) |
 | ----- | -------------------- | -------------- | ----------- | ---------- | ------------------------------ | ------------------ | ------------------ |
-| 0     | Summon Minor Demon   | 1 Hour         | Determined by Demon | 1+         | Your Ob is your SI. Summon a minor Demon to a chosen location. Note it is not yet Dominated - it may act unpredictably, yet certainly violently. You have one Round to bind it, before it will properly awaken. | A minor Demon also crosses the threshold. Once it awakens in one Round, its blind rage shall be terrible. | You are briefly consumed by the rift to the Demon's world, before it spits you back out. The ordeal causes you `1D10` Pure damage and `+3` [Strain](./strive-core.md#stamina--strain)! |
-| 3     | Summon Major Demon   | 3 Hours        | Determined by Demon | 1+         | Your Ob is your SI. Summon a major Demon to a chosen location. Note it is not yet Dominated - it may act unpredictably, yet certainly violently. You have one Round to bind it, before it will properly awaken. | A minor Demon also crosses the threshold. Once it awakens in one Round, its blind rage shall be terrible. | You are briefly consumed by the rift to the Demon's world, before it spits you back out. The ordeal causes you `1D10` Pure damage and `+3` [Strain](./strive-core.md#stamina--strain)! |
+| 0     | Summon Minor Demon   | 1 Hour         | Determined by Demon | 1+         | Your Ob is your SI. Summon a minor Demon to a chosen location. This requires an [Abyssalite chunk](#abyssalite) the bulk of which depends on the Demon. Note it is not yet Dominated - it may act unpredictably, yet certainly violently. You have one Round to bind it, before it will properly awaken. | A minor Demon also crosses the threshold. Once it awakens in one Round, its blind rage shall be terrible. | You are briefly consumed by the rift to the Demon's world, before it spits you back out. The ordeal causes you `1D10` Pure damage and `+3` [Strain](./strive-core.md#stamina--strain)! |
+| 3     | Summon Major Demon   | 3 Hours        | Determined by Demon | 1+         | Your Ob is your SI. Summon a major Demon to a chosen location. This requires a [Malevite Orb](#malevite), the purity of which depends on the Demon. Note it is not yet Dominated - it may act unpredictably, yet certainly violently. You have one Round to bind it, before it will properly awaken. | A minor Demon also crosses the threshold. Once it awakens in one Round, its blind rage shall be terrible. | You are briefly consumed by the rift to the Demon's world, before it spits you back out. The ordeal causes you `1D10` Pure damage and `+3` [Strain](./strive-core.md#stamina--strain)! |
 
 ### Divination (Arc/Wit)
 Catching glimpses of the unknowable and nudging fate. A Divination mage prefers to stay out of harms way - which their power facilitates. 
@@ -1778,7 +1779,7 @@ All non-Demonic creatures are set on fire and suffer `4` Burning damage every Tu
 This minor Demon towers above and punishes foes with reckless abandon. One of its bony arms morphs into a shield of bone, the other into a wicked blade.
 
 * Power: Regular, CR: `10`
-* Summoning Ob: `3`
+* Summoning Ob: `3`, Requirements: `3` Bulk worth of [Abyssalite](#abyssalite)
 * Roles: Shock-Trooper, Tank
   * Capable of defending itself with its bone shield, it retaliates against any and all foes who attempt to strike it, with astonishing force.
   * When hurt, its blood will harm its attacker.
@@ -1818,7 +1819,7 @@ This minor Demon towers above and punishes foes with reckless abandon. One of it
 This minor Demon looks like a pale, muscular man, but its head is elongated and lacks any facial features, save a teeth-lined maw and reptilian nostrils. Each hand holds a rusty sickle and trophies taken from its victims adorn its body. When it moves, it does so like a beast, rather than a man. 
 
 * Power: Regular, CR: `12`
-* Summoning Ob: `3`
+* Summoning Ob: `3`, Requirements: `8` Bulk worth of [Abyssalite](#abyssalite)
 * Roles: Ambusher, Sentry, Shock-Trooper, Disruptor
   * Though blind, it has excellent senses of smell and hearing. Avoiding it will require clever maneuvering. 
   * Its ability to hide makes it a dangerous foe to be surprised by. 
@@ -1858,7 +1859,7 @@ This minor Demon looks like a pale, muscular man, but its head is elongated and 
 This minor Demon appears like a half-rotted and calcified, large, bipedal Deer. Red eyes and vicious claws plainly demonstrate its rage-filled nature. 
 
 * Power: Regular, CR: `10`
-* Summoning Ob: `3`
+* Summoning Ob: `3`, Requirements: `6` Bulk worth of [Abyssalite](#abyssalite)
 * Roles: Ambusher, Shock-Trooper
   * As it can jump through the shadows, this can be a very unpredictable and dangerous foe. In a moment, it can appear behind a victim and tear into them with its claws. 
 * Behavior: 
@@ -1898,7 +1899,7 @@ This minor Demon appears like a half-rotted and calcified, large, bipedal Deer. 
 This minor Demon has been forced into the body of a Zombie. It has deformed, as if multiple bodies were merged into one, with multiple heads growing out of each other and the torso, and multiple pairs of arms sticking out, grasping at nothing. 
 
 * Power: Regular, CR: `8`
-* Summoning Ob: `2`
+* Summoning Ob: `2`, Requirements: `3` Bulk worth of [Abyssalite](#abyssalite)
 * Roles: Brawler, Multiplier
   * Stronger and more dangerous than a regular Zombie, with a few tricks to surprise foes with. 
 * Behavior: 
@@ -1940,7 +1941,7 @@ This minor Demon has been forced into the body of a Zombie. It has deformed, as 
 This minor Demon is a canid-esque quadruped covered in countless bony spines, like a porcupine. It lacks fur, its skin is pallid and sunken, stretched taut across its bones. 
 
 * Power: Regular, CR: `8`
-* Summoning Ob: `2`
+* Summoning Ob: `2`, Requirements: `3` Bulk worth of [Abyssalite](#abyssalite)
 * Roles: Artillery
   * A damage dealer that stays out of melee as best it can. Besides its ranged attack, it lacks any utility, but it is hard to hit and has great mobility as it can leap. 
 * Behavior: 
@@ -1970,7 +1971,7 @@ This minor Demon is a canid-esque quadruped covered in countless bony spines, li
 This minor Demon appears to be some sort of stone-golem. Molten lava drips from the ridges and cracks in is limbs.
 
 * Power: Regular, CR: `12`
-* Summoning Ob: `3`
+* Summoning Ob: `3`, Requirements: `8` Bulk worth of [Abyssalite](#abyssalite)
 * Roles: Commander, Supporter, Tank
   * Its commands are absolute and it *will* have dominion over all it can. 
   * Thanks to its stone-form it is naturally armored against all but Bludgeoning damage. It does not suffer Flanking. 
@@ -2008,11 +2009,62 @@ This minor Demon appears to be some sort of stone-golem. Molten lava drips from 
 
 ### Greater Demons
 
+#### Greater Demon Of Hatred
+This major Demon is a horned hulking mass of bulging muscle and covered in eternal flame. It is bipedal, with large claws and obsidian, scaly skin.
+
+* Power: Legendary, CR: `30`
+* Summoning Ob: `6`, Requirements: [Swirly Malevite Orb](#malevite) or greater
+* Roles: Brawler, Disruptor, Tank
+  * The Greater Demon Of Hatred is a legendary Demon. It does not yield and shows no quarter.
+  * It is great at crowd control, and has several AoE damage abilities. 
+* Behavior: 
+  * Like all Demons, it is bent on the destruction of everything around it. Its hate is pure and inconsolable. 
+
+| Agi   | Awar  | Str   | Tough | Wit   | Arc   |
+| ----- | ----- | ----- | ----- | ----- | ----- |
+| 3     | 3     | 8     | 8     | 2     | 8     |
+
+| BI     | Sprint | Stabil | HP  | Stamina    | FS (Melee)             | Def    | Armor             |
+| ------ | ------ | ------ | --- | ---------- | ---------------------- | ------ | ----------------- |
+| 8      | 5      | 3      | 80  | 16         | 5 Slashing + 3 Burning | 1      | Burning Immune <br> 8/4/2/0 Slashing <br> 6/3/2/0 Piercing <br> 4/2/1/0 Bludgeoning <br> 4/2/1/0 Acid |
+
+**Traits**: [Fortified Mind](./strive-core.md#fortified-mind--4-points-1-cr); [Leaper](./strive-core.md#leaper--3-points-2-cr); 
+
+**Legendary Traits**: [Hyperactive + Multi-Initiative](./strive-core.md#hyperactive--7-points-4-cr)
+
+**Assets**: None
+
+**Skills**:
+* Breath Of Fire (Tough/Arc):
+  * Breathe flame in a `5` Square AoE cone. 
+  * Level: `4`, AP: `4`, Ob: `2`, AoE, Innate
+  * `≤ 1` Hit: `5` Burning
+  * `= 2` Hits: `6` Burning
+  * `≥ 3` Hits: `7` Burning
+* Claw Strike (Agi/Str):
+  * Strike with burning claws at everything in a `3` Square AoE cone.
+  * Level: `5`, AP: `3`, Ob: `2`, Melee, AoE, Innate
+  * `≤ 1` Hit: `3` Slashing + `3` Burning
+  * `= 2` Hits: `4` Slashing + `3` Burning
+  * `≥ 3` Hits: `5` Slashing + `3` Burning
+* Fissure (Str/Arc):
+  * Strike at the ground and cause molten earthen spikes to erupt in a straight AoE line, up to `8` Squares far, piercing foes and setting them on fire, before melting into harmless sludge. 
+  * Level: `4`, AP: `4`, Ob: `2`, AoE, Innate
+  * `≤ 1` Hit: `3` Piercing + `3` Burning
+  * `= 2` Hits: `4` Piercing + `3` Burning
+  * `≥ 3` Hits: `5` Piercing + `3` Burning
+* Eruption (Tough/Arc):
+  * Flames erupt from your body, pushing back all in a `5` Square radius around you, pushing them...
+  * Level: `4`, AP: `4`, Ob: `3`, AoE, Innate
+  * `≤ 1` Hit: `3` Squares far; Deals `3` Burning damage
+  * `= 2` Hits: `5` Squares far; Deals `4` Burning damage
+  * `≥ 3` Hits: `7` Squares far; Deals `5` Burning damage
+
 #### Greater Wendigo
 This major Demon appears is a massive half-rotted and calcified, large, bipedal Deer. Multiple pairs of red eyes and vicious claws twitch hungrily, as bony wings contrast the eerily majestic antlers.
 
 * Power: Legendary, CR: `25`
-* Summoning Ob: `5`
+* Summoning Ob: `5`, Requirements: [Swirly Malevite Orb](#malevite) or greater
 * Roles: Ambusher, Shock-Trooper
   * The Greater Wendigo is a legendary Demon. It does not yield and shows no quarter.
   * As it can jump through the shadows, this can be a very unpredictable and dangerous foe. In a moment, it can appear behind a victim and tear into them with its claws. 
@@ -2054,7 +2106,7 @@ This major Demon appears is a massive half-rotted and calcified, large, bipedal 
 This major Demon is a pale biped, without a head and many pairs of arms symmetrically sticking out of its body. When it unfolds the last arm, doom is upon us all. 
 
 * Power: Legendary, CR: `30`
-* Summoning Ob: `6`
+* Summoning Ob: `6`, Requirements: [Swirly Malevite Orb](#malevite) or greater
 * Roles: Disruptor, Tank, Trapper
   * This is a legendary Demon that must be stopped before it can finish its Ritual. For if you don't, it will enact a terrible vengeance. This is essentially a timed encounter. If it is not stopped in time, it will cause great harm. 
   * It can Force-Move foes and litter the battlefield with hazards, which is a deadly combination. 
@@ -2110,7 +2162,7 @@ This major Demon is a pale biped, without a head and many pairs of arms symmetri
 This major Demon is but a husk of a creature. Its decrepit form can barely stand upright. Yet its piercing, red gaze is unwavering and merciless. 
 
 * Power: Elite, CR: `15`
-* Summoning Ob: `4`
+* Summoning Ob: `4`, Requirements: [Murky Malevite Orb](#malevite) or greater
 * Roles: Artillery, Shock-Trooper
   * This Demon is particularly deadly. It lacks utility, but makes up for that with its evil gaze, which can quickly turn deadly. 
   * It is immovable, meaning Force-Moving it around won't work. Its foes will have to come up with smarter solutions.
@@ -2138,7 +2190,7 @@ This major Demon is but a husk of a creature. Its decrepit form can barely stand
 This major Demon appears as little more than a horned skull attached by chains to a torso of stone. Dark wings and brightly glowing arcane symbols flank the torso, almost giving it a divine appearance. It seems harmless, but this is part of its devious scheme. 
 
 * Power: Elite, CR: `15`
-* Summoning Ob: `5`
+* Summoning Ob: `5`, Requirements: [Murky Malevite Orb](#malevite) or greater
 * Roles: Commander, Disruptor
   * One can only endure so much fear and doubt before they break. The Preacher knows this and can look into the heads of its victims. It will drive them mad, drive them to destroy themselves and each other. 
   * This Demon is very hard to reach, as it can freely float wherever it wishes and is difficult to Force-Move.
