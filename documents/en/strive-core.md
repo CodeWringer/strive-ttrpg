@@ -3603,7 +3603,7 @@ Retainers have **their own [XP](#experience-points-xp) to track**. Whenever and 
 Advancing their Attributes and Skills is **only possible** through spending their [XP](#experience-points-xp). Retainers **cannot** gain Advancement Progress, as PCs do. Also, advancing their Attributes **always costs double the [XP](#experience-points-xp)** and they cannot have any [Core Attribute](#core-favored-normal--penalized-attributes)! This means, to advance an Attribute or Skill, you have to pay the entire [XP](#experience-points-xp) cost at once. 
 
 # Hostility
-PCs have access to [Momentum Actions](strive-core.md#momentum) and earn or lose Momentum with the tides in combat. But you as the GM earn **Hostility**, regardless of how the combat is going. At the start of every **combat Round**, you earn `1`, plus the number of PCs and their allies in the encounter. 
+PCs have access to [Momentum Actions](strive-core.md#momentum) and earn or lose Momentum with the tides in combat. But you as the GM earn **Hostility**, regardless of how the combat is going. At the start of every **combat Round**, you earn `1`, plus the number of PCs and their allies in the encounter. You can accrue at most `50` Hostility.
 
 > Given `3` PCs and one ally, you earn `3 (number of PCs) + 1 (number of allies) + 1 (always) = 5` Hostility at the start of every Round. 
 
@@ -3613,7 +3613,7 @@ Unlike Momentum, **Hostility is not lost** when a combat encounter ends. It simp
 
 Hostility Actions can be tied to a particular type of creature or culture or even to a specific creature itself. However, there are also [General Hostility Actions](#general-hostility-actions) that *any* NPC may use.
 
-As Hostility Actions can really mix up combat, it would be wise to refrain from employing too many creatures with such abilities. These should be reserved for elite and legendary creatures. Although you could also break this expectation and explicitly give a regular or even feeble creature a Hostility Action. But always keep in mind that every creature with a Hostility Action is another level of complexity to the combat encounter. This causes more work for you and more things to keep track of for everyone. Used sparingly and effectively, Hostility Actions can elicit gasps of surprise from your players, ensuring a memorable encounter!
+As Hostility Actions can really mix up combat, it would be wise to refrain from employing too many creatures with such abilities - they should be reserved for elite and legendary creatures. Although you could also break this expectation and explicitly give a regular or even feeble creature a Hostility Action. But always keep in mind that every creature with a Hostility Action is another level of complexity to the combat encounter. This causes more work for you and more things to keep track of for everyone. Used sparingly and effectively, Hostility Actions can elicit gasps of surprise from your players, ensuring a memorable encounter!
 
 # NPC Builder
 A Module may provide you with some pre-defined NPCs to work with, but you will most likely have to, and perhaps desire to, invent your own, too. This chapter aims to provide a step-by-step process for NPC creation, based on several parameters that you get to pick from. 
