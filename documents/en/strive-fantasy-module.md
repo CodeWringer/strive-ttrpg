@@ -201,8 +201,15 @@ There is a [compendium document](./strive-fantasy-game-masters-resource.md) rese
       - [Rise Again](#rise-again)
     - [Alp](#alp)
     - [Bloated Shambler](#bloated-shambler)
-  - [Void Demons](#void-demons)
-    - [Void Stalker](#void-stalker)
+    - [Ghoul](#ghoul)
+    - [Revenant](#revenant)
+    - [Spine Thresher](#spine-thresher)
+    - [Terrorghast](#terrorghast)
+    - [Zombie](#zombie)
+  - [Voidlings](#voidlings)
+    - [Void's Breath](#voids-breath)
+    - [Void's Hunger](#voids-hunger)
+    - [Void's Lament](#voids-lament)
 
 # Glossary
 
@@ -2315,7 +2322,7 @@ This variant stands tall and proud, its wrinkled skin riddled with scars. Its tu
 
 | BI     | Sprint | Stabil | HP  | Stamina    | FS (Melee)      | Def    | Armor             |
 | ------ | ------ | ------ | --- | ---------- | --------------- | ------ | ----------------- |
-| 8      | 4      | 2      | 50  | 5          | 3 Piercing      | 4      | 8/4/2/1 Slashing <br> 6/3/2/1 Piercing <br> 4/2/1/1 Bludgeoning |
+| 8      | 4      | 2      | 50  | 5          | 3 Piercing      | 4      | 8/4/2/0 Slashing <br> 6/3/2/0 Piercing <br> 4/2/1/0 Bludgeoning |
 
 **Traits**: [Vulnerable](strive-core.md#vulnerable-2-points--2-cr) to Bleeding `+6`, [Hyperactive + Disruptive](strive-core.md#hyperactive--7-points-4-cr)
 
@@ -2636,7 +2643,7 @@ An abominable mound of misshapen flesh, with countless ragged tentacles of vario
 A giant stick-figure, shrouded in swirling darkness and blurred edges. All corpses, no matter how old, within `300` Squares around the Puppeteer begin to move again. They arise from their tombs, graves and battlefields, to enact terrible vengeance on the living. The Puppeteer lasts for several days. Should The Puppeteer be called again from The Veil in the time it is already present, then several more days will be added to the time it may escape The Veil. 
 
 ## Undead
-Whether they occur naturally or unnaturally, both your typical undead and some more unusual specimen may haunt your world. While the Fantasy Module assumes them to be mindless monsters, you may of course decide for your world that they may in fact retain some if not all of their sapience. 
+Whether they occur naturally or unnaturally, both your typical undead and some more unusual specimen may haunt your world. While the Fantasy Module assumes them to be mindless monsters, you may of course decide for your world that they may in fact retain some if not all of their sapience. This Module assumes sapient Undead to be **Liches**, a greater form of [Revenant](#revenant), which you may build as you would any proper NPC. 
 
 ### Undead Hostility
 The following [Hostility Actions](./strive-core.md#hostility) are available to most Undead.
@@ -2656,6 +2663,9 @@ Alps are a fairly common occurence throughout the world. How they reproduce is a
 * Roles: Ambusher
   * Employ as an investigation and moderate combat challenge. 
   * If you want to ramp up the challenge, have the encounter begin near a civilian victim which the Alp is about to or already has put to sleep, so it can immediately use "Induce Nightmare". 
+  * Will try to Induce Sleep as often as it can and then Induce Nightmare. 
+  * Will Rend singular nearby foes if given the chance. Tries to avoid being surrounded. 
+  * Has a sense of self preservation and will try to flee Combat when things go awry. 
 * Behavior: 
   * Stays close to civilization. May sometimes even hide inside towns and cities. 
   * Only active at night. Tends to hibernate during the day, in a well hidden location. 
@@ -2666,7 +2676,7 @@ Alps are a fairly common occurence throughout the world. How they reproduce is a
 
 | BI     | Sprint | Stabil | HP  | Stamina    | FS (Melee)      | Def    | Armor             |
 | ------ | ------ | ------ | --- | ---------- | --------------- | ------ | ----------------- |
-| 11     | 4      | 0      | 30  | 4          | 3 Slashing      | 3      | 0                 |
+| 11     | 4      | 0      | 30  | 6          | 3 Slashing      | 3      | 0                 |
 
 **Traits**: [Camouflage](./strive-core.md#camouflage--3-points-3-cr)
 
@@ -2675,7 +2685,7 @@ Alps are a fairly common occurence throughout the world. How they reproduce is a
 **Skills**: 
 * Stealth: Level `3`
 * Induce Nightmare (Wit/Arc):
-  * Induces nightmares on all nearby (`20` Square AoE radius around the Alp) sleeping Characters. This strengthens the Alp, removing `1` active Injury for every induced nightmare. The Alp gains `+3` to Strength and `+1` to Toughness. While nightmare lasts, every Turn the Alp regains `5` HP for every nightmare and every victim suffers `5` Pure damage. Nightmare lasts for `3` Rounds or `30` minutes. Any creature with a nightmare can be woken up (in any way you like), at Ob `3`. The Alp immediately loses boons for every Character woken up early. This ability does not stack with itself. After the time is up, the affected creatures automatically wake up. 
+  * Induces nightmares on all nearby (`20` Square AoE radius around the Alp) sleeping Characters. This strengthens the Alp, removing `1` active Injury for every induced nightmare. The Alp gains `+3` to Strength and `+1` to Toughness. While nightmare lasts, every Turn the Alp regains `5` HP for every nightmare and every victim suffers `5` Pure damage. Nightmare lasts for `5` Rounds or `30` minutes. Any creature with a nightmare can be woken up (in any way you like), at Ob `3`. The Alp immediately loses boons for every Character woken up early. This ability does not stack with itself. After the time is up, the affected creatures automatically wake up. 
   * Does not stack: Every sleeping Character can only be affected once. 
   * Level: `7`, AP: `2`
 * Induce Sleep (Wit/Arc):
@@ -2691,22 +2701,23 @@ Alps are a fairly common occurence throughout the world. How they reproduce is a
 ### Bloated Shambler
 Bloated shamblers are grotesque, hulking masses of bloated undead flesh. They're a type of flesh golem, comprised of multiple bodies sewn together and filled with noxious, rotten air. With a vacant gaze through dulled eyes they waddle towards their goal, struggling to stay on their swollen feet, yet unfaltering in their sinister purpose. 
 
-* Power: Regular, CR: `2` 4
+* Power: Regular, CR: `4`
 * Roles: Disruptor, Tank
   * Employ as a priority target, that will punish foes who neglect it. It tries to get as close to as many enemies as possible and then attempts to grapple and choke the life out of whoever is most accessible. 
   * If left alive for too long, it will explode in a gory and nauseating display, that will Force-Move foes and deal damage to them.
+  * Will attempt to grapple and then Choke a foe. 
 * Behavior: 
-  * An unintelligent, [bound](#soul-binding-arctough) Undead, that will follow its master's commands. 
+  * When [bound](#soul-binding-arctough), will only follow its master's commands. Otherwise, wanders aimlessly or stands still, staring into space. But may become hostile if agitated. 
 
 | Agi   | Awar  | Str   | Tough | Wit   | Arc   |
 | ----- | ----- | ----- | ----- | ----- | ----- |
 | 1     | 1     | 5     | 5     | 1     | 0     |
 
-| BI     | Sprint | Stabil | HP  | Exhaustion | FS (Melee)      | Def    | Armor             |
+| BI     | Sprint | Stabil | HP  | Stamina    | FS (Melee)      | Def    | Armor             |
 | ------ | ------ | ------ | --- | ---------- | --------------- | ------ | ----------------- |
-| 3      | 3      | 3      | 50  | 6          | 3 Bludgeoning   | 0      | 0                 |
+| 3      | 3      | 3      | 50  | 10         | 3 Bludgeoning   | 0      | 0                 |
 
-**Traits**: [Death Rattle](./strive-core.md#death-rattle--2-points-2-cr) (Explode: `2D4` Bludgeoning and Force-Moving `5` Squares, in an AoE radius of `2` Squares), [Shambler](./strive-core.md#shambler-2-points--2-cr)
+**Traits**: [Death Rattle](./strive-core.md#death-rattle--2-points-2-cr) (Explode: `2D4` Bludgeoning and Force-Moving `5` Squares, in an AoE radius of `2` Squares), [Shambler](./strive-core.md#shambler-2-points--2-cr); [Fortified Mind](./strive-core.md#fortified-mind--4-points-1-cr)
 
 **Assets**: None
 
@@ -2719,43 +2730,297 @@ Bloated shamblers are grotesque, hulking masses of bloated undead flesh. They're
   * `= 2` Hits: `3` Bludgeoning
   * `≥ 3` Hits: `4` Bludgeoning
 
+### Ghoul
+A lesser Undead that stalks graveyards and fresh battlefields, in search of carrion. 
 
-## Void Demons
-When a soul is thrust into the void between realities, it is stretched infinitely thin. Unable to fill the void, it snaps and implodes, bouncing back into reality, but broken. It cannot function as it once did and furthermore, keeps open a tear to the void. It apparates as a monster of swirling shadow, not quite corporeal, yet not fully ethereal. 
+They're generally seen as nuisances that defile places of supposed eternal rest. When alone, they're not particularly threatening, but can prove quite dangerous in larger numbers. Ghouls are also fiercely territorial, driven by pure instinct to attack any intruders. The only exception to this rule is observable near feasting grounds, where food is very abundant. Otherwise, they're nomadic creatures, moving on whenever a feeding ground has been exhausted. Sometimes they move in packs, but most commonly, they migrate alone. 
 
-Desperate to fill the void within them, they seek out any source of heat and light and try to absorb them. The souls of living things are of particular interest, as a Void Demon desires to be made whole again. The only way it knows how, is by trying to merge its soul with another. As souls generally occupy a host and will not budge, the host must first be eliminated. As such, Void Demons act with utmost hostility towards living things and will stop at nothing to kill them. 
+They're squat creatures, with spotted pale skin. Their pathetic stature belies the threat they represent. Their long, gorilla-like arms are lined with bony spikes, which can cause nasty wounds. Their deformed hands end in long claws of bone, while their large split jaw can easily crush bone. 
 
-A Void Demon does not speak and is neither sapient, nor sentient. Trying to reason with such a thing would be folly, as it would not answer with anything but violence. 
-
-### Void Stalker
-This variant of Void Demon is vaguely humanoid, its amorphous face stretched out like a beak and its arms ending in spikes of hardened darkness. 
-
-* Power: Feeble, CR: `1`
-* Roles: Ambusher, Multiplier
-  * A simple, yet tricky foe, which is difficult to harm with mundane means and which will try to spawn more of its own kind, by inflicting damage to its victims. A challenge for the careless. Employ as a challenge that can increase its own intensity if left alive too long. 
+* Power: Regular, CR: `8`
+* Roles: Brawler
+  * While not particularly threatening on their own, they become deadly en masse, as they can heal themselves. 
+  * Will use Rend whenever at `10+` HP, otherwise attempts to Bite, in order to heal. 
 * Behavior: 
-  * Curious and investigative. 
-  * Noisy - squeals and grunts to itself frequently. 
-  * Underdog - avoids other Swine and tends to get pushed around by them. 
+  * When [bound](#soul-binding-arctough), will only follow its master's commands. Otherwise, stalks battlefields and graveyards, or any other place of death. 
+  * Their bite and their excrements can pass on their condition, which only manifests a long time after death. As such, there is always a steady influx of Ghouls, as it is impossible to tell where they've been and near impossible to detect the latent curse. 
+  * Too stupid to flee Combat when things go awry. 
 
 | Agi   | Awar  | Str   | Tough | Wit   | Arc   |
 | ----- | ----- | ----- | ----- | ----- | ----- |
-| 4     | 4     | 2     | 1     | 0     | 0     |
+| 5     | 2     | 5     | 2     | 2     | 0     |
 
 | BI     | Sprint | Stabil | HP  | Stamina    | FS (Melee)      | Def    | Armor             |
 | ------ | ------ | ------ | --- | ---------- | --------------- | ------ | ----------------- |
-| 9      | 3      | 0      | 10  | 1          | 2 Piercing      | 1      | Half (RU) against all but Burning <br> `-50%` against Burning |
+| 9      | 3      | 0      | 20  | 4          | 5 Slashing      | 2      | |
+
+**Traits**: [Fast](./strive-core.md#fast--2-points-1-cr); [Disease-Ridden](./strive-core.md#disease-ridden--1-point-1-cr)
+
+**Assets**: None
+
+**Skills**: 
+* Bite (Str/Tough): 
+  * Bite an adjacent ST with your huge split jaw and feast! 
+  * Level `3`, AP: `2`, Ob: `Opposed`, Melee, ST, Innate
+  * `≤ 1` Hit: `2` Bludgeoning; Regain `+2` HP
+  * `= 2` Hits: `3` Bludgeoning; Regain `+4` HP
+  * `≥ 3` Hits: `4` Bludgeoning; Regain `+6` HP
+* Rend (Agi/Str): 
+  * Strike at an adjacent ST with your claws. 
+  * Level `4`, AP: `2`, Ob: `Opposed`, Melee, ST, Innate
+  * `≤ 1` Hit: `4` Slashing
+  * `= 2` Hits: `5` Slashing
+  * `≥ 3` Hits: `6` Slashing + `3` Piercing
+
+### Revenant
+A greater Undead with a limited capacity for independent thought. It retains much of its skill, even after death. 
+
+* Power: Regular, CR: `6`
+* Roles: Brawler
+  * A greater threat than a [Zombie](#zombie), but still one of the more manageable Undead foes. Intended for use in greater numbers. 
+  * Will attack and defend with its weapon. 
+* Behavior: 
+  * When [bound](#soul-binding-arctough), will only follow its master's commands. Otherwise, wanders aimlessly or stands still, staring into space. But may become hostile if agitated. 
+  * May also occur naturally, when the Arcanosphere's winds are agitated near graveyards and fresh battlefields. 
+
+| Agi   | Awar  | Str   | Tough | Wit   | Arc   |
+| ----- | ----- | ----- | ----- | ----- | ----- |
+| 3     | 3     | 4     | 3     | 3     | 0     |
+
+| BI     | Sprint | Stabil | HP  | Stamina    | FS (Melee)      | Def    | Armor             |
+| ------ | ------ | ------ | --- | ---------- | --------------- | ------ | ----------------- |
+| 9      | 3      | 0      | 30  | 6          | 5 Slashing/Piercing/Bludgeoning | 2      | |
+
+**Traits**: [Fortified Mind](./strive-core.md#fortified-mind--4-points-1-cr)
+
+**Assets**: None
+
+**Skills**: 
+* One weapon Skill of choice, at Level `4`: [Axe](#weapon-axe-strstr), [Long Blade](#weapon-long-blade-agistr), [Polearm](#weapon-polearm-strtough), [Crossbow](#weapon-crossbow-awarawar)
+
+### Spine Thresher
+A bone golem with long, rope-y arms made of spinal columns, lined with knife-like bones and tipped with sharp spikes. And they have a tail with a mace-head at the end. 
+
+* Power: Regular, CR: `8`
+* Roles: Artillery
+  * A deadly foe that stays out of melee. 
+  * Uses Tail Slam to knock nearby enemies back. Otherwise, uses Spinal Whip. 
+* Behavior: 
+  * When [bound](#soul-binding-arctough), will only follow its master's commands. Otherwise, wanders aimlessly or stands still, staring into space. But may become hostile if agitated. 
+
+| Agi   | Awar  | Str   | Tough | Wit   | Arc   |
+| ----- | ----- | ----- | ----- | ----- | ----- |
+| 6     | 2     | 3     | 2     | 1     | 0     |
+
+| BI     | Sprint | Stabil | HP  | Stamina    | FS (Melee)      | Def    | Armor             |
+| ------ | ------ | ------ | --- | ---------- | --------------- | ------ | ----------------- |
+| 7      | 4      | 0      | 20  | 4          | 6 Piercing      | 2      |                   |
+
+**Traits**: [Fortified Mind](./strive-core.md#fortified-mind--4-points-1-cr)
+
+**Assets**: None
+
+**Skills**: 
+* Spinal Whip (Agi/Str): 
+  * Lash out at a ST with your spinal rope-arms, up to `5` Squares away.
+  * Level `4`, AP: `2`, Ob: `Opposed`, Ranged, ST, Innate
+  * `≤ 1` Hit: `2` Bludgeoning + `3` Slashing
+  * `= 2` Hits: `3` Bludgeoning + `5` Slashing
+  * `≥ 3` Hits: `4` Bludgeoning + `7` Slashing
+* Tail Slam (Agi/Str): 
+  * Lash out at a ST with your tail, knocking them back. 
+  * Level `4`, AP: `2`, Ob: `Opposed`, Ranged, ST, Innate
+  * `≤ 1` Hit: `2` Bludgeoning; `1` Square
+  * `= 2` Hits: `3` Bludgeoning; `2` Squares
+  * `≥ 3` Hits: `4` Bludgeoning; `3` Squares
+
+### Terrorghast
+A huge flesh golem with proportions like a gorilla and a strong carapace of bone. 
+
+* Power: Elite, CR: `10`
+* Roles: Disruptor, Shock-Trooper, Tank
+  * A deadly foe that is difficult to bring down. Its main weakness is its slow reaction speed. 
+  * Uses Charge when surrounded, or when foes are neatly alined. But may also Charge at random. This thing isn't very tactically minded. 
+  * Uses Slam on nearby singular foes, or at random. 
+* Behavior: 
+  * When [bound](#soul-binding-arctough), will only follow its master's commands. Otherwise, wanders aimlessly or stands still, staring into space. But may become hostile if agitated. 
+
+| Agi   | Awar  | Str   | Tough | Wit   | Arc   |
+| ----- | ----- | ----- | ----- | ----- | ----- |
+| 3     | 1     | 6     | 6     | 1     | 0     |
+
+| BI     | Sprint | Stabil | HP  | Stamina    | FS (Melee)      | Def    | Armor             |
+| ------ | ------ | ------ | --- | ---------- | --------------- | ------ | ----------------- |
+| 5      | 4      | 2      | 60  | 12         | 6 Bludgeoning   | 0      | 8/4/2/0 Slashing <br> 6/3/2/0 Piercing <br> 4/2/1/0 Bludgeoning |
+
+**Traits**: [Sluggish](./strive-core.md#sluggish-4-points--2-cr); [Fortified Mind](./strive-core.md#fortified-mind--4-points-1-cr)
+
+**Assets**: None
+
+**Skills**: 
+* Charge (Tough/Tough): 
+  * Charge forward in a AoE straight line, knocking aside anything in your path, `Str` Squares far. You must charge at least `4` Squares in a straight line for this and cannot stop prematurely. But you *may* crash into an obstacle, which stops you. 
+  * Level `3`, AP: `3`, Melee, AoE, Innate
+* Slam (Agi/Str): 
+  * Slam into a ST with your massive arms.
+  * Level `4`, AP: `2`, Ob: `Opposed`, Melee, ST, Innate
+  * `≤ 1` Hit: `Str` Bludgeoning
+  * `= 2` Hits: `Str + 2` Bludgeoning
+  * `≥ 3` Hits: `Str + 4` Bludgeoning; Target is knocked back `3` Squares
+
+### Zombie
+A lesser form of undeath, Zombies are mindless walking corpses in varying stages of decomposition, held together only by magic forces. 
+
+* Power: Feeble, CR: `2`
+* Roles: Tank
+  * Zombies aren't dangerous on their own, but en masse, can serve as a mobile meat shield. 
+  * Will try to grapple and then Choke a foe. 
+  * May also occasionally punch a foe. 
+* Behavior: 
+  * When [bound](#soul-binding-arctough), will only follow its master's commands. Otherwise, wanders aimlessly or stands still, staring into space. But may become hostile if agitated. 
+  * May also occur naturally, when the Arcanosphere's winds are agitated near graveyards and fresh battlefields. 
+
+| Agi   | Awar  | Str   | Tough | Wit   | Arc   |
+| ----- | ----- | ----- | ----- | ----- | ----- |
+| 1     | 1     | 3     | 3     | 1     | 0     |
+
+| BI     | Sprint | Stabil | HP  | Stamina    | FS (Melee)      | Def    | Armor             |
+| ------ | ------ | ------ | --- | ---------- | --------------- | ------ | ----------------- |
+| 3      | 2      | 0      | 30  | 6          | 3 Bludgeoning   | 0      | 0                 |
+
+**Traits**: [Shambler](./strive-core.md#shambler-2-points--2-cr); [Sluggish](./strive-core.md#sluggish-4-points--2-cr); [Fortified Mind](./strive-core.md#fortified-mind--4-points-1-cr)
+
+**Assets**: None
+
+**Skills**: 
+* Unarmed Combat: Level `3`
+* Choke (Str/Tough): 
+  * If grappling a ST, choke the life out of them. 
+  * Level `3`, AP: `1`, Melee, ST, Innate
+  * `≤ 1` Hit: `2` Bludgeoning
+  * `= 2` Hits: `3` Bludgeoning
+  * `≥ 3` Hits: `4` Bludgeoning
+
+## Voidlings
+When a soul is thrust into the void between realities, it is stretched infinitely thin. Unable to fill the void, it snaps and implodes, bouncing back into reality, but broken. It cannot function as it once did and furthermore, keeps open a tear to the void. It apparates as a monster of swirling shadow, not quite corporeal, yet not fully ethereal. 
+
+Desperate to fill the void within them, they seek out any source of heat and light to try and absorb. The souls of living things are of particular interest, as a Voidling desires to be made whole again. The only way it knows how, is by trying to merge its soul with another. As souls generally occupy a host and will not budge, the host must first be eliminated. As such, Voidlings act with utmost hostility towards living things and will stop at nothing to kill. 
+
+A Voidling does not speak and is neither sapient, nor sentient. It cannot reason and does not negotiate. 
+
+### Void's Breath
+This variant of Voidling is vaguely humanoid, its amorphous face stretched out like a beak and its arms ending in spikes of hardened darkness. 
+
+* Power: Regular, CR: `8`
+* Roles: Ambusher, Multiplier
+  * A simple, yet tricky foe, which is difficult to harm with mundane means and which will try to spawn more of its own kind, by inflicting damage to its victims. A challenge for the careless. Employ as a challenge that can increase its own intensity if left alive too long. 
+* Behavior: 
+  * Lurks the darkest shadows it can find, but hops between them frequently to find victims quickly. 
+
+| Agi   | Awar  | Str   | Tough | Wit   | Arc   |
+| ----- | ----- | ----- | ----- | ----- | ----- |
+| 4     | 4     | 2     | 2     | 1     | 5     |
+
+| BI     | Sprint | Stabil | HP  | Stamina    | FS (Melee)      | Def    | Armor             |
+| ------ | ------ | ------ | --- | ---------- | --------------- | ------ | ----------------- |
+| 9      | 3      | 0      | 20  | 4          | 2 Piercing + 3 Freezing | 1      | Half (RU) against all but Burning <br> Takes double damage from Burning |
 
 Traits: 
-* **Ethereal Nature**: Its shadowy form isn't quite corporeal and barely suffers physical damage. But it burns well.
+* **Ethereal Nature**: Its shadowy form isn't quite corporeal and barely suffers physical damage, but burns well. It is very slowly disintegrating on its own, and unless it finds sustenance, will fade on its own, in a few days. 
 
 Skills:
 * **Breath Of The Void** (Arc/Arc):
-  * Draw the energy out of a cone in front of you. Everything caught in the AoE, up to `5` squares away, suffers `1D8 + 3` points of Freezing damage. Every living creature also suffers `+1` stack of the **Voidcalled** Condition. Once it reaches `5` stacks, it resets zo `0` and spawns another Voidstalker. It decreases by `-1` automatically, at the end of the turn. 
-  * AP: `4`, AoE, Ranged
+  * Draw the energy out of a `5` Square AoE cone in front of you. Every living creature also suffers `+1` stack of the **Voidchilled** Condition. Once it reaches `5` stacks on the victim, it resets zo `0` and spawns another Void's Breath. It decreases by `-1` automatically, at the end of the victim's Turn. 
+  * Level: `5`, AP: `5`, AoE, Ranged
+  * `≤ 1` Hit: `4` Freezing; Foe Tough `≤ 1`: Heal self `+3` HP
+  * `= 2` Hits: `6` Freezing; Foe Tough `≤ 3`: Heal self `+3` HP
+  * `≥ 3` Hits: `8` Freezing; Foe Tough `≤ 5`: Heal self `+5` HP
 * **Cold Spike** (Agi/Arc):
-  * Strike at a ST with a spike of hardened shadow, which causes `1D4` Piercing + `1D8` Freezing damage. 
-  * AP: `3`, Ob: Opposed, ST, Melee
+  * Strike at a ST with a spike of hardened shadow. 
+  * Level: `4`, AP: `2`, Ob: `Opposed`, Melee, ST, Innate
+  * `≤ 1` Hit: `2` Piercing + `2` Freezing
+  * `= 2` Hits: `3` Piercing + `3` Freezing
+  * `≥ 3` Hits: `4` Piercing + `4` Freezing
 * **Shadow Step** (Arc/Arc):
-  * Disappear into the shadows and re-appear in another shadowy location, up to `15` squares away. 
+  * Disappear into the shadows and re-appear in another shadowy location, up to `20` Squares away. 
   * AP: `1`
+
+### Void's Hunger
+This variant of Voidling loosely resembles an eel, with thin arms with which it drags its incorporeal form across the floor. The bloated upper body glows in spots. 
+
+* Power: Regular, CR: `10`
+* Roles: Artillery
+  * A dangerous foe that may blast multiple foes with its AoE damage, but dies easy enough. 
+  * Always prefers using Devour Light on light sources, but will also use it if none can be found, as a last-ditch defense. 
+  * Will always try to use Light Blast as often as it may. 
+* Behavior: 
+  * Always drawn to light and flame, seeking to devour them. And always migrating towards new light sources, and may disintegrate and fade, if it cannot find any. 
+
+| Agi   | Awar  | Str   | Tough | Wit   | Arc   |
+| ----- | ----- | ----- | ----- | ----- | ----- |
+| 2     | 4     | 2     | 3     | 1     | 5     |
+
+| BI     | Sprint | Stabil | HP  | Stamina    | FS (Ranged `10`) | Def    | Armor             |
+| ------ | ------ | ------ | --- | ---------- | ---------------- | ------ | ----------------- |
+| 7      | 2      | 0      | 30  | 6          | 4 Freezing       | 1      | Half (RU) against all but Burning <br> Takes double damage from Burning |
+
+Traits: 
+* **Ethereal Nature**: Its shadowy form isn't quite corporeal and barely suffers physical damage, but burns well. It is very slowly disintegrating on its own, and unless it finds sustenance, will fade on its own, in a few days. 
+
+Skills:
+* **Devour Light** (Arc/Arc):
+  * Devours all light and flame in a `5` Square AoE cone. 
+  * Level: `5`, AP: `3`, Ob: `1`, AoE, Ranged
+  * `≤ 1` Hit: `3` Freezing; Heal self `+2` HP, for each light or flame
+  * `= 2` Hits: `4` Freezing; Heal self `+3` HP, for each light or flame
+  * `≥ 3` Hits: `5` Freezing; Heal self `+4` HP, for each light or flame
+* **Light Blast** (Agi/Arc):
+  * Regurgitate devoured light, blasting all in a `5` Square AoE cone. Can only be used if Devour Light was used prior. 
+  * Level: `4`, AP: `3`, Ob: `1`, Ranged, AoE, Innate
+  * `≤ 1` Hit: `5` Burning
+  * `= 2` Hits: `7` Burning
+  * `≥ 3` Hits: `9` Burning
+
+### Void's Lament
+This variant of Voidling is a floating ball of swirling shadow. Eyes regularly materialize and then disintegrate on its body. 
+
+* Power: Elite, CR: `12`
+* Roles: Artillery
+  * A particularly tricky foe, that floats just out of melee reach, keeping its distance and using a variety of Gazes to deadly effect. 
+  * Will use every Gaze it has, one after another, except Lamenting Gaze, which it uses only after all other Gazes. 
+* Behavior: 
+  * 
+
+| Agi   | Awar  | Str   | Tough | Wit   | Arc   |
+| ----- | ----- | ----- | ----- | ----- | ----- |
+| 2     | 4     | 2     | 3     | 1     | 5     |
+
+| BI     | Sprint | Stabil | HP  | Stamina    | FS (Ranged `15`) | Def    | Armor             |
+| ------ | ------ | ------ | --- | ---------- | ---------------- | ------ | ----------------- |
+| 7      | 2      | 0      | 30  | 6          | 4 Freezing       | 0      | Half (RU) against all but Burning <br> Takes double damage from Burning |
+
+Traits: [Glider + Floater (`10` Squares above the ground)](./strive-core.md#glider--1-points-1-cr)
+* **Ethereal Nature**: Its shadowy form isn't quite corporeal and barely suffers physical damage, but burns well. It is very slowly disintegrating on its own, and unless it finds sustenance, will fade on its own, in a few days. 
+
+Skills:
+* **Chilling Gaze** (Arc/Arc):
+  * The Void calls, its gaze merciless. A ST is chilled to the bone. 
+  * Level `5`, AP: `2`, Ob: `Opposed by Toughness`, Ranged, ST, Innate
+  * `≤ 1` Hit: `4` Freezing
+  * `= 2` Hits: `6` Freezing
+  * `≥ 3` Hits: `8` Freezing
+* **Doubting Gaze** (Arc/Arc):
+  * Instill doubt into a ST, who begins to question their right to existence. If successful, the target is [Pacified](./strive-core.md#pacified) for `1` Round. 
+  * Level: `5`, AP: `2`, Ob: `Opposed by Self-Control`, Ranged, ST, Innate
+* **Sickening Gaze** (Arc/Arc):
+  * A victim starts feeling incredibly sick, to the point they must throw up. 
+  * Level: `5`, AP: `2`, Ob: `Opposed by Toughness`, Ranged, ST, Innate
+  * `≤ 1` Hit: `2` Poison; `+1` Strain
+  * `= 2` Hits: `3` Poison; `+1` Strain
+  * `≥ 3` Hits: `4` Poison; `+2` Strain
+* **Lamenting Gaze** (Arc/Arc):
+  * All targets in a `10` Square AoE cone are stricken with inconsolable emptiness, their soul is briefly drawn from their body, before it snaps back into place. Can only be used after all othr Gazes have been used at least once before. 
+  * Level: `5`, AP: `3`, Ob: `1`, Ranged, AoE, Innate
+  * `≤ 1` Hit: `4` Pure; Self `+10` HP
+  * `= 2` Hits: `6` Pure; Self `+15` HP
+  * `≥ 3` Hits: `8` Pure; Self `+20` HP

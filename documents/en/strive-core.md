@@ -3754,7 +3754,7 @@ Additions:
 * `-3` points: **Precise**: Always deals `8` points of damage, instead.
 
 #### Disease-Ridden (-1 point; +1 CR)
-Any damage this creature deals on another that can contract diseases, will force a Test to resist disease from that creature. The victim must succeed a Toughness Test at Ob equal to half their Toughness, rounded up, or else suffer a random [Illness](#illness). 
+The first damage this creature deals on another that can contract diseases, will force a Test to resist disease from that creature. The victim must succeed a Toughness Test at Ob equal to half their Toughness, rounded up, or else suffer a random [Illness](#illness). 
 
 Suitable for: Any type of undead, rats and swamp creatures.
 
