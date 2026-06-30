@@ -263,7 +263,7 @@ You may choose to play without the Momentum system for a less heroic style of ga
       - [Mercantilism (Awar/Wit)](#mercantilism-awarwit)
       - [Persuasion (Wit/Wit)](#persuasion-witwit)
       - [Riding (Agi/Awar)](#riding-agiawar)
-      - [Self-Control (Tough/Tough)](#self-control-toughtough)
+      - [Self-Control (Tough/Wit)](#self-control-toughwit)
     - [Knowledge Skills](#knowledge-skills)
       - [Architecture (Awar/Wit)](#architecture-awarwit)
       - [Archeology (Awar/Wit)](#archeology-awarwit)
@@ -1277,7 +1277,7 @@ Reactions are expected to change whenever a Character (decides) to act against t
 ### Virtues & Vices
 Every PC has several values that help inform their player what their Character is like - how they act. 
 
-This personality is codified by the following matrix. Each row is a scale, with two opposing traits. Whenever A trait reaches the "Signature" column, a PC is *known* for it! In fact, they can hardly *not* act that way! In order for behaviour to deviate from a Signature Trait, a [Self-Control](#self-control-toughtough) Test at Ob `2` or half of of its Level (RU) - take the higher number - must be made. Only if it is a **success**, can the player choose to deviate from the Signature Trait's dictated behavior. 
+This personality is codified by the following matrix. Each row is a scale, with two opposing traits. Whenever A trait reaches the "Signature" column, a PC is *known* for it! In fact, they can hardly *not* act that way! In order for behaviour to deviate from a Signature Trait, a [Self-Control](#self-control-toughwit) Test at Ob `2` or half of of its Level (RU) - take the higher number - must be made. Only if it is a **success**, can the player choose to deviate from the Signature Trait's dictated behavior. 
 
 Whenever PCs very strongly act in a certain way, their value in a Virtue or Vice may change. Take note during play, how the Characters have acted. After the session, discuss whether any of the PCs have shown a very strong drift towards either side of the scale. And if everyone agrees, a personality change is in order!
 
@@ -1423,7 +1423,7 @@ For every point in [Toughness](#toughness-tough), your **maximum Stamina** raise
 
 > At Toughness `1`, you have a maximum Stamina of `2`. At Toughness `3`, you have a maximum Stamina of `6`. 
 
-If a Character's Stamina reaches **negative numbers**, they become [Exhausted](#exhausted) from over-exertion. While Exhausted, a Character losing further Stamina, must succeed a [Self-Control](#self-control-toughtough) [Test](#tests) at Ob equal to their current degree of negative Stamina, or else fall [Unconscious](#unconscious). Also, it becomes impossible to use *any* Action or Reaction that would cost further Stamina!
+If a Character's Stamina reaches **negative numbers**, they become [Exhausted](#exhausted) from over-exertion. While Exhausted, a Character losing further Stamina, must succeed a [Self-Control](#self-control-toughwit) [Test](#tests) at Ob equal to their current degree of negative Stamina, or else fall [Unconscious](#unconscious). Also, it becomes impossible to use *any* Action or Reaction that would cost further Stamina!
 
 `+1` point of Stamina is regained for every **hour of uninterrupted rest**. Once Stamina is **no longer negative**, the Exhausted [Condition](#condition) is removed, automatically. 
 
@@ -1657,7 +1657,7 @@ All creatures that can be tired, require sleep. Some [Conditions](#condition) ca
 
 An interruption of a Full Rest is any break in the rest, when a Character is forced to do something physically or mentally taxing that keeps them from sleep. If in doubt - a Test is almost always going to be taxing in some way.
 
-Whenever resting in an **unsafe environment**, such as out in the wild or on a city's streets, animals, bandits or monsters - given the setting and narrative allow for it - might surprise any resting Characters. Therefore, it is advisable to set up a watch. But be careful - those on watch could fall asleep during their vigil! To determine whether they succumb to their own exhaustion, they must Test their [Self-Control](#self-control-toughtough) once, at the beginning of their watch. The Ob is equal to `3`, plus their current negative [Stamina](#stamina--strain), if they have any. If multiple Characters stay up for the watch at the same time, they can help each other stay awake, reducing the Ob by `-1` for each who stay awake. The Ob to stay awake can never be reduced to less than `1`. 
+Whenever resting in an **unsafe environment**, such as out in the wild or on a city's streets, animals, bandits or monsters - given the setting and narrative allow for it - might surprise any resting Characters. Therefore, it is advisable to set up a watch. But be careful - those on watch could fall asleep during their vigil! To determine whether they succumb to their own exhaustion, they must Test their [Self-Control](#self-control-toughwit) once, at the beginning of their watch. The Ob is equal to `3`, plus their current negative [Stamina](#stamina--strain), if they have any. If multiple Characters stay up for the watch at the same time, they can help each other stay awake, reducing the Ob by `-1` for each who stay awake. The Ob to stay awake can never be reduced to less than `1`. 
 
 > A Character with current Stamina of `-1` is tasked with standing watch one night. In order to avoid falling asleep, they must succeed a Self-Control Test at Ob `3 (always) + 1 (negative Stamina) = 4`. 
 
@@ -2551,12 +2551,12 @@ A vital skill in stage-play for honest entertainment and just as important to li
 #### Animal Handling (Awar/Awar)
 Gaining an animal's trust, directing it and training it to obey simple commands. 
 
-Is opposed by [Self-Control](#self-control-toughtough). 
+Is opposed by [Self-Control](#self-control-toughwit). 
 
 | Level | Name                 | AP | Ob      | Description        |
 | ----- | -------------------- | -- | ------- | ------------------ |
 | 0     | Command Animal       | 2  | 1       | Issue a *simple* command to a tamed/friendly animal. |
-| 2     | Calm Animal          | 2  | Opposed by [Self-Control](#self-control-toughtough) | Calm an aggressive/hostile/frightened animal down. If unsuccessful, the next attempt becomes `+1` Ob more difficult. |
+| 2     | Calm Animal          | 2  | Opposed by [Self-Control](#self-control-toughwit) | Calm an aggressive/hostile/frightened animal down. If unsuccessful, the next attempt becomes `+1` Ob more difficult. |
 
 #### Commanding (Tough/Wit)
 Speaking commands with booming authority.
@@ -2565,7 +2565,7 @@ Speaking commands with booming authority.
 | ----- | ---------------------- | -- | ------- | ------------------ |
 | 0     | Focus!                 | 1  | 1       | <br> `≤ 1` Hit: Grant another Character `+1D` for their next Test. <br> `= 2` Hits: Grant another Character `+2D` for their next Test. <br> `≥ 3` Hits: Grant another Character `+1` Compensation Point for their next Test. <br> Suffer `-1` [Stamina](#stamina--strain). |
 | 0     | Shake It Off!          | 2  | 2       | Remove another Character's [Exhausted](#exhausted) or [Terrified](#terrified) [Condition](#condition). |
-| 0     | Taunt                  | 2  | Opposed by [Self-Control](#self-control-toughtough) | <br> `≤ 1` Hit: Force a designated target to attack *you* on their next Turn. <br> `= 2` Hits: Force a designated target to attack *you* on their next Turn, at Ob `+1`. <br> `≥ 3` Hits: Force up to two designated targets to attack *you* on their next Turn, at Ob `+1`. |
+| 0     | Taunt                  | 2  | Opposed by [Self-Control](#self-control-toughwit) | <br> `≤ 1` Hit: Force a designated target to attack *you* on their next Turn. <br> `= 2` Hits: Force a designated target to attack *you* on their next Turn, at Ob `+1`. <br> `≥ 3` Hits: Force up to two designated targets to attack *you* on their next Turn, at Ob `+1`. |
 | 1     | Hit That One!          | 1  |         | [Mark](#marked) a ST of choice. Moving your Mark to a different target, clears it from the previous one. |
 | 1     | Back Off, Fool!        | 1  | Opposed by [Toughness](#toughness-tough) | <br> `≤ 1` Hit: Force a designated target to back away from you for `1` Square. <br> `= 2` Hits: Force a designated target to back away from you for `2` Squares. <br> `≥ 3` Hits: Force up to two designated targets to back away from you for `2` Squares. |
 | 2     | Deep Lungs             |    | 2       | Once per Round, immediately grant yourself `+1` [AP](#action-points-ap), but suffer `-1` [Stamina](#stamina--strain). |
@@ -2603,7 +2603,7 @@ Whether you speak truth or falsehood makes no difference to your audience. You w
 
 Of course, this begs the question - how to know if another Character *is* lying? Barring any evidence or knowledge to the contrary, Characters can only determine whether they believe the *act* of the other Character. Does it *seem* like they're speaking the truth? You may Oppose their Persuasion attempt with [Observation](#observation-awarawar). But even if you succeed, your GM should not outright tell you whether you *are* being deceived. Instead, they should give you hints - faults in the *act* of the other Character - a nervous twitch, a strange pitch in the voice, avoiding eye-contact, visible sweat and similar tells. And even then, *you* will have to figure out whether you are being deceived. 
 
-If you are trying to convince someone else to act or behave a certain way, they may Oppose this with [Self-Control](#self-control-toughtough). You may also try to intimidate someone else to the same effect. Whether you succeed should largely depend on whether circumstance favors your side. You may also intimidate someone by blackmailing them. But whether you succeed depends on whether you can prove your threats aren't empty. 
+If you are trying to convince someone else to act or behave a certain way, they may Oppose this with [Self-Control](#self-control-toughwit). You may also try to intimidate someone else to the same effect. Whether you succeed should largely depend on whether circumstance favors your side. You may also intimidate someone by blackmailing them. But whether you succeed depends on whether you can prove your threats aren't empty. 
 
 Successfully persuading someone should rarely yield an absolute result. Even if your attempt has scored many Hits and your words are masterfully spoken, another Character may still remain sceptical. They may believe your words, but you won't change their entire way of thinking *just like that*. Like real people in the real world, the other Character may ponder your words for a while before agreeing or even disagreeing. But they are likely open to further conversation.
 
@@ -2615,7 +2615,7 @@ Riding and controling a mount. In and outside of [Combat](#combat), a rider will
 | 1     | Spur                 | 1  | 1      | Your mount gains `+2` AP. You and your mount suffer `+1` [Strain](#stamina--strain). May only be used once per Round. |
 | 3     | Mounted Charge       | 3  | 3      | Perform a mounted charge attack, moving up to `3` AP worth of distance, launch a free attack on a ST along the path and deal an additional... <br> `≤ 1` Hit: `3` points of Bludgeoning damage. <br> `= 2` Hits: `6` points of Bludgeoning damage. <br> `≥ 3` Hits: `10` points of Bludgeoning damage. |
 
-#### Self-Control (Tough/Tough)
+#### Self-Control (Tough/Wit)
 Mastery of one's own impulses. Used to stay awake past the point of exhaustion and to not act on emotional impulse. 
 
 ### Knowledge Skills
@@ -2728,7 +2728,7 @@ This governs the understanding of what makes defensive structures effective and 
 | 0     | Designate Key Zone     | 1  | /      | **Concentration**: Designate a zone up to `2` Squares in radius. If such a zone already exists, it is replaced with this one. The zone lasts for as long as you desire. You instruct your allies, to get the most out of this area. Once you designate a type for it, they *will* know what to do. Effects from allies' zones do not stack with this one, if their zone is of the same type. |
 | 1     | Killzone Stratagem     | 1  | 2      | If you have placed a Key Zone, turn it into a Killzone, replacing all its effects. All enemies inside the zone, who are damaged immediately die if their [HP](#health-points-hp) are brought to `2 * your Toughness + Hits` or less. | / |
 | 1     | Trenchline Stratagem   | 1  | 2      | If you have placed a Key Zone, turn it into a Trenchline Zone, replacing all its effects. All [AoE](#area-of-effect-aoe) damage that applies to you and/or your allies is reduced by `Hits * 3`. Also, your and your allies' [Stability](#stability-stabil) is increased by `+2` while in the zone. | / |
-| 2     | Fear Stratagem         | 1  | 1      | If you have placed a Key Zone, turn it into a Zone of Fear, replacing all its effects. All enemies inside this zone, who suffer damage must succeed a [Self-Control](#self-control-toughtough) Test at Ob equal to your number of Hits, or else become [Terrified](#terrified) of you or your allies inside the zone. | / |
+| 2     | Fear Stratagem         | 1  | 1      | If you have placed a Key Zone, turn it into a Zone of Fear, replacing all its effects. All enemies inside this zone, who suffer damage must succeed a [Self-Control](#self-control-toughwit) Test at Ob equal to your number of Hits, or else become [Terrified](#terrified) of you or your allies inside the zone. | / |
 | 2     | Recovery Stratagem     | 1  | 2      | If you have placed a Key Zone, turn it into a Recovery Zone, replacing all its effects. You and all allies inside this zone regain `+1` [Stamina](#stamina--strain) and your Hits as [HP](#health-points-hp), at the start of the Turn. | / |
 
 | Level | <img src="../../img/heroic-acts.svg" width="64px" height="64px"></img> | Heroic Act Description | Desperate Measure Description | <img src="../../img/desperate-measures.svg" width="64px" height="64px"></img> |
@@ -2908,7 +2908,7 @@ While you should avoid the authorities, you've some clout with the criminal unde
 
 **Prerequisites**: Proved your conviction through incredible acts of faith. And eliminated all opposition to the faith you come across. 
 
-Your [Self-Control](#self-control-toughtough) is increased by `+1`, but you suffer `+1` Ob when trying to restrain yourself in the face of enemies of your faith. You gain `+1` [Compensation Point](#compensation-points) to [Persuasion](#persuasion-witwit) Tests, but only when intimidating.
+Your [Self-Control](#self-control-toughwit) is increased by `+1`, but you suffer `+1` Ob when trying to restrain yourself in the face of enemies of your faith. You gain `+1` [Compensation Point](#compensation-points) to [Persuasion](#persuasion-witwit) Tests, but only when intimidating.
 
 ## List of Conditions
 The following is a list of all [Conditions](#condition) of the core rules. 
@@ -2919,7 +2919,7 @@ The following is a list of all [Conditions](#condition) of the core rules.
 A Character who is in **Berserk** Condition, **must** attack the creature nearest to them, regardless of whether it is friend or foe, until it is either dead or unconscious. The Berserked Character **must** then move on to the next available and closest victim. 
 
 * Graded
-* Shrug Off: `-1` point with a [Self-Control](#self-control-toughtough) [Test](#tests) with Ob `2`. 
+* Shrug Off: `-1` point with a [Self-Control](#self-control-toughwit) [Test](#tests) with Ob `2`. 
 * Automatic Shrug-Off: `-1` point at the end of the Turn. 
 * Immediate cancel: When the Character is made [Unconscious](#unconscious) or no other creatures remain alive and/or conscious.
 * Difficult repeats: Whenever shrugging off this Condition, you become **guarded** against it until the start of your next Turn, making any attack or effect enacted against you that would cause you to suffer it again `+1` Ob harder for your foes. 
@@ -2989,7 +2989,7 @@ An **Electrified** Character spasms, uncontrollably. They are force moved in a r
 
 An **Exhausted** Character begins their Turn with `-2` AP and can run at most only half the distance they normally could. [Sprinting](#combat-movement) is impossible. 
 
-While Exhausted, a Character losing further [Stamina](#stamina--strain), must succeed a [Self-Control](#self-control-toughtough) [Test](#tests) at Ob equal to `3` plus their current [negative Stamina](#stamina--strain), or else fall [Unconscious](#unconscious).
+While Exhausted, a Character losing further [Stamina](#stamina--strain), must succeed a [Self-Control](#self-control-toughwit) [Test](#tests) at Ob equal to `3` plus their current [negative Stamina](#stamina--strain), or else fall [Unconscious](#unconscious).
 
 This Condition can be recovered from by clearing [negative Stamina](#stamina--strain). 
 
@@ -3018,7 +3018,7 @@ A **Hasted** Character has an additional [AP](#action-points-ap) to spend and an
 A Character who has been made unnaturally **Jealous**, will do anything in their power to gain possession of something, whatever *it* may be, from whoever might have *it*. 
 
 * Graded
-* Shrug Off: `-1` point with a [Self-Control](#self-control-toughtough) [Test](#tests) with Ob `2`. 
+* Shrug Off: `-1` point with a [Self-Control](#self-control-toughwit) [Test](#tests) with Ob `2`. 
 * Immediate cancel: When the Character is made [Unconscious](#unconscious), the source of the jealousy is removed or the Character acquires that which they covet. 
 * Difficult repeats: Whenever shrugging off this Condition, you become **guarded** against it until the start of your next Turn, making any attack or effect enacted against you that would cause you to suffer it again `+1` Ob harder for your foes. 
 
@@ -3035,7 +3035,7 @@ A **Marked** Character suffers `-1D` to all Defense Tests and `+5` Pure damage f
 A Character who is **Pacified**, is unable to *willingly* take any action that would directly or indirectly harm any other creature. Note, the Character is not physically unable to cause harm, but they **really** don't want to. 
 
 * Graded
-* Shrug Off: `-1` point with a [Self-Control](#self-control-toughtough) [Test](#tests) with Ob `1`. 
+* Shrug Off: `-1` point with a [Self-Control](#self-control-toughwit) [Test](#tests) with Ob `1`. 
 * Immediate cancel: When the Character is made [Unconscious](#unconscious) or the source of the pacification is removed.
 * Difficult repeats: Whenever shrugging off this Condition, you become **guarded** against it until the start of your next Turn, making any attack or effect enacted against you that would cause you to suffer it again `+1` Ob harder for your foes. 
 
@@ -3076,7 +3076,7 @@ A **Stunned** Character is unable to act, at all. During combat, their Turn is s
 A **Terrified** Character **must** flee from whatever it is that terrified them, until they can no longer perceive it, for at least one Round. 
 
 * Graded
-* Shrug Off: `-1` point with a [Self-Control](#self-control-toughtough) [Test](#tests) with Ob `1`. 
+* Shrug Off: `-1` point with a [Self-Control](#self-control-toughwit) [Test](#tests) with Ob `1`. 
 * Immediate cancel: When the Character is made [Unconscious](#unconscious), the source of terror is removed or the Character can no longer perceive the source of terror in any way for a short time (`2` Turns or half a minute).
 * Difficult repeats: Whenever shrugging off this Condition, you become **guarded** against it until the start of your next Turn, making any attack or effect enacted against you that would cause you to suffer it again `+1` Ob harder for your foes. 
 
@@ -3722,7 +3722,7 @@ All melee attackers against this creature suffer `6` points of a chosen type of 
 #### Death Rattle (-2 points; +2 CR)
 Upon dying, the creature can invoke one of the following effects (you must choose one now):
 * **Explode**: Cause damage to all adjacent creatures. Choose one: `2D6 + 2 Slashing`, `2D6 Piercing`, or `2D4` of any other damage type. 
-* **Terrifying** Screech: All foes in a `10` Square AoE radius around the creature must succeed a [Self-Control](#self-control-toughtough) Test at Ob `3`, or else become [Terrified](strive-core.md#terrified) for one Round. 
+* **Terrifying** Screech: All foes in a `10` Square AoE radius around the creature must succeed a [Self-Control](#self-control-toughwit) Test at Ob `3`, or else become [Terrified](strive-core.md#terrified) for one Round. 
 * **Reprisal**: Move up to `8` and launch a final, desperate and free attack against a foe, with Ob `-1`. 
 * **Splitter**: Split into two halves, which each reform to a whole shape. They retain half of your Attributes and half your maximum HP and with current HP set to their new maximum. This split can only occur once. 
 
