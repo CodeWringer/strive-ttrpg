@@ -2069,7 +2069,7 @@ This major Demon is a horned hulking mass of bulging muscle and covered in etern
   * `≥ 3` Hits: `7` Squares far; Deals `5` Burning damage
 
 #### Greater Wendigo
-This major Demon appears is a massive half-rotted and calcified, large, bipedal Deer. Multiple pairs of red eyes and vicious claws twitch hungrily, as bony wings contrast the eerily majestic antlers.
+This major Demon looks like a massive half-rotted and calcified, hunched bipedal Deer. Multiple pairs of red eyes and vicious claws twitch hungrily, as bony wings contrast the eerily majestic antlers.
 
 * Power: Legendary, CR: `25`
 * Summoning Ob: `5`, Requirements: [Swirly Malevite Orb](#malevite) or greater
@@ -2105,10 +2105,13 @@ This major Demon appears is a massive half-rotted and calcified, large, bipedal 
   * AP: `2`, Innate
 * Breath Of Death (Tough/Tough):
   * Breathe darkness in a `5` Square AoE cone. 
-  * Level: `4`, AP: `4`, Ob: `2`, AoE, Innate
+  * Level: `5`, AP: `4`, Ob: `2`, AoE, Innate
   * `≤ 1` Hit: `3` Pure
   * `= 2` Hits: `4` Pure; All victims whose Self-Control is `≤ 2` become Terrified of you! 
   * `≥ 3` Hits: `6` Pure; All victims whose Self-Control is `≤ 3` become Terrified of you! 
+* Draw Life (Arc/Arc):
+  * With a terrible inverted howl, pull all in a `10` Square diameter AoE around you towards you by `5` Squares. You cannot suffer impact damage from this. 
+  * Level: `5`, AP: `4`, Ob: `2`, AoE, Innate
 
 #### Doom Bringer
 This major Demon is a pale biped, without a head and many pairs of arms symmetrically sticking out of its body. When it unfolds the last arm, doom is upon us all. 
