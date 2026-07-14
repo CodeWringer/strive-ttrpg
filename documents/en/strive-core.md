@@ -2006,7 +2006,7 @@ Defending against [Area Of Effect](#area-of-effect) is only possible through som
 ### Armor & Shields
 Armor serves as life insurance, because it can negate or at least reduce the damage taken, after a Defense Test has failed. Shields on the other hand provide bonuses to Defense, making it harder for an enemy to succesfully land a hit in the first place. 
 
-The specifics of armors and shields can be found in hhe [Asset appendix](#assets-appendix) of whatever module you're using. 
+The specifics of armors and shields can be found in the [Asset appendix](#assets-appendix) of whatever module you're using. 
 
 ### Defending an Ally
 It is possible for a Character to defend an adjacent ally when they're being attacked. This costs `1` [AP](#action-points-ap) and results in the Character taking over the Defense Test, instead of the originally attacked Character. 
