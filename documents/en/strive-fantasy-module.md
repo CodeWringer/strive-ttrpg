@@ -155,6 +155,8 @@ There is a [compendium document](./strive-fantasy-game-masters-resource.md) rese
     - [The Warboss](#the-warboss)
 - [Fantasy Game-Masters Resource](#fantasy-game-masters-resource)
 - [Creature Compendium](#creature-compendium)
+  - [Cursed](#cursed)
+    - [Werewolf](#werewolf)
   - [Demons](#demons)
     - [Demon Hostility](#demon-hostility)
       - [Consuming Rage](#consuming-rage)
@@ -1750,6 +1752,51 @@ This and the following sections are reserved solely for the GM's eyes. Reading o
 A by no means exhaustive list of medieval-fantasy themed creatures for the GM to draw from. 
 
 In the Characteristics blocks below, when armor is concerned, it may be noted in the form `U/F/S/O`, which are simply the pre-calculated values the armor provides under consideration of the degrees of [Flanking](./strive-core.md#flanking). The order is always: Unthreatened, Flanked, Surrounded and Overwhelmed. However, armor may also be noted as a plain value, e. g. `5`, which implies the creature does not suffer [Flanking](./strive-core.md#flanking).
+
+## Cursed
+Beings that suffer some terrible curse, both reversible and irreversible. 
+
+### Werewolf
+Whether through the bite, or blood, a Werewolf's curse transforms its victim into a horribly twisted fusion of man and beast, driven by endless hunger. 
+
+* Power: Legendary, CR: `20`
+* Roles: Ambusher, Brawler, Shock-Trooper
+  * An extremely dificult to hit, mobile brawler that benefits from moon lit battlefields. 
+* Behavior: 
+  * Constantly stalks the land in search of prey. 
+
+| Agi   | Awar  | Str   | Tough | Wit   | Arc   |
+| ----- | ----- | ----- | ----- | ----- | ----- |
+| 6     | 4     | 6     | 3     | 3     | 3     |
+
+| BI     | Sprint | Stabil | HP  | Stamina    | FS (Ranged `10`)| Def    | Armor             |
+| ------ | ------ | ------ | --- | ---------- | --------------- | ------ | ----------------- |
+| 13     | 4      | 0      | 30  | 6          | 7 Slashing      | 5D     |                   |
+
+**Traits**: [Fast](./strive-core.md#fast--2-points-1-cr); [Fortified Mind](./strive-core.md#fortified-mind--4-points-1-cr); [Hyperactive + Multi-Initiative](./strive-core.md#hyperactive--7-points-4-cr); [Gritty](./strive-core.md#gritty--5-points-4-cr); [Moon Affinity](./strive-core.md#moon-affinity--7-points-4-cr);
+
+**Assets**: None
+
+**Skills**:
+* Acrobatics (Agi/Str): Level `5`
+* Bite (Agi/Str): 
+  * Bite down hard at a ST with strong and sharp teeth. 
+  * Level: `4`, AP: `2`, Ob: Opposed, Melee, ST, Innate
+  * `≤ 1` Hit: `6` Piercing
+  * `= 2` Hits: `8` Piercing
+  * `≥ 3` Hits: `10` Piercing
+* Rend (Agi/Str): 
+  * Strike at a ST with sharp claws. 
+  * Level: `5`, AP: `2`, Ob: Opposed, Melee, ST, Innate
+  * `≤ 1` Hit: `7` Slashing
+  * `= 2` Hits: `9` Slashing; `+1` Bleeding
+  * `≥ 3` Hits: `11` Slashing; `+2` Bleeding
+* Shoot Spine (Agi/Awar): 
+  * Shoot a spine from your back at a ST, up to `10` Squares away. 
+  * Level: `4`, AP: `2`, Ob: `Opposed`, Ranged, ST, Innate
+  * `≤ 1` Hit: `4` Piercing
+  * `= 2` Hits: `5` Piercing
+  * `≥ 3` Hits: `6` Piercing
 
 ## Demons
 Beings from a hostile world that exists in parallel to our own, Demons are as vile and cruel as their home. These are some of the worst monsters any adventurer may have to face and represent an end-game level threat. 
