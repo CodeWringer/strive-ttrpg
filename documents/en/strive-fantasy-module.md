@@ -126,7 +126,7 @@ There is a [compendium document](./strive-fantasy-game-masters-resource.md) rese
       - [Werewolf-Shape](#werewolf-shape)
       - [Werebear-Shape](#werebear-shape)
     - [Cryomancy (Arc/Arc)](#cryomancy-arcarc)
-    - [Demonology (Arc/Tough)](#demonology-arctough)
+    - [Demonology (Arc/Wit)](#demonology-arcwit)
     - [Divination (Arc/Wit)](#divination-arcwit)
     - [Electromancy (Agi/Arc)](#electromancy-agiarc)
     - [Hexing (Arc/Arc)](#hexing-arcarc)
@@ -1284,7 +1284,7 @@ The summoning and control of ice. Cryomancer's can freeze things, so they're hea
 | ----- | -------------------- | -------------- | ----------- | ---------- | ------------------------------ | ------------------ | ------------------ |
 | 4     | Blizzard             | 3 Hours        | `SI`        | 1+         | **Concentration**: Cause a freezing blizzard in a `SI * 10` Squares radius, up to `SI * 10` Squares away. All creatures caught in the blizzard suffer `+1` [Frostbitten](./strive-core.md#frostbitten) per Tick and suffer `SI * 2` Freezing damage. | Pockets form within the blizzard, within which its effects are nullified. | You are frozen solid for `SI` Rounds, rendering you [Rooted](./strive-core.md#rooted) and [Stunned](./strive-core.md#stunned)! |
 
-### Demonology (Arc/Tough)
+### Demonology (Arc/Wit)
 The study, summoning and control of [Demons](#demons) - as far as they *can* be controlled. 
 
 At level `3`, your [Concentration](#concentration-spells) limit increases by `+1`!
@@ -1801,12 +1801,12 @@ Whether through the bite, or blood, a Werewolf's curse transforms its victim int
 ## Demons
 Beings from a hostile world that exists in parallel to our own, Demons are as vile and cruel as their home. These are some of the worst monsters any adventurer may have to face and represent an end-game level threat. 
 
-Thankfully, these horrid creatures cannot pass into our world easily. They require assistance to this end - [Demonologists](#demonology-arctough) may summon them, or wherever violent storms of the Arcanosphere grow too fierce, enough magical potential may tear rifts into our existence, allowing all manner of unspeakable horror to pass through.
+Thankfully, these horrid creatures cannot pass into our world easily. They require assistance to this end - [Demonologists](#demonology-arcwit) may summon them, or wherever violent storms of the Arcanosphere grow too fierce, enough magical potential may tear rifts into our existence, allowing all manner of unspeakable horror to pass through.
 
 All Demons are of an Arcane nature and possess powers foreign to this world. 
 
 ### Demon Hostility
-[Dominated](#demonology-arctough) Demons do not have access to Hostility!
+[Dominated](#demonology-arcwit) Demons do not have access to Hostility!
 
 #### Consuming Rage
 **`-5` Hostility**: The Demon begins to burn with unconsolable hatred. Its body is covered in unnatural flame that deals `3` Burning damage to all creatures adjacent to it. However, the Demon *also* suffers the damage every Turn. 
@@ -2015,7 +2015,7 @@ This minor Demon is a canid-esque quadruped covered in countless bony spines, li
 **Assets**: None
 
 **Skills**:
-* Shoot Spine: 
+* Shoot Spine (Agi/Awar): 
   * Shoot a spine from your back at a ST, up to `10` Squares away. 
   * AP: `2`, Ob: `Opposed`, Ranged, ST, Innate
   * `≤ 1` Hit: `4` Piercing
@@ -2081,7 +2081,7 @@ This major Demon is a horned hulking mass of bulging muscle and covered in etern
 
 | BI     | Sprint | Stabil | HP  | Stamina    | FS (Melee)             | Def    | Armor             |
 | ------ | ------ | ------ | --- | ---------- | ---------------------- | ------ | ----------------- |
-| 8      | 5      | 3      | 80  | 16         | 5 Slashing + 3 Burning | 1      | Burning Immune <br> 8/4/2/0 Slashing <br> 6/3/2/0 Piercing <br> 4/2/1/0 Bludgeoning <br> 4/2/1/0 Acid |
+| 8      | 5      | 3      | 80  | 16         | 5 Slashing + 3 Burning | 1      | Burning Immune <br> Double damage from Freezing <br> 8/4/2/0 Slashing <br> 6/3/2/0 Piercing <br> 4/2/1/0 Bludgeoning <br> 4/2/1/0 Acid |
 
 **Traits**: [Fortified Mind](./strive-core.md#fortified-mind--4-points-1-cr); [Leaper](./strive-core.md#leaper--3-points-2-cr); 
 
@@ -2093,21 +2093,21 @@ This major Demon is a horned hulking mass of bulging muscle and covered in etern
 * Breath Of Fire (Tough/Arc):
   * Breathe flame in a `5` Square AoE cone. 
   * Level: `4`, AP: `4`, Ob: `2`, AoE, Innate
-  * `≤ 1` Hit: `5` Burning
-  * `= 2` Hits: `6` Burning
-  * `≥ 3` Hits: `7` Burning
+  * `≤ 1` Hit: `6` Burning
+  * `= 2` Hits: `8` Burning
+  * `≥ 3` Hits: `10` Burning
 * Claw Strike (Agi/Str):
   * Strike with burning claws at everything in a `3` Square AoE cone.
   * Level: `5`, AP: `3`, Ob: `2`, Melee, AoE, Innate
-  * `≤ 1` Hit: `3` Slashing + `3` Burning
-  * `= 2` Hits: `4` Slashing + `3` Burning
-  * `≥ 3` Hits: `5` Slashing + `3` Burning
+  * `≤ 1` Hit: `5` Slashing + `3` Burning
+  * `= 2` Hits: `7` Slashing + `4` Burning
+  * `≥ 3` Hits: `10` Slashing + `5` Burning
 * Fissure (Str/Arc):
   * Strike at the ground and cause molten earthen spikes to erupt in a straight AoE line, up to `8` Squares far, piercing foes and setting them on fire, before melting into harmless sludge. 
   * Level: `4`, AP: `4`, Ob: `2`, AoE, Innate
   * `≤ 1` Hit: `3` Piercing + `3` Burning
-  * `= 2` Hits: `4` Piercing + `3` Burning
-  * `≥ 3` Hits: `5` Piercing + `3` Burning
+  * `= 2` Hits: `4` Piercing + `4` Burning
+  * `≥ 3` Hits: `5` Piercing + `5` Burning
 * Eruption (Tough/Arc):
   * Flames erupt from your body, pushing back all in a `5` Square radius around you, pushing them...
   * Level: `4`, AP: `4`, Ob: `3`, AoE, Innate
@@ -2878,12 +2878,12 @@ A bone golem with long, rope-y arms made of spinal columns, lined with knife-lik
   * `≤ 1` Hit: `2` Bludgeoning + `3` Slashing
   * `= 2` Hits: `3` Bludgeoning + `5` Slashing
   * `≥ 3` Hits: `4` Bludgeoning + `7` Slashing
-* Tail Slam (Agi/Str): 
-  * Lash out at a ST with your tail, knocking them back. 
-  * Level `4`, AP: `2`, Ob: `Opposed`, Ranged, ST, Innate
-  * `≤ 1` Hit: `2` Bludgeoning; `1` Square
-  * `= 2` Hits: `3` Bludgeoning; `2` Squares
-  * `≥ 3` Hits: `4` Bludgeoning; `3` Squares
+* Knockback (Agi/Str): 
+  * Lash out at all targets in a `5` Square AoE cone with your spinal rope-arms, knocking opponents away.
+  * Level `4`, AP: `2`, Ob: `1`, Ranged, AoE, Innate
+  * `≤ 1` Hit: `2` Bludgeoning; Knocked back `2` Squares
+  * `= 2` Hits: `3` Bludgeoning; Knocked back `3` Squares
+  * `≥ 3` Hits: `4` Bludgeoning; Knocked back `4` Squares
 
 ### Terrorghast
 A huge flesh golem with proportions like a gorilla and a strong carapace of bone. 
