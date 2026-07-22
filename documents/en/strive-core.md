@@ -3007,6 +3007,8 @@ For every point in **Frostbitten**, a Character suffers `-1` [AP](#action-points
 
 A **Grappled** Character is unable to move freely and counts as `+1` degree of [Flanked](#flanking). They can break free, by winning an [Opposed](#opposed-test) [Unarmed Combat](#unarmed-combat-agistr) [Test](#tests) against the other Character grappling them. 
 
+Additionally, a Grappled Character can no longer perform [Opportunity Attacks](#opportunity-attacks).
+
 ### Hasted
 <img src="../../img/health-condition-hasted.svg" style="width: 3rem; height: 3rem;"></img>
 
