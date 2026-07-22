@@ -166,6 +166,7 @@ There is a [compendium document](./strive-fantasy-game-masters-resource.md) rese
       - [Darkness Is Coming!](#darkness-is-coming)
       - [Drown In Grief!](#drown-in-grief)
     - [Lesser Demons](#lesser-demons)
+      - [Lesser Demon of Hatred](#lesser-demon-of-hatred)
       - [Dread Guard](#dread-guard)
       - [Faceless Hunter](#faceless-hunter)
       - [Lesser Wendigo](#lesser-wendigo)
@@ -1830,6 +1831,49 @@ All non-Demonic creatures are set on fire and suffer `4` Burning damage every Tu
 
 ### Lesser Demons
 
+#### Lesser Demon of Hatred
+This minor Demon is a horned mass of bulging muscle and covered in eternal flame. It is bipedal, with large claws and obsidian, scaly skin.
+
+* Power: Elite, CR: `20`
+* Summoning Ob: `4`, Requirements: [Murky Malevite Orb](#malevite) or greater
+* Roles: Brawler, Shock-Trooper, Tank
+  * Lesser Demons of Hatred often accompany or are summoned by a loose Greater Demon of Hatred.
+  * These lesser demons have great staying-power and single-target damage. 
+* Behavior: 
+  * Like all Demons, it is bent on the destruction of everything around it. Its hate is pure and inconsolable. 
+
+| Agi   | Awar  | Str   | Tough | Wit   | Arc   |
+| ----- | ----- | ----- | ----- | ----- | ----- |
+| 3     | 3     | 6     | 6     | 2     | 8     |
+
+| BI     | Sprint | Stabil | HP  | Stamina    | FS (Melee)             | Def    | Armor             |
+| ------ | ------ | ------ | --- | ---------- | ---------------------- | ------ | ----------------- |
+| 8      | 5      | 3      | 60  | 12         | 5 Slashing + 3 Burning | 1      | Burning Immune <br> Double damage from Freezing <br> 8/4/2/0 Slashing <br> 6/3/2/0 Piercing <br> 4/2/1/0 Bludgeoning <br> 4/2/1/0 Acid |
+
+**Traits**: [Fortified Mind](./strive-core.md#fortified-mind--4-points-1-cr); [Leaper](./strive-core.md#leaper--3-points-2-cr); 
+
+**Assets**: None
+
+**Skills**:
+* Breath Of Fire (Tough/Arc):
+  * Breathe flame in a `3` Square AoE cone. 
+  * Level: `4`, AP: `3`, Ob: `2`, AoE, Innate
+  * `≤ 1` Hit: `4` Burning
+  * `= 2` Hits: `6` Burning
+  * `≥ 3` Hits: `9` Burning
+* Charge (Str/Tough):
+  * Charge at a ST, knocking them back and engulfing them in flame.
+  * Level: `5`, AP: `3`, Ob: `Opposed`, Melee, ST, Innate
+  * `≤ 1` Hit: `5` Bludgeoning + `5` Burning; Knocked back `2` Squares
+  * `= 2` Hits: `6` Bludgeoning + `6` Burning; Knocked back `3` Squares
+  * `≥ 3` Hits: `8` Bludgeoning + `8` Burning; Knocked back `5` Squares
+* Claw Strike (Agi/Str):
+  * Strike with burning claws at a ST.
+  * Level: `5`, AP: `3`, Ob: `Opposed`, Melee, ST, Innate
+  * `≤ 1` Hit: `8` Slashing + `6` Burning
+  * `= 2` Hits: `10` Slashing + `8` Burning
+  * `≥ 3` Hits: `13` Slashing + `10` Burning
+
 #### Dread Guard
 This minor Demon towers above and punishes foes with reckless abandon. One of its bony arms morphs into a shield of bone, the other into a wicked blade.
 
@@ -1976,21 +2020,21 @@ This minor Demon has been forced into the body of a Zombie. It has deformed, as 
 * Batter (Agi/Str):
   * Strike at two adjacent MST with your fists.
   * Level: `4`, AP: `3`, Ob: `Opposed`, Melee, MST, Innate
-  * `≤ 1` Hit: `3` Bludgeoning
-  * `= 2` Hits: `4` Bludgeoning
-  * `≥ 3` Hits: `5` Bludgeoning
+  * `≤ 1` Hit: `5` Bludgeoning
+  * `= 2` Hits: `7` Bludgeoning
+  * `≥ 3` Hits: `10` Bludgeoning
 * Spew Acid (Agi/Awar): 
   * Spew acid in a `2` Square AoE cone.
   * Level: `3`, AP: `2`, Ob: `1`, AoE, Innate
-  * `≤ 1` Hit: `2` Acid
-  * `= 2` Hits: `3` Acid
-  * `≥ 3` Hits: `4` Acid
+  * `≤ 1` Hit: `4` Acid
+  * `= 2` Hits: `6` Acid
+  * `≥ 3` Hits: `9` Acid
 * Moldy Breath (Awar/Tough): 
   * Cough a deathly mold in a `2` Square AoE cone.
   * Level: `3`, AP: `2`, Ob: `1`, AoE, Innate
-  * `≤ 1` Hit: `2` Poison
-  * `= 2` Hits: `3` Poison
-  * `≥ 3` Hits: `4` Poison
+  * `≤ 1` Hit: `4` Poison
+  * `= 2` Hits: `6` Poison
+  * `≥ 3` Hits: `9` Poison
 
 #### Spineling
 This minor Demon is a canid-esque quadruped covered in countless bony spines, like a porcupine. It lacks fur, its skin is pallid and sunken, stretched taut across its bones. 
@@ -2077,13 +2121,13 @@ This major Demon is a horned hulking mass of bulging muscle and covered in etern
 
 | Agi   | Awar  | Str   | Tough | Wit   | Arc   |
 | ----- | ----- | ----- | ----- | ----- | ----- |
-| 3     | 3     | 8     | 8     | 2     | 8     |
+| 3     | 3     | 8     | 10    | 2     | 8     |
 
 | BI     | Sprint | Stabil | HP  | Stamina    | FS (Melee)             | Def    | Armor             |
 | ------ | ------ | ------ | --- | ---------- | ---------------------- | ------ | ----------------- |
-| 8      | 5      | 3      | 80  | 16         | 5 Slashing + 3 Burning | 1      | Burning Immune <br> Double damage from Freezing <br> 8/4/2/0 Slashing <br> 6/3/2/0 Piercing <br> 4/2/1/0 Bludgeoning <br> 4/2/1/0 Acid |
+| 8      | 5      | 3      | 100 | 20         | 5 Slashing + 3 Burning | 1      | Burning Immune <br> Double damage from Freezing <br> 8 Slashing <br> 6 Piercing <br> 6 Bludgeoning <br> 6 Acid |
 
-**Traits**: [Fortified Mind](./strive-core.md#fortified-mind--4-points-1-cr); [Leaper](./strive-core.md#leaper--3-points-2-cr); 
+**Traits**: [Fortified Mind](./strive-core.md#fortified-mind--4-points-1-cr); [Leaper](./strive-core.md#leaper--3-points-2-cr); [Danger Blood (Burning)](./strive-core.md#danger-blood--1-point-1-cr)
 
 **Legendary Traits**: [Hyperactive + Multi-Initiative](./strive-core.md#hyperactive--7-points-4-cr)
 
@@ -2092,28 +2136,28 @@ This major Demon is a horned hulking mass of bulging muscle and covered in etern
 **Skills**:
 * Breath Of Fire (Tough/Arc):
   * Breathe flame in a `5` Square AoE cone. 
-  * Level: `4`, AP: `4`, Ob: `2`, AoE, Innate
-  * `≤ 1` Hit: `6` Burning
-  * `= 2` Hits: `8` Burning
-  * `≥ 3` Hits: `10` Burning
+  * Level: `5`, AP: `4`, Ob: `2`, AoE, Innate
+  * `≤ 1` Hit: `10` Burning
+  * `= 2` Hits: `12` Burning
+  * `≥ 3` Hits: `15` Burning
 * Claw Strike (Agi/Str):
   * Strike with burning claws at everything in a `3` Square AoE cone.
   * Level: `5`, AP: `3`, Ob: `2`, Melee, AoE, Innate
-  * `≤ 1` Hit: `5` Slashing + `3` Burning
-  * `= 2` Hits: `7` Slashing + `4` Burning
-  * `≥ 3` Hits: `10` Slashing + `5` Burning
+  * `≤ 1` Hit: `10` Slashing + `6` Burning
+  * `= 2` Hits: `13` Slashing + `8` Burning
+  * `≥ 3` Hits: `18` Slashing + `10` Burning
 * Fissure (Str/Arc):
   * Strike at the ground and cause molten earthen spikes to erupt in a straight AoE line, up to `8` Squares far, piercing foes and setting them on fire, before melting into harmless sludge. 
   * Level: `4`, AP: `4`, Ob: `2`, AoE, Innate
-  * `≤ 1` Hit: `3` Piercing + `3` Burning
-  * `= 2` Hits: `4` Piercing + `4` Burning
-  * `≥ 3` Hits: `5` Piercing + `5` Burning
+  * `≤ 1` Hit: `8` Piercing + `6` Burning
+  * `= 2` Hits: `10` Piercing + `8` Burning
+  * `≥ 3` Hits: `12` Piercing + `10` Burning
 * Eruption (Tough/Arc):
   * Flames erupt from your body, pushing back all in a `5` Square radius around you, pushing them...
   * Level: `4`, AP: `4`, Ob: `3`, AoE, Innate
-  * `≤ 1` Hit: `3` Squares far; Deals `3` Burning damage
-  * `= 2` Hits: `5` Squares far; Deals `4` Burning damage
-  * `≥ 3` Hits: `7` Squares far; Deals `5` Burning damage
+  * `≤ 1` Hit: `4` Squares far; Deals `4` Burning damage
+  * `= 2` Hits: `6` Squares far; Deals `6` Burning damage
+  * `≥ 3` Hits: `8` Squares far; Deals `9` Burning damage
 
 #### Greater Wendigo
 This major Demon looks like a massive half-rotted and calcified, hunched bipedal Deer. Multiple pairs of red eyes and vicious claws twitch hungrily, as bony wings contrast the eerily majestic antlers.
@@ -2865,7 +2909,7 @@ A bone golem with long, rope-y arms made of spinal columns, lined with knife-lik
 
 | BI     | Sprint | Stabil | HP  | Stamina    | FS (Melee)      | Def    | Armor             |
 | ------ | ------ | ------ | --- | ---------- | --------------- | ------ | ----------------- |
-| 7      | 4      | 0      | 20  | 4          | 6 Piercing      | 2      |                   |
+| 7      | 4      | 0      | 20  | 4          | 6 Piercing      | 2D     |                   |
 
 **Traits**: [Fortified Mind](./strive-core.md#fortified-mind--4-points-1-cr)
 
@@ -2881,7 +2925,7 @@ A bone golem with long, rope-y arms made of spinal columns, lined with knife-lik
 * Knockback (Agi/Str): 
   * Lash out at all targets in a `5` Square AoE cone with your spinal rope-arms, knocking opponents away.
   * Level `4`, AP: `2`, Ob: `1`, Ranged, AoE, Innate
-  * `≤ 1` Hit: `2` Bludgeoning; Knocked back `2` Squares
+  * `≤ 1` Hit: `2` Bludgeoning; Knocked back `2` Square
   * `= 2` Hits: `3` Bludgeoning; Knocked back `3` Squares
   * `≥ 3` Hits: `4` Bludgeoning; Knocked back `4` Squares
 

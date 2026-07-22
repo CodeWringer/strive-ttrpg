@@ -3676,20 +3676,20 @@ Additions:
 * `-1` point: **Sticky**: The creature can cling to any surface, without restriction. 
 
 #### Fast (-2 points; +1 CR)
-This creature moves an additional `2` Squares, per AP spent. Exclusive with [Shambler](#shambler-2-points). 
+This creature moves an additional `+2` Squares, per AP spent. Exclusive with [Shambler](#shambler-2-points). 
 
 Additions:
-* `-N` points: Can move an additional `N` Squares per AP spent. 
+* `-N` points: Can move an additional `N * 2` Squares per AP spent. 
 
 #### Glider (-1 points; +1 CR)
-The creature can glide, but only from higher to lower elevation. 
+The creature can glide at its normal movement speed, but only from higher to lower elevation. It does not suffer damage from falling. 
 
 Additions:
 * `-1` point: **Floater**: Can also hover in mid-air. 
 * `-3` point: **Flyer**: Can move at full speed mid-air, as far and as long as it wants and at any elevation. 
 
 #### Leaper (-3 points; +2 CR)
-The creature can jump up to `6` Squares far, in a high arc, without provoking [Attacks of Opportunity](#opportunity-attacks), over the heads of its foes. The creature suffers `-1` [Stamina](#stamina--strain). 
+The creature can jump up to `6` Squares far, in a high arc, without provoking [Attacks of Opportunity](#opportunity-attacks), over the heads of its foes. This costs `-1` [AP](./strive-core.md#action-points-ap) and `-1` [Stamina](#stamina--strain). 
 
 Additions:
 * `-2` points: **Dervish**: When leaping over opponents, this creature may also launch free attacks against each of them, but with Ob `+1`.
@@ -3714,7 +3714,7 @@ Additions:
 The creature can become invisible, even in plain sight, at the cost of `3` AP. It will stay invisible for as long as it takes no offensive action. It can be detected with a successful [Observation](#observation-awarawar) or [Path-Finding](#path-finding-awarwit) Test, at Ob `3`. 
 
 #### Danger Blood (-1 point; +1 CR)
-When injured, strange-colored blood squirts out of the wound, causing `1D6` acid/poison/burning/freezing (choose one) damage to all other, adjacent creatures. 
+When damaged, strange-colored blood squirts out of the wound, causing `4` Acid/Poison/Burning/Freezing (choose one) damage to all other, adjacent creatures. 
 
 #### Danger-Touch (-3 points; +2 CR)
 All melee attackers against this creature suffer `6` points of a chosen type of damage, even if they miss. 
