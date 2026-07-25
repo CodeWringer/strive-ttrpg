@@ -175,6 +175,9 @@ There is a [compendium document](./strive-fantasy-game-masters-resource.md) rese
       - [Taskmaster](#taskmaster)
     - [Greater Demons](#greater-demons)
       - [Greater Demon Of Hatred](#greater-demon-of-hatred)
+        - [First Stage](#first-stage)
+        - [Second Stage](#second-stage)
+          - [Unstoppable Hatred](#unstoppable-hatred)
       - [Greater Wendigo](#greater-wendigo)
       - [Doom Bringer](#doom-bringer)
       - [Hollow Gazer](#hollow-gazer)
@@ -2112,6 +2115,7 @@ This minor Demon appears to be some sort of stone-golem. Molten lava drips from 
 This major Demon is a horned hulking mass of bulging muscle and covered in eternal flame. It is bipedal, with large claws and obsidian, scaly skin.
 
 * Power: Legendary, CR: `30`
+  * Intended as a boss encounter, this creature has two phases. When its HP are depleted for the first time, it enters its second stage. In the second stage, it regains all HP, becomes enraged and starts burning up.
 * Summoning Ob: `6`, Requirements: [Swirly Malevite Orb](#malevite) or greater
 * Roles: Brawler, Disruptor, Tank
   * The Greater Demon Of Hatred is a legendary Demon. It does not yield and shows no quarter.
@@ -2123,41 +2127,82 @@ This major Demon is a horned hulking mass of bulging muscle and covered in etern
 | ----- | ----- | ----- | ----- | ----- | ----- |
 | 3     | 3     | 8     | 10    | 2     | 8     |
 
-| BI     | Sprint | Stabil | HP  | Stamina    | FS (Melee)             | Def    | Armor             |
-| ------ | ------ | ------ | --- | ---------- | ---------------------- | ------ | ----------------- |
-| 8      | 5      | 3      | 100 | 20         | 5 Slashing + 3 Burning | 1      | Burning Immune <br> Double damage from Freezing <br> 8 Slashing <br> 6 Piercing <br> 6 Bludgeoning <br> 6 Acid |
-
 **Traits**: [Fortified Mind](./strive-core.md#fortified-mind--4-points-1-cr); [Leaper](./strive-core.md#leaper--3-points-2-cr); [Danger Blood (Burning)](./strive-core.md#danger-blood--1-point-1-cr)
 
-**Legendary Traits**: [Hyperactive + Multi-Initiative](./strive-core.md#hyperactive--7-points-4-cr)
-
 **Assets**: None
+
+##### First Stage
+Flames dance across the Demon's obsidian skin and it roars with ferocity - yet also with restraint. 
+
+| BI     | Sprint | Stabil | HP  | Stamina    | FS (Melee)                   | Def    | Armor             |
+| ------ | ------ | ------ | --- | ---------- | ---------------------------- | ------ | ----------------- |
+| 8      | 5      | 6      | 100 | 20         | 5 Slashing + 3 Burning (= 8) | 2D     | Burning Immune <br> -5 Freezing <br> 8 Slashing <br> 6 Piercing <br> 6 Bludgeoning <br> 6 Acid |
+
+**Legendary Traits**: [Hyperactive + Multi-Initiative](./strive-core.md#hyperactive--7-points-4-cr)
 
 **Skills**:
 * Breath Of Fire (Tough/Arc):
   * Breathe flame in a `5` Square AoE cone. 
-  * Level: `5`, AP: `4`, Ob: `2`, AoE, Innate
-  * `≤ 1` Hit: `10` Burning
-  * `= 2` Hits: `12` Burning
-  * `≥ 3` Hits: `15` Burning
+  * Level: `8`, AP: `4`, Ob: `2`, AoE, Innate
+  * `≤ 1` Hit: `8` Burning
+  * `= 2` Hits: `9` Burning
+  * `≥ 3` Hits: `10` Burning
 * Claw Strike (Agi/Str):
-  * Strike with burning claws at everything in a `3` Square AoE cone.
-  * Level: `5`, AP: `3`, Ob: `2`, Melee, AoE, Innate
-  * `≤ 1` Hit: `10` Slashing + `6` Burning
-  * `= 2` Hits: `13` Slashing + `8` Burning
-  * `≥ 3` Hits: `18` Slashing + `10` Burning
+  * Strike with fiery claws at everything in a `3` Square AoE cone.
+  * Level: `8`, AP: `2`, Ob: `2`, Melee, AoE, Innate
+  * `≤ 1` Hit: `10` Slashing + `4` Burning
+  * `= 2` Hits: `13` Slashing + `5` Burning
+  * `≥ 3` Hits: `18` Slashing + `6` Burning
 * Fissure (Str/Arc):
   * Strike at the ground and cause molten earthen spikes to erupt in a straight AoE line, up to `8` Squares far, piercing foes and setting them on fire, before melting into harmless sludge. 
-  * Level: `4`, AP: `4`, Ob: `2`, AoE, Innate
-  * `≤ 1` Hit: `8` Piercing + `6` Burning
-  * `= 2` Hits: `10` Piercing + `8` Burning
-  * `≥ 3` Hits: `12` Piercing + `10` Burning
+  * Level: `8`, AP: `4`, Ob: `2`, AoE, Innate
+  * `≤ 1` Hit: `8` Piercing + `4` Burning
+  * `= 2` Hits: `10` Piercing + `5` Burning
+  * `≥ 3` Hits: `12` Piercing + `6` Burning
 * Eruption (Tough/Arc):
   * Flames erupt from your body, pushing back all in a `5` Square radius around you, pushing them...
-  * Level: `4`, AP: `4`, Ob: `3`, AoE, Innate
-  * `≤ 1` Hit: `4` Squares far; Deals `4` Burning damage
-  * `= 2` Hits: `6` Squares far; Deals `6` Burning damage
-  * `≥ 3` Hits: `8` Squares far; Deals `9` Burning damage
+  * Level: `6`, AP: `2`, Ob: `3`, AoE, Innate
+  * `≤ 1` Hit: `4` Squares far; `4` Burning damage
+  * `= 2` Hits: `6` Squares far; `6` Burning damage
+  * `≥ 3` Hits: `8` Squares far; `9` Burning damage
+
+##### Second Stage
+The Demon's form vanishes in a sea of fire, which rages and roars with unbridled aggression, as if reaching for foes. At the start of every Round, it loses `5` HP.
+
+| BI     | Sprint | Stabil | HP  | Stamina    | FS (Melee)                   | Def    | Armor             |
+| ------ | ------ | ------ | --- | ---------- | ---------------------------- | ------ | ----------------- |
+| 8      | 5      | 6      | 100 | 20         | 5 Slashing + 3 Burning (= 8) | 2D     | Burning Immune <br> 5 Freezing <br> 8 Slashing <br> 6 Piercing <br> 6 Bludgeoning <br> 6 Acid |
+
+**Legendary Traits**: [Unstoppable Hatred](#seething-hatred)
+
+**Skills**:
+* Breath Of Hate (Tough/Arc):
+  * Breathe flame in a `8` Square AoE cone. 
+  * Level: `8`, AP: `4`, Ob: `2`, AoE, Innate
+  * `≤ 1` Hit: `10` Burning; Knock-back `2` Squares
+  * `= 2` Hits: `12` Burning; Knock-back `3` Squares
+  * `≥ 3` Hits: `15` Burning; Knock-back `4` Squares
+* Claw Strike (Agi/Str):
+  * Strike with red-hot claws at everything in a `3` Square AoE cone.
+  * Level: `8`, AP: `2`, Ob: `2`, Melee, AoE, Innate
+  * `≤ 1` Hit: `10` Slashing + `6` Burning; Knock-back `3` Squares
+  * `= 2` Hits: `13` Slashing + `8` Burning; Knock-back `4` Squares
+  * `≥ 3` Hits: `18` Slashing + `10` Burning; Knock-back `5` Squares
+* Seek Revenge (Str/Arc):
+  * **Reaction**: Upon suffering damage, leap to the ST foe who dealt it, and slam into them with both massive fists.
+  * Level: `4`, AP: `1`, Ob: `Opposed`, Melee, ST, Innate
+  * `≤ 1` Hit: `8` Bludgeoning + `6` Burning
+  * `= 2` Hits: `10` Bludgeoning + `8` Burning
+  * `≥ 3` Hits: `12` Bludgeoning + `10` Burning
+* Flaming Whip (Tough/Arc):
+  * Whip solid flame at a ST, up to `8` Squares away, and draw them closer.
+  * Level: `6`, AP: `1`, Ob: `Opposed`, Ranged, ST, Innate
+  * `≤ 1` Hit: Pull `6`; `4` Burning damage
+  * `= 2` Hits: Pull `7`; `6` Burning damage
+  * `≥ 3` Hits: Pull `8`; `9` Burning damage
+
+###### Unstoppable Hatred
+Nothing will stop the Demon's fire, and it *will* have ***revenge***. It can now move freely, at no AP cost, but only if it has AP left to spend. It leaves behind a burning trail, that deals `5` Burning damage to all others and lasts `1` Round. 
 
 #### Greater Wendigo
 This major Demon looks like a massive half-rotted and calcified, hunched bipedal Deer. Multiple pairs of red eyes and vicious claws twitch hungrily, as bony wings contrast the eerily majestic antlers.
