@@ -1,53 +1,119 @@
 <div style="text-align: center; font-size: 6rem">STRIVE</div>
-<div style="text-align: center; font-size: 1rem">Version 26 (Playtest)</div>
+<div style="text-align: center; font-size: 2rem">Heroic, Tactical, Evolving, World-Builder Friendly</div>
+<div style="text-align: center; font-size: 1rem">Version 27</div>
 
 # Introduction
-**STRIVE** is a table-top role-playing game (TTRPG), requiring a **game master (GM)** and at least one **player** to play and at its core, is about **emergent storytelling**, **tactical combat** and **heroic** Characters. Players experience the **evolution** of their **Player Character (PC)** by defining convictions that **drive** them to action, based on the events they experience. In that way, players also **drive** the story forward and guide the evolution of the world. 
+**STRIVE** is a table-top role-playing game (TTRPG), requiring a **game master (GM)** and at least one **player** to play. Play itself works as a conversation, in which players tell the GM what their Characters attempt to do and the GM determines what actually happens. The rules outlined in this document, supplementary documents and a set of dice are used to help with that. <br>
+On the spectrum of *narrative-driven*, *game-y* and *simulationist*, STRIVE aims for the region between game-y and narrative-driven, while leaning heavily towards game-y. It understands itself as a game and the rules contained herein will often reflect that by making broad abstractions and even some unrealistic assertions - all for the goal of keeping the game easier to learn and more fun to experience. 
 
-Play itself works as a conversation, in which players tell the GM what their Characters attempt to do and the GM determines what happens when they do. The rules outlined in this document, supplementary documents and a set of dice are used to determine whether things play out as the players have envisioned. 
+But what is it *about*? Condensed down to a single sentence:
 
-STRIVE understands itself first and foremost as a rule system. *This* document is designed as an unobtrusive reference which you are expected to read once, and after that only open to quickly look up whatever rule you currently need to re-familiarize yourself with. The system is aimed at GMs who enjoy doing their own world-building or who want to bring a particular world they like to the table. As such, no setting or theme is imposed, so that you may choose your own. Of course, this implies that adaptability and extensibility are a key ingredient. You are expressly encouraged to hack the system, to make it fit whatever setting and theme you decide on. And if you'd like some guidance or inspiration along the way, one of the supplemental modules may provide what you seek. 
+> STRIVE is a TTRPG about **Heroic Characters** who overcome challenges, both inside and outside of **Tactical Combat**, who **Grow and Change Organically** over the course of **Long-Running Campaigns** and is built specifically for people who love to do their own **World-Building**. 
+
+There is a lot to unpack from these few words alone, so let's examine each in detail. 
+
+When reading on, don't let oddly capitalized words distract you. These are simply all the game mechanical terms, made to stand out on purpose, to hint they also have a game mechanical meaning. 
+
+## Heroic
+Many of the systems of STRIVE promote a distinctly heroic style of play. There is a strong emphasis on player and Character **agency**.
+
+There are buffers between death and full strength and when Characters are hurt, they can fully recover, given enough time. Your Characters are expected to keep advancing, potentially outgrowing threats and becoming capable of achieving legendary feats. Bad luck and poor rolls are unlikely to kill a Character - the Fate and Momentum systems allow you to exert a strong influence over a roll's or fight's outcome. 
+
+You may choose to play without the Momentum system for a less heroic style of game. Even so, the game is ill suited to horror or grimdark. STRIVE aims for long-running campaigns, wherein players and their Characters form strong bonds with NPCs and shape parts of the world to their own whims. This requires PCs to last a long time, as otherwise the bonds they form become meaningless and their achievements disconnected from their player. PCs may still perish, when they get in way over their heads, but the end will be a defiant struggle, with lots of room for dramatic moments. 
+
+A meta-currency, called **Fate Points** is earned by *players*, through role-play and normal game play. Fate Points allow buying **Fate Cards**, which give players access to powerful meta-powers that can be enacted at *any* time, allowing for truly decisive achievements. 
+
+## Tactical
+First of all, STRIVE is **not a wargame**. It is not about coordinating large troop movements, managing supply lines or establishing chains of command (although you can feature such things in your game if you like). 
+
+Secondly, the game is **not *about* tactics**, either. However, the game features *tactical combat* in the sense that Characters take Turns, move on a grid of squares or hexagons and have a limited number of actions they can take each Turn. The position of enemies and allies matters and even the battlefield itself may have an impact on the decisions to be made. There may be objectives, choke-points and hazards which the players are expected to deal with or exploit to their advantage. 
+
+The very capabilities of Characters are in themselves a puzzle. There are many options to choose from for building and playing a Character. There are often multiple choices available for deciding *how* a Character will move, attack or defend. 
+
+Lastly, while the game features Health Points, it also features Injuries. When a Character suffers enough damage, an Injury is inflicted upon them. And Injuries spell *serious trouble* that reduce the Character's efficacy. Recovery from Injuries is expected to take time. This implies plenty of down-time for combat-heavy parties, which is time that can be spent on professions, hobbies and scheming. Although, you may accelerate the healing process, if you prefer. 
+
+## Character Evolution
+Players define **long-term and short-term goals** for their Characters. The GM is expected to work those goals into the story, thus letting the players indirectly influence the narrative on a meta-level that is guaranteed to be interesting to them and their Character. As events unfold in the story, their goals may change or come to fruition. Both achieved and aborted goals may have an impact on a Character. As a result, their personality may change and they may gain renown for their deeds. 
+
+Another aspect of Character growth is manifested through their Attributes and Skills. These **abilities are learned and improved over time**, through use. Generalist Characters benefit from varied knowledge, while specialists enjoy powerful special capabilities. Over the course of a long-running game, the abilities the Characters have learned would be capable of telling stories of their own. 
+
+In the end, neither the players, nor the GM may ever quite know in what direction the Characters will develop. They're like a book you start writing from the beginning - not the ending. 
+
+## Long-Running Campaigns
+In TTRPG terminology, a *Campaign* is a series of adventures, that may be connected or completely independent, that the same Characters experience, as a group and which (loosely) follows an overarching narrative. <br>
+That is a very broad description, but is sufficient for the purposes of this document. 
 
 The system is best suited for long-term "sandbox" style games, running indefinitely. One-shots are possible but may not provide the best experience, as several of the system's mechanics require breaks in play. More narrowly directed experiences are possible, but may require some shortcuts to be taken when it comes to *time* - how long it takes to recover from injuries and illnesses, how long it takes to craft and to practice, and so on. 
 
-On the spectrum of *narrative-driven*, *game-y* and *simulationist*, STRIVE aims for the region between game-y and narrative-driven, while leaning heavily towards game-y. It understands itself as a game and the rules contained herein will often reflect that by making broad abstractions and even some unrealistic assertions - all for the goal of keeping the game easier to learn and more fun to experience. 
+## Word-Builder Friendly
+The last, but by no means last focus point of STRIVE is the fact that it is aimed at GMs and players who enjoy doing their own world-building. To support this feature, STRIVE is designed to be modular and easily extensible. You are encouraged to hack and adapt the system to fit your needs.
 
-Most rules have a certain degree of vagueness to them. This is at least partially deliberate. The situations that can come up during play are simply too varied and numerous to possibly cover completely with rules, without requiring epic tomes filled to the brim with highly specific rulings for highly specific situations. Instead, the game relies on the GM to arbitrate in most situations. The descriptions in the rules here should serve as a point of orientation for the GM. How *they* interpret the rules, is how the rules are to be understood. 
+By default, you are not forced to support a specific world or theme. These things are deliberately left in your hands. You may bring any world you like and adapt STRIVE to work within it. However, if you feel daunted by all the heavy lifting that implies, STRIVE's supplements, called **Modules** may lift much of that burden from you. 
 
-## Tactical Combat
-First of all, STRIVE is **not** a wargame. It is not about coordinating large troop movements, supply lines or chains of command (although you can feature such things in your game if you like). 
+The Game Mastery chapter provides guidance on how to create your own NPCs and creatures - your most important tools in a TTRPG - and Modules may introduce even more tool kits for you to work with.
 
-Secondly, the game is not *about* tactics, either. However, the combat *is tactical* in the sense that turn-based combat with varied challenges and *tactical thinking* is a main feature of the game. Combat is expected to take place on a grid of squares or hexagons. The position of enemies and allies matters and the battlefield itself may have an impact on the decisions to be made. The battlefield may have objectives, choke-points and hazards which the players are expected to deal with or exploit to their advantage. All Characters act in turns, but players are expected to coordinate their characters' actions. 
+### Modular
+A STRIVE Module extends or alters the core rules, to support a specific fantasy or add additional features to the game. There may even be Modules to provide worlds for you to play with. By default, you will require at least one theme-adding Module to be able to play the game properly. 
 
-Thirdly, the very capabilities of Characters are in themselves a puzzle. There are many options to choose from for building and playing a Character. There are often multiple choices available for deciding *how* a Character will move, attack or defend. 
+For example, the Fantasy Module adds fantasy medieval themed Skills and Assets and a magic system. If that is the type of theme you are looking for, it may get you started faster. 
 
-Lastly, while the game features Health Points, it also features injuries. When a Character suffers enough damage, an injury is inflicted upon them. And injuries spell *serious trouble* that reduce that Character's efficacy. Recovery from injuries is expected to take time. This implies plenty of down-time for combat-heavy parties, which is time that can be spent on professions, hobbies and scheming. 
+# How To Read This Document
+STRIVE understands itself first and foremost as a rule system. *This* document is designed as an unobtrusive reference which you are expected to read once, and after that only open to quickly look up whatever rule you currently need to re-familiarize yourself with.
 
-## Character Evolution
-Players define long-term and short-term goals for their Characters. It is then the GM's job to work those goals into the story. Thus, players directly influence the narrative on a meta-level that is guaranteed to be interesting to them and their Character. 
+Most rules have a certain degree of vagueness to them. This is at least partially deliberate as the situations that can come up during play are simply too varied and numerous to possibly cover completely with rules, without requiring epic tomes filled to the brim with highly specific rulings for highly specific situations. Instead, the game relies on the GM to arbitrate in most situations. The rules herein serve as a point of orientation for the GM. How *they* interpret the rules, is how the rules are to be understood. 
 
-Of course, a GM's capabilities may be limited, either by experience, theme or setting of the game they've set up. And so, they don't *have* to make unreasonable goals be realisticaly achievable. In fact, unrealistic goals are just as acceptable, as achievable ones. 
+Whenever you come across a capitalized term, it has some game mechanical meaning and can be found in the [glossary](#glossary) for quick look-up. 
 
-And regardless of *what* the goals are, they are sure to drive the PCs into action. Every goal they pursue, is sure to leave an impact on them. What's more, recent and upcoming events of the narrative may also be picked up by PCs and become the basis of their goals and affect their personality. In this way, players and GM never quite know what direction the PCs will develop. They're like a book you start writing from the beginning - not the ending. 
+# Credits & Honorable Mentions
+**Designer**: Nicolas 'Krubi' H.
 
-Another aspect of Character evolution is manifested by their Attributes and Skills. These abilities are learned and improved over time. Generalist Characters benefit from varied knowledge, while specialists enjoy unique abilities. Over the course of a long-running game, the abilities the Characters have learned would be capable of telling stories of their own. 
+There are my two small, yet inexorable groups of play-testers, whose feedback has been invaluable and without whom this game would not be any where near as complete! It is them who keep me motivated and whose excitement for STRIVE is reflected in me!
 
-Furthermore, a meta-currency, called **Fate Points** is earned by *players*, based on what they and their Character do in a session. These allow buying Fate Cards, which give players access to powerful meta-powers that can be enacted at any time, allowing for truly decisive achievements. 
+And of course, such a project did not come into existence in a vacuum. Inspiration and lessons were found in a variety of places, such as other TTRPGs. Each of them deserves an honorable mention and in what ways they differ from STRIVE. It bears stating here that neither STRIVE, nor I as its designer, are in any way affiliated with, sponsored or endorsed by the products and website mentioned below. These are simply honorable mentions of other RPGs and sources for inspiration. 
 
-## Heroic
-Many of the systems of STRIVE promote a distinctly heroic style of play. There are buffers between death and full strength. And when Characters are hurt, they can fully recover, given enough time. Your Characters are expected to keep advancing, potentially outgrowing threats and becoming capable of achieving legendary feats. Bad luck and poor rolls are very unlikely to kill a Character - the Fate and Momentum systems allow you to exert a strong influence over a roll's or fight's outcome. 
+* If you are interested in a medieval fantasy world and enjoy the Aspiration, Reaction and Fate-Card systems, but care little for STRIVE's emphasis on combat, **Burning Wheel** may be what you seek. 
+* For heroic medieval fantasy, where combat is the core - even more so than in STRIVE -, check out **Draw Steel**. Its unique Malice mechanic and how combatants are constantly moved around keeps combat interesting all throughout.
+* **Symbaroum** offers haunting and marvelous artworks in an equally fascinating dark medieval fantasy world. The way in which you can customize your Character builds are plentiful and really fun to experiment with! Skill Expertises and some Traits were inspired by this system.
+* For grim dark fantasy, with a more complex injury system, take a look at **Zweihänder**, which in turn appears inspired by **Warhammer Fantasy**. Its list of professions and skills offers an incredible wealth of Character customization! 
+* **The Black Eye**, or **Das Schwarze Auge** in German, which leans very heavily into the simulationist spectrum, with intricate systems for almost everything, a fully worked out world in a medieval fantasy setting and with a unique way of handling skill tests. Rolling three dice and letting the skill's level compensate for bad rolls is quite unique, which partly inspired STRIVE's dice mechanics. 
+* The Momentum system was inspired by the video-game **Rogue Trader**, which has its own version of such a system. It is a great Classic RPG set in the Warhammer 40K universe. 
 
-You may choose to play without the Momentum system for a less heroic style of game. If you want any other experience, such as horror or grimdark, you will need to adjust how Injury recovery works. Or play a different game. STRIVE aims for long-running campaigns, wherein players and their Characters form strong bonds with NPCs and shape parts of the world to their own whims. This requires PCs to last a long time, or otherwise the bonds they form become meaningless and their achievements disconnected from their player. PCs may still perish, if they get in way over their heads. But the end will be a defiant struggle, with lots of room for dramatic moments. 
+Also worth mentioning is the RPG Design subreddit, where one can find many in-depth analyses about game mechanics. Many lessons may be found here, which, with some effort, can be molded into concrete mechanics for your own rpg.
+
+# License
+STRIVE may be freely available, but that does not mean you may do everything you want with it. If you only want to play STRIVE, this license needn't worry you too much (you should still read and know it) and while I still stand by my claim that STRIVE lives off its extensibility and that you are absolutely encouraged to create your own works based on STRIVE, also know that STRIVE has been a lot of work and a labor of love that I ask to be respected. Basically, the license outlined below (this paragragh is not part thereof) covers my butt legally, while stating I want STRIVE to be credited in your own works based upon it. What's not covered by the license is that I would love to hear about your own works based on STRIVE! Whether it be adventures, themes, settings, more Skills, more mechanics or what you consider improvements or corrections for existing mechanics would be most interesting to hear about! Now be careful, there be *Legalese* ahead.
+
+By using STRIVE (that includes but is not limited to viewing, reading, referencing and playing it), for whatever purpose, you agree to the following terms:
+
+* By adhering to these terms, you are allowed to publish your own original works based upon and/or compatible with STRIVE, without requiring express permission from the designer ("Nicolas 'Krubi' H.", "Me", "I", "My" or "Mine"), both for personal and commercial use. 
+* You may only use and/or reference STRIVE starting from version 26 and onward. Older versions of this document may still be available for viewing only, but you may not base your own works upon or declare them compatible with such versions. 
+* You agree not to copy or reproduce any art, icon, illustration or font contained in this document without My explicit permission in writing. 
+  * However, you may produce your own original art, icons, illustrations and fonts in the same style, without requiring permission.
+* You may freely reuse and reference any gameplay mechanics (= rules) in this document and even use the same names and terminology. 
+  * You may even reuse the text describing the mechanics. However, in doing so, you also agree to place the following text in a visible location of your product (e. g. the website where you promote it or in the credits section of your own product): "This product uses and/or references mechanics from the STRIVE-TTRPG, version 26"
+* You may not claim or give the impression that your product is an official STRIVE product, that I endorse or sponsor it or that it is in any other way affiliated with Me.  
+  * You may however freely state your product to be compatible with or based upon STRIVE. 
+* I take no responsibility for any legal claims against your product. You agree not to bring any claim against Me based upon or arising from your use of STRIVE and its content. 
+* Any legal disputes, controversies or claims related to this license shall be governed and construed in accordance with the laws of Hamburg and be heard before a court in Germany.
+* You agree to defend, indemnify, and hold Me and My afilliates harmless from and against any liability, claims, actions, demands, and damages (including attorney's fees and costs) arising from or relating to your product or your exercise of any rights granted in this license. 
+* You agree that your product will not violate or infringe the intellectual property rights of any third party. 
+* I may modify or revise this license at any time at My sole discretion, and by posting a notice about the change in a visible place (i. e. the releases section of my GitHub project online https://github.com/CodeWringer/strive-ttrpg/releases). The modification or revision will become effective immediately upon such a posting. You are responsible for checking the license regularly for changes, and you waive any right to receive specific notice of changes. 
+  * License amendments or modifications will not become effective retroactively. They become effective immediately upon posting, but only for the version of this document they were posted with. If you do not agree to a newer version of the license, your work may continue to be based on an older version of STRIVE, but only starting from STRIVE version 26, and in doing so, you also agree to visibly state which version of STRIVE your work is based on. 
+* If you fail to comply with this license, your rights under this license terminate automatically and without notice. On termination of this license, you agree to immediately stop sharing or distributing any product created under this license. 
 
 # Table of Contents
 - [Introduction](#introduction)
-  - [Tactical Combat](#tactical-combat)
-  - [Character Evolution](#character-evolution)
   - [Heroic](#heroic)
-- [Table of Contents](#table-of-contents)
-- [Glossary](#glossary)
+  - [Tactical](#tactical)
+  - [Character Evolution](#character-evolution)
+  - [Long-Running Campaigns](#long-running-campaigns)
+  - [Word-Builder Friendly](#word-builder-friendly)
+    - [Modular](#modular)
+- [How To Read This Document](#how-to-read-this-document)
 - [Credits \& Honorable Mentions](#credits--honorable-mentions)
 - [License](#license)
+- [Table of Contents](#table-of-contents)
+- [Glossary](#glossary)
 - [How to Play](#how-to-play)
   - [Distances \& The Grid](#distances--the-grid)
   - [Dice](#dice)
@@ -625,43 +691,6 @@ As STRIVE is meant primarily as a rule-book to help you quickly find what you ne
 | [Very Slow Reload](#very-slow-reload)                       | A weapon Trait that for a weapon that must be reloaded after every use, at the cost of more AP. |
 | [Virtue / Vice](#virtues--vices)                            | Describes a Character's way of thinking and how they should act, in general. |
 | [Wit (Wit)](#wit-wit)                                       | An Attribute that describes a Character's sharpness of mind and tongue. Finds use in determining Base Initiative. |
-
-# Credits & Honorable Mentions
-**Designer**: Nicolas 'Krubi' H.
-
-There are my two small, yet inexorable groups of play-testers, whose feedback has been invaluable and without whom this game would not be any where near as complete! It is them who keep me motivated and whose excitement for STRIVE is reflected in me!
-
-And of course, such a project did not come into existence in a vacuum. Inspiration and lessons were found in a variety of places, such as other TTRPGs. Each of them deserves an honorable mention and in what ways they differ from STRIVE. It bears stating here that neither STRIVE, nor I as its designer, are in any way affiliated with, sponsored or endorsed by the products and website mentioned below. These are simply honorable mentions of other RPGs and sources for inspiration. 
-
-* If you are interested in a medieval fantasy world and enjoy the Aspiration, Reaction and Fate-Card systems, but care little for STRIVE's emphasis on combat, **Burning Wheel** may be what you seek. 
-* For heroic medieval fantasy, where combat is the core - even more so than in STRIVE -, check out **Draw Steel**. Its unique Malice mechanic and how combatants are constantly moved around keeps combat interesting all throughout.
-* **Symbaroum** offers haunting and marvelous artworks in an equally fascinating dark medieval fantasy world. The way in which you can customize your Character builds are plentiful and really fun to experiment with! Skill Expertises and some Traits were inspired by this system.
-* For grim dark fantasy, with a more complex injury system, take a look at **Zweihänder**, which in turn appears inspired by **Warhammer Fantasy**. Its list of professions and skills offers an incredible wealth of Character customization! 
-* **The Black Eye**, or **Das Schwarze Auge** in German, which leans very heavily into the simulationist spectrum, with intricate systems for almost everything, a fully worked out world in a medieval fantasy setting and with a unique way of handling skill tests. Rolling three dice and letting the skill's level compensate for bad rolls is quite unique, which partly inspired STRIVE's dice mechanics. 
-* The Momentum system was inspired by the video-game **Rogue Trader**, which has its own version of such a system. It is a very competent Classic RPG set in the Warhammer 40K universe. 
-
-Also worth mentioning is the RPG Design subreddit, where one can find many in-depth analyses about game mechanics. Many lessons may be found here, which, with some effort, can be molded into concrete mechanics for your own rpg.
-
-# License
-STRIVE may be freely available, but that does not mean you may do everything you want with it. If you only want to play STRIVE, this license needn't worry you too much (you should still read and know it) and while I still stand by my claim that STRIVE lives off its extensibility and that you are absolutely encouraged to create your own works based on STRIVE, also know that STRIVE has been a lot of work and a labor of love that I ask to be respected. Basically, the license outlined below (this paragragh is not part thereof) covers my butt legally, while stating I want STRIVE to be credited in your own works based upon it. What's not covered by the license is that I would love to hear about your own works based on STRIVE! Whether it be adventures, themes, settings, more Skills, more mechanics or what you consider improvements or corrections for existing mechanics would be most interesting to hear about! Now be careful, there be *Legalese* ahead.
-
-By using STRIVE (that includes but is not limited to viewing, reading, referencing and playing it), for whatever purpose, you agree to the following terms:
-
-* By adhering to these terms, you are allowed to publish your own original works based upon and/or compatible with STRIVE, without requiring express permission from the designer ("Nicolas 'Krubi' H.", "Me", "I", "My" or "Mine"), both for personal and commercial use. 
-* You may only use and/or reference STRIVE starting from version 26 and onward. Older versions of this document may still be available for viewing only, but you may not base your own works upon or declare them compatible with such versions. 
-* You agree not to copy or reproduce any art, icon, illustration or font contained in this document without My explicit permission in writing. 
-  * However, you may produce your own original art, icons, illustrations and fonts in the same style, without requiring permission.
-* You may freely reuse and reference any gameplay mechanics (= rules) in this document and even use the same names and terminology. 
-  * You may even reuse the text describing the mechanics. However, in doing so, you also agree to place the following text in a visible location of your product (e. g. the website where you promote it or in the credits section of your own product): "This product uses and/or references mechanics from the STRIVE-TTRPG, version 26"
-* You may not claim or give the impression that your product is an official STRIVE product, that I endorse or sponsor it or that it is in any other way affiliated with Me.  
-  * You may however freely state your product to be compatible with or based upon STRIVE. 
-* I take no responsibility for any legal claims against your product. You agree not to bring any claim against Me based upon or arising from your use of STRIVE and its content. 
-* Any legal disputes, controversies or claims related to this license shall be governed and construed in accordance with the laws of Hamburg and be heard before a court in Germany.
-* You agree to defend, indemnify, and hold Me and My afilliates harmless from and against any liability, claims, actions, demands, and damages (including attorney's fees and costs) arising from or relating to your product or your exercise of any rights granted in this license. 
-* You agree that your product will not violate or infringe the intellectual property rights of any third party. 
-* I may modify or revise this license at any time at My sole discretion, and by posting a notice about the change in a visible place (i. e. the releases section of my GitHub project online https://github.com/CodeWringer/strive-ttrpg/releases). The modification or revision will become effective immediately upon such a posting. You are responsible for checking the license regularly for changes, and you waive any right to receive specific notice of changes. 
-  * License amendments or modifications will not become effective retroactively. They become effective immediately upon posting, but only for the version of this document they were posted with. If you do not agree to a newer version of the license, your work may continue to be based on an older version of STRIVE, but only starting from STRIVE version 26, and in doing so, you also agree to visibly state which version of STRIVE your work is based on. 
-* If you fail to comply with this license, your rights under this license terminate automatically and without notice. On termination of this license, you agree to immediately stop sharing or distributing any product created under this license. 
 
 # How to Play
 As **STRIVE** is a **roleplaying game**, there are certain rules to follow and expectations made of both players and GM. 
