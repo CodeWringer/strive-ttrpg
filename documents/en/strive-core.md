@@ -46,7 +46,7 @@ That is a very broad description, but is sufficient for the purposes of this doc
 The system is best suited for long-term "sandbox" style games, running indefinitely. One-shots are possible but may not provide the best experience, as several of the system's mechanics require breaks in play. More narrowly directed experiences are possible, but may require some shortcuts to be taken when it comes to *time* - how long it takes to recover from injuries and illnesses, how long it takes to craft and to practice, and so on. 
 
 ## Word-Builder Friendly
-The last, but by no means last focus point of STRIVE is the fact that it is aimed at GMs and players who enjoy doing their own world-building. To support this feature, STRIVE is designed to be modular and easily extensible. You are encouraged to hack and adapt the system to fit your needs.
+The last, but by no means least focus point of STRIVE is the fact that it is aimed at GMs and players who enjoy doing their own world-building. To support this feature, STRIVE is designed to be modular and easily extensible. You are encouraged to hack and adapt the system to fit your needs.
 
 By default, you are not forced to support a specific world or theme. These things are deliberately left in your hands. You may bring any world you like and adapt STRIVE to work within it. However, if you feel daunted by all the heavy lifting that implies, STRIVE's supplements, called **Modules** may lift much of that burden from you. 
 
