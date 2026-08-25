@@ -3,11 +3,11 @@
 <div style="text-align: center; font-size: 1rem">Version 11 (Playtest)</div>
 
 # Introduction
-This is the module containing the rules enabling play in a medieval fantasy game world, which includes supernatural monsters and magic. Only the differences and additions to the core rules are included in this document. 
+This is the Module containing the rules enabling play in a medieval fantasy game world, which includes supernatural monsters and magic. Only the differences and additions to the core rules are included in this document. 
 
-This module is best suited for a medium fantasy setting. It introduces magic, which is a **powerful** tool, that comes with great risk. Mages who exert themselves too much may fail their spell cast, which results in a Backfire. But the likelihood of failure is manageable.
+This Module is best suited for a medium fantasy setting. It introduces magic, which is a **powerful** tool, that comes with great risk. Mages who exert themselves too much may fail their spell cast, which results in a Backfire. But the likelihood of failure is manageable.
 
-The module introduces:
+The Module introduces:
 * The [Arcana](#arcana-arc) Attribute.
 * [Magic](#magic) rules.
 * Medieval/fantasy themed [Armors](#armor), [Shields](#shield-types), [General Assets](#general-assets), [Weapons](#weapon-types) and [Skills](#lists-of-skills).
@@ -207,6 +207,7 @@ There is a [compendium document](./strive-fantasy-game-masters-resource.md) rese
       - [Rise Again](#rise-again)
     - [Alp](#alp)
     - [Bloated Shambler](#bloated-shambler)
+    - [Bone Spider](#bone-spider)
     - [Ghoul](#ghoul)
     - [Revenant](#revenant)
     - [Spine Thresher](#spine-thresher)
@@ -255,11 +256,11 @@ There is a [compendium document](./strive-fantasy-game-masters-resource.md) rese
 My two small, yet inexorable groups of playtesters, whose feedback has been invaluable, without whom this game would not be any where near where it is now and who keep me motivated!
 
 # License
-This official STRIVE Fantasy Module is licensed unter the same license as the STRIVE Core rules, which can be found at the following link. 
+This official STRIVE Module is licensed unter the same license as the STRIVE Core rules, which can be found at the following link. 
 * https://github.com/CodeWringer/strive-ttrpg/blob/develop/documents/en/strive-core.md#license
 
 # Character
-New in this module, is the Attribute [Arcana](#arcana-arc), which governs a Character's capacity for magic. 
+New in this Module, is the Attribute [Arcana](#arcana-arc), which governs a Character's capacity for magic. 
 
 ## Attributes
 Supplements to the [Core Attribute rules](./strive-core.md#attributes). 
@@ -2840,7 +2841,6 @@ Alps are a fairly common occurence throughout the world. How they reproduce is a
   * `≤ 1` Hit: `Str + 2 (= 4)` Slashing
   * `= 2` Hits: `Str + 4 (= 6)` Slashing
   * `≥ 3` Hits: `Str + 6 (= 8)` Slashing
-
 ### Bloated Shambler
 Bloated shamblers are grotesque, hulking masses of bloated undead flesh. They're a type of flesh golem, comprised of multiple bodies sewn together and filled with noxious, rotten air. With a vacant gaze through dulled eyes they waddle towards their goal, struggling to stay on their swollen feet, yet unfaltering in their sinister purpose. 
 
@@ -2849,6 +2849,42 @@ Bloated shamblers are grotesque, hulking masses of bloated undead flesh. They're
   * Employ as a priority target, that will punish foes who neglect it. It tries to get as close to as many enemies as possible and then attempts to grapple and choke the life out of whoever is most accessible. 
   * If left alive for too long, it will explode in a gory and nauseating display, that will Force-Move foes and deal damage to them.
   * Will attempt to grapple and then Choke a foe. 
+* Behavior: 
+  * When [bound](#soul-binding-arctough), will only follow its master's commands. Otherwise, wanders aimlessly or stands still, staring into space. But may become hostile if agitated. 
+
+| Agi   | Awar  | Str   | Tough | Wit   | Arc   |
+| ----- | ----- | ----- | ----- | ----- | ----- |
+| 1     | 1     | 5     | 5     | 1     | 0     |
+
+| BI     | Sprint | Stabil | HP  | Stamina    | FS (Melee)      | Def    | Armor             |
+| ------ | ------ | ------ | --- | ---------- | --------------- | ------ | ----------------- |
+| 3      | 3      | 3      | 50  | 10         | 3 Bludgeoning   | 0      | 0                 |
+
+**Traits**: [Death Rattle](./strive-core.md#death-rattle--2-points-2-cr) (Explode: `2D4` Bludgeoning and Force-Moving `5` Squares, in an AoE radius of `2` Squares), [Shambler](./strive-core.md#shambler-2-points--2-cr); [Fortified Mind](./strive-core.md#fortified-mind--4-points-1-cr)
+
+**Assets**: None
+
+**Skills**: 
+* Unarmed Combat: Level `3`
+* Choke (Str/Tough): 
+  * If grappling a ST, choke the life out of them. 
+  * Level `3`, AP: `1`, Melee, ST, Innate
+  * `≤ 1` Hit: `2` Bludgeoning
+  * `= 2` Hits: `3` Bludgeoning
+  * `≥ 3` Hits: `4` Bludgeoning
+
+### Bone Spider
+Bone spiders are a particularly nasty type of undead, often employed by necromancers as guardians or scouts. 
+
+As their name implies, bone spiders are an amalgamation of various different bones that come together to form the shape of a spider.
+
+Three skulls sit on its blobby body's front and two large fangs protrude from the larger central skull's jaw.
+
+Eight very long and thin bony legs carry the creature's weight. Their ends are sharpened, with little "hooks" of bone protruding from the side, which allows the bone spider to stick to any surface.
+
+* Power: Regular, CR: `10`
+* Roles: Ambusher, Shock-Trooper
+  * Employ 
 * Behavior: 
   * When [bound](#soul-binding-arctough), will only follow its master's commands. Otherwise, wanders aimlessly or stands still, staring into space. But may become hostile if agitated. 
 
