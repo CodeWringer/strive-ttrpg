@@ -153,7 +153,7 @@ There is a [compendium document](./strive-fantasy-game-masters-resource.md) rese
     - [The Surgeon](#the-surgeon)
     - [The Tired Monster Hunter](#the-tired-monster-hunter)
     - [The Warboss](#the-warboss)
-- [Fantasy Game-Masters Resource](#fantasy-game-masters-resource)
+- [Game Mastery](#game-mastery)
 - [Creature Compendium](#creature-compendium)
   - [Cursed](#cursed)
     - [Werewolf](#werewolf)
@@ -1753,7 +1753,7 @@ Assets:
 * 1x Shield
 * 1x Medium Armor
 
-# Fantasy Game-Masters Resource
+# Game Mastery
 This and the following sections are reserved solely for the GM's eyes. Reading on as a player may spoil many surprises and the fun of discovery for you. 
 
 # Creature Compendium
