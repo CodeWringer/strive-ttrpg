@@ -16,17 +16,17 @@ This will be a far more directed experience than usual, tailor-cut for shorter c
 - [The World](#the-world)
   - [The Holy City of Kronnstedt](#the-holy-city-of-kronnstedt)
     - [The Cult of the Cataclysm](#the-cult-of-the-cataclysm)
-      - [Cult Unity Effect](#cult-unity-effect)
     - [The House of Amelia](#the-house-of-amelia)
-      - [Amelia Unity Effect](#amelia-unity-effect)
     - [The Loyalists](#the-loyalists)
-      - [Loyalist Unity Effect](#loyalist-unity-effect)
     - [The Stormbreaker Order](#the-stormbreaker-order)
-      - [Stormbreaker Unity Effect](#stormbreaker-unity-effect)
   - [Technology](#technology)
     - [Aetherium Resuscitation](#aetherium-resuscitation)
 - [The Mission](#the-mission)
   - [The Capital's Unity](#the-capitals-unity)
+    - [Cult Unity Effect](#cult-unity-effect)
+    - [Amelia Unity Effect](#amelia-unity-effect)
+    - [Loyalist Unity Effect](#loyalist-unity-effect)
+    - [Stormbreaker Unity Effect](#stormbreaker-unity-effect)
   - [The Capital's Population](#the-capitals-population)
   - [The Capital's Supplies](#the-capitals-supplies)
   - [Capital Events](#capital-events)
@@ -78,51 +78,15 @@ Though convinced their path is right, they are not heartless killers. One must u
 
 Their leader, Maksim Bohssa, is constantly pressuring the Stormbreaker Order, trying to turn them into warriors of faith. While the Stormbreaker Order has so far shown no sign of caving to that pressure, they *are* reliant on the output of the industrial machine the Cult holds. And so, smaller concessions are made here and there, for weapons and ammunition in return. 
 
-#### Cult Unity Effect
-If the Cult gains complete political control, they will begin purging the unworthy, establish ritualistic sacrifice and dedicate more resources towards the military. 
-
-At the start of every session:
-* The Capital:
-  * Loses `2D10` People. 
-  * Loses `1D10` Supplies. 
-* The Stormbreakers:
-  * Gain `30` Bullets
-  * Gain `3` Weapon Technology Points. 
-  * Gain `3` Armor Technology Points. 
-
 ### The House of Amelia
 When many turned to anger and hate, the **House of Amelia** instead turned to compassion and personal sacrifice. They openly - although peacefully - oppose the Cult's doctrine, lobbying for a more cordial approach to foreign relations and ethical internal politics. While in the early days, their order was small, its numbers have swelled to rival those of the Cult, placing each at a stalemate. 
 
 They take care of much of the agrarian and humanitarian logistics. Theirs are the healers, farmers and chemists. In the early days, when the famine hit, they were the first to share everything they had with those less fortunate. Many gave their lives to save those of others. When the Cult arose and drove a hard-liner doctrine, the Amelians were the ones to oppose them. It is thanks to them that many families survived when the Cult had first ordained to strike them from the citizen's ledger. When the Cult retaliated, the crown finally intervened to hold its protective hand over the House of Amelia. 
 
-#### Amelia Unity Effect
-If the House of Amelia gains complete political control, they will begin demilitarization - even to the detriment of the Stormbreaker Order - but advance the fields of medicine and chemistry, allowing for greater yields of renewable resources. 
-
-At the start of every session:
-* The Capital:
-  * Gains `1D6` People. 
-  * Gains `1D6` Supplies. 
-* The Stormbreakers:
-  * Lose `1` Weapon Technology Point. 
-  * Lose `1` Armor Technology Point. 
-  * Gain `1` Capital Progress Points. 
-  * Gain `3` Medicine Technology Points. 
-
 ### The Loyalists
 The Kijser, Archibald Grandiswold II, still holds *some* sway over the political landscape and is desperately trying to regain total control. But he is reliant on the Stormbreaker Order. While his hands back home are tied, supporting these noble knights will reflect well on him and if he can empower them to break through the storm walls to return with desperately needed resources, he may yet win back the people's favor. 
 
 Those who believe in him and his right to rule remain by his side, calling themselves the Loyalists. The high guard and military command belong to this camp, although the same cannot be said for many of the soldiers serving under them. If the Kijser can demonstrate his strength as a ruler, many may rejoin the Loyalist ranks. Unfortunately, Grandiswold is **not** a strong ruler. 
-
-#### Loyalist Unity Effect
-If the Loyalists gain complete political control, they will begin dismantling the Cult and House of Amelia. While this will cause some unrest and setbacks, the crown promises the Stormbreaker Order an increase in funding. 
-
-At the start of every session:
-* The Capital:
-  * Loses `1D10` People. 
-  * Loses `1D6` Supplies. 
-* The Stormbreakers:
-  * Gain `20` Bullets
-  * Gain `5` Capital Progress Points. 
 
 ### The Stormbreaker Order
 The Stormbreaker Order was formed a little over a decade ago, by the Kijser. Its members are hand-picked, based on their exceptional skill and resilience, regardless of ancestry and upbringing. When they join, they must forsake their former lives, and swear the solemn oath: 
@@ -130,20 +94,6 @@ The Stormbreaker Order was formed a little over a decade ago, by the Kijser. Its
 > I swear to relinquish personal goals, to forego personal glory and I henceforth belong to the Stormbreaker Order and the nation, in this or any life, until the **Final Death** may end my service. 
 
 They are the elite, training to break through the storm walls, to discover the skies behind them, and reclaim from them riches and technology for the good of the nation. Only a few dozen Stormbreakers exist and each of them is treated like royalty. They are second to none, save the Kijser and his military high command. Although they could exert a strong political influence, they abstain from such activities. Their mission is to the entire nation, not just some favored group. And yet, it is dawning upon them that they might be the only ones actually capable of leading the nation into a brighter future. 
-
-#### Stormbreaker Unity Effect
-If the Stormbreaker Order gains complete political control, they will establish a new hierarchy and dismantle the old power structure. Those who refuse to fit into this brave new world are forced onto the fringe islands, most at risk by ravaging storms. However, they may now decide themselves where to best spend resources. 
-
-At the start of every session:
-* The Capital:
-  * Loses `1D10` People. 
-* The Stormbreakers may decide on **one** of the following:
-  * Gain `30` Bullets
-  * Gain `1D10 + 5` Supplies
-  * Gain `3` Weapon Technology Points. 
-  * Gain `3` Armor Technology Points. 
-  * Gain `3` Medicine Technology Points. 
-  * Gain `3` Capital Progress Points. 
 
 ## Technology
 As this is an early industrial world, there is motorization, fueled by coal and diesel and armed with early bolt-action rifles and awkward submachine guns. However, resources are scarce and technology comes at a premium. Everything made of metal must be rationed carefully, and many chemical products - such as fuel - are worth more than all the gold in the world. 
@@ -170,6 +120,56 @@ In addition, the Capital **always** loses `3` Supplies and gains `1D10` People.
 The capital is at risk of fracturing. It is the PC's duty to prevent the fracture and instead work towards unifying the people. They may take a side, or try to take control through their own faction.
 
 In any case, if the **Capital's Unity**, which is measured numerically and is initially at `50`, drops to `0`, they lose the campaign as the people of their home tear each other apart! On the other hand, if they achieve a unity of `100`, their favored faction gains complete control, granting certain unique boons and penalties from then on and disabling the Unity mechanic for the rest of the campaign. 
+
+### Cult Unity Effect
+If the Cult gains complete political control, they will begin purging the unworthy, establish ritualistic sacrifice and dedicate more resources towards the military. 
+
+At the start of every session:
+* The Capital:
+  * Loses `2D10` People. 
+  * Loses `1D10` Supplies. 
+* The Stormbreakers:
+  * Gain `30` Bullets
+  * Gain `3` Weapon Technology Points. 
+  * Gain `3` Armor Technology Points. 
+
+### Amelia Unity Effect
+If the House of Amelia gains complete political control, they will begin demilitarization - even to the detriment of the Stormbreaker Order - but advance the fields of medicine and chemistry, allowing for greater yields of renewable resources. 
+
+At the start of every session:
+* The Capital:
+  * Gains `1D6` People. 
+  * Gains `1D6` Supplies. 
+* The Stormbreakers:
+  * Lose `1` Weapon Technology Point. 
+  * Lose `1` Armor Technology Point. 
+  * Gain `1` Capital Progress Points. 
+  * Gain `3` Medicine Technology Points. 
+
+### Loyalist Unity Effect
+If the Loyalists gain complete political control, they will begin dismantling the Cult and House of Amelia. While this will cause some unrest and setbacks, the crown promises the Stormbreaker Order an increase in funding. 
+
+At the start of every session:
+* The Capital:
+  * Loses `1D10` People. 
+  * Loses `1D6` Supplies. 
+* The Stormbreakers:
+  * Gain `20` Bullets
+  * Gain `5` Capital Progress Points. 
+
+### Stormbreaker Unity Effect
+If the Stormbreaker Order gains complete political control, they will establish a new hierarchy and dismantle the old power structure. Those who refuse to fit into this brave new world are forced onto the fringe islands, most at risk by ravaging storms. However, they may now decide themselves where to best spend resources. 
+
+At the start of every session:
+* The Capital:
+  * Loses `1D10` People. 
+* The Stormbreakers may decide on **one** of the following:
+  * Gain `30` Bullets
+  * Gain `1D10 + 5` Supplies
+  * Gain `3` Weapon Technology Points. 
+  * Gain `3` Armor Technology Points. 
+  * Gain `3` Medicine Technology Points. 
+  * Gain `3` Capital Progress Points. 
 
 ## The Capital's Population
 Famine and disease struck hard when the Capital was least prepared to face these challenges. Only `200` people remain and that number is dwindling. The PCs must help prevent unnecessary and unnatural loss, while also ensuring the population does not exceed Supply capacity. 
