@@ -16,6 +16,7 @@ This will be a far more directed experience than usual, tailor-cut for shorter c
 - [The World](#the-world)
   - [The Holy City of Kronnstedt](#the-holy-city-of-kronnstedt)
     - [The Cult of the Cataclysm](#the-cult-of-the-cataclysm)
+    - [The Mechanites](#the-mechanites)
     - [The House of Amelia](#the-house-of-amelia)
     - [The Loyalists](#the-loyalists)
     - [The Stormbreaker Order](#the-stormbreaker-order)
@@ -25,6 +26,7 @@ This will be a far more directed experience than usual, tailor-cut for shorter c
 - [The Mission](#the-mission)
   - [The Capital's Unity](#the-capitals-unity)
     - [Cult Unity Effect](#cult-unity-effect)
+    - [Mechanite Unity Effect](#mechanite-unity-effect)
     - [Amelia Unity Effect](#amelia-unity-effect)
     - [Loyalist Unity Effect](#loyalist-unity-effect)
     - [Stormbreaker Unity Effect](#stormbreaker-unity-effect)
@@ -32,15 +34,18 @@ This will be a far more directed experience than usual, tailor-cut for shorter c
   - [The Capital's Supplies](#the-capitals-supplies)
   - [Capital Events](#capital-events)
 - [Progression](#progression)
-  - [Armor Technology](#armor-technology)
   - [Capital Progress](#capital-progress)
   - [Medicine Technology](#medicine-technology)
+  - [Mechanite Technology](#mechanite-technology)
+  - [Armor Technology](#armor-technology)
   - [Weapon Technology](#weapon-technology)
 - [Sky Ship](#sky-ship)
+  - [Passing Storm Walls](#passing-storm-walls)
+    - [Creative Test Challenges](#creative-test-challenges)
 - [The Loop](#the-loop)
   - [Preparation](#preparation)
   - [Expedition](#expedition)
-  - [Retreat](#retreat)
+  - [Exfiltration](#exfiltration)
   - [Revival](#revival)
 - [Appendix](#appendix)
   - [Assets Appendix](#assets-appendix)
@@ -57,8 +62,8 @@ This will be a far more directed experience than usual, tailor-cut for shorter c
   - [Silent Winds](#silent-winds)
     - [Silent Winds Locations](#silent-winds-locations)
 - [Creature Compendium](#creature-compendium)
-  - [Silver Demons](#silver-demons)
-    - [Silver Demon Sentry](#silver-demon-sentry)
+  - [Argentumites](#argentumites)
+    - [Argentumite Sentry](#argentumite-sentry)
   - [Swine-Beasts](#swine-beasts)
     - [Swine Do Not Negotiate](#swine-do-not-negotiate)
     - [Swine Tactics](#swine-tactics)
@@ -89,7 +94,7 @@ Great walls of everlasting storms separate the realm from the rest of the world.
 ## The Holy City of Kronnstedt
 When the world broke, so did the realm. Many towns and cities did not survive The Rise - what we now call a landmass emerging from the deathly clouds below - but there was one exception. The **Great City of Kronnstedt**, of the tattered **Valennian Empire** rose to the sky intact. In the early days, when things looked the most dire, many of the survivors saw this as a sign. They formed the **Cult of the Cataclysm** and re-christened the capital, to be henceforth known as the ***Holy* City of Kronnstedt**. It is a huge sky island filled to the brim with early industrial concrete buildings, a sector of factories and chemical laboratories, a dock and a shipyard, where the Stormbreaker's Sky Ships are kept and maintained. Once, this place was the epitome of technological progress, but since the great cataclysm, resources have been too scarce to keep many of the factories running. 
 
-Several major factions divide the city, each vying for total control in their own way - the **Cult of the Cataclysm**, the **House of Amelia**, the **Loyalists** and the **Stormbreaker Order**. 
+Several major factions divide the city, each vying for total control in their own way - the **Cult of the Cataclysm**, the **Mechanites**, the **House of Amelia**, the **Loyalists** and the **Stormbreaker Order**. 
 
 ### The Cult of the Cataclysm
 While the Kijser is still technically the ruler, the Cult of the Cataclysm has assumed much power and is in control of the industrial sector, where their acolytes work tirelessly to keep the city functional. And ready for war. The Cult speaks of the time when all the faithless will have been purged by the clouds. A time when the clouds shall recede and the world returned to them, to be ruled absolutely. And they intend to speed up this process. 
@@ -97,6 +102,11 @@ While the Kijser is still technically the ruler, the Cult of the Cataclysm has a
 Though convinced their path is right, they are not heartless killers. One must understand they came to be when famine and disease were rampant, when hard decisions had to be made. The kind of decisions the Kijser would not make. Only through their calculated rationing, enforced quarantines and bitter sacrifices could the city be saved. At least, that's what *they* believe. 
 
 Their leader, Maksim Bohssa, is constantly pressuring the Stormbreaker Order, trying to turn them into warriors of faith. While the Stormbreaker Order has so far shown no sign of caving to that pressure, they *are* reliant on the output of the industrial machine the Cult holds. And so, smaller concessions are made here and there, for weapons and ammunition in return. 
+
+### The Mechanites
+A once-secret order of technophiles, with a long and storied history, whom are to thank for many technological advancements. They are still secretive - old habits die hard - but also cooperative toward the Stormbreakers. They value science without borders above all and will often go beyond the ethical. As such, they're often at odds with the Amelianites' compassion and Loyalists' order. 
+
+Theirs is the smallest faction, yet each individual within is influential, with ties into every other faction. 
 
 ### The House of Amelia
 When many turned to anger and hate, the **House of Amelia** instead turned to compassion and personal sacrifice. They openly - although peacefully - oppose the Cult's doctrine, lobbying for a more cordial approach to foreign relations and ethical internal politics. While in the early days, their order was small, its numbers have swelled to rival those of the Cult, placing each at a stalemate. 
@@ -125,7 +135,7 @@ Radio technology exists and is fantastically powerful, enabling the transmission
 In addition to ordinary metals, a new material has been found - **White Steel**, also called **Silversteel** - which is ten times more durable than even the strongest steel alloy. It is highly sought after by the Stormbreaker Order, as it may yet be the puzzle needed to reliably traverse the storm walls. 
 
 ### Aetherium Resuscitation
-Just before the cataclysm, the **Aetherium** was discovered - the essence of life. The Stormbreaker Order has been granted charge over this most valuable secret, as it allows their people to be resurrected after death, no matter where it occurs or how unrecoverable their body is. **Aetherium Resuscitation Chambers** catch the fleeting Aetherium of anyone attuned to the device, who recently died, even great distances away, and re-grows their body before infusing it with their soul. As such, Stormbreakers are often particularly courageous, if not outright reckless, in their pursuits. 
+Just before the cataclysm, the **Aetherium** was discovered - the essence of life. The Stormbreaker Order has been granted charge over this most valuable secret, as it allows their people to be resurrected after death, no matter where it occurs or how unrecoverable their body is. **Aetherium Resuscitation Chambers (A.R.C)** catch the fleeting Aetherium of anyone attuned to the device, who recently died, even great distances away, and re-grows their body before infusing it with their soul. As such, Stormbreakers are often particularly courageous, if not outright reckless, in their pursuits. 
 
 Despite the great advantage such technology poses, when a Stormbreaker is resurrected, they suffer the dreaded Post **Resuscitation Syndrome**. It affects body and mind, reducing motor-skill and causing splitting headaches. For one in-game day, they suffer `+1` Ob to **all** Tests.
 
@@ -155,6 +165,16 @@ At the start of every session:
   * Gain `30` Bullets
   * Gain `3` Weapon Technology Points. 
   * Gain `3` Armor Technology Points. 
+
+### Mechanite Unity Effect
+If the Mechanites gain complete political control, they will usher the Capital into an age of boundless advancement - and at *any* cost. 
+
+At the start of every session:
+* The Capital:
+  * Loses `2D10` People. 
+  * Loses `1D10` Supplies. 
+* The Stormbreakers:
+  * Gain `3` Mechanite Technology Points. 
 
 ### Amelia Unity Effect
 If the House of Amelia gains complete political control, they will begin demilitarization - even to the detriment of the Stormbreaker Order - but advance the fields of medicine and chemistry, allowing for greater yields of renewable resources. 
@@ -226,30 +246,71 @@ At the start of every session, one of these random events will be rolled for. No
 | 9    | Storms loosen from the great walls of storm, ravaging the fringe islands of the realm. Crops are ruined and lives lost. Lose `1D10` Supplies and `1D10` People. |
 | 10   | A new island rises from the clouds below! It brings resources, but must first be purged of poisonous residue - a perilous task. **Choose**: 1. Let the people handle it: Lose `2D10` People and gain `2D6` Supplies. <br> 2. Ignore the island, to the dismay of the people, losing you `1D6` Unity. <br> 3. Proclaim the Stormbreaker Order will handle it. If you fail to visit the island and bring back any resources by the end of the next session, lose `2D10` Unity. But if you succeed, gain `1D10 + 3` Unity! |
 | 11   | A worker dispute spirals into a full blown street war. **Choose**: 1. Order the city guard to handle it. They break apart the quarrelers forcefully. Lose `1D10` People and `1D10` Unity. <br> 2. Order the Cult to handle it. They take a side and scare off the other, by making a gruesome example of some poor sod. Lose `1` Person and `2D10` Unity. <br> 3. Order the House of Amelia to handle it. They mediate peace, treat the wounded and then hand out gifts in an elaborate ceremony. At the end, no one remembers the reason for the quarrel. Lose `2D10` Supplies but gain `1D10` Unity. |
-| 12   | A Silver-Demon rises from the depths, terrorizing surrounding islands until it is finally brought down by the city guard. Lose `2D10` People. Gain `1` Silversteel. |
+| 12   | An Argentumite rises from the depths, terrorizing surrounding islands until it is finally brought down by the city guard. Lose `2D10` People. Gain `1` Silversteel. |
 
 # Progression
 As the campaign progresses, the Capital builds up and improves, granting the PCs access to more and better Assets. 
 
-## Armor Technology 
-The PCs can spend **Armor Technology Points** to improve their armors. 
+Over the course of a campaign, PCs earn various specific **Technology Points**, which can be spent on permanent improvements to the Capital and the PCs' Assets. 
 
 ## Capital Progress
 In addition to the Stormbreaker Order, the Capital itself advances with their achievements. Through such progress comes access to better technology and greater security. As the Stormbreakers are revered, they may advise the Kijser where to spend precious resources, who feels compelled to follow any advice. 
 
 Improvements may be unlocked by spending **Capital Progress Points**. 
 
+The Capital begins the campaign with:
+* Armor Manufactories at Level `0`.
+* Medical Laboratories at Level `0`.
+* Sky Shipyard at Level `0`.
+* Weapon Foundries at Level `0`.
+* Supply Capacity of `50`.
+
 | Points | Supply Cost | Effect & Unlock                 | Prerequisites | Repeatable? |
 | ------ | ----------- | ------------------------------- | ------------- | ----------- |
 | 2      |             | Increase Supply capacity by `+5`. |  | Yes |
-| 3      | 5           | Unlock Capital Weapon Foundries Level `1` |  | No |
+| 2      | 10          | Unlock Capital Weapon Foundries Level `1` |  | No |
+| 2      | 10          | Unlock Capital Armor Manufactories Level `1` |  | No |
+| 5      | 5           | Unlock Capital Medical Laboratories Level `1` |  | No |
 | 3      |             | At the start of every session, the Capital now produces `+1` Supplies, up to a maximum of `+10`. |  | Yes |
 | 7      | 5           | Unlock Capital Weapon Foundries Level `2` | Capital Weapon Foundries at least Level `1`. | No |
+| 10     | 20          | Unlock Capital Sky Shipyard Level `1`     |  | No |
 | 12     | 8           | Unlock Capital Weapon Foundries Level `3` | Capital Weapon Foundries at least Level `2`. | No |
 | 18     | 12          | Unlock Capital Weapon Foundries Level `4` | Capital Weapon Foundries at least Level `3`. | No |
+| 20     | 30          | Unlock Capital Sky Shipyard Level `2`     |  | No |
 
 ## Medicine Technology 
-The PCs can spend **Medicine Technology Points** to improve their medical supplies. 
+The PCs can spend **Medicine Technology Points** to improve their health, health replenishment and the Capital's resistance to famine and disease. 
+
+| Points | Supply Cost | Effect & Unlock                 | Prerequisites | Repeatable? |
+| ------ | ----------- | ------------------------------- | ------------- | ----------- |
+| 2      | 5           | The Stormbreakers gain `+2` Medical Supplies at the start of every session. |  | Yes |
+| 5      | 10          | An improvement in the treatment of infection allows reducing the loss of People by `3` every time People are lost through an event. |  | No |
+| 5      |             | An improvement in fertilizers makes crops and the resulting food less likely to spoil. Reduces the loss of Supplies by `3` every time Supplies are lost through an event. |  | No |
+| 5      |             | Improvements in microbiology allow for the development in better Illness treatments. Stormbreaker Illnesses are cured in half the time. The Capital suffers `5` People less when suffering famine and disease from `0` Supplies. | Medical Laboratories `1` | No |
+| 10     | 10          | Mandatory stimpack injections boost Stormbreaker resilience, at least in the short-term. Increase every Stormbreaker's maximum HP by `+10`, permanently. | Medical Laboratories `1` | No |
+| 15     | 10          | Gene modifications toughen up Stormbreakers. The first Injury a Stormbreaker would suffer in a session can be ignored! | Medical Laboratories `2` | No |
+| 15     | 20          | Gene modifications optimize Stormbreakers. Every Stormbreaker gets to pick an additional Trait! | Medical Laboratories `2` | No |
+
+## Mechanite Technology
+The PCs can spend **Mechanite Technology Points** to improve their medical supplies. 
+
+| Points | Supply Cost | Effect & Unlock                 | Prerequisites | Repeatable? |
+| ------ | ----------- | ------------------------------- | ------------- | ----------- |
+| 2      | 5           | The Stormbreakers gain access to a remote-controlled drone outfitted with a high-yield explosive. When triggered, in a `10` Square AoE diameter, causes `6 + 2D6` Bludgeoning and `6 + 1D6` Burning damage. |  | Yes |
+
+## Armor Technology 
+The PCs can spend **Armor Technology Points** to improve their armors. 
+
+| Points | Supply Cost | Effect & Unlock                 | Prerequisites | Repeatable? |
+| ------ | ----------- | ------------------------------- | ------------- | ----------- |
+| 5      | 10          | Unlock tier `1` armors. | Armor Manufactories `1` | No |
+| 1      | 10          | Increase an armor's Poison protection by `+2`. Can only be improved once per armor. | Armor Manufactories `1` | Yes |
+| 8      | 20          | Unlock tier `2` armors. | Armor Manufactories `2` | No |
+| 2      | 10          | Increase an armor's Stealth by `+1`. Can only be improved once per armor. | Armor Manufactories `2` | Yes |
+| 2      | 10          | Increase an armor's Death Fog protection by `+1`. Can only be improved once per armor. | Armor Manufactories `2` | Yes |
+| 2      | 10          | Decrease an armor's Bulk by `1`. Can only be improved once per armor. | Armor Manufactories `2` | Yes |
+| 12     | 30          | Unlock tier `3` armors. | Armor Manufactories `3` | No |
+| 18     | 40          | Unlock tier `4` armors. | Armor Manufactories `4`; `20` units of Silversteel | No |
 
 ## Weapon Technology 
 The PCs can spend **Weapon Technology Points** to improve their weapons. 
@@ -265,17 +326,59 @@ The PCs can spend **Weapon Technology Points** to improve their weapons.
 | 13     | 12          | Unlock a tier `4` weapon.       | Capital Weapon Foundries at least Level `4`. | Yes |
 
 # Sky Ship
+The Sky Ship is the Stormbreaker's mobile base of operation and their only life-line. Should it be destroyed or lost, the players lose the campaign! It is also the place where PCs can exchange resources and political matters with the Capital and prepare for their expeditions. 
 
+The Sky Ship has `50` HP, which can re replenished during the Preparation phase. It costs `10` Supplies to restore `10` HP. 
+
+Besides the Stormbreakers, there are no additional crew on board. Only few are sufficiently trained and physically capable enough to survive passing through a Storm Wall and only the Stormbreakers enjoy the privilege of revival in the Atherium Resuscitation Chambers. Fortunately, the Sky Ship technology is a gift from the Mechanites, and is fully automated. Stormbreakers only have to pilot it under extreme situations, such as in combat or when passing through Storm Walls. 
+
+## Passing Storm Walls
+Passing through the storm walls causes great damage to the Sky Ship. How much, depends on the storm wall tier, which increases the farther the Stormbreakers travel from the Capital. 
+
+Improving the Sky Ship with plates of Silversteel will reduce the Storm Wall damage incurred when passing through. `20` Silversteel converts to `+10` protection, also against other forms of damage to the Sky Ship. 
+
+To successfully pass the Storm Wall takes a [Creative Test](./strive-core.md#creative-test). Stormbreakers must succeed at least as many challenges as noted on the left, of the maximum number noted on the right, in the table below.
+
+| Storm Wall Tier | Damage to Sky Ship | Creative Tests |
+| --------------- | ------------------ | -------------- |
+| 1               | 10                 | 2/6            |
+| 2               | 30                 | 3/6            |
+| 3               | 60                 | 4/6            |
+| 4               | 100                | 5/6            |
+
+### Creative Test Challenges
+
+| 1D10 | Challenge |
+| ---- | --------- |
+| 1    | An engine is at risk of breaking down! If it goes offline, the Sky Ship gets harder to pilot! |
+| 2    | The hull is battered with lightning! Electrics are at risk of damage! |
+| 3    | You can see a tunnel in the storm, but it is broken up by the unpredictable motions of errant tornadoes! |
+| 4    | The steering flaps are jamming up! You can no longer steer! |
+| 5    | The air pressure is pounding your head! You're at risk of losing consciousness! |
+| 6    | Debris is flung into the side of the Sky Ship! It acts like a giant wind sail, pushing you off your course! |
+| 7    | Shrapnel-like debris batters the hull, everyone is at risk of suffering severe puncture wounds! |
+| 8    | An Argentumite was hiding in the storm! If you can't get rid of it, it will surely cause damage to the Sky Ship! |
+| 9    | The storm was hiding rising jets of Death Fog! If you're caught by them, pockets of Death Fog may form inside the Sky Ship! |
+| 10   | You've entered a pocket of radiation! Electronics, and your health are at risk! |
 
 # The Loop
+To support one-shots, the game is strictly structured into three phases: **Preparation**, **Expedition** and **Exfiltration**. 
 
 ## Preparation
+Every session begins in the Preparation phase, which is when all the book-keeping and light roleplay takes place. This phase is expected to be kept as short as possible. It exists mostly to re-familiarize the players with the stakes, to take stock of what they have and want and then decide where to go. 
 
+1. Apply static Capital resource changes, such as the Supply loss based on Population. 
+2. Roll for and resolve a [Capital Event](#capital-events). 
+3. Spend [Technology Points](#progression).
+4. Requisition Assets and exchange resources with the Capital. 
+5. Prepare for the Expedition, receive and relay orders from and to the Capital and do some light roleplay. 
+6. Potentially pass through a Storm Wall. 
+7. Get to the Expedition location. 
 
 ## Expedition
+The Expedition phase is when the PCs enter a location, disembark their Sky Ship and begin exploring. 
 
-
-## Retreat
+## Exfiltration
 
 
 ## Revival
@@ -286,15 +389,20 @@ Every time a PC dies, they are not removed from the game, but instead returned t
 ## Assets Appendix
 
 ### Armors
+Death Fog protection works a little differently. For every point of protection, a Character can survive in Death Fog for `+30` Minutes. Once that time is up, they will take `10` Pure damage every minute. The Death Fog protection has to be reset at the Sky Ship, where the gas mask's Death Fog filters are changed by a special machine. 
+
 | Tier | Armor                        | Bulk | Properties                                            | Protection         | Description        |
 | ---- | ---------------------------- | ---- | ----------------------------------------------------- | ------------------ | ------------------ |
-| 0    | Standard Breastplate         | 2    |                                                       | `6` Slashing; `4` Piercing; `3` Bludgeoning; `5` Poison | Munitions-grade armor and an early model gas-mask. Mass-produced and cheap. |
-| 1    | Hazard Suit                  | 3    |                                                       | `10` Poison; `10` Acid; `5` Burning | A rubber coverall which protects the entire body from environmental hazards, but does little against bullets and swords. |
-| 1    | Trench Armor                 | 3    |                                                       | `8` Slashing; `4` Piercing; `8` Bludgeoning; `5` Poison | Particularly well padded, this armor protects well against broad-area damage, but won't stop a bullet. |
-| 2    | Medic Fatigues               | 2    |                                                       | `3` Slashing; `2` Bludgeoning; `6` Poison; `5` Acid | Offers only moderate protection, but allows all medical supplies to stack twice their normal amount. |
-| 2    | Ammo Carrier                 | 3    |                                                       | `3` Slashing; `6` Bludgeoning; `6` Poison; | Offers only moderate protection, but allows all ammunition to stack twice its normal amount. |
-| 3    | Camo Armor                   | 3    |                                                       | `6` Slashing; `5` Piercing; `5` Bludgeoning; `6` Poison; | Offers only moderate protection, but grants `+2` Stealth to its wearer. |
-| 4    | Stormbreaker Assault Armor   | 4    |                                                       | `12` Slashing; `10` Piercing; `8` Bludgeoning; `10` Acid; `15` Poison | Made from Silversteel, this armor protects exceptionally well. A face-plate covers a highly modern, sleek gas mask. |
+| 0    | Standard Breastplate         | 2    |                                                       | `6` Slashing; `4` Piercing; `3` Bludgeoning; `5` Poison; `1` Death Fog | Munitions-grade armor and an early model gas-mask. Mass-produced and cheap. |
+| 1    | Hazard Suit                  | 3    |                                                       | `10` Poison; `10` Acid; `5` Burning; `3` Death Fog | A rubber coverall which protects the entire body from environmental hazards, but does little against bullets and swords. |
+| 1    | Trench Armor                 | 3    |                                                       | `8` Slashing; `4` Piercing; `8` Bludgeoning; `5` Poison; `1` Death Fog | Particularly well padded, this armor protects well against broad-area damage, but won't stop a bullet. |
+| 2    | Medic Fatigues               | 2    |                                                       | `3` Slashing; `2` Bludgeoning; `6` Poison; `5` Acid; `2` Death Fog | Offers only moderate protection, but allows all medical supplies to stack twice their normal amount. |
+| 2    | Ammo Carrier                 | 3    |                                                       | `3` Slashing; `6` Bludgeoning; `6` Poison; `2` Death Fog | Offers only moderate protection, but allows all ammunition to stack twice its normal amount. |
+| 3    | Camo Armor                   | 3    |                                                       | `6` Slashing; `5` Piercing; `5` Bludgeoning; `5` Poison; `2` Death Fog | Offers only moderate protection, but grants `+2` Stealth to its wearer. |
+| 3    | Hauler Armor                 | 4    |                                                       | `4` Slashing; `4` Piercing; `4` Bludgeoning; `5` Poison; `2` Death Fog | Offers only moderate protection, but grants `+10` maximum Luggage Bulk to its wearer. |
+| 4    | Stormbreaker Assault Armor   | 4    |                                                       | `12` Slashing; `12` Piercing; `12` Bludgeoning; `10` Acid; `5` Poison; `4` Death Fog | Made from Silversteel, this armor protects exceptionally well. A face-plate covers a highly modern, sleek gas mask. The perfect choice for a frontal assault or dirty trench warfare. |
+| 4    | Stormbreaker Sapper Armor    | 4    |                                                       | `10` Slashing; `10` Piercing; `8` Bludgeoning; `5` Acid; `5` Poison; `4` Death Fog | Made from Silversteel, this armor protects exceptionally well and provides `+6` maximum Luggage Bulk to its wearer. A great choice if you plan on bringing bigger ordnance. |
+| 4    | Stormbreaker Purifier Armor  | 4    |                                                       | `10` Slashing; `8` Piercing; `6` Bludgeoning; `15` Acid; `10` Poison; `10` Burning; `6` Death Fog | Made from Silversteel, this armor protects exceptionally well. The suit is hermetically sealed and fire-retardent, providing excellent hazard protection. |
 
 ### Weapons
 | Tier | Weapon                   | Bulk | Skill                 | Properties                                            | Damage & Effects   | Description        |
@@ -359,7 +467,7 @@ As these fledgling nations have yet to find their place in this new world they w
 | 6   | Unaligned Town     | While the sky nations divy up territory, some towns try to remain neutral. This is one such case. While they might submit to the crown, the sky nations won't just idly accept the crown's meddling. |
 
 ## Silent Winds
-The great cataclysm wiped out all life in this place. It now belongs solely to the Silver Demons. Abandoned towns and crumbling factories hint at a once bustling part of the empire, while silent battlefields hold untold secrets. 
+The great cataclysm wiped out all life in this place. It now belongs solely to the Argentumites. Abandoned towns and crumbling factories hint at a once bustling part of the empire, while silent battlefields hold untold secrets. 
 
 ### Silent Winds Locations
 | D6  | Location           | Description |
@@ -368,7 +476,7 @@ The great cataclysm wiped out all life in this place. It now belongs solely to t
 | 2   | Factory            | A solitary factory floats above the clouds. Its crooked chimney stands defiant against the wind, and the structure looks as though it might collapse any moment. The peril of a scavenging run within may be justified, as factories often still hold many valuable supplies. |
 | 3   | Irradiated Town    | A town sits quietly, just above the deathly blanket below. Many of the houses look intact and you can even spot trucks surrounded by skeletons. Often a sign of supplies or weapons. However, as you draw closer, your radiation counters start ticking faster. It seems the town's fate was sealed even before the great cataclysm. |
 | 4   | Crashed Sky Ship   | You spot a Sky Ship crashed into the underside of an otherwise barren island. Its engines are still running, slowly pushing both it and the island into one of the storm walls. If left to itself, they will both soon be torn apart by the storm's winds. But whose Sky Ship is it? Does it bear *our* colors? You may have to board it to find out more. |
-| 5   | Silver Demon Outpost | It seems the Silver Demons are more organized than initially assumed. They have build an outpost into the side of an island. Its defenses are formidable, yet if they could be overcome, the cost could we weighed against a treasure of Silversteel. |
+| 5   | Argentumite Outpost | It seems the Argentumites are more organized than initially assumed. They have build an outpost into the side of an island. Its defenses are formidable, yet if they could be overcome, the cost could we weighed against a treasure of Silversteel. |
 | 6   | Archipelago        | An island appears to have fractured. Countless chunks of earth are now orbiting its Suspendium core. If the Suspendium could be mined and sent back, the Capital could build more Sky Ships or expand the Capital island. However, approach by Sky Ship is impossible, as the floating earthen chunks could damage it. Difficult and perilous, the trek would have to be made on foot. |
 
 # Creature Compendium
@@ -376,11 +484,11 @@ A by no means exhaustive list of themed creatures for the GM to draw from.
 
 In the Characteristics blocks below, when armor is concerned, it may be noted in the form `U/F/S/O`, which are simply the pre-calculated values the armor provides under consideration of the degrees of [Flanking](./strive-core.md#flanking). The order is always: Unthreatened, Flanked, Surrounded and Overwhelmed. However, armor may also be noted as a plain value, e. g. `5`, which implies the creature does not suffer [Flanking](./strive-core.md#flanking).
 
-## Silver Demons
-It is widely known that the clouds beneath may harbor no life, for all living things that pass through wither and die in mere moments. And yet strange creatures, made of Silversteel regularly emerge from the blanket below. Dubbed **Silver Demons**, sightings of these things always end in conflict and blood. They are relentless killers, seeking out and destroying what remains of our civilization. They do not speak, they do not flinch and they don't take prisoners. 
+## Argentumites
+It is widely known that the clouds beneath may harbor no life, for all living things that pass through wither and die in mere moments. And yet strange creatures, made of Silversteel regularly emerge from the blanket below. Dubbed **Argentumites**, sightings of these things always end in conflict and blood. They are relentless killers, seeking out and destroying what remains of our civilization. They do not speak, they do not flinch and they don't take prisoners. 
 
-### Silver Demon Sentry
-A cyclopean, white and floating sphere that is often seen roaming islands in advance of other, more dangerous Silver Demons. 
+### Argentumite Sentry
+A cyclopean, white and floating sphere that is often seen roaming islands in advance of other, more dangerous Argentumites. 
 
 * Power: Feeble, CR: `4`
 * Roles: Sentry, Guard
