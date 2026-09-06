@@ -25,6 +25,7 @@ This will be a far more directed experience than usual, tailor-cut for shorter c
       - [Stormbreaker Unity Effect](#stormbreaker-unity-effect)
   - [Technology](#technology)
     - [Aetherium Resuscitation](#aetherium-resuscitation)
+    - [Survival Above The Clouds](#survival-above-the-clouds)
 - [The Mission](#the-mission)
   - [The Capital's Unity](#the-capitals-unity)
   - [The Capital's Population](#the-capitals-population)
@@ -79,7 +80,9 @@ This official STRIVE Module is licensed unter the same license as the STRIVE Cor
 * https://github.com/CodeWringer/strive-ttrpg/blob/develop/documents/en/strive-core.md#license
 
 # The World
-Two-hundred years ago, the world shattered. In that great cataclysm, the clouds became deadly and heavy. Beneath our feet, they glow with eery pale blue light. No one knows how much of our world remains under the blanket, for none who dared venture there ever returned. 
+Two-hundred years ago, the world shattered and islands of earth and rock rose to the skies. In that great cataclysm, the clouds became deadly and heavy. Beneath our feet, they glow with eery, pale blue light. No one knows how much of our world remains under the blanket, for none who dared venture there ever returned. 
+
+Some islands remain stationary where they are, floating above the clouds. But there are many more islands that are constantly moving around, falling below or rising above the threshold of death. Whenever an island rises, all those with access to Sky Ships scramble to leech every valuable resource off the island before it falls again. Very rarely, chunks of Suspendium - a supernatural material that keeps the islands aloft - emerge or are salvaged from the islands. With Suspendium, new Sky Ships may be built and expansions to islands made. 
 
 Great walls of everlasting storms separate the realm from the rest of the world. So far, only one successful voyage beyond the walls has been recorded, and was cut short by an unknown hostile entity. As such, the realm is isolated. No one has made contact with the outside, if it even exists. Despite the setback, the people are euphoric - it *is* possible to pierce the great walls of storm! If we can conquer the skies, we can secure our future!
 
@@ -172,9 +175,12 @@ Radio technology exists and is fantastically powerful, enabling the transmission
 In addition to ordinary metals, a new material has been found - **White Steel**, also called **Silversteel** - which is ten times more durable than even the strongest steel alloy. It is highly sought after by the Stormbreaker Order, as it may yet be the puzzle needed to reliably traverse the storm walls. 
 
 ### Aetherium Resuscitation
-Just before the cataclysm, the **Aetherium** was discovered - the essence of life. The Stormbreaker Order has been granted charge over this most valuable secret, as it allows their people to be resurrected after death, no matter where it occurs or how unrecoverable their body is. **Aetherium Resuscitation Chambers** catch the fleeting Aetherium of anyone attuned to the device, who recently died, even great distances away. As such, Stormbreakers are often particularly courageous, if not outright reckless, in their pursuits. 
+Just before the cataclysm, the **Aetherium** was discovered - the essence of life. The Stormbreaker Order has been granted charge over this most valuable secret, as it allows their people to be resurrected after death, no matter where it occurs or how unrecoverable their body is. **Aetherium Resuscitation Chambers** catch the fleeting Aetherium of anyone attuned to the device, who recently died, even great distances away, and re-grows their body before infusing it with their soul. As such, Stormbreakers are often particularly courageous, if not outright reckless, in their pursuits. 
 
-Despite the great advantage such technology poses, when a Stormbreaker is resurrected, they suffer the dreaded Post Resuscitation Syndrome. It affects body and mind, reducing motor-skill and causing splitting headaches. 
+Despite the great advantage such technology poses, when a Stormbreaker is resurrected, they suffer the dreaded Post **Resuscitation Syndrome**. It affects body and mind, reducing motor-skill and causing splitting headaches. For one in-game day, they suffer `+1` Ob to **all** Tests.
+
+### Survival Above The Clouds
+Every building is obligated to have an installed rain catcher, which is then purified and made available as safe drinking water. Food is grown on balconies and rooftops, as well as every free island area with fertile soil. Recycling is important, though still at a very early stage of development, allowing only rudimentary re-use of resources. Much is lost by use, but never dumped off the island. Instead, waste is neatly separated and kept on the outskirts of town or on surrounding garbage dump islands. 
 
 # The Mission
 It is the PCs' mission, as venerable members of the Stormbreaker Order to ensure the survival of the Capital. Should it fall, their only life-line falls with it and the **campaign is lost**. Additionally, a longer term goal is to find a way to re-unite the world. If there is a way to return the world to before the cataclysm, then it must be found!
