@@ -52,6 +52,7 @@ This will be a far more directed experience than usual, tailor-cut for shorter c
   - [Revival](#revival)
 - [Character](#character)
   - [Corruption](#corruption)
+  - [Corrupted Condition](#corrupted-condition)
 - [Combat](#combat)
   - [Burst Attacks](#burst-attacks)
 - [Appendix](#appendix)
@@ -450,7 +451,12 @@ TODO
 Additions and alterations to the [Core Character](./strive-core.md#character) rules. 
 
 ## Corruption
-TODO
+All Characters accrue Corruption over time and have a **Corruption Tolerance**, determined by their `Tough + Wit`. Exposure to Corruption causes it to build up within the body. If it reaches the Tolerance, Characters begin to morph and twist into something else. In such a state, they suffer the [Corrupted Condition](#corrupted-condition). 
+
+## Corrupted Condition
+A Character in this state has `3` Turns to reduce their Corruption, or else they become a Corruption monster! In case of a PC, this effectively means their Character dies! 
+
+Every Turn, an additional degree of this Condition is automatically suffered. It can only be cleared at the Sky Ship. 
 
 # Combat
 Additions and alterations to the [Core Combat](./strive-core.md#combat) rules. 
@@ -789,7 +795,7 @@ Giant and authoritative, this Argentumite commands respect, even from its enemie
 This creature is always surrounded in a cloud of Death Fog, dealing `10` Pure damage in a `5` Square AoE diameter around it, to all creatures without Death Fog protection.
 
 ## Swine-Beasts
-Created in a vain and immoral conjuring of demons from another place, the Swine-Beasts themselves represent a cruel parody of man, molded from the flesh of pigs. All the worst properties of humanity are manifested in these unsavory creatures. 
+There is little known about these wicked monsters, save that they have a deep-rooted hate for all life that isn't like theirs and that they appear demonic in nature. 
 
 A morphed and twisted union of human and swine flesh which stands on two legs, shorter than humans and in a perpetual hunch. They have boney claws instead of fingers and cloven swine-hooves instead of feet. Large tusks protrude aggressively from the jaw, as if reaching for victims. Red glowing, narrowed eyes glinting in the dark with malice. 
 
