@@ -52,12 +52,15 @@ This will be a far more directed experience than usual, tailor-cut for shorter c
   - [Revival](#revival)
 - [Character](#character)
   - [Corruption](#corruption)
+- [Combat](#combat)
+  - [Burst Attacks](#burst-attacks)
 - [Appendix](#appendix)
   - [Assets Appendix](#assets-appendix)
     - [Armors](#armors)
     - [Weapons](#weapons)
   - [List of Skills](#list-of-skills)
     - [Close Quarters Combat (Agi/Str)](#close-quarters-combat-agistr)
+    - [Firearms (Agi/Awar)](#firearms-agiawar)
 - [Game Mastery](#game-mastery)
 - [Biomes](#biomes)
   - [Lofty Jungle](#lofty-jungle)
@@ -69,12 +72,19 @@ This will be a far more directed experience than usual, tailor-cut for shorter c
 - [Creature Compendium](#creature-compendium)
   - [Argentumites](#argentumites)
     - [Argentumite Sentry](#argentumite-sentry)
+    - [Argentumite Jumelles](#argentumite-jumelles)
+    - [Argentumite Attaquant](#argentumite-attaquant)
+    - [Argentumite Chevalier](#argentumite-chevalier)
+    - [Argentumite Plongeur](#argentumite-plongeur)
+    - [Argentumite Monarque](#argentumite-monarque)
+      - [Aura Of Death](#aura-of-death)
   - [Swine-Beasts](#swine-beasts)
     - [Swine Do Not Negotiate](#swine-do-not-negotiate)
     - [Swine Tactics](#swine-tactics)
     - [Swine Hostility](#swine-hostility)
       - [Demonic Blood](#demonic-blood)
       - [Filth \& Darkness](#filth--darkness)
+    - [Swine Grunt](#swine-grunt)
 
 # Glossary
 
@@ -313,6 +323,7 @@ The PCs can spend **Mechanite Technology Points** to gain access to special tech
 | Points | Supply Cost | Effect & Unlock                 | Prerequisites | Repeatable? |
 | ------ | ----------- | ------------------------------- | ------------- | ----------- |
 | 2      | 5           | The Stormbreakers a remote-controlled drone outfitted with a high-yield explosive. When triggered, in a `10` Square AoE diameter, causes `6 + 2D6` Bludgeoning and `6 + 1D6` Burning damage. |  | Yes |
+| 2      | 5           | The Stormbreakers gain an extremely enigmatic technological piece - an infrared sight that allows seeing a different sprectrum of light. The Mechanites suggest  |  | Yes |
 | 10     | 30          | The Stormbreakers gain a Biped Automaton. You can only have one Automaton, at a time. |  | Yes |
 | 5      | 15          | The Stormbreakers gain an Automaton weapon. | Access to an Automaton. | Yes |
 
@@ -441,6 +452,14 @@ Additions and alterations to the [Core Character](./strive-core.md#character) ru
 ## Corruption
 TODO
 
+# Combat
+Additions and alterations to the [Core Combat](./strive-core.md#combat) rules. 
+
+## Burst Attacks
+With the modern age, come modern means of murder. Attacks that allow for a **Burst**, get bonus dice for the attack roll, as noted on the attack in question, but also Ob `+1`. In case of ammo-fed weapons, this is also the number of bullets the attack consumes. 
+
+> A machine gun with Burst `3` receives `+3D` and `+1` Ob for an attack Test and consumes `3` bullets. 
+
 # Appendix
 The appendix contains lists for reference only when needed. 
 
@@ -464,22 +483,24 @@ Death Fog protection works a little differently. For every point of protection, 
 | 4    | Stormbreaker Purifier Armor  | 4    |                                                       | `8` Slashing; `6` Piercing; `6` Bludgeoning; `15` Acid; `10` Poison; `10` Burning; `6` Death Fog; `4` Corruption | Made from Silversteel, this armor protects exceptionally well. The suit is hermetically sealed and fire-retardent, providing excellent hazard protection. |
 
 ### Weapons
-| Tier | Weapon                   | Bulk | Skill                 | Properties                                            | Damage & Effects   | Description        |
-| ---- | ------------------------ | ---- | --------------------- | ----------------------------------------------------- | ------------------ | ------------------ |
-| 0    | Trench Shovel            | 2    | Close Quarters Combat | Melee                                                 | `≤ 1` Hit: `3 + Q` Slashing <br> `= 2` Hits: `4 + Q` Slashing <br> `≥ 3` Hits: `5 + Q` Slashing | A standard-issue digging implement with sharp edges. |
-| 0    | Krauser Semi-Auto Pistol | 1    | Short Guns            | Ranged: `6`, Ammo: `6`, Semi-Auto                     | `≤ 1` Hit: `4 + Q` Piercing <br> `= 2` Hits: `4 + Q` Piercing <br> `≥ 3` Hits: `5 + Q` Piercing | The mass-produced Krauser semi-auto pistol is a reliable, though not particularly deadly personal defence weapon. |
-| 0    | Maksim Rifle             | 3    | Long Guns             | Ranged: `20`, Ammo: `6`, Bolt-Action, Slow Reload     | `≤ 1` Hit: `8 + Q` Piercing <br> `= 2` Hits: `10 + Q` Piercing <br> `≥ 3` Hits: `13 + Q` Piercing | The mass-produced Maksim bolt-action rifle is reliable and powerful, but also bulky and slow. |
-| 0    | Fragmentation Grenade    | 1    | Throwing              | Thrown                                                | `6 + Q` Piercing + `6 + Q` Bludgeoning + `3` Burning | Stacks up to `3`; A throwable fragmentation grenade and a staple of trench warfare - before the cataclysm. Simple, but effective. |
-| 1    | Standard Saber           | 2    | Close Quarters Combat | Melee                                                 | `≤ 1` Hit: `5 + Q` Slashing <br> `= 2` Hits: `5 + Q` Slashing <br> `≥ 3` Hits: `6 + Q` Slashing | A simple officer's saber. A bit heavy in hand, but reliable. |
-| 1    | Hetzer Machine Gun       | 5    | Machine Guns          | Ranged: `10`, Ammo: `60`, Automatic, Very Slow Reload | `6 + Q` Piercing | A bulky and heavy machine gun with a moderate rate of fire, but well suited to suppression fire. |
-| 1    | Maksim II Rifle          | 4    | Long Guns             | Ranged: `15`, Ammo: `12`, Semi-Auto, Slow Reload      | `≤ 1` Hit: `8 + Q` Piercing <br> `= 2` Hits: `9 + Q` Piercing <br> `≥ 3` Hits: `10 + Q` Piercing | An innovation of the Maksim Rifle allows it to be magazine-fed and become semi-auto, at the cost of power. |
-| 1    | Flash Grenade            | 1    | Throwing              | Thrown                                                | Blinds all creatures who look into the flash for `3` Rounds. They suffer `+1` Ob to all Tests. | Stacks up to `3`; A throwable flash grenade designed for the non-violent quelling of riots, which may also find use in the field. |
-| 1    | Gas Grenade              | 1    | Throwing              | Thrown                                                | Releases a noxious cloud of gas, in a `3` Square diameter, which causes `8 + Q` Acid damage. its | Stacks up to `3`; A throwable gas grenade useful for area-denial. |
-| 2    | Assault Sword            | 2    | Close Quarters Combat | Melee                                                 | `≤ 1` Hit: `6 + Q` Slashing <br> `= 2` Hits: `8 + Q` Slashing <br> `≥ 3` Hits: `11 + Q` Slashing | A well designed and finely crafted, sturdy blade to dominate close quarters combat. |
-| 2    | Artyar SMG               | 3    | Short Guns            | Ranged: `10`, Ammo: `20`, Automatic, Slow Reload      | `≤ 1` Hit: `4 + Q` Piercing <br> `= 2` Hits: `5 + Q` Piercing <br> `≥ 3` Hits: `6 + Q` Piercing | An innovative design, though somewhat clumsy, this submachine gun borrows pieces from the Maksim II rifle with an automatic feeder mechanism, enabling automatic fire. To support the higher magazine capacity, the ammo had to be down-sized. |
-| 3    | Maksim III Rifle         | 4    | Long Guns             | Ranged: `30`, Ammo: `12`, Semi-Auto, Slow Reload      | `≤ 1` Hit: `10 + Q` Piercing <br> `= 2` Hits: `12 + Q` Piercing <br> `≥ 3` Hits: `14 + Q` Piercing | Outfitted with a powerful scope and a slightly lengthened barrel, this Maksim elevates the art of the sharpshooter. |
-| 4    | Kijser Assault Rifle     | 3    | Long Guns             | Ranged: `20`, Ammo: `20`, Automatic                   | `≤ 1` Hit: `8 + Q` Piercing <br> `= 2` Hits: `9 + Q` Piercing <br> `≥ 3` Hits: `10 + Q` Piercing | A powerful and ergonomic assault rifle and in fact the first of its kind. In skilled hands, it is a deadly weapon. |
-| 4    | Rahvalod Machine Gun     | 4    | Machine Guns          | Ranged: `10`, Ammo: `100`, Automatic, Very Slow Reload| `≤ 1` Hit: `6 + Q` Piercing <br> `= 2` Hits: `8 + Q` Piercing <br> `≥ 3` Hits: `10 + Q` Piercing | A powerful, fast-firing machine gun.  |
+| Tier | Weapon                   | Bulk | Skill                 | Properties                                                       | Damage & Effects   | Description        |
+| ---- | ------------------------ | ---- | --------------------- | ---------------------------------------------------------------- | ------------------ | ------------------ |
+| 0    | Trench Shovel            | 2    | Close Quarters Combat | Melee                                                            | `≤ 1` Hit: `3 + Q` Slashing <br> `= 2` Hits: `4 + Q` Slashing <br> `≥ 3` Hits: `5 + Q` Slashing | A standard-issue digging implement with sharp edges. |
+| 0    | Krauser Semi-Auto Pistol | 1    | Firearms              | Ranged: `6`, Ammo: `6`, Semi-Auto                                | `≤ 1` Hit: `4 + Q` Piercing <br> `= 2` Hits: `4 + Q` Piercing <br> `≥ 3` Hits: `5 + Q` Piercing | The mass-produced Krauser semi-auto pistol is a reliable, though not particularly deadly personal defence weapon. |
+| 0    | Maksim Rifle             | 3    | Firearms              | Ranged: `20`, Ammo: `6`, Bolt-Action, Slow Reload                | `≤ 1` Hit: `8 + Q` Piercing <br> `= 2` Hits: `10 + Q` Piercing <br> `≥ 3` Hits: `13 + Q` Piercing | The mass-produced Maksim bolt-action rifle is reliable and powerful, but also bulky and slow. |
+| 0    | Fragmentation Grenade    | 1    | Throwing              | Thrown                                                           | `6 + Q` Piercing + `6 + Q` Bludgeoning + `3` Burning | Stacks up to `3`; A throwable fragmentation grenade and a staple of trench warfare - before the cataclysm. Simple, but effective. |
+| 1    | Standard Saber           | 2    | Close Quarters Combat | Melee                                                            | `≤ 1` Hit: `5 + Q` Slashing <br> `= 2` Hits: `5 + Q` Slashing <br> `≥ 3` Hits: `6 + Q` Slashing | A simple officer's saber. A bit heavy in hand, but reliable. |
+| 1    | Hetzer Machine Gun       | 5    | Firearms              | Ranged: `10`, Ammo: `60`, Automatic, Very Slow Reload, Burst `3` | `6 + Q` Piercing | A bulky and heavy machine gun with a moderate rate of fire, but well suited to suppression fire. |
+| 1    | Maksim II Rifle          | 4    | Firearms              | Ranged: `15`, Ammo: `12`, Semi-Auto, Slow Reload                 | `≤ 1` Hit: `8 + Q` Piercing <br> `= 2` Hits: `9 + Q` Piercing <br> `≥ 3` Hits: `10 + Q` Piercing | An innovation of the Maksim Rifle allows it to be magazine-fed and become semi-auto, at the cost of power. |
+| 1    | Flash Grenade            | 1    | Throwing              | Thrown                                                           | Blinds all creatures who look into the flash for `3` Rounds. They suffer `+1` Ob to all Tests. | Stacks up to `3`; A throwable flash grenade designed for the non-violent quelling of riots, which may also find use in the field. |
+| 1    | Gas Grenade              | 1    | Throwing              | Thrown                                                           | Releases a noxious cloud of gas, in a `3` Square diameter, which causes `8 + Q` Acid damage. its | Stacks up to `3`; A throwable gas grenade useful for area-denial. |
+| 2    | Assault Sword            | 2    | Close Quarters Combat | Melee                                                            | `≤ 1` Hit: `6 + Q` Slashing <br> `= 2` Hits: `8 + Q` Slashing <br> `≥ 3` Hits: `11 + Q` Slashing | A well designed and finely crafted, sturdy blade to dominate close quarters combat. |
+| 2    | Artyar SMG               | 3    | Firearms              | Ranged: `10`, Ammo: `20`, Automatic, Slow Reload, Burst `3`      | `≤ 1` Hit: `4 + Q` Piercing <br> `= 2` Hits: `5 + Q` Piercing <br> `≥ 3` Hits: `6 + Q` Piercing | An innovative design, though somewhat clumsy, this submachine gun borrows pieces from the Maksim II rifle with an automatic feeder mechanism, enabling automatic fire. To support the higher magazine capacity, the ammo had to be down-sized. |
+| 2    | Corrosion Grenade        | 1    | Throwing              | Thrown                                                           | `6 + Q` Acid | A large, bulbous hand grenade. Contained within are two liquids that, when combined, become a strong but fleeting acid, capable of melting steel within seconds before becoming harmless. |
+| 3    | Maksim III Rifle         | 4    | Firearms              | Ranged: `30`, Ammo: `12`, Semi-Auto, Slow Reload                 | `≤ 1` Hit: `10 + Q` Piercing <br> `= 2` Hits: `12 + Q` Piercing <br> `≥ 3` Hits: `14 + Q` Piercing | Outfitted with a powerful scope and a slightly lengthened barrel, this Maksim elevates the art of the sharpshooter. |
+| 3    | Cryogenic Grenade        | 1    | Throwing              | Thrown                                                           | `8 + Q` Freezing | An innovative application of liquid nitrogen, contained in a delicate shell, ready to be dispersed by a tiny explosive charge. In other words - a 'freeze grenade'. |
+| 4    | Kijser Assault Rifle     | 3    | Firearms              | Ranged: `20`, Ammo: `20`, Automatic, Burst `3`                   | `≤ 1` Hit: `8 + Q` Piercing <br> `= 2` Hits: `9 + Q` Piercing <br> `≥ 3` Hits: `10 + Q` Piercing | A powerful and ergonomic assault rifle and in fact the first of its kind. In skilled hands, it is a deadly weapon. |
+| 4    | Rahvalod Machine Gun     | 4    | Firearms              | Ranged: `10`, Ammo: `100`, Automatic, Very Slow Reload, Burst `6`| `≤ 1` Hit: `6 + Q` Piercing <br> `= 2` Hits: `8 + Q` Piercing <br> `≥ 3` Hits: `10 + Q` Piercing | A powerful, fast-firing machine gun.  |
 
 ## List of Skills
 
@@ -494,6 +515,14 @@ Skill for any melee weapon and unarmed combat.
 | 1     | Grapple                | 2  | Opposed by Close Quarters Combat     | [Grapple](#grappled) a target. You can not use at least one hand for as long as you're grappling. <br> `≤ 1` Hit: The target is [Grappled](#grappled). <br> `= 2` Hits: The target is [Grappled](#grappled) and knocked [Prone](#prone) or disarmed, if possible. <br> `≥ 3` Hits: The target is [Grappled](#grappled), knocked [Prone](#prone) and disarmed, if possible. |
 | 1     | Blade Barrier          | 3  |                                      | Until the start of your next Turn, whenever any Character moves **into** a spot within reach, you may **freely** attack that Character with a **Slash** at Ob `+1` and, if successful, force them back `1` Square. |
 | 2     | Cleave                 | 3  | 2                                    | Attack up to `3` targets at once, in a `2` Square AoE cone in front of you. |
+
+### Firearms (Agi/Awar)
+Skill for using modern firearms. 
+
+| Level | Name                   | AP | Ob          | Description <br> Damage                   |
+| ----- | ---------------------- | -- | ----------- | ----------------------------------------- |
+| 0     | Single-Shot            | 2  | Opposed     | Shoot once at a ST, dealing damage as noted on your weapon. |
+| 1     | Burst-Fire             | 3  | Opposed     | Shoot a burst at a ST, dealing damage as noted on your weapon, *if* the weapon supports it. |
 
 # Game Mastery
 This and the following sections are reserved solely for the GM's eyes. Reading on as a player may spoil many surprises and the fun of discovery for you. 
@@ -549,6 +578,8 @@ In the Characteristics blocks below, when armor is concerned, it may be noted in
 ## Argentumites
 It is widely known that the clouds beneath may harbor no life, for all living things that pass through wither and die in mere moments. And yet strange creatures, made of Silversteel regularly emerge from the blanket below. Dubbed **Argentumites**, sightings of these things always end in conflict and blood. They are relentless killers, seeking out and destroying what remains of our civilization. They do not speak, they do not flinch and they don't take prisoners. 
 
+Argentumites stride with utter surety. Their confidence in their armor lets them act very aggressively and push their luck. This may even render them a little reckless. The higher forms of Argentumite possess a greater intellect to offset this disadvantage. 
+
 ### Argentumite Sentry
 A cyclopean, white and floating sphere that is often seen roaming islands in advance of other, more dangerous Argentumites. 
 
@@ -565,7 +596,7 @@ A cyclopean, white and floating sphere that is often seen roaming islands in adv
 
 | BI     | Sprint | Stabil | HP  | Stamina    | FS (Ranged `10`)| Def    | Armor             |
 | ------ | ------ | ------ | --- | ---------- | --------------- | ------ | ----------------- |
-| 7      | 2      | 0      | 20  | 4          | 3 Burning       | 2D     |                   |
+| 7      | 2      | 0      | 20  | 4          | 3 Burning       |        | `8` Slashing; `8` Piercing; `8` Bludgeoning; `8` Burning; Poison immune |
 
 **Traits**: Always floating; [Fortified Mind](./strive-core.md#fortified-mind--4-points-1-cr); 
 
@@ -581,6 +612,181 @@ A cyclopean, white and floating sphere that is often seen roaming islands in adv
 * Shield (Awar/Awar): 
   * **Concentration**: Cover an ally up to `10` Squares away in a shield that absorbs `10` points of damage before bursting.
   * Level: `4`, AP: `2`, Ranged, ST, Innate
+
+### Argentumite Jumelles
+Two tethered, elongated octahedrons, each with a central, beaming eye, float effortlessly and in search of victims. Countless tiny floating spikes flank the twins, gleaming maliciously in the sun. 
+
+* Power: Regular, CR: `8`
+* Roles: Artillery
+  * A dangerous foe with deadly ranged attacks, that may be difficult to get close to. 
+* Behavior: 
+  * Roams around or floats fixated upon a specific location. 
+
+| Agi   | Awar  | Str   | Tough | Wit   |
+| ----- | ----- | ----- | ----- | ----- |
+| 5     | 5     | 2     | 3     | 3     |
+
+| BI     | Sprint | Stabil | HP  | Stamina    | FS (Ranged `10`)| Def    | Armor             |
+| ------ | ------ | ------ | --- | ---------- | --------------- | ------ | ----------------- |
+| 13     | 4      | 0      | 30  | 6          | 6 Piercing      |        | `8` Slashing; `8` Piercing; `8` Bludgeoning; `8` Burning; Poison immune |
+
+**Traits**: Always floating; [Fortified Mind](./strive-core.md#fortified-mind--4-points-1-cr); 
+
+**Assets**: `1` bulk salvageable Silversteel
+
+**Skills**:
+* Spike-Barrage (Agi/Awar): 
+  * Shoot a burst of `4` spikes at a ST, up to `15` Squares away.
+  * Level: `5`, AP: `2`, Ob: Opposed, Ranged, ST, Innate
+  * `≤ 1` Hit: `8` Piercing
+  * `= 2` Hits: `11` Piercing
+  * `≥ 3` Hits: `15` Piercing
+
+### Argentumite Attaquant
+A large bipedal Argentumite with a sword and a shield. One of the few that don't float. 
+
+* Power: Regular, CR: `14`
+* Roles: Brawler
+  * A strong frontliner that will relentlessly assault its victims. 
+* Behavior: 
+  * Often accompanies other Argentumites or may even be by itself, to assault fringe islands or Sky Ships. 
+
+| Agi   | Awar  | Str   | Tough | Wit   |
+| ----- | ----- | ----- | ----- | ----- |
+| 5     | 3     | 5     | 3     | 3     |
+
+| BI     | Sprint | Stabil | HP  | Stamina    | FS (Melee)      | Def    | Armor             |
+| ------ | ------ | ------ | --- | ---------- | --------------- | ------ | ----------------- |
+| 11     | 4      | 2      | 30  | 6          | 6 Slashing      | 3D     | `8` Slashing; `8` Piercing; `8` Bludgeoning; `8` Burning; Poison immune |
+
+**Traits**: [Fortified Mind](./strive-core.md#fortified-mind--4-points-1-cr); 
+
+**Assets**: `2` bulk salvageable Silversteel
+
+**Skills**:
+* Slash (Agi/Str): 
+  * Strike at a ST in melee range with a sword slash. 
+  * Level: `4`, AP: `2`, Ob: Opposed, Melee, ST, Innate
+  * `≤ 1` Hit: `8` Slashing
+  * `= 2` Hits: `10` Slashing
+  * `≥ 3` Hits: `13` Slashing
+* Shield Slam (Agi/Tough): 
+  * Slam your shield at a ST in melee range. 
+  * Level: `4`, AP: `2`, Melee, ST, Innate
+  * `≤ 1` Hit: `6` Bludgeoning; Knock-back `1` Squares
+  * `= 2` Hits: `8` Bludgeoning; Knock-back `2` Squares
+  * `≥ 3` Hits: `10` Bludgeoning; Knock-back `3` Squares
+
+### Argentumite Chevalier
+A multi-legged Pegasus-esque Argentumite. It would almost look friendly, if not for the incense burners hanging from its sides spewing Death Fog. And the massive, spiked tail which it uses as a weapon. 
+
+* Power: Elite, CR: `20`
+* Roles: Disruptor, Shock-Trooper
+  * A very tricky foe, that will exploit open terrain best and is difficult to hit, while *also* armored! 
+* Behavior: 
+  * Roams around or floats fixated upon a specific location. 
+
+| Agi   | Awar  | Str   | Tough | Wit   |
+| ----- | ----- | ----- | ----- | ----- |
+| 7     | 4     | 4     | 4     | 3     |
+
+| BI     | Sprint | Stabil | HP  | Stamina    | FS (Ranged `10`)| Def    | Armor             |
+| ------ | ------ | ------ | --- | ---------- | --------------- | ------ | ----------------- |
+| 14     | 5      | 0      | 40  | 8          | 6 Bludgeoning   | 4D     | `8` Slashing; `8` Piercing; `8` Bludgeoning; `8` Burning; Poison immune |
+
+**Traits**: Always floating; [Fortified Mind](./strive-core.md#fortified-mind--4-points-1-cr); 
+
+**Assets**: `3` bulk salvageable Silversteel
+
+**Skills**:
+* Swoop (Agi/Str): 
+  * Move in a line, up to `10` Squares away, and strike at all targets in an AoE line. 
+  * Level: `4`, AP: `2`, Ob: 2, Ranged, AoE, Innate
+  * `≤ 1` Hit: `6` Bludgeoning; `3` Squares Knock-back
+  * `= 2` Hits: `8` Bludgeoning; `3` Squares Knock-back
+  * `≥ 3` Hits: `11` Bludgeoning; `4` Squares Knock-back
+* Tail Slam (Str/Str): 
+  * Strike at a ST with your spiked tail. 
+  * Level: `4`, AP: `2`, Ob: Opposed, Ranged, ST, Innate
+  * `≤ 1` Hit: `10` Bludgeoning; `3` Squares Knock-back
+  * `= 2` Hits: `12` Bludgeoning; `3` Squares Knock-back
+  * `≥ 3` Hits: `15` Bludgeoning; `4` Squares Knock-back
+
+### Argentumite Plongeur
+This one looks like a diver in one of those bulky diving suits, covered in ethereal algae. Bright light beams from the windows of its helmet and in its vicinity, the air freezes. 
+
+* Power: Elite, CR: `14`
+* Roles: Ambusher
+  * A tricky foe that jumps around the battlefield in an instant and can thus surprise foes from any angle. 
+* Behavior: 
+  * Roams around or floats fixated upon a specific location. 
+
+| Agi   | Awar  | Str   | Tough | Wit   |
+| ----- | ----- | ----- | ----- | ----- |
+| 3     | 4     | 2     | 3     | 3     |
+
+| BI     | Sprint | Stabil | HP  | Stamina    | FS (Ranged `10`)| Def    | Armor             |
+| ------ | ------ | ------ | --- | ---------- | --------------- | ------ | ----------------- |
+| 10     | 4      | 0      | 30  | 6          | 5 Freezing      | 2D     | `8` Slashing; `8` Piercing; `8` Bludgeoning; `8` Burning; Poison immune |
+
+**Traits**: Always floating; [Fortified Mind](./strive-core.md#fortified-mind--4-points-1-cr); 
+
+**Assets**: `3` bulk salvageable Silversteel
+
+**Skills**:
+* Blast (Tough/Tough): 
+  * Blast all around, in a `5` Square diameter AoE. 
+  * Level: `4`, AP: `2`, Ob: Opposed, Ranged, AoE, Innate
+  * `≤ 1` Hit: `6` Freezing
+  * `= 2` Hits: `8` Freezing
+  * `≥ 3` Hits: `10` Freezing
+* Blink: 
+  * Disappear and immediately re-appear in a location of your choosing, up to `20` Squares away.
+  * Level: `4`, AP: `2`, Ranged, Innate
+
+### Argentumite Monarque
+Giant and authoritative, this Argentumite commands respect, even from its enemies. A clean, spiked crown adorns its head, a spiked otherworldly circle of gleaming white always shines, behind its head and large wings flank its form. Arms with enormous wicked scythes are held crossed in front the body - but not for long. 
+
+* Power: Legendary, CR: `20`
+* Roles: Artillery, Tank
+  * A formidable foe and clearly a leader. Employ as a boss encounter. 
+* Behavior: 
+  * Roams around or floats fixated upon a specific location. 
+
+| Agi   | Awar  | Str   | Tough | Wit   |
+| ----- | ----- | ----- | ----- | ----- |
+| 8     | 8     | 10    | 10    | 5     |
+
+| BI     | Sprint | Stabil | HP  | Stamina    | FS (Ranged `15`)| Def    | Armor             |
+| ------ | ------ | ------ | --- | ---------- | --------------- | ------ | ----------------- |
+| 21     | 9      | 3      | 100 | 20         | 10 Piercing     | 3D     | `12` Slashing; `12` Piercing; `12` Bludgeoning; `12` Burning; `6` Freezing; Poison immune |
+
+**Traits**: Always floating; [Fortified Mind](./strive-core.md#fortified-mind--4-points-1-cr); [Aura of Death](#aura-of-death)
+
+**Assets**: `5` bulk salvageable Silversteel
+
+**Skills**:
+* Command Death: 
+  * Lift a finger at a ST, up to `20` Squares away and engulf it in Death Fog, which deals `10` Pure damage in a `5` Square AoE diameter to all creatures without Death Fog protection.
+  * Level: `6`, AP: `3`, Ranged, ST, Innate
+* Command Fear (Str/Tough): 
+  * Lift a finger at a ST, up to `20` Squares away and engulf it make it fear for its life!
+  * Level: `6`, AP: `2`, Ob: Opposed, Ranged, ST, Innate
+* Command Respect (Tough/Wit): 
+  * Pull every creature you can see, up to `20` Squares away, closer towards you. 
+  * Level: `6`, AP: `2`, Ob: 2, Ranged, ST, Innate
+  * `≤ 1` Hit: `4` Squares
+  * `= 2` Hits: `5` Squares
+  * `≥ 3` Hits: `7` Squares
+* Grand Slash (Str/Str): 
+  * Strike at all foes in a `10` Square AoE cone in front of you. 
+  * Level: `4`, AP: `3`, Ranged, Aoe, Innate
+  * `≤ 1` Hit: `20` Slashing
+  * `= 2` Hits: `25` Slashing
+  * `≥ 3` Hits: `30` Slashing
+
+#### Aura Of Death
+This creature is always surrounded in a cloud of Death Fog, dealing `10` Pure damage in a `5` Square AoE diameter around it, to all creatures without Death Fog protection.
 
 ## Swine-Beasts
 Created in a vain and immoral conjuring of demons from another place, the Swine-Beasts themselves represent a cruel parody of man, molded from the flesh of pigs. All the worst properties of humanity are manifested in these unsavory creatures. 
@@ -614,3 +820,6 @@ The following [Hostility Actions](./strive-core.md#hostility) are available to a
 **`-10` Hostility**: The foul Swine have prepared a trap! The battlefield is flooded with a nauseating miasma and covered in unnatural darkness! 
 * All non-Swine with normal vision can only see up to `3` Squares far.
 * All non-Swine suffer `-1D` to all Tests.
+ 
+### Swine Grunt
+TODO
