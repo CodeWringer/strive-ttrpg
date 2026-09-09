@@ -23,6 +23,7 @@ There is a [compendium document](./strive-fantasy-game-masters-resource.md) rese
 - [Character](#character)
   - [Attributes](#attributes)
     - [Arcana (Arc)](#arcana-arc)
+  - [Corruption](#corruption)
 - [Magic](#magic)
   - [Testing Magic](#testing-magic)
   - [Spell Intensity (SI)](#spell-intensity-si)
@@ -157,6 +158,13 @@ There is a [compendium document](./strive-fantasy-game-masters-resource.md) rese
 - [Creature Compendium](#creature-compendium)
   - [Cursed](#cursed)
     - [Werewolf](#werewolf)
+  - [Corruptions](#corruptions)
+    - [Hunched Dread](#hunched-dread)
+    - [Huskfallen](#huskfallen)
+    - [Tentacled Tarbeast](#tentacled-tarbeast)
+      - [The Flesh is Malleable](#the-flesh-is-malleable)
+    - [Threaded Terror](#threaded-terror)
+    - [Time-Eater](#time-eater)
   - [Demons](#demons)
     - [Demon Hostility](#demon-hostility)
       - [Consuming Rage](#consuming-rage)
@@ -271,6 +279,12 @@ Supplements to the [Core Attribute rules](./strive-core.md#attributes).
 This is the only Attribute that can have a Level of `0`, meaning playing a mage is a deliberate choice. 
 
 Used to determine the [Arcane Overheat](#arcane-overheat--slag) thresholds.
+
+## Corruption
+A [Health Condition](./strive-core.md#condition) that, when it reaches `5`, causes the victim to mutate into a [Corruption monster](#corruptions)!
+
+* Graded
+* Shrug Off: `-1` point with a [Medicine](./strive-core.md#medicine-agiwit) [Test](#tests) with Ob `2`. 
 
 # Magic
 For this supplement, magic is assumed to be a mostly invisible supernatural force that runs all throughout, like a magnetosphere. Perhaps it could be called the *Arcanosphere*. How magic manifests itself, is up to the world the GM is running. Is there a verbal component? Must the mage trace arcane symbols into the air or onto some surface? Are the magical currents visible and glow eerily? This supplement makes no assumptions in this regard. 
@@ -650,7 +664,7 @@ See also the [Core rule's Asset appendix](./strive-core.md#assets-appendix).
 | Poison Resistance Potion | 1    | 2               | 15  | 1 Hour     |             | Once imbibed, reduces all incurred poison damage by `Q * 2`, for up to `Q` hours. |
 | Sleeping Poison          | 1    | 3               | 40  | 1 Hour     | +1          | Causes a victim to feel incredibly sleepy. Unless they succeed a [Self-Control](./strive-core.md#self-control-toughwit) Test at Ob `Q`, they will fall asleep the first chance they get. They cannot be woken from this state for at least `6` hours, except through the use of harmful force. |
 | Smoke Bomb               | 1    | 3               | 10  | 10 Minutes |             | A small fragile shell, filled with a very fine powder which when broken causes an area in a `Q` Square AoE radius to be covered in smoke. It is impossible to see through and ranged attacks within or through the smoke-covered area suffer `+2` Ob. Victims caught in the smoke may be forced to cough. The smoke lasts `6` Turns or `30` seconds. |
-| Throwing Blade           | 1    | 6               | 10  | 1 Hour     |             | A small weighted blade, like a knife or star, well suited to being thrown. Can be used in melee and acts like a [Dagger](#light-blade), but with a penalty of `-2D` to attack and Defense. `+1D` when [Thrown](./strive-core.md#throwing-accuracy) for a ranged attack. <br> `≤ 1` Hit: `4 + Str` Piercing <br> `= 2` Hits: `6 + Str` Piercing <br> `≥ 3` Hits: `8 + Str` Piercing |
+| Throwing Blade           | 1    | 6               | 10  | 1 Hour     |             | A small weighted blade, like a knife or star, well suited to being thrown. Can be used in melee and acts like a [Dagger](#light-blade), but with a penalty of `-2D` to attack and Defense. `+1D` when [Thrown](./strive-core.md#throwing) for a ranged attack. <br> `≤ 1` Hit: `4 + Str` Piercing <br> `= 2` Hits: `6 + Str` Piercing <br> `≥ 3` Hits: `8 + Str` Piercing |
 | Tools                    | 1    | 2               | 10  | 1 Hour     |             | Various metal-made, proper tools. |
 | Trap: Acid               | 1    | 3               | 15  | 1 Hour     |             | A small metal frame with a central pressure pad which, when stepped on, sprays acid upwards at the victim. Causes `(Q * 2) + 6` Acid damage. |
 | Trap: Bear               | 1    | 3               | 15  | 1 Hour     |             | A metal-jawed trap, capable of breaking bone and flesh. Deals `Q * 2` Bludgeoning and `Q * 2` Piercing damage. Causes [Rooted](./strive-core.md#rooted) in the victim, which costs `3` AP to clear. |
@@ -1805,6 +1819,197 @@ Whether through the bite, or blood, a Werewolf's curse transforms its victim int
   * `≤ 1` Hit: `4` Piercing
   * `= 2` Hits: `5` Piercing
   * `≥ 3` Hits: `6` Piercing
+
+## Corruptions
+Wherever powerful magic is cast, the Arcanosphere is disturbed, its winds accelerated unnaturally. If the torrents become too great, they begin warping reality unpredictably. Things caught in the storm become affected. If exposure is too long, they morph and transform into Corruption monsters - nightmarish things that don't follow the rules of this reality. While some of these abominations may be relatively feeble, others would challenge armies. 
+
+### Hunched Dread
+Warped bones are held together by sinew and parched remnants of skin. The heavily hunched creature moves with uncanny precision, although the tangle of malformed extremities forbid any elegance. The skull is laid bare, tentacle-esque boney protrusions dangle and deviously curl from it. Although it lacks eyes, its gaze is straight and filled with dark intent. 
+
+* Power: Elite, CR: `10`
+* Roles: Ambusher, Disruptor
+  * A tricky and annoying foe, that will kidnap victims and drag them off to dark places, where it cages them, left to rot. 
+* Behavior: 
+  * Stalking the darkness, or waiting patiently for victims to draw near. 
+  * Will attempt to drag off a single victim and then erect a Twisted Cage around them. 
+  * If surrounded by foes, tries to Twisted Cage as many of them as possible, before attempting a daring escape. 
+  * Prefers to stay on the move. Doesn't stand around idly when in combat. 
+
+| Agi   | Awar  | Str   | Tough | Wit   | Arc   |
+| ----- | ----- | ----- | ----- | ----- | ----- |
+| 6     | 3     | 6     | 3     | 3     | 5     |
+
+| BI     | Sprint | Stabil | HP  | Stamina    | FS              | Def    | Armor             |
+| ------ | ------ | ------ | --- | ---------- | --------------- | ------ | ----------------- |
+| 12     | 6      | 0      | 30  | 6          |                 | 3D     |                   |
+
+**Traits**: [Fast](./strive-core.md#fast--2-points-1-cr); [Fortified Mind](./strive-core.md#fortified-mind--4-points-1-cr); [Climber + Sticky](./strive-core.md#climber--2-points-1-cr); 
+
+**Assets**: None
+
+**Skills**:
+* Kidnap (Agi/Str): 
+  * Envelop a ST and drag them off. The victim counts as [Grappled](./strive-core.md#grappled). 
+  * Level: `5`, AP: `2`, Ob: Opposed, Melee, ST, Innate
+* Twisted Cage (Arc/Arc): 
+  * Form a cage of twisted earth and bone around a ST, up to `10` Squares away, who is considered [Rooted](./strive-core.md#rooted) and due to the constricted space, suffers `+1` Ob to all Tests.
+  * Level: `5`, AP: `2`, Ranged, ST, Innate
+
+### Huskfallen
+Muscle and bone are laid bare and mutated, as the monster's skin is akin to a tree's bark. It is heavily hunched over and low to the ground. Its double-jointed arms jut out above the shoulders and at the ends of its overgrown hands bony claws curve outward like daggers. 
+
+* Power: Feeble, CR: `6`
+* Roles: Tank
+  * On its own, barely a challenge. Employ it with more of its kind as a mobile meat shield for higher value targets. 
+  * Will also grapple enemies, keeping them in place and an easier target for its larger allies. 
+* Behavior: 
+  * Often accompanies greater Corruption monsters, like an escort. 
+
+| Agi   | Awar  | Str   | Tough | Wit   | Arc   |
+| ----- | ----- | ----- | ----- | ----- | ----- |
+| 2     | 2     | 3     | 3     | 2     | 5     |
+
+| BI     | Sprint | Stabil | HP  | Stamina    | FS (Melee)      | Def    | Armor             |
+| ------ | ------ | ------ | --- | ---------- | --------------- | ------ | ----------------- |
+| 6      | 3      | 0      | 30  | 6          | `4` Slashing    |        |                   |
+
+**Traits**: None
+
+**Assets**: None
+
+**Skills**:
+* Rend (Agi/Str): 
+  * Tear a ST to shreds with your claws. 
+  * Level: `3`, AP: `2`, Ob: Opposed, Melee, ST, Innate
+  * `≤ 1` Hit: `3` Slashing
+  * `= 2` Hits: `4` Slashing
+  * `≥ 3` Hits: `5` Slashing
+* Grapple (Agi/Str): 
+  * Grapple a ST. Gain `+1` Compensation Point for Grapple Tests.
+  * Level: `3`, AP: `2`, Ob: Opposed, Melee, ST, Innate
+
+### Tentacled Tarbeast
+A massive, bipedal abomination. Its thin limbs are too long for its proportions, feet and hands larger than they should be and always with at least a slight bend, like the creature simply cannot straighten itself. Nasty crooked claws tip the ends of its elongated fingers. The upper body is one amorphous shape, housing multiple eyes randomly breaking through the skin. Multiple tentacles curve from its hunched back, writhing like seaweed. Its skin is a matte purple and amorphous, like the ripples in the surface of a lake, always moving.
+
+* Power: Legendary, CR: `20`
+* Roles: Shock-Trooper, Tank
+  * A considerable challenge and a **deadly** foe, that will Spew Taint to create more of its wicked kind. 
+* Behavior: 
+  * Roams the more heavily corrupted regions of the world, where the Arcanosphere's torrents are rampant. 
+
+| Agi   | Awar  | Str   | Tough | Wit   | Arc   |
+| ----- | ----- | ----- | ----- | ----- | ----- |
+| 3     | 2     | 5     | 7     | 2     | 5     |
+
+| BI     | Sprint | Stabil | HP  | Stamina    | FS (Melee)      | Def    | Armor             |
+| ------ | ------ | ------ | --- | ---------- | --------------- | ------ | ----------------- |
+| 7      | 5      | 3      | 70  | 14         | `10` Slashing   |        |                   |
+
+**Traits**: [The Flesh is Malleable](#the-flesh-is-malleable); [Fortified Mind](./strive-core.md#fortified-mind--4-points-1-cr); [Hyperactive + Multi-Initiative](./strive-core.md#hyperactive--7-points-4-cr);
+
+**Assets**: None
+
+**Skills**:
+* Rend (Str/Tough): 
+  * Tear a ST to shreds with your claws. Cannot be used against a target you're currently Grappling. 
+  * Level: `5`, AP: `2`, Ob: Opposed, Melee, ST, Innate
+  * `≤ 1` Hit: `8` Slashing
+  * `= 2` Hits: `10` Slashing; `+1` Bleeding
+  * `≥ 3` Hits: `13` Slashing; `+1` Bleeding
+* Spew Taint (Arc/Arc): 
+  * Spew the Taint at a victim, up to `5` Squares away, causing `+1` [Corruption](#corruption) in the victim.
+  * Level: `4`, AP: `2`, Ob: Opposed, Ranged, ST, Innate
+* Tentacles (Agi/Str): 
+  * Crushing Squeeze:
+    * Once per Turn, squeeze the life out of a currently Grappled ST victim, causing `8` Bludgeoning damage. 
+    * Level: `4`, AP: ` 1`, ST, Innate
+  * Grapple:
+    * Grapple a ST with your tentacles, up to `3` Squares away. 
+    * Level: `4`, AP: ` 1`, Opposed, ST, Innate
+
+#### The Flesh is Malleable
+Upon the start of your turn, regain `8` HP and remove one Injury!
+
+### Threaded Terror
+Stilted legs hold aloft a large body comprised of tendrils pulsating with light. Its abstract form is vaguely humanoid, though it lacks any natural features. The air around it crackles with energy. 
+
+* Power: Elite, CR: `10`
+* Roles: Disruptor
+  * A considerable challenge that turns foes against their former allies. May prove deadly to singular enemies who have no allies to bust them out of trouble. 
+* Behavior: 
+  * Roams the more heavily corrupted regions of the world, where the Arcanosphere's torrents are rampant. 
+
+| Agi   | Awar  | Str   | Tough | Wit   | Arc   |
+| ----- | ----- | ----- | ----- | ----- | ----- |
+| 4     | 2     | 1     | 2     | 3     | 5     |
+
+| BI     | Sprint | Stabil | HP  | Stamina    | FS              | Def    | Armor             |
+| ------ | ------ | ------ | --- | ---------- | --------------- | ------ | ----------------- |
+| 9      | 3      | 0      | 20  | 20         |                 | 2D     |                   |
+
+**Traits**: [Fortified Mind](./strive-core.md#fortified-mind--4-points-1-cr); 
+
+**Assets**: None
+
+**Skills**:
+* Puppeteer (Agi/Arc): 
+  * Jam your flesh tendrils in a victim's skin, taking control of them, up to `5` Squares away, with `+1` Compensation Point for the Test. If successful, the victim is under your direct control and cannot move on their own, although they may still think and speak of their own volition. The victim may attempt to break free from your control at the end of your Turn, with a successful Self-Control Test, at Ob `4`. An ally may attempt to sever the tendrils or pull loose their ally, with a Test at Ob `3`. 
+  * For as long as a victim is Puppeteered, it will suffer all damage directed towards the Threaded Terror, who suffers no damage. 
+  * Level: `5`, AP: `2`, Ob: Opposed, Ranged, ST, Innate
+* Zap (Agi/Arc): 
+  * Send a bolt of lightning from your tendrils to a ST victim, up to `5` Squares away.
+  * Level: `5`, AP: `2`, Ob: Opposed, Ranged, ST, Innate
+  * `≤ 1` Hit: `6` Electrical
+  * `= 2` Hits: `8` Electrical
+  * `≥ 3` Hits: `10` Electrical
+
+### Time-Eater
+A massive, monstrous mass of bare flesh and bone. Its skin is like fish's mail, made of screaming eyeless faces, forever contorted in horror. Reality warps oddly around it, like around a black hole, but with it remaining clearly visible at the center. 
+
+* Power: Legendary, CR: `30`
+* Roles: Disruptor, Multiplier, Tank
+  * A legendary foe that warps reality around it, displacing foes and creating more of its kind. 
+  * This thing could easily rival the greatest of Demons without breaking a sweat. It cannot sweat. 
+* Behavior: 
+  * Roams the most heavily corrupted regions of the world, where the Arcanosphere's torrents are cataclysmic. 
+  * Uses "Corrupt Reality" when enemies come within `5` Squares of it. 
+  * Uses "I Remember..." whenever possible, but no more than twice in a Turn. 
+
+| Agi   | Awar  | Str   | Tough | Wit   | Arc   |
+| ----- | ----- | ----- | ----- | ----- | ----- |
+| 2     | 2     | 10    | 20    | 4     | 7     |
+
+| BI     | Sprint | Stabil | HP  | Stamina    | FS (Melee)      | Def    | Armor             |
+| ------ | ------ | ------ | --- | ---------- | --------------- | ------ | ----------------- |
+| 7      | 0      | 0      | 200 | 40         |                 | 2D     |                   |
+
+**Traits**: [Fortified Mind](./strive-core.md#fortified-mind--4-points-1-cr); [Shambler](./strive-core.md#shambler-2-points--2-cr); 
+
+**Assets**: None
+
+**Skills**:
+* I Remember... (Arc/Arc): 
+  * Level: `6`, AP: `2`, ST, Innate
+  * Roll `1D6`, on `1`: We Were More, `2`: You Were Not There, `3`: You Were Weaker, `4`: A Cage, `5`: You Were Slower, `6`: Being Alive
+  * We Were More:
+    * `1D4`, Spawn up to... 1: `5` [Huskfallen](#huskfallen), 2: `3` [Hunched Dread](#hunched-dread), 3: `2` [Threaded Terror](#threaded-terror), 4: `1` [Tentacled Tarbeast](#tentacled-tarbeast)
+    * Only fills up the numbers of allies, but does not exceed them. For example, through this Ability, no more than `5` Huskfallen can exist at a time. 
+  * You Were Not There:
+    * Displace up to `3` foes randomly (see [Random Direction](./strive-core.md#random-direction)), up to `6` Squares far.
+  * You Were Weaker:
+    * Inflict a Bleeding Injury to `3` foes. 
+  * A Cage:
+    * Cages of bone form around `3` foes, [Rooting](./strive-core.md#rooted) them. Each cage has `10` HP and lasts `3` Rounds. 
+  * You Were Slower:
+    * An area, `10` Squares in diameter slows all within. Every Action taken within costs `+1` AP and movement is reduced by `2` Squares. 
+  * Being Alive:
+    * The sky darkens and it rains all Round. *Please, make it end*. 
+* Corrupt Reality (Arc/Arc): 
+  * A shockwave sends tremors through reality. All in a `20` Square diameter around are affected. Chunks of earth begin to float and warp. The battlefield changes its visage, bending around the Time-Eater. 
+  * Level: `5`, AP: `4`, Ob: `2`, Ranged, AoE, Innate
+  * `≤ 1` Hit: `6` Pure; `+1` [Corruption](#corruption); Knock-back `3` Squares
+  * `= 2` Hits: `8` Pure; `+1` [Corruption](#corruption); Knock-back `4` Squares
+  * `≥ 3` Hits: `10` Pure; `+1` [Corruption](#corruption); Knock-back `5` Squares
 
 ## Demons
 Beings from a hostile world that exists in parallel to our own, Demons are as vile and cruel as their home. These are some of the worst monsters any adventurer may have to face and represent an end-game level threat. 
