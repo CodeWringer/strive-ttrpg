@@ -262,6 +262,7 @@ By using STRIVE (that includes but is not limited to viewing, reading, referenci
     - [Throwing-Distance](#throwing-distance)
     - [Throwing-Accuracy](#throwing-accuracy)
     - [Throwing-Damage](#throwing-damage)
+  - [Random Direction](#random-direction)
 - [Travel \& Terrain](#travel--terrain)
   - [Forced March](#forced-march)
   - [Enduring the Journey](#enduring-the-journey)
@@ -2127,17 +2128,8 @@ The steps to determine Ob to throw are as follows:
 
 > A Character is throwing their weapon at an enemy standing `8` Squares away. The distance sets the base Ob to `2`. Additionally, the defender gets to roll their Defense Test and achieves `1` Hit. This raises the Ob to hit to `3`. 
 
-In case of an unsuccessful throw, the object lands only near the intended spot, instead of on it. In order to determine where a missed throw lands, roll a `D8`. A `1` designates the object landed north of the intended spot. Then, going clock-wise, a `2` would designate north-east, `3` east and so on. 
-
-A roll of `1D4` determines how far along that axis, measured from the intended spot, the object lands. 
-
-> A Character missed their throw. They roll `1D8`, yielding a `4`, which means south-east of the intended spot. Then they roll `1D4`, yielding a `3`, which means a distance of `3` Squares south-east of the intended spot. 
-
+In case of an unsuccessful throw, the object lands only near the intended spot, instead of on it. In order to determine where a missed throw lands, refer to [Random Direction](#random-direction). `1D4` determines how far along that axis, measured from the intended spot, the object lands. <br>
 Note that the object cannot fly farther than the Character's Strength would allow. 
-
-For your convenience, you can refer to the following chart: 
-
-<img src="../../img/miss-chart.png" width="384px" height="384px"></img>
 
 ### Throwing-Damage
 If throwing a weapon that isn't specifically made or especially suitable to throwing, then the damage that is dealt on successful hit is halved (RD). 
@@ -2147,6 +2139,13 @@ When throwing non-weapons, the damage dealt is calculated the following way: `St
 The [Damage Type](#damage-types) to use, depends on the type of object and how it hits the target. For most non-weapons, **Bludgeoning** should be appropriate. 
 
 > A Character with strength `5`, throwing a Bulk `3` object, can deal `5 * (3 - 1) = 10` points of damage. 
+
+## Random Direction
+When determining random inaccuracies in attacks, movements of other such effects, then a `D8` determines the direction. `1` is north and going clock-wise, a `2` is north-east, `3` east, and so on. 
+
+For your convenience, you can refer to the following chart: 
+
+<img src="../../img/miss-chart.png" width="384px" height="384px"></img>
 
 # Travel & Terrain
 Whenever players are presented with an overworld map, with distinct locations marked on it and players ask, "how do we get from *here* to *there*?", the question of travel comes up. The exact specifics will depend on the GM's world, and their forms of travel. Walking there on foot is sure to be slower than flying by plane. Or perhaps travel can even be instantaneous, through magic and technology, in which case this chapter will be irrelevant. 
@@ -2191,7 +2190,7 @@ The Ob depends on circumstance. How much time is available to appraise? How unus
 Of course, a trader may be experienced in the goods and wares they peddle. [Mercantilism](#mercantilism-awarwit) may be used as a catch-all for appraisal, but at a penalty of `+1` Ob, as a pure trader will never be able to ascertain the quality as well as a craftsperson could.
 
 # Appendix
-The appendix contains important and less important lists, for reference only when needed. 
+The appendix contains lists for reference only when needed. 
 
 ## Character Creation
 Imagine for the longest time of their life, your Character has led an ordinary existence, until one day, something life-changing happened. Perhaps something terrible, perhaps something wonderful, but something significant that has forced them out of their comfort zone into a world full of adventure. 
