@@ -456,6 +456,7 @@ By using STRIVE (that includes but is not limited to viewing, reading, referenci
     - [Retainers In Combat](#retainers-in-combat)
     - [Retainers Are Sidekicks](#retainers-are-sidekicks)
     - [Retainer Advancement](#retainer-advancement)
+  - [Legendary Actions](#legendary-actions)
 - [Hostility](#hostility)
 - [NPC Builder](#npc-builder)
   - [Combat Roles](#combat-roles)
@@ -510,8 +511,13 @@ By using STRIVE (that includes but is not limited to viewing, reading, referenci
     - [Seething Hatred (-5 points; +2 CR)](#seething-hatred--5-points-2-cr)
     - [Sinkhole (-8 points; +2 CR)](#sinkhole--8-points-2-cr)
     - [Trap Storm (-4 points; +3 CR)](#trap-storm--4-points-3-cr)
-    - [I Don't Bleed (-5 points; +4 CR)](#i-dont-bleed--5-points-4-cr)
-    - [No, I Am The Hero! (-10 points; +6 CR)](#no-i-am-the-hero--10-points-6-cr)
+    - [I Don't Bleed (-5 points; +6 CR)](#i-dont-bleed--5-points-6-cr)
+    - [No, I Am The Hero! (-10 points; +8 CR)](#no-i-am-the-hero--10-points-8-cr)
+  - [General Legendary Actions](#general-legendary-actions)
+          - [Ignore Damage (-8 Points; +8 CR)](#ignore-damage--8-points-8-cr)
+          - [Shrug It All Off (-3 Points; +3 CR)](#shrug-it-all-off--3-points-3-cr)
+          - [Action Surge (-4 Points; +4 CR)](#action-surge--4-points-4-cr)
+          - [Stop Heroism (-10 Points; +8 CR)](#stop-heroism--10-points-8-cr)
 - [Combat Encounter Builder](#combat-encounter-builder)
 
 # Glossary
@@ -3634,6 +3640,11 @@ Retainers have **their own [XP](#experience-points-xp) to track**. Whenever and 
 
 Advancing their Attributes and Skills is **only possible** through spending their [XP](#experience-points-xp). Retainers **cannot** gain Advancement Progress, as PCs do. Also, advancing their Attributes **always costs double the [XP](#experience-points-xp)** and they cannot have any [Core Attribute](#core-favored-normal--penalized-attributes)! This means, to advance an Attribute or Skill, you have to pay the entire [XP](#experience-points-xp) cost at once. 
 
+## Legendary Actions
+Some creatures and Characters may have access to so-called **Legendary Actions**. These are particularly powerful or special abilities intended to make boss encounters more challenging and interesting and to give them more staying power. In contrast to [Hostility Actions](#hostility), these abilities do not require Hostility. Instead, they often have a limited number of uses, tracked per creature. In addition, these abilities don't cost AP, but may have conditions that must be met to activate. 
+
+Legendary Actions are optional. You may choose to disregard them at will. Or rather, are advised only to employ them for boss creatures. 
+
 # Hostility
 PCs have access to [Momentum Actions](strive-core.md#momentum) and earn or lose Momentum with the tides in combat. But you as the GM earn **Hostility**, regardless of how the combat is going. At the start of every **combat Round**, you earn `1`, plus the number of PCs and their allies in the encounter. You can accrue at most `50` Hostility.
 
@@ -3660,10 +3671,10 @@ First, you must decide whether you need a **person**, an **animal** or a **monst
 
 Secondly, you must choose a **power-level**: 
 
-* **Feeble**: Start with `10` points and a CR of `1`. A feeble creature is cannon-fodder, a minion that serves as faceless padding around a bigger villain. It always has **`10` maximum HP**, regardless of its Toughness Level or other Traits. This makes it easy to eliminate and allows the PCs to feel heroic, for example by cutting a path through a horde of lesser zombies. 
-* **Regular**: Start with `15` points and a CR of `2`. A regular creature has no particular advantages or disadvantages. Often times, two or three of these will be enough to occupy a PC group for a while. Also expect most people NPCs to be regular creatures. 
-* **Elite**: Start with `25` points and a CR of `3`. An elite is highly trained or naturally talented. Just one of these may suffice to challenge a PC group. When coupled with other NPCs, this one should probably assume a supporting or leading role and instead of engaging the PCs to the same extent as its minions, hangs back a bit, to ensure it won't overwhelm the PCs. 
-* **Legendary**: Start with `40` points and a CR of `4`. A legendary creature is expected to be a boss encounter, which can easily challenge the entire PC group on its own. Be careful not to design it as too powerful. Instead, for an epic boss fight, split up its abilities into two or three stages. 
+* **Feeble**: Start with `15` points and a CR of `2`. A feeble creature is cannon-fodder, a minion that serves as faceless padding around a bigger villain. It always has **`10` maximum HP**, regardless of its Toughness Level or other Traits. This makes it easy to eliminate and allows the PCs to feel heroic, for example by cutting a path through a horde of lesser zombies. 
+* **Regular**: Start with `25` points and a CR of `3`. A regular creature has no particular advantages or disadvantages. Often times, two or three of these will be enough to occupy a PC group for a while. Also expect most people NPCs to be regular creatures. 
+* **Elite**: Start with `40` points and a CR of `5`. An elite is highly trained or naturally talented. Just one of these may suffice to challenge a PC group. When coupled with other NPCs, this one should probably assume a supporting or leading role and instead of engaging the PCs to the same extent as its minions, hangs back a bit, to ensure it won't overwhelm the PCs. 
+* **Legendary**: Start with `60` points and a CR of `6`. A legendary creature is expected to be a boss encounter, which can easily challenge the entire PC group on its own. Be careful not to design it as too powerful. Instead, for an epic boss fight, split up its abilities into two or three stages. 
 
 The next steps after this are to pick a combat role, traits, Attributes and Skills. 
 
@@ -3903,13 +3914,28 @@ Suitable for: Any creature that could reasonably emit such a thrumming sound, su
 ### Trap Storm (-4 points; +3 CR)
 **`-8` Hostility**: The creature throws or lays or spews forth `3` traps, up to `10` Squares far, that now litter the battlefield. Each of these will deal `6` points of damage. The damage type should be chosen according to the nature of the traps. E. g. piercing for bear traps, acid for pools of acid, burning for bombs and so on. 
 
-### I Don't Bleed (-5 points; +4 CR)
+### I Don't Bleed (-5 points; +6 CR)
 **`-10` Hostility**: Immediately clears all points of [Bleeding](#bleeding), [Burning](#burning) and [Frostbitten](strive-core.md#frostbitten) and awards `+10` Temporary HP. 
 
-### No, I Am The Hero! (-10 points; +6 CR)
+### No, I Am The Hero! (-10 points; +8 CR)
 **`-20` Hostility**: Immediately after the PCs have activated a [Heroic Act](#momentum), this creature activates it again, but for itself and its allies, instead of the PCs!
 
 Suitable for: Legendary villains
+
+## General Legendary Actions
+You may choose any number from the following [Legendary Actions](#legendary-actions) to bolster a NPC's capabilities. Keep the number as low as possible, to prevent a creature too powerful or tedious to beat and less tiresome for you to manage. 
+
+###### Ignore Damage (-8 Points; +8 CR)
+Ignore an instance of damage, up to `2` times per Round. 
+
+###### Shrug It All Off (-3 Points; +3 CR)
+Remove all Health Conditions, once a day. 
+
+###### Action Surge (-4 Points; +4 CR)
+Gain `5` AP, once a day. 
+
+###### Stop Heroism (-10 Points; +8 CR)
+Prevent or end a Heroic Act's effects, once every other Round. 
 
 # Combat Encounter Builder
 Preparing a combat encounter is not a simple matter, though it will get easier, as your *sense* for the *right* amount of challenge develops. This chapter aims to get you started down that road. 

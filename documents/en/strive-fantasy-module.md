@@ -1899,11 +1899,11 @@ A massive, bipedal abomination. Its thin limbs are too long for its proportions,
 
 | Agi   | Awar  | Str   | Tough | Wit   | Arc   |
 | ----- | ----- | ----- | ----- | ----- | ----- |
-| 3     | 2     | 5     | 7     | 2     | 5     |
+| 5     | 3     | 6     | 10    | 2     | 5     |
 
 | BI     | Sprint | Stabil | HP  | Stamina    | FS (Melee)      | Def    | Armor             |
 | ------ | ------ | ------ | --- | ---------- | --------------- | ------ | ----------------- |
-| 7      | 5      | 3      | 70  | 14         | `10` Slashing   |        |                   |
+| 10     | 7      | 3      | 100 | 20         | `10` Slashing   | 3D     |                   |
 
 **Traits**: [The Flesh is Malleable](#the-flesh-is-malleable); [Fortified Mind](./strive-core.md#fortified-mind--4-points-1-cr); [Hyperactive + Multi-Initiative](./strive-core.md#hyperactive--7-points-4-cr);
 
@@ -1928,7 +1928,13 @@ A massive, bipedal abomination. Its thin limbs are too long for its proportions,
     * Level: `4`, AP: ` 1`, Opposed, ST, Innate
 
 #### The Flesh is Malleable
-Upon the start of your turn, regain `8` HP and remove one Injury!
+Upon the start of your turn, regain `6` HP and remove one Injury!
+
+**Legendary Actions**:
+* Transform The Flesh:
+  * Once per Round, remove all currently active Conditions and heal `2` HP for each. 
+* Split:
+  * Once a day, upon reaching half HP, split and duplicate yourself. Each half now has `50` current and maximum HP, but also half Toughness and `4` Strength. 
 
 ### Threaded Terror
 Stilted legs hold aloft a large body comprised of tendrils pulsating with light. Its abstract form is vaguely humanoid, though it lacks any natural features. The air around it crackles with energy. 
@@ -2010,6 +2016,10 @@ A massive, monstrous mass of bare flesh and bone. Its skin is like fish's mail, 
   * `≤ 1` Hit: `6` Pure; `+1` [Corruption](#corruption); Knock-back `3` Squares
   * `= 2` Hits: `8` Pure; `+1` [Corruption](#corruption); Knock-back `4` Squares
   * `≥ 3` Hits: `10` Pure; `+1` [Corruption](#corruption); Knock-back `5` Squares
+
+**Legendary Actions**:
+* Bend Light:
+  * Cause one ability that targets you to be re-directed to another Character, closest to you, picked on [random direction](./strive-core.md#random-direction). 
 
 ## Demons
 Beings from a hostile world that exists in parallel to our own, Demons are as vile and cruel as their home. These are some of the worst monsters any adventurer may have to face and represent an end-game level threat. 
@@ -2323,8 +2333,9 @@ This minor Demon appears to be some sort of stone-golem. Molten lava drips from 
 #### Greater Demon Of Hatred
 This major Demon is a horned hulking mass of bulging muscle and covered in eternal flame. It is bipedal, with large claws and obsidian, scaly skin.
 
-* Power: Legendary, CR: `30`
+* Power: Legendary, CR: `35`
   * Intended as a boss encounter, this creature has two phases. When its HP are depleted for the first time, it enters its second stage. In the second stage, it regains all HP, becomes enraged and starts burning up.
+  * It has mutltiple means of disregarding Turn order and can constantly dish out damage and even stop the PC's Heroic Acts. 
 * Summoning Ob: `6`, Requirements: [Swirly Malevite Orb](#malevite) or greater
 * Roles: Brawler, Disruptor, Tank
   * The Greater Demon Of Hatred is a legendary Demon. It does not yield and shows no quarter.
@@ -2369,11 +2380,11 @@ Flames dance across the Demon's obsidian skin and it roars with ferocity - yet a
   * `= 2` Hits: `10` Piercing + `5` Burning
   * `≥ 3` Hits: `12` Piercing + `6` Burning
 * Eruption (Tough/Arc):
-  * Flames erupt from your body, pushing back all in a `5` Square radius around you, pushing them...
+  * Flames erupt from your body, pushing back all in a `10` Square diameter around you and leaving a flame field in a `10` Square diameter around, that last `3` Rounds. The flame field deals `6` Burning damage per Tick. 
   * Level: `6`, AP: `2`, Ob: `3`, AoE, Innate
-  * `≤ 1` Hit: `4` Squares far; `4` Burning damage
-  * `= 2` Hits: `6` Squares far; `6` Burning damage
-  * `≥ 3` Hits: `8` Squares far; `9` Burning damage
+  * `≤ 1` Hit: Knock-back `4` Squares; `4` Burning damage
+  * `= 2` Hits: Knock-back `6` Squares; `6` Burning damage
+  * `≥ 3` Hits: Knock-back `8` Squares; `9` Burning damage
 
 ##### Second Stage
 The Demon's form vanishes in a sea of fire, which rages and roars with unbridled aggression, as if reaching for foes. At the start of every Round, it loses `5` HP.
@@ -2382,21 +2393,21 @@ The Demon's form vanishes in a sea of fire, which rages and roars with unbridled
 | ------ | ------ | ------ | --- | ---------- | ---------------------------- | ------ | ----------------- |
 | 8      | 5      | 6      | 100 | 20         | 5 Slashing + 3 Burning (= 8) | 2D     | Burning Immune <br> 5 Freezing <br> 8 Slashing <br> 6 Piercing <br> 6 Bludgeoning <br> 6 Acid <br> 8 Bleeding |
 
-**Legendary Traits**: [Unstoppable Hatred](#seething-hatred)
+**Legendary Traits**: [Unstoppable Hatred](#unstoppable-hatred)
 
 **Skills**:
 * Breath Of Hate (Tough/Arc):
   * Breathe flame in a `8` Square AoE cone. 
   * Level: `8`, AP: `4`, Ob: `2`, AoE, Innate
-  * `≤ 1` Hit: `10` Burning; Knock-back `2` Squares
-  * `= 2` Hits: `12` Burning; Knock-back `3` Squares
-  * `≥ 3` Hits: `15` Burning; Knock-back `4` Squares
+  * `≤ 1` Hit: `6` Burning; Knock-back `2` Squares
+  * `= 2` Hits: `8` Burning; Knock-back `3` Squares
+  * `≥ 3` Hits: `10` Burning; Knock-back `4` Squares
 * Claw Strike (Agi/Str):
   * Strike with red-hot claws at everything in a `3` Square AoE cone.
   * Level: `8`, AP: `2`, Ob: `2`, Melee, AoE, Innate
   * `≤ 1` Hit: `10` Slashing + `6` Burning; Knock-back `3` Squares
-  * `= 2` Hits: `13` Slashing + `8` Burning; Knock-back `4` Squares
-  * `≥ 3` Hits: `18` Slashing + `10` Burning; Knock-back `5` Squares
+  * `= 2` Hits: `12` Slashing + `8` Burning; Knock-back `4` Squares
+  * `≥ 3` Hits: `14` Slashing + `10` Burning; Knock-back `5` Squares
 * Seek Revenge (Str/Arc):
   * **Reaction**: Upon suffering damage, leap to the ST foe who dealt it, and slam into them with both massive fists.
   * Level: `4`, AP: `1`, Ob: `Opposed`, Melee, ST, Innate
@@ -2404,14 +2415,25 @@ The Demon's form vanishes in a sea of fire, which rages and roars with unbridled
   * `= 2` Hits: `10` Bludgeoning + `8` Burning
   * `≥ 3` Hits: `12` Bludgeoning + `10` Burning
 * Flaming Whip (Tough/Arc):
-  * Whip solid flame at a ST, up to `8` Squares away, and draw them closer.
+  * Whip solid flame at a ST, up to `10` Squares away, and draw them closer.
   * Level: `6`, AP: `1`, Ob: `Opposed`, Ranged, ST, Innate
   * `≤ 1` Hit: Pull `6`; `4` Burning damage
   * `= 2` Hits: Pull `7`; `6` Burning damage
   * `≥ 3` Hits: Pull `8`; `9` Burning damage
 
 ###### Unstoppable Hatred
-Nothing will stop the Demon's fire, and it *will* have ***revenge***. It can now move freely, at no AP cost, but only if it has AP left to spend. It leaves behind a burning trail, that deals `5` Burning damage to all others and lasts `1` Round. 
+Nothing will stop the Demon's fire, and it *will* have ***revenge***. It now gets to take one Action immediately **after every foe's Turn**: movement or "Claw Strike". 
+
+**Legendary Actions**:
+Both phases have access to these Legendary Actions. 
+* Ignore Damage: 
+  * Ignore an instance of damage, up to `2` times per Round. 
+* Shrug It All Off:
+  * Remove all Health Conditions, once a day. 
+* Action Surge
+  * Gain `5` AP, once a day. 
+* Stop Heroism
+  * Prevent or end a Heroic Act's effects, once every other Round. 
 
 #### Greater Wendigo
 This major Demon looks like a massive half-rotted and calcified, hunched bipedal Deer. Multiple pairs of red eyes and vicious claws twitch hungrily, as bony wings contrast the eerily majestic antlers.
@@ -2445,9 +2467,6 @@ This major Demon looks like a massive half-rotted and calcified, hunched bipedal
   * `≤ 1` Hit: `4` Slashing
   * `= 2` Hits: `5` Slashing
   * `≥ 3` Hits: `6` Slashing
-* Shadow-Jump:
-  * Diffuse into a burst of darkness, and re-appear in anoter location, up to `15` Squares away.
-  * AP: `2`, Innate
 * Breath Of Death (Tough/Tough):
   * Breathe darkness in a `5` Square AoE cone. 
   * Level: `5`, AP: `4`, Ob: `2`, AoE, Innate
@@ -2457,6 +2476,14 @@ This major Demon looks like a massive half-rotted and calcified, hunched bipedal
 * Draw Life (Arc/Arc):
   * With a terrible inverted howl, pull all in a `10` Square diameter AoE around you towards you by `5` Squares. You cannot suffer impact damage from this. 
   * Level: `5`, AP: `4`, Ob: `2`, AoE, Innate
+
+**Legendary Actions**:
+* Shadow-Jump: 
+  * Diffuse into a burst of darkness, and re-appear in anoter location, up to `15` Squares away. Can be used to avoid damage, up to `2` times per Round.
+* Create Thorns:
+  * Once a Round, cover a `5` diameter AoE area in thorns that count as difficult terrain and cause `3` Piercing damage to all who move over it, once for each Square of movement. The Greater Wendigo is exempt from these penalties. The thorn fields last `3` Rounds. 
+* Ignore Damage: 
+  * Ignore an instance of damage, up to `2` times per Round. 
 
 #### Doom Bringer
 This major Demon is a pale biped, without a head and many pairs of arms symmetrically sticking out of its body. When it unfolds the last arm, doom is upon us all. 
@@ -2475,9 +2502,9 @@ This major Demon is a pale biped, without a head and many pairs of arms symmetri
 | ----- | ----- | ----- | ----- | ----- | ----- |
 | 2     | 2     | 6     | 10    | 2     | 6     |
 
-| BI     | Sprint | Stabil | HP  | Stamina    | FS (Melee)      | Def    | Armor             |
+| BI     | Sprint | Stabil | HP  | Stamina    | FS              | Def    | Armor             |
 | ------ | ------ | ------ | --- | ---------- | --------------- | ------ | ----------------- |
-| 6      | 6      | 3      | 100 | 20         | 5 Slashing      | 1      | 0                 |
+| 6      | 6      | 3      | 100 | 20         |                 | 2D     | Half to all       |
 
 **Traits**: [Fortified Mind](./strive-core.md#fortified-mind--4-points-1-cr); 
 
@@ -2490,13 +2517,13 @@ This major Demon is a pale biped, without a head and many pairs of arms symmetri
   * Unfold one of your `12` pairs of arms. When all are unfolded, enact Terrible Reprisal.
   * AP: `3`, Innate
 * Shake Ground (Arc/Arc):
-  * Stomp the ground and make it tremble. All in a `10` Square radius around are knocked into a random direction, ... 
+  * Stomp the ground and make it tremble. All in a `10` Square radius around are knocked into a random direction. 
   * Level: `5`, AP: `4`, Ob: `2`, AoE, Innate
-  * `≤ 1` Hit: ...`3` Squares far
-  * `= 2` Hits: ...`4` Squares far
-  * `≥ 3` Hits: ...`5` Squares far
+  * `≤ 1` Hit: Knock-back `3` Squares
+  * `= 2` Hits: Knock-back `4` Squares
+  * `≥ 3` Hits: Knock-back `5` Squares
 * Prepare For Hell (Arc/Arc):
-  * **Concentration**: Place up to `9` columns of flame, up to `20` Squares far away. Each is `1` Square wide and tall and will deal `3` Burning damage.
+  * **Concentration**: Place up to `9` columns of flame, up to `20` Squares far away. Each is `1` Square wide, `6` Squares tall and will deal `8` Burning damage per Tick.
   * Level: `4`, AP: `3`, Innate
 * Terrible Reprisal (Arc/Arc):
   * Another pair of unfolded hands claps together and remains so. The next time this ability is used, the next pair claps together. Each has a different and ever stronger effect. Once all hands have clapped, they fold again and the cycle repeats. 
@@ -2511,8 +2538,14 @@ This major Demon is a pale biped, without a head and many pairs of arms symmetri
   <br> 9th pair: All in a `20` Square radius around suffer `5` Pure damage.
   <br> 10th pair: Up to `3` MST become [Pacified](./strive-core.md#berserk), if they fail a Self-Control Ob `3` Test. 
   <br> 11th pair: All in a `20` Square radius around suffer `10` Pure damage.
-  <br> 12th pair: All in a `100` Square radius around suffer `20` Pure damage.
+  <br> 12th pair: All in a `100` Square radius around suffer `3D10 + 10` Pure damage.
   * Level: `4`, AP: `4`, Innate
+
+**Legendary Actions**:
+* Stop Time:
+  * Once a Round, at any time, stop time and move freely, up to `10` Squares far while no one else may act. Can be used to avoid damage and other penalties. 
+* Silent Clap:
+  * A noiseless clap reverberates, shaking up the Arcanosphere, causing `1` Corruption in all magical creatures, in a `10` Square AoE radius around. Can be used once a Round. 
 
 #### Hollow Gazer
 This major Demon is but a husk of a creature. Its decrepit form can barely stand upright. Yet its piercing, red gaze is unwavering and merciless. 
@@ -2531,7 +2564,7 @@ This major Demon is but a husk of a creature. Its decrepit form can barely stand
 
 | BI     | Sprint | Stabil | HP  | Stamina    | FS (Ranged `20`)| Def    | Armor             |
 | ------ | ------ | ------ | --- | ---------- | --------------- | ------ | ----------------- |
-| 9      | 3      | 0      | 60  | 12         | 5 Bleeding      | 0      |                   |
+| 9      | 3      | 0      | 60  | 12         | 6 Bleeding      |        | Half to all       |
 
 **Traits**: [Fortified Mind](./strive-core.md#fortified-mind--4-points-1-cr); [Shambler](./strive-core.md#shambler-2-points--2-cr); [Immovable](./strive-core.md#immovable--2-points-1-cr);
 
@@ -2539,8 +2572,12 @@ This major Demon is but a husk of a creature. Its decrepit form can barely stand
 
 **Skills**:
 * Evil Gaze:
-  * **Passive**: All victims it can see, in a `10` Square AoE line from it, begin to bleed incessantly from every orifice, suffering `5` Bleeding damage every Turn. Its maddening gaze is oppressive - its victims feel as though their head is being crushed and suffer `+1` [Strain](./strive-core.md#stamina--strain). This effect is constant and enduring.
+  * **Passive**: All victims it can see, in a `20` Square AoE line from it, begin to bleed incessantly from every orifice, suffering `6` Bleeding damage every Turn. Its maddening gaze is oppressive - its victims feel as though their head is being crushed and suffer `+1` [Strain](./strive-core.md#stamina--strain). This effect is constant and enduring.
   * Ranged, AoE, Innate
+
+**Legendary Actions**:
+* Pierce All:
+  * Once every `3` Rounds, your gaze may pierce *any* obstacle. Breaking line of sight won't protect from the gaze anymore. 
 
 #### Preacher
 This major Demon appears as little more than a horned skull attached by chains to a torso of stone. Dark wings and brightly glowing arcane symbols flank the torso, almost giving it a divine appearance. It seems harmless, but this is part of its devious scheme. 
@@ -2567,16 +2604,16 @@ This major Demon appears as little more than a horned skull attached by chains t
 
 **Skills**:
 * Sinister Sermon (Wit/Arc):
-  * **Concentration**: All in a `20` Square radius around it, who can hear it and whose Self-Control is `≤ 3` begin to doubt their life is just and right. They begin to think of the darkness as a soft embrace, and to long for it. Every victim becomes [Berserked](./strive-core.md#berserk). 
-  * Level: `4`, AP: `4`, Ranged, AoE, Innate
+  * **Concentration**: All in a `20` Square radius around it, who can hear it and whose Self-Control is `≤ 3` begin to doubt their life is just and right. They begin to think of the darkness as a soft embrace, and to long for it. Every victim becomes hostile towards any other creature that succeeded the check. 
+  * Level: `6`, AP: `4`, Ranged, AoE, Innate
 * Prepare For Salvation (Wit/Arc):
-  * A ST, up to `20` Squares away, becomes [Pacified](./strive-core.md#pacified). 
-  * Level: `4`, AP: `2`, Ob: `Opposed by Self-Control`, Ranged, AoE, Innate
+  * A ST, up to `20` Squares away, becomes [Pacified](./strive-core.md#pacified) `+3`. 
+  * Level: `6`, AP: `2`, Ob: `Opposed by Self-Control`, Ranged, AoE, Innate
 * Come To Me:
   * Cause all who have fallen victim to your Sinister Sermon to become [Pacified](./strive-core.md#pacified) and run toward you, seeking your *loving* embrace. 
   * AP: `1`, Innate
 * Embrace The Flock:
-  * Draw the life from one of the victims to your Sinister Sermon or Come To Me, up to `10` Squares away. They suffer `10` Pure damage and you heal for the same amount. 
+  * Draw the life from one of the victims to your Sinister Sermon or Come To Me, up to `20` Squares away. They suffer `10` Pure damage and you heal for the same amount. 
   * AP: `2`, Innate
 
 ## Swine-Beasts
@@ -3275,7 +3312,7 @@ A lesser form of undeath, Zombies are mindless walking corpses in varying stages
 
 | BI     | Sprint | Stabil | HP  | Stamina    | FS (Melee)      | Def    | Armor             |
 | ------ | ------ | ------ | --- | ---------- | --------------- | ------ | ----------------- |
-| 3      | 2      | 0      | 30  | 6          | 3 Bludgeoning   | 0      | Poison immune     |
+| 3      | 2      | 0      | 30  | 6          | 3 Bludgeoning   |        | Poison immune     |
 
 **Traits**: [Shambler](./strive-core.md#shambler-2-points--2-cr); [Sluggish](./strive-core.md#sluggish-4-points--2-cr); [Fortified Mind](./strive-core.md#fortified-mind--4-points-1-cr)
 
@@ -3289,6 +3326,13 @@ A lesser form of undeath, Zombies are mindless walking corpses in varying stages
   * `≤ 1` Hit: `2` Bludgeoning
   * `= 2` Hits: `3` Bludgeoning
   * `≥ 3` Hits: `4` Bludgeoning
+
+**Legendary Actions**: 
+Employ these only for *really* special Zombies. 
+* Uncanny Dodge:
+  * Up to `3` times per Round, try avoiding an attack with `3D` and `1` Compensation Point.
+* Trample:
+  Run up to `6` Squares far, knocking aside all other Characters by `1` Square, once per Round. 
 
 ## Voidlings
 When a soul is thrust into the void between realities, it is stretched infinitely thin. Unable to fill the void, it snaps and implodes, bouncing back into reality, but broken. It cannot function as it once did and furthermore, keeps open a tear to the void. It apparates as a monster of swirling shadow, not quite corporeal, yet not fully ethereal. 
