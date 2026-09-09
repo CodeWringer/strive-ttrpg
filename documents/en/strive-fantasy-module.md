@@ -2345,7 +2345,7 @@ Flames dance across the Demon's obsidian skin and it roars with ferocity - yet a
 
 | BI     | Sprint | Stabil | HP  | Stamina    | FS (Melee)                   | Def    | Armor             |
 | ------ | ------ | ------ | --- | ---------- | ---------------------------- | ------ | ----------------- |
-| 8      | 5      | 6      | 100 | 20         | 5 Slashing + 3 Burning (= 8) | 2D     | Burning Immune <br> -5 Freezing <br> 8 Slashing <br> 6 Piercing <br> 6 Bludgeoning <br> 6 Acid |
+| 8      | 5      | 6      | 100 | 20         | 5 Slashing + 3 Burning (= 8) | 2D     | Burning Immune <br> -5 Freezing <br> 8 Slashing <br> 6 Piercing <br> 6 Bludgeoning <br> 6 Acid <br> 6 Bleeding |
 
 **Legendary Traits**: [Hyperactive + Multi-Initiative](./strive-core.md#hyperactive--7-points-4-cr)
 
@@ -2380,7 +2380,7 @@ The Demon's form vanishes in a sea of fire, which rages and roars with unbridled
 
 | BI     | Sprint | Stabil | HP  | Stamina    | FS (Melee)                   | Def    | Armor             |
 | ------ | ------ | ------ | --- | ---------- | ---------------------------- | ------ | ----------------- |
-| 8      | 5      | 6      | 100 | 20         | 5 Slashing + 3 Burning (= 8) | 2D     | Burning Immune <br> 5 Freezing <br> 8 Slashing <br> 6 Piercing <br> 6 Bludgeoning <br> 6 Acid |
+| 8      | 5      | 6      | 100 | 20         | 5 Slashing + 3 Burning (= 8) | 2D     | Burning Immune <br> 5 Freezing <br> 8 Slashing <br> 6 Piercing <br> 6 Bludgeoning <br> 6 Acid <br> 8 Bleeding |
 
 **Legendary Traits**: [Unstoppable Hatred](#seething-hatred)
 
@@ -3074,9 +3074,9 @@ Bloated shamblers are grotesque, hulking masses of bloated undead flesh. They're
 * Choke (Str/Tough): 
   * If grappling a ST, choke the life out of them. 
   * Level `3`, AP: `1`, Melee, ST, Innate
-  * `≤ 1` Hit: `2` Bludgeoning
-  * `= 2` Hits: `3` Bludgeoning
-  * `≥ 3` Hits: `4` Bludgeoning
+  * `≤ 1` Hit: `4` Bludgeoning
+  * `= 2` Hits: `5` Bludgeoning
+  * `≥ 3` Hits: `6` Bludgeoning
 
 ### Bone Spider
 Bone spiders are a particularly nasty type of undead, often employed by necromancers as guardians or scouts. 
@@ -3095,24 +3095,23 @@ Eight very long and thin bony legs carry the creature's weight. Their ends are s
 
 | Agi   | Awar  | Str   | Tough | Wit   | Arc   |
 | ----- | ----- | ----- | ----- | ----- | ----- |
-| 1     | 1     | 5     | 5     | 1     | 0     |
+| 5     | 1     | 5     | 5     | 1     | 0     |
 
 | BI     | Sprint | Stabil | HP  | Stamina    | FS (Melee)      | Def    | Armor             |
 | ------ | ------ | ------ | --- | ---------- | --------------- | ------ | ----------------- |
-| 3      | 3      | 3      | 50  | 10         | 3 Bludgeoning   | 0      | 0                 |
+| 3      | 3      | 3      | 50  | 10         | 6 Slashing      | 3D     | 8/4/2/0 Slashing <br> 6/3/2/0 Piercing <br> 4/2/1/0 Bludgeoning <br> Poison immune <br> 4 Bleeding |
 
 **Traits**: [Death Rattle](./strive-core.md#death-rattle--2-points-2-cr) (Explode: `2D4` Bludgeoning and Force-Moving `5` Squares, in an AoE radius of `2` Squares), [Shambler](./strive-core.md#shambler-2-points--2-cr); [Fortified Mind](./strive-core.md#fortified-mind--4-points-1-cr)
 
 **Assets**: None
 
 **Skills**: 
-* Unarmed Combat: Level `3`
-* Choke (Str/Tough): 
-  * If grappling a ST, choke the life out of them. 
+* Rend (Agi/str): 
+  * Strike at a ST with your claws, rending their flesh. 
   * Level `3`, AP: `1`, Melee, ST, Innate
-  * `≤ 1` Hit: `2` Bludgeoning
-  * `= 2` Hits: `3` Bludgeoning
-  * `≥ 3` Hits: `4` Bludgeoning
+  * `≤ 1` Hit: `5` Slashing
+  * `= 2` Hits: `7` Slashing
+  * `≥ 3` Hits: `10` Slashing
 
 ### Ghoul
 A lesser Undead that stalks graveyards and fresh battlefields, in search of carrion. 
@@ -3136,7 +3135,7 @@ They're squat creatures, with spotted pale skin. Their pathetic stature belies t
 
 | BI     | Sprint | Stabil | HP  | Stamina    | FS (Melee)      | Def    | Armor             |
 | ------ | ------ | ------ | --- | ---------- | --------------- | ------ | ----------------- |
-| 9      | 3      | 0      | 20  | 4          | 5 Slashing      | 2      | |
+| 9      | 3      | 0      | 20  | 4          | 5 Slashing      | 2      |                   |
 
 **Traits**: [Fast](./strive-core.md#fast--2-points-1-cr); [Disease-Ridden](./strive-core.md#disease-ridden--1-point-1-cr)
 
@@ -3173,11 +3172,11 @@ A greater Undead with a limited capacity for independent thought. It retains muc
 
 | BI     | Sprint | Stabil | HP  | Stamina    | FS (Melee)      | Def    | Armor             |
 | ------ | ------ | ------ | --- | ---------- | --------------- | ------ | ----------------- |
-| 9      | 3      | 0      | 30  | 6          | 5 Slashing/Piercing/Bludgeoning | 2      | |
+| 9      | 3      | 0      | 30  | 6          | 5 Slashing      | 3D     |                   |
 
 **Traits**: [Fortified Mind](./strive-core.md#fortified-mind--4-points-1-cr)
 
-**Assets**: None
+**Assets**: Potentially some rusted armor
 
 **Skills**: 
 * One weapon Skill of choice, at Level `4`: [Axe](#weapon-axe-strstr), [Long Blade](#weapon-long-blade-agistr), [Polearm](#weapon-polearm-strtough), [Crossbow](#weapon-crossbow-awarawar)
@@ -3194,11 +3193,11 @@ A bone golem with long, rope-y arms made of spinal columns, lined with knife-lik
 
 | Agi   | Awar  | Str   | Tough | Wit   | Arc   |
 | ----- | ----- | ----- | ----- | ----- | ----- |
-| 6     | 2     | 3     | 2     | 1     | 0     |
+| 6     | 2     | 3     | 4     | 1     | 0     |
 
 | BI     | Sprint | Stabil | HP  | Stamina    | FS (Melee)      | Def    | Armor             |
 | ------ | ------ | ------ | --- | ---------- | --------------- | ------ | ----------------- |
-| 7      | 4      | 0      | 20  | 4          | 6 Piercing      | 2D     |                   |
+| 7      | 4      | 0      | 40  | 4          | 6 Bludgeoning   | 3D     | 8/4/2/0 Slashing <br> 6/3/2/0 Piercing <br> 4/2/1/0 Bludgeoning <br> Poison immune <br> 4 Bleeding |
 
 **Traits**: [Fortified Mind](./strive-core.md#fortified-mind--4-points-1-cr)
 
@@ -3208,20 +3207,20 @@ A bone golem with long, rope-y arms made of spinal columns, lined with knife-lik
 * Spinal Whip (Agi/Str): 
   * Lash out at a ST with your spinal rope-arms, up to `5` Squares away.
   * Level `4`, AP: `2`, Ob: `Opposed`, Ranged, ST, Innate
-  * `≤ 1` Hit: `2` Bludgeoning + `3` Slashing
-  * `= 2` Hits: `3` Bludgeoning + `5` Slashing
-  * `≥ 3` Hits: `4` Bludgeoning + `7` Slashing
+  * `≤ 1` Hit: `5` Bludgeoning + `5` Slashing
+  * `= 2` Hits: `6` Bludgeoning + `6` Slashing
+  * `≥ 3` Hits: `8` Bludgeoning + `8` Slashing
 * Knockback (Agi/Str): 
   * Lash out at all targets in a `5` Square AoE cone with your spinal rope-arms, knocking opponents away.
   * Level `4`, AP: `2`, Ob: `1`, Ranged, AoE, Innate
-  * `≤ 1` Hit: `2` Bludgeoning; Knocked back `2` Square
-  * `= 2` Hits: `3` Bludgeoning; Knocked back `3` Squares
-  * `≥ 3` Hits: `4` Bludgeoning; Knocked back `4` Squares
+  * `≤ 1` Hit: `4` Bludgeoning; Knocked back `2` Square
+  * `= 2` Hits: `6` Bludgeoning; Knocked back `3` Squares
+  * `≥ 3` Hits: `8` Bludgeoning; Knocked back `4` Squares
 
 ### Terrorghast
-A huge flesh golem with proportions like a gorilla and a strong carapace of bone. 
+A huge flesh golem with proportions like a gorilla and a strong carapace of metal, wielding a giant sword. 
 
-* Power: Elite, CR: `10`
+* Power: Elite, CR: `15`
 * Roles: Disruptor, Shock-Trooper, Tank
   * A deadly foe that is difficult to bring down. Its main weakness is its slow reaction speed. 
   * Uses Charge when surrounded, or when foes are neatly alined. But may also Charge at random. This thing isn't very tactically minded. 
@@ -3235,7 +3234,7 @@ A huge flesh golem with proportions like a gorilla and a strong carapace of bone
 
 | BI     | Sprint | Stabil | HP  | Stamina    | FS (Melee)      | Def    | Armor             |
 | ------ | ------ | ------ | --- | ---------- | --------------- | ------ | ----------------- |
-| 5      | 4      | 2      | 60  | 12         | 6 Bludgeoning   | 0      | 8/4/2/0 Slashing <br> 6/3/2/0 Piercing <br> 4/2/1/0 Bludgeoning |
+| 5      | 4      | 2      | 60  | 12         | 6 Bludgeoning   | 0      | 8/4/2/0 Slashing <br> 6/3/2/0 Piercing <br> 4/2/1/0 Bludgeoning <br> Poison immune <br> 4 Bleeding |
 
 **Traits**: [Sluggish](./strive-core.md#sluggish-4-points--2-cr); [Fortified Mind](./strive-core.md#fortified-mind--4-points-1-cr)
 
@@ -3243,14 +3242,20 @@ A huge flesh golem with proportions like a gorilla and a strong carapace of bone
 
 **Skills**: 
 * Charge (Tough/Tough): 
-  * Charge forward in a AoE straight line, knocking aside anything in your path, `Str` Squares far. You must charge at least `4` Squares in a straight line for this and cannot stop prematurely. But you *may* crash into an obstacle, which stops you. 
+  * Charge forward in a AoE straight line, up to `10` Squares far, knocking aside anything in your path, `4` Squares far. You must charge at least `4` Squares in a straight line for this and cannot stop prematurely. But you *may* crash into an obstacle, which stops you. 
   * Level `3`, AP: `3`, Melee, AoE, Innate
+* Slash (Agi/Str): 
+  * Strike at a ST with your sword. 
+  * Level `4`, AP: `2`, Ob: `Opposed`, Melee, ST, Innate
+  * `≤ 1` Hit: `8` Slashing
+  * `= 2` Hits: `10` Slashing; Target is knocked back `1` Square
+  * `≥ 3` Hits: `13` Slashing; Target is knocked back `2` Squares
 * Slam (Agi/Str): 
   * Slam into a ST with your massive arms.
   * Level `4`, AP: `2`, Ob: `Opposed`, Melee, ST, Innate
-  * `≤ 1` Hit: `Str` Bludgeoning
-  * `= 2` Hits: `Str + 2` Bludgeoning
-  * `≥ 3` Hits: `Str + 4` Bludgeoning; Target is knocked back `3` Squares
+  * `≤ 1` Hit: `6` Bludgeoning; Target is knocked back `3` Squares
+  * `= 2` Hits: `7` Bludgeoning; Target is knocked back `4` Squares
+  * `≥ 3` Hits: `8` Bludgeoning; Target is knocked back `5` Squares
 
 ### Zombie
 A lesser form of undeath, Zombies are mindless walking corpses in varying stages of decomposition, held together only by magic forces. 
@@ -3270,7 +3275,7 @@ A lesser form of undeath, Zombies are mindless walking corpses in varying stages
 
 | BI     | Sprint | Stabil | HP  | Stamina    | FS (Melee)      | Def    | Armor             |
 | ------ | ------ | ------ | --- | ---------- | --------------- | ------ | ----------------- |
-| 3      | 2      | 0      | 30  | 6          | 3 Bludgeoning   | 0      | 0                 |
+| 3      | 2      | 0      | 30  | 6          | 3 Bludgeoning   | 0      | Poison immune     |
 
 **Traits**: [Shambler](./strive-core.md#shambler-2-points--2-cr); [Sluggish](./strive-core.md#sluggish-4-points--2-cr); [Fortified Mind](./strive-core.md#fortified-mind--4-points-1-cr)
 
