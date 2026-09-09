@@ -3530,7 +3530,7 @@ If the Squad suffers an instance of [AoE](#area-of-effect-aoe) damage, which hit
 
 When preparing an encounter with a Squad, it may help to write down the thresholds when members of the Squad die, in advance.
 
-> When preparing the zombies encounter, it may help to write down that one zombie dies once the shared HP reah `40`, the next at `30`, then `20`, `10` and finally `0`. This way, you don't need to do this math once damage starts rolling in, you can simply check if after the damage is subtracted from the shared HP, if one of these thresholds was reached. If so, a member of the Squad is felled. 
+> When preparing the zombies encounter, it may help to write down that one zombie dies once the shared HP reach `40`, the next at `30`, then `20`, `10` and finally `0`. This way, you don't need to do this math once damage starts rolling in, you can simply check if after the damage is subtracted from the shared HP, if one of these thresholds was reached. If so, a member of the Squad is felled. 
 
 To keep Squads simple to run, they do not suffer [Injuries](#injury). 
 
