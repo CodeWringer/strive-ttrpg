@@ -2258,6 +2258,14 @@ This minor Demon has been forced into the body of a Zombie. It has deformed, as 
   * `= 2` Hits: `6` Poison
   * `≥ 3` Hits: `9` Poison
 
+**Legendary Actions**:
+* Trample:
+  Run up to `6` Squares far, knocking aside all other Characters by `1` Square, once per Round. 
+* Rise Again:
+  * Defy death once more, losing all Injuries and regaining all HP. Can only happen once. 
+* Demon Freedom:
+  * A [Spineling](#spineling) bursts forth, in a spectacular explosion of blood, acid and gore, dealing `6` Acid damage to all in a `5` Square diameter AoE around. The Possessed Zombie dies in the process. This can only happen once and only when below half HP. 
+
 #### Spineling
 This minor Demon is a canid-esque quadruped covered in countless bony spines, like a porcupine. It lacks fur, its skin is pallid and sunken, stretched taut across its bones. 
 
@@ -2386,12 +2394,20 @@ Flames dance across the Demon's obsidian skin and it roars with ferocity - yet a
   * `= 2` Hits: Knock-back `6` Squares; `6` Burning damage
   * `≥ 3` Hits: Knock-back `8` Squares; `9` Burning damage
 
+**Legendary Actions**:
+* Ignore Damage: 
+  * Ignore an instance of damage, up to `2` times per Round. 
+* Shrug It All Off:
+  * Remove all Health Conditions, once a day. 
+* Action Surge
+  * Gain `5` AP, once a day. 
+
 ##### Second Stage
 The Demon's form vanishes in a sea of fire, which rages and roars with unbridled aggression, as if reaching for foes. At the start of every Round, it loses `5` HP.
 
 | BI     | Sprint | Stabil | HP  | Stamina    | FS (Melee)                   | Def    | Armor             |
 | ------ | ------ | ------ | --- | ---------- | ---------------------------- | ------ | ----------------- |
-| 8      | 5      | 6      | 100 | 20         | 5 Slashing + 3 Burning (= 8) | 2D     | Burning Immune <br> 5 Freezing <br> 8 Slashing <br> 6 Piercing <br> 6 Bludgeoning <br> 6 Acid <br> 8 Bleeding |
+| 8      | 5      | 6      | 100 | 20         | 5 Slashing + 3 Burning (= 8) | 2D     | Burning Immune <br> 8 Slashing <br> 6 Piercing <br> 6 Bludgeoning <br> 6 Acid <br> 8 Bleeding |
 
 **Legendary Traits**: [Unstoppable Hatred](#unstoppable-hatred)
 
@@ -2406,8 +2422,8 @@ The Demon's form vanishes in a sea of fire, which rages and roars with unbridled
   * Strike with red-hot claws at everything in a `3` Square AoE cone.
   * Level: `8`, AP: `2`, Ob: `2`, Melee, AoE, Innate
   * `≤ 1` Hit: `10` Slashing + `6` Burning; Knock-back `3` Squares
-  * `= 2` Hits: `12` Slashing + `8` Burning; Knock-back `4` Squares
-  * `≥ 3` Hits: `14` Slashing + `10` Burning; Knock-back `5` Squares
+  * `= 2` Hits: `12` Slashing + `6` Burning; Knock-back `4` Squares
+  * `≥ 3` Hits: `14` Slashing + `6` Burning; Knock-back `5` Squares
 * Seek Revenge (Str/Arc):
   * **Reaction**: Upon suffering damage, leap to the ST foe who dealt it, and slam into them with both massive fists.
   * Level: `4`, AP: `1`, Ob: `Opposed`, Melee, ST, Innate
@@ -2421,11 +2437,7 @@ The Demon's form vanishes in a sea of fire, which rages and roars with unbridled
   * `= 2` Hits: Pull `7`; `6` Burning damage
   * `≥ 3` Hits: Pull `8`; `9` Burning damage
 
-###### Unstoppable Hatred
-Nothing will stop the Demon's fire, and it *will* have ***revenge***. It now gets to take one Action immediately **after every foe's Turn**: movement or "Claw Strike". 
-
 **Legendary Actions**:
-Both phases have access to these Legendary Actions. 
 * Ignore Damage: 
   * Ignore an instance of damage, up to `2` times per Round. 
 * Shrug It All Off:
@@ -2434,6 +2446,9 @@ Both phases have access to these Legendary Actions.
   * Gain `5` AP, once a day. 
 * Stop Heroism
   * Prevent or end a Heroic Act's effects, once every other Round. 
+
+###### Unstoppable Hatred
+Nothing will stop the Demon's fire, and it *will* have ***revenge***. It now gets to take one Action immediately **after every foe's Turn**: movement or "Claw Strike". 
 
 #### Greater Wendigo
 This major Demon looks like a massive half-rotted and calcified, hunched bipedal Deer. Multiple pairs of red eyes and vicious claws twitch hungrily, as bony wings contrast the eerily majestic antlers.
@@ -3332,7 +3347,7 @@ Employ these only for *really* special Zombies.
 * Uncanny Dodge:
   * Up to `3` times per Round, try avoiding an attack with `3D` and `1` Compensation Point.
 * Trample:
-  Run up to `6` Squares far, knocking aside all other Characters by `1` Square, once per Round. 
+  Run up to `6` Squares far, knocking aside all other Characters by `2` Squares, once per Round. 
 
 ## Voidlings
 When a soul is thrust into the void between realities, it is stretched infinitely thin. Unable to fill the void, it snaps and implodes, bouncing back into reality, but broken. It cannot function as it once did and furthermore, keeps open a tear to the void. It apparates as a monster of swirling shadow, not quite corporeal, yet not fully ethereal. 
