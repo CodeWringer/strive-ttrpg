@@ -2963,7 +2963,7 @@ A Character who is in **Berserk** Condition, **must** attack the creature neares
 ### Burning
 <img src="../../img/health-condition-burning.svg" style="width: 3rem; height: 3rem;"></img>
 
-For every point in the **Burning** Condition, a Character suffers `3` points of [Burning](#damage-types) damage every [Tick](#ticks). 
+For every point in the **Burning** Condition, a Character suffers `2` points of [Burning](#damage-types) damage every [Tick](#ticks). 
 
 * Graded
 * Greedy: automatically increases by `+1` point **after** every [Tick](#ticks). 
@@ -2975,7 +2975,7 @@ Adjacent allies can also help pat out the flames, by spending an [AP](#action-po
 ### Bleeding
 <img src="../../img/health-condition-bleeding.svg" style="width: 3rem; height: 3rem;"></img>
 
-For every point in the **Bleeding** Condition, a Character suffers `3` points of [Bleeding](#damage-types) damage every [Tick](#ticks). 
+For every point in the **Bleeding** Condition, a Character suffers `2` points of [Bleeding](#damage-types) damage every [Tick](#ticks). 
 
 * Graded
 * Shrug Off: `-1` point with a [Toughness](#toughness-tough) [Test](#tests) with Ob `1`. 
@@ -2998,7 +2998,7 @@ A Character can be helped out of the **Death's Door** Condition, if their [HP](#
 ### Dissolving
 <img src="../../img/health-condition-dissolving.svg" style="width: 3rem; height: 3rem;"></img>
 
-For every point in the **Dissolving** Condition, a Character suffers `3` points of [Acid](#damage-types) damage every [Tick](#ticks). 
+For every point in the **Dissolving** Condition, a Character suffers `2` points of [Acid](#damage-types) damage every [Tick](#ticks). 
 
 * Graded
 * Automatic Shrug-Off: `-2` points at the end of the Turn. 
@@ -3016,14 +3016,14 @@ After `72` consecutive hours (= `3` full days) of having being in **withdrawal**
 ### Electrified
 <img src="../../img/health-condition-electrified.svg" style="width: 3rem; height: 3rem;"></img>
 
-An **Electrified** Character spasms, uncontrollably. They are force moved in a random direction by `1` Square, which may trigger [Opportunity Attacks](#opportunity-attacks). 
+An **Electrified** Character spasms, uncontrollably. They are force-moved in a [random direction](#random-direction) by `1` Square, which may trigger [Opportunity Attacks](#opportunity-attacks). 
 
 * Automatic Shrug-Off: At the end of the Turn. 
 
 ### Exhausted
 <img src="../../img/health-condition-exhausted.svg" style="width: 3rem; height: 3rem;"></img>
 
-An **Exhausted** Character begins their Turn with `-2` AP and can run at most only half the distance they normally could. [Sprinting](#combat-movement) is impossible. 
+An **Exhausted** Character begins their Turn with `-2` AP and can no longer [Sprint](#combat-movement). 
 
 While Exhausted, a Character losing further [Stamina](#stamina--strain), must succeed a [Self-Control](#self-control-toughwit) [Test](#tests) at Ob equal to `3` plus their current [negative Stamina](#stamina--strain), or else fall [Unconscious](#unconscious).
 
@@ -3032,7 +3032,7 @@ This Condition can be recovered from by clearing [negative Stamina](#stamina--st
 ### Frostbitten
 <img src="../../img/health-condition-frostbitten.svg" style="width: 3rem; height: 3rem;"></img>
 
-For every point in **Frostbitten**, a Character suffers `-1` [AP](#action-points-ap) and `-1D` to all [Tests](#tests). 
+For every point in **Frostbitten**, a Character suffers `-1D` to all [Tests](#tests). 
 
 * Graded
 * Automatic Shrug-Off: `-2` points at the end of the Turn. 
@@ -3048,7 +3048,7 @@ Additionally, a Grappled Character can no longer perform [Opportunity Attacks](#
 ### Hasted
 <img src="../../img/health-condition-hasted.svg" style="width: 3rem; height: 3rem;"></img>
 
-A **Hasted** Character has an additional [AP](#action-points-ap) to spend and an additional `3` Squares of [Movement](#combat-movement) per [AP](#action-points-ap). 
+A **Hasted** Character gets `+1` [AP](#action-points-ap) per Turn. 
 
 ### Jealous
 <img src="../../img/health-condition-jealous.svg" style="width: 3rem; height: 3rem;"></img>
@@ -3063,7 +3063,7 @@ A Character who has been made unnaturally **Jealous**, will do anything in their
 ### Marked
 <img src="../../img/health-condition-marked.svg" style="width: 3rem; height: 3rem;"></img>
 
-A **Marked** Character suffers `-1D` to all Defense Tests and `+5` Pure damage from all **direct** sources (meaning damage from environmental hazards is excluded). 
+A **Marked** Character suffers `-1D` to all Defense Tests and `+5` Pure damage from all **direct** sources (meaning damage from environmental hazards and Conditions is excluded). 
 
 * Automatic Shrug-Off: After `1` Round.
 
@@ -3080,7 +3080,7 @@ A Character who is **Pacified**, is unable to *willingly* take any action that w
 ### Poisoned
 <img src="../../img/health-condition-poisoned.svg" style="width: 3rem; height: 3rem;"></img>
 
-A **Poisoned** Character suffers `3` points of [Poison](#damage-types) damage every [Tick](#ticks). 
+A **Poisoned** Character suffers `2` points of [Poison](#damage-types) damage every [Tick](#ticks). 
 
 * Graded
 * Shrug Off: `-1` point with a [Toughness](#toughness-tough) [Test](#tests) with Ob `1`. 
