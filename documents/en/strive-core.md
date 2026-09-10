@@ -456,6 +456,7 @@ By using STRIVE (that includes but is not limited to viewing, reading, referenci
     - [Retainers In Combat](#retainers-in-combat)
     - [Retainers Are Sidekicks](#retainers-are-sidekicks)
     - [Retainer Advancement](#retainer-advancement)
+  - [Legendary Actions](#legendary-actions)
 - [Hostility](#hostility)
 - [NPC Builder](#npc-builder)
   - [Combat Roles](#combat-roles)
@@ -510,8 +511,13 @@ By using STRIVE (that includes but is not limited to viewing, reading, referenci
     - [Seething Hatred (-5 points; +2 CR)](#seething-hatred--5-points-2-cr)
     - [Sinkhole (-8 points; +2 CR)](#sinkhole--8-points-2-cr)
     - [Trap Storm (-4 points; +3 CR)](#trap-storm--4-points-3-cr)
-    - [I Don't Bleed (-5 points; +4 CR)](#i-dont-bleed--5-points-4-cr)
-    - [No, I Am The Hero! (-10 points; +6 CR)](#no-i-am-the-hero--10-points-6-cr)
+    - [I Don't Bleed (-5 points; +6 CR)](#i-dont-bleed--5-points-6-cr)
+    - [No, I Am The Hero! (-10 points; +8 CR)](#no-i-am-the-hero--10-points-8-cr)
+  - [General Legendary Actions](#general-legendary-actions)
+    - [Ignore Damage (-8 Points; +8 CR)](#ignore-damage--8-points-8-cr)
+    - [Shrug It All Off (-3 Points; +3 CR)](#shrug-it-all-off--3-points-3-cr)
+    - [Action Surge (-4 Points; +4 CR)](#action-surge--4-points-4-cr)
+    - [Stop Heroism (-10 Points; +8 CR)](#stop-heroism--10-points-8-cr)
 - [Combat Encounter Builder](#combat-encounter-builder)
 
 # Glossary
@@ -2957,7 +2963,7 @@ A Character who is in **Berserk** Condition, **must** attack the creature neares
 ### Burning
 <img src="../../img/health-condition-burning.svg" style="width: 3rem; height: 3rem;"></img>
 
-For every point in the **Burning** Condition, a Character suffers `3` points of [Burning](#damage-types) damage every [Tick](#ticks). 
+For every point in the **Burning** Condition, a Character suffers `2` points of [Burning](#damage-types) damage every [Tick](#ticks). 
 
 * Graded
 * Greedy: automatically increases by `+1` point **after** every [Tick](#ticks). 
@@ -2969,7 +2975,7 @@ Adjacent allies can also help pat out the flames, by spending an [AP](#action-po
 ### Bleeding
 <img src="../../img/health-condition-bleeding.svg" style="width: 3rem; height: 3rem;"></img>
 
-For every point in the **Bleeding** Condition, a Character suffers `3` points of [Bleeding](#damage-types) damage every [Tick](#ticks). 
+For every point in the **Bleeding** Condition, a Character suffers `2` points of [Bleeding](#damage-types) damage every [Tick](#ticks). 
 
 * Graded
 * Shrug Off: `-1` point with a [Toughness](#toughness-tough) [Test](#tests) with Ob `1`. 
@@ -2992,7 +2998,7 @@ A Character can be helped out of the **Death's Door** Condition, if their [HP](#
 ### Dissolving
 <img src="../../img/health-condition-dissolving.svg" style="width: 3rem; height: 3rem;"></img>
 
-For every point in the **Dissolving** Condition, a Character suffers `3` points of [Acid](#damage-types) damage every [Tick](#ticks). 
+For every point in the **Dissolving** Condition, a Character suffers `2` points of [Acid](#damage-types) damage every [Tick](#ticks). 
 
 * Graded
 * Automatic Shrug-Off: `-2` points at the end of the Turn. 
@@ -3010,14 +3016,14 @@ After `72` consecutive hours (= `3` full days) of having being in **withdrawal**
 ### Electrified
 <img src="../../img/health-condition-electrified.svg" style="width: 3rem; height: 3rem;"></img>
 
-An **Electrified** Character spasms, uncontrollably. They are force moved in a random direction by `1` Square, which may trigger [Opportunity Attacks](#opportunity-attacks). 
+An **Electrified** Character spasms, uncontrollably. They are force-moved in a [random direction](#random-direction) by `1` Square, which may trigger [Opportunity Attacks](#opportunity-attacks). 
 
 * Automatic Shrug-Off: At the end of the Turn. 
 
 ### Exhausted
 <img src="../../img/health-condition-exhausted.svg" style="width: 3rem; height: 3rem;"></img>
 
-An **Exhausted** Character begins their Turn with `-2` AP and can run at most only half the distance they normally could. [Sprinting](#combat-movement) is impossible. 
+An **Exhausted** Character begins their Turn with `-2` AP and can no longer [Sprint](#combat-movement). 
 
 While Exhausted, a Character losing further [Stamina](#stamina--strain), must succeed a [Self-Control](#self-control-toughwit) [Test](#tests) at Ob equal to `3` plus their current [negative Stamina](#stamina--strain), or else fall [Unconscious](#unconscious).
 
@@ -3026,7 +3032,7 @@ This Condition can be recovered from by clearing [negative Stamina](#stamina--st
 ### Frostbitten
 <img src="../../img/health-condition-frostbitten.svg" style="width: 3rem; height: 3rem;"></img>
 
-For every point in **Frostbitten**, a Character suffers `-1` [AP](#action-points-ap) and `-1D` to all [Tests](#tests). 
+For every point in **Frostbitten**, a Character suffers `-1D` to all [Tests](#tests). 
 
 * Graded
 * Automatic Shrug-Off: `-2` points at the end of the Turn. 
@@ -3037,10 +3043,12 @@ For every point in **Frostbitten**, a Character suffers `-1` [AP](#action-points
 
 A **Grappled** Character is unable to move freely and counts as `+1` degree of [Flanked](#flanking). They can break free, by winning an [Opposed](#opposed-test) [Unarmed Combat](#unarmed-combat-agistr) [Test](#tests) against the other Character grappling them. 
 
+Additionally, a Grappled Character can no longer perform [Opportunity Attacks](#opportunity-attacks).
+
 ### Hasted
 <img src="../../img/health-condition-hasted.svg" style="width: 3rem; height: 3rem;"></img>
 
-A **Hasted** Character has an additional [AP](#action-points-ap) to spend and an additional `3` Squares of [Movement](#combat-movement) per [AP](#action-points-ap). 
+A **Hasted** Character gets `+1` [AP](#action-points-ap) per Turn. 
 
 ### Jealous
 <img src="../../img/health-condition-jealous.svg" style="width: 3rem; height: 3rem;"></img>
@@ -3055,7 +3063,7 @@ A Character who has been made unnaturally **Jealous**, will do anything in their
 ### Marked
 <img src="../../img/health-condition-marked.svg" style="width: 3rem; height: 3rem;"></img>
 
-A **Marked** Character suffers `-1D` to all Defense Tests and `+5` Pure damage from all **direct** sources (meaning damage from environmental hazards is excluded). 
+A **Marked** Character suffers `-1D` to all Defense Tests and `+5` Pure damage from all **direct** sources (meaning damage from environmental hazards and Conditions is excluded). 
 
 * Automatic Shrug-Off: After `1` Round.
 
@@ -3072,7 +3080,7 @@ A Character who is **Pacified**, is unable to *willingly* take any action that w
 ### Poisoned
 <img src="../../img/health-condition-poisoned.svg" style="width: 3rem; height: 3rem;"></img>
 
-A **Poisoned** Character suffers `3` points of [Poison](#damage-types) damage every [Tick](#ticks). 
+A **Poisoned** Character suffers `2` points of [Poison](#damage-types) damage every [Tick](#ticks). 
 
 * Graded
 * Shrug Off: `-1` point with a [Toughness](#toughness-tough) [Test](#tests) with Ob `1`. 
@@ -3632,8 +3640,13 @@ Retainers have **their own [XP](#experience-points-xp) to track**. Whenever and 
 
 Advancing their Attributes and Skills is **only possible** through spending their [XP](#experience-points-xp). Retainers **cannot** gain Advancement Progress, as PCs do. Also, advancing their Attributes **always costs double the [XP](#experience-points-xp)** and they cannot have any [Core Attribute](#core-favored-normal--penalized-attributes)! This means, to advance an Attribute or Skill, you have to pay the entire [XP](#experience-points-xp) cost at once. 
 
+## Legendary Actions
+Some creatures and Characters may have access to so-called **Legendary Actions**. These are particularly powerful or special abilities intended to make boss encounters more challenging and interesting and to give them more staying power. In contrast to [Hostility Actions](#hostility), these abilities do not require Hostility. Instead, they often have a limited number of uses, tracked per creature. In addition, these abilities don't cost AP, but may have conditions that must be met to activate. 
+
+Legendary Actions are optional. You may choose to disregard them at will. Or rather, are advised only to employ them for boss creatures. 
+
 # Hostility
-PCs have access to [Momentum Actions](strive-core.md#momentum) and earn or lose Momentum with the tides in combat. But you as the GM earn **Hostility**, regardless of how the combat is going. At the start of every **combat Round**, you earn `1`, plus the number of PCs and their allies in the encounter. 
+PCs have access to [Momentum Actions](strive-core.md#momentum) and earn or lose Momentum with the tides in combat. But you as the GM earn **Hostility**, regardless of how the combat is going. At the start of every **combat Round**, you earn `1`, plus the number of PCs and their allies in the encounter. You can accrue at most `50` Hostility.
 
 > Given `3` PCs and one ally, you earn `3 (number of PCs) + 1 (number of allies) + 1 (always) = 5` Hostility at the start of every Round. 
 
@@ -3643,7 +3656,7 @@ Unlike Momentum, **Hostility is not lost** when a combat encounter ends. It simp
 
 Hostility Actions can be tied to a particular type of creature or culture or even to a specific creature itself. However, there are also [General Hostility Actions](#general-hostility-actions) that *any* NPC may use.
 
-As Hostility Actions can really mix up combat, it would be wise to refrain from employing too many creatures with such abilities. These should be reserved for elite and legendary creatures. Although you could also break this expectation and explicitly give a regular or even feeble creature a Hostility Action. But always keep in mind that every creature with a Hostility Action is another level of complexity to the combat encounter. This causes more work for you and more things to keep track of for everyone. Used sparingly and effectively, Hostility Actions can elicit gasps of surprise from your players, ensuring a memorable encounter!
+As Hostility Actions can really mix up combat, it would be wise to refrain from employing too many creatures with such abilities - they should be reserved for elite and legendary creatures. Although you could also break this expectation and explicitly give a regular or even feeble creature a Hostility Action. But always keep in mind that every creature with a Hostility Action is another level of complexity to the combat encounter. This causes more work for you and more things to keep track of for everyone. Used sparingly and effectively, Hostility Actions can elicit gasps of surprise from your players, ensuring a memorable encounter!
 
 # NPC Builder
 A Module may provide you with some pre-defined NPCs to work with, but you will most likely have to, and perhaps desire to, invent your own, too. This chapter aims to provide a step-by-step process for NPC creation, based on several parameters that you get to pick from. 
@@ -3658,10 +3671,10 @@ First, you must decide whether you need a **person**, an **animal** or a **monst
 
 Secondly, you must choose a **power-level**: 
 
-* **Feeble**: Start with `10` points and a CR of `1`. A feeble creature is cannon-fodder, a minion that serves as faceless padding around a bigger villain. It always has **`10` maximum HP**, regardless of its Toughness Level or other Traits. This makes it easy to eliminate and allows the PCs to feel heroic, for example by cutting a path through a horde of lesser zombies. 
-* **Regular**: Start with `15` points and a CR of `2`. A regular creature has no particular advantages or disadvantages. Often times, two or three of these will be enough to occupy a PC group for a while. Also expect most people NPCs to be regular creatures. 
-* **Elite**: Start with `20` points and a CR of `3`. An elite is highly trained or naturally talented. Just one of these may suffice to challenge a PC group. When coupled with other NPCs, this one should probably assume a supporting or leading role and instead of engaging the PCs to the same extent as its minions, hangs back a bit, to ensure it won't overwhelm the PCs. 
-* **Legendary**: Start with `30` points and a CR of `4`. A legendary creature is expected to be a boss encounter, which can easily challenge the entire PC group on its own. Be careful not to design it as too powerful. Instead, for an epic boss fight, split up its abilities into two or three stages. 
+* **Feeble**: Start with `15` points and a CR of `2`. A feeble creature is cannon-fodder, a minion that serves as faceless padding around a bigger villain. It always has **`10` maximum HP**, regardless of its Toughness Level or other Traits. This makes it easy to eliminate and allows the PCs to feel heroic, for example by cutting a path through a horde of lesser zombies. 
+* **Regular**: Start with `25` points and a CR of `3`. A regular creature has no particular advantages or disadvantages. Often times, two or three of these will be enough to occupy a PC group for a while. Also expect most people NPCs to be regular creatures. 
+* **Elite**: Start with `40` points and a CR of `5`. An elite is highly trained or naturally talented. Just one of these may suffice to challenge a PC group. When coupled with other NPCs, this one should probably assume a supporting or leading role and instead of engaging the PCs to the same extent as its minions, hangs back a bit, to ensure it won't overwhelm the PCs. 
+* **Legendary**: Start with `60` points and a CR of `6`. A legendary creature is expected to be a boss encounter, which can easily challenge the entire PC group on its own. Be careful not to design it as too powerful. Instead, for an epic boss fight, split up its abilities into two or three stages. 
 
 The next steps after this are to pick a combat role, traits, Attributes and Skills. 
 
@@ -3706,20 +3719,20 @@ Additions:
 * `-1` point: **Sticky**: The creature can cling to any surface, without restriction. 
 
 #### Fast (-2 points; +1 CR)
-This creature moves an additional `2` Squares, per AP spent. Exclusive with [Shambler](#shambler-2-points). 
+This creature moves an additional `+2` Squares, per AP spent. Exclusive with [Shambler](#shambler-2-points). 
 
 Additions:
-* `-N` points: Can move an additional `N` Squares per AP spent. 
+* `-N` points: Can move an additional `N * 2` Squares per AP spent. 
 
 #### Glider (-1 points; +1 CR)
-The creature can glide, but only from higher to lower elevation. 
+The creature can glide at its normal movement speed, but only from higher to lower elevation. It does not suffer damage from falling. 
 
 Additions:
 * `-1` point: **Floater**: Can also hover in mid-air. 
 * `-3` point: **Flyer**: Can move at full speed mid-air, as far and as long as it wants and at any elevation. 
 
 #### Leaper (-3 points; +2 CR)
-The creature can jump up to `6` Squares far, in a high arc, without provoking [Attacks of Opportunity](#opportunity-attacks), over the heads of its foes. The creature suffers `-1` [Stamina](#stamina--strain). 
+The creature can jump up to `6` Squares far, in a high arc, without provoking [Attacks of Opportunity](#opportunity-attacks), over the heads of its foes. This costs `-1` [AP](./strive-core.md#action-points-ap) and `-1` [Stamina](#stamina--strain). 
 
 Additions:
 * `-2` points: **Dervish**: When leaping over opponents, this creature may also launch free attacks against each of them, but with Ob `+1`.
@@ -3744,7 +3757,7 @@ Additions:
 The creature can become invisible, even in plain sight, at the cost of `3` AP. It will stay invisible for as long as it takes no offensive action. It can be detected with a successful [Observation](#observation-awarawar) or [Path-Finding](#path-finding-awarwit) Test, at Ob `3`. 
 
 #### Danger Blood (-1 point; +1 CR)
-When injured, strange-colored blood squirts out of the wound, causing `1D6` acid/poison/burning/freezing (choose one) damage to all other, adjacent creatures. 
+When damaged, strange-colored blood squirts out of the wound, causing `4` Acid/Poison/Burning/Freezing (choose one) damage to all other, adjacent creatures. 
 
 #### Danger-Touch (-3 points; +2 CR)
 All melee attackers against this creature suffer `6` points of a chosen type of damage, even if they miss. 
@@ -3784,7 +3797,7 @@ Additions:
 * `-3` points: **Precise**: Always deals `8` points of damage, instead.
 
 #### Disease-Ridden (-1 point; +1 CR)
-Any damage this creature deals on another that can contract diseases, will force a Test to resist disease from that creature. The victim must succeed a Toughness Test at Ob equal to half their Toughness, rounded up, or else suffer a random [Illness](#illness). 
+The first damage this creature deals on another that can contract diseases, will force a Test to resist disease from that creature. The victim must succeed a Toughness Test at Ob equal to half their Toughness, rounded up, or else suffer a random [Illness](#illness). 
 
 Suitable for: Any type of undead, rats and swamp creatures.
 
@@ -3847,20 +3860,18 @@ Suitable for: Creatures of the night, such as werewolves, vampires and ghosts.
 
 ## Choosing NPC Characteristics
 * You may increase each Attribute `+1` at the cost of `-1` point. 
-* You may increase Stability, Defense or Free Strike `+1` at the cost of `-2` points. 
+* You may increase Stability, Defense or Free Strike `+1` at the cost of `-1` points. 
   * The damage type for the Free Strike may be freely chosen. 
 
 ## Choosing NPC Skills
 Custom Skills are that which brings the spice to every NPC and you are free to build them however you like, but keep the following guidelines in mind:
 * A regular combat Skill should deal at most `8` points of damage per damage type and should at most deal two types of damage. If you decide it needs to deal higher damage, it should probably have a higher AP cost. 
-* AP costs for attacks should be at least `2`. Supporting Skills may only cost `1` AP or even be free, if some other limitation applies. 
+* AP costs for attacks should be at least `2`. Supporting Skills may cost `1` AP or even be free, if some other limitation applies. 
 * A Feeble and Regular creature should at most have `2` main Skills. These creatures should be easy and quick to run, so overburdening them with Skills will counteract this goal. 
 
-Every Skill you add costs `-1` point and adds `+1` CR. 
+Every Skill you add costs `-1` point and adds `+2` CR. You should avoid Levels less than `1`. 
 
 For people, you may simply give them Skills from the same lists as are available to the PCs. When choosing Skills to add to a NPC, you needn't add every single Skill they could potentially use at some point. You only need to give them those Skills that form their core strengths. The more Skills you add, the harder to manage a NPC becomes. 
-
-Every Skill should be at least Level `2`. Increase the CR by half the Skill's Level (RU). 
 
 ### Bite (Agi/Str)
 Bite a target for `1D4 + Strength` points of piercing damage.
@@ -3903,13 +3914,28 @@ Suitable for: Any creature that could reasonably emit such a thrumming sound, su
 ### Trap Storm (-4 points; +3 CR)
 **`-8` Hostility**: The creature throws or lays or spews forth `3` traps, up to `10` Squares far, that now litter the battlefield. Each of these will deal `6` points of damage. The damage type should be chosen according to the nature of the traps. E. g. piercing for bear traps, acid for pools of acid, burning for bombs and so on. 
 
-### I Don't Bleed (-5 points; +4 CR)
+### I Don't Bleed (-5 points; +6 CR)
 **`-10` Hostility**: Immediately clears all points of [Bleeding](#bleeding), [Burning](#burning) and [Frostbitten](strive-core.md#frostbitten) and awards `+10` Temporary HP. 
 
-### No, I Am The Hero! (-10 points; +6 CR)
+### No, I Am The Hero! (-10 points; +8 CR)
 **`-20` Hostility**: Immediately after the PCs have activated a [Heroic Act](#momentum), this creature activates it again, but for itself and its allies, instead of the PCs!
 
 Suitable for: Legendary villains
+
+## General Legendary Actions
+You may choose any number from the following [Legendary Actions](#legendary-actions) to bolster a NPC's capabilities. Keep the number as low as possible, to prevent a creature too powerful or tedious to beat and less tiresome for you to manage. 
+
+### Ignore Damage (-8 Points; +8 CR)
+Ignore an instance of damage, up to `2` times per Round. 
+
+### Shrug It All Off (-3 Points; +3 CR)
+Remove all Health Conditions, once a day. 
+
+### Action Surge (-4 Points; +4 CR)
+Gain `5` AP, once a day. 
+
+### Stop Heroism (-10 Points; +8 CR)
+Prevent or end a Heroic Act's effects, once every other Round. 
 
 # Combat Encounter Builder
 Preparing a combat encounter is not a simple matter, though it will get easier, as your *sense* for the *right* amount of challenge develops. This chapter aims to get you started down that road. 
