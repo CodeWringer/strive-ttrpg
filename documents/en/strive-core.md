@@ -505,10 +505,10 @@ By using STRIVE (that includes but is not limited to viewing, reading, referenci
   - [General Hostility Actions](#general-hostility-actions)
     - [Advance! (-4 points; +2 CR)](#advance--4-points-2-cr)
     - [Collect Bounty (-4 points; +3 CR)](#collect-bounty--4-points-3-cr)
+    - [Enraged (-5 points; +2 CR)](#enraged--5-points-2-cr)
     - [Get Off Me! (-5 points; +3 CR)](#get-off-me--5-points-3-cr)
     - [Resonance Cascade (-4 points; +2 CR)](#resonance-cascade--4-points-2-cr)
     - [Slip Away (-5 points; +3 CR)](#slip-away--5-points-3-cr)
-    - [Seething Hatred (-5 points; +2 CR)](#seething-hatred--5-points-2-cr)
     - [Sinkhole (-8 points; +2 CR)](#sinkhole--8-points-2-cr)
     - [Trap Storm (-4 points; +3 CR)](#trap-storm--4-points-3-cr)
     - [I Don't Bleed (-5 points; +6 CR)](#i-dont-bleed--5-points-6-cr)
@@ -3897,6 +3897,9 @@ The following Hostility Actions are a general offering for you to pick and choos
 ### Collect Bounty (-4 points; +3 CR)
 **`-5` Hostility**: The creature moves up to `10` Squares and makes an immediate and free attack against a chosen foe. Until the end of combat, or until a new victim is chosen with this ability, that foe is [Marked](strive-core.md#marked)!
 
+### Enraged (-5 points; +2 CR)
+**`-8` Hostility**: The creature immediately becomes [Berserked](strive-core.md#berserk) and deals an additional `5` points of Bludgeoning damage on all their attacks, until the end of the Round. 
+
 ### Get Off Me! (-5 points; +3 CR)
 **`-5` Hostility**: The creature pushes back all other, adjacent creatures by `3` Squares. 
 
@@ -3907,9 +3910,6 @@ Suitable for: Any creature that could reasonably emit such a thrumming sound, su
 
 ### Slip Away (-5 points; +3 CR)
 **`-5` Hostility**: When a foe moves into a space adjacent to this creature, as a Reaction, it may immediately move away, for up to `5` Squares, without provoking [Opportunity Attacks](strive-core.md#opportunity-attacks)!
-
-### Seething Hatred (-5 points; +2 CR)
-**`-8` Hostility**: The creature immediately becomes [Berserked](strive-core.md#berserk) and deals an additional `5` points of Bludgeoning damage on all their attacks, until the end of the Round. 
 
 ### Sinkhole (-8 points; +2 CR)
 **`-8` Hostility**: The ground gives and in a `5` Square AoE radius around the creature, drops by `5` Squares. All creatures with `Stability ≤ 2` are covered by earth, become [Prone](strive-core.md#prone) and suffer `6` points of Bludgeoning damage. All creatures with `Stability ≤ 3` become [Prone](strive-core.md#prone). 

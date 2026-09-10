@@ -187,6 +187,7 @@ There is a [compendium document](./strive-fantasy-game-masters-resource.md) rese
         - [Second Stage](#second-stage)
           - [Unstoppable Hatred](#unstoppable-hatred)
       - [Greater Wendigo](#greater-wendigo)
+      - [Greater Demon of Engorgement](#greater-demon-of-engorgement)
       - [Doom Bringer](#doom-bringer)
       - [Hollow Gazer](#hollow-gazer)
       - [Preacher](#preacher)
@@ -1795,7 +1796,12 @@ Whether through the bite, or blood, a Werewolf's curse transforms its victim int
 | ------ | ------ | ------ | --- | ---------- | --------------- | ------ | ----------------- |
 | 13     | 4      | 0      | 30  | 6          | 7 Slashing      | 5D     |                   |
 
-**Traits**: [Fast](./strive-core.md#fast--2-points-1-cr); [Fortified Mind](./strive-core.md#fortified-mind--4-points-1-cr); [Hyperactive + Multi-Initiative](./strive-core.md#hyperactive--7-points-4-cr); [Gritty](./strive-core.md#gritty--5-points-4-cr); [Moon Affinity](./strive-core.md#moon-affinity--7-points-4-cr);
+**Traits**:
+* [Fast](./strive-core.md#fast--2-points-1-cr)
+* [Fortified Mind](./strive-core.md#fortified-mind--4-points-1-cr)
+* [Hyperactive + Multi-Initiative](./strive-core.md#hyperactive--7-points-4-cr)
+* [Gritty](./strive-core.md#gritty--5-points-4-cr)
+* [Moon Affinity](./strive-core.md#moon-affinity--7-points-4-cr);
 
 **Assets**: None
 
@@ -1843,7 +1849,10 @@ Warped bones are held together by sinew and parched remnants of skin. The heavil
 | ------ | ------ | ------ | --- | ---------- | --------------- | ------ | ----------------- |
 | 12     | 6      | 0      | 30  | 6          |                 | 3D     |                   |
 
-**Traits**: [Fast](./strive-core.md#fast--2-points-1-cr); [Fortified Mind](./strive-core.md#fortified-mind--4-points-1-cr); [Climber + Sticky](./strive-core.md#climber--2-points-1-cr); 
+**Traits**:
+* [Fast](./strive-core.md#fast--2-points-1-cr)
+* [Fortified Mind](./strive-core.md#fortified-mind--4-points-1-cr)
+* [Climber + Sticky](./strive-core.md#climber--2-points-1-cr)
 
 **Assets**: None
 
@@ -1905,7 +1914,10 @@ A massive, bipedal abomination. Its thin limbs are too long for its proportions,
 | ------ | ------ | ------ | --- | ---------- | --------------- | ------ | ----------------- |
 | 10     | 7      | 3      | 100 | 20         | `10` Slashing   | 3D     |                   |
 
-**Traits**: [The Flesh is Malleable](#the-flesh-is-malleable); [Fortified Mind](./strive-core.md#fortified-mind--4-points-1-cr); [Hyperactive + Multi-Initiative](./strive-core.md#hyperactive--7-points-4-cr);
+**Traits**:
+* [The Flesh is Malleable](#the-flesh-is-malleable)
+* [Fortified Mind](./strive-core.md#fortified-mind--4-points-1-cr)
+* [Hyperactive + Multi-Initiative](./strive-core.md#hyperactive--7-points-4-cr)
 
 **Assets**: None
 
@@ -1953,7 +1965,8 @@ Stilted legs hold aloft a large body comprised of tendrils pulsating with light.
 | ------ | ------ | ------ | --- | ---------- | --------------- | ------ | ----------------- |
 | 9      | 3      | 0      | 20  | 20         |                 | 2D     |                   |
 
-**Traits**: [Fortified Mind](./strive-core.md#fortified-mind--4-points-1-cr); 
+**Traits**:
+* [Fortified Mind](./strive-core.md#fortified-mind--4-points-1-cr)
 
 **Assets**: None
 
@@ -1989,7 +2002,9 @@ A massive, monstrous mass of bare flesh and bone. Its skin is like fish's mail, 
 | ------ | ------ | ------ | --- | ---------- | --------------- | ------ | ----------------- |
 | 7      | 0      | 0      | 200 | 40         |                 | 2D     |                   |
 
-**Traits**: [Fortified Mind](./strive-core.md#fortified-mind--4-points-1-cr); [Shambler](./strive-core.md#shambler-2-points--2-cr); 
+**Traits**:
+* [Fortified Mind](./strive-core.md#fortified-mind--4-points-1-cr)
+* [Shambler](./strive-core.md#shambler-2-points--2-cr)
 
 **Assets**: None
 
@@ -2072,7 +2087,9 @@ This minor Demon is a horned mass of bulging muscle and covered in eternal flame
 | ------ | ------ | ------ | --- | ---------- | ---------------------- | ------ | ----------------- |
 | 8      | 5      | 3      | 60  | 12         | 5 Slashing + 3 Burning | 1      | Burning Immune <br> Double damage from Freezing <br> 8/4/2/0 Slashing <br> 6/3/2/0 Piercing <br> 4/2/1/0 Bludgeoning <br> 4/2/1/0 Acid |
 
-**Traits**: [Fortified Mind](./strive-core.md#fortified-mind--4-points-1-cr); [Leaper](./strive-core.md#leaper--3-points-2-cr); 
+**Traits**:
+* [Fortified Mind](./strive-core.md#fortified-mind--4-points-1-cr)
+* [Leaper](./strive-core.md#leaper--3-points-2-cr)
 
 **Assets**: None
 
@@ -2116,7 +2133,10 @@ This minor Demon towers above and punishes foes with reckless abandon. One of it
 | ------ | ------ | ------ | --- | ---------- | --------------- | ------ | ----------------- |
 | 8      | 4      | 3      | 50  | 10         | 5 Slashing      | 3      | 0                 |
 
-**Traits**: [Fortified Mind](./strive-core.md#fortified-mind--4-points-1-cr); [Danger Blood (1D6 Burning)](./strive-core.md#danger-blood--1-point-1-cr); [Death Rattle (Reprisal)](./strive-core.md#death-rattle--2-points-2-cr); 
+**Traits**:
+* [Fortified Mind](./strive-core.md#fortified-mind--4-points-1-cr)
+* [Danger Blood (1D6 Burning)](./strive-core.md#danger-blood--1-point-1-cr)
+* [Death Rattle (Reprisal)](./strive-core.md#death-rattle--2-points-2-cr)
 
 **Assets**: None
 
@@ -2156,7 +2176,11 @@ This minor Demon looks like a pale, muscular man, but its head is elongated and 
 | ------ | ------ | ------ | --- | ---------- | --------------- | ------ | ----------------- |
 | 15     | 5      | 0      | 40  | 8          | 6 Slashing      | 3      | 0                 |
 
-**Traits**: [Fortified Mind](./strive-core.md#fortified-mind--4-points-1-cr); [Fast (+2)](./strive-core.md#fast--2-points-1-cr); [Hyperactive + Multi-Initiative](./strive-core.md#hyperactive--7-points-4-cr); [Leaper + Dervish](./strive-core.md#leaper--3-points-2-cr)
+**Traits**:
+* [Fortified Mind](./strive-core.md#fortified-mind--4-points-1-cr)
+* [Fast (+2)](./strive-core.md#fast--2-points-1-cr)
+* [Hyperactive + Multi-Initiative](./strive-core.md#hyperactive--7-points-4-cr)
+* [Leaper + Dervish](./strive-core.md#leaper--3-points-2-cr)
 
 **Assets**: It may have the odd trinket - still attached to the remains of its former host. 
 
@@ -2195,7 +2219,8 @@ This minor Demon appears like a half-rotted and calcified, large, bipedal Deer. 
 | ------ | ------ | ------ | --- | ---------- | --------------- | ------ | ----------------- |
 | 10     | 4      | 0      | 30  | 6          | 5 Slashing      | 3      | 0                 |
 
-**Traits**: [Fortified Mind](./strive-core.md#fortified-mind--4-points-1-cr)
+**Traits**:
+* [Fortified Mind](./strive-core.md#fortified-mind--4-points-1-cr)
 
 **Assets**: None
 
@@ -2234,7 +2259,10 @@ This minor Demon has been forced into the body of a Zombie. It has deformed, as 
 | ------ | ------ | ------ | --- | ---------- | --------------- | ------ | ----------------- |
 | 7      | 3      | 0      | 50  | 10         | 3 Bludgeoning   | 0      | 0                 |
 
-**Traits**: [Fortified Mind](./strive-core.md#fortified-mind--4-points-1-cr); [Regenerator](./strive-core.md#regenerator--5-points-3-cr); [Death Rattle (Splitter)](./strive-core.md#death-rattle--2-points-2-cr); 
+**Traits**:
+* [Fortified Mind](./strive-core.md#fortified-mind--4-points-1-cr)
+* [Regenerator](./strive-core.md#regenerator--5-points-3-cr)
+* [Death Rattle (Splitter)](./strive-core.md#death-rattle--2-points-2-cr)
 
 **Assets**: None
 
@@ -2284,7 +2312,9 @@ This minor Demon is a canid-esque quadruped covered in countless bony spines, li
 | ------ | ------ | ------ | --- | ---------- | --------------- | ------ | ----------------- |
 | 12     | 4      | 0      | 30  | 6          | 4 Piercing      | 3      |                   |
 
-**Traits**: [Fortified Mind](./strive-core.md#fortified-mind--4-points-1-cr); [Leaper](./strive-core.md#leaper--3-points-2-cr)
+**Traits**:
+* [Fortified Mind](./strive-core.md#fortified-mind--4-points-1-cr)
+* [Leaper](./strive-core.md#leaper--3-points-2-cr)
 
 **Assets**: None
 
@@ -2315,7 +2345,9 @@ This minor Demon appears to be some sort of stone-golem. Molten lava drips from 
 | ------ | ------ | ------ | --- | ---------- | --------------- | ------ | ----------------- |
 | 10     | 3      | 2      | 40  | 8          | 3 Bludgeoning   | 1      | 8 against all **except** Bludgeoning |
 
-**Traits**: [Fortified Mind](./strive-core.md#fortified-mind--4-points-1-cr); [Insurmountable](./strive-core.md#insurmountable--4-points-3-cr)
+**Traits**: 
+* [Fortified Mind](./strive-core.md#fortified-mind--4-points-1-cr)
+* [Insurmountable](./strive-core.md#insurmountable--4-points-3-cr)
 
 **Assets**: None
 
@@ -2355,8 +2387,6 @@ This major Demon is a horned hulking mass of bulging muscle and covered in etern
 | ----- | ----- | ----- | ----- | ----- | ----- |
 | 3     | 3     | 8     | 10    | 2     | 8     |
 
-**Traits**: [Fortified Mind](./strive-core.md#fortified-mind--4-points-1-cr); [Leaper](./strive-core.md#leaper--3-points-2-cr); [Danger Blood (Burning)](./strive-core.md#danger-blood--1-point-1-cr)
-
 **Assets**: None
 
 ##### First Stage
@@ -2366,7 +2396,7 @@ Flames dance across the Demon's obsidian skin and it roars with ferocity - yet a
 | ------ | ------ | ------ | --- | ---------- | ---------------------------- | ------ | ----------------- |
 | 8      | 5      | 6      | 100 | 20         | 5 Slashing + 3 Burning (= 8) | 2D     | Burning Immune <br> -5 Freezing <br> 8 Slashing <br> 6 Piercing <br> 6 Bludgeoning <br> 6 Acid <br> 6 Bleeding |
 
-**Legendary Traits**: [Hyperactive + Multi-Initiative](./strive-core.md#hyperactive--7-points-4-cr)
+**Traits**: [Fortified Mind](./strive-core.md#fortified-mind--4-points-1-cr); [Leaper](./strive-core.md#leaper--3-points-2-cr); [Danger Blood (Burning)](./strive-core.md#danger-blood--1-point-1-cr); [Hyperactive + Multi-Initiative](./strive-core.md#hyperactive--7-points-4-cr)
 
 **Skills**:
 * Breath Of Fire (Tough/Arc):
@@ -2398,9 +2428,11 @@ Flames dance across the Demon's obsidian skin and it roars with ferocity - yet a
 * Ignore Damage: 
   * Ignore an instance of damage, up to `2` times per Round. 
 * Shrug It All Off:
-  * Remove all Health Conditions, once a day. 
+  * If you have a combined total of at least `8` points of Health Conditions, remove all of them, once a day. 
 * Action Surge
   * Gain `5` AP, once a day. 
+* Building Hatred:
+  * Whenever a PC successfully attacks you, regain `2` AP. 
 
 ##### Second Stage
 The Demon's form vanishes in a sea of fire, which rages and roars with unbridled aggression, as if reaching for foes. At the start of every Round, it loses `5` HP.
@@ -2409,7 +2441,10 @@ The Demon's form vanishes in a sea of fire, which rages and roars with unbridled
 | ------ | ------ | ------ | --- | ---------- | ---------------------------- | ------ | ----------------- |
 | 8      | 5      | 6      | 100 | 20         | 5 Slashing + 3 Burning (= 8) | 2D     | Burning Immune <br> 8 Slashing <br> 6 Piercing <br> 6 Bludgeoning <br> 6 Acid <br> 8 Bleeding |
 
-**Legendary Traits**: [Unstoppable Hatred](#unstoppable-hatred)
+**Traits**: 
+* [Fortified Mind](./strive-core.md#fortified-mind--4-points-1-cr)
+* [Leaper](./strive-core.md#leaper--3-points-2-cr)
+* [Unstoppable Hatred](#unstoppable-hatred)
 
 **Skills**:
 * Breath Of Hate (Tough/Arc):
@@ -2441,9 +2476,7 @@ The Demon's form vanishes in a sea of fire, which rages and roars with unbridled
 * Ignore Damage: 
   * Ignore an instance of damage, up to `2` times per Round. 
 * Shrug It All Off:
-  * Remove all Health Conditions, once a day. 
-* Action Surge
-  * Gain `5` AP, once a day. 
+  * If you have a combined total of at least `8` points of Health Conditions, remove all of them, once every other Round. 
 * Stop Heroism
   * Prevent or end a Heroic Act's effects, once every other Round. 
 
@@ -2469,9 +2502,13 @@ This major Demon looks like a massive half-rotted and calcified, hunched bipedal
 | ------ | ------ | ------ | --- | ---------- | --------------- | ------ | ----------------- |
 | 10     | 6      | 3      | 80  | 16         | 5 Slashing      | 1      | 0                 |
 
-**Traits**: [Fortified Mind](./strive-core.md#fortified-mind--4-points-1-cr); [Glider](./strive-core.md#glider--1-points-1-cr); [Leaper](./strive-core.md#leaper--3-points-2-cr); [Danger Blood (1D6 Burning)](./strive-core.md#danger-blood--1-point-1-cr); [Forceful](./strive-core.md#forceful--2-points-1-cr)
-
-**Legendary Traits**: [Hyperactive + Multi-Initiative](./strive-core.md#hyperactive--7-points-4-cr)
+**Traits**: 
+* [Fortified Mind](./strive-core.md#fortified-mind--4-points-1-cr)
+* [Glider](./strive-core.md#glider--1-points-1-cr)
+* [Leaper](./strive-core.md#leaper--3-points-2-cr)
+* [Danger Blood (1D6 Burning)](./strive-core.md#danger-blood--1-point-1-cr)
+* [Forceful](./strive-core.md#forceful--2-points-1-cr)
+* [Hyperactive + Multi-Initiative](./strive-core.md#hyperactive--7-points-4-cr)
 
 **Assets**: None
 
@@ -2500,6 +2537,67 @@ This major Demon looks like a massive half-rotted and calcified, hunched bipedal
 * Ignore Damage: 
   * Ignore an instance of damage, up to `2` times per Round. 
 
+#### Greater Demon of Engorgement
+This major Demon is a a quadrupedal mass of swollen flesh, with a massive and tooth-lined maw with an insatiable appetite for flesh. 
+
+* Power: Legendary, CR: `30`
+* Summoning Ob: `6`, Requirements: [Swirly Malevite Orb](#malevite) or greater
+* Roles: Disruptor, Shock-Trooper, Tank
+  * This is a legendary Demon that will inexorably devour anything it can get its grubby hands on. 
+  * Its particular deviousness stems from the ability to scoff a single foe whole. 
+  * Deadly Poison and Acid attacks.
+* Behavior: 
+  * Like all Demons, it is bent on the destruction of everything around it. Its hate is pure and inconsolable. 
+  * Always in search of *more* food.
+* Combat:
+  * **Always** tries to Devour *someone*. Will stay close to foes. 
+  * When surrounded, uses Release Noxious Fumes. Otherwise, will use Regurgitate and Chomp
+
+| Agi   | Awar  | Str   | Tough | Wit   | Arc   |
+| ----- | ----- | ----- | ----- | ----- | ----- |
+| 3     | 3     | 8     | 10    | 3     | 6     |
+
+| BI     | Sprint | Stabil | HP  | Stamina    | FS (Melee)      | Def    | Armor             |
+| ------ | ------ | ------ | --- | ---------- | --------------- | ------ | ----------------- |
+| 9      | 6      | 3      | 200 | 20         | 8 Piercing      | 2D     |                   |
+
+**Traits**: 
+* [Fortified Mind](./strive-core.md#fortified-mind--4-points-1-cr); 
+
+**Assets**: None
+
+**Skills**:
+* Chomp:
+  * Chomp down on up to `2` MST with your massive maw. 
+  * Level: `5`, AP: `3`, Ob: `2`, AoE, Innate
+  * `≤ 1` Hit: `5` Piercing
+  * `= 2` Hits: `7` Piercing
+  * `≥ 3` Hits: `9` Piercing
+* Devour:
+  * Devour a ST whole, for `2` Rounds. They suffer `6` Acid damage at the start of your Turn and are considered [Grappled](./strive-core.md#grappled), and untargetable. They cannot attack you from within, but can attempt to break free with an opposed Strength Test. 
+  * AP: `2`, ST, Melee, Innate
+* Release Noxious Fumes (Tough/Arc):
+  * Some half-digested *food's* rotting remains within you are emanating a noxious fume. All in a `5` Square AoE radius around you are affected.
+  * Level: `5`, AP: `3`, Ob: `2`, AoE, Innate
+  * `≤ 1` Hit: `7` Poison; Knock-back `3` Squares
+  * `= 2` Hits: `9` Poison; Knock-back `4` Squares
+  * `≥ 3` Hits: `12` Poison; Knock-back `5` Squares
+* Regurgitate (Awar/Tough):
+  * Throw up some half-digested remains of some poor sap, up to `10` Squares far, where, in a `2` Square AoE radius, it causes damage. 
+  * Level: `5`, AP: `2`, Ob: `2`, Ranged, AoE, Innate
+  * `≤ 1` Hit: `6` Acid
+  * `= 2` Hits: `8` Acid
+  * `≥ 3` Hits: `10` Acid
+
+**Legendary Actions**:
+* Did I Eat That?:
+  * Regurgitate `2` [Zombies](#zombie), who join the fight on your side. Can only have up to `4` Zombies on the field through this Ability. Can only be used every other Turn. 
+* Do You Smell That?:
+  * Interrupt a foe's Action, make them lose `1` AP and force them to run away from you, up to `4` Squares far. Can be used once per Round, at any time. 
+
+**Hostility Actions**:
+* [I don't Bleed](./strive-core.md#i-dont-bleed--5-points-6-cr)
+
 #### Doom Bringer
 This major Demon is a pale biped, without a head and many pairs of arms symmetrically sticking out of its body. When it unfolds the last arm, doom is upon us all. 
 
@@ -2521,9 +2619,10 @@ This major Demon is a pale biped, without a head and many pairs of arms symmetri
 | ------ | ------ | ------ | --- | ---------- | --------------- | ------ | ----------------- |
 | 6      | 6      | 3      | 100 | 20         |                 | 2D     | Half to all       |
 
-**Traits**: [Fortified Mind](./strive-core.md#fortified-mind--4-points-1-cr); 
-
-**Legendary Traits**: [Hyperactive + Multi-Initiative](./strive-core.md#hyperactive--7-points-4-cr); [Shambler](./strive-core.md#shambler-2-points--2-cr)
+**Traits**: 
+* [Hyperactive + Multi-Initiative](./strive-core.md#hyperactive--7-points-4-cr)
+* [Fortified Mind](./strive-core.md#fortified-mind--4-points-1-cr)
+* [Shambler](./strive-core.md#shambler-2-points--2-cr)
 
 **Assets**: None
 
@@ -2581,7 +2680,10 @@ This major Demon is but a husk of a creature. Its decrepit form can barely stand
 | ------ | ------ | ------ | --- | ---------- | --------------- | ------ | ----------------- |
 | 9      | 3      | 0      | 60  | 12         | 6 Bleeding      |        | Half to all       |
 
-**Traits**: [Fortified Mind](./strive-core.md#fortified-mind--4-points-1-cr); [Shambler](./strive-core.md#shambler-2-points--2-cr); [Immovable](./strive-core.md#immovable--2-points-1-cr);
+**Traits**:
+* [Fortified Mind](./strive-core.md#fortified-mind--4-points-1-cr)
+* [Shambler](./strive-core.md#shambler-2-points--2-cr)
+* [Immovable](./strive-core.md#immovable--2-points-1-cr);
 
 **Assets**: None
 
@@ -2613,7 +2715,10 @@ This major Demon appears as little more than a horned skull attached by chains t
 | ------ | ------ | ------ | --- | ---------- | --------------- | ------ | ----------------- |
 | 14     | 2      | 4      | 40  | 8          | 1 Pure          | 0      |                   |
 
-**Traits**: [Fortified Mind](./strive-core.md#fortified-mind--4-points-1-cr); [Glider + Floater + Flyer](./strive-core.md#glider--1-points-1-cr); [Shambler](./strive-core.md#shambler-2-points--2-cr)
+**Traits**:
+* [Fortified Mind](./strive-core.md#fortified-mind--4-points-1-cr)
+* [Glider + Floater + Flyer](./strive-core.md#glider--1-points-1-cr)
+* [Shambler](./strive-core.md#shambler-2-points--2-cr)
 
 **Assets**: None
 
@@ -2685,7 +2790,10 @@ This variant is small and stunted. Its legs are too short and deformed to be use
 | ------ | ------ | ------ | --- | ---------- | --------------- | ------ | ----------------- |
 | 9      | 3      | 0      | 10  | 2          | 2 Acid          | 2      | 0                 |
 
-**Traits**: [Disease-Ridden](strive-core.md#disease-ridden--1-point-1-cr), [Light-weight](strive-core.md#light-weight-2-points--1-cr), [Vulnerable](strive-core.md#vulnerable-2-points--2-cr) to Bleeding `+6`
+**Traits**:
+* [Disease-Ridden](strive-core.md#disease-ridden--1-point-1-cr)
+* [Light-weight](strive-core.md#light-weight-2-points--1-cr)
+* [Vulnerable](strive-core.md#vulnerable-2-points--2-cr) to Bleeding `+6`
 
 **Assets**: Tattered Rags (Clothing)
 
@@ -2725,7 +2833,9 @@ This variant stands tall and proud, its wrinkled skin riddled with scars. Its tu
 | ------ | ------ | ------ | --- | ---------- | --------------- | ------ | ----------------- |
 | 8      | 4      | 2      | 50  | 5          | 3 Piercing      | 4      | 8/4/2/0 Slashing <br> 6/3/2/0 Piercing <br> 4/2/1/0 Bludgeoning |
 
-**Traits**: [Vulnerable](strive-core.md#vulnerable-2-points--2-cr) to Bleeding `+6`, [Hyperactive + Disruptive](strive-core.md#hyperactive--7-points-4-cr)
+**Traits**:
+* [Vulnerable](strive-core.md#vulnerable-2-points--2-cr) to Bleeding `+6`
+* [Hyperactive + Disruptive](strive-core.md#hyperactive--7-points-4-cr)
 
 **Assets**: Polearm, Medium Shield, Swine Champion Armor
 
@@ -2761,6 +2871,9 @@ This variant stands tall and proud, its wrinkled skin riddled with scars. Its tu
     * **Reaction**: Once in a battle, when an ally's HP are reduced to `0`, they are instead reduced to your `Hits * 3`. 
     * AP: `1`, Ranged, Vocal
 
+**Hostility Actions**:
+* [Collect Bounty](./strive-core.md#collect-bounty--4-points-3-cr)
+
 ### Swine Lunger
 This variant is as almost as small as a Belcher, but with strong legs and arms, with atypically short tusks. Perhaps a youngling? It moves with uncanny precision, for a Swine. 
 
@@ -2781,7 +2894,8 @@ This variant is as almost as small as a Belcher, but with strong legs and arms, 
 | ------ | ------ | ------ | --- | ---------- | --------------- | ------ | ----------------- |
 | 10     | 4      | 0      | 20  | 2          | 4 Slashing      | 3      | 0                 |
 
-**Traits**: [Vulnerable](strive-core.md#vulnerable-2-points--2-cr) to Bleeding `+6`
+**Traits**:
+* [Vulnerable](strive-core.md#vulnerable-2-points--2-cr) to Bleeding `+6`
 
 **Assets**: Tattered Rags (Clothing), Dagger x2
 
@@ -2821,7 +2935,8 @@ A hulking mass of Swine and muscle, towering above its lesser brethren. Despite 
 | ------ | ------ | ------ | --- | ---------- | --------------- | ------ | ----------------- |
 | 3      | 4      | 4      | 60  | 7          | 4 Bludgeoning   | 1      | 0                 |
 
-**Traits**: [Vulnerable](strive-core.md#vulnerable-2-points--2-cr) to Bleeding `+6`
+**Traits**:
+* [Vulnerable](strive-core.md#vulnerable-2-points--2-cr) to Bleeding `+6`
 
 **Assets**: Tattered Rags (Clothing), Crusher
 
@@ -2860,7 +2975,8 @@ An intelligent and cruel leader among the Swine. Its gaze attentively surveys al
 | ------ | ------ | ------ | --- | ---------- | --------------- | ------ | ----------------- |
 | 9      | 3      | 0      | 40  | 4          | 4 Acid          | 2      | 0                 |
 
-**Traits**: [Vulnerable](strive-core.md#vulnerable-2-points--2-cr) to Bleeding `+6`
+**Traits**:
+* [Vulnerable](strive-core.md#vulnerable-2-points--2-cr) to Bleeding `+6`
 
 **Assets**: Fine Rags (Clothing)
 
@@ -2905,7 +3021,9 @@ This variant has full dark-red fur and much shorter tusks. It moves deftly, albe
 | ------ | ------ | ------ | --- | ---------- | --------------- | ------ | ----------------- |
 | 10     | 4      | 0      | 30  | 4          | 4 Piercing      | 2      | 0                 |
 
-**Traits**: [Vulnerable](strive-core.md#vulnerable-2-points--2-cr) to Bleeding `+6`, [Poisoner](strive-core.md#poisoner--4-points-2-cr)
+**Traits**:
+* [Vulnerable](strive-core.md#vulnerable-2-points--2-cr) to Bleeding `+6`
+* [Poisoner](strive-core.md#poisoner--4-points-2-cr)
 
 **Assets**: Tattered Rags (Clothing), Javelin x8, Trap: Bear x3
 
@@ -2937,7 +3055,8 @@ This variant is lanky, lacking much of the bulk of its brethren. 
 | ------ | ------ | ------ | --- | ---------- | --------------- | ------ | ----------------- |
 | 5      | 3      | 1      | 30  | 4          | 3 Slashing      | 2      | 0                 |
 
-**Traits**: [Vulnerable](strive-core.md#vulnerable-2-points--2-cr) to Bleeding `+6`
+**Traits**:
+[Vulnerable](strive-core.md#vulnerable-2-points--2-cr) to Bleeding `+6`
 
 **Assets**: Tattered Rags (Clothing), Axe, Light Shield
 
@@ -3020,7 +3139,8 @@ An abominable mound of misshapen flesh, with countless ragged tentacles of vario
 | ------ | ------ | ------ | --- | ---------- | --------------- | ------ | ----------------- |
 | 4      | 1      | 5      | 200 | 5          | 5 Bludgeoning   | 1      | 0                 |
 
-**Traits**: [Climber + Sticky](strive-core.md#climber--2-points-1-cr)
+**Traits**:
+* [Climber + Sticky](strive-core.md#climber--2-points-1-cr)
 
 **Skills**: 
 * Unarmed Combat: Level `5`, Innate
@@ -3079,7 +3199,8 @@ Alps are a fairly common occurence throughout the world. How they reproduce is a
 | ------ | ------ | ------ | --- | ---------- | --------------- | ------ | ----------------- |
 | 11     | 4      | 0      | 30  | 6          | 3 Slashing      | 3      | 0                 |
 
-**Traits**: [Camouflage](./strive-core.md#camouflage--3-points-3-cr)
+**Traits**:
+* [Camouflage](./strive-core.md#camouflage--3-points-3-cr)
 
 **Assets**: Usually none, although it may still wear whatever jewelry it had in life.
 
@@ -3117,7 +3238,10 @@ Bloated shamblers are grotesque, hulking masses of bloated undead flesh. They're
 | ------ | ------ | ------ | --- | ---------- | --------------- | ------ | ----------------- |
 | 3      | 3      | 3      | 50  | 10         | 3 Bludgeoning   | 0      | 0                 |
 
-**Traits**: [Death Rattle](./strive-core.md#death-rattle--2-points-2-cr) (Explode: `2D4` Bludgeoning and Force-Moving `5` Squares, in an AoE radius of `2` Squares), [Shambler](./strive-core.md#shambler-2-points--2-cr); [Fortified Mind](./strive-core.md#fortified-mind--4-points-1-cr)
+**Traits**:
+* [Death Rattle](./strive-core.md#death-rattle--2-points-2-cr) (Explode: `2D4` Bludgeoning and Force-Moving `5` Squares, in an AoE radius of `2` Squares)
+* [Shambler](./strive-core.md#shambler-2-points--2-cr)
+* [Fortified Mind](./strive-core.md#fortified-mind--4-points-1-cr)
 
 **Assets**: None
 
@@ -3153,7 +3277,10 @@ Eight very long and thin bony legs carry the creature's weight. Their ends are s
 | ------ | ------ | ------ | --- | ---------- | --------------- | ------ | ----------------- |
 | 3      | 3      | 3      | 50  | 10         | 6 Slashing      | 3D     | 8/4/2/0 Slashing <br> 6/3/2/0 Piercing <br> 4/2/1/0 Bludgeoning <br> Poison immune <br> 4 Bleeding |
 
-**Traits**: [Death Rattle](./strive-core.md#death-rattle--2-points-2-cr) (Explode: `2D4` Bludgeoning and Force-Moving `5` Squares, in an AoE radius of `2` Squares), [Shambler](./strive-core.md#shambler-2-points--2-cr); [Fortified Mind](./strive-core.md#fortified-mind--4-points-1-cr)
+**Traits**:
+* [Death Rattle](./strive-core.md#death-rattle--2-points-2-cr) (Explode: `2D4` Bludgeoning and Force-Moving `5` Squares, in an AoE radius of `2` Squares)
+* [Shambler](./strive-core.md#shambler-2-points--2-cr)
+* [Fortified Mind](./strive-core.md#fortified-mind--4-points-1-cr)
 
 **Assets**: None
 
@@ -3189,7 +3316,9 @@ They're squat creatures, with spotted pale skin. Their pathetic stature belies t
 | ------ | ------ | ------ | --- | ---------- | --------------- | ------ | ----------------- |
 | 9      | 3      | 0      | 20  | 4          | 5 Slashing      | 2      |                   |
 
-**Traits**: [Fast](./strive-core.md#fast--2-points-1-cr); [Disease-Ridden](./strive-core.md#disease-ridden--1-point-1-cr)
+**Traits**:
+* [Fast](./strive-core.md#fast--2-points-1-cr)
+* [Disease-Ridden](./strive-core.md#disease-ridden--1-point-1-cr)
 
 **Assets**: None
 
@@ -3226,7 +3355,8 @@ A greater Undead with a limited capacity for independent thought. It retains muc
 | ------ | ------ | ------ | --- | ---------- | --------------- | ------ | ----------------- |
 | 9      | 3      | 0      | 30  | 6          | 5 Slashing      | 3D     |                   |
 
-**Traits**: [Fortified Mind](./strive-core.md#fortified-mind--4-points-1-cr)
+**Traits**:
+* [Fortified Mind](./strive-core.md#fortified-mind--4-points-1-cr)
 
 **Assets**: Potentially some rusted armor
 
@@ -3251,7 +3381,8 @@ A bone golem with long, rope-y arms made of spinal columns, lined with knife-lik
 | ------ | ------ | ------ | --- | ---------- | --------------- | ------ | ----------------- |
 | 7      | 4      | 0      | 40  | 4          | 6 Bludgeoning   | 3D     | 8/4/2/0 Slashing <br> 6/3/2/0 Piercing <br> 4/2/1/0 Bludgeoning <br> Poison immune <br> 4 Bleeding |
 
-**Traits**: [Fortified Mind](./strive-core.md#fortified-mind--4-points-1-cr)
+**Traits**:
+* [Fortified Mind](./strive-core.md#fortified-mind--4-points-1-cr)
 
 **Assets**: None
 
@@ -3288,7 +3419,9 @@ A huge flesh golem with proportions like a gorilla and a strong carapace of meta
 | ------ | ------ | ------ | --- | ---------- | --------------- | ------ | ----------------- |
 | 5      | 4      | 2      | 60  | 12         | 6 Bludgeoning   | 0      | 8/4/2/0 Slashing <br> 6/3/2/0 Piercing <br> 4/2/1/0 Bludgeoning <br> Poison immune <br> 4 Bleeding |
 
-**Traits**: [Sluggish](./strive-core.md#sluggish-4-points--2-cr); [Fortified Mind](./strive-core.md#fortified-mind--4-points-1-cr)
+**Traits**:
+* [Sluggish](./strive-core.md#sluggish-4-points--2-cr)
+* [Fortified Mind](./strive-core.md#fortified-mind--4-points-1-cr)
 
 **Assets**: None
 
@@ -3329,7 +3462,10 @@ A lesser form of undeath, Zombies are mindless walking corpses in varying stages
 | ------ | ------ | ------ | --- | ---------- | --------------- | ------ | ----------------- |
 | 3      | 2      | 0      | 30  | 6          | 3 Bludgeoning   |        | Poison immune     |
 
-**Traits**: [Shambler](./strive-core.md#shambler-2-points--2-cr); [Sluggish](./strive-core.md#sluggish-4-points--2-cr); [Fortified Mind](./strive-core.md#fortified-mind--4-points-1-cr)
+**Traits**:
+* [Shambler](./strive-core.md#shambler-2-points--2-cr)
+* [Sluggish](./strive-core.md#sluggish-4-points--2-cr)
+* [Fortified Mind](./strive-core.md#fortified-mind--4-points-1-cr)
 
 **Assets**: None
 
