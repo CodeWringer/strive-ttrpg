@@ -2074,13 +2074,15 @@ What speed exactly that is, depends heavily on circumstance. As always, the GM's
 ## Momentum
 **Momentum** is a resource that benefits PCs. It ranges from `-20` to `+20` and usually starts at `0`. As the PCs make progress in a fight, they gain Momentum and as they suffer setbacks, they lose it. It is a resource that represents the PCs superiority - or the inverse - and is expected to be constantly in flux, like in a tug-of-war. 
 
-When Momentum reaches `+20`, **Heroic Acts** become available. Inversely, when Momentum reaches `-15`, **Desperate Measures** become available. Any available Heroic Act and Desperate Measure may be enacted **the moment they become available**. 
+The Momentum mechanics can make PCs feel very heroic! They allow them to finish a fight or turn the wheel of fate around, with decisive action and careful planning. If you desire a less heroic game, you may consider not using the Momentum rules, or perhaps reducing the availability of Momentum Actions. 
+
+When Momentum reaches `+20`, **Heroic Acts** become available. Inversely, when Momentum reaches `-15`, **Desperate Measures** become available. Any available Heroic Act and Desperate Measure *may* be enacted **the moment they become available**, or at any later point in time - even during their foe's Turn. 
 
 The pairing of a Heroic Act and its counter-part, a Desperate Measure, is called a [Momentum Action](#momentum-actions). 
 
-The Momentum mechanics can make PCs feel very heroic! They allow them to finish a fight or turn the wheel of fate around, with decisive action and careful planning. If you desire a less heroic game, you may consider not using the Momentum rules, or perhaps reducing the availability of Momentum Actions. 
+When you gain or lose Momentum, only the most significant change counts! Note that it is **impossible** to gain Momentum through Heroic Acts! With Desperate Measures, it *is* possible to gain Momentum, but only once, each use. 
 
-Note that it is **impossible** to gain Momentum through Heroic Acts! With Desperate Measures, it *is* possible to gain Momentum, but only once, each use. 
+> When successfully slaying a non-feeble foe, the PCs earn `+15` Momentum - and ***not*** `1 + 3 + 15`!
 
 | Gaining Momentum <img src="../../img/momentum-shift_heroism.svg" width="48px" height="48px"></img> | Losing Momentum <img src="../../img/momentum-shift_desperation.svg" width="48px" height="48px"></img> |
 | -------------------------------------- | ----------------------------------------------------------- |
