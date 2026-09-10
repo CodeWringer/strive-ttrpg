@@ -2373,10 +2373,10 @@ This minor Demon appears to be some sort of stone-golem. Molten lava drips from 
 #### Greater Demon Of Hatred
 This major Demon is a horned hulking mass of bulging muscle and covered in eternal flame. It is bipedal, with large claws and obsidian, scaly skin.
 
-* Power: Legendary, CR: `35`
+* Power: Legendary, CR: `40`
   * Intended as a boss encounter, this creature has two phases. When its HP are depleted for the first time, it enters its second stage. In the second stage, it regains all HP, becomes enraged and starts burning up.
-  * It has mutltiple means of disregarding Turn order and can constantly dish out damage and even stop the PC's Heroic Acts. 
-* Summoning Ob: `6`, Requirements: [Swirly Malevite Orb](#malevite) or greater
+  * This legendary monster is an **end-game level threat** - unprepared PCs **will perish**. 
+* Summoning Ob: `7`, Requirements: [Swirly Malevite Orb](#malevite) or greater
 * Roles: Brawler, Disruptor, Tank
   * The Greater Demon Of Hatred is a legendary Demon. It does not yield and shows no quarter.
   * It is great at crowd control, and has several AoE damage abilities. 
@@ -2481,7 +2481,12 @@ The Demon's form vanishes in a sea of fire, which rages and roars with unbridled
   * Prevent or end a Heroic Act's effects, once every other Round. 
 
 ###### Unstoppable Hatred
-Nothing will stop the Demon's fire, and it *will* have ***revenge***. It now gets to take one Action immediately **after every foe's Turn**: movement or "Claw Strike". 
+Nothing will stop the Demon's fire, and it *will* have ***revenge***. Every time it is attacked, it builds up `+1` **Rage**. 
+* At `3` Rage, it may move freely, up to `4` Squares far, every time it is attacked, without provoking Opportunity Attacks. 
+* At `5` Rage, it heals up to `30` HP and suffers `-1` of every negative Health Condition, every time one is suffered. 
+* At `7` Rage, it may now launch a free Counter-Attack every time it is successfully attacked.
+* At `9` Rage, it may now launch a free Counter-Attack every time it is attacked, regardless of the success of the attack.
+* At `12` Rage, it may now move up to `8` Squares far, and launch a free Counter-Attack every time it is attacked, regardless of the success of the attack.
 
 #### Greater Wendigo
 This major Demon looks like a massive half-rotted and calcified, hunched bipedal Deer. Multiple pairs of red eyes and vicious claws twitch hungrily, as bony wings contrast the eerily majestic antlers.
