@@ -49,6 +49,7 @@ There is a [compendium document](./strive-fantasy-game-masters-resource.md) rese
     - [Malevite](#malevite)
       - [Malevite Side-Effects](#malevite-side-effects)
   - [Memorum](#memorum)
+  - [Magic Momentum Actions](#magic-momentum-actions)
 - [The Veil](#the-veil)
 - [Appendix](#appendix)
   - [Character Creation](#character-creation)
@@ -574,6 +575,14 @@ Trigger (`1D6`):
 A unique material, grown by a very specific family of fungus that thrives only in the deepest recesses of the world. 
 
 It has found practical use as a means of preserving the immaterial - thoughts, emotions, [Magic Echoes](#magic-echoes) and even raw knowledge. 
+
+## Magic Momentum Actions
+These magic-themed Momentum Actions complement the [Core Momentum Actions](./strive-core.md#momentum-actions). 
+
+| Heroic Act <br><img src="../../img/heroic-acts.svg" width="64px" height="64px"></img> | Heroic Act Description | Desperate Measure Description | Desperate Measure <br><img src="../../img/desperate-measures.svg" width="64px" height="64px"></img> |
+| ----------------------- | ---------------------- | ----------------------------- | --------------------------- |
+| Cool Down <br><img src="../../img/heroic-acts.svg" width="64px" height="64px"></img>| Reduces a single PC's Arcane Overheat and Slag by `4` points, each. Decreases Momentum by `-15`. | Convert up to `10` points of a single PC's current Arcane Slag into `N * 3` Burning damage to all foes around them, in a `2` Square radius. The Slag is then removed. The PC suffers `1` point of Burning damage for each removed Slag point. Increases Momentum by `+10`. | Burn Up <br><img src="../../img/desperate-measure_death-pact.svg" width="64px" height="64px"></img> |
+| Overclocked <br><img src="../../img/heroic-acts.svg" width="64px" height="64px"></img>| Until the end of Combat, your spells are `+1` SI stronger, at no additional cost. Decreases Momentum by `-25`. | Until the end of Combat, your spells are `+2` SI stronger, but every spell causes `+2` Bleeding to you. Increases Momentum by `+15`. | Overclocked Too Much <br><img src="../../img/desperate-measures.svg" width="64px" height="64px"></img> |
 
 # The Veil
 Whenever a psion uses their ability, they mentally reach out to the forces *beyond* The Veil, which causes **Veil Degradation**. When Veil Degradation becomes too great, strange and horrible things ensue. 
