@@ -1142,7 +1142,7 @@ Characters know languages that allow them to communicate. Each language a Charac
 
 > A Character with Wit `3`, who is a Native speaker, tries understand some ancient lore written in their language. They get to roll `(3 (from Wit) + 8 (from Native language grade) = 11` dice for the Test. The Ob will be chosen by the GM, based on *just how ancient and obscure* the text is, meaning, how difficult to read it is. 
 
-Languages may be learned. Treat this like a [Research Project](#research-projects), with a PI of `25`, TI of `1 day`, but instead of a Project Skill, use your [Wit](#wit-wit) to add progress. The achieved Q equals the language grade, up to a maximum of `3`. So, effectively, Q `1` results in a Dabbling, Q `2` in a Proficient and Q `3` in a Native language grade. 
+Languages may be learned. Treat this like a [Research Project](#research-projects), with a PI of `25`, TI of `1 day`, but instead of a Project Skill, use your [Wit](#wit-wit) to add progress. The achieved `Q` equals the language grade, up to a maximum of `3`. `1` results in a Dabbling, `2` in a Proficient and `3` in a Native language grade. 
 
 ### Advancement
 Through [Tests](#tests), Characters learn and improve. For every Test, `+1` [XP](#experience-points-xp) is earned. If Testing a [Skill](#skills), then *additionally*, the Advancement Progress of that Skill is incremented by `+1`. 
@@ -2978,8 +2978,9 @@ Adjacent allies can also help pat out the flames, by spending an [AP](#action-po
 For every point in the **Bleeding** Condition, a Character suffers `2` points of [Bleeding](#damage-types) damage every [Tick](#ticks). 
 
 * Graded
-* Shrug Off: `-1` point with a [Toughness](#toughness-tough) [Test](#tests) with Ob `1`. 
-* Immediate cancel: With a successful [Medicine](#medicine-agiwit) [Test](#tests), requiring `1` [medical supplies](#general-assets) with Ob `2`.
+* Shrug Off: `-2` points with a [Toughness](#toughness-tough) [Test](#tests) with Ob `1`. 
+* Automatic Shrug-Off: `-1` point at the end of the Turn. 
+* Immediate cancel: With a successful [Medicine](#medicine-agiwit) [Test](#tests), requiring `1` [Medical Supplies](#general-assets) with Ob `2`.
 
 ### Crippled
 <img src="../../img/health-condition-crippled.svg" style="width: 3rem; height: 3rem;"></img>
@@ -3002,7 +3003,7 @@ For every point in the **Dissolving** Condition, a Character suffers `2` points 
 
 * Graded
 * Automatic Shrug-Off: `-2` points at the end of the Turn. 
-* Immediate cancel: With a successful [Medicine](#medicine-agiwit) [Test](#tests), requiring `1` [medical supplies](#general-assets) with Ob `2`.
+* Immediate cancel: With a successful [Medicine](#medicine-agiwit) [Test](#tests), requiring `1` [Medical Supplies](#general-assets) with Ob `2`.
 
 ### Drug-Addicted
 <img src="../../img/health-condition-drug-addicted.svg" style="width: 3rem; height: 3rem;"></img>
@@ -3035,7 +3036,7 @@ This Condition can be recovered from by clearing [negative Stamina](#stamina--st
 For every point in **Frostbitten**, a Character suffers `-1D` to all [Tests](#tests). 
 
 * Graded
-* Automatic Shrug-Off: `-2` points at the end of the Turn. 
+* Automatic Shrug-Off: `-1` point at the end of the Turn. 
 * Immediate cancel: When thawed, for example through [Burning](#burning).
 
 ### Grappled
@@ -3083,7 +3084,7 @@ A Character who is **Pacified**, is unable to *willingly* take any action that w
 A **Poisoned** Character suffers `2` points of [Poison](#damage-types) damage every [Tick](#ticks). 
 
 * Graded
-* Shrug Off: `-1` point with a [Toughness](#toughness-tough) [Test](#tests) with Ob `1`. 
+* Shrug Off: `-2` points with a [Toughness](#toughness-tough) [Test](#tests) with Ob `1`. 
 * Immediate cancel: With an [Antidote](#general-assets). 
 
 ### Prone
@@ -3344,7 +3345,7 @@ Be mindful *where* in the world you give them such a resource, because that is w
 #### Limit & Threaten Resources
 Assets exist to create mechanical challenges. Limit the PC's access to the resources they tend to hoard and dangle the proverbial carrot in front of them to motivate them through greed. 
 
-Although your players could also be clever and find narrative solutions to their lack of *item vaccuuming*. If they can afford one or two carriages with the horses and drivers, perhaps even guards, they should be allowed to transport a lot more stuff around. Within the confines of their solution, of course. Those wagons full of ammunition, medical supplies and spare daggers will have to stay outside the cave/dungeon/ruin/etc. - unless your players can find a solution for that, too. 
+Although your players could also be clever and find narrative solutions to their lack of *item vaccuuming*. If they can afford one or two carriages with the horses and drivers, perhaps even guards, they should be allowed to transport a lot more stuff around. Within the confines of their solution, of course. Those wagons full of ammunition, Medical Supplies and spare daggers will have to stay outside the cave/dungeon/ruin/etc. - unless your players can find a solution for that, too. 
 
 Possessions in the form of coin and steel are not the only type of resource you can give your PCs. Keep in mind that servants, hirelings, close friends and family are *also a resource*. PCs can refer to them, when they have need of information, coin or political support. 
 
