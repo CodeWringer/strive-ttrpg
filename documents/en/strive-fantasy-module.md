@@ -30,7 +30,6 @@ There is a [compendium document](./strive-fantasy-game-masters-resource.md) rese
   - [Arcane Overheat \& Slag](#arcane-overheat--slag)
   - [Rituals](#rituals)
   - [Spell-Backfire](#spell-backfire)
-  - [Concentration Spells](#concentration-spells)
   - [Magic Negation](#magic-negation)
   - [Protection From Magic](#protection-from-magic)
   - [Magic Echoes](#magic-echoes)
@@ -243,7 +242,6 @@ There is a [compendium document](./strive-fantasy-game-masters-resource.md) rese
 | [Broiling Arcane Overheat](#arcane-overheat--slag)          | The third Arcane Overheat threshold, which is *perilous*. |
 | [Cerebillium](#cerebillium)                                 | A material that can *think*. Commonly used as the brains of golems and other such constructs. |
 | [Cold Arcane Overheat](#arcane-overheat--slag)              | The first Arcane Overheat threshold, which is *mostly safe*. |
-| [Concentration Spell](#concentration-spells)                | A Spell that is active as long as the mage desires, or can manage to keep their Concentration for. |
 | [Consuming Arcane Overheat](#arcane-overheat--slag)         | The fourth and final Arcane Overheat threshold, which is *mortally perilous*. |
 | [Magic Echo](#magic-echoes)                                 | The residual disturbance of the Arcanosphere after the use of a Spell. |
 | [Magic Negation](#magic-negation)                           | The ability to negate another mage's Spell. |
@@ -364,7 +362,7 @@ While most magic may be cast instantaneously, some requires special preparation 
 
 Some Rituals may require a minimum number of mages to take part, if it is to stand any chance of succeeding, while others may impose a limit of how many may join. Every mage that joins in the Ritual is considered a **Ritualist**, and for each of them, the Ritual's SI automatically increases by `+1`, at no additional cost. However, for Rituals with a minimum number of Ritualists, the SI increase only starts with the next Ritualist after the minimum. Every Ritual has a head Ritualist through whom the magic ultimately flows. They're the one in control of the Ritual's magic. 
 
-All Ritual magic is stationary and must be performed uninterrupted for a certain time in order to succeed. Once the Ritual's time is up, a Test is required, to unleash its magic. If the Test is failed, the Ritual's magic still works, but may be weaker or have **side-effects**. If any Ritualist's [Concentration](#concentration-spells) is broken, the Ritual fails and **Backfires** catastrophically!
+All Ritual magic is stationary and must be performed uninterrupted for a certain time in order to succeed. Once the Ritual's time is up, a Test is required, to unleash its magic. If the Test is failed, the Ritual's magic still works, but may be weaker or have **side-effects**. If any Ritualist's [Concentration](./strive-core.md#concentration) is broken, the Ritual fails and **Backfires** catastrophically!
 
 When starting the Ritual, the SI you choose dictates how many time increments it will take. 
 
@@ -381,15 +379,8 @@ It is possible for another nearby mage to prevent the Spell-Backfire, if they [n
 
 A Spell-Backfire may occur when a mage suffers from [Arcane Overheat](#arcane-overheat--slag). 
 
-## Concentration Spells
-Some magic can be upheld for as long as the casting mage **Concentrates** on their spell. Such spells will be marked with **"Concentration"**. The effects of a Concentration spell last for as long as the mage *chooses* or *manages* to keep their Concentration. They need to Test for the spell only *once*, when they first cast it. 
-
-Under normal circumstances, a mage can only upkeep only **one** Concentration spell at a time. 
-
-Concentration can be broken! Either automatically, if the mage is incapacitated, or when the mage is Attacked, they must succeed a [Self-Control](./strive-core.md#self-control-toughwit) Test at Ob `3`. If Concentration is broken, the spell ends. 
-
 ## Magic Negation
-It is possible to negate Magic entirely, by absorbing it, causing the absorbing mage to suffer the Magic's [Arcane Slag & Overheat](#arcane-overheat--slag), as if it was `+1` [SI](#spell-intensity-si) *and* they suffer `1D6` points of Pure damage. No test is rolled. 
+It is possible to negate a Spell entirely, by absorbing it. The absorbing mage suffers the Spell's [Arcane Slag & Overheat](#arcane-overheat--slag), as if it was `+1` [SI](#spell-intensity-si) *and* they suffer Pure damage equal to the actual `SI * 2` (meaning, without the `+1` modification of the SI). No Test is made. 
 
 Another mage's [Spell-Backfire](#spell-backfire) can be negated in the same way.
 
@@ -580,10 +571,14 @@ It has found practical use as a means of preserving the immaterial - thoughts, e
 ## Magic Momentum Actions
 These magic-themed Momentum Actions complement the [Core Momentum Actions](./strive-core.md#momentum-actions). 
 
-| Heroic Act <br><img src="../../img/heroic-acts.svg" width="64px" height="64px"></img> | Heroic Act Description | Desperate Measure Description | Desperate Measure <br><img src="../../img/desperate-measures.svg" width="64px" height="64px"></img> |
-| ----------------------- | ---------------------- | ----------------------------- | --------------------------- |
-| Cool Down <br><img src="../../img/heroic-acts.svg" width="64px" height="64px"></img>| Reduces a single PC's Arcane Overheat and Slag by `4` points, each. Decreases Momentum by `-15`. | Convert up to `10` points of a single PC's current Arcane Slag into `N * 3` Burning damage to all foes around them, in a `2` Square radius. The Slag is then removed. The PC suffers `1` point of Burning damage for each removed Slag point. Increases Momentum by `+10`. | Burn Up <br><img src="../../img/desperate-measure_death-pact.svg" width="64px" height="64px"></img> |
-| Overclocked <br><img src="../../img/heroic-acts.svg" width="64px" height="64px"></img>| Until the end of Combat, your spells are `+1` SI stronger, at no additional cost. Decreases Momentum by `-25`. | Until the end of Combat, your spells are `+2` SI stronger, but every spell causes `+2` Bleeding to you. Increases Momentum by `+15`. | Overclocked Too Much <br><img src="../../img/desperate-measures.svg" width="64px" height="64px"></img> |
+| Heroic Act <br><img src="../../img/heroic-acts.svg" width="64px" height="64px"></img> | Heroic Act Momentum Shift | Heroic Act Description | Desperate Measure Description | Desperate Measure Momentum Shift | Desperate Measure <br><img src="../../img/desperate-measures.svg" width="64px" height="64px"></img> |
+| ------------------------------------------------------------------------------------- | ------------------------- | ---------------------- | ----------------------------- | -------------------------------- | --------------------------------------------------------------------------------------------------- |
+| Cool Down <br><img src="../../img/heroic-acts.svg" width="64px" height="64px"></img> | `-15` | Reduces a single PC's Arcane Overheat and Slag by `4` points, each. | Convert up to `10` points of a single PC's current Arcane Slag into `N * 3` Burning damage to all foes around them, in a `2` Square radius. The Slag is then removed. The PC suffers `1` point of Burning damage for each removed Slag point. | `+15` | Sizzling Eruption <br><img src="../../img/desperate-measures.svg" width="64px" height="64px"></img> |
+| Tempered Arcane Overdrive <br><img src="../../img/heroic-acts.svg" width="64px" height="64px"></img> | `-30` | A single PC mage's spells are `+2` SI stronger, and generate no Arcane Slag, for `2` Rounds! | A single PC mage's spells are `+3` SI stronger, and generate neither Arcane Overheat nor Slag, for `2` Rounds! However, after those Rounds have passed, the mage always suffers `1D10 + 3` Arcane Slag (Combat ending early **doesn't** prevent this)! | `+30` | Strained Arcane Overdrive <br><img src="../../img/desperate-measures.svg" width="64px" height="64px"></img> |
+| Spellbreaker <br><img src="../../img/heroic-acts.svg" width="64px" height="64px"></img> | `-20` | A chosen single PC mage may now [Negate Spells](#magic-negation) cast within `10` Squares of them without suffering any Arcane Slag or Overheat, for `3` Rounds! Note the mage *does* still suffer the damage. | All Spells cast within `10` Squares of a chosen single PC **must** now always target that PC. Positive Spells gain `+1` SI, while negative Spells lose `-1` SI. This effect lasts `3` Rounds. | `+15` | Arcane Lightning Rod <br><img src="../../img/desperate-measures.svg" width="64px" height="64px"></img> |
+| Heat Reflector <br><img src="../../img/heroic-acts.svg" width="64px" height="64px"></img> | `-15` | Until the end of Combat, whenever a foe inflicts Arcane Overheat or Arcane Slag on a chosen single PC, reflect half (RU) of it to the foe. | Until the end of Combat, whenever a foe inflicts Arcane Overheat or Arcane Slag on a chosen single PC, they suffer `+1` of each, but then double the amount of Arcane Slag and Overheat is also dealt to the foe. | `+20` | Arcane Reprisal <br><img src="../../img/desperate-measures.svg" width="64px" height="64px"></img> |
+| Perfect Spell <br><img src="../../img/heroic-acts.svg" width="64px" height="64px"></img> | `-25` | A single chosen PC mage's next Spell automatically succeeds and cannot [Backfire](#spell-backfire)! However, they do still suffer Arcane Slag and Overheat from it. | For `1` Round, a single chosen enemy mage's Spells may additionally [Backfire](#spell-backfire), regardless of their Test result. Roll `1D6`: on a Miss, a Backfire occurs, on a Hit, no Backfire occurs. Not these Backfires are additional effects, that trigger *after* the Spell's normal resolution. Yes, this may in fact also result in a double Backfire! | `+30` | Negative Feedback <br><img src="../../img/desperate-measures.svg" width="64px" height="64px"></img> |
+| Backfire Dodger <br><img src="../../img/heroic-acts.svg" width="64px" height="64px"></img> | `-15` | The current or next Spell-Backfire of a chosen PC mage is re-directed onto a willing ally, who suffers it at `-1` SI (reduced to no less than `1` SI). | The current or next Spell-Backfire of a chosen PC mage is duplicated onto a chosen enemy, who also suffers it, and at `+1` SI. | `+20` | You Should See The Other Guy <br><img src="../../img/desperate-measures.svg" width="64px" height="64px"></img> |
 
 # The Veil
 Whenever a psion uses their ability, they mentally reach out to the forces *beyond* The Veil, which causes **Veil Degradation**. When Veil Degradation becomes too great, strange and horrible things ensue. 
@@ -1316,7 +1311,7 @@ The summoning and control of ice. Cryomancer's can freeze things, so they're hea
 ### Demonology (Arc/Wit)
 The study, summoning and control of [Demons](#demons) - as far as they *can* be controlled. 
 
-At level `3`, your [Concentration](#concentration-spells) limit increases by `+1`!
+At level `3`, your [Concentration](./strive-core.md#concentration) limit increases by `+1`!
 
 | Level | Name                  | AP | Distance      | Ob                           | Effect(s)                      | Backfire Effect(s) |
 | ----- | --------------------- | -- | ------------- | ---------------------------- | ------------------------------ | ------------------ |
@@ -1566,7 +1561,7 @@ Obvious jokes aside, your breath can deal some tangible damage. `1D8 + 2` of eit
 When in the [Consuming Arcane Overheat](#arcane-overheat--slag) threshold, suffer `-5` points of damage (minimum `0`) from it.
 
 ### Hyperattentive
-Can [Concentrate](#concentration-spells) on `+1` spell.
+Can [Concentrate](./strive-core.md#concentration) on `+1` spell.
 
 ### Radiator
 Whenever your Arcane Slag is reduced, it is reduced by `+1` more.
