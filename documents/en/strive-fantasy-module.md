@@ -155,6 +155,9 @@ There is a [compendium document](./strive-fantasy-game-masters-resource.md) rese
     - [The Tired Monster Hunter](#the-tired-monster-hunter)
     - [The Warboss](#the-warboss)
 - [Fantasy Game-Masters Resource](#fantasy-game-masters-resource)
+- [NPC Builder](#npc-builder)
+  - [Legendary Actions](#legendary-actions)
+    - [The Ritual Must Complete! (-4 Points; +4 CR)](#the-ritual-must-complete--4-points-4-cr)
 - [Creature Compendium](#creature-compendium)
   - [Cursed](#cursed)
     - [Werewolf](#werewolf)
@@ -360,13 +363,11 @@ Arcane Slag *can* affect non-mages, too! That implies they can also suffer Arcan
 ## Rituals
 While most magic may be cast instantaneously, some requires special preparation and an investment of time. Such Ritual magic is often particularly powerful and requires uninterrupted focus to succeed. 
 
-Some Rituals may require a minimum number of mages to take part, if it is to stand any chance of succeeding, while others may impose a limit of how many may join. Every mage that joins in the Ritual is considered a **Ritualist**, and for each of them, the Ritual's SI automatically increases by `+1`, at no additional cost. However, for Rituals with a minimum number of Ritualists, the SI increase only starts with the next Ritualist after the minimum. Every Ritual has a head Ritualist through whom the magic ultimately flows. They're the one in control of the Ritual's magic. 
+Some Rituals may require a minimum number of mages to take part, if it is to stand any chance of succeeding, while others may impose a limit of how many may join. Every mage that joins in the Ritual is considered a **Ritualist**, and for each of them, the Ritual's SI automatically increases by `+1`, at the cost of `+1` Arcane Slag every Time Increment. For Rituals with a minimum number of Ritualists, the SI increase only starts with the next Ritualist after the minimum. Every Ritual has a head Ritualist through whom the magic ultimately flows. They're the one in control of the Ritual's magic. 
 
-All Ritual magic is stationary and must be performed uninterrupted for a certain time in order to succeed. Once the Ritual's time is up, a Test is required, to unleash its magic. If the Test is failed, the Ritual's magic still works, but may be weaker or have **side-effects**. If any Ritualist's [Concentration](./strive-core.md#concentration) is broken, the Ritual fails and **Backfires** catastrophically!
+All Ritual magic is stationary and must be performed **uninterrupted** for a certain time in order to succeed. When starting the Ritual, the SI you choose dictates how many **Time Increments** it will take. For every Time Increment that passes, up to and including the moment of Ritual completion, every Ritualist suffers **one third** (RU) Arcane Slag, based on the originally chosen SI. 
 
-When starting the Ritual, the SI you choose dictates how many time increments it will take. 
-
-Once a Ritual is fulfilled, its magic is released and all Ritualists who partook in the Ritual suffer [Arcane Slag and Overheat](#arcane-overheat--slag), same as for normal magic use.
+Once the Ritual's time is up, a **Test** is required, to unleash its magic. If the Test is failed, the Ritual's magic still works, but may be weaker or have **side-effects**. If *any* Ritualist's [Concentration](./strive-core.md#concentration) is broken, the Ritual automatically fails and **Backfires** catastrophically! 
 
 Rituals may be strengthened by [Abyssalite](#abyssalite) and [Malevite Orbs](#malevite), or even require these things to work, at all. Whether a Ritual requires arcane symbols drawn onto a surface or some other medium, is up to the GM and their world. 
 
@@ -1774,6 +1775,15 @@ Assets:
 
 # Fantasy Game-Masters Resource
 This and the following sections are reserved solely for the GM's eyes. Reading on as a player may spoil many surprises and the fun of discovery for you. 
+
+# NPC Builder
+Fantasy-themed additions to your options in the Core [NPC Builder](./strive-core.md#npc-builder). 
+
+## Legendary Actions
+You may choose any number from the following Fantasy-themed [Legendary Actions](#legendary-actions) to bolster a NPC's capabilities. Keep the number as low as possible, to prevent a creature too powerful or tedious to beat and less tiresome for you to manage. 
+
+### The Ritual Must Complete! (-4 Points; +4 CR)
+Up to `2` times a day, when your current [Ritual](#rituals) *would* be interrupted, it instead continues and can no longer be interrupted until the end of the Round. 
 
 # Creature Compendium
 A by no means exhaustive list of medieval-fantasy themed creatures for the GM to draw from. 

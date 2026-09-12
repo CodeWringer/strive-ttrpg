@@ -516,7 +516,7 @@ By using STRIVE (that includes but is not limited to viewing, reading, referenci
   - [General Legendary Actions](#general-legendary-actions)
     - [Ignore Damage (-8 Points; +8 CR)](#ignore-damage--8-points-8-cr)
     - [Shrug It All Off (-3 Points; +3 CR)](#shrug-it-all-off--3-points-3-cr)
-    - [Action Surge (-4 Points; +4 CR)](#action-surge--4-points-4-cr)
+    - [Action Surge (-5 Points; +6 CR)](#action-surge--5-points-6-cr)
     - [Stop Heroism (-10 Points; +8 CR)](#stop-heroism--10-points-8-cr)
 - [Combat Encounter Builder](#combat-encounter-builder)
 
@@ -3937,7 +3937,7 @@ Ignore an instance of damage, up to `2` times per Round.
 ### Shrug It All Off (-3 Points; +3 CR)
 Remove all Health Conditions, once a day. 
 
-### Action Surge (-4 Points; +4 CR)
+### Action Surge (-5 Points; +6 CR)
 Gain `5` AP, once a day. 
 
 ### Stop Heroism (-10 Points; +8 CR)
