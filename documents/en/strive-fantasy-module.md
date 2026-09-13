@@ -10,7 +10,7 @@ This Module is best suited for a medium fantasy setting. It introduces magic, wh
 The Module introduces:
 * The [Arcana](#arcana-arc) Attribute.
 * [Magic](#magic) rules.
-* Medieval/fantasy themed [Armors](#armor), [Shields](#shield-types), [General Assets](#general-assets), [Weapons](#weapon-types) and [Skills](#lists-of-skills).
+* Medieval/fantasy themed [Armors](#armor), [Shields](#shield-types), [General Assets](#general-assets), [Weapons](#weapon-families) and [Skills](#lists-of-skills).
 
 There is a [compendium document](./strive-fantasy-game-masters-resource.md) reserved solely for the GM, containing additional resources for them to draw from.
 
@@ -69,8 +69,7 @@ There is a [compendium document](./strive-fantasy-game-masters-resource.md) rese
       - [Light Shield](#light-shield)
       - [Medium Shield](#medium-shield)
       - [Heavy Shield](#heavy-shield)
-    - [Weapon Types](#weapon-types)
-      - [Weapon Traits](#weapon-traits)
+    - [Weapon Families](#weapon-families)
       - [Axe](#axe)
       - [Chained Blade](#chained-blade)
       - [Crusher](#crusher)
@@ -81,6 +80,8 @@ There is a [compendium document](./strive-fantasy-game-masters-resource.md) rese
       - [Longbow](#longbow)
       - [Crossbow](#crossbow)
       - [Firearm](#firearm)
+    - [Weapon Traits](#weapon-traits)
+      - [Ambersteel-Forged](#ambersteel-forged)
   - [Lists of Skills](#lists-of-skills)
     - [Physical Skills](#physical-skills)
       - [Rune-Using (Agi/Wit)](#rune-using-agiwit)
@@ -754,8 +755,8 @@ A small round or oblong shield commonly held as far from the body as possible, t
 
 | Unthreatened           | Flanked           | Surrounded           | Overwhelmed           |
 | ---------------------- | ----------------- | -------------------- | --------------------- |
-| `+1` [Compensation Point](./strive-core.md#compensation-points) for melee Defense. | `+1D` for melee Defense. | / | / |
-| `+2` [Compensation Points](./strive-core.md#compensation-points) for melee Defense against Piercing Attacks. | `+2D` for melee Defense against Piercing Attacks. | `+1D` for melee Defense against Piercing Attacks. | / |
+| `+1` [Die Fudge](./strive-core.md#die-fudges) for melee Defense. | `+1D` for melee Defense. | / | / |
+| `+2` [Die Fudges](./strive-core.md#die-fudges) for melee Defense against Piercing Attacks. | `+2D` for melee Defense against Piercing Attacks. | `+1D` for melee Defense against Piercing Attacks. | / |
 | `-1D` for ranged Defense. | `-2D` for ranged Defense. | `-2D` for ranged Defense. | `-2D` for ranged Defense. |
 
 #### Medium Shield
@@ -768,7 +769,7 @@ A medium-sized, round or kite-shaped shield made from tough wood and leather or 
 
 | Unthreatened           | Flanked           | Surrounded           | Overwhelmed           |
 | ---------------------- | ----------------- | -------------------- | --------------------- |
-| `+1` [Compensation Point](./strive-core.md#compensation-points) for any Defense. | `+1D` for any Defense. | / | `-1D` for any Defense. |
+| `+1` [Die Fudge](./strive-core.md#die-fudges) for any Defense. | `+1D` for any Defense. | / | `-1D` for any Defense. |
 
 #### Heavy Shield
 A large, kite-shaped or rectangular shield, which can protect every part of the fighter, from the shoulder down to the feet. Its weight is very tiring. 
@@ -780,15 +781,10 @@ A large, kite-shaped or rectangular shield, which can protect every part of the 
 
 | Unthreatened           | Flanked           | Surrounded           | Overwhelmed           |
 | ---------------------- | ----------------- | -------------------- | --------------------- |
-| `+2` [Compensation Points](./strive-core.md#compensation-points) for any Defense. | `+1` [Compensation Point](./strive-core.md#compensation-points) for any Defense. | `+1D` for any Defense. | / |
+| `+2` [Die Fudges](./strive-core.md#die-fudges) for any Defense. | `+1` [Die Fudge](./strive-core.md#die-fudges) for any Defense. | `+1D` for any Defense. | / |
 
-### Weapon Types
-Following are fantasy-themed weapon types. 
-
-#### Weapon Traits
-Weapons can have the following **Weapon Traits** (see also the [Core Weapon Traits](./strive-core.md#weapon-traits)):
-
-* **Ambersteel**: Bonus `+(Q * 2)` Pure Damage against mages and magical creatures. 
+### Weapon Families
+Following are fantasy-themed [Weapon-Families](./strive-core.md#weapon-family). These are broad abstractions for that kind of weapon. For example "Axe" makes no distinction between a hatchet or a huge double-bladed axe. 
 
 #### Axe
 One and two-handed axes. See also its corresponding [Skill](#weapon-axe-strstr).
@@ -819,38 +815,44 @@ Any short and/or light blade, such as daggers and one-handed swords. See also it
 #### Long Blade
 Any long and heavier blade, such as longswords and great-swords. See also its corresponding [Skill](#weapon-long-blade-agistr).
 
-* [Melee](./strive-core.md#melee), [Long Reach](./strive-core.md#weapon-traits)
+* [Melee](./strive-core.md#melee), [Long Reach](./strive-core.md#general-weapon-traits)
 * Bulk: `3`, PI: `20`, TI: `1 Hour`
 
 #### Polearm
 Polearms and spears. Examples: boar-spear, halberd, bardiche, poleaxe. See also its corresponding [Skill](#weapon-polearm-strtough).
 
-* [Melee](./strive-core.md#melee), [Long Reach](./strive-core.md#weapon-traits), [Prefer Range](./strive-core.md#weapon-traits)
+* [Melee](./strive-core.md#melee), [Long Reach](./strive-core.md#general-weapon-traits), [Prefer Range](./strive-core.md#general-weapon-traits)
 * Bulk: `4`, PI: `20`, TI: `1 Hour`
 
 #### Short-Bow
 A short distance ranged weapon, shooting arrows. See also its corresponding [Skill](#weapon-short-bow-agiawar).
 
-* [Ranged (10 DI)](./strive-core.md#ranged), [Range Only](./strive-core.md#weapon-traits)
+* [Ranged (10 DI)](./strive-core.md#ranged), [Range Only](./strive-core.md#general-weapon-traits)
 * Bulk: `1`, PI: `15`, TI: `1 Hour`
 
 #### Longbow
 A long distance ranged weapon, shooting arrows. See also its corresponding [Skill](#weapon-longbow-awarstr).
 
-* [Ranged (20 DI)](./strive-core.md#ranged), [Range Only](./strive-core.md#weapon-traits)
+* [Ranged (20 DI)](./strive-core.md#ranged), [Range Only](./strive-core.md#general-weapon-traits)
 * Bulk: `2`, PI: `20`, TI: `1 Hour`
 
 #### Crossbow
 A deadly medium distance ranged weapon, shooting bolts. Beware its slow reload. See also its corresponding [Skill](#weapon-crossbow-awarawar).
 
-* [Ranged (15 DI)](./strive-core.md#ranged), [Prefer Range](./strive-core.md#weapon-traits), [Slow Reload](./strive-core.md#weapon-traits)
+* [Ranged (15 DI)](./strive-core.md#ranged), [Prefer Range](./strive-core.md#general-weapon-traits), [Slow Reload](./strive-core.md#general-weapon-traits)
 * Bulk: `2`, PI: `25`, TI: `1 Hour`
 
 #### Firearm
 A very deadly short to medium distance ranged weapon, shooting small metal balls that are partially able to penetrate armor. Beware its slow reload. See also its corresponding [Skill](#weapon-firearm-awartough).
 
-* [Ranged (10 DI)](./strive-core.md#ranged), [Prefer Range](./strive-core.md#weapon-traits), [Very Slow Reload](./strive-core.md#weapon-traits)
+* [Ranged (10 DI)](./strive-core.md#ranged), [Prefer Range](./strive-core.md#general-weapon-traits), [Very Slow Reload](./strive-core.md#general-weapon-traits)
 * Bulk: `3`, PI: `30`, TI: `1 Hour`
+
+### Weapon Traits
+Fantasy-themed [Weapon Traits](./strive-core.md#weapon-traits).
+
+#### Ambersteel-Forged
+Attacks deal an additional `Q * 2` Pure Damage against mages and magical creatures. 
 
 ## Lists of Skills
 The following list does not and cannot aim to be a complete listing of all possible Skills in game. Adding new Skills as necessary will have to be done by the GM. 
@@ -875,7 +877,7 @@ Traits: [Melee](./strive-core.md#melee), [FS](./strive-core.md#free-strike-fs): 
 
 | Level | Name                 | AP | Ob          | Description <br> Damage                   |
 | ----- | -------------------- | -- | ----------- | ----------------------------------------- |
-| 0     | Hack                 | 2  | Opposed     | Strike a ST. <br> `≤ 1` Hit: `4` Slashing + `2` Bludgeoning <br> `= 2` Hits: `5` Slashing + `3` Bludgeoning <br> `≥ 3` Hits:  `6` Slashing + `2 + Str` Bludgeoning |
+| 0     | Hack                 | 2  | Opposed     | Strike a ST. <br> `≤ 1` Hit: `4` Slashing + `2` Bludgeoning <br> `= 2` Hits: `5` Slashing + `3` Bludgeoning <br> `≥ 3` Hits: `6` Slashing + `2 + Str` Bludgeoning |
 | 0     | Savage Slash         | 2  | Opposed + 1 | Strike a ST. <br> `≤ 1` Hit: `3` Slashing; `+1` [Bleeding](./strive-core.md#bleeding) to the target (if it can bleed) <br> `= 2` Hits: `3` Slashing; `+2` [Bleeding](./strive-core.md#bleeding) to the target (if it can bleed) <br> `≥ 3` Hits:  `4` Slashing; `+3` [Bleeding](./strive-core.md#bleeding) to the target (if it can bleed) |
 | 2     | Cleave               | 3  | 2           | Attack up to `3` targets at once, in a `2` Square AoE cone in front of you. <br> `≤ 1` Hit: `4` Slashing <br> `= 2` Hits: `5` Slashing <br> `≥ 3` Hits:  `6` Slashing |
 
@@ -895,7 +897,7 @@ Traits: [Melee](./strive-core.md#melee), [FS](./strive-core.md#free-strike-fs): 
 #### Weapon \<Long Blade\> (Agi/Str)
 Skill for any [Long Blade](#long-blade) type weapons, such as longswords and great-swords. Versatile and powerful with an emphasis on Slashing Damage. 
 
-Traits: [Melee](./strive-core.md#melee), [Long Reach](./strive-core.md#weapon-traits), [FS](./strive-core.md#free-strike-fs): `3` Slashing
+Traits: [Melee](./strive-core.md#melee), [Long Reach](./strive-core.md#general-weapon-traits), [FS](./strive-core.md#free-strike-fs): `3` Slashing
 
 | Level | Name                 | AP | Ob          | Description <br> Damage                   |
 | ----- | -------------------- | -- | ----------- | ----------------------------------------- |
@@ -908,7 +910,7 @@ Traits: [Melee](./strive-core.md#melee), [Long Reach](./strive-core.md#weapon-tr
 #### Weapon \<Chained Blade\> (Agi/Agi)
 Skill for [Chained Blade](#chained-blade) type weapons, an exotic and fantastical weapon type that uses an angled blade at the end of a light chain. A very versatile weapon that can move yourself and foes around and support an ally's Attacks. 
 
-Traits: [Melee](./strive-core.md#melee), [Ranged (max. `8`)](./strive-core.md#ranged), [Prefer Range](./strive-core.md#weapon-traits), [FS](./strive-core.md#free-strike-fs): `4` Slashing
+Traits: [Melee](./strive-core.md#melee), [Ranged (max. `8`)](./strive-core.md#ranged), [Prefer Range](./strive-core.md#general-weapon-traits), [FS](./strive-core.md#free-strike-fs): `4` Slashing
 
 | Level | Name                 | AP | Ob          | Description <br> Damage                   |
 | ----- | -------------------- | -- | ----------- | ----------------------------------------- |
@@ -931,20 +933,20 @@ Traits: [Melee](./strive-core.md#melee), [FS](./strive-core.md#free-strike-fs): 
 #### Weapon \<Polearm\> (Str/Tough)
 Skill for [Polearm](#polearm) type weapons, like halberds, voulges, bardiches and pollaxes. An ideal support weapon, that can be used from the back-row. 
 
-Traits: [Melee](./strive-core.md#melee), [Long Reach](./strive-core.md#weapon-traits), [Prefer Range](./strive-core.md#weapon-traits), [FS](./strive-core.md#free-strike-fs): `3` Piercing
+Traits: [Melee](./strive-core.md#melee), [Long Reach](./strive-core.md#general-weapon-traits), [Prefer Range](./strive-core.md#general-weapon-traits), [FS](./strive-core.md#free-strike-fs): `3` Piercing
 
 | Level | Name                 | AP | Ob          | Description <br> Damage                   |
 | ----- | -------------------- | -- | ----------- | ----------------------------------------- |
 | 0     | Slash                | 2  | Opposed     | Strike a ST. <br> `≤ 1` Hit: `4` Slashing <br> `= 2` Hits: `5` Slashing <br> `≥ 3` Hits: `6` Slashing |
 | 0     | Stab                 | 2  | Opposed     | Strike a ST. <br> `≤ 1` Hit: `6` Piercing <br> `= 2` Hits: `7` Piercing <br> `≥ 3` Hits: `8` Piercing |
 | 2     | Blade Barrier        | 3  |             | Until the start of your next Turn, whenever any Character moves **into** a spot within reach, can **freely** Attack that Character with a **Stab** at Ob `+1` and if successful, force them back `1` Square. |
-| 2     | Breakthrough         | 3  | Opposed     | Charge at a ST, up to `4` Squares away. <br> `≤ 1` Hit: `4` Piercing; Knock-back `1` Square <br> `= 2` Hits: `4` Piercing; Knock-back `2` Squares <br> `≥ 3` Hits:  `5` Piercing; Knock-back `3` Squares |
+| 2     | Breakthrough         | 3  | Opposed     | Charge at a ST, up to `4` Squares away. <br> `≤ 1` Hit: `4` Piercing; Knock-Back `1` Square <br> `= 2` Hits: `4` Piercing; Knock-Back `2` Squares <br> `≥ 3` Hits:  `5` Piercing; Knock-Back `3` Squares |
 | 2     | Cleave               | 3  | 2           | Attack up to `4` targets at once, in a `3` Square AoE cone in front of you. <br> `≤ 1` Hit: `3` Slashing <br> `= 2` Hits: `4` Slashing <br> `≥ 3` Hits:  `5` Slashing |
 
 #### Weapon \<Short-Bow\> (Agi/Awar)
 Skill for [Short-Bow](#short-bow) type weapons. Versatile, but light on Damage. 
 
-Traits: [Ranged (10 DI)](./strive-core.md#ranged), [Range Only](./strive-core.md#weapon-traits), [FS](./strive-core.md#free-strike-fs): `3` Piercing
+Traits: [Ranged (10 DI)](./strive-core.md#ranged), [Range Only](./strive-core.md#general-weapon-traits), [FS](./strive-core.md#free-strike-fs): `3` Piercing
 
 | Level | Name                 | AP | Ob          | Description <br> Damage                   |
 | ----- | -------------------- | -- | ----------- | ----------------------------------------- |
@@ -955,7 +957,7 @@ Traits: [Ranged (10 DI)](./strive-core.md#ranged), [Range Only](./strive-core.md
 #### Weapon \<Longbow\> (Awar/Str)
 Skill for [Longbow](#longbow) type weapons. Great Damage, but no utility. 
 
-Traits: [Ranged (20 DI)](./strive-core.md#ranged), [Range Only](./strive-core.md#weapon-traits), [FS](./strive-core.md#free-strike-fs): `4` Piercing
+Traits: [Ranged (20 DI)](./strive-core.md#ranged), [Range Only](./strive-core.md#general-weapon-traits), [FS](./strive-core.md#free-strike-fs): `4` Piercing
 
 | Level | Name                 | AP | Ob          | Description <br> Damage                   |
 | ----- | -------------------- | -- | ----------- | ----------------------------------------- |
@@ -965,7 +967,7 @@ Traits: [Ranged (20 DI)](./strive-core.md#ranged), [Range Only](./strive-core.md
 #### Weapon \<Crossbow\> (Awar/Awar)
 Skill for [Crossbow](#crossbow) type weapons. Deadly, but slow to reload and without any utility. 
 
-Traits: [Ranged (15 DI)](./strive-core.md#ranged), [Prefer Range](./strive-core.md#weapon-traits), [Slow Reload](./strive-core.md#weapon-traits), [FS](./strive-core.md#free-strike-fs): `5` Piercing
+Traits: [Ranged (15 DI)](./strive-core.md#ranged), [Prefer Range](./strive-core.md#general-weapon-traits), [Slow Reload](./strive-core.md#general-weapon-traits), [FS](./strive-core.md#free-strike-fs): `5` Piercing
 
 | Level | Name                 | AP | Ob          | Description <br> Damage                   |
 | ----- | -------------------- | -- | ----------- | ----------------------------------------- |
@@ -974,7 +976,7 @@ Traits: [Ranged (15 DI)](./strive-core.md#ranged), [Prefer Range](./strive-core.
 #### Weapon \<Firearm\> (Awar/Tough)
 Skill for [Firearm](#firearm) type weapons. It takes great discipline to not flinch at the sparks and smoke upon ignition. Very deadly, but also very slow to reload and without any utility. 
 
-Traits: [Ranged (10 DI)](./strive-core.md#ranged), [Prefer Range](./strive-core.md#weapon-traits), [Very Slow Reload](./strive-core.md#weapon-traits), [FS](./strive-core.md#free-strike-fs): `8` Piercing
+Traits: [Ranged (10 DI)](./strive-core.md#ranged), [Prefer Range](./strive-core.md#general-weapon-traits), [Very Slow Reload](./strive-core.md#general-weapon-traits), [FS](./strive-core.md#free-strike-fs): `8` Piercing
 
 | Level | Name                 | AP | Ob          | Description <br> Damage                   |
 | ----- | -------------------- | -- | ----------- | ----------------------------------------- |
@@ -1908,7 +1910,7 @@ Muscle and bone are laid bare and mutated, as the monster's skin is akin to a tr
   * `= 2` Hits: `4` Slashing
   * `≥ 3` Hits: `5` Slashing
 * Grapple (Agi/Str): 
-  * Grapple a ST. Gain `+1` Compensation Point for Grapple Tests.
+  * Grapple a ST. Gain `+1` Die Fudge for Grapple Tests.
   * Level: `3`, AP: `2`, Ob: Opposed, Melee, ST, Innate
 
 ### Tentacled Tarbeast
@@ -1986,7 +1988,7 @@ Stilted legs hold aloft a large body comprised of tendrils pulsating with light.
 
 **Skills**:
 * Puppeteer (Agi/Arc): 
-  * Jam your flesh tendrils in a victim's skin, taking control of them, up to `5` Squares away, with `+1` Compensation Point for the Test. If successful, the victim is under your direct control and cannot move on their own, although they may still think and speak of their own volition. The victim may attempt to break free from your control at the end of your Turn, with a successful Self-Control Test, at Ob `4`. An ally may attempt to sever the tendrils or pull loose their ally, with a Test at Ob `3`. 
+  * Jam your flesh tendrils in a victim's skin, taking control of them, up to `5` Squares away, with `+1` Die Fudge for the Test. If successful, the victim is under your direct control and cannot move on their own, although they may still think and speak of their own volition. The victim may attempt to break free from your control at the end of your Turn, with a successful Self-Control Test, at Ob `4`. An ally may attempt to sever the tendrils or pull loose their ally, with a Test at Ob `3`. 
   * For as long as a victim is Puppeteered, it will suffer all Damage directed towards the Threaded Terror, who suffers no Damage. 
   * Level: `5`, AP: `2`, Ob: Opposed, Ranged, ST, Innate
 * Zap (Agi/Arc): 
@@ -2042,9 +2044,9 @@ A massive, monstrous mass of bare flesh and bone. Its skin is like fish's mail, 
 * Corrupt Reality (Arc/Arc): 
   * A shockwave sends tremors through reality. All in a `20` Square diameter around are affected. Chunks of earth begin to float and warp. The battlefield changes its visage, bending around the Time-Eater. 
   * Level: `5`, AP: `4`, Ob: `2`, Ranged, AoE, Innate
-  * `≤ 1` Hit: `6` Pure; `+1` [Corruption](#corruption); Knock-back `3` Squares
-  * `= 2` Hits: `8` Pure; `+1` [Corruption](#corruption); Knock-back `4` Squares
-  * `≥ 3` Hits: `10` Pure; `+1` [Corruption](#corruption); Knock-back `5` Squares
+  * `≤ 1` Hit: `6` Pure; `+1` [Corruption](#corruption); Knock-Back `3` Squares
+  * `= 2` Hits: `8` Pure; `+1` [Corruption](#corruption); Knock-Back `4` Squares
+  * `≥ 3` Hits: `10` Pure; `+1` [Corruption](#corruption); Knock-Back `5` Squares
 
 **Legendary Actions**:
 * Bend Light:
@@ -2434,9 +2436,9 @@ Flames dance across the Demon's obsidian skin and it roars with ferocity - yet a
 * Eruption (Tough/Arc):
   * Flames erupt from your body, pushing back all in a `10` Square diameter around you and leaving a flame field in a `10` Square diameter around, that last `3` Rounds. The flame field deals `6` Burning Damage per Tick. 
   * Level: `6`, AP: `2`, Ob: `3`, AoE, Innate
-  * `≤ 1` Hit: Knock-back `4` Squares; `4` Burning Damage
-  * `= 2` Hits: Knock-back `6` Squares; `6` Burning Damage
-  * `≥ 3` Hits: Knock-back `8` Squares; `9` Burning Damage
+  * `≤ 1` Hit: Knock-Back `4` Squares; `4` Burning Damage
+  * `= 2` Hits: Knock-Back `6` Squares; `6` Burning Damage
+  * `≥ 3` Hits: Knock-Back `8` Squares; `9` Burning Damage
 
 **Legendary Actions**:
 * Ignore Damage: 
@@ -2464,15 +2466,15 @@ The Demon's form vanishes in a sea of fire, which rages and roars with unbridled
 * Breath Of Hate (Tough/Arc):
   * Breathe flame in a `8` Square AoE cone. 
   * Level: `8`, AP: `4`, Ob: `2`, AoE, Innate
-  * `≤ 1` Hit: `6` Burning; Knock-back `2` Squares
-  * `= 2` Hits: `8` Burning; Knock-back `3` Squares
-  * `≥ 3` Hits: `10` Burning; Knock-back `4` Squares
+  * `≤ 1` Hit: `6` Burning; Knock-Back `2` Squares
+  * `= 2` Hits: `8` Burning; Knock-Back `3` Squares
+  * `≥ 3` Hits: `10` Burning; Knock-Back `4` Squares
 * Claw Strike (Agi/Str):
   * Strike with red-hot claws at everything in a `3` Square AoE cone.
   * Level: `8`, AP: `2`, Ob: `2`, Melee, AoE, Innate
-  * `≤ 1` Hit: `10` Slashing + `6` Burning; Knock-back `3` Squares
-  * `= 2` Hits: `12` Slashing + `6` Burning; Knock-back `4` Squares
-  * `≥ 3` Hits: `14` Slashing + `6` Burning; Knock-back `5` Squares
+  * `≤ 1` Hit: `10` Slashing + `6` Burning; Knock-Back `3` Squares
+  * `= 2` Hits: `12` Slashing + `6` Burning; Knock-Back `4` Squares
+  * `≥ 3` Hits: `14` Slashing + `6` Burning; Knock-Back `5` Squares
 * Seek Revenge (Str/Arc):
   * **Reaction**: Upon suffering Damage, leap to the ST foe who dealt it, and slam into them with both massive fists.
   * Level: `4`, AP: `1`, Ob: `Opposed`, Melee, ST, Innate
@@ -2545,7 +2547,7 @@ This major Demon looks like a massive half-rotted and calcified, hunched bipedal
   * `= 2` Hits: `4` Pure; All victims whose Self-Control is `≤ 2` become Terrified of you! 
   * `≥ 3` Hits: `6` Pure; All victims whose Self-Control is `≤ 3` become Terrified of you! 
 * Draw Life (Arc/Arc):
-  * With a terrible inverted howl, pull all in a `10` Square diameter AoE around you towards you by `5` Squares. You cannot suffer impact Damage from this. 
+  * With a terrible inverted howl, Pull all in a `10` Square diameter AoE around you towards you by `5` Squares. You cannot suffer impact Damage from this. 
   * Level: `5`, AP: `4`, Ob: `2`, AoE, Innate
 
 **Legendary Actions**:
@@ -2598,9 +2600,9 @@ This major Demon is a a quadrupedal mass of swollen flesh, with a massive and to
 * Release Noxious Fumes (Tough/Arc):
   * Some half-digested *food's* rotting remains within you are emanating a noxious fume. All in a `5` Square AoE radius around you are affected.
   * Level: `5`, AP: `3`, Ob: `2`, AoE, Innate
-  * `≤ 1` Hit: `7` Poison; Knock-back `3` Squares
-  * `= 2` Hits: `9` Poison; Knock-back `4` Squares
-  * `≥ 3` Hits: `12` Poison; Knock-back `5` Squares
+  * `≤ 1` Hit: `7` Poison; Knock-Back `3` Squares
+  * `= 2` Hits: `9` Poison; Knock-Back `4` Squares
+  * `≥ 3` Hits: `12` Poison; Knock-Back `5` Squares
 * Regurgitate (Awar/Tough):
   * Throw up some half-digested remains of some poor sap, up to `10` Squares far, where, in a `2` Square AoE radius, it causes Damage. 
   * Level: `5`, AP: `2`, Ob: `2`, Ranged, AoE, Innate
@@ -2652,9 +2654,9 @@ This major Demon is a pale biped, without a head and many pairs of arms symmetri
 * Shake Ground (Arc/Arc):
   * Stomp the ground and make it tremble. All in a `10` Square radius around are knocked into a random direction. 
   * Level: `5`, AP: `4`, Ob: `2`, AoE, Innate
-  * `≤ 1` Hit: Knock-back `3` Squares
-  * `= 2` Hits: Knock-back `4` Squares
-  * `≥ 3` Hits: Knock-back `5` Squares
+  * `≤ 1` Hit: Knock-Back `3` Squares
+  * `= 2` Hits: Knock-Back `4` Squares
+  * `≥ 3` Hits: Knock-Back `5` Squares
 * Prepare For Hell (Arc/Arc):
   * **Concentration**: Place up to `9` columns of flame, up to `20` Squares far away. Each is `1` Square wide, `6` Squares tall and will deal `8` Burning Damage per Tick.
   * Level: `4`, AP: `3`, Innate
@@ -2826,7 +2828,7 @@ This variant is small and stunted. Its legs are too short and deformed to be use
   * `≥ 3` Hits: `4` Piercing
 * Putrid Vomit (Agi/Awar):
   * Throw up a projectile of lumpy stomach acid and 'shoot' it at a target. 
-  * Level: `4`, AP: `2`, Ob: `Opposed`, Ranged: `10`, ST, [Prefer Range](strive-core.md#weapon-traits), Innate
+  * Level: `4`, AP: `2`, Ob: `Opposed`, Ranged: `10`, ST, [Prefer Range](strive-core.md#general-weapon-traits), Innate
   * `≤ 1` Hit: `4` Acid
   * `= 2` Hits: `6` Acid
   * `≥ 3` Hits: `8` Acid
@@ -2875,7 +2877,7 @@ This variant stands tall and proud, its wrinkled skin riddled with scars. Its tu
   * `= 2` Hits: `Str + 4 (= 8)` Bludgeoning; Force-move `2`
   * `≥ 3` Hits: `Str + 6 (= 10)` Bludgeoning; Force-move `3`
 * Interrupt:
-  * **Reaction**: Upon an ally within `3` Squares of you being Attacked, jump in and take over the Defense Test, with `+1` [Compensation Point](./strive-core.md#compensation-points). 
+  * **Reaction**: Upon an ally within `3` Squares of you being Attacked, jump in and take over the Defense Test, with `+1` [Die Fudge](./strive-core.md#die-fudges). 
   * AP: `2`, Ob: `Opposed`, ST, Innate
 * Swine Commanding (Tough/Wit):
   * A champion commands respect and obedience.
@@ -3500,7 +3502,7 @@ A lesser form of undeath, Zombies are mindless walking corpses in varying stages
 **Legendary Actions**: 
 Employ these only for *really* special Zombies. 
 * Uncanny Dodge:
-  * Up to `3` times per Round, try avoiding an Attack with `3D` and `1` Compensation Point.
+  * Up to `3` times per Round, try avoiding an Attack with `3D` and `1` Die Fudge.
 * Trample:
   Run up to `6` Squares far, knocking aside all other Characters by `2` Squares, once per Round. 
 
