@@ -218,17 +218,24 @@ By using STRIVE (that includes but is not limited to viewing, reading, referenci
     - [Weapon Assets](#weapon-assets)
       - [Weapon-Family](#weapon-family)
       - [Weapon Traits](#weapon-traits)
-        - [Melee](#melee)
-        - [Long Reach](#long-reach)
-        - [Very Long Reach](#very-long-reach)
-        - [Range Only](#range-only)
-        - [Prefer Range](#prefer-range)
+        - [Melee Weapon Traits](#melee-weapon-traits)
+          - [Melee](#melee)
+          - [Long Reach](#long-reach)
+          - [Very Long Reach](#very-long-reach)
+          - [Heavy](#heavy)
+          - [Hooked](#hooked)
+        - [Ranged Weapon Traits](#ranged-weapon-traits)
+          - [Ranged](#ranged)
+          - [Range Only](#range-only)
+          - [Prefer Range](#prefer-range)
         - [Slow Reload](#slow-reload)
         - [Very Slow Reload](#very-slow-reload)
-        - [Ranged](#ranged)
-        - [Serrated](#serrated)
-        - [Perfectly Balanced](#perfectly-balanced)
+        - [Brutal](#brutal)
+        - [Crushing](#crushing)
+        - [Precise](#precise)
+        - [Piercing](#piercing)
         - [Poison-Chamber](#poison-chamber)
+        - [Serrated](#serrated)
 - [Fate Points](#fate-points)
   - [Minor Fate Points](#minor-fate-points)
   - [Major Fate Points](#major-fate-points)
@@ -632,6 +639,7 @@ As STRIVE is meant primarily as a rule-book to help you quickly find what you ne
 | [Innate Ability](#innate-abilities)                         | A special ability that a Character has access to based on their ancestry. |
 | [Instance of Damage](#damage--effects)                      | The Damage number that is actually applies to HP, after [Armor](#armor--shields) and [Resistances](#damage-resistances) have been applied. |
 | [Jealous](#jealous)                                         | A Condition that makes a Character feel desperately compelled acquire *something*. |
+| [Knock-Back](#forced-movement)                              | Forces a Character away from another. |
 | [Known Skill](#skills)                                      | A Skill at Level `1+`, which is still considered known to the Character. They can properly utilize such a Skill. |
 | [Language](#languages)                                      | A Character's ability to communicate and potentially read and write in a language that exists in your GM's world. |
 | [Learning Skill](#learning-skills)                          | A Skill at Level `0`, which is still considered unlearned. A Character has not yet gained the ability to properly utilize such a Skill, for example in Skill Forking. |
@@ -658,7 +666,7 @@ As STRIVE is meant primarily as a rule-book to help you quickly find what you ne
 | [Passive](#actions-reactions--passives)                     | An effect that is always active (when a defined condition is met). |
 | [Penalized Attribute](#core-favored-normal--penalized-attributes)| An Attribute that is much harder to Advance. |
 | [Penalty](#boons--penalties)                                | A negative effect on a Character, for example one that reduces the dice available for Tests. |
-| [Perfectly Balanced](#perfectly-balanced)                   | A weapon Trait that indicates a weapon is more effective. |
+| [Perfectly Balanced](#precise)                   | A weapon Trait that indicates a weapon is more effective. |
 | [Personality](#personality)                                 | Describes a Character's desires and ways of thinking. |
 | [Player Character (PC)](#introduction)                      | The type of Character that players are in control of. |
 | [Poison-Chamber](#poison-chamber)                           | A weapon Trait that indicates a weapon deals additional Poison Damage. |
@@ -673,6 +681,7 @@ As STRIVE is meant primarily as a rule-book to help you quickly find what you ne
 | [Project](#crafting--research-projects)                     | A long-term and abstract side-activity of a PC to craft or research something. |
 | [Prone](#prone)                                             | A Condition for a Character currently low to the ground. They are easier to harm in melee, but harder to harm at range. |
 | [Property](#property)                                       | The Assets a Character owns but is not carrying on-person. |
+| [Pull](#forced-movement)                                    | Forces a Character closer to another. |
 | [Push Through Action](#push-through)                        | A Character may choose to move despite suffering an Opportunity Attack. |
 | [Quality Level](#crafting--research-projects)               | A numeric value that describes the quality of an Asset or Project. |
 | [Quirk](#quirk)                                             | Part of a Character's Drivers and always triggers when some defined condition is met, to get the Character in trouble or grant them an assurance. |
@@ -1646,36 +1655,32 @@ An Asset designed to be used as a weapon. Improvised weapons don't count, althou
 #### Weapon Traits
 **Weapon Traits** are modular rules that make one weapon mechanically different from another, by changing what a weapon is capable of. Even within one [Weapon-Family](#weapon-family), there can be many different Assets with very different Weapon Traits, each filling a different niche or with particular strengths and weaknesses.  
 
-##### Melee
+##### Melee Weapon Traits
+
+###### Melee
 <img src="../../img/melee-1.svg" style="width: 3rem; height: 3rem;"></img>
 
 Allows Attacking an adjacent target.
 
-##### Long Reach
+###### Long Reach
 <img src="../../img/melee-2.svg" style="width: 3rem; height: 3rem;"></img>
 
 Allows Attacking a target two Squares away. 
 
-##### Very Long Reach
+###### Very Long Reach
 <img src="../../img/melee-3.svg" style="width: 3rem; height: 3rem;"></img>
 
 Allows Attacking a target three Squares away. 
 
-##### Range Only
-<img src="../../img/ranged-only.svg" style="width: 3rem; height: 3rem;"></img>
+###### Heavy
+Melee Attacks cause `+Q` [Knock-Back](#forced-movement).
 
-Implies a weapon cannot be used against any targets adjacent to self. 
+###### Hooked
+Melee Attacks [Pull](./strive-core.md#forced-movement) by `+Q` Squares.
 
-##### Prefer Range
-`+2` Ob to using the weapon against an adjacent target.
+##### Ranged Weapon Traits
 
-##### Slow Reload
-Reloading the weapon costs `2` [AP](#action-points-ap).
-
-##### Very Slow Reload
-Reloading the weapon costs `3` [AP](#action-points-ap).
-
-##### Ranged
+###### Ranged
 <img src="../../img/ranged.svg" style="width: 3rem; height: 3rem;"></img>
 
 The weapon can be used against targets up to a noted distance away from the user. The range, in Squares, is noted in parentheses. This can either indicate a maximum distance, which cannot be exceeded, or a so-called **Distance Increment**, abbreviated **DI**, which may be exceeded, but with penalties.
@@ -1686,14 +1691,37 @@ For every Distance Increment past the initial, an Attack suffers `+1` Ob and dea
 
 > A weapon with this Trait noted as `(10 DI)` has a Distance Increment of `10` Squares. Any Attack up to and including `10` Squares incurs no penalties, but starting from the `11`th Square, the Attack suffers `+1` Ob and if successful, deals `-2` points of Damage less. Starting from the `21`st Square, `+2` Ob and `-4` points of Damage, and so on.
 
-##### Serrated
-Melee Attacks with this weapon cause an additional `+Q` points of Bleeding.
+###### Range Only
+<img src="../../img/ranged-only.svg" style="width: 3rem; height: 3rem;"></img>
 
-##### Perfectly Balanced
-Melee Attacks with this weapon receive `+1` [Compensation Point](#compensation-points). 
+Implies a weapon cannot be used against any targets adjacent to self. 
+
+###### Prefer Range
+`+2` Ob to using the weapon against an adjacent target.
+
+##### Slow Reload
+Reloading the weapon costs `2` [AP](#action-points-ap).
+
+##### Very Slow Reload
+Reloading the weapon costs `3` [AP](#action-points-ap).
+
+##### Brutal
+When landing a [Masterful](#attacking) hit, deal an additional `+Q` points of Pure Damage.
+
+##### Crushing
+Attacks deal an additional `+Q` Bludgeoning Damage. 
+
+##### Precise
+Attacks receive `+1` [Compensation Point](#compensation-points). 
+
+##### Piercing
+Attacks ignore `Q` points of [Armor](#armor-assets).
 
 ##### Poison-Chamber
-Melee Attacks with this weapon cause an additional `+Q` points of Poison Damage. The poison-chamber must be refilled after every use. 
+Attacks deal an additional `+Q` points of Poison Damage. The poison must be refilled after every Combat ends. 
+
+##### Serrated
+Attacks deal an additional `+Q` points of [Bleeding](./strive-core.md#bleeding).
 
 # Fate Points
 **Fate points (FP)** represent a meta-currency that *players* can earn and use to buy boons for their Character or the group as a whole. At the end of every session, players and the GM should discuss who earned which FP, followed by awarding those FP. 
@@ -2030,7 +2058,11 @@ It is also possible to **Sprint**, increasing the distance one can move per AP s
 > A Character with a Sprinting Speed of `3` can increase their total movement distance to `7` Squares, at the cost of `-1` AP and `-1` point of Stamina. 
 
 ### Forced Movement
-There are abilities and circumstances that can force a Character to be moved against their will. When this happens, the Character in question does not spend any [AP](#action-points-ap) on the movement, as they didn't initiate it. The distance they are moved is reduced by an amount equal to their [Stability](#stability-stabil). 
+There are abilities and circumstances that can force a Character to be moved against their will. When this happens, the Character in question does not spend any [AP](#action-points-ap) on the movement, as they didn't initiate it. Even so, Forced Movement may cause [Opportunity Attacks](#opportunity-attacks)!
+
+Under normal circumstances, the Forced Movement distance is reduced by an amount equal to the moved Character's [Stability](#stability-stabil) value. 
+
+**Knock-Back** forces a Character away from you. Inversely, a **Pull** forces them closer to you. 
 
 #### Forced Collision
 If a Forced Movement intersects an obstacle, then the victim suffers `N * 3` points of Bludgeoning Damage, where *N* is the remaining Squares of movement at the time of collision. 

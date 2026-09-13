@@ -70,7 +70,6 @@ There is a [compendium document](./strive-fantasy-game-masters-resource.md) rese
       - [Medium Shield](#medium-shield)
       - [Heavy Shield](#heavy-shield)
     - [Weapon Families](#weapon-families)
-      - [Weapon Traits](#weapon-traits)
       - [Axe](#axe)
       - [Chained Blade](#chained-blade)
       - [Crusher](#crusher)
@@ -81,6 +80,8 @@ There is a [compendium document](./strive-fantasy-game-masters-resource.md) rese
       - [Longbow](#longbow)
       - [Crossbow](#crossbow)
       - [Firearm](#firearm)
+    - [Weapon Traits](#weapon-traits)
+      - [Ambersteel-Forged](#ambersteel-forged)
   - [Lists of Skills](#lists-of-skills)
     - [Physical Skills](#physical-skills)
       - [Rune-Using (Agi/Wit)](#rune-using-agiwit)
@@ -783,12 +784,7 @@ A large, kite-shaped or rectangular shield, which can protect every part of the 
 | `+2` [Compensation Points](./strive-core.md#compensation-points) for any Defense. | `+1` [Compensation Point](./strive-core.md#compensation-points) for any Defense. | `+1D` for any Defense. | / |
 
 ### Weapon Families
-Following are fantasy-themed weapon families. These are broad abstractions for that kind of weapon. For example "Axe" makes no distinction between a hatchet or a huge double-bladed axe. 
-
-#### Weapon Traits
-Weapons can have the following **Weapon Traits** (see also the [Core Weapon Traits](./strive-core.md#general-weapon-traits)):
-
-* **Ambersteel**: Bonus `+(Q * 2)` Pure Damage against mages and magical creatures. 
+Following are fantasy-themed [Weapon-Families](./strive-core.md#weapon-family). These are broad abstractions for that kind of weapon. For example "Axe" makes no distinction between a hatchet or a huge double-bladed axe. 
 
 #### Axe
 One and two-handed axes. See also its corresponding [Skill](#weapon-axe-strstr).
@@ -851,6 +847,12 @@ A very deadly short to medium distance ranged weapon, shooting small metal balls
 
 * [Ranged (10 DI)](./strive-core.md#ranged), [Prefer Range](./strive-core.md#general-weapon-traits), [Very Slow Reload](./strive-core.md#general-weapon-traits)
 * Bulk: `3`, PI: `30`, TI: `1 Hour`
+
+### Weapon Traits
+Fantasy-themed [Weapon Traits](./strive-core.md#weapon-traits).
+
+#### Ambersteel-Forged
+Attacks deal an additional `Q * 2` Pure Damage against mages and magical creatures. 
 
 ## Lists of Skills
 The following list does not and cannot aim to be a complete listing of all possible Skills in game. Adding new Skills as necessary will have to be done by the GM. 
@@ -938,7 +940,7 @@ Traits: [Melee](./strive-core.md#melee), [Long Reach](./strive-core.md#general-w
 | 0     | Slash                | 2  | Opposed     | Strike a ST. <br> `≤ 1` Hit: `4` Slashing <br> `= 2` Hits: `5` Slashing <br> `≥ 3` Hits: `6` Slashing |
 | 0     | Stab                 | 2  | Opposed     | Strike a ST. <br> `≤ 1` Hit: `6` Piercing <br> `= 2` Hits: `7` Piercing <br> `≥ 3` Hits: `8` Piercing |
 | 2     | Blade Barrier        | 3  |             | Until the start of your next Turn, whenever any Character moves **into** a spot within reach, can **freely** Attack that Character with a **Stab** at Ob `+1` and if successful, force them back `1` Square. |
-| 2     | Breakthrough         | 3  | Opposed     | Charge at a ST, up to `4` Squares away. <br> `≤ 1` Hit: `4` Piercing; Knock-back `1` Square <br> `= 2` Hits: `4` Piercing; Knock-back `2` Squares <br> `≥ 3` Hits:  `5` Piercing; Knock-back `3` Squares |
+| 2     | Breakthrough         | 3  | Opposed     | Charge at a ST, up to `4` Squares away. <br> `≤ 1` Hit: `4` Piercing; Knock-Back `1` Square <br> `= 2` Hits: `4` Piercing; Knock-Back `2` Squares <br> `≥ 3` Hits:  `5` Piercing; Knock-Back `3` Squares |
 | 2     | Cleave               | 3  | 2           | Attack up to `4` targets at once, in a `3` Square AoE cone in front of you. <br> `≤ 1` Hit: `3` Slashing <br> `= 2` Hits: `4` Slashing <br> `≥ 3` Hits:  `5` Slashing |
 
 #### Weapon \<Short-Bow\> (Agi/Awar)
@@ -2042,9 +2044,9 @@ A massive, monstrous mass of bare flesh and bone. Its skin is like fish's mail, 
 * Corrupt Reality (Arc/Arc): 
   * A shockwave sends tremors through reality. All in a `20` Square diameter around are affected. Chunks of earth begin to float and warp. The battlefield changes its visage, bending around the Time-Eater. 
   * Level: `5`, AP: `4`, Ob: `2`, Ranged, AoE, Innate
-  * `≤ 1` Hit: `6` Pure; `+1` [Corruption](#corruption); Knock-back `3` Squares
-  * `= 2` Hits: `8` Pure; `+1` [Corruption](#corruption); Knock-back `4` Squares
-  * `≥ 3` Hits: `10` Pure; `+1` [Corruption](#corruption); Knock-back `5` Squares
+  * `≤ 1` Hit: `6` Pure; `+1` [Corruption](#corruption); Knock-Back `3` Squares
+  * `= 2` Hits: `8` Pure; `+1` [Corruption](#corruption); Knock-Back `4` Squares
+  * `≥ 3` Hits: `10` Pure; `+1` [Corruption](#corruption); Knock-Back `5` Squares
 
 **Legendary Actions**:
 * Bend Light:
@@ -2434,9 +2436,9 @@ Flames dance across the Demon's obsidian skin and it roars with ferocity - yet a
 * Eruption (Tough/Arc):
   * Flames erupt from your body, pushing back all in a `10` Square diameter around you and leaving a flame field in a `10` Square diameter around, that last `3` Rounds. The flame field deals `6` Burning Damage per Tick. 
   * Level: `6`, AP: `2`, Ob: `3`, AoE, Innate
-  * `≤ 1` Hit: Knock-back `4` Squares; `4` Burning Damage
-  * `= 2` Hits: Knock-back `6` Squares; `6` Burning Damage
-  * `≥ 3` Hits: Knock-back `8` Squares; `9` Burning Damage
+  * `≤ 1` Hit: Knock-Back `4` Squares; `4` Burning Damage
+  * `= 2` Hits: Knock-Back `6` Squares; `6` Burning Damage
+  * `≥ 3` Hits: Knock-Back `8` Squares; `9` Burning Damage
 
 **Legendary Actions**:
 * Ignore Damage: 
@@ -2464,15 +2466,15 @@ The Demon's form vanishes in a sea of fire, which rages and roars with unbridled
 * Breath Of Hate (Tough/Arc):
   * Breathe flame in a `8` Square AoE cone. 
   * Level: `8`, AP: `4`, Ob: `2`, AoE, Innate
-  * `≤ 1` Hit: `6` Burning; Knock-back `2` Squares
-  * `= 2` Hits: `8` Burning; Knock-back `3` Squares
-  * `≥ 3` Hits: `10` Burning; Knock-back `4` Squares
+  * `≤ 1` Hit: `6` Burning; Knock-Back `2` Squares
+  * `= 2` Hits: `8` Burning; Knock-Back `3` Squares
+  * `≥ 3` Hits: `10` Burning; Knock-Back `4` Squares
 * Claw Strike (Agi/Str):
   * Strike with red-hot claws at everything in a `3` Square AoE cone.
   * Level: `8`, AP: `2`, Ob: `2`, Melee, AoE, Innate
-  * `≤ 1` Hit: `10` Slashing + `6` Burning; Knock-back `3` Squares
-  * `= 2` Hits: `12` Slashing + `6` Burning; Knock-back `4` Squares
-  * `≥ 3` Hits: `14` Slashing + `6` Burning; Knock-back `5` Squares
+  * `≤ 1` Hit: `10` Slashing + `6` Burning; Knock-Back `3` Squares
+  * `= 2` Hits: `12` Slashing + `6` Burning; Knock-Back `4` Squares
+  * `≥ 3` Hits: `14` Slashing + `6` Burning; Knock-Back `5` Squares
 * Seek Revenge (Str/Arc):
   * **Reaction**: Upon suffering Damage, leap to the ST foe who dealt it, and slam into them with both massive fists.
   * Level: `4`, AP: `1`, Ob: `Opposed`, Melee, ST, Innate
@@ -2545,7 +2547,7 @@ This major Demon looks like a massive half-rotted and calcified, hunched bipedal
   * `= 2` Hits: `4` Pure; All victims whose Self-Control is `≤ 2` become Terrified of you! 
   * `≥ 3` Hits: `6` Pure; All victims whose Self-Control is `≤ 3` become Terrified of you! 
 * Draw Life (Arc/Arc):
-  * With a terrible inverted howl, pull all in a `10` Square diameter AoE around you towards you by `5` Squares. You cannot suffer impact Damage from this. 
+  * With a terrible inverted howl, Pull all in a `10` Square diameter AoE around you towards you by `5` Squares. You cannot suffer impact Damage from this. 
   * Level: `5`, AP: `4`, Ob: `2`, AoE, Innate
 
 **Legendary Actions**:
@@ -2598,9 +2600,9 @@ This major Demon is a a quadrupedal mass of swollen flesh, with a massive and to
 * Release Noxious Fumes (Tough/Arc):
   * Some half-digested *food's* rotting remains within you are emanating a noxious fume. All in a `5` Square AoE radius around you are affected.
   * Level: `5`, AP: `3`, Ob: `2`, AoE, Innate
-  * `≤ 1` Hit: `7` Poison; Knock-back `3` Squares
-  * `= 2` Hits: `9` Poison; Knock-back `4` Squares
-  * `≥ 3` Hits: `12` Poison; Knock-back `5` Squares
+  * `≤ 1` Hit: `7` Poison; Knock-Back `3` Squares
+  * `= 2` Hits: `9` Poison; Knock-Back `4` Squares
+  * `≥ 3` Hits: `12` Poison; Knock-Back `5` Squares
 * Regurgitate (Awar/Tough):
   * Throw up some half-digested remains of some poor sap, up to `10` Squares far, where, in a `2` Square AoE radius, it causes Damage. 
   * Level: `5`, AP: `2`, Ob: `2`, Ranged, AoE, Innate
@@ -2652,9 +2654,9 @@ This major Demon is a pale biped, without a head and many pairs of arms symmetri
 * Shake Ground (Arc/Arc):
   * Stomp the ground and make it tremble. All in a `10` Square radius around are knocked into a random direction. 
   * Level: `5`, AP: `4`, Ob: `2`, AoE, Innate
-  * `≤ 1` Hit: Knock-back `3` Squares
-  * `= 2` Hits: Knock-back `4` Squares
-  * `≥ 3` Hits: Knock-back `5` Squares
+  * `≤ 1` Hit: Knock-Back `3` Squares
+  * `= 2` Hits: Knock-Back `4` Squares
+  * `≥ 3` Hits: Knock-Back `5` Squares
 * Prepare For Hell (Arc/Arc):
   * **Concentration**: Place up to `9` columns of flame, up to `20` Squares far away. Each is `1` Square wide, `6` Squares tall and will deal `8` Burning Damage per Tick.
   * Level: `4`, AP: `3`, Innate
