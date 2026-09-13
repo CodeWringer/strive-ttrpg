@@ -8,7 +8,7 @@ On the spectrum of *narrative-driven*, *game-y* and *simulationist*, STRIVE aims
 
 But what is it *about*? Condensed down to a single sentence:
 
-> STRIVE is a TTRPG about **Heroic Characters** who overcome challenges, both inside and outside of **Tactical Combat**, who **Grow and Change Organically** over the course of **Long-Running Campaigns** and is built specifically for people who love to do their own **World-Building**. 
+> STRIVE is a TTRPG about **Heroic Characters** who **Cooperatively** overcome challenges, both inside and outside of **Tactical Combat**, who **Grow and Change Organically** over the course of **Long-Running Campaigns** and is built specifically for people who love to do their own **World-Building**. 
 
 There is a lot to unpack from these few words alone, so let's examine each in detail. 
 
@@ -22,6 +22,15 @@ There are buffers between death and full strength and when Characters are hurt, 
 You may choose to play without the Momentum system for a less heroic style of game. Even so, the game is ill suited to horror or grimdark. STRIVE aims for long-running campaigns, wherein players and their Characters form strong bonds with NPCs and shape parts of the world to their own whims. This requires PCs to last a long time, as otherwise the bonds they form become meaningless and their achievements disconnected from their player. PCs may still perish, when they get in way over their heads, but the end will be a defiant struggle, with lots of room for dramatic moments. 
 
 A meta-currency, called **Fate Points** is earned by *players*, through role-play and normal game play. Fate Points allow buying **Fate Cards**, which give players access to powerful meta-powers that can be enacted at *any* time, allowing for truly decisive achievements. 
+
+## Cooperative
+Cooperation in play is a huge design foundation for STRIVE! TTRPGs are a social hobby, making it an ideal space for friendly, low-pressure social interaction. To facilitate this idea, STRIVE does two things: 
+
+First, Player Characters are strongly encouraged to cooperate, as that is how they will achieve the great accomplishments. There are many systems that encourage cooperation on several levels. 
+
+Secondly, the GM is not an adversary. They're a curator of interactive drama. But to make drama work, both the GM and the players have to work together. The GM is expected to work the Characters' goals into the narrative. You must communicate and coordinate your wishes for the game. It is easy for a GM to kill Player Characters, or to simply ignore their Drivers. It is also easy for players to be secretive about their Character's wishes and goals. But then no drama can happen. As such, when you exchange your ideas, the GM can help nudge Drivers in a direction that will work for their narrative, while players can gain a better idea of how they may expect drama to occur. 
+
+This is a very complex and difficult to describe design goal. Effectively, it boils down to this: always assume everyone at the table wants to have fun **together**, **respects one other** and understands STRIVE as a **cooperative game**.
 
 ## Tactical
 First of all, STRIVE is **not a wargame**. It is not about coordinating large troop movements, managing supply lines or establishing chains of command (although you can feature such things in your game if you like). 
@@ -104,6 +113,7 @@ By using STRIVE (that includes but is not limited to viewing, reading, referenci
 # Table of Contents
 - [Introduction](#introduction)
   - [Heroic](#heroic)
+  - [Cooperative](#cooperative)
   - [Tactical](#tactical)
   - [Character Evolution](#character-evolution)
   - [Long-Running Campaigns](#long-running-campaigns)
@@ -574,7 +584,7 @@ As STRIVE is meant primarily as a rule-book to help you quickly find what you ne
 | [Derived Attributes](#derived-attributes)                   | An Attribute whose value stems from other sources. It cannot be Advanced independently. |
 | [Desperate Measure](#momentum-actions)                      | When Momentum is low, Desperate Measures become available, and allow PCs to turn around the wheel of fate in a fight. |
 | [Difficult Terrain](#combat-movement)                       | Halves movement per AP. |
-| [Direct Damage](#damage--effects)                           | Damage that always comes from an Action or Reaction. |
+| [Direct Damage](#damage--effects)                           | Damage that always comes from an [Action or Reaction](#actions-reactions--passives). |
 | [Disengage Action](#disengage)                              | A Combat Action that lets a Character safely avoid an Opportunity Attack. |
 | [Dissolving](#dissolving)                                   | A Condition that causes Acid Damage every Tick. |
 | [Distance Increment (DI)](#ranged)                          | Indicates a ranged weapon's/Attack's range increments. Attacking past this number of Squares incurs penalties to the Attack. |
@@ -604,7 +614,7 @@ As STRIVE is meant primarily as a rule-book to help you quickly find what you ne
 | [Hasted](#hasted)                                           | A Condition that lets a Character who get an additional AP and who may move further per AP spent. |
 | [Health Point(s) (HP)](#health-points-hp)                   | The resource that separates a Character from death. |
 | [Heroic Act](#momentum-actions)                             | When Momentum is high, Heroic Acts become available, and allow PCs to dominate a fight. |
-| [Hit Limit](#testing-a-skill)                               | Determines how many rolled Hits may actually factor into the result of a Test. This is equal to your Skill's Level, but can be raised through Compensation Points, Skill Forking and other Characters providing assistance. |
+| [Hit Limit](#testing-a-skill)                               | Determines how many rolled Hits may actually factor into the result of a Test. This is equal to your Skill's Level, plus `1`, but can be temporarily raised through Compensation Points, Skill Forking and other Characters providing assistance. |
 | [Hit](#tests)                                               | Positive result of an individual die-roll in a Test. |
 | [Hostility Action](#hostility)                              | A special event that benefits only the PCs' foes. This is the counter point to Momentum Actions. |
 | [Hostility](#hostility)                                     | A special resource the GM receives to occasionally activate Hostility Actions with, to shake up a Combat encounter. |
@@ -807,9 +817,11 @@ To resolve an Attribute Test, roll `ND6`, where *N* is the Attribute's Level.
 It is **not** possible to [Fork](#skill-forking) into Attribute Tests, *at all*. 
 
 ### Testing a Skill
-All Skills have two Attributes they're based on / rely on, noted in parentheses next to the Skill's name. They are called the Skill's **Base Attributes**. To resolve a Skill Test, roll `ND6`, where *N* is the sum of both Base Attributes' Level.
+All Skills have two Attributes they're based on / rely on, noted in parentheses next to the Skill's name. These are called the Skill's **Base Attributes**. To resolve a Skill Test, roll `ND6`, where *N* is the **sum** of both Base Attributes' Level.
 
-The Level of the Skill itself, plus `1`, governs the maximum number of Hits that may count towards the result. Only that many of the achieved Hits may, at most, factor into the Test's outcome. This is called the **Hit Limit**. If [Compensation Points](#compensation-points) are used in the Test, each of them always and automatically raises the Hit Limit by `+1`!
+A **Hit Limit**, equal to the Level of the Skill itself, plus `1`, governs the **maximum** number of Hits that may, at most, count towards the result. It is possible to **temporarily** raise this Limit through [Compensation Points](#compensation-points), [Forking](#skill-forking) and [getting help](#providing-assistance), with each instance of these always and automatically raising the Hit Limit by `+1`!
+
+> *Every* helper and *every* Compensation Point and *every* Forked Skill, each raise the Himit Limit by `+1`!
 
 It is possible to Fork into Skill Tests, granting more dice and raising the Hit Limit by `+1`, for **each** Forked Skill! **Do not forget to Fork your Skills into your Tests!**
 
@@ -1997,7 +2009,7 @@ The Attack roll determines how much Damage an Attack will deal and how severe it
 * **Masterful**: On `≥ 3` Hits. An overwhelming hit. Applies the most severe Damage and effects.
 
 Some additional terminology:
-* **Direct Damage** always comes from an Action or Reaction.
+* **Direct Damage** always comes from an [Action or Reaction](#actions-reactions--passives).
 * **Indirect Damage** always comes from the environment, or from Damage over time [Health Conditions](#condition). 
 * **Instance of Damage** refers the Damage number that is actually applies to HP, after [Armor](#armor--shields) and [Resistances](#damage-resistances) have been applied. Damage that is completely negated by Armor and Resistances is **not** considered an Instance of Damage. E.g., when suffering `6` Bludgeoning + `10` Slashing Damage, assuming armor exists that reduces this to `2` Bludgeoning + `4` Slashing, then the resulting `6` points of Damage are what is applied to HP and thus the Instance of Damage. 
 * **Primary Damage** refers to the most significant [Damage Type](#damage-types) of an Instance of Damage **after** Armor and Resistances are applied. This is the Damage Type that determines the [Injury](#injury) type that is inflicted. If there is a tie, the Damage Type that the armor reduces less is the Primary one. If there is still a tie, a coin flip could decide. E.g. when suffering `6` Bludgeoning + `10` Slashing Damage, which Armor and Resistances reduce to `4` Bludgeoning + `2` Slashing Damage, then the Bludgeoning Damage is considered the Primary Damage of the Attack. If the Attack causes an Injury, then it will be a Bludgeoning Injury. 
@@ -2010,7 +2022,7 @@ Performing an Opportunity Attack costs `-1` [AP](#action-points-ap) at a `-1D` p
 
 It is possible to avoid an Opportunity Attack with a [Disengage](#disengage) combat action. 
 
-An Opportunity Attack is a Reaction. 
+An Opportunity Attack is a [Reaction](#actions-reactions--passives). 
 
 #### Disengage
 It is possible to move out of an enemy's [Range of Opportunity](#opportunity-Attacks) without provoking an [Opportunity Attack](#opportunity-Attacks), by **Disengaging** for `-2` [AP](#action-points-ap). The Disengaging Character **must** move in a direction that will get them out of the Range of Opportunity the fastest and safest, as far as `1` AP of movement would get them. 
