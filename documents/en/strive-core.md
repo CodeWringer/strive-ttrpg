@@ -227,6 +227,7 @@ By using STRIVE (that includes but is not limited to viewing, reading, referenci
           - [Prefer Range](#prefer-range)
           - [Slow Reload](#slow-reload)
           - [Very Slow Reload](#very-slow-reload)
+          - [Returning](#returning)
         - [Attack Modifier Weapon Traits](#attack-modifier-weapon-traits)
           - [Brutal](#brutal)
           - [Crushing](#crushing)
@@ -237,7 +238,12 @@ By using STRIVE (that includes but is not limited to viewing, reading, referenci
           - [Poison-Chamber](#poison-chamber)
           - [Serrated](#serrated)
         - [Legendary Attack Modifier Weapon Traits](#legendary-attack-modifier-weapon-traits)
+          - [Cruel](#cruel)
+          - [Deflecting](#deflecting)
           - [Foolproof](#foolproof)
+          - [Relentless](#relentless)
+          - [Executioner](#executioner)
+          - [Masterstroke](#masterstroke)
 - [Fate Points](#fate-points)
   - [Minor Fate Points](#minor-fate-points)
   - [Major Fate Points](#major-fate-points)
@@ -1710,6 +1716,9 @@ Reloading the weapon costs `2` [AP](#action-points-ap).
 ###### Very Slow Reload
 Reloading the weapon costs `3` [AP](#action-points-ap).
 
+###### Returning
+Whether through some supernatural force, or an intricate mechanical contraption, when [Thrown](#throwing), the weapon automatically returns to you after it has landed. 
+
 ##### Attack Modifier Weapon Traits
 These Weapon Traits modify an [Attack's Profile](#damage--effects). 
 
@@ -1738,10 +1747,27 @@ Attacks deal an additional `+Q` points of Poison Damage. The poison must be refi
 Attacks deal an additional `+Q` points of [Bleeding](./strive-core.md#bleeding).
 
 ##### Legendary Attack Modifier Weapon Traits
-These Weapon Traits modify an [Attack's Profile](#damage--effects) in a particularly powerful way. These are available solely at the GM's discretion and may serve as a source of inspiration for them to create their own uniques.
+These Weapon Traits modify an [Attack's Profile](#damage--effects) in a particularly powerful way. These are available solely at the GM's discretion and may serve as a source of inspiration for them to create their own uniques. You may create general, re-usable Weapon traits that modify the basic systems of an Attack, such as how many AP it costs, how far away it can threaten foes and how many and such. But you may also create highly specifc Weapon Traits that modify a specific [Weapon Skill's](#weapon--weapon-family---base-attributes-) Attacks, to make them truly unique. Also, when doing so, keep in mind Weapon Traits must modify something that already exists on a Skill, instead of adding a completely unrelated new ability. 
+
+> For example, a Weapon Trait that turns a Melee Attack into a Ranged AoE Burning Attack, is good. But adding the ability to also summon a dragon once a week, should be avoided, and may instead be better expressed as an Asset Ability. 
+
+###### Cruel
+A successful Attack with this weapon deals an additional `+Q` Bleeding Damage for every Injury the victim currently has. 
+
+###### Deflecting
+This weapon is especially good at turning Attacks aside. When you use this weapon in a Defense Test and succeed, you may [Knock-Back](#forced-movement) the Attacker by `Q` Squares. 
 
 ###### Foolproof
 The first successful Attack each Round is treated as one Damage grade higher. I.e. Glancing -> Solid; Solid -> Masterful
+
+###### Relentless
+When an Attack with this weapon is successful, you may one additional free Attack. But every time you do, your Ob increases by `+1`, which resets upon an unsuccessful Attack or at Round end. 
+
+###### Executioner
+A successful Attack with this weapon will instantly strike down a foe whose HP are less than `20`. 
+
+###### Masterstroke
+Once per Round, an Attack with this weapon may ignore conditions that would normally limit the Attack. For example, a cleave attack that normally requires two adjacent targets, may now affect two targets that are far apart. However, foundational limitations, such as the maximum usable range, still apply. 
 
 # Fate Points
 **Fate points (FP)** represent a meta-currency that *players* can earn and use to buy boons for their Character or the group as a whole. At the end of every session, players and the GM should discuss who earned which FP, followed by awarding those FP. 
