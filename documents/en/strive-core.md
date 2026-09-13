@@ -214,6 +214,21 @@ By using STRIVE (that includes but is not limited to viewing, reading, referenci
       - [Carrying Capacity](#carrying-capacity)
       - [Overweight](#overweight)
     - [Property](#property)
+    - [Armor Assets](#armor-assets)
+    - [Weapon Assets](#weapon-assets)
+      - [Weapon-Family](#weapon-family)
+      - [Weapon Traits](#weapon-traits)
+        - [Melee](#melee)
+        - [Long Reach](#long-reach)
+        - [Very Long Reach](#very-long-reach)
+        - [Range Only](#range-only)
+        - [Prefer Range](#prefer-range)
+        - [Slow Reload](#slow-reload)
+        - [Very Slow Reload](#very-slow-reload)
+        - [Ranged](#ranged)
+        - [Serrated](#serrated)
+        - [Perfectly Balanced](#perfectly-balanced)
+        - [Poison-Chamber](#poison-chamber)
 - [Fate Points](#fate-points)
   - [Minor Fate Points](#minor-fate-points)
   - [Major Fate Points](#major-fate-points)
@@ -302,18 +317,6 @@ By using STRIVE (that includes but is not limited to viewing, reading, referenci
     - [Determine Assets](#determine-assets)
   - [Assets Appendix](#assets-appendix)
     - [General Assets](#general-assets)
-    - [Weapon Traits](#weapon-traits)
-      - [Melee](#melee)
-      - [Long Reach](#long-reach)
-      - [Very Long Reach](#very-long-reach)
-      - [Range Only](#range-only)
-      - [Prefer Range](#prefer-range)
-      - [Slow Reload](#slow-reload)
-      - [Very Slow Reload](#very-slow-reload)
-      - [Ranged](#ranged)
-      - [Serrated](#serrated)
-      - [Perfectly Balanced](#perfectly-balanced)
-      - [Poison-Chamber](#poison-chamber)
   - [Lists of Skills](#lists-of-skills)
     - [Physical Skills](#physical-skills)
       - [Acrobatics (Agi/Str)](#acrobatics-agistr)
@@ -330,7 +333,7 @@ By using STRIVE (that includes but is not limited to viewing, reading, referenci
       - [Trapping (Awar/Wit)](#trapping-awarwit)
       - [Throwing (Agi/Str)](#throwing-agistr)
       - [Unarmed Combat (Agi/Str)](#unarmed-combat-agistr)
-      - [Weapon \< Weapon Type \> (\< Base Attributes \>)](#weapon--weapon-type---base-attributes-)
+      - [Weapon \< Weapon-Family \> (\< Base Attributes \>)](#weapon--weapon-family---base-attributes-)
     - [Social Skills](#social-skills)
       - [Acting (Awar/Wit)](#acting-awarwit)
       - [Animal Handling (Awar/Awar)](#animal-handling-awarawar)
@@ -506,6 +509,8 @@ By using STRIVE (that includes but is not limited to viewing, reading, referenci
       - [Hyperactive (-7 points; +4 CR)](#hyperactive--7-points-4-cr)
       - [Inexorable (-5 points; +4 CR)](#inexorable--5-points-4-cr)
       - [Moon Affinity (-7 points; +4 CR)](#moon-affinity--7-points-4-cr)
+      - [Hardened Spine (-10 points; +8 CR)](#hardened-spine--10-points-8-cr)
+      - [Perfect Defense (-10 points; +8 CR)](#perfect-defense--10-points-8-cr)
   - [Choosing NPC Characteristics](#choosing-npc-characteristics)
   - [Choosing NPC Skills](#choosing-npc-skills)
     - [Bite (Agi/Str)](#bite-agistr)
@@ -544,6 +549,7 @@ As STRIVE is meant primarily as a rule-book to help you quickly find what you ne
 | [Ambition Fate-Point (AFP)](#ambition-fate-points)          | A Fate-Point earned for the greatest of achievements. |
 | [Ambition](#ambition)                                       | A Character's main and life-fulfilling goal. The primary Driver of a Character. |
 | [Area of Effect (AoE)](#area-of-effect-aoe)                 | Indicates an Attack will affect multiple targets in an area, which could be a cone, a radius, line, or similar shape. |
+| [Armor Assets](#armor-assets)                               | An asset designed to be worn as armor. |
 | [Aspiration](#aspiration)                                   | A Character's secondary and more immediate goal, based on recent events. |
 | [Asset](#assets)                                            | A *thing* that a Character may own and/or carry on person. May also be an uncarriable piece of Property, such as a castle. |
 | [Assurance](#quirk)                                         | A PC's Quirk that ensures the PC may enter a given troublesome situation under more favorable circumstances. |
@@ -714,6 +720,9 @@ As STRIVE is meant primarily as a rule-book to help you quickly find what you ne
 | [Very Long Reach](#very-long-reach)                         | A weapon Trait for melee weapons that allow Attacking targets up to three Squares away. |
 | [Very Slow Reload](#very-slow-reload)                       | A weapon Trait that for a weapon that must be reloaded after every use, at the cost of more AP. |
 | [Virtue / Vice](#virtues--vices)                            | Describes a Character's way of thinking and how they should act, in general. |
+| [Weapon Asset](#weapon-assets)                              | An Asset designed to be used as a weapon. Improvised weapons don't count. |
+| [Weapon Trait](#weapon-traits)                              | Weapon Traits are modular rules that make one weapon mechanically different from another, by changing what a weapon is capable of. |
+| [Weapon-Family](#weapon-family)                             | Weapon-Families broadly categorize weapons, which [Weapon Skills](#weapon--weapon-family---base-attributes-) reference, to determine *how* a weapon is used. |
 | [Wit (Wit)](#wit-wit)                                       | An Attribute that describes a Character's sharpness of mind and tongue. Finds use in determining Base Initiative. |
 
 # How to Play
@@ -1160,7 +1169,7 @@ Expertises may cost a variable amount of [AP](#action-points-ap) to activate. A 
 
 An Ob may be noted on an Expertise. In order to activate it, a Test of the Owning Skill, at the noted Ob, must succeed. 
 
-[Weapon Skills](#weapon--weapon-type---base-attributes-) use Expertises to denote the ways one can Attack with them. 
+[Weapon Skills](#weapon--weapon-family---base-attributes-) use Expertises to denote the ways one can Attack with them. 
 
 #### Concentration
 A **Concentration** Skill or Expertise upholds its effect(s) once successfully enacted, for as long as the user desires or is conscious. Under normal circumstances, a Character may only have **one Concentration** ability active at the same time. 
@@ -1621,6 +1630,71 @@ Things such as an owned plot of land, a house, money in the bank, equipment and 
 
 There is no limit for how much Property a Character can have. Except, perhaps, how much they can keep safe from greedy hands. 
 
+### Armor Assets
+An Asset designed to be worn as [armor](#armor--shields). 
+
+### Weapon Assets
+An Asset designed to be used as a weapon. Improvised weapons don't count, although they may be still be used with an appropriate [Weapon Skill](#weapon--weapon-family---base-attributes-). 
+
+> For example, when grabbing a bar stool, and a Weapon-Family for blunt weapons exists, then that Weapon-Family's respective Skill may find use for any Attacks made wielding the bar stool. But the bar stool remains a non-weapon Asset. 
+
+#### Weapon-Family
+**Weapon-Families** broadly categorize weapons, each of which has distinct properties better suited to a particular task or filling a particular niche. [Weapon Skills](#weapon--weapon-family---base-attributes-) reference these to determine *how* a weapon is used. 
+
+> Example Weapon-Families would be "Axe", "Bow", "Rifle", "Plasma Guns" and so on. 
+
+#### Weapon Traits
+**Weapon Traits** are modular rules that make one weapon mechanically different from another, by changing what a weapon is capable of. Even within one [Weapon-Family](#weapon-family), there can be many different Assets with very different Weapon Traits, each filling a different niche or with particular strengths and weaknesses.  
+
+##### Melee
+<img src="../../img/melee-1.svg" style="width: 3rem; height: 3rem;"></img>
+
+Allows Attacking an adjacent target.
+
+##### Long Reach
+<img src="../../img/melee-2.svg" style="width: 3rem; height: 3rem;"></img>
+
+Allows Attacking a target two Squares away. 
+
+##### Very Long Reach
+<img src="../../img/melee-3.svg" style="width: 3rem; height: 3rem;"></img>
+
+Allows Attacking a target three Squares away. 
+
+##### Range Only
+<img src="../../img/ranged-only.svg" style="width: 3rem; height: 3rem;"></img>
+
+Implies a weapon cannot be used against any targets adjacent to self. 
+
+##### Prefer Range
+`+2` Ob to using the weapon against an adjacent target.
+
+##### Slow Reload
+Reloading the weapon costs `2` [AP](#action-points-ap).
+
+##### Very Slow Reload
+Reloading the weapon costs `3` [AP](#action-points-ap).
+
+##### Ranged
+<img src="../../img/ranged.svg" style="width: 3rem; height: 3rem;"></img>
+
+The weapon can be used against targets up to a noted distance away from the user. The range, in Squares, is noted in parentheses. This can either indicate a maximum distance, which cannot be exceeded, or a so-called **Distance Increment**, abbreviated **DI**, which may be exceeded, but with penalties.
+
+For every Distance Increment past the initial, an Attack suffers `+1` Ob and deals `-2` points of Damage. In other words, the farther you shoot, the harder it becomes to score an effective hit. 
+
+> A weapon with this Trait noted as `(max. 8)` can Attack a target up to a maximum of `8` Squares away. 
+
+> A weapon with this Trait noted as `(10 DI)` has a Distance Increment of `10` Squares. Any Attack up to and including `10` Squares incurs no penalties, but starting from the `11`th Square, the Attack suffers `+1` Ob and if successful, deals `-2` points of Damage less. Starting from the `21`st Square, `+2` Ob and `-4` points of Damage, and so on.
+
+##### Serrated
+Melee Attacks with this weapon cause an additional `+Q` points of Bleeding.
+
+##### Perfectly Balanced
+Melee Attacks with this weapon receive `+1` [Compensation Point](#compensation-points). 
+
+##### Poison-Chamber
+Melee Attacks with this weapon cause an additional `+Q` points of Poison Damage. The poison-chamber must be refilled after every use. 
+
 # Fate Points
 **Fate points (FP)** represent a meta-currency that *players* can earn and use to buy boons for their Character or the group as a whole. At the end of every session, players and the GM should discuss who earned which FP, followed by awarding those FP. 
 
@@ -1994,7 +2068,7 @@ This Action costs `-2` [AP](#action-points-ap).
 The ally in question may oppose this action with [Strength](#strength-str) (both Characters will have to compete with this Attribute). 
 
 ## Attacking
-An Attack is any Action or Reaction that targets another Character, to their detriment - causing Damage, inflicting negative Health Conditions, weakening, interrupting, Forced-Movement and so on. Most commonly, Attacks are made with a [Weapon](#weapon--weapon-type---base-attributes-) Skill. 
+An Attack is any Action or Reaction that targets another Character, to their detriment - causing Damage, inflicting negative Health Conditions, weakening, interrupting, Forced-Movement and so on. Most commonly, Attacks are made with a [Weapon](#weapon--weapon-family---base-attributes-) Skill. 
 
 An Attack generally requires an [Opposed Test](#opposed-test) to be made. If the Attacker wins, [Damage](#damage--effects) is determined and applied to the Defender. If the Defender wins, they suffer **no Damage** or other negative effects. A Defender must *choose* how to defend, unless a specific Skill is required. See also [Defending](#defending).
 
@@ -2048,7 +2122,7 @@ Three allies can **Surround** the opponent, further reducing their armor's and s
 * When **Surrounded**, the armor and shield protect only one fourth (RU) as much. `-2D` to any Defense Test. 
 * When **Overwhelmed**, the armor and shield no longer protect **at all**. `-3D` to any Defense Test. 
 
-If one of the allies is using a weapon with a property to increase its reach, for example [Long Reach](#weapon-traits), then they need not be adjacent to the enemy to count towards the Flanking effect (but still within their weapon's reach to the enemy). 
+If one of the allies is using a weapon with a property to increase its reach, for example [Long Reach](#general-weapon-traits), then they need not be adjacent to the enemy to count towards the Flanking effect (but still within their weapon's reach to the enemy). 
 
 The following two graphics illustrate valid spots for a second ally to enter, to Flank the Character in the center. 
 
@@ -2073,16 +2147,14 @@ The **Free Strike (FS)** number defines bonus Damage that Characters may inflict
 This value is mostly reserved for NPCs, as this is the Damage value used when multiple of the same type of NPC launch an Attack at the same time, as a [Squad](#npc-squads). This way, instead of having to roll determine Damage many times individually, the **main aggressor's Damage** is summed with **all assisting allies' Free Strike value**. Whether allies can join in to deal more Damage, depends on whether they are in their weapon's range to Attack and are part of the aggressor's [Squad](#npc-squads). 
 
 ## Defending
-A Character being targeted with any other Skill may choose, as a Reaction, to defend against it. Doing so costs `1` [AP](#action-points-ap) and calls for an [Opposed Test](#opposed-test). The Attacker must achieve **more Hits** than the Defender, or else the Defender wins and the Attack is negated, entirely. The Defender must *choose* how to defend, unless a specific "opposed by" Skill is noted. Valid choices are a [Weapon](#weapon--weapon-type---base-attributes-), the [Acrobatics](#acrobatics-agistr) or the [Shield](#shield-strtough) Skill. 
+A Character being targeted with any other Skill may choose, as a Reaction, to defend against it. Doing so costs `1` [AP](#action-points-ap) and calls for an [Opposed Test](#opposed-test). The Attacker must achieve **more Hits** than the Defender, or else the Defender wins and the Attack is negated, entirely. The Defender must *choose* how to defend, unless a specific "opposed by" Skill is noted. Valid choices are a [Weapon](#weapon--weapon-family---base-attributes-), the [Acrobatics](#acrobatics-agistr) or the [Shield](#shield-strtough) Skill. 
 
 A Character without any, or not enough [AP](#action-points-ap) left to spend, **can not defend**. In this case, the Attacker's Ob is simply `1` (plus any potential Modifier from the Expertise or Skill they're Attacking with). 
 
 Defending against [Area Of Effect](#area-of-effect) is only possible through some Expertises. 
 
 ### Armor & Shields
-Armor serves as life insurance, because it can negate or at least reduce the Damage taken, after a Defense Test has failed. Shields on the other hand provide bonuses to Defense, making it harder for an enemy to succesfully land a hit in the first place. 
-
-The specifics of armors and shields can be found in the [Asset appendix](#assets-appendix) of whatever module you're using. 
+[Armor](#armor-assets) serves as life insurance, because it can negate or at least reduce the Damage taken, after a Defense Test has failed. Shields on the other hand provide bonuses to Defense, making it harder for an enemy to succesfully land a hit in the first place. 
 
 ### Defending an Ally
 It is possible for a Character to defend an adjacent ally when they're being Attacked. This costs `1` [AP](#action-points-ap) and results in the Character taking over the Defense Test, instead of the originally Attacked Character. 
@@ -2450,58 +2522,6 @@ When looking up products for crafting, the tools and materials required for the 
 | Objet d'art            | 1    | 1               | 20  | 10 Minutes |             | A painting, sculpture or other art piece. |
 | Ration                 | 1    | 10              | 10  | 30 Minutes |             | A ration of preserved food and drink, enough for a whole day. |
 
-### Weapon Traits
-Weapon type Assets can have the following traits:
-
-#### Melee
-<img src="../../img/melee-1.svg" style="width: 3rem; height: 3rem;"></img>
-
-Allows Attacking an adjacent target.
-
-#### Long Reach
-<img src="../../img/melee-2.svg" style="width: 3rem; height: 3rem;"></img>
-
-Allows Attacking a target two Squares away. 
-
-#### Very Long Reach
-<img src="../../img/melee-3.svg" style="width: 3rem; height: 3rem;"></img>
-
-Allows Attacking a target three Squares away. 
-
-#### Range Only
-<img src="../../img/ranged-only.svg" style="width: 3rem; height: 3rem;"></img>
-
-Implies a weapon cannot be used against any targets adjacent to self. 
-
-#### Prefer Range
-`+2` Ob to using the weapon against an adjacent target.
-
-#### Slow Reload
-Reloading the weapon costs `2` [AP](#action-points-ap).
-
-#### Very Slow Reload
-Reloading the weapon costs `3` [AP](#action-points-ap).
-
-#### Ranged
-<img src="../../img/ranged.svg" style="width: 3rem; height: 3rem;"></img>
-
-The weapon can be used against targets up to a noted distance away from the user. The range, in Squares, is noted in parentheses. This can either indicate a maximum distance, which cannot be exceeded, or a so-called **Distance Increment**, abbreviated **DI**, which may be exceeded, but with penalties.
-
-For every Distance Increment past the initial, an Attack suffers `+1` Ob and deals `-2` points of Damage. In other words, the farther you shoot, the harder it becomes to score an effective hit. 
-
-> A weapon with this Trait noted as `(max. 8)` can Attack a target up to a maximum of `8` Squares away. 
-
-> A weapon with this Trait noted as `(10 DI)` has a Distance Increment of `10` Squares. Any Attack up to and including `10` Squares incurs no penalties, but starting from the `11`th Square, the Attack suffers `+1` Ob and if successful, deals `-2` points of Damage less. Starting from the `21`st Square, `+2` Ob and `-4` points of Damage, and so on.
-
-#### Serrated
-Melee Attacks with this weapon cause an additional `+Q` points of Bleeding.
-
-#### Perfectly Balanced
-Melee Attacks with this weapon receive `+1` [Compensation Point](#compensation-points). 
-
-#### Poison-Chamber
-Melee Attacks with this weapon cause an additional `+Q` points of Poison Damage. The poison-chamber must be refilled after every use. 
-
 ## Lists of Skills
 The following list does not and cannot aim to be a complete listing of all possible Skills in game. Adding new Skills as necessary will have to be done by the GM. Nevertheless, most general need should be covered. 
 
@@ -2618,8 +2638,8 @@ Traits: [Melee](#melee), [FS](#free-strike-fs): `Str`
 | ----- | ------------------------------------------------------------------------------------- | ------------------------- | ---------------------- | ----------------------------- | -------------------------------- | --------------------------------------------------------------------------------------------------- |
 | 4     | Hammer and Anvil | `-15` | A PC may immediately Attack a foe, dealing `Strength` points of Bludgeoning Damage and Force-Moving the foe by `Strength` Squares. Adjacent allies may assist, each providing `+1` Square of movement. | A PC may immediately Attack an adjacent foe, dealing `Strength * 2` points of Bludgeoning Damage and force moving their foe by `Strength * 2` Squares, but also pushing themself in the opposite direction by the same distance. | `+15` | All Anvil |
 
-#### Weapon < Weapon Type > (< Base Attributes >)
-Expertise at handling a weapon of a specific type. 
+#### Weapon < Weapon-Family > (< Base Attributes >)
+Expertise at handling a weapon of a specific [Weapon-Family](#weapon-family). 
 
 ### Social Skills
 These Skills have a dominant social aspect and are strongly related to a Character's *social Attributes*. 
@@ -2896,7 +2916,7 @@ Raise your base HP by `+10`.
 ### Warcrobat
 Combining agility with deadliness, elevating mere skill at arms to an elegant art. Grants `+1` [Compensation Point](#compensation-points) to all Acrobatics Tests.
 
-**Prerequisites**: [Acrobatics](#acrobatics-agistr) Level `3+` and a [Weapon Skill](#weapon--weapon-type---base-attributes-) at Level `3+`. Costs `30` [XP](#experience-points-xp) to unlock. 
+**Prerequisites**: [Acrobatics](#acrobatics-agistr) Level `3+` and a [Weapon Skill](#weapon--weapon-family---base-attributes-) at Level `3+`. Costs `30` [XP](#experience-points-xp) to unlock. 
 
 Adds the following Expertises to [Acrobatics](#acrobatics-agistr):
 
@@ -3903,6 +3923,12 @@ When basking in a full moon, the creature regains `6` HP at the start of its Tur
 Gain the ability: **Moon Step**: At the cost of `1` AP, the creature can vanish into the moon light and re-appear in a spot also basked in moon light, up to `15` Squares away. It does not need line of sight to that spot. 
 
 Suitable for: Creatures of the night, such as werewolves, vampires and ghosts. 
+
+#### Hardened Spine (-10 points; +8 CR)
+Attacks from behind the creature cannot Damage it! It still suffers [Flanking](#flanking). Exclusive with [Perfect Defense](#perfect-defense--10-points-8-cr).
+
+#### Perfect Defense (-10 points; +8 CR)
+Attacks from in front of the creature cannot Damage it! It still suffers [Flanking](#flanking). Exclusive with [Hardened Spine](#hardened-spine--10-points-8-cr).
 
 ## Choosing NPC Characteristics
 * You may increase each Attribute `+1` at the cost of `-1` point. 
