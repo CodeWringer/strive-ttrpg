@@ -576,8 +576,8 @@ These magic-themed Momentum Actions complement the [Core Momentum Actions](./str
 | ------------------------------------------------------------------------------------- | ------------------------- | ---------------------- | ----------------------------- | -------------------------------- | --------------------------------------------------------------------------------------------------- |
 | Cool Down <br><img src="../../img/heroic-acts.svg" width="64px" height="64px"></img> | `-15` | Reduces a single PC's Arcane Overheat and Slag by `4` points, each. | Convert up to `10` points of a single PC's current Arcane Slag into `N * 3` Burning damage to all foes around them, in a `2` Square radius. The Slag is then removed. The PC suffers `1` point of Burning damage for each removed Slag point. | `+15` | Eruption <br><img src="../../img/desperate-measures.svg" width="64px" height="64px"></img> |
 | Tempered Arcane Overdrive <br><img src="../../img/heroic-acts.svg" width="64px" height="64px"></img> | `-30` | A single PC mage's spells are `+2` SI stronger, and generate no Arcane Slag, for `1` Round! | A single PC mage's spells are `+3` SI stronger, and generate neither Arcane Overheat nor Slag, for `2` Rounds! However, after those Rounds have passed, the mage always suffers `1D10 + 3` Arcane Slag (Combat ending early **doesn't** prevent this)! | `+30` | Strained Arcane Overdrive <br><img src="../../img/desperate-measures.svg" width="64px" height="64px"></img> |
-| Spellbreaker <br><img src="../../img/heroic-acts.svg" width="64px" height="64px"></img> | `-20` | A chosen single PC mage may now [Negate Spells](#magic-negation) cast within `10` Squares of them without suffering any Arcane Slag or Overheat, for `2` Rounds! Note the mage *does* still suffer the damage. | All Spells cast within `10` Squares of a chosen single PC **must** now always target that PC. Positive Spells gain `+1` SI, while negative Spells lose `-1` SI. This effect lasts `2` Rounds. | `+15` | Arcane Lightning Rod <br><img src="../../img/desperate-measures.svg" width="64px" height="64px"></img> |
-| Heat Reflector <br><img src="../../img/heroic-acts.svg" width="64px" height="64px"></img> | `-15` | Until the end of Combat, whenever a foe inflicts Arcane Overheat or Arcane Slag on a chosen single PC, reflect half (RU) of it to the foe, which the PC doesn't suffer. | Until the end of Combat, whenever a foe inflicts Arcane Overheat or Arcane Slag on a chosen single PC, they suffer `+1` of each, but then double the amount of Arcane Slag and Overheat is also dealt to the foe. | `+20` | Arcane Reprisal <br><img src="../../img/desperate-measures.svg" width="64px" height="64px"></img> |
+| Spellbreaker <br><img src="../../img/heroic-acts.svg" width="64px" height="64px"></img> | `-20` | A chosen single PC mage may now [Negate Spells](#magic-negation) cast within `10` Squares of them without suffering any Arcane Slag or Overheat, for `2` Rounds! Note the mage *does* still suffer the damage. | All Spells cast within `10` Squares of a chosen single PC now **always target that PC**, regardless of whether they normally couldn't. Beneficial Spells (e.g. healing) gain `+1` SI, while detrimental Spells (e.g. damage) lose `-1` SI. This effect lasts `2` Rounds. | `+15` | Arcane Lightning Rod <br><img src="../../img/desperate-measures.svg" width="64px" height="64px"></img> |
+| Heat Reflector <br><img src="../../img/heroic-acts.svg" width="64px" height="64px"></img> | `-15` | Until the end of Combat, whenever a foe inflicts Arcane Overheat or Arcane Slag as a result from their Actions, Reactions and Passives on a chosen single PC, reflect half (RU) of it to the foe, which the PC doesn't suffer. | Until the end of Combat, whenever a foe inflicts Arcane Overheat or Arcane Slag on a chosen single PC, as a result from their Actions, Reactions and Passives, they suffer `+1` of each, but then double the amount of Arcane Slag and Overheat is also dealt to the foe. | `+20` | Arcane Reprisal <br><img src="../../img/desperate-measures.svg" width="64px" height="64px"></img> |
 | Perfect Spell <br><img src="../../img/heroic-acts.svg" width="64px" height="64px"></img> | `-25` | A single chosen PC mage's next Spell automatically succeeds and cannot [Backfire](#spell-backfire)! However, they do still suffer Arcane Slag and Overheat from it. | For `1` Round, a single chosen enemy mage's Spells may additionally [Backfire](#spell-backfire), regardless of their Test result. Roll `1D6`: on a Miss, a Backfire occurs, on a Hit, no Backfire occurs. Note these Backfires are additional effects, that trigger *after* the Spell's normal resolution. Yes, this may in fact also result in a double Backfire! | `+30` | Negative Feedback <br><img src="../../img/desperate-measures.svg" width="64px" height="64px"></img> |
 | Backfire Dodger <br><img src="../../img/heroic-acts.svg" width="64px" height="64px"></img> | `-15` | The current or next Spell-Backfire of a chosen PC mage is re-directed onto a willing ally, who suffers it at `-2` SI (reduced to no less than `1` SI). | The current or next Spell-Backfire of a chosen PC mage is duplicated onto a chosen enemy, who also suffers it, and at `+2` SI. | `+20` | You Should See The Other Guy <br><img src="../../img/desperate-measures.svg" width="64px" height="64px"></img> |
 
@@ -1585,7 +1585,7 @@ Drivers:
 2. I know there are many private collections full of magical marvels. I will gain access to them!
 3. I have never traveled much before. I will need guidance and perhaps a group to tag along to my next destination.
 
-Reactions:
+Quirks:
 1. Troublemaker: When frightened, I tend to have outbursts of my pyromanic magic. 
 2. Troublemaker: I tend to drone on and ramble, testing the patience of others, especially in negotiations. 
 3. Assurance: The world of magic practicioners is small enough and well connected - I know most others who engage in my craft. 
@@ -1627,7 +1627,7 @@ Drivers:
 2. I seek thrill and excitement! And what greater thrill is there to be found, than in blood sport? I will participate!
 3. Great works live on - I will invent the world's most outrageous, exciting and inspiring stage play! 
 
-Reactions:
+Quirks:
 1. Troublemaker: I cannot help but fan the flames - a heated situation is always *so much more interesting*!
 2. Troublemaker: I love when the blood pumps - and I seek such moments voraciously!
 3. Assurance/Troublemaker: It takes one to know one - I can always recognize an actor, a charlatan and a visionary. But I *might* keep such wisdom to myself...
@@ -1667,7 +1667,7 @@ Drivers:
 2. I will find a group of foolhardy adventurers to travel with, as I will need protection and coin. And to keep honing my art. 
 3. A hospital is expensive - I will convince someone influential and wealthy to fund my hospital for me. 
 
-Reactions:
+Quirks:
 1. Troublemaker: If someone is in need, I will always help. Afterwards I may still ask to be paid, though.
 2. Troublemaker: If someone else tries to treat Injuries, I will always push them aside and take over. Can't have the laity play doctor!
 3. Troublemaker: I **do not kill** people. I *may* hurt them, though.
@@ -1705,7 +1705,7 @@ Drivers:
 2. My current quarry is a particular threat. I will find allies to help me track and ultimately take it down. 
 3. Others view me with unjust suspicion. I will earn the trust of a community I wish to settle down in!
 
-Reactions:
+Quirks:
 1. Troublemaker: I must help others in need - life is tough enough as it is. But I refuse coin for good deeds. 
 2. Assurance: I have a reputation. Others know my work and will gladly point me towards more, even offer supplies and financial aid, albeit no helping hand. 
 3. Troublemaker/Assurance: Whenever I am unsure of my path, I take out my - supposedly broken - compass. Its needle always points where I am needed. I think. 
@@ -1745,7 +1745,7 @@ Drivers:
 2. My allies are spent and stolen. I will earn a favor from someone influential and wealthy, to call upon later. 
 3. My old company has made themselves scarce. I know they fear me. I will find out where they currently are and what their plans are.
 
-Reactions:
+Quirks:
 1. Troublemaker: Whenever I get the chance, I will boast wholeheartedly of my exploits and those of my company! Who cares if not everything we did was *legal*?
 2. Assurance: Many negotiations in the past have taught me valuable appraisal skills. I can always tell if *something seems off* in an offered deal. 
 3. Troublemaker/Assurance: You never know where the enemy lurks. I always have a weapon and my armor ready. 

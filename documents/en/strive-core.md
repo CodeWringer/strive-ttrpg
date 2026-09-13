@@ -71,7 +71,7 @@ There are my two small, yet inexorable groups of play-testers, whose feedback ha
 
 And of course, such a project did not come into existence in a vacuum. Inspiration and lessons were found in a variety of places, such as other TTRPGs. Each of them deserves an honorable mention and in what ways they differ from STRIVE. It bears stating here that neither STRIVE, nor I as its designer, are in any way affiliated with, sponsored or endorsed by the products and website mentioned below. These are simply honorable mentions of other RPGs and sources for inspiration. 
 
-* If you are interested in a medieval fantasy world and enjoy the Aspiration, Reaction and Fate-Card systems, but care little for STRIVE's emphasis on combat, **Burning Wheel** may be what you seek. 
+* If you are interested in a medieval fantasy world and enjoy the Aspiration, Quirk and Fate-Card systems, but care little for STRIVE's emphasis on combat, **Burning Wheel** may be what you seek. 
 * For heroic medieval fantasy, where combat is the core - even more so than in STRIVE -, check out **Draw Steel**. Its unique Malice mechanic and how combatants are constantly moved around keeps combat interesting all throughout.
 * **Symbaroum** offers haunting and marvelous artworks in an equally fascinating dark medieval fantasy world. The way in which you can customize your Character builds are plentiful and really fun to experiment with! Skill Expertises and some Traits were inspired by this system.
 * For grim dark fantasy, with a more complex injury system, take a look at **Zweihänder**, which in turn appears inspired by **Warhammer Fantasy**. Its list of professions and skills offers an incredible wealth of Character customization! 
@@ -142,6 +142,7 @@ By using STRIVE (that includes but is not limited to viewing, reading, referenci
     - [Compensation Points](#compensation-points)
     - [Time](#time)
     - [Test Success Likelihoods](#test-success-likelihoods)
+  - [Actions, Reactions \& Passives](#actions-reactions--passives)
 - [Character](#character)
   - [Abilities](#abilities)
     - [Attributes](#attributes)
@@ -174,7 +175,7 @@ By using STRIVE (that includes but is not limited to viewing, reading, referenci
     - [Drivers](#drivers)
       - [Ambition](#ambition)
       - [Aspiration](#aspiration)
-      - [Reaction](#reaction)
+      - [Quirk](#quirk)
     - [Virtues \& Vices](#virtues--vices)
   - [Health](#health)
     - [Health Points (HP)](#health-points-hp)
@@ -278,10 +279,10 @@ By using STRIVE (that includes but is not limited to viewing, reading, referenci
     - [Determine Name](#determine-name)
     - [Personal Details](#personal-details)
     - [Determine Personality](#determine-personality)
-      - [Determine Ambition, Aspirations \& Reactions](#determine-ambition-aspirations--reactions)
+      - [Determine Ambition, Aspirations \& Quirks](#determine-ambition-aspirations--quirks)
         - [Choosing an Ambition](#choosing-an-ambition)
         - [Choosing Aspirations](#choosing-aspirations)
-        - [Choosing Reactions](#choosing-reactions)
+        - [Choosing Quirks](#choosing-quirks)
     - [Determine Abilities](#determine-abilities)
       - [Choosing Attributes](#choosing-attributes)
         - [Manual Attribute Assignment](#manual-attribute-assignment)
@@ -526,7 +527,7 @@ As STRIVE is meant primarily as a rule-book to help you quickly find what you ne
 | Term                                                        | Meaning / Description   |
 | ----------------------------------------------------------- | ----------------------- |
 | [Action Point(s) (AP)](#action-points-ap)                   | A temporary resource that limits how much Characters can do on their Turn. |
-| [Action](#intent--action)                                   | Something a Character wishes to do. In Combat, this is any self-initiated action that isn't a Reaction. |
+| [Action](#intent--action)                                   | Occurs as something a Character does themself. An Action is usually self-initiated, but doesn't have to be. |
 | [Active Injury](#injury-states--treatment)                  | An Active Injury reduces a Character's maximum HP and imposes additional penalties. |
 | [Advancement Progress](#advancement)                        | The number that dictates a Skill's current progress towards Advancement. |
 | [Advancement](#advancement)                                 | PCs may raise their Attributes' and Skills' Levels as they exercise them and gain XP. |
@@ -536,7 +537,7 @@ As STRIVE is meant primarily as a rule-book to help you quickly find what you ne
 | [Area of Effect (AoE)](#area-of-effect-aoe)                 | Indicates an attack will affect multiple targets in an area, which could be a cone, a radius, line, or similar shape. |
 | [Aspiration](#aspiration)                                   | A Character's secondary and more immediate goal, based on recent events. |
 | [Asset](#assets)                                            | A *thing* that a Character may own and/or carry on person. May also be an uncarriable piece of Property, such as a castle. |
-| [Assurance](#reaction)                                      | A PC's Reaction that ensures the PC may enter a given troublesome situation under more favorable circumstances. |
+| [Assurance](#quirk)                                         | A PC's Quirk that ensures the PC may enter a given troublesome situation under more favorable circumstances. |
 | [Attack Test](#attacking)                                   | A Test made to harm or hinder another Character. |
 | [Attacker](#attacking)                                      | A Character performing some Action that targets another. The distinction whether this is a hostile or benign action does not matter. |
 | [Attribute](#attributes)                                    | A Character's most basic ability. Its Level dictates the base number of dice available for a Test. |
@@ -577,7 +578,7 @@ As STRIVE is meant primarily as a rule-book to help you quickly find what you ne
 | [Dissolving](#dissolving)                                   | A Condition that causes Acid damage every Tick. |
 | [Distance Increment (DI)](#ranged)                          | Indicates a ranged weapon's/attack's range increments. Attacking past this number of Squares incurs penalties to the attack. |
 | [Down-Time](#down-time)                                     | Whenever the PCs aren't out actively adventuring, they may have time to themselves, to pursue a craft, hone their abilities or simply relax. |
-| [Drivers](#drivers)                                         | Refers to a Character's Ambition, Aspirations and Reactions - goals to work towards and automatic triggers to get them into trouble. |
+| [Drivers](#drivers)                                         | Refers to a Character's Ambition, Aspirations and Quirks - goals to work towards and automatic triggers to get them into trouble. |
 | [Drug-Addicted](#drug-addicted)                             | A Condition that forces a Character to act compulsively. |
 | [Electrified](#electrified)                                 | A Condition that forces a Character to spasm uncontrollably and thus be Force-Moved. |
 | [Exhausted](#exhausted)                                     | A Condition that Character suffer when they exert themselves too much. It makes them lethargic and their Tests harde to succeed. |
@@ -635,6 +636,7 @@ As STRIVE is meant primarily as a rule-book to help you quickly find what you ne
 | [Overwhelmed](#flanking)                                    | The third and final degree of Flanking. An Overwhelmed Character's armor is no longer protects, at all and their Defense Tests are incredibly dfficult. |
 | [Owning Skill](#expertise)                                  | The Skill an Expertise is part of. |
 | [Pacified](#pacified)                                       | A Condition that cannot *willingly* take any hostile Actions. |
+| [Passive](#actions-reactions--passives)                     | An effect that is always active (when a defined condition is met). |
 | [Penalized Attribute](#core-favored-normal--penalized-attributes)| An Attribute that is much harder to Advance. |
 | [Penalty](#boons--penalties)                                | A negative effect on a Character, for example one that reduces the dice available for Tests. |
 | [Perfectly Balanced](#perfectly-balanced)                   | A weapon Trait that indicates a weapon is more effective. |
@@ -654,11 +656,12 @@ As STRIVE is meant primarily as a rule-book to help you quickly find what you ne
 | [Property](#property)                                       | The Assets a Character owns but is not carrying on-person. |
 | [Push Through Action](#push-through)                        | A Character may choose to move despite suffering an Opportunity Attack. |
 | [Quality Level](#crafting--research-projects)               | A numeric value that describes the quality of an Asset or Project. |
+| [Quirk](#quirk)                                             | Part of a Character's Drivers and always triggers when some defined condition is met, to get the Character in trouble or grant them an assurance. |
 | [Range of Opportunity](#opportunity-attacks)                | The zone around a Character that lets them launch Opportunity Attacks as a Reaction to foes moving around or away from them. |
 | [Range Only](#range-only)                                   | A weapon Trait that indicates a weapon cannot be used against adjacent targets. |
 | [Ranged](#ranged)                                           | A weapon Trait for all ranged weapons. |
 | [Raw Level](#raw-vs-modified-level)                         | The Level value before Boons and Penalties have been applied to it. |
-| Reaction                                                    | Something a Character does in reaction to another. Or, refers to one of a Character's triggered behaviors, that are part of their [Drivers](#reaction). |
+| [Reaction](#actions-reactions--passives)                    | An Action that may occur when a defined condition is met. |
 | [Rooted](#rooted)                                           | A Condition that disallows a Character from moving of their own volition. |
 | [Round](#initiative)                                        | A Round comprises all Turns of Characters currently in Initiative Order. When all Characters have had their Turn, a Round is concluded and the next Round begun. |
 | [Rounded Down (RD)](#rounded-up--rounded-down)              | Indicates a step or result of a calculation is supposed to be rounded down. |
@@ -690,7 +693,7 @@ As STRIVE is meant primarily as a rule-book to help you quickly find what you ne
 | [Title of Renown](#titles-of-renown)                        | A unique reputation that a Character is known for, far and wide. Often earned through great achievements, both good and terrible. |
 | [Toughness (Tough)](#toughness-tough)                       | An Attribute that describes a Character's capacity to withstand physical and mental strains. Finds use in determining maximum HP, maximum Stamina and Sprinting Speed. |
 | [Treated Injury](#injury-states--treatment)                 | A Treated Injury only reduces a Character's maximum HP. |
-| [Troublemaker](#reaction)                                   | A PC's Reaction that makes it easy for the GM to get that PC into *trouble* - some minor social conflict to shake things up. |
+| [Troublemaker](#quirk)                                      | A PC's Quirk that makes it easy for the GM to get that PC into *trouble* - some minor social conflict to shake things up. |
 | [Turn](#initiative)                                         | The moment in time when a Character gets to act in an Initiative Order. |
 | [Unconscious](#unconscious)                                 | A Condition for a Character who is either asleep or knocked unconscious. |
 | [Unthreatened](#flanking)                                   | The default for all Unflanked Characters in Combat. Their defenses work to the fullest intent. |
@@ -776,7 +779,7 @@ Typically in RPGs, a fight is considered a **[Combat](#combat) encounter**. Non-
 ## After the Session
 After a session is done, the players and GM stick around to discuss which players earned [Fate Points](#fate-points). This is where players are nominated for Fate Points, by each other and by the GM. If everyone agrees, the Fate Points are awarded. Players can and should lobby for their Fate Points, but shouldn't beg. If most everyone else says no, then that decision stands. 
 
-Also after the session, players and the GM discuss whether a PC should lose a [Reaction](#reaction), because they have acted against it or haven't gotten to play it out at all. 
+Also after the session, players and the GM discuss whether a PC should lose a [Quirk](#quirk), because they have acted against it or haven't gotten to play it out at all. 
 
 Players may now spend earned Fate Points to buy cards (boons) from the [Hand Of Fate](#hand-of-fate) and adjust their Character's [Personality](#virtues--vices) and [Aspirations](#aspiration). This may also be postponed to the start of the next session. 
 
@@ -983,6 +986,23 @@ And then there are the [Fate-Cards](#hand-of-fate), which can also provide signi
 
 In conclusion, what can be said is, dice pool systems are complex, but also flexible. While the exact numbers are too plentiful to remember and the success likelihoods concealed by the number of dice, you rarely actually need to know them. What you need to know are the Ob thresholds and that you *really should* seek out Compensation Points. 
 
+## Actions, Reactions & Passives
+Everything a Character does is always categorized as either an **Action** or a **Reaction**. 
+
+An **Action** occurs as something a Character does themself. An Action is usually self-initiated, but doesn't have to be. 
+
+> For example, a mind-controlled Character can be made to walk onto a minefield as one of their Actions, but because this happens against their will, such an Action isn't considered self-initiated.
+
+A **Reaction** is an Action that may occur when a defined condition is met. A Reaction is always implicitly optional, unless stated otherwise. 
+
+> For example, when a Character is successfully attacked in Combat, they may use one of their Reactions to reduce the damage they suffer. 
+
+A **Passive** is an effect that is always active (when a defined condition is met). A Passive may be the result of an Action, Reaction, Trait or other circumstance. 
+
+> For example, the Acrobatics Skill grants you easier Defense Tests, as long as you aren't wearing heavy armor. 
+
+These terms are mostly interesting during [Combat](#combat), but can also find use outside of it. In case you're wondering and are coming from other TTRPGs - in STRIVE there are no limits on your number of Actions or Reactions, save one - [Action Points](#action-points-ap). As long as you have the AP for it, you can repeat the same Action or Reaction as many times as it will let you. 
+
 # Character
 A Character is a representation of a sentient creature in the game world. They're an amalgam of their [Abilities](#abilities), [Personality](#virtues--vices), [Health](#health) and [Assets](#assets). These rules apply to all Player Characters (PCs). 
 
@@ -1111,11 +1131,11 @@ Whenever asked to Test a Skill a PC does not yet *know*, it will be added or pro
 [Forking](#skill-forking) Learning Skills into other [Tests](#tests) is **not** allowed. But Forking *into* Tests of Learning Skills **is** allowed. 
 
 #### Expertise
-Skills can offer **Expertises**, which further incentivize specialization, by granting special abilities or [Boons](#boons--penalties), at higher Skill Levels. Many Expertises will be most useful in combat scenarios, but you are encouraged to find uses for them outside of combat! The Skill an Expertise belongs to is referred to as its **Owning Skill**. 
+Skills can offer **Expertises**, which further incentivize specialization, by granting special abilities or [Boons](#boons--penalties), at higher Skill Levels. Many Expertises will be most useful in combat scenarios, but you are encouraged to find uses for them outside of combat! The Skill an Expertise belongs to is referred to as its **Owning Skill** or **Parent Skill**. 
 
 There are three types of Expertise:
 1. An **Action**, whose effects apply when activated.
-2. A **passive Boon**, which is always active, as long as its conditions are met.
+2. A **Passive**, which is always active, as long as its conditions are met.
 3. A **Reaction**, which may either automatically or optionally be activated, when its conditions are met. 
 
 All Expertises note a required Level of their Owning Skill. Once the Skill reaches *that* Level, the Expertises of that Level unlock automatically. Only unlocked Expertises may be used. 
@@ -1234,7 +1254,7 @@ No matter how much a PC adventures, there is a limit to how much of a reputation
 A PC's Personality is comprised of their [Drivers](#drivers) and [Virtues & Vices](#virtues--vices). These help players figure out how to play their Character - how they should *think*, and *react* to events and circumstances. 
 
 ### Drivers
-All PCs have **Drivers**, which comprise their [Ambition](#ambition), [Aspirations](#aspiration) and [Reactions](#reaction). These Drivers prevent inaction and stagnation of the Character's development, because the Ambition and the Aspirations define goals for the Character to always work towards. 
+All PCs have **Drivers**, which comprise their [Ambition](#ambition), [Aspirations](#aspiration) and [Quirks](#quirk). These Drivers prevent inaction and stagnation of the Character's development, because the Ambition and the Aspirations define goals for the Character to always work towards. 
 
 All aspects of a PC's Personality may change, as the game is played, through their actions and the events of the story. It is from this fluidity, that a Character becomes so interesting to explore, because even as their player, you might not know the paths they'll take. They're a book you start writing from the beginning, instead of the ending. 
 
@@ -1290,17 +1310,17 @@ If you cannot think of three Aspirations, don't hesitate to ask the GM and the o
 
 Whenever a PC acts in accordance with their Aspirations, their player earns [Fate Points](#fate-points). 
 
-#### Reaction
-A player must determine three **Reactions** for their Character. A Reaction is an automatic behavior - something the Character is *expected* to do *automatically* and without question, when a given situation triggers it. But *expected* doesn't mean *have to*. A player can *choose* to have their Character act against a Reaction - and that may cause them to lose it. 
+#### Quirk
+A player must determine three **Quirks** for their Character. A Quirk is an automatic behavior - something the Character is *expected* to do *automatically* and without question, when a given situation triggers it. But *expected* doesn't mean *have to*. A player can *choose* to have their Character act against a Quirk - and that may cause them to lose it. 
 
-A Reaction is an "if/then" and "always/never" statement, which can be be beneficial or detrimental to the Character. 
+A Quirk is an "if/then" and "always/never" statement, which can be be beneficial or detrimental to the Character. 
 
-As such, there are two types of Reactions:
-* **Troublemaker**: A detrimental Reaction, that will get the Character in *trouble*.
+As such, there are two types of Quirks:
+* **Troublemaker**: A detrimental Quirk, that will get the Character in *trouble*.
   * A Troublemaker allows earning [Fate Points](#fate-points). 
-  * ***Trouble*** is defined as any situation in which a mild conflict arises, from the PC's Reaction. This conflict does not have to be violent. In fact it is preferable for a social conflict to arise, instead. But things could always escalate, of course.
+  * ***Trouble*** is defined as any situation in which a mild conflict arises, from the PC's Quirk. This conflict does not have to be violent. In fact it is preferable for a social conflict to arise, instead. But things could always escalate, of course.
   * A Troublemaker may also represent a Character's ***fears***. Things they will want to avoid, even to the detriment of their other goals. Like a fear of the open sea, of fire, of space and so on. 
-* **Assurance**: A beneficial Reaction that acts as ***insurance***, that the Character won't be caught by surprise. 
+* **Assurance**: A beneficial Quirk that acts as ***insurance***, that the Character won't be caught by surprise. 
   * An Assurance does not allow earning Fate Points. 
   * *Insurance* is defined as a *behavior* that allows entering a given situation under more favorable circumstances. An *insurance* can also help prevent or resolve a conflict, but it cannot alter the facts of the narrative. It **only** serves to give a PC an advantage in a situation that triggers it. 
 
@@ -1308,7 +1328,7 @@ As such, there are two types of Reactions:
 
 > Another example: "Whenever a violent fight breaks out, I have my weapons in hand!" - This is insurance, that even when the PC narratively might not have their weapons at the ready (for example, when sleeping), they will, in fact, have them at the ready. 
 
-Reactions are expected to change whenever a Character (decides) to act against them. A PC cannot keep a Reaction they keep contradicting. Players and the GM are expected to discuss at the end or beginning of a session, whether anyone should give up one of their Reactions. 
+Quirks are expected to change whenever a Character (decides) to act against them. A PC cannot keep a Quirk they keep contradicting. Players and the GM are expected to discuss at the end or beginning of a session, whether anyone should give up one of their Quirks. 
 
 ### Virtues & Vices
 Every PC has several values that help inform their player what their Character is like - how they act. 
@@ -1590,7 +1610,7 @@ There is no limit for how much Property a Character can have. Except, perhaps, h
 
 There are three types of FP: [Minor](#minor-fate-points), [Major](#major-fate-points) and [Ambition](#ambition-fate-points). 
 
-Most FP are earned, by playing to the Character's [Personality](#drivers) - working towards or concluding their [Ambition](#ambition) and [Aspirations](#aspiration) or by getting into trouble through [Reactions](#reaction). Most FP are earned by a single player, but some may also be earned by the player group. 
+Most FP are earned, by playing to the Character's [Personality](#drivers) - working towards or concluding their [Ambition](#ambition) and [Aspirations](#aspiration) or by getting into trouble through [Quirks](#quirk). Most FP are earned by a single player, but some may also be earned by the player group. 
 
 FP are downwards-convertible, meaning if you need to, you can turn a single more significant FP into several less significant FP. Note that converting "upwards" is **not** possible. 
 
@@ -1603,7 +1623,7 @@ MiFP can be earned in the following ways:
 * **Driven**: *Working towards* an Ambition or Aspiration. 
 * **Personality**: Playing in accordance to one's Signature Virtue or Vice. 
 * **Specialist**: Driving the story forward, when no one else could - having the right skill to employ at the right time. 
-* **Trouble**: Playing to one's Reactions - if they get their Character, or their allies, into [Trouble](#reaction). 
+* **Trouble**: Playing to one's Quirks - if they get their Character, or their allies, into [Trouble](#quirk). 
 
 ## Major Fate Points
 **Major Fate Points (MaFP)** take more effort from the *player* to earn, as they're earned through convincing roleplaying, creative efforts and accomplishing long-term goals. 
@@ -1615,7 +1635,7 @@ MaFP can be earned in the following ways:
 * **Achievements**: Whenever a major plot point or story arc is concluded - a great journey, uncovering a plot of assassination, fulfilling a contract to clear out a bandit camp or discovering an ancient artifact, all count as *achievements*, which earn this award **for all the players, as a group**. 
 * **Collaboration**: Working with the GM to further the world and the story in creative ways and helping the GM out when possible. Secret plots that only one of the players is involved in, which causes gasps and applause from the other players, when the plot is finally revealed, for example. 
 * **Creative Solutions**: Coming up with a very creative way to solve a problem. This may be a diplomatic solution, where the GM thought one impossible. Or, perhaps an unexpected use of the environment during [Combat](#combat), which yielded the PCs a distinct advantage on the battlefield, in a way the GM didn't foresee. 
-* **Embodiment**: Capturing their Character and personifying them, in the moment. For example, by giving a great speech, acting scared, enjoying a bitter revenge with glee or convincingly portraying an inner conflict (for example, when contradicting an Aspiration or Reaction). 
+* **Embodiment**: Capturing their Character and personifying them, in the moment. For example, by giving a great speech, acting scared, enjoying a bitter revenge with glee or convincingly portraying an inner conflict (for example, when contradicting an Aspiration or Quirk). 
 * **Helper**: Helping an ally out at a *critical* time - during or out of [Combat](#combat). 
 * **The Gears**: Being *the gears*, without which nothing would move. Doing the laborious work during session, nobody wants to do, but which has to happen to keep the story moving. Always making sure to pitch the tents in the right spot, watching out for traps or doing the boring question-asking all earn this award!
 
@@ -1873,7 +1893,7 @@ At the Start of every Combat, [Initiative Order](#initiative) must be determined
 
 During combat, when Characters act one after another. Each gets a Turn, as determined by the Initiative Order. How many actions they get to perform, depends solely on the [AP](#action-points-ap) they have available for that Turn. Unless it is a [Surprise Round](#surprise-round), all Characters start with their typical amount of AP and only regain AP during the second Round, at the earliest. 
 
-Actions during combat are:
+Some general Actions during combat are:
 * [Attacking](#attacking)
   * [Throwing](#throwing)
   * [Unarmed combat](#unarmed-combat-agistr)
@@ -1885,7 +1905,7 @@ Actions during combat are:
 * Speaking
 * Waiting (= abstaining from an action)
 
-Reactions during combat are:
+Some general Reactions during combat are:
 * [Opportunity Attacks](#opportunity-attacks)
 * [Defending](#defending)
   * [Defending an ally](#defending-an-ally)
@@ -1958,7 +1978,7 @@ This Action costs `-2` [AP](#action-points-ap).
 The ally in question may oppose this action with [Strength](#strength-str) (both Characters will have to compete with this Attribute). 
 
 ## Attacking
-Attacks are made with an [Expertise](#expertise) of a [Weapon](#weapon--weapon-type--str), the [Unarmed Combat](#unarmed-combat-agistr) or the [Throwing](#throwing-agistr) [Skill](#skills). 
+An Attack is any Action or Reaction that targets another Character, to their detriment - causing damage, inflicting negative Health Conditions, weakening, interrupting, Forced-Movement and so on. Most commonly, Attacks are made with a [Weapon](#weapon--weapon-type--str) Skill. 
 
 An attack generally requires an [Opposed Test](#opposed-test) to be made. If the Attacker wins, [Damage](#damage--effects) is determined and applied to the Defender. If the Defender wins, they suffer **no damage**. A Defender must *choose* how to defend, unless a specific Skill is required. See also [Defending](#defending).
 
@@ -2072,11 +2092,11 @@ What speed exactly that is, depends heavily on circumstance. As always, the GM's
 > In a medieval fantasy setting, even just someone in a full sprint may be fast enough to throw off an archer's aim. Someone on horse back, riding at speed may be very hard to hit with an arrow or a melee weapon. 
 
 ## Momentum
-**Momentum** is a resource that benefits PCs. It ranges from `-20` to `+20` and usually starts at `0`. As the PCs make progress in a fight, they gain Momentum and as they suffer setbacks, they lose it. It is a resource that represents the PCs superiority - or the inverse - and is expected to be constantly in flux, like in a tug-of-war. 
+**Momentum** is a resource that benefits PCs. It ranges from `-30` to `+30` and usually starts at `0`. As the PCs make progress in a fight, they gain Momentum and as they suffer setbacks, they lose it. It is a resource that represents the PCs superiority - or the inverse - and is expected to be constantly in flux, like in a tug-of-war. 
 
 The Momentum mechanics can make PCs feel very heroic! They allow them to finish a fight or turn the wheel of fate around, with decisive action and careful planning. If you desire a less heroic game, you may consider not using the Momentum rules, or perhaps reducing the availability of Momentum Actions. 
 
-When Momentum reaches `+20`, **Heroic Acts** become available. Inversely, when Momentum reaches `-15`, **Desperate Measures** become available. They may be enacted at **any time during a PC's Turn** or at the **end of a foe's Turn**. 
+When Momentum reaches `+30`, **Heroic Acts** become available. Inversely, when Momentum reaches `-25`, **Desperate Measures** become available. They may be enacted at **any time during a PC's Turn** or at the **end of a foe's Turn**. 
 
 The pairing of a Heroic Act and its counter-part, a Desperate Measure, is called a [Momentum Action](#momentum-actions). 
 
@@ -2092,7 +2112,7 @@ When you gain or lose Momentum, only the most significant change counts! Note th
 | Helping another PC or ally: `+3`       | A foe helping *their* ally: `-3`                            |
 | Causing an Injury in a foe: `+3`       | PC or ally suffering an Injury: `-5`                        |
 | Slaying a feeble foe: `+5`             | Ally struck down or PC brought to Death's Door: `-15`       |
-| Slaying a non-feeble foe: `+15`        | PC struck down `-40`                                        |
+| Slaying a non-feeble foe: `+10`        | PC struck down `-40`                                        |
 
 #### Momentum Actions
 **Momentum Actions** are comprised of a **Heroic Act** and its counter-part, a **Desperate Measure**. The list below contains all the Momentum Actions that are always available to the PCs. 
@@ -2101,10 +2121,10 @@ When you gain or lose Momentum, only the most significant change counts! Note th
 | ---------------------------------------------------------------------------------------------------------------------- | ------------------------- | ---------------------- | ----------------------------- | -------------------------------- | --------------------------------------------------------------------------------------------------- |
 | Death Mark <br><img src="../../img/heroic-act_death-mark.svg" width="64px" height="64px"></img>                        | `-15`                     | Until the end of combat, a chosen enemy is [Marked](#marked). Every instance of direct damage they suffer causes them `+1` point of [Bleeding](#bleeding). This [Condition](#condition) cannot be removed normally. | Until the end of combat, a chosen **enemy and PC** are [Marked](#marked). Every instance of direct damage either suffers causes them `+1` point of [Bleeding](#bleeding). The effects from Death Pact and damage over time effects do not trigger the Bleeding increase. This [Condition](#condition) cannot be removed normally, and ends automatically when one of the two Characters is struck down. Also, when that happens, the survivor gains `+10` [Temporary HP](#temporary-health-points). | `+10` | Death Pact <br><img src="../../img/desperate-measure_death-pact.svg" width="64px" height="64px"></img> |
 | Finest Hour <br><img src="../../img/heroic-act_finest-hour.svg" width="64px" height="64px"></img>                      | `-30`                     | A PC of choice gets an immediate Turn, with `4` [AP](#action-points-ap). | All PCs get an immediate Turn, with `3` [AP](#action-points-ap), but also suffer `+3` points of [Bleeding](#bleeding). | `+20` | Final Hour <br><img src="../../img/desperate-measure_final-hour.svg" width="64px" height="64px"></img> |
-| Finish It! <br><img src="../../img/heroic-act_finish-it.svg" width="64px" height="64px"></img>                         | `-30`                     | A chosen PC launches an immediate attack against a chosen foe, with `+1` [Compensation Point](#compensation-points). If successful, that foe suffers its `Injury count * 3` points of additional Pure damage, after all other damage is resolved. | A chosen PC launches an immediate attack against a chosen foe, with `+1` [Compensation Point](#compensation-points). If successful, the foe suffers its `Injury count * 4` points of additional Pure damage, after all other damage is resolved. If the foe survives, the PC also suffers `(Injury count * 3) + 5` points of Pure damage. | `+10` | You or Me <br><img src="../../img/desperate-measure_you-or-me.svg" width="64px" height="64px"></img> |
-| Pre-Emptive Strikes <br><img src="../../img/heroic-act_pre-emptive-strikes.svg" width="64px" height="64px"></img>      | `-30`                     | For `2` Rounds, a chosen PC's first self-initiated attack Action every Round costs no [AP](#action-points-ap)! | Until the end of combat, a chosen PC's first self-initiated attack Action every Round ccosts no [AP](#action-points-ap), with `+1` [Compensation Point](#compensation-points). However, one foe gets the same boon, albeit without the Compensation Point bonus! | `+25` | Martial Trance <br><img src="../../img/desperate-measure_breakout-strikes.svg" width="64px" height="64px"></img> |
+| Finish It! <br><img src="../../img/heroic-act_finish-it.svg" width="64px" height="64px"></img>                         | `-30`                     | A chosen PC launches an immediate attack against a chosen foe, with `+1` [Compensation Point](#compensation-points). If successful, that foe suffers its `Injury count * 3` points of additional Pure damage, after all other damage is resolved. | A chosen PC launches an immediate attack against a chosen foe, with `+1` [Compensation Point](#compensation-points). If successful, the foe suffers its `Injury count * 4` points of additional Pure damage, after all other damage is resolved. If the foe survives even after the additional damage is applied, the PC suffers `(Injury count * 3) + 5` points of Pure damage. | `+10` | You or Me <br><img src="../../img/desperate-measure_you-or-me.svg" width="64px" height="64px"></img> |
+| Pre-Emptive Strikes <br><img src="../../img/heroic-act_pre-emptive-strikes.svg" width="64px" height="64px"></img>      | `-30`                     | For `2` Rounds, a chosen PC's first self-initiated [Attack Action](#attacking) every Round costs no [AP](#action-points-ap)! | Until the end of combat, a chosen PC's first self-initiated [Attack Action](#attacking) every Round costs no [AP](#action-points-ap), with `+1` [Compensation Point](#compensation-points). However, one foe gets the same boon, albeit without the Compensation Point bonus! | `+25` | Martial Trance <br><img src="../../img/desperate-measure_breakout-strikes.svg" width="64px" height="64px"></img> |
 | Tactical Repositioning <br><img src="../../img/heroic-act_tactical-repositioning.svg" width="64px" height="64px"></img>| `-10`                     | All PCs may immediately re-position, moving up to `10` Squares, without triggering any [Opportunity Attacks](#opportunity-attacks). Normal [movement rules](#combat-movement) apply. | All PCs may immediately re-position, moving up to `15` Squares, without triggering any [Opportunity Attacks](#opportunity-attacks). Normal [movement rules](#combat-movement) apply. However, up to three foes immediately gain `+1`, or one foe `+3` [AP](#action-points-ap). | `+10` | Desperate Repositioning <br><img src="../../img/desperate-measure_desperate-repositioning.svg" width="64px" height="64px"></img> |
-| Unyielding <br><img src="../../img/heroic-act_unyielding.svg" width="64px" height="64px"></img>                        | `-20`                     | A PC of choice gets `+1` [Compensation Point](#compensation-points) for all Defense Tests and may freely [Counter-Attack](#counter-attack) up to `3` attacks directed against them or an adjacent ally, for `2` Rounds. | Until the end of combat, a chosen PC may freely [Counter-Attack](#counter-attack) all attacks directed against them with `+1` [Compensation Point](#compensation-points) or an adjacent ally. However up to `3` times per Round, all foes may now also freely [Counter-Attack](#counter-attack) this PC's attacks. The limit is a total across all foes, **not** for each foe individually. | `+15` | Cornered <br><img src="../../img/desperate-measure_cornered.svg" width="64px" height="64px"></img> |
+| Unyielding <br><img src="../../img/heroic-act_unyielding.svg" width="64px" height="64px"></img>                        | `-20`                     | For `2` Rounds, a chosen PC may freely [Counter-Attack](#counter-attack) all attacks directed against them or an adjacent ally with `+1` [Compensation Point](#compensation-points). | Until the end of combat, a chosen PC may freely [Counter-Attack](#counter-attack) all attacks directed against them or an adjacent ally with `+1` [Compensation Point](#compensation-points). However up to `3` times per Round, all foes may now also freely [Counter-Attack](#counter-attack) this PC's attacks. The limit is a total across all foes, **not** for each foe individually. | `+15` | Cornered <br><img src="../../img/desperate-measure_cornered.svg" width="64px" height="64px"></img> |
 | Get Off Me!                                                                                                            | `-10`                     | All foes adjacent to a chosen PC are pushed back `2` Squares and cannot resist this Forced-Movement. That PC may then move up to `4` Squares, without triggering [Opportunity Attacks](#opportunity-attacks). | A chosen PC switches places with an adjacent foe, and may then move up to `4` Squares, without provoking [Opportunity Attacks](#opportunity-attacks). The foe they switched with may react and launch an immediate free [Counter-Attack](#counter-attack), but cannot prevent the PC from moving. | `+10` | Outta My Way! |
 | Toughened Up                                                                                                           | `-15`                     | You may distribute a total of `40` [Temporary HP](#temporary-health-points) across all PCs, limited to each having at most `10`. | All PCs gain `10` [Temporary HP](#temporary-health-points), limited to them having at most this amount, but also suffer `3` [Strain](#strain). | `+15` | Scarred Up |
 | Locked In <br><img src="../../img/heroic-acts.svg" width="64px" height="64px"></img> | `-20` | For `2` Rounds, all of a single chosen PC's [Concentration](./strive-core.md#concentration) Self-Control Tests **always succeed**. | For `2` Rounds, all of a single chosen PC's [Concentration](./strive-core.md#concentration) Self-Control Tests **always succeed**, but once those Rounds have passed, they suffer `+3` [Strain](#strain) and begin their next Turn with `2` AP less! | `+20` | Frantic Focus <br><img src="../../img/desperate-measures.svg" width="64px" height="64px"></img> |
@@ -2222,7 +2242,7 @@ The procedure of creating a Character consists of the following steps:
 ### Determine Life Path
 Where and when does the story of your Character begin? Under what circumstances are they born and how were they raised? Until adulthood, did they lead a life of carelessness or did they have to fight for every scrap of food? How did they lead their life up until the point they picked up adventuring? 
 
-Answering these questions will help you figure out what your Character could be like as a person and what kinds of Ambitions, Aspirations and Reactions they might develop. 
+Answering these questions will help you figure out what your Character could be like as a person and what kinds of Ambitions, Aspirations and Quirks they might develop. 
 
 If you need inspiration, the following tables might help a spark along:
 
@@ -2292,10 +2312,10 @@ Perhaps more important than a name, is the personality that it represents. Think
 
 Refer to the table in the [Virtues & Vices](#virtues--vices) section. You can choose freely, where to place your "x", for every row. You can even leave every trait at "undecided" and find out through play what your Character is like. If you prefer, you can even let chance decide for you! For that, roll a `D6` for every row. A `1` results in a "Signature" trait on the left side of the scale, while a `6` results in a "Signature" trait on the right side of the scale. Using this method, you will **not** have *any* "undecided" traits in the end. 
 
-#### Determine Ambition, Aspirations & Reactions
+#### Determine Ambition, Aspirations & Quirks
 This is where things may get a little difficult. Work together with your GM, as they know their world and what kinds of agendas the people in it might have. 
 
-Don't worry too much about your first Aspirations and Reactions, as they're expected to change frequently, through the events your Character has yet to experience. 
+Don't worry too much about your first Aspirations and Quirks, as they're expected to change frequently, through the events your Character has yet to experience. 
 
 Your Ambition will require most thought beforehand, but even so, you don't have to plan your Character's entire future. But keep in mind that your Character's Ambition tells your GM what kind of stories you'd like to explore and what's more, how your Character will fit into them. Working with your GM to determine a fitting Ambition is paramount to your enjoyment thereof. 
 
@@ -2324,12 +2344,12 @@ Now, the time to determine your three [Aspirations](#aspiration) has come. Yet a
 > 
 > These two Aspirations allow these Characters to come into conflict, despite their good intentions. How it will play out, no one can say. But it is sure to make for an interesting conflict!
 
-##### Choosing Reactions
-Lastly, you need three [Reactions](#reaction) for your Character. Ideally, at least one of them should allow your GM getting your PC into *trouble*. 
+##### Choosing Quirks
+Lastly, you need three [Quirks](#quirk) for your Character. Ideally, at least one of them should allow your GM getting your PC into *trouble*. 
 
-For Reactions, you're fairly free to pick and choose, so long as you keep in mind that Reactions cannot alter facts of the narrative and have easily identifiable triggers. 
+For Quirks, you're fairly free to pick and choose, so long as you keep in mind that Quirks cannot alter facts of the narrative and have easily identifiable triggers. 
 
-> A Reaction like "allies around me don't die" is a bad Reaction, as it tries to alter facts and has an unclear trigger. The GM can't do much with this kind of Reaction. 
+> A Quirk like "allies around me don't die" is a bad Quirk, as it tries to alter facts and has an unclear trigger. The GM can't do much with this kind of Quirk. 
 >
 > An improved version would be "whenever an ally near me is in trouble, I come to their aid". 
 
@@ -3385,7 +3405,7 @@ Once you've identified which of your players tend to remain quiet, make sure **y
 
 Make sure to get a sense of who will **grab the spotlight** and who won't. Sometimes, you may even have to stop someone from grabbing it and instead allow one of the quieter players to act **first**. If the quieter player relinquishes the spotlight, let them. Don't force anyone into a situation they're uncomfortable with! 
 
-Whenever you present your players with a new situation, especially with moments intended to *surprise* them, make sure to ask their Characters' Reactions! Go through each of your players and ask them, "how does your Character react to this?" This allows each of them to play out their Character and to breathe *life* into them. 
+Whenever you present your players with a new situation, especially with moments intended to *surprise* them, make sure to ask their Characters' reactions! Go through each of your players and ask them, "how does your Character react to this?" This allows each of them to play out their Character and to breathe *life* into them. 
 
 Also, when a decision must be made, like where the party will go and what they'll do next, make sure to ask **every** player. Nothing is worse than a player Character being dragged along, even though their player isn't the least bit interested in the plot hook the others want to follow. By asking everyone, you may expose that some of them may have different plans. The goal then is to find a **compromise**! Do not let the one side of players force their will upon the others! Instead, encourage your players to find a way to motivate each other to follow the plot hook. Encourage them to find some reason or to be persuaded to go along. This way, no player feels left out in the decision-making process. 
 
@@ -3591,7 +3611,7 @@ Under such circumstances, the turns involving Squad vs. Squad should go by very 
 Ultimately, your players won't care about the potential correctness of the numbers, as long as their own Characters aren't involved. It may even bore them watching the GM play the game alone for a while. Therefore, to re-iterate - keep Turns that don't involve the PCs as short as possible. After all, the PCs are the stars of the show! 
 
 ## Bring NPCs To Life
-Much like the PCs, or in fact real people, *proper* NPCs lead their own lives, with their own ambitions, aspirations, reactions, strengths and weaknesses. Keeping track of all of the numbers that implies, can become quite the challenge. But you won't need all of that data from the start, or even to track it all the time. Flesh out and update only as needed, to keep the work-load on your end low. You have enough work on your plate, as it is. Another way to think about NPCs is such: they are actors, who are born when they walk on stage, and who die, when they walk off stage. Every time they appear, you and your players may learn more about them and such knowledge comes gradually, bit by bit, over a long time. You'll only ever learn more than mere surface-level knowledge about the long-term actors. 
+Much like the PCs, or in fact real people, *proper* NPCs lead their own lives, with their own Ambition, Aspirations, Quirks, strengths and weaknesses. Keeping track of all of the numbers that implies, can become quite the challenge. But you won't need all of that data from the start, or even to track it all the time. Flesh out and update only as needed, to keep the work-load on your end low. You have enough work on your plate, as it is. Another way to think about NPCs is such: they are actors, who are born when they walk on stage, and who die, when they walk off stage. Every time they appear, you and your players may learn more about them and such knowledge comes gradually, bit by bit, over a long time. You'll only ever learn more than mere surface-level knowledge about the long-term actors. 
 
 Whenever the PCs encounter someone new, all you really need, is a **rough idea** of *who* that NPC *is* and how you *expect* them to interact with the PCs. You don't have to know all their history, nor all of their strengths, weaknesses or even their agenda. Discover those only as needed. 
 
