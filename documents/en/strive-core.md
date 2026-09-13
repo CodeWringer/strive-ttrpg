@@ -218,24 +218,24 @@ By using STRIVE (that includes but is not limited to viewing, reading, referenci
     - [Weapon Assets](#weapon-assets)
       - [Weapon-Family](#weapon-family)
       - [Weapon Traits](#weapon-traits)
-        - [Melee Weapon Traits](#melee-weapon-traits)
+        - [Foundational Weapon Traits](#foundational-weapon-traits)
           - [Melee](#melee)
           - [Long Reach](#long-reach)
           - [Very Long Reach](#very-long-reach)
-          - [Heavy](#heavy)
-          - [Hooked](#hooked)
-        - [Ranged Weapon Traits](#ranged-weapon-traits)
           - [Ranged](#ranged)
           - [Range Only](#range-only)
           - [Prefer Range](#prefer-range)
-        - [Slow Reload](#slow-reload)
-        - [Very Slow Reload](#very-slow-reload)
-        - [Brutal](#brutal)
-        - [Crushing](#crushing)
-        - [Precise](#precise)
-        - [Piercing](#piercing)
-        - [Poison-Chamber](#poison-chamber)
-        - [Serrated](#serrated)
+          - [Slow Reload](#slow-reload)
+          - [Very Slow Reload](#very-slow-reload)
+        - [Attack Modifier Weapon Traits](#attack-modifier-weapon-traits)
+          - [Brutal](#brutal)
+          - [Crushing](#crushing)
+          - [Heavy](#heavy)
+          - [Hooked](#hooked)
+          - [Precise](#precise)
+          - [Piercing](#piercing)
+          - [Poison-Chamber](#poison-chamber)
+          - [Serrated](#serrated)
 - [Fate Points](#fate-points)
   - [Minor Fate Points](#minor-fate-points)
   - [Major Fate Points](#major-fate-points)
@@ -276,6 +276,10 @@ By using STRIVE (that includes but is not limited to viewing, reading, referenci
     - [Swap-Out](#swap-out)
   - [Attacking](#attacking)
     - [Damage \& Effects](#damage--effects)
+    - [Targeting-Types](#targeting-types)
+      - [Single Target (ST)](#single-target-st)
+      - [Multiple Single Target (MST)](#multiple-single-target-mst)
+      - [Area of Effect (AoE)](#area-of-effect-aoe)
     - [Opportunity Attacks](#opportunity-attacks)
       - [Disengage](#disengage)
       - [Push Through](#push-through)
@@ -423,10 +427,6 @@ By using STRIVE (that includes but is not limited to viewing, reading, referenci
     - [Unconscious](#unconscious)
   - [List of Illnesses](#list-of-illnesses)
   - [List of Mutations](#list-of-mutations)
-  - [Targeting-Types](#targeting-types)
-    - [Single Target (ST)](#single-target-st)
-    - [Multiple Single Target (MST)](#multiple-single-target-mst)
-    - [Area of Effect (AoE)](#area-of-effect-aoe)
 - [Game Mastery](#game-mastery)
   - [The Role Of a Game Master](#the-role-of-a-game-master)
     - [Getting a Game Together](#getting-a-game-together)
@@ -560,6 +560,7 @@ As STRIVE is meant primarily as a rule-book to help you quickly find what you ne
 | [Aspiration](#aspiration)                                   | A Character's secondary and more immediate goal, based on recent events. |
 | [Asset](#assets)                                            | A *thing* that a Character may own and/or carry on person. May also be an uncarriable piece of Property, such as a castle. |
 | [Assurance](#quirk)                                         | A PC's Quirk that ensures the PC may enter a given troublesome situation under more favorable circumstances. |
+| [Attack Modifier](#weapon-traits)                           | Modifies an Attack's Profile. |
 | [Attack Test](#attacking)                                   | A Test made to harm or hinder another Character. |
 | [Attacker](#attacking)                                      | A Character performing some Action that targets another. The distinction whether this is a hostile or benign action does not matter. |
 | [Attribute](#attributes)                                    | A Character's most basic ability. Its Level dictates the base number of dice available for a Test. |
@@ -589,6 +590,7 @@ As STRIVE is meant primarily as a rule-book to help you quickly find what you ne
 | [D4](#dice)                                                 | A four-sided die        |
 | [D6](#dice)                                                 | A six-sided die         |
 | [D8](#dice)                                                 | An eight-sided die      |
+| [Attack Profile](#damage--effects)                          | The three graded Damage and effect definitions of an Attack. |
 | [Damage Type](#damage-types)                                | All Damage falls into one of the Damage Types, which also determines the type of Injury such Damage may cause. |
 | [Damage](#damage--effects)                                  | Damage is the number that reduces [HP](#health-points-hp), as a result of Attacks or environmental hazards. |
 | [Death's Door](#deaths-door)                                | A Condition only PCs can have. This is their final battle with death. |
@@ -1647,15 +1649,24 @@ An Asset designed to be used as a weapon. Improvised weapons don't count, althou
 
 > For example, when grabbing a bar stool, and a Weapon-Family for blunt weapons exists, then that Weapon-Family's respective Skill may find use for any Attacks made wielding the bar stool. But the bar stool remains a non-weapon Asset. 
 
+When you acquire or equip a Weapon Asset, make sure to incorporate its relevant Weapon Traits and changes to the [Attack Profile](#damage--effects), to save yourself the hassle of having to look that data up every time you want to make an Attack. Of course, once the Weapon Asset is unequipped, its modifications must be reverted. 
+
 #### Weapon-Family
 **Weapon-Families** broadly categorize weapons, each of which has distinct properties better suited to a particular task or filling a particular niche. [Weapon Skills](#weapon--weapon-family---base-attributes-) reference these to determine *how* a weapon is used. 
 
 > Example Weapon-Families would be "Axe", "Bow", "Rifle", "Plasma Guns" and so on. 
 
 #### Weapon Traits
-**Weapon Traits** are modular rules that make one weapon mechanically different from another, by changing what a weapon is capable of. Even within one [Weapon-Family](#weapon-family), there can be many different Assets with very different Weapon Traits, each filling a different niche or with particular strengths and weaknesses.  
+**Weapon Traits** are modular rules that make one weapon mechanically different from another, by acting as modifiers to an [Attack's Profile](#damage--effects). Even within one [Weapon-Family](#weapon-family), there can be many different weapons with very different Weapon Traits, each filling a different niche or with particular strengths and weaknesses. 
 
-##### Melee Weapon Traits
+You are encouraged to invent your own Weapon Traits! When doing so, avoid unconditional Damage boons, as they tend to be pretty boring and can also be better represented by a particular Weapon Asset directly modifying the Damage values of the Attack Profile. 
+
+> Instead of defining a "+Slashing Damage" Weapon Trait, and then adding that to the "Longsword of Slashing" Asset, simply add to the "Longsword of Slashing" itself: "deals `+X` Slashing Damage". 
+>
+> A more interesting version might be: "Dragonslayer: Against Dragons, Masterful hits deal `+X` Slashing Damage"
+
+##### Foundational Weapon Traits
+These Weapon Traits define basic aspects of a weapon: how far away it can threaten foes, whether it requires time to reload and such.
 
 ###### Melee
 <img src="../../img/melee-1.svg" style="width: 3rem; height: 3rem;"></img>
@@ -1671,14 +1682,6 @@ Allows Attacking a target two Squares away.
 <img src="../../img/melee-3.svg" style="width: 3rem; height: 3rem;"></img>
 
 Allows Attacking a target three Squares away. 
-
-###### Heavy
-Melee Attacks cause `+Q` [Knock-Back](#forced-movement).
-
-###### Hooked
-Melee Attacks [Pull](./strive-core.md#forced-movement) by `+Q` Squares.
-
-##### Ranged Weapon Traits
 
 ###### Ranged
 <img src="../../img/ranged.svg" style="width: 3rem; height: 3rem;"></img>
@@ -1699,28 +1702,37 @@ Implies a weapon cannot be used against any targets adjacent to self.
 ###### Prefer Range
 `+2` Ob to using the weapon against an adjacent target.
 
-##### Slow Reload
+###### Slow Reload
 Reloading the weapon costs `2` [AP](#action-points-ap).
 
-##### Very Slow Reload
+###### Very Slow Reload
 Reloading the weapon costs `3` [AP](#action-points-ap).
 
-##### Brutal
+##### Attack Modifier Weapon Traits
+These Weapon Traits modify an [Attack's Profile](#damage--effects). 
+
+###### Brutal
 When landing a [Masterful](#attacking) hit, deal an additional `+Q` points of Pure Damage.
 
-##### Crushing
+###### Crushing
 Attacks deal an additional `+Q` Bludgeoning Damage. 
 
-##### Precise
+###### Heavy
+Melee Attacks cause `+Q` [Knock-Back](#forced-movement).
+
+###### Hooked
+Melee Attacks [Pull](./strive-core.md#forced-movement) by `+Q` Squares.
+
+###### Precise
 Attacks receive `+1` [Compensation Point](#compensation-points). 
 
-##### Piercing
+###### Piercing
 Attacks ignore `Q` points of [Armor](#armor-assets).
 
-##### Poison-Chamber
+###### Poison-Chamber
 Attacks deal an additional `+Q` points of Poison Damage. The poison must be refilled after every Combat ends. 
 
-##### Serrated
+###### Serrated
 Attacks deal an additional `+Q` points of [Bleeding](./strive-core.md#bleeding).
 
 # Fate Points
@@ -2109,17 +2121,35 @@ Sometimes, special circumstances apply, which make certain Attacks easier or har
 ### Damage & Effects
 Damage is the number that reduces [HP](#health-points-hp), as a result of Attacks or environmental hazards. When HP reach `0`, death occurs (exception: PCs arrive at [Death's Door](#deaths-door)). Damage can also inflict [Injuries](#injury). [Armor](#armor) and [Resistances](#damage-resistances) reduce the amount of Damage that is actually applied to HP. 
 
-The Attack roll determines how much Damage an Attack will deal and how severe its effects will be. Damage is **not** rolled separately. There are three gradings, based on the number of Hits achieved over the Defender/Ob:
-* **Glancing**: On `≤ 1` Hit. A fairly weak hit.
-* **Solid**: On `= 2` Hits. A strong hit.
-* **Masterful**: On `≥ 3` Hits. An overwhelming hit. Applies the most severe Damage and effects.
+The Attack roll itself determines the severity of Damage and effects. They are **not** rolled separately. There are three gradings, based on the number of **Hits achieved over the Defender/Ob**, which always appear as a unit, referred to as a **Attack Profile**:
+* **Glancing**: On `≤ 1` Hit. A fairly weak hit. Low Damage and no effect or a weak one. 
+* **Solid**: On `= 2` Hits. A strong hit. Moderate Damage and a meaningful effect. 
+* **Masterful**: On `≥ 3` Hits. An overwhelming hit. Severe Damage and a powerful effect.
 
 Some additional terminology:
 * **Direct Damage** always comes from an [Action or Reaction](#actions-reactions--passives).
 * **Indirect Damage** always comes from the environment, or from Damage over time [Health Conditions](#condition). 
-* **Instance of Damage** refers the Damage number that is actually applies to HP, after [Armor](#armor--shields) and [Resistances](#damage-resistances) have been applied. Damage that is completely negated by Armor and Resistances is **not** considered an Instance of Damage. E.g., when suffering `6` Bludgeoning + `10` Slashing Damage, assuming armor exists that reduces this to `2` Bludgeoning + `4` Slashing, then the resulting `6` points of Damage are what is applied to HP and thus the Instance of Damage. 
-* **Primary Damage** refers to the most significant [Damage Type](#damage-types) of an Instance of Damage **after** Armor and Resistances are applied. This is the Damage Type that determines the [Injury](#injury) type that is inflicted. If there is a tie, the Damage Type that the armor reduces less is the Primary one. If there is still a tie, a coin flip could decide. E.g. when suffering `6` Bludgeoning + `10` Slashing Damage, which Armor and Resistances reduce to `4` Bludgeoning + `2` Slashing Damage, then the Bludgeoning Damage is considered the Primary Damage of the Attack. If the Attack causes an Injury, then it will be a Bludgeoning Injury. 
-* **Source of Damage** refers to the entity that dealt it, most commonly a Character. But this could also the environment, such pools of acid, or objects, such as traps. Each trap, despite being part of the environment, count as an individual Source of Damage. 
+* **Instance of Damage** refers the Damage number that is actually applies to HP, after [Armor](#armor--shields) and [Resistances](#damage-resistances) have been applied. Damage that is completely negated by Armor and Resistances is **not** considered an Instance of Damage. 
+* **Primary Damage** refers to the most significant [Damage Type](#damage-types) of an Instance of Damage **after** Armor and Resistances are applied. This is the Damage Type that determines the [Injury](#injury) type that is inflicted. If there is a tie, the Damage Type that the armor reduces less is the Primary one. If there is still a tie, a coin flip could decide. <br>E.g. when suffering `6` Bludgeoning + `10` Slashing Damage, which Armor and Resistances reduce to `4` Bludgeoning + `2` Slashing Damage, then the Bludgeoning Damage is considered the Primary Damage of the Attack. If the Attack causes an Injury, then it will be a Bludgeoning Injury. 
+* **Source of Damage** refers to the entity that dealt it, most commonly a Character. But this could also the environment, such pools of acid, or objects, such as traps. Each trap, despite being part of the environment, counts as an individual Source of Damage. 
+
+### Targeting-Types
+The number of targets that an [Expertise](#expertise) can apply to, with a single use, is defined through the **targeting-types**. 
+
+#### Single Target (ST)
+**Single-Target** (**ST**) affects only a single target. The victim may usually Defend with an [Opposed Test](#opposed-test).
+
+#### Multiple Single Target (MST)
+**Multiple-Single-Target** (**MST**) affects at least one and up to a certain maximum number of targets. Each victim may usually Defend with an [Opposed Test](#opposed-test).
+
+#### Area of Effect (AoE)
+**Area of Effect** (**aoe**) affects *every* target that is in the area of effect. The victims can only Defend through certain special Skills or Expertises.
+
+There are four types of shapes that AoE effects can have:
+* <img src="../../img/aoe-radius.svg" style="width: 2rem; height: 2rem;"></img> A radius.
+* <img src="../../img/aoe-cube.svg" style="width: 2rem; height: 2rem;"></img> A cube.
+* <img src="../../img/aoe-cone.svg" style="width: 2rem; height: 2rem;"></img> A cone.
+* <img src="../../img/aoe-line.svg" style="width: 2rem; height: 2rem;"></img> A line.
 
 ### Opportunity Attacks
 When a Character is within weapon's reach of another hostile Character, they're considered within the other's **Range of Opportunity**. Whenever a Character in an enemy's Range of Opportunity moves away from or more than `2` Squares *around* that enemy, that enemy can *choose* to perform an **Opportunity Attack**. 
@@ -2671,7 +2701,15 @@ Traits: [Melee](#melee), [FS](#free-strike-fs): `Str`
 | 4     | Hammer and Anvil | `-15` | A PC may immediately Attack a foe, dealing `Strength` points of Bludgeoning Damage and Force-Moving the foe by `Strength` Squares. Adjacent allies may assist, each providing `+1` Square of movement. | A PC may immediately Attack an adjacent foe, dealing `Strength * 2` points of Bludgeoning Damage and force moving their foe by `Strength * 2` Squares, but also pushing themself in the opposite direction by the same distance. | `+15` | All Anvil |
 
 #### Weapon < Weapon-Family > (< Base Attributes >)
-Expertise at handling a weapon of a specific [Weapon-Family](#weapon-family). 
+Handling a weapon of a specific [Weapon-Family](#weapon-family). 
+
+Add Expertises to this Skill that define the available ways to use its respective weapon type. When doing so, keep in mind the normal structure for Damage-dealing Attacks, as outlined in [Attacking](#attacking). You may use the following as a template to define an [Attack's Profile](#damage--effects): `≤ 1` Hit: `X` Damage-Type <br> `= 2` Hits: `Y` Damage-Type <br> `≥ 3` Hits: `Z` Damage-Type<br>But also note that you are **not required** to add an Attack Profile to every Expertise! Some Expertises may have a constant, or simple effect, that doesn't require or benefit from gradings. 
+
+> For example: **Reaction**: Upon one of your allies attacking a foe, use the opportunity to move yourself `1` Square.
+> 
+> This may be all you need. A grading would force you to add escalating effects, but perhaps it is well balanced, as it is. Adding gradings would threaten that balance. Or might simply be more bother to add than you care for at the moment, which is totally fine!
+
+Note that any Attack Profile you define, is the **normal**, unmodified Attack Profile. Weapon Assets may modify this Attack Profile, and those changes can be incorporated into the Skill once the specific Weapon Asset is being wielded by the Character, to save yourself the hassle of looking that data up. Of course, once the Weapon Asset is unequipped, its modifications on the Skill must be reverted. 
 
 ### Social Skills
 These Skills have a dominant social aspect and are strongly related to a Character's *social Attributes*. 
@@ -3259,24 +3297,6 @@ One should always keep in mind that despite the game mechanical effects of a mut
 | 81 - 86    | Special Needs Eyes     | The eyes turn a deep red and go cross-eyed. `-1` [Awareness](#awareness-awar) (seeing) |
 | 87 - 93    | Fetid Stench           | Whether from the mouth, or in general, a fetid stench emanates from the body, even assaulting the victim's own nose. `-1` [Awareness](#awareness-awar), `-1` [Stealth](#stealth-agiawar) (when smell is concerned). |
 | 94 - 100   | Living Cadaver         | The body withers and pales. It is as if it had just risen from the grave. `-1` [Toughness](#toughness-tough). |
-
-## Targeting-Types
-The number of targets that an [Expertise](#expertise) can apply to, with a single use, is defined through the **targeting-types**. 
-
-### Single Target (ST)
-A **Single-Target** (**ST**) Action affects only a single target. The victim may Defend with [Opposed Tests](#opposed-test).
-
-### Multiple Single Target (MST)
-A **Multiple-Single-Target** (**MST**) Action affects at least one and up to a certain maximum number of targets. Each victim may Defend with [Opposed Tests](#opposed-test).
-
-### Area of Effect (AoE)
-**Area of Effect** (**aoe**) Actions affect *every* target that is in the area of effect. The victims can only defend through certain special Skills or Expertises.
-
-There are four types of shapes that AoE effects can have:
-* <img src="../../img/aoe-radius.svg" style="width: 2rem; height: 2rem;"></img> A radius.
-* <img src="../../img/aoe-cube.svg" style="width: 2rem; height: 2rem;"></img> A cube.
-* <img src="../../img/aoe-cone.svg" style="width: 2rem; height: 2rem;"></img> A cone.
-* <img src="../../img/aoe-line.svg" style="width: 2rem; height: 2rem;"></img> A line.
 
 # Game Mastery
 This and the following sections are reserved solely for the GM's eyes. It aims to help you prepare and run the game. 

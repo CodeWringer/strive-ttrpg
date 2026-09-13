@@ -877,7 +877,7 @@ Traits: [Melee](./strive-core.md#melee), [FS](./strive-core.md#free-strike-fs): 
 
 | Level | Name                 | AP | Ob          | Description <br> Damage                   |
 | ----- | -------------------- | -- | ----------- | ----------------------------------------- |
-| 0     | Hack                 | 2  | Opposed     | Strike a ST. <br> `≤ 1` Hit: `4` Slashing + `2` Bludgeoning <br> `= 2` Hits: `5` Slashing + `3` Bludgeoning <br> `≥ 3` Hits:  `6` Slashing + `2 + Str` Bludgeoning |
+| 0     | Hack                 | 2  | Opposed     | Strike a ST. <br> `≤ 1` Hit: `4` Slashing + `2` Bludgeoning <br> `= 2` Hits: `5` Slashing + `3` Bludgeoning <br> `≥ 3` Hits: `6` Slashing + `2 + Str` Bludgeoning |
 | 0     | Savage Slash         | 2  | Opposed + 1 | Strike a ST. <br> `≤ 1` Hit: `3` Slashing; `+1` [Bleeding](./strive-core.md#bleeding) to the target (if it can bleed) <br> `= 2` Hits: `3` Slashing; `+2` [Bleeding](./strive-core.md#bleeding) to the target (if it can bleed) <br> `≥ 3` Hits:  `4` Slashing; `+3` [Bleeding](./strive-core.md#bleeding) to the target (if it can bleed) |
 | 2     | Cleave               | 3  | 2           | Attack up to `3` targets at once, in a `2` Square AoE cone in front of you. <br> `≤ 1` Hit: `4` Slashing <br> `= 2` Hits: `5` Slashing <br> `≥ 3` Hits:  `6` Slashing |
 
