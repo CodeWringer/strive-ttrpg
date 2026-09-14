@@ -423,6 +423,7 @@ By using STRIVE (that includes but is not limited to viewing, reading, referenci
     - [Exhausted](#exhausted)
     - [Frostbitten](#frostbitten)
     - [Grappled](#grappled)
+    - [Guarded](#guarded)
     - [Hasted](#hasted)
     - [Jealous](#jealous)
     - [Marked](#marked)
@@ -2243,11 +2244,23 @@ The **Free Strike (FS)** number defines bonus Damage that Characters may inflict
 This value is mostly reserved for NPCs, as this is the Damage value used when multiple of the same type of NPC launch an Attack at the same time, as a [Squad](#npc-squads). This way, instead of having to roll determine Damage many times individually, the **main aggressor's Damage** is summed with **all assisting allies' Free Strike value**. Whether allies can join in to deal more Damage, depends on whether they are in their weapon's range to Attack and are part of the aggressor's [Squad](#npc-squads). 
 
 ## Defending
-A Character being targeted with any other Skill may choose, as a Reaction, to defend against it. Doing so costs `1` [AP](#action-points-ap) and calls for an [Opposed Test](#opposed-test). The Attacker must achieve **more Hits** than the Defender, or else the Defender wins and the Attack is negated, entirely. The Defender must *choose* how to defend, unless a specific "opposed by" Skill is noted. Valid choices are a [Weapon](#weapon--weapon-family---base-attributes-), the [Acrobatics](#acrobatics-agistr) or the [Shield](#shield-strtough) Skill. 
+Successfully **Defending** against an Attack negates all its Damage and other effects from occurring. Defense is a [Reaction](#actions-reactions--passives) and requires an [Opposed Test](#opposed-test). If the Attacker achieves more Hits than the Defender, they win. If it is a tie or the Attacker achieves fewer Hits, the Defender wins. 
 
-A Character without any, or not enough [AP](#action-points-ap) left to spend, **can not defend**. In this case, the Attacker's Ob is simply `1` (plus any potential Modifier from the Expertise or Skill they're Attacking with). 
+> If the Attacker achieves `3` and the Defender `2` Hits, then the Attacker wins. If both achieve `3` Hits, then the Defender wins. If the Attacker achieves `3` and the Defender `4` Hits, then the Defender wins. 
 
-Defending against [Area Of Effect](#area-of-effect) is only possible through some Expertises. 
+The Defender must *choose* how to defend, unless a specific "Opposed by" Skill is noted on the Attacker's Skill. Valid choices are a [Weapon](#weapon--weapon-family---base-attributes-), the [Acrobatics](#acrobatics-agistr) or the [Shield](#shield-strtough) Skills. 
+
+Defense is classified as follows:
+* [**Guarded**](#guarded) Defense, for which you gain `+1` [Die Fudge](#die-fudges) and reduces your Guarded by `-1`. During your Turn, you can spend `1` AP to gain `+1` Guarded, as many times as you like or until you have the maximum of `5` Guarded. 
+* **Regular Defense**, which costs `-1` AP. There are no boons or penalties to this Defense. 
+* If you have `0` AP left, you may make an **Emergency Defense**, which borrows `1` AP from your next Turn. You will start that future Turn with `1` AP less. You may make an Emergency Defense **only twice per Round**. 
+* If you have no Guarded, nor AP left *and* have already spent all Emergency Defenses, you can no longer Defend! In this case, the Attacker's Ob is always `1`. 
+
+Defending against [Area Of Effect](#area-of-effect) Attacks has the same Ob as the AoE Attack, plus two. If successful, you suffer only half (RD) of the AoE's Damage and effects. If the AoE Attack has no Ob, treat it as if it has `2`. 
+
+> An Attacker uses an AoE Attack at Ob `2`. Having rolled their Attack Test, they determined their AoE Attack will deal `9` Burning damage to all foes around them. 
+>
+> The Ob to Defend against this AoE Attack is thus `4 = 2 (Attacker's Ob) + 2 (always)`. If successful, the Defender suffers only `4` Burning Damage.
 
 ### Armor & Shields
 [Armor](#armor-assets) serves as life insurance, because it can negate or at least reduce the Damage taken, after a Defense Test has failed. Shields on the other hand provide bonuses to Defense, making it harder for an enemy to succesfully land a hit in the first place. 
@@ -3214,6 +3227,12 @@ For every point in **Frostbitten**, a Character suffers `-1D` to all [Tests](#te
 A **Grappled** Character is unable to move freely and counts as `+1` degree of [Flanked](#flanking). They can break free, by winning an [Opposed](#opposed-test) [Unarmed Combat](#unarmed-combat-agistr) [Test](#tests) against the other Character grappling them. 
 
 Additionally, a Grappled Character can no longer perform [Opportunity Attacks](#opportunity-Attacks).
+
+### Guarded
+A **Guarded** Character may [Defend](#defending) against the next Attack that would affect them with `1` [Die Fudge](#die-fudges). 
+
+* Graded; Limit: `5`
+* Automatic Shrug-Off: `-1` point at the start of the Turn. 
 
 ### Hasted
 <img src="../../img/health-condition-hasted.svg" style="width: 3rem; height: 3rem;"></img>
