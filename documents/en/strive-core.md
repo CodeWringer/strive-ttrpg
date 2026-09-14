@@ -132,7 +132,6 @@ By using STRIVE (that includes but is not limited to viewing, reading, referenci
     - [Retell the Previous Session](#retell-the-previous-session)
     - [During the Session](#during-the-session)
     - [Intent \& Action](#intent--action)
-    - [Spending Time](#spending-time)
   - [After the Session](#after-the-session)
   - [Tests](#tests)
     - [Rounded Up \& Rounded Down](#rounded-up--rounded-down)
@@ -250,28 +249,29 @@ By using STRIVE (that includes but is not limited to viewing, reading, referenci
   - [Ambition Fate Points](#ambition-fate-points)
   - [Hand of Fate](#hand-of-fate)
 - [Time-Management](#time-management)
-  - [Initiative](#initiative)
-    - [Surprise Round](#surprise-round)
-  - [Ticks](#ticks)
+  - [Quarters of a Day (QoD)](#quarters-of-a-day-qod)
   - [Resting](#resting)
-  - [Scenario-Time](#scenario-time)
-  - [Down-Time](#down-time)
-    - [Crafting \& Research Projects](#crafting--research-projects)
-      - [Project Prerequisites](#project-prerequisites)
-      - [Progressing a Project](#progressing-a-project)
-      - [Project Complications](#project-complications)
-      - [Quality Level Reference](#quality-level-reference)
-      - [Project Boosters](#project-boosters)
-      - [Crafting It Again](#crafting-it-again)
-        - [Crafting It In Batches](#crafting-it-in-batches)
-      - [Research Projects](#research-projects)
-      - [Invention Projects](#invention-projects)
-      - [Complexity to Progress Increments](#complexity-to-progress-increments)
-      - [Workload to Time Increments](#workload-to-time-increments)
-      - [Project Events](#project-events)
-    - [Trade](#trade)
-      - [Seller's Chart](#sellers-chart)
-      - [Buyer's Chart](#buyers-chart)
+  - [Initiative Order](#initiative-order)
+    - [Delaying Your Turn](#delaying-your-turn)
+    - [Surprise Round](#surprise-round)
+    - [Ticks](#ticks)
+- [Crafting \& Research Projects](#crafting--research-projects)
+  - [Project Prerequisites](#project-prerequisites)
+  - [Progressing a Project](#progressing-a-project)
+  - [Project Complications](#project-complications)
+  - [Quality Level Reference](#quality-level-reference)
+  - [Project Boosters](#project-boosters)
+  - [Crafting It Again](#crafting-it-again)
+    - [Crafting It In Batches](#crafting-it-in-batches)
+  - [Research Projects](#research-projects)
+  - [Invention Projects](#invention-projects)
+  - [Complexity to Progress Increments](#complexity-to-progress-increments)
+  - [Workload to Time Increments](#workload-to-time-increments)
+  - [Project Events](#project-events)
+- [Trade](#trade)
+  - [Appraisal](#appraisal)
+  - [Seller's Chart](#sellers-chart)
+  - [Buyer's Chart](#buyers-chart)
 - [Combat](#combat)
   - [Action Points (AP)](#action-points-ap)
     - [Action Point Saving](#action-point-saving)
@@ -311,8 +311,6 @@ By using STRIVE (that includes but is not limited to viewing, reading, referenci
   - [Forced March](#forced-march)
   - [Enduring the Journey](#enduring-the-journey)
   - [Foraging \& Hunting](#foraging--hunting)
-- [General Interactions](#general-interactions)
-  - [Appraisal](#appraisal)
 - [Appendix](#appendix)
   - [Character Creation](#character-creation)
     - [Determine Life Path](#determine-life-path)
@@ -612,7 +610,7 @@ As STRIVE is meant primarily as a rule-book to help you quickly find what you ne
 | [Disengage Action](#disengage)                              | A Combat Action that lets a Character safely avoid an Opportunity Attack. |
 | [Dissolving](#dissolving)                                   | A Condition that causes Acid Damage every Tick. |
 | [Distance Increment (DI)](#ranged)                          | Indicates a ranged weapon's/Attack's range increments. Attacking past this number of Squares incurs penalties to the Attack. |
-| [Down-Time](#down-time)                                     | Whenever the PCs aren't out actively adventuring, they may have time to themselves, to pursue a craft, hone their abilities or simply relax. |
+| [Down-Time](#time-management)                               | Down-Time has time flowing fairly rapidly, as events unfold on an abstract level. |
 | [Drivers](#drivers)                                         | Refers to a Character's Ambition, Aspirations and Quirks - goals to work towards and automatic triggers to get them into trouble. |
 | [Drug-Addicted](#drug-addicted)                             | A Condition that forces a Character to act compulsively. |
 | [Electrified](#electrified)                                 | A Condition that forces a Character to spasm uncontrollably and thus be Force-Moved. |
@@ -644,7 +642,7 @@ As STRIVE is meant primarily as a rule-book to help you quickly find what you ne
 | [Hostility](#hostility)                                     | A special resource the GM receives to occasionally activate Hostility Actions with, to shake up a Combat encounter. |
 | [Illness](#illness)                                         | A serious long-term health impediment of a Character. |
 | [Indirect Damage](#damage--effects)                         | Damage that always comes from the environment, or from Damage over time [Health Conditions](#condition). |
-| [Initiative Order](#initiative)                             | Defines the order Characters get to act in during tense situations, like Combat. |
+| [Initiative Order](#initiative-order)                       | Defines the order Characters get to act in during tense situations, like Combat. |
 | [Injury Shrug-Off](#shrugging-off-an-injury)                | When a Character suffers enough Damage to potentially also suffer an Injury, they may try to shrug it off, thus avoiding the Injury. |
 | [Injury](#injury)                                           | A serious health impediment of a Character, suffered through Damage, when failing a Shrug-Off Test. |
 | [Innate Ability](#innate-abilities)                         | A special ability that a Character has access to based on their ancestry. |
@@ -654,12 +652,12 @@ As STRIVE is meant primarily as a rule-book to help you quickly find what you ne
 | [Known Skill](#skills)                                      | A Skill at Level `1+`, which is still considered known to the Character. They can properly utilize such a Skill. |
 | [Language](#languages)                                      | A Character's ability to communicate and potentially read and write in a language that exists in your GM's world. |
 | [Learning Skill](#learning-skills)                          | A Skill at Level `0`, which is still considered unlearned. A Character has not yet gained the ability to properly utilize such a Skill, for example in Skill Forking. |
-| [Long Reach](#long-reach)                                   | A weapon Trait for melee weapons that allow Attacking targets up to two Squares away. |
+| [Long Reach](#long-reach)                                   | A Weapon Trait for melee weapons that allow Attacking targets up to two Squares away. |
 | [Luggage](#luggage)                                         | The Assets a Character is carrying on-person. |
 | [Major Fate-Point (MaFP)](#major-fate-points)               | A Fate-Point earned for a major achievement and great role-play. |
 | [Marked](#marked)                                           | A Condition that makes a Character easier to harm. |
 | [Masterful Success](#test-success-ratings)                  | A masterful success of a Test. |
-| [Melee](#melee)                                             | A weapon Trait for all weapons that allow Attacking adjacent targets. |
+| [Melee](#melee)                                             | A Weapon Trait for all weapons that allow Attacking adjacent targets. |
 | [Minor Fate-Point (MiFP)](#minor-fate-points)               | An easily earned Fate-Point, supported by mostly mechanics. |
 | [Miss](#tests)                                              | Negative result of an individual die-roll in a Test. |
 | [Modified Level](#raw-vs-modified-level)                    | The Level value after Boons and Penalties have been applied to it. |
@@ -677,13 +675,13 @@ As STRIVE is meant primarily as a rule-book to help you quickly find what you ne
 | [Passive](#actions-reactions--passives)                     | An effect that is always active (when a defined condition is met). |
 | [Penalized Attribute](#core-favored-normal--penalized-attributes)| An Attribute that is much harder to Advance. |
 | [Penalty](#boons--penalties)                                | A negative effect on a Character, for example one that reduces the dice available for Tests. |
-| [Perfectly Balanced](#precise)                   | A weapon Trait that indicates a weapon is more effective. |
+| [Precise](#precise)                                         | A Weapon Trait that indicates a weapon is more effective. |
 | [Personality](#personality)                                 | Describes a Character's desires and ways of thinking. |
 | [Player Character (PC)](#introduction)                      | The type of Character that players are in control of. |
-| [Poison-Chamber](#poison-chamber)                           | A weapon Trait that indicates a weapon deals additional Poison Damage. |
+| [Poison-Chamber](#poison-chamber)                           | A Weapon Trait that indicates a weapon deals additional Poison Damage. |
 | [Poisoned](#poisoned)                                       | A Condition that causes Poison Damage every Tick. |
 | [Practice](#practice)                                       | During Down-Time, Characters may practice for Advancement Progress. |
-| [Prefer Range](#prefer-range)                               | A weapon Trait that indicates a weapon is harder to use against adjacent targets. |
+| [Prefer Range](#prefer-range)                               | A Weapon Trait that indicates a weapon is harder to use against adjacent targets. |
 | [Primary Damage](#damage--effects)                          | The most significant [Damage Type](#damage-types) of an [Instance of Damage](#damage--effects) **after** Armor and Resistances are applied. |
 | [Progress Increment (PI)](#progressing-a-project)           | Determines how much work a Project takes. |
 | [Project Booster](#project-boosters)                        | May add Progress or Quality Levels to a Project. |
@@ -697,21 +695,21 @@ As STRIVE is meant primarily as a rule-book to help you quickly find what you ne
 | [Quality Level](#crafting--research-projects)               | A numeric value that describes the quality of an Asset or Project. |
 | [Quirk](#quirk)                                             | Part of a Character's Drivers and always triggers when some defined condition is met, to get the Character in trouble or grant them an assurance. |
 | [Range of Opportunity](#opportunity-attacks)                | The zone around a Character that lets them launch Opportunity Attacks as a Reaction to foes moving around or away from them. |
-| [Range Only](#range-only)                                   | A weapon Trait that indicates a weapon cannot be used against adjacent targets. |
-| [Ranged](#ranged)                                           | A weapon Trait for all ranged weapons. |
+| [Range Only](#range-only)                                   | A Weapon Trait that indicates a weapon cannot be used against adjacent targets. |
+| [Ranged](#ranged)                                           | A Weapon Trait for all ranged weapons. |
 | [Raw Level](#raw-vs-modified-level)                         | The Level value before Boons and Penalties have been applied to it. |
 | [Reaction](#actions-reactions--passives)                    | An Action that may occur when a defined condition is met. |
 | [Rooted](#rooted)                                           | A Condition that disallows a Character from moving of their own volition. |
-| [Round](#initiative)                                        | A Round comprises all Turns of Characters currently in Initiative Order. When all Characters have had their Turn, a Round is concluded and the next Round begun. |
+| [Round](#initiative-order)                                  | A Round comprises all Turns of Characters currently in Initiative Order. When all Characters have had their Turn, a Round is concluded and the next Round begun. |
 | [Rounded Down (RD)](#rounded-up--rounded-down)              | Indicates a step or result of a calculation is supposed to be rounded down. |
 | [Rounded Up (RU)](#rounded-up--rounded-down)                | Indicates a step or result of a calculation is supposed to be rounded up. |
-| [Scenario-Time](#scenario-time)                             | The regular mode of play - time is fairly finely sliced and each Character's actions are handled individually. |
-| [Serrated](#serrated)                                       | A weapon Trait that indicates a weapon deals additional Bleeding Damage. |
+| [Granular-Time](#time-management)                           | has time flowing very slowly, sometimes even on a moment-by-moment basis and may, use [Initiative Order](#initiative-order) to allocate time slices. |
+| [Serrated](#serrated)                                       | A Weapon Trait that indicates a weapon deals additional Bleeding Damage. |
 | [Signature Virtues / Vices](#virtues--vices)                | Describes a Character's way of thinking and how they *will* act, in general. In fact, they are *known* to be this way! |
 | [Single Target (ST)](#single-target-st)                     | Indicates an Attack will only affect a single target. This can be a Character or object. |
 | [Skill Forking](#skill-forking)                             | Allows you to benefit from varied knowledge. You can Fork related Skills into a Test, if you can reasonably explain their use. |
 | [Skill](#skills)                                            | A learned ability of a Character. These are used in the vast majority of cases to resolve Tests and may offer unique abilities, called Expertises. |
-| [Slow Reload](#slow-reload)                                 | A weapon Trait that for a weapon that must be reloaded after every use, at the cost of AP. |
+| [Slow Reload](#slow-reload)                                 | A Weapon Trait that for a weapon that must be reloaded after every use, at the cost of AP. |
 | [Solid Success](#test-success-ratings)                      | A strong success of a Test. |
 | [Source of Damage](#damage--effects)                        | The entity that dealt Damage. |
 | [Sprinting Speed / Sprint](#sprinting-speed-sprint)         | Can extend a Character's movement per AP, at the cost of Stamina. |
@@ -734,11 +732,11 @@ As STRIVE is meant primarily as a rule-book to help you quickly find what you ne
 | [Toughness (Tough)](#toughness-tough)                       | An Attribute that describes a Character's capacity to withstand physical and mental strains. Finds use in determining maximum HP, maximum Stamina and Sprinting Speed. |
 | [Treated Injury](#injury-states--treatment)                 | A Treated Injury only reduces a Character's maximum HP. |
 | [Troublemaker](#quirk)                                      | A PC's Quirk that makes it easy for the GM to get that PC into *trouble* - some minor social conflict to shake things up. |
-| [Turn](#initiative)                                         | The moment in time when a Character gets to act in an Initiative Order. |
+| [Turn](#initiative-order)                                   | The moment in time when a Character gets to act in an Initiative Order. |
 | [Unconscious](#unconscious)                                 | A Condition for a Character who is either asleep or knocked unconscious. |
 | [Unthreatened](#flanking)                                   | The default for all Unflanked Characters in Combat. Their defenses work to the fullest intent. |
-| [Very Long Reach](#very-long-reach)                         | A weapon Trait for melee weapons that allow Attacking targets up to three Squares away. |
-| [Very Slow Reload](#very-slow-reload)                       | A weapon Trait that for a weapon that must be reloaded after every use, at the cost of more AP. |
+| [Very Long Reach](#very-long-reach)                         | A Weapon Trait for melee weapons that allow Attacking targets up to three Squares away. |
+| [Very Slow Reload](#very-slow-reload)                       | A Weapon Trait that for a weapon that must be reloaded after every use, at the cost of more AP. |
 | [Virtue / Vice](#virtues--vices)                            | Describes a Character's way of thinking and how they should act, in general. |
 | [Weapon Asset](#weapon-assets)                              | An Asset designed to be used as a weapon. Improvised weapons don't count. |
 | [Weapon Trait](#weapon-traits)                              | Weapon Traits are modular rules that make one weapon mechanically different from another, by changing what a weapon is capable of. |
@@ -809,15 +807,6 @@ The players drive the story and the action. They decide what their Character wil
 As a player, when deciding on what to do, make sure you state the **intent** of your action, like "I want to find incriminating evidence against a merchant". Then, the GM will need to know *how* you aim to follow up on your intent. Describe the Action you will take. The clearer, the better. "I will ask around", would allow the GM to guide you along. But there are still details left to fill in. Who and where will you ask? What will you ask them? So, a better intent would be "I will ask the other merchants at the market what they think about this one merchant". That leaves no room for doubt *how* you wish to achieve your goal, which makes the GM's job easier and the game flow better. The GM could now have each merchant tell the PC some rumours or observed past activities and behaviors of that one merchant, some of which may be of a sketchy nature, like "I swear I saw him down at the docks, speaking to some shady looking people" or "She always seems wary of people walking behind her".
 
 When deciding on what to do and how to do it, also keep in mind your Character's [Personality](#virtues--vices) as that should inform you of the kinds of actions they might take. 
-
-### Spending Time
-Everything the PCs do takes time. How much time, exactly, is variable and depends on the point in the narrative the PCs are in. There are two levels of time-management. 
-
-On the more abstract level, PCs commit to very abstract long-term actions. They might pursue their profession or recover from an Injury. This level is called [Down-Time](#down-time). 
-
-In contrast, on the more concrete level, PCs only commit to fine-grained short-term actions. This is when detailled descriptions and fine time slices come into play. Every action is as small as deciding to open a door that is right in front, or deciding to talk to someone in the same room. This is considered the **scenario** or **encounter** level. 
-
-Typically in RPGs, a fight is considered a **[Combat](#combat) encounter**. Non-bloody interaction that involves speaking to [NPCs](#non-player-character-npc) or the PCs amongst themselves is considered a **social encounter**. There are also scenarios of exploration, investigation and survival. 
 
 ## After the Session
 After a session is done, the players and GM stick around to discuss which players earned [Fate Points](#fate-points). This is where players are nominated for Fate Points, by each other and by the GM. If everyone agrees, the Fate Points are awarded. Players can and should lobby for their Fate Points, but shouldn't beg. If most everyone else says no, then that decision stands. 
@@ -1116,7 +1105,7 @@ Base Initiative is derived from the sum of the Character's [Agility](#agility-ag
 
 > A Character with an Agility of `3`, Awareness of `4` and Wit of `5`, has a Base Initiative of `3 + 4 + 5 = 12`. 
 
-See also [Initiative](#initiative). 
+See also [Initiative](#initiative-order). 
 
 #### Sprinting Speed (Sprint)
 <img src="../../img/sprinting-speed.svg" style="width: 3rem; height: 3rem;">
@@ -1221,7 +1210,7 @@ Advancement is open ended. It technically never stops, although it will slow dow
 
 XP may be spent on advancing (i. e. "Leveling Up") [Attributes](#attributes) and on Skill Advancement Progress, for which the conversion rate is `1` to `1`, meaning for every XP spent, a Skill's Advancement Progress is incremented by the same amount. 
 
-It is only possible to spend XP at the start or end of a session, when Characters are [resting](#resting), or during [Down-Time](#down-time). 
+It is only possible to spend XP at the start or end of a session, when Characters are [resting](#resting), or during [Down-Time](#time-management). 
 
 #### Advancing Attributes
 [Attributes](#attributes) can only be advanced (i. e. "leveled up"), by spending [XP](#experience-points-xp). 
@@ -1269,7 +1258,7 @@ For your convenience, the following table contains the precalculated requirement
 | 10    | 38  |
 
 #### Practice
-Whenever the Character's enjoy some [Down-Time](#down-time), away from adventuring, they may spend that time practicing. For every week (or day, or whatever time increment works best for your group), of practice, they gain `+1` [Advancement Progress](#advancement). 
+Whenever the Character's enjoy some [Down-Time](#time-management), away from adventuring, they may spend that time practicing. For every week (or day, or whatever time increment works best for your group), of practice, they gain `+1` [Advancement Progress](#advancement). 
 
 #### Teaching
 Much like it is possible for a Character to [Practice](#practice) on their own, they can also be taught by another, who knows more than them. Only [Skills](#skills) can be taught and the teacher's Skill Level must be at least one greater than that of their pupil. For every week (or day, or whatever time increment works best for your group), of tutoring, the pupil gains `+2` [Advancement Progress](#advancement) to the Skill in question. 
@@ -1544,7 +1533,7 @@ All Conditions apply on a [Tick](#ticks) - the start of a Character's Turn.
 
 Conditions may be **Graded** with a number that represents how strong the Condition's effects are. It may be possible to **Shrug Off** a point through a [Test](#tests). It may also be possible to immediately cancel out a Condition with external help (e. g. an antidote against [Poison](#poisoned)). An attempt to Shrug Off counts as an [Action](#action-points-ap) and can only be made **after** the Tick of the Condition. All Graded Conditions are automatically removed when their points are reduced to `0`. Additionally, some Graded Conditions may be **Greedy** - they automatically increase by `+1` point **after** every [Tick](#ticks). 
 
-Even outside of combat, for as long as a Character in the current scene is suffering one of these Conditions, it is advisable to use very fine and [discrete time-slices](#scenario-time). 
+Even outside of combat, for as long as a Character in the current scene is suffering one of these Conditions, it is advisable to use very fine and [discrete time-slices](#time-management). 
 
 A listing of all Conditions can be found [in the appendix](#list-of-conditions). 
 
@@ -1838,12 +1827,27 @@ There are no limits to how many of a given card a player can own, but they may o
 The speed at which time flows, in-game, is variable and depends on the current circumstances of the narrative. 
 
 There are two broad disctinctions of time-flow made: 
-* [Down-Time](#down-time) has time flowing very rapidly, as events unfold on a fairly abstract level. 
-* [Scenario-Time](#scenario-time) has time flowing very slowly, sometimes even on a second-by-second basis, as the way events unfold must be carefully considered. 
+* **Down-Time**: has time flowing fairly rapidly, as events unfold on an abstract level. 
+  * This is usually the time PCs spend on recovery, [Crafting & Research](#crafting--research-projects), [Practicing](#practice), [Travel](#travel--terrain), [Trade](#trade) and [Resting](#resting). 
+* **Granular-Time**: has time flowing very slowly, sometimes even on a moment-by-moment basis and may use [Initiative Order](#initiative-order) to allocate time slices. 
+  * [Combat](#combat) is the most prominent and mechanically supported example. 
+  * Aside Combat, other such situations can stem from tense negotiations, (perilous) exploration, general role-play and so on. Even in 
 
-There will be times when the order in which Characters act matters. For this, see the [Initiative](#initiative) section. Most often, though, PCs will act at irregular times, depending on circumstance. 
+Regardless of how quickly time currently flows, every in-game day is divided into the four [Quarters of Day](#quarters-of-a-day-qod). Everything the PCs do, takes places during at least one of these. 
 
-## Initiative
+## Quarters of a Day (QoD)
+Each day is divided into four Quarters: **Night**, **Dawn**, **Midday**, and **Dusk**. Each Quarter lasts approximately six hours. Translated to a `24`-hour clock, Night is from `00:00` to `06:00`, Dawn from `06:00` to `12:00`, Midday from `12:00` to `18:00` and finally Dusk is from `18:00` to `00:00`. 
+
+## Resting
+All creatures that can be tired, require sleep. Some [Conditions](#condition) can only be cleared by resting. A **Full Rest** requires at least one uninterrupted QoD of *active resting*. That implies not doing anything besides sleeping or meditating. Anything less than a Full Rest is a **Partial Rest**. 
+
+An interruption of a Full Rest is any break in the rest, when a Character is forced to do something physically or mentally taxing that keeps them from sleep. If in doubt - a Test is almost always going to be taxing in some way.
+
+Whenever resting in an **unsafe environment**, such as out in the wild or on a city's streets, animals, bandits or monsters - given the setting and narrative allow for it - might surprise any resting Characters. Therefore, it is advisable to set up a watch. But be careful - those on watch could fall asleep during their vigil! To determine whether they succumb to their own exhaustion, they must Test their [Self-Control](#self-control-toughwit) once, at the beginning of their watch. The Ob is equal to `3`, plus their current negative [Stamina](#stamina--strain), if they have any. If multiple Characters stay up for the watch at the same time, they can help each other stay awake, reducing the Ob by `-1` for each who stay awake. The Ob to stay awake can never be reduced to less than `1`. 
+
+> A Character with current Stamina of `-1` is tasked with standing watch one night. In order to avoid falling asleep, they must succeed a Self-Control Test at Ob `3 (always) + 1 (negative Stamina) = 4`. 
+
+## Initiative Order
 When the order in which Characters act matters, an **Initiative Order** is needed. **Initiative** is the rolled number that determines when a Character should get a chance to act. To this end, the Initiative of all involved parties is collected and sorted. The Character who rolled the highest number gets to act first and then in descending order, the next Character after them, until all Characters have had their **Turn** to act. 
 
 The steps to determine the Initiatve Order are as follows: 
@@ -1853,11 +1857,12 @@ The steps to determine the Initiatve Order are as follows:
 
 The point in time when a Character gets to act (or abstain from their action) is called their **Turn**. When all Characters have had their Turn, a **Round** is concluded. After that, the first person in the Initiative Order gets to act again and a new Round is begun. This cycle continues, until Initiative Order is no longer needed. 
 
-A Character can delay their Turn willingly. They get a final chance to act **at the end of the Round**. If multiple Characters delay their Turn, they'll get another chance at the end of a Round, in the same order they normally would have. In other words, the last Character to delay is also the last to act.
-
-Most prominently, Initiative Order is used during [Combat](#combat). But it could also find application during other times, such as a chase-sequence, negotiations, or during [Down-Time](#down-time). Initiative Order could even be used on a more abstract level, to determine in what order Characters get to try out their political schemes. The concrete instances when Initiative Order is to be used, will be up to the GM to decide. 
+Most prominently, Initiative Order is used during [Combat](#combat). But it could also find application during other times, such as a chase-sequence, negotiations, or during [Down-Time](#time-management). Initiative Order could even be used on a more abstract level, to determine in what order Characters get to try out their political schemes. The concrete instances when Initiative Order is to be used, will be up to the GM to decide. 
 
 Some Characters may be granted the ability to enter the Initiative Order multiple times, meaning they get to make multiple Initiative rolls for a Round. If a Character enters the Initiative Order more than once, then every consecutive Initiative of theirs is divided by its order. The first Initiative roll is the same as for other Characters. But the second Initiative roll is halved (= divided by `2`), the third is divided by `3` and so on. The resulting number is rounded up. 
+
+### Delaying Your Turn
+Once in a Round, you may delay your Turn, moving it to the end of the current Round. If multiple Characters delay their Turn, they will get to act one after another, in the order that they delayed their Turn. In other words, the last Character to delay is also the last to finally get their Turn in a Round.
 
 ### Surprise Round
 If one party is surprised, for example during an ambush, then the ambushing party gets to act for a full Round, without the ambushed party getting a chance to act. This is called a **Surprise Round**. After the Surprise Round Initiative Order is handled as normal. Additionally, any surprised Characters **do not** get their starting [AP](#action-points-ap), until the end of the Surprise Round! 
@@ -1866,43 +1871,24 @@ Usually, circumstance may grant a Surprise Round, but in case it doesn't you may
 
 > Surprise Round does not apply to opponents standing right in front of each other in conversation, when one of them suddenly draws a dagger and Attacks. The Attacker can be clearly seen by the defender (assuming they can see) and thus does not result in a Surprise Round. Of course, the specifics are always up to the scenario at hand and to the GM's ruling. 
 
-## Ticks
+### Ticks
 A **Tick** is the instant in time, at the **start of a Character's Turn** during [Combat](#combat), or every `5` seconds outside of Combat. 
 
 This is the point in time when a [Conditions](#condition) are suffered by the Character, before other Turn effects (whatever those may be) apply. 
 
 A Tick **always** occurs for a Character, even when skipping or delaying their Turn. 
 
-## Resting
-All creatures that can be tired, require sleep. Some [Conditions](#condition) can only be cleared by resting. A **Full Rest** requires at least `6` uninterrupted hours of *active resting*. That implies not doing anything besides sleeping or meditating. Anything less than a Full Rest is a **Partial Rest**. 
-
-An interruption of a Full Rest is any break in the rest, when a Character is forced to do something physically or mentally taxing that keeps them from sleep. If in doubt - a Test is almost always going to be taxing in some way.
-
-Whenever resting in an **unsafe environment**, such as out in the wild or on a city's streets, animals, bandits or monsters - given the setting and narrative allow for it - might surprise any resting Characters. Therefore, it is advisable to set up a watch. But be careful - those on watch could fall asleep during their vigil! To determine whether they succumb to their own exhaustion, they must Test their [Self-Control](#self-control-toughwit) once, at the beginning of their watch. The Ob is equal to `3`, plus their current negative [Stamina](#stamina--strain), if they have any. If multiple Characters stay up for the watch at the same time, they can help each other stay awake, reducing the Ob by `-1` for each who stay awake. The Ob to stay awake can never be reduced to less than `1`. 
-
-> A Character with current Stamina of `-1` is tasked with standing watch one night. In order to avoid falling asleep, they must succeed a Self-Control Test at Ob `3 (always) + 1 (negative Stamina) = 4`. 
-
-## Scenario-Time
-In contrast to [Down-Time](#down-time), scenario-time describes the point in the narrative when the PCs are dealing with a specific situation on a fine-grained level, where the amount of time that is spent matters. 
-
-This is especially the case in scenarios of [Combat](#combat), tense negotiation, perilous exploration, survival and the like, where each individual step on the path matters as much as the path itself. 
-
-There is also the distinction to be made whether the order in which Characters act in matters. If it does, then the rules for [Initiative](#initiative) must be used. [Combat](#combat) is the most prominent - but not the only - example of such a case. 
-
-## Down-Time
-When not currently dealing with events on a detailed level - there and in the moment - PC's can spend their time on a more abstract level. This applies especially to activities that take greater amounts of time, such as recovering from [Injuries](#injury), travel, engaging in their trade, honing their [Skills](#skills) and such. 
-
-### Crafting & Research Projects
+# Crafting & Research Projects
 <img src="../../img/crafting.svg" style="width: 3rem; height: 3rem;"></img>
 
 In their own free time, Characters can spend time and resources to create [Assets](#assets), [research obscure subjects or make scientific discoveries](#research-projects), or devise entirely new [Inventions](#invention-projects). Some crafts may be possible while travelling, but most are assumed to be done when the PCs aren't currently travelling or on adventures. Research will always require Down-Time. 
 
 Every Project and Asset has a **Quality Level**. 
 
-#### Project Prerequisites
+## Project Prerequisites
 Typically, a project can only be worked on with access to necessary resources and know-how. [Skills](#skills) that detail how they can be used for crafting will also note the prerequisites required. As always, the GM has the final word. 
 
-#### Progressing a Project
+## Progressing a Project
 Every Project's **progress** is tracked numerically. All progress begins at `0` and is increased through use of a particular [Skill](#skills), further called the **Project Skill**. 
 
 Every Project has a **Progress Increment** and a **Time Increment**. The Progress Increment tells you how much progress is needed to finish the next step of the Project. For every Time Increment worth of time you spend on the Project, you may add your **Project Skill's Level** as points of progress. Up to `5` assisting Characters may also add `+1` point of progress every time, along with you. But of course, in the meantime, these Characters cannot work on their own Projects. Note that progress isn't rolled for, it is simply added, when the next Time Increment has been reached. Note that you get [Advancement Progress](#advancement), but no [XP](#experience-points-xp), for every `5` points of progress made! Assistants to Projects earn `+1` [XP](#experience-points-xp), instead. 
@@ -1915,7 +1901,7 @@ You can continue this cycle any number of times, but if you **fail twice in succ
 
 When you Push On, the GM may choose to employ a [Project Event](#project-events), possibly even instead of a Complication. Project Events should be an occasional occurrence at best, employed only for long-lasting and significant Projects, to shake things up a bit when appropriate. 
 
-#### Project Complications
+## Project Complications
 When accepting a random Complication for a Project, roll for one of the results from the table below.
 
 | D4 | Complication |
@@ -1925,7 +1911,7 @@ When accepting a random Complication for a Project, roll for one of the results 
 | 3  | **Overthinking it**: from now on, every time you Push On, the Progress Increment increases by another `10` points! |
 | 4  | **Work-Accident**: in a moment of carelessness, you hurt yourself accidentally. You suffer an [Injury](#injury)! Consult your GM to determine which. |
 
-#### Quality Level Reference
+## Quality Level Reference
 How much is a Quality Level worth? This will ultimately be up to the GM to estimate, but the table below may provide guidance.
 
 | Quality Level | Description |
@@ -1936,14 +1922,14 @@ How much is a Quality Level worth? This will ultimately be up to the GM to estim
 | 7 - 8         | An exceptionally well made product. Highly potent, potentially with multiple functions. An expert's work. |
 | 9+            | A legendary product. Its potency and function may even be fantastical - something never before seen! A true master of their craft made this. |
 
-#### Project Boosters
+## Project Boosters
 During their adventures, or while perusing the market or library, PCs may find things that can boost the progress of their Project. These **Project Boosters** can be varied - schematics, specialized tools, a rare artefact, advice from a knowledgeable NPC, and similar. But they always either increase the Project's current Progress or Quality Level.
 
 These things can add progress to a Project or raise the base Quality Level. How much they boost the Project, will be determined by the GM. A good baseline should be that a common Project Booster adds `+10`, a rare adds `+30` and an enigmatic adds `+60`. But of course, these numbers are only suggestions. Project Boosters that increase base Quality Level should be very rare and most valuable. Acquiring them should be an adventure of its own, or the reward for great deeds well performed. 
 
 Typically, Project Boosters are one-time use. Once they have been used to add progress to the Project, they cannot be used again. However, this is not a hard-set rule. Some things, like a magic cauldron or high-tech lab equipment may of course be used again, provided no narrative reasons forbid it. 
 
-#### Crafting It Again
+## Crafting It Again
 Whenever a crafting or [Invention](#invention-projects) Project is finished, its product becomes the **Recipe** for further crafts of **identical products**. If you wish to craft the same product again, at the same Quality Level and with any complications it possibly has, you need no longer roll Project Skill Tests. You now *know* how to make the thing, in that Quality. 
 
 But you will still need to spend time on it. Multiply the Quality Level of the recipe product with the Progress Increment it originally had. That is the total Progress to achieve for that product. When finished, your new product will have the same Quality Level and Complications as the original.
@@ -1952,12 +1938,12 @@ But you may also decide you can do better. You may begin your Project again, at 
 
 > A product with a Quality Level of `3`, and one complication, would begin at Quality Level `2`, and no Complications! Assuming its Progress Increment is `10`, then multiplying that with the new starting Quality of `2`, yields an initial total required Progress of `20`. Once that progress is reached, a Project Skill Test is required, at Ob `2 (the new Quality Level) + 1 (always) = 3`. If successful, the new Quality Level is `3`!
 
-##### Crafting It In Batches
+### Crafting It In Batches
 For every Recipe that you know, you may also decide to craft multiple of the same product in a batch. This is a more efficient than individual crafts. Each additional instance of the same product you wish to create, adds only half (RU) of the Progress Increment. 
 
 > Given you have a recipe for a product with Quality Level `3` and a Progress Increment of `10` and you want to make `5` instances of this same product, then the first instance of the product sets the initial required total progress at `3 (Quality) * 10 (Progress Increment) = 30`. Each of the `4` *additional* instances of the product now add `5` points of required progress. So, for all `5` instances of the product to be finished, the final total progress is `30 + (4 * 5) = 50`. This is much faster, than creating those `5` instances individually, as that *would* take `5 * 30 = 150` points of total required progress!
 
-#### Research Projects
+## Research Projects
 A Project can be about the research of knowledge, but not about mundane every-day things. You must visit various libraries, study dusty old tomes or comb countless digital archives, go on archeological digs and question other scholars. This is a task requiring substantial effort. 
 
 For all Research Projects, the Progress Increment is `15` and the Time Increment is `1` Hour. The Quality Level you achieve in the end dictates the degree of knowledge you learned about your subject. You may always try to gain even deeper understanding of your topic, by researching the same subject matter again. Your previous knowledge will accelerate further studies by `N * 2`, where *N* is your current degree of knowledge, every time you gain a Progress Increment.
@@ -1973,12 +1959,12 @@ As a prerequisite to begin your studies, you must have access to the number of r
 
 When you finish the research Project, you'll have the answers you seek and may gain the title "Loremaster of *X* (degree)", where you replace *X* with the subject you researched and *degree* with the Quality Level. 
 
-#### Invention Projects
+## Invention Projects
 A Project can be about the invention of completely unique and new [Assets](#assets). Describe your idea to the GM, who will determine how feasible your idea is. If it seems reasonable, they will also estimate the Progress Increment (see [Complexity to Progress Increments](#complexity-to-progress-increments)) and Time Increment (see [Workload to Time Increments](#workload-to-time-increments)). 
 
 As a difference to regular Projects, whenever you choose to Push On, you may also get a less effective prototype of your invention, if you score a hit on a single `D6` roll, at the GM's discretion. Your prototype receives the Project's current Quality Level. 
 
-#### Complexity to Progress Increments
+## Complexity to Progress Increments
 Think about complexity in terms of *how difficult is it to make the thing?*, *are specialized tools needed?*, *are special resources required?* and *does the task have any tolerance for carelessness?*
 
 | Complexity         | Progress Increment | Description        |
@@ -1989,14 +1975,14 @@ Think about complexity in terms of *how difficult is it to make the thing?*, *ar
 | Complex            | 20                 | A complex craft requires specialized tools and rare resources, which may not be readily accessible to just anyone and the work must be done in a specialized environment. Specialized and obscure knowledge is required. |
 | Monumental         | 40                 | A monumental craft requires tools that simply don't exist, anywhere. You will have to create them, yourself. The resources you need will require substantial effort to track down. Perhaps you'll even be the first discover their existence. The work can be done only in a highly specialized environment, to minimize the risk of delicate machinery getting dusty, aerosols mixing or vibrations in the earth agitating the wrong powder and so forth. There may not be anyone alive, nor any writing detailing the work. You will have to be the first to (re-)discover the knowledge required. |
 
-#### Workload to Time Increments
+## Workload to Time Increments
 Workload is the result of processes that naturally take a long time, the difficulty in processing materials and the amount of work that has to be done. A very high workload will take very long to complete, while a low workload may be finished in a matter of minutes.
 
 | Workload       | Low         | Moderate    | High        | Very High   |
 | -------------- | ----------- | ----------- | ----------- | ----------- |
 | Time Increment | 10 Minutes  | 1 Hour      | 6 Hours     | 1 Day       |
 
-#### Project Events
+## Project Events
 Project Events are random events that may occur during long-lasting, significant Projects. The details of these should be reserved for the GM's eyes, only. 
 
 | D12  | Event |
@@ -2014,7 +2000,7 @@ Project Events are random events that may occur during long-lasting, significant
 | 11   | A NPC who the PC helped in the past appears, offering to help on the Project. Surprisingly, they know exactly what to do, boosting the Project by `+10` points of progress. |
 | 12   | After so much time on the Project, the PC digs themself into a hole, mentally. They can no longer make sense of their own work and someone else has to help them regain their footing in the Project. The helper needs to make the next Project Skill Test. |
 
-### Trade
+# Trade
 Selling and buying things can take a surprising amount of time. If prices are too high and demand or reputation too low, chances are, you won't be able to sell your goods. But even when people do show interest in your wares, you still have to *sell it* to them. An uncharismatic merchant will have a difficult time making a pretty profit, regardless of the quality of their goods. On the other hand, buying things may prove equally difficult, when what you're looking for isn't really available. 
 
 For trade, there the [Mercantilism](#mercantilism-awarwit) [Skill](#skills) is chief. Using this Skill requires a [Graduated Test](#graduated-test) with an Ob threshold to be made. The Degree Of Success factors into getting a better price.
@@ -2025,7 +2011,16 @@ It is possible to roll with fewer dice, than would be available for the Graduate
 
 To get an ear on the ground and figure out what the local market is like, a Character can spend time to walk around, talk to people, ask for prices of common goods and get a feel for the wealth of the local populace. 
 
-#### Seller's Chart
+## Appraisal
+In order to appraise the value, weight, size or other properties of something, a [Test](#tests) with a [Skill](#skills) pertaining to _what_ is being appraised must be made. 
+
+> For example, to determine the value and weight of a gold-nugget, one could Test [Metallurgy](#metallurgy-awarwit). 
+
+The Ob depends on circumstance. How much time is available to appraise? How unusual or uncommon is the thing being appraised? How easy is it to appraise such things? 
+
+Of course, a trader may be experienced in the goods and wares they peddle. [Mercantilism](#mercantilism-awarwit) may be used as a catch-all for appraisal, but at a penalty of `+1` Ob, as a pure trader will never be able to ascertain the quality as well as a craftsperson could.
+
+## Seller's Chart
 The following matrix provides an overview of how long it may take to sell things on the market. Note that the GM has the final say on how long it will actually take and on how difficult it will be. 
 
 Denoted are both the time it takes to get a chance at a [Mercantilism](#mercantilism-awarwit) [Test](#tests), what the Ob threshold is and what margins can be expected. The margins are relative to the goods' *listing price* or *normal* value. `200%` means the goods can be sold at twice what they're worth. 
@@ -2037,7 +2032,7 @@ Denoted are both the time it takes to get a chance at a [Mercantilism](#mercanti
 | **High**      | 12 Hours <br> Ob 4 <br> 110% | 10 Hours <br> Ob 3 <br> 120% | 8 Hours <br> Ob 2 <br> 130%  | 6 Hours <br> Ob 1 <br> 140%    | 
 | **Very High** | 4 Hours <br> Ob 3 <br> 140%  | 2 Hours <br> Ob 2 <br> 160%  | 1 Hour <br> Ob 1 <br> 180%   | 30 Minutes <br> Ob 0 <br> 200% | 
 
-#### Buyer's Chart
+## Buyer's Chart
 The following matrix provides an overview of how long it may take to buy things on the market. Note that the GM has the final say on how long it will actually take and on how difficult it will be. 
 
 Denoted are both the time it takes to get a chance at a [Mercantilism](#mercantilism-awarwit) [Test](#tests), what the Ob threshold is and what price inflation can be expected. The prices are relative to the goods' *listing price* or *normal* value. `200%` means the goods must be bought at twice what they're worth. 
@@ -2052,30 +2047,24 @@ The supply is assumed to be relative to the demand. The more something is in dem
 | **Very High** | 30 Minutes <br> Ob 3 <br> 140% | 1 Hour  <br> Ob 4 <br> 160%  | 2 Hours <br> Ob 5 <br> 180%   | 4 Hours <br> Ob 6 <br> 200%  | 
 
 # Combat
-When diplomacy fails, hostilities ensue. This is when the game enters into a state that is handled very carefully. How time is *sliced* and when Characters get to act, is crucial. 
+When diplomacy fails, hostilities ensue. This is when the game enters into a state that is handled very carefully. How time is *sliced* and when Characters get to act, is crucial. Time is divided into **Rounds** and those into **Turns**. Combat ends, when neither side has the ability or will left to fight. 
 
-At the Start of every Combat, [Initiative Order](#initiative) must be determined. Then, check if a [Surprise Round](#surprise-round) is in order. 
+At the Start of every Combat, [Initiative Order](#initiative-order) must be determined. Then, check if a [Surprise Round](#surprise-round) is in order. During combat, when Characters act one after another. Each gets a Turn, as determined by the Initiative Order. How many actions they get to perform, depends solely on the [AP](#action-points-ap) they have available for that Turn. Unless it is a [Surprise Round](#surprise-round), all Characters start with their typical amount of AP and only regain AP during the second Round, at the earliest. 
 
-During combat, when Characters act one after another. Each gets a Turn, as determined by the Initiative Order. How many actions they get to perform, depends solely on the [AP](#action-points-ap) they have available for that Turn. Unless it is a [Surprise Round](#surprise-round), all Characters start with their typical amount of AP and only regain AP during the second Round, at the earliest. 
-
-Some general Actions during combat are:
+General Actions during combat are:
 * [Attacking](#Attacking)
-  * [Throwing](#throwing)
-  * [Unarmed combat](#unarmed-combat-agistr)
+* [Throwing](#throwing)
 * [Moving](#combat-movement)
   * [Disengaging](#disengage)
   * [Fleeing](#flee-combat)
   * [Pushing Through](#push-through)
   * [Swapping out](#swap-out)
 * Speaking
-* Waiting (= abstaining from an action)
 
-Some general Reactions during combat are:
+General Reactions during combat are:
 * [Opportunity Attacks](#opportunity-Attacks)
 * [Defending](#defending)
   * [Defending an ally](#defending-an-ally)
-
-Combat ends, when neither side has the ability or will left to fight. 
 
 ## Action Points (AP)
 Every Turn, every Character gets `+4` **Action Points (AP)** to spend on actions during their Turn. If they do not have enough AP for an action, they may not perform it. 
@@ -2408,18 +2397,6 @@ For every increment of `6` hours of travel, Characters will need to consume one 
 
 ## Foraging & Hunting
 It is possible to hunt/forage for food while traveling, without losing time. You may make Tests of an approproately chosen Skill, with an Ob appropriate to the current Square of terrain. If successful, the number of Hits you achieve equals the number of [rations](#general-assets) you gain. 
-
-# General Interactions
-These are rules pertaining to specific social interactions or otherwise non-combat interactions that aren't immediately covered by a single [Skill](#skills). 
-
-## Appraisal
-In order to appraise the value, weight, size or other properties of something, a [Test](#tests) with a [Skill](#skills) pertaining to _what_ is being appraised must be made. 
-
-> For example, to determine the value and weight of a gold-nugget, one could Test [Metallurgy](#metallurgy-awarwit). 
-
-The Ob depends on circumstance. How much time is available to appraise? How unusual or uncommon is the thing being appraised? How easy is it to appraise such things? 
-
-Of course, a trader may be experienced in the goods and wares they peddle. [Mercantilism](#mercantilism-awarwit) may be used as a catch-all for appraisal, but at a penalty of `+1` Ob, as a pure trader will never be able to ascertain the quality as well as a craftsperson could.
 
 # Appendix
 The appendix contains lists for reference only when needed. 
@@ -3795,7 +3772,7 @@ At any time, a Mentor can decide to let their Retainer go. Depending on circumst
 During combat encounters, it is the **players' duty to run their Retainer NPCs**. As such, they must be given a Character sheet with all the numeric details of their Retainer NPC. Keep in mind that even though players run their Retainers for the purposes of alleviating some of your burden, *you* are still the one who dictates the Retainer's personality. Keep a watchful eye on what the players want their Retainer to do. If it doesn't fit the personality of the Retainer, you *should* intervene. If you don't, and the players decide the personality, then in actuality, you have simply given them a secondary PC to run. And one should be plenty enough for any player already.
 
 Additionally, Retainers adhere to these rules in combat:
-* They always share the same [Initiative Order](#initiative) as their Mentor and thus act on the same Turn! However, even if their Mentor is incapacitated, but their Retainer is not, then the Retainer may still act!
+* They always share the same [Initiative Order](#initiative-order) as their Mentor and thus act on the same Turn! However, even if their Mentor is incapacitated, but their Retainer is not, then the Retainer may still act!
 * Upon reaching `0` [HP](#health-points-hp) they **die**! They do not get to [Death's Door](#deaths-door) as PCs do.
 * They count as an ally when incrementing [Hostility](#hostility).
 
