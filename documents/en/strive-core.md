@@ -149,7 +149,7 @@ By using STRIVE (that includes but is not limited to viewing, reading, referenci
     - [Tests Bring about Learning](#tests-bring-about-learning)
     - [Providing Assistance](#providing-assistance)
       - [Helpers Learn](#helpers-learn)
-    - [Die Fudges](#die-fudges)
+    - [Edge](#edge)
     - [Time](#time)
     - [Test Success Likelihoods](#test-success-likelihoods)
   - [Actions, Reactions \& Passives](#actions-reactions--passives)
@@ -580,13 +580,13 @@ As STRIVE is meant primarily as a rule-book to help you quickly find what you ne
 | [Berserk](#berserk)                                         | A Condition that forces a Character to Attack anyone they can see, including allies. |
 | [Binary Test](#binary-test)                                 | A Test that allows no room for failure. |
 | [Bleeding](#bleeding)                                       | A Condition that causes Bleeding Damage every Tick. |
-| [Boon](#boons--penalties)                                   | A positive effect on a Character, for example one that grants Die Fudges or which awards Temporary HP. |
+| [Boon](#boons--penalties)                                   | A positive effect on a Character, for example one that grants Edge or which awards Temporary HP. |
 | [Bulk](#bulk)                                               | Describes the weight, size and ease of use of an Asset. |
 | [Burning](#burning)                                         | A Condition that causes Burning Damage every Tick. |
 | [Carrying Capacity](#carrying-capacity)                     | Limits how much a Character can carry on-person. |
 | [Character Trait](#character-traits)                        | A unique aspect of a Character, such as an exclusive ability or Title of Renown. |
 | [Combat](#combat)                                           | The state the game enters when a fight breaks out. Time is finely sliced and Characters act in Turns, with a limited number of actions they may take. |
-| [Die Fudge](#die-fudges)                  | Greatly improve the odds of achieving a Hit in a Test. |
+| [Edge](#edge)                                               | A countable, temporary resource that grants a temporary **advantage to achieve Hits** in a Test and temporarily **raises the** [**Hit Limit**](#testing-a-skill) by `+1`, for each Edge. |
 | [Concentration](#concentration)                             | A Skill or Expertise whose effects last as long as desired, but which could be interrupted. |
 | [Condition](#condition)                                     | A positive or negative effect affecting a Character. |
 | [Core Attribute](#core-favored-normal--penalized-attributes)| An Attribute that is easier to Advance. |
@@ -638,7 +638,7 @@ As STRIVE is meant primarily as a rule-book to help you quickly find what you ne
 | [Hasted](#hasted)                                           | A Condition that lets a Character who get an additional AP and who may move further per AP spent. |
 | [Health Point(s) (HP)](#health-points-hp)                   | The resource that separates a Character from death. |
 | [Heroic Act](#momentum-actions)                             | When Momentum is high, Heroic Acts become available, and allow PCs to dominate a fight. |
-| [Hit Limit](#testing-a-skill)                               | Determines how many rolled Hits may actually factor into the result of a Test. This is equal to your Skill's Level, plus `1`, but can be temporarily raised through Die Fudges, Skill Forking and other Characters providing assistance. |
+| [Hit Limit](#testing-a-skill)                               | Determines how many rolled Hits may actually factor into the result of a Test. This is equal to your Skill's Level, plus `1`, but can be temporarily raised through Edge, Skill Forking and other Characters providing assistance. |
 | [Hit](#tests)                                               | Positive result of an individual die-roll in a Test. |
 | [Hostility Action](#hostility)                              | A special event that benefits only the PCs' foes. This is the counter point to Momentum Actions. |
 | [Hostility](#hostility)                                     | A special resource the GM receives to occasionally activate Hostility Actions with, to shake up a Combat encounter. |
@@ -848,9 +848,9 @@ It is **not** possible to [Fork](#skill-forking) into Attribute Tests, *at all*.
 ### Testing a Skill
 All Skills have two Attributes they're based on / rely on, noted in parentheses next to the Skill's name. These are called the Skill's **Base Attributes**. To resolve a Skill Test, roll `ND6`, where *N* is the **sum** of both Base Attributes' Level.
 
-A **Hit Limit**, equal to the Level of the Skill itself, plus `1`, governs the **maximum** number of Hits that may, at most, count towards the result. It is possible to **temporarily** raise this Limit through [Die Fudges](#die-fudges), [Forking](#skill-forking) and [getting help](#providing-assistance), with each instance of these always and automatically raising the Hit Limit by `+1`!
+A **Hit Limit**, equal to the Level of the Skill itself, plus `1`, governs the **maximum** number of Hits that may, at most, count towards the result. It is possible to **temporarily** raise this Limit through [Edge](#edge), [Forking](#skill-forking) and [getting help](#providing-assistance), with each instance of these always and automatically raising the Hit Limit by `+1`!
 
-> *Every* helper and *every* Die Fudge and *every* Forked Skill, each raise the Himit Limit by `+1`!
+> *Every* helper and *every* Edge and *every* Forked Skill, each raise the Himit Limit by `+1`!
 
 It is possible to Fork into Skill Tests, granting more dice and raising the Hit Limit by `+1`, for **each** Forked Skill! **Do not forget to Fork your Skills into your Tests!**
 
@@ -858,7 +858,7 @@ It is possible to Fork into Skill Tests, granting more dice and raising the Hit 
 > 
 > They roll `6`, `6`, `5`, `5`, `3`, `2` and `1`, of which `4` are Hits! But because their Skill is only Level `2`, they may only take `2 (from the Skill's Level) + 1 (always) = 3` of those Hits for the Test's result. 
 >
-> *However*, they are afforded `1` Die Fudge for the Test. While the Die Fudge would not be enough to turn one of the Misses into a Hit, it raises the Hit Limit by `+1`. Thus allowing all `4` rolled Hits to factor into the result, after all! 
+> *However*, they are afforded `+1` Edge for the Test. While the Edge would not be enough to turn one of the Misses into a Hit, it raises the Hit Limit by `+1`. Thus allowing all `4` rolled Hits to factor into the result, after all! 
 
 ### Raw vs. Modified Level
 [Boons And Penalties](#boons--penalties) may apply to Attribute and Skill Levels. For all purposes except [Advancement](#advancement), always use the Level after Boons and Penalties have been applied. 
@@ -942,12 +942,12 @@ If a PC is helping another, their player must describe *how* they're using their
 #### Helpers Learn
 A Character helping in a Test, gains `+1` [XP](#experience-points-xp). 
 
-### Die Fudges
-**Die Fudges** allow turning the faces of dice that came up as Misses up to the next higher number, until they become a Hit, instead. Also, Die Fudges **always** raise the Hit Limit for the Test, by `+1` for each! 
+### Edge
+**Edge** is a countable, temporary resource that grants a temporary **advantage to achieve Hits** in a Test and temporarily **raises the** [**Hit Limit**](#testing-a-skill) by `+1`, for each Edge. For every Edge, you may turn a rolled die face to the next higher face! Edge is a ***big deal***! Always seek to earn yourself as much of it, as possible! 
 
-> When rolling `3D6`, with `2` Die Fudges and achieving `5`, `3` and `4` in the roll, then `1` Die Fudge can be used to turn the `4` into a `5` or both Die Fudges could turn the `3` into a `5`. There are not enough Die Fudges to turn all Misses into Hits, but at least one die is guaranteed to become a Hit! 
+> When rolling `3D6`, with `2` Edge and achieving `5`, `3` and `4` in the roll, then `1` Edge can be used to turn the `4` into a `5` or all Edge could be used to turn the `3` into a `5`. There is not enough Edge to turn all Misses into Hits, but at least one die is guaranteed to become a Hit! 
 
-They may not sound grandiose, but make no mistake, Die Fudges are a ***big deal***! Always seek to earn yourself as many of these as possible! 
+Edge is **not persistent**! Once Combat ends or the scene changes, all Edge expires!
 
 ### Time
 Not all Tests are created equal - some actions require more time than others. 
@@ -1009,27 +1009,27 @@ Interesting key points that can be observed are:
   * Ob `4`: `11` dice for `53%` and `14` for `74%` success rates. 
   * Ob `5`: `14` dice for `54%` and `17` for `72%` success rates. 
 
-Looking at these numbers, it is easy to believe Ob `4` and `5` Tests to be impossibly difficult. And under normal circumstances, this may be true. However, aside [Skill Forking](#skill-forking) and [helpers](#providing-assistance) granting more dice, there is another major factor - [Die Fudges](#die-fudges). Just one of these can have a huge impact on these Test success rates.
+Looking at these numbers, it is easy to believe Ob `4` and `5` Tests to be impossibly difficult. And under normal circumstances, this may be true. However, aside [Skill Forking](#skill-forking) and [helpers](#providing-assistance) granting more dice, there is another major factor - [Edge](#edge). Just one Edge can have a huge impact on these Test success rates.
 
-With `1` Die Fudge:
+With `1` Edge:
   * Ob `1`: `1` die for `50%` and `2` dice for `74%` success rates.
   * Ob `2`: `4` dice for `63%` and `5` for `76%` success rates.
   * Ob `3`: `6` dice for `54%` and `8` for `76%` success rates.
   * Ob `4`: `9` dice for `56%` and `11` for `75%` success rates.
   * Ob `5`: `11` dice for `49%` and `14` for `72%` success rates.
 
-With `2` Die Fudges:
+With `2` Edge:
   * Ob `1`: `1` die for `66%` and `2` dice for `89%` success rates.
   * Ob `2`: `3` dice for `65%` and `4` for `80%` success rates.
   * Ob `3`: `5` dice for `58%` and `6` for `72%` success rates.
   * Ob `4`: `7` dice for `48%` and `9` for `74%` success rates.
   * Ob `5`: `9` dice for `47%` and `12` for `75%` success rates.
 
-As you can see, Die Fudges decrease the number of dice you need to reach significant thresholds. But this is not the same as lowering the Ob, as on average, each Die Fudge grants `+1` average number of Hits. For Tests where the number of Hits matters, this is a big deal!
+As you can see, Edge decreases the number of dice you need to reach significant thresholds. But this is not the same as lowering the Ob, as on average, each Edge grants `+1` average number of Hits. For Tests where the number of Hits matters, this is a big deal!
 
 And then there are the [Fate-Cards](#hand-of-fate), which can also provide significant boosts to odds of success, for those Tests where success *really* matters!
 
-In conclusion, what can be said is, dice pool systems are complex, but also flexible. While the exact numbers are too plentiful to remember and the success likelihoods concealed by the number of dice, you rarely actually need to know them. What you need to know are the Ob thresholds and that you *really should* seek out Die Fudges. 
+In conclusion, what can be said is, dice pool systems are complex, but also flexible. While the exact numbers are too plentiful to remember and the success likelihoods concealed by the number of dice, you rarely actually need to know them. What you need to know are the Ob thresholds and that Edge is *a big deal*. 
 
 ## Actions, Reactions & Passives
 Everything a Character does is always categorized as either an **Action** or a **Reaction**. 
@@ -1510,7 +1510,7 @@ Every time a Character suffers an Injury, they gain `+1` Grit Point. These are a
 
 You may spend Grit Points at any time during a Round for the following effects (but only one Grit Point per effect, per Round): 
 * On a [Test](#tests), gain `+2D`. 
-* On a [Test](#tests), gain `+1` [Die Fudge](#die-fudges). 
+* On a [Test](#tests), gain `+1` [Edge](#edge). 
 * Increase [Stamina](#stamina--strain) by `1D4`. 
 * On your next successful Attack, deal `+8` points of [Pure Damage](#damage-types). 
 * Gain `+1D4` [AP](#action-points-ap). 
@@ -1736,7 +1736,7 @@ Melee Attacks cause `+Q` [Knock-Back](#forced-movement).
 Melee Attacks [Pull](./strive-core.md#forced-movement) by `+Q` Squares.
 
 ###### Precise
-Attacks receive `+1` [Die Fudge](#die-fudges). 
+Attacks receive `+1` [Edge](#edge). 
 
 ###### Piercing
 Attacks ignore `Q` points of [Armor](#armor-assets).
@@ -2189,7 +2189,7 @@ There are four types of shapes that AoE effects can have:
 ### Opportunity Attacks
 When a Character is within weapon's reach of another hostile Character, they're considered within the other's **Range of Opportunity**. Whenever a Character in an enemy's Range of Opportunity moves away from or more than `2` Squares *around* that enemy, that enemy can *choose* to perform an **Opportunity Attack**. 
 
-Performing an Opportunity Attack costs `-1` [AP](#action-points-ap) at a `-1D` penalty and will **halt** the enemy in question, preventing their movement, regardless of whether the Attack hits. When an Opportunity Attack against them is declared, the Defending Character may choose to [Push Through](#push-through), thus getting to move after all, but if they do, the Attacker instead of losing a die, gains `+1` [Die Fudge](#die-fudges) for their Opportunity Attack!
+Performing an Opportunity Attack costs `-1` [AP](#action-points-ap) at a `-1D` penalty and will **halt** the enemy in question, preventing their movement, regardless of whether the Attack hits. When an Opportunity Attack against them is declared, the Defending Character may choose to [Push Through](#push-through), thus getting to move after all, but if they do, the Attacker instead of losing a die, gains `+1` [Edge](#edge) for their Opportunity Attack!
 
 It is possible to avoid an Opportunity Attack with a [Disengage](#disengage) combat action. 
 
@@ -2203,7 +2203,7 @@ It is possible to move out of an enemy's [Range of Opportunity](#opportunity-Att
 When Disengaging from more than one Range of Opportunity in the same action, every additional Range of Opportunity past the first adds a cost of `+1` additional AP. 
 
 #### Push Through
-It is possible to **Push Through** a [Range of Opportunity](#opportunity-Attacks), which cannot halt movement, but in doing so, grants the Opportunity Attack `+1` [Die Fudge](#die-fudges). 
+It is possible to **Push Through** a [Range of Opportunity](#opportunity-Attacks), which cannot halt movement, but in doing so, grants the Opportunity Attack `+1` [Edge](#edge). 
 
 ### Flanking
 In a normal duel situation, a person in armor or with a shield will always have an advantage over the person without. There are still ways to get around these defenses, but they usually involve managing to throw the opponent to the ground or using specific [Expertises](#expertise). Simply continuing trying to hit someone in armor in a straight fight will not yield you the results you seek. 
@@ -2230,7 +2230,7 @@ The following graphic illustrates valid spots for a third ally to enter, to **Su
 <img src="../../img/flanking-chart_3.png" width="264px" height="357px"></img>
 
 ### Stealth Attacks
-When Attacking another Character from stealth, the moment of surprise can make all the difference. An Attack from stealth gains `+2` [Die Fudges](#die-fudges)! 
+When Attacking another Character from stealth, the moment of surprise can make all the difference. An Attack from stealth gains `+2` [Edge](#edge)! 
 
 When Attacking with [Bludgeoning](#damage-types), you may knock another Character [Unconscious](#unconscious) with one fell swoop. For this, their [Toughness](#toughness-tough) may be at most `2` Levels above your [Strength](#strength-str). 
 
@@ -2251,7 +2251,7 @@ Successfully **Defending** against an Attack negates all its Damage and other ef
 The Defender must *choose* how to defend, unless a specific "Opposed by" Skill is noted on the Attacker's Skill. Valid choices are a [Weapon](#weapon--weapon-family---base-attributes-), the [Acrobatics](#acrobatics-agistr) or the [Shield](#shield-strtough) Skills. 
 
 Defense is classified as follows:
-* [**Guarded**](#guarded) Defense, for which you gain `+1` [Die Fudge](#die-fudges) and reduces your Guarded by `-1`. During your Turn, you can spend `1` AP to gain `+1` Guarded, as many times as you like or until you have the maximum of `5` Guarded. 
+* [**Guarded**](#guarded) Defense, for which you gain `+1` [Edge](#edge) and reduces your Guarded by `-1`. During your Turn, you can spend `1` AP to gain `+1` Guarded, as many times as you like or until you have the maximum of `5` Guarded. 
 * **Regular Defense**, which costs `-1` AP. There are no boons or penalties to this Defense. 
 * If you have `0` AP left, you may make an **Emergency Defense**, which borrows `1` AP from your next Turn. You will start that future Turn with `1` AP less. You may make an Emergency Defense **only twice per Round**. 
 * If you have no Guarded, nor AP left *and* have already spent all Emergency Defenses, you can no longer Defend! In this case, the Attacker's Ob is always `1`. 
@@ -2322,13 +2322,13 @@ When you gain or lose Momentum, only the most significant change counts! Note th
 | ---------------------------------------------------------------------------------------------------------------------- | ------------------------- | ---------------------- | ----------------------------- | -------------------------------- | --------------------------------------------------------------------------------------------------- |
 | Death Mark <br><img src="../../img/heroic-act_death-mark.svg" width="64px" height="64px"></img>                        | `-15`                     | Until the end of combat, a chosen enemy is [Marked](#marked). Every [Instance of Direct Damage](#damage--effects) they suffer causes them `+1` point of [Bleeding](#bleeding). This [Condition](#condition) cannot be removed normally. | Until the end of combat, a chosen **enemy and PC** are [Marked](#marked). Every [Instance of Direct Damage](#damage--effects) either suffers causes them `+1` point of [Bleeding](#bleeding). The effects from Death Pact and Damage over time effects do not trigger the Bleeding increase. This [Condition](#condition) cannot be removed normally, and ends automatically when one of the two Characters is struck down. Also, when that happens, the survivor gains `+10` [Temporary HP](#temporary-health-points). | `+15` | Death Pact <br><img src="../../img/desperate-measure_death-pact.svg" width="64px" height="64px"></img> |
 | Finest Hour <br><img src="../../img/heroic-act_finest-hour.svg" width="64px" height="64px"></img>                      | `-30`                     | A PC of choice gets an immediate Turn, with `4` [AP](#action-points-ap). | All PCs get an immediate Turn, with `3` [AP](#action-points-ap), but also suffer `+3` points of [Bleeding](#bleeding). | `+20` | Final Hour <br><img src="../../img/desperate-measure_final-hour.svg" width="64px" height="64px"></img> |
-| Finish It! <br><img src="../../img/heroic-act_finish-it.svg" width="64px" height="64px"></img>                         | `-30`                     | A chosen PC launches an immediate Attack against a chosen foe, with `+1` [Die Fudge](#die-fudges). If successful, that foe suffers its `Injury count * 3` points of additional Pure Damage, after all other Damage is resolved. | A chosen PC launches an immediate Attack against a chosen foe, with `+1` [Die Fudge](#die-fudges). If successful, the foe suffers its `Injury count * 4` points of additional Pure Damage, after all other Damage is resolved. If the foe survives even after the additional Damage is applied, the PC suffers `(Injury count * 3) + 5` points of Pure Damage. | `+10` | You or Me <br><img src="../../img/desperate-measure_you-or-me.svg" width="64px" height="64px"></img> |
-| Pre-Emptive Strikes <br><img src="../../img/heroic-act_pre-emptive-strikes.svg" width="64px" height="64px"></img>      | `-30`                     | For `2` Rounds, a chosen PC's first self-initiated [Attack Action](#Attacking) every Round costs no [AP](#action-points-ap)! | Until the end of combat, a chosen PC's first self-initiated [Attack Action](#Attacking) every Round costs no [AP](#action-points-ap), with `+1` [Die Fudge](#die-fudges). However, one foe gets the same boon, albeit without the Die Fudge bonus! | `+30` | Martial Trance <br><img src="../../img/desperate-measure_breakout-strikes.svg" width="64px" height="64px"></img> |
+| Finish It! <br><img src="../../img/heroic-act_finish-it.svg" width="64px" height="64px"></img>                         | `-30`                     | A chosen PC launches an immediate Attack against a chosen foe, with `+1` [Edge](#edge). If successful, that foe suffers its `Injury count * 3` points of additional Pure Damage, after all other Damage is resolved. | A chosen PC launches an immediate Attack against a chosen foe, with `+1` [Edge](#edge). If successful, the foe suffers its `Injury count * 4` points of additional Pure Damage, after all other Damage is resolved. If the foe survives even after the additional Damage is applied, the PC suffers `(Injury count * 3) + 5` points of Pure Damage. | `+10` | You or Me <br><img src="../../img/desperate-measure_you-or-me.svg" width="64px" height="64px"></img> |
+| Pre-Emptive Strikes <br><img src="../../img/heroic-act_pre-emptive-strikes.svg" width="64px" height="64px"></img>      | `-30`                     | For `2` Rounds, a chosen PC's first self-initiated [Attack Action](#Attacking) every Round costs no [AP](#action-points-ap)! | Until the end of combat, a chosen PC's first self-initiated [Attack Action](#Attacking) every Round costs no [AP](#action-points-ap), with `+1` [Edge](#edge). However, one foe gets the same boon, albeit without the Edge bonus! | `+30` | Martial Trance <br><img src="../../img/desperate-measure_breakout-strikes.svg" width="64px" height="64px"></img> |
 | Tactical Repositioning <br><img src="../../img/heroic-act_tactical-repositioning.svg" width="64px" height="64px"></img>| `-10`                     | All PCs may immediately re-position, moving up to `10` Squares, without triggering any [Opportunity Attacks](#opportunity-Attacks). Normal [movement rules](#combat-movement) apply. | All PCs may immediately re-position, moving up to `15` Squares, without triggering any [Opportunity Attacks](#opportunity-Attacks). Normal [movement rules](#combat-movement) apply. However, up to three foes immediately gain `+1`, or one foe `+3` [AP](#action-points-ap). | `+10` | Desperate Repositioning <br><img src="../../img/desperate-measure_desperate-repositioning.svg" width="64px" height="64px"></img> |
-| Unyielding <br><img src="../../img/heroic-act_unyielding.svg" width="64px" height="64px"></img>                        | `-20`                     | For `2` Rounds, a chosen PC may freely [Counter-Attack](#counter-Attack) all Attacks directed against them or an adjacent ally with `+1` [Die Fudge](#die-fudges). | Until the end of combat, a chosen PC may freely [Counter-Attack](#counter-Attack) all Attacks directed against them or an adjacent ally with `+1` [Die Fudge](#die-fudges). However up to `3` times per Round, all foes may now also freely [Counter-Attack](#counter-Attack) this PC's Attacks. The limit is a total across all foes, **not** for each foe individually. | `+20` | Cornered <br><img src="../../img/desperate-measure_cornered.svg" width="64px" height="64px"></img> |
+| Unyielding <br><img src="../../img/heroic-act_unyielding.svg" width="64px" height="64px"></img>                        | `-20`                     | For `2` Rounds, a chosen PC may freely [Counter-Attack](#counter-Attack) all Attacks directed against them or an adjacent ally with `+1` [Edge](#edge). | Until the end of combat, a chosen PC may freely [Counter-Attack](#counter-Attack) all Attacks directed against them or an adjacent ally with `+1` [Edge](#edge). However up to `3` times per Round, all foes may now also freely [Counter-Attack](#counter-Attack) this PC's Attacks. The limit is a total across all foes, **not** for each foe individually. | `+20` | Cornered <br><img src="../../img/desperate-measure_cornered.svg" width="64px" height="64px"></img> |
 | Get Off Me!                                                                                                            | `-10`                     | All foes adjacent to a chosen PC are pushed back `2` Squares and cannot resist this Forced-Movement. That PC may then move up to `4` Squares, without triggering [Opportunity Attacks](#opportunity-Attacks). | A chosen PC switches places with an adjacent foe, and may then move up to `4` Squares, without provoking [Opportunity Attacks](#opportunity-Attacks). The foe they switched with may react and launch an immediate free [Counter-Attack](#counter-Attack), but cannot prevent the PC from moving. | `+10` | Outta My Way! |
 | Toughened Up                                                                                                           | `-15`                     | You may distribute a total of `40` [Temporary HP](#temporary-health-points) across all PCs, limited to each having at most `10`. | All PCs gain `10` [Temporary HP](#temporary-health-points), limited to them having at most this amount, but also suffer `3` [Strain](#strain). | `+15` | Scarred Up |
-| Locked In <br><img src="../../img/heroic-acts.svg" width="64px" height="64px"></img> | `-20` | For `2` Rounds, all of a single chosen PC's Self-Control Tests gain `+1` [Die Fudge](#die-fudges). | For `2` Rounds, all of a single chosen PC's Self-Control Tests **always succeed**, but once those Rounds have passed, they suffer `+2` [Strain](#strain) and begin their next Turn with `2` AP less! | `+20` | Frantic Focus <br><img src="../../img/desperate-measures.svg" width="64px" height="64px"></img> |
+| Locked In <br><img src="../../img/heroic-acts.svg" width="64px" height="64px"></img> | `-20` | For `2` Rounds, all of a single chosen PC's Self-Control Tests gain `+1` [Edge](#edge). | For `2` Rounds, all of a single chosen PC's Self-Control Tests **always succeed**, but once those Rounds have passed, they suffer `+2` [Strain](#strain) and begin their next Turn with `2` AP less! | `+20` | Frantic Focus <br><img src="../../img/desperate-measures.svg" width="64px" height="64px"></img> |
 
 ## Throwing
 Throwing things is a special type of Action, that follows the rules outlined below. 
@@ -2644,7 +2644,7 @@ Performing acrobatic feats, such as jumping, tumbling and climbing, without inju
 
 | Level | Name                 | AP | Ob      | Description        |
 | ----- | -------------------- | -- | ------- | ------------------ |
-| 1     | Deft Evasion         |    |         | **Passive**: While not wearing any [Armor](#armor) and not wielding a shield of Bulk `2` or more, gain `+1` [Die Fudge](#die-fudges) to any [Defense Test](#defending) made using this Skill and increase your [Stability](#stability-stabil) by `+1`! |
+| 1     | Deft Evasion         |    |         | **Passive**: While not wearing any [Armor](#armor) and not wielding a shield of Bulk `2` or more, gain `+1` [Edge](#edge) to any [Defense Test](#defending) made using this Skill and increase your [Stability](#stability-stabil) by `+1`! |
 | 2     | Wind Out Of It       | 2  | 2       | When hit by an Attack, lose `-1` [Stamina](#stamina--strain), wind out of the hit and... <br> `≤ 1` Hit: suffer `3` points of Damage less. <br> `= 2` Hits: suffer `5` points of Damage less <br> `≥ 3` Hits: suffer `8 or half (RU)` Damage less, picking whichever number is higher. |
 
 #### Berserking (Tough/Tough)
@@ -2652,7 +2652,7 @@ Whether as a well-honed skill and way of life, or through a disappointing childh
 
 | Level | Name                 | AP | Ob      | Description        |
 | ----- | -------------------- | -- | ------- | ------------------ |
-| 0     | Reckless Assault     | 1  |         | Gain `+1` [Die Fudge](#die-fudges) for your next Attack. Suffer a `-1D` penalty to all [Defense Tests](#defending) until the start of your next Turn. |
+| 0     | Reckless Assault     | 1  |         | Gain `+1` [Edge](#edge) for your next Attack. Suffer a `-1D` penalty to all [Defense Tests](#defending) until the start of your next Turn. |
 | 1     | Grit Your Teeth      |    |         | **Reaction**: Upon suffering an [Injury](#injury), gain an *additional* [Grit Point](#grit-points), but at the cost of `+1` [Strain](#stamina--strain)! |
 | 1     | Hit me? Hit you!     | 1  |         | **Reaction**: Upon suffering Damage, immediately hit your Attacker back, dealing `Str` Bludgeoning Damage to them. Lose `-1` [Stamina](#stamina--strain)! |
 | 1     | The Blood Quickens!  | 1  |         | Increase your [Stamina](#stamina--strain) by `+1` for every point in [Bleeding](#bleeding) you currently have, but also increase your Bleeding by `+1`! |
@@ -2719,7 +2719,7 @@ For any ally next to you, who's also using a shield, you both gain `+1D` on your
 
 | Level | Heroic Act <br><img src="../../img/heroic-acts.svg" width="64px" height="64px"></img> | Heroic Act Momentum Shift | Heroic Act Description | Desperate Measure Description | Desperate Measure Momentum Shift | Desperate Measure <br><img src="../../img/desperate-measures.svg" width="64px" height="64px"></img> |
 | ----- | ------------------------------------------------------------------------------------- | ------------------------- | ---------------------- | ----------------------------- | -------------------------------- | --------------------------------------------------------------------------------------------------- |
-| 4     | Launch! | `-15` | An adjacent ally jumps onto your shield, as you brace yourself and then, in a fluid motion, launch them over you. This way, your ally may travel up to your `Strength` Squares, without provoking [Attacks of Opportunity](#opportunity-Attacks). If they land adjacent to a foe, they may make an immediate free Attack against that foe. | An adjacent ally jumps onto your shield, as you brace yourself and then, with all your might, in a fluid motion, launch them over you. This way, your ally may travel up to your `Strength * 2` Squares, without provoking [Attacks of Opportunity](#opportunity-Attacks). If they land adjacent to a foe, they may make an immediate free Attack against that foe, with `+1` [Die Fudge](#die-fudges). *However*, **you** suffer `+3` [Strain](#stamina--strain). | `+15` | Strained Launch |
+| 4     | Launch! | `-15` | An adjacent ally jumps onto your shield, as you brace yourself and then, in a fluid motion, launch them over you. This way, your ally may travel up to your `Strength` Squares, without provoking [Attacks of Opportunity](#opportunity-Attacks). If they land adjacent to a foe, they may make an immediate free Attack against that foe. | An adjacent ally jumps onto your shield, as you brace yourself and then, with all your might, in a fluid motion, launch them over you. This way, your ally may travel up to your `Strength * 2` Squares, without provoking [Attacks of Opportunity](#opportunity-Attacks). If they land adjacent to a foe, they may make an immediate free Attack against that foe, with `+1` [Edge](#edge). *However*, **you** suffer `+3` [Strain](#stamina--strain). | `+15` | Strained Launch |
 
 #### Trapping (Awar/Wit)
 Setting traps in places where they're difficult to detect and the ability to disarm them. Used to set traps such as bear traps, pits filled with spikes, land mines and so on.
@@ -2781,7 +2781,7 @@ Speaking commands with booming authority.
 
 | Level | Name                   | AP | Ob      | Description        |
 | ----- | ---------------------- | -- | ------- | ------------------ |
-| 0     | Focus!                 | 1  | 1       | <br> `≤ 1` Hit: Grant another Character `+1D` for their next Test. <br> `= 2` Hits: Grant another Character `+2D` for their next Test. <br> `≥ 3` Hits: Grant another Character `+1` Die Fudge for their next Test. <br> Suffer `-1` [Stamina](#stamina--strain). |
+| 0     | Focus!                 | 1  | 1       | <br> `≤ 1` Hit: Grant another Character `+1D` for their next Test. <br> `= 2` Hits: Grant another Character `+2D` for their next Test. <br> `≥ 3` Hits: Grant another Character `+1` Edge for their next Test. <br> Suffer `-1` [Stamina](#stamina--strain). |
 | 0     | Shake It Off!          | 2  | 2       | Remove another Character's [Exhausted](#exhausted) or [Terrified](#terrified) [Condition](#condition). |
 | 0     | Taunt                  | 2  | Opposed by [Self-Control](#self-control-toughwit) | <br> `≤ 1` Hit: Force a designated target to Attack *you* on their next Turn. <br> `= 2` Hits: Force a designated target to Attack *you* on their next Turn, at Ob `+1`. <br> `≥ 3` Hits: Force up to two designated targets to Attack *you* on their next Turn, at Ob `+1`. |
 | 1     | Hit That One!          | 1  |         | [Mark](#marked) a ST of choice. Moving your Mark to a different target, clears it from the previous one. |
@@ -2796,7 +2796,7 @@ Requirement: Commanding Level `4`; A position of authority.
 | Level | Name                   | AP | Ob      | Description        |
 | ----- | ---------------------- | -- | ------- | ------------------ |
 | 0     | Put Your Back Into It! | 1  | 2       | **Reaction**: Upon an ally [Force Moving](#forced-movement) another Character, increase the distance by your Hits past the Ob you achieve. |
-| 0     | Protect Me!            | 1  | /       | **Reaction**: Upon being Attacked, force an ally adjacent to you to defend to defend in your stead and grant them `+1` [Die Fudge](#die-fudges) for the Defense Test. |
+| 0     | Protect Me!            | 1  | /       | **Reaction**: Upon being Attacked, force an ally adjacent to you to defend to defend in your stead and grant them `+1` [Edge](#edge) for the Defense Test. |
 | 1     | You! Attack Already!   | 1  | 3       | An ally of choice gains `+1D` on their next Attack Test, which they must immediately make against a ST, within reach. You may choose the target in question, or let your ally decide. But they *must* Attack! This Attack does **not** cost your ally any additional [AP](#action-points-ap)! |
 | 2     | Faster, You Slouch!    | 2  | 2       | An ally of choice is [Hasted](#hasted) for `1` Round. |
 
@@ -2876,7 +2876,7 @@ Knowledge about past events and locations. Make note of specific historical know
 
 | Level | Heroic Act <br><img src="../../img/heroic-acts.svg" width="64px" height="64px"></img> | Heroic Act Momentum Shift | Heroic Act Description | Desperate Measure Description | Desperate Measure Momentum Shift | Desperate Measure <br><img src="../../img/desperate-measures.svg" width="64px" height="64px"></img> |
 | ----- | ------------------------------------------------------------------------------------- | ------------------------- | ---------------------- | ----------------------------- | -------------------------------- | --------------------------------------------------------------------------------------------------- |
-| 3     | I Have Read Your Doom | `-20` | Recite, with zealous ferocity, ancient lore that strikingly paints the doom of a single, chosen foe. *If* they are a sapient being that can understand you, they become [Terrified](#terrified) of you, for `1` Round. *If not*, then your calamitous prognostications inspire your allies. All *other* PCs and allies gain `+1` [Die Fudge](#die-fudges) to their next Test, until the end of the Round. | Recite, with zealous ferocity, ancient lore that strikingly paints the doom of **all**. *Any* sapient being that can understand you and who is **not an ally**, becomes [Terrified](#terrified) of you, for `1` Round. *However*, your calamitous prognostications dampen your allies' spirits. They suffer `+1` Ob for their next Test, until the end of the Round. | `+10` | Doom Is Upon Us! |
+| 3     | I Have Read Your Doom | `-20` | Recite, with zealous ferocity, ancient lore that strikingly paints the doom of a single, chosen foe. *If* they are a sapient being that can understand you, they become [Terrified](#terrified) of you, for `1` Round. *If not*, then your calamitous prognostications inspire your allies. All *other* PCs and allies gain `+1` [Edge](#edge) to their next Test, until the end of the Round. | Recite, with zealous ferocity, ancient lore that strikingly paints the doom of **all**. *Any* sapient being that can understand you and who is **not an ally**, becomes [Terrified](#terrified) of you, for `1` Round. *However*, your calamitous prognostications dampen your allies' spirits. They suffer `+1` Ob for their next Test, until the end of the Round. | `+10` | Doom Is Upon Us! |
 
 #### Law and politics (Wit/Wit)
 The ability to understand laws and politics. 
@@ -2920,7 +2920,7 @@ This Skill may also find use in forensics, to identify poisons or the type of we
 
 | Level | Heroic Act <br><img src="../../img/heroic-acts.svg" width="64px" height="64px"></img> | Heroic Act Momentum Shift | Heroic Act Description | Desperate Measure Description | Desperate Measure Momentum Shift | Desperate Measure <br><img src="../../img/desperate-measures.svg" width="64px" height="64px"></img> |
 | ----- | ------------------------------------------------------------------------------------- | ------------------------- | ---------------------- | ----------------------------- | -------------------------------- | --------------------------------------------------------------------------------------------------- |
-| 4     | Immediate Response | `-25` | **You** may immediately move up to `5` Squares and treat a chosen Character without needing [Medical Supplies](#general-assets) and without triggering [Opportunity Attacks](#opportunity-Attacks). You get `+1` [Die Fudge](#die-fudges) for the treatment attempt. This does not cost you any [AP](#action-points-ap). | **You** may immediately move up to `10` Squares and treat a chosen Character without needing [Medical Supplies](#general-assets) and without triggering [Opportunity Attacks](#opportunity-Attacks). You get `+2` [Die Fudges](#die-fudges) for the treatment attempt. This does not cost you any [AP](#action-points-ap). *However*, **you** suffer `+1` [Injury](#injury) *after* the treatment attempt. | `+15` | Panic Medic |
+| 4     | Immediate Response | `-25` | **You** may immediately move up to `5` Squares and treat a chosen Character without needing [Medical Supplies](#general-assets) and without triggering [Opportunity Attacks](#opportunity-Attacks). You get `+1` [Edge](#edge) for the treatment attempt. This does not cost you any [AP](#action-points-ap). | **You** may immediately move up to `10` Squares and treat a chosen Character without needing [Medical Supplies](#general-assets) and without triggering [Opportunity Attacks](#opportunity-Attacks). You get `+2` [Edge](#edge) for the treatment attempt. This does not cost you any [AP](#action-points-ap). *However*, **you** suffer `+1` [Injury](#injury) *after* the treatment attempt. | `+15` | Panic Medic |
 
 #### Surgery (Agi/Wit)
 The ability to invasively treat ailments without making things worse for the patient. 
@@ -2951,7 +2951,7 @@ This governs the understanding of what makes defensive structures effective and 
 
 | Level | Heroic Act <br><img src="../../img/heroic-acts.svg" width="64px" height="64px"></img> | Heroic Act Momentum Shift | Heroic Act Description | Desperate Measure Description | Desperate Measure Momentum Shift | Desperate Measure <br><img src="../../img/desperate-measures.svg" width="64px" height="64px"></img> |
 | ----- | ------------------------------------------------------------------------------------- | ------------------------- | ---------------------- | ----------------------------- | -------------------------------- | --------------------------------------------------------------------------------------------------- |
-| 4     | Take and Hold! <br><img src="../../img/heroic-act_take-and-hold.svg" width="64px" height="64px"></img> | `-30` | Designate an area up to `5` Squares in diameter that lasts `3` Rounds. Any PC and ally inside this zone can make `1` free Defense Test and gains `+1` [Die Fudge](#die-fudges) for it. If such a zone already exists, it is replaced with the new one. Momentum gain clarification: the first Defense Test of a PC within the zone is **not** eligible to gain Momentum. | Designate an area up to `4` Squares in diameter. Until the end of combat, any PC and ally inside this zone receives `+1` [Die Fudge](#die-fudges) for every Defense Test and may freely [Counter-Attack](#counter-Attack) every Attack directed against them, up to `2` times per Round. But every PC and ally *outside* this zone suffers `+1` Ob for **every Test**. If such a zone already exists, it is replaced with the new one. Momentum gain clarification: Defense Tests inside the zone are **never** eligible to gain Momentum. | `+30` | Not A Step Back! <br><img src="../../img/desperate-measure_not-a-step-back.svg" width="64px" height="64px"></img> |
+| 4     | Take and Hold! <br><img src="../../img/heroic-act_take-and-hold.svg" width="64px" height="64px"></img> | `-30` | Designate an area up to `5` Squares in diameter that lasts `3` Rounds. Any PC and ally inside this zone can make `1` free Defense Test and gains `+1` [Edge](#edge) for it. If such a zone already exists, it is replaced with the new one. Momentum gain clarification: the first Defense Test of a PC within the zone is **not** eligible to gain Momentum. | Designate an area up to `4` Squares in diameter. Until the end of combat, any PC and ally inside this zone receives `+1` [Edge](#edge) for every Defense Test and may freely [Counter-Attack](#counter-Attack) every Attack directed against them, up to `2` times per Round. But every PC and ally *outside* this zone suffers `+1` Ob for **every Test**. If such a zone already exists, it is replaced with the new one. Momentum gain clarification: Defense Tests inside the zone are **never** eligible to gain Momentum. | `+30` | Not A Step Back! <br><img src="../../img/desperate-measure_not-a-step-back.svg" width="64px" height="64px"></img> |
 
 ### Artisan Skills
 All artisan Skills require a mix of physical and mental Attributes, for the purpose of creating a wide variety of things. Mechanically speaking, these are [Crafting](#crafting--research-projects) Skills.
@@ -2986,7 +2986,7 @@ The boons from meals do not stack. Eating a second meal will have it override al
 The following is a list of all [Character Traits](#character-traits) of the core rules. 
 
 ### Competitive Tosser
-You can throw objects `+4` Squares far and gain `+1` [Die Fudge](#die-fudges) for all [Throwing](#throwing) Tests.
+You can throw objects `+4` Squares far and gain `+1` [Edge](#edge) for all [Throwing](#throwing) Tests.
 
 ### Dual Wielder
 Gain the ability to effectively use two weapons at the same time. When making successful Attacks with one weapon, add the [Free Strike](#free-strike-fs) value of the other to the Damage and gain `+1D` for Defense Tests made with your weapons.
@@ -3013,7 +3013,7 @@ Whenever you craft Assets, you produce twice as many.
 Improve your [Base Initiative](#base-initiative-bi) by `+3`
 
 ### Shrugs-A-Lot
-For a Test to Shrug Off a [Condition](#condition), you may add `+1` [Die Fudge](#die-fudges) at the cost of `-1` AP and `-1` [Stamina](#stamina--strain).
+For a Test to Shrug Off a [Condition](#condition), you may add `+1` [Edge](#edge) at the cost of `-1` AP and `-1` [Stamina](#stamina--strain).
 
 ### Substitutional Talent
 For one of your Skills, change its Base Attributes to any other Attributes of your choice.
@@ -3022,7 +3022,7 @@ For one of your Skills, change its Base Attributes to any other Attributes of yo
 Increases [Stability](#stability-stabil) by `+2`. 
 
 ### Slippery
-[Grappling](#grappled) you is `+1` Ob harder and you receive `+1` Die Fudge for Tests to break free from being Grappled.
+[Grappling](#grappled) you is `+1` Ob harder and you receive `+1` Edge for Tests to break free from being Grappled.
 
 ### Thorough Artisan
 Every Asset you craft starts with Quality Level `+1`. Ignore the first [Project Skill Test](#progressing-a-project) you fail and treat it as a success, instead.
@@ -3031,7 +3031,7 @@ Every Asset you craft starts with Quality Level `+1`. Ignore the first [Project 
 Raise your base HP by `+10`. 
 
 ### Warcrobat
-Combining agility with deadliness, elevating mere skill at arms to an elegant art. Grants `+1` [Die Fudge](#die-fudges) to all Acrobatics Tests.
+Combining agility with deadliness, elevating mere skill at arms to an elegant art. Grants `+1` [Edge](#edge) to all Acrobatics Tests.
 
 **Prerequisites**: [Acrobatics](#acrobatics-agistr) Level `3+` and a [Weapon Skill](#weapon--weapon-family---base-attributes-) at Level `3+`. Costs `30` [XP](#experience-points-xp) to unlock. 
 
@@ -3045,7 +3045,7 @@ Adds the following Expertises to [Acrobatics](#acrobatics-agistr):
 | Shield Breaker       | /  | /           | **Passive**: You know to exploit the lethargy of shields and can circumvent their defensive bonuses. Against you, shields always count as `+1` degree of [Flanked](#flanking)! |
 
 ### Wordsmith
-Your cunning with words is unmatched. You gain `+1` [Die Fudge](#die-fudges) to [Persuasion](#persuasion-witwit) Tests. 
+Your cunning with words is unmatched. You gain `+1` [Edge](#edge) to [Persuasion](#persuasion-witwit) Tests. 
 
 ## List of Titles of Renown
 The following is a list of all [Titles of Renown](#titles-of-renown) of the core rules, a special type of [Character Trait](#character-traits). 
@@ -3084,14 +3084,14 @@ When in [Combat](#combat) with a non-sapient creature you have defeated before, 
 
 | Name                 | AP | Ob          | Description        |
 | -------------------- | -- | ----------- | ------------------ |
-| Collect The Trophy   | 1  | /           | [Mark](#marked) a ST and immediately launch an Attack against it, with `+1` [Die Fudge](#die-fudges). |
+| Collect The Trophy   | 1  | /           | [Mark](#marked) a ST and immediately launch an Attack against it, with `+1` [Edge](#edge). |
 
 ### Paragon
 > Just yesterday alone, they rescued a kitten from a tree, helped me do my taxes and then bagged a dangerous wanted criminal!
 
 **Prerequisites**: Apprehended a dangerous criminal and stood as a beacon of morality in at least one community that was plagued by them. 
 
-The local authorities will be much more open to the idea of assisting you in your own endeavours. You gain `+1` [Die Fudge](#die-fudges) to [Persuasion](#persuasion-witwit) Tests, but not when intimidating.
+The local authorities will be much more open to the idea of assisting you in your own endeavours. You gain `+1` [Edge](#edge) to [Persuasion](#persuasion-witwit) Tests, but not when intimidating.
 
 ### Pugilist
 > Ey you! I don' much like de cut o' yo' jib! I think I'mma change dat!
@@ -3105,28 +3105,28 @@ The local authorities will be much more open to the idea of assisting you in you
 
 **Prerequisites**: Successfully complete at least `3` deeply immoral jobs. 
 
-You find it much easier to haggle for better payment conditions with potential contractors and to intimidate those who know your name. You gain `+1` [Die Fudge](#die-fudges) to [Persuasion](#persuasion-witwit) Tests, but only when intimidating.
+You find it much easier to haggle for better payment conditions with potential contractors and to intimidate those who know your name. You gain `+1` [Edge](#edge) to [Persuasion](#persuasion-witwit) Tests, but only when intimidating.
 
 ### Savior Of The People
 > Our eternal gratitude is yours! Oh, if only we could ever properly repay you...
 
 **Prerequisites**: Saved an entire community from certain doom.
 
-The people you saved will gladly help you in all your endeavours, if they can. You will find food and bedding for free and may even be gifted the odd family heirloom as thanks. You gain `+1` [Die Fudge](#die-fudges) to [Persuasion](#persuasion-witwit) Tests, but not when intimidating.
+The people you saved will gladly help you in all your endeavours, if they can. You will find food and bedding for free and may even be gifted the odd family heirloom as thanks. You gain `+1` [Edge](#edge) to [Persuasion](#persuasion-witwit) Tests, but not when intimidating.
 
 ### Wanted
 > Yeah, I got a bounty in over 17 places you've never even heard of. So don't mess with me!
 
 **Prerequisites**: You've become a wanted criminal. 
 
-While you should avoid the authorities, you've some clout with the criminal underworld. You may be approached with job offers of a shady nature, or a way to clear your name. `+1` to [Stealth](#stealth-agiawar). You gain `+1` [Die Fudge](#die-fudges) to [Persuasion](#persuasion-witwit) Tests, but only when intimidating.
+While you should avoid the authorities, you've some clout with the criminal underworld. You may be approached with job offers of a shady nature, or a way to clear your name. `+1` to [Stealth](#stealth-agiawar). You gain `+1` [Edge](#edge) to [Persuasion](#persuasion-witwit) Tests, but only when intimidating.
 
 ### Zealot
 > Unfazed by heresy, unbowed by adversity, unfaltering in my resolve - I am the torch in the dark! I think.
 
 **Prerequisites**: Proved your conviction through incredible acts of faith. And eliminated all opposition to the faith you come across. 
 
-Your [Self-Control](#self-control-toughwit) is increased by `+1`, but you suffer `+1` Ob when trying to restrain yourself in the face of enemies of your faith. You gain `+1` [Die Fudge](#die-fudges) to [Persuasion](#persuasion-witwit) Tests, but only when intimidating.
+Your [Self-Control](#self-control-toughwit) is increased by `+1`, but you suffer `+1` Ob when trying to restrain yourself in the face of enemies of your faith. You gain `+1` [Edge](#edge) to [Persuasion](#persuasion-witwit) Tests, but only when intimidating.
 
 ## List of Conditions
 The following is a list of all [Conditions](#condition) of the core rules. 
@@ -3229,7 +3229,7 @@ A **Grappled** Character is unable to move freely and counts as `+1` degree of [
 Additionally, a Grappled Character can no longer perform [Opportunity Attacks](#opportunity-Attacks).
 
 ### Guarded
-A **Guarded** Character may [Defend](#defending) against the next Attack that would affect them with `1` [Die Fudge](#die-fudges). 
+A **Guarded** Character may [Defend](#defending) against the next Attack that would affect them with `1` [Edge](#edge). 
 
 * Graded; Limit: `5`
 * Automatic Shrug-Off: `-1` point at the start of the Turn. 

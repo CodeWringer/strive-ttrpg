@@ -755,8 +755,8 @@ A small round or oblong shield commonly held as far from the body as possible, t
 
 | Unthreatened           | Flanked           | Surrounded           | Overwhelmed           |
 | ---------------------- | ----------------- | -------------------- | --------------------- |
-| `+1` [Die Fudge](./strive-core.md#die-fudges) for melee Defense. | `+1D` for melee Defense. | / | / |
-| `+2` [Die Fudges](./strive-core.md#die-fudges) for melee Defense against Piercing Attacks. | `+2D` for melee Defense against Piercing Attacks. | `+1D` for melee Defense against Piercing Attacks. | / |
+| `+1` [Edge](./strive-core.md#edge) for melee Defense. | `+1D` for melee Defense. | / | / |
+| `+2` [Edge](./strive-core.md#edge) for melee Defense against Piercing Attacks. | `+2D` for melee Defense against Piercing Attacks. | `+1D` for melee Defense against Piercing Attacks. | / |
 | `-1D` for ranged Defense. | `-2D` for ranged Defense. | `-2D` for ranged Defense. | `-2D` for ranged Defense. |
 
 #### Medium Shield
@@ -769,7 +769,7 @@ A medium-sized, round or kite-shaped shield made from tough wood and leather or 
 
 | Unthreatened           | Flanked           | Surrounded           | Overwhelmed           |
 | ---------------------- | ----------------- | -------------------- | --------------------- |
-| `+1` [Die Fudge](./strive-core.md#die-fudges) for any Defense. | `+1D` for any Defense. | / | `-1D` for any Defense. |
+| `+1` [Edge](./strive-core.md#edge) for any Defense. | `+1D` for any Defense. | / | `-1D` for any Defense. |
 
 #### Heavy Shield
 A large, kite-shaped or rectangular shield, which can protect every part of the fighter, from the shoulder down to the feet. Its weight is very tiring. 
@@ -781,7 +781,7 @@ A large, kite-shaped or rectangular shield, which can protect every part of the 
 
 | Unthreatened           | Flanked           | Surrounded           | Overwhelmed           |
 | ---------------------- | ----------------- | -------------------- | --------------------- |
-| `+2` [Die Fudges](./strive-core.md#die-fudges) for any Defense. | `+1` [Die Fudge](./strive-core.md#die-fudges) for any Defense. | `+1D` for any Defense. | / |
+| `+2` [Edge](./strive-core.md#edge) for any Defense. | `+1` [Edge](./strive-core.md#edge) for any Defense. | `+1D` for any Defense. | / |
 
 ### Weapon Families
 Following are fantasy-themed [Weapon-Families](./strive-core.md#weapon-family). These are broad abstractions for that kind of weapon. For example "Axe" makes no distinction between a hatchet or a huge double-bladed axe. 
@@ -1910,7 +1910,7 @@ Muscle and bone are laid bare and mutated, as the monster's skin is akin to a tr
   * `= 2` Hits: `4` Slashing
   * `≥ 3` Hits: `5` Slashing
 * Grapple (Agi/Str): 
-  * Grapple a ST. Gain `+1` Die Fudge for Grapple Tests.
+  * Grapple a ST. Gain `+1` Edge for Grapple Tests.
   * Level: `3`, AP: `2`, Ob: Opposed, Melee, ST, Innate
 
 ### Tentacled Tarbeast
@@ -1988,7 +1988,7 @@ Stilted legs hold aloft a large body comprised of tendrils pulsating with light.
 
 **Skills**:
 * Puppeteer (Agi/Arc): 
-  * Jam your flesh tendrils in a victim's skin, taking control of them, up to `5` Squares away, with `+1` Die Fudge for the Test. If successful, the victim is under your direct control and cannot move on their own, although they may still think and speak of their own volition. The victim may attempt to break free from your control at the end of your Turn, with a successful Self-Control Test, at Ob `4`. An ally may attempt to sever the tendrils or pull loose their ally, with a Test at Ob `3`. 
+  * Jam your flesh tendrils in a victim's skin, taking control of them, up to `5` Squares away, with `+1` Edge for the Test. If successful, the victim is under your direct control and cannot move on their own, although they may still think and speak of their own volition. The victim may attempt to break free from your control at the end of your Turn, with a successful Self-Control Test, at Ob `4`. An ally may attempt to sever the tendrils or pull loose their ally, with a Test at Ob `3`. 
   * For as long as a victim is Puppeteered, it will suffer all Damage directed towards the Threaded Terror, who suffers no Damage. 
   * Level: `5`, AP: `2`, Ob: Opposed, Ranged, ST, Innate
 * Zap (Agi/Arc): 
@@ -2877,7 +2877,7 @@ This variant stands tall and proud, its wrinkled skin riddled with scars. Its tu
   * `= 2` Hits: `Str + 4 (= 8)` Bludgeoning; Force-move `2`
   * `≥ 3` Hits: `Str + 6 (= 10)` Bludgeoning; Force-move `3`
 * Interrupt:
-  * **Reaction**: Upon an ally within `3` Squares of you being Attacked, jump in and take over the Defense Test, with `+1` [Die Fudge](./strive-core.md#die-fudges). 
+  * **Reaction**: Upon an ally within `3` Squares of you being Attacked, jump in and take over the Defense Test, with `+1` [Edge](./strive-core.md#edge). 
   * AP: `2`, Ob: `Opposed`, ST, Innate
 * Swine Commanding (Tough/Wit):
   * A champion commands respect and obedience.
@@ -3502,7 +3502,7 @@ A lesser form of undeath, Zombies are mindless walking corpses in varying stages
 **Legendary Actions**: 
 Employ these only for *really* special Zombies. 
 * Uncanny Dodge:
-  * Up to `3` times per Round, try avoiding an Attack with `3D` and `1` Die Fudge.
+  * Up to `3` times per Round, try avoiding an Attack with `3D` and `1` Edge.
 * Trample:
   Run up to `6` Squares far, knocking aside all other Characters by `2` Squares, once per Round. 
 
