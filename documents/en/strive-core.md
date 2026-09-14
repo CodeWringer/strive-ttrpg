@@ -561,7 +561,6 @@ As STRIVE is meant primarily as a rule-book to help you quickly find what you ne
 | ----------------------------------------------------------- | ----------------------- |
 | [Action Point(s) (AP)](#action-points-ap)                   | A temporary resource that limits how much Characters can do on their Turn. |
 | [Action](#intent--action)                                   | Occurs as something a Character does themself. An Action is usually self-initiated, but doesn't have to be. |
-| [Untreated Injury](#injury-treatment)                       | An Untreated Injury reduces a Character's maximum HP and imposes additional penalties. |
 | [Advancement Progress](#advancement)                        | The number that dictates a Skill's current progress towards Advancement. |
 | [Advancement](#advancement)                                 | PCs may raise their Attributes' and Skills' Levels as they exercise them and gain XP. |
 | [Agility (Agi)](#agility-agi)                               | An Attribute that describes a Character's nimbleness, swiftness and hand-eye coordination. Finds use in determining Base Initiative and Sprinting Speed. |
@@ -676,6 +675,7 @@ As STRIVE is meant primarily as a rule-book to help you quickly find what you ne
 | [Opposed Test](#opposed-test)                               | A Test that resolves when two Characters come into opposition. Most commonly finds use in Combat. |
 | [Overweight](#overweight)                                   | A Condition a Character suffers when they try to carry too much. |
 | [Overwhelmed](#flanking)                                    | The third and final degree of Flanking. An Overwhelmed Character's armor is no longer protects, at all and their Defense Tests are incredibly dfficult. |
+| [Overworld Square](#travel--terrain)                        | A single field of an overworld map representing an area `10km`/`6 mile` in diameter. |
 | [Owning Skill](#expertise)                                  | The Skill an Expertise is part of. |
 | [Pacified](#pacified)                                       | A Condition that cannot *willingly* take any hostile Actions. |
 | [Passive](#actions-reactions--passives)                     | An effect that is always active (when a defined condition is met). |
@@ -719,7 +719,7 @@ As STRIVE is meant primarily as a rule-book to help you quickly find what you ne
 | [Solid Success](#test-success-ratings)                      | A strong success of a Test. |
 | [Source of Damage](#damage--effects)                        | The entity that dealt Damage. |
 | [Sprinting Speed / Sprint](#sprinting-speed-sprint)         | Can extend a Character's movement per AP, at the cost of Stamina. |
-| [Square](#distances--the-grid)                              | A single field of an encounter or overworld map, representing a `1m`/`3'` or `10km`/`6 mile` square, respectively. |
+| [Square](#distances--the-grid)                              | A single field of an encounter/battle map representing an area `1m`/`3'` in diameter. |
 | [Stability (Stab)](#stability-stabil)                       | Counter-acts Forced Movement. |
 | [Stamina](#stamina--strain)                                 | Stamina is a numeric resource that lets a Character endure physical and mental taxation. |
 | [Stepped Test](#stepped-test)                               | A Test that allows failing forward or offers multiple chances at recovery from a critical blunder. |
@@ -742,6 +742,7 @@ As STRIVE is meant primarily as a rule-book to help you quickly find what you ne
 | [Turn](#initiative-order)                                   | The moment in time when a Character gets to act in an Initiative Order. |
 | [Unconscious](#unconscious)                                 | A Condition for a Character who is either asleep or knocked unconscious. |
 | [Unthreatened](#flanking)                                   | The default for all Unflanked Characters in Combat. Their defenses work to the fullest intent. |
+| [Untreated Injury](#injury-treatment)                       | An Untreated Injury reduces a Character's maximum HP and imposes additional penalties. |
 | [Very Long Reach](#very-long-reach)                         | A Weapon Trait for melee weapons that allow Attacking targets up to three Squares away. |
 | [Very Slow Reload](#very-slow-reload)                       | A Weapon Trait that for a weapon that must be reloaded after every use, at the cost of more AP. |
 | [Virtue / Vice](#virtues--vices)                            | Describes a Character's way of thinking and how they should act, in general. |
@@ -1829,6 +1830,12 @@ Regardless of how quickly time currently flows, every in-game day is divided int
 ## Quarters of a Day (QoD)
 Each day is divided into four Quarters: **Night**, **Dawn**, **Midday**, and **Dusk**. Each Quarter lasts approximately six hours. Translated to a `24`-hour clock, Night is from `00:00` to `06:00`, Dawn from `06:00` to `12:00`, Midday from `12:00` to `18:00` and finally Dusk is from `18:00` to `00:00`. 
 
+When deciding on how much time an activity takes up, and whether the QoD should advance, the following guideline may serve:
+* A **Brief** activity takes only a few minutes, at most. Many of these can happen in a QoD, without advancing it meaningfully. 
+* A **Lengthy** activity takes one or more hours and can consume a substantial portion of a QoD. 
+* An **Extended** activity takes several hours or more, and is very likely to advance the current QoD. 
+* A **Multi-Quarter** activity takes several QoDs. 
+
 ## Resting
 All creatures that can be tired, require sleep. Some [Conditions](#condition) can only be cleared by resting. A **Full Rest** requires at least one uninterrupted QoD of *active resting*. That implies not doing anything besides sleeping or meditating. Anything less than a Full Rest is a **Partial Rest**. 
 
@@ -2366,31 +2373,31 @@ For your convenience, you can refer to the following chart:
 <img src="../../img/miss-chart.png" width="384px" height="384px"></img>
 
 # Travel & Terrain
-Whenever players are presented with an overworld map, with distinct locations marked on it and players ask, "how do we get from *here* to *there*?", the question of travel comes up. The exact specifics will depend on the GM's world, and their forms of travel. Walking there on foot is sure to be slower than flying by plane. Or perhaps travel can even be instantaneous, through magic and technology, in which case this chapter will be irrelevant. 
+Whenever players are presented with an overworld map, with distinct locations marked on it and players ask, "how do we get from *here* to *there*?", the question of travel comes up. The exact specifics will depend on the GM's world, and their forms of travel. Walking there on foot is sure to be slower than flying by plane. Or perhaps travel can even be instantaneous, through magic and technology, in which case this chapter may be entirely irrelevant. 
 
-For the purposes of this chapter, the overworld map is expected to have a grid of either squares or hexagons overlaid on top of it, segmenting it into manageable chunks. You may choose an appropriate chunk-size yourself or take the suggested size of a `10km` or `6 mile` diameter square or hexagon. Either way, this unit will henceforth be referred to as a **Square**. 
+For the purposes of this chapter, the overworld map is expected to have a grid of either squares or hexagons overlaid on top of it, segmenting it into manageable chunks. You may choose an appropriate chunk-size yourself or take the suggested size of a `10km` or `6 mile` diameter square or hexagon. Either way, this unit will henceforth be referred to as an **Overworld Square**. 
 
-The following table suggests how long it might take to traverse a particular Square of terrain, on foot, depending on its dominant terrain feature. The suggested durations may not be realistic, but easy to manage. Also suggested are Obs for [hunting and foraging](#foraging--hunting).
+The following table suggests how long it might take to traverse a particular Overworld Square, based on its dominant terrain and assuming you are on foot. To translate these, see [Quarters of a Day](#quarters-of-a-day-qod). Also suggested are Obs for [hunting and foraging](#foraging--hunting), if you feature survival aspects in your game.
 
 | Terrain                | Time (on foot) | Hunting/Foraging Ob |
 | ---------------------- | -------------- | ------------------- |
-| Road                   | 6 hours        | 4                   |
-| Plains/Savannah        | 6 hours        | 3                   |
-| Desert                 | 6 hours        | 5                   |
-| Sparse forest          | 12 hours       | 2                   |
-| Hill                   | 12 hours       | 2                   |
-| Jungle/Dense forest    | 1 day          | 2                   |
-| Swamp                  | 1 day          | 3                   |
-| Barren Mountain        | 1 day          | 5                   |
-| Forested Mountain      | 1 day          | 2                   |
+| Road                   | Lengthy        | 4                   |
+| Plains/Savannah        | Lengthy        | 3                   |
+| Desert                 | Lengthy        | 5                   |
+| Sparse forest          | Extended       | 2                   |
+| Hill                   | Extended       | 2                   |
+| Jungle/Dense forest    | Multi-Quarter  | 2                   |
+| Swamp                  | Multi-Quarter  | 3                   |
+| Barren Mountain        | Multi-Quarter  | 5                   |
+| Forested Mountain      | Multi-Quarter  | 2                   |
 
-Under normal circumstances, Characters may spend at most `12` hours traveling (on foot) before they need a [Full Rest](#resting) to carry on. Whether these hours are spent consecutively or with _short_ breaks in between, makes no difference. 
+Under normal circumstances, Characters may spend at most `3` QoDs traveling (on foot) before they need a [Full Rest](#resting) to carry on. Whether these QoDs are spent consecutively or with _short_ breaks in between, makes no difference. 
 
 ## Forced March
-It is possible to push on, past the `12` hour threshold, for another `12` hours, at the cost of `+2` [Strain](#stamina--strain) to all Characters on Forced March. 
+It is possible to push on, for another QoD, at the cost of `+6` [Strain](#stamina--strain) to all Characters on Forced March. It is impossible to Forced-March twice in succession. 
 
 ## Enduring the Journey
-For every increment of `6` hours of travel, Characters will need to consume one [ration](#general-assets). If they don't, they suffer `+1` [Strain](#stamina--strain). 
+For every QoD of travel, Characters will need to consume one [ration](#general-assets). If they don't, they suffer `+1` [Strain](#stamina--strain). 
 
 ## Foraging & Hunting
 It is possible to hunt/forage for food while traveling, without losing time. You may make Tests of an approproately chosen Skill, with an Ob appropriate to the current Square of terrain. If successful, the number of Hits you achieve equals the number of [rations](#general-assets) you gain. 
