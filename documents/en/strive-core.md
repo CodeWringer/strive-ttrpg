@@ -217,35 +217,21 @@ By using STRIVE (that includes but is not limited to viewing, reading, referenci
       - [Overweight](#overweight)
     - [Property](#property)
     - [Armor Assets](#armor-assets)
+      - [Armor Traits](#armor-traits)
+      - [Legendary Armor Traits](#legendary-armor-traits)
+    - [Shield Assets](#shield-assets)
+      - [Shield Traits](#shield-traits)
+      - [Legendary Shield Traits](#legendary-shield-traits)
     - [Weapon Assets](#weapon-assets)
       - [Weapon-Family](#weapon-family)
       - [Weapon Traits](#weapon-traits)
         - [Foundational Weapon Traits](#foundational-weapon-traits)
-          - [Melee](#melee)
-          - [Long Reach](#long-reach)
-          - [Very Long Reach](#very-long-reach)
           - [Ranged](#ranged)
-          - [Range Only](#range-only)
-          - [Prefer Range](#prefer-range)
-          - [Slow Reload](#slow-reload)
-          - [Very Slow Reload](#very-slow-reload)
-          - [Returning](#returning)
-        - [Attack Modifier Weapon Traits](#attack-modifier-weapon-traits)
-          - [Brutal](#brutal)
-          - [Crushing](#crushing)
-          - [Heavy](#heavy)
-          - [Hooked](#hooked)
-          - [Precise](#precise)
-          - [Piercing](#piercing)
-          - [Poison-Chamber](#poison-chamber)
-          - [Serrated](#serrated)
-        - [Legendary Attack Modifier Weapon Traits](#legendary-attack-modifier-weapon-traits)
-          - [Cruel](#cruel)
-          - [Deflecting](#deflecting)
-          - [Foolproof](#foolproof)
-          - [Relentless](#relentless)
-          - [Executioner](#executioner)
-          - [Masterstroke](#masterstroke)
+        - [Offensive Weapon Traits](#offensive-weapon-traits)
+        - [Defensive Weapon Traits](#defensive-weapon-traits)
+        - [Mobility Weapon Traits](#mobility-weapon-traits)
+        - [Versatility Weapon Traits](#versatility-weapon-traits)
+        - [Legendary Weapon Traits](#legendary-weapon-traits)
 - [Fate Points](#fate-points)
   - [Minor Fate Points](#minor-fate-points)
   - [Major Fate Points](#major-fate-points)
@@ -300,7 +286,6 @@ By using STRIVE (that includes but is not limited to viewing, reading, referenci
     - [Stealth Attacks](#stealth-attacks)
     - [Free Strike (FS)](#free-strike-fs)
   - [Defending](#defending)
-    - [Armor \& Shields](#armor--shields)
     - [Defending an Ally](#defending-an-ally)
       - [Counter-Attack](#counter-attack)
     - [Cover](#cover)
@@ -651,18 +636,19 @@ As STRIVE is meant primarily as a rule-book to help you quickly find what you ne
 | [Injury Shrug-Off](#shrugging-off-an-injury)                | When a Character suffers enough Damage to potentially also suffer an Injury, they may try to shrug it off, thus avoiding the Injury. |
 | [Injury](#injury)                                           | A serious health impediment of a Character, suffered through Damage, when failing a Shrug-Off Test. |
 | [Innate Ability](#innate-abilities)                         | A special ability that a Character has access to based on their ancestry. |
-| [Instance of Damage](#damage--effects)                      | The Damage number that is actually applies to HP, after [Armor](#armor--shields) and [Resistances](#damage-resistances) have been applied. |
+| [Effective Damage](#damage--effects)                        | Refers to the Damage number that is actually applies to HP, after [Armor](#armor-assets) and [Resistances](#damage-resistances) have been applied. Damage that is completely negated by Armor and Resistances is **not** considered Effective Damage. |
+| [Instance of Damage](#damage--effects)                      | Refers to the moment in time when Damage is suffered, before it is reduced by [Armor](#armor-assets) and [Resistances](#damage-resistances). Multiple Types of Damage may be part of the same Instance of Damage. |
 | [Jealous](#jealous)                                         | A Condition that makes a Character feel desperately compelled acquire *something*. |
 | [Knock-Back](#forced-movement)                              | Forces a Character away from another. |
 | [Known Skill](#skills)                                      | A Skill at Level `1+`, which is still considered known to the Character. They can properly utilize such a Skill. |
 | [Language](#languages)                                      | A Character's ability to communicate and potentially read and write in a language that exists in your GM's world. |
 | [Learning Skill](#learning-skills)                          | A Skill at Level `0`, which is still considered unlearned. A Character has not yet gained the ability to properly utilize such a Skill, for example in Skill Forking. |
-| [Long Reach](#long-reach)                                   | A Weapon Trait for melee weapons that allow Attacking targets up to two Squares away. |
+| [Long Reach](#foundational-weapon-traits)                   | A Weapon Trait for melee weapons that allow Attacking targets up to two Squares away. |
 | [Luggage](#luggage)                                         | The Assets a Character is carrying on-person. |
 | [Major Fate-Point (MaFP)](#major-fate-points)               | A Fate-Point earned for a major achievement and great role-play. |
 | [Marked](#marked)                                           | A Condition that makes a Character easier to harm. |
 | [Masterful Success](#test-success-ratings)                  | A masterful success of a Test. |
-| [Melee](#melee)                                             | A Weapon Trait for all weapons that allow Attacking adjacent targets. |
+| [Melee](#foundational-weapon-traits)                        | A Weapon Trait for all weapons that allow Attacking adjacent targets. |
 | [Minor Fate-Point (MiFP)](#minor-fate-points)               | An easily earned Fate-Point, supported by mostly mechanics. |
 | [Miss](#tests)                                              | Negative result of an individual die-roll in a Test. |
 | [Modified Level](#raw-vs-modified-level)                    | The Level value after Boons and Penalties have been applied to it. |
@@ -687,8 +673,8 @@ As STRIVE is meant primarily as a rule-book to help you quickly find what you ne
 | [Poisoned](#poisoned)                                       | A Condition that causes Poison Damage every Tick. |
 | [Practice](#practice)                                       | During Down-Time, Characters may practice for Advancement Progress. |
 | [Precise](#precise)                                         | A Weapon Trait that indicates a weapon is more effective. |
-| [Prefer Range](#prefer-range)                               | A Weapon Trait that indicates a weapon is harder to use against adjacent targets. |
-| [Primary Damage](#damage--effects)                          | The most significant [Damage Type](#damage-types) of an [Instance of Damage](#damage--effects) **after** Armor and Resistances are applied. |
+| [Prefer Range](#foundational-weapon-traits)                 | A Weapon Trait that indicates a weapon is harder to use against adjacent targets. |
+| [Primary Damage](#damage--effects)                          | The most significant [Damage Type](#damage-types) of [Effective Damage](#damage--effects) **after** Armor and Resistances are applied. |
 | [Progress Increment (PI)](#progressing-a-project)           | Determines how much work a Project takes. |
 | [Project Booster](#project-boosters)                        | May add Progress or Quality Levels to a Project. |
 | [Project Complications](#project-complications)             | An alternative to losing Quality Levels when failing a Project Skill Test. |
@@ -702,8 +688,8 @@ As STRIVE is meant primarily as a rule-book to help you quickly find what you ne
 | [Quarter of a Day (QoD)](#quarters-of-a-day-qod)            | Each day is divided into four Quarters: **Night**, **Dawn**, **Midday**, and **Dusk**. Each Quarter lasts approximately six hours. |
 | [Quirk](#quirk)                                             | Part of a Character's Drivers and always triggers when some defined condition is met, to get the Character in trouble or grant them an assurance. |
 | [Range of Opportunity](#opportunity-attacks)                | The zone around a Character that lets them launch Opportunity Attacks as a Reaction to foes moving around or away from them. |
-| [Range Only](#range-only)                                   | A Weapon Trait that indicates a weapon cannot be used against adjacent targets. |
-| [Ranged](#ranged)                                           | A Weapon Trait for all ranged weapons. |
+| [Range Only](#foundational-weapon-traits)                   | A Weapon Trait that indicates a weapon cannot be used against adjacent targets. |
+| [Ranged](#foundational-weapon-traits)                       | A Weapon Trait for all ranged weapons. |
 | [Raw Level](#raw-vs-modified-level)                         | The Level value before Boons and Penalties have been applied to it. |
 | [Reaction](#actions-reactions--passives)                    | An Action that may occur when a defined condition is met. |
 | [Rooted](#rooted)                                           | A Condition that disallows a Character from moving of their own volition. |
@@ -715,9 +701,8 @@ As STRIVE is meant primarily as a rule-book to help you quickly find what you ne
 | [Single Target (ST)](#single-target-st)                     | Indicates an Attack will only affect a single target. This can be a Character or object. |
 | [Skill Forking](#skill-forking)                             | Allows you to benefit from varied knowledge. You can Fork related Skills into a Test, if you can reasonably explain their use. |
 | [Skill](#skills)                                            | A learned ability of a Character. These are used in the vast majority of cases to resolve Tests and may offer unique abilities, called Expertises. |
-| [Slow Reload](#slow-reload)                                 | A Weapon Trait that for a weapon that must be reloaded after every use, at the cost of AP. |
+| [Slow Reload](#foundational-weapon-traits)                  | A Weapon Trait that for a weapon that must be reloaded after every use, at the cost of AP. |
 | [Solid Success](#test-success-ratings)                      | A strong success of a Test. |
-| [Source of Damage](#damage--effects)                        | The entity that dealt Damage. |
 | [Sprinting Speed / Sprint](#sprinting-speed-sprint)         | Can extend a Character's movement per AP, at the cost of Stamina. |
 | [Square](#distances--the-grid)                              | A single field of an encounter/battle map representing an area `1m`/`3'` in diameter. |
 | [Stability (Stab)](#stability-stabil)                       | Counter-acts Forced Movement. |
@@ -743,8 +728,8 @@ As STRIVE is meant primarily as a rule-book to help you quickly find what you ne
 | [Unconscious](#unconscious)                                 | A Condition for a Character who is either asleep or knocked unconscious. |
 | [Unthreatened](#flanking)                                   | The default for all Unflanked Characters in Combat. Their defenses work to the fullest intent. |
 | [Untreated Injury](#injury-treatment)                       | An Untreated Injury reduces a Character's maximum HP and imposes additional penalties. |
-| [Very Long Reach](#very-long-reach)                         | A Weapon Trait for melee weapons that allow Attacking targets up to three Squares away. |
-| [Very Slow Reload](#very-slow-reload)                       | A Weapon Trait that for a weapon that must be reloaded after every use, at the cost of more AP. |
+| [Very Long Reach](#foundational-weapon-traits)              | A Weapon Trait for melee weapons that allow Attacking targets up to three Squares away. |
+| [Very Slow Reload](#foundational-weapon-traits)             | A Weapon Trait that for a weapon that must be reloaded after every use, at the cost of more AP. |
 | [Virtue / Vice](#virtues--vices)                            | Describes a Character's way of thinking and how they should act, in general. |
 | [Weapon Asset](#weapon-assets)                              | An Asset designed to be used as a weapon. Improvised weapons don't count. |
 | [Weapon Trait](#weapon-traits)                              | Weapon Traits are modular rules that make one weapon mechanically different from another, by changing what a weapon is capable of. |
@@ -1266,10 +1251,10 @@ For your convenience, the following table contains the precalculated requirement
 | 10    | 38  |
 
 #### Practice
-Whenever the Character's enjoy some [Down-Time](#time-management), away from adventuring, they may spend that time practicing. For every week (or day, or whatever time increment works best for your group), of practice, they gain `+1` [Advancement Progress](#advancement). 
+Whenever the Character's enjoy some [Down-Time](#time-management), away from adventuring, they may spend that time practicing. For every [QoD](#quarters-of-a-day-qod), of practice, they gain `+1` [Advancement Progress](#advancement). 
 
 #### Teaching
-Much like it is possible for a Character to [Practice](#practice) on their own, they can also be taught by another, who knows more than them. Only [Skills](#skills) can be taught and the teacher's Skill Level must be at least one greater than that of their pupil. For every week (or day, or whatever time increment works best for your group), of tutoring, the pupil gains `+2` [Advancement Progress](#advancement) to the Skill in question. 
+Much like it is possible for a Character to [Practice](#practice) on their own, they can also be taught by another, who knows more than them. Only [Skills](#skills) can be taught and the teacher's Skill Level must be at least one greater than that of their pupil. For every [QoD](#quarters-of-a-day-qod), of tutoring, the pupil gains `+2` [Advancement Progress](#advancement) to the Skill in question. 
 
 ### Innate Abilities
 An Innate Ability is an [Attribute](#attributes) or [Skill](#skills) unique to a specific ancestry, based on species, profession, culture and so on. An Innate Ability **cannot** be learned through regular means. Only a GM may decide whether a Character may acquire such an ability. Even PCs might receive Innate Abilities, based on their chosen ancestry, or through events that unfold during play.
@@ -1565,7 +1550,7 @@ All Damage is inflicted with one of these types, which dictate the type of [Inju
 | Slashing    | Usually inflicted by any sort of cutting/slashing weapon, like a blade, or a talon. | [Medicine](#medicine-agiwit) | `+1` [Bleeding](#bleeding)     |
 
 ### Damage Resistances
-Some creatures can resist certain [Damage Types](#damage-types) naturally, while others may cover themselves in [Armor](#armor--shields) to the same effect. 
+Some creatures can resist certain [Damage Types](#damage-types) naturally, while others may cover themselves in [Armor](#armor-assets) to the same effect. 
 
 How much Damage is resisted, depends on the specifics of the creature or Character and their [Equipment](#worn--equipped). 
 
@@ -1632,7 +1617,57 @@ Things such as an owned plot of land, a house, money in the bank, equipment and 
 There is no limit for how much Property a Character can have. Except, perhaps, how much they can keep safe from greedy hands. 
 
 ### Armor Assets
-An Asset designed to be worn as [armor](#armor--shields). 
+Armor serves as life insurance, because it reduces the Damage suffered after a Defense Test has failed. But it can also passively aid your Defense in other ways. 
+
+#### Armor Traits
+**Armor Traits** are modular rules that make one armor mechanically different from another, by acting as modifiers to their protections and capabilities. 
+
+| Armor Trait            | Description                                                                                   | 
+| ---------------------- | --------------------------------------------------------------------------------------------- |
+| **Bulwark**            | Adjacent allies gain `+1` [Edge](#edge) to Defense Tests against Attacks originating from your side of the battlefield. |
+| **Cargo-Ready**        | Increases Luggage capacity by `+Q`, but also increases Strain from wearing the armor by `+1`. |
+| **Fortress**           | Once per Round, reduce the Damage from an Attack by `Q` points.                               |
+| **Insulated**          | Reduces environmental Damage by `Q`.                                                          |
+| **Muffled**            | Grants `+1` [Edge](#edge) to Stealth Tests.                                                   |
+| **Padded**             | Reduces [Forced-Collision](#forced-collision) Damage by `Q`.                                  |
+| **Reinforced**         | Reduces a single [Instance of Damage](#damage--effects) of `10` or more points by `Q`.        |
+| **Supporting**         | Adjacent allies get `+1` [Stability](#stability-stabil).                                      |
+| **Ventilated**         | Reduces Strain caused by wearing this armor by `Q - 2`, minimum `1` points.                   |
+
+#### Legendary Armor Traits
+These Armor Traits modify an armor in a particularly powerful way. These are available solely at the GM's discretion and may serve as a source of inspiration for them to create their own uniques. 
+
+| Legendary Armor Trait  | Description                                                                                   | 
+| ---------------------- | --------------------------------------------------------------------------------------------- |
+| **Defiant**            | Once in Combat, when you successfully Defend against an Attack, gain `Q` Temporary HP.        |
+| **Impenetrable**       | Once per Round, ignore `Q` points of Armor penetration or Pure Damage.                        |
+| **Last Stand**         | While at or below `20` HP, reduce all Damage suffered by `Q`.                                 |
+| **Reactive Armor**     | Once per Round, after suffering Damage, gain `+1` [Guarded](#guarded).                        |
+| **Resuscitating**      | The first time in Combat that you would be reduced to `0` HP, remain at `1` HP instead.       |
+| **Second Skin**        | Ignore all Strain imposed by this Armor.                                                      |
+
+### Shield Assets
+Shields provide bonuses to Defense, making it harder for an enemy to succesfully land a hit in the first place. 
+
+#### Shield Traits
+**Shield Traits** are modular rules that make one shield mechanically different from another, by acting as modifiers to their protections and capabilities. 
+
+| Shield Trait           | Description                                                                                   | 
+| ---------------------- | --------------------------------------------------------------------------------------------- |
+| **Hooked**             | Once per Round, when successfully Defending against an Attack with this shield, you may [Force-Move](#forced-movement) the Attacker around you by `Q` Squares. |
+| **Interlocking**       | When adjacent to an ally who also wields a shield, you both gain `+1` [Stability](#stability-stabil). |
+| **Perfect Guard**      | Once per Round, a Defense Test with `≥3` Hits allows a free Counter-Attack regardless of the normal Counter-Attack requirements. |
+| **Reflective**         | Gain `+1` [Edge](#edge) against Attacks that involve light, glare or other visual effects. |
+| **Reprisal**           | When you successfully Defend an Attack by `≥3` Hits, the attacker suffers `Q` Bludgeoning Damage. |
+| **Towering**           | Gain `+1D` against Ranged Attacks, but also suffer `-1` Square of movement per AP. |
+
+#### Legendary Shield Traits
+These Shield Traits modify a shield in a particularly powerful way. These are available solely at the GM's discretion and may serve as a source of inspiration for them to create their own uniques. 
+
+| Legendary Shield Trait | Description                                                                                   | 
+| ---------------------- | --------------------------------------------------------------------------------------------- |
+| **Aegis**              | Once per Round, with this shield, you may Defend an adjacent ally for free. |
+| **Shiny**              | Once per Round, as a Reaction to a foe Attacking you or an adjacent ally, may attempt to flash reflected light at the foe, briefly blinding them. This counts as an Opposed Attack, to be made with the [Shield Skill](#shield-strtough). If successful, the foe's Attack is interrupted and their Attack wasted. |
 
 ### Weapon Assets
 An Asset designed to be used as a weapon. Improvised weapons don't count, although they may be still be used with an appropriate [Weapon Skill](#weapon--weapon-family---base-attributes-). 
@@ -1658,98 +1693,80 @@ You are encouraged to invent your own Weapon Traits! When doing so, avoid uncond
 ##### Foundational Weapon Traits
 These Weapon Traits define basic aspects of a weapon: how far away it can threaten foes, whether it requires time to reload and such.
 
-###### Melee
-<img src="../../img/melee-1.svg" style="width: 3rem; height: 3rem;"></img>
-
-Allows Attacking an adjacent target.
-
-###### Long Reach
-<img src="../../img/melee-2.svg" style="width: 3rem; height: 3rem;"></img>
-
-Allows Attacking a target two Squares away. 
-
-###### Very Long Reach
-<img src="../../img/melee-3.svg" style="width: 3rem; height: 3rem;"></img>
-
-Allows Attacking a target three Squares away. 
+| Foundational Weapon Trait |                                                                              | Description                                                                                   | 
+| ------------------------- | ---------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------- |
+| **Melee**                 | <img src="../../img/melee-1.svg" style="width: 3em; height: 3em;"></img>     | Allows Attacking an adjacent target. |
+| **Long Reach**            | <img src="../../img/melee-2.svg" style="width: 3em; height: 3em;"></img>     | Allows Attacking a target two Squares away. |
+| **Very Long Reach**       | <img src="../../img/melee-3.svg" style="width: 3em; height: 3em;"></img>     | Allows Attacking a target three Squares away. |
+| **Ranged**                | <img src="../../img/ranged.svg" style="width: 3em; height: 3em;"></img>      | The weapon can be used against targets up to a noted distance away from the user. See also [Ranged](#ranged). |
+| **Range Only**            | <img src="../../img/ranged-only.svg" style="width: 3em; height: 3em;"></img> | The weapon cannot be used against any targets adjacent to self. |
+| **Prefer Range**          |                                                                              | `+2` Ob to using the weapon against an adjacent target. |
+| **Slow Reload**           |                                                                              | Reloading the weapon costs `2` [AP](#action-points-ap). |
+| **Very Slow Reload**      |                                                                              | Reloading the weapon costs `3` [AP](#action-points-ap). |
 
 ###### Ranged
-<img src="../../img/ranged.svg" style="width: 3rem; height: 3rem;"></img>
-
-The weapon can be used against targets up to a noted distance away from the user. The range, in Squares, is noted in parentheses. This can either indicate a maximum distance, which cannot be exceeded, or a so-called **Distance Increment**, abbreviated **DI**, which may be exceeded, but with penalties.
-
+The range, in Squares, is noted in parentheses. This can either indicate a maximum distance, which cannot be exceeded, or a so-called **Distance Increment**, abbreviated **DI**, which may be exceeded, but with penalties. <br>
 For every Distance Increment past the initial, an Attack suffers `+1` Ob and deals `-2` points of Damage. In other words, the farther you shoot, the harder it becomes to score an effective hit. 
 
 > A weapon with this Trait noted as `(max. 8)` can Attack a target up to a maximum of `8` Squares away. 
 
 > A weapon with this Trait noted as `(10 DI)` has a Distance Increment of `10` Squares. Any Attack up to and including `10` Squares incurs no penalties, but starting from the `11`th Square, the Attack suffers `+1` Ob and if successful, deals `-2` points of Damage less. Starting from the `21`st Square, `+2` Ob and `-4` points of Damage, and so on.
 
-###### Range Only
-<img src="../../img/ranged-only.svg" style="width: 3rem; height: 3rem;"></img>
+##### Offensive Weapon Traits
+Weapon Traits whose focus is modifying an [Attack's Profile](#damage--effects) to cause greater harm. 
 
-Implies a weapon cannot be used against any targets adjacent to self. 
+| Offensive Weapon Traits | Description                                                                                   | 
+| ----------------------- | --------------------------------------------------------------------------------------------- |
+| **Brutal**              | When landing a [Masterful](#attacking) hit, deal an additional `+Q` points of Pure Damage.    |
+| **Crushing**            | Solid or better Attacks deal an additional `+Q` Bludgeoning Damage.                           |
+| **Precise**             | Once per Round, an Attack with this weapon receives `+1` [Edge](#edge).                       |
+| **Piercing**            | Attacks ignore `Q` points of [Armor](#armor-assets).                                          |
+| **Poison-Chamber**      | Attacks deal an additional `+Q` points of Poison Damage. The poison must be refilled after every Combat ends. |
+| **Punishing**           | When a foe successfully Defends against an Attack made with this weapon, they suffer `Q` Pure Damage, anyway. |
+| **Serrated**            | Attacks deal an additional `+Q` points of [Bleeding](./strive-core.md#bleeding).              |
+| **Sweeping**            | Once per Round, an Attack made with this weapon may affect one additional target adjacent to the original target(s), but will deal `-3` Damage. |
 
-###### Prefer Range
-`+2` Ob to using the weapon against an adjacent target.
+##### Defensive Weapon Traits
+Weapon Traits whose focus lies on altering or improving defensive capabilities. 
 
-###### Slow Reload
-Reloading the weapon costs `2` [AP](#action-points-ap).
+| Defensive Weapon Traits | Description                                                                                   | 
+| ----------------------- | --------------------------------------------------------------------------------------------- |
+| **Anchoring**           | Once per Round, when failing a Defense against an Attack that causes you to [Force-Move](#forced-movement), you are moved `Q` Squares less. |
+| **Protecting**          | Once per Round, Defending an adjacent ally with this weapon gains `+1` [Edge](#edge).         |
+| **Riposting**           | Once per Round, when succeeding a Defense Test with this weapon, you may make one free [Counter-Attack](#counter-attack), but at Ob `+1`. |
 
-###### Very Slow Reload
-Reloading the weapon costs `3` [AP](#action-points-ap).
+##### Mobility Weapon Traits
+Weapon Traits whose focus lies on manipulating positioning. 
 
-###### Returning
-Whether through some supernatural force, or an intricate mechanical contraption, when [Thrown](#throwing), the weapon automatically returns to you after it has landed. 
+| Mobility Weapon Traits  | Description                                                                                   | 
+| ----------------------- | --------------------------------------------------------------------------------------------- |
+| **Driving**             | Once per Round, when an Attack causes [Forced-Movement](#forced-movement), you may move up to `Q` Squares toward the target without provoking [Opportunity Attacks](#opportunity-attacks). |
+| **Heavy**               | Melee Attacks cause `+Q` [Knock-Back](#forced-movement).                                      |
+| **Hooked**              | Melee Attacks [Pull](./strive-core.md#forced-movement) by `+Q` Squares.                       |
+| **Rooting**             | A Masterful hit prevents a target from voluntarily moving more than `Q` Squares, on their next Turn. |
 
-##### Attack Modifier Weapon Traits
-These Weapon Traits modify an [Attack's Profile](#damage--effects). 
+##### Versatility Weapon Traits
+Weapon Traits whose focus lies on altering how they can be used. 
 
-###### Brutal
-When landing a [Masterful](#attacking) hit, deal an additional `+Q` points of Pure Damage.
+| Versatility Weapon Traits | Description                                                                                   | 
+| ------------------------- | --------------------------------------------------------------------------------------------- |
+| **Adaptive**              | Once per Round, switch the Damage Type an Attack with this weapon may deal: Slashing, Piercing or Bludgeoning |
+| **Effortless**            | Once per Round, an Attack with this weapon costs `1` AP less, down to no less than `1`. |
+| **Returning**             | Whether through some supernatural force, or an intricate mechanical contraption, when [Thrown](#throwing), the weapon automatically returns to you after it has landed.  |
 
-###### Crushing
-Attacks deal an additional `+Q` Bludgeoning Damage. 
-
-###### Heavy
-Melee Attacks cause `+Q` [Knock-Back](#forced-movement).
-
-###### Hooked
-Melee Attacks [Pull](./strive-core.md#forced-movement) by `+Q` Squares.
-
-###### Precise
-Attacks receive `+1` [Edge](#edge). 
-
-###### Piercing
-Attacks ignore `Q` points of [Armor](#armor-assets).
-
-###### Poison-Chamber
-Attacks deal an additional `+Q` points of Poison Damage. The poison must be refilled after every Combat ends. 
-
-###### Serrated
-Attacks deal an additional `+Q` points of [Bleeding](./strive-core.md#bleeding).
-
-##### Legendary Attack Modifier Weapon Traits
+##### Legendary Weapon Traits
 These Weapon Traits modify an [Attack's Profile](#damage--effects) in a particularly powerful way. These are available solely at the GM's discretion and may serve as a source of inspiration for them to create their own uniques. You may create general, re-usable Weapon traits that modify the basic systems of an Attack, such as how many AP it costs, how far away it can threaten foes and how many and such. But you may also create highly specifc Weapon Traits that modify a specific [Weapon Skill's](#weapon--weapon-family---base-attributes-) Attacks, to make them truly unique. Also, when doing so, keep in mind Weapon Traits must modify something that already exists on a Skill, instead of adding a completely unrelated new ability. 
 
 > For example, a Weapon Trait that turns a Melee Attack into a Ranged AoE Burning Attack, is good. But adding the ability to also summon a dragon once a week, should be avoided, and may instead be better expressed as an Asset Ability. 
 
-###### Cruel
-A successful Attack with this weapon deals an additional `+Q` Bleeding Damage for every Injury the victim currently has. 
-
-###### Deflecting
-This weapon is especially good at turning Attacks aside. When you use this weapon in a Defense Test and succeed, you may [Knock-Back](#forced-movement) the Attacker by `Q` Squares. 
-
-###### Foolproof
-The first successful Attack each Round is treated as one Damage grade higher. I.e. Glancing -> Solid; Solid -> Masterful
-
-###### Relentless
-When an Attack with this weapon is successful, you may one additional free Attack. But every time you do, your Ob increases by `+1`, which resets upon an unsuccessful Attack or at Round end. 
-
-###### Executioner
-A successful Attack with this weapon will instantly strike down a foe whose HP are less than `20`. 
-
-###### Masterstroke
-Once per Round, an Attack with this weapon may ignore conditions that would normally limit the Attack. For example, a cleave attack that normally requires two adjacent targets, may now affect two targets that are far apart. However, foundational limitations, such as the maximum usable range, still apply. 
+| Legendary Weapon Traits   | Description                                                                                   | 
+| ------------------------- | --------------------------------------------------------------------------------------------- |
+| **Cruel**                 | A successful Attack with this weapon deals an additional `Q * 2` Bleeding Damage if the victim has at least one Injury. |
+| **Deflecting**            | This weapon is especially good at turning Attacks aside. When you use this weapon in a Defense Test and succeed, you may [Knock-Back](#forced-movement) the Attacker by `Q` Squares. |
+| **Foolproof**             | The first successful Attack each Round is treated as one Damage grade higher. I.e. Glancing -> Solid; Solid -> Masterful|
+| **Relentless**            | Once per Round, when an Attack with this weapon is successful, you may make one additional free Attack, with Ob `+2`. |
+| **Executioner**           | Attacks with this weapon deal an additional `Q * 2` Pure Damage to a foe whose HP are less than `20`. |
+| **Masterstroke**          | Once per Round, an Attack with this weapon may ignore conditions that would normally limit the Attack. For example, a cleave attack that normally requires two adjacent targets, may now affect two targets that are far apart. However, foundational limitations, such as the maximum usable range, still apply. |
 
 # Fate Points
 **Fate points (FP)** represent a meta-currency that *players* can earn and use to buy boons for their Character or the group as a whole. At the end of every session, players and the GM should discuss who earned which FP, followed by awarding those FP. 
@@ -1830,11 +1847,14 @@ Regardless of how quickly time currently flows, every in-game day is divided int
 ## Quarters of a Day (QoD)
 Each day is divided into four Quarters: **Night**, **Dawn**, **Midday**, and **Dusk**. Each Quarter lasts approximately six hours. Translated to a `24`-hour clock, Night is from `00:00` to `06:00`, Dawn from `06:00` to `12:00`, Midday from `12:00` to `18:00` and finally Dusk is from `18:00` to `00:00`. 
 
-When deciding on how much time an activity takes up, and whether the QoD should advance, the following guideline may serve:
+Activities are categorized as follows:
 * A **Brief** activity takes only a few minutes, at most. Many of these can happen in a QoD, without advancing it meaningfully. 
 * A **Lengthy** activity takes one or more hours and can consume a substantial portion of a QoD. 
 * An **Extended** activity takes several hours or more, and is very likely to advance the current QoD. 
-* A **Multi-Quarter** activity takes several QoDs. 
+* A **Multi-Quarter** activity takes two or three QoDs. 
+* A **Day-Long** activity takes `4` QoDs. 
+
+A QoD is a time-keeping unit, not an activity allowance. Just because an activity takes a Lengthy or Extended amount of time, doesn't necessarily mean nothing else could be done, within the same QoD. And just how many Brief activities fit into a QoD, isn't necessarily all that important. It is the GM's duty and authority to advance the Quarter when an appropriate amount of time should have passed. 
 
 ## Resting
 All creatures that can be tired, require sleep. Some [Conditions](#condition) can only be cleared by resting. A **Full Rest** requires at least one uninterrupted QoD of *active resting*. That implies not doing anything besides sleeping or meditating. Anything less than a Full Rest is a **Partial Rest**. 
@@ -1885,9 +1905,21 @@ A Tick **always** occurs for a Character, even when skipping or delaying their T
 # Crafting & Research Projects
 <img src="../../img/crafting.svg" style="width: 3rem; height: 3rem;"></img>
 
-In their own free time, Characters can spend time and resources to create [Assets](#assets), [research obscure subjects or make scientific discoveries](#research-projects), or devise entirely new [Inventions](#invention-projects). Some crafts may be possible while travelling, but most are assumed to be done when the PCs aren't currently travelling or on adventures. Research will always require Down-Time. 
+In their own free time, Characters can spend time and resources to create [Assets](#assets), [research obscure subjects or make scientific discoveries](#research-projects), or devise entirely new [Inventions](#invention-projects). Some Projects may be possible while travelling, but most are assumed to be done when the PCs aren't currently travelling or on adventures. 
 
-Every Project and Asset has a **Quality Level**. 
+All Projects fall into one of the following three categories: 
+* **Momentary**: A simple Project that will takes few minutes to complete. A single Project Roll is to be made, up-front. No Progress is tracked for it. Many of these can fit into a single QoD. 
+  * Examples would be: cooking a meal, making ordinary arrows, repairing a torn shirt and so on.
+  * A single Test -> Hits = Q
+* **Lengthy**: A complex Project that will take several hours to complete, but may fit into one to two QoDs. 
+  * Examples would be: Creating a complex weapon, making special arrows, tailoring specialized clothing and so on. 
+* **Epic**: A monumental Project whose completion itself is an accomplishment. This will require many QoDs, or even entire days to complete. 
+  * Examples would be: Build a car, construct an airship, build a fortress, invent an impossible gadget and so on.
+
+TODO
+Work-Session
+
+Every Project has a **Quality Level**. 
 
 ## Project Prerequisites
 Typically, a project can only be worked on with access to necessary resources and know-how. [Skills](#skills) that detail how they can be used for crafting will also note the prerequisites required. As always, the GM has the final word. 
@@ -2029,12 +2061,12 @@ The following matrix provides an overview of how long it may take to sell things
 
 Denoted are both the time it takes to get a chance at a [Mercantilism](#mercantilism-awarwit) [Test](#tests), what the Ob threshold is and what margins can be expected. The margins are relative to the goods' *listing price* or *normal* value. `200%` means the goods can be sold at twice what they're worth. 
 
-| **Supply >** <br> **Demand v** | **Very High** | **High** | **Moderate** | **Low** | 
-| ------------- | --------- | --------- | --------- | --------- |
-| **Low**       | 4 Days <br> Ob 6 <br>  50%   | 3 Days <br> Ob 5 <br>  60%   | 2 Days <br> Ob 4 <br>  70%   | 1 Day <br> Ob 3 <br>  80%      | 
-| **Moderate**  | 1 Day <br> Ob 5 <br>  80%    | 20 Hours <br> Ob 4 <br>  90% | 16 Hours <br> Ob 3 <br> 100% | 14 Hours <br> Ob 2 <br> 110%   | 
-| **High**      | 12 Hours <br> Ob 4 <br> 110% | 10 Hours <br> Ob 3 <br> 120% | 8 Hours <br> Ob 2 <br> 130%  | 6 Hours <br> Ob 1 <br> 140%    | 
-| **Very High** | 4 Hours <br> Ob 3 <br> 140%  | 2 Hours <br> Ob 2 <br> 160%  | 1 Hour <br> Ob 1 <br> 180%   | 30 Minutes <br> Ob 0 <br> 200% | 
+| **Supply >** <br> **Demand v** | **Very High** | **High**                 | **Moderate**                | **Low**                     | 
+| ------------- | --------------------------- | --------------------------- | --------------------------- | --------------------------- |
+| **Low**       | Multi-Quarter, Ob `5`, 50%  | Multi-Quarter, Ob `4`, 60%  | Extended, Ob `4`, 70%       | Extended, Ob `3`, 80%       | 
+| **Moderate**  | Multi-Quarter, Ob `4`, 80%  | Extended, Ob `4`, 90%       | Extended, Ob `3`, 100%      | Lengthy, Ob `2`, 110%       | 
+| **High**      | Extended, Ob `3`, 110%      | Extended, Ob `3`, 120%      | Lengthy, Ob `2`, 130%       | Lengthy, Ob `1`, 140%       | 
+| **Very High** | Lengthy, Ob `2`, 140%       | Lengthy, Ob `2`, 160%       | Lengthy, Ob `1`, 180%       | Brief, Ob `1`, 200%         | 
 
 ## Buyer's Chart
 The following matrix provides an overview of how long it may take to buy things on the market. Note that the GM has the final say on how long it will actually take and on how difficult it will be. 
@@ -2043,12 +2075,12 @@ Denoted are both the time it takes to get a chance at a [Mercantilism](#mercanti
 
 The supply is assumed to be relative to the demand. The more something is in demand, the more likely it is to be kept in stock and by more merchants, which makes it easier to find, even if there are more other buyers to compete with. 
 
-| **Supply >** <br> **Demand v** | **Very High** | **High** | **Moderate** | **Low** | 
-| ------------- | --------- | --------- | --------- | --------- |
-| **Low**       | 1 Day <br> Ob 0 <br>  50%      | 2 Days <br> Ob 1 <br>  60%   | 3 Days <br> Ob 2 <br>  70%    | 4 Days <br> Ob 3 <br>  80%   | 
-| **Moderate**  | 14 Hours <br> Ob 1 <br>  80%   | 16 Hours <br> Ob 2 <br>  90% | 20 Hours <br> Ob 3 <br> 100%  | 1 Day <br> Ob 4 <br> 110%    | 
-| **High**      | 6 Days <br> Ob 2 <br> 110%     | 8 Hours <br> Ob 3 <br> 120%  | 10 Hours <br> Ob 4 <br> 130%  | 12 Hours <br> Ob 5 <br> 140% | 
-| **Very High** | 30 Minutes <br> Ob 3 <br> 140% | 1 Hour  <br> Ob 4 <br> 160%  | 2 Hours <br> Ob 5 <br> 180%   | 4 Hours <br> Ob 6 <br> 200%  | 
+| **Supply >** <br> **Demand v** | **Very High** | **High**                 | **Moderate**                | **Low**                     | 
+| ------------- | --------------------------- | --------------------------- | --------------------------- | --------------------------- |
+| **Low**       | Brief, Ob `1`, 50%          | Brief, Ob `1`, 60%          | Lengthy, Ob `2`, 70%        | Lengthy, Ob `3`, 80%        | 
+| **Moderate**  | Brief, Ob `1`, 80%          | Lengthy, Ob `2`, 90%        | Lengthy, Ob `3`, 100%       | Extended, Ob `4`, 110%      | 
+| **High**      | Lengthy, Ob `2`, 100%       | Lengthy, Ob `3`, 120%       | Extended, Ob `4`, 130%      | Extended, Ob `5`, 140%      | 
+| **Very High** | Extended, Ob `3`, 110%      | Extended, Ob `4`, 160%      | Extended, Ob `5`, 180%      | Multi-Quarter, Ob `6`, 200% | 
 
 # Combat
 When diplomacy fails, hostilities ensue. This is when the game enters into a state that is handled very carefully. How time is *sliced* and when Characters get to act, is crucial. Time is divided into **Rounds** and those into **Turns**. Combat ends, when neither side has the ability or will left to fight. 
@@ -2157,9 +2189,9 @@ The Attack roll itself determines the severity of Damage and effects. They are *
 Some additional terminology:
 * **Direct Damage** always comes from an [Action or Reaction](#actions-reactions--passives).
 * **Indirect Damage** always comes from the environment, or from Damage over time [Health Conditions](#condition). 
-* **Instance of Damage** refers the Damage number that is actually applies to HP, after [Armor](#armor--shields) and [Resistances](#damage-resistances) have been applied. Damage that is completely negated by Armor and Resistances is **not** considered an Instance of Damage. 
-* **Primary Damage** refers to the most significant [Damage Type](#damage-types) of an Instance of Damage **after** Armor and Resistances are applied. This is the Damage Type that determines the [Injury](#injury) type that is inflicted. If there is a tie, the Damage Type that the armor reduces less is the Primary one. If there is still a tie, a coin flip could decide. <br>E.g. when suffering `6` Bludgeoning + `10` Slashing Damage, which Armor and Resistances reduce to `4` Bludgeoning + `2` Slashing Damage, then the Bludgeoning Damage is considered the Primary Damage of the Attack. If the Attack causes an Injury, then it will be a Bludgeoning Injury. 
-* **Source of Damage** refers to the entity that dealt it, most commonly a Character. But this could also the environment, such pools of acid, or objects, such as traps. Each trap, despite being part of the environment, counts as an individual Source of Damage. 
+* **Instance of Damage** refers to the moment in time when Damage is suffered, before it is reduced by [Armor](#armor-assets) and [Resistances](#damage-resistances). Multiple Types of Damage may be part of the same Instance of Damage. 
+* **Effective Damage** refers to the Damage number that is actually applied to HP, after [Armor](#armor-assets) and [Resistances](#damage-resistances) have been applied. Damage that is completely negated by Armor and Resistances is **not** part of the Effective Damage. 
+* **Primary Damage** refers to the most significant [Damage Type](#damage-types) of Effective Damage **after** Armor and Resistances are applied. This is the Damage Type that determines the [Injury](#injury) type that is inflicted. If there is a tie, the Damage Type that the armor reduces less is the Primary one. If there is still a tie, a coin flip could decide. <br>E.g. when suffering `6` Bludgeoning + `10` Slashing Damage, which Armor and Resistances reduce to `4` Bludgeoning + `2` Slashing Damage, then the Bludgeoning Damage is considered the Primary Damage of the Attack. If the Attack causes an Injury, then it will be a Bludgeoning Injury. 
 
 ### Targeting-Types
 The number of targets that an [Expertise](#expertise) can apply to, with a single use, is defined through the **targeting-types**. 
@@ -2234,7 +2266,7 @@ When Attacking with [Bludgeoning](#damage-types), you may knock another Characte
 ### Free Strike (FS)
 The **Free Strike (FS)** number defines bonus Damage that Characters may inflict under certain circumstances. 
 
-This value is mostly reserved for NPCs, as this is the Damage value used when multiple of the same type of NPC launch an Attack at the same time, as a [Squad](#npc-squads). This way, instead of having to roll determine Damage many times individually, the **main aggressor's Damage** is summed with **all assisting allies' Free Strike value**. Whether allies can join in to deal more Damage, depends on whether they are in their weapon's range to Attack and are part of the aggressor's [Squad](#npc-squads). 
+This value is mostly reserved for NPCs, as this is the Damage value used when multiple of the same type of NPC launch an Attack at the same time, as a [Squad](#npc-squads). For this, the **main aggressor's Damage** is summed with **all assisting allies' Free Strike value**. Whether allies can join in to deal more Damage, depends on whether they are in their weapon's range to Attack and are part of the aggressor's [Squad](#npc-squads). 
 
 ## Defending
 Successfully **Defending** against an Attack negates all its Damage and other effects from occurring. Defense is a [Reaction](#actions-reactions--passives) and requires an [Opposed Test](#opposed-test). If the Attacker achieves more Hits than the Defender, they win. If it is a tie or the Attacker achieves fewer Hits, the Defender wins. 
@@ -2244,7 +2276,7 @@ Successfully **Defending** against an Attack negates all its Damage and other ef
 The Defender must *choose* how to defend, unless a specific "Opposed by" Skill is noted on the Attacker's Skill. Valid choices are a [Weapon](#weapon--weapon-family---base-attributes-), the [Acrobatics](#acrobatics-agistr) or the [Shield](#shield-strtough) Skills. 
 
 Defense is classified as follows:
-* [**Guarded**](#guarded) Defense, for which you gain `+1` [Edge](#edge) and reduces your Guarded by `-1`. During your Turn, you can spend `1` AP to gain `+1` Guarded, as many times as you like or until you have the maximum of `5` Guarded. 
+* [**Guarded**](#guarded) Defense, for which you gain `+1` [Edge](#edge) and reduces your Guarded by `-1`. During your Turn, you can spend `1` AP to gain `+1` Guarded, as many times as you like or until you have the maximum of `5` Guarded.  
 * **Regular Defense**, which costs `-1` AP. There are no boons or penalties to this Defense. 
 * If you have `0` AP left, you may make an **Emergency Defense**, which borrows `1` AP from your next Turn. You will start that future Turn with `1` AP less. You may make an Emergency Defense **only twice per Round**. 
 * If you have no Guarded, nor AP left *and* have already spent all Emergency Defenses, you can no longer Defend! In this case, the Attacker's Ob is always `1`. 
@@ -2255,13 +2287,10 @@ Defending against [Area Of Effect](#area-of-effect) Attacks has the same Ob as t
 >
 > The Ob to Defend against this AoE Attack is thus `4 = 2 (Attacker's Ob) + 2 (always)`. If successful, the Defender suffers only `4` Burning Damage.
 
-### Armor & Shields
-[Armor](#armor-assets) serves as life insurance, because it can negate or at least reduce the Damage taken, after a Defense Test has failed. Shields on the other hand provide bonuses to Defense, making it harder for an enemy to succesfully land a hit in the first place. 
+*Wherever* Defense is concerned, you may either spend `1` AP or `1` Guarded to Defend.
 
 ### Defending an Ally
-It is possible for a Character to defend an adjacent ally when they're being Attacked. This costs `1` [AP](#action-points-ap) and results in the Character taking over the Defense Test, instead of the originally Attacked Character. 
-
-Defending an ally is a Reaction. 
+As a Reaction, it is possible to Defend an adjacent ally when they're being Attacked. This costs `1` [AP](#action-points-ap) or `1` [Guarded](#guarded) and results in you taking over the Defense Test, instead of your ally. 
 
 #### Counter-Attack
 A Reaction that allows a victim being Attacked to immediately retaliate against their Attacker. Unless otherwise specified, this costs `1` [AP](#action-points-ap).
@@ -2610,7 +2639,7 @@ When looking up products for crafting, the tools and materials required for the 
 | Antidote               | 1    | 4               | 20  | 10 Minutes |             | This unassuming liquid can make the difference between life and death. Removes `Q` points of [Poisoned](#poisoned). If no points remain, instead immediately [Treats](#injury-treatment) an [Injury](#injury) caused by [Poison](#damage-types) |
 | Medical Supplies       | 1    | 5               | 20  | 10 Minutes |             | A small satchel of clean bandages, thread and needle for suturing, a clean and sharp knife, a splint and straps for binding. Is used in the [Treatment](#injury-treatment) of various [Injuries](#injury). |
 | Objet d'art            | 1    | 1               | 20  | 10 Minutes |             | A painting, sculpture or other art piece. |
-| Ration                 | 1    | 10              | 10  | 30 Minutes |             | A ration of preserved food and drink, enough for a whole day. |
+| Ration                 | 1    | 10              | 10  | 30 Minutes |             | A ration of preserved food and drink, enough for a [QoD](#quarters-of-a-day-qod). |
 
 ## Lists of Skills
 The following list does not and cannot aim to be a complete listing of all possible Skills in game. Adding new Skills as necessary will have to be done by the GM. Nevertheless, most general need should be covered. 
@@ -2715,7 +2744,7 @@ See [Throwing](#throwing).
 #### Unarmed Combat (Agi/Str)
 Sometimes, your own body is your greatest weapon. Fists and feet can cause a surprising amount of Damage. 
 
-Traits: [Melee](#melee), [FS](#free-strike-fs): `Str`
+Traits: [Melee](#foundational-weapon-traits), [FS](#free-strike-fs): `Str`
 
 | Level | Name                       | AP | Ob                                   | Description           |
 | ----- | -------------------------- | -- | ------------------------------------ | --------------------- |
@@ -2985,7 +3014,7 @@ Gain the ability to re-direct a Forced-Movement onto an adjacent Character, at t
 Whether naturally tough-skinned or artificially enhanced, your hide proves especially resistant against a chosen [type of Damage](#damage-types), with `+3` points of armor. 
 
 ### Long Arms
-All your Melee Attacks can be used against targets up to two Squares away. You effectively implicitly gain the [Long Reach Weapon Trait](#long-reach) for all Attacks.
+All your Melee Attacks can be used against targets up to two Squares away. You effectively implicitly gain the [Long Reach Weapon Trait](#foundational-weapon-traits) for all Attacks.
 
 ### Productive
 Whenever you craft Assets, you produce twice as many.
@@ -3155,7 +3184,7 @@ A **Crippled** Character suffers `+1` Ob to **all** Tests, for each [Injury](#in
 ### Death's Door
 **Death's Door** is a Condition only a PC can have and represents their final battle with death. 
 
-A PC at **Death's Door** must succeed at least one [Toughness](#toughness-tough) Test out of a possible of three. If they never succeed, they perish, irrevocably. The Ob is determined as half of the Character's [Toughness](#toughness-tough), rounded up. Such a Test must be made once at the end of every Round or minute. 
+A PC at **Death's Door** must succeed at least one [Toughness](#toughness-tough) Test out of a possible of three. If they never succeed, they perish, irrevocably. The Ob is determined as half of the Character's [Toughness](#toughness-tough), rounded up. Such a Test must be made once at the end of every Round. 
 
 A Character can be helped out of the **Death's Door** Condition, if their [HP](#health-points-hp) are brought back up to at least `1`. 
 
@@ -3710,7 +3739,7 @@ The Squad (re-)gains AP only as a whole. You do not track AP for each member, an
 
 When a Squad spends AP to move, **all** members of the Squad get to move, at the same time. And they **must** try to move to maintain [Cohesion](#squad-cohesion), if required. These movements can trigger [Opportunity Attacks](#opportunity-Attacks), for each member of the Squad. *However* they **cannot** be halted this way. If the Squad member survives, they get to finish their movement, so that cohesion may be maintained. 
 
-When a Squad spends AP to Attack, **all** members of the Squad get to Attack, at the same time. The Squad may have multiple targets for the Attack, but only **one roll** is made **for each target** Attacked by the Squad. All members **within reach** of one target may aid the Attack roll, with `+1D` each. Damage works similarly. If the Attack is successful, a **single Damage roll** is made. For every other member that aided the Attack roll, their [Free Strike](#free-strike-fs) value is added as additional Damage, that is simply **added on top**, without any roll!
+When a Squad spends AP to Attack, **all** members of the Squad get to Attack, at the same time. The Squad may have multiple targets for the Attack, but only **one roll** is made **for each target** Attacked by the Squad. All members **within reach** of one target may aid the Attack roll, with `+1D` each. Damage works similarly. If the Attack is successful, a **single Damage roll** is made. For every other member that aided the Attack roll, their [Free Strike](#free-strike-fs) value is added as additional Damage, that is simply **added on top**, without any roll! The resulting Damage number counts as a single [Instance of Damage](#damage--effects).
 
 When a Squad spends AP to defend, **all** members of the Squad defend. When defending, no roll is made. The defender's [Def](#defense-def) value equals the Ob for the Attacker. While usually, only a single member is Attacked and will be the defender, all **adjacent allies** may add `+1` to their [Def](#defense-def), provided the Squad has AP left to defend with. 
 

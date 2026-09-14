@@ -81,7 +81,6 @@ There is a [compendium document](./strive-fantasy-game-masters-resource.md) rese
       - [Crossbow](#crossbow)
       - [Firearm](#firearm)
     - [Weapon Traits](#weapon-traits)
-      - [Ambersteel-Forged](#ambersteel-forged)
   - [Lists of Skills](#lists-of-skills)
     - [Physical Skills](#physical-skills)
       - [Rune-Using (Agi/Wit)](#rune-using-agiwit)
@@ -684,13 +683,16 @@ See also the [Core rule's Asset appendix](./strive-core.md#assets-appendix).
 ### Armor
 
 #### Armor Traits
-Armor can have the following **Armor Traits**:
+Additions to the [Core Armor Traits](./strive-core.md#armor-traits).
 
-* **Ambersteel**: Bonus protection against magic. `+Q` Ob for the Attacker and reduces Damage by `Q * 2` from a magic source. 
+| Armor Trait            | Description                                                                                   | 
+| ---------------------- | --------------------------------------------------------------------------------------------- |
+| **Ambersteel**         | Bonus protection against magic. `+Q` Ob for the Attacker and reduces Damage by `Q * 2` from a magic source. |
 
 #### Light Armor
 A set of light armor that doesn't impede the wearer much. Example: cloth armor like a gambeson. Might also be leather armor, if the leather comes from a creature whose skin is particularly tough and well suited to being used as armor. 
 
+* `+2` [Strain](./strive-core.md#stamina--strain) while worn. 
 * Bulk: `2`
 * PI: `30`, TI: `6 Hours`
 
@@ -704,9 +706,9 @@ A set of light armor that doesn't impede the wearer much. Example: cloth armor l
 #### Medium Armor
 A set of medium armor with a good balance of protection and weight. Example: full chain mail armor, with or without a helmet. 
 
-* `+1` [Strain](./strive-core.md#stamina--strain) while worn. 
+* `+4` [Strain](./strive-core.md#stamina--strain) while worn. 
 * `+1` [Stability](./strive-core.md#stability-stabil) while worn.
-* `-1` to [Stealth](./strive-core.md#stealth-agiawar) while worn. 
+* `-1D` to [Stealth](./strive-core.md#stealth-agiawar) while worn. 
 * `-1D` to any Defense Tests while worn. 
 * Bulk: `3`
 * PI: `40`, TI: `6 Hours`
@@ -722,9 +724,9 @@ A set of medium armor with a good balance of protection and weight. Example: ful
 #### Heavy Armor
 A set of heavy armor with excellent protection, at the cost of encumbering the wearer greatly. Example: full plate armor. 
 
-* `+2` [Strain](./strive-core.md#stamina--strain) while worn.
+* `+6` [Strain](./strive-core.md#stamina--strain) while worn.
 * `+2` [Stability](./strive-core.md#stability-stabil) while worn.
-* `-3` to [Stealth](./strive-core.md#stealth-agiawar) while worn. 
+* `-3D` to [Stealth](./strive-core.md#stealth-agiawar) while worn. 
 * `-2D` to any Defense Tests while worn. 
 * Bulk: `4`
 * PI: `50`, TI: `6 Hours`
@@ -743,45 +745,48 @@ Shields are items that provide passive bonuses to Defense against melee and rang
 Shields can only be used in Defense Tests via the [Shield](./strive-core.md#shield-strtough) Skill.
 
 #### Shield Traits
-Shields can have the following **Shield Traits**:
+Additions to the [Core Shield Traits](./strive-core.md#shield-traits). 
 
-* **Ambersteel**: Bonus protection against magic. `+Q` Ob for the Attacker and reduces Damage by `Q * 2` from a magic source. 
+| Shield Trait           | Description                                                                                   | 
+| ---------------------- | --------------------------------------------------------------------------------------------- |
+| **Ambersteel**         | Bonus protection against magic. `+Q` Ob for the Attacker and reduces Damage by `Q * 2` from a magic source. |
 
 #### Light Shield
 A small round or oblong shield commonly held as far from the body as possible, to deflect small or stabbing weapons with ease. Helps only little against heavy blows and don't expect to deflect arrows with this, either. 
 
+* `+1` [Strain](./strive-core.md#stamina--strain) while wielded. 
 * Bulk: `1`
 * PI: `20`, TI: `6 Hours`
 
 | Unthreatened           | Flanked           | Surrounded           | Overwhelmed           |
 | ---------------------- | ----------------- | -------------------- | --------------------- |
-| `+1` [Edge](./strive-core.md#edge) for melee Defense. | `+1D` for melee Defense. | / | / |
-| `+2` [Edge](./strive-core.md#edge) for melee Defense against Piercing Attacks. | `+2D` for melee Defense against Piercing Attacks. | `+1D` for melee Defense against Piercing Attacks. | / |
+| `+1D` for melee Defense. | `+1D` for melee Defense. |  |  |
+| `+2` [Edge](./strive-core.md#edge) for melee Defense against Piercing Attacks. | `+2D` for melee Defense against Piercing Attacks. | `+1D` for melee Defense against Piercing Attacks. |  |
 | `-1D` for ranged Defense. | `-2D` for ranged Defense. | `-2D` for ranged Defense. | `-2D` for ranged Defense. |
 
 #### Medium Shield
 A medium-sized, round or kite-shaped shield made from tough wood and leather or even metal, which offers good protection against most Attacks, while not encumbering the wielder too much. 
 
-* `+1` [Strain](./strive-core.md#stamina--strain) while wielded. 
+* `+3` [Strain](./strive-core.md#stamina--strain) while wielded. 
 * `+1` [Stability](./strive-core.md#stability-stabil) while wielded.
 * Bulk: `2`
 * PI: `30`, TI: `6 Hours`
 
 | Unthreatened           | Flanked           | Surrounded           | Overwhelmed           |
 | ---------------------- | ----------------- | -------------------- | --------------------- |
-| `+1` [Edge](./strive-core.md#edge) for any Defense. | `+1D` for any Defense. | / | `-1D` for any Defense. |
+| `+1` [Edge](./strive-core.md#edge) for any Defense. | `+1D` for any Defense. |  | `-1D` for any Defense. |
 
 #### Heavy Shield
 A large, kite-shaped or rectangular shield, which can protect every part of the fighter, from the shoulder down to the feet. Its weight is very tiring. 
 
-* `+2` [Strain](./strive-core.md#stamina--strain) while wielded.
+* `+6` [Strain](./strive-core.md#stamina--strain) while wielded.
 * `+2` [Stability](./strive-core.md#stability-stabil) while wielded.
 * Bulk: `4`
 * PI: `40`, TI: `6 Hours`
 
 | Unthreatened           | Flanked           | Surrounded           | Overwhelmed           |
 | ---------------------- | ----------------- | -------------------- | --------------------- |
-| `+2` [Edge](./strive-core.md#edge) for any Defense. | `+1` [Edge](./strive-core.md#edge) for any Defense. | `+1D` for any Defense. | / |
+| `+2` [Edge](./strive-core.md#edge) for any Defense. | `+1` [Edge](./strive-core.md#edge) for any Defense. | `+1D` for any Defense. |  |
 
 ### Weapon Families
 Following are fantasy-themed [Weapon-Families](./strive-core.md#weapon-family). These are broad abstractions for that kind of weapon. For example "Axe" makes no distinction between a hatchet or a huge double-bladed axe. 
@@ -789,7 +794,7 @@ Following are fantasy-themed [Weapon-Families](./strive-core.md#weapon-family). 
 #### Axe
 One and two-handed axes. See also its corresponding [Skill](#weapon-axe-strstr).
 
-* [Melee](./strive-core.md#melee)
+* [Melee](./strive-core.md#foundational-weapon-traits)
 * Bulk: `2`, PI: `15`, TI: `1 Hour`
 
 #### Chained Blade 
@@ -797,62 +802,63 @@ An exotic weighted, down-angled blade, perfect for throwing and connected to a v
 
 Requires knowing [Acrobatics](#acrobatics-agistr) and [Throwing](./strive-core.md#throwing), each at Level `3+`. 
 
-* [Melee](./strive-core.md#melee), [Ranged (max. 8)](./strive-core.md#ranged), [Prefer Range](./strive-core.md#prefer-range)
+* [Melee](./strive-core.md#foundational-weapon-traits), [Ranged (max. 8)](./strive-core.md#foundational-weapon-traits), [Prefer Range](./strive-core.md#foundational-weapon-traits)
 * Bulk: `3`, PI: `25`, TI: `1 Hour`
 
 #### Crusher
 Small bludgeoning weapons. Examples: any improvised weapon, any club, any mace. See also its corresponding [Skill](#weapon-crusher-strtough).
 
-* [Melee](./strive-core.md#melee)
+* [Melee](./strive-core.md#foundational-weapon-traits)
 * Bulk: `3`, PI: `15`, TI: `1 Hour`
 
 #### Light Blade
 Any short and/or light blade, such as daggers and one-handed swords. See also its corresponding [Skill](#weapon-light-blade-agistr).
 
-* [Melee](./strive-core.md#melee)
+* [Melee](./strive-core.md#foundational-weapon-traits)
 * Bulk: `1`, PI: `15`, TI: `1 Hour`
 
 #### Long Blade
 Any long and heavier blade, such as longswords and great-swords. See also its corresponding [Skill](#weapon-long-blade-agistr).
 
-* [Melee](./strive-core.md#melee), [Long Reach](./strive-core.md#general-weapon-traits)
+* [Melee](./strive-core.md#foundational-weapon-traits), [Long Reach](./strive-core.md#general-weapon-traits)
 * Bulk: `3`, PI: `20`, TI: `1 Hour`
 
 #### Polearm
 Polearms and spears. Examples: boar-spear, halberd, bardiche, poleaxe. See also its corresponding [Skill](#weapon-polearm-strtough).
 
-* [Melee](./strive-core.md#melee), [Long Reach](./strive-core.md#general-weapon-traits), [Prefer Range](./strive-core.md#general-weapon-traits)
+* [Melee](./strive-core.md#foundational-weapon-traits), [Long Reach](./strive-core.md#general-weapon-traits), [Prefer Range](./strive-core.md#general-weapon-traits)
 * Bulk: `4`, PI: `20`, TI: `1 Hour`
 
 #### Short-Bow
 A short distance ranged weapon, shooting arrows. See also its corresponding [Skill](#weapon-short-bow-agiawar).
 
-* [Ranged (10 DI)](./strive-core.md#ranged), [Range Only](./strive-core.md#general-weapon-traits)
+* [Ranged (10 DI)](./strive-core.md#foundational-weapon-traits), [Range Only](./strive-core.md#general-weapon-traits)
 * Bulk: `1`, PI: `15`, TI: `1 Hour`
 
 #### Longbow
 A long distance ranged weapon, shooting arrows. See also its corresponding [Skill](#weapon-longbow-awarstr).
 
-* [Ranged (20 DI)](./strive-core.md#ranged), [Range Only](./strive-core.md#general-weapon-traits)
+* [Ranged (20 DI)](./strive-core.md#foundational-weapon-traits), [Range Only](./strive-core.md#general-weapon-traits)
 * Bulk: `2`, PI: `20`, TI: `1 Hour`
 
 #### Crossbow
 A deadly medium distance ranged weapon, shooting bolts. Beware its slow reload. See also its corresponding [Skill](#weapon-crossbow-awarawar).
 
-* [Ranged (15 DI)](./strive-core.md#ranged), [Prefer Range](./strive-core.md#general-weapon-traits), [Slow Reload](./strive-core.md#general-weapon-traits)
+* [Ranged (15 DI)](./strive-core.md#foundational-weapon-traits), [Prefer Range](./strive-core.md#general-weapon-traits), [Slow Reload](./strive-core.md#general-weapon-traits)
 * Bulk: `2`, PI: `25`, TI: `1 Hour`
 
 #### Firearm
 A very deadly short to medium distance ranged weapon, shooting small metal balls that are partially able to penetrate armor. Beware its slow reload. See also its corresponding [Skill](#weapon-firearm-awartough).
 
-* [Ranged (10 DI)](./strive-core.md#ranged), [Prefer Range](./strive-core.md#general-weapon-traits), [Very Slow Reload](./strive-core.md#general-weapon-traits)
+* [Ranged (10 DI)](./strive-core.md#foundational-weapon-traits), [Prefer Range](./strive-core.md#general-weapon-traits), [Very Slow Reload](./strive-core.md#general-weapon-traits)
 * Bulk: `3`, PI: `30`, TI: `1 Hour`
 
 ### Weapon Traits
-Fantasy-themed [Weapon Traits](./strive-core.md#weapon-traits).
+Additions to the [Core Weapon Traits](./strive-core.md#weapon-traits). 
 
-#### Ambersteel-Forged
-Attacks deal an additional `Q * 2` Pure Damage against mages and magical creatures. 
+| weapon Trait           | Description                                                                                   | 
+| ---------------------- | --------------------------------------------------------------------------------------------- |
+| **Ambersteel-Forged**  | Attacks deal an additional `Q * 2` Pure Damage against mages and magical creatures.           |
 
 ## Lists of Skills
 The following list does not and cannot aim to be a complete listing of all possible Skills in game. Adding new Skills as necessary will have to be done by the GM. 
@@ -873,7 +879,7 @@ Steering and maintaining a naval vessel.
 #### Weapon \<Axe\> (Str/Str)
 Skill for [Axe](#axe) type weapons, both one and two-handed. A straight-forward solution to your problems, that combines cutting and impact force and can viciously bleed your enemies. 
 
-Traits: [Melee](./strive-core.md#melee), [FS](./strive-core.md#free-strike-fs): `2` Slashing + `2` Bludgeoning
+Traits: [Melee](./strive-core.md#foundational-weapon-traits), [FS](./strive-core.md#free-strike-fs): `2` Slashing + `2` Bludgeoning
 
 | Level | Name                 | AP | Ob          | Description <br> Damage                   |
 | ----- | -------------------- | -- | ----------- | ----------------------------------------- |
@@ -884,7 +890,7 @@ Traits: [Melee](./strive-core.md#melee), [FS](./strive-core.md#free-strike-fs): 
 #### Weapon \<Light Blade\> (Agi/Str)
 Skill for any [Light Blade](#light-blade) type weapons, such as daggers and one-handed swords. Versatile, but best used against inconvenienced foes, with an emphasis on Piercing Damage. 
 
-Traits: [Melee](./strive-core.md#melee), [FS](./strive-core.md#free-strike-fs): `3` Piercing
+Traits: [Melee](./strive-core.md#foundational-weapon-traits), [FS](./strive-core.md#free-strike-fs): `3` Piercing
 
 | Level | Name                 | AP | Ob          | Description <br> Damage                   |
 | ----- | -------------------- | -- | ----------- | ----------------------------------------- |
@@ -897,7 +903,7 @@ Traits: [Melee](./strive-core.md#melee), [FS](./strive-core.md#free-strike-fs): 
 #### Weapon \<Long Blade\> (Agi/Str)
 Skill for any [Long Blade](#long-blade) type weapons, such as longswords and great-swords. Versatile and powerful with an emphasis on Slashing Damage. 
 
-Traits: [Melee](./strive-core.md#melee), [Long Reach](./strive-core.md#general-weapon-traits), [FS](./strive-core.md#free-strike-fs): `3` Slashing
+Traits: [Melee](./strive-core.md#foundational-weapon-traits), [Long Reach](./strive-core.md#general-weapon-traits), [FS](./strive-core.md#free-strike-fs): `3` Slashing
 
 | Level | Name                 | AP | Ob          | Description <br> Damage                   |
 | ----- | -------------------- | -- | ----------- | ----------------------------------------- |
@@ -910,7 +916,7 @@ Traits: [Melee](./strive-core.md#melee), [Long Reach](./strive-core.md#general-w
 #### Weapon \<Chained Blade\> (Agi/Agi)
 Skill for [Chained Blade](#chained-blade) type weapons, an exotic and fantastical weapon type that uses an angled blade at the end of a light chain. A very versatile weapon that can move yourself and foes around and support an ally's Attacks. 
 
-Traits: [Melee](./strive-core.md#melee), [Ranged (max. `8`)](./strive-core.md#ranged), [Prefer Range](./strive-core.md#general-weapon-traits), [FS](./strive-core.md#free-strike-fs): `4` Slashing
+Traits: [Melee](./strive-core.md#foundational-weapon-traits), [Ranged (max. `8`)](./strive-core.md#foundational-weapon-traits), [Prefer Range](./strive-core.md#general-weapon-traits), [FS](./strive-core.md#free-strike-fs): `4` Slashing
 
 | Level | Name                 | AP | Ob          | Description <br> Damage                   |
 | ----- | -------------------- | -- | ----------- | ----------------------------------------- |
@@ -922,7 +928,7 @@ Traits: [Melee](./strive-core.md#melee), [Ranged (max. `8`)](./strive-core.md#ra
 #### Weapon \<Crusher\> (Str/Tough)
 Skill for [Crusher](#crusher) type weapons, with a dedicated *impact zone*, such as clubs and maces. Benefits from your Strength and is good for tiring out foes. 
 
-Traits: [Melee](./strive-core.md#melee), [FS](./strive-core.md#free-strike-fs): `4` Bludgeoning
+Traits: [Melee](./strive-core.md#foundational-weapon-traits), [FS](./strive-core.md#free-strike-fs): `4` Bludgeoning
 
 | Level | Name                 | AP | Ob          | Description <br> Damage                   |
 | ----- | -------------------- | -- | ----------- | ----------------------------------------- |
@@ -933,7 +939,7 @@ Traits: [Melee](./strive-core.md#melee), [FS](./strive-core.md#free-strike-fs): 
 #### Weapon \<Polearm\> (Str/Tough)
 Skill for [Polearm](#polearm) type weapons, like halberds, voulges, bardiches and pollaxes. An ideal support weapon, that can be used from the back-row. 
 
-Traits: [Melee](./strive-core.md#melee), [Long Reach](./strive-core.md#general-weapon-traits), [Prefer Range](./strive-core.md#general-weapon-traits), [FS](./strive-core.md#free-strike-fs): `3` Piercing
+Traits: [Melee](./strive-core.md#foundational-weapon-traits), [Long Reach](./strive-core.md#general-weapon-traits), [Prefer Range](./strive-core.md#general-weapon-traits), [FS](./strive-core.md#free-strike-fs): `3` Piercing
 
 | Level | Name                 | AP | Ob          | Description <br> Damage                   |
 | ----- | -------------------- | -- | ----------- | ----------------------------------------- |
@@ -946,7 +952,7 @@ Traits: [Melee](./strive-core.md#melee), [Long Reach](./strive-core.md#general-w
 #### Weapon \<Short-Bow\> (Agi/Awar)
 Skill for [Short-Bow](#short-bow) type weapons. Versatile, but light on Damage. 
 
-Traits: [Ranged (10 DI)](./strive-core.md#ranged), [Range Only](./strive-core.md#general-weapon-traits), [FS](./strive-core.md#free-strike-fs): `3` Piercing
+Traits: [Ranged (10 DI)](./strive-core.md#foundational-weapon-traits), [Range Only](./strive-core.md#general-weapon-traits), [FS](./strive-core.md#free-strike-fs): `3` Piercing
 
 | Level | Name                 | AP | Ob          | Description <br> Damage                   |
 | ----- | -------------------- | -- | ----------- | ----------------------------------------- |
@@ -957,7 +963,7 @@ Traits: [Ranged (10 DI)](./strive-core.md#ranged), [Range Only](./strive-core.md
 #### Weapon \<Longbow\> (Awar/Str)
 Skill for [Longbow](#longbow) type weapons. Great Damage, but no utility. 
 
-Traits: [Ranged (20 DI)](./strive-core.md#ranged), [Range Only](./strive-core.md#general-weapon-traits), [FS](./strive-core.md#free-strike-fs): `4` Piercing
+Traits: [Ranged (20 DI)](./strive-core.md#foundational-weapon-traits), [Range Only](./strive-core.md#general-weapon-traits), [FS](./strive-core.md#free-strike-fs): `4` Piercing
 
 | Level | Name                 | AP | Ob          | Description <br> Damage                   |
 | ----- | -------------------- | -- | ----------- | ----------------------------------------- |
@@ -967,7 +973,7 @@ Traits: [Ranged (20 DI)](./strive-core.md#ranged), [Range Only](./strive-core.md
 #### Weapon \<Crossbow\> (Awar/Awar)
 Skill for [Crossbow](#crossbow) type weapons. Deadly, but slow to reload and without any utility. 
 
-Traits: [Ranged (15 DI)](./strive-core.md#ranged), [Prefer Range](./strive-core.md#general-weapon-traits), [Slow Reload](./strive-core.md#general-weapon-traits), [FS](./strive-core.md#free-strike-fs): `5` Piercing
+Traits: [Ranged (15 DI)](./strive-core.md#foundational-weapon-traits), [Prefer Range](./strive-core.md#general-weapon-traits), [Slow Reload](./strive-core.md#general-weapon-traits), [FS](./strive-core.md#free-strike-fs): `5` Piercing
 
 | Level | Name                 | AP | Ob          | Description <br> Damage                   |
 | ----- | -------------------- | -- | ----------- | ----------------------------------------- |
@@ -976,7 +982,7 @@ Traits: [Ranged (15 DI)](./strive-core.md#ranged), [Prefer Range](./strive-core.
 #### Weapon \<Firearm\> (Awar/Tough)
 Skill for [Firearm](#firearm) type weapons. It takes great discipline to not flinch at the sparks and smoke upon ignition. Very deadly, but also very slow to reload and without any utility. 
 
-Traits: [Ranged (10 DI)](./strive-core.md#ranged), [Prefer Range](./strive-core.md#general-weapon-traits), [Very Slow Reload](./strive-core.md#general-weapon-traits), [FS](./strive-core.md#free-strike-fs): `8` Piercing
+Traits: [Ranged (10 DI)](./strive-core.md#foundational-weapon-traits), [Prefer Range](./strive-core.md#general-weapon-traits), [Very Slow Reload](./strive-core.md#general-weapon-traits), [FS](./strive-core.md#free-strike-fs): `8` Piercing
 
 | Level | Name                 | AP | Ob          | Description <br> Damage                   |
 | ----- | -------------------- | -- | ----------- | ----------------------------------------- |
