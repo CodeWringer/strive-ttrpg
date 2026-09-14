@@ -195,8 +195,7 @@ By using STRIVE (that includes but is not limited to viewing, reading, referenci
       - [Shrugging Off An Injury](#shrugging-off-an-injury)
       - [Suffering An Injury](#suffering-an-injury)
       - [Crippled By Injuries](#crippled-by-injuries)
-      - [Injury States \& Treatment](#injury-states--treatment)
-      - [Injury \& Damage Type Table](#injury--damage-type-table)
+      - [Injury Treatment](#injury-treatment)
       - [Grit Points](#grit-points)
     - [Stamina \& Strain](#stamina--strain)
       - [Stamina](#stamina)
@@ -204,6 +203,9 @@ By using STRIVE (that includes but is not limited to viewing, reading, referenci
       - [Recovering Stamina \& Reducing Strain](#recovering-stamina--reducing-strain)
     - [Condition](#condition)
     - [Illness](#illness)
+      - [Shrugging Off An Illness](#shrugging-off-an-illness)
+      - [Suffering an Illness](#suffering-an-illness)
+      - [Illness Recovery](#illness-recovery)
     - [Damage Types](#damage-types)
     - [Damage Resistances](#damage-resistances)
     - [Boons \& Penalties](#boons--penalties)
@@ -559,7 +561,7 @@ As STRIVE is meant primarily as a rule-book to help you quickly find what you ne
 | ----------------------------------------------------------- | ----------------------- |
 | [Action Point(s) (AP)](#action-points-ap)                   | A temporary resource that limits how much Characters can do on their Turn. |
 | [Action](#intent--action)                                   | Occurs as something a Character does themself. An Action is usually self-initiated, but doesn't have to be. |
-| [Active Injury](#injury-states--treatment)                  | An Active Injury reduces a Character's maximum HP and imposes additional penalties. |
+| [Untreated Injury](#injury-treatment)                       | An Untreated Injury reduces a Character's maximum HP and imposes additional penalties. |
 | [Advancement Progress](#advancement)                        | The number that dictates a Skill's current progress towards Advancement. |
 | [Advancement](#advancement)                                 | PCs may raise their Attributes' and Skills' Levels as they exercise them and gain XP. |
 | [Agility (Agi)](#agility-agi)                               | An Attribute that describes a Character's nimbleness, swiftness and hand-eye coordination. Finds use in determining Base Initiative and Sprinting Speed. |
@@ -734,7 +736,8 @@ As STRIVE is meant primarily as a rule-book to help you quickly find what you ne
 | [Time Increment (TI)](#progressing-a-project)               | Determines how often progress may be added to a Project. |
 | [Title of Renown](#titles-of-renown)                        | A unique reputation that a Character is known for, far and wide. Often earned through great achievements, both good and terrible. |
 | [Toughness (Tough)](#toughness-tough)                       | An Attribute that describes a Character's capacity to withstand physical and mental strains. Finds use in determining maximum HP, maximum Stamina and Sprinting Speed. |
-| [Treated Injury](#injury-states--treatment)                 | A Treated Injury only reduces a Character's maximum HP. |
+| [Treated Injury](#injury-treatment)                         | A Treated Injury only reduces a Character's maximum HP. |
+| [Treatment Skill](#injury-treatment)                        | The Skill used to treat an Injury. |
 | [Troublemaker](#quirk)                                      | A PC's Quirk that makes it easy for the GM to get that PC into *trouble* - some minor social conflict to shake things up. |
 | [Turn](#initiative-order)                                   | The moment in time when a Character gets to act in an Initiative Order. |
 | [Unconscious](#unconscious)                                 | A Condition for a Character who is either asleep or knocked unconscious. |
@@ -1435,6 +1438,10 @@ Whenever a Character's HP drop below a `10` HP segment, they *may* suffer an Inj
 
 For every Injury incurred, a Character's maximum HP are reduced by `-10`! A penalty to Toughness from an Injury **does not** further reduce the maximum HP! Even a treated Injury still applies the maximum HP penalty, until the moment it is fully healed and removed!
 
+There are two possible states of an Injury: **Untreated** or **Treated**. 
+* An **Untreated Injury** reduces [maximum HP](#health-points-hp) by `-10` *and* imposes additional penalites, such as to [Attributes](#attributes). 
+* A **Treated Injury** *still* reduces maximum HP by `-10`, but can no longer impose additional penalties.
+
 #### Shrugging Off An Injury
 To Shrug Off an Injury, they must succeed a [Toughness](#toughness-tough) Test with Ob at `N + 1`, where *N* is the number of successful Shrug-Offs, so far. Note that only PCs may Shrug Off Injuries. NPCs simply suffer Injuries, no Shrug-Offs are rolled. 
 * If successful, no Injury is suffered! They must **note this success**, as every time an Injury is shrugged off, it becomes `+1` Ob harder to Shrug Off the next! 
@@ -1447,7 +1454,7 @@ Every [Full Rest](#resting), the Shrug-Off counter is reduced by `-1`.
 > Thus, the Ob for their Toughness Test is `1 (from an earlier shrugged off Injury) + 1 (always) = 2`. 
 
 #### Suffering An Injury
-Having failed to Shrug Off an Injury, roll a `D10` and see the table below, because an Injury always applies a [Penalty](#boons--penalties) of `-1` to a randomly selected Attribute. The roll determines which one. 
+Having failed to Shrug Off an Injury, roll a `D10` and see the table below, because an Injury always applies a [Penalty](#boons--penalties) of `-1` to a randomly selected Attribute. The roll determines which one. AlsWhen suffering an Injury, you gain a [Grit Point](#grit-points)! 
 
 | D10 Result | Attribute    |
 | ---------- | ------------ |
@@ -1457,44 +1464,21 @@ Having failed to Shrug Off an Injury, roll a `D10` and see the table below, beca
 | 7 - 8      | Toughness    |
 | 9 - 10     | Wit          |
 
-Additionally, the [Primary Damage](#damage--effects) that caused the Injury may apply further penalties. See the [Injury & Damage Type Table](#injury--damage-type-table). Note that such additional penalties are applied only **once, upon being suffered**!
-
-Also keep in mind that whenever a PC suffers an Injury, they earn a [Grit Point](#grit-points)! 
+Additionally, the [Primary Damage](#damage--effects) that caused the Injury may apply further penalties. See the [Injury & Damage Type Table](#damage-types). Note that such additional penalties are applied only **once, upon being suffered**!
 
 #### Crippled By Injuries
 Accruing **more Injuries than your Toughness** will result in your Character getting [Crippled](#crippled). Every Injury past this threshold will impose a penalty of Ob `+1` to **all** Tests!
 
 > A Character with Toughness `1`, suffers their second Injury. This now cripples their Character, meaning **all** their Tests are now `+1` Ob harder to succeed. If they get yet another Injury - their third - they suffer `+2` Ob!
 
-#### Injury States & Treatment
-There are two possible states of an Injury: **Active** or **Treated**. 
-* An Active Injury reduces [maximum HP](#health-points-hp) by `-10` *and* imposes additional penalites, such as to [Attributes](#attributes). 
-* A Treated Injury *only* reduces maximum HP by `-10`.
+#### Injury Treatment
+Before attempting Treatment for the first time, determine its **Treatment Ob**, via a `D4` roll. 
 
-An Injury **must** be treated, if it is to begin healing. There are two ways to treat an Injury:
-1. Through use of a Treatment Skill, as dictated by the Damage Type that caused the Injury. See the [Injury & Damage Type Table](#injury--damage-type-table) below. The Injured Character or another Character may attempt this treatment. 
+An Injury **must** be treated, if it is to begin healing. There are two ways to treat one:
+1. Through use of a **Treatment Skill**, as dictated by the Damage Type that caused the Injury. See [Damage Types](#damage-types). 
 2. The Injured Character may do a Test of their [Toughness](#toughness-tough), against the Treatment Ob, however, this Test is `+1` Ob harder. 
 
-The Treatment Ob is determined once, by a `D4` roll. 
-
-Only one Treatment attempt may be made every `24` hours on a per-Character basis. **Every** Treatment attempt costs `1` [Medical Supplies](#general-assets). 
-
-A `2D10 + 10` roll determines the number of **days** the Injury takes to fully heal, once treated. Every `24` hours the time left to heal is reduced by `-1` day. A Treated Injury can be treated again, once every `24` hours, reducing the time left to heal by `-2` days, every time the Treatment Test is successful. However, failing the Treatment Test increases the time by `+1` day. 
-
-#### Injury & Damage Type Table
-
-| Damage Type | Treatment Skill              | Additional Penalty               |
-| ----------- | ---------------------------- | -------------------------------- |
-| Acid        | [Medicine](#medicine-agiwit) | `-1` [AP](#action-points-ap) per Turn |
-| Bleeding    | [Medicine](#medicine-agiwit) | `+1` [Bleeding](#bleeding)       |
-| Bludgeoning | [Surgery](#surgery-agiwit)   | `+1` [Strain](#strain)           |
-| Burning     | [Surgery](#surgery-agiwit)   | `+1` [Burning](#burning)         |
-| Electrical  | [Medicine](#medicine-agiwit) | `+1` [Electrified](#electrified) |
-| Freezing    | [Medicine](#medicine-agiwit) | `+1` [Frostbitten](#frostbitten) |
-| Piercing    | [Surgery](#surgery-agiwit)   | `+1` [Bleeding](#bleeding)       |
-| Poison      | [Medicine](#medicine-agiwit) | Flip a coin. On heads - `+1` [Berserk](#berserk), on tails - `+1` [Terrified](#terrified) |
-| Pure        | [Surgery](#surgery-agiwit)   |                                  |
-| Slashing    | [Medicine](#medicine-agiwit) | `+1` [Bleeding](#bleeding)       |
+A `2D10 + 4` roll determines the number of **QoDs** the Injury takes to fully heal, once treated. At the start of every QoD, increment its healing progress by `+1`. An already Treated Injury can be treated again, once every QoD, and if successful, this adds `+2` healing progress. However, failing the Treatment Test increases the healing time by `+1` QoD. Only one Treatment attempt may be made every [QoD](#quarters-of-a-day-qod), on a per-Character basis. **Every** Treatment attempt costs `1` [Medical Supplies](#general-assets). 
 
 #### Grit Points
 <img src="../../img/grit.svg" style="width: 3rem; height: 3rem;"> **Grit Points** let a Character stand up in defiance of their [Injuries](#injury) and make a last-ditch effort to turn the wheel of fate around. 
@@ -1546,39 +1530,38 @@ Even outside of combat, for as long as a Character in the current scene is suffe
 A listing of all Conditions can be found [in the appendix](#list-of-conditions). 
 
 ### Illness
-An **Illness** can affect a Character over a perod of time and cause various negative effects. 
+An **Illness** is a serious long-term health impediment of a Character.
 
-Illnesses can be contracted in a variety of ways, although most of them involve an open wound exposed to bacterial breeding grounds, such as bogs, sewers, mass graves and trash dumps. Or from something ingested, such as spoiled or poisoned food. 
+#### Shrugging Off An Illness
+When a Character is about to contract an Illness, they must make a [Toughness](#toughness-tough) [Test](#tests) at Ob `3`. On a success, the Illness is shrugged off. But on a failure, the Illness is contracted and will immediately apply its effects to the Character. 
 
-When a Character is about to contract an Illness, they must make a [Toughness](#toughness-tough) [Test](#tests) with an Ob noted on the Illness:
-* On a success, the Illness is shrugged off. 
-* On a failure, the Illness is contracted and will immediately apply its effects to the Character. 
-  * Unless a specific Illness has been contracted, you must determine a random one by rolling a `D100` and picking the corresponding Illness from the [List Of Illnesses](#list-of-illnesses). 
-  * Once the Illness has been determined, its duration and severity must also be determined through rolls, as noted on the Illness itself. 
+#### Suffering an Illness
+Illnesses can be contracted in a variety of ways, such as an open wound exposed to bacteria, exposure to unhealthy fumes from bogs, sewers, mass graves and trash dumps, or from something ingested, such as spoiled or poisoned food. These could be the result of failing too many challenges of a [Creative Test](#creative-test), or from a particularly nasty enemy's abilities.
 
-Most Illnesses have a duration, during which their effects are active and after which, all ill-effects go away. In some cases, an Illness may have a duration of "until cured", which means it will never go away, if not Treated. 
+Unless otherwise specified, a `D100` determines the suffered Illness from the [List Of Illnesses](#list-of-illnesses).
 
-Treatment of an Illness is possible through [Medicine](#medicine-agiwit) or [Surgery](#surgery-agiwit). Which Skill is required, will be noted on the Illness. Treatment will often be able to reduce the ill-effects and sometimes to remove the Illness, altogether. A treatment attempt can only be made once every `24` hours. 
+An Illness can only be suffered once, at a time. It may be suffered again later, but you could also expect that a certain level of immunity within the body has built up, after the previous time it was suffered through. A Character gains `+2D` to any Shrug-Off Test of an Illness they have suffered in the past. Make sure to note past Illnesses on your Character sheet for this reason. 
 
-Any Illness, when Treated, has its duration reduced, but only once. If a treatment would also suspend any ill-effects, that would still be applicable. That way, Treating an Illness which already had its duration reduced can still be useful. 
+#### Illness Recovery
+A `2D10 + 4` roll determines the number of **QoDs** the Illness takes to disappear. At the start of every QoD, increment its recovery progress by `+1`. This allows a Character to slowly recover on their own. 
 
-An Illness can only be suffered once, at a time. It may be suffered again later, but you could also expect that a certain level of immunity within the body has built up, after the previous time it was suffered through. A Character gains `+2D` to any [Toughness](#toughness-tough) [Test](#tests) for any Illness they have suffered in the past. Make sure to note past Illnesses on your Character sheet for this reason. 
+To speed recovery up, the Illness can be **Treated**. Before attempting Treatment for the first time, determine its **Treatment Ob**, via a `D4` roll. Then, if the Test is successful, increment the recovery progress by `+2`. Only one Treatment attempt may be made every [QoD](#quarters-of-a-day-qod), on a per-Character basis. **Every** Treatment attempt costs `1` [Medical Supplies](#general-assets). 
 
 ### Damage Types
-All Damage inflicted, is inflicted with one of these types, which dictate the type of [Injury](#injury) suffered when brought to `0` [HP](#health-points-hp). 
+All Damage is inflicted with one of these types, which dictate the type of [Injury](#injury) that is dealt. 
 
-| Damage Type | Description |
-| ----------- | ----------- |
-| Acid        | Dissolves anything it touches, depending on circumstance. |
-| Bleeding    | Inflicted by [Bleeding](#bleeding). The result of open wounds. |
-| Bludgeoning | Inflicted by blunt weapons and [Unarmed](#unarmed-combat-agistr) Attacks. Can cause a Character to fall [Unconscious](#unconscious), for that, see [Bludgeoned To 0 Hp](#bludgeoned-to-0-hp). |
-| Burning     | Inflicted by extreme heat. |
-| Electrical  | Inflicted by eletrical shock. |
-| Freezing    | Inflicted by extreme cold. |
-| Piercing    | Usually inflicted by any sort of stabbing weapon, like a spear, or an animal's stinger. |
-| Poison      | Inflicted over time, through imbibed or injected substances. |
-| Pure        | A special Damage type that **cannot be reduced in any way**. |
-| Slashing    | Usually inflicted by any sort of cutting/slashing weapon, like a blade, or a talon. |
+| Damage Type | Description                                                            | Treatment Skill              | Additional Penalty                          |
+| ----------- | ---------------------------------------------------------------------- | ---------------------------- | ------------------------------------------- |
+| Acid        | Dissolves anything it touches, depending on circumstance.              | [Medicine](#medicine-agiwit) | `-1` [AP](#action-points-ap) per Turn       |
+| Bleeding    | Inflicted by [Bleeding](#bleeding). The result of open wounds.         | [Medicine](#medicine-agiwit) | `+1` [Bleeding](#bleeding)                  |
+| Bludgeoning | Inflicted by blunt weapons and [Unarmed](#unarmed-combat-agistr) Attacks. Can cause a Character to fall [Unconscious](#unconscious), for that, see [Bludgeoned To 0 Hp](#bludgeoned-to-0-hp). | [Surgery](#surgery-agiwit)   | `+1` [Strain](#strain)           |
+| Burning     | Inflicted by extreme heat.                                             | [Surgery](#surgery-agiwit)   | `+1` [Burning](#burning)                    |
+| Electrical  | Inflicted by eletrical shock.                                          | [Medicine](#medicine-agiwit) | `+1` [Electrified](#electrified)            |
+| Freezing    | Inflicted by extreme cold.                                             | [Medicine](#medicine-agiwit) | `+1` [Frostbitten](#frostbitten)            |
+| Piercing    | Usually inflicted by any sort of stabbing weapon, like a spear, or an animal's stinger. | [Surgery](#surgery-agiwit)   | `+1` [Bleeding](#bleeding) |
+| Poison      | Inflicted over time, through imbibed or injected substances.           | [Medicine](#medicine-agiwit) | Flip a coin. On heads - `+1` [Berserk](#berserk), on tails - `+1` [Terrified](#terrified) |
+| Pure        | A special Damage type that **cannot be reduced in any way**.           | [Surgery](#surgery-agiwit)   | `+1` [Strain](#strain)                      |
+| Slashing    | Usually inflicted by any sort of cutting/slashing weapon, like a blade, or a talon. | [Medicine](#medicine-agiwit) | `+1` [Bleeding](#bleeding)     |
 
 ### Damage Resistances
 Some creatures can resist certain [Damage Types](#damage-types) naturally, while others may cover themselves in [Armor](#armor--shields) to the same effect. 
@@ -1821,13 +1804,13 @@ There are no limits to how many of a given card a player can own, but they may o
 | Cost    | Name                | Effect             |
 | ------- | ------------------- | ------------------ |
 | 2 MiFP  | Single Re-Roll      | Repeat a single Test you just made. |
-| 6 MiFP  | Clotter             | One Active [Injury](#injury) of choice is now Treated. |
+| 6 MiFP  | Clotter             | One Untreated [Injury](#injury) of choice is now Treated. |
 | 8 MiFP  | Cascading Re-Roll   | Repeat a single Test you just made. With this card, you keep any Hits you achieved from the previously made Test and add them to the Hits rolled when you repeat the Test. This also doubles your Hit Limit. Exclusive with "Double the Fun". |
 | 8 MiFP  | Hastened            | `+1` AP during your Turns for the entirety of a [Combat](#combat) encounter. |
 | 3 MaFP  | Double the Fun      | Double the number of dice to roll on your next/current Test and every rolled Hit counts double - which means every rolled Hit actually counts as `2` Hits! This also doubles your Hit Limit. Exclusive with "Cascading Re-Roll". |
 | 5 MaFP  | Fact Check          | Change a minor plot point in a way you prefer. Work with your GM to make sure it fits the narrative, but they should respect your wish. This could be something like avoiding an NPC death or changing a fact about the plot. |
 | 5 MaFP  | Just a Flesh Wound  | Avoid or remove an [Injury](#injury)! |
-| 1 AFP   | Defy Death          | Return from the dead, remove `1` Active [Injury](#injury) of choice and be at `1` HP; Alternatively, avoid a narratively-driven death. The GM will decide the Character's alternative fate. They could be captured, very badly injured or become indebted to someone or something. Note that this card can only be played *after* the Character lost their [battle with death](#deaths-door). |
+| 1 AFP   | Defy Death          | Return from the dead, remove `1` [Injury](#injury) of choice and be at `1` HP; Alternatively, avoid a narratively-driven death. The GM will decide the Character's alternative fate. They could be captured, very badly injured or become indebted to someone or something. Note that this card can only be played *after* the Character lost their [battle with death](#deaths-door). |
 | 1 AFP   | Retainer Boost      | Immediately advance `2` Attributes of a Retainer. |
 | 1 AFP   | Retainer Gainer     | Work with your GM to create a new Retainer who your Character will now be Mentor to. |
 
@@ -2617,8 +2600,8 @@ When looking up products for crafting, the tools and materials required for the 
 
 | Name                   | Bulk | Max. Stack Size | PI  | TI         | Crafting Ob | Description                                                              |
 | ---------------------- | ---- | --------------- | --- | ---------- | ----------- | ------------------------------------------------------------------------ |
-| Antidote               | 1    | 4               | 20  | 10 Minutes |             | This unassuming liquid can make the difference between life and death. Removes `Q` points of [Poisoned](#poisoned). If no points remain, instead immediately [Treats](#injury-states--treatment) an [Injury](#injury) caused by [Poison](#damage-types) |
-| Medical Supplies       | 1    | 5               | 20  | 10 Minutes |             | A small satchel of clean bandages, thread and needle for suturing, a clean and sharp knife, a splint and straps for binding. Is used in the [Treatment](#injury-states--treatment) of various [Injuries](#injury). |
+| Antidote               | 1    | 4               | 20  | 10 Minutes |             | This unassuming liquid can make the difference between life and death. Removes `Q` points of [Poisoned](#poisoned). If no points remain, instead immediately [Treats](#injury-treatment) an [Injury](#injury) caused by [Poison](#damage-types) |
+| Medical Supplies       | 1    | 5               | 20  | 10 Minutes |             | A small satchel of clean bandages, thread and needle for suturing, a clean and sharp knife, a splint and straps for binding. Is used in the [Treatment](#injury-treatment) of various [Injuries](#injury). |
 | Objet d'art            | 1    | 1               | 20  | 10 Minutes |             | A painting, sculpture or other art piece. |
 | Ration                 | 1    | 10              | 10  | 30 Minutes |             | A ration of preserved food and drink, enough for a whole day. |
 
@@ -2916,7 +2899,7 @@ This Skill may also find use in forensics, to identify poisons or the type of we
 #### Surgery (Agi/Wit)
 The ability to invasively treat ailments without making things worse for the patient. 
 
-Failing a Test of this Skill while treating a patient, causes the patient to suffer `N` [Slashing based Injuries](#injury--damage-type-table), where *N* is the number of Hits that were still needed to reach the Ob.
+Failing a Test of this Skill while treating a patient, causes the patient to suffer `N` [Slashing based Injuries](#damage-types), where *N* is the number of Hits that were still needed to reach the Ob.
 
 > Failing a Test at Ob `3`, by having achieved only `1` Hit, means the patient now suffers `+2` Injuries. 
 
@@ -3306,20 +3289,20 @@ An **Unconscious** Character is unable to act and is unaware of their surroundin
 * Difficult repeats: Whenever shrugging off this Condition, you become **guarded** against it until the start of your next Turn, making any Attack or effect enacted against you that would cause you to suffer it again `+1` Ob harder for your foes. 
 
 ## List of Illnesses
-| Range D100 | Name              | Duration          | Effect      | Treatment |
-| ---------- | ----------------- | ----------------- | ----------- | --------- |
-| 1 - 8      | Strength Sap      | `1D10 + 3` Days   | The muscles atrophy, despite any physical exercise. If not treated quickly, the victim will quickly find themselves unable to move, at all. `-1D4` [Strength](#strength-str); Max. `2` Squares movement. | [Medicine](#medicine-agiwit) Ob `1D4`; Reduces the duration by `2D4` days. |
-| 9 - 16     | Lung Fever        | `1D10 + 1` Days   | The victim finds themselves easily winded, even by simple acts, such as walking to the privy at night. `-(1D4 + 1)` [Toughness](#toughness-tough). | [Medicine](#medicine-agiwit) Ob `1`; The ill-effects are suspended for `24` hours. |
-| 17 - 24    | Water's Curse     | `1D10 + 1` Days   | The victim sweats uncontrollably and has watery stools, thus dehydrating rapidly and losing consciousness frequently. `-1D4` [Toughness](#toughness-tough); [Exhausted](#exhausted). | [Medicine](#medicine-agiwit) Ob `1D4`; Reduces the duration by `1D10` days and suspends the ill-effects for `24` hours. |
-| 25 - 32    | Jazz-Hands        | `1D10 + 3` Days   | The victim can't stop the tremors in their arms. Any action requiring precise movements is impossible. `-1D4` [Agility](#agility-agi). | [Medicine](#medicine-agiwit) Ob `1`; The ill-effects are suspended for `24` hours. |
-| 33 - 40    | Brain Rot         | `2D10` Days       | The victim's mind dulls. They find it difficult to form coherent thoughts. `-1D4` [Wit](#wit-wit). | [Medicine](#medicine-agiwit) Ob `1`; The ill-effects are suspended for `24` hours. |
-| 41 - 48    | Feeble Tounge     | `1D10 + 3` Days   | The tounge flops and waggles around uncontrollably. Speech is impaired. `-1D4` [Wit](#wit-wit). | [Medicine](#medicine-agiwit) Ob `1D4`; Reduces the duration by `2D4` days. |
-| 49 - 56    | Wound Fever       | Until cured       | [Injuries](#injury) of the victim refuse *any* **treatment**. | [Medicine](#medicine-agiwit) Ob `2`; Sets the duration to `1D10` days. |
-| 57 - 64    | Filth Fever       | `1D10 + 1` Days   | The victim coughs uncontrollably and violently, with awful-smelling breath. `-1D4` [Toughness](#toughness-tough). | [Medicine](#medicine-agiwit) Ob `1D4 + 1`; Removes the illness on the next day. |
-| 65 - 80    | Coldness of Heart | `1D10 + 1` Days   | The victim feels distant, as if they were only spectators in their own body. `-1D4` [Awareness](#awareness-awar). | [Medicine](#medicine-agiwit) Ob `1D4`; Reduces the duration by `2D4` days. |
-| 81 - 88    | Rot Plague        | `4D10` Days       | The skin starts developing a nasty rash, before flaking off. Not only unsightly, the bare flesh underneath smells like it's rotting. `-(1D4 + 1)` [Toughness](#toughness-tough). | [Surgery](#surgery-agiwit) Ob `2`; The ill-effects are suspended for `24` hours. |
-| 89 - 95    | Organ Mold        | Until cured       | Causes an [Injury](#injury) every day it is active. | [Surgery](#surgery-agiwit) Ob `1D4 + 1`; The illness is removed within a day. |
-| 96 - 100   | Red Death         | Until cured       | The victim starts bleeding from all of their orifices, with no end in sight. Causes `3` points of [Bleeding](#bleeding) every day it is active. | [Surgery](#surgery-agiwit) Ob `2`; The illness is removed within a day. |
+| Range D100 | Name              | Treatment Skill | Description |
+| ---------- | ----------------- | --------------- | ----------- |
+| 1 - 8      | Strength Sap      | The muscles atrophy, despite any physical exercise. If not treated quickly, the victim will quickly find themselves unable to move, at all. `-1D4` [Strength](#strength-str); Max. `2` Squares movement. | [Medicine](#medicine-agiwit) Ob `1D4`; Reduces the duration by `2D4`. |
+| 9 - 16     | Lung Fever        | The victim finds themselves easily winded, even by simple acts, such as walking to the privy at night. `-(1D4 + 1)` [Toughness](#toughness-tough). | [Medicine](#medicine-agiwit) Ob `1`; The ill-effects are suspended for `24` hours. |
+| 17 - 24    | Water's Curse     | The victim sweats uncontrollably and has watery stools, thus dehydrating rapidly and losing consciousness frequently. `-1D4` [Toughness](#toughness-tough); [Exhausted](#exhausted). | [Medicine](#medicine-agiwit) Ob `1D4`; Reduces the duration by `1D10` and suspends the ill-effects for `24` hours. |
+| 25 - 32    | Jazz-Hands        | The victim can't stop the tremors in their arms. Any action requiring precise movements is impossible. `-1D4` [Agility](#agility-agi). | [Medicine](#medicine-agiwit) Ob `1`; The ill-effects are suspended for `24` hours. |
+| 33 - 40    | Brain Rot         | The victim's mind dulls. They find it difficult to form coherent thoughts. `-1D4` [Wit](#wit-wit). | [Medicine](#medicine-agiwit) Ob `1`; The ill-effects are suspended for `24` hours. |
+| 41 - 48    | Feeble Tounge     | The tounge flops and waggles around uncontrollably. Speech is impaired. `-1D4` [Wit](#wit-wit). | [Medicine](#medicine-agiwit) Ob `1D4`; Reduces the duration by `2D4` days. |
+| 49 - 56    | Wound Fever       | [Injuries](#injury) of the victim refuse *any* **treatment**. | [Medicine](#medicine-agiwit) Ob `2`; Sets the duration to `1D10` days. |
+| 57 - 64    | Filth Fever       | The victim coughs uncontrollably and violently, with awful-smelling breath. `-1D4` [Toughness](#toughness-tough). | [Medicine](#medicine-agiwit) Ob `1D4 + 1`; Removes the Illness on the next QoD. |
+| 65 - 80    | Coldness of Heart | The victim feels distant, as if they were only spectators in their own body. `-1D4` [Awareness](#awareness-awar). | [Medicine](#medicine-agiwit) Ob `1D4`; Reduces the duration by `2D4` days. |
+| 81 - 88    | Rot Plague        | The skin starts developing a nasty rash, before flaking off. Not only unsightly, the bare flesh underneath smells like it's rotting. `-(1D4 + 1)` [Toughness](#toughness-tough). | [Surgery](#surgery-agiwit) Ob `2`; The ill-effects are suspended for `24` hours. |
+| 89 - 95    | Organ Mold        | Causes an [Injury](#injury) every QoD it is active. | [Surgery](#surgery-agiwit) Ob `1D4 + 1`; The Illness is removed within a QoD. |
+| 96 - 100   | Red Death         | The victim starts bleeding from all of their orifices, with no end in sight. Causes `2` points of [Bleeding](#bleeding) every QoD it is active. | [Surgery](#surgery-agiwit) Ob `2`; The Illness is removed within a QoD. |
 
 ## List of Mutations
 One should always keep in mind that despite the game mechanical effects of a mutation, the appearance of an affected individual will also be severly altered. Other Characters and creatures may react with disgust, fear, disdain, pity, and so on. 
