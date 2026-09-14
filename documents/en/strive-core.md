@@ -201,6 +201,7 @@ By using STRIVE (that includes but is not limited to viewing, reading, referenci
     - [Stamina \& Strain](#stamina--strain)
       - [Stamina](#stamina)
       - [Strain](#strain)
+      - [Recovering Stamina \& Reducing Strain](#recovering-stamina--reducing-strain)
     - [Condition](#condition)
     - [Illness](#illness)
     - [Damage Types](#damage-types)
@@ -251,6 +252,8 @@ By using STRIVE (that includes but is not limited to viewing, reading, referenci
 - [Time-Management](#time-management)
   - [Quarters of a Day (QoD)](#quarters-of-a-day-qod)
   - [Resting](#resting)
+    - [Recovery](#recovery)
+    - [Staying On Watch](#staying-on-watch)
   - [Initiative Order](#initiative-order)
     - [Delaying Your Turn](#delaying-your-turn)
     - [Surprise Round](#surprise-round)
@@ -567,7 +570,8 @@ As STRIVE is meant primarily as a rule-book to help you quickly find what you ne
 | [Aspiration](#aspiration)                                   | A Character's secondary and more immediate goal, based on recent events. |
 | [Asset](#assets)                                            | A *thing* that a Character may own and/or carry on person. May also be an uncarriable piece of Property, such as a castle. |
 | [Assurance](#quirk)                                         | A PC's Quirk that ensures the PC may enter a given troublesome situation under more favorable circumstances. |
-| [Attack Modifier](#weapon-traits)                           | Modifies an Attack's Profile. |
+| [Attack Modifier](#weapon-traits)                           | Modifies an [Attack's Profile](#damage--effects). |
+| [Attack Profile](#damage--effects)                          | The three graded Damage and effect definitions of an Attack. |
 | [Attack Test](#attacking)                                   | A Test made to harm or hinder another Character. |
 | [Attacker](#attacking)                                      | A Character performing some Action that targets another. The distinction whether this is a hostile or benign action does not matter. |
 | [Attribute](#attributes)                                    | A Character's most basic ability. Its Level dictates the base number of dice available for a Test. |
@@ -584,7 +588,6 @@ As STRIVE is meant primarily as a rule-book to help you quickly find what you ne
 | [Carrying Capacity](#carrying-capacity)                     | Limits how much a Character can carry on-person. |
 | [Character Trait](#character-traits)                        | A unique aspect of a Character, such as an exclusive ability or Title of Renown. |
 | [Combat](#combat)                                           | The state the game enters when a fight breaks out. Time is finely sliced and Characters act in Turns, with a limited number of actions they may take. |
-| [Edge](#edge)                                               | A countable, temporary resource that grants a temporary **advantage to achieve Hits** in a Test and temporarily **raises the** [**Hit Limit**](#testing-a-skill) by `+1`, for each Edge. |
 | [Concentration](#concentration)                             | A Skill or Expertise whose effects last as long as desired, but which could be interrupted. |
 | [Condition](#condition)                                     | A positive or negative effect affecting a Character. |
 | [Core Attribute](#core-favored-normal--penalized-attributes)| An Attribute that is easier to Advance. |
@@ -597,7 +600,6 @@ As STRIVE is meant primarily as a rule-book to help you quickly find what you ne
 | [D4](#dice)                                                 | A four-sided die        |
 | [D6](#dice)                                                 | A six-sided die         |
 | [D8](#dice)                                                 | An eight-sided die      |
-| [Attack Profile](#damage--effects)                          | The three graded Damage and effect definitions of an Attack. |
 | [Damage Type](#damage-types)                                | All Damage falls into one of the Damage Types, which also determines the type of Injury such Damage may cause. |
 | [Damage](#damage--effects)                                  | Damage is the number that reduces [HP](#health-points-hp), as a result of Attacks or environmental hazards. |
 | [Death's Door](#deaths-door)                                | A Condition only PCs can have. This is their final battle with death. |
@@ -613,6 +615,7 @@ As STRIVE is meant primarily as a rule-book to help you quickly find what you ne
 | [Down-Time](#time-management)                               | Down-Time has time flowing fairly rapidly, as events unfold on an abstract level. |
 | [Drivers](#drivers)                                         | Refers to a Character's Ambition, Aspirations and Quirks - goals to work towards and automatic triggers to get them into trouble. |
 | [Drug-Addicted](#drug-addicted)                             | A Condition that forces a Character to act compulsively. |
+| [Edge](#edge)                                               | A countable, temporary resource that grants a temporary **advantage to achieve Hits** in a Test and temporarily **raises the** [**Hit Limit**](#testing-a-skill) by `+1`, for each Edge. |
 | [Electrified](#electrified)                                 | A Condition that forces a Character to spasm uncontrollably and thus be Force-Moved. |
 | [Exhausted](#exhausted)                                     | A Condition that Character suffer when they exert themselves too much. It makes them lethargic and their Tests harde to succeed. |
 | [Experience Point(s) (XP)](#experience-points-xp)           | Allows unrestricted Character Advancement. |
@@ -630,6 +633,7 @@ As STRIVE is meant primarily as a rule-book to help you quickly find what you ne
 | [Game-Master (GM)](#introduction)                           | The person running the game. |
 | [Glancing Success](#test-success-ratings)                   | A fairly weak success of a Test. |
 | [Graduated Test](#graduated-test)                           | A Test with a gradation of success or failure. Mostly finds use in crafting. |
+| [Granular-Time](#time-management)                           | Has time flowing very slowly, sometimes even on a moment-by-moment basis and may, use [Initiative Order](#initiative-order) to allocate time slices. |
 | [Grappled](#grappled)                                       | A Condition for a Character in another's grip. The Grappled Character can not move of their own volition and counts as Flanked to one additional degree. |
 | [Grit Point](#grit-points)                                  | A one-time resource that is earned through Injuries, which can be spent as a last-ditch effort to turn the wheel of fate around. |
 | [Hand Of Fate](#hand-of-fate)                               | Refers to the game's selection of available Fate-Cards. |
@@ -675,12 +679,12 @@ As STRIVE is meant primarily as a rule-book to help you quickly find what you ne
 | [Passive](#actions-reactions--passives)                     | An effect that is always active (when a defined condition is met). |
 | [Penalized Attribute](#core-favored-normal--penalized-attributes)| An Attribute that is much harder to Advance. |
 | [Penalty](#boons--penalties)                                | A negative effect on a Character, for example one that reduces the dice available for Tests. |
-| [Precise](#precise)                                         | A Weapon Trait that indicates a weapon is more effective. |
 | [Personality](#personality)                                 | Describes a Character's desires and ways of thinking. |
 | [Player Character (PC)](#introduction)                      | The type of Character that players are in control of. |
 | [Poison-Chamber](#poison-chamber)                           | A Weapon Trait that indicates a weapon deals additional Poison Damage. |
 | [Poisoned](#poisoned)                                       | A Condition that causes Poison Damage every Tick. |
 | [Practice](#practice)                                       | During Down-Time, Characters may practice for Advancement Progress. |
+| [Precise](#precise)                                         | A Weapon Trait that indicates a weapon is more effective. |
 | [Prefer Range](#prefer-range)                               | A Weapon Trait that indicates a weapon is harder to use against adjacent targets. |
 | [Primary Damage](#damage--effects)                          | The most significant [Damage Type](#damage-types) of an [Instance of Damage](#damage--effects) **after** Armor and Resistances are applied. |
 | [Progress Increment (PI)](#progressing-a-project)           | Determines how much work a Project takes. |
@@ -693,6 +697,7 @@ As STRIVE is meant primarily as a rule-book to help you quickly find what you ne
 | [Pull](#forced-movement)                                    | Forces a Character closer to another. |
 | [Push Through Action](#push-through)                        | A Character may choose to move despite suffering an Opportunity Attack. |
 | [Quality Level](#crafting--research-projects)               | A numeric value that describes the quality of an Asset or Project. |
+| [Quarter of a Day (QoD)](#quarters-of-a-day-qod)            | Each day is divided into four Quarters: **Night**, **Dawn**, **Midday**, and **Dusk**. Each Quarter lasts approximately six hours. |
 | [Quirk](#quirk)                                             | Part of a Character's Drivers and always triggers when some defined condition is met, to get the Character in trouble or grant them an assurance. |
 | [Range of Opportunity](#opportunity-attacks)                | The zone around a Character that lets them launch Opportunity Attacks as a Reaction to foes moving around or away from them. |
 | [Range Only](#range-only)                                   | A Weapon Trait that indicates a weapon cannot be used against adjacent targets. |
@@ -703,7 +708,6 @@ As STRIVE is meant primarily as a rule-book to help you quickly find what you ne
 | [Round](#initiative-order)                                  | A Round comprises all Turns of Characters currently in Initiative Order. When all Characters have had their Turn, a Round is concluded and the next Round begun. |
 | [Rounded Down (RD)](#rounded-up--rounded-down)              | Indicates a step or result of a calculation is supposed to be rounded down. |
 | [Rounded Up (RU)](#rounded-up--rounded-down)                | Indicates a step or result of a calculation is supposed to be rounded up. |
-| [Granular-Time](#time-management)                           | has time flowing very slowly, sometimes even on a moment-by-moment basis and may, use [Initiative Order](#initiative-order) to allocate time slices. |
 | [Serrated](#serrated)                                       | A Weapon Trait that indicates a weapon deals additional Bleeding Damage. |
 | [Signature Virtues / Vices](#virtues--vices)                | Describes a Character's way of thinking and how they *will* act, in general. In fact, they are *known* to be this way! |
 | [Single Target (ST)](#single-target-st)                     | Indicates an Attack will only affect a single target. This can be a Character or object. |
@@ -715,9 +719,9 @@ As STRIVE is meant primarily as a rule-book to help you quickly find what you ne
 | [Sprinting Speed / Sprint](#sprinting-speed-sprint)         | Can extend a Character's movement per AP, at the cost of Stamina. |
 | [Square](#distances--the-grid)                              | A single field of an encounter or overworld map, representing a `1m`/`3'` or `10km`/`6 mile` square, respectively. |
 | [Stability (Stab)](#stability-stabil)                       | Counter-acts Forced Movement. |
-| [Stamina](#stamina--strain)                                 | A resource that represents a Character's capacity for exhausting actions and allows usage of certain abilities until it is depleted. |
+| [Stamina](#stamina--strain)                                 | Stamina is a numeric resource that lets a Character endure physical and mental taxation. |
 | [Stepped Test](#stepped-test)                               | A Test that allows failing forward or offers multiple chances at recovery from a critical blunder. |
-| [Strain](#stamina--strain)                                  | Reduces maximum Stamina. |
+| [Strain](#strain)                                           | Strain is a measure of a Character's extreme physical and mental exertions and **reduces the Stamina maximum**. For each point of Strain, the Stamina maximum is reduced by an equal amount. |
 | [Strength (Str)](#strength-str)                             | An Attribute that describes a Character's physical strength. Finds use in determining Carrying Capacity. |
 | [Stunned](#stunned)                                         | A Condition that prevents a Character from acting at all, during their Turn. |
 | [Surprise Round](#surprise-round)                           | The first Round of Combat, when one side of the conflict are surprised and at a severe disadvantage in the beginning of the fight. |
@@ -1070,7 +1074,7 @@ For every `2` Levels in this Attribute, past Level `2` (i. e. starting at Level 
 
 For every Level in Toughness, a Character...
 * ...gains `+10` [maximum HP](#health-points-hp). All PCs have `10` base HP. 
-* ...raises their [maximum Stamina](#stamina--strain) by `+2`. 
+* ...raises their [maximum Stamina](#stamina) by `+2`. 
 * ...gains around `3` minutes of holding their breath. 
 * ...gains one additional die with which to try and Shrug Off an [Injury](#injury).
 
@@ -1174,7 +1178,7 @@ There are three types of Expertise:
 
 All Expertises note a required Level of their Owning Skill. Once the Skill reaches *that* Level, the Expertises of that Level unlock automatically. Only unlocked Expertises may be used. 
 
-Expertises may cost a variable amount of [AP](#action-points-ap) to activate. A cost of `0` implies the Expertise is free and can potentially be repeated multiple times in a single Turn. However, other limitations may apply. [Stamina](#stamina--strain) costing Expertises **may not be used** if out of Stamina!
+Expertises may cost a variable amount of [AP](#action-points-ap) to activate. A cost of `0` implies the Expertise is free and can potentially be repeated multiple times in a single Turn. However, other limitations may apply. [Stamina](#stamina) costing Expertises **may not be used** if out of Stamina!
 
 An Ob may be noted on an Expertise. In order to activate it, a Test of the Owning Skill, at the noted Ob, must succeed. 
 
@@ -1412,7 +1416,7 @@ A [Graduated](#graduated-test) [Medicine](#medicine-agiwit) Test can restore `hi
 
 > For `3` hits out of `7` rolled dice, a medic can restore `3D8` HP for themselves or an ally. 
 
-HP also replenish on their own, albeit much slower. For every hour outside of combat, `1D4` HP are regained, up to the current maximum. 
+During a [Partial Rest](#resting), once per [QoD](#quarters-of-a-day-qod), up to `10` HP may be regained. A [Full Rest](#resting) always replenishes up to `30` HP. 
 
 #### Bludgeoned to 0 HP
 When a Character is bludgeoned to `0` [HP](#health-points-hp), they might survive and fall [Unconscious](#unconscious), instead of dying. For that, they must succeed a [Toughness](#toughness-tough) [Test](#tests) at Ob `3`. If they fail, they die, after all.
@@ -1483,7 +1487,7 @@ A `2D10 + 10` roll determines the number of **days** the Injury takes to fully h
 | ----------- | ---------------------------- | -------------------------------- |
 | Acid        | [Medicine](#medicine-agiwit) | `-1` [AP](#action-points-ap) per Turn |
 | Bleeding    | [Medicine](#medicine-agiwit) | `+1` [Bleeding](#bleeding)       |
-| Bludgeoning | [Surgery](#surgery-agiwit)   | `+1` [Strain](#stamina--strain)  |
+| Bludgeoning | [Surgery](#surgery-agiwit)   | `+1` [Strain](#strain)           |
 | Burning     | [Surgery](#surgery-agiwit)   | `+1` [Burning](#burning)         |
 | Electrical  | [Medicine](#medicine-agiwit) | `+1` [Electrified](#electrified) |
 | Freezing    | [Medicine](#medicine-agiwit) | `+1` [Frostbitten](#frostbitten) |
@@ -1500,31 +1504,35 @@ Every time a Character suffers an Injury, they gain `+1` Grit Point. These are a
 You may spend Grit Points at any time during a Round for the following effects (but only one Grit Point per effect, per Round): 
 * On a [Test](#tests), gain `+2D`. 
 * On a [Test](#tests), gain `+1` [Edge](#edge). 
-* Increase [Stamina](#stamina--strain) by `1D4`. 
+* Increase [Stamina](#stamina) by `1D4`. 
+* Reduce [Strain](#strain) by `1`. 
 * On your next successful Attack, deal `+8` points of [Pure Damage](#damage-types). 
 * Gain `+1D4` [AP](#action-points-ap). 
 
 ### Stamina & Strain
 
 #### Stamina
-<img src="../../img/stamina.svg" style="width: 3rem; height: 3rem;"> **Stamina** is a numeric measure of a Character's maximum **physical and mental strain** they can safely endure. It may go into the negatives, and may not exceed your **maximum Stamina**.
+<img src="../../img/stamina.svg" style="width: 3rem; height: 3rem;"> **Stamina** is a numeric resource that lets a Character endure physical and mental taxation.
 
 For every point in [Toughness](#toughness-tough), your **maximum Stamina** raises by `+2`.
 
 > At Toughness `1`, you have a maximum Stamina of `2`. At Toughness `3`, you have a maximum Stamina of `6`. 
 
-If a Character's Stamina reaches **negative numbers**, they become [Exhausted](#exhausted) from over-exertion. While Exhausted, a Character losing further Stamina, must succeed a [Self-Control](#self-control-toughwit) [Test](#tests) at Ob equal to their current degree of negative Stamina, or else fall [Unconscious](#unconscious). Also, it becomes impossible to use *any* Action or Reaction that would cost further Stamina!
-
-`+1` point of Stamina is regained for every **hour of uninterrupted rest**. Once Stamina is **no longer negative**, the Exhausted [Condition](#condition) is removed, automatically. 
-
-> If a Character has `-3` Stamina, then they must rest for at least `3` hours to clear their Exhausted Condition.  
+Stamina can go into **negative numbers**! When that happens, the Character becomes [Exhausted](#exhausted) from over-exertion. While Exhausted, a Character further losing Stamina, must succeed a [Self-Control](#self-control-toughwit) [Test](#tests) at Ob equal to their current degree of negative Stamina, or else fall [Unconscious](#unconscious). An Exhausted Character can also no longer perform *any* Action or Reaction that would cost Stamina!
 
 #### Strain
-<img src="../../img/strain.svg" style="width: 3rem; height: 3rem;"> **Strain** is a measure of a Character's **current constant** physical and mental strain and **reduces your maximum Stamina**. 
+<img src="../../img/strain.svg" style="width: 3rem; height: 3rem;"> **Strain** is a measure of a Character's extreme physical and mental exertions and **reduces the Stamina maximum**. For each point of Strain, the Stamina maximum is reduced by an equal amount. 
 
-Strain is gained from particularly exhausting equipment, suffering through extreme weather or performing particularly exhausting actions. Strain gained from exhausting equipment can be reduced by dropping the equipment in question. Strain gained through other sources may be cleared by a [Full Rest](#resting), but only if no other restrictions apply. 
+Strain is gained from particularly exhausting equipment, or suffering through extreme exertions, such as performing particularly exhausting Actions or Reactions.
 
 > A Character with Toughness `3` has `6` maximum Stamina. But they are wearing heavy armor that puts `+2` Strain on them. Thus, their effective maximum Stamina is only `4`!
+
+#### Recovering Stamina & Reducing Strain
+Once per [QoD](#quarters-of-a-day-qod), during a [Partial Rest](#resting), Characters may replenish up to `3` Stamina, while reducing Strain by `1`. A [Full Rest](#resting) always replenishes `12` Stamina, while reducing Strain by `6`. 
+
+Once Stamina is **no longer negative**, the Exhausted [Condition](#condition) is removed, automatically. 
+
+Strain gained from exhausting equipment can only be reduced by dropping the equipment in question. 
 
 ### Condition
 A Character can have positive or negative effects on them, represented by Conditions. They can have any number of Conditions applying to them simultaneously. 
@@ -1843,6 +1851,12 @@ All creatures that can be tired, require sleep. Some [Conditions](#condition) ca
 
 An interruption of a Full Rest is any break in the rest, when a Character is forced to do something physically or mentally taxing that keeps them from sleep. If in doubt - a Test is almost always going to be taxing in some way.
 
+### Recovery
+Once per [QoD](#quarters-of-a-day-qod), during a [Partial Rest](#resting), Characters may replenish up to `12` [HP](#health-points-hp) and `3` [Stamina](#stamina), while reducing [Strain](#strain) by `1`. 
+
+A [Full Rest](#resting) always replenishes up to `30` HP and `10` Stamina, while reducing Strain by `6`. 
+
+### Staying On Watch
 Whenever resting in an **unsafe environment**, such as out in the wild or on a city's streets, animals, bandits or monsters - given the setting and narrative allow for it - might surprise any resting Characters. Therefore, it is advisable to set up a watch. But be careful - those on watch could fall asleep during their vigil! To determine whether they succumb to their own exhaustion, they must Test their [Self-Control](#self-control-toughwit) once, at the beginning of their watch. The Ob is equal to `3`, plus their current negative [Stamina](#stamina--strain), if they have any. If multiple Characters stay up for the watch at the same time, they can help each other stay awake, reducing the Ob by `-1` for each who stay awake. The Ob to stay awake can never be reduced to less than `1`. 
 
 > A Character with current Stamina of `-1` is tasked with standing watch one night. In order to avoid falling asleep, they must succeed a Self-Control Test at Ob `3 (always) + 1 (negative Stamina) = 4`. 
