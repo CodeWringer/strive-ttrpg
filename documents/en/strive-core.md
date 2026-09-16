@@ -250,19 +250,19 @@ By using STRIVE (that includes but is not limited to viewing, reading, referenci
   - [Project Classification](#project-classification)
     - [Trivial Project](#trivial-project)
     - [Complex Project](#complex-project)
+      - [Research Projects](#research-projects)
+      - [Invention Projects](#invention-projects)
   - [Progressing a Project](#progressing-a-project)
     - [Pushing On](#pushing-on)
+      - [Project Complications](#project-complications)
+      - [Project Events](#project-events)
     - [Advancement Through Projects](#advancement-through-projects)
+    - [Project Boosters](#project-boosters)
   - [Determining Work-Rate](#determining-work-rate)
   - [Determining Progress Increment](#determining-progress-increment)
-  - [Project Boosters](#project-boosters)
+  - [Quality Level Reference](#quality-level-reference)
   - [Crafting It Again](#crafting-it-again)
     - [Crafting It In Batches](#crafting-it-in-batches)
-  - [Research Projects](#research-projects)
-  - [Invention Projects](#invention-projects)
-  - [Project Complications](#project-complications)
-  - [Quality Level Reference](#quality-level-reference)
-  - [Project Events](#project-events)
 - [Trade](#trade)
   - [Appraisal](#appraisal)
   - [Seller's Chart](#sellers-chart)
@@ -1921,6 +1921,25 @@ A **Complex Project** is a longer-term activity, that comes with significant cha
 
 [Progress](#progressing-a-project) is tracked and one or more Project Rolls deterime the final Quality of the product. 
 
+#### Research Projects
+A Project can be about the research of obscure knowledge - not mundane, common knowledge. You must visit various libraries, study dusty old tomes or comb countless digital archives, go on archeological digs and question other scholars. This is a task requiring substantial effort. 
+
+The Quality Level you achieve in the end dictates the degree of knowledge you learned about your subject. You may always try to gain even deeper understanding of your topic, by researching the same subject matter again. Your previous knowledge will accelerate further studies by `N * 2`, where *N* is your current degree of knowledge, every time you gain a Progress Increment.
+
+As a prerequisite to begin your studies, you must have access to the number of research objects as listed below. This can be anything, from old scrolls to data sticks, from shattered pieces of ancient machinery to intact but completely alien devices and even NPCs who hold knowledge they might be willing to share. 
+
+| Obscurity    | Quality Level | Research Objects | Description | 
+| ------------ | ------------- | ---------------- | ----------- | 
+| Common       | 1 - 2         | 0                | Common knowledge can be easily researched. Even so, it's not so common that everyone knows it already. It may still take some effort to find the right pieces of writing or piece together what you need from questioning several other people. |
+| Specialized  | 3 - 4         | 1                | Only few individuals have deeper knowledge regarding the topic you seek to understand. Only few pieces of writing even make note of your topic. It will require substantial effort to track down sources of knowledge and then puzzle the pieces together. |
+| Obscure      | 5 - 6         | 2                | Barely anyone, if anyone at all, even knows of this esoteric subject. Tracking down anyone with knowledge will be a considerable challenge. And whatever writing exists, may be stowed away, hidden in private collections, not easily accessible and not easily parted with. And even if access to these sources of knowledge can be secured, making sense of it all will be a challenge. |
+| Unfathomable | 7 - 8+        | 3                | No one alive still knows anything about this subject. Whatever writing may exist, is manifested in a long dead language, on a medium hidden in a remote and forgotten place. Even if you find this remnant of knowledge, how could you possibly make sense of it? |
+
+When you finish the research Project, you'll have the answers you seek and may gain the title "Loremaster of *X* (degree)", where you replace *X* with the subject you researched and *degree* with the Quality Level. 
+
+#### Invention Projects
+As a difference to regular Projects, whenever you choose to Push On, you may also get a less effective prototype of your invention, if you score a Hit on a single `D6` roll, at the GM's discretion. Your prototype receives the Project's current Quality Level. 
+
 ## Progressing a Project
 Every [non-Trivial Project's](#trivial-project) **Progress** is tracked numerically. All Progress begins at `0` and is increased through use of a particular [Skill](#skills) (further called the **Project Skill**). When its current Progress reaches the **Total Required Progress**, the Project may complete, or be continued. 
 
@@ -1937,8 +1956,43 @@ You can continue this cycle any number of times, but if you **fail twice in succ
 
 When you Push On, the GM may choose to employ a [Project Event](#project-events), possibly even instead of a Complication. Project Events should be an occasional occurrence at best, employed only for long-lasting and significant Projects, to shake things up a bit when appropriate. 
 
+#### Project Complications
+When accepting a random Complication for a Project, roll for one of the results from the table below.
+
+| D4 | Complication |
+| -- | ------------ |
+| 1  | **Blockade**: you realize you need to fulfill another prerequisite to continue your work. Consult your GM. |
+| 2  | **Drawback**: once finished, the result of your Project will contain a drawback. E. g. it might not work reliably, require more fuel, take longer to use, be so complicated only an expert can use it or only works in conjunction with another highly specific thing. Consult your GM. |
+| 3  | **Overthinking it**: from now on, every time you Push On, the Progress Increment increases by another `10` points! |
+| 4  | **Work-Accident**: in a moment of carelessness, you hurt yourself, accidentally. You suffer an [Injury](#injury)! Consult your GM to determine which. |
+
+#### Project Events
+Project Events are random events that may occur during long-lasting, significant Projects. The details of these should be reserved for the GM's eyes, only. 
+
+| D12  | Event |
+| ---- | ----- |
+| 1    | A thief enters the place the Project is kept, at night, seeking to steal the Project or components thereof. But someone notices them. Can the thief be stopped in time? |
+| 2    | A competitor appears, under pretense of offering help, but in truth seeking to sabotage the Project. But they might go about it clumsily, allowing the PC some time to react. |
+| 3    | A competitor appears, offering help, but for a price. Perhaps not simply for money, but for the PC to let them take all the credit for the product or to lend the product to the competitor, for a time. Or perhaps they ask help, in return. |
+| 4    | A competitor appears, offering help and in turn begging the PC for help. The competitor screwed with the wrong people and their life is now in danger! Will the PC help? |
+| 5    | A NPC arrives, offering help, for a price. They are willing to add `+10` Progress the next time Progress is added. |
+| 6    | A NPC arrives, offering help, but is also in need of help, themself. They are willing to add `+10` Progress the next time Progress is added and after that, the PC is required to come help. |
+| 7    | An anonymous piece of writing found its way into the PC's belongings. It offers solid advice on the Project, instantly boosting the Project by `+15` points of Progress. But who could the mysterious benefactor be? And why? |
+| 8    | Suddenly, monsters or pests surprise the PC, assaulting them! If not dispatched quickly, they will damage the Project, causing a loss of half the current Progress! |
+| 9    | The PC is overcome with a burst of inspiration! They instantly gain `+15` points of Progress! This causes them to work feverishly, neglecting their own well-being. They start the next scenario with `+1` [Strain](#stamina--strain)! |
+| 10   | A group of NPCs appear and demand the Project be stopped! Out of superstition or fear, they don't want the PC to succeed. Can they be pacified? |
+| 11   | A NPC who the PC helped in the past appears, offering to help on the Project. Surprisingly, they know exactly what to do, boosting the Project by `+10` points of Progress. |
+| 12   | After so much time on the Project, the PC digs themself into a hole, mentally. They can no longer make sense of their own work and someone else has to help them regain their footing in the Project. The helper needs to make the next Project Skill Test. |
+
 ### Advancement Through Projects
 You get [Advancement Progress](#advancement) (but no [XP](#experience-points-xp)) for every `5` points of Progress made! If your Project requires less than `5` points, then take that number, instead. Re-evaluate this threshold after you **Push On** for the first time. Assistants to Projects instead earn `+1` [XP](#experience-points-xp). 
+
+### Project Boosters
+During their adventures, or while perusing the market or library, PCs may find things that can boost the Progress of their Project. These **Project Boosters** can be varied - schematics, specialized tools, a rare artefact, advice from a knowledgeable NPC, and similar. But they always either increase the Project's current Progress or Quality Level. The latter boost is especially powerful. 
+
+These things can add Progress to a Project or raise the Quality Level. How much they boost the Project, will be determined by the GM. A good baseline should be that a common Project Booster adds `+8`, a rare adds `+12` and an enigmatic adds `+25`. But of course, these numbers are only suggestions. Project Boosters that increase Quality Level should be very rare and most valuable. Acquiring them should be an adventure of its own, or the reward for great deeds well performed. 
+
+Typically, Project Boosters are one-time use. Once they have been used to add Progress to the Project, they cannot be used again. However, this is not a hard-set rule. Some things, like a magic cauldron or high-tech lab equipment may of course be used again, provided no narrative reasons forbid it. But perhaps these things may be limited to once a day, or week, or whatever time unit works best for you. 
 
 ## Determining Work-Rate
 There are two axes that determine Work-Rate:
@@ -1982,12 +2036,16 @@ Walk through the following table twice. Once for Complexity and once for Logisti
 > Making chainmail armor: Simple Complexity, Simple Logistics -> Progress Increment `8`<br>
 > Building an airship: Specialized Complexity, Specialized Logistics -> Progress Increment `18`
 
-## Project Boosters
-During their adventures, or while perusing the market or library, PCs may find things that can boost the Progress of their Project. These **Project Boosters** can be varied - schematics, specialized tools, a rare artefact, advice from a knowledgeable NPC, and similar. But they always either increase the Project's current Progress or Quality Level. The latter boost is especially powerful. 
+## Quality Level Reference
+How much is a Quality Level worth? This will ultimately be up to the GM to estimate, but the table below may provide guidance.
 
-These things can add Progress to a Project or raise the Quality Level. How much they boost the Project, will be determined by the GM. A good baseline should be that a common Project Booster adds `+8`, a rare adds `+12` and an enigmatic adds `+25`. But of course, these numbers are only suggestions. Project Boosters that increase Quality Level should be very rare and most valuable. Acquiring them should be an adventure of its own, or the reward for great deeds well performed. 
-
-Typically, Project Boosters are one-time use. Once they have been used to add Progress to the Project, they cannot be used again. However, this is not a hard-set rule. Some things, like a magic cauldron or high-tech lab equipment may of course be used again, provided no narrative reasons forbid it. But perhaps these things may be limited to once a day, or week, or whatever time unit works best for you. 
+| Quality Level | Description |
+| ------------- | ----------- |
+| 1             | A simple and plain product. It serves its purpose, albeit not well. Made by a beginner. |
+| 2 - 3         | An adequate product. It fulfills its function and is ergonomic. A routine work. |
+| 4 - 5         | A well made and decorated product, potent and respectable. An adept's work. |
+| 6 - 7         | An exceptionally well made product. Highly potent, potentially with multiple functions. An expert's work. |
+| 8+            | A legendary product. Its potency and function may even be fantastical - something never before seen! A true master of their craft made this. |
 
 ## Crafting It Again
 Whenever a Crafting or [Invention](#invention-projects) Project is finished, its product becomes the **Recipe** for further Crafts of **identical products**. If you wish to Craft the same product again, at the same Quality Level and with any complications it possibly has, you need no longer roll Project Skill Tests. You now *know* how to make the thing, in that Quality. 
@@ -2002,64 +2060,6 @@ But you may also decide you can do better. You may begin your Project again, at 
 For every Recipe that you know, you may also decide to Craft multiple of the same product in a batch. This is a more efficient than individual Crafts. Each additional instance of the same product you wish to create, adds only half (RU) of the Progress Increment. 
 
 > Given you have a recipe for a product with Quality Level `3` and a Progress Increment of `10` and you want to make `5` instances of this same product, then the first instance of the product sets the initial required total Progress at `3 (Quality) * 10 (Progress Increment) = 30`. Each of the `4` *additional* instances of the product now add `5` points of required Progress. So, for all `5` instances of the product to be finished, the final total Progress is `30 + (4 * 5) = 50`. This is much faster, than creating those `5` instances individually, as that *would* take `5 * 30 = 150` points of total required Progress!
-
-## Research Projects
-A Project can be about the research of knowledge, but not about mundane every-day things. You must visit various libraries, study dusty old tomes or comb countless digital archives, go on archeological digs and question other scholars. This is a task requiring substantial effort. 
-
-The Quality Level you achieve in the end dictates the degree of knowledge you learned about your subject. You may always try to gain even deeper understanding of your topic, by researching the same subject matter again. Your previous knowledge will accelerate further studies by `N * 2`, where *N* is your current degree of knowledge, every time you gain a Progress Increment.
-
-As a prerequisite to begin your studies, you must have access to the number of research objects as listed below. This can be anything, from old scrolls to data sticks, from shattered pieces of ancient machinery to intact but completely alien devices and even NPCs who hold knowledge they might be willing to share. 
-
-| Obscurity    | Quality Level | Research Objects | Description | 
-| ------------ | ------------- | ---------------- | ----------- | 
-| Common       | 1 - 2         | 0                | Common knowledge can be easily researched. Even so, it's not so common that everyone knows it already. It may still take some effort to find the right pieces of writing or piece together what you need from questioning several other people. |
-| Specialized  | 3 - 4         | 1                | Only few individuals have deeper knowledge regarding the topic you seek to understand. Only few pieces of writing even make note of your topic. It will require substantial effort to track down sources of knowledge and then puzzle the pieces together. |
-| Obscure      | 5 - 6         | 2                | Barely anyone, if anyone at all, even knows of this esoteric subject. Tracking down anyone with knowledge will be a considerable challenge. And whatever writing exists, may be stowed away, hidden in private collections, not easily accessible and not easily parted with. And even if access to these sources of knowledge can be secured, making sense of it all will be a challenge. |
-| Unfathomable | 7 - 8+        | 3                | No one alive still knows anything about this subject. Whatever writing may exist, is manifested in a long dead language, on a medium hidden in a remote and forgotten place. Even if you find this remnant of knowledge, how could you possibly make sense of it? |
-
-When you finish the research Project, you'll have the answers you seek and may gain the title "Loremaster of *X* (degree)", where you replace *X* with the subject you researched and *degree* with the Quality Level. 
-
-## Invention Projects
-As a difference to regular Projects, whenever you choose to Push On, you may also get a less effective prototype of your invention, if you score a Hit on a single `D6` roll, at the GM's discretion. Your prototype receives the Project's current Quality Level. 
-
-## Project Complications
-When accepting a random Complication for a Project, roll for one of the results from the table below.
-
-| D4 | Complication |
-| -- | ------------ |
-| 1  | **Blockade**: you realize you need to fulfill another prerequisite to continue your work. Consult your GM. |
-| 2  | **Drawback**: once finished, the result of your Project will contain a drawback. E. g. it might not work reliably, require more fuel, take longer to use, be so complicated only an expert can use it or only works in conjunction with another highly specific thing. Consult your GM. |
-| 3  | **Overthinking it**: from now on, every time you Push On, the Progress Increment increases by another `10` points! |
-| 4  | **Work-Accident**: in a moment of carelessness, you hurt yourself accidentally. You suffer an [Injury](#injury)! Consult your GM to determine which. |
-
-## Quality Level Reference
-How much is a Quality Level worth? This will ultimately be up to the GM to estimate, but the table below may provide guidance.
-
-| Quality Level | Description |
-| ------------- | ----------- |
-| 1             | A simple and plain product. It serves its purpose, albeit not well. Made by a beginner. |
-| 2 - 3         | An adequate product. It fulfills its function and is ergonomic. A routine work. |
-| 4 - 5         | A well made and decorated product, potent and respectable. An adept's work. |
-| 6 - 7         | An exceptionally well made product. Highly potent, potentially with multiple functions. An expert's work. |
-| 8+            | A legendary product. Its potency and function may even be fantastical - something never before seen! A true master of their craft made this. |
-
-## Project Events
-Project Events are random events that may occur during long-lasting, significant Projects. The details of these should be reserved for the GM's eyes, only. 
-
-| D12  | Event |
-| ---- | ----- |
-| 1    | A thief enters the place the Project is kept, at night, seeking to steal the Project or components thereof. But someone notices them. Can the thief be stopped in time? |
-| 2    | A competitor appears, under pretense of offering help, but in truth seeking to sabotage the Project. But they might go about it clumsily, allowing the PC some time to react. |
-| 3    | A competitor appears, offering help, but for a price. Perhaps not simply for money, but for the PC to let them take all the credit for the product or to lend the product to the competitor, for a time. Or perhaps they ask help, in return. |
-| 4    | A competitor appears, offering help and in turn begging the PC for help. The competitor screwed with the wrong people and their life is now in danger! Will the PC help? |
-| 5    | A NPC arrives, offering help, for a price. They are willing to add `+10` Progress the next time Progress is added. |
-| 6    | A NPC arrives, offering help, but is also in need of help, themself. They are willing to add `+10` Progress the next time Progress is added and after that, the PC is required to come help. |
-| 7    | An anonymous piece of writing found its way into the PC's belongings. It offers solid advice on the Project, instantly boosting the Project by `+15` points of Progress. But who could the mysterious benefactor be? And why? |
-| 8    | Suddenly, monsters or pests surprise the PC, assaulting them! If not dispatched quickly, they will damage the Project, causing a loss of half the current Progress! |
-| 9    | The PC is overcome with a burst of inspiration! They instantly gain `+15` points of Progress! This causes them to work feverishly, neglecting their own well-being. They start the next scenario with `+1` [Strain](#stamina--strain)! |
-| 10   | A group of NPCs appear and demand the Project be stopped! Out of superstition or fear, they don't want the PC to succeed. Can they be pacified? |
-| 11   | A NPC who the PC helped in the past appears, offering to help on the Project. Surprisingly, they know exactly what to do, boosting the Project by `+10` points of Progress. |
-| 12   | After so much time on the Project, the PC digs themself into a hole, mentally. They can no longer make sense of their own work and someone else has to help them regain their footing in the Project. The helper needs to make the next Project Skill Test. |
 
 # Trade
 Selling and buying things can take a surprising amount of time. If prices are too high and demand or reputation too low, chances are, you won't be able to sell your goods. But even when people do show interest in your wares, you still have to *sell it* to them. An uncharismatic merchant will have a difficult time making a pretty profit, regardless of the quality of their goods. On the other hand, buying things may prove equally difficult, when what you're looking for isn't really available. 
