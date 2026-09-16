@@ -247,8 +247,13 @@ By using STRIVE (that includes but is not limited to viewing, reading, referenci
     - [Ticks](#ticks)
 - [Crafting \& Research Projects](#crafting--research-projects)
   - [Project Prerequisites](#project-prerequisites)
+  - [Project Classification](#project-classification)
+    - [Trivial Project](#trivial-project)
+    - [Complex Project](#complex-project)
   - [Progressing a Project](#progressing-a-project)
-  - [Determining Work-Sessions](#determining-work-sessions)
+    - [Pushing On](#pushing-on)
+    - [Advancement Through Projects](#advancement-through-projects)
+  - [Determining Work-Rate](#determining-work-rate)
   - [Determining Progress Increment](#determining-progress-increment)
   - [Project Boosters](#project-boosters)
   - [Crafting It Again](#crafting-it-again)
@@ -738,6 +743,8 @@ As STRIVE is meant primarily as a rule-book to help you quickly find what you ne
 | [Weapon Trait](#weapon-traits)                              | Weapon Traits are modular rules that make one weapon mechanically different from another, by changing what a weapon is capable of. |
 | [Weapon-Family](#weapon-family)                             | Weapon-Families broadly categorize weapons, which [Weapon Skills](#weapon--weapon-family---base-attributes-) reference, to determine *how* a weapon is used. |
 | [Wit (Wit)](#wit-wit)                                       | An Attribute that describes a Character's sharpness of mind and tongue. Finds use in determining Base Initiative. |
+| [Work-Session](#progressing-a-project)                      | Describes an instance of meaningful work being done, each of which results in Progress. |
+| [Work-Rate](#progressing-a-project)                         | Determines how often Work-Sessions may occur, in the format `X / QoD` |
 
 # How to Play
 As **STRIVE** is a **roleplaying game**, there are certain rules to follow and expectations made of both players and GM. 
@@ -1897,14 +1904,32 @@ In their own free time, Characters can spend time and resources to Craft [Assets
 ## Project Prerequisites
 Typically, a project can only be worked on with access to necessary resources and know-how. [Skills](#skills) that detail how they can be used for Crafting will also note the prerequisites required. As always, the GM has the final word. 
 
+## Project Classification
+This classification determines the resolution mechanism of a Project. **Trivial Projects** don't require the overhead of being treated like a proper Project. 
+
+### Trivial Project
+A **Trivial Project** is a [Brief](#quarters-of-a-day-qod) and simple activity. It doesn't require a stationary work-station or special materials, which means it can often be done on the side, even while travelling. 
+
+> Examples would be: crafting arrows, cooking a meal, repairing a torn shirt, researching common knowledge and so on.
+
+No [Progress](#progressing-a-project) is tracked. A single, immediately made Project Roll deterimes the final Quality of the product. 
+
+### Complex Project
+A **Complex Project** is a longer-term activity, that comes with significant challenges and requirements. 
+
+> Forging a sword, making special arrows, tailoring specialized clothing, designing a 3D model for print, making an invention, researching an obscure subject and so on. 
+
+[Progress](#progressing-a-project) is tracked and one or more Project Rolls deterime the final Quality of the product. 
+
 ## Progressing a Project
-Every [non-Momentary](#momentary-project) Project's **Progress** is tracked numerically. All Progress begins at `0` and is increased through use of a particular [Skill](#skills) (further called the **Project Skill**), for every **Work-Session** the Character spends on the Project. When its current Progress reaches the **Total Required Progress**, the Project may complete. 
+Every [non-Trivial Project's](#trivial-project) **Progress** is tracked numerically. All Progress begins at `0` and is increased through use of a particular [Skill](#skills) (further called the **Project Skill**). When its current Progress reaches the **Total Required Progress**, the Project may complete, or be continued. 
 
-A Work-Session describes an instance of meaningful work being done. A variable number of these may fit into a [QoD](#quarters-of-a-day-qod). Every Work-Session results in Progress. For every Work-Session you devote your time to, you may add your **Project Skill's Level** as points of Progress. Up to `5` assisting Characters may also add `+1` point of Progress every Work-Session, along with you. But of course, in the meantime, these Characters cannot work on their own Projects. Note that Progress isn't rolled for, it is simply added. 
+A **Work-Session** describes an instance of meaningful work being done, each of which results in Progress. **Work-Rate** determines how often Work-Sessions may occur, in the format `X / QoD`. A variable number of Work-Sessions may fit into a [QoD](#quarters-of-a-day-qod). For every Work-Session you devote your time to, you may add your **Project Skill's Level** as points of Progress. Up to `5` assisting Characters may also add `+1` point of Progress every Work-Session, along with you. But of course, in the meantime, these Characters cannot work on their own Projects. Note that Progress isn't rolled for, it is simply added. 
 
-You get [Advancement Progress](#advancement) for every Work-Session (but no [XP](#experience-points-xp)), for every `5` points of Progress made! If your Project requires less than `5` points, then take that number, instead. Re-evaluate if you **Push On**. Assistants to Projects instead earn `+1` [XP](#experience-points-xp), instead. 
+Every time you arrive at the current Total Required Progress, you must make a choice. **Finish** the Project and accept its current Quality Level, or **Push On**. 
 
-Initially, your Project will begin with **Quality Level** `1`. Every time you arrive at the current Total Required Progress, you must make a choice. **Finish** the Project and accept its current Quality Level, or **Push On**. 
+### Pushing On
+Initially, your Project will begin with **Quality Level** `1`.
 
 If you Push On, the Total Required Progress of your Project is increased by another Progress Increment and your current Progress is reset to `0`, but you also give yourself a chance to further improve the resulting Quality Level. After you have decided to Push On, the next time you arrive at full Progress, a **Test of your Project Skill** is required of you. The Ob is `N + 1`, where *N* is the current number of times you have already Pushed On. And of course, for your Project Skill Test, you may [Fork](#skill-forking) and accept [Help](#providing-assistance)! If you succeed the Test, the resulting Quality Level of your Project increases by `+1`. But if you fail, it loses `-1` Quality Level, *unless* you accept a random [**Complication**](#project-complications) instead. If you accept a Complication, the Project's Quality Level remains unchanged. You neither lose, nor gain a Quality Level. Note that if you accept the Quality loss, the Quality Level cannot be reduced to less than `1`. 
 
@@ -1912,8 +1937,11 @@ You can continue this cycle any number of times, but if you **fail twice in succ
 
 When you Push On, the GM may choose to employ a [Project Event](#project-events), possibly even instead of a Complication. Project Events should be an occasional occurrence at best, employed only for long-lasting and significant Projects, to shake things up a bit when appropriate. 
 
-## Determining Work-Sessions
-There are two axes that determine how many Work-Sessions fit into a [QoD](#quarters-of-a-day-qod):
+### Advancement Through Projects
+You get [Advancement Progress](#advancement) (but no [XP](#experience-points-xp)) for every `5` points of Progress made! If your Project requires less than `5` points, then take that number, instead. Re-evaluate this threshold after you **Push On** for the first time. Assistants to Projects instead earn `+1` [XP](#experience-points-xp). 
+
+## Determining Work-Rate
+There are two axes that determine Work-Rate:
 * **Labor**: How much focused labor is required.
   * Some work is simply more labor intensive - attaching mail rings to one another, embroidery, hammering an armor plate into shape, designing the 3D model for print, etc.
 * **Delay**: How much time must pass before the next step of the work can begin.
@@ -1921,17 +1949,17 @@ There are two axes that determine how many Work-Sessions fit into a [QoD](#quart
 
 Walk through the following table twice. Once for Labor and once for Delay. Take only the **smaller** of the two resulting numbers. 
 
-| **Grading**           | **Labor**                     | **Delay**                              | **Maximum Work-Sessions per QoD** |
-| --------------------- | ----------------------------- | -------------------------------------- | --------------------------------- |
-| **None**              | A negligible amount of work.  | No delay between work steps.           | 6                                 |
-| **Low**               | A modest amount of work.      | Short delay between work steps.        | 4                                 |
-| **Moderate**          | A substantial amount of work. | Lengthy delays between work steps.     | 3                                 |
-| **High**              | A large amount of labor.      | Significant delays between work steps. | 2                                 |
-| **Extreme**           | An enormous amount of labor.  | Enormous delays between work steps.    | 1                                 |
+| **Grading**           | **Labor**                     | **Delay**                              | **Work-Rate / QoD** |
+| --------------------- | ----------------------------- | -------------------------------------- | ------------------- |
+| **None**              | A negligible amount of work.  | No delay between work steps.           | 5                   |
+| **Low**               | A modest amount of work.      | Short delay between work steps.        | 4                   |
+| **Moderate**          | A substantial amount of work. | Lengthy delays between work steps.     | 3                   |
+| **High**              | A large amount of labor.      | Significant delays between work steps. | 2                   |
+| **Extreme**           | An enormous amount of labor.  | Enormous delays between work steps.    | 1                   |
 
-> 3D printing a model: Low Labor, High Delay -> `2` Work-Sessions every QoD<br>
-> Making chainmail armor: Extreme Labor, No Delay -> `1` Work-Sessions every QoD<br>
-> Building an airship: High Labor, Moderate Delay -> `2` Work-Session every QoD
+> 3D printing a model: Low Labor, High Delay -> Work-Rate: `2 / QoD`<br>
+> Making chainmail armor: Extreme Labor, No Delay -> Work-Rate: `1 / QoD`<br>
+> Building an airship: High Labor, Moderate Delay -> Work-Rate: `2 / QoD`
 
 ## Determining Progress Increment
 There are two axes that determine the Progress Increment of a Project:
