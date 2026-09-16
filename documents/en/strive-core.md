@@ -684,7 +684,7 @@ As STRIVE is meant primarily as a rule-book to help you quickly find what you ne
 | [Precise](#precise)                                         | A Weapon Trait that indicates a weapon is more effective. |
 | [Prefer Range](#foundational-weapon-traits)                 | A Weapon Trait that indicates a weapon is harder to use against adjacent targets. |
 | [Primary Damage](#damage--effects)                          | The most significant [Damage Type](#damage-types) of [Effective Damage](#damage--effects) **after** Armor and Resistances are applied. |
-| [Progress Increment (PI)](#progressing-a-project)           | Determines how much work a Project takes. |
+| [Progress Increment (PI)](#progressing-a-project)           | An abstraction for the amount of work a Project involves, in terms of [Scale and Logistics](#determining-progress-increment). |
 | [Project Booster](#project-boosters)                        | May add Progress or Quality Levels to a Project. |
 | [Project Complications](#project-complications)             | An alternative to losing Quality Levels when failing a Project Skill Test. |
 | [Project Skill](#progressing-a-project)                     | The Skill used to add Progress to a Project. |
@@ -743,8 +743,8 @@ As STRIVE is meant primarily as a rule-book to help you quickly find what you ne
 | [Weapon Trait](#weapon-traits)                              | Weapon Traits are modular rules that make one weapon mechanically different from another, by changing what a weapon is capable of. |
 | [Weapon-Family](#weapon-family)                             | Weapon-Families broadly categorize weapons, which [Weapon Skills](#weapon--weapon-family---base-attributes-) reference, to determine *how* a weapon is used. |
 | [Wit (Wit)](#wit-wit)                                       | An Attribute that describes a Character's sharpness of mind and tongue. Finds use in determining Base Initiative. |
+| [Work-Rate](#progressing-a-project)                         | Determines how often Work-Sessions may occur, in the format `X / QoD`. |
 | [Work-Session](#progressing-a-project)                      | Describes an instance of meaningful work being done, each of which results in Progress. |
-| [Work-Rate](#progressing-a-project)                         | Determines how often Work-Sessions may occur, in the format `X / QoD` |
 
 # How to Play
 As **STRIVE** is a **roleplaying game**, there are certain rules to follow and expectations made of both players and GM. 
@@ -1183,7 +1183,7 @@ Characters know languages that allow them to communicate. Each language a Charac
 
 > A Character with Wit `3`, who is a Native speaker, tries understand some ancient lore written in their language. They get to roll `(3 (from Wit) + 8 (from Native language grade) = 11` dice for the Test. The Ob will be chosen by the GM, based on *just how ancient and obscure* the text is, meaning, how difficult to read it is. 
 
-Languages may be learned. Treat this like a [Research Project](#research-projects), with High Labor, No Delay and Simple Complexity. Instead of a Project Skill, use your [Wit](#wit-wit) to add Progress. The Project's achieved `Q` equals the language grade, up to a maximum of `3`. `1` results in a Dabbling, `2` in a Proficient and `3` in a Native language grade. 
+Languages may be learned. Treat this like a [Research Project](#research-projects), with Work-Rate `2 / QoD` and PI: `12`. Instead of a Project Skill, use your [Wit](#wit-wit) to add Progress. The Project's achieved `Q` equals the language grade, up to a maximum of `3`. `1` results in a Dabbling, `2` in a Proficient and `3` in a Native language grade. 
 
 ### Advancement
 Through [Tests](#tests), Characters learn and improve. For every Test, `+1` [XP](#experience-points-xp) is earned. If Testing a [Skill](#skills), then *additionally*, the Advancement Progress of that Skill is incremented by `+1`. 
@@ -1912,7 +1912,9 @@ A **Trivial Project** is a [Brief](#quarters-of-a-day-qod) and simple activity. 
 
 > Examples would be: crafting arrows, cooking a meal, repairing a torn shirt, researching common knowledge and so on.
 
-No [Progress](#progressing-a-project) is tracked. A single, immediately made Project Roll deterimes the final Quality of the product. In fact, this handles exactly like every other Skill Test in the game. As such, it is unsuitable for Research or Invention Projects, and is not eligible to produce [Recipes](#crafting-it-again).
+A single, immediately made Project Roll deterimes the final Quality of the product. In fact, this handles exactly like every other Skill Test in the game. Trivial Projects are not *actually* tracked as Projects, because they are **too small** to qualify as a Project and thus warrant **no Progress tracking**. 
+
+As such, a Trivial Project is unsuitable for Research or Invention Projects, and is not eligible to produce [Recipes](#crafting-it-again). 
 
 ### Complex Project
 A **Complex Project** is a longer-term activity, that comes with significant challenges and requirements. 
@@ -1930,6 +1932,14 @@ When you finish the research Project, you'll have the answers you seek and may g
 
 #### Invention Projects
 Invention is a very unique activity, that rules do not easily fit around. The GM will have to do a lot of heavy lifting, determining Work-Rate and Progress Increments, depending on the type of invention and the means available. 
+
+Mechanically, Invention Projects work no differently from ordinary Complex Projects:
+1. Define the Invention. Ask *What is it?* and *What can it do?*. Don't ask *how will it work?* - that is where implicit fiction takes over. The ***Character*** will figure out the *how*, over the course of their Project - ***not the player***.
+2. Based on the answers, and the feasibility within your world...
+    1. ...determine [Work-Rate](#determining-work-rate).
+    2. ...determine [Progress Increment](#determining-progress-increment).
+
+That's it. Really, this is how all Projects are built, the only difference is that system-provided Assets come with pre-determind Work-Rate and Progress Increment. 
 
 > Narratively, every Work-Session will advance you through the following loop. By how much, will depend on the nature of the Project. Sometimes, a single Work-Session may catapult you forward several steps. Other times, only a single step. In the end, it doesn't matter from a mechanics stand-point, but may help you envision your Project in greater detail. The GM can even leverage this cycle to give you Project Events completely unique to your particular Project. 
 > * Designing
@@ -2015,7 +2025,6 @@ Walk through the following table three times. Once for Labor, once for Delay and
 
 | **Grading**           | **Labor**                     | **Delay**                              | **Problem-Solving**                                                                                             | **Work-Rate / QoD** |
 | --------------------- | ----------------------------- | -------------------------------------- | --------------------------------------------------------------------------------------------------------------- | ------------------- |
-| **None**              | A negligible amount of work.  | None. Once one step of work is complete, the next can begin immediately. | None. What needs to be done is perfectly clear.                               | 5                   |
 | **Low**               | A modest amount of work.      | Short delays between work steps.       | Some. The overall image is clear, and only the details require some care.                                       | 4                   |
 | **Moderate**          | A substantial amount of work. | Lengthy delays between work steps.     | Significant. While the overall goal is clear, it requires some experimentation and research.                    | 3                   |
 | **High**              | A large amount of labor.      | Significant delays between work steps. | Troubling. There are many unanswered questions that will require a thorough investigation and many experiments. | 2                   |
@@ -2035,23 +2044,24 @@ There are two axes that determine the Progress Increment of a Project:
 * **Logistics**: Acquisition and storage of materials, tool and work-place requirements.
   * *How many resources are needed?*, *how available are they?*, *How easy is it to store and use them?*
 
-> Boiled down, Progress Increment answers the question *how many Work-Sessions do I need?*
+> Boiled down, Progress Increment, divided by Project Skill Level, answers the question *how many Work-Sessions do I need?*
 
 Walk through the following table twice. Once for Scale and once for Logistics. Take only the **larger** of the two resulting numbers. 
 
 | **Grading**                 | **Scale**                                  | **Logistics**                                                                | **Progress Increment** |
 | --------------------------- | ------------------------------------------ | ---------------------------------------------------------------------------- | ---------------------- |
-| **Trivial**                 | A single or tiny product.                  | Resources are easy to procure, store and use. Can work with improvised tools, anwhere. | 5 |
-| **Simple**                  | A few products, or a moderately sized one. | Resources may be easy to procure, store and use. Can be done anywhere, but only with proper tools. | 8 |
-| **Medium**                  | Several products or large one.             | Resources may be challenging to procure, store and use. Can only be done at a dedicated work station, with proper tools. | 12 |
-| **Specialized**             | Many products or a huge one.               | Resources are hard to come by, difficult to store and use properly. Can only be done at a dedicated work station, with specialized tools. | 18 |
-| **Monumental**              | Industrial-scale product count or an enormous one. | Resources are very scarce, perilous or difficult to store and use properly. Can only be done at a highly specialized work station, with equally specialized tools. | 25+ |
+| **Trivial**                 | A single or tiny product.                  | Resources are easy to procure, store and use. Can work with improvised tools, anwhere. | 8 |
+| **Simple**                  | A few products, or a moderately sized one. | Resources may be easy to procure, store and use. Can be done anywhere, but only with proper tools. | 12 |
+| **Medium**                  | Several products or large one.             | Resources may be challenging to procure, store and use. Can only be done at a dedicated work station, with proper tools. | 18 |
+| **Specialized**             | Many products or a huge one.               | Resources are hard to come by, difficult to store and use properly. Can only be done at a dedicated work station, with specialized tools. | 24 |
+| **Monumental**              | Industrial-scale product count or an enormous one. | Resources are very scarce, perilous or difficult to store and use properly. Can only be done at a highly specialized work station, with equally specialized tools. | 30+ |
 
-> 3D printing a model: Trivial Scale, Simple Logistics -> Progress Increment `8`
-> Inventing a steam ship: Specialized Scale, Specialized Logistics -> Progress Increment `18`
-> Making chainmail armor: Simple Scale, Trivial Logistics -> Progress Increment `8`
-> Paint armor: Trivial Scale, Trivial Logistics -> Progress Increment `5`
-> Research unknown herb: Trivial Scale, Medium Logistics -> Progress Increment `12`
+> 3D printing a model: Trivial Scale, Simple Logistics -> Progress Increment `12`
+> Inventing a steam ship: Specialized Scale, Specialized Logistics -> Progress Increment `24`
+> Making chainmail armor: Simple Scale, Trivial Logistics -> Progress Increment `12`
+> Paint armor: Trivial Scale, Trivial Logistics -> Progress Increment `8`
+> Research unknown herb: Trivial Scale, Medium Logistics -> Progress Increment `18`
+> Research unknown, volatile chemical: Trivial Scale, Monumental Logistics -> Work-Rate: `30+`
 
 ## Quality Level Reference
 How much is a Quality Level worth? This will ultimately be up to the GM to estimate, but the table below may provide guidance.
@@ -2676,12 +2686,12 @@ In the following table, `Q` refers to the Quality of the Asset. See also the [Cr
 
 When looking up products for Crafting, the specific tools and materials required for the Craft are not noted here. Those will be determined by the GM. Think creatively - *how could you make the thing?* *What materials and tools do you have available?*
 
-| Name                   | Bulk | Max. Stack Size | Labor / Delay / Complexity / Ob | Description                                                              |
-| ---------------------- | ---- | --------------- | ------------------------------- | ------------------------------------------------------------------------ |
-| Antidote               | 1    | 4               | Low / Moderate / Medium /       | This unassuming liquid can make the difference between life and death. Removes `Q` points of [Poisoned](#poisoned). If no points remain, instead immediately [Treats](#injury-treatment) an [Injury](#injury) caused by [Poison](#damage-types) |
-| Medical Supplies       | 1    | 5               | Low / None / Simple /           | A small satchel of clean bandages, thread and needle for suturing, a clean and sharp knife, a splint and straps for binding. Is used in the [Treatment](#injury-treatment) of various [Injuries](#injury). |
-| Objet d'art            | 1    | 1               | Moderate / None / Medium /      | A painting, sculpture or other art piece. |
-| Ration                 | 1    | 10              | Low / Low / Trivial /           | A ration of preserved food and drink, enough for a [QoD](#quarters-of-a-day-qod). |
+| Name                   | Bulk | Max. Stack Size | Work-Rate / PI    | Description                                                              |
+| ---------------------- | ---- | --------------- | ----------------- | ------------------------------------------------------------------------ |
+| Antidote               | 1    | 4               | `3 / QoD` / `12`  | This unassuming liquid can make the difference between life and death. Removes `Q` points of [Poisoned](#poisoned). If no points remain, instead immediately [Treats](#injury-treatment) an [Injury](#injury) caused by [Poison](#damage-types) |
+| Medical Supplies       | 1    | 5               | `4 / QoD` / `8`   | A small satchel of clean bandages, thread and needle for suturing, a clean and sharp knife, a splint and straps for binding. Is used in the [Treatment](#injury-treatment) of various [Injuries](#injury). |
+| Objet d'art            | 1    | 1               | `3 / QoD` / `12`  | A painting, sculpture or other art piece. |
+| Ration                 | 1    | 10              | `4 / QoD` / `5`   | A ration of preserved food and drink, enough for a [QoD](#quarters-of-a-day-qod). |
 
 ## Lists of Skills
 The following list does not and cannot aim to be a complete listing of all possible Skills in game. Adding new Skills as necessary will have to be done by the GM. Nevertheless, most general need should be covered. 
@@ -3019,7 +3029,7 @@ The ability to cook hearty and sweet meals that can strengthen and invigorate.
 
 [Crafting](#crafting--research-projects):
 * [Ration](#general-assets) (5x)
-* Special Meal: Labor: Low, Delay: Short, Complexity: Medium; Requires *special* ingredients, consult your GM. 
+* Special Meal: A Trivial Project that requires *special* ingredients, consult your GM. 
   * A special meal that you have to eat while it's still fresh. The meal does **not** go in your inventory - this is **not** the same as a ration! 
   * Restores `Q HP` and `Q` Stamina.
   * For every `Q` past `1`, the meal may confer certain boons, for `Q * 2` hours. Each of the following boons can be picked only once:

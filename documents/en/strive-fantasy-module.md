@@ -438,7 +438,7 @@ A device that can channel and direct the power of a [Malevite Orb](#malevite) or
 
 Arcane Engines are mostly useful either as siege engines or as stationary constant magic casters. The more powerful the used [Malevite Orb](#malevite), the larger the engine. 
 
-Crafting: Labor: High, Delay: Low, Complexity: Monumental, Ob: `+1`, requires:
+Crafting: Work-Rate: `2 / QoD`, PI: `30`, Ob: `+1`, requires:
 * [Abyssalite](#abyssalite)
 * A sturdy frame-material, like steel
 
@@ -499,7 +499,7 @@ In order to invoke a Magic Scroll:
 
 #### Creating Magic Scrolls
 In order to create a Magic Scroll:
-* Labor: Low, Delay: None, Complexity: Specialized
+* Work-Rate: `4 / QoD`, PI: `24`
 * Powdered [Abyssalite](#abyssalite) must be painted onto the parchment, paper or other such material, in a shape specific to the magic spell the Magic Scroll will be able to cast. 
   * This requires a success of an [Artistry](./strive-core.md#artistry-agiawar) or [Artificing](#artificing-arcwit) Test, at Ob equal to the intended [Spell Intensity](#spell-intensity-si) of the Magic Scroll. 
 * Then, the Magic Scroll must be "primed" by a mage. This requires a success of a Test of the same [School Of Magic](#list-of-magic-schools) as the Magic Scroll holds, with Ob equal to the [Spell Intensity](#spell-intensity-si) of the Magic Scroll. 
@@ -519,7 +519,7 @@ A Malevite orb is an artifact of very great power that can change the laws of ph
 
 There are four Quality Levels. Impure Malevite has side-effects and is not nearly as powerful as a purer blood jewel. 
 
-Crafting: Labor: Moderate, Delay: Low, Complexity: Monumental, Ob: `+1`, requires:
+Crafting: Work-Rate: `3 / QoD`, PI: `50`, Ob: `+1`, requires:
 * A lot of Abyssalite-infused blood
 * An additional `3`, `9`, `27` or `81` Bulk of [Abyssalite](#abyssalite) (graded per purity level)
 
@@ -644,41 +644,41 @@ The following is a non-exhaustive list of general Assets. Just because an Asset 
 
 See also the [Core rule's Asset appendix](./strive-core.md#assets-appendix). 
 
-| Name                     | Bulk | Max. Stack Size | Labor / Delay / Complexity / Ob       | Description                                                              |
-| ------------------------ | ---- | --------------- | ------------------------------------- | ------------------------------------------------------------------------ |
-| Acid Arrows              | 1    | 20              | Low / Low / Medium /                  | Ammunition for a bow that deals `Q * 2` additional points of Acid damge. A small acid-filled vial tips these arrows, ready to burst upon impact. |
-| Acid Bomb                | 1    | 3               | Low / None / Medium /                 | A small fragile shell with two compartments, filled with two liquids which, when they combine, act as a powerful acid. When shattered, deals `QD6 Acid` Damage to whatever it hits. |
-| Arrows                   | 1    | 20              | Low / Low / Trivial /                 | Ammunition for a bow. |
-| Blackpowder Bomb         | 1    | 2               | Moderate / None / Medium / +1         | A small iron-shelled bomb, filled with blackpowder. A short fuse sticks out and must be lit to set it off. Once lit, the bomb will detonate after `3` Turns or `15` seconds. Deals `QD4 Bludgeoning + QD4 Burning` Damage to anyone in a `2` Square AoE radius. |
-| Bolts                    | 1    | 20              | Low / Low / Trivial /                 | Ammunition for a crossbow. |
-| Calming Tea              | 1    | 3               | Low / Moderate / Trivial /            | This herbal tea has the ability to calm nerves. Removes [Berserk](./strive-core.md#berserk), [Jealous](./strive-core.md#jealous) and [Terrified](./strive-core.md#terrified). Best enjoyed steaming hot, but not necessarily. |
-| Clothing                 | 1    | 2               | High / None / Simple /                | A full set of clothes, head to toe. |
-| Death Fog                | 1    | 1               | High / High / Monumental / +1         | An extremely rare and deadly gas. Once exposed to air, covers an area of `Q * 2` Squares in impenetrable, eerily glowing, blue fog. Deals `QD10 + 10` Pure Damage to all **organic** things it touches, per tick. Metal and mineral are unaffected, while plant and flesh are struck from existence. |
-| Dragon's Breath Potion   | 1    | 3               | Moderate / Low / Medium /             | Upon drinking this potion, the orange liquid combines with the stomach acid and bursts out of the drinker's throat, igniting and thus causing them to spew fire! Causes `5 - Q Burning` Damage to the user and `Q * 3 Burning` Damage in a `Q` Square AoE cone in front of the user. |
-| Explosive Arrows         | 1    | 10              | Low / None / Specialized /            | Ammunition for a bow that deal `1D4 Bludgeoning + (1D4 + Q) Burning` Damage. |
-| Fire Pot (Potion)        | 1    | 3               | Moderate / Low / Medium /             | An ancient recipe, this concoction bursts into flame when exposed to air for several seconds. It causes severe burns for `QD6 Burning` Damage in a `2` Square AoE adius. Consumed on use. |
-| Illusionist's Powder     | 1    | 2               | Moderate / None / Specialized         | A small amount of weakly iridescently shimmering powder. When scattered, the dust remains suspended in mid-air and settles in an image of the making alchemist's choosing, which at a distance can seem perfectly real. It takes a successful Test at Ob `Q + 1` to see through the ruse. This image lasts `QD10` minutes. |
-| Invigorating Potion      | 1    | 3               | Low / Moderate / Medium /             | The drinker of this potion feels refreshed and invigorated! Increases [Stamina](./strive-core.md#stamina--strain) by `Q` and clears the [Exhausted](./strive-core.md#exhausted) condition. Beware this potion can only be safely imbibed twice in a `24` hour cycle. If drunk more, roll a `D6`. If it is a Hit, you're in luck! But if not, you instead suffer `+1` [Strain](./strive-core.md#stamina--strain). |
-| Jewelry                  | 1    | 2               | High / None / Medium /                | Precious apparel. |
-| Keg Of Alcohol           | 2    | 1               | None / High / Simple /                | A keg of alcohol. Highly flammable. If set fire to, will explode in a small torrent of flame, dealing `Q * 3` Burning Damage to all in a `2` Square AoE radius. |
-| Laudanum Potion          | 1    | 2               | Low / Low / Simple /                  | This wonderous substance can quell pain and calm nerves within seconds. Also effective against diarrhea. Upon imbibing, sets one Active [Injury](./strive-core.md#injury) to Treated. After `24` hours, the [Injury](./strive-core.md#injury) is set back to Active, even if it was also properly Treated in the meantime. Also, must succeed a [Self-Control](./strive-core.md#self-control-toughwit) Test at Ob `3`, or else become [Addicted](./strive-core.md#drug-addicted) to the stuff. |
-| Love Potion              | 1    | 2               | Low / Low / Specialized / +1          | Anyone drinking this potion will become virtually irresistible to anyone close enough to smell their air. Victims have to succeed a [Self-Control](./strive-core.md#self-control-toughwit) Test at Ob `Q` or else feel **very strongly compelled** to fulfill the user's every wish and desire (provided this wouldn't obviously cause harm to the victim). |
-| Magic Recorder           | 1    | 3               | High / None / Specialized /           | A small spherical device, made from various metals with intricate patterns on its surface. This device can capture [Magic Echoes](#magic-echoes) and record magic as it is being cast. Also captures fragments of thoughts from its bearer while it is active. |
-| Night-Eye Potion         | 1    | 3               | Low / Low / Medium /                  | Grants the ability to see reasonably well under low-light conditions, up to `Q * 3` Squares around them, for an hour. Beware that under the influence of this potion, exposure to bright light is extremely difficult to endure and will cause `-1` [Stamina](./strive-core.md#stamina--strain) for every **minute** of exposure. |
-| Paralyzing Poison        | 1    | 2               | Moderate / Moderate / Specialized /   | Causes a victim's muscles to seize up. They suffer `-1` AP each Turn and are forced to move sluggishly, at only half their usual movement speed. If this poison is suffered twice, the victim seizes up completely and is unable to move, at all. This poison can be resisted once upon suffering it, with [Toughness](./strive-core.md#toughness-tough), at Ob `Q`. If unsuccessful, the effect will last `Q` hours. |
-| Poison Arrows            | 1    | 20              | Low / Low / Medium /                  | Ammunition for a bow that deals `Q * 2` additional points of Poison damge. A small poison-filled vial tips these arrows, ready to burst upon impact. |
-| Poison Resistance Potion | 1    | 2               | Low / Low / Moderate /                | Once imbibed, reduces all incurred poison Damage by `Q * 2`, for up to `Q` hours. |
-| Sleeping Poison          | 1    | 3               | Moderate / Moderate / Medium / +1     | Causes a victim to feel incredibly sleepy. Unless they succeed a [Self-Control](./strive-core.md#self-control-toughwit) Test at Ob `Q`, they will fall asleep the first chance they get. They cannot be woken from this state for at least `6` hours, except through the use of harmful force. |
-| Smoke Bomb               | 1    | 3               | Low / None / Simple /                 | A small fragile shell, filled with a very fine powder which when broken causes an area in a `Q` Square AoE radius to be covered in smoke. It is impossible to see through and ranged Attacks within or through the smoke-covered area suffer `+2` Ob. Victims caught in the smoke may be forced to cough. The smoke lasts `6` Turns or `30` seconds. |
-| Throwing Blade           | 1    | 6               | Moderate / None / Medium /            | A small weighted blade, like a knife or star, well suited to being thrown. Can be used in melee and acts like a [Dagger](#light-blade), but with a penalty of `-2D` to Attack and Defense. `+1D` when [Thrown](./strive-core.md#throwing) for a ranged Attack. <br> `≤ 1` Hit: `4 + Str` Piercing <br> `= 2` Hits: `6 + Str` Piercing <br> `≥ 3` Hits: `8 + Str` Piercing |
-| Tools                    | 1    | 2               | Moderate / None / Medium /            | Various metal-made, proper tools. |
-| Trap: Acid               | 1    | 3               | Moderate / None / Medium /            | A small metal frame with a central pressure pad which, when stepped on, sprays acid upwards at the victim. Causes `(Q * 2) + 6` Acid Damage. |
-| Trap: Bear               | 1    | 3               | Moderate / None / Medium /            | A metal-jawed trap, capable of breaking bone and flesh. Deals `Q * 2` Bludgeoning and `Q * 2` Piercing Damage. Causes [Rooted](./strive-core.md#rooted) in the victim, which costs `3` AP to clear. |
-| Trap: Cage/Net           | 1    | 1               | Moderate / None / Medium /            | When tripped, a cage springs up around, or a net pulls up over the victim. They are trapped within until they can manage to free themselves. `Q` equals the Ob for Tests to cut or break the cage or net. |
-| Trap: Powder             | 1    | 3               | Moderate / None / Medium /            | When tripped, coughs up a cloud of powder in a up to `Q` Square radius, which will impede all vision through it at a Ob `+2` penalty. The powder may also be flammable, poisonous or Illusionist's Powder. |
-| Trap: Rune/Scroll        | 1    | 3               | Moderate / None / Medium /            | When tripped, a complex mechanism pours vial of mage blood onto the Rune or Scroll, in precise intervals to agitate the magic within. |
-| Trap: Shooter            | 1    | 3               | Moderate / None / Medium /            | A crossbow or firearm is wired to shoot in a set direction by a careless trespasser. The bolt or bullet will travel up to `20` Squares far and deal `Q * 3` Piercing Damage. May also shoot poison darts or other types of ammo. |
-| Trap: Windfist           | 1    | 2               | Moderate / None / Medium /            | A pressure plate or wire opens the seal on a pressurized container. The escaping gas hits the victim with an enormous force, throwing them `Q * 2` Squares far. |
+| Name                     | Bulk | Max. Stack Size | Work-Rate / PI / Ob   | Description                                                              |
+| ------------------------ | ---- | --------------- | --------------------- | ------------------------------------------------------------------------ |
+| Acid Arrows              | 1    | 20              | `4 / QoD` / `18`      | Ammunition for a bow that deals `Q * 2` additional points of Acid damge. A small acid-filled vial tips these arrows, ready to burst upon impact. |
+| Acid Bomb                | 1    | 3               | `4 / QoD` / `18`      | A small fragile shell with two compartments, filled with two liquids which, when they combine, act as a powerful acid. When shattered, deals `QD6 Acid` Damage to whatever it hits. |
+| Arrows                   | 1    | 20              | `4 / QoD` / `8`       | Ammunition for a bow. |
+| Blackpowder Bomb         | 1    | 2               | `3 / QoD` / `18` / +1 | A small iron-shelled bomb, filled with blackpowder. A short fuse sticks out and must be lit to set it off. Once lit, the bomb will detonate after `3` Turns or `15` seconds. Deals `QD4 Bludgeoning + QD4 Burning` Damage to anyone in a `2` Square AoE radius. |
+| Bolts                    | 1    | 20              | `4 / QoD` / `8`       | Ammunition for a crossbow. |
+| Calming Tea              | 1    | 3               | `3 / QoD` / `8`       | This herbal tea has the ability to calm nerves. Removes [Berserk](./strive-core.md#berserk), [Jealous](./strive-core.md#jealous) and [Terrified](./strive-core.md#terrified). Best enjoyed steaming hot, but not necessarily. |
+| Clothing                 | 1    | 2               | `2 / QoD` / `12`      | A full set of clothes, head to toe. |
+| Death Fog                | 1    | 1               | `2 / QoD` / `30` / +1 | An extremely rare and deadly gas. Once exposed to air, covers an area of `Q * 2` Squares in impenetrable, eerily glowing, blue fog. Deals `QD10 + 10` Pure Damage to all **organic** things it touches, per tick. Metal and mineral are unaffected, while plant and flesh are struck from existence. |
+| Dragon's Breath Potion   | 1    | 3               | `3 / QoD` / `18`      | Upon drinking this potion, the orange liquid combines with the stomach acid and bursts out of the drinker's throat, igniting and thus causing them to spew fire! Causes `5 - Q Burning` Damage to the user and `Q * 3 Burning` Damage in a `Q` Square AoE cone in front of the user. |
+| Explosive Arrows         | 1    | 10              | `4 / QoD` / `24`      | Ammunition for a bow that deal `1D4 Bludgeoning + (1D4 + Q) Burning` Damage. |
+| Fire Pot (Potion)        | 1    | 3               | `3 / QoD` / `18`      | An ancient recipe, this concoction bursts into flame when exposed to air for several seconds. It causes severe burns for `QD6 Burning` Damage in a `2` Square AoE adius. Consumed on use. |
+| Illusionist's Powder     | 1    | 2               | `3 / QoD` / `24`      | A small amount of weakly iridescently shimmering powder. When scattered, the dust remains suspended in mid-air and settles in an image of the making alchemist's choosing, which at a distance can seem perfectly real. It takes a successful Test at Ob `Q + 1` to see through the ruse. This image lasts `QD10` minutes. |
+| Invigorating Potion      | 1    | 3               | `3 / QoD` / `18`      | The drinker of this potion feels refreshed and invigorated! Increases [Stamina](./strive-core.md#stamina--strain) by `Q` and clears the [Exhausted](./strive-core.md#exhausted) condition. Beware this potion can only be safely imbibed twice in a `24` hour cycle. If drunk more, roll a `D6`. If it is a Hit, you're in luck! But if not, you instead suffer `+1` [Strain](./strive-core.md#stamina--strain). |
+| Jewelry                  | 1    | 2               | `2 / QoD` / `18`      | Precious apparel. |
+| Keg Of Alcohol           | 2    | 1               | `2 / QoD` / `12`      | A keg of alcohol. Highly flammable. If set fire to, will explode in a small torrent of flame, dealing `Q * 3` Burning Damage to all in a `2` Square AoE radius. |
+| Laudanum Potion          | 1    | 2               | `4 / QoD` / `12`      | This wonderous substance can quell pain and calm nerves within seconds. Also effective against diarrhea. Upon imbibing, sets one Active [Injury](./strive-core.md#injury) to Treated. After `24` hours, the [Injury](./strive-core.md#injury) is set back to Active, even if it was also properly Treated in the meantime. Also, must succeed a [Self-Control](./strive-core.md#self-control-toughwit) Test at Ob `3`, or else become [Addicted](./strive-core.md#drug-addicted) to the stuff. |
+| Love Potion              | 1    | 2               | `4 / QoD` / `24` / +1 | Anyone drinking this potion will become virtually irresistible to anyone close enough to smell their air. Victims have to succeed a [Self-Control](./strive-core.md#self-control-toughwit) Test at Ob `Q` or else feel **very strongly compelled** to fulfill the user's every wish and desire (provided this wouldn't obviously cause harm to the victim). |
+| Magic Recorder           | 1    | 3               | `2 / QoD` / `24`      | A small spherical device, made from various metals with intricate patterns on its surface. This device can capture [Magic Echoes](#magic-echoes) and record magic as it is being cast. Also captures fragments of thoughts from its bearer while it is active. |
+| Night-Eye Potion         | 1    | 3               | `4 / QoD` / `18`      | Grants the ability to see reasonably well under low-light conditions, up to `Q * 3` Squares around them, for an hour. Beware that under the influence of this potion, exposure to bright light is extremely difficult to endure and will cause `-1` [Stamina](./strive-core.md#stamina--strain) for every **minute** of exposure. |
+| Paralyzing Poison        | 1    | 2               | `3 / QoD` / `24`      | Causes a victim's muscles to seize up. They suffer `-1` AP each Turn and are forced to move sluggishly, at only half their usual movement speed. If this poison is suffered twice, the victim seizes up completely and is unable to move, at all. This poison can be resisted once upon suffering it, with [Toughness](./strive-core.md#toughness-tough), at Ob `Q`. If unsuccessful, the effect will last `Q` hours. |
+| Poison Arrows            | 1    | 20              | `4 / QoD` / `18`      | Ammunition for a bow that deals `Q * 2` additional points of Poison damge. A small poison-filled vial tips these arrows, ready to burst upon impact. |
+| Poison Resistance Potion | 1    | 2               | `4 / QoD` / `18`      | Once imbibed, reduces all incurred poison Damage by `Q * 2`, for up to `Q` hours. |
+| Sleeping Poison          | 1    | 3               | `3 / QoD` / `18` / +1 | Causes a victim to feel incredibly sleepy. Unless they succeed a [Self-Control](./strive-core.md#self-control-toughwit) Test at Ob `Q`, they will fall asleep the first chance they get. They cannot be woken from this state for at least `6` hours, except through the use of harmful force. |
+| Smoke Bomb               | 1    | 3               | `4 / QoD` / `12`      | A small fragile shell, filled with a very fine powder which when broken causes an area in a `Q` Square AoE radius to be covered in smoke. It is impossible to see through and ranged Attacks within or through the smoke-covered area suffer `+2` Ob. Victims caught in the smoke may be forced to cough. The smoke lasts `6` Turns or `30` seconds. |
+| Throwing Blade           | 1    | 6               | `3 / QoD` / `18`      | A small weighted blade, like a knife or star, well suited to being thrown. Can be used in melee and acts like a [Dagger](#light-blade), but with a penalty of `-2D` to Attack and Defense. `+1D` when [Thrown](./strive-core.md#throwing) for a ranged Attack. <br> `≤ 1` Hit: `4 + Str` Piercing <br> `= 2` Hits: `6 + Str` Piercing <br> `≥ 3` Hits: `8 + Str` Piercing |
+| Tools                    | 1    | 2               | `3 / QoD` / `18`      | Various metal-made, proper tools. |
+| Trap: Acid               | 1    | 3               | `3 / QoD` / `18`      | A small metal frame with a central pressure pad which, when stepped on, sprays acid upwards at the victim. Causes `(Q * 2) + 6` Acid Damage. |
+| Trap: Bear               | 1    | 3               | `3 / QoD` / `18`      | A metal-jawed trap, capable of breaking bone and flesh. Deals `Q * 2` Bludgeoning and `Q * 2` Piercing Damage. Causes [Rooted](./strive-core.md#rooted) in the victim, which costs `3` AP to clear. |
+| Trap: Cage/Net           | 1    | 1               | `3 / QoD` / `18`      | When tripped, a cage springs up around, or a net pulls up over the victim. They are trapped within until they can manage to free themselves. `Q` equals the Ob for Tests to cut or break the cage or net. |
+| Trap: Powder             | 1    | 3               | `3 / QoD` / `18`      | When tripped, coughs up a cloud of powder in a up to `Q` Square radius, which will impede all vision through it at a Ob `+2` penalty. The powder may also be flammable, poisonous or Illusionist's Powder. |
+| Trap: Rune/Scroll        | 1    | 3               | `3 / QoD` / `18`      | When tripped, a complex mechanism pours vial of mage blood onto the Rune or Scroll, in precise intervals to agitate the magic within. |
+| Trap: Shooter            | 1    | 3               | `3 / QoD` / `18`      | A crossbow or firearm is wired to shoot in a set direction by a careless trespasser. The bolt or bullet will travel up to `20` Squares far and deal `Q * 3` Piercing Damage. May also shoot poison darts or other types of ammo. |
+| Trap: Windfist           | 1    | 2               | `3 / QoD` / `18`      | A pressure plate or wire opens the seal on a pressurized container. The escaping gas hits the victim with an enormous force, throwing them `Q * 2` Squares far. |
 
 ### Armor
 
@@ -694,7 +694,7 @@ A set of light armor that doesn't impede the wearer much. Example: cloth armor l
 
 * `+2` [Strain](./strive-core.md#stamina--strain) while worn. 
 * Bulk: `2`
-* Labor: Moderate, Delay: None, Complexity: Medium
+* Work-Rate: `3 / QoD`, PI: `18`
 
 | Protections          | Unthreatened | Flanked | Surrounded | Overwhelmed | 
 | -------------------- | ------------ | ------- | ---------- | ----------- | 
@@ -711,7 +711,7 @@ A set of medium armor with a good balance of protection and weight. Example: ful
 * `-1D` to [Stealth](./strive-core.md#stealth-agiawar) while worn. 
 * `-1D` to any Defense Tests while worn. 
 * Bulk: `3`
-* Labor: High, Delay: None, Complexity: Specialized
+* Work-Rate: `2 / QoD`, PI: `24`
 
 | Protections          | Unthreatened | Flanked | Surrounded | Overwhelmed | 
 | -------------------- | ------------ | ------- | ---------- | ----------- | 
@@ -729,7 +729,7 @@ A set of heavy armor with excellent protection, at the cost of encumbering the w
 * `-3D` to [Stealth](./strive-core.md#stealth-agiawar) while worn. 
 * `-2D` to any Defense Tests while worn. 
 * Bulk: `4`
-* Labor: High, Delay: None, Complexity: Specialized
+* Work-Rate: `2 / QoD`, PI: `24`
 
 | Protections          | Unthreatened | Flanked | Surrounded | Overwhelmed | 
 | -------------------- | ------------ | ------- | ---------- | ----------- | 
@@ -756,7 +756,7 @@ A small round or oblong shield commonly held as far from the body as possible, t
 
 * `+1` [Strain](./strive-core.md#stamina--strain) while wielded. 
 * Bulk: `1`
-* Crafting: Labor: Moderate, Delay: Low, Complexity: Simple
+* Work-Rate: `3 / QoD`, PI: `12`
 
 | Unthreatened           | Flanked           | Surrounded           | Overwhelmed           |
 | ---------------------- | ----------------- | -------------------- | --------------------- |
@@ -770,7 +770,7 @@ A medium-sized, round or kite-shaped shield made from tough wood and leather or 
 * `+3` [Strain](./strive-core.md#stamina--strain) while wielded. 
 * `+1` [Stability](./strive-core.md#stability-stabil) while wielded.
 * Bulk: `2`
-* Crafting: Labor: High, Delay: Low, Complexity: Simple
+* Work-Rate: `2 / QoD`, PI: `12`
 
 | Unthreatened           | Flanked           | Surrounded           | Overwhelmed           |
 | ---------------------- | ----------------- | -------------------- | --------------------- |
@@ -782,7 +782,7 @@ A large, kite-shaped or rectangular shield, which can protect every part of the 
 * `+6` [Strain](./strive-core.md#stamina--strain) while wielded.
 * `+2` [Stability](./strive-core.md#stability-stabil) while wielded.
 * Bulk: `4`
-* Crafting: Labor: High, Delay: Low, Complexity: Medium
+* Work-Rate: `2 / QoD`, PI: `18`
 
 | Unthreatened           | Flanked           | Surrounded           | Overwhelmed           |
 | ---------------------- | ----------------- | -------------------- | --------------------- |
@@ -796,7 +796,7 @@ One and two-handed axes. See also its corresponding [Skill](#weapon-axe-strstr).
 
 * [Melee](./strive-core.md#foundational-weapon-traits)
 * Bulk: `2`
-* Crafting: Labor: Moderate, Delay: None, Complexity: Medium
+* Work-Rate: `3 / QoD`, PI: `12`
 
 #### Chained Blade 
 An exotic weighted, down-angled blade, perfect for throwing and connected to a very light chain or rope, for easy retrieval. Such a weapon requires masterful precision and rewards its user with great versatility. See also its corresponding [Skill](#weapon-chained-blade-agiagi).
@@ -804,55 +804,55 @@ An exotic weighted, down-angled blade, perfect for throwing and connected to a v
 Requires knowing [Acrobatics](#acrobatics-agistr) and [Throwing](./strive-core.md#throwing), each at Level `3+`. 
 
 * [Melee](./strive-core.md#foundational-weapon-traits), [Ranged (max. 8)](./strive-core.md#foundational-weapon-traits), [Prefer Range](./strive-core.md#foundational-weapon-traits)
-* Crafting: Labor: High, Delay: None, Complexity: Medium
+* Work-Rate: `2 / QoD`, PI: `18`
 
 #### Crusher
 Small bludgeoning weapons. Examples: any improvised weapon, any club, any mace. See also its corresponding [Skill](#weapon-crusher-strtough).
 
 * [Melee](./strive-core.md#foundational-weapon-traits)
-* Crafting: Labor: High, Delay: None, Complexity: Medium
+* Work-Rate: `3 / QoD`, PI: `18`
 
 #### Light Blade
 Any short and/or light blade, such as daggers and one-handed swords. See also its corresponding [Skill](#weapon-light-blade-agistr).
 
 * [Melee](./strive-core.md#foundational-weapon-traits)
-* Crafting: Labor: High, Delay: None, Complexity: Medium
+* Work-Rate: `2 / QoD`, PI: `18`
 
 #### Long Blade
 Any long and heavier blade, such as longswords and great-swords. See also its corresponding [Skill](#weapon-long-blade-agistr).
 
 * [Melee](./strive-core.md#foundational-weapon-traits), [Long Reach](./strive-core.md#general-weapon-traits)
-* Crafting: Labor: High, Delay: None, Complexity: Medium
+* Work-Rate: `2 / QoD`, PI: `18`
 
 #### Polearm
 Polearms and spears. Examples: boar-spear, halberd, bardiche, poleaxe. See also its corresponding [Skill](#weapon-polearm-strtough).
 
 * [Melee](./strive-core.md#foundational-weapon-traits), [Long Reach](./strive-core.md#general-weapon-traits), [Prefer Range](./strive-core.md#general-weapon-traits)
-* Crafting: Labor: High, Delay: None, Complexity: Medium
+* Work-Rate: `2 / QoD`, PI: `18`
 
 #### Short-Bow
 A short distance ranged weapon, shooting arrows. See also its corresponding [Skill](#weapon-short-bow-agiawar).
 
 * [Ranged (10 DI)](./strive-core.md#foundational-weapon-traits), [Range Only](./strive-core.md#general-weapon-traits)
-* Crafting: Labor: Moderate, Delay: None, Complexity: Simple
+* Work-Rate: `3 / QoD`, PI: `12`
 
 #### Longbow
 A long distance ranged weapon, shooting arrows. See also its corresponding [Skill](#weapon-longbow-awarstr).
 
 * [Ranged (20 DI)](./strive-core.md#foundational-weapon-traits), [Range Only](./strive-core.md#general-weapon-traits)
-* Crafting: Labor: Moderate, Delay: None, Complexity: Simple
+* Work-Rate: `3 / QoD`, PI: `12`
 
 #### Crossbow
 A deadly medium distance ranged weapon, shooting bolts. Beware its slow reload. See also its corresponding [Skill](#weapon-crossbow-awarawar).
 
 * [Ranged (15 DI)](./strive-core.md#foundational-weapon-traits), [Prefer Range](./strive-core.md#general-weapon-traits), [Slow Reload](./strive-core.md#general-weapon-traits)
-* Crafting: Labor: High, Delay: None, Complexity: Simple
+* Work-Rate: `2 / QoD`, PI: `12`
 
 #### Firearm
 A very deadly short to medium distance ranged weapon, shooting small metal balls that are partially able to penetrate armor. Beware its slow reload. See also its corresponding [Skill](#weapon-firearm-awartough).
 
 * [Ranged (10 DI)](./strive-core.md#foundational-weapon-traits), [Prefer Range](./strive-core.md#general-weapon-traits), [Very Slow Reload](./strive-core.md#general-weapon-traits)
-* Crafting: Labor: High, Delay: None, Complexity: Specialized
+* Work-Rate: `3 / QoD`, PI: `18`
 
 ### Weapon Traits
 Additions to the [Core Weapon Traits](./strive-core.md#weapon-traits). 
@@ -1023,7 +1023,7 @@ The ability to brew alchemical potions, create powders, mixtures and other subst
 [Crafting](./strive-core.md#crafting--research-projects):
 * For every `Q` past `2`, choose one of the following:
   * Gain `+1` amount of your product. 
-  * Gain a secondary product whose Progress Increment is smaller, with amount `1`. 
+  * Gain a secondary product whose Quality is `1` Level lower. 
 * [Acid Bomb](#general-assets) (3x)
 * [Calming Tea](#general-assets) (3x)
 * [Dragon's Breath Potion](#general-assets) (2x)
@@ -1344,7 +1344,7 @@ Catching glimpses of the unknowable and nudging fate. A Divination mage prefers 
 | ----- | -------------------------- | -- | ------------- | ---------------------------- | ------------------------------ | ------------------ |
 | 0     | I Saw It Coming            | 1  | `9`           | `SI`                         | **Reaction**: When you or an ally is successfully Attacked, subtract `SI` Hits from the Attacker's roll. This may cause the Attack to fail. | The Attacker instead gains `SI` Hits to their roll! |
 | 0     | Direct Success             | 2  | `9`           | `SI`                         | **Reaction**: When an ally rolls a Test, add `SI` dice to it, and raise their Hit Limit by `+1`. | Your ally instead loses `SI` dice! |
-| 1     | Boost Project              | 4  |               | `SI`                         | Once a day, boost the progress of a [Project](./strive-core.md#crafting--research-projects), by `SI * 3` points! | The Project instead loses `SI * 2` points! |
+| 1     | Boost Project              | 4  |               | `SI`                         | Once a day, boost the Progress of a [Project](./strive-core.md#crafting--research-projects), by `SI * 3` points! | The Project instead loses `SI * 2` points! |
 | 2     | Watch Defense              | 4  |               | `SI`                         | **Concentration**: Up to `SI` MST cannot be Watched. |  |
 | 2     | Watch                      | 4  |               | `3`                          | Glimpse a short vision of a person or object, no matter where they are. But only your target is clearly visible. Your peripheral vision is blurred and foggy. | The target becomes aware that the winds of magic swirled in agitation around them. They might not know *who* Watched them, but they may figure out *that* they were Watched. |
 | 4     | Calamitous Prognostication | 3  | `SI * 3`      | `3`                          | In one Round, something bad happens to a ST. Choose: `1`: Something falls on their head or they stumble and fall prone. `2`: They are mistaken for a foe by their allies or they might mistake their allies for foes. `3`: They drop something they are holding or which is on their person. `4`: The winds of magic are agitated, causing `+1` [Arcane Slag](#arcane-overheat--slag). | You are affected, instead! |
