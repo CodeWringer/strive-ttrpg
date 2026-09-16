@@ -395,7 +395,7 @@ By using STRIVE (that includes but is not limited to viewing, reading, referenci
   - [List of Titles of Renown](#list-of-titles-of-renown)
     - [Heart of Stone](#heart-of-stone)
     - [Hero of Many Victories](#hero-of-many-victories)
-    - [Loremaster of X (degree)](#loremaster-of-x-degree)
+    - [Loremaster of \< Subject \> (\< degree \>)](#loremaster-of--subject---degree-)
     - [Monster Hunter](#monster-hunter)
     - [Paragon](#paragon)
     - [Pugilist](#pugilist)
@@ -1922,23 +1922,25 @@ A **Complex Project** is a longer-term activity, that comes with significant cha
 [Progress](#progressing-a-project) is tracked and one or more Project Rolls deterime the final Quality of the product. 
 
 #### Research Projects
-A Project can be about the research of obscure knowledge - not mundane, common knowledge. You must visit various libraries, study dusty old tomes or comb countless digital archives, go on archeological digs and question other scholars. This is a task requiring substantial effort. 
+A Project can be about the research of **obscure** knowledge. You must visit various libraries, study dusty old tomes or comb countless digital archives, go on archeological digs and question other scholars. This is a task requiring substantial effort. For common, every-day knowledge that you may gain simply by asking strangers on the street, don't consider a Research Project. In fact, you might be better served simply role-playing such information-gathering. Or tie it to a Skill Test, that is, turn it into a [Trivial Project](#trivial-project). 
 
-The Quality Level you achieve in the end dictates the degree of knowledge you learned about your subject. You may always try to gain even deeper understanding of your topic, by researching the same subject matter again. Your previous knowledge will accelerate further studies by `N * 2`, where *N* is your current degree of knowledge, every time you gain a Progress Increment.
+The Quality Level you achieve in the end dictates the degree of knowledge you learned about your subject. You may always try to gain even deeper understanding of your topic, by researching the same subject matter again. Your previous knowledge *may* accelerate further studies, by lowering your Work-Rate. Your GM will have to figure out by how much. 
 
-As a prerequisite to begin your studies, you must have access to the number of research objects as listed below. This can be anything, from old scrolls to data sticks, from shattered pieces of ancient machinery to intact but completely alien devices and even NPCs who hold knowledge they might be willing to share. 
-
-| Obscurity    | Quality Level | Research Objects | Description | 
-| ------------ | ------------- | ---------------- | ----------- | 
-| Common       | 1 - 2         | 0                | Common knowledge can be easily researched. Even so, it's not so common that everyone knows it already. It may still take some effort to find the right pieces of writing or piece together what you need from questioning several other people. |
-| Specialized  | 3 - 4         | 1                | Only few individuals have deeper knowledge regarding the topic you seek to understand. Only few pieces of writing even make note of your topic. It will require substantial effort to track down sources of knowledge and then puzzle the pieces together. |
-| Obscure      | 5 - 6         | 2                | Barely anyone, if anyone at all, even knows of this esoteric subject. Tracking down anyone with knowledge will be a considerable challenge. And whatever writing exists, may be stowed away, hidden in private collections, not easily accessible and not easily parted with. And even if access to these sources of knowledge can be secured, making sense of it all will be a challenge. |
-| Unfathomable | 7 - 8+        | 3                | No one alive still knows anything about this subject. Whatever writing may exist, is manifested in a long dead language, on a medium hidden in a remote and forgotten place. Even if you find this remnant of knowledge, how could you possibly make sense of it? |
-
-When you finish the research Project, you'll have the answers you seek and may gain the title "Loremaster of *X* (degree)", where you replace *X* with the subject you researched and *degree* with the Quality Level. 
+When you finish the research Project, you'll have the answers you seek and may gain the title [Loremaster of *Subject* (degree)](#loremaster-of--subject---degree-), where you replace *Subject* with the subject you researched and *degree* with the Quality Level. 
 
 #### Invention Projects
-As a difference to regular Projects, whenever you choose to Push On, you may also get a less effective prototype of your invention, if you score a Hit on a single `D6` roll, at the GM's discretion. Your prototype receives the Project's current Quality Level. 
+Invention is a very unique activity, that rules do not easily fit around. The GM will have to do a lot of heavy lifting, determining Work-Rate and Progress Increments, depending on the type of invention and the means available. 
+
+> Narratively, every Work-Session will advance you through the following loop. By how much, will depend on the nature of the Project. Sometimes, a single Work-Session may catapult you forward several steps. Other times, only a single step. In the end, it doesn't matter from a mechanics stand-point, but may help you envision your Project in greater detail. The GM can even leverage this cycle to give you Project Events completely unique to your particular Project. 
+> * Designing
+> * Prototyping
+> * Obtaining components
+> * Testing
+> * Discovering failures
+> * Researching solutions
+> * Modifying the design
+
+As a difference to regular Projects, whenever you choose to Push On, you *may* also get a less effective prototype of your invention, if you score a Hit on a single `D6` roll, at the GM's discretion. Your prototype receives the Project's current Quality Level and Complications. 
 
 ## Progressing a Project
 Every [non-Trivial Project's](#trivial-project) **Progress** is tracked numerically. All Progress begins at `0` and is increased through use of a particular [Skill](#skills) (further called the **Project Skill**). When its current Progress reaches the **Total Required Progress**, the Project may complete, or be continued. 
@@ -1990,30 +1992,36 @@ You get [Advancement Progress](#advancement) (but no [XP](#experience-points-xp)
 ### Project Boosters
 During their adventures, or while perusing the market or library, PCs may find things that can boost the Progress of their Project. These **Project Boosters** can be varied - schematics, specialized tools, a rare artefact, advice from a knowledgeable NPC, and similar. But they always either increase the Project's current Progress or Quality Level. The latter boost is especially powerful. 
 
-These things can add Progress to a Project or raise the Quality Level. How much they boost the Project, will be determined by the GM. A good baseline should be that a common Project Booster adds `+8`, a rare adds `+12` and an enigmatic adds `+25`. But of course, these numbers are only suggestions. Project Boosters that increase Quality Level should be very rare and most valuable. Acquiring them should be an adventure of its own, or the reward for great deeds well performed. 
+These things can **add Progress** to a Project, **raise the Quality Level** or **improve the Work-Rate**. How much they boost the Project, will be determined by the GM. 
+* For Progress, a good baseline should be that a common Project Booster adds `+8`, a rare adds `+12` and an enigmatic adds `+25`. But of course, these numbers are only suggestions. 
+* Project Boosters that increase Quality Level should be very rare and most valuable. Acquiring them should be an adventure of its own, or the reward for great deeds well performed. 
+* Likewise, improving the Work-Rate is another powerful Booster. Improving it just by one grade can have significant long-term accerelating effects. These can also be awarded for very clever solutions by players that narratively *should* accelerate their Work-Rate. 
 
-Typically, Project Boosters are one-time use. Once they have been used to add Progress to the Project, they cannot be used again. However, this is not a hard-set rule. Some things, like a magic cauldron or high-tech lab equipment may of course be used again, provided no narrative reasons forbid it. But perhaps these things may be limited to once a day, or week, or whatever time unit works best for you. 
+Typically, Project Boosters are one-time use. Once they have been used to add Progress to the Project, they cannot be used again. However, this is not a hard-set rule. Some things, like a magic cauldron or high-tech lab equipment may of course be used again, provided no narrative reasons forbid it. But these should be limited to once a day, or week, or whatever time unit works best for you. Make them *too* available, and they eliminate the feeling of accomplishment after a long-lasting Project. 
 
 ## Determining Work-Rate
-There are two axes that determine Work-Rate:
+There are three axes that determine Work-Rate:
 * **Labor**: How much focused labor is required.
   * Some work is simply more labor intensive - attaching mail rings to one another, embroidery, hammering an armor plate into shape, designing the 3D model for print, etc.
 * **Delay**: How much time must pass before the next step of the work can begin.
   * Some natural processes take time, which cannot be shortened - how long it takes for paint or glue to cure, the fire of the forge to heat up, the 3D printer to finish a step of work, etc.
+* **Problem-Solving**: How much thought, experimentation, research, or iteration is required before meaningful progress can be made.
 
-Walk through the following table twice. Once for Labor and once for Delay. Take only the **smaller** of the two resulting numbers. 
+Walk through the following table three times. Once for Labor, once for Delay and once for Problem-Solving. Take only the **smaller** of the resulting numbers. 
 
-| **Grading**           | **Labor**                     | **Delay**                              | **Work-Rate / QoD** |
-| --------------------- | ----------------------------- | -------------------------------------- | ------------------- |
-| **None**              | A negligible amount of work.  | No delay between work steps.           | 5                   |
-| **Low**               | A modest amount of work.      | Short delay between work steps.        | 4                   |
-| **Moderate**          | A substantial amount of work. | Lengthy delays between work steps.     | 3                   |
-| **High**              | A large amount of labor.      | Significant delays between work steps. | 2                   |
-| **Extreme**           | An enormous amount of labor.  | Enormous delays between work steps.    | 1                   |
+| **Grading**           | **Labor**                     | **Delay**                              | **Problem-Solving**                                                                                             | **Work-Rate / QoD** |
+| --------------------- | ----------------------------- | -------------------------------------- | --------------------------------------------------------------------------------------------------------------- | ------------------- |
+| **None**              | A negligible amount of work.  | None. Once one step of work is complete, the next can begin immediately. | None. What needs to be done is perfectly clear.                               | 5                   |
+| **Low**               | A modest amount of work.      | Short delays between work steps.       | Some. The overall image is clear, and only the details require some care.                                       | 4                   |
+| **Moderate**          | A substantial amount of work. | Lengthy delays between work steps.     | Significant. While the overall goal is clear, it requires some experimentation and research.                    | 3                   |
+| **High**              | A large amount of labor.      | Significant delays between work steps. | Troubling. There are many unanswered questions that will require a thorough investigation and many experiments. | 2                   |
+| **Extreme**           | An enormous amount of labor.  | Enormous delays between work steps.    | Constant. Every piece of information is obscure, or absent. Much experimentation and research is required.      | 1                   |
 
-> 3D printing a model: Low Labor, High Delay -> Work-Rate: `2 / QoD`<br>
-> Making chainmail armor: Extreme Labor, No Delay -> Work-Rate: `1 / QoD`<br>
-> Building an airship: High Labor, Moderate Delay -> Work-Rate: `2 / QoD`
+> 3D printing a model: Low Labor, High Delay, Low Problem-Solving -> Work-Rate: `2 / QoD`<br>
+> Inventing a steam ship: High Labor, Low Delay, Extreme Problem-Solving -> Work-Rate: `1 / QoD`<br>
+> Making chainmail armor: High Labor, No Delay, Low Problem-Solving -> Work-Rate: `2 / QoD`<br>
+> Paint armor: Low Labor, Moderate Delay, Low Problem-Solving -> Work-Rate: `3 / QoD`
+> Research unknown herb: Low Labor, None Delay, High Problem-Solving -> Work-Rate: `2 / QoD`
 
 ## Determining Progress Increment
 There are two axes that determine the Progress Increment of a Project:
@@ -3099,15 +3107,15 @@ Every time you earn [Temporary HP](#temporary-health-points), you earn `+5` more
 
 Every Combat you enter starts your side with `+10` [Momentum](#momentum). 
 
-### Loremaster of X (degree)
+### Loremaster of < Subject > (< degree >)
 > What do you wish to know? Oh, yes, I do remember reading about that. I'll gladly explain it all to you in excruciating detail. 
 
 **Prerequisites**: Researched obscure or forgotten lore about a particular subject. 
 
-Replace *X* with the subject you're knowledgeable about. Then replace *degree* with the depth of your knowledge:
+Replace *Subject* with the subject you're knowledgeable about. Then replace *degree* with the depth of your knowledge:
 1. You have surface-level understanding of the topic. You know as much as anyone could, if they did a little more digging. 
 2. You have a deeper understanding and can recall details your peers didn't know existed. But even you find your limit early when it comes to the more obscure details. 
-3. You know even the more obscure details. But your knowledge is still incomplete. The long lost secrets remain a mystery even to you. 
+3. You know even the more obscure details and know the topic like the back of your hand. But your knowledge is still incomplete. The greatest secrets remain a mystery even to you. 
 4. You know *everything* about this topic. No detail is too obscure, no secret left buried. 
 
 ### Monster Hunter
