@@ -2020,7 +2020,7 @@ Walk through the following table three times. Once for Labor, once for Delay and
 > 3D printing a model: Low Labor, High Delay, Low Problem-Solving -> Work-Rate: `2 / QoD`<br>
 > Inventing a steam ship: High Labor, Low Delay, Extreme Problem-Solving -> Work-Rate: `1 / QoD`<br>
 > Making chainmail armor: High Labor, No Delay, Low Problem-Solving -> Work-Rate: `2 / QoD`<br>
-> Paint armor: Low Labor, Moderate Delay, Low Problem-Solving -> Work-Rate: `3 / QoD`
+> Paint armor: Low Labor, Moderate Delay, Low Problem-Solving -> Work-Rate: `3 / QoD`<br>
 > Research unknown herb: Low Labor, None Delay, High Problem-Solving -> Work-Rate: `2 / QoD`
 
 ## Determining Progress Increment
