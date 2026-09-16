@@ -2034,8 +2034,8 @@ Walk through the following table three times. Once for Labor, once for Delay and
 > Inventing a steam ship: High Labor, Low Delay, Extreme Problem-Solving -> Work-Rate: `1 / QoD`<br>
 > Making chainmail armor: High Labor, No Delay, Low Problem-Solving -> Work-Rate: `2 / QoD`<br>
 > Paint armor: Low Labor, Moderate Delay, Low Problem-Solving -> Work-Rate: `3 / QoD`<br>
-> Research unknown herb: Low Labor, None Delay, High Problem-Solving -> Work-Rate: `2 / QoD`
-> Research unknown language: Low Labor, None Delay, Extreme Problem-Solving -> Work-Rate: `1 / QoD`
+> Research unknown herb: Low Labor, Low Delay, High Problem-Solving -> Work-Rate: `2 / QoD`
+> Research unknown language: Low Labor, Low Delay, Extreme Problem-Solving -> Work-Rate: `1 / QoD`
 
 ## Determining Progress Increment
 There are two axes that determine the Progress Increment of a Project:
