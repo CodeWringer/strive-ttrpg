@@ -30,7 +30,7 @@ First, Player Characters are strongly encouraged to cooperate, as that is how th
 
 Secondly, the GM is not an adversary. They're a curator of interactive drama. But to make drama work, both the GM and the players have to work together. The GM is expected to work the Characters' goals into the narrative. You must communicate and coordinate your wishes for the game. It is easy for a GM to kill Player Characters, or to simply ignore their Drivers. It is also easy for players to be secretive about their Character's wishes and goals. But then no drama can happen. As such, when you exchange your ideas, the GM can help nudge Drivers in a direction that will work for their narrative, while players can gain a better idea of how they may expect drama to occur. 
 
-This is a very complex and difficult to describe design goal. Effectively, it boils down to this: always assume everyone at the table wants to have fun **together**, **respects one other** and understands STRIVE as a **cooperative game**.
+This is a very complex and difficult to describe design goal. Effectively, it boils down to this: always assume everyone at the table wants to have fun **together**, **respects eachother** and understands STRIVE as a **cooperative, shared experience**.
 
 ## Tactical
 First of all, STRIVE is **not a wargame**. It is not about coordinating large troop movements, managing supply lines or establishing chains of command (although you can feature such things in your game if you like). 
@@ -81,7 +81,7 @@ There are my two small, yet inexorable groups of play-testers, whose feedback ha
 And of course, such a project did not come into existence in a vacuum. Inspiration and lessons were found in a variety of places, such as other TTRPGs. Each of them deserves an honorable mention and in what ways they differ from STRIVE. It bears stating here that neither STRIVE, nor I as its designer, are in any way affiliated with, sponsored or endorsed by the products and website mentioned below. These are simply honorable mentions of other RPGs and sources for inspiration. 
 
 * If you are interested in a medieval fantasy world and enjoy the Driver and Fate-Card systems, but care little for STRIVE's emphasis on combat, **Burning Wheel** may be what you seek. 
-* For heroic medieval fantasy, where combat is the core - even more so than in STRIVE -, check out **Draw Steel**. Its unique Malice mechanic and how combatants are constantly moved around keeps combat interesting all throughout.
+* For heroic medieval fantasy, where combat is the core - even more so than in STRIVE -, check out **Draw Steel**. Its unique Malice mechanic and how combatants are constantly moved around keeps combat interesting all throughout. And if you dislike STRIVE's class-less player Character approach, Draw Steel is the polar opposite, in this regard. 
 * **Symbaroum** offers haunting and marvelous artworks in an equally fascinating dark medieval fantasy world. The way in which you can customize your Character builds are plentiful and really fun to experiment with! Skill Expertises and some Traits were inspired by this system.
 * For grim dark fantasy, with a more complex injury system, take a look at **Zweihänder**, which in turn appears inspired by **Warhammer Fantasy**. Its list of professions and skills offers an incredible wealth of Character customization! 
 * **The Black Eye**, or **Das Schwarze Auge** in German, which leans very heavily into the simulationist spectrum, with intricate systems for almost everything, a fully worked out world in a medieval fantasy setting and with a unique way of handling skill tests. Rolling three dice and letting the skill's level compensate for bad rolls is quite unique, which partly inspired STRIVE's dice mechanics. 
@@ -149,7 +149,6 @@ By using STRIVE (that includes but is not limited to viewing, reading, referenci
     - [Providing Assistance](#providing-assistance)
       - [Helpers Learn](#helpers-learn)
     - [Edge](#edge)
-    - [Time](#time)
     - [Test Success Likelihoods](#test-success-likelihoods)
   - [Actions, Reactions \& Passives](#actions-reactions--passives)
 - [Character](#character)
@@ -249,15 +248,15 @@ By using STRIVE (that includes but is not limited to viewing, reading, referenci
 - [Crafting \& Research Projects](#crafting--research-projects)
   - [Project Prerequisites](#project-prerequisites)
   - [Progressing a Project](#progressing-a-project)
-  - [Project Complications](#project-complications)
-  - [Quality Level Reference](#quality-level-reference)
+  - [Determining Work-Sessions](#determining-work-sessions)
+  - [Determining Progress Increment](#determining-progress-increment)
   - [Project Boosters](#project-boosters)
   - [Crafting It Again](#crafting-it-again)
     - [Crafting It In Batches](#crafting-it-in-batches)
   - [Research Projects](#research-projects)
   - [Invention Projects](#invention-projects)
-  - [Complexity to Progress Increments](#complexity-to-progress-increments)
-  - [Workload to Time Increments](#workload-to-time-increments)
+  - [Project Complications](#project-complications)
+  - [Quality Level Reference](#quality-level-reference)
   - [Project Events](#project-events)
 - [Trade](#trade)
   - [Appraisal](#appraisal)
@@ -569,6 +568,7 @@ As STRIVE is meant primarily as a rule-book to help you quickly find what you ne
 | [Binary Test](#binary-test)                                 | A Test that allows no room for failure. |
 | [Bleeding](#bleeding)                                       | A Condition that causes Bleeding Damage every Tick. |
 | [Boon](#boons--penalties)                                   | A positive effect on a Character, for example one that grants Edge or which awards Temporary HP. |
+| [Brief](#quarters-of-a-day-qod)                             | A Brief activity takes only minutes. Many of these can happen in a [QoD](#quarters-of-a-day-qod), without advancing it meaningfully.  |
 | [Bulk](#bulk)                                               | Describes the weight, size and ease of use of an Asset. |
 | [Burning](#burning)                                         | A Condition that causes Burning Damage every Tick. |
 | [Carrying Capacity](#carrying-capacity)                     | Limits how much a Character can carry on-person. |
@@ -588,6 +588,7 @@ As STRIVE is meant primarily as a rule-book to help you quickly find what you ne
 | [D8](#dice)                                                 | An eight-sided die      |
 | [Damage Type](#damage-types)                                | All Damage falls into one of the Damage Types, which also determines the type of Injury such Damage may cause. |
 | [Damage](#damage--effects)                                  | Damage is the number that reduces [HP](#health-points-hp), as a result of Attacks or environmental hazards. |
+| [Day-Long](#quarters-of-a-day-qod)                          | A Day-Long activity takes at least `3` [QoDs](#quarters-of-a-day-qod), assuming the fourth is reserved for resting.  |
 | [Death's Door](#deaths-door)                                | A Condition only PCs can have. This is their final battle with death. |
 | [Defender](#defending)                                      | A Character who is target of another's Action. The distinction whether this is a hostile or benign action does not matter. |
 | [Defense Test](#attacking)                                  | A Test made to oppose the Attack of another Character. |
@@ -602,10 +603,12 @@ As STRIVE is meant primarily as a rule-book to help you quickly find what you ne
 | [Drivers](#drivers)                                         | Refers to a Character's Ambition, Aspirations and Quirks - goals to work towards and automatic triggers to get them into trouble. |
 | [Drug-Addicted](#drug-addicted)                             | A Condition that forces a Character to act compulsively. |
 | [Edge](#edge)                                               | A countable, temporary resource that grants a temporary **advantage to achieve Hits** in a Test and temporarily **raises the** [**Hit Limit**](#testing-a-skill) by `+1`, for each Edge. |
+| [Effective Damage](#damage--effects)                        | Refers to the Damage number that is actually applies to HP, after [Armor](#armor-assets) and [Resistances](#damage-resistances) have been applied. Damage that is completely negated by Armor and Resistances is **not** considered Effective Damage. |
 | [Electrified](#electrified)                                 | A Condition that forces a Character to spasm uncontrollably and thus be Force-Moved. |
 | [Exhausted](#exhausted)                                     | A Condition that Character suffer when they exert themselves too much. It makes them lethargic and their Tests harde to succeed. |
 | [Experience Point(s) (XP)](#experience-points-xp)           | Allows unrestricted Character Advancement. |
 | [Expertise](#expertise)                                     | A sub-ability of a Skill. |
+| [Extended](#quarters-of-a-day-qod)                          | An Extended activity takes several hours or more, and is very likely to advance the current [QoD](#quarters-of-a-day-qod).  |
 | [Fate Point(s) (FP)](#fate-points)                          | A meta-currency that players earn through roleplay and great achievements. Can be used to buy powerful Fate-Cards from the Hand Of Fate. |
 | [Fate-Card](#hand-of-fate)                                  | A powerful meta-currency that allows you to change dice rolls and even influence the narrative. |
 | [Favored Attribute](#core-favored-normal--penalized-attributes)| An Attribute that is inherently easier to Advance. |
@@ -618,7 +621,7 @@ As STRIVE is meant primarily as a rule-book to help you quickly find what you ne
 | [Full Rest, Resting](#resting)                              | Spending time asleep or in deep meditation, allowing a Character to recover their health. |
 | [Game-Master (GM)](#introduction)                           | The person running the game. |
 | [Glancing Success](#test-success-ratings)                   | A fairly weak success of a Test. |
-| [Graduated Test](#graduated-test)                           | A Test with a gradation of success or failure. Mostly finds use in crafting. |
+| [Graduated Test](#graduated-test)                           | A Test with a gradation of success or failure. Mostly finds use in Crafting. |
 | [Granular-Time](#time-management)                           | Has time flowing very slowly, sometimes even on a moment-by-moment basis and may, use [Initiative Order](#initiative-order) to allocate time slices. |
 | [Grappled](#grappled)                                       | A Condition for a Character in another's grip. The Grappled Character can not move of their own volition and counts as Flanked to one additional degree. |
 | [Grit Point](#grit-points)                                  | A one-time resource that is earned through Injuries, which can be spent as a last-ditch effort to turn the wheel of fate around. |
@@ -636,13 +639,13 @@ As STRIVE is meant primarily as a rule-book to help you quickly find what you ne
 | [Injury Shrug-Off](#shrugging-off-an-injury)                | When a Character suffers enough Damage to potentially also suffer an Injury, they may try to shrug it off, thus avoiding the Injury. |
 | [Injury](#injury)                                           | A serious health impediment of a Character, suffered through Damage, when failing a Shrug-Off Test. |
 | [Innate Ability](#innate-abilities)                         | A special ability that a Character has access to based on their ancestry. |
-| [Effective Damage](#damage--effects)                        | Refers to the Damage number that is actually applies to HP, after [Armor](#armor-assets) and [Resistances](#damage-resistances) have been applied. Damage that is completely negated by Armor and Resistances is **not** considered Effective Damage. |
 | [Instance of Damage](#damage--effects)                      | Refers to the moment in time when Damage is suffered, before it is reduced by [Armor](#armor-assets) and [Resistances](#damage-resistances). Multiple Types of Damage may be part of the same Instance of Damage. |
 | [Jealous](#jealous)                                         | A Condition that makes a Character feel desperately compelled acquire *something*. |
 | [Knock-Back](#forced-movement)                              | Forces a Character away from another. |
 | [Known Skill](#skills)                                      | A Skill at Level `1+`, which is still considered known to the Character. They can properly utilize such a Skill. |
 | [Language](#languages)                                      | A Character's ability to communicate and potentially read and write in a language that exists in your GM's world. |
 | [Learning Skill](#learning-skills)                          | A Skill at Level `0`, which is still considered unlearned. A Character has not yet gained the ability to properly utilize such a Skill, for example in Skill Forking. |
+| [Lengthy](#quarters-of-a-day-qod)                           | A Lengthy activity takes one or more hours and can consume a substantial portion of a [QoD](#quarters-of-a-day-qod).  |
 | [Long Reach](#foundational-weapon-traits)                   | A Weapon Trait for melee weapons that allow Attacking targets up to two Squares away. |
 | [Luggage](#luggage)                                         | The Assets a Character is carrying on-person. |
 | [Major Fate-Point (MaFP)](#major-fate-points)               | A Fate-Point earned for a major achievement and great role-play. |
@@ -653,6 +656,7 @@ As STRIVE is meant primarily as a rule-book to help you quickly find what you ne
 | [Miss](#tests)                                              | Negative result of an individual die-roll in a Test. |
 | [Modified Level](#raw-vs-modified-level)                    | The Level value after Boons and Penalties have been applied to it. |
 | [Momentum](#momentum)                                       | A special resource that the PCs earn and lose as a group, during Combat. It enables use of Heroic Acts and Desperate Measures. |
+| [Multi-Quarter](#quarters-of-a-day-qod)                     | A Multi-Quarter activity at least two [QoDs](#quarters-of-a-day-qod).  |
 | [Multiple Single Target (MST)](#multiple-single-target-mst) | Indicates that an Attack affects multiple targets, each of which is handled individually, for example for rolling Defense Tests. |
 | [Non-Player Character (NPC)](#non-player-character-npc)     | Represents all the people, animals and monsters of a world, that are controlled by the GM. |
 | [Normal Attribute](#core-favored-normal--penalized-attributes)| An Attribute that is enjoys normal Advancement costs. |
@@ -679,7 +683,7 @@ As STRIVE is meant primarily as a rule-book to help you quickly find what you ne
 | [Project Booster](#project-boosters)                        | May add Progress or Quality Levels to a Project. |
 | [Project Complications](#project-complications)             | An alternative to losing Quality Levels when failing a Project Skill Test. |
 | [Project Skill](#progressing-a-project)                     | The Skill used to add Progress to a Project. |
-| [Project](#crafting--research-projects)                     | A long-term and abstract side-activity of a PC to craft or research something. |
+| [Project](#crafting--research-projects)                     | A long-term and abstract side-activity of a PC to Craft or research something. |
 | [Prone](#prone)                                             | A Condition for a Character currently low to the ground. They are easier to harm in melee, but harder to harm at range. |
 | [Property](#property)                                       | The Assets a Character owns but is not carrying on-person. |
 | [Pull](#forced-movement)                                    | Forces a Character closer to another. |
@@ -718,7 +722,6 @@ As STRIVE is meant primarily as a rule-book to help you quickly find what you ne
 | [Temporary Health Point(s)](#temporary-health-points)       | A separate Health Point resource that is reduced before regular Health Points and whose loss does not cause Injuries. |
 | [Terrified](#terrified)                                     | A Condition that forces a Character to flee from whatever the source of their terror is. |
 | [Tick](#ticks)                                              | The immediate moment of time when a Character's Turn begins. This is when Conditions apply their effects. |
-| [Time Increment (TI)](#progressing-a-project)               | Determines how often progress may be added to a Project. |
 | [Title of Renown](#titles-of-renown)                        | A unique reputation that a Character is known for, far and wide. Often earned through great achievements, both good and terrible. |
 | [Toughness (Tough)](#toughness-tough)                       | An Attribute that describes a Character's capacity to withstand physical and mental strains. Finds use in determining maximum HP, maximum Stamina and Sprinting Speed. |
 | [Treated Injury](#injury-treatment)                         | A Treated Injury only reduces a Character's maximum HP. |
@@ -871,15 +874,9 @@ This type of Test is useful for situations where the GM decides to create very f
 #### Graduated Test
 The outcome of the Test is graduated. That means, the number of Hits rolled factor into the outcome. 
 
-> For example, when crafting a work of art, the number of Hits achieved may result in a more impressive piece, which can then be sold at a higher price or which could make for a more impressive gift. 
-
 A Graduated Test can occur in two forms. The first is without an Ob threshold for failure and the second is *with* such a threshold. When a Graduated Test has an Ob, then at least that number of Hits must be rolled, in order to succeed the Test, at all. Any Hits rolled past the Ob, determine the **Degree Of Success**. However, not achieving at least Ob number of Hits results in the Test being counted as a failure. 
 
 On the other hand, a failure doesn't have to be *absolute*. The number of Hits *missing* to reach the Ob threshold determine the **Degree Of Failure**. Therefore, there might be a chance to "fail forward" - a success, but with complications, whose severity depends on the Degree Of Failure. 
-
-> A PC has to do a Graduated Test of one of their craftsmanship Skills, at Ob `3`. They only achieve only `2` Hits, which results in a Degree Of Failure of `1`. 
-> 
-> Seeing such a low Degree Of Failure, the GM rules that the PC *does* succeed their Test, but also loses more materials in the process than a success would have cost them. 
 
 #### Creative Test
 For this type of Test, a scenario is played through fairly abstractly. The GM outlines various challenges that must be overcome and what consequences the players may expect if they succeed or fail in overcoming these challenges. Also, they set a number of successes that the PCs must accrue, in order to succeed this Test. A good base number should be slightly lower than or even just half the number of PCs in the group. But particularly challenging Creative Tests may have a higher number. 
@@ -930,16 +927,6 @@ A Character helping in a Test, gains `+1` [XP](#experience-points-xp).
 > When rolling `3D6`, with `2` Edge and achieving `5`, `3` and `4` in the roll, then `1` Edge can be used to turn the `4` into a `5` or all Edge could be used to turn the `3` into a `5`. There is not enough Edge to turn all Misses into Hits, but at least one die is guaranteed to become a Hit! 
 
 Edge is **not persistent**! Once Combat ends or the scene changes, all Edge expires!
-
-### Time
-Not all Tests are created equal - some actions require more time than others. 
-
-While the GM decides on how much time a given Test will need, the following guidelines should provide a good basis. 
-
-* (Near) instantaneous: Combat actions, recalling knowledge, noticing things in passing. 
-* A matter of minutes: inspecting an environment, quickly skimming the contents of a book, a short conversation, first aid, superficial surgery. 
-* A matter of hours: Simple crafts, complicated surgery, scrutinizing an environment, researching something simple and common, engaging in lengthy and difficult negotiations.
-* A matter of days and months: Complex crafts and artistry, researching a complex or obscure subject. 
 
 ### Test Success Likelihoods
 As is the nature of dice pool systems, it is difficult to know how many dice you need to 'succeed' a Test. While there are stochastic formulae that can help us figure out a mathematical answer, such formulae are often too complex to make use of when playing the game. Instead, the following guidelines and numeric table may help.
@@ -1189,7 +1176,7 @@ Characters know languages that allow them to communicate. Each language a Charac
 
 > A Character with Wit `3`, who is a Native speaker, tries understand some ancient lore written in their language. They get to roll `(3 (from Wit) + 8 (from Native language grade) = 11` dice for the Test. The Ob will be chosen by the GM, based on *just how ancient and obscure* the text is, meaning, how difficult to read it is. 
 
-Languages may be learned. Treat this like a [Research Project](#research-projects), with a PI of `25`, TI of `1 day`, but instead of a Project Skill, use your [Wit](#wit-wit) to add progress. The achieved `Q` equals the language grade, up to a maximum of `3`. `1` results in a Dabbling, `2` in a Proficient and `3` in a Native language grade. 
+Languages may be learned. Treat this like a [Research Project](#research-projects), with High Labor, No Delay and Simple Complexity. Instead of a Project Skill, use your [Wit](#wit-wit) to add Progress. The Project's achieved `Q` equals the language grade, up to a maximum of `3`. `1` results in a Dabbling, `2` in a Proficient and `3` in a Native language grade. 
 
 ### Advancement
 Through [Tests](#tests), Characters learn and improve. For every Test, `+1` [XP](#experience-points-xp) is earned. If Testing a [Skill](#skills), then *additionally*, the Advancement Progress of that Skill is incremented by `+1`. 
@@ -1848,11 +1835,11 @@ Regardless of how quickly time currently flows, every in-game day is divided int
 Each day is divided into four Quarters: **Night**, **Dawn**, **Midday**, and **Dusk**. Each Quarter lasts approximately six hours. Translated to a `24`-hour clock, Night is from `00:00` to `06:00`, Dawn from `06:00` to `12:00`, Midday from `12:00` to `18:00` and finally Dusk is from `18:00` to `00:00`. 
 
 Activities are categorized as follows:
-* A **Brief** activity takes only a few minutes, at most. Many of these can happen in a QoD, without advancing it meaningfully. 
+* A **Brief** activity takes only minutes. Many of these can happen in a QoD, without advancing it meaningfully. 
 * A **Lengthy** activity takes one or more hours and can consume a substantial portion of a QoD. 
 * An **Extended** activity takes several hours or more, and is very likely to advance the current QoD. 
-* A **Multi-Quarter** activity takes two or three QoDs. 
-* A **Day-Long** activity takes `4` QoDs. 
+* A **Multi-Quarter** activity at least two QoDs. 
+* A **Day-Long** activity takes at least `3` QoDs, assuming the fourth is reserved for resting. 
 
 A QoD is a time-keeping unit, not an activity allowance. Just because an activity takes a Lengthy or Extended amount of time, doesn't necessarily mean nothing else could be done, within the same QoD. And just how many Brief activities fit into a QoD, isn't necessarily all that important. It is the GM's duty and authority to advance the Quarter when an appropriate amount of time should have passed. 
 
@@ -1905,37 +1892,107 @@ A Tick **always** occurs for a Character, even when skipping or delaying their T
 # Crafting & Research Projects
 <img src="../../img/crafting.svg" style="width: 3rem; height: 3rem;"></img>
 
-In their own free time, Characters can spend time and resources to create [Assets](#assets), [research obscure subjects or make scientific discoveries](#research-projects), or devise entirely new [Inventions](#invention-projects). Some Projects may be possible while travelling, but most are assumed to be done when the PCs aren't currently travelling or on adventures. 
-
-All Projects fall into one of the following three categories: 
-* **Momentary**: A simple Project that will takes few minutes to complete. A single Project Roll is to be made, up-front. No Progress is tracked for it. Many of these can fit into a single QoD. 
-  * Examples would be: cooking a meal, making ordinary arrows, repairing a torn shirt and so on.
-  * A single Test -> Hits = Q
-* **Lengthy**: A complex Project that will take several hours to complete, but may fit into one to two QoDs. 
-  * Examples would be: Creating a complex weapon, making special arrows, tailoring specialized clothing and so on. 
-* **Epic**: A monumental Project whose completion itself is an accomplishment. This will require many QoDs, or even entire days to complete. 
-  * Examples would be: Build a car, construct an airship, build a fortress, invent an impossible gadget and so on.
-
-TODO
-Work-Session
-
-Every Project has a **Quality Level**. 
+In their own free time, Characters can spend time and resources to Craft [Assets](#assets), [Research obscure subjects or make scientific discoveries](#research-projects), or devise entirely new [Inventions](#invention-projects). Some Projects may be possible while travelling, but most are assumed to be done when the PCs aren't currently travelling or out on adventures. To work on a Project, a Character must **devote** their time to it - of course excluding short breaks for eating, conversation, and other minor side activities. 
 
 ## Project Prerequisites
-Typically, a project can only be worked on with access to necessary resources and know-how. [Skills](#skills) that detail how they can be used for crafting will also note the prerequisites required. As always, the GM has the final word. 
+Typically, a project can only be worked on with access to necessary resources and know-how. [Skills](#skills) that detail how they can be used for Crafting will also note the prerequisites required. As always, the GM has the final word. 
 
 ## Progressing a Project
-Every Project's **progress** is tracked numerically. All progress begins at `0` and is increased through use of a particular [Skill](#skills), further called the **Project Skill**. 
+Every [non-Momentary](#momentary-project) Project's **Progress** is tracked numerically. All Progress begins at `0` and is increased through use of a particular [Skill](#skills) (further called the **Project Skill**), for every **Work-Session** the Character spends on the Project. When its current Progress reaches the **Total Required Progress**, the Project may complete. 
 
-Every Project has a **Progress Increment** and a **Time Increment**. The Progress Increment tells you how much progress is needed to finish the next step of the Project. For every Time Increment worth of time you spend on the Project, you may add your **Project Skill's Level** as points of progress. Up to `5` assisting Characters may also add `+1` point of progress every time, along with you. But of course, in the meantime, these Characters cannot work on their own Projects. Note that progress isn't rolled for, it is simply added, when the next Time Increment has been reached. Note that you get [Advancement Progress](#advancement), but no [XP](#experience-points-xp), for every `5` points of progress made! Assistants to Projects earn `+1` [XP](#experience-points-xp), instead. 
+A Work-Session describes an instance of meaningful work being done. A variable number of these may fit into a [QoD](#quarters-of-a-day-qod). Every Work-Session results in Progress. For every Work-Session you devote your time to, you may add your **Project Skill's Level** as points of Progress. Up to `5` assisting Characters may also add `+1` point of Progress every Work-Session, along with you. But of course, in the meantime, these Characters cannot work on their own Projects. Note that Progress isn't rolled for, it is simply added. 
 
-Initially, your Project will begin with **Quality Level** `1`. Every time you arrive at the current total required progress, you must make a choice. **Finish** the Project and accept its current Quality Level, or **Push On**. 
+You get [Advancement Progress](#advancement) for every Work-Session (but no [XP](#experience-points-xp)), for every `5` points of Progress made! If your Project requires less than `5` points, then take that number, instead. Re-evaluate if you **Push On**. Assistants to Projects instead earn `+1` [XP](#experience-points-xp), instead. 
 
-If you Push On, the total required progress of your Project is increased by another Progress Increment and your current progress is reset to `0`, but you also give yourself a chance to further improve the resulting Quality Level. After you have decided to Push On, the next time you arrive at full progress, a **Test of your Project Skill** is required of you. The Ob is `N + 1`, where *N* is the current number of times you have already Pushed On. And of course, for your Project Skill Test, you may [Fork](#skill-forking) and accept [Help](#providing-assistance)! If you succeed the Test, the resulting Quality Level of your Project increases by `+1`. But if you fail, it loses `-1` Quality Level, *unless* you accept a random [**Complication**](#project-complications) instead. If you accept a Complication, the Project's Quality Level remains unchanged. You neither lose, nor gain a Quality Level. Note that if you accept the Quality loss, the Quality Level cannot be reduced to less than `1`. 
+Initially, your Project will begin with **Quality Level** `1`. Every time you arrive at the current Total Required Progress, you must make a choice. **Finish** the Project and accept its current Quality Level, or **Push On**. 
 
-You can continue this cycle any number of times, but if you **fail twice in succession**, your Project is **botched**. You lose all resources and all progress towards it. This is a critical blunder. 
+If you Push On, the Total Required Progress of your Project is increased by another Progress Increment and your current Progress is reset to `0`, but you also give yourself a chance to further improve the resulting Quality Level. After you have decided to Push On, the next time you arrive at full Progress, a **Test of your Project Skill** is required of you. The Ob is `N + 1`, where *N* is the current number of times you have already Pushed On. And of course, for your Project Skill Test, you may [Fork](#skill-forking) and accept [Help](#providing-assistance)! If you succeed the Test, the resulting Quality Level of your Project increases by `+1`. But if you fail, it loses `-1` Quality Level, *unless* you accept a random [**Complication**](#project-complications) instead. If you accept a Complication, the Project's Quality Level remains unchanged. You neither lose, nor gain a Quality Level. Note that if you accept the Quality loss, the Quality Level cannot be reduced to less than `1`. 
+
+You can continue this cycle any number of times, but if you **fail twice in succession**, your Project is **botched**. You lose all resources and all Progress towards it. This is a critical blunder. 
 
 When you Push On, the GM may choose to employ a [Project Event](#project-events), possibly even instead of a Complication. Project Events should be an occasional occurrence at best, employed only for long-lasting and significant Projects, to shake things up a bit when appropriate. 
+
+## Determining Work-Sessions
+There are two axes that determine how many Work-Sessions fit into a [QoD](#quarters-of-a-day-qod):
+* **Labor**: How much focused labor is required.
+  * Some work is simply more labor intensive - attaching mail rings to one another, embroidery, hammering an armor plate into shape, designing the 3D model for print, etc.
+* **Delay**: How much time must pass before the next step of the work can begin.
+  * Some natural processes take time, which cannot be shortened - how long it takes for paint or glue to cure, the fire of the forge to heat up, the 3D printer to finish a step of work, etc.
+
+Walk through the following table twice. Once for Labor and once for Delay. Take only the **smaller** of the two resulting numbers. 
+
+| **Grading**           | **Labor**                     | **Delay**                              | **Maximum Work-Sessions per QoD** |
+| --------------------- | ----------------------------- | -------------------------------------- | --------------------------------- |
+| **None**              | A negligible amount of work.  | No delay between work steps.           | 6                                 |
+| **Low**               | A modest amount of work.      | Short delay between work steps.        | 4                                 |
+| **Moderate**          | A substantial amount of work. | Lengthy delays between work steps.     | 3                                 |
+| **High**              | A large amount of labor.      | Significant delays between work steps. | 2                                 |
+| **Extreme**           | An enormous amount of labor.  | Enormous delays between work steps.    | 1                                 |
+
+> 3D printing a model: Low Labor, High Delay -> `2` Work-Sessions every QoD<br>
+> Making chainmail armor: Extreme Labor, No Delay -> `1` Work-Sessions every QoD<br>
+> Building an airship: High Labor, Moderate Delay -> `2` Work-Session every QoD
+
+## Determining Progress Increment
+There are two axes that determine the Progress Increment of a Project:
+* **Complexity**: Inherent difficulty of the task.
+  * Think about Complexity in terms of *how difficult is it to make the thing?*, *are specialized tools needed?*, *are special resources required?*, *does the task have any tolerance for carelessness?* and *how available is the required knowledge?*
+* **Logistics**: Logistical challenges. 
+  * Think about Logistics in terms of *how large of a task is this?*, *how many products will result from this?*, *how many resources are needed?* and *how available are these materials?*
+
+Walk through the following table twice. Once for Complexity and once for Logistics. Take only the **larger** of the two resulting numbers. 
+
+| **Grading**                 | **Complexity**                                                            | **Logistics**                                                             | **Progress Increment** |
+| --------------------------- | ------------------------------------------------------------------------- | ------------------------------------------------------------------------- | ---------------------- |
+| **Trivial**                 | Trivially easy; Can be done anywhere, even with improvised tools.         | A single product; Barely any materials or easily substitutable materials. | 5                      |
+| **Simple**                  | Easy; Can be done anywhere, but requires proper tools.                    | Few products; Some materials.                                             | 8                      |
+| **Medium**                  | Challenging; Can only be done at a dedicated work station, with proper tools. | Several products; Significant materials.                              | 12                     |
+| **Specialized**             | Hard; Can only be done at specialized a work station, with specialized tools. | Many products; Several rare and advanced materials.                   | 18                     |
+| **Monumental**              | Extremely difficult; Can only be done at a highly advanced work station, with tools you must create yourself. | Very many products; Highly specific and advanced materials. | 25+ |
+
+> 3D printing a model: Medium Complexity, Trivial Logistics -> Progress Increment `12`<br>
+> Making chainmail armor: Simple Complexity, Simple Logistics -> Progress Increment `8`<br>
+> Building an airship: Specialized Complexity, Specialized Logistics -> Progress Increment `18`
+
+## Project Boosters
+During their adventures, or while perusing the market or library, PCs may find things that can boost the Progress of their Project. These **Project Boosters** can be varied - schematics, specialized tools, a rare artefact, advice from a knowledgeable NPC, and similar. But they always either increase the Project's current Progress or Quality Level. The latter boost is especially powerful. 
+
+These things can add Progress to a Project or raise the Quality Level. How much they boost the Project, will be determined by the GM. A good baseline should be that a common Project Booster adds `+8`, a rare adds `+12` and an enigmatic adds `+25`. But of course, these numbers are only suggestions. Project Boosters that increase Quality Level should be very rare and most valuable. Acquiring them should be an adventure of its own, or the reward for great deeds well performed. 
+
+Typically, Project Boosters are one-time use. Once they have been used to add Progress to the Project, they cannot be used again. However, this is not a hard-set rule. Some things, like a magic cauldron or high-tech lab equipment may of course be used again, provided no narrative reasons forbid it. But perhaps these things may be limited to once a day, or week, or whatever time unit works best for you. 
+
+## Crafting It Again
+Whenever a Crafting or [Invention](#invention-projects) Project is finished, its product becomes the **Recipe** for further Crafts of **identical products**. If you wish to Craft the same product again, at the same Quality Level and with any complications it possibly has, you need no longer roll Project Skill Tests. You now *know* how to make the thing, in that Quality. 
+
+But you will still need to spend time on it. Multiply the Quality Level of the recipe product with the Progress Increment it originally had. That is the total Progress to achieve for that product. When finished, your new product will have the same Quality Level and Complications as the original.
+
+But you may also decide you can do better. You may begin your Project again, at the original's Quality Level, *minus* its number of Complications. At that point, things [progress as normal](#progressing-a-project). 
+
+> A product with a Quality Level of `3`, and one complication, would begin at Quality Level `2`, and no Complications! Assuming its Progress Increment is `10`, then multiplying that with the new starting Quality of `2`, yields an initial total required Progress of `20`. Once that Progress is reached, a Project Skill Test is required, at Ob `2 (the new Quality Level) + 1 (always) = 3`. If successful, the new Quality Level is `3`!
+
+### Crafting It In Batches
+For every Recipe that you know, you may also decide to Craft multiple of the same product in a batch. This is a more efficient than individual Crafts. Each additional instance of the same product you wish to create, adds only half (RU) of the Progress Increment. 
+
+> Given you have a recipe for a product with Quality Level `3` and a Progress Increment of `10` and you want to make `5` instances of this same product, then the first instance of the product sets the initial required total Progress at `3 (Quality) * 10 (Progress Increment) = 30`. Each of the `4` *additional* instances of the product now add `5` points of required Progress. So, for all `5` instances of the product to be finished, the final total Progress is `30 + (4 * 5) = 50`. This is much faster, than creating those `5` instances individually, as that *would* take `5 * 30 = 150` points of total required Progress!
+
+## Research Projects
+A Project can be about the research of knowledge, but not about mundane every-day things. You must visit various libraries, study dusty old tomes or comb countless digital archives, go on archeological digs and question other scholars. This is a task requiring substantial effort. 
+
+The Quality Level you achieve in the end dictates the degree of knowledge you learned about your subject. You may always try to gain even deeper understanding of your topic, by researching the same subject matter again. Your previous knowledge will accelerate further studies by `N * 2`, where *N* is your current degree of knowledge, every time you gain a Progress Increment.
+
+As a prerequisite to begin your studies, you must have access to the number of research objects as listed below. This can be anything, from old scrolls to data sticks, from shattered pieces of ancient machinery to intact but completely alien devices and even NPCs who hold knowledge they might be willing to share. 
+
+| Obscurity    | Quality Level | Research Objects | Description | 
+| ------------ | ------------- | ---------------- | ----------- | 
+| Common       | 1 - 2         | 0                | Common knowledge can be easily researched. Even so, it's not so common that everyone knows it already. It may still take some effort to find the right pieces of writing or piece together what you need from questioning several other people. |
+| Specialized  | 3 - 4         | 1                | Only few individuals have deeper knowledge regarding the topic you seek to understand. Only few pieces of writing even make note of your topic. It will require substantial effort to track down sources of knowledge and then puzzle the pieces together. |
+| Obscure      | 5 - 6         | 2                | Barely anyone, if anyone at all, even knows of this esoteric subject. Tracking down anyone with knowledge will be a considerable challenge. And whatever writing exists, may be stowed away, hidden in private collections, not easily accessible and not easily parted with. And even if access to these sources of knowledge can be secured, making sense of it all will be a challenge. |
+| Unfathomable | 7 - 8+        | 3                | No one alive still knows anything about this subject. Whatever writing may exist, is manifested in a long dead language, on a medium hidden in a remote and forgotten place. Even if you find this remnant of knowledge, how could you possibly make sense of it? |
+
+When you finish the research Project, you'll have the answers you seek and may gain the title "Loremaster of *X* (degree)", where you replace *X* with the subject you researched and *degree* with the Quality Level. 
+
+## Invention Projects
+As a difference to regular Projects, whenever you choose to Push On, you may also get a less effective prototype of your invention, if you score a Hit on a single `D6` roll, at the GM's discretion. Your prototype receives the Project's current Quality Level. 
 
 ## Project Complications
 When accepting a random Complication for a Project, roll for one of the results from the table below.
@@ -1952,71 +2009,11 @@ How much is a Quality Level worth? This will ultimately be up to the GM to estim
 
 | Quality Level | Description |
 | ------------- | ----------- |
-| 1 - 2         | A simple and plain product. It has a simple function, nothing more. Made by a beginner. |
-| 3 - 4         | A slightly decorated or just well made product. It fulfills its function and is ergonomic. A routine work. |
-| 5 - 6         | A well made and decorated product, potent and respectable. An adept's care flowed into this. |
-| 7 - 8         | An exceptionally well made product. Highly potent, potentially with multiple functions. An expert's work. |
-| 9+            | A legendary product. Its potency and function may even be fantastical - something never before seen! A true master of their craft made this. |
-
-## Project Boosters
-During their adventures, or while perusing the market or library, PCs may find things that can boost the progress of their Project. These **Project Boosters** can be varied - schematics, specialized tools, a rare artefact, advice from a knowledgeable NPC, and similar. But they always either increase the Project's current Progress or Quality Level.
-
-These things can add progress to a Project or raise the base Quality Level. How much they boost the Project, will be determined by the GM. A good baseline should be that a common Project Booster adds `+10`, a rare adds `+30` and an enigmatic adds `+60`. But of course, these numbers are only suggestions. Project Boosters that increase base Quality Level should be very rare and most valuable. Acquiring them should be an adventure of its own, or the reward for great deeds well performed. 
-
-Typically, Project Boosters are one-time use. Once they have been used to add progress to the Project, they cannot be used again. However, this is not a hard-set rule. Some things, like a magic cauldron or high-tech lab equipment may of course be used again, provided no narrative reasons forbid it. 
-
-## Crafting It Again
-Whenever a crafting or [Invention](#invention-projects) Project is finished, its product becomes the **Recipe** for further crafts of **identical products**. If you wish to craft the same product again, at the same Quality Level and with any complications it possibly has, you need no longer roll Project Skill Tests. You now *know* how to make the thing, in that Quality. 
-
-But you will still need to spend time on it. Multiply the Quality Level of the recipe product with the Progress Increment it originally had. That is the total Progress to achieve for that product. When finished, your new product will have the same Quality Level and Complications as the original.
-
-But you may also decide you can do better. You may begin your Project again, at the original's Quality Level, *minus* its number of Complications. At that point, things [progress as normal](#progressing-a-project). 
-
-> A product with a Quality Level of `3`, and one complication, would begin at Quality Level `2`, and no Complications! Assuming its Progress Increment is `10`, then multiplying that with the new starting Quality of `2`, yields an initial total required Progress of `20`. Once that progress is reached, a Project Skill Test is required, at Ob `2 (the new Quality Level) + 1 (always) = 3`. If successful, the new Quality Level is `3`!
-
-### Crafting It In Batches
-For every Recipe that you know, you may also decide to craft multiple of the same product in a batch. This is a more efficient than individual crafts. Each additional instance of the same product you wish to create, adds only half (RU) of the Progress Increment. 
-
-> Given you have a recipe for a product with Quality Level `3` and a Progress Increment of `10` and you want to make `5` instances of this same product, then the first instance of the product sets the initial required total progress at `3 (Quality) * 10 (Progress Increment) = 30`. Each of the `4` *additional* instances of the product now add `5` points of required progress. So, for all `5` instances of the product to be finished, the final total progress is `30 + (4 * 5) = 50`. This is much faster, than creating those `5` instances individually, as that *would* take `5 * 30 = 150` points of total required progress!
-
-## Research Projects
-A Project can be about the research of knowledge, but not about mundane every-day things. You must visit various libraries, study dusty old tomes or comb countless digital archives, go on archeological digs and question other scholars. This is a task requiring substantial effort. 
-
-For all Research Projects, the Progress Increment is `15` and the Time Increment is `1` Hour. The Quality Level you achieve in the end dictates the degree of knowledge you learned about your subject. You may always try to gain even deeper understanding of your topic, by researching the same subject matter again. Your previous knowledge will accelerate further studies by `N * 2`, where *N* is your current degree of knowledge, every time you gain a Progress Increment.
-
-As a prerequisite to begin your studies, you must have access to the number of research objects as listed below. This can be anything, from old scrolls to data sticks, from shattered pieces of ancient machinery to intact but completely alien devices and even NPCs who hold knowledge they might be willing to share. 
-
-| Obscurity    | Quality Level | Research Objects | Description | 
-| ------------ | ------------- | ---------------- | ----------- | 
-| Common       | 1 - 2         | 0                | Common knowledge can be easily researched. Even so, it's not so common that everyone knows it already. It may still take some effort to find the right pieces of writing or piece together what you need from questioning several other people. |
-| Specialized  | 3 - 4         | 1                | Only few individuals have deeper knowledge regarding the topic you seek to understand. Only few pieces of writing even make note of your topic. It will require substantial effort to track down sources of knowledge and then puzzle the pieces together. |
-| Obscure      | 5 - 6         | 2                | Barely anyone, if anyone at all, even knows of this esoteric subject. Tracking down anyone with knowledge will be a considerable challenge. And whatever writing exists, may be stowed away, hidden in private collections, not easily accessible and not easily parted with. And even if access to these sources of knowledge can be secured, making sense of it all will be a challenge. |
-| Unfathomable | 7 - 8+        | 3                | No one alive still knows anything about this subject. Whatever writing may exist, is manifested in a long dead language, on a medium hidden in a remote and forgotten place. Even if you find this remnant of knowledge, how could you possibly make sense of it? |
-
-When you finish the research Project, you'll have the answers you seek and may gain the title "Loremaster of *X* (degree)", where you replace *X* with the subject you researched and *degree* with the Quality Level. 
-
-## Invention Projects
-A Project can be about the invention of completely unique and new [Assets](#assets). Describe your idea to the GM, who will determine how feasible your idea is. If it seems reasonable, they will also estimate the Progress Increment (see [Complexity to Progress Increments](#complexity-to-progress-increments)) and Time Increment (see [Workload to Time Increments](#workload-to-time-increments)). 
-
-As a difference to regular Projects, whenever you choose to Push On, you may also get a less effective prototype of your invention, if you score a hit on a single `D6` roll, at the GM's discretion. Your prototype receives the Project's current Quality Level. 
-
-## Complexity to Progress Increments
-Think about complexity in terms of *how difficult is it to make the thing?*, *are specialized tools needed?*, *are special resources required?* and *does the task have any tolerance for carelessness?*
-
-| Complexity         | Progress Increment | Description        |
-| ------------------ | ------------------ | ------------------ |
-| Trivial            | 5                  | A trivial craft can be done at any time, anywhere - even on the road. It barely requires any resources and you can improvise the tools you need. It takes no special knowledge. |
-| Routine            | 8                  | A routine craft is routine only to a learned and experienced craftsperson. While the work won't put your skills to the test, it still requires some effort and experience to achieve. Improvised tools may still do, and some resources may still be substituted. But the work does demand focus. It takes some experience. |
-| Specialized        | 12                 | A specialized craft is a bit more challenging. You need to sit down and actually focus on the work and need the proper tools and resources to get it done. But provided you bring those, your work can be done in any suitable place. Deeper understanding of the subject matter is required. |
-| Complex            | 20                 | A complex craft requires specialized tools and rare resources, which may not be readily accessible to just anyone and the work must be done in a specialized environment. Specialized and obscure knowledge is required. |
-| Monumental         | 40                 | A monumental craft requires tools that simply don't exist, anywhere. You will have to create them, yourself. The resources you need will require substantial effort to track down. Perhaps you'll even be the first discover their existence. The work can be done only in a highly specialized environment, to minimize the risk of delicate machinery getting dusty, aerosols mixing or vibrations in the earth agitating the wrong powder and so forth. There may not be anyone alive, nor any writing detailing the work. You will have to be the first to (re-)discover the knowledge required. |
-
-## Workload to Time Increments
-Workload is the result of processes that naturally take a long time, the difficulty in processing materials and the amount of work that has to be done. A very high workload will take very long to complete, while a low workload may be finished in a matter of minutes.
-
-| Workload       | Low         | Moderate    | High        | Very High   |
-| -------------- | ----------- | ----------- | ----------- | ----------- |
-| Time Increment | 10 Minutes  | 1 Hour      | 6 Hours     | 1 Day       |
+| 1             | A simple and plain product. It serves its purpose, albeit not well. Made by a beginner. |
+| 2 - 3         | An adequate product. It fulfills its function and is ergonomic. A routine work. |
+| 4 - 5         | A well made and decorated product, potent and respectable. An adept's work. |
+| 6 - 7         | An exceptionally well made product. Highly potent, potentially with multiple functions. An expert's work. |
+| 8+            | A legendary product. Its potency and function may even be fantastical - something never before seen! A true master of their craft made this. |
 
 ## Project Events
 Project Events are random events that may occur during long-lasting, significant Projects. The details of these should be reserved for the GM's eyes, only. 
@@ -2027,13 +2024,13 @@ Project Events are random events that may occur during long-lasting, significant
 | 2    | A competitor appears, under pretense of offering help, but in truth seeking to sabotage the Project. But they might go about it clumsily, allowing the PC some time to react. |
 | 3    | A competitor appears, offering help, but for a price. Perhaps not simply for money, but for the PC to let them take all the credit for the product or to lend the product to the competitor, for a time. Or perhaps they ask help, in return. |
 | 4    | A competitor appears, offering help and in turn begging the PC for help. The competitor screwed with the wrong people and their life is now in danger! Will the PC help? |
-| 5    | A NPC arrives, offering help, for a price. They are willing to add `+10` progress the next time progress is added. |
-| 6    | A NPC arrives, offering help, but is also in need of help, themself. They are willing to add `+10` progress the next time progress is added and after that, the PC is required to come help. |
-| 7    | An anonymous piece of writing found its way into the PC's belongings. It offers solid advice on the Project, instantly boosting the Project by `+15` points of progress. But who could the mysterious benefactor be? And why? |
-| 8    | Suddenly, monsters or pests surprise the PC, assaulting them! If not dispatched quickly, they will damage the Project, causing a loss of half the current progress! |
-| 9    | The PC is overcome with a burst of inspiration! They instantly gain `+15` points of progress! This causes them to work feverishly, neglecting their own well-being. They start the next scenario with `+1` [Strain](#stamina--strain)! |
+| 5    | A NPC arrives, offering help, for a price. They are willing to add `+10` Progress the next time Progress is added. |
+| 6    | A NPC arrives, offering help, but is also in need of help, themself. They are willing to add `+10` Progress the next time Progress is added and after that, the PC is required to come help. |
+| 7    | An anonymous piece of writing found its way into the PC's belongings. It offers solid advice on the Project, instantly boosting the Project by `+15` points of Progress. But who could the mysterious benefactor be? And why? |
+| 8    | Suddenly, monsters or pests surprise the PC, assaulting them! If not dispatched quickly, they will damage the Project, causing a loss of half the current Progress! |
+| 9    | The PC is overcome with a burst of inspiration! They instantly gain `+15` points of Progress! This causes them to work feverishly, neglecting their own well-being. They start the next scenario with `+1` [Strain](#stamina--strain)! |
 | 10   | A group of NPCs appear and demand the Project be stopped! Out of superstition or fear, they don't want the PC to succeed. Can they be pacified? |
-| 11   | A NPC who the PC helped in the past appears, offering to help on the Project. Surprisingly, they know exactly what to do, boosting the Project by `+10` points of progress. |
+| 11   | A NPC who the PC helped in the past appears, offering to help on the Project. Surprisingly, they know exactly what to do, boosting the Project by `+10` points of Progress. |
 | 12   | After so much time on the Project, the PC digs themself into a hole, mentally. They can no longer make sense of their own work and someone else has to help them regain their footing in the Project. The helper needs to make the next Project Skill Test. |
 
 # Trade
@@ -2630,16 +2627,16 @@ The following list does not and cannot aim to be a complete listing of all possi
 ### General Assets
 The following is a non-exhaustive list of general Assets. Just because an Asset you're looking for isn't listed here, doesn't mean it cannot exist! You are encouraged to think creatively and to [Invent](strive-core.md#invention-projects) your own!
 
-In the following table, `Q` refers to the quality grade of the Asset. See also the [Crafting](#crafting--research-projects) rules. For normal every-day Assets, substitute `Q` with `2`.
+In the following table, `Q` refers to the Quality of the Asset. See also the [Crafting](#crafting--research-projects) rules. For normal every-day Assets, substitute `Q` with `2`.
 
-When looking up products for crafting, the tools and materials required for the craft are not noted here. The materials and resources available to you, and which exist in your world simply cannot be predicted here. Instead, think creatively - what *could* you use to make the thing? What do you have available? Find a creative way to use what you have, to make what you want and ask your GM for the final go-ahead. However, the [Progress Increment (PI)](#progressing-a-project) and [Time Increment (TI)](#progressing-a-project) are noted. Particularly rare, valuable and suitable materials may act as [Project Boosters](#project-boosters). Some Assets may harder or easier to make at higher qualities, as noted by the *Crafting Ob*, which, if noted, is the modifier applied to *every* [Project Skill Test](#progressing-a-project).
+When looking up products for Crafting, the specific tools and materials required for the Craft are not noted here. Those will be determined by the GM. Think creatively - *how could you make the thing?* *What materials and tools do you have available?*
 
-| Name                   | Bulk | Max. Stack Size | PI  | TI         | Crafting Ob | Description                                                              |
-| ---------------------- | ---- | --------------- | --- | ---------- | ----------- | ------------------------------------------------------------------------ |
-| Antidote               | 1    | 4               | 20  | 10 Minutes |             | This unassuming liquid can make the difference between life and death. Removes `Q` points of [Poisoned](#poisoned). If no points remain, instead immediately [Treats](#injury-treatment) an [Injury](#injury) caused by [Poison](#damage-types) |
-| Medical Supplies       | 1    | 5               | 20  | 10 Minutes |             | A small satchel of clean bandages, thread and needle for suturing, a clean and sharp knife, a splint and straps for binding. Is used in the [Treatment](#injury-treatment) of various [Injuries](#injury). |
-| Objet d'art            | 1    | 1               | 20  | 10 Minutes |             | A painting, sculpture or other art piece. |
-| Ration                 | 1    | 10              | 10  | 30 Minutes |             | A ration of preserved food and drink, enough for a [QoD](#quarters-of-a-day-qod). |
+| Name                   | Bulk | Max. Stack Size | Labor / Delay / Complexity / Ob | Description                                                              |
+| ---------------------- | ---- | --------------- | ------------------------------- | ------------------------------------------------------------------------ |
+| Antidote               | 1    | 4               | Low / Moderate / Medium /       | This unassuming liquid can make the difference between life and death. Removes `Q` points of [Poisoned](#poisoned). If no points remain, instead immediately [Treats](#injury-treatment) an [Injury](#injury) caused by [Poison](#damage-types) |
+| Medical Supplies       | 1    | 5               | Low / None / Simple /           | A small satchel of clean bandages, thread and needle for suturing, a clean and sharp knife, a splint and straps for binding. Is used in the [Treatment](#injury-treatment) of various [Injuries](#injury). |
+| Objet d'art            | 1    | 1               | Moderate / None / Medium /      | A painting, sculpture or other art piece. |
+| Ration                 | 1    | 10              | Low / Low / Trivial /           | A ration of preserved food and drink, enough for a [QoD](#quarters-of-a-day-qod). |
 
 ## Lists of Skills
 The following list does not and cannot aim to be a complete listing of all possible Skills in game. Adding new Skills as necessary will have to be done by the GM. Nevertheless, most general need should be covered. 
@@ -2977,7 +2974,7 @@ The ability to cook hearty and sweet meals that can strengthen and invigorate.
 
 [Crafting](#crafting--research-projects):
 * [Ration](#general-assets) (5x)
-* Special Meal: PI: `5`, TI: `10` Minutes, Requires some *special* ingredients, consult your GM
+* Special Meal: Labor: Low, Delay: Short, Complexity: Medium; Requires *special* ingredients, consult your GM. 
   * A special meal that you have to eat while it's still fresh. The meal does **not** go in your inventory - this is **not** the same as a ration! 
   * Restores `Q HP` and `Q` Stamina.
   * For every `Q` past `1`, the meal may confer certain boons, for `Q * 2` hours. Each of the following boons can be picked only once:
@@ -3017,7 +3014,7 @@ Whether naturally tough-skinned or artificially enhanced, your hide proves espec
 All your Melee Attacks can be used against targets up to two Squares away. You effectively implicitly gain the [Long Reach Weapon Trait](#foundational-weapon-traits) for all Attacks.
 
 ### Productive
-Whenever you craft Assets, you produce twice as many.
+Whenever you Craft Assets, you produce twice as many.
 
 ### Quick Thinker
 Improve your [Base Initiative](#base-initiative-bi) by `+3`
@@ -3035,7 +3032,7 @@ Increases [Stability](#stability-stabil) by `+2`.
 [Grappling](#grappled) you is `+1` Ob harder and you receive `+1` Edge for Tests to break free from being Grappled.
 
 ### Thorough Artisan
-Every Asset you craft starts with Quality Level `+1`. Ignore the first [Project Skill Test](#progressing-a-project) you fail and treat it as a success, instead.
+Every Asset you Craft starts with Quality Level `+1`. Ignore the first [Project Skill Test](#progressing-a-project) you fail and treat it as a success, instead.
 
 ### Tough Skin
 Raise your base HP by `+10`. 
