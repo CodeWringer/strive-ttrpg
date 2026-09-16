@@ -1912,7 +1912,7 @@ A **Trivial Project** is a [Brief](#quarters-of-a-day-qod) and simple activity. 
 
 > Examples would be: crafting arrows, cooking a meal, repairing a torn shirt, researching common knowledge and so on.
 
-No [Progress](#progressing-a-project) is tracked. A single, immediately made Project Roll deterimes the final Quality of the product. 
+No [Progress](#progressing-a-project) is tracked. A single, immediately made Project Roll deterimes the final Quality of the product. In fact, this handles exactly like every other Skill Test in the game. As such, it is unsuitable for Research or Invention Projects, and is not eligible to produce [Recipes](#crafting-it-again).
 
 ### Complex Project
 A **Complex Project** is a longer-term activity, that comes with significant challenges and requirements. 
@@ -1943,16 +1943,18 @@ Invention is a very unique activity, that rules do not easily fit around. The GM
 As a difference to regular Projects, whenever you choose to Push On, you *may* also get a less effective prototype of your invention, if you score a Hit on a single `D6` roll, at the GM's discretion. Your prototype receives the Project's current Quality Level and Complications. 
 
 ## Progressing a Project
-Every [non-Trivial Project's](#trivial-project) **Progress** is tracked numerically. All Progress begins at `0` and is increased through use of a particular [Skill](#skills) (further called the **Project Skill**). When its current Progress reaches the **Total Required Progress**, the Project may complete, or be continued. 
+Every [non-Trivial Project's](#trivial-project) **Progress** is tracked numerically. All Progress begins at `0` and is increased through use of a particular [Skill](#skills) (further called the **Project Skill**). When its current Progress reaches its currently **Required Progress**, the Project may complete, or be continued. 
 
-A **Work-Session** describes an instance of meaningful work being done, each of which results in Progress. **Work-Rate** determines how often Work-Sessions may occur, in the format `X / QoD`. A variable number of Work-Sessions may fit into a [QoD](#quarters-of-a-day-qod). For every Work-Session you devote your time to, you may add your **Project Skill's Level** as points of Progress. Up to `5` assisting Characters may also add `+1` point of Progress every Work-Session, along with you. But of course, in the meantime, these Characters cannot work on their own Projects. Note that Progress isn't rolled for, it is simply added. 
+A **Work-Session** describes an instance of meaningful work being done, each of which results in Progress. **Work-Rate** determines how often Work-Sessions may occur, in the format `X / QoD`. A variable number of Work-Sessions may fit into a [QoD](#quarters-of-a-day-qod). 
 
-Every time you arrive at the current Total Required Progress, you must make a choice. **Finish** the Project and accept its current Quality Level, or **Push On**. 
+For every Work-Session you devote your time to, you may add your **Project Skill's Level** as points of Progress. Up to `5` assisting Characters may also add `+1` point of Progress every Work-Session, along with you. But of course, in the meantime, these Characters cannot work on their own Projects. Note that Progress isn't rolled for, it is simply added. 
+
+Every time you arrive at the current Required Progress, you must make a choice. **Finish** the Project and accept its current Quality Level, or **Push On**. 
 
 ### Pushing On
 Initially, your Project will begin with **Quality Level** `1`.
 
-If you Push On, the Total Required Progress of your Project is increased by another Progress Increment and your current Progress is reset to `0`, but you also give yourself a chance to further improve the resulting Quality Level. After you have decided to Push On, the next time you arrive at full Progress, a **Test of your Project Skill** is required of you. The Ob is `N + 1`, where *N* is the current number of times you have already Pushed On. And of course, for your Project Skill Test, you may [Fork](#skill-forking) and accept [Help](#providing-assistance)! If you succeed the Test, the resulting Quality Level of your Project increases by `+1`. But if you fail, it loses `-1` Quality Level, *unless* you accept a random [**Complication**](#project-complications) instead. If you accept a Complication, the Project's Quality Level remains unchanged. You neither lose, nor gain a Quality Level. Note that if you accept the Quality loss, the Quality Level cannot be reduced to less than `1`. 
+If you Push On, the Required Progress of your Project is increased by another Progress Increment and your current Progress is reset to `0`, but you also give yourself a chance to further improve the resulting Quality Level. After you have decided to Push On, the next time you arrive at full Progress, a **Test of your Project Skill** is required of you. The Ob is `N + 1`, where *N* is the current number of times you have already Pushed On. And of course, for your Project Skill Test, you may [Fork](#skill-forking) and accept [Help](#providing-assistance)! If you succeed the Test, the resulting Quality Level of your Project increases by `+1`. But if you fail, it loses `-1` Quality Level, *unless* you accept a random [**Complication**](#project-complications) instead. If you accept a Complication, the Project's Quality Level remains unchanged. You neither lose, nor gain a Quality Level. Note that if you accept the Quality loss, the Quality Level cannot be reduced to less than `1`. 
 
 You can continue this cycle any number of times, but if you **fail twice in succession**, your Project is **botched**. You lose all resources and all Progress towards it. This is a critical blunder. 
 
@@ -2007,6 +2009,8 @@ There are three axes that determine Work-Rate:
   * Some natural processes take time, which cannot be shortened - how long it takes for paint or glue to cure, the fire of the forge to heat up, the 3D printer to finish a step of work, etc.
 * **Problem-Solving**: How much thought, experimentation, research, or iteration is required before meaningful progress can be made.
 
+> Boiled down, Work-Rate answers the question *how many Work-Sessions do I get?*
+
 Walk through the following table three times. Once for Labor, once for Delay and once for Problem-Solving. Take only the **smaller** of the resulting numbers. 
 
 | **Grading**           | **Labor**                     | **Delay**                              | **Problem-Solving**                                                                                             | **Work-Rate / QoD** |
@@ -2022,27 +2026,32 @@ Walk through the following table three times. Once for Labor, once for Delay and
 > Making chainmail armor: High Labor, No Delay, Low Problem-Solving -> Work-Rate: `2 / QoD`<br>
 > Paint armor: Low Labor, Moderate Delay, Low Problem-Solving -> Work-Rate: `3 / QoD`<br>
 > Research unknown herb: Low Labor, None Delay, High Problem-Solving -> Work-Rate: `2 / QoD`
+> Research unknown language: Low Labor, None Delay, Extreme Problem-Solving -> Work-Rate: `1 / QoD`
 
 ## Determining Progress Increment
 There are two axes that determine the Progress Increment of a Project:
-* **Complexity**: Inherent difficulty of the task.
-  * Think about Complexity in terms of *how difficult is it to make the thing?*, *are specialized tools needed?*, *are special resources required?*, *does the task have any tolerance for carelessness?* and *how available is the required knowledge?*
-* **Logistics**: Logistical challenges. 
-  * Think about Logistics in terms of *how large of a task is this?*, *how many products will result from this?*, *how many resources are needed?* and *how available are these materials?*
+* **Scale**: How much work needs to be done. 
+  * *How big is the task?*, *How much work needs to be done?*
+* **Logistics**: Acquisition and storage of materials, tool and work-place requirements.
+  * *How many resources are needed?*, *how available are they?*, *How easy is it to store and use them?*
 
-Walk through the following table twice. Once for Complexity and once for Logistics. Take only the **larger** of the two resulting numbers. 
+> Boiled down, Progress Increment answers the question *how many Work-Sessions do I need?*
 
-| **Grading**                 | **Complexity**                                                            | **Logistics**                                                             | **Progress Increment** |
-| --------------------------- | ------------------------------------------------------------------------- | ------------------------------------------------------------------------- | ---------------------- |
-| **Trivial**                 | Trivially easy; Can be done anywhere, even with improvised tools.         | A single product; Barely any materials or easily substitutable materials. | 5                      |
-| **Simple**                  | Easy; Can be done anywhere, but requires proper tools.                    | Few products; Some materials.                                             | 8                      |
-| **Medium**                  | Challenging; Can only be done at a dedicated work station, with proper tools. | Several products; Significant materials.                              | 12                     |
-| **Specialized**             | Hard; Can only be done at specialized a work station, with specialized tools. | Many products; Several rare and advanced materials.                   | 18                     |
-| **Monumental**              | Extremely difficult; Can only be done at a highly advanced work station, with tools you must create yourself. | Very many products; Highly specific and advanced materials. | 25+ |
+Walk through the following table twice. Once for Scale and once for Logistics. Take only the **larger** of the two resulting numbers. 
 
-> 3D printing a model: Medium Complexity, Trivial Logistics -> Progress Increment `12`<br>
-> Making chainmail armor: Simple Complexity, Simple Logistics -> Progress Increment `8`<br>
-> Building an airship: Specialized Complexity, Specialized Logistics -> Progress Increment `18`
+| **Grading**                 | **Scale**                                  | **Logistics**                                                                | **Progress Increment** |
+| --------------------------- | ------------------------------------------ | ---------------------------------------------------------------------------- | ---------------------- |
+| **Trivial**                 | A single or tiny product.                  | Resources are easy to procure, store and use. Can work with improvised tools, anwhere. | 5 |
+| **Simple**                  | A few products, or a moderately sized one. | Resources may be easy to procure, store and use. Can be done anywhere, but only with proper tools. | 8 |
+| **Medium**                  | Several products or large one.             | Resources may be challenging to procure, store and use. Can only be done at a dedicated work station, with proper tools. | 12 |
+| **Specialized**             | Many products or a huge one.               | Resources are hard to come by, difficult to store and use properly. Can only be done at a dedicated work station, with specialized tools. | 18 |
+| **Monumental**              | Industrial-scale product count or an enormous one. | Resources are very scarce, perilous or difficult to store and use properly. Can only be done at a highly specialized work station, with equally specialized tools. | 25+ |
+
+> 3D printing a model: Trivial Scale, Simple Logistics -> Progress Increment `8`
+> Inventing a steam ship: Specialized Scale, Specialized Logistics -> Progress Increment `18`
+> Making chainmail armor: Simple Scale, Trivial Logistics -> Progress Increment `8`
+> Paint armor: Trivial Scale, Trivial Logistics -> Progress Increment `5`
+> Research unknown herb: Trivial Scale, Medium Logistics -> Progress Increment `12`
 
 ## Quality Level Reference
 How much is a Quality Level worth? This will ultimately be up to the GM to estimate, but the table below may provide guidance.
@@ -2056,18 +2065,18 @@ How much is a Quality Level worth? This will ultimately be up to the GM to estim
 | 8+            | A legendary product. Its potency and function may even be fantastical - something never before seen! A true master of their craft made this. |
 
 ## Crafting It Again
-Whenever a Crafting or [Invention](#invention-projects) Project is finished, its product becomes the **Recipe** for further Crafts of **identical products**. If you wish to Craft the same product again, at the same Quality Level and with any complications it possibly has, you need no longer roll Project Skill Tests. You now *know* how to make the thing, in that Quality. 
+Whenever a [Complex](#complex-project) Crafting or [Invention](#invention-projects) Project is finished, its product becomes the **Recipe** for further Crafts of **identical products**. If you wish to Craft the same product again, at the same Quality Level and with any complications it possibly has, you need no longer roll Project Skill Tests. You now *know* how to make the thing, in that Quality. *However* your Work-Rate may be slightly faster, due to your familiarity with the product! Research has deliberately been omitted - it cannot produce Recipes, as cannot produce Assets (outside of special narrative events)! 
 
-But you will still need to spend time on it. Multiply the Quality Level of the recipe product with the Progress Increment it originally had. That is the total Progress to achieve for that product. When finished, your new product will have the same Quality Level and Complications as the original.
+You will still need to spend time on it - multiply the Quality Level of the recipe product with the Progress Increment it originally had. That is the total Required Progress to achieve for that product. This number doesn't change - you **cannot** Push On! When finished, your new product will have the same Quality Level and Complications as the original.
 
 But you may also decide you can do better. You may begin your Project again, at the original's Quality Level, *minus* its number of Complications. At that point, things [progress as normal](#progressing-a-project). 
 
-> A product with a Quality Level of `3`, and one complication, would begin at Quality Level `2`, and no Complications! Assuming its Progress Increment is `10`, then multiplying that with the new starting Quality of `2`, yields an initial total required Progress of `20`. Once that Progress is reached, a Project Skill Test is required, at Ob `2 (the new Quality Level) + 1 (always) = 3`. If successful, the new Quality Level is `3`!
+> A product with a Quality Level of `3`, and one complication, would begin at Quality Level `2`, and no Complications! Assuming its Progress Increment is `10`, then multiplying that with the new starting Quality of `2`, yields an initial Required Progress of `20`. Once that Progress is reached, a Project Skill Test is required, at Ob `2 (the new Quality Level) + 1 (always) = 3`. If successful, the new Quality Level is `3`!
 
 ### Crafting It In Batches
 For every Recipe that you know, you may also decide to Craft multiple of the same product in a batch. This is a more efficient than individual Crafts. Each additional instance of the same product you wish to create, adds only half (RU) of the Progress Increment. 
 
-> Given you have a recipe for a product with Quality Level `3` and a Progress Increment of `10` and you want to make `5` instances of this same product, then the first instance of the product sets the initial required total Progress at `3 (Quality) * 10 (Progress Increment) = 30`. Each of the `4` *additional* instances of the product now add `5` points of required Progress. So, for all `5` instances of the product to be finished, the final total Progress is `30 + (4 * 5) = 50`. This is much faster, than creating those `5` instances individually, as that *would* take `5 * 30 = 150` points of total required Progress!
+> Given you have a recipe for a product with Quality Level `3` and a Progress Increment of `10` and you want to make `5` instances of this same product, then the first instance of the product sets the *initial* total Required Progress at `3 (Quality) * 10 (Progress Increment) = 30`. Each of the `4` *additional* instances of the product now add `5` points of required Progress. So, for all `5` instances of the product to be finished, the *final* total Required Progress is `30 + (4 * 5) = 50`. This is much faster, than creating those `5` instances individually, as that *would* take `5 * 30 = 150` points of total Required Progress!
 
 # Trade
 Selling and buying things can take a surprising amount of time. If prices are too high and demand or reputation too low, chances are, you won't be able to sell your goods. But even when people do show interest in your wares, you still have to *sell it* to them. An uncharismatic merchant will have a difficult time making a pretty profit, regardless of the quality of their goods. On the other hand, buying things may prove equally difficult, when what you're looking for isn't really available. 
