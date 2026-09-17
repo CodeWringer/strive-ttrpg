@@ -185,6 +185,14 @@ By using STRIVE (that includes but is not limited to viewing, reading, referenci
       - [Aspiration](#aspiration)
       - [Quirk](#quirk)
     - [Virtues \& Vices](#virtues--vices)
+      - [Avarice](#avarice)
+      - [Balance](#balance)
+      - [Dread](#dread)
+      - [Ferocity](#ferocity)
+      - [Pride](#pride)
+      - [Respectability](#respectability)
+      - [Mercy](#mercy)
+      - [Wrath](#wrath)
   - [Health](#health)
     - [Health Points (HP)](#health-points-hp)
       - [Recovering HP](#recovering-hp)
@@ -1352,29 +1360,104 @@ As such, there are two types of Quirks:
 Quirks are expected to change whenever a Character (decides) to act against them. A PC cannot keep a Quirk they keep contradicting. Players and the GM are expected to discuss at the end or beginning of a session, whether anyone should give up one of their Quirks. 
 
 ### Virtues & Vices
-Every PC has several values that help inform their player what their Character is like - how they act. 
+Every PC has several personality traits that help inform their player what their Character is like and how they act, called **Virtues** and **Vices**.
 
-This personality is codified by the following matrix. Each row is a scale, with two opposing traits. Whenever A trait reaches the "Signature" column, a PC is *known* for it! In fact, they can hardly *not* act that way! In order for behaviour to deviate from a Signature Trait, a [Self-Control](#self-control-toughwit) Test at Ob `2` or half of of its Level (RU) - take the higher number - must be made. Only if it is a **success**, can the player choose to deviate from the Signature Trait's dictated behavior. 
+This personality is codified by the following matrix. Each row is a scale, with two opposing traits. Whenever A trait reaches the **Signature** column, a PC is *known* for it! In fact, they can hardly *not* act that way! In order for behaviour to deviate from a Signature Trait, a [Self-Control](#self-control-toughwit) Test at Ob `4` must be made. Only if it is a **success**, can the player choose to deviate from the Signature Trait's dictated behavior. Additionally, playing to or even against their Character's Virtues & Vices allows earning a player [Fate Points](#fate-points).
+
+Virtues and Vices *can* get PCs into trouble, but shouldn't cause them harm! Even a reckless Character knows jumping into a pit filled with spikes will likely result in their death - and they *still* possess a survival instinct! 
+
+Every PC can have at most **two Signatures**! Each of them grants access to a unique resource, as listed below. A PC without *any* Signatures instead gains the **Balance** resource. Every resource - except Balance - is gained through role-play. When your Character acts strongly in line with your Signature, or when something happens to them that falls into the Signature, your Character gains `+1` of the respective resource. Balance is special, in that it is hard to role-play. Instead, `+1` Balance is automatically gained every other [QoD](#quarters-of-a-day-qod).
+
+Be mindful the GM can hardly remember every Signature of your Character. Make sure to note why your Character acts in an extreme fashion. 
+
+> GM: While waiting in line, your Character is pushed by someone from behind. It seems they're getting impatient waiting behind you.
+> 
+> You: My Character's vengefulness gets the better of them! They whip around, grab the offender and punch them in the face!
+> 
+> GM: Then you are kicked out for causing a scene and get `+1` Wrath.
+
+Signatures resources can be spent in a variety of ways. Each section below will list *some* of your options. You are encouraged to find more! One universal option, is to gain an [Edge](#edge) on any Test that touches upon one of your Signatures. For this, spend `1` point of your respective resource. Note also that many of the uses for the resources are deliberately vague, to encourage you thinking outside the box. Whenever you think or wonder whether a resource might apply, consult your GM. 
+
+| Resource       | Trait        | < Signature | < Rather | Undecided | Rather > | Signature > |  Trait       | Resource       | Description |
+| -------------- | ------------ | ----------- | -------- | --------- | -------- | ----------- | ------------ | -------------- | ----------- |
+| Pride          | Arrogant     |             |          |           |          |             |  Humble      | Respectability | Self-regard: *I know my worth - it is greater than yours.* **<- vs ->** *I am not that big of a deal.* |
+| Dread          | Cowardly     |             |          |           |          |             |  Courageous  | Ferocity       | Fear: *I flee from confrontation.* **<- vs ->** *I stand my ground in face of confrontation. I know no fear.* | 
+| Wrath          | Vengeful     |             |          |           |          |             |  Merciful    | Mercy          | Retaliation: *I suffer no insult. No reprisal is too great.* **<- vs ->** *Everyone deserves another chance. I will inflict no harm.* |
+| Guile          | Deceitful    |             |          |           |          |             |  Honest      | Favor          | Truth: *My words are shields. Truth can be bent.* **<- vs ->** *My words are currency. You can rely on them.* |
+| Efficiency     | Lazy         |             |          |           |          |             |  Energetic   | Productivity   | Effort: *Enjoy my uselesness of today, and save my usefulness for tomorrow.* **<- vs ->** *Must. Keep. Working.* |
+| Precaution     | Paranoid     |             |          |           |          |             |  Trusting    | Luck           | Trust: *Trust no one. Assume the worst.* **<- vs ->** *Trust everyone. Assume the best.* |
+| Boldness       | Reckless     |             |          |           |          |             |  Prudent     | Prudence       | Risk: *I act without regard for my own safety.* **<- vs ->** *I weigh the risks, carefully.* |
+| Avarice        | Selfish      |             |          |           |          |             |  Generous    | Generosity     | Self-interest: *I come first.* **<- vs ->** *Others have greater need than I. I need nothing.* |
 
 Whenever PCs very strongly act in a certain way, their value in a Virtue or Vice may change. Take note during play, how the Characters have acted. After the session, discuss whether any of the PCs have shown a very strong drift towards either side of the scale. And if everyone agrees, a personality change is in order!
 
-| Trait       | < Signature | < Rather | Undecided | Rather > | Signature > |  Trait      |
-| ----------- | ----------- | -------- | --------- | -------- | ----------- | ----------- |
-| Arrogant    |             |          |           |          |             |  Humble     |
-| Cowardly    |             |          |           |          |             |  Courageous |
-| Cruel       |             |          |           |          |             |  Merciful   |
-| Deceitful   |             |          |           |          |             |  Honest     |
-| Lazy        |             |          |           |          |             |  Energetic  |
-| Paranoid    |             |          |           |          |             |  Naive      |
-| Reckless    |             |          |           |          |             |  Prudent    |
-| Selfish     |             |          |           |          |             |  Considerate|
-| Vengeful    |             |          |           |          |             |  Forgiving  |
+#### Avarice
+Avarice is your own **self-interest**, with disregard for other interests. You are disproportionately effective when acting **only** for your own benefit, and *reluctant* to expend yourself for others. But when *helping others* directly *helps you*, that's a different story. 
 
-These values can even have an impact on your [Tests](#tests)! For example, a Character who is known to be merciful may find it easier to convince their enemies to surrender to them. On the other hand, if that same PC tries intimidation, they will find it harder to succeed. 
+Ways to spend:
+* **Ace Up My Sleeve**: Gain an [Edge](#edge) on a Test that directly benefits you. 
+* **One For Me and One For Me**: Find more loot when no one is looking.
+* **That's MINE!**: Gain an [Edge](#edge) on a Test when Defending something of *particular* value to you. 
+* **I Must Survive**: Gain an [Edge](#edge) on a Test to heal yourself. 
 
-Keep your Character's Virtues & Vices in mind and remember to ask your GM for a bonus die to roll in Tests, where your "very" strong or "Signature" traits might aid you!
+#### Balance
+Balance is not a lack of personality. It is the place between extremes that can remain flexible and reasonable under pressure. You de-escalate conflict, or adapt to it when unavoidable. 
 
-Additionally, playing to or even against their Character's Virtues & Vices allows earning a player [Fate Points](#fate-points). 
+Ways to spend:
+* **De-Escalation**: Gain an [Edge](#edge) on a Test to prevent escalation. 
+* **Please, Reconsider**: Grant an [Edge](#edge) on a Test of someone else, to help them overcome their Signature. 
+* **I Am Calm**: Gain an [Edge](#edge) on a [Self-Control](#self-control-toughwit) Test against [Berserk](#berserk), [Jealous](#jealous) and [Drug-Addicted](#drug-addicted).
+* **Wind-Down**: Lower Strain by an additional `2` points, during [Recovery](#recovery).
+
+#### Dread
+Dread is not simply cowardice - it is knowing *how to survive*, and how to get away from harm. This can even extend to other Characters, who you can also keep from harm, or help escape. 
+
+Ways to spend:
+* **Not Today**: When targeted by an Attack or other dangerous effect, get out of harms way, up to `1` Square far, without provoking [Opportunity Attacks](#opportunity-attacks). The Attack suffers `+1` Ob. 
+* **Know When to Run**: You and your allies may move an additional `+2` Squares per AP, *if* you and they are fleeing from Combat, or from another dangerous situation. 
+* **Stay Away**: Make an enemy reconsider pursuing you or Attacking you.
+* **Where's the Exit?**: Immediately recognize ways to get out of your current situation / the current scene and how to reach them. 
+
+#### Ferocity
+Ferocity is the adrenaline that pumps you up in spite of great danger. You become more dangerous when there is something to face. 
+
+Ways to spend:
+* **Stand Your Ground**: Gain an [Edge](#edge) on a [Self-Control](#self-control-toughwit) Test against [Terrified](#terrified) and resist an effect that would cause you to flee out-right.
+* **Press the Attack**: After successfully attacking a dangerous opponent, launch another immediate and free Attack. 
+* **Face the Monster**: Improve a Test made directly against an obviously dangerous opponent.
+* **Last Stand**: Gain `+3` Temporary HP for every Injury you currently have.
+
+#### Pride
+Pride represents certainty that you are *important, capable, and superior*.
+
+Ways to spend:
+* **Refuse Humiliation**: After failing a Test, attempt it again, provided success would demonstrate your competence and status.
+* **Assert Authority**: Impose your will in a social situation where your status or competence is relevant.
+* **I Deserve Better**: Resist an effect that would force you to submit, retreat, surrender, or accept degrading treatment.
+* **Show Them**: After succeeding on a Test, increase the magnitude of the success or its social impact.
+
+#### Respectability
+Respectability represents the trust and good standing that comes from being modest, reliable, and not demanding of recognition.
+
+Ways to spend:
+* **Give Credit**: Shift attention or praise toward another Character, making others regard them more forgivingly. 
+* **Above Reproach**: Mitigate suspicion, scandal, and accusation directed towards you.
+* **Let Them Shine**: Grant an [Edge](#edge) to another Character's particularly difficult Test. 
+* **Quiet Influence**: Your presence alone can improve how other Characters act towards you or your allies. 
+
+#### Mercy
+Mercy is the conviction that the cycle of violence *must* be broken, and that everyone deserves another chance to redeem themselves. 
+
+You can spend it to:
+
+#### Wrath
+Wrath is the fire that flares up in your mind when you feel wronged. Every insult must be repaid in kind - or worse. 
+
+You can spend it to:
+* **Reprisal**: Add `5` Pure Damage to an Attack against someone who harmed you or an ally.
+* **Punish**: Increase the effect(s) of a successful Attack against someone who previously harmed you. Note: *only* the effects, **not** the Damage! E.g. `1` [Bleeding](#bleeding) -> `2` Bleeding.
+* **You Will Pay**: Gain an [Edge](#edge) on [Persuasion](#persuasion-witwit) when intimidating someone who wronged you o an ally. 
+* **Vendetta**: [Mark](#marked) a creature. Your Tests against them are more effective. 
 
 ## Health
 Every Character has [Health Points (HP)](#health-points-hp) and may suffer [Injuries](#injury). Additionally, [Conditions](#condition) can apply a variety of [Boons And Penalties](#boons--penalties). 
