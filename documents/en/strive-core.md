@@ -188,11 +188,20 @@ By using STRIVE (that includes but is not limited to viewing, reading, referenci
       - [Avarice](#avarice)
       - [Balance](#balance)
       - [Dread](#dread)
+      - [Efficiency](#efficiency)
+      - [Favor](#favor)
       - [Ferocity](#ferocity)
+      - [Generosity](#generosity)
+      - [Guile](#guile)
+      - [Precaution](#precaution)
       - [Pride](#pride)
+      - [Productivity](#productivity)
       - [Respectability](#respectability)
+      - [Prudence](#prudence)
       - [Mercy](#mercy)
       - [Wrath](#wrath)
+      - [Luck](#luck)
+      - [Boldness](#boldness)
   - [Health](#health)
     - [Health Points (HP)](#health-points-hp)
       - [Recovering HP](#recovering-hp)
@@ -941,6 +950,10 @@ A Character helping in a Test, gains `+1` [XP](#experience-points-xp).
 
 > When rolling `3D6`, with `2` Edge and achieving `5`, `3` and `4` in the roll, then `1` Edge can be used to turn the `4` into a `5` or all Edge could be used to turn the `3` into a `5`. There is not enough Edge to turn all Misses into Hits, but at least one die is guaranteed to become a Hit! 
 
+Some adversaries, or some Skills, may directly target an Attribute Level, as a threshold for its effects. In such a case, you often cannot roll an Opposed Test to deny your foe their success. But if you would be granted an Edge for a Test that thematically fits the effect you're about to suffer, you can shift the threshold by `1`, per Edge you have, in the direction that benefits you!
+
+> A particularly nasty enemy can inflict the Terrified Condition on all PCs whose Toughness is `≤ 2`. A PC with a Toughness of `2`, will therefore suffer the effect, without a chance to defend themselves against it. But, if they have an Edge for Self-Control Tests against Terrified, they can temporarily lower that threshold to `≤ 1`, which their Toughness is now above. Thus, they avoid the harmful effect! 
+
 Edge is **not persistent**! Once Combat ends or the scene changes, all Edge expires!
 
 ### Test Success Likelihoods
@@ -1396,27 +1409,45 @@ Avarice is your own **self-interest**, with disregard for other interests. You a
 
 Ways to spend:
 * **Ace Up My Sleeve**: Gain an [Edge](#edge) on a Test that directly benefits you. 
+* **I Must Survive**: Gain an [Edge](#edge) on a Test to heal yourself. 
 * **One For Me and One For Me**: Find more loot when no one is looking.
 * **That's MINE!**: Gain an [Edge](#edge) on a Test when Defending something of *particular* value to you. 
-* **I Must Survive**: Gain an [Edge](#edge) on a Test to heal yourself. 
 
 #### Balance
 Balance is not a lack of personality. It is the place between extremes that can remain flexible and reasonable under pressure. You de-escalate conflict, or adapt to it when unavoidable. 
 
 Ways to spend:
 * **De-Escalation**: Gain an [Edge](#edge) on a Test to prevent escalation. 
-* **Please, Reconsider**: Grant an [Edge](#edge) on a Test of someone else, to help them overcome their Signature. 
 * **I Am Calm**: Gain an [Edge](#edge) on a [Self-Control](#self-control-toughwit) Test against [Berserk](#berserk), [Jealous](#jealous) and [Drug-Addicted](#drug-addicted).
+* **Please, Reconsider**: Grant an [Edge](#edge) on a Test of someone else, to help them overcome their Signature. 
 * **Wind-Down**: Lower Strain by an additional `2` points, during [Recovery](#recovery).
 
 #### Dread
 Dread is not simply cowardice - it is knowing *how to survive*, and how to get away from harm. This can even extend to other Characters, who you can also keep from harm, or help escape. 
 
 Ways to spend:
-* **Not Today**: When targeted by an Attack or other dangerous effect, get out of harms way, up to `1` Square far, without provoking [Opportunity Attacks](#opportunity-attacks). The Attack suffers `+1` Ob. 
 * **Know When to Run**: You and your allies may move an additional `+2` Squares per AP, *if* you and they are fleeing from Combat, or from another dangerous situation. 
+* **Not Today**: When targeted by an Attack or other dangerous effect, get out of harms way, up to `1` Square far, without provoking [Opportunity Attacks](#opportunity-attacks). The Attack suffers `+1` Ob. 
 * **Stay Away**: Make an enemy reconsider pursuing you or Attacking you.
 * **Where's the Exit?**: Immediately recognize ways to get out of your current situation / the current scene and how to reach them. 
+
+#### Efficiency
+Efficiency is the art of knowing where your effort is worth spending. 
+
+Ways to spend:
+* **Cut Corners**: Reduce the time/resources required for a [Project](#crafting--research-projects), but incur a Complication to it.
+* **Less is More**: Spend `1` AP this Turn, to gain `+2` at the end of your next Turn. 
+* **Good Enough**: When failing a [Project Roll](#progressing-a-project), instead of accepting a Complication or suffering a Quality loss, instead finish the Project as it is. 
+* **Use It Judiciously**: Preserve an existing resource, tool, or expendable item that would normally be consumed.
+
+#### Favor
+Favor is garnered by trustworthy words and reliable action. An impeachable reputation and people who owe you. 
+
+Ways to spend:
+* **You Have My Word**: Gain an [Edge](#edge) on a [Persuasion](#persuasion-witwit) Test.
+* **Call in a Favor**: Call in a favor with someone. 
+* **Reliable Witness**: Have someone vouch for your character or testimony.
+* **Good Faith**: Resolve a social dispute by demonstrating that your established behavior supports your claim.
 
 #### Ferocity
 Ferocity is the adrenaline that pumps you up in spite of great danger. You become more dangerous when there is something to face. 
@@ -1427,6 +1458,34 @@ Ways to spend:
 * **Face the Monster**: Improve a Test made directly against an obviously dangerous opponent.
 * **Last Stand**: Gain `+3` Temporary HP for every Injury you currently have.
 
+#### Generosity
+Generosity benefits everyone else. You give without regard for your own needs, as the needs of others come first. 
+
+Ways to spend:
+* **Share the Burden**: Suffer another Character's cost or penalty for something, instead of them. 
+* **Give Them Your Chance**: Allow another character to benefit from an opportunity that would otherwise belong to you.
+* **Open Hand**: Offer something to another Character that they *really* don't want to refuse. 
+* **No Strings Attached**: [Assist](#providing-assistance) a Test with double efficiency. You grant `+2D`, with no expectation of repayment.
+
+#### Guile
+Guile is your weapon. You conceal truth behind layers of lies and things where no one looks. 
+
+Ways to spend:
+* **Words are Shields**: Gain an [Edge](#edge) on a [Persuasion](#persuasion-witwit) Test to deceive someone. 
+* **Concealed Weapon**: On a successful Attack, gain an additional `+5` Piercing Damage from a weapon you had previously concealed. 
+* **Compulsive Concealment**: Have something hidden about your person that no one else can find. 
+* **Soft-Step**: Gain an [Edge](#edge) on a [Stealth](#stealth-agiawar) Test. 
+
+#### Precaution
+Precaution 
+
+Ways to spend:
+I Brought One: Produce a mundane item or preparation that it was reasonable to have anticipated needing.
+Plan for the Worst: Reduce the severity of an unexpected complication.
+Safe Route: Avoid or reduce a hazard when travelling.
+Double-Check: Prevent a failure caused by an overlooked detail.
+Contingency: Reveal a reasonable fallback plan that was prepared beforehand.
+
 #### Pride
 Pride represents certainty that you are *important, capable, and superior*.
 
@@ -1435,6 +1494,15 @@ Ways to spend:
 * **Assert Authority**: Impose your will in a social situation where your status or competence is relevant.
 * **I Deserve Better**: Resist an effect that would force you to submit, retreat, surrender, or accept degrading treatment.
 * **Show Them**: After succeeding on a Test, increase the magnitude of the success or its social impact.
+
+#### Productivity
+
+Ways to spend:
+Push Through: Generate additional Project Progress during a Work-Session.
+Keep Working: Perform another Work-Session when circumstances would normally require rest, if fiction permits.
+Momentum: Carry a successful Work-Session's benefit into the next one.
+Overtime: Accomplish additional mundane work before a deadline.
+Finish It: Gain a final burst of Progress when a Project is nearly complete.
 
 #### Respectability
 Respectability represents the trust and good standing that comes from being modest, reliable, and not demanding of recognition.
@@ -1445,10 +1513,23 @@ Ways to spend:
 * **Let Them Shine**: Grant an [Edge](#edge) to another Character's particularly difficult Test. 
 * **Quiet Influence**: Your presence alone can improve how other Characters act towards you or your allies. 
 
+#### Prudence
+Ways to spend:
+Reconsider: Cancel or modify an action before its consequences occur.
+Measured Response: Reduce the severity of a failed risky action.
+Take Cover: Improve protection when there is time to prepare.
+Wait: Delay acting to gain a safer opportunity.
+Know the Cost: Reveal an important consequence before committing to a course of action.
+
 #### Mercy
 Mercy is the conviction that the cycle of violence *must* be broken, and that everyone deserves another chance to redeem themselves. 
 
 You can spend it to:
+Spare Them: After defeating an enemy, prevent their death.
+Stay My Hand: Reduce or eliminate an otherwise lethal consequence.
+Forgive: Remove a hostile/social consequence from an NPC who has wronged you.
+Offer Quarter: Cause a defeated opponent to recognize your offer of mercy.
+Compassion: Reduce suffering caused by one of your actions.
 
 #### Wrath
 Wrath is the fire that flares up in your mind when you feel wronged. Every insult must be repaid in kind - or worse. 
@@ -1458,6 +1539,24 @@ You can spend it to:
 * **Punish**: Increase the effect(s) of a successful Attack against someone who previously harmed you. Note: *only* the effects, **not** the Damage! E.g. `1` [Bleeding](#bleeding) -> `2` Bleeding.
 * **You Will Pay**: Gain an [Edge](#edge) on [Persuasion](#persuasion-witwit) when intimidating someone who wronged you o an ally. 
 * **Vendetta**: [Mark](#marked) a creature. Your Tests against them are more effective. 
+
+#### Luck
+
+You can spend it to:
+Lucky Break: Turn a failure into a lesser failure or partial success.
+Right Place: Establish that you happen to be somewhere useful.
+Fortunate Find: Discover something useful that could reasonably be present.
+Missed Me: Reduce the consequence of an unexpected danger.
+Just in Time: Arrive or act at a surprisingly convenient moment.
+
+#### Boldness
+
+You can spend it to:
+Go for It: Take a greater risk to gain a greater effect on a successful Test.
+All In: Increase the potential consequence and potential reward of an action.
+Daredevil: Ignore a lesser danger while pursuing the primary objective.
+Break Through: Overcome an obstacle by taking a dangerous approach that would normally be rejected.
+No Time to Think: Act immediately despite incomplete information.
 
 ## Health
 Every Character has [Health Points (HP)](#health-points-hp) and may suffer [Injuries](#injury). Additionally, [Conditions](#condition) can apply a variety of [Boons And Penalties](#boons--penalties). 
@@ -1939,7 +2038,7 @@ All creatures that can be tired, require sleep. Some [Conditions](#condition) ca
 An interruption of a Full Rest is any break in the rest, when a Character is forced to do something physically or mentally taxing that keeps them from sleep. If in doubt - a Test is almost always going to be taxing in some way.
 
 ### Recovery
-Once per [QoD](#quarters-of-a-day-qod), during a [Partial Rest](#resting), Characters may replenish up to `12` [HP](#health-points-hp) and `3` [Stamina](#stamina), while reducing [Strain](#strain) by `1`. 
+Once per [QoD](#quarters-of-a-day-qod), during a [Partial Rest](#resting), Characters may replenish up to `10` [HP](#health-points-hp) and `3` [Stamina](#stamina), while reducing [Strain](#strain) by `1`. 
 
 A [Full Rest](#resting) always replenishes up to `30` HP and `10` Stamina, while reducing Strain by `6`. 
 
