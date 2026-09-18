@@ -1477,14 +1477,13 @@ Ways to spend:
 * **Soft-Step**: Gain an [Edge](#edge) on a [Stealth](#stealth-agiawar) Test. 
 
 #### Precaution
-Precaution 
+Precaution is the expression of constant distrust. Expecting the worst in people. 
 
 Ways to spend:
-I Brought One: Produce a mundane item or preparation that it was reasonable to have anticipated needing.
-Plan for the Worst: Reduce the severity of an unexpected complication.
-Safe Route: Avoid or reduce a hazard when travelling.
-Double-Check: Prevent a failure caused by an overlooked detail.
-Contingency: Reveal a reasonable fallback plan that was prepared beforehand.
+* **I Brought One**: Produce an Asset or other preparation that it was reasonable to have anticipated needing.
+* **Plan for the Worst**: Reduce the severity of a [Project Complication](#project-complications).
+* **Scrutinize**: You expect the lies. Gain an [Edge](#edge) on [Observation](#observation-awarawar) Tests to detect a lie. 
+* **Contingency**: Repeat a failed Test, at Ob `+1`, but with `+1D`. 
 
 #### Pride
 Pride represents certainty that you are *important, capable, and superior*.
@@ -1496,13 +1495,13 @@ Ways to spend:
 * **Show Them**: After succeeding on a Test, increase the magnitude of the success or its social impact.
 
 #### Productivity
+Productivity is your way of life or an expression of great ambition. You keep pushing yourself past your limits. Work comes first. 
 
 Ways to spend:
-Push Through: Generate additional Project Progress during a Work-Session.
-Keep Working: Perform another Work-Session when circumstances would normally require rest, if fiction permits.
-Momentum: Carry a successful Work-Session's benefit into the next one.
-Overtime: Accomplish additional mundane work before a deadline.
-Finish It: Gain a final burst of Progress when a Project is nearly complete.
+* **Push Through**: Generate additional Project Progress during a Work-Session. Suffer `+1` Strain.
+* **Rest Comes Later**: During a [Rest](#resting), instead of lowering your Strain, you may work on [Projects](#crafting--research-projects). 
+* **Overwork**: Gain `+2D` on a Test, and then suffer `+2` Strain.
+* **Finish It**: Gain a final burst of Progress when a Project is nearly complete.
 
 #### Respectability
 Respectability represents the trust and good standing that comes from being modest, reliable, and not demanding of recognition.
@@ -1514,12 +1513,13 @@ Ways to spend:
 * **Quiet Influence**: Your presence alone can improve how other Characters act towards you or your allies. 
 
 #### Prudence
+Prudence is the careful consideration of your next steps, weighing the risks and supporting only a course of action you deem *worth it*.
+
 Ways to spend:
-Reconsider: Cancel or modify an action before its consequences occur.
-Measured Response: Reduce the severity of a failed risky action.
-Take Cover: Improve protection when there is time to prepare.
-Wait: Delay acting to gain a safer opportunity.
-Know the Cost: Reveal an important consequence before committing to a course of action.
+* **Reconsider**: Cancel or modify an Action *before* its consequences occur, but *after* you learn what those consequences *would be*.
+* **Measured Response**: Reduce the severity of a failed risky Action.
+* **Wait For It**: Delay an Action or Reaction to gain a safer opportunity, granting it an [Edge](#edge) the next chance you get for it.
+* **Know the Cost**: Reveal an important consequence before committing to a course of Action.
 
 #### Mercy
 Mercy is the conviction that the cycle of violence *must* be broken, and that everyone deserves another chance to redeem themselves. 
@@ -2036,6 +2036,8 @@ A QoD is a time-keeping unit, not an activity allowance. Just because an activit
 All creatures that can be tired, require sleep. Some [Conditions](#condition) can only be cleared by resting. A **Full Rest** requires at least one uninterrupted QoD of *active resting*. That implies not doing anything besides sleeping or meditating. Anything less than a Full Rest is a **Partial Rest**. 
 
 An interruption of a Full Rest is any break in the rest, when a Character is forced to do something physically or mentally taxing that keeps them from sleep. If in doubt - a Test is almost always going to be taxing in some way.
+
+Under normal circumstances, while Resting, Characters may not work on [Projects](#crafting--research-projects)!
 
 ### Recovery
 Once per [QoD](#quarters-of-a-day-qod), during a [Partial Rest](#resting), Characters may replenish up to `10` [HP](#health-points-hp) and `3` [Stamina](#stamina), while reducing [Strain](#strain) by `1`. 
