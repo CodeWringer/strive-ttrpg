@@ -1,53 +1,129 @@
 <div style="text-align: center; font-size: 6rem">STRIVE</div>
-<div style="text-align: center; font-size: 1rem">Version 26 (Playtest)</div>
+<div style="text-align: center; font-size: 2rem">Heroic, Cooperative, Tactical, Evolving, World-Builder Friendly</div>
+<div style="text-align: center; font-size: 1rem">Version 27</div>
 
 # Introduction
-**STRIVE** is a table-top role-playing game (**TTRPG**), requiring a **game master** (**GM**) and at least one **player** to play and at its core, is about **emergent storytelling**, **tactical combat** and **heroic** Characters. Players experience the **evolution** of their player Character (**PC**) by defining convictions that **drive** them to action, based on the events they experience. In that way, players also **drive** the story forward and guide the evolution of the world. 
+**STRIVE** is a table-top role-playing game (TTRPG), requiring a **game master (GM)** and at least one **player** to play. Play itself works as a conversation, in which players tell the GM what their Characters attempt to do and the GM determines what actually happens. The rules outlined in this document, supplementary documents and a set of dice are used to help with that. <br>
+On the spectrum of *narrative-driven*, *game-y* and *simulationist*, STRIVE aims for the region between game-y and narrative-driven, while leaning heavily towards game-y. It understands itself as a game and the rules contained herein will often reflect that by making broad abstractions and even some unrealistic assertions - all for the goal of keeping the game easier to learn and more fun to experience. 
 
-Play itself works as a conversation, in which players tell the GM what their Characters attempt to do and the GM determines what happens when they do. The rules outlined in this document, supplementary documents and a set of dice are used to determine whether things play out as the players have envisioned. 
+But what is it *about*? Condensed down to a single sentence:
 
-**STRIVE** understands itself first and foremost as a rule system. *This* document is designed as an unobtrusive reference which you are expected to read once, and after that only open to quickly look up whatever rule you currently need to refamiliarize yourself with. The system is aimed at GMs who enjoy doing their own world-building or who want to bring a particular world they like to the table. As such, no setting or theme is imposed, so that you may choose your own. Of course, this implies that adaptability and extensibility are a key ingredient. You are expressly encouraged to hack the system, to make it fit whatever setting and theme you decide on. And if you'd like some guidance or inspiration along the way, one of the supplemental modules may provide what you seek. 
+> STRIVE is a TTRPG about **Heroic Characters** who **Cooperatively** overcome challenges, both inside and outside of **Tactical Combat**, who **Grow and Change Organically** over the course of **Long-Running Campaigns** and is built specifically for people who love to do their own **World-Building**. 
 
-The system is best suited for long-term "sandbox" style games, running indefinitely. One-shots are possible but may not provide the best experience, as several of the system's mechanics require breaks in play. More narrowly directed experiences are possible, but may require some shortcuts to be taken when it comes to *time* - how long it takes to recover from injuries and illnesses, how long it takes to craft and to practice, and so on. 
+There is a lot to unpack from these few words alone, so let's examine each in detail. 
 
-On the spectrum of *narrative-driven*, *game-y* and *simulationist*, **STRIVE** aims for the region between *game-y* and *narrative-driven*, while leaning heavily towards *game-y*. It understands itself as a *game* and the rules contained herein will often reflect that by making broad abstractions and even some unrealistic assertions - all for the goal of keeping the game easier to learn and more fun to experience. 
-
-Most rules have a certain degree of vagueness to them. This is at least partially deliberate. The situations that can come up during play are simply too varied and numerous to possibly cover completely with rules, without requiring epic tomes filled to the brim with highly specific rulings for highly specific situations. Instead, the game relies on the GM to arbitrate in most situations. The descriptions in the rules here should serve as a point of orientation for the GM. How *they* interpret the rules, is how the rules are to be understood. 
-
-## Tactical Combat
-First of all, STRIVE is **not** a wargame. It is not about coordinating large troop movements, supply lines or chains of command (although you can feature such things in your game if you like). 
-
-Secondly, the game is not *about* tactics, either. However, the combat *is tactical* in the sense that turn-based combat with varied challenges and *tactical thinking* is a main feature of the game. Combat is expected to take place on a grid of squares or hexagons. The position of enemies and allies matters and the battlefield itself may have an impact on the decisions to be made. The battlefield may have objectives, choke-points and hazards which the players are expected to deal with or exploit to their advantage. All Characters act in turns, but players are expected to coordinate their characters' actions. 
-
-Thirdly, the very capabilities of Characters are in themselves a puzzle. There are many options to choose from for building and playing a Character. There are often multiple choices available for deciding *how* a Character will move, attack or defend. 
-
-Lastly, while the game features Health Points, it also features injuries. When a Character suffers enough damage, an injury is inflicted upon them. And injuries spell *serious trouble* that reduce that Character's efficacy. Recovery from injuries is expected to take time. This implies plenty of down-time for combat-heavy parties, which is time that can be spent on professions, hobbies and scheming. 
-
-## Character Evolution
-Players define long-term and short-term goals for their Characters. It is then the GM's job to work those goals into the story. Thus, players directly influence the narrative on a meta-level that is guaranteed to be interesting to them and their Character. 
-
-Of course, a GM's capabilities may be limited, either by experience, theme or setting of the game they've set up. And so, they don't *have* to make unreasonable goals be realisticaly achievable. In fact, unrealistic goals are just as acceptable, as achievable ones. 
-
-And regardless of *what* the goals are, they are sure to drive the PCs into action. Every goal they pursue, is sure to leave an impact on them. What's more, recent and upcoming events of the narrative may also be picked up by PCs and become the basis of their goals and affect their personality. In this way, players and GM never quite know what direction the PCs will develop. They're like a book you start writing from the beginning - not the ending. 
-
-Another aspect of Character evolution is manifested by their Attributes and Skills. These abilities are learned and improved over time. Generalist Characters benefit from varied knowledge, while specialists enjoy unique abilities. Over the course of a long-running game, the abilities the Characters have learned would be capable of telling stories of their own. 
-
-Furthermore, a meta-currency, called **Fate Points** is earned by *players*, based on what they and their Character do in a session. These allow buying Fate Cards, which give players access to powerful meta-powers that can be enacted at any time, allowing for truly decisive achievements. 
+When reading on, don't let oddly capitalized words distract you. These are simply all the game mechanical terms, made to stand out on purpose, to hint they also have a game mechanical meaning. 
 
 ## Heroic
-Many of the systems of STRIVE promote a distinctly heroic style of play. There are buffers between death and full strength. And when Characters are hurt, they can fully recover, given enough time. Your Characters are expected to keep advancing, potentially outgrowing threats and becoming capable of achieving legendary feats. Bad luck and poor rolls are very unlikely to kill a Character - the Fate and Momentum systems allow you to exert a strong influence over a roll's or fight's outcome. 
+Many of the systems of STRIVE promote a distinctly heroic style of play. There is a strong emphasis on player and Character **agency**.
 
-You may choose to play without the Momentum system for a less heroic style of game. If you want any other experience, such as horror or grimdark, you will need to adjust how Injury recovery works. Or play a different game. STRIVE aims for long-running campaigns, wherein players and their Characters form strong bonds with NPCs and shape parts of the world to their own whims. This requires PCs to last a long time, or otherwise the bonds they form become meaningless and their achievements disconnected from their player. PCs may still perish, if they get in way over their heads. But the end will be a defiant struggle, with lots of room for dramatic moments. 
+There are buffers between death and full strength and when Characters are hurt, they can fully recover, given enough time. Your Characters are expected to keep advancing, potentially outgrowing threats and becoming capable of achieving legendary feats. Bad luck and poor rolls are unlikely to kill a Character - the Fate and Momentum systems allow you to exert a strong influence over a roll's or fight's outcome. 
+
+You may choose to play without the Momentum system for a less heroic style of game. Even so, the game is ill suited to horror or grimdark. STRIVE aims for long-running campaigns, wherein players and their Characters form strong bonds with NPCs and shape parts of the world to their own whims. This requires PCs to last a long time, as otherwise the bonds they form become meaningless and their achievements disconnected from their player. PCs may still perish, when they get in way over their heads, but the end will be a defiant struggle, with lots of room for dramatic moments. 
+
+A meta-currency, called **Fate Points** is earned by *players*, through role-play and normal game play. Fate Points allow buying **Fate Cards**, which give players access to powerful meta-powers that can be enacted at *any* time, allowing for truly decisive achievements. 
+
+## Cooperative
+Cooperation in play is a huge design foundation for STRIVE! TTRPGs are a social hobby, making it an ideal space for friendly, low-pressure social interaction. To facilitate this idea, STRIVE does two things: 
+
+First, Player Characters are strongly encouraged to cooperate, as that is how they will achieve the great accomplishments. There are many systems that encourage cooperation on several levels. 
+
+Secondly, the GM is not an adversary. They're a curator of interactive drama. But to make drama work, both the GM and the players have to work together. The GM is expected to work the Characters' goals into the narrative. You must communicate and coordinate your wishes for the game. It is easy for a GM to kill Player Characters, or to simply ignore their Drivers. It is also easy for players to be secretive about their Character's wishes and goals. But then no drama can happen. As such, when you exchange your ideas, the GM can help nudge Drivers in a direction that will work for their narrative, while players can gain a better idea of how they may expect drama to occur. 
+
+This is a very complex and difficult to describe design goal. Effectively, it boils down to this: always assume everyone at the table wants to have fun **together**, **respects eachother** and understands STRIVE as a **cooperative, shared experience**.
+
+## Tactical
+First of all, STRIVE is **not a wargame**. It is not about coordinating large troop movements, managing supply lines or establishing chains of command (although you can feature such things in your game if you like). 
+
+Secondly, the game is **not *about* tactics**, either. However, the game features *tactical combat* in the sense that Characters take Turns, move on a grid of Squares or hexagons and have a limited number of actions they can take each Turn. The position of enemies and allies matters and even the battlefield itself may have an impact on the decisions to be made. There may be objectives, choke-points and hazards which the players are expected to deal with or exploit to their advantage. 
+
+The very capabilities of Characters are in themselves a puzzle. There are many options to choose from for building and playing a Character. There are often multiple choices available for deciding *how* a Character will Move, Attack or Defend. 
+
+Lastly, while the game features Health Points, it also features Injuries. When a Character suffers enough Damage, an Injury is inflicted upon them. And Injuries spell *serious trouble* that reduce the Character's efficacy. Recovery from Injuries is expected to take time. This implies plenty of down-time for Combat-heavy parties, which is time that can be spent on professions, hobbies and scheming. Although, you may accelerate the healing process, if you prefer. 
+
+## Character Evolution
+Players define **long-term and short-term goals** for their Characters. The GM is expected to work those goals into the story, thus letting the players indirectly influence the narrative on a meta-level that is guaranteed to be interesting to them and their Character. As events unfold in the story, their goals may change or come to fruition. Both achieved and aborted goals may have an impact on a Character. As a result, their personality may change and they may gain renown for their deeds. 
+
+Another aspect of Character growth is manifested through their Attributes and Skills. These **abilities are learned and improved over time**, through use. Generalist Characters benefit from varied knowledge, while specialists enjoy powerful special capabilities. Over the course of a long-running game, the abilities the Characters have learned would be capable of telling stories of their own. 
+
+In the end, neither the players, nor the GM may ever quite know in what direction the Characters will develop. They're like a book you start writing from the beginning - not the ending. 
+
+## Long-Running Campaigns
+In TTRPG terminology, a *Campaign* is a series of adventures, that may be connected or completely independent, that the same Characters experience, as a group and which (loosely) follows an overarching narrative. <br>
+That is a very broad description, but is sufficient for the purposes of this document. 
+
+The system is best suited for long-term "sandbox" style games, running indefinitely, within which the players decide where to go and what to do. One-shots are possible but may not provide the best experience, as several of the system's mechanics require breaks in play. Even so, more narrowly directed experiences may be possible, but will require shortcuts to be taken when it comes to *time* - how long it takes to recover from Injuries and Illnesses, how long it takes to Craft and to Practice, and so on. 
+
+## Word-Builder Friendly
+The last, but by no means least focus point of STRIVE is the fact that it is aimed at GMs and players who enjoy doing their own world-building. To support this feature, STRIVE is designed to be modular and easily extensible. You are encouraged to hack and adapt the system to fit your needs.
+
+By default, you are not forced to support a specific world or theme. These things are deliberately left in your hands. You may bring any world you like and adapt STRIVE to work within it. However, if you feel daunted by all the heavy lifting that implies, STRIVE's supplements, called **Modules** may lift much of that burden from you. 
+
+The Game Mastery chapter provides guidance on how to create your own NPCs and creatures - your most important tools in a TTRPG - and Modules may introduce even more tool kits for you to work with.
+
+### Modular
+A STRIVE Module extends or alters the core rules, to support a specific fantasy or add additional features to the game. There may even be Modules to provide worlds for you to play with. By default, you will require at least one theme-adding Module to be able to play the game properly. 
+
+For example, the Fantasy Module adds fantasy medieval themed Skills and Assets and a magic system. If that is the type of theme you are looking for, it may get you started faster. 
+
+# How To Read This Document
+STRIVE understands itself first and foremost as a rule system. *This* document is designed as an unobtrusive reference which you are expected to read once, and after that only open to quickly look up whatever rule you currently need to re-familiarize yourself with.
+
+Most rules have a certain degree of vagueness to them. This is at least partially deliberate as the situations that can come up during play are simply too varied and numerous to possibly cover completely with rules, without requiring epic tomes filled to the brim with highly specific rulings for highly specific situations. Instead, the game relies on the GM to arbitrate in most situations. The rules herein serve as a point of orientation for the GM. How *they* interpret the rules, is how the rules are to be understood. 
+
+Whenever you come across a capitalized term, it has some game mechanical meaning and can be found in the [glossary](#glossary) for quick look-up. 
+
+# Credits & Honorable Mentions
+**Designer**: Nicolas 'Krubi' H.
+
+There are my two small, yet inexorable groups of play-testers, whose feedback has been invaluable and without whom this game would not be any where near as complete! It is them who keep me motivated and whose excitement for STRIVE is reflected in me!
+
+And of course, such a project did not come into existence in a vacuum. Inspiration and lessons were found in a variety of places, such as other TTRPGs. Each of them deserves an honorable mention and in what ways they differ from STRIVE. It bears stating here that neither STRIVE, nor I as its designer, are in any way affiliated with, sponsored or endorsed by the products and website mentioned below. These are simply honorable mentions of other RPGs and sources for inspiration. 
+
+* If you are interested in a medieval fantasy world and enjoy the Driver and Fate-Card systems, but care little for STRIVE's emphasis on combat, **Burning Wheel** may be what you seek. 
+* For heroic medieval fantasy, where combat is the core - even more so than in STRIVE -, check out **Draw Steel**. Its unique Malice mechanic and how combatants are constantly moved around keeps combat interesting all throughout. And if you dislike STRIVE's class-less player Character approach, Draw Steel is the polar opposite, in this regard. 
+* **Symbaroum** offers haunting and marvelous artworks in an equally fascinating dark medieval fantasy world. The way in which you can customize your Character builds are plentiful and really fun to experiment with! Skill Expertises and some Traits were inspired by this system.
+* For grim dark fantasy, with a more complex injury system, take a look at **Zweihänder**, which in turn appears inspired by **Warhammer Fantasy**. Its list of professions and skills offers an incredible wealth of Character customization! 
+* **The Black Eye**, or **Das Schwarze Auge** in German, which leans very heavily into the simulationist spectrum, with intricate systems for almost everything, a fully worked out world in a medieval fantasy setting and with a unique way of handling skill tests. Rolling three dice and letting the skill's level compensate for bad rolls is quite unique, which partly inspired STRIVE's dice mechanics. 
+* The Momentum system was inspired by the video-game **Rogue Trader**, which has its own version of such a system. It is a great Classic RPG set in the Warhammer 40K universe. 
+
+Also worth mentioning is the RPG Design subreddit, where one can find many in-depth analyses about game mechanics. Many lessons may be found here, which, with some effort, can be molded into concrete mechanics for your own rpg.
+
+# License
+STRIVE may be freely available, but that does not mean you may do everything you want with it. If you only want to play STRIVE, this license needn't worry you too much (you should still read and know it) and while I still stand by my claim that STRIVE lives off its extensibility and that you are absolutely encouraged to create your own works based on STRIVE, also know that STRIVE has been a lot of work and a labor of love that I ask to be respected. Basically, the license outlined below (this paragragh is not part thereof) covers my butt legally, while stating I want STRIVE to be credited in your own works based upon it. What's not covered by the license is that I would love to hear about your own works based on STRIVE! Whether it be adventures, themes, settings, more Skills, more mechanics or what you consider improvements or corrections for existing mechanics would be most interesting to hear about! Now be careful, there be *Legalese* ahead.
+
+By using STRIVE (that includes but is not limited to viewing, reading, referencing and playing it), for whatever purpose, you agree to the following terms:
+
+* By adhering to these terms, you are allowed to publish your own original works based upon and/or compatible with STRIVE, without requiring express permission from the designer ("Nicolas 'Krubi' H.", "Me", "I", "My" or "Mine"), both for personal and commercial use. 
+* You may only use and/or reference STRIVE starting from version 26 and onward. Older versions of this document may still be available for viewing only, but you may not base your own works upon or declare them compatible with such versions. 
+* You agree not to copy or reproduce any art, icon, illustration or font contained in this document without My explicit permission in writing. 
+  * However, you may produce your own original art, icons, illustrations and fonts in the same style, without requiring permission.
+* You may freely reuse and reference any gameplay mechanics (= rules) in this document and even use the same names and terminology. 
+  * You may even reuse the text describing the mechanics. However, in doing so, you also agree to place the following text in a visible location of your product (e. g. the website where you promote it or in the credits section of your own product): "This product uses and/or references mechanics from the STRIVE-TTRPG"
+* You may not claim or give the impression that your product is an official STRIVE product, that I endorse or sponsor it or that it is in any other way affiliated with Me.  
+  * You may however freely state your product to be compatible with or based upon STRIVE. 
+* I take no responsibility for any legal claims against your product. You agree not to bring any claim against Me based upon or arising from your use of STRIVE and its content. 
+* Any legal disputes, controversies or claims related to this license shall be governed and construed in accordance with the laws of Hamburg and be heard before a court in Germany.
+* You agree to defend, indemnify, and hold Me and My afilliates harmless from and against any liability, claims, actions, demands, and damages (including attorney's fees and costs) arising from or relating to your product or your exercise of any rights granted in this license. 
+* You agree that your product will not violate or infringe the intellectual property rights of any third party. 
+* I may modify or revise this license at any time at My sole discretion, and by posting a notice about the change in a visible place (i. e. the releases section of my GitHub project online https://github.com/CodeWringer/strive-ttrpg/releases). The modification or revision will become effective immediately upon such a posting. You are responsible for checking the license regularly for changes, and you waive any right to receive specific notice of changes. 
+  * License amendments or modifications will not become effective retroactively. They become effective immediately upon posting, but only for the version of this document they were posted with. If you do not agree to a newer version of the license, your work may continue to be based on an older version of STRIVE, but only starting from STRIVE version 26, and in doing so, you also agree to visibly state which version of STRIVE your work is based on. 
+* If you fail to comply with this license, your rights under this license terminate automatically and without notice. On termination of this license, you agree to immediately stop sharing or distributing any product created under this license. 
 
 # Table of Contents
 - [Introduction](#introduction)
-  - [Tactical Combat](#tactical-combat)
-  - [Character Evolution](#character-evolution)
   - [Heroic](#heroic)
-- [Table of Contents](#table-of-contents)
-- [Glossary](#glossary)
+  - [Cooperative](#cooperative)
+  - [Tactical](#tactical)
+  - [Character Evolution](#character-evolution)
+  - [Long-Running Campaigns](#long-running-campaigns)
+  - [Word-Builder Friendly](#word-builder-friendly)
+    - [Modular](#modular)
+- [How To Read This Document](#how-to-read-this-document)
 - [Credits \& Honorable Mentions](#credits--honorable-mentions)
 - [License](#license)
+- [Table of Contents](#table-of-contents)
+- [Glossary](#glossary)
 - [How to Play](#how-to-play)
   - [Distances \& The Grid](#distances--the-grid)
   - [Dice](#dice)
@@ -56,7 +132,6 @@ You may choose to play without the Momentum system for a less heroic style of ga
     - [Retell the Previous Session](#retell-the-previous-session)
     - [During the Session](#during-the-session)
     - [Intent \& Action](#intent--action)
-    - [Spending Time](#spending-time)
   - [After the Session](#after-the-session)
   - [Tests](#tests)
     - [Rounded Up \& Rounded Down](#rounded-up--rounded-down)
@@ -73,9 +148,9 @@ You may choose to play without the Momentum system for a less heroic style of ga
     - [Tests Bring about Learning](#tests-bring-about-learning)
     - [Providing Assistance](#providing-assistance)
       - [Helpers Learn](#helpers-learn)
-    - [Compensation Points](#compensation-points)
-    - [Time](#time)
+    - [Edge](#edge)
     - [Test Success Likelihoods](#test-success-likelihoods)
+  - [Actions, Reactions \& Passives](#actions-reactions--passives)
 - [Character](#character)
   - [Abilities](#abilities)
     - [Attributes](#attributes)
@@ -92,6 +167,7 @@ You may choose to play without the Momentum system for a less heroic style of ga
     - [Skills](#skills)
       - [Skill Forking](#skill-forking)
       - [Learning Skills](#learning-skills)
+      - [Beginner's Luck](#beginners-luck)
       - [Expertise](#expertise)
       - [Concentration](#concentration)
     - [Languages](#languages)
@@ -108,7 +184,7 @@ You may choose to play without the Momentum system for a less heroic style of ga
     - [Drivers](#drivers)
       - [Ambition](#ambition)
       - [Aspiration](#aspiration)
-      - [Reaction](#reaction)
+      - [Quirk](#quirk)
     - [Virtues \& Vices](#virtues--vices)
   - [Health](#health)
     - [Health Points (HP)](#health-points-hp)
@@ -119,14 +195,17 @@ You may choose to play without the Momentum system for a less heroic style of ga
       - [Shrugging Off An Injury](#shrugging-off-an-injury)
       - [Suffering An Injury](#suffering-an-injury)
       - [Crippled By Injuries](#crippled-by-injuries)
-      - [Injury States \& Treatment](#injury-states--treatment)
-      - [Injury \& Damage Type Table](#injury--damage-type-table)
+      - [Injury Treatment](#injury-treatment)
       - [Grit Points](#grit-points)
     - [Stamina \& Strain](#stamina--strain)
       - [Stamina](#stamina)
       - [Strain](#strain)
+      - [Recovering Stamina \& Reducing Strain](#recovering-stamina--reducing-strain)
     - [Condition](#condition)
     - [Illness](#illness)
+      - [Shrugging Off An Illness](#shrugging-off-an-illness)
+      - [Suffering an Illness](#suffering-an-illness)
+      - [Illness Recovery](#illness-recovery)
     - [Damage Types](#damage-types)
     - [Damage Resistances](#damage-resistances)
     - [Boons \& Penalties](#boons--penalties)
@@ -137,34 +216,58 @@ You may choose to play without the Momentum system for a less heroic style of ga
       - [Carrying Capacity](#carrying-capacity)
       - [Overweight](#overweight)
     - [Property](#property)
+    - [Armor Assets](#armor-assets)
+      - [Armor Traits](#armor-traits)
+      - [Legendary Armor Traits](#legendary-armor-traits)
+    - [Shield Assets](#shield-assets)
+      - [Shield Traits](#shield-traits)
+      - [Legendary Shield Traits](#legendary-shield-traits)
+    - [Weapon Assets](#weapon-assets)
+      - [Weapon-Family](#weapon-family)
+      - [Weapon Traits](#weapon-traits)
+        - [Foundational Weapon Traits](#foundational-weapon-traits)
+          - [Ranged](#ranged)
+        - [Offensive Weapon Traits](#offensive-weapon-traits)
+        - [Defensive Weapon Traits](#defensive-weapon-traits)
+        - [Mobility Weapon Traits](#mobility-weapon-traits)
+        - [Versatility Weapon Traits](#versatility-weapon-traits)
+        - [Legendary Weapon Traits](#legendary-weapon-traits)
 - [Fate Points](#fate-points)
   - [Minor Fate Points](#minor-fate-points)
   - [Major Fate Points](#major-fate-points)
   - [Ambition Fate Points](#ambition-fate-points)
   - [Hand of Fate](#hand-of-fate)
 - [Time-Management](#time-management)
-  - [Initiative](#initiative)
-    - [Surprise Round](#surprise-round)
-  - [Ticks](#ticks)
+  - [Quarters of a Day (QoD)](#quarters-of-a-day-qod)
   - [Resting](#resting)
-  - [Scenario-Time](#scenario-time)
-  - [Down-Time](#down-time)
-    - [Crafting \& Research Projects](#crafting--research-projects)
-      - [Project Prerequisites](#project-prerequisites)
-      - [Progressing a Project](#progressing-a-project)
-      - [Project Complications](#project-complications)
-      - [Quality Level Reference](#quality-level-reference)
-      - [Project Boosters](#project-boosters)
-      - [Crafting It Again](#crafting-it-again)
-        - [Crafting It In Batches](#crafting-it-in-batches)
+    - [Recovery](#recovery)
+    - [Staying On Watch](#staying-on-watch)
+  - [Initiative Order](#initiative-order)
+    - [Delaying Your Turn](#delaying-your-turn)
+    - [Surprise Round](#surprise-round)
+    - [Ticks](#ticks)
+- [Crafting \& Research Projects](#crafting--research-projects)
+  - [Project Prerequisites](#project-prerequisites)
+  - [Project Classification](#project-classification)
+    - [Trivial Project](#trivial-project)
+    - [Complex Project](#complex-project)
       - [Research Projects](#research-projects)
       - [Invention Projects](#invention-projects)
-      - [Complexity to Progress Increments](#complexity-to-progress-increments)
-      - [Workload to Time Increments](#workload-to-time-increments)
+  - [Progressing a Project](#progressing-a-project)
+    - [Pushing On](#pushing-on)
+      - [Project Complications](#project-complications)
       - [Project Events](#project-events)
-    - [Trade](#trade)
-      - [Seller's Chart](#sellers-chart)
-      - [Buyer's Chart](#buyers-chart)
+    - [Advancement Through Projects](#advancement-through-projects)
+    - [Project Boosters](#project-boosters)
+  - [Determining Work-Rate](#determining-work-rate)
+  - [Determining Progress Increment](#determining-progress-increment)
+  - [Quality Level Reference](#quality-level-reference)
+  - [Crafting It Again](#crafting-it-again)
+    - [Crafting It In Batches](#crafting-it-in-batches)
+- [Trade](#trade)
+  - [Appraisal](#appraisal)
+  - [Seller's Chart](#sellers-chart)
+  - [Buyer's Chart](#buyers-chart)
 - [Combat](#combat)
   - [Action Points (AP)](#action-points-ap)
     - [Action Point Saving](#action-point-saving)
@@ -177,7 +280,10 @@ You may choose to play without the Momentum system for a less heroic style of ga
     - [Swap-Out](#swap-out)
   - [Attacking](#attacking)
     - [Damage \& Effects](#damage--effects)
-      - [Primary Damage](#primary-damage)
+    - [Targeting-Types](#targeting-types)
+      - [Single Target (ST)](#single-target-st)
+      - [Multiple Single Target (MST)](#multiple-single-target-mst)
+      - [Area of Effect (AoE)](#area-of-effect-aoe)
     - [Opportunity Attacks](#opportunity-attacks)
       - [Disengage](#disengage)
       - [Push Through](#push-through)
@@ -185,7 +291,6 @@ You may choose to play without the Momentum system for a less heroic style of ga
     - [Stealth Attacks](#stealth-attacks)
     - [Free Strike (FS)](#free-strike-fs)
   - [Defending](#defending)
-    - [Armor \& Shields](#armor--shields)
     - [Defending an Ally](#defending-an-ally)
       - [Counter-Attack](#counter-attack)
     - [Cover](#cover)
@@ -196,12 +301,11 @@ You may choose to play without the Momentum system for a less heroic style of ga
     - [Throwing-Distance](#throwing-distance)
     - [Throwing-Accuracy](#throwing-accuracy)
     - [Throwing-Damage](#throwing-damage)
+  - [Random Direction](#random-direction)
 - [Travel \& Terrain](#travel--terrain)
   - [Forced March](#forced-march)
   - [Enduring the Journey](#enduring-the-journey)
   - [Foraging \& Hunting](#foraging--hunting)
-- [General Interactions](#general-interactions)
-  - [Appraisal](#appraisal)
 - [Appendix](#appendix)
   - [Character Creation](#character-creation)
     - [Determine Life Path](#determine-life-path)
@@ -211,32 +315,20 @@ You may choose to play without the Momentum system for a less heroic style of ga
     - [Determine Name](#determine-name)
     - [Personal Details](#personal-details)
     - [Determine Personality](#determine-personality)
-      - [Determine Ambition, Aspirations \& Reactions](#determine-ambition-aspirations--reactions)
+      - [Determine Ambition, Aspirations \& Quirks](#determine-ambition-aspirations--quirks)
         - [Choosing an Ambition](#choosing-an-ambition)
         - [Choosing Aspirations](#choosing-aspirations)
-        - [Choosing Reactions](#choosing-reactions)
+        - [Choosing Quirks](#choosing-quirks)
     - [Determine Abilities](#determine-abilities)
       - [Choosing Attributes](#choosing-attributes)
         - [Manual Attribute Assignment](#manual-attribute-assignment)
         - [Semi-Random Attribute Assignment](#semi-random-attribute-assignment)
       - [Choosing Skills](#choosing-skills)
-      - [Determine Boons from Ancestry](#determine-boons-from-ancestry)
+      - [Determine Character Traits](#determine-character-traits)
     - [Determine Derived Attributes](#determine-derived-attributes)
     - [Determine Assets](#determine-assets)
   - [Assets Appendix](#assets-appendix)
     - [General Assets](#general-assets)
-    - [Weapon Traits](#weapon-traits)
-      - [Melee](#melee)
-      - [Long Reach](#long-reach)
-      - [Very Long Reach](#very-long-reach)
-      - [Range Only](#range-only)
-      - [Prefer Range](#prefer-range)
-      - [Slow Reload](#slow-reload)
-      - [Very Slow Reload](#very-slow-reload)
-      - [Ranged](#ranged)
-      - [Serrated](#serrated)
-      - [Perfectly Balanced](#perfectly-balanced)
-      - [Poison-Chamber](#poison-chamber)
   - [Lists of Skills](#lists-of-skills)
     - [Physical Skills](#physical-skills)
       - [Acrobatics (Agi/Str)](#acrobatics-agistr)
@@ -253,7 +345,7 @@ You may choose to play without the Momentum system for a less heroic style of ga
       - [Trapping (Awar/Wit)](#trapping-awarwit)
       - [Throwing (Agi/Str)](#throwing-agistr)
       - [Unarmed Combat (Agi/Str)](#unarmed-combat-agistr)
-      - [Weapon \< Weapon Type \> (\< attribute \>)](#weapon--weapon-type---attribute-)
+      - [Weapon \< Weapon-Family \> (\< Base Attributes \>)](#weapon--weapon-family---base-attributes-)
     - [Social Skills](#social-skills)
       - [Acting (Awar/Wit)](#acting-awarwit)
       - [Animal Handling (Awar/Awar)](#animal-handling-awarawar)
@@ -263,7 +355,7 @@ You may choose to play without the Momentum system for a less heroic style of ga
       - [Mercantilism (Awar/Wit)](#mercantilism-awarwit)
       - [Persuasion (Wit/Wit)](#persuasion-witwit)
       - [Riding (Agi/Awar)](#riding-agiawar)
-      - [Self-Control (Tough/Tough)](#self-control-toughtough)
+      - [Self-Control (Tough/Wit)](#self-control-toughwit)
     - [Knowledge Skills](#knowledge-skills)
       - [Architecture (Awar/Wit)](#architecture-awarwit)
       - [Archeology (Awar/Wit)](#archeology-awarwit)
@@ -304,7 +396,7 @@ You may choose to play without the Momentum system for a less heroic style of ga
   - [List of Titles of Renown](#list-of-titles-of-renown)
     - [Heart of Stone](#heart-of-stone)
     - [Hero of Many Victories](#hero-of-many-victories)
-    - [Loremaster of X (degree)](#loremaster-of-x-degree)
+    - [Loremaster of \< Subject \> (\< degree \>)](#loremaster-of--subject---degree-)
     - [Monster Hunter](#monster-hunter)
     - [Paragon](#paragon)
     - [Pugilist](#pugilist)
@@ -324,6 +416,7 @@ You may choose to play without the Momentum system for a less heroic style of ga
     - [Exhausted](#exhausted)
     - [Frostbitten](#frostbitten)
     - [Grappled](#grappled)
+    - [Guarded](#guarded)
     - [Hasted](#hasted)
     - [Jealous](#jealous)
     - [Marked](#marked)
@@ -336,10 +429,6 @@ You may choose to play without the Momentum system for a less heroic style of ga
     - [Unconscious](#unconscious)
   - [List of Illnesses](#list-of-illnesses)
   - [List of Mutations](#list-of-mutations)
-  - [Targeting-Types](#targeting-types)
-    - [Single Target (ST)](#single-target-st)
-    - [Multiple Single Target (MST)](#multiple-single-target-mst)
-    - [Area of Effect (AoE)](#area-of-effect-aoe)
 - [Game Mastery](#game-mastery)
   - [The Role Of a Game Master](#the-role-of-a-game-master)
     - [Getting a Game Together](#getting-a-game-together)
@@ -389,6 +478,7 @@ You may choose to play without the Momentum system for a less heroic style of ga
     - [Retainers In Combat](#retainers-in-combat)
     - [Retainers Are Sidekicks](#retainers-are-sidekicks)
     - [Retainer Advancement](#retainer-advancement)
+  - [Legendary Actions](#legendary-actions)
 - [Hostility](#hostility)
 - [NPC Builder](#npc-builder)
   - [Combat Roles](#combat-roles)
@@ -428,6 +518,8 @@ You may choose to play without the Momentum system for a less heroic style of ga
       - [Hyperactive (-7 points; +4 CR)](#hyperactive--7-points-4-cr)
       - [Inexorable (-5 points; +4 CR)](#inexorable--5-points-4-cr)
       - [Moon Affinity (-7 points; +4 CR)](#moon-affinity--7-points-4-cr)
+      - [Hardened Spine (-10 points; +8 CR)](#hardened-spine--10-points-8-cr)
+      - [Perfect Defense (-10 points; +8 CR)](#perfect-defense--10-points-8-cr)
   - [Choosing NPC Characteristics](#choosing-npc-characteristics)
   - [Choosing NPC Skills](#choosing-npc-skills)
     - [Bite (Agi/Str)](#bite-agistr)
@@ -437,14 +529,19 @@ You may choose to play without the Momentum system for a less heroic style of ga
   - [General Hostility Actions](#general-hostility-actions)
     - [Advance! (-4 points; +2 CR)](#advance--4-points-2-cr)
     - [Collect Bounty (-4 points; +3 CR)](#collect-bounty--4-points-3-cr)
+    - [Enraged (-5 points; +2 CR)](#enraged--5-points-2-cr)
     - [Get Off Me! (-5 points; +3 CR)](#get-off-me--5-points-3-cr)
     - [Resonance Cascade (-4 points; +2 CR)](#resonance-cascade--4-points-2-cr)
     - [Slip Away (-5 points; +3 CR)](#slip-away--5-points-3-cr)
-    - [Seething Hatred (-5 points; +2 CR)](#seething-hatred--5-points-2-cr)
     - [Sinkhole (-8 points; +2 CR)](#sinkhole--8-points-2-cr)
     - [Trap Storm (-4 points; +3 CR)](#trap-storm--4-points-3-cr)
-    - [I Don't Bleed (-5 points; +4 CR)](#i-dont-bleed--5-points-4-cr)
-    - [No, I Am The Hero! (-10 points; +6 CR)](#no-i-am-the-hero--10-points-6-cr)
+    - [I Don't Bleed (-5 points; +6 CR)](#i-dont-bleed--5-points-6-cr)
+    - [No, I Am The Hero! (-10 points; +8 CR)](#no-i-am-the-hero--10-points-8-cr)
+  - [General Legendary Actions](#general-legendary-actions)
+    - [Ignore Damage (-8 Points; +8 CR)](#ignore-damage--8-points-8-cr)
+    - [Shrug It All Off (-3 Points; +3 CR)](#shrug-it-all-off--3-points-3-cr)
+    - [Action Surge (-5 Points; +6 CR)](#action-surge--5-points-6-cr)
+    - [Stop Heroism (-10 Points; +8 CR)](#stop-heroism--10-points-8-cr)
 - [Combat Encounter Builder](#combat-encounter-builder)
 
 # Glossary
@@ -453,17 +550,19 @@ As STRIVE is meant primarily as a rule-book to help you quickly find what you ne
 | Term                                                        | Meaning / Description   |
 | ----------------------------------------------------------- | ----------------------- |
 | [Action Point(s) (AP)](#action-points-ap)                   | A temporary resource that limits how much Characters can do on their Turn. |
-| [Action](#intent--action)                                   | Something a Character wishes to do. In Combat, this is any self-initiated action that isn't a Reaction. |
-| [Active Injury](#injury-states--treatment)                  | An Active Injury reduces a Character's maximum HP and imposes additional penalties. |
+| [Action](#intent--action)                                   | Occurs as something a Character does themself. An Action is usually self-initiated, but doesn't have to be. |
 | [Advancement Progress](#advancement)                        | The number that dictates a Skill's current progress towards Advancement. |
 | [Advancement](#advancement)                                 | PCs may raise their Attributes' and Skills' Levels as they exercise them and gain XP. |
 | [Agility (Agi)](#agility-agi)                               | An Attribute that describes a Character's nimbleness, swiftness and hand-eye coordination. Finds use in determining Base Initiative and Sprinting Speed. |
 | [Ambition Fate-Point (AFP)](#ambition-fate-points)          | A Fate-Point earned for the greatest of achievements. |
 | [Ambition](#ambition)                                       | A Character's main and life-fulfilling goal. The primary Driver of a Character. |
-| [Area of Effect (AoE)](#area-of-effect-aoe)                 | Indicates an attack will affect multiple targets in an area, which could be a cone, a radius, line, or similar shape. |
+| [Area of Effect (AoE)](#area-of-effect-aoe)                 | Indicates an Attack will affect multiple targets in an area, which could be a cone, a radius, line, or similar shape. |
+| [Armor Assets](#armor-assets)                               | An asset designed to be worn as armor. |
 | [Aspiration](#aspiration)                                   | A Character's secondary and more immediate goal, based on recent events. |
 | [Asset](#assets)                                            | A *thing* that a Character may own and/or carry on person. May also be an uncarriable piece of Property, such as a castle. |
-| [Assurance](#reaction)                                      | A PC's Reaction that ensures the PC may enter a given troublesome situation under more favorable circumstances. |
+| [Assurance](#quirk)                                         | A PC's Quirk that ensures the PC may enter a given troublesome situation under more favorable circumstances. |
+| [Attack Modifier](#weapon-traits)                           | Modifies an [Attack's Profile](#damage--effects). |
+| [Attack Profile](#damage--effects)                          | The three graded Damage and effect definitions of an Attack. |
 | [Attack Test](#attacking)                                   | A Test made to harm or hinder another Character. |
 | [Attacker](#attacking)                                      | A Character performing some Action that targets another. The distinction whether this is a hostile or benign action does not matter. |
 | [Attribute](#attributes)                                    | A Character's most basic ability. Its Level dictates the base number of dice available for a Test. |
@@ -471,16 +570,16 @@ As STRIVE is meant primarily as a rule-book to help you quickly find what you ne
 | [Base Attribute](#skills)                                   | One of the two Attributes a Skill relies on. |
 | [Base Initiative / BI](#base-initiative-bi)                 | Determines the order in which Characters act in combat. |
 | [Basic Action](#action-points-ap)                           | Any Action not requiring a Test, such as normal movement. |
-| [Berserk](#berserk)                                         | A Condition that forces a Character to attack anyone they can see, including allies. |
+| [Berserk](#berserk)                                         | A Condition that forces a Character to Attack anyone they can see, including allies. |
 | [Binary Test](#binary-test)                                 | A Test that allows no room for failure. |
-| [Bleeding](#bleeding)                                       | A Condition that causes Bleeding damage every Tick. |
-| [Boon](#boons--penalties)                                   | A positive effect on a Character, for example one that grants Compensation Points or which awards Temporary HP. |
+| [Bleeding](#bleeding)                                       | A Condition that causes Bleeding Damage every Tick. |
+| [Boon](#boons--penalties)                                   | A positive effect on a Character, for example one that grants Edge or which awards Temporary HP. |
+| [Brief](#quarters-of-a-day-qod)                             | A Brief activity takes only minutes. Many of these can happen in a [QoD](#quarters-of-a-day-qod), without advancing it meaningfully.  |
 | [Bulk](#bulk)                                               | Describes the weight, size and ease of use of an Asset. |
-| [Burning](#burning)                                         | A Condition that causes Burning damage every Tick. |
+| [Burning](#burning)                                         | A Condition that causes Burning Damage every Tick. |
 | [Carrying Capacity](#carrying-capacity)                     | Limits how much a Character can carry on-person. |
 | [Character Trait](#character-traits)                        | A unique aspect of a Character, such as an exclusive ability or Title of Renown. |
 | [Combat](#combat)                                           | The state the game enters when a fight breaks out. Time is finely sliced and Characters act in Turns, with a limited number of actions they may take. |
-| [Compensation Point](#compensation-points)                  | Greatly improve the odds of achieving a Hit in a Test. |
 | [Concentration](#concentration)                             | A Skill or Expertise whose effects last as long as desired, but which could be interrupted. |
 | [Condition](#condition)                                     | A positive or negative effect affecting a Character. |
 | [Core Attribute](#core-favored-normal--penalized-attributes)| An Attribute that is easier to Advance. |
@@ -493,23 +592,29 @@ As STRIVE is meant primarily as a rule-book to help you quickly find what you ne
 | [D4](#dice)                                                 | A four-sided die        |
 | [D6](#dice)                                                 | A six-sided die         |
 | [D8](#dice)                                                 | An eight-sided die      |
-| [Damage Type](#damage-types)                                | All damage falls into one of the Damage Types, which also determines the type of Injury such damage may cause. |
+| [Damage Type](#damage-types)                                | All Damage falls into one of the Damage Types, which also determines the type of Injury such Damage may cause. |
+| [Damage](#damage--effects)                                  | Damage is the number that reduces [HP](#health-points-hp), as a result of Attacks or environmental hazards. |
+| [Day-Long](#quarters-of-a-day-qod)                          | A Day-Long activity takes at least `3` [QoDs](#quarters-of-a-day-qod), assuming the fourth is reserved for resting.  |
 | [Death's Door](#deaths-door)                                | A Condition only PCs can have. This is their final battle with death. |
 | [Defender](#defending)                                      | A Character who is target of another's Action. The distinction whether this is a hostile or benign action does not matter. |
-| [Defense Test](#attacking)                                  | A Test made to oppose the attack of another Character. |
+| [Defense Test](#attacking)                                  | A Test made to oppose the Attack of another Character. |
 | [Derived Attributes](#derived-attributes)                   | An Attribute whose value stems from other sources. It cannot be Advanced independently. |
 | [Desperate Measure](#momentum-actions)                      | When Momentum is low, Desperate Measures become available, and allow PCs to turn around the wheel of fate in a fight. |
 | [Difficult Terrain](#combat-movement)                       | Halves movement per AP. |
+| [Direct Damage](#damage--effects)                           | Damage that always comes from an [Action or Reaction](#actions-reactions--passives). |
 | [Disengage Action](#disengage)                              | A Combat Action that lets a Character safely avoid an Opportunity Attack. |
-| [Dissolving](#dissolving)                                   | A Condition that causes Acid damage every Tick. |
-| [Distance Increment (DI)](#ranged)                          | Indicates a ranged weapon's/attack's range increments. Attacking past this number of Squares incurs penalties to the attack. |
-| [Down-Time](#down-time)                                     | Whenever the PCs aren't out actively adventuring, they may have time to themselves, to pursue a craft, hone their abilities or simply relax. |
-| [Drivers](#drivers)                                         | Refers to a Character's Ambition, Aspirations and Reactions - goals to work towards and automatic triggers to get them into trouble. |
+| [Dissolving](#dissolving)                                   | A Condition that causes Acid Damage every Tick. |
+| [Distance Increment (DI)](#ranged)                          | Indicates a ranged weapon's/Attack's range increments. Attacking past this number of Squares incurs penalties to the Attack. |
+| [Down-Time](#time-management)                               | Down-Time has time flowing fairly rapidly, as events unfold on an abstract level. |
+| [Drivers](#drivers)                                         | Refers to a Character's Ambition, Aspirations and Quirks - goals to work towards and automatic triggers to get them into trouble. |
 | [Drug-Addicted](#drug-addicted)                             | A Condition that forces a Character to act compulsively. |
+| [Edge](#edge)                                               | A countable, temporary resource that grants a temporary **advantage to achieve Hits** in a Test and temporarily **raises the** [**Hit Limit**](#testing-a-skill) by `+1`, for each Edge. |
+| [Effective Damage](#damage--effects)                        | Refers to the Damage number that is actually applies to HP, after [Armor](#armor-assets) and [Resistances](#damage-resistances) have been applied. Damage that is completely negated by Armor and Resistances is **not** considered Effective Damage. |
 | [Electrified](#electrified)                                 | A Condition that forces a Character to spasm uncontrollably and thus be Force-Moved. |
 | [Exhausted](#exhausted)                                     | A Condition that Character suffer when they exert themselves too much. It makes them lethargic and their Tests harde to succeed. |
 | [Experience Point(s) (XP)](#experience-points-xp)           | Allows unrestricted Character Advancement. |
 | [Expertise](#expertise)                                     | A sub-ability of a Skill. |
+| [Extended](#quarters-of-a-day-qod)                          | An Extended activity takes several hours or more, and is very likely to advance the current [QoD](#quarters-of-a-day-qod).  |
 | [Fate Point(s) (FP)](#fate-points)                          | A meta-currency that players earn through roleplay and great achievements. Can be used to buy powerful Fate-Cards from the Hand Of Fate. |
 | [Fate-Card](#hand-of-fate)                                  | A powerful meta-currency that allows you to change dice rolls and even influence the narrative. |
 | [Favored Attribute](#core-favored-normal--penalized-attributes)| An Attribute that is inherently easier to Advance. |
@@ -522,37 +627,43 @@ As STRIVE is meant primarily as a rule-book to help you quickly find what you ne
 | [Full Rest, Resting](#resting)                              | Spending time asleep or in deep meditation, allowing a Character to recover their health. |
 | [Game-Master (GM)](#introduction)                           | The person running the game. |
 | [Glancing Success](#test-success-ratings)                   | A fairly weak success of a Test. |
-| [Graduated Test](#graduated-test)                           | A Test with a gradation of success or failure. Mostly finds use in crafting. |
+| [Graduated Test](#graduated-test)                           | A Test with a gradation of success or failure. Mostly finds use in Crafting. |
+| [Granular-Time](#time-management)                           | Has time flowing very slowly, sometimes even on a moment-by-moment basis and may, use [Initiative Order](#initiative-order) to allocate time slices. |
 | [Grappled](#grappled)                                       | A Condition for a Character in another's grip. The Grappled Character can not move of their own volition and counts as Flanked to one additional degree. |
 | [Grit Point](#grit-points)                                  | A one-time resource that is earned through Injuries, which can be spent as a last-ditch effort to turn the wheel of fate around. |
 | [Hand Of Fate](#hand-of-fate)                               | Refers to the game's selection of available Fate-Cards. |
 | [Hasted](#hasted)                                           | A Condition that lets a Character who get an additional AP and who may move further per AP spent. |
 | [Health Point(s) (HP)](#health-points-hp)                   | The resource that separates a Character from death. |
 | [Heroic Act](#momentum-actions)                             | When Momentum is high, Heroic Acts become available, and allow PCs to dominate a fight. |
-| [Hit Limit](#testing-a-skill)                               | Determines how many rolled Hits may actually factor into the result of a Test. This is equal to your Skill's Level, but can be raised through Compensation Points, Skill Forking and other Characters providing assistance. |
+| [Hit Limit](#testing-a-skill)                               | Determines how many rolled Hits may actually factor into the result of a Test. This is equal to your Skill's Level, plus `1`, but can be temporarily raised through Edge, Skill Forking and other Characters providing assistance. |
 | [Hit](#tests)                                               | Positive result of an individual die-roll in a Test. |
 | [Hostility Action](#hostility)                              | A special event that benefits only the PCs' foes. This is the counter point to Momentum Actions. |
 | [Hostility](#hostility)                                     | A special resource the GM receives to occasionally activate Hostility Actions with, to shake up a Combat encounter. |
 | [Illness](#illness)                                         | A serious long-term health impediment of a Character. |
-| [Initiative Order](#initiative)                             | Defines the order Characters get to act in during tense situations, like Combat. |
-| [Injury Shrug-Off](#shrugging-off-an-injury)                | When a Character suffers enough damage to potentially also suffer an Injury, they may try to shrug it off, thus avoiding the Injury. |
-| [Injury](#injury)                                           | A serious health impediment of a Character, suffered through damage, when failing a Shrug-Off Test. |
+| [Indirect Damage](#damage--effects)                         | Damage that always comes from the environment, or from Damage over time [Health Conditions](#condition). |
+| [Initiative Order](#initiative-order)                       | Defines the order Characters get to act in during tense situations, like Combat. |
+| [Injury Shrug-Off](#shrugging-off-an-injury)                | When a Character suffers enough Damage to potentially also suffer an Injury, they may try to shrug it off, thus avoiding the Injury. |
+| [Injury](#injury)                                           | A serious health impediment of a Character, suffered through Damage, when failing a Shrug-Off Test. |
 | [Innate Ability](#innate-abilities)                         | A special ability that a Character has access to based on their ancestry. |
+| [Instance of Damage](#damage--effects)                      | Refers to the moment in time when Damage is suffered, before it is reduced by [Armor](#armor-assets) and [Resistances](#damage-resistances). Multiple Types of Damage may be part of the same Instance of Damage. |
 | [Jealous](#jealous)                                         | A Condition that makes a Character feel desperately compelled acquire *something*. |
+| [Knock-Back](#forced-movement)                              | Forces a Character away from another. |
 | [Known Skill](#skills)                                      | A Skill at Level `1+`, which is still considered known to the Character. They can properly utilize such a Skill. |
 | [Language](#languages)                                      | A Character's ability to communicate and potentially read and write in a language that exists in your GM's world. |
 | [Learning Skill](#learning-skills)                          | A Skill at Level `0`, which is still considered unlearned. A Character has not yet gained the ability to properly utilize such a Skill, for example in Skill Forking. |
-| [Long Reach](#long-reach)                                   | A weapon Trait for melee weapons that allow Attacking targets up to two Squares away. |
+| [Lengthy](#quarters-of-a-day-qod)                           | A Lengthy activity takes one or more hours and can consume a substantial portion of a [QoD](#quarters-of-a-day-qod).  |
+| [Long Reach](#foundational-weapon-traits)                   | A Weapon Trait for melee weapons that allow Attacking targets up to two Squares away. |
 | [Luggage](#luggage)                                         | The Assets a Character is carrying on-person. |
 | [Major Fate-Point (MaFP)](#major-fate-points)               | A Fate-Point earned for a major achievement and great role-play. |
 | [Marked](#marked)                                           | A Condition that makes a Character easier to harm. |
 | [Masterful Success](#test-success-ratings)                  | A masterful success of a Test. |
-| [Melee](#melee)                                             | A weapon Trait for all weapons that allow Attacking adjacent targets. |
+| [Melee](#foundational-weapon-traits)                        | A Weapon Trait for all weapons that allow Attacking adjacent targets. |
 | [Minor Fate-Point (MiFP)](#minor-fate-points)               | An easily earned Fate-Point, supported by mostly mechanics. |
 | [Miss](#tests)                                              | Negative result of an individual die-roll in a Test. |
 | [Modified Level](#raw-vs-modified-level)                    | The Level value after Boons and Penalties have been applied to it. |
 | [Momentum](#momentum)                                       | A special resource that the PCs earn and lose as a group, during Combat. It enables use of Heroic Acts and Desperate Measures. |
-| [Multiple Single Target (MST)](#multiple-single-target-mst) | Indicates that an attack affects multiple targets, each of which is handled individually, for example for rolling Defense Tests. |
+| [Multi-Quarter](#quarters-of-a-day-qod)                     | A Multi-Quarter activity at least two [QoDs](#quarters-of-a-day-qod).  |
+| [Multiple Single Target (MST)](#multiple-single-target-mst) | Indicates that an Attack affects multiple targets, each of which is handled individually, for example for rolling Defense Tests. |
 | [Non-Player Character (NPC)](#non-player-character-npc)     | Represents all the people, animals and monsters of a world, that are controlled by the GM. |
 | [Normal Attribute](#core-favored-normal--penalized-attributes)| An Attribute that is enjoys normal Advancement costs. |
 | [Obstacle (Ob)](#tests)                                     | Determines the target number of Hits you must roll to succeed a Test. |
@@ -560,50 +671,54 @@ As STRIVE is meant primarily as a rule-book to help you quickly find what you ne
 | [Opposed Test](#opposed-test)                               | A Test that resolves when two Characters come into opposition. Most commonly finds use in Combat. |
 | [Overweight](#overweight)                                   | A Condition a Character suffers when they try to carry too much. |
 | [Overwhelmed](#flanking)                                    | The third and final degree of Flanking. An Overwhelmed Character's armor is no longer protects, at all and their Defense Tests are incredibly dfficult. |
+| [Overworld Square](#travel--terrain)                        | A single field of an overworld map representing an area `10km`/`6 mile` in diameter. |
 | [Owning Skill](#expertise)                                  | The Skill an Expertise is part of. |
 | [Pacified](#pacified)                                       | A Condition that cannot *willingly* take any hostile Actions. |
+| [Passive](#actions-reactions--passives)                     | An effect that is always active (when a defined condition is met). |
 | [Penalized Attribute](#core-favored-normal--penalized-attributes)| An Attribute that is much harder to Advance. |
 | [Penalty](#boons--penalties)                                | A negative effect on a Character, for example one that reduces the dice available for Tests. |
-| [Perfectly Balanced](#perfectly-balanced)                   | A weapon Trait that indicates a weapon is more effective. |
 | [Personality](#personality)                                 | Describes a Character's desires and ways of thinking. |
 | [Player Character (PC)](#introduction)                      | The type of Character that players are in control of. |
-| [Poison-Chamber](#poison-chamber)                           | A weapon Trait that indicates a weapon deals additional Poison damage. |
-| [Poisoned](#poisoned)                                       | A Condition that causes Poison damage every Tick. |
+| [Poison-Chamber](#poison-chamber)                           | A Weapon Trait that indicates a weapon deals additional Poison Damage. |
+| [Poisoned](#poisoned)                                       | A Condition that causes Poison Damage every Tick. |
 | [Practice](#practice)                                       | During Down-Time, Characters may practice for Advancement Progress. |
-| [Prefer Range](#prefer-range)                               | A weapon Trait that indicates a weapon is harder to use against adjacent targets. |
-| [Primary Damage](#primary-damage)                           | An attack's greatest damage value, if it deals multiple types. |
-| [Progress Increment (PI)](#progressing-a-project)           | Determines how much work a Project takes. |
+| [Precise](#precise)                                         | A Weapon Trait that indicates a weapon is more effective. |
+| [Prefer Range](#foundational-weapon-traits)                 | A Weapon Trait that indicates a weapon is harder to use against adjacent targets. |
+| [Primary Damage](#damage--effects)                          | The most significant [Damage Type](#damage-types) of [Effective Damage](#damage--effects) **after** Armor and Resistances are applied. |
+| [Progress Increment (PI)](#progressing-a-project)           | An abstraction for the amount of work a Project involves, in terms of [Scale and Logistics](#determining-progress-increment). |
 | [Project Booster](#project-boosters)                        | May add Progress or Quality Levels to a Project. |
 | [Project Complications](#project-complications)             | An alternative to losing Quality Levels when failing a Project Skill Test. |
 | [Project Skill](#progressing-a-project)                     | The Skill used to add Progress to a Project. |
-| [Project](#crafting--research-projects)                     | A long-term and abstract side-activity of a PC to craft or research something. |
+| [Project](#crafting--research-projects)                     | A long-term and abstract side-activity of a PC to Craft or research something. |
 | [Prone](#prone)                                             | A Condition for a Character currently low to the ground. They are easier to harm in melee, but harder to harm at range. |
 | [Property](#property)                                       | The Assets a Character owns but is not carrying on-person. |
+| [Pull](#forced-movement)                                    | Forces a Character closer to another. |
 | [Push Through Action](#push-through)                        | A Character may choose to move despite suffering an Opportunity Attack. |
 | [Quality Level](#crafting--research-projects)               | A numeric value that describes the quality of an Asset or Project. |
+| [Quarter of a Day (QoD)](#quarters-of-a-day-qod)            | Each day is divided into four Quarters: **Night**, **Dawn**, **Midday**, and **Dusk**. Each Quarter lasts approximately six hours. |
+| [Quirk](#quirk)                                             | Part of a Character's Drivers and always triggers when some defined condition is met, to get the Character in trouble or grant them an assurance. |
 | [Range of Opportunity](#opportunity-attacks)                | The zone around a Character that lets them launch Opportunity Attacks as a Reaction to foes moving around or away from them. |
-| [Range Only](#range-only)                                   | A weapon Trait that indicates a weapon cannot be used against adjacent targets. |
-| [Ranged](#ranged)                                           | A weapon Trait for all ranged weapons. |
+| [Range Only](#foundational-weapon-traits)                   | A Weapon Trait that indicates a weapon cannot be used against adjacent targets. |
+| [Ranged](#foundational-weapon-traits)                       | A Weapon Trait for all ranged weapons. |
 | [Raw Level](#raw-vs-modified-level)                         | The Level value before Boons and Penalties have been applied to it. |
-| Reaction                                                    | Something a Character does in reaction to another. Or, refers to one of a Character's triggered behaviors, that are part of their [Drivers](#reaction). |
+| [Reaction](#actions-reactions--passives)                    | An Action that may occur when a defined condition is met. |
 | [Rooted](#rooted)                                           | A Condition that disallows a Character from moving of their own volition. |
-| [Round](#initiative)                                        | A Round comprises all Turns of Characters currently in Initiative Order. When all Characters have had their Turn, a Round is concluded and the next Round begun. |
+| [Round](#initiative-order)                                  | A Round comprises all Turns of Characters currently in Initiative Order. When all Characters have had their Turn, a Round is concluded and the next Round begun. |
 | [Rounded Down (RD)](#rounded-up--rounded-down)              | Indicates a step or result of a calculation is supposed to be rounded down. |
 | [Rounded Up (RU)](#rounded-up--rounded-down)                | Indicates a step or result of a calculation is supposed to be rounded up. |
-| [Scenario-Time](#scenario-time)                             | The regular mode of play - time is fairly finely sliced and each Character's actions are handled individually. |
-| [Serrated](#serrated)                                       | A weapon Trait that indicates a weapon deals additional Bleeding damage. |
+| [Serrated](#serrated)                                       | A Weapon Trait that indicates a weapon deals additional Bleeding Damage. |
 | [Signature Virtues / Vices](#virtues--vices)                | Describes a Character's way of thinking and how they *will* act, in general. In fact, they are *known* to be this way! |
-| [Single Target (ST)](#single-target-st)                     | Indicates an attack will only affect a single target. This can be a Character or object. |
+| [Single Target (ST)](#single-target-st)                     | Indicates an Attack will only affect a single target. This can be a Character or object. |
 | [Skill Forking](#skill-forking)                             | Allows you to benefit from varied knowledge. You can Fork related Skills into a Test, if you can reasonably explain their use. |
 | [Skill](#skills)                                            | A learned ability of a Character. These are used in the vast majority of cases to resolve Tests and may offer unique abilities, called Expertises. |
-| [Slow Reload](#slow-reload)                                 | A weapon Trait that for a weapon that must be reloaded after every use, at the cost of AP. |
+| [Slow Reload](#foundational-weapon-traits)                  | A Weapon Trait that for a weapon that must be reloaded after every use, at the cost of AP. |
 | [Solid Success](#test-success-ratings)                      | A strong success of a Test. |
 | [Sprinting Speed / Sprint](#sprinting-speed-sprint)         | Can extend a Character's movement per AP, at the cost of Stamina. |
-| [Square](#distances--the-grid)                              | A single field of an encounter or overworld map, representing a `1m`/`3'` or `10km`/`6 mile` square, respectively. |
+| [Square](#distances--the-grid)                              | A single field of an encounter/battle map representing an area `1m`/`3'` in diameter. |
 | [Stability (Stab)](#stability-stabil)                       | Counter-acts Forced Movement. |
-| [Stamina](#stamina--strain)                                 | A resource that represents a Character's capacity for exhausting actions and allows usage of certain abilities until it is depleted. |
+| [Stamina](#stamina--strain)                                 | Stamina is a numeric resource that lets a Character endure physical and mental taxation. |
 | [Stepped Test](#stepped-test)                               | A Test that allows failing forward or offers multiple chances at recovery from a critical blunder. |
-| [Strain](#stamina--strain)                                  | Reduces maximum Stamina. |
+| [Strain](#strain)                                           | Strain is a measure of a Character's extreme physical and mental exertions and **reduces the Stamina maximum**. For each point of Strain, the Stamina maximum is reduced by an equal amount. |
 | [Strength (Str)](#strength-str)                             | An Attribute that describes a Character's physical strength. Finds use in determining Carrying Capacity. |
 | [Stunned](#stunned)                                         | A Condition that prevents a Character from acting at all, during their Turn. |
 | [Surprise Round](#surprise-round)                           | The first Round of Combat, when one side of the conflict are surprised and at a severe disadvantage in the beginning of the fight. |
@@ -613,55 +728,24 @@ As STRIVE is meant primarily as a rule-book to help you quickly find what you ne
 | [Temporary Health Point(s)](#temporary-health-points)       | A separate Health Point resource that is reduced before regular Health Points and whose loss does not cause Injuries. |
 | [Terrified](#terrified)                                     | A Condition that forces a Character to flee from whatever the source of their terror is. |
 | [Tick](#ticks)                                              | The immediate moment of time when a Character's Turn begins. This is when Conditions apply their effects. |
-| [Time Increment (TI)](#progressing-a-project)               | Determines how often progress may be added to a Project. |
 | [Title of Renown](#titles-of-renown)                        | A unique reputation that a Character is known for, far and wide. Often earned through great achievements, both good and terrible. |
 | [Toughness (Tough)](#toughness-tough)                       | An Attribute that describes a Character's capacity to withstand physical and mental strains. Finds use in determining maximum HP, maximum Stamina and Sprinting Speed. |
-| [Treated Injury](#injury-states--treatment)                 | A Treated Injury only reduces a Character's maximum HP. |
-| [Troublemaker](#reaction)                                   | A PC's Reaction that makes it easy for the GM to get that PC into *trouble* - some minor social conflict to shake things up. |
-| [Turn](#initiative)                                         | The moment in time when a Character gets to act in an Initiative Order. |
+| [Treated Injury](#injury-treatment)                         | A Treated Injury only reduces a Character's maximum HP. |
+| [Treatment Skill](#injury-treatment)                        | The Skill used to treat an Injury. |
+| [Troublemaker](#quirk)                                      | A PC's Quirk that makes it easy for the GM to get that PC into *trouble* - some minor social conflict to shake things up. |
+| [Turn](#initiative-order)                                   | The moment in time when a Character gets to act in an Initiative Order. |
 | [Unconscious](#unconscious)                                 | A Condition for a Character who is either asleep or knocked unconscious. |
 | [Unthreatened](#flanking)                                   | The default for all Unflanked Characters in Combat. Their defenses work to the fullest intent. |
-| [Very Long Reach](#very-long-reach)                         | A weapon Trait for melee weapons that allow Attacking targets up to three Squares away. |
-| [Very Slow Reload](#very-slow-reload)                       | A weapon Trait that for a weapon that must be reloaded after every use, at the cost of more AP. |
+| [Untreated Injury](#injury-treatment)                       | An Untreated Injury reduces a Character's maximum HP and imposes additional penalties. |
+| [Very Long Reach](#foundational-weapon-traits)              | A Weapon Trait for melee weapons that allow Attacking targets up to three Squares away. |
+| [Very Slow Reload](#foundational-weapon-traits)             | A Weapon Trait that for a weapon that must be reloaded after every use, at the cost of more AP. |
 | [Virtue / Vice](#virtues--vices)                            | Describes a Character's way of thinking and how they should act, in general. |
+| [Weapon Asset](#weapon-assets)                              | An Asset designed to be used as a weapon. Improvised weapons don't count. |
+| [Weapon Trait](#weapon-traits)                              | Weapon Traits are modular rules that make one weapon mechanically different from another, by changing what a weapon is capable of. |
+| [Weapon-Family](#weapon-family)                             | Weapon-Families broadly categorize weapons, which [Weapon Skills](#weapon--weapon-family---base-attributes-) reference, to determine *how* a weapon is used. |
 | [Wit (Wit)](#wit-wit)                                       | An Attribute that describes a Character's sharpness of mind and tongue. Finds use in determining Base Initiative. |
-
-# Credits & Honorable Mentions
-**Designer**: Nicolas 'Krubi' H.
-
-There are my two small, yet inexorable groups of playtesters, whose feedback has been invaluable and without whom this game would not be any where near as complte! It is them who keep me motivated and whose excitement for STRIVE is reflected in me!
-
-And of course, such a project did not come into existence in a vacuum. Inspiration and lessons were found in a variety of places, such as other TTRPGs. Each of them deserves an honorable mention and in what ways they differ from STRIVE. It bears stating here that neither STRIVE, nor I as its designer, are in any way affiliated with, sponsored or endorsed by the products and website mentioned below. These are simply honorable mentions of other RPGs and sources for inspiration. 
-
-* If you are interested in a medieval fantasy world and enjoy the Aspiration, Reaction and Fate-Card systems, but care little for tactical combat, **Burning Wheel** may be what you seek. 
-* For heroic medieval fantasy, where combat is the core, check out **Draw Steel**. In a way, this is **Dungeons & Dragons**, with all the extraneous fat trimmed away. Its unique Malice mechanic and how combatants are constantly moved around keeps combat interesting all throughout.
-* **Symbaroum** offers haunting and marvelous artworks in an equally fascinating dark medieval fantasy world. The way in which you can customize your Character builds are plentiful and really fun to experiment with!
-* For grim dark fantasy, with a more complex injury system, take a look at **Zweihänder**, which in turn appears inspired by **Warhammer Fantasy**. Its list of professions and skills offers an incredible wealth of Character customization! 
-* **The Black Eye**, or **Das Schwarze Auge** in German, which leans very heavily into the simulationist spectrum, with intricate systems for almost everything, a fully worked out world in a medieval fantasy setting and with a unique way of handling skill tests. Rolling three dice and letting the skill's level compensate for bad rolls is quite unique. 
-* The Momentum system was inspired by the video-game **Rogue Trader**, which has its own version of such a system. It is a very competent Classic RPG set in the Warhammer 40K universe. 
-
-Also worth mentioning is the RPG Design subreddit, where one can find many in-depth analyses about game mechanics. Many lessons may be found here, which, with some effort, can be molded into concrete mechanics for your own rpg.
-
-# License
-STRIVE may be freely available, but that does not mean you may do everything you want with it. If you only want to play STRIVE, this license needn't worry you too much (you should still read and know it) and while I still stand by my claim that STRIVE lives off its extensibility and that you are absolutely encouraged to create your own works based on STRIVE, also know that STRIVE has been a lot of work and a labor of love that I ask to be respected. Basically, the license outlined below (this paragragh is not part thereof) covers my butt legally, while stating I want STRIVE to be credited in your own works based upon it. What's not covered by the license is that I would love to hear about your own works based on STRIVE! Whether it be adventures, themes, settings, more Skills, more mechanics or what you consider improvements or corrections for existing mechanics would be most interesting to hear about! Now be careful, there be *Legalese* ahead.
-
-By using STRIVE (that includes but is not limited to viewing, reading, referencing and playing it), for whatever purpose, you agree to the following terms:
-
-* By adhering to these terms, you are allowed to publish your own original works based upon and/or compatible with STRIVE, without requiring express permission from the designer ("Nicolas 'Krubi' H.", "Me", "I", "My" or "Mine"), both for personal and commercial use. 
-* You may only use and/or reference STRIVE starting from version 26 and onward. Older versions of this document may still be available for viewing only, but you may not base your own works upon or declare them compatible with such versions. 
-* You agree not to copy or reproduce any art, icon, illustration or font contained in this document without My explicit permission in writing. 
-  * However, you may produce your own original art, icons, illustrations and fonts in the same style, without requiring permission.
-* You may freely reuse and reference any gameplay mechanics (= rules) in this document and even use the same names and terminology. 
-  * You may even reuse the text describing the mechanics. However, in doing so, you also agree to place the following text in a visible location of your product (e. g. the website where you promote it or in the credits section of your own product): "This product uses and/or references mechanics from the STRIVE-TTRPG, version 26"
-* You may not claim or give the impression that your product is an official STRIVE product, that I endorse or sponsor it or that it is in any other way affiliated with Me.  
-  * You may however freely state your product to be compatible with or based upon STRIVE. 
-* I take no responsibility for any legal claims against your product. You agree not to bring any claim against Me based upon or arising from your use of STRIVE and its content. 
-* Any legal disputes, controversies or claims related to this license shall be governed and construed in accordance with the laws of Hamburg and be heard before a court in Germany.
-* You agree to defend, indemnify, and hold Me and My afilliates harmless from and against any liability, claims, actions, demands, and damages (including attorney's fees and costs) arising from or relating to your product or your exercise of any rights granted in this license. 
-* You agree that your product will not violate or infringe the intellectual property rights of any third party. 
-* I may modify or revise this license at any time at My sole discretion, and by posting a notice about the change in a visible place (i. e. the Releases section https://github.com/CodeWringer/strive-ttrpg/releases). The modification or revision will become effective immediately upon such a posting. You are responsible for checking the license regularly for changes, and you waive any right to receive specific notice of changes. 
-  * License amendments or modifications will not become effective retroactively. They become effective immediately upon posting, but only for the version of this document they were posted with. If you do not agree to a newer version of the license, your work may continue to be based on an older version of STRIVE, but only starting from STRIVE version 26, and in doing so, you also agree to visibly state which version of STRIVE your work is based on. 
-* If you fail to comply with this license, your rights under this license terminate automatically and without notice. On termination of this license, you agree to immediately stop sharing or distributing any product created under this license. 
+| [Work-Rate](#progressing-a-project)                         | Determines how often Work-Sessions may occur, in the format `X / QoD`. |
+| [Work-Session](#progressing-a-project)                      | Describes an instance of meaningful work being done, each of which results in Progress. |
 
 # How to Play
 As **STRIVE** is a **roleplaying game**, there are certain rules to follow and expectations made of both players and GM. 
@@ -728,19 +812,10 @@ As a player, when deciding on what to do, make sure you state the **intent** of 
 
 When deciding on what to do and how to do it, also keep in mind your Character's [Personality](#virtues--vices) as that should inform you of the kinds of actions they might take. 
 
-### Spending Time
-Everything the PCs do takes time. How much time, exactly, is variable and depends on the point in the narrative the PCs are in. There are two levels of time-management. 
-
-On the more abstract level, PCs commit to very abstract long-term actions. They might pursue their profession or recover from an Injury. This level is called [Down-Time](#down-time). 
-
-In contrast, on the more concrete level, PCs only commit to fine-grained short-term actions. This is when detailled descriptions and fine time slices come into play. Every action is as small as deciding to open a door that is right in front, or deciding to talk to someone in the same room. This is considered the **scenario** or **encounter** level. 
-
-Typically in RPGs, a fight is considered a **[Combat](#combat) encounter**. Non-bloody interaction that involves speaking to [NPCs](#non-player-character-npc) or the PCs amongst themselves is considered a **social encounter**. There are also scenarios of exploration, investigation and survival. 
-
 ## After the Session
 After a session is done, the players and GM stick around to discuss which players earned [Fate Points](#fate-points). This is where players are nominated for Fate Points, by each other and by the GM. If everyone agrees, the Fate Points are awarded. Players can and should lobby for their Fate Points, but shouldn't beg. If most everyone else says no, then that decision stands. 
 
-Also after the session, players and the GM discuss whether a PC should lose a [Reaction](#reaction), because they have acted against it or haven't gotten to play it out at all. 
+Also after the session, players and the GM discuss whether a PC should lose a [Quirk](#quirk), because they have acted against it or haven't gotten to play it out at all. 
 
 Players may now spend earned Fate Points to buy cards (boons) from the [Hand Of Fate](#hand-of-fate) and adjust their Character's [Personality](#virtues--vices) and [Aspirations](#aspiration). This may also be postponed to the start of the next session. 
 
@@ -764,9 +839,11 @@ To resolve an Attribute Test, roll `ND6`, where *N* is the Attribute's Level.
 It is **not** possible to [Fork](#skill-forking) into Attribute Tests, *at all*. 
 
 ### Testing a Skill
-All Skills have two Attributes they're based on / rely on, noted in parentheses next to the Skill's name. They are called the Skill's **Base Attributes**. To resolve a Skill Test, roll `ND6`, where *N* is the sum of both Base Attributes' Level.
+All Skills have two Attributes they're based on / rely on, noted in parentheses next to the Skill's name. These are called the Skill's **Base Attributes**. To resolve a Skill Test, roll `ND6`, where *N* is the **sum** of both Base Attributes' Level.
 
-The Level of the Skill itself, plus `1`, governs the maximum number of Hits that may count towards the result. Only that many of the achieved Hits may, at most, factor into the Test's outcome. This is called the **Hit Limit**. If [Compensation Points](#compensation-points) are used in the Test, each of them always and automatically raises the Hit Limit by `+1`!
+A **Hit Limit**, equal to the Level of the Skill itself, plus `1`, governs the **maximum** number of Hits that may, at most, count towards the result. It is possible to **temporarily** raise this Limit through [Edge](#edge), [Forking](#skill-forking) and [getting help](#providing-assistance), with each instance of these always and automatically raising the Hit Limit by `+1`!
+
+> *Every* helper and *every* Edge and *every* Forked Skill, each raise the Himit Limit by `+1`!
 
 It is possible to Fork into Skill Tests, granting more dice and raising the Hit Limit by `+1`, for **each** Forked Skill! **Do not forget to Fork your Skills into your Tests!**
 
@@ -774,7 +851,7 @@ It is possible to Fork into Skill Tests, granting more dice and raising the Hit 
 > 
 > They roll `6`, `6`, `5`, `5`, `3`, `2` and `1`, of which `4` are Hits! But because their Skill is only Level `2`, they may only take `2 (from the Skill's Level) + 1 (always) = 3` of those Hits for the Test's result. 
 >
-> *However*, they are afforded `1` Compensation Point for the Test. While the Compensation Point would not be enough to turn one of the Misses into a Hit, it raises the Hit Limit by `+1`. Thus allowing all `4` rolled Hits to factor into the result, after all! 
+> *However*, they are afforded `+1` Edge for the Test. While the Edge would not be enough to turn one of the Misses into a Hit, it raises the Hit Limit by `+1`. Thus allowing all `4` rolled Hits to factor into the result, after all! 
 
 ### Raw vs. Modified Level
 [Boons And Penalties](#boons--penalties) may apply to Attribute and Skill Levels. For all purposes except [Advancement](#advancement), always use the Level after Boons and Penalties have been applied. 
@@ -805,15 +882,9 @@ This type of Test is useful for situations where the GM decides to create very f
 #### Graduated Test
 The outcome of the Test is graduated. That means, the number of Hits rolled factor into the outcome. 
 
-> For example, when crafting a work of art, the number of Hits achieved may result in a more impressive piece, which can then be sold at a higher price or which could make for a more impressive gift. 
-
 A Graduated Test can occur in two forms. The first is without an Ob threshold for failure and the second is *with* such a threshold. When a Graduated Test has an Ob, then at least that number of Hits must be rolled, in order to succeed the Test, at all. Any Hits rolled past the Ob, determine the **Degree Of Success**. However, not achieving at least Ob number of Hits results in the Test being counted as a failure. 
 
 On the other hand, a failure doesn't have to be *absolute*. The number of Hits *missing* to reach the Ob threshold determine the **Degree Of Failure**. Therefore, there might be a chance to "fail forward" - a success, but with complications, whose severity depends on the Degree Of Failure. 
-
-> A PC has to do a Graduated Test of one of their craftsmanship Skills, at Ob `3`. They only achieve only `2` Hits, which results in a Degree Of Failure of `1`. 
-> 
-> Seeing such a low Degree Of Failure, the GM rules that the PC *does* succeed their Test, but also loses more materials in the process than a success would have cost them. 
 
 #### Creative Test
 For this type of Test, a scenario is played through fairly abstractly. The GM outlines various challenges that must be overcome and what consequences the players may expect if they succeed or fail in overcoming these challenges. Also, they set a number of successes that the PCs must accrue, in order to succeed this Test. A good base number should be slightly lower than or even just half the number of PCs in the group. But particularly challenging Creative Tests may have a higher number. 
@@ -837,7 +908,7 @@ The Character who initiates the Test, requires the Opposed Test to be made and i
 
 > In combat, a Defender rolls a Defense Test and achieves `3` Hits. Thus, the Attacker must achieve at least `4` Hits, in order to win the Opposed Test. 
 
-> In combat, a Defender rolls for Defense and achieves `3` Hits. The Attacker rolls an attack and achieves `3` Hits. The Hits being tied with the Defenders', means the Defender wins, by default. 
+> In combat, a Defender rolls for Defense and achieves `3` Hits. The Attacker rolls an Attack and achieves `3` Hits. The Hits being tied with the Defenders', means the Defender wins, by default. 
 
 The Defender **may not** [Fork](#skill-forking), whereas the Attacker **may**.
 
@@ -847,33 +918,25 @@ Every time a Character's [Skills](#skills) **or** [Attributes](#base-characteris
 See also [Advancement](#advancement). 
 
 ### Providing Assistance
-Characters can help each other in Tests. In order to help with a Test, a Character must know a relevant [Skill](#skills) and the one being helped must accept the help. 
+Characters can help each other in Tests. In order to help with a Test, a Character must know a relevant [Skill](#skills), at Level `1+`, and the one being helped must accept the help. 
 
-Helping in a Test works similar to [Forking](#skill-forking) a Skill. The Character being helped receives `+1D6` to roll for each *Character* helping them. The number of relevant Skills a helping Character has is irrelevant, as is the Level of those Skills. Just one Skill and one Level in it are enough to allow them to help and only one `+1D6` is granted by the helping Character. However, *which* Skill is used to help with, matters. 
+Helping in a Test works similar to [Forking](#skill-forking) a Skill. The Character being helped receives `+1D` to roll for each *Character* helping them. The number of relevant Skills a helping Character has is irrelevant. Just one Skill and one Level in it are enough to allow a Character to help. However, *which* Skill is used to help with, matters. 
 
 If a PC is helping another, their player must describe *how* they're using their relevant Skill to help. Only if the GM agrees, may the helping die be granted. 
 
 > For example, a PC is currently using their [Thievery](#thievery-agiawar) to lockpick a door. Their allied PC is *helping*, by using their [Observation](#observation-awarawar) Skill to *keep an eye out for guards*, which allows the one on the door to work without having to constantly look over their shoulder. The GM finds that description agreeable and allows the use of the Skill to help. 
 
+Note, especially, that every low Level Character can **always** contribute meaningfully! **Every** assistant is valuable, no matter their Skill Level! 
+
 #### Helpers Learn
 A Character helping in a Test, gains `+1` [XP](#experience-points-xp). 
 
-### Compensation Points
-**Compensation points** allow turning the faces of dice that came up as Misses up to the next higher number, until they become a Hit, instead. Also, Compensation Points **always** raise the Hit Limit for the Test, by `+1` for each! 
+### Edge
+**Edge** is a countable, temporary resource that grants a temporary **advantage to achieve Hits** in a Test and temporarily **raises the** [**Hit Limit**](#testing-a-skill) by `+1`, for each Edge. For every Edge, you may turn a rolled die face to the next higher face! Edge is a ***big deal***! Always seek to earn yourself as much of it, as possible! 
 
-> When rolling `3D6`, with `2` Compensation Points and achieving `5`, `3` and `4` in the roll, then `1` Compensation Point can be used to turn the `4` into a `5` or both Compensation Points could turn the `3` into a `5`. There are not enough Compensation Points to turn all Misses into Hits, but at least one die is guaranteed to become a Hit! 
+> When rolling `3D6`, with `2` Edge and achieving `5`, `3` and `4` in the roll, then `1` Edge can be used to turn the `4` into a `5` or all Edge could be used to turn the `3` into a `5`. There is not enough Edge to turn all Misses into Hits, but at least one die is guaranteed to become a Hit! 
 
-They may not sound grandiose, but make no mistake, Compensation Points are a ***big deal***! Always seek to earn yourself as many of these as possible! 
-
-### Time
-Not all Tests are created equal - some actions require more time than others. 
-
-While the GM decides on how much time a given Test will need, the following guidelines should provide a good basis. 
-
-* (Near) instantaneous: Combat actions, recalling knowledge, noticing things in passing. 
-* A matter of minutes: inspecting an environment, quickly skimming the contents of a book, a short conversation, first aid, superficial surgery. 
-* A matter of hours: Simple crafts, complicated surgery, scrutinizing an environment, researching something simple and common, engaging in lengthy and difficult negotiations.
-* A matter of days and months: Complex crafts and artistry, researching a complex or obscure subject. 
+Edge is **not persistent**! Once Combat ends or the scene changes, all Edge expires!
 
 ### Test Success Likelihoods
 As is the nature of dice pool systems, it is difficult to know how many dice you need to 'succeed' a Test. While there are stochastic formulae that can help us figure out a mathematical answer, such formulae are often too complex to make use of when playing the game. Instead, the following guidelines and numeric table may help.
@@ -925,27 +988,44 @@ Interesting key points that can be observed are:
   * Ob `4`: `11` dice for `53%` and `14` for `74%` success rates. 
   * Ob `5`: `14` dice for `54%` and `17` for `72%` success rates. 
 
-Looking at these numbers, it is easy to believe Ob `4` and `5` Tests to be impossibly difficult. And under normal circumstances, this may be true. However, aside [Skill Forking](#skill-forking) and [helpers](#providing-assistance) granting more dice, there is another major factor - [Compensation Points](#compensation-points). Just one of these can have a huge impact on these Test success rates.
+Looking at these numbers, it is easy to believe Ob `4` and `5` Tests to be impossibly difficult. And under normal circumstances, this may be true. However, aside [Skill Forking](#skill-forking) and [helpers](#providing-assistance) granting more dice, there is another major factor - [Edge](#edge). Just one Edge can have a huge impact on these Test success rates.
 
-With `1` Compensation Point:
+With `1` Edge:
   * Ob `1`: `1` die for `50%` and `2` dice for `74%` success rates.
   * Ob `2`: `4` dice for `63%` and `5` for `76%` success rates.
   * Ob `3`: `6` dice for `54%` and `8` for `76%` success rates.
   * Ob `4`: `9` dice for `56%` and `11` for `75%` success rates.
   * Ob `5`: `11` dice for `49%` and `14` for `72%` success rates.
 
-With `2` Compensation Points:
+With `2` Edge:
   * Ob `1`: `1` die for `66%` and `2` dice for `89%` success rates.
   * Ob `2`: `3` dice for `65%` and `4` for `80%` success rates.
   * Ob `3`: `5` dice for `58%` and `6` for `72%` success rates.
   * Ob `4`: `7` dice for `48%` and `9` for `74%` success rates.
   * Ob `5`: `9` dice for `47%` and `12` for `75%` success rates.
 
-As you can see, Compensation Points decrease the number of dice you need to reach significant thresholds. But this is not the same as lowering the Ob, as on average, each Compensation Point grants `+1` average number of Hits. For Tests where the number of Hits matters, this is a big deal!
+As you can see, Edge decreases the number of dice you need to reach significant thresholds. But this is not the same as lowering the Ob, as on average, each Edge grants `+1` average number of Hits. For Tests where the number of Hits matters, this is a big deal!
 
 And then there are the [Fate-Cards](#hand-of-fate), which can also provide significant boosts to odds of success, for those Tests where success *really* matters!
 
-In conclusion, what can be said is, dice pool systems are complex, but also flexible. While the exact numbers are too plentiful to remember and the success likelihoods concealed by the number of dice, you rarely actually need to know them. What you need to know are the Ob thresholds and that you *really should* seek out Compensation Points. 
+In conclusion, what can be said is, dice pool systems are complex, but also flexible. While the exact numbers are too plentiful to remember and the success likelihoods concealed by the number of dice, you rarely actually need to know them. What you need to know are the Ob thresholds and that Edge is *a big deal*. 
+
+## Actions, Reactions & Passives
+Everything a Character does is always categorized as either an **Action** or a **Reaction**. 
+
+An **Action** occurs as something a Character does themself. An Action is usually self-initiated, but doesn't have to be. 
+
+> For example, a mind-controlled Character can be made to walk onto a minefield as one of their Actions, but because this happens against their will, such an Action isn't considered self-initiated.
+
+A **Reaction** is an Action that may occur when a defined condition is met. A Reaction is always implicitly optional, unless stated otherwise. 
+
+> For example, when a Character is successfully Attacked in Combat, they may use one of their Reactions to reduce the Damage they suffer. 
+
+A **Passive** is an effect that is always active (when a defined condition is met). A Passive may be the result of an Action, Reaction, Trait or other circumstance. 
+
+> For example, the Acrobatics Skill grants you easier Defense Tests, as long as you aren't wearing heavy armor. 
+
+These terms are mostly interesting during [Combat](#combat), but can also find use outside of it. In case you're wondering and are coming from other TTRPGs - in STRIVE there are no limits on your number of Actions or Reactions, save one - [Action Points](#action-points-ap). As long as you have the AP for it, you can repeat the same Action or Reaction as many times as it will let you. 
 
 # Character
 A Character is a representation of a sentient creature in the game world. They're an amalgam of their [Abilities](#abilities), [Personality](#virtues--vices), [Health](#health) and [Assets](#assets). These rules apply to all Player Characters (PCs). 
@@ -980,7 +1060,7 @@ For every `2` Levels in this Attribute, past Level `2` (i. e. starting at Level 
 
 For every Level in Toughness, a Character...
 * ...gains `+10` [maximum HP](#health-points-hp). All PCs have `10` base HP. 
-* ...raises their [maximum Stamina](#stamina--strain) by `+2`. 
+* ...raises their [maximum Stamina](#stamina) by `+2`. 
 * ...gains around `3` minutes of holding their breath. 
 * ...gains one additional die with which to try and Shrug Off an [Injury](#injury).
 
@@ -1015,7 +1095,7 @@ Base Initiative is derived from the sum of the Character's [Agility](#agility-ag
 
 > A Character with an Agility of `3`, Awareness of `4` and Wit of `5`, has a Base Initiative of `3 + 4 + 5 = 12`. 
 
-See also [Initiative](#initiative). 
+See also [Initiative](#initiative-order). 
 
 #### Sprinting Speed (Sprint)
 <img src="../../img/sprinting-speed.svg" style="width: 3rem; height: 3rem;">
@@ -1074,26 +1154,29 @@ Whenever asked to Test a Skill a PC does not yet *know*, it will be added or pro
 
 [Forking](#skill-forking) Learning Skills into other [Tests](#tests) is **not** allowed. But Forking *into* Tests of Learning Skills **is** allowed. 
 
+#### Beginner's Luck
+Sometimes, lack of experience means you approach a problem in an unexpected way, granting you a unique and surprising opportunity to succeed. Once per [QoD](#quarters-of-a-day-qod), on a Test of a Level `1` Skill, gain `+1` [Edge](#edge). 
+
 #### Expertise
-Skills can offer **Expertises**, which further incentivize specialization, by granting special abilities or [Boons](#boons--penalties), at higher Skill Levels. Many Expertises will be most useful in combat scenarios, but you are encouraged to find uses for them outside of combat! The Skill an Expertise belongs to is referred to as its **Owning Skill**. 
+Skills can offer **Expertises**, which further incentivize specialization, by granting special abilities or [Boons](#boons--penalties), at higher Skill Levels. Many Expertises will be most useful in combat scenarios, but you are encouraged to find uses for them outside of combat! The Skill an Expertise belongs to is referred to as its **Owning Skill** or **Parent Skill**. 
 
 There are three types of Expertise:
 1. An **Action**, whose effects apply when activated.
-2. A **passive Boon**, which is always active, as long as its conditions are met.
+2. A **Passive**, which is always active, as long as its conditions are met.
 3. A **Reaction**, which may either automatically or optionally be activated, when its conditions are met. 
 
 All Expertises note a required Level of their Owning Skill. Once the Skill reaches *that* Level, the Expertises of that Level unlock automatically. Only unlocked Expertises may be used. 
 
-Expertises may cost a variable amount of [AP](#action-points-ap) to activate. A cost of `0` implies the Expertise is free and can potentially be repeated multiple times in a single Turn. However, other limitations may apply. [Stamina](#stamina--strain) costing Expertises **may not be used** if out of Stamina!
+Expertises may cost a variable amount of [AP](#action-points-ap) to activate. A cost of `0` implies the Expertise is free and can potentially be repeated multiple times in a single Turn. However, other limitations may apply. [Stamina](#stamina) costing Expertises **may not be used** if out of Stamina!
 
 An Ob may be noted on an Expertise. In order to activate it, a Test of the Owning Skill, at the noted Ob, must succeed. 
 
-[Weapon Skills](#weapon--weapon-type--str) use Expertises to denote the ways one can attack with them. 
+[Weapon Skills](#weapon--weapon-family---base-attributes-) use Expertises to denote the ways one can Attack with them. 
 
 #### Concentration
-A **Concentration** Skill or Expertise upholds its effect(s) once successfully enacted, for as long as the user desires or is conscious. 
+A **Concentration** Skill or Expertise upholds its effect(s) once successfully enacted, for as long as the user desires or is conscious. Under normal circumstances, a Character may only have **one Concentration** ability active at the same time. 
 
-Under normal circumstances, a Character may only have **one Concentration** ability active at the same time. 
+Concentration can be broken! This happens automatically, if the Character is incapacitated. When they are Attacked, they must succeed a [Self-Control](#self-control-toughwit) Test at Ob `3`. If Concentration is broken, the Concentration effects immediately end. 
 
 ### Languages
 Characters know languages that allow them to communicate. Each language a Character knows is graded and may optionally also allow reading and writing in it. Outside of mundane, every-day communication, when a Character tries to understand more advanced speech or writing in a given language, they may roll a [Test](#tests) for it. For the Test, your number of dice is composed of your Wit, summed with the number of bonus dice your degree of proficiency grants. It is impossible to understand a language you do not know. 
@@ -1106,7 +1189,7 @@ Characters know languages that allow them to communicate. Each language a Charac
 
 > A Character with Wit `3`, who is a Native speaker, tries understand some ancient lore written in their language. They get to roll `(3 (from Wit) + 8 (from Native language grade) = 11` dice for the Test. The Ob will be chosen by the GM, based on *just how ancient and obscure* the text is, meaning, how difficult to read it is. 
 
-Languages may be learned. Treat this like a [Research Project](#research-projects), with a PI of `25`, TI of `1 day`, but instead of a Project Skill, use your [Wit](#wit-wit) to add progress. The achieved Q equals the language grade, up to a maximum of `3`. So, effectively, Q `1` results in a Dabbling, Q `2` in a Proficient and Q `3` in a Native language grade. 
+Languages may be learned. Treat this like a [Research Project](#research-projects), with Work-Rate `2 / QoD` and PI: `12`. Instead of a Project Skill, use your [Wit](#wit-wit) to add Progress. The Project's achieved `Q` equals the language grade, up to a maximum of `3`. `1` results in a Dabbling, `2` in a Proficient and `3` in a Native language grade. 
 
 ### Advancement
 Through [Tests](#tests), Characters learn and improve. For every Test, `+1` [XP](#experience-points-xp) is earned. If Testing a [Skill](#skills), then *additionally*, the Advancement Progress of that Skill is incremented by `+1`. 
@@ -1120,7 +1203,7 @@ Advancement is open ended. It technically never stops, although it will slow dow
 
 XP may be spent on advancing (i. e. "Leveling Up") [Attributes](#attributes) and on Skill Advancement Progress, for which the conversion rate is `1` to `1`, meaning for every XP spent, a Skill's Advancement Progress is incremented by the same amount. 
 
-It is only possible to spend XP at the start or end of a session, when Characters are [resting](#resting), or during [Down-Time](#down-time). 
+It is only possible to spend XP at the start or end of a session, when Characters are [resting](#resting), or during [Down-Time](#time-management). 
 
 #### Advancing Attributes
 [Attributes](#attributes) can only be advanced (i. e. "leveled up"), by spending [XP](#experience-points-xp). 
@@ -1168,10 +1251,10 @@ For your convenience, the following table contains the precalculated requirement
 | 10    | 38  |
 
 #### Practice
-Whenever the Character's enjoy some [Down-Time](#down-time), away from adventuring, they may spend that time practicing. For every week (or day, or whatever time increment works best for your group), of practice, they gain `+1` [Advancement Progress](#advancement). 
+Whenever the Character's enjoy some [Down-Time](#time-management), away from adventuring, they may spend that time practicing. For every [QoD](#quarters-of-a-day-qod), of practice, they gain `+1` [Advancement Progress](#advancement). 
 
 #### Teaching
-Much like it is possible for a Character to [Practice](#practice) on their own, they can also be taught by another, who knows more than them. Only [Skills](#skills) can be taught and the teacher's Skill Level must be at least one greater than that of their pupil. For every week (or day, or whatever time increment works best for your group), of tutoring, the pupil gains `+2` [Advancement Progress](#advancement) to the Skill in question. 
+Much like it is possible for a Character to [Practice](#practice) on their own, they can also be taught by another, who knows more than them. Only [Skills](#skills) can be taught and the teacher's Skill Level must be at least one greater than that of their pupil. For every [QoD](#quarters-of-a-day-qod), of tutoring, the pupil gains `+2` [Advancement Progress](#advancement) to the Skill in question. 
 
 ### Innate Abilities
 An Innate Ability is an [Attribute](#attributes) or [Skill](#skills) unique to a specific ancestry, based on species, profession, culture and so on. An Innate Ability **cannot** be learned through regular means. Only a GM may decide whether a Character may acquire such an ability. Even PCs might receive Innate Abilities, based on their chosen ancestry, or through events that unfold during play.
@@ -1198,7 +1281,7 @@ No matter how much a PC adventures, there is a limit to how much of a reputation
 A PC's Personality is comprised of their [Drivers](#drivers) and [Virtues & Vices](#virtues--vices). These help players figure out how to play their Character - how they should *think*, and *react* to events and circumstances. 
 
 ### Drivers
-All PCs have **Drivers**, which comprise their [Ambition](#ambition), [Aspirations](#aspiration) and [Reactions](#reaction). These Drivers prevent inaction and stagnation of the Character's development, because the Ambition and the Aspirations define goals for the Character to always work towards. 
+All PCs have **Drivers**, which comprise their [Ambition](#ambition), [Aspirations](#aspiration) and [Quirks](#quirk). These Drivers prevent inaction and stagnation of the Character's development, because the Ambition and the Aspirations define goals for the Character to always work towards. 
 
 All aspects of a PC's Personality may change, as the game is played, through their actions and the events of the story. It is from this fluidity, that a Character becomes so interesting to explore, because even as their player, you might not know the paths they'll take. They're a book you start writing from the beginning, instead of the ending. 
 
@@ -1254,17 +1337,17 @@ If you cannot think of three Aspirations, don't hesitate to ask the GM and the o
 
 Whenever a PC acts in accordance with their Aspirations, their player earns [Fate Points](#fate-points). 
 
-#### Reaction
-A player must determine three **Reactions** for their Character. A Reaction is an automatic behavior - something the Character is *expected* to do *automatically* and without question, when a given situation triggers it. But *expected* doesn't mean *have to*. A player can *choose* to have their Character act against a Reaction - and that may cause them to lose it. 
+#### Quirk
+A player must determine three **Quirks** for their Character. A Quirk is an automatic behavior - something the Character is *expected* to do *automatically* and without question, when a given situation triggers it. But *expected* doesn't mean *have to*. A player can *choose* to have their Character act against a Quirk - and that may cause them to lose it. 
 
-A Reaction is an "if/then" and "always/never" statement, which can be be beneficial or detrimental to the Character. 
+A Quirk is an "if/then" and "always/never" statement, which can be be beneficial or detrimental to the Character. 
 
-As such, there are two types of Reactions:
-* **Troublemaker**: A detrimental Reaction, that will get the Character in *trouble*.
+As such, there are two types of Quirks:
+* **Troublemaker**: A detrimental Quirk, that will get the Character in *trouble*.
   * A Troublemaker allows earning [Fate Points](#fate-points). 
-  * ***Trouble*** is defined as any situation in which a mild conflict arises, from the PC's Reaction. This conflict does not have to be violent. In fact it is preferable for a social conflict to arise, instead. But things could always escalate, of course.
+  * ***Trouble*** is defined as any situation in which a mild conflict arises, from the PC's Quirk. This conflict does not have to be violent. In fact it is preferable for a social conflict to arise, instead. But things could always escalate, of course.
   * A Troublemaker may also represent a Character's ***fears***. Things they will want to avoid, even to the detriment of their other goals. Like a fear of the open sea, of fire, of space and so on. 
-* **Assurance**: A beneficial Reaction that acts as ***insurance***, that the Character won't be caught by surprise. 
+* **Assurance**: A beneficial Quirk that acts as ***insurance***, that the Character won't be caught by surprise. 
   * An Assurance does not allow earning Fate Points. 
   * *Insurance* is defined as a *behavior* that allows entering a given situation under more favorable circumstances. An *insurance* can also help prevent or resolve a conflict, but it cannot alter the facts of the narrative. It **only** serves to give a PC an advantage in a situation that triggers it. 
 
@@ -1272,12 +1355,12 @@ As such, there are two types of Reactions:
 
 > Another example: "Whenever a violent fight breaks out, I have my weapons in hand!" - This is insurance, that even when the PC narratively might not have their weapons at the ready (for example, when sleeping), they will, in fact, have them at the ready. 
 
-Reactions are expected to change whenever a Character (decides) to act against them. A PC cannot keep a Reaction they keep contradicting. Players and the GM are expected to discuss at the end or beginning of a session, whether anyone should give up one of their Reactions. 
+Quirks are expected to change whenever a Character (decides) to act against them. A PC cannot keep a Quirk they keep contradicting. Players and the GM are expected to discuss at the end or beginning of a session, whether anyone should give up one of their Quirks. 
 
 ### Virtues & Vices
 Every PC has several values that help inform their player what their Character is like - how they act. 
 
-This personality is codified by the following matrix. Each row is a scale, with two opposing traits. Whenever A trait reaches the "Signature" column, a PC is *known* for it! In fact, they can hardly *not* act that way! In order for behaviour to deviate from a Signature Trait, a [Self-Control](#self-control-toughtough) Test at Ob `2` or half of of its Level (RU) - take the higher number - must be made. Only if it is a **success**, can the player choose to deviate from the Signature Trait's dictated behavior. 
+This personality is codified by the following matrix. Each row is a scale, with two opposing traits. Whenever A trait reaches the "Signature" column, a PC is *known* for it! In fact, they can hardly *not* act that way! In order for behaviour to deviate from a Signature Trait, a [Self-Control](#self-control-toughwit) Test at Ob `2` or half of of its Level (RU) - take the higher number - must be made. Only if it is a **success**, can the player choose to deviate from the Signature Trait's dictated behavior. 
 
 Whenever PCs very strongly act in a certain way, their value in a Virtue or Vice may change. Take note during play, how the Characters have acted. After the session, discuss whether any of the PCs have shown a very strong drift towards either side of the scale. And if everyone agrees, a personality change is in order!
 
@@ -1322,24 +1405,28 @@ A [Graduated](#graduated-test) [Medicine](#medicine-agiwit) Test can restore `hi
 
 > For `3` hits out of `7` rolled dice, a medic can restore `3D8` HP for themselves or an ally. 
 
-HP also replenish on their own, albeit much slower. For every hour outside of combat, `1D4` HP are regained, up to the current maximum. 
+During a [Partial Rest](#resting), once per [QoD](#quarters-of-a-day-qod), up to `10` HP may be regained. A [Full Rest](#resting) always replenishes up to `30` HP. 
 
 #### Bludgeoned to 0 HP
 When a Character is bludgeoned to `0` [HP](#health-points-hp), they might survive and fall [Unconscious](#unconscious), instead of dying. For that, they must succeed a [Toughness](#toughness-tough) [Test](#tests) at Ob `3`. If they fail, they die, after all.
 
 #### Temporary Health Points
-**Temporary HP** are separate HP whose loss **cannot cause [Injuries](#injury)**. Temporary HP are reduced by damage before regular HP. Regular HP only start depleting after all Temporary HP are gone. Damage overflows from Temporary to regular HP. 
+**Temporary HP** are separate HP whose loss **cannot cause [Injuries](#injury)**. Temporary HP are reduced by Damage before regular HP. Regular HP only start depleting after all Temporary HP are gone. Damage overflows from Temporary to regular HP. 
 
-> A Character with `22` HP and `5` Temporary HP suffers `6` points of damage. After removing the `5` points of Temporary HP, the remaining `1` point of damage overflows and reduces the regular HP to `21`. 
+> A Character with `22` HP and `5` Temporary HP suffers `6` points of Damage. After removing the `5` points of Temporary HP, the remaining `1` point of Damage overflows and reduces the regular HP to `21`. 
 
 ### Injury
 An **Injury** is a serious health impediment of a Character. It reduces the maximum [HP](#health-points-hp) and imposes other [Penalties](#boons--penalties), such as temporary reductions to [Attributes](#attributes).
 
-Whenever a Character's HP drop below a `10` HP segment, they *may* suffer an Injury, if they fail to **shrug it off**. Note this **does not** require `10+` damage dealt in a single stroke! In fact, even just losing `1` HP can cause an Injury, if it happens to take the HP below a segment of `10`, for example from `40` down to `39`. At most `2` Injuries can be suffered from a single instance of damage. 
+Whenever a Character's HP drop below a `10` HP segment, they *may* suffer an Injury, if they fail to **shrug it off**. Note this **does not** require `10+` Damage dealt in a single stroke! In fact, even just losing `1` HP can cause an Injury, if it happens to take the HP below a segment of `10`, for example from `40` down to `39`. At most `2` Injuries can be suffered from a single [Instance of Damage](#damage--effects). 
 
-> For example, someone unfortunate enough to suffer `30+` points of damage in a single attack need only fear suffering at most `2` Injuries from it. 
+> For example, someone unfortunate enough to suffer `30+` points of Damage in a single Attack need only fear suffering at most `2` Injuries from it. 
 
 For every Injury incurred, a Character's maximum HP are reduced by `-10`! A penalty to Toughness from an Injury **does not** further reduce the maximum HP! Even a treated Injury still applies the maximum HP penalty, until the moment it is fully healed and removed!
+
+There are two possible states of an Injury: **Untreated** or **Treated**. 
+* An **Untreated Injury** reduces [maximum HP](#health-points-hp) by `-10` *and* imposes additional penalites, such as to [Attributes](#attributes). 
+* A **Treated Injury** *still* reduces maximum HP by `-10`, but can no longer impose additional penalties.
 
 #### Shrugging Off An Injury
 To Shrug Off an Injury, they must succeed a [Toughness](#toughness-tough) Test with Ob at `N + 1`, where *N* is the number of successful Shrug-Offs, so far. Note that only PCs may Shrug Off Injuries. NPCs simply suffer Injuries, no Shrug-Offs are rolled. 
@@ -1348,12 +1435,12 @@ To Shrug Off an Injury, they must succeed a [Toughness](#toughness-tough) Test w
 
 Every [Full Rest](#resting), the Shrug-Off counter is reduced by `-1`.
 
-> A PC with `23` HP, has just suffered `4` points of damage, bringing them down to `19` HP. They should now suffer an Injury, if they fail to shrug it off. They have already successfully shrugged off an Injury once before. 
+> A PC with `23` HP, has just suffered `4` points of Damage, bringing them down to `19` HP. They should now suffer an Injury, if they fail to shrug it off. They have already successfully shrugged off an Injury once before. 
 >
 > Thus, the Ob for their Toughness Test is `1 (from an earlier shrugged off Injury) + 1 (always) = 2`. 
 
 #### Suffering An Injury
-An Injury always applies a [Penalty](#boons--penalties) of `-1` to a randomly selected attribute. To determine which one, roll a `D10` and see the table below: 
+Having failed to Shrug Off an Injury, roll a `D10` and see the table below, because an Injury always applies a [Penalty](#boons--penalties) of `-1` to a randomly selected Attribute. The roll determines which one. AlsWhen suffering an Injury, you gain a [Grit Point](#grit-points)! 
 
 | D10 Result | Attribute    |
 | ---------- | ------------ |
@@ -1363,44 +1450,21 @@ An Injury always applies a [Penalty](#boons--penalties) of `-1` to a randomly se
 | 7 - 8      | Toughness    |
 | 9 - 10     | Wit          |
 
-Additionally, the [Primary Damage](#primary-damage) that caused the Injury may apply further penalties. See the [Injury & Damage Type Table](#injury--damage-type-table) below. The Primary Damage Type is the one of which most got through [Armor](#armor--shields) and reduced [HP](#health-points-hp) the most. If there is a tie, the Damage Type that the armor reduces less is the primary one. If there is still a tie, a coin flip could decide. Note that Injuries apply their **additional penalties only once, upon being suffered**! 
-
-Also keep in mind that whenever a PC suffers an Injury, they earn a [Grit Point](#grit-points)! 
+Additionally, the [Primary Damage](#damage--effects) that caused the Injury may apply further penalties. See the [Injury & Damage Type Table](#damage-types). Note that such additional penalties are applied only **once, upon being suffered**!
 
 #### Crippled By Injuries
 Accruing **more Injuries than your Toughness** will result in your Character getting [Crippled](#crippled). Every Injury past this threshold will impose a penalty of Ob `+1` to **all** Tests!
 
 > A Character with Toughness `1`, suffers their second Injury. This now cripples their Character, meaning **all** their Tests are now `+1` Ob harder to succeed. If they get yet another Injury - their third - they suffer `+2` Ob!
 
-#### Injury States & Treatment
-There are two possible states of an Injury: **Active** or **Treated**. 
-* An Active Injury reduces [maximum HP](#health-points-hp) by `-10` *and* imposes additional penalites, such as to [Attributes](#attributes). 
-* A Treated Injury *only* reduces maximum HP by `-10`.
+#### Injury Treatment
+Before attempting Treatment for the first time, determine its **Treatment Ob**, via a `D4` roll. 
 
-An Injury **must** be treated, if it is to begin healing. There are two ways to treat an Injury:
-1. Through use of a Treatment Skill, as dictated by the Damage Type that caused the Injury. See the [Injury & Damage Type Table](#injury--damage-type-table) below. The Injured Character or another Character may attempt this treatment. 
+An Injury **must** be treated, if it is to begin healing. There are two ways to treat one:
+1. Through use of a **Treatment Skill**, as dictated by the Damage Type that caused the Injury. See [Damage Types](#damage-types). 
 2. The Injured Character may do a Test of their [Toughness](#toughness-tough), against the Treatment Ob, however, this Test is `+1` Ob harder. 
 
-The Treatment Ob is determined once, by a `D4` roll. 
-
-Only one Treatment attempt may be made every `24` hours on a per-Character basis. **Every** Treatment attempt costs `1` [Medical Supplies](#general-assets). 
-
-A `2D10 + 10` roll determines the number of **days** the Injury takes to fully heal, once treated. Every `24` hours the time left to heal is reduced by `-1` day. A Treated Injury can be treated again, once every `24` hours, reducing the time left to heal by `-2` days, every time the Treatment Test is successful. However, failing the Treatment Test increases the time by `+1` day. 
-
-#### Injury & Damage Type Table
-
-| Damage Type | Treatment Skill              | Additional Penalty               |
-| ----------- | ---------------------------- | -------------------------------- |
-| Acid        | [Medicine](#medicine-agiwit) | `-1` [AP](#action-points-ap) per Turn |
-| Bleeding    | [Medicine](#medicine-agiwit) | `+1` [Bleeding](#bleeding)       |
-| Bludgeoning | [Surgery](#surgery-agiwit)   | `+1` [Strain](#stamina--strain)  |
-| Burning     | [Surgery](#surgery-agiwit)   | `+1` [Burning](#burning)         |
-| Electrical  | [Medicine](#medicine-agiwit) | `+1` [Electrified](#electrified) |
-| Freezing    | [Medicine](#medicine-agiwit) | `+1` [Frostbitten](#frostbitten) |
-| Piercing    | [Surgery](#surgery-agiwit)   | `+1` [Bleeding](#bleeding)       |
-| Poison      | [Medicine](#medicine-agiwit) | Flip a coin. On heads - `+1` [Berserk](#berserk), on tails - `+1` [Terrified](#terrified) |
-| Pure        | [Surgery](#surgery-agiwit)   |                                  |
-| Slashing    | [Medicine](#medicine-agiwit) | `+1` [Bleeding](#bleeding)       |
+A `2D10 + 4` roll determines the number of **QoDs** the Injury takes to fully heal, once treated. At the start of every QoD, increment its healing progress by `+1`. An already Treated Injury can be treated again, once every QoD, and if successful, this adds `+2` healing progress. However, failing the Treatment Test increases the healing time by `+1` QoD. Only one Treatment attempt may be made every [QoD](#quarters-of-a-day-qod), on a per-Character basis. **Every** Treatment attempt costs `1` [Medical Supplies](#general-assets). 
 
 #### Grit Points
 <img src="../../img/grit.svg" style="width: 3rem; height: 3rem;"> **Grit Points** let a Character stand up in defiance of their [Injuries](#injury) and make a last-ditch effort to turn the wheel of fate around. 
@@ -1409,32 +1473,36 @@ Every time a Character suffers an Injury, they gain `+1` Grit Point. These are a
 
 You may spend Grit Points at any time during a Round for the following effects (but only one Grit Point per effect, per Round): 
 * On a [Test](#tests), gain `+2D`. 
-* On a [Test](#tests), gain `+1` [Compensation Point](#compensation-points). 
-* Increase [Stamina](#stamina--strain) by `1D4`. 
-* On your next successful attack, deal `+8` points of [Pure damage](#damage-types). 
+* On a [Test](#tests), gain `+1` [Edge](#edge). 
+* Increase [Stamina](#stamina) by `1D4`. 
+* Reduce [Strain](#strain) by `1`. 
+* On your next successful Attack, deal `+8` points of [Pure Damage](#damage-types). 
 * Gain `+1D4` [AP](#action-points-ap). 
 
 ### Stamina & Strain
 
 #### Stamina
-<img src="../../img/stamina.svg" style="width: 3rem; height: 3rem;"> **Stamina** is a numeric measure of a Character's maximum **physical and mental strain** they can safely endure. It may go into the negatives, and may not exceed your **maximum Stamina**.
+<img src="../../img/stamina.svg" style="width: 3rem; height: 3rem;"> **Stamina** is a numeric resource that lets a Character endure physical and mental taxation.
 
 For every point in [Toughness](#toughness-tough), your **maximum Stamina** raises by `+2`.
 
 > At Toughness `1`, you have a maximum Stamina of `2`. At Toughness `3`, you have a maximum Stamina of `6`. 
 
-If a Character's Stamina reaches **negative numbers**, they become [Exhausted](#exhausted) from over-exertion. While Exhausted, a Character losing further Stamina, must succeed a [Self-Control](#self-control-toughtough) [Test](#tests) at Ob equal to their current degree of negative Stamina, or else fall [Unconscious](#unconscious). Also, it becomes impossible to use *any* Action or Reaction that would cost further Stamina!
-
-`+1` point of Stamina is regained for every **hour of uninterrupted rest**. Once Stamina is **no longer negative**, the Exhausted [Condition](#condition) is removed, automatically. 
-
-> If a Character has `-3` Stamina, then they must rest for at least `3` hours to clear their Exhausted Condition.  
+Stamina can go into **negative numbers**! When that happens, the Character becomes [Exhausted](#exhausted) from over-exertion. While Exhausted, a Character further losing Stamina, must succeed a [Self-Control](#self-control-toughwit) [Test](#tests) at Ob equal to their current degree of negative Stamina, or else fall [Unconscious](#unconscious). An Exhausted Character can also no longer perform *any* Action or Reaction that would cost Stamina!
 
 #### Strain
-<img src="../../img/strain.svg" style="width: 3rem; height: 3rem;"> **Strain** is a measure of a Character's **current constant** physical and mental strain and **reduces your maximum Stamina**. 
+<img src="../../img/strain.svg" style="width: 3rem; height: 3rem;"> **Strain** is a measure of a Character's extreme physical and mental exertions and **reduces the Stamina maximum**. For each point of Strain, the Stamina maximum is reduced by an equal amount. 
 
-Strain is gained from particularly exhausting equipment, suffering through extreme weather or performing particularly exhausting actions. Strain gained from exhausting equipment can be reduced by dropping the equipment in question. Strain gained through other sources may be cleared by a [Full Rest](#resting), but only if no other restrictions apply. 
+Strain is gained from particularly exhausting equipment, or suffering through extreme exertions, such as performing particularly exhausting Actions or Reactions.
 
 > A Character with Toughness `3` has `6` maximum Stamina. But they are wearing heavy armor that puts `+2` Strain on them. Thus, their effective maximum Stamina is only `4`!
+
+#### Recovering Stamina & Reducing Strain
+Once per [QoD](#quarters-of-a-day-qod), during a [Partial Rest](#resting), Characters may replenish up to `3` Stamina, while reducing Strain by `1`. A [Full Rest](#resting) always replenishes `12` Stamina, while reducing Strain by `6`. 
+
+Once Stamina is **no longer negative**, the Exhausted [Condition](#condition) is removed, automatically. 
+
+Strain gained from exhausting equipment can only be reduced by dropping the equipment in question. 
 
 ### Condition
 A Character can have positive or negative effects on them, represented by Conditions. They can have any number of Conditions applying to them simultaneously. 
@@ -1443,47 +1511,46 @@ All Conditions apply on a [Tick](#ticks) - the start of a Character's Turn.
 
 Conditions may be **Graded** with a number that represents how strong the Condition's effects are. It may be possible to **Shrug Off** a point through a [Test](#tests). It may also be possible to immediately cancel out a Condition with external help (e. g. an antidote against [Poison](#poisoned)). An attempt to Shrug Off counts as an [Action](#action-points-ap) and can only be made **after** the Tick of the Condition. All Graded Conditions are automatically removed when their points are reduced to `0`. Additionally, some Graded Conditions may be **Greedy** - they automatically increase by `+1` point **after** every [Tick](#ticks). 
 
-Even outside of combat, for as long as a Character in the current scene is suffering one of these Conditions, it is advisable to use very fine and [discrete time-slices](#scenario-time). 
+Even outside of combat, for as long as a Character in the current scene is suffering one of these Conditions, it is advisable to use very fine and [discrete time-slices](#time-management). 
 
 A listing of all Conditions can be found [in the appendix](#list-of-conditions). 
 
 ### Illness
-An **Illness** can affect a Character over a perod of time and cause various negative effects. 
+An **Illness** is a serious long-term health impediment of a Character.
 
-Illnesses can be contracted in a variety of ways, although most of them involve an open wound exposed to bacterial breeding grounds, such as bogs, sewers, mass graves and trash dumps. Or from something ingested, such as spoiled or poisoned food. 
+#### Shrugging Off An Illness
+When a Character is about to contract an Illness, they must make a [Toughness](#toughness-tough) [Test](#tests) at Ob `3`. On a success, the Illness is shrugged off. But on a failure, the Illness is contracted and will immediately apply its effects to the Character. 
 
-When a Character is about to contract an Illness, they must make a [Toughness](#toughness-tough) [Test](#tests) with an Ob noted on the Illness:
-* On a success, the Illness is shrugged off. 
-* On a failure, the Illness is contracted and will immediately apply its effects to the Character. 
-  * Unless a specific Illness has been contracted, you must determine a random one by rolling a `D100` and picking the corresponding Illness from the [List Of Illnesses](#list-of-illnesses). 
-  * Once the Illness has been determined, its duration and severity must also be determined through rolls, as noted on the Illness itself. 
+#### Suffering an Illness
+Illnesses can be contracted in a variety of ways, such as an open wound exposed to bacteria, exposure to unhealthy fumes from bogs, sewers, mass graves and trash dumps, or from something ingested, such as spoiled or poisoned food. These could be the result of failing too many challenges of a [Creative Test](#creative-test), or from a particularly nasty enemy's abilities.
 
-Most Illnesses have a duration, during which their effects are active and after which, all ill-effects go away. In some cases, an Illness may have a duration of "until cured", which means it will never go away, if not Treated. 
+Unless otherwise specified, a `D100` determines the suffered Illness from the [List Of Illnesses](#list-of-illnesses).
 
-Treatment of an Illness is possible through [Medicine](#medicine-agiwit) or [Surgery](#surgery-agiwit). Which Skill is required, will be noted on the Illness. Treatment will often be able to reduce the ill-effects and sometimes to remove the Illness, altogether. A treatment attempt can only be made once every `24` hours. 
+An Illness can only be suffered once, at a time. It may be suffered again later, but you could also expect that a certain level of immunity within the body has built up, after the previous time it was suffered through. A Character gains `+2D` to any Shrug-Off Test of an Illness they have suffered in the past. Make sure to note past Illnesses on your Character sheet for this reason. 
 
-Any Illness, when Treated, has its duration reduced, but only once. If a treatment would also suspend any ill-effects, that would still be applicable. That way, Treating an Illness which already had its duration reduced can still be useful. 
+#### Illness Recovery
+A `2D10 + 4` roll determines the number of **QoDs** the Illness takes to disappear. At the start of every QoD, increment its recovery progress by `+1`. This allows a Character to slowly recover on their own. 
 
-An Illness can only be suffered once, at a time. It may be suffered again later, but you could also expect that a certain level of immunity within the body has built up, after the previous time it was suffered through. A Character gains `+2D` to any [Toughness](#toughness-tough) [Test](#tests) for any Illness they have suffered in the past. Make sure to note past Illnesses on your Character sheet for this reason. 
+To speed recovery up, the Illness can be **Treated**. Before attempting Treatment for the first time, determine its **Treatment Ob**, via a `D4` roll. Then, if the Test is successful, increment the recovery progress by `+2`. Only one Treatment attempt may be made every [QoD](#quarters-of-a-day-qod), on a per-Character basis. **Every** Treatment attempt costs `1` [Medical Supplies](#general-assets). 
 
 ### Damage Types
-All damage inflicted, is inflicted with one of these types, which dictate the type of [Injury](#injury) suffered when brought to `0` [HP](#health-points-hp). 
+All Damage is inflicted with one of these types, which dictate the type of [Injury](#injury) that is dealt. 
 
-| Damage Type | Description |
-| ----------- | ----------- |
-| Acid        | Dissolves anything it touches, depending on circumstance. |
-| Bleeding    | Inflicted by [Bleeding](#bleeding). The result of open wounds. |
-| Bludgeoning | Inflicted by blunt weapons and [Unarmed](#unarmed-combat-agistr) attacks. Can cause a Character to fall [Unconscious](#unconscious), for that, see [Bludgeoned To 0 Hp](#bludgeoned-to-0-hp). |
-| Burning     | Inflicted by extreme heat. |
-| Electrical  | Inflicted by eletrical shock. |
-| Freezing    | Inflicted by extreme cold. |
-| Piercing    | Usually inflicted by any sort of stabbing weapon, like a spear, or an animal's stinger. |
-| Poison      | Inflicted over time, through imbibed or injected substances. |
-| Pure        | A special damage type that **cannot be reduced in any way**. |
-| Slashing    | Usually inflicted by any sort of cutting/slashing weapon, like a blade, or a talon. |
+| Damage Type | Description                                                            | Treatment Skill              | Additional Penalty                          |
+| ----------- | ---------------------------------------------------------------------- | ---------------------------- | ------------------------------------------- |
+| Acid        | Dissolves anything it touches, depending on circumstance.              | [Medicine](#medicine-agiwit) | `-1` [AP](#action-points-ap) per Turn       |
+| Bleeding    | Inflicted by [Bleeding](#bleeding). The result of open wounds.         | [Medicine](#medicine-agiwit) | `+1` [Bleeding](#bleeding)                  |
+| Bludgeoning | Inflicted by blunt weapons and [Unarmed](#unarmed-combat-agistr) Attacks. Can cause a Character to fall [Unconscious](#unconscious), for that, see [Bludgeoned To 0 Hp](#bludgeoned-to-0-hp). | [Surgery](#surgery-agiwit)   | `+1` [Strain](#strain)           |
+| Burning     | Inflicted by extreme heat.                                             | [Surgery](#surgery-agiwit)   | `+1` [Burning](#burning)                    |
+| Electrical  | Inflicted by eletrical shock.                                          | [Medicine](#medicine-agiwit) | `+1` [Electrified](#electrified)            |
+| Freezing    | Inflicted by extreme cold.                                             | [Medicine](#medicine-agiwit) | `+1` [Frostbitten](#frostbitten)            |
+| Piercing    | Usually inflicted by any sort of stabbing weapon, like a spear, or an animal's stinger. | [Surgery](#surgery-agiwit)   | `+1` [Bleeding](#bleeding) |
+| Poison      | Inflicted over time, through imbibed or injected substances.           | [Medicine](#medicine-agiwit) | Flip a coin. On heads - `+1` [Berserk](#berserk), on tails - `+1` [Terrified](#terrified) |
+| Pure        | A special Damage type that **cannot be reduced in any way**.           | [Surgery](#surgery-agiwit)   | `+1` [Strain](#strain)                      |
+| Slashing    | Usually inflicted by any sort of cutting/slashing weapon, like a blade, or a talon. | [Medicine](#medicine-agiwit) | `+1` [Bleeding](#bleeding)     |
 
 ### Damage Resistances
-Some creatures can resist certain [Damage Types](#damage-types) naturally, while others may cover themselves in [Armor](#armor--shields) to the same effect. 
+Some creatures can resist certain [Damage Types](#damage-types) naturally, while others may cover themselves in [Armor](#armor-assets) to the same effect. 
 
 How much Damage is resisted, depends on the specifics of the creature or Character and their [Equipment](#worn--equipped). 
 
@@ -1549,12 +1616,164 @@ Things such as an owned plot of land, a house, money in the bank, equipment and 
 
 There is no limit for how much Property a Character can have. Except, perhaps, how much they can keep safe from greedy hands. 
 
+### Armor Assets
+Armor serves as life insurance, because it reduces the Damage suffered after a Defense Test has failed. But it can also passively aid your Defense in other ways. 
+
+#### Armor Traits
+**Armor Traits** are modular rules that make one armor mechanically different from another, by acting as modifiers to their protections and capabilities. 
+
+| Armor Trait            | Description                                                                                   | 
+| ---------------------- | --------------------------------------------------------------------------------------------- |
+| **Bulwark**            | Adjacent allies gain `+1` [Edge](#edge) to Defense Tests against Attacks originating from your side of the battlefield. |
+| **Cargo-Ready**        | Increases Luggage capacity by `+Q`, but also increases Strain from wearing the armor by `+1`. |
+| **Fortress**           | Once per Round, reduce the Damage from an Attack by `Q` points.                               |
+| **Insulated**          | Reduces environmental Damage by `Q`.                                                          |
+| **Muffled**            | Grants `+1` [Edge](#edge) to Stealth Tests.                                                   |
+| **Padded**             | Reduces [Forced-Collision](#forced-collision) Damage by `Q`.                                  |
+| **Reinforced**         | Reduces a single [Instance of Damage](#damage--effects) of `10` or more points by `Q`.        |
+| **Supporting**         | Adjacent allies get `+1` [Stability](#stability-stabil).                                      |
+| **Ventilated**         | Reduces Strain caused by wearing this armor by `Q - 2`, minimum `1` points.                   |
+
+#### Legendary Armor Traits
+These Armor Traits modify an armor in a particularly powerful way. These are available solely at the GM's discretion and may serve as a source of inspiration for them to create their own uniques. 
+
+| Legendary Armor Trait  | Description                                                                                   | 
+| ---------------------- | --------------------------------------------------------------------------------------------- |
+| **Defiant**            | Once in Combat, when you successfully Defend against an Attack, gain `Q` Temporary HP.        |
+| **Impenetrable**       | Once per Round, ignore `Q` points of Armor penetration or Pure Damage.                        |
+| **Last Stand**         | While at or below `20` HP, reduce all Damage suffered by `Q`.                                 |
+| **Reactive Armor**     | Once per Round, after suffering Damage, gain `+1` [Guarded](#guarded).                        |
+| **Resuscitating**      | The first time in Combat that you would be reduced to `0` HP, remain at `1` HP instead.       |
+| **Second Skin**        | Ignore all Strain imposed by this Armor.                                                      |
+
+### Shield Assets
+Shields provide bonuses to Defense, making it harder for an enemy to succesfully land a hit in the first place. 
+
+#### Shield Traits
+**Shield Traits** are modular rules that make one shield mechanically different from another, by acting as modifiers to their protections and capabilities. 
+
+| Shield Trait           | Description                                                                                   | 
+| ---------------------- | --------------------------------------------------------------------------------------------- |
+| **Hooked**             | Once per Round, when successfully Defending against an Attack with this shield, you may [Force-Move](#forced-movement) the Attacker around you by `Q` Squares. |
+| **Interlocking**       | When adjacent to an ally who also wields a shield, you both gain `+1` [Stability](#stability-stabil). |
+| **Perfect Guard**      | Once per Round, a Defense Test with `≥3` Hits allows a free Counter-Attack regardless of the normal Counter-Attack requirements. |
+| **Reflective**         | Gain `+1` [Edge](#edge) against Attacks that involve light, glare or other visual effects. |
+| **Reprisal**           | When you successfully Defend an Attack by `≥3` Hits, the attacker suffers `Q` Bludgeoning Damage. |
+| **Towering**           | Gain `+1D` against Ranged Attacks, but also suffer `-1` Square of movement per AP. |
+
+#### Legendary Shield Traits
+These Shield Traits modify a shield in a particularly powerful way. These are available solely at the GM's discretion and may serve as a source of inspiration for them to create their own uniques. 
+
+| Legendary Shield Trait | Description                                                                                   | 
+| ---------------------- | --------------------------------------------------------------------------------------------- |
+| **Aegis**              | Once per Round, with this shield, you may Defend an adjacent ally for free. |
+| **Shiny**              | Once per Round, as a Reaction to a foe Attacking you or an adjacent ally, may attempt to flash reflected light at the foe, briefly blinding them. This counts as an Opposed Attack, to be made with the [Shield Skill](#shield-strtough). If successful, the foe's Attack is interrupted and their Attack wasted. |
+
+### Weapon Assets
+An Asset designed to be used as a weapon. Improvised weapons don't count, although they may be still be used with an appropriate [Weapon Skill](#weapon--weapon-family---base-attributes-). 
+
+> For example, when grabbing a bar stool, and a Weapon-Family for blunt weapons exists, then that Weapon-Family's respective Skill may find use for any Attacks made wielding the bar stool. But the bar stool remains a non-weapon Asset. 
+
+When you acquire or equip a Weapon Asset, make sure to incorporate its relevant Weapon Traits and changes to the [Attack Profile](#damage--effects), to save yourself the hassle of having to look that data up every time you want to make an Attack. Of course, once the Weapon Asset is unequipped, its modifications must be reverted. 
+
+#### Weapon-Family
+**Weapon-Families** broadly categorize weapons, each of which has distinct properties better suited to a particular task or filling a particular niche. [Weapon Skills](#weapon--weapon-family---base-attributes-) reference these to determine *how* a weapon is used. 
+
+> Example Weapon-Families would be "Axe", "Bow", "Rifle", "Plasma Guns" and so on. 
+
+#### Weapon Traits
+**Weapon Traits** are modular rules that make one weapon mechanically different from another, by acting as modifiers to an [Attack's Profile](#damage--effects). Even within one [Weapon-Family](#weapon-family), there can be many different weapons with very different Weapon Traits, each filling a different niche or with particular strengths and weaknesses. 
+
+You are encouraged to invent your own Weapon Traits! When doing so, avoid unconditional Damage boons, as they tend to be pretty boring and can also be better represented by a particular Weapon Asset directly modifying the Damage values of the Attack Profile. 
+
+> Instead of defining a "+Slashing Damage" Weapon Trait, and then adding that to the "Longsword of Slashing" Asset, simply add to the "Longsword of Slashing" itself: "deals `+X` Slashing Damage". 
+>
+> A more interesting version might be: "Dragonslayer: Against Dragons, Masterful hits deal `+X` Slashing Damage"
+
+##### Foundational Weapon Traits
+These Weapon Traits define basic aspects of a weapon: how far away it can threaten foes, whether it requires time to reload and such.
+
+| Foundational Weapon Trait |                                                                              | Description                                                                                   | 
+| ------------------------- | ---------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------- |
+| **Melee**                 | <img src="../../img/melee-1.svg" style="width: 3em; height: 3em;"></img>     | Allows Attacking an adjacent target. |
+| **Long Reach**            | <img src="../../img/melee-2.svg" style="width: 3em; height: 3em;"></img>     | Allows Attacking a target two Squares away. |
+| **Very Long Reach**       | <img src="../../img/melee-3.svg" style="width: 3em; height: 3em;"></img>     | Allows Attacking a target three Squares away. |
+| **Ranged**                | <img src="../../img/ranged.svg" style="width: 3em; height: 3em;"></img>      | The weapon can be used against targets up to a noted distance away from the user. See also [Ranged](#ranged). |
+| **Range Only**            | <img src="../../img/ranged-only.svg" style="width: 3em; height: 3em;"></img> | The weapon cannot be used against any targets adjacent to self. |
+| **Prefer Range**          |                                                                              | `+2` Ob to using the weapon against an adjacent target. |
+| **Slow Reload**           |                                                                              | Reloading the weapon costs `2` [AP](#action-points-ap). |
+| **Very Slow Reload**      |                                                                              | Reloading the weapon costs `3` [AP](#action-points-ap). |
+
+###### Ranged
+The range, in Squares, is noted in parentheses. This can either indicate a maximum distance, which cannot be exceeded, or a so-called **Distance Increment**, abbreviated **DI**, which may be exceeded, but with penalties. <br>
+For every Distance Increment past the initial, an Attack suffers `+1` Ob and deals `-2` points of Damage. In other words, the farther you shoot, the harder it becomes to score an effective hit. 
+
+> A weapon with this Trait noted as `(max. 8)` can Attack a target up to a maximum of `8` Squares away. 
+
+> A weapon with this Trait noted as `(10 DI)` has a Distance Increment of `10` Squares. Any Attack up to and including `10` Squares incurs no penalties, but starting from the `11`th Square, the Attack suffers `+1` Ob and if successful, deals `-2` points of Damage less. Starting from the `21`st Square, `+2` Ob and `-4` points of Damage, and so on.
+
+##### Offensive Weapon Traits
+Weapon Traits whose focus is modifying an [Attack's Profile](#damage--effects) to cause greater harm. 
+
+| Offensive Weapon Traits | Description                                                                                   | 
+| ----------------------- | --------------------------------------------------------------------------------------------- |
+| **Brutal**              | When landing a [Masterful](#attacking) hit, deal an additional `+Q` points of Pure Damage.    |
+| **Crushing**            | Solid or better Attacks deal an additional `+Q` Bludgeoning Damage.                           |
+| **Precise**             | Once per Round, an Attack with this weapon receives `+1` [Edge](#edge).                       |
+| **Piercing**            | Attacks ignore `Q` points of [Armor](#armor-assets).                                          |
+| **Poison-Chamber**      | Attacks deal an additional `+Q` points of Poison Damage. The poison must be refilled after every Combat ends. |
+| **Punishing**           | When a foe successfully Defends against an Attack made with this weapon, they suffer `Q` Pure Damage, anyway. |
+| **Serrated**            | Attacks deal an additional `+Q` points of [Bleeding](./strive-core.md#bleeding).              |
+| **Sweeping**            | Once per Round, an Attack made with this weapon may affect one additional target adjacent to the original target(s), but will deal `-3` Damage. |
+
+##### Defensive Weapon Traits
+Weapon Traits whose focus lies on altering or improving defensive capabilities. 
+
+| Defensive Weapon Traits | Description                                                                                   | 
+| ----------------------- | --------------------------------------------------------------------------------------------- |
+| **Anchoring**           | Once per Round, when failing a Defense against an Attack that causes you to [Force-Move](#forced-movement), you are moved `Q` Squares less. |
+| **Protecting**          | Once per Round, Defending an adjacent ally with this weapon gains `+1` [Edge](#edge).         |
+| **Riposting**           | Once per Round, when succeeding a Defense Test with this weapon, you may make one free [Counter-Attack](#counter-attack), but at Ob `+1`. |
+
+##### Mobility Weapon Traits
+Weapon Traits whose focus lies on manipulating positioning. 
+
+| Mobility Weapon Traits  | Description                                                                                   | 
+| ----------------------- | --------------------------------------------------------------------------------------------- |
+| **Driving**             | Once per Round, when an Attack causes [Forced-Movement](#forced-movement), you may move up to `Q` Squares toward the target without provoking [Opportunity Attacks](#opportunity-attacks). |
+| **Heavy**               | Melee Attacks cause `+Q` [Knock-Back](#forced-movement).                                      |
+| **Hooked**              | Melee Attacks [Pull](./strive-core.md#forced-movement) by `+Q` Squares.                       |
+| **Rooting**             | A Masterful hit prevents a target from voluntarily moving more than `Q` Squares, on their next Turn. |
+
+##### Versatility Weapon Traits
+Weapon Traits whose focus lies on altering how they can be used. 
+
+| Versatility Weapon Traits | Description                                                                                   | 
+| ------------------------- | --------------------------------------------------------------------------------------------- |
+| **Adaptive**              | Once per Round, switch the Damage Type an Attack with this weapon may deal: Slashing, Piercing or Bludgeoning |
+| **Effortless**            | Once per Round, an Attack with this weapon costs `1` AP less, down to no less than `1`. |
+| **Returning**             | Whether through some supernatural force, or an intricate mechanical contraption, when [Thrown](#throwing), the weapon automatically returns to you after it has landed.  |
+
+##### Legendary Weapon Traits
+These Weapon Traits modify an [Attack's Profile](#damage--effects) in a particularly powerful way. These are available solely at the GM's discretion and may serve as a source of inspiration for them to create their own uniques. You may create general, re-usable Weapon traits that modify the basic systems of an Attack, such as how many AP it costs, how far away it can threaten foes and how many and such. But you may also create highly specifc Weapon Traits that modify a specific [Weapon Skill's](#weapon--weapon-family---base-attributes-) Attacks, to make them truly unique. Also, when doing so, keep in mind Weapon Traits must modify something that already exists on a Skill, instead of adding a completely unrelated new ability. 
+
+> For example, a Weapon Trait that turns a Melee Attack into a Ranged AoE Burning Attack, is good. But adding the ability to also summon a dragon once a week, should be avoided, and may instead be better expressed as an Asset Ability. 
+
+| Legendary Weapon Traits   | Description                                                                                   | 
+| ------------------------- | --------------------------------------------------------------------------------------------- |
+| **Cruel**                 | A successful Attack with this weapon deals an additional `Q * 2` Bleeding Damage if the victim has at least one Injury. |
+| **Deflecting**            | This weapon is especially good at turning Attacks aside. When you use this weapon in a Defense Test and succeed, you may [Knock-Back](#forced-movement) the Attacker by `Q` Squares. |
+| **Foolproof**             | The first successful Attack each Round is treated as one Damage grade higher. I.e. Glancing -> Solid; Solid -> Masterful|
+| **Relentless**            | Once per Round, when an Attack with this weapon is successful, you may make one additional free Attack, with Ob `+2`. |
+| **Executioner**           | Attacks with this weapon deal an additional `Q * 2` Pure Damage to a foe whose HP are less than `20`. |
+| **Masterstroke**          | Once per Round, an Attack with this weapon may ignore conditions that would normally limit the Attack. For example, a cleave attack that normally requires two adjacent targets, may now affect two targets that are far apart. However, foundational limitations, such as the maximum usable range, still apply. |
+
 # Fate Points
 **Fate points (FP)** represent a meta-currency that *players* can earn and use to buy boons for their Character or the group as a whole. At the end of every session, players and the GM should discuss who earned which FP, followed by awarding those FP. 
 
 There are three types of FP: [Minor](#minor-fate-points), [Major](#major-fate-points) and [Ambition](#ambition-fate-points). 
 
-Most FP are earned, by playing to the Character's [Personality](#drivers) - working towards or concluding their [Ambition](#ambition) and [Aspirations](#aspiration) or by getting into trouble through [Reactions](#reaction). Most FP are earned by a single player, but some may also be earned by the player group. 
+Most FP are earned, by playing to the Character's [Personality](#drivers) - working towards or concluding their [Ambition](#ambition) and [Aspirations](#aspiration) or by getting into trouble through [Quirks](#quirk). Most FP are earned by a single player, but some may also be earned by the player group. 
 
 FP are downwards-convertible, meaning if you need to, you can turn a single more significant FP into several less significant FP. Note that converting "upwards" is **not** possible. 
 
@@ -1567,7 +1786,7 @@ MiFP can be earned in the following ways:
 * **Driven**: *Working towards* an Ambition or Aspiration. 
 * **Personality**: Playing in accordance to one's Signature Virtue or Vice. 
 * **Specialist**: Driving the story forward, when no one else could - having the right skill to employ at the right time. 
-* **Trouble**: Playing to one's Reactions - if they get their Character, or their allies, into [Trouble](#reaction). 
+* **Trouble**: Playing to one's Quirks - if they get their Character, or their allies, into [Trouble](#quirk). 
 
 ## Major Fate Points
 **Major Fate Points (MaFP)** take more effort from the *player* to earn, as they're earned through convincing roleplaying, creative efforts and accomplishing long-term goals. 
@@ -1579,7 +1798,7 @@ MaFP can be earned in the following ways:
 * **Achievements**: Whenever a major plot point or story arc is concluded - a great journey, uncovering a plot of assassination, fulfilling a contract to clear out a bandit camp or discovering an ancient artifact, all count as *achievements*, which earn this award **for all the players, as a group**. 
 * **Collaboration**: Working with the GM to further the world and the story in creative ways and helping the GM out when possible. Secret plots that only one of the players is involved in, which causes gasps and applause from the other players, when the plot is finally revealed, for example. 
 * **Creative Solutions**: Coming up with a very creative way to solve a problem. This may be a diplomatic solution, where the GM thought one impossible. Or, perhaps an unexpected use of the environment during [Combat](#combat), which yielded the PCs a distinct advantage on the battlefield, in a way the GM didn't foresee. 
-* **Embodiment**: Capturing their Character and personifying them, in the moment. For example, by giving a great speech, acting scared, enjoying a bitter revenge with glee or convincingly portraying an inner conflict (for example, when contradicting an Aspiration or Reaction). 
+* **Embodiment**: Capturing their Character and personifying them, in the moment. For example, by giving a great speech, acting scared, enjoying a bitter revenge with glee or convincingly portraying an inner conflict (for example, when contradicting an Aspiration or Quirk). 
 * **Helper**: Helping an ally out at a *critical* time - during or out of [Combat](#combat). 
 * **The Gears**: Being *the gears*, without which nothing would move. Doing the laborious work during session, nobody wants to do, but which has to happen to keep the story moving. Always making sure to pitch the tents in the right spot, watching out for traps or doing the boring question-asking all earn this award!
 
@@ -1603,13 +1822,13 @@ There are no limits to how many of a given card a player can own, but they may o
 | Cost    | Name                | Effect             |
 | ------- | ------------------- | ------------------ |
 | 2 MiFP  | Single Re-Roll      | Repeat a single Test you just made. |
-| 6 MiFP  | Clotter             | One Active [Injury](#injury) of choice is now Treated. |
+| 6 MiFP  | Clotter             | One Untreated [Injury](#injury) of choice is now Treated. |
 | 8 MiFP  | Cascading Re-Roll   | Repeat a single Test you just made. With this card, you keep any Hits you achieved from the previously made Test and add them to the Hits rolled when you repeat the Test. This also doubles your Hit Limit. Exclusive with "Double the Fun". |
 | 8 MiFP  | Hastened            | `+1` AP during your Turns for the entirety of a [Combat](#combat) encounter. |
 | 3 MaFP  | Double the Fun      | Double the number of dice to roll on your next/current Test and every rolled Hit counts double - which means every rolled Hit actually counts as `2` Hits! This also doubles your Hit Limit. Exclusive with "Cascading Re-Roll". |
 | 5 MaFP  | Fact Check          | Change a minor plot point in a way you prefer. Work with your GM to make sure it fits the narrative, but they should respect your wish. This could be something like avoiding an NPC death or changing a fact about the plot. |
 | 5 MaFP  | Just a Flesh Wound  | Avoid or remove an [Injury](#injury)! |
-| 1 AFP   | Defy Death          | Return from the dead, remove `1` Active [Injury](#injury) of choice and be at `1` HP; Alternatively, avoid a narratively-driven death. The GM will decide the Character's alternative fate. They could be captured, very badly injured or become indebted to someone or something. Note that this card can only be played *after* the Character lost their [battle with death](#deaths-door). |
+| 1 AFP   | Defy Death          | Return from the dead, remove `1` [Injury](#injury) of choice and be at `1` HP; Alternatively, avoid a narratively-driven death. The GM will decide the Character's alternative fate. They could be captured, very badly injured or become indebted to someone or something. Note that this card can only be played *after* the Character lost their [battle with death](#deaths-door). |
 | 1 AFP   | Retainer Boost      | Immediately advance `2` Attributes of a Retainer. |
 | 1 AFP   | Retainer Gainer     | Work with your GM to create a new Retainer who your Character will now be Mentor to. |
 
@@ -1617,12 +1836,42 @@ There are no limits to how many of a given card a player can own, but they may o
 The speed at which time flows, in-game, is variable and depends on the current circumstances of the narrative. 
 
 There are two broad disctinctions of time-flow made: 
-* [Down-Time](#down-time) has time flowing very rapidly, as events unfold on a fairly abstract level. 
-* [Scenario-Time](#scenario-time) has time flowing very slowly, sometimes even on a second-by-second basis, as the way events unfold must be carefully considered. 
+* **Down-Time**: has time flowing fairly rapidly, as events unfold on an abstract level. 
+  * This is usually the time PCs spend on recovery, [Crafting & Research](#crafting--research-projects), [Practicing](#practice), [Travel](#travel--terrain), [Trade](#trade) and [Resting](#resting). 
+* **Granular-Time**: has time flowing very slowly, sometimes even on a moment-by-moment basis and may use [Initiative Order](#initiative-order) to allocate time slices. 
+  * [Combat](#combat) is the most prominent and mechanically supported example. 
+  * Aside Combat, other such situations can stem from tense negotiations, (perilous) exploration, general role-play and so on. Even in 
 
-There will be times when the order in which Characters act matters. For this, see the [Initiative](#initiative) section. Most often, though, PCs will act at irregular times, depending on circumstance. 
+Regardless of how quickly time currently flows, every in-game day is divided into the four [Quarters of Day](#quarters-of-a-day-qod). Everything the PCs do, takes places during at least one of these. 
 
-## Initiative
+## Quarters of a Day (QoD)
+Each day is divided into four Quarters: **Night**, **Dawn**, **Midday**, and **Dusk**. Each Quarter lasts approximately six hours. Translated to a `24`-hour clock, Night is from `00:00` to `06:00`, Dawn from `06:00` to `12:00`, Midday from `12:00` to `18:00` and finally Dusk is from `18:00` to `00:00`. 
+
+Activities are categorized as follows:
+* A **Brief** activity takes only minutes. Many of these can happen in a QoD, without advancing it meaningfully. 
+* A **Lengthy** activity takes one or more hours and can consume a substantial portion of a QoD. 
+* An **Extended** activity takes several hours or more, and is very likely to advance the current QoD. 
+* A **Multi-Quarter** activity at least two QoDs. 
+* A **Day-Long** activity takes at least `3` QoDs, assuming the fourth is reserved for resting. 
+
+A QoD is a time-keeping unit, not an activity allowance. Just because an activity takes a Lengthy or Extended amount of time, doesn't necessarily mean nothing else could be done, within the same QoD. And just how many Brief activities fit into a QoD, isn't necessarily all that important. It is the GM's duty and authority to advance the Quarter when an appropriate amount of time should have passed. 
+
+## Resting
+All creatures that can be tired, require sleep. Some [Conditions](#condition) can only be cleared by resting. A **Full Rest** requires at least one uninterrupted QoD of *active resting*. That implies not doing anything besides sleeping or meditating. Anything less than a Full Rest is a **Partial Rest**. 
+
+An interruption of a Full Rest is any break in the rest, when a Character is forced to do something physically or mentally taxing that keeps them from sleep. If in doubt - a Test is almost always going to be taxing in some way.
+
+### Recovery
+Once per [QoD](#quarters-of-a-day-qod), during a [Partial Rest](#resting), Characters may replenish up to `12` [HP](#health-points-hp) and `3` [Stamina](#stamina), while reducing [Strain](#strain) by `1`. 
+
+A [Full Rest](#resting) always replenishes up to `30` HP and `10` Stamina, while reducing Strain by `6`. 
+
+### Staying On Watch
+Whenever resting in an **unsafe environment**, such as out in the wild or on a city's streets, animals, bandits or monsters - given the setting and narrative allow for it - might surprise any resting Characters. Therefore, it is advisable to set up a watch. But be careful - those on watch could fall asleep during their vigil! To determine whether they succumb to their own exhaustion, they must Test their [Self-Control](#self-control-toughwit) once, at the beginning of their watch. The Ob is equal to `3`, plus their current negative [Stamina](#stamina--strain), if they have any. If multiple Characters stay up for the watch at the same time, they can help each other stay awake, reducing the Ob by `-1` for each who stay awake. The Ob to stay awake can never be reduced to less than `1`. 
+
+> A Character with current Stamina of `-1` is tasked with standing watch one night. In order to avoid falling asleep, they must succeed a Self-Control Test at Ob `3 (always) + 1 (negative Stamina) = 4`. 
+
+## Initiative Order
 When the order in which Characters act matters, an **Initiative Order** is needed. **Initiative** is the rolled number that determines when a Character should get a chance to act. To this end, the Initiative of all involved parties is collected and sorted. The Character who rolled the highest number gets to act first and then in descending order, the next Character after them, until all Characters have had their **Turn** to act. 
 
 The steps to determine the Initiatve Order are as follows: 
@@ -1632,65 +1881,98 @@ The steps to determine the Initiatve Order are as follows:
 
 The point in time when a Character gets to act (or abstain from their action) is called their **Turn**. When all Characters have had their Turn, a **Round** is concluded. After that, the first person in the Initiative Order gets to act again and a new Round is begun. This cycle continues, until Initiative Order is no longer needed. 
 
-A Character can delay their Turn willingly. They get a final chance to act **at the end of the Round**. If multiple Characters delay their Turn, they'll get another chance at the end of a Round, in the same order they normally would have. In other words, the last Character to delay is also the last to act.
-
-Most prominently, Initiative Order is used during [Combat](#combat). But it could also find application during other times, such as a chase-sequence, negotiations, or during [Down-Time](#down-time). Initiative Order could even be used on a more abstract level, to determine in what order Characters get to try out their political schemes. The concrete instances when Initiative Order is to be used, will be up to the GM to decide. 
+Most prominently, Initiative Order is used during [Combat](#combat). But it could also find application during other times, such as a chase-sequence, negotiations, or during [Down-Time](#time-management). Initiative Order could even be used on a more abstract level, to determine in what order Characters get to try out their political schemes. The concrete instances when Initiative Order is to be used, will be up to the GM to decide. 
 
 Some Characters may be granted the ability to enter the Initiative Order multiple times, meaning they get to make multiple Initiative rolls for a Round. If a Character enters the Initiative Order more than once, then every consecutive Initiative of theirs is divided by its order. The first Initiative roll is the same as for other Characters. But the second Initiative roll is halved (= divided by `2`), the third is divided by `3` and so on. The resulting number is rounded up. 
+
+### Delaying Your Turn
+Once in a Round, you may delay your Turn, moving it to the end of the current Round. If multiple Characters delay their Turn, they will get to act one after another, in the order that they delayed their Turn. In other words, the last Character to delay is also the last to finally get their Turn in a Round.
 
 ### Surprise Round
 If one party is surprised, for example during an ambush, then the ambushing party gets to act for a full Round, without the ambushed party getting a chance to act. This is called a **Surprise Round**. After the Surprise Round Initiative Order is handled as normal. Additionally, any surprised Characters **do not** get their starting [AP](#action-points-ap), until the end of the Surprise Round! 
 
 Usually, circumstance may grant a Surprise Round, but in case it doesn't you may Test for it, with [Stealth](#stealth-agiawar) opposed by [Observation](#observation-awarawar). 
 
-> Surprise Round does not apply to opponents standing right in front of each other in conversation, when one of them suddenly draws a dagger and attacks. The attacker can be clearly seen by the defender (assuming they can see) and thus does not result in a Surprise Round. Of course, the specifics are always up to the scenario at hand and to the GM's ruling. 
+> Surprise Round does not apply to opponents standing right in front of each other in conversation, when one of them suddenly draws a dagger and Attacks. The Attacker can be clearly seen by the defender (assuming they can see) and thus does not result in a Surprise Round. Of course, the specifics are always up to the scenario at hand and to the GM's ruling. 
 
-## Ticks
+### Ticks
 A **Tick** is the instant in time, at the **start of a Character's Turn** during [Combat](#combat), or every `5` seconds outside of Combat. 
 
 This is the point in time when a [Conditions](#condition) are suffered by the Character, before other Turn effects (whatever those may be) apply. 
 
 A Tick **always** occurs for a Character, even when skipping or delaying their Turn. 
 
-## Resting
-All creatures that can be tired, require sleep. Some [Conditions](#condition) can only be cleared by resting. A **Full Rest** requires at least `6` uninterrupted hours of *active resting*. That implies not doing anything besides sleeping or meditating. Anything less than a Full Rest is a **Partial Rest**. 
-
-An interruption of a Full Rest is any break in the rest, when a Character is forced to do something physically or mentally taxing that keeps them from sleep. If in doubt - a Test is almost always going to be taxing in some way.
-
-Whenever resting in an **unsafe environment**, such as out in the wild or on a city's streets, animals, bandits or monsters - given the setting and narrative allow for it - might surprise any resting Characters. Therefore, it is advisable to set up a watch. But be careful - those on watch could fall asleep during their vigil! To determine whether they succumb to their own exhaustion, they must Test their [Self-Control](#self-control-toughtough) once, at the beginning of their watch. The Ob is equal to `3`, plus their current negative [Stamina](#stamina--strain), if they have any. If multiple Characters stay up for the watch at the same time, they can help each other stay awake, reducing the Ob by `-1` for each who stay awake. The Ob to stay awake can never be reduced to less than `1`. 
-
-> A Character with current Stamina of `-1` is tasked with standing watch one night. In order to avoid falling asleep, they must succeed a Self-Control Test at Ob `3 (always) + 1 (negative Stamina) = 4`. 
-
-## Scenario-Time
-In contrast to [Down-Time](#down-time), scenario-time describes the point in the narrative when the PCs are dealing with a specific situation on a fine-grained level, where the amount of time that is spent matters. 
-
-This is especially the case in scenarios of [Combat](#combat), tense negotiation, perilous exploration, survival and the like, where each individual step on the path matters as much as the path itself. 
-
-There is also the distinction to be made whether the order in which Characters act in matters. If it does, then the rules for [Initiative](#initiative) must be used. [Combat](#combat) is the most prominent - but not the only - example of such a case. 
-
-## Down-Time
-When not currently dealing with events on a detailed level - there and in the moment - PC's can spend their time on a more abstract level. This applies especially to activities that take greater amounts of time, such as recovering from [Injuries](#injury), travel, engaging in their trade, honing their [Skills](#skills) and such. 
-
-### Crafting & Research Projects
+# Crafting & Research Projects
 <img src="../../img/crafting.svg" style="width: 3rem; height: 3rem;"></img>
 
-In their own free time, Characters can spend time and resources to create [Assets](#assets), [research obscure subjects or make scientific discoveries](#research-projects), or devise entirely new [Inventions](#invention-projects). Some crafts may be possible while travelling, but most are assumed to be done when the PCs aren't currently travelling or on adventures. Research will always require Down-Time. 
+In their own free time, Characters can spend time and resources to Craft [Assets](#assets), [Research obscure subjects or make scientific discoveries](#research-projects), or devise entirely new [Inventions](#invention-projects). Some Projects may be possible while travelling, but most are assumed to be done when the PCs aren't currently travelling or out on adventures. To work on a Project, a Character must **devote** their time to it - of course excluding short breaks for eating, conversation, and other minor side activities. 
 
-Every Project and Asset has a **Quality Level**. 
+## Project Prerequisites
+Typically, a project can only be worked on with access to necessary resources and know-how. [Skills](#skills) that detail how they can be used for Crafting will also note the prerequisites required. As always, the GM has the final word. 
 
-#### Project Prerequisites
-Typically, a project can only be worked on with access to necessary resources and know-how. [Skills](#skills) that detail how they can be used for crafting will also note the prerequisites required. As always, the GM has the final word. 
+## Project Classification
+This classification determines the resolution mechanism of a Project. **Trivial Projects** don't require the overhead of being treated like a proper Project. 
 
-#### Progressing a Project
-Every Project's **progress** is tracked numerically. All progress begins at `0` and is increased through use of a particular [Skill](#skills), further called the **Project Skill**. 
+### Trivial Project
+A **Trivial Project** is a [Brief](#quarters-of-a-day-qod) and simple activity. It doesn't require a stationary work-station or special materials, which means it can often be done on the side, even while travelling. 
 
-Every Project has a **Progress Increment** and a **Time Increment**. The Progress Increment tells you how much progress is needed to finish the next step of the Project. For every Time Increment worth of time you spend on the Project, you may add your **Project Skill's Level** as points of progress. Up to `5` assisting Characters may also add `+1` point of progress every time, along with you. But of course, in the meantime, these Characters cannot work on their own Projects. Note that progress isn't rolled for, it is simply added, when the next Time Increment has been reached. Note that you get [Advancement Progress](#advancement), but no [XP](#experience-points-xp), for every `5` points of progress made! Assistants to Projects earn `+1` [XP](#experience-points-xp), instead. 
+> Examples would be: crafting arrows, cooking a meal, repairing a torn shirt, researching common knowledge and so on.
 
-Initially, your Project will begin with **Quality Level** `1`. Every time you arrive at the current total required progress, you must make a choice. **Finish** the Project and accept its current Quality Level, or **Push On**. 
+A single, immediately made Project Roll deterimes the final Quality of the product. In fact, this handles exactly like every other Skill Test in the game. Trivial Projects are not *actually* tracked as Projects, because they are **too small** to qualify as a Project and thus warrant **no Progress tracking**. 
 
-If you Push On, the total required progress of your Project is increased by another Progress Increment and your current progress is reset to `0`, but you also give yourself a chance to further improve the resulting Quality Level. After you have decided to Push On, the next time you arrive at full progress, a **Test of your Project Skill** is required of you. The Ob is `N + 1`, where *N* is the current number of times you have already Pushed On. And of course, for your Project Skill Test, you may [Fork](#skill-forking) and accept [Help](#providing-assistance)! If you succeed the Test, the resulting Quality Level of your Project increases by `+1`. But if you fail, it loses `-1` Quality Level, *unless* you accept a random [**Complication**](#project-complications) instead. If you accept a Complication, the Project's Quality Level remains unchanged. You neither lose, nor gain a Quality Level. Note that if you accept the Quality loss, the Quality Level cannot be reduced to less than `1`. 
+As such, a Trivial Project is unsuitable for Research or Invention Projects, and is not eligible to produce [Recipes](#crafting-it-again). 
 
-You can continue this cycle any number of times, but if you **fail twice in succession**, your Project is **botched**. You lose all resources and all progress towards it. This is a critical blunder. 
+### Complex Project
+A **Complex Project** is a longer-term activity, that comes with significant challenges and requirements. 
+
+> Forging a sword, making special arrows, tailoring specialized clothing, designing a 3D model for print, making an invention, researching an obscure subject and so on. 
+
+[Progress](#progressing-a-project) is tracked and one or more Project Rolls deterime the final Quality of the product. 
+
+#### Research Projects
+A Project can be about the research of **obscure** knowledge. You must visit various libraries, study dusty old tomes or comb countless digital archives, go on archeological digs and question other scholars. This is a task requiring substantial effort. For common, every-day knowledge that you may gain simply by asking strangers on the street, don't consider a Research Project. In fact, you might be better served simply role-playing such information-gathering. Or tie it to a Skill Test, that is, turn it into a [Trivial Project](#trivial-project). 
+
+The Quality Level you achieve in the end dictates the degree of knowledge you learned about your subject. You may always try to gain even deeper understanding of your topic, by researching the same subject matter again. Your previous knowledge *may* accelerate further studies, by lowering your Work-Rate. Your GM will have to figure out by how much. 
+
+When you finish the research Project, you'll have the answers you seek and may gain the title [Loremaster of *Subject* (degree)](#loremaster-of--subject---degree-), where you replace *Subject* with the subject you researched and *degree* with the Quality Level. 
+
+#### Invention Projects
+Invention is a very unique activity, that rules do not easily fit around. The GM will have to do a lot of heavy lifting, determining Work-Rate and Progress Increments, depending on the type of invention and the means available. 
+
+Mechanically, Invention Projects work no differently from ordinary Complex Projects:
+1. Define the Invention. Ask *What is it?* and *What can it do?*. Don't ask *how will it work?* - that is where implicit fiction takes over. The ***Character*** will figure out the *how*, over the course of their Project - ***not the player***.
+2. Based on the answers, and the feasibility within your world...
+    1. ...determine [Work-Rate](#determining-work-rate).
+    2. ...determine [Progress Increment](#determining-progress-increment).
+
+That's it. Really, this is how all Projects are built, the only difference is that system-provided Assets come with pre-determind Work-Rate and Progress Increment. 
+
+> Narratively, every Work-Session will advance you through the following loop. By how much, will depend on the nature of the Project. Sometimes, a single Work-Session may catapult you forward several steps. Other times, only a single step. In the end, it doesn't matter from a mechanics stand-point, but may help you envision your Project in greater detail. The GM can even leverage this cycle to give you Project Events completely unique to your particular Project. 
+> * Designing
+> * Prototyping
+> * Obtaining components
+> * Testing
+> * Discovering failures
+> * Researching solutions
+> * Modifying the design
+
+As a difference to regular Projects, whenever you choose to Push On, you *may* also get a less effective prototype of your invention, if you score a Hit on a single `D6` roll, at the GM's discretion. Your prototype receives the Project's current Quality Level and Complications. 
+
+## Progressing a Project
+Every [non-Trivial Project's](#trivial-project) **Progress** is tracked numerically. All Progress begins at `0` and is increased through use of a particular [Skill](#skills) (further called the **Project Skill**). When its current Progress reaches its currently **Required Progress**, the Project may complete, or be continued. 
+
+A **Work-Session** describes an instance of meaningful work being done, each of which results in Progress. **Work-Rate** determines how often Work-Sessions may occur, in the format `X / QoD`. A variable number of Work-Sessions may fit into a [QoD](#quarters-of-a-day-qod). 
+
+For every Work-Session you devote your time to, you may add your **Project Skill's Level** as points of Progress. Up to `5` assisting Characters may also add `+1` point of Progress every Work-Session, along with you. But of course, in the meantime, these Characters cannot work on their own Projects. Note that Progress isn't rolled for, it is simply added. 
+
+Every time you arrive at the current Required Progress, you must make a choice. **Finish** the Project and accept its current Quality Level, or **Push On**. 
+
+### Pushing On
+Initially, your Project will begin with **Quality Level** `1`.
+
+If you Push On, the Required Progress of your Project is increased by another Progress Increment and your current Progress is reset to `0`, but you also give yourself a chance to further improve the resulting Quality Level. After you have decided to Push On, the next time you arrive at full Progress, a **Test of your Project Skill** is required of you. The Ob is `N + 1`, where *N* is the current number of times you have already Pushed On. And of course, for your Project Skill Test, you may [Fork](#skill-forking) and accept [Help](#providing-assistance)! If you succeed the Test, the resulting Quality Level of your Project increases by `+1`. But if you fail, it loses `-1` Quality Level, *unless* you accept a random [**Complication**](#project-complications) instead. If you accept a Complication, the Project's Quality Level remains unchanged. You neither lose, nor gain a Quality Level. Note that if you accept the Quality loss, the Quality Level cannot be reduced to less than `1`. 
+
+You can continue this cycle any number of times, but if you **fail twice in succession**, your Project is **botched**. You lose all resources and all Progress towards it. This is a critical blunder. 
 
 When you Push On, the GM may choose to employ a [Project Event](#project-events), possibly even instead of a Complication. Project Events should be an occasional occurrence at best, employed only for long-lasting and significant Projects, to shake things up a bit when appropriate. 
 
@@ -1702,78 +1984,7 @@ When accepting a random Complication for a Project, roll for one of the results 
 | 1  | **Blockade**: you realize you need to fulfill another prerequisite to continue your work. Consult your GM. |
 | 2  | **Drawback**: once finished, the result of your Project will contain a drawback. E. g. it might not work reliably, require more fuel, take longer to use, be so complicated only an expert can use it or only works in conjunction with another highly specific thing. Consult your GM. |
 | 3  | **Overthinking it**: from now on, every time you Push On, the Progress Increment increases by another `10` points! |
-| 4  | **Work-Accident**: in a moment of carelessness, you hurt yourself accidentally. You suffer an [Injury](#injury)! Consult your GM to determine which. |
-
-#### Quality Level Reference
-How much is a Quality Level worth? This will ultimately be up to the GM to estimate, but the table below may provide guidance.
-
-| Quality Level | Description |
-| ------------- | ----------- |
-| 1 - 2         | A simple and plain product. It has a simple function, nothing more. Made by a beginner. |
-| 3 - 4         | A slightly decorated or just well made product. It fulfills its function and is ergonomic. A routine work. |
-| 5 - 6         | A well made and decorated product, potent and respectable. An adept's care flowed into this. |
-| 7 - 8         | An exceptionally well made product. Highly potent, potentially with multiple functions. An expert's work. |
-| 9+            | A legendary product. Its potency and function may even be fantastical - something never before seen! A true master of their craft made this. |
-
-#### Project Boosters
-During their adventures, or while perusing the market or library, PCs may find things that can boost the progress of their Project. These **Project Boosters** can be varied - schematics, specialized tools, a rare artefact, advice from a knowledgeable NPC, and similar. But they always either increase the Project's current Progress or Quality Level.
-
-These things can add progress to a Project or raise the base Quality Level. How much they boost the Project, will be determined by the GM. A good baseline should be that a common Project Booster adds `+10`, a rare adds `+30` and an enigmatic adds `+60`. But of course, these numbers are only suggestions. Project Boosters that increase base Quality Level should be very rare and most valuable. Acquiring them should be an adventure of its own, or the reward for great deeds well performed. 
-
-Typically, Project Boosters are one-time use. Once they have been used to add progress to the Project, they cannot be used again. However, this is not a hard-set rule. Some things, like a magic cauldron or high-tech lab equipment may of course be used again, provided no narrative reasons forbid it. 
-
-#### Crafting It Again
-Whenever a crafting or [Invention](#invention-projects) Project is finished, its product becomes the **Recipe** for further crafts of **identical products**. If you wish to craft the same product again, at the same Quality Level and with any complications it possibly has, you need no longer roll Project Skill Tests. You now *know* how to make the thing, in that Quality. 
-
-But you will still need to spend time on it. Multiply the Quality Level of the recipe product with the Progress Increment it originally had. That is the total Progress to achieve for that product. When finished, your new product will have the same Quality Level and Complications as the original.
-
-But you may also decide you can do better. You may begin your Project again, at the original's Quality Level, *minus* its number of Complications. At that point, things [progress as normal](#progressing-a-project). 
-
-> A product with a Quality Level of `3`, and one complication, would begin at Quality Level `2`, and no Complications! Assuming its Progress Increment is `10`, then multiplying that with the new starting Quality of `2`, yields an initial total required Progress of `20`. Once that progress is reached, a Project Skill Test is required, at Ob `2 (the new Quality Level) + 1 (always) = 3`. If successful, the new Quality Level is `3`!
-
-##### Crafting It In Batches
-For every Recipe that you know, you may also decide to craft multiple of the same product in a batch. This is a more efficient than individual crafts. Each additional instance of the same product you wish to create, adds only half (RU) of the Progress Increment. 
-
-> Given you have a recipe for a product with Quality Level `3` and a Progress Increment of `10` and you want to make `5` instances of this same product, then the first instance of the product sets the initial required total progress at `3 (Quality) * 10 (Progress Increment) = 30`. Each of the `4` *additional* instances of the product now add `5` points of required progress. So, for all `5` instances of the product to be finished, the final total progress is `30 + (4 * 5) = 50`. This is much faster, than creating those `5` instances individually, as that *would* take `5 * 30 = 150` points of total required progress!
-
-#### Research Projects
-A Project can be about the research of knowledge, but not about mundane every-day things. You must visit various libraries, study dusty old tomes or comb countless digital archives, go on archeological digs and question other scholars. This is a task requiring substantial effort. 
-
-For all Research Projects, the Progress Increment is `15` and the Time Increment is `1` Hour. The Quality Level you achieve in the end dictates the degree of knowledge you learned about your subject. You may always try to gain even deeper understanding of your topic, by researching the same subject matter again. Your previous knowledge will accelerate further studies by `N * 2`, where *N* is your current degree of knowledge, every time you gain a Progress Increment.
-
-As a prerequisite to begin your studies, you must have access to the number of research objects as listed below. This can be anything, from old scrolls to data sticks, from shattered pieces of ancient machinery to intact but completely alien devices and even NPCs who hold knowledge they might be willing to share. 
-
-| Obscurity    | Quality Level | Research Objects | Description | 
-| ------------ | ------------- | ---------------- | ----------- | 
-| Common       | 1 - 2         | 0                | Common knowledge can be easily researched. Even so, it's not so common that everyone knows it already. It may still take some effort to find the right pieces of writing or piece together what you need from questioning several other people. |
-| Specialized  | 3 - 4         | 1                | Only few individuals have deeper knowledge regarding the topic you seek to understand. Only few pieces of writing even make note of your topic. It will require substantial effort to track down sources of knowledge and then puzzle the pieces together. |
-| Obscure      | 5 - 6         | 2                | Barely anyone, if anyone at all, even knows of this esoteric subject. Tracking down anyone with knowledge will be a considerable challenge. And whatever writing exists, may be stowed away, hidden in private collections, not easily accessible and not easily parted with. And even if access to these sources of knowledge can be secured, making sense of it all will be a challenge. |
-| Unfathomable | 7 - 8+        | 3                | No one alive still knows anything about this subject. Whatever writing may exist, is manifested in a long dead language, on a medium hidden in a remote and forgotten place. Even if you find this remnant of knowledge, how could you possibly make sense of it? |
-
-When you finish the research Project, you'll have the answers you seek and may gain the title "Loremaster of *X* (degree)", where you replace *X* with the subject you researched and *degree* with the Quality Level. 
-
-#### Invention Projects
-A Project can be about the invention of completely unique and new [Assets](#assets). Describe your idea to the GM, who will determine how feasible your idea is. If it seems reasonable, they will also estimate the Progress Increment (see [Complexity to Progress Increments](#complexity-to-progress-increments)) and Time Increment (see [Workload to Time Increments](#workload-to-time-increments)). 
-
-As a difference to regular Projects, whenever you choose to Push On, you may also get a less effective prototype of your invention, if you score a hit on a single `D6` roll, at the GM's discretion. Your prototype receives the Project's current Quality Level. 
-
-#### Complexity to Progress Increments
-Think about complexity in terms of *how difficult is it to make the thing?*, *are specialized tools needed?*, *are special resources required?* and *does the task have any tolerance for carelessness?*
-
-| Complexity         | Progress Increment | Description        |
-| ------------------ | ------------------ | ------------------ |
-| Trivial            | 5                  | A trivial craft can be done at any time, anywhere - even on the road. It barely requires any resources and you can improvise the tools you need. It takes no special knowledge. |
-| Routine            | 8                  | A routine craft is routine only to a learned and experienced craftsperson. While the work won't put your skills to the test, it still requires some effort and experience to achieve. Improvised tools may still do, and some resources may still be substituted. But the work does demand focus. It takes some experience. |
-| Specialized        | 12                 | A specialized craft is a bit more challenging. You need to sit down and actually focus on the work and need the proper tools and resources to get it done. But provided you bring those, your work can be done in any suitable place. Deeper understanding of the subject matter is required. |
-| Complex            | 20                 | A complex craft requires specialized tools and rare resources, which may not be readily accessible to just anyone and the work must be done in a specialized environment. Specialized and obscure knowledge is required. |
-| Monumental         | 40                 | A monumental craft requires tools that simply don't exist, anywhere. You will have to create them, yourself. The resources you need will require substantial effort to track down. Perhaps you'll even be the first discover their existence. The work can be done only in a highly specialized environment, to minimize the risk of delicate machinery getting dusty, aerosols mixing or vibrations in the earth agitating the wrong powder and so forth. There may not be anyone alive, nor any writing detailing the work. You will have to be the first to (re-)discover the knowledge required. |
-
-#### Workload to Time Increments
-Workload is the result of processes that naturally take a long time, the difficulty in processing materials and the amount of work that has to be done. A very high workload will take very long to complete, while a low workload may be finished in a matter of minutes.
-
-| Workload       | Low         | Moderate    | High        | Very High   |
-| -------------- | ----------- | ----------- | ----------- | ----------- |
-| Time Increment | 10 Minutes  | 1 Hour      | 6 Hours     | 1 Day       |
+| 4  | **Work-Accident**: in a moment of carelessness, you hurt yourself, accidentally. You suffer an [Injury](#injury)! Consult your GM to determine which. |
 
 #### Project Events
 Project Events are random events that may occur during long-lasting, significant Projects. The details of these should be reserved for the GM's eyes, only. 
@@ -1784,16 +1995,106 @@ Project Events are random events that may occur during long-lasting, significant
 | 2    | A competitor appears, under pretense of offering help, but in truth seeking to sabotage the Project. But they might go about it clumsily, allowing the PC some time to react. |
 | 3    | A competitor appears, offering help, but for a price. Perhaps not simply for money, but for the PC to let them take all the credit for the product or to lend the product to the competitor, for a time. Or perhaps they ask help, in return. |
 | 4    | A competitor appears, offering help and in turn begging the PC for help. The competitor screwed with the wrong people and their life is now in danger! Will the PC help? |
-| 5    | A NPC arrives, offering help, for a price. They are willing to add `+10` progress the next time progress is added. |
-| 6    | A NPC arrives, offering help, but is also in need of help, themself. They are willing to add `+10` progress the next time progress is added and after that, the PC is required to come help. |
-| 7    | An anonymous piece of writing found its way into the PC's belongings. It offers solid advice on the Project, instantly boosting the Project by `+15` points of progress. But who could the mysterious benefactor be? And why? |
-| 8    | Suddenly, monsters or pests surprise the PC, assaulting them! If not dispatched quickly, they will damage the Project, causing a loss of half the current progress! |
-| 9    | The PC is overcome with a burst of inspiration! They instantly gain `+15` points of progress! This causes them to work feverishly, neglecting their own well-being. They start the next scenario with `+1` [Strain](#stamina--strain)! |
+| 5    | A NPC arrives, offering help, for a price. They are willing to add `+10` Progress the next time Progress is added. |
+| 6    | A NPC arrives, offering help, but is also in need of help, themself. They are willing to add `+10` Progress the next time Progress is added and after that, the PC is required to come help. |
+| 7    | An anonymous piece of writing found its way into the PC's belongings. It offers solid advice on the Project, instantly boosting the Project by `+15` points of Progress. But who could the mysterious benefactor be? And why? |
+| 8    | Suddenly, monsters or pests surprise the PC, assaulting them! If not dispatched quickly, they will damage the Project, causing a loss of half the current Progress! |
+| 9    | The PC is overcome with a burst of inspiration! They instantly gain `+15` points of Progress! This causes them to work feverishly, neglecting their own well-being. They start the next scenario with `+1` [Strain](#stamina--strain)! |
 | 10   | A group of NPCs appear and demand the Project be stopped! Out of superstition or fear, they don't want the PC to succeed. Can they be pacified? |
-| 11   | A NPC who the PC helped in the past appears, offering to help on the Project. Surprisingly, they know exactly what to do, boosting the Project by `+10` points of progress. |
+| 11   | A NPC who the PC helped in the past appears, offering to help on the Project. Surprisingly, they know exactly what to do, boosting the Project by `+10` points of Progress. |
 | 12   | After so much time on the Project, the PC digs themself into a hole, mentally. They can no longer make sense of their own work and someone else has to help them regain their footing in the Project. The helper needs to make the next Project Skill Test. |
 
-### Trade
+### Advancement Through Projects
+You get [Advancement Progress](#advancement) (but no [XP](#experience-points-xp)) for every `5` points of Progress made! If your Project requires less than `5` points, then take that number, instead. Re-evaluate this threshold after you **Push On** for the first time. Assistants to Projects instead earn `+1` [XP](#experience-points-xp). 
+
+### Project Boosters
+During their adventures, or while perusing the market or library, PCs may find things that can boost the Progress of their Project. These **Project Boosters** can be varied - schematics, specialized tools, a rare artefact, advice from a knowledgeable NPC, and similar. But they always either increase the Project's current Progress or Quality Level. The latter boost is especially powerful. 
+
+These things can **add Progress** to a Project, **raise the Quality Level** or **improve the Work-Rate**. How much they boost the Project, will be determined by the GM. 
+* For Progress, a good baseline should be that a common Project Booster adds `+8`, a rare adds `+12` and an enigmatic adds `+25`. But of course, these numbers are only suggestions. 
+* Project Boosters that increase Quality Level should be very rare and most valuable. Acquiring them should be an adventure of its own, or the reward for great deeds well performed. 
+* Likewise, improving the Work-Rate is another powerful Booster. Improving it just by one grade can have significant long-term accerelating effects. These can also be awarded for very clever solutions by players that narratively *should* accelerate their Work-Rate. 
+
+Typically, Project Boosters are one-time use. Once they have been used to add Progress to the Project, they cannot be used again. However, this is not a hard-set rule. Some things, like a magic cauldron or high-tech lab equipment may of course be used again, provided no narrative reasons forbid it. But these should be limited to once a day, or week, or whatever time unit works best for you. Make them *too* available, and they eliminate the feeling of accomplishment after a long-lasting Project. 
+
+## Determining Work-Rate
+There are three axes that determine Work-Rate:
+* **Labor**: How much focused labor is required.
+  * Some work is simply more labor intensive - attaching mail rings to one another, embroidery, hammering an armor plate into shape, designing the 3D model for print, etc.
+* **Delay**: How much time must pass before the next step of the work can begin.
+  * Some natural processes take time, which cannot be shortened - how long it takes for paint or glue to cure, the fire of the forge to heat up, the 3D printer to finish a step of work, etc.
+* **Problem-Solving**: How much thought, experimentation, research, or iteration is required before meaningful progress can be made.
+
+> Boiled down, Work-Rate answers the question *how many Work-Sessions do I get?*
+
+Walk through the following table three times. Once for Labor, once for Delay and once for Problem-Solving. Take only the **smaller** of the resulting numbers. 
+
+| **Grading**           | **Labor**                     | **Delay**                              | **Problem-Solving**                                                                                             | **Work-Rate / QoD** |
+| --------------------- | ----------------------------- | -------------------------------------- | --------------------------------------------------------------------------------------------------------------- | ------------------- |
+| **Low**               | A modest amount of work.      | Short delays between work steps.       | Some. The overall image is clear, and only the details require some care.                                       | 4                   |
+| **Moderate**          | A substantial amount of work. | Lengthy delays between work steps.     | Significant. While the overall goal is clear, it requires some experimentation and research.                    | 3                   |
+| **High**              | A large amount of labor.      | Significant delays between work steps. | Troubling. There are many unanswered questions that will require a thorough investigation and many experiments. | 2                   |
+| **Extreme**           | An enormous amount of labor.  | Enormous delays between work steps.    | Constant. Every piece of information is obscure, or absent. Much experimentation and research is required.      | 1                   |
+
+> 3D printing a model: Low Labor, High Delay, Low Problem-Solving -> Work-Rate: `2 / QoD`<br>
+> Inventing a steam ship: High Labor, Low Delay, Extreme Problem-Solving -> Work-Rate: `1 / QoD`<br>
+> Making chainmail armor: High Labor, No Delay, Low Problem-Solving -> Work-Rate: `2 / QoD`<br>
+> Paint armor: Low Labor, Moderate Delay, Low Problem-Solving -> Work-Rate: `3 / QoD`<br>
+> Research unknown herb: Low Labor, Low Delay, High Problem-Solving -> Work-Rate: `2 / QoD`
+> Research unknown language: Low Labor, Low Delay, Extreme Problem-Solving -> Work-Rate: `1 / QoD`
+
+## Determining Progress Increment
+There are two axes that determine the Progress Increment of a Project:
+* **Scale**: How much work needs to be done. 
+  * *How big is the task?*, *How much work needs to be done?*
+* **Logistics**: Acquisition and storage of materials, tool and work-place requirements.
+  * *How many resources are needed?*, *how available are they?*, *How easy is it to store and use them?*
+
+> Boiled down, Progress Increment, divided by Project Skill Level, answers the question *how many Work-Sessions do I need?*
+
+Walk through the following table twice. Once for Scale and once for Logistics. Take only the **larger** of the two resulting numbers. 
+
+| **Grading**                 | **Scale**                                  | **Logistics**                                                                | **Progress Increment** |
+| --------------------------- | ------------------------------------------ | ---------------------------------------------------------------------------- | ---------------------- |
+| **Trivial**                 | A single or tiny product.                  | Resources are easy to procure, store and use. Can work with improvised tools, anwhere. | 8 |
+| **Simple**                  | A few products, or a moderately sized one. | Resources may be easy to procure, store and use. Can be done anywhere, but only with proper tools. | 12 |
+| **Medium**                  | Several products or large one.             | Resources may be challenging to procure, store and use. Can only be done at a dedicated work station, with proper tools. | 18 |
+| **Specialized**             | Many products or a huge one.               | Resources are hard to come by, difficult to store and use properly. Can only be done at a dedicated work station, with specialized tools. | 24 |
+| **Monumental**              | Industrial-scale product count or an enormous one. | Resources are very scarce, perilous or difficult to store and use properly. Can only be done at a highly specialized work station, with equally specialized tools. | 30+ |
+
+> 3D printing a model: Trivial Scale, Simple Logistics -> Progress Increment `12`
+> Inventing a steam ship: Specialized Scale, Specialized Logistics -> Progress Increment `24`
+> Making chainmail armor: Simple Scale, Trivial Logistics -> Progress Increment `12`
+> Paint armor: Trivial Scale, Trivial Logistics -> Progress Increment `8`
+> Research unknown herb: Trivial Scale, Medium Logistics -> Progress Increment `18`
+> Research unknown, volatile chemical: Trivial Scale, Monumental Logistics -> Work-Rate: `30+`
+
+## Quality Level Reference
+How much is a Quality Level worth? This will ultimately be up to the GM to estimate, but the table below may provide guidance.
+
+| Quality Level | Description |
+| ------------- | ----------- |
+| 1             | A simple and plain product. It serves its purpose, albeit not well. Made by a beginner. |
+| 2 - 3         | An adequate product. It fulfills its function and is ergonomic. A routine work. |
+| 4 - 5         | A well made and decorated product, potent and respectable. An adept's work. |
+| 6 - 7         | An exceptionally well made product. Highly potent, potentially with multiple functions. An expert's work. |
+| 8+            | A legendary product. Its potency and function may even be fantastical - something never before seen! A true master of their craft made this. |
+
+## Crafting It Again
+Whenever a [Complex](#complex-project) Crafting or [Invention](#invention-projects) Project is finished, its product becomes the **Recipe** for further Crafts of **identical products**. If you wish to Craft the same product again, at the same Quality Level and with any complications it possibly has, you need no longer roll Project Skill Tests. You now *know* how to make the thing, in that Quality. *However* your Work-Rate may be slightly faster, due to your familiarity with the product! Research has deliberately been omitted - it cannot produce Recipes, as cannot produce Assets (outside of special narrative events)! 
+
+You will still need to spend time on it - multiply the Quality Level of the recipe product with the Progress Increment it originally had. That is the total Required Progress to achieve for that product. This number doesn't change - you **cannot** Push On! When finished, your new product will have the same Quality Level and Complications as the original.
+
+But you may also decide you can do better. You may begin your Project again, at the original's Quality Level, *minus* its number of Complications. At that point, things [progress as normal](#progressing-a-project). 
+
+> A product with a Quality Level of `3`, and one complication, would begin at Quality Level `2`, and no Complications! Assuming its Progress Increment is `10`, then multiplying that with the new starting Quality of `2`, yields an initial Required Progress of `20`. Once that Progress is reached, a Project Skill Test is required, at Ob `2 (the new Quality Level) + 1 (always) = 3`. If successful, the new Quality Level is `3`!
+
+### Crafting It In Batches
+For every Recipe that you know, you may also decide to Craft multiple of the same product in a batch. This is a more efficient than individual Crafts. Each additional instance of the same product you wish to create, adds only half (RU) of the Progress Increment. 
+
+> Given you have a recipe for a product with Quality Level `3` and a Progress Increment of `10` and you want to make `5` instances of this same product, then the first instance of the product sets the *initial* total Required Progress at `3 (Quality) * 10 (Progress Increment) = 30`. Each of the `4` *additional* instances of the product now add `5` points of required Progress. So, for all `5` instances of the product to be finished, the *final* total Required Progress is `30 + (4 * 5) = 50`. This is much faster, than creating those `5` instances individually, as that *would* take `5 * 30 = 150` points of total Required Progress!
+
+# Trade
 Selling and buying things can take a surprising amount of time. If prices are too high and demand or reputation too low, chances are, you won't be able to sell your goods. But even when people do show interest in your wares, you still have to *sell it* to them. An uncharismatic merchant will have a difficult time making a pretty profit, regardless of the quality of their goods. On the other hand, buying things may prove equally difficult, when what you're looking for isn't really available. 
 
 For trade, there the [Mercantilism](#mercantilism-awarwit) [Skill](#skills) is chief. Using this Skill requires a [Graduated Test](#graduated-test) with an Ob threshold to be made. The Degree Of Success factors into getting a better price.
@@ -1804,57 +2105,60 @@ It is possible to roll with fewer dice, than would be available for the Graduate
 
 To get an ear on the ground and figure out what the local market is like, a Character can spend time to walk around, talk to people, ask for prices of common goods and get a feel for the wealth of the local populace. 
 
-#### Seller's Chart
+## Appraisal
+In order to appraise the value, weight, size or other properties of something, a [Test](#tests) with a [Skill](#skills) pertaining to _what_ is being appraised must be made. 
+
+> For example, to determine the value and weight of a gold-nugget, one could Test [Metallurgy](#metallurgy-awarwit). 
+
+The Ob depends on circumstance. How much time is available to appraise? How unusual or uncommon is the thing being appraised? How easy is it to appraise such things? 
+
+Of course, a trader may be experienced in the goods and wares they peddle. [Mercantilism](#mercantilism-awarwit) may be used as a catch-all for appraisal, but at a penalty of `+1` Ob, as a pure trader will never be able to ascertain the quality as well as a craftsperson could.
+
+## Seller's Chart
 The following matrix provides an overview of how long it may take to sell things on the market. Note that the GM has the final say on how long it will actually take and on how difficult it will be. 
 
 Denoted are both the time it takes to get a chance at a [Mercantilism](#mercantilism-awarwit) [Test](#tests), what the Ob threshold is and what margins can be expected. The margins are relative to the goods' *listing price* or *normal* value. `200%` means the goods can be sold at twice what they're worth. 
 
-| **Supply >** <br> **Demand v** | **Very High** | **High** | **Moderate** | **Low** | 
-| ------------- | --------- | --------- | --------- | --------- |
-| **Low**       | 4 Days <br> Ob 6 <br>  50%   | 3 Days <br> Ob 5 <br>  60%   | 2 Days <br> Ob 4 <br>  70%   | 1 Day <br> Ob 3 <br>  80%      | 
-| **Moderate**  | 1 Day <br> Ob 5 <br>  80%    | 20 Hours <br> Ob 4 <br>  90% | 16 Hours <br> Ob 3 <br> 100% | 14 Hours <br> Ob 2 <br> 110%   | 
-| **High**      | 12 Hours <br> Ob 4 <br> 110% | 10 Hours <br> Ob 3 <br> 120% | 8 Hours <br> Ob 2 <br> 130%  | 6 Hours <br> Ob 1 <br> 140%    | 
-| **Very High** | 4 Hours <br> Ob 3 <br> 140%  | 2 Hours <br> Ob 2 <br> 160%  | 1 Hour <br> Ob 1 <br> 180%   | 30 Minutes <br> Ob 0 <br> 200% | 
+| **Supply >** <br> **Demand v** | **Very High** | **High**                 | **Moderate**                | **Low**                     | 
+| ------------- | --------------------------- | --------------------------- | --------------------------- | --------------------------- |
+| **Low**       | Multi-Quarter, Ob `5`, 50%  | Multi-Quarter, Ob `4`, 60%  | Extended, Ob `4`, 70%       | Extended, Ob `3`, 80%       | 
+| **Moderate**  | Multi-Quarter, Ob `4`, 80%  | Extended, Ob `4`, 90%       | Extended, Ob `3`, 100%      | Lengthy, Ob `2`, 110%       | 
+| **High**      | Extended, Ob `3`, 110%      | Extended, Ob `3`, 120%      | Lengthy, Ob `2`, 130%       | Lengthy, Ob `1`, 140%       | 
+| **Very High** | Lengthy, Ob `2`, 140%       | Lengthy, Ob `2`, 160%       | Lengthy, Ob `1`, 180%       | Brief, Ob `1`, 200%         | 
 
-#### Buyer's Chart
+## Buyer's Chart
 The following matrix provides an overview of how long it may take to buy things on the market. Note that the GM has the final say on how long it will actually take and on how difficult it will be. 
 
 Denoted are both the time it takes to get a chance at a [Mercantilism](#mercantilism-awarwit) [Test](#tests), what the Ob threshold is and what price inflation can be expected. The prices are relative to the goods' *listing price* or *normal* value. `200%` means the goods must be bought at twice what they're worth. 
 
 The supply is assumed to be relative to the demand. The more something is in demand, the more likely it is to be kept in stock and by more merchants, which makes it easier to find, even if there are more other buyers to compete with. 
 
-| **Supply >** <br> **Demand v** | **Very High** | **High** | **Moderate** | **Low** | 
-| ------------- | --------- | --------- | --------- | --------- |
-| **Low**       | 1 Day <br> Ob 0 <br>  50%      | 2 Days <br> Ob 1 <br>  60%   | 3 Days <br> Ob 2 <br>  70%    | 4 Days <br> Ob 3 <br>  80%   | 
-| **Moderate**  | 14 Hours <br> Ob 1 <br>  80%   | 16 Hours <br> Ob 2 <br>  90% | 20 Hours <br> Ob 3 <br> 100%  | 1 Day <br> Ob 4 <br> 110%    | 
-| **High**      | 6 Days <br> Ob 2 <br> 110%     | 8 Hours <br> Ob 3 <br> 120%  | 10 Hours <br> Ob 4 <br> 130%  | 12 Hours <br> Ob 5 <br> 140% | 
-| **Very High** | 30 Minutes <br> Ob 3 <br> 140% | 1 Hour  <br> Ob 4 <br> 160%  | 2 Hours <br> Ob 5 <br> 180%   | 4 Hours <br> Ob 6 <br> 200%  | 
+| **Supply >** <br> **Demand v** | **Very High** | **High**                 | **Moderate**                | **Low**                     | 
+| ------------- | --------------------------- | --------------------------- | --------------------------- | --------------------------- |
+| **Low**       | Brief, Ob `1`, 50%          | Brief, Ob `1`, 60%          | Lengthy, Ob `2`, 70%        | Lengthy, Ob `3`, 80%        | 
+| **Moderate**  | Brief, Ob `1`, 80%          | Lengthy, Ob `2`, 90%        | Lengthy, Ob `3`, 100%       | Extended, Ob `4`, 110%      | 
+| **High**      | Lengthy, Ob `2`, 100%       | Lengthy, Ob `3`, 120%       | Extended, Ob `4`, 130%      | Extended, Ob `5`, 140%      | 
+| **Very High** | Extended, Ob `3`, 110%      | Extended, Ob `4`, 160%      | Extended, Ob `5`, 180%      | Multi-Quarter, Ob `6`, 200% | 
 
 # Combat
-When diplomacy fails, hostilities ensue. This is when the game enters into a state that is handled very carefully. How time is *sliced* and when Characters get to act, is crucial. 
+When diplomacy fails, hostilities ensue. This is when the game enters into a state that is handled very carefully. How time is *sliced* and when Characters get to act, is crucial. Time is divided into **Rounds** and those into **Turns**. Combat ends, when neither side has the ability or will left to fight. 
 
-At the Start of every Combat, [Initiative Order](#initiative) must be determined. Then, check if a [Surprise Round](#surprise-round) is in order. 
+At the Start of every Combat, [Initiative Order](#initiative-order) must be determined. Then, check if a [Surprise Round](#surprise-round) is in order. During combat, when Characters act one after another. Each gets a Turn, as determined by the Initiative Order. How many actions they get to perform, depends solely on the [AP](#action-points-ap) they have available for that Turn. Unless it is a [Surprise Round](#surprise-round), all Characters start with their typical amount of AP and only regain AP during the second Round, at the earliest. 
 
-During combat, when Characters act one after another. Each gets a Turn, as determined by the Initiative Order. How many actions they get to perform, depends solely on the [AP](#action-points-ap) they have available for that Turn. Unless it is a [Surprise Round](#surprise-round), all Characters start with their typical amount of AP and only regain AP during the second Round, at the earliest. 
-
-Actions during combat are:
-* [Attacking](#attacking)
-  * [Throwing](#throwing)
-  * [Unarmed combat](#unarmed-combat-agistr)
+General Actions during combat are:
+* [Attacking](#Attacking)
+* [Throwing](#throwing)
 * [Moving](#combat-movement)
   * [Disengaging](#disengage)
   * [Fleeing](#flee-combat)
   * [Pushing Through](#push-through)
   * [Swapping out](#swap-out)
 * Speaking
-* Waiting (= abstaining from an action)
 
-Reactions during combat are:
-* [Opportunity Attacks](#opportunity-attacks)
+General Reactions during combat are:
+* [Opportunity Attacks](#opportunity-Attacks)
 * [Defending](#defending)
   * [Defending an ally](#defending-an-ally)
-
-Combat ends, when neither side has the ability or will left to fight. 
 
 ## Action Points (AP)
 Every Turn, every Character gets `+4` **Action Points (AP)** to spend on actions during their Turn. If they do not have enough AP for an action, they may not perform it. 
@@ -1877,21 +2181,25 @@ However, even with saved-up AP, the maximum a Character may **begin their Turn w
 ## Combat Movement
 Under normal circumstances, a Character (an average human) can move up to `4` Squares per AP spent. 
 
-On **Difficult Terrain**, the distance moved per AP is half that, at `2` Squares. Difficult Terrain is any space that slows movement, but does not prevent it outright. Examples would be waist-high water, a surface of glue or a slowing force field. 
+On **Difficult Terrain**, the distance moved per AP is half that, at `2` Squares. Difficult Terrain is any space that slows movement, but does not prevent it outright. Examples would be waist-high water, a surface of glue or a slowing force field. Allies also count as Difficult Terrain, while foes normally block movement. 
 
 It is also possible to **Sprint**, increasing the distance one can move per AP spent, at the cost of `-1` point of [Stamina](#stamina--strain) for every AP spent Sprinting. The movement distance is increased by a Character's [Sprinting Speed](#sprinting-speed-sprint), per AP. 
 
 > A Character with a Sprinting Speed of `3` can increase their total movement distance to `7` Squares, at the cost of `-1` AP and `-1` point of Stamina. 
 
 ### Forced Movement
-There are abilities and circumstances that can force a Character to be moved against their will. When this happens, the Character in question does not spend any [AP](#action-points-ap) on the movement, as they didn't initiate it. The distance they are moved is reduced by an amount equal to their [Stability](#stability-stabil). 
+There are abilities and circumstances that can force a Character to be moved against their will. When this happens, the Character in question does not spend any [AP](#action-points-ap) on the movement, as they didn't initiate it. Even so, Forced Movement may cause [Opportunity Attacks](#opportunity-attacks)!
+
+Under normal circumstances, the Forced Movement distance is reduced by an amount equal to the moved Character's [Stability](#stability-stabil) value. 
+
+**Knock-Back** forces a Character away from you. Inversely, a **Pull** forces them closer to you. 
 
 #### Forced Collision
-If a Forced Movement intersects an obstacle, then the victim suffers `N * 3` points of Bludgeoning damage, where *N* is the remaining Squares of movement at the time of collision. 
+If a Forced Movement intersects an obstacle, then the victim suffers `N * 3` points of Bludgeoning Damage, where *N* is the remaining Squares of movement at the time of collision. 
 
-> A Character is thrown with enough force to move them `5` Squares and they slam into a barrel after flying a distance of `2` Squares. At this point, the remaining distance of `3` Squares causes them to suffer `3 * 3 = 9` points of Bludgeoning damage, as they slam into the barrel, which is knocked aside as they keep flying!
+> A Character is thrown with enough force to move them `5` Squares and they slam into a barrel after flying a distance of `2` Squares. At this point, the remaining distance of `3` Squares causes them to suffer `3 * 3 = 9` points of Bludgeoning Damage, as they slam into the barrel, which is knocked aside as they keep flying!
 
-If a Character slams into another when force moved, they both suffer half of the damage (RU). 
+If a Character slams into another when force moved, they both suffer half of the Damage (RU). 
 
 #### Hurled Through An Obstacle
 An obstacle does not necessarily have to stop the unfortunate soul being thrown. Depending on the remaining distance at the time of collision, they may break or push aside the obstacle and keep going:
@@ -1902,68 +2210,90 @@ An obstacle does not necessarily have to stop the unfortunate soul being thrown.
 
 "A Square of [...]" means there is an obstacle large enough to actually be such, like a wall, a large barrel, a column, a car and so on. 
 
-At the time of collision, the Character **always** suffers the usual [Forced Collision](#forced-collision) damage of `N * 3` points of Bludgeoning damage, where *N* is the **remaining Squares of movement** at the time of collision. However, they will **not stop moving**!
+At the time of collision, the Character **always** suffers the usual [Forced Collision](#forced-collision) Damage of `N * 3` points of Bludgeoning Damage, where *N* is the **remaining Squares of movement** at the time of collision. However, they will **not stop moving**!
 
 ### Gravity Hurts
-When a Character falls more than `3` Squares and impacts with the ground, then they suffer `(N * 5) - Acrobatics` points of Bludgeoning damage, where *N* is the number of `5` Square increments that they fell and `Acrobatics` is the Character's current Level in [Acrobatics](#acrobatics-agistr).
+When a Character falls more than `3` Squares and impacts with the ground, then they suffer `(N * 5) - Acrobatics` points of Bludgeoning Damage, where *N* is the number of `5` Square increments that they fell and `Acrobatics` is the Character's current Level in [Acrobatics](#acrobatics-agistr).
 
-> A Character falls off a suspension bridge, down a shallow ravine. They fall a distance of `11` Squares. Upon impacting the ground, they fell `3` increments of `5` Squares and thus will suffer `3 * 5 = 15` points of Bludgeoning damage. Their Level in Acrobatics is `3`, which reduces the damage they finally suffer to `12`. 
+> A Character falls off a suspension bridge, down a shallow ravine. They fall a distance of `11` Squares. Upon impacting the ground, they fell `3` increments of `5` Squares and thus will suffer `3 * 5 = 15` points of Bludgeoning Damage. Their Level in Acrobatics is `3`, which reduces the Damage they finally suffer to `12`. 
 
 ### Flee Combat
-When [Combat](#combat) is a decidedly bad idea, one can try to flee from it. A fleeing Character can no longer perform any *hostile actions*. That means, they can no longer attack or hinder any other Characters until the end of [Combat](#combat). 
+When [Combat](#combat) is a decidedly bad idea, one can try to flee from it. A fleeing Character can no longer perform any *hostile actions*. That means, they can no longer Attack or hinder any other Characters until the end of [Combat](#combat). 
 
 In turn for giving up their offensive capacity, they gain their [Sprinting Speed](#sprinting-speed-sprint) per [AP](#action-points-ap) spent, **at no Stamina cost**. Rules for [Difficult Terrain](#combat-movement) still apply. 
 
 ### Swap-Out
-It is possible to swap positions with an adjacent ally, without provoking an [Opportunity Attack](#opportunity-attacks) for either Character. 
+It is possible to swap positions with an adjacent ally, without provoking an [Opportunity Attack](#opportunity-Attacks) for either Character. 
 
 This Action costs `-2` [AP](#action-points-ap). 
 
 The ally in question may oppose this action with [Strength](#strength-str) (both Characters will have to compete with this Attribute). 
 
 ## Attacking
-Attacks are made with an [Expertise](#expertise) of a [Weapon](#weapon--weapon-type--str), the [Unarmed Combat](#unarmed-combat-agistr) or the [Throwing](#throwing-agistr) [Skill](#skills). 
+An Attack is any Action or Reaction that targets another Character, to their detriment - causing Damage, inflicting negative Health Conditions, weakening, interrupting, Forced-Movement and so on. Most commonly, Attacks are made with a [Weapon](#weapon--weapon-family---base-attributes-) Skill. 
 
-An attack generally requires an [Opposed Test](#opposed-test) to be made. If the Attacker wins, [Damage](#damage--effects) is determined and applied to the Defender. If the Defender wins, they suffer **no damage**. A Defender must *choose* how to defend, unless a specific Skill is required. See also [Defending](#defending).
+An Attack generally requires an [Opposed Test](#opposed-test) to be made. If the Attacker wins, [Damage](#damage--effects) is determined and applied to the Defender. If the Defender wins, they suffer **no Damage** or other negative effects. A Defender must *choose* how to defend, unless a specific Skill is required. See also [Defending](#defending).
 
-Sometimes, special circumstances apply, which make certain attacks easier or harder to land. These are at the GM's discretion. They can impose an Ob penalty or boon whenever appropriate. Also keep in mind there may be times when rolling for an attack is entirely unnecessary, such as against a helpless victim. In such a case, you may apply your malevolence with impunity, to the extent of your choosing. 
+Sometimes, special circumstances apply, which make certain Attacks easier or harder to land. These are at the GM's discretion. They can impose an Ob penalty or boon whenever appropriate. Also keep in mind there may be times when rolling for an Attack is entirely unnecessary, such as against a helpless victim. In such a case, you may apply your malevolence with impunity, to the extent of your choosing. 
 
 ### Damage & Effects
-Damage dealt to an opponent reduces their [HP](#health-points-hp). When their HP reach `0`, they die. Damage can also inflict [Injuries](#injury). [Armor](#armor) can reduce the amount of damage that is actually applied. 
+Damage is the number that reduces [HP](#health-points-hp), as a result of Attacks or environmental hazards. When HP reach `0`, death occurs (exception: PCs arrive at [Death's Door](#deaths-door)). Damage can also inflict [Injuries](#injury). [Armor](#armor) and [Resistances](#damage-resistances) reduce the amount of Damage that is actually applied to HP. 
 
-The attack roll also determines how much damage an attack will deal and how severe its effects will be. Damage is **not** rolled separately. There are three gradings, based on the number of Hits achieved over the Defender/Ob:
-* **Glancing**: On `≤ 1` Hit. A fairly weak hit.
-* **Solid**: On `= 2` Hits. A strong hit.
-* **Masterful**: On `≥ 3` Hits. Applies the most severe damage and effects.
+The Attack roll itself determines the severity of Damage and effects. They are **not** rolled separately. There are three gradings, based on the number of **Hits achieved over the Defender/Ob**, which always appear as a unit, referred to as a **Attack Profile**:
+* **Glancing**: On `≤ 1` Hit. A fairly weak hit. Low Damage and no effect or a weak one. 
+* **Solid**: On `= 2` Hits. A strong hit. Moderate Damage and a meaningful effect. 
+* **Masterful**: On `≥ 3` Hits. An overwhelming hit. Severe Damage and a powerful effect.
 
-#### Primary Damage
-Some attacks may inflict more than one type of damage. The greatest of the damage values is considered the attack's **Primary Damage** and its [Damage Type](#damage-types) determines the [Injury](#injury) type.
+Some additional terminology:
+* **Direct Damage** always comes from an [Action or Reaction](#actions-reactions--passives).
+* **Indirect Damage** always comes from the environment, or from Damage over time [Health Conditions](#condition). 
+* **Instance of Damage** refers to the moment in time when Damage is suffered, before it is reduced by [Armor](#armor-assets) and [Resistances](#damage-resistances). Multiple Types of Damage may be part of the same Instance of Damage. 
+* **Effective Damage** refers to the Damage number that is actually applied to HP, after [Armor](#armor-assets) and [Resistances](#damage-resistances) have been applied. Damage that is completely negated by Armor and Resistances is **not** part of the Effective Damage. 
+* **Primary Damage** refers to the most significant [Damage Type](#damage-types) of Effective Damage **after** Armor and Resistances are applied. This is the Damage Type that determines the [Injury](#injury) type that is inflicted. If there is a tie, the Damage Type that the armor reduces less is the Primary one. If there is still a tie, a coin flip could decide. <br>E.g. when suffering `6` Bludgeoning + `10` Slashing Damage, which Armor and Resistances reduce to `4` Bludgeoning + `2` Slashing Damage, then the Bludgeoning Damage is considered the Primary Damage of the Attack. If the Attack causes an Injury, then it will be a Bludgeoning Injury. 
+
+### Targeting-Types
+The number of targets that an [Expertise](#expertise) can apply to, with a single use, is defined through the **targeting-types**. 
+
+#### Single Target (ST)
+**Single-Target** (**ST**) affects only a single target. The victim may usually Defend with an [Opposed Test](#opposed-test).
+
+#### Multiple Single Target (MST)
+**Multiple-Single-Target** (**MST**) affects at least one and up to a certain maximum number of targets. Each victim may usually Defend with an [Opposed Test](#opposed-test).
+
+#### Area of Effect (AoE)
+**Area of Effect** (**aoe**) affects *every* target that is in the area of effect. The victims can only Defend through certain special Skills or Expertises.
+
+There are four types of shapes that AoE effects can have:
+* <img src="../../img/aoe-radius.svg" style="width: 2rem; height: 2rem;"></img> A radius.
+* <img src="../../img/aoe-cube.svg" style="width: 2rem; height: 2rem;"></img> A cube.
+* <img src="../../img/aoe-cone.svg" style="width: 2rem; height: 2rem;"></img> A cone.
+* <img src="../../img/aoe-line.svg" style="width: 2rem; height: 2rem;"></img> A line.
 
 ### Opportunity Attacks
 When a Character is within weapon's reach of another hostile Character, they're considered within the other's **Range of Opportunity**. Whenever a Character in an enemy's Range of Opportunity moves away from or more than `2` Squares *around* that enemy, that enemy can *choose* to perform an **Opportunity Attack**. 
 
-Performing an Opportunity Attack costs `-1` [AP](#action-points-ap) at a `-1D` penalty and will **halt** the enemy in question, preventing their movement, regardless of whether the attack hits. When an Opportunity Attack against them is declared, the Defending Character may choose to [Push Through](#push-through), thus getting to move after all, but if they do, the Attacker instead of losing a die, gains `+1` [Compensation Point](#compensation-points) for their Opportunity Attack!
+Performing an Opportunity Attack costs `-1` [AP](#action-points-ap) at a `-1D` penalty and will **halt** the enemy in question, preventing their movement, regardless of whether the Attack hits. When an Opportunity Attack against them is declared, the Defending Character may choose to [Push Through](#push-through), thus getting to move after all, but if they do, the Attacker instead of losing a die, gains `+1` [Edge](#edge) for their Opportunity Attack!
 
 It is possible to avoid an Opportunity Attack with a [Disengage](#disengage) combat action. 
 
-An Opportunity Attack is a Reaction. 
+An Opportunity Attack is a [Reaction](#actions-reactions--passives). 
 
 #### Disengage
-It is possible to move out of an enemy's [Range of Opportunity](#opportunity-attacks) without provoking an [Opportunity Attack](#opportunity-attacks), by **Disengaging** for `-2` [AP](#action-points-ap). The Disengaging Character **must** move in a direction that will get them out of the Range of Opportunity the fastest and safest, as far as `1` AP of movement would get them. 
+It is possible to move out of an enemy's [Range of Opportunity](#opportunity-Attacks) without provoking an [Opportunity Attack](#opportunity-Attacks), by **Disengaging** for `-2` [AP](#action-points-ap). The Disengaging Character **must** move in a direction that will get them out of the Range of Opportunity the fastest and safest, as far as `1` AP of movement would get them. 
 
 > Just because jumping off a cliff would be the fastest way out of a Range of Opportunity, doesn't mean this is the safest direction to go. A Character trying to Disengage is trying to move safely, after all. If the safest direction is through the Range of Opportunity, then so be it. 
 
 When Disengaging from more than one Range of Opportunity in the same action, every additional Range of Opportunity past the first adds a cost of `+1` additional AP. 
 
 #### Push Through
-It is possible to **Push Through** a [Range of Opportunity](#opportunity-attacks), which cannot halt movement, but in doing so, grants the Opportunity Attack `+1` [Compensation Point](#compensation-points). 
+It is possible to **Push Through** a [Range of Opportunity](#opportunity-Attacks), which cannot halt movement, but in doing so, grants the Opportunity Attack `+1` [Edge](#edge). 
 
 ### Flanking
 In a normal duel situation, a person in armor or with a shield will always have an advantage over the person without. There are still ways to get around these defenses, but they usually involve managing to throw the opponent to the ground or using specific [Expertises](#expertise). Simply continuing trying to hit someone in armor in a straight fight will not yield you the results you seek. 
 
-This circumstance changes, when the opponent is flanked and surrounded. Most armor and all shields are designed to protect the most from frontal attacks and even the more masterful armors must still allow some cracks in between armor plates. Also, armor is usually thinner on the back, which means it's easier to find a spot where the material is weak. Therefore, by flanking an armored opponent, you can negate at least some of the armor's effect. 
+This circumstance changes, when the opponent is flanked and surrounded. Most armor and all shields are designed to protect the most from frontal Attacks and even the more masterful armors must still allow some cracks in between armor plates. Also, armor is usually thinner on the back, which means it's easier to find a spot where the material is weak. Therefore, by flanking an armored opponent, you can negate at least some of the armor's effect. 
 
-To **Flank** an opponent, two allies must be within their weapons' range to and on **opposite sides** of the opponent. If both are attacking from the same side, then the armor and shield will continue protecting fully. This applies to melee and ranged attacks. 
+To **Flank** an opponent, two allies must be within their weapons' range to and on **opposite sides** of the opponent. If both are Attacking from the same side, then the armor and shield will continue protecting fully. This applies to melee and ranged Attacks. 
 
 Three allies can **Surround** the opponent, further reducing their armor's and shield's effectiveness. Four or more allies can **Overwhelm** the opponent, rendering their defenses completely useless. The third and fourth (or any beyond that number) ally can **freely** choose a spot within weapon's reach. 
 
@@ -1972,7 +2302,7 @@ Three allies can **Surround** the opponent, further reducing their armor's and s
 * When **Surrounded**, the armor and shield protect only one fourth (RU) as much. `-2D` to any Defense Test. 
 * When **Overwhelmed**, the armor and shield no longer protect **at all**. `-3D` to any Defense Test. 
 
-If one of the allies is using a weapon with a property to increase its reach, for example [Long Reach](#weapon-traits), then they need not be adjacent to the enemy to count towards the Flanking effect (but still within their weapon's reach to the enemy). 
+If one of the allies is using a weapon with a property to increase its reach, for example [Long Reach](#general-weapon-traits), then they need not be adjacent to the enemy to count towards the Flanking effect (but still within their weapon's reach to the enemy). 
 
 The following two graphics illustrate valid spots for a second ally to enter, to Flank the Character in the center. 
 
@@ -1983,38 +2313,45 @@ The following graphic illustrates valid spots for a third ally to enter, to **Su
 <img src="../../img/flanking-chart_3.png" width="264px" height="357px"></img>
 
 ### Stealth Attacks
-When attacking another Character from stealth, the moment of surprise can make all the difference. An attack from stealth gains `+2` [Compensation Points](#compensation-points)! 
+When Attacking another Character from stealth, the moment of surprise can make all the difference. An Attack from stealth gains `+2` [Edge](#edge)! 
 
-When attacking with [Bludgeoning](#damage-types), you may knock another Character [Unconscious](#unconscious) with one fell swoop. For this, their [Toughness](#toughness-tough) may be at most `2` Levels above your [Strength](#strength-str). 
+When Attacking with [Bludgeoning](#damage-types), you may knock another Character [Unconscious](#unconscious) with one fell swoop. For this, their [Toughness](#toughness-tough) may be at most `2` Levels above your [Strength](#strength-str). 
 
-> For example, two ordinary humans: one is attacking from stealth with a club and has Strength `2`, while the victim has Toughness `4`. The victim is knocked unconscious right away. 
+> For example, two ordinary humans: one is Attacking from stealth with a club and has Strength `2`, while the victim has Toughness `4`. The victim is knocked unconscious right away. 
 >
-> On the other hand, the same stealthy human attacking a giant from stealth with a club cannot knock that giant unconscious, assuming that giant to have a Toughness of `10`. The difference of `8` Levels is simply too great. 
+> On the other hand, the same stealthy human Attacking a giant from stealth with a club cannot knock that giant unconscious, assuming that giant to have a Toughness of `10`. The difference of `8` Levels is simply too great. 
 
 ### Free Strike (FS)
-The **Free Strike (FS)** number defines bonus damage that Characters may inflict under certain circumstances. 
+The **Free Strike (FS)** number defines bonus Damage that Characters may inflict under certain circumstances. 
 
-This value is mostly reserved for NPCs, as this is the damage value used when multiple of the same type of NPC launch an attack at the same time, as a [Squad](#npc-squads). This way, instead of having to roll determine damage many times individually, the **main aggressor's damage** is summed with **all assisting allies' Free Strike value**. Whether allies can join in to deal more damage, depends on whether they are in their weapon's range to attack and are part of the aggressor's [Squad](#npc-squads). 
+This value is mostly reserved for NPCs, as this is the Damage value used when multiple of the same type of NPC launch an Attack at the same time, as a [Squad](#npc-squads). For this, the **main aggressor's Damage** is summed with **all assisting allies' Free Strike value**. Whether allies can join in to deal more Damage, depends on whether they are in their weapon's range to Attack and are part of the aggressor's [Squad](#npc-squads). 
 
 ## Defending
-A Character being targeted with any other Skill may choose, as a Reaction, to defend against it. Doing so costs `1` [AP](#action-points-ap) and calls for an [Opposed Test](#opposed-test). The Attacker must achieve **more Hits** than the Defender, or else the Defender wins and the attack is negated, entirely. The Defender must *choose* how to defend, unless a specific "opposed by" Skill is noted. Valid choices are a [Weapon](#weapon--weapon-type---attribute), the [Acrobatics](#acrobatics-agistr) or the [Shield](#shield-strtough) Skill. 
+Successfully **Defending** against an Attack negates all its Damage and other effects from occurring. Defense is a [Reaction](#actions-reactions--passives) and requires an [Opposed Test](#opposed-test). If the Attacker achieves more Hits than the Defender, they win. If it is a tie or the Attacker achieves fewer Hits, the Defender wins. 
 
-A Character without any, or not enough [AP](#action-points-ap) left to spend, **can not defend**. In this case, the Attacker's Ob is simply `1` (plus any potential Modifier from the Expertise or Skill they're attacking with). 
+> If the Attacker achieves `3` and the Defender `2` Hits, then the Attacker wins. If both achieve `3` Hits, then the Defender wins. If the Attacker achieves `3` and the Defender `4` Hits, then the Defender wins. 
 
-Defending against [Area Of Effect](#area-of-effect) is only possible through some Expertises. 
+The Defender must *choose* how to defend, unless a specific "Opposed by" Skill is noted on the Attacker's Skill. Valid choices are a [Weapon](#weapon--weapon-family---base-attributes-), the [Acrobatics](#acrobatics-agistr) or the [Shield](#shield-strtough) Skills. 
 
-### Armor & Shields
-Armor serves as life insurance, because it can negate or at least reduce the damage taken, after a Defense Test has failed. Shields on the other hand provide bonuses to Defense, making it harder for an enemy to succesfully land a hit in the first place. 
+Defense is classified as follows:
+* [**Guarded**](#guarded) Defense, for which you gain `+1` [Edge](#edge) and reduces your Guarded by `-1`. During your Turn, you can spend `1` AP to gain `+1` Guarded, as many times as you like or until you have the maximum of `5` Guarded.  
+* **Regular Defense**, which costs `-1` AP. There are no boons or penalties to this Defense. 
+* If you have `0` AP left, you may make an **Emergency Defense**, which borrows `1` AP from your next Turn. You will start that future Turn with `1` AP less. You may make an Emergency Defense **only twice per Round**. 
+* If you have no Guarded, nor AP left *and* have already spent all Emergency Defenses, you can no longer Defend! In this case, the Attacker's Ob is always `1`. 
 
-The specifics of armors and shields can be found in hhe [Asset appendix](#assets-appendix) of whatever module you're using. 
+Defending against [Area Of Effect](#area-of-effect) Attacks has the same Ob as the AoE Attack, plus two. If successful, you suffer only half (RD) of the AoE's Damage and effects. If the AoE Attack has no Ob, treat it as if it has `2`. 
+
+> An Attacker uses an AoE Attack at Ob `2`. Having rolled their Attack Test, they determined their AoE Attack will deal `9` Burning damage to all foes around them. 
+>
+> The Ob to Defend against this AoE Attack is thus `4 = 2 (Attacker's Ob) + 2 (always)`. If successful, the Defender suffers only `4` Burning Damage.
+
+*Wherever* Defense is concerned, you may either spend `1` AP or `1` Guarded to Defend.
 
 ### Defending an Ally
-It is possible for a Character to defend an adjacent ally when they're being attacked. This costs `1` [AP](#action-points-ap) and results in the Character taking over the Defense Test, instead of the originally attacked Character. 
-
-Defending an ally is a Reaction. 
+As a Reaction, it is possible to Defend an adjacent ally when they're being Attacked. This costs `1` [AP](#action-points-ap) or `1` [Guarded](#guarded) and results in you taking over the Defense Test, instead of your ally. 
 
 #### Counter-Attack
-A Reaction that allows a victim being attacked to immediately retaliate against their attacker. Unless otherwise specified, this costs `1` [AP](#action-points-ap).
+A Reaction that allows a victim being Attacked to immediately retaliate against their Attacker. Unless otherwise specified, this costs `1` [AP](#action-points-ap).
 
 ### Cover
 It is possible for Characters to hide behind stationary things to make it harder to hit them. This mostly applies to ranged combat, but may also find use in melee, depending on circumstance. 
@@ -2027,44 +2364,51 @@ There are two categories of cover:
   * High Cover is any static object to hide behind that fully covers the body, like a tall wall or large boulder. 
 
 ### Speed Aids Defense
-It is possible for a victim of an attack to be moving too fast for the attacker's ability to keep tracking them effectively. 
+It is possible for a victim of an Attack to be moving too fast for the Attacker's ability to keep tracking them effectively. 
 
-What speed exactly that is, depends heavily on circumstance. As always, the GM's estimate determines whether a bonus can apply to a Defense [Test](#tests). A fast moving target may increase the attacker's Ob by `1`, up to `3`, depending on _how many degrees of too fast_ they are moving. 
+What speed exactly that is, depends heavily on circumstance. As always, the GM's estimate determines whether a bonus can apply to a Defense [Test](#tests). A fast moving target may increase the Attacker's Ob by `1`, up to `3`, depending on _how many degrees of too fast_ they are moving. 
 
 > In a sci-fi setting, an automated turret may have a tracking system that can easily keep up with targets moving at high speeds, which will only fail if the target performs some extreme maneuvers. 
 > 
 > In a medieval fantasy setting, even just someone in a full sprint may be fast enough to throw off an archer's aim. Someone on horse back, riding at speed may be very hard to hit with an arrow or a melee weapon. 
 
 ## Momentum
-**Momentum** is a resource that benefits PCs. It ranges from `-20` to `+20` and usually starts at `0`. As the PCs make progress in a fight, they gain Momentum and as they suffer setbacks, they lose it. It is a resource that represents the PCs superiority - or the inverse - and is expected to be constantly in flux, like in a tug-of-war. 
-
-When Momentum reaches `+20`, **Heroic Acts** become available. Inversely, when Momentum reaches `-15`, **Desperate Measures** become available. Any available Heroic Act and Desperate Measure may be enacted the moment they become available. 
-
-The pairing of a Heroic Act and its counter-part, a Desperate Measure, is called a [Momentum Action](#momentum-actions). 
+**Momentum** is a resource that benefits PCs. It ranges from `-30` to `+30` and usually starts at `0`. As the PCs make progress in a fight, they gain Momentum and as they suffer setbacks, they lose it. It is a resource that represents the PCs superiority - or the inverse - and is expected to be constantly in flux, like in a tug-of-war. 
 
 The Momentum mechanics can make PCs feel very heroic! They allow them to finish a fight or turn the wheel of fate around, with decisive action and careful planning. If you desire a less heroic game, you may consider not using the Momentum rules, or perhaps reducing the availability of Momentum Actions. 
 
+When Momentum reaches `+30`, **Heroic Acts** become available. Inversely, when Momentum reaches `-25`, **Desperate Measures** become available. They may be enacted at **any time during a PC's Turn** or at the **end of a foe's Turn**. 
+
+The pairing of a Heroic Act and its counter-part, a Desperate Measure, is called a [Momentum Action](#momentum-actions). 
+
+When you gain or lose Momentum, only the most significant change counts! Note that it is **impossible** to gain Momentum through Heroic Acts! With Desperate Measures, it *is* possible to gain Momentum, but only once, each use. 
+
+> When successfully slaying a non-feeble foe, the PCs earn `+15` Momentum - and ***not*** `1 + 3 + 15`!
+
+> While under the effects of Pre-Emptive Strikes, a PC strikes down a foe with their first Attack that Round. They don't get to earn any Momentum from this success, because they got it while under the influence of a Heroic Act. 
+
 | Gaining Momentum <img src="../../img/momentum-shift_heroism.svg" width="48px" height="48px"></img> | Losing Momentum <img src="../../img/momentum-shift_desperation.svg" width="48px" height="48px"></img> |
 | -------------------------------------- | ----------------------------------------------------------- |
-| Successfully attacking a foe: `+2`     | PC or ally being successfully attacked: `-2`                |
-| Helping another PC or ally: `+5`       | A foe helping *their* ally: `-2`                            |
-| Causing an Injury in a foe: `+5`       | PC or ally suffering an Injury: `-5`                        |
+| Successfully Attacking a foe: `+1`     | PC or ally being successfully Attacked: `-2`                |
+| Helping another PC or ally: `+3`       | A foe helping *their* ally: `-3`                            |
+| Causing an Injury in a foe: `+3`       | PC or ally suffering an Injury: `-5`                        |
 | Slaying a feeble foe: `+5`             | Ally struck down or PC brought to Death's Door: `-15`       |
-| Slaying a non-feeble foe: `+15`        | PC struck down `-40`                                        |
+| Slaying a non-feeble foe: `+10`        | PC struck down `-40`                                        |
 
 #### Momentum Actions
 **Momentum Actions** are comprised of a **Heroic Act** and its counter-part, a **Desperate Measure**. The list below contains all the Momentum Actions that are always available to the PCs. 
 
-| Heroic Act <br><img src="../../img/heroic-acts.svg" width="64px" height="64px"></img> | Heroic Act Description | Desperate Measure Description | Desperate Measure <br><img src="../../img/desperate-measures.svg" width="64px" height="64px"></img> |
-| ----------------------- | ---------------------- | ----------------------------- | --------------------------- |
-| Death Mark <br><img src="../../img/heroic-act_death-mark.svg" width="64px" height="64px"></img>| Until the end of combat, a chosen enemy is [Marked](#marked). All damage they suffer causes them `+1` point of [Bleeding](#bleeding). This [Condition](#condition) cannot be removed normally. Decreases Momentum by `-15`. | Until the end of combat, a chosen **enemy and PC** are [Marked](#marked). All damage either suffers causes them `+1` point of [Bleeding](#bleeding). This [Condition](#condition) cannot be removed normally, unless either of the two Characters strikes down their pactee. Also, when that happens, the survivor gains `+10` [Temporary HP](#temporary-health-points). Increases Momentum by `+10`. | Death Pact <br><img src="../../img/desperate-measure_death-pact.svg" width="64px" height="64px"></img> |
-| Finest Hour <br><img src="../../img/heroic-act_finest-hour.svg" width="64px" height="64px"></img>| A PC of choice gets an immediate Turn, with `5` [AP](#action-points-ap). Decreases Momentum by `-30`. | All PCs get an immediate Turn, with `3` [AP](#action-points-ap), but also suffer `+3` points of [Bleeding](#bleeding). Increases Momentum by `+20`. | Final Hour <br><img src="../../img/desperate-measure_final-hour.svg" width="64px" height="64px"></img> |
-| Finish It! <br><img src="../../img/heroic-act_finish-it.svg" width="64px" height="64px"></img>| A chosen PC launches an immediate attack against a chosen foe, with `1` [Compensation Point](#compensation-points). If successful, that foe suffers `Injury count * 5` points of additional Pure damage. Decreases Momentum by `-30`. | A chosen PC launches an immediate attack against a chosen foe, with `1` [Compensation Point](#compensation-points). If successful, the foe suffers `Injury count * 10` points of additional Pure damage. If the foe survives, the PC also suffers `(Injury count * 3) + 5` points of Pure damage. Increases Momentum by `+10`. | You or Me <br><img src="../../img/desperate-measure_you-or-me.svg" width="64px" height="64px"></img> |
-| Pre-Emptive Strikes <br><img src="../../img/heroic-act_pre-emptive-strikes.svg" width="64px" height="64px"></img>| Until the end of combat, a chosen PC's first attack every Round costs no [AP](#action-points-ap)! Decreases Momentum by `-30`. | All PCs may immediately make one attack against one or more chosen foes, with `1` [Compensation Point](#compensation-points). This attack costs no [AP](#action-points-ap), but every foe hit may launch a free [Counter-Attack](#counter-attack), after all the PCs have acted. Increases Momentum by `+10`. | Breakout Strikes <br><img src="../../img/desperate-measure_breakout-strikes.svg" width="64px" height="64px"></img> |
-| Tactical Repositioning <br><img src="../../img/heroic-act_tactical-repositioning.svg" width="64px" height="64px"></img>| All PCs may immediately re-position, moving up to `10` Squares, without triggering any [Opportunity Attacks](#opportunity-attacks). Decreases Momentum by `-10`. | All PCs may immediately re-position, moving up to `10` Squares, without triggering any [Opportunity Attacks](#opportunity-attacks). However, up to three foes immediately gain `+1`, or one foe `+3` [AP](#action-points-ap). Increases Momentum by `+5`. | Desperate Repositioning <br><img src="../../img/desperate-measure_desperate-repositioning.svg" width="64px" height="64px"></img> |
-| Unyielding <br><img src="../../img/heroic-act_unyielding.svg" width="64px" height="64px"></img>| A PC of choice gets `+1` [Compensation Point](#compensation-points) for all Defense Tests and may freely [Counter-Attack](#counter-attack) all attacks directed against them or an adjacent ally, for `1` Round. Decreases Momentum by `-10`. | Until the end of combat, a chosen PC may freely [Counter-Attack](#counter-attack) all attacks directed against them with `+1` [Compensation Point] or an adjacent ally. However, they suffer `+1` Ob for all Attack Tests. Increases Momentum by `+10`. | Cornered <br><img src="../../img/desperate-measure_cornered.svg" width="64px" height="64px"></img> |
-| Get Off Me!             | All foes adjacent to a chosen PC are pushed back `2` Squares. That PC may then move up to `4` Squares, without triggering [Opportunity Attacks](#opportunity-attacks). Decreases Momentum by `-10`. | A chosen PC switches places with an adjacent foe, and may then move up to `4` Squares. Only the foe they switched with may react and launch an immediate free [Counter-Attack](#counter-attack), with `+1` [Compensation Point](#compensation-points), but cannot prevent the PC from moving. Increases Momentum by `+10`. | Outta My Way! |
-| Toughened Up            | All PCs gain up to `10` [Temporary HP](#temporary-health-points), limited to them having at most this amount. Decreases Momentum by `-15`. | All PCs gain `20` [Temporary HP](#temporary-health-points), limited to them having at most this amount, but also suffer `-3` [Stamina](#stamina--strain). Increases Momentum by `+10`. | Scarred Up |
+| Heroic Act <br><img src="../../img/heroic-acts.svg" width="64px" height="64px"></img>                                  | Heroic Act Momentum Shift | Heroic Act Description | Desperate Measure Description | Desperate Measure Momentum Shift | Desperate Measure <br><img src="../../img/desperate-measures.svg" width="64px" height="64px"></img> |
+| ---------------------------------------------------------------------------------------------------------------------- | ------------------------- | ---------------------- | ----------------------------- | -------------------------------- | --------------------------------------------------------------------------------------------------- |
+| Death Mark <br><img src="../../img/heroic-act_death-mark.svg" width="64px" height="64px"></img>                        | `-15`                     | Until the end of combat, a chosen enemy is [Marked](#marked). Every [Instance of Direct Damage](#damage--effects) they suffer causes them `+1` point of [Bleeding](#bleeding). This [Condition](#condition) cannot be removed normally. | Until the end of combat, a chosen **enemy and PC** are [Marked](#marked). Every [Instance of Direct Damage](#damage--effects) either suffers causes them `+1` point of [Bleeding](#bleeding). The effects from Death Pact and Damage over time effects do not trigger the Bleeding increase. This [Condition](#condition) cannot be removed normally, and ends automatically when one of the two Characters is struck down. Also, when that happens, the survivor gains `+10` [Temporary HP](#temporary-health-points). | `+15` | Death Pact <br><img src="../../img/desperate-measure_death-pact.svg" width="64px" height="64px"></img> |
+| Finest Hour <br><img src="../../img/heroic-act_finest-hour.svg" width="64px" height="64px"></img>                      | `-30`                     | A PC of choice gets an immediate Turn, with `4` [AP](#action-points-ap). | All PCs get an immediate Turn, with `3` [AP](#action-points-ap), but also suffer `+3` points of [Bleeding](#bleeding). | `+20` | Final Hour <br><img src="../../img/desperate-measure_final-hour.svg" width="64px" height="64px"></img> |
+| Finish It! <br><img src="../../img/heroic-act_finish-it.svg" width="64px" height="64px"></img>                         | `-30`                     | A chosen PC launches an immediate Attack against a chosen foe, with `+1` [Edge](#edge). If successful, that foe suffers its `Injury count * 3` points of additional Pure Damage, after all other Damage is resolved. | A chosen PC launches an immediate Attack against a chosen foe, with `+1` [Edge](#edge). If successful, the foe suffers its `Injury count * 4` points of additional Pure Damage, after all other Damage is resolved. If the foe survives even after the additional Damage is applied, the PC suffers `(Injury count * 3) + 5` points of Pure Damage. | `+10` | You or Me <br><img src="../../img/desperate-measure_you-or-me.svg" width="64px" height="64px"></img> |
+| Pre-Emptive Strikes <br><img src="../../img/heroic-act_pre-emptive-strikes.svg" width="64px" height="64px"></img>      | `-30`                     | For `2` Rounds, a chosen PC's first self-initiated [Attack Action](#Attacking) every Round costs no [AP](#action-points-ap)! | Until the end of combat, a chosen PC's first self-initiated [Attack Action](#Attacking) every Round costs no [AP](#action-points-ap), with `+1` [Edge](#edge). However, one foe gets the same boon, albeit without the Edge bonus! | `+30` | Martial Trance <br><img src="../../img/desperate-measure_breakout-strikes.svg" width="64px" height="64px"></img> |
+| Tactical Repositioning <br><img src="../../img/heroic-act_tactical-repositioning.svg" width="64px" height="64px"></img>| `-10`                     | All PCs may immediately re-position, moving up to `10` Squares, without triggering any [Opportunity Attacks](#opportunity-Attacks). Normal [movement rules](#combat-movement) apply. | All PCs may immediately re-position, moving up to `15` Squares, without triggering any [Opportunity Attacks](#opportunity-Attacks). Normal [movement rules](#combat-movement) apply. However, up to three foes immediately gain `+1`, or one foe `+3` [AP](#action-points-ap). | `+10` | Desperate Repositioning <br><img src="../../img/desperate-measure_desperate-repositioning.svg" width="64px" height="64px"></img> |
+| Unyielding <br><img src="../../img/heroic-act_unyielding.svg" width="64px" height="64px"></img>                        | `-20`                     | For `2` Rounds, a chosen PC may freely [Counter-Attack](#counter-Attack) all Attacks directed against them or an adjacent ally with `+1` [Edge](#edge). | Until the end of combat, a chosen PC may freely [Counter-Attack](#counter-Attack) all Attacks directed against them or an adjacent ally with `+1` [Edge](#edge). However up to `3` times per Round, all foes may now also freely [Counter-Attack](#counter-Attack) this PC's Attacks. The limit is a total across all foes, **not** for each foe individually. | `+20` | Cornered <br><img src="../../img/desperate-measure_cornered.svg" width="64px" height="64px"></img> |
+| Get Off Me!                                                                                                            | `-10`                     | All foes adjacent to a chosen PC are pushed back `2` Squares and cannot resist this Forced-Movement. That PC may then move up to `4` Squares, without triggering [Opportunity Attacks](#opportunity-Attacks). | A chosen PC switches places with an adjacent foe, and may then move up to `4` Squares, without provoking [Opportunity Attacks](#opportunity-Attacks). The foe they switched with may react and launch an immediate free [Counter-Attack](#counter-Attack), but cannot prevent the PC from moving. | `+10` | Outta My Way! |
+| Toughened Up                                                                                                           | `-15`                     | You may distribute a total of `40` [Temporary HP](#temporary-health-points) across all PCs, limited to each having at most `10`. | All PCs gain `10` [Temporary HP](#temporary-health-points), limited to them having at most this amount, but also suffer `3` [Strain](#strain). | `+15` | Scarred Up |
+| Locked In <br><img src="../../img/heroic-acts.svg" width="64px" height="64px"></img> | `-20` | For `2` Rounds, all of a single chosen PC's Self-Control Tests gain `+1` [Edge](#edge). | For `2` Rounds, all of a single chosen PC's Self-Control Tests **always succeed**, but once those Rounds have passed, they suffer `+2` [Strain](#strain) and begin their next Turn with `2` AP less! | `+20` | Frantic Focus <br><img src="../../img/desperate-measures.svg" width="64px" height="64px"></img> |
 
 ## Throwing
 Throwing things is a special type of Action, that follows the rules outlined below. 
@@ -2096,71 +2440,57 @@ The steps to determine Ob to throw are as follows:
 
 > A Character is throwing their weapon at an enemy standing `8` Squares away. The distance sets the base Ob to `2`. Additionally, the defender gets to roll their Defense Test and achieves `1` Hit. This raises the Ob to hit to `3`. 
 
-In case of an unsuccessful throw, the object lands only near the intended spot, instead of on it. In order to determine where a missed throw lands, roll a `D8`. A `1` designates the object landed north of the intended spot. Then, going clock-wise, a `2` would designate north-east, `3` east and so on. 
-
-A roll of `1D4` determines how far along that axis, measured from the intended spot, the object lands. 
-
-> A Character missed their throw. They roll `1D8`, yielding a `4`, which means south-east of the intended spot. Then they roll `1D4`, yielding a `3`, which means a distance of `3` Squares south-east of the intended spot. 
-
+In case of an unsuccessful throw, the object lands only near the intended spot, instead of on it. In order to determine where a missed throw lands, refer to [Random Direction](#random-direction). `1D4` determines how far along that axis, measured from the intended spot, the object lands. <br>
 Note that the object cannot fly farther than the Character's Strength would allow. 
+
+### Throwing-Damage
+If throwing a weapon that isn't specifically made or especially suitable to throwing, then the Damage that is dealt on successful hit is halved (RD). 
+
+When throwing non-weapons, the Damage dealt is calculated the following way: `Strength * (Bulk - 1)`. Note the resulting Damage cannot be less than `0`.
+
+The [Damage Type](#damage-types) to use, depends on the type of object and how it hits the target. For most non-weapons, **Bludgeoning** should be appropriate. 
+
+> A Character with strength `5`, throwing a Bulk `3` object, can deal `5 * (3 - 1) = 10` points of Damage. 
+
+## Random Direction
+When determining random inaccuracies in Attacks, movements of other such effects, then a `D8` determines the direction. `1` is north and going clock-wise, a `2` is north-east, `3` east, and so on. 
 
 For your convenience, you can refer to the following chart: 
 
 <img src="../../img/miss-chart.png" width="384px" height="384px"></img>
 
-### Throwing-Damage
-If throwing a weapon that isn't specifically made or especially suitable to throwing, then the damage that is dealt on successful hit is halved (RD). 
-
-When throwing non-weapons, the damage dealt is calculated the following way: `Strength * (Bulk - 1)`. Note the resulting damage cannot be less than `0`.
-
-The [Damage Type](#damage-types) to use, depends on the type of object and how it hits the target. For most non-weapons, **Bludgeoning** should be appropriate. 
-
-> A Character with strength `5`, throwing a Bulk `3` object, can deal `5 * (3 - 1) = 10` points of damage. 
-
 # Travel & Terrain
-Whenever players are presented with an overworld map, with distinct locations marked on it and players ask, "how do we get from *here* to *there*?", the question of travel comes up. The exact specifics will depend on the GM's world, and their forms of travel. Walking there on foot is sure to be slower than flying by plane. Or perhaps travel can even be instantaneous, through magic and technology, in which case this chapter will be irrelevant. 
+Whenever players are presented with an overworld map, with distinct locations marked on it and players ask, "how do we get from *here* to *there*?", the question of travel comes up. The exact specifics will depend on the GM's world, and their forms of travel. Walking there on foot is sure to be slower than flying by plane. Or perhaps travel can even be instantaneous, through magic and technology, in which case this chapter may be entirely irrelevant. 
 
-For the purposes of this chapter, the overworld map is expected to have a grid of either squares or hexagons overlaid on top of it, segmenting it into manageable chunks. You may choose an appropriate chunk-size yourself or take the suggested size of a `10km` or `6 mile` diameter square or hexagon. Either way, this unit will henceforth be referred to as a **Square**. 
+For the purposes of this chapter, the overworld map is expected to have a grid of either squares or hexagons overlaid on top of it, segmenting it into manageable chunks. You may choose an appropriate chunk-size yourself or take the suggested size of a `10km` or `6 mile` diameter square or hexagon. Either way, this unit will henceforth be referred to as an **Overworld Square**. 
 
-The following table suggests how long it might take to traverse a particular Square of terrain, on foot, depending on its dominant terrain feature. The suggested durations may not be realistic, but easy to manage. Also suggested are Obs for [hunting and foraging](#foraging--hunting).
+The following table suggests how long it might take to traverse a particular Overworld Square, based on its dominant terrain and assuming you are on foot. To translate these, see [Quarters of a Day](#quarters-of-a-day-qod). Also suggested are Obs for [hunting and foraging](#foraging--hunting), if you feature survival aspects in your game.
 
 | Terrain                | Time (on foot) | Hunting/Foraging Ob |
 | ---------------------- | -------------- | ------------------- |
-| Road                   | 6 hours        | 4                   |
-| Plains/Savannah        | 6 hours        | 3                   |
-| Desert                 | 6 hours        | 5                   |
-| Sparse forest          | 12 hours       | 2                   |
-| Hill                   | 12 hours       | 2                   |
-| Jungle/Dense forest    | 1 day          | 2                   |
-| Swamp                  | 1 day          | 3                   |
-| Barren Mountain        | 1 day          | 5                   |
-| Forested Mountain      | 1 day          | 2                   |
+| Road                   | Lengthy        | 4                   |
+| Plains/Savannah        | Lengthy        | 3                   |
+| Desert                 | Lengthy        | 5                   |
+| Sparse forest          | Extended       | 2                   |
+| Hill                   | Extended       | 2                   |
+| Jungle/Dense forest    | Multi-Quarter  | 2                   |
+| Swamp                  | Multi-Quarter  | 3                   |
+| Barren Mountain        | Multi-Quarter  | 5                   |
+| Forested Mountain      | Multi-Quarter  | 2                   |
 
-Under normal circumstances, Characters may spend at most `12` hours traveling (on foot) before they need a [Full Rest](#resting) to carry on. Whether these hours are spent consecutively or with _short_ breaks in between, makes no difference. 
+Under normal circumstances, Characters may spend at most `3` QoDs traveling (on foot) before they need a [Full Rest](#resting) to carry on. Whether these QoDs are spent consecutively or with _short_ breaks in between, makes no difference. 
 
 ## Forced March
-It is possible to push on, past the `12` hour threshold, for another `12` hours, at the cost of `+2` [Strain](#stamina--strain) to all Characters on Forced March. 
+It is possible to push on, for another QoD, at the cost of `+6` [Strain](#stamina--strain) to all Characters on Forced March. It is impossible to Forced-March twice in succession. 
 
 ## Enduring the Journey
-For every increment of `6` hours of travel, Characters will need to consume one [ration](#general-assets). If they don't, they suffer `+1` [Strain](#stamina--strain). 
+For every QoD of travel, Characters will need to consume one [ration](#general-assets). If they don't, they suffer `+1` [Strain](#stamina--strain). 
 
 ## Foraging & Hunting
 It is possible to hunt/forage for food while traveling, without losing time. You may make Tests of an approproately chosen Skill, with an Ob appropriate to the current Square of terrain. If successful, the number of Hits you achieve equals the number of [rations](#general-assets) you gain. 
 
-# General Interactions
-These are rules pertaining to specific social interactions or otherwise non-combat interactions that aren't immediately covered by a single [Skill](#skills). 
-
-## Appraisal
-In order to appraise the value, weight, size or other properties of something, a [Test](#tests) with a [Skill](#skills) pertaining to _what_ is being appraised must be made. 
-
-> For example, to determine the value and weight of a gold-nugget, one could Test [Metallurgy](#metallurgy-awarwit). 
-
-The Ob depends on circumstance. How much time is available to appraise? How unusual or uncommon is the thing being appraised? How easy is it to appraise such things? 
-
-Of course, a trader may be experienced in the goods and wares they peddle. [Mercantilism](#mercantilism-awarwit) may be used as a catch-all for appraisal, but at a penalty of `+1` Ob, as a pure trader will never be able to ascertain the quality as well as a craftsperson could.
-
 # Appendix
-The appendix contains important and less important lists, for reference only when needed. 
+The appendix contains lists for reference only when needed. 
 
 ## Character Creation
 Imagine for the longest time of their life, your Character has led an ordinary existence, until one day, something life-changing happened. Perhaps something terrible, perhaps something wonderful, but something significant that has forced them out of their comfort zone into a world full of adventure. 
@@ -2181,7 +2511,7 @@ The procedure of creating a Character consists of the following steps:
 ### Determine Life Path
 Where and when does the story of your Character begin? Under what circumstances are they born and how were they raised? Until adulthood, did they lead a life of carelessness or did they have to fight for every scrap of food? How did they lead their life up until the point they picked up adventuring? 
 
-Answering these questions will help you figure out what your Character could be like as a person and what kinds of Ambitions, Aspirations and Reactions they might develop. 
+Answering these questions will help you figure out what your Character could be like as a person and what kinds of Ambitions, Aspirations and Quirks they might develop. 
 
 If you need inspiration, the following tables might help a spark along:
 
@@ -2251,10 +2581,10 @@ Perhaps more important than a name, is the personality that it represents. Think
 
 Refer to the table in the [Virtues & Vices](#virtues--vices) section. You can choose freely, where to place your "x", for every row. You can even leave every trait at "undecided" and find out through play what your Character is like. If you prefer, you can even let chance decide for you! For that, roll a `D6` for every row. A `1` results in a "Signature" trait on the left side of the scale, while a `6` results in a "Signature" trait on the right side of the scale. Using this method, you will **not** have *any* "undecided" traits in the end. 
 
-#### Determine Ambition, Aspirations & Reactions
+#### Determine Ambition, Aspirations & Quirks
 This is where things may get a little difficult. Work together with your GM, as they know their world and what kinds of agendas the people in it might have. 
 
-Don't worry too much about your first Aspirations and Reactions, as they're expected to change frequently, through the events your Character has yet to experience. 
+Don't worry too much about your first Aspirations and Quirks, as they're expected to change frequently, through the events your Character has yet to experience. 
 
 Your Ambition will require most thought beforehand, but even so, you don't have to plan your Character's entire future. But keep in mind that your Character's Ambition tells your GM what kind of stories you'd like to explore and what's more, how your Character will fit into them. Working with your GM to determine a fitting Ambition is paramount to your enjoyment thereof. 
 
@@ -2283,12 +2613,12 @@ Now, the time to determine your three [Aspirations](#aspiration) has come. Yet a
 > 
 > These two Aspirations allow these Characters to come into conflict, despite their good intentions. How it will play out, no one can say. But it is sure to make for an interesting conflict!
 
-##### Choosing Reactions
-Lastly, you need three [Reactions](#reaction) for your Character. Ideally, at least one of them should allow your GM getting your PC into *trouble*. 
+##### Choosing Quirks
+Lastly, you need three [Quirks](#quirk) for your Character. Ideally, at least one of them should allow your GM getting your PC into *trouble*. 
 
-For Reactions, you're fairly free to pick and choose, so long as you keep in mind that Reactions cannot alter facts of the narrative and have easily identifiable triggers. 
+For Quirks, you're fairly free to pick and choose, so long as you keep in mind that Quirks cannot alter facts of the narrative and have easily identifiable triggers. 
 
-> A Reaction like "allies around me don't die" is a bad Reaction, as it tries to alter facts and has an unclear trigger. The GM can't do much with this kind of Reaction. 
+> A Quirk like "allies around me don't die" is a bad Quirk, as it tries to alter facts and has an unclear trigger. The GM can't do much with this kind of Quirk. 
 >
 > An improved version would be "whenever an ally near me is in trouble, I come to their aid". 
 
@@ -2296,9 +2626,9 @@ For Reactions, you're fairly free to pick and choose, so long as you keep in min
 Next up, you can reinforce your Character's [Personality](#virtues--vices) with the abilities they have. Or even prepare a conflict of what your Character *can* do and what they *think* they can do. 
 
 #### Choosing Attributes
-There are two methods for determining your Character's attributes: manual and semi-random. 
+There are two methods for determining your Character's Attributes: manual and semi-random. 
 
-Please keep in mind the values here are representative for an ordinary human about to enter an adventuring life. Other species may have modifiers on their attributes, making them better or worse in some of them. But that depends on the world your GM is running. 
+Please keep in mind the values here are representative for an ordinary human about to enter an adventuring life. Other species may have modifiers on their Attributes, making them better or worse in some of them. But that depends on the world your GM is running. 
 
 ##### Manual Attribute Assignment
 * You can spend **`8 points`** on your Attributes. 
@@ -2310,7 +2640,7 @@ Please keep in mind the values here are representative for an ordinary human abo
 
 ##### Semi-Random Attribute Assignment
 1. Roll `5D4`. 
-2. Row up your dice to form a line, then read them from one end to the other and note each value. The order in which they are written down, is the order in which they'll be applied to the attributes. 
+2. Row up your dice to form a line, then read them from one end to the other and note each value. The order in which they are written down, is the order in which they'll be applied to the Attributes. 
 3. Ensure there is one `4`. 
    1. If there is more than one `4`, start lowering values, starting from the left or the right, until there is only one `4` left. 
    2. If there are less than one `4`, raise the highest value up to `4`, starting either from the left or right. 
@@ -2337,15 +2667,17 @@ When choosing Skills, consider your Character's background. What fields of knowl
   * You can add at most `7` Skills. 
   * All Skills added this way but be at least Level `1`.
 
-#### Determine Boons from Ancestry
-It is possible for a Character to receive permanent boons or penalties during Character creation, based upon their ancestry. This is entirely at the GM's discretion and subject to their world. When choosing ancestry-based Skill boons, keep the number low. One or two boons at most. These are narratively based and fairly unique starting conditions for a Character. 
+#### Determine Character Traits
+During Character Creation, every PC may have one [Trait](#character-traits) from the [list of Traits](#list-of-character-traits). You may choose freely from that list. 
+
+It is also possible for a Character to receive permanent boons or penalties based upon their ancestry. This is entirely at the GM's discretion and subject to their world. The number of ancestry-based boons should be kept low. One or two, at most. These are narratively based and fairly unique starting conditions for a Character. 
 
 ### Determine Derived Attributes
-Determine your Character's [maximum HP](#health-points-hp), by referring to the [Toughness](#toughness-tough) attribute. 
+Determine your Character's [maximum HP](#health-points-hp), by referring to the [Toughness](#toughness-tough) Attribute. 
 
-Determine your Character's [maximum Stamina](#stamina--strain), by referring to the [Toughness](#toughness-tough) attribute. 
+Determine your Character's [maximum Stamina](#stamina--strain), by referring to the [Toughness](#toughness-tough) Attribute. 
 
-Determine your Character's [Carrying Capacity](#carrying-capacity). Refer to the [Strength](#strength-str) attribute to do so. Once you have this number, you know how much [Luggage](#luggage) your Character can carry around. 
+Determine your Character's [Carrying Capacity](#carrying-capacity). Refer to the [Strength](#strength-str) Attribute to do so. Once you have this number, you know how much [Luggage](#luggage) your Character can carry around. 
 
 ### Determine Assets
 In most cases, your Character will have left home with their everyday clothes and some of their Property. 
@@ -2358,68 +2690,16 @@ The following list does not and cannot aim to be a complete listing of all possi
 ### General Assets
 The following is a non-exhaustive list of general Assets. Just because an Asset you're looking for isn't listed here, doesn't mean it cannot exist! You are encouraged to think creatively and to [Invent](strive-core.md#invention-projects) your own!
 
-In the following table, `Q` refers to the quality grade of the Asset. See also the [Crafting](#crafting--research-projects) rules. For normal every-day Assets, substitute `Q` with `2`.
+In the following table, `Q` refers to the Quality of the Asset. See also the [Crafting](#crafting--research-projects) rules. For normal every-day Assets, substitute `Q` with `2`.
 
-When looking up products for crafting, the tools and materials required for the craft are not noted here. The materials and resources available to you, and which exist in your world simply cannot be predicted here. Instead, think creatively - what *could* you use to make the thing? What do you have available? Find a creative way to use what you have, to make what you want and ask your GM for the final go-ahead. However, the [Progress Increment (PI)](#progressing-a-project) and [Time Increment (TI)](#progressing-a-project) are noted. Particularly rare, valuable and suitable materials may act as [Project Boosters](#project-boosters). Some Assets may harder or easier to make at higher qualities, as noted by the *Crafting Ob*, which, if noted, is the modifier applied to *every* [Project Skill Test](#progressing-a-project).
+When looking up products for Crafting, the specific tools and materials required for the Craft are not noted here. Those will be determined by the GM. Think creatively - *how could you make the thing?* *What materials and tools do you have available?*
 
-| Name                   | Bulk | Max. Stack Size | PI  | TI         | Crafting Ob | Description                                                              |
-| ---------------------- | ---- | --------------- | --- | ---------- | ----------- | ------------------------------------------------------------------------ |
-| Antidote               | 1    | 4               | 20  | 10 Minutes |             | This unassuming liquid can make the difference between life and death. Removes `Q` points of [Poisoned](#poisoned). If no points remain, instead immediately [Treats](#injury-states--treatment) an [Injury](#injury) caused by [Poison](#damage-types) |
-| Medical Supplies       | 1    | 5               | 20  | 10 Minutes |             | A small satchel of clean bandages, thread and needle for suturing, a clean and sharp knife, a splint and straps for binding. Is used in the [Treatment](#injury-states--treatment) of various [Injuries](#injury). |
-| Objet d'art            | 1    | 1               | 20  | 10 Minutes |             | A painting, sculpture or other art piece. |
-| Ration                 | 1    | 10              | 10  | 30 Minutes |             | A ration of preserved food and drink, enough for a whole day. |
-
-### Weapon Traits
-Weapon type Assets can have the following traits:
-
-#### Melee
-<img src="../../img/melee-1.svg" style="width: 3rem; height: 3rem;"></img>
-
-Allows attacking an adjacent target.
-
-#### Long Reach
-<img src="../../img/melee-2.svg" style="width: 3rem; height: 3rem;"></img>
-
-Allows attacking a target two Squares away. 
-
-#### Very Long Reach
-<img src="../../img/melee-3.svg" style="width: 3rem; height: 3rem;"></img>
-
-Allows attacking a target three Squares away. 
-
-#### Range Only
-<img src="../../img/ranged-only.svg" style="width: 3rem; height: 3rem;"></img>
-
-Implies a weapon cannot be used against any targets adjacent to self. 
-
-#### Prefer Range
-`+2` Ob to using the weapon against an adjacent target.
-
-#### Slow Reload
-Reloading the weapon costs `2` [AP](#action-points-ap).
-
-#### Very Slow Reload
-Reloading the weapon costs `3` [AP](#action-points-ap).
-
-#### Ranged
-<img src="../../img/ranged.svg" style="width: 3rem; height: 3rem;"></img>
-
-The weapon can be used against targets up to a noted distance away from the user. The range, in Squares, is noted in parentheses. This can either indicate a maximum distance, which cannot be exceeded, or a so-called **Distance Increment**, abbreviated **DI**, which may be exceeded, but with penalties.
-
-For every Distance Increment past the initial, an attack suffers `+1` Ob and deals `-2` points of damage. In other words, the farther you shoot, the harder it becomes to score an effective hit. 
-
-> A weapon with this Trait noted as `(max. 8)` can attack a target up to a maximum of `8` Squares away. 
-
-> A weapon with this Trait noted as `(10 DI)` has a Distance Increment of `10` Squares. Any attack up to and including `10` Squares incurs no penalties, but starting from the `11`th Square, the attack suffers `+1` Ob and if successful, deals `-2` points of damage less. Starting from the `21`st Square, `+2` Ob and `-4` points of damage, and so on.
-
-#### Serrated
-Melee attacks with this weapon cause an additional `+Q` points of Bleeding.
-
-#### Perfectly Balanced
-Melee attacks with this weapon receive `+1` [Compensation Point](#compensation-points). 
-
-#### Poison-Chamber
-Melee attacks with this weapon cause an additional `+Q` points of Poison damage. The poison-chamber must be refilled after every use. 
+| Name                   | Bulk | Max. Stack Size | Work-Rate / PI    | Description                                                              |
+| ---------------------- | ---- | --------------- | ----------------- | ------------------------------------------------------------------------ |
+| Antidote               | 1    | 4               | `3 / QoD` / `12`  | This unassuming liquid can make the difference between life and death. Removes `Q` points of [Poisoned](#poisoned). If no points remain, instead immediately [Treats](#injury-treatment) an [Injury](#injury) caused by [Poison](#damage-types) |
+| Medical Supplies       | 1    | 5               | `4 / QoD` / `8`   | A small satchel of clean bandages, thread and needle for suturing, a clean and sharp knife, a splint and straps for binding. Is used in the [Treatment](#injury-treatment) of various [Injuries](#injury). |
+| Objet d'art            | 1    | 1               | `3 / QoD` / `12`  | A painting, sculpture or other art piece. |
+| Ration                 | 1    | 10              | `4 / QoD` / `5`   | A ration of preserved food and drink, enough for a [QoD](#quarters-of-a-day-qod). |
 
 ## Lists of Skills
 The following list does not and cannot aim to be a complete listing of all possible Skills in game. Adding new Skills as necessary will have to be done by the GM. Nevertheless, most general need should be covered. 
@@ -2434,24 +2714,24 @@ Performing acrobatic feats, such as jumping, tumbling and climbing, without inju
 
 | Level | Name                 | AP | Ob      | Description        |
 | ----- | -------------------- | -- | ------- | ------------------ |
-| 1     | Deft Evasion         | /  | /       | **Passive**: While not wearing any [Armor](#armor) and not wielding a shield of Bulk `2` or more, gain `+1` [Compensation Point](#compensation-points) to any [Defense Test](#defending) made using this Skill and increase your [Stability](#stability-stabil) by `+1`! |
-| 2     | Wind Out Of It       | 2  | 2       | When hit by an attack, lose `-1` [Stamina](#stamina--strain), wind out of the hit and... <br> `≤ 1` Hit: suffer `3` points of damage less. <br> `= 2` Hits: suffer `5` points of damage less <br> `≥ 3` Hits: suffer `8 or half (RU)` damage less, picking whichever number is higher. |
+| 1     | Deft Evasion         |    |         | **Passive**: While not wearing any [Armor](#armor) and not wielding a shield of Bulk `2` or more, gain `+1` [Edge](#edge) to any [Defense Test](#defending) made using this Skill and increase your [Stability](#stability-stabil) by `+1`! |
+| 2     | Wind Out Of It       | 2  | 2       | When hit by an Attack, lose `-1` [Stamina](#stamina--strain), wind out of the hit and... <br> `≤ 1` Hit: suffer `3` points of Damage less. <br> `= 2` Hits: suffer `5` points of Damage less <br> `≥ 3` Hits: suffer `8 or half (RU)` Damage less, picking whichever number is higher. |
 
 #### Berserking (Tough/Tough)
 Whether as a well-honed skill and way of life, or through a disappointing childhood of misery and pain, Berserking is a Skill for fighting angrily and recklessly. It allows a fighter to keep fighting at surprising strength, even when wounded. 
 
 | Level | Name                 | AP | Ob      | Description        |
 | ----- | -------------------- | -- | ------- | ------------------ |
-| 0     | Reckless Assault     | 1  | /       | Gain `+1` [Compensation Point](#compensation-points) for your next attack. Suffer a `-1D` penalty to all [Defense Tests](#defending) until the start of your next Turn. |
-| 1     | Grit Your Teeth      | /  | /       | **Reaction**: Upon suffering an [Injury](#injury), gain an *additional* [Grit Point](#grit-points), but at the cost of `+1` [Strain](#stamina--strain)! |
-| 1     | Hit me? Hit you!     | 1  | /       | **Reaction**: Upon suffering damage, immediately hit your attacker back, dealing `Str` Bludgeoning damage to them. Lose `-1` [Stamina](#stamina--strain)! |
-| 1     | The Blood Quickens!  | 1  | /       | Increase your [Stamina](#stamina--strain) by `+1` for every point in [Bleeding](#bleeding) you currently have, but also increase your Bleeding by `+1`! |
-| 2     | Pain is Strength     | 2  | /       | **Reaction** Upon successfully attacking a foe, for every active [Injury](#injury) you currently have, deal <br> `≤ 1` Hit: `2` Bludgeoning <br> `= 2` Hits: `4` Bludgeoning <br> `≥ 3` Hits: `6` Bludgeoning <br> as additional damage. You lose `-1` [Stamina](#stamina--strain). |
+| 0     | Reckless Assault     | 1  |         | Gain `+1` [Edge](#edge) for your next Attack. Suffer a `-1D` penalty to all [Defense Tests](#defending) until the start of your next Turn. |
+| 1     | Grit Your Teeth      |    |         | **Reaction**: Upon suffering an [Injury](#injury), gain an *additional* [Grit Point](#grit-points), but at the cost of `+1` [Strain](#stamina--strain)! |
+| 1     | Hit me? Hit you!     | 1  |         | **Reaction**: Upon suffering Damage, immediately hit your Attacker back, dealing `Str` Bludgeoning Damage to them. Lose `-1` [Stamina](#stamina--strain)! |
+| 1     | The Blood Quickens!  | 1  |         | Increase your [Stamina](#stamina--strain) by `+1` for every point in [Bleeding](#bleeding) you currently have, but also increase your Bleeding by `+1`! |
+| 2     | Pain is Strength     | 2  |         | **Reaction** Upon successfully Attacking a foe, for every active [Injury](#injury) you currently have, deal <br> `≤ 1` Hit: `2` Bludgeoning <br> `= 2` Hits: `4` Bludgeoning <br> `≥ 3` Hits: `6` Bludgeoning <br> as additional Damage. You lose `-1` [Stamina](#stamina--strain). |
 | 3     | Injury Collector     | 0  | 2       | **Reaction**: Upon suffering an [Injury](#injury), suffer an **additional** Injury and its Grit Point, and immediately set both Injuries to Treated. |
 
-| Level | <img src="../../img/heroic-acts.svg" width="64px" height="64px"></img> | Heroic Act Description | Desperate Measure Description | <img src="../../img/desperate-measures.svg" width="64px" height="64px"></img> |
-| ----- | ----------------------- | ---------------------- | ----------------------------- | --------------------------- |
-| 4     | I LOVE PAIN             | **You** gain `+1` [Grit Point](#grit-points) for every [Injury](#injury) **you** currently have. Decreases Momentum by `-15`. | **You** and one chosen PC gain `+1` [Grit Point](#grit-points) for every [Injury](#injury) **you** currently have. You both suffer `+1` [Strain](#stamina--strain). Increases Momentum by `+15`. | SHARE THE PAIN |
+| Level | Heroic Act <br><img src="../../img/heroic-acts.svg" width="64px" height="64px"></img> | Heroic Act Momentum Shift | Heroic Act Description | Desperate Measure Description | Desperate Measure Momentum Shift | Desperate Measure <br><img src="../../img/desperate-measures.svg" width="64px" height="64px"></img> |
+| ----- | ------------------------------------------------------------------------------------- | ------------------------- | ---------------------- | ----------------------------- | -------------------------------- | --------------------------------------------------------------------------------------------------- |
+| 4     | I LOVE PAIN | `-20` | **You** gain `+1` [Grit Point](#grit-points) for every [Injury](#injury) **you** currently have. | **You** and one chosen PC gain `+1` [Grit Point](#grit-points) for every [Injury](#injury) **you** currently have. You both suffer `+3` [Strain](#stamina--strain). | `+20` | SHARE THE PAIN |
 
 #### Driving (Awar/Wit)
 The ability to drive a (motorized) vehicle. 
@@ -2486,7 +2766,7 @@ Pickpocketing and lockpicking.
 
 | Level | Name                 | AP | Ob      | Description        |
 | ----- | -------------------- | -- | ------- | ------------------ |
-| 2     | Exploit Distraction  | 1  | 2       | When a foe is attacked by an ally, and you are adjacent to that foe, you may exploit the moment to steal something from their pockets. Can only be used if the Foe *has* pockets. |
+| 2     | Exploit Distraction  | 1  | 2       | When a foe is Attacked by an ally, and you are adjacent to that foe, you may exploit the moment to steal something from their pockets. Can only be used if the Foe *has* pockets. |
 
 #### Observation (Awar/Awar)
 Actively looking out for and detecting hidden things or Characters. 
@@ -2505,11 +2785,11 @@ For any ally next to you, who's also using a shield, you both gain `+1D` on your
 
 | Level | Name                 | AP | Ob      | Description        |
 | ----- | -------------------- | -- | ------- | ------------------ |
-| 2     | Shield Slam          | 2  | Opposed | When using a shield... `≤ 1` Hit: Push a ST back by `1` Square. <br> `= 2` Hits: `Str` Bludgeoning damage; Push a ST back by `1` Square. <br> `≥ 3` Hits: `Str * 2` Bludgeoning damage; Knock a ST [Prone](#prone) or push them `2` Squares back. |  |
+| 2     | Shield Slam          | 2  | Opposed | When using a shield... `≤ 1` Hit: Push a ST back by `1` Square. <br> `= 2` Hits: `Str` Bludgeoning Damage; Push a ST back by `1` Square. <br> `≥ 3` Hits: `Str * 2` Bludgeoning Damage; Knock a ST [Prone](#prone) or push them `2` Squares back. |  |
 
-| Level | <img src="../../img/heroic-acts.svg" width="64px" height="64px"></img> | Heroic Act Description | Desperate Measure Description | <img src="../../img/desperate-measures.svg" width="64px" height="64px"></img> |
-| ----- | ----------------------- | ---------------------- | ----------------------------- | --------------------------- |
-| 4     | Launch! | An adjacent ally jumps onto your shield, as you brace yourself and then, in a fluid motion, launch them over you. This way, your ally may travel up to `N * 1` Squares, where *N* is your [Strength](#strength-str), without provoking [Attacks of Opportunity](#opportunity-attacks). If they land on or near a foe, they may make an immediate free attack against that foe. Decreases Momentum by `-15`. | An adjacent ally jumps onto your shield, as you brace yourself and then, with all your might, in a fluid motion, launch them over you. This way, your ally may travel up to `N * 2`, where *N* is your [Strength](#strength-str), without provoking [Attacks of Opportunity](#opportunity-attacks). If they land on or near a foe, they may make an immediate free attack against that foe, with `+1` [Compensation Point](#compensation-points). *However*, **you** suffer `+1` [Strain](#stamina--strain). Increases Momentum by `+15`. | Strained Launch |
+| Level | Heroic Act <br><img src="../../img/heroic-acts.svg" width="64px" height="64px"></img> | Heroic Act Momentum Shift | Heroic Act Description | Desperate Measure Description | Desperate Measure Momentum Shift | Desperate Measure <br><img src="../../img/desperate-measures.svg" width="64px" height="64px"></img> |
+| ----- | ------------------------------------------------------------------------------------- | ------------------------- | ---------------------- | ----------------------------- | -------------------------------- | --------------------------------------------------------------------------------------------------- |
+| 4     | Launch! | `-15` | An adjacent ally jumps onto your shield, as you brace yourself and then, in a fluid motion, launch them over you. This way, your ally may travel up to your `Strength` Squares, without provoking [Attacks of Opportunity](#opportunity-Attacks). If they land adjacent to a foe, they may make an immediate free Attack against that foe. | An adjacent ally jumps onto your shield, as you brace yourself and then, with all your might, in a fluid motion, launch them over you. This way, your ally may travel up to your `Strength * 2` Squares, without provoking [Attacks of Opportunity](#opportunity-Attacks). If they land adjacent to a foe, they may make an immediate free Attack against that foe, with `+1` [Edge](#edge). *However*, **you** suffer `+3` [Strain](#stamina--strain). | `+15` | Strained Launch |
 
 #### Trapping (Awar/Wit)
 Setting traps in places where they're difficult to detect and the ability to disarm them. Used to set traps such as bear traps, pits filled with spikes, land mines and so on.
@@ -2522,23 +2802,31 @@ General expertise at throwing things. This includes weapons as well as non-weapo
 See [Throwing](#throwing). 
 
 #### Unarmed Combat (Agi/Str)
-Sometimes, your own body is your greatest weapon. Fists and feet can cause a surprising amount of damage. 
+Sometimes, your own body is your greatest weapon. Fists and feet can cause a surprising amount of Damage. 
 
-Traits: [Melee](#melee), [FS](#free-strike-fs): `Str`
+Traits: [Melee](#foundational-weapon-traits), [FS](#free-strike-fs): `Str`
 
 | Level | Name                       | AP | Ob                                   | Description           |
 | ----- | -------------------------- | -- | ------------------------------------ | --------------------- |
 | 0     | Punch, Kick, Headbutt      | 2  | Opposed                              | `≤ 1` Hit: `Str` Bludgeoning <br> `= 2` Hits: `Str * 2` Bludgeoning <br> `≥ 3` Hits: `Str * 2` Bludgeoning; Knock your opponent [Prone](#prone) |
-| 0     | Shove                      | 2  | Opposed by [Strength](#strength-str) | `≤ 1` Hit: Push a target `1` Square. <br> `= 2` Hits: Push a target `2` Squares and take their place, if you desire. Does not provoke [Opportunity Attacks](#opportunity-attacks). <br> `≥ 3` Hits: Push a target `1 + Str` Squares and take their place, if you desire. Does not provoke [Opportunity Attacks](#opportunity-attacks). |
+| 0     | Shove                      | 2  | Opposed by [Strength](#strength-str) | `≤ 1` Hit: Push a target `1` Square. <br> `= 2` Hits: Push a target `2` Squares and take their place, if you desire. Does not provoke [Opportunity Attacks](#opportunity-Attacks). <br> `≥ 3` Hits: Push a target `1 + Str` Squares and take their place, if you desire. Does not provoke [Opportunity Attacks](#opportunity-Attacks). |
 | 1     | Grapple                    | 2  | Opposed by Unarmed Combat            | [Grapple](#grappled) a target. You can not use at least one hand for as long as you're grappling. <br> `≤ 1` Hit: The target is [Grappled](#grappled). <br> `= 2` Hits: The target is [Grappled](#grappled) and knocked [Prone](#prone) or disarmed, if possible. <br> `≥ 3` Hits: The target is [Grappled](#grappled), knocked [Prone](#prone) and disarmed, if possible. |
-| 3     | Be My Shield!              | 2  | /                                    | **Reaction**: If grappling an enemy and being hit with an attack, make *them* take the hit, instead. The grappled enemy gets **no chance** to defend themself. |
+| 3     | Be My Shield!              | 2  | /                                    | **Reaction**: If grappling an enemy and being hit with an Attack, make *them* take the hit, instead. The grappled enemy gets **no chance** to defend themself. |
 
-| Level | <img src="../../img/heroic-acts.svg" width="64px" height="64px"></img> | Heroic Act Description | Desperate Measure Description | <img src="../../img/desperate-measures.svg" width="64px" height="64px"></img> |
-| ----- | ----------------------- | ---------------------- | ----------------------------- | --------------------------- |
-| 4     | Hammer and Anvil        | All PCs may immediately attack one foe, dealing `Strength * 3` points of Bludgeoning damage and force-moving their foe by `Strength` Squares. Multiple PCs may attack the same foe, each increasing the distance by `+1` Square. Decreases Momentum by `-15`. | A PC may immediately attack one adjacent foe, dealing `Strength * 3` points of Bludgeoning damage and force moving their foe by `Strength * 2` Squares, but also pushing themself in the opposite direction by the same distance. Increases Momentum by `+15`. | All Anvil |
+| Level | Heroic Act <br><img src="../../img/heroic-acts.svg" width="64px" height="64px"></img> | Heroic Act Momentum Shift | Heroic Act Description | Desperate Measure Description | Desperate Measure Momentum Shift | Desperate Measure <br><img src="../../img/desperate-measures.svg" width="64px" height="64px"></img> |
+| ----- | ------------------------------------------------------------------------------------- | ------------------------- | ---------------------- | ----------------------------- | -------------------------------- | --------------------------------------------------------------------------------------------------- |
+| 4     | Hammer and Anvil | `-15` | A PC may immediately Attack a foe, dealing `Strength` points of Bludgeoning Damage and Force-Moving the foe by `Strength` Squares. Adjacent allies may assist, each providing `+1` Square of movement. | A PC may immediately Attack an adjacent foe, dealing `Strength * 2` points of Bludgeoning Damage and force moving their foe by `Strength * 2` Squares, but also pushing themself in the opposite direction by the same distance. | `+15` | All Anvil |
 
-#### Weapon < [Weapon Type](#weapon-types) > (< attribute >)
-Expertise at handling a close-quarters or ranged weapon of a specific [Weapon Type](#weapon-types). 
+#### Weapon < Weapon-Family > (< Base Attributes >)
+Handling a weapon of a specific [Weapon-Family](#weapon-family). 
+
+Add Expertises to this Skill that define the available ways to use its respective weapon type. When doing so, keep in mind the normal structure for Damage-dealing Attacks, as outlined in [Attacking](#attacking). You may use the following as a template to define an [Attack's Profile](#damage--effects): `≤ 1` Hit: `X` Damage-Type <br> `= 2` Hits: `Y` Damage-Type <br> `≥ 3` Hits: `Z` Damage-Type<br>But also note that you are **not required** to add an Attack Profile to every Expertise! Some Expertises may have a constant, or simple effect, that doesn't require or benefit from gradings. 
+
+> For example: **Reaction**: Upon one of your allies attacking a foe, use the opportunity to move yourself `1` Square.
+> 
+> This may be all you need. A grading would force you to add escalating effects, but perhaps it is well balanced, as it is. Adding gradings would threaten that balance. Or might simply be more bother to add than you care for at the moment, which is totally fine!
+
+Note that any Attack Profile you define, is the **normal**, unmodified Attack Profile. Weapon Assets may modify this Attack Profile, and those changes can be incorporated into the Skill once the specific Weapon Asset is being wielded by the Character, to save yourself the hassle of looking that data up. Of course, once the Weapon Asset is unequipped, its modifications on the Skill must be reverted. 
 
 ### Social Skills
 These Skills have a dominant social aspect and are strongly related to a Character's *social Attributes*. 
@@ -2551,21 +2839,21 @@ A vital skill in stage-play for honest entertainment and just as important to li
 #### Animal Handling (Awar/Awar)
 Gaining an animal's trust, directing it and training it to obey simple commands. 
 
-Is opposed by [Self-Control](#self-control-toughtough). 
+Is opposed by [Self-Control](#self-control-toughwit). 
 
 | Level | Name                 | AP | Ob      | Description        |
 | ----- | -------------------- | -- | ------- | ------------------ |
 | 0     | Command Animal       | 2  | 1       | Issue a *simple* command to a tamed/friendly animal. |
-| 2     | Calm Animal          | 2  | Opposed by [Self-Control](#self-control-toughtough) | Calm an aggressive/hostile/frightened animal down. If unsuccessful, the next attempt becomes `+1` Ob more difficult. |
+| 2     | Calm Animal          | 2  | Opposed by [Self-Control](#self-control-toughwit) | Calm an aggressive/hostile/frightened animal down. If unsuccessful, the next attempt becomes `+1` Ob more difficult. |
 
 #### Commanding (Tough/Wit)
 Speaking commands with booming authority.
 
 | Level | Name                   | AP | Ob      | Description        |
 | ----- | ---------------------- | -- | ------- | ------------------ |
-| 0     | Focus!                 | 1  | 1       | <br> `≤ 1` Hit: Grant another Character `+1D` for their next Test. <br> `= 2` Hits: Grant another Character `+2D` for their next Test. <br> `≥ 3` Hits: Grant another Character `+1` Compensation Point for their next Test. <br> Suffer `-1` [Stamina](#stamina--strain). |
+| 0     | Focus!                 | 1  | 1       | <br> `≤ 1` Hit: Grant another Character `+1D` for their next Test. <br> `= 2` Hits: Grant another Character `+2D` for their next Test. <br> `≥ 3` Hits: Grant another Character `+1` Edge for their next Test. <br> Suffer `-1` [Stamina](#stamina--strain). |
 | 0     | Shake It Off!          | 2  | 2       | Remove another Character's [Exhausted](#exhausted) or [Terrified](#terrified) [Condition](#condition). |
-| 0     | Taunt                  | 2  | Opposed by [Self-Control](#self-control-toughtough) | <br> `≤ 1` Hit: Force a designated target to attack *you* on their next Turn. <br> `= 2` Hits: Force a designated target to attack *you* on their next Turn, at Ob `+1`. <br> `≥ 3` Hits: Force up to two designated targets to attack *you* on their next Turn, at Ob `+1`. |
+| 0     | Taunt                  | 2  | Opposed by [Self-Control](#self-control-toughwit) | <br> `≤ 1` Hit: Force a designated target to Attack *you* on their next Turn. <br> `= 2` Hits: Force a designated target to Attack *you* on their next Turn, at Ob `+1`. <br> `≥ 3` Hits: Force up to two designated targets to Attack *you* on their next Turn, at Ob `+1`. |
 | 1     | Hit That One!          | 1  |         | [Mark](#marked) a ST of choice. Moving your Mark to a different target, clears it from the previous one. |
 | 1     | Back Off, Fool!        | 1  | Opposed by [Toughness](#toughness-tough) | <br> `≤ 1` Hit: Force a designated target to back away from you for `1` Square. <br> `= 2` Hits: Force a designated target to back away from you for `2` Squares. <br> `≥ 3` Hits: Force up to two designated targets to back away from you for `2` Squares. |
 | 2     | Deep Lungs             |    | 2       | Once per Round, immediately grant yourself `+1` [AP](#action-points-ap), but suffer `-1` [Stamina](#stamina--strain). |
@@ -2578,13 +2866,13 @@ Requirement: Commanding Level `4`; A position of authority.
 | Level | Name                   | AP | Ob      | Description        |
 | ----- | ---------------------- | -- | ------- | ------------------ |
 | 0     | Put Your Back Into It! | 1  | 2       | **Reaction**: Upon an ally [Force Moving](#forced-movement) another Character, increase the distance by your Hits past the Ob you achieve. |
-| 0     | Protect Me!            | 1  | /       | **Reaction**: Upon being attacked, force an ally adjacent to you to defend to defend in your stead and grant them `+1` [Compensation Point](#compensation-points) for the Defense Test. |
-| 1     | You! Attack Already!   | 1  | 3       | An ally of choice gains `+1D` on their next Attack Test, which they must immediately make against a ST, within reach. You may choose the target in question, or let your ally decide. But they *must* attack! This attack does **not** cost your ally any additional [AP](#action-points-ap)! |
+| 0     | Protect Me!            | 1  | /       | **Reaction**: Upon being Attacked, force an ally adjacent to you to defend to defend in your stead and grant them `+1` [Edge](#edge) for the Defense Test. |
+| 1     | You! Attack Already!   | 1  | 3       | An ally of choice gains `+1D` on their next Attack Test, which they must immediately make against a ST, within reach. You may choose the target in question, or let your ally decide. But they *must* Attack! This Attack does **not** cost your ally any additional [AP](#action-points-ap)! |
 | 2     | Faster, You Slouch!    | 2  | 2       | An ally of choice is [Hasted](#hasted) for `1` Round. |
 
-| Level | <img src="../../img/heroic-acts.svg" width="64px" height="64px"></img> | Heroic Act Description | Desperate Measure Description | <img src="../../img/desperate-measures.svg" width="64px" height="64px"></img> |
-| ----- | ----------------------- | ---------------------- | ----------------------------- | --------------------------- |
-| 4     | You Die When I Say! | An ally of choice is marked. When their HP are about to be reduced to `0`, they are instead reduced to `1`. Your ally does not die, but suffers `+5` [Strain](#stamina--strain)! Decreases Momentum by `-35`. | An ally of choice is marked. When their HP are about to be reduced to `0`, they are instead set to your own current HP, plus `10` [Temporary HP](#temporary-health-points) and yours are reduced to `1`. You suffer `+3` [Strain](#stamina--strain). Increases Momentum by `+10`. | I Take The Fall! |
+| Level | Heroic Act <br><img src="../../img/heroic-acts.svg" width="64px" height="64px"></img> | Heroic Act Momentum Shift | Heroic Act Description | Desperate Measure Description | Desperate Measure Momentum Shift | Desperate Measure <br><img src="../../img/desperate-measures.svg" width="64px" height="64px"></img> |
+| ----- | ------------------------------------------------------------------------------------- | ------------------------- | ---------------------- | ----------------------------- | -------------------------------- | --------------------------------------------------------------------------------------------------- |
+| 4     | You Die When I Say! | `-35` | An ally of choice is marked. When their HP are about to be reduced to `0`, they are instead reduced to `1`. Your ally does not die, but suffers `+5` [Strain](#stamina--strain)! Only one ally may be marked in this way, at the same time. When this Heroic Act is used again, its mark replaces the previous one. | An ally of choice is marked. When their HP are about to be reduced to `0`, they are instead set to your own HP in that moment, plus `10` [Temporary HP](#temporary-health-points) and your HP are reduced to `1`. You suffer `+3` [Strain](#stamina--strain). Only one ally may be marked in this way, at the same time. When this Desperate Measure is used again, its mark replaces the previous one. | `+10` | I Take The Fall! |
 
 #### Entertainment (Agi/Wit)
 The ability to juggle, perform tricks with cards, to perform "magic" tricks and such - anything requiring nimble fingers and flashy presentation, for the entertainment of others. 
@@ -2603,7 +2891,7 @@ Whether you speak truth or falsehood makes no difference to your audience. You w
 
 Of course, this begs the question - how to know if another Character *is* lying? Barring any evidence or knowledge to the contrary, Characters can only determine whether they believe the *act* of the other Character. Does it *seem* like they're speaking the truth? You may Oppose their Persuasion attempt with [Observation](#observation-awarawar). But even if you succeed, your GM should not outright tell you whether you *are* being deceived. Instead, they should give you hints - faults in the *act* of the other Character - a nervous twitch, a strange pitch in the voice, avoiding eye-contact, visible sweat and similar tells. And even then, *you* will have to figure out whether you are being deceived. 
 
-If you are trying to convince someone else to act or behave a certain way, they may Oppose this with [Self-Control](#self-control-toughtough). You may also try to intimidate someone else to the same effect. Whether you succeed should largely depend on whether circumstance favors your side. You may also intimidate someone by blackmailing them. But whether you succeed depends on whether you can prove your threats aren't empty. 
+If you are trying to convince someone else to act or behave a certain way, they may Oppose this with [Self-Control](#self-control-toughwit). You may also try to intimidate someone else to the same effect. Whether you succeed should largely depend on whether circumstance favors your side. You may also intimidate someone by blackmailing them. But whether you succeed depends on whether you can prove your threats aren't empty. 
 
 Successfully persuading someone should rarely yield an absolute result. Even if your attempt has scored many Hits and your words are masterfully spoken, another Character may still remain sceptical. They may believe your words, but you won't change their entire way of thinking *just like that*. Like real people in the real world, the other Character may ponder your words for a while before agreeing or even disagreeing. But they are likely open to further conversation.
 
@@ -2613,9 +2901,9 @@ Riding and controling a mount. In and outside of [Combat](#combat), a rider will
 | Level | Name                 | AP | Ob     | Description        |
 | ----- | -------------------- | -- | ------ | ------------------ |
 | 1     | Spur                 | 1  | 1      | Your mount gains `+2` AP. You and your mount suffer `+1` [Strain](#stamina--strain). May only be used once per Round. |
-| 3     | Mounted Charge       | 3  | 3      | Perform a mounted charge attack, moving up to `3` AP worth of distance, launch a free attack on a ST along the path and deal an additional... <br> `≤ 1` Hit: `3` points of Bludgeoning damage. <br> `= 2` Hits: `6` points of Bludgeoning damage. <br> `≥ 3` Hits: `10` points of Bludgeoning damage. |
+| 3     | Mounted Charge       | 3  | 3      | Perform a mounted charge Attack, moving up to `3` AP worth of distance, launch a free Attack on a ST along the path and deal an additional... <br> `≤ 1` Hit: `3` points of Bludgeoning Damage. <br> `= 2` Hits: `6` points of Bludgeoning Damage. <br> `≥ 3` Hits: `10` points of Bludgeoning Damage. |
 
-#### Self-Control (Tough/Tough)
+#### Self-Control (Tough/Wit)
 Mastery of one's own impulses. Used to stay awake past the point of exhaustion and to not act on emotional impulse. 
 
 ### Knowledge Skills
@@ -2638,12 +2926,12 @@ Types/families are the broad terms that describe multiple specific creatures as 
 
 | Level | Name                 | AP | Ob      | Description        |
 | ----- | -------------------- | -- | ------- | ------------------ |
-| 1     | I Know Your Weakness | /  | /       | **Passive**: Every creature has weak-points. You know how to aim for them and deal `+4` points of Pure damage on a successful attack, *if* this is a creature of the category you are familar with. |
-| 2     | I Know Your Strength | 1  | 2       | **Reaction**: When you are hit by a creature you are familiar with, you suffer...<br> `≤ 1` Hit: `2` <br> `= 2` Hits: `3` <br> `≥ 3` Hits: `5` <br>...fewer points of damage, *if* this is a creature of the category you are familar with. Their effective damage against you cannot be reduced to less than `1` by this. |
+| 1     | I Know Your Weakness | /  | /       | **Passive**: Every creature has weak-points. You know how to aim for them and deal `+4` points of Pure Damage on a successful Attack, *if* this is a creature of the category you are familar with. |
+| 2     | I Know Your Strength | 1  | 2       | **Reaction**: When you are hit by a creature you are familiar with, you suffer...<br> `≤ 1` Hit: `2` <br> `= 2` Hits: `3` <br> `≥ 3` Hits: `5` <br>...fewer points of Damage, *if* this is a creature of the category you are familar with. Their effective Damage against you cannot be reduced to less than `1` by this. |
 
-| Level | <img src="../../img/heroic-acts.svg" width="64px" height="64px"></img> | Heroic Act Description | Desperate Measure Description | <img src="../../img/desperate-measures.svg" width="64px" height="64px"></img> |
-| ----- | ----------------------- | ---------------------- | ----------------------------- | --------------------------- |
-| 3     | No You Don't! | Until the end of combat, as a Reaction once per Round, **you** may interrupt a single chosen foe's current action, at the cost of `1` [AP](#action-points-ap). The foe's action never comes to pass, yet their [AP](#action-points-ap) are wasted. *However*, you can only choose foes of the category you are familiar with. Decreases Momentum by `-30`. | Until the end of combat, as a Reaction once per Round, **you** may redirect *any* single foe's current action, at no [AP](#action-points-ap) cost. The foe's action **must** target **you**, but they suffer `+1` Ob. *However*, you can only choose foes of the category you are familiar with. Increases Momentum by `+15`. | Hey! Try Me! |
+| Level | Heroic Act <br><img src="../../img/heroic-acts.svg" width="64px" height="64px"></img> | Heroic Act Momentum Shift | Heroic Act Description | Desperate Measure Description | Desperate Measure Momentum Shift | Desperate Measure <br><img src="../../img/desperate-measures.svg" width="64px" height="64px"></img> |
+| ----- | ------------------------------------------------------------------------------------- | ------------------------- | ---------------------- | ----------------------------- | -------------------------------- | --------------------------------------------------------------------------------------------------- |
+| 3     | No You Don't! | `-30` | Until the end of Combat, up to `3` times, as a Reaction once per Round, you may interrupt a single chosen foe's current Action or Reaction, at the cost of `1` [AP](#action-points-ap), which then never comes to pass, yet their [AP](#action-points-ap) are wasted. You can **not** interrupt Legendary Actions or Hostility Actions and you can only choose foes of the category you are familiar with. | Until the end of combat, as a Reaction once per Round, you may redirect *any* single foe's current Action or Reaction, at no [AP](#action-points-ap) cost to yourself. The foe's Action or Reaction **must target you** (even if it normally couldn't), but they suffer `+1` Ob. You can **not** redirect Legendary Actions or Hostility Actions and you can only choose foes of the category you are familiar with. | `+15` | Hey! Try Me! |
 
 #### Geography (Awar/Wit)
 Knowledge about the geography of the world. Used to recall the location of places in relation to each other. 
@@ -2656,9 +2944,9 @@ Every miner will have at least some amount of geological knowledge, even if they
 #### History (Wit/Wit)
 Knowledge about past events and locations. Make note of specific historical knowledge. 
 
-| Level | <img src="../../img/heroic-acts.svg" width="64px" height="64px"></img> | Heroic Act Description | Desperate Measure Description | <img src="../../img/desperate-measures.svg" width="64px" height="64px"></img> |
-| ----- | ----------------------- | ---------------------- | ----------------------------- | --------------------------- |
-| 3     | I Have Read Your Doom | Recite, with zealous ferocity, ancient lore that strikingly paints the doom of a single, chosen foe. *If* they are a sapient being that can understand you, they become [Terrified](#terrified) of you, for `1` Round. *If not*, then your calamitous prognostications inspire your allies. All *other* PCs and allies gain `+1` [Compensation Point](#compensation-points) to their next Test, until the end of the Round. Decreases Momentum by `-20`. | Recite, with zealous ferocity, ancient lore that strikingly paints the doom of **all**. *Any* sapient being that can understand you and who is **not an ally**, becomes [Terrified](#terrified) of you, for `1` Round. *However*, your calamitous prognostications dampen your allies' spirits. They suffer `+1` Ob for their next Test, until the end of the Round. Increases Momentum by `+10`. | Doom Is Upon Us! |
+| Level | Heroic Act <br><img src="../../img/heroic-acts.svg" width="64px" height="64px"></img> | Heroic Act Momentum Shift | Heroic Act Description | Desperate Measure Description | Desperate Measure Momentum Shift | Desperate Measure <br><img src="../../img/desperate-measures.svg" width="64px" height="64px"></img> |
+| ----- | ------------------------------------------------------------------------------------- | ------------------------- | ---------------------- | ----------------------------- | -------------------------------- | --------------------------------------------------------------------------------------------------- |
+| 3     | I Have Read Your Doom | `-20` | Recite, with zealous ferocity, ancient lore that strikingly paints the doom of a single, chosen foe. *If* they are a sapient being that can understand you, they become [Terrified](#terrified) of you, for `1` Round. *If not*, then your calamitous prognostications inspire your allies. All *other* PCs and allies gain `+1` [Edge](#edge) to their next Test, until the end of the Round. | Recite, with zealous ferocity, ancient lore that strikingly paints the doom of **all**. *Any* sapient being that can understand you and who is **not an ally**, becomes [Terrified](#terrified) of you, for `1` Round. *However*, your calamitous prognostications dampen your allies' spirits. They suffer `+1` Ob for their next Test, until the end of the Round. | `+10` | Doom Is Upon Us! |
 
 #### Law and politics (Wit/Wit)
 The ability to understand laws and politics. 
@@ -2682,11 +2970,11 @@ The ability to tell flora and fauna apart and to know of their attributes, such 
 
 | Level | Name                 | AP | Ob     | Description        |
 | ----- | -------------------- | -- | ------ | ------------------ |
-| 1     | Dirty Weapon/Ammo    | 2  | 2      | Grab some dirt or filth and rub it on a melee weapon or some ammo. When an [Attack](#attacking) with that weapon or the ammo inflicts an [Injury](#injury), the victim suffers `+1` point of [Poisoned](#poisoned). |
+| 1     | Dirty Weapon/Ammo    | 2  | 2      | Grab some dirt or filth and rub it on a melee weapon or some ammo. When an [Attack](#Attacking) with that weapon or the ammo inflicts an [Injury](#injury), the victim suffers `+1` point of [Poisoned](#poisoned). |
 
-| Level | <img src="../../img/heroic-acts.svg" width="64px" height="64px"></img> | Heroic Act Description | Desperate Measure Description | <img src="../../img/desperate-measures.svg" width="64px" height="64px"></img> |
-| ----- | ----------------------- | ---------------------- | ----------------------------- | --------------------------- |
-| 3     | Pack Tactics | All PCs may immediately and freely attack the same, single chosen foe. If the foe is struck down, all PCs earn `+1` [AP](#action-points-ap). Decreases Momentum by `-30`. | All *other* PCs may immediately and freely attack the same, single chosen foe. If the foe is struck down, all *other* PCs earn `+2` [AP](#action-points-ap). *However*, if the foe survives, then all *other* PCs suffer `+1` [Strain](#stamina--strain) and until the end of combat, **you** suffer `+1` Ob to attacks against that foe. Increases Momentum by `+20`. | Hunter's Remorse |
+| Level | Heroic Act <br><img src="../../img/heroic-acts.svg" width="64px" height="64px"></img> | Heroic Act Momentum Shift | Heroic Act Description | Desperate Measure Description | Desperate Measure Momentum Shift | Desperate Measure <br><img src="../../img/desperate-measures.svg" width="64px" height="64px"></img> |
+| ----- | ------------------------------------------------------------------------------------- | ------------------------- | ---------------------- | ----------------------------- | -------------------------------- | --------------------------------------------------------------------------------------------------- |
+| 3     | Pack Tactics | `-30` | All PCs may immediately and freely Attack the same, single chosen foe. If the foe is struck down, all PCs earn `+1` [AP](#action-points-ap). | All *other* PCs may immediately and freely Attack the same, single chosen foe. If the foe is struck down, all *other* PCs earn `+2` [AP](#action-points-ap). *However*, if the foe survives, then all *other* PCs suffer `+1` [Strain](#stamina--strain) and until the end of combat, **you** suffer `+1` Ob to Attacks against that foe. | `+20` | Hunter's Remorse |
 
 #### Mysticism and Religion (Wit/Wit)
 Knowledge about religions, legends and myths. May be used to recall knowledge about mythical creatures, artifacts and locations, as well as understand the local religion more easily. 
@@ -2700,14 +2988,14 @@ This Skill may also find use in forensics, to identify poisons or the type of we
 * [Medical Supplies](#general-assets) (5x)
 * [Antidote](#general-assets) (4x)
 
-| Level | <img src="../../img/heroic-acts.svg" width="64px" height="64px"></img> | Heroic Act Description | Desperate Measure Description | <img src="../../img/desperate-measures.svg" width="64px" height="64px"></img> |
-| ----- | ----------------------- | ---------------------- | ----------------------------- | --------------------------- |
-| 4     | Immediate Response      | **You** may immediately move up to `5` Squares and treat a chosen Character without needing [Medical Supplies](#general-assets) and without triggering [Opportunity Attacks](#opportunity-attacks). You get `+1` [Compensation Point](#compensation-points) for the treatment attempt. This does not cost you any [AP](#action-points-ap). Decreases Momentum by `-25`. | **You** may immediately move up to `10` Squares and treat a chosen Character without needing [Medical Supplies](#general-assets) and without triggering [Opportunity Attacks](#opportunity-attacks). You get `+2` [Compensation Points](#compensation-points) for the treatment attempt. This does not cost you any [AP](#action-points-ap). *However*, **you** suffer `+1` [Injury](#injury). Increases Momentum by `+15`. | Panic Medic |
+| Level | Heroic Act <br><img src="../../img/heroic-acts.svg" width="64px" height="64px"></img> | Heroic Act Momentum Shift | Heroic Act Description | Desperate Measure Description | Desperate Measure Momentum Shift | Desperate Measure <br><img src="../../img/desperate-measures.svg" width="64px" height="64px"></img> |
+| ----- | ------------------------------------------------------------------------------------- | ------------------------- | ---------------------- | ----------------------------- | -------------------------------- | --------------------------------------------------------------------------------------------------- |
+| 4     | Immediate Response | `-25` | **You** may immediately move up to `5` Squares and treat a chosen Character without needing [Medical Supplies](#general-assets) and without triggering [Opportunity Attacks](#opportunity-Attacks). You get `+1` [Edge](#edge) for the treatment attempt. This does not cost you any [AP](#action-points-ap). | **You** may immediately move up to `10` Squares and treat a chosen Character without needing [Medical Supplies](#general-assets) and without triggering [Opportunity Attacks](#opportunity-Attacks). You get `+2` [Edge](#edge) for the treatment attempt. This does not cost you any [AP](#action-points-ap). *However*, **you** suffer `+1` [Injury](#injury) *after* the treatment attempt. | `+15` | Panic Medic |
 
 #### Surgery (Agi/Wit)
 The ability to invasively treat ailments without making things worse for the patient. 
 
-Failing a Test of this Skill while treating a patient, causes the patient to suffer `N` [Slashing based Injuries](#injury--damage-type-table), where *N* is the number of Hits that were still needed to reach the Ob.
+Failing a Test of this Skill while treating a patient, causes the patient to suffer `N` [Slashing based Injuries](#damage-types), where *N* is the number of Hits that were still needed to reach the Ob.
 
 > Failing a Test at Ob `3`, by having achieved only `1` Hit, means the patient now suffers `+2` Injuries. 
 
@@ -2724,16 +3012,16 @@ This governs the understanding of what makes defensive structures effective and 
 | Level | Name                   | AP | Ob     | Description        |
 | ----- | ---------------------- | -- | ------ | ------------------ |
 | 0     | Blitz Stratagem        | 1  | 1      | If you have placed a Key Zone, turn it into a Zone of Mobility, replacing all its effects. You and all allies beginning their movement from within this zone may move an additional `6` Squares per [AP](#action-points-ap) spent. |
-| 0     | Breakthrough Stratagem | 1  | 2      | If you have placed a Key Zone, turn it into a Breakthrough Zone, replacing all its effects. All enemies inside the zone, who are attacked, may also be [Force Moved](#forced-movement) back, by a number of Squares equal to your achieved Hits. |
+| 0     | Breakthrough Stratagem | 1  | 2      | If you have placed a Key Zone, turn it into a Breakthrough Zone, replacing all its effects. All enemies inside the zone, who are Attacked, may also be [Force Moved](#forced-movement) back, by a number of Squares equal to your achieved Hits. |
 | 0     | Designate Key Zone     | 1  | /      | **Concentration**: Designate a zone up to `2` Squares in radius. If such a zone already exists, it is replaced with this one. The zone lasts for as long as you desire. You instruct your allies, to get the most out of this area. Once you designate a type for it, they *will* know what to do. Effects from allies' zones do not stack with this one, if their zone is of the same type. |
-| 1     | Killzone Stratagem     | 1  | 2      | If you have placed a Key Zone, turn it into a Killzone, replacing all its effects. All enemies inside the zone, who are damaged immediately die if their [HP](#health-points-hp) are brought to `2 * your Toughness + Hits` or less. | / |
-| 1     | Trenchline Stratagem   | 1  | 2      | If you have placed a Key Zone, turn it into a Trenchline Zone, replacing all its effects. All [AoE](#area-of-effect-aoe) damage that applies to you and/or your allies is reduced by `Hits * 3`. Also, your and your allies' [Stability](#stability-stabil) is increased by `+2` while in the zone. | / |
-| 2     | Fear Stratagem         | 1  | 1      | If you have placed a Key Zone, turn it into a Zone of Fear, replacing all its effects. All enemies inside this zone, who suffer damage must succeed a [Self-Control](#self-control-toughtough) Test at Ob equal to your number of Hits, or else become [Terrified](#terrified) of you or your allies inside the zone. | / |
+| 1     | Killzone Stratagem     | 1  | 2      | If you have placed a Key Zone, turn it into a Killzone, replacing all its effects. All enemies inside the zone, who are Damaged immediately die if their [HP](#health-points-hp) are brought to `2 * your Toughness + Hits` or less. | / |
+| 1     | Trenchline Stratagem   | 1  | 2      | If you have placed a Key Zone, turn it into a Trenchline Zone, replacing all its effects. All [AoE](#area-of-effect-aoe) Damage that applies to you and/or your allies is reduced by `Hits * 3`. Also, your and your allies' [Stability](#stability-stabil) is increased by `+2` while in the zone. | / |
+| 2     | Fear Stratagem         | 1  | 1      | If you have placed a Key Zone, turn it into a Zone of Fear, replacing all its effects. All enemies inside this zone, who suffer Damage must succeed a [Self-Control](#self-control-toughwit) Test at Ob equal to your number of Hits, or else become [Terrified](#terrified) of you or your allies inside the zone. | / |
 | 2     | Recovery Stratagem     | 1  | 2      | If you have placed a Key Zone, turn it into a Recovery Zone, replacing all its effects. You and all allies inside this zone regain `+1` [Stamina](#stamina--strain) and your Hits as [HP](#health-points-hp), at the start of the Turn. | / |
 
-| Level | <img src="../../img/heroic-acts.svg" width="64px" height="64px"></img> | Heroic Act Description | Desperate Measure Description | <img src="../../img/desperate-measures.svg" width="64px" height="64px"></img> |
-| ----- | ----------------------- | ---------------------- | ----------------------------- | --------------------------- |
-| 4     | Take and Hold! <br><img src="../../img/heroic-act_take-and-hold.svg" width="64px" height="64px"></img> | Designate an area up to `3` Squares in radius. Until the end of combat, any PC and ally inside this zone receives `+1` [AP](#action-points-ap) at Turn start and `+1` [Compensation Point](#compensation-points) for every Test. If such a zone already exists, it is replaced with the new one. Decreases Momentum by `-30`. | Designate an area up to `3` Squares in radius. Until the end of combat, any PC and ally inside this zone receives `+1` [Compensation Point](#compensation-points) for every Test and may freely [Counter-Attack](#counter-attack) *every* attack, but every PC *outside* this zone suffers `+1` Ob for **every Test**. If such a zone already exists, it is replaced with the new one. Increases Momentum by `+15`. | Not A Step Back! <br><img src="../../img/desperate-measure_not-a-step-back.svg" width="64px" height="64px"></img> |
+| Level | Heroic Act <br><img src="../../img/heroic-acts.svg" width="64px" height="64px"></img> | Heroic Act Momentum Shift | Heroic Act Description | Desperate Measure Description | Desperate Measure Momentum Shift | Desperate Measure <br><img src="../../img/desperate-measures.svg" width="64px" height="64px"></img> |
+| ----- | ------------------------------------------------------------------------------------- | ------------------------- | ---------------------- | ----------------------------- | -------------------------------- | --------------------------------------------------------------------------------------------------- |
+| 4     | Take and Hold! <br><img src="../../img/heroic-act_take-and-hold.svg" width="64px" height="64px"></img> | `-30` | Designate an area up to `5` Squares in diameter that lasts `3` Rounds. Any PC and ally inside this zone can make `1` free Defense Test and gains `+1` [Edge](#edge) for it. If such a zone already exists, it is replaced with the new one. Momentum gain clarification: the first Defense Test of a PC within the zone is **not** eligible to gain Momentum. | Designate an area up to `4` Squares in diameter. Until the end of combat, any PC and ally inside this zone receives `+1` [Edge](#edge) for every Defense Test and may freely [Counter-Attack](#counter-Attack) every Attack directed against them, up to `2` times per Round. But every PC and ally *outside* this zone suffers `+1` Ob for **every Test**. If such a zone already exists, it is replaced with the new one. Momentum gain clarification: Defense Tests inside the zone are **never** eligible to gain Momentum. | `+30` | Not A Step Back! <br><img src="../../img/desperate-measure_not-a-step-back.svg" width="64px" height="64px"></img> |
 
 ### Artisan Skills
 All artisan Skills require a mix of physical and mental Attributes, for the purpose of creating a wide variety of things. Mechanically speaking, these are [Crafting](#crafting--research-projects) Skills.
@@ -2749,29 +3037,29 @@ The ability to cook hearty and sweet meals that can strengthen and invigorate.
 
 [Crafting](#crafting--research-projects):
 * [Ration](#general-assets) (5x)
-* Special Meal: PI: `5`, TI: `10` Minutes, Requires some *special* ingredients, consult your GM
+* Special Meal: A Trivial Project that requires *special* ingredients, consult your GM. 
   * A special meal that you have to eat while it's still fresh. The meal does **not** go in your inventory - this is **not** the same as a ration! 
   * Restores `Q HP` and `Q` Stamina.
   * For every `Q` past `1`, the meal may confer certain boons, for `Q * 2` hours. Each of the following boons can be picked only once:
     * Grant `QD4` [Temporary HP](#temporary-health-points). 
     * Increase [Base Initiative](#base-initiative-bi) by `Q`. 
     * Increase [Strength](#strength-str) or [Toughness](#toughness-tough) by `Q / 2 (RU)`. 
-    * Resist `Q` [Freezing](#damage-types) or [Burning](#damage-types) or [Bleeding](#damage-types) damage. 
+    * Resist `Q` [Freezing](#damage-types) or [Burning](#damage-types) or [Bleeding](#damage-types) Damage. 
 
 The boons from meals do not stack. Eating a second meal will have it override all of a previous meal's boons. The strength of boons is determined at the time of creation and are the same for all Characters who share in the meal. 
 
-| Level | <img src="../../img/heroic-acts.svg" width="64px" height="64px"></img> | Heroic Act Description | Desperate Measure Description | <img src="../../img/desperate-measures.svg" width="64px" height="64px"></img> |
-| ----- | ----------------------- | ---------------------- | ----------------------------- | --------------------------- |
-| 4     | Spiked Your Food        | All *other* PCs regain `+2` [Stamina](#stamina--strain). Decreases Momentum by `-10`. | All *other* PCs regain `+5` [Stamina](#stamina--strain) and gain `+5` [Temporary HP](#temporary-health-points), but also suffer `+1` [Poisoned](#poisoned). Increases Momentum by `+15`. | Spiked Your Food A LOT |
+| Level | Heroic Act <br><img src="../../img/heroic-acts.svg" width="64px" height="64px"></img> | Heroic Act Momentum Shift | Heroic Act Description | Desperate Measure Description | Desperate Measure Momentum Shift | Desperate Measure <br><img src="../../img/desperate-measures.svg" width="64px" height="64px"></img> |
+| ----- | ------------------------------------------------------------------------------------- | ------------------------- | ---------------------- | ----------------------------- | -------------------------------- | --------------------------------------------------------------------------------------------------- |
+| 4     | Spiked Your Food | `-10` | All *other* PCs regain `+2` [Stamina](#stamina--strain). | All *other* PCs regain `+5` [Stamina](#stamina--strain) and gain `+5` [Temporary HP](#temporary-health-points), but also suffer `+1` [Poisoned](#poisoned). | `+15` | Spiked Your Food A LOT |
 
 ## List of Character Traits
 The following is a list of all [Character Traits](#character-traits) of the core rules. 
 
 ### Competitive Tosser
-You can throw objects `+4` Squares far and gain `+1` [Compensation Point](#compensation-points) for all [Throwing](#throwing) Tests.
+You can throw objects `+4` Squares far and gain `+1` [Edge](#edge) for all [Throwing](#throwing) Tests.
 
 ### Dual Wielder
-Gain the ability to effectively use two weapons at the same time. When making successful Attacks with one weapon, add the [Free Strike](#free-strike-fs) value of the other to the damage and gain `+1D` for Defense Tests made with your weapons.
+Gain the ability to effectively use two weapons at the same time. When making successful Attacks with one weapon, add the [Free Strike](#free-strike-fs) value of the other to the Damage and gain `+1D` for Defense Tests made with your weapons.
 
 ### Deep Lungs
 Raise your maximum Stamina by `+3`. 
@@ -2783,19 +3071,19 @@ Whenever you gain Grit Points, gain `+1` more.
 Gain the ability to re-direct a Forced-Movement onto an adjacent Character, at the cost of `-1` AP.
 
 ### Innate Armor
-Whether naturally tough-skinned or artificially enhanced, your hide proves especially resistant against a chosen [type of damage](#damage-types), with `+3` points of armor. 
+Whether naturally tough-skinned or artificially enhanced, your hide proves especially resistant against a chosen [type of Damage](#damage-types), with `+3` points of armor. 
 
 ### Long Arms
-All your Melee Attacks can be used against targets up to two Squares away. You effectively implicitly gain the [Long Reach Weapon Trait](#long-reach) for all Attacks.
+All your Melee Attacks can be used against targets up to two Squares away. You effectively implicitly gain the [Long Reach Weapon Trait](#foundational-weapon-traits) for all Attacks.
 
 ### Productive
-Whenever you craft Assets, you produce twice as many.
+Whenever you Craft Assets, you produce twice as many.
 
 ### Quick Thinker
 Improve your [Base Initiative](#base-initiative-bi) by `+3`
 
 ### Shrugs-A-Lot
-For a Test to Shrug Off a [Condition](#condition), you may add `+1` [Compensation Point](#compensation-points) at the cost of `-1` AP and `-1` [Stamina](#stamina--strain).
+For a Test to Shrug Off a [Condition](#condition), you may add `+1` [Edge](#edge) at the cost of `-1` AP and `-1` [Stamina](#stamina--strain).
 
 ### Substitutional Talent
 For one of your Skills, change its Base Attributes to any other Attributes of your choice.
@@ -2804,30 +3092,30 @@ For one of your Skills, change its Base Attributes to any other Attributes of yo
 Increases [Stability](#stability-stabil) by `+2`. 
 
 ### Slippery
-[Grappling](#grappled) you is `+1` Ob harder and you receive `+1` Compensation Point for Tests to break free from being Grappled.
+[Grappling](#grappled) you is `+1` Ob harder and you receive `+1` Edge for Tests to break free from being Grappled.
 
 ### Thorough Artisan
-Every Asset you craft starts with Quality Level `+1`. Ignore the first [Project Skill Test](#progressing-a-project) you fail and treat it as a success, instead.
+Every Asset you Craft starts with Quality Level `+1`. Ignore the first [Project Skill Test](#progressing-a-project) you fail and treat it as a success, instead.
 
 ### Tough Skin
 Raise your base HP by `+10`. 
 
 ### Warcrobat
-Combining agility with deadliness, elevating mere skill at arms to an elegant art. Grants `+1` [Compensation Point](#compensation-points) to all Acrobatics Tests.
+Combining agility with deadliness, elevating mere skill at arms to an elegant art. Grants `+1` [Edge](#edge) to all Acrobatics Tests.
 
-**Prerequisites**: [Acrobatics](#acrobatics-agistr) Level `3+` and a [Weapon Skill](#weapon--weapon-type---attribute-) at Level `3+`. Costs `30` [XP](#experience-points-xp) to unlock. 
+**Prerequisites**: [Acrobatics](#acrobatics-agistr) Level `3+` and a [Weapon Skill](#weapon--weapon-family---base-attributes-) at Level `3+`. Costs `30` [XP](#experience-points-xp) to unlock. 
 
 Adds the following Expertises to [Acrobatics](#acrobatics-agistr):
 
 | Name                 | AP | Ob          | Description        |
 | -------------------- | -- | ----------- | ------------------ |
-| Vault & Jab          | 2  | Opposed - 1 | Vault over an enemy, placing yourself directly behind them, launch a free attack against them and push them away... <br> `≤ 1` Hit: `1` Square. <br> `= 2` Hits: `2` Squares. <br> `≥ 3` Hits: `3` Squares. |
+| Vault & Jab          | 2  | Opposed - 1 | Vault over an enemy, placing yourself directly behind them, launch a free Attack against them and push them away... <br> `≤ 1` Hit: `1` Square. <br> `= 2` Hits: `2` Squares. <br> `≥ 3` Hits: `3` Squares. |
 | Bounce Back          | /  | /           | **Reaction**: When knocked down immediately get back up, at no [AP](#action-points-ap) cost. You must not be wearing armor. Can only be used once per Round. |
-| Area Evasion         | 1  | 1           | **Reaction**: Suffer... <br> `≤ 1` Hit: `2` fewer points of AoE damage. <br> `= 2` Hits: `4` fewer points of AoE damage. <br> `≥ 3` Hits: `6` fewer points of AoE damage. |
+| Area Evasion         | 1  | 1           | **Reaction**: Suffer... <br> `≤ 1` Hit: `2` fewer points of AoE Damage. <br> `= 2` Hits: `4` fewer points of AoE Damage. <br> `≥ 3` Hits: `6` fewer points of AoE Damage. |
 | Shield Breaker       | /  | /           | **Passive**: You know to exploit the lethargy of shields and can circumvent their defensive bonuses. Against you, shields always count as `+1` degree of [Flanked](#flanking)! |
 
 ### Wordsmith
-Your cunning with words is unmatched. You gain `+1` [Compensation Point](#compensation-points) to [Persuasion](#persuasion-witwit) Tests. 
+Your cunning with words is unmatched. You gain `+1` [Edge](#edge) to [Persuasion](#persuasion-witwit) Tests. 
 
 ## List of Titles of Renown
 The following is a list of all [Titles of Renown](#titles-of-renown) of the core rules, a special type of [Character Trait](#character-traits). 
@@ -2835,7 +3123,7 @@ The following is a list of all [Titles of Renown](#titles-of-renown) of the core
 ### Heart of Stone
 > They should have died in that moment! I saw them get hit! But they merely grunted with discomfort!
 
-**Prerequisites**: Survive an attack only because you have [Temporary HP](#temporary-health-points). 
+**Prerequisites**: Survive an Attack only because you have [Temporary HP](#temporary-health-points). 
 
 Every time you earn [Temporary HP](#temporary-health-points), you earn `+5` more!
 
@@ -2846,15 +3134,15 @@ Every time you earn [Temporary HP](#temporary-health-points), you earn `+5` more
 
 Every Combat you enter starts your side with `+10` [Momentum](#momentum). 
 
-### Loremaster of X (degree)
+### Loremaster of < Subject > (< degree >)
 > What do you wish to know? Oh, yes, I do remember reading about that. I'll gladly explain it all to you in excruciating detail. 
 
 **Prerequisites**: Researched obscure or forgotten lore about a particular subject. 
 
-Replace *X* with the subject you're knowledgeable about. Then replace *degree* with the depth of your knowledge:
+Replace *Subject* with the subject you're knowledgeable about. Then replace *degree* with the depth of your knowledge:
 1. You have surface-level understanding of the topic. You know as much as anyone could, if they did a little more digging. 
 2. You have a deeper understanding and can recall details your peers didn't know existed. But even you find your limit early when it comes to the more obscure details. 
-3. You know even the more obscure details. But your knowledge is still incomplete. The long lost secrets remain a mystery even to you. 
+3. You know even the more obscure details and know the topic like the back of your hand. But your knowledge is still incomplete. The greatest secrets remain a mystery even to you. 
 4. You know *everything* about this topic. No detail is too obscure, no secret left buried. 
 
 ### Monster Hunter
@@ -2866,14 +3154,14 @@ When in [Combat](#combat) with a non-sapient creature you have defeated before, 
 
 | Name                 | AP | Ob          | Description        |
 | -------------------- | -- | ----------- | ------------------ |
-| Collect The Trophy   | 1  | /           | [Mark](#marked) a ST and immediately launch an attack against it, with `+1` [Compensation Point](#compensation-points). |
+| Collect The Trophy   | 1  | /           | [Mark](#marked) a ST and immediately launch an Attack against it, with `+1` [Edge](#edge). |
 
 ### Paragon
 > Just yesterday alone, they rescued a kitten from a tree, helped me do my taxes and then bagged a dangerous wanted criminal!
 
 **Prerequisites**: Apprehended a dangerous criminal and stood as a beacon of morality in at least one community that was plagued by them. 
 
-The local authorities will be much more open to the idea of assisting you in your own endeavours. You gain `+1` [Compensation Point](#compensation-points) to [Persuasion](#persuasion-witwit) Tests, but not when intimidating.
+The local authorities will be much more open to the idea of assisting you in your own endeavours. You gain `+1` [Edge](#edge) to [Persuasion](#persuasion-witwit) Tests, but not when intimidating.
 
 ### Pugilist
 > Ey you! I don' much like de cut o' yo' jib! I think I'mma change dat!
@@ -2887,28 +3175,28 @@ The local authorities will be much more open to the idea of assisting you in you
 
 **Prerequisites**: Successfully complete at least `3` deeply immoral jobs. 
 
-You find it much easier to haggle for better payment conditions with potential contractors and to intimidate those who know your name. You gain `+1` [Compensation Point](#compensation-points) to [Persuasion](#persuasion-witwit) Tests, but only when intimidating.
+You find it much easier to haggle for better payment conditions with potential contractors and to intimidate those who know your name. You gain `+1` [Edge](#edge) to [Persuasion](#persuasion-witwit) Tests, but only when intimidating.
 
 ### Savior Of The People
 > Our eternal gratitude is yours! Oh, if only we could ever properly repay you...
 
 **Prerequisites**: Saved an entire community from certain doom.
 
-The people you saved will gladly help you in all your endeavours, if they can. You will find food and bedding for free and may even be gifted the odd family heirloom as thanks. You gain `+1` [Compensation Point](#compensation-points) to [Persuasion](#persuasion-witwit) Tests, but not when intimidating.
+The people you saved will gladly help you in all your endeavours, if they can. You will find food and bedding for free and may even be gifted the odd family heirloom as thanks. You gain `+1` [Edge](#edge) to [Persuasion](#persuasion-witwit) Tests, but not when intimidating.
 
 ### Wanted
 > Yeah, I got a bounty in over 17 places you've never even heard of. So don't mess with me!
 
 **Prerequisites**: You've become a wanted criminal. 
 
-While you should avoid the authorities, you've some clout with the criminal underworld. You may be approached with job offers of a shady nature, or a way to clear your name. `+1` to [Stealth](#stealth-agiawar). You gain `+1` [Compensation Point](#compensation-points) to [Persuasion](#persuasion-witwit) Tests, but only when intimidating.
+While you should avoid the authorities, you've some clout with the criminal underworld. You may be approached with job offers of a shady nature, or a way to clear your name. `+1` to [Stealth](#stealth-agiawar). You gain `+1` [Edge](#edge) to [Persuasion](#persuasion-witwit) Tests, but only when intimidating.
 
 ### Zealot
 > Unfazed by heresy, unbowed by adversity, unfaltering in my resolve - I am the torch in the dark! I think.
 
 **Prerequisites**: Proved your conviction through incredible acts of faith. And eliminated all opposition to the faith you come across. 
 
-Your [Self-Control](#self-control-toughtough) is increased by `+1`, but you suffer `+1` Ob when trying to restrain yourself in the face of enemies of your faith. You gain `+1` [Compensation Point](#compensation-points) to [Persuasion](#persuasion-witwit) Tests, but only when intimidating.
+Your [Self-Control](#self-control-toughwit) is increased by `+1`, but you suffer `+1` Ob when trying to restrain yourself in the face of enemies of your faith. You gain `+1` [Edge](#edge) to [Persuasion](#persuasion-witwit) Tests, but only when intimidating.
 
 ## List of Conditions
 The following is a list of all [Conditions](#condition) of the core rules. 
@@ -2916,18 +3204,18 @@ The following is a list of all [Conditions](#condition) of the core rules.
 ### Berserk
 <img src="../../img/health-condition-berserk.svg" style="width: 3rem; height: 3rem;"></img>
 
-A Character who is in **Berserk** Condition, **must** attack the creature nearest to them, regardless of whether it is friend or foe, until it is either dead or unconscious. The Berserked Character **must** then move on to the next available and closest victim. 
+A Character who is in **Berserk** Condition, **must** Attack the creature nearest to them, regardless of whether it is friend or foe, until it is either dead or unconscious. The Berserked Character **must** then move on to the next available and closest victim. 
 
 * Graded
-* Shrug Off: `-1` point with a [Self-Control](#self-control-toughtough) [Test](#tests) with Ob `2`. 
+* Shrug Off: `-1` point with a [Self-Control](#self-control-toughwit) [Test](#tests) with Ob `2`. 
 * Automatic Shrug-Off: `-1` point at the end of the Turn. 
 * Immediate cancel: When the Character is made [Unconscious](#unconscious) or no other creatures remain alive and/or conscious.
-* Difficult repeats: Whenever shrugging off this Condition, you become **guarded** against it until the start of your next Turn, making any attack or effect enacted against you that would cause you to suffer it again `+1` Ob harder for your foes. 
+* Difficult repeats: Whenever shrugging off this Condition, you become **guarded** against it until the start of your next Turn, making any Attack or effect enacted against you that would cause you to suffer it again `+1` Ob harder for your foes. 
 
 ### Burning
 <img src="../../img/health-condition-burning.svg" style="width: 3rem; height: 3rem;"></img>
 
-For every point in the **Burning** Condition, a Character suffers `3` points of [Burning](#damage-types) damage every [Tick](#ticks). 
+For every point in the **Burning** Condition, a Character suffers `2` points of [Burning](#damage-types) Damage every [Tick](#ticks). 
 
 * Graded
 * Greedy: automatically increases by `+1` point **after** every [Tick](#ticks). 
@@ -2939,11 +3227,12 @@ Adjacent allies can also help pat out the flames, by spending an [AP](#action-po
 ### Bleeding
 <img src="../../img/health-condition-bleeding.svg" style="width: 3rem; height: 3rem;"></img>
 
-For every point in the **Bleeding** Condition, a Character suffers `3` points of [Bleeding](#damage-types) damage every [Tick](#ticks). 
+For every point in the **Bleeding** Condition, a Character suffers `2` points of [Bleeding](#damage-types) Damage every [Tick](#ticks). 
 
 * Graded
-* Shrug Off: `-1` point with a [Toughness](#toughness-tough) [Test](#tests) with Ob `1`. 
-* Immediate cancel: With a successful [Medicine](#medicine-agiwit) [Test](#tests), requiring `1` [medical supplies](#general-assets) with Ob `2`.
+* Shrug Off: `-2` points with a [Toughness](#toughness-tough) [Test](#tests) with Ob `1`. 
+* Automatic Shrug-Off: `-1` point at the end of the Turn. 
+* Immediate cancel: With a successful [Medicine](#medicine-agiwit) [Test](#tests), requiring `1` [Medical Supplies](#general-assets) with Ob `2`.
 
 ### Crippled
 <img src="../../img/health-condition-crippled.svg" style="width: 3rem; height: 3rem;"></img>
@@ -2955,18 +3244,18 @@ A **Crippled** Character suffers `+1` Ob to **all** Tests, for each [Injury](#in
 ### Death's Door
 **Death's Door** is a Condition only a PC can have and represents their final battle with death. 
 
-A PC at **Death's Door** must succeed at least one [Toughness](#toughness-tough) Test out of a possible of three. If they never succeed, they perish, irrevocably. The Ob is determined as half of the Character's [Toughness](#toughness-tough), rounded up. Such a Test must be made once at the end of every Round or minute. 
+A PC at **Death's Door** must succeed at least one [Toughness](#toughness-tough) Test out of a possible of three. If they never succeed, they perish, irrevocably. The Ob is determined as half of the Character's [Toughness](#toughness-tough), rounded up. Such a Test must be made once at the end of every Round. 
 
 A Character can be helped out of the **Death's Door** Condition, if their [HP](#health-points-hp) are brought back up to at least `1`. 
 
 ### Dissolving
 <img src="../../img/health-condition-dissolving.svg" style="width: 3rem; height: 3rem;"></img>
 
-For every point in the **Dissolving** Condition, a Character suffers `3` points of [Acid](#damage-types) damage every [Tick](#ticks). 
+For every point in the **Dissolving** Condition, a Character suffers `2` points of [Acid](#damage-types) Damage every [Tick](#ticks). 
 
 * Graded
 * Automatic Shrug-Off: `-2` points at the end of the Turn. 
-* Immediate cancel: With a successful [Medicine](#medicine-agiwit) [Test](#tests), requiring `1` [medical supplies](#general-assets) with Ob `2`.
+* Immediate cancel: With a successful [Medicine](#medicine-agiwit) [Test](#tests), requiring `1` [Medical Supplies](#general-assets) with Ob `2`.
 
 ### Drug-Addicted
 <img src="../../img/health-condition-drug-addicted.svg" style="width: 3rem; height: 3rem;"></img>
@@ -2980,26 +3269,26 @@ After `72` consecutive hours (= `3` full days) of having being in **withdrawal**
 ### Electrified
 <img src="../../img/health-condition-electrified.svg" style="width: 3rem; height: 3rem;"></img>
 
-An **Electrified** Character spasms, uncontrollably. They are force moved in a random direction by `1` Square, which may trigger [Opportunity Attacks](#opportunity-attacks). 
+An **Electrified** Character spasms, uncontrollably. They are force-moved in a [random direction](#random-direction) by `1` Square, which may trigger [Opportunity Attacks](#opportunity-Attacks). 
 
 * Automatic Shrug-Off: At the end of the Turn. 
 
 ### Exhausted
 <img src="../../img/health-condition-exhausted.svg" style="width: 3rem; height: 3rem;"></img>
 
-An **Exhausted** Character begins their Turn with `-2` AP and can run at most only half the distance they normally could. [Sprinting](#combat-movement) is impossible. 
+An **Exhausted** Character begins their Turn with `-2` AP and can no longer [Sprint](#combat-movement). 
 
-While Exhausted, a Character losing further [Stamina](#stamina--strain), must succeed a [Self-Control](#self-control-toughtough) [Test](#tests) at Ob equal to `3` plus their current [negative Stamina](#stamina--strain), or else fall [Unconscious](#unconscious).
+While Exhausted, a Character losing further [Stamina](#stamina--strain), must succeed a [Self-Control](#self-control-toughwit) [Test](#tests) at Ob equal to `3` plus their current [negative Stamina](#stamina--strain), or else fall [Unconscious](#unconscious).
 
 This Condition can be recovered from by clearing [negative Stamina](#stamina--strain). 
 
 ### Frostbitten
 <img src="../../img/health-condition-frostbitten.svg" style="width: 3rem; height: 3rem;"></img>
 
-For every point in **Frostbitten**, a Character suffers `-1` [AP](#action-points-ap) and `-1D` to all [Tests](#tests). 
+For every point in **Frostbitten**, a Character suffers `-1D` to all [Tests](#tests). 
 
 * Graded
-* Automatic Shrug-Off: `-2` points at the end of the Turn. 
+* Automatic Shrug-Off: `-1` point at the end of the Turn. 
 * Immediate cancel: When thawed, for example through [Burning](#burning).
 
 ### Grappled
@@ -3007,10 +3296,18 @@ For every point in **Frostbitten**, a Character suffers `-1` [AP](#action-points
 
 A **Grappled** Character is unable to move freely and counts as `+1` degree of [Flanked](#flanking). They can break free, by winning an [Opposed](#opposed-test) [Unarmed Combat](#unarmed-combat-agistr) [Test](#tests) against the other Character grappling them. 
 
+Additionally, a Grappled Character can no longer perform [Opportunity Attacks](#opportunity-Attacks).
+
+### Guarded
+A **Guarded** Character may [Defend](#defending) against the next Attack that would affect them with `1` [Edge](#edge). 
+
+* Graded; Limit: `5`
+* Automatic Shrug-Off: `-1` point at the start of the Turn. 
+
 ### Hasted
 <img src="../../img/health-condition-hasted.svg" style="width: 3rem; height: 3rem;"></img>
 
-A **Hasted** Character has an additional [AP](#action-points-ap) to spend and an additional `3` Squares of [Movement](#combat-movement) per [AP](#action-points-ap). 
+A **Hasted** Character gets `+1` [AP](#action-points-ap) per Turn. 
 
 ### Jealous
 <img src="../../img/health-condition-jealous.svg" style="width: 3rem; height: 3rem;"></img>
@@ -3018,14 +3315,14 @@ A **Hasted** Character has an additional [AP](#action-points-ap) to spend and an
 A Character who has been made unnaturally **Jealous**, will do anything in their power to gain possession of something, whatever *it* may be, from whoever might have *it*. 
 
 * Graded
-* Shrug Off: `-1` point with a [Self-Control](#self-control-toughtough) [Test](#tests) with Ob `2`. 
+* Shrug Off: `-1` point with a [Self-Control](#self-control-toughwit) [Test](#tests) with Ob `2`. 
 * Immediate cancel: When the Character is made [Unconscious](#unconscious), the source of the jealousy is removed or the Character acquires that which they covet. 
-* Difficult repeats: Whenever shrugging off this Condition, you become **guarded** against it until the start of your next Turn, making any attack or effect enacted against you that would cause you to suffer it again `+1` Ob harder for your foes. 
+* Difficult repeats: Whenever shrugging off this Condition, you become **guarded** against it until the start of your next Turn, making any Attack or effect enacted against you that would cause you to suffer it again `+1` Ob harder for your foes. 
 
 ### Marked
 <img src="../../img/health-condition-marked.svg" style="width: 3rem; height: 3rem;"></img>
 
-A **Marked** Character suffers `-1D` to all Defense Tests and `+5` Pure damage from all **direct** sources (meaning damage from environmental hazards is excluded). 
+A **Marked** Character suffers `-1D` to all Defense Tests and `+5` Pure Damage from all [Direct Sources](#damage--effects). 
 
 * Automatic Shrug-Off: After `1` Round.
 
@@ -3035,23 +3332,23 @@ A **Marked** Character suffers `-1D` to all Defense Tests and `+5` Pure damage f
 A Character who is **Pacified**, is unable to *willingly* take any action that would directly or indirectly harm any other creature. Note, the Character is not physically unable to cause harm, but they **really** don't want to. 
 
 * Graded
-* Shrug Off: `-1` point with a [Self-Control](#self-control-toughtough) [Test](#tests) with Ob `1`. 
+* Shrug Off: `-1` point with a [Self-Control](#self-control-toughwit) [Test](#tests) with Ob `1`. 
 * Immediate cancel: When the Character is made [Unconscious](#unconscious) or the source of the pacification is removed.
-* Difficult repeats: Whenever shrugging off this Condition, you become **guarded** against it until the start of your next Turn, making any attack or effect enacted against you that would cause you to suffer it again `+1` Ob harder for your foes. 
+* Difficult repeats: Whenever shrugging off this Condition, you become **guarded** against it until the start of your next Turn, making any Attack or effect enacted against you that would cause you to suffer it again `+1` Ob harder for your foes. 
 
 ### Poisoned
 <img src="../../img/health-condition-poisoned.svg" style="width: 3rem; height: 3rem;"></img>
 
-A **Poisoned** Character suffers `3` points of [Poison](#damage-types) damage every [Tick](#ticks). 
+A **Poisoned** Character suffers `2` points of [Poison](#damage-types) Damage every [Tick](#ticks). 
 
 * Graded
-* Shrug Off: `-1` point with a [Toughness](#toughness-tough) [Test](#tests) with Ob `1`. 
+* Shrug Off: `-2` points with a [Toughness](#toughness-tough) [Test](#tests) with Ob `1`. 
 * Immediate cancel: With an [Antidote](#general-assets). 
 
 ### Prone
 <img src="../../img/health-condition-prone.svg" style="width: 3rem; height: 3rem;"></img>
 
-A Character who is **Prone**, is harder to hit with ranged attacks, easier to hit with melee attacks and counts as `+1` degree of [Flanked](#flanking), in melee. However, they are `+1` Ob harder to hit with a ranged attack. 
+A Character who is **Prone**, is harder to hit with ranged Attacks, easier to hit with melee Attacks and counts as `+1` degree of [Flanked](#flanking), in melee. However, they are `+1` Ob harder to hit with a ranged Attack. 
 
 It costs `1` [AP](#action-points-ap) to stand up. 
 
@@ -3068,7 +3365,7 @@ This Condition is usually tied to some condition, before it is removed. If there
 A **Stunned** Character is unable to act, at all. During combat, their Turn is skipped. 
 
 * Automatic Shrug-Off: At the end of the Turn. 
-* Difficult repeats: Whenever shrugging off this Condition, you become **guarded** against it until the start of your next Turn, making any attack or effect enacted against you that would cause you to suffer it again `+1` Ob harder for your foes. 
+* Difficult repeats: Whenever shrugging off this Condition, you become **guarded** against it until the start of your next Turn, making any Attack or effect enacted against you that would cause you to suffer it again `+1` Ob harder for your foes. 
 
 ### Terrified
 <img src="../../img/health-condition-terrified.svg" style="width: 3rem; height: 3rem;"></img>
@@ -3076,32 +3373,32 @@ A **Stunned** Character is unable to act, at all. During combat, their Turn is s
 A **Terrified** Character **must** flee from whatever it is that terrified them, until they can no longer perceive it, for at least one Round. 
 
 * Graded
-* Shrug Off: `-1` point with a [Self-Control](#self-control-toughtough) [Test](#tests) with Ob `1`. 
+* Shrug Off: `-1` point with a [Self-Control](#self-control-toughwit) [Test](#tests) with Ob `1`. 
 * Immediate cancel: When the Character is made [Unconscious](#unconscious), the source of terror is removed or the Character can no longer perceive the source of terror in any way for a short time (`2` Turns or half a minute).
-* Difficult repeats: Whenever shrugging off this Condition, you become **guarded** against it until the start of your next Turn, making any attack or effect enacted against you that would cause you to suffer it again `+1` Ob harder for your foes. 
+* Difficult repeats: Whenever shrugging off this Condition, you become **guarded** against it until the start of your next Turn, making any Attack or effect enacted against you that would cause you to suffer it again `+1` Ob harder for your foes. 
 
 ### Unconscious
 <img src="../../img/health-condition-unconscious.svg" style="width: 3rem; height: 3rem;"></img>
 
 An **Unconscious** Character is unable to act and is unaware of their surroundings. 
 
-* Difficult repeats: Whenever shrugging off this Condition, you become **guarded** against it until the start of your next Turn, making any attack or effect enacted against you that would cause you to suffer it again `+1` Ob harder for your foes. 
+* Difficult repeats: Whenever shrugging off this Condition, you become **guarded** against it until the start of your next Turn, making any Attack or effect enacted against you that would cause you to suffer it again `+1` Ob harder for your foes. 
 
 ## List of Illnesses
-| Range D100 | Name              | Duration          | Effect      | Treatment |
-| ---------- | ----------------- | ----------------- | ----------- | --------- |
-| 1 - 8      | Strength Sap      | `1D10 + 3` Days   | The muscles atrophy, despite any physical exercise. If not treated quickly, the victim will quickly find themselves unable to move, at all. `-1D4` [Strength](#strength-str); Max. `2` Squares movement. | [Medicine](#medicine-agiwit) Ob `1D4`; Reduces the duration by `2D4` days. |
-| 9 - 16     | Lung Fever        | `1D10 + 1` Days   | The victim finds themselves easily winded, even by simple acts, such as walking to the privy at night. `-(1D4 + 1)` [Toughness](#toughness-tough). | [Medicine](#medicine-agiwit) Ob `1`; The ill-effects are suspended for `24` hours. |
-| 17 - 24    | Water's Curse     | `1D10 + 1` Days   | The victim sweats uncontrollably and has watery stools, thus dehydrating rapidly and losing consciousness frequently. `-1D4` [Toughness](#toughness-tough); [Exhausted](#exhausted). | [Medicine](#medicine-agiwit) Ob `1D4`; Reduces the duration by `1D10` days and suspends the ill-effects for `24` hours. |
-| 25 - 32    | Jazz-Hands        | `1D10 + 3` Days   | The victim can't stop the tremors in their arms. Any action requiring precise movements is impossible. `-1D4` [Agility](#agility-agi). | [Medicine](#medicine-agiwit) Ob `1`; The ill-effects are suspended for `24` hours. |
-| 33 - 40    | Brain Rot         | `2D10` Days       | The victim's mind dulls. They find it difficult to form coherent thoughts. `-1D4` [Wit](#wit-wit). | [Medicine](#medicine-agiwit) Ob `1`; The ill-effects are suspended for `24` hours. |
-| 41 - 48    | Feeble Tounge     | `1D10 + 3` Days   | The tounge flops and waggles around uncontrollably. Speech is impaired. `-1D4` [Wit](#wit-wit). | [Medicine](#medicine-agiwit) Ob `1D4`; Reduces the duration by `2D4` days. |
-| 49 - 56    | Wound Fever       | Until cured       | [Injuries](#injury) of the victim refuse *any* **treatment**. | [Medicine](#medicine-agiwit) Ob `2`; Sets the duration to `1D10` days. |
-| 57 - 64    | Filth Fever       | `1D10 + 1` Days   | The victim coughs uncontrollably and violently, with awful-smelling breath. `-1D4` [Toughness](#toughness-tough). | [Medicine](#medicine-agiwit) Ob `1D4 + 1`; Removes the illness on the next day. |
-| 65 - 80    | Coldness of Heart | `1D10 + 1` Days   | The victim feels distant, as if they were only spectators in their own body. `-1D4` [Awareness](#awareness-awar). | [Medicine](#medicine-agiwit) Ob `1D4`; Reduces the duration by `2D4` days. |
-| 81 - 88    | Rot Plague        | `4D10` Days       | The skin starts developing a nasty rash, before flaking off. Not only unsightly, the bare flesh underneath smells like it's rotting. `-(1D4 + 1)` [Toughness](#toughness-tough). | [Surgery](#surgery-agiwit) Ob `2`; The ill-effects are suspended for `24` hours. |
-| 89 - 95    | Organ Mold        | Until cured       | Causes an [Injury](#injury) every day it is active. | [Surgery](#surgery-agiwit) Ob `1D4 + 1`; The illness is removed within a day. |
-| 96 - 100   | Red Death         | Until cured       | The victim starts bleeding from all of their orifices, with no end in sight. Causes `3` points of [Bleeding](#bleeding) every day it is active. | [Surgery](#surgery-agiwit) Ob `2`; The illness is removed within a day. |
+| Range D100 | Name              | Treatment Skill | Description |
+| ---------- | ----------------- | --------------- | ----------- |
+| 1 - 8      | Strength Sap      | The muscles atrophy, despite any physical exercise. If not treated quickly, the victim will quickly find themselves unable to move, at all. `-1D4` [Strength](#strength-str); Max. `2` Squares movement. | [Medicine](#medicine-agiwit) Ob `1D4`; Reduces the duration by `2D4`. |
+| 9 - 16     | Lung Fever        | The victim finds themselves easily winded, even by simple acts, such as walking to the privy at night. `-(1D4 + 1)` [Toughness](#toughness-tough). | [Medicine](#medicine-agiwit) Ob `1`; The ill-effects are suspended for `24` hours. |
+| 17 - 24    | Water's Curse     | The victim sweats uncontrollably and has watery stools, thus dehydrating rapidly and losing consciousness frequently. `-1D4` [Toughness](#toughness-tough); [Exhausted](#exhausted). | [Medicine](#medicine-agiwit) Ob `1D4`; Reduces the duration by `1D10` and suspends the ill-effects for `24` hours. |
+| 25 - 32    | Jazz-Hands        | The victim can't stop the tremors in their arms. Any action requiring precise movements is impossible. `-1D4` [Agility](#agility-agi). | [Medicine](#medicine-agiwit) Ob `1`; The ill-effects are suspended for `24` hours. |
+| 33 - 40    | Brain Rot         | The victim's mind dulls. They find it difficult to form coherent thoughts. `-1D4` [Wit](#wit-wit). | [Medicine](#medicine-agiwit) Ob `1`; The ill-effects are suspended for `24` hours. |
+| 41 - 48    | Feeble Tounge     | The tounge flops and waggles around uncontrollably. Speech is impaired. `-1D4` [Wit](#wit-wit). | [Medicine](#medicine-agiwit) Ob `1D4`; Reduces the duration by `2D4` days. |
+| 49 - 56    | Wound Fever       | [Injuries](#injury) of the victim refuse *any* **treatment**. | [Medicine](#medicine-agiwit) Ob `2`; Sets the duration to `1D10` days. |
+| 57 - 64    | Filth Fever       | The victim coughs uncontrollably and violently, with awful-smelling breath. `-1D4` [Toughness](#toughness-tough). | [Medicine](#medicine-agiwit) Ob `1D4 + 1`; Removes the Illness on the next QoD. |
+| 65 - 80    | Coldness of Heart | The victim feels distant, as if they were only spectators in their own body. `-1D4` [Awareness](#awareness-awar). | [Medicine](#medicine-agiwit) Ob `1D4`; Reduces the duration by `2D4` days. |
+| 81 - 88    | Rot Plague        | The skin starts developing a nasty rash, before flaking off. Not only unsightly, the bare flesh underneath smells like it's rotting. `-(1D4 + 1)` [Toughness](#toughness-tough). | [Surgery](#surgery-agiwit) Ob `2`; The ill-effects are suspended for `24` hours. |
+| 89 - 95    | Organ Mold        | Causes an [Injury](#injury) every QoD it is active. | [Surgery](#surgery-agiwit) Ob `1D4 + 1`; The Illness is removed within a QoD. |
+| 96 - 100   | Red Death         | The victim starts bleeding from all of their orifices, with no end in sight. Causes `2` points of [Bleeding](#bleeding) every QoD it is active. | [Surgery](#surgery-agiwit) Ob `2`; The Illness is removed within a QoD. |
 
 ## List of Mutations
 One should always keep in mind that despite the game mechanical effects of a mutation, the appearance of an affected individual will also be severly altered. Other Characters and creatures may react with disgust, fear, disdain, pity, and so on. 
@@ -3110,7 +3407,7 @@ One should always keep in mind that despite the game mechanical effects of a mut
 | ---------- | ---------------------- | --------------------------------- |
 | 1 - 5      | Cosmic Fortune         | Suffer no mutation! |
 | 6 - 12     | Deformed Arm           | The arm deforms and bends in ways it was never meant to. `-1` [Agility](#agility-agi). |
-| 13 - 19    | Grotesque Claws        | The entire lower arm morphs into three large claws. Unable to hold *anything* with that arm, but Unarmed Combat attacks deal an additional `+6` Slashing damage. |
+| 13 - 19    | Grotesque Claws        | The entire lower arm morphs into three large claws. Unable to hold *anything* with that arm, but Unarmed Combat Attacks deal an additional `+6` Slashing Damage. |
 | 20 - 25    | Deformed Leg           | The leg deforms and bends in ways it was never meant to. `-1` [Agility](#agility-agi). |
 | 26 - 32    | Deformed Face          | A morphed visage, forever stuck in agony, horror and anger. `+1` [Commanding](#commanding-toughwit), `-1` [Acting](#acting-awarwit). |
 | 33 - 39    | Internal Changes       | Something deep within isn't quite right. `-1` [Toughness](#toughness-tough). |
@@ -3123,24 +3420,6 @@ One should always keep in mind that despite the game mechanical effects of a mut
 | 81 - 86    | Special Needs Eyes     | The eyes turn a deep red and go cross-eyed. `-1` [Awareness](#awareness-awar) (seeing) |
 | 87 - 93    | Fetid Stench           | Whether from the mouth, or in general, a fetid stench emanates from the body, even assaulting the victim's own nose. `-1` [Awareness](#awareness-awar), `-1` [Stealth](#stealth-agiawar) (when smell is concerned). |
 | 94 - 100   | Living Cadaver         | The body withers and pales. It is as if it had just risen from the grave. `-1` [Toughness](#toughness-tough). |
-
-## Targeting-Types
-The number of targets that an [Expertise](#expertise) can apply to, with a single use, is defined through the **targeting-types**. 
-
-### Single Target (ST)
-A **Single-Target** (**ST**) Action affects only a single target. The victim may Defend with [Opposed Tests](#opposed-test).
-
-### Multiple Single Target (MST)
-A **Multiple-Single-Target** (**MST**) Action affects at least one and up to a certain maximum number of targets. Each victim may Defend with [Opposed Tests](#opposed-test).
-
-### Area of Effect (AoE)
-**Area of Effect** (**aoe**) Actions affect *every* target that is in the area of effect. The victims can only defend through certain special Skills or Expertises.
-
-There are four types of shapes that AoE effects can have:
-* <img src="../../img/aoe-radius.svg" style="width: 2rem; height: 2rem;"></img> A radius.
-* <img src="../../img/aoe-cube.svg" style="width: 2rem; height: 2rem;"></img> A cube.
-* <img src="../../img/aoe-cone.svg" style="width: 2rem; height: 2rem;"></img> A cone.
-* <img src="../../img/aoe-line.svg" style="width: 2rem; height: 2rem;"></img> A line.
 
 # Game Mastery
 This and the following sections are reserved solely for the GM's eyes. It aims to help you prepare and run the game. 
@@ -3255,7 +3534,7 @@ Present the close-quarters warrior PC with an opponent who's out of reach. Have 
 
 > The player party's mage is ambushed by an anti-mage fanatic. The mage shoots fire at their assailant, but finds the fire dissipate into nothing more than hot smoke right before the fanatic's eyes. But the mage's ally, a halberd-wielding ex-footsoldier jumps in and lands a devastating blow, severly injuring the fanatic. 
 > 
-> The wounded fanatic cannot fight on and attempts to flee. The PCs can now attempt to attack the fleeing fanatic with conventional means, or let them go. The mage alone might not have had such an easy time of it. But thanks to their ally, they didn't have to fear that foe. 
+> The wounded fanatic cannot fight on and attempts to flee. The PCs can now attempt to Attack the fleeing fanatic with conventional means, or let them go. The mage alone might not have had such an easy time of it. But thanks to their ally, they didn't have to fear that foe. 
 
 Fights should be winnable - unless you make it **very** clear to the players their Characters can **not** win a particular fight. They should be given the option to retreat or circumvent such an encounter. 
 
@@ -3270,7 +3549,7 @@ Outside of combat, you can challenge your PCs' with social encounters, opportuni
 
 Present opportunities for the PCs to learn new things. Present them with Tests for Skills they don't have. But do so sparingly. It is frustrating for a player to never get to play to their Character's strengths. Give players that satisfaction of having *the right Skill at the right time*. 
 
-When it comes to Skill Tests, it is prudent to be wary of *Test band-wagon'ing*. When you ask a specific player (or rather, their Character) to do a Test in a certain Skill or attribute and if they fail, another player jumps in and asks, if they can try, consider well how you answer. <br>
+When it comes to Skill Tests, it is prudent to be wary of *Test band-wagon'ing*. When you ask a specific player (or rather, their Character) to do a Test in a certain Skill or Attribute and if they fail, another player jumps in and asks, if they can try, consider well how you answer. <br>
 If you allow it, you make the player you first asked feel less special and important. After all, you must have had a good reason why *only their Character* could do the Test, to begin with. If you found that only that one PC had a chance at even attempting the Test, you shouldn't allow other PCs to make the Test. 
 
 > A classic example is asking one of your players to Test their Character's Observation. They fail and the other players immediately ask if they can try, as well. If they could, you shouldn't have asked just the one player, but instead asked all of them to begin with. 
@@ -3306,7 +3585,7 @@ Be mindful *where* in the world you give them such a resource, because that is w
 #### Limit & Threaten Resources
 Assets exist to create mechanical challenges. Limit the PC's access to the resources they tend to hoard and dangle the proverbial carrot in front of them to motivate them through greed. 
 
-Although your players could also be clever and find narrative solutions to their lack of *item vaccuuming*. If they can afford one or two carriages with the horses and drivers, perhaps even guards, they should be allowed to transport a lot more stuff around. Within the confines of their solution, of course. Those wagons full of ammunition, medical supplies and spare daggers will have to stay outside the cave/dungeon/ruin/etc. - unless your players can find a solution for that, too. 
+Although your players could also be clever and find narrative solutions to their lack of *item vaccuuming*. If they can afford one or two carriages with the horses and drivers, perhaps even guards, they should be allowed to transport a lot more stuff around. Within the confines of their solution, of course. Those wagons full of ammunition, Medical Supplies and spare daggers will have to stay outside the cave/dungeon/ruin/etc. - unless your players can find a solution for that, too. 
 
 Possessions in the form of coin and steel are not the only type of resource you can give your PCs. Keep in mind that servants, hirelings, close friends and family are *also a resource*. PCs can refer to them, when they have need of information, coin or political support. 
 
@@ -3316,7 +3595,7 @@ Any resource you let a PC have, can be *threatened*. This is a powerful tool to 
 
 If you have given them a small castle in a sparsely populated area, make sure to have someone threaten to take away that castle at least (and at most) **once**. By the time that happens, the players should have grown accustomed to having that safe space to return and haul loot to. Suddenly, their top-priority will be protecting that place. 
 
-Once they've fended off the attackers, they'll really start caring about everything that's happening on or near their home turf. This is when wars and rumors become of much greater relevance to your players, as they don't want their Assets (which they before took for granted) threatened *again*. 
+Once they've fended off the Attackers, they'll really start caring about everything that's happening on or near their home turf. This is when wars and rumors become of much greater relevance to your players, as they don't want their Assets (which they before took for granted) threatened *again*. 
 
 In order to avoid frustrating your players, you shouldn't threaten their more valuable resources often. Used sparingly, this tool can cause great tension and players scrambling to find a creative solution. But used too frequently, your players might start getting frustrated, because you harm their sense of progression. If they never truly gain anything, why *should* they care if it is threatened? 
 
@@ -3341,7 +3620,7 @@ Once you've identified which of your players tend to remain quiet, make sure **y
 
 Make sure to get a sense of who will **grab the spotlight** and who won't. Sometimes, you may even have to stop someone from grabbing it and instead allow one of the quieter players to act **first**. If the quieter player relinquishes the spotlight, let them. Don't force anyone into a situation they're uncomfortable with! 
 
-Whenever you present your players with a new situation, especially with moments intended to *surprise* them, make sure to ask their Characters' Reactions! Go through each of your players and ask them, "how does your Character react to this?" This allows each of them to play out their Character and to breathe *life* into them. 
+Whenever you present your players with a new situation, especially with moments intended to *surprise* them, make sure to ask their Characters' reactions! Go through each of your players and ask them, "how does your Character react to this?" This allows each of them to play out their Character and to breathe *life* into them. 
 
 Also, when a decision must be made, like where the party will go and what they'll do next, make sure to ask **every** player. Nothing is worse than a player Character being dragged along, even though their player isn't the least bit interested in the plot hook the others want to follow. By asking everyone, you may expose that some of them may have different plans. The goal then is to find a **compromise**! Do not let the one side of players force their will upon the others! Instead, encourage your players to find a way to motivate each other to follow the plot hook. Encourage them to find some reason or to be persuaded to go along. This way, no player feels left out in the decision-making process. 
 
@@ -3425,9 +3704,9 @@ Once appropriate numbers have been assigned, the new Character needs to be intro
 # Your World
 STRIVE doesn't impose a world on you. You are not forced to play with any pre-defined theme or setting. This frees you up to play in whatever world you prefer, with whatever theme you prefer. But it also places the burden of such decisions on you. 
 
-STRIVE's modules can help you answer the question of theme. For example, if you want to play in a medieval fantasy world, STRIVE's fantasy module may get you started faster. 
+STRIVE's Modules can help you answer the question of theme and even setting. For example, if you want to play in a medieval fantasy world, STRIVE's Fantasy Module may get you started faster. 
 
-But setting - the world - is entirely up to you. You may choose an existing world from another RPG, or craft an entirely new one. Creating a world is no small feat and a hobby in itself, but luckily, you don't need the entire world to be perfectly fleshed out before you begin running the game. All you really need, is a rough idea of *what's where* and a detailed idea of where the PCs are *now*. Starting with a village in the woods and a nearby goblin lair, is a classic example. 
+In the end, the world you play in, is yours alone. You may choose an existing world from another RPG, or craft an entirely new one, which is no small feat and a hobby in itself. Fortunately, you don't need all of it to be perfectly detailled before you begin running the game. All you really need, is a rough idea of *what's where* and a detailed idea of where the PCs are *now*. Starting with a village in the woods and a nearby goblin lair, is a classic fantasy example. 
 
 Your players may aid you in crafting the world and will usually prefer doing so during play, rather than outside of it. If you allow them to change your world through their actions, it becomes a much more dynamic and almost life-like beast. If they defend the village from the goblins and destroy their lair, the village might start to prosper. More trade might come in, and through the traders, the PCs might learn about other places they could visit and acquire more and better supplies.
 
@@ -3469,7 +3748,7 @@ There are three types of NPCs:
 To keep this chapter brief, and because you might decide you don't need it, the mechanical process of creating NPCs is detailed in a later chapter, the [NPC-Builder](#npc-builder). 
 
 ## Defense (Def)
-The **Defense (Def)** characteristic is reserved solely for NPCs and is the number of hits an attacker against them must achieve in order to hit the NPC. This ensures NPCs don't have to roll for their Defense, which allows you to tell your players the creature's Defense value and they can determine themselves whether they hit. This accelerates the game and alleviates some of the work in running NPCs. 
+The **Defense (Def)** characteristic is reserved solely for NPCs and is the number of hits an Attacker against them must achieve in order to hit the NPC. This ensures NPCs don't have to roll for their Defense, which allows you to tell your players the creature's Defense value and they can determine themselves whether they hit. This accelerates the game and alleviates some of the work in running NPCs. 
 
 Of course, in order for the NPC to defend, they require [AP](#action-points-ap). If they have no AP left over, treat their Defense as `1`. 
 
@@ -3492,15 +3771,15 @@ When in a Squad, every NPC in the Squad is treated as if it had only half (RU) o
 
 > `5` monsters all of the same type - for the example, let's say zombies - normally have `20` HP each. They are organized as a Squad and thus have a shared HP pool of `5 * (20 / 2) = 50` HP. 
 
-Every time any of the NPCs in the Squad suffers damage, it is applied to the shared HP pool. When more than an individual's maximum HP is dealt in damage, one of the Squad members perishes. The member directly attacked always dies first. If enough damage has been dealt to kill more than one, the next closest Squad member perishes, too. 
+Every time any of the NPCs in the Squad suffers Damage, it is applied to the shared HP pool. When more than an individual's maximum HP is dealt in Damage, one of the Squad members perishes. The member directly Attacked always dies first. If enough Damage has been dealt to kill more than one, the next closest Squad member perishes, too. 
 
-> Back to the zombies example. A PC deals `12` points of damage to the Squad. As an individual zombie normally has `20` maximum HP, half of which is `10`, that is enough to kill one of the zombies. The zombie Squad's shared HP are now at `50 - 12 = 38`. 
+> Back to the zombies example. A PC deals `12` points of Damage to the Squad. As an individual zombie normally has `20` maximum HP, half of which is `10`, that is enough to kill one of the zombies. The zombie Squad's shared HP are now at `50 - 12 = 38`. 
 
-If the Squad suffers an instance of [AoE](#area-of-effect-aoe) damage, which hits multiple Squad members, the maximum damage that can be dealt is limited to the sum of the maximum HP of those members affected. In other words, an AoE attack can only kill those Squad members actually affected. 
+If the Squad suffers an [Instance](#damage--effects) of [AoE](#area-of-effect-aoe) Damage, which hits multiple Squad members, the maximum Damage that can be dealt is limited to the sum of the maximum HP of those members affected. In other words, an AoE Attack can only kill those Squad members actually affected. 
 
 When preparing an encounter with a Squad, it may help to write down the thresholds when members of the Squad die, in advance.
 
-> When preparing the zombies encounter, it may help to write down that one zombie dies once the shared HP reah `40`, the next at `30`, then `20`, `10` and finally `0`. This way, you don't need to do this math once damage starts rolling in, you can simply check if after the damage is subtracted from the shared HP, if one of these thresholds was reached. If so, a member of the Squad is felled. 
+> When preparing the zombies encounter, it may help to write down that one zombie dies once the shared HP reach `40`, the next at `30`, then `20`, `10` and finally `0`. This way, you don't need to do this math once Damage starts rolling in, you can simply check if after the Damage is subtracted from the shared HP, if one of these thresholds was reached. If so, a member of the Squad is felled. 
 
 To keep Squads simple to run, they do not suffer [Injuries](#injury). 
 
@@ -3509,7 +3788,7 @@ It is imperative that all members of the Squad be within a distance of at most `
 
 This implies you may in fact snake the Squad along, each member at the maximum distance allowed from one another. But also be aware that if you do, the PCs may take advantage of this by killing a member in the middle of the snake and thus forcing at least one half of the Squad to spend the next action getting back to the other half, to restore cohesion. 
 
-However, this doesn't imply the inverse, either. You aren't required to blob up your Squad, as this will make them easy to bombard with AoE attacks. Try to have them assume some formation that would be reasonable for the creatures involved. While zombies might just blob up without any sense of the peril they are in, combat robots may assume a spread out wedge formation that would allow all members to fire their weapons, while minimizing AoE damage threat and ensuring cohesion may be quickly restored. 
+However, this doesn't imply the inverse, either. You aren't required to blob up your Squad, as this will make them easy to bombard with AoE Attacks. Try to have them assume some formation that would be reasonable for the creatures involved. While zombies might just blob up without any sense of the peril they are in, combat robots may assume a spread-out wedge formation that would allow all members to fire their weapons, while minimizing AoE Damage threat and ensuring cohesion may be quickly restored. 
 
 To make Squads easier to manage, be sure to mark every member of a Squad somehow. Assign them a color or icon, or label that you and your players can easily distinguish and reference during play. 
 
@@ -3518,20 +3797,20 @@ When adding the Squad to combat initiative, only add the Squad as a whole. Do no
 
 The Squad (re-)gains AP only as a whole. You do not track AP for each member, and the Squad only regains as many AP as a single individual would, if they weren't in a Squad. 
 
-When a Squad spends AP to move, **all** members of the Squad get to move, at the same time. And they **must** try to move to maintain [Cohesion](#squad-cohesion), if required. These movements can trigger [Opportunity Attacks](#opportunity-attacks), for each member of the Squad. *However* they **cannot** be halted this way. If the Squad member survives, they get to finish their movement, so that cohesion may be maintained. 
+When a Squad spends AP to move, **all** members of the Squad get to move, at the same time. And they **must** try to move to maintain [Cohesion](#squad-cohesion), if required. These movements can trigger [Opportunity Attacks](#opportunity-Attacks), for each member of the Squad. *However* they **cannot** be halted this way. If the Squad member survives, they get to finish their movement, so that cohesion may be maintained. 
 
-When a Squad spends AP to attack, **all** members of the Squad get to attack, at the same time. The Squad may have multiple targets for the attack, but only **one roll** is made **for each target** attacked by the Squad. All members **within reach** of one target may aid the attack roll, with `+1D` each. Damage works similarly. If the attack is successful, a **single damage roll** is made. For every other member that aided the attack roll, their [Free Strike](#free-strike-fs) value is added as additional damage, that is simply **added on top**, without any roll!
+When a Squad spends AP to Attack, **all** members of the Squad get to Attack, at the same time. The Squad may have multiple targets for the Attack, but only **one roll** is made **for each target** Attacked by the Squad. All members **within reach** of one target may aid the Attack roll, with `+1D` each. Damage works similarly. If the Attack is successful, a **single Damage roll** is made. For every other member that aided the Attack roll, their [Free Strike](#free-strike-fs) value is added as additional Damage, that is simply **added on top**, without any roll! The resulting Damage number counts as a single [Instance of Damage](#damage--effects).
 
-When a Squad spends AP to defend, **all** members of the Squad defend. When defending, no roll is made. The defender's [Def](#defense-def) value equals the Ob for the attacker. While usually, only a single member is attacked and will be the defender, all **adjacent allies** may add `+1` to their [Def](#defense-def), provided the Squad has AP left to defend with. 
+When a Squad spends AP to defend, **all** members of the Squad defend. When defending, no roll is made. The defender's [Def](#defense-def) value equals the Ob for the Attacker. While usually, only a single member is Attacked and will be the defender, all **adjacent allies** may add `+1` to their [Def](#defense-def), provided the Squad has AP left to defend with. 
 
-Every time a Squad acts, members may be skipped (i. e. they do nothing), if reasonable. For example, in a tight corridor, not all members of an all melee fighter Squad may be able to reach their foes. They cannot reasonably attack and thus, simply do nothing, instead. 
+Every time a Squad acts, members may be skipped (i. e. they do nothing), if reasonable. For example, in a tight corridor, not all members of an all melee fighter Squad may be able to reach their foes. They cannot reasonably Attack and thus, simply do nothing, instead. 
 
 ### Squad Captains
 A Squad may or may not have an assigned Captain. The Squad will follow the Captain and treat it as part of the Squad in terms of [Cohesion](#squad-cohesion). A Squad Captain is treated as a separate entity. It does not share the HP, Stamina or AP pools. However, the Captain and their Squad will always act at the same time. For purposes of tracking the initiative ladder, you may use the Captain as the tracker for the Squad. 
 
 A Squad with an attached Captain enjoys one of the following benefits for you to choose from when you create the Squad:
 * **Spurred**: All members of the Squad may move an additional `2` Squares for every AP spent. 
-* **Hardened**: The Squad starts with an additional `10` Temporary HP. These must be depleted before members of the Squad may take damage. 
+* **Hardened**: The Squad starts with an additional `15` Temporary HP. These must be depleted before members of the Squad may take Damage. 
 * **Drilled**: The Squad's Stamina pool has `+4` points.
 * **Indoctrinated**: The Squad receives `+1` AP at the start of its Turn, but all members lose `-1` Def. 
 
@@ -3542,12 +3821,12 @@ A Captain can but does not have to be a tactical leader. It could simply be a cr
 ### Squad On Squad Violence
 Sometimes, the PCs are involved in a combat encounter that has two groups battling each other. The PCs might be a third party trying to cross a battlefield, or they may have brought allies. 
 
-Under such circumstances, the turns involving Squad vs. Squad should go by very quickly. Don't bother rolling any damage, at all. Simply count the number of Squad members that are in weapon's range, sum their Free Strike value, and subtract that number from their enemy Squad's HP pool. This also implies Defense Tests aren't rolled. Simply assume they hit each other. The specifics of whether they would realistically hit are of no interest, least of all to your players. 
+Under such circumstances, the turns involving Squad vs. Squad should go by very quickly. Don't bother rolling any Damage, at all. Simply count the number of Squad members that are in weapon's range, sum their Free Strike value, and subtract that number from their enemy Squad's HP pool. This also implies Defense Tests aren't rolled. Simply assume they hit each other. The specifics of whether they would realistically hit are of no interest, least of all to your players. 
 
 Ultimately, your players won't care about the potential correctness of the numbers, as long as their own Characters aren't involved. It may even bore them watching the GM play the game alone for a while. Therefore, to re-iterate - keep Turns that don't involve the PCs as short as possible. After all, the PCs are the stars of the show! 
 
 ## Bring NPCs To Life
-Much like the PCs, or in fact real people, *proper* NPCs lead their own lives, with their own ambitions, aspirations, reactions, strengths and weaknesses. Keeping track of all of the numbers that implies, can become quite the challenge. But you won't need all of that data from the start, or even to track it all the time. Flesh out and update only as needed, to keep the work-load on your end low. You have enough work on your plate, as it is. Another way to think about NPCs is such: they are actors, who are born when they walk on stage, and who die, when they walk off stage. Every time they appear, you and your players may learn more about them and such knowledge comes gradually, bit by bit, over a long time. You'll only ever learn more than mere surface-level knowledge about the long-term actors. 
+Much like the PCs, or in fact real people, *proper* NPCs lead their own lives, with their own Ambition, Aspirations, Quirks, strengths and weaknesses. Keeping track of all of the numbers that implies, can become quite the challenge. But you won't need all of that data from the start, or even to track it all the time. Flesh out and update only as needed, to keep the work-load on your end low. You have enough work on your plate, as it is. Another way to think about NPCs is such: they are actors, who are born when they walk on stage, and who die, when they walk off stage. Every time they appear, you and your players may learn more about them and such knowledge comes gradually, bit by bit, over a long time. You'll only ever learn more than mere surface-level knowledge about the long-term actors. 
 
 Whenever the PCs encounter someone new, all you really need, is a **rough idea** of *who* that NPC *is* and how you *expect* them to interact with the PCs. You don't have to know all their history, nor all of their strengths, weaknesses or even their agenda. Discover those only as needed. 
 
@@ -3586,7 +3865,7 @@ At any time, a Mentor can decide to let their Retainer go. Depending on circumst
 During combat encounters, it is the **players' duty to run their Retainer NPCs**. As such, they must be given a Character sheet with all the numeric details of their Retainer NPC. Keep in mind that even though players run their Retainers for the purposes of alleviating some of your burden, *you* are still the one who dictates the Retainer's personality. Keep a watchful eye on what the players want their Retainer to do. If it doesn't fit the personality of the Retainer, you *should* intervene. If you don't, and the players decide the personality, then in actuality, you have simply given them a secondary PC to run. And one should be plenty enough for any player already.
 
 Additionally, Retainers adhere to these rules in combat:
-* They always share the same [Initiative Order](#initiative) as their Mentor and thus act on the same Turn! However, even if their Mentor is incapacitated, but their Retainer is not, then the Retainer may still act!
+* They always share the same [Initiative Order](#initiative-order) as their Mentor and thus act on the same Turn! However, even if their Mentor is incapacitated, but their Retainer is not, then the Retainer may still act!
 * Upon reaching `0` [HP](#health-points-hp) they **die**! They do not get to [Death's Door](#deaths-door) as PCs do.
 * They count as an ally when incrementing [Hostility](#hostility).
 
@@ -3602,8 +3881,13 @@ Retainers have **their own [XP](#experience-points-xp) to track**. Whenever and 
 
 Advancing their Attributes and Skills is **only possible** through spending their [XP](#experience-points-xp). Retainers **cannot** gain Advancement Progress, as PCs do. Also, advancing their Attributes **always costs double the [XP](#experience-points-xp)** and they cannot have any [Core Attribute](#core-favored-normal--penalized-attributes)! This means, to advance an Attribute or Skill, you have to pay the entire [XP](#experience-points-xp) cost at once. 
 
+## Legendary Actions
+Some creatures and Characters may have access to so-called **Legendary Actions**. These are particularly powerful or special abilities intended to make boss encounters more challenging and interesting and to give them more staying power. In contrast to [Hostility Actions](#hostility), these abilities do not require Hostility. Instead, they often have a limited number of uses, tracked per creature. In addition, these abilities don't cost AP, but may have conditions that must be met to activate. 
+
+Legendary Actions are optional. You may choose to disregard them at will. Or rather, are advised only to employ them for boss creatures. 
+
 # Hostility
-PCs have access to [Momentum Actions](strive-core.md#momentum) and earn or lose Momentum with the tides in combat. But you as the GM earn **Hostility**, regardless of how the combat is going. At the start of every **combat Round**, you earn `1`, plus the number of PCs and their allies in the encounter. 
+PCs have access to [Momentum Actions](strive-core.md#momentum) and earn or lose Momentum with the tides in combat. But you as the GM earn **Hostility**, regardless of how the combat is going. At the start of every **combat Round**, you earn `1`, plus the number of PCs and their allies in the encounter. You can accrue at most `50` Hostility.
 
 > Given `3` PCs and one ally, you earn `3 (number of PCs) + 1 (number of allies) + 1 (always) = 5` Hostility at the start of every Round. 
 
@@ -3613,7 +3897,7 @@ Unlike Momentum, **Hostility is not lost** when a combat encounter ends. It simp
 
 Hostility Actions can be tied to a particular type of creature or culture or even to a specific creature itself. However, there are also [General Hostility Actions](#general-hostility-actions) that *any* NPC may use.
 
-As Hostility Actions can really mix up combat, it would be wise to refrain from employing too many creatures with such abilities. These should be reserved for elite and legendary creatures. Although you could also break this expectation and explicitly give a regular or even feeble creature a Hostility Action. But always keep in mind that every creature with a Hostility Action is another level of complexity to the combat encounter. This causes more work for you and more things to keep track of for everyone. Used sparingly and effectively, Hostility Actions can elicit gasps of surprise from your players, ensuring a memorable encounter!
+As Hostility Actions can really mix up combat, it would be wise to refrain from employing too many creatures with such abilities - they should be reserved for elite and legendary creatures. Although you could also break this expectation and explicitly give a regular or even feeble creature a Hostility Action. But always keep in mind that every creature with a Hostility Action is another level of complexity to the combat encounter. This causes more work for you and more things to keep track of for everyone. Used sparingly and effectively, Hostility Actions can elicit gasps of surprise from your players, ensuring a memorable encounter!
 
 # NPC Builder
 A Module may provide you with some pre-defined NPCs to work with, but you will most likely have to, and perhaps desire to, invent your own, too. This chapter aims to provide a step-by-step process for NPC creation, based on several parameters that you get to pick from. 
@@ -3628,10 +3912,10 @@ First, you must decide whether you need a **person**, an **animal** or a **monst
 
 Secondly, you must choose a **power-level**: 
 
-* **Feeble**: Start with `10` points and a CR of `1`. A feeble creature is cannon-fodder, a minion that serves as faceless padding around a bigger villain. It always has **`10` maximum HP**, regardless of its Toughness Level or other Traits. This makes it easy to eliminate and allows the PCs to feel heroic, for example by cutting a path through a horde of lesser zombies. 
-* **Regular**: Start with `15` points and a CR of `2`. A regular creature has no particular advantages or disadvantages. Often times, two or three of these will be enough to occupy a PC group for a while. Also expect most people NPCs to be regular creatures. 
-* **Elite**: Start with `20` points and a CR of `3`. An elite is highly trained or naturally talented. Just one of these may suffice to challenge a PC group. When coupled with other NPCs, this one should probably assume a supporting or leading role and instead of engaging the PCs to the same extent as its minions, hangs back a bit, to ensure it won't overwhelm the PCs. 
-* **Legendary**: Start with `30` points and a CR of `4`. A legendary creature is expected to be a boss encounter, which can easily challenge the entire PC group on its own. Be careful not to design it as too powerful. Instead, for an epic boss fight, split up its abilities into two or three stages. 
+* **Feeble**: Start with `15` points and a CR of `2`. A feeble creature is cannon-fodder, a minion that serves as faceless padding around a bigger villain. It always has **`10` maximum HP**, regardless of its Toughness Level or other Traits. This makes it easy to eliminate and allows the PCs to feel heroic, for example by cutting a path through a horde of lesser zombies. 
+* **Regular**: Start with `25` points and a CR of `3`. A regular creature has no particular advantages or disadvantages. Often times, two or three of these will be enough to occupy a PC group for a while. Also expect most people NPCs to be regular creatures. 
+* **Elite**: Start with `40` points and a CR of `5`. An elite is highly trained or naturally talented. Just one of these may suffice to challenge a PC group. When coupled with other NPCs, this one should probably assume a supporting or leading role and instead of engaging the PCs to the same extent as its minions, hangs back a bit, to ensure it won't overwhelm the PCs. 
+* **Legendary**: Start with `60` points and a CR of `6`. A legendary creature is expected to be a boss encounter, which can easily challenge the entire PC group on its own. Be careful not to design it as too powerful. Instead, for an epic boss fight, split up its abilities into two or three stages. 
 
 The next steps after this are to pick a combat role, traits, Attributes and Skills. 
 
@@ -3639,16 +3923,16 @@ The next steps after this are to pick a combat role, traits, Attributes and Skil
 A creature's role informs you about how to best employ it in a combat encounter. When used within their role, they will perform better and be a more challenging foe. You can also purposefully use a creature contra to their role, to make them easier to deal with. 
 
 * **Ambusher**: Surprises foes, striking from stealth and tries to flank. Stays in the back-line or at their enemies' flanks. 
-* **Artillery**: A back-liner who prefers to rain damage upon foes from afar. Usually very weak in melee. 
+* **Artillery**: A back-liner who prefers to rain Damage upon foes from afar. Usually very weak in melee. 
 * **Brawler**: A front-liner that can hold their own, but relies on allies to finish the job. A solid middle-ground between Tank and Shock-Trooper. 
 * **Commander**: A leader that lesser allies will rally around. Can improve their allies capabilities and will direct them to improve their efficacy. 
 * **Disruptor**: Disturbs enemy formations, by force moving foes around or inserting themself into an enemy formation. 
 * **Guardian**: Protects allies. 
 * **Multiplier**: May create copies of itself or another type of creature, as a means of reinforcing its own side of the conflict. 
 * **Sentry**: Observant and often stands guard. Willy call for aid, as soon as it notices anything out of the ordinary. 
-* **Shock-Trooper**: Deals lots of damage, preferring to flank enemies. Doesn't usually survive much damage. 
+* **Shock-Trooper**: Deals lots of Damage, preferring to flank enemies. Doesn't usually survive much Damage. 
 * **Supporter**: Improves the capabilities of their allies and/or weakens foes. 
-* **Tank**: Draws attention to itself and can survive a lot of punishment. Prefers the front-line. Tends to deal little damage, but may be good at disrupting enemy formations, for example by moving opponents around a lot. 
+* **Tank**: Draws attention to itself and can survive a lot of punishment. Prefers the front-line. Tends to deal little Damage, but may be good at disrupting enemy formations, for example by moving opponents around a lot. 
 * **Trapper**: Lays traps and prepares the battlefield in advance or manipulates it during combat. 
 
 You may assign as many or as few roles to a creature as you like, but you should be careful to only assign those that make sense. You may begin by choosing a role and building around that or start from the opposite direction and first design Skills, pick Traits and only when finished assign fitting roles. 
@@ -3656,7 +3940,7 @@ You may assign as many or as few roles to a creature as you like, but you should
 ## NPC Traits
 When choosing Traits from the lists below, keep in mind all of them are really just suggestions, to quickly get you started designing your own NPCs. Once you get a feel for the numbers, for what *feels* like a balanced creature, you can easily expand the list with your own Traits. In fact, you don't need to use the point-buy-system, at all, if you have experience in creature design.
 
-Ultimately, what makes a creature *balanced* in terms of power and ability, so that it can reasonable be defeated, is to always give it some significant weakness. A creature that can easily deal lots of damage should be pretty weak itself, forcing it to take a cautious approach. A creature that can survive a lot of damage without batting an eye should probably not deal much damage itself. If you combine such strengths, make sure to give it some other weakness, like tying its ability to act to an environmental effect that triggers only once every other Round or to another NPC which controls it. Perhaps its strength is only temporary or only effective when supported by allies. There are many ways in which a creature can have significant weaknesses for the PCs to find and exploit, which will please their players when they do. 
+Ultimately, what makes a creature *balanced* in terms of power and ability, so that it can reasonable be defeated, is to always give it some significant weakness. A creature that can easily deal lots of Damage should be pretty weak itself, forcing it to take a cautious approach. A creature that can survive a lot of Damage without batting an eye should probably not deal much Damage itself. If you combine such strengths, make sure to give it some other weakness, like tying its ability to act to an environmental effect that triggers only once every other Round or to another NPC which controls it. Perhaps its strength is only temporary or only effective when supported by allies. There are many ways in which a creature can have significant weaknesses for the PCs to find and exploit, which will please their players when they do. 
 
 However, you are not limited to creating balanced creatures. You can also design deliberately *unfair* creatures, who are god-like in their powers. But if you do, be aware that the PCs should probably not be allowed to try and fight such a being. Or if you do allow them to try, have the creature put a "gentle" stop to it, like a parent scolding their child. Or perhaps the god-creature is so powerful it simply needn't care about what the PCs do, anyway. Such a being should likely result in a narrative challenge, rather than a combat one. This could also be the villain of the campaign, who starts off unfairly strong, but as the PCs progress through the campaign, they destroy the villain's sources of power and eliminate their allies, causing the villain to weaken and finally become defeatable. 
 
@@ -3664,7 +3948,7 @@ However, you are not limited to creating balanced creatures. You can also design
 These Traits can change up how a creature may engage the PCs, may allow them to circumvent hazards, quickly flee an encounter or reposition around the PCs. 
 
 #### Burrower (-2 points; +2 CR)
-The creature can burrow, moving up to `2` Squares, at a depth of up to `3` Squares, per AP spent. While burrowed, it cannot be targeted or make attacks. 
+The creature can burrow, moving up to `2` Squares, at a depth of up to `3` Squares, per AP spent. While burrowed, it cannot be targeted or make Attacks. 
 
 Additions:
 * `-N` points: Can burrow an additional `N * 2` Squares, per AP spent. 
@@ -3676,23 +3960,23 @@ Additions:
 * `-1` point: **Sticky**: The creature can cling to any surface, without restriction. 
 
 #### Fast (-2 points; +1 CR)
-This creature moves an additional `2` Squares, per AP spent. Exclusive with [Shambler](#shambler-2-points). 
+This creature moves an additional `+2` Squares, per AP spent. Exclusive with [Shambler](#shambler-2-points). 
 
 Additions:
-* `-N` points: Can move an additional `N` Squares per AP spent. 
+* `-N` points: Can move an additional `N * 2` Squares per AP spent. 
 
 #### Glider (-1 points; +1 CR)
-The creature can glide, but only from higher to lower elevation. 
+The creature can glide at its normal movement speed, but only from higher to lower elevation. It does not suffer Damage from falling. 
 
 Additions:
 * `-1` point: **Floater**: Can also hover in mid-air. 
 * `-3` point: **Flyer**: Can move at full speed mid-air, as far and as long as it wants and at any elevation. 
 
 #### Leaper (-3 points; +2 CR)
-The creature can jump up to `6` Squares far, in a high arc, without provoking [Attacks of Opportunity](#opportunity-attacks), over the heads of its foes. The creature suffers `-1` [Stamina](#stamina--strain). 
+The creature can jump up to `6` Squares far, in a high arc, without provoking [Attacks of Opportunity](#opportunity-Attacks), over the heads of its foes. This costs `-1` [AP](./strive-core.md#action-points-ap) and `-1` [Stamina](#stamina--strain). 
 
 Additions:
-* `-2` points: **Dervish**: When leaping over opponents, this creature may also launch free attacks against each of them, but with Ob `+1`.
+* `-2` points: **Dervish**: When leaping over opponents, this creature may also launch free Attacks against each of them, but with Ob `+1`.
 
 #### Swimmer (-1 point; +1 CR)
 The creature is at home in the water. They can move at full speed while swimming, without Tests required. Exclusive with [Drowner](#drowner-1-point--1-cr)
@@ -3702,28 +3986,28 @@ Additions:
 * `-1` point: In one massive burst of energy, the creature may lunge out of the water, travelling up to `10` Squares. 
 
 ### Defensive Traits
-These Traits help a creature survive longer or at least deter certain forms of attack against it. 
+These Traits help a creature survive longer or at least deter certain forms of Attack against it. 
 
 #### Armored (-2 points; +3 CR)
-The creature is naturally armored. You can spend up to `8` points on a damage type it protects against. Cannot be armored against a damage type it is also [Vulnerable](#vulnerable-2-points) against. 
+The creature is naturally armored. You can spend up to `8` points on a Damage type it protects against. Cannot be armored against a Damage type it is also [Vulnerable](#vulnerable-2-points) against. 
 
 Additions:
-* `-N` points: **Heavily Armored**: You can spend an additional `N * 4` points on damage protections. 
+* `-N` points: **Heavily Armored**: You can spend an additional `N * 4` points on Damage protections. 
 
 #### Camouflage (-3 points; +3 CR)
 The creature can become invisible, even in plain sight, at the cost of `3` AP. It will stay invisible for as long as it takes no offensive action. It can be detected with a successful [Observation](#observation-awarawar) or [Path-Finding](#path-finding-awarwit) Test, at Ob `3`. 
 
 #### Danger Blood (-1 point; +1 CR)
-When injured, strange-colored blood squirts out of the wound, causing `1D6` acid/poison/burning/freezing (choose one) damage to all other, adjacent creatures. 
+When Damaged, strange-colored blood squirts out of the wound, causing `4` Acid/Poison/Burning/Freezing (choose one) Damage to all other, adjacent creatures. 
 
 #### Danger-Touch (-3 points; +2 CR)
-All melee attackers against this creature suffer `6` points of a chosen type of damage, even if they miss. 
+All melee Attackers against this creature suffer `6` points of a chosen type of Damage, even if they miss. 
 
 #### Death Rattle (-2 points; +2 CR)
 Upon dying, the creature can invoke one of the following effects (you must choose one now):
-* **Explode**: Cause damage to all adjacent creatures. Choose one: `2D6 + 2 Slashing`, `2D6 Piercing`, or `2D4` of any other damage type. 
-* **Terrifying** Screech: All foes in a `10` Square AoE radius around the creature must succeed a [Self-Control](#self-control-toughtough) Test at Ob `3`, or else become [Terrified](strive-core.md#terrified) for one Round. 
-* **Reprisal**: Move up to `8` and launch a final, desperate and free attack against a foe, with Ob `-1`. 
+* **Explode**: Cause Damage to all adjacent creatures. Choose one: `2D6 + 2 Slashing`, `2D6 Piercing`, or `2D4` of any other Damage type. 
+* **Terrifying** Screech: All foes in a `10` Square AoE radius around the creature must succeed a [Self-Control](#self-control-toughwit) Test at Ob `3`, or else become [Terrified](strive-core.md#terrified) for one Round. 
+* **Reprisal**: Move up to `8` and launch a final, desperate and free Attack against a foe, with Ob `-1`. 
 * **Splitter**: Split into two halves, which each reform to a whole shape. They retain half of your Attributes and half your maximum HP and with current HP set to their new maximum. This split can only occur once. 
 
 #### Fortified Mind (-4 points; +1 CR)
@@ -3736,7 +4020,7 @@ This creature cannot be [Force-Moved](strive-core.md#forced-movement).
 This creature does not suffer [Flanking](strive-core.md#flanking). 
 
 #### Unstoppable (-2 points; +1 CR)
-The creature cannot be stopped by [Opportunity Attacks](strive-core.md#opportunity-attacks). 
+The creature cannot be stopped by [Opportunity Attacks](strive-core.md#opportunity-Attacks). 
 
 #### Unstunnable (-3 points; +1 CR)
 The creature cannot be [Stunned](strive-core.md#stunned). 
@@ -3745,16 +4029,16 @@ The creature cannot be [Stunned](strive-core.md#stunned).
 At the start of its Turn, the creature regains `6` HP.
 
 ### Offensive Traits
-A creature can make use of these Traits when it attacks. 
+A creature can make use of these Traits when it Attacks. 
 
 #### Cannot Miss (-3 points; +3 CR)
-Even when this creature misses with a damage-causing attack, it will always deal `4` points of the attack's Primary Damage, anyway. If the creature does succeed in attacking, this Trait does not trigger.
+Even when this creature misses with a Damage-causing Attack, it will always deal `4` points of the Attack's [Primary Damage](#damage--effects), anyway. If the creature does succeed in Attacking, this Trait does not trigger.
 
 Additions:
-* `-3` points: **Precise**: Always deals `8` points of damage, instead.
+* `-3` points: **Precise**: Always deals `8` points of Damage, instead.
 
 #### Disease-Ridden (-1 point; +1 CR)
-Any damage this creature deals on another that can contract diseases, will force a Test to resist disease from that creature. The victim must succeed a Toughness Test at Ob equal to half their Toughness, rounded up, or else suffer a random [Illness](#illness). 
+The first Damage this creature deals on another that can contract diseases, will force a Test to resist disease from that creature. The victim must succeed a Toughness Test at Ob equal to half their Toughness, rounded up, or else suffer a random [Illness](#illness). 
 
 Suitable for: Any type of undead, rats and swamp creatures.
 
@@ -3762,7 +4046,7 @@ Suitable for: Any type of undead, rats and swamp creatures.
 Attacks that cause [Forced Movement](#forced-movement), have increased moving-distance by `+2` Squares. 
 
 #### Poisoner (-4 points; +2 CR)
-Successful attacks deal an additional `6` points of poison damage. 
+Successful Attacks deal an additional `6` points of poison Damage. 
 
 ### Weakness Traits
 These Traits grant a creature weaknesses that make it easier to defeat. 
@@ -3784,7 +4068,7 @@ The creature is slow to think, move and act. It starts its Turn with only `+2` A
 Suitable for: Creatures you wish to employ en masse, such as zombies, or powerful creatures whose action economy you wish to limit
 
 #### Vulnerable (+2 points; -1 CR)
-The creature is especially susceptible to a specific type of damage, and will suffer an additional `6` points thereof, whenever it is suffered. Whatever damage type it is vulnerable to, it cannot be [Armored](#armored--2-points) against. 
+The creature is especially susceptible to a specific type of Damage, and will suffer an additional `6` points thereof, whenever it is suffered. Whatever Damage type it is vulnerable to, it cannot be [Armored](#armored--2-points) against. 
 
 This weakness Trait can be picked multiple times. 
 
@@ -3809,49 +4093,56 @@ This creature cannot lose [Stamina](#stamina--strain) through its own actions (i
 Suitable for: Creatures that would *break* and be uninteresting to deal with, if they tired. Zombies, for example. Particularly suitable for foes that make heavy use of Stamina costing abilities. 
 
 #### Moon Affinity (-7 points; +4 CR)
-When basking in a full moon, the creature regains `6` HP at the start of its Turn and all its attacks deal an additional `+4` points of Pure damage.
+When basking in a full moon, the creature regains `6` HP at the start of its Turn and all its Attacks deal an additional `+4` points of Pure Damage.
 
 Gain the ability: **Moon Step**: At the cost of `1` AP, the creature can vanish into the moon light and re-appear in a spot also basked in moon light, up to `15` Squares away. It does not need line of sight to that spot. 
 
 Suitable for: Creatures of the night, such as werewolves, vampires and ghosts. 
 
+#### Hardened Spine (-10 points; +8 CR)
+Attacks from behind the creature cannot Damage it! It still suffers [Flanking](#flanking). Exclusive with [Perfect Defense](#perfect-defense--10-points-8-cr).
+
+#### Perfect Defense (-10 points; +8 CR)
+Attacks from in front of the creature cannot Damage it! It still suffers [Flanking](#flanking). Exclusive with [Hardened Spine](#hardened-spine--10-points-8-cr).
+
 ## Choosing NPC Characteristics
 * You may increase each Attribute `+1` at the cost of `-1` point. 
-* You may increase Stability, Defense or Free Strike `+1` at the cost of `-2` points. 
-  * The damage type for the Free Strike may be freely chosen. 
+* You may increase Stability, Defense or Free Strike `+1` at the cost of `-1` points. 
+  * The Damage type for the Free Strike may be freely chosen. 
 
 ## Choosing NPC Skills
 Custom Skills are that which brings the spice to every NPC and you are free to build them however you like, but keep the following guidelines in mind:
-* A regular combat Skill should deal at most `8` points of damage per damage type and should at most deal two types of damage. If you decide it needs to deal higher damage, it should probably have a higher AP cost. 
-* AP costs for attacks should be at least `2`. Supporting Skills may only cost `1` AP or even be free, if some other limitation applies. 
+* A regular combat Skill should deal at most `8` points of Damage per Damage type and should at most deal two types of Damage. If you decide it needs to deal higher Damage, it should probably have a higher AP cost. 
+* AP costs for Attacks should be at least `2`. Supporting Skills may cost `1` AP or even be free, if some other limitation applies. 
 * A Feeble and Regular creature should at most have `2` main Skills. These creatures should be easy and quick to run, so overburdening them with Skills will counteract this goal. 
 
-Every Skill you add costs `-1` point and adds `+1` CR. 
+Every Skill you add costs `-1` point and adds `+2` CR. You should avoid Levels less than `1`. 
 
 For people, you may simply give them Skills from the same lists as are available to the PCs. When choosing Skills to add to a NPC, you needn't add every single Skill they could potentially use at some point. You only need to give them those Skills that form their core strengths. The more Skills you add, the harder to manage a NPC becomes. 
 
-Every Skill should be at least Level `2`. Increase the CR by half the Skill's Level (RU). 
-
 ### Bite (Agi/Str)
-Bite a target for `1D4 + Strength` points of piercing damage.
+Bite a target for `1D4 + Strength` points of piercing Damage.
 
 ### Create Sticky Surface (Tough/Tough)
 Create a sticky, adhesive surface within hand's reach. This surface now counts as [Difficult Terrain](strive-core.md#combat-movement). Objects can also be stuck to this surface and require `2` AP to break loose.
 
 ### Charge (Str/Tough)
-Run at a target, up to `4` Squares away and slam into them with your body, dealing `Toughness` points of damage and knocking your opponent back by `Strength` Squares. 
+Run at a target, up to `4` Squares away and slam into them with your body, dealing `Toughness` points of Damage and knocking your opponent back by `Strength` Squares. 
 
 ### Obscure Vision (Awar/Tough)
-Kick up dust, spray a cloud of ink or spew spores that heavily obscure vision, in a `3` Square AoE radius around you. All ranged attacks within or through the area suffer `+2` Ob. 
+Kick up dust, spray a cloud of ink or spew spores that heavily obscure vision, in a `3` Square AoE radius around you. All ranged Attacks within or through the area suffer `+2` Ob. 
 
 ## General Hostility Actions
 The following Hostility Actions are a general offering for you to pick and choose from, as you deem fit for a combat encounter. You are free to invent your own, with these as a reference and STRIVE Modules may also offer more of these. 
 
 ### Advance! (-4 points; +2 CR)
-**`-3` Hostility**: The creature and up to `3` of its allies may immediately and freely move up to `5` Squares far. These movements may provoke [Opportunity Attacks](#opportunity-attacks)!
+**`-3` Hostility**: The creature and up to `3` of its allies may immediately and freely move up to `5` Squares far. These movements may provoke [Opportunity Attacks](#opportunity-Attacks)!
 
 ### Collect Bounty (-4 points; +3 CR)
-**`-5` Hostility**: The creature moves up to `10` Squares and makes an immediate and free attack against a chosen foe. Until the end of combat, or until a new victim is chosen with this ability, that foe is [Marked](strive-core.md#marked)!
+**`-5` Hostility**: The creature moves up to `10` Squares and makes an immediate and free Attack against a chosen foe. Until the end of combat, or until a new victim is chosen with this ability, that foe is [Marked](strive-core.md#marked)!
+
+### Enraged (-5 points; +2 CR)
+**`-8` Hostility**: The creature immediately becomes [Berserked](strive-core.md#berserk) and deals an additional `5` points of Bludgeoning Damage on all their Attacks, until the end of the Round. 
 
 ### Get Off Me! (-5 points; +3 CR)
 **`-5` Hostility**: The creature pushes back all other, adjacent creatures by `3` Squares. 
@@ -3862,24 +4153,36 @@ The following Hostility Actions are a general offering for you to pick and choos
 Suitable for: Any creature that could reasonably emit such a thrumming sound, such as bats, frogs or machines
 
 ### Slip Away (-5 points; +3 CR)
-**`-5` Hostility**: When a foe moves into a space adjacent to this creature, as a Reaction, it may immediately move away, for up to `5` Squares, without provoking [Opportunity Attacks](strive-core.md#opportunity-attacks)!
-
-### Seething Hatred (-5 points; +2 CR)
-**`-8` Hostility**: The creature immediately becomes [Berserked](strive-core.md#berserk) and deals an additional `5` points of Bludgeoning damage on all their attacks, until the end of the Round. 
+**`-5` Hostility**: When a foe moves into a space adjacent to this creature, as a Reaction, it may immediately move away, for up to `5` Squares, without provoking [Opportunity Attacks](strive-core.md#opportunity-Attacks)!
 
 ### Sinkhole (-8 points; +2 CR)
-**`-8` Hostility**: The ground gives and in a `5` Square AoE radius around the creature, drops by `5` Squares. All creatures with `Stability ≤ 2` are covered by earth, become [Prone](strive-core.md#prone) and suffer `6` points of Bludgeoning damage. All creatures with `Stability ≤ 3` become [Prone](strive-core.md#prone). 
+**`-8` Hostility**: The ground gives and in a `5` Square AoE radius around the creature, drops by `5` Squares. All creatures with `Stability ≤ 2` are covered by earth, become [Prone](strive-core.md#prone) and suffer `6` points of Bludgeoning Damage. All creatures with `Stability ≤ 3` become [Prone](strive-core.md#prone). 
 
 ### Trap Storm (-4 points; +3 CR)
-**`-8` Hostility**: The creature throws or lays or spews forth `3` traps, up to `10` Squares far, that now litter the battlefield. Each of these will deal `6` points of damage. The damage type should be chosen according to the nature of the traps. E. g. piercing for bear traps, acid for pools of acid, burning for bombs and so on. 
+**`-8` Hostility**: The creature throws or lays or spews forth `3` traps, up to `10` Squares far, that now litter the battlefield. Each of these will deal `6` points of Damage. The Damage type should be chosen according to the nature of the traps. E. g. piercing for bear traps, acid for pools of acid, burning for bombs and so on. 
 
-### I Don't Bleed (-5 points; +4 CR)
+### I Don't Bleed (-5 points; +6 CR)
 **`-10` Hostility**: Immediately clears all points of [Bleeding](#bleeding), [Burning](#burning) and [Frostbitten](strive-core.md#frostbitten) and awards `+10` Temporary HP. 
 
-### No, I Am The Hero! (-10 points; +6 CR)
+### No, I Am The Hero! (-10 points; +8 CR)
 **`-20` Hostility**: Immediately after the PCs have activated a [Heroic Act](#momentum), this creature activates it again, but for itself and its allies, instead of the PCs!
 
 Suitable for: Legendary villains
+
+## General Legendary Actions
+You may choose any number from the following [Legendary Actions](#legendary-actions) to bolster a NPC's capabilities. Keep the number as low as possible, to prevent a creature too powerful or tedious to beat and less tiresome for you to manage. 
+
+### Ignore Damage (-8 Points; +8 CR)
+Ignore an [Instance of Damage](#damage--effects), up to `2` times per Round. 
+
+### Shrug It All Off (-3 Points; +3 CR)
+Remove all Health Conditions, once a day. 
+
+### Action Surge (-5 Points; +6 CR)
+Gain `5` AP, once a day. 
+
+### Stop Heroism (-10 Points; +8 CR)
+Prevent or end a Heroic Act's effects, once every other Round. 
 
 # Combat Encounter Builder
 Preparing a combat encounter is not a simple matter, though it will get easier, as your *sense* for the *right* amount of challenge develops. This chapter aims to get you started down that road. 
@@ -3899,7 +4202,7 @@ While not an exact science, the following guideline aims to aid you in deciding 
 To **decide ER**, starting at `0`:
 * Decide on the battlefield. For every feature that will likely hinder the PCs, increase ER by `+1`. For any feature that will likely aid the PCs, decrease the ER by `-1`. 
   * Does it have difficult to reach spaces or difficult terrain? 
-  * Are there hazards that cause damage? 
+  * Are there hazards that cause Damage? 
   * Are there choke-points? Such as tight corridors or easy to hold doorways?
 * Will there be objectives besides defeating all enemies? How easy to complete will they be?
   * Examples might be: escorting someone or something to safety, holding a certain location for a certain time, destroying to disabling a machine under time pressure, capture someone or something before it gets away, and so on.
