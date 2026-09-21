@@ -187,21 +187,21 @@ By using STRIVE (that includes but is not limited to viewing, reading, referenci
     - [Virtues \& Vices](#virtues--vices)
       - [Avarice](#avarice)
       - [Balance](#balance)
+      - [Boldness](#boldness)
       - [Dread](#dread)
       - [Efficiency](#efficiency)
       - [Favor](#favor)
       - [Ferocity](#ferocity)
       - [Generosity](#generosity)
       - [Guile](#guile)
+      - [Luck](#luck)
+      - [Mercy](#mercy)
       - [Precaution](#precaution)
       - [Pride](#pride)
       - [Productivity](#productivity)
-      - [Respectability](#respectability)
       - [Prudence](#prudence)
-      - [Mercy](#mercy)
+      - [Respectability](#respectability)
       - [Wrath](#wrath)
-      - [Luck](#luck)
-      - [Boldness](#boldness)
   - [Health](#health)
     - [Health Points (HP)](#health-points-hp)
       - [Recovering HP](#recovering-hp)
@@ -1422,6 +1422,15 @@ Ways to spend:
 * **Please, Reconsider**: Grant an [Edge](#edge) on a Test of someone else, to help them overcome their Signature. 
 * **Wind-Down**: Lower Strain by an additional `2` points, during [Recovery](#recovery).
 
+#### Boldness
+Fortune favors the bold, or so they say. And yet you can differentiate between bold, and insane.
+
+You can spend it to:
+* **All In**: Take a greater risk to gain a greater effect on a Test, if successful.
+* **Daredevil**: Lessen a negative consequence that you suffer from your own, bold Action. 
+* **Fortunate Favors**: Discover something useful that could reasonably be present, or find additional loot.
+* **The Bold**: Gain an [Edge](#edge) when doing something bold. 
+
 #### Dread
 Dread is not simply cowardice - it is knowing *how to survive*, and how to get away from harm. This can even extend to other Characters, who you can also keep from harm, or help escape. 
 
@@ -1476,6 +1485,24 @@ Ways to spend:
 * **Compulsive Concealment**: Have something hidden about your person that no one else can find. 
 * **Soft-Step**: Gain an [Edge](#edge) on a [Stealth](#stealth-agiawar) Test. 
 
+#### Luck
+Trusting naiveté can be quite disarming. The trust you give, is the trust you receive. And yet you also invite bitter deceit. 
+
+You can spend it to:
+* **Cannot Lie**: Gain an [Edge](#edge) on a [Persuasion](#persuasion-witwit) Test when telling the truth.
+* **Trust Is Shared**: Trust another, so that they may be more likely to trust you. 
+* **Lucky Break**: Turn a failure into a lesser failure or partial success, if it results from having trusted another who deveived you.
+* **Right Place**: Establish that you happen to be somewhere useful.
+
+#### Mercy
+Mercy is the conviction that the cycle of violence *must* be broken, and that everyone deserves another chance to redeem themselves. 
+
+You can spend it to:
+* **Compassion**: Gain an [Edge](#edge) on [Medicine](#medicine-agiwit) Tests. 
+* **Forgive**: Gain an [Edge](#edge) on [Persuasion](#persuasion-witwit) Tests to convince others to be merciful. 
+* **Receive The Same Mercy**: Prevent or interrupt a lethal consequence to you or an ally. 
+* **Spare Them**: After defeating an enemy, prevent their death.
+
 #### Precaution
 Precaution is the expression of constant distrust. Expecting the worst in people. 
 
@@ -1503,15 +1530,6 @@ Ways to spend:
 * **Overwork**: Gain `+2D` on a Test, and then suffer `+2` Strain.
 * **Finish It**: Gain a final burst of Progress when a Project is nearly complete.
 
-#### Respectability
-Respectability represents the trust and good standing that comes from being modest, reliable, and not demanding of recognition.
-
-Ways to spend:
-* **Give Credit**: Shift attention or praise toward another Character, making others regard them more forgivingly. 
-* **Above Reproach**: Mitigate suspicion, scandal, and accusation directed towards you.
-* **Let Them Shine**: Grant an [Edge](#edge) to another Character's particularly difficult Test. 
-* **Quiet Influence**: Your presence alone can improve how other Characters act towards you or your allies. 
-
 #### Prudence
 Prudence is the careful consideration of your next steps, weighing the risks and supporting only a course of action you deem *worth it*.
 
@@ -1521,15 +1539,14 @@ Ways to spend:
 * **Wait For It**: Delay an Action or Reaction to gain a safer opportunity, granting it an [Edge](#edge) the next chance you get for it.
 * **Know the Cost**: Reveal an important consequence before committing to a course of Action.
 
-#### Mercy
-Mercy is the conviction that the cycle of violence *must* be broken, and that everyone deserves another chance to redeem themselves. 
+#### Respectability
+Respectability represents the trust and good standing that comes from being modest, reliable, and not demanding of recognition.
 
-You can spend it to:
-Spare Them: After defeating an enemy, prevent their death.
-Stay My Hand: Reduce or eliminate an otherwise lethal consequence.
-Forgive: Remove a hostile/social consequence from an NPC who has wronged you.
-Offer Quarter: Cause a defeated opponent to recognize your offer of mercy.
-Compassion: Reduce suffering caused by one of your actions.
+Ways to spend:
+* **Give Credit**: Shift attention or praise toward another Character, making others regard them more forgivingly. 
+* **Above Reproach**: Mitigate suspicion, scandal, and accusation directed towards you.
+* **Let Them Shine**: Grant an [Edge](#edge) to another Character's particularly difficult Test. 
+* **Quiet Influence**: Your presence alone can improve how other Characters act towards you or your allies. 
 
 #### Wrath
 Wrath is the fire that flares up in your mind when you feel wronged. Every insult must be repaid in kind - or worse. 
@@ -1539,24 +1556,6 @@ You can spend it to:
 * **Punish**: Increase the effect(s) of a successful Attack against someone who previously harmed you. Note: *only* the effects, **not** the Damage! E.g. `1` [Bleeding](#bleeding) -> `2` Bleeding.
 * **You Will Pay**: Gain an [Edge](#edge) on [Persuasion](#persuasion-witwit) when intimidating someone who wronged you o an ally. 
 * **Vendetta**: [Mark](#marked) a creature. Your Tests against them are more effective. 
-
-#### Luck
-
-You can spend it to:
-Lucky Break: Turn a failure into a lesser failure or partial success.
-Right Place: Establish that you happen to be somewhere useful.
-Fortunate Find: Discover something useful that could reasonably be present.
-Missed Me: Reduce the consequence of an unexpected danger.
-Just in Time: Arrive or act at a surprisingly convenient moment.
-
-#### Boldness
-
-You can spend it to:
-Go for It: Take a greater risk to gain a greater effect on a successful Test.
-All In: Increase the potential consequence and potential reward of an action.
-Daredevil: Ignore a lesser danger while pursuing the primary objective.
-Break Through: Overcome an obstacle by taking a dangerous approach that would normally be rejected.
-No Time to Think: Act immediately despite incomplete information.
 
 ## Health
 Every Character has [Health Points (HP)](#health-points-hp) and may suffer [Injuries](#injury). Additionally, [Conditions](#condition) can apply a variety of [Boons And Penalties](#boons--penalties). 
