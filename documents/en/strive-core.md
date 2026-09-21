@@ -168,7 +168,6 @@ By using STRIVE (that includes but is not limited to viewing, reading, referenci
       - [Skill Forking](#skill-forking)
       - [Learning Skills](#learning-skills)
       - [Beginner's Luck](#beginners-luck)
-      - [Improved Assistance](#improved-assistance)
       - [Expertise](#expertise)
       - [Concentration](#concentration)
     - [Languages](#languages)
@@ -919,9 +918,9 @@ Every time a Character's [Skills](#skills) **or** [Attributes](#base-characteris
 See also [Advancement](#advancement). 
 
 ### Providing Assistance
-Characters can help each other in Tests. In order to help with a Test, a Character must know a relevant [Skill](#skills), at Level `1`, and the one being helped must accept the help. 
+Characters can help each other in Tests. In order to help with a Test, a Character must know a relevant [Skill](#skills), at Level `1+`, and the one being helped must accept the help. 
 
-Helping in a Test works similar to [Forking](#skill-forking) a Skill. The Character being helped receives `+1D` to roll for each *Character* helping them. The number of relevant Skills a helping Character has is irrelevant. Just one Skill and one Level in it are enough to allow a Character to help. However, *which* Skill is used to help with, matters. A Level `2` Skill is [better for assistance](#improved-assistance), 
+Helping in a Test works similar to [Forking](#skill-forking) a Skill. The Character being helped receives `+1D` to roll for each *Character* helping them. The number of relevant Skills a helping Character has is irrelevant. Just one Skill and one Level in it are enough to allow a Character to help. However, *which* Skill is used to help with, matters. 
 
 If a PC is helping another, their player must describe *how* they're using their relevant Skill to help. Only if the GM agrees, may the helping die be granted. 
 
@@ -1157,11 +1156,6 @@ Whenever asked to Test a Skill a PC does not yet *know*, it will be added or pro
 
 #### Beginner's Luck
 Sometimes, lack of experience means you approach a problem in an unexpected way, granting you a unique and surprising opportunity to succeed. Once per [QoD](#quarters-of-a-day-qod), on a Test of a Level `1` Skill, gain `+1` [Edge](#edge). 
-
-#### Improved Assistance
-When [assisting](#providing-assistance) someone else in a Test with a Skill you know at Level `2`, grant them `+2D`, instead of `+1D`. 
-
-Skills at Level `3+` no longer enjoy this benefit, as at that point, you're qualified to take the leading role in the Test, yourself. 
 
 #### Expertise
 Skills can offer **Expertises**, which further incentivize specialization, by granting special abilities or [Boons](#boons--penalties), at higher Skill Levels. Many Expertises will be most useful in combat scenarios, but you are encouraged to find uses for them outside of combat! The Skill an Expertise belongs to is referred to as its **Owning Skill** or **Parent Skill**. 
