@@ -323,7 +323,7 @@ By using STRIVE (that includes but is not limited to viewing, reading, referenci
         - [Manual Attribute Assignment](#manual-attribute-assignment)
         - [Semi-Random Attribute Assignment](#semi-random-attribute-assignment)
       - [Choosing Skills](#choosing-skills)
-      - [Determine Boons from Ancestry](#determine-boons-from-ancestry)
+      - [Determine Character Traits](#determine-character-traits)
     - [Determine Derived Attributes](#determine-derived-attributes)
     - [Determine Assets](#determine-assets)
   - [Assets Appendix](#assets-appendix)
@@ -2661,8 +2661,10 @@ When choosing Skills, consider your Character's background. What fields of knowl
   * You can add at most `7` Skills. 
   * All Skills added this way but be at least Level `1`.
 
-#### Determine Boons from Ancestry
-It is possible for a Character to receive permanent boons or penalties during Character creation, based upon their ancestry. This is entirely at the GM's discretion and subject to their world. When choosing ancestry-based Skill boons, keep the number low. One or two boons at most. These are narratively based and fairly unique starting conditions for a Character. 
+#### Determine Character Traits
+During Character Creation, every PC may have one [Trait](#character-traits) from the [list of Traits](#list-of-character-traits). You may choose freely from that list. 
+
+It is also possible for a Character to receive permanent boons or penalties based upon their ancestry. This is entirely at the GM's discretion and subject to their world. The number of ancestry-based boons should be kept low. One or two, at most. These are narratively based and fairly unique starting conditions for a Character. 
 
 ### Determine Derived Attributes
 Determine your Character's [maximum HP](#health-points-hp), by referring to the [Toughness](#toughness-tough) Attribute. 
@@ -3696,9 +3698,9 @@ Once appropriate numbers have been assigned, the new Character needs to be intro
 # Your World
 STRIVE doesn't impose a world on you. You are not forced to play with any pre-defined theme or setting. This frees you up to play in whatever world you prefer, with whatever theme you prefer. But it also places the burden of such decisions on you. 
 
-STRIVE's modules can help you answer the question of theme. For example, if you want to play in a medieval fantasy world, STRIVE's fantasy module may get you started faster. 
+STRIVE's Modules can help you answer the question of theme and even setting. For example, if you want to play in a medieval fantasy world, STRIVE's Fantasy Module may get you started faster. 
 
-But setting - the world - is entirely up to you. You may choose an existing world from another RPG, or craft an entirely new one. Creating a world is no small feat and a hobby in itself, but luckily, you don't need the entire world to be perfectly fleshed out before you begin running the game. All you really need, is a rough idea of *what's where* and a detailed idea of where the PCs are *now*. Starting with a village in the woods and a nearby goblin lair, is a classic example. 
+In the end, the world you play in, is yours alone. You may choose an existing world from another RPG, or craft an entirely new one, which is no small feat and a hobby in itself. Fortunately, you don't need all of it to be perfectly detailled before you begin running the game. All you really need, is a rough idea of *what's where* and a detailed idea of where the PCs are *now*. Starting with a village in the woods and a nearby goblin lair, is a classic fantasy example. 
 
 Your players may aid you in crafting the world and will usually prefer doing so during play, rather than outside of it. If you allow them to change your world through their actions, it becomes a much more dynamic and almost life-like beast. If they defend the village from the goblins and destroy their lair, the village might start to prosper. More trade might come in, and through the traders, the PCs might learn about other places they could visit and acquire more and better supplies.
 

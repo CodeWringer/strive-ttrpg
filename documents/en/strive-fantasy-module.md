@@ -154,10 +154,21 @@ There is a [compendium document](./strive-fantasy-game-masters-resource.md) rese
     - [The Surgeon](#the-surgeon)
     - [The Tired Monster Hunter](#the-tired-monster-hunter)
     - [The Warboss](#the-warboss)
-- [Fantasy Game-Masters Resource](#fantasy-game-masters-resource)
+- [Game-Mastery](#game-mastery)
 - [NPC Builder](#npc-builder)
   - [Legendary Actions](#legendary-actions)
     - [The Ritual Must Complete! (-4 Points; +4 CR)](#the-ritual-must-complete--4-points-4-cr)
+- [Your World](#your-world)
+  - [Fantasy Player Species](#fantasy-player-species)
+    - [Human](#human)
+    - [Cat-Folk](#cat-folk)
+      - [Tiger-Cat-Folk](#tiger-cat-folk)
+      - [Lean Cat-Folk](#lean-cat-folk)
+    - [Rodent-Folk](#rodent-folk)
+      - [Urban Rodent-Folk](#urban-rodent-folk)
+      - [Desert Rodent-Folk](#desert-rodent-folk)
+      - [Jungle Rodent-Folk](#jungle-rodent-folk)
+    - [Wolf-Folk](#wolf-folk)
 - [Creature Compendium](#creature-compendium)
   - [Cursed](#cursed)
     - [Werewolf](#werewolf)
@@ -1782,7 +1793,7 @@ Assets:
 * 1x Shield
 * 1x Medium Armor
 
-# Fantasy Game-Masters Resource
+# Game-Mastery
 This and the following sections are reserved solely for the GM's eyes. Reading on as a player may spoil many surprises and the fun of discovery for you. 
 
 # NPC Builder
@@ -1793,6 +1804,74 @@ You may choose any number from the following Fantasy-themed [Legendary Actions](
 
 ### The Ritual Must Complete! (-4 Points; +4 CR)
 Up to `2` times a day, when your current [Ritual](#rituals) *would* be interrupted, it instead continues and can no longer be interrupted until the end of the Round. 
+
+# Your World
+This section complements the one from the [Core Rules](./strive-core.md#your-world). 
+
+## Fantasy Player Species
+One of the major draws to a medieval fantasy world, is its diversity. The following is an offering of various playable Fantasy-themed species for you to incorporate, adapt or be inspired by as you please. They are designed to be distinct, and markedly different from one another. Each has unique strengths and weaknesses. They are **not** simply "re-colored humans". 
+
+### Human
+While not the most interesting option available, it is by no means boring to play a human, who are highly adapatble and stubborn creatures. During [Character Creation](./strive-core.md#character-creation), you may [pick **two** Traits](./strive-core.md#determine-character-traits), instead of just one.
+
+Innate Traits:
+* **Stubborn**: `+1` [Edge](./strive-core.md#edge) for any Test against the elements. Humans struggle defiantly against the cold and heat, against storms and through harsh treks.
+* **Resilient**: `+1` [Edge](./strive-core.md#edge) for any Test against Illnesses and Injuries!
+* **Bounce Back**: Recover `5` more HP and `+1` Stamina and reduce Strain by one more point, every [Recovery](./strive-core.md#recovery). And recover an additional +4 HP for every Hit when healed. 
+
+### Cat-Folk
+Anthropomorphic felines, that come in one of two variants. Generally, they're as tall as humans, walk like them and talk like them. 
+
+Innate Traits:
+* **Night-Eye**: Can see fairly well in dim light circumstances. Where others might receive a higher Ob to Awareness based Tests in low-light conditions, you suffer no such penalty! 
+* **Magic-Sensitive**: Can sense magic on touch. 
+
+#### Tiger-Cat-Folk
+Larger, broader and stronger, with the name-giving tiger stripe fur pattern, these Cat-Folk are less intelligent, but more imposing and arrogant. They lack grace, but not courage. 
+
+Innate Traits:
+* **Brawn Over Brain**: `-2D` to all Tests that require Wit, but `+1` [Edge](./strive-core.md#edge) to all Tests that require Strength.
+
+#### Lean Cat-Folk
+This variant is lean, known for its deftness and acrobatic skill. They move gracefully and precisely. 
+
+Innate Traits:
+* **Cat's Agility**: `-2D` to all Tests that require Strength, but `+1` [Edge](./strive-core.md#edge) to all Tests that require Agility.
+
+### Rodent-Folk
+Anthropomorphic Rodents, who are even more diverse than humans, and yet also more narrowly specialized. Generally, they're much shorter and more squat than humans. 
+
+Innate Traits:
+* **Frail**: Every Level in Toughness only grants you `+7` maximum HP, instead of `+10`.
+* **Cheek-Pouches**: You may store up to `2` bulk `1` Assets in your very stretchy cheeks, in your mouth, separately from your other Luggage. Producing Assets from or storing them in your mouth is free and costs no AP.
+
+#### Urban Rodent-Folk
+Uniquely adapted to condensed living areas, these Rodent-Folk know how to utilize what little free space they have available. 
+
+Innate Traits:
+* **Efficient Packer**: Living in the city often means cramped living quarters for your kind. You've learned to make the most of what little space you have, stacking and packing efficiently, allowing you to cram about `50%` more Bulk into storage containers and vehicles and to increase stack sizes in your Luggage by the same amount!
+* **Doctor's Nose**: The risk of disease in densely populated cities has trained your nose. You can effectively smell all disease in a `5` Square radius around you. 
+
+#### Desert Rodent-Folk
+Adapted to vast hills of scorching sands, these Rodent-Folk don't so much run, as hop and skip across the sand. They're even leaner and smaller than other Rodent-Folk. 
+
+Innate Traits:
+* **Jumping Legs**: You have legs built for powerful hops - to minimize contact with the ground below, allowing you to move and jump and additional `+2` Squares per AP spent!
+* **Lightweight**: Being particularly light, it is easier to pick you up and potentially even to throw you. You count as a bulk `3` object when thrown.
+
+#### Jungle Rodent-Folk
+Living in dense jungles, teeming with dangerous flora and fauna, the safest place is often found high above ground. That is where the Jungle Rodent-Folk thrive. 
+
+Innate Traits:
+* **Prehensile Tail**: Your tail is prehensile and strong, effectively granting you a third hand - lacking a thumb, obviously - with which to hold Assets, up to Bulk `2`. Your tail also helps you climb and perform acrobatic feats, granting you `+1` [Edge](./strive-core.md#edge) on [Acrobatics](./strive-core.md#acrobatics-agistr) Tests!
+
+### Wolf-Folk
+Anthropomorphic Wolves, larger and broader than humans, with an imposing stature. They walk on two legs, but with a slight hunch, they look more like beast, than man. This further reinforces their intimidating nature. 
+
+Innate Traits:
+* **Acute Nose**: Can identify any type of creature whose smell it knows, by its odor. This works even in very "smelly" environments. You can use this ability to track just about anyone or anything, provided you have something that uniquely identifies them.
+* **Bestial Frame**: `+1` [Edge](./strive-core.md#edge) on [Persuasion](./strive-core.md#persuasion-witwit) Tests when intimidating. 
+* **Simple and Focused**: `-2D` to all Tests requiring Wit, but `+1` [Edge](./strive-core.md#edge) on Tests requiring Awareness. 
 
 # Creature Compendium
 A by no means exhaustive list of medieval-fantasy themed creatures for the GM to draw from. 
