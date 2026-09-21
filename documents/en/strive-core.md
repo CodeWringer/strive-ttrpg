@@ -167,6 +167,8 @@ By using STRIVE (that includes but is not limited to viewing, reading, referenci
     - [Skills](#skills)
       - [Skill Forking](#skill-forking)
       - [Learning Skills](#learning-skills)
+      - [Beginner's Luck](#beginners-luck)
+      - [Improved Assistance](#improved-assistance)
       - [Expertise](#expertise)
       - [Concentration](#concentration)
     - [Languages](#languages)
@@ -917,13 +919,15 @@ Every time a Character's [Skills](#skills) **or** [Attributes](#base-characteris
 See also [Advancement](#advancement). 
 
 ### Providing Assistance
-Characters can help each other in Tests. In order to help with a Test, a Character must know a relevant [Skill](#skills) and the one being helped must accept the help. 
+Characters can help each other in Tests. In order to help with a Test, a Character must know a relevant [Skill](#skills), at Level `1`, and the one being helped must accept the help. 
 
-Helping in a Test works similar to [Forking](#skill-forking) a Skill. The Character being helped receives `+1D6` to roll for each *Character* helping them. The number of relevant Skills a helping Character has is irrelevant, as is the Level of those Skills. Just one Skill and one Level in it are enough to allow them to help and only one `+1D6` is granted by the helping Character. However, *which* Skill is used to help with, matters. 
+Helping in a Test works similar to [Forking](#skill-forking) a Skill. The Character being helped receives `+1D` to roll for each *Character* helping them. The number of relevant Skills a helping Character has is irrelevant. Just one Skill and one Level in it are enough to allow a Character to help. However, *which* Skill is used to help with, matters. A Level `2` Skill is [better for assistance](#improved-assistance), 
 
 If a PC is helping another, their player must describe *how* they're using their relevant Skill to help. Only if the GM agrees, may the helping die be granted. 
 
 > For example, a PC is currently using their [Thievery](#thievery-agiawar) to lockpick a door. Their allied PC is *helping*, by using their [Observation](#observation-awarawar) Skill to *keep an eye out for guards*, which allows the one on the door to work without having to constantly look over their shoulder. The GM finds that description agreeable and allows the use of the Skill to help. 
+
+Note, especially, that every low Level Character can **always** contribute meaningfully! **Every** assistant is valuable, no matter their Skill Level! 
 
 #### Helpers Learn
 A Character helping in a Test, gains `+1` [XP](#experience-points-xp). 
@@ -1150,6 +1154,14 @@ Whenever asked to Test a Skill a PC does not yet *know*, it will be added or pro
 > A player is asked to Test their Character's [Cooking](#cooking-awarwit) at Ob `2`. Their Character lacks that Skill and thus adds it at Level `0` and marks it as a Learning Skill. Assuming their Character has the corresponding Base Attributes at Level `2` and `3`, they get to roll `2 + 3 = 5D6`. 
 
 [Forking](#skill-forking) Learning Skills into other [Tests](#tests) is **not** allowed. But Forking *into* Tests of Learning Skills **is** allowed. 
+
+#### Beginner's Luck
+Sometimes, lack of experience means you approach a problem in an unexpected way, granting you a unique and surprising opportunity to succeed. Once per [QoD](#quarters-of-a-day-qod), on a Test of a Level `1` Skill, gain `+1` [Edge](#edge). 
+
+#### Improved Assistance
+When [assisting](#providing-assistance) someone else in a Test with a Skill you know at Level `2`, grant them `+2D`, instead of `+1D`. 
+
+Skills at Level `3+` no longer enjoy this benefit, as at that point, you're qualified to take the leading role in the Test, yourself. 
 
 #### Expertise
 Skills can offer **Expertises**, which further incentivize specialization, by granting special abilities or [Boons](#boons--penalties), at higher Skill Levels. Many Expertises will be most useful in combat scenarios, but you are encouraged to find uses for them outside of combat! The Skill an Expertise belongs to is referred to as its **Owning Skill** or **Parent Skill**. 
