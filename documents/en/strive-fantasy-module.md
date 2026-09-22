@@ -49,7 +49,14 @@ There is a [compendium document](./strive-fantasy-game-masters-resource.md) rese
       - [Creating Magic Scrolls](#creating-magic-scrolls)
     - [Malevite](#malevite)
       - [Malevite Side-Effects](#malevite-side-effects)
-  - [Memorum](#memorum)
+    - [Memorum](#memorum)
+    - [Magical Assets](#magical-assets)
+      - [Magic Asset Medium](#magic-asset-medium)
+      - [Magic Asset Target](#magic-asset-target)
+      - [Magic Asset Trigger](#magic-asset-trigger)
+      - [Magic Asset School](#magic-asset-school)
+      - [Magic Asset Manifestation](#magic-asset-manifestation)
+      - [Magic Asset Duration](#magic-asset-duration)
   - [Magic Momentum Actions](#magic-momentum-actions)
 - [The Veil](#the-veil)
 - [Appendix](#appendix)
@@ -83,7 +90,7 @@ There is a [compendium document](./strive-fantasy-game-masters-resource.md) rese
       - [Crossbow](#crossbow)
       - [Firearm](#firearm)
     - [Weapon Traits](#weapon-traits)
-    - [Magical Assets](#magical-assets)
+    - [Magical Assets](#magical-assets-1)
   - [Lists of Skills](#lists-of-skills)
     - [Physical Skills](#physical-skills)
       - [Rune-Using (Agi/Wit)](#rune-using-agiwit)
@@ -588,10 +595,82 @@ Trigger (`1D6`):
 5. Light `1D4`: 1: Perfectly dark, 2: Dim, 3: Bright, 4: Blinding
 6. Blood
 
-## Memorum
+### Memorum
 A unique material, grown by a very specific family of fungus that thrives only in the deepest recesses of the world. 
 
 It has found practical use as a means of preserving the immaterial - thoughts, emotions, [Magic Echoes](#magic-echoes) and even raw knowledge. 
+
+### Magical Assets
+Every mundane object can be turned into a magical wonder. They can take any form, and their magic may be arbitrarily complex. Magical Assets all work the same way - using modular building blocks called Magic Traits, whose combination allows an interpretation of the magic's actual effects. These rules are deliberately kept light, with room for interpretation, so that the GM has to adjudicate. This way, Magical Assets are very flexible. You can define your own, simply by combining Magic Traits. Even contradictory Traits may be possible, with some creative interpretation. 
+
+All Magical Assets follow the same basic structure:
+1. A mundane [Medium](#magic-asset-medium) becomes the carrier of a magical enchantment. 
+2. One or more [Targets](#magic-asset-target) determine who or what gets affected. 
+3. One or more [Triggers](#magic-asset-trigger) determine how the magic is activated. 
+4. One or more [Magic Schools](#list-of-magic-schools) determine the magical effects. 
+5. One or more [Manifestations](#magic-asset-manifestation) determine what form the effect takes on, once activated. 
+6. A single [Duration](#magic-asset-duration) determines the longevity of the effect. 
+
+Creation of a Magical Asset is primarily handled through [Artificing](#artificing-arcwit), but also requires other Magic Schools, based on the respectively chosen magics:
+1. Artificing prepares the Magical Asset. 
+2. Then, a separate Test of each required Magic School charges the Asset. 
+   1. Failing one of the Tests results in only the respective magic not working. This means it is possible to partially charge a Magical Asset! 
+
+<!-- TODO: How to determine the magnitude of the effects? E.g. candle flame, torch flame, sword flame, furnace flame, inferno -->
+
+#### Magic Asset Medium
+A mundane Medium, such as a bottle, stone, ring, sword, cloak, etc. Anything will work. 
+
+#### Magic Asset Target
+Determines what gets affected by the magic, once activated. 
+
+| Target         | Description                                                 |
+| -------------- | ----------------------------------------------------------- |
+| Area           | Affects everything in an area.                              |
+| Creature       | Affects only one or more creatures, specific or in general. |
+| Material       | Affects only specific materials or elements.                |
+| Object         | Affects only one or more objects, specific or in general.   |
+| Self           | Affects the Medium, only.                                   |
+| Wielder        | Affects only who wields the Medium.                         |
+
+#### Magic Asset Trigger
+Determines what activates the magic. 
+
+| Trigger                 | Description                                  |
+| ----------------------- | -------------------------------------------- |
+| Command                 | Activates when a specific command is given.  |
+| Contact                 | Activates when it comes in contact with a specific substance. |
+| Health State            | Activates when it detects a particular health state change, such as low HP, an Injury, death, or similar. |
+| Environmental Condition | Activates when exposed to the right environmental conditions. |
+| Impact                  | Activates when sufficient force is applied. |
+| Manual                  | Activates when manually interacted with. |
+| Proximity               | Activates when in proximity to something else. |
+| Time                    | Activates when a certain amount of time has elapsed. |
+
+#### Magic Asset School
+Determines the type of magic. This is where the actual [Schools of Magic](#list-of-magic-schools) come into play. Through them, you can define the magic's behavior. 
+
+#### Magic Asset Manifestation
+Determines how the magic manifests. 
+
+| Manifestation   | Description                                              |
+| --------------- | -------------------------------------------------------- |
+| Beam            | An up to `Q * 2` Squares long AoE line.                  |
+| Cone            | An up to `Q` Squares long AoE cone.                      |
+| Gas             | An up to `Q` Squares AoE diameter.                       |
+| Solid           | An up to `Q` Squares large solid.                        |
+| Surface         | An up to `Q * 2` Squares large surface.                  |
+| Projectile      | A projectile that can be shot up to `Q * 2` Squares far. |
+
+#### Magic Asset Duration
+Determines how long the magic lasts, once activated. 
+
+| Duration        | Description                                  |
+| --------------- | -------------------------------------------- |
+| Instant         | Lasts only momentarily.                      |
+| Sustained       | Lasts indefinitely.                          |
+| Temporary       | Lasts one or more Turns or Rounds.           |
+| Until Triggered | Lasts until triggered again.                 |
 
 ## Magic Momentum Actions
 These magic-themed Momentum Actions complement the [Core Momentum Actions](./strive-core.md#momentum-actions). 
