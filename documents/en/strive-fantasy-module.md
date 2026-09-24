@@ -1609,18 +1609,24 @@ The summoning and control of fire.
 
 **Spell-Backfire**
 
-A burst of flame immolates the mage, causing `SI * 3` Burning Damage to them and in a `1` Square AoE radius around them. Additionally, in case of a ranged cast, the intended Spell is launched in a [random direction](./strive-core.md#random-direction). 
+A burst of flame immolates the mage, causing `SI * 3` Burning Damage to them and everything in a `1` Square AoE radius around them. Additionally, in case of a ranged cast, the intended Spell is launched in a [random direction](./strive-core.md#random-direction). 
 
 **Spell Catalogue**
 
-| Level | Name                 | Phenomenon        | Action /<br> Reaction | Geometry        | Targets    | Range          | Ob                        | AP   | SI      |
-| ----- | -------------------- | ----------------- | --------------------- | --------------- | ---------- | -------------- | ------------------------- | ---- | ------- |
-| 0     | Burning Touch        | Stationary Flame  | Action                | Touch           | `1`        | `1`            | `Opposed - SI`            | `2`  | `+1`    |
-| 1     | Imbue With Flame     | Attached Flame    | Action                | Touch / Point   | `1` / `SI` | `1` / `SI * 2` | `Opposed` / `SI`          | `2`  | `+1` /  |
-| 1     | Flame Armor          | Protective Flame  | Action / Reaction     | Touch / Point   | `1` / `SI` | `1` / `SI * 2` | `Opposed` / `SI`          | `2`  | `+1` /  |
-| 1     | Flame Whip           | Stationary Flame  | Action                | Point           | `SI`       | `SI * 2`       | `Opposed`                 | `2`  |         |
-| 3     | Flame Lance          | Stationary Flame  | Action                | Line            | `AoE`      | `1`            | `SI + 1`                  | `3`  | `-1`    |
-| 3     | Cone of Fire         | Stationary Flame  | Action                | Cone            | `AoE`      | `1`            | `SI + 1`                  | `3`  | `-1`    |
+| Level | Name                 | Phenomenon        | Action /<br> Reaction | Geometry        | Targets    | Range          | Ob                        | AP   |
+| ----- | -------------------- | ----------------- | --------------------- | --------------- | ---------- | -------------- | ------------------------- | ---- |
+| 0     | Burning Touch        | Stationary Flame: <br> Create a stationary flame. It creates light in a `SI * 2` Squares radius AoE sphere.<br>`≤ 1` Hit: `(SI + 1) * 2` Burning; `+1` [Burning](./strive-core.md#burning) <br> `= 2` Hits: `(SI + 1) * 3` Burning; `+1` [Burning](./strive-core.md#burning) <br> `≥ 3` Hits: `(SI + 1) * 4` Burning; `+2` [Burning](./strive-core.md#burning) | Action                | Touch           | `1`        | `1`            | `Opposed - SI`            | `2`  |
+| 1     | Imbue With Flame     | Attached Flame: <br> Create and attach a flame to something. Attacks wit it may deal an additional `SI * 2` Burning Damage. Whatever the flame is attached to, doesn't get burned by it. It creates light in a `SI` Squares radius AoE sphere. | Action                | Touch / Point   | `1` / `SI` | `1` / `SI * 2` | `Opposed` / `SI`          | `2`  |
+| 1     | Flame Armor          | Protective Flame <br> Create and attach a flame to something, shielding the target from `SI * 3` points of Damage from magical sources. Whatever the flame is attached to, doesn't get burned by it. It creates light in a `SI` Squares radius AoE sphere. | Action / Reaction: When you or an ally is Attacked | Touch / Point   | `1` / `SI` | `1` / `SI * 2` | `Opposed` / `SI`          | `2`  |
+| 1     | Flame Whip           | Stationary Flame <br> Create a stationary flame. It creates light in a `SI * 2` Squares radius AoE sphere.<br>`≤ 1` Hit: `SI * 2` Burning; `+1` [Burning](./strive-core.md#burning) <br> `= 2` Hits: `SI * 3` Burning; `+1` [Burning](./strive-core.md#burning) <br> `≥ 3` Hits: `SI * 4` Burning; `+2` [Burning](./strive-core.md#burning) | Action                | Point           | `SI`       | `SI * 2`       | `Opposed`                 | `2`  |
+| 3     | Flame Lance          | Stationary Flame <br> Create a stationary flame. It creates light in a `SI * 2` Squares radius AoE sphere.<br>`≤ 1` Hit: `(SI - 1) * 2` Burning; `+1` [Burning](./strive-core.md#burning) <br> `= 2` Hits: `(SI - 1) * 3` Burning; `+1` [Burning](./strive-core.md#burning) <br> `≥ 3` Hits: `(SI - 1) * 4` Burning; `+2` [Burning](./strive-core.md#burning) | Action                | Line            | `AoE`      | `1`            | `SI + 1`                  | `3`  |
+| 3     | Cone of Fire         | Stationary Flame <br> Create a stationary flame. It creates light in a `SI * 2` Squares radius AoE sphere.<br>`≤ 1` Hit: `(SI - 1) * 2` Burning; `+1` [Burning](./strive-core.md#burning) <br> `= 2` Hits: `(SI - 1) * 3` Burning; `+1` [Burning](./strive-core.md#burning) <br> `≥ 3` Hits: `(SI - 1) * 4` Burning; `+2` [Burning](./strive-core.md#burning) | Action                | Cone            | `AoE`      | `1`            | `SI + 1`                  | `3`  |
+
+**Rituals**
+
+| Level | Name                 | Time Increment | Ob          | Ritualists | Effect(s)                      | Side-Effect(s)     | Backfire Effect(s) |
+| ----- | -------------------- | -------------- | ----------- | ---------- | ------------------------------ | ------------------ | ------------------ |
+| 5     | Rain of Fire         | 3 Hours        | `SI`        | 1+         | **Concentration**: Fire rains from the sky in a `SI * 10` Square radius, up to `SI * 15` Squares far away. Everything caught in the falling flames and sparks catches fire, suffering `SI * 3` Burning Damage and `+1` [Burning](./strive-core.md#burning) Condition! | The blanket of firery precipitation has holes. | You are immolated, suffering `SI * 3` Burning Damage and `+3` [Burning](./strive-core.md#burning) Condition! |
 
 **Phenomena**
 
@@ -1628,13 +1634,7 @@ A burst of flame immolates the mage, causing `SI * 3` Burning Damage to them and
 | ----- | -------------------- | -- | --------------------- | ------------------------------ |
 | 0     | Stationary Flame     | 2  | Action                | Create a stationary flame. It creates light in a `SI * 2` Squares radius AoE sphere.<br>`≤ 1` Hit: `SI * 2` Burning; `+1` [Burning](./strive-core.md#burning) <br> `= 2` Hits: `SI * 3` Burning; `+1` [Burning](./strive-core.md#burning) <br> `≥ 3` Hits: `SI * 4` Burning; `+2` [Burning](./strive-core.md#burning) |
 | 1     | Attached Flame       | 2  | Action                | Create and attach a flame to something. Attacks wit it may deal an additional `SI * 2` Burning Damage. Whatever the flame is attached to, doesn't get burned by it. It creates light in a `SI` Squares radius AoE sphere. |
-| 1     | Protective Flame     | 1  | Action / Reaction     | Create and attach a flame to something, shielding the target from `SI * 3` points of Damage from magical sources. Whatever the flame is attached to, doesn't get burned by it. It creates light in a `SI` Squares radius AoE sphere. |
-
-**Rituals**
-
-| Level | Name                 | Time Increment | Ob          | Ritualists | Effect(s)                      | Side-Effect(s)     | Backfire Effect(s) |
-| ----- | -------------------- | -------------- | ----------- | ---------- | ------------------------------ | ------------------ | ------------------ |
-| 5     | Rain of Fire         | 3 Hours        | `SI`        | 1+         | **Concentration**: Fire rains from the sky in a `SI * 10` Square radius, up to `SI * 15` Squares far away. Everything caught in the falling flames and sparks catches fire, suffering `SI * 3` Burning Damage and `+1` [Burning](./strive-core.md#burning) Condition! | The blanket of firery precipitation has holes. | You are immolated, suffering `SI * 3` Burning Damage and `+3` [Burning](./strive-core.md#burning) Condition! |
+| 1     | Protective Flame     | 1  | Action / Reaction: When you or an ally is Attacked | Create and attach a flame to something, shielding the target from `SI * 3` points of Damage from magical sources. Whatever the flame is attached to, doesn't get burned by it. It creates light in a `SI` Squares radius AoE sphere. |
 
 ### Restoration (Arc/Awar)
 The mending of the body and mind.
