@@ -26,10 +26,14 @@ There is a [compendium document](./strive-fantasy-game-masters-resource.md) rese
   - [Corruption](#corruption)
 - [Magic](#magic)
   - [Testing Magic](#testing-magic)
-  - [Spell Intensity (SI)](#spell-intensity-si)
+  - [Magic Spell](#magic-spell)
+    - [Spell Intensity (SI)](#spell-intensity-si)
+    - [Spell Duration](#spell-duration)
+    - [Spell-Backfire](#spell-backfire)
+    - [Spell Construction](#spell-construction)
+      - [Spell Modifiers](#spell-modifiers)
   - [Arcane Overheat \& Slag](#arcane-overheat--slag)
   - [Rituals](#rituals)
-  - [Spell-Backfire](#spell-backfire)
   - [Magic Negation](#magic-negation)
   - [Protection From Magic](#protection-from-magic)
   - [Magic Echoes](#magic-echoes)
@@ -54,7 +58,7 @@ There is a [compendium document](./strive-fantasy-game-masters-resource.md) rese
       - [Magic Asset Medium](#magic-asset-medium)
       - [Magic Asset Target](#magic-asset-target)
       - [Magic Asset Trigger](#magic-asset-trigger)
-      - [Magic Asset School](#magic-asset-school)
+      - [Magic Asset Effect](#magic-asset-effect)
       - [Magic Asset Manifestation](#magic-asset-manifestation)
       - [Magic Asset Duration](#magic-asset-duration)
   - [Magic Momentum Actions](#magic-momentum-actions)
@@ -336,10 +340,61 @@ A mage can fail their [Test](./strive-core.md#tests) and thus suffer a [Spell-Ba
 5. Convert the SI to [Arcane Overheat & Slag](#arcane-overheat--slag). This **always** happens *after* the Spell is cast!
    1. If this brings the mage to a new [Arcane Overheat](#arcane-overheat--slag) threshold, its effects now apply. 
 
-## Spell Intensity (SI)
+## Magic Spell
+
+
+### Spell Intensity (SI)
 **Spell Intensity (SI)** is the strength at which a magic spell is being cast. A higher number causes stronger and further reaching effects, but also more [Arcane Overheat & Slag](#arcane-overheat--slag). 
 
 A spell's **maximum Intensity** is dictated by the Level in the corresponding [Magic School Skill](#magic-school--school---attribute-). However, the minimum SI for a spell cast is **always** `1`. 
+
+### Spell Duration
+All Spells may have a variable duration, including the pre-defined Spell Catalogues. 
+
+In the following table:
+* **Duration** defines how long a Spell lasts. 
+* **Level** defines the Level the mage must have in the respective [School of Magic](#magic-school--school---attribute-) to be allowed to use a particular Duration.
+* **AP** modifies the AP cost. E.g. `+1` means the Spell costs one more AP to cast. 
+
+| Duration                                                          | Level | AP   |
+| ----------------------------------------------------------------- | ----- | ---- |
+| **Momentary** / **Burst**                                         | **0** |      |
+| `SI` **Turns**                                                    | **1** | `+1` |
+| Sustained via [**Concentration**](./strive-core.md#concentration) | **3** | `+1` |
+
+### Spell-Backfire
+A **Spell-Backfire** is a critical blunder of a mage! They suffer negative effects and their Spell does not get cast the way they intended!
+
+Usually, a Magic Schools notes the effects of a Backfire. In case there are no specific effects, the mage suffers `+1` [Strain](./strive-core.md#stamina--strain). 
+
+It is possible for another nearby mage to prevent the Spell-Backfire, if they [negate the Spell](#magic-negation) as a Reaction. This also applies even if the Spell wouldn't affect them. If the other mage's attempt to negate the Spell *also* Backfires, then both of the mages suffer the Spell's effect at one greater [Intensity](#spell-intensity-si) level. 
+
+A Spell-Backfire may occur when a mage suffers from [Arcane Overheat](#arcane-overheat--slag). 
+
+### Spell Construction
+It is possible for both players and GM to construct their own Magic Spells! Doing so is fairly easy - you pick a **Phenomenon** from a [Magic School](#list-of-magic-schools) and then combine it with the [Spell Modifiers](#spell-modifiers), write down your creation and it's good to go. The pre-defined Spell catalogues are in fact constructed from the same parameters. You can use them as reference when creating your own. 
+
+A Phenomenon is one of a Magic School's basic capabilities - what a Spell *actually does*. Every Magic School has at least one of these. 
+
+#### Spell Modifiers
+When compiling a new Spell, it requires **one** of each of the following **Spell Modifiers**.
+
+In the following table:
+* **Geometry** defines the shape and volume of the magic manifestation. 
+* **Level** defines the Level the mage must have in the respective [School of Magic](#magic-school--school---attribute-) to be allowed to use a particular Geometry.
+* **Targets** defines how many objects and/or creatures can be affected. 
+* **Range** defines how far from the caster the effect may start. `1` implies adjacency. 
+* The **Ob** must be met in a Test, to successfully cast the Spell. In case a Spell targets an object that cannot Oppose the Test, you instead Test against the chosen SI. 
+* **AP** modifies the AP cost. E.g. `+1` means the Spell costs one more AP to cast. 
+* **SI** modifies the effective SI used to determine the magnitude of the Spell's effects. A larger Geometry results in a weaker Spell, as it is more difficult to fill the volume with the desired magic. 
+
+| Geometry                                                              | Level | Targets  | Range     | Ob                        | AP   | SI   |
+| --------------------------------------------------------------------- | ----- | -------- | ----------| ------------------------- | ---- | ---- |
+| **Touch**                                                             | **0** | `1`      | `1`       | `Opposed - SI` / `SI`     |      | `+1` |
+| **Point**                                                             | **1** | `SI`     | `SI * 2`  | `Opposed` / `SI`          |      |      |
+| **Object** / **Surface**, up to `SI * 3` Squares in diameter.         | **2** | `AoE`    | `SI * 3`  | `SI`                      |      |      |
+| **Line** / **Cone**, up to `SI * 4` Squares far.                      | **3** | `AoE`    | `1`       | `SI + 1`                  | `+1` | `-1` |
+| **Sphere** / **Ring** / **Cube**, up to `SI * 2` Squares in diameter. | **4** | `AoE`    | `SI * 3`  | `SI + 1`                  | `+1` | `-1` |
 
 ## Arcane Overheat & Slag
 Magic takes a toll on the caster's body and mind. As magic currents flow through their body, **Arcane Overheat** and **Arcane Slag** build up within them. Too much Arcane Overheat, and the mage will suffer various negative effects! 
@@ -377,11 +432,13 @@ The [Arcana](#arcana-arc) Attribute determines several thresholds. If the Charac
 
 At the start of every Turn, or every `5` seconds outside combat, a mage automatically reduces their Arcane Overheat by `-1` point. They can actively **vent** their Arcane Overheat further - one point per [AP](./strive-core.md#action-points-ap) spent. 
 
-`-1` point of Arcane Slag automatically leaves the Character's body, every `6` hours. If that time is spent in active rest or meditation - that means doing *nothing* besides rest -, then `-2` points leave the body, instead. 
+`-1` point of Arcane Slag automatically leaves the Character's body, every QoD. If that time is spent in active rest or meditation - that means doing *nothing* besides rest -, then `-2` points leave the body, instead. 
 
 Arcane Slag *can* affect non-mages, too! That implies they can also suffer Arcane Overheat (although that does not make them mages)! 
 
 ## Rituals
+<!-- TODO #396 re-work to use QoDs -->
+
 While most magic may be cast instantaneously, some requires special preparation and an investment of time. Such Ritual magic is often particularly powerful and requires uninterrupted focus to succeed. 
 
 Some Rituals may require a minimum number of mages to take part, if it is to stand any chance of succeeding, while others may impose a limit of how many may join. Every mage that joins in the Ritual is considered a **Ritualist**, and for each of them, the Ritual's SI automatically increases by `+1`, at the cost of `+1` Arcane Slag every Time Increment. For Rituals with a minimum number of Ritualists, the SI increase only starts with the next Ritualist after the minimum. Every Ritual has a head Ritualist through whom the magic ultimately flows. They're the one in control of the Ritual's magic. 
@@ -392,15 +449,6 @@ Once the Ritual's time is up, a **Test** is required, to unleash its magic. If t
 
 Rituals may be strengthened by [Abyssalite](#abyssalite) and [Malevite Orbs](#malevite), or even require these things to work, at all. Whether a Ritual requires arcane symbols drawn onto a surface or some other medium, is up to the GM and their world. 
 
-## Spell-Backfire
-A **Spell-Backfire** is a critical blunder of a mage! They suffer negative effects and their spell does not get cast the way they intended!
-
-Usually, a spell notes the effects that happen when a Backfire occurs. In case there are no specific effects, the mage suffers `+1` [Strain](./strive-core.md#stamina--strain). 
-
-It is possible for another nearby mage to prevent the Spell-Backfire, if they [negate the Spell](#magic-negation) as a Reaction. This also applies even if the spell wouldn't affect them. If the other mage's attempt to negate the spell *also* Backfires, then both of the mages suffer the spell's effect at one greater [Intensity](#spell-intensity-si) level. 
-
-A Spell-Backfire may occur when a mage suffers from [Arcane Overheat](#arcane-overheat--slag). 
-
 ## Magic Negation
 It is possible to negate a Spell entirely, by absorbing it. The absorbing mage suffers the Spell's [Arcane Slag & Overheat](#arcane-overheat--slag), as if it was `+1` [SI](#spell-intensity-si) *and* they suffer Pure Damage equal to the actual `SI * 2` (meaning, without the `+1` modification of the SI). No Test is made. 
 
@@ -409,10 +457,10 @@ Another mage's [Spell-Backfire](#spell-backfire) can be negated in the same way.
 ## Protection From Magic
 Armor made from [Ambersteel](#ambersteel) can reduce the Damage suffered through magical sources and reduce the [SI](#spell-intensity-si) of non-damaging spells. 
 
-The [Quality Level](./strive-core.md#crafting--research-projects) of an armor or shield determines how much it protects the wearer. See [Ambersmithing](#ambersmithing-strwit) for the specific numbers. 
+The [Quality Level](./strive-core.md#projects) of an armor or shield determines how much it protects the wearer. See [Ambersmithing](#ambersmithing-strwit) for the specific numbers. 
 
 ## Magic Echoes
-Whenever magic is cast, a pale reflection of it remains, invisible to the naked eye, lingering for `SI * 4` hours, based on the magic spell's [Intensity](#spell-intensity-si) when it was cast. 
+Whenever magic is cast, a pale reflection of it remains, invisible to the naked eye, lingering for `SI * 4` QoDs, based on the magic [SI](#spell-intensity-si) when it was cast. 
 
 Those sensitive to magic can detect it and if they know the [Magic School](#magic-school--school---attribute-) whence the spell stems, they instinctively recognize the echo. Otherwise, they may need to succeed an [Arcana](#arcana-arc) Test at Ob `2` to determine the type of magic that was cast. The same Test may also determine an estimate of how old the echo is. 
 
@@ -483,17 +531,17 @@ Assets can hold up to `Q - 2` number of Sockets, into which [Crystals](#crystal-
 
 While Crystals may be mixed and matched at will in the same Asset, the rule for Runes repulsing one another remains. Only one Rune may be inserted into an Asset. 
 
-Sockets can be added to Assets at any time, via [Artificing](#artificing-arcwit), [Armor Smithing](#armor-smithing-strwit), [Weapon Smithing](#weapon-smithing-strwit) and [Blacksmithing](#blacksmithing-agistr). This is a Craft, but not a proper Project. Sockets have no Quality Level. The Craft requires a Progress Increment of `20` and a Time Increment of `1` Hour. 
+Sockets can be added to Assets at any time, via [Artificing](#artificing-arcwit), [Armor Smithing](#armor-smithing-strwit), [Weapon Smithing](#weapon-smithing-strwit) and [Blacksmithing](#blacksmithing-agistr). This is a Craft, but not a proper Project. Sockets have no Quality Level. The Craft requires a Progress Increment of `20` at a Work-Rate of `3 / QoD`. 
 
 ### Crystal Magic
-TODO #396
+<!-- TODO #396 -->
 
 ### Runes
 Shards of [Abyssalite](#abyssalite) can be carved into **Runes**, which allow magic to flow through them in particular ways. Mechanically, they allow the casting of a particular spell of one of the [Schools Of Magic](#list-of-magic-schools), at a constant [Spell Intensity](#spell-intensity-si). 
 
 Due to how Runes are always magically charged, they cannot be in the vicinity of **any other Runes**. This works a bit like how magnets with the same polarity repulse each other, but a lot more dangerous. This condition applies regardless of the type of magic each of the Runes hold. If two Runes are brought to a distance of `10` Squares or less to each other, they begin to glow, hum and rumble, as if to warn their bearers. Should they be brought to a distance of `8` Squares or less to each other, they both discharge the magic they hold and repulse each other. This means anyone immediately nearby suffers `3D6` Bludgeoning Damage. The Runes are flung away from each other far enough to be at least `11` Squares apart. The Runes *may* be **destroyed** in the process. Roll a `D6` for each of the Runes - if the result is a `1` or `2`, the Rune is **destroyed**! 
 
-It may be possible to circumvent this repulsion behavior by placing the Runes in a container made of [Ambersteel](#ambersteel). This requires the container to be of a [Quality Level](./strive-core.md#crafting--research-projects) equal to the highest of the Runes' [Spell Intensity](#spell-intensity-si).
+It may be possible to circumvent this repulsion behavior by placing the Runes in a container made of [Ambersteel](#ambersteel). This requires the container to be of a [Quality Level](./strive-core.md#projects) equal to the highest of the Runes' [Spell Intensity](#spell-intensity-si).
 
 #### Using Runes
 To activate a Rune, it must be touched in the right spots and at the right intervals. Mistakes in the procedure can have disastrous results. 
@@ -521,7 +569,7 @@ Due to how Magic Scrolls are always magically charged, they cannot be in the vic
 
 If two Magic Scrolls **of the same type** are brought to a distance of `10` Squares or less to each other, they begin to glow, hum and rumble, as if to warn their bearers. Should they be brought to a distance of `8` Squares or less to each other, they both discharge the magic they hold and repulse each other. This means anyone immediately nearby suffers `3D6` Bludgeoning Damage. The Magic Scrolls are destroyed in the process! 
 
-It may be possible to circumvent this repulsion behavior by placing the Magic Scrolls in a container made of [Ambersteel](#ambersteel). This requires the container to be of a [Quality Level](./strive-core.md#crafting--research-projects) equal to the highest of the Magic Scrolls' [Spell Intensity](#spell-intensity-si).
+It may be possible to circumvent this repulsion behavior by placing the Magic Scrolls in a container made of [Ambersteel](#ambersteel). This requires the container to be of a [Quality Level](./strive-core.md#projects) equal to the highest of the Magic Scrolls' [Spell Intensity](#spell-intensity-si).
 
 #### Using Magic Scrolls
 In order to invoke a Magic Scroll:
@@ -607,16 +655,16 @@ All Magical Assets follow the same basic structure:
 1. A mundane [Medium](#magic-asset-medium) becomes the carrier of a magical enchantment. 
 2. One or more [Targets](#magic-asset-target) determine who or what gets affected. 
 3. One or more [Triggers](#magic-asset-trigger) determine how the magic is activated. 
-4. One or more [Magic Schools](#list-of-magic-schools) determine the magical effects. 
+4. One or more [Magic Effects](#magic-asset-effect) determine the type and magnitude of the magic. 
+   1. The [SI](#spell-intensity-si) of a charge determines the magnitude of the magical effect. For example, at SI `1` [Pyromancy](#pyromancy-arcarc), this results in a small candle flame, SI `3` in a roaring fire and SI `5+` in a radiant inferno. 
 5. One or more [Manifestations](#magic-asset-manifestation) determine what form the effect takes on, once activated. 
 6. A single [Duration](#magic-asset-duration) determines the longevity of the effect. 
 
 Creation of a Magical Asset is primarily handled through [Artificing](#artificing-arcwit), but also requires other Magic Schools, based on the respectively chosen magics:
-1. Artificing prepares the Magical Asset. 
-2. Then, a separate Test of each required Magic School charges the Asset. 
+1. An Artificing [Project](./strive-core.md#projects) prepares the Magical Asset. 
+   1. The [Quality](./strive-core.md#projects) achieved dictates fundamental aspects of the Magical Asset. 
+2. A separate Test of each required Magic School charges its respective magical effects. 
    1. Failing one of the Tests results in only the respective magic not working. This means it is possible to partially charge a Magical Asset! 
-
-<!-- TODO: How to determine the magnitude of the effects? E.g. candle flame, torch flame, sword flame, furnace flame, inferno -->
 
 #### Magic Asset Medium
 A mundane Medium, such as a bottle, stone, ring, sword, cloak, etc. Anything will work. 
@@ -629,8 +677,8 @@ Determines what gets affected by the magic, once activated.
 | Area           | Affects everything in an area.                              |
 | Creature       | Affects only one or more creatures, specific or in general. |
 | Material       | Affects only specific materials or elements.                |
+| Medium         | Affects the Medium, only.                                   |
 | Object         | Affects only one or more objects, specific or in general.   |
-| Self           | Affects the Medium, only.                                   |
 | Wielder        | Affects only who wields the Medium.                         |
 
 #### Magic Asset Trigger
@@ -640,28 +688,31 @@ Determines what activates the magic.
 | ----------------------- | -------------------------------------------- |
 | Command                 | Activates when a specific command is given.  |
 | Contact                 | Activates when it comes in contact with a specific substance. |
-| Health State            | Activates when it detects a particular health state change, such as low HP, an Injury, death, or similar. |
 | Environmental Condition | Activates when exposed to the right environmental conditions. |
+| Health State            | Activates when it detects a particular health state change, such as low HP, an Injury, death, or similar. |
+| Immediate               | Activates as soon as the magic is charged. |
 | Impact                  | Activates when sufficient force is applied. |
 | Manual                  | Activates when manually interacted with. |
 | Proximity               | Activates when in proximity to something else. |
 | Time                    | Activates when a certain amount of time has elapsed. |
 
-#### Magic Asset School
-Determines the type of magic. This is where the actual [Schools of Magic](#list-of-magic-schools) come into play. Through them, you can define the magic's behavior. 
+#### Magic Asset Effect
+Determines the type of magic effect. This is where the actual [Schools of Magic](#list-of-magic-schools) come into play. Through them, you can define the magic's behavior. 
 
 #### Magic Asset Manifestation
-Determines how the magic manifests. 
+Determines the shape and volume affected. 
 
 | Manifestation   | Description                                              |
 | --------------- | -------------------------------------------------------- |
 | Beam            | An up to `Q * 2` Squares long AoE line.                  |
 | Cone            | An up to `Q` Squares long AoE cone.                      |
-| Gas             | An up to `Q` Squares AoE diameter.                       |
-| Solid           | An up to `Q` Squares large solid.                        |
-| Surface         | An up to `Q * 2` Squares large surface.                  |
-| Projectile      | A projectile that can be shot up to `Q * 2` Squares far. |
+| Sphere          | An up to `Q` Squares AoE diameter shape.                 |
+| Surface         | An up to `Q * 2` Squares large surface, overlaid ontop of another surface. |
+| Projectile      | A projectile that can be shot up to `Q * 2` Squares far. Its size is determined by the respective magic's SI. |
 
+
+| Gas             | An up to `Q` Squares AoE diameter gas.                   |
+| Solid           | An up to `Q` Squares large solid.                        |
 #### Magic Asset Duration
 Determines how long the magic lasts, once activated. 
 
@@ -687,7 +738,7 @@ These magic-themed Momentum Actions complement the [Core Momentum Actions](./str
 # The Veil
 Whenever a psion uses their ability, they mentally reach out to the forces *beyond* The Veil, which causes **Veil Degradation**. When Veil Degradation becomes too great, strange and horrible things ensue. 
 
-The limits for Veil Degradation are `0` and `100`. Unlike mages, who manage only their own resource, Veil Degradation is shared by **all** Characters in the current scene and follows the psion wherever they go. It automatically lowers by `10` every `6` hour interval or resets to `0` when The Veil *shatters*. 
+The limits for Veil Degradation are `0` and `100`. Unlike mages, who manage only their own resource, Veil Degradation is shared by **all** Characters in the current scene and follows the psion wherever they go. It automatically lowers by `10` every QoD or resets to `0` when The Veil *shatters*. 
 
 Whenever the psion uses their ability and Veil Degradation is above `0`, roll a percentile die (`2D10`, of which one is the "tenth" die and one is the "singles" die). If the result is above the current Veil Degradation, nothing happens. You were fortunate! But if it was below or equal to the current Veil Degradation, The Veil is lifted, momentarily. When that happens, one of the following effects ensue, based on the current Veil Degradation. Afterwards, Veil Degradation is lowered by `20`. However, if Veil Degradation reaches `100+`, the Veil *shatters*, causing it to reset to `0` and always results in a **Veil Entity** following the psion into their world.
 
@@ -752,7 +803,7 @@ See also the [Core rule's Asset appendix](./strive-core.md#assets-appendix).
 | Acid Arrows              | 1    | 20              | `4 / QoD` / `18`      | Ammunition for a bow that deals `Q * 2` additional points of Acid damge. A small acid-filled vial tips these arrows, ready to burst upon impact. |
 | Acid Bomb                | 1    | 3               | `4 / QoD` / `18`      | A small fragile shell with two compartments, filled with two liquids which, when they combine, act as a powerful acid. When shattered, deals `QD6 Acid` Damage to whatever it hits. |
 | Arrows                   | 1    | 20              | `4 / QoD` / `8`       | Ammunition for a bow. |
-| Blackpowder Bomb         | 1    | 2               | `3 / QoD` / `18` / +1 | A small iron-shelled bomb, filled with blackpowder. A short fuse sticks out and must be lit to set it off. Once lit, the bomb will detonate after `3` Turns or `15` seconds. Deals `QD4 Bludgeoning + QD4 Burning` Damage to anyone in a `2` Square AoE radius. |
+| Blackpowder Bomb         | 1    | 2               | `3 / QoD` / `18` / +1 | A small iron-shelled bomb, filled with blackpowder. A short fuse sticks out and must be lit to set it off. Once lit, the bomb will detonate after `3` Turns. Deals `QD4 Bludgeoning + QD4 Burning` Damage to anyone in a `2` Square AoE radius. |
 | Bolts                    | 1    | 20              | `4 / QoD` / `8`       | Ammunition for a crossbow. |
 | Calming Tea              | 1    | 3               | `3 / QoD` / `8`       | This herbal tea has the ability to calm nerves. Removes [Berserk](./strive-core.md#berserk), [Jealous](./strive-core.md#jealous) and [Terrified](./strive-core.md#terrified). Best enjoyed steaming hot, but not necessarily. |
 | Clothing                 | 1    | 2               | `2 / QoD` / `12`      | A full set of clothes, head to toe. |
@@ -760,19 +811,19 @@ See also the [Core rule's Asset appendix](./strive-core.md#assets-appendix).
 | Dragon's Breath Potion   | 1    | 3               | `3 / QoD` / `18`      | Upon drinking this potion, the orange liquid combines with the stomach acid and bursts out of the drinker's throat, igniting and thus causing them to spew fire! Causes `5 - Q Burning` Damage to the user and `Q * 3 Burning` Damage in a `Q` Square AoE cone in front of the user. |
 | Explosive Arrows         | 1    | 10              | `4 / QoD` / `24`      | Ammunition for a bow that deal `1D4 Bludgeoning + (1D4 + Q) Burning` Damage. |
 | Fire Pot (Potion)        | 1    | 3               | `3 / QoD` / `18`      | An ancient recipe, this concoction bursts into flame when exposed to air for several seconds. It causes severe burns for `QD6 Burning` Damage in a `2` Square AoE adius. Consumed on use. |
-| Illusionist's Powder     | 1    | 2               | `3 / QoD` / `24`      | A small amount of weakly iridescently shimmering powder. When scattered, the dust remains suspended in mid-air and settles in an image of the making alchemist's choosing, which at a distance can seem perfectly real. It takes a successful Test at Ob `Q + 1` to see through the ruse. This image lasts `QD10` minutes. |
-| Invigorating Potion      | 1    | 3               | `3 / QoD` / `18`      | The drinker of this potion feels refreshed and invigorated! Increases [Stamina](./strive-core.md#stamina--strain) by `Q` and clears the [Exhausted](./strive-core.md#exhausted) condition. Beware this potion can only be safely imbibed twice in a `24` hour cycle. If drunk more, roll a `D6`. If it is a Hit, you're in luck! But if not, you instead suffer `+1` [Strain](./strive-core.md#stamina--strain). |
+| Illusionist's Powder     | 1    | 2               | `3 / QoD` / `24`      | A small amount of weakly iridescently shimmering powder. When scattered, the dust remains suspended in mid-air and settles in an image of the making alchemist's choosing, which at a distance can seem perfectly real. It takes a successful Test at Ob `Q + 1` to see through the ruse. This image lasts `QD10` Turns. |
+| Invigorating Potion      | 1    | 3               | `3 / QoD` / `18`      | The drinker of this potion feels refreshed and invigorated! Increases [Stamina](./strive-core.md#stamina--strain) by `Q` and clears the [Exhausted](./strive-core.md#exhausted) condition. Beware this potion can only be safely imbibed twice in a day. If drunk more, roll a `D6`. If it is a Hit, you're in luck! But if not, you instead suffer `+1` [Strain](./strive-core.md#stamina--strain). |
 | Jewelry                  | 1    | 2               | `2 / QoD` / `18`      | Precious apparel. |
 | Keg Of Alcohol           | 2    | 1               | `2 / QoD` / `12`      | A keg of alcohol. Highly flammable. If set fire to, will explode in a small torrent of flame, dealing `Q * 3` Burning Damage to all in a `2` Square AoE radius. |
 | Laudanum Potion          | 1    | 2               | `4 / QoD` / `12`      | This wonderous substance can quell pain and calm nerves within seconds. Also effective against diarrhea. Upon imbibing, sets one Active [Injury](./strive-core.md#injury) to Treated. After `24` hours, the [Injury](./strive-core.md#injury) is set back to Active, even if it was also properly Treated in the meantime. Also, must succeed a [Self-Control](./strive-core.md#self-control-toughwit) Test at Ob `3`, or else become [Addicted](./strive-core.md#drug-addicted) to the stuff. |
 | Love Potion              | 1    | 2               | `4 / QoD` / `24` / +1 | Anyone drinking this potion will become virtually irresistible to anyone close enough to smell their air. Victims have to succeed a [Self-Control](./strive-core.md#self-control-toughwit) Test at Ob `Q` or else feel **very strongly compelled** to fulfill the user's every wish and desire (provided this wouldn't obviously cause harm to the victim). |
 | Magic Recorder           | 1    | 3               | `2 / QoD` / `24`      | A small spherical device, made from various metals with intricate patterns on its surface. This device can capture [Magic Echoes](#magic-echoes) and record magic as it is being cast. Also captures fragments of thoughts from its bearer while it is active. |
-| Night-Eye Potion         | 1    | 3               | `4 / QoD` / `18`      | Grants the ability to see reasonably well under low-light conditions, up to `Q * 3` Squares around them, for an hour. Beware that under the influence of this potion, exposure to bright light is extremely difficult to endure and will cause `-1` [Stamina](./strive-core.md#stamina--strain) for every **minute** of exposure. |
-| Paralyzing Poison        | 1    | 2               | `3 / QoD` / `24`      | Causes a victim's muscles to seize up. They suffer `-1` AP each Turn and are forced to move sluggishly, at only half their usual movement speed. If this poison is suffered twice, the victim seizes up completely and is unable to move, at all. This poison can be resisted once upon suffering it, with [Toughness](./strive-core.md#toughness-tough), at Ob `Q`. If unsuccessful, the effect will last `Q` hours. |
+| Night-Eye Potion         | 1    | 3               | `4 / QoD` / `18`      | Grants the ability to see reasonably well under low-light conditions, up to `Q * 3` Squares around them, for a QoD. Beware that under the influence of this potion, exposure to bright light is extremely difficult to endure and will cause `-1` [Stamina](./strive-core.md#stamina--strain) for every **minute** of exposure. |
+| Paralyzing Poison        | 1    | 2               | `3 / QoD` / `24`      | Causes a victim's muscles to seize up. They suffer `-1` AP each Turn and are forced to move sluggishly, at only half their usual movement speed. If this poison is suffered twice, the victim seizes up completely and is unable to move, at all. This poison can be resisted once upon suffering it, with [Toughness](./strive-core.md#toughness-tough), at Ob `Q`. If unsuccessful, the effect will last `Q` QoDs. |
 | Poison Arrows            | 1    | 20              | `4 / QoD` / `18`      | Ammunition for a bow that deals `Q * 2` additional points of Poison damge. A small poison-filled vial tips these arrows, ready to burst upon impact. |
-| Poison Resistance Potion | 1    | 2               | `4 / QoD` / `18`      | Once imbibed, reduces all incurred poison Damage by `Q * 2`, for up to `Q` hours. |
-| Sleeping Poison          | 1    | 3               | `3 / QoD` / `18` / +1 | Causes a victim to feel incredibly sleepy. Unless they succeed a [Self-Control](./strive-core.md#self-control-toughwit) Test at Ob `Q`, they will fall asleep the first chance they get. They cannot be woken from this state for at least `6` hours, except through the use of harmful force. |
-| Smoke Bomb               | 1    | 3               | `4 / QoD` / `12`      | A small fragile shell, filled with a very fine powder which when broken causes an area in a `Q` Square AoE radius to be covered in smoke. It is impossible to see through and ranged Attacks within or through the smoke-covered area suffer `+2` Ob. Victims caught in the smoke may be forced to cough. The smoke lasts `6` Turns or `30` seconds. |
+| Poison Resistance Potion | 1    | 2               | `4 / QoD` / `18`      | Once imbibed, reduces all incurred poison Damage by `Q * 2`, for up to `Q` QoDs. |
+| Sleeping Poison          | 1    | 3               | `3 / QoD` / `18` / +1 | Causes a victim to feel incredibly sleepy. Unless they succeed a [Self-Control](./strive-core.md#self-control-toughwit) Test at Ob `Q`, they will fall asleep the first chance they get. They cannot be woken from this state for at least one QoD, except through the use of harmful force. |
+| Smoke Bomb               | 1    | 3               | `4 / QoD` / `12`      | A small fragile shell, filled with a very fine powder which when broken causes an area in a `Q` Square AoE radius to be covered in smoke. It is impossible to see through and ranged Attacks within or through the smoke-covered area suffer `+2` Ob. Victims caught in the smoke may be forced to cough. The smoke lasts `6` Turns. |
 | Throwing Blade           | 1    | 6               | `3 / QoD` / `18`      | A small weighted blade, like a knife or star, well suited to being thrown. Can be used in melee and acts like a [Dagger](#light-blade), but with a penalty of `-2D` to Attack and Defense. `+1D` when [Thrown](./strive-core.md#throwing) for a ranged Attack. <br> `≤ 1` Hit: `4 + Str` Piercing <br> `= 2` Hits: `6 + Str` Piercing <br> `≥ 3` Hits: `8 + Str` Piercing |
 | Tools                    | 1    | 2               | `3 / QoD` / `18`      | Various metal-made, proper tools. |
 | Trap: Acid               | 1    | 3               | `3 / QoD` / `18`      | A small metal frame with a central pressure pad which, when stepped on, sprays acid upwards at the victim. Causes `(Q * 2) + 6` Acid Damage. |
@@ -967,9 +1018,11 @@ Additions to the [Core Weapon Traits](./strive-core.md#weapon-traits).
 ### Magical Assets
 In the table below, only assets with a given PI and TI can be crafted. If these values are absent, they can only be found in-world. 
 
-| Name                     | Bulk | Max. Stack Size | Description                                                              | Ingredients | PI  | TI         | Crafting Ob |
+<!-- TODO #396 -->
+
+| Name                     | Bulk | Max. Stack Size | Description                                                              | Ingredients | PI  | Work-Rate  | Crafting Ob |
 | ------------------------ | ---- | --------------- | ------------------------------------------------------------------------ | ----------- | --- | ---------- | ----------- |
-| Cloak of Concealment     | 1    | 1               | Renders the wearer invisible. | Must be imbued with [Illusion](#illusion-arcawar) and [Divination](#divination-arcwit) magic. | 20 | 6 Hours | 3 |
+| Cloak of Concealment     | 1    | 1               | Renders the wearer invisible. | Must be imbued with [Illusion](#illusion-arcawar) and [Divination](#divination-arcwit) magic. | 20 | `1 / QoD` | 3 |
 | Demon's Tongue           | 1    | 1               | A trophy taken from a demon. When dipped in fresh blood, begins to burn with unholy fire, causing `5` pure damage upon touch, and then extinguishing. | May be obtained as a trophy from a dead [demon](#demons). | /  | / |  |
 | Mind Scrounger           | 2    | 2               | Like a crown, this many-pronged metal circlet is to be worn on the head. Its prongs dig into the scalp and project the thoughts of the wearer into a visible hologram a short distance ahead of them. Can also be used on the deceased, as long as the brain remains intact. | Requires some crown-shaped object with small prongs that dig a little into the scalp. Requires a [rune](#runes) imbued with [Divination](#divination-arcwit) or [Telepathy](#telepathy-arcwit) magic. | 60 | 1 Day |  |
 | Saint's Tongue           | 1    | 1               | Allows the wielder to speak and understand any language. | /  | / |  |
@@ -1124,7 +1177,7 @@ All artisan Skills require a mix of physical and mental Attributes, for the purp
 #### Armor Smithing (Str/Wit)
 The ability to make armor from conventional materials, such as metal and leather. 
 
-[Crafting](./strive-core.md#crafting--research-projects):
+[Crafting](./strive-core.md#projects):
 * [Light Armor](#light-armor) (1x)
 * [Medium Armor](#medium-armor) (1x)
 * [Heavy Armor](#heavy-armor) (1x)
@@ -1133,13 +1186,13 @@ The ability to make armor from conventional materials, such as metal and leather
 #### Ambersmithing (Str/Wit)
 The ability to make things from [Amberite](#amberite) and [Ambersteel](#ambersteel). 
 
-[Crafting](./strive-core.md#crafting--research-projects):
+[Crafting](./strive-core.md#projects):
 * Adding [Ambersteel](#ambersteel) to [Armor](#armor-traits) and [Weapons](#weapon-traits).
 
 #### Alchemy (Arc/Wit)
 The ability to brew alchemical potions, create powders, mixtures and other substances, as well as the ability to tell these things apart. 
 
-[Crafting](./strive-core.md#crafting--research-projects):
+[Crafting](./strive-core.md#projects):
 * For every `Q` past `2`, choose one of the following:
   * Gain `+1` amount of your product. 
   * Gain a secondary product whose Quality is `1` Level lower. 
@@ -1168,13 +1221,13 @@ At Level `6+`, you may also craft the following:
 #### Brewing (Wit/Wit)
 The brewing of alcoholic beverages. 
 
-[Crafting](./strive-core.md#crafting--research-projects):
+[Crafting](./strive-core.md#projects):
 * [Keg Of Alcohol](#general-assets) (1x)
 
 #### Blacksmithing (Agi/Str)
 The ability to create every-day items and tools from metal. 
 
-[Crafting](./strive-core.md#crafting--research-projects):
+[Crafting](./strive-core.md#projects):
 * [Tools](#general-assets) (2x)
 * [Trap: Bear](#general-assets) (1x)
 * [Asset Socket](#sockets-in-assets) (but only for non-armor and non-weapons)
@@ -1182,7 +1235,7 @@ The ability to create every-day items and tools from metal.
 #### Bow-Making (Agi/Awar)
 The ability to craft bows and crossbows. 
 
-[Crafting](./strive-core.md#crafting--research-projects):
+[Crafting](./strive-core.md#projects):
 * [Short-Bow](#short-bow) (1x)
 * [Longbow](#longbow) (1x)
 * [Crossbow](#crossbow) (1x)
@@ -1190,19 +1243,19 @@ The ability to craft bows and crossbows.
 #### Carpentry (Agi/Str)
 The ability to shape wood to craft predominantly wooden things. 
 
-[Crafting](./strive-core.md#crafting--research-projects):
+[Crafting](./strive-core.md#projects):
 * Furniture (1x)
 
 #### Clothesmaking (Agi/Wit)
 The ability to make comfortable, well-fitting and decorated clothes. 
 
-[Crafting](./strive-core.md#crafting--research-projects):
+[Crafting](./strive-core.md#projects):
 * [Clothing](#general-assets) (1x)
 
 #### Engineering (Agi/Wit)
 The ability to plan and construct complex mechanisms and devices. 
 
-[Crafting](./strive-core.md#crafting--research-projects):
+[Crafting](./strive-core.md#projects):
 * [Trap: Acid](#general-assets) (1x)
 * [Trap: Bear](#general-assets) (1x)
 * [Trap: Cage/Net](#general-assets) (1x)
@@ -1215,7 +1268,7 @@ The ability to plan and construct complex mechanisms and devices.
 #### Fletching (Agi/Awar)
 The ability to efficiently craft arrows, bolts and javelins. 
 
-[Crafting](./strive-core.md#crafting--research-projects):
+[Crafting](./strive-core.md#projects):
 * [Arrows](#general-assets) (20x)
 * [Bolts](#general-assets) (20x)
 
@@ -1227,39 +1280,39 @@ At Level `4+`, you may also craft the following:
 #### Glass-Blowing (Agi/Agi)
 The ability to make objects from glass. 
 
-[Crafting](./strive-core.md#crafting--research-projects)
+[Crafting](./strive-core.md#projects)
 
 #### Goldsmithing (Agi/Agi)
 The ability to make jewelry from precious metals and stones. 
 
-[Crafting](./strive-core.md#crafting--research-projects):
+[Crafting](./strive-core.md#projects):
 * [Objet d'art](strive-core.md#general-assets)
 * [Jewelry](#general-assets)
 
 #### Leatherworking (Agi/Wit)
 The ability to create leather objects. 
 
-[Crafting](./strive-core.md#crafting--research-projects):
+[Crafting](./strive-core.md#projects):
 * [Light Armor](#light-armor) (1x)
 
 #### Masonry (Str/Tough)
 The ability to shape stone to craft predominantly stone-based things. 
 
-[Crafting](./strive-core.md#crafting--research-projects)
+[Crafting](./strive-core.md#projects)
 
 #### Rune-Smithing (Arc/Wit)
 The ability to carve [Magic Runes](#runes) and embed them in arcane devices.
 
 The Level of this Skill dictates the maximum [Intensity](#spell-intensity-si) of the respective magic the carved rune can hold. The number of Hits achieved in a Test then sets the actual Level the rune will hold, but limited by the maximum. 
 
-[Crafting](./strive-core.md#crafting--research-projects):
+[Crafting](./strive-core.md#projects):
 * [Rune](#runes) (1x)
 * [Magic Recorder](#general-assets) (1x)
 
 #### Shield-Making (Str/Wit)
 The ability to make shields from conventional materials, such as wood and metal. 
 
-[Crafting](./strive-core.md#crafting--research-projects):
+[Crafting](./strive-core.md#projects):
 * [Light Shield](#light-shield) (1x)
 * [Medium Shield](#medium-shield) (1x)
 * [Heavy Shield](#heavy-shield) (1x)
@@ -1267,12 +1320,12 @@ The ability to make shields from conventional materials, such as wood and metal.
 #### Tanning/Skinning (Agi/Tough)
 Taking the hide off a creature unDamaged. 
 
-[Crafting](./strive-core.md#crafting--research-projects)
+[Crafting](./strive-core.md#projects)
 
 #### Weapon Smithing (Str/Wit)
 The ability to make weapons from metal. 
 
-[Crafting](./strive-core.md#crafting--research-projects):
+[Crafting](./strive-core.md#projects):
 * [Axe](#axe) (1x)
 * [Crusher](#crusher) (1x)
 * [Light Blade](#light-blade) (1x)
@@ -1292,7 +1345,7 @@ At Level `5+`, you may also craft the following:
 #### Woodcarving (Agi/Agi)
 Creating small things from carved wood. 
 
-[Crafting](./strive-core.md#crafting--research-projects):
+[Crafting](./strive-core.md#projects):
 * [Objet d'art](strive-core.md#general-assets) (1x)
 
 ### Special Skills
@@ -1361,7 +1414,7 @@ The control of air, to create and change its flow, for benefit and detriment.
 ### Artificing (Arc/Wit)
 The setting of arcane traps and creation of arcane artifacts and materials. 
 
-[Crafting](./strive-core.md#crafting--research-projects):
+[Crafting](./strive-core.md#projects):
 * [Arcane Engine](#arcane-engine) (1x)
 * [Asset Socket](#sockets-in-assets)
 * [Magic Recorder](#general-assets) (1x)
@@ -1466,7 +1519,7 @@ Catching glimpses of the unknowable and nudging fate. A Divination mage prefers 
 | ----- | -------------------------- | -- | ------------- | ---------------------------- | ------------------------------ | ------------------ |
 | 0     | I Saw It Coming            | 1  | `9`           | `SI`                         | **Reaction**: When you or an ally is successfully Attacked, subtract `SI` Hits from the Attacker's roll. This may cause the Attack to fail. | The Attacker instead gains `SI` Hits to their roll! |
 | 0     | Direct Success             | 2  | `9`           | `SI`                         | **Reaction**: When an ally rolls a Test, add `SI` dice to it, and raise their Hit Limit by `+1`. | Your ally instead loses `SI` dice! |
-| 1     | Boost Project              | 4  |               | `SI`                         | Once a day, boost the Progress of a [Project](./strive-core.md#crafting--research-projects), by `SI * 3` points! | The Project instead loses `SI * 2` points! |
+| 1     | Boost Project              | 4  |               | `SI`                         | Once a day, boost the Progress of a [Project](./strive-core.md#projects), by `SI * 3` points! | The Project instead loses `SI * 2` points! |
 | 2     | Watch Defense              | 4  |               | `SI`                         | **Concentration**: Up to `SI` MST cannot be Watched. |  |
 | 2     | Watch                      | 4  |               | `3`                          | Glimpse a short vision of a person or object, no matter where they are. But only your target is clearly visible. Your peripheral vision is blurred and foggy. | The target becomes aware that the winds of magic swirled in agitation around them. They might not know *who* Watched them, but they may figure out *that* they were Watched. |
 | 4     | Calamitous Prognostication | 3  | `SI * 3`      | `3`                          | In one Round, something bad happens to a ST. Choose: `1`: Something falls on their head or they stumble and fall prone. `2`: They are mistaken for a foe by their allies or they might mistake their allies for foes. `3`: They drop something they are holding or which is on their person. `4`: The winds of magic are agitated, causing `+1` [Arcane Slag](#arcane-overheat--slag). | You are affected, instead! |
@@ -1552,17 +1605,30 @@ Creation of non-physical influences on the senses. That includes images, sounds 
 | 3     | Fake World           | 1 Hour         | `SI`        | 1+         | **Concentration**: Create a stationary illusion of image, sound and smell in a radius of up to `SI * 10` Squares around you. The illusion is flawless and can only be debunked with an Observation Test at Ob `SI + 1`. | The illusion is faulty in places. | Your worst fears manifest, haunting and [Terrifying](./strive-core.md#terrified) you for `SI` Rounds. |
 
 ### Pyromancy (Arc/Arc)
-The summoning and control of fire. The flame being a destructive force, pyromancers enjoy little utility from their magic, beyond the ability to create light and heat. 
+The summoning and control of fire. 
 
-| Level | Name                 | AP | Distance       | Ob                        | Effect(s)                      | Backfire Effect(s) |
-| ----- | -------------------- | -- | -------------- | ------------------------- | ------------------------------ | ------------------ |
-| 0     | Burning Touch        | 2  | `1`        | `Opposed - SI`            | A controlled flame erupts and stays in your hand, inflicting `SI * 3` points of Burning Damage and `+1` [Burning](./strive-core.md#burning) on touch, to a ST. | You are affected, instead. |
-| 1     | Flame Whip           | 2  | `SI * 3`   | `Opposed`                 | Lash out at a ST with a whip made of pure fire. <br> `≤ 1` Hit: `SI * 2` Burning; `+1` [Burning](./strive-core.md#burning) <br> `= 2` Hits: `SI * 4` Burning; `+2` [Burning](./strive-core.md#burning) <br> `≥ 3` Hits: `SI * 6` Burning; `+3` [Burning](./strive-core.md#burning) | You lose control and the whip lashes out in a random direction, instead! |
-| 1     | Imbue Flame          | 2  | `SI * 3`   | `SI`                      | **Concentration**: Cover an object in flames that do not burn it! All Attacks made with that object deal an additional `SI * 2` points of Burning Damage! | The flames *do* consume the object they cover! The object *can* still be carried or wielded, but will deal `SI * 2` points of Burning Damage to whoever does, at the start of their every Turn! |
-| 2     | Cone of Fire         | 3  | `SI * 2`   | `SI + 1`                  | Shoot a burst of fire in an AoE cone. <br> `≤ 1` Hit: `SI * 2` Burning; `+1` [Burning](./strive-core.md#burning) <br> `= 2` Hits: `SI * 4` Burning; `+2` [Burning](./strive-core.md#burning) <br> `≥ 3` Hits: `SI * 6` Burning; `+3` [Burning](./strive-core.md#burning) | The effect triggers in reverse, pointing the cone backwards, through your face. |
-| 3     | Fire Ball            | 2  | `SI * 15`  | `SI`                      | Form a large ball of flame between your hands, ready to be flung at a target location, affecting an AoE radius of `SI` Squares. <br> `≤ 1` Hit: `SI` Burning; `+1` [Burning](./strive-core.md#burning) <br> `= 2` Hits: `SI * 2` Burning; `+1` [Burning](./strive-core.md#burning) <br> `≥ 3` Hits: `SI * 3` Burning; `+2` [Burning](./strive-core.md#burning) | The fire ball instead launches in a random direction, impacting with the first obstacle it comes across! |
-| 3     | Flame Armor          | 1  |               | `SI`                         | **Reaction**: Upon you or an adjacent target being successfully Attacked, engulf yourself or them in flames, that burst forth and absorb up to `SI * 3` points of Damage. | You suffer `+1` [Burning](./strive-core.md#burning)! |
-| 4     | Flame Jet            | 3  | `SI * 3`   | `SI + 1`                  | **Concentration**: A steady stream of flame shoots from your hands, dealing `SI * 2` points of Burning Damage and inflicting `+1` [Burning](./strive-core.md#burning) to anything caught by it, in a straight AoE line. | The line of fire erupts backwards, through you! This lasts `1` Round and you **cannot** concentrate on any other spells in the meantime! |
+**Spell-Backfire**
+
+A burst of flame immolates the mage, causing `SI * 3` Burning Damage to them and in a `1` Square AoE radius around them. Additionally, in case of a ranged cast, the intended Spell is launched in a [random direction](./strive-core.md#random-direction). 
+
+**Spell Catalogue**
+
+| Level | Name                 | Phenomenon        | Action /<br> Reaction | Geometry        | Targets    | Range          | Ob                        | AP   | SI      |
+| ----- | -------------------- | ----------------- | --------------------- | --------------- | ---------- | -------------- | ------------------------- | ---- | ------- |
+| 0     | Burning Touch        | Stationary Flame  | Action                | Touch           | `1`        | `1`            | `Opposed - SI`            | `2`  | `+1`    |
+| 1     | Imbue With Flame     | Attached Flame    | Action                | Touch / Point   | `1` / `SI` | `1` / `SI * 2` | `Opposed` / `SI`          | `2`  | `+1` /  |
+| 1     | Flame Armor          | Protective Flame  | Action / Reaction     | Touch / Point   | `1` / `SI` | `1` / `SI * 2` | `Opposed` / `SI`          | `2`  | `+1` /  |
+| 1     | Flame Whip           | Stationary Flame  | Action                | Point           | `SI`       | `SI * 2`       | `Opposed`                 | `2`  |         |
+| 3     | Flame Lance          | Stationary Flame  | Action                | Line            | `AoE`      | `1`            | `SI + 1`                  | `3`  | `-1`    |
+| 3     | Cone of Fire         | Stationary Flame  | Action                | Cone            | `AoE`      | `1`            | `SI + 1`                  | `3`  | `-1`    |
+
+**Phenomena**
+
+| Level | Name                 | AP | Action /<br> Reaction | Effect(s)                      |
+| ----- | -------------------- | -- | --------------------- | ------------------------------ |
+| 0     | Stationary Flame     | 2  | Action                | Create a stationary flame. It creates light in a `SI * 2` Squares radius AoE sphere.<br>`≤ 1` Hit: `SI * 2` Burning; `+1` [Burning](./strive-core.md#burning) <br> `= 2` Hits: `SI * 3` Burning; `+1` [Burning](./strive-core.md#burning) <br> `≥ 3` Hits: `SI * 4` Burning; `+2` [Burning](./strive-core.md#burning) |
+| 1     | Attached Flame       | 2  | Action                | Create and attach a flame to something. Attacks wit it may deal an additional `SI * 2` Burning Damage. Whatever the flame is attached to, doesn't get burned by it. It creates light in a `SI` Squares radius AoE sphere. |
+| 1     | Protective Flame     | 1  | Action / Reaction     | Create and attach a flame to something, shielding the target from `SI * 3` points of Damage from magical sources. Whatever the flame is attached to, doesn't get burned by it. It creates light in a `SI` Squares radius AoE sphere. |
 
 **Rituals**
 

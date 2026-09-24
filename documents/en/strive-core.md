@@ -246,7 +246,7 @@ By using STRIVE (that includes but is not limited to viewing, reading, referenci
     - [Delaying Your Turn](#delaying-your-turn)
     - [Surprise Round](#surprise-round)
     - [Ticks](#ticks)
-- [Crafting \& Research Projects](#crafting--research-projects)
+- [Projects](#projects)
   - [Project Prerequisites](#project-prerequisites)
   - [Project Classification](#project-classification)
     - [Trivial Project](#trivial-project)
@@ -261,7 +261,7 @@ By using STRIVE (that includes but is not limited to viewing, reading, referenci
     - [Project Boosters](#project-boosters)
   - [Determining Work-Rate](#determining-work-rate)
   - [Determining Progress Increment](#determining-progress-increment)
-  - [Quality Level Reference](#quality-level-reference)
+  - [Quality Reference](#quality-reference)
   - [Crafting It Again](#crafting-it-again)
     - [Crafting It In Batches](#crafting-it-in-batches)
 - [Trade](#trade)
@@ -686,15 +686,15 @@ As STRIVE is meant primarily as a rule-book to help you quickly find what you ne
 | [Prefer Range](#foundational-weapon-traits)                 | A Weapon Trait that indicates a weapon is harder to use against adjacent targets. |
 | [Primary Damage](#damage--effects)                          | The most significant [Damage Type](#damage-types) of [Effective Damage](#damage--effects) **after** Armor and Resistances are applied. |
 | [Progress Increment (PI)](#progressing-a-project)           | An abstraction for the amount of work a Project involves, in terms of [Scale and Logistics](#determining-progress-increment). |
-| [Project Booster](#project-boosters)                        | May add Progress or Quality Levels to a Project. |
-| [Project Complications](#project-complications)             | An alternative to losing Quality Levels when failing a Project Skill Test. |
+| [Project Booster](#project-boosters)                        | May add Progress or Quality to a Project. |
+| [Project Complications](#project-complications)             | An alternative to losing Quality when failing a Project Skill Test. |
 | [Project Skill](#progressing-a-project)                     | The Skill used to add Progress to a Project. |
-| [Project](#crafting--research-projects)                     | A long-term and abstract side-activity of a PC to Craft or research something. |
+| [Project](#projects)                     | A long-term and abstract side-activity of a PC to Craft or research something. |
 | [Prone](#prone)                                             | A Condition for a Character currently low to the ground. They are easier to harm in melee, but harder to harm at range. |
 | [Property](#property)                                       | The Assets a Character owns but is not carrying on-person. |
 | [Pull](#forced-movement)                                    | Forces a Character closer to another. |
 | [Push Through Action](#push-through)                        | A Character may choose to move despite suffering an Opportunity Attack. |
-| [Quality Level](#crafting--research-projects)               | A numeric value that describes the quality of an Asset or Project. |
+| [Quality](#projects)                     | A positive number that indicates how potent and useful the result of a Project is or will be, as well as general potency of an Asset. |
 | [Quarter of a Day (QoD)](#quarters-of-a-day-qod)            | Each day is divided into four Quarters: **Night**, **Dawn**, **Midday**, and **Dusk**. Each Quarter lasts approximately six hours. |
 | [Quirk](#quirk)                                             | Part of a Character's Drivers and always triggers when some defined condition is met, to get the Character in trouble or grant them an assurance. |
 | [Range of Opportunity](#opportunity-attacks)                | The zone around a Character that lets them launch Opportunity Attacks as a Reaction to foes moving around or away from them. |
@@ -1837,7 +1837,7 @@ The speed at which time flows, in-game, is variable and depends on the current c
 
 There are two broad disctinctions of time-flow made: 
 * **Down-Time**: has time flowing fairly rapidly, as events unfold on an abstract level. 
-  * This is usually the time PCs spend on recovery, [Crafting & Research](#crafting--research-projects), [Practicing](#practice), [Travel](#travel--terrain), [Trade](#trade) and [Resting](#resting). 
+  * This is usually the time PCs spend on recovery, [Crafting & Research](#projects), [Practicing](#practice), [Travel](#travel--terrain), [Trade](#trade) and [Resting](#resting). 
 * **Granular-Time**: has time flowing very slowly, sometimes even on a moment-by-moment basis and may use [Initiative Order](#initiative-order) to allocate time slices. 
   * [Combat](#combat) is the most prominent and mechanically supported example. 
   * Aside Combat, other such situations can stem from tense negotiations, (perilous) exploration, general role-play and so on. Even in 
@@ -1902,10 +1902,14 @@ This is the point in time when a [Conditions](#condition) are suffered by the Ch
 
 A Tick **always** occurs for a Character, even when skipping or delaying their Turn. 
 
-# Crafting & Research Projects
+# Projects
 <img src="../../img/crafting.svg" style="width: 3rem; height: 3rem;"></img>
 
-In their own free time, Characters can spend time and resources to Craft [Assets](#assets), [Research obscure subjects or make scientific discoveries](#research-projects), or devise entirely new [Inventions](#invention-projects). Some Projects may be possible while travelling, but most are assumed to be done when the PCs aren't currently travelling or out on adventures. To work on a Project, a Character must **devote** their time to it - of course excluding short breaks for eating, conversation, and other minor side activities. 
+In their own free time, Characters can spend time and resources to **Craft** [Assets](#assets), [**Research**](#research-projects) obscure subjects and make scientific discoveries, or devise entirely new [**Inventions**](#invention-projects). All of these activities are collectively referred to as **Projects**. 
+
+To work on a Project, a Character must **devote** their time to it - only excluding short breaks for eating, conversation, and other minor side activities. Some Projects may be possible while travelling, but that heavily depends on the Project's complexity.
+
+Common to **all** Projects is the concept of **Quality**. This is a positive number that indicates how potent and useful the result of a Project is or will be, as well as general potency of an Asset.
 
 ## Project Prerequisites
 Typically, a project can only be worked on with access to necessary resources and know-how. [Skills](#skills) that detail how they can be used for Crafting will also note the prerequisites required. As always, the GM has the final word. 
@@ -1916,7 +1920,7 @@ This classification determines the resolution mechanism of a Project. **Trivial 
 ### Trivial Project
 A **Trivial Project** is a [Brief](#quarters-of-a-day-qod) and simple activity. It doesn't require a stationary work-station or special materials, which means it can often be done on the side, even while travelling. 
 
-> Examples would be: crafting arrows, cooking a meal, repairing a torn shirt, researching common knowledge and so on.
+> Examples would be: crafting simple arrows, cooking a meal, quickly repairing a torn shirt, researching common knowledge and so on.
 
 A single, immediately made Project Roll deterimes the final Quality of the product. In fact, this handles exactly like every other Skill Test in the game. Trivial Projects are not *actually* tracked as Projects, because they are **too small** to qualify as a Project and thus warrant **no Progress tracking**. 
 
@@ -1927,17 +1931,17 @@ A **Complex Project** is a longer-term activity, that comes with significant cha
 
 > Forging a sword, making special arrows, tailoring specialized clothing, designing a 3D model for print, making an invention, researching an obscure subject and so on. 
 
-[Progress](#progressing-a-project) is tracked and one or more Project Rolls deterime the final Quality of the product. 
+[Progress](#progressing-a-project) is tracked and one or more Project Rolls deterime the final Quality of the product. [Work-Rate](#determining-work-rate) determines how often progress can be made and [Progress Increments](#determining-progress-increment) determine how much work must be done. 
 
 #### Research Projects
-A Project can be about the research of **obscure** knowledge. You must visit various libraries, study dusty old tomes or comb countless digital archives, go on archeological digs and question other scholars. This is a task requiring substantial effort. For common, every-day knowledge that you may gain simply by asking strangers on the street, don't consider a Research Project. In fact, you might be better served simply role-playing such information-gathering. Or tie it to a Skill Test, that is, turn it into a [Trivial Project](#trivial-project). 
+A Project can be about the research of **obscure** knowledge. You must visit various libraries, study dusty old tomes or comb countless digital archives, go on archeological digs and question other scholars. This is a task requiring substantial effort. For common, every-day knowledge that you may gain simply by asking strangers on the street, don't consider a Research Project. In fact, you might be better served simply role-playing such information-gathering, or resolving it with a Skill Test - that is, treat it as a [Trivial Project](#trivial-project). 
 
-The Quality Level you achieve in the end dictates the degree of knowledge you learned about your subject. You may always try to gain even deeper understanding of your topic, by researching the same subject matter again. Your previous knowledge *may* accelerate further studies, by lowering your Work-Rate. Your GM will have to figure out by how much. 
+The Quality you achieve in the end dictates the degree of knowledge you learned about your subject. You may always try to gain even deeper understanding of your topic, by researching the same subject matter again. Your previous knowledge *may* accelerate further studies, by lowering your Work-Rate. Your GM will have to figure out by how much. 
 
-When you finish the research Project, you'll have the answers you seek and may gain the title [Loremaster of *Subject* (degree)](#loremaster-of--subject---degree-), where you replace *Subject* with the subject you researched and *degree* with the Quality Level. 
+When you finish the research Project, you'll have the answers you seek and may gain the title [Loremaster of *Subject* (degree)](#loremaster-of--subject---degree-), where you replace *Subject* with the subject you researched and *degree* with the Quality. 
 
 #### Invention Projects
-Invention is a very unique activity, that rules do not easily fit around. The GM will have to do a lot of heavy lifting, determining Work-Rate and Progress Increments, depending on the type of invention and the means available. 
+Invention is a very unique activity, that rules do not easily fit around. Much of this Project depends on the type of invention and the means available to realize it. 
 
 Mechanically, Invention Projects work no differently from ordinary Complex Projects:
 1. Define the Invention. Ask *What is it?* and *What can it do?*. Don't ask *how will it work?* - that is where implicit fiction takes over. The ***Character*** will figure out the *how*, over the course of their Project - ***not the player***.
@@ -1956,7 +1960,7 @@ That's it. Really, this is how all Projects are built, the only difference is th
 > * Researching solutions
 > * Modifying the design
 
-As a difference to regular Projects, whenever you choose to Push On, you *may* also get a less effective prototype of your invention, if you score a Hit on a single `D6` roll, at the GM's discretion. Your prototype receives the Project's current Quality Level and Complications. 
+As a difference to regular Projects, whenever you choose to Push On, you *may* also get a less effective prototype of your invention, if you score a Hit on a single `D6` roll, at the GM's discretion. Your prototype receives the Project's current Quality and Complications. 
 
 ## Progressing a Project
 Every [non-Trivial Project's](#trivial-project) **Progress** is tracked numerically. All Progress begins at `0` and is increased through use of a particular [Skill](#skills) (further called the **Project Skill**). When its current Progress reaches its currently **Required Progress**, the Project may complete, or be continued. 
@@ -1965,12 +1969,12 @@ A **Work-Session** describes an instance of meaningful work being done, each of 
 
 For every Work-Session you devote your time to, you may add your **Project Skill's Level** as points of Progress. Up to `5` assisting Characters may also add `+1` point of Progress every Work-Session, along with you. But of course, in the meantime, these Characters cannot work on their own Projects. Note that Progress isn't rolled for, it is simply added. 
 
-Every time you arrive at the current Required Progress, you must make a choice. **Finish** the Project and accept its current Quality Level, or **Push On**. 
+Every time you arrive at the current Required Progress, you must make a choice. **Finish** the Project and accept its current Quality, or **Push On**. 
 
 ### Pushing On
-Initially, your Project will begin with **Quality Level** `1`.
+Initially, your Project will begin with **Quality** `1`.
 
-If you Push On, the Required Progress of your Project is increased by another Progress Increment and your current Progress is reset to `0`, but you also give yourself a chance to further improve the resulting Quality Level. After you have decided to Push On, the next time you arrive at full Progress, a **Test of your Project Skill** is required of you. The Ob is `N + 1`, where *N* is the current number of times you have already Pushed On. And of course, for your Project Skill Test, you may [Fork](#skill-forking) and accept [Help](#providing-assistance)! If you succeed the Test, the resulting Quality Level of your Project increases by `+1`. But if you fail, it loses `-1` Quality Level, *unless* you accept a random [**Complication**](#project-complications) instead. If you accept a Complication, the Project's Quality Level remains unchanged. You neither lose, nor gain a Quality Level. Note that if you accept the Quality loss, the Quality Level cannot be reduced to less than `1`. 
+If you Push On, the Required Progress of your Project is increased by another Progress Increment and your current Progress is reset to `0`, but you also give yourself a chance to further improve the resulting Quality. After you have decided to Push On, the next time you arrive at full Progress, a **Test of your Project Skill** is required of you. The Ob is `N + 1`, where *N* is the current number of times you have already Pushed On. And of course, for your Project Skill Test, you may [Fork](#skill-forking) and accept [Help](#providing-assistance)! If you succeed the Test, the resulting Quality of your Project increases by `+1`. But if you fail, it loses `-1` Quality, *unless* you accept a random [**Complication**](#project-complications) instead. If you accept a Complication, the Project's Quality remains unchanged. You neither lose, nor gain Quality. Note that if you accept the Quality loss, the Quality cannot be reduced to less than `1`. 
 
 You can continue this cycle any number of times, but if you **fail twice in succession**, your Project is **botched**. You lose all resources and all Progress towards it. This is a critical blunder. 
 
@@ -2008,11 +2012,11 @@ Project Events are random events that may occur during long-lasting, significant
 You get [Advancement Progress](#advancement) (but no [XP](#experience-points-xp)) for every `5` points of Progress made! If your Project requires less than `5` points, then take that number, instead. Re-evaluate this threshold after you **Push On** for the first time. Assistants to Projects instead earn `+1` [XP](#experience-points-xp). 
 
 ### Project Boosters
-During their adventures, or while perusing the market or library, PCs may find things that can boost the Progress of their Project. These **Project Boosters** can be varied - schematics, specialized tools, a rare artefact, advice from a knowledgeable NPC, and similar. But they always either increase the Project's current Progress or Quality Level. The latter boost is especially powerful. 
+During their adventures, or while perusing the market or library, PCs may find things that can boost the Progress of their Project. These **Project Boosters** can be varied - schematics, specialized tools, a rare artefact, advice from a knowledgeable NPC, and similar. But they always either increase the Project's current Progress or Quality. The latter boost is especially powerful. 
 
-These things can **add Progress** to a Project, **raise the Quality Level** or **improve the Work-Rate**. How much they boost the Project, will be determined by the GM. 
+These things can **add Progress** to a Project, **raise the Quality** or **improve the Work-Rate**. How much they boost the Project, will be determined by the GM. 
 * For Progress, a good baseline should be that a common Project Booster adds `+8`, a rare adds `+12` and an enigmatic adds `+25`. But of course, these numbers are only suggestions. 
-* Project Boosters that increase Quality Level should be very rare and most valuable. Acquiring them should be an adventure of its own, or the reward for great deeds well performed. 
+* Project Boosters that increase Quality should be very rare and most valuable. Acquiring them should be an adventure of its own, or the reward for great deeds well performed. 
 * Likewise, improving the Work-Rate is another powerful Booster. Improving it just by one grade can have significant long-term accerelating effects. These can also be awarded for very clever solutions by players that narratively *should* accelerate their Work-Rate. 
 
 Typically, Project Boosters are one-time use. Once they have been used to add Progress to the Project, they cannot be used again. However, this is not a hard-set rule. Some things, like a magic cauldron or high-tech lab equipment may of course be used again, provided no narrative reasons forbid it. But these should be limited to once a day, or week, or whatever time unit works best for you. Make them *too* available, and they eliminate the feeling of accomplishment after a long-lasting Project. 
@@ -2069,10 +2073,10 @@ Walk through the following table twice. Once for Scale and once for Logistics. T
 > Research unknown herb: Trivial Scale, Medium Logistics -> Progress Increment `18`
 > Research unknown, volatile chemical: Trivial Scale, Monumental Logistics -> Work-Rate: `30+`
 
-## Quality Level Reference
-How much is a Quality Level worth? This will ultimately be up to the GM to estimate, but the table below may provide guidance.
+## Quality Reference
+How much is [Quality](#projects) worth? This will ultimately be up to the GM to estimate, but the table below may provide guidance.
 
-| Quality Level | Description |
+| Quality       | Description |
 | ------------- | ----------- |
 | 1             | A simple and plain product. It serves its purpose, albeit not well. Made by a beginner. |
 | 2 - 3         | An adequate product. It fulfills its function and is ergonomic. A routine work. |
@@ -2081,18 +2085,18 @@ How much is a Quality Level worth? This will ultimately be up to the GM to estim
 | 8+            | A legendary product. Its potency and function may even be fantastical - something never before seen! A true master of their craft made this. |
 
 ## Crafting It Again
-Whenever a [Complex](#complex-project) Crafting or [Invention](#invention-projects) Project is finished, its product becomes the **Recipe** for further Crafts of **identical products**. If you wish to Craft the same product again, at the same Quality Level and with any complications it possibly has, you need no longer roll Project Skill Tests. You now *know* how to make the thing, in that Quality. *However* your Work-Rate may be slightly faster, due to your familiarity with the product! Research has deliberately been omitted - it cannot produce Recipes, as cannot produce Assets (outside of special narrative events)! 
+Whenever a [Complex](#complex-project) Crafting or [Invention](#invention-projects) Project is finished, its product becomes the **Recipe** for further Crafts of **identical products**. If you wish to Craft the same product again, at the same Quality and with any complications it possibly has, you need no longer roll Project Skill Tests. You now *know* how to make the thing, in that Quality. *However* your Work-Rate may be slightly faster, due to your familiarity with the product! Research has deliberately been omitted - it cannot produce Recipes, as cannot produce Assets (outside of special narrative events)! 
 
-You will still need to spend time on it - multiply the Quality Level of the recipe product with the Progress Increment it originally had. That is the total Required Progress to achieve for that product. This number doesn't change - you **cannot** Push On! When finished, your new product will have the same Quality Level and Complications as the original.
+You will still need to spend time on it - multiply the Quality of the recipe product with the Progress Increment it originally had. That is the total Required Progress to achieve for that product. This number doesn't change - you **cannot** Push On! When finished, your new product will have the same Quality and Complications as the original.
 
-But you may also decide you can do better. You may begin your Project again, at the original's Quality Level, *minus* its number of Complications. At that point, things [progress as normal](#progressing-a-project). 
+But you may also decide you can do better. You may begin your Project again, at the original's Quality, *minus* its number of Complications. At that point, things [progress as normal](#progressing-a-project). 
 
-> A product with a Quality Level of `3`, and one complication, would begin at Quality Level `2`, and no Complications! Assuming its Progress Increment is `10`, then multiplying that with the new starting Quality of `2`, yields an initial Required Progress of `20`. Once that Progress is reached, a Project Skill Test is required, at Ob `2 (the new Quality Level) + 1 (always) = 3`. If successful, the new Quality Level is `3`!
+> A product with Quality `3`, and one complication, would begin at Quality `2`, and no Complications! Assuming its Progress Increment is `10`, then multiplying that with the new starting Quality of `2`, yields an initial Required Progress of `20`. Once that Progress is reached, a Project Skill Test is required, at Ob `2 (the new Quality) + 1 (always) = 3`. If successful, the new Quality is `3`!
 
 ### Crafting It In Batches
 For every Recipe that you know, you may also decide to Craft multiple of the same product in a batch. This is a more efficient than individual Crafts. Each additional instance of the same product you wish to create, adds only half (RU) of the Progress Increment. 
 
-> Given you have a recipe for a product with Quality Level `3` and a Progress Increment of `10` and you want to make `5` instances of this same product, then the first instance of the product sets the *initial* total Required Progress at `3 (Quality) * 10 (Progress Increment) = 30`. Each of the `4` *additional* instances of the product now add `5` points of required Progress. So, for all `5` instances of the product to be finished, the *final* total Required Progress is `30 + (4 * 5) = 50`. This is much faster, than creating those `5` instances individually, as that *would* take `5 * 30 = 150` points of total Required Progress!
+> Given you have a recipe for a product with Quality `3` and a Progress Increment of `10` and you want to make `5` instances of this same product, then the first instance of the product sets the *initial* total Required Progress at `3 (Quality) * 10 (Progress Increment) = 30`. Each of the `4` *additional* instances of the product now add `5` points of required Progress. So, for all `5` instances of the product to be finished, the *final* total Required Progress is `30 + (4 * 5) = 50`. This is much faster, than creating those `5` instances individually, as that *would* take `5 * 30 = 150` points of total Required Progress!
 
 # Trade
 Selling and buying things can take a surprising amount of time. If prices are too high and demand or reputation too low, chances are, you won't be able to sell your goods. But even when people do show interest in your wares, you still have to *sell it* to them. An uncharismatic merchant will have a difficult time making a pretty profit, regardless of the quality of their goods. On the other hand, buying things may prove equally difficult, when what you're looking for isn't really available. 
@@ -2690,7 +2694,7 @@ The following list does not and cannot aim to be a complete listing of all possi
 ### General Assets
 The following is a non-exhaustive list of general Assets. Just because an Asset you're looking for isn't listed here, doesn't mean it cannot exist! You are encouraged to think creatively and to [Invent](strive-core.md#invention-projects) your own!
 
-In the following table, `Q` refers to the Quality of the Asset. See also the [Crafting](#crafting--research-projects) rules. For normal every-day Assets, substitute `Q` with `2`.
+In the following table, `Q` refers to the Quality of the Asset. See also the [Crafting](#projects) rules. For normal every-day Assets, substitute `Q` with `2`.
 
 When looking up products for Crafting, the specific tools and materials required for the Craft are not noted here. Those will be determined by the GM. Think creatively - *how could you make the thing?* *What materials and tools do you have available?*
 
@@ -2741,7 +2745,7 @@ See also [Travel & Terrain](#travel--terrain).
 #### Fishing (Agi/Awar)
 The ability to efficiently catch and process fish. 
 
-[Crafting](#crafting--research-projects):
+[Crafting](#projects):
 * [Ration](#general-assets) (3x)
 
 #### Instrument-Playing < instrument > (Agi/Awar)
@@ -2794,7 +2798,7 @@ For any ally next to you, who's also using a shield, you both gain `+1D` on your
 #### Trapping (Awar/Wit)
 Setting traps in places where they're difficult to detect and the ability to disarm them. Used to set traps such as bear traps, pits filled with spikes, land mines and so on.
 
-When setting a trap, roll an Ob `0` Test. The number of Hits results in the Quality Level of the trap, which determines how hard it is to detect and disarm. `0` Hits means the trap isn't at all concealed. You may also place traps during combat, and as long as some foe can see you, your trap will never be concealed, in which case you also don't need to roll. 
+When setting a trap, roll an Ob `0` Test. The number of Hits results in the Quality of the trap, which determines how hard it is to detect and disarm. `0` Hits means the trap isn't at all concealed. You may also place traps during combat, and as long as some foe can see you, your trap will never be concealed, in which case you also don't need to roll. 
 
 #### Throwing (Agi/Str)
 General expertise at throwing things. This includes weapons as well as non-weapon objects. 
@@ -2963,7 +2967,7 @@ Knowledge of metallurgical processes and the qualities (such as weight, conducti
 #### Nature (Awar/Wit)
 The ability to tell flora and fauna apart and to know of their attributes, such as what is edible or poisonous or how to hunt a deer, and so on. 
 
-[Crafting](#crafting--research-projects):
+[Crafting](#projects):
 * [Medical Supplies](#general-assets) (1x)
 * [Antidote](#general-assets) (1x)
 * [Ration](#general-assets) (5x)
@@ -2984,7 +2988,7 @@ Diagnosing and treating mundane [Injuries](#injury), [Illnesses](#illness) and [
 
 This Skill may also find use in forensics, to identify poisons or the type of weapon that inflicted a wound. The Ob will depend on the rarity of the poison/weapon and will be determined by the GM. 
 
-[Crafting](#crafting--research-projects):
+[Crafting](#projects):
 * [Medical Supplies](#general-assets) (5x)
 * [Antidote](#general-assets) (4x)
 
@@ -3001,7 +3005,7 @@ Failing a Test of this Skill while treating a patient, causes the patient to suf
 
 This Skill may also find use in forensics, to identify poisons or the type of weapon that inflicted a wound. The Ob will depend on the rarity of the poison/weapon and will be determined by the GM. At the cost of `1` [Medical Supplies](#general-assets), finger prints, organic samples like blood and similar can be retrieved and identified. 
 
-[Crafting](#crafting--research-projects):
+[Crafting](#projects):
 * [Medical Supplies](#general-assets) (2x)
 
 #### Warfare (Tough/Wit)
@@ -3024,18 +3028,18 @@ This governs the understanding of what makes defensive structures effective and 
 | 4     | Take and Hold! <br><img src="../../img/heroic-act_take-and-hold.svg" width="64px" height="64px"></img> | `-30` | Designate an area up to `5` Squares in diameter that lasts `3` Rounds. Any PC and ally inside this zone can make `1` free Defense Test and gains `+1` [Edge](#edge) for it. If such a zone already exists, it is replaced with the new one. Momentum gain clarification: the first Defense Test of a PC within the zone is **not** eligible to gain Momentum. | Designate an area up to `4` Squares in diameter. Until the end of combat, any PC and ally inside this zone receives `+1` [Edge](#edge) for every Defense Test and may freely [Counter-Attack](#counter-Attack) every Attack directed against them, up to `2` times per Round. But every PC and ally *outside* this zone suffers `+1` Ob for **every Test**. If such a zone already exists, it is replaced with the new one. Momentum gain clarification: Defense Tests inside the zone are **never** eligible to gain Momentum. | `+30` | Not A Step Back! <br><img src="../../img/desperate-measure_not-a-step-back.svg" width="64px" height="64px"></img> |
 
 ### Artisan Skills
-All artisan Skills require a mix of physical and mental Attributes, for the purpose of creating a wide variety of things. Mechanically speaking, these are [Crafting](#crafting--research-projects) Skills.
+All artisan Skills require a mix of physical and mental Attributes, for the purpose of creating a wide variety of things. Mechanically speaking, these are [Crafting](#projects) Skills.
 
 #### Artistry (Agi/Awar)
 The ability to paint and draw well, as well as a general sense of aesthetics. 
 
-[Crafting](#crafting--research-projects):
+[Crafting](#projects):
 * [Objet d'art](#general-assets) (1x)
 
 #### Cooking (Awar/Wit)
 The ability to cook hearty and sweet meals that can strengthen and invigorate. 
 
-[Crafting](#crafting--research-projects):
+[Crafting](#projects):
 * [Ration](#general-assets) (5x)
 * Special Meal: A Trivial Project that requires *special* ingredients, consult your GM. 
   * A special meal that you have to eat while it's still fresh. The meal does **not** go in your inventory - this is **not** the same as a ration! 
@@ -3095,7 +3099,7 @@ Increases [Stability](#stability-stabil) by `+2`.
 [Grappling](#grappled) you is `+1` Ob harder and you receive `+1` Edge for Tests to break free from being Grappled.
 
 ### Thorough Artisan
-Every Asset you Craft starts with Quality Level `+1`. Ignore the first [Project Skill Test](#progressing-a-project) you fail and treat it as a success, instead.
+Every Asset you Craft starts with Quality `+1`. Ignore the first [Project Skill Test](#progressing-a-project) you fail and treat it as a success, instead.
 
 ### Tough Skin
 Raise your base HP by `+10`. 
