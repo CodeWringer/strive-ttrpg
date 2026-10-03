@@ -1867,9 +1867,19 @@ Once per [QoD](#quarters-of-a-day-qod), during a [Partial Rest](#resting), Chara
 A [Full Rest](#resting) always replenishes up to `30` HP and `10` Stamina, while reducing Strain by `6`. 
 
 ### Staying On Watch
-Whenever resting in an **unsafe environment**, such as out in the wild or on a city's streets, animals, bandits or monsters - given the setting and narrative allow for it - might surprise any resting Characters. Therefore, it is advisable to set up a watch. But be careful - those on watch could fall asleep during their vigil! To determine whether they succumb to their own exhaustion, they must Test their [Self-Control](#self-control-toughwit) once, at the beginning of their watch. The Ob is equal to `3`, plus their current negative [Stamina](#stamina--strain), if they have any. If multiple Characters stay up for the watch at the same time, they can help each other stay awake, reducing the Ob by `-1` for each who stay awake. The Ob to stay awake can never be reduced to less than `1`. 
+Whenever resting in an **unsafe environment**, such as out in the wild or on a city's streets, animals, bandits or monsters - given the setting and narrative allow for it - might surprise any resting Characters. Therefore, it is advisable to set up a watch, which may prevent or at least warn of impending ambushes. 
 
-> A Character with current Stamina of `-1` is tasked with standing watch one night. In order to avoid falling asleep, they must succeed a Self-Control Test at Ob `3 (always) + 1 (negative Stamina) = 4`. 
+When setting up a watch, those who stay awake must decide how many shifts they will take. The total number of shifts required for a Rest depends on its length and may be divided up between the Characters staying on Watch:
+* **On a Full Rest**: `6` shifts are required. 
+* **On a Partial Rest**: A single shift is required. 
+
+Be careful who stays awake - those on watch could fall asleep during their vigil! To determine whether they succumb to their own exhaustion, they must Test their [Self-Control](#self-control-toughwit) once, at the beginning of their watch. The Ob is equal to the number of shifts they take, plus their current negative [Stamina](#stamina--strain). If multiple Characters stay up for the watch during the same shift, they can help each other stay awake, reducing the Ob by `-1`, for each Character. The Ob to stay awake can never be reduced to less than `1`. 
+
+> One night, a Character with current Stamina of `-1` is tasked with staying on watch for `3` shifts. In order to avoid falling asleep, they must succeed a Self-Control Test at Ob `4 = 3 (number of shifts) + 1 (negative Stamina)`. 
+
+For every shift a Character takes, they recover `5` HP and `2` Stamina less, while reducing Strain by one point less. This assumes the Character manages to stay awake. If they fail, and fall asleep, they recover as they normally would - but they can also no longer warn of any impending danger! 
+
+> The same Character, assuming they manage to stay awake, will recover only `15` HP and `4` Stamina, while reducing their Strain only by `3` points.
 
 ## Initiative Order
 When the order in which Characters act matters, an **Initiative Order** is needed. **Initiative** is the rolled number that determines when a Character should get a chance to act. To this end, the Initiative of all involved parties is collected and sorted. The Character who rolled the highest number gets to act first and then in descending order, the next Character after them, until all Characters have had their **Turn** to act. 
