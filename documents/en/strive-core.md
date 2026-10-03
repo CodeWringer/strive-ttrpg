@@ -1869,7 +1869,7 @@ A [Full Rest](#resting) always replenishes up to `30` HP and `10` Stamina, while
 ### Staying On Watch
 Whenever resting in an **unsafe environment**, such as out in the wild or on a city's streets, animals, bandits or monsters - given the setting and narrative allow for it - might surprise any resting Characters. Therefore, it is advisable to set up a watch, which may prevent or at least warn of impending ambushes. 
 
-When setting up a watch, those who stay awake must decide how many shifts they will take:
+When setting up a watch, those who stay awake must decide how many shifts they will take. The total number of shifts required for a Rest depends on its length and may be divided up between the Characters staying on Watch:
 * **On a Full Rest**: `6` shifts are required. 
 * **On a Partial Rest**: A single shift is required. 
 
