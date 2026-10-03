@@ -1875,7 +1875,7 @@ When setting up a watch, those who stay awake must decide how many shifts they w
 
 Be careful who stays awake - those on watch could fall asleep during their vigil! To determine whether they succumb to their own exhaustion, they must Test their [Self-Control](#self-control-toughwit) once, at the beginning of their watch. The Ob is equal to the number of shifts they take, plus their current negative [Stamina](#stamina--strain). If multiple Characters stay up for the watch during the same shift, they can help each other stay awake, reducing the Ob by `-1`, for each Character. The Ob to stay awake can never be reduced to less than `1`. 
 
-> One night, a Character with current Stamina of `-1` is tasked with staying on watch for `3` shifts. In order to avoid falling asleep, they must succeed a Self-Control Test at Ob `3 (number of shifts) + 1 (negative Stamina) = 4`. 
+> One night, a Character with current Stamina of `-1` is tasked with staying on watch for `3` shifts. In order to avoid falling asleep, they must succeed a Self-Control Test at Ob `4 = 3 (number of shifts) + 1 (negative Stamina)`. 
 
 For every shift a Character takes, they recover `5` HP and `2` Stamina less, while reducing Strain by one point less. This assumes the Character manages to stay awake. If they fail, and fall asleep, they recover as they normally would - but they can also no longer warn of any impending danger! 
 
