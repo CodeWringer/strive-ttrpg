@@ -594,7 +594,6 @@ As STRIVE is meant primarily as a rule-book to help you quickly find what you ne
 | [D8](#dice)                                                 | An eight-sided die      |
 | [Damage Type](#damage-types)                                | All Damage falls into one of the Damage Types, which also determines the type of Injury such Damage may cause. |
 | [Damage](#damage--effects)                                  | Damage is the number that reduces [HP](#health-points-hp), as a result of Attacks or environmental hazards. |
-| [Day-Long](#quarters-of-a-day-qod)                          | A Day-Long activity takes at least `3` [QoDs](#quarters-of-a-day-qod), assuming the fourth is reserved for resting.  |
 | [Death's Door](#deaths-door)                                | A Condition only PCs can have. This is their final battle with death. |
 | [Defender](#defending)                                      | A Character who is target of another's Action. The distinction whether this is a hostile or benign action does not matter. |
 | [Defense Test](#attacking)                                  | A Test made to oppose the Attack of another Character. |
@@ -662,7 +661,6 @@ As STRIVE is meant primarily as a rule-book to help you quickly find what you ne
 | [Miss](#tests)                                              | Negative result of an individual die-roll in a Test. |
 | [Modified Level](#raw-vs-modified-level)                    | The Level value after Boons and Penalties have been applied to it. |
 | [Momentum](#momentum)                                       | A special resource that the PCs earn and lose as a group, during Combat. It enables use of Heroic Acts and Desperate Measures. |
-| [Multi-Quarter](#quarters-of-a-day-qod)                     | A Multi-Quarter activity at least two [QoDs](#quarters-of-a-day-qod).  |
 | [Multiple Single Target (MST)](#multiple-single-target-mst) | Indicates that an Attack affects multiple targets, each of which is handled individually, for example for rolling Defense Tests. |
 | [Non-Player Character (NPC)](#non-player-character-npc)     | Represents all the people, animals and monsters of a world, that are controlled by the GM. |
 | [Normal Attribute](#core-favored-normal--penalized-attributes)| An Attribute that is enjoys normal Advancement costs. |
@@ -696,6 +694,7 @@ As STRIVE is meant primarily as a rule-book to help you quickly find what you ne
 | [Push Through Action](#push-through)                        | A Character may choose to move despite suffering an Opportunity Attack. |
 | [Quality Level](#crafting--research-projects)               | A numeric value that describes the quality of an Asset or Project. |
 | [Quarter of a Day (QoD)](#quarters-of-a-day-qod)            | Each day is divided into four Quarters: **Night**, **Dawn**, **Midday**, and **Dusk**. Each Quarter lasts approximately six hours. |
+| [Quarterly](#quarters-of-a-day-qod)                         | A Quarterly activity lasts at least one full QoD. |
 | [Quirk](#quirk)                                             | Part of a Character's Drivers and always triggers when some defined condition is met, to get the Character in trouble or grant them an assurance. |
 | [Range of Opportunity](#opportunity-attacks)                | The zone around a Character that lets them launch Opportunity Attacks as a Reaction to foes moving around or away from them. |
 | [Range Only](#foundational-weapon-traits)                   | A Weapon Trait that indicates a weapon cannot be used against adjacent targets. |
@@ -1490,8 +1489,14 @@ For every point in [Toughness](#toughness-tough), your **maximum Stamina** raise
 
 Stamina can go into **negative numbers**! When that happens, the Character becomes [Exhausted](#exhausted) from over-exertion. While Exhausted, a Character further losing Stamina, must succeed a [Self-Control](#self-control-toughwit) [Test](#tests) at Ob equal to their current degree of negative Stamina, or else fall [Unconscious](#unconscious). An Exhausted Character can also no longer perform *any* Action or Reaction that would cost Stamina!
 
+> When at `-3` Stamina, a Character loses another point of Stamina, bringing them to `-4`. They must now succeed a Self-Control Test at Ob `4`, or else fall Unconscious! 
+
+Maximum Stamina may be reduced by [Strain](#strain) or other sources, but can never be less than `1`. 
+
 #### Strain
-<img src="../../img/strain.svg" style="width: 3rem; height: 3rem;"> **Strain** is a measure of a Character's extreme physical and mental exertions and **reduces the Stamina maximum**. For each point of Strain, the Stamina maximum is reduced by an equal amount. 
+<img src="../../img/strain.svg" style="width: 3rem; height: 3rem;"> **Strain** is a measure of a Character's extreme physical and mental exertions and **reduces the Stamina maximum**. 
+
+For each point of Strain, the Stamina maximum is reduced by an equal amount. This cannot reduce maximum Stamina to less than `1`. 
 
 Strain is gained from particularly exhausting equipment, or suffering through extreme exertions, such as performing particularly exhausting Actions or Reactions.
 
@@ -1851,20 +1856,21 @@ Activities are categorized as follows:
 * A **Brief** activity takes only minutes. Many of these can happen in a QoD, without advancing it meaningfully. 
 * A **Lengthy** activity takes one or more hours and can consume a substantial portion of a QoD. 
 * An **Extended** activity takes several hours or more, and is very likely to advance the current QoD. 
-* A **Multi-Quarter** activity at least two QoDs. 
-* A **Day-Long** activity takes at least `3` QoDs, assuming the fourth is reserved for resting. 
+* A **Quarterly** activity lasts at least one full QoD. 
 
-A QoD is a time-keeping unit, not an activity allowance. Just because an activity takes a Lengthy or Extended amount of time, doesn't necessarily mean nothing else could be done, within the same QoD. And just how many Brief activities fit into a QoD, isn't necessarily all that important. It is the GM's duty and authority to advance the Quarter when an appropriate amount of time should have passed. 
+A QoD is a time-keeping unit, not an activity allowance. Just because an activity takes a Lengthy or Extended amount of time, doesn't necessarily mean nothing else could be done within the same QoD. And just how many Brief activities fit into a QoD isn't necessarily all that important. It is the GM's responsibility to advance the Quarter when an appropriate amount of time should have passed. 
 
 ## Resting
-All creatures that can be tired, require sleep. Some [Conditions](#condition) can only be cleared by resting. A **Full Rest** requires at least one uninterrupted QoD of *active resting*. That implies not doing anything besides sleeping or meditating. Anything less than a Full Rest is a **Partial Rest**. 
+After a long day's work, Character's require rest, to recover their strength. A distinction is made between a **Full Rest** and a **Partial Rest**, each of which allows [Recovery](#recovery).
 
-An interruption of a Full Rest is any break in the rest, when a Character is forced to do something physically or mentally taxing that keeps them from sleep. If in doubt - a Test is almost always going to be taxing in some way.
+* A **Full Rest** requires at least one uninterrupted QoD of *actively resting*. That implies not doing anything besides sleeping or meditating. 
+* A **Partial Rest** is **Lengthy** and may fit inside a QoD, beside other activities. 
+
+Characters may Rest once per [QoD](#quarters-of-a-day-qod). 
 
 ### Recovery
-Once per [QoD](#quarters-of-a-day-qod), during a [Partial Rest](#resting), Characters may replenish up to `12` [HP](#health-points-hp) and `3` [Stamina](#stamina), while reducing [Strain](#strain) by `1`. 
-
-A [Full Rest](#resting) always replenishes up to `30` HP and `10` Stamina, while reducing Strain by `6`. 
+* **On a Full Rest**: Characters may replenish up to `30` HP and `10` Stamina, while reducing Strain by `6` points. 
+* **On a Partial Rest**: Characters may replenish up to `15` HP and `4` Stamina. 
 
 ### Staying On Watch
 Whenever resting in an **unsafe environment**, such as out in the wild or on a city's streets, animals, bandits or monsters - given the setting and narrative allow for it - might surprise any resting Characters. Therefore, it is advisable to set up a watch, which may prevent or at least warn of impending ambushes. 
@@ -1898,6 +1904,12 @@ Some Characters may be granted the ability to enter the Initiative Order multipl
 ### Delaying Your Turn
 Once in a Round, you may delay your Turn, moving it to the end of the current Round. If multiple Characters delay their Turn, they will get to act one after another, in the order that they delayed their Turn. In other words, the last Character to delay is also the last to finally get their Turn in a Round.
 
+Note that Delaying your Turn does not prevent you suffering [Condition](#condition) or Turn effects. They still apply the instant you *would* have first gotten your Turn. However, **only the first time** they would apply, in a Round! 
+
+> It comes to a PC's Turn. Their player decides it is best to wait for later, and Delays their Turn. Their Character also happens to have the Burning Condition, whose effects must now be immediately applied. Only then is their Turn moved to the end of the Round.
+>
+> Once the Round is nearly over, and the PC gets to act again, they may immediately begin. They **don't** have to apply the Burning Condition again! 
+
 ### Surprise Round
 If one party is surprised, for example during an ambush, then the ambushing party gets to act for a full Round, without the ambushed party getting a chance to act. This is called a **Surprise Round**. After the Surprise Round Initiative Order is handled as normal. Additionally, any surprised Characters **do not** get their starting [AP](#action-points-ap), until the end of the Surprise Round! 
 
@@ -1906,11 +1918,11 @@ Usually, circumstance may grant a Surprise Round, but in case it doesn't you may
 > Surprise Round does not apply to opponents standing right in front of each other in conversation, when one of them suddenly draws a dagger and Attacks. The Attacker can be clearly seen by the defender (assuming they can see) and thus does not result in a Surprise Round. Of course, the specifics are always up to the scenario at hand and to the GM's ruling. 
 
 ### Ticks
-A **Tick** is the instant in time, at the **start of a Character's Turn** during [Combat](#combat), or every `5` seconds outside of Combat. 
+A **Tick** is the instant in time, at the **start of a Character's Turn** during [Combat](#combat), or every `5`th second outside of Combat. 
 
-This is the point in time when a [Conditions](#condition) are suffered by the Character, before other Turn effects (whatever those may be) apply. 
+This is the point in time when the effects of [Conditions](#condition) are applied. This always happens before other Turn effects (whatever those may be) apply. 
 
-A Tick **always** occurs for a Character, even when skipping or delaying their Turn. 
+A Tick **always** occurs for a Character, even when skipping or [Delaying](#delaying-your-turn) their Turn. 
 
 # Crafting & Research Projects
 <img src="../../img/crafting.svg" style="width: 3rem; height: 3rem;"></img>
@@ -2131,8 +2143,8 @@ Denoted are both the time it takes to get a chance at a [Mercantilism](#mercanti
 
 | **Supply >** <br> **Demand v** | **Very High** | **High**                 | **Moderate**                | **Low**                     | 
 | ------------- | --------------------------- | --------------------------- | --------------------------- | --------------------------- |
-| **Low**       | Multi-Quarter, Ob `5`, 50%  | Multi-Quarter, Ob `4`, 60%  | Extended, Ob `4`, 70%       | Extended, Ob `3`, 80%       | 
-| **Moderate**  | Multi-Quarter, Ob `4`, 80%  | Extended, Ob `4`, 90%       | Extended, Ob `3`, 100%      | Lengthy, Ob `2`, 110%       | 
+| **Low**       | Quarterly, Ob `5`, 50%      | Quarterly, Ob `4`, 60%      | Extended, Ob `4`, 70%       | Extended, Ob `3`, 80%       | 
+| **Moderate**  | Quarterly, Ob `4`, 80%      | Extended, Ob `4`, 90%       | Extended, Ob `3`, 100%      | Lengthy, Ob `2`, 110%       | 
 | **High**      | Extended, Ob `3`, 110%      | Extended, Ob `3`, 120%      | Lengthy, Ob `2`, 130%       | Lengthy, Ob `1`, 140%       | 
 | **Very High** | Lengthy, Ob `2`, 140%       | Lengthy, Ob `2`, 160%       | Lengthy, Ob `1`, 180%       | Brief, Ob `1`, 200%         | 
 
@@ -2148,7 +2160,7 @@ The supply is assumed to be relative to the demand. The more something is in dem
 | **Low**       | Brief, Ob `1`, 50%          | Brief, Ob `1`, 60%          | Lengthy, Ob `2`, 70%        | Lengthy, Ob `3`, 80%        | 
 | **Moderate**  | Brief, Ob `1`, 80%          | Lengthy, Ob `2`, 90%        | Lengthy, Ob `3`, 100%       | Extended, Ob `4`, 110%      | 
 | **High**      | Lengthy, Ob `2`, 100%       | Lengthy, Ob `3`, 120%       | Extended, Ob `4`, 130%      | Extended, Ob `5`, 140%      | 
-| **Very High** | Extended, Ob `3`, 110%      | Extended, Ob `4`, 160%      | Extended, Ob `5`, 180%      | Multi-Quarter, Ob `6`, 200% | 
+| **Very High** | Extended, Ob `3`, 110%      | Extended, Ob `4`, 160%      | Extended, Ob `5`, 180%      | Quarterly, Ob `6`, 200%     | 
 
 # Combat
 When diplomacy fails, hostilities ensue. This is when the game enters into a state that is handled very carefully. How time is *sliced* and when Characters get to act, is crucial. Time is divided into **Rounds** and those into **Turns**. Combat ends, when neither side has the ability or will left to fight. 
@@ -2483,10 +2495,10 @@ The following table suggests how long it might take to traverse a particular Ove
 | Desert                 | Lengthy        | 5                   |
 | Sparse forest          | Extended       | 2                   |
 | Hill                   | Extended       | 2                   |
-| Jungle/Dense forest    | Multi-Quarter  | 2                   |
-| Swamp                  | Multi-Quarter  | 3                   |
-| Barren Mountain        | Multi-Quarter  | 5                   |
-| Forested Mountain      | Multi-Quarter  | 2                   |
+| Jungle/Dense forest    | Quarterly      | 2                   |
+| Swamp                  | Quarterly      | 3                   |
+| Barren Mountain        | Quarterly      | 5                   |
+| Forested Mountain      | Quarterly      | 2                   |
 
 Under normal circumstances, Characters may spend at most `3` QoDs traveling (on foot) before they need a [Full Rest](#resting) to carry on. Whether these QoDs are spent consecutively or with _short_ breaks in between, makes no difference. 
 
@@ -3219,8 +3231,8 @@ A Character who is in **Berserk** Condition, **must** Attack the creature neares
 * Graded
 * Shrug Off: `-1` point with a [Self-Control](#self-control-toughwit) [Test](#tests) with Ob `2`. 
 * Automatic Shrug-Off: `-1` point at the end of the Turn. 
-* Immediate cancel: When the Character is made [Unconscious](#unconscious) or no other creatures remain alive and/or conscious.
-* Difficult repeats: Whenever shrugging off this Condition, you become **guarded** against it until the start of your next Turn, making any Attack or effect enacted against you that would cause you to suffer it again `+1` Ob harder for your foes. 
+* Immediate Cancel: When the Character is made [Unconscious](#unconscious) or no other creatures remain alive and/or conscious.
+* Difficult Repeats: Whenever shrugging off this Condition, you become **guarded** against it until the start of your next Turn, making any Attack or effect enacted against you that would cause you to suffer it again `+1` Ob harder for your foes. 
 
 ### Burning
 <img src="../../img/health-condition-burning.svg" style="width: 3rem; height: 3rem;"></img>
@@ -3230,7 +3242,7 @@ For every point in the **Burning** Condition, a Character suffers `2` points of 
 * Graded
 * Greedy: automatically increases by `+1` point **after** every [Tick](#ticks). 
 * Shrug Off: `-1` point per [AP](#action-points-ap) spent actively patting out flames, rolling on the floor and so on. 
-* Immediate cancel: When the flames are extinguished through external means. 
+* Immediate Cancel: When the flames are extinguished through external means. 
 
 Adjacent allies can also help pat out the flames, by spending an [AP](#action-points-ap) for every point reduction of Burning. 
 
@@ -3242,14 +3254,14 @@ For every point in the **Bleeding** Condition, a Character suffers `2` points of
 * Graded
 * Shrug Off: `-2` points with a [Toughness](#toughness-tough) [Test](#tests) with Ob `1`. 
 * Automatic Shrug-Off: `-1` point at the end of the Turn. 
-* Immediate cancel: With a successful [Medicine](#medicine-agiwit) [Test](#tests), requiring `1` [Medical Supplies](#general-assets) with Ob `2`.
+* Immediate Cancel: With a successful [Medicine](#medicine-agiwit) [Test](#tests), requiring `1` [Medical Supplies](#general-assets) with Ob `2`.
 
 ### Crippled
 <img src="../../img/health-condition-crippled.svg" style="width: 3rem; height: 3rem;"></img>
 
 A **Crippled** Character suffers `+1` Ob to **all** Tests, for each [Injury](#injury) more than their [Toughness](#toughness-tough). 
 
-* Immediate cancel: Reducing the number of Injuries to equal or less than the Toughness. 
+* Immediate Cancel: Reducing the number of Injuries to equal or less than the Toughness Level. 
 
 ### Death's Door
 **Death's Door** is a Condition only a PC can have and represents their final battle with death. 
@@ -3265,16 +3277,14 @@ For every point in the **Dissolving** Condition, a Character suffers `2` points 
 
 * Graded
 * Automatic Shrug-Off: `-2` points at the end of the Turn. 
-* Immediate cancel: With a successful [Medicine](#medicine-agiwit) [Test](#tests), requiring `1` [Medical Supplies](#general-assets) with Ob `2`.
+* Immediate Cancel: With a successful [Medicine](#medicine-agiwit) [Test](#tests), requiring `1` [Medical Supplies](#general-assets) with Ob `2`.
 
 ### Drug-Addicted
 <img src="../../img/health-condition-drug-addicted.svg" style="width: 3rem; height: 3rem;"></img>
 
-A **Drug-Addicted** Character must take their drug once every `24` hours, or else enter **withdrawal**. 
+A **Drug-Addicted** Character must take their drug once every day, or else enter **withdrawal**. While in **withdrawal**, they suffer `-1D` to **all** Tests and once per QoD they have to pass a [Toughness](#toughness-tough) Test at Ob `2`, or else be forced to *dedicate all their strength* into acquiring and taking a new dose of the drug. 
 
-For every `24` hours that a Character is in **withdrawal**, they suffer `-1D` to **all** Tests. For every `12` hours that they are in **withdrawal** they have to pass a [Toughness](#toughness-tough) Test at Ob `2`, or else be forced to dedicate their every bit of strength into acquiring and taking a new dose of the drug. 
-
-After `72` consecutive hours (= `3` full days) of having being in **withdrawal**, the Character breaks free from their addiction, removing this Condition.
+* Immediate Cancel: After `3` consecutive days of having being in **withdrawal**, the Character breaks free from their addiction, removing this Condition.
 
 ### Electrified
 <img src="../../img/health-condition-electrified.svg" style="width: 3rem; height: 3rem;"></img>
@@ -3286,11 +3296,11 @@ An **Electrified** Character spasms, uncontrollably. They are force-moved in a [
 ### Exhausted
 <img src="../../img/health-condition-exhausted.svg" style="width: 3rem; height: 3rem;"></img>
 
-An **Exhausted** Character begins their Turn with `-2` AP and can no longer [Sprint](#combat-movement). 
+An **Exhausted** Character begins their Turn with `-2` AP and can no longer [Sprint](#combat-movement) or perform any Action or Reaction that would cost Stamina. 
 
-While Exhausted, a Character losing further [Stamina](#stamina--strain), must succeed a [Self-Control](#self-control-toughwit) [Test](#tests) at Ob equal to `3` plus their current [negative Stamina](#stamina--strain), or else fall [Unconscious](#unconscious).
+While Exhausted, a Character losing further [Stamina](#stamina--strain), must succeed a [Self-Control](#self-control-toughwit) [Test](#tests) at Ob equal to their current [negative Stamina](#stamina--strain), or else fall [Unconscious](#unconscious).
 
-This Condition can be recovered from by clearing [negative Stamina](#stamina--strain). 
+* Immediate Cancel: When clearing all [negative Stamina](#stamina--strain). 
 
 ### Frostbitten
 <img src="../../img/health-condition-frostbitten.svg" style="width: 3rem; height: 3rem;"></img>
@@ -3299,14 +3309,14 @@ For every point in **Frostbitten**, a Character suffers `-1D` to all [Tests](#te
 
 * Graded
 * Automatic Shrug-Off: `-1` point at the end of the Turn. 
-* Immediate cancel: When thawed, for example through [Burning](#burning).
+* Immediate Cancel: When thawed, for example through [Burning](#burning).
 
 ### Grappled
 <img src="../../img/health-condition-grappled.svg" style="width: 3rem; height: 3rem;"></img>
 
-A **Grappled** Character is unable to move freely and counts as `+1` degree of [Flanked](#flanking). They can break free, by winning an [Opposed](#opposed-test) [Unarmed Combat](#unarmed-combat-agistr) [Test](#tests) against the other Character grappling them. 
+A **Grappled** Character is unable to move freely, counts as `+1` degree of [Flanked](#flanking) and can no longer perform [Opportunity Attacks](#opportunity-Attacks)!
 
-Additionally, a Grappled Character can no longer perform [Opportunity Attacks](#opportunity-Attacks).
+* Immediate Cancel: By winning an [Opposed](#opposed-test) [Unarmed Combat](#unarmed-combat-agistr) [Test](#tests) against the grappler. 
 
 ### Guarded
 A **Guarded** Character may [Defend](#defending) against the next Attack that would affect them with `1` [Edge](#edge). 
@@ -3326,8 +3336,8 @@ A Character who has been made unnaturally **Jealous**, will do anything in their
 
 * Graded
 * Shrug Off: `-1` point with a [Self-Control](#self-control-toughwit) [Test](#tests) with Ob `2`. 
-* Immediate cancel: When the Character is made [Unconscious](#unconscious), the source of the jealousy is removed or the Character acquires that which they covet. 
-* Difficult repeats: Whenever shrugging off this Condition, you become **guarded** against it until the start of your next Turn, making any Attack or effect enacted against you that would cause you to suffer it again `+1` Ob harder for your foes. 
+* Immediate Cancel: When the Character is made [Unconscious](#unconscious), the source of the jealousy is removed or the Character acquires that which they covet. 
+* Difficult Repeats: Whenever shrugging off this Condition, you become **guarded** against it until the start of your next Turn, making any Attack or effect enacted against you that would cause you to suffer it again `+1` Ob harder for your foes. 
 
 ### Marked
 <img src="../../img/health-condition-marked.svg" style="width: 3rem; height: 3rem;"></img>
@@ -3343,8 +3353,8 @@ A Character who is **Pacified**, is unable to *willingly* take any action that w
 
 * Graded
 * Shrug Off: `-1` point with a [Self-Control](#self-control-toughwit) [Test](#tests) with Ob `1`. 
-* Immediate cancel: When the Character is made [Unconscious](#unconscious) or the source of the pacification is removed.
-* Difficult repeats: Whenever shrugging off this Condition, you become **guarded** against it until the start of your next Turn, making any Attack or effect enacted against you that would cause you to suffer it again `+1` Ob harder for your foes. 
+* Immediate Cancel: When the Character is made [Unconscious](#unconscious) or the source of the pacification is removed.
+* Difficult Repeats: Whenever shrugging off this Condition, you become **guarded** against it until the start of your next Turn, making any Attack or effect enacted against you that would cause you to suffer it again `+1` Ob harder for your foes. 
 
 ### Poisoned
 <img src="../../img/health-condition-poisoned.svg" style="width: 3rem; height: 3rem;"></img>
@@ -3353,29 +3363,30 @@ A **Poisoned** Character suffers `2` points of [Poison](#damage-types) Damage ev
 
 * Graded
 * Shrug Off: `-2` points with a [Toughness](#toughness-tough) [Test](#tests) with Ob `1`. 
-* Immediate cancel: With an [Antidote](#general-assets). 
+* Immediate Cancel: With an [Antidote](#general-assets). 
 
 ### Prone
 <img src="../../img/health-condition-prone.svg" style="width: 3rem; height: 3rem;"></img>
 
-A Character who is **Prone**, is harder to hit with ranged Attacks, easier to hit with melee Attacks and counts as `+1` degree of [Flanked](#flanking), in melee. However, they are `+1` Ob harder to hit with a ranged Attack. 
+A Character who is **Prone**, is `+1` Ob harder to hit with ranged Attacks, but counts as `+1` degree of [Flanked](#flanking), in melee. 
 
-It costs `1` [AP](#action-points-ap) to stand up. 
+* Immediate Cancel: It costs `1` [AP](#action-points-ap) to stand up. 
 
 ### Rooted
 <img src="../../img/health-condition-rooted.svg" style="width: 3rem; height: 3rem;"></img>
 
 A **Rooted** Character can no longer move their legs. They cannot move from the spot, but can still move their upper body freely. 
 
-This Condition is usually tied to some condition, before it is removed. If there is no condition, it is automatically shrugged off at the end of the Turn. 
+* Automatic Shrug-Off: At the end of the Turn, *if* there is no other condition. 
+* Immediate Cancel: This Condition is usually tied to some condition, before it is removed. 
 
 ### Stunned
 <img src="../../img/health-condition-stunned.svg" style="width: 3rem; height: 3rem;"></img>
 
-A **Stunned** Character is unable to act, at all. During combat, their Turn is skipped. 
+A **Stunned** Character is unable to act, at all. During combat, their Turn is skipped. [Tick](#ticks) and Turn effects still apply. 
 
 * Automatic Shrug-Off: At the end of the Turn. 
-* Difficult repeats: Whenever shrugging off this Condition, you become **guarded** against it until the start of your next Turn, making any Attack or effect enacted against you that would cause you to suffer it again `+1` Ob harder for your foes. 
+* Difficult Repeats: Whenever shrugging off this Condition, you become **guarded** against it until the start of your next Turn, making any Attack or effect enacted against you that would cause you to suffer it again `+1` Ob harder for your foes. 
 
 ### Terrified
 <img src="../../img/health-condition-terrified.svg" style="width: 3rem; height: 3rem;"></img>
@@ -3384,19 +3395,22 @@ A **Terrified** Character **must** flee from whatever it is that terrified them,
 
 * Graded
 * Shrug Off: `-1` point with a [Self-Control](#self-control-toughwit) [Test](#tests) with Ob `1`. 
-* Immediate cancel: When the Character is made [Unconscious](#unconscious), the source of terror is removed or the Character can no longer perceive the source of terror in any way for a short time (`2` Turns or half a minute).
-* Difficult repeats: Whenever shrugging off this Condition, you become **guarded** against it until the start of your next Turn, making any Attack or effect enacted against you that would cause you to suffer it again `+1` Ob harder for your foes. 
+* Immediate Cancel: When the Character is made [Unconscious](#unconscious), the source of terror is removed or the Character can no longer perceive the source of terror in any way for a short time (`2` Turns or half a minute).
+* Difficult Repeats: Whenever shrugging off this Condition, you become **guarded** against it until the start of your next Turn, making any Attack or effect enacted against you that would cause you to suffer it again `+1` Ob harder for your foes. 
 
 ### Unconscious
 <img src="../../img/health-condition-unconscious.svg" style="width: 3rem; height: 3rem;"></img>
 
-An **Unconscious** Character is unable to act and is unaware of their surroundings. 
+An **Unconscious** Character is unable to act and is mostly unaware of their surroundings. 
 
-* Difficult repeats: Whenever shrugging off this Condition, you become **guarded** against it until the start of your next Turn, making any Attack or effect enacted against you that would cause you to suffer it again `+1` Ob harder for your foes. 
+* Immediate Cancel: If the Character is woken up through external stimulus. 
+* Difficult Repeats: Whenever shrugging off this Condition, you become **guarded** against it until the start of your next Turn, making any Attack or effect enacted against you that would cause you to suffer it again `+1` Ob harder for your foes. 
 
 ## List of Illnesses
-| Range D100 | Name              | Treatment Skill | Description |
-| ---------- | ----------------- | --------------- | ----------- |
+See also [Illness](#illness). 
+
+| Range D100 | Name              | Description                    | Treatment Skill                |
+| ---------- | ----------------- | ------------------------------ | ------------------------------ |
 | 1 - 8      | Strength Sap      | The muscles atrophy, despite any physical exercise. If not treated quickly, the victim will quickly find themselves unable to move, at all. `-1D4` [Strength](#strength-str); Max. `2` Squares movement. | [Medicine](#medicine-agiwit) Ob `1D4`; Reduces the duration by `2D4`. |
 | 9 - 16     | Lung Fever        | The victim finds themselves easily winded, even by simple acts, such as walking to the privy at night. `-(1D4 + 1)` [Toughness](#toughness-tough). | [Medicine](#medicine-agiwit) Ob `1`; The ill-effects are suspended for `24` hours. |
 | 17 - 24    | Water's Curse     | The victim sweats uncontrollably and has watery stools, thus dehydrating rapidly and losing consciousness frequently. `-1D4` [Toughness](#toughness-tough); [Exhausted](#exhausted). | [Medicine](#medicine-agiwit) Ob `1D4`; Reduces the duration by `1D10` and suspends the ill-effects for `24` hours. |
@@ -3411,7 +3425,7 @@ An **Unconscious** Character is unable to act and is unaware of their surroundin
 | 96 - 100   | Red Death         | The victim starts bleeding from all of their orifices, with no end in sight. Causes `2` points of [Bleeding](#bleeding) every QoD it is active. | [Surgery](#surgery-agiwit) Ob `2`; The Illness is removed within a QoD. |
 
 ## List of Mutations
-One should always keep in mind that despite the game mechanical effects of a mutation, the appearance of an affected individual will also be severly altered. Other Characters and creatures may react with disgust, fear, disdain, pity, and so on. 
+One should always keep in mind that despite the game mechanical effects of a mutation, the appearance of an affected individual will also be severly altered. Other Characters and creatures may react with disgust, fear, disdain, pity, or any other way that seems appropriate. 
 
 | Range D100 | Name                   | Effect                            |
 | ---------- | ---------------------- | --------------------------------- |
