@@ -1524,14 +1524,14 @@ A listing of all Conditions can be found [in the appendix](#list-of-conditions).
 An **Illness** is a serious long-term health impediment of a Character.
 
 #### Shrugging Off An Illness
-When a Character is about to contract an Illness, they must make a [Toughness](#toughness-tough) [Test](#tests) at Ob `3`. On a success, the Illness is shrugged off. But on a failure, the Illness is contracted and will immediately apply its effects to the Character. 
+When a Character is about to contract an Illness, they must make a [Toughness](#toughness-tough) [Test](#tests) at Ob `3`. On a success, the Illness is shrugged off. But on a failure, the Illness is contracted and immediately applies its effects to the Character. 
 
 #### Suffering an Illness
 Illnesses can be contracted in a variety of ways, such as an open wound exposed to bacteria, exposure to unhealthy fumes from bogs, sewers, mass graves and trash dumps, or from something ingested, such as spoiled or poisoned food. These could be the result of failing too many challenges of a [Creative Test](#creative-test), or from a particularly nasty enemy's abilities.
 
 Unless otherwise specified, a `D100` determines the suffered Illness from the [List Of Illnesses](#list-of-illnesses).
 
-An Illness can only be suffered once, at a time. It may be suffered again later, but you could also expect that a certain level of immunity within the body has built up, after the previous time it was suffered through. A Character gains `+2D` to any Shrug-Off Test of an Illness they have suffered in the past. Make sure to note past Illnesses on your Character sheet for this reason. 
+An Illness can only be suffered once, at a time, and may be suffered again later.
 
 #### Illness Recovery
 A `2D10 + 4` roll determines the number of **QoDs** the Illness takes to disappear. At the start of every QoD, increment its recovery progress by `+1`. This allows a Character to slowly recover on their own. 
