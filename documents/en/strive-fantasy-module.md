@@ -161,6 +161,7 @@ There is a [compendium document](./strive-fantasy-game-masters-resource.md) rese
 - [Your World](#your-world)
   - [Fantasy Player Species](#fantasy-player-species)
     - [Human](#human)
+    - [Bird-Folk](#bird-folk)
     - [Cat-Folk](#cat-folk)
       - [Tiger-Cat-Folk](#tiger-cat-folk)
       - [Lean Cat-Folk](#lean-cat-folk)
@@ -1812,12 +1813,20 @@ This section complements the one from the [Core Rules](./strive-core.md#your-wor
 One of the major draws to a medieval fantasy world, is its diversity. The following is an offering of various playable Fantasy-themed species for you to incorporate, adapt or be inspired by as you please. They are designed to be distinct, and markedly different from one another. Each has unique strengths and weaknesses. They are **not** simply "re-colored humans". 
 
 ### Human
-While not the most interesting option available, it is by no means boring to play a human, who are highly adapatble and stubborn creatures. During [Character Creation](./strive-core.md#character-creation), you may [pick **two** Traits](./strive-core.md#determine-character-traits), instead of just one.
+While not the most interesting option available, it is by no means boring to play a human, who are highly adaptable and stubborn creatures. During [Character Creation](./strive-core.md#character-creation), you may [pick **two** Traits](./strive-core.md#determine-character-traits), instead of just one.
 
 Innate Traits:
 * **Stubborn**: `+1` [Edge](./strive-core.md#edge) for any Test against the elements. Humans struggle defiantly against the cold and heat, against storms and through harsh treks.
 * **Resilient**: `+1` [Edge](./strive-core.md#edge) for any Test against Illnesses and Injuries!
 * **Bounce Back**: Recover `5` more HP and `+1` Stamina and reduce Strain by one more point, every [Recovery](./strive-core.md#recovery). And recover an additional +4 HP for every Hit when healed. 
+
+### Bird-Folk
+Semi-anthropomorphic avians, whose ability to fly short distances makes them valued scouts and messengers. 
+
+Innate Traits:
+* **Glider**: Can fly up to `15` Squares, at a time. 
+* **Imitator**: Can imitate voices or sounds previously heard. Requires an [Acting](./strive-core.md#acting-awarwit) Test at Ob `2`, for which you gain `+1` [Edge](./strive-core.md#edge). 
+* **Hollow Bones**: Every Level in Toughness only grants you only `+7` maximum HP, instead of `+10`.
 
 ### Cat-Folk
 Anthropomorphic felines, that come in one of two variants. Generally, they're as tall as humans, walk like them and talk like them. 
@@ -1842,7 +1851,7 @@ Innate Traits:
 Anthropomorphic Rodents, who are even more diverse than humans, and yet also more narrowly specialized. Generally, they're much shorter and more squat than humans. 
 
 Innate Traits:
-* **Frail**: Every Level in Toughness only grants you `+7` maximum HP, instead of `+10`.
+* **Frail**: Every Level in Toughness only grants you only `+7` maximum HP, instead of `+10`.
 * **Cheek-Pouches**: You may store up to `2` bulk `1` Assets in your very stretchy cheeks, in your mouth, separately from your other Luggage. Producing Assets from or storing them in your mouth is free and costs no AP.
 
 #### Urban Rodent-Folk
