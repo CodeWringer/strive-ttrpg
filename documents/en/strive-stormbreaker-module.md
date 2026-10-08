@@ -3,7 +3,6 @@
 <div style="text-align: center; font-size: 1rem">Version 1 (Playtest)</div>
 
 <!-- TODOs
-* Sky Ship rules
 * World
   * More cultural background, Character name suggestions
   * Stormbreaker uniform
@@ -13,6 +12,8 @@
 * More Dieselpunk themed Skills
 * Supernatural abilities -> broad roster of psionics?
 * Special weapons -> Flamethrowers, Gun emplacements, mortars, grenade launchers, etc.
+* Define ways to acquire Silversteel
+* Define short-cuts for Projects
 * Enemy bestiary:
   * Airborne creatures
   * Argentumites
@@ -33,6 +34,7 @@ This will be a far more directed experience than usual, tailor-cut for shorter c
 - [Credits](#credits)
 - [License](#license)
 - [The World](#the-world)
+  - [Fallen Empire](#fallen-empire)
   - [The Holy City of Kronnstedt](#the-holy-city-of-kronnstedt)
     - [The Cult of the Cataclysm](#the-cult-of-the-cataclysm)
     - [The Mechanites](#the-mechanites)
@@ -44,6 +46,7 @@ This will be a far more directed experience than usual, tailor-cut for shorter c
     - [Survival Above The Clouds](#survival-above-the-clouds)
   - [Corruption](#corruption)
     - [Corrupted Condition](#corrupted-condition)
+  - [Overworld](#overworld)
 - [The Mission](#the-mission)
   - [The Capital's Unity](#the-capitals-unity)
     - [Cult Unity Effect](#cult-unity-effect)
@@ -73,17 +76,20 @@ This will be a far more directed experience than usual, tailor-cut for shorter c
 - [Sky Ship](#sky-ship)
   - [Passing Storm Walls](#passing-storm-walls)
     - [Storm Wall Challenges](#storm-wall-challenges)
+  - [Sky Ship Assets](#sky-ship-assets)
 - [Health Conditions](#health-conditions)
   - [Resuscitation Syndrome](#resuscitation-syndrome)
 - [Combat](#combat)
   - [Attacks Always Hit](#attacks-always-hit)
   - [Defending](#defending)
   - [Burst Attacks](#burst-attacks)
+  - [Sky Ship Combat](#sky-ship-combat)
 - [Appendix](#appendix)
   - [Assets Appendix](#assets-appendix)
     - [General Assets](#general-assets)
     - [Armors](#armors)
     - [Weapons](#weapons)
+    - [Sky Ship Weapons](#sky-ship-weapons)
   - [List of Skills](#list-of-skills)
     - [Physical Skills](#physical-skills)
       - [Acrobatics (Agi/Str)](#acrobatics-agistr)
@@ -94,6 +100,8 @@ This will be a far more directed experience than usual, tailor-cut for shorter c
     - [Knowledge Skills](#knowledge-skills)
       - [Chemistry (Wit/Wit)](#chemistry-witwit)
       - [Fabrication (Agi/Wit)](#fabrication-agiwit)
+  - [Character Creation](#character-creation)
+    - [Names](#names)
 - [Game Mastery](#game-mastery)
 - [Biomes](#biomes)
   - [Sky Nations](#sky-nations)
@@ -147,7 +155,20 @@ Two-hundred years ago, the world shattered and islands of earth and rock rose to
 
 Some islands remain stationary where they are, floating above the clouds. But there are many more islands that are constantly moving around, falling below or rising above the threshold of death. Whenever an island rises, all those with access to Sky Ships scramble to leech every valuable resource off the island before it falls again. Very rarely, chunks of Suspendium - a supernatural material that keeps the islands aloft - emerge or are salvaged from the islands. With Suspendium, new Sky Ships may be built and expansions to islands made. 
 
-The great **Storm Walls** separate the airborne world's regions from one another. So far, only one successful voyage beyond the walls has been recorded, and was cut short by an unknown hostile entity. As such, the realm is isolated. No one has made contact with the outside, if it even exists. Despite the setback, the people are euphoric - it *is* possible to pierce the great walls of storm! If we can conquer the skies, we can secure our future!
+The great **Storm Walls** separate the airborne world's regions from one another. So far, only one successful voyage beyond the walls has been recorded, and was cut short by an unknown hostile entity. As such, the realm is isolated. No one has made contact with the outside, if it even exists. Despite the setback, the people are enthusiastic - it *is* possible to pierce the great walls of storm! *If we can reach the skies beyond, we can secure our future!*
+
+## Fallen Empire
+Before The Rise, the Valennian Kijserrijk was a vast empire, outstretching from the main continent's center over the east. Through centuries of turmoil and great crises, it prevailed and even thrived, having passed through the able hands of many shrewd and intelligent Kijsers. But those times are long gone. The current Kijser, **Archibald Grandiswold II**, is a lesser ruler than his predecessors. Helpless at the current crisis, he places his work in the hands of others, who do not hesitate to seize power where they can. 
+
+Even so, the empire endures, albeit in steady decline, fractured across many floating islands of faltering loyalty. Civilian Sky Ships dot the skies, traveling from place to place and keeping alive the ties between. This is not merely an act of loyalty, but one of survival. Without distribution of what scant resources remain, neither the Capital, nor its vassals could survive. And supplies are on a steady decline. Without significant changes, none shall survive.
+
+On the [Overworld](#overworld) map, draw the Capital's current territory as a `2` hexagon radius around it, or in other words, `2` hexagon rings round it. Divide this territory into three evenly-sized segments, then distribute the following locations across these segments. For now, these are simply special places of interest in the Capital's skies. 
+
+| Location               | Description |
+| ---------------------- | ----------- |
+| **Grain Archipelago**  | Several larger islands form a cohesive grouping where most of the empire's food is grown. Their loyalty rises and falls with the yields from the harvest. They may be simple people, but they don't realize the power they sow. |
+| **Navigator Academy**  | A remnant of the old empire, this place once housed the brightest navigators far and wide. With the rising automation of Sky Ships, the need for skilled navigators has died out, but their caste has not. Even now, their families have ties into every corner of the Capital, concentrating political power in this remote location. |
+| **Mechanite Sky Ship** | Mechanites are a secretive and reclusive bunch. They take this aspect to such an extreme, that many prefer to live aboard their - admittedly advanced - Sky Ship instead of the Capital. Its thirst for fuel is insatiable, as is the Mechanites' appetite for unrestrained research. Despite the great cost to support their esoteric lifestyle, they also share whatever discoveries the make. In these times, that can be more valuable than all the fuel in the world. |
 
 ## The Holy City of Kronnstedt
 When the world broke, so did the realm. Many towns and cities did not survive The Rise - what we now call a landmass emerging from the deathly clouds below - but there was one exception. The **Great City of Kronnstedt**, of the tattered **Valennian Empire** rose to the sky intact. In the early days, when things looked the most dire, many of the survivors saw this as a sign. They formed the **Cult of the Cataclysm** and re-christened the capital, to be henceforth known as the ***Holy* City of Kronnstedt**. It is a huge sky island filled to the brim with early industrial concrete buildings, a sector of factories and chemical laboratories, a dock and a shipyard, where the Stormbreakers' Sky Ships are kept and maintained. Once, this place was the epitome of technological progress, but since the great cataclysm, resources have been too scarce to keep many of the factories running. 
@@ -172,7 +193,7 @@ When many turned to anger and hate, the **House of Amelia** instead turned to co
 They take care of much of the agrarian and humanitarian logistics. Theirs are the healers, farmers and chemists. In the early days, when the famine hit, they were the first to share everything they had with those less fortunate. Many gave their lives to save those of others. When the Cult arose and drove a hard-liner doctrine, the Amelians were the ones to oppose them. It is thanks to them that many families survived when the Cult had first ordained to strike them from the citizen's ledger. When the Cult retaliated, the crown finally intervened to hold its protective hand over the House of Amelia. 
 
 ### The Loyalists
-The Kijser, Archibald Grandiswold II, still holds *some* sway over the political landscape and is desperately trying to regain total control. But he is reliant on the Stormbreaker Order. While his hands back home are tied, supporting these noble knights will reflect well on him and if he can empower them to break through the Storm Walls to return with desperately needed resources, he may yet win back the people's favor. 
+The Kijser still holds *some* sway over the political landscape and is desperately trying to regain total control. But he is reliant on the Stormbreaker Order. While his hands back home are tied, supporting these noble knights will reflect well on him and if he can empower them to break through the Storm Walls to return with desperately needed resources, he may yet win back the people's favor. 
 
 Those who believe in him and his right to rule remain by his side, calling themselves the Loyalists. The high guard and military command belong to this camp, although the same cannot be said for many of the soldiers serving under them. If the Kijser can demonstrate his strength as a ruler, many may rejoin the Loyalist ranks. Unfortunately, Grandiswold is **not** a strong ruler. 
 
@@ -213,6 +234,9 @@ All Characters have a **Corruption Tolerance**, determined by their `4 + Tough +
 A Character in this state has `3` Turns to reduce their Corruption, or else become a Corruption monster! In case of a PC, this effectively means their Character dies! 
 
 Every Turn, an additional degree of this Condition is automatically suffered. It can only be cleared at the Sky Ship. 
+
+## Overworld
+When traveling by Sky Ship, the PCs are expected to traverse a grid of hexagons, each of which is considered to be `20` miles or km in diameter. Each hex that is traveled by Sky Ship costs `1` unit of fuel. When it runs out, the Sky Ship is stranded and will drift at the whims of the wind. 
 
 # The Mission
 It is the PCs' mission, as venerable members of the Stormbreaker Order to **ensure the survival of the Capital**. Should it fall, their only life-line falls with it and the **campaign is lost**. At the start of every session, a random [Capital Event](#capital-events) is rolled for, which may reduce the Capital's [Unity](#the-capitals-unity), [Population](#the-capitals-population) and [Supplies](#the-capitals-supplies), while increasing its [Corruption](#the-capitals-corruption). PCs can alter each of these through great achievements beyond the Storm Walls, as well as back home. 
@@ -464,10 +488,12 @@ The PCs can spend **Weapon Technology Points** to improve their weapons.
 
 | Points | Supply Cost | Effect & Unlock                 | Prerequisites | Repeatable? |
 | ------ | ----------- | ------------------------------- | ------------- | ----------- |
+| 1      | 1           | Improve one ranged weapon's ammo capacity by `+2` up to a maximum of `+10`. | | Yes |
+| 3      | 2           | Improve one weapon's Damage by `+2` points for every grade. |  | Yes |
 | 3      | 3           | Unlock a tier `1` weapon.       | Capital Weapon Foundries at least Level `1`. | Yes |
-| 1      | 1           | Improve one ranged weapon's ammo capacity by `+2` up to a maximum of `+10`. | Yes |
-| 3      | 2           | Improve one weapon's Damage by `+2` points for every grade. | Yes |
+| 3      | 5           | Unlock light cannons for the Sky Ship. | Capital Weapon Foundries at least Level `1`. | No |
 | 5      | 5           | Unlock a tier `2` weapon.       | Capital Weapon Foundries at least Level `2`. | Yes |
+| 3      | 10          | Unlock heavy cannons for the Sky Ship. | Capital Weapon Foundries at least Level `2`. | No |
 | 5      | 3           | Reduce a weapon's bulk by `-1`. | Capital Weapon Foundries at least Level `2`. | Yes |
 | 8      | 8           | Unlock a tier `3` weapon.       | Capital Weapon Foundries at least Level `3`. | Yes |
 | 13     | 12          | Unlock a tier `4` weapon.       | Capital Weapon Foundries at least Level `4`. | Yes |
@@ -489,7 +515,7 @@ A Storm Tunnel makes traversal of a Storm Wall safe. Neither Stormbreakers nor a
 # Sky Ship
 The Sky Ship is the Stormbreaker's mobile base of operation and their only life-line. Should it be destroyed or lost, the players lose the campaign! It is also the place where PCs can exchange resources and political matters with the Capital and prepare for their expeditions. 
 
-The Sky Ship has `50` HP, which can re replenished during the Preparation phase. It costs `10` Supplies to restore `10` HP. 
+The Sky Ship has `100` HP, which can re replenished during the Preparation phase. It costs `10` Supplies to restore `10` HP. 
 
 Besides the Stormbreakers, there are no additional crew on board. Only few are sufficiently trained and physically capable enough to survive passing through a Storm Wall and only the Stormbreakers enjoy the privilege of revival in the Atherium Resuscitation Chambers. Fortunately, the Sky Ship technology is a gift from the Mechanites, and is fully automated. Stormbreakers only have to pilot it under extreme situations, such as in combat or when passing through Storm Walls. 
 
@@ -500,13 +526,13 @@ Improving the Sky Ship with plates of Silversteel will reduce the Storm Wall dam
 
 To successfully pass the Storm Wall takes a [Creative Test](./strive-core.md#creative-test). Stormbreakers must succeed at least as many challenges as noted on the left, of the maximum number noted on the right, in the table below. The same Character may attempt to solve multiple Challenges. If too many Tests are failed, the Wall spits the Sky Ship back out whence it entered, and worse for wear. 
 
-| Storm Wall Tier | Damage to Sky Ship | Creative Tests |
-| --------------- | ------------------ | -------------- |
-| 1               | 10                 | 2/6            |
-| 2               | 30                 | 3/6            |
-| 3               | 60                 | 4/6            |
-| 4               | 100                | 5/6            |
-| 5               | 200                | 6/6            |
+| Storm Wall Tier | Damage to Sky Ship | Creative Tests | Test Ob |
+| --------------- | ------------------ | -------------- | ------- |
+| 1               | 50                 | 2/6            | 2       |
+| 2               | 100                | 3/6            | 3       |
+| 3               | 150                | 4/6            | 3       |
+| 4               | 200                | 5/6            | 4       |
+| 5               | 300                | 6/6            | 5       |
 
 ### Storm Wall Challenges
 | 1D10 | Challenge |
@@ -521,6 +547,11 @@ To successfully pass the Storm Wall takes a [Creative Test](./strive-core.md#cre
 | 8    | An Argentumite was hiding in the storm! If you can't get rid of it, it will surely cause damage to the Sky Ship! |
 | 9    | The storm was hiding rising jets of Death Fog! If you're caught by them, pockets of Death Fog may form inside the Sky Ship! |
 | 10   | You've entered a pocket of Corruption! Reality begins to warp around you! |
+
+## Sky Ship Assets
+As it is your mobile base, the Sky Ship may carry any number of smaller Assets for you.
+
+However, its capacity for armament is limited. It can hold a total of `4` units worth of [Sky Ship weaponry](#sky-ship-weapons), at most. 
 
 # Health Conditions
 Additions to the [Core rules' Health Conditions](./strive-core.md#condition).
@@ -546,7 +577,7 @@ Some particularly difficult Attacks may modify the resulting number of Hits you 
 > For example, an Attack might note `-1 Hit(s)`. If you rolled `3` Hits, you only get to count `2`! 
 
 ## Defending
-Attacks may always land, you do still have *some* agency over them, as a Defender. While you can no longer prevent Attacks from hitting you, you *can* reduce how badly you are affected, by reducing the effective number of Hits they get to determine Damage and effects with! 
+Attacks may always land, you do still have *some* means to counteract, as a Defender. While you can no longer prevent Attacks from hitting you, you *can* reduce how badly you are affected, by reducing the effective number of Hits the Attacker gets! 
 
 * You can spend one point of [Guarded](./strive-core.md#guarded) to reduce the Attacker's Hits by `-2`!
 * You can spend one AP to reduce the Attacker's Hits by `-1`! This works both as Regular Defense and Emergency Defense. 
@@ -557,11 +588,38 @@ With the modern age, come modern means of murder. Attacks that allow for a **Bur
 
 In case of ammo-fed weapons, the Burst value is also the amount of ammunition the Attack consumes. 
 
-> A Burst: `3` means:
+> Burst: `3` means:
 > 1. You get `+3D` for the Attack roll. 
 > 2. The Attack always deals `+3` Damage of its primary Damage Type. 
 > 3. You must remove `1` Hit that you achieved. 
 > 4. You must reduce your ammunition count by `3` points. 
+
+## Sky Ship Combat
+Ship-to-ship Combat plays out like normal Combat, with some significant differences:
+1. PCs do not act individually. Only the Sky Ship and its foes actually act. 
+   1. It receives the normal amount of AP at the start of its Turn. 
+2. Each PC may control a different station on the ship. Even when uncontrolled, these stations operate, thanks to the heavy automation of the Sky Ship, but they perform worse. There's no replacing the skill of a person. 
+   1. PCs may move to a different station once, at the start of the Sky Ship's Turn. 
+3. A Square of your battle map is assumed to represent `500` meters or feet in diameter. 
+4. You have two ways to determine what the Sky Ship does. Every PC may dictate what happens at their station, or it may be decided by a majority vote. 
+
+The Sky Ship can spend `1` AP to:
+1. **Move** `1` Square.
+2. **Fire** upon a foe with one of its weapons.
+3. **Reload** `1` weapon.
+   1. **Slow Reload** increases the reloading cost to `2` AP. 
+   2. **Very Slow Reload** increases the reloading cost to `3` AP. 
+4. **Repair** `5` HP. 
+5. **Gain** `+1` **Guarded**. When Attacked, you may spend `1` point of Guarded to reduce the Attacker's Hits by `-2`. 
+6. **Defend** against an Attack during a foe's Turn as a Reaction, reducing the Attacker's Hits by `-1`. 
+
+| Station            | Description |
+| ------------------ | ----------- |
+| Ammunition Storage | Action: Once per Round, reduce the cost of reloading by `1` AP, to a minimum of `0`. |
+| Engine Room        | Action: Once per Round, rouse the engines to fury, granting the Sky Ship a one-time boost to move up to `3` Squares, for `1` AP. |
+| Gunnery            | Action: Once per Round, gain `+1` [Edge](./strive-core.md#edge) on an Attack roll. |
+| Helm               | Reaction: Once per Round, take evasive maneuvers and reduce an Attacker's Hits by `-2`. If this brings them to a Glancing Hit, you may avoid its Damage, completely! |
+| Repair Shop        | Action/Reaction: Once per Round, even when Attacked, replenish `10` HP to the Sky Ship. |
 
 # Appendix
 The appendix contains lists for reference only when needed. 
@@ -573,7 +631,8 @@ Additions and alterations to the [Core Assets Appendix](./strive-core.md#assets-
 | Name                   | Bulk | Max. Stack Size | Supply Cost | Work-Rate / PI    | Description                                                              |
 | ---------------------- | ---- | --------------- | ----------- | ----------------- | ------------------------------------------------------------------------ |
 | Bullets                | 1    | 60              | 3           | `3 / QoD` / `12`  | Ammunition for all standard weapons.                                     |
-| Fuel                   | 1    | 20              | 8           |                   | Required to pass Storm Walls and ammunition for some special weapons.    |
+| Fuel                   | 1    | 20              | 8           |                   | Required to keep the Sky Ship moving, and serves as ammunition for some weapons. |
+| Heavy Ordnance         | 10   | 10              | 15          |                   | Ammunition for the Sky Ship's armaments.                                 |
 
 ### Armors
 Death Fog protection works a little differently. For every point of protection, a Character can survive in Death Fog for `+30` Minutes. Once that time is up, they will take `10` Pure damage every minute. The Death Fog protection has to be reset at the Sky Ship, where the gas mask's Death Fog filters are changed by a special machine. 
@@ -594,28 +653,35 @@ All Armors are unstackable.
 | 4    | Stormbreaker Purifier Armor  | 4    | 15          | `8` Slashing; `6` Piercing; `6` Bludgeoning; `15` Acid; `10` Poison; `10` Burning; `6` Death Fog; `4` Corruption | Made from Silversteel, this armor protects exceptionally well. The suit is hermetically sealed and fire-retardent, providing excellent hazard protection. |
 
 ### Weapons
-| Tier | Weapon                   | Bulk | Supply Cost | Max. Stack Size | Skill                 | Properties                                                        | Damage & Effects   | Description        |
-| ---- | ------------------------ | ---- | ----------- | --------------- | --------------------- | ----------------------------------------------------------------- | ------------------ | ------------------ |
-| 0    | Burner Pistol            | 2    | 3           | 1               | Special Weapons       | Ranged: `5`, Ammo: `15` Fuel                                      | `≤ 2`: `3` Burning <br> `3-4` Hits: `5` Burning <br> `≥ 5` Hits: `7` Burning | A prototype flame-throwing weapon. Uses Fuel instead of Bullets as ammo. |
-| 0    | Fragmentation Grenade    | 1    | 3           | 3               | Throwing              | Thrown                                                            | `8` Piercing + `8` Bludgeoning + `3` Burning | Stacks up to `3`; A throwable fragmentation grenade and a staple of trench warfare - before the cataclysm. Simple, but effective. |
-| 0    | Krauser Semi-Auto Pistol | 1    | 3           | 1               | Firearms              | Ranged: `6`, Ammo: `6`, Semi-Auto                                 | `≤ 2`: `6` Piercing <br> `3-4` Hits: `6` Piercing <br> `≥ 5` Hits: `7` Piercing | The mass-produced Krauser semi-auto pistol is a reliable, though not particularly deadly personal defence weapon. |
-| 0    | Maksim Rifle             | 3    | 3           | 1               | Firearms              | Ranged: `20`, Ammo: `6`, Bolt-Action, Slow Reload                 | `≤ 2`: `10` Piercing <br> `3-4` Hits: `12` Piercing <br> `≥ 5` Hits: `15` Piercing | The mass-produced Maksim bolt-action rifle is reliable and powerful, but also bulky and slow. |
-| 0    | Trench Shovel            | 2    | 3           | 1               | Close Quarters Combat | Melee                                                             | `≤ 2`: `5` Slashing <br> `3-4` Hits: `6` Slashing <br> `≥ 5` Hits: `7` Slashing | A standard-issue digging implement with sharp edges. Trusty and reliable. |
-| 1    | Flamethrower             | 3    | 5           | 1               | Special Weapons       | Ranged: `8`, Ammo: `10` Fuel                                      | `≤ 2`: `5` Burning <br> `3-4` Hits: `8` Burning <br> `≥ 5` Hits: `11` Burning | A flame-throwing weapon. Uses Fuel instead of Bullets as ammo. |
-| 1    | Flash Grenade            | 1    | 5           | 3               | Throwing              | Thrown                                                            | Blinds all creatures who look into the flash for `3` Rounds. They suffer `+1` Ob to all Tests. | Stacks up to `3`; A throwable flash grenade designed for the non-violent quelling of riots, which may also find use in the field. |
-| 1    | Gas Grenade              | 1    | 5           | 3               | Throwing              | Thrown                                                            | Releases a noxious cloud of gas, in a `3` Square diameter, which causes `10` Acid damage. its | Stacks up to `3`; A throwable gas grenade useful for area-denial. |
-| 1    | Hetzer Machine Gun       | 5    | 5           | 1               | Firearms              | Ranged: `10`, Ammo: `60`, Automatic, Very Slow Reload, Burst `3`  | `8` Piercing | A bulky and heavy machine gun with a moderate rate of fire, but well suited to suppression fire. |
-| 1    | Maksim II Rifle          | 3    | 5           | 1               | Firearms              | Ranged: `15`, Ammo: `12`, Semi-Auto, Slow Reload                  | `≤ 2`: `10` Piercing <br> `3-4` Hits: `11` Piercing <br> `≥ 5` Hits: `12` Piercing | An innovation of the Maksim Rifle allows it to be magazine-fed and become semi-auto, at the cost of power. |
-| 1    | Standard Saber           | 2    | 5           | 1               | Close Quarters Combat | Melee                                                             | `≤ 2`: `7` Slashing <br> `3-4` Hits: `7` Slashing <br> `≥ 5` Hits: `8` Slashing | A simple officer's saber. A bit heavy in hand, but reliable. |
-| 2    | Artyar SMG               | 3    | 8           | 1               | Firearms              | Ranged: `10`, Ammo: `20`, Automatic, Slow Reload, Burst `3`       | `≤ 2`: `6` Piercing <br> `3-4` Hits: `7` Piercing <br> `≥ 5` Hits: `8` Piercing | An innovative design, though somewhat clumsy, this submachine gun borrows pieces from the Maksim II rifle with an automatic feeder mechanism, enabling automatic fire. To support the higher magazine capacity, the ammo had to be down-sized. |
-| 2    | Assault Sword            | 2    | 8           | 1               | Close Quarters Combat | Melee                                                             | `≤ 2`: `8` Slashing <br> `3-4` Hits: `10` Slashing <br> `≥ 5` Hits: `13` Slashing | A well designed and finely crafted, sturdy blade to dominate close quarters combat. |
-| 2    | Corrosion Grenade        | 1    | 8           | 3               | Throwing              | Thrown                                                            | `8` Acid | A large, bulbous hand grenade. Contained within are two liquids that, when combined, become a strong but fleeting acid, capable of melting steel within seconds before becoming harmless. |
-| 3    | Cryogenic Grenade        | 1    | 10          | 3               | Throwing              | Thrown                                                            | `10` Freezing | An innovative application of liquid nitrogen, contained in a delicate shell, ready to be dispersed by a tiny explosive charge. In other words - a 'freeze grenade'. |
-| 3    | Cryogenitor              | 4    | 10          | 1               | Special Weapons       | Ranged: `10`, Ammo: `10` Fuel                                     | `≤ 2`: `8` Freezing <br> `3-4` Hits: `10` Freezing <br> `≥ 5` Hits: `12` Freezing | Spews liquid nitrogen at range, instantly freezing whatever it hits. Uses Fuel instead of Bullets as ammo. |
-| 3    | Hellgater                | 4    | 10          | 1               | Special Weapons       | Ranged: `15`, Ammo: `5` Fuel                                      | `≤ 2`: `8` Burning; `1` Square burns <br> `3-4` Hits: `10` Burning; `2` Squares burn <br> `≥ 5` Hits: `13` Burning; `3` Squares burn | A flame-throwing weapon that can leave Squares burning for `2` Rounds. Anyone who stands on those Squares suffers an additional `3` Burning Damage every Tick. Uses Fuel instead of Bullets as ammo. |
-| 3    | Maksim III Rifle         | 3    | 10          | 1               | Firearms              | Ranged: `30`, Ammo: `12`, Semi-Auto, Slow Reload                  | `≤ 2`: `12` Piercing <br> `3-4` Hits: `14` Piercing <br> `≥ 5` Hits: `16` Piercing | Outfitted with a powerful scope and a slightly lengthened barrel, this Maksim elevates the art of the sharpshooter. |
-| 4    | Kijser Assault Rifle     | 3    | 15          | 1               | Firearms              | Ranged: `20`, Ammo: `20`, Automatic, Burst `3`                    | `≤ 2`: `10` Piercing <br> `3-4` Hits: `11` Piercing <br> `≥ 5` Hits: `12` Piercing | A powerful and ergonomic assault rifle and in fact the first of its kind. In skilled hands, it is a deadly weapon. |
-| 4    | Rahvalod Machine Gun     | 4    | 15          | 1               | Firearms              | Ranged: `10`, Ammo: `100`, Automatic, Very Slow Reload, Burst `6` | `≤ 2`: `8` Piercing <br> `3-4` Hits: `10` Piercing <br> `≥ 5` Hits: `12` Piercing | A powerful, fast-firing machine gun.  |
+| Tier | Weapon                   | Bulk | Supply Cost | Max. Stack Size | Skill                 | Properties                                                         | Damage & Effects   | Description        |
+| ---- | ------------------------ | ---- | ----------- | --------------- | --------------------- | ------------------------------------------------------------------ | ------------------ | ------------------ |
+| 0    | Burner Pistol            | 2    | 3           | 1               | Special Weapons       | Ranged: `5`, Ammo: `15` Fuel                                       | `≤ 2`: `3` Burning <br> `3-4` Hits: `5` Burning <br> `≥ 5` Hits: `7` Burning | A prototype flame-throwing weapon. Uses Fuel instead of Bullets as ammo. |
+| 0    | Fragmentation Grenade    | 1    | 3           | 3               | Throwing              | Thrown                                                             | `8` Piercing + `8` Bludgeoning + `3` Burning | Stacks up to `3`; A throwable fragmentation grenade and a staple of trench warfare - before the cataclysm. Simple, but effective. |
+| 0    | Krauser Semi-Auto Pistol | 1    | 3           | 1               | Firearms              | Ranged: `6`, Ammo: `6`, Semi-Auto                                  | `≤ 2`: `6` Piercing <br> `3-4` Hits: `6` Piercing <br> `≥ 5` Hits: `7` Piercing | The mass-produced Krauser semi-auto pistol is a reliable, though not particularly deadly personal defence weapon. |
+| 0    | Maksim Rifle             | 3    | 3           | 1               | Firearms              | Ranged: `20`, Ammo: `6`, Bolt-Action, Slow Reload                  | `≤ 2`: `10` Piercing <br> `3-4` Hits: `12` Piercing <br> `≥ 5` Hits: `15` Piercing | The mass-produced Maksim bolt-action rifle is reliable and powerful, but also bulky and slow. |
+| 0    | Trench Shovel            | 2    | 3           | 1               | Close Quarters Combat | Melee                                                              | `≤ 2`: `5` Slashing <br> `3-4` Hits: `6` Slashing <br> `≥ 5` Hits: `7` Slashing | A standard-issue digging implement with sharp edges. Trusty and reliable. |
+| 1    | Flamethrower             | 3    | 5           | 1               | Special Weapons       | Ranged: `8`, Ammo: `10` Fuel                                       | `≤ 2`: `5` Burning <br> `3-4` Hits: `8` Burning <br> `≥ 5` Hits: `11` Burning | A flame-throwing weapon. Uses Fuel instead of Bullets as ammo. |
+| 1    | Flash Grenade            | 1    | 5           | 3               | Throwing              | Thrown                                                             | Blinds all creatures who look into the flash for `3` Rounds. They suffer `+1` Ob to all Tests. | Stacks up to `3`; A throwable flash grenade designed for the non-violent quelling of riots, which may also find use in the field. |
+| 1    | Gas Grenade              | 1    | 5           | 3               | Throwing              | Thrown                                                             | Releases a noxious cloud of gas, in a `3` Square diameter, which causes `10` Acid damage. its | Stacks up to `3`; A throwable gas grenade useful for area-denial. |
+| 1    | Hetzer Machine Gun       | 5    | 5           | 1               | Firearms              | Ranged: `10`, Ammo: `60`, Automatic, Very Slow Reload, Burst: `3`  | `8` Piercing | A bulky and heavy machine gun with a moderate rate of fire, but well suited to suppression fire. |
+| 1    | Maksim II Rifle          | 3    | 5           | 1               | Firearms              | Ranged: `15`, Ammo: `12`, Semi-Auto, Slow Reload                   | `≤ 2`: `10` Piercing <br> `3-4` Hits: `11` Piercing <br> `≥ 5` Hits: `12` Piercing | An innovation of the Maksim Rifle allows it to be magazine-fed and become semi-auto, at the cost of power. |
+| 1    | Standard Saber           | 2    | 5           | 1               | Close Quarters Combat | Melee                                                              | `≤ 2`: `7` Slashing <br> `3-4` Hits: `7` Slashing <br> `≥ 5` Hits: `8` Slashing | A simple officer's saber. A bit heavy in hand, but reliable. |
+| 2    | Artyar SMG               | 3    | 8           | 1               | Firearms              | Ranged: `10`, Ammo: `20`, Automatic, Slow Reload, Burst: `3`       | `≤ 2`: `6` Piercing <br> `3-4` Hits: `7` Piercing <br> `≥ 5` Hits: `8` Piercing | An innovative design, though somewhat clumsy, this submachine gun borrows pieces from the Maksim II rifle with an automatic feeder mechanism, enabling automatic fire. To support the higher magazine capacity, the ammo had to be down-sized. |
+| 2    | Assault Sword            | 2    | 8           | 1               | Close Quarters Combat | Melee                                                              | `≤ 2`: `8` Slashing <br> `3-4` Hits: `10` Slashing <br> `≥ 5` Hits: `13` Slashing | A well designed and finely crafted, sturdy blade to dominate close quarters combat. |
+| 2    | Corrosion Grenade        | 1    | 8           | 3               | Throwing              | Thrown                                                             | `8` Acid | A large, bulbous hand grenade. Contained within are two liquids that, when combined, become a strong but fleeting acid, capable of melting steel within seconds before becoming harmless. |
+| 3    | Cryogenic Grenade        | 1    | 10          | 3               | Throwing              | Thrown                                                             | `10` Freezing | An innovative application of liquid nitrogen, contained in a delicate shell, ready to be dispersed by a tiny explosive charge. In other words - a 'freeze grenade'. |
+| 3    | Cryogenitor              | 4    | 10          | 1               | Special Weapons       | Ranged: `10`, Ammo: `10` Fuel                                      | `≤ 2`: `8` Freezing <br> `3-4` Hits: `10` Freezing <br> `≥ 5` Hits: `12` Freezing | Spews liquid nitrogen at range, instantly freezing whatever it hits. Uses Fuel instead of Bullets as ammo. |
+| 3    | Hellgater                | 4    | 10          | 1               | Special Weapons       | Ranged: `15`, Ammo: `5` Fuel                                       | `≤ 2`: `8` Burning; `1` Square burns <br> `3-4` Hits: `10` Burning; `2` Squares burn <br> `≥ 5` Hits: `13` Burning; `3` Squares burn | A flame-throwing weapon that can leave Squares burning for `2` Rounds. Anyone who stands on those Squares suffers an additional `3` Burning Damage every Tick. Uses Fuel instead of Bullets as ammo. |
+| 3    | Maksim III Rifle         | 3    | 10          | 1               | Firearms              | Ranged: `30`, Ammo: `12`, Semi-Auto, Slow Reload                   | `≤ 2`: `12` Piercing <br> `3-4` Hits: `14` Piercing <br> `≥ 5` Hits: `16` Piercing | Outfitted with a powerful scope and a slightly lengthened barrel, this Maksim elevates the art of the sharpshooter. |
+| 4    | Kijser Assault Rifle     | 3    | 15          | 1               | Firearms              | Ranged: `20`, Ammo: `20`, Automatic, Burst: `3`                    | `≤ 2`: `10` Piercing <br> `3-4` Hits: `11` Piercing <br> `≥ 5` Hits: `12` Piercing | A powerful and ergonomic assault rifle and in fact the first of its kind. In skilled hands, it is a deadly weapon. |
+| 4    | Rahvalod Machine Gun     | 4    | 15          | 1               | Firearms              | Ranged: `10`, Ammo: `100`, Automatic, Very Slow Reload, Burst: `6` | `≤ 2`: `8` Piercing <br> `3-4` Hits: `10` Piercing <br> `≥ 5` Hits: `12` Piercing | A powerful, fast-firing machine gun.  |
+
+### Sky Ship Weapons
+| Tier | Weapon                   | Supply Cost | Properties                                                        | Damage & Effects   | Description        |
+| ---- | ------------------------ | ----------- | ----------------------------------------------------------------- | ------------------ | ------------------ |
+| 1    | Light Cannon             | 10          | Ranged: `2`, Ammo: `1`, Size: `1`                                 | `≤ 2`: `15` Piercing <br> `3-4` Hits: `18` Piercing <br> `≥ 5` Hits: `21` Piercing | A low-caliber ship cannon with a single barrel well suited to taking down smaller targets. |
+| 2    | Heavy Cannon             | 10          | Ranged: `6`, Ammo: `1`, Size: `3`, Very Slow Reload               | `≤ 2`: `20` Piercing <br> `3-4` Hits: `25` Piercing <br> `≥ 5` Hits: `30` Piercing | A massive turret with an oppressively large barrel. A mainstay of Sky Ship armament. |
+| 3    | Salvo Cannon             | 10          | Ranged: `5`, Ammo: `3`, Burst: `3`, Size: `3`, Slow Reload        | `≤ 2`: `17` Piercing <br> `3-4` Hits: `20` Piercing <br> `≥ 5` Hits: `23` Piercing | This turret boasts three larger caliber guns in place of a single, large one. It discharges in salvos, greatly increasing the chance to land devastating hits. Its Burst Damage is already pre-calculated here. |
 
 ## List of Skills
 
@@ -664,6 +730,59 @@ Knowing chemical compounds and how they interact.
 
 #### Fabrication (Agi/Wit)
 The ability to design and program a fabricator to craft Assets. 
+
+## Character Creation
+The basic structure of Character creation is the same as in the [Core Rules](./strive-core.md#character-creation), but some choices are more tailored to the Stormbreaker setting. 
+
+### Names
+Choosing a name for your Character may often prove one of the harder decisions to make, especially in a tailored setting such as this one. You may find inspiration in the following list. 
+
+**First names**:
+
+| Female       | Neutral      | Male         |
+| ------------ | ------------ | ------------ |
+| Agatha       | Agan         | Agantar      |
+| Anna         |              | Albert       |
+| Emma         | Emiel        | Emiel        |
+| Esther       |              | Elmar        |
+| Fietje       | Fietje       | Fietje       |
+| Gertje       | Gert         | Gertjan      |
+| Lenna        | Lenn         | Lennaert     |
+| Maria        | Marl         | Mats         |
+| Mauritsia    | Maurit       | Maurits      |
+| Olivia       |              | Oliver       |
+| Quintia      | Quin         | Quinten      |
+| Regina       | Reggy        | Reginald     |
+| Tara         | Tarry        | Tarlo        |
+| Theodora     | Theo         | Theodor      |
+| Viktoria     | Vik          | Viktor       |
+
+**Last names**:
+At your discretion, you may prepend the word "De", "Van" or "Von" to your last name. For example: "De Vries"
+
+* Campagne
+* Doeschott
+* Doornebosch
+* Erp
+* Graaf
+* Meyr
+* Rijsenberg
+* Schapink
+* Schreiner
+* Stassen
+* Stassen
+* Steegemann
+* Tomann
+* Veent
+* Voss
+* Vottner
+* Vries
+* Walch
+* Wandergrift
+* Weitenberg
+* Weterman
+* Wolbink
+* Zogen
 
 # Game Mastery
 This and the following sections are reserved solely for the GM's eyes. Reading on as a player may spoil many surprises and the fun of discovery for you. 
@@ -786,7 +905,7 @@ Aside the randomly pickable locations, there is always **one** location in parti
 | 1   | **Battered Sky Ship**     | Could it be? The remnants of a Sky Ship not unlike the Stormbreakers' floats lifelessly, as if pinned in place. In fact, it looks *uncannily* similar to the Stormbreakers'! Wind and lightning batters its surface, but the interior might still be intact. |
 | 2   | **Argentumite Titan**     | A colossal Argentumite looms in the gloom of sinister clouds. You cannot make out its form entirely, but you'd guess its larger than the Capital itself! Fortunately, it's either dead, or uninterested in your presence. There might be a way to get on top of it, or inside it, perhaps. It might even serve as a sort of Argentumite city or carrier Sky Ship. |
 | 3   | **Eye Of The Storm**      |  |
-| 4   | ****      |  |
+| 4   | **Sky Ship Graveyard**    |  |
 | 5   | ****      |  |
 | 6   | ****      |  |
 
