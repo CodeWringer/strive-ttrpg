@@ -858,7 +858,7 @@ It is possible to Fork into Skill Tests, granting more dice and raising the Hit 
 When considering Advancement, ignore all Boons and Penalties. The Level with Boond and Penalties is referred to as the Modified Level, whereas without those Modifiers, it is called the Raw Level. 
 
 ### Test Success Ratings
-Based on the number of Hits achieved, Tests of some Skills and Expertises may offer graded successes:
+Based on the number of Hits achieved, Tests of some Skills and Expertises may offer graded effects:
 * **Glancing**: On `≤ 1` Hit. A fairly weak success.
 * **Solid**: On `= 2` Hits. A strong success.
 * **Masterful**: On `≥ 3` Hits. A masterful success with the strongest effects.
@@ -2256,15 +2256,14 @@ An Attack is any Action or Reaction that targets another Character, to their det
 
 An Attack generally requires an [Opposed Test](#opposed-test) to be made. If the Attacker wins, [Damage](#damage--effects) is determined and applied to the Defender. If the Defender wins, they suffer **no Damage** or other negative effects. A Defender must *choose* how to defend, unless a specific Skill is required. See also [Defending](#defending).
 
+Note that it is impossible to [Fork](#skill-forking) into or receive [Assistance](#providing-assistance) for Attack and Defense Tests! 
+
 Sometimes, special circumstances apply, which make certain Attacks easier or harder to land. These are at the GM's discretion. They can impose an Ob penalty or boon whenever appropriate. Also keep in mind there may be times when rolling for an Attack is entirely unnecessary, such as against a helpless victim. In such a case, you may apply your malevolence with impunity, to the extent of your choosing. 
 
 ### Damage & Effects
 Damage is the number that reduces [HP](#health-points-hp), as a result of Attacks or environmental hazards. When HP reach `0`, death occurs (exception: PCs arrive at [Death's Door](#deaths-door)). Damage can also inflict [Injuries](#injury). [Armor](#armor) and [Resistances](#damage-resistances) reduce the amount of Damage that is actually applied to HP. 
 
-The Attack roll itself determines the severity of Damage and effects. They are **not** rolled separately. There are three gradings, based on the number of **Hits achieved over the Defender/Ob**, which always appear as a unit, referred to as a **Attack Profile**:
-* **Glancing**: On `≤ 1` Hit. A fairly weak hit. Low Damage and no effect or a weak one. 
-* **Solid**: On `= 2` Hits. A strong hit. Moderate Damage and a meaningful effect. 
-* **Masterful**: On `≥ 3` Hits. An overwhelming hit. Severe Damage and a powerful effect.
+The Attack roll itself determines the severity of Damage and effects. They are **not** rolled separately. There are three gradings, based on the number of **Hits achieved over the Defender/Ob**, which always appear as a unit, referred to as a **Attack Profile**. For the gradings, see the [Test Success Ratings](#test-success-ratings).
 
 Some additional terminology:
 * **Direct Damage** always comes from an [Action or Reaction](#actions-reactions--passives).
@@ -2367,7 +2366,7 @@ Defending against [Area Of Effect](#area-of-effect) Attacks has the same Ob as t
 >
 > The Ob to Defend against this AoE Attack is thus `4 = 2 (Attacker's Ob) + 2 (always)`. If successful, the Defender suffers only `4` Burning Damage.
 
-*Wherever* Defense is concerned, you may either spend `1` AP or `1` Guarded to Defend.
+*Wherever* Defense is concerned, you may either spend `1` AP or `1` Guarded to Defend. 
 
 ### Defending an Ally
 As a Reaction, it is possible to Defend an adjacent ally when they're being Attacked. This costs `1` [AP](#action-points-ap) or `1` [Guarded](#guarded) and results in you taking over the Defense Test, instead of your ally. 
@@ -2736,7 +2735,7 @@ Performing acrobatic feats, such as jumping, tumbling and climbing, without inju
 
 | Level | Name                 | AP | Ob      | Description        |
 | ----- | -------------------- | -- | ------- | ------------------ |
-| 1     | Deft Evasion         |    |         | **Passive**: While not wearing any [Armor](#armor) and not wielding a shield of Bulk `2` or more, gain `+1` [Edge](#edge) to any [Defense Test](#defending) made using this Skill and increase your [Stability](#stability-stabil) by `+1`! |
+| 1     | Deft Evasion         |    |         | **Passive**: While not wearing any [Armor](#armor) or wearing Armor whose Bulk is no more than `1`, and not wielding a shield of Bulk `2+`, gain `+1` [Edge](#edge) to any [Defense Test](#defending) made using this Skill and increase your [Stability](#stability-stabil) by `+1`! |
 | 2     | Wind Out Of It       | 2  | 2       | When hit by an Attack, lose `-1` [Stamina](#stamina--strain), wind out of the hit and... <br> `≤ 1` Hit: suffer `3` points of Damage less. <br> `= 2` Hits: suffer `5` points of Damage less <br> `≥ 3` Hits: suffer `8 or half (RU)` Damage less, picking whichever number is higher. |
 
 #### Berserking (Tough/Tough)
