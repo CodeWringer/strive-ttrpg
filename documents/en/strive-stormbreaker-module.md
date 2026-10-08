@@ -2,10 +2,29 @@
 <div style="text-align: center; font-size: 4rem">Stormbreaker Module</div>
 <div style="text-align: center; font-size: 1rem">Version 1 (Playtest)</div>
 
+<!-- TODOs
+* Sky Ship rules
+* World
+  * More cultural background, Character name suggestions
+  * Stormbreaker uniform
+  * Define Kronnstedt region better -> the default islands within it. 
+* Establish PC archetypes
+* More Mechanite technology
+* More Dieselpunk themed Skills
+* Supernatural abilities -> broad roster of psionics?
+* Special weapons -> Flamethrowers, Gun emplacements, mortars, grenade launchers, etc.
+* Enemy bestiary:
+  * Airborne creatures
+  * Argentumites
+  * Corruption monsters
+  * Pirates/Raiders
+  * Swine
+-->
+
 # Introduction
 In this Module, the world has shattered more than two-hundred years ago. Chunks of the earth now float in the sky and with them, the remnants of an early industrial world. Players assume the role of the so-called **Stormbreakers**, a knightly order established to break through the great Storm Walls that separate the skies, as the survival of their home depends on it. 
 
-This will be a far more directed experience than usual, tailor-cut for shorter campaigns of many one-shots, featuring survival, combat, politics and hex-crawling, where each hex represents a new major region within which many adventures await. 
+This will be a far more directed experience than usual, tailor-cut for shorter campaigns of many one-shots, featuring survival, combat, politics and hex-crawling. 
 
 # Table of Contents
 - [Introduction](#introduction)
@@ -23,6 +42,8 @@ This will be a far more directed experience than usual, tailor-cut for shorter c
   - [Technology](#technology)
     - [Aetherium Resuscitation](#aetherium-resuscitation)
     - [Survival Above The Clouds](#survival-above-the-clouds)
+  - [Corruption](#corruption)
+    - [Corrupted Condition](#corrupted-condition)
 - [The Mission](#the-mission)
   - [The Capital's Unity](#the-capitals-unity)
     - [Cult Unity Effect](#cult-unity-effect)
@@ -34,6 +55,10 @@ This will be a far more directed experience than usual, tailor-cut for shorter c
   - [The Capital's Supplies](#the-capitals-supplies)
   - [The Capital's Corruption](#the-capitals-corruption)
   - [Capital Events](#capital-events)
+- [The Loop](#the-loop)
+  - [Preparation](#preparation)
+  - [Expedition](#expedition)
+  - [Exfiltration](#exfiltration)
 - [Progression](#progression)
   - [Capital Progress](#capital-progress)
   - [Medicine Technology](#medicine-technology)
@@ -42,34 +67,51 @@ This will be a far more directed experience than usual, tailor-cut for shorter c
     - [Automaton Armament](#automaton-armament)
   - [Armor Technology](#armor-technology)
   - [Weapon Technology](#weapon-technology)
+  - [Frontier Progress](#frontier-progress)
+    - [Radio Relay](#radio-relay)
+    - [Storm Tunnel](#storm-tunnel)
 - [Sky Ship](#sky-ship)
   - [Passing Storm Walls](#passing-storm-walls)
-    - [Creative Test Challenges](#creative-test-challenges)
-- [The Loop](#the-loop)
-  - [Preparation](#preparation)
-  - [Expedition](#expedition)
-  - [Exfiltration](#exfiltration)
-  - [Revival](#revival)
-- [Character](#character)
-  - [Corruption](#corruption)
-  - [Corrupted Condition](#corrupted-condition)
+    - [Storm Wall Challenges](#storm-wall-challenges)
+- [Health Conditions](#health-conditions)
+  - [Resuscitation Syndrome](#resuscitation-syndrome)
 - [Combat](#combat)
+  - [Attacks Always Hit](#attacks-always-hit)
+  - [Defending](#defending)
   - [Burst Attacks](#burst-attacks)
 - [Appendix](#appendix)
   - [Assets Appendix](#assets-appendix)
+    - [General Assets](#general-assets)
     - [Armors](#armors)
     - [Weapons](#weapons)
   - [List of Skills](#list-of-skills)
-    - [Close Quarters Combat (Agi/Str)](#close-quarters-combat-agistr)
-    - [Firearms (Agi/Awar)](#firearms-agiawar)
+    - [Physical Skills](#physical-skills)
+      - [Acrobatics (Agi/Str)](#acrobatics-agistr)
+      - [Close Quarters Combat (Agi/Str)](#close-quarters-combat-agistr)
+      - [Firearms (Agi/Awar)](#firearms-agiawar)
+      - [Special Weapons (Awar/Tough)](#special-weapons-awartough)
+      - [Piloting (Agi/Awar)](#piloting-agiawar)
+    - [Knowledge Skills](#knowledge-skills)
+      - [Chemistry (Wit/Wit)](#chemistry-witwit)
+      - [Fabrication (Agi/Wit)](#fabrication-agiwit)
 - [Game Mastery](#game-mastery)
 - [Biomes](#biomes)
-  - [Lofty Jungle](#lofty-jungle)
-    - [Lofty Jungle Locations](#lofty-jungle-locations)
   - [Sky Nations](#sky-nations)
     - [Sky Nations Locations](#sky-nations-locations)
+    - [Sky Nations Challenges](#sky-nations-challenges)
+  - [Lofty Jungle](#lofty-jungle)
+    - [Lofty Jungle Locations](#lofty-jungle-locations)
+    - [Lofty Jungle Challenges](#lofty-jungle-challenges)
+  - [Glassed Desert](#glassed-desert)
+    - [Glassed Desert Locations](#glassed-desert-locations)
+    - [Glassed Desert Challenges](#glassed-desert-challenges)
   - [Silent Winds](#silent-winds)
     - [Silent Winds Locations](#silent-winds-locations)
+    - [Silent Winds Challenges](#silent-winds-challenges)
+  - [Endless Storm](#endless-storm)
+    - [Endless Storm Locations](#endless-storm-locations)
+      - [The Cradle](#the-cradle)
+    - [Endless Storm Challenges](#endless-storm-challenges)
 - [Creature Compendium](#creature-compendium)
   - [Argentumites](#argentumites)
     - [Argentumite Sentry](#argentumite-sentry)
@@ -108,7 +150,7 @@ Some islands remain stationary where they are, floating above the clouds. But th
 The great **Storm Walls** separate the airborne world's regions from one another. So far, only one successful voyage beyond the walls has been recorded, and was cut short by an unknown hostile entity. As such, the realm is isolated. No one has made contact with the outside, if it even exists. Despite the setback, the people are euphoric - it *is* possible to pierce the great walls of storm! If we can conquer the skies, we can secure our future!
 
 ## The Holy City of Kronnstedt
-When the world broke, so did the realm. Many towns and cities did not survive The Rise - what we now call a landmass emerging from the deathly clouds below - but there was one exception. The **Great City of Kronnstedt**, of the tattered **Valennian Empire** rose to the sky intact. In the early days, when things looked the most dire, many of the survivors saw this as a sign. They formed the **Cult of the Cataclysm** and re-christened the capital, to be henceforth known as the ***Holy* City of Kronnstedt**. It is a huge sky island filled to the brim with early industrial concrete buildings, a sector of factories and chemical laboratories, a dock and a shipyard, where the Stormbreaker's Sky Ships are kept and maintained. Once, this place was the epitome of technological progress, but since the great cataclysm, resources have been too scarce to keep many of the factories running. 
+When the world broke, so did the realm. Many towns and cities did not survive The Rise - what we now call a landmass emerging from the deathly clouds below - but there was one exception. The **Great City of Kronnstedt**, of the tattered **Valennian Empire** rose to the sky intact. In the early days, when things looked the most dire, many of the survivors saw this as a sign. They formed the **Cult of the Cataclysm** and re-christened the capital, to be henceforth known as the ***Holy* City of Kronnstedt**. It is a huge sky island filled to the brim with early industrial concrete buildings, a sector of factories and chemical laboratories, a dock and a shipyard, where the Stormbreakers' Sky Ships are kept and maintained. Once, this place was the epitome of technological progress, but since the great cataclysm, resources have been too scarce to keep many of the factories running. 
 
 Several major factions divide the city, each vying for total control in their own way - the **Cult of the Cataclysm**, the **Mechanites**, the **House of Amelia**, the **Loyalists** and the **Stormbreaker Order**. 
 
@@ -151,12 +193,26 @@ Radio technology exists and is fantastically powerful, enabling the transmission
 In addition to ordinary metals, a new material has been found - **White Steel**, also called **Silversteel** - which is ten times more durable than even the strongest steel alloy. It is highly sought after by the Stormbreaker Order, as it may yet be the puzzle needed to reliably traverse the Storm Walls. 
 
 ### Aetherium Resuscitation
-Just before the cataclysm, the **Aetherium** was discovered - the essence of life. The Stormbreaker Order has been granted charge over this most valuable secret, as it allows their people to be resurrected after death, no matter where it occurs or how unrecoverable their body is. **Aetherium Resuscitation Chambers (A.R.C)** catch the fleeting Aetherium of anyone attuned to the device, who recently died, even great distances away, and re-grows their body before infusing it with their soul. As such, Stormbreakers are often particularly courageous, if not outright reckless, in their pursuits. 
+Just before the cataclysm, the **Aetherium** was discovered - the essence of life and soul. The Stormbreaker Order has been granted charge over this most valuable secret, as it allows their people to be resurrected after death, no matter where it occurs or how unrecoverable their body is. **Aetherium Resuscitation Chambers (A.R.C.s)** catch the fleeting Aetherium of anyone attuned to the device, who recently died, even great distances away, and re-grows their body before infusing it with their soul. As such, Stormbreakers are often particularly courageous, if not outright reckless, in their pursuits. 
 
-Despite the great advantage such technology poses, when a Stormbreaker is resurrected, they suffer the dreaded Post **Resuscitation Syndrome**. It affects body and mind, reducing motor-skill and causing splitting headaches. For one in-game day, they suffer `+1` Ob to **all** Tests.
+Every time a PC dies, they are not removed from the game, but instead returned to their Stormbreaker Sky Ship. Every revival costs the Capital `5` Supplies, and the PC loses all their current Assets, which will remain with their corpse. Of course, other PCs may pick up what they can and bring it back. Or return to the scene later, to retrieve what was lost, if it's still there. 
+
+As Aetherium resuscitation is a harrowing process that feels like being threaded through a needle. Once revived, for a whole in-game day, a PC will suffer from [Resuscitation Syndrome](#resuscitation-syndrome). 
 
 ### Survival Above The Clouds
 Every building is obligated to have an installed rain catcher, which is then purified and made available as safe drinking water. Food is grown on balconies and rooftops, as well as every free island area with fertile soil. Recycling is important, though still at a very early stage of development, allowing only rudimentary re-use of resources. Much is lost by use, but never dumped off the island. Instead, waste is neatly separated and kept on the outskirts of town or on surrounding garbage dump islands. 
+
+## Corruption
+Ever since the cataclysm, a malicious force ever permeates the air, seeking to further undermine the physical order of the world. It tugs and gnaws at all living things, ultimately morphing them into abhorrent, destructive monsters. While dire, all is not terrible. The Mechanites have found a means to staunch the flow of this otherworldly Corruption. Where their cleansing devices stand, the natural order is preserved and life may go on as usual. But all who are exposed to the Corruption for too long, will inevitably fall to its inexorable hunger. 
+
+Even the Stormbreakers aren't safe from the Corruption. They wear gas masks with Corruption filters that protect them for a while, but not forever. Bringing more filters doesn't solve the problem, either, as the filters go bad over time, regardless of whether they're actually in use. That means the time Stormbreakers can spen on [Expedition](#expedition) is limited and ensures the next session always begins with all Stormbreakers aboard their Sky Ship. Those who don't make it back in time transform into Corruption monsters, who now roam the world as NPCs, in search of prey. 
+
+All Characters have a **Corruption Tolerance**, determined by their `4 + Tough + Wit`. Exposure to Corruption causes it to build up within the body. If it reaches the Tolerance, Characters begin to morph and twist into something else. In such a state, they suffer the [Corrupted Condition](#corrupted-condition). 
+
+### Corrupted Condition
+A Character in this state has `3` Turns to reduce their Corruption, or else become a Corruption monster! In case of a PC, this effectively means their Character dies! 
+
+Every Turn, an additional degree of this Condition is automatically suffered. It can only be cleared at the Sky Ship. 
 
 # The Mission
 It is the PCs' mission, as venerable members of the Stormbreaker Order to **ensure the survival of the Capital**. Should it fall, their only life-line falls with it and the **campaign is lost**. At the start of every session, a random [Capital Event](#capital-events) is rolled for, which may reduce the Capital's [Unity](#the-capitals-unity), [Population](#the-capitals-population) and [Supplies](#the-capitals-supplies), while increasing its [Corruption](#the-capitals-corruption). PCs can alter each of these through great achievements beyond the Storm Walls, as well as back home. 
@@ -211,7 +267,7 @@ At the start of every session:
   * Loses `1D10` People. 
   * Loses `1D6` Supplies. 
 * The Stormbreakers:
-  * Gain `20` Bullets
+  * Gain `20` Bullets.
   * Gain `5` Capital Progress Points. 
 
 ### Stormbreaker Unity Effect
@@ -220,9 +276,10 @@ If the Stormbreaker Order gains complete political control, they will establish 
 At the start of every session:
 * The Capital:
   * Loses `1D10` People. 
+* The Stormbreakers:
+  * Gain `10` Bullets.
+  * Gain `1D10 + 3` Supplies.
 * The Stormbreakers may decide on **one** of the following:
-  * Gain `30` Bullets
-  * Gain `1D10 + 5` Supplies
   * Gain `3` Weapon Technology Points. 
   * Gain `3` Armor Technology Points. 
   * Gain `3` Medicine Technology Points. 
@@ -272,6 +329,35 @@ At the start of every session, one of these random events will be rolled for. No
 | 10   | A new island rises from the clouds below! It brings resources, but must first be purged of residual Death Fog - a perilous task. **Choose**: 1. Let the people handle it: Lose `2D10` People and gain `2D6` Supplies, but also `1D10` Corruption. <br> 2. Ignore the island and its opportunities, to the dismay of the people, losing you `1D6` Unity. <br> 3. Proclaim the Stormbreaker Order will handle it. If you fail to visit the island and bring back any resources by the end of the next session, lose `2D10` Unity. But if you succeed, gain `1D10 + 3` Unity! |
 | 11   | A worker dispute spirals into a full blown street war. **Choose**: 1. Order the city guard to handle it. They break apart the quarrelers forcefully. Lose `1D10` People and `1D10` Unity. <br> 2. Order the Cult to handle it. They take a side and scare off the other, by making a gruesome and wicked example of some poor sod. Lose `1` Person and `1D10` Unity, and also gain `1D6` Corruption. <br> 3. Order the House of Amelia to handle it. They mediate peace, treat the wounded and then hand out gifts in an elaborate ceremony. At the end, no one remembers the reason for the quarrel. Lose `2D10` Supplies but gain `1D10` Unity. |
 | 12   | An Argentumite rises from the depths, terrorizing surrounding islands until it is finally brought down by the city guard. Lose `1D6` People, `1D6` Unity and gain `1D6` Corruption. But gain `1` Silversteel. |
+
+# The Loop
+To support one-shots, the game is strictly structured into three phases: **Preparation**, **Expedition** and **Exfiltration**. 
+
+## Preparation
+Every session begins in the Preparation phase, which is when all the book-keeping and light roleplay takes place. This phase is expected to be kept as short as possible. It exists mostly to re-familiarize the players with the stakes, to take stock of what they have and want and then decide where to go. 
+
+1. Apply static Capital resource changes - [Population](#the-capitals-population), [Supplies](#the-capitals-supplies), [Unity](#the-capitals-unity), [Corruption](#the-capitals-corruption) and so on.
+   1. Roll for and resolve a [Capital Event](#capital-events). 
+   2. Spend [Technology Points](#progression).
+2. Requisition Assets and exchange resources with the Capital. 
+   1. Any new Character gets some free basics, at the GM's discretion: A tier `0` armor, two tier `0` weapons and `20` Bullets. 
+   2. Thanks to the fantastical power of radio waves, you can transport physical goods to and from the Capital. Any Asset you requisition is instantly available, but has a Supply cost and may require that the Capital has the respective manufacturing facilities available. 
+   3. Note that you can only exchange Assets with the Capital if no more than one Storm Wall is between you, *unless* you have built a [Radio Relay](#radio-relay). 
+3. Prepare for the Expedition, receive and relay orders from and to the Capital and do some light roleplay. 
+4. Work on [Projects](./strive-core.md#crafting--research-projects), [Practice](./strive-core.md#practice) or do some more light roleplay. 
+5. Get to the Expedition location, potentially passing through a Storm Wall. 
+
+## Expedition
+The Expedition phase is when the PCs enter a location, disembark their Sky Ship and begin exploring. This is the most freeform phase of play and mostly up to the GM to work out. 
+
+The one mandatory piece of structure is that your time out in the field is limited, as the ever pervasive [Corruption](#corruption) ensures the PCs and their allies can not stay on Expedition forever. By the end of a session, all Stormbreakers are either safely back aboard their Sky Ship, or have succumbed to Corruption - and now roam the world as horrible, twisted monsters. The time that can be spent on Expedition is thus directly tied to the length of a game session. Try to reserve around **thirty minutes** for [Exfiltration](#exfiltration), to give PCs a fair chance to return to their Sky Ship. 
+
+As your real world time is limited and a session is expected to take around at least three to four hours (though you can play longer, of course), some steps on the journey should be kept short and abstract. For example, getting to a point of interest could be handled as a [Creative Test](./strive-core.md#creative-test). Challenge inspiration is provided in the Game Mastery chapter. 
+
+## Exfiltration
+Once your game session draws to a close, the GM will have to announce it is time for Exfiltration, regardless of whether the PCs managed to achieve their goals out in the field. Once this happens, they must make a mad dash to return to their Sky Ship, as the Corruption rises and threatens to overwhelm the PCs. Whatever they don't manage to bring back is lost, including the Assets they have equipped! 
+
+Escape could be handled as a [Creative Test](./strive-core.md#creative-test), or as Combat with mounting opposition - if the PCs manage to leave the battlefield, they make it back to their Sky Ship. 
 
 # Progression
 As the campaign progresses, the Capital builds up and improves, granting the PCs access to more and better Assets. 
@@ -325,8 +411,8 @@ The PCs can spend **Mechanite Technology Points** to gain access to special tech
 | ------ | ----------- | ------------------------------- | ------------- | ----------- |
 | 2      | 5           | The Stormbreakers a remote-controlled drone outfitted with a high-yield explosive. When triggered, in a `10` Square AoE diameter, causes `6 + 2D6` Bludgeoning and `6 + 1D6` Burning damage. |  | Yes |
 | 2      | 5           | The Stormbreakers gain an extremely enigmatic technological piece - an infrared sight that allows seeing a different sprectrum of light. The Mechanites suggest  |  | Yes |
-| 10     | 30          | The Stormbreakers gain a Biped Automaton. You can only have one Automaton, at a time. |  | Yes |
 | 5      | 15          | The Stormbreakers gain an Automaton weapon. | Access to an Automaton. | Yes |
+| 10     | 30          | The Stormbreakers gain a Biped Automaton. You can only have one Automaton, at a time. |  | Yes |
 
 ### Biped Automaton
 A Masterwork of the Mechanites - a human-form Automaton, capable of executing simple commands, which can be outfitted with various armaments. 
@@ -355,8 +441,8 @@ Commands can be given to it verbally or non-verbally, via an input terminal acce
 ### Automaton Armament
 | Tier | Weapon                   | Bulk | Skill                 | Properties                                            | Damage & Effects   | Description        |
 | ---- | ------------------------ | ---- | --------------------- | ----------------------------------------------------- | ------------------ | ------------------ |
-| 0    | Thunderer Machine-Gun    | 5    | Special Weapons       | Ranged: `10`, Ammo: `60`, Automatic, Very Slow Reload | `8 + Q` Piercing | A bulky and heavy machine gun with a moderate rate of fire, but well suited to suppression fire. |
-| 1    | Oppressor Autocannon     | 6    | Special Weapons       | Ranged: `15`, Ammo: `12`, Semi-Automatic, Burst: `3`, Very Slow Reload | `15 + Q` Piercing | A large caliber autocannon for mounting on an Automaton. Always fires in bursts of `3` shots. |
+| 0    | Thunderer Machine-Gun    | 5    | Special Weapons       | Ranged: `10`, Ammo: `60`, Automatic, Very Slow Reload | `10` Piercing | A bulky and heavy machine gun with a moderate rate of fire, but well suited to suppression fire. |
+| 1    | Oppressor Autocannon     | 6    | Special Weapons       | Ranged: `15`, Ammo: `12`, Semi-Automatic, Burst: `3`, Very Slow Reload | `15` Piercing | A large caliber autocannon for mounting on an Automaton. Always fires in bursts of `3` shots. |
 | 1    | Aegis Shield             | 8    | Shield                | Melee                                                 | A massive and solid steel shield sturdy enough to stop a large caliber. Reduces damage taken and prevents damage to targets standing behind. Protections: `20` Slashing; `10` Piercing; `10` Bludgeoning |
 
 ## Armor Technology 
@@ -380,11 +466,25 @@ The PCs can spend **Weapon Technology Points** to improve their weapons.
 | ------ | ----------- | ------------------------------- | ------------- | ----------- |
 | 3      | 3           | Unlock a tier `1` weapon.       | Capital Weapon Foundries at least Level `1`. | Yes |
 | 1      | 1           | Improve one ranged weapon's ammo capacity by `+2` up to a maximum of `+10`. | Yes |
-| 3      | 2           | Improve one weapon's Q by `+1`. | Yes |
+| 3      | 2           | Improve one weapon's Damage by `+2` points for every grade. | Yes |
 | 5      | 5           | Unlock a tier `2` weapon.       | Capital Weapon Foundries at least Level `2`. | Yes |
 | 5      | 3           | Reduce a weapon's bulk by `-1`. | Capital Weapon Foundries at least Level `2`. | Yes |
 | 8      | 8           | Unlock a tier `3` weapon.       | Capital Weapon Foundries at least Level `3`. | Yes |
 | 13     | 12          | Unlock a tier `4` weapon.       | Capital Weapon Foundries at least Level `4`. | Yes |
+
+## Frontier Progress
+As you progress through the skies, you may make future forays into already explored areas easier. 
+
+| Supply Cost | Effect & Unlock                 | Prerequisites | Repeatable? |
+| ----------- | ------------------------------- | ------------- | ----------- |
+| 10          | Build a Radio Relay.            |               | Yes, once per area. |
+| 50          | Build a Storm Tunnel.           |               | Yes, once per Storm Wall. |
+
+### Radio Relay
+A Radio Relay extends the range at which the Capital may exchange resources with the Stormbreakers out in the frontier. You can build one relay in every region. 
+
+### Storm Tunnel
+A Storm Tunnel makes traversal of a Storm Wall safe. Neither Stormbreakers nor anyone else will have trouble passing such a Storm Wall. 
 
 # Sky Ship
 The Sky Ship is the Stormbreaker's mobile base of operation and their only life-line. Should it be destroyed or lost, the players lose the campaign! It is also the place where PCs can exchange resources and political matters with the Capital and prepare for their expeditions. 
@@ -394,11 +494,11 @@ The Sky Ship has `50` HP, which can re replenished during the Preparation phase.
 Besides the Stormbreakers, there are no additional crew on board. Only few are sufficiently trained and physically capable enough to survive passing through a Storm Wall and only the Stormbreakers enjoy the privilege of revival in the Atherium Resuscitation Chambers. Fortunately, the Sky Ship technology is a gift from the Mechanites, and is fully automated. Stormbreakers only have to pilot it under extreme situations, such as in combat or when passing through Storm Walls. 
 
 ## Passing Storm Walls
-Passing through the Storm Walls causes great damage to the Sky Ship. How much, depends on the Storm Wall tier, which increases the farther the Stormbreakers travel from the Capital. 
+Passing through the Storm Walls always causes damage to the Sky Ship. How much, depends on the Storm Wall tier, which increases the farther the Stormbreakers travel from the Capital. 
 
-Improving the Sky Ship with plates of Silversteel will reduce the Storm Wall damage incurred when passing through. `20` Silversteel converts to `+10` protection, also against other forms of damage to the Sky Ship. 
+Improving the Sky Ship with plates of Silversteel will reduce the Storm Wall damage incurred when passing through. `10` Silversteel converts to `+10` protection, which also works against other forms of damage to the Sky Ship. 
 
-To successfully pass the Storm Wall takes a [Creative Test](./strive-core.md#creative-test). Stormbreakers must succeed at least as many challenges as noted on the left, of the maximum number noted on the right, in the table below.
+To successfully pass the Storm Wall takes a [Creative Test](./strive-core.md#creative-test). Stormbreakers must succeed at least as many challenges as noted on the left, of the maximum number noted on the right, in the table below. The same Character may attempt to solve multiple Challenges. If too many Tests are failed, the Wall spits the Sky Ship back out whence it entered, and worse for wear. 
 
 | Storm Wall Tier | Damage to Sky Ship | Creative Tests |
 | --------------- | ------------------ | -------------- |
@@ -406,14 +506,15 @@ To successfully pass the Storm Wall takes a [Creative Test](./strive-core.md#cre
 | 2               | 30                 | 3/6            |
 | 3               | 60                 | 4/6            |
 | 4               | 100                | 5/6            |
+| 5               | 200                | 6/6            |
 
-### Creative Test Challenges
+### Storm Wall Challenges
 | 1D10 | Challenge |
 | ---- | --------- |
 | 1    | An engine is at risk of breaking down! If it goes offline, the Sky Ship gets harder to pilot! |
 | 2    | The hull is battered with lightning! Electrics are at risk of damage! |
 | 3    | You can see a tunnel in the storm, but it is broken up by the unpredictable motions of errant tornadoes! |
-| 4    | The steering flaps are jamming up! You can no longer steer! |
+| 4    | The steering flaps are jamming up! You are veering off-course! |
 | 5    | The air pressure is pounding your head! You're at risk of losing consciousness! |
 | 6    | Debris is flung into the side of the Sky Ship! It acts like a giant wind sail, pushing you off your course! |
 | 7    | Shrapnel-like debris batters the hull, everyone is at risk of suffering severe puncture wounds! |
@@ -421,50 +522,46 @@ To successfully pass the Storm Wall takes a [Creative Test](./strive-core.md#cre
 | 9    | The storm was hiding rising jets of Death Fog! If you're caught by them, pockets of Death Fog may form inside the Sky Ship! |
 | 10   | You've entered a pocket of Corruption! Reality begins to warp around you! |
 
-# The Loop
-To support one-shots, the game is strictly structured into three phases: **Preparation**, **Expedition** and **Exfiltration**. 
+# Health Conditions
+Additions to the [Core rules' Health Conditions](./strive-core.md#condition).
 
-## Preparation
-Every session begins in the Preparation phase, which is when all the book-keeping and light roleplay takes place. This phase is expected to be kept as short as possible. It exists mostly to re-familiarize the players with the stakes, to take stock of what they have and want and then decide where to go. 
+## Resuscitation Syndrome
+Body and mind are affected, reducing motor-skill, coupled with *splitting* headaches. `+1` Ob to **all** Tests and `-1` Hit(s) to **all** Attacks.
 
-1. Apply static Capital resource changes - [Population](#the-capitals-population), [Supplies](#the-capitals-supplies), [Unity](#the-capitals-unity), [Corruption](#the-capitals-corruption) and so on.
-2. Roll for and resolve a [Capital Event](#capital-events). 
-3. Spend [Technology Points](#progression).
-4. Requisition Assets and exchange resources with the Capital. 
-5. Prepare for the Expedition, receive and relay orders from and to the Capital and do some light roleplay. 
-6. Potentially pass through a Storm Wall. 
-7. Get to the Expedition location. 
-
-## Expedition
-The Expedition phase is when the PCs enter a location, disembark their Sky Ship and begin exploring. 
-TODO
-
-## Exfiltration
-TODO
-
-
-## Revival
-Every time a PC dies, they are not removed from the game, but instead returned to their Stormbreaker Sky Ship. Every revival costs the Capital `5` Supplies. 
-TODO
-
-# Character
-Additions and alterations to the [Core Character](./strive-core.md#character) rules. 
-
-## Corruption
-All Characters accrue Corruption over time and have a **Corruption Tolerance**, determined by their `Tough + Wit`. Exposure to Corruption causes it to build up within the body. If it reaches the Tolerance, Characters begin to morph and twist into something else. In such a state, they suffer the [Corrupted Condition](#corrupted-condition). 
-
-## Corrupted Condition
-A Character in this state has `3` Turns to reduce their Corruption, or else they become a Corruption monster! In case of a PC, this effectively means their Character dies! 
-
-Every Turn, an additional degree of this Condition is automatically suffered. It can only be cleared at the Sky Ship. 
+* Automatic Shrug-Off: After a day has passed. 
 
 # Combat
 Additions and alterations to the [Core Combat](./strive-core.md#combat) rules. 
 
-## Burst Attacks
-With the modern age, come modern means of murder. Attacks that allow for a **Burst**, get bonus dice for the attack roll, as noted on the attack in question, but also Ob `+1`. In case of ammo-fed weapons, this is also the number of bullets the attack consumes. 
+## Attacks Always Hit
+Unlike the normal [Core Rules](./strive-core.md#defending), in this Module, under normal circumstances Attacks in Combat always hit! 
 
-> A machine gun with Burst `3` receives `+3D` and `+1` Ob for an attack Test and consumes `3` bullets. 
+As such, all Attack are rolled with Ob `0`! The number of Hits achieved determine the Attack's grading, as usual, but the thresholds are different from the normal rules:
+* `≤ 2` Hits: A **Glancing Hit**. Low Damage and no effect or a weak one. 
+* `3-4` Hits: A **Solid Hit**. Moderate Damage and a meaningful effect. 
+* `≥ 5` Hits: A **Masterful Hit**. Severe Damage and a powerful effect. 
+
+Some particularly difficult Attacks may modify the resulting number of Hits you get. 
+
+> For example, an Attack might note `-1 Hit(s)`. If you rolled `3` Hits, you only get to count `2`! 
+
+## Defending
+Attacks may always land, you do still have *some* agency over them, as a Defender. While you can no longer prevent Attacks from hitting you, you *can* reduce how badly you are affected, by reducing the effective number of Hits they get to determine Damage and effects with! 
+
+* You can spend one point of [Guarded](./strive-core.md#guarded) to reduce the Attacker's Hits by `-2`!
+* You can spend one AP to reduce the Attacker's Hits by `-1`! This works both as Regular Defense and Emergency Defense. 
+* If you have no points in Guarded, no AP left, and already spent all Emergency Defenses, you can no longer reduce the Attacker's Hits! 
+
+## Burst Attacks
+With the modern age, come modern means of murder. Attacks that allow for a **Burst**, get bonus dice for the Attack roll and bonus Damage, each equal to the Burst value, but also suffer Hit(s) `-1`.
+
+In case of ammo-fed weapons, the Burst value is also the amount of ammunition the Attack consumes. 
+
+> A Burst: `3` means:
+> 1. You get `+3D` for the Attack roll. 
+> 2. The Attack always deals `+3` Damage of its primary Damage Type. 
+> 3. You must remove `1` Hit that you achieved. 
+> 4. You must reduce your ammunition count by `3` points. 
 
 # Appendix
 The appendix contains lists for reference only when needed. 
@@ -472,63 +569,101 @@ The appendix contains lists for reference only when needed.
 ## Assets Appendix
 Additions and alterations to the [Core Assets Appendix](./strive-core.md#assets-appendix). 
 
+### General Assets
+| Name                   | Bulk | Max. Stack Size | Supply Cost | Work-Rate / PI    | Description                                                              |
+| ---------------------- | ---- | --------------- | ----------- | ----------------- | ------------------------------------------------------------------------ |
+| Bullets                | 1    | 60              | 3           | `3 / QoD` / `12`  | Ammunition for all standard weapons.                                     |
+| Fuel                   | 1    | 20              | 8           |                   | Required to pass Storm Walls and ammunition for some special weapons.    |
+
 ### Armors
 Death Fog protection works a little differently. For every point of protection, a Character can survive in Death Fog for `+30` Minutes. Once that time is up, they will take `10` Pure damage every minute. The Death Fog protection has to be reset at the Sky Ship, where the gas mask's Death Fog filters are changed by a special machine. 
 
-| Tier | Armor                        | Bulk | Properties                                            | Protection         | Description        |
-| ---- | ---------------------------- | ---- | ----------------------------------------------------- | ------------------ | ------------------ |
-| 0    | Standard Breastplate         | 2    |                                                       | `6` Slashing; `4` Piercing; `3` Bludgeoning; `5` Poison; `1` Death Fog | Munitions-grade armor and an early model gas-mask. Mass-produced and cheap. |
-| 1    | Hazard Suit                  | 3    |                                                       | `10` Poison; `10` Acid; `5` Burning; `3` Death Fog | A rubber coverall which protects the entire body from environmental hazards, but does little against bullets and swords. |
-| 1    | Trench Armor                 | 3    |                                                       | `8` Slashing; `4` Piercing; `8` Bludgeoning; `5` Poison; `1` Death Fog | Particularly well padded, this armor protects well against broad-area damage, but won't stop a bullet. |
-| 2    | Medic Fatigues               | 2    |                                                       | `3` Slashing; `2` Bludgeoning; `6` Poison; `5` Acid; `2` Death Fog | Offers only moderate protection, but allows all medical supplies to stack twice their normal amount. |
-| 2    | Ammo Carrier                 | 3    |                                                       | `3` Slashing; `6` Bludgeoning; `6` Poison; `2` Death Fog | Offers only moderate protection, but allows all ammunition to stack twice its normal amount. |
-| 3    | Camo Armor                   | 3    |                                                       | `6` Slashing; `5` Piercing; `5` Bludgeoning; `5` Poison; `2` Death Fog | Offers only moderate protection, but grants `+2` Stealth to its wearer. |
-| 3    | Hauler Armor                 | 4    |                                                       | `4` Slashing; `4` Piercing; `4` Bludgeoning; `5` Poison; `2` Death Fog | Offers only moderate protection, but a metal exoskeleton grants `+10` maximum Luggage Bulk to its wearer. |
-| 4    | Stormbreaker Assault Armor   | 4    |                                                       | `14` Slashing; `14` Piercing; `14` Bludgeoning; `10` Acid; `5` Poison; `4` Death Fog; `2` Corruption | Made from Silversteel, this armor protects exceptionally well. A face-plate covers a highly modern, sleek gas mask. The perfect choice for a frontal assault or dirty trench warfare. |
-| 4    | Stormbreaker Sapper Armor    | 4    |                                                       | `10` Slashing; `10` Piercing; `8` Bludgeoning; `5` Acid; `5` Poison; `4` Death Fog; `2` Corruption | Made from Silversteel, this armor protects exceptionally well and provides `+8` maximum Luggage Bulk to its wearer. A great choice if you plan on bringing bigger ordnance. |
-| 4    | Stormbreaker Purifier Armor  | 4    |                                                       | `8` Slashing; `6` Piercing; `6` Bludgeoning; `15` Acid; `10` Poison; `10` Burning; `6` Death Fog; `4` Corruption | Made from Silversteel, this armor protects exceptionally well. The suit is hermetically sealed and fire-retardent, providing excellent hazard protection. |
+All Armors are unstackable. 
+
+| Tier | Armor                        | Bulk | Supply Cost | Protection         | Description        |
+| ---- | ---------------------------- | ---- | ----------- | ------------------ | ------------------ |
+| 0    | Standard Breastplate         | 2    | 3           | `6` Slashing; `4` Piercing; `3` Bludgeoning; `5` Poison; `1` Death Fog | Munitions-grade armor and an early model gas-mask. Mass-produced and cheap. |
+| 1    | Hazard Suit                  | 3    | 5           | `10` Poison; `10` Acid; `5` Burning; `3` Death Fog | A rubber coverall which protects the entire body from environmental hazards, but does little against bullets and swords. |
+| 1    | Trench Armor                 | 3    | 5           | `8` Slashing; `4` Piercing; `8` Bludgeoning; `5` Poison; `1` Death Fog | Particularly well padded, this armor protects well against broad-area damage, but won't stop a bullet. |
+| 2    | Medic Fatigues               | 2    | 10          | `3` Slashing; `2` Bludgeoning; `6` Poison; `5` Acid; `2` Death Fog | Offers only moderate protection, but allows all medical supplies to stack twice their normal amount. |
+| 2    | Ammo Carrier                 | 3    | 10          | `3` Slashing; `6` Bludgeoning; `6` Poison; `2` Death Fog | Offers only moderate protection, but allows all ammunition to stack twice its normal amount. |
+| 3    | Camo Armor                   | 3    | 10          | `6` Slashing; `5` Piercing; `5` Bludgeoning; `5` Poison; `2` Death Fog | Offers only moderate protection, but grants `+2` Stealth to its wearer. |
+| 3    | Hauler Armor                 | 4    | 10          | `4` Slashing; `4` Piercing; `4` Bludgeoning; `5` Poison; `2` Death Fog | Offers only moderate protection, but a metal exoskeleton grants `+10` maximum Luggage Bulk to its wearer. |
+| 4    | Stormbreaker Assault Armor   | 4    | 15          | `14` Slashing; `14` Piercing; `14` Bludgeoning; `10` Acid; `5` Poison; `4` Death Fog; `2` Corruption | Made from Silversteel, this armor protects exceptionally well. A face-plate covers a highly modern, sleek gas mask. The perfect choice for a frontal assault or dirty trench warfare. |
+| 4    | Stormbreaker Sapper Armor    | 4    | 15          | `10` Slashing; `10` Piercing; `8` Bludgeoning; `5` Acid; `5` Poison; `4` Death Fog; `2` Corruption | Made from Silversteel, this armor protects exceptionally well and provides `+8` maximum Luggage Bulk to its wearer. A great choice if you plan on bringing bigger ordnance. |
+| 4    | Stormbreaker Purifier Armor  | 4    | 15          | `8` Slashing; `6` Piercing; `6` Bludgeoning; `15` Acid; `10` Poison; `10` Burning; `6` Death Fog; `4` Corruption | Made from Silversteel, this armor protects exceptionally well. The suit is hermetically sealed and fire-retardent, providing excellent hazard protection. |
 
 ### Weapons
-| Tier | Weapon                   | Bulk | Skill                 | Properties                                                       | Damage & Effects   | Description        |
-| ---- | ------------------------ | ---- | --------------------- | ---------------------------------------------------------------- | ------------------ | ------------------ |
-| 0    | Trench Shovel            | 2    | Close Quarters Combat | Melee                                                            | `≤ 1` Hit: `3 + Q` Slashing <br> `= 2` Hits: `4 + Q` Slashing <br> `≥ 3` Hits: `5 + Q` Slashing | A standard-issue digging implement with sharp edges. |
-| 0    | Krauser Semi-Auto Pistol | 1    | Firearms              | Ranged: `6`, Ammo: `6`, Semi-Auto                                | `≤ 1` Hit: `4 + Q` Piercing <br> `= 2` Hits: `4 + Q` Piercing <br> `≥ 3` Hits: `5 + Q` Piercing | The mass-produced Krauser semi-auto pistol is a reliable, though not particularly deadly personal defence weapon. |
-| 0    | Maksim Rifle             | 3    | Firearms              | Ranged: `20`, Ammo: `6`, Bolt-Action, Slow Reload                | `≤ 1` Hit: `8 + Q` Piercing <br> `= 2` Hits: `10 + Q` Piercing <br> `≥ 3` Hits: `13 + Q` Piercing | The mass-produced Maksim bolt-action rifle is reliable and powerful, but also bulky and slow. |
-| 0    | Fragmentation Grenade    | 1    | Throwing              | Thrown                                                           | `6 + Q` Piercing + `6 + Q` Bludgeoning + `3` Burning | Stacks up to `3`; A throwable fragmentation grenade and a staple of trench warfare - before the cataclysm. Simple, but effective. |
-| 1    | Standard Saber           | 2    | Close Quarters Combat | Melee                                                            | `≤ 1` Hit: `5 + Q` Slashing <br> `= 2` Hits: `5 + Q` Slashing <br> `≥ 3` Hits: `6 + Q` Slashing | A simple officer's saber. A bit heavy in hand, but reliable. |
-| 1    | Hetzer Machine Gun       | 5    | Firearms              | Ranged: `10`, Ammo: `60`, Automatic, Very Slow Reload, Burst `3` | `6 + Q` Piercing | A bulky and heavy machine gun with a moderate rate of fire, but well suited to suppression fire. |
-| 1    | Maksim II Rifle          | 4    | Firearms              | Ranged: `15`, Ammo: `12`, Semi-Auto, Slow Reload                 | `≤ 1` Hit: `8 + Q` Piercing <br> `= 2` Hits: `9 + Q` Piercing <br> `≥ 3` Hits: `10 + Q` Piercing | An innovation of the Maksim Rifle allows it to be magazine-fed and become semi-auto, at the cost of power. |
-| 1    | Flash Grenade            | 1    | Throwing              | Thrown                                                           | Blinds all creatures who look into the flash for `3` Rounds. They suffer `+1` Ob to all Tests. | Stacks up to `3`; A throwable flash grenade designed for the non-violent quelling of riots, which may also find use in the field. |
-| 1    | Gas Grenade              | 1    | Throwing              | Thrown                                                           | Releases a noxious cloud of gas, in a `3` Square diameter, which causes `8 + Q` Acid damage. its | Stacks up to `3`; A throwable gas grenade useful for area-denial. |
-| 2    | Assault Sword            | 2    | Close Quarters Combat | Melee                                                            | `≤ 1` Hit: `6 + Q` Slashing <br> `= 2` Hits: `8 + Q` Slashing <br> `≥ 3` Hits: `11 + Q` Slashing | A well designed and finely crafted, sturdy blade to dominate close quarters combat. |
-| 2    | Artyar SMG               | 3    | Firearms              | Ranged: `10`, Ammo: `20`, Automatic, Slow Reload, Burst `3`      | `≤ 1` Hit: `4 + Q` Piercing <br> `= 2` Hits: `5 + Q` Piercing <br> `≥ 3` Hits: `6 + Q` Piercing | An innovative design, though somewhat clumsy, this submachine gun borrows pieces from the Maksim II rifle with an automatic feeder mechanism, enabling automatic fire. To support the higher magazine capacity, the ammo had to be down-sized. |
-| 2    | Corrosion Grenade        | 1    | Throwing              | Thrown                                                           | `6 + Q` Acid | A large, bulbous hand grenade. Contained within are two liquids that, when combined, become a strong but fleeting acid, capable of melting steel within seconds before becoming harmless. |
-| 3    | Maksim III Rifle         | 4    | Firearms              | Ranged: `30`, Ammo: `12`, Semi-Auto, Slow Reload                 | `≤ 1` Hit: `10 + Q` Piercing <br> `= 2` Hits: `12 + Q` Piercing <br> `≥ 3` Hits: `14 + Q` Piercing | Outfitted with a powerful scope and a slightly lengthened barrel, this Maksim elevates the art of the sharpshooter. |
-| 3    | Cryogenic Grenade        | 1    | Throwing              | Thrown                                                           | `8 + Q` Freezing | An innovative application of liquid nitrogen, contained in a delicate shell, ready to be dispersed by a tiny explosive charge. In other words - a 'freeze grenade'. |
-| 4    | Kijser Assault Rifle     | 3    | Firearms              | Ranged: `20`, Ammo: `20`, Automatic, Burst `3`                   | `≤ 1` Hit: `8 + Q` Piercing <br> `= 2` Hits: `9 + Q` Piercing <br> `≥ 3` Hits: `10 + Q` Piercing | A powerful and ergonomic assault rifle and in fact the first of its kind. In skilled hands, it is a deadly weapon. |
-| 4    | Rahvalod Machine Gun     | 4    | Firearms              | Ranged: `10`, Ammo: `100`, Automatic, Very Slow Reload, Burst `6`| `≤ 1` Hit: `6 + Q` Piercing <br> `= 2` Hits: `8 + Q` Piercing <br> `≥ 3` Hits: `10 + Q` Piercing | A powerful, fast-firing machine gun.  |
+| Tier | Weapon                   | Bulk | Supply Cost | Max. Stack Size | Skill                 | Properties                                                        | Damage & Effects   | Description        |
+| ---- | ------------------------ | ---- | ----------- | --------------- | --------------------- | ----------------------------------------------------------------- | ------------------ | ------------------ |
+| 0    | Burner Pistol            | 2    | 3           | 1               | Special Weapons       | Ranged: `5`, Ammo: `15` Fuel                                      | `≤ 2`: `3` Burning <br> `3-4` Hits: `5` Burning <br> `≥ 5` Hits: `7` Burning | A prototype flame-throwing weapon. Uses Fuel instead of Bullets as ammo. |
+| 0    | Fragmentation Grenade    | 1    | 3           | 3               | Throwing              | Thrown                                                            | `8` Piercing + `8` Bludgeoning + `3` Burning | Stacks up to `3`; A throwable fragmentation grenade and a staple of trench warfare - before the cataclysm. Simple, but effective. |
+| 0    | Krauser Semi-Auto Pistol | 1    | 3           | 1               | Firearms              | Ranged: `6`, Ammo: `6`, Semi-Auto                                 | `≤ 2`: `6` Piercing <br> `3-4` Hits: `6` Piercing <br> `≥ 5` Hits: `7` Piercing | The mass-produced Krauser semi-auto pistol is a reliable, though not particularly deadly personal defence weapon. |
+| 0    | Maksim Rifle             | 3    | 3           | 1               | Firearms              | Ranged: `20`, Ammo: `6`, Bolt-Action, Slow Reload                 | `≤ 2`: `10` Piercing <br> `3-4` Hits: `12` Piercing <br> `≥ 5` Hits: `15` Piercing | The mass-produced Maksim bolt-action rifle is reliable and powerful, but also bulky and slow. |
+| 0    | Trench Shovel            | 2    | 3           | 1               | Close Quarters Combat | Melee                                                             | `≤ 2`: `5` Slashing <br> `3-4` Hits: `6` Slashing <br> `≥ 5` Hits: `7` Slashing | A standard-issue digging implement with sharp edges. Trusty and reliable. |
+| 1    | Flamethrower             | 3    | 5           | 1               | Special Weapons       | Ranged: `8`, Ammo: `10` Fuel                                      | `≤ 2`: `5` Burning <br> `3-4` Hits: `8` Burning <br> `≥ 5` Hits: `11` Burning | A flame-throwing weapon. Uses Fuel instead of Bullets as ammo. |
+| 1    | Flash Grenade            | 1    | 5           | 3               | Throwing              | Thrown                                                            | Blinds all creatures who look into the flash for `3` Rounds. They suffer `+1` Ob to all Tests. | Stacks up to `3`; A throwable flash grenade designed for the non-violent quelling of riots, which may also find use in the field. |
+| 1    | Gas Grenade              | 1    | 5           | 3               | Throwing              | Thrown                                                            | Releases a noxious cloud of gas, in a `3` Square diameter, which causes `10` Acid damage. its | Stacks up to `3`; A throwable gas grenade useful for area-denial. |
+| 1    | Hetzer Machine Gun       | 5    | 5           | 1               | Firearms              | Ranged: `10`, Ammo: `60`, Automatic, Very Slow Reload, Burst `3`  | `8` Piercing | A bulky and heavy machine gun with a moderate rate of fire, but well suited to suppression fire. |
+| 1    | Maksim II Rifle          | 3    | 5           | 1               | Firearms              | Ranged: `15`, Ammo: `12`, Semi-Auto, Slow Reload                  | `≤ 2`: `10` Piercing <br> `3-4` Hits: `11` Piercing <br> `≥ 5` Hits: `12` Piercing | An innovation of the Maksim Rifle allows it to be magazine-fed and become semi-auto, at the cost of power. |
+| 1    | Standard Saber           | 2    | 5           | 1               | Close Quarters Combat | Melee                                                             | `≤ 2`: `7` Slashing <br> `3-4` Hits: `7` Slashing <br> `≥ 5` Hits: `8` Slashing | A simple officer's saber. A bit heavy in hand, but reliable. |
+| 2    | Artyar SMG               | 3    | 8           | 1               | Firearms              | Ranged: `10`, Ammo: `20`, Automatic, Slow Reload, Burst `3`       | `≤ 2`: `6` Piercing <br> `3-4` Hits: `7` Piercing <br> `≥ 5` Hits: `8` Piercing | An innovative design, though somewhat clumsy, this submachine gun borrows pieces from the Maksim II rifle with an automatic feeder mechanism, enabling automatic fire. To support the higher magazine capacity, the ammo had to be down-sized. |
+| 2    | Assault Sword            | 2    | 8           | 1               | Close Quarters Combat | Melee                                                             | `≤ 2`: `8` Slashing <br> `3-4` Hits: `10` Slashing <br> `≥ 5` Hits: `13` Slashing | A well designed and finely crafted, sturdy blade to dominate close quarters combat. |
+| 2    | Corrosion Grenade        | 1    | 8           | 3               | Throwing              | Thrown                                                            | `8` Acid | A large, bulbous hand grenade. Contained within are two liquids that, when combined, become a strong but fleeting acid, capable of melting steel within seconds before becoming harmless. |
+| 3    | Cryogenic Grenade        | 1    | 10          | 3               | Throwing              | Thrown                                                            | `10` Freezing | An innovative application of liquid nitrogen, contained in a delicate shell, ready to be dispersed by a tiny explosive charge. In other words - a 'freeze grenade'. |
+| 3    | Cryogenitor              | 4    | 10          | 1               | Special Weapons       | Ranged: `10`, Ammo: `10` Fuel                                     | `≤ 2`: `8` Freezing <br> `3-4` Hits: `10` Freezing <br> `≥ 5` Hits: `12` Freezing | Spews liquid nitrogen at range, instantly freezing whatever it hits. Uses Fuel instead of Bullets as ammo. |
+| 3    | Hellgater                | 4    | 10          | 1               | Special Weapons       | Ranged: `15`, Ammo: `5` Fuel                                      | `≤ 2`: `8` Burning; `1` Square burns <br> `3-4` Hits: `10` Burning; `2` Squares burn <br> `≥ 5` Hits: `13` Burning; `3` Squares burn | A flame-throwing weapon that can leave Squares burning for `2` Rounds. Anyone who stands on those Squares suffers an additional `3` Burning Damage every Tick. Uses Fuel instead of Bullets as ammo. |
+| 3    | Maksim III Rifle         | 3    | 10          | 1               | Firearms              | Ranged: `30`, Ammo: `12`, Semi-Auto, Slow Reload                  | `≤ 2`: `12` Piercing <br> `3-4` Hits: `14` Piercing <br> `≥ 5` Hits: `16` Piercing | Outfitted with a powerful scope and a slightly lengthened barrel, this Maksim elevates the art of the sharpshooter. |
+| 4    | Kijser Assault Rifle     | 3    | 15          | 1               | Firearms              | Ranged: `20`, Ammo: `20`, Automatic, Burst `3`                    | `≤ 2`: `10` Piercing <br> `3-4` Hits: `11` Piercing <br> `≥ 5` Hits: `12` Piercing | A powerful and ergonomic assault rifle and in fact the first of its kind. In skilled hands, it is a deadly weapon. |
+| 4    | Rahvalod Machine Gun     | 4    | 15          | 1               | Firearms              | Ranged: `10`, Ammo: `100`, Automatic, Very Slow Reload, Burst `6` | `≤ 2`: `8` Piercing <br> `3-4` Hits: `10` Piercing <br> `≥ 5` Hits: `12` Piercing | A powerful, fast-firing machine gun.  |
 
 ## List of Skills
 
-### Close Quarters Combat (Agi/Str)
+### Physical Skills
+These Skills have a dominant physical aspect and are directly tied to a Character's *physical Attributes*. 
+
+#### Acrobatics (Agi/Str)
+Performing acrobatic feats, such as jumping, tumbling and climbing, without injuring oneself in the process. 
+
+| Level | Name                 | AP | Hit(s)  | Description        |
+| ----- | -------------------- | -- | ------- | ------------------ |
+| 1     | Dodge                | 1  |         | While not wearing any [Armor](#armor) or wearing Armor whose Bulk is no more than `1`, and not wielding a shield of Bulk `2+`, you may completely avoid an enemy's [Glancing Hit](#attacks-always-hit) on you! |
+| 2     | Wind Out Of It       | 2  | -1      | When hit by an Attack, lose `-1` [Stamina](#stamina--strain), wind out of the hit and... <br> `≤ 2`: suffer `3` points of Damage less. <br> `3-4`: suffer `5` points of Damage less <br> `≥ 5`: suffer `8 or half (RU)` Damage less, picking whichever number is higher. |
+
+#### Close Quarters Combat (Agi/Str)
 Skill for any melee weapon and unarmed combat. 
 
-| Level | Name                   | AP | Ob          | Description <br> Damage                   |
-| ----- | ---------------------- | -- | ----------- | ----------------------------------------- |
-| 0     | Punch, Kick, Headbutt  | 2  | Opposed                              | `≤ 1` Hit: `Str` Bludgeoning <br> `= 2` Hits: `Str * 2` Bludgeoning <br> `≥ 3` Hits: `Str * 2` Bludgeoning; Knock your opponent [Prone](#prone) |
-| 0     | Shove                  | 2  | Opposed by [Strength](#strength-str) | `≤ 1` Hit: Push a target `1` Square. <br> `= 2` Hits: Push a target `2` Squares and take their place, if you desire. Does not provoke [Opportunity Attacks](#opportunity-attacks). <br> `≥ 3` Hits: Push a target `1 + Str` Squares and take their place, if you desire. Does not provoke [Opportunity Attacks](#opportunity-attacks). |
-| 0     | Weapon Strike          | 2  | Opposed                              | Attack with a melee weapon. |
-| 1     | Grapple                | 2  | Opposed by Close Quarters Combat     | [Grapple](#grappled) a target. You can not use at least one hand for as long as you're grappling. <br> `≤ 1` Hit: The target is [Grappled](#grappled). <br> `= 2` Hits: The target is [Grappled](#grappled) and knocked [Prone](#prone) or disarmed, if possible. <br> `≥ 3` Hits: The target is [Grappled](#grappled), knocked [Prone](#prone) and disarmed, if possible. |
-| 1     | Blade Barrier          | 3  |                                      | Until the start of your next Turn, whenever any Character moves **into** a spot within reach, you may **freely** attack that Character with a **Slash** at Ob `+1` and, if successful, force them back `1` Square. |
-| 2     | Cleave                 | 3  | 2                                    | Attack up to `3` targets at once, in a `2` Square AoE cone in front of you. |
+| Level | Name                   | AP | Hit(s)  | Description <br> Damage                   |
+| ----- | ---------------------- | -- | ------- | ----------------------------------------- |
+| 0     | Punch, Kick, Headbutt  | 2  |         | `≤ 2`: `Str` Bludgeoning <br> `3-4`: `Str * 2` Bludgeoning <br> `≥ 5`: `Str * 2` Bludgeoning; Knock your opponent [Prone](#prone) |
+| 0     | Shove                  | 2  |         | `≤ 2`: Push a target `1` Square. <br> `3-4`: Push a target `2` Squares and take their place, if you desire. Does not provoke [Opportunity Attacks](#opportunity-attacks). <br> `≥ 5`: Push a target `1 + Str` Squares and take their place, if you desire. Does not provoke [Opportunity Attacks](#opportunity-attacks). |
+| 0     | Weapon Strike          | 2  |         | Strike a ST with a melee weapon. The Damage is determined by the weapon you use. |
+| 1     | Grapple                | 2  |         | [Grapple](#grappled) a target. You can not use at least one hand for as long as you're grappling. <br> `≤ 2`: The target is [Grappled](#grappled). <br> `3-4`: The target is [Grappled](#grappled) and knocked [Prone](#prone) or disarmed, if possible. <br> `≥ 5`: The target is [Grappled](#grappled), knocked [Prone](#prone) and disarmed, if possible. |
+| 1     | Blade Barrier          | 3  |         | Until the start of your next Turn, whenever any Character moves **into** a spot within reach, you may **freely** attack that Character with a **Slash** at Hit(s) `-1` and, if Solid or better, force them back `1` Square. |
+| 2     | Cleave                 | 3  | -1      | Attack up to `3` targets at once, in a `2` Square AoE cone in front of you. The Damage is determined by the weapon you use. |
 
-### Firearms (Agi/Awar)
+#### Firearms (Agi/Awar)
 Skill for using modern firearms. 
 
-| Level | Name                   | AP | Ob          | Description <br> Damage                   |
-| ----- | ---------------------- | -- | ----------- | ----------------------------------------- |
-| 0     | Single-Shot            | 2  | Opposed     | Shoot once at a ST, dealing damage as noted on your weapon. |
-| 1     | Burst-Fire             | 3  | Opposed     | Shoot a burst at a ST, dealing damage as noted on your weapon, *if* the weapon supports it. |
+| Level | Name                   | AP | Hit(s)  | Description <br> Damage                   |
+| ----- | ---------------------- | -- | ------- | ----------------------------------------- |
+| 0     | Single-Shot            | 2  |         | Carefully aim and shoot once at a ST, dealing damage as noted on your weapon. |
+| 1     | Burst-Fire             | 3  | -1      | Shoot a burst at a ST, dealing damage as noted on your weapon, *if* the weapon supports it. |
+
+#### Special Weapons (Awar/Tough)
+Skill for using unconventional firearms and heavy weapons. 
+
+#### Piloting (Agi/Awar)
+The ability to steer a Sky Ship. See also [Travel & Terrain](#travel--terrain).
+
+### Knowledge Skills
+These Skills have a dominant mental aspect and are strongly related to a Character's *mental Attributes*. 
+
+#### Chemistry (Wit/Wit)
+Knowing chemical compounds and how they interact. 
+
+#### Fabrication (Agi/Wit)
+The ability to design and program a fabricator to craft Assets. 
 
 # Game Mastery
 This and the following sections are reserved solely for the GM's eyes. Reading on as a player may spoil many surprises and the fun of discovery for you. 
@@ -536,45 +671,137 @@ This and the following sections are reserved solely for the GM's eyes. Reading o
 # Biomes
 Whenever the PCs enter a new region, it may be part of one of the following biomes, which will dictate much of what they can encounter within. Of course, you may have your own ideas and aren't required to adhere to any of the concepts presented here.
 
-As the PCs make their way farther and farther from the center location - their home - they enter more and more dangerous and rewarding locations. The first 
-
-## Lofty Jungle
-The islands of this biome are particularly vibrant and full of color. Dense jungles have grown atop floating mountains and old, abandoned buildings. Food and peril are abundant and the Swine may be a source of technology, if they can be defeated.
-
-### Lofty Jungle Locations
-| D4  | Location           | Description |
-| --- | ------------------ | ----------- |
-| 1   | Lofty Jungle       | The vegetation has overgrown the entirety of the island. There is no spot to land the Sky Ship, you will have to enter the island from the side, or from below. To think so much life could have survived the cataclysm - and perhaps people could have found a safe haven here? Either way, you may have to brave dangerous fauna and flora to find them. |
-| 2   | Lake               | An entire lake was uplifted during the cataclysm! Or perhaps it formed up here, during the heavy rain fall of the first weeks after. Either way, fresh water and even fish may be found here! However, such a prize is seldom left unclaimed. |
-| 3   | Lake               | An entire lake was uplifted during the cataclysm! Or perhaps it formed up here, during the heavy rain fall of the first weeks after. Either way, fresh water and even fish may be found here! However, such a prize is seldom left unclaimed. |
+As the PCs make their way farther and farther from the Capital, perils and rewards mount ever higher. 
 
 ## Sky Nations
 Before the cataclysm, the Capital was surrounded by countless towns. Some were even large enough to negotiate partial independence from the crown. Those that survived have now taken the chance to seize their full autonomy. The Kijser back home will want to bring these cities back into the fold, who in turn won't yield their freedom willingly. They may need to be persuaded, bought or forced into submission, if possible. If not, diplomatic relations may also aid the Capital. 
 
 As these fledgling nations have yet to find their place in this new world they will openly quarrel with each other. Each is trying to seize more and more control of the region. If so inclined, the PCs may exploit this circumstance to play these Sky Nations against one another. 
 
+**Storm Wall Tier**: `1`
+
 ### Sky Nations Locations
-| D6  | Location           | Description |
-| --- | ------------------ | ----------- |
-| 1   | Vaum               | Vaum is a strong nation boasting several Sky Ships - although none can pierce the Storm Walls - and a modern arsenal. They may be interested in trade, but may need some convincing, first. If given the chance, they will take the region by force. |
-| 2   | Baratur            | Oddly, this place doesn't look like it ever belonged to the former empire. Exotic architecture has been built on top of the old concrete and colorful cloth hangs between the houses, shielding citizens from the sun. They want no part of the empire and would sooner die than submit. But they will engage in trade, if treated as equals. |
-| 3   | Cothburg           | Floating high above, where normal Sky Ships cannot reach, Cothburg enjoys a relative safety, that only the Stormbreaker's advanced vessel may disturb. They barely have a military and aren't interested in military conflict. Instead, their island is connected to agrarian ones below, via sky lifts. They exchange food and wares, technology and medicines that cannot be procured below. |
-| 4   | Ancient Library    | A library from the old empire, from before the Rise, is being occupied by one of the sky nations, to the dismay of the others. There is documented history within that could shed some light on how the great cataclysm came to be. |
-| 5   | Pirates            | Hidden away on a far island, close to the great walls of storm, a shanty town has taken to piracy. Even in the end times, such depraved souls may be found. And yet they may be a useful tool. Getting rid of them may endear the Stormbreakers to the sky nations, while empowering the pirates could pressure the sky nations into submission for a promise of protection and aid. |
-| 6   | Unaligned Town     | While the sky nations divy up territory, some towns try to remain neutral. This is one such case. While they might submit to the crown, the sky nations won't just idly accept the crown's meddling. |
+| D6  | Location                  | Description |
+| --- | ------------------------- | ----------- |
+| 1   | **Vaum**                  | Vaum is a strong nation boasting several Sky Ships - although none can pierce the Storm Walls - and a modern arsenal. They may be interested in trade, but may need some convincing, first. If given the chance, they will take the region by force. |
+| 2   | **Baratur**               | Oddly, this place doesn't look like it ever belonged to the former empire. Exotic architecture has been built on top of the old concrete and colorful cloth hangs between the houses, shielding citizens from the sun. They want no part of the empire and would sooner die than submit. But they will engage in trade, if treated as equals. |
+| 3   | **Cothburg**              | Floating high above, where normal Sky Ships cannot reach, Cothburg enjoys a relative safety, that only the Stormbreaker's advanced vessel may disturb. They barely have a military and aren't interested in military conflict. Instead, their island is connected to agrarian ones below, via sky lifts. They exchange food and wares, technology and medicines that cannot be procured below. |
+| 4   | **Ancient Library**       | A library from the old empire, from before the Rise, is being occupied by one of the Sky Nations, who aren't keen on sharing its contents, to the dismay of the others. There is documented history within that could shed some light on how the great cataclysm came to be. |
+| 5   | **Pirates**               | Hidden away on the underside of an island, a shanty town has taken to piracy. Even in the end times, greed and selfishness work against the greater good. And yet, they may be turned into a useful tool. Getting rid of them may endear the Stormbreakers to the Sky Nations, while empowering the pirates could pressure the Sky Nations into submission for a promise of protection and aid. |
+| 6   | **Unaligned Town**        | While the Sky Nations divy up territory, some towns try to remain neutral. This is one such case. While they might submit to the crown, the Sky Nations won't just idly accept the fallen empire's meddling. |
+
+### Sky Nations Challenges
+| D6 | Challenge                 | Description            | Failure Result |
+| -- | ------------------------- | ---------------------- | -------------- |
+| 1  | **Bandits**               | Bandits stalk this region. You will have to circumnavigate or eliminate them, to proceed. | The Stormbreakers are attacked by bandits! |
+| 2  | **The New Authority**     | One of the fledgling nations is trying to assert dominance. They will look to find a transgression in the Stormbreakers' actions, and demand reparations be paid, when they do. | High Command wishes to avoid an altercation and will pay to rectify your dishonor. The Capital loses `1D10 + 5` Supplies! |
+| 3  | **Mistaken As Foes**      | Two of the Sky Nations here are at war, and mistake the Stormbreakers' Sky Ship as part of the enemy's fleet. They will look to engage the Stormbreaker Sky Ship. | The Sky Ship is damaged in the fight and loses `1D10 + 5` HP! |
+| 4  | **Swine Raid**            | As food is abundant in this region, so are the vultures - or swine, in this case. In their pilfered and improvised Sky Ships, they raid towns and Sky Ships with impunity. | The Stormbreaker Sky Ship is boarded by vile Swine! |
+| 5  | **Belligerent Refugees**  | As the Stormbreakers fly by an island, several people jump from it and board the Sky Ship. They attempt to take control of the Sky Ship, as they refuse to go down with their home! | The Stormbreakers lose control of their Sky Ship! They must now take it back! |
+| 6  | **Airborne Predator**     | A particularly dangerous predator stalks the skies. It may consider the Stormbreakers or their Sky Ship as easy prey. | The Stormbreakers are attacked by an aerial predator! |
+
+## Lofty Jungle
+The islands of this biome are particularly vibrant and full of color. Dense jungles have grown atop floating mountains and old, abandoned buildings. Food and peril are abundant and the Swine may be a source of technology, if they can be defeated. For whatever reason, the flora and fauna that thrives here seems unaffected by the Corruption. 
+
+**Storm Wall Tier**: `2`
+
+### Lofty Jungle Locations
+| D4  | Location                  | Description |
+| --- | ------------------------- | ----------- |
+| 1   | **Dense Jungle**          | The vegetation has overgrown the entirety of the island. There is no spot to land the Sky Ship, you will have to enter the island from the side, or from below. To think so much life could have survived the cataclysm - and perhaps people could have found a safe haven here? Either way, you may have to brave dangerous fauna and flora to find them. | 
+| 2   | **Lake**                  | An entire lake was uplifted during the cataclysm! Or perhaps it formed up here, during the heavy rain fall of the first weeks after. Either way, fresh water and even fish may be found here! However, such a prize is seldom left unclaimed. |
+| 3   | **Overgrown Archipelago** | Countless smaller and larger islands are interconnected by hundreds of large roots and vines, outstretched across the chasms between as if desperately holding together what it can. There is no single landmass to traverse, but rather many smaller ones. The Sky Ship is useless here, but with some clever preparation, this archipelago may yet divulge its secrets. |
+| 4   | **Overgrown City**        | The remnants of a city have become a vibrant haven of nature, and may prove quite the labyrinthian nightmare to traverse. Threats new and old may lurk anywhere within, but also treasures of the past. |
+
+### Lofty Jungle Challenges
+| D6 | Challenge                 | Description            | Failure Result |
+| -- | ------------------------- | ---------------------- | -------------- |
+| 1  | **Carnivorous Plants**    | Careless steps may land the Stormbreakers in the maw of a carnivorous plant. | The Stormbreakers are suffer `1D4` Slashing Injuries, to be divided among them! |
+| 2  | **Corruption Hotbed**     | In this section of the jungle, the trees look... *odd*, and the air crackles aggressively. | The Stormbreakers have wandered into a Corruption Hotbed and each of them suffer `+1` Corruption! |
+| 3  | **Dense Vegetation**      | The jungle itself seems bent on preventing passage. The Stormbreakers must cut free a path. | The time they spend gives foes a chance to sneak up and ambush the Stormbreakers! |
+| 4  | **Predatorial Animals**   | One or more predators stalk the thicket of the jungle. You will have to avoid or neutralize them. | The Stormbreakers are attacked and suffer `1D4` Slashing Injuries, to be divided among them! |
+| 5  | **Spore-Filled Air**      | Some kind of giant mycelium has saturated the air with poisonous spores. A strain is put on the Stormbreakers' gas masks, and vision through the sickly clouds difficult. | The Stormbreakers get lost, and waste precious time. Each of them suffers `+1` Corruption1 |
+| 6  | **Winding Paths**         | The jungle almost seems designed to appear as confusing as possible. The path forward is obstructed by some new obstacle, around every corner. | The Stormbreakers get lost, and waste precious time. Each of them suffers `+1` Corruption! |
+
+## Glassed Desert
+Life has all but vanished from the massive landmasses that dominate these skies, their desert surfaces glinting and sparkling in the light of the sun. Touched by Corruption and the heaven's gaze, the sands have begun to change - and some of the grains are unusually white. Argentumites roam the skies high above. It may be best not to draw too much attention here. 
+
+**Storm Wall Tier**: `3`
+
+### Glassed Desert Locations
+| D6  | Location                  | Description |
+| --- | ------------------------- | ----------- |
+| 1   | **Vast Waste**            | A huge area filled with nothing but sand... and grains of Silversteel? Could this be a source of the material? But what was that? You swear, out of the corner of your eyes you can see the sands occasionally shift. Something lurks below the surface. |
+| 2   | **Volcano**               | A single, solitary peak sticks out of the desert. More strangely, it seems to contain an active volcano! On the inside of its burning maw, you can see precious metals clinging to the obsidian walls. A treasure trove, if you can brave it. |
+| 3   | **Monument**              | A giant monument basks in the sun. Its architecture is archaic, yet its unnaturally smooth surface bears no signs of wear. Was this recently erected, or built endure a life time of the earth? Who could have managed such an impossible feat? |
+| 4   | ****               |  |
+| 5   | ****               |  |
+| 6   | ****               |  |
+
+### Glassed Desert Challenges
+| D6 | Challenge                 | Description            | Failure Result |
+| -- | ------------------------- | ---------------------- | -------------- |
+| 1  | ****               | . |  |
+| 2  | ****               | . |  |
+| 3  | ****               | . |  |
+| 4  | ****               | . |  |
+| 5  | ****               | . |  |
+| 6  | ****               | . |  |
 
 ## Silent Winds
-The great cataclysm wiped out all life in this place. It now belongs solely to the Argentumites. Abandoned towns and crumbling factories hint at a once bustling part of the empire, while silent battlefields hold untold secrets. 
+The great cataclysm wiped out all life in this place. It now belongs solely to the Argentumites. Abandoned towns and crumbling factories hint at a once bustling part of the empire, while silent battlefields hold untold secrets. Beware the Corruption, whose strength has grown to peak in this place. Innumerable chunks of broken earth float everywhere in this region, making traversal by Sky Ship difficult. 
+
+**Storm Wall Tier**: `4`
 
 ### Silent Winds Locations
-| D6  | Location           | Description |
-| --- | ------------------ | ----------- |
-| 1   | Silent Battlefield | The island is an abandoned battlefield. Archaic cannons are rusting amid barbed wire and surrounded by mud-filled trenches. Whatever war once raged here, has been silenced by the great cataclysm. Ironic. And yet valuable supplies may still be pried from skeletons, and dug up from half-buried bunkers. |
-| 2   | Factory            | A solitary factory floats above the clouds. Its crooked chimney stands defiant against the wind, and the structure looks as though it might collapse any moment. The peril of a scavenging run within may be justified, as factories often still hold many valuable supplies. |
-| 3   | Irradiated Town    | A town sits quietly, just above the deathly blanket below. Many of the houses look intact and you can even spot trucks surrounded by skeletons. Often a sign of salvageable supplies and weapons. However, as you draw closer, your radiation counters start ticking faster. It seems the town's fate was sealed even before the great cataclysm. |
-| 4   | Crashed Sky Ship   | You spot a Sky Ship crashed into the underside of an otherwise barren island. Its engines are still running, slowly pushing both it and the island into one of the Storm Walls. If left to itself, they will both soon be torn apart by the storm's winds. But whose Sky Ship is it? Does it bear *our* colors? You may have to board it to find out more. |
-| 5   | Argentumite Outpost | It seems the Argentumites are more organized than initially assumed. They have build an outpost into the side of an island. Its defenses are formidable, yet if they could be overcome, the cost could we weighed against a treasure of Silversteel. |
-| 6   | Archipelago        | An island appears to have fractured. Countless chunks of earth are now orbiting its Suspendium core. If the Suspendium could be mined and sent back, the Capital could build more Sky Ships or expand the Capital island. However, approach by Sky Ship is impossible, as the floating earthen chunks could damage it. Difficult and perilous, the trek would have to be made on foot. |
+| D6  | Location                  | Description |
+| --- | ------------------------- | ----------- |
+| 1   | **Silent Battlefield**    | The island is an abandoned battlefield. Archaic cannons are rusting amid barbed wire and surrounded by mud-filled trenches. Whatever war once raged here, has been silenced by the great cataclysm. Ironic. And yet valuable supplies may still be pried from skeletons, and dug up from half-buried bunkers. |
+| 2   | **Factory**               | A solitary factory floats above the clouds. Its crooked chimney stands defiant against the wind, and the structure looks as though it might collapse any moment. The peril of a scavenging run within may be justified, as factories often still hold many valuable supplies. |
+| 3   | **Irradiated Town**       | A town sits quietly, just above the deathly blanket below. Many of the houses look intact and you can even spot trucks surrounded by skeletons. Often a sign of salvageable supplies and weapons. However, as you draw closer, your radiation counters start ticking faster. It seems the town's fate was sealed even before the great cataclysm. |
+| 4   | **Crashed Sky Ship**      | You spot a Sky Ship crashed into the underside of an otherwise barren island. Its engines are still running, slowly pushing both it and the island into one of the Storm Walls. If left to itself, they will both soon be torn apart by the storm's winds. But whose Sky Ship is it? Does it bear *our* colors? You may have to board it to find out more. |
+| 5   | **Argentumite Outpost**   | It seems the Argentumites are more organized than initially assumed. They have build an outpost into the side of an island. Its defenses are formidable, yet if they could be overcome, the cost could we weighed against a treasure of Silversteel. |
+| 6   | **Shard Archipelago**     | An island appears to have fractured. Countless chunks of earth are now orbiting its Suspendium core. If the Suspendium could be mined and sent back, the Capital could build more Sky Ships or expand the Capital island. However, approach by Sky Ship is impossible, as the floating earthen chunks could damage it. Difficult and perilous, the trek would have to be made on foot. |
+
+### Silent Winds Challenges
+| D6 | Challenge                 | Description            | Failure Result |
+| -- | ------------------------- | ---------------------- | -------------- |
+| 1  | **Landmines**             | Explosive traps lie buried, just below the dirt and mud, still poised to go off at a moment's notice. | The Stormbreakers suffer `1D4` Bludgeoning and `1D4` Burning Injuries, to be divided among them. |
+| 2  | **Endless Wire**          | It seems the previous inhabitants sought to solve all their troubles with the application of barbed wire. The stuff is everywhere, barring passage. | The Stormbreakers suffer `1D6` Slashing Injuries, to be divided among them. |
+| 3  | **Volatile Munitions**    | Many ammunition depots linger in the trenches. Most of them are corroded beyond use, but the powder within still holds potential potency. The slightest vibrations could set them off. | The Stormbreakers suffer `1D6` Piercing Injuries, to be divided among them. |
+| 4  | **Blasted Echoes**        | The ghostly shapes of soldiers are stuck in an endless loop of their fierce battle. They jitter and warp, while repeating the last few seconds of their existence before the cataclysm. While they won't pursue the Stormbreakers, their proximity causes a buildup of Corruption. And they're *everywhere*. | All Stormbreakers suffer `+1` Corruption. |
+| 5  | **Corruption Hotbed**     | In this section of the battlefield, the mud is clear as glass, the guns and wire warped into *odd* shapes, and the air crackles aggressively. | The Stormbreakers have wandered into a Corruption Hotbed and each of them suffer `+1` Corruption! |
+| 6  | ****               | . |  |
+
+## Endless Storm
+Beyond the farthest reaches of navigable sky lies the region of a massive superstorm, that inexorably rages on. Do not trust to hope - you will find none here. 
+
+**Storm Wall Tier**: `5`
+
+### Endless Storm Locations
+Aside the randomly pickable locations, there is always **one** location in particular: [The Cradle](#the-cradle).
+
+| D6  | Location                  | Description |
+| --- | ------------------------- | ----------- |
+| 1   | **Battered Sky Ship**     | Could it be? The remnants of a Sky Ship not unlike the Stormbreakers' floats lifelessly, as if pinned in place. In fact, it looks *uncannily* similar to the Stormbreakers'! Wind and lightning batters its surface, but the interior might still be intact. |
+| 2   | **Argentumite Titan**     | A colossal Argentumite looms in the gloom of sinister clouds. You cannot make out its form entirely, but you'd guess its larger than the Capital itself! Fortunately, it's either dead, or uninterested in your presence. There might be a way to get on top of it, or inside it, perhaps. It might even serve as a sort of Argentumite city or carrier Sky Ship. |
+| 3   | **Eye Of The Storm**      |  |
+| 4   | ****      |  |
+| 5   | ****      |  |
+| 6   | ****      |  |
+
+#### The Cradle
+A giant Sky Ship of strange design, made from obsidian and marble, floats effortlessly where the storms rage with fiercest fury, yet untouched by their wrath. Its center bears a giant spherical compartment. Within, the Stormbreakers will find the answer to all the riddles. 
+
+### Endless Storm Challenges
+| D6 | Challenge                 | Description            | Failure Result |
+| -- | ------------------------- | ---------------------- | -------------- |
+| 1  | ****               | . |  |
+| 2  | ****               | . |  |
+| 3  | ****               | . |  |
+| 4  | ****               | . |  |
+| 5  | ****               | . |  |
+| 6  | ****               | . |  |
 
 # Creature Compendium
 A by no means exhaustive list of themed creatures for the GM to draw from. 
@@ -611,10 +838,10 @@ A cyclopean, white and floating sphere that is often seen roaming islands in adv
 **Skills**:
 * Eye-Laser (Awar/Awar): 
   * Shoot a short laser beam at a ST, up to `10` Squares away.
-  * Level: `4`, AP: `2`, Ob: Opposed, Ranged, ST, Innate
-  * `≤ 1` Hit: `6` Burning
-  * `= 2` Hits: `8` Burning
-  * `≥ 3` Hits: `10` Burning
+  * Level: `4`, AP: `2`, Hit(s): unmodified, Ranged, ST, Innate
+  * `≤ 2`: `6` Burning
+  * `3-4` Hits: `8` Burning
+  * `≥ 5` Hits: `10` Burning
 * Shield (Awar/Awar): 
   * **Concentration**: Cover an ally up to `10` Squares away in a shield that absorbs `10` points of damage before bursting.
   * Level: `4`, AP: `2`, Ranged, ST, Innate
@@ -643,10 +870,10 @@ Two tethered, elongated octahedrons, each with a central, beaming eye, float eff
 **Skills**:
 * Spike-Barrage (Agi/Awar): 
   * Shoot a burst of `4` spikes at a ST, up to `15` Squares away.
-  * Level: `5`, AP: `2`, Ob: Opposed, Ranged, ST, Innate
-  * `≤ 1` Hit: `8` Piercing
-  * `= 2` Hits: `11` Piercing
-  * `≥ 3` Hits: `15` Piercing
+  * Level: `5`, AP: `2`, Hit(s): unmodified, Ranged, ST, Innate
+  * `≤ 2`: `8` Piercing
+  * `3-4` Hits: `11` Piercing
+  * `≥ 5` Hits: `15` Piercing
 
 ### Argentumite Attaquant
 A large bipedal Argentumite with a sword and a shield. One of the few that don't float. 
@@ -672,16 +899,16 @@ A large bipedal Argentumite with a sword and a shield. One of the few that don't
 **Skills**:
 * Slash (Agi/Str): 
   * Strike at a ST in melee range with a sword slash. 
-  * Level: `4`, AP: `2`, Ob: Opposed, Melee, ST, Innate
-  * `≤ 1` Hit: `8` Slashing
-  * `= 2` Hits: `10` Slashing
-  * `≥ 3` Hits: `13` Slashing
+  * Level: `4`, AP: `2`, Hit(s): unmodified, Melee, ST, Innate
+  * `≤ 2`: `8` Slashing
+  * `3-4` Hits: `10` Slashing
+  * `≥ 5` Hits: `13` Slashing
 * Shield Slam (Agi/Tough): 
   * Slam your shield at a ST in melee range. 
-  * Level: `4`, AP: `2`, Melee, ST, Innate
-  * `≤ 1` Hit: `6` Bludgeoning; Knock-back `1` Squares
-  * `= 2` Hits: `8` Bludgeoning; Knock-back `2` Squares
-  * `≥ 3` Hits: `10` Bludgeoning; Knock-back `3` Squares
+  * Level: `4`, AP: `2`, Hit(s): unmodified, Melee, ST, Innate
+  * `≤ 2`: `6` Bludgeoning; Knock-back `1` Squares
+  * `3-4` Hits: `8` Bludgeoning; Knock-back `2` Squares
+  * `≥ 5` Hits: `10` Bludgeoning; Knock-back `3` Squares
 
 ### Argentumite Chevalier
 A multi-legged Pegasus-esque Argentumite. It would almost look friendly, if not for the incense burners hanging from its sides spewing Death Fog. And the massive, spiked tail which it uses as a weapon. 
@@ -707,16 +934,16 @@ A multi-legged Pegasus-esque Argentumite. It would almost look friendly, if not 
 **Skills**:
 * Swoop (Agi/Str): 
   * Move in a line, up to `10` Squares away, and strike at all targets in an AoE line. 
-  * Level: `4`, AP: `2`, Ob: 2, Ranged, AoE, Innate
-  * `≤ 1` Hit: `6` Bludgeoning; `3` Squares Knock-back
-  * `= 2` Hits: `8` Bludgeoning; `3` Squares Knock-back
-  * `≥ 3` Hits: `11` Bludgeoning; `4` Squares Knock-back
+  * Level: `4`, AP: `2`, Hit(s): `-1`, Ranged, AoE, Innate
+  * `≤ 2`: `6` Bludgeoning; `3` Squares Knock-back
+  * `3-4` Hits: `8` Bludgeoning; `3` Squares Knock-back
+  * `≥ 5` Hits: `11` Bludgeoning; `4` Squares Knock-back
 * Tail Slam (Str/Str): 
   * Strike at a ST with your spiked tail. 
-  * Level: `4`, AP: `2`, Ob: Opposed, Ranged, ST, Innate
-  * `≤ 1` Hit: `10` Bludgeoning; `3` Squares Knock-back
-  * `= 2` Hits: `12` Bludgeoning; `3` Squares Knock-back
-  * `≥ 3` Hits: `15` Bludgeoning; `4` Squares Knock-back
+  * Level: `4`, AP: `2`, Hit(s): unmodified, Ranged, ST, Innate
+  * `≤ 2`: `10` Bludgeoning; `3` Squares Knock-back
+  * `3-4` Hits: `12` Bludgeoning; `3` Squares Knock-back
+  * `≥ 5` Hits: `15` Bludgeoning; `4` Squares Knock-back
 
 ### Argentumite Plongeur
 This one looks like a diver in one of those bulky diving suits, covered in ethereal algae. Bright light beams from the windows of its helmet and in its vicinity, the air freezes. 
@@ -742,10 +969,10 @@ This one looks like a diver in one of those bulky diving suits, covered in ether
 **Skills**:
 * Blast (Tough/Tough): 
   * Blast all around, in a `5` Square diameter AoE. 
-  * Level: `4`, AP: `2`, Ob: Opposed, Ranged, AoE, Innate
-  * `≤ 1` Hit: `6` Freezing
-  * `= 2` Hits: `8` Freezing
-  * `≥ 3` Hits: `10` Freezing
+  * Level: `4`, AP: `2`, Hit(s): unmodified, Ranged, AoE, Innate
+  * `≤ 2`: `6` Freezing
+  * `3-4` Hits: `8` Freezing
+  * `≥ 5` Hits: `10` Freezing
 * Blink: 
   * Disappear and immediately re-appear in a location of your choosing, up to `20` Squares away.
   * Level: `4`, AP: `2`, Ranged, Innate
@@ -777,19 +1004,19 @@ Giant and authoritative, this Argentumite commands respect, even from its enemie
   * Level: `6`, AP: `3`, Ranged, ST, Innate
 * Command Fear (Str/Tough): 
   * Lift a finger at a ST, up to `20` Squares away and engulf it make it fear for its life!
-  * Level: `6`, AP: `2`, Ob: Opposed, Ranged, ST, Innate
+  * Level: `6`, AP: `2`, Hit(s): unmodified, Ranged, ST, Innate
 * Command Respect (Tough/Wit): 
   * Pull every creature you can see, up to `20` Squares away, closer towards you. 
-  * Level: `6`, AP: `2`, Ob: 2, Ranged, ST, Innate
-  * `≤ 1` Hit: `4` Squares
-  * `= 2` Hits: `5` Squares
-  * `≥ 3` Hits: `7` Squares
+  * Level: `6`, AP: `2`, Hit(s): `-1`, Ranged, ST, Innate
+  * `≤ 2`: `4` Squares
+  * `3-4` Hits: `5` Squares
+  * `≥ 5` Hits: `7` Squares
 * Grand Slash (Str/Str): 
   * Strike at all foes in a `10` Square AoE cone in front of you. 
   * Level: `4`, AP: `3`, Ranged, Aoe, Innate
-  * `≤ 1` Hit: `20` Slashing
-  * `= 2` Hits: `25` Slashing
-  * `≥ 3` Hits: `30` Slashing
+  * `≤ 2`: `20` Slashing
+  * `3-4` Hits: `25` Slashing
+  * `≥ 5` Hits: `30` Slashing
 
 #### Aura Of Death
 This creature is always surrounded in a cloud of Death Fog, dealing `10` Pure damage in a `5` Square AoE diameter around it, to all creatures without Death Fog protection.
