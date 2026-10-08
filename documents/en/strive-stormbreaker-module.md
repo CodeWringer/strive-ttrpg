@@ -565,23 +565,38 @@ Body and mind are affected, reducing motor-skill, coupled with *splitting* heada
 Additions and alterations to the [Core Combat](./strive-core.md#combat) rules. 
 
 ## Attacks Always Hit
-Unlike the normal [Core Rules](./strive-core.md#defending), in this Module, under normal circumstances Attacks in Combat always hit! 
+Unlike in the [Core Rules](./strive-core.md#defending), in this Module, **Attacks in Combat always hit**! Every Attack produces a result, with the number **Effective Hits** determining its severity. 
 
-As such, all Attack are rolled with Ob `0`! The number of Hits achieved determine the Attack's grading, as usual, but the thresholds are different from the normal rules:
+For all Attack rolls, the number of Effective Hits achieved determine the **Attack's Grading**. There is no Obstacle to roll against. The thresholds for the Gradings are as follows:
 * `≤ 2` Hits: A **Glancing Hit**. Low Damage and no effect or a weak one. 
-* `3-4` Hits: A **Solid Hit**. Moderate Damage and a meaningful effect. 
-* `≥ 5` Hits: A **Masterful Hit**. Severe Damage and a powerful effect. 
+* `= 3` Hits: A **Solid Hit**. Moderate Damage and a meaningful effect. 
+* `≥ 4` Hits: A **Masterful Hit**. Severe Damage and a powerful effect. 
 
-Some particularly difficult Attacks may modify the resulting number of Hits you get. 
+The Effective Hits are the number of Hits that actually contribute to the Attack's Grading, after all modifiers have been applied. The Effective Hits are always determined in the following order:
+1. Make the **Attack roll**. 
+2. Apply the **Hit Limit** of your Skill. 
+3. Apply **Hit Modifiers** from your foe's **Defense**, from your **Attack's Modifiers** and from **circumstance**. 
 
-> For example, an Attack might note `-1 Hit(s)`. If you rolled `3` Hits, you only get to count `2`! 
+> You rolled `5` Hits. 
+> 
+> Your Level in the Attack Skill is `3`, thus reducing your Effective Hits down to your Hit Limit of `4`. 
+>
+> Your Attack notes `-1 Hit(s)`, further reducing your Effective Hits to `3`. Also, the Defender spends an AP to further reduce that to `2` Effective Hits. In the end, what might have been a Masterful Hit has been reduced to a Glancing Hit, instead. 
+
+Wherever Ob is concerned in the Core rules in regard to Attacking or Defending, when you reference them, convert as follows:
+* `+X` Ob = `-X` Hit(s) 
+* `-X` Ob = `+X` Hit(s) 
+
+> 'The Attacker suffers `+1` Ob' would read in this Module as 'The Attacker suffers `-1` Hit'.
 
 ## Defending
-Attacks may always land, you do still have *some* means to counteract, as a Defender. While you can no longer prevent Attacks from hitting you, you *can* reduce how badly you are affected, by reducing the effective number of Hits the Attacker gets! 
+Attacks may always land, but Defenders have ways to mitigate their severity. 
 
-* You can spend one point of [Guarded](./strive-core.md#guarded) to reduce the Attacker's Hits by `-2`!
+* You can spend one point of [Guarded](./strive-core.md#guarded) to reduce the Attacker's Hits by `-2`! This is a very powerful means of mitigating an Attack!
 * You can spend one AP to reduce the Attacker's Hits by `-1`! This works both as Regular Defense and Emergency Defense. 
 * If you have no points in Guarded, no AP left, and already spent all Emergency Defenses, you can no longer reduce the Attacker's Hits! 
+
+> An Attacker with `4` rolled Hits normally achieves a Masterful Hit. As a Defender, spend `1` AP and that becomes `3` Hits, which degrades it to a Solid Hit. Spend `1` Guarded and it becomes `2` Hits, which reduces it **further**, down to a Glancing Hit! 
 
 ## Burst Attacks
 With the modern age, come modern means of murder. Attacks that allow for a **Burst**, get bonus dice for the Attack roll and bonus Damage, each equal to the Burst value, but also suffer Hit(s) `-1`.
@@ -655,33 +670,33 @@ All Armors are unstackable.
 ### Weapons
 | Tier | Weapon                   | Bulk | Supply Cost | Max. Stack Size | Skill                 | Properties                                                         | Damage & Effects   | Description        |
 | ---- | ------------------------ | ---- | ----------- | --------------- | --------------------- | ------------------------------------------------------------------ | ------------------ | ------------------ |
-| 0    | Burner Pistol            | 2    | 3           | 1               | Special Weapons       | Ranged: `5`, Ammo: `15` Fuel                                       | `≤ 2`: `3` Burning <br> `3-4` Hits: `5` Burning <br> `≥ 5` Hits: `7` Burning | A prototype flame-throwing weapon. Uses Fuel instead of Bullets as ammo. |
+| 0    | Burner Pistol            | 2    | 3           | 1               | Special Weapons       | Ranged: `5`, Ammo: `15` Fuel                                       | `≤ 2`: `3` Burning <br> `= 3` Hits: `5` Burning <br> `≥ 4` Hits: `7` Burning | A prototype flame-throwing weapon. Uses Fuel instead of Bullets as ammo. |
 | 0    | Fragmentation Grenade    | 1    | 3           | 3               | Throwing              | Thrown                                                             | `8` Piercing + `8` Bludgeoning + `3` Burning | Stacks up to `3`; A throwable fragmentation grenade and a staple of trench warfare - before the cataclysm. Simple, but effective. |
-| 0    | Krauser Semi-Auto Pistol | 1    | 3           | 1               | Firearms              | Ranged: `6`, Ammo: `6`, Semi-Auto                                  | `≤ 2`: `6` Piercing <br> `3-4` Hits: `6` Piercing <br> `≥ 5` Hits: `7` Piercing | The mass-produced Krauser semi-auto pistol is a reliable, though not particularly deadly personal defence weapon. |
-| 0    | Maksim Rifle             | 3    | 3           | 1               | Firearms              | Ranged: `20`, Ammo: `6`, Bolt-Action, Slow Reload                  | `≤ 2`: `10` Piercing <br> `3-4` Hits: `12` Piercing <br> `≥ 5` Hits: `15` Piercing | The mass-produced Maksim bolt-action rifle is reliable and powerful, but also bulky and slow. |
-| 0    | Trench Shovel            | 2    | 3           | 1               | Close Quarters Combat | Melee                                                              | `≤ 2`: `5` Slashing <br> `3-4` Hits: `6` Slashing <br> `≥ 5` Hits: `7` Slashing | A standard-issue digging implement with sharp edges. Trusty and reliable. |
-| 1    | Flamethrower             | 3    | 5           | 1               | Special Weapons       | Ranged: `8`, Ammo: `10` Fuel                                       | `≤ 2`: `5` Burning <br> `3-4` Hits: `8` Burning <br> `≥ 5` Hits: `11` Burning | A flame-throwing weapon. Uses Fuel instead of Bullets as ammo. |
+| 0    | Krauser Semi-Auto Pistol | 1    | 3           | 1               | Firearms              | Ranged: `6`, Ammo: `6`, Semi-Auto                                  | `≤ 2`: `6` Piercing <br> `= 3` Hits: `6` Piercing <br> `≥ 4` Hits: `7` Piercing | The mass-produced Krauser semi-auto pistol is a reliable, though not particularly deadly personal defence weapon. |
+| 0    | Maksim Rifle             | 3    | 3           | 1               | Firearms              | Ranged: `20`, Ammo: `6`, Bolt-Action, Slow Reload                  | `≤ 2`: `10` Piercing <br> `= 3` Hits: `12` Piercing <br> `≥ 4` Hits: `15` Piercing | The mass-produced Maksim bolt-action rifle is reliable and powerful, but also bulky and slow. |
+| 0    | Trench Shovel            | 2    | 3           | 1               | Close Quarters Combat | Melee                                                              | `≤ 2`: `5` Slashing <br> `= 3` Hits: `6` Slashing <br> `≥ 4` Hits: `7` Slashing | A standard-issue digging implement with sharp edges. Trusty and reliable. |
+| 1    | Flamethrower             | 3    | 5           | 1               | Special Weapons       | Ranged: `8`, Ammo: `10` Fuel                                       | `≤ 2`: `5` Burning <br> `= 3` Hits: `8` Burning <br> `≥ 4` Hits: `11` Burning | A flame-throwing weapon. Uses Fuel instead of Bullets as ammo. |
 | 1    | Flash Grenade            | 1    | 5           | 3               | Throwing              | Thrown                                                             | Blinds all creatures who look into the flash for `3` Rounds. They suffer `+1` Ob to all Tests. | Stacks up to `3`; A throwable flash grenade designed for the non-violent quelling of riots, which may also find use in the field. |
 | 1    | Gas Grenade              | 1    | 5           | 3               | Throwing              | Thrown                                                             | Releases a noxious cloud of gas, in a `3` Square diameter, which causes `10` Acid damage. its | Stacks up to `3`; A throwable gas grenade useful for area-denial. |
 | 1    | Hetzer Machine Gun       | 5    | 5           | 1               | Firearms              | Ranged: `10`, Ammo: `60`, Automatic, Very Slow Reload, Burst: `3`  | `8` Piercing | A bulky and heavy machine gun with a moderate rate of fire, but well suited to suppression fire. |
-| 1    | Maksim II Rifle          | 3    | 5           | 1               | Firearms              | Ranged: `15`, Ammo: `12`, Semi-Auto, Slow Reload                   | `≤ 2`: `10` Piercing <br> `3-4` Hits: `11` Piercing <br> `≥ 5` Hits: `12` Piercing | An innovation of the Maksim Rifle allows it to be magazine-fed and become semi-auto, at the cost of power. |
-| 1    | Standard Saber           | 2    | 5           | 1               | Close Quarters Combat | Melee                                                              | `≤ 2`: `7` Slashing <br> `3-4` Hits: `7` Slashing <br> `≥ 5` Hits: `8` Slashing | A simple officer's saber. A bit heavy in hand, but reliable. |
-| 2    | Artyar SMG               | 3    | 8           | 1               | Firearms              | Ranged: `10`, Ammo: `20`, Automatic, Slow Reload, Burst: `3`       | `≤ 2`: `6` Piercing <br> `3-4` Hits: `7` Piercing <br> `≥ 5` Hits: `8` Piercing | An innovative design, though somewhat clumsy, this submachine gun borrows pieces from the Maksim II rifle with an automatic feeder mechanism, enabling automatic fire. To support the higher magazine capacity, the ammo had to be down-sized. |
-| 2    | Assault Sword            | 2    | 8           | 1               | Close Quarters Combat | Melee                                                              | `≤ 2`: `8` Slashing <br> `3-4` Hits: `10` Slashing <br> `≥ 5` Hits: `13` Slashing | A well designed and finely crafted, sturdy blade to dominate close quarters combat. |
+| 1    | Maksim II Rifle          | 3    | 5           | 1               | Firearms              | Ranged: `15`, Ammo: `12`, Semi-Auto, Slow Reload                   | `≤ 2`: `10` Piercing <br> `= 3` Hits: `11` Piercing <br> `≥ 4` Hits: `12` Piercing | An innovation of the Maksim Rifle allows it to be magazine-fed and become semi-auto, at the cost of power. |
+| 1    | Standard Saber           | 2    | 5           | 1               | Close Quarters Combat | Melee                                                              | `≤ 2`: `7` Slashing <br> `= 3` Hits: `7` Slashing <br> `≥ 4` Hits: `8` Slashing | A simple officer's saber. A bit heavy in hand, but reliable. |
+| 2    | Artyar SMG               | 3    | 8           | 1               | Firearms              | Ranged: `10`, Ammo: `20`, Automatic, Slow Reload, Burst: `3`       | `≤ 2`: `6` Piercing <br> `= 3` Hits: `7` Piercing <br> `≥ 4` Hits: `8` Piercing | An innovative design, though somewhat clumsy, this submachine gun borrows pieces from the Maksim II rifle with an automatic feeder mechanism, enabling automatic fire. To support the higher magazine capacity, the ammo had to be down-sized. |
+| 2    | Assault Sword            | 2    | 8           | 1               | Close Quarters Combat | Melee                                                              | `≤ 2`: `8` Slashing <br> `= 3` Hits: `10` Slashing <br> `≥ 4` Hits: `13` Slashing | A well designed and finely crafted, sturdy blade to dominate close quarters combat. |
 | 2    | Corrosion Grenade        | 1    | 8           | 3               | Throwing              | Thrown                                                             | `8` Acid | A large, bulbous hand grenade. Contained within are two liquids that, when combined, become a strong but fleeting acid, capable of melting steel within seconds before becoming harmless. |
 | 3    | Cryogenic Grenade        | 1    | 10          | 3               | Throwing              | Thrown                                                             | `10` Freezing | An innovative application of liquid nitrogen, contained in a delicate shell, ready to be dispersed by a tiny explosive charge. In other words - a 'freeze grenade'. |
-| 3    | Cryogenitor              | 4    | 10          | 1               | Special Weapons       | Ranged: `10`, Ammo: `10` Fuel                                      | `≤ 2`: `8` Freezing <br> `3-4` Hits: `10` Freezing <br> `≥ 5` Hits: `12` Freezing | Spews liquid nitrogen at range, instantly freezing whatever it hits. Uses Fuel instead of Bullets as ammo. |
-| 3    | Hellgater                | 4    | 10          | 1               | Special Weapons       | Ranged: `15`, Ammo: `5` Fuel                                       | `≤ 2`: `8` Burning; `1` Square burns <br> `3-4` Hits: `10` Burning; `2` Squares burn <br> `≥ 5` Hits: `13` Burning; `3` Squares burn | A flame-throwing weapon that can leave Squares burning for `2` Rounds. Anyone who stands on those Squares suffers an additional `3` Burning Damage every Tick. Uses Fuel instead of Bullets as ammo. |
-| 3    | Maksim III Rifle         | 3    | 10          | 1               | Firearms              | Ranged: `30`, Ammo: `12`, Semi-Auto, Slow Reload                   | `≤ 2`: `12` Piercing <br> `3-4` Hits: `14` Piercing <br> `≥ 5` Hits: `16` Piercing | Outfitted with a powerful scope and a slightly lengthened barrel, this Maksim elevates the art of the sharpshooter. |
-| 4    | Kijser Assault Rifle     | 3    | 15          | 1               | Firearms              | Ranged: `20`, Ammo: `20`, Automatic, Burst: `3`                    | `≤ 2`: `10` Piercing <br> `3-4` Hits: `11` Piercing <br> `≥ 5` Hits: `12` Piercing | A powerful and ergonomic assault rifle and in fact the first of its kind. In skilled hands, it is a deadly weapon. |
-| 4    | Rahvalod Machine Gun     | 4    | 15          | 1               | Firearms              | Ranged: `10`, Ammo: `100`, Automatic, Very Slow Reload, Burst: `6` | `≤ 2`: `8` Piercing <br> `3-4` Hits: `10` Piercing <br> `≥ 5` Hits: `12` Piercing | A powerful, fast-firing machine gun.  |
+| 3    | Cryogenitor              | 4    | 10          | 1               | Special Weapons       | Ranged: `10`, Ammo: `10` Fuel                                      | `≤ 2`: `8` Freezing <br> `= 3` Hits: `10` Freezing <br> `≥ 4` Hits: `12` Freezing | Spews liquid nitrogen at range, instantly freezing whatever it hits. Uses Fuel instead of Bullets as ammo. |
+| 3    | Hellgater                | 4    | 10          | 1               | Special Weapons       | Ranged: `15`, Ammo: `5` Fuel                                       | `≤ 2`: `8` Burning; `1` Square burns <br> `= 3` Hits: `10` Burning; `2` Squares burn <br> `≥ 4` Hits: `13` Burning; `3` Squares burn | A flame-throwing weapon that can leave Squares burning for `2` Rounds. Anyone who stands on those Squares suffers an additional `3` Burning Damage every Tick. Uses Fuel instead of Bullets as ammo. |
+| 3    | Maksim III Rifle         | 3    | 10          | 1               | Firearms              | Ranged: `30`, Ammo: `12`, Semi-Auto, Slow Reload                   | `≤ 2`: `12` Piercing <br> `= 3` Hits: `14` Piercing <br> `≥ 4` Hits: `16` Piercing | Outfitted with a powerful scope and a slightly lengthened barrel, this Maksim elevates the art of the sharpshooter. |
+| 4    | Kijser Assault Rifle     | 3    | 15          | 1               | Firearms              | Ranged: `20`, Ammo: `20`, Automatic, Burst: `3`                    | `≤ 2`: `10` Piercing <br> `= 3` Hits: `11` Piercing <br> `≥ 4` Hits: `12` Piercing | A powerful and ergonomic assault rifle and in fact the first of its kind. In skilled hands, it is a deadly weapon. |
+| 4    | Rahvalod Machine Gun     | 4    | 15          | 1               | Firearms              | Ranged: `10`, Ammo: `100`, Automatic, Very Slow Reload, Burst: `6` | `≤ 2`: `8` Piercing <br> `= 3` Hits: `10` Piercing <br> `≥ 4` Hits: `12` Piercing | A powerful, fast-firing machine gun.  |
 
 ### Sky Ship Weapons
 | Tier | Weapon                   | Supply Cost | Properties                                                        | Damage & Effects   | Description        |
 | ---- | ------------------------ | ----------- | ----------------------------------------------------------------- | ------------------ | ------------------ |
-| 1    | Light Cannon             | 10          | Ranged: `2`, Ammo: `1`, Size: `1`                                 | `≤ 2`: `15` Piercing <br> `3-4` Hits: `18` Piercing <br> `≥ 5` Hits: `21` Piercing | A low-caliber ship cannon with a single barrel well suited to taking down smaller targets. |
-| 2    | Heavy Cannon             | 10          | Ranged: `6`, Ammo: `1`, Size: `3`, Very Slow Reload               | `≤ 2`: `20` Piercing <br> `3-4` Hits: `25` Piercing <br> `≥ 5` Hits: `30` Piercing | A massive turret with an oppressively large barrel. A mainstay of Sky Ship armament. |
-| 3    | Salvo Cannon             | 10          | Ranged: `5`, Ammo: `3`, Burst: `3`, Size: `3`, Slow Reload        | `≤ 2`: `17` Piercing <br> `3-4` Hits: `20` Piercing <br> `≥ 5` Hits: `23` Piercing | This turret boasts three larger caliber guns in place of a single, large one. It discharges in salvos, greatly increasing the chance to land devastating hits. Its Burst Damage is already pre-calculated here. |
+| 1    | Light Cannon             | 10          | Ranged: `2`, Ammo: `1`, Size: `1`                                 | `≤ 2`: `15` Piercing <br> `= 3` Hits: `18` Piercing <br> `≥ 4` Hits: `21` Piercing | A low-caliber ship cannon with a single barrel well suited to taking down smaller targets. |
+| 2    | Heavy Cannon             | 10          | Ranged: `6`, Ammo: `1`, Size: `3`, Very Slow Reload               | `≤ 2`: `20` Piercing <br> `= 3` Hits: `25` Piercing <br> `≥ 4` Hits: `30` Piercing | A massive turret with an oppressively large barrel. A mainstay of Sky Ship armament. |
+| 3    | Salvo Cannon             | 10          | Ranged: `5`, Ammo: `3`, Burst: `3`, Size: `3`, Slow Reload        | `≤ 2`: `17` Piercing <br> `= 3` Hits: `20` Piercing <br> `≥ 4` Hits: `23` Piercing | This turret boasts three larger caliber guns in place of a single, large one. It discharges in salvos, greatly increasing the chance to land devastating hits. Its Burst Damage is already pre-calculated here. |
 
 ## List of Skills
 
@@ -694,17 +709,17 @@ Performing acrobatic feats, such as jumping, tumbling and climbing, without inju
 | Level | Name                 | AP | Hit(s)  | Description        |
 | ----- | -------------------- | -- | ------- | ------------------ |
 | 1     | Dodge                | 1  |         | While not wearing any [Armor](#armor) or wearing Armor whose Bulk is no more than `1`, and not wielding a shield of Bulk `2+`, you may completely avoid an enemy's [Glancing Hit](#attacks-always-hit) on you! |
-| 2     | Wind Out Of It       | 2  | -1      | When hit by an Attack, lose `-1` [Stamina](#stamina--strain), wind out of the hit and... <br> `≤ 2`: suffer `3` points of Damage less. <br> `3-4`: suffer `5` points of Damage less <br> `≥ 5`: suffer `8 or half (RU)` Damage less, picking whichever number is higher. |
+| 2     | Wind Out Of It       | 2  | -1      | When hit by an Attack, lose `-1` [Stamina](#stamina--strain), wind out of the hit and... <br> `≤ 2`: suffer `3` points of Damage less. <br> `= 3`: suffer `5` points of Damage less <br> `≥ 4`: suffer `8 or half (RU)` Damage less, picking whichever number is higher. |
 
 #### Close Quarters Combat (Agi/Str)
 Skill for any melee weapon and unarmed combat. 
 
 | Level | Name                   | AP | Hit(s)  | Description <br> Damage                   |
 | ----- | ---------------------- | -- | ------- | ----------------------------------------- |
-| 0     | Punch, Kick, Headbutt  | 2  |         | `≤ 2`: `Str` Bludgeoning <br> `3-4`: `Str * 2` Bludgeoning <br> `≥ 5`: `Str * 2` Bludgeoning; Knock your opponent [Prone](#prone) |
-| 0     | Shove                  | 2  |         | `≤ 2`: Push a target `1` Square. <br> `3-4`: Push a target `2` Squares and take their place, if you desire. Does not provoke [Opportunity Attacks](#opportunity-attacks). <br> `≥ 5`: Push a target `1 + Str` Squares and take their place, if you desire. Does not provoke [Opportunity Attacks](#opportunity-attacks). |
+| 0     | Punch, Kick, Headbutt  | 2  |         | `≤ 2`: `Str` Bludgeoning <br> `= 3`: `Str * 2` Bludgeoning <br> `≥ 4`: `Str * 2` Bludgeoning; Knock your opponent [Prone](#prone) |
+| 0     | Shove                  | 2  |         | `≤ 2`: Push a target `1` Square. <br> `= 3`: Push a target `2` Squares and take their place, if you desire. Does not provoke [Opportunity Attacks](#opportunity-attacks). <br> `≥ 4`: Push a target `1 + Str` Squares and take their place, if you desire. Does not provoke [Opportunity Attacks](#opportunity-attacks). |
 | 0     | Weapon Strike          | 2  |         | Strike a ST with a melee weapon. The Damage is determined by the weapon you use. |
-| 1     | Grapple                | 2  |         | [Grapple](#grappled) a target. You can not use at least one hand for as long as you're grappling. <br> `≤ 2`: The target is [Grappled](#grappled). <br> `3-4`: The target is [Grappled](#grappled) and knocked [Prone](#prone) or disarmed, if possible. <br> `≥ 5`: The target is [Grappled](#grappled), knocked [Prone](#prone) and disarmed, if possible. |
+| 1     | Grapple                | 2  |         | [Grapple](#grappled) a target. You can not use at least one hand for as long as you're grappling. <br> `≤ 2`: The target is [Grappled](#grappled). <br> `= 3`: The target is [Grappled](#grappled) and knocked [Prone](#prone) or disarmed, if possible. <br> `≥ 4`: The target is [Grappled](#grappled), knocked [Prone](#prone) and disarmed, if possible. |
 | 1     | Blade Barrier          | 3  |         | Until the start of your next Turn, whenever any Character moves **into** a spot within reach, you may **freely** attack that Character with a **Slash** at Hit(s) `-1` and, if Solid or better, force them back `1` Square. |
 | 2     | Cleave                 | 3  | -1      | Attack up to `3` targets at once, in a `2` Square AoE cone in front of you. The Damage is determined by the weapon you use. |
 
@@ -959,8 +974,8 @@ A cyclopean, white and floating sphere that is often seen roaming islands in adv
   * Shoot a short laser beam at a ST, up to `10` Squares away.
   * Level: `4`, AP: `2`, Hit(s): unmodified, Ranged, ST, Innate
   * `≤ 2`: `6` Burning
-  * `3-4` Hits: `8` Burning
-  * `≥ 5` Hits: `10` Burning
+  * `= 3` Hits: `8` Burning
+  * `≥ 4` Hits: `10` Burning
 * Shield (Awar/Awar): 
   * **Concentration**: Cover an ally up to `10` Squares away in a shield that absorbs `10` points of damage before bursting.
   * Level: `4`, AP: `2`, Ranged, ST, Innate
@@ -991,8 +1006,8 @@ Two tethered, elongated octahedrons, each with a central, beaming eye, float eff
   * Shoot a burst of `4` spikes at a ST, up to `15` Squares away.
   * Level: `5`, AP: `2`, Hit(s): unmodified, Ranged, ST, Innate
   * `≤ 2`: `8` Piercing
-  * `3-4` Hits: `11` Piercing
-  * `≥ 5` Hits: `15` Piercing
+  * `= 3` Hits: `11` Piercing
+  * `≥ 4` Hits: `15` Piercing
 
 ### Argentumite Attaquant
 A large bipedal Argentumite with a sword and a shield. One of the few that don't float. 
@@ -1020,14 +1035,14 @@ A large bipedal Argentumite with a sword and a shield. One of the few that don't
   * Strike at a ST in melee range with a sword slash. 
   * Level: `4`, AP: `2`, Hit(s): unmodified, Melee, ST, Innate
   * `≤ 2`: `8` Slashing
-  * `3-4` Hits: `10` Slashing
-  * `≥ 5` Hits: `13` Slashing
+  * `= 3` Hits: `10` Slashing
+  * `≥ 4` Hits: `13` Slashing
 * Shield Slam (Agi/Tough): 
   * Slam your shield at a ST in melee range. 
   * Level: `4`, AP: `2`, Hit(s): unmodified, Melee, ST, Innate
   * `≤ 2`: `6` Bludgeoning; Knock-back `1` Squares
-  * `3-4` Hits: `8` Bludgeoning; Knock-back `2` Squares
-  * `≥ 5` Hits: `10` Bludgeoning; Knock-back `3` Squares
+  * `= 3` Hits: `8` Bludgeoning; Knock-back `2` Squares
+  * `≥ 4` Hits: `10` Bludgeoning; Knock-back `3` Squares
 
 ### Argentumite Chevalier
 A multi-legged Pegasus-esque Argentumite. It would almost look friendly, if not for the incense burners hanging from its sides spewing Death Fog. And the massive, spiked tail which it uses as a weapon. 
@@ -1055,14 +1070,14 @@ A multi-legged Pegasus-esque Argentumite. It would almost look friendly, if not 
   * Move in a line, up to `10` Squares away, and strike at all targets in an AoE line. 
   * Level: `4`, AP: `2`, Hit(s): `-1`, Ranged, AoE, Innate
   * `≤ 2`: `6` Bludgeoning; `3` Squares Knock-back
-  * `3-4` Hits: `8` Bludgeoning; `3` Squares Knock-back
-  * `≥ 5` Hits: `11` Bludgeoning; `4` Squares Knock-back
+  * `= 3` Hits: `8` Bludgeoning; `3` Squares Knock-back
+  * `≥ 4` Hits: `11` Bludgeoning; `4` Squares Knock-back
 * Tail Slam (Str/Str): 
   * Strike at a ST with your spiked tail. 
   * Level: `4`, AP: `2`, Hit(s): unmodified, Ranged, ST, Innate
   * `≤ 2`: `10` Bludgeoning; `3` Squares Knock-back
-  * `3-4` Hits: `12` Bludgeoning; `3` Squares Knock-back
-  * `≥ 5` Hits: `15` Bludgeoning; `4` Squares Knock-back
+  * `= 3` Hits: `12` Bludgeoning; `3` Squares Knock-back
+  * `≥ 4` Hits: `15` Bludgeoning; `4` Squares Knock-back
 
 ### Argentumite Plongeur
 This one looks like a diver in one of those bulky diving suits, covered in ethereal algae. Bright light beams from the windows of its helmet and in its vicinity, the air freezes. 
@@ -1090,8 +1105,8 @@ This one looks like a diver in one of those bulky diving suits, covered in ether
   * Blast all around, in a `5` Square diameter AoE. 
   * Level: `4`, AP: `2`, Hit(s): unmodified, Ranged, AoE, Innate
   * `≤ 2`: `6` Freezing
-  * `3-4` Hits: `8` Freezing
-  * `≥ 5` Hits: `10` Freezing
+  * `= 3` Hits: `8` Freezing
+  * `≥ 4` Hits: `10` Freezing
 * Blink: 
   * Disappear and immediately re-appear in a location of your choosing, up to `20` Squares away.
   * Level: `4`, AP: `2`, Ranged, Innate
@@ -1128,14 +1143,14 @@ Giant and authoritative, this Argentumite commands respect, even from its enemie
   * Pull every creature you can see, up to `20` Squares away, closer towards you. 
   * Level: `6`, AP: `2`, Hit(s): `-1`, Ranged, ST, Innate
   * `≤ 2`: `4` Squares
-  * `3-4` Hits: `5` Squares
-  * `≥ 5` Hits: `7` Squares
+  * `= 3` Hits: `5` Squares
+  * `≥ 4` Hits: `7` Squares
 * Grand Slash (Str/Str): 
   * Strike at all foes in a `10` Square AoE cone in front of you. 
   * Level: `4`, AP: `3`, Ranged, Aoe, Innate
   * `≤ 2`: `20` Slashing
-  * `3-4` Hits: `25` Slashing
-  * `≥ 5` Hits: `30` Slashing
+  * `= 3` Hits: `25` Slashing
+  * `≥ 4` Hits: `30` Slashing
 
 #### Aura Of Death
 This creature is always surrounded in a cloud of Death Fog, dealing `10` Pure damage in a `5` Square AoE diameter around it, to all creatures without Death Fog protection.
