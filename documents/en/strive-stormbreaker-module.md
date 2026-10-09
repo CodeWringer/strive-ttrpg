@@ -11,6 +11,7 @@
 * More Mechanite technology
 * More Dieselpunk themed Skills
 * Supernatural abilities -> broad roster of psionics?
+  * Skills that consume Marked for powerful debuffs
 * Special weapons -> Flamethrowers, Gun emplacements, mortars, grenade launchers, etc.
 * Define ways to acquire Silversteel
 * Define short-cuts for Projects
@@ -82,7 +83,18 @@ This will be a far more directed experience than usual, tailor-cut for shorter c
 - [Combat](#combat)
   - [Attacks Always Hit](#attacks-always-hit)
   - [Defending](#defending)
+    - [AoE Defense](#aoe-defense)
+    - [Defending An Ally](#defending-an-ally)
   - [Burst Attacks](#burst-attacks)
+  - [Core Changes](#core-changes)
+    - [Cover](#cover)
+    - [Flanking](#flanking)
+    - [Prone](#prone)
+    - [Frostbitten](#frostbitten)
+    - [Weapon Trait Adjustments](#weapon-trait-adjustments)
+        - [Foundational Weapon Trait Adjustments](#foundational-weapon-trait-adjustments)
+        - [Offensive Weapon Trait Adjustments](#offensive-weapon-trait-adjustments)
+        - [Defensive Weapon Traits](#defensive-weapon-traits)
   - [Sky Ship Combat](#sky-ship-combat)
 - [Appendix](#appendix)
   - [Assets Appendix](#assets-appendix)
@@ -575,13 +587,21 @@ For all Attack rolls, the number of Effective Hits achieved determine the **Atta
 The Effective Hits are the number of Hits that actually contribute to the Attack's Grading, after all modifiers have been applied. The Effective Hits are always determined in the following order:
 1. Make the **Attack roll**. 
 2. Apply the **Hit Limit** of your Skill. 
-3. Apply **Hit Modifiers** from your foe's **Defense**, from your **Attack's Modifiers** and from **circumstance**. 
+3. Apply **Hit Modifiers** from your foe's **Defense**, from your **Attack's Modifiers** and from **circumstance**. Consider each of the following, if they apply: 
+   1. [Defense](#defending)
+   2. [Burst Attack](#burst-attacks)
+   3. [Flanking](#flanking)
+   4. [Cover](#cover)
+   5. Conditions: [Prone](#prone), [Frostbitten](#frostbitten)
+   6. [Weapon Traits](#weapon-trait-adjustments)
 
 > You rolled `5` Hits. 
 > 
 > Your Level in the Attack Skill is `3`, thus reducing your Effective Hits down to your Hit Limit of `4`. 
 >
 > Your Attack notes `-1 Hit(s)`, further reducing your Effective Hits to `3`. Also, the Defender spends an AP to further reduce that to `2` Effective Hits. In the end, what might have been a Masterful Hit has been reduced to a Glancing Hit, instead. 
+
+Note that the Effective Hits cn never be reduced to less than `1`. 
 
 Wherever Ob is concerned in the Core rules in regard to Attacking or Defending, when you reference them, convert as follows:
 * `+X` Ob = `-X` Hit(s) 
@@ -598,6 +618,12 @@ Attacks may always land, but Defenders have ways to mitigate their severity.
 
 > An Attacker with `4` rolled Hits normally achieves a Masterful Hit. As a Defender, spend `1` AP and that becomes `3` Hits, which degrades it to a Solid Hit. Spend `1` Guarded and it becomes `2` Hits, which reduces it **further**, down to a Glancing Hit! 
 
+### AoE Defense
+Defending against an Aoe Attack follows the same principle as other Attacks. You may reduce the Attacker's Effective Hits to mitigate the effects that affect **you**, and only you. This Defense works on a per-Character basis. Everyone affected must Defend themselves, although they may also be [Defended by an ally](#defending-an-ally) to the same effect. 
+
+### Defending An Ally
+Defending an ally is still possible. Instead of your ally, *you* may spend resources to reduce the Effective Hits of an Attack targeting them. This works the same way as if your ally had spent the resources to Defend themselves. 
+
 ## Burst Attacks
 With the modern age, come modern means of murder. Attacks that allow for a **Burst**, get bonus dice for the Attack roll and bonus Damage, each equal to the Burst value, but also suffer Hit(s) `-1`.
 
@@ -608,6 +634,52 @@ In case of ammo-fed weapons, the Burst value is also the amount of ammunition th
 > 2. The Attack always deals `+3` Damage of its primary Damage Type. 
 > 3. You must remove `1` Hit that you achieved. 
 > 4. You must reduce your ammunition count by `3` points. 
+
+## Core Changes
+Additional significant Core rule changes are summarized here:
+
+### Cover
+See also [Core Cover](./strive-core.md#cover).
+
+* **Low Cover**: `-1` Hit(s); Go [Prone](./strive-core.md#prone) to turn it into High Cover. 
+* **High Cover**: `-2` Hit(s)
+
+### Flanking
+See also [Core Flanking](./strive-core.md#flanking).
+
+* **Unthreatened**: armor and shield protect fully. No Defense penalties. 
+* **Flanked**: armor and shield protect only half (RU) as much. `+1` Hit(s) for an Attacker. 
+* **Surrounded**: armor and shield no longer protect **at all**. `+2` Hit(s) for an Attacker. 
+
+### Prone
+See also [Core Prone](./strive-core.md#prone).
+
+Ranged Attacks against a Prone target suffer `-1` Hit(s), but the Proned Character counts as `+1` degree of [Flanked](#flanking), in melee. 
+
+### Frostbitten
+See also [Core Frostbitten](./strive-core.md#frostbitten).
+
+For every point in **Frostbitten**, a Character suffers `-1D` to all [Tests](#tests) and `-1` Hit(s) to all Attack rolls. 
+
+### Weapon Trait Adjustments
+See also [Core Weapon Traits](./strive-core.md#weapon-traits).
+
+##### Foundational Weapon Trait Adjustments
+| Foundational Weapon Trait |                                                                              | Description                                                                                   | 
+| ------------------------- | ---------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------- |
+| **Prefer Range**          |                                                                              | `-2` Hit(s) to using the weapon against an adjacent target. |
+
+##### Offensive Weapon Trait Adjustments
+| Offensive Weapon Traits | Description                                                                                   | 
+| ----------------------- | --------------------------------------------------------------------------------------------- |
+| **Punishing**           | When a foe reduces an Attack made with this weapon to a Glancing Hit, they suffer `Q` Pure Damage. |
+
+##### Defensive Weapon Traits
+| Defensive Weapon Traits | Description                                                                                   | 
+| ----------------------- | --------------------------------------------------------------------------------------------- |
+| **Anchoring**           | Once per Round, when being [Force-Moved](#forced-movement), you are moved `Q` Squares less. |
+| **Protecting**          | Once per Round, reduce the Effective Hits of an Attack against an **adjacent ally** by `1`. |
+| **Riposting**           | Once per Round, when being Attacked, you may make one free [Counter-Attack](#counter-attack) with this weapon, but at with `-1` Hit(s). |
 
 ## Sky Ship Combat
 Ship-to-ship Combat plays out like normal Combat, with some significant differences:
@@ -942,6 +1014,8 @@ A by no means exhaustive list of themed creatures for the GM to draw from.
 
 In the Characteristics blocks below, when armor is concerned, it may be noted in the form `U/F/S/O`, which are simply the pre-calculated values the armor provides under consideration of the degrees of [Flanking](./strive-core.md#flanking). The order is always: Unthreatened, Flanked, Surrounded and Overwhelmed. However, armor may also be noted as a plain value, e. g. `5`, which implies the creature does not suffer [Flanking](./strive-core.md#flanking).
 
+Also note that "Def" is a static modifier to an Attacker's [Effective Hits](#attacks-always-hit), that always applies. If none is noted, the Attacker's Effective Hits are always unmodified by the creature in question. 
+
 ## Argentumites
 It is widely known that the clouds beneath may harbor no life, for all living things that pass through wither and die in mere moments. And yet strange creatures, made of Silversteel regularly emerge from the blanket below. Dubbed **Argentumites**, sightings of these things always end in conflict and blood. They are relentless killers, seeking out and destroying what remains of our civilization. They do not speak, they do not flinch and they don't take prisoners. 
 
@@ -961,9 +1035,9 @@ A cyclopean, white and floating sphere that is often seen roaming islands in adv
 | ----- | ----- | ----- | ----- | ----- |
 | 2     | 4     | 2     | 2     | 3     |
 
-| BI     | Sprint | Stabil | HP  | Stamina    | FS (Ranged `10`)| Def    | Armor             |
-| ------ | ------ | ------ | --- | ---------- | --------------- | ------ | ----------------- |
-| 7      | 2      | 0      | 20  | 4          | 3 Burning       |        | `8` Slashing; `8` Piercing; `8` Bludgeoning; `8` Burning; Poison immune |
+| BI     | Sprint | Stabil | HP  | Stamina    | FS (Ranged `10`)| Def         | Armor             |
+| ------ | ------ | ------ | --- | ---------- | --------------- | ----------- | ----------------- |
+| 7      | 2      | 0      | 20  | 4          | 3 Burning       |             | `8` Slashing; `8` Piercing; `8` Bludgeoning; `8` Burning; Poison immune |
 
 **Traits**: Always floating; [Fortified Mind](./strive-core.md#fortified-mind--4-points-1-cr); 
 
@@ -993,9 +1067,9 @@ Two tethered, elongated octahedrons, each with a central, beaming eye, float eff
 | ----- | ----- | ----- | ----- | ----- |
 | 5     | 5     | 2     | 3     | 3     |
 
-| BI     | Sprint | Stabil | HP  | Stamina    | FS (Ranged `10`)| Def    | Armor             |
-| ------ | ------ | ------ | --- | ---------- | --------------- | ------ | ----------------- |
-| 13     | 4      | 0      | 30  | 6          | 6 Piercing      |        | `8` Slashing; `8` Piercing; `8` Bludgeoning; `8` Burning; Poison immune |
+| BI     | Sprint | Stabil | HP  | Stamina    | FS (Ranged `10`)| Def         | Armor             |
+| ------ | ------ | ------ | --- | ---------- | --------------- | ----------- | ----------------- |
+| 13     | 4      | 0      | 30  | 6          | 6 Piercing      |             | `8` Slashing; `8` Piercing; `8` Bludgeoning; `8` Burning; Poison immune |
 
 **Traits**: Always floating; [Fortified Mind](./strive-core.md#fortified-mind--4-points-1-cr); 
 
@@ -1022,9 +1096,9 @@ A large bipedal Argentumite with a sword and a shield. One of the few that don't
 | ----- | ----- | ----- | ----- | ----- |
 | 5     | 3     | 5     | 3     | 3     |
 
-| BI     | Sprint | Stabil | HP  | Stamina    | FS (Melee)      | Def    | Armor             |
-| ------ | ------ | ------ | --- | ---------- | --------------- | ------ | ----------------- |
-| 11     | 4      | 2      | 30  | 6          | 6 Slashing      | 3D     | `8` Slashing; `8` Piercing; `8` Bludgeoning; `8` Burning; Poison immune |
+| BI     | Sprint | Stabil | HP  | Stamina    | FS (Melee)      | Def         | Armor             |
+| ------ | ------ | ------ | --- | ---------- | --------------- | ----------- | ----------------- |
+| 11     | 4      | 2      | 30  | 6          | 6 Slashing      | `-1` Hit(s) | `8` Slashing; `8` Piercing; `8` Bludgeoning; `8` Burning; Poison immune |
 
 **Traits**: [Fortified Mind](./strive-core.md#fortified-mind--4-points-1-cr); 
 
@@ -1057,9 +1131,9 @@ A multi-legged Pegasus-esque Argentumite. It would almost look friendly, if not 
 | ----- | ----- | ----- | ----- | ----- |
 | 7     | 4     | 4     | 4     | 3     |
 
-| BI     | Sprint | Stabil | HP  | Stamina    | FS (Ranged `10`)| Def    | Armor             |
-| ------ | ------ | ------ | --- | ---------- | --------------- | ------ | ----------------- |
-| 14     | 5      | 0      | 40  | 8          | 6 Bludgeoning   | 4D     | `8` Slashing; `8` Piercing; `8` Bludgeoning; `8` Burning; Poison immune |
+| BI     | Sprint | Stabil | HP  | Stamina    | FS (Ranged `10`)| Def         | Armor             |
+| ------ | ------ | ------ | --- | ---------- | --------------- | ----------- | ----------------- |
+| 14     | 5      | 0      | 40  | 8          | 6 Bludgeoning   | `-2` Hit(s) | `8` Slashing; `8` Piercing; `8` Bludgeoning; `8` Burning; Poison immune |
 
 **Traits**: Always floating; [Fortified Mind](./strive-core.md#fortified-mind--4-points-1-cr); 
 
@@ -1092,9 +1166,9 @@ This one looks like a diver in one of those bulky diving suits, covered in ether
 | ----- | ----- | ----- | ----- | ----- |
 | 3     | 4     | 2     | 3     | 3     |
 
-| BI     | Sprint | Stabil | HP  | Stamina    | FS (Ranged `10`)| Def    | Armor             |
-| ------ | ------ | ------ | --- | ---------- | --------------- | ------ | ----------------- |
-| 10     | 4      | 0      | 30  | 6          | 5 Freezing      | 2D     | `8` Slashing; `8` Piercing; `8` Bludgeoning; `8` Burning; Poison immune |
+| BI     | Sprint | Stabil | HP  | Stamina    | FS (Ranged `10`)| Def         | Armor             |
+| ------ | ------ | ------ | --- | ---------- | --------------- | ----------- | ----------------- |
+| 10     | 4      | 0      | 30  | 6          | 5 Freezing      | `-1` Hit(s) | `8` Slashing; `8` Piercing; `8` Bludgeoning; `8` Burning; Poison immune |
 
 **Traits**: Always floating; [Fortified Mind](./strive-core.md#fortified-mind--4-points-1-cr); 
 
@@ -1124,9 +1198,9 @@ Giant and authoritative, this Argentumite commands respect, even from its enemie
 | ----- | ----- | ----- | ----- | ----- |
 | 8     | 8     | 10    | 10    | 5     |
 
-| BI     | Sprint | Stabil | HP  | Stamina    | FS (Ranged `15`)| Def    | Armor             |
-| ------ | ------ | ------ | --- | ---------- | --------------- | ------ | ----------------- |
-| 21     | 9      | 3      | 100 | 20         | 10 Piercing     | 3D     | `12` Slashing; `12` Piercing; `12` Bludgeoning; `12` Burning; `6` Freezing; Poison immune |
+| BI     | Sprint | Stabil | HP  | Stamina    | FS (Ranged `15`)| Def         | Armor             |
+| ------ | ------ | ------ | --- | ---------- | --------------- | ----------- | ----------------- |
+| 21     | 9      | 3      | 100 | 20         | 10 Piercing     | `-2` Hit(s) | `12` Slashing; `12` Piercing; `12` Bludgeoning; `12` Burning; `6` Freezing; Poison immune |
 
 **Traits**: Always floating; [Fortified Mind](./strive-core.md#fortified-mind--4-points-1-cr); [Aura of Death](#aura-of-death)
 
