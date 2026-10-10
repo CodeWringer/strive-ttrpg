@@ -3,6 +3,7 @@
 <div style="text-align: center; font-size: 1rem">Version 1 (Playtest)</div>
 
 <!-- TODOs
+* !! Don't modify Hits as often! Modify dice counts! And reduce defensive options to keep the arithmetic steps low
 * World
   * More cultural background, Character name suggestions
   * Stormbreaker uniform
@@ -24,7 +25,7 @@
 -->
 
 # Introduction
-In this Module, the world has shattered more than two-hundred years ago. Chunks of the earth now float in the sky and with them, the remnants of an early industrial world. Players assume the role of the so-called **Stormbreakers**, a knightly order established to break through the great Storm Walls that separate the skies, as the survival of their home depends on it. 
+In this Module, the world has shattered more than two-hundred years ago. Chunks of the earth now float in the sky and with them, the remnants of an early industrial world. Players assume the role of the so-called **Stormbreakers**, a knightly order established to break through the great Storm Walls that separate the skies, as the survival of their home depends on it. The setting carries a Dieselpunk-inspired theme. 
 
 This will be a far more directed experience than usual, tailor-cut for shorter campaigns of many one-shots, featuring survival, combat, politics and hex-crawling. 
 
@@ -82,6 +83,7 @@ This will be a far more directed experience than usual, tailor-cut for shorter c
   - [Resuscitation Syndrome](#resuscitation-syndrome)
 - [Combat](#combat)
   - [Attacks Always Hit](#attacks-always-hit)
+    - [Converting Attack \& Defense Obstacle](#converting-attack--defense-obstacle)
   - [Defending](#defending)
     - [AoE Defense](#aoe-defense)
     - [Defending An Ally](#defending-an-ally)
@@ -100,6 +102,9 @@ This will be a far more directed experience than usual, tailor-cut for shorter c
   - [Assets Appendix](#assets-appendix)
     - [General Assets](#general-assets)
     - [Armors](#armors)
+    - [Shields](#shields)
+      - [Light Shield](#light-shield)
+      - [Heavy Shield](#heavy-shield)
     - [Weapons](#weapons)
     - [Sky Ship Weapons](#sky-ship-weapons)
   - [List of Skills](#list-of-skills)
@@ -110,9 +115,20 @@ This will be a far more directed experience than usual, tailor-cut for shorter c
       - [Special Weapons (Awar/Tough)](#special-weapons-awartough)
       - [Piloting (Agi/Awar)](#piloting-agiawar)
     - [Knowledge Skills](#knowledge-skills)
+      - [Bio-Augmentation (Agi/Wit)](#bio-augmentation-agiwit)
       - [Chemistry (Wit/Wit)](#chemistry-witwit)
       - [Fabrication (Agi/Wit)](#fabrication-agiwit)
+      - [Robotics (Wit/Wit)](#robotics-witwit)
+  - [List of Character Traits](#list-of-character-traits)
+    - [Augmentor](#augmentor)
   - [Character Creation](#character-creation)
+    - [Archetypes](#archetypes)
+      - [Breacher](#breacher)
+      - [Field Medic](#field-medic)
+      - [Marksman](#marksman)
+      - [Mechanist](#mechanist)
+      - [Sapper](#sapper)
+      - [Tactician](#tactician)
     - [Names](#names)
 - [Game Mastery](#game-mastery)
 - [Biomes](#biomes)
@@ -577,42 +593,41 @@ Body and mind are affected, reducing motor-skill, coupled with *splitting* heada
 Additions and alterations to the [Core Combat](./strive-core.md#combat) rules. 
 
 ## Attacks Always Hit
-Unlike in the [Core Rules](./strive-core.md#defending), in this Module, **Attacks in Combat always hit**! Every Attack produces a result, with the number **Effective Hits** determining its severity. 
+Unlike in the [Core Rules](./strive-core.md#defending), in this Module, **Attacks in Combat always hit**! Every Attack produces a result, with the number **Effective Hits** determining its severity. The Effective Hits are the number of Hits that actually contribute to the Attack's Grading, after all modifiers have been applied.
 
 For all Attack rolls, the number of Effective Hits achieved determine the **Attack's Grading**. There is no Obstacle to roll against. The thresholds for the Gradings are as follows:
 * `≤ 2` Hits: A **Glancing Hit**. Low Damage and no effect or a weak one. 
 * `= 3` Hits: A **Solid Hit**. Moderate Damage and a meaningful effect. 
 * `≥ 4` Hits: A **Masterful Hit**. Severe Damage and a powerful effect. 
 
-The Effective Hits are the number of Hits that actually contribute to the Attack's Grading, after all modifiers have been applied. The Effective Hits are always determined in the following order:
-1. Make the **Attack roll**. 
-2. Apply the **Hit Limit** of your Skill. 
-3. Apply **Hit Modifiers** from your foe's **Defense**, from your **Attack's Modifiers** and from **circumstance**. Consider each of the following, if they apply: 
-   1. [Defense](#defending)
-   2. [Burst Attack](#burst-attacks)
-   3. [Flanking](#flanking)
-   4. [Cover](#cover)
-   5. Conditions: [Prone](#prone), [Frostbitten](#frostbitten)
-   6. [Weapon Traits](#weapon-trait-adjustments)
+When making an Attack Roll, your dice pool for the roll determined in two-step process. First, you sum the two Base Attributes, as usual. Then, you apply any additive or subtractive modifiers, such as from:
+1. [Burst Attack](#burst-attacks)
+2. [Flanking](#flanking)
+3. [Cover](#cover)
+4. Conditions: [Prone](#prone), [Frostbitten](#frostbitten)
+5. [Weapon Traits](#weapon-trait-adjustments)
+6. And any other modifiers that may apply from circumstance.
 
-> You rolled `5` Hits. 
-> 
-> Your Level in the Attack Skill is `3`, thus reducing your Effective Hits down to your Hit Limit of `4`. 
->
-> Your Attack notes `-1 Hit(s)`, further reducing your Effective Hits to `3`. Also, the Defender spends an AP to further reduce that to `2` Effective Hits. In the end, what might have been a Masterful Hit has been reduced to a Glancing Hit, instead. 
+Once you have made the roll, you can determine the Effective Hits of it:
+1. Apply the **Hit Limit** of your Skill. 
+2. Apply [Defense](#defending) modifiers.
+3. Apply any **modifiers**, such as from Conditions:
+   1. [Prone](#prone)
+   2. [Resuscitation Syndrome](#resuscitation-syndrome)
 
-Note that the Effective Hits cn never be reduced to less than `1`. 
+Note that Effective Hits can never be reduced to less than `1`. 
 
+### Converting Attack & Defense Obstacle
 Wherever Ob is concerned in the Core rules in regard to Attacking or Defending, when you reference them, convert as follows:
-* `+X` Ob = `-X` Hit(s) 
-* `-X` Ob = `+X` Hit(s) 
+* `+X` Ob = `-X` Dice 
+* `-X` Ob = `+X` Dice 
 
-> 'The Attacker suffers `+1` Ob' would read in this Module as 'The Attacker suffers `-1` Hit'.
+> 'The Attacker suffers `+1` Ob' would read in this Module as 'The Attacker suffers `-1D`'.
 
 ## Defending
 Attacks may always land, but Defenders have ways to mitigate their severity. 
 
-* You can spend one point of [Guarded](./strive-core.md#guarded) to reduce the Attacker's Hits by `-2`! This is a very powerful means of mitigating an Attack!
+* You can spend one point of [Guarded](./strive-core.md#guarded) to reduce the Attacker's Hits by `-1`! This is a very powerful means of mitigating an Attack!
 * You can spend one AP to reduce the Attacker's Hits by `-1`! This works both as Regular Defense and Emergency Defense. 
 * If you have no points in Guarded, no AP left, and already spent all Emergency Defenses, you can no longer reduce the Attacker's Hits! 
 
@@ -641,15 +656,15 @@ Additional significant Core rule changes are summarized here:
 ### Cover
 See also [Core Cover](./strive-core.md#cover).
 
-* **Low Cover**: `-1` Hit(s); Go [Prone](./strive-core.md#prone) to turn it into High Cover. 
-* **High Cover**: `-2` Hit(s)
+* **Low Cover**: `-1D` for an Attacker; Go [Prone](./strive-core.md#prone) to turn it into High Cover. 
+* **High Cover**: `-2D` for an Attacker
 
 ### Flanking
 See also [Core Flanking](./strive-core.md#flanking).
 
 * **Unthreatened**: armor and shield protect fully. No Defense penalties. 
-* **Flanked**: armor and shield protect only half (RU) as much. `+1` Hit(s) for an Attacker. 
-* **Surrounded**: armor and shield no longer protect **at all**. `+2` Hit(s) for an Attacker. 
+* **Flanked**: armor and shield protect only half (RU) as much. `+1D` for an Attacker. 
+* **Surrounded**: armor and shield no longer protect **at all**. `+2D` for an Attacker. 
 
 ### Prone
 See also [Core Prone](./strive-core.md#prone).
@@ -659,7 +674,7 @@ Ranged Attacks against a Prone target suffer `-1` Hit(s), but the Proned Charact
 ### Frostbitten
 See also [Core Frostbitten](./strive-core.md#frostbitten).
 
-For every point in **Frostbitten**, a Character suffers `-1D` to all [Tests](#tests) and `-1` Hit(s) to all Attack rolls. 
+For every point in **Frostbitten**, a Character suffers `-1D` to all [Tests](#tests), including Attack rolls. 
 
 ### Weapon Trait Adjustments
 See also [Core Weapon Traits](./strive-core.md#weapon-traits).
@@ -667,7 +682,7 @@ See also [Core Weapon Traits](./strive-core.md#weapon-traits).
 ##### Foundational Weapon Trait Adjustments
 | Foundational Weapon Trait |                                                                              | Description                                                                                   | 
 | ------------------------- | ---------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------- |
-| **Prefer Range**          |                                                                              | `-2` Hit(s) to using the weapon against an adjacent target. |
+| **Prefer Range**          |                                                                              | `-2D` to using the weapon against an adjacent target. |
 
 ##### Offensive Weapon Trait Adjustments
 | Offensive Weapon Traits | Description                                                                                   | 
@@ -679,7 +694,7 @@ See also [Core Weapon Traits](./strive-core.md#weapon-traits).
 | ----------------------- | --------------------------------------------------------------------------------------------- |
 | **Anchoring**           | Once per Round, when being [Force-Moved](#forced-movement), you are moved `Q` Squares less. |
 | **Protecting**          | Once per Round, reduce the Effective Hits of an Attack against an **adjacent ally** by `1`. |
-| **Riposting**           | Once per Round, when being Attacked, you may make one free [Counter-Attack](#counter-attack) with this weapon, but at with `-1` Hit(s). |
+| **Riposting**           | Once per Round, when being Attacked, you may make one free [Counter-Attack](#counter-attack) with this weapon, but at with `-1D`. |
 
 ## Sky Ship Combat
 Ship-to-ship Combat plays out like normal Combat, with some significant differences:
@@ -705,7 +720,7 @@ The Sky Ship can spend `1` AP to:
 | Ammunition Storage | Action: Once per Round, reduce the cost of reloading by `1` AP, to a minimum of `0`. |
 | Engine Room        | Action: Once per Round, rouse the engines to fury, granting the Sky Ship a one-time boost to move up to `3` Squares, for `1` AP. |
 | Gunnery            | Action: Once per Round, gain `+1` [Edge](./strive-core.md#edge) on an Attack roll. |
-| Helm               | Reaction: Once per Round, take evasive maneuvers and reduce an Attacker's Hits by `-2`. If this brings them to a Glancing Hit, you may avoid its Damage, completely! |
+| Helm               | Reaction: Once per Round, when a **foe is about to make an Attack roll**, take evasive maneuvers and reduce an Attacker's dice pool by `-2D`. If the Attack's result is a Glancing Hit, you may avoid its Damage, completely! |
 | Repair Shop        | Action/Reaction: Once per Round, even when Attacked, replenish `10` HP to the Sky Ship. |
 
 # Appendix
@@ -733,11 +748,41 @@ All Armors are unstackable.
 | 1    | Trench Armor                 | 3    | 5           | `8` Slashing; `4` Piercing; `8` Bludgeoning; `5` Poison; `1` Death Fog | Particularly well padded, this armor protects well against broad-area damage, but won't stop a bullet. |
 | 2    | Medic Fatigues               | 2    | 10          | `3` Slashing; `2` Bludgeoning; `6` Poison; `5` Acid; `2` Death Fog | Offers only moderate protection, but allows all medical supplies to stack twice their normal amount. |
 | 2    | Ammo Carrier                 | 3    | 10          | `3` Slashing; `6` Bludgeoning; `6` Poison; `2` Death Fog | Offers only moderate protection, but allows all ammunition to stack twice its normal amount. |
+| 2    | Exoskeleton                  | 3    | 10          | `3` Slashing; `6` Bludgeoning; `6` Poison; `2` Death Fog | Offers only moderate protection, but helps stabilize ranged weapons, providing `+1D` for Attack rolls. |
 | 3    | Camo Armor                   | 3    | 10          | `6` Slashing; `5` Piercing; `5` Bludgeoning; `5` Poison; `2` Death Fog | Offers only moderate protection, but grants `+2` Stealth to its wearer. |
 | 3    | Hauler Armor                 | 4    | 10          | `4` Slashing; `4` Piercing; `4` Bludgeoning; `5` Poison; `2` Death Fog | Offers only moderate protection, but a metal exoskeleton grants `+10` maximum Luggage Bulk to its wearer. |
 | 4    | Stormbreaker Assault Armor   | 4    | 15          | `14` Slashing; `14` Piercing; `14` Bludgeoning; `10` Acid; `5` Poison; `4` Death Fog; `2` Corruption | Made from Silversteel, this armor protects exceptionally well. A face-plate covers a highly modern, sleek gas mask. The perfect choice for a frontal assault or dirty trench warfare. |
 | 4    | Stormbreaker Sapper Armor    | 4    | 15          | `10` Slashing; `10` Piercing; `8` Bludgeoning; `5` Acid; `5` Poison; `4` Death Fog; `2` Corruption | Made from Silversteel, this armor protects exceptionally well and provides `+8` maximum Luggage Bulk to its wearer. A great choice if you plan on bringing bigger ordnance. |
 | 4    | Stormbreaker Purifier Armor  | 4    | 15          | `8` Slashing; `6` Piercing; `6` Bludgeoning; `15` Acid; `10` Poison; `10` Burning; `6` Death Fog; `4` Corruption | Made from Silversteel, this armor protects exceptionally well. The suit is hermetically sealed and fire-retardent, providing excellent hazard protection. |
+
+### Shields
+Shields are Assets that provide passive bonuses to Defense against melee and ranged Attacks and require one free hand to use. This implies they cannot be used at the same time as a two-handed weapon (unless of course if you have more than two hands). 
+
+Shields can only be used in Defense Tests via the [Shield](./strive-core.md#shield-strtough) Skill.
+
+#### Light Shield
+A small round or oblong shield well suited to turning a blade, but which won't stop bullets. 
+
+* `+1` [Strain](./strive-core.md#stamina--strain) while wielded. 
+* Bulk: `1`
+* Work-Rate: `3 / QoD`, PI: `12`
+* Supply Cost: `3`
+
+| Unthreatened           | Flanked           | Surrounded           |
+| ---------------------- | ----------------- | -------------------- |
+| `-2D` for melee Attackers. | `-1D` for melee Attackers. |  |
+
+#### Heavy Shield
+A large and heavy, but solid shield that can even stop bullets. 
+
+* `+3` [Strain](./strive-core.md#stamina--strain) while wielded. 
+* Bulk: `3`
+* Work-Rate: `2 / QoD`, PI: `20`
+* Supply Cost: `8`
+
+| Unthreatened           | Flanked           | Surrounded           |
+| ---------------------- | ----------------- | -------------------- |
+| `-2D` for any Attackers. | `-1D` for any Attackers. |  |
 
 ### Weapons
 | Tier | Weapon                   | Bulk | Supply Cost | Max. Stack Size | Skill                 | Properties                                                         | Damage & Effects   | Description        |
@@ -747,6 +792,7 @@ All Armors are unstackable.
 | 0    | Krauser Semi-Auto Pistol | 1    | 3           | 1               | Firearms              | Ranged: `6`, Ammo: `6`, Semi-Auto                                  | `≤ 2`: `6` Piercing <br> `= 3` Hits: `6` Piercing <br> `≥ 4` Hits: `7` Piercing | The mass-produced Krauser semi-auto pistol is a reliable, though not particularly deadly personal defence weapon. |
 | 0    | Maksim Rifle             | 3    | 3           | 1               | Firearms              | Ranged: `20`, Ammo: `6`, Bolt-Action, Slow Reload                  | `≤ 2`: `10` Piercing <br> `= 3` Hits: `12` Piercing <br> `≥ 4` Hits: `15` Piercing | The mass-produced Maksim bolt-action rifle is reliable and powerful, but also bulky and slow. |
 | 0    | Trench Shovel            | 2    | 3           | 1               | Close Quarters Combat | Melee                                                              | `≤ 2`: `5` Slashing <br> `= 3` Hits: `6` Slashing <br> `≥ 4` Hits: `7` Slashing | A standard-issue digging implement with sharp edges. Trusty and reliable. |
+| 0    | Explosive Satchel        | 2    | 3           | 2               | Trapping              | Triggered                                                          | `≤ 2`: `5` Burning + `5` Bludgeoning <br> `= 3` Hits: `6` Burning + `6` Bludgeoning <br> `≥ 4` Hits: `8` Burning + `8` Bludgeoning | A remotely triggered explosive charge, affecting all in a `2` Square AoE radius. |
 | 1    | Flamethrower             | 3    | 5           | 1               | Special Weapons       | Ranged: `8`, Ammo: `10` Fuel                                       | `≤ 2`: `5` Burning <br> `= 3` Hits: `8` Burning <br> `≥ 4` Hits: `11` Burning | A flame-throwing weapon. Uses Fuel instead of Bullets as ammo. |
 | 1    | Flash Grenade            | 1    | 5           | 3               | Throwing              | Thrown                                                             | Blinds all creatures who look into the flash for `3` Rounds. They suffer `+1` Ob to all Tests. | Stacks up to `3`; A throwable flash grenade designed for the non-violent quelling of riots, which may also find use in the field. |
 | 1    | Gas Grenade              | 1    | 5           | 3               | Throwing              | Thrown                                                             | Releases a noxious cloud of gas, in a `3` Square diameter, which causes `10` Acid damage. its | Stacks up to `3`; A throwable gas grenade useful for area-denial. |
@@ -755,6 +801,8 @@ All Armors are unstackable.
 | 1    | Standard Saber           | 2    | 5           | 1               | Close Quarters Combat | Melee                                                              | `≤ 2`: `7` Slashing <br> `= 3` Hits: `7` Slashing <br> `≥ 4` Hits: `8` Slashing | A simple officer's saber. A bit heavy in hand, but reliable. |
 | 2    | Artyar SMG               | 3    | 8           | 1               | Firearms              | Ranged: `10`, Ammo: `20`, Automatic, Slow Reload, Burst: `3`       | `≤ 2`: `6` Piercing <br> `= 3` Hits: `7` Piercing <br> `≥ 4` Hits: `8` Piercing | An innovative design, though somewhat clumsy, this submachine gun borrows pieces from the Maksim II rifle with an automatic feeder mechanism, enabling automatic fire. To support the higher magazine capacity, the ammo had to be down-sized. |
 | 2    | Assault Sword            | 2    | 8           | 1               | Close Quarters Combat | Melee                                                              | `≤ 2`: `8` Slashing <br> `= 3` Hits: `10` Slashing <br> `≥ 4` Hits: `13` Slashing | A well designed and finely crafted, sturdy blade to dominate close quarters combat. |
+| 2    | Cryogenic Satchel        | 2    | 3           | 2               | Trapping              | Triggered                                                          | `≤ 2`: `10` Freezing <br> `= 3` Hits: `12` Freezing <br> `≥ 4` Hits: `13` Freezing | A remotely triggered cryogenic charge, affecting all in a `2` Square AoE radius. |
+| 2    | Corrosion Satchel        | 2    | 3           | 2               | Trapping              | Triggered                                                          | `≤ 2`: `10` Acid <br> `= 3` Hits: `12` Acid <br> `≥ 4` Hits: `13` Acid | A remotely triggered corrosive charge, affecting all in a `2` Square AoE radius. |
 | 2    | Corrosion Grenade        | 1    | 8           | 3               | Throwing              | Thrown                                                             | `8` Acid | A large, bulbous hand grenade. Contained within are two liquids that, when combined, become a strong but fleeting acid, capable of melting steel within seconds before becoming harmless. |
 | 3    | Cryogenic Grenade        | 1    | 10          | 3               | Throwing              | Thrown                                                             | `10` Freezing | An innovative application of liquid nitrogen, contained in a delicate shell, ready to be dispersed by a tiny explosive charge. In other words - a 'freeze grenade'. |
 | 3    | Cryogenitor              | 4    | 10          | 1               | Special Weapons       | Ranged: `10`, Ammo: `10` Fuel                                      | `≤ 2`: `8` Freezing <br> `= 3` Hits: `10` Freezing <br> `≥ 4` Hits: `12` Freezing | Spews liquid nitrogen at range, instantly freezing whatever it hits. Uses Fuel instead of Bullets as ammo. |
@@ -784,7 +832,7 @@ Performing acrobatic feats, such as jumping, tumbling and climbing, without inju
 | 2     | Wind Out Of It       | 2  | -1      | When hit by an Attack, lose `-1` [Stamina](#stamina--strain), wind out of the hit and... <br> `≤ 2`: suffer `3` points of Damage less. <br> `= 3`: suffer `5` points of Damage less <br> `≥ 4`: suffer `8 or half (RU)` Damage less, picking whichever number is higher. |
 
 #### Close Quarters Combat (Agi/Str)
-Skill for any melee weapon and unarmed combat. 
+Skill for any melee weapon and unarmed combat. Replaces the Unarmed Combat Skill of the Core rules. 
 
 | Level | Name                   | AP | Hit(s)  | Description <br> Damage                   |
 | ----- | ---------------------- | -- | ------- | ----------------------------------------- |
@@ -812,14 +860,196 @@ The ability to steer a Sky Ship. See also [Travel & Terrain](#travel--terrain).
 ### Knowledge Skills
 These Skills have a dominant mental aspect and are strongly related to a Character's *mental Attributes*. 
 
+#### Bio-Augmentation (Agi/Wit)
+Designing and applying drugs to boost performance in specific areas, when needed. 
+
+| Level | Name                   | AP | Hit(s)  | Description <br> Damage                   |
+| ----- | ---------------------- | -- | ------- | ----------------------------------------- |
+| 0     | Reactive Booster       | 2  |         | Inject a ST with a syringe that will enhance their reaction speed, for `2` Rounds. The target may receive `+1` [Edge](./strive-core.md#edge) on any Reaction, once per Round. Doesn't stack. |
+| 0     | Stimpack               | 2  |         | Inject a ST with a syringe that will enhance their Toughness by `+1`, for `2` Rounds. Stacks. |
+| 0     | Regenerative Booster   | 2  |         | Inject a ST with a syringe that lets them generate `+5` Temporary HP every Tick. Lasts `2` Rounds. Stacks |
+
 #### Chemistry (Wit/Wit)
 Knowing chemical compounds and how they interact. 
 
 #### Fabrication (Agi/Wit)
 The ability to design and program a fabricator to craft Assets. 
 
+#### Robotics (Wit/Wit)
+The ability to design and build robotic augments or automatons. 
+
+## List of Character Traits
+Additions to the [Core Character Traits](./strive-core.md#list-of-character-traits). 
+
+### Augmentor
+When [bio-augmenting](#bio-augmentation-agiwit) another Character, also grant them `+1` Grit Point.
+
 ## Character Creation
 The basic structure of Character creation is the same as in the [Core Rules](./strive-core.md#character-creation), but some choices are more tailored to the Stormbreaker setting. 
+
+### Archetypes
+To help facilitate a fast start into the Module, players may pick from the following archetypes to create a new Character. Note these are not *classes*, these are starting *Character templates*. 
+
+These archetypes are entirely optional. They provide inspiration and recommendations for selecting abilities and Assets, but do not grant additional mechanical benefits or restrict character development. You may freely combine recommendations from multiple archetypes or create your own concept entirely.
+
+#### Breacher
+A close-combat specialist who breaks enemy formations, clears confined spaces, and contests dangerous positions. Breachers are always a great choice for a front-line.
+
+**Strengths**: Front-line, Close combat, Disruption
+
+| Agi          | Awar         | Str          | Tough (Core) | Wit          |
+| ------------ | ------------ | ------------ | ------------ | ------------ |
+| 3            | 2            | 3            | 4            | 1            |
+
+| BI     | Sprint | Stabil | HP  | Stamina    |
+| ------ | ------ | ------ | --- | ---------- |
+| 6      | 3      | 0      | 50  | 8          |
+
+**Skills**:
+* [Close Quarters Combat](#close-quarters-combat-agistr): Level `4`
+* [Firearms](#firearms-agiawar): Level `3`
+* [Shield](./strive-core.md#shield-strtough): Level `3`
+* [Self-Control](./strive-core.md#self-control-toughwit): Level `3`
+* [Berserking](./strive-core.md#berserking-toughtough): Level `3`
+* [Throwing](./strive-core.md#throwing-agistr): Level `3`
+* Spend an additional `2` points to learn whatever Skill you will.
+
+**Languages**: Valennian: Native
+
+**Trait**: [Steadfast](./strive-core.md#steadfast)
+
+**Equipment direction**: Melee weapons, smaller sidearms, heavy armor, heavy shields, grenades
+
+#### Field Medic
+A medically trained Stormbreaker who treats Injuries, handles hazardous exposure, and keeps the team operational even under extreme conditions.
+
+**Strengths**: Support
+
+| Agi          | Awar         | Str          | Tough        | Wit (Core)   |
+| ------------ | ------------ | ------------ | ------------ | ------------ |
+| 3            | 2            | 2            | 2            | 4            |
+
+| BI     | Sprint | Stabil | HP  | Stamina    |
+| ------ | ------ | ------ | --- | ---------- |
+| 9      | 2      | 0      | 30  | 4          |
+
+**Skills**:
+* [Medicine](./strive-core.md#medicine-agiwit): Level `4`
+* [Surgery](./strive-core.md#surgery-agiwit): Level `3`
+* [Bio-Augmentation](#bio-augmentation-agiwit): Level `3`
+* [Chemistry](#chemistry-witwit): Level `3`
+* [Firearms](#firearms-agiawar): Level `3`
+* Spend an additional `5` points to learn whatever Skill you will.
+
+**Languages**: Valennian: Native
+
+**Trait**: [Augmentor](#augmentor)
+
+**Equipment direction**: Medical equipment, sidearms
+
+#### Marksman
+A specialist in identifying threats and eliminating priority targets before they get close.
+
+**Strengths**: Ranged combat, Damage Dealing, Observation
+
+| Agi          | Awar (Core)  | Str          | Tough        | Wit          |
+| ------------ | ------------ | ------------ | ------------ | ------------ |
+| 3            | 4            | 1            | 2            | 3            |
+
+| BI     | Sprint | Stabil | HP  | Stamina    |
+| ------ | ------ | ------ | --- | ---------- |
+| 9      | 2      | 0      | 30  | 6          |
+
+**Skills**:
+* [Firearms](#firearms-agiawar): Level `4`
+* [Observation](./strive-core.md#observation-awarawar): Level `3`
+* [Path-Finding](./strive-core.md#path-finding-awarwit): Level `3`
+* [Stealth](./strive-core.md#stealth-agiawar): Level `3`
+* [Archaelogy](./strive-core.md#archeology-awarwit): Level `3`
+* Spend an additional `5` points to learn whatever Skill you will.
+
+**Languages**: Valennian: Native
+
+**Trait**: [Quick Thinker](./strive-core.md#quick-thinker)
+
+**Equipment direction**: Melee weapons, smaller sidearms, heavy armor, heavy shields
+
+#### Mechanist
+A technically gifted operator who maintains equipment, makes productive use of recovered technology, and helps develop the Capital's technological capabilities.
+
+**Strengths**: Support, Robotics, Machine guns
+
+| Agi          | Awar         | Str          | Tough        | Wit (Core)   |
+| ------------ | ------------ | ------------ | ------------ | ------------ |
+| 3            | 3            | 1            | 2            | 4            |
+
+| BI     | Sprint | Stabil | HP  | Stamina    |
+| ------ | ------ | ------ | --- | ---------- |
+| 10     | 2      | 0      | 30  | 4          |
+
+**Skills**:
+* [Robotics](#robotics-witwit): Level `4`
+* [Firearms](#firearms-agiawar): Level `3`
+* Spend an additional `8` points to learn whatever Skill you will.
+
+**Languages**: Valennian: Native
+
+**Trait**: [Thorough Artisan](./strive-core.md#thorough-artisan)
+
+**Equipment direction**: Mechanite technology, Machine guns
+
+#### Sapper
+A specialist in unconventional weapons, chemical devices, and battlefield obstacles. Sappers excel at solving problems that a rifle cannot, such as clearing defended positions, denying passage, or destroying equipment.
+
+**Strengths**: Ambushing, Destruction, Resource management
+
+| Agi          | Awar (Core)  | Str          | Tough        | Wit          |
+| ------------ | ------------ | ------------ | ------------ | ------------ |
+| 1            | 4            | 2            | 3            | 3            |
+
+| BI     | Sprint | Stabil | HP  | Stamina    |
+| ------ | ------ | ------ | --- | ---------- |
+| 9      | 1      | 0      | 20  | 2          |
+
+**Skills**:
+* [Special Weapons](#special-weapons-awartough): Level `4`
+* [Trapping](./strive-core.md#trapping-awarwit): Level `3`
+* [Chemistry](#chemistry-witwit): Level `3`
+* [Fabrication](#fabrication-agiwit): Level `3`
+* [Architecture](./strive-core.md#architecture-awarwit): Level `3`
+* Spend an additional `5` points to learn whatever Skill you will.
+
+**Languages**: Valennian: Native
+
+**Trait**: [Shrewd Trapper](./strive-core.md#shrewd-trapper)
+
+**Equipment direction**: Chemical weapons, utility armor, traps, explosives
+
+#### Tactician
+An experienced operative who coordinates the team, negotiates with local authorities, and translates High Command's objectives into practical plans. Despite their specialization, all Stormbreakers are equal and need not heed any orders. 
+
+**Strengths**: Support, controlling the battlefield
+
+| Agi          | Awar         | Str          | Tough        | Wit (Core)   |
+| ------------ | ------------ | ------------ | ------------ | ------------ |
+| 2            | 2            | 2            | 3            | 4            |
+
+| BI     | Sprint | Stabil | HP  | Stamina    |
+| ------ | ------ | ------ | --- | ---------- |
+| 8      | 2      | 0      | 40  | 6          |
+
+**Skills**:
+* [Warfare](./strive-core.md#warfare-toughwit): Level `4`
+* [Persuasion](./strive-core.md#persuasion-witwit): Level `3`
+* [Firearms](#firearms-agiawar): Level `3`
+* [Commanding](./strive-core.md#commanding-toughwit): Level `3`
+* Spend an additional `8` points to learn whatever Skill you will.
+
+**Languages**: Valennian: Native
+
+**Trait**: [Thorough Artisan](./strive-core.md#thorough-artisan)
+
+**Equipment direction**: Sidearms
 
 ### Names
 Choosing a name for your Character may often prove one of the harder decisions to make, especially in a tailored setting such as this one. You may find inspiration in the following list. 
@@ -1012,9 +1242,9 @@ A giant Sky Ship of strange design, made from obsidian and marble, floats effort
 # Creature Compendium
 A by no means exhaustive list of themed creatures for the GM to draw from. 
 
-In the Characteristics blocks below, when armor is concerned, it may be noted in the form `U/F/S/O`, which are simply the pre-calculated values the armor provides under consideration of the degrees of [Flanking](./strive-core.md#flanking). The order is always: Unthreatened, Flanked, Surrounded and Overwhelmed. However, armor may also be noted as a plain value, e. g. `5`, which implies the creature does not suffer [Flanking](./strive-core.md#flanking).
+In the Characteristics blocks below, when armor is concerned, it may be noted in the form `U/F/S`, which are simply the pre-calculated values the armor provides under consideration of the degrees of [Flanking](./strive-core.md#flanking). The order is always: Unthreatened, Flanked and Surrounded. However, armor may also be noted as a plain value, e. g. `5`, which implies the creature does not suffer [Flanking](./strive-core.md#flanking).
 
-Also note that "Def" is a static modifier to an Attacker's [Effective Hits](#attacks-always-hit), that always applies. If none is noted, the Attacker's Effective Hits are always unmodified by the creature in question. 
+Also note that "Def" is a static modifier to an Attacker's dice pool, that always applies when they roll. If none is noted, the Attacker's dice pool is always unmodified by the creature in question. 
 
 ## Argentumites
 It is widely known that the clouds beneath may harbor no life, for all living things that pass through wither and die in mere moments. And yet strange creatures, made of Silversteel regularly emerge from the blanket below. Dubbed **Argentumites**, sightings of these things always end in conflict and blood. They are relentless killers, seeking out and destroying what remains of our civilization. They do not speak, they do not flinch and they don't take prisoners. 
@@ -1048,8 +1278,8 @@ A cyclopean, white and floating sphere that is often seen roaming islands in adv
   * Shoot a short laser beam at a ST, up to `10` Squares away.
   * Level: `4`, AP: `2`, Hit(s): unmodified, Ranged, ST, Innate
   * `≤ 2`: `6` Burning
-  * `= 3` Hits: `8` Burning
-  * `≥ 4` Hits: `10` Burning
+  * `= 3`: `8` Burning
+  * `≥ 4`: `10` Burning
 * Shield (Awar/Awar): 
   * **Concentration**: Cover an ally up to `10` Squares away in a shield that absorbs `10` points of damage before bursting.
   * Level: `4`, AP: `2`, Ranged, ST, Innate
@@ -1080,8 +1310,8 @@ Two tethered, elongated octahedrons, each with a central, beaming eye, float eff
   * Shoot a burst of `4` spikes at a ST, up to `15` Squares away.
   * Level: `5`, AP: `2`, Hit(s): unmodified, Ranged, ST, Innate
   * `≤ 2`: `8` Piercing
-  * `= 3` Hits: `11` Piercing
-  * `≥ 4` Hits: `15` Piercing
+  * `= 3`: `11` Piercing
+  * `≥ 4`: `15` Piercing
 
 ### Argentumite Attaquant
 A large bipedal Argentumite with a sword and a shield. One of the few that don't float. 
@@ -1098,7 +1328,7 @@ A large bipedal Argentumite with a sword and a shield. One of the few that don't
 
 | BI     | Sprint | Stabil | HP  | Stamina    | FS (Melee)      | Def         | Armor             |
 | ------ | ------ | ------ | --- | ---------- | --------------- | ----------- | ----------------- |
-| 11     | 4      | 2      | 30  | 6          | 6 Slashing      | `-1` Hit(s) | `8` Slashing; `8` Piercing; `8` Bludgeoning; `8` Burning; Poison immune |
+| 11     | 4      | 2      | 30  | 6          | 6 Slashing      | `-1D`       | `8` Slashing; `8` Piercing; `8` Bludgeoning; `8` Burning; Poison immune |
 
 **Traits**: [Fortified Mind](./strive-core.md#fortified-mind--4-points-1-cr); 
 
@@ -1109,14 +1339,14 @@ A large bipedal Argentumite with a sword and a shield. One of the few that don't
   * Strike at a ST in melee range with a sword slash. 
   * Level: `4`, AP: `2`, Hit(s): unmodified, Melee, ST, Innate
   * `≤ 2`: `8` Slashing
-  * `= 3` Hits: `10` Slashing
-  * `≥ 4` Hits: `13` Slashing
+  * `= 3`: `10` Slashing
+  * `≥ 4`: `13` Slashing
 * Shield Slam (Agi/Tough): 
   * Slam your shield at a ST in melee range. 
   * Level: `4`, AP: `2`, Hit(s): unmodified, Melee, ST, Innate
   * `≤ 2`: `6` Bludgeoning; Knock-back `1` Squares
-  * `= 3` Hits: `8` Bludgeoning; Knock-back `2` Squares
-  * `≥ 4` Hits: `10` Bludgeoning; Knock-back `3` Squares
+  * `= 3`: `8` Bludgeoning; Knock-back `2` Squares
+  * `≥ 4`: `10` Bludgeoning; Knock-back `3` Squares
 
 ### Argentumite Chevalier
 A multi-legged Pegasus-esque Argentumite. It would almost look friendly, if not for the incense burners hanging from its sides spewing Death Fog. And the massive, spiked tail which it uses as a weapon. 
@@ -1133,7 +1363,7 @@ A multi-legged Pegasus-esque Argentumite. It would almost look friendly, if not 
 
 | BI     | Sprint | Stabil | HP  | Stamina    | FS (Ranged `10`)| Def         | Armor             |
 | ------ | ------ | ------ | --- | ---------- | --------------- | ----------- | ----------------- |
-| 14     | 5      | 0      | 40  | 8          | 6 Bludgeoning   | `-2` Hit(s) | `8` Slashing; `8` Piercing; `8` Bludgeoning; `8` Burning; Poison immune |
+| 14     | 5      | 0      | 40  | 8          | 6 Bludgeoning   | `-2D`       | `8` Slashing; `8` Piercing; `8` Bludgeoning; `8` Burning; Poison immune |
 
 **Traits**: Always floating; [Fortified Mind](./strive-core.md#fortified-mind--4-points-1-cr); 
 
@@ -1144,14 +1374,14 @@ A multi-legged Pegasus-esque Argentumite. It would almost look friendly, if not 
   * Move in a line, up to `10` Squares away, and strike at all targets in an AoE line. 
   * Level: `4`, AP: `2`, Hit(s): `-1`, Ranged, AoE, Innate
   * `≤ 2`: `6` Bludgeoning; `3` Squares Knock-back
-  * `= 3` Hits: `8` Bludgeoning; `3` Squares Knock-back
-  * `≥ 4` Hits: `11` Bludgeoning; `4` Squares Knock-back
+  * `= 3`: `8` Bludgeoning; `3` Squares Knock-back
+  * `≥ 4`: `11` Bludgeoning; `4` Squares Knock-back
 * Tail Slam (Str/Str): 
   * Strike at a ST with your spiked tail. 
   * Level: `4`, AP: `2`, Hit(s): unmodified, Ranged, ST, Innate
   * `≤ 2`: `10` Bludgeoning; `3` Squares Knock-back
-  * `= 3` Hits: `12` Bludgeoning; `3` Squares Knock-back
-  * `≥ 4` Hits: `15` Bludgeoning; `4` Squares Knock-back
+  * `= 3`: `12` Bludgeoning; `3` Squares Knock-back
+  * `≥ 4`: `15` Bludgeoning; `4` Squares Knock-back
 
 ### Argentumite Plongeur
 This one looks like a diver in one of those bulky diving suits, covered in ethereal algae. Bright light beams from the windows of its helmet and in its vicinity, the air freezes. 
@@ -1168,7 +1398,7 @@ This one looks like a diver in one of those bulky diving suits, covered in ether
 
 | BI     | Sprint | Stabil | HP  | Stamina    | FS (Ranged `10`)| Def         | Armor             |
 | ------ | ------ | ------ | --- | ---------- | --------------- | ----------- | ----------------- |
-| 10     | 4      | 0      | 30  | 6          | 5 Freezing      | `-1` Hit(s) | `8` Slashing; `8` Piercing; `8` Bludgeoning; `8` Burning; Poison immune |
+| 10     | 4      | 0      | 30  | 6          | 5 Freezing      | `-1D`       | `8` Slashing; `8` Piercing; `8` Bludgeoning; `8` Burning; Poison immune |
 
 **Traits**: Always floating; [Fortified Mind](./strive-core.md#fortified-mind--4-points-1-cr); 
 
@@ -1179,8 +1409,8 @@ This one looks like a diver in one of those bulky diving suits, covered in ether
   * Blast all around, in a `5` Square diameter AoE. 
   * Level: `4`, AP: `2`, Hit(s): unmodified, Ranged, AoE, Innate
   * `≤ 2`: `6` Freezing
-  * `= 3` Hits: `8` Freezing
-  * `≥ 4` Hits: `10` Freezing
+  * `= 3`: `8` Freezing
+  * `≥ 4`: `10` Freezing
 * Blink: 
   * Disappear and immediately re-appear in a location of your choosing, up to `20` Squares away.
   * Level: `4`, AP: `2`, Ranged, Innate
@@ -1200,7 +1430,7 @@ Giant and authoritative, this Argentumite commands respect, even from its enemie
 
 | BI     | Sprint | Stabil | HP  | Stamina    | FS (Ranged `15`)| Def         | Armor             |
 | ------ | ------ | ------ | --- | ---------- | --------------- | ----------- | ----------------- |
-| 21     | 9      | 3      | 100 | 20         | 10 Piercing     | `-2` Hit(s) | `12` Slashing; `12` Piercing; `12` Bludgeoning; `12` Burning; `6` Freezing; Poison immune |
+| 21     | 9      | 3      | 100 | 20         | 10 Piercing     | `-2D`       | `12` Slashing; `12` Piercing; `12` Bludgeoning; `12` Burning; `6` Freezing; Poison immune |
 
 **Traits**: Always floating; [Fortified Mind](./strive-core.md#fortified-mind--4-points-1-cr); [Aura of Death](#aura-of-death)
 
@@ -1217,14 +1447,14 @@ Giant and authoritative, this Argentumite commands respect, even from its enemie
   * Pull every creature you can see, up to `20` Squares away, closer towards you. 
   * Level: `6`, AP: `2`, Hit(s): `-1`, Ranged, ST, Innate
   * `≤ 2`: `4` Squares
-  * `= 3` Hits: `5` Squares
-  * `≥ 4` Hits: `7` Squares
+  * `= 3`: `5` Squares
+  * `≥ 4`: `7` Squares
 * Grand Slash (Str/Str): 
   * Strike at all foes in a `10` Square AoE cone in front of you. 
   * Level: `4`, AP: `3`, Ranged, Aoe, Innate
   * `≤ 2`: `20` Slashing
-  * `= 3` Hits: `25` Slashing
-  * `≥ 4` Hits: `30` Slashing
+  * `= 3`: `25` Slashing
+  * `≥ 4`: `30` Slashing
 
 #### Aura Of Death
 This creature is always surrounded in a cloud of Death Fog, dealing `10` Pure damage in a `5` Square AoE diameter around it, to all creatures without Death Fog protection.
