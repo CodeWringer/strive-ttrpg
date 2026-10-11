@@ -7,7 +7,6 @@
   * More cultural background, Character name suggestions
   * Stormbreaker uniform
   * Define Kronnstedt region better -> the default islands within it. 
-* More Mechanite technology
 * More Dieselpunk themed Skills
 * Supernatural abilities -> broad roster of psionics?
   * Skills that consume Marked for powerful debuffs
@@ -20,6 +19,7 @@
   * Corruption monsters
   * Pirates/Raiders
   * Swine
+* Provide several ready-to-go adventures.
 -->
 
 # Introduction
@@ -116,7 +116,9 @@ This will be a far more directed experience than usual, tailor-cut for shorter c
     - [Knowledge Skills](#knowledge-skills)
       - [Bio-Augmentation (Agi/Wit)](#bio-augmentation-agiwit)
       - [Chemistry (Wit/Wit)](#chemistry-witwit)
+      - [Demolition (Agi/Wit)](#demolition-agiwit)
       - [Fabrication (Agi/Wit)](#fabrication-agiwit)
+      - [Radio Operation (Wit/Wit)](#radio-operation-witwit)
       - [Robotics (Wit/Wit)](#robotics-witwit)
   - [List of Character Traits](#list-of-character-traits)
     - [Augmentor](#augmentor)
@@ -236,7 +238,7 @@ As this is an early industrial world, there is motorization, fueled by coal and 
 
 As such, most 'modern' technology is mostly timber-based, as it is one of the few renewable resource of the floating islands. Even the Stormbreaker's Sky Ships are mostly made of strong timber, although engines and internal equipment is made of precious steel. While concrete buildings line the streets of the capital, newer constructions are made of wood and many of the surrounding smaller islands are still very much medieval. 
 
-Radio technology exists and is fantastically powerful, enabling the transmission of both fully holographic data and small physical goods, such as food and ammunition. However, the great Storm Walls also act as barriers of the radio waves, drastically shortening their effective range beyond them. Relays beyond the storms *could* boost the signal, allowing longer range communications, but this would require significant resources. 
+Radio technology exists and is fantastically powerful, enabling the transmission of both fully holographic data and small physical goods, such as food and ammunition. However, the great Storm Walls also act as barriers of the radio waves, drastically shortening their effective range beyond them. Relays beyond the storms *could* boost the signal, allowing longer range communications, but this requires significant resources. By default, all Stormbreakers are equipped with personal radio transmitters, allowing for short-distance communication, up to `30` Squares away.
 
 In addition to ordinary metals, a new material has been found - **White Steel**, also called **Silversteel** - which is ten times more durable than even the strongest steel alloy. It is highly sought after by the Stormbreaker Order, as it may yet be the puzzle needed to reliably traverse the Storm Walls. 
 
@@ -723,6 +725,7 @@ The Sky Ship can spend `1` AP to:
 | Station            | Description |
 | ------------------ | ----------- |
 | Ammunition Storage | Action: Once per Round, reduce the cost of reloading by `1` AP, to a minimum of `0`. |
+| Communications     | Action: Once per Round, regain `1` AP. |
 | Engine Room        | Action: Once per Round, rouse the engines to fury, granting the Sky Ship a one-time boost to move up to `3` Squares, for `1` AP. |
 | Gunnery            | Action: Once per Round, gain `+1` [Edge](./strive-core.md#edge) on an Attack roll. |
 | Helm               | Reaction: Once per Round, when a **foe is about to make an Attack roll**, take evasive maneuvers and reduce an Attacker's dice pool by `-2D`. If the Attack's result is a Glancing Hit, you may avoid its Damage, completely! |
@@ -890,8 +893,14 @@ Designing and applying drugs to boost performance in specific areas, when needed
 #### Chemistry (Wit/Wit)
 Knowing chemical compounds and how they interact. 
 
+#### Demolition (Agi/Wit)
+Preparing controlled demolition, handling unexploded munitions safely, and defusing explosive traps. 
+
 #### Fabrication (Agi/Wit)
 The ability to design and program a fabricator to craft Assets. 
+
+#### Radio Operation (Wit/Wit)
+Operation, maintenance and optimization of radio technology. 
 
 #### Robotics (Wit/Wit)
 The ability to design and build robotic augments or automatons. 
@@ -1008,6 +1017,8 @@ A technically gifted operator who maintains equipment, makes productive use of r
 **Skills**:
 * [Robotics](#robotics-witwit): Level `4`
 * [Firearms](#firearms-agiawar): Level `3`
+* [Mechanics](./strive-core.md#mechanics-agiwit): Level `3`
+* [Metallurgy](./strive-core.md#metallurgy-awarwit): Level `3`
 * Spend an additional `8` points to learn whatever Skill you will.
 
 **Languages**: Valennian: Native
@@ -1033,9 +1044,10 @@ A specialist in unconventional weapons, chemical devices, and battlefield obstac
 * [Special Weapons](#special-weapons-awartough): Level `4`
 * [Trapping](./strive-core.md#trapping-awarwit): Level `3`
 * [Chemistry](#chemistry-witwit): Level `3`
+* [Demolition](#chemistry-witwit): Level `3`
 * [Fabrication](#fabrication-agiwit): Level `3`
 * [Architecture](./strive-core.md#architecture-awarwit): Level `3`
-* Spend an additional `5` points to learn whatever Skill you will.
+* Spend an additional `2` points to learn whatever Skill you will.
 
 **Languages**: Valennian: Native
 
