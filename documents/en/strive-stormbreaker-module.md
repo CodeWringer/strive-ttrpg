@@ -3,12 +3,10 @@
 <div style="text-align: center; font-size: 1rem">Version 1 (Playtest)</div>
 
 <!-- TODOs
-* !! Don't modify Hits as often! Modify dice counts! And reduce defensive options to keep the arithmetic steps low
 * World
   * More cultural background, Character name suggestions
   * Stormbreaker uniform
   * Define Kronnstedt region better -> the default islands within it. 
-* Establish PC archetypes
 * More Mechanite technology
 * More Dieselpunk themed Skills
 * Supernatural abilities -> broad roster of psionics?
@@ -101,6 +99,7 @@ This will be a far more directed experience than usual, tailor-cut for shorter c
 - [Appendix](#appendix)
   - [Assets Appendix](#assets-appendix)
     - [General Assets](#general-assets)
+    - [Mechanite Assets](#mechanite-assets)
     - [Armors](#armors)
     - [Shields](#shields)
       - [Light Shield](#light-shield)
@@ -461,10 +460,15 @@ The PCs can spend **Mechanite Technology Points** to gain access to special tech
 
 | Points | Supply Cost | Effect & Unlock                 | Prerequisites | Repeatable? |
 | ------ | ----------- | ------------------------------- | ------------- | ----------- |
-| 2      | 5           | The Stormbreakers a remote-controlled drone outfitted with a high-yield explosive. When triggered, in a `10` Square AoE diameter, causes `6 + 2D6` Bludgeoning and `6 + 1D6` Burning damage. |  | Yes |
-| 2      | 5           | The Stormbreakers gain an extremely enigmatic technological piece - an infrared sight that allows seeing a different sprectrum of light. The Mechanites suggest  |  | Yes |
+| 2      | 5           | The Stormbreakers gain access to [Infrared Sights](#mechanite-assets). |  | Yes |
+| 2      | 5           | The Stormbreakers gain access to [Corruption Detectors](#mechanite-assets). |  | No |
+| 2      | 5           | The Stormbreakers gain access to [Grapnel Winches](#mechanite-assets). |  | No |
+| 3      | 5           | The Stormbreakers gain access to [Remote-Controlled Explosive Drones](#mechanite-assets). |  | No |
+| 5      | 10          | The Stormbreakers gain access to [Remote-Controlled Reconnaissance Drones](#mechanite-assets). |  | No |
 | 5      | 15          | The Stormbreakers gain an Automaton weapon. | Access to an Automaton. | Yes |
+| 5      | 15          | The Stormbreakers gain access to [Portable Corruption Suppressors](#mechanite-assets). |  | No |
 | 10     | 30          | The Stormbreakers gain a Biped Automaton. You can only have one Automaton, at a time. |  | Yes |
+| 10     | 15          | The Stormbreakers gain access to [Biped Automaton Ammo-Feeders](#mechanite-assets). | Access to a Biped Automaton. | Yes |
 
 ### Biped Automaton
 A Masterwork of the Mechanites - a human-form Automaton, capable of executing simple commands, which can be outfitted with various armaments. 
@@ -481,21 +485,22 @@ Commands can be given to it verbally or non-verbally, via an input terminal acce
 
 | BI     | Sprint | Stabil | HP  | Stamina    | Def    | Armor             |
 | ------ | ------ | ------ | --- | ---------- | ------ | ----------------- |
-| 9      | 4      | 3      | 60  | Does not tire | 2D  | `10` Slashing; `8` Piercing; `8` Bludgeoning; Poison immune; |
+| 9      | 4      | 3      | 60  | Does not tire |     | `10` Slashing; `8` Piercing; `8` Bludgeoning; Poison immune; |
 
 **Traits**: [Fortified Mind](./strive-core.md#fortified-mind--4-points-1-cr); 
 
 **Skills**:
-* Special Weapons (Awar/Wit):
+* Shoot (Awar/Wit):
+  * Shoots your main weapon at a ST. 
   * Level: `4`, AP: `2`
-* Shield: Level `3`
 
 ### Automaton Armament
-| Tier | Weapon                   | Bulk | Skill                 | Properties                                            | Damage & Effects   | Description        |
-| ---- | ------------------------ | ---- | --------------------- | ----------------------------------------------------- | ------------------ | ------------------ |
-| 0    | Thunderer Machine-Gun    | 5    | Special Weapons       | Ranged: `10`, Ammo: `60`, Automatic, Very Slow Reload | `10` Piercing | A bulky and heavy machine gun with a moderate rate of fire, but well suited to suppression fire. |
-| 1    | Oppressor Autocannon     | 6    | Special Weapons       | Ranged: `15`, Ammo: `12`, Semi-Automatic, Burst: `3`, Very Slow Reload | `15` Piercing | A large caliber autocannon for mounting on an Automaton. Always fires in bursts of `3` shots. |
-| 1    | Aegis Shield             | 8    | Shield                | Melee                                                 | A massive and solid steel shield sturdy enough to stop a large caliber. Reduces damage taken and prevents damage to targets standing behind. Protections: `20` Slashing; `10` Piercing; `10` Bludgeoning |
+| Tier | Weapon                   | Bulk | Properties                                            | Damage & Effects   | Description        |
+| ---- | ------------------------ | ---- | ----------------------------------------------------- | ------------------ | ------------------ |
+| 0    | Thunderer Machine-Gun    | 5    | Ranged: `10`, Ammo: `60`, Automatic, Burst: `6`, Very Slow Reload | `10` Piercing | A bulky and heavy machine gun with a moderate rate of fire, but well suited to target suppression. |
+| 1    | Oppressor Autocannon     | 6    | Ranged: `15`, Ammo: `12`, Semi-Automatic, Burst: `3`, Very Slow Reload | `15` Piercing | A large caliber autocannon for mounting on an Automaton. Always fires in bursts of `3` shots. |
+| 1    | Aegis Shield             | 8    | Melee                                                 | A massive and solid steel shield sturdy enough to stop a large caliber. Reduces damage taken and prevents damage to targets standing behind. Protections: `20` Slashing; `10` Piercing; `10` Bludgeoning |
+| 1    | Liquidator               | 6    | Melee                                                 | A massive and solid steel shield sturdy enough to stop a large caliber. Reduces damage taken and prevents damage to targets standing behind. Protections: `20` Slashing; `10` Piercing; `10` Bludgeoning |
 
 ## Armor Technology 
 The PCs can spend **Armor Technology Points** to improve their armors. 
@@ -730,11 +735,24 @@ The appendix contains lists for reference only when needed.
 Additions and alterations to the [Core Assets Appendix](./strive-core.md#assets-appendix). 
 
 ### General Assets
-| Name                   | Bulk | Max. Stack Size | Supply Cost | Work-Rate / PI    | Description                                                              |
-| ---------------------- | ---- | --------------- | ----------- | ----------------- | ------------------------------------------------------------------------ |
-| Bullets                | 1    | 60              | 3           | `3 / QoD` / `12`  | Ammunition for all standard weapons.                                     |
-| Fuel                   | 1    | 20              | 8           |                   | Required to keep the Sky Ship moving, and serves as ammunition for some weapons. |
-| Heavy Ordnance         | 10   | 10              | 15          |                   | Ammunition for the Sky Ship's armaments.                                 |
+| Name                           | Bulk | Max. Stack Size | Supply Cost | Prerequisites        | Work-Rate / PI    | Description                                                              |
+| ------------------------------ | ---- | --------------- | ----------- | -------------------- | ----------------- | ------------------------------------------------------------------------ |
+| Bullets                        | 1    | 60              | 3           |                      | `3 / QoD` / `12`  | Ammunition for all standard weapons.                                     |
+| Fuel                           | 1    | 20              | 8           |                      |                   | Required to keep the Sky Ship moving, and serves as ammunition for some weapons. |
+| Heavy Ordnance                 | 10   | 10              | 15          |                      |                   | Ammunition for the Sky Ship's armaments.                                 |
+
+### Mechanite Assets
+Assets that specifically require unlocking through [Mechanite Technology](#mechanite-technology).
+
+| Name                                   | Bulk | Max. Stack Size | Supply Cost | Prerequisites        | Work-Rate / PI    | Description                                                              |
+| -------------------------------------- | ---- | --------------- | ----------- | -------------------- | ----------------- | ------------------------------------------------------------------------ |
+| Biped Automaton Ammo-Feeder            | 3    | 1               | 15          |                      |                   | Enables the Biped Automaton to reload its primary weapon without assistance, once per Round, at regular AP costs. Alternatively, a Stormbreaker may still assist in reloading, which now reduces the reload-cost by `-1` AP, down to no less than `1` AP. |
+| Corruption Detector                    | 1    | 1               | 5           |                      |                   | A handheld instrument that detects anomalous Corruption within `10` Squares, indicating the direction and approximate intensity of the nearest source. It does **not** reveal details about the nature of the Corruption source, or make it visible. |
+| Grapnel Winch                          | 2    | 1               | 5           |                      |                   | A portable mechanical winch launches a grapnel up to `10` Squares to a suitable solid anchor. Once secured, it can support a Character climbing along the cable or haul an unattended load of up to `10` Bulk. It cannot anchor to loose debris or an unstable surface. |
+| Infrared Sight                         | 1    | 1               | 5           |                      |                   | An advanced gadget that allows seeing a different sprectrum of light. With it, the wearer can perceive heat signatures, such as from creatures and running engines, up `20` Squares away, even in darkness and thick fog. The sight does not see through solid objects, reveal precise details, or automatically identify what it detects. It provides no bonus to Attack rolls and does not negate Cover. |
+| Portable Corruption Suppressor         | 5    | 1               | 10          |                      |                   | A portable version of the Mechanites' Corruption-cleansing devices. When activated, it suppresses environmental Corruption within a `10` Square AoE radius for `1` QoD. It prevents Corruption gained from environmental sources within the area, but does not remove existing Corruption, suppress Corruption originating directly from a creature, protect against Death Fog, or extend gas-mask filter life. |
+| Remote-Controlled Explosive Drone      | 3    | 1               | 5           |                      |                   | A small, remote-controlled drone outfitted with a potent explosive. When triggered, in a `5` Square AoE diameter, causes `5` Bludgeoning and `5` Burning damage. Upon detonation, it is destroyed and cannot be used again. Likewise, if it is destroyed before reaching its destination, it will detonate prematurely. |
+| Remote-Controlled Reconnaissance Drone | 3    | 1               | 10          |                      |                   | A small, remote-controlled drone outfitted with a camera and microphone. It can travel up to `20` Squares from its operator and transmit visual and audio information back to them. It cannot attack or carry significant loads. |
 
 ### Armors
 Death Fog protection works a little differently. For every point of protection, a Character can survive in Death Fog for `+30` Minutes. Once that time is up, they will take `10` Pure damage every minute. The Death Fog protection has to be reset at the Sky Ship, where the gas mask's Death Fog filters are changed by a special machine. 
@@ -792,7 +810,7 @@ A large and heavy, but solid shield that can even stop bullets.
 | 0    | Krauser Semi-Auto Pistol | 1    | 3           | 1               | Firearms              | Ranged: `6`, Ammo: `6`, Semi-Auto                                  | `≤ 2`: `6` Piercing <br> `= 3` Hits: `6` Piercing <br> `≥ 4` Hits: `7` Piercing | The mass-produced Krauser semi-auto pistol is a reliable, though not particularly deadly personal defence weapon. |
 | 0    | Maksim Rifle             | 3    | 3           | 1               | Firearms              | Ranged: `20`, Ammo: `6`, Bolt-Action, Slow Reload                  | `≤ 2`: `10` Piercing <br> `= 3` Hits: `12` Piercing <br> `≥ 4` Hits: `15` Piercing | The mass-produced Maksim bolt-action rifle is reliable and powerful, but also bulky and slow. |
 | 0    | Trench Shovel            | 2    | 3           | 1               | Close Quarters Combat | Melee                                                              | `≤ 2`: `5` Slashing <br> `= 3` Hits: `6` Slashing <br> `≥ 4` Hits: `7` Slashing | A standard-issue digging implement with sharp edges. Trusty and reliable. |
-| 0    | Explosive Satchel        | 2    | 3           | 2               | Trapping              | Triggered                                                          | `≤ 2`: `5` Burning + `5` Bludgeoning <br> `= 3` Hits: `6` Burning + `6` Bludgeoning <br> `≥ 4` Hits: `8` Burning + `8` Bludgeoning | A remotely triggered explosive charge, affecting all in a `2` Square AoE radius. |
+| 0    | Explosive Satchel        | 2    | 3           | 2               | Trapping              | Triggered                                                          | `≤ 2`: `8` Burning + `8` Bludgeoning <br> `= 3` Hits: `9` Burning + `9` Bludgeoning <br> `≥ 4` Hits: `10` Burning + `10` Bludgeoning | A remotely triggered explosive charge, affecting all in a `2` Square AoE radius. |
 | 1    | Flamethrower             | 3    | 5           | 1               | Special Weapons       | Ranged: `8`, Ammo: `10` Fuel                                       | `≤ 2`: `5` Burning <br> `= 3` Hits: `8` Burning <br> `≥ 4` Hits: `11` Burning | A flame-throwing weapon. Uses Fuel instead of Bullets as ammo. |
 | 1    | Flash Grenade            | 1    | 5           | 3               | Throwing              | Thrown                                                             | Blinds all creatures who look into the flash for `3` Rounds. They suffer `+1` Ob to all Tests. | Stacks up to `3`; A throwable flash grenade designed for the non-violent quelling of riots, which may also find use in the field. |
 | 1    | Gas Grenade              | 1    | 5           | 3               | Throwing              | Thrown                                                             | Releases a noxious cloud of gas, in a `3` Square diameter, which causes `10` Acid damage. its | Stacks up to `3`; A throwable gas grenade useful for area-denial. |
@@ -970,7 +988,7 @@ A specialist in identifying threats and eliminating priority targets before they
 
 **Languages**: Valennian: Native
 
-**Trait**: [Quick Thinker](./strive-core.md#quick-thinker)
+**Trait**: [Steady Aim](./strive-core.md#steady-aim)
 
 **Equipment direction**: Melee weapons, smaller sidearms, heavy armor, heavy shields
 
