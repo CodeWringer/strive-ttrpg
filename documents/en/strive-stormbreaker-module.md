@@ -7,7 +7,6 @@
   * More cultural background, Character name suggestions
   * Stormbreaker uniform
   * Define Kronnstedt region better -> the default islands within it. 
-* More Dieselpunk themed Skills
 * Supernatural abilities -> broad roster of psionics?
   * Skills that consume Marked for powerful debuffs
 * Special weapons -> Flamethrowers, Gun emplacements, mortars, grenade launchers, etc.
@@ -44,8 +43,10 @@ This will be a far more directed experience than usual, tailor-cut for shorter c
   - [Technology](#technology)
     - [Aetherium Resuscitation](#aetherium-resuscitation)
     - [Survival Above The Clouds](#survival-above-the-clouds)
+    - [Silversteel](#silversteel)
   - [Corruption](#corruption)
     - [Corrupted Condition](#corrupted-condition)
+  - [Death Fog](#death-fog)
   - [Overworld](#overworld)
 - [The Mission](#the-mission)
   - [The Capital's Unity](#the-capitals-unity)
@@ -240,8 +241,6 @@ As such, most 'modern' technology is mostly timber-based, as it is one of the fe
 
 Radio technology exists and is fantastically powerful, enabling the transmission of both fully holographic data and small physical goods, such as food and ammunition. However, the great Storm Walls also act as barriers of the radio waves, drastically shortening their effective range beyond them. Relays beyond the storms *could* boost the signal, allowing longer range communications, but this requires significant resources. By default, all Stormbreakers are equipped with personal radio transmitters, allowing for short-distance communication, up to `30` Squares away.
 
-In addition to ordinary metals, a new material has been found - **White Steel**, also called **Silversteel** - which is ten times more durable than even the strongest steel alloy. It is highly sought after by the Stormbreaker Order, as it may yet be the puzzle needed to reliably traverse the Storm Walls. 
-
 ### Aetherium Resuscitation
 Just before the cataclysm, the **Aetherium** was discovered - the essence of life and soul. The Stormbreaker Order has been granted charge over this most valuable secret, as it allows their people to be resurrected after death, no matter where it occurs or how unrecoverable their body is. **Aetherium Resuscitation Chambers (A.R.C.s)** catch the fleeting Aetherium of anyone attuned to the device, who recently died, even great distances away, and re-grows their body before infusing it with their soul. As such, Stormbreakers are often particularly courageous, if not outright reckless, in their pursuits. 
 
@@ -251,6 +250,32 @@ As Aetherium resuscitation is a harrowing process that feels like being threaded
 
 ### Survival Above The Clouds
 Every building is obligated to have an installed rain catcher, which is then purified and made available as safe drinking water. Food is grown on balconies and rooftops, as well as every free island area with fertile soil. Recycling is important, though still at a very early stage of development, allowing only rudimentary re-use of resources. Much is lost by use, but never dumped off the island. Instead, waste is neatly separated and kept on the outskirts of town or on surrounding garbage dump islands. 
+
+### Silversteel
+**Silversteel**, also known as **White Steel**, is an exceptionally durable material of extraordinary value. It is ten times more durable than even the strongest steel alloy and highly sought after by the Stormbreaker Order, as it may yet be instrumental in reliably traversing the Storm Walls. The trouble lies in procuring impactful amounts of the stuff. It cannot be produced by any means the Capital or Stormbreaker Order possess and is even considered an *impossible* material, according to the Mechanites' greatest minds. As such, it can only be recovered in the field, by Stormbreakers on [Expedition](#expedition). 
+
+Its primary uses lie in improving the [Sky Ship's](#sky-ship) protection from the Storm Walls, and in acquiring [high tier armor](#armor-technology).
+
+**Argentumite Salvage**: A primary source is represented by the enigmatic Argentumites - who are inhuman beings made of Silversteel with relentless hatred for all life. Defeating them grants an opportunity to harvest their body for Silversteel, provided the body is reachable, in time. There is no Test required to extract Silversteel from an Argentumite's corpse. Killing the thing was challenge enough. 
+
+**Deposits**: Another source of Silversteel are the rare deposits that can sometimes be found in the world. It will require a dedicated prospecting Expedition to harvest a deposit, which always represents a one-time opportunity, with challenges of its own to overcome. Once at the site of the deposit, a [Creative Test](./strive-core.md#creative-test) may determine the amount of Silversteel that will be extracted. The Creative Test cannot fail as a whole, but each failed challenge results in a lower resource yield. You always gain at least one yield, even if all challenges fail. You can also choose to intentionally lower your target yield, by reducing the number of challenges you wish to solve. But know that the Silversteel source is always fully consumed. It remains a one-time opportunity. Note that extracting the material is only *half* the challenge. Then, it must be carried home. Silversteel you gain is not automatically added to your stores, you must actually get it back to your Sky Ship to be able to use it. 
+
+> "Per deposit: Creative Test: Ob `3`, `6` challenges, each granting `5` Silversteel."
+>
+> This means: when the Stormbreakers have found a deposit they wish to extract Silversteel from, they may solve a Creative Test with `6` challenges, each at Ob `3`. For every successful challenge, the final Silversteel yield increases by `+5` units. 
+
+The following table offers some generic challenges. More specific ones are offered for each biome, for the GM to see. 
+
+| D6 | Challenge                 | Description            | Failure Result |
+| -- | ------------------------- | ---------------------- | -------------- |
+| 1  | **Corrupted**             | Part of the source is covered in heavy Corruption. You can *see* the air warping around the Silversteel. | `+1` Corruption to all Stormbreakers. |
+| 2  | **Unstable**              | Part of the source is unstable. It might collapse on a Stormbreaker's head or beneath their feet. | `+1D4` Bludgeoning Injuries to divide among the Stormbreakers. |
+| 3  | **Death Fog**             | The source is covered in Death Fog. | Every Stormbreaker suffers `1D10 + 5` Pure Damage. |
+| 4  | **Tool Failure**          | Your extraction tools fail, simultaneously. Whether through Corruption or from the hardness of the vein, you suffer a setback. | Lose `2` Silversteel yield, once. |
+| 5  | **Lengthy Extraction**    | The source proves especially difficult to crack and takes much longer than anticipated. | The Stormbreakers lose precious time. Foes may creep up on them, or Corruption may increase by `+1`. |
+| 6  | **Difficult Access**      | The source lies in a narrow crevice, on a sheer surface or behind some tough obstacles. | Squeezing into the narrow space or clearing the obstacles takes precious time and causes damage to equipment. Corruption  increases by `+1`. |
+
+One unit of Silversteel occupies one Bulk and is stackable up to `3`. 
 
 ## Corruption
 Ever since the cataclysm, a malicious force ever permeates the air, seeking to further undermine the physical order of the world. It tugs and gnaws at all living things, ultimately morphing them into abhorrent, destructive monsters. While dire, all is not terrible. The Mechanites have found a means to staunch the flow of this otherworldly Corruption. Where their cleansing devices stand, the natural order is preserved and life may go on as usual. But all who are exposed to the Corruption for too long, will inevitably fall to its inexorable hunger. 
@@ -263,6 +288,11 @@ All Characters have a **Corruption Tolerance**, determined by their `4 + Tough +
 A Character in this state has `3` Turns to reduce their Corruption, or else become a Corruption monster! In case of a PC, this effectively means their Character dies! 
 
 Every Turn, an additional degree of this Condition is automatically suffered. It can only be cleared at the Sky Ship. 
+
+## Death Fog
+Ever since the cataclysm, the world below has been covered in **Death Fog** - clouds emanating a ghostly, blue-ish light, and deathly hostile to all life. Direct exposure rapidly erases organic matter from within. It is possible to protect oneself, for a limited time. For this purpose, all Stormbreakers wear their gas-masks with special filters, associated with their [armor](#armors).
+
+For every point of protection, a Character can survive in Death Fog for `+30` Minutes. 
 
 ## Overworld
 When traveling by Sky Ship, the PCs are expected to traverse a grid of hexagons, each of which is considered to be `20` miles or km in diameter. Each hex that is traveled by Sky Ship costs `1` unit of fuel. When it runs out, the Sky Ship is stranded and will drift at the whims of the wind. 
@@ -516,7 +546,7 @@ The PCs can spend **Armor Technology Points** to improve their armors.
 | 2      | 10          | Increase an armor's Death Fog protection by `+1`. Can only be improved once per armor. | Armor Manufactories `2` | Yes |
 | 2      | 10          | Decrease an armor's Bulk by `1`. Can only be improved once per armor. | Armor Manufactories `2` | Yes |
 | 12     | 30          | Unlock tier `3` armors. | Armor Manufactories `3` | No |
-| 18     | 40          | Unlock tier `4` armors. | Armor Manufactories `4`; `20` units of Silversteel | No |
+| 18     | 40          | Unlock tier `4` armors. | Armor Manufactories `4`; `20` units of Silversteel, which are consumed when this is unlocked | No |
 
 ## Weapon Technology 
 The PCs can spend **Weapon Technology Points** to improve their weapons. 
@@ -557,7 +587,7 @@ Besides the Stormbreakers, there are no additional crew on board. Only few are s
 ## Passing Storm Walls
 Passing through the Storm Walls always causes damage to the Sky Ship. How much, depends on the Storm Wall tier, which increases the farther the Stormbreakers travel from the Capital. 
 
-Improving the Sky Ship with plates of Silversteel will reduce the Storm Wall damage incurred when passing through. `10` Silversteel converts to `+10` protection, which also works against other forms of damage to the Sky Ship. 
+Improving the Sky Ship with plates of Silversteel will reduce the Storm Wall damage incurred when passing through. `10` Silversteel converts to `+10` protection from the storms. 
 
 To successfully pass the Storm Wall takes a [Creative Test](./strive-core.md#creative-test). Stormbreakers must succeed at least as many challenges as noted on the left, of the maximum number noted on the right, in the table below. The same Character may attempt to solve multiple Challenges. If too many Tests are failed, the Wall spits the Sky Ship back out whence it entered, and worse for wear. 
 
@@ -762,19 +792,19 @@ Death Fog protection works a little differently. For every point of protection, 
 
 All Armors are unstackable. 
 
-| Tier | Armor                        | Bulk | Supply Cost | Protection         | Description        |
-| ---- | ---------------------------- | ---- | ----------- | ------------------ | ------------------ |
-| 0    | Standard Breastplate         | 2    | 3           | `6` Slashing; `4` Piercing; `3` Bludgeoning; `5` Poison; `1` Death Fog | Munitions-grade armor and an early model gas-mask. Mass-produced and cheap. |
-| 1    | Hazard Suit                  | 3    | 5           | `10` Poison; `10` Acid; `5` Burning; `3` Death Fog | A rubber coverall which protects the entire body from environmental hazards, but does little against bullets and swords. |
-| 1    | Trench Armor                 | 3    | 5           | `8` Slashing; `4` Piercing; `8` Bludgeoning; `5` Poison; `1` Death Fog | Particularly well padded, this armor protects well against broad-area damage, but won't stop a bullet. |
-| 2    | Medic Fatigues               | 2    | 10          | `3` Slashing; `2` Bludgeoning; `6` Poison; `5` Acid; `2` Death Fog | Offers only moderate protection, but allows all medical supplies to stack twice their normal amount. |
-| 2    | Ammo Carrier                 | 3    | 10          | `3` Slashing; `6` Bludgeoning; `6` Poison; `2` Death Fog | Offers only moderate protection, but allows all ammunition to stack twice its normal amount. |
-| 2    | Exoskeleton                  | 3    | 10          | `3` Slashing; `6` Bludgeoning; `6` Poison; `2` Death Fog | Offers only moderate protection, but helps stabilize ranged weapons, providing `+1D` for Attack rolls. |
-| 3    | Camo Armor                   | 3    | 10          | `6` Slashing; `5` Piercing; `5` Bludgeoning; `5` Poison; `2` Death Fog | Offers only moderate protection, but grants `+2` Stealth to its wearer. |
-| 3    | Hauler Armor                 | 4    | 10          | `4` Slashing; `4` Piercing; `4` Bludgeoning; `5` Poison; `2` Death Fog | Offers only moderate protection, but a metal exoskeleton grants `+10` maximum Luggage Bulk to its wearer. |
-| 4    | Stormbreaker Assault Armor   | 4    | 15          | `14` Slashing; `14` Piercing; `14` Bludgeoning; `10` Acid; `5` Poison; `4` Death Fog; `2` Corruption | Made from Silversteel, this armor protects exceptionally well. A face-plate covers a highly modern, sleek gas mask. The perfect choice for a frontal assault or dirty trench warfare. |
-| 4    | Stormbreaker Sapper Armor    | 4    | 15          | `10` Slashing; `10` Piercing; `8` Bludgeoning; `5` Acid; `5` Poison; `4` Death Fog; `2` Corruption | Made from Silversteel, this armor protects exceptionally well and provides `+8` maximum Luggage Bulk to its wearer. A great choice if you plan on bringing bigger ordnance. |
-| 4    | Stormbreaker Purifier Armor  | 4    | 15          | `8` Slashing; `6` Piercing; `6` Bludgeoning; `15` Acid; `10` Poison; `10` Burning; `6` Death Fog; `4` Corruption | Made from Silversteel, this armor protects exceptionally well. The suit is hermetically sealed and fire-retardent, providing excellent hazard protection. |
+| Tier | Armor                        | Bulk | Supply Cost | Additional Cost | Protection         | Description        |
+| ---- | ---------------------------- | ---- | ----------- | --------------- | ------------------ | ------------------ |
+| 0    | Standard Breastplate         | 2    | 3           |                 | `6` Slashing; `4` Piercing; `3` Bludgeoning; `5` Poison; `1` Death Fog | Munitions-grade armor and an early model gas-mask. Mass-produced and cheap. |
+| 1    | Hazard Suit                  | 3    | 5           |                 | `10` Poison; `10` Acid; `5` Burning; `3` Death Fog | A rubber coverall which protects the entire body from environmental hazards, but does little against bullets and swords. |
+| 1    | Trench Armor                 | 3    | 5           |                 | `8` Slashing; `4` Piercing; `8` Bludgeoning; `5` Poison; `1` Death Fog | Particularly well padded, this armor protects well against broad-area damage, but won't stop a bullet. |
+| 2    | Medic Fatigues               | 2    | 10          |                 | `3` Slashing; `2` Bludgeoning; `6` Poison; `5` Acid; `2` Death Fog | Offers only moderate protection, but allows all medical supplies to stack twice their normal amount. |
+| 2    | Ammo Carrier                 | 3    | 10          |                 | `3` Slashing; `6` Bludgeoning; `6` Poison; `2` Death Fog | Offers only moderate protection, but allows all ammunition to stack twice its normal amount. |
+| 2    | Exoskeleton                  | 3    | 10          |                 | `3` Slashing; `6` Bludgeoning; `6` Poison; `2` Death Fog | Offers only moderate protection, but helps stabilize ranged weapons, providing `+1D` for Attack rolls. |
+| 3    | Camo Armor                   | 3    | 10          |                 | `6` Slashing; `5` Piercing; `5` Bludgeoning; `5` Poison; `2` Death Fog | Offers only moderate protection, but grants `+2` Stealth to its wearer. |
+| 3    | Hauler Armor                 | 4    | 10          |                 | `4` Slashing; `4` Piercing; `4` Bludgeoning; `5` Poison; `2` Death Fog | Offers only moderate protection, but a metal exoskeleton grants `+10` maximum Luggage Bulk to its wearer. |
+| 4    | Stormbreaker Assault Armor   | 4    | 15          | `5` Silversteel | `14` Slashing; `14` Piercing; `14` Bludgeoning; `10` Acid; `5` Poison; `4` Death Fog; `2` Corruption | Made from Silversteel, this armor protects exceptionally well. A face-plate covers a highly modern, sleek gas mask. The perfect choice for a frontal assault or dirty trench warfare. |
+| 4    | Stormbreaker Sapper Armor    | 4    | 15          | `5` Silversteel | `10` Slashing; `10` Piercing; `8` Bludgeoning; `5` Acid; `5` Poison; `4` Death Fog; `2` Corruption | Made from Silversteel, this armor protects exceptionally well and provides `+8` maximum Luggage Bulk to its wearer. A great choice if you plan on bringing bigger ordnance. |
+| 4    | Stormbreaker Purifier Armor  | 4    | 15          | `5` Silversteel | `8` Slashing; `6` Piercing; `6` Bludgeoning; `15` Acid; `10` Poison; `10` Burning; `6` Death Fog; `4` Corruption | Made from Silversteel, this armor protects exceptionally well. The suit is hermetically sealed and fire-retardent, providing excellent hazard protection. |
 
 ### Shields
 Shields are Assets that provide passive bonuses to Defense against melee and ranged Attacks and require one free hand to use. This implies they cannot be used at the same time as a two-handed weapon (unless of course if you have more than two hands). 
@@ -1140,11 +1170,15 @@ Whenever the PCs enter a new region, it may be part of one of the following biom
 As the PCs make their way farther and farther from the Capital, perils and rewards mount ever higher. 
 
 ## Sky Nations
-Before the cataclysm, the Capital was surrounded by countless towns. Some were even large enough to negotiate partial independence from the crown. Those that survived have now taken the chance to seize their full autonomy. The Kijser back home will want to bring these cities back into the fold, who in turn won't yield their freedom willingly. They may need to be persuaded, bought or forced into submission, if possible. If not, diplomatic relations may also aid the Capital. 
+Before the cataclysm, the Capital was surrounded by countless towns. Some were even large enough to negotiate partial independence from the crown. Those that survived have now taken the chance to seize their full autonomy. The Kijser back home will want to bring these cities back into the fold, who in turn won't yield their freedom willingly. They may need to be persuaded, bought or forced into submission, if possible. But even if that fails, trade may still benefit the Capital. 
 
-As these fledgling nations have yet to find their place in this new world they will openly quarrel with each other. Each is trying to seize more and more control of the region. If so inclined, the PCs may exploit this circumstance to play these Sky Nations against one another. 
+As these fledgling nations have yet to find their place in this new world they will openly quarrel with each other. Each is trying to seize more and more control of the region. If so inclined, the Stormbreakers may exploit this circumstance to play these Sky Nations against one another. 
 
 **Storm Wall Tier**: `1`
+
+**Silversteel**: No deposits. What little Silversteel is available here, is securely locked away in the vaults of the Sky Nations. 
+
+**Argentumite Presence**: Very low. Only weaker specimen occasionally haunt these skies. 
 
 ### Sky Nations Locations
 | D6  | Location                  | Description |
@@ -1157,19 +1191,27 @@ As these fledgling nations have yet to find their place in this new world they w
 | 6   | **Unaligned Town**        | While the Sky Nations divy up territory, some towns try to remain neutral. This is one such case. While they might submit to the crown, the Sky Nations won't just idly accept the fallen empire's meddling. |
 
 ### Sky Nations Challenges
-| D6 | Challenge                 | Description            | Failure Result |
-| -- | ------------------------- | ---------------------- | -------------- |
-| 1  | **Bandits**               | Bandits stalk this region. You will have to circumnavigate or eliminate them, to proceed. | The Stormbreakers are attacked by bandits! |
-| 2  | **The New Authority**     | One of the fledgling nations is trying to assert dominance. They will look to find a transgression in the Stormbreakers' actions, and demand reparations be paid, when they do. | High Command wishes to avoid an altercation and will pay to rectify your dishonor. The Capital loses `1D10 + 5` Supplies! |
-| 3  | **Mistaken As Foes**      | Two of the Sky Nations here are at war, and mistake the Stormbreakers' Sky Ship as part of the enemy's fleet. They will look to engage the Stormbreaker Sky Ship. | The Sky Ship is damaged in the fight and loses `1D10 + 5` HP! |
-| 4  | **Swine Raid**            | As food is abundant in this region, so are the vultures - or swine, in this case. In their pilfered and improvised Sky Ships, they raid towns and Sky Ships with impunity. | The Stormbreaker Sky Ship is boarded by vile Swine! |
-| 5  | **Belligerent Refugees**  | As the Stormbreakers fly by an island, several people jump from it and board the Sky Ship. They attempt to take control of the Sky Ship, as they refuse to go down with their home! | The Stormbreakers lose control of their Sky Ship! They must now take it back! |
-| 6  | **Airborne Predator**     | A particularly dangerous predator stalks the skies. It may consider the Stormbreakers or their Sky Ship as easy prey. | The Stormbreakers are attacked by an aerial predator! |
+| D10 | Challenge                 | Description            | Failure Result |
+| --- | ------------------------- | ---------------------- | -------------- |
+| 1   | **Bandits**               | Bandits stalk this region. You will have to circumnavigate or eliminate them, to proceed. | The Stormbreakers are attacked by bandits! |
+| 2   | **The New Authority**     | One of the fledgling nations is trying to assert dominance. They will look to find a transgression in the Stormbreakers' actions, and demand reparations be paid, when they do. | High Command wishes to avoid an altercation and will pay to rectify your dishonor. The Capital loses `1D10 + 5` Supplies! |
+| 3   | **Mistaken As Foes**      | Two of the Sky Nations here are at war, and mistake the Stormbreakers' Sky Ship as part of the enemy's fleet. They will look to engage the Stormbreaker Sky Ship. | The Sky Ship is damaged in the fight and loses `1D10 + 5` HP! |
+| 4   | **Swine Raid**            | As food is abundant in this region, so are the vultures - or swine, in this case. In their pilfered and improvised Sky Ships, they raid towns and Sky Ships with impunity. | The Stormbreaker Sky Ship is boarded by vile Swine! |
+| 5   | **Belligerent Refugees**  | As the Stormbreakers fly by an island, several people jump from it and board the Sky Ship. They attempt to take control of the Sky Ship, as they refuse to go down with their home! | The Stormbreakers lose control of their Sky Ship! They must now take it back! |
+| 6   | **Airborne Predator**     | A particularly dangerous predator stalks the skies. It may consider the Stormbreakers or their Sky Ship as easy prey. | The Stormbreakers are attacked by an aerial predator! |
+| 7   | **Cracking Island**       | A nearby island breaks apart before your very eyes, its remains crashing into everything nearby. | The Stormbreakers suffer `1D4` Bludgeoning Injuries from flying debris. |
+| 8   | **Crosswind Shear**       | A strong, errant gust slams into the Stormbreakers at an inopportune moment. | The Stormbreakers are swept off their feet, possibly at risk of plunging into the depths below. |
+| 9   | **Cloudblind**            | A low cloud envelops the area. Navigation by sight is impeded. | The Stormbreakers lose valuable time, as they must slow down to keep going. They lose `1D4` QoDs. |
+| 10  | **Closed Borders**        | The area ahead has been cordoned off by one of the Sky Nations. They will not let the Stormbreakers pass. | The Stormbreakers are chased away with force, and made to retreat. They must find a different route. |
 
 ## Lofty Jungle
 The islands of this biome are particularly vibrant and full of color. Dense jungles have grown atop floating mountains and old, abandoned buildings. Food and peril are abundant and the Swine may be a source of technology, if they can be defeated. For whatever reason, the flora and fauna that thrives here seems unaffected by the Corruption. 
 
 **Storm Wall Tier**: `2`
+
+**Silversteel**: Few deposits, almost always in the most impossible to reach places, with moderate yield. Per deposit: Creative Test: Ob `2`, `3` challenges, each granting `2` Silversteel.
+
+**Argentumite Presence**: Very low. Only weaker specimen occasionally haunt these skies. 
 
 ### Lofty Jungle Locations
 | D4  | Location                  | Description |
@@ -1180,44 +1222,60 @@ The islands of this biome are particularly vibrant and full of color. Dense jung
 | 4   | **Overgrown City**        | The remnants of a city have become a vibrant haven of nature, and may prove quite the labyrinthian nightmare to traverse. Threats new and old may lurk anywhere within, but also treasures of the past. |
 
 ### Lofty Jungle Challenges
-| D6 | Challenge                 | Description            | Failure Result |
-| -- | ------------------------- | ---------------------- | -------------- |
-| 1  | **Carnivorous Plants**    | Careless steps may land the Stormbreakers in the maw of a carnivorous plant. | The Stormbreakers are suffer `1D4` Slashing Injuries, to be divided among them! |
-| 2  | **Corruption Hotbed**     | In this section of the jungle, the trees look... *odd*, and the air crackles aggressively. | The Stormbreakers have wandered into a Corruption Hotbed and each of them suffer `+1` Corruption! |
-| 3  | **Dense Vegetation**      | The jungle itself seems bent on preventing passage. The Stormbreakers must cut free a path. | The time they spend gives foes a chance to sneak up and ambush the Stormbreakers! |
-| 4  | **Predatorial Animals**   | One or more predators stalk the thicket of the jungle. You will have to avoid or neutralize them. | The Stormbreakers are attacked and suffer `1D4` Slashing Injuries, to be divided among them! |
-| 5  | **Spore-Filled Air**      | Some kind of giant mycelium has saturated the air with poisonous spores. A strain is put on the Stormbreakers' gas masks, and vision through the sickly clouds difficult. | The Stormbreakers get lost, and waste precious time. Each of them suffers `+1` Corruption1 |
-| 6  | **Winding Paths**         | The jungle almost seems designed to appear as confusing as possible. The path forward is obstructed by some new obstacle, around every corner. | The Stormbreakers get lost, and waste precious time. Each of them suffers `+1` Corruption! |
+| D10 | Challenge                 | Description            | Failure Result |
+| --- | ------------------------- | ---------------------- | -------------- |
+| 1   | **Carnivorous Plants**    | Careless steps may land the Stormbreakers in the maw of a carnivorous plant. | The Stormbreakers are suffer `1D4` Slashing Injuries, to be divided among them! |
+| 2   | **Corruption Hotbed**     | In this section of the jungle, the trees look... *odd*, and the air crackles aggressively. | The Stormbreakers have wandered into a Corruption Hotbed and each of them suffer `+1` Corruption! |
+| 3   | **Dense Vegetation**      | The jungle itself seems bent on preventing passage. The Stormbreakers must cut free a path. | The time they spend gives foes a chance to sneak up and ambush the Stormbreakers! |
+| 4   | **Predatorial Animals**   | One or more predators stalk the thicket of the jungle. You will have to avoid or neutralize them. | The Stormbreakers are attacked and suffer `1D4` Slashing Injuries, to be divided among them! |
+| 5   | **Spore-Filled Air**      | Some kind of giant mycelium has saturated the air with poisonous spores. A strain is put on the Stormbreakers' gas masks, and vision through the sickly clouds difficult. | The Stormbreakers get lost, and waste precious time. Each of them suffers `+1` Corruption1 |
+| 6   | **Winding Paths**         | The jungle almost seems designed to appear as confusing as possible. The path forward is obstructed by some new obstacle, around every corner. | The Stormbreakers get lost, and waste precious time. Each of them suffers `+1` Corruption! |
+| 7   | **Entangling Roots**      | Thick roots obstruct the area. Clearing them will take time. | `+1` Corruption. |
+| 8   | **Fractured**             | The area is broken up by several floating chunks of earth, that are difficult to reach. | Some of the earthen chunks crumble and plunge into the depths below. With them, go potential treasures and the path forward. |
+| 9   | **Flash Flood**           | A sudden, heavy rain fall flushes the ground away beneath your feet. | Stormbreakers lose their footing and are carried away by the waters, even as far as the edge of the island. |
+| 10  | **Parasitic Swarm**       | A swarm of blood-feeding insects descends upon the Stormbreakers. | All Stormbreakers suffer `1` Bleeding Injury. |
 
 ## Glassed Desert
-Life has all but vanished from the massive landmasses that dominate these skies, their desert surfaces glinting and sparkling in the light of the sun. Touched by Corruption and the heaven's gaze, the sands have begun to change - and some of the grains are unusually white. Argentumites roam the skies high above. It may be best not to draw too much attention here. 
+Life has all but vanished from the massive landmasses that dominate these skies, their desert surfaces glinting and sparkling in the light of the sun. Touched by Corruption and the heaven's gaze, the sands have begun to change - and some of the grains are unusually white. Massive, jagged chunks of glass float across the dunes Argentumites roam the skies high above - it may be best not to draw too much attention here. 
 
 **Storm Wall Tier**: `3`
+
+**Silversteel**: Some large deposits, but very difficult to exploit. Per deposit: Creative Test: Ob `4`, `6` challenges, each granting `3` Silversteel.
+
+**Argentumite Presence**: Moderate. Some stronger specimen occasionally haunt the desert. 
 
 ### Glassed Desert Locations
 | D6  | Location                  | Description |
 | --- | ------------------------- | ----------- |
-| 1   | **Vast Waste**            | A huge area filled with nothing but sand... and grains of Silversteel? Could this be a source of the material? But what was that? You swear, out of the corner of your eyes you can see the sands occasionally shift. Something lurks below the surface. |
+| 1   | **Vast Waste**            | A huge area filled with nothing but sand... and grains of Silversteel? Could this be a source of the material? Out of the corner of your eyes you can see the sands occasionally shift. Something lurks below the surface. |
 | 2   | **Volcano**               | A single, solitary peak sticks out of the desert. More strangely, it seems to contain an active volcano! On the inside of its burning maw, you can see precious metals clinging to the obsidian walls. A treasure trove, if you can brave it. |
 | 3   | **Monument**              | A giant monument basks in the sun. Its architecture is archaic, yet its unnaturally smooth surface bears no signs of wear. Was this recently erected, or built endure a life time of the earth? Who could have managed such an impossible feat? |
-| 4   | ****               |  |
-| 5   | ****               |  |
-| 6   | ****               |  |
+| 4   | **Glass Spires**          | Large columns or spiky glass shimmer in various colors, in the glint of the sun. But there are dark spots within. Various debris appears enclosed in the spires. |
+| 5   | **Spiked Desert**         | Vast areas of the dunes are covered in jagged spikes of glass jutting out of the sand. A careless step could spell grievous injury. |
+| 6   | **Sandfall**              | A smaller floating island hovers just above the dunes. On one side, sand falls down in a steady stream, while an equal amount rises on the other. Its shade is a welcome reprieve from the heat, but not just for you. |
 
 ### Glassed Desert Challenges
-| D6 | Challenge                 | Description            | Failure Result |
-| -- | ------------------------- | ---------------------- | -------------- |
-| 1  | ****               | . |  |
-| 2  | ****               | . |  |
-| 3  | ****               | . |  |
-| 4  | ****               | . |  |
-| 5  | ****               | . |  |
-| 6  | ****               | . |  |
+| D10 | Challenge                 | Description            | Failure Result |
+| --- | ------------------------- | ---------------------- | -------------- |
+| 1   | **Shifting Sands**        | The sand here lies on unstable ground. The dunes may collapse beneath your feet, pulling you under like quicksand. | A Stormbreaker is buried in sand and starts suffocating, suffering `8` Pure Damage! It takes great effort to free them. |
+| 2   | **Buried Predator**       | The sand shifts - but is it from the wind, or something beneath? | The Stormbreakers are ambushed by a predator. |
+| 3   | **Extreme Heat**          | The heat bears down heavy on the Stormbreakers. | All Stormbreakers suffer `+2` Strain. |
+| 4   | **Razor Glass**           | Just beneath the sand, formations of razor-sharp glass lie hidden. A misstep could have painful consequences. | `1D4` Piercing Injuries, divided among the Stormbreakers. |
+| 5   | **Sandstorm**             | A sudden sandstorm obscures all vision and puts a strain on the equipment. | All Stormbreakers suffer `+2` Strain. |
+| 6   | **Glass-storm**           | Like a sandstorm, but far deadlier. Countless tiny shards of glass race across the desert. Anyone caught in the glittering cloud will suffer grievous injury. | `1D6` Slashing Injuries, divided among the Stormbreakers. |
+| 7   | **Blinding Reflections**  | The desert's surface is smooth as a mirror's and the light from the sun is burning in your eyes, at all times. | The Stormbreakers lose their path, and thus `1D4` QoDs. |
+| 8   | **Static-Charged Dust**   | The hot, dry air crackles with energy. The sand itself seems static-charged, poised to strike electrical arcs at any disturber. | `1D4` Electrical Injuries, divided among the Stormbreakers. |
+| 9   | **Extrene Nightfall**     | Rapid cooling causes fractures in the surrounding glass. Careless steps could cause it to shatter beneath your feet. | `1D4` Piercing Injuries, divided among the Stormbreakers. |
+| 10  | **Silica Fumes**          | Particles of dust are kicked up by the wind, enveloping the Stormbreakers. Filters are strained. | Filters/armors lose one point of protectiveness. |
 
 ## Silent Winds
 The great cataclysm wiped out all life in this place. It now belongs solely to the Argentumites. Abandoned towns and crumbling factories hint at a once bustling part of the empire, while silent battlefields hold untold secrets. Beware the Corruption, whose strength has grown to peak in this place. Innumerable chunks of broken earth float everywhere in this region, making traversal by Sky Ship difficult. 
 
 **Storm Wall Tier**: `4`
+
+**Silversteel**: Few deposits, but densely packed, and well guarded. Per deposit: Creative Test: Ob `3`, `3` challenges, each granting `7` Silversteel.
+
+**Argentumite Presence**: High. Many stronger specimen roam these skies. 
 
 ### Silent Winds Locations
 | D6  | Location                  | Description |
@@ -1230,44 +1288,58 @@ The great cataclysm wiped out all life in this place. It now belongs solely to t
 | 6   | **Shard Archipelago**     | An island appears to have fractured. Countless chunks of earth are now orbiting its Suspendium core. If the Suspendium could be mined and sent back, the Capital could build more Sky Ships or expand the Capital island. However, approach by Sky Ship is impossible, as the floating earthen chunks could damage it. Difficult and perilous, the trek would have to be made on foot. |
 
 ### Silent Winds Challenges
-| D6 | Challenge                 | Description            | Failure Result |
-| -- | ------------------------- | ---------------------- | -------------- |
-| 1  | **Landmines**             | Explosive traps lie buried, just below the dirt and mud, still poised to go off at a moment's notice. | The Stormbreakers suffer `1D4` Bludgeoning and `1D4` Burning Injuries, to be divided among them. |
-| 2  | **Endless Wire**          | It seems the previous inhabitants sought to solve all their troubles with the application of barbed wire. The stuff is everywhere, barring passage. | The Stormbreakers suffer `1D6` Slashing Injuries, to be divided among them. |
-| 3  | **Volatile Munitions**    | Many ammunition depots linger in the trenches. Most of them are corroded beyond use, but the powder within still holds potential potency. The slightest vibrations could set them off. | The Stormbreakers suffer `1D6` Piercing Injuries, to be divided among them. |
-| 4  | **Blasted Echoes**        | The ghostly shapes of soldiers are stuck in an endless loop of their fierce battle. They jitter and warp, while repeating the last few seconds of their existence before the cataclysm. While they won't pursue the Stormbreakers, their proximity causes a buildup of Corruption. And they're *everywhere*. | All Stormbreakers suffer `+1` Corruption. |
-| 5  | **Corruption Hotbed**     | In this section of the battlefield, the mud is clear as glass, the guns and wire warped into *odd* shapes, and the air crackles aggressively. | The Stormbreakers have wandered into a Corruption Hotbed and each of them suffer `+1` Corruption! |
-| 6  | ****               | . |  |
+| D10 | Challenge                 | Description            | Failure Result |
+| --- | ------------------------- | ---------------------- | -------------- |
+| 1   | **Landmines**             | Explosive traps lie buried, just below the dirt and mud, still poised to go off at a moment's notice. | The Stormbreakers suffer `1D4` Bludgeoning and `1D4` Burning Injuries, to be divided among them. |
+| 2   | **Endless Wire**          | It seems the previous inhabitants sought to solve all their troubles with the application of barbed wire. The stuff is everywhere, barring passage. | The Stormbreakers suffer `1D6` Slashing Injuries, to be divided among them. |
+| 3   | **Volatile Munitions**    | Many ammunition depots linger in the trenches. Most of them are corroded beyond use, but the powder within still holds potential potency. The slightest vibrations could set them off. | The Stormbreakers suffer `1D6` Piercing Injuries, to be divided among them. |
+| 4   | **Blasted Echoes**        | The ghostly shapes of soldiers are stuck in an endless loop of their fierce battle. They jitter and warp, while repeating the last few seconds of their existence before the cataclysm. While they won't pursue the Stormbreakers, their proximity causes a buildup of Corruption. And they're *everywhere*. | All Stormbreakers suffer `+1` Corruption. |
+| 5   | **Corruption Hotbed**     | In this section of the battlefield, the mud is clear as glass, the guns and wire warped into *odd* shapes, and the air crackles aggressively. | The Stormbreakers have wandered into a Corruption Hotbed and each of them suffer `+1` Corruption! |
+| 6   | **Rising Death Fog**      | Death Fog is carried onto the island by the wind. It puts a strain on the filters. | All filters/armors lose `1` point of protectiveness. |
+| 7   | **Collapsing Factory**    | The path forward leads through an old decrepit factory complex, parts of which might collapse at any moment. | All Stormbreakers suffer `1D4` Bludgeoning Injuries, divided among them. |
+| 8   | **Floating Debris**       | Pieces of broken earth and building float about, occasionally colliding with one another unpredictably. Navigating these dynamic obstacles will prove perilous. | All Stormbreakers suffer `1D4` Bludgeoning Injuries, divided among them. |
+| 9   | **Automated Defenses**    | A dormant security system springs to life, assaulting the Stormbreakers. They will have to fight or flee from it. | All Stormbreakers suffer `1D4` Piercing Injuries, divided among them. |
+| 10  | **Structural Maze**       | Rubble and debris block large parts of the path ahead. Climbing above exposes you to flying debris or strong Corruption. | All Stormbreakers suffer `+1` Corruption. |
 
 ## Endless Storm
 Beyond the farthest reaches of navigable sky lies the region of a massive superstorm, that inexorably rages on. Do not trust to hope - you will find none here. 
 
 **Storm Wall Tier**: `5`
 
+**Silversteel**: Many deposits, densely packed, and very well guarded. Per deposit: Creative Test: Ob `4`, `6` challenges, each granting `8` Silversteel.
+
+**Argentumite Presence**: Very high. The strongest specimen own these skies. 
+
 ### Endless Storm Locations
 Aside the randomly pickable locations, there is always **one** location in particular: [The Cradle](#the-cradle).
 
 | D6  | Location                  | Description |
 | --- | ------------------------- | ----------- |
-| 1   | **Battered Sky Ship**     | Could it be? The remnants of a Sky Ship not unlike the Stormbreakers' floats lifelessly, as if pinned in place. In fact, it looks *uncannily* similar to the Stormbreakers'! Wind and lightning batters its surface, but the interior might still be intact. |
+| 1   | **Battered Sky Ship**     | Could it be? The remnants of a Sky Ship not unlike the Stormbreakers' floats lifelessly, as if pinned in place. In fact, it looks *uncannily* similar to the Stormbreakers'! Wind and lightning batter its surface, but the interior might still be intact. |
 | 2   | **Argentumite Titan**     | A colossal Argentumite looms in the gloom of sinister clouds. You cannot make out its form entirely, but you'd guess its larger than the Capital itself! Fortunately, it's either dead, or uninterested in your presence. There might be a way to get on top of it, or inside it, perhaps. It might even serve as a sort of Argentumite city or carrier Sky Ship. |
-| 3   | **Eye Of The Storm**      |  |
-| 4   | **Sky Ship Graveyard**    |  |
-| 5   | ****      |  |
-| 6   | ****      |  |
+| 3   | **Eye Of The Storm**      | A place of reprieve, unharried by the storm. |
+| 4   | **Sky Ship Graveyard**    | A surprising number of Sky Ships lie in ruin in this place. Many are similar to your own, while many more are entirely dissimilar. |
+| 5   | **Large Floating Crystal** | A massive, glowing crystal stationarily floats in the area. |
+| 6   | **Warped Island**         | An oddly shaped island is battered by relentless winds. Ruins dot its surface, defiantly standing in the storm. |
 
 #### The Cradle
 A giant Sky Ship of strange design, made from obsidian and marble, floats effortlessly where the storms rage with fiercest fury, yet untouched by their wrath. Its center bears a giant spherical compartment. Within, the Stormbreakers will find the answer to all the riddles. 
 
+<!-- TODO -->
+
 ### Endless Storm Challenges
-| D6 | Challenge                 | Description            | Failure Result |
-| -- | ------------------------- | ---------------------- | -------------- |
-| 1  | ****               | . |  |
-| 2  | ****               | . |  |
-| 3  | ****               | . |  |
-| 4  | ****               | . |  |
-| 5  | ****               | . |  |
-| 6  | ****               | . |  |
+| D10 | Challenge                      | Description            | Failure Result |
+| --- | ------------------------------ | ---------------------- | -------------- |
+| 1   | **Shrapnel Debris**            | Debris is being flung around by tumultuous winds, like shrapnel. | `1D6` Piercing Injuries divided among the Stormbreakers. |
+| 2   | **Lightning Convergence**      | Lightning repeatedly strikes the area. | `1D4` Electrical Injuries divided among the Stormbreakers. |
+| 3   | **Impossible Winds**           | Violent gusts lift the Stormbreakers off the ground and throw them like toys. | `1D4` Bludgeoning Injuries divided among the Stormbreakers. |
+| 4   | **Shifting Gravity**           | Ambient Corruption confuses the laws of nature. Gravity occasionally changes sideways, upside down or concentrated towards a spot. | Stormbreakers get caught in the weird gravity and flung about or thrown into obstacles. `1D4` Bludgeoning Injuries divided among the Stormbreakers. |
+| 5   | **Distortion**                 | Ambient Corruption warps the path ahead. It is constantly shifting and changing shape. | Getting lost in the unpredictable paths loses the Stormbreakers time. `+1` Corruption to all. |
+| 6   | **Soundless Pocket**           | You enter a field of oppressive silence. Threats could creep up unanounced and team coordination must rely on hand-signals, only. | A Threat ambushes the Stormbreakers. |
+| 7   | **Electromagnetic Disruption** | Electrical devices go haywire and become unusable. | The devices are damaged and may become unusable. |
+| 8   | **Temporal Slip**              | Time passes inconsistently here. What feel like seconds turn out to be hours, and vice-versa. In some places, you can even see yourself, walking ahead, as you will in a few moments' time. | Lose `1D4` QoDs. |
+| 9   | **Corrosive Precipitation**    | The rain is corrosive and eats into exposed equipment. | Equipment is damaged and may become unusable. `1D4` Acid Injuries divided among the Stormbreakers. |
+| 10  | **Crystalized Stormfront**     | Precipitation of strangely colored shards sweeps the area. Whatever they shatter upon develops a coating of tough crystal residue. Anyone caught in the storm may become encased in crystal! | Progress is halted and time is lost, as the Stormbreakers struggle to free themselves. Lose `1D4` QoDs.  |
 
 # Creature Compendium
 A by no means exhaustive list of themed creatures for the GM to draw from. 
@@ -1301,15 +1373,15 @@ A cyclopean, white and floating sphere that is often seen roaming islands in adv
 
 **Traits**: Always floating; [Fortified Mind](./strive-core.md#fortified-mind--4-points-1-cr); 
 
-**Assets**: `1` bulk salvageable Silversteel
+**Assets**: `3` bulk salvageable Silversteel
 
 **Skills**:
 * Eye-Laser (Awar/Awar): 
   * Shoot a short laser beam at a ST, up to `10` Squares away.
   * Level: `4`, AP: `2`, Hit(s): unmodified, Ranged, ST, Innate
-  * `≤ 2`: `6` Burning
-  * `= 3`: `8` Burning
-  * `≥ 4`: `10` Burning
+  * `≤ 2`: `10` Burning
+  * `= 3`: `14` Burning
+  * `≥ 4`: `20` Burning
 * Shield (Awar/Awar): 
   * **Concentration**: Cover an ally up to `10` Squares away in a shield that absorbs `10` points of damage before bursting.
   * Level: `4`, AP: `2`, Ranged, ST, Innate
@@ -1333,15 +1405,15 @@ Two tethered, elongated octahedrons, each with a central, beaming eye, float eff
 
 **Traits**: Always floating; [Fortified Mind](./strive-core.md#fortified-mind--4-points-1-cr); 
 
-**Assets**: `1` bulk salvageable Silversteel
+**Assets**: `5` bulk salvageable Silversteel
 
 **Skills**:
 * Spike-Barrage (Agi/Awar): 
   * Shoot a burst of `4` spikes at a ST, up to `15` Squares away.
   * Level: `5`, AP: `2`, Hit(s): unmodified, Ranged, ST, Innate
-  * `≤ 2`: `8` Piercing
-  * `= 3`: `11` Piercing
-  * `≥ 4`: `15` Piercing
+  * `≤ 2`: `10` Piercing
+  * `= 3`: `15` Piercing
+  * `≥ 4`: `20` Piercing
 
 ### Argentumite Attaquant
 A large bipedal Argentumite with a sword and a shield. One of the few that don't float. 
@@ -1362,21 +1434,21 @@ A large bipedal Argentumite with a sword and a shield. One of the few that don't
 
 **Traits**: [Fortified Mind](./strive-core.md#fortified-mind--4-points-1-cr); 
 
-**Assets**: `2` bulk salvageable Silversteel
+**Assets**: `5` bulk salvageable Silversteel
 
 **Skills**:
 * Slash (Agi/Str): 
   * Strike at a ST in melee range with a sword slash. 
   * Level: `4`, AP: `2`, Hit(s): unmodified, Melee, ST, Innate
   * `≤ 2`: `8` Slashing
-  * `= 3`: `10` Slashing
-  * `≥ 4`: `13` Slashing
+  * `= 3`: `13` Slashing
+  * `≥ 4`: `18` Slashing
 * Shield Slam (Agi/Tough): 
   * Slam your shield at a ST in melee range. 
   * Level: `4`, AP: `2`, Hit(s): unmodified, Melee, ST, Innate
-  * `≤ 2`: `6` Bludgeoning; Knock-back `1` Squares
-  * `= 3`: `8` Bludgeoning; Knock-back `2` Squares
-  * `≥ 4`: `10` Bludgeoning; Knock-back `3` Squares
+  * `≤ 2`: `8` Bludgeoning; Knock-back `3` Squares
+  * `= 3`: `10` Bludgeoning; Knock-back `4` Squares
+  * `≥ 4`: `12` Bludgeoning; Knock-back `5` Squares
 
 ### Argentumite Chevalier
 A multi-legged Pegasus-esque Argentumite. It would almost look friendly, if not for the incense burners hanging from its sides spewing Death Fog. And the massive, spiked tail which it uses as a weapon. 
@@ -1397,21 +1469,21 @@ A multi-legged Pegasus-esque Argentumite. It would almost look friendly, if not 
 
 **Traits**: Always floating; [Fortified Mind](./strive-core.md#fortified-mind--4-points-1-cr); 
 
-**Assets**: `3` bulk salvageable Silversteel
+**Assets**: `8` bulk salvageable Silversteel
 
 **Skills**:
 * Swoop (Agi/Str): 
   * Move in a line, up to `10` Squares away, and strike at all targets in an AoE line. 
   * Level: `4`, AP: `2`, Hit(s): `-1`, Ranged, AoE, Innate
-  * `≤ 2`: `6` Bludgeoning; `3` Squares Knock-back
-  * `= 3`: `8` Bludgeoning; `3` Squares Knock-back
-  * `≥ 4`: `11` Bludgeoning; `4` Squares Knock-back
+  * `≤ 2`: `10` Bludgeoning; `1` Squares Knock-back
+  * `= 3`: `12` Bludgeoning; `2` Squares Knock-back
+  * `≥ 4`: `15` Bludgeoning; `3` Squares Knock-back
 * Tail Slam (Str/Str): 
   * Strike at a ST with your spiked tail. 
   * Level: `4`, AP: `2`, Hit(s): unmodified, Ranged, ST, Innate
   * `≤ 2`: `10` Bludgeoning; `3` Squares Knock-back
-  * `= 3`: `12` Bludgeoning; `3` Squares Knock-back
-  * `≥ 4`: `15` Bludgeoning; `4` Squares Knock-back
+  * `= 3`: `15` Bludgeoning; `4` Squares Knock-back
+  * `≥ 4`: `20` Bludgeoning; `5` Squares Knock-back
 
 ### Argentumite Plongeur
 This one looks like a diver in one of those bulky diving suits, covered in ethereal algae. Bright light beams from the windows of its helmet and in its vicinity, the air freezes. 
@@ -1432,15 +1504,15 @@ This one looks like a diver in one of those bulky diving suits, covered in ether
 
 **Traits**: Always floating; [Fortified Mind](./strive-core.md#fortified-mind--4-points-1-cr); 
 
-**Assets**: `3` bulk salvageable Silversteel
+**Assets**: `6` bulk salvageable Silversteel
 
 **Skills**:
 * Blast (Tough/Tough): 
   * Blast all around, in a `5` Square diameter AoE. 
   * Level: `4`, AP: `2`, Hit(s): unmodified, Ranged, AoE, Innate
-  * `≤ 2`: `6` Freezing
-  * `= 3`: `8` Freezing
-  * `≥ 4`: `10` Freezing
+  * `≤ 2`: `8` Freezing
+  * `= 3`: `10` Freezing
+  * `≥ 4`: `14` Freezing
 * Blink: 
   * Disappear and immediately re-appear in a location of your choosing, up to `20` Squares away.
   * Level: `4`, AP: `2`, Ranged, Innate
@@ -1464,7 +1536,7 @@ Giant and authoritative, this Argentumite commands respect, even from its enemie
 
 **Traits**: Always floating; [Fortified Mind](./strive-core.md#fortified-mind--4-points-1-cr); [Aura of Death](#aura-of-death)
 
-**Assets**: `5` bulk salvageable Silversteel
+**Assets**: `15` bulk salvageable Silversteel
 
 **Skills**:
 * Command Death: 
