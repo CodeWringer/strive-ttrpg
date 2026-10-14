@@ -770,7 +770,7 @@ Additions and alterations to the [Core Assets Appendix](./strive-core.md#assets-
 ### General Assets
 | Name                           | Bulk | Max. Stack Size | Supply Cost | Prerequisites        | Work-Rate / PI    | Description                                                              |
 | ------------------------------ | ---- | --------------- | ----------- | -------------------- | ----------------- | ------------------------------------------------------------------------ |
-| Bullets                        | 1    | 60              | 3           |                      | `3 / QoD` / `12`  | Ammunition for all standard weapons.                                     |
+| Bullets                        | 1    | 60              | 3           |                      |                   | Ammunition for all standard weapons.                                     |
 | Fuel                           | 1    | 20              | 8           |                      |                   | Required to keep the Sky Ship moving, and serves as ammunition for some weapons. |
 | Heavy Ordnance                 | 10   | 10              | 15          |                      |                   | Ammunition for the Sky Ship's armaments.                                 |
 
@@ -1167,7 +1167,7 @@ This and the following sections are reserved solely for the GM's eyes. Reading o
 ## Projects and Rewards
 For Stormbreaker specifically, Expedition rewards are a natural source of [Project Boosters](./strive-core.md#project-boosters): recovering schematics from an old factory, salvaging a rare Mechanite component or ancient machinery and acquiring rare and valuable resources may accelerate a Project meaningfully. 
 
-Aside from the rewards, the limited time at the table implies Project management should be kept short. There are no alternate rules for this, instead relying on your own judgement. Whenever it *feels* like too much time is being spent on the Project management, is probably the right moment to cut it as short as possible. 
+Aside from the rewards, the limited time at the table implies Project management should be kept short. Only *special* crafting and research require a Complex Project. Practically all Assets listed in the Module can be created in a Trivial Project, but this will still require the necessary resources. 
 
 # Biomes
 Whenever the PCs enter a new region, it may be part of one of the following biomes, which will dictate much of what they can encounter within. Of course, you may have your own ideas and aren't required to adhere to any of the concepts presented here.
