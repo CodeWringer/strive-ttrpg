@@ -246,7 +246,7 @@ By using STRIVE (that includes but is not limited to viewing, reading, referenci
     - [Delaying Your Turn](#delaying-your-turn)
     - [Surprise Round](#surprise-round)
     - [Ticks](#ticks)
-- [Crafting \& Research Projects](#crafting--research-projects)
+- [Projects](#projects)
   - [Project Prerequisites](#project-prerequisites)
   - [Project Classification](#project-classification)
     - [Trivial Project](#trivial-project)
@@ -291,6 +291,7 @@ By using STRIVE (that includes but is not limited to viewing, reading, referenci
     - [Stealth Attacks](#stealth-attacks)
     - [Free Strike (FS)](#free-strike-fs)
   - [Defending](#defending)
+    - [AoE Defense](#aoe-defense)
     - [Defending an Ally](#defending-an-ally)
       - [Counter-Attack](#counter-attack)
     - [Cover](#cover)
@@ -385,9 +386,11 @@ By using STRIVE (that includes but is not limited to viewing, reading, referenci
     - [Long Arms](#long-arms)
     - [Productive](#productive)
     - [Quick Thinker](#quick-thinker)
+    - [Shrewd Trapper](#shrewd-trapper)
     - [Shrugs-A-Lot](#shrugs-a-lot)
     - [Substitutional Talent](#substitutional-talent)
     - [Steadfast](#steadfast)
+    - [Steady Aim](#steady-aim)
     - [Slippery](#slippery)
     - [Thorough Artisan](#thorough-artisan)
     - [Tough Skin](#tough-skin)
@@ -481,6 +484,7 @@ By using STRIVE (that includes but is not limited to viewing, reading, referenci
   - [Legendary Actions](#legendary-actions)
 - [Hostility](#hostility)
 - [NPC Builder](#npc-builder)
+  - [Creature-Family](#creature-family)
   - [Combat Roles](#combat-roles)
   - [NPC Traits](#npc-traits)
     - [Mobility Traits](#mobility-traits)
@@ -687,12 +691,12 @@ As STRIVE is meant primarily as a rule-book to help you quickly find what you ne
 | [Project Booster](#project-boosters)                        | May add Progress or Quality Levels to a Project. |
 | [Project Complications](#project-complications)             | An alternative to losing Quality Levels when failing a Project Skill Test. |
 | [Project Skill](#progressing-a-project)                     | The Skill used to add Progress to a Project. |
-| [Project](#crafting--research-projects)                     | A long-term and abstract side-activity of a PC to Craft or research something. |
+| [Project](#projects)                                        | A long-term and abstract side-activity of a PC to Craft or research something. |
 | [Prone](#prone)                                             | A Condition for a Character currently low to the ground. They are easier to harm in melee, but harder to harm at range. |
 | [Property](#property)                                       | The Assets a Character owns but is not carrying on-person. |
 | [Pull](#forced-movement)                                    | Forces a Character closer to another. |
 | [Push Through Action](#push-through)                        | A Character may choose to move despite suffering an Opportunity Attack. |
-| [Quality Level](#crafting--research-projects)               | A numeric value that describes the quality of an Asset or Project. |
+| [Quality Level](#projects)                                  | A numeric value that describes the quality of an Asset or Project. |
 | [Quarter of a Day (QoD)](#quarters-of-a-day-qod)            | Each day is divided into four Quarters: **Night**, **Dawn**, **Midday**, and **Dusk**. Each Quarter lasts approximately six hours. |
 | [Quarterly](#quarters-of-a-day-qod)                         | A Quarterly activity lasts at least one full QoD. |
 | [Quirk](#quirk)                                             | Part of a Character's Drivers and always triggers when some defined condition is met, to get the Character in trouble or grant them an assurance. |
@@ -858,7 +862,7 @@ It is possible to Fork into Skill Tests, granting more dice and raising the Hit 
 When considering Advancement, ignore all Boons and Penalties. The Level with Boond and Penalties is referred to as the Modified Level, whereas without those Modifiers, it is called the Raw Level. 
 
 ### Test Success Ratings
-Based on the number of Hits achieved, Tests of some Skills and Expertises may offer graded successes:
+Based on the number of Hits achieved, Tests of some Skills and Expertises may offer graded effects:
 * **Glancing**: On `≤ 1` Hit. A fairly weak success.
 * **Solid**: On `= 2` Hits. A strong success.
 * **Masterful**: On `≥ 3` Hits. A masterful success with the strongest effects.
@@ -1101,7 +1105,7 @@ See also [Initiative](#initiative-order).
 
 The Sprinting Speed of a Character represents the additional distance they can move, per [AP](#action-points-ap) spent, when [Sprinting in combat](#combat-movement). 
 
-It is derived from the sum of their [Agility](#agility-agi) and [Toughness](#toughness-tough), divided by two and rounded up. 
+It is derived from the sum of their [Agility](#agility-agi) and [Toughness](#toughness-tough), divided by two and rounded down. 
 
 > A Character with an Agility of `3` and Toughness of `4`, has a Sprinting Speed of `(3 + 4) / 2 (RU) = 4`. 
 
@@ -1188,7 +1192,7 @@ Characters know languages that allow them to communicate. Each language a Charac
 
 > A Character with Wit `3`, who is a Native speaker, tries understand some ancient lore written in their language. They get to roll `(3 (from Wit) + 8 (from Native language grade) = 11` dice for the Test. The Ob will be chosen by the GM, based on *just how ancient and obscure* the text is, meaning, how difficult to read it is. 
 
-Languages may be learned. Treat this like a [Research Project](#research-projects), with Work-Rate `2 / QoD` and PI: `12`. Instead of a Project Skill, use your [Wit](#wit-wit) to add Progress. The Project's achieved `Q` equals the language grade, up to a maximum of `3`. `1` results in a Dabbling, `2` in a Proficient and `3` in a Native language grade. 
+Languages may be learned. Treat this like a [Research Project](#research-projects), with Work-Rate `2 / QoD` and PI: `20`. Instead of a Project Skill, use your [Wit](#wit-wit) to add Progress. The Project's achieved `Q` equals the language grade, up to a maximum of `3`. `1` results in a Dabbling, `2` in a Proficient and `3` in a Native language grade. 
 
 ### Advancement
 Through [Tests](#tests), Characters learn and improve. For every Test, `+1` [XP](#experience-points-xp) is earned. If Testing a [Skill](#skills), then *additionally*, the Advancement Progress of that Skill is incremented by `+1`. 
@@ -1745,7 +1749,7 @@ Weapon Traits whose focus lies on manipulating positioning.
 
 | Mobility Weapon Traits  | Description                                                                                   | 
 | ----------------------- | --------------------------------------------------------------------------------------------- |
-| **Driving**             | Once per Round, when an Attack causes [Forced-Movement](#forced-movement), you may move up to `Q` Squares toward the target without provoking [Opportunity Attacks](#opportunity-attacks). |
+| **Driving**             | Once per Round, when your Attack causes [Forced-Movement](#forced-movement), you may move up to `Q` Squares toward the target without provoking [Opportunity Attacks](#opportunity-attacks). |
 | **Heavy**               | Melee Attacks cause `+Q` [Knock-Back](#forced-movement).                                      |
 | **Hooked**              | Melee Attacks [Pull](./strive-core.md#forced-movement) by `+Q` Squares.                       |
 | **Rooting**             | A Masterful hit prevents a target from voluntarily moving more than `Q` Squares, on their next Turn. |
@@ -1755,7 +1759,6 @@ Weapon Traits whose focus lies on altering how they can be used.
 
 | Versatility Weapon Traits | Description                                                                                   | 
 | ------------------------- | --------------------------------------------------------------------------------------------- |
-| **Adaptive**              | Once per Round, switch the Damage Type an Attack with this weapon may deal: Slashing, Piercing or Bludgeoning |
 | **Effortless**            | Once per Round, an Attack with this weapon costs `1` AP less, down to no less than `1`. |
 | **Returning**             | Whether through some supernatural force, or an intricate mechanical contraption, when [Thrown](#throwing), the weapon automatically returns to you after it has landed.  |
 
@@ -1766,7 +1769,7 @@ These Weapon Traits modify an [Attack's Profile](#damage--effects) in a particul
 
 | Legendary Weapon Traits   | Description                                                                                   | 
 | ------------------------- | --------------------------------------------------------------------------------------------- |
-| **Cruel**                 | A successful Attack with this weapon deals an additional `Q * 2` Bleeding Damage if the victim has at least one Injury. |
+| **Cruel**                 | A Solid Hit or better with this weapon deals an additional `Q * 2` Bleeding Damage if the victim has at least one Injury. |
 | **Deflecting**            | This weapon is especially good at turning Attacks aside. When you use this weapon in a Defense Test and succeed, you may [Knock-Back](#forced-movement) the Attacker by `Q` Squares. |
 | **Foolproof**             | The first successful Attack each Round is treated as one Damage grade higher. I.e. Glancing -> Solid; Solid -> Masterful|
 | **Relentless**            | Once per Round, when an Attack with this weapon is successful, you may make one additional free Attack, with Ob `+2`. |
@@ -1842,7 +1845,7 @@ The speed at which time flows, in-game, is variable and depends on the current c
 
 There are two broad disctinctions of time-flow made: 
 * **Down-Time**: has time flowing fairly rapidly, as events unfold on an abstract level. 
-  * This is usually the time PCs spend on recovery, [Crafting & Research](#crafting--research-projects), [Practicing](#practice), [Travel](#travel--terrain), [Trade](#trade) and [Resting](#resting). 
+  * This is usually the time PCs spend on recovery, [Crafting & Research](#projects), [Practicing](#practice), [Travel](#travel--terrain), [Trade](#trade) and [Resting](#resting). 
 * **Granular-Time**: has time flowing very slowly, sometimes even on a moment-by-moment basis and may use [Initiative Order](#initiative-order) to allocate time slices. 
   * [Combat](#combat) is the most prominent and mechanically supported example. 
   * Aside Combat, other such situations can stem from tense negotiations, (perilous) exploration, general role-play and so on. Even in 
@@ -1924,7 +1927,7 @@ This is the point in time when the effects of [Conditions](#condition) are appli
 
 A Tick **always** occurs for a Character, even when skipping or [Delaying](#delaying-your-turn) their Turn. 
 
-# Crafting & Research Projects
+# Projects
 <img src="../../img/crafting.svg" style="width: 3rem; height: 3rem;"></img>
 
 In their own free time, Characters can spend time and resources to Craft [Assets](#assets), [Research obscure subjects or make scientific discoveries](#research-projects), or devise entirely new [Inventions](#invention-projects). Some Projects may be possible while travelling, but most are assumed to be done when the PCs aren't currently travelling or out on adventures. To work on a Project, a Character must **devote** their time to it - of course excluding short breaks for eating, conversation, and other minor side activities. 
@@ -1942,7 +1945,7 @@ A **Trivial Project** is a [Brief](#quarters-of-a-day-qod) and simple activity. 
 
 A single, immediately made Project Roll deterimes the final Quality of the product. In fact, this handles exactly like every other Skill Test in the game. Trivial Projects are not *actually* tracked as Projects, because they are **too small** to qualify as a Project and thus warrant **no Progress tracking**. 
 
-As such, a Trivial Project is unsuitable for Research or Invention Projects, and is not eligible to produce [Recipes](#crafting-it-again). 
+As such, a Trivial Project is unsuitable for proper Research and Invention Projects, and is not eligible to produce [Recipes](#crafting-it-again). 
 
 ### Complex Project
 A **Complex Project** is a longer-term activity, that comes with significant challenges and requirements. 
@@ -1954,7 +1957,7 @@ A **Complex Project** is a longer-term activity, that comes with significant cha
 #### Research Projects
 A Project can be about the research of **obscure** knowledge. You must visit various libraries, study dusty old tomes or comb countless digital archives, go on archeological digs and question other scholars. This is a task requiring substantial effort. For common, every-day knowledge that you may gain simply by asking strangers on the street, don't consider a Research Project. In fact, you might be better served simply role-playing such information-gathering. Or tie it to a Skill Test, that is, turn it into a [Trivial Project](#trivial-project). 
 
-The Quality Level you achieve in the end dictates the degree of knowledge you learned about your subject. You may always try to gain even deeper understanding of your topic, by researching the same subject matter again. Your previous knowledge *may* accelerate further studies, by lowering your Work-Rate. Your GM will have to figure out by how much. 
+The Quality Level you achieve in the end dictates the degree of knowledge you learned about your subject. You may always try to gain even deeper understanding of your topic, by researching the same subject matter again. Your previous knowledge *may* accelerate further studies, by improving your Work-Rate. Your GM will have to figure out by how much. 
 
 When you finish the research Project, you'll have the answers you seek and may gain the title [Loremaster of *Subject* (degree)](#loremaster-of--subject---degree-), where you replace *Subject* with the subject you researched and *degree* with the Quality Level. 
 
@@ -2195,6 +2198,15 @@ At the start of a combat encounter, **all non-surprised Characters** start with 
 * Any action requiring a Test, usually costs `2` AP. 
 * [Expertises](#expertise) can cost varying amounts of AP. The exact number will be noted on the Expertise in question. 
 
+While AP are vital, you usually don't need to worry too much about optimizing their use. When unsure how to structure your Turn, consider the following patterns, which offer common Turn Action structure. 
+1. Move, Attack, Guard *OR* Attack, Move, Guard
+2. Attack, Attack
+3. Attack, Guard, Guard
+4. Utility, Attack
+5. Move, Utility, Guard
+
+Of course, your actual range of options is far more vast and depends on your particular Character's abilities, circumstance and your own preferences. 
+
 ### Action Point Saving
 If a Character ends their Turn with any AP unspent, those AP will be saved up and be available as additional AP at the start of their next Turn. 
 
@@ -2230,7 +2242,7 @@ An obstacle does not necessarily have to stop the unfortunate soul being thrown.
 * `5+` through a Square of **stone**
 * `8+` through a Square of **metal**
 
-"A Square of [...]" means there is an obstacle large enough to actually be such, like a wall, a large barrel, a column, a car and so on. 
+"A Square of [...]" means there is a significant obstacle, whose dominant material is one of the listed types. Examples would be a wall, a large barrel, a column, a car, etc.. 
 
 At the time of collision, the Character **always** suffers the usual [Forced Collision](#forced-collision) Damage of `N * 3` points of Bludgeoning Damage, where *N* is the **remaining Squares of movement** at the time of collision. However, they will **not stop moving**!
 
@@ -2256,15 +2268,14 @@ An Attack is any Action or Reaction that targets another Character, to their det
 
 An Attack generally requires an [Opposed Test](#opposed-test) to be made. If the Attacker wins, [Damage](#damage--effects) is determined and applied to the Defender. If the Defender wins, they suffer **no Damage** or other negative effects. A Defender must *choose* how to defend, unless a specific Skill is required. See also [Defending](#defending).
 
+Note that it is impossible to [Fork](#skill-forking) into or receive [Assistance](#providing-assistance) for Attack and Defense Tests! 
+
 Sometimes, special circumstances apply, which make certain Attacks easier or harder to land. These are at the GM's discretion. They can impose an Ob penalty or boon whenever appropriate. Also keep in mind there may be times when rolling for an Attack is entirely unnecessary, such as against a helpless victim. In such a case, you may apply your malevolence with impunity, to the extent of your choosing. 
 
 ### Damage & Effects
 Damage is the number that reduces [HP](#health-points-hp), as a result of Attacks or environmental hazards. When HP reach `0`, death occurs (exception: PCs arrive at [Death's Door](#deaths-door)). Damage can also inflict [Injuries](#injury). [Armor](#armor) and [Resistances](#damage-resistances) reduce the amount of Damage that is actually applied to HP. 
 
-The Attack roll itself determines the severity of Damage and effects. They are **not** rolled separately. There are three gradings, based on the number of **Hits achieved over the Defender/Ob**, which always appear as a unit, referred to as a **Attack Profile**:
-* **Glancing**: On `≤ 1` Hit. A fairly weak hit. Low Damage and no effect or a weak one. 
-* **Solid**: On `= 2` Hits. A strong hit. Moderate Damage and a meaningful effect. 
-* **Masterful**: On `≥ 3` Hits. An overwhelming hit. Severe Damage and a powerful effect.
+The Attack roll itself determines the severity of Damage and effects. They are **not** rolled separately. There are three gradings, based on the number of **Hits achieved over the Defender/Ob**, which always appear as a unit, referred to as a **Attack Profile**. For the gradings, see the [Test Success Ratings](#test-success-ratings).
 
 Some additional terminology:
 * **Direct Damage** always comes from an [Action or Reaction](#actions-reactions--passives).
@@ -2280,7 +2291,7 @@ The number of targets that an [Expertise](#expertise) can apply to, with a singl
 **Single-Target** (**ST**) affects only a single target. The victim may usually Defend with an [Opposed Test](#opposed-test).
 
 #### Multiple Single Target (MST)
-**Multiple-Single-Target** (**MST**) affects at least one and up to a certain maximum number of targets. Each victim may usually Defend with an [Opposed Test](#opposed-test).
+**Multiple-Single-Target** (**MST**) affects at least one and up to a certain maximum number of targets. Each victim may usually Defend with an [Opposed Test](#opposed-test), however, a single Attack roll is made, no matter how many targets are affected. That means a single Attack roll determines the same result for all Defenders to roll against. 
 
 #### Area of Effect (AoE)
 **Area of Effect** (**aoe**) affects *every* target that is in the area of effect. The victims can only Defend through certain special Skills or Expertises.
@@ -2321,8 +2332,8 @@ Three allies can **Surround** the opponent, further reducing their armor's and s
 
 * When **Unthreatened**, the armor and shield protect fully. No Defense penalties. 
 * When **Flanked**, the armor and shield protect only half (RU) as much. `-1D` to any Defense Test. 
-* When **Surrounded**, the armor and shield protect only one fourth (RU) as much. `-2D` to any Defense Test. 
-* When **Overwhelmed**, the armor and shield no longer protect **at all**. `-3D` to any Defense Test. 
+* When **Surrounded**, the armor and shield protect only one fourth (RU) as much. `-1D` to any Defense Test. 
+* When **Overwhelmed**, the armor and shield no longer protect **at all**. `-2D` to any Defense Test. 
 
 If one of the allies is using a weapon with a property to increase its reach, for example [Long Reach](#general-weapon-traits), then they need not be adjacent to the enemy to count towards the Flanking effect (but still within their weapon's reach to the enemy). 
 
@@ -2361,13 +2372,16 @@ Defense is classified as follows:
 * If you have `0` AP left, you may make an **Emergency Defense**, which borrows `1` AP from your next Turn. You will start that future Turn with `1` AP less. You may make an Emergency Defense **only twice per Round**. 
 * If you have no Guarded, nor AP left *and* have already spent all Emergency Defenses, you can no longer Defend! In this case, the Attacker's Ob is always `1`. 
 
-Defending against [Area Of Effect](#area-of-effect) Attacks has the same Ob as the AoE Attack, plus two. If successful, you suffer only half (RD) of the AoE's Damage and effects. If the AoE Attack has no Ob, treat it as if it has `2`. 
+*Wherever* Defense is concerned, you may either spend `1` AP or `1` Guarded to Defend, but not both at the same time. 
+
+### AoE Defense
+Defending against [Area Of Effect](#area-of-effect) Attacks has the same Ob as the AoE Attack, plus one. If successful, you suffer only half (RD) of the AoE's Damage and effects. If the AoE Attack has no Ob, treat it as if it has Ob `2`. This Defense works on a per-Character basis. Everyone affected must Defend themselves, although they may also be [Defended by an ally](#defending-an-ally) to the same effect. 
+
+*Wherever* Defense is concerned, you may either spend `1` AP or `1` Guarded to Defend. 
 
 > An Attacker uses an AoE Attack at Ob `2`. Having rolled their Attack Test, they determined their AoE Attack will deal `9` Burning damage to all foes around them. 
 >
-> The Ob to Defend against this AoE Attack is thus `4 = 2 (Attacker's Ob) + 2 (always)`. If successful, the Defender suffers only `4` Burning Damage.
-
-*Wherever* Defense is concerned, you may either spend `1` AP or `1` Guarded to Defend.
+> The Ob to Defend against this AoE Attack is thus `3 = 2 (Attacker's Ob) + 1 (always)`. If successful, the Defender suffers only `4` Burning Damage.
 
 ### Defending an Ally
 As a Reaction, it is possible to Defend an adjacent ally when they're being Attacked. This costs `1` [AP](#action-points-ap) or `1` [Guarded](#guarded) and results in you taking over the Defense Test, instead of your ally. 
@@ -2712,7 +2726,7 @@ The following list does not and cannot aim to be a complete listing of all possi
 ### General Assets
 The following is a non-exhaustive list of general Assets. Just because an Asset you're looking for isn't listed here, doesn't mean it cannot exist! You are encouraged to think creatively and to [Invent](strive-core.md#invention-projects) your own!
 
-In the following table, `Q` refers to the Quality of the Asset. See also the [Crafting](#crafting--research-projects) rules. For normal every-day Assets, substitute `Q` with `2`.
+In the following table, `Q` refers to the Quality of the Asset. See also the [Crafting](#projects) rules. For normal every-day Assets, substitute `Q` with `2`.
 
 When looking up products for Crafting, the specific tools and materials required for the Craft are not noted here. Those will be determined by the GM. Think creatively - *how could you make the thing?* *What materials and tools do you have available?*
 
@@ -2736,7 +2750,7 @@ Performing acrobatic feats, such as jumping, tumbling and climbing, without inju
 
 | Level | Name                 | AP | Ob      | Description        |
 | ----- | -------------------- | -- | ------- | ------------------ |
-| 1     | Deft Evasion         |    |         | **Passive**: While not wearing any [Armor](#armor) and not wielding a shield of Bulk `2` or more, gain `+1` [Edge](#edge) to any [Defense Test](#defending) made using this Skill and increase your [Stability](#stability-stabil) by `+1`! |
+| 1     | Deft Evasion         |    |         | **Passive**: While not wearing any [Armor](#armor) or wearing Armor whose Bulk is no more than `1`, and not wielding a shield of Bulk `2+`, gain `+1` [Edge](#edge) to any [Defense Test](#defending) made using this Skill and increase your [Stability](#stability-stabil) by `+1`! |
 | 2     | Wind Out Of It       | 2  | 2       | When hit by an Attack, lose `-1` [Stamina](#stamina--strain), wind out of the hit and... <br> `≤ 1` Hit: suffer `3` points of Damage less. <br> `= 2` Hits: suffer `5` points of Damage less <br> `≥ 3` Hits: suffer `8 or half (RU)` Damage less, picking whichever number is higher. |
 
 #### Berserking (Tough/Tough)
@@ -2763,7 +2777,7 @@ See also [Travel & Terrain](#travel--terrain).
 #### Fishing (Agi/Awar)
 The ability to efficiently catch and process fish. 
 
-[Crafting](#crafting--research-projects):
+[Crafting](#projects):
 * [Ration](#general-assets) (3x)
 
 #### Instrument-Playing < instrument > (Agi/Awar)
@@ -2985,7 +2999,7 @@ Knowledge of metallurgical processes and the qualities (such as weight, conducti
 #### Nature (Awar/Wit)
 The ability to tell flora and fauna apart and to know of their attributes, such as what is edible or poisonous or how to hunt a deer, and so on. 
 
-[Crafting](#crafting--research-projects):
+[Crafting](#projects):
 * [Medical Supplies](#general-assets) (1x)
 * [Antidote](#general-assets) (1x)
 * [Ration](#general-assets) (5x)
@@ -3006,7 +3020,7 @@ Diagnosing and treating mundane [Injuries](#injury), [Illnesses](#illness) and [
 
 This Skill may also find use in forensics, to identify poisons or the type of weapon that inflicted a wound. The Ob will depend on the rarity of the poison/weapon and will be determined by the GM. 
 
-[Crafting](#crafting--research-projects):
+[Crafting](#projects):
 * [Medical Supplies](#general-assets) (5x)
 * [Antidote](#general-assets) (4x)
 
@@ -3023,7 +3037,7 @@ Failing a Test of this Skill while treating a patient, causes the patient to suf
 
 This Skill may also find use in forensics, to identify poisons or the type of weapon that inflicted a wound. The Ob will depend on the rarity of the poison/weapon and will be determined by the GM. At the cost of `1` [Medical Supplies](#general-assets), finger prints, organic samples like blood and similar can be retrieved and identified. 
 
-[Crafting](#crafting--research-projects):
+[Crafting](#projects):
 * [Medical Supplies](#general-assets) (2x)
 
 #### Warfare (Tough/Wit)
@@ -3046,18 +3060,18 @@ This governs the understanding of what makes defensive structures effective and 
 | 4     | Take and Hold! <br><img src="../../img/heroic-act_take-and-hold.svg" width="64px" height="64px"></img> | `-30` | Designate an area up to `5` Squares in diameter that lasts `3` Rounds. Any PC and ally inside this zone can make `1` free Defense Test and gains `+1` [Edge](#edge) for it. If such a zone already exists, it is replaced with the new one. Momentum gain clarification: the first Defense Test of a PC within the zone is **not** eligible to gain Momentum. | Designate an area up to `4` Squares in diameter. Until the end of combat, any PC and ally inside this zone receives `+1` [Edge](#edge) for every Defense Test and may freely [Counter-Attack](#counter-Attack) every Attack directed against them, up to `2` times per Round. But every PC and ally *outside* this zone suffers `+1` Ob for **every Test**. If such a zone already exists, it is replaced with the new one. Momentum gain clarification: Defense Tests inside the zone are **never** eligible to gain Momentum. | `+30` | Not A Step Back! <br><img src="../../img/desperate-measure_not-a-step-back.svg" width="64px" height="64px"></img> |
 
 ### Artisan Skills
-All artisan Skills require a mix of physical and mental Attributes, for the purpose of creating a wide variety of things. Mechanically speaking, these are [Crafting](#crafting--research-projects) Skills.
+All artisan Skills require a mix of physical and mental Attributes, for the purpose of creating a wide variety of things. Mechanically speaking, these are [Crafting](#projects) Skills.
 
 #### Artistry (Agi/Awar)
 The ability to paint and draw well, as well as a general sense of aesthetics. 
 
-[Crafting](#crafting--research-projects):
+[Crafting](#projects):
 * [Objet d'art](#general-assets) (1x)
 
 #### Cooking (Awar/Wit)
 The ability to cook hearty and sweet meals that can strengthen and invigorate. 
 
-[Crafting](#crafting--research-projects):
+[Crafting](#projects):
 * [Ration](#general-assets) (5x)
 * Special Meal: A Trivial Project that requires *special* ingredients, consult your GM. 
   * A special meal that you have to eat while it's still fresh. The meal does **not** go in your inventory - this is **not** the same as a ration! 
@@ -3104,14 +3118,22 @@ Whenever you Craft Assets, you produce twice as many.
 ### Quick Thinker
 Improve your [Base Initiative](#base-initiative-bi) by `+3`
 
+### Shrewd Trapper
+Every trap you lay in advance is `+1` Ob harder to detect and will deal an additional `+5` points of Pure damage.
+
 ### Shrugs-A-Lot
-For a Test to Shrug Off a [Condition](#condition), you may add `+1` [Edge](#edge) at the cost of `-1` AP and `-1` [Stamina](#stamina--strain).
+For a Test to Shrug Off a [Condition](#condition), you may add `+1` [Edge](#edge) at the cost of `-1` [Stamina](#stamina--strain).
 
 ### Substitutional Talent
 For one of your Skills, change its Base Attributes to any other Attributes of your choice.
 
 ### Steadfast
 Increases [Stability](#stability-stabil) by `+2`. 
+
+### Steady Aim
+[Ranged](#ranged) penalties begin one Distance Increment later. 
+
+> Ranged: `10` -> Instead of suffering `+1` Ob at the `11`th Square, you instead suffer it at the `21`st Square!
 
 ### Slippery
 [Grappling](#grappled) you is `+1` Ob harder and you receive `+1` Edge for Tests to break free from being Grappled.
@@ -3342,7 +3364,7 @@ A Character who has been made unnaturally **Jealous**, will do anything in their
 ### Marked
 <img src="../../img/health-condition-marked.svg" style="width: 3rem; height: 3rem;"></img>
 
-A **Marked** Character suffers `-1D` to all Defense Tests and `+5` Pure Damage from all [Direct Sources](#damage--effects). 
+A **Marked** Character suffers `+5` Pure Damage from all [Direct Sources](#damage--effects), but only once per Attack, or if that is unapplicable, only once per Source. 
 
 * Automatic Shrug-Off: After `1` Round.
 
@@ -3941,7 +3963,12 @@ Secondly, you must choose a **power-level**:
 * **Elite**: Start with `40` points and a CR of `5`. An elite is highly trained or naturally talented. Just one of these may suffice to challenge a PC group. When coupled with other NPCs, this one should probably assume a supporting or leading role and instead of engaging the PCs to the same extent as its minions, hangs back a bit, to ensure it won't overwhelm the PCs. 
 * **Legendary**: Start with `60` points and a CR of `6`. A legendary creature is expected to be a boss encounter, which can easily challenge the entire PC group on its own. Be careful not to design it as too powerful. Instead, for an epic boss fight, split up its abilities into two or three stages. 
 
-The next steps after this are to pick a combat role, traits, Attributes and Skills. 
+The next steps after this are to assign a [Creature-Family](#creature-family) and then pick [combat role](#combat-roles), [traits](#npc-traits), [Attributes](#choosing-npc-characteristics) and [Skills](#choosing-npc-skills). 
+
+## Creature-Family
+A **Creature-Family** defines a grouping of creatures or NPCs that share certain defining properties. Such a grouping can be as broad or granular as you like. Broad examples would be "Aquatic", "Plantoid", "Human", "Demon", and so on. But you can also be as specific as "Worshippers of Gra-Shoal", "Swine-Beasts", "Secret Police of the grand duchy of Vivrait" and so on. You may of course also introduce sub-families, as needed. 
+
+Creature-Families don't just apply an overarching flavor to each of its members, but also groups their capabilities in a certain way. You may define [Hostility Actions](#hostility) that are associated with a Creature-Family. All its members thus automatically inherit those Hostility Actions! For example, when you want all Demons to have a Hostility Action named "Demonic Blood-Rage", you only need to define it once, for the "Demon" Creature-Family and then place all Demons within it. They automatiaclly get to use that Hostility Action, without you having to specify it on their NPC sheets. 
 
 ## Combat Roles
 A creature's role informs you about how to best employ it in a combat encounter. When used within their role, they will perform better and be a more challenging foe. You can also purposefully use a creature contra to their role, to make them easier to deal with. 

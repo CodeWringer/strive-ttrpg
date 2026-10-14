@@ -161,6 +161,7 @@ There is a [compendium document](./strive-fantasy-game-masters-resource.md) rese
 - [Your World](#your-world)
   - [Fantasy Player Species](#fantasy-player-species)
     - [Human](#human)
+    - [Bird-Folk](#bird-folk)
     - [Cat-Folk](#cat-folk)
       - [Tiger-Cat-Folk](#tiger-cat-folk)
       - [Lean Cat-Folk](#lean-cat-folk)
@@ -367,7 +368,7 @@ The [Arcana](#arcana-arc) Attribute determines several thresholds. If the Charac
 
 At the start of every Turn, or every `5` seconds outside combat, a mage automatically reduces their Arcane Overheat by `-1` point. They can actively **vent** their Arcane Overheat further - one point per [AP](./strive-core.md#action-points-ap) spent. 
 
-`-1` point of Arcane Slag automatically leaves the Character's body, every `6` hours. If that time is spent in active rest or meditation - that means doing *nothing* besides rest -, then `-2` points leave the body, instead. 
+`-1` point of Arcane Slag automatically leaves the Character's body, every QoD. If that time is spent in a [Full Rest](./strive-core.md#resting), then `-2` points leave the body, instead. 
 
 Arcane Slag *can* affect non-mages, too! That implies they can also suffer Arcane Overheat (although that does not make them mages)! 
 
@@ -399,7 +400,7 @@ Another mage's [Spell-Backfire](#spell-backfire) can be negated in the same way.
 ## Protection From Magic
 Armor made from [Ambersteel](#ambersteel) can reduce the Damage suffered through magical sources and reduce the [SI](#spell-intensity-si) of non-damaging spells. 
 
-The [Quality Level](./strive-core.md#crafting--research-projects) of an armor or shield determines how much it protects the wearer. See [Ambersmithing](#ambersmithing-strwit) for the specific numbers. 
+The [Quality Level](./strive-core.md#projects) of an armor or shield determines how much it protects the wearer. See [Ambersmithing](#ambersmithing-strwit) for the specific numbers. 
 
 ## Magic Echoes
 Whenever magic is cast, a pale reflection of it remains, invisible to the naked eye, lingering for `SI * 4` hours, based on the magic spell's [Intensity](#spell-intensity-si) when it was cast. 
@@ -473,7 +474,7 @@ Shards of [Abyssalite](#abyssalite) can be carved into **Runes**, which allow ma
 
 Due to how Runes are always magically charged, they cannot be in the vicinity of **any other Runes**. This works a bit like how magnets with the same polarity repulse each other, but a lot more dangerous. This condition applies regardless of the type of magic each of the Runes hold. If two Runes are brought to a distance of `10` Squares or less to each other, they begin to glow, hum and rumble, as if to warn their bearers. Should they be brought to a distance of `8` Squares or less to each other, they both discharge the magic they hold and repulse each other. This means anyone immediately nearby suffers `3D6` Bludgeoning Damage. The Runes are flung away from each other far enough to be at least `11` Squares apart. The Runes *may* be **destroyed** in the process. Roll a `D6` for each of the Runes - if the result is a `1` or `2`, the Rune is **destroyed**! 
 
-It may be possible to circumvent this repulsion behavior by placing the Runes in a container made of [Ambersteel](#ambersteel). This requires the container to be of a [Quality Level](./strive-core.md#crafting--research-projects) equal to the highest of the Runes' [Spell Intensity](#spell-intensity-si).
+It may be possible to circumvent this repulsion behavior by placing the Runes in a container made of [Ambersteel](#ambersteel). This requires the container to be of a [Quality Level](./strive-core.md#projects) equal to the highest of the Runes' [Spell Intensity](#spell-intensity-si).
 
 #### Using Runes
 To activate a Rune, it must be touched in the right spots and at the right intervals. Mistakes in the procedure can have disastrous results. 
@@ -501,7 +502,7 @@ Due to how Magic Scrolls are always magically charged, they cannot be in the vic
 
 If two Magic Scrolls **of the same type** are brought to a distance of `10` Squares or less to each other, they begin to glow, hum and rumble, as if to warn their bearers. Should they be brought to a distance of `8` Squares or less to each other, they both discharge the magic they hold and repulse each other. This means anyone immediately nearby suffers `3D6` Bludgeoning Damage. The Magic Scrolls are destroyed in the process! 
 
-It may be possible to circumvent this repulsion behavior by placing the Magic Scrolls in a container made of [Ambersteel](#ambersteel). This requires the container to be of a [Quality Level](./strive-core.md#crafting--research-projects) equal to the highest of the Magic Scrolls' [Spell Intensity](#spell-intensity-si).
+It may be possible to circumvent this repulsion behavior by placing the Magic Scrolls in a container made of [Ambersteel](#ambersteel). This requires the container to be of a [Quality Level](./strive-core.md#projects) equal to the highest of the Magic Scrolls' [Spell Intensity](#spell-intensity-si).
 
 #### Using Magic Scrolls
 In order to invoke a Magic Scroll:
@@ -751,7 +752,7 @@ A set of heavy armor with excellent protection, at the cost of encumbering the w
 | **Electrical**       | 6            | 3       | 2          | 0           | 
 
 ### Shield Types
-Shields are items that provide passive bonuses to Defense against melee and ranged Attacks and require one free hand to use. This implies they cannot be used at the same time as a two-handed weapon (unless of course if you have more than two arms). 
+Shields are Assets that provide passive bonuses to Defense against melee and ranged Attacks and require one free hand to use. This implies they cannot be used at the same time as a two-handed weapon (unless of course if you have more than two hands). 
 
 Shields can only be used in Defense Tests via the [Shield](./strive-core.md#shield-strtough) Skill.
 
@@ -1017,7 +1018,7 @@ All artisan Skills require a mix of physical and mental Attributes, for the purp
 #### Armor Smithing (Str/Wit)
 The ability to make armor from conventional materials, such as metal and leather. 
 
-[Crafting](./strive-core.md#crafting--research-projects):
+[Crafting](./strive-core.md#projects):
 * [Light Armor](#light-armor) (1x)
 * [Medium Armor](#medium-armor) (1x)
 * [Heavy Armor](#heavy-armor) (1x)
@@ -1025,13 +1026,13 @@ The ability to make armor from conventional materials, such as metal and leather
 #### Ambersmithing (Str/Wit)
 The ability to make things from [Amberite](#amberite) and [Ambersteel](#ambersteel). 
 
-[Crafting](./strive-core.md#crafting--research-projects):
+[Crafting](./strive-core.md#projects):
 * Adding [Ambersteel](#ambersteel) to [Armor](#armor-traits) and [Weapons](#weapon-traits).
 
 #### Alchemy (Arc/Wit)
 The ability to brew alchemical potions, create powders, mixtures and other substances, as well as the ability to tell these things apart. 
 
-[Crafting](./strive-core.md#crafting--research-projects):
+[Crafting](./strive-core.md#projects):
 * For every `Q` past `2`, choose one of the following:
   * Gain `+1` amount of your product. 
   * Gain a secondary product whose Quality is `1` Level lower. 
@@ -1060,20 +1061,20 @@ At Level `6+`, you may also craft the following:
 #### Brewing (Wit/Wit)
 The brewing of alcoholic beverages. 
 
-[Crafting](./strive-core.md#crafting--research-projects):
+[Crafting](./strive-core.md#projects):
 * [Keg Of Alcohol](#general-assets) (1x)
 
 #### Blacksmithing (Agi/Str)
-The ability to create every-day items and tools from metal. 
+The ability to create every-day Assets and tools from metal. 
 
-[Crafting](./strive-core.md#crafting--research-projects):
+[Crafting](./strive-core.md#projects):
 * [Tools](#general-assets) (2x)
 * [Trap: Bear](#general-assets) (1x)
 
 #### Bow-Making (Agi/Awar)
 The ability to craft bows and crossbows. 
 
-[Crafting](./strive-core.md#crafting--research-projects):
+[Crafting](./strive-core.md#projects):
 * [Short-Bow](#short-bow) (1x)
 * [Longbow](#longbow) (1x)
 * [Crossbow](#crossbow) (1x)
@@ -1081,19 +1082,19 @@ The ability to craft bows and crossbows.
 #### Carpentry (Agi/Str)
 The ability to shape wood to craft predominantly wooden things. 
 
-[Crafting](./strive-core.md#crafting--research-projects):
+[Crafting](./strive-core.md#projects):
 * Furniture (1x)
 
 #### Clothesmaking (Agi/Wit)
 The ability to make comfortable, well-fitting and decorated clothes. 
 
-[Crafting](./strive-core.md#crafting--research-projects):
+[Crafting](./strive-core.md#projects):
 * [Clothing](#general-assets) (1x)
 
 #### Engineering (Agi/Wit)
 The ability to plan and construct complex mechanisms and devices. 
 
-[Crafting](./strive-core.md#crafting--research-projects):
+[Crafting](./strive-core.md#projects):
 * [Trap: Acid](#general-assets) (1x)
 * [Trap: Bear](#general-assets) (1x)
 * [Trap: Cage/Net](#general-assets) (1x)
@@ -1106,7 +1107,7 @@ The ability to plan and construct complex mechanisms and devices.
 #### Fletching (Agi/Awar)
 The ability to efficiently craft arrows, bolts and javelins. 
 
-[Crafting](./strive-core.md#crafting--research-projects):
+[Crafting](./strive-core.md#projects):
 * [Arrows](#general-assets) (20x)
 * [Bolts](#general-assets) (20x)
 
@@ -1118,39 +1119,39 @@ At Level `4+`, you may also craft the following:
 #### Glass-Blowing (Agi/Agi)
 The ability to make objects from glass. 
 
-[Crafting](./strive-core.md#crafting--research-projects)
+[Crafting](./strive-core.md#projects)
 
 #### Goldsmithing (Agi/Agi)
 The ability to make jewelry from precious metals and stones. 
 
-[Crafting](./strive-core.md#crafting--research-projects):
+[Crafting](./strive-core.md#projects):
 * [Objet d'art](strive-core.md#general-assets)
 * [Jewelry](#general-assets)
 
 #### Leatherworking (Agi/Wit)
 The ability to create leather objects. 
 
-[Crafting](./strive-core.md#crafting--research-projects):
+[Crafting](./strive-core.md#projects):
 * [Light Armor](#light-armor) (1x)
 
 #### Masonry (Str/Tough)
 The ability to shape stone to craft predominantly stone-based things. 
 
-[Crafting](./strive-core.md#crafting--research-projects)
+[Crafting](./strive-core.md#projects)
 
 #### Rune-Smithing (Arc/Wit)
 The ability to carve [Magic Runes](#runes) and embed them in arcane devices.
 
 The Level of this Skill dictates the maximum [Intensity](#spell-intensity-si) of the respective magic the carved rune can hold. The number of Hits achieved in a Test then sets the actual Level the rune will hold, but limited by the maximum. 
 
-[Crafting](./strive-core.md#crafting--research-projects):
+[Crafting](./strive-core.md#projects):
 * [Rune](#runes) (1x)
 * [Magic Recorder](#general-assets) (1x)
 
 #### Shield-Making (Str/Wit)
 The ability to make shields from conventional materials, such as wood and metal. 
 
-[Crafting](./strive-core.md#crafting--research-projects):
+[Crafting](./strive-core.md#projects):
 * [Light Shield](#light-shield) (1x)
 * [Medium Shield](#medium-shield) (1x)
 * [Heavy Shield](#heavy-shield) (1x)
@@ -1158,12 +1159,12 @@ The ability to make shields from conventional materials, such as wood and metal.
 #### Tanning/Skinning (Agi/Tough)
 Taking the hide off a creature unDamaged. 
 
-[Crafting](./strive-core.md#crafting--research-projects)
+[Crafting](./strive-core.md#projects)
 
 #### Weapon Smithing (Str/Wit)
 The ability to make weapons from metal. 
 
-[Crafting](./strive-core.md#crafting--research-projects):
+[Crafting](./strive-core.md#projects):
 * [Axe](#axe) (1x)
 * [Crusher](#crusher) (1x)
 * [Light Blade](#light-blade) (1x)
@@ -1182,7 +1183,7 @@ At Level `5+`, you may also craft the following:
 #### Woodcarving (Agi/Agi)
 Creating small things from carved wood. 
 
-[Crafting](./strive-core.md#crafting--research-projects):
+[Crafting](./strive-core.md#projects):
 * [Objet d'art](strive-core.md#general-assets) (1x)
 
 ### Special Skills
@@ -1249,9 +1250,9 @@ The control of air, to create and change its flow, for benefit and detriment.
 | 4     | Tornado              | 1 Hour         | `SI`        | 1+         | **Concentration**: Call forth a tornado, up to `SI * 6` Squares away, and control its movements. It is up to `SI` AoE radius wide and tall, and can displace creatures and objects up to `SI * 2` Bulk, throwing them up to `SI * 2` Squares far, in a random direction. The tornado can clear away gases and the like. | The Tornado forms, but you lose control. It moves unpredictably and randomly. | The air displaces in a `SI * 2` radius around you. Everyone in the AoE is sucked into the vaccuum, which they cannot escape from, for `SI` Rounds. Every turn, they suffer `4` Pure Damage and `+1` [Strain](./strive-core.md#stamina--strain) as they suffocate! |
 
 ### Artificing (Arc/Wit)
-The setting of arcane traps and creation of arcane artifacts and materials. 
+The setting of arcane traps and creation of arcane artifacts and materials. Can also serve to gather rough information about a magical object. A Test of this Skill, at Ob equal to the chosen SI, may reveal the kind of magic that the object holds, how it might be triggered or how it might manifest. 
 
-[Crafting](./strive-core.md#crafting--research-projects):
+[Crafting](./strive-core.md#projects):
 * [Arcane Engine](#arcane-engine) (1x)
 * [Magic Recorder](#general-assets) (1x)
 * [Magic Scroll](#magic-scrolls) (1x)
@@ -1355,7 +1356,7 @@ Catching glimpses of the unknowable and nudging fate. A Divination mage prefers 
 | ----- | -------------------------- | -- | ------------- | ---------------------------- | ------------------------------ | ------------------ |
 | 0     | I Saw It Coming            | 1  | `9`           | `SI`                         | **Reaction**: When you or an ally is successfully Attacked, subtract `SI` Hits from the Attacker's roll. This may cause the Attack to fail. | The Attacker instead gains `SI` Hits to their roll! |
 | 0     | Direct Success             | 2  | `9`           | `SI`                         | **Reaction**: When an ally rolls a Test, add `SI` dice to it, and raise their Hit Limit by `+1`. | Your ally instead loses `SI` dice! |
-| 1     | Boost Project              | 4  |               | `SI`                         | Once a day, boost the Progress of a [Project](./strive-core.md#crafting--research-projects), by `SI * 3` points! | The Project instead loses `SI * 2` points! |
+| 1     | Boost Project              | 4  |               | `SI`                         | Once a day, boost the Progress of a [Project](./strive-core.md#projects), by `SI * 3` points! | The Project instead loses `SI * 2` points! |
 | 2     | Watch Defense              | 4  |               | `SI`                         | **Concentration**: Up to `SI` MST cannot be Watched. |  |
 | 2     | Watch                      | 4  |               | `3`                          | Glimpse a short vision of a person or object, no matter where they are. But only your target is clearly visible. Your peripheral vision is blurred and foggy. | The target becomes aware that the winds of magic swirled in agitation around them. They might not know *who* Watched them, but they may figure out *that* they were Watched. |
 | 4     | Calamitous Prognostication | 3  | `SI * 3`      | `3`                          | In one Round, something bad happens to a ST. Choose: `1`: Something falls on their head or they stumble and fall prone. `2`: They are mistaken for a foe by their allies or they might mistake their allies for foes. `3`: They drop something they are holding or which is on their person. `4`: The winds of magic are agitated, causing `+1` [Arcane Slag](#arcane-overheat--slag). | You are affected, instead! |
@@ -1598,14 +1599,14 @@ Their name, species, gender, age and other details are left up to you to fill ou
 ### The Arcaenologist
 After so many years of study and dedication to dusty tomes and repeated lectures, you realize the world cannot be found in books and scrolls - it is *out there*. Perhaps it is not yet too late to experience it all?
 
-Ambition: Perhaps I could leave a lasting legacy, as well? I will craft a legendary magical artifact!
+**Ambition**: Perhaps I could leave a lasting legacy, as well? I will craft a legendary magical artifact!
 
-Drivers:
+**Drivers**:
 1. I wish to see all the world's wonders! 
 2. I know there are many private collections full of magical marvels. I will gain access to them!
 3. I have never traveled much before. I will need guidance and perhaps a group to tag along to my next destination.
 
-Quirks:
+**Quirks**:
 1. Troublemaker: When frightened, I tend to have outbursts of my pyromanic magic. 
 2. Troublemaker: I tend to drone on and ramble, testing the patience of others, especially in negotiations. 
 3. Assurance: The world of magic practicioners is small enough and well connected - I know most others who engage in my craft. 
@@ -1618,19 +1619,19 @@ Quirks:
 | ------ | ------ | ------ | --- | ---------- |
 | 7      | 1      | 0      | 20  | 2          |
 
-Titles of Renown:
+**Titles of Renown**:
 * Loremaster of *X* (`3`) - at the cost of `2` points that would have gone to Skills. Replace *X* with something befitting your GM's world - make sure to consult them!
 
-Skills:
-* Alchemy, Level `3`
-* History, Level `3`
-* Magic School \<Artificing\>, Level `4`
-* Magic School \<Pyromancy\>, Level `3`
-* Magic School \<Restoration\>, Level `3`
-* Reading and Writing, Level `2`
-* Rune-Smithing, Level `1`
+**Skills**:
+* **Alchemy**: Level `3`
+* **History**: Level `3`
+* **Magic School \<Artificing\>**: Level `4`
+* **Magic School \<Pyromancy\>**: Level `3`
+* **Magic School \<Restoration\>**: Level `3`
+* **Reading and Writing**: Level `2`
+* **Rune-Smithing**: Level `1`
 
-Assets:
+**Assets**:
 * 1x Scholar's noble garb
 * 2x Illusionist's Powder
 * 3x Dragon's Breath Potion
@@ -1640,14 +1641,14 @@ All the world's a stage! Life is a performance! And yours will be the greatest p
 
 The Performer may seem like a chaotic troublemaker, but if you pick them, don't play them like a nuisance. They're a **connoisseur of art and drama**, not some hateful *idiot*. Fan the flames only when it is *really dramatic*. And be supportive of others - they have a part in this play, too, after all!
 
-Ambition: Become world renowned, in any way I might! If all life is to end, then I shall make mine **such** an end!
+**Ambition**: Become world renowned, in any way I might! If all life is to end, then I shall make mine **such** an end!
 
-Drivers:
+**Drivers**:
 1. Renown doesn't come from inaction - I will fulfill a job that is sure to make me known to the world!
 2. I seek thrill and excitement! And what greater thrill is there to be found, than in blood sport? I will participate!
 3. Great works live on - I will invent the world's most outrageous, exciting and inspiring stage play! 
 
-Quirks:
+**Quirks**:
 1. Troublemaker: I cannot help but fan the flames - a heated situation is always *so much more interesting*!
 2. Troublemaker: I love when the blood pumps - and I seek such moments voraciously!
 3. Assurance/Troublemaker: It takes one to know one - I can always recognize an actor, a charlatan and a visionary. But I *might* keep such wisdom to myself...
@@ -1660,19 +1661,19 @@ Quirks:
 | ------ | ------ | ------ | --- | ---------- |
 | 8      | 3      | 1      | 30  | 3          |
 
-Traits:
+**Traits**:
 * Warcrobat - at the cost of `2` points that would have gone to Skills.
 
-Skills:
-* Acrobatics, Level: `3`
-* Acting, Level: `3`
-* Entertainment, Level: `3`
-* History, Level: `1`
-* Self-Control, Level: `2`
-* Throwing, Level: `3`
-* Weapon \<Chained-Blade\>, Level `4`
+**Skills**:
+* **Acrobatics,**:Level: `3`
+* **Acting,**:Level: `3`
+* **Entertainment,**:Level: `3`
+* **History,**:Level: `1`
+* **Self-Control,**:Level: `2`
+* **Throwing,**:Level: `3`
+* **Weapon \<Chained-Blade\>**: Level `4`
 
-Assets:
+**Assets**:
 * 1x Performer's garb
 * 1x Chained-Blade
 * 6x Throwing Blade
@@ -1680,14 +1681,14 @@ Assets:
 ### The Surgeon
 Everyone needs a good doctor and everyone wants to be friends with one. Whether out of altruistic instinct, or for coin, your skills with a short blade and your academic expertise will always come in useful. 
 
-Ambition: Establish a hospital and make it house the world's finest medics and surgeons. My name shall live on through it!
+**Ambition**: Establish a hospital and make it house the world's finest medics and surgeons. My name shall live on through it!
 
-Drivers:
+**Drivers**:
 1. I will travel the world and seek out the most renowned medics and surgeons, to convince them to join my hospital. 
 2. I will find a group of foolhardy adventurers to travel with, as I will need protection and coin. And to keep honing my art. 
 3. A hospital is expensive - I will convince someone influential and wealthy to fund my hospital for me. 
 
-Quirks:
+**Quirks**:
 1. Troublemaker: If someone is in need, I will always help. Afterwards I may still ask to be paid, though.
 2. Troublemaker: If someone else tries to treat Injuries, I will always push them aside and take over. Can't have the laity play doctor!
 3. Troublemaker: I **do not kill** people. I *may* hurt them, though.
@@ -1700,17 +1701,17 @@ Quirks:
 | ------ | ------ | ------ | --- | ---------- |
 | 9      | 3      | 0      | 30  | 3          |
 
-Skills:
-* History, Level: `3`
-* Medicine, Level: `3`
-* Reading and Writing, Level: `2`
-* Observation, Level: `2`
-* Self-Control, Level: `2`
-* Surgery, Level: `4`
-* Unarmed Combat, Level: `2`
-* Weapon \<Dagger\>, Level: `3`
+**Skills**:
+* **History**: Level: `3`
+* **Medicine**: Level: `3`
+* **Reading and Writing**: Level: `2`
+* **Observation**: Level: `2`
+* **Self-Control**: Level: `2`
+* **Surgery**: Level: `4`
+* **Unarmed Combat**: Level: `2`
+* **Weapon \<Dagger\>**: Level: `3`
 
-Assets:
+**Assets**:
 * 1x Dagger
 * 1x Surgeon's apron above fine white clothes
 * 5x Medical Supplies
@@ -1718,14 +1719,14 @@ Assets:
 ### The Tired Monster Hunter
 The many years of crawling through mud, delving into filth-filled sewers, getting lost in treacherous caverns and ambushed in haunted forests have left their marks on you. Countless scars each have a story to tell, but you are far too tired to recount them all. You would love nothing more than to settle down and retire, but you also realize the world needs you to keep up the good work, for there are still many monsters more, but not enough of *your* kind to oppose them. 
 
-Ambition: Learn a simple craft and ultimately retire. But only after making sure there are enough others to follow in your foot-steps. 
+**Ambition**: Learn a simple craft and ultimately retire. But only after making sure there are enough others to follow in your foot-steps. 
 
-Drivers:
+**Drivers**:
 1. The world is perilous and in need of heroes. I will ensure many others will successfully take up my profession. 
 2. My current quarry is a particular threat. I will find allies to help me track and ultimately take it down. 
 3. Others view me with unjust suspicion. I will earn the trust of a community I wish to settle down in!
 
-Quirks:
+**Quirks**:
 1. Troublemaker: I must help others in need - life is tough enough as it is. But I refuse coin for good deeds. 
 2. Assurance: I have a reputation. Others know my work and will gladly point me towards more, even offer supplies and financial aid, albeit no helping hand. 
 3. Troublemaker/Assurance: Whenever I am unsure of my path, I take out my - supposedly broken - compass. Its needle always points where I am needed. I think. 
@@ -1738,19 +1739,19 @@ Quirks:
 | ------ | ------ | ------ | --- | ---------- |
 | 9      | 3      | 0      | 40  | 4          |
 
-Titles of Renown:
+**Titles of Renown**:
 * Monster Hunter - at the cost of `2` points that would have gone to Skills. Consult your GM to determine which three kinds of beasts you have slain before. 
 
-Skills:
-* Creature-Lore, Level `3` - Consult your GM to determine the category of creature. 
-* Nature, Level `3`
-* Observation, Level `3`
-* Path-Finding, Level `3`
-* Stealth, Level `2`
-* Trapping, Level `3`
-* Weapon \<Crossbow\>, Level `4`
+**Skills**:
+* **Creature-Lore**: Level `3` - Consult your GM to determine the category of creature. 
+* **Nature**: Level `3`
+* **Observation**: Level `3`
+* **Path-Finding**: Level `3`
+* **Stealth**: Level `2`
+* **Trapping**: Level `3`
+* **Weapon \<Crossbow\>**: Level `4`
 
-Assets:
+**Assets**:
 * 1x Light Armor
 * 1x Crossbow
 * 2x Blackpowder Bomb
@@ -1758,14 +1759,14 @@ Assets:
 ### The Warboss
 Times may have been tough for you, but you'll come back from your setbacks. Thanks to your wit and skill, you always do. That usurper who took over your mercenary company won't even know what hit him once you get to him! Those many long years with your company have been the best of your life. The bonds forged in war and feasts *should* have been unbreakable. But perhaps, such bonds could be forged anew?
 
-Ambition: That usurper may have my mercenary company for now, but I will take it back!
+**Ambition**: That usurper may have my mercenary company for now, but I will take it back!
 
-Drivers:
+**Drivers**:
 1. I need capable allies to aid my quest for revenge. I hear adventurers are always ready to work for coin, as am I. I will make friends with some of them. 
 2. My allies are spent and stolen. I will earn a favor from someone influential and wealthy, to call upon later. 
 3. My old company has made themselves scarce. I know they fear me. I will find out where they currently are and what their plans are.
 
-Quirks:
+**Quirks**:
 1. Troublemaker: Whenever I get the chance, I will boast wholeheartedly of my exploits and those of my company! Who cares if not everything we did was *legal*?
 2. Assurance: Many negotiations in the past have taught me valuable appraisal skills. I can always tell if *something seems off* in an offered deal. 
 3. Troublemaker/Assurance: You never know where the enemy lurks. I always have a weapon and my armor ready. 
@@ -1778,17 +1779,17 @@ Quirks:
 | ------ | ------ | ------ | --- | ---------- |
 | 7      | 3      | 0      | 50  | 5          |
 
-Skills:
-* Commanding, Level: `3`
-* Medicine, Level: `2`
-* Mercantilism, Level: `2`
-* Path-Finding, Level: `2`
-* Self-Control, Level: `2`
-* Shield, Level: `3`
-* Warfare, Level: `4`
-* Weapon \<Light Blade\>, Level: `3`
+**Skills**:
+* **Commanding**: Level: `3`
+* **Medicine**: Level: `2`
+* **Mercantilism**: Level: `2`
+* **Path-Finding**: Level: `2`
+* **Self-Control**: Level: `2`
+* **Shield**: Level: `3`
+* **Warfare**: Level: `4`
+* **Weapon \<Light Blade\>**: Level: `3`
 
-Assets:
+**Assets**:
 * 1x Light Blade
 * 1x Shield
 * 1x Medium Armor
@@ -1812,12 +1813,20 @@ This section complements the one from the [Core Rules](./strive-core.md#your-wor
 One of the major draws to a medieval fantasy world, is its diversity. The following is an offering of various playable Fantasy-themed species for you to incorporate, adapt or be inspired by as you please. They are designed to be distinct, and markedly different from one another. Each has unique strengths and weaknesses. They are **not** simply "re-colored humans". 
 
 ### Human
-While not the most interesting option available, it is by no means boring to play a human, who are highly adapatble and stubborn creatures. During [Character Creation](./strive-core.md#character-creation), you may [pick **two** Traits](./strive-core.md#determine-character-traits), instead of just one.
+While not the most interesting option available, it is by no means boring to play a human, who are highly adaptable and stubborn creatures. During [Character Creation](./strive-core.md#character-creation), you may [pick **two** Traits](./strive-core.md#determine-character-traits), instead of just one.
 
 Innate Traits:
 * **Stubborn**: `+1` [Edge](./strive-core.md#edge) for any Test against the elements. Humans struggle defiantly against the cold and heat, against storms and through harsh treks.
 * **Resilient**: `+1` [Edge](./strive-core.md#edge) for any Test against Illnesses and Injuries!
 * **Bounce Back**: Recover `5` more HP and `+1` Stamina and reduce Strain by one more point, every [Recovery](./strive-core.md#recovery). And recover an additional +4 HP for every Hit when healed. 
+
+### Bird-Folk
+Semi-anthropomorphic avians, whose ability to fly short distances makes them valued scouts and messengers. 
+
+Innate Traits:
+* **Glider**: Can fly up to `15` Squares, at a time. 
+* **Imitator**: Can imitate voices or sounds previously heard. Requires an [Acting](./strive-core.md#acting-awarwit) Test at Ob `2`, for which you gain `+1` [Edge](./strive-core.md#edge). 
+* **Hollow Bones**: Every Level in Toughness only grants you only `+7` maximum HP, instead of `+10`.
 
 ### Cat-Folk
 Anthropomorphic felines, that come in one of two variants. Generally, they're as tall as humans, walk like them and talk like them. 
@@ -1842,7 +1851,7 @@ Innate Traits:
 Anthropomorphic Rodents, who are even more diverse than humans, and yet also more narrowly specialized. Generally, they're much shorter and more squat than humans. 
 
 Innate Traits:
-* **Frail**: Every Level in Toughness only grants you `+7` maximum HP, instead of `+10`.
+* **Frail**: Every Level in Toughness only grants you only `+7` maximum HP, instead of `+10`.
 * **Cheek-Pouches**: You may store up to `2` bulk `1` Assets in your very stretchy cheeks, in your mouth, separately from your other Luggage. Producing Assets from or storing them in your mouth is free and costs no AP.
 
 #### Urban Rodent-Folk
@@ -1908,20 +1917,20 @@ Whether through the bite, or blood, a Werewolf's curse transforms its victim int
 **Assets**: None
 
 **Skills**:
-* Acrobatics (Agi/Str): Level `5`
-* Bite (Agi/Str): 
+* **Acrobatics**: Level `5`
+* **Bite (Agi/Str)**:
   * Bite down hard at a ST with strong and sharp teeth. 
   * Level: `4`, AP: `2`, Ob: Opposed, Melee, ST, Innate
   * `≤ 1` Hit: `6` Piercing
   * `= 2` Hits: `8` Piercing
   * `≥ 3` Hits: `10` Piercing
-* Rend (Agi/Str): 
+* **Rend (Agi/Str)**:
   * Strike at a ST with sharp claws. 
   * Level: `5`, AP: `2`, Ob: Opposed, Melee, ST, Innate
   * `≤ 1` Hit: `7` Slashing
   * `= 2` Hits: `9` Slashing; `+1` Bleeding
   * `≥ 3` Hits: `11` Slashing; `+2` Bleeding
-* Shoot Spine (Agi/Awar): 
+* **Shoot Spine (Agi/Awar)**:
   * Shoot a spine from your back at a ST, up to `10` Squares away. 
   * Level: `4`, AP: `2`, Ob: `Opposed`, Ranged, ST, Innate
   * `≤ 1` Hit: `4` Piercing
@@ -1959,10 +1968,10 @@ Warped bones are held together by sinew and parched remnants of skin. The heavil
 **Assets**: None
 
 **Skills**:
-* Kidnap (Agi/Str): 
+* **Kidnap (Agi/Str)**:
   * Envelop a ST and drag them off. The victim counts as [Grappled](./strive-core.md#grappled). 
   * Level: `5`, AP: `2`, Ob: Opposed, Melee, ST, Innate
-* Twisted Cage (Arc/Arc): 
+* **Twisted Cage (Arc/Arc)**:
   * Form a cage of twisted earth and bone around a ST, up to `10` Squares away, who is considered [Rooted](./strive-core.md#rooted) and due to the constricted space, suffers `+1` Ob to all Tests.
   * Level: `5`, AP: `2`, Ranged, ST, Innate
 
@@ -1989,13 +1998,13 @@ Muscle and bone are laid bare and mutated, as the monster's skin is akin to a tr
 **Assets**: None
 
 **Skills**:
-* Rend (Agi/Str): 
+* **Rend (Agi/Str)**:
   * Tear a ST to shreds with your claws. 
   * Level: `3`, AP: `2`, Ob: Opposed, Melee, ST, Innate
   * `≤ 1` Hit: `3` Slashing
   * `= 2` Hits: `4` Slashing
   * `≥ 3` Hits: `5` Slashing
-* Grapple (Agi/Str): 
+* **Grapple (Agi/Str)**:
   * Grapple a ST. Gain `+1` Edge for Grapple Tests.
   * Level: `3`, AP: `2`, Ob: Opposed, Melee, ST, Innate
 
@@ -2024,20 +2033,20 @@ A massive, bipedal abomination. Its thin limbs are too long for its proportions,
 **Assets**: None
 
 **Skills**:
-* Rend (Str/Tough): 
+* **Rend (Str/Tough)**:
   * Tear a ST to shreds with your claws. Cannot be used against a target you're currently Grappling. 
   * Level: `5`, AP: `2`, Ob: Opposed, Melee, ST, Innate
   * `≤ 1` Hit: `8` Slashing
   * `= 2` Hits: `10` Slashing; `+1` Bleeding
   * `≥ 3` Hits: `13` Slashing; `+1` Bleeding
-* Spew Taint (Arc/Arc): 
+* **Spew Taint (Arc/Arc)**:
   * Spew the Taint at a victim, up to `5` Squares away, causing `+1` [Corruption](#corruption) in the victim.
   * Level: `4`, AP: `2`, Ob: Opposed, Ranged, ST, Innate
-* Tentacles (Agi/Str): 
-  * Crushing Squeeze:
+* **Tentacles (Agi/Str)**:
+  * **Crushing Squeeze**:
     * Once per Turn, squeeze the life out of a currently Grappled ST victim, causing `8` Bludgeoning Damage. 
     * Level: `4`, AP: ` 1`, ST, Innate
-  * Grapple:
+  * **Grapple**:
     * Grapple a ST with your tentacles, up to `3` Squares away. 
     * Level: `4`, AP: ` 1`, Opposed, ST, Innate
 
@@ -2045,9 +2054,9 @@ A massive, bipedal abomination. Its thin limbs are too long for its proportions,
 Upon the start of your turn, regain `6` HP and remove one Injury!
 
 **Legendary Actions**:
-* Transform The Flesh:
+* **Transform The Flesh**:
   * Once per Round, remove all currently active Conditions and heal `2` HP for each. 
-* Split:
+* **Split**:
   * Once a day, upon reaching half HP, split and duplicate yourself. Each half now has `50` current and maximum HP, but also half Toughness and `4` Strength. 
 
 ### Threaded Terror
@@ -2073,11 +2082,11 @@ Stilted legs hold aloft a large body comprised of tendrils pulsating with light.
 **Assets**: None
 
 **Skills**:
-* Puppeteer (Agi/Arc): 
+* **Puppeteer (Agi/Arc)**:
   * Jam your flesh tendrils in a victim's skin, taking control of them, up to `5` Squares away, with `+1` Edge for the Test. If successful, the victim is under your direct control and cannot move on their own, although they may still think and speak of their own volition. The victim may attempt to break free from your control at the end of your Turn, with a successful Self-Control Test, at Ob `4`. An ally may attempt to sever the tendrils or pull loose their ally, with a Test at Ob `3`. 
   * For as long as a victim is Puppeteered, it will suffer all Damage directed towards the Threaded Terror, who suffers no Damage. 
   * Level: `5`, AP: `2`, Ob: Opposed, Ranged, ST, Innate
-* Zap (Agi/Arc): 
+* **Zap (Agi/Arc)**:
   * Send a bolt of lightning from your tendrils to a ST victim, up to `5` Squares away.
   * Level: `5`, AP: `2`, Ob: Opposed, Ranged, ST, Innate
   * `≤ 1` Hit: `6` Electrical
@@ -2111,23 +2120,23 @@ A massive, monstrous mass of bare flesh and bone. Its skin is like fish's mail, 
 **Assets**: None
 
 **Skills**:
-* I Remember... (Arc/Arc): 
+* **I Remember... (Arc/Arc)**:
   * Level: `6`, AP: `2`, ST, Innate
   * Roll `1D6`, on `1`: We Were More, `2`: You Were Not There, `3`: You Were Weaker, `4`: A Cage, `5`: You Were Slower, `6`: Being Alive
-  * We Were More:
+  * **We Were More**:
     * `1D4`, Spawn up to... 1: `5` [Huskfallen](#huskfallen), 2: `3` [Hunched Dread](#hunched-dread), 3: `2` [Threaded Terror](#threaded-terror), 4: `1` [Tentacled Tarbeast](#tentacled-tarbeast)
     * Only fills up the numbers of allies, but does not exceed them. For example, through this Ability, no more than `5` Huskfallen can exist at a time. 
-  * You Were Not There:
+  * **You Were Not There**:
     * Displace up to `3` foes randomly (see [Random Direction](./strive-core.md#random-direction)), up to `6` Squares far.
-  * You Were Weaker:
+  * **You Were Weaker**:
     * Inflict a Bleeding Injury to `3` foes. 
-  * A Cage:
+  * **A Cage**:
     * Cages of bone form around `3` foes, [Rooting](./strive-core.md#rooted) them. Each cage has `10` HP and lasts `3` Rounds. 
-  * You Were Slower:
+  * **You Were Slower**:
     * An area, `10` Squares in diameter slows all within. Every Action taken within costs `+1` AP and movement is reduced by `2` Squares. 
-  * Being Alive:
+  * **Being Alive**:
     * The sky darkens and it rains all Round. *Please, make it end*. 
-* Corrupt Reality (Arc/Arc): 
+* **Corrupt Reality (Arc/Arc)**:
   * A shockwave sends tremors through reality. All in a `20` Square diameter around are affected. Chunks of earth begin to float and warp. The battlefield changes its visage, bending around the Time-Eater. 
   * Level: `5`, AP: `4`, Ob: `2`, Ranged, AoE, Innate
   * `≤ 1` Hit: `6` Pure; `+1` [Corruption](#corruption); Knock-Back `3` Squares
@@ -2135,7 +2144,7 @@ A massive, monstrous mass of bare flesh and bone. Its skin is like fish's mail, 
   * `≥ 3` Hits: `10` Pure; `+1` [Corruption](#corruption); Knock-Back `5` Squares
 
 **Legendary Actions**:
-* Bend Light:
+* **Bend Light**:
   * Cause one ability that targets you to be re-directed to another Character, closest to you, picked on [random direction](./strive-core.md#random-direction). 
 
 ## Demons
@@ -2196,19 +2205,19 @@ This minor Demon is a horned mass of bulging muscle and covered in eternal flame
 **Assets**: None
 
 **Skills**:
-* Breath Of Fire (Tough/Arc):
+* **Breath Of Fire (Tough/Arc)**:
   * Breathe flame in a `3` Square AoE cone. 
   * Level: `4`, AP: `3`, Ob: `2`, AoE, Innate
   * `≤ 1` Hit: `4` Burning
   * `= 2` Hits: `6` Burning
   * `≥ 3` Hits: `9` Burning
-* Charge (Str/Tough):
+* **Charge (Str/Tough)**:
   * Charge at a ST, knocking them back and engulfing them in flame.
   * Level: `5`, AP: `3`, Ob: `Opposed`, Melee, ST, Innate
   * `≤ 1` Hit: `5` Bludgeoning + `5` Burning; Knocked back `2` Squares
   * `= 2` Hits: `6` Bludgeoning + `6` Burning; Knocked back `3` Squares
   * `≥ 3` Hits: `8` Bludgeoning + `8` Burning; Knocked back `5` Squares
-* Claw Strike (Agi/Str):
+* **Claw Strike (Agi/Str)**:
   * Strike with burning claws at a ST.
   * Level: `5`, AP: `3`, Ob: `Opposed`, Melee, ST, Innate
   * `≤ 1` Hit: `8` Slashing + `6` Burning
@@ -2243,20 +2252,20 @@ This minor Demon towers above and punishes foes with reckless abandon. One of it
 **Assets**: None
 
 **Skills**:
-* Wicked Blade Strike (Agi/Str):
+* **Wicked Blade Strike (Agi/Str)**:
   * Strike at a ST with your blade-like arm.
   * Level: `4`, AP: `2`, Ob: `Opposed`, Melee, ST, Innate
-  * `≤ 1` Hit: `3` Slashing
-  * `= 2` Hits: `4` Slashing
-  * `≥ 3` Hits: `5` Slashing
-* Retaliate:
+  * `≤ 1` Hit: `6` Slashing
+  * `= 2` Hits: `8` Slashing; `+1` Bleeding
+  * `≥ 3` Hits: `10` Slashing; `+2` Bleeding
+* **Retaliate (Agi/Str)**:
   * **Reaction**: When being Attacked, immediately launch a free Counter-Attack with your Wicked Blade Strike. But in doing so, allow one *other* Character than the one you're retaliating against to *also* launch a free and immediate Counter-Attack against *you*! You cannot Retaliate against that other Character - the chain of Counter-Attacks ends with them. 
-* Vomit Blood (Agi/Tough):
+* **Vomit Blood (Agi/Tough)**:
   * Cough up a blast of your own blood, its Demonic fire will burn all in a `3` Square AoE cone.
   * Level: `3`, AP: `3`, Ob: `1`, Ranged, AoE, Innate
-  * `≤ 1` Hit: `2` Burning
-  * `= 2` Hits: `3` Burning
-  * `≥ 3` Hits: `4` Burning
+  * `≤ 1` Hit: `3` Burning
+  * `= 2` Hits: `5` Burning
+  * `≥ 3` Hits: `7` Burning
 
 #### Faceless Hunter
 This minor Demon looks like a pale, muscular man, but its head is elongated and lacks any facial features, save a teeth-lined maw and reptilian nostrils. Each hand holds a rusty sickle and trophies taken from its victims adorn its body. When it moves, it does so like a beast, rather than a man. 
@@ -2287,15 +2296,15 @@ This minor Demon looks like a pale, muscular man, but its head is elongated and 
 **Assets**: It may have the odd trinket - still attached to the remains of its former host. 
 
 **Skills**:
-* Observation, Level `5`
-* Stealth, Level `5`
-* Drop Kick (Agi/Tough):
+* **Observation**: Level `5`
+* **Stealth**: Level `5`
+* **Drop Kick (Agi/Tough)**:
   * Jump into a ST, up to `3` Squares far, and knock them `Str` Squares away from you.
   * Level: `4`, AP: `3`, Ob: `Opposed`, Melee, AoE, Innate
-* Leg Sweep (Agi/Str):
+* **Leg Sweep (Agi/Str)**:
   * Sweep the legs of two adjacent creatures, knocking them [Prone](./strive-core.md#prone). 
   * Level: `4`, AP: `2`, Ob: `Opposed`, Melee, AoE, Innate
-* Sickle Strike (Agi/Agi):
+* **Sickle Strike (Agi/Agi)**:
   * Strike at a ST with your sickles.
   * Level: `4`, AP: `2`, Ob: `Opposed`, Melee, ST, Innate
   * `≤ 1` Hit: `3` Slashing
@@ -2327,16 +2336,16 @@ This minor Demon appears like a half-rotted and calcified, large, bipedal Deer. 
 **Assets**: None
 
 **Skills**:
-* Claw Strike (Agi/Str):
+* **Claw Strike (Agi/Str)**:
   * Strike at two adjacent MST with your claws.
   * Level: `4`, AP: `3`, Ob: `Opposed`, Melee, MST, Innate
   * `≤ 1` Hit: `4` Slashing
   * `= 2` Hits: `4` Slashing
   * `≥ 3` Hits: `5` Slashing
-* Shadow-Jump:
+* **Shadow-Jump (Arc/Arc)**:
   * Diffuse into a burst of darkness, and re-appear in anoter location, up to `10` Squares away.
   * AP: `1`, Innate
-* Breath Of Death (Tough/Tough):
+* **Breath Of Death (Tough/Tough)**:
   * Breathe darkness in a `3` Square AoE cone. 
   * Level: `4`, AP: `3`, Ob: `2`, AoE, Innate
   * `≤ 1` Hit: `1` Pure
@@ -2369,19 +2378,19 @@ This minor Demon has been forced into the body of a Zombie. It has deformed, as 
 **Assets**: None
 
 **Skills**:
-* Batter (Agi/Str):
+* **Batter (Agi/Str)**:
   * Strike at two adjacent MST with your fists.
   * Level: `4`, AP: `3`, Ob: `Opposed`, Melee, MST, Innate
   * `≤ 1` Hit: `5` Bludgeoning
   * `= 2` Hits: `7` Bludgeoning
   * `≥ 3` Hits: `10` Bludgeoning
-* Spew Acid (Agi/Awar): 
+* **Spew Acid (Agi/Awar)**:
   * Spew acid in a `2` Square AoE cone.
   * Level: `3`, AP: `2`, Ob: `1`, AoE, Innate
   * `≤ 1` Hit: `4` Acid
   * `= 2` Hits: `6` Acid
   * `≥ 3` Hits: `9` Acid
-* Moldy Breath (Awar/Tough): 
+* **Moldy Breath (Awar/Tough)**:
   * Cough a deathly mold in a `2` Square AoE cone.
   * Level: `3`, AP: `2`, Ob: `1`, AoE, Innate
   * `≤ 1` Hit: `4` Poison
@@ -2389,11 +2398,11 @@ This minor Demon has been forced into the body of a Zombie. It has deformed, as 
   * `≥ 3` Hits: `9` Poison
 
 **Legendary Actions**:
-* Trample:
-  Run up to `6` Squares far, knocking aside all other Characters by `1` Square, once per Round. 
-* Rise Again:
+* **Trample**:
+  * Run up to `6` Squares far, knocking aside all other Characters by `1` Square, once per Round. 
+* **Rise Again**:
   * Defy death once more, losing all Injuries and regaining all HP. Can only happen once. 
-* Demon Freedom:
+* **Demon Freedom**:
   * A [Spineling](#spineling) bursts forth, in a spectacular explosion of blood, acid and gore, dealing `6` Acid Damage to all in a `5` Square diameter AoE around. The Possessed Zombie dies in the process. This can only happen once and only when below half HP. 
 
 #### Spineling
@@ -2421,7 +2430,7 @@ This minor Demon is a canid-esque quadruped covered in countless bony spines, li
 **Assets**: None
 
 **Skills**:
-* Shoot Spine (Agi/Awar): 
+* **Shoot Spine (Agi/Awar)**:
   * Shoot a spine from your back at a ST, up to `10` Squares away. 
   * AP: `2`, Ob: `Opposed`, Ranged, ST, Innate
   * `≤ 1` Hit: `4` Piercing
@@ -2454,16 +2463,16 @@ This minor Demon appears to be some sort of stone-golem. Molten lava drips from 
 **Assets**: None
 
 **Skills**:
-* Obey! (Tough/Wit):
+* **Obey! (Tough/Wit)**:
   * **Concentration**: Command any ST, up to `6` Squares away, to obey you! Their will is no longer their own. Commands are given telepathically, at the cost of `-1` AP. 
   * Level: `4`, AP: `3`, Ob: `Opposed by Self-Control`, Ranged, ST, Innate
-* Serve Harder!: 
+* **Serve Harder!**:
   * If dominating another creature's mind, bolster it, at the cost of its health.
   * AP: `3`, Ob: `1`, Ranged, ST, Innate
   * `≤ 1` Hit: Your servant must move towards a foe, up to `4` Squares far, which may provoke Opportunity Attacks, and also suffers `2` Pure Damage.
   * `= 2` Hits: Your servant gets an immediate Turn, and must fulfill your command, but also suffers `5` Pure Damage.
   * `≥ 3` Hits: Your servant gets an immediate Turn, with `+2` AP, and must fulfill your command, but also suffers `8` Pure Damage.
-* Whip Strike (Agi/Str):
+* **Whip Strike (Agi/Str)**:
   * Strike a ST, up to `3` Squares away, with your stone-whip. 
   * Level: `3`, AP: `2`, Ob: `Opposed`, Ranged, ST, Innate
   * `≤ 1` Hit: `2` Bludgeoning
@@ -2501,25 +2510,25 @@ Flames dance across the Demon's obsidian skin and it roars with ferocity - yet a
 **Traits**: [Fortified Mind](./strive-core.md#fortified-mind--4-points-1-cr); [Leaper](./strive-core.md#leaper--3-points-2-cr); [Danger Blood (Burning)](./strive-core.md#danger-blood--1-point-1-cr); [Hyperactive + Multi-Initiative](./strive-core.md#hyperactive--7-points-4-cr)
 
 **Skills**:
-* Breath Of Fire (Tough/Arc):
+* **Breath Of Fire (Tough/Arc)**:
   * Breathe flame in a `5` Square AoE cone. 
   * Level: `8`, AP: `4`, Ob: `2`, AoE, Innate
   * `≤ 1` Hit: `8` Burning
   * `= 2` Hits: `9` Burning
   * `≥ 3` Hits: `10` Burning
-* Claw Strike (Agi/Str):
+* **Claw Strike (Agi/Str)**:
   * Strike with fiery claws at everything in a `3` Square AoE cone.
   * Level: `8`, AP: `2`, Ob: `2`, Melee, AoE, Innate
   * `≤ 1` Hit: `10` Slashing + `4` Burning
   * `= 2` Hits: `13` Slashing + `5` Burning
   * `≥ 3` Hits: `18` Slashing + `6` Burning
-* Fissure (Str/Arc):
+* **Fissure (Str/Arc)**:
   * Strike at the ground and cause molten earthen spikes to erupt in a straight AoE line, up to `8` Squares far, piercing foes and setting them on fire, before melting into harmless sludge. 
   * Level: `8`, AP: `4`, Ob: `2`, AoE, Innate
   * `≤ 1` Hit: `8` Piercing + `4` Burning
   * `= 2` Hits: `10` Piercing + `5` Burning
   * `≥ 3` Hits: `12` Piercing + `6` Burning
-* Eruption (Tough/Arc):
+* **Eruption (Tough/Arc)**:
   * Flames erupt from your body, pushing back all in a `10` Square diameter around you and leaving a flame field in a `10` Square diameter around, that last `3` Rounds. The flame field deals `6` Burning Damage per Tick. 
   * Level: `6`, AP: `2`, Ob: `3`, AoE, Innate
   * `≤ 1` Hit: Knock-Back `4` Squares; `4` Burning Damage
@@ -2527,13 +2536,13 @@ Flames dance across the Demon's obsidian skin and it roars with ferocity - yet a
   * `≥ 3` Hits: Knock-Back `8` Squares; `9` Burning Damage
 
 **Legendary Actions**:
-* Ignore Damage: 
+* **Ignore Damage**:
   * Ignore an [Instance of Damage](./strive-core.md#damage--effects), up to `2` times per Round. 
-* Shrug It All Off:
+* **Shrug It All Off**:
   * If you have a combined total of at least `8` points of Health Conditions, remove all of them, once a day. 
-* Action Surge
+* **Action Surge**:
   * Gain `5` AP, once a day. 
-* Building Hatred:
+* **Building Hatred**:
   * Whenever a PC successfully Attacks you, regain `2` AP. 
 
 ##### Second Stage
@@ -2549,25 +2558,25 @@ The Demon's form vanishes in a sea of fire, which rages and roars with unbridled
 * [Unstoppable Hatred](#unstoppable-hatred)
 
 **Skills**:
-* Breath Of Hate (Tough/Arc):
+* **Breath Of Hate (Tough/Arc)**:
   * Breathe flame in a `8` Square AoE cone. 
   * Level: `8`, AP: `4`, Ob: `2`, AoE, Innate
   * `≤ 1` Hit: `6` Burning; Knock-Back `2` Squares
   * `= 2` Hits: `8` Burning; Knock-Back `3` Squares
   * `≥ 3` Hits: `10` Burning; Knock-Back `4` Squares
-* Claw Strike (Agi/Str):
+* **Claw Strike (Agi/Str)**:
   * Strike with red-hot claws at everything in a `3` Square AoE cone.
   * Level: `8`, AP: `2`, Ob: `2`, Melee, AoE, Innate
   * `≤ 1` Hit: `10` Slashing + `6` Burning; Knock-Back `3` Squares
   * `= 2` Hits: `12` Slashing + `6` Burning; Knock-Back `4` Squares
   * `≥ 3` Hits: `14` Slashing + `6` Burning; Knock-Back `5` Squares
-* Seek Revenge (Str/Arc):
+* **Seek Revenge (Str/Arc)**:
   * **Reaction**: Upon suffering Damage, leap to the ST foe who dealt it, and slam into them with both massive fists.
   * Level: `4`, AP: `1`, Ob: `Opposed`, Melee, ST, Innate
   * `≤ 1` Hit: `8` Bludgeoning + `6` Burning
   * `= 2` Hits: `10` Bludgeoning + `8` Burning
   * `≥ 3` Hits: `12` Bludgeoning + `10` Burning
-* Flaming Whip (Tough/Arc):
+* **Flaming Whip (Tough/Arc)**:
   * Whip solid flame at a ST, up to `10` Squares away, and draw them closer.
   * Level: `6`, AP: `1`, Ob: `Opposed`, Ranged, ST, Innate
   * `≤ 1` Hit: Pull `6`; `4` Burning Damage
@@ -2575,11 +2584,11 @@ The Demon's form vanishes in a sea of fire, which rages and roars with unbridled
   * `≥ 3` Hits: Pull `8`; `9` Burning Damage
 
 **Legendary Actions**:
-* Ignore Damage: 
+* **Ignore Damage**:
   * Ignore an [Instance of Damage](./strive-core.md#damage--effects), up to `2` times per Round. 
-* Shrug It All Off:
+* **Shrug It All Off**:
   * If you have a combined total of at least `8` points of Health Conditions, remove all of them, once every other Round. 
-* Stop Heroism
+* **Stop Heroism**:
   * Prevent or end a Heroic Act's effects, once every other Round. 
 
 ###### Unstoppable Hatred
@@ -2620,28 +2629,28 @@ This major Demon looks like a massive half-rotted and calcified, hunched bipedal
 **Assets**: None
 
 **Skills**:
-* Claw Strike (Agi/Str):
+* **Claw Strike (Agi/Str)**:
   * Strike at everything in a `3` Square AoE cone.
   * Level: `5`, AP: `3`, Ob: `2`, Melee, AoE, Innate
   * `≤ 1` Hit: `4` Slashing
   * `= 2` Hits: `5` Slashing
   * `≥ 3` Hits: `6` Slashing
-* Breath Of Death (Tough/Tough):
+* **Breath Of Death (Tough/Tough)**:
   * Breathe darkness in a `5` Square AoE cone. 
   * Level: `5`, AP: `4`, Ob: `2`, AoE, Innate
   * `≤ 1` Hit: `3` Pure
   * `= 2` Hits: `4` Pure; All victims whose Self-Control is `≤ 2` become Terrified of you! 
   * `≥ 3` Hits: `6` Pure; All victims whose Self-Control is `≤ 3` become Terrified of you! 
-* Draw Life (Arc/Arc):
+* **Draw Life (Arc/Arc)**:
   * With a terrible inverted howl, Pull all in a `10` Square diameter AoE around you towards you by `5` Squares. You cannot suffer impact Damage from this. 
   * Level: `5`, AP: `4`, Ob: `2`, AoE, Innate
 
 **Legendary Actions**:
-* Shadow-Jump: 
+* **Shadow-Jump**:
   * Diffuse into a burst of darkness, and re-appear in anoter location, up to `15` Squares away. Can be used to avoid Damage, up to `2` times per Round.
-* Create Thorns:
+* **Create Thorns**:
   * Once a Round, cover a `5` diameter AoE area in thorns that count as difficult terrain and cause `3` Piercing Damage to all who move over it, once for each Square of movement. The Greater Wendigo is exempt from these penalties. The thorn fields last `3` Rounds. 
-* Ignore Damage: 
+* **Ignore Damage**:
   * Ignore an [Instance of Damage](./strive-core.md#damage--effects), up to `2` times per Round. 
 
 #### Greater Demon of Engorgement
@@ -2674,32 +2683,32 @@ This major Demon is a a quadrupedal mass of swollen flesh, with a massive and to
 **Assets**: None
 
 **Skills**:
-* Chomp:
+* **Chomp (Agi/Str)**:
   * Chomp down on up to `2` MST with your massive maw. 
   * Level: `5`, AP: `3`, Ob: `2`, AoE, Innate
-  * `≤ 1` Hit: `5` Piercing
-  * `= 2` Hits: `7` Piercing
-  * `≥ 3` Hits: `9` Piercing
-* Devour:
+  * `≤ 1` Hit: `10` Piercing
+  * `= 2` Hits: `15` Piercing
+  * `≥ 3` Hits: `20` Piercing
+* **Devour (Str/Tough)**:
   * Devour a ST whole, for `2` Rounds. They suffer `6` Acid Damage at the start of your Turn and are considered [Grappled](./strive-core.md#grappled), and untargetable. They cannot Attack you from within, but can attempt to break free with an opposed Strength Test. 
   * AP: `2`, ST, Melee, Innate
-* Release Noxious Fumes (Tough/Arc):
+* **Release Noxious Fumes (Tough/Arc)**:
   * Some half-digested *food's* rotting remains within you are emanating a noxious fume. All in a `5` Square AoE radius around you are affected.
   * Level: `5`, AP: `3`, Ob: `2`, AoE, Innate
   * `≤ 1` Hit: `7` Poison; Knock-Back `3` Squares
   * `= 2` Hits: `9` Poison; Knock-Back `4` Squares
   * `≥ 3` Hits: `12` Poison; Knock-Back `5` Squares
-* Regurgitate (Awar/Tough):
+* **Regurgitate (Awar/Tough)**:
   * Throw up some half-digested remains of some poor sap, up to `10` Squares far, where, in a `2` Square AoE radius, it causes Damage. 
   * Level: `5`, AP: `2`, Ob: `2`, Ranged, AoE, Innate
-  * `≤ 1` Hit: `6` Acid
-  * `= 2` Hits: `8` Acid
-  * `≥ 3` Hits: `10` Acid
+  * `≤ 1` Hit: `8` Acid
+  * `= 2` Hits: `10` Acid
+  * `≥ 3` Hits: `13` Acid
 
 **Legendary Actions**:
-* Did I Eat That?:
+* **Did I Eat That?**:
   * Regurgitate `2` [Zombies](#zombie), who join the fight on your side. Can only have up to `4` Zombies on the field through this Ability. Can only be used every other Turn. 
-* Do You Smell That?:
+* **Do You Smell That?**:
   * Interrupt a foe's Action, make them lose `1` AP and force them to run away from you, up to `4` Squares far. Can be used once per Round, at any time. 
 
 **Hostility Actions**:
@@ -2734,7 +2743,7 @@ This major Demon is a pale biped, without a head and many pairs of arms symmetri
 **Assets**: None
 
 **Skills**:
-* Count Down:
+* **Count Down (Arc/Arc)**:
   * Unfold one of your `12` pairs of arms. When all are unfolded, enact Terrible Reprisal.
   * AP: `3`, Innate
 * Shake Ground (Arc/Arc):
@@ -2743,11 +2752,11 @@ This major Demon is a pale biped, without a head and many pairs of arms symmetri
   * `≤ 1` Hit: Knock-Back `3` Squares
   * `= 2` Hits: Knock-Back `4` Squares
   * `≥ 3` Hits: Knock-Back `5` Squares
-* Prepare For Hell (Arc/Arc):
+* **Prepare For Hell (Arc/Arc)**:
   * **Concentration**: Place up to `9` columns of flame, up to `20` Squares far away. Each is `1` Square wide, `6` Squares tall and will deal `8` Burning Damage per Tick.
   * Level: `4`, AP: `3`, Innate
-* Terrible Reprisal (Arc/Arc):
-  * Another pair of unfolded hands claps together and remains so. The next time this ability is used, the next pair claps together. Each has a different and ever stronger effect. Once all hands have clapped, they fold again and the cycle repeats. 
+* **Terrible Reprisal (Arc/Arc)**:
+  * Another pair of unfolded hands claps together and remains so. The next time this ability is used, the next pair claps together. Each has a different and ever stronger effect. Once all hands have clapped, they unfold and the cycle repeats. 
   <br> 1st pair: The reverberation of the clap resonates within all in a `100` Square radius around. They suffer `+1` Bludgeoning Injury. 
   <br> 2nd pair: All in a straight AoE line, up to `20` Squares far, suffer `5` Bleeding Damage. 
   <br> 3rd pair: All in a `100` Square radius around suffer `+1` Strain. 
@@ -2763,10 +2772,10 @@ This major Demon is a pale biped, without a head and many pairs of arms symmetri
   * Level: `4`, AP: `4`, Innate
 
 **Legendary Actions**:
-* Stop Time:
+* **Stop Time**:
   * Once a Round, at any time, stop time and move freely, up to `10` Squares far while no one else may act. Can be used to avoid Damage and other penalties. 
-* Silent Clap:
-  * A noiseless clap reverberates, shaking up the Arcanosphere, causing `1` Corruption in all magical creatures, in a `10` Square AoE radius around. Can be used once a Round. 
+* **Silent Clap**:
+  * Once a Round, a noiseless clap reverberates, shaking up the Arcanosphere, causing `1` Corruption in all magical creatures, in a `10` Square AoE radius around. 
 
 #### Hollow Gazer
 This major Demon is but a husk of a creature. Its decrepit form can barely stand upright. Yet its piercing, red gaze is unwavering and merciless. 
@@ -2795,12 +2804,12 @@ This major Demon is but a husk of a creature. Its decrepit form can barely stand
 **Assets**: None
 
 **Skills**:
-* Evil Gaze:
+* **Evil Gaze (Arc/Arc)**:
   * **Passive**: All victims it can see, in a `20` Square AoE line from it, begin to bleed incessantly from every orifice, suffering `6` Bleeding Damage every Turn. Its maddening gaze is oppressive - its victims feel as though their head is being crushed and suffer `+1` [Strain](./strive-core.md#stamina--strain). This effect is constant and enduring.
   * Ranged, AoE, Innate
 
 **Legendary Actions**:
-* Pierce All:
+* **Pierce All**:
   * Once every `3` Rounds, your gaze may pierce *any* obstacle. Breaking line of sight won't protect from the gaze anymore. 
 
 #### Preacher
@@ -2830,16 +2839,16 @@ This major Demon appears as little more than a horned skull attached by chains t
 **Assets**: None
 
 **Skills**:
-* Sinister Sermon (Wit/Arc):
+* **Sinister Sermon (Wit/Arc)**:
   * **Concentration**: All in a `20` Square radius around it, who can hear it and whose Self-Control is `≤ 3` begin to doubt their life is just and right. They begin to think of the darkness as a soft embrace, and to long for it. Every victim becomes hostile towards any other creature that succeeded the check. 
   * Level: `6`, AP: `4`, Ranged, AoE, Innate
-* Prepare For Salvation (Wit/Arc):
+* **Prepare For Salvation (Wit/Arc)**:
   * A ST, up to `20` Squares away, becomes [Pacified](./strive-core.md#pacified) `+3`. 
   * Level: `6`, AP: `2`, Ob: `Opposed by Self-Control`, Ranged, AoE, Innate
-* Come To Me:
+* **Come To Me (Arc/Arc)**:
   * Cause all who have fallen victim to your Sinister Sermon to become [Pacified](./strive-core.md#pacified) and run toward you, seeking your *loving* embrace. 
   * AP: `1`, Innate
-* Embrace The Flock:
+* **Embrace The Flock (Arc/Arc)**:
   * Draw the life from one of the victims to your Sinister Sermon or Come To Me, up to `20` Squares away. They suffer `10` Pure Damage and you heal for the same amount. 
   * AP: `2`, Innate
 
@@ -2905,14 +2914,14 @@ This variant is small and stunted. Its legs are too short and deformed to be use
 **Assets**: Tattered Rags (Clothing)
 
 **Skills**:
-* Observation, Level: `3`
-* Bite (Agi/Str):
+* **Observation**: Level: `3`
+* **Bite (Agi/Str)**:
   * Chomp down on a ST. 
   * Level: `2`, AP: `2`, Ob: `Opposed`, Melee, ST, Innate
   * `≤ 1` Hit: `2` Piercing
   * `= 2` Hits: `3` Piercing
   * `≥ 3` Hits: `4` Piercing
-* Putrid Vomit (Agi/Awar):
+* **Putrid Vomit (Agi/Awar)**:
   * Throw up a projectile of lumpy stomach acid and 'shoot' it at a target. 
   * Level: `4`, AP: `2`, Ob: `Opposed`, Ranged: `10`, ST, [Prefer Range](strive-core.md#general-weapon-traits), Innate
   * `≤ 1` Hit: `4` Acid
@@ -2947,34 +2956,34 @@ This variant stands tall and proud, its wrinkled skin riddled with scars. Its tu
 **Assets**: Polearm, Medium Shield, Swine Champion Armor
 
 **Skills**:
-* Shield, Level: `5`
-* Unarmed Combat, Level: `3`
-* Weapon \<Polearm\>, Level: `5`
-* Bite (Agi/Str):
+* **Shield**: Level: `5`
+* **Unarmed Combat**: Level: `3`
+* **Weapon \<Polearm\>**: Level: `5`
+* **Bite (Agi/Str)**:
   * Chomp down on a ST. 
   * Level: `3`, AP: `2`, Ob: `Opposed`, Melee, ST, Innate
   * `≤ 1` Hit: `2` Piercing
   * `= 2` Hits: `3` Piercing
   * `≥ 3` Hits: `4` Piercing
-* Gore:
+* **Gore (Str/Tough)**:
   * Slam into a ST with your massive tusks. 
   * AP: `4`, Ob: `Opposed`, Melee, ST
   * `≤ 1` Hit: `Str + 2 (= 6)` Bludgeoning; Force-move `1`
   * `= 2` Hits: `Str + 4 (= 8)` Bludgeoning; Force-move `2`
   * `≥ 3` Hits: `Str + 6 (= 10)` Bludgeoning; Force-move `3`
-* Interrupt:
+* **Interrupt (Agi/Str)**:
   * **Reaction**: Upon an ally within `3` Squares of you being Attacked, jump in and take over the Defense Test, with `+1` [Edge](./strive-core.md#edge). 
   * AP: `2`, Ob: `Opposed`, ST, Innate
-* Swine Commanding (Tough/Wit):
+* **Swine Commanding (Tough/Wit)**:
   * A champion commands respect and obedience.
   * Level: `4`, Innate
-  * You Are Mine!:
+  * **You Are Mine!**:
     * Instill fear and doubt into your a ST's heart, who becomes [Terrified](./strive-core.md#terrified) of you.
     * AP: `2`, Ob: `Opposed` by [Self-Control](./strive-core.md#self-control-toughtough), Ranged: `10`, Vocal
-  * Kill That One!:
+  * **Kill That One!**:
     * [Mark](./strive-core.md#marked) a ST of choice, up to `10` Squares away.
     * AP: `1`, Ob: `2`, Ranged, Vocal
-  * You Die When I Let You!:
+  * **You Die When I Let You!**:
     * **Reaction**: Once in a battle, when an ally's HP are reduced to `0`, they are instead reduced to your `Hits * 3`. 
     * AP: `1`, Ranged, Vocal
 
@@ -3007,15 +3016,15 @@ This variant is as almost as small as a Belcher, but with strong legs and arms, 
 **Assets**: Tattered Rags (Clothing), Dagger x2
 
 **Skills**:
-* Stealth, Level: `4`
-* Weapon \<Dagger\>, Level: `5`
-* Lunge (Agi/Agi):
+* **Stealth**: Level: `4`
+* **Weapon \<Dagger\>**: Level: `5`
+* **Lunge (Agi/Agi)**:
   * Lunge up to `7` Squares far, dealing Damage to all foes in your path with your weapons. Does not provoke [Opportunity Attacks](strive-core.md#opportunity-Attacks). 
   * Level: `4`, AP: `3`, Ob: `3`, Melee, AoE (line), Innate
   * `≤ 1` Hit: `2` Slashing
   * `= 2` Hits: `4` Slashing
   * `≥ 3` Hits: `6` Slashing
-* Vault & Jab (Agi/Agi):
+* **Vault & Jab (Agi/Agi)**:
   * Jump over an adjacent enemy, landing behind them, and Attack them. Does not provoke [Opportunity Attacks](strive-core.md#opportunity-Attacks). 
   * Level: `5`, AP: `2`, Ob: `Opposed`, Melee, ST, Innate
   * `≤ 1` Hit: `Agi - 2 (= 4)` Slashing; Force-move `1`
@@ -3048,14 +3057,14 @@ A hulking mass of Swine and muscle, towering above its lesser brethren. Despite 
 **Assets**: Tattered Rags (Clothing), Crusher
 
 **Skills**:
-* Weapon \<Crusher\>, Level: `2`
-* Slam (Str/Tough):
+* **Weapon \<Crusher\>**: Level: `2`
+* **Slam (Str/Tough)**:
   * Slam into a ST.
   * Level: `4`, AP: `2`, Ob: `Opposed`, Melee, ST, `Strength` Bludgeoning Damage, Innate
   * `≤ 1` Hit: `Strength - 2 (= 6)` Bludgeoning; Force-move `1`
   * `= 2` Hits: `Strength (= 8)` Bludgeoning; Force-move `2`
   * `≥ 3` Hits: `Strength + 2 (= 10)` Bludgeoning; Force-move `3`
-* Tusk Thrust (Agi/Str):
+* **Tusk Thrust (Agi/Str)**:
   * Slam into a ST with your enormous tusks, imapling your victim upon them. 
   * Level: `3`, AP: `2`, Ob: `Opposed`, Melee, ST, Innate
   * `≤ 1` Hit: `2` Piercing; Force-move `1`
@@ -3088,24 +3097,24 @@ An intelligent and cruel leader among the Swine. Its gaze attentively surveys al
 **Assets**: Fine Rags (Clothing)
 
 **Skills**:
-* Magic School \<Hexing\>, Level: `5`
-* Medicine, Level: `3`
-* Bite (Str/Tough):
+* **Magic School \<Hexing\>**: Level: `5`
+* **Medicine**: Level: `3`
+* **Bite (Str/Tough)**:
   * Chomp down on a ST. 
   * Level `2`, AP: `2`, Ob: `Opposed`, ST, Melee, Innate
   * `≤ 1` Hit: `2` Piercing
   * `= 2` Hits: `3` Piercing
   * `≥ 3` Hits: `4` Piercing
-* A Leader Of Swine (Wit/Wit):
+* **A Leader Of Swine (Wit/Wit)**:
   * A shaman commands respect and terror.
   * Level: `5`, Innate
-  * Fire Up The Blood:
+  * **Fire Up The Blood**:
     * Strike up a haunting chant, in demonic language, stirring the blood of your fellow Swine. One of of them, up to `15` Squares away is enraged, and overwhelmed with their demoic blood beginning to boil, which starts leaking out of their eyes and nostrils. Until the end of combat, every tick, they suffer `5` points of bleeding Damage (the Swine's vulnerability to bleeding Damage does not get triggered by this), but also deal an additional `8` points of Bludgeoning Damage on every successful Attack. 
     * AP: `3`, Ob: `2`, ST (ally Swine), Ranged: `15`, Vocal
-  * Drums Of Terror:
+  * **Drums Of Terror**:
     * Beating on a drum with a... face... stretched across it, instill terror in your foes. Every non-Swine in a `15` Square AoE radius around must succeed a Self-Control Test, or else become [Terrified](strive-core.md#terrified) of the shaman. 
     * AP: `2`, Ob: `Opposed by Self-Control + 1`, MST, Ranged: `15`, Auditory
-  * You Die When I Let You!:
+  * **You Die When I Let You!**:
     * **Reaction**: Once in a battle, when an ally's HP are reduced to `0`, they are instead reduced to your `Hits * 3`. 
     * AP: `1`, Ranged, Vocal
 
@@ -3135,9 +3144,9 @@ This variant has full dark-red fur and much shorter tusks. It moves deftly, albe
 **Assets**: Tattered Rags (Clothing), Javelin x8, Trap: Bear x3
 
 **Skills**:
-* Observation, Level: `3`
-* Stealth, Level: `5`
-* Throw Javelin (Agi/Str):
+* **Observation**: Level: `3`
+* **Stealth**: Level: `5`
+* **Throw Javelin (Agi/Str)**:
   * Throw a javelin at a ST. 
   * Level: `4`, Ob: `Opposed`, Ranged: `10`, ST, Innate
   * `≤ 1` Hit: `4` Piercing
@@ -3168,8 +3177,8 @@ This variant is lanky, lacking much of the bulk of its brethren. 
 **Assets**: Tattered Rags (Clothing), Axe, Light Shield
 
 **Skills**:
-* Shield, Level: `3`
-* Weapon \<Axe\>, Level: `3`
+* **Shield**: Level: `3`
+* **Weapon \<Axe\>**: Level: `3`
 
 ### Swine Stomper
 This variant is massive and strong. Most of its body is covered in dark, dirty clumped up fur. The tusks are menacing weapons of their own. 
@@ -3199,16 +3208,16 @@ Assets:
 
 Swine Armored Rags: Slashing `6`, Piercing `4`, Bludgeoning `3`, Acid `6`
 
-Skills:
-* Unarmed Combat, Level: `4`
-* Weapon \<Crusher\>, Level: `3`
-* Bite (Agi/Str):
+**Skills**:
+* **Unarmed Combat**: Level: `4`
+* **Weapon \<Crusher\>**: Level: `3`
+* **Bite (Agi/Str)**:
   * Chomp down on a ST. 
   * Level: `3`, AP: `2`, Ob: `Opposed`, Melee, ST, Innate
   * `≤ 1` Hit: `2` Piercing
   * `= 2` Hits: `3` Piercing
   * `≥ 3` Hits: `4` Piercing
-* Gore:
+* **Gore (Str/Tough)**:
   * Slam into a ST with your massive tusks. 
   * Level: `3`, AP: `2`, Ob: `Opposed`, Melee, ST
   * `≤ 1` Hit: `Str (= 6)` Bludgeoning; Force-move `1`
@@ -3250,20 +3259,20 @@ An abominable mound of misshapen flesh, with countless ragged tentacles of vario
 * [Climber + Sticky](strive-core.md#climber--2-points-1-cr)
 
 **Skills**: 
-* Unarmed Combat: Level `5`, Innate
-* Slam (Str/Tough):
+* **Unarmed Combat**: Level `5`, Innate
+* **Slam (Str/Tough)**:
   * Slam down with your entire body, enveloping all within reach in a tentacled mass. They are rendered [Prone](./strive-core.md#prone) and [Grappled](./strive-core.md#grappled).
   * Level: `4`, AP: `2`, Ob: `4`, Ranged: `2`, AoE (radius): `2` Squares
   * `≤ 1` Hit: `8` Bludgeoning
   * `= 2` Hits: `10` Bludgeoning
   * `≥ 3` Hits: `12` Bludgeoning
-* Thrash (Agi/Str):
+* **Thrash (Agi/Str)**:
   * Everything in a `3` radius around you is thrown away from you as your tentacles flail about, wildly.
   * Level: `4`, AP: `3`, Ob: `4`, Ranged: `2`, AoE (radius): `2` Squares
   * `≤ 1` Hit: Force-move `2`
   * `= 2` Hits: Force-move `4`
   * `≥ 3` Hits: Force-move `6`
-* Devour (Agi/Str):
+* **Devour (Agi/Str)**:
   * Devour a ST creature in one swoop. As they enter your stomach, they are considered [Grappled](./strive-core.md#grappled) and cannot move on their own. They suffer `6` Acid Damage at the start of your every Turn. Only one creature may be devoured, at a time. You can spit out a creature you devoured, at no AP cost.
   * Level: `3` AP: `2`, Ob: `Opposed`
 
@@ -3312,20 +3321,21 @@ Alps are a fairly common occurence throughout the world. How they reproduce is a
 **Assets**: Usually none, although it may still wear whatever jewelry it had in life.
 
 **Skills**: 
-* Stealth: Level `3`
-* Induce Nightmare (Wit/Arc):
+* **Stealth**: Level `3`
+* **Induce Nightmare (Wit/Arc)**:
   * Induces nightmares on all nearby (`20` Square AoE radius around the Alp) sleeping Characters. This strengthens the Alp, removing `1` active Injury for every induced nightmare. The Alp gains `+3` to Strength and `+1` to Toughness. While nightmare lasts, every Turn the Alp regains `5` HP for every nightmare and every victim suffers `5` Pure Damage. Nightmare lasts for `5` Rounds or `30` minutes. Any creature with a nightmare can be woken up (in any way you like), at Ob `3`. The Alp immediately loses boons for every Character woken up early. This ability does not stack with itself. After the time is up, the affected creatures automatically wake up. 
   * Does not stack: Every sleeping Character can only be affected once. 
   * Level: `7`, AP: `2`
-* Induce Sleep (Wit/Arc):
+* **Induce Sleep (Wit/Arc)**:
   * Forces the victim to fall asleep, on the spot. They become [Unconscious](./strive-core.md#unconscious), but can be woken through physical harm or a very strong shaking, at Ob `3` for Tests to wake them up. 
   * Level: `7`, AP: `2`, Ob: `Opposed by Self-Control`, ST, Ranged: `20`, Psionic
-* Rend (Agi/Str): 
+* **Rend (Agi/Str)**:
   * Tear a victim to shreds. 
   * Level: `3`, AP: `2`, Ob: `Opposed`, ST, Melee
   * `≤ 1` Hit: `Str + 2 (= 4)` Slashing
   * `= 2` Hits: `Str + 4 (= 6)` Slashing
   * `≥ 3` Hits: `Str + 6 (= 8)` Slashing
+
 ### Bloated Shambler
 Bloated shamblers are grotesque, hulking masses of bloated undead flesh. They're a type of flesh golem, comprised of multiple bodies sewn together and filled with noxious, rotten air. With a vacant gaze through dulled eyes they waddle towards their goal, struggling to stay on their swollen feet, yet unfaltering in their sinister purpose. 
 
@@ -3353,8 +3363,8 @@ Bloated shamblers are grotesque, hulking masses of bloated undead flesh. They're
 **Assets**: None
 
 **Skills**: 
-* Unarmed Combat: Level `3`
-* Choke (Str/Tough): 
+* **Unarmed Combat**: Level `3`
+* **Choke (Str/Tough)**:
   * If grappling a ST, choke the life out of them. 
   * Level `3`, AP: `1`, Melee, ST, Innate
   * `≤ 1` Hit: `4` Bludgeoning
@@ -3392,7 +3402,7 @@ Eight very long and thin bony legs carry the creature's weight. Their ends are s
 **Assets**: None
 
 **Skills**: 
-* Rend (Agi/str): 
+* **Rend (Agi/str)**:
   * Strike at a ST with your claws, rending their flesh. 
   * Level `3`, AP: `1`, Melee, ST, Innate
   * `≤ 1` Hit: `5` Slashing
@@ -3430,13 +3440,13 @@ They're squat creatures, with spotted pale skin. Their pathetic stature belies t
 **Assets**: None
 
 **Skills**: 
-* Bite (Str/Tough): 
+* **Bite (Str/Tough)**:
   * Bite an adjacent ST with your huge split jaw and feast! 
   * Level `3`, AP: `2`, Ob: `Opposed`, Melee, ST, Innate
   * `≤ 1` Hit: `2` Bludgeoning; Regain `+2` HP
   * `= 2` Hits: `3` Bludgeoning; Regain `+4` HP
   * `≥ 3` Hits: `4` Bludgeoning; Regain `+6` HP
-* Rend (Agi/Str): 
+* **Rend (Agi/Str)**:
   * Strike at an adjacent ST with your claws. 
   * Level `4`, AP: `2`, Ob: `Opposed`, Melee, ST, Innate
   * `≤ 1` Hit: `4` Slashing
@@ -3494,13 +3504,13 @@ A bone golem with long, rope-y arms made of spinal columns, lined with knife-lik
 **Assets**: None
 
 **Skills**: 
-* Spinal Whip (Agi/Str): 
+* **Spinal Whip (Agi/Str)**:
   * Lash out at a ST with your spinal rope-arms, up to `5` Squares away.
   * Level `4`, AP: `2`, Ob: `Opposed`, Ranged, ST, Innate
   * `≤ 1` Hit: `5` Bludgeoning + `5` Slashing
   * `= 2` Hits: `6` Bludgeoning + `6` Slashing
   * `≥ 3` Hits: `8` Bludgeoning + `8` Slashing
-* Knockback (Agi/Str): 
+* **Knockback (Agi/Str)**:
   * Lash out at all targets in a `5` Square AoE cone with your spinal rope-arms, knocking opponents away.
   * Level `4`, AP: `2`, Ob: `1`, Ranged, AoE, Innate
   * `≤ 1` Hit: `4` Bludgeoning; Knocked back `2` Square
@@ -3533,16 +3543,16 @@ A huge flesh golem with proportions like a gorilla and a strong carapace of meta
 **Assets**: None
 
 **Skills**: 
-* Charge (Tough/Tough): 
+* **Charge (Tough/Tough)**:
   * Charge forward in a AoE straight line, up to `10` Squares far, knocking aside anything in your path, `4` Squares far. You must charge at least `4` Squares in a straight line for this and cannot stop prematurely. But you *may* crash into an obstacle, which stops you. 
   * Level `3`, AP: `3`, Melee, AoE, Innate
-* Slash (Agi/Str): 
+* **Slash (Agi/Str)**:
   * Strike at a ST with your sword. 
   * Level `4`, AP: `2`, Ob: `Opposed`, Melee, ST, Innate
   * `≤ 1` Hit: `8` Slashing
   * `= 2` Hits: `10` Slashing; Target is knocked back `1` Square
   * `≥ 3` Hits: `13` Slashing; Target is knocked back `2` Squares
-* Slam (Agi/Str): 
+* **Slam (Agi/Str)**:
   * Slam into a ST with your massive arms.
   * Level `4`, AP: `2`, Ob: `Opposed`, Melee, ST, Innate
   * `≤ 1` Hit: `6` Bludgeoning; Target is knocked back `3` Squares
@@ -3577,8 +3587,10 @@ A lesser form of undeath, Zombies are mindless walking corpses in varying stages
 **Assets**: None
 
 **Skills**: 
-* Unarmed Combat: Level `3`
-* Choke (Str/Tough): 
+* **Grapple (Str/Str)**: Level `3`
+  * Grapple a ST with unyielding grip.
+  * Level `3`, AP: `2`, Melee, ST, Innate
+* **Choke (Str/Tough)**: 
   * If grappling a ST, choke the life out of them. 
   * Level `3`, AP: `1`, Melee, ST, Innate
   * `≤ 1` Hit: `2` Bludgeoning
@@ -3586,11 +3598,13 @@ A lesser form of undeath, Zombies are mindless walking corpses in varying stages
   * `≥ 3` Hits: `4` Bludgeoning
 
 **Legendary Actions**: 
-Employ these only for *really* special Zombies. 
-* Uncanny Dodge:
+
+Employ these for *special* Zombies. 
+
+* **Uncanny Dodge**:
   * Up to `3` times per Round, try avoiding an Attack with `3D` and `1` Edge.
-* Trample:
-  Run up to `6` Squares far, knocking aside all other Characters by `2` Squares, once per Round. 
+* **Trample**:
+  * Run up to `6` Squares far, knocking aside all other Characters by `2` Squares, once per Round. 
 
 ## Voidlings
 When a soul is thrust into the void between realities, it is stretched infinitely thin. Unable to fill the void, it snaps and implodes, bouncing back into reality, but broken. It cannot function as it once did and furthermore, keeps open a tear to the void. It apparates as a monster of swirling shadow, not quite corporeal, yet not fully ethereal. 
@@ -3619,20 +3633,20 @@ This variant of Voidling is vaguely humanoid, its amorphous face stretched out l
 Traits: 
 * **Ethereal Nature**: Its shadowy form isn't quite corporeal and barely suffers physical Damage, but burns well. It is very slowly disintegrating on its own, and unless it finds sustenance, will fade on its own, in a few days. 
 
-Skills:
-* **Breath Of The Void** (Arc/Arc):
+**Skills**:
+* **Breath Of The Void (Arc/Arc)**:
   * Draw the energy out of a `5` Square AoE cone in front of you. Every living creature also suffers `+1` stack of the **Voidchilled** Condition. Once it reaches `5` stacks on the victim, it resets zo `0` and spawns another Void's Breath. It decreases by `-1` automatically, at the end of the victim's Turn. 
   * Level: `5`, AP: `5`, AoE, Ranged
   * `≤ 1` Hit: `4` Freezing; Foe Tough `≤ 1`: Heal self `+3` HP
   * `= 2` Hits: `6` Freezing; Foe Tough `≤ 3`: Heal self `+3` HP
   * `≥ 3` Hits: `8` Freezing; Foe Tough `≤ 5`: Heal self `+5` HP
-* **Cold Spike** (Agi/Arc):
+* **Cold Spike (Agi/Arc)**:
   * Strike at a ST with a spike of hardened shadow. 
   * Level: `4`, AP: `2`, Ob: `Opposed`, Melee, ST, Innate
   * `≤ 1` Hit: `2` Piercing + `2` Freezing
   * `= 2` Hits: `3` Piercing + `3` Freezing
   * `≥ 3` Hits: `4` Piercing + `4` Freezing
-* **Shadow Step** (Arc/Arc):
+* **Shadow Step (Arc/Arc)**:
   * Disappear into the shadows and re-appear in another shadowy location, up to `20` Squares away. 
   * AP: `1`
 
@@ -3658,14 +3672,14 @@ This variant of Voidling loosely resembles an eel, with thin arms with which it 
 Traits: 
 * **Ethereal Nature**: Its shadowy form isn't quite corporeal and barely suffers physical Damage, but burns well. It is very slowly disintegrating on its own, and unless it finds sustenance, will fade on its own, in a few days. 
 
-Skills:
-* **Devour Light** (Arc/Arc):
+**Skills**:
+* **Devour Light (Arc/Arc)**:
   * Devours all light and flame in a `5` Square AoE cone. 
   * Level: `5`, AP: `3`, Ob: `1`, AoE, Ranged
   * `≤ 1` Hit: `3` Freezing; Heal self `+2` HP, for each light or flame
   * `= 2` Hits: `4` Freezing; Heal self `+3` HP, for each light or flame
   * `≥ 3` Hits: `5` Freezing; Heal self `+4` HP, for each light or flame
-* **Light Blast** (Agi/Arc):
+* **Light Blast (Agi/Arc)**:
   * Regurgitate devoured light, blasting all in a `5` Square AoE cone. Can only be used if Devour Light was used prior. 
   * Level: `4`, AP: `3`, Ob: `1`, Ranged, AoE, Innate
   * `≤ 1` Hit: `5` Burning
@@ -3693,23 +3707,23 @@ This variant of Voidling is a floating ball of swirling shadow. Eyes regularly m
 Traits: [Glider + Floater (`10` Squares above the ground)](./strive-core.md#glider--1-points-1-cr)
 * **Ethereal Nature**: Its shadowy form isn't quite corporeal and barely suffers physical Damage, but burns well. It is very slowly disintegrating on its own, and unless it finds sustenance, will fade on its own, in a few days. 
 
-Skills:
-* **Chilling Gaze** (Arc/Arc):
+**Skills**:
+* **Chilling Gaze (Arc/Arc)**:
   * The Void calls, its gaze merciless. A ST is chilled to the bone. 
   * Level `5`, AP: `2`, Ob: `Opposed by Toughness`, Ranged, ST, Innate
   * `≤ 1` Hit: `4` Freezing
   * `= 2` Hits: `6` Freezing
   * `≥ 3` Hits: `8` Freezing
-* **Doubting Gaze** (Arc/Arc):
+* **Doubting Gaze (Arc/Arc)**:
   * Instill doubt into a ST, who begins to question their right to existence. If successful, the target is [Pacified](./strive-core.md#pacified) for `1` Round. 
   * Level: `5`, AP: `2`, Ob: `Opposed by Self-Control`, Ranged, ST, Innate
-* **Sickening Gaze** (Arc/Arc):
+* **Sickening Gaze (Arc/Arc)**:
   * A victim starts feeling incredibly sick, to the point they must throw up. 
   * Level: `5`, AP: `2`, Ob: `Opposed by Toughness`, Ranged, ST, Innate
   * `≤ 1` Hit: `2` Poison; `+1` Strain
   * `= 2` Hits: `3` Poison; `+1` Strain
   * `≥ 3` Hits: `4` Poison; `+2` Strain
-* **Lamenting Gaze** (Arc/Arc):
+* **Lamenting Gaze (Arc/Arc)**:
   * All targets in a `10` Square AoE cone are stricken with inconsolable emptiness, their soul is briefly drawn from their body, before it snaps back into place. Can only be used after all othr Gazes have been used at least once before. 
   * Level: `5`, AP: `3`, Ob: `1`, Ranged, AoE, Innate
   * `≤ 1` Hit: `4` Pure; Self `+10` HP
