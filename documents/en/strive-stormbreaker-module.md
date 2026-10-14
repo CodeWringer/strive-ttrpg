@@ -9,9 +9,7 @@
   * Define Kronnstedt region better -> the default islands within it. 
 * Supernatural abilities -> broad roster of psionics?
   * Skills that consume Marked for powerful debuffs
-* Special weapons -> Flamethrowers, Gun emplacements, mortars, grenade launchers, etc.
-* Define ways to acquire Silversteel
-* Define short-cuts for Projects
+* Special weapons -> Gun emplacements, mortars, grenade launchers, etc.
 * Enemy bestiary:
   * Airborne creatures
   * Argentumites
@@ -133,6 +131,7 @@ This will be a far more directed experience than usual, tailor-cut for shorter c
       - [Tactician](#tactician)
     - [Names](#names)
 - [Game Mastery](#game-mastery)
+  - [Projects and Rewards](#projects-and-rewards)
 - [Biomes](#biomes)
   - [Sky Nations](#sky-nations)
     - [Sky Nations Locations](#sky-nations-locations)
@@ -166,6 +165,7 @@ This will be a far more directed experience than usual, tailor-cut for shorter c
       - [Demonic Blood](#demonic-blood)
       - [Filth \& Darkness](#filth--darkness)
     - [Swine Grunt](#swine-grunt)
+    - [Swine Sapper](#swine-sapper)
 
 # Glossary
 
@@ -427,7 +427,7 @@ Every session begins in the Preparation phase, which is when all the book-keepin
    2. Thanks to the fantastical power of radio waves, you can transport physical goods to and from the Capital. Any Asset you requisition is instantly available, but has a Supply cost and may require that the Capital has the respective manufacturing facilities available. 
    3. Note that you can only exchange Assets with the Capital if no more than one Storm Wall is between you, *unless* you have built a [Radio Relay](#radio-relay). 
 3. Prepare for the Expedition, receive and relay orders from and to the Capital and do some light roleplay. 
-4. Work on [Projects](./strive-core.md#crafting--research-projects), [Practice](./strive-core.md#practice) or do some more light roleplay. 
+4. Work on [Projects](./strive-core.md#projects), [Practice](./strive-core.md#practice) or do some more light roleplay. 
 5. Get to the Expedition location, potentially passing through a Storm Wall. 
 
 ## Expedition
@@ -1164,6 +1164,11 @@ At your discretion, you may prepend the word "De", "Van" or "Von" to your last n
 # Game Mastery
 This and the following sections are reserved solely for the GM's eyes. Reading on as a player may spoil many surprises and the fun of discovery for you. 
 
+## Projects and Rewards
+For Stormbreaker specifically, Expedition rewards are a natural source of [Project Boosters](./strive-core.md#project-boosters): recovering schematics from an old factory, salvaging a rare Mechanite component or ancient machinery and acquiring rare and valuable resources may accelerate a Project meaningfully. 
+
+Aside from the rewards, the limited time at the table implies Project management should be kept short. There are no alternate rules for this, instead relying on your own judgement. Whenever it *feels* like too much time is being spent on the Project management, is probably the right moment to cut it as short as possible. 
+
 # Biomes
 Whenever the PCs enter a new region, it may be part of one of the following biomes, which will dictate much of what they can encounter within. Of course, you may have your own ideas and aren't required to adhere to any of the concepts presented here.
 
@@ -1376,13 +1381,13 @@ A cyclopean, white and floating sphere that is often seen roaming islands in adv
 **Assets**: `3` bulk salvageable Silversteel
 
 **Skills**:
-* Eye-Laser (Awar/Awar): 
+* **Eye-Laser (Awar/Awar)**:
   * Shoot a short laser beam at a ST, up to `10` Squares away.
   * Level: `4`, AP: `2`, Hit(s): unmodified, Ranged, ST, Innate
   * `≤ 2`: `10` Burning
   * `= 3`: `14` Burning
   * `≥ 4`: `20` Burning
-* Shield (Awar/Awar): 
+* **Shield (Awar/Awar)**:
   * **Concentration**: Cover an ally up to `10` Squares away in a shield that absorbs `10` points of damage before bursting.
   * Level: `4`, AP: `2`, Ranged, ST, Innate
 
@@ -1408,7 +1413,7 @@ Two tethered, elongated octahedrons, each with a central, beaming eye, float eff
 **Assets**: `5` bulk salvageable Silversteel
 
 **Skills**:
-* Spike-Barrage (Agi/Awar): 
+* **Spike-Barrage (Agi/Awar)**:
   * Shoot a burst of `4` spikes at a ST, up to `15` Squares away.
   * Level: `5`, AP: `2`, Hit(s): unmodified, Ranged, ST, Innate
   * `≤ 2`: `10` Piercing
@@ -1437,13 +1442,13 @@ A large bipedal Argentumite with a sword and a shield. One of the few that don't
 **Assets**: `5` bulk salvageable Silversteel
 
 **Skills**:
-* Slash (Agi/Str): 
+* **Slash (Agi/Str)**:
   * Strike at a ST in melee range with a sword slash. 
   * Level: `4`, AP: `2`, Hit(s): unmodified, Melee, ST, Innate
   * `≤ 2`: `8` Slashing
   * `= 3`: `13` Slashing
   * `≥ 4`: `18` Slashing
-* Shield Slam (Agi/Tough): 
+* **Shield Slam (Agi/Tough)**:
   * Slam your shield at a ST in melee range. 
   * Level: `4`, AP: `2`, Hit(s): unmodified, Melee, ST, Innate
   * `≤ 2`: `8` Bludgeoning; Knock-back `3` Squares
@@ -1472,13 +1477,13 @@ A multi-legged Pegasus-esque Argentumite. It would almost look friendly, if not 
 **Assets**: `8` bulk salvageable Silversteel
 
 **Skills**:
-* Swoop (Agi/Str): 
+* **Swoop (Agi/Str)**:
   * Move in a line, up to `10` Squares away, and strike at all targets in an AoE line. 
   * Level: `4`, AP: `2`, Hit(s): `-1`, Ranged, AoE, Innate
   * `≤ 2`: `10` Bludgeoning; `1` Squares Knock-back
   * `= 3`: `12` Bludgeoning; `2` Squares Knock-back
   * `≥ 4`: `15` Bludgeoning; `3` Squares Knock-back
-* Tail Slam (Str/Str): 
+* **Tail Slam (Str/Str)**:
   * Strike at a ST with your spiked tail. 
   * Level: `4`, AP: `2`, Hit(s): unmodified, Ranged, ST, Innate
   * `≤ 2`: `10` Bludgeoning; `3` Squares Knock-back
@@ -1507,13 +1512,13 @@ This one looks like a diver in one of those bulky diving suits, covered in ether
 **Assets**: `6` bulk salvageable Silversteel
 
 **Skills**:
-* Blast (Tough/Tough): 
+* **Blast (Tough/Tough)**:
   * Blast all around, in a `5` Square diameter AoE. 
   * Level: `4`, AP: `2`, Hit(s): unmodified, Ranged, AoE, Innate
   * `≤ 2`: `8` Freezing
   * `= 3`: `10` Freezing
   * `≥ 4`: `14` Freezing
-* Blink: 
+* **Blink**:
   * Disappear and immediately re-appear in a location of your choosing, up to `20` Squares away.
   * Level: `4`, AP: `2`, Ranged, Innate
 
@@ -1539,19 +1544,19 @@ Giant and authoritative, this Argentumite commands respect, even from its enemie
 **Assets**: `15` bulk salvageable Silversteel
 
 **Skills**:
-* Command Death: 
+* **Command Death**:
   * Lift a finger at a ST, up to `20` Squares away and engulf it in Death Fog, which deals `10` Pure damage in a `5` Square AoE diameter to all creatures without Death Fog protection.
   * Level: `6`, AP: `3`, Ranged, ST, Innate
-* Command Fear (Str/Tough): 
+* **Command Fear (Str/Tough)**:
   * Lift a finger at a ST, up to `20` Squares away and engulf it make it fear for its life!
   * Level: `6`, AP: `2`, Hit(s): unmodified, Ranged, ST, Innate
-* Command Respect (Tough/Wit): 
+* **Command Respect (Tough/Wit)**:
   * Pull every creature you can see, up to `20` Squares away, closer towards you. 
   * Level: `6`, AP: `2`, Hit(s): `-1`, Ranged, ST, Innate
   * `≤ 2`: `4` Squares
   * `= 3`: `5` Squares
   * `≥ 4`: `7` Squares
-* Grand Slash (Str/Str): 
+* **Grand Slash (Str/Str)**:
   * Strike at all foes in a `10` Square AoE cone in front of you. 
   * Level: `4`, AP: `3`, Ranged, Aoe, Innate
   * `≤ 2`: `20` Slashing
@@ -1576,10 +1581,6 @@ Due to the demon bound inside them, they are inherently and irredeemably evil. C
 ### Swine Tactics
 The Swine's strength lies in their combat tactics. They work together, each precisely aware of their role, to stand united against a world that does not want them. 
 
-Swine raiding parties usually comprise several [Stompers](#swine-stomper) and [Slashers](#swine-slasher) as the front-line, a few [Lungers](#swine-lunger) and several [Skewerers](#swine-skewerer) as support and back-line. If opposed by guardsmen or wannabe heroes, the Stompers and Slashers tie the enemy down and Lungers and Skewerers deal the real damage. Very rarely, raiding parties may be joined by [Champions](#swine-champion) and [Ogres](#swine-ogre). 
-
-Swine war parties are often headed by a [Champion](#swine-champion) and rarely by a [Shaman](#swine-shaman). Many [Stompers](#swine-stomper) and [Slashers](#swine-slasher) and even one or two [Ogres](#swine-ogre) act as the front-line. Many [Belchers](#swine-belcher) and several [Skewerers](#swine-skewerer) act as the back-line. Some [Lungers](#swine-lunger) try to flank and disrupt enemy formations. 
-
 ### Swine Hostility
 The following [Hostility Actions](./strive-core.md#hostility) are available to all Swine.
 
@@ -1595,4 +1596,73 @@ The following [Hostility Actions](./strive-core.md#hostility) are available to a
 * All non-Swine suffer `-1D` to all Tests.
  
 ### Swine Grunt
-TODO
+A short, hunched Swine-Beast armed with crudely-made weapons. Grunts are numerous and expendable, relying on brute force and sheer numbers rather than individual skill.
+
+* **Power**: Feeble, CR: `6`
+* **Roles**: Brawler
+  * A common front-liner that fights best alongside other Swine.
+* **Behavior**:
+  * Fires its crude pistol at nearby foes before closing in with its hacking weapon.
+  * Fights to the last and does not negotiate.
+
+| Agi   | Awar  | Str   | Tough | Wit   |
+| ----- | ----- | ----- | ----- | ----- |
+| 2     | 3     | 2     | 2     | 1     |
+
+| BI     | Sprint | Stabil | HP  | Stamina    | FS (Melee)      | Def         | Armor             |
+| ------ | ------ | ------ | --- | ---------- | --------------- | ----------- | ----------------- |
+| 6      | 2      | 0      | 20  | 4          | 4 Slashing      |             |                   |
+
+**Assets**: `1` Crude Pistol (one round loaded; `3` spare Bullets); `1` Hacking Weapon.
+
+**Skills**:
+* **Pistol Shot (Agi/Awar)**:
+  * Fire a crude, single-shot pistol at a ST up to `5` Squares away.
+  * Level: `3`, AP: `2`, Hit(s): unmodified, Ranged: `5`, ST, Innate
+  * `≤ 2`: `4` Piercing
+  * `= 3`: `6` Piercing
+  * `≥ 4`: `8` Piercing
+  * Weapon properties: Ammo `1`.
+* **Hack (Agi/Str)**:
+  * Swing a crude hacking weapon at an adjacent ST.
+  * Level: `3`, AP: `2`, Hit(s): unmodified, Melee, ST, Innate
+  * `≤ 2`: `3` Slashing
+  * `= 3`: `4` Slashing
+  * `≥ 4`: `5` Slashing
+
+### Swine Sapper
+A hunched Swine-Beast laden with scavenged explosives, rusted detonators and coils of filthy wire. Sappers are less interested in fighting fairly than in making sure their victims have nowhere safe to stand. They prepare ambushes, booby-trap narrow passages and bombard groups of enemies with crude explosives.
+
+* **Creature-Family**: Swine-Beasts
+* **Power**: Regular, CR: `7`
+* **Roles**: Trapper, Artillery
+  * A specialist who controls the battlefield through traps and explosive attacks. Vulnerable when caught without prepared defenses.
+* **Behavior**:
+  * Before combat, prepares traps along likely routes of approach and retreat.
+  * During combat, stays behind other Swine and throws explosives at groups of enemies.
+  * If threatened in melee, attempts to retreat behind its allies.
+
+| Agi   | Awar  | Str   | Tough | Wit   |
+| ----- | ----- | ----- | ----- | ----- |
+| 3     | 4     | 2     | 2     | 3     |
+
+| BI     | Sprint | Stabil | HP  | Stamina    | FS (Melee)      | Def         | Armor             |
+| ------ | ------ | ------ | --- | ---------- | --------------- | ----------- | ----------------- |
+| 10     | 2      | 0      | 20  | 4          | 2 Slashing      |             |                   |
+
+**Assets**: `5` Crude Explosive Charges. Each charge may be used for either a Scrap Bomb or a Tripwire Mine.
+
+**Skills**:
+* **Scrap Bomb (Agi/Awar)**:
+  * Hurl a crude explosive at a location up to `10` Squares away. It explodes in a `2` Square AoE radius.
+  * Level: `3`, AP: `2`, Hit(s): unmodified, Ranged: `10`, AoE, Innate
+  * `≤ 2`: `4` Burning + `4` Bludgeoning
+  * `= 3` Hits: `6` Burning + `6` Bludgeoning
+  * `≥ 4` Hits: `8` Burning + `8` Bludgeoning
+  * Consumes `1` Crude Explosive Charge.
+* **Tripwire Mine (Awar/Wit)**:
+  * Plant a crude explosive trap in an unoccupied adjacent Square. The first non-Swine to enter that Square triggers the mine, which explodes in a `2` Square AoE radius, dealing `6` Burning and `6` Bludgeoning damage to all creatures in the area.
+  * Level: `3`, AP: `2`, Innate
+  * When preparing a mine before combat, use the Core rules for setting traps: roll an Ob `0` Trapping Test, with the number of Hits determining the mine's Quality and how difficult it is to detect or disarm. `0` Hits means the mine is not concealed.
+  * A mine planted during combat is not concealed if a foe can see the Sapper placing it.
+  * The Sapper may have only `1` active Tripwire Mine at a time. Consumes `1` Crude Explosive Charge.
