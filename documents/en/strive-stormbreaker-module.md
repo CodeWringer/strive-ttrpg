@@ -150,6 +150,9 @@ This will be a far more directed experience than usual, tailor-cut for shorter c
 - [Creature Compendium](#creature-compendium)
   - [Airborne](#airborne)
     - [Kraken](#kraken)
+    - [Cloud Jellyfish](#cloud-jellyfish)
+      - [Swarms](#swarms)
+    - [Aerial Raptor](#aerial-raptor)
   - [Argentumites](#argentumites)
     - [Argentumite Sentry](#argentumite-sentry)
     - [Argentumite Jumelles](#argentumite-jumelles)
@@ -1379,7 +1382,7 @@ One of the stranger and more dangerous denizens of the skies is the imposing Kra
 | ------ | ------ | ------ | --- | ---------- | -------------- | ------ | ---------------------------------------------------------------------- |
 | 21     | 9      | 3      | 100 | 20         | 10 Bludgeoning | `-1D`  | `8/4/2` Slashing; `8/4/2` Piercing; `6/3/2` Bludgeoning;               |
 
-**Traits**: Always floating
+**Traits**: [Glider + Flyer + Floater](./strive-core.md#glider--1-points-1-cr)
 
 **Skills**:
 * **Tentacle Sweep (Str/Str)**:
@@ -1407,6 +1410,80 @@ One of the stranger and more dangerous denizens of the skies is the imposing Kra
   * `= 3` Hits: `20` Bludgeoning; the Sky Ship becomes Grappled
   * `≥ 4` Hits: `28` Bludgeoning; the Sky Ship becomes Grappled
   * A Grappled Sky Ship cannot Move until it spends `1` AP to break free. Grappled also ends if the Kraken moves out of range on its own.
+
+### Cloud Jellyfish
+Translucent bells drift through the skies, trailing delicate tendrils that sway in the wind. Faint blue sparks pulse beneath their gelatinous skin before discharging in a sharp electrical bolt. Usually harmless unless approached, these creatures flee from danger and congregate in vast, drifting swarms. In sufficient numbers, they can turn an otherwise clear passage into a frustrating obstacle.
+
+* **Power**: Feeble, CR: `5`
+* **Roles**: Disruptor
+  * A minor nuisance when encountered alone. Dense swarms can obstruct movement and complicate navigation.
+* **Behavior**:
+  * Drifts passively with the currents, avoiding larger creatures.
+  * Discharges electricity at nearby threats when startled or cornered.
+  * Disperses when threatened, but may regroup nearby.
+  * Rarely pursues fleeing creatures and does not fight to the death.
+
+| Agi   | Awar  | Str   | Tough | Wit   |
+| ----- | ----- | ----- | ----- | ----- |
+| 2     | 3     | 1     | 1     | 2     |
+
+| BI     | Sprint | Stabil | HP  | Stamina    | FS (Ranged `2`) | Def | Armor |
+| ------ | ------ | ------ | --- | ---------- | --------------- | --- | ----- |
+| 7      | 1      | 0      | 10  | 2          | 2 Electrical    |     |       |
+
+**Traits**: [Glider + Flyer + Floater](./strive-core.md#glider--1-points-1-cr)
+
+**Skills**:
+
+* **Static Discharge (Awar/Awar)**:
+  * Discharge a bolt of electricity at a nearby ST, up to `2` Squares away. The Jellyfish uses this attack only when threatened or cornered.
+  * Level: `3`, AP: `2`, Hit(s): unmodified, Ranged: `2`, ST, Innate
+  * `≤ 2`: `2` Electrical
+  * `= 3` Hits: `4` Electrical
+  * `≥ 4` Hits: `6` Electrical
+
+#### Swarms
+Cloud Jellyfish occasionally congregate in dense swarms of hundreds or thousands. Treat a swarm as an environmental hazard occupying a contiguous area, rather than tracking every Jellyfish individually.
+
+* **On foot**: Squares occupied by a dense swarm count as Difficult Terrain, halving movement per AP.
+* **Sky Ship combat**: Each Square occupied by a dense swarm costs the Sky Ship `2` AP to traverse instead of the usual `1` AP. The crew can avoid this penalty by navigating around the swarm.
+* **Combat**: The swarm itself does not make additional attacks or inflict automatic damage. Individual Jellyfish retain their normal behavior and may discharge at nearby threats.
+
+### Aerial Raptor
+A large bird of prey that circles high above, with keen eyes searching for movement below. It hunts in pairs or small groups, taking turns diving at their quarry with hooked beaks and powerful talons. One strikes to bring its prey down, while another pins it in place. They rarely pursue a dangerous foe for long when an easier target presents itself.
+
+* **Power**: Regular, CR: `8`
+* **Roles**: Ambusher, Disruptor
+  * A pack hunter that uses coordinated dives to knock Stormbreakers down and pin them in place, leaving them exposed to further attacks.
+* **Behavior**:
+  * Circles overhead, watching for isolated or vulnerable targets.
+  * Uses its speed to approach from unexpected directions and dive at its prey.
+  * When one Raptor knocks a target prone, another may follow up to pin the target while the rest of the flock attacks.
+  * Breaks away when badly threatened and looks for a more vulnerable target.
+
+| Agi   | Awar  | Str   | Tough | Wit   |
+| ----- | ----- | ----- | ----- | ----- |
+| 5     | 4     | 4     | 3     | 2     |
+
+| BI     | Sprint | Stabil | HP  | Stamina    | FS (Melee)      | Def | Armor       |
+| ------ | ------ | ------ | --- | ---------- | --------------- | --- | ----------- |
+| 11     | 4      | 0      | 30  | 6          | 4 Piercing      |     |             |
+
+**Traits**: [Glider + Flyer](./strive-core.md#glider--1-points-1-cr)
+
+**Skills**:
+* **Raking Dive (Agi/Str)**:
+  * Dive through the air toward a ST up to `6` Squares away, striking with its talons as it passes adjacent to the target.
+  * Level: `4`, AP: `2`, Hit(s): `-1`, Ranged: `6`, ST, Innate
+  * `≤ 2`: `6` Piercing
+  * `= 3` Hits: `9` Piercing; target becomes Prone.
+  * `≥ 4` Hits: `12` Piercing; target becomes Prone.
+* **Pinning Talons (Agi/Str)**:
+  * Pin a Prone ST to the ground with its talons. The target must already be Prone before the Raptor's Turn begins.
+  * Level: `4`, AP: `2`, Hit(s): unmodified, Melee, ST, Innate
+  * `≤ 2`: `4` Piercing
+  * `= 3` Hits: `6` Piercing; target becomes Grappled.
+  * `≥ 4` Hits: `8` Piercing; target becomes Grappled.
 
 ## Argentumites
 It is widely known that the clouds beneath may harbor no life, for all living things that pass through wither and die in mere moments. And yet strange creatures, made of Silversteel regularly emerge from the blanket below. Dubbed **Argentumites**, sightings of these things always end in conflict and blood. They are relentless killers, seeking out and destroying what remains of our civilization. They do not speak, they do not flinch and they don't take prisoners. 
