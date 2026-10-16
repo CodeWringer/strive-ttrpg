@@ -12,10 +12,8 @@
 * Special weapons -> Gun emplacements, mortars, grenade launchers, etc.
 * Enemy bestiary:
   * Airborne creatures
-  * Argentumites
   * Corruption monsters
   * Pirates/Raiders
-  * Swine
 * Provide several ready-to-go adventures.
 -->
 
@@ -150,6 +148,8 @@ This will be a far more directed experience than usual, tailor-cut for shorter c
       - [The Cradle](#the-cradle)
     - [Endless Storm Challenges](#endless-storm-challenges)
 - [Creature Compendium](#creature-compendium)
+  - [Airborne](#airborne)
+    - [Kraken](#kraken)
   - [Argentumites](#argentumites)
     - [Argentumite Sentry](#argentumite-sentry)
     - [Argentumite Jumelles](#argentumite-jumelles)
@@ -165,7 +165,10 @@ This will be a far more directed experience than usual, tailor-cut for shorter c
       - [Demonic Blood](#demonic-blood)
       - [Filth \& Darkness](#filth--darkness)
     - [Swine Grunt](#swine-grunt)
-    - [Swine Sapper](#swine-sapper)
+    - [Swine Rigger](#swine-rigger)
+    - [Swine Skulker](#swine-skulker)
+    - [Swine Packlord](#swine-packlord)
+    - [Swine 'Rilla](#swine-rilla)
 
 # Glossary
 
@@ -1353,6 +1356,58 @@ In the Characteristics blocks below, when armor is concerned, it may be noted in
 
 Also note that "Def" is a static modifier to an Attacker's dice pool, that always applies when they roll. If none is noted, the Attacker's dice pool is always unmodified by the creature in question. 
 
+## Airborne
+Natural airborne creatures - at least as *natural* as they come, these days. 
+
+### Kraken
+One of the stranger and more dangerous denizens of the skies is the imposing Kraken - a giant, floating cephalopod, whose bulbous mantle is buoyed by vast sacs of gas that tends to drift in the upper skies. Long, muscular tentacles trail beneath it, like the cables of some colossal machine. When prey draws near, it unfolds its limbs, easily capable of destroying a Sky Ship. 
+
+* **Power**: Legendary, CR: `20`
+* **Roles**: Disruptor, Artillery, Tank
+  * A formidable airborne predator capable of challenging an entire party or threatening a Sky Ship. Its reach lets it control the battlefield, while its immense bulk makes it difficult to bring down.
+* **Behavior**:
+  * Circles above floating islands and through cloud banks, waiting for prey to approach.
+  * Against Stormbreakers, sweeps its tentacles across groups and drags isolated targets away from their allies.
+  * Against a Sky Ship, attempts to seize the vessel with its tentacles and batter it into submission.
+  * Focuses on disabling its prey rather than immediately killing it, striking again whenever its victims struggle to escape.
+
+| Agi   | Awar  | Str   | Tough | Wit   |
+| ----- | ----- | ----- | ----- | ----- |
+| 8     | 8     | 10    | 10    | 5     |
+
+| BI     | Sprint | Stabil | HP  | Stamina    | FS (Melee)     | Def    | Armor                                                                  |
+| ------ | ------ | ------ | --- | ---------- | -------------- | ------ | ---------------------------------------------------------------------- |
+| 21     | 9      | 3      | 100 | 20         | 10 Bludgeoning | `-1D`  | `8/4/2` Slashing; `8/4/2` Piercing; `6/3/2` Bludgeoning;               |
+
+**Traits**: Always floating
+
+**Skills**:
+* **Tentacle Sweep (Str/Str)**:
+  * **Personal Combat only.** Sweep its tentacles through an `8` Square AoE cone in front of it, striking all creatures in the area.
+  * Level: `5`, AP: `3`, Hit(s): `-1`, Ranged, AoE, Innate
+  * `≤ 2`: `12` Bludgeoning; Knock-back `1` Square
+  * `= 3` Hits: `18` Bludgeoning; Knock-back `2` Squares
+  * `≥ 4` Hits: `26` Bludgeoning; Knock-back `3` Squares
+* **Tendril Snare (Agi/Awar)**:
+  * **Personal Combat only.** Lash out with a tentacle at a ST up to `8` Squares away, dragging it toward the Kraken.
+  * Level: `4`, AP: `2`, Hit(s): unmodified, Ranged: `8`, ST, Innate
+  * `≤ 2`: `4` Bludgeoning; Pull `1` Square
+  * `= 3` Hits: `8` Bludgeoning; Pull `3` Squares
+  * `≥ 4` Hits: `12` Bludgeoning; Pull `5` Squares
+* **Beak Crush (Str/Str)**:
+  * **Personal Combat only.** Bite down on an adjacent ST with its powerful beak. The Kraken may use this Skill only once per Round.
+  * Level: `5`, AP: `2`, Hit(s): unmodified, Melee, ST, Innate
+  * `≤ 2`: `8` Piercing
+  * `= 3` Hits: `14` Piercing
+  * `≥ 4` Hits: `20` Piercing
+* **Hull-Crushing Embrace (Str/Str)**:
+  * **Sky Ship Combat only.** Lash out with multiple tentacles to seize a Sky Ship within `1` Square.
+  * Level: `5`, AP: `2`, Hit(s): `-1`, Ranged: `1`, ST, Innate
+  * `≤ 2`: `12` Bludgeoning
+  * `= 3` Hits: `20` Bludgeoning; the Sky Ship becomes Grappled
+  * `≥ 4` Hits: `28` Bludgeoning; the Sky Ship becomes Grappled
+  * A Grappled Sky Ship cannot Move until it spends `1` AP to break free. Grappled also ends if the Kraken moves out of range on its own.
+
 ## Argentumites
 It is widely known that the clouds beneath may harbor no life, for all living things that pass through wither and die in mere moments. And yet strange creatures, made of Silversteel regularly emerge from the blanket below. Dubbed **Argentumites**, sightings of these things always end in conflict and blood. They are relentless killers, seeking out and destroying what remains of our civilization. They do not speak, they do not flinch and they don't take prisoners. 
 
@@ -1607,11 +1662,11 @@ A short, hunched Swine-Beast armed with crudely-made weapons. Grunts are numerou
 
 | Agi   | Awar  | Str   | Tough | Wit   |
 | ----- | ----- | ----- | ----- | ----- |
-| 2     | 3     | 2     | 2     | 1     |
+| 2     | 3     | 2     | 1     | 1     |
 
 | BI     | Sprint | Stabil | HP  | Stamina    | FS (Melee)      | Def         | Armor             |
 | ------ | ------ | ------ | --- | ---------- | --------------- | ----------- | ----------------- |
-| 6      | 2      | 0      | 20  | 4          | 4 Slashing      |             |                   |
+| 6      | 2      | 0      | 10  | 2          | 4 Slashing      |             |                   |
 
 **Assets**: `1` Crude Pistol (one round loaded; `3` spare Bullets); `1` Hacking Weapon.
 
@@ -1630,10 +1685,9 @@ A short, hunched Swine-Beast armed with crudely-made weapons. Grunts are numerou
   * `= 3`: `4` Slashing
   * `≥ 4`: `5` Slashing
 
-### Swine Sapper
-A hunched Swine-Beast laden with scavenged explosives, rusted detonators and coils of filthy wire. Sappers are less interested in fighting fairly than in making sure their victims have nowhere safe to stand. They prepare ambushes, booby-trap narrow passages and bombard groups of enemies with crude explosives.
+### Swine Rigger
+A hunched Swine-Beast laden with scavenged explosives, rusted detonators and coils of filthy wire. Riggers care nothing for a fair fight and will go out of their way to ensure their victims have nowhere safe to stand. They prepare ambushes, booby-trap narrow passages and bombard groups of enemies with crude explosives.
 
-* **Creature-Family**: Swine-Beasts
 * **Power**: Regular, CR: `7`
 * **Roles**: Trapper, Artillery
   * A specialist who controls the battlefield through traps and explosive attacks. Vulnerable when caught without prepared defenses.
@@ -1644,11 +1698,11 @@ A hunched Swine-Beast laden with scavenged explosives, rusted detonators and coi
 
 | Agi   | Awar  | Str   | Tough | Wit   |
 | ----- | ----- | ----- | ----- | ----- |
-| 3     | 4     | 2     | 2     | 3     |
+| 3     | 4     | 2     | 3     | 3     |
 
 | BI     | Sprint | Stabil | HP  | Stamina    | FS (Melee)      | Def         | Armor             |
 | ------ | ------ | ------ | --- | ---------- | --------------- | ----------- | ----------------- |
-| 10     | 2      | 0      | 20  | 4          | 2 Slashing      |             |                   |
+| 10     | 2      | 0      | 30  | 6          | 2 Slashing      |             |                   |
 
 **Assets**: `5` Crude Explosive Charges. Each charge may be used for either a Scrap Bomb or a Tripwire Mine.
 
@@ -1666,3 +1720,115 @@ A hunched Swine-Beast laden with scavenged explosives, rusted detonators and coi
   * When preparing a mine before combat, use the Core rules for setting traps: roll an Ob `0` Trapping Test, with the number of Hits determining the mine's Quality and how difficult it is to detect or disarm. `0` Hits means the mine is not concealed.
   * A mine planted during combat is not concealed if a foe can see the Sapper placing it.
   * The Sapper may have only `1` active Tripwire Mine at a time. Consumes `1` Crude Explosive Charge.
+
+### Swine Skulker
+This Swine-Beast is quite small, and is carrying a rifle that seems far too large for its frame. With a crazed look in its gaze, it picks off targets from afar with surprising adequacy, before stealing away behind cover. 
+
+* **Power**: Feeble, CR: `4`
+* **Roles**: Artillery, Ambusher
+  * A fragile back-line threat whose long-range firepower makes it dangerous when left undisturbed.
+  * Usually fairly rare and can be very deadly if employed en-masse. 
+* **Behavior**:
+  * Seeks elevated or concealed positions with clear lines of sight.
+  * Opens fire on isolated or vulnerable targets, prioritizing those who pose the greatest threat to its allies.
+  * Changes position when discovered, keeping its distance while continuing to attack.
+  * Fights to the last when cornered, using "Bite" in melee, if forced to.
+
+| Agi   | Awar  | Str   | Tough | Wit   |
+| ----- | ----- | ----- | ----- | ----- |
+| 4     | 4     | 1     | 2     | 2     |
+
+| BI | Sprint | Stabil | HP | Stamina | FS (Ranged `20`) | Def | Armor |
+| -- | ------ | ------ | -- | ------- | ---------------- | --- | ----- |
+| 10 | 2      | 0      | 20 | 4       | 5 Piercing       |     |       |
+
+**Assets**: `1` Maksim Rifle (loaded with `6` Bullets); `6` spare Bullets.
+
+**Skills**:
+* **Maksim Shot (Agi/Awar)**:
+  * Fire a large-caliber rifle at a ST up to `20` Squares away.
+  * Level: `4`, AP: `2`, Hit(s): unmodified, Ranged: `20`, ST, Innate, Prefer Range
+  * `≤ 2`: `10` Piercing
+  * `= 3` Hits: `12` Piercing
+  * `≥ 4` Hits: `15` Piercing
+  * Weapon properties: Ammo `6`, Bolt-Action, Slow Reload.
+* **Bite (Agi/Str)**:
+  * Bite at an adjacent ST. 
+  * Level: `3`, AP: `2`, Hit(s): unmodified, Melee, ST, Innate
+  * `≤ 2`: `2` Piercing
+  * `= 3` Hits: `3` Piercing
+  * `≥ 4` Hits: `4` Piercing
+* **Stealth**: Level: `3`
+
+### Swine Packlord
+This Swine walks taller than the others, and surveys the battlefield with observant cunning. The others bow before it, as it strides by, and follow its incomprehensible commands with utmost precision.
+
+* **Power**: Elite, CR: `11`
+* **Roles**: Commander, Brawler
+  * A cunning leader that greatly improves the effectiveness of nearby Swine. Its commands make it dangerous to leave unopposed within a pack, while its tusks make approaching it a risky proposition.
+* **Behavior**:
+  * Directs its allies from a position where it can observe the entire battlefield.
+  * Orders Swine to close in on isolated targets and coordinates concentrated attacks against vulnerable foes.
+  * Engages in melee when a foe approaches or when it sees an opportunity to finish off a weakened opponent.
+  * Fights to the last and expects the same obedience from its followers.
+
+| Agi   | Awar  | Str   | Tough | Wit   |
+| ----- | ----- | ----- | ----- | ----- |
+| 3     | 4     | 4     | 4     | 4     |
+
+| BI     | Sprint | Stabil | HP  | Stamina    | FS (Melee)      | Def         | Armor             |
+| ------ | ------ | ------ | --- | ---------- | --------------- | ----------- | ----------------- |
+| 11     | 3      | 2      | 40  | 8          | 4 Piercing      |             |                   |
+
+**Skills**:
+* **Drive Them In! (Awar/Wit)**:
+  * The Champion points out a foe within `10` Squares and issues a series of incomprehensible commands. Other Swine allies within `10` Squares may immediately move toward that foe.
+  * Level: `4`, AP: `2`, Hit(s): unmodified, Ranged: `10`, ST, Innate
+  * `≤ 2`: `1` may move up to `3` Squares.
+  * `= 3`: Up to `2` allies may each move up to `5` Squares.
+  * `≥ 4`: All allies may each move up to `10` Squares.
+  * This movement does not provoke Opportunity Attacks from the designated foe.
+* **Tear It Apart! (Awar/Wit)**:
+  * The Champion singles out a foe within `10` Squares and directs its allies to attack in unison. 
+  * Level: `4`, AP: `2`, Hit(s): unmodified, Ranged: `10`, ST, Innate
+  * `≤ 2`: Up to `2` allies may make an immediate and free Attack against the chosen foe, with `+1D`. 
+  * `= 3`: Up to `3` allies may make an immediate and free Attack against the chosen foe, with `+1D`. 
+  * `≥ 4`: Up to `4` allies may make an immediate and free Attack against the chosen foe, with `+1D`. 
+  * These bonuses expire at the start of the Champion's next Turn.
+* **Gore (Agi/Str)**:
+  * Drive its tusks into an adjacent foe.
+  * Level: `4`, AP: `2`, Hit(s): unmodified, Melee, ST, Innate
+  * `≤ 2`: `6` Piercing
+  * `= 3` Hits: `9` Piercing
+  * `≥ 4` Hits: `12` Piercing
+
+### Swine 'Rilla
+With arms too strong for its slender frame, this Swine has the looks of a Gorilla. It moves primarily by fist-pumping the ground, gently catapulting itself forward with every step.
+
+* **Power**: Regular, CR: `7`
+* **Roles**: Disruptor, Ambusher
+  * A highly mobile skirmisher that breaks up enemy formations and harasses vulnerable targets, but performs poorly when pinned down.
+* **Behavior**:
+  * Bounds past the front line to reach exposed PCs and disrupt their positioning.
+  * Uses its powerful fists to knock foes away from allies or out of advantageous positions.
+  * Quickly retreats after striking, avoiding prolonged melee engagements.
+  * Repeats this approach against isolated targets, forcing the PCs to divert attention from other Swine.
+
+| Agi   | Awar  | Str   | Tough | Wit   |
+| ----- | ----- | ----- | ----- | ----- |
+| 5     | 3     | 4     | 2     | 2     |
+
+| BI     | Sprint | Stabil | HP  | Stamina    | FS (Melee)      | Def         | Armor             |
+| ------ | ------ | ------ | --- | ---------- | --------------- | ----------- | ----------------- |
+| 10     | 3      | 0      | 20  | 4          | 4 Bludgeoning   |             | `0 / 0 / 0`       |
+
+**Skills**:
+* **Knuckle-Spring (Agi/Str)**:
+  * Bound up to `5` Squares. The Rilla may pass through Squares occupied by other creatures, but must end its movement in an unoccupied Square. This movement does not provoke Opportunity Attacks.
+  * Level: `4`, AP: `1`, Innate
+* **Hammerfist (Agi/Str)**:
+  * Slam a powerful fist into an adjacent ST, sending them flying.
+  * Level: `4`, AP: `2`, Hit(s): unmodified, Melee, ST, Innate
+  * `≤ 2`: `6` Bludgeoning; Knock-back `2` Squares
+  * `= 3` Hits: `8` Bludgeoning; Knock-back `3` Squares
+  * `≥ 4` Hits: `10` Bludgeoning; Knock-back `4` Squares
