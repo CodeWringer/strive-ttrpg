@@ -149,10 +149,11 @@ This will be a far more directed experience than usual, tailor-cut for shorter c
     - [Endless Storm Challenges](#endless-storm-challenges)
 - [Creature Compendium](#creature-compendium)
   - [Airborne](#airborne)
-    - [Kraken](#kraken)
+    - [Aerial Raptor](#aerial-raptor)
     - [Cloud Jellyfish](#cloud-jellyfish)
       - [Swarms](#swarms)
-    - [Aerial Raptor](#aerial-raptor)
+    - [Hull Leech](#hull-leech)
+    - [Kraken](#kraken)
   - [Argentumites](#argentumites)
     - [Argentumite Sentry](#argentumite-sentry)
     - [Argentumite Jumelles](#argentumite-jumelles)
@@ -1362,6 +1363,115 @@ Also note that "Def" is a static modifier to an Attacker's dice pool, that alway
 ## Airborne
 Natural airborne creatures - at least as *natural* as they come, these days. 
 
+### Aerial Raptor
+A large bird of prey that circles high above, with keen eyes searching for movement below. It hunts in pairs or small groups, taking turns diving at their quarry with hooked beaks and powerful talons. One strikes to bring its prey down, while another pins it in place. They rarely pursue a dangerous foe for long when an easier target presents itself.
+
+* **Power**: Regular, CR: `8`
+* **Roles**: Ambusher, Disruptor
+  * A pack hunter that uses coordinated dives to knock Stormbreakers down and pin them in place, leaving them exposed to further attacks.
+* **Behavior**:
+  * Circles overhead, watching for isolated or vulnerable targets.
+  * Uses its speed to approach from unexpected directions and dive at its prey.
+  * When one Raptor knocks a target prone, another may follow up to pin the target while the rest of the flock attacks.
+  * Breaks away when badly threatened and looks for a more vulnerable target.
+
+| Agi   | Awar  | Str   | Tough | Wit   |
+| ----- | ----- | ----- | ----- | ----- |
+| 5     | 4     | 4     | 3     | 2     |
+
+| BI     | Sprint | Stabil | HP  | Stamina    | FS (Melee)      | Def | Armor       |
+| ------ | ------ | ------ | --- | ---------- | --------------- | --- | ----------- |
+| 11     | 4      | 0      | 30  | 6          | 4 Piercing      |     |             |
+
+**Traits**: [Glider + Flyer](./strive-core.md#glider--1-points-1-cr)
+
+**Skills**:
+* **Raking Dive (Agi/Str)**:
+  * Dive through the air toward a ST up to `6` Squares away, striking with its talons as it passes adjacent to the target.
+  * Level: `4`, AP: `2`, Hit(s): `-1`, Ranged: `6`, ST, Innate
+  * `≤ 2`: `6` Piercing
+  * `= 3` Hits: `9` Piercing; target becomes Prone.
+  * `≥ 4` Hits: `12` Piercing; target becomes Prone.
+* **Pinning Talons (Agi/Str)**:
+  * Pin a Prone ST to the ground with its talons. The target must already be Prone before the Raptor's Turn begins.
+  * Level: `4`, AP: `2`, Hit(s): unmodified, Melee, ST, Innate
+  * `≤ 2`: `4` Piercing
+  * `= 3` Hits: `6` Piercing; target becomes Grappled.
+  * `≥ 4` Hits: `8` Piercing; target becomes Grappled.
+
+
+### Cloud Jellyfish
+Translucent bells drift through the skies, trailing delicate tendrils that sway in the wind. Faint blue sparks pulse beneath their gelatinous skin before discharging in a sharp electrical bolt. Usually harmless unless approached, these creatures flee from danger and congregate in vast, drifting swarms. In sufficient numbers, they can turn an otherwise clear passage into a frustrating obstacle.
+
+* **Power**: Feeble, CR: `5`
+* **Roles**: Disruptor
+  * A minor nuisance when encountered alone. Dense swarms can obstruct movement and complicate navigation.
+* **Behavior**:
+  * Drifts passively with the currents, avoiding larger creatures.
+  * Discharges electricity at nearby threats when startled or cornered.
+  * Disperses when threatened, but may regroup nearby.
+  * Rarely pursues fleeing creatures and does not fight to the death.
+
+| Agi   | Awar  | Str   | Tough | Wit   |
+| ----- | ----- | ----- | ----- | ----- |
+| 2     | 3     | 1     | 1     | 2     |
+
+| BI     | Sprint | Stabil | HP  | Stamina    | FS (Ranged `2`) | Def | Armor |
+| ------ | ------ | ------ | --- | ---------- | --------------- | --- | ----- |
+| 7      | 1      | 0      | 10  | 2          | 2 Electrical    |     |       |
+
+**Traits**: [Glider + Flyer + Floater](./strive-core.md#glider--1-points-1-cr)
+
+**Skills**:
+
+* **Static Discharge (Awar/Awar)**:
+  * Discharge a bolt of electricity at a nearby ST, up to `2` Squares away. The Jellyfish uses this attack only when threatened or cornered.
+  * Level: `3`, AP: `2`, Hit(s): unmodified, Ranged: `2`, ST, Innate
+  * `≤ 2`: `2` Electrical
+  * `= 3` Hits: `4` Electrical
+  * `≥ 4` Hits: `6` Electrical
+
+#### Swarms
+Cloud Jellyfish occasionally congregate in dense swarms of hundreds or thousands. Treat a swarm as an environmental hazard occupying a contiguous area, rather than tracking every Jellyfish individually.
+
+* **On foot**: Squares occupied by a dense swarm count as Difficult Terrain, halving movement per AP.
+* **Sky Ship combat**: Each Square occupied by a dense swarm costs the Sky Ship `2` AP to traverse instead of the usual `1` AP. The crew can avoid this penalty by navigating around the swarm.
+* **Combat**: The swarm itself does not make additional attacks or inflict automatic damage. Individual Jellyfish retain their normal behavior and may discharge at nearby threats.
+
+### Hull Leech
+A flattened, leathery parasite with dozens of hooked limbs, the Hull Leech clings to the undersides of Sky Ships and feeds on heat, electrical charge, and exposed machinery. Its mottled hide blends in with timber, cables, and rusted fittings, making individual specimens easy to overlook. One is little more than a nuisance, while a colony can quietly drain a vessel while steadily damaging its vital systems. 
+
+* **Power**: Feeble, CR: `4`
+* **Roles**: Disruptor
+  * A weak parasite that threatens Sky Ships through persistent damage rather than direct combat. Individually insignificant, Hull Leeches become a serious problem when several attach to the same vessel.
+* **Behavior**:
+  * Seeks out warm machinery and exposed electrical systems.
+  * Clings to the hull and attempts to remain unnoticed while feeding.
+  * Avoids direct confrontation and detaches to flee when threatened.
+
+| Agi   | Awar  | Str   | Tough | Wit   |
+| ----- | ----- | ----- | ----- | ----- |
+| 4     | 3     | 2     | 1     | 1     |
+
+| BI     | Sprint | Stabil | HP  | Stamina    | FS (Melee)      | Def | Armor |
+| ------ | ------ | ------ | --- | ---------- | --------------- | --- | ----- |
+| 8      | 2      | 0      | 10  | 2          | 3 Piercing      |     |       |
+
+**Traits**: [Climber + Sticky](./strive-core.md#climber--2-points-1-cr)
+
+**Skills**:
+* **Latch and Siphon (Agi/Str)**:
+  * **Sky Ship Combat only.** Lunge at a Sky Ship within `1` Square and attempt to attach to its hull, feeding on its electrical systems.
+  * Level: `3`, AP: `2`, Hit(s): unmodified, Ranged: `1`, ST, Innate
+  * While attached, it deals `3` Electrical damage to the Sky Ship at the start of each of its Turns. This damage continues until the Hull Leech is removed or destroyed.
+  * It costs `2` AP to remove the Hull Leech from the Sky Ship's hull. No Test is required.
+* **Bite (Agi/Str)**:
+  * **Personal Combat only.** Bite at a ST. 
+  * Level: `3`, AP: `2`, Hit(s): unmodified, Melee, ST, Innate
+  * `≤ 2`: `2` Piercing + `2` Electrical.
+  * `= 3` Hits: `4` Piercing + `4` Electrical.
+  * `≥ 4` Hits: `6` Piercing + `6` Electrical.
+
 ### Kraken
 One of the stranger and more dangerous denizens of the skies is the imposing Kraken - a giant, floating cephalopod, whose bulbous mantle is buoyed by vast sacs of gas that tends to drift in the upper skies. Long, muscular tentacles trail beneath it, like the cables of some colossal machine. When prey draws near, it unfolds its limbs, easily capable of destroying a Sky Ship. 
 
@@ -1410,80 +1520,6 @@ One of the stranger and more dangerous denizens of the skies is the imposing Kra
   * `= 3` Hits: `20` Bludgeoning; the Sky Ship becomes Grappled
   * `≥ 4` Hits: `28` Bludgeoning; the Sky Ship becomes Grappled
   * A Grappled Sky Ship cannot Move until it spends `1` AP to break free. Grappled also ends if the Kraken moves out of range on its own.
-
-### Cloud Jellyfish
-Translucent bells drift through the skies, trailing delicate tendrils that sway in the wind. Faint blue sparks pulse beneath their gelatinous skin before discharging in a sharp electrical bolt. Usually harmless unless approached, these creatures flee from danger and congregate in vast, drifting swarms. In sufficient numbers, they can turn an otherwise clear passage into a frustrating obstacle.
-
-* **Power**: Feeble, CR: `5`
-* **Roles**: Disruptor
-  * A minor nuisance when encountered alone. Dense swarms can obstruct movement and complicate navigation.
-* **Behavior**:
-  * Drifts passively with the currents, avoiding larger creatures.
-  * Discharges electricity at nearby threats when startled or cornered.
-  * Disperses when threatened, but may regroup nearby.
-  * Rarely pursues fleeing creatures and does not fight to the death.
-
-| Agi   | Awar  | Str   | Tough | Wit   |
-| ----- | ----- | ----- | ----- | ----- |
-| 2     | 3     | 1     | 1     | 2     |
-
-| BI     | Sprint | Stabil | HP  | Stamina    | FS (Ranged `2`) | Def | Armor |
-| ------ | ------ | ------ | --- | ---------- | --------------- | --- | ----- |
-| 7      | 1      | 0      | 10  | 2          | 2 Electrical    |     |       |
-
-**Traits**: [Glider + Flyer + Floater](./strive-core.md#glider--1-points-1-cr)
-
-**Skills**:
-
-* **Static Discharge (Awar/Awar)**:
-  * Discharge a bolt of electricity at a nearby ST, up to `2` Squares away. The Jellyfish uses this attack only when threatened or cornered.
-  * Level: `3`, AP: `2`, Hit(s): unmodified, Ranged: `2`, ST, Innate
-  * `≤ 2`: `2` Electrical
-  * `= 3` Hits: `4` Electrical
-  * `≥ 4` Hits: `6` Electrical
-
-#### Swarms
-Cloud Jellyfish occasionally congregate in dense swarms of hundreds or thousands. Treat a swarm as an environmental hazard occupying a contiguous area, rather than tracking every Jellyfish individually.
-
-* **On foot**: Squares occupied by a dense swarm count as Difficult Terrain, halving movement per AP.
-* **Sky Ship combat**: Each Square occupied by a dense swarm costs the Sky Ship `2` AP to traverse instead of the usual `1` AP. The crew can avoid this penalty by navigating around the swarm.
-* **Combat**: The swarm itself does not make additional attacks or inflict automatic damage. Individual Jellyfish retain their normal behavior and may discharge at nearby threats.
-
-### Aerial Raptor
-A large bird of prey that circles high above, with keen eyes searching for movement below. It hunts in pairs or small groups, taking turns diving at their quarry with hooked beaks and powerful talons. One strikes to bring its prey down, while another pins it in place. They rarely pursue a dangerous foe for long when an easier target presents itself.
-
-* **Power**: Regular, CR: `8`
-* **Roles**: Ambusher, Disruptor
-  * A pack hunter that uses coordinated dives to knock Stormbreakers down and pin them in place, leaving them exposed to further attacks.
-* **Behavior**:
-  * Circles overhead, watching for isolated or vulnerable targets.
-  * Uses its speed to approach from unexpected directions and dive at its prey.
-  * When one Raptor knocks a target prone, another may follow up to pin the target while the rest of the flock attacks.
-  * Breaks away when badly threatened and looks for a more vulnerable target.
-
-| Agi   | Awar  | Str   | Tough | Wit   |
-| ----- | ----- | ----- | ----- | ----- |
-| 5     | 4     | 4     | 3     | 2     |
-
-| BI     | Sprint | Stabil | HP  | Stamina    | FS (Melee)      | Def | Armor       |
-| ------ | ------ | ------ | --- | ---------- | --------------- | --- | ----------- |
-| 11     | 4      | 0      | 30  | 6          | 4 Piercing      |     |             |
-
-**Traits**: [Glider + Flyer](./strive-core.md#glider--1-points-1-cr)
-
-**Skills**:
-* **Raking Dive (Agi/Str)**:
-  * Dive through the air toward a ST up to `6` Squares away, striking with its talons as it passes adjacent to the target.
-  * Level: `4`, AP: `2`, Hit(s): `-1`, Ranged: `6`, ST, Innate
-  * `≤ 2`: `6` Piercing
-  * `= 3` Hits: `9` Piercing; target becomes Prone.
-  * `≥ 4` Hits: `12` Piercing; target becomes Prone.
-* **Pinning Talons (Agi/Str)**:
-  * Pin a Prone ST to the ground with its talons. The target must already be Prone before the Raptor's Turn begins.
-  * Level: `4`, AP: `2`, Hit(s): unmodified, Melee, ST, Innate
-  * `≤ 2`: `4` Piercing
-  * `= 3` Hits: `6` Piercing; target becomes Grappled.
-  * `≥ 4` Hits: `8` Piercing; target becomes Grappled.
 
 ## Argentumites
 It is widely known that the clouds beneath may harbor no life, for all living things that pass through wither and die in mere moments. And yet strange creatures, made of Silversteel regularly emerge from the blanket below. Dubbed **Argentumites**, sightings of these things always end in conflict and blood. They are relentless killers, seeking out and destroying what remains of our civilization. They do not speak, they do not flinch and they don't take prisoners. 
@@ -1897,7 +1933,7 @@ With arms too strong for its slender frame, this Swine has the looks of a Gorill
 
 | BI     | Sprint | Stabil | HP  | Stamina    | FS (Melee)      | Def         | Armor             |
 | ------ | ------ | ------ | --- | ---------- | --------------- | ----------- | ----------------- |
-| 10     | 3      | 0      | 20  | 4          | 4 Bludgeoning   |             | `0 / 0 / 0`       |
+| 10     | 3      | 0      | 20  | 4          | 4 Bludgeoning   |             |                   |
 
 **Skills**:
 * **Knuckle-Spring (Agi/Str)**:
