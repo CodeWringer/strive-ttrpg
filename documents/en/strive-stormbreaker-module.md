@@ -11,10 +11,10 @@
   * Skills that consume Marked for powerful debuffs
 * Special weapons -> Gun emplacements, mortars, grenade launchers, etc.
 * Enemy bestiary:
-  * Airborne creatures
   * Corruption monsters
   * Pirates/Raiders
 * Provide several ready-to-go adventures.
+* Define how to place and size regions. 
 -->
 
 # Introduction
@@ -130,13 +130,14 @@ This will be a far more directed experience than usual, tailor-cut for shorter c
     - [Names](#names)
 - [Game Mastery](#game-mastery)
   - [Projects and Rewards](#projects-and-rewards)
+- [Introductory Adventure](#introductory-adventure)
 - [Biomes](#biomes)
-  - [Sky Nations](#sky-nations)
-    - [Sky Nations Locations](#sky-nations-locations)
-    - [Sky Nations Challenges](#sky-nations-challenges)
   - [Lofty Jungle](#lofty-jungle)
     - [Lofty Jungle Locations](#lofty-jungle-locations)
     - [Lofty Jungle Challenges](#lofty-jungle-challenges)
+  - [Sky Nations](#sky-nations)
+    - [Sky Nations Locations](#sky-nations-locations)
+    - [Sky Nations Challenges](#sky-nations-challenges)
   - [Glassed Desert](#glassed-desert)
     - [Glassed Desert Locations](#glassed-desert-locations)
     - [Glassed Desert Challenges](#glassed-desert-challenges)
@@ -173,6 +174,9 @@ This will be a far more directed experience than usual, tailor-cut for shorter c
     - [Swine Skulker](#swine-skulker)
     - [Swine Packlord](#swine-packlord)
     - [Swine 'Rilla](#swine-rilla)
+    - [Swine Ramship](#swine-ramship)
+  - [Pirates](#pirates)
+    - [Pirate Cutter](#pirate-cutter)
 
 # Glossary
 
@@ -561,6 +565,7 @@ The PCs can spend **Weapon Technology Points** to improve their weapons.
 | Points | Supply Cost | Effect & Unlock                 | Prerequisites | Repeatable? |
 | ------ | ----------- | ------------------------------- | ------------- | ----------- |
 | 1      | 1           | Improve one ranged weapon's ammo capacity by `+2` up to a maximum of `+10`. | | Yes |
+| 2      | 5           | Improve the Sky Ship's Accuracy by `+1`. | Capital Weapon Foundries at least Level `1`. | Yes |
 | 3      | 2           | Improve one weapon's Damage by `+2` points for every grade. |  | Yes |
 | 3      | 3           | Unlock a tier `1` weapon.       | Capital Weapon Foundries at least Level `1`. | Yes |
 | 3      | 5           | Unlock light cannons for the Sky Ship. | Capital Weapon Foundries at least Level `1`. | No |
@@ -590,6 +595,8 @@ The Sky Ship is the Stormbreaker's mobile base of operation and their only life-
 The Sky Ship has `100` HP, which can re replenished during the Preparation phase. It costs `10` Supplies to restore `10` HP. 
 
 Besides the Stormbreakers, there are no additional crew on board. Only few are sufficiently trained and physically capable enough to survive passing through a Storm Wall and only the Stormbreakers enjoy the privilege of revival in the Atherium Resuscitation Chambers. Fortunately, the Sky Ship technology is a gift from the Mechanites, and is fully automated. Stormbreakers only have to pilot it under extreme situations, such as in combat or when passing through Storm Walls. 
+
+When making long-range Attacks, the dice pool size is determined by the Sky Ship's **Accuracy**, expressed numerically and equalling the number of `D6` available. By default, the Sky Ship's Accuracy is `6`. 
 
 ## Passing Storm Walls
 Passing through the Storm Walls always causes damage to the Sky Ship. How much, depends on the Storm Wall tier, which increases the farther the Stormbreakers travel from the Capital. 
@@ -751,7 +758,7 @@ Ship-to-ship Combat plays out like normal Combat, with some significant differen
 
 The Sky Ship can spend `1` AP to:
 1. **Move** `1` Square.
-2. **Fire** upon a foe with one of its weapons.
+2. **Fire** upon a foe with one of its weapons. Refer to its [Accuracy](#sky-ship) rating to determine the dice pool size.
 3. **Reload** `1` weapon.
    1. **Slow Reload** increases the reloading cost to `2` AP. 
    2. **Very Slow Reload** increases the reloading cost to `3` AP. 
@@ -1176,17 +1183,51 @@ For Stormbreaker specifically, Expedition rewards are a natural source of [Proje
 
 Aside from the rewards, the limited time at the table implies Project management should be kept short. Only *special* crafting and research require a Complex Project. Practically all Assets listed in the Module can be created in a Trivial Project, but this will still require the necessary resources. 
 
+# Introductory Adventure
+TODO
+
 # Biomes
 Whenever the PCs enter a new region, it may be part of one of the following biomes, which will dictate much of what they can encounter within. Of course, you may have your own ideas and aren't required to adhere to any of the concepts presented here.
 
 As the PCs make their way farther and farther from the Capital, perils and rewards mount ever higher. 
+
+## Lofty Jungle
+The islands of this biome are particularly vibrant and full of color. Dense jungles have grown atop floating mountains and old, abandoned buildings. Food and peril are abundant and the Swine may be a source of technology, if they can be defeated. For whatever reason, the flora and fauna that thrives here seems unaffected by the Corruption. 
+
+**Storm Wall Tier**: `1`
+
+**Silversteel**: Few deposits, almost always in the most impossible to reach places, with moderate yield. Per deposit: Creative Test: Ob `2`, `3` challenges, each granting `2` Silversteel.
+
+**Argentumite Presence**: Very low. Only weaker specimen occasionally haunt these skies. 
+
+### Lofty Jungle Locations
+| D4  | Location                  | Description |
+| --- | ------------------------- | ----------- |
+| 1   | **Dense Jungle**          | The vegetation has overgrown the entirety of the island. There is no spot to land the Sky Ship, you will have to enter the island from the side, or from below. To think so much life could have survived the cataclysm - and perhaps people could have found a safe haven here? Either way, you may have to brave dangerous fauna and flora to find them. | 
+| 2   | **Lake**                  | An entire lake was uplifted during the cataclysm! Or perhaps it formed up here, during the heavy rain fall of the first weeks after. Either way, fresh water and even fish may be found here! However, such a prize is seldom left unclaimed. |
+| 3   | **Overgrown Archipelago** | Countless smaller and larger islands are interconnected by hundreds of large roots and vines, outstretched across the chasms between as if desperately holding together what it can. There is no single landmass to traverse, but rather many smaller ones. The Sky Ship is useless here, but with some clever preparation, this archipelago may yet divulge its secrets. |
+| 4   | **Overgrown City**        | The remnants of a city have become a vibrant haven of nature, and may prove quite the labyrinthian nightmare to traverse. Threats new and old may lurk anywhere within, but also treasures of the past. |
+
+### Lofty Jungle Challenges
+| D10 | Challenge                 | Description            | Failure Result |
+| --- | ------------------------- | ---------------------- | -------------- |
+| 1   | **Carnivorous Plants**    | Careless steps may land the Stormbreakers in the maw of a carnivorous plant. | The Stormbreakers are suffer `1D4` Slashing Injuries, to be divided among them! |
+| 2   | **Corruption Hotbed**     | In this section of the jungle, the trees look... *odd*, and the air crackles aggressively. | The Stormbreakers have wandered into a Corruption Hotbed and each of them suffer `+1` Corruption! |
+| 3   | **Dense Vegetation**      | The jungle itself seems bent on preventing passage. The Stormbreakers must cut free a path. | The time they spend gives foes a chance to sneak up and ambush the Stormbreakers! |
+| 4   | **Predatorial Animals**   | One or more predators stalk the thicket of the jungle. You will have to avoid or neutralize them. | The Stormbreakers are attacked and suffer `1D4` Slashing Injuries, to be divided among them! |
+| 5   | **Spore-Filled Air**      | Some kind of giant mycelium has saturated the air with poisonous spores. A strain is put on the Stormbreakers' gas masks, and vision through the sickly clouds difficult. | The Stormbreakers get lost, and waste precious time. Each of them suffers `+1` Corruption1 |
+| 6   | **Winding Paths**         | The jungle almost seems designed to appear as confusing as possible. The path forward is obstructed by some new obstacle, around every corner. | The Stormbreakers get lost, and waste precious time. Each of them suffers `+1` Corruption! |
+| 7   | **Entangling Roots**      | Thick roots obstruct the area. Clearing them will take time. | `+1` Corruption. |
+| 8   | **Fractured**             | The area is broken up by several floating chunks of earth, that are difficult to reach. | Some of the earthen chunks crumble and plunge into the depths below. With them, go potential treasures and the path forward. |
+| 9   | **Flash Flood**           | A sudden, heavy rain fall flushes the ground away beneath your feet. | Stormbreakers lose their footing and are carried away by the waters, even as far as the edge of the island. |
+| 10  | **Parasitic Swarm**       | A swarm of blood-feeding insects descends upon the Stormbreakers. | All Stormbreakers suffer `1` Bleeding Injury. |
 
 ## Sky Nations
 Before the cataclysm, the Capital was surrounded by countless towns. Some were even large enough to negotiate partial independence from the crown. Those that survived have now taken the chance to seize their full autonomy. The Kijser back home will want to bring these cities back into the fold, who in turn won't yield their freedom willingly. They may need to be persuaded, bought or forced into submission, if possible. But even if that fails, trade may still benefit the Capital. 
 
 As these fledgling nations have yet to find their place in this new world they will openly quarrel with each other. Each is trying to seize more and more control of the region. If so inclined, the Stormbreakers may exploit this circumstance to play these Sky Nations against one another. 
 
-**Storm Wall Tier**: `1`
+**Storm Wall Tier**: `2`
 
 **Silversteel**: No deposits. What little Silversteel is available here, is securely locked away in the vaults of the Sky Nations. 
 
@@ -1216,36 +1257,6 @@ As these fledgling nations have yet to find their place in this new world they w
 | 9   | **Cloudblind**            | A low cloud envelops the area. Navigation by sight is impeded. | The Stormbreakers lose valuable time, as they must slow down to keep going. They lose `1D4` QoDs. |
 | 10  | **Closed Borders**        | The area ahead has been cordoned off by one of the Sky Nations. They will not let the Stormbreakers pass. | The Stormbreakers are chased away with force, and made to retreat. They must find a different route. |
 
-## Lofty Jungle
-The islands of this biome are particularly vibrant and full of color. Dense jungles have grown atop floating mountains and old, abandoned buildings. Food and peril are abundant and the Swine may be a source of technology, if they can be defeated. For whatever reason, the flora and fauna that thrives here seems unaffected by the Corruption. 
-
-**Storm Wall Tier**: `2`
-
-**Silversteel**: Few deposits, almost always in the most impossible to reach places, with moderate yield. Per deposit: Creative Test: Ob `2`, `3` challenges, each granting `2` Silversteel.
-
-**Argentumite Presence**: Very low. Only weaker specimen occasionally haunt these skies. 
-
-### Lofty Jungle Locations
-| D4  | Location                  | Description |
-| --- | ------------------------- | ----------- |
-| 1   | **Dense Jungle**          | The vegetation has overgrown the entirety of the island. There is no spot to land the Sky Ship, you will have to enter the island from the side, or from below. To think so much life could have survived the cataclysm - and perhaps people could have found a safe haven here? Either way, you may have to brave dangerous fauna and flora to find them. | 
-| 2   | **Lake**                  | An entire lake was uplifted during the cataclysm! Or perhaps it formed up here, during the heavy rain fall of the first weeks after. Either way, fresh water and even fish may be found here! However, such a prize is seldom left unclaimed. |
-| 3   | **Overgrown Archipelago** | Countless smaller and larger islands are interconnected by hundreds of large roots and vines, outstretched across the chasms between as if desperately holding together what it can. There is no single landmass to traverse, but rather many smaller ones. The Sky Ship is useless here, but with some clever preparation, this archipelago may yet divulge its secrets. |
-| 4   | **Overgrown City**        | The remnants of a city have become a vibrant haven of nature, and may prove quite the labyrinthian nightmare to traverse. Threats new and old may lurk anywhere within, but also treasures of the past. |
-
-### Lofty Jungle Challenges
-| D10 | Challenge                 | Description            | Failure Result |
-| --- | ------------------------- | ---------------------- | -------------- |
-| 1   | **Carnivorous Plants**    | Careless steps may land the Stormbreakers in the maw of a carnivorous plant. | The Stormbreakers are suffer `1D4` Slashing Injuries, to be divided among them! |
-| 2   | **Corruption Hotbed**     | In this section of the jungle, the trees look... *odd*, and the air crackles aggressively. | The Stormbreakers have wandered into a Corruption Hotbed and each of them suffer `+1` Corruption! |
-| 3   | **Dense Vegetation**      | The jungle itself seems bent on preventing passage. The Stormbreakers must cut free a path. | The time they spend gives foes a chance to sneak up and ambush the Stormbreakers! |
-| 4   | **Predatorial Animals**   | One or more predators stalk the thicket of the jungle. You will have to avoid or neutralize them. | The Stormbreakers are attacked and suffer `1D4` Slashing Injuries, to be divided among them! |
-| 5   | **Spore-Filled Air**      | Some kind of giant mycelium has saturated the air with poisonous spores. A strain is put on the Stormbreakers' gas masks, and vision through the sickly clouds difficult. | The Stormbreakers get lost, and waste precious time. Each of them suffers `+1` Corruption1 |
-| 6   | **Winding Paths**         | The jungle almost seems designed to appear as confusing as possible. The path forward is obstructed by some new obstacle, around every corner. | The Stormbreakers get lost, and waste precious time. Each of them suffers `+1` Corruption! |
-| 7   | **Entangling Roots**      | Thick roots obstruct the area. Clearing them will take time. | `+1` Corruption. |
-| 8   | **Fractured**             | The area is broken up by several floating chunks of earth, that are difficult to reach. | Some of the earthen chunks crumble and plunge into the depths below. With them, go potential treasures and the path forward. |
-| 9   | **Flash Flood**           | A sudden, heavy rain fall flushes the ground away beneath your feet. | Stormbreakers lose their footing and are carried away by the waters, even as far as the edge of the island. |
-| 10  | **Parasitic Swarm**       | A swarm of blood-feeding insects descends upon the Stormbreakers. | All Stormbreakers suffer `1` Bleeding Injury. |
 
 ## Glassed Desert
 Life has all but vanished from the massive landmasses that dominate these skies, their desert surfaces glinting and sparkling in the light of the sun. Touched by Corruption and the heaven's gaze, the sands have begun to change - and some of the grains are unusually white. Massive, jagged chunks of glass float across the dunes Argentumites roam the skies high above - it may be best not to draw too much attention here. 
@@ -1945,3 +1956,56 @@ With arms too strong for its slender frame, this Swine has the looks of a Gorill
   * `≤ 2`: `6` Bludgeoning; Knock-back `2` Squares
   * `= 3` Hits: `8` Bludgeoning; Knock-back `3` Squares
   * `≥ 4` Hits: `10` Bludgeoning; Knock-back `4` Squares
+
+### Swine Ramship
+A crude Sky Ship built from mismatched scrap, salvaged engines, and the remains of vessels its crew has plundered. Its sides are a chaotic patchwork of bolted plates, exposed cables, and uneven timber, with little apparent concern for craftsmanship or aerodynamics. The front, however, is heavily reinforced with layers of metal, thick beams, and sharpened scrap. The Swine have built it for a single purpose: to smash into another Sky Ship, hold it in place, and board it before the enemy can escape.
+
+* **Role**: Raider, Boarding Vessel
+  * A purpose-built boarding craft that relies on closing the distance and locking onto enemy Sky Ships. Its reinforced prow allows it to force an engagement, while its crude construction and lack of armament make it vulnerable to sustained fire at range.
+  * Once boarding begins, migrate to personal Combat. If the Stormbreakers win, the Swine Ramship retreats.
+**Behavior**:
+  * Approaches the nearest enemy Sky Ship directly, using available cover only when it does not significantly delay the approach.
+  * Prioritizes movement over defensive preparations and does not waste AP on actions that do not help it close the distance.
+  * Attempts to ram and grapple its target as soon as it gets within range.
+  * Once boarding begins, commits to the attack rather than attempting to disengage.
+* **Hull**: `100` HP
+* **AP**: `4` per Turn
+
+**Actions**:
+* **Ram and Board**:
+  * AP: `2`; Range: `1` Square.
+  * The Swine Ramship slams its reinforced prow into an enemy Sky Ship and attempts to lock the two vessels together.
+  * The target becomes Grappled. It costs `2` AP to remove this Condition.
+  * At the start of the Swine Ramship's next Turn, if the target remains Grappled, boarding begins. Migrate to personal Combat.
+
+## Pirates
+There is little honor among thieves like these. They take what they want and the captain dictates law and order among them. 
+
+### Pirate Cutter
+A battered Sky Ship assembled from a stripped-down merchant vessel, reinforced with mismatched plates of scrap metal and fitted with salvaged cannons. Its engines belch black smoke, while grappling lines and boarding hooks hang from its sides. The crew relies on sudden attacks and close-range boarding rather than prolonged artillery duels. A Pirate Cutter is dangerous when it dictates the engagement, but vulnerable when forced to trade fire with a better-equipped opponent.
+
+* **Role**: Raider, Boarding Vessel
+  * A hostile vessel that pressures enemy ships with repeated cannon fire and attempts to close in for boarding. Its modest hull and short-ranged armament make it vulnerable to disciplined counterfire.
+  * Once the boarding has begun, migrate to personal Combat. If the Stormbreakers win, the vessel retreats. 
+* **Hull**: `80` HP
+* **AP**: `4` per Turn
+* **Accuracy**: `8`
+**Behavior**:
+  * Approaches under cover of clouds or floating debris when possible.
+  * Opens fire with its cannons once the target is within range.
+  * Uses its grapnel to hinder escape or prepare for boarding, rather than simply maximizing cannon fire.
+  * Attempts to withdraw when its hull falls to `30` HP or less, unless it has already secured a boarding opportunity.
+
+**Armament**:
+* `2` **Light Cannons**:
+  * Range: `2` Squares; Ammo: `1` each
+  * `≤ 2`: `15` Piercing
+  * `= 3` Hits: `18` Piercing
+  * `≥ 4` Hits: `21` Piercing
+  * Reload: `1` AP per cannon.
+* `1` **Grapnel Launcher**:
+  * Range: `1` Square; Ammo: `1`
+  * `≤ 2` Hits: The target becomes Grappled. It costs `1` AP to remove this Condition.
+  * `= 3` Hits: The target becomes Grappled. It costs `2` AP to remove this Condition.
+  * `≥ 4` Hits: The target becomes Grappled. It costs `3` AP to remove this Condition.
+  * Reload: `1` AP.
