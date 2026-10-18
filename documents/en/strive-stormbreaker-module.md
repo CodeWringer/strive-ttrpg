@@ -12,7 +12,6 @@
 * Special weapons -> Gun emplacements, mortars, grenade launchers, etc.
 * Enemy bestiary:
   * Corruption monsters
-  * Pirates/Raiders
 * Provide several ready-to-go adventures.
 * Define how to place and size regions. 
 -->
@@ -142,7 +141,7 @@ This will be a far more directed experience than usual, tailor-cut for shorter c
     - [Frigid Luminance](#frigid-luminance)
   - [Tier Three Biomes](#tier-three-biomes)
     - [Viscuous Gloom](#viscuous-gloom)
-    - [Death Range](#death-range)
+    - [Shattered Realm](#shattered-realm)
     - [Great Eye](#great-eye)
   - [Tier Four Biome](#tier-four-biome)
     - [Endless Storm](#endless-storm)
@@ -174,6 +173,9 @@ This will be a far more directed experience than usual, tailor-cut for shorter c
     - [Swine Packlord](#swine-packlord)
     - [Swine 'Rilla](#swine-rilla)
     - [Swine Sky Ramship](#swine-sky-ramship)
+  - [Tar Creatures](#tar-creatures)
+    - [Tar Leech](#tar-leech)
+    - [Tartarus](#tartarus)
   - [Pirates](#pirates)
     - [Pirate Captain](#pirate-captain)
     - [Pirate Skirmisher](#pirate-skirmisher)
@@ -310,7 +312,7 @@ For every point of protection, a Character can survive in Death Fog for `+30` Mi
 ## Overworld & Regions
 The **Overworld** is the map that is divided by a grid of hexagons, each of which is considered to be `20` miles or km in diameter. This is the highest level of abstraction and can only be traveled by Sky Ship. Each hex that is traveled by Sky Ship costs `1` unit of fuel. When it runs out, the Sky Ship is stranded and will drift at the whims of the wind. Every `5` Overworld hexes traveled should advance the QoD by one. 
 
-The Overworld is divided into **Regions**, each of which represents a contiguous area, separated from the others by a border of Storm Wall. Every Region has a certain **Biome**, which dictates its features, potential rewards and threats. Biomes are grouped into tiers, each of which has certain rules attached to it that dictate where in the world they may appear, and how large they are expected to be. Every time the PCs successfully traverse a Storm Wall that leads to an as yet undiscovered Region, make a roll to determine its Biome. The Biome tier in question will tell you what kind of die to roll and what the result will be. 
+The Overworld is divided into **Regions**, each of which represents a contiguous area, separated from the others by a border of Storm Wall. Every Region has a certain **Biome**, which dictates its features, potential rewards and threats. Biomes are grouped into tiers, each of which has certain rules attached to it that dictate where in the world they may appear, and how large they are expected to be. Every time the PCs successfully traverse a Storm Wall that leads to an as yet undiscovered Region, make a roll to determine its Biome. The Biome tier in question will tell you what kind of die to roll and what the result will be. The Biome will also determine the size of the newly discovered Region, to be drawn onto the map from the point where the Storm Wall was traversed. 
 
 As the PCs make their way farther and farther from the Capital, the perils and rewards mount ever higher. 
 
@@ -1190,7 +1192,7 @@ For Stormbreaker specifically, Expedition rewards are a natural source of [Proje
 Aside from the rewards, the limited time at the table implies Project management should be kept short. Only *special* crafting and research require a Complex Project. Practically all Assets listed in the Module can be created in a Trivial Project, but this will still require the necessary resources. 
 
 # Introductory Adventure
-TODO
+<!-- TODO -->
 
 # Biomes
 Whenever the PCs enter a new [Region](#overworld--regions), it belongs to one the following **Biomes**, which will dictate much of what they can encounter within. Of course, you may have your own ideas and aren't required to adhere to any of the concepts presented here, but you should respect the Biome tiering, which affects the threat and loot curve of the game.
@@ -1207,12 +1209,11 @@ These Biomes must always be adjacent to the Capital's [Region](#overworld--regio
 **Biome Properties**:
 * **Storm Wall Tier**: `1`
 * **Argentumite Presence**: Very low. Only weaker specimen occasionally haunt these skies. 
+* **Silversteel**: Few deposits and shallow. Per deposit: Creative Test: Ob `2`, `2` challenges, each granting `2` Silversteel.
+* **Region Size**: `3` Square radius from the point of entry
 
 ### Lofty Jungle
 The islands of this Biome are particularly vibrant and full of color. Dense jungles have grown atop floating mountains and old, abandoned buildings. Food and peril are abundant and the Swine may be a source of technology, if they can be defeated. For whatever reason, the flora and fauna that thrives here seems unaffected by the Corruption. 
-
-* **Silversteel**: Few deposits, almost always in the most impossible to reach places, with moderate yield. Per deposit: Creative Test: Ob `2`, `3` challenges, each granting `2` Silversteel.
-* **Size**: `2` Square radius from the point of entry
 
 **Locations**:
 | D4  | Location                  | Description |
@@ -1241,9 +1242,6 @@ Before the cataclysm, the Capital was surrounded by countless towns. Some were e
 
 As these fledgling nations have yet to find their place in this new world they will openly quarrel with each other. Each is trying to seize more and more control of the region. If so inclined, the Stormbreakers may exploit this circumstance to play these Sky Nations against one another. 
 
-* **Silversteel**: No deposits. What little Silversteel is available here, is securely locked away in the vaults of the Sky Nations. 
-* **Size**: `2` Square radius from the point of entry
-
 **Locations**:
 | D6  | Location                  | Description |
 | --- | ------------------------- | ----------- |
@@ -1269,36 +1267,31 @@ As these fledgling nations have yet to find their place in this new world they w
 | 10  | **Closed Borders**        | The area ahead has been cordoned off by one of the Sky Nations. They will not let the Stormbreakers pass. | The Stormbreakers are chased away with force, and made to retreat. They must find a different route. |
 
 ### Red Sky
-In this Region, the Sky is stuck in eternal, burning dusk. It never grows fully dark, nor does it ever truly dawn. 
-
-* **Silversteel**: Few deposits and shallow. Per deposit: Creative Test: Ob `2`, `2` challenges, each granting `2` Silversteel.
-* **Size**: `3` Square radius from the point of entry
-
-<!-- TODO -->
+In this Region, the Sky is stuck in eternal, burning dusk. It never grows fully dark, nor does it ever truly dawn. Strange shapes move in the clouds, and the islands are covered in rust-colored dust. 
 
 **Locations**:
-| D6  | Location                  | Description |
-| --- | ------------------------- | ----------- |
-| 1   | ****                  |  |
-| 2   | ****               |  |
-| 3   | ****              |  |
-| 4   | ****       |  |
-| 5   | ****               |  |
-| 6   | ****        |  |
+| D6  | Location                 | Description |
+| --- | ------------------------ | ----------- |
+| 1   | **Rustfall Shelf**       | A broad, low island lies beneath a blanket of fine, rust-colored dust. Every step exposes the dark stone beneath, yet the dust slowly creeps back into place, even against the wind. In shallow cracks near the island's edge, pale metallic grains glint in the sun. |
+| 2   | **Duskward Hamlet**      | A small settlement stands remarkably intact, its timber houses and narrow streets covered in the fine, red dust. Every window and doorway faces the same direction, toward a distant, burning horizon, leaving all other walls barren. No inhabitants remain, and the dust conceals any trace of where they went. |
+| 3   | **The Hollow Sundial**   | An enormous sundial rises from a paved courtyard, its corroded metal face marked with unfamiliar symbols. Its shadow always points toward the burning horizon, regardless of the sun's apparent position. Nearby buildings have largely collapsed, but the instruments scattered among their ruins may still hold value. |
+| 4   | **Cloudbound Figures**   | A bank of deep-red cloud drifts just beyond the island. Enormous silhouettes move behind it: some resemble ships, others long-limbed creatures, and a few seem impossibly large. They keep pace with the Stormbreakers' Sky Ship, yet always out of reach, and concealed by the clouds. |
+| 5   | **The Rust Orchard**     | Rows of dead, twisted trees cover a shallow depression in the island. Their bark flakes away like oxidized metal, and brittle red leaves gather around their roots despite there being no visible wind. Some trees have grown around the remains of old machinery, leaving strange shapes embedded within their trunks, though some of it looks salvageable. |
+| 6   | **The Upward Well**      | A solitary stone well stands near the center of a barren island. A thin stream of rust-colored dust rises from its depths, spiraling upward before dispersing into the sky. The well descends farther than the island's thickness should permit, and the stones lining its interior are worn unfathomably smooth. |
 
 **Challenges**:
-| D10 | Challenge                 | Description            | Failure Result |
-| --- | ------------------------- | ---------------------- | -------------- |
-| 1   | ****|  |  |
-| 2   | ****|  |  |
-| 3   | ****|  |  |
-| 4   | ****|  |  |
-| 5   | ****|  |  |
-| 6   | ****|  |  |
-| 7   | ****|  |  |
-| 8   | ****|  |  |
-| 9   | ****|  |  |
-| 10  | ****|  |  |
+| D10 | Challenge                 | Description | Failure Result |
+| --- | ------------------------- | ----------- | -------------- |
+| 1   | **Rust Squall**           | A sudden gust sweeps rust-colored dust across the area. The abrasive particles obscure vision and work their way into filters and exposed equipment. | All filters/armors lose `1` point of protectiveness. |
+| 2   | **False Horizon**         | The burning horizon appears to shift, revealing landmarks that vanish whenever the Stormbreakers approach. Navigational instruments offer no reliable guidance. | The Stormbreakers lose their way and waste precious time. They lose `1D4` QoDs. |
+| 3   | **Emberfall**             | Glowing fragments tumble from the red clouds, cooling only moments before they strike the ground. The Stormbreakers must find cover before the falling debris reaches them. | The Stormbreakers suffer `1D4` Burning Injuries, to be divided among them. |
+| 4   | **Hollow Ground**         | Rust-colored dust conceals deep fissures in the island's surface. Underfoot, the fragile crust gives way without warning, threatening to drag the Stormbreakers into the depths below. | The Stormbreakers suffer `1D4` Bludgeoning Injuries, to be divided among them. |
+| 5   | **Cloud Stalkers**        | Strange silhouettes circle the Sky Ship before disappearing into the clouds. They return when the Stormbreakers are exposed, and this time they come much closer. | The Stormbreakers are ambushed by airborne predators! |
+| 6   | **Searing Twilight**      | The burning dusk seems to intensify, bathing the island in oppressive heat. Even the shadows offer little relief, and the Stormbreakers struggle to endure the exposure. | All Stormbreakers suffer `+1` Strain. |
+| 7   | **Red Static**            | Faint crimson arcs dance between rocks and rusted metal. The air hums, and familiar objects appear subtly distorted at the edge of the Stormbreakers' vision. | All Stormbreakers suffer `+1` Corruption. |
+| 8   | **Shattered Anchorage**   | The Sky Ship passes near a jagged ridge of rusted metal and stone. A section breaks loose and tumbles into its path, leaving little time to avoid the collision. | The Sky Ship loses `1D10` HP. |
+| 9   | **Whispers in the Dust**  | Voices carry through the rust-colored haze, seemingly calling each Stormbreaker from a different direction. Following the sounds leads away from the group and deeper into unfamiliar terrain. | The Stormbreakers become separated and must reunite before continuing their expedition. |
+| 10  | **The Descending Shadow** | An immense shape passes over the island, blotting out the burning sky. Its shadow moves against the wind, and its passage stirs the dust into a swirling cloud that engulfs the Stormbreakers. | The Stormbreakers are caught in the swirling dust and each suffer `+1` Corruption. |
 
 ## Tier Two Biomes
 These Biomes must always be adjacent to tier one Regions and must not be adjacent to the Capital's Region. 
@@ -1312,12 +1305,11 @@ These Biomes must always be adjacent to tier one Regions and must not be adjacen
 **Biome Properties**:
 * **Storm Wall Tier**: `2`
 * **Argentumite Presence**: Moderate. Some stronger specimen occasionally haunt these skies. 
+* **Silversteel**: Some large deposits, but very difficult to exploit. Per deposit: Creative Test: Ob `4`, `6` challenges, each granting `3` Silversteel.
+* **Region Size**: `3` Square radius
 
 ### Glassed Desert
 Life has all but vanished from the massive landmasses that dominate these skies, their desert surfaces glinting and sparkling in the light of the sun. Touched by Corruption and the heaven's gaze, the sands have begun to change - and some of the grains are unusually white. Massive, jagged chunks of glass float across the dunes Argentumites roam the skies high above - it may be best not to draw too much attention here. 
-
-* **Silversteel**: Some large deposits, but very difficult to exploit. Per deposit: Creative Test: Ob `4`, `6` challenges, each granting `3` Silversteel.
-* **Size**: `20` Squares
 
 **Locations**:
 | D6  | Location                  | Description |
@@ -1346,9 +1338,6 @@ Life has all but vanished from the massive landmasses that dominate these skies,
 ### Silent Winds
 The great cataclysm wiped out all life in this place. It now belongs solely to the Argentumites. Abandoned towns and crumbling factories hint at a once bustling part of the empire, while silent battlefields hold untold secrets. Beware the Corruption, whose strength has grown to peak in this place. Innumerable chunks of broken earth float everywhere in this region, making traversal by Sky Ship difficult. 
 
-* **Silversteel**: Few deposits, but densely packed, and well guarded. Per deposit: Creative Test: Ob `3`, `3` challenges, each granting `7` Silversteel.
-* **Size**: `20` Squares
-
 **Locations**:
 | D6  | Location                  | Description |
 | --- | ------------------------- | ----------- |
@@ -1374,34 +1363,31 @@ The great cataclysm wiped out all life in this place. It now belongs solely to t
 | 10  | **Structural Maze**       | Rubble and debris block large parts of the path ahead. Climbing above exposes you to flying debris or strong Corruption. | All Stormbreakers suffer `+1` Corruption. |
 
 ### Frigid Luminance
-<!-- TODO -->
-
-* **Silversteel**: Few deposits, but densely packed, and well guarded. Per deposit: Creative Test: Ob `3`, `3` challenges, each granting `7` Silversteel.
-* **Size**: `20` Squares
+In this place, the sun glows a deep blue and anything bathed in its light freezes over. Only the shadows provide reprieve, and are already coveted by isolated communities of survivors, desperately clinging to every bit of warmth they can find, for the sun has abandoned them. 
 
 **Locations**:
-| D6  | Location                  | Description |
-| --- | ------------------------- | ----------- |
-| 1   | ****  |  |
-| 2   | ****  |  |
-| 3   | ****  |  |
-| 4   | ****  |  |
-| 5   | ****  |  |
-| 6   | ****  |  |
+| D6  | Location                 | Description |
+| --- | ------------------------ | ----------- |
+| 1   | **The Last Hearth**      | A small settlement clings to the shadow cast by an enormous overhanging slab of rock. Its inhabitants have built their homes close together around crude furnaces, fiercely guarding the narrow band of darkness that keeps them alive. They are wary of strangers, but may be willing to trade supplies or information for fuel and food. |
+| 2   | **Azure Glacier**        | A vast glacier covers most of a floating island, its surface glowing in the deep blue light. The ice is unnaturally clear in some places, revealing long-buried ruins and veins of precious metal beneath. Crevasses plunge into darkness, offering shelter from the sun but making exploration perilous. |
+| 3   | **The Frozen Falls**     | A waterfall hangs suspended over the edge of an island, frozen into a magnificent cascade of blue-white ice. The water has stopped in mid-air, forming bridges, arches, and precarious ledges. Some sections remain in shadow, where the ice has begun to thaw, while others are brittle enough to shatter beneath a careless step. |
+| 4   | **The Black Needles**    | Hundreds of tall, dark stone spires rise from a barren island, casting long, narrow shadows across its frozen surface. Small groups of survivors move between these strips of darkness, carrying their belongings whenever the shadows shift. The tallest spires bear strange markings, possibly remnants of a structure built before the Rise. |
+| 5   | **The Driftgrave**       | A collection of old Sky Ships has become trapped against the side of a frozen island. Their hulls are encased in ice wherever the blue sunlight reaches them, while their undersides offer precious shelter. Scavengers have stripped some wrecks bare, but others remain sealed within the ice, their cargoes potentially intact. |
+| 6   | **The Shadowed City**    | The ruins of a sprawling city lie beneath the shadow of a massive floating landmass. Its streets are crowded with makeshift shelters, and entire districts have been divided among isolated communities. The deepest streets remain habitable, but the scarce space has made control of the city's shadows a source of constant conflict. |
 
 **Challenges**:
-| D10 | Challenge                 | Description            | Failure Result |
-| --- | ------------------------- | ---------------------- | -------------- |
-| 1   | **** |  |  |
-| 2   | **** |  |  |
-| 3   | **** |  |  |
-| 4   | **** |  |  |
-| 5   | **** |  |  |
-| 6   | **** |  |  |
-| 7   | **** |  |  |
-| 8   | **** |  |  |
-| 9   | **** |  |  |
-| 10  | **** |  |  |
+| D10 | Challenge                 | Description | Failure Result |
+| --- | ------------------------- | ----------- | -------------- |
+| 1   | **Exposed Crossing**      | The path ahead crosses open ground with no meaningful shade. The blue sunlight rapidly freezes exposed surfaces, making each step more treacherous than the last. | All Stormbreakers suffer `+1` Frostbitten. |
+| 2   | **Shifting Shadows**      | A great mass of floating rock drifts across the sun, causing the shadows to move unpredictably. The safe path disappears, forcing the Stormbreakers to search for another route. | The Stormbreakers lose precious time and lose `1D4` QoDs. |
+| 3   | **Brittle Ice**           | A seemingly solid sheet of ice lies across the route. Cracks spread beneath the Stormbreakers' weight, threatening to give way without warning. | The Stormbreakers suffer `1D4` Piercing Injuries, to be divided among them. |
+| 4   | **Blue Glare**            | Ice formations reflect and concentrate the blue sunlight, turning sheltered passages into dangerous traps. The Stormbreakers must find their way through without exposing themselves for too long. | All Stormbreakers suffer `+1` Frostbitten, and filters/armors lose `1` point of protectiveness. |
+| 5   | **Falling Ice**           | The island's frozen crust is unstable. A deep rumble travels through the ground, and enormous slabs of ice begin breaking loose overhead. | The Stormbreakers suffer `1D4` Bludgeoning Injuries, to be divided among them. |
+| 6   | **Desperate Survivors**   | A group of armed survivors has claimed the only safe passage through the area. They refuse to surrender their territory, fearing that strangers will consume their supplies or steal their shade. | The Stormbreakers are attacked by the survivors and must fight or flee. |
+| 7   | **Frozen Equipment**      | The cold has penetrated the Stormbreakers' equipment. Moving parts seize up, seals become brittle, and exposed mechanisms freeze solid. | Equipment suffers damage and may become unusable until repaired. |
+| 8   | **The Icebound Predator** | Something large moves beneath the translucent ice, following the Stormbreakers from below. When the ice begins to crack around them, it becomes clear that the creature has found a way to reach its prey. | The Stormbreakers are ambushed by a predator! |
+| 9   | **Argentumite Patrol**    | Pale figures move between distant islands, almost invisible against the frozen landscape. An Argentumite patrol has noticed the Stormbreakers and is closing in. | The Stormbreakers are attacked by Argentumites! |
+| 10  | **The Lost Refuge**       | A trail of footprints leads into an isolated pocket of shadow, where a settlement appears to have been abandoned in haste. Signs of a struggle lead away from the shelters and into the exposed light. | The Stormbreakers are drawn into danger while investigating and suffer `1D4` Injuries, to be divided among them. |
 
 ## Tier Three Biomes
 These Biomes must always be adjacent to tier two Regions and must not be adjacent to tier one, or lower Regions. 
@@ -1415,18 +1401,92 @@ These Biomes must always be adjacent to tier two Regions and must not be adjacen
 **Biome Properties**:
 * **Storm Wall Tier**: `3`
 * **Argentumite Presence**: High. Many stronger Argentumites roam these skies. 
+* **Silversteel**: Few deposits, densely packed and difficult to extract. Per deposit: Creative Test: Ob `3`, `3` challenges, each granting `7` Silversteel.
+* **Region Size**: `4` Square radius
 
 ### Viscuous Gloom
-<!-- TODO -->
+The shadows are thick and viscuous, like tar. The sky above is covered in a blanket of impenetrable, darkened clouds. Within the eternal gloom, glowing crystals float, like bulwarks of life and hope. Their light is sacred, and precious. 
 
-### Death Range
-<!-- TODO -->
+**Locations**:
+| D6  | Location                 | Description |
+| --- | ------------------------ | ----------- |
+| 1   | **The Last Beacon**      | A towering crystal floats above a barren island, casting a pale glow across the surrounding darkness. A small settlement has grown beneath it, its inhabitants living within the circle of light and treating the crystal as sacred. They allow no one to approach it without permission, and even the promise of valuable trade may not sway them. |
+| 2   | **The Tar Pits**         | Thick shadows pool across the island in great, glossy expanses, moving sluggishly like black tar. Broken buildings and ancient machinery protrude from the darkness, their lower halves already swallowed. Something occasionally disturbs the surface from beneath, but whether it is debris or a living thing is impossible to tell. |
+| 3   | **The Crystal Cathedral**| A vast structure of stone and dark metal rises from the gloom, its spires crowned with countless glowing crystals. The interior is almost entirely dark, except where crystals have broken free and now float through its halls. Whatever purpose the cathedral once served, someone has gone to great lengths to preserve its lights. |
+| 4   | **The Shrouded City**    | The remains of a city stretch across several connected islands, its streets covered by shadows so thick they resemble flowing ink. Small communities survive in isolated pockets around floating crystals, separated by stretches of darkness that no one crosses lightly. The settlements sometimes exchange supplies, but old disputes over territory and light persist. |
+| 5   | **The Hanging Garden**   | A forest of pale, leafless trees grows upside down from the underside of a floating island. The roots dangle through the darkness, trailing into the viscous shadows below. Clusters of tiny crystals glow among the roots, providing enough light for strange fungi and small, pale creatures to thrive. The whole place sways gently in the wind. |
+| 6   | **The Great Crystal**    | An enormous crystal formation floats within a hollow between several islands, its many facets illuminating the surrounding darkness. Smaller crystals orbit it in slow, deliberate paths. The light reveals veins of Silversteel in the nearby stone, but the formation seems to attract things from the gloom, and distant silhouettes gather wherever its radiance reaches. |
+
+**Challenges**:
+| D10 | Challenge                  | Description | Failure Result |
+| --- | -------------------------- | ----------- | -------------- |
+| 1   | **Grasping Shadows**       | The shadows cling to the Stormbreakers like thick tar, pulling at their boots and equipment whenever they cross an exposed stretch. Progress slows as they struggle to free themselves. | The Stormbreakers lose precious time. They lose `1D4` QoDs. |
+| 2   | **Lightless Passage**      | The darkened clouds conceal the terrain ahead, while the shadows below offer no reliable indication of depth or distance. The Stormbreakers become disoriented and lose their route. | All Stormbreakers suffer `+1` Corruption. |
+| 3   | **Crystal Shards**         | A glowing crystal fractures somewhere above. Sharp fragments rain down through the darkness, their light briefly revealing the hazard only moments before impact. | The Stormbreakers suffer `1D6` Piercing Injuries, to be divided among them. |
+| 4   | **Beacon in Peril**        | A crystal that shelters a nearby settlement begins to dim. Something has attached itself to its surface, draining its light. The inhabitants plead for help, but the thing has already begun to stir. | The Stormbreakers are attacked by a Tar creature! |
+| 5   | **Shadow Surge**           | The shadows suddenly flow across the ground in a single, rising wave, swallowing the path ahead. The Stormbreakers must scramble toward higher ground or the nearest source of light before they are engulfed. | The Stormbreakers suffer `1D4` Bludgeoning Injuries, to be divided among them. |
+| 6   | **Crystal Dust**           | Fine luminous dust drifts from a cluster of damaged crystals. It clings to exposed skin and equipment, making instruments go haywire. | The Stormbreakers lose `1D4` QoD. |
+| 7   | **Claimed Sanctuary**      | An isolated community has blocked access to a crystal-lit passage. Its inhabitants believe that allowing outsiders through will endanger their last safe refuge. They are armed, desperate, and unwilling to negotiate. | The Stormbreakers are attacked by the survivors and must fight or flee. |
+| 8   | **The Silent Pursuer**     | Something moves between the islands, always just beyond the edge of the crystal light. Whenever the Stormbreakers stop, it stops as well. The darkness conceals its approach until escape becomes difficult. | The Stormbreakers are ambushed by a Tar creature! |
+| 9   | **Collapsing Shadowbridge**| A narrow bridge of stone connects two islands, but its surface is covered in viscous darkness. As the Stormbreakers cross, sections of the bridge begin breaking away and falling into the depths. | The Stormbreakers suffer `1D4` Bludgeoning Injuries, to be divided among them. |
+| 10  | **The Dimming**            | The floating crystals throughout the area begin losing their light simultaneously. The shadows thicken, swallowing familiar landmarks and separating the Stormbreakers from their route back to safety. | The Stormbreakers lose their way and lose `1D4` QoDs. |
+
+### Shattered Realm
+The entire area is akin to an asteroid field - with uncountable chunks of earth, rock, metal and glass swirling in the currents like leaves on the wind. This place is entirely inhospitable, and testament to the great destruction in the cataclysm. The ruins of various Sky Ships drift among the debris. Whether anyone else actually made it this far is questionable, and finding survivors is even more so. 
+
+**Locations**:
+| D6  | Location                  | Description |
+| --- | ------------------------- | ----------- |
+| 1   | **The Broken Armada**     | Dozens of shattered Sky Ships drift in a tangled mass, their hulls wedged between enormous chunks of rock and metal. Some still bear the colors of long-lost nations. Others are built in unfamiliar styles. The wrecks offer plentiful salvage, but reaching their interiors means navigating the debris that surrounds them. |
+| 2   | **The Splinter Crown**    | A vast cloud of glass fragments forms a glittering crown around a slowly rotating island fragment. The shards range from tiny, harmless slivers to pieces large enough to cleave through timber. Something metallic glints beneath the glass, half-buried and difficult to reach. |
+| 3   | **The Buried City**       | An entire district of an old city lies scattered across several drifting landmasses. Streets end abruptly at broken edges, buildings lie on their sides, and familiar roads lead into empty sky. Some structures remain remarkably intact, their contents untouched for centuries. |
+| 4   | **The Iron Choir**        | A dense field of metal debris produces an eerie chorus as its pieces collide and scrape against one another. The sound travels through the surrounding fragments, making it difficult to judge distances or locate its source. Among the debris are broken industrial machines and pieces of equipment far more advanced than anything in the Capital. |
+| 5   | **The Last Distress**     | A faint radio signal repeats a desperate call for help from somewhere inside a cluster of wrecked Sky Ships. The transmission is weak but unmistakably human. Its origin is buried beneath layers of debris, and there is no telling whether the signal is live, recorded, or even genuine. |
+| 6   | **The Driftgrave**        | An immense formation of earth, rock, and wreckage slowly turns around a dark central mass. Ship hulls, fragments of buildings, and broken machinery have become trapped in its outer layers. The formation moves in a way that suggests a current beneath the debris, though nothing visible explains its motion. |
+
+**Challenges**:
+| D10 | Challenge                  | Description | Failure Result |
+| --- | -------------------------- | ----------- | -------------- |
+| 1   | **Crushing Passage**       | The route narrows as enormous chunks of rock and metal drift together. The Stormbreakers must cross before the gap closes completely. | `1D4` Bludgeoning Injuries divided among the Stormbreakers. |
+| 2   | **Glass Squall**           | A fast-moving current carries a cloud of glass fragments across the route. The smallest shards tear at exposed skin, while larger pieces threaten to cut through equipment. | `1D6` Piercing Injuries divided among the Stormbreakers. |
+| 3   | **Rogue Current**           | The debris around the Stormbreakers begins moving in a different direction from the surrounding field. Their expected route shifts, forcing them to find a new passage through. | Lose `1D4` QoDs. |
+| 4   | **Entangled Wreckage**     | Cables, rigging, and torn hull plates form a dense snare between several wrecks. Crossing it without becoming trapped requires careful movement or cutting a way through. | Progress is halted as the Stormbreakers struggle to free themselves. Lose `1D4` QoDs. |
+| 5   | **Unstable Footing**       | The landmass beneath the Stormbreakers starts breaking apart. Cracks spread through the rock as nearby fragments pull sections of the island in different directions. | `1D4` Bludgeoning Injuries divided among the Stormbreakers. |
+| 6   | **Dead Air**               | Radio communication becomes unreliable amid the metal debris. Voices break apart into static, and transmissions seem to originate from several directions at once. | Radio equipment is damaged and may become unusable. |
+| 7   | **Collapsing Wreck**       | A seemingly intact Sky Ship offers a promising route through the debris. Once the Stormbreakers enter, its weakened structure begins to collapse around them. | `1D4` Bludgeoning Injuries divided among the Stormbreakers. |
+| 8   | **False Distress**         | A distress call leads the Stormbreakers toward a damaged vessel. When they arrive, they find no sign of survivors, only a dangerous route through tightly packed debris. | The detour costs valuable time. Lose `1D4` QoDs. |
+| 9   | **Unseen Pursuer**         | Something moves between the drifting fragments, always disappearing before it can be clearly identified. It keeps pace with the Stormbreakers and waits for an opportunity to strike. | A Threat ambushes the Stormbreakers. |
+| 10  | **Collision Cascade**      | A collision among the larger fragments sets off a chain reaction. Smaller pieces ricochet through the field, turning the surrounding area into a storm of stone and metal. | `1D6` Bludgeoning Injuries divided among the Stormbreakers. |
 
 ### Great Eye
-<!-- TODO -->
+A false sun sits in the center of this area, iridescently glowing in the colors of the rainbow, reaching out with tendrils of swirling light. Whatever they touch, forever changes, for better or worse. Even the Argentumites avoid the tendrils. In the distance, you can see glowing structures and creatures. 
+
+**Locations**:
+| D6  | Location                  | Description |
+| --- | ------------------------- | ----------- |
+| 1   | **The False Sun**         | The source of the rainbow light hangs in the distance, its tendrils slowly sweeping across the surrounding islands. Approaching it would mean passing through a constantly shifting web of light. Objects caught in its reach no longer remain what they were. |
+| 2   | **The Luminous Court**    | A complex of glowing structures stands upon several interlocking islands. Its walls shimmer with colors that have no names, and its architecture seems to defy perspective. Openings appear and vanish as the light moves across the buildings. Something may still inhabit this place. |
+| 3   | **The Changed Wilds**     | Creatures wander across a landscape transformed by the false sun. Some float without wings, others possess too many limbs, and a few resemble elaborate sculptures until they begin to move. The vegetation is equally strange, with trees growing in impossible shapes and flowers that shine like small stars. |
+| 4   | **The Argentumite Verge** | A field of broken landmasses lies just beyond the reach of the nearest tendrils. The ground is scored with the marks of enormous fleeing creatures, and Argentumite tracks lead away from the light rather than toward it. Whatever lies beyond this boundary is apparently not worth the risk to them. |
+| 5   | **The Prismatic Sea**     | Shards of colored crystal float between the islands, slowly turning and refracting the false sun into countless smaller beams. Some fragments appear to contain objects that were changed when the light passed through them. The resulting display is beautiful, but navigating it means crossing a maze of unpredictable reflections. |
+| 6   | **The Wreath**            | Several enormous islands form a broken ring around the false sun. Their surfaces are covered in luminous structures, and strange creatures move between them as if following paths invisible to ordinary eyes. The ring offers a vantage point over the entire region, but its connecting passages are repeatedly crossed by tendrils of light. |
+
+**Challenges**:
+| D10 | Challenge                  | Description | Failure Result |
+| --- | -------------------------- | ----------- | -------------- |
+| 1   | **Wandering Tendril**      | A tendril of rainbow light sweeps across the Stormbreakers' route. It moves slowly enough to observe, but its path changes without warning. Anything it touches is permanently altered. | One Stormbreaker is touched by the tendril and permanently transformed. The change may be beneficial, harmful, or ambiguous; its exact nature is determined by the GM. |
+| 2   | **Refraction Maze**        | The light refracts through floating crystals, making distant objects appear close and nearby obstacles seem impossibly far away. Every attempted shortcut leads somewhere unexpected. | Lose `1D4` QoDs. |
+| 3   | **Chromatic Shrapnel**     | A passing tendril strikes a cluster of floating crystal fragments. The fragments change shape and burst apart, scattering razor-sharp shards across the surrounding area. | `1D6` Piercing Injuries divided among the Stormbreakers. |
+| 4   | **Unstable Ground**        | The light has altered the island beneath the Stormbreakers. Stone bends like soft clay, solid ground becomes brittle, and sections of the surface suddenly shift out of place. | `1D4` Bludgeoning Injuries divided among the Stormbreakers. |
+| 5   | **The Changed Predator**   | A creature approaches through the glowing vegetation. Its body has been transformed by the false sun, leaving it with unfamiliar limbs, unusual movement, or abilities that make its behavior difficult to predict. | A Threat ambushes the Stormbreakers. |
+| 6   | **False Beacon**           | A distant structure shines with a steady, welcoming light. It appears to offer a safe route through the area, but its position shifts whenever the Stormbreakers attempt to approach it. | Lose `1D4` QoDs. |
+| 7   | **Reflected Tendril**      | A narrow beam of rainbow light strikes a floating crystal and emerges in an unexpected direction. Several reflections cross the route, making it difficult to identify which surfaces are safe. | A piece of equipment is damaged and may become unusable. |
+| 8   | **Argentumite Flight**     | An Argentumite emerges from behind a landmass, fleeing from a tendril that has swept across its path. It moves recklessly through the surrounding debris, creating a dangerous situation for anyone in its way. | The Stormbreakers suffer `1D4` Bludgeoning Injuries divided among them as the fleeing creature or the debris it dislodges strikes their route. |
+| 9   | **Luminous Growth**        | A cluster of glowing structures begins changing as the tendrils approach. Their surfaces swell and twist, filling the passage with unfamiliar protrusions and closing off the route the Stormbreakers intended to use. | Progress is halted as the Stormbreakers search for a way through. Lose `1D4` QoDs. |
+| 10  | **Spectrum Surge**         | The false sun brightens until its tendrils stretch across the surrounding islands in a single, dazzling wave. Colors bleed into one another, and the landscape seems to change before the Stormbreakers' eyes. | `+1` Corruption to all Stormbreakers. |
 
 ## Tier Four Biome
-There is actually only one Biome in this tier - the Endless Storm. It must always be adjacent only to tier three Regions
+There is actually only one Biome in this tier - the Endless Storm. It must always be adjacent only to tier three Regions and will stretch out endlessly.
 
 **Biome Properties**:
 * **Storm Wall Tier**: `4`
@@ -2084,6 +2144,15 @@ A crude Sky Ship built from mismatched scrap, salvaged engines, and the remains 
 * **Ram and Board**:
   * The Swine Ramship slams its reinforced prow into an enemy Sky Ship and attempts to lock the two vessels together. The target becomes Grappled. It costs `2` AP to remove this Condition. At the start of the Swine Ramship's next Turn, if the target remains Grappled, boarding begins. Migrate to personal Combat.
   * AP: `2`; Range: `1` Square.
+
+## Tar Creatures
+Beings that thrive in the Viscuous Gloom, or are born from it. Their existence defies reason, yet the threat they pose is real, as they seek to consume life and light with insatiable hunger.
+
+### Tar Leech
+<!-- TODO -->
+
+### Tartarus
+<!-- TODO -->
 
 ## Pirates
 There is little honor among thieves like these. They take what they want and the captain dictates law and order among them. Ruthless and selfish, they would see the world come undone, if only to live another day. 
