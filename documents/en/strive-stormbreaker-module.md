@@ -175,6 +175,7 @@ This will be a far more directed experience than usual, tailor-cut for shorter c
     - [Swine 'Rilla](#swine-rilla)
     - [Swine Sky Ramship](#swine-sky-ramship)
   - [Pirates](#pirates)
+    - [Pirate Captain](#pirate-captain)
     - [Pirate Skirmisher](#pirate-skirmisher)
     - [Pirate One-Eye](#pirate-one-eye)
     - [Pirate Cutter Sky Ship](#pirate-cutter-sky-ship)
@@ -719,8 +720,8 @@ See also [Core Cover](./strive-core.md#cover).
 See also [Core Flanking](./strive-core.md#flanking).
 
 * **Unthreatened**: armor and shield protect fully. No Defense penalties. 
-* **Flanked**: armor and shield protect only half (RU) as much. `+1D` for an Attacker. 
-* **Surrounded**: armor and shield no longer protect **at all**. `+2D` for an Attacker. 
+* **Flanked**: armor and shield protect only half (RU) as much. `+1D` for an Attacker. This is the equivalent of the Flanked and Surrounded states from the Core rules. 
+* **Surrounded**: armor and shield no longer protect **at all**. `+2D` for an Attacker. This is the equivalent of the Overwhelmed state from the Core rule. 
 
 ### Prone
 See also [Core Prone](./strive-core.md#prone).
@@ -1477,7 +1478,7 @@ A by no means exhaustive list of themed creatures for the GM to draw from.
 
 In the Characteristics blocks below, when armor is concerned, it may be noted in the form `U/F/S`, which are simply the pre-calculated values the armor provides under consideration of the degrees of [Flanking](./strive-core.md#flanking). The order is always: Unthreatened, Flanked and Surrounded. However, armor may also be noted as a plain value, e. g. `5`, which implies the creature does not suffer [Flanking](./strive-core.md#flanking).
 
-Also note that "Def" is a static modifier to an Attacker's dice pool, that always applies when they roll. If none is noted, the Attacker's dice pool is always unmodified by the creature in question. 
+Also note that "Def" is a static modifier to an Attacker's dice pool, that always applies when they roll. If none is noted, the Attacker's dice pool is always unmodified by the creature in question. If an **Edge** is noted for the Def, that means the Attacker suffers `-1D`, while a Bane means the Attacker enjoys `+1D`
 
 ## Airborne
 Natural airborne creatures - at least as *natural* as they come, these days. 
@@ -2081,13 +2082,52 @@ A crude Sky Ship built from mismatched scrap, salvaged engines, and the remains 
 
 **Actions**:
 * **Ram and Board**:
+  * The Swine Ramship slams its reinforced prow into an enemy Sky Ship and attempts to lock the two vessels together. The target becomes Grappled. It costs `2` AP to remove this Condition. At the start of the Swine Ramship's next Turn, if the target remains Grappled, boarding begins. Migrate to personal Combat.
   * AP: `2`; Range: `1` Square.
-  * The Swine Ramship slams its reinforced prow into an enemy Sky Ship and attempts to lock the two vessels together.
-  * The target becomes Grappled. It costs `2` AP to remove this Condition.
-  * At the start of the Swine Ramship's next Turn, if the target remains Grappled, boarding begins. Migrate to personal Combat.
 
 ## Pirates
-There is little honor among thieves like these. They take what they want and the captain dictates law and order among them. 
+There is little honor among thieves like these. They take what they want and the captain dictates law and order among them. Ruthless and selfish, they would see the world come undone, if only to live another day. 
+
+### Pirate Captain
+A hardened veteran who has survived countless raids through equal parts cunning, brutality, and sheer force of personality. The Captain wields a finely maintained cutlass and wears salvaged armor, favoring decisive strikes over elaborate technique. Their voice carries across the chaos of battle, directing the crew with sharp, unmistakable commands. 
+
+* **Power**: Elite, CR: `15`
+* **Roles**: Brawler, Commander
+  * A formidable melee combatant who can hold their own against a Stormbreaker while improving the effectiveness and survivability of nearby pirates.
+  * When paired with a Squad of [Pirate Skirmishers](#pirate-skirmisher), whenever "one ally" is concerned by the Captain's Skills, the entire Squad is considered a viable target. 
+* **Behavior**:
+  * Leads from the front, engaging dangerous opponents rather than hiding behind the crew.
+  * Commands nearby pirates to exploit openings and press their advantage.
+  * Uses their authority to keep the crew fighting when a lesser leader might lose control.
+  * Interposes themself to protect valuable crew members from dangerous attacks.
+
+| Agi   | Awar  | Str   | Tough | Wit   |
+| ----- | ----- | ----- | ----- | ----- |
+| 5     | 4     | 5     | 4     | 4     |
+
+| BI   | Sprint | Stabil | HP  | Stamina | FS (Melee) | Def   | Armor |
+| ---- | ------ | ------ | --- | ------- | ---------- | ----- | ----- |
+| 13   | 4      | 1      | 40  | 8       | 6 Slashing | Edge  | `5/3/0` Slashing; `5/3/0` Piercing; `5/3/0` Bludgeoning |
+
+**Skills**:
+* **Captain's Cutlass (Agi/Str)**:
+  * Deliver a powerful cutlass strike against a ST in melee.
+  * Level: `4`, AP: `2`, Hit(s): unmodified, Melee, ST, Innate
+  * `≤ 2`: `8` Slashing
+  * `= 3` Hits: `13` Slashing
+  * `≥ 4` Hits: `18` Slashing
+* **Open Them Up! (Tough/Wit)**:
+  * Bark an order at one allied Pirate within `20` Squares, directing them to exploit an opening. The target gains `+1` Edge on their next Attack roll before the start of the Captain's next Turn. This command can be used once per Round, and its benefit does not stack with itself.
+  * Level: `4`, AP: `1`, Ranged, ST, Innate
+* **Move It! (Tough/Wit)**:
+  * Once per Round, order one allied Pirate within `20` Squares to act without hesitation, and force them to move up to `4` Squares, without provoking Opportunity Attacks. 
+  * Level: `4`, AP: `1`, Ranged, ST, Innate
+* **Hold Fast! (Tough/Wit)**:
+  * **Reaction**: Once per Round, upon an ally within `20` Squares being Attacked, order them to brace. The target gains `+1` Guarded, to immediately spend on Defense. 
+  * Level: `4`, AP: `1`, Ranged, ST, Innate
+* **Behind Me! (Tough/Tough)**:
+  * **Reaction**: Once per Round, upon an adjacent ally being Attacked, interpose yourself to protect them, and always reduce the Attack to a Glancing Hit. 
+  * Level: `4`, AP: `1`, Reaction, Innate
 
 ### Pirate Skirmisher
 A quick-footed pirate who favors a cutlass and dirty fighting over heavy armor. The Skirmisher darts in and out of reach, testing an opponent's guard before attacking their footing. Once an enemy is off-balance, the Skirmisher presses the advantage relentlessly. They are dangerous in a duel, but lack the armor and staying power to endure a prolonged exchange of blows.
@@ -2124,7 +2164,7 @@ A quick-footed pirate who favors a cutlass and dirty fighting over heavy armor. 
   * `≥ 4` Hits: `8` Bludgeoning; target becomes Prone
 
 ### Pirate One-Eye
-A crazed pirate sharpshooter with a battered Maksim Rifle and a grapnel gun slung across their back. One eye is permanently pressed against the rifle's crude scope, while the other darts about with unsettling intensity. Their pilfered rifle has been tampered with, its firing mechanism prone to failure at the worst possible moments. The One-Eye compensates with unnerving accuracy and relentless movement, making them a threat that cannot safely be left unattended.
+A crazed pirate sharpshooter with an eye patch, a battered Maksim Rifle and a grapnel gun slung across their back. Their pilfered rifle has been obviously tampered with, and it seems ill-maintained. The Pirate One-Eye surprises with unnerving accuracy and agile movement, making them a threat that cannot safely be left unattended.
 
 * **Power**: Regular, CR: `7`
 * **Roles**: Artillery, Ambusher
@@ -2158,6 +2198,9 @@ A crazed pirate sharpshooter with a battered Maksim Rifle and a grapnel gun slun
   * Move up to `8` Squares, ending in a free space adjacent to the anchor. This movement can cross gaps and vertical surfaces but cannot pass through solid obstacles.
   * This movement follows normal Opportunity Attack rules.
   * The Grapnel Gun cannot be used without a suitable anchor or when the One-Eye cannot reach a free landing space.
+* **Smoke Bomb (Agi/Awar)**:
+  * Throw a smoke bomb at your feet, to cover your retreat, in a `2` Square AoE radius. 
+  * Level: `3`, AP: `1`, Innate
 
 ### Pirate Cutter Sky Ship
 A battered Sky Ship assembled from a stripped-down merchant vessel, reinforced with mismatched plates of scrap metal and fitted with salvaged cannons. Its engines belch black smoke, while grappling lines and boarding hooks hang from its sides. The crew relies on sudden attacks and close-range boarding rather than prolonged artillery duels. A Pirate Cutter is dangerous when it dictates the engagement, but vulnerable when forced to trade fire with a better-equipped opponent.
