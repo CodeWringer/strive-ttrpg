@@ -43,7 +43,7 @@ This will be a far more directed experience than usual, tailor-cut for shorter c
   - [Corruption](#corruption)
     - [Corrupted Condition](#corrupted-condition)
   - [Death Fog](#death-fog)
-  - [Overworld](#overworld)
+  - [Overworld \& Regions](#overworld--regions)
 - [The Mission](#the-mission)
   - [The Capital's Unity](#the-capitals-unity)
     - [Cult Unity Effect](#cult-unity-effect)
@@ -132,26 +132,25 @@ This will be a far more directed experience than usual, tailor-cut for shorter c
   - [Projects and Rewards](#projects-and-rewards)
 - [Introductory Adventure](#introductory-adventure)
 - [Biomes](#biomes)
-  - [Lofty Jungle](#lofty-jungle)
-    - [Lofty Jungle Locations](#lofty-jungle-locations)
-    - [Lofty Jungle Challenges](#lofty-jungle-challenges)
-  - [Sky Nations](#sky-nations)
-    - [Sky Nations Locations](#sky-nations-locations)
-    - [Sky Nations Challenges](#sky-nations-challenges)
-  - [Glassed Desert](#glassed-desert)
-    - [Glassed Desert Locations](#glassed-desert-locations)
-    - [Glassed Desert Challenges](#glassed-desert-challenges)
-  - [Silent Winds](#silent-winds)
-    - [Silent Winds Locations](#silent-winds-locations)
-    - [Silent Winds Challenges](#silent-winds-challenges)
-  - [Endless Storm](#endless-storm)
-    - [Endless Storm Locations](#endless-storm-locations)
+  - [Tier One Biomes](#tier-one-biomes)
+    - [Lofty Jungle](#lofty-jungle)
+    - [Sky Nations](#sky-nations)
+    - [Red Sky](#red-sky)
+  - [Tier Two Biomes](#tier-two-biomes)
+    - [Glassed Desert](#glassed-desert)
+    - [Silent Winds](#silent-winds)
+    - [Frigid Luminance](#frigid-luminance)
+  - [Tier Three Biomes](#tier-three-biomes)
+    - [Viscuous Gloom](#viscuous-gloom)
+    - [Death Range](#death-range)
+    - [Great Eye](#great-eye)
+  - [Tier Four Biome](#tier-four-biome)
+    - [Endless Storm](#endless-storm)
       - [The Cradle](#the-cradle)
-    - [Endless Storm Challenges](#endless-storm-challenges)
 - [Creature Compendium](#creature-compendium)
   - [Airborne](#airborne)
     - [Aerial Raptor](#aerial-raptor)
-    - [Cloud Jellyfish](#cloud-jellyfish)
+    - [Aerial Jellyfish](#aerial-jellyfish)
       - [Swarms](#swarms)
     - [Hull Leech](#hull-leech)
     - [Kraken](#kraken)
@@ -174,9 +173,11 @@ This will be a far more directed experience than usual, tailor-cut for shorter c
     - [Swine Skulker](#swine-skulker)
     - [Swine Packlord](#swine-packlord)
     - [Swine 'Rilla](#swine-rilla)
-    - [Swine Ramship](#swine-ramship)
+    - [Swine Sky Ramship](#swine-sky-ramship)
   - [Pirates](#pirates)
-    - [Pirate Cutter](#pirate-cutter)
+    - [Pirate Skirmisher](#pirate-skirmisher)
+    - [Pirate One-Eye](#pirate-one-eye)
+    - [Pirate Cutter Sky Ship](#pirate-cutter-sky-ship)
 
 # Glossary
 
@@ -203,7 +204,7 @@ Before The Rise, the Valennian Kijserrijk was a vast empire, outstretching from 
 
 Even so, the empire endures, albeit in steady decline, fractured across many floating islands of faltering loyalty. Civilian Sky Ships dot the skies, traveling from place to place and keeping alive the ties between. This is not merely an act of loyalty, but one of survival. Without distribution of what scant resources remain, neither the Capital, nor its vassals could survive. And supplies are on a steady decline. Without significant changes, none shall survive.
 
-On the [Overworld](#overworld) map, draw the Capital's current territory as a `2` hexagon radius around it, or in other words, `2` hexagon rings round it. Divide this territory into three evenly-sized segments, then distribute the following locations across these segments. For now, these are simply special places of interest in the Capital's skies. 
+On the [Overworld](#overworld--regions) map, draw the Capital's current territory as a `2` hexagon radius around it, or in other words, `2` hexagon rings round it. Divide this territory into three evenly-sized segments, then distribute the following locations across these segments. For now, these are simply special places of interest in the Capital's skies. 
 
 | Location               | Description |
 | ---------------------- | ----------- |
@@ -275,7 +276,7 @@ Its primary uses lie in improving the [Sky Ship's](#sky-ship) protection from th
 >
 > This means: when the Stormbreakers have found a deposit they wish to extract Silversteel from, they may solve a Creative Test with `6` challenges, each at Ob `3`. For every successful challenge, the final Silversteel yield increases by `+5` units. 
 
-The following table offers some generic challenges. More specific ones are offered for each biome, for the GM to see. 
+The following table offers some generic challenges. More specific ones are offered for each Biome, for the GM to see. 
 
 | D6 | Challenge                 | Description            | Failure Result |
 | -- | ------------------------- | ---------------------- | -------------- |
@@ -305,8 +306,12 @@ Ever since the cataclysm, the world below has been covered in **Death Fog** - cl
 
 For every point of protection, a Character can survive in Death Fog for `+30` Minutes. 
 
-## Overworld
-When traveling by Sky Ship, the PCs are expected to traverse a grid of hexagons, each of which is considered to be `20` miles or km in diameter. Each hex that is traveled by Sky Ship costs `1` unit of fuel. When it runs out, the Sky Ship is stranded and will drift at the whims of the wind. 
+## Overworld & Regions
+The **Overworld** is the map that is divided by a grid of hexagons, each of which is considered to be `20` miles or km in diameter. This is the highest level of abstraction and can only be traveled by Sky Ship. Each hex that is traveled by Sky Ship costs `1` unit of fuel. When it runs out, the Sky Ship is stranded and will drift at the whims of the wind. Every `5` Overworld hexes traveled should advance the QoD by one. 
+
+The Overworld is divided into **Regions**, each of which represents a contiguous area, separated from the others by a border of Storm Wall. Every Region has a certain **Biome**, which dictates its features, potential rewards and threats. Biomes are grouped into tiers, each of which has certain rules attached to it that dictate where in the world they may appear, and how large they are expected to be. Every time the PCs successfully traverse a Storm Wall that leads to an as yet undiscovered Region, make a roll to determine its Biome. The Biome tier in question will tell you what kind of die to roll and what the result will be. 
+
+As the PCs make their way farther and farther from the Capital, the perils and rewards mount ever higher. 
 
 # The Mission
 It is the PCs' mission, as venerable members of the Stormbreaker Order to **ensure the survival of the Capital**. Should it fall, their only life-line falls with it and the **campaign is lost**. At the start of every session, a random [Capital Event](#capital-events) is rolled for, which may reduce the Capital's [Unity](#the-capitals-unity), [Population](#the-capitals-population) and [Supplies](#the-capitals-supplies), while increasing its [Corruption](#the-capitals-corruption). PCs can alter each of these through great achievements beyond the Storm Walls, as well as back home. 
@@ -526,9 +531,9 @@ Commands can be given to it verbally or non-verbally, via an input terminal acce
 | ----- | ----- | ----- | ----- | ----- |
 | 2     | 4     | 6     | 6     | 3     |
 
-| BI     | Sprint | Stabil | HP  | Stamina    | Def    | Armor             |
-| ------ | ------ | ------ | --- | ---------- | ------ | ----------------- |
-| 9      | 4      | 3      | 60  | Does not tire |     | `10` Slashing; `8` Piercing; `8` Bludgeoning; Poison immune; |
+| BI     | Sprint | Stabil | HP  | Stamina       | Def    | Armor             |
+| ------ | ------ | ------ | --- | ------------- | ------ | ----------------- |
+| 9      | 4      | 3      | 60  | Does not tire |        | `10` Slashing; `8` Piercing; `8` Bludgeoning; Poison immune; |
 
 **Traits**: [Fortified Mind](./strive-core.md#fortified-mind--4-points-1-cr); 
 
@@ -1187,20 +1192,28 @@ Aside from the rewards, the limited time at the table implies Project management
 TODO
 
 # Biomes
-Whenever the PCs enter a new region, it may be part of one of the following biomes, which will dictate much of what they can encounter within. Of course, you may have your own ideas and aren't required to adhere to any of the concepts presented here.
+Whenever the PCs enter a new [Region](#overworld--regions), it belongs to one the following **Biomes**, which will dictate much of what they can encounter within. Of course, you may have your own ideas and aren't required to adhere to any of the concepts presented here, but you should respect the Biome tiering, which affects the threat and loot curve of the game.
 
-As the PCs make their way farther and farther from the Capital, perils and rewards mount ever higher. 
+## Tier One Biomes
+These Biomes must always be adjacent to the Capital's [Region](#overworld--regions). 
 
-## Lofty Jungle
-The islands of this biome are particularly vibrant and full of color. Dense jungles have grown atop floating mountains and old, abandoned buildings. Food and peril are abundant and the Swine may be a source of technology, if they can be defeated. For whatever reason, the flora and fauna that thrives here seems unaffected by the Corruption. 
+| D6  | Biome            |
+| --- | ---------------- |
+| 1-2 | Lofty Jungle     |
+| 3-4 | Sky Nations      |
+| 5-6 | Red Sky          |
 
-**Storm Wall Tier**: `1`
+**Biome Properties**:
+* **Storm Wall Tier**: `1`
+* **Argentumite Presence**: Very low. Only weaker specimen occasionally haunt these skies. 
 
-**Silversteel**: Few deposits, almost always in the most impossible to reach places, with moderate yield. Per deposit: Creative Test: Ob `2`, `3` challenges, each granting `2` Silversteel.
+### Lofty Jungle
+The islands of this Biome are particularly vibrant and full of color. Dense jungles have grown atop floating mountains and old, abandoned buildings. Food and peril are abundant and the Swine may be a source of technology, if they can be defeated. For whatever reason, the flora and fauna that thrives here seems unaffected by the Corruption. 
 
-**Argentumite Presence**: Very low. Only weaker specimen occasionally haunt these skies. 
+* **Silversteel**: Few deposits, almost always in the most impossible to reach places, with moderate yield. Per deposit: Creative Test: Ob `2`, `3` challenges, each granting `2` Silversteel.
+* **Size**: `2` Square radius from the point of entry
 
-### Lofty Jungle Locations
+**Locations**:
 | D4  | Location                  | Description |
 | --- | ------------------------- | ----------- |
 | 1   | **Dense Jungle**          | The vegetation has overgrown the entirety of the island. There is no spot to land the Sky Ship, you will have to enter the island from the side, or from below. To think so much life could have survived the cataclysm - and perhaps people could have found a safe haven here? Either way, you may have to brave dangerous fauna and flora to find them. | 
@@ -1208,7 +1221,7 @@ The islands of this biome are particularly vibrant and full of color. Dense jung
 | 3   | **Overgrown Archipelago** | Countless smaller and larger islands are interconnected by hundreds of large roots and vines, outstretched across the chasms between as if desperately holding together what it can. There is no single landmass to traverse, but rather many smaller ones. The Sky Ship is useless here, but with some clever preparation, this archipelago may yet divulge its secrets. |
 | 4   | **Overgrown City**        | The remnants of a city have become a vibrant haven of nature, and may prove quite the labyrinthian nightmare to traverse. Threats new and old may lurk anywhere within, but also treasures of the past. |
 
-### Lofty Jungle Challenges
+**Challenges**:
 | D10 | Challenge                 | Description            | Failure Result |
 | --- | ------------------------- | ---------------------- | -------------- |
 | 1   | **Carnivorous Plants**    | Careless steps may land the Stormbreakers in the maw of a carnivorous plant. | The Stormbreakers are suffer `1D4` Slashing Injuries, to be divided among them! |
@@ -1222,18 +1235,15 @@ The islands of this biome are particularly vibrant and full of color. Dense jung
 | 9   | **Flash Flood**           | A sudden, heavy rain fall flushes the ground away beneath your feet. | Stormbreakers lose their footing and are carried away by the waters, even as far as the edge of the island. |
 | 10  | **Parasitic Swarm**       | A swarm of blood-feeding insects descends upon the Stormbreakers. | All Stormbreakers suffer `1` Bleeding Injury. |
 
-## Sky Nations
+### Sky Nations
 Before the cataclysm, the Capital was surrounded by countless towns. Some were even large enough to negotiate partial independence from the crown. Those that survived have now taken the chance to seize their full autonomy. The Kijser back home will want to bring these cities back into the fold, who in turn won't yield their freedom willingly. They may need to be persuaded, bought or forced into submission, if possible. But even if that fails, trade may still benefit the Capital. 
 
 As these fledgling nations have yet to find their place in this new world they will openly quarrel with each other. Each is trying to seize more and more control of the region. If so inclined, the Stormbreakers may exploit this circumstance to play these Sky Nations against one another. 
 
-**Storm Wall Tier**: `2`
+* **Silversteel**: No deposits. What little Silversteel is available here, is securely locked away in the vaults of the Sky Nations. 
+* **Size**: `2` Square radius from the point of entry
 
-**Silversteel**: No deposits. What little Silversteel is available here, is securely locked away in the vaults of the Sky Nations. 
-
-**Argentumite Presence**: Very low. Only weaker specimen occasionally haunt these skies. 
-
-### Sky Nations Locations
+**Locations**:
 | D6  | Location                  | Description |
 | --- | ------------------------- | ----------- |
 | 1   | **Vaum**                  | Vaum is a strong nation boasting several Sky Ships - although none can pierce the Storm Walls - and a modern arsenal. They may be interested in trade, but may need some convincing, first. If given the chance, they will take the region by force. |
@@ -1243,7 +1253,7 @@ As these fledgling nations have yet to find their place in this new world they w
 | 5   | **Pirates**               | Hidden away on the underside of an island, a shanty town has taken to piracy. Even in the end times, greed and selfishness work against the greater good. And yet, they may be turned into a useful tool. Getting rid of them may endear the Stormbreakers to the Sky Nations, while empowering the pirates could pressure the Sky Nations into submission for a promise of protection and aid. |
 | 6   | **Unaligned Town**        | While the Sky Nations divy up territory, some towns try to remain neutral. This is one such case. While they might submit to the crown, the Sky Nations won't just idly accept the fallen empire's meddling. |
 
-### Sky Nations Challenges
+**Challenges**:
 | D10 | Challenge                 | Description            | Failure Result |
 | --- | ------------------------- | ---------------------- | -------------- |
 | 1   | **Bandits**               | Bandits stalk this region. You will have to circumnavigate or eliminate them, to proceed. | The Stormbreakers are attacked by bandits! |
@@ -1257,17 +1267,58 @@ As these fledgling nations have yet to find their place in this new world they w
 | 9   | **Cloudblind**            | A low cloud envelops the area. Navigation by sight is impeded. | The Stormbreakers lose valuable time, as they must slow down to keep going. They lose `1D4` QoDs. |
 | 10  | **Closed Borders**        | The area ahead has been cordoned off by one of the Sky Nations. They will not let the Stormbreakers pass. | The Stormbreakers are chased away with force, and made to retreat. They must find a different route. |
 
+### Red Sky
+In this Region, the Sky is stuck in eternal, burning dusk. It never grows fully dark, nor does it ever truly dawn. 
 
-## Glassed Desert
+* **Silversteel**: Few deposits and shallow. Per deposit: Creative Test: Ob `2`, `2` challenges, each granting `2` Silversteel.
+* **Size**: `3` Square radius from the point of entry
+
+<!-- TODO -->
+
+**Locations**:
+| D6  | Location                  | Description |
+| --- | ------------------------- | ----------- |
+| 1   | ****                  |  |
+| 2   | ****               |  |
+| 3   | ****              |  |
+| 4   | ****       |  |
+| 5   | ****               |  |
+| 6   | ****        |  |
+
+**Challenges**:
+| D10 | Challenge                 | Description            | Failure Result |
+| --- | ------------------------- | ---------------------- | -------------- |
+| 1   | ****|  |  |
+| 2   | ****|  |  |
+| 3   | ****|  |  |
+| 4   | ****|  |  |
+| 5   | ****|  |  |
+| 6   | ****|  |  |
+| 7   | ****|  |  |
+| 8   | ****|  |  |
+| 9   | ****|  |  |
+| 10  | ****|  |  |
+
+## Tier Two Biomes
+These Biomes must always be adjacent to tier one Regions and must not be adjacent to the Capital's Region. 
+
+| D6  | Biome            |
+| --- | ---------------- |
+| 1-2 | Glassed Desert   |
+| 3-4 | Silent Winds     |
+| 5-6 | Frigid Luminance |
+
+**Biome Properties**:
+* **Storm Wall Tier**: `2`
+* **Argentumite Presence**: Moderate. Some stronger specimen occasionally haunt these skies. 
+
+### Glassed Desert
 Life has all but vanished from the massive landmasses that dominate these skies, their desert surfaces glinting and sparkling in the light of the sun. Touched by Corruption and the heaven's gaze, the sands have begun to change - and some of the grains are unusually white. Massive, jagged chunks of glass float across the dunes Argentumites roam the skies high above - it may be best not to draw too much attention here. 
 
-**Storm Wall Tier**: `3`
+* **Silversteel**: Some large deposits, but very difficult to exploit. Per deposit: Creative Test: Ob `4`, `6` challenges, each granting `3` Silversteel.
+* **Size**: `20` Squares
 
-**Silversteel**: Some large deposits, but very difficult to exploit. Per deposit: Creative Test: Ob `4`, `6` challenges, each granting `3` Silversteel.
-
-**Argentumite Presence**: Moderate. Some stronger specimen occasionally haunt the desert. 
-
-### Glassed Desert Locations
+**Locations**:
 | D6  | Location                  | Description |
 | --- | ------------------------- | ----------- |
 | 1   | **Vast Waste**            | A huge area filled with nothing but sand... and grains of Silversteel? Could this be a source of the material? Out of the corner of your eyes you can see the sands occasionally shift. Something lurks below the surface. |
@@ -1277,7 +1328,7 @@ Life has all but vanished from the massive landmasses that dominate these skies,
 | 5   | **Spiked Desert**         | Vast areas of the dunes are covered in jagged spikes of glass jutting out of the sand. A careless step could spell grievous injury. |
 | 6   | **Sandfall**              | A smaller floating island hovers just above the dunes. On one side, sand falls down in a steady stream, while an equal amount rises on the other. Its shade is a welcome reprieve from the heat, but not just for you. |
 
-### Glassed Desert Challenges
+**Challenges**:
 | D10 | Challenge                 | Description            | Failure Result |
 | --- | ------------------------- | ---------------------- | -------------- |
 | 1   | **Shifting Sands**        | The sand here lies on unstable ground. The dunes may collapse beneath your feet, pulling you under like quicksand. | A Stormbreaker is buried in sand and starts suffocating, suffering `8` Pure Damage! It takes great effort to free them. |
@@ -1291,16 +1342,13 @@ Life has all but vanished from the massive landmasses that dominate these skies,
 | 9   | **Extrene Nightfall**     | Rapid cooling causes fractures in the surrounding glass. Careless steps could cause it to shatter beneath your feet. | `1D4` Piercing Injuries, divided among the Stormbreakers. |
 | 10  | **Silica Fumes**          | Particles of dust are kicked up by the wind, enveloping the Stormbreakers. Filters are strained. | Filters/armors lose one point of protectiveness. |
 
-## Silent Winds
+### Silent Winds
 The great cataclysm wiped out all life in this place. It now belongs solely to the Argentumites. Abandoned towns and crumbling factories hint at a once bustling part of the empire, while silent battlefields hold untold secrets. Beware the Corruption, whose strength has grown to peak in this place. Innumerable chunks of broken earth float everywhere in this region, making traversal by Sky Ship difficult. 
 
-**Storm Wall Tier**: `4`
+* **Silversteel**: Few deposits, but densely packed, and well guarded. Per deposit: Creative Test: Ob `3`, `3` challenges, each granting `7` Silversteel.
+* **Size**: `20` Squares
 
-**Silversteel**: Few deposits, but densely packed, and well guarded. Per deposit: Creative Test: Ob `3`, `3` challenges, each granting `7` Silversteel.
-
-**Argentumite Presence**: High. Many stronger specimen roam these skies. 
-
-### Silent Winds Locations
+**Locations**:
 | D6  | Location                  | Description |
 | --- | ------------------------- | ----------- |
 | 1   | **Silent Battlefield**    | The island is an abandoned battlefield. Archaic cannons are rusting amid barbed wire and surrounded by mud-filled trenches. Whatever war once raged here, has been silenced by the great cataclysm. Ironic. And yet valuable supplies may still be pried from skeletons, and dug up from half-buried bunkers. |
@@ -1310,7 +1358,7 @@ The great cataclysm wiped out all life in this place. It now belongs solely to t
 | 5   | **Argentumite Outpost**   | It seems the Argentumites are more organized than initially assumed. They have build an outpost into the side of an island. Its defenses are formidable, yet if they could be overcome, the cost could we weighed against a treasure of Silversteel. |
 | 6   | **Shard Archipelago**     | An island appears to have fractured. Countless chunks of earth are now orbiting its Suspendium core. If the Suspendium could be mined and sent back, the Capital could build more Sky Ships or expand the Capital island. However, approach by Sky Ship is impossible, as the floating earthen chunks could damage it. Difficult and perilous, the trek would have to be made on foot. |
 
-### Silent Winds Challenges
+**Challenges**:
 | D10 | Challenge                 | Description            | Failure Result |
 | --- | ------------------------- | ---------------------- | -------------- |
 | 1   | **Landmines**             | Explosive traps lie buried, just below the dirt and mud, still poised to go off at a moment's notice. | The Stormbreakers suffer `1D4` Bludgeoning and `1D4` Burning Injuries, to be divided among them. |
@@ -1324,16 +1372,72 @@ The great cataclysm wiped out all life in this place. It now belongs solely to t
 | 9   | **Automated Defenses**    | A dormant security system springs to life, assaulting the Stormbreakers. They will have to fight or flee from it. | All Stormbreakers suffer `1D4` Piercing Injuries, divided among them. |
 | 10  | **Structural Maze**       | Rubble and debris block large parts of the path ahead. Climbing above exposes you to flying debris or strong Corruption. | All Stormbreakers suffer `+1` Corruption. |
 
-## Endless Storm
-Beyond the farthest reaches of navigable sky lies the region of a massive superstorm, that inexorably rages on. Do not trust to hope - you will find none here. 
+### Frigid Luminance
+<!-- TODO -->
 
-**Storm Wall Tier**: `5`
+* **Silversteel**: Few deposits, but densely packed, and well guarded. Per deposit: Creative Test: Ob `3`, `3` challenges, each granting `7` Silversteel.
+* **Size**: `20` Squares
 
-**Silversteel**: Many deposits, densely packed, and very well guarded. Per deposit: Creative Test: Ob `4`, `6` challenges, each granting `8` Silversteel.
+**Locations**:
+| D6  | Location                  | Description |
+| --- | ------------------------- | ----------- |
+| 1   | ****  |  |
+| 2   | ****  |  |
+| 3   | ****  |  |
+| 4   | ****  |  |
+| 5   | ****  |  |
+| 6   | ****  |  |
 
-**Argentumite Presence**: Very high. The strongest specimen own these skies. 
+**Challenges**:
+| D10 | Challenge                 | Description            | Failure Result |
+| --- | ------------------------- | ---------------------- | -------------- |
+| 1   | **** |  |  |
+| 2   | **** |  |  |
+| 3   | **** |  |  |
+| 4   | **** |  |  |
+| 5   | **** |  |  |
+| 6   | **** |  |  |
+| 7   | **** |  |  |
+| 8   | **** |  |  |
+| 9   | **** |  |  |
+| 10  | **** |  |  |
 
-### Endless Storm Locations
+## Tier Three Biomes
+These Biomes must always be adjacent to tier two Regions and must not be adjacent to tier one, or lower Regions. 
+
+| D6  | Biome            |
+| --- | ---------------- |
+| 1-2 | Viscuous Gloom   |
+| 3-4 | Death Range      |
+| 5-6 | Great Eye        |
+
+**Biome Properties**:
+* **Storm Wall Tier**: `3`
+* **Argentumite Presence**: High. Many stronger Argentumites roam these skies. 
+
+### Viscuous Gloom
+<!-- TODO -->
+
+### Death Range
+<!-- TODO -->
+
+### Great Eye
+<!-- TODO -->
+
+## Tier Four Biome
+There is actually only one Biome in this tier - the Endless Storm. It must always be adjacent only to tier three Regions
+
+**Biome Properties**:
+* **Storm Wall Tier**: `4`
+* **Argentumite Presence**: Very high. Many stronger Argentumites roam these skies. 
+
+### Endless Storm
+Beyond the farthest reaches of navigable sky lies the region of a massive superstorm, that rages on, with indefatigable certainty. Do not trust to hope - you will find none here. 
+
+* **Silversteel**: Many deposits, densely packed, and very well guarded. Per deposit: Creative Test: Ob `4`, `6` challenges, each granting `8` Silversteel.
+* **Size**: endless
+
+**Locations**:
 Aside the randomly pickable locations, there is always **one** location in particular: [The Cradle](#the-cradle).
 
 | D6  | Location                  | Description |
@@ -1342,15 +1446,10 @@ Aside the randomly pickable locations, there is always **one** location in parti
 | 2   | **Argentumite Titan**     | A colossal Argentumite looms in the gloom of sinister clouds. You cannot make out its form entirely, but you'd guess its larger than the Capital itself! Fortunately, it's either dead, or uninterested in your presence. There might be a way to get on top of it, or inside it, perhaps. It might even serve as a sort of Argentumite city or carrier Sky Ship. |
 | 3   | **Eye Of The Storm**      | A place of reprieve, unharried by the storm. |
 | 4   | **Sky Ship Graveyard**    | A surprising number of Sky Ships lie in ruin in this place. Many are similar to your own, while many more are entirely dissimilar. |
-| 5   | **Large Floating Crystal** | A massive, glowing crystal stationarily floats in the area. |
+| 5   | **Large Floating Crystal**| A massive, glowing crystal stationarily floats in the area, pulsing rhythmically, as if taking deep breaths. Every time it does, the instruments go haywire. |
 | 6   | **Warped Island**         | An oddly shaped island is battered by relentless winds. Ruins dot its surface, defiantly standing in the storm. |
 
-#### The Cradle
-A giant Sky Ship of strange design, made from obsidian and marble, floats effortlessly where the storms rage with fiercest fury, yet untouched by their wrath. Its center bears a giant spherical compartment. Within, the Stormbreakers will find the answer to all the riddles. 
-
-<!-- TODO -->
-
-### Endless Storm Challenges
+**Challenges**:
 | D10 | Challenge                      | Description            | Failure Result |
 | --- | ------------------------------ | ---------------------- | -------------- |
 | 1   | **Shrapnel Debris**            | Debris is being flung around by tumultuous winds, like shrapnel. | `1D6` Piercing Injuries divided among the Stormbreakers. |
@@ -1363,6 +1462,15 @@ A giant Sky Ship of strange design, made from obsidian and marble, floats effort
 | 8   | **Temporal Slip**              | Time passes inconsistently here. What feel like seconds turn out to be hours, and vice-versa. In some places, you can even see yourself, walking ahead, as you will in a few moments' time. | Lose `1D4` QoDs. |
 | 9   | **Corrosive Precipitation**    | The rain is corrosive and eats into exposed equipment. | Equipment is damaged and may become unusable. `1D4` Acid Injuries divided among the Stormbreakers. |
 | 10  | **Crystalized Stormfront**     | Precipitation of strangely colored shards sweeps the area. Whatever they shatter upon develops a coating of tough crystal residue. Anyone caught in the storm may become encased in crystal! | Progress is halted and time is lost, as the Stormbreakers struggle to free themselves. Lose `1D4` QoDs.  |
+
+#### The Cradle
+A giant Sky Ship of strange design, made from obsidian and marble, floats effortlessly where the storms rage with fiercest fury, yet untouched by their wrath. Its center bears a giant spherical compartment. Within, the Stormbreakers will find the answer to all the riddles. 
+
+**Location Properties**:
+* **Storm Wall Tier**: `5`
+* **Argentumite Presence**: Extreme. Only the strongest specimen roam this Region, though fortunately in smaller number. 
+
+<!-- TODO -->
 
 # Creature Compendium
 A by no means exhaustive list of themed creatures for the GM to draw from. 
@@ -1411,7 +1519,7 @@ A large bird of prey that circles high above, with keen eyes searching for movem
   * `≥ 4` Hits: `8` Piercing; target becomes Grappled.
 
 
-### Cloud Jellyfish
+### Aerial Jellyfish
 Translucent bells drift through the skies, trailing delicate tendrils that sway in the wind. Faint blue sparks pulse beneath their gelatinous skin before discharging in a sharp electrical bolt. Usually harmless unless approached, these creatures flee from danger and congregate in vast, drifting swarms. In sufficient numbers, they can turn an otherwise clear passage into a frustrating obstacle.
 
 * **Power**: Feeble, CR: `5`
@@ -1501,7 +1609,7 @@ One of the stranger and more dangerous denizens of the skies is the imposing Kra
 
 | BI     | Sprint | Stabil | HP  | Stamina    | FS (Melee)     | Def    | Armor                                                                  |
 | ------ | ------ | ------ | --- | ---------- | -------------- | ------ | ---------------------------------------------------------------------- |
-| 21     | 9      | 3      | 100 | 20         | 10 Bludgeoning | `-1D`  | `8/4/2` Slashing; `8/4/2` Piercing; `6/3/2` Bludgeoning;               |
+| 21     | 9      | 3      | 100 | 20         | 10 Bludgeoning | Edge   | `8/4/2` Slashing; `8/4/2` Piercing; `6/3/2` Bludgeoning;               |
 
 **Traits**: [Glider + Flyer + Floater](./strive-core.md#glider--1-points-1-cr)
 
@@ -1614,7 +1722,7 @@ A large bipedal Argentumite with a sword and a shield. One of the few that don't
 
 | BI     | Sprint | Stabil | HP  | Stamina    | FS (Melee)      | Def         | Armor             |
 | ------ | ------ | ------ | --- | ---------- | --------------- | ----------- | ----------------- |
-| 11     | 4      | 2      | 30  | 6          | 6 Slashing      | `-1D`       | `8` Slashing; `8` Piercing; `8` Bludgeoning; `8` Burning; Poison immune |
+| 11     | 4      | 2      | 30  | 6          | 6 Slashing      | Edge        | `8` Slashing; `8` Piercing; `8` Bludgeoning; `8` Burning; Poison immune |
 
 **Traits**: [Fortified Mind](./strive-core.md#fortified-mind--4-points-1-cr); 
 
@@ -1649,7 +1757,7 @@ A multi-legged Pegasus-esque Argentumite. It would almost look friendly, if not 
 
 | BI     | Sprint | Stabil | HP  | Stamina    | FS (Ranged `10`)| Def         | Armor             |
 | ------ | ------ | ------ | --- | ---------- | --------------- | ----------- | ----------------- |
-| 14     | 5      | 0      | 40  | 8          | 6 Bludgeoning   | `-2D`       | `8` Slashing; `8` Piercing; `8` Bludgeoning; `8` Burning; Poison immune |
+| 14     | 5      | 0      | 40  | 8          | 6 Bludgeoning   | Double Edge | `8` Slashing; `8` Piercing; `8` Bludgeoning; `8` Burning; Poison immune |
 
 **Traits**: Always floating; [Fortified Mind](./strive-core.md#fortified-mind--4-points-1-cr); 
 
@@ -1684,7 +1792,7 @@ This one looks like a diver in one of those bulky diving suits, covered in ether
 
 | BI     | Sprint | Stabil | HP  | Stamina    | FS (Ranged `10`)| Def         | Armor             |
 | ------ | ------ | ------ | --- | ---------- | --------------- | ----------- | ----------------- |
-| 10     | 4      | 0      | 30  | 6          | 5 Freezing      | `-1D`       | `8` Slashing; `8` Piercing; `8` Bludgeoning; `8` Burning; Poison immune |
+| 10     | 4      | 0      | 30  | 6          | 5 Freezing      | Edge        | `8` Slashing; `8` Piercing; `8` Bludgeoning; `8` Burning; Poison immune |
 
 **Traits**: Always floating; [Fortified Mind](./strive-core.md#fortified-mind--4-points-1-cr); 
 
@@ -1716,7 +1824,7 @@ Giant and authoritative, this Argentumite commands respect, even from its enemie
 
 | BI     | Sprint | Stabil | HP  | Stamina    | FS (Ranged `15`)| Def         | Armor             |
 | ------ | ------ | ------ | --- | ---------- | --------------- | ----------- | ----------------- |
-| 21     | 9      | 3      | 100 | 20         | 10 Piercing     | `-2D`       | `12` Slashing; `12` Piercing; `12` Bludgeoning; `12` Burning; `6` Freezing; Poison immune |
+| 21     | 9      | 3      | 100 | 20         | 10 Piercing     | Double Edge | `12` Slashing; `12` Piercing; `12` Bludgeoning; `12` Burning; `6` Freezing; Poison immune |
 
 **Traits**: Always floating; [Fortified Mind](./strive-core.md#fortified-mind--4-points-1-cr); [Aura of Death](#aura-of-death)
 
@@ -1957,7 +2065,7 @@ With arms too strong for its slender frame, this Swine has the looks of a Gorill
   * `= 3` Hits: `8` Bludgeoning; Knock-back `3` Squares
   * `≥ 4` Hits: `10` Bludgeoning; Knock-back `4` Squares
 
-### Swine Ramship
+### Swine Sky Ramship
 A crude Sky Ship built from mismatched scrap, salvaged engines, and the remains of vessels its crew has plundered. Its sides are a chaotic patchwork of bolted plates, exposed cables, and uneven timber, with little apparent concern for craftsmanship or aerodynamics. The front, however, is heavily reinforced with layers of metal, thick beams, and sharpened scrap. The Swine have built it for a single purpose: to smash into another Sky Ship, hold it in place, and board it before the enemy can escape.
 
 * **Role**: Raider, Boarding Vessel
@@ -1981,7 +2089,77 @@ A crude Sky Ship built from mismatched scrap, salvaged engines, and the remains 
 ## Pirates
 There is little honor among thieves like these. They take what they want and the captain dictates law and order among them. 
 
-### Pirate Cutter
+### Pirate Skirmisher
+A quick-footed pirate who favors a cutlass and dirty fighting over heavy armor. The Skirmisher darts in and out of reach, testing an opponent's guard before attacking their footing. Once an enemy is off-balance, the Skirmisher presses the advantage relentlessly. They are dangerous in a duel, but lack the armor and staying power to endure a prolonged exchange of blows.
+
+* **Power**: Regular, CR: `7`
+* **Roles**: Shock-Trooper, Brawler
+  * A nimble melee combatant who relies on aggressive attacks and exploiting openings rather than enduring punishment.
+* **Behavior**:
+  * Closes into melee quickly and tries to keep the opponent occupied.
+  * Uses Low Sweep to knock the opponent Prone, then follows up with Cutlass Slash.
+  * Repositions when possible, forcing the opponent to spend AP moving or pursuing.
+  * Becomes increasingly reckless when badly wounded, preferring to finish the fight rather than withdraw.
+
+| Agi   | Awar  | Str   | Tough | Wit   |
+| ----- | ----- | ----- | ----- | ----- |
+| 5     | 4     | 4     | 3     | 3     |
+
+| BI   | Sprint | Stabil | HP  | Stamina | FS (Melee) | Def    | Armor |
+| ---- | ------ | ------ | --- | ------- | ---------- | ------ | ----- |
+| 12   | 4      | 0      | 30  | 6       | 4 Slashing | Edge   |       |
+
+**Skills**:
+* **Cutlass Slash (Agi/Str)**:
+  * Strike a target in melee with a quick, forceful cut.
+  * Level: `4`, AP: `2`, Hit(s): unmodified, Melee, ST, Innate
+  * `≤ 2`: `6` Slashing
+  * `= 3` Hits: `10` Slashing
+  * `≥ 4` Hits: `14` Slashing
+* **Low Sweep (Agi/Str)**:
+  * Hook the target's legs with a boot or the flat of the cutlass, attempting to break their footing.
+  * Level: `3`, AP: `2`, Hit(s): unmodified, Melee, ST, Innate
+  * `≤ 2`: `4` Bludgeoning
+  * `= 3` Hits: `6` Bludgeoning; target becomes Prone
+  * `≥ 4` Hits: `8` Bludgeoning; target becomes Prone
+
+### Pirate One-Eye
+A crazed pirate sharpshooter with a battered Maksim Rifle and a grapnel gun slung across their back. One eye is permanently pressed against the rifle's crude scope, while the other darts about with unsettling intensity. Their pilfered rifle has been tampered with, its firing mechanism prone to failure at the worst possible moments. The One-Eye compensates with unnerving accuracy and relentless movement, making them a threat that cannot safely be left unattended.
+
+* **Power**: Regular, CR: `7`
+* **Roles**: Artillery, Ambusher
+  * A highly mobile ranged specialist who deals severe damage from a distance. They are difficult to pin down, but fragile when caught and forced into close combat.
+* **Behavior**:
+  * Prioritizes exposed and vulnerable targets, especially Stormbreakers who are occupied with other threats.
+  * Uses the Grapnel Gun to establish firing lines, cross gaps, and escape approaching melee combatants.
+  * Keeps moving between shots whenever the battlefield permits, avoiding predictable firing positions.
+  * Becomes increasingly reckless when the rifle malfunctions, attempting to clear the obstruction while keeping their distance.
+
+| Agi   | Awar  | Str   | Tough | Wit   |
+| ----- | ----- | ----- | ----- | ----- |
+| 5     | 4     | 3     | 2     | 4     |
+
+| BI   | Sprint | Stabil | HP  | Stamina | FS (Ranged `20`) | Def   | Armor |
+| ---- | ------ | ------ | --- | ------- | ---------------- | ----- | ----- |
+| 13   | 3      | 0      | 20  | 4       | 4 Piercing       | Bane  |       |
+
+**Skills**:
+* **Maksim Shot (Agi/Awar)**:
+  * Fire the One-Eye's pilfered Maksim Rifle at a target up to `20` Squares away.
+  * Level: `4`, AP: `2`, Hit(s): `+1`, Ranged, ST, Innate
+  * `≤ 2`: `10` Piercing
+  * `= 3` Hits: `12` Piercing
+  * `≥ 4` Hits: `15` Piercing
+  * **Faulty Mechanism**: Whenever the Attack results in a Glancing Hit, roll `1D6`. On a `1–3`, the rifle misfires and deals no Damage. The shot still consumes `1` Ammo, and the rifle jams. Clearing the jam costs `1` AP. On a `4–6`, the Glancing Hit resolves normally.
+  * **Weapon Properties**: Range `20`, Ammo `6`, Bolt-Action, Slow Reload.
+* **Grapnel Reposition (Agi/Awar)**:
+  * Fire the Grapnel Gun at a suitable solid anchor within `10` Squares and pull yourself toward it.
+  * Level: `3`, AP: `1`, Ranged, Innate
+  * Move up to `8` Squares, ending in a free space adjacent to the anchor. This movement can cross gaps and vertical surfaces but cannot pass through solid obstacles.
+  * This movement follows normal Opportunity Attack rules.
+  * The Grapnel Gun cannot be used without a suitable anchor or when the One-Eye cannot reach a free landing space.
+
+### Pirate Cutter Sky Ship
 A battered Sky Ship assembled from a stripped-down merchant vessel, reinforced with mismatched plates of scrap metal and fitted with salvaged cannons. Its engines belch black smoke, while grappling lines and boarding hooks hang from its sides. The crew relies on sudden attacks and close-range boarding rather than prolonged artillery duels. A Pirate Cutter is dangerous when it dictates the engagement, but vulnerable when forced to trade fire with a better-equipped opponent.
 
 * **Role**: Raider, Boarding Vessel
