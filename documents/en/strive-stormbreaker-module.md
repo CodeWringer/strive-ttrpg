@@ -176,6 +176,7 @@ This will be a far more directed experience than usual, tailor-cut for shorter c
   - [Tar Creatures](#tar-creatures)
     - [Tar Leech](#tar-leech)
     - [Tartarus](#tartarus)
+      - [Engulfed](#engulfed)
   - [Pirates](#pirates)
     - [Pirate Captain](#pirate-captain)
     - [Pirate Skirmisher](#pirate-skirmisher)
@@ -450,9 +451,10 @@ Every session begins in the Preparation phase, which is when all the book-keepin
 5. Get to the Expedition location, potentially passing through a Storm Wall. 
 
 ## Expedition
-The Expedition phase is when the PCs enter a location, disembark their Sky Ship and begin exploring. This is the most freeform phase of play and mostly up to the GM to work out. 
+The Expedition phase begins when the PCs enter a location, disembark their Sky Ship and begin exploring. This is the most freeform phase of play and mostly up to the GM to work out. 
 
-The one mandatory piece of structure is that your time out in the field is limited, as the ever pervasive [Corruption](#corruption) ensures the PCs and their allies can not stay on Expedition forever. By the end of a session, all Stormbreakers are either safely back aboard their Sky Ship, or have succumbed to Corruption - and now roam the world as horrible, twisted monsters. The time that can be spent on Expedition is thus directly tied to the length of a game session. Try to reserve around **thirty minutes** for [Exfiltration](#exfiltration), to give PCs a fair chance to return to their Sky Ship. 
+The one mandatory piece of structure is that your time out in the field is limited, as the ever pervasive [Corruption](#corruption) ensures the PCs and their allies can not stay on Expedition forever. By the end of a session, all Stormbreakers are either safely back aboard their Sky Ship, or have succumbed to Corruption - and now roam the world as horrible, twisted monsters. The time that can be spent on Expedition is thus directly tied to the length of a game session. Try to reserve around **thirty minutes** for [Exfiltration](#exfiltration), to give PCs a fair chance to return to their Sky Ship. <br>
+One exception to this rule applies when the PCs are in a safe location, such as the Capital, or another civilized place, then the Corruption-based time limit no longer makes sense. This doesn't affect the rest of the gameplay loop, however. If the PCs are in a safe location, then it is also safe to assume they can easily return to their Sky Ship at any time, such as at the start of the next session, when they can re-asses their situation and plan their next steps. 
 
 As your real world time is limited and a session is expected to take around at least three to four hours (though you can play longer, of course), some steps on the journey should be kept short and abstract. For example, getting to a point of interest could be handled as a [Creative Test](./strive-core.md#creative-test). Challenge inspiration is provided in the Game Mastery chapter. 
 
@@ -1108,7 +1110,7 @@ A specialist in unconventional weapons, chemical devices, and battlefield obstac
 **Equipment direction**: Chemical weapons, utility armor, traps, explosives
 
 #### Tactician
-An experienced operative who coordinates the team, negotiates with local authorities, and translates High Command's objectives into practical plans. Despite their specialization, all Stormbreakers are equal and need not heed any orders. 
+An experienced operative who coordinates the team, negotiates with local authorities, and translates High Command's objectives into practical plans. Despite their specialization, all Stormbreakers are equal and need not follow any orders - although they *should* consider them. 
 
 **Strengths**: Support, controlling the battlefield
 
@@ -1192,7 +1194,7 @@ For Stormbreaker specifically, Expedition rewards are a natural source of [Proje
 Aside from the rewards, the limited time at the table implies Project management should be kept short. Only *special* crafting and research require a Complex Project. Practically all Assets listed in the Module can be created in a Trivial Project, but this will still require the necessary resources. 
 
 # Introductory Adventure
-<!-- TODO -->
+Once PCs have been created, comes the time to send them off on the maiden voyage. The game always begins with the PCs choosing one of the Storm Walls, which they will then have to [pass through](#passing-storm-walls). They **cannot** fail the Test, and will 
 
 # Biomes
 Whenever the PCs enter a new [Region](#overworld--regions), it belongs to one the following **Biomes**, which will dictate much of what they can encounter within. Of course, you may have your own ideas and aren't required to adhere to any of the concepts presented here, but you should respect the Biome tiering, which affects the threat and loot curve of the game.
@@ -2146,13 +2148,91 @@ A crude Sky Ship built from mismatched scrap, salvaged engines, and the remains 
   * AP: `2`; Range: `1` Square.
 
 ## Tar Creatures
-Beings that thrive in the Viscuous Gloom, or are born from it. Their existence defies reason, yet the threat they pose is real, as they seek to consume life and light with insatiable hunger.
+Tar Creatures are masses of living darkness found in the Viscuous Gloom. Their bodies flow like thick tar, clinging to surfaces and blending into the shadows. They are drawn to light, particularly the precious glowing crystals found throughout their native environment. What they consume becomes part of them, causing their bodies to grow and change. Their existence defies reason, yet the threat they pose is real. 
 
 ### Tar Leech
-<!-- TODO -->
+A giant leech of undulating darkness that seeks out sources of light, to consume them and grow ever larger. Its appetite is never sated and its hunger voracious.
+
+* **Power**: Regular, CR: `8`
+* **Roles**: Ambusher, Disruptor
+  * A persistent predator that latches onto its prey and grows more dangerous by consuming light sources.
+* **Behavior**:
+  * Remains motionless in deep shadows until it detects a nearby source of light.
+  * Approaches the brightest accessible light source, preferring to consume it over attacking other creatures.
+  * Attacks creatures carrying light sources when it cannot reach the light directly.
+  * Once it consumes a light source, immediately seeks another. It does not retreat while further light remains within reach.
+
+| Agi   | Awar  | Str   | Tough | Wit   |
+| ----- | ----- | ----- | ----- | ----- |
+| 4     | 4     | 4     | 3     | 2     |
+
+| BI  | Sprint | Stabil | HP  | Stamina | FS (Melee) | Def | Armor |
+| --- | ------ | ------ | --- | ------- | ---------- | --- | ----- |
+| 10  | 3      | 0      | 30  | 6       | 4 Piercing |     |       |
+
+**Traits**: [Climber + Sticky](./strive-core.md#climber--2-points-1-cr)
+
+**Skills**:
+* **Siphoning Maw (Agi/Str)**:
+  * Lash out at an adjacent ST, wrapping its body around the target and biting down with a maw of viscous darkness.
+  * Level: `4`, AP: `2`, Hit(s): unmodified, Melee, ST, Innate
+  * `≤ 2`: `4` Piercing
+  * `= 3` Hits: `6` Piercing; target becomes Grappled.
+  * `≥ 4` Hits: `8` Piercing; target becomes Grappled.
+* **Devour Light (Awar/Wit)**:
+  * Consume an active light source within an adjacent Square. A light source carried by another creature can only be consumed if that creature is Grappled by the Tar Leech. The source is extinguished and destroyed as the Tar Leech absorbs its light.
+  * Level: `3`, AP: `1`, Innate
+  * The Tar Leech gains one **Growth** for each light source consumed. Each Growth grants `+1` Toughness, `+10` Temporary HP, increases the damage of Siphoning Maw by `+2` at every grade, and increases its reach by `+1` Square. Growth is permanent, and each light source can only grant Growth once.
 
 ### Tartarus
-<!-- TODO -->
+Like a tidal wave of tar-like darkness, this entity seeks to trap all light and life within it, to live off the energy, forever. Those trapped within its amorphous body are deprived of all sensory input - they cannot see, hear or grasp anything.
+
+* **Power**: Legendary, CR: `20`
+* **Roles**: Disruptor, Tank
+  * A massive entity that breaks enemy formations through overwhelming forced movement. Its ability to swallow victims in a void of sensory deprivation makes it a psychological threat as much as a physical one.
+* **Behavior**:
+  * Flows across the battlefield, seeking to position itself where it can scatter the greatest number of foes.
+  * Uses its tidal surges to throw Stormbreakers away from their allies, forcing them to spend time regrouping.
+  * Pulls isolated targets toward itself and attempts to engulf them before their allies can intervene.
+  * Prioritizes separating the group over inflicting Damage, but relentlessly pursues anyone attempting to escape its grasp.
+
+| Agi | Awar | Str | Tough | Wit |
+| --- | ---- | --- | ----- | --- |
+| 8   | 8    | 10  | 10    | 8   |
+
+| BI | Sprint | Stabil | HP  | Stamina | FS (Melee)    | Def  | Armor |
+| -- | ------ | ------ | --- | ------- | ------------- | ---- | ----- |
+| 24 | 9      | 4      | 100 | 20      | 10 Bludgeoning | Edge |       |
+
+**Traits**: [Forceful](./strive-core.md#forceful--2-points-1-cr)
+
+**Skills**:
+* **Black Tide (Str/Str)**:
+  * **Personal Combat only.** Sweep a wave of darkness through a `10` Square AoE cone in front of Tartarus, striking all creatures in the area and throwing them away from it.
+  * Level: `5`, AP: `3`, Hit(s): `-1`, Ranged, AoE, Innate
+  * `≤ 2`: `8` Bludgeoning; Knock-back `2` Squares. The target suffers `-1D` to its next Attack.
+  * `= 3` Hits: `12` Bludgeoning; Knock-back `4` Squares. The target suffers `-1D` to all Tests until the start of Tartarus's next Turn.
+  * `≥ 4` Hits: `16` Bludgeoning; Knock-back `6` Squares. The target suffers `-1D` to all Tests and cannot take Reactions until the start of Tartarus's next Turn.
+  * Tartarus's Forceful Trait increases the Knock-back distance by `2` Squares. These effects of disorientation represent the victims losing their sense of direction as the world seems to turn around them.
+* **Undertow (Agi/Awar)**:
+  * **Personal Combat only.** Reach out with a tendril of darkness toward a ST up to `10` Squares away, dragging them toward Tartarus.
+  * Level: `4`, AP: `2`, Hit(s): unmodified, Ranged: `10`, ST, Innate
+  * `≤ 2`: `4` Bludgeoning; Pull `2` Squares.
+  * `= 3` Hits: `8` Bludgeoning; Pull `4` Squares.
+  * `≥ 4` Hits: `12` Bludgeoning; Pull `6` Squares.
+  * Tartarus's Forceful Trait increases the Pull distance by `2` Squares.
+  * If the target ends this movement adjacent to Tartarus, it becomes Grappled.
+* **Sensory Abyss (Str/Wit)**:
+  * **Personal Combat only.** Fold its body around a creature already Grappled by Tartarus, swallowing it in a darkness that shuts out all sensory input.
+  * Level: `5`, AP: `2`, Hit(s): unmodified, Melee, ST, Innate
+  * `≤ 2`: `6` Bludgeoning. The target's senses are briefly overwhelmed, suffering `-1D` to all Tests until the start of Tartarus's next Turn.
+  * `= 3` Hits: `8` Bludgeoning. The target becomes **Engulfed**.
+  * `≥ 4` Hits: `12` Bludgeoning. The target becomes **Engulfed**, and Tests to escape it suffer `-1D` until the start of Tartarus's next Turn.
+
+#### Engulfed
+A creature inside Tartarus's body remains Grappled and cannot see, hear, feel or determine its orientation relative to the outside world. It cannot perceive external creatures or objects, use items, coordinate with allies, or take Reactions. Tests that rely on external sensory input suffer `-2D`.
+
+* **Immediate Cancel**: The creature escapes by winning an Opposed Close Quarters Combat Test against Tartarus. Upon escaping, it emerges in an unoccupied Square adjacent to the part of Tartarus that engulfed it.
 
 ## Pirates
 There is little honor among thieves like these. They take what they want and the captain dictates law and order among them. Ruthless and selfish, they would see the world come undone, if only to live another day. 
