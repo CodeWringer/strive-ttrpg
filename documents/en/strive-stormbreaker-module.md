@@ -6,14 +6,11 @@
 * World
   * More cultural background, Character name suggestions
   * Stormbreaker uniform
-  * Define Kronnstedt region better -> the default islands within it. 
 * Supernatural abilities -> broad roster of psionics?
   * Skills that consume Marked for powerful debuffs
 * Special weapons -> Gun emplacements, mortars, grenade launchers, etc.
 * Enemy bestiary:
   * Corruption monsters
-* Provide several ready-to-go adventures.
-* Define how to place and size regions. 
 -->
 
 # Introduction
@@ -130,6 +127,18 @@ This will be a far more directed experience than usual, tailor-cut for shorter c
 - [Game Mastery](#game-mastery)
   - [Projects and Rewards](#projects-and-rewards)
 - [Introductory Adventure](#introductory-adventure)
+  - [Briefing](#briefing)
+  - [The Facility](#the-facility)
+  - [The Scenes](#the-scenes)
+    - [The Approach](#the-approach)
+    - [The Breach](#the-breach)
+    - [Buckling Hallway](#buckling-hallway)
+    - [Service Junction](#service-junction)
+      - [Supply Cache](#supply-cache)
+    - [The Archive Corridor](#the-archive-corridor)
+      - [The Collapse](#the-collapse)
+      - [Opening the Archive](#opening-the-archive)
+    - [Exfiltration](#exfiltration-1)
 - [Biomes](#biomes)
   - [Tier One Biomes](#tier-one-biomes)
     - [Lofty Jungle](#lofty-jungle)
@@ -1170,7 +1179,7 @@ At your discretion, you may prepend the word "De", "Van" or "Von" to your last n
 * Rijsenberg
 * Schapink
 * Schreiner
-* Stassen
+* Strass
 * Stassen
 * Steegemann
 * Tomann
@@ -1194,7 +1203,119 @@ For Stormbreaker specifically, Expedition rewards are a natural source of [Proje
 Aside from the rewards, the limited time at the table implies Project management should be kept short. Only *special* crafting and research require a Complex Project. Practically all Assets listed in the Module can be created in a Trivial Project, but this will still require the necessary resources. 
 
 # Introductory Adventure
-Once PCs have been created, comes the time to send them off on the maiden voyage. The game always begins with the PCs choosing one of the Storm Walls, which they will then have to [pass through](#passing-storm-walls). They **cannot** fail the Test, and will 
+This introductory adventure aims to help you get started running the Stormbreaker Module, by providing a highly curated experience. You may of course deviate wherever you see fit, but then again you might not need the introductory adventure, at all. 
+
+The adventure introduces the expedition loop in the [Lofty Jungle](#lofty-jungle) and is designed to fit into a single session of approximately `3–4` hours.
+
+## Briefing
+> The Holograph clatters to life, internal gears and electronics whirring with dutiful anticipation. The greenly-tinged, translucent image of High Commandant, Alfonse Staffert - leader of the Loyalist military command -, is projected above the spherical device. "Greetings, Stormbreakers. I trust you have familiarized yourself with your new home?" 
+> 
+> Giving a moment's pause, he continues 
+> 
+> "To recapitulate your objective - we identified the remains of a pre-Cataclysm Mechanite facility, on the other side of the Storm Wall. Its Automs still function, sending a distress signal and calling for aid. Frankly, the Mechanites have rarely been this lively at court, demanding the data contained in the facilty be retrieved post-haste. Undoubtedly, it would propel our technological progress forward by decades. And so, **you** are to retrieve that data."
+> 
+> Spending a moment to let the news sink in, he finishes the briefing
+> 
+> "We know nothing about that state of the facility, or what threats you might find within. Be ready for anything. And good hunting, Stormbreakers." The image fades and the Holograph slowly falls back to sleep.
+
+The **primary objective** is to retrieve the data archive and return it to the Capital.
+
+A hidden **secondary objective** may be discovered on-site: optionally recover additional Supplies from a cache inside the facility.
+
+## The Facility
+The facility is a tall spire of concrete and steel, heavily overgrown and buckling beneath the weight of the vegetation. Distant creaks of strained, rusted metal suggest that the structure will not stand the test of time much longer.
+
+The Swine have been systematically stripping the facility for supplies and equipment. Their activities triggered a security lockdown, keeping them in the outer sections. They cannot access the data archive, and the facility's Automs continue to enforce their old instructions: maintain the facility and keep intruders out. Unaware of the the Stormbreaker Order, they treat the Stormbreakers as intruders, too.
+
+The arrival of the Swine has been some days ago. They were dropped off here by Ramship, which then moved on to hunt somewhere else. 
+
+## The Scenes
+The PCs will go through each of the following scenes in succession. Keep each as brief as possible and abstract away what you can. Of course, the players should still retain their opportunities to roleplay, but always be wary of open-ended and long-winded discussions. Cut those short, reinforcing the time-criticality of the mission. 
+
+### The Approach
+The Stormbreakers must cross dense jungle and reach the spire.
+
+**Creative Test:** Ob `3`. Use the normal success-count rules for the party's size. On success, the Stormbreakers reach the breach without delay. On failure, they still arrive, but a detour costs them time. The structure's distant groaning grows louder.
+
+### The Breach
+> The thicket parts around the base of the spire, revealing a gaping wound in its concrete shell. Twisted steel beams protrude from fractured walls, while thick roots have forced their way through cracks in the structure.
+>
+> Someone has made the opening considerably larger. Crude tools have hacked through roots and weakened concrete, and the ground is littered with scraps of metal, broken machinery, and discarded containers. Cloven hoofprints disappear into the darkness within.
+>
+> Beyond the breach, an emergency light flickers over a faded Mechanite insignia. A small maintenance Autom lies crushed beneath a slab of concrete, its limbs twitching as it attempts to carry out its last command.
+
+There is no test or encounter here. The Stormbreakers can enter freely. If they take the time to look around and scrutinize their environment, they may discover cloven hoof-prints in the surrounding dirt and mud. They cannot determine whether there are Swine inside, or where they might have approached from. 
+
+### Buckling Hallway
+> Beyond the breach, a broad service corridor leads deeper into the spire. Thick roots have punched through the ceiling and walls, splitting concrete and twisting exposed steel supports.
+>
+> The ceiling hangs dangerously low, slabs grinding against one another whenever the structure shifts. Every few moments, a deep metallic groan echoes through the corridor, followed by a shower of dust and small fragments.
+>
+> A narrow maintenance hatch is half-hidden behind a curtain of roots. It might lead into a service tunnel running parallel to the hallway.
+
+**Challenge:** The hallway may collapse any moment. Whatever solution the players propose should require a regular Skill Test at Ob `3`. On failure, the Stormbreakers still get through, but suffer `1D4` Bludgeoning Injuries, to be divided among them. 
+
+### Service Junction
+> The corridor opens into a small service junction. Faded lettering on a wall-mounted sign points toward the facility's central archive, barely legible beneath grime and creeping roots. The main corridor continues deeper into the spire.
+>
+> Guttural squals can be heard echoing from the walls and muddy hoofprints, gouges in the walls, and left-behind scraps mark the Swine's passage. Somewhere ahead, something heavy scrapes across a hard surface.
+>
+> Cracked panels line the walls, and a mass of roots has pushed one section of concrete inward. Dust and debris cover the floor, disturbed by the passage of many feet.
+
+The main route is apparent. The optional route is not: the Stormbreakers must deliberately inspect the junction or search for another passage.
+
+**Finding the optional route:** Observation Test, Ob `3`. On success, they notice a narrow maintenance hatch partly hidden by displaced concrete and roots, scrape marks in the dust, and scraps of crude packing material caught on a bolt. These suggest that the Swine have been moving salvaged goods through here. No further Test is needed to open the hatch and investigate.
+
+#### Supply Cache
+The hatch leads to a small storage area where the Swine have collected salvage. **Three Swine Grunts** guard a cache containing `1D10 + 5` Supplies. They are occupied with their scavenging, giving attentive Stormbreakers an opportunity to approach without immediately raising the alarm.
+
+The Supplies only count as recovered if the Stormbreakers bring them back aboard their Sky Ship. Bringing the stuff back right away should cost them precious time.
+
+### The Archive Corridor
+The main corridor ends at a heavy security door. The Swine have gathered here, unable to get past the facility's lockdown. Metal panels creak beneath the Stormbreakers' feet, drawing the attention of the Swine, who immediately move to attack.
+
+**Mandatory encounter:**
+* `1` Squad of `4` [Swine Grunts](#swine-grunt)
+* `1` [Swine Rigger](#swine-rigger)
+* `1` [Swine Skulker](#swine-skulker)
+
+The Grunts hold the front line, the Rigger uses explosives to punish clustered targets, and the Skulker attacks from a distant position with a clear line of sight. The Swine block access to the archive - this encounter cannot be bypassed by taking another route.
+
+#### The Collapse
+**Start the collapse track** when the Stormbreakers reach the security door, at the start of Combat. The structure begins to fail slowly, speeding up over time. Make the worsening situation clear through groaning steel, falling debris, alarms, and failing archive systems. They get a limited number of chances to get inside the archive and must act fast. 
+
+Advance the track after a **failed major attempt**, after **prolonged indecision** and **every third Combat Round**.
+
+1. **Warning Signs:** The structure groans and dust falls from the ceiling. The door and archive remain intact.
+2. **Structural Failure:** Supports buckle and sections of the corridor begin to collapse. The archive's storage systems start reporting faults.
+3. **Final Warning:** The structure is breaking apart around the archive. Warn the players that another significant delay will destroy the data.
+4. **Collapse:** As the structure buckles around them, they may make one last, desperate attempt to recover the data. All Stormbreakers suffer `1` Bludgeoning Injury. 
+5. **Archive lost:** The archive is destroyed and its data cannot be recovered.
+
+#### Opening the Archive
+The security is sealed and the Automs continue treating everyone as intruders. It may be possible to bypass the security protocols, pose as a Mechanite, force the door, get into the archive through crumbling maintenance tunnels or any other solution the players may come up with. All solutions should have one thing in common: a difficult Test to succeed, at Ob `4`. All Stormbreakers will have to work together to get in.
+
+One solution is explicitly excluded: blasting the door open. The Swine have already tried that, and failed, as evidenced by scorch marks and craters in the concrete floor. 
+
+### Exfiltration
+Once the archive is secured or has collpased, the Stormbreakers must get out of the structure collapsing around them, with the data stick in hand. Which Stormbreaker actually has the data stick doesn't matter, only that one of them survives the falling structure matters. The exit should be treated as another Creative Test. You may pick from the following challenges as you see fit. Every failed challenge results in a Stormbreaker being buried in the rubble, and **dying**. 
+
+| D6  | Challenge |
+| --- | --------- |
+| 1   | The ceiling collapses above your heads! |
+| 2   | Metal beams shears across the hallway, threatening to slice you apart! |
+| 3   | An abyss where there used to be floor must be crossed! |
+| 4   | Wiring comes loose, aggressively flails and sparks with electric rage! |
+| 5   | The floor gives and you begin to slide into an uncertain fate! |
+| 6   | Steam hisses into the hallway, ready to cause serious burns! |
+
+**Rewards on returning with the archive:**
+- `3` Mechanite Technology Points
+- `2` Capital Progress Points
+
+The optional cache grants `1D10 + 5` Supplies, provided those Supplies were brought back aboard the Sky Ship.
+
+Any PCs that die during the Exfiltration are revived aboard their Sky Ship. Their service does not yet end. 
 
 # Biomes
 Whenever the PCs enter a new [Region](#overworld--regions), it belongs to one the following **Biomes**, which will dictate much of what they can encounter within. Of course, you may have your own ideas and aren't required to adhere to any of the concepts presented here, but you should respect the Biome tiering, which affects the threat and loot curve of the game.
@@ -2208,14 +2329,14 @@ Like a tidal wave of tar-like darkness, this entity seeks to trap all light and 
 
 **Skills**:
 * **Black Tide (Str/Str)**:
-  * **Personal Combat only.** Sweep a wave of darkness through a `10` Square AoE cone in front of Tartarus, striking all creatures in the area and throwing them away from it.
+  * Sweep a wave of darkness through a `10` Square AoE cone in front of Tartarus, striking all creatures in the area and throwing them away from it.
   * Level: `5`, AP: `3`, Hit(s): `-1`, Ranged, AoE, Innate
   * `≤ 2`: `8` Bludgeoning; Knock-back `2` Squares. The target suffers `-1D` to its next Attack.
   * `= 3` Hits: `12` Bludgeoning; Knock-back `4` Squares. The target suffers `-1D` to all Tests until the start of Tartarus's next Turn.
   * `≥ 4` Hits: `16` Bludgeoning; Knock-back `6` Squares. The target suffers `-1D` to all Tests and cannot take Reactions until the start of Tartarus's next Turn.
   * Tartarus's Forceful Trait increases the Knock-back distance by `2` Squares. These effects of disorientation represent the victims losing their sense of direction as the world seems to turn around them.
 * **Undertow (Agi/Awar)**:
-  * **Personal Combat only.** Reach out with a tendril of darkness toward a ST up to `10` Squares away, dragging them toward Tartarus.
+  * Reach out with a tendril of darkness toward a ST up to `10` Squares away, dragging them toward Tartarus.
   * Level: `4`, AP: `2`, Hit(s): unmodified, Ranged: `10`, ST, Innate
   * `≤ 2`: `4` Bludgeoning; Pull `2` Squares.
   * `= 3` Hits: `8` Bludgeoning; Pull `4` Squares.
@@ -2223,7 +2344,7 @@ Like a tidal wave of tar-like darkness, this entity seeks to trap all light and 
   * Tartarus's Forceful Trait increases the Pull distance by `2` Squares.
   * If the target ends this movement adjacent to Tartarus, it becomes Grappled.
 * **Sensory Abyss (Str/Wit)**:
-  * **Personal Combat only.** Fold its body around a creature already Grappled by Tartarus, swallowing it in a darkness that shuts out all sensory input.
+  * Fold its body around a creature already Grappled by Tartarus, swallowing it in a darkness that shuts out all sensory input.
   * Level: `5`, AP: `2`, Hit(s): unmodified, Melee, ST, Innate
   * `≤ 2`: `6` Bludgeoning. The target's senses are briefly overwhelmed, suffering `-1D` to all Tests until the start of Tartarus's next Turn.
   * `= 3` Hits: `8` Bludgeoning. The target becomes **Engulfed**.
