@@ -178,6 +178,7 @@ This will be a far more directed experience than usual, tailor-cut for shorter c
       - [Filth \& Darkness](#filth--darkness)
     - [Swine Grunt](#swine-grunt)
     - [Swine Rigger](#swine-rigger)
+      - [Death Rattle: Explode](#death-rattle-explode)
     - [Swine Skulker](#swine-skulker)
     - [Swine Packlord](#swine-packlord)
     - [Swine 'Rilla](#swine-rilla)
@@ -2122,6 +2123,8 @@ A hunched Swine-Beast laden with scavenged explosives, rusted detonators and coi
 
 **Assets**: `5` Crude Explosive Charges. Each charge may be used for either a Scrap Bomb or a Tripwire Mine.
 
+**Traits**: [Death Rattle: Explode](#death-rattle-explode)
+
 **Skills**:
 * **Scrap Bomb (Agi/Awar)**:
   * Hurl a crude explosive at a location up to `10` Squares away. It explodes in a `2` Square AoE radius.
@@ -2136,6 +2139,9 @@ A hunched Swine-Beast laden with scavenged explosives, rusted detonators and coi
   * When preparing a mine before combat, use the Core rules for setting traps: roll an Ob `0` Trapping Test, with the number of Hits determining the mine's Quality and how difficult it is to detect or disarm. `0` Hits means the mine is not concealed.
   * A mine planted during combat is not concealed if a foe can see the Sapper placing it.
   * The Sapper may have only `1` active Tripwire Mine at a time. Consumes `1` Crude Explosive Charge.
+
+#### Death Rattle: Explode
+Upon being killed with Burning Damage, the Swine Rigger's body-strapped explosives detonate in a spectacular discharge of flame and shrapnel. Deals `10` Burning + `10` Bludgeoning Damage to all in a `3` Square AoE radius.
 
 ### Swine Skulker
 This Swine-Beast is quite small, and is carrying a rifle that seems far too large for its frame. With a crazed look in its gaze, it picks off targets from afar with surprising adequacy, before stealing away behind cover. 
