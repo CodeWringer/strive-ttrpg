@@ -949,9 +949,9 @@ Designing and applying drugs to boost performance in specific areas, when needed
 
 | Level | Name                   | AP | Hit(s)  | Description <br> Damage                   |
 | ----- | ---------------------- | -- | ------- | ----------------------------------------- |
-| 0     | Reactive Booster       | 2  |         | Inject a ST with a syringe that will enhance their reaction speed, for `2` Rounds. The target may receive `+1` [Edge](./strive-core.md#edge) on any Reaction, once per Round. Doesn't stack. |
-| 0     | Stimpack               | 2  |         | Inject a ST with a syringe that will enhance their Toughness by `+1`, for `2` Rounds. Stacks. |
-| 0     | Regenerative Booster   | 2  |         | Inject a ST with a syringe that lets them generate `+5` Temporary HP every Tick. Lasts `2` Rounds. Stacks |
+| 0     | Reactive Booster       | 2  |         | Inject a ST with a syringe that will enhance their reaction speed, for `2` Rounds. The target may receive `+1` [Edge](./strive-core.md#edge) on any Reaction, once per Round, but also reduces their maximum HP by `5` points. Doesn't stack. |
+| 0     | Stimpack               | 2  |         | Inject a ST with a syringe that will enhance their Toughness by `+1`, for `2` Rounds, but also reduces their maximum HP by `5` points. Stacks. |
+| 0     | Regenerative Booster   | 2  |         | Inject a ST with a syringe that lets them generate `+5` Temporary HP every Tick, but also reduces their maximum HP by `10` points. Lasts `2` Rounds. Stacks. |
 
 #### Chemistry (Wit/Wit)
 Knowing chemical compounds and how they interact. 
@@ -2198,19 +2198,19 @@ This Swine walks taller than the others, and surveys the battlefield with observ
 
 **Skills**:
 * **Drive Them In! (Awar/Wit)**:
-  * The Champion points out a foe within `10` Squares and issues a series of incomprehensible commands. Other Swine allies within `10` Squares may immediately move toward that foe.
+  * The Packlord points out a foe within `10` Squares and issues a series of incomprehensible commands. Other Swine allies within `10` Squares may immediately move toward that foe.
   * Level: `4`, AP: `2`, Hit(s): unmodified, Ranged: `10`, ST, Innate
   * `≤ 2`: `1` may move up to `3` Squares.
   * `= 3`: Up to `2` allies may each move up to `5` Squares.
   * `≥ 4`: All allies may each move up to `10` Squares.
   * This movement does not provoke Opportunity Attacks from the designated foe.
 * **Tear It Apart! (Awar/Wit)**:
-  * The Champion singles out a foe within `10` Squares and directs its allies to attack in unison. 
+  * The Packlord singles out a foe within `10` Squares and directs its allies to attack in unison. 
   * Level: `4`, AP: `2`, Hit(s): unmodified, Ranged: `10`, ST, Innate
   * `≤ 2`: Up to `2` allies may make an immediate and free Attack against the chosen foe, with `+1D`. 
   * `= 3`: Up to `3` allies may make an immediate and free Attack against the chosen foe, with `+1D`. 
   * `≥ 4`: Up to `4` allies may make an immediate and free Attack against the chosen foe, with `+1D`. 
-  * These bonuses expire at the start of the Champion's next Turn.
+  * These bonuses expire at the start of the Packlord's next Turn.
 * **Gore (Agi/Str)**:
   * Drive its tusks into an adjacent foe.
   * Level: `4`, AP: `2`, Hit(s): unmodified, Melee, ST, Innate
