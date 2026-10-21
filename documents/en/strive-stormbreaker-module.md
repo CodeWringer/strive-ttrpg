@@ -70,6 +70,7 @@ This will be a far more directed experience than usual, tailor-cut for shorter c
   - [Passing Storm Walls](#passing-storm-walls)
     - [Storm Wall Challenges](#storm-wall-challenges)
   - [Sky Ship Assets](#sky-ship-assets)
+  - [Fuel](#fuel)
 - [Health Conditions](#health-conditions)
   - [Resuscitation Syndrome](#resuscitation-syndrome)
 - [Combat](#combat)
@@ -79,6 +80,7 @@ This will be a far more directed experience than usual, tailor-cut for shorter c
     - [AoE Defense](#aoe-defense)
     - [Defending An Ally](#defending-an-ally)
   - [Burst Attacks](#burst-attacks)
+  - [Reloading](#reloading)
   - [Core Changes](#core-changes)
     - [Cover](#cover)
     - [Flanking](#flanking)
@@ -130,7 +132,6 @@ This will be a far more directed experience than usual, tailor-cut for shorter c
   - [Briefing](#briefing)
   - [The Facility](#the-facility)
   - [The Scenes](#the-scenes)
-    - [The Approach](#the-approach)
     - [The Breach](#the-breach)
     - [Buckling Hallway](#buckling-hallway)
     - [Service Junction](#service-junction)
@@ -292,14 +293,14 @@ Its primary uses lie in improving the [Sky Ship's](#sky-ship) protection from th
 
 The following table offers some generic challenges. More specific ones are offered for each Biome, for the GM to see. 
 
-| D6 | Challenge                 | Description            | Failure Result |
-| -- | ------------------------- | ---------------------- | -------------- |
-| 1  | **Corrupted**             | Part of the source is covered in heavy Corruption. You can *see* the air warping around the Silversteel. | `+1` Corruption to all Stormbreakers. |
-| 2  | **Unstable**              | Part of the source is unstable. It might collapse on a Stormbreaker's head or beneath their feet. | `+1D4` Bludgeoning Injuries to divide among the Stormbreakers. |
-| 3  | **Death Fog**             | The source is covered in Death Fog. | Every Stormbreaker suffers `1D10 + 5` Pure Damage. |
-| 4  | **Tool Failure**          | Your extraction tools fail, simultaneously. Whether through Corruption or from the hardness of the vein, you suffer a setback. | Lose `2` Silversteel yield, once. |
-| 5  | **Lengthy Extraction**    | The source proves especially difficult to crack and takes much longer than anticipated. | The Stormbreakers lose precious time. Foes may creep up on them, or Corruption may increase by `+1`. |
-| 6  | **Difficult Access**      | The source lies in a narrow crevice, on a sheer surface or behind some tough obstacles. | Squeezing into the narrow space or clearing the obstacles takes precious time and causes damage to equipment. Corruption  increases by `+1`. |
+| D6 | Challenge                 | Description            |
+| -- | ------------------------- | ---------------------- |
+| 1  | **Corrupted**             | Part of the source is covered in heavy Corruption. You can *see* the air warping around the Silversteel. |
+| 2  | **Unstable**              | Part of the source is unstable. It might collapse on a Stormbreaker's head or beneath their feet. |
+| 3  | **Death Fog**             | The source is covered in Death Fog. |
+| 4  | **Tool Failure**          | Your extraction tools fail, simultaneously. Whether through Corruption or from the hardness of the vein, you suffer a setback. |
+| 5  | **Lengthy Extraction**    | The source proves especially difficult to crack and takes much longer than anticipated. |
+| 6  | **Difficult Access**      | The source lies in a narrow crevice, on a sheer surface or behind some tough obstacles. |
 
 One unit of Silversteel occupies one Bulk and is stackable up to `3`. 
 
@@ -466,12 +467,10 @@ The Expedition phase begins when the PCs enter a location, disembark their Sky S
 The one mandatory piece of structure is that your time out in the field is limited, as the ever pervasive [Corruption](#corruption) ensures the PCs and their allies can not stay on Expedition forever. By the end of a session, all Stormbreakers are either safely back aboard their Sky Ship, or have succumbed to Corruption - and now roam the world as horrible, twisted monsters. The time that can be spent on Expedition is thus directly tied to the length of a game session. Try to reserve around **thirty minutes** for [Exfiltration](#exfiltration), to give PCs a fair chance to return to their Sky Ship. <br>
 One exception to this rule applies when the PCs are in a safe location, such as the Capital, or another civilized place, then the Corruption-based time limit no longer makes sense. This doesn't affect the rest of the gameplay loop, however. If the PCs are in a safe location, then it is also safe to assume they can easily return to their Sky Ship at any time, such as at the start of the next session, when they can re-asses their situation and plan their next steps. 
 
-As your real world time is limited and a session is expected to take around at least three to four hours (though you can play longer, of course), some steps on the journey should be kept short and abstract. For example, getting to a point of interest could be handled as a [Creative Test](./strive-core.md#creative-test). Challenge inspiration is provided in the Game Mastery chapter. 
-
 ## Exfiltration
 Once your game session draws to a close, the GM will have to announce it is time for Exfiltration, regardless of whether the PCs managed to achieve their goals out in the field. Once this happens, they must make a mad dash to return to their Sky Ship, as the Corruption rises and threatens to overwhelm the PCs. Whatever they don't manage to bring back is lost, including the Assets they have equipped! 
 
-Escape could be handled as a [Creative Test](./strive-core.md#creative-test), or as Combat with mounting opposition - if the PCs manage to leave the battlefield, they make it back to their Sky Ship. 
+Escape *could* be handled as a [Creative Test](./strive-core.md#creative-test), or as Combat with mounting opposition - if the PCs manage to leave the battlefield, they make it back to their Sky Ship. However, if no real stakes can be identified, a prior victory would be undermined or no time remains for an Exfiltration sequence, simply cut the chase entirely, and narrate the PCs returning to their Sky Ship. 
 
 # Progression
 As the campaign progresses, the Capital builds up and improves, granting the PCs access to more and better Assets. 
@@ -618,6 +617,8 @@ Besides the Stormbreakers, there are no additional crew on board. Only few are s
 
 When making long-range Attacks, the dice pool size is determined by the Sky Ship's **Accuracy**, expressed numerically and equalling the number of `D6` available. By default, the Sky Ship's Accuracy is `6`. 
 
+While there are many Automs installed on the Sky Ship, they are fairly primitive, and installed in stationary positions. They do not equal a Stormbreaker's capabilities in *any* way and merely serve as backup when necessary. Sky Ship repairs can only be done by Stormbreakers.  
+
 ## Passing Storm Walls
 Passing through the Storm Walls always causes damage to the Sky Ship. How much, depends on the Storm Wall tier, which increases the farther the Stormbreakers travel from the Capital. 
 
@@ -651,6 +652,11 @@ To successfully pass the Storm Wall takes a [Creative Test](./strive-core.md#cre
 As it is your mobile base, the Sky Ship may carry any number of smaller Assets for you.
 
 However, its capacity for armament is limited. It can hold a total of `4` units worth of [Sky Ship weaponry](#sky-ship-weapons), at most. 
+
+## Fuel
+As the Sky Ship travels, it consumes [Fuel](#general-assets). Traveling from hex to hex costs `1` Fuel, and traversing a Storm Wall costs `3` Fuel. Fuel can be found on Expedition or converted from [Supplies](#the-capitals-supplies).
+
+If the Sky Ship runs out of Fuel, it will begin to drift in the wind. 
 
 # Health Conditions
 Additions to the [Core rules' Health Conditions](./strive-core.md#condition).
@@ -698,7 +704,7 @@ Wherever Ob is concerned in the Core rules in regard to Attacking or Defending, 
 ## Defending
 Attacks may always land, but Defenders have ways to mitigate their severity. 
 
-* You can spend one point of [Guarded](./strive-core.md#guarded) to reduce the Attacker's Hits by `-1`! This is a very powerful means of mitigating an Attack!
+* You can spend one point of [Guarded](./strive-core.md#guarded) to reduce the Attacker's Hits by `-2`! This is a very powerful means of mitigating an Attack!
 * You can spend one AP to reduce the Attacker's Hits by `-1`! This works both as Regular Defense and Emergency Defense. 
 * If you have no points in Guarded, no AP left, and already spent all Emergency Defenses, you can no longer reduce the Attacker's Hits! 
 
@@ -720,6 +726,11 @@ In case of ammo-fed weapons, the Burst value is also the amount of ammunition th
 > 2. The Attack always deals `+3` Damage of its primary Damage Type. 
 > 3. You must remove `1` Hit that you achieved. 
 > 4. You must reduce your ammunition count by `3` points. 
+
+## Reloading
+Whenever a weapon's current internal or external magazine is empty, it normally costs `1` AP to reload it. Modifiers such as [Slow Reload and Very Slow Reload](./strive-core.md#weapon-traits) may make the reloading cost more. 
+
+It is only necessary to reload a weapon once all its current ammo is spent, but you *may* also reload it earlier. 
 
 ## Core Changes
 Additional significant Core rule changes are summarized here:
@@ -805,7 +816,7 @@ Additions and alterations to the [Core Assets Appendix](./strive-core.md#assets-
 | Name                           | Bulk | Max. Stack Size | Supply Cost | Prerequisites        | Work-Rate / PI    | Description                                                              |
 | ------------------------------ | ---- | --------------- | ----------- | -------------------- | ----------------- | ------------------------------------------------------------------------ |
 | Bullets                        | 1    | 60              | 3           |                      |                   | Ammunition for all standard weapons.                                     |
-| Fuel                           | 1    | 20              | 8           |                      |                   | Required to keep the Sky Ship moving, and serves as ammunition for some weapons. |
+| Fuel                           | 1    | 20              | 10          |                      |                   | Required to keep the Sky Ship moving, and serves as ammunition for some weapons. |
 | Heavy Ordnance                 | 10   | 10              | 15          |                      |                   | Ammunition for the Sky Ship's armaments.                                 |
 
 ### Mechanite Assets
@@ -873,28 +884,28 @@ A large and heavy, but solid shield that can even stop bullets.
 | Tier | Weapon                   | Bulk | Supply Cost | Max. Stack Size | Skill                 | Properties                                                         | Damage & Effects   | Description        |
 | ---- | ------------------------ | ---- | ----------- | --------------- | --------------------- | ------------------------------------------------------------------ | ------------------ | ------------------ |
 | 0    | Burner Pistol            | 2    | 3           | 1               | Special Weapons       | Ranged: `5`, Ammo: `15` Fuel                                       | `≤ 2`: `3` Burning <br> `= 3` Hits: `5` Burning <br> `≥ 4` Hits: `7` Burning | A prototype flame-throwing weapon. Uses Fuel instead of Bullets as ammo. |
-| 0    | Fragmentation Grenade    | 1    | 3           | 3               | Throwing              | Thrown                                                             | `8` Piercing + `8` Bludgeoning + `3` Burning | Stacks up to `3`; A throwable fragmentation grenade and a staple of trench warfare - before the cataclysm. Simple, but effective. |
-| 0    | Krauser Semi-Auto Pistol | 1    | 3           | 1               | Firearms              | Ranged: `6`, Ammo: `6`, Semi-Auto                                  | `≤ 2`: `6` Piercing <br> `= 3` Hits: `6` Piercing <br> `≥ 4` Hits: `7` Piercing | The mass-produced Krauser semi-auto pistol is a reliable, though not particularly deadly personal defence weapon. |
-| 0    | Maksim Rifle             | 3    | 3           | 1               | Firearms              | Ranged: `20`, Ammo: `6`, Bolt-Action, Slow Reload                  | `≤ 2`: `10` Piercing <br> `= 3` Hits: `12` Piercing <br> `≥ 4` Hits: `15` Piercing | The mass-produced Maksim bolt-action rifle is reliable and powerful, but also bulky and slow. |
-| 0    | Trench Shovel            | 2    | 3           | 1               | Close Quarters Combat | Melee                                                              | `≤ 2`: `5` Slashing <br> `= 3` Hits: `6` Slashing <br> `≥ 4` Hits: `7` Slashing | A standard-issue digging implement with sharp edges. Trusty and reliable. |
-| 0    | Explosive Satchel        | 2    | 3           | 2               | Trapping              | Triggered                                                          | `≤ 2`: `8` Burning + `8` Bludgeoning <br> `= 3` Hits: `9` Burning + `9` Bludgeoning <br> `≥ 4` Hits: `10` Burning + `10` Bludgeoning | A remotely triggered explosive charge, affecting all in a `2` Square AoE radius. |
-| 1    | Flamethrower             | 3    | 5           | 1               | Special Weapons       | Ranged: `8`, Ammo: `10` Fuel                                       | `≤ 2`: `5` Burning <br> `= 3` Hits: `8` Burning <br> `≥ 4` Hits: `11` Burning | A flame-throwing weapon. Uses Fuel instead of Bullets as ammo. |
-| 1    | Flash Grenade            | 1    | 5           | 3               | Throwing              | Thrown                                                             | Blinds all creatures who look into the flash for `3` Rounds. They suffer `+1` Ob to all Tests. | Stacks up to `3`; A throwable flash grenade designed for the non-violent quelling of riots, which may also find use in the field. |
-| 1    | Gas Grenade              | 1    | 5           | 3               | Throwing              | Thrown                                                             | Releases a noxious cloud of gas, in a `3` Square diameter, which causes `10` Acid damage. its | Stacks up to `3`; A throwable gas grenade useful for area-denial. |
-| 1    | Hetzer Machine Gun       | 5    | 5           | 1               | Firearms              | Ranged: `10`, Ammo: `60`, Automatic, Very Slow Reload, Burst: `3`  | `8` Piercing | A bulky and heavy machine gun with a moderate rate of fire, but well suited to suppression fire. |
-| 1    | Maksim II Rifle          | 3    | 5           | 1               | Firearms              | Ranged: `15`, Ammo: `12`, Semi-Auto, Slow Reload                   | `≤ 2`: `10` Piercing <br> `= 3` Hits: `11` Piercing <br> `≥ 4` Hits: `12` Piercing | An innovation of the Maksim Rifle allows it to be magazine-fed and become semi-auto, at the cost of power. |
+| 0    | Fragmentation Grenade    | 1    | 3           | 3               | Throwing              | Thrown                                                             | `8` Piercing + `8` Bludgeoning + `3` Burning | A throwable fragmentation grenade and a staple of trench warfare - before the cataclysm. Simple, but effective. |
+| 0    | Krauser Semi-Auto Pistol | 1    | 3           | 1               | Firearms              | Ranged: `6`, Ammo: `6`, Semi-Auto                                  | `≤ 2`: `3` Piercing <br> `= 3` Hits: `6` Piercing <br> `≥ 4` Hits: `8` Piercing | The mass-produced Krauser semi-auto pistol is a reliable, though not particularly deadly personal defence weapon. |
+| 0    | Maksim Rifle             | 3    | 3           | 1               | Firearms              | Ranged: `10`, Ammo: `6`, Bolt-Action, Slow Reload                  | `≤ 2`: `5` Piercing <br> `= 3` Hits: `8` Piercing <br> `≥ 4` Hits: `12` Piercing | The mass-produced Maksim bolt-action rifle is reliable and powerful, but also bulky and slow. |
+| 0    | Trench Shovel            | 2    | 3           | 1               | Close Quarters Combat | Melee                                                              | `≤ 2`: `4` Slashing <br> `= 3` Hits: `7` Slashing <br> `≥ 4` Hits: `10` Slashing | A standard-issue digging implement with sharp edges. Trusty and reliable. |
+| 0    | Explosive Satchel        | 2    | 3           | 2               | Trapping              | Triggered                                                          | `≤ 2`: `3` Burning + `3` Bludgeoning <br> `= 3` Hits: `4` Burning + `4` Bludgeoning <br> `≥ 4` Hits: `6` Burning + `6` Bludgeoning | A remotely triggered explosive charge, affecting all in a `2` Square AoE radius. |
+| 1    | Flamethrower             | 3    | 5           | 1               | Special Weapons       | Ranged: `8`, Ammo: `10` Fuel                                       | `≤ 2`: `3` Burning <br> `= 3` Hits: `6` Burning <br> `≥ 4` Hits: `11` Burning | A flame-throwing weapon. Uses Fuel instead of Bullets as ammo. |
+| 1    | Flash Grenade            | 1    | 5           | 3               | Throwing              | Thrown                                                             | Blinds all creatures who look into the flash for `2` Rounds. They suffer `+1` Ob to all Tests. | A throwable flash grenade designed for the non-violent quelling of riots, which may also find use in the field. |
+| 1    | Gas Grenade              | 1    | 5           | 3               | Throwing              | Thrown                                                             | Releases a noxious cloud of gas, in a `3` Square diameter, which causes `10` Acid damage. its | A throwable gas grenade useful for area-denial. |
+| 1    | Hetzer Machine Gun       | 5    | 5           | 1               | Firearms              | Ranged: `10`, Ammo: `60`, Automatic, Very Slow Reload, Burst: `3`  | `≤ 2`: `2` Piercing <br> `= 3` Hits: `4` Piercing <br> `≥ 4` Hits: `8` Piercing | A bulky and heavy machine gun with a moderate rate of fire, but well suited to suppression fire. |
+| 1    | Maksim II Rifle          | 3    | 5           | 1               | Firearms              | Ranged: `10`, Ammo: `12`, Semi-Auto,                               | `≤ 2`: `5` Piercing <br> `= 3` Hits: `11` Piercing <br> `≥ 4` Hits: `12` Piercing | An innovation of the Maksim Rifle allows it to be magazine-fed and become semi-auto, at the cost of power. |
 | 1    | Standard Saber           | 2    | 5           | 1               | Close Quarters Combat | Melee                                                              | `≤ 2`: `7` Slashing <br> `= 3` Hits: `7` Slashing <br> `≥ 4` Hits: `8` Slashing | A simple officer's saber. A bit heavy in hand, but reliable. |
 | 2    | Artyar SMG               | 3    | 8           | 1               | Firearms              | Ranged: `10`, Ammo: `20`, Automatic, Slow Reload, Burst: `3`       | `≤ 2`: `6` Piercing <br> `= 3` Hits: `7` Piercing <br> `≥ 4` Hits: `8` Piercing | An innovative design, though somewhat clumsy, this submachine gun borrows pieces from the Maksim II rifle with an automatic feeder mechanism, enabling automatic fire. To support the higher magazine capacity, the ammo had to be down-sized. |
 | 2    | Assault Sword            | 2    | 8           | 1               | Close Quarters Combat | Melee                                                              | `≤ 2`: `8` Slashing <br> `= 3` Hits: `10` Slashing <br> `≥ 4` Hits: `13` Slashing | A well designed and finely crafted, sturdy blade to dominate close quarters combat. |
-| 2    | Cryogenic Satchel        | 2    | 3           | 2               | Trapping              | Triggered                                                          | `≤ 2`: `10` Freezing <br> `= 3` Hits: `12` Freezing <br> `≥ 4` Hits: `13` Freezing | A remotely triggered cryogenic charge, affecting all in a `2` Square AoE radius. |
-| 2    | Corrosion Satchel        | 2    | 3           | 2               | Trapping              | Triggered                                                          | `≤ 2`: `10` Acid <br> `= 3` Hits: `12` Acid <br> `≥ 4` Hits: `13` Acid | A remotely triggered corrosive charge, affecting all in a `2` Square AoE radius. |
+| 2    | Cryogenic Satchel        | 2    | 3           | 2               | Trapping              | Triggered                                                          | `≤ 2`: `5` Freezing <br> `= 3` Hits: `12` Freezing <br> `≥ 4` Hits: `13` Freezing | A remotely triggered cryogenic charge, affecting all in a `2` Square AoE radius. |
+| 2    | Corrosion Satchel        | 2    | 3           | 2               | Trapping              | Triggered                                                          | `≤ 2`: `5` Acid <br> `= 3` Hits: `12` Acid <br> `≥ 4` Hits: `13` Acid | A remotely triggered corrosive charge, affecting all in a `2` Square AoE radius. |
 | 2    | Corrosion Grenade        | 1    | 8           | 3               | Throwing              | Thrown                                                             | `8` Acid | A large, bulbous hand grenade. Contained within are two liquids that, when combined, become a strong but fleeting acid, capable of melting steel within seconds before becoming harmless. |
-| 3    | Cryogenic Grenade        | 1    | 10          | 3               | Throwing              | Thrown                                                             | `10` Freezing | An innovative application of liquid nitrogen, contained in a delicate shell, ready to be dispersed by a tiny explosive charge. In other words - a 'freeze grenade'. |
-| 3    | Cryogenitor              | 4    | 10          | 1               | Special Weapons       | Ranged: `10`, Ammo: `10` Fuel                                      | `≤ 2`: `8` Freezing <br> `= 3` Hits: `10` Freezing <br> `≥ 4` Hits: `12` Freezing | Spews liquid nitrogen at range, instantly freezing whatever it hits. Uses Fuel instead of Bullets as ammo. |
-| 3    | Hellgater                | 4    | 10          | 1               | Special Weapons       | Ranged: `15`, Ammo: `5` Fuel                                       | `≤ 2`: `8` Burning; `1` Square burns <br> `= 3` Hits: `10` Burning; `2` Squares burn <br> `≥ 4` Hits: `13` Burning; `3` Squares burn | A flame-throwing weapon that can leave Squares burning for `2` Rounds. Anyone who stands on those Squares suffers an additional `3` Burning Damage every Tick. Uses Fuel instead of Bullets as ammo. |
-| 3    | Maksim III Rifle         | 3    | 10          | 1               | Firearms              | Ranged: `30`, Ammo: `12`, Semi-Auto, Slow Reload                   | `≤ 2`: `12` Piercing <br> `= 3` Hits: `14` Piercing <br> `≥ 4` Hits: `16` Piercing | Outfitted with a powerful scope and a slightly lengthened barrel, this Maksim elevates the art of the sharpshooter. |
-| 4    | Kijser Assault Rifle     | 3    | 15          | 1               | Firearms              | Ranged: `20`, Ammo: `20`, Automatic, Burst: `3`                    | `≤ 2`: `10` Piercing <br> `= 3` Hits: `11` Piercing <br> `≥ 4` Hits: `12` Piercing | A powerful and ergonomic assault rifle and in fact the first of its kind. In skilled hands, it is a deadly weapon. |
-| 4    | Rahvalod Machine Gun     | 4    | 15          | 1               | Firearms              | Ranged: `10`, Ammo: `100`, Automatic, Very Slow Reload, Burst: `6` | `≤ 2`: `8` Piercing <br> `= 3` Hits: `10` Piercing <br> `≥ 4` Hits: `12` Piercing | A powerful, fast-firing machine gun.  |
+| 3    | Cryogenic Grenade        | 1    | 10          | 3               | Throwing              | Thrown                                                             | `8` Freezing | An innovative application of liquid nitrogen, contained in a delicate shell, ready to be dispersed by a tiny explosive charge. In other words - a 'freeze grenade'. |
+| 3    | Cryogenitor              | 4    | 10          | 1               | Special Weapons       | Ranged: `10`, Ammo: `10` Fuel                                      | `≤ 2`: `4` Freezing <br> `= 3` Hits: `10` Freezing <br> `≥ 4` Hits: `12` Freezing | Spews liquid nitrogen at range, instantly freezing whatever it hits. Uses Fuel instead of Bullets as ammo. |
+| 3    | Hellgater                | 4    | 10          | 1               | Special Weapons       | Ranged: `15`, Ammo: `5` Fuel                                       | `≤ 2`: `4` Burning; `1` Square burns <br> `= 3` Hits: `10` Burning; `2` Squares burn <br> `≥ 4` Hits: `13` Burning; `3` Squares burn | A flame-throwing weapon that can leave Squares burning for `2` Rounds. Anyone who stands on those Squares suffers an additional `3` Burning Damage every Tick. Uses Fuel instead of Bullets as ammo. |
+| 3    | Maksim III Rifle         | 3    | 10          | 1               | Firearms              | Ranged: `20`, Ammo: `12`, Semi-Auto, Slow Reload                   | `≤ 2`: `6` Piercing <br> `= 3` Hits: `8` Piercing <br> `≥ 4` Hits: `14` Piercing | Outfitted with a powerful scope and a slightly lengthened barrel, this Maksim elevates the art of the sharpshooter. |
+| 4    | Kijser Assault Rifle     | 3    | 15          | 1               | Firearms              | Ranged: `20`, Ammo: `20`, Automatic, Burst: `3`                    | `≤ 2`: `5` Piercing <br> `= 3` Hits: `11` Piercing <br> `≥ 4` Hits: `12` Piercing | A powerful and ergonomic assault rifle and in fact the first of its kind. In skilled hands, it is a deadly weapon. |
+| 4    | Rahvalod Machine Gun     | 4    | 15          | 1               | Firearms              | Ranged: `10`, Ammo: `100`, Automatic, Very Slow Reload, Burst: `6` | `≤ 2`: `4` Piercing <br> `= 3` Hits: `10` Piercing <br> `≥ 4` Hits: `12` Piercing | A powerful, fast-firing machine gun.  |
 
 ### Sky Ship Weapons
 | Tier | Weapon                   | Supply Cost | Properties                                                        | Damage & Effects   | Description        |
@@ -911,30 +922,30 @@ These Skills have a dominant physical aspect and are directly tied to a Characte
 #### Acrobatics (Agi/Str)
 Performing acrobatic feats, such as jumping, tumbling and climbing, without injuring oneself in the process. 
 
-| Level | Name                 | AP | Hit(s)  | Description        |
+| Level | Name                 | AP | Mod.    | Description        |
 | ----- | -------------------- | -- | ------- | ------------------ |
 | 1     | Dodge                | 1  |         | While not wearing any [Armor](#armor) or wearing Armor whose Bulk is no more than `1`, and not wielding a shield of Bulk `2+`, you may completely avoid an enemy's [Glancing Hit](#attacks-always-hit) on you! |
-| 2     | Wind Out Of It       | 2  | -1      | When hit by an Attack, lose `-1` [Stamina](#stamina--strain), wind out of the hit and... <br> `≤ 2`: suffer `3` points of Damage less. <br> `= 3`: suffer `5` points of Damage less <br> `≥ 4`: suffer `8 or half (RU)` Damage less, picking whichever number is higher. |
+| 2     | Wind Out Of It       | 2  | -1D     | When hit by an Attack, lose `-1` [Stamina](#stamina--strain), wind out of the hit and... <br> `≤ 2`: suffer `3` points of Damage less. <br> `= 3`: suffer `5` points of Damage less <br> `≥ 4`: suffer `8 or half (RU)` Damage less, picking whichever number is higher. |
 
 #### Close Quarters Combat (Agi/Str)
 Skill for any melee weapon and unarmed combat. Replaces the Unarmed Combat Skill of the Core rules. 
 
-| Level | Name                   | AP | Hit(s)  | Description <br> Damage                   |
+| Level | Name                   | AP | Mod.    | Description <br> Damage                   |
 | ----- | ---------------------- | -- | ------- | ----------------------------------------- |
 | 0     | Punch, Kick, Headbutt  | 2  |         | `≤ 2`: `Str` Bludgeoning <br> `= 3`: `Str * 2` Bludgeoning <br> `≥ 4`: `Str * 2` Bludgeoning; Knock your opponent [Prone](#prone) |
 | 0     | Shove                  | 2  |         | `≤ 2`: Push a target `1` Square. <br> `= 3`: Push a target `2` Squares and take their place, if you desire. Does not provoke [Opportunity Attacks](#opportunity-attacks). <br> `≥ 4`: Push a target `1 + Str` Squares and take their place, if you desire. Does not provoke [Opportunity Attacks](#opportunity-attacks). |
 | 0     | Weapon Strike          | 2  |         | Strike a ST with a melee weapon. The Damage is determined by the weapon you use. |
 | 1     | Grapple                | 2  |         | [Grapple](#grappled) a target. You can not use at least one hand for as long as you're grappling. <br> `≤ 2`: The target is [Grappled](#grappled). <br> `= 3`: The target is [Grappled](#grappled) and knocked [Prone](#prone) or disarmed, if possible. <br> `≥ 4`: The target is [Grappled](#grappled), knocked [Prone](#prone) and disarmed, if possible. |
 | 1     | Blade Barrier          | 3  |         | Until the start of your next Turn, whenever any Character moves **into** a spot within reach, you may **freely** attack that Character with a **Slash** at Hit(s) `-1` and, if Solid or better, force them back `1` Square. |
-| 2     | Cleave                 | 3  | -1      | Attack up to `3` targets at once, in a `2` Square AoE cone in front of you. The Damage is determined by the weapon you use. |
+| 2     | Cleave                 | 3  | -1 Hit  | Attack up to `3` targets at once, in a `2` Square AoE cone in front of you. The Damage is determined by the weapon you use. |
 
 #### Firearms (Agi/Awar)
 Skill for using modern firearms. 
 
-| Level | Name                   | AP | Hit(s)  | Description <br> Damage                   |
+| Level | Name                   | AP | Mod.    | Description <br> Damage                   |
 | ----- | ---------------------- | -- | ------- | ----------------------------------------- |
 | 0     | Single-Shot            | 2  |         | Carefully aim and shoot once at a ST, dealing damage as noted on your weapon. |
-| 1     | Burst-Fire             | 3  | -1      | Shoot a burst at a ST, dealing damage as noted on your weapon, *if* the weapon supports it. |
+| 1     | Burst-Fire             | 3  | -1 Hit  | Shoot a burst at a ST, dealing damage as noted on your weapon, *if* the weapon supports it. |
 
 #### Special Weapons (Awar/Tough)
 Skill for using unconventional firearms and heavy weapons. 
@@ -948,11 +959,13 @@ These Skills have a dominant mental aspect and are strongly related to a Charact
 #### Bio-Augmentation (Agi/Wit)
 Designing and applying drugs to boost performance in specific areas, when needed. 
 
-| Level | Name                   | AP | Hit(s)  | Description <br> Damage                   |
+Boons and penalties from this Skill both last the same amount of time. When maximum HP are reduced, so are current HP. Once the time is up, the maximum HP are replenished, but **not** current HP!
+
+| Level | Name                   | AP | Mod.    | Description <br> Damage                   |
 | ----- | ---------------------- | -- | ------- | ----------------------------------------- |
 | 0     | Reactive Booster       | 2  |         | Inject a ST with a syringe that will enhance their reaction speed, for `2` Rounds. The target may receive `+1` [Edge](./strive-core.md#edge) on any Reaction, once per Round, but also reduces their maximum HP by `5` points. Doesn't stack. |
 | 0     | Stimpack               | 2  |         | Inject a ST with a syringe that will enhance their Toughness by `+1`, for `2` Rounds, but also reduces their maximum HP by `5` points. Stacks. |
-| 0     | Regenerative Booster   | 2  |         | Inject a ST with a syringe that lets them generate `+5` Temporary HP every Tick, but also reduces their maximum HP by `10` points. Lasts `2` Rounds. Stacks. |
+| 0     | Regenerative Booster   | 2  |         | Inject a ST with a syringe that lets them generate `+5` Temporary HP every Tick, but also reduces their maximum HP by `5` points. Lasts `2` Rounds. Stacks. |
 
 #### Chemistry (Wit/Wit)
 Knowing chemical compounds and how they interact. 
@@ -1233,19 +1246,14 @@ The arrival of the Swine has been some days ago. They were dropped off here by R
 ## The Scenes
 The PCs will go through each of the following scenes in succession. Keep each as brief as possible and abstract away what you can. Of course, the players should still retain their opportunities to roleplay, but always be wary of open-ended and long-winded discussions. Cut those short, reinforcing the time-criticality of the mission. 
 
-### The Approach
-The Stormbreakers must cross dense jungle and reach the spire.
-
-**Creative Test:** Ob `3`. Use the normal success-count rules for the party's size. On success, the Stormbreakers reach the breach without delay. On failure, they still arrive, but a detour costs them time. The structure's distant groaning grows louder.
-
 ### The Breach
 > The thicket parts around the base of the spire, revealing a gaping wound in its concrete shell. Twisted steel beams protrude from fractured walls, while thick roots have forced their way through cracks in the structure.
 >
-> Someone has made the opening considerably larger. Crude tools have hacked through roots and weakened concrete, and the ground is littered with scraps of metal, broken machinery, and discarded containers. Cloven hoofprints disappear into the darkness within.
+> Someone has made the opening considerably larger. Crude tools have hacked through roots and weakened concrete, and the ground is littered with scraps of metal, broken machinery, and discarded containers. 
 >
 > Beyond the breach, an emergency light flickers over a faded Mechanite insignia. A small maintenance Autom lies crushed beneath a slab of concrete, its limbs twitching as it attempts to carry out its last command.
 
-There is no test or encounter here. The Stormbreakers can enter freely. If they take the time to look around and scrutinize their environment, they may discover cloven hoof-prints in the surrounding dirt and mud. They cannot determine whether there are Swine inside, or where they might have approached from. 
+There is no test or encounter here. The Stormbreakers can enter freely. If they take the time to look around and scrutinize their environment, they may discover cloven hoof-prints in the surrounding dirt and mud. They cannot determine whether there are Swine still inside, or where they might have approached from. 
 
 ### Buckling Hallway
 > Beyond the breach, a broad service corridor leads deeper into the spire. Thick roots have punched through the ceiling and walls, splitting concrete and twisting exposed steel supports.
@@ -1254,7 +1262,9 @@ There is no test or encounter here. The Stormbreakers can enter freely. If they 
 >
 > A narrow maintenance hatch is half-hidden behind a curtain of roots. It might lead into a service tunnel running parallel to the hallway.
 
-**Challenge:** The hallway may collapse any moment. Whatever solution the players propose should require a regular Skill Test at Ob `3`. On failure, the Stormbreakers still get through, but suffer `1D4` Bludgeoning Injuries, to be divided among them. 
+**Challenge:** The hallway may collapse any moment. Whatever solution the players propose should require a regular Skill Test at Ob `3`. On failure, the Stormbreakers still get through, but it takes longer. 
+
+This section is optional and only to be included if there is enough time. 
 
 ### Service Junction
 > The corridor opens into a small service junction. Faded lettering on a wall-mounted sign points toward the facility's central archive, barely legible beneath grime and creeping roots. The main corridor continues deeper into the spire.
@@ -1299,16 +1309,7 @@ The security is sealed and the Automs continue treating everyone as intruders. I
 One solution is explicitly excluded: blasting the door open. The Swine have already tried that, and failed, as evidenced by scorch marks and craters in the concrete floor. 
 
 ### Exfiltration
-Once the archive is secured or has collpased, the Stormbreakers must get out of the structure collapsing around them, with the data stick in hand. Which Stormbreaker actually has the data stick doesn't matter, only that one of them survives the falling structure matters. The exit should be treated as another Creative Test. You may pick from the following challenges as you see fit. Every failed challenge results in a Stormbreaker being buried in the rubble, and **dying**. 
-
-| D6  | Challenge |
-| --- | --------- |
-| 1   | The ceiling collapses above your heads! |
-| 2   | Metal beams shears across the hallway, threatening to slice you apart! |
-| 3   | An abyss where there used to be floor must be crossed! |
-| 4   | Wiring comes loose, aggressively flails and sparks with electric rage! |
-| 5   | The floor gives and you begin to slide into an uncertain fate! |
-| 6   | Steam hisses into the hallway, ready to cause serious burns! |
+Once the archive is secured or has collpased, the Stormbreakers get out of the structure collapsing around them, with or without the data stick. 
 
 **Rewards on returning with the archive:**
 - `3` Mechanite Technology Points
@@ -1316,7 +1317,7 @@ Once the archive is secured or has collpased, the Stormbreakers must get out of 
 
 The optional cache grants `1D10 + 5` Supplies, provided those Supplies were brought back aboard the Sky Ship.
 
-Any PCs that die during the Exfiltration are revived aboard their Sky Ship. Their service does not yet end. 
+Any PCs that died during the Expedition are revived aboard their Sky Ship. Their service does not yet end. 
 
 # Biomes
 Whenever the PCs enter a new [Region](#overworld--regions), it belongs to one the following **Biomes**, which will dictate much of what they can encounter within. Of course, you may have your own ideas and aren't required to adhere to any of the concepts presented here, but you should respect the Biome tiering, which affects the threat and loot curve of the game.
@@ -1347,20 +1348,6 @@ The islands of this Biome are particularly vibrant and full of color. Dense jung
 | 3   | **Overgrown Archipelago** | Countless smaller and larger islands are interconnected by hundreds of large roots and vines, outstretched across the chasms between as if desperately holding together what it can. There is no single landmass to traverse, but rather many smaller ones. The Sky Ship is useless here, but with some clever preparation, this archipelago may yet divulge its secrets. |
 | 4   | **Overgrown City**        | The remnants of a city have become a vibrant haven of nature, and may prove quite the labyrinthian nightmare to traverse. Threats new and old may lurk anywhere within, but also treasures of the past. |
 
-**Challenges**:
-| D10 | Challenge                 | Description            | Failure Result |
-| --- | ------------------------- | ---------------------- | -------------- |
-| 1   | **Carnivorous Plants**    | Careless steps may land the Stormbreakers in the maw of a carnivorous plant. | The Stormbreakers are suffer `1D4` Slashing Injuries, to be divided among them! |
-| 2   | **Corruption Hotbed**     | In this section of the jungle, the trees look... *odd*, and the air crackles aggressively. | The Stormbreakers have wandered into a Corruption Hotbed and each of them suffer `+1` Corruption! |
-| 3   | **Dense Vegetation**      | The jungle itself seems bent on preventing passage. The Stormbreakers must cut free a path. | The time they spend gives foes a chance to sneak up and ambush the Stormbreakers! |
-| 4   | **Predatorial Animals**   | One or more predators stalk the thicket of the jungle. You will have to avoid or neutralize them. | The Stormbreakers are attacked and suffer `1D4` Slashing Injuries, to be divided among them! |
-| 5   | **Spore-Filled Air**      | Some kind of giant mycelium has saturated the air with poisonous spores. A strain is put on the Stormbreakers' gas masks, and vision through the sickly clouds difficult. | The Stormbreakers get lost, and waste precious time. Each of them suffers `+1` Corruption1 |
-| 6   | **Winding Paths**         | The jungle almost seems designed to appear as confusing as possible. The path forward is obstructed by some new obstacle, around every corner. | The Stormbreakers get lost, and waste precious time. Each of them suffers `+1` Corruption! |
-| 7   | **Entangling Roots**      | Thick roots obstruct the area. Clearing them will take time. | `+1` Corruption. |
-| 8   | **Fractured**             | The area is broken up by several floating chunks of earth, that are difficult to reach. | Some of the earthen chunks crumble and plunge into the depths below. With them, go potential treasures and the path forward. |
-| 9   | **Flash Flood**           | A sudden, heavy rain fall flushes the ground away beneath your feet. | Stormbreakers lose their footing and are carried away by the waters, even as far as the edge of the island. |
-| 10  | **Parasitic Swarm**       | A swarm of blood-feeding insects descends upon the Stormbreakers. | All Stormbreakers suffer `1` Bleeding Injury. |
-
 ### Sky Nations
 Before the cataclysm, the Capital was surrounded by countless towns. Some were even large enough to negotiate partial independence from the crown. Those that survived have now taken the chance to seize their full autonomy. The Kijser back home will want to bring these cities back into the fold, who in turn won't yield their freedom willingly. They may need to be persuaded, bought or forced into submission, if possible. But even if that fails, trade may still benefit the Capital. 
 
@@ -1376,20 +1363,6 @@ As these fledgling nations have yet to find their place in this new world they w
 | 5   | **Pirates**               | Hidden away on the underside of an island, a shanty town has taken to piracy. Even in the end times, greed and selfishness work against the greater good. And yet, they may be turned into a useful tool. Getting rid of them may endear the Stormbreakers to the Sky Nations, while empowering the pirates could pressure the Sky Nations into submission for a promise of protection and aid. |
 | 6   | **Unaligned Town**        | While the Sky Nations divy up territory, some towns try to remain neutral. This is one such case. While they might submit to the crown, the Sky Nations won't just idly accept the fallen empire's meddling. |
 
-**Challenges**:
-| D10 | Challenge                 | Description            | Failure Result |
-| --- | ------------------------- | ---------------------- | -------------- |
-| 1   | **Bandits**               | Bandits stalk this region. You will have to circumnavigate or eliminate them, to proceed. | The Stormbreakers are attacked by bandits! |
-| 2   | **The New Authority**     | One of the fledgling nations is trying to assert dominance. They will look to find a transgression in the Stormbreakers' actions, and demand reparations be paid, when they do. | High Command wishes to avoid an altercation and will pay to rectify your dishonor. The Capital loses `1D10 + 5` Supplies! |
-| 3   | **Mistaken As Foes**      | Two of the Sky Nations here are at war, and mistake the Stormbreakers' Sky Ship as part of the enemy's fleet. They will look to engage the Stormbreaker Sky Ship. | The Sky Ship is damaged in the fight and loses `1D10 + 5` HP! |
-| 4   | **Swine Raid**            | As food is abundant in this region, so are the vultures - or swine, in this case. In their pilfered and improvised Sky Ships, they raid towns and Sky Ships with impunity. | The Stormbreaker Sky Ship is boarded by vile Swine! |
-| 5   | **Belligerent Refugees**  | As the Stormbreakers fly by an island, several people jump from it and board the Sky Ship. They attempt to take control of the Sky Ship, as they refuse to go down with their home! | The Stormbreakers lose control of their Sky Ship! They must now take it back! |
-| 6   | **Airborne Predator**     | A particularly dangerous predator stalks the skies. It may consider the Stormbreakers or their Sky Ship as easy prey. | The Stormbreakers are attacked by an aerial predator! |
-| 7   | **Cracking Island**       | A nearby island breaks apart before your very eyes, its remains crashing into everything nearby. | The Stormbreakers suffer `1D4` Bludgeoning Injuries from flying debris. |
-| 8   | **Crosswind Shear**       | A strong, errant gust slams into the Stormbreakers at an inopportune moment. | The Stormbreakers are swept off their feet, possibly at risk of plunging into the depths below. |
-| 9   | **Cloudblind**            | A low cloud envelops the area. Navigation by sight is impeded. | The Stormbreakers lose valuable time, as they must slow down to keep going. They lose `1D4` QoDs. |
-| 10  | **Closed Borders**        | The area ahead has been cordoned off by one of the Sky Nations. They will not let the Stormbreakers pass. | The Stormbreakers are chased away with force, and made to retreat. They must find a different route. |
-
 ### Red Sky
 In this Region, the Sky is stuck in eternal, burning dusk. It never grows fully dark, nor does it ever truly dawn. Strange shapes move in the clouds, and the islands are covered in rust-colored dust. 
 
@@ -1402,20 +1375,6 @@ In this Region, the Sky is stuck in eternal, burning dusk. It never grows fully 
 | 4   | **Cloudbound Figures**   | A bank of deep-red cloud drifts just beyond the island. Enormous silhouettes move behind it: some resemble ships, others long-limbed creatures, and a few seem impossibly large. They keep pace with the Stormbreakers' Sky Ship, yet always out of reach, and concealed by the clouds. |
 | 5   | **The Rust Orchard**     | Rows of dead, twisted trees cover a shallow depression in the island. Their bark flakes away like oxidized metal, and brittle red leaves gather around their roots despite there being no visible wind. Some trees have grown around the remains of old machinery, leaving strange shapes embedded within their trunks, though some of it looks salvageable. |
 | 6   | **The Upward Well**      | A solitary stone well stands near the center of a barren island. A thin stream of rust-colored dust rises from its depths, spiraling upward before dispersing into the sky. The well descends farther than the island's thickness should permit, and the stones lining its interior are worn unfathomably smooth. |
-
-**Challenges**:
-| D10 | Challenge                 | Description | Failure Result |
-| --- | ------------------------- | ----------- | -------------- |
-| 1   | **Rust Squall**           | A sudden gust sweeps rust-colored dust across the area. The abrasive particles obscure vision and work their way into filters and exposed equipment. | All filters/armors lose `1` point of protectiveness. |
-| 2   | **False Horizon**         | The burning horizon appears to shift, revealing landmarks that vanish whenever the Stormbreakers approach. Navigational instruments offer no reliable guidance. | The Stormbreakers lose their way and waste precious time. They lose `1D4` QoDs. |
-| 3   | **Emberfall**             | Glowing fragments tumble from the red clouds, cooling only moments before they strike the ground. The Stormbreakers must find cover before the falling debris reaches them. | The Stormbreakers suffer `1D4` Burning Injuries, to be divided among them. |
-| 4   | **Hollow Ground**         | Rust-colored dust conceals deep fissures in the island's surface. Underfoot, the fragile crust gives way without warning, threatening to drag the Stormbreakers into the depths below. | The Stormbreakers suffer `1D4` Bludgeoning Injuries, to be divided among them. |
-| 5   | **Cloud Stalkers**        | Strange silhouettes circle the Sky Ship before disappearing into the clouds. They return when the Stormbreakers are exposed, and this time they come much closer. | The Stormbreakers are ambushed by airborne predators! |
-| 6   | **Searing Twilight**      | The burning dusk seems to intensify, bathing the island in oppressive heat. Even the shadows offer little relief, and the Stormbreakers struggle to endure the exposure. | All Stormbreakers suffer `+1` Strain. |
-| 7   | **Red Static**            | Faint crimson arcs dance between rocks and rusted metal. The air hums, and familiar objects appear subtly distorted at the edge of the Stormbreakers' vision. | All Stormbreakers suffer `+1` Corruption. |
-| 8   | **Shattered Anchorage**   | The Sky Ship passes near a jagged ridge of rusted metal and stone. A section breaks loose and tumbles into its path, leaving little time to avoid the collision. | The Sky Ship loses `1D10` HP. |
-| 9   | **Whispers in the Dust**  | Voices carry through the rust-colored haze, seemingly calling each Stormbreaker from a different direction. Following the sounds leads away from the group and deeper into unfamiliar terrain. | The Stormbreakers become separated and must reunite before continuing their expedition. |
-| 10  | **The Descending Shadow** | An immense shape passes over the island, blotting out the burning sky. Its shadow moves against the wind, and its passage stirs the dust into a swirling cloud that engulfs the Stormbreakers. | The Stormbreakers are caught in the swirling dust and each suffer `+1` Corruption. |
 
 ## Tier Two Biomes
 These Biomes must always be adjacent to tier one Regions and must not be adjacent to the Capital's Region. 
@@ -1445,20 +1404,6 @@ Life has all but vanished from the massive landmasses that dominate these skies,
 | 5   | **Spiked Desert**         | Vast areas of the dunes are covered in jagged spikes of glass jutting out of the sand. A careless step could spell grievous injury. |
 | 6   | **Sandfall**              | A smaller floating island hovers just above the dunes. On one side, sand falls down in a steady stream, while an equal amount rises on the other. Its shade is a welcome reprieve from the heat, but not just for you. |
 
-**Challenges**:
-| D10 | Challenge                 | Description            | Failure Result |
-| --- | ------------------------- | ---------------------- | -------------- |
-| 1   | **Shifting Sands**        | The sand here lies on unstable ground. The dunes may collapse beneath your feet, pulling you under like quicksand. | A Stormbreaker is buried in sand and starts suffocating, suffering `8` Pure Damage! It takes great effort to free them. |
-| 2   | **Buried Predator**       | The sand shifts - but is it from the wind, or something beneath? | The Stormbreakers are ambushed by a predator. |
-| 3   | **Extreme Heat**          | The heat bears down heavy on the Stormbreakers. | All Stormbreakers suffer `+2` Strain. |
-| 4   | **Razor Glass**           | Just beneath the sand, formations of razor-sharp glass lie hidden. A misstep could have painful consequences. | `1D4` Piercing Injuries, divided among the Stormbreakers. |
-| 5   | **Sandstorm**             | A sudden sandstorm obscures all vision and puts a strain on the equipment. | All Stormbreakers suffer `+2` Strain. |
-| 6   | **Glass-storm**           | Like a sandstorm, but far deadlier. Countless tiny shards of glass race across the desert. Anyone caught in the glittering cloud will suffer grievous injury. | `1D6` Slashing Injuries, divided among the Stormbreakers. |
-| 7   | **Blinding Reflections**  | The desert's surface is smooth as a mirror's and the light from the sun is burning in your eyes, at all times. | The Stormbreakers lose their path, and thus `1D4` QoDs. |
-| 8   | **Static-Charged Dust**   | The hot, dry air crackles with energy. The sand itself seems static-charged, poised to strike electrical arcs at any disturber. | `1D4` Electrical Injuries, divided among the Stormbreakers. |
-| 9   | **Extrene Nightfall**     | Rapid cooling causes fractures in the surrounding glass. Careless steps could cause it to shatter beneath your feet. | `1D4` Piercing Injuries, divided among the Stormbreakers. |
-| 10  | **Silica Fumes**          | Particles of dust are kicked up by the wind, enveloping the Stormbreakers. Filters are strained. | Filters/armors lose one point of protectiveness. |
-
 ### Silent Winds
 The great cataclysm wiped out all life in this place. It now belongs solely to the Argentumites. Abandoned towns and crumbling factories hint at a once bustling part of the empire, while silent battlefields hold untold secrets. Beware the Corruption, whose strength has grown to peak in this place. Innumerable chunks of broken earth float everywhere in this region, making traversal by Sky Ship difficult. 
 
@@ -1472,20 +1417,6 @@ The great cataclysm wiped out all life in this place. It now belongs solely to t
 | 5   | **Argentumite Outpost**   | It seems the Argentumites are more organized than initially assumed. They have build an outpost into the side of an island. Its defenses are formidable, yet if they could be overcome, the cost could we weighed against a treasure of Silversteel. |
 | 6   | **Shard Archipelago**     | An island appears to have fractured. Countless chunks of earth are now orbiting its Suspendium core. If the Suspendium could be mined and sent back, the Capital could build more Sky Ships or expand the Capital island. However, approach by Sky Ship is impossible, as the floating earthen chunks could damage it. Difficult and perilous, the trek would have to be made on foot. |
 
-**Challenges**:
-| D10 | Challenge                 | Description            | Failure Result |
-| --- | ------------------------- | ---------------------- | -------------- |
-| 1   | **Landmines**             | Explosive traps lie buried, just below the dirt and mud, still poised to go off at a moment's notice. | The Stormbreakers suffer `1D4` Bludgeoning and `1D4` Burning Injuries, to be divided among them. |
-| 2   | **Endless Wire**          | It seems the previous inhabitants sought to solve all their troubles with the application of barbed wire. The stuff is everywhere, barring passage. | The Stormbreakers suffer `1D6` Slashing Injuries, to be divided among them. |
-| 3   | **Volatile Munitions**    | Many ammunition depots linger in the trenches. Most of them are corroded beyond use, but the powder within still holds potential potency. The slightest vibrations could set them off. | The Stormbreakers suffer `1D6` Piercing Injuries, to be divided among them. |
-| 4   | **Blasted Echoes**        | The ghostly shapes of soldiers are stuck in an endless loop of their fierce battle. They jitter and warp, while repeating the last few seconds of their existence before the cataclysm. While they won't pursue the Stormbreakers, their proximity causes a buildup of Corruption. And they're *everywhere*. | All Stormbreakers suffer `+1` Corruption. |
-| 5   | **Corruption Hotbed**     | In this section of the battlefield, the mud is clear as glass, the guns and wire warped into *odd* shapes, and the air crackles aggressively. | The Stormbreakers have wandered into a Corruption Hotbed and each of them suffer `+1` Corruption! |
-| 6   | **Rising Death Fog**      | Death Fog is carried onto the island by the wind. It puts a strain on the filters. | All filters/armors lose `1` point of protectiveness. |
-| 7   | **Collapsing Factory**    | The path forward leads through an old decrepit factory complex, parts of which might collapse at any moment. | All Stormbreakers suffer `1D4` Bludgeoning Injuries, divided among them. |
-| 8   | **Floating Debris**       | Pieces of broken earth and building float about, occasionally colliding with one another unpredictably. Navigating these dynamic obstacles will prove perilous. | All Stormbreakers suffer `1D4` Bludgeoning Injuries, divided among them. |
-| 9   | **Automated Defenses**    | A dormant security system springs to life, assaulting the Stormbreakers. They will have to fight or flee from it. | All Stormbreakers suffer `1D4` Piercing Injuries, divided among them. |
-| 10  | **Structural Maze**       | Rubble and debris block large parts of the path ahead. Climbing above exposes you to flying debris or strong Corruption. | All Stormbreakers suffer `+1` Corruption. |
-
 ### Frigid Luminance
 In this place, the sun glows a deep blue and anything bathed in its light freezes over. Only the shadows provide reprieve, and are already coveted by isolated communities of survivors, desperately clinging to every bit of warmth they can find, for the sun has abandoned them. 
 
@@ -1498,20 +1429,6 @@ In this place, the sun glows a deep blue and anything bathed in its light freeze
 | 4   | **The Black Needles**    | Hundreds of tall, dark stone spires rise from a barren island, casting long, narrow shadows across its frozen surface. Small groups of survivors move between these strips of darkness, carrying their belongings whenever the shadows shift. The tallest spires bear strange markings, possibly remnants of a structure built before the Rise. |
 | 5   | **The Driftgrave**       | A collection of old Sky Ships has become trapped against the side of a frozen island. Their hulls are encased in ice wherever the blue sunlight reaches them, while their undersides offer precious shelter. Scavengers have stripped some wrecks bare, but others remain sealed within the ice, their cargoes potentially intact. |
 | 6   | **The Shadowed City**    | The ruins of a sprawling city lie beneath the shadow of a massive floating landmass. Its streets are crowded with makeshift shelters, and entire districts have been divided among isolated communities. The deepest streets remain habitable, but the scarce space has made control of the city's shadows a source of constant conflict. |
-
-**Challenges**:
-| D10 | Challenge                 | Description | Failure Result |
-| --- | ------------------------- | ----------- | -------------- |
-| 1   | **Exposed Crossing**      | The path ahead crosses open ground with no meaningful shade. The blue sunlight rapidly freezes exposed surfaces, making each step more treacherous than the last. | All Stormbreakers suffer `+1` Frostbitten. |
-| 2   | **Shifting Shadows**      | A great mass of floating rock drifts across the sun, causing the shadows to move unpredictably. The safe path disappears, forcing the Stormbreakers to search for another route. | The Stormbreakers lose precious time and lose `1D4` QoDs. |
-| 3   | **Brittle Ice**           | A seemingly solid sheet of ice lies across the route. Cracks spread beneath the Stormbreakers' weight, threatening to give way without warning. | The Stormbreakers suffer `1D4` Piercing Injuries, to be divided among them. |
-| 4   | **Blue Glare**            | Ice formations reflect and concentrate the blue sunlight, turning sheltered passages into dangerous traps. The Stormbreakers must find their way through without exposing themselves for too long. | All Stormbreakers suffer `+1` Frostbitten, and filters/armors lose `1` point of protectiveness. |
-| 5   | **Falling Ice**           | The island's frozen crust is unstable. A deep rumble travels through the ground, and enormous slabs of ice begin breaking loose overhead. | The Stormbreakers suffer `1D4` Bludgeoning Injuries, to be divided among them. |
-| 6   | **Desperate Survivors**   | A group of armed survivors has claimed the only safe passage through the area. They refuse to surrender their territory, fearing that strangers will consume their supplies or steal their shade. | The Stormbreakers are attacked by the survivors and must fight or flee. |
-| 7   | **Frozen Equipment**      | The cold has penetrated the Stormbreakers' equipment. Moving parts seize up, seals become brittle, and exposed mechanisms freeze solid. | Equipment suffers damage and may become unusable until repaired. |
-| 8   | **The Icebound Predator** | Something large moves beneath the translucent ice, following the Stormbreakers from below. When the ice begins to crack around them, it becomes clear that the creature has found a way to reach its prey. | The Stormbreakers are ambushed by a predator! |
-| 9   | **Argentumite Patrol**    | Pale figures move between distant islands, almost invisible against the frozen landscape. An Argentumite patrol has noticed the Stormbreakers and is closing in. | The Stormbreakers are attacked by Argentumites! |
-| 10  | **The Lost Refuge**       | A trail of footprints leads into an isolated pocket of shadow, where a settlement appears to have been abandoned in haste. Signs of a struggle lead away from the shelters and into the exposed light. | The Stormbreakers are drawn into danger while investigating and suffer `1D4` Injuries, to be divided among them. |
 
 ## Tier Three Biomes
 These Biomes must always be adjacent to tier two Regions and must not be adjacent to tier one, or lower Regions. 
@@ -1541,20 +1458,6 @@ The shadows are thick and viscuous, like tar. The sky above is covered in a blan
 | 5   | **The Hanging Garden**   | A forest of pale, leafless trees grows upside down from the underside of a floating island. The roots dangle through the darkness, trailing into the viscous shadows below. Clusters of tiny crystals glow among the roots, providing enough light for strange fungi and small, pale creatures to thrive. The whole place sways gently in the wind. |
 | 6   | **The Great Crystal**    | An enormous crystal formation floats within a hollow between several islands, its many facets illuminating the surrounding darkness. Smaller crystals orbit it in slow, deliberate paths. The light reveals veins of Silversteel in the nearby stone, but the formation seems to attract things from the gloom, and distant silhouettes gather wherever its radiance reaches. |
 
-**Challenges**:
-| D10 | Challenge                  | Description | Failure Result |
-| --- | -------------------------- | ----------- | -------------- |
-| 1   | **Grasping Shadows**       | The shadows cling to the Stormbreakers like thick tar, pulling at their boots and equipment whenever they cross an exposed stretch. Progress slows as they struggle to free themselves. | The Stormbreakers lose precious time. They lose `1D4` QoDs. |
-| 2   | **Lightless Passage**      | The darkened clouds conceal the terrain ahead, while the shadows below offer no reliable indication of depth or distance. The Stormbreakers become disoriented and lose their route. | All Stormbreakers suffer `+1` Corruption. |
-| 3   | **Crystal Shards**         | A glowing crystal fractures somewhere above. Sharp fragments rain down through the darkness, their light briefly revealing the hazard only moments before impact. | The Stormbreakers suffer `1D6` Piercing Injuries, to be divided among them. |
-| 4   | **Beacon in Peril**        | A crystal that shelters a nearby settlement begins to dim. Something has attached itself to its surface, draining its light. The inhabitants plead for help, but the thing has already begun to stir. | The Stormbreakers are attacked by a Tar creature! |
-| 5   | **Shadow Surge**           | The shadows suddenly flow across the ground in a single, rising wave, swallowing the path ahead. The Stormbreakers must scramble toward higher ground or the nearest source of light before they are engulfed. | The Stormbreakers suffer `1D4` Bludgeoning Injuries, to be divided among them. |
-| 6   | **Crystal Dust**           | Fine luminous dust drifts from a cluster of damaged crystals. It clings to exposed skin and equipment, making instruments go haywire. | The Stormbreakers lose `1D4` QoD. |
-| 7   | **Claimed Sanctuary**      | An isolated community has blocked access to a crystal-lit passage. Its inhabitants believe that allowing outsiders through will endanger their last safe refuge. They are armed, desperate, and unwilling to negotiate. | The Stormbreakers are attacked by the survivors and must fight or flee. |
-| 8   | **The Silent Pursuer**     | Something moves between the islands, always just beyond the edge of the crystal light. Whenever the Stormbreakers stop, it stops as well. The darkness conceals its approach until escape becomes difficult. | The Stormbreakers are ambushed by a Tar creature! |
-| 9   | **Collapsing Shadowbridge**| A narrow bridge of stone connects two islands, but its surface is covered in viscous darkness. As the Stormbreakers cross, sections of the bridge begin breaking away and falling into the depths. | The Stormbreakers suffer `1D4` Bludgeoning Injuries, to be divided among them. |
-| 10  | **The Dimming**            | The floating crystals throughout the area begin losing their light simultaneously. The shadows thicken, swallowing familiar landmarks and separating the Stormbreakers from their route back to safety. | The Stormbreakers lose their way and lose `1D4` QoDs. |
-
 ### Shattered Realm
 The entire area is akin to an asteroid field - with uncountable chunks of earth, rock, metal and glass swirling in the currents like leaves on the wind. This place is entirely inhospitable, and testament to the great destruction in the cataclysm. The ruins of various Sky Ships drift among the debris. Whether anyone else actually made it this far is questionable, and finding survivors is even more so. 
 
@@ -1568,20 +1471,6 @@ The entire area is akin to an asteroid field - with uncountable chunks of earth,
 | 5   | **The Last Distress**     | A faint radio signal repeats a desperate call for help from somewhere inside a cluster of wrecked Sky Ships. The transmission is weak but unmistakably human. Its origin is buried beneath layers of debris, and there is no telling whether the signal is live, recorded, or even genuine. |
 | 6   | **The Driftgrave**        | An immense formation of earth, rock, and wreckage slowly turns around a dark central mass. Ship hulls, fragments of buildings, and broken machinery have become trapped in its outer layers. The formation moves in a way that suggests a current beneath the debris, though nothing visible explains its motion. |
 
-**Challenges**:
-| D10 | Challenge                  | Description | Failure Result |
-| --- | -------------------------- | ----------- | -------------- |
-| 1   | **Crushing Passage**       | The route narrows as enormous chunks of rock and metal drift together. The Stormbreakers must cross before the gap closes completely. | `1D4` Bludgeoning Injuries divided among the Stormbreakers. |
-| 2   | **Glass Squall**           | A fast-moving current carries a cloud of glass fragments across the route. The smallest shards tear at exposed skin, while larger pieces threaten to cut through equipment. | `1D6` Piercing Injuries divided among the Stormbreakers. |
-| 3   | **Rogue Current**           | The debris around the Stormbreakers begins moving in a different direction from the surrounding field. Their expected route shifts, forcing them to find a new passage through. | Lose `1D4` QoDs. |
-| 4   | **Entangled Wreckage**     | Cables, rigging, and torn hull plates form a dense snare between several wrecks. Crossing it without becoming trapped requires careful movement or cutting a way through. | Progress is halted as the Stormbreakers struggle to free themselves. Lose `1D4` QoDs. |
-| 5   | **Unstable Footing**       | The landmass beneath the Stormbreakers starts breaking apart. Cracks spread through the rock as nearby fragments pull sections of the island in different directions. | `1D4` Bludgeoning Injuries divided among the Stormbreakers. |
-| 6   | **Dead Air**               | Radio communication becomes unreliable amid the metal debris. Voices break apart into static, and transmissions seem to originate from several directions at once. | Radio equipment is damaged and may become unusable. |
-| 7   | **Collapsing Wreck**       | A seemingly intact Sky Ship offers a promising route through the debris. Once the Stormbreakers enter, its weakened structure begins to collapse around them. | `1D4` Bludgeoning Injuries divided among the Stormbreakers. |
-| 8   | **False Distress**         | A distress call leads the Stormbreakers toward a damaged vessel. When they arrive, they find no sign of survivors, only a dangerous route through tightly packed debris. | The detour costs valuable time. Lose `1D4` QoDs. |
-| 9   | **Unseen Pursuer**         | Something moves between the drifting fragments, always disappearing before it can be clearly identified. It keeps pace with the Stormbreakers and waits for an opportunity to strike. | A Threat ambushes the Stormbreakers. |
-| 10  | **Collision Cascade**      | A collision among the larger fragments sets off a chain reaction. Smaller pieces ricochet through the field, turning the surrounding area into a storm of stone and metal. | `1D6` Bludgeoning Injuries divided among the Stormbreakers. |
-
 ### Great Eye
 A false sun sits in the center of this area, iridescently glowing in the colors of the rainbow, reaching out with tendrils of swirling light. Whatever they touch, forever changes, for better or worse. Even the Argentumites avoid the tendrils. In the distance, you can see glowing structures and creatures. 
 
@@ -1594,20 +1483,6 @@ A false sun sits in the center of this area, iridescently glowing in the colors 
 | 4   | **The Argentumite Verge** | A field of broken landmasses lies just beyond the reach of the nearest tendrils. The ground is scored with the marks of enormous fleeing creatures, and Argentumite tracks lead away from the light rather than toward it. Whatever lies beyond this boundary is apparently not worth the risk to them. |
 | 5   | **The Prismatic Sea**     | Shards of colored crystal float between the islands, slowly turning and refracting the false sun into countless smaller beams. Some fragments appear to contain objects that were changed when the light passed through them. The resulting display is beautiful, but navigating it means crossing a maze of unpredictable reflections. |
 | 6   | **The Wreath**            | Several enormous islands form a broken ring around the false sun. Their surfaces are covered in luminous structures, and strange creatures move between them as if following paths invisible to ordinary eyes. The ring offers a vantage point over the entire region, but its connecting passages are repeatedly crossed by tendrils of light. |
-
-**Challenges**:
-| D10 | Challenge                  | Description | Failure Result |
-| --- | -------------------------- | ----------- | -------------- |
-| 1   | **Wandering Tendril**      | A tendril of rainbow light sweeps across the Stormbreakers' route. It moves slowly enough to observe, but its path changes without warning. Anything it touches is permanently altered. | One Stormbreaker is touched by the tendril and permanently transformed. The change may be beneficial, harmful, or ambiguous; its exact nature is determined by the GM. |
-| 2   | **Refraction Maze**        | The light refracts through floating crystals, making distant objects appear close and nearby obstacles seem impossibly far away. Every attempted shortcut leads somewhere unexpected. | Lose `1D4` QoDs. |
-| 3   | **Chromatic Shrapnel**     | A passing tendril strikes a cluster of floating crystal fragments. The fragments change shape and burst apart, scattering razor-sharp shards across the surrounding area. | `1D6` Piercing Injuries divided among the Stormbreakers. |
-| 4   | **Unstable Ground**        | The light has altered the island beneath the Stormbreakers. Stone bends like soft clay, solid ground becomes brittle, and sections of the surface suddenly shift out of place. | `1D4` Bludgeoning Injuries divided among the Stormbreakers. |
-| 5   | **The Changed Predator**   | A creature approaches through the glowing vegetation. Its body has been transformed by the false sun, leaving it with unfamiliar limbs, unusual movement, or abilities that make its behavior difficult to predict. | A Threat ambushes the Stormbreakers. |
-| 6   | **False Beacon**           | A distant structure shines with a steady, welcoming light. It appears to offer a safe route through the area, but its position shifts whenever the Stormbreakers attempt to approach it. | Lose `1D4` QoDs. |
-| 7   | **Reflected Tendril**      | A narrow beam of rainbow light strikes a floating crystal and emerges in an unexpected direction. Several reflections cross the route, making it difficult to identify which surfaces are safe. | A piece of equipment is damaged and may become unusable. |
-| 8   | **Argentumite Flight**     | An Argentumite emerges from behind a landmass, fleeing from a tendril that has swept across its path. It moves recklessly through the surrounding debris, creating a dangerous situation for anyone in its way. | The Stormbreakers suffer `1D4` Bludgeoning Injuries divided among them as the fleeing creature or the debris it dislodges strikes their route. |
-| 9   | **Luminous Growth**        | A cluster of glowing structures begins changing as the tendrils approach. Their surfaces swell and twist, filling the passage with unfamiliar protrusions and closing off the route the Stormbreakers intended to use. | Progress is halted as the Stormbreakers search for a way through. Lose `1D4` QoDs. |
-| 10  | **Spectrum Surge**         | The false sun brightens until its tendrils stretch across the surrounding islands in a single, dazzling wave. Colors bleed into one another, and the landscape seems to change before the Stormbreakers' eyes. | `+1` Corruption to all Stormbreakers. |
 
 ## Tier Four Biome
 There is actually only one Biome in this tier - the Endless Storm. It must always be adjacent only to tier three Regions and will stretch out endlessly.
@@ -1633,20 +1508,6 @@ Aside the randomly pickable locations, there is always **one** location in parti
 | 4   | **Sky Ship Graveyard**    | A surprising number of Sky Ships lie in ruin in this place. Many are similar to your own, while many more are entirely dissimilar. |
 | 5   | **Large Floating Crystal**| A massive, glowing crystal stationarily floats in the area, pulsing rhythmically, as if taking deep breaths. Every time it does, the instruments go haywire. |
 | 6   | **Warped Island**         | An oddly shaped island is battered by relentless winds. Ruins dot its surface, defiantly standing in the storm. |
-
-**Challenges**:
-| D10 | Challenge                      | Description            | Failure Result |
-| --- | ------------------------------ | ---------------------- | -------------- |
-| 1   | **Shrapnel Debris**            | Debris is being flung around by tumultuous winds, like shrapnel. | `1D6` Piercing Injuries divided among the Stormbreakers. |
-| 2   | **Lightning Convergence**      | Lightning repeatedly strikes the area. | `1D4` Electrical Injuries divided among the Stormbreakers. |
-| 3   | **Impossible Winds**           | Violent gusts lift the Stormbreakers off the ground and throw them like toys. | `1D4` Bludgeoning Injuries divided among the Stormbreakers. |
-| 4   | **Shifting Gravity**           | Ambient Corruption confuses the laws of nature. Gravity occasionally changes sideways, upside down or concentrated towards a spot. | Stormbreakers get caught in the weird gravity and flung about or thrown into obstacles. `1D4` Bludgeoning Injuries divided among the Stormbreakers. |
-| 5   | **Distortion**                 | Ambient Corruption warps the path ahead. It is constantly shifting and changing shape. | Getting lost in the unpredictable paths loses the Stormbreakers time. `+1` Corruption to all. |
-| 6   | **Soundless Pocket**           | You enter a field of oppressive silence. Threats could creep up unanounced and team coordination must rely on hand-signals, only. | A Threat ambushes the Stormbreakers. |
-| 7   | **Electromagnetic Disruption** | Electrical devices go haywire and become unusable. | The devices are damaged and may become unusable. |
-| 8   | **Temporal Slip**              | Time passes inconsistently here. What feel like seconds turn out to be hours, and vice-versa. In some places, you can even see yourself, walking ahead, as you will in a few moments' time. | Lose `1D4` QoDs. |
-| 9   | **Corrosive Precipitation**    | The rain is corrosive and eats into exposed equipment. | Equipment is damaged and may become unusable. `1D4` Acid Injuries divided among the Stormbreakers. |
-| 10  | **Crystalized Stormfront**     | Precipitation of strangely colored shards sweeps the area. Whatever they shatter upon develops a coating of tough crystal residue. Anyone caught in the storm may become encased in crystal! | Progress is halted and time is lost, as the Stormbreakers struggle to free themselves. Lose `1D4` QoDs.  |
 
 #### The Cradle
 A giant Sky Ship of strange design, made from obsidian and marble, floats effortlessly where the storms rage with fiercest fury, yet untouched by their wrath. Its center bears a giant spherical compartment. Within, the Stormbreakers will find the answer to all the riddles. 
@@ -1683,9 +1544,9 @@ A large bird of prey that circles high above, with keen eyes searching for movem
 | ----- | ----- | ----- | ----- | ----- |
 | 5     | 4     | 4     | 3     | 2     |
 
-| BI     | Sprint | Stabil | HP  | Stamina    | FS (Melee)      | Def | Armor       |
-| ------ | ------ | ------ | --- | ---------- | --------------- | --- | ----------- |
-| 11     | 4      | 0      | 30  | 6          | 4 Piercing      |     |             |
+| BI     | Sprint | Stabil | HP  | Stamina    | Def | Armor       |
+| ------ | ------ | ------ | --- | ---------- | --- | ----------- |
+| 11     | 4      | 0      | 30  | 6          |     |             |
 
 **Traits**: [Glider + Flyer](./strive-core.md#glider--1-points-1-cr)
 
@@ -1693,16 +1554,15 @@ A large bird of prey that circles high above, with keen eyes searching for movem
 * **Raking Dive (Agi/Str)**:
   * Dive through the air toward a ST up to `6` Squares away, striking with its talons as it passes adjacent to the target.
   * Level: `4`, AP: `2`, Hit(s): `-1`, Ranged: `6`, ST, Innate
-  * `≤ 2`: `6` Piercing
-  * `= 3` Hits: `9` Piercing; target becomes Prone.
+  * `≤ 2`: `3` Piercing
+  * `= 3` Hits: `6` Piercing; target becomes Prone.
   * `≥ 4` Hits: `12` Piercing; target becomes Prone.
 * **Pinning Talons (Agi/Str)**:
   * Pin a Prone ST to the ground with its talons. The target must already be Prone before the Raptor's Turn begins.
   * Level: `4`, AP: `2`, Hit(s): unmodified, Melee, ST, Innate
-  * `≤ 2`: `4` Piercing
-  * `= 3` Hits: `6` Piercing; target becomes Grappled.
+  * `≤ 2`: `2` Piercing
+  * `= 3` Hits: `4` Piercing; target becomes Grappled.
   * `≥ 4` Hits: `8` Piercing; target becomes Grappled.
-
 
 ### Aerial Jellyfish
 Translucent bells drift through the skies, trailing delicate tendrils that sway in the wind. Faint blue sparks pulse beneath their gelatinous skin before discharging in a sharp electrical bolt. Usually harmless unless approached, these creatures flee from danger and congregate in vast, drifting swarms. In sufficient numbers, they can turn an otherwise clear passage into a frustrating obstacle.
@@ -1720,9 +1580,9 @@ Translucent bells drift through the skies, trailing delicate tendrils that sway 
 | ----- | ----- | ----- | ----- | ----- |
 | 2     | 3     | 1     | 1     | 2     |
 
-| BI     | Sprint | Stabil | HP  | Stamina    | FS (Ranged `2`) | Def | Armor |
-| ------ | ------ | ------ | --- | ---------- | --------------- | --- | ----- |
-| 7      | 1      | 0      | 10  | 2          | 2 Electrical    |     |       |
+| BI     | Sprint | Stabil | HP  | Stamina    | Def | Armor |
+| ------ | ------ | ------ | --- | ---------- | --- | ----- |
+| 7      | 1      | 0      | 10  | 2          |     |       |
 
 **Traits**: [Glider + Flyer + Floater](./strive-core.md#glider--1-points-1-cr)
 
@@ -1732,7 +1592,7 @@ Translucent bells drift through the skies, trailing delicate tendrils that sway 
   * Discharge a bolt of electricity at a nearby ST, up to `2` Squares away. The Jellyfish uses this attack only when threatened or cornered.
   * Level: `3`, AP: `2`, Hit(s): unmodified, Ranged: `2`, ST, Innate
   * `≤ 2`: `2` Electrical
-  * `= 3` Hits: `4` Electrical
+  * `= 3` Hits: `3` Electrical
   * `≥ 4` Hits: `6` Electrical
 
 #### Swarms
@@ -1757,9 +1617,9 @@ A flattened, leathery parasite with dozens of hooked limbs, the Hull Leech cling
 | ----- | ----- | ----- | ----- | ----- |
 | 4     | 3     | 2     | 1     | 1     |
 
-| BI     | Sprint | Stabil | HP  | Stamina    | FS (Melee)      | Def | Armor |
-| ------ | ------ | ------ | --- | ---------- | --------------- | --- | ----- |
-| 8      | 2      | 0      | 10  | 2          | 3 Piercing      |     |       |
+| BI     | Sprint | Stabil | HP  | Stamina    | Def | Armor |
+| ------ | ------ | ------ | --- | ---------- | --- | ----- |
+| 8      | 2      | 0      | 10  | 2          |     |       |
 
 **Traits**: [Climber + Sticky](./strive-core.md#climber--2-points-1-cr)
 
@@ -1792,9 +1652,9 @@ One of the stranger and more dangerous denizens of the skies is the imposing Kra
 | ----- | ----- | ----- | ----- | ----- |
 | 8     | 8     | 10    | 10    | 5     |
 
-| BI     | Sprint | Stabil | HP  | Stamina    | FS (Melee)     | Def    | Armor                                                                  |
-| ------ | ------ | ------ | --- | ---------- | -------------- | ------ | ---------------------------------------------------------------------- |
-| 21     | 9      | 3      | 100 | 20         | 10 Bludgeoning | Edge   | `8/4/2` Slashing; `8/4/2` Piercing; `6/3/2` Bludgeoning;               |
+| BI     | Sprint | Stabil | HP  | Stamina    | Def    | Armor                                                                  |
+| ------ | ------ | ------ | --- | ---------- | ------ | ---------------------------------------------------------------------- |
+| 21     | 9      | 3      | 100 | 20         | Edge   | `8/4/2` Slashing; `8/4/2` Piercing; `6/3/2` Bludgeoning;               |
 
 **Traits**: [Glider + Flyer + Floater](./strive-core.md#glider--1-points-1-cr)
 
@@ -1802,9 +1662,9 @@ One of the stranger and more dangerous denizens of the skies is the imposing Kra
 * **Tentacle Sweep (Str/Str)**:
   * **Personal Combat only.** Sweep its tentacles through an `8` Square AoE cone in front of it, striking all creatures in the area.
   * Level: `5`, AP: `3`, Hit(s): `-1`, Ranged, AoE, Innate
-  * `≤ 2`: `12` Bludgeoning; Knock-back `1` Square
-  * `= 3` Hits: `18` Bludgeoning; Knock-back `2` Squares
-  * `≥ 4` Hits: `26` Bludgeoning; Knock-back `3` Squares
+  * `≤ 2`: `4` Bludgeoning; Knock-back `1` Square
+  * `= 3` Hits: `8` Bludgeoning; Knock-back `2` Squares
+  * `≥ 4` Hits: `15` Bludgeoning; Knock-back `3` Squares
 * **Tendril Snare (Agi/Awar)**:
   * **Personal Combat only.** Lash out with a tentacle at a ST up to `8` Squares away, dragging it toward the Kraken.
   * Level: `4`, AP: `2`, Hit(s): unmodified, Ranged: `8`, ST, Innate
@@ -1814,14 +1674,14 @@ One of the stranger and more dangerous denizens of the skies is the imposing Kra
 * **Beak Crush (Str/Str)**:
   * **Personal Combat only.** Bite down on an adjacent ST with its powerful beak. The Kraken may use this Skill only once per Round.
   * Level: `5`, AP: `2`, Hit(s): unmodified, Melee, ST, Innate
-  * `≤ 2`: `8` Piercing
-  * `= 3` Hits: `14` Piercing
-  * `≥ 4` Hits: `20` Piercing
+  * `≤ 2`: `4` Piercing
+  * `= 3` Hits: `8` Piercing
+  * `≥ 4` Hits: `16` Piercing
 * **Hull-Crushing Embrace (Str/Str)**:
   * **Sky Ship Combat only.** Lash out with multiple tentacles to seize a Sky Ship within `1` Square.
   * Level: `5`, AP: `2`, Hit(s): `-1`, Ranged: `1`, ST, Innate
-  * `≤ 2`: `12` Bludgeoning
-  * `= 3` Hits: `20` Bludgeoning; the Sky Ship becomes Grappled
+  * `≤ 2`: `10` Bludgeoning
+  * `= 3` Hits: `18` Bludgeoning; the Sky Ship becomes Grappled
   * `≥ 4` Hits: `28` Bludgeoning; the Sky Ship becomes Grappled
   * A Grappled Sky Ship cannot Move until it spends `1` AP to break free. Grappled also ends if the Kraken moves out of range on its own.
 
@@ -1844,9 +1704,9 @@ A cyclopean, white and floating sphere that is often seen roaming islands in adv
 | ----- | ----- | ----- | ----- | ----- |
 | 2     | 4     | 2     | 2     | 3     |
 
-| BI     | Sprint | Stabil | HP  | Stamina    | FS (Ranged `10`)| Def         | Armor             |
-| ------ | ------ | ------ | --- | ---------- | --------------- | ----------- | ----------------- |
-| 7      | 2      | 0      | 20  | 4          | 3 Burning       |             | `8` Slashing; `8` Piercing; `8` Bludgeoning; `8` Burning; Poison immune |
+| BI     | Sprint | Stabil | HP  | Stamina    | Def         | Armor             |
+| ------ | ------ | ------ | --- | ---------- | ----------- | ----------------- |
+| 7      | 2      | 0      | 20  | 4          |             | `8` Slashing; `8` Piercing; `8` Bludgeoning; `8` Burning; Poison immune |
 
 **Traits**: Always floating; [Fortified Mind](./strive-core.md#fortified-mind--4-points-1-cr); 
 
@@ -1856,9 +1716,9 @@ A cyclopean, white and floating sphere that is often seen roaming islands in adv
 * **Eye-Laser (Awar/Awar)**:
   * Shoot a short laser beam at a ST, up to `10` Squares away.
   * Level: `4`, AP: `2`, Hit(s): unmodified, Ranged, ST, Innate
-  * `≤ 2`: `10` Burning
-  * `= 3`: `14` Burning
-  * `≥ 4`: `20` Burning
+  * `≤ 2`: `5` Burning
+  * `= 3`: `9` Burning
+  * `≥ 4`: `15` Burning
 * **Shield (Awar/Awar)**:
   * **Concentration**: Cover an ally up to `10` Squares away in a shield that absorbs `10` points of damage before bursting.
   * Level: `4`, AP: `2`, Ranged, ST, Innate
@@ -1876,9 +1736,9 @@ Two tethered, elongated octahedrons, each with a central, beaming eye, float eff
 | ----- | ----- | ----- | ----- | ----- |
 | 5     | 5     | 2     | 3     | 3     |
 
-| BI     | Sprint | Stabil | HP  | Stamina    | FS (Ranged `10`)| Def         | Armor             |
-| ------ | ------ | ------ | --- | ---------- | --------------- | ----------- | ----------------- |
-| 13     | 4      | 0      | 30  | 6          | 6 Piercing      |             | `8` Slashing; `8` Piercing; `8` Bludgeoning; `8` Burning; Poison immune |
+| BI     | Sprint | Stabil | HP  | Stamina    | Def         | Armor             |
+| ------ | ------ | ------ | --- | ---------- | ----------- | ----------------- |
+| 13     | 4      | 0      | 30  | 6          |             | `8` Slashing; `8` Piercing; `8` Bludgeoning; `8` Burning; Poison immune |
 
 **Traits**: Always floating; [Fortified Mind](./strive-core.md#fortified-mind--4-points-1-cr); 
 
@@ -1888,9 +1748,9 @@ Two tethered, elongated octahedrons, each with a central, beaming eye, float eff
 * **Spike-Barrage (Agi/Awar)**:
   * Shoot a burst of `4` spikes at a ST, up to `15` Squares away.
   * Level: `5`, AP: `2`, Hit(s): unmodified, Ranged, ST, Innate
-  * `≤ 2`: `10` Piercing
-  * `= 3`: `15` Piercing
-  * `≥ 4`: `20` Piercing
+  * `≤ 2`: `5` Piercing
+  * `= 3`: `9` Piercing
+  * `≥ 4`: `15` Piercing
 
 ### Argentumite Attaquant
 A large bipedal Argentumite with a sword and a shield. One of the few that don't float. 
@@ -1905,9 +1765,9 @@ A large bipedal Argentumite with a sword and a shield. One of the few that don't
 | ----- | ----- | ----- | ----- | ----- |
 | 5     | 3     | 5     | 3     | 3     |
 
-| BI     | Sprint | Stabil | HP  | Stamina    | FS (Melee)      | Def         | Armor             |
-| ------ | ------ | ------ | --- | ---------- | --------------- | ----------- | ----------------- |
-| 11     | 4      | 2      | 30  | 6          | 6 Slashing      | Edge        | `8` Slashing; `8` Piercing; `8` Bludgeoning; `8` Burning; Poison immune |
+| BI     | Sprint | Stabil | HP  | Stamina    | Def         | Armor             |
+| ------ | ------ | ------ | --- | ---------- | ----------- | ----------------- |
+| 11     | 4      | 2      | 30  | 6          | Edge        | `8` Slashing; `8` Piercing; `8` Bludgeoning; `8` Burning; Poison immune |
 
 **Traits**: [Fortified Mind](./strive-core.md#fortified-mind--4-points-1-cr); 
 
@@ -1940,9 +1800,9 @@ A multi-legged Pegasus-esque Argentumite. It would almost look friendly, if not 
 | ----- | ----- | ----- | ----- | ----- |
 | 7     | 4     | 4     | 4     | 3     |
 
-| BI     | Sprint | Stabil | HP  | Stamina    | FS (Ranged `10`)| Def         | Armor             |
-| ------ | ------ | ------ | --- | ---------- | --------------- | ----------- | ----------------- |
-| 14     | 5      | 0      | 40  | 8          | 6 Bludgeoning   | Double Edge | `8` Slashing; `8` Piercing; `8` Bludgeoning; `8` Burning; Poison immune |
+| BI     | Sprint | Stabil | HP  | Stamina    | Def         | Armor             |
+| ------ | ------ | ------ | --- | ---------- | ----------- | ----------------- |
+| 14     | 5      | 0      | 40  | 8          | Double Edge | `8` Slashing; `8` Piercing; `8` Bludgeoning; `8` Burning; Poison immune |
 
 **Traits**: Always floating; [Fortified Mind](./strive-core.md#fortified-mind--4-points-1-cr); 
 
@@ -1952,13 +1812,13 @@ A multi-legged Pegasus-esque Argentumite. It would almost look friendly, if not 
 * **Swoop (Agi/Str)**:
   * Move in a line, up to `10` Squares away, and strike at all targets in an AoE line. 
   * Level: `4`, AP: `2`, Hit(s): `-1`, Ranged, AoE, Innate
-  * `≤ 2`: `10` Bludgeoning; `1` Squares Knock-back
-  * `= 3`: `12` Bludgeoning; `2` Squares Knock-back
+  * `≤ 2`: `5` Bludgeoning; `1` Squares Knock-back
+  * `= 3`: `8` Bludgeoning; `2` Squares Knock-back
   * `≥ 4`: `15` Bludgeoning; `3` Squares Knock-back
 * **Tail Slam (Str/Str)**:
   * Strike at a ST with your spiked tail. 
   * Level: `4`, AP: `2`, Hit(s): unmodified, Ranged, ST, Innate
-  * `≤ 2`: `10` Bludgeoning; `3` Squares Knock-back
+  * `≤ 2`: `5` Bludgeoning; `3` Squares Knock-back
   * `= 3`: `15` Bludgeoning; `4` Squares Knock-back
   * `≥ 4`: `20` Bludgeoning; `5` Squares Knock-back
 
@@ -1975,9 +1835,9 @@ This one looks like a diver in one of those bulky diving suits, covered in ether
 | ----- | ----- | ----- | ----- | ----- |
 | 3     | 4     | 2     | 3     | 3     |
 
-| BI     | Sprint | Stabil | HP  | Stamina    | FS (Ranged `10`)| Def         | Armor             |
-| ------ | ------ | ------ | --- | ---------- | --------------- | ----------- | ----------------- |
-| 10     | 4      | 0      | 30  | 6          | 5 Freezing      | Edge        | `8` Slashing; `8` Piercing; `8` Bludgeoning; `8` Burning; Poison immune |
+| BI     | Sprint | Stabil | HP  | Stamina    | Def         | Armor             |
+| ------ | ------ | ------ | --- | ---------- | ----------- | ----------------- |
+| 10     | 4      | 0      | 30  | 6          | Edge        | `8` Slashing; `8` Piercing; `8` Bludgeoning; `8` Burning; Poison immune |
 
 **Traits**: Always floating; [Fortified Mind](./strive-core.md#fortified-mind--4-points-1-cr); 
 
@@ -1987,8 +1847,8 @@ This one looks like a diver in one of those bulky diving suits, covered in ether
 * **Blast (Tough/Tough)**:
   * Blast all around, in a `5` Square diameter AoE. 
   * Level: `4`, AP: `2`, Hit(s): unmodified, Ranged, AoE, Innate
-  * `≤ 2`: `8` Freezing
-  * `= 3`: `10` Freezing
+  * `≤ 2`: `4` Freezing
+  * `= 3`: `8` Freezing
   * `≥ 4`: `14` Freezing
 * **Blink**:
   * Disappear and immediately re-appear in a location of your choosing, up to `20` Squares away.
@@ -2007,9 +1867,9 @@ Giant and authoritative, this Argentumite commands respect, even from its enemie
 | ----- | ----- | ----- | ----- | ----- |
 | 8     | 8     | 10    | 10    | 5     |
 
-| BI     | Sprint | Stabil | HP  | Stamina    | FS (Ranged `15`)| Def         | Armor             |
-| ------ | ------ | ------ | --- | ---------- | --------------- | ----------- | ----------------- |
-| 21     | 9      | 3      | 100 | 20         | 10 Piercing     | Double Edge | `12` Slashing; `12` Piercing; `12` Bludgeoning; `12` Burning; `6` Freezing; Poison immune |
+| BI     | Sprint | Stabil | HP  | Stamina    | Def         | Armor             |
+| ------ | ------ | ------ | --- | ---------- | ----------- | ----------------- |
+| 21     | 9      | 3      | 100 | 20         | Double Edge | `12` Slashing; `12` Piercing; `12` Bludgeoning; `12` Burning; `6` Freezing; Poison immune |
 
 **Traits**: Always floating; [Fortified Mind](./strive-core.md#fortified-mind--4-points-1-cr); [Aura of Death](#aura-of-death)
 
@@ -2031,8 +1891,8 @@ Giant and authoritative, this Argentumite commands respect, even from its enemie
 * **Grand Slash (Str/Str)**:
   * Strike at all foes in a `10` Square AoE cone in front of you. 
   * Level: `4`, AP: `3`, Ranged, Aoe, Innate
-  * `≤ 2`: `20` Slashing
-  * `= 3`: `25` Slashing
+  * `≤ 2`: `10` Slashing
+  * `= 3`: `20` Slashing
   * `≥ 4`: `30` Slashing
 
 #### Aura Of Death
@@ -2081,26 +1941,26 @@ A short, hunched Swine-Beast armed with crudely-made weapons. Grunts are numerou
 | ----- | ----- | ----- | ----- | ----- |
 | 2     | 3     | 2     | 1     | 1     |
 
-| BI     | Sprint | Stabil | HP  | Stamina    | FS (Melee)      | Def         | Armor             |
-| ------ | ------ | ------ | --- | ---------- | --------------- | ----------- | ----------------- |
-| 6      | 2      | 0      | 10  | 2          | 4 Slashing      |             |                   |
+| BI     | Sprint | Stabil | HP  | Stamina    | Def         | Armor             |
+| ------ | ------ | ------ | --- | ---------- | ----------- | ----------------- |
+| 6      | 2      | 0      | 10  | 2          |             |                   |
 
 **Assets**: `1` Crude Pistol (one round loaded; `3` spare Bullets); `1` Hacking Weapon.
 
 **Skills**:
 * **Pistol Shot (Agi/Awar)**:
   * Fire a crude, single-shot pistol at a ST up to `5` Squares away.
-  * Level: `3`, AP: `2`, Hit(s): unmodified, Ranged: `5`, ST, Innate
-  * `≤ 2`: `4` Piercing
+  * Level: `3`, AP: `2`, Hit(s): unmodified, Ranged: `5`, ST, Innate, FS: `2` Piercing
+  * `≤ 2`: `3` Piercing
   * `= 3`: `6` Piercing
-  * `≥ 4`: `8` Piercing
+  * `≥ 4`: `12` Piercing
   * Weapon properties: Ammo `1`.
 * **Hack (Agi/Str)**:
   * Swing a crude hacking weapon at an adjacent ST.
-  * Level: `3`, AP: `2`, Hit(s): unmodified, Melee, ST, Innate
-  * `≤ 2`: `3` Slashing
+  * Level: `3`, AP: `2`, Hit(s): unmodified, Melee, ST, Innate, FS: `2` Slashing
+  * `≤ 2`: `2` Slashing
   * `= 3`: `4` Slashing
-  * `≥ 4`: `5` Slashing
+  * `≥ 4`: `8` Slashing
 
 ### Swine Rigger
 A hunched Swine-Beast laden with scavenged explosives, rusted detonators and coils of filthy wire. Riggers care nothing for a fair fight and will go out of their way to ensure their victims have nowhere safe to stand. They prepare ambushes, booby-trap narrow passages and bombard groups of enemies with crude explosives.
@@ -2117,11 +1977,11 @@ A hunched Swine-Beast laden with scavenged explosives, rusted detonators and coi
 | ----- | ----- | ----- | ----- | ----- |
 | 3     | 4     | 2     | 3     | 3     |
 
-| BI     | Sprint | Stabil | HP  | Stamina    | FS (Melee)      | Def         | Armor             |
-| ------ | ------ | ------ | --- | ---------- | --------------- | ----------- | ----------------- |
-| 10     | 2      | 0      | 30  | 6          | 2 Slashing      |             |                   |
+| BI     | Sprint | Stabil | HP  | Stamina    | Def         | Armor             |
+| ------ | ------ | ------ | --- | ---------- | ----------- | ----------------- |
+| 10     | 2      | 0      | 30  | 6          |             |                   |
 
-**Assets**: `5` Crude Explosive Charges. Each charge may be used for either a Scrap Bomb or a Tripwire Mine.
+**Assets**: `3` Crude Explosive Charges. Each charge may be used for either a Scrap Bomb or a Tripwire Mine.
 
 **Traits**: [Death Rattle: Explode](#death-rattle-explode)
 
@@ -2129,8 +1989,8 @@ A hunched Swine-Beast laden with scavenged explosives, rusted detonators and coi
 * **Scrap Bomb (Agi/Awar)**:
   * Hurl a crude explosive at a location up to `10` Squares away. It explodes in a `2` Square AoE radius.
   * Level: `3`, AP: `2`, Hit(s): unmodified, Ranged: `10`, AoE, Innate
-  * `≤ 2`: `4` Burning + `4` Bludgeoning
-  * `= 3` Hits: `6` Burning + `6` Bludgeoning
+  * `≤ 2`: `2` Burning + `2` Bludgeoning
+  * `= 3` Hits: `4` Burning + `4` Bludgeoning
   * `≥ 4` Hits: `8` Burning + `8` Bludgeoning
   * Consumes `1` Crude Explosive Charge.
 * **Tripwire Mine (Awar/Wit)**:
@@ -2160,26 +2020,26 @@ This Swine-Beast is quite small, and is carrying a rifle that seems far too larg
 | ----- | ----- | ----- | ----- | ----- |
 | 4     | 4     | 1     | 2     | 2     |
 
-| BI | Sprint | Stabil | HP | Stamina | FS (Ranged `20`) | Def | Armor |
-| -- | ------ | ------ | -- | ------- | ---------------- | --- | ----- |
-| 10 | 2      | 0      | 20 | 4       | 5 Piercing       |     |       |
+| BI | Sprint | Stabil | HP | Stamina | Def | Armor |
+| -- | ------ | ------ | -- | ------- | --- | ----- |
+| 10 | 2      | 0      | 20 | 4       |     |       |
 
 **Assets**: `1` Maksim Rifle (loaded with `6` Bullets); `6` spare Bullets.
 
 **Skills**:
 * **Maksim Shot (Agi/Awar)**:
-  * Fire a large-caliber rifle at a ST up to `20` Squares away.
-  * Level: `4`, AP: `2`, Hit(s): unmodified, Ranged: `20`, ST, Innate, Prefer Range
-  * `≤ 2`: `10` Piercing
-  * `= 3` Hits: `12` Piercing
-  * `≥ 4` Hits: `15` Piercing
+  * Fire a large-caliber rifle at a ST up to `15` Squares away.
+  * Level: `4`, AP: `2`, Hit(s): unmodified, Ranged: `15`, ST, Innate, Prefer Range
+  * `≤ 2`: `5` Piercing
+  * `= 3` Hits: `8` Piercing
+  * `≥ 4` Hits: `13` Piercing
   * Weapon properties: Ammo `6`, Bolt-Action, Slow Reload.
 * **Bite (Agi/Str)**:
   * Bite at an adjacent ST. 
   * Level: `3`, AP: `2`, Hit(s): unmodified, Melee, ST, Innate
   * `≤ 2`: `2` Piercing
   * `= 3` Hits: `3` Piercing
-  * `≥ 4` Hits: `4` Piercing
+  * `≥ 4` Hits: `6` Piercing
 * **Stealth**: Level: `3`
 
 ### Swine Packlord
@@ -2198,9 +2058,9 @@ This Swine walks taller than the others, and surveys the battlefield with observ
 | ----- | ----- | ----- | ----- | ----- |
 | 3     | 4     | 4     | 4     | 4     |
 
-| BI     | Sprint | Stabil | HP  | Stamina    | FS (Melee)      | Def         | Armor             |
-| ------ | ------ | ------ | --- | ---------- | --------------- | ----------- | ----------------- |
-| 11     | 3      | 2      | 40  | 8          | 4 Piercing      |             |                   |
+| BI     | Sprint | Stabil | HP  | Stamina    | Def         | Armor             |
+| ------ | ------ | ------ | --- | ---------- | ----------- | ----------------- |
+| 11     | 3      | 2      | 40  | 8          |             |                   |
 
 **Skills**:
 * **Drive Them In! (Awar/Wit)**:
@@ -2213,15 +2073,15 @@ This Swine walks taller than the others, and surveys the battlefield with observ
 * **Tear It Apart! (Awar/Wit)**:
   * The Packlord singles out a foe within `10` Squares and directs its allies to attack in unison. 
   * Level: `4`, AP: `2`, Hit(s): unmodified, Ranged: `10`, ST, Innate
-  * `≤ 2`: Up to `2` allies may make an immediate and free Attack against the chosen foe, with `+1D`. 
-  * `= 3`: Up to `3` allies may make an immediate and free Attack against the chosen foe, with `+1D`. 
-  * `≥ 4`: Up to `4` allies may make an immediate and free Attack against the chosen foe, with `+1D`. 
+  * `≤ 2`: `1` ally may make an immediate and free Attack against the chosen foe, with `+1D`. 
+  * `= 3`: Up to `2` allies may make an immediate and free Attack against the chosen foe, with `+1D`. 
+  * `≥ 4`: Up to `3` allies may make an immediate and free Attack against the chosen foe, with `+1D`. 
   * These bonuses expire at the start of the Packlord's next Turn.
 * **Gore (Agi/Str)**:
   * Drive its tusks into an adjacent foe.
   * Level: `4`, AP: `2`, Hit(s): unmodified, Melee, ST, Innate
-  * `≤ 2`: `6` Piercing
-  * `= 3` Hits: `9` Piercing
+  * `≤ 2`: `3` Piercing
+  * `= 3` Hits: `6` Piercing
   * `≥ 4` Hits: `12` Piercing
 
 ### Swine 'Rilla
@@ -2240,9 +2100,9 @@ With arms too strong for its slender frame, this Swine has the looks of a Gorill
 | ----- | ----- | ----- | ----- | ----- |
 | 5     | 3     | 4     | 2     | 2     |
 
-| BI     | Sprint | Stabil | HP  | Stamina    | FS (Melee)      | Def         | Armor             |
-| ------ | ------ | ------ | --- | ---------- | --------------- | ----------- | ----------------- |
-| 10     | 3      | 0      | 20  | 4          | 4 Bludgeoning   |             |                   |
+| BI     | Sprint | Stabil | HP  | Stamina    | Def         | Armor             |
+| ------ | ------ | ------ | --- | ---------- | ----------- | ----------------- |
+| 10     | 3      | 0      | 20  | 4          |             |                   |
 
 **Skills**:
 * **Knuckle-Spring (Agi/Str)**:
@@ -2251,8 +2111,8 @@ With arms too strong for its slender frame, this Swine has the looks of a Gorill
 * **Hammerfist (Agi/Str)**:
   * Slam a powerful fist into an adjacent ST, sending them flying.
   * Level: `4`, AP: `2`, Hit(s): unmodified, Melee, ST, Innate
-  * `≤ 2`: `6` Bludgeoning; Knock-back `2` Squares
-  * `= 3` Hits: `8` Bludgeoning; Knock-back `3` Squares
+  * `≤ 2`: `3` Bludgeoning; Knock-back `2` Squares
+  * `= 3` Hits: `5` Bludgeoning; Knock-back `3` Squares
   * `≥ 4` Hits: `10` Bludgeoning; Knock-back `4` Squares
 
 ### Swine Sky Ramship
@@ -2293,9 +2153,9 @@ A giant leech of undulating darkness that seeks out sources of light, to consume
 | ----- | ----- | ----- | ----- | ----- |
 | 4     | 4     | 4     | 3     | 2     |
 
-| BI  | Sprint | Stabil | HP  | Stamina | FS (Melee) | Def | Armor |
-| --- | ------ | ------ | --- | ------- | ---------- | --- | ----- |
-| 10  | 3      | 0      | 30  | 6       | 4 Piercing |     |       |
+| BI  | Sprint | Stabil | HP  | Stamina | Def | Armor |
+| --- | ------ | ------ | --- | ------- | --- | ----- |
+| 10  | 3      | 0      | 30  | 6       |     |       |
 
 **Traits**: [Climber + Sticky](./strive-core.md#climber--2-points-1-cr)
 
@@ -2303,8 +2163,8 @@ A giant leech of undulating darkness that seeks out sources of light, to consume
 * **Siphoning Maw (Agi/Str)**:
   * Lash out at an adjacent ST, wrapping its body around the target and biting down with a maw of viscous darkness.
   * Level: `4`, AP: `2`, Hit(s): unmodified, Melee, ST, Innate
-  * `≤ 2`: `4` Piercing
-  * `= 3` Hits: `6` Piercing; target becomes Grappled.
+  * `≤ 2`: `2` Piercing
+  * `= 3` Hits: `4` Piercing; target becomes Grappled.
   * `≥ 4` Hits: `8` Piercing; target becomes Grappled.
 * **Devour Light (Awar/Wit)**:
   * Consume an active light source within an adjacent Square. A light source carried by another creature can only be consumed if that creature is Grappled by the Tar Leech. The source is extinguished and destroyed as the Tar Leech absorbs its light.
@@ -2327,9 +2187,9 @@ Like a tidal wave of tar-like darkness, this entity seeks to trap all light and 
 | --- | ---- | --- | ----- | --- |
 | 8   | 8    | 10  | 10    | 8   |
 
-| BI | Sprint | Stabil | HP  | Stamina | FS (Melee)    | Def  | Armor |
-| -- | ------ | ------ | --- | ------- | ------------- | ---- | ----- |
-| 24 | 9      | 4      | 100 | 20      | 10 Bludgeoning | Edge |       |
+| BI | Sprint | Stabil | HP  | Stamina | Def  | Armor |
+| -- | ------ | ------ | --- | ------- | ---- | ----- |
+| 24 | 9      | 4      | 100 | 20      | Edge |       |
 
 **Traits**: [Forceful](./strive-core.md#forceful--2-points-1-cr)
 
@@ -2337,23 +2197,23 @@ Like a tidal wave of tar-like darkness, this entity seeks to trap all light and 
 * **Black Tide (Str/Str)**:
   * Sweep a wave of darkness through a `10` Square AoE cone in front of Tartarus, striking all creatures in the area and throwing them away from it.
   * Level: `5`, AP: `3`, Hit(s): `-1`, Ranged, AoE, Innate
-  * `≤ 2`: `8` Bludgeoning; Knock-back `2` Squares. The target suffers `-1D` to its next Attack.
-  * `= 3` Hits: `12` Bludgeoning; Knock-back `4` Squares. The target suffers `-1D` to all Tests until the start of Tartarus's next Turn.
+  * `≤ 2`: `4` Bludgeoning; Knock-back `2` Squares. The target suffers `-1D` to its next Attack.
+  * `= 3` Hits: `8` Bludgeoning; Knock-back `4` Squares. The target suffers `-1D` to all Tests until the start of Tartarus's next Turn.
   * `≥ 4` Hits: `16` Bludgeoning; Knock-back `6` Squares. The target suffers `-1D` to all Tests and cannot take Reactions until the start of Tartarus's next Turn.
   * Tartarus's Forceful Trait increases the Knock-back distance by `2` Squares. These effects of disorientation represent the victims losing their sense of direction as the world seems to turn around them.
 * **Undertow (Agi/Awar)**:
   * Reach out with a tendril of darkness toward a ST up to `10` Squares away, dragging them toward Tartarus.
   * Level: `4`, AP: `2`, Hit(s): unmodified, Ranged: `10`, ST, Innate
-  * `≤ 2`: `4` Bludgeoning; Pull `2` Squares.
-  * `= 3` Hits: `8` Bludgeoning; Pull `4` Squares.
+  * `≤ 2`: `3` Bludgeoning; Pull `2` Squares.
+  * `= 3` Hits: `6` Bludgeoning; Pull `4` Squares.
   * `≥ 4` Hits: `12` Bludgeoning; Pull `6` Squares.
   * Tartarus's Forceful Trait increases the Pull distance by `2` Squares.
   * If the target ends this movement adjacent to Tartarus, it becomes Grappled.
 * **Sensory Abyss (Str/Wit)**:
   * Fold its body around a creature already Grappled by Tartarus, swallowing it in a darkness that shuts out all sensory input.
   * Level: `5`, AP: `2`, Hit(s): unmodified, Melee, ST, Innate
-  * `≤ 2`: `6` Bludgeoning. The target's senses are briefly overwhelmed, suffering `-1D` to all Tests until the start of Tartarus's next Turn.
-  * `= 3` Hits: `8` Bludgeoning. The target becomes **Engulfed**.
+  * `≤ 2`: `3` Bludgeoning. The target's senses are briefly overwhelmed, suffering `-1D` to all Tests until the start of Tartarus's next Turn.
+  * `= 3` Hits: `6` Bludgeoning. The target becomes **Engulfed**.
   * `≥ 4` Hits: `12` Bludgeoning. The target becomes **Engulfed**, and Tests to escape it suffer `-1D` until the start of Tartarus's next Turn.
 
 #### Engulfed
@@ -2381,16 +2241,16 @@ A hardened veteran who has survived countless raids through equal parts cunning,
 | ----- | ----- | ----- | ----- | ----- |
 | 5     | 4     | 5     | 4     | 4     |
 
-| BI   | Sprint | Stabil | HP  | Stamina | FS (Melee) | Def   | Armor |
-| ---- | ------ | ------ | --- | ------- | ---------- | ----- | ----- |
-| 13   | 4      | 1      | 40  | 8       | 6 Slashing | Edge  | `5/3/0` Slashing; `5/3/0` Piercing; `5/3/0` Bludgeoning |
+| BI   | Sprint | Stabil | HP  | Stamina | Def   | Armor |
+| ---- | ------ | ------ | --- | ------- | ----- | ----- |
+| 13   | 4      | 1      | 40  | 8       | Edge  | `5/3/0` Slashing; `5/3/0` Piercing; `5/3/0` Bludgeoning |
 
 **Skills**:
 * **Captain's Cutlass (Agi/Str)**:
   * Deliver a powerful cutlass strike against a ST in melee.
   * Level: `4`, AP: `2`, Hit(s): unmodified, Melee, ST, Innate
-  * `≤ 2`: `8` Slashing
-  * `= 3` Hits: `13` Slashing
+  * `≤ 2`: `5` Slashing
+  * `= 3` Hits: `9` Slashing
   * `≥ 4` Hits: `18` Slashing
 * **Open Them Up! (Tough/Wit)**:
   * Bark an order at one allied Pirate within `20` Squares, directing them to exploit an opening. The target gains `+1` Edge on their next Attack roll before the start of the Captain's next Turn. This command can be used once per Round, and its benefit does not stack with itself.
@@ -2421,22 +2281,22 @@ A quick-footed pirate who favors a cutlass and dirty fighting over heavy armor. 
 | ----- | ----- | ----- | ----- | ----- |
 | 5     | 4     | 4     | 3     | 3     |
 
-| BI   | Sprint | Stabil | HP  | Stamina | FS (Melee) | Def    | Armor |
-| ---- | ------ | ------ | --- | ------- | ---------- | ------ | ----- |
-| 12   | 4      | 0      | 30  | 6       | 4 Slashing | Edge   |       |
+| BI   | Sprint | Stabil | HP  | Stamina | Def    | Armor |
+| ---- | ------ | ------ | --- | ------- | ------ | ----- |
+| 12   | 4      | 0      | 30  | 6       | Edge   |       |
 
 **Skills**:
 * **Cutlass Slash (Agi/Str)**:
   * Strike a target in melee with a quick, forceful cut.
   * Level: `4`, AP: `2`, Hit(s): unmodified, Melee, ST, Innate
-  * `≤ 2`: `6` Slashing
-  * `= 3` Hits: `10` Slashing
+  * `≤ 2`: `3` Slashing
+  * `= 3` Hits: `8` Slashing
   * `≥ 4` Hits: `14` Slashing
 * **Low Sweep (Agi/Str)**:
   * Hook the target's legs with a boot or the flat of the cutlass, attempting to break their footing.
   * Level: `3`, AP: `2`, Hit(s): unmodified, Melee, ST, Innate
-  * `≤ 2`: `4` Bludgeoning
-  * `= 3` Hits: `6` Bludgeoning; target becomes Prone
+  * `≤ 2`: `2` Bludgeoning
+  * `= 3` Hits: `4` Bludgeoning; target becomes Prone
   * `≥ 4` Hits: `8` Bludgeoning; target becomes Prone
 
 ### Pirate One-Eye
@@ -2455,17 +2315,17 @@ A crazed pirate sharpshooter with an eye patch, a battered Maksim Rifle and a gr
 | ----- | ----- | ----- | ----- | ----- |
 | 5     | 4     | 3     | 2     | 4     |
 
-| BI   | Sprint | Stabil | HP  | Stamina | FS (Ranged `20`) | Def   | Armor |
-| ---- | ------ | ------ | --- | ------- | ---------------- | ----- | ----- |
-| 13   | 3      | 0      | 20  | 4       | 4 Piercing       | Bane  |       |
+| BI   | Sprint | Stabil | HP  | Stamina | Def   | Armor |
+| ---- | ------ | ------ | --- | ------- | ----- | ----- |
+| 13   | 3      | 0      | 20  | 4       | Bane  |       |
 
 **Skills**:
 * **Maksim Shot (Agi/Awar)**:
   * Fire the One-Eye's pilfered Maksim Rifle at a target up to `20` Squares away.
   * Level: `4`, AP: `2`, Hit(s): `+1`, Ranged, ST, Innate
-  * `≤ 2`: `10` Piercing
-  * `= 3` Hits: `12` Piercing
-  * `≥ 4` Hits: `15` Piercing
+  * `≤ 2`: `5` Piercing
+  * `= 3` Hits: `8` Piercing
+  * `≥ 4` Hits: `13` Piercing
   * **Faulty Mechanism**: Whenever the Attack results in a Glancing Hit, roll `1D6`. On a `1–3`, the rifle misfires and deals no Damage. The shot still consumes `1` Ammo, and the rifle jams. Clearing the jam costs `1` AP. On a `4–6`, the Glancing Hit resolves normally.
   * **Weapon Properties**: Range `20`, Ammo `6`, Bolt-Action, Slow Reload.
 * **Grapnel Reposition (Agi/Awar)**:
@@ -2496,9 +2356,9 @@ A battered Sky Ship assembled from a stripped-down merchant vessel, reinforced w
 **Armament**:
 * `2` **Light Cannons**:
   * Range: `2` Squares; Ammo: `1` each
-  * `≤ 2`: `15` Piercing
-  * `= 3` Hits: `18` Piercing
-  * `≥ 4` Hits: `21` Piercing
+  * `≤ 2`: `5` Piercing
+  * `= 3` Hits: `10` Piercing
+  * `≥ 4` Hits: `20` Piercing
   * Reload: `1` AP per cannon.
 * `1` **Grapnel Launcher**:
   * Range: `1` Square; Ammo: `1`
