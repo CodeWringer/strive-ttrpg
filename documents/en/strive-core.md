@@ -3352,7 +3352,7 @@ A **Guarded** Character may [Defend](#defending) against the next Attack that wo
 ### Hasted
 <img src="../../img/health-condition-hasted.svg" style="width: 3rem; height: 3rem;"></img>
 
-A **Hasted** Character gets `+1` [AP](#action-points-ap) per Turn. 
+A **Hasted** Character gets `+1` [AP](#action-points-ap) per Turn and can, once per Turn, move without AP cost (Stamina and Strain costs, and difficult terrain still apply). 
 
 ### Jealous
 <img src="../../img/health-condition-jealous.svg" style="width: 3rem; height: 3rem;"></img>
