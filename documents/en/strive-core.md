@@ -408,7 +408,7 @@ By using STRIVE (that includes but is not limited to viewing, reading, referenci
     - [Zealot](#zealot)
   - [List of Conditions](#list-of-conditions)
     - [Berserk](#berserk)
-    - [Burning](#burning)
+    - [Immolated](#immolated)
     - [Bleeding](#bleeding)
     - [Crippled](#crippled)
     - [Death's Door](#deaths-door)
@@ -588,7 +588,7 @@ As STRIVE is meant primarily as a rule-book to help you quickly find what you ne
 | [Boon](#boons--penalties)                                   | A positive effect on a Character, for example one that grants Edge or which awards Temporary HP. |
 | [Brief](#quarters-of-a-day-qod)                             | A Brief activity takes only minutes. Many of these can happen in a [QoD](#quarters-of-a-day-qod), without advancing it meaningfully.  |
 | [Bulk](#bulk)                                               | Describes the weight, size and ease of use of an Asset. |
-| [Burning](#burning)                                         | A Condition that causes Burning Damage every Tick. |
+| [Immolated](#immolated)                                     | A Condition that causes Burning Damage every Tick. |
 | [Carrying Capacity](#carrying-capacity)                     | Limits how much a Character can carry on-person. |
 | [Character Trait](#character-traits)                        | A unique aspect of a Character, such as an exclusive ability or Title of Renown. |
 | [Combat](#combat)                                           | The state the game enters when a fight breaks out. Time is finely sliced and Characters act in Turns, with a limited number of actions they may take. |
@@ -1557,7 +1557,7 @@ All Damage is inflicted with one of these types, which dictate the type of [Inju
 | Acid        | Dissolves anything it touches, depending on circumstance.              | [Medicine](#medicine-agiwit) | `-1` [AP](#action-points-ap) per Turn       |
 | Bleeding    | Inflicted by [Bleeding](#bleeding). The result of open wounds.         | [Medicine](#medicine-agiwit) | `+1` [Bleeding](#bleeding)                  |
 | Bludgeoning | Inflicted by blunt weapons and [Unarmed](#unarmed-combat-agistr) Attacks. Can cause a Character to fall [Unconscious](#unconscious), for that, see [Bludgeoned To 0 Hp](#bludgeoned-to-0-hp). | [Surgery](#surgery-agiwit)   | `+1` [Strain](#strain)           |
-| Burning     | Inflicted by extreme heat.                                             | [Surgery](#surgery-agiwit)   | `+1` [Burning](#burning)                    |
+| Burning     | Inflicted by extreme heat.                                             | [Surgery](#surgery-agiwit)   | `+1` [Immolated](#immolated)                |
 | Electrical  | Inflicted by eletrical shock.                                          | [Medicine](#medicine-agiwit) | `+1` [Electrified](#electrified)            |
 | Freezing    | Inflicted by extreme cold.                                             | [Medicine](#medicine-agiwit) | `+1` [Frostbitten](#frostbitten)            |
 | Piercing    | Usually inflicted by any sort of stabbing weapon, like a spear, or an animal's stinger. | [Surgery](#surgery-agiwit)   | `+1` [Bleeding](#bleeding) |
@@ -1916,9 +1916,9 @@ Once in a Round, you may delay your Turn, moving it to the end of the current Ro
 
 Note that Delaying your Turn does not prevent you suffering [Condition](#condition) or Turn effects. They still apply the instant you *would* have first gotten your Turn. However, **only the first time** they would apply, in a Round! 
 
-> It comes to a PC's Turn. Their player decides it is best to wait for later, and Delays their Turn. Their Character also happens to have the Burning Condition, whose effects must now be immediately applied. Only then is their Turn moved to the end of the Round.
+> It comes to a PC's Turn. Their player decides it is best to wait for later, and Delays their Turn. Their Character also happens to have the Immolated Condition, whose effects must now be immediately applied. Only then is their Turn moved to the end of the Round.
 >
-> Once the Round is nearly over, and the PC gets to act again, they may immediately begin. They **don't** have to apply the Burning Condition again! 
+> Once the Round is nearly over, and the PC gets to act again, they may immediately begin. They **don't** have to apply the Immolated Condition again! 
 
 ### Surprise Round
 If one party is surprised, for example during an ambush, then the ambushing party gets to act for a full Round, without the ambushed party getting a chance to act. This is called a **Surprise Round**. After the Surprise Round Initiative Order is handled as normal. Additionally, any surprised Characters **do not** get their starting [AP](#action-points-ap), until the end of the Surprise Round! 
@@ -3260,17 +3260,17 @@ A Character who is in **Berserk** Condition, **must** Attack the creature neares
 * Immediate Cancel: When the Character is made [Unconscious](#unconscious) or no other creatures remain alive and/or conscious.
 * Difficult Repeats: Whenever shrugging off this Condition, you become **guarded** against it until the start of your next Turn, making any Attack or effect enacted against you that would cause you to suffer it again `+1` Ob harder for your foes. 
 
-### Burning
+### Immolated
 <img src="../../img/health-condition-burning.svg" style="width: 3rem; height: 3rem;"></img>
 
-For every point in the **Burning** Condition, a Character suffers `2` points of [Burning](#damage-types) Damage every [Tick](#ticks). 
+For every point in the **Immolated** Condition, a Character suffers `2` points of [Burning](#damage-types) Damage every [Tick](#ticks). 
 
 * Graded
 * Greedy: automatically increases by `+1` point **after** every [Tick](#ticks). 
 * Shrug Off: `-1` point per [AP](#action-points-ap) spent actively patting out flames, rolling on the floor and so on. 
 * Immediate Cancel: When the flames are extinguished through external means. 
 
-Adjacent allies can also help pat out the flames, by spending an [AP](#action-points-ap) for every point reduction of Burning. 
+Adjacent allies can also help pat out the flames, by spending an [AP](#action-points-ap) for every point reduction of Immolated. 
 
 ### Bleeding
 <img src="../../img/health-condition-bleeding.svg" style="width: 3rem; height: 3rem;"></img>
@@ -3335,7 +3335,7 @@ For every point in **Frostbitten**, a Character suffers `-1D` to all [Tests](#te
 
 * Graded
 * Automatic Shrug-Off: `-1` point at the end of the Turn. 
-* Immediate Cancel: When thawed, for example through [Burning](#burning).
+* Immediate Cancel: When thawed, for example through [Burning](#immolated).
 
 ### Grappled
 <img src="../../img/health-condition-grappled.svg" style="width: 3rem; height: 3rem;"></img>
@@ -4275,7 +4275,7 @@ Suitable for: Any creature that could reasonably emit such a thrumming sound, su
 **`-8` Hostility**: The creature throws or lays or spews forth `3` traps, up to `10` Fields far, that now litter the battlefield. Each of these will deal `6` points of Damage. The Damage type should be chosen according to the nature of the traps. E. g. piercing for bear traps, acid for pools of acid, burning for bombs and so on. 
 
 ### I Don't Bleed (-5 points; +6 CR)
-**`-10` Hostility**: Immediately clears all points of [Bleeding](#bleeding), [Burning](#burning) and [Frostbitten](strive-core.md#frostbitten) and awards `+10` Temporary HP. 
+**`-10` Hostility**: Immediately clears all points of [Bleeding](#bleeding), [Burning](#immolated) and [Frostbitten](strive-core.md#frostbitten) and awards `+10` Temporary HP. 
 
 ### No, I Am The Hero! (-10 points; +8 CR)
 **`-20` Hostility**: Immediately after the PCs have activated a [Heroic Act](#momentum), this creature activates it again, but for itself and its allies, instead of the PCs!
