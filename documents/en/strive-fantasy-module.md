@@ -708,12 +708,12 @@ A set of light armor that doesn't impede the wearer much. Example: cloth armor l
 * Bulk: `2`
 * Work-Rate: `3 / QoD`, PI: `18`
 
-| Protections          | Unthreatened | Flanked | Surrounded | Overwhelmed | 
-| -------------------- | ------------ | ------- | ---------- | ----------- | 
-| **Slashing**         | 5            | 3       | 2          | 0           | 
-| **Piercing**         | 4            | 2       | 1          | 0           | 
-| **Bludgeoning**      | 4            | 2       | 1          | 0           | 
-| **Acid**             | 6            | 3       | 2          | 0           | 
+| Protections          | Unthreatened | Flanked | Surrounded | 
+| -------------------- | ------------ | ------- | ---------- | 
+| **Slashing**         | 5            | 3       | 0          | 
+| **Piercing**         | 4            | 2       | 0          | 
+| **Bludgeoning**      | 4            | 2       | 0          | 
+| **Acid**             | 6            | 3       | 0          | 
 
 #### Medium Armor
 A set of medium armor with a good balance of protection and weight. Example: full chain mail armor, with or without a helmet. 
@@ -725,13 +725,13 @@ A set of medium armor with a good balance of protection and weight. Example: ful
 * Bulk: `3`
 * Work-Rate: `2 / QoD`, PI: `24`
 
-| Protections          | Unthreatened | Flanked | Surrounded | Overwhelmed | 
-| -------------------- | ------------ | ------- | ---------- | ----------- | 
-| **Slashing**         | 6            | 3       | 2          | 0           | 
-| **Piercing**         | 6            | 3       | 2          | 0           | 
-| **Bludgeoning**      | 4            | 2       | 1          | 0           | 
-| **Acid**             | 4            | 2       | 1          | 0           | 
-| **Electrical**       | 6            | 3       | 2          | 0           |
+| Protections          | Unthreatened | Flanked | Surrounded | 
+| -------------------- | ------------ | ------- | ---------- | 
+| **Slashing**         | 6            | 3       | 0          | 
+| **Piercing**         | 6            | 3       | 0          | 
+| **Bludgeoning**      | 4            | 2       | 0          | 
+| **Acid**             | 4            | 2       | 0          | 
+| **Electrical**       | 6            | 3       | 0          |
 
 #### Heavy Armor
 A set of heavy armor with excellent protection, at the cost of encumbering the wearer greatly. Example: full plate armor. 
@@ -743,13 +743,13 @@ A set of heavy armor with excellent protection, at the cost of encumbering the w
 * Bulk: `4`
 * Work-Rate: `2 / QoD`, PI: `24`
 
-| Protections          | Unthreatened | Flanked | Surrounded | Overwhelmed | 
-| -------------------- | ------------ | ------- | ---------- | ----------- | 
-| **Slashing**         | 8            | 4       | 2          | 0           | 
-| **Piercing**         | 8            | 4       | 2          | 0           | 
-| **Bludgeoning**      | 6            | 3       | 2          | 0           | 
-| **Acid**             | 6            | 3       | 2          | 0           | 
-| **Electrical**       | 6            | 3       | 2          | 0           | 
+| Protections          | Unthreatened | Flanked | Surrounded | 
+| -------------------- | ------------ | ------- | ---------- | 
+| **Slashing**         | 8            | 4       | 0          | 
+| **Piercing**         | 8            | 4       | 0          | 
+| **Bludgeoning**      | 6            | 3       | 0          | 
+| **Acid**             | 6            | 3       | 0          | 
+| **Electrical**       | 6            | 3       | 0          | 
 
 ### Shield Types
 Shields are Assets that provide passive bonuses to Defense against melee and ranged Attacks and require one free hand to use. This implies they cannot be used at the same time as a two-handed weapon (unless of course if you have more than two hands). 
@@ -770,11 +770,11 @@ A small round or oblong shield commonly held as far from the body as possible, t
 * Bulk: `1`
 * Work-Rate: `3 / QoD`, PI: `12`
 
-| Unthreatened           | Flanked           | Surrounded           | Overwhelmed           |
-| ---------------------- | ----------------- | -------------------- | --------------------- |
-| `+1D` for melee Defense. | `+1D` for melee Defense. |  |  |
-| `+2` [Edge](./strive-core.md#edge) for melee Defense against Piercing Attacks. | `+2D` for melee Defense against Piercing Attacks. | `+1D` for melee Defense against Piercing Attacks. |  |
-| `-1D` for ranged Defense. | `-2D` for ranged Defense. | `-2D` for ranged Defense. | `-2D` for ranged Defense. |
+| Unthreatened           | Flanked           | Surrounded           |
+| ---------------------- | ----------------- | -------------------- |
+| `+1D` for melee Defense. | `+1D` for melee Defense. |  |
+| `+1` [Edge](./strive-core.md#edge) for melee Defense against Piercing Attacks. | `+1D` for melee Defense against Piercing Attacks. | |
+| `-1D` for ranged Defense. | `-2D` for ranged Defense. | `-2D` for ranged Defense. |
 
 #### Medium Shield
 A medium-sized, round or kite-shaped shield made from tough wood and leather or even metal, which offers good protection against most Attacks, while not encumbering the wielder too much. 
@@ -784,9 +784,9 @@ A medium-sized, round or kite-shaped shield made from tough wood and leather or 
 * Bulk: `2`
 * Work-Rate: `2 / QoD`, PI: `12`
 
-| Unthreatened           | Flanked           | Surrounded           | Overwhelmed           |
-| ---------------------- | ----------------- | -------------------- | --------------------- |
-| `+1` [Edge](./strive-core.md#edge) for any Defense. | `+1D` for any Defense. |  | `-1D` for any Defense. |
+| Unthreatened           | Flanked           | Surrounded           |
+| ---------------------- | ----------------- | -------------------- |
+| `+1` [Edge](./strive-core.md#edge) for any Defense. | `+1D` for any Defense. |  |
 
 #### Heavy Shield
 A large, kite-shaped or rectangular shield, which can protect every part of the fighter, from the shoulder down to the feet. Its weight is very tiring. 
@@ -796,9 +796,9 @@ A large, kite-shaped or rectangular shield, which can protect every part of the 
 * Bulk: `4`
 * Work-Rate: `2 / QoD`, PI: `18`
 
-| Unthreatened           | Flanked           | Surrounded           | Overwhelmed           |
-| ---------------------- | ----------------- | -------------------- | --------------------- |
-| `+2` [Edge](./strive-core.md#edge) for any Defense. | `+1` [Edge](./strive-core.md#edge) for any Defense. | `+1D` for any Defense. |  |
+| Unthreatened           | Flanked           | Surrounded           |
+| ---------------------- | ----------------- | -------------------- |
+| `+2` [Edge](./strive-core.md#edge) for any Defense. | `+1` [Edge](./strive-core.md#edge) for any Defense. |  |
 
 ### Weapon Families
 Following are fantasy-themed [Weapon-Families](./strive-core.md#weapon-family). These are broad abstractions for that kind of weapon. For example "Axe" makes no distinction between a hatchet or a huge double-bladed axe. 

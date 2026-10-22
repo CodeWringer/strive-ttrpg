@@ -680,7 +680,6 @@ As STRIVE is meant primarily as a rule-book to help you quickly find what you ne
 | [Opportunity Attack](#opportunity-attacks)                  | An Attack that may trigger as a Reaction to a foe moving exiting the Range of Opportunity. This Attack stops the enemy. |
 | [Opposed Test](#opposed-test)                               | A Test that resolves when two Characters come into opposition. Most commonly finds use in Combat. |
 | [Overweight](#overweight)                                   | A Condition a Character suffers when they try to carry too much. |
-| [Overwhelmed](#flanking)                                    | The third and final degree of Flanking. An Overwhelmed Character's armor is no longer protects, at all and their Defense Tests are incredibly dfficult. |
 | [Overworld Field](#travel--terrain)                        | A single field of an overworld map representing an area `10km`/`6 mile` in diameter. |
 | [Owning Skill](#expertise)                                  | The Skill an Expertise is part of. |
 | [Pacified](#pacified)                                       | A Condition that cannot *willingly* take any hostile Actions. |
@@ -2336,12 +2335,11 @@ This circumstance changes, when the opponent is flanked and surrounded. Most arm
 
 To **Flank** an opponent, two allies must be within their weapons' range to and on **opposite sides** of the opponent. If both are Attacking from the same side, then the armor and shield will continue protecting fully. This applies to melee and ranged Attacks. 
 
-Three allies can **Surround** the opponent, further reducing their armor's and shield's effectiveness. Four or more allies can **Overwhelm** the opponent, rendering their defenses completely useless. The third and fourth (or any beyond that number) ally can **freely** choose a spot within weapon's reach. 
+Three allies can **Surround** the opponent, rendering their defenses completely useless. The third ally can **freely** choose a spot within weapon's reach. 
 
 * When **Unthreatened**, the armor and shield protect fully. No Defense penalties. 
 * When **Flanked**, the armor and shield protect only half (RU) as much. `-1D` to any Defense Test. 
-* When **Surrounded**, the armor and shield protect only one fourth (RU) as much. `-1D` to any Defense Test. 
-* When **Overwhelmed**, the armor and shield no longer protect **at all**. `-2D` to any Defense Test. 
+* When **Surrounded**, the armor and shield no longer protect **at all**. `-2D` to any Defense Test. 
 
 If one of the allies is using a weapon with a property to increase its reach, for example [Long Reach](#general-weapon-traits), then they need not be adjacent to the enemy to count towards the Flanking effect (but still within their weapon's reach to the enemy). 
 
