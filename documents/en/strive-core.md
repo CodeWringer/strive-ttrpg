@@ -35,7 +35,7 @@ This is a very complex and difficult to describe design goal. Effectively, it bo
 ## Tactical
 First of all, STRIVE is **not a wargame**. It is not about coordinating large troop movements, managing supply lines or establishing chains of command (although you can feature such things in your game if you like). 
 
-Secondly, the game is **not *about* tactics**, either. However, the game features *tactical combat* in the sense that Characters take Turns, move on a grid of Squares or hexagons and have a limited number of actions they can take each Turn. The position of enemies and allies matters and even the battlefield itself may have an impact on the decisions to be made. There may be objectives, choke-points and hazards which the players are expected to deal with or exploit to their advantage. 
+Secondly, the game is **not *about* tactics**, either. However, the game features *tactical combat* in the sense that Characters take Turns, move on a grid of squares or hexagons and have a limited number of actions they can take each Turn. The position of enemies and allies matters and even the battlefield itself may have an impact on the decisions to be made. There may be objectives, choke-points and hazards which the players are expected to deal with or exploit to their advantage. 
 
 The very capabilities of Characters are in themselves a puzzle. There are many options to choose from for building and playing a Character. There are often multiple choices available for deciding *how* a Character will Move, Attack or Defend. 
 
@@ -615,7 +615,7 @@ As STRIVE is meant primarily as a rule-book to help you quickly find what you ne
 | [Direct Damage](#damage--effects)                           | Damage that always comes from an [Action or Reaction](#actions-reactions--passives). |
 | [Disengage Action](#disengage)                              | A Combat Action that lets a Character safely avoid an Opportunity Attack. |
 | [Dissolving](#dissolving)                                   | A Condition that causes Acid Damage every Tick. |
-| [Distance Increment (DI)](#ranged)                          | Indicates a ranged weapon's/Attack's range increments. Attacking past this number of Squares incurs penalties to the Attack. |
+| [Distance Increment (DI)](#ranged)                          | Indicates a ranged weapon's/Attack's range increments. Attacking past this number of Fields incurs penalties to the Attack. |
 | [Down-Time](#time-management)                               | Down-Time has time flowing fairly rapidly, as events unfold on an abstract level. |
 | [Drivers](#drivers)                                         | Refers to a Character's Ambition, Aspirations and Quirks - goals to work towards and automatic triggers to get them into trouble. |
 | [Drug-Addicted](#drug-addicted)                             | A Condition that forces a Character to act compulsively. |
@@ -663,7 +663,7 @@ As STRIVE is meant primarily as a rule-book to help you quickly find what you ne
 | [Language](#languages)                                      | A Character's ability to communicate and potentially read and write in a language that exists in your GM's world. |
 | [Learning Skill](#learning-skills)                          | A Skill at Level `0`, which is still considered unlearned. A Character has not yet gained the ability to properly utilize such a Skill, for example in Skill Forking. |
 | [Lengthy](#quarters-of-a-day-qod)                           | A Lengthy activity takes one or more hours and can consume a substantial portion of a [QoD](#quarters-of-a-day-qod).  |
-| [Long Reach](#foundational-weapon-traits)                   | A Weapon Trait for melee weapons that allow Attacking targets up to two Squares away. |
+| [Long Reach](#foundational-weapon-traits)                   | A Weapon Trait for melee weapons that allow Attacking targets up to two Fields away. |
 | [Luggage](#luggage)                                         | The Assets a Character is carrying on-person. |
 | [Major Fate-Point (MaFP)](#major-fate-points)               | A Fate-Point earned for a major achievement and great role-play. |
 | [Marked](#marked)                                           | A Condition that makes a Character easier to harm. |
@@ -681,7 +681,7 @@ As STRIVE is meant primarily as a rule-book to help you quickly find what you ne
 | [Opposed Test](#opposed-test)                               | A Test that resolves when two Characters come into opposition. Most commonly finds use in Combat. |
 | [Overweight](#overweight)                                   | A Condition a Character suffers when they try to carry too much. |
 | [Overwhelmed](#flanking)                                    | The third and final degree of Flanking. An Overwhelmed Character's armor is no longer protects, at all and their Defense Tests are incredibly dfficult. |
-| [Overworld Square](#travel--terrain)                        | A single field of an overworld map representing an area `10km`/`6 mile` in diameter. |
+| [Overworld Field](#travel--terrain)                        | A single field of an overworld map representing an area `10km`/`6 mile` in diameter. |
 | [Owning Skill](#expertise)                                  | The Skill an Expertise is part of. |
 | [Pacified](#pacified)                                       | A Condition that cannot *willingly* take any hostile Actions. |
 | [Passive](#actions-reactions--passives)                     | An effect that is always active (when a defined condition is met). |
@@ -725,7 +725,7 @@ As STRIVE is meant primarily as a rule-book to help you quickly find what you ne
 | [Slow Reload](#foundational-weapon-traits)                  | A Weapon Trait that for a weapon that must be reloaded after every use, at the cost of AP. |
 | [Solid Success](#test-success-ratings)                      | A strong success of a Test. |
 | [Sprinting Speed / Sprint](#sprinting-speed-sprint)         | Can extend a Character's movement per AP, at the cost of Stamina. |
-| [Square](#distances--the-grid)                              | A single field of an encounter/battle map representing an area `1m`/`3'` in diameter. |
+| [Field](#distances--the-grid)                              | A single field of an encounter/battle map representing an area `1m`/`3'` in diameter. |
 | [Stability (Stab)](#stability-stabil)                       | Counter-acts Forced Movement. |
 | [Stamina](#stamina--strain)                                 | Stamina is a numeric resource that lets a Character endure physical and mental taxation. |
 | [Stepped Test](#stepped-test)                               | A Test that allows failing forward or offers multiple chances at recovery from a critical blunder. |
@@ -748,7 +748,7 @@ As STRIVE is meant primarily as a rule-book to help you quickly find what you ne
 | [Unconscious](#unconscious)                                 | A Condition for a Character who is either asleep or knocked unconscious. |
 | [Unthreatened](#flanking)                                   | The default for all Unflanked Characters in Combat. Their defenses work to the fullest intent. |
 | [Untreated Injury](#injury-treatment)                       | An Untreated Injury reduces a Character's maximum HP and imposes additional penalties. |
-| [Very Long Reach](#foundational-weapon-traits)              | A Weapon Trait for melee weapons that allow Attacking targets up to three Squares away. |
+| [Very Long Reach](#foundational-weapon-traits)              | A Weapon Trait for melee weapons that allow Attacking targets up to three Fields away. |
 | [Very Slow Reload](#foundational-weapon-traits)             | A Weapon Trait that for a weapon that must be reloaded after every use, at the cost of more AP. |
 | [Virtue / Vice](#virtues--vices)                            | Describes a Character's way of thinking and how they should act, in general. |
 | [Weapon Asset](#weapon-assets)                              | An Asset designed to be used as a weapon. Improvised weapons don't count. |
@@ -770,11 +770,11 @@ Each player only directly controls a single Character. The GM is in control of e
 
 In some places, where distances are concerned, a single number is noted. If playing on a grid, this is equal to the number or squares/hexagons that the distance covers. Outside of combat, or if you're not playing with a grid, assume the number to be equal to `1m` or `3'`. Furthermore, a single, ordinary human, should occupy an entire square/hexagon. 
 
-These fields of the grid are henceforth referred to as **Squares**.
+These fields of the grid are henceforth referred to as **Fields**.
 
-> A distance of `4` Squares would be equal to `12'` or `4m`. 
+> A distance of `4` Fields would be equal to `12'` or `4m`. 
 
-In case of an overworld map, a Square may also refer to a segmentation of such a map into manageable chunks. See also [Travel & Terrain](#travel--terrain). 
+In case of an overworld map, a Field may also refer to a segmentation of such a map into manageable chunks. See also [Travel & Terrain](#travel--terrain). 
 
 ## Dice
 **STRIVE** uses a **dice pool** system of **six-sided dice** (henceforth referred to as `D6`) to resolve [Tests](#tests). *Dice pool* means a variable number of dice will be rolled, based on a Character's [Attributes](#attributes), [Skills](#skills), [Boons](#boons--penalties) and circumstance of the situation they're in. 
@@ -1122,7 +1122,7 @@ This Characteristic can also be used to determine whether a Character can outrun
 #### Stability (Stabil)
 <img src="../../img/stability.svg" style="width: 3rem; height: 3rem;">
 
-The Stability of a Character represents their resistance to [Forced Movement](#forced-movement). For every point in this Derived Attribute, a Character is moved `-1` Square less. 
+The Stability of a Character represents their resistance to [Forced Movement](#forced-movement). For every point in this Derived Attribute, a Character is moved `-1` Field less. 
 
 By default, all Characters start with Stability `0`, which can be increased only through certain [Character Traits](#character-traits) or [Skills](#skills). Stability can never be less than `0`. 
 
@@ -1671,12 +1671,12 @@ Shields provide bonuses to Defense, making it harder for an enemy to succesfully
 
 | Shield Trait           | Description                                                                                   | 
 | ---------------------- | --------------------------------------------------------------------------------------------- |
-| **Hooked**             | Once per Round, when successfully Defending against an Attack with this shield, you may [Force-Move](#forced-movement) the Attacker around you by `Q` Squares. |
+| **Hooked**             | Once per Round, when successfully Defending against an Attack with this shield, you may [Force-Move](#forced-movement) the Attacker around you by `Q` Fields. |
 | **Interlocking**       | When adjacent to an ally who also wields a shield, you both gain `+1` [Stability](#stability-stabil). |
 | **Perfect Guard**      | Once per Round, a Defense Test with `≥3` Hits allows a free Counter-Attack regardless of the normal Counter-Attack requirements. |
 | **Reflective**         | Gain `+1` [Edge](#edge) against Attacks that involve light, glare or other visual effects. |
 | **Reprisal**           | When you successfully Defend an Attack by `≥3` Hits, the attacker suffers `Q` Bludgeoning Damage. |
-| **Towering**           | Gain `+1D` against Ranged Attacks, but also suffer `-1` Square of movement per AP. |
+| **Towering**           | Gain `+1D` against Ranged Attacks, but also suffer `-1` Field of movement per AP. |
 
 #### Legendary Shield Traits
 These Shield Traits modify a shield in a particularly powerful way. These are available solely at the GM's discretion and may serve as a source of inspiration for them to create their own uniques. 
@@ -1713,8 +1713,8 @@ These Weapon Traits define basic aspects of a weapon: how far away it can threat
 | Foundational Weapon Trait |                                                                              | Description                                                                                   | 
 | ------------------------- | ---------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------- |
 | **Melee**                 | <img src="../../img/melee-1.svg" style="width: 3em; height: 3em;"></img>     | Allows Attacking an adjacent target. |
-| **Long Reach**            | <img src="../../img/melee-2.svg" style="width: 3em; height: 3em;"></img>     | Allows Attacking a target two Squares away. |
-| **Very Long Reach**       | <img src="../../img/melee-3.svg" style="width: 3em; height: 3em;"></img>     | Allows Attacking a target three Squares away. |
+| **Long Reach**            | <img src="../../img/melee-2.svg" style="width: 3em; height: 3em;"></img>     | Allows Attacking a target two Fields away. |
+| **Very Long Reach**       | <img src="../../img/melee-3.svg" style="width: 3em; height: 3em;"></img>     | Allows Attacking a target three Fields away. |
 | **Ranged**                | <img src="../../img/ranged.svg" style="width: 3em; height: 3em;"></img>      | The weapon can be used against targets up to a noted distance away from the user. See also [Ranged](#ranged). |
 | **Range Only**            | <img src="../../img/ranged-only.svg" style="width: 3em; height: 3em;"></img> | The weapon cannot be used against any targets adjacent to self. |
 | **Prefer Range**          |                                                                              | `+2` Ob to using the weapon against an adjacent target. |
@@ -1722,12 +1722,12 @@ These Weapon Traits define basic aspects of a weapon: how far away it can threat
 | **Very Slow Reload**      |                                                                              | Reloading the weapon costs `3` [AP](#action-points-ap). |
 
 ###### Ranged
-The range, in Squares, is noted in parentheses. This can either indicate a maximum distance, which cannot be exceeded, or a so-called **Distance Increment**, abbreviated **DI**, which may be exceeded, but with penalties. <br>
+The range, in Fields, is noted in parentheses. This can either indicate a maximum distance, which cannot be exceeded, or a so-called **Distance Increment**, abbreviated **DI**, which may be exceeded, but with penalties. <br>
 For every Distance Increment past the initial, an Attack suffers `+1` Ob and deals `-2` points of Damage. In other words, the farther you shoot, the harder it becomes to score an effective hit. 
 
-> A weapon with this Trait noted as `(max. 8)` can Attack a target up to a maximum of `8` Squares away. 
+> A weapon with this Trait noted as `(max. 8)` can Attack a target up to a maximum of `8` Fields away. 
 
-> A weapon with this Trait noted as `(10 DI)` has a Distance Increment of `10` Squares. Any Attack up to and including `10` Squares incurs no penalties, but starting from the `11`th Square, the Attack suffers `+1` Ob and if successful, deals `-2` points of Damage less. Starting from the `21`st Square, `+2` Ob and `-4` points of Damage, and so on.
+> A weapon with this Trait noted as `(10 DI)` has a Distance Increment of `10` Fields. Any Attack up to and including `10` Fields incurs no penalties, but starting from the `11`th Field, the Attack suffers `+1` Ob and if successful, deals `-2` points of Damage less. Starting from the `21`st Field, `+2` Ob and `-4` points of Damage, and so on.
 
 ##### Offensive Weapon Traits
 Weapon Traits whose focus is modifying an [Attack's Profile](#damage--effects) to cause greater harm. 
@@ -1748,7 +1748,7 @@ Weapon Traits whose focus lies on altering or improving defensive capabilities.
 
 | Defensive Weapon Traits | Description                                                                                   | 
 | ----------------------- | --------------------------------------------------------------------------------------------- |
-| **Anchoring**           | Once per Round, when failing a Defense against an Attack that causes you to [Force-Move](#forced-movement), you are moved `Q` Squares less. |
+| **Anchoring**           | Once per Round, when failing a Defense against an Attack that causes you to [Force-Move](#forced-movement), you are moved `Q` Fields less. |
 | **Protecting**          | Once per Round, Defending an adjacent ally with this weapon gains `+1` [Edge](#edge).         |
 | **Riposting**           | Once per Round, when succeeding a Defense Test with this weapon, you may make one free [Counter-Attack](#counter-attack), but at Ob `+1`. |
 
@@ -1757,10 +1757,10 @@ Weapon Traits whose focus lies on manipulating positioning.
 
 | Mobility Weapon Traits  | Description                                                                                   | 
 | ----------------------- | --------------------------------------------------------------------------------------------- |
-| **Driving**             | Once per Round, when your Attack causes [Forced-Movement](#forced-movement), you may move up to `Q` Squares toward the target without provoking [Opportunity Attacks](#opportunity-attacks). |
+| **Driving**             | Once per Round, when your Attack causes [Forced-Movement](#forced-movement), you may move up to `Q` Fields toward the target without provoking [Opportunity Attacks](#opportunity-attacks). |
 | **Heavy**               | Melee Attacks cause `+Q` [Knock-Back](#forced-movement).                                      |
-| **Hooked**              | Melee Attacks [Pull](./strive-core.md#forced-movement) by `+Q` Squares.                       |
-| **Rooting**             | A Masterful hit prevents a target from voluntarily moving more than `Q` Squares, on their next Turn. |
+| **Hooked**              | Melee Attacks [Pull](./strive-core.md#forced-movement) by `+Q` Fields.                       |
+| **Rooting**             | A Masterful hit prevents a target from voluntarily moving more than `Q` Fields, on their next Turn. |
 
 ##### Versatility Weapon Traits
 Weapon Traits whose focus lies on altering how they can be used. 
@@ -1778,7 +1778,7 @@ These Weapon Traits modify an [Attack's Profile](#damage--effects) in a particul
 | Legendary Weapon Traits   | Description                                                                                   | 
 | ------------------------- | --------------------------------------------------------------------------------------------- |
 | **Cruel**                 | A Solid Hit or better with this weapon deals an additional `Q * 2` Bleeding Damage if the victim has at least one Injury. |
-| **Deflecting**            | This weapon is especially good at turning Attacks aside. When you use this weapon in a Defense Test and succeed, you may [Knock-Back](#forced-movement) the Attacker by `Q` Squares. |
+| **Deflecting**            | This weapon is especially good at turning Attacks aside. When you use this weapon in a Defense Test and succeed, you may [Knock-Back](#forced-movement) the Attacker by `Q` Fields. |
 | **Foolproof**             | The first successful Attack each Round is treated as one Damage grade higher. I.e. Glancing -> Solid; Solid -> Masterful|
 | **Relentless**            | Once per Round, when an Attack with this weapon is successful, you may make one additional free Attack, with Ob `+2`. |
 | **Executioner**           | Attacks with this weapon deal an additional `Q * 2` Pure Damage to a foe whose HP are less than `20`. |
@@ -2221,13 +2221,13 @@ If a Character ends their Turn with any AP unspent, those AP will be saved up an
 However, even with saved-up AP, the maximum a Character may **begin their Turn with** remains `5`. 
 
 ## Combat Movement
-Under normal circumstances, a Character (an average human) can move up to `4` Squares per AP spent. 
+Under normal circumstances, a Character (an average human) can move up to `4` Fields per AP spent. 
 
-On **Difficult Terrain**, the distance moved per AP is half that, at `2` Squares. Difficult Terrain is any space that slows movement, but does not prevent it outright. Examples would be waist-high water, a surface of glue or a slowing force field. Allies also count as Difficult Terrain, while foes normally block movement. 
+On **Difficult Terrain**, the distance moved per AP is half that, at `2` Fields. Difficult Terrain is any space that slows movement, but does not prevent it outright. Examples would be waist-high water, a surface of glue or a slowing force field. Allies also count as Difficult Terrain, while foes normally block movement. 
 
 It is also possible to **Sprint**, increasing the distance one can move per AP spent, at the cost of `-1` point of [Stamina](#stamina--strain) for every AP spent Sprinting. The movement distance is increased by a Character's [Sprinting Speed](#sprinting-speed-sprint), per AP. 
 
-> A Character with a Sprinting Speed of `3` can increase their total movement distance to `7` Squares, at the cost of `-1` AP and `-1` point of Stamina. 
+> A Character with a Sprinting Speed of `3` can increase their total movement distance to `7` Fields, at the cost of `-1` AP and `-1` point of Stamina. 
 
 ### Forced Movement
 There are abilities and circumstances that can force a Character to be moved against their will. When this happens, the Character in question does not spend any [AP](#action-points-ap) on the movement, as they didn't initiate it. Even so, Forced Movement may cause [Opportunity Attacks](#opportunity-attacks)!
@@ -2237,27 +2237,27 @@ Under normal circumstances, the Forced Movement distance is reduced by an amount
 **Knock-Back** forces a Character away from you. Inversely, a **Pull** forces them closer to you. 
 
 #### Forced Collision
-If a Forced Movement intersects an obstacle, then the victim suffers `N * 3` points of Bludgeoning Damage, where *N* is the remaining Squares of movement at the time of collision. 
+If a Forced Movement intersects an obstacle, then the victim suffers `N * 3` points of Bludgeoning Damage, where *N* is the remaining Fields of movement at the time of collision. 
 
-> A Character is thrown with enough force to move them `5` Squares and they slam into a barrel after flying a distance of `2` Squares. At this point, the remaining distance of `3` Squares causes them to suffer `3 * 3 = 9` points of Bludgeoning Damage, as they slam into the barrel, which is knocked aside as they keep flying!
+> A Character is thrown with enough force to move them `5` Fields and they slam into a barrel after flying a distance of `2` Fields. At this point, the remaining distance of `3` Fields causes them to suffer `3 * 3 = 9` points of Bludgeoning Damage, as they slam into the barrel, which is knocked aside as they keep flying!
 
 If a Character slams into another when force moved, they both suffer half of the Damage (RU). 
 
 #### Hurled Through An Obstacle
 An obstacle does not necessarily have to stop the unfortunate soul being thrown. Depending on the remaining distance at the time of collision, they may break or push aside the obstacle and keep going:
-* `2+` through a Square of **glass**
-* `3+` through a Square of **wood**
-* `5+` through a Square of **stone**
-* `8+` through a Square of **metal**
+* `2+` through a Field of **glass**
+* `3+` through a Field of **wood**
+* `5+` through a Field of **stone**
+* `8+` through a Field of **metal**
 
-"A Square of [...]" means there is a significant obstacle, whose dominant material is one of the listed types. Examples would be a wall, a large barrel, a column, a car, etc.. 
+"A Field of [...]" means there is a significant obstacle, whose dominant material is one of the listed types. Examples would be a wall, a large barrel, a column, a car, etc.. 
 
-At the time of collision, the Character **always** suffers the usual [Forced Collision](#forced-collision) Damage of `N * 3` points of Bludgeoning Damage, where *N* is the **remaining Squares of movement** at the time of collision. However, they will **not stop moving**!
+At the time of collision, the Character **always** suffers the usual [Forced Collision](#forced-collision) Damage of `N * 3` points of Bludgeoning Damage, where *N* is the **remaining Fields of movement** at the time of collision. However, they will **not stop moving**!
 
 ### Gravity Hurts
-When a Character falls more than `3` Squares and impacts with the ground, then they suffer `(N * 5) - Acrobatics` points of Bludgeoning Damage, where *N* is the number of `5` Square increments that they fell and `Acrobatics` is the Character's current Level in [Acrobatics](#acrobatics-agistr).
+When a Character falls more than `3` Fields and impacts with the ground, then they suffer `(N * 5) - Acrobatics` points of Bludgeoning Damage, where *N* is the number of `5` Field increments that they fell and `Acrobatics` is the Character's current Level in [Acrobatics](#acrobatics-agistr).
 
-> A Character falls off a suspension bridge, down a shallow ravine. They fall a distance of `11` Squares. Upon impacting the ground, they fell `3` increments of `5` Squares and thus will suffer `3 * 5 = 15` points of Bludgeoning Damage. Their Level in Acrobatics is `3`, which reduces the Damage they finally suffer to `12`. 
+> A Character falls off a suspension bridge, down a shallow ravine. They fall a distance of `11` Fields. Upon impacting the ground, they fell `3` increments of `5` Fields and thus will suffer `3 * 5 = 15` points of Bludgeoning Damage. Their Level in Acrobatics is `3`, which reduces the Damage they finally suffer to `12`. 
 
 ### Flee Combat
 When [Combat](#combat) is a decidedly bad idea, one can try to flee from it. A fleeing Character can no longer perform any *hostile actions*. That means, they can no longer Attack or hinder any other Characters until the end of [Combat](#combat). 
@@ -2311,7 +2311,7 @@ There are four types of shapes that AoE effects can have:
 * <img src="../../img/aoe-line.svg" style="width: 2rem; height: 2rem;"></img> A line.
 
 ### Opportunity Attacks
-When a Character is within weapon's reach of another hostile Character, they're considered within the other's **Range of Opportunity**. Whenever a Character in an enemy's Range of Opportunity moves away from or more than `2` Squares *around* that enemy, that enemy can *choose* to perform an **Opportunity Attack**. 
+When a Character is within weapon's reach of another hostile Character, they're considered within the other's **Range of Opportunity**. Whenever a Character in an enemy's Range of Opportunity moves away from or more than `2` Fields *around* that enemy, that enemy can *choose* to perform an **Opportunity Attack**. 
 
 Performing an Opportunity Attack costs `-1` [AP](#action-points-ap) at a `-1D` penalty and will **halt** the enemy in question, preventing their movement, regardless of whether the Attack hits. When an Opportunity Attack against them is declared, the Defending Character may choose to [Push Through](#push-through), thus getting to move after all, but if they do, the Attacker instead of losing a die, gains `+1` [Edge](#edge) for their Opportunity Attack!
 
@@ -2443,9 +2443,9 @@ When you gain or lose Momentum, only the most significant change counts! Note th
 | Finest Hour <br><img src="../../img/heroic-act_finest-hour.svg" width="64px" height="64px"></img>                      | `-30`                     | A PC of choice gets an immediate Turn, with `4` [AP](#action-points-ap). | All PCs get an immediate Turn, with `3` [AP](#action-points-ap), but also suffer `+3` points of [Bleeding](#bleeding). | `+20` | Final Hour <br><img src="../../img/desperate-measure_final-hour.svg" width="64px" height="64px"></img> |
 | Finish It! <br><img src="../../img/heroic-act_finish-it.svg" width="64px" height="64px"></img>                         | `-30`                     | A chosen PC launches an immediate Attack against a chosen foe, with `+1` [Edge](#edge). If successful, that foe suffers its `Injury count * 3` points of additional Pure Damage, after all other Damage is resolved. | A chosen PC launches an immediate Attack against a chosen foe, with `+1` [Edge](#edge). If successful, the foe suffers its `Injury count * 4` points of additional Pure Damage, after all other Damage is resolved. If the foe survives even after the additional Damage is applied, the PC suffers `(Injury count * 3) + 5` points of Pure Damage. | `+10` | You or Me <br><img src="../../img/desperate-measure_you-or-me.svg" width="64px" height="64px"></img> |
 | Pre-Emptive Strikes <br><img src="../../img/heroic-act_pre-emptive-strikes.svg" width="64px" height="64px"></img>      | `-30`                     | For `2` Rounds, a chosen PC's first self-initiated [Attack Action](#Attacking) every Round costs no [AP](#action-points-ap)! | Until the end of combat, a chosen PC's first self-initiated [Attack Action](#Attacking) every Round costs no [AP](#action-points-ap), with `+1` [Edge](#edge). However, one foe gets the same boon, albeit without the Edge bonus! | `+30` | Martial Trance <br><img src="../../img/desperate-measure_breakout-strikes.svg" width="64px" height="64px"></img> |
-| Tactical Repositioning <br><img src="../../img/heroic-act_tactical-repositioning.svg" width="64px" height="64px"></img>| `-10`                     | All PCs may immediately re-position, moving up to `10` Squares, without triggering any [Opportunity Attacks](#opportunity-Attacks). Normal [movement rules](#combat-movement) apply. | All PCs may immediately re-position, moving up to `15` Squares, without triggering any [Opportunity Attacks](#opportunity-Attacks). Normal [movement rules](#combat-movement) apply. However, up to three foes immediately gain `+1`, or one foe `+3` [AP](#action-points-ap). | `+10` | Desperate Repositioning <br><img src="../../img/desperate-measure_desperate-repositioning.svg" width="64px" height="64px"></img> |
+| Tactical Repositioning <br><img src="../../img/heroic-act_tactical-repositioning.svg" width="64px" height="64px"></img>| `-10`                     | All PCs may immediately re-position, moving up to `10` Fields, without triggering any [Opportunity Attacks](#opportunity-Attacks). Normal [movement rules](#combat-movement) apply. | All PCs may immediately re-position, moving up to `15` Fields, without triggering any [Opportunity Attacks](#opportunity-Attacks). Normal [movement rules](#combat-movement) apply. However, up to three foes immediately gain `+1`, or one foe `+3` [AP](#action-points-ap). | `+10` | Desperate Repositioning <br><img src="../../img/desperate-measure_desperate-repositioning.svg" width="64px" height="64px"></img> |
 | Unyielding <br><img src="../../img/heroic-act_unyielding.svg" width="64px" height="64px"></img>                        | `-20`                     | For `2` Rounds, a chosen PC may freely [Counter-Attack](#counter-Attack) all Attacks directed against them or an adjacent ally with `+1` [Edge](#edge). | Until the end of combat, a chosen PC may freely [Counter-Attack](#counter-Attack) all Attacks directed against them or an adjacent ally with `+1` [Edge](#edge). However up to `3` times per Round, all foes may now also freely [Counter-Attack](#counter-Attack) this PC's Attacks. The limit is a total across all foes, **not** for each foe individually. | `+20` | Cornered <br><img src="../../img/desperate-measure_cornered.svg" width="64px" height="64px"></img> |
-| Get Off Me!                                                                                                            | `-10`                     | All foes adjacent to a chosen PC are pushed back `2` Squares and cannot resist this Forced-Movement. That PC may then move up to `4` Squares, without triggering [Opportunity Attacks](#opportunity-Attacks). | A chosen PC switches places with an adjacent foe, and may then move up to `4` Squares, without provoking [Opportunity Attacks](#opportunity-Attacks). The foe they switched with may react and launch an immediate free [Counter-Attack](#counter-Attack), but cannot prevent the PC from moving. | `+10` | Outta My Way! |
+| Get Off Me!                                                                                                            | `-10`                     | All foes adjacent to a chosen PC are pushed back `2` Fields and cannot resist this Forced-Movement. That PC may then move up to `4` Fields, without triggering [Opportunity Attacks](#opportunity-Attacks). | A chosen PC switches places with an adjacent foe, and may then move up to `4` Fields, without provoking [Opportunity Attacks](#opportunity-Attacks). The foe they switched with may react and launch an immediate free [Counter-Attack](#counter-Attack), but cannot prevent the PC from moving. | `+10` | Outta My Way! |
 | Toughened Up                                                                                                           | `-15`                     | You may distribute a total of `40` [Temporary HP](#temporary-health-points) across all PCs, limited to each having at most `10`. | All PCs gain `10` [Temporary HP](#temporary-health-points), limited to them having at most this amount, but also suffer `3` [Strain](#strain). | `+15` | Scarred Up |
 | Locked In <br><img src="../../img/heroic-acts.svg" width="64px" height="64px"></img> | `-20` | For `2` Rounds, all of a single chosen PC's Self-Control Tests gain `+1` [Edge](#edge). | For `2` Rounds, all of a single chosen PC's Self-Control Tests **always succeed**, but once those Rounds have passed, they suffer `+2` [Strain](#strain) and begin their next Turn with `2` AP less! | `+20` | Frantic Focus <br><img src="../../img/desperate-measures.svg" width="64px" height="64px"></img> |
 
@@ -2454,7 +2454,7 @@ Throwing things is a special type of Action, that follows the rules outlined bel
 
 ### Throwing-Distance
 **The maximum distance** something can be thrown is determined by the object's [Bulk](#bulk) and the Character's [Strength](#strength-str):
-* For every point in Strength, an object can be thrown an additional `5` Squares. 
+* For every point in Strength, an object can be thrown an additional `5` Fields. 
 * For every point in Bulk past `1`, the Strength value for throwing is reduced by `1`. 
 
 The steps to determine **distance** to throw are as follows:
@@ -2462,22 +2462,22 @@ The steps to determine **distance** to throw are as follows:
 2. Reduce Strength by the remaining Bulk. 
 3. Multiply by `5`. 
 
-> A Character with Strength `1` can throw an object of Bulk `1` up to `5` Squares far and cannot throw an object of Bulk `2` or higher, at all. 
+> A Character with Strength `1` can throw an object of Bulk `1` up to `5` Fields far and cannot throw an object of Bulk `2` or higher, at all. 
 > 
-> A Character with Strength `5` can throw an object of Bulk `1` up to `25` Squares far and an object of Bulk `3` up to `15` Squares far. 
+> A Character with Strength `5` can throw an object of Bulk `1` up to `25` Fields far and an object of Bulk `3` up to `15` Fields far. 
 
 ### Throwing-Accuracy
 How likely the object is to impact where intended is determined by the distance to throw and the Character's Level in the [Throwing](#throwing-agistr) Skill. If throwing _at_ another Character, then they may Defend against the throw.
-* For every `5` Square interval, the Ob increases by `+1`. 
-  * That means up to `5` Squares the Ob is `1`. Starting at `6` Squares, up to and including `10` Squares the Ob is `2`. Starting at `11` Squares, the Ob is `3`, and so on.
+* For every `5` Field interval, the Ob increases by `+1`. 
+  * That means up to `5` Fields the Ob is `1`. Starting at `6` Fields, up to and including `10` Fields the Ob is `2`. Starting at `11` Fields, the Ob is `3`, and so on.
 
 The steps to determine Ob to throw are as follows:
 1. Divide distance to throw by `5` and round up.
 2. If throwing _at_ another Character, add the Hits of the defender's Defense [Test](#tests).
 
-> A Character must succeed a Test at Ob `1` for a distance of `5` Squares. They must succeed a Test at Ob `2` for a distance of `6` Squares and a Test at Ob `3` for a distance of `11` Squares. 
+> A Character must succeed a Test at Ob `1` for a distance of `5` Fields. They must succeed a Test at Ob `2` for a distance of `6` Fields and a Test at Ob `3` for a distance of `11` Fields. 
 
-> A Character is throwing their weapon at an enemy standing `8` Squares away. The distance sets the base Ob to `2`. Additionally, the defender gets to roll their Defense Test and achieves `1` Hit. This raises the Ob to hit to `3`. 
+> A Character is throwing their weapon at an enemy standing `8` Fields away. The distance sets the base Ob to `2`. Additionally, the defender gets to roll their Defense Test and achieves `1` Hit. This raises the Ob to hit to `3`. 
 
 In case of an unsuccessful throw, the object lands only near the intended spot, instead of on it. In order to determine where a missed throw lands, refer to [Random Direction](#random-direction). `1D4` determines how far along that axis, measured from the intended spot, the object lands. <br>
 Note that the object cannot fly farther than the Character's Strength would allow. 
@@ -2501,9 +2501,9 @@ For your convenience, you can refer to the following chart:
 # Travel & Terrain
 Whenever players are presented with an overworld map, with distinct locations marked on it and players ask, "how do we get from *here* to *there*?", the question of travel comes up. The exact specifics will depend on the GM's world, and their forms of travel. Walking there on foot is sure to be slower than flying by plane. Or perhaps travel can even be instantaneous, through magic and technology, in which case this chapter may be entirely irrelevant. 
 
-For the purposes of this chapter, the overworld map is expected to have a grid of either squares or hexagons overlaid on top of it, segmenting it into manageable chunks. You may choose an appropriate chunk-size yourself or take the suggested size of a `10km` or `6 mile` diameter square or hexagon. Either way, this unit will henceforth be referred to as an **Overworld Square**. 
+For the purposes of this chapter, the overworld map is expected to have a grid of either squares or hexagons overlaid on top of it, segmenting it into manageable chunks. You may choose an appropriate chunk-size yourself or take the suggested size of a `10km` or `6 mile` diameter square or hexagon. Either way, this unit will henceforth be referred to as an **Overworld Field**. 
 
-The following table suggests how long it might take to traverse a particular Overworld Square, based on its dominant terrain and assuming you are on foot. To translate these, see [Quarters of a Day](#quarters-of-a-day-qod). Also suggested are Obs for [hunting and foraging](#foraging--hunting), if you feature survival aspects in your game.
+The following table suggests how long it might take to traverse a particular Overworld Field, based on its dominant terrain and assuming you are on foot. To translate these, see [Quarters of a Day](#quarters-of-a-day-qod). Also suggested are Obs for [hunting and foraging](#foraging--hunting), if you feature survival aspects in your game.
 
 | Terrain                | Time (on foot) | Hunting/Foraging Ob |
 | ---------------------- | -------------- | ------------------- |
@@ -2526,7 +2526,7 @@ It is possible to push on, for another QoD, at the cost of `+6` [Strain](#stamin
 For every QoD of travel, Characters will need to consume one [ration](#general-assets). If they don't, they suffer `+1` [Strain](#stamina--strain). 
 
 ## Foraging & Hunting
-It is possible to hunt/forage for food while traveling, without losing time. You may make Tests of an approproately chosen Skill, with an Ob appropriate to the current Square of terrain. If successful, the number of Hits you achieve equals the number of [rations](#general-assets) you gain. 
+It is possible to hunt/forage for food while traveling, without losing time. You may make Tests of an approproately chosen Skill, with an Ob appropriate to the current Field of terrain. If successful, the number of Hits you achieve equals the number of [rations](#general-assets) you gain. 
 
 # Appendix
 The appendix contains lists for reference only when needed. 
@@ -2792,7 +2792,7 @@ Moving silently and performing actions undetected.
 
 | Level | Name                 | AP | Ob      | Description        |
 | ----- | -------------------- | -- | ------- | ------------------ |
-| 2     | Pocket-Sand          | 2  | Opposed | Disappear from a ST's sight, who is up to `2` Squares away and run up to... <br> `≤ 1` Hit: `1` AP worth of distance.  <br> `= 2` Hits: `2` AP worth of distance. <br> `≥ 3` Hits: `3` AP worth of distance. <br> This does not provoke Opportunity Attacks from that ST. Every time you use this Expertise, your next use is `+1` Ob harder, until the next scene. |
+| 2     | Pocket-Sand          | 2  | Opposed | Disappear from a ST's sight, who is up to `2` Fields away and run up to... <br> `≤ 1` Hit: `1` AP worth of distance.  <br> `= 2` Hits: `2` AP worth of distance. <br> `≥ 3` Hits: `3` AP worth of distance. <br> This does not provoke Opportunity Attacks from that ST. Every time you use this Expertise, your next use is `+1` Ob harder, until the next scene. |
 
 #### Swimming (Agi/Tough)
 The ability to safely stay afloat and move around in water. 
@@ -2823,11 +2823,11 @@ For any ally next to you, who's also using a shield, you both gain `+1D` on your
 
 | Level | Name                 | AP | Ob      | Description        |
 | ----- | -------------------- | -- | ------- | ------------------ |
-| 2     | Shield Slam          | 2  | Opposed | When using a shield... `≤ 1` Hit: Push a ST back by `1` Square. <br> `= 2` Hits: `Str` Bludgeoning Damage; Push a ST back by `1` Square. <br> `≥ 3` Hits: `Str * 2` Bludgeoning Damage; Knock a ST [Prone](#prone) or push them `2` Squares back. |  |
+| 2     | Shield Slam          | 2  | Opposed | When using a shield... `≤ 1` Hit: Push a ST back by `1` Field. <br> `= 2` Hits: `Str` Bludgeoning Damage; Push a ST back by `1` Field. <br> `≥ 3` Hits: `Str * 2` Bludgeoning Damage; Knock a ST [Prone](#prone) or push them `2` Fields back. |  |
 
 | Level | Heroic Act <br><img src="../../img/heroic-acts.svg" width="64px" height="64px"></img> | Heroic Act Momentum Shift | Heroic Act Description | Desperate Measure Description | Desperate Measure Momentum Shift | Desperate Measure <br><img src="../../img/desperate-measures.svg" width="64px" height="64px"></img> |
 | ----- | ------------------------------------------------------------------------------------- | ------------------------- | ---------------------- | ----------------------------- | -------------------------------- | --------------------------------------------------------------------------------------------------- |
-| 4     | Launch! | `-15` | An adjacent ally jumps onto your shield, as you brace yourself and then, in a fluid motion, launch them over you. This way, your ally may travel up to your `Strength` Squares, without provoking [Attacks of Opportunity](#opportunity-Attacks). If they land adjacent to a foe, they may make an immediate free Attack against that foe. | An adjacent ally jumps onto your shield, as you brace yourself and then, with all your might, in a fluid motion, launch them over you. This way, your ally may travel up to your `Strength * 2` Squares, without provoking [Attacks of Opportunity](#opportunity-Attacks). If they land adjacent to a foe, they may make an immediate free Attack against that foe, with `+1` [Edge](#edge). *However*, **you** suffer `+3` [Strain](#stamina--strain). | `+15` | Strained Launch |
+| 4     | Launch! | `-15` | An adjacent ally jumps onto your shield, as you brace yourself and then, in a fluid motion, launch them over you. This way, your ally may travel up to your `Strength` Fields, without provoking [Attacks of Opportunity](#opportunity-Attacks). If they land adjacent to a foe, they may make an immediate free Attack against that foe. | An adjacent ally jumps onto your shield, as you brace yourself and then, with all your might, in a fluid motion, launch them over you. This way, your ally may travel up to your `Strength * 2` Fields, without provoking [Attacks of Opportunity](#opportunity-Attacks). If they land adjacent to a foe, they may make an immediate free Attack against that foe, with `+1` [Edge](#edge). *However*, **you** suffer `+3` [Strain](#stamina--strain). | `+15` | Strained Launch |
 
 #### Trapping (Awar/Wit)
 Setting traps in places where they're difficult to detect and the ability to disarm them. Used to set traps such as bear traps, pits filled with spikes, land mines and so on.
@@ -2847,20 +2847,20 @@ Traits: [Melee](#foundational-weapon-traits)
 | Level | Name                       | AP | Ob                                   | Description           |
 | ----- | -------------------------- | -- | ------------------------------------ | --------------------- |
 | 0     | Punch, Kick, Headbutt      | 2  | Opposed                              | `≤ 1` Hit: `Str` Bludgeoning <br> `= 2` Hits: `Str * 2` Bludgeoning <br> `≥ 3` Hits: `Str * 2` Bludgeoning; Knock your opponent [Prone](#prone) |
-| 0     | Shove                      | 2  | Opposed by [Strength](#strength-str) | `≤ 1` Hit: Push a target `1` Square. <br> `= 2` Hits: Push a target `2` Squares and take their place, if you desire. Does not provoke [Opportunity Attacks](#opportunity-Attacks). <br> `≥ 3` Hits: Push a target `1 + Str` Squares and take their place, if you desire. Does not provoke [Opportunity Attacks](#opportunity-Attacks). |
+| 0     | Shove                      | 2  | Opposed by [Strength](#strength-str) | `≤ 1` Hit: Push a target `1` Field. <br> `= 2` Hits: Push a target `2` Fields and take their place, if you desire. Does not provoke [Opportunity Attacks](#opportunity-Attacks). <br> `≥ 3` Hits: Push a target `1 + Str` Fields and take their place, if you desire. Does not provoke [Opportunity Attacks](#opportunity-Attacks). |
 | 1     | Grapple                    | 2  | Opposed by Unarmed Combat            | [Grapple](#grappled) a target. You can not use at least one hand for as long as you're grappling. <br> `≤ 1` Hit: The target is [Grappled](#grappled). <br> `= 2` Hits: The target is [Grappled](#grappled) and knocked [Prone](#prone) or disarmed, if possible. <br> `≥ 3` Hits: The target is [Grappled](#grappled), knocked [Prone](#prone) and disarmed, if possible. |
 | 3     | Be My Shield!              | 2  | /                                    | **Reaction**: If grappling an enemy and being hit with an Attack, make *them* take the hit, instead. The grappled enemy gets **no chance** to defend themself. |
 
 | Level | Heroic Act <br><img src="../../img/heroic-acts.svg" width="64px" height="64px"></img> | Heroic Act Momentum Shift | Heroic Act Description | Desperate Measure Description | Desperate Measure Momentum Shift | Desperate Measure <br><img src="../../img/desperate-measures.svg" width="64px" height="64px"></img> |
 | ----- | ------------------------------------------------------------------------------------- | ------------------------- | ---------------------- | ----------------------------- | -------------------------------- | --------------------------------------------------------------------------------------------------- |
-| 4     | Hammer and Anvil | `-15` | A PC may immediately Attack a foe, dealing `Strength` points of Bludgeoning Damage and Force-Moving the foe by `Strength` Squares. Adjacent allies may assist, each providing `+1` Square of movement. | A PC may immediately Attack an adjacent foe, dealing `Strength * 2` points of Bludgeoning Damage and force moving their foe by `Strength * 2` Squares, but also pushing themself in the opposite direction by the same distance. | `+15` | All Anvil |
+| 4     | Hammer and Anvil | `-15` | A PC may immediately Attack a foe, dealing `Strength` points of Bludgeoning Damage and Force-Moving the foe by `Strength` Fields. Adjacent allies may assist, each providing `+1` Field of movement. | A PC may immediately Attack an adjacent foe, dealing `Strength * 2` points of Bludgeoning Damage and force moving their foe by `Strength * 2` Fields, but also pushing themself in the opposite direction by the same distance. | `+15` | All Anvil |
 
 #### Weapon < Weapon-Family > (< Base Attributes >)
 Handling a weapon of a specific [Weapon-Family](#weapon-family). 
 
 Add Expertises to this Skill that define the available ways to use its respective weapon type. When doing so, keep in mind the normal structure for Damage-dealing Attacks, as outlined in [Attacking](#attacking). You may use the following as a template to define an [Attack's Profile](#damage--effects): `≤ 1` Hit: `X` Damage-Type <br> `= 2` Hits: `Y` Damage-Type <br> `≥ 3` Hits: `Z` Damage-Type<br>But also note that you are **not required** to add an Attack Profile to every Expertise! Some Expertises may have a constant, or simple effect, that doesn't require or benefit from gradings. 
 
-> For example: **Reaction**: Upon one of your allies attacking a foe, use the opportunity to move yourself `1` Square.
+> For example: **Reaction**: Upon one of your allies attacking a foe, use the opportunity to move yourself `1` Field.
 > 
 > This may be all you need. A grading would force you to add escalating effects, but perhaps it is well balanced, as it is. Adding gradings would threaten that balance. Or might simply be more bother to add than you care for at the moment, which is totally fine!
 
@@ -2893,7 +2893,7 @@ Speaking commands with booming authority.
 | 0     | Shake It Off!          | 2  | 2       | Remove another Character's [Exhausted](#exhausted) or [Terrified](#terrified) [Condition](#condition). |
 | 0     | Taunt                  | 2  | Opposed by [Self-Control](#self-control-toughwit) | <br> `≤ 1` Hit: Force a designated target to Attack *you* on their next Turn. <br> `= 2` Hits: Force a designated target to Attack *you* on their next Turn, at Ob `+1`. <br> `≥ 3` Hits: Force up to two designated targets to Attack *you* on their next Turn, at Ob `+1`. |
 | 1     | Hit That One!          | 1  |         | [Mark](#marked) a ST of choice. Moving your Mark to a different target, clears it from the previous one. |
-| 1     | Back Off, Fool!        | 1  | Opposed by [Toughness](#toughness-tough) | <br> `≤ 1` Hit: Force a designated target to back away from you for `1` Square. <br> `= 2` Hits: Force a designated target to back away from you for `2` Squares. <br> `≥ 3` Hits: Force up to two designated targets to back away from you for `2` Squares. |
+| 1     | Back Off, Fool!        | 1  | Opposed by [Toughness](#toughness-tough) | <br> `≤ 1` Hit: Force a designated target to back away from you for `1` Field. <br> `= 2` Hits: Force a designated target to back away from you for `2` Fields. <br> `≥ 3` Hits: Force up to two designated targets to back away from you for `2` Fields. |
 | 2     | Deep Lungs             |    | 2       | Once per Round, immediately grant yourself `+1` [AP](#action-points-ap), but suffer `-1` [Stamina](#stamina--strain). |
 
 ##### Commanding Specialization - Taskmaster
@@ -3032,7 +3032,7 @@ This Skill may also find use in forensics, to identify poisons or the type of we
 
 | Level | Heroic Act <br><img src="../../img/heroic-acts.svg" width="64px" height="64px"></img> | Heroic Act Momentum Shift | Heroic Act Description | Desperate Measure Description | Desperate Measure Momentum Shift | Desperate Measure <br><img src="../../img/desperate-measures.svg" width="64px" height="64px"></img> |
 | ----- | ------------------------------------------------------------------------------------- | ------------------------- | ---------------------- | ----------------------------- | -------------------------------- | --------------------------------------------------------------------------------------------------- |
-| 4     | Immediate Response | `-25` | **You** may immediately move up to `5` Squares and treat a chosen Character without needing [Medical Supplies](#general-assets) and without triggering [Opportunity Attacks](#opportunity-Attacks). You get `+1` [Edge](#edge) for the treatment attempt. This does not cost you any [AP](#action-points-ap). | **You** may immediately move up to `10` Squares and treat a chosen Character without needing [Medical Supplies](#general-assets) and without triggering [Opportunity Attacks](#opportunity-Attacks). You get `+2` [Edge](#edge) for the treatment attempt. This does not cost you any [AP](#action-points-ap). *However*, **you** suffer `+1` [Injury](#injury) *after* the treatment attempt. | `+15` | Panic Medic |
+| 4     | Immediate Response | `-25` | **You** may immediately move up to `5` Fields and treat a chosen Character without needing [Medical Supplies](#general-assets) and without triggering [Opportunity Attacks](#opportunity-Attacks). You get `+1` [Edge](#edge) for the treatment attempt. This does not cost you any [AP](#action-points-ap). | **You** may immediately move up to `10` Fields and treat a chosen Character without needing [Medical Supplies](#general-assets) and without triggering [Opportunity Attacks](#opportunity-Attacks). You get `+2` [Edge](#edge) for the treatment attempt. This does not cost you any [AP](#action-points-ap). *However*, **you** suffer `+1` [Injury](#injury) *after* the treatment attempt. | `+15` | Panic Medic |
 
 #### Surgery (Agi/Wit)
 The ability to invasively treat ailments without making things worse for the patient. 
@@ -3053,9 +3053,9 @@ This governs the understanding of what makes defensive structures effective and 
 
 | Level | Name                   | AP | Ob     | Description        |
 | ----- | ---------------------- | -- | ------ | ------------------ |
-| 0     | Blitz Stratagem        | 1  |        | If you have placed a Key Zone, turn it into a Zone of Mobility, replacing all its effects. You and all allies beginning their movement from within this zone may move an additional `6` Squares per [AP](#action-points-ap) spent. |
-| 0     | Breakthrough Stratagem | 1  |        | If you have placed a Key Zone, turn it into a Breakthrough Zone, replacing all its effects. All enemies inside the zone, who are Attacked, may also be [Force Moved](#forced-movement) back, by a number of Squares equal to your achieved Hits. |
-| 0     | Designate Key Zone     | 1  |        | **Concentration**: Designate a zone up to `4` Squares in radius, up to `15` Squares far away. If such a zone already exists, it may be moved, retaining its currents effects. You instruct your allies to get the most out of this area. Once you designate a type for it, they *will* know what to do. Effects from allies' zones do not stack with this one, if their zone is of the same type. |
+| 0     | Blitz Stratagem        | 1  |        | If you have placed a Key Zone, turn it into a Zone of Mobility, replacing all its effects. You and all allies beginning their movement from within this zone may move an additional `6` Fields per [AP](#action-points-ap) spent. |
+| 0     | Breakthrough Stratagem | 1  |        | If you have placed a Key Zone, turn it into a Breakthrough Zone, replacing all its effects. All enemies inside the zone, who are Attacked, may also be [Force Moved](#forced-movement) back, by a number of Fields equal to your achieved Hits. |
+| 0     | Designate Key Zone     | 1  |        | **Concentration**: Designate a zone up to `4` Fields in radius, up to `15` Fields far away. If such a zone already exists, it may be moved, retaining its currents effects. You instruct your allies to get the most out of this area. Once you designate a type for it, they *will* know what to do. Effects from allies' zones do not stack with this one, if their zone is of the same type. |
 | 1     | Killzone Stratagem     | 1  |        | If you have placed a Key Zone, turn it into a Killzone, replacing all its effects. All enemies inside the zone, who are Damaged immediately die if their [HP](#health-points-hp) are brought to `2 * your Toughness + Hits` or less. | / |
 | 1     | Trenchline Stratagem   | 1  |        | If you have placed a Key Zone, turn it into a Trenchline Zone, replacing all its effects. All [AoE](#area-of-effect-aoe) Damage that applies to you and/or your allies is reduced by `Hits * 3`. Also, your and your allies' [Stability](#stability-stabil) is increased by `+2` while in the zone. | / |
 | 2     | Fear Stratagem         | 1  |        | If you have placed a Key Zone, turn it into a Zone of Fear, replacing all its effects. All enemies inside this zone, who suffer Damage must succeed a [Self-Control](#self-control-toughwit) Test at Ob equal to your number of Hits, or else become [Terrified](#terrified) of you or your allies inside the zone. | / |
@@ -3063,7 +3063,7 @@ This governs the understanding of what makes defensive structures effective and 
 
 | Level | Heroic Act <br><img src="../../img/heroic-acts.svg" width="64px" height="64px"></img> | Heroic Act Momentum Shift | Heroic Act Description | Desperate Measure Description | Desperate Measure Momentum Shift | Desperate Measure <br><img src="../../img/desperate-measures.svg" width="64px" height="64px"></img> |
 | ----- | ------------------------------------------------------------------------------------- | ------------------------- | ---------------------- | ----------------------------- | -------------------------------- | --------------------------------------------------------------------------------------------------- |
-| 4     | Take and Hold! <br><img src="../../img/heroic-act_take-and-hold.svg" width="64px" height="64px"></img> | `-30` | Designate an area up to `5` Squares in diameter that lasts `3` Rounds. Any PC and ally inside this zone can make `1` free Defense Test and gains `+1` [Edge](#edge) for it. If such a zone already exists, it is replaced with the new one. Momentum gain clarification: the first Defense Test of a PC within the zone is **not** eligible to gain Momentum. | Designate an area up to `4` Squares in diameter. Until the end of combat, any PC and ally inside this zone receives `+1` [Edge](#edge) for every Defense Test and may freely [Counter-Attack](#counter-Attack) every Attack directed against them, up to `2` times per Round. But every PC and ally *outside* this zone suffers `+1` Ob for **every Test**. If such a zone already exists, it is replaced with the new one. Momentum gain clarification: Defense Tests inside the zone are **never** eligible to gain Momentum. | `+30` | Not A Step Back! <br><img src="../../img/desperate-measure_not-a-step-back.svg" width="64px" height="64px"></img> |
+| 4     | Take and Hold! <br><img src="../../img/heroic-act_take-and-hold.svg" width="64px" height="64px"></img> | `-30` | Designate an area up to `5` Fields in diameter that lasts `3` Rounds. Any PC and ally inside this zone can make `1` free Defense Test and gains `+1` [Edge](#edge) for it. If such a zone already exists, it is replaced with the new one. Momentum gain clarification: the first Defense Test of a PC within the zone is **not** eligible to gain Momentum. | Designate an area up to `4` Fields in diameter. Until the end of combat, any PC and ally inside this zone receives `+1` [Edge](#edge) for every Defense Test and may freely [Counter-Attack](#counter-Attack) every Attack directed against them, up to `2` times per Round. But every PC and ally *outside* this zone suffers `+1` Ob for **every Test**. If such a zone already exists, it is replaced with the new one. Momentum gain clarification: Defense Tests inside the zone are **never** eligible to gain Momentum. | `+30` | Not A Step Back! <br><img src="../../img/desperate-measure_not-a-step-back.svg" width="64px" height="64px"></img> |
 
 ### Artisan Skills
 All artisan Skills require a mix of physical and mental Attributes, for the purpose of creating a wide variety of things. Mechanically speaking, these are [Crafting](#projects) Skills.
@@ -3098,7 +3098,7 @@ The boons from meals do not stack. Eating a second meal will have it override al
 The following is a list of all [Character Traits](#character-traits) of the core rules. 
 
 ### Competitive Tosser
-You can throw objects `+4` Squares far and gain `+1` [Edge](#edge) for all [Throwing](#throwing) Tests.
+You can throw objects `+4` Fields far and gain `+1` [Edge](#edge) for all [Throwing](#throwing) Tests.
 
 ### Dual Wielder
 Gain the ability to effectively use two weapons at the same time. When making successful Attacks with one weapon, add half (RU) of the other's Damage to Attacks and gain `+1D` for Defense Tests made.
@@ -3116,7 +3116,7 @@ Gain the ability to re-direct a Forced-Movement onto an adjacent Character, at t
 Whether naturally tough-skinned or artificially enhanced, your hide proves especially resistant against a chosen [type of Damage](#damage-types), with `+3` points of armor. 
 
 ### Long Arms
-All your Melee Attacks can be used against targets up to two Squares away. You effectively implicitly gain the [Long Reach Weapon Trait](#foundational-weapon-traits) for all Attacks.
+All your Melee Attacks can be used against targets up to two Fields away. You effectively implicitly gain the [Long Reach Weapon Trait](#foundational-weapon-traits) for all Attacks.
 
 ### Productive
 Whenever you Craft Assets, you produce twice as many.
@@ -3139,7 +3139,7 @@ Increases [Stability](#stability-stabil) by `+2`.
 ### Steady Aim
 [Ranged](#ranged) penalties begin one Distance Increment later. 
 
-> Ranged: `10` -> Instead of suffering `+1` Ob at the `11`th Square, you instead suffer it at the `21`st Square!
+> Ranged: `10` -> Instead of suffering `+1` Ob at the `11`th Field, you instead suffer it at the `21`st Field!
 
 ### Slippery
 [Grappling](#grappled) you is `+1` Ob harder and you receive `+1` Edge for Tests to break free from being Grappled.
@@ -3159,7 +3159,7 @@ Adds the following Expertises to [Acrobatics](#acrobatics-agistr):
 
 | Name                 | AP | Ob          | Description        |
 | -------------------- | -- | ----------- | ------------------ |
-| Vault & Jab          | 2  | Opposed - 1 | Vault over an enemy, placing yourself directly behind them, launch a free Attack against them and push them away... <br> `≤ 1` Hit: `1` Square. <br> `= 2` Hits: `2` Squares. <br> `≥ 3` Hits: `3` Squares. |
+| Vault & Jab          | 2  | Opposed - 1 | Vault over an enemy, placing yourself directly behind them, launch a free Attack against them and push them away... <br> `≤ 1` Hit: `1` Field. <br> `= 2` Hits: `2` Fields. <br> `≥ 3` Hits: `3` Fields. |
 | Bounce Back          | /  | /           | **Reaction**: When knocked down immediately get back up, at no [AP](#action-points-ap) cost. You must not be wearing armor. Can only be used once per Round. |
 | Area Evasion         | 1  | 1           | **Reaction**: Suffer... <br> `≤ 1` Hit: `2` fewer points of AoE Damage. <br> `= 2` Hits: `4` fewer points of AoE Damage. <br> `≥ 3` Hits: `6` fewer points of AoE Damage. |
 | Shield Breaker       | /  | /           | **Passive**: You know to exploit the lethargy of shields and can circumvent their defensive bonuses. Against you, shields always count as `+1` degree of [Flanked](#flanking)! |
@@ -3317,7 +3317,7 @@ A **Drug-Addicted** Character must take their drug once every day, or else enter
 ### Electrified
 <img src="../../img/health-condition-electrified.svg" style="width: 3rem; height: 3rem;"></img>
 
-An **Electrified** Character spasms, uncontrollably. They are force-moved in a [random direction](#random-direction) by `1` Square, which may trigger [Opportunity Attacks](#opportunity-Attacks). 
+An **Electrified** Character spasms, uncontrollably. They are force-moved in a [random direction](#random-direction) by `1` Field, which may trigger [Opportunity Attacks](#opportunity-Attacks). 
 
 * Automatic Shrug-Off: At the end of the Turn. 
 
@@ -3439,7 +3439,7 @@ See also [Illness](#illness).
 
 | Range D100 | Name              | Description                    | Treatment Skill                |
 | ---------- | ----------------- | ------------------------------ | ------------------------------ |
-| 1 - 8      | Strength Sap      | The muscles atrophy, despite any physical exercise. If not treated quickly, the victim will quickly find themselves unable to move, at all. `-1D4` [Strength](#strength-str); Max. `2` Squares movement. | [Medicine](#medicine-agiwit) Ob `1D4`; Reduces the duration by `2D4`. |
+| 1 - 8      | Strength Sap      | The muscles atrophy, despite any physical exercise. If not treated quickly, the victim will quickly find themselves unable to move, at all. `-1D4` [Strength](#strength-str); Max. `2` Fields movement. | [Medicine](#medicine-agiwit) Ob `1D4`; Reduces the duration by `2D4`. |
 | 9 - 16     | Lung Fever        | The victim finds themselves easily winded, even by simple acts, such as walking to the privy at night. `-(1D4 + 1)` [Toughness](#toughness-tough). | [Medicine](#medicine-agiwit) Ob `1`; The ill-effects are suspended for `24` hours. |
 | 17 - 24    | Water's Curse     | The victim sweats uncontrollably and has watery stools, thus dehydrating rapidly and losing consciousness frequently. `-1D4` [Toughness](#toughness-tough); [Exhausted](#exhausted). | [Medicine](#medicine-agiwit) Ob `1D4`; Reduces the duration by `1D10` and suspends the ill-effects for `24` hours. |
 | 25 - 32    | Jazz-Hands        | The victim can't stop the tremors in their arms. Any action requiring precise movements is impossible. `-1D4` [Agility](#agility-agi). | [Medicine](#medicine-agiwit) Ob `1`; The ill-effects are suspended for `24` hours. |
@@ -3892,7 +3892,7 @@ Every time a Squad acts, members may be skipped (i. e. they do nothing), if reas
 When a Squad spends AP to move, **all** members of the Squad get to move, at the same time. And they **must** try and maintain [Cohesion](#squad-cohesion). These movements *can* trigger [Opportunity Attacks](#opportunity-Attacks), which will halt only those members who were Opportunity Attacked. 
 
 ##### Squad Cohesion
-It is imperative that all members of the Squad form a single, cohesive group wherein every member must be within a distance of at most `3` Squares to at least one other member. If any members should leave the group, for example because their nearest peer was killed or they were force-moved away, then the next time the Squad acts, these members must try and move closer towards the Squad, until they reform its **Cohesion**, as a **single** group. 
+It is imperative that all members of the Squad form a single, cohesive group wherein every member must be within a distance of at most `3` Fields to at least one other member. If any members should leave the group, for example because their nearest peer was killed or they were force-moved away, then the next time the Squad acts, these members must try and move closer towards the Squad, until they reform its **Cohesion**, as a **single** group. 
 
 That means when a Squad spends AP do anything else than move, for example to Attack, only some of the members will be Attacking, and the other will instead move towards their peers to reform Cohesion. They cannot participate in the Attack, but their movement also doesn't cost any extra AP. They may only move as far as the AP that were actually spent would get them, and this movement can provoke Opportunity Attacks, which *can* halt them. If they have been halted, their priority to re-group remains the same, the next time the Squad acts. Restoring Cohesion does **not** override normal movement rules! Difficult and impassable terrain still apply. 
 
@@ -3927,7 +3927,7 @@ In case the Defense is successful, the Attack is entirely negated, as usual.
 A Squad may or may not have an assigned Captain. The Squad will follow the Captain and treat it as part of the Squad in terms of [Cohesion](#squad-cohesion). A Squad Captain is treated as a separate entity. It does not share the HP, Stamina or AP pools. However, the Captain and their Squad will always act at the same time. For purposes of tracking the Initiative Order, you may use the Captain as the tracker for the Squad. 
 
 A Squad with an attached Captain enjoys one of the following benefits for you to choose from when you create the Squad:
-* **Spurred**: All members of the Squad may move an additional `2` Squares for every AP spent. 
+* **Spurred**: All members of the Squad may move an additional `2` Fields for every AP spent. 
 * **Hardened**: The Squad starts with an additional `10` Temporary HP. 
 * **Drilled**: The Squad's Stamina pool has `+6` points.
 * **Hastened**: The Squad receives `+1` AP at the start of its Turn, up to the normal limit. 
@@ -4064,10 +4064,10 @@ However, you are not limited to creating balanced creatures. You can also design
 These Traits can change up how a creature may engage the PCs, may allow them to circumvent hazards, quickly flee an encounter or reposition around the PCs. 
 
 #### Burrower (-2 points; +2 CR)
-The creature can burrow, moving up to `2` Squares, at a depth of up to `3` Squares, per AP spent. While burrowed, it cannot be targeted or make Attacks. 
+The creature can burrow, moving up to `2` Fields, at a depth of up to `3` Fields, per AP spent. While burrowed, it cannot be targeted or make Attacks. 
 
 Additions:
-* `-N` points: Can burrow an additional `N * 2` Squares, per AP spent. 
+* `-N` points: Can burrow an additional `N * 2` Fields, per AP spent. 
 
 #### Climber (-2 points; +1 CR)
 The creature is a natural climber, and can move at full speed while climbing, without Tests required. But this only applies to easily climbable surfaces that provide some actual grip, like a tree's bark, a rough cliff face or rope. It cannot climb perfectly flat surfaces or 
@@ -4076,10 +4076,10 @@ Additions:
 * `-1` point: **Sticky**: The creature can cling to any surface, without restriction. 
 
 #### Fast (-2 points; +1 CR)
-This creature moves an additional `+2` Squares, per AP spent. Exclusive with [Shambler](#shambler-2-points). 
+This creature moves an additional `+2` Fields, per AP spent. Exclusive with [Shambler](#shambler-2-points). 
 
 Additions:
-* `-N` points: Can move an additional `N * 2` Squares per AP spent. 
+* `-N` points: Can move an additional `N * 2` Fields per AP spent. 
 
 #### Glider (-1 points; +1 CR)
 The creature can glide at its normal movement speed, but only from higher to lower elevation. It does not suffer Damage from falling. 
@@ -4089,7 +4089,7 @@ Additions:
 * `-3` point: **Flyer**: Can move at full speed mid-air, as far and as long as it wants and at any elevation. 
 
 #### Leaper (-3 points; +2 CR)
-The creature can jump up to `6` Squares far, in a high arc, without provoking [Attacks of Opportunity](#opportunity-Attacks), over the heads of its foes. This costs `-1` [AP](./strive-core.md#action-points-ap) and `-1` [Stamina](#stamina--strain). 
+The creature can jump up to `6` Fields far, in a high arc, without provoking [Attacks of Opportunity](#opportunity-Attacks), over the heads of its foes. This costs `-1` [AP](./strive-core.md#action-points-ap) and `-1` [Stamina](#stamina--strain). 
 
 Additions:
 * `-2` points: **Dervish**: When leaping over opponents, this creature may also launch free Attacks against each of them, but with Ob `+1`.
@@ -4099,7 +4099,7 @@ The creature is at home in the water. They can move at full speed while swimming
 
 Additions:
 * `-1` point: **Aquatic**: The creature can breathe underwater. 
-* `-1` point: In one massive burst of energy, the creature may lunge out of the water, travelling up to `10` Squares. 
+* `-1` point: In one massive burst of energy, the creature may lunge out of the water, travelling up to `10` Fields. 
 
 ### Defensive Traits
 These Traits help a creature survive longer or at least deter certain forms of Attack against it. 
@@ -4122,7 +4122,7 @@ All melee Attackers against this creature suffer `6` points of a chosen type of 
 #### Death Rattle (-2 points; +2 CR)
 Upon dying, the creature can invoke one of the following effects (you must choose one now):
 * **Explode**: Cause Damage to all adjacent creatures. Choose one: `2D6 + 2 Slashing`, `2D6 Piercing`, or `2D4` of any other Damage type. 
-* **Terrifying** Screech: All foes in a `10` Square AoE radius around the creature must succeed a [Self-Control](#self-control-toughwit) Test at Ob `3`, or else become [Terrified](strive-core.md#terrified) for one Round. 
+* **Terrifying** Screech: All foes in a `10` Field AoE radius around the creature must succeed a [Self-Control](#self-control-toughwit) Test at Ob `3`, or else become [Terrified](strive-core.md#terrified) for one Round. 
 * **Reprisal**: Move up to `8` and launch a final, desperate and free Attack against a foe, with Ob `-1`. 
 * **Splitter**: Split into two halves, which each reform to a whole shape. They retain half of your Attributes and half your maximum HP and with current HP set to their new maximum. This split can only occur once. 
 
@@ -4159,7 +4159,7 @@ The first Damage this creature deals on another that can contract diseases, will
 Suitable for: Any type of undead, rats and swamp creatures.
 
 #### Forceful (-2 points; +1 CR)
-Attacks that cause [Forced Movement](#forced-movement), have increased moving-distance by `+2` Squares. 
+Attacks that cause [Forced Movement](#forced-movement), have increased moving-distance by `+2` Fields. 
 
 #### Poisoner (-4 points; +2 CR)
 Successful Attacks deal an additional `6` points of poison Damage. 
@@ -4171,10 +4171,10 @@ These Traits grant a creature weaknesses that make it easier to defeat.
 If thrown in the water, the creature will drop like a rock. If it can drown, it will, unless rescued from such a horrible demise. Exclusive with [Swimmer](#swimmer--2-points)
 
 #### Light-weight (+2 points; -1 CR)
-The creature is easier to force move and can be pushed an additional `2` Squares per instance of being moved. 
+The creature is easier to force move and can be pushed an additional `2` Fields per instance of being moved. 
 
 #### Shambler (+2 points; -2 CR)
-The creature lacks finer motor skill and can move at most `2` Squares per AP spent. Exclusive with [Fast](#fast--2-points). 
+The creature lacks finer motor skill and can move at most `2` Fields per AP spent. Exclusive with [Fast](#fast--2-points). 
 
 Suitable for: Zombies, heavy robots, primitive armored vehicles (e.g. very early tanks)
 
@@ -4211,7 +4211,7 @@ Suitable for: Creatures that would *break* and be uninteresting to deal with, if
 #### Moon Affinity (-7 points; +4 CR)
 When basking in a full moon, the creature regains `6` HP at the start of its Turn and all its Attacks deal an additional `+4` points of Pure Damage.
 
-Gain the ability: **Moon Step**: At the cost of `1` AP, the creature can vanish into the moon light and re-appear in a spot also basked in moon light, up to `15` Squares away. It does not need line of sight to that spot. 
+Gain the ability: **Moon Step**: At the cost of `1` AP, the creature can vanish into the moon light and re-appear in a spot also basked in moon light, up to `15` Fields away. It does not need line of sight to that spot. 
 
 Suitable for: Creatures of the night, such as werewolves, vampires and ghosts. 
 
@@ -4242,39 +4242,39 @@ Bite a target for `1D4 + Strength` points of piercing Damage.
 Create a sticky, adhesive surface within hand's reach. This surface now counts as [Difficult Terrain](strive-core.md#combat-movement). Objects can also be stuck to this surface and require `2` AP to break loose.
 
 ### Charge (Str/Tough)
-Run at a target, up to `4` Squares away and slam into them with your body, dealing `Toughness` points of Damage and knocking your opponent back by `Strength` Squares. 
+Run at a target, up to `4` Fields away and slam into them with your body, dealing `Toughness` points of Damage and knocking your opponent back by `Strength` Fields. 
 
 ### Obscure Vision (Awar/Tough)
-Kick up dust, spray a cloud of ink or spew spores that heavily obscure vision, in a `3` Square AoE radius around you. All ranged Attacks within or through the area suffer `+2` Ob. 
+Kick up dust, spray a cloud of ink or spew spores that heavily obscure vision, in a `3` Field AoE radius around you. All ranged Attacks within or through the area suffer `+2` Ob. 
 
 ## General Hostility Actions
 The following Hostility Actions are a general offering for you to pick and choose from, as you deem fit for a combat encounter. You are free to invent your own, with these as a reference and STRIVE Modules may also offer more of these. 
 
 ### Advance! (-4 points; +2 CR)
-**`-3` Hostility**: The creature and up to `3` of its allies may immediately and freely move up to `5` Squares far. These movements may provoke [Opportunity Attacks](#opportunity-Attacks)!
+**`-3` Hostility**: The creature and up to `3` of its allies may immediately and freely move up to `5` Fields far. These movements may provoke [Opportunity Attacks](#opportunity-Attacks)!
 
 ### Collect Bounty (-4 points; +3 CR)
-**`-5` Hostility**: The creature moves up to `10` Squares and makes an immediate and free Attack against a chosen foe. Until the end of combat, or until a new victim is chosen with this ability, that foe is [Marked](strive-core.md#marked)!
+**`-5` Hostility**: The creature moves up to `10` Fields and makes an immediate and free Attack against a chosen foe. Until the end of combat, or until a new victim is chosen with this ability, that foe is [Marked](strive-core.md#marked)!
 
 ### Enraged (-5 points; +2 CR)
 **`-8` Hostility**: The creature immediately becomes [Berserked](strive-core.md#berserk) and deals an additional `5` points of Bludgeoning Damage on all their Attacks, until the end of the Round. 
 
 ### Get Off Me! (-5 points; +3 CR)
-**`-5` Hostility**: The creature pushes back all other, adjacent creatures by `3` Squares. 
+**`-5` Hostility**: The creature pushes back all other, adjacent creatures by `3` Fields. 
 
 ### Resonance Cascade (-4 points; +2 CR)
-**`-5` Hostility**: The creature and its allies begin to hum or thrum in the same cadence, as if one, with dizzying intensity. All other creatures, within a distance of `10` Squares to any of the resonating ones, lose `-1` AP!
+**`-5` Hostility**: The creature and its allies begin to hum or thrum in the same cadence, as if one, with dizzying intensity. All other creatures, within a distance of `10` Fields to any of the resonating ones, lose `-1` AP!
 
 Suitable for: Any creature that could reasonably emit such a thrumming sound, such as bats, frogs or machines
 
 ### Slip Away (-5 points; +3 CR)
-**`-5` Hostility**: When a foe moves into a space adjacent to this creature, as a Reaction, it may immediately move away, for up to `5` Squares, without provoking [Opportunity Attacks](strive-core.md#opportunity-Attacks)!
+**`-5` Hostility**: When a foe moves into a space adjacent to this creature, as a Reaction, it may immediately move away, for up to `5` Fields, without provoking [Opportunity Attacks](strive-core.md#opportunity-Attacks)!
 
 ### Sinkhole (-8 points; +2 CR)
-**`-8` Hostility**: The ground gives and in a `5` Square AoE radius around the creature, drops by `5` Squares. All creatures with `Stability ≤ 2` are covered by earth, become [Prone](strive-core.md#prone) and suffer `6` points of Bludgeoning Damage. All creatures with `Stability ≤ 3` become [Prone](strive-core.md#prone). 
+**`-8` Hostility**: The ground gives and in a `5` Field AoE radius around the creature, drops by `5` Fields. All creatures with `Stability ≤ 2` are covered by earth, become [Prone](strive-core.md#prone) and suffer `6` points of Bludgeoning Damage. All creatures with `Stability ≤ 3` become [Prone](strive-core.md#prone). 
 
 ### Trap Storm (-4 points; +3 CR)
-**`-8` Hostility**: The creature throws or lays or spews forth `3` traps, up to `10` Squares far, that now litter the battlefield. Each of these will deal `6` points of Damage. The Damage type should be chosen according to the nature of the traps. E. g. piercing for bear traps, acid for pools of acid, burning for bombs and so on. 
+**`-8` Hostility**: The creature throws or lays or spews forth `3` traps, up to `10` Fields far, that now litter the battlefield. Each of these will deal `6` points of Damage. The Damage type should be chosen according to the nature of the traps. E. g. piercing for bear traps, acid for pools of acid, burning for bombs and so on. 
 
 ### I Don't Bleed (-5 points; +6 CR)
 **`-10` Hostility**: Immediately clears all points of [Bleeding](#bleeding), [Burning](#burning) and [Frostbitten](strive-core.md#frostbitten) and awards `+10` Temporary HP. 
