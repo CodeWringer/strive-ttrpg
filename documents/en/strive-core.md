@@ -584,7 +584,7 @@ As STRIVE is meant primarily as a rule-book to help you quickly find what you ne
 | [Basic Action](#action-points-ap)                           | Any Action not requiring a Test, such as normal movement. |
 | [Berserk](#berserk)                                         | A Condition that forces a Character to Attack anyone they can see, including allies. |
 | [Binary Test](#binary-test)                                 | A Test that allows no room for failure. |
-| [Bleeding](#bleeding)                                       | A Condition that causes Bleeding Damage every Tick. |
+| [Bleeding](#bleeding)                                       | A Condition that causes Pure Damage every Tick. |
 | [Boon](#boons--penalties)                                   | A positive effect on a Character, for example one that grants Edge or which awards Temporary HP. |
 | [Brief](#quarters-of-a-day-qod)                             | A Brief activity takes only minutes. Many of these can happen in a [QoD](#quarters-of-a-day-qod), without advancing it meaningfully.  |
 | [Bulk](#bulk)                                               | Describes the weight, size and ease of use of an Asset. |
@@ -716,7 +716,7 @@ As STRIVE is meant primarily as a rule-book to help you quickly find what you ne
 | [Round](#initiative-order)                                  | A Round comprises all Turns of Characters currently in Initiative Order. When all Characters have had their Turn, a Round is concluded and the next Round begun. |
 | [Rounded Down (RD)](#rounded-up--rounded-down)              | Indicates a step or result of a calculation is supposed to be rounded down. |
 | [Rounded Up (RU)](#rounded-up--rounded-down)                | Indicates a step or result of a calculation is supposed to be rounded up. |
-| [Serrated](#serrated)                                       | A Weapon Trait that indicates a weapon deals additional Bleeding Damage. |
+| [Serrated](#offensive-weapon-traits)                        | A Weapon Trait that indicates a weapon causes additional Bleeding. |
 | [Signature Virtues / Vices](#virtues--vices)                | Describes a Character's way of thinking and how they *will* act, in general. In fact, they are *known* to be this way! |
 | [Single Target (ST)](#single-target-st)                     | Indicates an Attack will only affect a single target. This can be a Character or object. |
 | [Skill Forking](#skill-forking)                             | Allows you to benefit from varied knowledge. You can Fork related Skills into a Test, if you can reasonably explain their use. |
@@ -724,7 +724,7 @@ As STRIVE is meant primarily as a rule-book to help you quickly find what you ne
 | [Slow Reload](#foundational-weapon-traits)                  | A Weapon Trait that for a weapon that must be reloaded after every use, at the cost of AP. |
 | [Solid Success](#test-success-ratings)                      | A strong success of a Test. |
 | [Sprinting Speed / Sprint](#sprinting-speed-sprint)         | Can extend a Character's movement per AP, at the cost of Stamina. |
-| [Field](#distances--the-grid)                              | A single field of an encounter/battle map representing an area `1m`/`3'` in diameter. |
+| [Field](#distances--the-grid)                               | A single field of an encounter/battle map representing an area `1m`/`3'` in diameter. |
 | [Stability (Stab)](#stability-stabil)                       | Counter-acts Forced Movement. |
 | [Stamina](#stamina--strain)                                 | Stamina is a numeric resource that lets a Character endure physical and mental taxation. |
 | [Stepped Test](#stepped-test)                               | A Test that allows failing forward or offers multiple chances at recovery from a critical blunder. |
@@ -1555,7 +1555,6 @@ All Damage is inflicted with one of these types, which dictate the type of [Inju
 | Damage Type | Description                                                            | Treatment Skill              | Additional Penalty                          |
 | ----------- | ---------------------------------------------------------------------- | ---------------------------- | ------------------------------------------- |
 | Acid        | Dissolves anything it touches, depending on circumstance.              | [Medicine](#medicine-agiwit) | `-1` [AP](#action-points-ap) per Turn       |
-| Bleeding    | Inflicted by [Bleeding](#bleeding). The result of open wounds.         | [Medicine](#medicine-agiwit) | `+1` [Bleeding](#bleeding)                  |
 | Bludgeoning | Inflicted by blunt weapons and [Unarmed](#unarmed-combat-agistr) Attacks. Can cause a Character to fall [Unconscious](#unconscious), for that, see [Bludgeoned To 0 Hp](#bludgeoned-to-0-hp). | [Surgery](#surgery-agiwit)   | `+1` [Strain](#strain)           |
 | Burning     | Inflicted by extreme heat.                                             | [Surgery](#surgery-agiwit)   | `+1` [Immolated](#immolated)                |
 | Electrical  | Inflicted by eletrical shock.                                          | [Medicine](#medicine-agiwit) | `+1` [Electrified](#electrified)            |
@@ -1776,7 +1775,7 @@ These Weapon Traits modify an [Attack's Profile](#damage--effects) in a particul
 
 | Legendary Weapon Traits   | Description                                                                                   | 
 | ------------------------- | --------------------------------------------------------------------------------------------- |
-| **Cruel**                 | A Solid Hit or better with this weapon deals an additional `Q * 2` Bleeding Damage if the victim has at least one Injury. |
+| **Cruel**                 | A Solid Hit or better with this weapon deals an additional `Q * 2` Slashing Damage if the victim has at least one Injury. |
 | **Deflecting**            | This weapon is especially good at turning Attacks aside. When you use this weapon in a Defense Test and succeed, you may [Knock-Back](#forced-movement) the Attacker by `Q` Fields. |
 | **Foolproof**             | The first successful Attack each Round is treated as one Damage grade higher. I.e. Glancing -> Solid; Solid -> Masterful|
 | **Relentless**            | Once per Round, when an Attack with this weapon is successful, you may make one additional free Attack, with Ob `+2`. |
@@ -3084,7 +3083,7 @@ The ability to cook hearty and sweet meals that can strengthen and invigorate.
     * Grant `QD4` [Temporary HP](#temporary-health-points). 
     * Increase [Base Initiative](#base-initiative-bi) by `Q`. 
     * Increase [Strength](#strength-str) or [Toughness](#toughness-tough) by `Q / 2 (RU)`. 
-    * Resist `Q` [Freezing](#damage-types) or [Burning](#damage-types) or [Bleeding](#damage-types) Damage. 
+    * Resist `Q` [Freezing](#damage-types) or [Burning](#damage-types) Damage. 
 
 The boons from meals do not stack. Eating a second meal will have it override all of a previous meal's boons. The strength of boons is determined at the time of creation and are the same for all Characters who share in the meal. 
 
@@ -3275,7 +3274,7 @@ Adjacent allies can also help pat out the flames, by spending an [AP](#action-po
 ### Bleeding
 <img src="../../img/health-condition-bleeding.svg" style="width: 3rem; height: 3rem;"></img>
 
-For every point in the **Bleeding** Condition, a Character suffers `2` points of [Bleeding](#damage-types) Damage every [Tick](#ticks). 
+For every point in the **Bleeding** Condition, a Character suffers `2` points of [Pure](#damage-types) Damage every [Tick](#ticks). 
 
 * Graded
 * Shrug Off: `-2` points with a [Toughness](#toughness-tough) [Test](#tests) with Ob `1`. 
