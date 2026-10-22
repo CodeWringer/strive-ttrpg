@@ -3429,6 +3429,7 @@ A **Terrified** Character **must** flee from whatever it is that terrified them,
 An **Unconscious** Character is unable to act and is mostly unaware of their surroundings. 
 
 * Immediate Cancel: If the Character is woken up through external stimulus. 
+* Shrug Off: Ob `2` Test of Awareness.
 * Difficult Repeats: Whenever shrugging off this Condition, you become **guarded** against it until the start of your next Turn, making any Attack or effect enacted against you that would cause you to suffer it again `+1` Ob harder for your foes. 
 
 ## List of Illnesses
