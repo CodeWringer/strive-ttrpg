@@ -892,7 +892,7 @@ Steering and maintaining a naval vessel.
 #### Weapon \<Axe\> (Str/Str)
 Skill for [Axe](#axe) type weapons, both one and two-handed. A straight-forward solution to your problems, that combines cutting and impact force and can viciously bleed your enemies. 
 
-Traits: [Melee](./strive-core.md#foundational-weapon-traits), [FS](./strive-core.md#free-strike-fs): `2` Slashing + `2` Bludgeoning
+Traits: [Melee](./strive-core.md#foundational-weapon-traits)
 
 | Level | Name                 | AP | Ob          | Description <br> Damage                   |
 | ----- | -------------------- | -- | ----------- | ----------------------------------------- |
@@ -903,7 +903,7 @@ Traits: [Melee](./strive-core.md#foundational-weapon-traits), [FS](./strive-core
 #### Weapon \<Light Blade\> (Agi/Str)
 Skill for any [Light Blade](#light-blade) type weapons, such as daggers and one-handed swords. Versatile, but best used against inconvenienced foes, with an emphasis on Piercing Damage. 
 
-Traits: [Melee](./strive-core.md#foundational-weapon-traits), [FS](./strive-core.md#free-strike-fs): `3` Piercing
+Traits: [Melee](./strive-core.md#foundational-weapon-traits)
 
 | Level | Name                 | AP | Ob          | Description <br> Damage                   |
 | ----- | -------------------- | -- | ----------- | ----------------------------------------- |
@@ -916,7 +916,7 @@ Traits: [Melee](./strive-core.md#foundational-weapon-traits), [FS](./strive-core
 #### Weapon \<Long Blade\> (Agi/Str)
 Skill for any [Long Blade](#long-blade) type weapons, such as longswords and great-swords. Versatile and powerful with an emphasis on Slashing Damage. 
 
-Traits: [Melee](./strive-core.md#foundational-weapon-traits), [Long Reach](./strive-core.md#general-weapon-traits), [FS](./strive-core.md#free-strike-fs): `3` Slashing
+Traits: [Melee](./strive-core.md#foundational-weapon-traits), [Long Reach](./strive-core.md#general-weapon-traits)
 
 | Level | Name                 | AP | Ob          | Description <br> Damage                   |
 | ----- | -------------------- | -- | ----------- | ----------------------------------------- |
@@ -929,7 +929,7 @@ Traits: [Melee](./strive-core.md#foundational-weapon-traits), [Long Reach](./str
 #### Weapon \<Chained Blade\> (Agi/Agi)
 Skill for [Chained Blade](#chained-blade) type weapons, an exotic and fantastical weapon type that uses an angled blade at the end of a light chain. A very versatile weapon that can move yourself and foes around and support an ally's Attacks. 
 
-Traits: [Melee](./strive-core.md#foundational-weapon-traits), [Ranged (max. `8`)](./strive-core.md#foundational-weapon-traits), [Prefer Range](./strive-core.md#general-weapon-traits), [FS](./strive-core.md#free-strike-fs): `4` Slashing
+Traits: [Melee](./strive-core.md#foundational-weapon-traits), [Ranged (max. `8`)](./strive-core.md#foundational-weapon-traits), [Prefer Range](./strive-core.md#general-weapon-traits)
 
 | Level | Name                 | AP | Ob          | Description <br> Damage                   |
 | ----- | -------------------- | -- | ----------- | ----------------------------------------- |
@@ -941,7 +941,7 @@ Traits: [Melee](./strive-core.md#foundational-weapon-traits), [Ranged (max. `8`)
 #### Weapon \<Crusher\> (Str/Tough)
 Skill for [Crusher](#crusher) type weapons, with a dedicated *impact zone*, such as clubs and maces. Benefits from your Strength and is good for tiring out foes. 
 
-Traits: [Melee](./strive-core.md#foundational-weapon-traits), [FS](./strive-core.md#free-strike-fs): `4` Bludgeoning
+Traits: [Melee](./strive-core.md#foundational-weapon-traits)
 
 | Level | Name                 | AP | Ob          | Description <br> Damage                   |
 | ----- | -------------------- | -- | ----------- | ----------------------------------------- |
@@ -952,7 +952,7 @@ Traits: [Melee](./strive-core.md#foundational-weapon-traits), [FS](./strive-core
 #### Weapon \<Polearm\> (Str/Tough)
 Skill for [Polearm](#polearm) type weapons, like halberds, voulges, bardiches and pollaxes. An ideal support weapon, that can be used from the back-row. 
 
-Traits: [Melee](./strive-core.md#foundational-weapon-traits), [Long Reach](./strive-core.md#general-weapon-traits), [Prefer Range](./strive-core.md#general-weapon-traits), [FS](./strive-core.md#free-strike-fs): `3` Piercing
+Traits: [Melee](./strive-core.md#foundational-weapon-traits), [Long Reach](./strive-core.md#general-weapon-traits), [Prefer Range](./strive-core.md#general-weapon-traits)
 
 | Level | Name                 | AP | Ob          | Description <br> Damage                   |
 | ----- | -------------------- | -- | ----------- | ----------------------------------------- |
@@ -965,7 +965,7 @@ Traits: [Melee](./strive-core.md#foundational-weapon-traits), [Long Reach](./str
 #### Weapon \<Short-Bow\> (Agi/Awar)
 Skill for [Short-Bow](#short-bow) type weapons. Versatile, but light on Damage. 
 
-Traits: [Ranged (10 DI)](./strive-core.md#foundational-weapon-traits), [Range Only](./strive-core.md#general-weapon-traits), [FS](./strive-core.md#free-strike-fs): `3` Piercing
+Traits: [Ranged (10 DI)](./strive-core.md#foundational-weapon-traits), [Range Only](./strive-core.md#general-weapon-traits)
 
 | Level | Name                 | AP | Ob          | Description <br> Damage                   |
 | ----- | -------------------- | -- | ----------- | ----------------------------------------- |
@@ -976,7 +976,7 @@ Traits: [Ranged (10 DI)](./strive-core.md#foundational-weapon-traits), [Range On
 #### Weapon \<Longbow\> (Awar/Str)
 Skill for [Longbow](#longbow) type weapons. Great Damage, but no utility. 
 
-Traits: [Ranged (20 DI)](./strive-core.md#foundational-weapon-traits), [Range Only](./strive-core.md#general-weapon-traits), [FS](./strive-core.md#free-strike-fs): `4` Piercing
+Traits: [Ranged (20 DI)](./strive-core.md#foundational-weapon-traits), [Range Only](./strive-core.md#general-weapon-traits)
 
 | Level | Name                 | AP | Ob          | Description <br> Damage                   |
 | ----- | -------------------- | -- | ----------- | ----------------------------------------- |
@@ -986,7 +986,7 @@ Traits: [Ranged (20 DI)](./strive-core.md#foundational-weapon-traits), [Range On
 #### Weapon \<Crossbow\> (Awar/Awar)
 Skill for [Crossbow](#crossbow) type weapons. Deadly, but slow to reload and without any utility. 
 
-Traits: [Ranged (15 DI)](./strive-core.md#foundational-weapon-traits), [Prefer Range](./strive-core.md#general-weapon-traits), [Slow Reload](./strive-core.md#general-weapon-traits), [FS](./strive-core.md#free-strike-fs): `5` Piercing
+Traits: [Ranged (15 DI)](./strive-core.md#foundational-weapon-traits), [Prefer Range](./strive-core.md#general-weapon-traits), [Slow Reload](./strive-core.md#general-weapon-traits)
 
 | Level | Name                 | AP | Ob          | Description <br> Damage                   |
 | ----- | -------------------- | -- | ----------- | ----------------------------------------- |
@@ -995,7 +995,7 @@ Traits: [Ranged (15 DI)](./strive-core.md#foundational-weapon-traits), [Prefer R
 #### Weapon \<Firearm\> (Awar/Tough)
 Skill for [Firearm](#firearm) type weapons. It takes great discipline to not flinch at the sparks and smoke upon ignition. Very deadly, but also very slow to reload and without any utility. 
 
-Traits: [Ranged (10 DI)](./strive-core.md#foundational-weapon-traits), [Prefer Range](./strive-core.md#general-weapon-traits), [Very Slow Reload](./strive-core.md#general-weapon-traits), [FS](./strive-core.md#free-strike-fs): `8` Piercing
+Traits: [Ranged (10 DI)](./strive-core.md#foundational-weapon-traits), [Prefer Range](./strive-core.md#general-weapon-traits), [Very Slow Reload](./strive-core.md#general-weapon-traits)
 
 | Level | Name                 | AP | Ob          | Description <br> Damage                   |
 | ----- | -------------------- | -- | ----------- | ----------------------------------------- |
@@ -1903,9 +1903,9 @@ Whether through the bite, or blood, a Werewolf's curse transforms its victim int
 | ----- | ----- | ----- | ----- | ----- | ----- |
 | 6     | 4     | 6     | 3     | 3     | 3     |
 
-| BI     | Sprint | Stabil | HP  | Stamina    | FS (Ranged `10`)| Def    | Armor             |
-| ------ | ------ | ------ | --- | ---------- | --------------- | ------ | ----------------- |
-| 13     | 4      | 0      | 30  | 6          | 7 Slashing      | 5D     |                   |
+| BI     | Sprint | Stabil | HP  | Stamina    | Def    | Armor             |
+| ------ | ------ | ------ | --- | ---------- | ------ | ----------------- |
+| 13     | 4      | 0      | 30  | 6          | 5D     |                   |
 
 **Traits**:
 * [Fast](./strive-core.md#fast--2-points-1-cr)
@@ -1956,9 +1956,9 @@ Warped bones are held together by sinew and parched remnants of skin. The heavil
 | ----- | ----- | ----- | ----- | ----- | ----- |
 | 6     | 3     | 6     | 3     | 3     | 5     |
 
-| BI     | Sprint | Stabil | HP  | Stamina    | FS              | Def    | Armor             |
-| ------ | ------ | ------ | --- | ---------- | --------------- | ------ | ----------------- |
-| 12     | 6      | 0      | 30  | 6          |                 | 3D     |                   |
+| BI     | Sprint | Stabil | HP  | Stamina    | Def    | Armor             |
+| ------ | ------ | ------ | --- | ---------- | ------ | ----------------- |
+| 12     | 6      | 0      | 30  | 6          | 3D     |                   |
 
 **Traits**:
 * [Fast](./strive-core.md#fast--2-points-1-cr)
@@ -1989,9 +1989,9 @@ Muscle and bone are laid bare and mutated, as the monster's skin is akin to a tr
 | ----- | ----- | ----- | ----- | ----- | ----- |
 | 2     | 2     | 3     | 3     | 2     | 5     |
 
-| BI     | Sprint | Stabil | HP  | Stamina    | FS (Melee)      | Def    | Armor             |
-| ------ | ------ | ------ | --- | ---------- | --------------- | ------ | ----------------- |
-| 6      | 3      | 0      | 30  | 6          | `4` Slashing    |        |                   |
+| BI     | Sprint | Stabil | HP  | Stamina    | Def    | Armor             |
+| ------ | ------ | ------ | --- | ---------- | ------ | ----------------- |
+| 6      | 3      | 0      | 30  | 6          | 1      |                   |
 
 **Traits**: None
 
@@ -2021,9 +2021,9 @@ A massive, bipedal abomination. Its thin limbs are too long for its proportions,
 | ----- | ----- | ----- | ----- | ----- | ----- |
 | 5     | 3     | 6     | 10    | 2     | 5     |
 
-| BI     | Sprint | Stabil | HP  | Stamina    | FS (Melee)      | Def    | Armor             |
-| ------ | ------ | ------ | --- | ---------- | --------------- | ------ | ----------------- |
-| 10     | 7      | 3      | 100 | 20         | `10` Slashing   | 3D     |                   |
+| BI     | Sprint | Stabil | HP  | Stamina    | Def    | Armor             |
+| ------ | ------ | ------ | --- | ---------- | ------ | ----------------- |
+| 10     | 7      | 3      | 100 | 20         | 3D     |                   |
 
 **Traits**:
 * [The Flesh is Malleable](#the-flesh-is-malleable)
@@ -2072,9 +2072,9 @@ Stilted legs hold aloft a large body comprised of tendrils pulsating with light.
 | ----- | ----- | ----- | ----- | ----- | ----- |
 | 4     | 2     | 1     | 2     | 3     | 5     |
 
-| BI     | Sprint | Stabil | HP  | Stamina    | FS              | Def    | Armor             |
-| ------ | ------ | ------ | --- | ---------- | --------------- | ------ | ----------------- |
-| 9      | 3      | 0      | 20  | 20         |                 | 2D     |                   |
+| BI     | Sprint | Stabil | HP  | Stamina    | Def    | Armor             |
+| ------ | ------ | ------ | --- | ---------- | ------ | ----------------- |
+| 9      | 3      | 0      | 20  | 20         | 2D     |                   |
 
 **Traits**:
 * [Fortified Mind](./strive-core.md#fortified-mind--4-points-1-cr)
@@ -2109,9 +2109,9 @@ A massive, monstrous mass of bare flesh and bone. Its skin is like fish's mail, 
 | ----- | ----- | ----- | ----- | ----- | ----- |
 | 2     | 2     | 10    | 20    | 4     | 7     |
 
-| BI     | Sprint | Stabil | HP  | Stamina    | FS (Melee)      | Def    | Armor             |
-| ------ | ------ | ------ | --- | ---------- | --------------- | ------ | ----------------- |
-| 7      | 0      | 0      | 200 | 40         |                 | 2D     |                   |
+| BI     | Sprint | Stabil | HP  | Stamina    | Def    | Armor             |
+| ------ | ------ | ------ | --- | ---------- | ------ | ----------------- |
+| 7      | 0      | 0      | 200 | 40         | 2D     |                   |
 
 **Traits**:
 * [Fortified Mind](./strive-core.md#fortified-mind--4-points-1-cr)
@@ -2194,9 +2194,9 @@ This minor Demon is a horned mass of bulging muscle and covered in eternal flame
 | ----- | ----- | ----- | ----- | ----- | ----- |
 | 3     | 3     | 6     | 6     | 2     | 8     |
 
-| BI     | Sprint | Stabil | HP  | Stamina    | FS (Melee)             | Def    | Armor             |
-| ------ | ------ | ------ | --- | ---------- | ---------------------- | ------ | ----------------- |
-| 8      | 5      | 3      | 60  | 12         | 5 Slashing + 3 Burning | 1      | Burning Immune <br> Double Damage from Freezing <br> 8/4/2/0 Slashing <br> 6/3/2/0 Piercing <br> 4/2/1/0 Bludgeoning <br> 4/2/1/0 Acid |
+| BI     | Sprint | Stabil | HP  | Stamina    | Def    | Armor             |
+| ------ | ------ | ------ | --- | ---------- | ------ | ----------------- |
+| 8      | 5      | 3      | 60  | 12         | 1      | Burning Immune <br> Double Damage from Freezing <br> 8/4/0 Slashing <br> 6/3/0 Piercing <br> 4/2/0 Bludgeoning <br> 4/2/0 Acid |
 
 **Traits**:
 * [Fortified Mind](./strive-core.md#fortified-mind--4-points-1-cr)
@@ -2240,9 +2240,9 @@ This minor Demon towers above and punishes foes with reckless abandon. One of it
 | ----- | ----- | ----- | ----- | ----- | ----- |
 | 3     | 3     | 5     | 5     | 2     | 5     |
 
-| BI     | Sprint | Stabil | HP  | Stamina    | FS (Melee)      | Def    | Armor             |
-| ------ | ------ | ------ | --- | ---------- | --------------- | ------ | ----------------- |
-| 8      | 4      | 3      | 50  | 10         | 5 Slashing      | 3      | 0                 |
+| BI     | Sprint | Stabil | HP  | Stamina    | Def    | Armor             |
+| ------ | ------ | ------ | --- | ---------- | ------ | ----------------- |
+| 8      | 4      | 3      | 50  | 10         | 3      |                   |
 
 **Traits**:
 * [Fortified Mind](./strive-core.md#fortified-mind--4-points-1-cr)
@@ -2283,9 +2283,9 @@ This minor Demon looks like a pale, muscular man, but its head is elongated and 
 | ----- | ----- | ----- | ----- | ----- | ----- |
 | 6     | 6     | 4     | 4     | 3     | 5     |
 
-| BI     | Sprint | Stabil | HP  | Stamina    | FS (Melee)      | Def    | Armor             |
-| ------ | ------ | ------ | --- | ---------- | --------------- | ------ | ----------------- |
-| 15     | 5      | 0      | 40  | 8          | 6 Slashing      | 3      | 0                 |
+| BI     | Sprint | Stabil | HP  | Stamina    | Def    | Armor             |
+| ------ | ------ | ------ | --- | ---------- | ------ | ----------------- |
+| 15     | 5      | 0      | 40  | 8          | 3      |                   |
 
 **Traits**:
 * [Fortified Mind](./strive-core.md#fortified-mind--4-points-1-cr)
@@ -2326,9 +2326,9 @@ This minor Demon appears like a half-rotted and calcified, large, bipedal Deer. 
 | ----- | ----- | ----- | ----- | ----- | ----- |
 | 5     | 3     | 3     | 3     | 2     | 5     |
 
-| BI     | Sprint | Stabil | HP  | Stamina    | FS (Melee)      | Def    | Armor             |
-| ------ | ------ | ------ | --- | ---------- | --------------- | ------ | ----------------- |
-| 10     | 4      | 0      | 30  | 6          | 5 Slashing      | 3      | 0                 |
+| BI     | Sprint | Stabil | HP  | Stamina    | Def    | Armor             |
+| ------ | ------ | ------ | --- | ---------- | ------ | ----------------- |
+| 10     | 4      | 0      | 30  | 6          | 3      |                   |
 
 **Traits**:
 * [Fortified Mind](./strive-core.md#fortified-mind--4-points-1-cr)
@@ -2366,9 +2366,9 @@ This minor Demon has been forced into the body of a Zombie. It has deformed, as 
 | ----- | ----- | ----- | ----- | ----- | ----- |
 | 2     | 3     | 6     | 5     | 2     | 5     |
 
-| BI     | Sprint | Stabil | HP  | Stamina    | FS (Melee)      | Def    | Armor             |
-| ------ | ------ | ------ | --- | ---------- | --------------- | ------ | ----------------- |
-| 7      | 3      | 0      | 50  | 10         | 3 Bludgeoning   | 0      | 0                 |
+| BI     | Sprint | Stabil | HP  | Stamina    | Def    | Armor             |
+| ------ | ------ | ------ | --- | ---------- | ------ | ----------------- |
+| 7      | 3      | 0      | 50  | 10         | 1      |                   |
 
 **Traits**:
 * [Fortified Mind](./strive-core.md#fortified-mind--4-points-1-cr)
@@ -2419,9 +2419,9 @@ This minor Demon is a canid-esque quadruped covered in countless bony spines, li
 | ----- | ----- | ----- | ----- | ----- | ----- |
 | 6     | 4     | 2     | 3     | 2     | 5     |
 
-| BI     | Sprint | Stabil | HP  | Stamina    | FS (Ranged `10`)| Def    | Armor             |
-| ------ | ------ | ------ | --- | ---------- | --------------- | ------ | ----------------- |
-| 12     | 4      | 0      | 30  | 6          | 4 Piercing      | 3      |                   |
+| BI     | Sprint | Stabil | HP  | Stamina    | Def    | Armor             |
+| ------ | ------ | ------ | --- | ---------- | ------ | ----------------- |
+| 12     | 4      | 0      | 30  | 6          | 3      |                   |
 
 **Traits**:
 * [Fortified Mind](./strive-core.md#fortified-mind--4-points-1-cr)
@@ -2452,9 +2452,9 @@ This minor Demon appears to be some sort of stone-golem. Molten lava drips from 
 | ----- | ----- | ----- | ----- | ----- | ----- |
 | 2     | 3     | 3     | 4     | 5     | 5     |
 
-| BI     | Sprint | Stabil | HP  | Stamina    | FS (Melee)      | Def    | Armor             |
-| ------ | ------ | ------ | --- | ---------- | --------------- | ------ | ----------------- |
-| 10     | 3      | 2      | 40  | 8          | 3 Bludgeoning   | 1      | 8 against all **except** Bludgeoning |
+| BI     | Sprint | Stabil | HP  | Stamina    | Def    | Armor             |
+| ------ | ------ | ------ | --- | ---------- | ------ | ----------------- |
+| 10     | 3      | 2      | 40  | 8          | 1      | 8 against all **except** Bludgeoning |
 
 **Traits**: 
 * [Fortified Mind](./strive-core.md#fortified-mind--4-points-1-cr)
@@ -2503,9 +2503,9 @@ This major Demon is a horned hulking mass of bulging muscle and covered in etern
 ##### First Stage
 Flames dance across the Demon's obsidian skin and it roars with ferocity - yet also with restraint. 
 
-| BI     | Sprint | Stabil | HP  | Stamina    | FS (Melee)                   | Def    | Armor             |
-| ------ | ------ | ------ | --- | ---------- | ---------------------------- | ------ | ----------------- |
-| 8      | 5      | 6      | 100 | 20         | 5 Slashing + 3 Burning (= 8) | 2D     | Burning Immune <br> -5 Freezing <br> 8 Slashing <br> 6 Piercing <br> 6 Bludgeoning <br> 6 Acid <br> 6 Bleeding |
+| BI     | Sprint | Stabil | HP  | Stamina    | Def    | Armor             |
+| ------ | ------ | ------ | --- | ---------- | ------ | ----------------- |
+| 8      | 5      | 6      | 100 | 20         | 2D     | Burning Immune <br> -5 Freezing <br> 8 Slashing <br> 6 Piercing <br> 6 Bludgeoning <br> 6 Acid <br> 6 Bleeding |
 
 **Traits**: [Fortified Mind](./strive-core.md#fortified-mind--4-points-1-cr); [Leaper](./strive-core.md#leaper--3-points-2-cr); [Danger Blood (Burning)](./strive-core.md#danger-blood--1-point-1-cr); [Hyperactive + Multi-Initiative](./strive-core.md#hyperactive--7-points-4-cr)
 
@@ -2548,9 +2548,9 @@ Flames dance across the Demon's obsidian skin and it roars with ferocity - yet a
 ##### Second Stage
 The Demon's form vanishes in a sea of fire, which rages and roars with unbridled aggression, as if reaching for foes. At the start of every Round, it loses `5` HP.
 
-| BI     | Sprint | Stabil | HP  | Stamina    | FS (Melee)                   | Def    | Armor             |
-| ------ | ------ | ------ | --- | ---------- | ---------------------------- | ------ | ----------------- |
-| 8      | 5      | 6      | 100 | 20         | 5 Slashing + 3 Burning (= 8) | 2D     | Burning Immune <br> 8 Slashing <br> 6 Piercing <br> 6 Bludgeoning <br> 6 Acid <br> 8 Bleeding |
+| BI     | Sprint | Stabil | HP  | Stamina    | Def    | Armor             |
+| ------ | ------ | ------ | --- | ---------- | ------ | ----------------- |
+| 8      | 5      | 6      | 100 | 20         | 2D     | Burning Immune <br> 8 Slashing <br> 6 Piercing <br> 6 Bludgeoning <br> 6 Acid <br> 8 Bleeding |
 
 **Traits**: 
 * [Fortified Mind](./strive-core.md#fortified-mind--4-points-1-cr)
@@ -2614,9 +2614,9 @@ This major Demon looks like a massive half-rotted and calcified, hunched bipedal
 | ----- | ----- | ----- | ----- | ----- | ----- |
 | 5     | 3     | 6     | 8     | 2     | 5     |
 
-| BI     | Sprint | Stabil | HP  | Stamina    | FS (Melee)      | Def    | Armor             |
-| ------ | ------ | ------ | --- | ---------- | --------------- | ------ | ----------------- |
-| 10     | 6      | 3      | 80  | 16         | 5 Slashing      | 1      | 0                 |
+| BI     | Sprint | Stabil | HP  | Stamina    | Def    | Armor             |
+| ------ | ------ | ------ | --- | ---------- | ------ | ----------------- |
+| 10     | 6      | 3      | 80  | 16         | 1      |                   |
 
 **Traits**: 
 * [Fortified Mind](./strive-core.md#fortified-mind--4-points-1-cr)
@@ -2673,9 +2673,9 @@ This major Demon is a a quadrupedal mass of swollen flesh, with a massive and to
 | ----- | ----- | ----- | ----- | ----- | ----- |
 | 3     | 3     | 8     | 10    | 3     | 6     |
 
-| BI     | Sprint | Stabil | HP  | Stamina    | FS (Melee)      | Def    | Armor             |
-| ------ | ------ | ------ | --- | ---------- | --------------- | ------ | ----------------- |
-| 9      | 6      | 3      | 200 | 20         | 8 Piercing      | 2D     |                   |
+| BI     | Sprint | Stabil | HP  | Stamina    | Def    | Armor             |
+| ------ | ------ | ------ | --- | ---------- | ------ | ----------------- |
+| 9      | 6      | 3      | 200 | 20         | 2D     |                   |
 
 **Traits**: 
 * [Fortified Mind](./strive-core.md#fortified-mind--4-points-1-cr); 
@@ -2731,9 +2731,9 @@ This major Demon is a pale biped, without a head and many pairs of arms symmetri
 | ----- | ----- | ----- | ----- | ----- | ----- |
 | 2     | 2     | 6     | 10    | 2     | 6     |
 
-| BI     | Sprint | Stabil | HP  | Stamina    | FS              | Def    | Armor             |
-| ------ | ------ | ------ | --- | ---------- | --------------- | ------ | ----------------- |
-| 6      | 6      | 3      | 100 | 20         |                 | 2D     | Half to all       |
+| BI     | Sprint | Stabil | HP  | Stamina    | Def    | Armor             |
+| ------ | ------ | ------ | --- | ---------- | ------ | ----------------- |
+| 6      | 6      | 3      | 100 | 20         | 2D     | Half to all       |
 
 **Traits**: 
 * [Hyperactive + Multi-Initiative](./strive-core.md#hyperactive--7-points-4-cr)
@@ -2792,9 +2792,9 @@ This major Demon is but a husk of a creature. Its decrepit form can barely stand
 | ----- | ----- | ----- | ----- | ----- | ----- |
 | 1     | 5     | 1     | 6     | 3     | 8     |
 
-| BI     | Sprint | Stabil | HP  | Stamina    | FS (Ranged `20`)| Def    | Armor             |
-| ------ | ------ | ------ | --- | ---------- | --------------- | ------ | ----------------- |
-| 9      | 3      | 0      | 60  | 12         | 6 Bleeding      |        | Half to all       |
+| BI     | Sprint | Stabil | HP  | Stamina    | Def    | Armor             |
+| ------ | ------ | ------ | --- | ---------- | ------ | ----------------- |
+| 9      | 3      | 0      | 60  | 12         |        | Half to all       |
 
 **Traits**:
 * [Fortified Mind](./strive-core.md#fortified-mind--4-points-1-cr)
@@ -2827,9 +2827,9 @@ This major Demon appears as little more than a horned skull attached by chains t
 | ----- | ----- | ----- | ----- | ----- | ----- |
 | 1     | 5     | 1     | 4     | 8     | 8     |
 
-| BI     | Sprint | Stabil | HP  | Stamina    | FS (Ranged `20`)| Def    | Armor             |
-| ------ | ------ | ------ | --- | ---------- | --------------- | ------ | ----------------- |
-| 14     | 2      | 4      | 40  | 8          | 1 Pure          | 0      |                   |
+| BI     | Sprint | Stabil | HP  | Stamina    | Def    | Armor             |
+| ------ | ------ | ------ | --- | ---------- | ------ | ----------------- |
+| 14     | 2      | 4      | 40  | 8          | 1      |                   |
 
 **Traits**:
 * [Fortified Mind](./strive-core.md#fortified-mind--4-points-1-cr)
@@ -2902,9 +2902,9 @@ This variant is small and stunted. Its legs are too short and deformed to be use
 | ----- | ----- | ----- | ----- | ----- | ----- |
 | 4     | 4     | 2     | 1     | 1     | 0     |
 
-| BI     | Sprint | Stabil | HP  | Stamina    | FS (Ranged: 10) | Def    | Armor             |
-| ------ | ------ | ------ | --- | ---------- | --------------- | ------ | ----------------- |
-| 9      | 3      | 0      | 10  | 2          | 2 Acid          | 2      | 0                 |
+| BI     | Sprint | Stabil | HP  | Stamina    | Def    | Armor             |
+| ------ | ------ | ------ | --- | ---------- | ------ | ----------------- |
+| 9      | 3      | 0      | 10  | 2          | 2      |                   |
 
 **Traits**:
 * [Disease-Ridden](strive-core.md#disease-ridden--1-point-1-cr)
@@ -2945,9 +2945,9 @@ This variant stands tall and proud, its wrinkled skin riddled with scars. Its tu
 | ----- | ----- | ----- | ----- | ----- | ----- |
 | 3     | 2     | 4     | 5     | 3     | 0     |
 
-| BI     | Sprint | Stabil | HP  | Stamina    | FS (Melee)      | Def    | Armor             |
-| ------ | ------ | ------ | --- | ---------- | --------------- | ------ | ----------------- |
-| 8      | 4      | 2      | 50  | 5          | 3 Piercing      | 4      | 8/4/2/0 Slashing <br> 6/3/2/0 Piercing <br> 4/2/1/0 Bludgeoning |
+| BI     | Sprint | Stabil | HP  | Stamina    | Def    | Armor             |
+| ------ | ------ | ------ | --- | ---------- | ------ | ----------------- |
+| 8      | 4      | 2      | 50  | 5          | 4      | 8/4/0 Slashing <br> 6/3/0 Piercing <br> 4/2/0 Bludgeoning |
 
 **Traits**:
 * [Vulnerable](strive-core.md#vulnerable-2-points--2-cr) to Bleeding `+6`
@@ -3006,9 +3006,9 @@ This variant is as almost as small as a Belcher, but with strong legs and arms, 
 | ----- | ----- | ----- | ----- | ----- | ----- |
 | 6     | 2     | 3     | 2     | 2     | 0     |
 
-| BI     | Sprint | Stabil | HP  | Stamina    | FS (Melee)      | Def    | Armor             |
-| ------ | ------ | ------ | --- | ---------- | --------------- | ------ | ----------------- |
-| 10     | 4      | 0      | 20  | 2          | 4 Slashing      | 3      | 0                 |
+| BI     | Sprint | Stabil | HP  | Stamina    | Def    | Armor             |
+| ------ | ------ | ------ | --- | ---------- | ------ | ----------------- |
+| 10     | 4      | 0      | 20  | 2          | 3      |                   |
 
 **Traits**:
 * [Vulnerable](strive-core.md#vulnerable-2-points--2-cr) to Bleeding `+6`
@@ -3047,9 +3047,9 @@ A hulking mass of Swine and muscle, towering above its lesser brethren. Despite 
 | ----- | ----- | ----- | ----- | ----- | ----- |
 | 1     | 1     | 8     | 6     | 1     | 0     |
 
-| BI     | Sprint | Stabil | HP  | Stamina    | FS (Melee)      | Def    | Armor             |
-| ------ | ------ | ------ | --- | ---------- | --------------- | ------ | ----------------- |
-| 3      | 4      | 4      | 60  | 7          | 4 Bludgeoning   | 1      | 0                 |
+| BI     | Sprint | Stabil | HP  | Stamina    | Def    | Armor             |
+| ------ | ------ | ------ | --- | ---------- | ------ | ----------------- |
+| 3      | 4      | 4      | 60  | 7          | 1      |                   |
 
 **Traits**:
 * [Vulnerable](strive-core.md#vulnerable-2-points--2-cr) to Bleeding `+6`
@@ -3087,9 +3087,9 @@ An intelligent and cruel leader among the Swine. Its gaze attentively surveys al
 | ----- | ----- | ----- | ----- | ----- | ----- |
 | 2     | 2     | 3     | 4     | 5     | 6     |
 
-| BI     | Sprint | Stabil | HP  | Stamina    | FS (Ranged: 10) | Def    | Armor             |
-| ------ | ------ | ------ | --- | ---------- | --------------- | ------ | ----------------- |
-| 9      | 3      | 0      | 40  | 4          | 4 Acid          | 2      | 0                 |
+| BI     | Sprint | Stabil | HP  | Stamina    | Def    | Armor             |
+| ------ | ------ | ------ | --- | ---------- | ------ | ----------------- |
+| 9      | 3      | 0      | 40  | 4          | 2      |                   |
 
 **Traits**:
 * [Vulnerable](strive-core.md#vulnerable-2-points--2-cr) to Bleeding `+6`
@@ -3133,9 +3133,9 @@ This variant has full dark-red fur and much shorter tusks. It moves deftly, albe
 | ----- | ----- | ----- | ----- | ----- | ----- |
 | 5     | 3     | 4     | 3     | 2     | 0     |
 
-| BI     | Sprint | Stabil | HP  | Stamina    | FS (Ranged: 10) | Def    | Armor             |
-| ------ | ------ | ------ | --- | ---------- | --------------- | ------ | ----------------- |
-| 10     | 4      | 0      | 30  | 4          | 4 Piercing      | 2      | 0                 |
+| BI     | Sprint | Stabil | HP  | Stamina    | Def    | Armor             |
+| ------ | ------ | ------ | --- | ---------- | ------ | ----------------- |
+| 10     | 4      | 0      | 30  | 4          | 2      |                   |
 
 **Traits**:
 * [Vulnerable](strive-core.md#vulnerable-2-points--2-cr) to Bleeding `+6`
@@ -3167,9 +3167,9 @@ This variant is lanky, lacking much of the bulk of its brethren. 
 | ----- | ----- | ----- | ----- | ----- | ----- |
 | 2     | 2     | 4     | 3     | 1     | 0     |
 
-| BI     | Sprint | Stabil | HP  | Stamina    | FS (Ranged: 10) | Def    | Armor             |
-| ------ | ------ | ------ | --- | ---------- | --------------- | ------ | ----------------- |
-| 5      | 3      | 1      | 30  | 4          | 3 Slashing      | 2      | 0                 |
+| BI     | Sprint | Stabil | HP  | Stamina    | Def    | Armor             |
+| ------ | ------ | ------ | --- | ---------- | ------ | ----------------- |
+| 5      | 3      | 1      | 30  | 4          | 2      |                   |
 
 **Traits**:
 [Vulnerable](strive-core.md#vulnerable-2-points--2-cr) to Bleeding `+6`
@@ -3197,9 +3197,9 @@ This variant is massive and strong. Most of its body is covered in dark, dirty c
 | ----- | ----- | ----- | ----- | ----- | ----- |
 | 2     | 1     | 6     | 4     | 1     | 0     |
 
-| BI     | Sprint | Stabil | HP  | Stamina    | FS (Melee)      | Def    | Armor             |
-| ------ | ------ | ------ | --- | ---------- | --------------- | ------ | ----------------- |
-| 4      | 3      | 3      | 40  | 4          | 3 Slashing      | 1      | 0                 |
+| BI     | Sprint | Stabil | HP  | Stamina    | Def    | Armor             |
+| ------ | ------ | ------ | --- | ---------- | ------ | ----------------- |
+| 4      | 3      | 3      | 40  | 4          | 1      |                   |
 
 Traits: [Vulnerable](strive-core.md#vulnerable-2-points--2-cr) to Bleeding `+6`
 
@@ -3251,9 +3251,9 @@ An abominable mound of misshapen flesh, with countless ragged tentacles of vario
 | ----- | ----- | ----- | ----- | ----- | ----- |
 | 5     | 5     | 10    | 10    | 1     | 0     |
 
-| BI     | Sprint | Stabil | HP  | Stamina    | FS (Melee)      | Def    | Armor             |
-| ------ | ------ | ------ | --- | ---------- | --------------- | ------ | ----------------- |
-| 4      | 1      | 5      | 200 | 5          | 5 Bludgeoning   | 1      | 0                 |
+| BI     | Sprint | Stabil | HP  | Stamina    | Def    | Armor             |
+| ------ | ------ | ------ | --- | ---------- | ------ | ----------------- |
+| 4      | 1      | 5      | 200 | 5          | 1      |                   |
 
 **Traits**:
 * [Climber + Sticky](strive-core.md#climber--2-points-1-cr)
@@ -3311,9 +3311,9 @@ Alps are a fairly common occurence throughout the world. How they reproduce is a
 | ----- | ----- | ----- | ----- | ----- | ----- |
 | 4     | 2     | 2     | 3     | 5     | 5     |
 
-| BI     | Sprint | Stabil | HP  | Stamina    | FS (Melee)      | Def    | Armor             |
-| ------ | ------ | ------ | --- | ---------- | --------------- | ------ | ----------------- |
-| 11     | 4      | 0      | 30  | 6          | 3 Slashing      | 3      | 0                 |
+| BI     | Sprint | Stabil | HP  | Stamina    | Def    | Armor             |
+| ------ | ------ | ------ | --- | ---------- | ------ | ----------------- |
+| 11     | 4      | 0      | 30  | 6          | 3      |                   |
 
 **Traits**:
 * [Camouflage](./strive-core.md#camouflage--3-points-3-cr)
@@ -3351,9 +3351,9 @@ Bloated shamblers are grotesque, hulking masses of bloated undead flesh. They're
 | ----- | ----- | ----- | ----- | ----- | ----- |
 | 1     | 1     | 5     | 5     | 1     | 0     |
 
-| BI     | Sprint | Stabil | HP  | Stamina    | FS (Melee)      | Def    | Armor             |
-| ------ | ------ | ------ | --- | ---------- | --------------- | ------ | ----------------- |
-| 3      | 3      | 3      | 50  | 10         | 3 Bludgeoning   | 0      | 0                 |
+| BI     | Sprint | Stabil | HP  | Stamina    | Def    | Armor             |
+| ------ | ------ | ------ | --- | ---------- | ------ | ----------------- |
+| 3      | 3      | 3      | 50  | 10         | 1      |                   |
 
 **Traits**:
 * [Death Rattle](./strive-core.md#death-rattle--2-points-2-cr) (Explode: `2D4` Bludgeoning and Force-Moving `5` Squares, in an AoE radius of `2` Squares)
@@ -3390,9 +3390,9 @@ Eight very long and thin bony legs carry the creature's weight. Their ends are s
 | ----- | ----- | ----- | ----- | ----- | ----- |
 | 5     | 1     | 5     | 5     | 1     | 0     |
 
-| BI     | Sprint | Stabil | HP  | Stamina    | FS (Melee)      | Def    | Armor             |
-| ------ | ------ | ------ | --- | ---------- | --------------- | ------ | ----------------- |
-| 3      | 3      | 3      | 50  | 10         | 6 Slashing      | 3D     | 8/4/2/0 Slashing <br> 6/3/2/0 Piercing <br> 4/2/1/0 Bludgeoning <br> Poison immune <br> 4 Bleeding |
+| BI     | Sprint | Stabil | HP  | Stamina    | Def    | Armor             |
+| ------ | ------ | ------ | --- | ---------- | ------ | ----------------- |
+| 3      | 3      | 3      | 50  | 10         | 3D     | 8/4/0 Slashing <br> 6/3/0 Piercing <br> 4/2/0 Bludgeoning <br> Poison immune <br> 4 Bleeding |
 
 **Traits**:
 * [Death Rattle](./strive-core.md#death-rattle--2-points-2-cr) (Explode: `2D4` Bludgeoning and Force-Moving `5` Squares, in an AoE radius of `2` Squares)
@@ -3429,9 +3429,9 @@ They're squat creatures, with spotted pale skin. Their pathetic stature belies t
 | ----- | ----- | ----- | ----- | ----- | ----- |
 | 5     | 2     | 5     | 2     | 2     | 0     |
 
-| BI     | Sprint | Stabil | HP  | Stamina    | FS (Melee)      | Def    | Armor             |
-| ------ | ------ | ------ | --- | ---------- | --------------- | ------ | ----------------- |
-| 9      | 3      | 0      | 20  | 4          | 5 Slashing      | 2      |                   |
+| BI     | Sprint | Stabil | HP  | Stamina    | Def    | Armor             |
+| ------ | ------ | ------ | --- | ---------- | ------ | ----------------- |
+| 9      | 3      | 0      | 20  | 4          | 2      |                   |
 
 **Traits**:
 * [Fast](./strive-core.md#fast--2-points-1-cr)
@@ -3468,9 +3468,9 @@ A greater Undead with a limited capacity for independent thought. It retains muc
 | ----- | ----- | ----- | ----- | ----- | ----- |
 | 3     | 3     | 4     | 3     | 3     | 0     |
 
-| BI     | Sprint | Stabil | HP  | Stamina    | FS (Melee)      | Def    | Armor             |
-| ------ | ------ | ------ | --- | ---------- | --------------- | ------ | ----------------- |
-| 9      | 3      | 0      | 30  | 6          | 5 Slashing      | 3D     |                   |
+| BI     | Sprint | Stabil | HP  | Stamina    | Def    | Armor             |
+| ------ | ------ | ------ | --- | ---------- | ------ | ----------------- |
+| 9      | 3      | 0      | 30  | 6          | 3D     |                   |
 
 **Traits**:
 * [Fortified Mind](./strive-core.md#fortified-mind--4-points-1-cr)
@@ -3494,9 +3494,9 @@ A bone golem with long, rope-y arms made of spinal columns, lined with knife-lik
 | ----- | ----- | ----- | ----- | ----- | ----- |
 | 6     | 2     | 3     | 4     | 1     | 0     |
 
-| BI     | Sprint | Stabil | HP  | Stamina    | FS (Melee)      | Def    | Armor             |
-| ------ | ------ | ------ | --- | ---------- | --------------- | ------ | ----------------- |
-| 7      | 4      | 0      | 40  | 4          | 6 Bludgeoning   | 3D     | 8/4/2/0 Slashing <br> 6/3/2/0 Piercing <br> 4/2/1/0 Bludgeoning <br> Poison immune <br> 4 Bleeding |
+| BI     | Sprint | Stabil | HP  | Stamina    | Def    | Armor             |
+| ------ | ------ | ------ | --- | ---------- | ------ | ----------------- |
+| 7      | 4      | 0      | 40  | 4          | 3D     | 8/4/0 Slashing <br> 6/3/0 Piercing <br> 4/2/0 Bludgeoning <br> Poison immune <br> 4 Bleeding |
 
 **Traits**:
 * [Fortified Mind](./strive-core.md#fortified-mind--4-points-1-cr)
@@ -3532,9 +3532,9 @@ A huge flesh golem with proportions like a gorilla and a strong carapace of meta
 | ----- | ----- | ----- | ----- | ----- | ----- |
 | 3     | 1     | 6     | 6     | 1     | 0     |
 
-| BI     | Sprint | Stabil | HP  | Stamina    | FS (Melee)      | Def    | Armor             |
-| ------ | ------ | ------ | --- | ---------- | --------------- | ------ | ----------------- |
-| 5      | 4      | 2      | 60  | 12         | 6 Bludgeoning   | 0      | 8/4/2/0 Slashing <br> 6/3/2/0 Piercing <br> 4/2/1/0 Bludgeoning <br> Poison immune <br> 4 Bleeding |
+| BI     | Sprint | Stabil | HP  | Stamina    | Def    | Armor             |
+| ------ | ------ | ------ | --- | ---------- | ------ | ----------------- |
+| 5      | 4      | 2      | 60  | 12         | 1      | 8/4/0 Slashing <br> 6/3/0 Piercing <br> 4/2/0 Bludgeoning <br> Poison immune <br> 4 Bleeding |
 
 **Traits**:
 * [Sluggish](./strive-core.md#sluggish-4-points--2-cr)
@@ -3575,9 +3575,9 @@ A lesser form of undeath, Zombies are mindless walking corpses in varying stages
 | ----- | ----- | ----- | ----- | ----- | ----- |
 | 1     | 1     | 3     | 3     | 1     | 0     |
 
-| BI     | Sprint | Stabil | HP  | Stamina    | FS (Melee)      | Def    | Armor             |
-| ------ | ------ | ------ | --- | ---------- | --------------- | ------ | ----------------- |
-| 3      | 2      | 0      | 30  | 6          | 3 Bludgeoning   |        | Poison immune     |
+| BI     | Sprint | Stabil | HP  | Stamina    | Def    | Armor             |
+| ------ | ------ | ------ | --- | ---------- | ------ | ----------------- |
+| 3      | 2      | 0      | 30  | 6          |        | Poison immune     |
 
 **Traits**:
 * [Shambler](./strive-core.md#shambler-2-points--2-cr)
@@ -3626,9 +3626,9 @@ This variant of Voidling is vaguely humanoid, its amorphous face stretched out l
 | ----- | ----- | ----- | ----- | ----- | ----- |
 | 4     | 4     | 2     | 2     | 1     | 5     |
 
-| BI     | Sprint | Stabil | HP  | Stamina    | FS (Melee)      | Def    | Armor             |
-| ------ | ------ | ------ | --- | ---------- | --------------- | ------ | ----------------- |
-| 9      | 3      | 0      | 20  | 4          | 2 Piercing + 3 Freezing | 1      | Half (RU) against all but Burning <br> Takes double Damage from Burning |
+| BI     | Sprint | Stabil | HP  | Stamina    | Def    | Armor             |
+| ------ | ------ | ------ | --- | ---------- | ------ | ----------------- |
+| 9      | 3      | 0      | 20  | 4          | 1      | Half (RU) against all but Burning <br> Takes double Damage from Burning |
 
 Traits: 
 * **Ethereal Nature**: Its shadowy form isn't quite corporeal and barely suffers physical Damage, but burns well. It is very slowly disintegrating on its own, and unless it finds sustenance, will fade on its own, in a few days. 
@@ -3665,9 +3665,9 @@ This variant of Voidling loosely resembles an eel, with thin arms with which it 
 | ----- | ----- | ----- | ----- | ----- | ----- |
 | 2     | 4     | 2     | 3     | 1     | 5     |
 
-| BI     | Sprint | Stabil | HP  | Stamina    | FS (Ranged `10`) | Def    | Armor             |
-| ------ | ------ | ------ | --- | ---------- | ---------------- | ------ | ----------------- |
-| 7      | 2      | 0      | 30  | 6          | 4 Freezing       | 1      | Half (RU) against all but Burning <br> Takes double Damage from Burning |
+| BI     | Sprint | Stabil | HP  | Stamina    | Def    | Armor             |
+| ------ | ------ | ------ | --- | ---------- | ------ | ----------------- |
+| 7      | 2      | 0      | 30  | 6          | 1      | Half (RU) against all but Burning <br> Takes double Damage from Burning |
 
 Traits: 
 * **Ethereal Nature**: Its shadowy form isn't quite corporeal and barely suffers physical Damage, but burns well. It is very slowly disintegrating on its own, and unless it finds sustenance, will fade on its own, in a few days. 
@@ -3700,9 +3700,9 @@ This variant of Voidling is a floating ball of swirling shadow. Eyes regularly m
 | ----- | ----- | ----- | ----- | ----- | ----- |
 | 2     | 4     | 2     | 3     | 1     | 5     |
 
-| BI     | Sprint | Stabil | HP  | Stamina    | FS (Ranged `15`) | Def    | Armor             |
-| ------ | ------ | ------ | --- | ---------- | ---------------- | ------ | ----------------- |
-| 7      | 2      | 0      | 30  | 6          | 4 Freezing       | 0      | Half (RU) against all but Burning <br> Takes double Damage from Burning |
+| BI     | Sprint | Stabil | HP  | Stamina    | Def    | Armor             |
+| ------ | ------ | ------ | --- | ---------- | ------ | ----------------- |
+| 7      | 2      | 0      | 30  | 6          | 1      | Half (RU) against all but Burning <br> Takes double Damage from Burning |
 
 Traits: [Glider + Floater (`10` Squares above the ground)](./strive-core.md#glider--1-points-1-cr)
 * **Ethereal Nature**: Its shadowy form isn't quite corporeal and barely suffers physical Damage, but burns well. It is very slowly disintegrating on its own, and unless it finds sustenance, will fade on its own, in a few days. 

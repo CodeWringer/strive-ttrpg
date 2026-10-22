@@ -289,7 +289,6 @@ By using STRIVE (that includes but is not limited to viewing, reading, referenci
       - [Push Through](#push-through)
     - [Flanking](#flanking)
     - [Stealth Attacks](#stealth-attacks)
-    - [Free Strike (FS)](#free-strike-fs)
   - [Defending](#defending)
     - [AoE Defense](#aoe-defense)
     - [Defending an Ally](#defending-an-ally)
@@ -465,14 +464,23 @@ By using STRIVE (that includes but is not limited to viewing, reading, referenci
   - [First Impressions Are Definitive](#first-impressions-are-definitive)
   - [Character Background Matters](#character-background-matters)
 - [Non-Player Character (NPC)](#non-player-character-npc)
-  - [Defense (Def)](#defense-def)
+  - [NPC Defense (Def)](#npc-defense-def)
   - [Challenge Rating (CR)](#challenge-rating-cr)
   - [NPC Squads](#npc-squads)
-    - [Squad HP Pool](#squad-hp-pool)
-    - [Squad Cohesion](#squad-cohesion)
+    - [Squad Resources](#squad-resources)
+      - [Squad HP](#squad-hp)
+        - [Squads Suffering AoE](#squads-suffering-aoe)
+        - [Squads Suffer No Injuries](#squads-suffer-no-injuries)
+        - [Squad Temporary HP](#squad-temporary-hp)
+      - [Squad Stamina](#squad-stamina)
+      - [Squad Action Points](#squad-action-points)
     - [Squad Actions](#squad-actions)
+      - [Squad Movement](#squad-movement)
+        - [Squad Cohesion](#squad-cohesion)
+      - [Squad Attacks](#squad-attacks)
+        - [Squad On Squad Violence](#squad-on-squad-violence)
+      - [Squad Defense](#squad-defense)
     - [Squad Captains](#squad-captains)
-    - [Squad On Squad Violence](#squad-on-squad-violence)
   - [Bring NPCs To Life](#bring-npcs-to-life)
   - [Retainers \& Pets](#retainers--pets)
     - [Gaining Retainers](#gaining-retainers)
@@ -612,7 +620,7 @@ As STRIVE is meant primarily as a rule-book to help you quickly find what you ne
 | [Drivers](#drivers)                                         | Refers to a Character's Ambition, Aspirations and Quirks - goals to work towards and automatic triggers to get them into trouble. |
 | [Drug-Addicted](#drug-addicted)                             | A Condition that forces a Character to act compulsively. |
 | [Edge](#edge)                                               | A countable, temporary resource that grants a temporary **advantage to achieve Hits** in a Test and temporarily **raises the** [**Hit Limit**](#testing-a-skill) by `+1`, for each Edge. |
-| [Effective Damage](#damage--effects)                        | Refers to the Damage number that is actually applies to HP, after [Armor](#armor-assets) and [Resistances](#damage-resistances) have been applied. Damage that is completely negated by Armor and Resistances is **not** considered Effective Damage. |
+| [Effective Damage](#damage--effects)                        | Refers to the Damage number that is actually applies to HP, after [Armor](#armor-assets), [Resistances](#damage-resistances) and [Temporary HP](#temporary-health-points) have been applied. Damage that is completely negated by Armor and Resistances is **not** considered Effective Damage. |
 | [Electrified](#electrified)                                 | A Condition that forces a Character to spasm uncontrollably and thus be Force-Moved. |
 | [Exhausted](#exhausted)                                     | A Condition that Character suffer when they exert themselves too much. It makes them lethargic and their Tests harde to succeed. |
 | [Experience Point(s) (XP)](#experience-points-xp)           | Allows unrestricted Character Advancement. |
@@ -1404,9 +1412,9 @@ Whenever HP drop below a segment of `10`, an [Injury](#injury) *may* be suffered
 See the [Toughness](#toughness-tough) Attribute to determine the maximum HP. Also, the maximum HP cannot be reduced to less than `10`, for any reason. 
 
 #### Recovering HP
-A [Graduated](#graduated-test) [Medicine](#medicine-agiwit) Test can restore `hits * D8` HP, up to the current maximum. This Test requires and consumes one unit of [Medical Supplies](#general-assets)! 
+A [Graduated](#graduated-test) [Medicine](#medicine-agiwit) Test can restore `Hits * 5` HP, up to the current maximum. This Test requires and consumes one unit of [Medical Supplies](#general-assets)! 
 
-> For `3` hits out of `7` rolled dice, a medic can restore `3D8` HP for themselves or an ally. 
+> For `3` Hits out of `7` rolled dice, a medic can restore `15 = 3 * 5` HP for themselves or an ally. 
 
 During a [Partial Rest](#resting), once per [QoD](#quarters-of-a-day-qod), up to `10` HP may be regained. A [Full Rest](#resting) always replenishes up to `30` HP. 
 
@@ -2281,8 +2289,8 @@ Some additional terminology:
 * **Direct Damage** always comes from an [Action or Reaction](#actions-reactions--passives).
 * **Indirect Damage** always comes from the environment, or from Damage over time [Health Conditions](#condition). 
 * **Instance of Damage** refers to the moment in time when Damage is suffered, before it is reduced by [Armor](#armor-assets) and [Resistances](#damage-resistances). Multiple Types of Damage may be part of the same Instance of Damage. 
-* **Effective Damage** refers to the Damage number that is actually applied to HP, after [Armor](#armor-assets) and [Resistances](#damage-resistances) have been applied. Damage that is completely negated by Armor and Resistances is **not** part of the Effective Damage. 
-* **Primary Damage** refers to the most significant [Damage Type](#damage-types) of Effective Damage **after** Armor and Resistances are applied. This is the Damage Type that determines the [Injury](#injury) type that is inflicted. If there is a tie, the Damage Type that the armor reduces less is the Primary one. If there is still a tie, a coin flip could decide. <br>E.g. when suffering `6` Bludgeoning + `10` Slashing Damage, which Armor and Resistances reduce to `4` Bludgeoning + `2` Slashing Damage, then the Bludgeoning Damage is considered the Primary Damage of the Attack. If the Attack causes an Injury, then it will be a Bludgeoning Injury. 
+* **Effective Damage** refers to the Damage number that is actually applied to HP, after [Armor](#armor-assets), [Resistances](#damage-resistances) and [Temporary HP](#temporary-health-points) have been applied. Damage that is completely negated by Armor and Resistances is **not** part of the Effective Damage. 
+* **Primary Damage** refers to the most significant [Damage Type](#damage-types) of Effective Damage **after** Armor and Resistances are applied. This is the Damage Type that determines the [Injury](#injury) type that is inflicted. If there is a tie, the Damage Type that is less affected by armor is the Primary one. If there is still a tie, a coin flip could decide. <br>E.g. when suffering `6` Bludgeoning + `10` Slashing Damage, which Armor and Resistances reduce to `4` Bludgeoning + `2` Slashing Damage, then the Bludgeoning Damage is considered the Primary Damage of the Attack. If the Attack causes an Injury, then it will be a Bludgeoning Injury. 
 
 ### Targeting-Types
 The number of targets that an [Expertise](#expertise) can apply to, with a single use, is defined through the **targeting-types**. 
@@ -2307,9 +2315,9 @@ When a Character is within weapon's reach of another hostile Character, they're 
 
 Performing an Opportunity Attack costs `-1` [AP](#action-points-ap) at a `-1D` penalty and will **halt** the enemy in question, preventing their movement, regardless of whether the Attack hits. When an Opportunity Attack against them is declared, the Defending Character may choose to [Push Through](#push-through), thus getting to move after all, but if they do, the Attacker instead of losing a die, gains `+1` [Edge](#edge) for their Opportunity Attack!
 
-It is possible to avoid an Opportunity Attack with a [Disengage](#disengage) combat action. 
+An Opportunity Attack is a [Reaction](#actions-reactions--passives) and a Character may only perform **one Opportunity Attack, per Round**. 
 
-An Opportunity Attack is a [Reaction](#actions-reactions--passives). 
+It is possible to avoid an Opportunity Attack with a [Disengage](#disengage) combat action. 
 
 #### Disengage
 It is possible to move out of an enemy's [Range of Opportunity](#opportunity-Attacks) without provoking an [Opportunity Attack](#opportunity-Attacks), by **Disengaging** for `-2` [AP](#action-points-ap). The Disengaging Character **must** move in a direction that will get them out of the Range of Opportunity the fastest and safest, as far as `1` AP of movement would get them. 
@@ -2353,11 +2361,6 @@ When Attacking with [Bludgeoning](#damage-types), you may knock another Characte
 > For example, two ordinary humans: one is Attacking from stealth with a club and has Strength `2`, while the victim has Toughness `4`. The victim is knocked unconscious right away. 
 >
 > On the other hand, the same stealthy human Attacking a giant from stealth with a club cannot knock that giant unconscious, assuming that giant to have a Toughness of `10`. The difference of `8` Levels is simply too great. 
-
-### Free Strike (FS)
-The **Free Strike (FS)** number defines bonus Damage that Characters may inflict under certain circumstances. 
-
-This value is mostly reserved for NPCs, as this is the Damage value used when multiple of the same type of NPC launch an Attack at the same time, as a [Squad](#npc-squads). For this, the **main aggressor's Damage** is summed with **all assisting allies' Free Strike value**. Whether allies can join in to deal more Damage, depends on whether they are in their weapon's range to Attack and are part of the aggressor's [Squad](#npc-squads). 
 
 ## Defending
 Successfully **Defending** against an Attack negates all its Damage and other effects from occurring. Defense is a [Reaction](#actions-reactions--passives) and requires an [Opposed Test](#opposed-test). If the Attacker achieves more Hits than the Defender, they win. If it is a tie or the Attacker achieves fewer Hits, the Defender wins. 
@@ -2699,9 +2702,8 @@ When choosing Skills, consider your Character's background. What fields of knowl
 * Choose `1` [Social](#social-skills) or [Knowledge](#knowledge-skills) Skill at Level `3`. This is something your Character is particularly knowledgable about. 
 * Choose `1` universal [Language](#languages) that will allow you to communicate with the other PCs. Although you need only worry about this, *if your GM does*. 
 * You can now spend **`8`** points to freely *learn* additional Skills and raise their Level, with the following limitations:
-  * No Skill Level can be higher than `3`. 
+  * No Skill Level can be higher than `3`, or less than `1`. 
   * You can add at most `7` Skills. 
-  * All Skills added this way but be at least Level `1`.
 
 #### Determine Character Traits
 During Character Creation, every PC may have one [Trait](#character-traits) from the [list of Traits](#list-of-character-traits). You may choose freely from that list. 
@@ -2840,7 +2842,7 @@ See [Throwing](#throwing).
 #### Unarmed Combat (Agi/Str)
 Sometimes, your own body is your greatest weapon. Fists and feet can cause a surprising amount of Damage. 
 
-Traits: [Melee](#foundational-weapon-traits), [FS](#free-strike-fs): `Str`
+Traits: [Melee](#foundational-weapon-traits)
 
 | Level | Name                       | AP | Ob                                   | Description           |
 | ----- | -------------------------- | -- | ------------------------------------ | --------------------- |
@@ -3018,11 +3020,15 @@ Knowledge about religions, legends and myths. May be used to recall knowledge ab
 #### Medicine (Agi/Wit)
 Diagnosing and treating mundane [Injuries](#injury), [Illnesses](#illness) and [Poisons](#poisoned). 
 
-This Skill may also find use in forensics, to identify poisons or the type of weapon that inflicted a wound. The Ob will depend on the rarity of the poison/weapon and will be determined by the GM. 
+A [Graduated](#graduated-test) [Medicine](#medicine-agiwit) Test can restore `Hits * 5` HP, up to the current maximum. This Test requires and consumes one unit of [Medical Supplies](#general-assets)! 
+
+> For `3` Hits out of `7` rolled dice, a medic can restore `15 = 3 * 5` HP for themselves or an ally. 
 
 [Crafting](#projects):
 * [Medical Supplies](#general-assets) (5x)
 * [Antidote](#general-assets) (4x)
+
+This Skill may also find use in forensics, to identify poisons or the type of weapon that inflicted a wound. The Ob will depend on the rarity of the poison/weapon and will be determined by the GM. 
 
 | Level | Heroic Act <br><img src="../../img/heroic-acts.svg" width="64px" height="64px"></img> | Heroic Act Momentum Shift | Heroic Act Description | Desperate Measure Description | Desperate Measure Momentum Shift | Desperate Measure <br><img src="../../img/desperate-measures.svg" width="64px" height="64px"></img> |
 | ----- | ------------------------------------------------------------------------------------- | ------------------------- | ---------------------- | ----------------------------- | -------------------------------- | --------------------------------------------------------------------------------------------------- |
@@ -3047,13 +3053,13 @@ This governs the understanding of what makes defensive structures effective and 
 
 | Level | Name                   | AP | Ob     | Description        |
 | ----- | ---------------------- | -- | ------ | ------------------ |
-| 0     | Blitz Stratagem        | 1  | 1      | If you have placed a Key Zone, turn it into a Zone of Mobility, replacing all its effects. You and all allies beginning their movement from within this zone may move an additional `6` Squares per [AP](#action-points-ap) spent. |
-| 0     | Breakthrough Stratagem | 1  | 2      | If you have placed a Key Zone, turn it into a Breakthrough Zone, replacing all its effects. All enemies inside the zone, who are Attacked, may also be [Force Moved](#forced-movement) back, by a number of Squares equal to your achieved Hits. |
-| 0     | Designate Key Zone     | 1  | /      | **Concentration**: Designate a zone up to `2` Squares in radius. If such a zone already exists, it is replaced with this one. The zone lasts for as long as you desire. You instruct your allies, to get the most out of this area. Once you designate a type for it, they *will* know what to do. Effects from allies' zones do not stack with this one, if their zone is of the same type. |
-| 1     | Killzone Stratagem     | 1  | 2      | If you have placed a Key Zone, turn it into a Killzone, replacing all its effects. All enemies inside the zone, who are Damaged immediately die if their [HP](#health-points-hp) are brought to `2 * your Toughness + Hits` or less. | / |
-| 1     | Trenchline Stratagem   | 1  | 2      | If you have placed a Key Zone, turn it into a Trenchline Zone, replacing all its effects. All [AoE](#area-of-effect-aoe) Damage that applies to you and/or your allies is reduced by `Hits * 3`. Also, your and your allies' [Stability](#stability-stabil) is increased by `+2` while in the zone. | / |
-| 2     | Fear Stratagem         | 1  | 1      | If you have placed a Key Zone, turn it into a Zone of Fear, replacing all its effects. All enemies inside this zone, who suffer Damage must succeed a [Self-Control](#self-control-toughwit) Test at Ob equal to your number of Hits, or else become [Terrified](#terrified) of you or your allies inside the zone. | / |
-| 2     | Recovery Stratagem     | 1  | 2      | If you have placed a Key Zone, turn it into a Recovery Zone, replacing all its effects. You and all allies inside this zone regain `+1` [Stamina](#stamina--strain) and your Hits as [HP](#health-points-hp), at the start of the Turn. | / |
+| 0     | Blitz Stratagem        | 1  |        | If you have placed a Key Zone, turn it into a Zone of Mobility, replacing all its effects. You and all allies beginning their movement from within this zone may move an additional `6` Squares per [AP](#action-points-ap) spent. |
+| 0     | Breakthrough Stratagem | 1  |        | If you have placed a Key Zone, turn it into a Breakthrough Zone, replacing all its effects. All enemies inside the zone, who are Attacked, may also be [Force Moved](#forced-movement) back, by a number of Squares equal to your achieved Hits. |
+| 0     | Designate Key Zone     | 1  |        | **Concentration**: Designate a zone up to `4` Squares in radius, up to `15` Squares far away. If such a zone already exists, it may be moved, retaining its currents effects. You instruct your allies to get the most out of this area. Once you designate a type for it, they *will* know what to do. Effects from allies' zones do not stack with this one, if their zone is of the same type. |
+| 1     | Killzone Stratagem     | 1  |        | If you have placed a Key Zone, turn it into a Killzone, replacing all its effects. All enemies inside the zone, who are Damaged immediately die if their [HP](#health-points-hp) are brought to `2 * your Toughness + Hits` or less. | / |
+| 1     | Trenchline Stratagem   | 1  |        | If you have placed a Key Zone, turn it into a Trenchline Zone, replacing all its effects. All [AoE](#area-of-effect-aoe) Damage that applies to you and/or your allies is reduced by `Hits * 3`. Also, your and your allies' [Stability](#stability-stabil) is increased by `+2` while in the zone. | / |
+| 2     | Fear Stratagem         | 1  |        | If you have placed a Key Zone, turn it into a Zone of Fear, replacing all its effects. All enemies inside this zone, who suffer Damage must succeed a [Self-Control](#self-control-toughwit) Test at Ob equal to your number of Hits, or else become [Terrified](#terrified) of you or your allies inside the zone. | / |
+| 2     | Recovery Stratagem     | 1  |        | If you have placed a Key Zone, turn it into a Recovery Zone, replacing all its effects. You and all allies inside this zone regain `+1` [Stamina](#stamina--strain) and your Hits as [HP](#health-points-hp), at the start of the Turn. | / |
 
 | Level | Heroic Act <br><img src="../../img/heroic-acts.svg" width="64px" height="64px"></img> | Heroic Act Momentum Shift | Heroic Act Description | Desperate Measure Description | Desperate Measure Momentum Shift | Desperate Measure <br><img src="../../img/desperate-measures.svg" width="64px" height="64px"></img> |
 | ----- | ------------------------------------------------------------------------------------- | ------------------------- | ---------------------- | ----------------------------- | -------------------------------- | --------------------------------------------------------------------------------------------------- |
@@ -3095,7 +3101,7 @@ The following is a list of all [Character Traits](#character-traits) of the core
 You can throw objects `+4` Squares far and gain `+1` [Edge](#edge) for all [Throwing](#throwing) Tests.
 
 ### Dual Wielder
-Gain the ability to effectively use two weapons at the same time. When making successful Attacks with one weapon, add the [Free Strike](#free-strike-fs) value of the other to the Damage and gain `+1D` for Defense Tests made with your weapons.
+Gain the ability to effectively use two weapons at the same time. When making successful Attacks with one weapon, add half (RU) of the other's Damage to Attacks and gain `+1D` for Defense Tests made.
 
 ### Deep Lungs
 Raise your maximum Stamina by `+3`. 
@@ -3290,7 +3296,7 @@ A **Crippled** Character suffers `+1` Ob to **all** Tests, for each [Injury](#in
 
 A PC at **Death's Door** must succeed at least one [Toughness](#toughness-tough) Test out of a possible of three. If they never succeed, they perish, irrevocably. The Ob is determined as half of the Character's [Toughness](#toughness-tough), rounded up. Such a Test must be made once at the end of every Round. 
 
-A Character can be helped out of the **Death's Door** Condition, if their [HP](#health-points-hp) are brought back up to at least `1`. 
+A Character can be helped out of the **Death's Door** Condition, if their [HP](#health-points-hp) are brought back up to at least `1`. When granted Temporary HP, a Character is also back up on their feet, but their Death's Door Condition is **frozen**, **not removed**. Once they go down the next time, they immediately lose one of their Death's Door Tests! 
 
 ### Dissolving
 <img src="../../img/health-condition-dissolving.svg" style="width: 3rem; height: 3rem;"></img>
@@ -3782,7 +3788,7 @@ NPCs are built differently from PCs. Not all the same rules apply to them. The f
 * NPCs don't *need* [Virtues & Vices](#virtues--vices). A GM *may choose* to include these for the *main actor* NPCs, but for your average animal or passing acquaintance, no personality should be noted down. 
 * NPCs don't *need* Advancement Progress to be tracked. Thus, they cannot have [Learning Skills](#learning-skills). 
 * NPCs don't have a base HP of `10`, thus, their max. HP values will always be `10` points lower than of PCs with the same Toughness Level. 
-* NPCs have additional characteristics: [Defense](#defense-def) and [Free Strike](#free-strike-fs).
+* NPCs have an additional characteristic: [Defense](#npc-defense-def).
 
 You may begin introducing most NPCs as simple and flesh out their Character sheets only as necessary. Sometimes, you may be surprised which NPCs the players take interest in, inviting you to flesh out what you expected to be only a passing acquaintance. 
 
@@ -3793,83 +3799,142 @@ There are three types of NPCs:
 
 To keep this chapter brief, and because you might decide you don't need it, the mechanical process of creating NPCs is detailed in a later chapter, the [NPC-Builder](#npc-builder). 
 
-## Defense (Def)
-The **Defense (Def)** characteristic is reserved solely for NPCs and is the number of hits an Attacker against them must achieve in order to hit the NPC. This ensures NPCs don't have to roll for their Defense, which allows you to tell your players the creature's Defense value and they can determine themselves whether they hit. This accelerates the game and alleviates some of the work in running NPCs. 
+## NPC Defense (Def)
+The **Defense (Def)** characteristic is reserved solely for NPCs. It may be noted in one of two ways:
+1. As a **flat number**: The Ob to Attack the NPC is always this value. This is potentially very strong Defense and should be applied with great care. Its advantage is greater resolution speed, as no dice need be rolled. 
+2. As `ND`: Roll *N* `D6` to determine the Ob for an Attack against the NPC. There is no Hit Limit. The rolled Hits equals the Ob. This Defense is variable and allows for "lucky" hits, but also slows down the game as dice must be rolled. 
 
-Of course, in order for the NPC to defend, they require [AP](#action-points-ap). If they have no AP left over, treat their Defense as `1`. 
-
-The Defense characteristic should be reserved for Feeble and Regular creatures or those creatures you wish to employ en masse. 
+NPC Defense costs the normal [AP](#action-points-ap) or [Guarded](#guarded) amount and is only possible if either of those two resources is available. [Emergency Defense](#defending) is unavailable to Feeble NPCs. In case a NPC cannot Defend, always treat the Ob to Attack them as `1`. 
 
 ## Challenge Rating (CR)
 The overall power-level of a NPC is **broadly abstracted** as **Challenge Rating (CR)**. It is a tool designed to let you make an *educated guess* about the difficulty a given NPC might pose to the PCs. 
 
 ## NPC Squads
-Squads are groups of NPCs who are all of the same type, who will act as a single unit. They share the same [AP](#action-points-ap), [Stamina](#stamina--strain) and [HP](#health-points-hp) pools and always act together, as a cohesive group. 
+**NPC Squads** are groups of NPCs who are **all of the same type**, who will act as **a single unit**. They share resources and always act together, as a cohesive group. 
 
-Squads are useful in two ways. Firstly, they allow PCs to feel more heroic, by quickly felling many foes before them. Secondly, it allows you to more easily challenge your players tactically, as the higher number of foes lets you control the battlefield easier, but without too much bureaucratic overhead. For example, a Squad with a lot of members should find it easy to surround the PCs, or to block off their access to some strategic location. 
+Squads are useful in two ways. Firstly, they allow PCs to feel more heroic, by quickly felling many foes before them. Secondly, it allows you to more easily challenge your players tactically, as the higher number of foes lets you control the effectively battlefield, with reduced bureaucratic overhead. A Squad with a lot of members should find it easy to surround the PCs, or to block off their access to some strategic location. 
 
 The recommended minimum number of NPCs in the same squad is `3`, while at most, it should be `8`. The specifics of this depend on the type of NPC you are using. Very weak creatures can be safely used in higher numbers, than more powerful foes. For every creature in the Squad, the sum of their CR, halved (RU) results in their Squad CR. 
 
-As NPC Squads mechanically behave in their own special way, be sure to share the information in this chapter with your players! They should understand the basics of how Squads work, which will enable them to make tactically sound decisions around this knowledge! 
-
-### Squad HP Pool
-When in a Squad, every NPC in the Squad is treated as if it had only half (RU) of its actual maximum HP. The total HP pool is comprised of the sum of their individual maximum HP numbers (which, again, are treated as half their actual value). 
-
-> `5` monsters all of the same type - for the example, let's say zombies - normally have `20` HP each. They are organized as a Squad and thus have a shared HP pool of `5 * (20 / 2) = 50` HP. 
-
-Every time any of the NPCs in the Squad suffers Damage, it is applied to the shared HP pool. When more than an individual's maximum HP is dealt in Damage, one of the Squad members perishes. The member directly Attacked always dies first. If enough Damage has been dealt to kill more than one, the next closest Squad member perishes, too. 
-
-> Back to the zombies example. A PC deals `12` points of Damage to the Squad. As an individual zombie normally has `20` maximum HP, half of which is `10`, that is enough to kill one of the zombies. The zombie Squad's shared HP are now at `50 - 12 = 38`. 
-
-If the Squad suffers an [Instance](#damage--effects) of [AoE](#area-of-effect-aoe) Damage, which hits multiple Squad members, the maximum Damage that can be dealt is limited to the sum of the maximum HP of those members affected. In other words, an AoE Attack can only kill those Squad members actually affected. 
-
-When preparing an encounter with a Squad, it may help to write down the thresholds when members of the Squad die, in advance.
-
-> When preparing the zombies encounter, it may help to write down that one zombie dies once the shared HP reach `40`, the next at `30`, then `20`, `10` and finally `0`. This way, you don't need to do this math once Damage starts rolling in, you can simply check if after the Damage is subtracted from the shared HP, if one of these thresholds was reached. If so, a member of the Squad is felled. 
-
-To keep Squads simple to run, they do not suffer [Injuries](#injury). 
-
-### Squad Cohesion
-It is imperative that all members of the Squad be within a distance of at most `3` to at least one other member of the Squad. If a member should be farther away than this distance, for example because their nearest peer was killed or they were force moved away, then the next time the Squad acts, this member will move closer towards the Squad, until they rejoin its cohesion. 
-
-This implies you may in fact snake the Squad along, each member at the maximum distance allowed from one another. But also be aware that if you do, the PCs may take advantage of this by killing a member in the middle of the snake and thus forcing at least one half of the Squad to spend the next action getting back to the other half, to restore cohesion. 
-
-However, this doesn't imply the inverse, either. You aren't required to blob up your Squad, as this will make them easy to bombard with AoE Attacks. Try to have them assume some formation that would be reasonable for the creatures involved. While zombies might just blob up without any sense of the peril they are in, combat robots may assume a spread-out wedge formation that would allow all members to fire their weapons, while minimizing AoE Damage threat and ensuring cohesion may be quickly restored. 
+As NPC Squads mechanically behave in their own special way, be sure to share the information in this chapter with your players! They should understand the basics of how Squads work, which will enable them to make tactically sound decisions regarding them! 
 
 To make Squads easier to manage, be sure to mark every member of a Squad somehow. Assign them a color or icon, or label that you and your players can easily distinguish and reference during play. 
 
+### Squad Resources
+All members in a Squad share the same pools of [AP](#action-points-ap), [Stamina](#stamina--strain) and [HP](#health-points-hp). No values are tracked for individual members. 
+
+#### Squad HP
+Every NPC in the Squad is treated as if it had only half (RU) of its actual maximum HP. Whenever maximum HP are referred to in this or the following sections, it means the **halved maximum HP**. The HP per Squad member are represented by the following formula: `h = H / 2 (RU)`, where *h* is the resulting maximum HP and *H* would be the normal maximum HP. 
+
+> A NPC who normally has `33` maximum HP, when added to a Squad, instead has `17 = 33 / 2` maximum HP. 
+
+The total HP pool is equal to the sum of its members' maximum HP numbers: `HP Squad = N * h`, where *N* is the number of Squad members and *h* is the halved individual's maximum HP, see above. 
+
+> A Squad of `5` zombies, who each normally have `20` maximum HP, when grouped in a Squad, each instead have `10` maximum HP. As a result, the entire Squad's HP pool is `50 = 5 * (20 / 2)`. 
+
+The maximum HP per member determines the increments of the Squad's **Death Thresholds**. There are as many Death Thresholds as there are members in the Squad, the first of which always begins at `0` HP. The following Death Thresholds are then determined in ascending order. 
+
+> A Squad of `3` members, each with `10` maximum HP, result in Death Thresholds in increments of `10`: `0`, `10`, `20`. 
+
+Every time any of the members suffer Damage, it is applied to the shared HP pool. Whenever the shared HP fall below a Death Threshold, one of the Squad members dies. The member directly Attacked always dies first. If enough Damage has been dealt to kill more than one, the next closest Squad member dies, too. If multiple Death Thresholds are crossed by the same Damage source, resolve each of them, in succession.
+
+> Back to the `5` zombies example. They have `5` Death Thresholds: `0`, `10`, `20`, `30`, `40`. 
+> 
+> A PC deals `12` points of Damage to the Squad. The zombie Squad's shared HP are now at `50 - 12 = 38`, which crosses the threshold at `40`. The result is that one of the zombies dies. 
+
+When preparing an encounter with a Squad, it may help to write down the thresholds when members of the Squad die, in advance.
+
+##### Squads Suffering AoE
+[AoE](#area-of-effect-aoe) Attacks Damage is counted for each affected Squad member, but cannot exceed the sum of the affected members' maximum HP. In other words, an **AoE Attack can only kill those Squad members actually affected**. 
+
+> A Squad with `5` members, each with `10` maximum HP (normally `20` maxium HP), is hit with an AoE Attack that deals `8` points of Damage in an area that reaches `3` of the Squad's members. 
+>
+> As the Damage is counted for each affected member, that results in `24 = 3 * 8`, which crosses the thresholds to kill two of those affected members.
+
+> A Squad with `5` members, each with `10` maximum HP (normally `20` maxium HP), is hit with an AoE Attack that deals `20` points of Damage in an area that reaches `3` of the Squad's members. 
+>
+> As the Damage is counted for each affected member, this would result in `60 = 3 * 20` Damage. However, the sum of the members' maximum HP is `30 = 3 * 10` and the Damage is limited to this number. 
+> 
+> Thus, only those `3` affected members are killed and the Squad's HP reduced by `30`, and no more. 
+
+Armor and resistances are summed and then applied **after** the Damage cap has been applied, further reducing the Effective Damage, before it is actually applied to the Squad's HP. 
+
+##### Squads Suffer No Injuries
+Squads **do not** suffer [Injuries](#injury).
+
+##### Squad Temporary HP
+Squads may have [Temporary HP](#temporary-health-points), which are always depleted before their regular HP. 
+
+When affected by an AoE Attack, Temporary HP will be depleted before the Squad's shared HP. Temporary HP do not affect the AoE's Damage cap. This means it can prevent one or more Squad members' deaths.
+
+> `3` members of a Squad, each with `10` maximum HP, and the Squad itself also having `10` Temporary HP, is hit with an AoE that deals `10` points of Damage. 
+>
+> The AoE applies for every member, but is also capped to their summed maximum HP. Thus, the resulting Damage of the AoE Attack is `30`. 
+>
+> The `10` Temporary HP are now depleted from the Squad, reducing the AoE's Effective Damage to `20`. Thus, in the end, instead of all `3` hit members dying, only `2` die, and `1` survives! 
+
+#### Squad Stamina
+A Squad's total Stamina pool is equal to the sum of each individual's maximum Stamina, divided by two (RU). 
+
+> `5` creatures each with maximum Stamina of `3` results in a shared Stamina pool of `8 = (5 (Squad members) * 3 (their maximum Stamina)) / 2`
+
+#### Squad Action Points
+As the entire Squad is handled as a single unit, it gains and spends AP in the normal way, as a single creature would. 
+
 ### Squad Actions
-When adding the Squad to combat initiative, only add the Squad as a whole. Do not bother tracking the initiative of individual members of the Squad, because they **always** act at the same time, with the same shared Action Point pool. 
+When adding the Squad to Combat [Initiative Order](#initiative-order), only add the Squad as a whole. Do not bother tracking the Initiative of individual members of the Squad, because they **always** act at the same time, with the same shared Action Point pool. 
 
-The Squad (re-)gains AP only as a whole. You do not track AP for each member, and the Squad only regains as many AP as a single individual would, if they weren't in a Squad. 
-
-When a Squad spends AP to move, **all** members of the Squad get to move, at the same time. And they **must** try to move to maintain [Cohesion](#squad-cohesion), if required. These movements can trigger [Opportunity Attacks](#opportunity-Attacks), for each member of the Squad. *However* they **cannot** be halted this way. If the Squad member survives, they get to finish their movement, so that cohesion may be maintained. 
-
-When a Squad spends AP to Attack, **all** members of the Squad get to Attack, at the same time. The Squad may have multiple targets for the Attack, but only **one roll** is made **for each target** Attacked by the Squad. All members **within reach** of one target may aid the Attack roll, with `+1D` each. Damage works similarly. If the Attack is successful, a **single Damage roll** is made. For every other member that aided the Attack roll, their [Free Strike](#free-strike-fs) value is added as additional Damage, that is simply **added on top**, without any roll! The resulting Damage number counts as a single [Instance of Damage](#damage--effects).
-
-When a Squad spends AP to defend, **all** members of the Squad defend. When defending, no roll is made. The defender's [Def](#defense-def) value equals the Ob for the Attacker. While usually, only a single member is Attacked and will be the defender, all **adjacent allies** may add `+1` to their [Def](#defense-def), provided the Squad has AP left to defend with. 
+The Squad (re-)gains AP only as a whole. You do not track AP for each individual member, and the Squad only regains as many AP as a single individual would, if they weren't in a Squad. 
 
 Every time a Squad acts, members may be skipped (i. e. they do nothing), if reasonable. For example, in a tight corridor, not all members of an all melee fighter Squad may be able to reach their foes. They cannot reasonably Attack and thus, simply do nothing, instead. 
 
+#### Squad Movement
+When a Squad spends AP to move, **all** members of the Squad get to move, at the same time. And they **must** try and maintain [Cohesion](#squad-cohesion). These movements *can* trigger [Opportunity Attacks](#opportunity-Attacks), which will halt only those members who were Opportunity Attacked. 
+
+##### Squad Cohesion
+It is imperative that all members of the Squad form a single, cohesive group wherein every member must be within a distance of at most `3` Squares to at least one other member. If any members should leave the group, for example because their nearest peer was killed or they were force-moved away, then the next time the Squad acts, these members must try and move closer towards the Squad, until they reform its **Cohesion**, as a **single** group. 
+
+That means when a Squad spends AP do anything else than move, for example to Attack, only some of the members will be Attacking, and the other will instead move towards their peers to reform Cohesion. They cannot participate in the Attack, but their movement also doesn't cost any extra AP. They may only move as far as the AP that were actually spent would get them, and this movement can provoke Opportunity Attacks, which *can* halt them. If they have been halted, their priority to re-group remains the same, the next time the Squad acts. Restoring Cohesion does **not** override normal movement rules! Difficult and impassable terrain still apply. 
+
+You may in fact *snake* a Squad along, each member at the maximum distance allowed from one another. But also be aware that if you do, the PCs may take advantage of this by killing a member in the middle of the snake and thus creating two groups within the Squad. This forces at least one group of the Squad to spend the next Action getting back to the other group, to restore Cohesion as a *single group*. 
+
+However, this doesn't imply the inverse, either. You aren't required to blob up your Squad, as this will make them easy to bombard with AoE Attacks. Try to have them assume some formation that would be reasonable for the creatures involved. While zombies might just blob up without any sense of the peril they are in, combat robots may assume a spread-out wedge formation that would allow all members to fire their weapons, while minimizing AoE Damage threat and ensuring Cohesion may be quickly restored. 
+
+#### Squad Attacks
+When a Squad spends AP to Attack, **one** member of the Squad gets to make the Attack roll. If the Attack is successful, a **single Damage roll** is made and up to **three** additional non-incapacitated members, within reach, contribute `+2` points to the Attack's main Damage Type, **before** armor and resistances are applied. Thus, at most `+6` Damage can be added in total, by the Attacker's allies. 
+
+The Squad's Attack does benefit from [Flanking](#flanking), even from its own members surrounding a target.
+
+##### Squad On Squad Violence
+Sometimes, the PCs are involved in a Combat that has two groups battling each other. The PCs might be a third party trying to cross a battlefield, or they may have brought allies. In case those two NPC Squads are GM-controlled, their fight is abstracted away, to accelerate the Combat's pace. 
+
+Under such circumstances, the Turns involving Squad vs. Squad should go by very quickly. When you have them performing Attacks against one another, don't bother rolling *any* Damage, and don't bother with Defense, at all! Simply assume they hit each other, and appyly the Damage. Simply **multiply the number of the Attacking Squad's surviving members by `3`** and apply the resulting number as Effective Damage from one Squad to the other. Ignore armor and resistances. 
+
+> A Squad with three members Attacks another Squad. Apply `9 = 3 (Squad members) * 3 (always)` to the Attacked Squad, and move on. 
+
+Squads treated like this always have to spend `3` AP to Attack. That means they only get one Attack Action per Turn. This is a deliberate design to prevent you from having to apply the same math twice, in succession, without anything exciting happening in-between. Thus, under normal circumstances, the Squad may then use its remaining AP to move, or perform Reactions when appropriate. 
+
+Ultimately, your players won't care about the potential validity of the numbers, as long as they or their own Characters aren't involved. It may even bore them watching the GM play the game alone for a while. Keep Turns that don't involve the PCs as short as possible. You may of course decide you need to roll the correct numbers, but you should consider doing so only when the outcome of the Squads' fight is meaningful to the PCs. You may in fact even **delegate running an allied Squad** to the players, thus giving them agency and ensuring the validity of the numbers actually becomes quite important! 
+
+#### Squad Defense
+Defense of a Squad works as it would for any non-Squad creature, with the following difference:
+* In case the Squad's [Def](#npc-defense-def) is a flat number, if there are two other members adjacent to the one being Attacked, increase the Ob by `+1`. 
+* In case the Squad's [Def](#npc-defense-def) is a rollable number, add `+1D` for up to two other members adjacent to the one being Attacked, each. 
+
+In case the Defense is successful, the Attack is entirely negated, as usual. 
+
 ### Squad Captains
-A Squad may or may not have an assigned Captain. The Squad will follow the Captain and treat it as part of the Squad in terms of [Cohesion](#squad-cohesion). A Squad Captain is treated as a separate entity. It does not share the HP, Stamina or AP pools. However, the Captain and their Squad will always act at the same time. For purposes of tracking the initiative ladder, you may use the Captain as the tracker for the Squad. 
+A Squad may or may not have an assigned Captain. The Squad will follow the Captain and treat it as part of the Squad in terms of [Cohesion](#squad-cohesion). A Squad Captain is treated as a separate entity. It does not share the HP, Stamina or AP pools. However, the Captain and their Squad will always act at the same time. For purposes of tracking the Initiative Order, you may use the Captain as the tracker for the Squad. 
 
 A Squad with an attached Captain enjoys one of the following benefits for you to choose from when you create the Squad:
 * **Spurred**: All members of the Squad may move an additional `2` Squares for every AP spent. 
-* **Hardened**: The Squad starts with an additional `15` Temporary HP. These must be depleted before members of the Squad may take Damage. 
-* **Drilled**: The Squad's Stamina pool has `+4` points.
-* **Indoctrinated**: The Squad receives `+1` AP at the start of its Turn, but all members lose `-1` Def. 
+* **Hardened**: The Squad starts with an additional `10` Temporary HP. 
+* **Drilled**: The Squad's Stamina pool has `+6` points.
+* **Hastened**: The Squad receives `+1` AP at the start of its Turn, up to the normal limit. 
 
 If the Captain is felled, the Squad loses the bonus immediately. 
 
 A Captain can but does not have to be a tactical leader. It could simply be a creature that bullies others into obedience, is so powerful and respected others simply flock to it or has some other power with which it may influence the will of others to obey it. 
-
-### Squad On Squad Violence
-Sometimes, the PCs are involved in a combat encounter that has two groups battling each other. The PCs might be a third party trying to cross a battlefield, or they may have brought allies. 
-
-Under such circumstances, the turns involving Squad vs. Squad should go by very quickly. Don't bother rolling any Damage, at all. Simply count the number of Squad members that are in weapon's range, sum their Free Strike value, and subtract that number from their enemy Squad's HP pool. This also implies Defense Tests aren't rolled. Simply assume they hit each other. The specifics of whether they would realistically hit are of no interest, least of all to your players. 
-
-Ultimately, your players won't care about the potential correctness of the numbers, as long as their own Characters aren't involved. It may even bore them watching the GM play the game alone for a while. Therefore, to re-iterate - keep Turns that don't involve the PCs as short as possible. After all, the PCs are the stars of the show! 
 
 ## Bring NPCs To Life
 Much like the PCs, or in fact real people, *proper* NPCs lead their own lives, with their own Ambition, Aspirations, Quirks, strengths and weaknesses. Keeping track of all of the numbers that implies, can become quite the challenge. But you won't need all of that data from the start, or even to track it all the time. Flesh out and update only as needed, to keep the work-load on your end low. You have enough work on your plate, as it is. Another way to think about NPCs is such: they are actors, who are born when they walk on stage, and who die, when they walk off stage. Every time they appear, you and your players may learn more about them and such knowledge comes gradually, bit by bit, over a long time. You'll only ever learn more than mere surface-level knowledge about the long-term actors. 
@@ -4158,8 +4223,7 @@ Attacks from in front of the creature cannot Damage it! It still suffers [Flanki
 
 ## Choosing NPC Characteristics
 * You may increase each Attribute `+1` at the cost of `-1` point. 
-* You may increase Stability, Defense or Free Strike `+1` at the cost of `-1` points. 
-  * The Damage type for the Free Strike may be freely chosen. 
+* You may increase Stability or Defense `+1` at the cost of `-1` points. 
 
 ## Choosing NPC Skills
 Custom Skills are that which brings the spice to every NPC and you are free to build them however you like, but keep the following guidelines in mind:
