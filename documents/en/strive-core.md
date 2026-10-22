@@ -3334,7 +3334,7 @@ For every point in **Frostbitten**, a Character suffers `-1D` to all [Tests](#te
 
 * Graded
 * Automatic Shrug-Off: `-1` point at the end of the Turn. 
-* Immediate Cancel: When thawed, for example through [Burning](#immolated).
+* Immediate Cancel: When thawed, for example through [Immolated](#immolated).
 
 ### Grappled
 <img src="../../img/health-condition-grappled.svg" style="width: 3rem; height: 3rem;"></img>
@@ -4275,7 +4275,7 @@ Suitable for: Any creature that could reasonably emit such a thrumming sound, su
 **`-8` Hostility**: The creature throws or lays or spews forth `3` traps, up to `10` Fields far, that now litter the battlefield. Each of these will deal `6` points of Damage. The Damage type should be chosen according to the nature of the traps. E. g. piercing for bear traps, acid for pools of acid, burning for bombs and so on. 
 
 ### I Don't Bleed (-5 points; +6 CR)
-**`-10` Hostility**: Immediately clears all points of [Bleeding](#bleeding), [Burning](#immolated) and [Frostbitten](strive-core.md#frostbitten) and awards `+10` Temporary HP. 
+**`-10` Hostility**: Immediately clears all points of [Bleeding](#bleeding), [Immolated](#immolated) and [Frostbitten](strive-core.md#frostbitten) and awards `+10` Temporary HP. 
 
 ### No, I Am The Hero! (-10 points; +8 CR)
 **`-20` Hostility**: Immediately after the PCs have activated a [Heroic Act](#momentum), this creature activates it again, but for itself and its allies, instead of the PCs!
