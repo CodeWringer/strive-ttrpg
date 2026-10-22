@@ -408,7 +408,7 @@ By using STRIVE (that includes but is not limited to viewing, reading, referenci
     - [Zealot](#zealot)
   - [List of Conditions](#list-of-conditions)
     - [Berserk](#berserk)
-    - [Burning](#burning)
+    - [Immolated](#immolated)
     - [Bleeding](#bleeding)
     - [Crippled](#crippled)
     - [Death's Door](#deaths-door)
@@ -584,11 +584,11 @@ As STRIVE is meant primarily as a rule-book to help you quickly find what you ne
 | [Basic Action](#action-points-ap)                           | Any Action not requiring a Test, such as normal movement. |
 | [Berserk](#berserk)                                         | A Condition that forces a Character to Attack anyone they can see, including allies. |
 | [Binary Test](#binary-test)                                 | A Test that allows no room for failure. |
-| [Bleeding](#bleeding)                                       | A Condition that causes Bleeding Damage every Tick. |
+| [Bleeding](#bleeding)                                       | A Condition that causes Pure Damage every Tick. |
 | [Boon](#boons--penalties)                                   | A positive effect on a Character, for example one that grants Edge or which awards Temporary HP. |
 | [Brief](#quarters-of-a-day-qod)                             | A Brief activity takes only minutes. Many of these can happen in a [QoD](#quarters-of-a-day-qod), without advancing it meaningfully.  |
 | [Bulk](#bulk)                                               | Describes the weight, size and ease of use of an Asset. |
-| [Burning](#burning)                                         | A Condition that causes Burning Damage every Tick. |
+| [Immolated](#immolated)                                     | A Condition that causes Burning Damage every Tick. |
 | [Carrying Capacity](#carrying-capacity)                     | Limits how much a Character can carry on-person. |
 | [Character Trait](#character-traits)                        | A unique aspect of a Character, such as an exclusive ability or Title of Renown. |
 | [Combat](#combat)                                           | The state the game enters when a fight breaks out. Time is finely sliced and Characters act in Turns, with a limited number of actions they may take. |
@@ -680,7 +680,6 @@ As STRIVE is meant primarily as a rule-book to help you quickly find what you ne
 | [Opportunity Attack](#opportunity-attacks)                  | An Attack that may trigger as a Reaction to a foe moving exiting the Range of Opportunity. This Attack stops the enemy. |
 | [Opposed Test](#opposed-test)                               | A Test that resolves when two Characters come into opposition. Most commonly finds use in Combat. |
 | [Overweight](#overweight)                                   | A Condition a Character suffers when they try to carry too much. |
-| [Overwhelmed](#flanking)                                    | The third and final degree of Flanking. An Overwhelmed Character's armor is no longer protects, at all and their Defense Tests are incredibly dfficult. |
 | [Overworld Field](#travel--terrain)                        | A single field of an overworld map representing an area `10km`/`6 mile` in diameter. |
 | [Owning Skill](#expertise)                                  | The Skill an Expertise is part of. |
 | [Pacified](#pacified)                                       | A Condition that cannot *willingly* take any hostile Actions. |
@@ -717,7 +716,7 @@ As STRIVE is meant primarily as a rule-book to help you quickly find what you ne
 | [Round](#initiative-order)                                  | A Round comprises all Turns of Characters currently in Initiative Order. When all Characters have had their Turn, a Round is concluded and the next Round begun. |
 | [Rounded Down (RD)](#rounded-up--rounded-down)              | Indicates a step or result of a calculation is supposed to be rounded down. |
 | [Rounded Up (RU)](#rounded-up--rounded-down)                | Indicates a step or result of a calculation is supposed to be rounded up. |
-| [Serrated](#serrated)                                       | A Weapon Trait that indicates a weapon deals additional Bleeding Damage. |
+| [Serrated](#offensive-weapon-traits)                        | A Weapon Trait that indicates a weapon causes additional Bleeding. |
 | [Signature Virtues / Vices](#virtues--vices)                | Describes a Character's way of thinking and how they *will* act, in general. In fact, they are *known* to be this way! |
 | [Single Target (ST)](#single-target-st)                     | Indicates an Attack will only affect a single target. This can be a Character or object. |
 | [Skill Forking](#skill-forking)                             | Allows you to benefit from varied knowledge. You can Fork related Skills into a Test, if you can reasonably explain their use. |
@@ -725,7 +724,7 @@ As STRIVE is meant primarily as a rule-book to help you quickly find what you ne
 | [Slow Reload](#foundational-weapon-traits)                  | A Weapon Trait that for a weapon that must be reloaded after every use, at the cost of AP. |
 | [Solid Success](#test-success-ratings)                      | A strong success of a Test. |
 | [Sprinting Speed / Sprint](#sprinting-speed-sprint)         | Can extend a Character's movement per AP, at the cost of Stamina. |
-| [Field](#distances--the-grid)                              | A single field of an encounter/battle map representing an area `1m`/`3'` in diameter. |
+| [Field](#distances--the-grid)                               | A single field of an encounter/battle map representing an area `1m`/`3'` in diameter. |
 | [Stability (Stab)](#stability-stabil)                       | Counter-acts Forced Movement. |
 | [Stamina](#stamina--strain)                                 | Stamina is a numeric resource that lets a Character endure physical and mental taxation. |
 | [Stepped Test](#stepped-test)                               | A Test that allows failing forward or offers multiple chances at recovery from a critical blunder. |
@@ -1556,9 +1555,8 @@ All Damage is inflicted with one of these types, which dictate the type of [Inju
 | Damage Type | Description                                                            | Treatment Skill              | Additional Penalty                          |
 | ----------- | ---------------------------------------------------------------------- | ---------------------------- | ------------------------------------------- |
 | Acid        | Dissolves anything it touches, depending on circumstance.              | [Medicine](#medicine-agiwit) | `-1` [AP](#action-points-ap) per Turn       |
-| Bleeding    | Inflicted by [Bleeding](#bleeding). The result of open wounds.         | [Medicine](#medicine-agiwit) | `+1` [Bleeding](#bleeding)                  |
 | Bludgeoning | Inflicted by blunt weapons and [Unarmed](#unarmed-combat-agistr) Attacks. Can cause a Character to fall [Unconscious](#unconscious), for that, see [Bludgeoned To 0 Hp](#bludgeoned-to-0-hp). | [Surgery](#surgery-agiwit)   | `+1` [Strain](#strain)           |
-| Burning     | Inflicted by extreme heat.                                             | [Surgery](#surgery-agiwit)   | `+1` [Burning](#burning)                    |
+| Burning     | Inflicted by extreme heat.                                             | [Surgery](#surgery-agiwit)   | `+1` [Immolated](#immolated)                |
 | Electrical  | Inflicted by eletrical shock.                                          | [Medicine](#medicine-agiwit) | `+1` [Electrified](#electrified)            |
 | Freezing    | Inflicted by extreme cold.                                             | [Medicine](#medicine-agiwit) | `+1` [Frostbitten](#frostbitten)            |
 | Piercing    | Usually inflicted by any sort of stabbing weapon, like a spear, or an animal's stinger. | [Surgery](#surgery-agiwit)   | `+1` [Bleeding](#bleeding) |
@@ -1777,7 +1775,7 @@ These Weapon Traits modify an [Attack's Profile](#damage--effects) in a particul
 
 | Legendary Weapon Traits   | Description                                                                                   | 
 | ------------------------- | --------------------------------------------------------------------------------------------- |
-| **Cruel**                 | A Solid Hit or better with this weapon deals an additional `Q * 2` Bleeding Damage if the victim has at least one Injury. |
+| **Cruel**                 | A Solid Hit or better with this weapon deals an additional `Q * 2` Slashing Damage if the victim has at least one Injury. |
 | **Deflecting**            | This weapon is especially good at turning Attacks aside. When you use this weapon in a Defense Test and succeed, you may [Knock-Back](#forced-movement) the Attacker by `Q` Fields. |
 | **Foolproof**             | The first successful Attack each Round is treated as one Damage grade higher. I.e. Glancing -> Solid; Solid -> Masterful|
 | **Relentless**            | Once per Round, when an Attack with this weapon is successful, you may make one additional free Attack, with Ob `+2`. |
@@ -1917,9 +1915,9 @@ Once in a Round, you may delay your Turn, moving it to the end of the current Ro
 
 Note that Delaying your Turn does not prevent you suffering [Condition](#condition) or Turn effects. They still apply the instant you *would* have first gotten your Turn. However, **only the first time** they would apply, in a Round! 
 
-> It comes to a PC's Turn. Their player decides it is best to wait for later, and Delays their Turn. Their Character also happens to have the Burning Condition, whose effects must now be immediately applied. Only then is their Turn moved to the end of the Round.
+> It comes to a PC's Turn. Their player decides it is best to wait for later, and Delays their Turn. Their Character also happens to have the Immolated Condition, whose effects must now be immediately applied. Only then is their Turn moved to the end of the Round.
 >
-> Once the Round is nearly over, and the PC gets to act again, they may immediately begin. They **don't** have to apply the Burning Condition again! 
+> Once the Round is nearly over, and the PC gets to act again, they may immediately begin. They **don't** have to apply the Immolated Condition again! 
 
 ### Surprise Round
 If one party is surprised, for example during an ambush, then the ambushing party gets to act for a full Round, without the ambushed party getting a chance to act. This is called a **Surprise Round**. After the Surprise Round Initiative Order is handled as normal. Additionally, any surprised Characters **do not** get their starting [AP](#action-points-ap), until the end of the Surprise Round! 
@@ -2336,12 +2334,11 @@ This circumstance changes, when the opponent is flanked and surrounded. Most arm
 
 To **Flank** an opponent, two allies must be within their weapons' range to and on **opposite sides** of the opponent. If both are Attacking from the same side, then the armor and shield will continue protecting fully. This applies to melee and ranged Attacks. 
 
-Three allies can **Surround** the opponent, further reducing their armor's and shield's effectiveness. Four or more allies can **Overwhelm** the opponent, rendering their defenses completely useless. The third and fourth (or any beyond that number) ally can **freely** choose a spot within weapon's reach. 
+Three allies can **Surround** the opponent, rendering their defenses completely useless. The third ally can **freely** choose a spot within weapon's reach. 
 
 * When **Unthreatened**, the armor and shield protect fully. No Defense penalties. 
 * When **Flanked**, the armor and shield protect only half (RU) as much. `-1D` to any Defense Test. 
-* When **Surrounded**, the armor and shield protect only one fourth (RU) as much. `-1D` to any Defense Test. 
-* When **Overwhelmed**, the armor and shield no longer protect **at all**. `-2D` to any Defense Test. 
+* When **Surrounded**, the armor and shield no longer protect **at all**. `-2D` to any Defense Test. 
 
 If one of the allies is using a weapon with a property to increase its reach, for example [Long Reach](#general-weapon-traits), then they need not be adjacent to the enemy to count towards the Flanking effect (but still within their weapon's reach to the enemy). 
 
@@ -3086,7 +3083,7 @@ The ability to cook hearty and sweet meals that can strengthen and invigorate.
     * Grant `QD4` [Temporary HP](#temporary-health-points). 
     * Increase [Base Initiative](#base-initiative-bi) by `Q`. 
     * Increase [Strength](#strength-str) or [Toughness](#toughness-tough) by `Q / 2 (RU)`. 
-    * Resist `Q` [Freezing](#damage-types) or [Burning](#damage-types) or [Bleeding](#damage-types) Damage. 
+    * Resist `Q` [Freezing](#damage-types) or [Burning](#damage-types) Damage. 
 
 The boons from meals do not stack. Eating a second meal will have it override all of a previous meal's boons. The strength of boons is determined at the time of creation and are the same for all Characters who share in the meal. 
 
@@ -3262,22 +3259,22 @@ A Character who is in **Berserk** Condition, **must** Attack the creature neares
 * Immediate Cancel: When the Character is made [Unconscious](#unconscious) or no other creatures remain alive and/or conscious.
 * Difficult Repeats: Whenever shrugging off this Condition, you become **guarded** against it until the start of your next Turn, making any Attack or effect enacted against you that would cause you to suffer it again `+1` Ob harder for your foes. 
 
-### Burning
+### Immolated
 <img src="../../img/health-condition-burning.svg" style="width: 3rem; height: 3rem;"></img>
 
-For every point in the **Burning** Condition, a Character suffers `2` points of [Burning](#damage-types) Damage every [Tick](#ticks). 
+For every point in the **Immolated** Condition, a Character suffers `2` points of [Burning](#damage-types) Damage every [Tick](#ticks). 
 
 * Graded
 * Greedy: automatically increases by `+1` point **after** every [Tick](#ticks). 
 * Shrug Off: `-1` point per [AP](#action-points-ap) spent actively patting out flames, rolling on the floor and so on. 
 * Immediate Cancel: When the flames are extinguished through external means. 
 
-Adjacent allies can also help pat out the flames, by spending an [AP](#action-points-ap) for every point reduction of Burning. 
+Adjacent allies can also help pat out the flames, by spending an [AP](#action-points-ap) for every point reduction of Immolated. 
 
 ### Bleeding
 <img src="../../img/health-condition-bleeding.svg" style="width: 3rem; height: 3rem;"></img>
 
-For every point in the **Bleeding** Condition, a Character suffers `2` points of [Bleeding](#damage-types) Damage every [Tick](#ticks). 
+For every point in the **Bleeding** Condition, a Character suffers `2` points of [Pure](#damage-types) Damage every [Tick](#ticks). 
 
 * Graded
 * Shrug Off: `-2` points with a [Toughness](#toughness-tough) [Test](#tests) with Ob `1`. 
@@ -3337,7 +3334,7 @@ For every point in **Frostbitten**, a Character suffers `-1D` to all [Tests](#te
 
 * Graded
 * Automatic Shrug-Off: `-1` point at the end of the Turn. 
-* Immediate Cancel: When thawed, for example through [Burning](#burning).
+* Immediate Cancel: When thawed, for example through [Burning](#immolated).
 
 ### Grappled
 <img src="../../img/health-condition-grappled.svg" style="width: 3rem; height: 3rem;"></img>
@@ -3432,6 +3429,7 @@ A **Terrified** Character **must** flee from whatever it is that terrified them,
 An **Unconscious** Character is unable to act and is mostly unaware of their surroundings. 
 
 * Immediate Cancel: If the Character is woken up through external stimulus. 
+* Shrug Off: Ob `2` Test of Awareness.
 * Difficult Repeats: Whenever shrugging off this Condition, you become **guarded** against it until the start of your next Turn, making any Attack or effect enacted against you that would cause you to suffer it again `+1` Ob harder for your foes. 
 
 ## List of Illnesses
@@ -4277,7 +4275,7 @@ Suitable for: Any creature that could reasonably emit such a thrumming sound, su
 **`-8` Hostility**: The creature throws or lays or spews forth `3` traps, up to `10` Fields far, that now litter the battlefield. Each of these will deal `6` points of Damage. The Damage type should be chosen according to the nature of the traps. E. g. piercing for bear traps, acid for pools of acid, burning for bombs and so on. 
 
 ### I Don't Bleed (-5 points; +6 CR)
-**`-10` Hostility**: Immediately clears all points of [Bleeding](#bleeding), [Burning](#burning) and [Frostbitten](strive-core.md#frostbitten) and awards `+10` Temporary HP. 
+**`-10` Hostility**: Immediately clears all points of [Bleeding](#bleeding), [Burning](#immolated) and [Frostbitten](strive-core.md#frostbitten) and awards `+10` Temporary HP. 
 
 ### No, I Am The Hero! (-10 points; +8 CR)
 **`-20` Hostility**: Immediately after the PCs have activated a [Heroic Act](#momentum), this creature activates it again, but for itself and its allies, instead of the PCs!

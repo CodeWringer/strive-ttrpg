@@ -708,12 +708,12 @@ A set of light armor that doesn't impede the wearer much. Example: cloth armor l
 * Bulk: `2`
 * Work-Rate: `3 / QoD`, PI: `18`
 
-| Protections          | Unthreatened | Flanked | Surrounded | Overwhelmed | 
-| -------------------- | ------------ | ------- | ---------- | ----------- | 
-| **Slashing**         | 5            | 3       | 2          | 0           | 
-| **Piercing**         | 4            | 2       | 1          | 0           | 
-| **Bludgeoning**      | 4            | 2       | 1          | 0           | 
-| **Acid**             | 6            | 3       | 2          | 0           | 
+| Protections          | Unthreatened | Flanked | Surrounded | 
+| -------------------- | ------------ | ------- | ---------- | 
+| **Slashing**         | 5            | 3       | 0          | 
+| **Piercing**         | 4            | 2       | 0          | 
+| **Bludgeoning**      | 4            | 2       | 0          | 
+| **Acid**             | 6            | 3       | 0          | 
 
 #### Medium Armor
 A set of medium armor with a good balance of protection and weight. Example: full chain mail armor, with or without a helmet. 
@@ -725,13 +725,13 @@ A set of medium armor with a good balance of protection and weight. Example: ful
 * Bulk: `3`
 * Work-Rate: `2 / QoD`, PI: `24`
 
-| Protections          | Unthreatened | Flanked | Surrounded | Overwhelmed | 
-| -------------------- | ------------ | ------- | ---------- | ----------- | 
-| **Slashing**         | 6            | 3       | 2          | 0           | 
-| **Piercing**         | 6            | 3       | 2          | 0           | 
-| **Bludgeoning**      | 4            | 2       | 1          | 0           | 
-| **Acid**             | 4            | 2       | 1          | 0           | 
-| **Electrical**       | 6            | 3       | 2          | 0           |
+| Protections          | Unthreatened | Flanked | Surrounded | 
+| -------------------- | ------------ | ------- | ---------- | 
+| **Slashing**         | 6            | 3       | 0          | 
+| **Piercing**         | 6            | 3       | 0          | 
+| **Bludgeoning**      | 4            | 2       | 0          | 
+| **Acid**             | 4            | 2       | 0          | 
+| **Electrical**       | 6            | 3       | 0          |
 
 #### Heavy Armor
 A set of heavy armor with excellent protection, at the cost of encumbering the wearer greatly. Example: full plate armor. 
@@ -743,13 +743,13 @@ A set of heavy armor with excellent protection, at the cost of encumbering the w
 * Bulk: `4`
 * Work-Rate: `2 / QoD`, PI: `24`
 
-| Protections          | Unthreatened | Flanked | Surrounded | Overwhelmed | 
-| -------------------- | ------------ | ------- | ---------- | ----------- | 
-| **Slashing**         | 8            | 4       | 2          | 0           | 
-| **Piercing**         | 8            | 4       | 2          | 0           | 
-| **Bludgeoning**      | 6            | 3       | 2          | 0           | 
-| **Acid**             | 6            | 3       | 2          | 0           | 
-| **Electrical**       | 6            | 3       | 2          | 0           | 
+| Protections          | Unthreatened | Flanked | Surrounded | 
+| -------------------- | ------------ | ------- | ---------- | 
+| **Slashing**         | 8            | 4       | 0          | 
+| **Piercing**         | 8            | 4       | 0          | 
+| **Bludgeoning**      | 6            | 3       | 0          | 
+| **Acid**             | 6            | 3       | 0          | 
+| **Electrical**       | 6            | 3       | 0          | 
 
 ### Shield Types
 Shields are Assets that provide passive bonuses to Defense against melee and ranged Attacks and require one free hand to use. This implies they cannot be used at the same time as a two-handed weapon (unless of course if you have more than two hands). 
@@ -770,11 +770,11 @@ A small round or oblong shield commonly held as far from the body as possible, t
 * Bulk: `1`
 * Work-Rate: `3 / QoD`, PI: `12`
 
-| Unthreatened           | Flanked           | Surrounded           | Overwhelmed           |
-| ---------------------- | ----------------- | -------------------- | --------------------- |
-| `+1D` for melee Defense. | `+1D` for melee Defense. |  |  |
-| `+2` [Edge](./strive-core.md#edge) for melee Defense against Piercing Attacks. | `+2D` for melee Defense against Piercing Attacks. | `+1D` for melee Defense against Piercing Attacks. |  |
-| `-1D` for ranged Defense. | `-2D` for ranged Defense. | `-2D` for ranged Defense. | `-2D` for ranged Defense. |
+| Unthreatened           | Flanked           | Surrounded           |
+| ---------------------- | ----------------- | -------------------- |
+| `+1D` for melee Defense. | `+1D` for melee Defense. |  |
+| `+1` [Edge](./strive-core.md#edge) for melee Defense against Piercing Attacks. | `+1D` for melee Defense against Piercing Attacks. | |
+| `-1D` for ranged Defense. | `-2D` for ranged Defense. | `-2D` for ranged Defense. |
 
 #### Medium Shield
 A medium-sized, round or kite-shaped shield made from tough wood and leather or even metal, which offers good protection against most Attacks, while not encumbering the wielder too much. 
@@ -784,9 +784,9 @@ A medium-sized, round or kite-shaped shield made from tough wood and leather or 
 * Bulk: `2`
 * Work-Rate: `2 / QoD`, PI: `12`
 
-| Unthreatened           | Flanked           | Surrounded           | Overwhelmed           |
-| ---------------------- | ----------------- | -------------------- | --------------------- |
-| `+1` [Edge](./strive-core.md#edge) for any Defense. | `+1D` for any Defense. |  | `-1D` for any Defense. |
+| Unthreatened           | Flanked           | Surrounded           |
+| ---------------------- | ----------------- | -------------------- |
+| `+1` [Edge](./strive-core.md#edge) for any Defense. | `+1D` for any Defense. |  |
 
 #### Heavy Shield
 A large, kite-shaped or rectangular shield, which can protect every part of the fighter, from the shoulder down to the feet. Its weight is very tiring. 
@@ -796,9 +796,9 @@ A large, kite-shaped or rectangular shield, which can protect every part of the 
 * Bulk: `4`
 * Work-Rate: `2 / QoD`, PI: `18`
 
-| Unthreatened           | Flanked           | Surrounded           | Overwhelmed           |
-| ---------------------- | ----------------- | -------------------- | --------------------- |
-| `+2` [Edge](./strive-core.md#edge) for any Defense. | `+1` [Edge](./strive-core.md#edge) for any Defense. | `+1D` for any Defense. |  |
+| Unthreatened           | Flanked           | Surrounded           |
+| ---------------------- | ----------------- | -------------------- |
+| `+2` [Edge](./strive-core.md#edge) for any Defense. | `+1` [Edge](./strive-core.md#edge) for any Defense. |  |
 
 ### Weapon Families
 Following are fantasy-themed [Weapon-Families](./strive-core.md#weapon-family). These are broad abstractions for that kind of weapon. For example "Axe" makes no distinction between a hatchet or a huge double-bladed axe. 
@@ -1446,28 +1446,28 @@ The summoning and control of fire. The flame being a destructive force, pyromanc
 
 | Level | Name                 | AP | Distance       | Ob                        | Effect(s)                      | Backfire Effect(s) |
 | ----- | -------------------- | -- | -------------- | ------------------------- | ------------------------------ | ------------------ |
-| 0     | Burning Touch        | 2  | `1`        | `Opposed - SI`            | A controlled flame erupts and stays in your hand, inflicting `SI * 3` points of Burning Damage and `+1` [Burning](./strive-core.md#burning) on touch, to a ST. | You are affected, instead. |
-| 1     | Flame Whip           | 2  | `SI * 3`   | `Opposed`                 | Lash out at a ST with a whip made of pure fire. <br> `≤ 1` Hit: `SI * 2` Burning; `+1` [Burning](./strive-core.md#burning) <br> `= 2` Hits: `SI * 4` Burning; `+2` [Burning](./strive-core.md#burning) <br> `≥ 3` Hits: `SI * 6` Burning; `+3` [Burning](./strive-core.md#burning) | You lose control and the whip lashes out in a random direction, instead! |
+| 0     | Burning Touch        | 2  | `1`        | `Opposed - SI`            | A controlled flame erupts and stays in your hand, inflicting `SI * 3` points of Burning Damage and `+1` [Immolated](./strive-core.md#immolated) on touch, to a ST. | You are affected, instead. |
+| 1     | Flame Whip           | 2  | `SI * 3`   | `Opposed`                 | Lash out at a ST with a whip made of pure fire. <br> `≤ 1` Hit: `SI * 2` Burning; `+1` [Immolated](./strive-core.md#immolated) <br> `= 2` Hits: `SI * 4` Burning; `+2` [Immolated](./strive-core.md#immolated) <br> `≥ 3` Hits: `SI * 6` Burning; `+3` [Immolated](./strive-core.md#immolated) | You lose control and the whip lashes out in a random direction, instead! |
 | 1     | Imbue Flame          | 2  | `SI * 3`   | `SI`                      | **Concentration**: Cover an object in flames that do not burn it! All Attacks made with that object deal an additional `SI * 2` points of Burning Damage! | The flames *do* consume the object they cover! The object *can* still be carried or wielded, but will deal `SI * 2` points of Burning Damage to whoever does, at the start of their every Turn! |
-| 2     | Cone of Fire         | 3  | `SI * 2`   | `SI + 1`                  | Shoot a burst of fire in an AoE cone. <br> `≤ 1` Hit: `SI * 2` Burning; `+1` [Burning](./strive-core.md#burning) <br> `= 2` Hits: `SI * 4` Burning; `+2` [Burning](./strive-core.md#burning) <br> `≥ 3` Hits: `SI * 6` Burning; `+3` [Burning](./strive-core.md#burning) | The effect triggers in reverse, pointing the cone backwards, through your face. |
-| 3     | Fire Ball            | 2  | `SI * 15`  | `SI`                      | Form a large ball of flame between your hands, ready to be flung at a target location, affecting an AoE radius of `SI` Fields. <br> `≤ 1` Hit: `SI` Burning; `+1` [Burning](./strive-core.md#burning) <br> `= 2` Hits: `SI * 2` Burning; `+1` [Burning](./strive-core.md#burning) <br> `≥ 3` Hits: `SI * 3` Burning; `+2` [Burning](./strive-core.md#burning) | The fire ball instead launches in a random direction, impacting with the first obstacle it comes across! |
-| 3     | Flame Armor          | 1  |               | `SI`                         | **Reaction**: Upon you or an adjacent target being successfully Attacked, engulf yourself or them in flames, that burst forth and absorb up to `SI * 3` points of Damage. | You suffer `+1` [Burning](./strive-core.md#burning)! |
-| 4     | Flame Jet            | 3  | `SI * 3`   | `SI + 1`                  | **Concentration**: A steady stream of flame shoots from your hands, dealing `SI * 2` points of Burning Damage and inflicting `+1` [Burning](./strive-core.md#burning) to anything caught by it, in a straight AoE line. | The line of fire erupts backwards, through you! This lasts `1` Round and you **cannot** concentrate on any other spells in the meantime! |
+| 2     | Cone of Fire         | 3  | `SI * 2`   | `SI + 1`                  | Shoot a burst of fire in an AoE cone. <br> `≤ 1` Hit: `SI * 2` Burning; `+1` [Immolated](./strive-core.md#immolated) <br> `= 2` Hits: `SI * 4` Burning; `+2` [Immolated](./strive-core.md#immolated) <br> `≥ 3` Hits: `SI * 6` Burning; `+3` [Immolated](./strive-core.md#immolated) | The effect triggers in reverse, pointing the cone backwards, through your face. |
+| 3     | Fire Ball            | 2  | `SI * 15`  | `SI`                      | Form a large ball of flame between your hands, ready to be flung at a target location, affecting an AoE radius of `SI` Fields. <br> `≤ 1` Hit: `SI` Burning; `+1` [Immolated](./strive-core.md#immolated) <br> `= 2` Hits: `SI * 2` Burning; `+1` [Immolated](./strive-core.md#immolated) <br> `≥ 3` Hits: `SI * 3` Burning; `+2` [Immolated](./strive-core.md#immolated) | The fire ball instead launches in a random direction, impacting with the first obstacle it comes across! |
+| 3     | Flame Armor          | 1  |               | `SI`                         | **Reaction**: Upon you or an adjacent target being successfully Attacked, engulf yourself or them in flames, that burst forth and absorb up to `SI * 3` points of Damage. | You suffer `+1` [Immolated](./strive-core.md#immolated)! |
+| 4     | Flame Jet            | 3  | `SI * 3`   | `SI + 1`                  | **Concentration**: A steady stream of flame shoots from your hands, dealing `SI * 2` points of Burning Damage and inflicting `+1` [Immolated](./strive-core.md#immolated) to anything caught by it, in a straight AoE line. | The line of fire erupts backwards, through you! This lasts `1` Round and you **cannot** concentrate on any other spells in the meantime! |
 
 **Rituals**
 
 | Level | Name                 | Time Increment | Ob          | Ritualists | Effect(s)                      | Side-Effect(s)     | Backfire Effect(s) |
 | ----- | -------------------- | -------------- | ----------- | ---------- | ------------------------------ | ------------------ | ------------------ |
-| 5     | Rain of Fire         | 3 Hours        | `SI`        | 1+         | **Concentration**: Fire rains from the sky in a `SI * 10` Field radius, up to `SI * 15` Fields far away. Everything caught in the falling flames and sparks catches fire, suffering `SI * 3` Burning Damage and `+1` [Burning](./strive-core.md#burning) Condition! | The blanket of firery precipitation has holes. | You are immolated, suffering `SI * 3` Burning Damage and `+3` [Burning](./strive-core.md#burning) Condition! |
+| 5     | Rain of Fire         | 3 Hours        | `SI`        | 1+         | **Concentration**: Fire rains from the sky in a `SI * 10` Field radius, up to `SI * 15` Fields far away. Everything caught in the falling flames and sparks catches fire, suffering `SI * 3` Burning Damage and `+1` [Immolated](./strive-core.md#immolated) Condition! | The blanket of firery precipitation has holes. | You are immolated, suffering `SI * 3` Burning Damage and `+3` [Immolated](./strive-core.md#immolated) Condition! |
 
 ### Restoration (Arc/Awar)
 The mending of the body and mind.
 
 | Level | Name                 | AP | Distance   | Ob                           | Effect(s)                      | Backfire Effect(s) |
 | ----- | -------------------- | -- | ---------- | ---------------------------- | ------------------------------ | ------------------ |
-| 0     | Treating Touch       | 2  | `1`    | `Injury Ob - SI`             | An [Injury](./strive-core.md#injury) of a ST of your choosing, in hand's reach, is magically healed and removed. Only one such treatment can safely be made, per creature, every `6` hours. If a treatment is made before the waiting time is up, roll a `D6` - a `1` will cause the patient to suffer a mutation, while a `2` through `5` will cause them and you `+2` [Arcane Slag](#arcane-overheat--slag). A `6` is lucky and will cause no negative effects. <br> `≤ 1` Hit: Also restores `SI * 2` [HP](./strive-core.md#health-points-hp) <br> `= 2` Hits: Also restores `SI * 3` [HP](./strive-core.md#health-points-hp) <br> `≥ 3` Hits: Also restores `SI * 4` [HP](./strive-core.md#health-points-hp) | You suffer `SI * 5` points of [Bleeding](./strive-core.md#damage-types) Damage. |
+| 0     | Treating Touch       | 2  | `1`    | `Injury Ob - SI`             | An [Injury](./strive-core.md#injury) of a ST of your choosing, in hand's reach, is magically healed and removed. Only one such treatment can safely be made, per creature, every `6` hours. If a treatment is made before the waiting time is up, roll a `D6` - a `1` will cause the patient to suffer a mutation, while a `2` through `5` will cause them and you `+2` [Arcane Slag](#arcane-overheat--slag). A `6` is lucky and will cause no negative effects. <br> `≤ 1` Hit: Also restores `SI * 2` [HP](./strive-core.md#health-points-hp) <br> `= 2` Hits: Also restores `SI * 3` [HP](./strive-core.md#health-points-hp) <br> `≥ 3` Hits: Also restores `SI * 4` [HP](./strive-core.md#health-points-hp) | You suffer `SI * 2` points of Pure Damage. |
 | 2     | Clear Mind           | 2  | `SI 3` | `2`                          | Removes the [Terrified](strive-core.md#terrified), [Jealous](strive-core.md#jealous), [Pacified](./strive-core.md#pacified), [Marked](./strive-core.md#marked) and [Stunned](./strive-core.md#stunned) Conditions from a ST in reach. | You become [Stunned](./strive-core.md#stunned)! |
-| 2     | Life Leech           | 2  | `1`    | Opposed by `Toughness`       | Draw the life from a ST creature. Deals Damage while healing the your own [HP](./strive-core.md#health-points-hp) for the same amount. May transfer `SI` points of [Bleeding](./strive-core.md#bleeding) or [Poisoned](./strive-core.md#poisoned) to the Damaged creature, if you so choose. <br> `≤ 1` Hit: `SI * 2` Bleeding <br> `= 2` Hits: `SI * 3` Bleeding <br> `≥ 3` Hits: `SI * 4` Bleeding | The effect triggers in reverse. |
+| 2     | Life Leech           | 2  | `1`    | Opposed by `Toughness`       | Draw the life from a ST creature. Deals Damage while healing the your own [HP](./strive-core.md#health-points-hp) for the same amount. May transfer `SI` points of [Bleeding](./strive-core.md#bleeding) or [Poisoned](./strive-core.md#poisoned) to the Damaged creature, if you so choose. <br> `≤ 1` Hit: `SI * 2` Pure <br> `= 2` Hits: `SI * 3` Pure <br> `≥ 3` Hits: `SI * 4` Pure | The effect triggers in reverse. |
 | 2     | Expel Illness        | 3  | `1`    | `Illness Ob - SI`            | Removes one [Illness](./strive-core.md#illness) of choice from a ST of choice, in hand's reach. | You contract a random [Illness](./strive-core.md#illness). | 
 | 4     | Reduce Slag          | 3  | `1`    | `SI + 1`                     | Remove `SI` points of [Arcane Slag](#arcane-overheat--slag) from a ST! If successful, this spell does not cause [Arcane Slag](#arcane-overheat--slag). | Instead of removing any [Arcane Slag](#arcane-overheat--slag), you gain `+2` points of it! |
 
@@ -1482,14 +1482,14 @@ In the common tongue, blood magic, utilizes fresh mage blood to disturbing effec
 
 | Level | Name                 | AP | Distance        | Ob                         | Effect(s)                      | Backfire Effect(s) |
 | ----- | -------------------- | -- | --------------- | -------------------------- | ------------------------------ | ------------------ |
-| 0     | Infusion             | 1  |                 | `SI`                       | **Concentration**: Cut a gash into your skin, arcanically charge your blood and smear it on something (like a weapon). The blood begins to boil, causing it to deal an additional `SI * 3` [Burning](./strive-core.md#damage-types) Damage. You may avoid suffering [Arcane Overheat](#arcane-overheat--slag) if you choose to suffer `1D10` [Bleeding](./strive-core.md#damage-types) Damage, instead. | You suffer `SI D4` points of [Bleeding](./strive-core.md#damage-types) Damage. |
-| 0     | Snap                 | 2  | `10`            | Opposed by `Toughness + 1` | Snap a twig or similar and channel the destructive power into a victim. They suffer a [Bludgeoning Injury](./strive-core.md#bludgeoning-injuries) and `SI * 3` points of [Bleeding](./strive-core.md#damage-types) Damage. | You suffer the Injury, instead. |
-| 1     | Blood Whip           | 2  | `SI * 5`        | `Opposed`                  | Have your blood lash out at a ST. You may avoid suffering [Arcane Overheat](#arcane-overheat--slag) if you choose to suffer `1D10` [Bleeding](./strive-core.md#damage-types) Damage, instead. <br> `≤ 1` Hit: `3 + SI` [Slashing](./strive-core.md#damage-types) + `SI * 2` [Bleeding](./strive-core.md#damage-types) <br> `= 2` Hits: `5 + SI` [Slashing](./strive-core.md#damage-types) + `SI * 2` [Bleeding](./strive-core.md#damage-types) <br> `≥ 3` Hits: `8 + SI` [Slashing](./strive-core.md#damage-types) + `SI * 3` [Bleeding](./strive-core.md#damage-types) | You suffer `1D10` points of [Bleeding](./strive-core.md#damage-types) Damage. |
-| 2     | Blood Boil           | 2  | `SI * 2`        | Opposed by `Toughness + 1` | Bring a ST's blood to a boil. <br> `≤ 1` Hit: `SI * 2` Pure <br> `= 2` Hits: `SI * 3` Pure <br> `≥ 3` Hits: `SI * 4` Pure | You suffer `1D10 burning` Damage, instead. |
-| 2     | Bond of Suffering    | 1  | `SI * 5`        | `SI`                       | **Concentration**: Your blood forms a bond between two designated creatures, who then share all Damage and healing. You may avoid suffering [Arcane Overheat](#arcane-overheat--slag) if you choose to suffer `1D10` [Bleeding](./strive-core.md#damage-types) Damage, instead. | You suffer twice as much [Direct Damage](./strive-core.md#damage--effects), until the start of your next Turn. |
-| 2     | Life Leech           | 2  | `1`             | Opposed by `Toughness`     | Draw the life from a ST creature of choice. Deals `SI * 3` points of [Bleeding](./strive-core.md#damage-types) Damage while healing your own [HP](./strive-core.md#health-points-hp) for the same amount. May transfer `SI` points of [Bleeding](./strive-core.md#bleeding) or [Poisoned](./strive-core.md#poisoned) from to the creature, if you so choose. | The effect triggers in reverse. |
+| 0     | Infusion             | 1  |                 | `SI`                       | **Concentration**: Cut a gash into your skin, arcanically charge your blood and smear it on something (like a weapon). The blood begins to boil, causing it to deal an additional `SI * 3` [Burning](./strive-core.md#damage-types) Damage. You may avoid suffering [Arcane Overheat](#arcane-overheat--slag) if you choose to suffer `1D10` Pure Damage, instead. | You suffer `SI D4` points of Pure Damage. |
+| 0     | Snap                 | 2  | `10`            | Opposed by `Toughness + 1` | Snap a twig or similar and channel the destructive power into a victim. They suffer a [Bludgeoning Injury](./strive-core.md#bludgeoning-injuries) and `SI * 3` points of Pure Damage. | You suffer the Injury, instead. |
+| 1     | Blood Whip           | 2  | `SI * 5`        | `Opposed`                  | Have your blood lash out at a ST. You may avoid suffering [Arcane Overheat](#arcane-overheat--slag) if you choose to suffer `1D10` Pure Damage, instead. <br> `≤ 1` Hit: `5 + SI` [Slashing](./strive-core.md#damage-types) <br> `= 2` Hits: `5 + SI * 2` [Slashing](./strive-core.md#damage-types) <br> `≥ 3` Hits: `5 + SI * 3` [Slashing](./strive-core.md#damage-types) | You suffer `1D10` points of Pure Damage. |
+| 2     | Blood Boil           | 2  | `SI * 2`        | Opposed by `Toughness + 1` | Bring a ST's blood to a boil. <br> `≤ 1` Hit: `SI * 2` Pure <br> `= 2` Hits: `SI * 3` Pure <br> `≥ 3` Hits: `SI * 4` Pure | You suffer `1D10 Burning` Damage, instead. |
+| 2     | Bond of Suffering    | 1  | `SI * 5`        | `SI`                       | **Concentration**: Your blood forms a bond between two designated creatures, who then share all Damage and healing. You may avoid suffering [Arcane Overheat](#arcane-overheat--slag) if you choose to suffer `1D10` Pure Damage, instead. | You suffer twice as much [Direct Damage](./strive-core.md#damage--effects), until the start of your next Turn. |
+| 2     | Life Leech           | 2  | `1`             | Opposed by `Toughness`     | Draw the life from a ST creature of choice. Deals `SI * 3` points of Pure Damage while healing your own [HP](./strive-core.md#health-points-hp) for the same amount. May transfer `SI` points of [Bleeding](./strive-core.md#bleeding) or [Poisoned](./strive-core.md#poisoned) from to the creature, if you so choose. | The effect triggers in reverse. |
 | 3     | Blood Armor          | 1  |                 | `SI`                       | **Reaction**: Upon you or an adjacent target being successfully Attacked, have your or your ally's blood form a hardened shell that absorbs up to `SI * 3` points of Damage. | You suffer `+1` [Bleeding](./strive-core.md#bleeding)! |
-| 4     | Slagletting          | 2  |                 | `SI + 1`                   | Remove `SI` points of [Arcane Slag](#arcane-overheat--slag) from yourself or a ST, but suffer `3` points of [Bleeding](./strive-core.md#damage-types) Damage for each point of [Arcane Slag](#arcane-overheat--slag) that is removed! If successful, this spell does not cause [Arcane Slag](#arcane-overheat--slag). | Instead of removing any [Arcane Slag](#arcane-overheat--slag), you gain `+2` points of it and suffer `6` points of Bleeding Damage! |
+| 4     | Slagletting          | 2  |                 | `SI + 1`                   | Remove `SI` points of [Arcane Slag](#arcane-overheat--slag) from yourself or a ST, but suffer `2` points of [Bleeding](./strive-core.md#damage-types) Damage for each point of [Arcane Slag](#arcane-overheat--slag) that is removed! If successful, this spell does not cause [Arcane Slag](#arcane-overheat--slag). | Instead of removing any [Arcane Slag](#arcane-overheat--slag), you gain `+2` points of it and suffer `+SI` [Bleeding](./strive-core.md#bleeding)! |
 
 **Rituals**
 
@@ -1928,8 +1928,8 @@ Whether through the bite, or blood, a Werewolf's curse transforms its victim int
   * Strike at a ST with sharp claws. 
   * Level: `5`, AP: `2`, Ob: Opposed, Melee, ST, Innate
   * `≤ 1` Hit: `7` Slashing
-  * `= 2` Hits: `9` Slashing; `+1` Bleeding
-  * `≥ 3` Hits: `11` Slashing; `+2` Bleeding
+  * `= 2` Hits: `9` Slashing; `+1` [Bleeding](./strive-core.md#bleeding)
+  * `≥ 3` Hits: `11` Slashing; `+2` [Bleeding](./strive-core.md#bleeding)
 * **Shoot Spine (Agi/Awar)**:
   * Shoot a spine from your back at a ST, up to `10` Fields away. 
   * Level: `4`, AP: `2`, Ob: `Opposed`, Ranged, ST, Innate
@@ -2037,8 +2037,8 @@ A massive, bipedal abomination. Its thin limbs are too long for its proportions,
   * Tear a ST to shreds with your claws. Cannot be used against a target you're currently Grappling. 
   * Level: `5`, AP: `2`, Ob: Opposed, Melee, ST, Innate
   * `≤ 1` Hit: `8` Slashing
-  * `= 2` Hits: `10` Slashing; `+1` Bleeding
-  * `≥ 3` Hits: `13` Slashing; `+1` Bleeding
+  * `= 2` Hits: `10` Slashing; `+1` [Bleeding](./strive-core.md#bleeding)
+  * `≥ 3` Hits: `13` Slashing; `+1` [Bleeding](./strive-core.md#bleeding)
 * **Spew Taint (Arc/Arc)**:
   * Spew the Taint at a victim, up to `5` Fields away, causing `+1` [Corruption](#corruption) in the victim.
   * Level: `4`, AP: `2`, Ob: Opposed, Ranged, ST, Innate
@@ -2129,7 +2129,7 @@ A massive, monstrous mass of bare flesh and bone. Its skin is like fish's mail, 
   * **You Were Not There**:
     * Displace up to `3` foes randomly (see [Random Direction](./strive-core.md#random-direction)), up to `6` Fields far.
   * **You Were Weaker**:
-    * Inflict a Bleeding Injury to `3` foes. 
+    * Inflict `+1` [Bleeding](./strive-core.md#bleeding) to `3` foes. 
   * **A Cage**:
     * Cages of bone form around `3` foes, [Rooting](./strive-core.md#rooted) them. Each cage has `10` HP and lasts `3` Rounds. 
   * **You Were Slower**:
@@ -2256,8 +2256,8 @@ This minor Demon towers above and punishes foes with reckless abandon. One of it
   * Strike at a ST with your blade-like arm.
   * Level: `4`, AP: `2`, Ob: `Opposed`, Melee, ST, Innate
   * `≤ 1` Hit: `6` Slashing
-  * `= 2` Hits: `8` Slashing; `+1` Bleeding
-  * `≥ 3` Hits: `10` Slashing; `+2` Bleeding
+  * `= 2` Hits: `8` Slashing; `+1` [Bleeding](./strive-core.md#bleeding)
+  * `≥ 3` Hits: `10` Slashing; `+2` [Bleeding](./strive-core.md#bleeding)
 * **Retaliate (Agi/Str)**:
   * **Reaction**: When being Attacked, immediately launch a free Counter-Attack with your Wicked Blade Strike. But in doing so, allow one *other* Character than the one you're retaliating against to *also* launch a free and immediate Counter-Attack against *you*! You cannot Retaliate against that other Character - the chain of Counter-Attacks ends with them. 
 * **Vomit Blood (Agi/Tough)**:
@@ -2505,7 +2505,7 @@ Flames dance across the Demon's obsidian skin and it roars with ferocity - yet a
 
 | BI     | Sprint | Stabil | HP  | Stamina    | Def    | Armor             |
 | ------ | ------ | ------ | --- | ---------- | ------ | ----------------- |
-| 8      | 5      | 6      | 100 | 20         | 2D     | Burning Immune <br> -5 Freezing <br> 8 Slashing <br> 6 Piercing <br> 6 Bludgeoning <br> 6 Acid <br> 6 Bleeding |
+| 8      | 5      | 6      | 100 | 20         | 2D     | Burning Immune <br> -5 Freezing <br> 8 Slashing <br> 6 Piercing <br> 6 Bludgeoning <br> 6 Acid |
 
 **Traits**: [Fortified Mind](./strive-core.md#fortified-mind--4-points-1-cr); [Leaper](./strive-core.md#leaper--3-points-2-cr); [Danger Blood (Burning)](./strive-core.md#danger-blood--1-point-1-cr); [Hyperactive + Multi-Initiative](./strive-core.md#hyperactive--7-points-4-cr)
 
@@ -2550,7 +2550,7 @@ The Demon's form vanishes in a sea of fire, which rages and roars with unbridled
 
 | BI     | Sprint | Stabil | HP  | Stamina    | Def    | Armor             |
 | ------ | ------ | ------ | --- | ---------- | ------ | ----------------- |
-| 8      | 5      | 6      | 100 | 20         | 2D     | Burning Immune <br> 8 Slashing <br> 6 Piercing <br> 6 Bludgeoning <br> 6 Acid <br> 8 Bleeding |
+| 8      | 5      | 6      | 100 | 20         | 2D     | Burning Immune <br> 8 Slashing <br> 6 Piercing <br> 6 Bludgeoning <br> 6 Acid |
 
 **Traits**: 
 * [Fortified Mind](./strive-core.md#fortified-mind--4-points-1-cr)
@@ -2757,18 +2757,18 @@ This major Demon is a pale biped, without a head and many pairs of arms symmetri
   * Level: `4`, AP: `3`, Innate
 * **Terrible Reprisal (Arc/Arc)**:
   * Another pair of unfolded hands claps together and remains so. The next time this ability is used, the next pair claps together. Each has a different and ever stronger effect. Once all hands have clapped, they unfold and the cycle repeats. 
-  <br> 1st pair: The reverberation of the clap resonates within all in a `100` Field radius around. They suffer `+1` Bludgeoning Injury. 
-  <br> 2nd pair: All in a straight AoE line, up to `20` Fields far, suffer `5` Bleeding Damage. 
-  <br> 3rd pair: All in a `100` Field radius around suffer `+1` Strain. 
-  <br> 4th pair: Up to `3` MST become [Berserked](./strive-core.md#berserk), if they fail a Self-Control Ob `2` Test. 
-  <br> 5th pair: All in a `10` Fields radius, suffer `8` Bleeding Damage. 
-  <br> 6th pair: All in a `10` Fields radius, suffer `-1` to every Attribute, for `3 Rounds.
-  <br> 7th pair: Reprieve. All in a `30` Fields radius, regain `+10` HP and regain `3` Stamina.
-  <br> 8th pair: All in a `100` Field radius around suffer `+2` Strain. 
-  <br> 9th pair: All in a `20` Field radius around suffer `5` Pure Damage.
-  <br> 10th pair: Up to `3` MST become [Pacified](./strive-core.md#berserk), if they fail a Self-Control Ob `3` Test. 
-  <br> 11th pair: All in a `20` Field radius around suffer `10` Pure Damage.
-  <br> 12th pair: All in a `100` Field radius around suffer `3D10 + 10` Pure Damage.
+    * 1st pair: The reverberation of the clap resonates within all in a `100` Field radius around. They suffer `+1` Bludgeoning Injury. 
+    * 2nd pair: All in a straight AoE line, up to `20` Fields far, suffer `+1` [Bleeding](./strive-core.md#bleeding). 
+    * 3rd pair: All in a `100` Field radius around suffer `+1` Strain. 
+    * 4th pair: Up to `3` MST become [Berserked](./strive-core.md#berserk), if they fail a Self-Control Ob `2` Test. 
+    * 5th pair: All in a `10` Fields radius, suffer `1D8` Pure Damage. 
+    * 6th pair: All in a `10` Fields radius, suffer `-1` to every Attribute, for `3 Rounds.
+    * 7th pair: Reprieve. All in a `30` Fields radius, regain `+10` HP and regain `3` Stamina.
+    * 8th pair: All in a `100` Field radius around suffer `+2` Strain. 
+    * 9th pair: All in a `20` Field radius around suffer `5` Pure Damage.
+    * 10th pair: Up to `3` MST become [Pacified](./strive-core.md#berserk), if they fail a Self-Control Ob `3` Test. 
+    * 11th pair: All in a `20` Field radius around suffer `10` Pure Damage.
+    * 12th pair: All in a `100` Field radius around suffer `3D10 + 10` Pure Damage.
   * Level: `4`, AP: `4`, Innate
 
 **Legendary Actions**:
@@ -2805,7 +2805,7 @@ This major Demon is but a husk of a creature. Its decrepit form can barely stand
 
 **Skills**:
 * **Evil Gaze (Arc/Arc)**:
-  * **Passive**: All victims it can see, in a `20` Field AoE line from it, begin to bleed incessantly from every orifice, suffering `6` Bleeding Damage every Turn. Its maddening gaze is oppressive - its victims feel as though their head is being crushed and suffer `+1` [Strain](./strive-core.md#stamina--strain). This effect is constant and enduring.
+  * **Passive**: All victims it can see, in a `20` Field AoE line from it, begin to bleed incessantly from every orifice, suffering `6` Pure Damage every Turn. Its maddening gaze is oppressive - its victims feel as though their head is being crushed and suffer `+1` [Strain](./strive-core.md#stamina--strain). This effect is constant and enduring.
   * Ranged, AoE, Innate
 
 **Legendary Actions**:
@@ -2878,7 +2878,7 @@ The following [Hostility Actions](./strive-core.md#hostility) are available to a
 **`-20` Hostility**: Suddenly, a Swine stops dead in its tracks, clawing at its skull and squealing in distorted pain, as demon horns spring from its forehead and the veins beneath its skin begin to glow in bright crimson. It grows to twice its size and peers around hungrily. 
 * It gains `+30` Temporary HP.
 * It becomes [Berserked](strive-core.md#berserk).
-* Its Attacks deal an additional `+6` points of Bleeding Damage. 
+* Its Attacks deal an additional `+6` points of Slashing Damage. 
 
 #### Filth & Darkness
 **`-10` Hostility**: The foul Swine have prepared a trap! The battlefield is flooded with a nauseating miasma and covered in unnatural darkness! 
@@ -2909,7 +2909,6 @@ This variant is small and stunted. Its legs are too short and deformed to be use
 **Traits**:
 * [Disease-Ridden](strive-core.md#disease-ridden--1-point-1-cr)
 * [Light-weight](strive-core.md#light-weight-2-points--1-cr)
-* [Vulnerable](strive-core.md#vulnerable-2-points--2-cr) to Bleeding `+6`
 
 **Assets**: Tattered Rags (Clothing)
 
@@ -2950,7 +2949,6 @@ This variant stands tall and proud, its wrinkled skin riddled with scars. Its tu
 | 8      | 4      | 2      | 50  | 5          | 4      | 8/4/0 Slashing <br> 6/3/0 Piercing <br> 4/2/0 Bludgeoning |
 
 **Traits**:
-* [Vulnerable](strive-core.md#vulnerable-2-points--2-cr) to Bleeding `+6`
 * [Hyperactive + Disruptive](strive-core.md#hyperactive--7-points-4-cr)
 
 **Assets**: Polearm, Medium Shield, Swine Champion Armor
@@ -3010,8 +3008,7 @@ This variant is as almost as small as a Belcher, but with strong legs and arms, 
 | ------ | ------ | ------ | --- | ---------- | ------ | ----------------- |
 | 10     | 4      | 0      | 20  | 2          | 3      |                   |
 
-**Traits**:
-* [Vulnerable](strive-core.md#vulnerable-2-points--2-cr) to Bleeding `+6`
+**Traits**: None
 
 **Assets**: Tattered Rags (Clothing), Dagger x2
 
@@ -3051,8 +3048,7 @@ A hulking mass of Swine and muscle, towering above its lesser brethren. Despite 
 | ------ | ------ | ------ | --- | ---------- | ------ | ----------------- |
 | 3      | 4      | 4      | 60  | 7          | 1      |                   |
 
-**Traits**:
-* [Vulnerable](strive-core.md#vulnerable-2-points--2-cr) to Bleeding `+6`
+**Traits**: None
 
 **Assets**: Tattered Rags (Clothing), Crusher
 
@@ -3091,8 +3087,7 @@ An intelligent and cruel leader among the Swine. Its gaze attentively surveys al
 | ------ | ------ | ------ | --- | ---------- | ------ | ----------------- |
 | 9      | 3      | 0      | 40  | 4          | 2      |                   |
 
-**Traits**:
-* [Vulnerable](strive-core.md#vulnerable-2-points--2-cr) to Bleeding `+6`
+**Traits**: None
 
 **Assets**: Fine Rags (Clothing)
 
@@ -3109,7 +3104,7 @@ An intelligent and cruel leader among the Swine. Its gaze attentively surveys al
   * A shaman commands respect and terror.
   * Level: `5`, Innate
   * **Fire Up The Blood**:
-    * Strike up a haunting chant, in demonic language, stirring the blood of your fellow Swine. One of of them, up to `15` Fields away is enraged, and overwhelmed with their demoic blood beginning to boil, which starts leaking out of their eyes and nostrils. Until the end of combat, every tick, they suffer `5` points of bleeding Damage (the Swine's vulnerability to bleeding Damage does not get triggered by this), but also deal an additional `8` points of Bludgeoning Damage on every successful Attack. 
+    * Strike up a haunting chant, in demonic language, stirring the blood of your fellow Swine. One of of them, up to `15` Fields away is enraged, and overwhelmed with their demoic blood beginning to boil, which starts leaking out of their eyes and nostrils. Until the end of combat, every tick, they suffer `3` points of Pure Damage, but also deal an additional `8` points of Bludgeoning Damage on every successful Attack. 
     * AP: `3`, Ob: `2`, ST (ally Swine), Ranged: `15`, Vocal
   * **Drums Of Terror**:
     * Beating on a drum with a... face... stretched across it, instill terror in your foes. Every non-Swine in a `15` Field AoE radius around must succeed a Self-Control Test, or else become [Terrified](strive-core.md#terrified) of the shaman. 
@@ -3138,7 +3133,6 @@ This variant has full dark-red fur and much shorter tusks. It moves deftly, albe
 | 10     | 4      | 0      | 30  | 4          | 2      |                   |
 
 **Traits**:
-* [Vulnerable](strive-core.md#vulnerable-2-points--2-cr) to Bleeding `+6`
 * [Poisoner](strive-core.md#poisoner--4-points-2-cr)
 
 **Assets**: Tattered Rags (Clothing), Javelin x8, Trap: Bear x3
@@ -3171,8 +3165,7 @@ This variant is lanky, lacking much of the bulk of its brethren. 
 | ------ | ------ | ------ | --- | ---------- | ------ | ----------------- |
 | 5      | 3      | 1      | 30  | 4          | 2      |                   |
 
-**Traits**:
-[Vulnerable](strive-core.md#vulnerable-2-points--2-cr) to Bleeding `+6`
+**Traits**: None
 
 **Assets**: Tattered Rags (Clothing), Axe, Light Shield
 
@@ -3201,9 +3194,9 @@ This variant is massive and strong. Most of its body is covered in dark, dirty c
 | ------ | ------ | ------ | --- | ---------- | ------ | ----------------- |
 | 4      | 3      | 3      | 40  | 4          | 1      |                   |
 
-Traits: [Vulnerable](strive-core.md#vulnerable-2-points--2-cr) to Bleeding `+6`
+**Traits**: None
 
-Assets:
+**Assets**:
 * Clothing: Swine Armored Rags, Crusher
 
 Swine Armored Rags: Slashing `6`, Piercing `4`, Bludgeoning `3`, Acid `6`
@@ -3392,7 +3385,7 @@ Eight very long and thin bony legs carry the creature's weight. Their ends are s
 
 | BI     | Sprint | Stabil | HP  | Stamina    | Def    | Armor             |
 | ------ | ------ | ------ | --- | ---------- | ------ | ----------------- |
-| 3      | 3      | 3      | 50  | 10         | 3D     | 8/4/0 Slashing <br> 6/3/0 Piercing <br> 4/2/0 Bludgeoning <br> Poison immune <br> 4 Bleeding |
+| 3      | 3      | 3      | 50  | 10         | 3D     | 8/4/0 Slashing <br> 6/3/0 Piercing <br> 4/2/0 Bludgeoning <br> Poison immune |
 
 **Traits**:
 * [Death Rattle](./strive-core.md#death-rattle--2-points-2-cr) (Explode: `2D4` Bludgeoning and Force-Moving `5` Fields, in an AoE radius of `2` Fields)
@@ -3496,7 +3489,7 @@ A bone golem with long, rope-y arms made of spinal columns, lined with knife-lik
 
 | BI     | Sprint | Stabil | HP  | Stamina    | Def    | Armor             |
 | ------ | ------ | ------ | --- | ---------- | ------ | ----------------- |
-| 7      | 4      | 0      | 40  | 4          | 3D     | 8/4/0 Slashing <br> 6/3/0 Piercing <br> 4/2/0 Bludgeoning <br> Poison immune <br> 4 Bleeding |
+| 7      | 4      | 0      | 40  | 4          | 3D     | 8/4/0 Slashing <br> 6/3/0 Piercing <br> 4/2/0 Bludgeoning <br> Poison immune |
 
 **Traits**:
 * [Fortified Mind](./strive-core.md#fortified-mind--4-points-1-cr)
@@ -3534,7 +3527,7 @@ A huge flesh golem with proportions like a gorilla and a strong carapace of meta
 
 | BI     | Sprint | Stabil | HP  | Stamina    | Def    | Armor             |
 | ------ | ------ | ------ | --- | ---------- | ------ | ----------------- |
-| 5      | 4      | 2      | 60  | 12         | 1      | 8/4/0 Slashing <br> 6/3/0 Piercing <br> 4/2/0 Bludgeoning <br> Poison immune <br> 4 Bleeding |
+| 5      | 4      | 2      | 60  | 12         | 1      | 8/4/0 Slashing <br> 6/3/0 Piercing <br> 4/2/0 Bludgeoning <br> Poison immune |
 
 **Traits**:
 * [Sluggish](./strive-core.md#sluggish-4-points--2-cr)
