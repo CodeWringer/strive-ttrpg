@@ -1920,7 +1920,7 @@ The following [Hostility Actions](./strive-core.md#hostility) are available to a
 **`-20` Hostility**: Suddenly, a Swine stops dead in its tracks, clawing at its skull and squealing in distorted pain, as demon horns spring from its forehead and the veins beneath its skin begin to glow in bright crimson. It grows to twice its size and peers around hungrily. 
 * It gains `+30` Temporary HP.
 * It becomes [Berserked](strive-core.md#berserk).
-* Its attacks deal an additional `+6` points of Bleeding damage. 
+* Its attacks deal an additional `+6` points of Slashing damage. 
 
 #### Filth & Darkness
 **`-10` Hostility**: The foul Swine have prepared a trap! The battlefield is flooded with a nauseating miasma and covered in unnatural darkness! 
