@@ -1426,17 +1426,20 @@ When a Character is bludgeoned to `0` [HP](#health-points-hp), they might surviv
 > A Character with `22` HP and `5` Temporary HP suffers `6` points of Damage. After removing the `5` points of Temporary HP, the remaining `1` point of Damage overflows and reduces the regular HP to `21`. 
 
 ### Injury
-An **Injury** is a serious health impediment of a Character. It reduces the maximum [HP](#health-points-hp) and imposes other [Penalties](#boons--penalties), such as temporary reductions to [Attributes](#attributes).
+An **Injury** is a serious health impediment of a Character. 
 
-Whenever a Character's HP drop below a `10` HP segment, they *may* suffer an Injury, if they fail to **shrug it off**. Note this **does not** require `10+` Damage dealt in a single stroke! In fact, even just losing `1` HP can cause an Injury, if it happens to take the HP below a segment of `10`, for example from `40` down to `39`. At most `2` Injuries can be suffered from a single [Instance of Damage](#damage--effects). 
-
-> For example, someone unfortunate enough to suffer `30+` points of Damage in a single Attack need only fear suffering at most `2` Injuries from it. 
-
-For every Injury incurred, a Character's maximum HP are reduced by `-10`! A penalty to Toughness from an Injury **does not** further reduce the maximum HP! Even a treated Injury still applies the maximum HP penalty, until the moment it is fully healed and removed!
+Whenever a Character's HP reaches a segment of `10` HP, they *may* suffer an Injury, if they fail to **shrug it off**. Note this **does not** require `10+` Damage dealt in a single stroke! In fact, even just losing `1` HP can cause an Injury, for example from `41` down to `40`. Damage that causes your HP ro cross a threshold may also cause an Injury, for example from `41` down to `39`. What matters is that the threshold at `40` was reached. 
 
 There are two possible states of an Injury: **Untreated** or **Treated**. 
-* An **Untreated Injury** reduces [maximum HP](#health-points-hp) by `-10` *and* imposes additional penalites, such as to [Attributes](#attributes). 
-* A **Treated Injury** *still* reduces maximum HP by `-10`, but can no longer impose additional penalties.
+* An **Untreated Injury** reduces a Character's maximum HP by `-10` and reduces an [Attribute](#attributes)'s Level. 
+* A **Treated Injury** only reduces an [Attribute](#attributes)'s Level. 
+* A penalty to Toughness from an Injury **does not** further reduce maximum HP! 
+
+Additional, once-off penalties may also be applied, the moment the Injury is suffered.
+
+At most `2` Injuries can be suffered from a single [Instance of Damage](#damage--effects). 
+
+> Someone unfortunate enough to suffer `30+` points of Damage in a single Attack need only fear suffering at most `2` Injuries from it. 
 
 #### Shrugging Off An Injury
 To Shrug Off an Injury, they must succeed a [Toughness](#toughness-tough) Test with Ob at `N + 1`, where *N* is the number of successful Shrug-Offs, so far. Note that only PCs may Shrug Off Injuries. NPCs simply suffer Injuries, no Shrug-Offs are rolled. 
@@ -3834,11 +3837,13 @@ The maximum HP per member determines the increments of the Squad's **Death Thres
 
 > A Squad of `3` members, each with `10` maximum HP, result in Death Thresholds in increments of `10`: `0`, `10`, `20`. 
 
-Every time any of the members suffer Damage, it is applied to the shared HP pool. Whenever the shared HP fall below a Death Threshold, one of the Squad members dies. The member directly Attacked always dies first. If enough Damage has been dealt to kill more than one, the next closest Squad member dies, too. If multiple Death Thresholds are crossed by the same Damage source, resolve each of them, in succession.
+Every time any of the members suffer Damage, it is applied to the shared HP pool. Whenever the shared HP reach or fall below a Death Threshold, one of the Squad members dies. The member directly Attacked always dies first. If enough Damage has been dealt to kill more than one, the next closest Squad member dies, too. If multiple Death Thresholds are crossed by the same Damage source, resolve each of them, in succession.
 
 > Back to the `5` zombies example. They have `5` Death Thresholds: `0`, `10`, `20`, `30`, `40`. 
 > 
 > A PC deals `12` points of Damage to the Squad. The zombie Squad's shared HP are now at `50 - 12 = 38`, which crosses the threshold at `40`. The result is that one of the zombies dies. 
+>
+> Another Attack deals `8` Damage to the zombie Squad, bringing their shared HP to `30`. Another threshold is reached, and another zombie dies. 
 
 When preparing an encounter with a Squad, it may help to write down the thresholds when members of the Squad die, in advance.
 
