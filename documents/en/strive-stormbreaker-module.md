@@ -1286,9 +1286,12 @@ The Supplies only count as recovered if the Stormbreakers bring them back aboard
 The main corridor ends at a heavy security door. The Swine have gathered here, unable to get past the facility's lockdown. Metal panels creak beneath the Stormbreakers' feet, drawing the attention of the Swine, who immediately move to attack.
 
 **Mandatory encounter:**
-* `1` Squad of `4` [Swine Grunts](#swine-grunt)
-* `1` [Swine Rigger](#swine-rigger)
-* `1` [Swine Skulker](#swine-skulker)
+| **1 Stombreaker**                | **2 Stormbreakers**                           | **3 Stormbreakers**                           | **4 Stormbreakers**                           | **5+ Stormbreakers**                          |
+| -------------------------------- | --------------------------------------------- | --------------------------------------------- | --------------------------------------------- | --------------------------------------------- |
+| `2` [Swine Grunts](#swine-grunt) | `1` Squad of `3` [Swine Grunts](#swine-grunt) | `1` Squad of `4` [Swine Grunts](#swine-grunt) | `1` Squad of `4` [Swine Grunts](#swine-grunt) | `1` Squad of `4` [Swine Grunts](#swine-grunt) |
+|                                  |                                               | `1` [Swine Rigger](#swine-rigger)             | `1` [Swine Rigger](#swine-rigger)             | `1` [Swine Rigger](#swine-rigger)             |
+|                                  |                                               |                                               | `1` [Swine Skulker](#swine-skulker)           | `1` [Swine Skulker](#swine-skulker)           |
+|                                  |                                               |                                               |                                               | Reinforcements of Swine Grunts, if necessary  |
 
 The Grunts hold the front line, the Rigger uses explosives to punish clustered targets, and the Skulker attacks from a distant position with a clear line of sight. The Swine block access to the archive - this encounter cannot be bypassed by taking another route.
 
