@@ -1492,7 +1492,7 @@ A `2D10 + 4` roll determines the number of **QoDs** the Injury takes to fully he
 #### Grit Points
 <img src="../../img/grit.svg" style="width: 3rem; height: 3rem;"> **Grit Points** let a Character stand up in defiance of their [Injuries](#injury) and make a last-ditch effort to turn the wheel of fate around. 
 
-Every time a Character suffers an Injury, they gain `+1` Grit Point. These are a one-time use resource and last until they are spent or until *any* Injury has fully healed. Under normal circumstances, only PCs gain Grit Points. 
+Every time a Character suffers an Injury, they gain `+1` Grit Point. These are a one-time use resource and last until they are spent, the end of Combat or the current scene, or until *any* Injury has been [Treated](#injury-treatment). Under normal circumstances, only PCs gain Grit Points. 
 
 You may spend Grit Points at any time during a Round for the following effects (but only one Grit Point per effect, per Round): 
 * On a [Test](#tests), gain `+2D`. 
