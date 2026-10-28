@@ -2007,7 +2007,17 @@ Every [non-Trivial Project's](#trivial-project) **Progress** is tracked numerica
 
 A **Work-Session** describes an instance of meaningful work being done, each of which results in Progress. **Work-Rate** determines how often Work-Sessions may occur, in the format `X / QoD`. A variable number of Work-Sessions may fit into a [QoD](#quarters-of-a-day-qod). 
 
-For every Work-Session you devote your time to, you may add your **Project Skill's Level** as points of Progress. Up to `5` assisting Characters may also add `+1` point of Progress every Work-Session, along with you. But of course, in the meantime, these Characters cannot work on their own Projects. Note that Progress isn't rolled for, it is simply added. 
+For every Work-Session you *devote* your time to, you may add your **Project Skill's Level** as points of Progress. You may *Fork* your related *Known Skills*, granting you `+1` additional progress for each of them. Their exact Level doesn't matter, but has to be at least `1`. 
+
+Up to `3` assisting Characters may also add `+1` point of Progress for every *Known Skill* they can help with. The Level of the assistant's Known Skills doesn't matter. But of course, in the meantime, these Characters cannot work on their own Projects or perform other tasks. Note that **Progress isn't rolled for**, it is simply added. 
+
+> An inventor type PC wants to invent a new type of gadget. Consulting their GM, they determine that the main Project Skill is Mechanics, and Metallurgy can be *Forked* into the Work-Sessions. 
+>
+> Assuming their Mechanics to be Level `3`, they get to add `4 = 3 (Mechanics) + 1 (Metallurgy, whose Level is irrelevant)` points of progress every Work-Session. 
+>
+> Additionally, another PC can help, by contributing their own knowledge in Mechanics and Metallurgy. The Level in those Skills is irrelevant. 
+>
+> Thus, the final amount of progress to be made every Work-Session is `6 = 4 (from the inventor) + 2 (from their assistant's Metallurgy and Mechanics)`. 
 
 Every time you arrive at the current Required Progress, you must make a choice. **Finish** the Project and accept its current Quality Level, or **Push On**. 
 
