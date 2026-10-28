@@ -9,3 +9,4 @@ Modules extend or alter the core rules, to fit a specific theme or setting. They
 
 Current official modules are:
 * [STRIVE Fantasy Module](documents/en/strive-fantasy-module.md) - Adds rules suited to a fantasy medieval setting. 
+* [STRIVE Stormbreaker Module](documents/en/strive-stormbreaker-module.md) - A desperate survival story above poisonous clouds, with a Dieselpunk aesthetic. 
