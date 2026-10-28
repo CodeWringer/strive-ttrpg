@@ -170,6 +170,7 @@ By using STRIVE (that includes but is not limited to viewing, reading, referenci
       - [Beginner's Luck](#beginners-luck)
       - [Expertise](#expertise)
       - [Concentration](#concentration)
+      - [Sustained](#sustained)
     - [Languages](#languages)
     - [Advancement](#advancement)
       - [Experience Points (XP)](#experience-points-xp)
@@ -1184,9 +1185,18 @@ An Ob may be noted on an Expertise. In order to activate it, a Test of the Ownin
 [Weapon Skills](#weapon--weapon-family---base-attributes-) use Expertises to denote the ways one can Attack with them. 
 
 #### Concentration
-A **Concentration** Skill or Expertise upholds its effect(s) once successfully enacted, for as long as the user desires or is conscious. Under normal circumstances, a Character may only have **one Concentration** ability active at the same time. 
+A **Concentration** Skill or Expertise upholds its effect(s) once successfully enacted, for as long as the user desires or is conscious for. Under normal circumstances, a Character may only have **one Concentration** ability active at the same time. 
 
-Concentration can be broken! This happens automatically, if the Character is incapacitated. When they are Attacked, they must succeed a [Self-Control](#self-control-toughwit) Test at Ob `3`. If Concentration is broken, the Concentration effects immediately end. 
+Concentration can be broken! If it is broken, all maintained effects immediately end.
+* This happens automatically, when a Character is made [**Unconscious**](#unconscious). 
+* When suffering an **Injury**, a **negative** [**Condition**](#condition) or at least `6` points of [**Effective Damage**](#damage--effects), a [Self-Control](#self-control-toughwit) Test is required to maintain Concentration. The Ob will be determined by the source of the Concentration and be noted in parentheses.
+
+> An Expertise whose description starts with "**Concentration (3)**:" requires a Self-Control Test at Ob `3` to **maintain** its effects. 
+
+#### Sustained
+A **Sustained** Skill or Expertise upholds its effect(s) once successfully enacted, for as long as the user desires. Under normal circumstances, a Character may only have **one Sustained** ability active at the same time. 
+
+These effects are mostly reserved for *special* NPC abilities. 
 
 ### Languages
 Characters know languages that allow them to communicate. Each language a Character knows is graded and may optionally also allow reading and writing in it. Outside of mundane, every-day communication, when a Character tries to understand more advanced speech or writing in a given language, they may roll a [Test](#tests) for it. For the Test, your number of dice is composed of your Wit, summed with the number of bonus dice your degree of proficiency grants. It is impossible to understand a language you do not know. 
@@ -1482,7 +1492,7 @@ A `2D10 + 4` roll determines the number of **QoDs** the Injury takes to fully he
 #### Grit Points
 <img src="../../img/grit.svg" style="width: 3rem; height: 3rem;"> **Grit Points** let a Character stand up in defiance of their [Injuries](#injury) and make a last-ditch effort to turn the wheel of fate around. 
 
-Every time a Character suffers an Injury, they gain `+1` Grit Point. These are a one-time use resource and last until they are spent or until *any* Injury has fully healed. Under normal circumstances, only PCs gain Grit Points. 
+Every time a Character suffers an Injury, they gain `+1` Grit Point. These are a one-time use resource and last until they are spent, the end of Combat or the current scene, or until *any* Injury has been [Treated](#injury-treatment). Under normal circumstances, only PCs gain Grit Points. 
 
 You may spend Grit Points at any time during a Round for the following effects (but only one Grit Point per effect, per Round): 
 * On a [Test](#tests), gain `+2D`. 
@@ -1997,7 +2007,17 @@ Every [non-Trivial Project's](#trivial-project) **Progress** is tracked numerica
 
 A **Work-Session** describes an instance of meaningful work being done, each of which results in Progress. **Work-Rate** determines how often Work-Sessions may occur, in the format `X / QoD`. A variable number of Work-Sessions may fit into a [QoD](#quarters-of-a-day-qod). 
 
-For every Work-Session you devote your time to, you may add your **Project Skill's Level** as points of Progress. Up to `5` assisting Characters may also add `+1` point of Progress every Work-Session, along with you. But of course, in the meantime, these Characters cannot work on their own Projects. Note that Progress isn't rolled for, it is simply added. 
+For every Work-Session you *devote* your time to, you may add your **Project Skill's Level** as points of Progress. You may *Fork* your related *Known Skills*, granting you `+1` additional progress for each of them. Their exact Level doesn't matter, but has to be at least `1`. 
+
+Up to `3` assisting Characters may also add `+1` point of Progress for every *Known Skill* they can help with. The Level of the assistant's Known Skills doesn't matter. But of course, in the meantime, these Characters cannot work on their own Projects or perform other tasks. Note that **Progress isn't rolled for**, it is simply added. 
+
+> An inventor type PC wants to invent a new type of gadget. Consulting their GM, they determine that the main Project Skill is Mechanics, and Metallurgy can be *Forked* into the Work-Sessions. 
+>
+> Assuming their Mechanics to be Level `3`, they get to add `4 = 3 (Mechanics) + 1 (Metallurgy, whose Level is irrelevant)` points of progress every Work-Session. 
+>
+> Additionally, another PC can help, by contributing their own knowledge in Mechanics and Metallurgy. The Level in those Skills is irrelevant. 
+>
+> Thus, the final amount of progress to be made every Work-Session is `6 = 4 (from the inventor) + 2 (from their assistant's Metallurgy and Mechanics)`. 
 
 Every time you arrive at the current Required Progress, you must make a choice. **Finish** the Project and accept its current Quality Level, or **Push On**. 
 
@@ -2428,11 +2448,13 @@ When you gain or lose Momentum, only the most significant change counts! Note th
 
 | Gaining Momentum <img src="../../img/momentum-shift_heroism.svg" width="48px" height="48px"></img> | Losing Momentum <img src="../../img/momentum-shift_desperation.svg" width="48px" height="48px"></img> |
 | -------------------------------------- | ----------------------------------------------------------- |
-| Successfully Attacking a foe: `+1`     | PC or ally being successfully Attacked: `-2`                |
+| Successfully harming a foe: `+1`       | PC or ally being successfully harmed: `-2`                  |
 | Helping another PC or ally: `+3`       | A foe helping *their* ally: `-3`                            |
 | Causing an Injury in a foe: `+3`       | PC or ally suffering an Injury: `-5`                        |
 | Slaying a feeble foe: `+5`             | Ally struck down or PC brought to Death's Door: `-15`       |
 | Slaying a non-feeble foe: `+10`        | PC struck down `-40`                                        |
+
+In the table above, "harm" means inflicting Damage, negative Conditions or in any way effectively causing problems for your opponent. 
 
 #### Momentum Actions
 **Momentum Actions** are comprised of a **Heroic Act** and its counter-part, a **Desperate Measure**. The list below contains all the Momentum Actions that are always available to the PCs. 
@@ -3055,7 +3077,7 @@ This governs the understanding of what makes defensive structures effective and 
 | ----- | ---------------------- | -- | ------ | ------------------ |
 | 0     | Blitz Stratagem        | 1  |        | Turn a Key Zone into a Zone of Mobility, replacing all its effects. You and all allies beginning their movement from within this zone may move an additional `6` Fields per [AP](#action-points-ap) spent. |
 | 0     | Breakthrough Stratagem | 1  | 0      | Turn a Key Zone into a Breakthrough Zone, replacing all its effects. All enemies inside the zone, who are Attacked, may also be [Knocked back](#forced-movement), by `Hits` Fields. |
-| 0     | Designate Key Zone     | 1  |        | **Concentration**: Designate a zone up to `4` Fields in radius (i.e. `8` in diameter), up to `15` Fields far away. If such a zone already exists, it may be moved, retaining its currents effects. You instruct your allies to get the most out of this area. Once you designate a type for it, they *will* know what to do. Effects from allies' zones do not stack with this one, if their zone is of the same type. |
+| 0     | Designate Key Zone     | 1  |        | **Concentration (2)**: Designate a zone up to `4` Fields in radius (i.e. `8` in diameter), up to `15` Fields far away. If such a zone already exists, it may be moved, retaining its currents effects. You instruct your allies to get the most out of this area. Once you designate a type for it, they *will* know what to do. Effects from allies' zones do not stack with this one, if their zone is of the same type. |
 | 1     | Killzone Stratagem     | 1  |        | Turn a Key Zone into a Killzone, replacing all its effects. All enemies inside the zone are [Marked](#marked) for one Round. |
 | 1     | Trenchline Stratagem   | 1  | 0      | Turn a Key Zone into a Trenchline Zone, replacing all its effects. All Damage you and your allies within the zone suffer is reduced by `Hits * 2`. Also, your and your allies' [Stability](#stability-stabil) is increased by `+2` while in the zone. |
 | 2     | Fear Stratagem         | 1  | 0      | Turn a Key Zone into a Zone of Fear, replacing all its effects. All enemies inside this zone, who suffer Damage must succeed a [Self-Control](#self-control-toughwit) Test at Ob equal to your `Hits`, or else become [Terrified](#terrified) of you and your allies inside the zone. |
