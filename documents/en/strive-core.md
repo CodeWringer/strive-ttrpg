@@ -2438,11 +2438,13 @@ When you gain or lose Momentum, only the most significant change counts! Note th
 
 | Gaining Momentum <img src="../../img/momentum-shift_heroism.svg" width="48px" height="48px"></img> | Losing Momentum <img src="../../img/momentum-shift_desperation.svg" width="48px" height="48px"></img> |
 | -------------------------------------- | ----------------------------------------------------------- |
-| Successfully Attacking a foe: `+1`     | PC or ally being successfully Attacked: `-2`                |
+| Successfully harming a foe: `+1`       | PC or ally being successfully harmed: `-2`                  |
 | Helping another PC or ally: `+3`       | A foe helping *their* ally: `-3`                            |
 | Causing an Injury in a foe: `+3`       | PC or ally suffering an Injury: `-5`                        |
 | Slaying a feeble foe: `+5`             | Ally struck down or PC brought to Death's Door: `-15`       |
 | Slaying a non-feeble foe: `+10`        | PC struck down `-40`                                        |
+
+In the table above, "harm" means inflicting Damage, negative Conditions or in any way effectively causing problems for your opponent. 
 
 #### Momentum Actions
 **Momentum Actions** are comprised of a **Heroic Act** and its counter-part, a **Desperate Measure**. The list below contains all the Momentum Actions that are always available to the PCs. 
