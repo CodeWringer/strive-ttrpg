@@ -970,7 +970,7 @@ Traits: [Ranged (10 DI)](./strive-core.md#foundational-weapon-traits), [Range On
 | Level | Name                 | AP | Ob          | Description <br> Damage                   |
 | ----- | -------------------- | -- | ----------- | ----------------------------------------- |
 | 0     | Loose                | 2  | Opposed     | Shoot a ST. <br> `≤ 1` Hit: `4` Piercing <br> `= 2` Hits: `5` Piercing <br> `≥ 3` Hits: `6 + Awar` Piercing  |
-| 1     | Pin                  | 2  | Opposed     | Shoot a ST in their foot, [Rooting](./strive-core.md#rooted) them in-place until the end of their next Turn. <br> `≤ 1` Hit: `2` Piercing <br> `= 2` Hits: `3` Piercing <br> `≥ 3` Hits: `4` Piercing |
+| 1     | Double Pin           | 2  | Opposed     | Shoot `2` MST in their foot, [Rooting](./strive-core.md#rooted) them in-place until the end of their next Turn. <br> `≤ 1` Hit: `2` Piercing <br> `= 2` Hits: `3` Piercing <br> `≥ 3` Hits: `4` Piercing |
 | 2     | Double Shot          | 2  | Opposed + 1 | Shoot up to `2` MST at once. <br> `≤ 1` Hit: `3` Piercing <br> `= 2` Hits: `4` Piercing <br> `≥ 3` Hits: `5` Piercing |
 
 #### Weapon \<Longbow\> (Awar/Str)
@@ -984,13 +984,14 @@ Traits: [Ranged (20 DI)](./strive-core.md#foundational-weapon-traits), [Range On
 | 2     | Heavy Shot           | 2  | Opposed + 1 | Shoot a ST. `+1` [Strain](./strive-core.md#strain) to self. <br> `≤ 1` Hit: `5 + Str` Piercing <br> `= 2` Hits: `6 + Str` Piercing <br> `≥ 3` Hits: `8 + Str` Piercing   |
 
 #### Weapon \<Crossbow\> (Awar/Awar)
-Skill for [Crossbow](#crossbow) type weapons. Deadly, but slow to reload and without any utility. 
+Skill for [Crossbow](#crossbow) type weapons. Deadly, but slow to reload and offering only little utility. 
 
 Traits: [Ranged (15 DI)](./strive-core.md#foundational-weapon-traits), [Prefer Range](./strive-core.md#general-weapon-traits), [Slow Reload](./strive-core.md#general-weapon-traits)
 
 | Level | Name                 | AP | Ob          | Description <br> Damage                   |
 | ----- | -------------------- | -- | ----------- | ----------------------------------------- |
 | 0     | Loose                | 2  | Opposed     | Shoot a ST. <br> `≤ 1` Hit: `6` Piercing <br> `= 2` Hits: `8` Piercing <br> `≥ 3` Hits: `10` Piercing |
+| 1     | Pin                  | 2  | Opposed     | Shoot a ST in their foot, [Rooting](./strive-core.md#rooted) them in-place until the end of their next Turn. <br> `≤ 1` Hit: `4` Piercing <br> `= 2` Hits: `5` Piercing <br> `≥ 3` Hits: `6` Piercing |
 
 #### Weapon \<Firearm\> (Awar/Tough)
 Skill for [Firearm](#firearm) type weapons. It takes great discipline to not flinch at the sparks and smoke upon ignition. Very deadly, but also very slow to reload and without any utility. 
@@ -1430,7 +1431,7 @@ Creation of non-physical influences on the senses. That includes images, sounds 
 | ----- | -------------------- | -- | -------------- | ------------------------- | ------------------------------ | ------------------ |
 | 0     | Stationary Illusion  | 2  | `SI * 10`      | `SI`                      | **Concentration (1)**: Create a stationary illusory image, sound and/or smell in a radius of up to `SI * 3` Fields. The illusion can be debunked, with an [Observation](./strive-core.md#observation-awarawar) Test at Ob equal to `SI + 1`. | You lose control and your worst fear manifests in front of you! You become [Terrified](./strive-core.md#terrified) of this errant illusion, for `1` Round! |
 | 0     | Disguise             | 2  | `10`           | `SI`                      | **Concentration (2)**: Up to `SI` MST creatures' appearance, sound of voice, even smell, is changed as you desire. Note this is only an illusion and represents no *actual* change! The illusion can be debunked, with an [Observation](./strive-core.md#observation-awarawar) Test at Ob equal to `SI + 1`. | You lose control and instead of the intended change, the creatures change into your worst fear! You become [Terrified](./strive-core.md#terrified) of them, for `1` Round! |
-| 1     | Illusory Duplicates  | 2  | `SI * 3`       | `SI`                      | **Concentration (2)**: `SI` number of illusory copies of a ST emerge. The distracting images move around the the ST and each of them makes it `+1` Ob harder to hit the ST. Every time the ST is Attacked, one of the illusory duplicates is removed. When no duplicates remain, the spell ends automatically. | Instead of making it harder to hit the ST, the illusory duplicates are faulty and easily debunked. But they are distracting to the ST, making it `-1` Ob easier to hit them! |
+| 1     | Illusory Duplicates  | 2  | `SI * 3`       | `SI`                      | **Concentration (2)**: `SI` number of illusory copies of a ST emerge. The distracting images move around the the ST and each of them makes it `+1` Ob harder to hit the ST. Every time the ST is Attacked, one of the illusory duplicates is removed, and its Defensive boon with it. The number of illusory duplicates at the time you are Attacked equals the Defensive Ob boon you get. When no duplicates remain, the spell ends automatically. | Instead of making it harder to hit the ST, the illusory duplicates are faulty and easily debunked. But they are distracting to the ST, making it `-1` Ob easier to hit them! |
 | 2     | Conceal              | 3  | `SI * 3`       | `SI`                      | **Concentration (3)**: Up to `SI` targets become invisible. The light bends around them, but doesn't make them ethereal. | You lose control and instead of becoming invisible, a terrible noise emanates from you and your targets, for `SI` Rounds! |
 
 **Rituals**
@@ -1528,7 +1529,7 @@ Only targets within and up to the given *distance* can be moved and only within 
 | Level | Name                   | AP | Distance      | Ob                           | Effect(s)                      | Backfire Effect(s) |
 | ----- | ---------------------- | -- | ------------- | ---------------------------- | ------------------------------ | ------------------ |
 | 0     | Force Push             | 2  | `SI * 5`      | `SI`                         | In a `SI * 2` Field AoE cone, push back all, by `SI` Fields. | You lose control and the cone blasts backwards, through you! |
-| 0     | Telekinesis            | 2  | `SI * 5`      | `SI`                         | Move an inanimate ST object at great velocity (if desired). | You lose control and the object is flung in a random direction! |
+| 0     | Telekinesis            | 2  | `SI * 5`      | `SI`                         | Move an inanimate ST object at great velocity (if desired). Can also be used to disarm a Character, who can Oppose with Strength. It also takes an Opposed Strength roll to hold on to an object being moved while they are holding onto it. | You lose control and the object is flung in a random direction! |
 | 1     | Force Wall             | 2  | `SI * 5`      | `SI`                         | Create a wall of purple force in a `SI * 2` Fields line that will push anyone who touch it back by `SI` Fields. | You lose control and the wall is formed in a random line, instead. |
 | 2     | Forceful Strikes       | 1  | `SI * 5`      | `SI`                         | **Concentration (1)**: Up to `SI` MST's weapons glow purple and are enhanced with unnatural force. Every strike with them deals an additional `SI * 2` Bludgeoning Damage. | You lose control and are thrown `SI` Fields in a random direction! |
 | 3     | Creature Telekinesis   | 3  | `SI * 5`      | `Opposed`                    | Force move a ST creature up to `SI * 3`. | You are thrown `SI * 2` Fields in a random direction! |
@@ -1547,9 +1548,10 @@ The ability to communicate wordlessly, to alter emotions and even issue compelli
 | ----- | ---------------------- | -- | -------------- | ------------------------------ | ------------------------------ | ------------------ |
 | 0     | Wordless Communication | 2  | `SI * 4`       | `SI`                           | **Concentration (1)**: Communicate wordlessly with `SI` MST. Language barriers do not apply to this form of communication. |  |
 | 0     | Read Thoughts          | 2  | `SI * 4`       | Opposed by `Self-Control - SI` | Glimpse into the thoughts of ST for a short time. | The ST instead catches a glimpse into *your* thoughts. |
+| 0     | Detect Minds           | 1  | `SI * 10`      | `SI`                           | Detect all minds in a `Distance` radius around you. You can detect all organic creatures with a mind, regardless of whether they are sapient or sentient. Machine creatures are excluded. <br>`SI ≤ 1`: You can only detect the general presence of the minds, but directionless.<br>`SI ≥ 2`: You can also determine where, in relation to yourself, those minds are.<br>`SI ≥ 3`: You also glimpse an immediate, surface-level thought from each of those minds. | The ST instead catches a glimpse into *your* thoughts. |
 | 2     | Change a Mind          | 2  | `SI * 4`       | Opposed by `Self-Control - SI` | Alter a creature's current state of mind and emotion. | You are affected, instead. |
 | 3     | Pressing Thought       | 2  | `SI * 10`      | `SI + 1`                       | **Concentration (2)**: [Hasten](./strive-core.md#hasted) up to `SI` MST of choice. | You and your targets suffer `+1` [Strain](./strive-core.md#stamina--strain). |
-| 4     | Quiet Command          | 2  | `SI * 10`      | Opposed by `Self-Control - SI` | Issue a command to another creature, which they feel **strongly** compelled to follow. | `+1` [Strain](./strive-core.md#stamina--strain) to self. |
+| 4     | Quiet Command          | 2  | `SI * 10`      | Opposed by `2 + Self-Control - SI` | **Concentration (3)**: Issue a command to another creature, which they feel **strongly** compelled to follow. At the end of their Turn, the victim may attempt to resist it at a Self-Control Test with Ob equal to your `SI`.  | `+1` [Strain](./strive-core.md#stamina--strain) to self. |
 
 **Rituals**
 

@@ -382,6 +382,7 @@ By using STRIVE (that includes but is not limited to viewing, reading, referenci
     - [Deep Lungs](#deep-lungs)
     - [Gritty](#gritty)
     - [Flows Like Water](#flows-like-water)
+    - [Inconspicuous](#inconspicuous)
     - [Innate Armor](#innate-armor)
     - [Long Arms](#long-arms)
     - [Productive](#productive)
@@ -1414,9 +1415,11 @@ Whenever a Character is hurt, the Damage that has been inflicted upon them is de
 An exception to this rule applies when the [Damage Type](#damage-types) that brought them to `0` HP was [Bludgeoning](#damage-types). For that, see [Bludgeoned To 0 Hp](#bludgeoned-to-0-hp). <br>
 A further exception applies, but only for PCs, who upon reaching `0` HP are brought to [Death's Door](#deaths-door) (unless they are knocked unconscious). 
 
-Whenever HP drop below a segment of `10`, an [Injury](#injury) *may* be suffered. HP segments are always based on the Character's maximum HP. 
+Whenever HP **reaches or crosses** a segment of `10`, an [Injury](#injury) *may* be suffered. HP segments are always based on the Character's maximum HP. 
 
 > A Character with `30` maximum HP has `3` HP segments. The thresholds are: `0` (death), `10` (Injury) and `20` (Injury). The *current* HP do not factor into the segments, at all. 
+>
+> Assuming their current HP at `31` and they suffer `1` point of Damage, and are brought to `30` HP, they *may* suffer an Injury. 
 
 See the [Toughness](#toughness-tough) Attribute to determine the maximum HP. Also, the maximum HP cannot be reduced to less than `10`, for any reason. 
 
@@ -1976,20 +1979,20 @@ A **Complex Project** is a longer-term activity, that comes with significant cha
 #### Research Projects
 A Project can be about the research of **obscure** knowledge. You must visit various libraries, study dusty old tomes or comb countless digital archives, go on archeological digs and question other scholars. This is a task requiring substantial effort. For common, every-day knowledge that you may gain simply by asking strangers on the street, don't consider a Research Project. In fact, you might be better served simply role-playing such information-gathering. Or tie it to a Skill Test, that is, turn it into a [Trivial Project](#trivial-project). 
 
-The Quality Level you achieve in the end dictates the degree of knowledge you learned about your subject. You may always try to gain even deeper understanding of your topic, by researching the same subject matter again. Your previous knowledge *may* accelerate further studies, by improving your Work-Rate. Your GM will have to figure out by how much. 
+The Quality Level you achieve in the end dictates the degree of knowledge you learned about your subject. You may always try to gain even deeper understanding of your topic, by researching the same subject matter again. Your previous knowledge *may* accelerate further studies, by improving your [Work-Rate](#progressing-a-project). Your GM will have to figure out by how much. 
 
 When you finish the research Project, you'll have the answers you seek and may gain the title [Loremaster of *Subject* (degree)](#loremaster-of--subject---degree-), where you replace *Subject* with the subject you researched and *degree* with the Quality Level. 
 
 #### Invention Projects
-Invention is a very unique activity, that rules do not easily fit around. The GM will have to do a lot of heavy lifting, determining Work-Rate and Progress Increments, depending on the type of invention and the means available. 
+Invention is a very unique activity, that rules do not easily fit around. The GM will have to do a lot of heavy lifting, determining [Work-Rate](#progressing-a-project) and [Progress Increments](#progressing-a-project), depending on the type of invention and the means available. 
 
-Mechanically, Invention Projects work no differently from ordinary Complex Projects:
-1. Define the Invention. Ask *What is it?* and *What can it do?*. Don't ask *how will it work?* - that is where implicit fiction takes over. The ***Character*** will figure out the *how*, over the course of their Project - ***not the player***.
+Mechanically, Invention Projects work like Complex Projects:
+1. Define the Invention. Ask *What is it?* and *What can it do?* Don't ask *how will it work?* - that is where implicit fiction takes over. The *Character* will figure out the *how* - over the course of their Project - ***not the player***.
 2. Based on the answers, and the feasibility within your world...
     1. ...determine [Work-Rate](#determining-work-rate).
     2. ...determine [Progress Increment](#determining-progress-increment).
 
-That's it. Really, this is how all Projects are built, the only difference is that system-provided Assets come with pre-determind Work-Rate and Progress Increment. 
+That's it. This is how all Projects are built, the only difference is that system-provided Assets come with pre-determind Work-Rate and Progress Increment. 
 
 > Narratively, every Work-Session will advance you through the following loop. By how much, will depend on the nature of the Project. Sometimes, a single Work-Session may catapult you forward several steps. Other times, only a single step. In the end, it doesn't matter from a mechanics stand-point, but may help you envision your Project in greater detail. The GM can even leverage this cycle to give you Project Events completely unique to your particular Project. 
 > * Designing
@@ -2013,9 +2016,9 @@ Up to `3` assisting Characters may also add `+1` point of Progress for every *Kn
 
 > An inventor type PC wants to invent a new type of gadget. Consulting their GM, they determine that the main Project Skill is Mechanics, and Metallurgy can be *Forked* into the Work-Sessions. 
 >
-> Assuming their Mechanics to be Level `3`, they get to add `4 = 3 (Mechanics) + 1 (Metallurgy, whose Level is irrelevant)` points of progress every Work-Session. 
+> Assuming their Mechanics to be Level `3`, they get to add `4 = 3 (Mechanics) + 1 (Metallurgy, whose Level must be ≥ 1, but is otherwise irrelevant)` points of progress every Work-Session. 
 >
-> Additionally, another PC can help, by contributing their own knowledge in Mechanics and Metallurgy. The Level in those Skills is irrelevant. 
+> Additionally, another PC can help, by contributing their own knowledge in Mechanics and Metallurgy. The Level of each of those Skills must be `≥ 1`, but is otherwise irrelevant. 
 >
 > Thus, the final amount of progress to be made every Work-Session is `6 = 4 (from the inventor) + 2 (from their assistant's Metallurgy and Mechanics)`. 
 
@@ -2041,7 +2044,7 @@ When accepting a random Complication for a Project, roll for one of the results 
 | 4  | **Work-Accident**: in a moment of carelessness, you hurt yourself, accidentally. You suffer an [Injury](#injury)! Consult your GM to determine which. |
 
 #### Project Events
-Project Events are random events that may occur during long-lasting, significant Projects. The details of these should be reserved for the GM's eyes, only. 
+Project Events are random events that may occur during long-lasting, significant Projects. The details will be worked out by the GM. 
 
 | D12  | Event |
 | ---- | ----- |
@@ -2388,6 +2391,7 @@ Successfully **Defending** against an Attack negates all its Damage and other ef
 > If the Attacker achieves `3` and the Defender `2` Hits, then the Attacker wins. If both achieve `3` Hits, then the Defender wins. If the Attacker achieves `3` and the Defender `4` Hits, then the Defender wins. 
 
 The Defender must *choose* how to defend, unless a specific "Opposed by" Skill is noted on the Attacker's Skill. Valid choices are a [Weapon](#weapon--weapon-family---base-attributes-), the [Acrobatics](#acrobatics-agistr) or the [Shield](#shield-strtough) Skills. 
+* When Defending against a Ranged Attack with a Melee Ability (or vice versa), your Defense roll suffers `-1` Hit. E.g. Defending against a Ranged Attack with a Melee weapon. However, Acrobatics suffers no such penalty. 
 
 Defense is classified as follows:
 * [**Guarded**](#guarded) Defense, for which you gain `+1` [Edge](#edge) and reduces your Guarded by `-1`. During your Turn, you can spend `1` AP to gain `+1` Guarded, as many times as you like or until you have the maximum of `5` Guarded.  
@@ -2398,9 +2402,7 @@ Defense is classified as follows:
 *Wherever* Defense is concerned, you may either spend `1` AP or `1` Guarded to Defend, but not both at the same time. 
 
 ### AoE Defense
-Defending against [Area Of Effect](#area-of-effect) Attacks has the same Ob as the AoE Attack, plus one. If successful, you suffer only half (RD) of the AoE's Damage and effects. If the AoE Attack has no Ob, treat it as if it has Ob `2`. This Defense works on a per-Character basis. Everyone affected must Defend themselves, although they may also be [Defended by an ally](#defending-an-ally) to the same effect. 
-
-*Wherever* Defense is concerned, you may either spend `1` AP or `1` Guarded to Defend. 
+Defending against [Area Of Effect](#area-of-effect) Attacks has the same Ob as the AoE Attack, plus one. If successful, you suffer only half (RD) of the AoE's Damage and effects. If effects cannot be reasonably halved, they can instead be avoided, altogether. If the AoE Attack has no Ob, treat it as if it has Ob `2`. This Defense works on a per-Character basis. Everyone affected must Defend themselves, although they may also [Defended by an ally](#defending-an-ally) to the same effect. 
 
 > An Attacker uses an AoE Attack at Ob `2`. Having rolled their Attack Test, they determined their AoE Attack will deal `9` Burning damage to all foes around them. 
 >
@@ -2869,9 +2871,9 @@ Traits: [Melee](#foundational-weapon-traits)
 | Level | Name                       | AP | Ob                                   | Description           |
 | ----- | -------------------------- | -- | ------------------------------------ | --------------------- |
 | 0     | Punch, Kick, Headbutt      | 2  | Opposed                              | `≤ 1` Hit: `Str` Bludgeoning <br> `= 2` Hits: `Str * 2` Bludgeoning <br> `≥ 3` Hits: `Str * 2` Bludgeoning; Knock your opponent [Prone](#prone) |
-| 0     | Shove                      | 2  | Opposed by [Strength](#strength-str) | `≤ 1` Hit: Push a target `1` Field. <br> `= 2` Hits: Push a target `2` Fields and take their place, if you desire. Does not provoke [Opportunity Attacks](#opportunity-Attacks). <br> `≥ 3` Hits: Push a target `1 + Str` Fields and take their place, if you desire. Does not provoke [Opportunity Attacks](#opportunity-Attacks). |
+| 0     | Shove                      | 2  | Opposed by [Strength](#strength-str) | `≤ 1` Hit: Push a target up to `2` Fields. <br> `= 2` Hits: Push a target up to `3` OR `Str - 1` Fields and take their place, if you desire. Does not provoke [Opportunity Attacks](#opportunity-Attacks). <br> `≥ 3` Hits: Push a target up to `4` OR `Str + 1` Fields and take their place, if you desire. Does not provoke [Opportunity Attacks](#opportunity-Attacks). |
 | 1     | Grapple                    | 2  | Opposed by Unarmed Combat            | [Grapple](#grappled) a target. You can not use at least one hand for as long as you're grappling. <br> `≤ 1` Hit: The target is [Grappled](#grappled). <br> `= 2` Hits: The target is [Grappled](#grappled) and knocked [Prone](#prone) or disarmed, if possible. <br> `≥ 3` Hits: The target is [Grappled](#grappled), knocked [Prone](#prone) and disarmed, if possible. |
-| 3     | Be My Shield!              | 2  | /                                    | **Reaction**: If grappling an enemy and being hit with an Attack, make *them* take the hit, instead. The grappled enemy gets **no chance** to defend themself. |
+| 3     | Be My Shield!              | 2  |                                      | **Reaction**: Once per Round, if grappling an enemy and being hit with an Attack, make *them* take the hit, instead. The grappled enemy gets **no chance** to defend themself. At the end of the Attack, switch places, so that the Grappled target stands in between you and your Attacker. |
 
 | Level | Heroic Act <br><img src="../../img/heroic-acts.svg" width="64px" height="64px"></img> | Heroic Act Momentum Shift | Heroic Act Description | Desperate Measure Description | Desperate Measure Momentum Shift | Desperate Measure <br><img src="../../img/desperate-measures.svg" width="64px" height="64px"></img> |
 | ----- | ------------------------------------------------------------------------------------- | ------------------------- | ---------------------- | ----------------------------- | -------------------------------- | --------------------------------------------------------------------------------------------------- |
@@ -3134,6 +3136,9 @@ Whenever you gain Grit Points, gain `+1` more.
 ### Flows Like Water
 Gain the ability to re-direct a Forced-Movement onto an adjacent Character, at the cost of `-1` AP.
 
+### Inconspicuous
+Gain `+1` [Edge](#edge) for [Stealth](#stealth-agiawar) Tests. 
+
 ### Innate Armor
 Whether naturally tough-skinned or artificially enhanced, your hide proves especially resistant against a chosen [type of Damage](#damage-types), with `+3` points of armor. 
 
@@ -3153,7 +3158,9 @@ Every trap you lay in advance is `+1` Ob harder to detect and will deal an addit
 For a Test to Shrug Off a [Condition](#condition), you may add `+1` [Edge](#edge) at the cost of `-1` [Stamina](#stamina--strain).
 
 ### Substitutional Talent
-For one of your Skills, change its Base Attributes to any other Attributes of your choice.
+For one of your Skills, change its Base Attributes to any other Attributes of your choice. Can additionally change the Attribute used in the resolution of a Skill's and its Expertises' effects. 
+
+> E.g. changing Unarmed Combat to use Agility instead of Strength for its effect resolutions. 
 
 ### Steadfast
 Increases [Stability](#stability-stabil) by `+2`. 
@@ -3364,7 +3371,7 @@ For every point in **Frostbitten**, a Character suffers `-1D` to all [Tests](#te
 ### Grappled
 <img src="../../img/health-condition-grappled.svg" style="width: 3rem; height: 3rem;"></img>
 
-A **Grappled** Character is unable to move freely, counts as `+1` degree of [Flanked](#flanking) and can no longer perform [Opportunity Attacks](#opportunity-Attacks)!
+A **Grappled** Character is unable to move freely, counts as `+1` degree of [Flanked](#flanking), can no longer contribute to Flanking themselves, and can no longer perform [Opportunity Attacks](#opportunity-Attacks)!
 
 * Immediate Cancel: By winning an [Opposed](#opposed-test) [Unarmed Combat](#unarmed-combat-agistr) [Test](#tests) against the grappler. 
 
@@ -3377,7 +3384,7 @@ A **Guarded** Character may [Defend](#defending) against the next Attack that wo
 ### Hasted
 <img src="../../img/health-condition-hasted.svg" style="width: 3rem; height: 3rem;"></img>
 
-A **Hasted** Character gets `+1` [AP](#action-points-ap) per Turn and can, once per Turn, move without AP cost (Stamina and Strain costs, and difficult terrain still apply). 
+A **Hasted** Character gets `+1` [AP](#action-points-ap) per Turn and can, once per Turn, move at `-1` AP cost, down to no less than `0` (Stamina and Strain costs, and difficult terrain still apply). This can also reduce the AP cost of movement Actions, such as [Disengage](#disengage).
 
 ### Jealous
 <img src="../../img/health-condition-jealous.svg" style="width: 3rem; height: 3rem;"></img>
@@ -3493,7 +3500,7 @@ One should always keep in mind that despite the game mechanical effects of a mut
 | 67 - 73    | Blackened Nails        | Every finger and toe nail turns a goth black. That's about it. |
 | 74 - 80    | Hairless               | Every single hair falls from the body. A terminal case of baldness ensues. |
 | 81 - 86    | Special Needs Eyes     | The eyes turn a deep red and go cross-eyed. `-1` [Awareness](#awareness-awar) (seeing) |
-| 87 - 93    | Fetid Stench           | Whether from the mouth, or in general, a fetid stench emanates from the body, even assaulting the victim's own nose. `-1` [Awareness](#awareness-awar), `-1` [Stealth](#stealth-agiawar) (when smell is concerned). |
+| 87 - 93    | Fetid Stench           | Whether from the mouth, or in general, a fetid stench emanates from the body, even assaulting the victim's own nose. `-1` [Awareness](#awareness-awar), `-1D` to [Stealth](#stealth-agiawar) (when smell is concerned). |
 | 94 - 100   | Living Cadaver         | The body withers and pales. It is as if it had just risen from the grave. `-1` [Toughness](#toughness-tough). |
 
 # Game Mastery
