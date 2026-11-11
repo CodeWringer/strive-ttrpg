@@ -1553,12 +1553,6 @@ The ability to communicate wordlessly, to alter emotions and even issue compelli
 | 3     | Pressing Thought       | 2  | `SI * 10`      | `SI + 1`                       | **Concentration (2)**: [Hasten](./strive-core.md#hasted) up to `SI` MST of choice. | You and your targets suffer `+1` [Strain](./strive-core.md#stamina--strain). |
 | 4     | Quiet Command          | 2  | `SI * 10`      | Opposed by `2 + Self-Control - SI` | **Concentration (3)**: Issue a command to another creature, which they feel **strongly** compelled to follow. At the end of their Turn, the victim may attempt to resist it at a Self-Control Test with Ob equal to your `SI`.  | `+1` [Strain](./strive-core.md#stamina--strain) to self. |
 
-**Rituals**
-
-| Level | Name                 | Time Increment | Ob          | Ritualists | Effect(s)                      | Side-Effect(s)     | Backfire Effect(s) |
-| ----- | -------------------- | -------------- | ----------- | ---------- | ------------------------------ | ------------------ | ------------------ |
-| 5     | Confer Knowledge     | 1 Hour         | `6 - SI`    | 1 - 1      | Permanently confer `+1` Level of a Known Skill to a ST, but only up to your Level, minus two, in the Skill. Also, this costs **you** `-10` XP. Your Level in the Skill is unaffected. This can only be done once a day, to let the mind of the ST process its unnaturally gained knowledge. | You temporarily lose a Level in the Skill, for `1` day. | You permanently lose a Level in the Skill! |
-
 ## List of Illnesses
 This list supplements the list of Injuries of the [Core rules](./strive-core.md#list-of-injuries). 
 
@@ -1570,13 +1564,13 @@ This list supplements the list of Injuries of the [Core rules](./strive-core.md#
 The following is a list of all [Character Traits](#character-traits) of this Module.  See also the [Core Character Traits](./strive-core.md#list-of-character-traits).
 
 ### Anti-Mage
-You are entirely incapable of Magic, to the point that the Arcanosphere slows around you. Your [Arcana](#arcana-arc) Attribute can never be above Level `0`. All Magic used against you loses `-1` [SI](#spell-intensity-si) **or** deals `-5` points of Damage less - *you choose*.
+You are entirely incapable of Magic, to the point that the Arcanosphere slows around you. Your [Arcana](#arcana-arc) Attribute can never be above Level `0`. All Magic used against you loses `1` [SI](#spell-intensity-si) **or** deals `5` points of Damage less - *you choose*.
 
 ### Armored Confidence
 When wearing heavy armor, your confidence in it allows you to [Counter-Attack](./strive-core.md#counter-Attack) whenever you are hit, at the cost of `-1` [Stamina](./strive-core.md#stamina--strain).
 
 ### Breath Weapon
-Obvious jokes aside, your breath can deal some tangible Damage. `1D8 + 2` of either Acid, Burning, Freezing or Poison Damage (choose one when receiving the Trait). This costs `-1` AP and `-1` [Stamina](./strive-core.md#stamina--strain) and launches a ranged Attack in an AoE cone with a distance of `3` Fields. Can only be used once per Turn. 
+Obvious jokes aside, your breath can deal some tangible Damage. `1D8 + 2` of either Acid, Burning, Freezing or Poison Damage (choose one when receiving the Trait). This costs `1` AP and `1` [Stamina](./strive-core.md#stamina--strain) and launches a ranged Attack in an AoE cone with a distance of `3` Fields. Can only be used once per Turn. 
 
 ### Hot-Head
 When in the [Consuming Arcane Overheat](#arcane-overheat--slag) threshold, suffer `-5` points of Damage (minimum `0`) from it.
@@ -1585,7 +1579,7 @@ When in the [Consuming Arcane Overheat](#arcane-overheat--slag) threshold, suffe
 Can [Concentrate](./strive-core.md#concentration) on `+1` spell.
 
 ### Radiator
-Whenever your Arcane Slag is reduced, it is reduced by `+1` more.
+Whenever your Arcane Slag is reduced, it is reduced by `+2` more. Whenever your Arcane Overheat is reduced, it is reduced by `+3` more.
 
 ### Tempered
 Your [Arcane Overheat](#arcane-overheat--slag) thresholds are calculated as if your Arcana was `+1` Level higher.
@@ -1809,7 +1803,9 @@ Up to `2` times a day, when your current [Ritual](#rituals) *would* be interrupt
 This section complements the one from the [Core Rules](./strive-core.md#your-world). 
 
 ## Fantasy Player Species
-One of the major draws to a medieval fantasy world, is its diversity. The following is an offering of various playable Fantasy-themed species for you to incorporate, adapt or be inspired by as you please. They are designed to be distinct, and markedly different from one another. Each has unique strengths and weaknesses. They are **not** simply "re-colored humans". 
+One of the major draws to a medieval fantasy world, is its potential for diversity and variety. The following is an offering of various playable Fantasy-themed species for you to incorporate, adapt or be inspired by as you please. They are designed to be distinct, and markedly different from one another. Each has unique strengths and weaknesses - they are **not** just *re-colored humans*. 
+
+Note that each of these is only a **game mechanical suggestion**. No assumptions about possible cultural backgrounds is made. The GM has the final say as to which of these species actually exists in their world, what their cultures are, and what mechanical differences they might offer. As a GM, see the entries below as templates, or inspiration for your own world. 
 
 ### Human
 While not the most interesting option available, it is by no means boring to play a human, who are highly adaptable and stubborn creatures. During [Character Creation](./strive-core.md#character-creation), you may [pick **two** Traits](./strive-core.md#determine-character-traits), instead of just one.
@@ -2408,7 +2404,7 @@ This minor Demon has been forced into the body of a Zombie. It has deformed, as 
 This minor Demon is a canid-esque quadruped covered in countless bony spines, like a porcupine. It lacks fur, its skin is pallid and sunken, stretched taut across its bones. 
 
 * Power: Regular, CR: `8`
-* Summoning Ob: `2`, Requirements: `3` Bulk worth of [Abyssalite](#abyssalite)
+* Summoning Ob: `1`, Requirements: `3` Bulk worth of [Abyssalite](#abyssalite)
 * Roles: Artillery
   * A Damage dealer that stays out of melee as best it can. Besides its ranged Attack, it lacks any utility, but it is hard to hit and has great mobility as it can leap. 
 * Behavior: 

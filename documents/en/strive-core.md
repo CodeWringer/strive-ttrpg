@@ -1251,7 +1251,7 @@ For your convenience, the following table contains the precalculated requirement
 | 10    | 120       | 101          | 180       |
 
 #### Advancing Skills
-Whenever a Skill is [Tested](#tests), its current Advancement Progress must be incremented by `+1`. When it reaches a certain threshold, it advances (= "Levels Up"), thereby increasing its Level by `+1` and resetting all its Advancement Progress to `0`. The formula to determine the threshold is as follows: `8 + (N * 3)`, where *N* is the current Level. Note an exception applies to [Learning Skills](#learning-skills), whose threshold to advance is instead always `15`. 
+Whenever a Skill is [Tested](#tests), its current Advancement Progress must be incremented by `+1`. When it reaches a certain threshold, it advances - it **Levels Up** -, thereby increasing its Level by `+1` and resetting all its Advancement Progress to `0`. The formula to determine the threshold is as follows: `8 + (N * 3)`, where *N* is the current Level. Note an exception applies to [Learning Skills](#learning-skills), whose threshold to advance is instead always `15`. 
 
 For your convenience, the following table contains the precalculated requirements to advance a Skill Level. 
 * In the table, 'Level' is the Character's *current Level* in the Skill. 
@@ -1272,10 +1272,14 @@ For your convenience, the following table contains the precalculated requirement
 | 10    | 38  |
 
 #### Practice
-Whenever the Character's enjoy some [Down-Time](#time-management), away from adventuring, they may spend that time practicing. For every [QoD](#quarters-of-a-day-qod), of practice, they gain `+1` [Advancement Progress](#advancement). 
+Whenever your Character enjoys some [Down-Time](#time-management), away from adventuring, they may spend that time practicing. For every [QoD](#quarters-of-a-day-qod) (or whichever time interval works best in your game), of **Practice**, they gain `+1` [Advancement Progress](#advancement) to a Skill of your choice, but no [XP](#experience-points-xp). 
+
+For every contiguous phase of Down-Time, they can gain at most `+10` Advancement Progress in total, across all Practiced Skills. For very long Down-Times of several in-game months or even years, the GM may instead grant a flat Level-Up for one or two of the practiced Skills. 
 
 #### Teaching
-Much like it is possible for a Character to [Practice](#practice) on their own, they can also be taught by another, who knows more than them. Only [Skills](#skills) can be taught and the teacher's Skill Level must be at least one greater than that of their pupil. For every [QoD](#quarters-of-a-day-qod), of tutoring, the pupil gains `+2` [Advancement Progress](#advancement) to the Skill in question. 
+Much like it is possible for a Character to [Practice](#practice) on their own, they can also be taught by another, who knows more than them. Only [Skills](#skills) can be taught and the teacher's Skill Level must be at least one greater than that of their pupil. For every [QoD](#quarters-of-a-day-qod) (or whichever time interval works best in your game), of tutoring, the pupil gains `+2` [Advancement Progress](#advancement) to the Skill in question, but no [XP](#experience-points-xp). 
+
+Teaching is subject to the same restrictions as Practice.
 
 ### Innate Abilities
 An Innate Ability is an [Attribute](#attributes) or [Skill](#skills) unique to a specific ancestry, based on species, profession, culture and so on. An Innate Ability **cannot** be learned through regular means. Only a GM may decide whether a Character may acquire such an ability. Even PCs might receive Innate Abilities, based on their chosen ancestry, or through events that unfold during play.
@@ -1428,7 +1432,7 @@ A [Graduated](#graduated-test) [Medicine](#medicine-agiwit) Test can restore `Hi
 
 > For `3` Hits out of `7` rolled dice, a medic can restore `15 = 3 * 5` HP for themselves or an ally. 
 
-During a [Partial Rest](#resting), once per [QoD](#quarters-of-a-day-qod), up to `10` HP may be regained. A [Full Rest](#resting) always replenishes up to `30` HP. 
+During a [Partial Rest](#resting), once per [QoD](#quarters-of-a-day-qod), up to `Tough * 3` OR `9` HP may be regained. A [Full Rest](#resting) always replenishes up to `Tough * 5` OR `15` HP. 
 
 #### Bludgeoned to 0 HP
 When a Character is bludgeoned to `0` [HP](#health-points-hp), they might survive and fall [Unconscious](#unconscious), instead of dying. For that, they must succeed a [Toughness](#toughness-tough) [Test](#tests) at Ob `3`. If they fail, they die, after all.
