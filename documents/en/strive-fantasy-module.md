@@ -920,8 +920,8 @@ Traits: [Melee](./strive-core.md#foundational-weapon-traits), [Long Reach](./str
 
 | Level | Name                 | AP | Ob          | Description <br> Damage                   |
 | ----- | -------------------- | -- | ----------- | ----------------------------------------- |
-| 0     | Slash                | 2  | Opposed     | `≤ 1` Hit: `5` Slashing <br> `= 2` Hits: `7` Slashing <br> `≥ 3` Hits: `10` Slashing |
-| 0     | Stab                 | 2  | Opposed     | `≤ 1` Hit: `5` Piercing <br> `= 2` Hits: `6` Piercing <br> `≥ 3` Hits: `7` Piercing |
+| 0     | Slash                | 2  | Opposed     | `≤ 1` Hit: `5` Slashing <br> `= 2` Hits: `8` Slashing <br> `≥ 3` Hits: `12` Slashing |
+| 0     | Stab                 | 2  | Opposed     | `≤ 1` Hit: `4` Piercing <br> `= 2` Hits: `6` Piercing <br> `≥ 3` Hits: `9` Piercing |
 | 1     | Cleave               | 3  | 2           | Attack up to `2` targets at once, in a `2` Field AoE cone in front of you. <br> `≤ 1` Hit: `3` Slashing <br> `= 2` Hits: `4` Slashing <br> `≥ 3` Hits:  `6` Slashing |
 | 2     | Mord-Strike          | 2  | Opposed + 1 | Flip your weapon around and strike a ST on the head with the weight of the pommel. <br> `≤ 1` Hit: `3` Bludgeoning <br> `= 2` Hits: `4` Bludgeoning <br> `≥ 3` Hits: `3 + Str` Bludgeoning |
 | 3     | Whirlwind            | 3  | 2           | With far reaching swings of your weapon, let yourself be turned around by the flying blade, spinning like a carroussel and moving in a direction of your choosing, up to `4` Fields far. All other Characters are forced back by your onslaught. This does not provoke Opportunity Attacks. <br> `≤ 1` Hit: `1` Field <br> `= 2` Hits: `2` Fields <br> `≥ 3` Hits: `3` Fields |
@@ -933,7 +933,7 @@ Traits: [Melee](./strive-core.md#foundational-weapon-traits), [Ranged (max. `8`)
 
 | Level | Name                 | AP | Ob          | Description <br> Damage                   |
 | ----- | -------------------- | -- | ----------- | ----------------------------------------- |
-| 0     | Curved Toss          | 2  | Opposed     | Throw the weapon just past a ST and then with a flick, make it jump at their back. <br> `≤ 1` Hit: `4` Slashing <br> `= 2` Hits: `5` Slashing <br> `≥ 3` Hits: `6` Slashing |
+| 0     | Curved Toss          | 2  | Opposed     | Throw the weapon just past a ST and then with a flick, make it jump at their back. <br> `≤ 1` Hit: `4` Slashing <br> `= 2` Hits: `7` Slashing <br> `≥ 3` Hits: `10` Slashing |
 | 0     | Come Closer          | 2  | Opposed     | Throw the weapon just past a ST and then yank it back, catching them with it and pulling them closer to you. If the target is much larger and/or heavier than you, then you may pull *yourself* closer to them, for the same distance. <br> `≤ 1` Hit: `2` Fields; `2` Slashing <br> `= 2` Hits: `3` Fields; `3` Slashing <br> `≥ 3` Hits: `4` Fields; `4` Slashing |
 | 2     | Leg Sweep            | 2  | Opposed     | Swing the weapon at length and low, to sweep for an opponent's legs. Upon impact, yank the chain to sweep them off their feet, rendering them [Prone](./strive-core.md#prone). |
 | 4     | Think Twice          | 1  |             | **Reaction**: Upon one of your allies Attacking an enemy, you also throw your weapon straight at that enemy. Your ally's Attack is `-1` Ob easier as the enemy is confused by the two simultaneous Attacks! Your Attack does **not** cost the enemy any additional AP to defend against and is successful only if your ally's Attack is successful. Only possible once per Round. |
@@ -956,7 +956,7 @@ Traits: [Melee](./strive-core.md#foundational-weapon-traits), [Long Reach](./str
 
 | Level | Name                 | AP | Ob          | Description <br> Damage                   |
 | ----- | -------------------- | -- | ----------- | ----------------------------------------- |
-| 0     | Slash                | 2  | Opposed     | Strike a ST. <br> `≤ 1` Hit: `4` Slashing <br> `= 2` Hits: `5` Slashing <br> `≥ 3` Hits: `6` Slashing |
+| 0     | Slash                | 2  | Opposed     | Strike a ST. <br> `≤ 1` Hit: `6` Slashing <br> `= 2` Hits: `8` Slashing <br> `≥ 3` Hits: `10` Slashing |
 | 0     | Stab                 | 2  | Opposed     | Strike a ST. <br> `≤ 1` Hit: `6` Piercing <br> `= 2` Hits: `7` Piercing <br> `≥ 3` Hits: `8` Piercing |
 | 2     | Blade Barrier        | 3  |             | Until the start of your next Turn, whenever any Character moves **into** a spot within reach, can **freely** Attack that Character with a **Stab** at Ob `+1` and if successful, force them back `1` Field. |
 | 2     | Breakthrough         | 3  | Opposed     | Charge at a ST, up to `4` Fields away. <br> `≤ 1` Hit: `4` Piercing; Knock-Back `1` Field <br> `= 2` Hits: `4` Piercing; Knock-Back `2` Fields <br> `≥ 3` Hits:  `5` Piercing; Knock-Back `3` Fields |
@@ -2178,7 +2178,7 @@ All non-Demonic creatures are set on fire and suffer `4` Burning Damage every Tu
 This minor Demon is a horned mass of bulging muscle and covered in eternal flame. It is bipedal, with large claws and obsidian, scaly skin.
 
 * Power: Elite, CR: `20`
-* Summoning Ob: `4`, Requirements: [Murky Malevite Orb](#malevite) or greater
+* Summoning Ob: `3`, `3` Rounds, Requirements: `3` Bulk worth of [Abyssalite](#abyssalite)
 * Roles: Brawler, Shock-Trooper, Tank
   * Lesser Demons of Hatred often accompany or are summoned by a loose Greater Demon of Hatred.
   * These lesser demons have great staying-power and single-target Damage. 
@@ -2483,7 +2483,7 @@ This major Demon is a horned hulking mass of bulging muscle and covered in etern
 * Power: Legendary, CR: `40`
   * Intended as a boss encounter, this creature has two phases. When its HP are depleted for the first time, it enters its second stage. In the second stage, it regains all HP, becomes enraged and starts burning up.
   * This legendary monster is an **end-game level threat** - unprepared PCs **will perish**. 
-* Summoning Ob: `7`, Requirements: [Swirly Malevite Orb](#malevite) or greater
+* Summoning Ob: `6`, Requirements: [Swirly Malevite Orb](#malevite) or greater
 * Roles: Brawler, Disruptor, Tank
   * The Greater Demon Of Hatred is a legendary Demon. It does not yield and shows no quarter.
   * It is great at crowd control, and has several AoE Damage abilities. 
@@ -3523,11 +3523,12 @@ A huge flesh golem with proportions like a gorilla and a strong carapace of meta
 
 | BI     | Sprint | Stabil | HP  | Stamina    | Def    | Armor             |
 | ------ | ------ | ------ | --- | ---------- | ------ | ----------------- |
-| 9      | 6      | 3      | 80  | 16         | 3D     | 12/6/0 All <br> Poison immune |
+| 9      | 6      | 3      | 80  | 16         | 3D     | 6/6/6 All <br> Poison immune |
 
 **Traits**:
 * [Shambler](./strive-core.md#shambler-2-points--2-cr)
 * [Fortified Mind](./strive-core.md#fortified-mind--4-points-1-cr)
+* [Insurmountable](./strive-core.md#insurmountable--4-points-3-cr)
 
 **Assets**: None
 
