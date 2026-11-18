@@ -1194,6 +1194,10 @@ Concentration can be broken! If it is broken, all maintained effects immediately
 
 > An Expertise whose description starts with "**Concentration (3)**:" requires a Self-Control Test at Ob `3` to **maintain** its effects. 
 
+The Self-Control Test to maintain Concentration is required **only once** when Attacked. 
+
+> An Attack that causes a negative Condition, Damage and an Injury does **not** cause three Self-Control Tests. It still only necessitates **one**. 
+
 #### Sustained
 A **Sustained** Skill or Expertise upholds its effect(s) once successfully enacted, for as long as the user desires. Under normal circumstances, a Character may only have **one Sustained** ability active at the same time. 
 
@@ -2339,13 +2343,13 @@ There are four types of shapes that AoE effects can have:
 * <img src="../../img/aoe-line.svg" style="width: 2rem; height: 2rem;"></img> A line.
 
 ### Opportunity Attacks
-When a Character is within weapon's reach of another hostile Character, they're considered within the other's **Range of Opportunity**. Whenever a Character in an enemy's Range of Opportunity moves away from or more than `2` Fields *around* that enemy, that enemy can *choose* to perform an **Opportunity Attack**. 
+When a Character is within weapon's reach of another hostile Character, they're considered within the other's **Range of Opportunity**. Whenever a Character in an enemy's Range of Opportunity **moves away** from that enemy, that enemy can *choose* to perform an **Opportunity Attack**. 
 
 Performing an Opportunity Attack costs `-1` [AP](#action-points-ap) at a `-1D` penalty and will **halt** the enemy in question, preventing their movement, regardless of whether the Attack hits. When an Opportunity Attack against them is declared, the Defending Character may choose to [Push Through](#push-through), thus getting to move after all, but if they do, the Attacker instead of losing a die, gains `+1` [Edge](#edge) for their Opportunity Attack!
 
 An Opportunity Attack is a [Reaction](#actions-reactions--passives) and a Character may only perform **one Opportunity Attack, per Round**. 
 
-It is possible to avoid an Opportunity Attack with a [Disengage](#disengage) combat action. 
+It is possible to avoid an Opportunity Attack with a [Disengage](#disengage) Combat Action. 
 
 #### Disengage
 It is possible to move out of an enemy's [Range of Opportunity](#opportunity-Attacks) without provoking an [Opportunity Attack](#opportunity-Attacks), by **Disengaging** for `-2` [AP](#action-points-ap). The Disengaging Character **must** move in a direction that will get them out of the Range of Opportunity the fastest and safest, as far as `1` AP of movement would get them. 
@@ -3382,7 +3386,7 @@ A **Grappled** Character is unable to move freely, counts as `+1` degree of [Fla
 ### Guarded
 A **Guarded** Character may [Defend](#defending) against the next Attack that would affect them with `1` [Edge](#edge). 
 
-* Graded; Limit: `5`
+* Graded; Limit: `2`
 * Automatic Shrug-Off: `-1` point at the start of the Turn. 
 
 ### Hasted
@@ -4169,7 +4173,7 @@ The creature cannot be [Terrified](#terrified), [Berserked](#berserk), made [Jea
 This creature cannot be [Force-Moved](strive-core.md#forced-movement). 
 
 #### Insurmountable (-4 points; +3 CR)
-This creature does not suffer [Flanking](strive-core.md#flanking). 
+This creature suffers `-1` degree of [Flanking](strive-core.md#flanking). 
 
 #### Unstoppable (-2 points; +1 CR)
 The creature cannot be stopped by [Opportunity Attacks](strive-core.md#opportunity-Attacks). 
