@@ -3511,7 +3511,7 @@ A huge flesh golem with proportions like a gorilla and a strong carapace of meta
 
 * Power: Elite, CR: `15`
 * Roles: Disruptor, Shock-Trooper, Tank
-  * A deadly foe that is difficult to bring down. Its main weakness is its slow reaction speed. 
+  * A tanky foe that is difficult to bring down. Its main weakness is its slow regular movement speed. 
   * Uses Charge when surrounded, or when foes are neatly alined. But may also Charge at random. This thing isn't very tactically minded. 
   * Uses Slam on nearby singular foes, or at random. 
 * Behavior: 
@@ -3519,31 +3519,31 @@ A huge flesh golem with proportions like a gorilla and a strong carapace of meta
 
 | Agi   | Awar  | Str   | Tough | Wit   | Arc   |
 | ----- | ----- | ----- | ----- | ----- | ----- |
-| 3     | 1     | 6     | 6     | 1     | 0     |
+| 4     | 3     | 8     | 8     | 2     | 0     |
 
 | BI     | Sprint | Stabil | HP  | Stamina    | Def    | Armor             |
 | ------ | ------ | ------ | --- | ---------- | ------ | ----------------- |
-| 5      | 4      | 2      | 60  | 12         | 1      | 8/4/0 Slashing <br> 6/3/0 Piercing <br> 4/2/0 Bludgeoning <br> Poison immune |
+| 9      | 6      | 3      | 80  | 16         | 3D     | 12/6/0 All <br> Poison immune |
 
 **Traits**:
-* [Sluggish](./strive-core.md#sluggish-4-points--2-cr)
+* [Shambler](./strive-core.md#shambler-2-points--2-cr)
 * [Fortified Mind](./strive-core.md#fortified-mind--4-points-1-cr)
 
 **Assets**: None
 
 **Skills**: 
-* **Charge (Tough/Tough)**:
+* **Charge (Agi/Tough)**:
   * Charge forward in a AoE straight line, up to `10` Fields far, knocking aside anything in your path, `4` Fields far. You must charge at least `4` Fields in a straight line for this and cannot stop prematurely. But you *may* crash into an obstacle, which stops you. 
-  * Level `3`, AP: `3`, Melee, AoE, Innate
-* **Slash (Agi/Str)**:
-  * Strike at a ST with your sword. 
-  * Level `4`, AP: `2`, Ob: `Opposed`, Melee, ST, Innate
+  * Level `4`, AP: `3`, Melee, AoE, Innate
+* **Cleave (Agi/Str)**:
+  * Strike at all targets in an AoE cone, up to `3` Squares far, with your sword. 
+  * Level `5`, AP: `2`, Ob: `Opposed`, Melee, ST, Innate
   * `≤ 1` Hit: `8` Slashing
   * `= 2` Hits: `10` Slashing; Target is knocked back `1` Field
   * `≥ 3` Hits: `13` Slashing; Target is knocked back `2` Fields
 * **Slam (Agi/Str)**:
   * Slam into a ST with your massive arms.
-  * Level `4`, AP: `2`, Ob: `Opposed`, Melee, ST, Innate
+  * Level `5`, AP: `2`, Ob: `Opposed`, Melee, ST, Innate
   * `≤ 1` Hit: `6` Bludgeoning; Target is knocked back `3` Fields
   * `= 2` Hits: `7` Bludgeoning; Target is knocked back `4` Fields
   * `≥ 3` Hits: `8` Bludgeoning; Target is knocked back `5` Fields
